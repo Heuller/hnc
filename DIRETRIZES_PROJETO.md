@@ -11,8 +11,8 @@
 * **Cargo em Foco:** **Analista Legislativo — Atribuição: Bibliotecário**.
 * **Banca Examinadora Oficial:** **CEBRASPE (antigo CESPE/UnB)**.
 * **Repositório Local do Código:** `c:/Users/bibli/Downloads/CEBRASPE/curso-revisao`
-* **Repositório GitHub:** `https://github.com/Heuller/curso-revisao-funcamp`
-* **Endereço Web Ativo (GitHub Pages):** `https://heuller.github.io/curso-revisao-funcamp/`
+* **Repositório GitHub:** `https://github.com/Heuller/hnc`
+* **Endereço Web Ativo (GitHub Pages):** `https://heuller.github.io/hnc/`
 * **Tecnologias Utilizadas:** React 19, TypeScript, Vite, TailwindCSS v4, Lucide React, Framer Motion, GitHub Actions CI/CD.
 
 ### Objetivo Primordial
