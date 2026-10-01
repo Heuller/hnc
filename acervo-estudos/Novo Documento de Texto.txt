@@ -1,0 +1,46 @@
+Bloco A: Fundamentos (ALTA)
+Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras, história
+Cinco leis de Ranganathan e releituras contemporâneas
+Conceitos de informação, conhecimento e documento
+Profissão: legislação, Código de Ética do CFB, atribuições
+
+Bloco B: Gestão de unidades de informação (MÉDIA)
+Planejamento, avaliação de serviços e indicadores
+Marketing de serviços de informação
+Política de desenvolvimento de coleções: seleção, aquisição, avaliação, descarte
+Gestão da informação e do conhecimento
+
+Bloco C: Representação descritiva (ALTA)
+Catalogação, AACR2, RDA, FRBR e IFLA LRM
+MARC 21, Dublin Core, metadados, pontos de acesso
+Princípios Internacionais de Catalogação
+
+Bloco D: Representação temática (ALTA/MÉDIA)
+Classificação (CDD, CDU) e indexação
+Linguagens documentárias, tesauros e vocabulários controlados
+Ontologias e SKOS
+Análise documentária
+
+Bloco E: Recuperação da informação, fontes e usuários (ALTA)
+Estratégias de busca, operadores booleanos, mecanismos e metabuscadores
+Fontes de informação: tipologia e avaliação
+Serviço de referência, DSI e estudos de usuários
+Competência informacional
+
+Bloco F: Bibliotecas digitais, repositórios e tecnologia (ALTA)
+Biblioteca digital vs. eletrônica, arquitetura da informação e usabilidade
+Repositórios, interoperabilidade (OAI-PMH) e preservação digital (OAIS)
+Software de bibliotecas
+IA na Biblioteconomia e na Ciência da Informação
+
+Bloco G: Comunicação científica, Ciência Aberta e métricas (ALTA)
+Ciclo da comunicação científica e avaliação por pares (inclusive aberta)
+Acesso aberto (vias verde, dourada etc.) e princípios FAIR
+Dados de pesquisa e curadoria digital
+Bibliometria, cientometria, informetria; leis de Bradford, Zipf e Lotka; fator de impacto e índice h
+Direitos autorais e Creative Commons
+
+Bloco H: Conservação e preservação de acervos físicos (MÉDIA)
+
+Bloco I: Normalização (MÉDIA)
+Série ABNT NBR (referências, citações, trabalhos acadêmicos, resumo, sumário, artigo)
