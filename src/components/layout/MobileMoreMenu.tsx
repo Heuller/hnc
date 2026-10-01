@@ -1,11 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
+import { useAuthStore } from '../../store/useAuthStore';
 
 export const MobileMoreMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const { setActiveView } = useNavigationStore();
+  const { user, openAuthModal } = useAuthStore();
 
   const [currentTheme, setCurrentTheme] = useState<'light' | 'dark' | 'auto'>(() => {
     if (typeof window !== 'undefined') {
@@ -166,6 +168,26 @@ export const MobileMoreMenu: React.FC = () => {
           >
             <Download className="w-4 h-4 text-accent" />
             <span>Exportar / Importar Dados</span>
+          </button>
+
+          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
+            Nuvem & Conta
+          </div>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              openAuthModal();
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4 text-accent" />
+              <span>{user ? 'Minha Conta (Conectado)' : 'Entrar / Criar Conta'}</span>
+            </div>
+            {user && <span className="w-2 h-2 rounded-full bg-emerald-500" />}
           </button>
 
           {import.meta.env.DEV && (

@@ -12,6 +12,8 @@ import {
   criarItemLeitner,
 } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
+import { useAuthStore } from './useAuthStore';
+import { progressSyncService } from '../services/progressSyncService';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
@@ -389,6 +391,17 @@ export const useProgressStore = create<ProgressStoreState>()(
             emAndamento: false,
           },
         }));
+
+        // Sincroniza tentativa com o Supabase se usuário estiver autenticado
+        try {
+          const authUser = useAuthStore.getState().user;
+          if (authUser) {
+            progressSyncService.registrarSimulado(authUser.id, resultado);
+            progressSyncService.salvarProgressoNuvem(authUser.id, get(), get().ultimoModuloAcessado);
+          }
+        } catch (e) {
+          console.warn('[Supabase Sync] Falha ao registrar simulado na nuvem:', e);
+        }
 
         return resultado;
       },

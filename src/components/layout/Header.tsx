@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp, Search } from 'lucide-react';
+import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp, Search, User } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
+import { useAuthStore } from '../../store/useAuthStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
@@ -13,6 +14,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
   const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
+  const { user, openAuthModal } = useAuthStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
   const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
@@ -62,8 +64,21 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               >
                 <Search className="w-4 h-4" />
               </button>
+              <button
+                type="button"
+                onClick={openAuthModal}
+                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer relative"
+                aria-label="Minha Conta e Sincronização"
+                title={user ? `Conectado: ${user.email}` : 'Entrar / Cadastrar'}
+              >
+                <User className="w-4 h-4 text-accent" />
+                {user && (
+                  <span className="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-emerald-500" />
+                )}
+              </button>
               <MobileMoreMenu />
             </div>
+
           </div>
 
           {/* DESKTOP HEADER (Brand & Sidebar Toggle) */}
@@ -196,6 +211,22 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           )}
 
           <ThemeToggle />
+
+          {/* Botão de Conta / Nuvem Supabase */}
+          <button
+            type="button"
+            onClick={openAuthModal}
+            className={`flex items-center gap-1.5 py-1.5 px-3 rounded-lg border text-xs font-semibold transition-all cursor-pointer ${
+              user
+                ? 'bg-surface-2 border-border text-ink hover:border-accent shadow-editorial-sm'
+                : 'bg-primary hover:opacity-95 text-primary-text shadow-editorial-sm'
+            }`}
+            title={user ? `Conta ativa: ${user.email}` : 'Entrar ou criar conta para sincronizar na nuvem'}
+          >
+            <User className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">{user ? 'Minha Conta' : 'Entrar'}</span>
+            {user && <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />}
+          </button>
         </div>
       </div>
     </header>

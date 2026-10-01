@@ -6,7 +6,11 @@ import { BottomNav } from './BottomNav';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { GlobalSearchModal } from '../common/GlobalSearchModal';
 import { KeyboardShortcutsModal } from '../common/KeyboardShortcutsModal';
+import { AuthModal } from '../auth/AuthModal';
 import { useNavigationStore } from '../../store/useNavigationStore';
+import { useAuthStore } from '../../store/useAuthStore';
+import { useProgressStore } from '../../store/useProgressStore';
+import { progressSyncService } from '../../services/progressSyncService';
 import { COURSE_REGISTRY } from '../../content/registry';
 import { Keyboard, Search } from 'lucide-react';
 import { Kbd } from '../common/Kbd';
@@ -20,6 +24,39 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
   const { activeView, selectedSubmodule, setActiveView, setSelectedSubmodule } =
     useNavigationStore();
+  const { isAuthModalOpen, closeAuthModal, initialize: initAuth } = useAuthStore();
+
+  // Inicializa sessão do Supabase
+  useEffect(() => {
+    const unsubscribe = initAuth();
+    return () => {
+      unsubscribe();
+    };
+  }, [initAuth]);
+
+  // Sincronização automática em nuvem (debounce de 2s) quando logado
+  useEffect(() => {
+    let timeoutId: ReturnType<typeof setTimeout> | null = null;
+
+    const unsubscribe = useProgressStore.subscribe((state) => {
+      const user = useAuthStore.getState().user;
+      if (!user) return;
+
+      if (timeoutId) clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        progressSyncService.salvarProgressoNuvem(
+          user.id,
+          state,
+          state.ultimoModuloAcessado
+        );
+      }, 2000);
+    });
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+      unsubscribe();
+    };
+  }, []);
 
   // Escuta global de atalhos de teclado (H5)
   useEffect(() => {
@@ -158,6 +195,12 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
       <KeyboardShortcutsModal
         isOpen={isShortcutsOpen}
         onClose={() => setIsShortcutsOpen(false)}
+      />
+
+      {/* Modal de Autenticação Supabase */}
+      <AuthModal
+        isOpen={isAuthModalOpen}
+        onClose={closeAuthModal}
       />
     </div>
   );
