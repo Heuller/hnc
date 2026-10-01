@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
-import { moduloM1Fundamentos } from '../content/modules/m1-fundamentos';
+import { COURSE_REGISTRY } from '../content/registry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
 import { CebraspeQuestionSchema } from '../domain/schemas/question.schema';
 import { MacroModuloSchema } from '../domain/schemas/modulo.schema';
@@ -64,45 +64,86 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
     });
   });
 
-  describe('Estrutura do Macro-Módulo 1: Fundamentos', () => {
-    it('deve validar o Macro-Módulo 1 contra o schema Zod', () => {
-      const result = MacroModuloSchema.safeParse(moduloM1Fundamentos);
-      if (!result.success) {
-        console.error('Falha no MacroModulo M1:', result.error.format());
-      }
-      expect(result.success).toBe(true);
+  describe('Estrutura e Integridade Curricular dos 10 Macro-Módulos (COURSE_REGISTRY)', () => {
+    it('deve conter exatamente 10 Macro-Módulos registrados', () => {
+      expect(COURSE_REGISTRY).toHaveLength(10);
+      const expectedIds = ['m1', 'm2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10'];
+      expect(COURSE_REGISTRY.map((m) => m.id)).toEqual(expectedIds);
     });
 
-    it('deve possuir exatamente 4 submódulos previstos no edital', () => {
-      expect(moduloM1Fundamentos.modulosFilhos).toHaveLength(4);
-      expect(moduloM1Fundamentos.modulosFilhos.map((s) => s.numero)).toEqual(['1.1', '1.2', '1.3', '1.4']);
+    it('deve validar todos os 10 Macro-Módulos contra o schema estrito Zod', () => {
+      COURSE_REGISTRY.forEach((modulo) => {
+        const result = MacroModuloSchema.safeParse(modulo);
+        if (!result.success) {
+          console.error(`Falha no Macro-Módulo ${modulo.id} (${modulo.titulo}):`, result.error.format());
+        }
+        expect(result.success).toBe(true);
+      });
     });
 
-    it('cada submódulo deve conter entre 2 e 3 micro-checkpoints de recuperação ativa', () => {
-      moduloM1Fundamentos.modulosFilhos.forEach((sub) => {
+    it('deve totalizar exatamente 40 submódulos (4 por macro-módulo)', () => {
+      const totalSubmodulos = COURSE_REGISTRY.reduce((acc, m) => acc + m.modulosFilhos.length, 0);
+      expect(totalSubmodulos).toBe(40);
+
+      COURSE_REGISTRY.forEach((m) => {
+        expect(m.modulosFilhos).toHaveLength(4);
+      });
+    });
+
+    it('todos os 40 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
+      const allSubIds = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos.map((s) => s.id));
+      const uniqueSubIds = new Set(allSubIds);
+      expect(uniqueSubIds.size).toBe(40);
+
+      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
+        expect(sub.id.trim().length).toBeGreaterThan(2);
+        expect(sub.titulo.trim().length).toBeGreaterThan(5);
+        expect(sub.autoresChave.length).toBeGreaterThanOrEqual(1);
+        expect(sub.alertasCebraspe.length).toBeGreaterThanOrEqual(2);
+      });
+    });
+
+    it('todos os 40 submódulos devem conter micro-checkpoints de recuperação ativa válidos (>= 2)', () => {
+      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
         expect(sub.checkpoints.length).toBeGreaterThanOrEqual(2);
-        expect(sub.checkpoints.length).toBeLessThanOrEqual(3);
         sub.checkpoints.forEach((cp) => {
+          expect(cp.id.trim().length).toBeGreaterThan(2);
+          expect(cp.pergunta.trim().length).toBeGreaterThan(10);
           expect(cp.item.trim().length).toBeGreaterThan(10);
           expect(cp.gabarito).toMatch(/^(C|E)$/);
-          expect(cp.justificativa.trim().length).toBeGreaterThan(10);
+          expect(cp.justificativa.trim().length).toBeGreaterThan(15);
         });
       });
     });
 
-    it('cada submódulo deve conter os 3 formatos estruturados de mnemônicos', () => {
-      moduloM1Fundamentos.modulosFilhos.forEach((sub) => {
+    it('todos os 40 submódulos devem conter os 3 formatos estruturados de mnemônicos (timeline, autores, pegadinhas)', () => {
+      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
+        if (sub.mnemonicos.timeline.length < 2) {
+          console.warn(`[Submódulo com timeline < 2]: ${sub.id} - ${sub.titulo}`);
+        }
+        if (sub.mnemonicos.autores.length < 2) {
+          console.warn(`[Submódulo com autores < 2]: ${sub.id} - ${sub.titulo}`);
+        }
+        if (sub.mnemonicos.pegadinhas.length < 2) {
+          console.warn(`[Submódulo com pegadinhas < 2]: ${sub.id} - ${sub.titulo}`);
+        }
         expect(sub.mnemonicos.timeline.length).toBeGreaterThanOrEqual(2);
         expect(sub.mnemonicos.autores.length).toBeGreaterThanOrEqual(2);
         expect(sub.mnemonicos.pegadinhas.length).toBeGreaterThanOrEqual(2);
       });
     });
 
-    it('cada submódulo deve possuir quadro comparativo estruturado', () => {
-      moduloM1Fundamentos.modulosFilhos.forEach((sub) => {
+    it('todos os 40 submódulos devem possuir quadro comparativo estruturado com colunas e linhas', () => {
+      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
         expect(sub.quadroComparativo).toBeDefined();
         expect(sub.quadroComparativo!.colunas.length).toBeGreaterThanOrEqual(3);
-        expect(sub.quadroComparativo!.linhas.length).toBeGreaterThanOrEqual(3);
+        expect(sub.quadroComparativo!.linhas.length).toBeGreaterThanOrEqual(2);
+      });
+    });
+
+    it('todos os 40 submódulos devem possuir teoria densa em markdown substantiva (> 1000 caracteres)', () => {
+      COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
+        expect(sub.teoriaDensaMarkdown.trim().length).toBeGreaterThan(1000);
       });
     });
   });

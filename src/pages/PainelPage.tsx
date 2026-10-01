@@ -11,7 +11,6 @@ import {
   ArrowRight,
   FileQuestion,
   Award,
-  Lock,
 } from 'lucide-react';
 
 export const PainelPage: React.FC = () => {
@@ -31,16 +30,18 @@ export const PainelPage: React.FC = () => {
     registrarAcessoHoje();
   }, [registrarAcessoHoje]);
 
-  // Estatísticas M1
-  const m1 = COURSE_REGISTRY[0];
-  const totalSubmodulosM1 = m1.modulosFilhos.length;
-  const submodulosM1Lidos = m1.modulosFilhos.filter((s) =>
+  // Estatísticas Globais de Todos os 10 Blocos (40 Submódulos)
+  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+  const totalSubmodulosGlobal = allSubmodules.length;
+  const submodulosGlobalLidos = allSubmodules.filter((s) =>
     modulosLidosIds.includes(s.id)
   ).length;
-  const progressoM1Percent = Math.round((submodulosM1Lidos / totalSubmodulosM1) * 100);
+  const progressoGlobalPercent = Math.round(
+    (submodulosGlobalLidos / totalSubmodulosGlobal) * 100
+  );
 
-  // Total checkpoints M1
-  const totalCheckpointsM1 = m1.modulosFilhos.reduce(
+  // Total de checkpoints de recuperação ativa no curso
+  const totalCheckpointsGlobal = allSubmodules.reduce(
     (acc, s) => acc + s.checkpoints.length,
     0
   );
@@ -231,159 +232,182 @@ export const PainelPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Seção do Macro-Módulo Ativo: M1 Fundamentos */}
-      <section aria-labelledby="modulo-m1-title" className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 id="modulo-m1-title" className="text-lg sm:text-xl font-sans font-bold text-ink">
-            Macro-Módulo 1: Fundamentos da Biblioteconomia
-          </h2>
-          <span className="text-xs font-mono text-ink-2">
-            {submodulosM1Lidos}/{totalSubmodulosM1} submódulos lidos
-          </span>
+      {/* Progresso Curricular Global */}
+      <section aria-labelledby="progresso-global-title" className="bg-surface rounded-xl border border-border p-6 shadow-xs space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+              COBERTURA DO EDITAL
+            </span>
+            <h2 id="progresso-global-title" className="text-lg sm:text-xl font-sans font-bold text-ink mt-1">
+              Progresso Geral da Teoria e Checkpoints
+            </h2>
+          </div>
+          <div className="flex items-center gap-4 text-xs font-mono text-ink-2">
+            <span>
+              <strong className="text-ink font-semibold">{submodulosGlobalLidos}</strong> de {totalSubmodulosGlobal} submódulos lidos
+            </span>
+            <span>•</span>
+            <span>
+              <strong className="text-ink font-semibold">{totalCheckpointsFeitos}</strong> de {totalCheckpointsGlobal} checkpoints
+            </span>
+          </div>
         </div>
 
-        {/* Card Grande M1 */}
-        <div className="bg-surface rounded-xl border border-border p-6 shadow-xs">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-border">
-            <div>
-              <div className="flex items-center gap-2 mb-1">
-                <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent-soft text-accent border border-accent/20">
-                  M1 • EDITAL OFICIAL
-                </span>
-                <span className="text-xs text-ink-2 font-mono flex items-center gap-1">
-                  <Clock className="w-3 h-3" />
-                  ~150 min de estudo
-                </span>
-              </div>
-              <h3 className="font-sans font-bold text-ink text-base sm:text-lg">
-                Fundamentos da Biblioteconomia e Ciência da Informação
-              </h3>
-              <p className="text-xs sm:text-sm text-ink-2 font-serif mt-1 leading-relaxed">
-                Evolução histórica (Otlet, Briet, Shera, Buckland), Paradigmas de Capurro,
-                Cinco Leis de Ranganathan e Legislação do CFB/CRB com Código de Ética.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-3 shrink-0">
-              <button
-                type="button"
-                onClick={() => {
-                  setSelectedSubmodule('1.1');
-                  setCurrentRoute('teoria');
-                }}
-                className="py-2 px-4 rounded-lg bg-primary text-white text-xs sm:text-sm font-sans font-semibold hover:opacity-95 transition-opacity"
-              >
-                Ler Teoria
-              </button>
-              <button
-                type="button"
-                onClick={() => setCurrentRoute('simulado')}
-                className="py-2 px-4 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-semibold transition-colors"
-              >
-                Simulado 100Q
-              </button>
-            </div>
+        {/* Barra de Progresso Global */}
+        <div>
+          <div className="flex items-center justify-between text-xs font-mono text-ink-2 mb-1.5">
+            <span>Progresso Total dos 10 Blocos</span>
+            <span className="font-bold text-accent">{progressoGlobalPercent}% concluído</span>
           </div>
-
-          {/* Barra de Progresso de Leitura M1 */}
-          <div className="mt-4 pt-2">
-            <div className="flex items-center justify-between text-xs font-mono text-ink-2 mb-1.5">
-              <span>Progresso de Leitura da Teoria</span>
-              <span>{progressoM1Percent}% concluído</span>
-            </div>
-            <div className="w-full h-2 rounded-full bg-surface-2 overflow-hidden border border-border">
-              <div
-                className="h-full bg-accent transition-all duration-300"
-                style={{ width: `${progressoM1Percent}%` }}
-              />
-            </div>
-          </div>
-
-          {/* 4 Submódulos de M1 */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-5">
-            {m1.modulosFilhos.map((sub) => {
-              const isLido = modulosLidosIds.includes(sub.id);
-              return (
-                <div
-                  key={sub.id}
-                  onClick={() => handleAbrirSubmodulo(sub.numero)}
-                  className="p-3.5 rounded-lg border border-border bg-surface-2/40 hover:bg-surface-2 hover:border-accent/40 cursor-pointer transition-all flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="flex items-center justify-between text-xs font-mono mb-1">
-                      <span className="font-semibold text-accent">{sub.numero}</span>
-                      {isLido ? (
-                        <span className="text-ok text-[11px] font-sans flex items-center gap-1 font-medium">
-                          <CheckCircle2 className="w-3 h-3" />
-                          Lido
-                        </span>
-                      ) : (
-                        <span className="text-ink-2 text-[11px] font-sans">
-                          {sub.tempoEstimadoMinutos} min
-                        </span>
-                      )}
-                    </div>
-                    <h4 className="font-sans font-semibold text-ink text-xs sm:text-sm line-clamp-2 leading-snug">
-                      {sub.titulo}
-                    </h4>
-                  </div>
-                  <div className="mt-2 pt-2 border-t border-border/50 text-[11px] text-ink-2 font-mono flex items-center justify-between">
-                    <span>
-                      {sub.checkpoints.length} checkpoints ({totalCheckpointsFeitos}/{totalCheckpointsM1} feitos)
-                    </span>
-                    <ArrowRight className="w-3 h-3 text-accent" />
-                  </div>
-                </div>
-              );
-            })}
+          <div className="w-full h-2.5 rounded-full bg-surface-2 overflow-hidden border border-border">
+            <div
+              className="h-full bg-accent transition-all duration-300"
+              style={{ width: `${progressoGlobalPercent}%` }}
+            />
           </div>
         </div>
       </section>
 
-      {/* Mapa do Curso: M2 a M10 (Visíveis como 'Planejado', nunca ocultos) */}
-      <section aria-labelledby="mapa-curso-title" className="space-y-4 pt-4 border-t border-border">
+      {/* Grade Curricular dos 10 Blocos (M1 a M10) */}
+      <section aria-labelledby="mapa-curso-title" className="space-y-5">
         <div>
-          <h2 id="mapa-curso-title" className="text-lg sm:text-xl font-sans font-bold text-ink">
-            Mapa Completo do Curso (Módulos M1 a M10)
+          <h2 id="mapa-curso-title" className="text-xl font-sans font-bold text-ink">
+            Blocos Curriculares da Câmara dos Deputados
           </h2>
           <p className="text-xs sm:text-sm text-ink-2 font-serif mt-0.5">
-            A estrutura curricular completa do concurso da Câmara dos Deputados.
+            Navegue pelos 10 blocos de conteúdo denso, com autores canônicos, jurisprudência Cebraspe e mnemônicos.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {COURSE_REGISTRY.slice(1).map((modulo) => (
-            <div
-              key={modulo.id}
-              className="bg-surface/60 rounded-xl border border-border p-4.5 opacity-85 hover:opacity-100 transition-opacity flex flex-col justify-between"
-            >
-              <div>
-                <div className="flex items-center justify-between gap-2 mb-2">
-                  <span className="font-mono text-xs font-bold text-ink-2 px-2 py-0.5 rounded bg-surface-2 border border-border">
-                    {modulo.codigo}
-                  </span>
-                  <span className="inline-flex items-center gap-1 text-[11px] font-sans font-medium text-ink-2 bg-surface-2 px-2 py-0.5 rounded-full border border-border">
-                    <Lock className="w-3 h-3 text-ink-2" />
-                    Planejado
-                  </span>
-                </div>
-                <h3 className="font-sans font-bold text-ink text-sm sm:text-base leading-snug">
-                  {modulo.titulo}
-                </h3>
-                <p className="text-xs text-accent font-sans font-medium mt-1">
-                  {modulo.subtitulo}
-                </p>
-                <p className="text-xs text-ink-2 font-serif mt-2 leading-relaxed line-clamp-2">
-                  {modulo.descricao}
-                </p>
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {COURSE_REGISTRY.map((modulo) => {
+            const subsLidos = modulo.modulosFilhos.filter((s) =>
+              modulosLidosIds.includes(s.id)
+            ).length;
+            const totalSubs = modulo.modulosFilhos.length;
+            const moduloPercent = Math.round((subsLidos / totalSubs) * 100);
+            const tempoTotalMin = modulo.modulosFilhos.reduce(
+              (acc, s) => acc + s.tempoEstimadoMinutos,
+              0
+            );
 
-              <div className="mt-4 pt-2.5 border-t border-border flex items-center justify-between text-xs text-ink-2 font-sans">
-                <span>Material em preparação</span>
-                <span className="font-mono">100Q Cebraspe</span>
+            // Primeiro submódulo ainda não lido ou o primeiro
+            const proximoSub =
+              modulo.modulosFilhos.find((s) => !modulosLidosIds.includes(s.id)) ||
+              modulo.modulosFilhos[0];
+
+            // Prioridade estipulada para o concurso da Câmara dos Deputados
+            const prioridadeAltaIds = ['m1', 'm2', 'm3', 'm4', 'm6', 'm9', 'm10'];
+            const prioridade = prioridadeAltaIds.includes(modulo.id) ? 'ALTA' : 'MÉDIA';
+
+            return (
+              <div
+                key={modulo.id}
+                className="bg-surface rounded-xl border border-border p-5 shadow-xs hover:border-accent/40 transition-all flex flex-col justify-between"
+              >
+                <div>
+                  {/* Cabeçalho do Card */}
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+                        {modulo.codigo}
+                      </span>
+                      <span
+                        className={`text-[10px] font-sans font-semibold uppercase px-2 py-0.5 rounded ${
+                          prioridade === 'ALTA'
+                            ? 'bg-err-soft text-err border border-err/20'
+                            : 'bg-surface-2 text-ink-2 border border-border'
+                        }`}
+                      >
+                        Prioridade {prioridade}
+                      </span>
+                    </div>
+
+                    <span className="text-[11px] font-mono text-ink-2 flex items-center gap-1">
+                      <Clock className="w-3 h-3" />
+                      ~{tempoTotalMin} min
+                    </span>
+                  </div>
+
+                  <h3 className="font-sans font-bold text-ink text-base leading-snug">
+                    {modulo.titulo}
+                  </h3>
+                  <p className="text-xs text-accent font-sans font-medium mt-0.5">
+                    {modulo.subtitulo}
+                  </p>
+                  <p className="text-xs text-ink-2 font-serif mt-2 leading-relaxed line-clamp-2">
+                    {modulo.descricao}
+                  </p>
+
+                  {/* Barra de Progresso do Bloco */}
+                  <div className="mt-3 pt-2">
+                    <div className="flex items-center justify-between text-[11px] font-mono text-ink-2 mb-1">
+                      <span>Progresso do Bloco</span>
+                      <span>
+                        {subsLidos}/{totalSubs} ({moduloPercent}%)
+                      </span>
+                    </div>
+                    <div className="w-full h-1.5 rounded-full bg-surface-2 overflow-hidden border border-border">
+                      <div
+                        className="h-full bg-accent transition-all duration-300"
+                        style={{ width: `${moduloPercent}%` }}
+                      />
+                    </div>
+                  </div>
+
+                  {/* Chips dos Submódulos */}
+                  <div className="grid grid-cols-2 gap-1.5 mt-3 pt-2 border-t border-border">
+                    {modulo.modulosFilhos.map((sub) => {
+                      const isLido = modulosLidosIds.includes(sub.id);
+                      return (
+                        <button
+                          key={sub.id}
+                          type="button"
+                          onClick={() => handleAbrirSubmodulo(sub.numero)}
+                          className={`p-2 rounded-lg border text-left text-xs transition-colors flex items-center justify-between gap-1.5 ${
+                            isLido
+                              ? 'bg-ok-soft/40 border-ok/30 text-ink hover:border-ok'
+                              : 'bg-surface-2/50 border-border text-ink-2 hover:bg-surface-2 hover:text-ink'
+                          }`}
+                        >
+                          <span className="font-mono font-semibold text-accent text-[11px]">
+                            {sub.numero}
+                          </span>
+                          <span className="truncate flex-1 font-sans text-[11px]">
+                            {sub.titulo}
+                          </span>
+                          {isLido && (
+                            <CheckCircle2 className="w-3 h-3 text-ok shrink-0" />
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Ação do Bloco */}
+                <div className="mt-4 pt-3 border-t border-border flex items-center justify-between gap-2">
+                  <button
+                    type="button"
+                    onClick={() => handleAbrirSubmodulo(proximoSub.numero)}
+                    className="py-1.5 px-3.5 rounded-lg bg-primary text-white text-xs font-sans font-semibold hover:opacity-95 transition-opacity flex items-center gap-1.5"
+                  >
+                    <span>{subsLidos === totalSubs ? 'Revisar Bloco' : 'Estudar Bloco'}</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setCurrentRoute('simulado')}
+                    className="py-1.5 px-3 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent text-xs font-sans font-medium transition-colors"
+                  >
+                    Simulado 100Q
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

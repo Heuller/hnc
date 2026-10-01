@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { moduloM1Fundamentos } from '../content/modules/m1-fundamentos';
+import { COURSE_REGISTRY } from '../content/registry';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
 import { Badge } from '../components/common/Badge';
 import {
@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 
 export const RadarPage: React.FC = () => {
+  const [selectedMacro, setSelectedMacro] = useState<string>('todos');
   const [selectedSub, setSelectedSub] = useState<string>('todos');
   const [tipoFiltro, setTipoFiltro] = useState<'todos' | 'alertas' | 'pegadinhas' | 'questoes'>('todos');
   const [revelados, setRevelados] = useState<Record<string, boolean>>({});
@@ -20,21 +21,31 @@ export const RadarPage: React.FC = () => {
     setRevelados((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
-  // Coleta Alertas Cebraspe Reais (strings)
-  const todosAlertas = moduloM1Fundamentos.modulosFilhos.flatMap((sub) =>
+  const allSubmodules = COURSE_REGISTRY.flatMap((m) =>
+    m.modulosFilhos.map((s) => ({
+      ...s,
+      macroCodigo: m.codigo,
+      macroTitulo: m.titulo,
+    }))
+  );
+
+  // Coleta Alertas Cebraspe Reais (strings) de todos os módulos
+  const todosAlertas = allSubmodules.flatMap((sub) =>
     sub.alertasCebraspe.map((texto, i) => ({
       id: `alerta-${sub.numero}-${i}`,
       subId: sub.numero,
+      macroCodigo: sub.macroCodigo,
       subTitulo: sub.titulo,
       texto,
     }))
   );
 
-  // Coleta Pegadinhas dos Mnemônicos
-  const todasPegadinhas = moduloM1Fundamentos.modulosFilhos.flatMap((sub) =>
+  // Coleta Pegadinhas dos Mnemônicos de todos os módulos
+  const todasPegadinhas = allSubmodules.flatMap((sub) =>
     sub.mnemonicos.pegadinhas.map((p, i) => ({
       id: `pegadinha-${sub.numero}-${i}`,
       subId: sub.numero,
+      macroCodigo: sub.macroCodigo,
       subTitulo: sub.titulo,
       afirmacao: p.afirmacao,
       gabarito: p.gabarito,
@@ -49,6 +60,7 @@ export const RadarPage: React.FC = () => {
       id: q.id,
       numero: q.numero,
       subId: q.submoduloId,
+      macroCodigo: 'M1',
       item: q.item,
       gabarito: q.gabarito,
       armadilhaBanca: q.armadilhaBanca,
@@ -56,16 +68,24 @@ export const RadarPage: React.FC = () => {
       fonte: q.fonteOriginal.descricao,
     }));
 
-  // Filtragem
-  const alertasFiltrados = todosAlertas.filter(
-    (a) => selectedSub === 'todos' || a.subId === selectedSub
-  );
-  const pegadinhasFiltradas = todasPegadinhas.filter(
-    (p) => selectedSub === 'todos' || p.subId === selectedSub
-  );
-  const questoesFiltradas = questoesArmadilha.filter(
-    (q) => selectedSub === 'todos' || q.subId === selectedSub
-  );
+  // Filtragem combinada por macro-módulo e submódulo
+  const alertasFiltrados = todosAlertas.filter((a) => {
+    const macroOk = selectedMacro === 'todos' || a.macroCodigo === selectedMacro;
+    const subOk = selectedSub === 'todos' || a.subId === selectedSub;
+    return macroOk && subOk;
+  });
+
+  const pegadinhasFiltradas = todasPegadinhas.filter((p) => {
+    const macroOk = selectedMacro === 'todos' || p.macroCodigo === selectedMacro;
+    const subOk = selectedSub === 'todos' || p.subId === selectedSub;
+    return macroOk && subOk;
+  });
+
+  const questoesFiltradas = questoesArmadilha.filter((q) => {
+    const macroOk = selectedMacro === 'todos' || q.macroCodigo === selectedMacro;
+    const subOk = selectedSub === 'todos' || q.subId === selectedSub;
+    return macroOk && subOk;
+  });
 
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
@@ -97,32 +117,77 @@ export const RadarPage: React.FC = () => {
           <span>Filtros por Submódulo e Categoria</span>
         </div>
 
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={() => setSelectedSub('todos')}
-            className={`py-1.5 px-3 rounded-lg text-xs font-sans font-medium border transition-colors ${
-              selectedSub === 'todos'
-                ? 'bg-primary text-white border-primary font-semibold'
-                : 'bg-surface-2 border-border text-ink hover:text-ink'
-            }`}
-          >
-            Todos os Submódulos
-          </button>
-          {moduloM1Fundamentos.modulosFilhos.map((sub) => (
+        {/* Filtro por Bloco / Macro-Módulo */}
+        <div className="space-y-1.5">
+          <div className="text-[11px] font-sans font-medium text-ink-2">Bloco Curricular:</div>
+          <div className="flex flex-wrap gap-1.5">
             <button
-              key={sub.id}
               type="button"
-              onClick={() => setSelectedSub(sub.numero)}
-              className={`py-1.5 px-3 rounded-lg text-xs font-sans font-medium border transition-colors ${
-                selectedSub === sub.numero
+              onClick={() => {
+                setSelectedMacro('todos');
+                setSelectedSub('todos');
+              }}
+              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                selectedMacro === 'todos'
                   ? 'bg-primary text-white border-primary font-semibold'
-                : 'bg-surface-2 border-border text-ink hover:text-ink'
+                  : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              {sub.numero} {sub.titulo.split(' ')[0]}
+              Todos os Blocos
             </button>
-          ))}
+            {COURSE_REGISTRY.map((macro) => (
+              <button
+                key={macro.id}
+                type="button"
+                onClick={() => {
+                  setSelectedMacro(macro.codigo);
+                  setSelectedSub('todos');
+                }}
+                className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                  selectedMacro === macro.codigo
+                    ? 'bg-primary text-white border-primary font-semibold'
+                    : 'bg-surface-2 border-border text-ink hover:text-ink'
+                }`}
+              >
+                {macro.codigo}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Filtro por Submódulo */}
+        <div className="space-y-1.5 pt-1.5 border-t border-border/40">
+          <div className="text-[11px] font-sans font-medium text-ink-2">Submódulo:</div>
+          <div className="flex flex-wrap gap-1.5">
+            <button
+              type="button"
+              onClick={() => setSelectedSub('todos')}
+              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                selectedSub === 'todos'
+                  ? 'bg-accent text-white border-accent font-semibold'
+                  : 'bg-surface-2 border-border text-ink hover:text-ink'
+              }`}
+            >
+              Todos os Submódulos
+            </button>
+            {(selectedMacro === 'todos'
+              ? allSubmodules
+              : allSubmodules.filter((s) => s.macroCodigo === selectedMacro)
+            ).map((sub) => (
+              <button
+                key={sub.id}
+                type="button"
+                onClick={() => setSelectedSub(sub.numero)}
+                className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                  selectedSub === sub.numero
+                    ? 'bg-accent text-white border-accent font-semibold'
+                    : 'bg-surface-2 border-border text-ink hover:text-ink'
+                }`}
+              >
+                {sub.numero}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Filtro por Tipo */}

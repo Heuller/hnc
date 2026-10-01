@@ -6,19 +6,22 @@ export const submodulo13: ModuloFilho = {
   titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
   descricaoCurta: 'A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.',
   tempoEstimadoMinutos: 25,
-  autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Eliane Mey', 'Russell Ackoff', 'Claude Shannon'],
+  autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Rafael Capurro', 'Birger Hjørland', 'Russell Ackoff', 'Claude Shannon'],
   alertasCebraspe: [
     'Michael Buckland classifica a informação em: (1) Informação como Processo; (2) Informação como Conhecimento; (3) Informação como Coisa. O Cebraspe tenta restringir "informação como coisa" a papéis e livros, quando abrange QUALQUER entidade tangível (incluindo fósseis, esculturas, gravações).',
+    'Segundo Rafael Capurro, a Ciência da Informação evoluiu por três paradigmas epistemológicos: (1) Físico (sinal e transmissão neutra); (2) Cognitivo (estruturas mentais do indivíduo, Brookes e Belkin); (3) Social (informação situada em comunidades de prática e análise de domínio de Hjørland). O Cebraspe adora inverter o paradigma cognitivo com o social.',
     'Suzanne Briet definiu documento a partir de quatro condições necessárias: materialidade, intencionalidade, tratamento e capacidade de servir de prova/indício.',
     'Dado é um registro bruto desprovido de contexto; Informação é o dado dotado de significado e relevância; Conhecimento é a apropriação cognitiva pelo ser humano.',
   ],
   quadroComparativo: {
-    titulo: 'A Tríade de Michael Buckland (1991): Information as Thing',
-    colunas: ['Dimensão de Buckland', 'Natureza Ontológica', 'Características', 'Exemplo Prático na Câmara'],
+    titulo: 'A Tríade de Michael Buckland (1991) e os Paradigmas de Capurro (2003)',
+    colunas: ['Perspectiva Teórica', 'Conceito Central', 'Foco de Investigação', 'Exemplo Prático na Câmara'],
     linhas: [
-      ['1. Informação-como-processo', 'Intangível / Ação', 'O ato de informar; a mudança de estado cognitivo de quem recebe uma mensagem', 'O assessor legislativo lendo uma nota técnica e assimilando seus argumentos'],
-      ['2. Informação-como-conhecimento', 'Intangível / Cognitivo', 'Aquilo que é apreendido; crença justificada incorporada à estrutura mental do sujeito', 'O saber acumulado pelo analista legislativo sobre o regimento interno'],
-      ['3. Informação-como-coisa', 'Tangível / Físico / Digital', 'Dados, registros, textos, suportes materiais que podem ser processados em sistemas', 'O arquivo em PDF do Diário da Câmara, um livro impresso ou um áudio de audiência pública'],
+      ['Buckland: Informação-como-coisa', 'Tangível / Suporte físico ou digital', 'Documentos, registros e artefatos operáveis por sistemas', 'O PDF do Diário da Câmara ou o texto impresso de um projeto de lei'],
+      ['Buckland: Informação-como-conhecimento', 'Intangível / Cognitivo', 'Crença justificada internalizada na mente humana', 'O domínio conceitual do regimento interno pelo bibliotecário legislativo'],
+      ['Capurro: Paradigma Físico', 'Transmissão objetiva de sinais (conduíte)', 'Sistemas de transmissão, canal e redução de ruído técnico', 'Envio de dados brutos de votações via API semântica'],
+      ['Capurro: Paradigma Cognitivo', 'Transformação de estados de conhecimento', 'Usuário individual, modelo ASK (Belkin) e equação de Brookes', 'O pesquisador formulando sua dúvida e alterando sua estrutura mental'],
+      ['Capurro: Paradigma Social', 'Informação situada e compartilhada', 'Comunidades de prática, análise de domínio e linguagem coletiva', 'O trabalho informacional focado nas bancadas, comissões e debate público'],
     ],
   },
   teoriaDensaMarkdown: `### 1. A Hierarquia Conceitual: Dado, Informação e Conhecimento
@@ -53,7 +56,31 @@ Para que um objeto seja caracterizado como **Documento**, a tradição que une P
 2. **Intencionalidade:** O objeto foi produzido, coletado ou selecionado com o propósito deliberado de comunicar ou preservar um registro.
 3. **Tratamento Documentário:** O objeto foi inserido em um sistema ou coleção (catalogado, indexado, conservado).
 4. **Valor Probatório / Evidencial:** O objeto funciona como indício, testemunho ou prova de um fato perante uma comunidade social.
-* **O Antílope de Suzanne Briet:** Um antílope correndo livre na savana africana não é um documento; porém, quando capturado, descrito por zoólogos, exposto em um jardim zoológico e classificado em uma ficha taxonômica, transforma-se em documento!`,
+* **O Antílope de Suzanne Briet:** Um antílope correndo livre na savana africana não é um documento; porém, quando capturado, descrito por zoólogos, exposto em um jardim zoológico e classificado em uma ficha taxonômica, transforma-se em documento!
+
+---
+
+### 4. Os Três Paradigmas Epistemológicos de Rafael Capurro (2003)
+Em seu influente estudo epistemológico, Rafael Capurro analisa a evolução teórica da Ciência da Informação através de três paradigmas fundamentais, frequentemente cobrados pela banca:
+
+#### A. Paradigma Físico
+* **Origem:** Teoria Matemática da Comunicação de Claude Shannon e Warren Weaver (1949).
+* **Conceito de Informação:** A informação é vista como um **objeto físico** ou sinal que viaja através de um canal transmissor de um ponto A (emissor) a um ponto B (receptor).
+* **Premissa:** A informação existe de forma objetiva e independente dos sujeitos que a processam. O foco é a integridade do sinal, velocidade da linha e eliminação de ruídos no canal (*conduit metaphor*).
+
+#### B. Paradigma Cognitivo
+* **Origem:** Décadas de 1970 e 1980, impulsionado por Bertram Brookes, Nicholas Belkin e Peter Ingwersen.
+* **Conceito de Informação:** A informação deixa de ser um mero sinal e passa a ser compreendida como um **processo que modifica as estruturas cognitivas** do indivíduo.
+* **A Equação Fundamental de Brookes:**
+  $$K[S] + \\Delta I = K[S + \\Delta S]$$
+  *(Uma estrutura de conhecimento $K[S]$ ao receber um incremento informacional $\\Delta I$ transforma-se em uma nova estrutura $K[S + \\Delta S]$).*
+* **O Modelo ASK de Belkin:** O usuário busca informação a partir de um *Anomalous State of Knowledge* (Estado Anômalo de Conhecimento), uma lacuna ou incerteza em sua mente.
+
+#### C. Paradigma Social (Hermenêutico-Pragmático)
+* **Origem:** Década de 1990 em diante, com Rafael Capurro e Birger Hjørland.
+* **Conceito de Informação:** A informação não reside apenas no objeto físico nem na mente isolada do indivíduo; ela é **situada em um contexto histórico, social e cultural**.
+* **Análise de Domínio (*Domain Analysis*) de Hjørland:** O significado e a relevância da informação dependem da comunidade discursiva e dos grupos profissionais que a compartilham.
+* **Relevância para a Câmara:** Documentos legislativos possuem significados específicos para a comunidade parlamentar, operadores do direito e sociedade civil, dependendo de seus códigos culturais e finalidades políticas.`,
   checkpoints: [
     {
       id: 'cp-1-3-1',
@@ -69,29 +96,36 @@ Para que um objeto seja caracterizado como **Documento**, a tradição que une P
       gabarito: 'C',
       justificativa: 'Correto! A célebre definição de Briet (1951) exige materialidade, intencionalidade e capacidade de funcionar como indício ou prova.',
     },
+    {
+      id: 'cp-1-3-3',
+      pergunta: 'Micro-Checkpoint 3: Paradigmas Epistemológicos de Capurro',
+      item: 'No paradigma social da Ciência da Informação, proposto por teóricos como Capurro e Hjørland, a informação é analisada a partir de sua inserção em comunidades discursivas e contextos históricos específicos, superando o foco estritamente individualista do paradigma cognitivo.',
+      gabarito: 'C',
+      justificativa: 'Certo! O paradigma social (ou hermenêutico-pragmático) coloca a comunidade de conhecimento e o contexto sócio-histórico como eixos centrais da interpretação informacional.',
+    },
   ],
   mnemonicos: {
     timeline: [
       {
         id: 'tl-1-3-1',
-        periodo: '1951',
-        disciplina: 'Documentação Conceitual',
-        focoPrincipal: 'Quatro condições do documento e o clássico exemplo do antílope na savana vs zoológico',
-        figuraChave: 'Suzanne Briet',
+        periodo: '1949 / 1951',
+        disciplina: 'Paradigmas Iniciais e Documento',
+        focoPrincipal: 'Teoria Matemática (Shannon/Weaver, Paradigma Físico) e as 4 condições do documento (Briet)',
+        figuraChave: 'Claude Shannon e Suzanne Briet',
       },
       {
         id: 'tl-1-3-2',
-        periodo: '1989',
-        disciplina: 'Pirâmide DIKW',
-        focoPrincipal: 'Hierarquia ontológica: Dado -> Informação -> Conhecimento -> Sabedoria',
-        figuraChave: 'Russell Ackoff',
+        periodo: '1980 / 1991',
+        disciplina: 'Cognitivismo e Ontologia',
+        focoPrincipal: 'Paradigma Cognitivo (Brookes e Belkin) e a Tríade de Buckland (Processo, Conhecimento, Coisa)',
+        figuraChave: 'Bertram Brookes e Michael Buckland',
       },
       {
         id: 'tl-1-3-3',
-        periodo: '1991',
-        disciplina: 'Ontologia da Informação',
-        focoPrincipal: 'A Tríade de Buckland: Informação como Processo, Conhecimento e Coisa (thing)',
-        figuraChave: 'Michael Buckland',
+        periodo: '2003',
+        disciplina: 'Epistemologia Social',
+        focoPrincipal: 'Os 3 Paradigmas de Capurro (Físico, Cognitivo e Social) e Análise de Domínio (Hjørland)',
+        figuraChave: 'Rafael Capurro e Birger Hjørland',
       },
     ],
     autores: [
@@ -113,11 +147,19 @@ Para que um objeto seja caracterizado como **Documento**, a tradição que une P
       },
       {
         id: 'aut-1-3-3',
-        nome: 'Russell Ackoff',
-        ano: 1989,
-        obraPrincipal: 'From Data to Wisdom',
-        ideiaChave: 'Cadeia de agregação de valor semântico e cognitivo (Pirâmide DIKW).',
-        chipPegadinha: 'Dado é bruto sem contexto; informação possui significado; conhecimento é assimilado.',
+        nome: 'Rafael Capurro',
+        ano: 2003,
+        obraPrincipal: 'The Foundation of Information Science',
+        ideiaChave: 'Tripartição paradigmática: Paradigma Físico (sinal), Cognitivo (mente individual) e Social (comunidade/domínio).',
+        chipPegadinha: 'O paradigma social não nega os anteriores, mas insere a informação nas práticas coletivas.',
+      },
+      {
+        id: 'aut-1-3-4',
+        nome: 'Birger Hjørland',
+        ano: 1995,
+        obraPrincipal: 'Domain Analysis in Information Science',
+        ideiaChave: 'A análise de domínio: a melhor forma de entender a informação é analisar os campos de conhecimento e discurso.',
+        chipPegadinha: 'Pilar fundamental do paradigma social da Ciência da Informação.',
       },
     ],
     pegadinhas: [
@@ -129,9 +171,9 @@ Para que um objeto seja caracterizado como **Documento**, a tradição que une P
       },
       {
         id: 'peg-1-3-2',
-        afirmacao: 'Conforme Suzanne Briet, qualquer objeto da natureza em seu estado silvestre original é considerado documento pela simples existência no mundo físico.',
+        afirmacao: 'O paradigma cognitivo da Ciência da Informação concebe a informação como um sinal objetivo transferido por meio de canais físicos, desconsiderando as estruturas mentais do usuário.',
         gabarito: 'E',
-        porQue: 'Falso! Briet exige intencionalidade, tratamento e valor de prova. O antílope solto na savana não é documento; passa a sê-lo quando capturado e submetido a tratamento documentário.',
+        porQue: 'Essa é a definição do paradigma FÍSICO (Shannon/Weaver). O paradigma cognitivo (Brookes, Belkin) foca justamente nas estruturas mentais e na alteração do estado de conhecimento do sujeito.',
       },
     ],
   },

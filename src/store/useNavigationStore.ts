@@ -59,14 +59,10 @@ export const useNavigationStore = create<NavigationState>((set, get) => {
       set({ activeView: view, currentRoute: view });
     },
     setActiveSubmoduleIndex: (index: number) => {
-      const submodules = ['1.1', '1.2', '1.3', '1.4'];
-      const subId = submodules[index] || '1.1';
-      set({ activeSubmoduleIndex: index, selectedSubmodule: subId });
+      set({ activeSubmoduleIndex: index });
     },
     setSelectedSubmodule: (subId: string) => {
-      const submodules = ['1.1', '1.2', '1.3', '1.4'];
-      const idx = submodules.indexOf(subId);
-      set({ selectedSubmodule: subId, activeSubmoduleIndex: idx >= 0 ? idx : 0 });
+      set({ selectedSubmodule: subId });
     },
     toggleSidebar: () => {
       set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed }));

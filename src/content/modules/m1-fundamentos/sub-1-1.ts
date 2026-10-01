@@ -135,7 +135,7 @@ A Ciência da Informação não substituiu nem extinguiu a Biblioteconomia. Conf
         nome: 'Vannevar Bush',
         ano: 1945,
         obraPrincipal: 'As We May Think',
-        ideiaChave: 'Idealizador do conceito do Memex e trilhas associativas precurssoras do hipertexto.',
+        ideiaChave: 'Idealizador do conceito do Memex e trilhas associativas precursoras do hipertexto.',
         chipPegadinha: 'Dispositivo conceitual eletromecânico, não um computador digital operacional.',
       },
       {

@@ -1,105 +1,37 @@
 import type { MacroModulo } from '../domain/types';
 import { moduloM1Fundamentos } from './modules/m1-fundamentos';
+import { moduloM2Catalogacao } from './modules/m2-catalogacao';
+import { moduloM3Classificacao } from './modules/m3-classificacao';
+import { moduloM4Recuperacao } from './modules/m4-recuperacao';
+import { moduloM5Gestao } from './modules/m5-gestao';
+import { moduloM6DigitalIA } from './modules/m6-digital-ia';
+import { moduloM7Preservacao } from './modules/m7-preservacao';
+import { moduloM8Normalizacao } from './modules/m8-normalizacao';
+import { moduloM9Comunicacao } from './modules/m9-comunicacao';
+import { moduloM10Legislativo } from './modules/m10-legislativo';
 
 export const COURSE_REGISTRY: MacroModulo[] = [
   moduloM1Fundamentos,
-  {
-    id: 'm2',
-    codigo: 'M2',
-    numero: 2,
-    titulo: 'Catalogação, Metadados e Modelos Conceituais',
-    subtitulo: 'AACR2r, RDA, MARC 21, FRBR / IFLA LRM e Dublin Core',
-    descricao: 'Normas de representação descritiva, formatos bibliográficos legíveis por máquina e modelos conceituais para catalogação em ambiente automatizado.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm3',
-    codigo: 'M3',
-    numero: 3,
-    titulo: 'Classificação Documentária e Indexação',
-    subtitulo: 'Teoria da Classificação, CDD, CDU, CDDir, Tesauros e Vocabulários Controlados',
-    descricao: 'Representação temática, linguagens documentárias, tesauros jurídicos e tabelas de classificação aplicadas ao contexto parlamentar.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm4',
-    codigo: 'M4',
-    numero: 4,
-    titulo: 'Recuperação da Informação, Fontes e Usuários',
-    subtitulo: 'Estratégias de Busca, DSI, Fontes Legislativas e Estudos de Usuários',
-    descricao: 'Modelos de recuperação, álgebra booleana, portais de informação legislativa da Câmara e estudos de necessidades informacionais.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm5',
-    codigo: 'M5',
-    numero: 5,
-    titulo: 'Gestão de Unidades de Informação e Coleções',
-    subtitulo: 'Planejamento Estratégico, Desenvolvimento de Coleções e Marketing',
-    descricao: 'Gestão de bibliotecas parlamentares, políticas de seleção, aquisição, desbaste e avaliação contínua de coleções.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm6',
-    codigo: 'M6',
-    numero: 6,
-    titulo: 'Bibliotecas Digitais, Repositórios e IA',
-    subtitulo: 'DSpace, OAI-PMH, Repositórios Institucionais e Inteligência Artificial',
-    descricao: 'Interoperabilidade de sistemas, padrões de metadados digitais, governança de dados e ferramentas de IA aplicadas a bibliotecas.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm7',
-    codigo: 'M7',
-    numero: 7,
-    titulo: 'Preservação, Conservação e Memória Institucional',
-    subtitulo: 'Preservação Física, Restauração, Preservação Digital e Modelo OAIS',
-    descricao: 'Agentes de degradação, conservação preventiva de obras raras, microfilmagem e preservação de acervos digitais de longo prazo.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm8',
-    codigo: 'M8',
-    numero: 8,
-    titulo: 'Normalização Documental e ABNT',
-    subtitulo: 'NBR 6023 (Referências), NBR 10520 (Citações), NBR 6028 (Resumos)',
-    descricao: 'Aplicação estrita das normas brasileiras de documentação a publicações oficiais e trabalhos técnico-científicos.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm9',
-    codigo: 'M9',
-    numero: 9,
-    titulo: 'Comunicação Científica, Ciência Aberta e Métricas',
-    subtitulo: 'Leis Bibliométricas (Bradford, Lotka, Zipf), Acesso Aberto e Dados FAIR',
-    descricao: 'Indicadores bibliométricos, canais de comunicação acadêmica, repositórios de dados abertos e altmetria.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
-  {
-    id: 'm10',
-    codigo: 'M10',
-    numero: 10,
-    titulo: 'Legislação Federal e Contexto Legislativo',
-    subtitulo: 'Regimento Interno da Câmara, Processo Legislativo, LAI, LGPD e Depósito Legal',
-    descricao: 'O papel da biblioteca na produção normativa nacional, tramitação legislativa, transparência e proteção de dados pessoais.',
-    status: 'planejado',
-    simuladoDisponivel: false,
-    modulosFilhos: [],
-  },
+  moduloM2Catalogacao,
+  moduloM3Classificacao,
+  moduloM4Recuperacao,
+  moduloM5Gestao,
+  moduloM6DigitalIA,
+  moduloM7Preservacao,
+  moduloM8Normalizacao,
+  moduloM9Comunicacao,
+  moduloM10Legislativo,
 ];
+
+export {
+  moduloM1Fundamentos,
+  moduloM2Catalogacao,
+  moduloM3Classificacao,
+  moduloM4Recuperacao,
+  moduloM5Gestao,
+  moduloM6DigitalIA,
+  moduloM7Preservacao,
+  moduloM8Normalizacao,
+  moduloM9Comunicacao,
+  moduloM10Legislativo,
+};

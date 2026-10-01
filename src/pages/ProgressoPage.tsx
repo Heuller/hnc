@@ -17,6 +17,7 @@ import {
   Info,
 } from 'lucide-react';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { COURSE_REGISTRY } from '../content/registry';
 
 export const ProgressoPage: React.FC = () => {
   const {
@@ -32,6 +33,8 @@ export const ProgressoPage: React.FC = () => {
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
 
   // Dados para o Gráfico de Evolução de Nota Líquida
   const dadosGrafico = historicoSimulados
@@ -49,13 +52,15 @@ export const ProgressoPage: React.FC = () => {
       aproveitamento: sim.aproveitamentoPercent,
     }));
 
-  // Análise de Erros por Submódulo a partir do histórico
-  const errosPorSubmodulo: Record<string, { erros: number; totalQuestoes: number; nome: string }> = {
-    '1.1': { erros: 0, totalQuestoes: 0, nome: 'Evolução Histórica e Documentação' },
-    '1.2': { erros: 0, totalQuestoes: 0, nome: 'Paradigmas de Capurro' },
-    '1.3': { erros: 0, totalQuestoes: 0, nome: 'Cinco Leis de Ranganathan' },
-    '1.4': { erros: 0, totalQuestoes: 0, nome: 'Ética e Legislação CFB/CRB' },
-  };
+  // Análise de Erros por Submódulo a partir do histórico dinâmico
+  const errosPorSubmodulo: Record<string, { erros: number; totalQuestoes: number; nome: string }> = {};
+  allSubmodules.forEach((sub) => {
+    errosPorSubmodulo[sub.numero] = {
+      erros: 0,
+      totalQuestoes: 0,
+      nome: sub.titulo,
+    };
+  });
 
   historicoSimulados.forEach((sim) => {
     simuladoFundamentos100Q.forEach((q) => {
@@ -151,7 +156,7 @@ export const ProgressoPage: React.FC = () => {
             Módulos de Teoria Concluídos
           </span>
           <div className="text-3xl font-mono font-bold text-ink mt-1">
-            {modulosLidosIds.length} / 4
+            {modulosLidosIds.length} / {allSubmodules.length}
           </div>
           <span className="text-xs text-ink-2 font-sans">
             {Object.keys(checkpointsRespondidos).length} checkpoints respondidos

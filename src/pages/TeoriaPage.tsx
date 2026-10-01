@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
-import { moduloM1Fundamentos } from '../content/modules/m1-fundamentos';
+import { COURSE_REGISTRY } from '../content/registry';
 import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos';
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
@@ -17,6 +17,7 @@ import {
   List,
   ArrowRight,
   Sparkles,
+  BookOpen,
 } from 'lucide-react';
 
 export const TeoriaPage: React.FC = () => {
@@ -33,10 +34,20 @@ export const TeoriaPage: React.FC = () => {
 
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  // Submódulo ativo (1.1, 1.2, 1.3, 1.4)
+  // Lista plana de todos os submódulos do curso (40 submódulos, 1.1 a 10.4)
+  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+
+  // Submódulo ativo selecionado
   const currentSub =
-    moduloM1Fundamentos.modulosFilhos.find((s) => s.numero === selectedSubmodule) ||
-    moduloM1Fundamentos.modulosFilhos[0];
+    allSubmodules.find(
+      (s) => s.numero === selectedSubmodule || s.id === selectedSubmodule
+    ) || allSubmodules[0];
+
+  // Macro-módulo pai correspondente
+  const currentMacro =
+    COURSE_REGISTRY.find((m) =>
+      m.modulosFilhos.some((s) => s.id === currentSub.id)
+    ) || COURSE_REGISTRY[0];
 
   useEffect(() => {
     setUltimoModuloAcessado(currentSub.numero);
@@ -62,18 +73,11 @@ export const TeoriaPage: React.FC = () => {
 
   const isConcluido = modulosLidosIds.includes(currentSub.id);
 
-  // Índices para navegação anterior/próximo
-  const currentIndex = moduloM1Fundamentos.modulosFilhos.findIndex(
-    (s) => s.id === currentSub.id
-  );
-  const prevSub =
-    currentIndex > 0
-      ? moduloM1Fundamentos.modulosFilhos[currentIndex - 1]
-      : null;
+  // Índices para navegação sequencial contínua (atravessa submódulos e blocos)
+  const currentIndex = allSubmodules.findIndex((s) => s.id === currentSub.id);
+  const prevSub = currentIndex > 0 ? allSubmodules[currentIndex - 1] : null;
   const nextSub =
-    currentIndex < moduloM1Fundamentos.modulosFilhos.length - 1
-      ? moduloM1Fundamentos.modulosFilhos[currentIndex + 1]
-      : null;
+    currentIndex < allSubmodules.length - 1 ? allSubmodules[currentIndex + 1] : null;
 
   const scrollToAnchor = (id: string) => {
     const el = document.getElementById(id);
@@ -98,38 +102,95 @@ export const TeoriaPage: React.FC = () => {
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura (62-72ch) */}
         <main className="flex-1 min-w-0 max-w-3xl mx-auto space-y-8">
-          {/* Seletor Segmentado de Submódulos */}
-          <nav
-            aria-label="Submódulos de Fundamentos"
-            className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border overflow-x-auto"
-          >
-            {moduloM1Fundamentos.modulosFilhos.map((sub) => {
-              const active = sub.numero === currentSub.numero;
-              const completed = modulosLidosIds.includes(sub.id);
+          {/* Seletor de Macro-Módulos (Blocos A a J / M1 a M10) */}
+          <div className="space-y-2">
+            <div className="flex items-center justify-between text-xs font-sans text-ink-2 px-1">
+              <span className="font-semibold uppercase tracking-wider flex items-center gap-1.5">
+                <BookOpen className="w-3.5 h-3.5 text-accent" />
+                Blocos Curriculares da Câmara
+              </span>
+              <span className="font-mono">
+                {currentMacro.codigo} ({currentMacro.modulosFilhos.length} subtópicos)
+              </span>
+            </div>
 
-              return (
-                <button
-                  key={sub.id}
-                  type="button"
-                  onClick={() => setSelectedSubmodule(sub.numero)}
-                  className={`flex-1 min-w-[70px] py-2 px-3 rounded-lg text-xs font-sans font-semibold flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap ${
-                    active
-                      ? 'bg-surface text-ink shadow-xs border border-border/80'
-                      : 'text-ink-2 hover:text-ink'
-                  }`}
-                >
-                  <span>{sub.numero}</span>
-                  {completed && <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0" />}
-                </button>
-              );
-            })}
-          </nav>
+            {/* Scroll horizontal com os 10 blocos */}
+            <div className="flex items-center gap-1.5 p-1.5 bg-surface-2/70 rounded-xl border border-border overflow-x-auto no-scrollbar">
+              {COURSE_REGISTRY.map((macro) => {
+                const isCurrentMacro = macro.id === currentMacro.id;
+                const subsLidosCount = macro.modulosFilhos.filter((s) =>
+                  modulosLidosIds.includes(s.id)
+                ).length;
+                const isMacroFullCompleted =
+                  subsLidosCount === macro.modulosFilhos.length;
+
+                return (
+                  <button
+                    key={macro.id}
+                    type="button"
+                    onClick={() => {
+                      setSelectedSubmodule(macro.modulosFilhos[0].numero);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className={`shrink-0 py-1.5 px-3 rounded-lg text-xs font-sans font-semibold flex items-center gap-1.5 transition-all whitespace-nowrap ${
+                      isCurrentMacro
+                        ? 'bg-surface text-ink shadow-xs border border-border/80'
+                        : 'text-ink-2 hover:text-ink hover:bg-surface/50'
+                    }`}
+                  >
+                    <span>{macro.codigo}</span>
+                    <span className="hidden sm:inline text-[11px] font-normal opacity-80">
+                      {macro.titulo.split(' ')[0]}
+                    </span>
+                    {isMacroFullCompleted && (
+                      <CheckCircle2 className="w-3 h-3 text-ok shrink-0" />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Seletor Segmentado de Submódulos do Macro-Módulo Ativo */}
+            <nav
+              aria-label={`Submódulos de ${currentMacro.titulo}`}
+              className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border overflow-x-auto"
+            >
+              {currentMacro.modulosFilhos.map((sub) => {
+                const active = sub.id === currentSub.id;
+                const completed = modulosLidosIds.includes(sub.id);
+
+                return (
+                  <button
+                    key={sub.id}
+                    type="button"
+                    onClick={() => {
+                      setSelectedSubmodule(sub.numero);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className={`flex-1 min-w-[70px] py-2 px-3 rounded-lg text-xs font-sans font-semibold flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap ${
+                      active
+                        ? 'bg-surface text-ink shadow-xs border border-border/80'
+                        : 'text-ink-2 hover:text-ink'
+                    }`}
+                  >
+                    <span>{sub.numero}</span>
+                    <span className="hidden md:inline truncate max-w-[130px] font-normal">
+                      {sub.titulo}
+                    </span>
+                    {completed && (
+                      <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0" />
+                    )}
+                  </button>
+                );
+              })}
+            </nav>
+          </div>
 
           {/* Cabeçalho do Submódulo */}
           <header className="border-b border-border pb-6">
             <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
               <span className="font-mono text-xs text-accent font-semibold uppercase tracking-wider">
-                Módulo 1 • Submódulo {currentSub.numero}
+                {currentMacro.codigo} • {currentMacro.titulo} • Submódulo {currentSub.numero}
               </span>
               <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" />
