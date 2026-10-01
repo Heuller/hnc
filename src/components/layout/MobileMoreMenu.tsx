@@ -7,14 +7,13 @@ export const MobileMoreMenu: React.FC = () => {
   const menuRef = useRef<HTMLDivElement>(null);
   const { setActiveView } = useNavigationStore();
 
-  const [currentTheme, setCurrentTheme] = useState<'light' | 'dark' | 'auto'>('auto');
-
-  useEffect(() => {
-    const saved = localStorage.getItem('theme-preference') as 'light' | 'dark' | 'auto' | null;
-    if (saved) {
-      setCurrentTheme(saved);
+  const [currentTheme, setCurrentTheme] = useState<'light' | 'dark' | 'auto'>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('theme-preference') as 'light' | 'dark' | 'auto' | null;
+      return saved || 'auto';
     }
-  }, []);
+    return 'auto';
+  });
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {

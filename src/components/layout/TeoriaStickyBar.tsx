@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, X, CheckCircle2, List } from 'lucide-react';
 import { getModuleTheme } from '../../domain/moduleThemes';
@@ -25,16 +25,19 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
   const [isTocOpen, setIsTocOpen] = useState(false);
   const theme = getModuleTheme(macroId);
 
-  const sections: SectionItem[] = [
-    { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
-    { id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' },
-    ...(submodulo.quadroComparativo
-      ? [{ id: 'sec-quadro', numero: '3', titulo: 'Matriz Comparativa' }]
-      : []),
-    { id: 'sec-teoria', numero: '4', titulo: 'Teoria Detalhada' },
-    { id: 'sec-checkpoints', numero: '5', titulo: 'Checkpoints de Fixação' },
-    { id: 'sec-mnemonicos', numero: '6', titulo: 'Resumo e Mnemônicos' },
-  ];
+  const sections: SectionItem[] = useMemo(
+    () => [
+      { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
+      { id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' },
+      ...(submodulo.quadroComparativo
+        ? [{ id: 'sec-quadro', numero: '3', titulo: 'Matriz Comparativa' }]
+        : []),
+      { id: 'sec-teoria', numero: '4', titulo: 'Teoria Detalhada' },
+      { id: 'sec-checkpoints', numero: '5', titulo: 'Checkpoints de Fixação' },
+      { id: 'sec-mnemonicos', numero: '6', titulo: 'Resumo e Mnemônicos' },
+    ],
+    [submodulo.quadroComparativo]
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -54,7 +57,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
     });
 
     return () => observer.disconnect();
-  }, [submodulo.id]);
+  }, [submodulo.id, sections]);
 
   const activeSection =
     sections.find((s) => s.id === activeSectionId) || sections[0];

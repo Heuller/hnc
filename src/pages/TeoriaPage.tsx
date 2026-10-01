@@ -119,7 +119,7 @@ export const TeoriaPage: React.FC = () => {
     });
 
     return () => observer.disconnect();
-  }, [currentSub.id, registrarSecaoVisualizada]);
+  }, [currentSub, registrarSecaoVisualizada]);
 
   // Índices para navegação sequencial contínua (atravessa submódulos e blocos)
   const currentIndex = allSubmodules.findIndex((s) => s.id === currentSub.id);

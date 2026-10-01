@@ -36,14 +36,19 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
   const inputRef = useRef<HTMLInputElement>(null);
   const { setActiveView, setSelectedSubmodule } = useNavigationStore();
 
+  const handleClose = () => {
+    setQuery('');
+    onClose();
+  };
+
   // Foco no input ao abrir
   useEffect(() => {
-    if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 50);
+    if (!isOpen) return;
+    const timer = setTimeout(() => {
+      inputRef.current?.focus();
       setSelectedIndex(0);
-    } else {
-      setQuery('');
-    }
+    }, 50);
+    return () => clearTimeout(timer);
   }, [isOpen]);
 
   // Indexação em memória dos dados da plataforma
@@ -137,7 +142,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
       }
     } else if (e.key === 'Escape') {
       e.preventDefault();
-      onClose();
+      handleClose();
     }
   };
 
@@ -148,7 +153,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
       setSelectedSubmodule(item.submoduloId);
       setActiveView('teoria');
     }
-    onClose();
+    handleClose();
   };
 
   if (!isOpen) return null;
@@ -161,7 +166,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          onClick={onClose}
+          onClick={handleClose}
           className="fixed inset-0 bg-black/60 backdrop-blur-sm"
         />
 

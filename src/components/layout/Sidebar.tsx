@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { BookOpen, ChevronRight, ChevronDown, CheckCircle2, Circle } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
@@ -27,22 +27,20 @@ export const Sidebar: React.FC = () => {
       m.modulosFilhos.some((s) => s.numero === selectedSubmodule)
     )?.id || 'm1';
 
-  // Controle de quais módulos estão expandidos no acordeão
-  const [expandedModules, setExpandedModules] = useState<Record<string, boolean>>({
-    [activeModuleOfSub]: true,
-  });
+  // Controle de quais módulos foram alternados manualmente pelo usuário
+  const [userToggledModules, setUserToggledModules] = useState<Record<string, boolean>>({});
 
-  // Atualiza expansão quando muda o submódulo
-  useEffect(() => {
-    if (activeModuleOfSub) {
-      setExpandedModules((prev) => ({ ...prev, [activeModuleOfSub]: true }));
+  const isModuleExpanded = (moduleId: string) => {
+    if (userToggledModules[moduleId] !== undefined) {
+      return userToggledModules[moduleId];
     }
-  }, [activeModuleOfSub]);
+    return moduleId === activeModuleOfSub;
+  };
 
   const toggleModuleExpand = (moduleId: string) => {
-    setExpandedModules((prev) => ({
+    setUserToggledModules((prev) => ({
       ...prev,
-      [moduleId]: !prev[moduleId],
+      [moduleId]: !isModuleExpanded(moduleId),
     }));
   };
 
@@ -146,7 +144,7 @@ export const Sidebar: React.FC = () => {
 
   const renderModuleCard = (modulo: typeof COURSE_REGISTRY[0]) => {
     const theme = getModuleTheme(modulo.id);
-    const isExpanded = !!expandedModules[modulo.id];
+    const isExpanded = isModuleExpanded(modulo.id);
     const hasActiveSub = modulo.modulosFilhos.some(
       (s) => s.numero === selectedSubmodule && activeView === 'teoria'
     );

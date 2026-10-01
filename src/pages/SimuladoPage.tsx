@@ -43,11 +43,7 @@ export const SimuladoPage: React.FC = () => {
 
   const { setSelectedSubmodule, setActiveView } = useNavigationStore();
 
-  const [certezaSelecionada, setCertezaSelecionada] = useState<
-    'certeza' | 'provavel' | 'chute' | undefined
-  >(undefined);
-
-  const [tempoInicio] = useState<number>(Date.now());
+  const [tempoInicio] = useState<number>(() => Date.now());
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
 
@@ -60,14 +56,25 @@ export const SimuladoPage: React.FC = () => {
   const currentQuestion = simuladoFundamentos100Q[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
 
-  // Sincroniza certeza quando já respondida
-  useEffect(() => {
-    if (respostaAtual?.certeza) {
-      setCertezaSelecionada(respostaAtual.certeza);
-    } else {
-      setCertezaSelecionada(undefined);
+  // Controle de certeza por questão sem efeitos colaterais em cascata
+  const [certezaManualMap, setCertezaManualMap] = useState<
+    Record<string, 'certeza' | 'provavel' | 'chute' | undefined>
+  >({});
+
+  const certezaSelecionada = currentQuestion
+    ? (certezaManualMap[currentQuestion.id] !== undefined
+        ? certezaManualMap[currentQuestion.id]
+        : respostaAtual?.certeza)
+    : undefined;
+
+  const setCertezaSelecionada = (nivel: 'certeza' | 'provavel' | 'chute' | undefined) => {
+    if (currentQuestion) {
+      setCertezaManualMap((prev) => ({ ...prev, [currentQuestion.id]: nivel }));
+      if (respostaAtual?.resposta && nivel) {
+        salvarRespostaSimulado(currentQuestion.id, respostaAtual.resposta, nivel, respostaAtual.acertou);
+      }
     }
-  }, [respostaAtual]);
+  };
 
   // Placar em tempo real
   let acertosCount = 0;
