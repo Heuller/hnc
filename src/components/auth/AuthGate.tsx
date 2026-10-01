@@ -74,6 +74,7 @@ export const AuthGate: React.FC = () => {
             data: {
               nome_completo: nome.trim(),
             },
+            emailRedirectTo: window.location.origin,
           },
         });
 

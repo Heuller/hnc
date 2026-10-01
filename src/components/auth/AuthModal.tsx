@@ -73,6 +73,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             data: {
               nome_completo: nome.trim(),
             },
+            emailRedirectTo: window.location.origin,
           },
         });
 
