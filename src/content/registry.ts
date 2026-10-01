@@ -9,6 +9,7 @@ import { moduloM7Preservacao } from './modules/m7-preservacao';
 import { moduloM8Normalizacao } from './modules/m8-normalizacao';
 import { moduloM9Comunicacao } from './modules/m9-comunicacao';
 import { moduloM10Legislativo } from './modules/m10-legislativo';
+import { moduloM11RaciocinioLogico } from './modules/m11-raciocinio-logico';
 
 export const COURSE_REGISTRY: MacroModulo[] = [
   moduloM1Fundamentos,
@@ -21,6 +22,7 @@ export const COURSE_REGISTRY: MacroModulo[] = [
   moduloM8Normalizacao,
   moduloM9Comunicacao,
   moduloM10Legislativo,
+  moduloM11RaciocinioLogico,
 ];
 
 export {
@@ -34,4 +36,5 @@ export {
   moduloM8Normalizacao,
   moduloM9Comunicacao,
   moduloM10Legislativo,
+  moduloM11RaciocinioLogico,
 };

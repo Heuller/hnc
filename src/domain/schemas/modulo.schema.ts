@@ -46,7 +46,7 @@ export const ModuloFilhoSchema = z.object({
 export const MacroModuloSchema = z.object({
   id: z.string(), // ex: 'm1'
   codigo: z.string(), // ex: 'M1'
-  numero: z.number().min(1).max(10),
+  numero: z.number().min(1).max(20),
   titulo: z.string(),
   subtitulo: z.string(),
   descricao: z.string(),

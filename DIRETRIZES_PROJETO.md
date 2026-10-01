@@ -170,6 +170,15 @@ Suporte nativo a Temas Claro e Escuro, sincronizados com `prefers-color-scheme` 
 | **M8** | **Normalização Documental e ABNT** | NBR 6023 (Referências), NBR 10520 (Citações), NBR 6028 (Resumos), NBR 6027 (Sumários) e Artigos | 100 Itens C/E | Planejado |
 | **M9** | **Comunicação Científica, Ciência Aberta e Métricas** | Leis Bibliométricas (Bradford, Lotka, Zipf), Acesso Aberto, Dados FAIR e Altmetria | 100 Itens C/E | Planejado |
 | **M10** | **Legislação Federal e Contexto Legislativo** | Regimento Interno da Câmara, Processo Legislativo, LAI (Lei 12.527/11), LGPD (Lei 13.709/18) e Depósito Legal | 100 Itens C/E | Planejado |
+| **M11** | **Raciocínio Lógico-Matemático (Conhecimentos Básicos - Cebraspe / Câmara dos Deputados)** | **11.1** Lógica Proposicional & Conectivos (Método dos Modelos Mentais de Johnson-Laird)<br/>**11.2** A Condicional Cebraspe ($P \to Q$), Equivalências (Contrapositiva e NÉOU) & Freio do Sistema 2<br/>**11.3** A Arte da Negação (Regra MANÉ) & Quantificadores Categóricos (Método PEA + NÃO e Euler-Venn)<br/>**11.4** Argumentação Lógica, Silogismos & Questões Reais da Câmara dos Deputados | 100 Itens C/E | **✅ CONCLUÍDO & DISPONÍVEL** |
+
+### 7.1. Metodologia Científica do Módulo M11 (Raciocínio Lógico do Zero)
+Para atender às especificidades cognitivas do raciocínio lógico-matemático formal, o módulo M11 adota fundamentos da ciência cognitiva:
+1. **Teoria dos Modelos Mentais (Philip Johnson-Laird):** A mente humana compreende lógica simulando cenários factuais possíveis (mundos verdadeiros), e não manipulando regras sintáticas cegas. Cada conectivo é ensinado via matriz de cenários.
+2. **Controle de Carga Cognitiva (John Sweller - CLT):** Substituição da memorização forçada de tabelas de 20 linhas pela técnica do *Gatilho Único de Decisão* (o ponto de falha único de cada operador).
+3. **Protocolo Freio do Sistema 2 (Evans & Kahneman):** Treinamento da pausa analítica contra o viés intuitivo de correspondência (*Matching Bias* e Falácia da Afirmação do Consequente no problema de Wason).
+4. **Sequência Concreto-Representacional-Abstrato (CRA - Bruner):** Do contexto legislativo factual aos diagramas de Euler-Venn, culminando na álgebra booleana e equivalências formais.
+5. **Mnemônicos de Prova Cebraspe:** MANÉ (negação de $P \to Q$), NÉOU (equivalência disjuntiva), Contrapositiva e PEA + NÃO (negação de quantificador universal afirmativo "Todo").
 
 ---
 
