@@ -10,10 +10,10 @@
 * **Instituição-Alvo:** **Câmara dos Deputados** (Congresso Nacional, Brasília/DF).
 * **Cargo em Foco:** **Analista Legislativo — Atribuição: Bibliotecário**.
 * **Banca Examinadora Oficial:** **CEBRASPE (antigo CESPE/UnB)**.
-* **Repositório Local do Código:** `c:/Users/bibli/Downloads/CEBRASPE/curso-revisao`
-* **Repositório GitHub:** `https://github.com/Heuller/hnc`
-* **Endereço Web Ativo (GitHub Pages):** `https://heuller.github.io/hnc/`
-* **Tecnologias Utilizadas:** React 19, TypeScript, Vite, TailwindCSS v4, Lucide React, Framer Motion, GitHub Actions CI/CD.
+* **Repositório Local do Código:** \`c:/Users/bibli/Downloads/CEBRASPE/curso-revisao\`
+* **Repositório GitHub:** \`https://github.com/Heuller/hnc\`
+* **Endereço Web Ativo (Vercel Produção):** \`https://heuller.vercel.app/\`
+* **Tecnologias Utilizadas:** React 19, TypeScript estrito, Vite, Tailwind CSS v4, Lucide React, Framer Motion (`motion`), Zod, Vaul, Zustand com `persist`, KaTeX (`rehype-katex`, `remark-gfm`), Recharts, Fontsource, `vite-plugin-pwa`, Vitest, Supabase (PostgreSQL, Auth e RLS), Vercel CI/CD.
 
 ### Objetivo Primordial
 Transformar o antigo projeto de revisão em uma **grande plataforma definitiva de estudos avançados em Biblioteconomia**, com embasamento direto na literatura acadêmica e profissional canônica (livros clássicos, artigos seminais, normas da ABNT e legislação federal), ajustada de ponta a ponta à metodologia estrita e ao elevado nível de exigência da banca **CEBRASPE**.
@@ -86,7 +86,7 @@ Cada submódulo conterá obrigatoriamente:
 * **Quadro Comparativo / Matriz Sinóptica:** Tabela analítica estruturada contrastando conceitos correlatos.
 * **Teoria Densa com Fundamentação Rigorosa:** Texto teórico estruturado em blocos e tópicos, com citações diretas de livros clássicos e artigos das pastas do projeto (sem superficialidade).
 * **Micro-Checkpoints de Recuperação Ativa:** 2 a 3 itens interativos no formato C/E ao final da leitura com validação e feedback instantâneos.
-* **Resumo Esquematizado & Mnemônicos Rápidos:** Card lateral com diagramas lógicos em código/texto monoespaçado para revisão rápida na véspera da prova.
+* **Resumo Esquematizado & Mnemônicos Estruturados:** Dados estritamente tipados via Zod em 4 formatos canônicos, eliminando markdown cru e blocos de código monospaçados: (1) Linha do Tempo histórica, (2) Fichas "Quem é Quem" de autores com chips de pegadinha e expansão interativa, (3) Pares de Pegadinha da Banca (afirmação x julgamento Cebraspe x porquê da indução a erro), e (4) Flashcards com autoavaliação. No desktop: coluna lateral fixa ("Resumo Rápido") com abas; no mobile: botão flutuante e bottom sheet (Vaul Drawer).
 
 ---
 
@@ -114,16 +114,45 @@ Ao final de cada Macro-Módulo, haverá um Simulado completo e exclusivo daquela
 
 ---
 
-## 6. PADRÃO VISUAL, FRONTEND, UX E UI
+## 6. DESIGN SYSTEM EDITORIAL: "PAPEL E TINTA" (PADRÃO V2 OFICIAL)
 
-A experiência visual deve impressionar no primeiro olhar (*rich aesthetics*), transmitindo a seriedade e a sofisticação da Câmara dos Deputados:
+A interface serve à leitura atenta e ao estudo por longas horas, rejeitando o visual amador, gradientes cosméticos, brilhos (glow) e sombras coloridas. O conceito reitor é **"Papel e Tinta"**: sobriedade, precisão tipográfica e alto contraste. O tom âmbar atua como cor plana com função exclusiva de marca-texto.
 
-* **Paleta de Cores Legislativa:**
-  * Fundo primário: Dark Mode ultra-refinado (`bg-slate-950`, `bg-slate-900`).
-  * Acentos de autoridade: Dourado Âmbar (`from-amber-600 via-amber-500 to-yellow-300`) em referência ao plenário e aos símbolos da Câmara dos Deputados.
-  * Cores funcionais de avaliação: Esmeralda (`emerald-500/emerald-400`) para acertos e Carmesim (`rose-500/rose-400`) para erros/penalidades.
-* **Tipografia Moderna:** Fontes *Inter*, *Plus Jakarta Sans* e *JetBrains Mono* para código e mnemônicos.
-* **Microinterações Fluidas:** Transições suaves de abas, feedback instantâneo sem recarregamento de página (*Single Page Application* reativa com Vite e React 19).
+### 6.1. Temas e Paleta Semântica (WCAG 2.2 AA)
+Suporte nativo a Temas Claro e Escuro, sincronizados com `prefers-color-scheme` e alternador manual persistido. É proibido o uso de preto puro (#000000) e branco puro (#FFFFFF) como plano de fundo de leitura:
+
+* **Tema Claro:**
+  * Fundo (`bg`): `#FAF7F0` (papel editorial levemente aquecido)
+  * Superfícies: `surface` `#FFFFFF`, `surface-2` `#F2EEE4`, `border` `#E4DED0`
+  * Textos: `ink` `#1A2238` (tinta profunda, contraste 15.8:1), `ink-2` `#4A5468`
+  * Destaques: `primary` `#16244A` (azul marinho institucional, texto branco), `accent` `#B45309` (marca-texto), `accent-soft` `#FEF3C7`
+  * Feedback Funcional: `ok` `#166534` / `ok-soft` `#DCFCE7`, `err` `#B91C1C` / `err-soft` `#FEE2E2`, `alerta-cebraspe` `#9F1239` / `alerta-soft` `#FFF1F2`, `info` `#1D4ED8`
+* **Tema Escuro:**
+  * Fundo (`bg`): `#0D1220` (azul-noite profundo, reduz fadiga visual)
+  * Superfícies: `surface` `#141B2E`, `surface-2` `#1B2440`, `border` `#2A3555`
+  * Textos: `ink` `#E9ECF5` (papel iluminado), `ink-2` `#A9B2C7`
+  * Destaques: `primary` `#FBBF24` (texto `#0D1220`), `accent` `#FBBF24`, `accent-soft` `#1B2440`
+  * Feedback Funcional: `ok` `#4ADE80`, `err` `#F87171`, `alerta` `#FB7185`
+
+* **Regra Inviolável de Estado:** O estado de julgamento NUNCA é comunicado apenas por cor. Deve conter obrigatoriamente ícone + rótulo textual + cor:
+  * ✅ Certo (+1 ponto líquido)
+  * ❌ Errado (-1 ponto líquido, anula uma questão certa)
+  * ⚪ Em branco (0 pontos, abstenção estratégica)
+
+### 6.2. Tipografia e Ritmo Vertical
+* **Fonte de Leitura Profunda:** *Source Serif 4* (autohospedada via `@fontsource/source-serif-4`), corpo de 17–18px no desktop e 16px no mobile, `line-height` 1.6–1.7, coluna de 62–72 caracteres (`max-w-3xl`).
+* **Fonte de Interface e Controles:** *Inter* (autohospedada via `@fontsource/inter`).
+* **Código, Fórmulas e Atalhos:** *JetBrains Mono* (autohospedada via `@fontsource/jetbrains-mono`).
+* **Tracking e Text-Wrap:** `letter-spacing` do corpo fixado em 0; títulos no máximo -0.01em (proibido o tracking negativo que funde palavras). Títulos com `text-wrap: balance` e parágrafos com `text-wrap: pretty`.
+
+### 6.3. Espaço, Forma e Responsividade
+* **Grade e Raios:** Grade modular de 8px; raios de curvatura de 12px (controles/botões) e 16px (cartões).
+* **Acessibilidade e Toque:** Alvos de toque $\ge 44\times 44\text{px}$; respeito estrito às margens seguras `env(safe-area-inset-*)`.
+* **Tabelas sem Rolagem Horizontal:** Em qualquer tela $\ge 320\text{px}$, tabelas e matrizes comparativas adaptam-se dinamicamente:
+  * $\ge 768\text{px}$: `<table>` semântica com cabeçalho fixo.
+  * $< 768\text{px}$: seletor por facetas segmentadas por coluna com modo alternativo "Ver tudo empilhado" em cartões.
+* **Fórmulas Matemáticas:** Renderizadas estritamente com KaTeX (`rehype-katex`). Zero LaTeX cru exposto na interface.
+* **Performance e Offline:** Lazy loading por rota (`React.lazy`), PWA offline (`vite-plugin-pwa`) e meta de Lighthouse $\ge 95$ em todas as categorias.
 
 ---
 
@@ -146,11 +175,42 @@ A experiência visual deve impressionar no primeiro olhar (*rich aesthetics*), t
 
 ## 8. FLUXO DE PUBLICAÇÃO E CI/CD
 
-1. **Desenvolvimento Local:** O código é desenvolvido e testado no diretório `curso-revisao`.
-2. **Validação Rigorosa:** Sempre executar `npm run build` antes de qualquer commit para garantir que o TypeScript (`tsc -b`) e o bundler (`vite build`) estejam com 0 erros.
-3. **Commit & Push:** O push na branch `master` aciona automaticamente a pipeline do **GitHub Actions** (`.github/workflows/deploy.yml`).
-4. **Deploy Automático:** O GitHub Actions compila o bundle em ambiente Ubuntu e publica os artefatos na branch de deploy do **GitHub Pages** em menos de 1 minuto, disponibilizando a versão atualizada instantaneamente no link oficial.
+1. **Desenvolvimento Local:** O código é desenvolvido e testado no diretório \`curso-revisao\`.
+2. **Validação Rigorosa:** Sempre executar \`npm run build\` antes de qualquer commit para garantir que o TypeScript (\`tsc -b\`), os testes unitários (\`vitest run\`) e o bundler (\`vite build\`) estejam com 0 erros.
+3. **Commit & Push:** O push nas branches \`master\` e \`main\` aciona automaticamente a pipeline da **Vercel** com Edge Network global.
+4. **Deploy Automático:** A Vercel compila a aplicação com as variáveis de ambiente em produção e disponibiliza a versão atualizada instantaneamente em \`https://heuller.vercel.app\`.
 
 ---
-*Documento registrado em 30 de Setembro de 2026.*  
+
+## 9. INFRAESTRUTURA BACKEND E HOSPEDAGEM (OUTUBRO DE 2026)
+
+### 9.1. Backend-as-a-Service: Supabase
+A plataforma agora conta com infraestrutura de banco de dados relacional e autenticação gerenciada pelo **Supabase**:
+* **Banco de Dados PostgreSQL:** Tabelas estruturadas com Row Level Security (RLS) para proteção estrita dos dados dos alunos:
+  * \`profiles\`: Dados de identificação do aluno.
+  * \`user_progress\`: Sincronização em nuvem do progresso por módulo, checkpoints C/E respondidos, seções visualizadas e caixas do método Leitner.
+  * \`simulado_tentativas\`: Registro de cada execução do Simulado de 100 Questões Cebraspe, gravando pontuação líquida ($C - E$), acertos, erros, itens em branco, calibração metacognitiva de certeza/chute e tempo total.
+* **Autenticação:** Sessão persistente com suporte a login flexível por e-mail ou nome de usuário direto, com sincronização automática com Zustand.
+* **Resiliência Offline:** O cliente Supabase (\`src/lib/supabase.ts\`) opera de forma resiliente: caso o usuário esteja sem conexão, a persistência local garante o estudo contínuo sem interrupções.
+
+### 9.2. Hospedagem e Produção: Vercel
+* **Domínio Oficial Ativo:** \`https://heuller.vercel.app\`
+* **Roteamento SPA:** Configurado via \`vercel.json\` com rewrite para \`/index.html\` (evitando erro 404 em recarregamento direto).
+
+### 9.3. Camada de Segurança e Acesso Restrito (AuthGate)
+* **Gating Obrigatório:** Acesso fechado a visitantes não autenticados; toda a plataforma de estudos é carregada apenas após validação de credenciais ativas.
+* **Interface Neutra de Entrada:** A tela de login/cadastro é propositalmente discreta, sem exposição de temas, cargos ou menções a concursos públicos na área externa.
+* **Usuário de Teste / Demonstração:** Conta criada e confirmada no Supabase para homologação rápida:
+  * *Usuário:* \`teste\` (ou \`teste@teste.com\`)
+  * *Senha:* \`teste4344\`
+
+---
+
+## 10. ACERVO DE CONTEÚDO E MATERIAIS DE ESTUDO NO REPOSITÓRIO
+Para permitir a continuidade do desenvolvimento e dos estudos a partir de qualquer computador:
+* O repositório integra o diretório canônico \`acervo-estudos/\`, contendo as pastas organizadas por eixos temáticos do edital (ABNT, Catalogação, Classificação, Comunicação Científica, Digital/Repositórios, Fundamentos, Gestão de Coleções, Legislação, Preservação, Questões, Recuperação de Informação, Skills e Livros de Referência).
+* Documentação de diretrizes e manuais técnicos mantidos versionados na raiz do projeto.
+
+---
+*Documento atualizado em 01 de Outubro de 2026.*  
 *Projeto Heuller na Câmara — Rumo à Aprovação como Analista Legislativo!*
