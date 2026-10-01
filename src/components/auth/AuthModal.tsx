@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, LogIn, UserPlus, LogOut, CheckCircle2, AlertCircle, Loader2, User, KeyRound, Mail } from 'lucide-react';
+import { X, LogIn, UserPlus, LogOut, CheckCircle2, AlertCircle, Loader2, User, KeyRound } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { supabase } from '../../lib/supabase';
 import { progressSyncService } from '../../services/progressSyncService';
@@ -29,16 +29,24 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
     setSuccessMsg(null);
     setLoading(true);
 
+    const resolveEmail = (identifier: string) => {
+      const clean = identifier.trim().toLowerCase();
+      if (!clean.includes('@')) {
+        return `${clean}@hnc.internal`;
+      }
+      return clean;
+    };
+
     try {
       if (tab === 'login') {
         const { data, error } = await supabase.auth.signInWithPassword({
-          email: email.trim(),
+          email: resolveEmail(email),
           password,
         });
 
         if (error) {
           setErrorMsg(error.message === 'Invalid login credentials' 
-            ? 'E-mail ou senha incorretos.' 
+            ? 'Usuário ou senha incorretos.' 
             : error.message);
           setLoading(false);
           return;
@@ -253,16 +261,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
                 <div>
                   <label className="block text-xs font-semibold text-ink-2 mb-1">
-                    E-mail
+                    Usuário ou E-mail
                   </label>
                   <div className="relative">
-                    <Mail className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5" />
+                    <User className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5" />
                     <input
-                      type="email"
+                      type="text"
                       required
+                      autoComplete="username"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="seu-email@exemplo.com"
+                      placeholder="teste ou seu-email@exemplo.com"
                       className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink focus:border-accent focus:outline-none"
                     />
                   </div>

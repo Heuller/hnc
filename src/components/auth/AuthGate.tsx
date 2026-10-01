@@ -32,17 +32,25 @@ export const AuthGate: React.FC = () => {
     setSuccessMsg(null);
     setLoading(true);
 
+    const resolveEmail = (identifier: string) => {
+      const clean = identifier.trim().toLowerCase();
+      if (!clean.includes('@')) {
+        return `${clean}@hnc.internal`;
+      }
+      return clean;
+    };
+
     try {
       if (tab === 'login') {
         const { data, error } = await supabase.auth.signInWithPassword({
-          email: email.trim(),
+          email: resolveEmail(email),
           password,
         });
 
         if (error) {
           setErrorMsg(
             error.message === 'Invalid login credentials'
-              ? 'E-mail ou senha incorretos.'
+              ? 'Usuário ou senha incorretos.'
               : error.message
           );
           setLoading(false);
@@ -50,7 +58,7 @@ export const AuthGate: React.FC = () => {
         }
 
         if (data.user) {
-          setSuccessMsg('Acesso autorizado! Carregando plataforma...');
+          setSuccessMsg('Acesso autorizado! Carregando...');
           const cloudProgress = await progressSyncService.baixarProgressoNuvem(data.user.id);
           if (cloudProgress) {
             useProgressStore.setState((state) => ({
@@ -235,16 +243,17 @@ export const AuthGate: React.FC = () => {
 
               <div>
                 <label className="block text-xs font-semibold text-ink-2 mb-1.5">
-                  E-mail
+                  Usuário ou E-mail
                 </label>
                 <div className="relative">
-                  <Mail className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
+                  <User className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
                   <input
-                    type="email"
+                    type="text"
                     required
+                    autoComplete="username"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="seu-email@exemplo.com"
+                    placeholder="teste ou seu-email@exemplo.com"
                     className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none transition-all"
                   />
                 </div>
