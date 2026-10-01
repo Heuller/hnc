@@ -25,6 +25,12 @@ const DesignSystemPage = lazy(() =>
 const DevRascunhosPage = lazy(() =>
   import('./pages/DevRascunhosPage').then((m) => ({ default: m.DevRascunhosPage }))
 );
+const CadernoErrosPage = lazy(() =>
+  import('./pages/CadernoErrosPage').then((m) => ({ default: m.CadernoErrosPage }))
+);
+const FolhaVesperaPage = lazy(() =>
+  import('./pages/FolhaVesperaPage').then((m) => ({ default: m.FolhaVesperaPage }))
+);
 
 const PageSkeletonLoader = () => (
   <div className="max-w-4xl mx-auto space-y-6 py-6 animate-pulse" aria-live="polite">
@@ -63,6 +69,8 @@ export function App() {
               {activeView === 'simulado' && <SimuladoPage />}
               {activeView === 'radar' && <RadarPage />}
               {activeView === 'progresso' && <ProgressoPage />}
+              {activeView === 'caderno-erros' && <CadernoErrosPage />}
+              {activeView === 'folha-vespera' && <FolhaVesperaPage />}
               {activeView === 'design-system' && import.meta.env.DEV && <DesignSystemPage />}
               {activeView === 'dev-rascunhos' && <DevRascunhosPage />}
             </motion.div>

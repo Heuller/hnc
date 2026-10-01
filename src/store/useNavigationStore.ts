@@ -1,6 +1,15 @@
 import { create } from 'zustand';
 
-export type AppView = 'painel' | 'teoria' | 'simulado' | 'radar' | 'progresso' | 'design-system' | 'dev-rascunhos';
+export type AppView =
+  | 'painel'
+  | 'teoria'
+  | 'simulado'
+  | 'radar'
+  | 'progresso'
+  | 'caderno-erros'
+  | 'folha-vespera'
+  | 'design-system'
+  | 'dev-rascunhos';
 
 interface NavigationState {
   activeView: AppView;
@@ -23,6 +32,8 @@ function getViewFromHash(): AppView {
   if (hash.startsWith('simulado')) return 'simulado';
   if (hash.startsWith('radar')) return 'radar';
   if (hash.startsWith('progresso')) return 'progresso';
+  if (hash.startsWith('caderno-erros') || hash.startsWith('caderno')) return 'caderno-erros';
+  if (hash.startsWith('folha-vespera') || hash.startsWith('folha')) return 'folha-vespera';
   if (hash.startsWith('design-system')) return 'design-system';
   if (hash.startsWith('dev/rascunhos') || hash.startsWith('dev-rascunhos')) return 'dev-rascunhos';
   if (hash.startsWith('painel')) return 'painel';

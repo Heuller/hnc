@@ -11,6 +11,7 @@ import {
   processarRespostaLeitner,
   criarItemLeitner,
 } from '../domain/leitner';
+import { getItensCadernoErros } from '../domain/cadernoErros';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
@@ -38,6 +39,7 @@ interface ProgressStoreState extends UserProgress {
   reiniciarSimulado: () => void;
   // Backup e Restauração
   exportarProgressoJson: () => string;
+  exportarResumoMarkdown: () => string;
   importarProgressoJson: (json: string) => { success: boolean; error?: string };
   limparTodoProgresso: () => void;
 }
@@ -413,6 +415,49 @@ export const useProgressStore = create<ProgressStoreState>()(
           ultimoModuloAcessado: state.ultimoModuloAcessado,
         };
         return JSON.stringify(exportData, null, 2);
+      },
+
+      exportarResumoMarkdown: () => {
+        const state = get();
+        const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+        const lidos = allSubs.filter((s) => state.modulosLidosIds.includes(s.id));
+        const erros = getItensCadernoErros(
+          state.checkpointsRespondidos || {},
+          state.historicoSimulados || []
+        );
+
+        let md = `# Relatório de Estudos e Desempenho · Heuller na Câmara\n\n`;
+        md += `*Gerado em: ${new Date().toLocaleString('pt-BR')}*\n\n`;
+        md += `## 1. Cobertura do Edital (Câmara dos Deputados)\n\n`;
+        md += `- **Submódulos Lidos:** ${lidos.length} de 40 (${Math.round((lidos.length / 40) * 100)}%)\n`;
+        md += `- **Constância de Estudo:** ${state.constancia.diasConsecutivos} dias consecutivos ativos\n`;
+        md += `- **Checkpoints Respondidos:** ${Object.keys(state.checkpointsRespondidos || {}).length} de 120\n\n`;
+
+        if (state.historicoSimulados && state.historicoSimulados.length > 0) {
+          md += `## 2. Histórico de Simulados (Fator Cebraspe)\n\n`;
+          md += `| Simulado | Data | Acertos | Erros | Em Branco | Pontuação Líquida |\n`;
+          md += `| :--- | :--- | :--- | :--- | :--- | :--- |\n`;
+          state.historicoSimulados.forEach((sim, idx) => {
+            md += `| #${idx + 1} | ${new Date(sim.dataHora).toLocaleDateString('pt-BR')} | ${sim.certos} | ${sim.errados} | ${sim.emBranco} | **${sim.notaLiquida} pts** |\n`;
+          });
+          md += `\n`;
+        }
+
+        if (erros.length > 0) {
+          md += `## 3. Caderno de Erros Ativo (${erros.length} itens)\n\n`;
+          erros.forEach((e, idx) => {
+            md += `### Item ${idx + 1}: ${e.tituloContexto}\n\n`;
+            md += `> ${e.assertiva}\n\n`;
+            md += `- **Gabarito Oficial:** ${e.gabarito === 'C' ? 'CERTO' : 'ERRADO'}\n`;
+            md += `- **Sua Resposta:** ${e.respostaUsuario === 'C' ? 'CERTO' : 'ERRADO'}\n`;
+            md += `- **Justificativa Técnica:** ${e.justificativa}\n\n`;
+            if (e.armadilhaBanca) {
+              md += `- **Armadilha Cebraspe:** ${e.armadilhaBanca}\n\n`;
+            }
+          });
+        }
+
+        return md;
       },
 
       importarProgressoJson: (json: string) => {

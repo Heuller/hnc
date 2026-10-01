@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 
 export const MobileMoreMenu: React.FC = () => {
@@ -120,6 +120,36 @@ export const MobileMoreMenu: React.FC = () => {
               <span>Automático (Aparelho)</span>
             </div>
             {currentTheme === 'auto' && <span className="text-[10px] font-mono">✓</span>}
+          </button>
+
+          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
+            Estudo e Revisão
+          </div>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setActiveView('caderno-erros');
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+          >
+            <BookMarked className="w-4 h-4 text-amber-500" />
+            <span>Caderno de Erros</span>
+          </button>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setActiveView('folha-vespera');
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+          >
+            <Flame className="w-4 h-4 text-accent" />
+            <span>Folha de Véspera (48h)</span>
           </button>
 
           <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">

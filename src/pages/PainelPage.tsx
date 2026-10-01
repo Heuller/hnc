@@ -24,6 +24,8 @@ import {
   Award,
   Lock,
   RotateCcw,
+  BookMarked,
+  Zap,
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { getModuleTheme } from '../domain/moduleThemes';
@@ -31,6 +33,7 @@ import { ModuleBadge } from '../components/common/ModuleBadge';
 import { ModuleProgressRing } from '../components/common/ModuleProgressRing';
 import { getItensPendentesRevisao } from '../domain/leitner';
 import { checkSimuladoAccess } from '../domain/learningEngine';
+import { getItensCadernoErros } from '../domain/cadernoErros';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -67,6 +70,10 @@ export const PainelPage: React.FC = () => {
   const todayIso = new Date().toISOString().split('T')[0];
   const deckList = Object.values(leitnerDeck || {});
   const pendentesHoje = getItensPendentesRevisao(deckList, todayIso);
+
+  // Caderno de Erros (H1)
+  const itensErros = getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
+  const totalErrosAtivos = itensErros.length;
 
   // Status de Acesso ao Simulado 100Q (Parte G)
   const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
@@ -341,6 +348,71 @@ export const PainelPage: React.FC = () => {
               {pendentesHoje.length} {pendentesHoje.length === 1 ? 'item' : 'itens'}
             </span>
           </div>
+        </div>
+      </div>
+
+      {/* Atalhos Rápidos de Fixação e Véspera (Parte H: H1 e H2) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Card Caderno de Erros */}
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-all">
+          <div className="flex items-start justify-between gap-3 mb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-lg bg-err-soft text-err border border-err/20 flex items-center justify-center shrink-0">
+                <BookMarked className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="font-sans font-bold text-ink text-sm sm:text-base">Caderno de Erros</h3>
+                  <span className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold ${
+                    totalErrosAtivos > 0 ? 'bg-err-soft text-err border border-err/30' : 'bg-ok-soft text-ok border border-ok/30'
+                  }`}>
+                    {totalErrosAtivos} {totalErrosAtivos === 1 ? 'erro ativo' : 'erros ativos'}
+                  </span>
+                </div>
+                <p className="text-xs text-ink-2 font-serif mt-0.5">
+                  Banco dinâmico de itens errados em checkpoints e simulados para refazer até gabaritar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={() => setCurrentRoute('caderno-erros')}
+            className="w-full py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-err/40 font-sans font-semibold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer mt-2"
+          >
+            <span>{totalErrosAtivos > 0 ? 'Praticar Itens Incorretos' : 'Abrir Caderno de Erros'}</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        {/* Card Folha de Véspera */}
+        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-all">
+          <div className="flex items-start justify-between gap-3 mb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-lg bg-accent-soft text-accent border border-accent/20 flex items-center justify-center shrink-0">
+                <Zap className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="font-sans font-bold text-ink text-sm sm:text-base">Folha de Véspera (48h)</h3>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-accent-soft text-accent border border-accent/30">
+                    PDF / Impressão
+                  </span>
+                </div>
+                <p className="text-xs text-ink-2 font-serif mt-0.5">
+                  Fórmulas de SRI, Leis Bibliométricas, Prazos LAI/RICD e Top 10 Pegadinhas Cebraspe em alta densidade.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={() => setCurrentRoute('folha-vespera')}
+            className="w-full py-2 px-3 rounded-lg bg-accent text-accent-text hover:opacity-95 font-sans font-semibold text-xs flex items-center justify-center gap-2 transition-all shadow-editorial-sm cursor-pointer mt-2"
+          >
+            <span>Revisar Resumo Hiperdenso</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
         </div>
       </div>
 

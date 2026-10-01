@@ -15,6 +15,7 @@ import {
   Upload,
   Trash2,
   Info,
+  FileText,
 } from 'lucide-react';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
 import { COURSE_REGISTRY } from '../content/registry';
@@ -26,6 +27,7 @@ export const ProgressoPage: React.FC = () => {
     checkpointsRespondidos,
     constancia,
     exportarProgressoJson,
+    exportarResumoMarkdown,
     importarProgressoJson,
     limparTodoProgresso,
   } = useProgressStore();
@@ -83,6 +85,17 @@ export const ProgressoPage: React.FC = () => {
     const a = document.createElement('a');
     a.href = url;
     a.download = `heuller-camara-progresso-${new Date().toISOString().split('T')[0]}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleExportarMarkdown = () => {
+    const data = exportarResumoMarkdown();
+    const blob = new Blob([data], { type: 'text/markdown;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `heuller-camara-relatorio-${new Date().toISOString().split('T')[0]}.md`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -309,10 +322,20 @@ export const ProgressoPage: React.FC = () => {
           <button
             type="button"
             onClick={handleExportar}
-            className="py-2.5 px-4 rounded-lg bg-primary text-primary-text font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 hover:opacity-95 shadow-xs"
+            className="py-2.5 px-4 rounded-lg bg-primary text-primary-text font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 hover:opacity-95 shadow-xs cursor-pointer"
           >
             <Download className="w-4 h-4" />
             <span>Exportar Progresso (JSON)</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={handleExportarMarkdown}
+            className="py-2.5 px-4 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 cursor-pointer transition-colors"
+            title="Baixar relatório completo em Markdown"
+          >
+            <FileText className="w-4 h-4 text-accent" />
+            <span>Exportar Relatório (Markdown)</span>
           </button>
 
           <button

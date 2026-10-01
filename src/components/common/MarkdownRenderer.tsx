@@ -2,6 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
+import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
 
 interface MarkdownRendererProps {
   content: string;
@@ -12,9 +13,19 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   content,
   className = '',
 }) => {
+  const { fontSize, fontFamily } = useReaderPreferencesStore();
+
+  const fontClass = fontFamily === 'sans' ? 'font-sans' : 'font-serif';
+  const sizeClass =
+    fontSize === 'sm'
+      ? 'text-sm sm:text-[15px] leading-relaxed'
+      : fontSize === 'lg'
+      ? 'text-lg sm:text-[19px] leading-relaxed'
+      : 'text-base sm:text-[17px] leading-relaxed';
+
   return (
     <div
-      className={`prose-editorial max-w-none text-ink text-base md:text-lg leading-relaxed font-serif ${className}`}
+      className={`prose-editorial max-w-none text-ink ${sizeClass} ${fontClass} ${className}`}
     >
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
@@ -39,13 +50,13 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
             />
           ),
           p: ({ ...props }) => (
-            <p className="my-4 leading-[1.7] text-ink font-serif" style={{ textWrap: 'pretty' }} {...props} />
+            <p className={`my-4 leading-[1.7] text-ink ${fontClass}`} style={{ textWrap: 'pretty' }} {...props} />
           ),
           ul: ({ ...props }) => (
-            <ul className="list-disc pl-6 my-4 space-y-2 text-ink font-serif" {...props} />
+            <ul className={`list-disc pl-6 my-4 space-y-2 text-ink ${fontClass}`} {...props} />
           ),
           ol: ({ ...props }) => (
-            <ol className="list-decimal pl-6 my-4 space-y-2 text-ink font-serif" {...props} />
+            <ol className={`list-decimal pl-6 my-4 space-y-2 text-ink ${fontClass}`} {...props} />
           ),
           li: ({ ...props }) => <li className="leading-relaxed" {...props} />,
           blockquote: ({ ...props }) => (

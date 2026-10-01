@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp } from 'lucide-react';
+import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp, Search } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
 
-export const Header: React.FC = () => {
+interface HeaderProps {
+  onOpenSearch?: () => void;
+}
+
+export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
   const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
@@ -49,8 +53,17 @@ export const Header: React.FC = () => {
                   : 'Painel'}
               </span>
             </div>
-
-            <MobileMoreMenu />
+            <div className="flex items-center gap-1">
+              <button
+                type="button"
+                onClick={onOpenSearch}
+                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer"
+                aria-label="Abrir busca global"
+              >
+                <Search className="w-4 h-4" />
+              </button>
+              <MobileMoreMenu />
+            </div>
           </div>
 
           {/* DESKTOP HEADER (Brand & Sidebar Toggle) */}
@@ -138,8 +151,21 @@ export const Header: React.FC = () => {
           })}
         </nav>
 
-        {/* Right: DEV tools (Design System & Rascunhos) & Theme Toggle */}
+        {/* Right: Search, DEV tools & Theme Toggle */}
         <div className="hidden md:flex items-center gap-2">
+          <button
+            type="button"
+            onClick={onOpenSearch}
+            className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
+            title="Busca Global (Ctrl+K)"
+            aria-label="Abrir busca global"
+          >
+            <Search className="w-3.5 h-3.5 text-accent" />
+            <span className="font-sans text-xs">Buscar</span>
+            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2">
+              ⌘K
+            </span>
+          </button>
           {import.meta.env.DEV && (
             <>
               <button

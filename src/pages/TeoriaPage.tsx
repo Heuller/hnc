@@ -20,12 +20,15 @@ import {
   BookOpen,
   RotateCcw,
   ShieldCheck,
+  Sliders,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
 import { TeoriaStickyBar } from '../components/layout/TeoriaStickyBar';
 import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../domain/learningEngine';
 import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
+import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
+import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute } =
@@ -41,6 +44,15 @@ export const TeoriaPage: React.FC = () => {
   } = useProgressStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [isReaderPrefsOpen, setIsReaderPrefsOpen] = useState(false);
+  const { columnWidth } = useReaderPreferencesStore();
+
+  const columnWidthClass =
+    columnWidth === 'focus'
+      ? 'max-w-2xl'
+      : columnWidth === 'wide'
+      ? 'max-w-4xl'
+      : 'max-w-3xl';
 
   // Lista plana de todos os submódulos do curso (40 submódulos, 1.1 a 10.4)
   const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
@@ -146,8 +158,8 @@ export const TeoriaPage: React.FC = () => {
       />
 
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
-        {/* Coluna Central de Leitura (62-72ch) */}
-        <main className="flex-1 min-w-0 max-w-3xl mx-auto space-y-8">
+        {/* Coluna Central de Leitura com largura configurável */}
+        <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-8`}>
           {/* Seletor de Macro-Módulos (Blocos A a J / M1 a M10) */}
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2 px-1">
@@ -243,10 +255,21 @@ export const TeoriaPage: React.FC = () => {
                   {currentMacro.titulo} • Submódulo {currentSub.numero}
                 </span>
               </div>
-              <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
-                <Clock className="w-3.5 h-3.5" />
-                ~{currentSub.tempoEstimadoMinutos} min de leitura profunda
-              </span>
+              <div className="flex items-center gap-3">
+                <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
+                  <Clock className="w-3.5 h-3.5" />
+                  ~{currentSub.tempoEstimadoMinutos} min de leitura profunda
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setIsReaderPrefsOpen(true)}
+                  className="px-2 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors"
+                  title="Preferências de leitura (fonte, largura, tamanho)"
+                >
+                  <Sliders className="w-3.5 h-3.5 text-accent" />
+                  <span>Leitura</span>
+                </button>
+              </div>
             </div>
 
             {/* Faixa fina plana (4px, sem gradiente) do cabeçalho da Teoria (Parte C) */}
@@ -543,6 +566,12 @@ export const TeoriaPage: React.FC = () => {
       <MnemonicosDrawerMobile
         mnemonicos={currentSub.mnemonicos}
         tituloModulo={`Submódulo ${currentSub.numero}: ${currentSub.titulo}`}
+      />
+
+      {/* Modal de Preferências de Leitura */}
+      <ReaderPreferencesModal
+        isOpen={isReaderPrefsOpen}
+        onClose={() => setIsReaderPrefsOpen(false)}
       />
     </div>
   );
