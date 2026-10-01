@@ -75,6 +75,13 @@ Conforme Amaral (2011) e Silveira (2001), o ciclo de marketing desenvolve-se em 
       gabarito: 'C',
       justificativa: 'Correto! No marketing de permissão o usuário manifesta consentimento prévio para receber informações pertinentes ao seu interesse específico.',
     },
+      {
+      id: 'cp-5-2-3',
+      pergunta: "Micro-Checkpoint 3: Composto Mercadológico em Serviços de Informação",
+      item: "No marketing de serviços de informação, a dimensão 'Preço' restringe-se exclusivamente à cobrança monetária direta de emolumentos ou taxas aos usuários das bibliotecas.",
+      gabarito: 'E',
+      justificativa: "Errado! Em serviços bibliotecários, o conceito de 'preço' é ampliado para englobar custos não monetários arcados pelo usuário, tais como o tempo despendido, esforço físico e barreiras psicológicas ou cognitivas de acesso.",
+    },
   ],
   mnemonicos: {
     timeline: [

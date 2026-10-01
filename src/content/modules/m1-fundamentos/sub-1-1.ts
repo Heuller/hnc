@@ -72,6 +72,13 @@ A Ciência da Informação não substituiu nem extinguiu a Biblioteconomia. Conf
       gabarito: 'E',
       justificativa: "Errado! A 'biblioteconomia dos livros' foca na gestão técnica e física do acervo; é a 'biblioteconomia dos leitores' que se ocupa dos usuários e de suas práticas.",
     },
+      {
+      id: 'cp-1-1-3',
+      pergunta: "Micro-Checkpoint 3: Conceito de Documento em Suzanne Briet",
+      item: "Para Suzanne Briet, qualquer objeto material, natural ou cultural, pode ser considerado documento, desde que colocado sob observação ou tratamento informacional com a finalidade de servir como prova ou testemunho.",
+      gabarito: 'C',
+      justificativa: "Certo! No manifesto canônico 'Qu'est-ce que la documentation?' (1951), Briet afirma que até mesmo um antílope em seu habitat selvagem não é documento, mas, uma vez capturado, classificado e exposto em um zoológico com ficha descritiva, torna-se documento primário.",
+    },
   ],
   mnemonicos: {
     timeline: [

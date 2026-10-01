@@ -117,6 +117,13 @@ Diferenciam-se das comuns porque possuem significado restrito a classes determin
       gabarito: 'E',
       justificativa: 'Errado! Os dois pontos duplos (::) indicam relação fixa ou irreversível. Quem indica relação reversível são os dois pontos simples (:).',
     },
+      {
+      id: 'cp-3-1-3',
+      pergunta: "Micro-Checkpoint 3: Tabela 1 Auxiliar da CDD",
+      item: "Na Classificação Decimal de Dewey (CDD), a Tabela 1 (Subdivisões Padrão) só pode ser utilizada quando houver instrução expressa na tabela principal de classificação autorizando a sua adição.",
+      gabarito: 'E',
+      justificativa: "Errado! As subdivisões padrão da Tabela 1 da CDD possuem caráter mnemônico universal e podem ser aplicadas a qualquer número da tabela principal, exceto quando houver instrução em contrário.",
+    },
   ],
   mnemonicos: {
     timeline: [

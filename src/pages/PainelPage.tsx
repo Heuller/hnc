@@ -22,17 +22,24 @@ import {
   ArrowRight,
   FileQuestion,
   Award,
+  Lock,
+  RotateCcw,
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
 import { ModuleProgressRing } from '../components/common/ModuleProgressRing';
+import { getItensPendentesRevisao } from '../domain/leitner';
+import { checkSimuladoAccess } from '../domain/learningEngine';
 
 export const PainelPage: React.FC = () => {
   const {
     constancia,
     modulosLidosIds,
     checkpointsRespondidos,
+    secoesVisualizadas,
+    leitnerDeck,
+    devBypassSimuladoLock,
     historicoSimulados,
     sessaoAtivaSimulado,
     ultimoModuloAcessado,
@@ -55,6 +62,20 @@ export const PainelPage: React.FC = () => {
   const totalCheckpointsGlobal = getCheckpointsTotalCurso(COURSE_REGISTRY);
   const totalCheckpointsFeitos = getCheckpointsFeitosCurso(COURSE_REGISTRY, checkpointsRespondidos);
   const tempoTotalCursoMin = getTempoTotalCurso(COURSE_REGISTRY);
+
+  // Repetição Espaçada (Sistema Leitner - Parte G)
+  const todayIso = new Date().toISOString().split('T')[0];
+  const deckList = Object.values(leitnerDeck || {});
+  const pendentesHoje = getItensPendentesRevisao(deckList, todayIso);
+
+  // Status de Acesso ao Simulado 100Q (Parte G)
+  const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
+  const accessControl = checkSimuladoAccess(
+    m1Submodules,
+    secoesVisualizadas || {},
+    checkpointsRespondidos || {},
+    devBypassSimuladoLock
+  );
 
   // Último Simulado
   const ultimoSimulado =
@@ -169,12 +190,25 @@ export const PainelPage: React.FC = () => {
           );
         })()}
 
-        {/* Card 2: Nota Líquida do Último Simulado */}
+        {/* Card 2: Simulado Cebraspe (Bloqueado ou Liberado - Parte G) */}
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div>
             <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
-              <span className="uppercase tracking-wider font-semibold">Último Simulado</span>
-              <Award className="w-4 h-4 text-accent" />
+              <span className="uppercase tracking-wider font-semibold">Simulado 100Q</span>
+              <span
+                className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold flex items-center gap-1 ${
+                  accessControl.isUnlocked
+                    ? 'bg-ok-soft text-ok border border-ok/30'
+                    : 'bg-amber-500/15 text-amber-500 border border-amber-500/30'
+                }`}
+              >
+                {accessControl.isUnlocked ? (
+                  <Award className="w-3 h-3" />
+                ) : (
+                  <Lock className="w-3 h-3" />
+                )}
+                {accessControl.isUnlocked ? 'Liberado' : 'Bloqueado'}
+              </span>
             </div>
 
             {ultimoSimulado ? (
@@ -201,21 +235,21 @@ export const PainelPage: React.FC = () => {
               </div>
             ) : (
               <div className="py-2 flex items-center gap-3">
-                <svg
-                  className="w-10 h-10 text-ink-2/40 shrink-0"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  aria-hidden="true"
-                >
-                  <path d="M6 42h36M10 42V18l8-4v28M18 14l8 4v24M26 18l8-6v30M34 12l6 4v26" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M14 24h.01M22 28h.01M30 22h.01" strokeWidth="2" strokeLinecap="round" />
-                </svg>
+                <div className="w-10 h-10 rounded-xl bg-surface-2 flex items-center justify-center text-ink-2 shrink-0">
+                  {accessControl.isUnlocked ? (
+                    <Award className="w-5 h-5 text-accent" />
+                  ) : (
+                    <Lock className="w-5 h-5 text-amber-500" />
+                  )}
+                </div>
                 <div>
-                  <div className="font-sans font-semibold text-ink text-sm">Nenhum simulado finalizado</div>
+                  <div className="font-sans font-semibold text-ink text-sm">
+                    {accessControl.isUnlocked ? 'Simulado Liberado' : 'Simulado Bloqueado'}
+                  </div>
                   <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
-                    Estude os submódulos para desbloquear a prova de 100 itens.
+                    {accessControl.isUnlocked
+                      ? 'Requisitos cumpridos. Teste seu índice Cebraspe.'
+                      : `${accessControl.totalSubmodulosConcluidos} de 4 submódulos do M1 concluídos.`}
                   </p>
                 </div>
               </div>
@@ -225,14 +259,28 @@ export const PainelPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setCurrentRoute('simulado')}
-            className="w-full py-2.5 px-4 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent/40 font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all"
+            className={`w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer ${
+              accessControl.isUnlocked
+                ? 'bg-primary text-primary-text hover:opacity-95'
+                : 'bg-surface-2 border border-border text-ink hover:border-accent'
+            }`}
           >
-            <FileQuestion className="w-4 h-4 text-accent" />
-            <span>{ultimoSimulado ? 'Refazer Simulado 100Q' : 'Iniciar Simulado 100Q'}</span>
+            {accessControl.isUnlocked ? (
+              <FileQuestion className="w-4 h-4" />
+            ) : (
+              <Lock className="w-4 h-4 text-amber-500" />
+            )}
+            <span>
+              {ultimoSimulado
+                ? 'Refazer Simulado 100Q'
+                : accessControl.isUnlocked
+                ? 'Iniciar Simulado 100Q'
+                : 'Ver Requisitos do Simulado'}
+            </span>
           </button>
         </div>
 
-        {/* Card 3: Constância Discreta (Últimos 7 dias) */}
+        {/* Card 3: Constância & Repetição Espaçada Leitner */}
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div>
             <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
@@ -277,8 +325,21 @@ export const PainelPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="text-[11px] font-sans text-ink-2 text-center mt-3 pt-2 border-t border-border">
-            Constância registrada localmente
+          {/* Repetição Espaçada Leitner (Parte G) */}
+          <div className="text-[11px] font-sans text-ink-2 mt-3 pt-2.5 border-t border-border flex items-center justify-between">
+            <span className="flex items-center gap-1.5 font-medium">
+              <RotateCcw className="w-3.5 h-3.5 text-accent" />
+              <span>Revisões pendentes hoje:</span>
+            </span>
+            <span
+              className={`font-mono font-bold px-1.5 py-0.5 rounded text-xs ${
+                pendentesHoje.length > 0
+                  ? 'bg-amber-500/20 text-amber-500'
+                  : 'bg-surface-2 text-ink-2'
+              }`}
+            >
+              {pendentesHoje.length} {pendentesHoje.length === 1 ? 'item' : 'itens'}
+            </span>
           </div>
         </div>
       </div>

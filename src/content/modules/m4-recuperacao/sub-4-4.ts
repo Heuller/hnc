@@ -102,6 +102,13 @@ Conforme a Declaração de Alexandria da UNESCO (2005) e as diretrizes da ALA/AC
       gabarito: 'E',
       justificativa: 'Errado! O Sense-Making é o exemplo paradigmático da abordagem qualitativa e construtivista, que estuda a criação de sentido pelo usuário em situações de lacuna cognitiva (Gap).',
     },
+      {
+      id: 'cp-4-4-3',
+      pergunta: "Micro-Checkpoint 3: Modelo ISP de Carol Kuhlthau",
+      item: "No Modelo de Processo de Busca de Informação (ISP) de Carol Kuhlthau, os estágios iniciais de 'Iniciação' e 'Seleção' são tipicamente acompanhados por sentimentos de incerteza, dúvida e ansiedade por parte do usuário.",
+      gabarito: 'C',
+      justificativa: "Certo! O modelo pioneiro de Kuhlthau integra as dimensões cognitiva, física e afetiva, demonstrando que a incerteza inicial diminui à medida que o foco de pesquisa é formulado com clareza.",
+    },
   ],
   mnemonicos: {
     timeline: [

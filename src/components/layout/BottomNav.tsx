@@ -5,14 +5,22 @@ import { useNavigationStore, type AppView } from '../../store/useNavigationStore
 import { useProgressStore } from '../../store/useProgressStore';
 import { COURSE_REGISTRY } from '../../content/registry';
 
+import { checkSimuladoAccess } from '../../domain/learningEngine';
+
 export const BottomNav: React.FC = () => {
   const { activeView, setActiveView } = useNavigationStore();
-  const { modulosLidosIds } = useProgressStore();
+  const { secoesVisualizadas, checkpointsRespondidos, devBypassSimuladoLock } =
+    useProgressStore();
 
   // No macro-módulo M1, simulado bloqueado até concluir os 4 submódulos (regra pedagógica)
-  const m1 = COURSE_REGISTRY[0];
-  const m1Lidos = m1.modulosFilhos.filter((s) => modulosLidosIds.includes(s.id)).length;
-  const isSimuladoLocked = m1Lidos < m1.modulosFilhos.length && !import.meta.env.DEV;
+  const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
+  const accessControl = checkSimuladoAccess(
+    m1Submodules,
+    secoesVisualizadas || {},
+    checkpointsRespondidos || {},
+    devBypassSimuladoLock
+  );
+  const isSimuladoLocked = !accessControl.isUnlocked;
 
   const tabs: {
     view: AppView;

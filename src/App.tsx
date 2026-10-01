@@ -22,6 +22,9 @@ const ProgressoPage = lazy(() =>
 const DesignSystemPage = lazy(() =>
   import('./pages/DesignSystemPage').then((m) => ({ default: m.DesignSystemPage }))
 );
+const DevRascunhosPage = lazy(() =>
+  import('./pages/DevRascunhosPage').then((m) => ({ default: m.DevRascunhosPage }))
+);
 
 const PageSkeletonLoader = () => (
   <div className="max-w-4xl mx-auto space-y-6 py-6 animate-pulse" aria-live="polite">
@@ -61,6 +64,7 @@ export function App() {
               {activeView === 'radar' && <RadarPage />}
               {activeView === 'progresso' && <ProgressoPage />}
               {activeView === 'design-system' && import.meta.env.DEV && <DesignSystemPage />}
+              {activeView === 'dev-rascunhos' && <DevRascunhosPage />}
             </motion.div>
           </AnimatePresence>
         </Suspense>

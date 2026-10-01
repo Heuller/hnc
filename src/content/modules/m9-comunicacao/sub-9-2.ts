@@ -91,6 +91,13 @@ Publicados em 2016 no periódico *Nature Scientific Data* por **Mark D. Wilkinso
       gabarito: 'E',
       justificativa: 'Errado! O item inverteu as definições: a Via Dourada é a publicação direta em periódicos abertos; a Via Verde é o autoarquivamento em repositórios institucionais.',
     },
+      {
+      id: 'cp-9-2-3',
+      pergunta: "Micro-Checkpoint 3: Lei de Lotka sobre Produtividade de Autores",
+      item: "A Lei do Quadrado Inverso de Lotka demonstra que a proporção de autores que publicam apenas um único trabalho em um determinado campo científico é de aproximadamente 60% do total de autores.",
+      gabarito: 'C',
+      justificativa: "Certo! Alfred J. Lotka (1926) calculou que o número de pesquisadores que escrevem 'n' artigos é aproximadamente 1/n² daqueles que escrevem um único artigo, resultando em cerca de 60% de autores com apenas uma publicação.",
+    },
   ],
   mnemonicos: {
     timeline: [

@@ -83,6 +83,13 @@ No clássico *Avaliação de Serviços de Bibliotecas*, Lancaster divide a avali
       gabarito: 'C',
       justificativa: 'Correto! Eficácia foca nos fins e no atendimento ao usuário; eficiência foca nos meios e na economia de recursos/processos.',
     },
+      {
+      id: 'cp-5-1-3',
+      pergunta: "Micro-Checkpoint 3: Matriz SWOT em Bibliotecas",
+      item: "Na análise estratégica SWOT (FOFA) aplicada à gestão bibliotecária, a obsolescência tecnológica dos servidores locais e o corte orçamentário institucional constituem fraquezas intrínsecas da unidade de informação.",
+      gabarito: 'E',
+      justificativa: "Errado! A obsolescência interna dos equipamentos é de fato uma 'fraqueza' (fator interno), mas o corte orçamentário decorrente do ambiente externo governamental ou institucional é categorizado como 'ameaça' (fator externo).",
+    },
   ],
   mnemonicos: {
     timeline: [

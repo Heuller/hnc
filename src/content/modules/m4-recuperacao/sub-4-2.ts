@@ -89,6 +89,13 @@ No ambiente digital contemporâneo, marcado pelo excesso de dados e fenômenos c
       gabarito: 'C',
       justificativa: 'Correto! A literatura cinzenta compreende relatórios técnicos, notas técnicas parlamentares e teses não publicadas comercialmente, constituindo fonte primária essencial.',
     },
+      {
+      id: 'cp-4-2-3',
+      pergunta: "Micro-Checkpoint 3: Tipologia das Fontes de Informação de Grogan",
+      item: "Segundo a clássica classificação de Denis Grogan, as bibliografias de bibliografias e os guias de literatura especializada enquadram-se na categoria de fontes de informação secundárias.",
+      gabarito: 'E',
+      justificativa: "Errado! Conforme a tipologia tripartite de Grogan, bibliografias de bibliografias e guias de literatura são fontes TERCIÁRIAS, pois servem primordialmente para localizar fontes secundárias e primárias.",
+    },
   ],
   mnemonicos: {
     timeline: [

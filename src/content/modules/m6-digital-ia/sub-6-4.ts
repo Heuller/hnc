@@ -86,6 +86,13 @@ A Câmara dos Deputados consolidou-se como vanguarda na administração pública
       gabarito: 'E',
       justificativa: 'Errado! A IFLA e as normas institucionais reafirmam o princípio inegociável da supervisão humana ("human-in-the-loop"), sendo a curadoria ética do bibliotecário indispensável para mitigar alucinações e vieses algorítmicos.',
     },
+      {
+      id: 'cp-6-4-3',
+      pergunta: "Micro-Checkpoint 3: Desafios Éticos e Alucinação em Modelos de Linguagem (LLMs)",
+      item: "Nos serviços de referência orientados por modelos de inteligência artificial generativa, a técnica de RAG (Retrieval-Augmented Generation) é dispensável quando o modelo possui parâmetros suficientes para garantir acurácia documental absoluta.",
+      gabarito: 'E',
+      justificativa: "Errado! Modelos de linguagem sofrem de alucinação e obsolescência temporal de dados. A arquitetura RAG conecta o LLM a um repositório canônico externo validado, sendo indispensável para recuperação de fontes fidedignas.",
+    },
   ],
   mnemonicos: {
     timeline: [

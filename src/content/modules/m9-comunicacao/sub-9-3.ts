@@ -92,6 +92,13 @@ Criado em 2001 pelo jurista norte-americano **Lawrence Lessig**, o **Creative Co
       gabarito: 'E',
       justificativa: 'Errado! Apenas os direitos PATRIMONIAIS podem ser cedidos ou comercializados. Os direitos MORAIS são inalienáveis, irrenunciáveis e imprescritíveis por força expressa de lei.',
     },
+      {
+      id: 'cp-9-3-3',
+      pergunta: "Micro-Checkpoint 3: Fator de Impacto e Autocitações de Periódicos",
+      item: "O Fator de Impacto de uma revista científica, calculado pelo Journal Citation Reports (JCR), expressa a razão entre as citações recebidas no ano de referência e o número de artigos citáveis publicados nos dois anos precedentes.",
+      gabarito: 'C',
+      justificativa: "Certo! A fórmula clássica de Eugene Garfield divide o total de citações no ano X recebidas por artigos dos anos X-1 e X-2 pelo número de itens citáveis publicados nesse biênio.",
+    },
   ],
   mnemonicos: {
     timeline: [

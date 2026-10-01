@@ -76,6 +76,13 @@ O acondicionamento individual protege as obras contra a ação da luz, poeira e 
       gabarito: 'C',
       justificativa: 'Correto! O PVC é quimicamente instável e libera ácido clorídrico; devem ser utilizados exclusivamente poliéster estável (Mylar), polietileno ou polipropileno.',
     },
+      {
+      id: 'cp-7-3-3',
+      pergunta: "Micro-Checkpoint 3: Emulação vs Migração na Preservação Digital",
+      item: "A estratégia de emulação em preservação digital preserva o software e o hardware originais em museus físicos para permitir a execução pontual dos arquivos legados em suas máquinas de época.",
+      gabarito: 'E',
+      justificativa: "Errado! A emulação NÃO consiste em guardar o hardware físico, mas em recriar por software (código emulador) o ambiente operacional e a arquitetura de processamento em computadores modernos para rodar os dados sem convertê-los.",
+    },
   ],
   mnemonicos: {
     timeline: [

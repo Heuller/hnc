@@ -76,6 +76,13 @@ A distinção entre sumário e índice é rigorosamente cobrada pelo Cebraspe:
       gabarito: 'C',
       justificativa: 'Correto! O sumário segue a ordem física de sucessão dos capítulos; o índice é ordenado alfabética ou tematicamente no final da obra.',
     },
+      {
+      id: 'cp-8-4-3',
+      pergunta: "Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)",
+      item: "Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico.",
+      gabarito: 'C',
+      justificativa: "Certo! A sintaxe padrão é 'prefixo/sufixo' (ex: 10.1000/182), onde '10.xxxx' é registrado junto à International DOI Foundation e o sufixo é definido pelo editor.",
+    },
   ],
   mnemonicos: {
     timeline: [

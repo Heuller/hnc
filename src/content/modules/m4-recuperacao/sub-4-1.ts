@@ -90,6 +90,13 @@ O **Arquivo Invertido** é a estrutura de indexação computacional fundamental 
       gabarito: 'C',
       justificativa: 'Correto! Essa é a definição conceitual de metabuscador: um provedor de serviço que pesquisa em fontes distribuídas sem ter base de dados própria.',
     },
+      {
+      id: 'cp-4-1-3',
+      pergunta: "Micro-Checkpoint 3: Modelo Vetorial de Gerard Salton",
+      item: "O modelo vetorial de recuperação da informação desenvolvido por Salton atribui pesos aos termos nos documentos e nas consultas, permitindo a ordenação dos resultados por grau de similaridade (ranking).",
+      gabarito: 'C',
+      justificativa: "Certo! Diferente do modelo booleano rígido (binário: 0 ou 1), o modelo vetorial usa esquemas de ponderação como TF-IDF e calcula o cosseno do ângulo entre os vetores para ranquear a relevância.",
+    },
   ],
   mnemonicos: {
     timeline: [

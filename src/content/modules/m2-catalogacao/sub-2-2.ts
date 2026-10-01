@@ -85,6 +85,13 @@ O RDA estabelece o princípio de transcrever os dados exatamente como aparecem n
       gabarito: 'E',
       justificativa: 'Errado! O formato MARC 21 foi amplamente atualizado pela Library of Congress para codificar perfeitamente todos os dados e elementos do RDA.',
     },
+      {
+      id: 'cp-2-2-3',
+      pergunta: "Micro-Checkpoint 3: Campo 245 e Subcampos no MARC 21",
+      item: "No formato MARC 21 Bibliográfico, o campo 245 destina-se à transcrição do título principal e da indicação de responsabilidade, sendo o subcampo $b reservado para o restante do título ou subtítulo.",
+      gabarito: 'C',
+      justificativa: "Certo! A estrutura canônica do campo 245 é: $a (título principal), $b (restante do título / subtítulo) e $c (indicação de responsabilidade).",
+    },
   ],
   mnemonicos: {
     timeline: [

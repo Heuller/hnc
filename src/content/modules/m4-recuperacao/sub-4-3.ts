@@ -85,6 +85,13 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
       gabarito: 'C',
       justificativa: 'Correto! A URN Lex assegura a persistência e a unicidade da referência documental jurídica no LexML.',
     },
+      {
+      id: 'cp-4-3-3',
+      pergunta: "Micro-Checkpoint 3: Vocabulário Controlado e Indexação no LexML Brasil",
+      item: "O portal LexML Brasil utiliza identificadores persistentes baseados em Uniform Resource Names (URN) para unificar e referenciar atos normativos, processos judiciais e proposições legislativas nas esferas federal, estadual e municipal.",
+      gabarito: 'C',
+      justificativa: "Certo! O padrão URN LexML (ex: urn:lex:br:federal:lei:2020;14010) permite a citação inequívoca e a interoperabilidade de documentos jurídicos de diferentes órgãos do Estado.",
+    },
   ],
   mnemonicos: {
     timeline: [

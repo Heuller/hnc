@@ -29,7 +29,10 @@ export const SimuladoFinalizadoSchema = z.object({
 export const UserProgressSchema = z.object({
   versao: z.literal(2),
   modulosLidosIds: z.array(z.string()),
-  checkpointsRespondidos: z.record(z.string(), z.enum(['C', 'E'])),
+  checkpointsRespondidos: z.record(z.string(), z.enum(['C', 'E'])).default({}),
+  secoesVisualizadas: z.record(z.string(), z.array(z.string())).default({}),
+  leitnerDeck: z.record(z.string(), z.any()).default({}),
+  devBypassSimuladoLock: z.boolean().default(false),
   sessaoAtivaSimulado: z.object({
     respostas: z.record(z.string(), RespostaItemSimuladoSchema),
     currentIndex: z.number().default(0),

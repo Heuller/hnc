@@ -86,6 +86,13 @@ A norma **ABNT NBR 6023** (*Informação e Documentação — Referências — E
       gabarito: 'C',
       justificativa: 'Correto! Essa é uma das regras mais minuciosas da ABNT: maio não se abrevia.',
     },
+      {
+      id: 'cp-8-1-3',
+      pergunta: "Micro-Checkpoint 3: ABNT NBR 6023 e Autoria Institucional",
+      item: "De acordo com a norma ABNT NBR 6023, publicações de órgãos governamentais de administração direta devem ter sua entrada de autoria realizada pelo nome do órgão subordinado, omitindo-se a jurisdição geográfica correspondente.",
+      gabarito: 'E',
+      justificativa: "Errado! A entrada oficial de órgãos governamentais deve ser iniciada pelo nome geográfico da jurisdição que o subordina (ex: BRASIL. Congresso Nacional. Câmara dos Deputados).",
+    },
   ],
   mnemonicos: {
     timeline: [

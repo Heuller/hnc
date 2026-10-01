@@ -66,6 +66,13 @@ O Regimento Interno da Câmara dos Deputados (RICD) organiza o trabalho parlamen
       gabarito: 'E',
       justificativa: 'Errado! O Cebraspe cobrou esse item em diversos concursos (ALECE, STJ). A RVBI é coordenada historicamente pela Biblioteca do Senado Federal, em cooperação com a Câmara dos Deputados e demais órgãos.',
     },
+      {
+      id: 'cp-10-1-3',
+      pergunta: "Micro-Checkpoint 3: Missão e Acervo Histórico da Biblioteca da Câmara",
+      item: "A Biblioteca Pedro Aleixo da Câmara dos Deputados destina-se exclusivamente ao atendimento interno de deputados em exercício, sendo vedado o acesso ou empréstimo presencial de suas obras a pesquisadores e cidadãos comuns.",
+      gabarito: 'E',
+      justificativa: "Errado! Embora sua missão precípua seja subsidiar o processo legislativo e os parlamentares, a Biblioteca da Câmara dos Deputados é aberta ao público em geral para consulta presencial de seu expressivo acervo de ciências sociais e jurídicas.",
+    },
   ],
   mnemonicos: {
     timeline: [

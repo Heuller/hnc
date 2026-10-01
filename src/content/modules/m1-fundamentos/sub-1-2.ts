@@ -84,6 +84,13 @@ O Cebraspe tem cobrado com muita frequência como as leis foram reinterpretadas 
       gabarito: 'C',
       justificativa: "Certo! Formulações de teóricos contemporâneos como Rettig e Thompson realizaram essa transposição direta para o universo digital.",
     },
+      {
+      id: 'cp-1-2-3',
+      pergunta: "Micro-Checkpoint 3: Implicações Práticas da Quarta Lei",
+      item: "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física.",
+      gabarito: 'E',
+      justificativa: "Errado! A 4ª Lei exige exatamente o oposto: a implantação do livre acesso às estantes (open access), catálogos eficientes e arranjo lógico com guias para minimizar o tempo despendido pelo usuário na busca.",
+    },
   ],
   mnemonicos: {
     timeline: [

@@ -86,6 +86,13 @@ $$\\text{Precisão (Precision)} = \\frac{\\text{Número de Itens Relevantes Recu
       gabarito: 'E',
       justificativa: 'Errado! Exaustividade refere-se à quantidade/amplitude de conceitos indexados, e sua elevação aumenta a REVOCAÇÃO (e não a precisão). É a especificidade que está ligada à precisão.',
     },
+      {
+      id: 'cp-3-3-3',
+      pergunta: "Micro-Checkpoint 3: Relação Inversa entre Revocação e Precisão",
+      item: "Conforme a doutrina de F. W. Lancaster, o aumento da especificidade da linguagem de indexação tende a elevar a revocação do sistema, reduzindo paralelamente a precisão das buscas.",
+      gabarito: 'E',
+      justificativa: "Errado! Alta especificidade eleva a PRECISÃO (elimina falsos positivos) e reduz a revocação. A exaustividade de indexação é que eleva a revocação à custa da precisão.",
+    },
   ],
   mnemonicos: {
     timeline: [

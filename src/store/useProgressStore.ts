@@ -5,6 +5,12 @@ import type {
   SimuladoFinalizado,
 } from '../domain/schemas/progress.schema';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { COURSE_REGISTRY } from '../content/registry';
+import { calculateSubmoduleStatus } from '../domain/learningEngine';
+import {
+  processarRespostaLeitner,
+  criarItemLeitner,
+} from '../domain/leitner';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
@@ -12,9 +18,13 @@ interface ProgressStoreState extends UserProgress {
   registrarAcessoHoje: () => void;
   marcarModuloConcluido: (moduloId: string) => void;
   alternarModuloConcluido: (moduloId: string) => void;
+  registrarSecaoVisualizada: (submoduloId: string, secaoId: string) => void;
   salvarCheckpoint: (checkpointId: string, resposta: 'C' | 'E') => void;
   resetarCheckpoint: (checkpointId: string) => void;
+  responderItemLeitner: (itemId: string, submoduloId: string, acertou: boolean) => void;
+  setDevBypassSimuladoLock: (bypass: boolean) => void;
   setUltimoModuloAcessado: (moduloId: string) => void;
+  sincronizarConclusoesPorDominio: () => void;
   // Simulado
   iniciarOuRetomarSimulado: () => void;
   salvarRespostaSimulado: (
@@ -52,6 +62,9 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   ultimoModuloAcessado: '1.1',
   modulosLidosIds: [],
   checkpointsRespondidos: {},
+  secoesVisualizadas: {},
+  leitnerDeck: {},
+  devBypassSimuladoLock: false,
   sessaoAtivaSimulado: {
     respostas: {},
     currentIndex: 0,
@@ -102,6 +115,22 @@ export const useProgressStore = create<ProgressStoreState>()(
         });
       },
 
+      sincronizarConclusoesPorDominio: () => {
+        const state = get();
+        const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+        const novosLidos: string[] = [];
+
+        for (const sub of allSubs) {
+          const secoes = state.secoesVisualizadas?.[sub.id] || [];
+          const res = calculateSubmoduleStatus(sub, secoes, state.checkpointsRespondidos || {});
+          if (res.status === 'concluido') {
+            novosLidos.push(sub.id);
+          }
+        }
+
+        set({ modulosLidosIds: novosLidos });
+      },
+
       marcarModuloConcluido: (moduloId: string) => {
         const lidos = new Set(get().modulosLidosIds);
         lidos.add(moduloId);
@@ -118,21 +147,109 @@ export const useProgressStore = create<ProgressStoreState>()(
         set({ modulosLidosIds: Array.from(lidos) });
       },
 
+      registrarSecaoVisualizada: (submoduloId: string, secaoId: string) => {
+        const state = get();
+        const mapaSecoes = state.secoesVisualizadas || {};
+        const secoesAtuais = mapaSecoes[submoduloId] || [];
+        if (secoesAtuais.includes(secaoId)) return;
+
+        const novasSecoes = [...secoesAtuais, secaoId];
+        const novoMapaSecoes = {
+          ...mapaSecoes,
+          [submoduloId]: novasSecoes,
+        };
+
+        const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+        const sub = allSubs.find((s) => s.id === submoduloId || s.numero === submoduloId);
+
+        let novosLidos = state.modulosLidosIds || [];
+        if (sub) {
+          const learning = calculateSubmoduleStatus(sub, novasSecoes, state.checkpointsRespondidos || {});
+          const lidosSet = new Set(novosLidos);
+          if (learning.status === 'concluido') {
+            lidosSet.add(sub.id);
+          } else {
+            lidosSet.delete(sub.id);
+          }
+          novosLidos = Array.from(lidosSet);
+        }
+
+        set({
+          secoesVisualizadas: novoMapaSecoes,
+          modulosLidosIds: novosLidos,
+        });
+      },
+
       salvarCheckpoint: (checkpointId: string, resposta: 'C' | 'E') => {
-        set((state) => ({
-          checkpointsRespondidos: {
-            ...state.checkpointsRespondidos,
-            [checkpointId]: resposta,
-          },
-        }));
+        const state = get();
+        const novosCheckpoints = {
+          ...(state.checkpointsRespondidos || {}),
+          [checkpointId]: resposta,
+        };
+
+        const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+        let subEncontrado: (typeof allSubs)[0] | undefined;
+        let cpEncontrado: { id: string; gabarito: 'C' | 'E' } | undefined;
+
+        for (const s of allSubs) {
+          const cp = s.checkpoints.find((c) => c.id === checkpointId);
+          if (cp) {
+            subEncontrado = s;
+            cpEncontrado = cp;
+            break;
+          }
+        }
+
+        const today = getTodayString();
+        const novoLeitnerDeck = { ...(state.leitnerDeck || {}) };
+
+        if (subEncontrado && cpEncontrado) {
+          const acertou = resposta === cpEncontrado.gabarito;
+          const itemAtual =
+            novoLeitnerDeck[checkpointId] ||
+            criarItemLeitner(checkpointId, subEncontrado.id, today);
+          novoLeitnerDeck[checkpointId] = processarRespostaLeitner(itemAtual, acertou, today);
+        }
+
+        let novosLidos = state.modulosLidosIds || [];
+        if (subEncontrado) {
+          const secoes = (state.secoesVisualizadas || {})[subEncontrado.id] || [];
+          const learning = calculateSubmoduleStatus(subEncontrado, secoes, novosCheckpoints);
+          const lidosSet = new Set(novosLidos);
+          if (learning.status === 'concluido') {
+            lidosSet.add(subEncontrado.id);
+          } else {
+            lidosSet.delete(subEncontrado.id);
+          }
+          novosLidos = Array.from(lidosSet);
+        }
+
+        set({
+          checkpointsRespondidos: novosCheckpoints,
+          leitnerDeck: novoLeitnerDeck,
+          modulosLidosIds: novosLidos,
+        });
       },
 
       resetarCheckpoint: (checkpointId: string) => {
         set((state) => {
-          const updated = { ...state.checkpointsRespondidos };
+          const updated = { ...(state.checkpointsRespondidos || {}) };
           delete updated[checkpointId];
           return { checkpointsRespondidos: updated };
         });
+      },
+
+      responderItemLeitner: (itemId: string, submoduloId: string, acertou: boolean) => {
+        const state = get();
+        const today = getTodayString();
+        const deck = { ...(state.leitnerDeck || {}) };
+        const itemAtual = deck[itemId] || criarItemLeitner(itemId, submoduloId, today);
+        deck[itemId] = processarRespostaLeitner(itemAtual, acertou, today);
+        set({ leitnerDeck: deck });
+      },
+
+      setDevBypassSimuladoLock: (bypass: boolean) => {
+        set({ devBypassSimuladoLock: bypass });
       },
 
       setUltimoModuloAcessado: (moduloId: string) => {

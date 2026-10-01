@@ -1,0 +1,392 @@
+[
+  {
+    "id": "cp-1-1-3",
+    "submoduloId": "1.1",
+    "submoduloNumero": "1.1",
+    "pergunta": "Micro-Checkpoint 3: Conceito de Documento em Suzanne Briet",
+    "item": "Para Suzanne Briet, qualquer objeto material, natural ou cultural, pode ser considerado documento, desde que colocado sob observação ou tratamento informacional com a finalidade de servir como prova ou testemunho.",
+    "gabarito": "C",
+    "justificativa": "Certo! No manifesto canônico 'Qu'est-ce que la documentation?' (1951), Briet afirma que até mesmo um antílope em seu habitat selvagem não é documento, mas, uma vez capturado, classificado e exposto em um zoológico com ficha descritiva, torna-se documento primário.",
+    "doutrinaReferencia": "Suzanne Briet (1951) - Qu'est-ce que la documentation? / Paul Otlet (1934)"
+  },
+  {
+    "id": "cp-1-2-3",
+    "submoduloId": "1.2",
+    "submoduloNumero": "1.2",
+    "pergunta": "Micro-Checkpoint 3: Implicações Práticas da Quarta Lei",
+    "item": "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física.",
+    "gabarito": "E",
+    "justificativa": "Errado! A 4ª Lei exige exatamente o oposto: a implantação do livre acesso às estantes (open access), catálogos eficientes e arranjo lógico com guias para minimizar o tempo despendido pelo usuário na busca.",
+    "doutrinaReferencia": "S. R. Ranganathan (1931) - The Five Laws of Library Science"
+  },
+  {
+    "id": "cp-1-4-3",
+    "submoduloId": "1.4",
+    "submoduloNumero": "1.4",
+    "pergunta": "Micro-Checkpoint 3: Sigilo Profissional e Código de Ética do CFB",
+    "item": "O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018) estabelece como dever ético a guarda de sigilo sobre dados e hábitos de consulta informacional dos usuários, mesmo após o término do vínculo de trabalho.",
+    "gabarito": "C",
+    "justificativa": "Certo! O sigilo profissional sobre pesquisas, interesses e histórico de consultas dos usuários é dever expressamente resguardado pelo Código de Ética do Conselho Federal de Biblioteconomia.",
+    "doutrinaReferencia": "Conselho Federal de Biblioteconomia - Resolução CFB nº 207/2018"
+  },
+  {
+    "id": "cp-2-1-3",
+    "submoduloId": "2.1",
+    "submoduloNumero": "2.1",
+    "pergunta": "Micro-Checkpoint 3: Modelo Conceitual IFLA LRM e Entidades WEMI",
+    "item": "No modelo IFLA LRM e nos FRBR, o conceito de 'Expressão' corresponde à materialização física e individualizada de um suporte documental disponível em uma estante de biblioteca.",
+    "gabarito": "E",
+    "justificativa": "Errado! A materialização física é o 'Item' (exemplar único) ou a 'Manifestação' (conjunto de exemplares publicados). A 'Expressão' é a realização intelectual ou artística da Obra (ex: tradução para o português, texto revisado).",
+    "doutrinaReferencia": "IFLA (1998/2017) - FRBR / IFLA Library Reference Model (LRM)"
+  },
+  {
+    "id": "cp-2-2-3",
+    "submoduloId": "2.2",
+    "submoduloNumero": "2.2",
+    "pergunta": "Micro-Checkpoint 3: Campo 245 e Subcampos no MARC 21",
+    "item": "No formato MARC 21 Bibliográfico, o campo 245 destina-se à transcrição do título principal e da indicação de responsabilidade, sendo o subcampo $b reservado para o restante do título ou subtítulo.",
+    "gabarito": "C",
+    "justificativa": "Certo! A estrutura canônica do campo 245 é: $a (título principal), $b (restante do título / subtítulo) e $c (indicação de responsabilidade).",
+    "doutrinaReferencia": "Library of Congress - MARC 21 Format for Bibliographic Data"
+  },
+  {
+    "id": "cp-2-3-3",
+    "submoduloId": "2.3",
+    "submoduloNumero": "2.3",
+    "pergunta": "Micro-Checkpoint 3: Elementos Obrigatórios e Repetibilidade no Dublin Core",
+    "item": "O padrão Dublin Core em sua especificação original estabelece que todos os seus 15 elementos constitutivos são opcionais e repetíveis.",
+    "gabarito": "C",
+    "justificativa": "Certo! No Dublin Core simples (DCMI Metadata Terms), nenhum elemento é mandatório por especificação do padrão e todos podem ser repetidos tantas vezes quantas necessárias.",
+    "doutrinaReferencia": "Dublin Core Metadata Initiative (DCMI) - ISO 15836"
+  },
+  {
+    "id": "cp-2-4-3",
+    "submoduloId": "2.4",
+    "submoduloNumero": "2.4",
+    "pergunta": "Micro-Checkpoint 3: Controle de Autoridade e Remissivas 'Ver'",
+    "item": "Em catálogos de autoridade, a remissiva do tipo 'Ver' (See reference) tem por função conduzir o usuário de uma forma adotada preferencial para outras formas variantes não padronizadas.",
+    "gabarito": "E",
+    "justificativa": "Errado! A remissiva 'Ver' faz o caminho inverso: encaminha o usuário a partir de uma forma NÃO autorizada (variante, pseudônimo) para a forma autorizada e oficial.",
+    "doutrinaReferencia": "Mey & Silveira (2010) - Catalogação no Plural / AACR2r Capítulo 26"
+  },
+  {
+    "id": "cp-3-1-3",
+    "submoduloId": "3.1",
+    "submoduloNumero": "3.1",
+    "pergunta": "Micro-Checkpoint 3: Tabela 1 Auxiliar da CDD",
+    "item": "Na Classificação Decimal de Dewey (CDD), a Tabela 1 (Subdivisões Padrão) só pode ser utilizada quando houver instrução expressa na tabela principal de classificação autorizando a sua adição.",
+    "gabarito": "E",
+    "justificativa": "Errado! As subdivisões padrão da Tabela 1 da CDD possuem caráter mnemônico universal e podem ser aplicadas a qualquer número da tabela principal, exceto quando houver instrução em contrário.",
+    "doutrinaReferencia": "Melvil Dewey - Dewey Decimal Classification (DDC) 23ª ed."
+  },
+  {
+    "id": "cp-3-2-3",
+    "submoduloId": "3.2",
+    "submoduloNumero": "3.2",
+    "pergunta": "Micro-Checkpoint 3: Símbolos Auxiliares Comuns de Relação na CDU",
+    "item": "Na Classificação Decimal Universal (CDU), o símbolo de dois-pontos (:) representa uma relação reversível entre dois assuntos, permitindo a permuta dos índices para recuperação por ambos os conceitos.",
+    "gabarito": "C",
+    "justificativa": "Certo! Os dois-pontos (:) indicam coordenação/relação simples e reversível. Já os dois-pontos duplos (::) indicam fixação de ordem irreversível.",
+    "doutrinaReferencia": "UDC Consortium - Manual da CDU / Piedade (1983)"
+  },
+  {
+    "id": "cp-3-3-3",
+    "submoduloId": "3.3",
+    "submoduloNumero": "3.3",
+    "pergunta": "Micro-Checkpoint 3: Relação Inversa entre Revocação e Precisão",
+    "item": "Conforme a doutrina de F. W. Lancaster, o aumento da especificidade da linguagem de indexação tende a elevar a revocação do sistema, reduzindo paralelamente a precisão das buscas.",
+    "gabarito": "E",
+    "justificativa": "Errado! Alta especificidade eleva a PRECISÃO (elimina falsos positivos) e reduz a revocação. A exaustividade de indexação é que eleva a revocação à custa da precisão.",
+    "doutrinaReferencia": "F. W. Lancaster (1993/2004) - Indexação e Resumos"
+  },
+  {
+    "id": "cp-3-4-3",
+    "submoduloId": "3.4",
+    "submoduloNumero": "3.4",
+    "pergunta": "Micro-Checkpoint 3: Relações de Equivalência em Tesauros",
+    "item": "Nos tesauros documentários em conformidade com a norma ISO 25964, a relação entre um termo preferido e seus sinônimos ou quase-sinônimos é representada pelo par de relacionamentos USE e UP (Usado Para).",
+    "gabarito": "C",
+    "justificativa": "Certo! A relação de equivalência direciona do termo não preferido para o termo adotado (USE), e do preferido para suas variantes sinônimas (UP - Usado Para / UF - Used For).",
+    "doutrinaReferencia": "ISO 25964-1 (2011) - Thesauri and interoperability with other vocabularies"
+  },
+  {
+    "id": "cp-4-1-3",
+    "submoduloId": "4.1",
+    "submoduloNumero": "4.1",
+    "pergunta": "Micro-Checkpoint 3: Modelo Vetorial de Gerard Salton",
+    "item": "O modelo vetorial de recuperação da informação desenvolvido por Salton atribui pesos aos termos nos documentos e nas consultas, permitindo a ordenação dos resultados por grau de similaridade (ranking).",
+    "gabarito": "C",
+    "justificativa": "Certo! Diferente do modelo booleano rígido (binário: 0 ou 1), o modelo vetorial usa esquemas de ponderação como TF-IDF e calcula o cosseno do ângulo entre os vetores para ranquear a relevância.",
+    "doutrinaReferencia": "Gerard Salton & Michael McGill (1983) - Introduction to Modern Information Retrieval"
+  },
+  {
+    "id": "cp-4-2-3",
+    "submoduloId": "4.2",
+    "submoduloNumero": "4.2",
+    "pergunta": "Micro-Checkpoint 3: Tipologia das Fontes de Informação de Grogan",
+    "item": "Segundo a clássica classificação de Denis Grogan, as bibliografias de bibliografias e os guias de literatura especializada enquadram-se na categoria de fontes de informação secundárias.",
+    "gabarito": "E",
+    "justificativa": "Errado! Conforme a tipologia tripartite de Grogan, bibliografias de bibliografias e guias de literatura são fontes TERCIÁRIAS, pois servem primordialmente para localizar fontes secundárias e primárias.",
+    "doutrinaReferencia": "Denis Grogan (1992) - A Prática do Serviço de Referência / Campello (2000)"
+  },
+  {
+    "id": "cp-4-3-3",
+    "submoduloId": "4.3",
+    "submoduloNumero": "4.3",
+    "pergunta": "Micro-Checkpoint 3: Vocabulário Controlado e Indexação no LexML Brasil",
+    "item": "O portal LexML Brasil utiliza identificadores persistentes baseados em Uniform Resource Names (URN) para unificar e referenciar atos normativos, processos judiciais e proposições legislativas nas esferas federal, estadual e municipal.",
+    "gabarito": "C",
+    "justificativa": "Certo! O padrão URN LexML (ex: urn:lex:br:federal:lei:2020;14010) permite a citação inequívoca e a interoperabilidade de documentos jurídicos de diferentes órgãos do Estado.",
+    "doutrinaReferencia": "Projeto LexML Brasil - Padrão de Metadados e Esquema URN Lex"
+  },
+  {
+    "id": "cp-4-4-3",
+    "submoduloId": "4.4",
+    "submoduloNumero": "4.4",
+    "pergunta": "Micro-Checkpoint 3: Modelo ISP de Carol Kuhlthau",
+    "item": "No Modelo de Processo de Busca de Informação (ISP) de Carol Kuhlthau, os estágios iniciais de 'Iniciação' e 'Seleção' são tipicamente acompanhados por sentimentos de incerteza, dúvida e ansiedade por parte do usuário.",
+    "gabarito": "C",
+    "justificativa": "Certo! O modelo pioneiro de Kuhlthau integra as dimensões cognitiva, física e afetiva, demonstrando que a incerteza inicial diminui à medida que o foco de pesquisa é formulado com clareza.",
+    "doutrinaReferencia": "Carol C. Kuhlthau (1991/2004) - Seeking Meaning: A Process Approach to Library and Information Services"
+  },
+  {
+    "id": "cp-5-1-3",
+    "submoduloId": "5.1",
+    "submoduloNumero": "5.1",
+    "pergunta": "Micro-Checkpoint 3: Matriz SWOT em Bibliotecas",
+    "item": "Na análise estratégica SWOT (FOFA) aplicada à gestão bibliotecária, a obsolescência tecnológica dos servidores locais e o corte orçamentário institucional constituem fraquezas intrínsecas da unidade de informação.",
+    "gabarito": "E",
+    "justificativa": "Errado! A obsolescência interna dos equipamentos é de fato uma 'fraqueza' (fator interno), mas o corte orçamentário decorrente do ambiente externo governamental ou institucional é categorizado como 'ameaça' (fator externo).",
+    "doutrinaReferencia": "Almeida (2000) - Planejamento de Bibliotecas e Serviços de Informação"
+  },
+  {
+    "id": "cp-5-2-3",
+    "submoduloId": "5.2",
+    "submoduloNumero": "5.2",
+    "pergunta": "Micro-Checkpoint 3: Composto Mercadológico em Serviços de Informação",
+    "item": "No marketing de serviços de informação, a dimensão 'Preço' restringe-se exclusivamente à cobrança monetária direta de emolumentos ou taxas aos usuários das bibliotecas.",
+    "gabarito": "E",
+    "justificativa": "Errado! Em serviços bibliotecários, o conceito de 'preço' é ampliado para englobar custos não monetários arcados pelo usuário, tais como o tempo despendido, esforço físico e barreiras psicológicas ou cognitivas de acesso.",
+    "doutrinaReferencia": "Amaral (1998/2004) - Marketing da Informação: Entre a Teoria e a Prática"
+  },
+  {
+    "id": "cp-5-3-3",
+    "submoduloId": "5.3",
+    "submoduloNumero": "5.3",
+    "pergunta": "Micro-Checkpoint 3: Processo de Desbastamento e Descarte de Acervos",
+    "item": "O processo de desbastamento (weeding) consiste no remanejamento de itens de baixa frequência de uso para depósitos secundários com acesso indireto, diferenciando-se do descarte, que implica a exclusão patrimonial definitiva.",
+    "gabarito": "C",
+    "justificativa": "Certo! Conforme Weitzel e Vergueiro, desbastar é relocar materiais para locais de menor custo de armazenagem, enquanto descartar é expurgar o exemplar do acervo e dos registros patrimoniais.",
+    "doutrinaReferencia": "Simone da Rocha Weitzel (2006) - Elaboração de uma Política de Desenvolvimento de Coleções"
+  },
+  {
+    "id": "cp-5-4-3",
+    "submoduloId": "5.4",
+    "submoduloNumero": "5.4",
+    "pergunta": "Micro-Checkpoint 3: Modelo SECI de Conversão do Conhecimento",
+    "item": "No modelo SECI de Nonaka e Takeuchi, a conversão de conhecimento tácito em conhecimento explícito recebe o nome técnico de Externalização.",
+    "gabarito": "C",
+    "justificativa": "Certo! As quatro conversões clássicas da espiral do conhecimento são: Socialização (tácito para tácito), Externalização (tácito para explícito), Combinação (explícito para explícito) e Internalização (explícito para tácito).",
+    "doutrinaReferencia": "Ikujiro Nonaka & Hirotaka Takeuchi (1997) - Criação de Conhecimento na Empresa"
+  },
+  {
+    "id": "cp-6-1-3",
+    "submoduloId": "6.1",
+    "submoduloNumero": "6.1",
+    "pergunta": "Micro-Checkpoint 3: Protocolo OAI-PMH e Coleta de Metadados",
+    "item": "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) realiza a transferência integral dos arquivos binários dos documentos (arquivos PDF) entre os repositórios digitais provedores.",
+    "gabarito": "E",
+    "justificativa": "Errado! O protocolo OAI-PMH opera estritamente na camada de METADADOS (preferencialmente em Dublin Core simples). Ele não é concebido para coleta massiva de arquivos de conteúdo digital.",
+    "doutrinaReferencia": "Lagoze & Van de Sompel (2002) - The Open Archives Initiative Protocol for Metadata Harvesting"
+  },
+  {
+    "id": "cp-6-2-3",
+    "submoduloId": "6.2",
+    "submoduloNumero": "6.2",
+    "pergunta": "Micro-Checkpoint 3: Pacotes de Informação do Modelo OAIS",
+    "item": "No modelo de referência OAIS (ISO 14721), o pacote de informação submetido pelo produtor ao repositório digital é denominado SIP (Submission Information Package).",
+    "gabarito": "C",
+    "justificativa": "Certo! O fluxo de pacotes do OAIS estrutura-se em: SIP (Submission), AIP (Archival - pacote de arquivamento no repositório) e DIP (Dissemination - pacote entregue ao usuário final).",
+    "doutrinaReferencia": "ISO 14721:2012 - Reference Model for an Open Archival Information System (OAIS)"
+  },
+  {
+    "id": "cp-6-3-3",
+    "submoduloId": "6.3",
+    "submoduloNumero": "6.3",
+    "pergunta": "Micro-Checkpoint 3: Triplas RDF na Web Semântica",
+    "item": "A estrutura de dados fundamental do padrão RDF (Resource Description Framework) consiste em triplas compostas por Sujeito, Predicado e Objeto.",
+    "gabarito": "C",
+    "justificativa": "Certo! As triplas RDF formam grafos de conhecimento que permitem computadores interpretarem o significado semântico das conexões entre entidades identificadas por URIs.",
+    "doutrinaReferencia": "W3C Recommendation - RDF 1.1 Concepts and Abstract Syntax"
+  },
+  {
+    "id": "cp-6-4-3",
+    "submoduloId": "6.4",
+    "submoduloNumero": "6.4",
+    "pergunta": "Micro-Checkpoint 3: Desafios Éticos e Alucinação em Modelos de Linguagem (LLMs)",
+    "item": "Nos serviços de referência orientados por modelos de inteligência artificial generativa, a técnica de RAG (Retrieval-Augmented Generation) é dispensável quando o modelo possui parâmetros suficientes para garantir acurácia documental absoluta.",
+    "gabarito": "E",
+    "justificativa": "Errado! Modelos de linguagem sofrem de alucinação e obsolescência temporal de dados. A arquitetura RAG conecta o LLM a um repositório canônico externo validado, sendo indispensável para recuperação de fontes fidedignas.",
+    "doutrinaReferencia": "Lewis et al. (2020) - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+  },
+  {
+    "id": "cp-7-1-3",
+    "submoduloId": "7.1",
+    "submoduloNumero": "7.1",
+    "pergunta": "Micro-Checkpoint 3: Radiação Ultravioleta e Oxidação da Celulose",
+    "item": "A radiação luminosa com comprimentos de onda na faixa ultravioleta acelera a quebra fotoquímica das cadeias moleculares de celulose e promove o amarelamento e a fragilização do papel.",
+    "gabarito": "C",
+    "justificativa": "Certo! A luz ultravioleta (solar ou fluorescente direta) possui alta energia e atua como catalisador direto da fotoxidação e despolimerização do papel.",
+    "doutrinaReferencia": "Cassares & Moi (2000) - Como fazer conservação preventiva em arquivos e bibliotecas"
+  },
+  {
+    "id": "cp-7-2-3",
+    "submoduloId": "7.2",
+    "submoduloNumero": "7.2",
+    "pergunta": "Micro-Checkpoint 3: Uso de Fitas Adesivas Comerciais em Livros Danificados",
+    "item": "A aplicação de fitas adesivas de base plástica transparente comum (como o durex) é procedimento recomendado para o reparo rápido de rasgos em obras raras devido à sua vedação contra a umidade.",
+    "gabarito": "E",
+    "justificativa": "Errado! O uso de fitas adesivas sintéticas convencionais é veementemente condenado na conservação preventiva. O adesivo oxida, mancha irreversivelmente a celulose e acidifica o papel. O reparo deve usar papel japonês e cola de amido neutra reversível.",
+    "doutrinaReferencia": "Beck (1985) - Manual de Conservação de Documentos / Spinelli (1997)"
+  },
+  {
+    "id": "cp-7-3-3",
+    "submoduloId": "7.3",
+    "submoduloNumero": "7.3",
+    "pergunta": "Micro-Checkpoint 3: Emulação vs Migração na Preservação Digital",
+    "item": "A estratégia de emulação em preservação digital preserva o software e o hardware originais em museus físicos para permitir a execução pontual dos arquivos legados em suas máquinas de época.",
+    "gabarito": "E",
+    "justificativa": "Errado! A emulação NÃO consiste em guardar o hardware físico, mas em recriar por software (código emulador) o ambiente operacional e a arquitetura de processamento em computadores modernos para rodar os dados sem convertê-los.",
+    "doutrinaReferencia": "Innocenti (2012) - Keeping Research Data Safe / Ferreira (2006) - Introdução à Preservação Digital"
+  },
+  {
+    "id": "cp-7-4-3",
+    "submoduloId": "7.4",
+    "submoduloNumero": "7.4",
+    "pergunta": "Micro-Checkpoint 3: Congelamento em Sinistros de Alagamento de Acervos",
+    "item": "Em situações de emergência causadas por grandes alagamentos de bibliotecas, o congelamento rápido de livros encharcados a temperaturas inferiores a -18°C é técnica válida para paralisar a proliferação biológica de fungos e retardar a degradação física até o processo de secagem controlada.",
+    "gabarito": "C",
+    "justificativa": "Certo! O congelamento estabiliza o papel molhado e impede a germinação de esporos fúngicos (que se desenvolvem em 48 a 72 horas em ambiente úmido), concedendo tempo para a liofilização ou secagem técnica planejada.",
+    "doutrinaReferencia": "Northeast Document Conservation Center (NEDCC) - Emergency Salvage of Wet Books and Records"
+  },
+  {
+    "id": "cp-8-1-3",
+    "submoduloId": "8.1",
+    "submoduloNumero": "8.1",
+    "pergunta": "Micro-Checkpoint 3: ABNT NBR 6023 e Autoria Institucional",
+    "item": "De acordo com a norma ABNT NBR 6023, publicações de órgãos governamentais de administração direta devem ter sua entrada de autoria realizada pelo nome do órgão subordinado, omitindo-se a jurisdição geográfica correspondente.",
+    "gabarito": "E",
+    "justificativa": "Errado! A entrada oficial de órgãos governamentais deve ser iniciada pelo nome geográfico da jurisdição que o subordina (ex: BRASIL. Congresso Nacional. Câmara dos Deputados).",
+    "doutrinaReferencia": "ABNT NBR 6023:2018 - Informação e documentação - Referências - Elaboração"
+  },
+  {
+    "id": "cp-8-2-3",
+    "submoduloId": "8.2",
+    "submoduloNumero": "8.2",
+    "pergunta": "Micro-Checkpoint 3: Citações Diretas Longas conforme a ABNT NBR 10520",
+    "item": "Conforme a ABNT NBR 10520, citações diretas com mais de três linhas devem ser destacadas com recuo de 4 cm da margem esquerda, com fonte em tamanho menor que o do texto principal e sem aspas.",
+    "gabarito": "C",
+    "justificativa": "Certo! Esta é a regra canônica expressa na norma: bloco recuado a 4 cm, espaçamento simples, tamanho de fonte menor (usualmente 10 ou 11) e sem o uso de aspas tipográficas.",
+    "doutrinaReferencia": "ABNT NBR 10520:2023 - Informação e documentação - Citações em documentos"
+  },
+  {
+    "id": "cp-8-3-3",
+    "submoduloId": "8.3",
+    "submoduloNumero": "8.3",
+    "pergunta": "Micro-Checkpoint 3: Estrutura do Sumário conforme ABNT NBR 6027",
+    "item": "Segundo a ABNT NBR 6027, os elementos pré-textuais, como a dedicatória, o agradecimento e a lista de abreviaturas, devem constar obrigatoriamente no sumário do trabalho acadêmico.",
+    "gabarito": "E",
+    "justificativa": "Errado! Os elementos pré-textuais NÃO devem constar no sumário. O sumário subordina exclusivamente a enumeração das divisões textuais e pós-textuais (NBR 6027:2012 item 4.2).",
+    "doutrinaReferencia": "ABNT NBR 6027:2012 - Informação e documentação - Sumário"
+  },
+  {
+    "id": "cp-8-4-3",
+    "submoduloId": "8.4",
+    "submoduloNumero": "8.4",
+    "pergunta": "Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)",
+    "item": "Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico.",
+    "gabarito": "C",
+    "justificativa": "Certo! A sintaxe padrão é 'prefixo/sufixo' (ex: 10.1000/182), onde '10.xxxx' é registrado junto à International DOI Foundation e o sufixo é definido pelo editor.",
+    "doutrinaReferencia": "ISO 26324:2012 - Information and documentation - Digital object identifier system"
+  },
+  {
+    "id": "cp-9-1-3",
+    "submoduloId": "9.1",
+    "submoduloNumero": "9.1",
+    "pergunta": "Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith",
+    "item": "No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação.",
+    "gabarito": "E",
+    "justificativa": "Errado! Artigos em periódicos científicos com peer review são o exemplo canônico e central de canal FORMAL (público, arquivável e validado pela comunidade). Canais informais englobam cartas, e-mails, pré-prints e conversas orais em congressos.",
+    "doutrinaReferencia": "William D. Garvey & Belver C. Griffith (1972) - Communication and Information Processing within Scientific Disciplines"
+  },
+  {
+    "id": "cp-9-2-3",
+    "submoduloId": "9.2",
+    "submoduloNumero": "9.2",
+    "pergunta": "Micro-Checkpoint 3: Lei de Lotka sobre Produtividade de Autores",
+    "item": "A Lei do Quadrado Inverso de Lotka demonstra que a proporção de autores que publicam apenas um único trabalho em um determinado campo científico é de aproximadamente 60% do total de autores.",
+    "gabarito": "C",
+    "justificativa": "Certo! Alfred J. Lotka (1926) calculou que o número de pesquisadores que escrevem 'n' artigos é aproximadamente 1/n² daqueles que escrevem um único artigo, resultando em cerca de 60% de autores com apenas uma publicação.",
+    "doutrinaReferencia": "Alfred J. Lotka (1926) - The Frequency Distribution of Scientific Productivity / Vanti (2002)"
+  },
+  {
+    "id": "cp-9-3-3",
+    "submoduloId": "9.3",
+    "submoduloNumero": "9.3",
+    "pergunta": "Micro-Checkpoint 3: Fator de Impacto e Autocitações de Periódicos",
+    "item": "O Fator de Impacto de uma revista científica, calculado pelo Journal Citation Reports (JCR), expressa a razão entre as citações recebidas no ano de referência e o número de artigos citáveis publicados nos dois anos precedentes.",
+    "gabarito": "C",
+    "justificativa": "Certo! A fórmula clássica de Eugene Garfield divide o total de citações no ano X recebidas por artigos dos anos X-1 e X-2 pelo número de itens citáveis publicados nesse biênio.",
+    "doutrinaReferencia": "Eugene Garfield (1972) - Citation Analysis as a Tool in Journal Evaluation / Clarivate Analytics"
+  },
+  {
+    "id": "cp-9-4-3",
+    "submoduloId": "9.4",
+    "submoduloNumero": "9.4",
+    "pergunta": "Micro-Checkpoint 3: Vias Dourada, Verde e Diamante do Acesso Aberto",
+    "item": "Na tipologia do Acesso Aberto, a 'Via Verde' designa a publicação original em periódico que não cobra taxas de processamento de artigos (APC) nem do leitor nem do autor.",
+    "gabarito": "E",
+    "justificativa": "Errado! A via que não cobra taxas de ninguém é a 'Via Diamante' (ou Platina). A 'Via Verde' consiste no autoarquivamento de pré-prints ou pós-prints pelo próprio autor em repositórios institucionais abertos.",
+    "doutrinaReferencia": "Suber (2012) - Open Access / Declaração de Budapeste (BOAI 2002)"
+  },
+  {
+    "id": "cp-10-1-3",
+    "submoduloId": "10.1",
+    "submoduloNumero": "10.1",
+    "pergunta": "Micro-Checkpoint 3: Missão e Acervo Histórico da Biblioteca da Câmara",
+    "item": "A Biblioteca Pedro Aleixo da Câmara dos Deputados destina-se exclusivamente ao atendimento interno de deputados em exercício, sendo vedado o acesso ou empréstimo presencial de suas obras a pesquisadores e cidadãos comuns.",
+    "gabarito": "E",
+    "justificativa": "Errado! Embora sua missão precípua seja subsidiar o processo legislativo e os parlamentares, a Biblioteca da Câmara dos Deputados é aberta ao público em geral para consulta presencial de seu expressivo acervo de ciências sociais e jurídicas.",
+    "doutrinaReferencia": "Câmara dos Deputados - Regulamento da Biblioteca Pedro Aleixo / Guia do Usuário"
+  },
+  {
+    "id": "cp-10-2-3",
+    "submoduloId": "10.2",
+    "submoduloNumero": "10.2",
+    "pergunta": "Micro-Checkpoint 3: Sistema Sicon e Vocabulário Controlado do Congresso",
+    "item": "O Vocabulário Controlado Básico do Congresso Nacional (Sicon) utiliza estruturas hierárquicas e sinonímicas para padronizar a indexação de matérias legislativas e discursos proferidos em plenário.",
+    "gabarito": "C",
+    "justificativa": "Certo! O Tesauro do Sicon padroniza a indexação legislativa conjunta da Câmara dos Deputados e do Senado Federal, viabilizando a busca temática precisa por assuntos das proposições.",
+    "doutrinaReferencia": "Câmara dos Deputados & Senado Federal - Tesauro do Sistema de Informação do Congresso Nacional (Sicon)"
+  },
+  {
+    "id": "cp-10-3-3",
+    "submoduloId": "10.3",
+    "submoduloNumero": "10.3",
+    "pergunta": "Micro-Checkpoint 3: Neutralidade Técnica na Pesquisa Legislativa",
+    "item": "Na elaboração de pesquisas informacionais solicitadas por gabinetes parlamentares, o bibliotecário legislativo deve selecionar preferencialmente a doutrina alinhada ao posicionamento partidário do solicitante para resguardar a celeridade do trabalho.",
+    "gabarito": "E",
+    "justificativa": "Errado! O princípio fundamental da atuação do bibliotecário público legislativo é a imparcialidade e a neutralidade técnica e doutrinária, apresentando o panorama plural e equilibrado das correntes jurídicas e doutrinárias vigentes.",
+    "doutrinaReferencia": "Câmara dos Deputados - Código de Conduta e Práticas da Consultoria Legislativa"
+  },
+  {
+    "id": "cp-10-4-3",
+    "submoduloId": "10.4",
+    "submoduloNumero": "10.4",
+    "pergunta": "Micro-Checkpoint 3: Tramitação e Numeração Progressiva de Proposições",
+    "item": "No processo legislativo regimental, projetos de lei ordinária que tramitam em regime de urgência são dispensados do parecer das comissões temáticas de mérito e podem ser apreciados diretamente pelo Plenário da Câmara dos Deputados.",
+    "gabarito": "C",
+    "justificativa": "Certo! Conforme o Regimento Interno da Câmara dos Deputados (RICD art. 155), a urgência permite dispensar as formalidades regimentais de instrução ordinária em comissões, incluindo a matéria na Ordem do Dia do Plenário.",
+    "doutrinaReferencia": "Regimento Interno da Câmara dos Deputados (RICD) - Resolução nº 17 de 1989"
+  }
+]

@@ -112,6 +112,13 @@ O **BIBFRAME (Bibliographic Framework Initiative)** foi lançado pela Library of
       gabarito: 'E',
       justificativa: 'Errado! O campo 650 do MARC 21 equivale ao elemento "Subject" do Dublin Core. O elemento "Description" equivale ao campo 520 (resumo) ou notas gerais.',
     },
+      {
+      id: 'cp-2-4-3',
+      pergunta: "Micro-Checkpoint 3: Controle de Autoridade e Remissivas 'Ver'",
+      item: "Em catálogos de autoridade, a remissiva do tipo 'Ver' (See reference) tem por função conduzir o usuário de uma forma adotada preferencial para outras formas variantes não padronizadas.",
+      gabarito: 'E',
+      justificativa: "Errado! A remissiva 'Ver' faz o caminho inverso: encaminha o usuário a partir de uma forma NÃO autorizada (variante, pseudônimo) para a forma autorizada e oficial.",
+    },
   ],
   mnemonicos: {
     timeline: [

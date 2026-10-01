@@ -18,18 +18,23 @@ import {
   ArrowRight,
   Sparkles,
   BookOpen,
+  RotateCcw,
+  ShieldCheck,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
 import { TeoriaStickyBar } from '../components/layout/TeoriaStickyBar';
+import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../domain/learningEngine';
+import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute } =
     useNavigationStore();
   const {
     modulosLidosIds,
-    alternarModuloConcluido,
     checkpointsRespondidos,
+    secoesVisualizadas,
+    registrarSecaoVisualizada,
     salvarCheckpoint,
     resetarCheckpoint,
     setUltimoModuloAcessado,
@@ -74,8 +79,35 @@ export const TeoriaPage: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isConcluido = modulosLidosIds.includes(currentSub.id);
+  const secoesVistas = secoesVisualizadas?.[currentSub.id] || [];
+  const learningState = calculateSubmoduleStatus(
+    currentSub,
+    secoesVistas,
+    checkpointsRespondidos || {}
+  );
   const moduleTheme = getModuleTheme(currentMacro.id);
+
+  // Monitoramento de seções para conquista estrita de conclusão (Parte G)
+  useEffect(() => {
+    const required = getRequiredSectionsForSubmodule(currentSub);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.2) {
+            registrarSecaoVisualizada(currentSub.id, entry.target.id);
+          }
+        }
+      },
+      { threshold: [0.2] }
+    );
+
+    required.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, [currentSub.id, registrarSecaoVisualizada]);
 
   // Índices para navegação sequencial contínua (atravessa submódulos e blocos)
   const currentIndex = allSubmodules.findIndex((s) => s.id === currentSub.id);
@@ -228,18 +260,28 @@ export const TeoriaPage: React.FC = () => {
             </h1>
 
             <div className="flex items-center justify-between pt-2">
-              <button
-                type="button"
-                onClick={() => alternarModuloConcluido(currentSub.id)}
-                className={`py-1.5 px-3.5 rounded-lg text-xs font-sans font-semibold flex items-center gap-2 border transition-all ${
-                  isConcluido
-                    ? 'bg-ok-soft border-ok text-ok'
-                    : 'bg-surface border-border text-ink-2 hover:border-accent hover:text-ink'
-                }`}
-              >
-                <CheckCircle2 className="w-4 h-4" />
-                <span>{isConcluido ? 'Módulo Concluído' : 'Marcar como Concluído'}</span>
-              </button>
+              {learningState.status === 'concluido' ? (
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
+                  <CheckCircle2 className="w-4 h-4" />
+                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
+                </div>
+              ) : learningState.status === 'em_revisao' ? (
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-amber-500 shadow-2xs">
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  <span>Em Revisão ({learningState.taxaAcertoPercent}% nos checkpoints · mínimo 70%)</span>
+                </div>
+              ) : learningState.status === 'em_andamento' ? (
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
+                  <BookOpen className="w-3.5 h-3.5 text-accent" />
+                  <span>
+                    Em Leitura ({learningState.secoesLidasCount}/{learningState.secoesTotalCount} seções)
+                  </span>
+                </div>
+              ) : (
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
+                  <span>Não Iniciado</span>
+                </div>
+              )}
 
               <span className="text-xs font-mono text-ink-2">
                 Leitura: {scrollProgress}%
@@ -381,6 +423,16 @@ export const TeoriaPage: React.FC = () => {
                 />
               ))}
             </div>
+
+            {/* Treino de Recuperação Ativa (Associação, Cronologia e Caça-Armadilha - Parte G) */}
+            <div className="mt-8">
+              <ActiveRetrievalExercises
+                submoduloNumero={currentSub.numero}
+                autores={currentSub.mnemonicos.autores}
+                timeline={currentSub.mnemonicos.timeline}
+                pegadinhas={currentSub.mnemonicos.pegadinhas}
+              />
+            </div>
           </section>
 
           {/* Bloco 6: Resumo e Mnemônicos Estruturados */}
@@ -427,18 +479,27 @@ export const TeoriaPage: React.FC = () => {
               <div />
             )}
 
-            <button
-              type="button"
-              onClick={() => alternarModuloConcluido(currentSub.id)}
-              className={`w-full sm:w-auto py-2.5 px-5 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs ${
-                isConcluido
-                  ? 'bg-ok-soft border border-ok text-ok'
-                  : 'bg-primary text-primary-text hover:opacity-95'
-              }`}
-            >
-              <CheckCircle2 className="w-4 h-4" />
-              <span>{isConcluido ? 'Concluído (clique p/ desmarcar)' : 'Concluir Submódulo'}</span>
-            </button>
+            {/* Indicador de Conclusão Pedagógica (Conquistado, não marcado livremente) */}
+            <div className="w-full sm:w-auto text-center sm:text-left">
+              {learningState.status === 'concluido' ? (
+                <div className="py-2.5 px-4 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
+                  <CheckCircle2 className="w-4 h-4" />
+                  <span>Domínio Conquistado ({learningState.taxaAcertoPercent}% de acertos)</span>
+                </div>
+              ) : learningState.status === 'em_revisao' ? (
+                <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-500 font-sans text-xs flex items-center justify-center gap-2">
+                  <RotateCcw className="w-4 h-4 shrink-0" />
+                  <span>Em Revisão: Refaça os checkpoints para atingir ao menos 70%</span>
+                </div>
+              ) : (
+                <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
+                  <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
+                  <span>
+                    Faltam {learningState.secoesTotalCount - learningState.secoesLidasCount} seções e 70% nos checkpoints
+                  </span>
+                </div>
+              )}
+            </div>
 
             {nextSub ? (
               <button

@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
 import { useProgressStore } from '../store/useProgressStore';
+import { useNavigationStore } from '../store/useNavigationStore';
+import { COURSE_REGISTRY } from '../content/registry';
+import { checkSimuladoAccess } from '../domain/learningEngine';
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { Badge } from '../components/common/Badge';
 import { Kbd } from '../components/common/Kbd';
@@ -18,6 +21,9 @@ import {
   FileCheck,
   AlertTriangle,
   ShieldAlert,
+  Lock,
+  Unlock,
+  ArrowRight,
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 
@@ -29,7 +35,13 @@ export const SimuladoPage: React.FC = () => {
     iniciarOuRetomarSimulado,
     finalizarSimulado,
     reiniciarSimulado,
+    secoesVisualizadas,
+    checkpointsRespondidos,
+    devBypassSimuladoLock,
+    setDevBypassSimuladoLock,
   } = useProgressStore();
+
+  const { setSelectedSubmodule, setActiveView } = useNavigationStore();
 
   const [certezaSelecionada, setCertezaSelecionada] = useState<
     'certeza' | 'provavel' | 'chute' | undefined
@@ -138,6 +150,138 @@ export const SimuladoPage: React.FC = () => {
     setRelatorioFinal(null);
     iniciarOuRetomarSimulado();
   };
+
+    const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
+    const accessControl = checkSimuladoAccess(
+      m1Submodules,
+      secoesVisualizadas || {},
+      checkpointsRespondidos || {},
+      devBypassSimuladoLock
+    );
+
+    // SE O SIMULADO ESTIVER BLOQUEADO (Parte G - Requisito Pedagógico)
+    if (!accessControl.isUnlocked) {
+      return (
+        <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-8 animate-fadeIn">
+          <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6 text-center sm:text-left">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 border-b border-border">
+              <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 shrink-0">
+                <Lock className="w-7 h-7" />
+              </div>
+              <div className="space-y-1">
+                <div className="flex items-center justify-center sm:justify-start gap-2">
+                  <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+                    REQUISITO PEDAGÓGICO
+                  </span>
+                  <span className="text-xs font-mono text-ink-2">Metodologia Cebraspe</span>
+                </div>
+                <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
+                  Simulado de 100 Questões Bloqueado
+                </h1>
+                <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-xl">
+                  O Simulado Integral com fator de correção Cebraspe (1 Erro Anula 1 Certo) é a etapa final de consolidação. Para preservar a validade diagnóstica do teste, ele é liberado após o domínio prévio dos submódulos teóricos.
+                </p>
+              </div>
+            </div>
+
+            {/* Barra de Progresso de Liberação */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-xs font-sans">
+                <span className="font-semibold text-ink">Requisitos de Desbloqueio</span>
+                <span className="font-mono font-bold text-accent">
+                  {accessControl.totalSubmodulosConcluidos} de {accessControl.totalSubmodulosExigidos} submódulos concluídos ({accessControl.percentualLiberacao}%)
+                </span>
+              </div>
+              <div className="w-full h-2.5 bg-surface-2 rounded-full overflow-hidden border border-border">
+                <div
+                  className="h-full bg-accent transition-all duration-300"
+                  style={{ width: `${accessControl.percentualLiberacao}%` }}
+                />
+              </div>
+              <p className="text-[11px] text-ink-2 font-serif">
+                Critério: 100% das seções lidas E taxa de acerto &ge; 70% nos checkpoints de cada submódulo.
+              </p>
+            </div>
+
+            {/* Lista de Submódulos Pendentes com Ações */}
+            <div className="space-y-3 pt-2">
+              <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold block text-left">
+                Submódulos da Disciplina M1 (Fundamentos da Biblioteconomia)
+              </span>
+              <div className="grid grid-cols-1 gap-2.5">
+                {m1Submodules.map((sub) => {
+                  const pendente = accessControl.submodulosPendentes.find((p) => p.id === sub.id);
+                  const isConcluidoSub = !pendente;
+
+                  return (
+                    <div
+                      key={sub.id}
+                      className={`p-3.5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-left transition-colors ${
+                        isConcluidoSub
+                          ? 'bg-ok-soft/30 border-ok/40'
+                          : 'bg-surface-2/60 border-border'
+                      }`}
+                    >
+                      <div className="flex items-center gap-3 min-w-0">
+                        <div className="w-7 h-7 rounded-lg bg-surface border border-border flex items-center justify-center font-mono text-xs font-bold text-ink shrink-0">
+                          {sub.numero}
+                        </div>
+                        <div className="min-w-0">
+                          <div className="text-xs sm:text-sm font-sans font-bold text-ink truncate">
+                            {sub.titulo}
+                          </div>
+                          <div className="text-[11px] text-ink-2 flex items-center gap-1.5 mt-0.5">
+                            {isConcluidoSub ? (
+                              <span className="text-ok font-semibold flex items-center gap-1">
+                                <CheckCircle2 className="w-3.5 h-3.5" />
+                                Domínio Aferido
+                              </span>
+                            ) : pendente?.status === 'em_revisao' ? (
+                              <span className="text-amber-500 font-medium">
+                                Em Revisão (Refaça os checkpoints para &ge; 70%)
+                              </span>
+                            ) : (
+                              <span>Em Leitura (Conclua as seções teóricas)</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedSubmodule(sub.numero);
+                          setActiveView('teoria');
+                        }}
+                        className="py-1.5 px-3 rounded-lg bg-surface border border-border hover:border-accent text-ink text-xs font-sans font-semibold flex items-center justify-center gap-1.5 transition-colors shrink-0 cursor-pointer min-h-[36px]"
+                      >
+                        <span>Estudar Submódulo</span>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Bypass Modo Desenvolvedor / Avaliação Local */}
+            <div className="pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+              <span className="text-ink-2 font-mono text-[11px]">
+                Ambiente de Avaliação & Testes Locais
+              </span>
+              <button
+                type="button"
+                onClick={() => setDevBypassSimuladoLock(true)}
+                className="py-2 px-3.5 rounded-lg bg-surface-2 hover:bg-surface border border-border hover:border-accent text-ink-2 hover:text-ink font-mono text-xs flex items-center gap-2 cursor-pointer transition-colors"
+              >
+                <Unlock className="w-3.5 h-3.5 text-accent" />
+                <span>Desbloquear Simulado para Testes (Bypass DEV)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
 
   // Se o simulado foi finalizado nesta sessão, exibe o relatório final
   if (relatorioFinal) {

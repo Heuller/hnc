@@ -81,6 +81,13 @@ As consultas ao repositório são feitas via chamadas HTTP GET/POST contendo o p
       gabarito: 'E',
       justificativa: 'Errado! O DSpace é um SOFTWARE LIVRE (código aberto / open source), gratuito e customizável, amplamente fomentado no Brasil pelo IBICT.',
     },
+      {
+      id: 'cp-6-2-3',
+      pergunta: "Micro-Checkpoint 3: Pacotes de Informação do Modelo OAIS",
+      item: "No modelo de referência OAIS (ISO 14721), o pacote de informação submetido pelo produtor ao repositório digital é denominado SIP (Submission Information Package).",
+      gabarito: 'C',
+      justificativa: "Certo! O fluxo de pacotes do OAIS estrutura-se em: SIP (Submission), AIP (Archival - pacote de arquivamento no repositório) e DIP (Dissemination - pacote entregue ao usuário final).",
+    },
   ],
   mnemonicos: {
     timeline: [

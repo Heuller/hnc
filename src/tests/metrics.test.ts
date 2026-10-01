@@ -28,21 +28,21 @@ describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
 
   it('cada submódulo deve computar seus próprios checkpoints sem vazar a contagem do macro-módulo', () => {
     const sub11 = m1.modulosFilhos[0];
-    expect(getCheckpointsCountSubmodulo(sub11)).toBe(2);
+    expect(getCheckpointsCountSubmodulo(sub11)).toBe(3);
 
     // Simula resposta apenas para o primeiro checkpoint de 1.1
     const cpId = sub11.checkpoints[0].id;
     const respondidos = { [cpId]: 'C' as const };
 
-    // Submódulo 1.1 deve ter 1 feito de 2
+    // Submódulo 1.1 deve ter 1 feito de 3
     expect(getCheckpointsFeitosSubmodulo(sub11, respondidos)).toBe(1);
 
     // Submódulo 1.2 deve ter 0 feitos
     const sub12 = m1.modulosFilhos[1];
     expect(getCheckpointsFeitosSubmodulo(sub12, respondidos)).toBe(0);
 
-    // Macro-Módulo M1 tem 9 checkpoints no total (2 em 1.1, 2 em 1.2, 3 em 1.3, 2 em 1.4)
-    expect(getCheckpointsCountMacroModulo(m1)).toBe(9);
+    // Macro-Módulo M1 tem 12 checkpoints no total (3 em cada um dos 4 submódulos)
+    expect(getCheckpointsCountMacroModulo(m1)).toBe(12);
     expect(getCheckpointsFeitosMacroModulo(m1, respondidos)).toBe(1);
   });
 

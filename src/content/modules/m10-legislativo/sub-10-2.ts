@@ -78,6 +78,13 @@ $$\\text{Iniciativa} \\rightarrow \\text{Distribuição} \\rightarrow \\text{Ins
       gabarito: 'C',
       justificativa: 'Correto! Conforme o Art. 69 da CF/88, leis complementares são aprovadas por maioria absoluta (257 deputados), diferentemente das leis ordinárias que exigem maioria simples.',
     },
+      {
+      id: 'cp-10-2-3',
+      pergunta: "Micro-Checkpoint 3: Sistema Sicon e Vocabulário Controlado do Congresso",
+      item: "O Vocabulário Controlado Básico do Congresso Nacional (Sicon) utiliza estruturas hierárquicas e sinonímicas para padronizar a indexação de matérias legislativas e discursos proferidos em plenário.",
+      gabarito: 'C',
+      justificativa: "Certo! O Tesauro do Sicon padroniza a indexação legislativa conjunta da Câmara dos Deputados e do Senado Federal, viabilizando a busca temática precisa por assuntos das proposições.",
+    },
   ],
   mnemonicos: {
     timeline: [

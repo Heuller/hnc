@@ -73,6 +73,13 @@ A avaliação por pares é o crivo de controle de qualidade e validação episte
       gabarito: 'C',
       justificativa: 'Correto! Os canais formais garantem o rigor, o controle de qualidade por pares e a preservação duradoura na memória científica mundial.',
     },
+      {
+      id: 'cp-9-1-3',
+      pergunta: "Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith",
+      item: "No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação.",
+      gabarito: 'E',
+      justificativa: "Errado! Artigos em periódicos científicos com peer review são o exemplo canônico e central de canal FORMAL (público, arquivável e validado pela comunidade). Canais informais englobam cartas, e-mails, pré-prints e conversas orais em congressos.",
+    },
   ],
   mnemonicos: {
     timeline: [

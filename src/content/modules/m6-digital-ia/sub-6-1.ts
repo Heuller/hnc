@@ -85,6 +85,13 @@ A usabilidade mede a facilidade, eficiência e satisfação com que um usuário 
       gabarito: 'C',
       justificativa: 'Correto! Essa é a exata distinção conceitual cobrada em provas recentes da banca Cebraspe (FUB, SEE-PE).',
     },
+      {
+      id: 'cp-6-1-3',
+      pergunta: "Micro-Checkpoint 3: Protocolo OAI-PMH e Coleta de Metadados",
+      item: "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) realiza a transferência integral dos arquivos binários dos documentos (arquivos PDF) entre os repositórios digitais provedores.",
+      gabarito: 'E',
+      justificativa: "Errado! O protocolo OAI-PMH opera estritamente na camada de METADADOS (preferencialmente em Dublin Core simples). Ele não é concebido para coleta massiva de arquivos de conteúdo digital.",
+    },
   ],
   mnemonicos: {
     timeline: [

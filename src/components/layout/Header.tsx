@@ -138,21 +138,35 @@ export const Header: React.FC = () => {
           })}
         </nav>
 
-        {/* Right: Design System Specimen (somente em DEV) & Theme Toggle (Desktop apenas; no mobile fica no MobileMoreMenu) */}
+        {/* Right: DEV tools (Design System & Rascunhos) & Theme Toggle */}
         <div className="hidden md:flex items-center gap-2">
           {import.meta.env.DEV && (
-            <button
-              onClick={() => setActiveView('design-system')}
-              className={`touch-target p-2 rounded-md transition-colors border ${
-                activeView === 'design-system'
-                  ? 'bg-primary text-primary-text border-border'
-                  : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
-              }`}
-              title="Design System (somente em desenvolvimento)"
-              aria-label="Página de Design System DEV"
-            >
-              <Palette className="w-4 h-4" />
-            </button>
+            <>
+              <button
+                onClick={() => setActiveView('dev-rascunhos')}
+                className={`touch-target p-2 rounded-md transition-colors border ${
+                  activeView === 'dev-rascunhos'
+                    ? 'bg-accent text-accent-text border-border'
+                    : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
+                }`}
+                title="Rascunho de Itens Cebraspe (Homologação R4)"
+                aria-label="Página de Homologação de Rascunhos Cebraspe"
+              >
+                <BookOpen className="w-4 h-4" />
+              </button>
+              <button
+                onClick={() => setActiveView('design-system')}
+                className={`touch-target p-2 rounded-md transition-colors border ${
+                  activeView === 'design-system'
+                    ? 'bg-primary text-primary-text border-border'
+                    : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
+                }`}
+                title="Design System (somente em desenvolvimento)"
+                aria-label="Página de Design System DEV"
+              >
+                <Palette className="w-4 h-4" />
+              </button>
+            </>
           )}
 
           <ThemeToggle />

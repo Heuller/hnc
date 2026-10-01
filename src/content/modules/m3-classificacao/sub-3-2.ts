@@ -80,6 +80,13 @@ Criada especificamente no Brasil para contornar as limitações da tabela Cutter
       gabarito: 'E',
       justificativa: 'Errado! A notação numérica de Cutter é extraída diretamente das letras da sigla (ex.: OAB, IPEA), e não do seu significado por extenso.',
     },
+      {
+      id: 'cp-3-2-3',
+      pergunta: "Micro-Checkpoint 3: Símbolos Auxiliares Comuns de Relação na CDU",
+      item: "Na Classificação Decimal Universal (CDU), o símbolo de dois-pontos (:) representa uma relação reversível entre dois assuntos, permitindo a permuta dos índices para recuperação por ambos os conceitos.",
+      gabarito: 'C',
+      justificativa: "Certo! Os dois-pontos (:) indicam coordenação/relação simples e reversível. Já os dois-pontos duplos (::) indicam fixação de ordem irreversível.",
+    },
   ],
   mnemonicos: {
     timeline: [

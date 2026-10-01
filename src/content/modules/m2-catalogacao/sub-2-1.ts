@@ -91,6 +91,13 @@ O AACR2r é dividido estruturalmente em duas partes basilares:
       gabarito: 'C',
       justificativa: 'Correto! Leis, decretos, tratados e constituições têm como ponto de acesso principal a jurisdição governamental responsável.',
     },
+      {
+      id: 'cp-2-1-3',
+      pergunta: "Micro-Checkpoint 3: Modelo Conceitual IFLA LRM e Entidades WEMI",
+      item: "No modelo IFLA LRM e nos FRBR, o conceito de 'Expressão' corresponde à materialização física e individualizada de um suporte documental disponível em uma estante de biblioteca.",
+      gabarito: 'E',
+      justificativa: "Errado! A materialização física é o 'Item' (exemplar único) ou a 'Manifestação' (conjunto de exemplares publicados). A 'Expressão' é a realização intelectual ou artística da Obra (ex: tradução para o português, texto revisado).",
+    },
   ],
   mnemonicos: {
     timeline: [

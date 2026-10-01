@@ -92,6 +92,13 @@ Davenport rejeita a visão tecnocêntrica da informação (a ilusão de que inve
       gabarito: 'E',
       justificativa: 'Errado! O item inverteu completamente os conceitos: a Gestão da Informação foca no conhecimento explícito e nos suportes registrados; a Gestão do Conhecimento foca no conhecimento tácito e no capital humano.',
     },
+      {
+      id: 'cp-5-4-3',
+      pergunta: "Micro-Checkpoint 3: Modelo SECI de Conversão do Conhecimento",
+      item: "No modelo SECI de Nonaka e Takeuchi, a conversão de conhecimento tácito em conhecimento explícito recebe o nome técnico de Externalização.",
+      gabarito: 'C',
+      justificativa: "Certo! As quatro conversões clássicas da espiral do conhecimento são: Socialização (tácito para tácito), Externalização (tácito para explícito), Combinação (explícito para explícito) e Internalização (explícito para tácito).",
+    },
   ],
   mnemonicos: {
     timeline: [

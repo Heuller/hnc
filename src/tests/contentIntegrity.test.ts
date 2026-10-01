@@ -103,9 +103,9 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('todos os 40 submódulos devem conter micro-checkpoints de recuperação ativa válidos (>= 2)', () => {
+    it('todos os 40 submódulos devem conter micro-checkpoints de recuperação ativa válidos (>= 3)', () => {
       COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
-        expect(sub.checkpoints.length).toBeGreaterThanOrEqual(2);
+        expect(sub.checkpoints.length).toBeGreaterThanOrEqual(3);
         sub.checkpoints.forEach((cp) => {
           expect(cp.id.trim().length).toBeGreaterThan(2);
           expect(cp.pergunta.trim().length).toBeGreaterThan(10);

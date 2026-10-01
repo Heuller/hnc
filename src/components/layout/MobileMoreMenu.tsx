@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 
 export const MobileMoreMenu: React.FC = () => {
@@ -140,18 +140,32 @@ export const MobileMoreMenu: React.FC = () => {
           </button>
 
           {import.meta.env.DEV && (
-            <button
-              type="button"
-              role="menuitem"
-              onClick={() => {
-                setActiveView('design-system');
-                setIsOpen(false);
-              }}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-amber-600 dark:text-amber-400 transition-colors min-h-[40px] cursor-pointer border-t border-border/50"
-            >
-              <Palette className="w-4 h-4" />
-              <span>Design System (DEV)</span>
-            </button>
+            <>
+              <button
+                type="button"
+                role="menuitem"
+                onClick={() => {
+                  setActiveView('dev-rascunhos');
+                  setIsOpen(false);
+                }}
+                className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-accent font-semibold transition-colors min-h-[40px] cursor-pointer border-t border-border/50"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>Homologar Itens R4 (DEV)</span>
+              </button>
+              <button
+                type="button"
+                role="menuitem"
+                onClick={() => {
+                  setActiveView('design-system');
+                  setIsOpen(false);
+                }}
+                className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-amber-600 dark:text-amber-400 transition-colors min-h-[40px] cursor-pointer"
+              >
+                <Palette className="w-4 h-4" />
+                <span>Design System (DEV)</span>
+              </button>
+            </>
           )}
         </div>
       )}

@@ -101,6 +101,13 @@ A confusão entre apêndice e anexo é uma das armadilhas mais antigas e frequen
       gabarito: 'C',
       justificativa: 'Correto! A contagem começa na folha de rosto, mas a impressão dos números em algarismos arábicos ocorre apenas na introdução.',
     },
+      {
+      id: 'cp-8-3-3',
+      pergunta: "Micro-Checkpoint 3: Estrutura do Sumário conforme ABNT NBR 6027",
+      item: "Segundo a ABNT NBR 6027, os elementos pré-textuais, como a dedicatória, o agradecimento e a lista de abreviaturas, devem constar obrigatoriamente no sumário do trabalho acadêmico.",
+      gabarito: 'E',
+      justificativa: "Errado! Os elementos pré-textuais NÃO devem constar no sumário. O sumário subordina exclusivamente a enumeração das divisões textuais e pós-textuais (NBR 6027:2012 item 4.2).",
+    },
   ],
   mnemonicos: {
     timeline: [

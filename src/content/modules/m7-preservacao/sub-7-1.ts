@@ -77,6 +77,13 @@ Conforme normas técnicas do Conselho Nacional de Arquivos (CONARQ) e da IFLA:
       gabarito: 'E',
       justificativa: 'Errado! O Cebraspe cobrou esse item no TJ-AC. Móveis de madeira liberam gases ácidos (ácido acético) e lignina nocivos ao acervo, sendo obrigatório o uso de aço tratado com pintura epóxi.',
     },
+      {
+      id: 'cp-7-1-3',
+      pergunta: "Micro-Checkpoint 3: Radiação Ultravioleta e Oxidação da Celulose",
+      item: "A radiação luminosa com comprimentos de onda na faixa ultravioleta acelera a quebra fotoquímica das cadeias moleculares de celulose e promove o amarelamento e a fragilização do papel.",
+      gabarito: 'C',
+      justificativa: "Certo! A luz ultravioleta (solar ou fluorescente direta) possui alta energia e atua como catalisador direto da fotoxidação e despolimerização do papel.",
+    },
   ],
   mnemonicos: {
     timeline: [

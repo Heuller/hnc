@@ -101,6 +101,13 @@ O documento de política de desenvolvimento de coleções é o sustentáculo da 
       gabarito: 'C',
       justificativa: 'Correto! Essa é a distinção clássica consolidada por Vergueiro e cobrada com frequência pelo Cebraspe.',
     },
+      {
+      id: 'cp-5-3-3',
+      pergunta: "Micro-Checkpoint 3: Processo de Desbastamento e Descarte de Acervos",
+      item: "O processo de desbastamento (weeding) consiste no remanejamento de itens de baixa frequência de uso para depósitos secundários com acesso indireto, diferenciando-se do descarte, que implica a exclusão patrimonial definitiva.",
+      gabarito: 'C',
+      justificativa: "Certo! Conforme Weitzel e Vergueiro, desbastar é relocar materiais para locais de menor custo de armazenagem, enquanto descartar é expurgar o exemplar do acervo e dos registros patrimoniais.",
+    },
   ],
   mnemonicos: {
     timeline: [

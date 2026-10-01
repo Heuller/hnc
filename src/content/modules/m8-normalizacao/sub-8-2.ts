@@ -95,6 +95,13 @@ Em julho de 2023, a ABNT publicou a aguardada revisão histórica da **NBR 10520
       gabarito: 'E',
       justificativa: 'Errado! Citações diretas longas com mais de três linhas NÃO LEVAM ASPAS em nenhuma hipótese. O próprio recuo de 4 cm e a fonte menor já indicam a citação.',
     },
+      {
+      id: 'cp-8-2-3',
+      pergunta: "Micro-Checkpoint 3: Citações Diretas Longas conforme a ABNT NBR 10520",
+      item: "Conforme a ABNT NBR 10520, citações diretas com mais de três linhas devem ser destacadas com recuo de 4 cm da margem esquerda, com fonte em tamanho menor que o do texto principal e sem aspas.",
+      gabarito: 'C',
+      justificativa: "Certo! Esta é a regra canônica expressa na norma: bloco recuado a 4 cm, espaçamento simples, tamanho de fonte menor (usualmente 10 ou 11) e sem o uso de aspas tipográficas.",
+    },
   ],
   mnemonicos: {
     timeline: [

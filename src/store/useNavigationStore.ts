@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-export type AppView = 'painel' | 'teoria' | 'simulado' | 'radar' | 'progresso' | 'design-system';
+export type AppView = 'painel' | 'teoria' | 'simulado' | 'radar' | 'progresso' | 'design-system' | 'dev-rascunhos';
 
 interface NavigationState {
   activeView: AppView;
@@ -24,6 +24,7 @@ function getViewFromHash(): AppView {
   if (hash.startsWith('radar')) return 'radar';
   if (hash.startsWith('progresso')) return 'progresso';
   if (hash.startsWith('design-system')) return 'design-system';
+  if (hash.startsWith('dev/rascunhos') || hash.startsWith('dev-rascunhos')) return 'dev-rascunhos';
   if (hash.startsWith('painel')) return 'painel';
   return 'painel';
 }

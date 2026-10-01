@@ -81,6 +81,13 @@ Sancionada em abril de 2024, a **Lei nº 14.837/2024** representa a vitória mai
       gabarito: 'E',
       justificativa: 'Errado! A Lei 14.837/2024 determinou com rigor exatamente o oposto: reafirmou a obrigatoriedade da presença de profissional Bibliotecário diplomado e registrado no CRB nas bibliotecas escolares.',
     },
+      {
+      id: 'cp-10-4-3',
+      pergunta: "Micro-Checkpoint 3: Tramitação e Numeração Progressiva de Proposições",
+      item: "No processo legislativo regimental, projetos de lei ordinária que tramitam em regime de urgência são dispensados do parecer das comissões temáticas de mérito e podem ser apreciados diretamente pelo Plenário da Câmara dos Deputados.",
+      gabarito: 'C',
+      justificativa: "Certo! Conforme o Regimento Interno da Câmara dos Deputados (RICD art. 155), a urgência permite dispensar as formalidades regimentais de instrução ordinária em comissões, incluindo a matéria na Ordem do Dia do Plenário.",
+    },
   ],
   mnemonicos: {
     timeline: [

@@ -96,6 +96,13 @@ Conforme as normas **ISO 25964** e **ANSI/NISO Z39.19-2005** (e as clássicas ob
       gabarito: 'C',
       justificativa: 'Correto! Essa é a distinção fundamental cobrada pelo Cebraspe entre instrumentos de indexação (tesauros) e modelos conceituais formais da inteligência artificial (ontologias).',
     },
+      {
+      id: 'cp-3-4-3',
+      pergunta: "Micro-Checkpoint 3: Relações de Equivalência em Tesauros",
+      item: "Nos tesauros documentários em conformidade com a norma ISO 25964, a relação entre um termo preferido e seus sinônimos ou quase-sinônimos é representada pelo par de relacionamentos USE e UP (Usado Para).",
+      gabarito: 'C',
+      justificativa: "Certo! A relação de equivalência direciona do termo não preferido para o termo adotado (USE), e do preferido para suas variantes sinônimas (UP - Usado Para / UF - Used For).",
+    },
   ],
   mnemonicos: {
     timeline: [

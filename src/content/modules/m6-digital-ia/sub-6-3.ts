@@ -78,6 +78,13 @@ No Brasil, o Instituto Brasileiro de Informação em Ciência e Tecnologia (IBIC
       gabarito: 'E',
       justificativa: 'Errado! Quem altera o arquivo e seu formato é a MIGRAÇÃO. A emulação preserva o arquivo binário exatamente intocado e recria o ambiente do sistema antigo por meio de um software emulador.',
     },
+      {
+      id: 'cp-6-3-3',
+      pergunta: "Micro-Checkpoint 3: Triplas RDF na Web Semântica",
+      item: "A estrutura de dados fundamental do padrão RDF (Resource Description Framework) consiste em triplas compostas por Sujeito, Predicado e Objeto.",
+      gabarito: 'C',
+      justificativa: "Certo! As triplas RDF formam grafos de conhecimento que permitem computadores interpretarem o significado semântico das conexões entre entidades identificadas por URIs.",
+    },
   ],
   mnemonicos: {
     timeline: [

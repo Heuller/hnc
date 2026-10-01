@@ -82,6 +82,13 @@ A conservação científica moderna baniu pesticidas químicos voláteis (bromet
       gabarito: 'E',
       justificativa: 'Errado! Fungos proliferam na escuridão e exigem umidade relativa ALTA (acima de 65%) associada ao calor; sob umidade inferior a 30%, os fungos entram em dessecação e não se desenvolvem.',
     },
+      {
+      id: 'cp-7-2-3',
+      pergunta: "Micro-Checkpoint 3: Uso de Fitas Adesivas Comerciais em Livros Danificados",
+      item: "A aplicação de fitas adesivas de base plástica transparente comum (como o durex) é procedimento recomendado para o reparo rápido de rasgos em obras raras devido à sua vedação contra a umidade.",
+      gabarito: 'E',
+      justificativa: "Errado! O uso de fitas adesivas sintéticas convencionais é veementemente condenado na conservação preventiva. O adesivo oxida, mancha irreversivelmente a celulose e acidifica o papel. O reparo deve usar papel japonês e cola de amido neutra reversível.",
+    },
   ],
   mnemonicos: {
     timeline: [

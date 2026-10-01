@@ -78,6 +78,13 @@ A LGPD dispõe sobre o tratamento de dados pessoais em meios físicos e digitais
       gabarito: 'E',
       justificativa: 'Errado! O Art. 21 da LAI proíbe expressamente qualquer restrição de acesso a informações e documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes do Estado.',
     },
+      {
+      id: 'cp-10-3-3',
+      pergunta: "Micro-Checkpoint 3: Neutralidade Técnica na Pesquisa Legislativa",
+      item: "Na elaboração de pesquisas informacionais solicitadas por gabinetes parlamentares, o bibliotecário legislativo deve selecionar preferencialmente a doutrina alinhada ao posicionamento partidário do solicitante para resguardar a celeridade do trabalho.",
+      gabarito: 'E',
+      justificativa: "Errado! O princípio fundamental da atuação do bibliotecário público legislativo é a imparcialidade e a neutralidade técnica e doutrinária, apresentando o panorama plural e equilibrado das correntes jurídicas e doutrinárias vigentes.",
+    },
   ],
   mnemonicos: {
     timeline: [

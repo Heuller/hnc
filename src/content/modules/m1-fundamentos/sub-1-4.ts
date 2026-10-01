@@ -85,6 +85,13 @@ O Código de Ética fixa os padrões de conduta que orientam o relacionamento do
       gabarito: 'E',
       justificativa: 'Errado! A cassação do registro é a penalidade máxima e é de competência EXCLUSIVA do Conselho Federal de Biblioteconomia (CFB), dependendo de processo com contraditório e ampla defesa.',
     },
+      {
+      id: 'cp-1-4-3',
+      pergunta: "Micro-Checkpoint 3: Sigilo Profissional e Código de Ética do CFB",
+      item: "O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018) estabelece como dever ético a guarda de sigilo sobre dados e hábitos de consulta informacional dos usuários, mesmo após o término do vínculo de trabalho.",
+      gabarito: 'C',
+      justificativa: "Certo! O sigilo profissional sobre pesquisas, interesses e histórico de consultas dos usuários é dever expressamente resguardado pelo Código de Ética do Conselho Federal de Biblioteconomia.",
+    },
   ],
   mnemonicos: {
     timeline: [

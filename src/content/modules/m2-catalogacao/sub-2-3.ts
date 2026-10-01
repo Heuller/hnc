@@ -81,6 +81,13 @@ Para superar redundâncias e complexidades entre os três modelos anteriores, a 
       gabarito: 'C',
       justificativa: 'Correto! O IFLA LRM unificou os três modelos anteriores em uma ontologia de alto nível compatível com a Web Semântica.',
     },
+      {
+      id: 'cp-2-3-3',
+      pergunta: "Micro-Checkpoint 3: Elementos Obrigatórios e Repetibilidade no Dublin Core",
+      item: "O padrão Dublin Core em sua especificação original estabelece que todos os seus 15 elementos constitutivos são opcionais e repetíveis.",
+      gabarito: 'C',
+      justificativa: "Certo! No Dublin Core simples (DCMI Metadata Terms), nenhum elemento é mandatório por especificação do padrão e todos podem ser repetidos tantas vezes quantas necessárias.",
+    },
   ],
   mnemonicos: {
     timeline: [

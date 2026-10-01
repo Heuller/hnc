@@ -85,6 +85,13 @@ O fluxo técnico de tratamento em laboratório de restauração de obras raras s
       gabarito: 'E',
       justificativa: 'Errado! Cianoacrilato (superbonder) e celofane são totalmente proibidos e destrutivos. Utilizam-se exclusivamente papéis japoneses de fibras longas (Kozo/Gampi) e colas naturais reversíveis de amido ou metilcelulose.',
     },
+      {
+      id: 'cp-7-4-3',
+      pergunta: "Micro-Checkpoint 3: Congelamento em Sinistros de Alagamento de Acervos",
+      item: "Em situações de emergência causadas por grandes alagamentos de bibliotecas, o congelamento rápido de livros encharcados a temperaturas inferiores a -18°C é técnica válida para paralisar a proliferação biológica de fungos e retardar a degradação física até o processo de secagem controlada.",
+      gabarito: 'C',
+      justificativa: "Certo! O congelamento estabiliza o papel molhado e impede a germinação de esporos fúngicos (que se desenvolvem em 48 a 72 horas em ambiente úmido), concedendo tempo para a liofilização ou secagem técnica planejada.",
+    },
   ],
   mnemonicos: {
     timeline: [

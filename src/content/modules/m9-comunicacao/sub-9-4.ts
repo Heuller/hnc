@@ -87,6 +87,13 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
       gabarito: 'C',
       justificativa: 'Correto! O índice h sintetiza volume de produção com relevância/citação acumulada.',
     },
+      {
+      id: 'cp-9-4-3',
+      pergunta: "Micro-Checkpoint 3: Vias Dourada, Verde e Diamante do Acesso Aberto",
+      item: "Na tipologia do Acesso Aberto, a 'Via Verde' designa a publicação original em periódico que não cobra taxas de processamento de artigos (APC) nem do leitor nem do autor.",
+      gabarito: 'E',
+      justificativa: "Errado! A via que não cobra taxas de ninguém é a 'Via Diamante' (ou Platina). A 'Via Verde' consiste no autoarquivamento de pré-prints ou pós-prints pelo próprio autor em repositórios institucionais abertos.",
+    },
   ],
   mnemonicos: {
     timeline: [
