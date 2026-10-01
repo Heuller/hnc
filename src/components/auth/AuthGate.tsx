@@ -12,7 +12,6 @@ import {
   CheckCircle2,
   ShieldCheck,
 } from 'lucide-react';
-import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { supabase } from '../../lib/supabase';
 import { progressSyncService } from '../../services/progressSyncService';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -117,17 +116,11 @@ export const AuthGate: React.FC = () => {
       <header className="w-full max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs shadow-editorial-sm select-none">
-            {CONCURSO_CONFIG.plataforma.sigla}
+            HNC
           </div>
-          <div>
-            <span className="font-bold text-sm tracking-tight text-ink">
-              {CONCURSO_CONFIG.plataforma.nome}
-            </span>
-            <span className="text-ink-2/60 text-xs mx-1.5">•</span>
-            <span className="text-xs text-ink-2 font-mono">
-              {CONCURSO_CONFIG.banca.nome}
-            </span>
-          </div>
+          <span className="font-bold text-sm tracking-tight text-ink">
+            HNC
+          </span>
         </div>
 
         <ThemeToggle />
@@ -149,14 +142,10 @@ export const AuthGate: React.FC = () => {
                 <Lock className="w-5 h-5" />
               </div>
               <h1 className="text-xl sm:text-2xl font-bold font-serif text-ink tracking-tight">
-                {CONCURSO_CONFIG.plataforma.nome}
+                HNC
               </h1>
               <p className="text-xs text-ink-2 leading-relaxed max-w-xs mx-auto">
-                {CONCURSO_CONFIG.cargo.titulo} — {CONCURSO_CONFIG.cargo.atribuicao}
-                <br />
-                <span className="font-semibold text-accent">
-                  {CONCURSO_CONFIG.instituicao.nome}
-                </span>
+                Acesse sua conta para continuar
               </p>
             </div>
 
@@ -303,12 +292,12 @@ export const AuthGate: React.FC = () => {
                   ) : tab === 'login' ? (
                     <>
                       <LogIn className="w-4 h-4" />
-                      <span>Acessar Plataforma</span>
+                      <span>Entrar</span>
                     </>
                   ) : tab === 'signup' ? (
                     <>
                       <UserPlus className="w-4 h-4" />
-                      <span>Cadastrar e Iniciar Estudos</span>
+                      <span>Criar Conta</span>
                     </>
                   ) : (
                     <>
@@ -332,12 +321,12 @@ export const AuthGate: React.FC = () => {
               )}
             </form>
 
-            {/* Destaque Institucional Cebraspe */}
+            {/* Destaque de Segurança */}
             <div className="pt-4 border-t border-border/60">
               <div className="flex items-center gap-2.5 text-[11px] text-ink-2 bg-surface-2 p-3 rounded-xl border border-border">
                 <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
                 <span>
-                  Ambiente restrito de alta performance • Metodologia Cebraspe (1 Erro Anula 1 Certo).
+                  Ambiente de acesso restrito e seguro.
                 </span>
               </div>
             </div>
@@ -348,7 +337,7 @@ export const AuthGate: React.FC = () => {
       {/* Rodapé */}
       <footer className="w-full max-w-6xl mx-auto px-4 py-4 text-center text-[11px] text-ink-2/70">
         <p>
-          {CONCURSO_CONFIG.plataforma.nome} · {CONCURSO_CONFIG.instituicao.nome} ({CONCURSO_CONFIG.instituicao.esfera})
+          HNC · Todos os direitos reservados.
         </p>
       </footer>
     </div>

@@ -128,10 +128,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               </div>
               <div>
                 <h3 className="text-base font-bold font-serif leading-tight">
-                  {user ? 'Minha Conta · HNC' : 'Acesso à Plataforma'}
+                  {user ? 'Minha Conta · HNC' : 'Acesso'}
                 </h3>
                 <p className="text-[11px] text-ink-2">
-                  {user ? 'Sincronização em nuvem ativa' : 'Sincronize seu estudo entre computador e celular'}
+                  {user ? 'Sincronização em nuvem ativa' : 'Acesse sua conta para continuar'}
                 </p>
               </div>
             </div>
@@ -151,12 +151,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               <div className="p-4 rounded-xl bg-surface-2 border border-border space-y-2">
                 <div className="flex items-center gap-2 text-xs font-semibold text-accent">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                  <span>Conectado ao Supabase</span>
+                  <span>Conectado à nuvem</span>
                 </div>
                 <div className="text-sm font-bold truncate text-ink">{user.email}</div>
-                <div className="text-xs text-ink-2">
-                  Cargo-alvo: <span className="font-semibold text-ink">Analista Legislativo (Câmara dos Deputados)</span>
-                </div>
               </div>
 
               <div className="pt-2 flex justify-end gap-2">
@@ -302,12 +299,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                     ) : tab === 'login' ? (
                       <>
                         <LogIn className="w-4 h-4" />
-                        <span>Entrar na Plataforma</span>
+                        <span>Entrar</span>
                       </>
                     ) : (
                       <>
                         <UserPlus className="w-4 h-4" />
-                        <span>Criar Minha Conta</span>
+                        <span>Criar Conta</span>
                       </>
                     )}
                   </button>
