@@ -14,6 +14,7 @@ describe('OKLCH Module Themes & Normalization (Parte C)', () => {
     expect(MODULE_THEMES.m9.hue).toBe(280);
     expect(MODULE_THEMES.m10.hue).toBe(230);
     expect(MODULE_THEMES.m11.hue).toBe(160);
+    expect(MODULE_THEMES.m12.hue).toBe(215);
   });
 
   it('normaliza corretamente chaves em diferentes formatos (m1, M1, 1, 1.1)', () => {
@@ -33,10 +34,14 @@ describe('OKLCH Module Themes & Normalization (Parte C)', () => {
     expect(getModuleTheme('m11').codigo).toBe('M11');
     expect(getModuleTheme('11.1').codigo).toBe('M11');
     expect(getModuleTheme(11).codigo).toBe('M11');
+
+    expect(getModuleTheme('m12').codigo).toBe('M12');
+    expect(getModuleTheme('12.1').codigo).toBe('M12');
+    expect(getModuleTheme(12).codigo).toBe('M12');
   });
 
   it('possui variáveis CSS sólidas e suaves devidamente formatadas', () => {
-    for (let i = 1; i <= 11; i++) {
+    for (let i = 1; i <= 12; i++) {
       const theme = getModuleTheme(`m${i}`);
       expect(theme.solidVar).toBe(`var(--m${i}-solid)`);
       expect(theme.softVar).toBe(`var(--m${i}-soft)`);

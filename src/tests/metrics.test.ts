@@ -67,7 +67,9 @@ describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
     expect(getSubmodulosLidosCount(m1, lidosMock)).toBe(2);
     expect(getMacroModuloProgressoPercent(m1, lidosMock)).toBe(50);
 
-    // 2 de 40 no curso = 5%
-    expect(getCursoProgressoPercent(COURSE_REGISTRY, lidosMock)).toBe(5);
+    // Progresso global dinâmico baseado no total real de submódulos
+    const totalSubmodulos = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).length;
+    const esperadoPercent = Math.round((lidosMock.length / totalSubmodulos) * 100);
+    expect(getCursoProgressoPercent(COURSE_REGISTRY, lidosMock)).toBe(esperadoPercent);
   });
 });

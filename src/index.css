@@ -69,6 +69,10 @@
   --color-m11-soft: var(--m11-soft);
   --color-m11-text: var(--m11-text);
   --color-m11-border: var(--m11-border);
+  --color-m12: var(--m12-solid);
+  --color-m12-soft: var(--m12-soft);
+  --color-m12-text: var(--m12-text);
+  --color-m12-border: var(--m12-border);
 
   --font-serif: var(--font-serif);
   --font-sans: var(--font-sans);
@@ -159,6 +163,11 @@
   --m11-soft: oklch(0.96 0.03 160);
   --m11-text: #FFFFFF;
   --m11-border: oklch(0.85 0.05 160);
+
+  --m12-solid: oklch(0.50 0.13 215);
+  --m12-soft: oklch(0.96 0.03 215);
+  --m12-text: #FFFFFF;
+  --m12-border: oklch(0.85 0.05 215);
 
   /* Formas e espaçamentos */
   --radius-sm: 8px;
@@ -258,6 +267,11 @@ html.dark {
   --m11-text: #0D1220;
   --m11-border: oklch(0.35 0.06 160);
 
+  --m12-solid: oklch(0.78 0.12 215);
+  --m12-soft: oklch(0.26 0.05 215);
+  --m12-text: #0D1220;
+  --m12-border: oklch(0.35 0.06 215);
+
   --shadow-editorial-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-editorial: 0 4px 14px rgba(0, 0, 0, 0.4);
   --shadow-editorial-lg: 0 8px 28px rgba(0, 0, 0, 0.5);
@@ -342,6 +356,11 @@ html.dark {
     --m11-soft: oklch(0.26 0.05 160);
     --m11-text: #0D1220;
     --m11-border: oklch(0.35 0.06 160);
+
+    --m12-solid: oklch(0.78 0.12 215);
+    --m12-soft: oklch(0.26 0.05 215);
+    --m12-text: #0D1220;
+    --m12-border: oklch(0.35 0.06 215);
 
     --shadow-editorial-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
     --shadow-editorial: 0 4px 14px rgba(0, 0, 0, 0.4);
