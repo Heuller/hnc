@@ -19,6 +19,9 @@ import {
   Sparkles,
   BookOpen,
 } from 'lucide-react';
+import { getModuleTheme } from '../domain/moduleThemes';
+import { ModuleBadge } from '../components/common/ModuleBadge';
+import { TeoriaStickyBar } from '../components/layout/TeoriaStickyBar';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute } =
@@ -72,6 +75,7 @@ export const TeoriaPage: React.FC = () => {
   }, []);
 
   const isConcluido = modulosLidosIds.includes(currentSub.id);
+  const moduleTheme = getModuleTheme(currentMacro.id);
 
   // Índices para navegação sequencial contínua (atravessa submódulos e blocos)
   const currentIndex = allSubmodules.findIndex((s) => s.id === currentSub.id);
@@ -88,16 +92,26 @@ export const TeoriaPage: React.FC = () => {
 
   return (
     <div className="relative animate-fadeIn">
-      {/* Barra de Progresso de Leitura no topo */}
+      {/* Barra de Progresso de Leitura no topo (na cor do módulo - Parte C) */}
       <div
         className="fixed top-0 left-0 right-0 h-1 bg-transparent z-50 pointer-events-none"
         aria-hidden="true"
       >
         <div
-          className="h-full bg-accent transition-all duration-150"
-          style={{ width: `${scrollProgress}%` }}
+          className="h-full transition-all duration-150"
+          style={{
+            width: `${scrollProgress}%`,
+            backgroundColor: moduleTheme.solidVar,
+          }}
         />
       </div>
+
+      {/* Sticky Context Bar Mobile (Abaixo do Header no Mobile - Parte F) */}
+      <TeoriaStickyBar
+        macroId={currentMacro.id}
+        submodulo={currentSub}
+        scrollProgress={scrollProgress}
+      />
 
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura (62-72ch) */}
@@ -150,10 +164,10 @@ export const TeoriaPage: React.FC = () => {
               })}
             </div>
 
-            {/* Seletor Segmentado de Submódulos do Macro-Módulo Ativo */}
+            {/* Seletor Segmentado de Submódulos do Macro-Módulo Ativo (Grid 2x2 no mobile, 4 colunas em sm+ - Parte F) */}
             <nav
               aria-label={`Submódulos de ${currentMacro.titulo}`}
-              className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border overflow-x-auto"
+              className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 p-1.5 bg-surface-2 rounded-xl border border-border"
             >
               {currentMacro.modulosFilhos.map((sub) => {
                 const active = sub.id === currentSub.id;
@@ -167,18 +181,20 @@ export const TeoriaPage: React.FC = () => {
                       setSelectedSubmodule(sub.numero);
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
-                    className={`flex-1 min-w-[70px] py-2 px-3 rounded-lg text-xs font-sans font-semibold flex items-center justify-center gap-1.5 transition-colors whitespace-nowrap ${
+                    className={`min-h-[44px] py-2 px-2.5 rounded-lg text-xs font-sans font-semibold flex items-center justify-between gap-1.5 transition-colors cursor-pointer ${
                       active
                         ? 'bg-surface text-ink shadow-xs border border-border/80'
-                        : 'text-ink-2 hover:text-ink'
+                        : 'text-ink-2 hover:text-ink hover:bg-surface/50'
                     }`}
                   >
-                    <span>{sub.numero}</span>
-                    <span className="hidden md:inline truncate max-w-[130px] font-normal">
-                      {sub.titulo}
-                    </span>
+                    <div className="flex items-center gap-1.5 min-w-0">
+                      <span className="font-mono text-xs shrink-0 font-bold">{sub.numero}</span>
+                      <span className="truncate text-[11px] font-normal text-left">
+                        {sub.titulo}
+                      </span>
+                    </div>
                     {completed && (
-                      <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0 ml-1" />
                     )}
                   </button>
                 );
@@ -189,14 +205,23 @@ export const TeoriaPage: React.FC = () => {
           {/* Cabeçalho do Submódulo */}
           <header className="border-b border-border pb-6">
             <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-              <span className="font-mono text-xs text-accent font-semibold uppercase tracking-wider">
-                {currentMacro.codigo} • {currentMacro.titulo} • Submódulo {currentSub.numero}
-              </span>
+              <div className="flex items-center gap-2">
+                <ModuleBadge moduleId={currentMacro.id} size="sm" />
+                <span className="font-mono text-xs text-ink font-semibold uppercase tracking-wider">
+                  {currentMacro.titulo} • Submódulo {currentSub.numero}
+                </span>
+              </div>
               <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
                 <Clock className="w-3.5 h-3.5" />
                 ~{currentSub.tempoEstimadoMinutos} min de leitura profunda
               </span>
             </div>
+
+            {/* Faixa fina plana (4px, sem gradiente) do cabeçalho da Teoria (Parte C) */}
+            <div
+              className="h-1 w-20 rounded-full mb-3"
+              style={{ backgroundColor: moduleTheme.solidVar }}
+            />
 
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-sans font-bold text-ink tracking-tight mb-3">
               {currentSub.titulo}
@@ -222,10 +247,10 @@ export const TeoriaPage: React.FC = () => {
             </div>
           </header>
 
-          {/* Sumário Rápido de Seções (Mobile & Desktop) */}
+          {/* Sumário Rápido de Seções (Desktop apenas - no mobile usa TeoriaStickyBar - A11) */}
           <section
             aria-label="Sumário da Página"
-            className="p-3.5 bg-surface-2/60 border border-border rounded-xl text-xs font-sans"
+            className="hidden md:block p-3.5 bg-surface-2/60 border border-border rounded-xl text-xs font-sans"
           >
             <div className="flex items-center gap-1.5 font-bold text-ink mb-2">
               <List className="w-4 h-4 text-accent" />
@@ -405,10 +430,10 @@ export const TeoriaPage: React.FC = () => {
             <button
               type="button"
               onClick={() => alternarModuloConcluido(currentSub.id)}
-              className={`w-full sm:w-auto py-2.5 px-5 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all ${
+              className={`w-full sm:w-auto py-2.5 px-5 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs ${
                 isConcluido
                   ? 'bg-ok-soft border border-ok text-ok'
-                  : 'bg-primary text-white hover:opacity-95'
+                  : 'bg-primary text-primary-text hover:opacity-95'
               }`}
             >
               <CheckCircle2 className="w-4 h-4" />
@@ -431,7 +456,7 @@ export const TeoriaPage: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setCurrentRoute('simulado')}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-white font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs"
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-text font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs"
               >
                 <span>Ir para o Simulado 100Q</span>
                 <ArrowRight className="w-4 h-4" />
@@ -440,10 +465,10 @@ export const TeoriaPage: React.FC = () => {
           </footer>
         </main>
 
-        {/* Coluna Lateral Direita Fixa no Desktop (Resumo Rápido) */}
+        {/* Coluna Lateral Direita Fixa no Desktop Largo (>= 1440px / 3 colunas fluídas) */}
         <aside
           aria-label="Resumo rápido lateral"
-          className="hidden xl:block w-80 sticky top-20 bg-surface rounded-xl border border-border p-4.5 shadow-xs max-h-[calc(100vh-6rem)] overflow-y-auto"
+          className="hidden 2xl:block w-80 sticky top-20 bg-surface rounded-xl border border-border p-4.5 shadow-xs max-h-[calc(100vh-6rem)] overflow-y-auto scrollbar-thin"
         >
           <div className="flex items-center gap-2 pb-3 mb-3 border-b border-border">
             <Sparkles className="w-4 h-4 text-accent" />

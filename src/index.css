@@ -1,5 +1,76 @@
 @import "tailwindcss";
 
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-primary: var(--primary);
+  --color-primary-text: var(--primary-text);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-accent-fill: var(--accent-fill);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-err: var(--err);
+  --color-err-soft: var(--err-soft);
+  --color-alerta: var(--alerta);
+  --color-alerta-soft: var(--alerta-soft);
+  --color-alerta-cebraspe: var(--alerta);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+
+  /* Módulos M1–M10 Tokens OKLCH */
+  --color-m1: var(--m1-solid);
+  --color-m1-soft: var(--m1-soft);
+  --color-m1-text: var(--m1-text);
+  --color-m1-border: var(--m1-border);
+  --color-m2: var(--m2-solid);
+  --color-m2-soft: var(--m2-soft);
+  --color-m2-text: var(--m2-text);
+  --color-m2-border: var(--m2-border);
+  --color-m3: var(--m3-solid);
+  --color-m3-soft: var(--m3-soft);
+  --color-m3-text: var(--m3-text);
+  --color-m3-border: var(--m3-border);
+  --color-m4: var(--m4-solid);
+  --color-m4-soft: var(--m4-soft);
+  --color-m4-text: var(--m4-text);
+  --color-m4-border: var(--m4-border);
+  --color-m5: var(--m5-solid);
+  --color-m5-soft: var(--m5-soft);
+  --color-m5-text: var(--m5-text);
+  --color-m5-border: var(--m5-border);
+  --color-m6: var(--m6-solid);
+  --color-m6-soft: var(--m6-soft);
+  --color-m6-text: var(--m6-text);
+  --color-m6-border: var(--m6-border);
+  --color-m7: var(--m7-solid);
+  --color-m7-soft: var(--m7-soft);
+  --color-m7-text: var(--m7-text);
+  --color-m7-border: var(--m7-border);
+  --color-m8: var(--m8-solid);
+  --color-m8-soft: var(--m8-soft);
+  --color-m8-text: var(--m8-text);
+  --color-m8-border: var(--m8-border);
+  --color-m9: var(--m9-solid);
+  --color-m9-soft: var(--m9-soft);
+  --color-m9-text: var(--m9-text);
+  --color-m9-border: var(--m9-border);
+  --color-m10: var(--m10-solid);
+  --color-m10-soft: var(--m10-soft);
+  --color-m10-text: var(--m10-text);
+  --color-m10-border: var(--m10-border);
+
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
 /* -------------------------------------------------------------
  * DESIGN SYSTEM "PAPEL E TINTA" — HEULLER NA CÂMARA
  * Analista Legislativo - Bibliotecário (Banca Cebraspe)
@@ -17,6 +88,7 @@
   --primary: #16244A;
   --primary-text: #FFFFFF;
   --accent: #B45309;
+  --accent-text: #FFFFFF;
   --accent-fill: #FBBF24;
   --accent-soft: #FEF3C7;
   --ok: #166534;
@@ -27,6 +99,57 @@
   --alerta-soft: #FFF1F2;
   --info: #1D4ED8;
   --info-soft: #DBEAFE;
+
+  /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Claro) */
+  --m1-solid: oklch(0.50 0.13 70);
+  --m1-soft: oklch(0.96 0.03 70);
+  --m1-text: #FFFFFF;
+  --m1-border: oklch(0.85 0.05 70);
+
+  --m2-solid: oklch(0.50 0.13 205);
+  --m2-soft: oklch(0.96 0.03 205);
+  --m2-text: #FFFFFF;
+  --m2-border: oklch(0.85 0.05 205);
+
+  --m3-solid: oklch(0.50 0.13 300);
+  --m3-soft: oklch(0.96 0.03 300);
+  --m3-text: #FFFFFF;
+  --m3-border: oklch(0.85 0.05 300);
+
+  --m4-solid: oklch(0.50 0.13 105);
+  --m4-soft: oklch(0.96 0.03 105);
+  --m4-text: #FFFFFF;
+  --m4-border: oklch(0.85 0.05 105);
+
+  --m5-solid: oklch(0.50 0.13 255);
+  --m5-soft: oklch(0.96 0.03 255);
+  --m5-text: #FFFFFF;
+  --m5-border: oklch(0.85 0.05 255);
+
+  --m6-solid: oklch(0.50 0.13 340);
+  --m6-soft: oklch(0.96 0.03 340);
+  --m6-text: #FFFFFF;
+  --m6-border: oklch(0.85 0.05 340);
+
+  --m7-solid: oklch(0.50 0.13 180);
+  --m7-soft: oklch(0.96 0.03 180);
+  --m7-text: #FFFFFF;
+  --m7-border: oklch(0.85 0.05 180);
+
+  --m8-solid: oklch(0.50 0.13 45);
+  --m8-soft: oklch(0.96 0.03 45);
+  --m8-text: #FFFFFF;
+  --m8-border: oklch(0.85 0.05 45);
+
+  --m9-solid: oklch(0.50 0.13 280);
+  --m9-soft: oklch(0.96 0.03 280);
+  --m9-text: #FFFFFF;
+  --m9-border: oklch(0.85 0.05 280);
+
+  --m10-solid: oklch(0.50 0.13 230);
+  --m10-soft: oklch(0.96 0.03 230);
+  --m10-text: #FFFFFF;
+  --m10-border: oklch(0.85 0.05 230);
 
   /* Formas e espaçamentos */
   --radius-sm: 8px;
@@ -58,6 +181,7 @@ html.dark {
   --primary: #FBBF24;
   --primary-text: #0D1220;
   --accent: #FBBF24;
+  --accent-text: #0D1220;
   --accent-fill: #FBBF24;
   --accent-soft: #2E2305;
   --ok: #4ADE80;
@@ -68,6 +192,57 @@ html.dark {
   --alerta-soft: #380815;
   --info: #60A5FA;
   --info-soft: #1E3A5F;
+
+  /* Cores de Identidade dos Módulos M1-M10 (OKLCH - Tema Escuro) */
+  --m1-solid: oklch(0.78 0.12 70);
+  --m1-soft: oklch(0.26 0.05 70);
+  --m1-text: #0D1220;
+  --m1-border: oklch(0.35 0.06 70);
+
+  --m2-solid: oklch(0.78 0.12 205);
+  --m2-soft: oklch(0.26 0.05 205);
+  --m2-text: #0D1220;
+  --m2-border: oklch(0.35 0.06 205);
+
+  --m3-solid: oklch(0.78 0.12 300);
+  --m3-soft: oklch(0.26 0.05 300);
+  --m3-text: #0D1220;
+  --m3-border: oklch(0.35 0.06 300);
+
+  --m4-solid: oklch(0.78 0.12 105);
+  --m4-soft: oklch(0.26 0.05 105);
+  --m4-text: #0D1220;
+  --m4-border: oklch(0.35 0.06 105);
+
+  --m5-solid: oklch(0.78 0.12 255);
+  --m5-soft: oklch(0.26 0.05 255);
+  --m5-text: #0D1220;
+  --m5-border: oklch(0.35 0.06 255);
+
+  --m6-solid: oklch(0.78 0.12 340);
+  --m6-soft: oklch(0.26 0.05 340);
+  --m6-text: #0D1220;
+  --m6-border: oklch(0.35 0.06 340);
+
+  --m7-solid: oklch(0.78 0.12 180);
+  --m7-soft: oklch(0.26 0.05 180);
+  --m7-text: #0D1220;
+  --m7-border: oklch(0.35 0.06 180);
+
+  --m8-solid: oklch(0.78 0.12 45);
+  --m8-soft: oklch(0.26 0.05 45);
+  --m8-text: #0D1220;
+  --m8-border: oklch(0.35 0.06 45);
+
+  --m9-solid: oklch(0.78 0.12 280);
+  --m9-soft: oklch(0.26 0.05 280);
+  --m9-text: #0D1220;
+  --m9-border: oklch(0.35 0.06 280);
+
+  --m10-solid: oklch(0.78 0.12 230);
+  --m10-soft: oklch(0.26 0.05 230);
+  --m10-text: #0D1220;
+  --m10-border: oklch(0.35 0.06 230);
 
   --shadow-editorial-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow-editorial: 0 4px 14px rgba(0, 0, 0, 0.4);
@@ -87,6 +262,7 @@ html.dark {
     --primary: #FBBF24;
     --primary-text: #0D1220;
     --accent: #FBBF24;
+    --accent-text: #0D1220;
     --accent-fill: #FBBF24;
     --accent-soft: #2E2305;
     --ok: #4ADE80;
@@ -97,6 +273,56 @@ html.dark {
     --alerta-soft: #380815;
     --info: #60A5FA;
     --info-soft: #1E3A5F;
+
+    --m1-solid: oklch(0.78 0.12 70);
+    --m1-soft: oklch(0.26 0.05 70);
+    --m1-text: #0D1220;
+    --m1-border: oklch(0.35 0.06 70);
+
+    --m2-solid: oklch(0.78 0.12 205);
+    --m2-soft: oklch(0.26 0.05 205);
+    --m2-text: #0D1220;
+    --m2-border: oklch(0.35 0.06 205);
+
+    --m3-solid: oklch(0.78 0.12 300);
+    --m3-soft: oklch(0.26 0.05 300);
+    --m3-text: #0D1220;
+    --m3-border: oklch(0.35 0.06 300);
+
+    --m4-solid: oklch(0.78 0.12 105);
+    --m4-soft: oklch(0.26 0.05 105);
+    --m4-text: #0D1220;
+    --m4-border: oklch(0.35 0.06 105);
+
+    --m5-solid: oklch(0.78 0.12 255);
+    --m5-soft: oklch(0.26 0.05 255);
+    --m5-text: #0D1220;
+    --m5-border: oklch(0.35 0.06 255);
+
+    --m6-solid: oklch(0.78 0.12 340);
+    --m6-soft: oklch(0.26 0.05 340);
+    --m6-text: #0D1220;
+    --m6-border: oklch(0.35 0.06 340);
+
+    --m7-solid: oklch(0.78 0.12 180);
+    --m7-soft: oklch(0.26 0.05 180);
+    --m7-text: #0D1220;
+    --m7-border: oklch(0.35 0.06 180);
+
+    --m8-solid: oklch(0.78 0.12 45);
+    --m8-soft: oklch(0.26 0.05 45);
+    --m8-text: #0D1220;
+    --m8-border: oklch(0.35 0.06 45);
+
+    --m9-solid: oklch(0.78 0.12 280);
+    --m9-soft: oklch(0.26 0.05 280);
+    --m9-text: #0D1220;
+    --m9-border: oklch(0.35 0.06 280);
+
+    --m10-solid: oklch(0.78 0.12 230);
+    --m10-soft: oklch(0.26 0.05 230);
+    --m10-text: #0D1220;
+    --m10-border: oklch(0.35 0.06 230);
 
     --shadow-editorial-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
     --shadow-editorial: 0 4px 14px rgba(0, 0, 0, 0.4);

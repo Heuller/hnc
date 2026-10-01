@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import type { MnemonicosModulo } from '../../domain/schemas/mnemonico.schema';
 import { LinhaDoTempo } from './LinhaDoTempo';
 import { CartaoAutorGrid } from './CartaoAutor';
@@ -19,80 +20,130 @@ export const MnemonicosTabs: React.FC<MnemonicosTabsProps> = ({
   const [abaAtiva, setAbaAtiva] = useState<'timeline' | 'autores' | 'pegadinhas'>('timeline');
 
   return (
-    <div className={`space-y-4 ${className}`}>
-      {/* Seletor de Abas */}
-      <div className="flex border-b border-border bg-surface-2 p-1 rounded-xl">
+    <div className={`space-y-4 pt-1 ${className}`}>
+      {/* Seletor de Abas com indicador deslizante (layoutId) */}
+      <div className="grid grid-cols-3 gap-1 border border-border bg-surface-2 p-1 rounded-xl relative">
         <button
           type="button"
           onClick={() => setAbaAtiva('timeline')}
-          className={`flex-1 py-2 px-3 text-xs sm:text-sm font-sans font-medium rounded-lg flex items-center justify-center gap-1.5 transition-colors ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
             abaAtiva === 'timeline'
-              ? 'bg-surface text-ink shadow-xs font-semibold'
-              : 'text-ink-2 hover:text-ink'
+              ? 'text-ink font-bold'
+              : 'text-ink-2 hover:text-ink font-medium'
           }`}
+          title="Linha do Tempo Histórica"
         >
-          <Clock className="w-3.5 h-3.5 text-accent" />
-          <span>Linha do Tempo</span>
+          {abaAtiva === 'timeline' && (
+            <motion.span
+              layoutId="activeMnemonicTab"
+              className="absolute inset-0 rounded-lg bg-surface shadow-xs border border-border/80 -z-10"
+              transition={{ type: 'spring', stiffness: 450, damping: 32 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-1.5 truncate">
+            <Clock className="w-3.5 h-3.5 text-accent shrink-0" />
+            <span className="truncate">Cronologia</span>
+          </span>
         </button>
 
         <button
           type="button"
           onClick={() => setAbaAtiva('autores')}
-          className={`flex-1 py-2 px-3 text-xs sm:text-sm font-sans font-medium rounded-lg flex items-center justify-center gap-1.5 transition-colors ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
             abaAtiva === 'autores'
-              ? 'bg-surface text-ink shadow-xs font-semibold'
-              : 'text-ink-2 hover:text-ink'
+              ? 'text-ink font-bold'
+              : 'text-ink-2 hover:text-ink font-medium'
           }`}
+          title="Autores Canônicos e Quem é Quem"
         >
-          <Users className="w-3.5 h-3.5 text-accent" />
-          <span>Quem é Quem</span>
+          {abaAtiva === 'autores' && (
+            <motion.span
+              layoutId="activeMnemonicTab"
+              className="absolute inset-0 rounded-lg bg-surface shadow-xs border border-border/80 -z-10"
+              transition={{ type: 'spring', stiffness: 450, damping: 32 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-1.5 truncate">
+            <Users className="w-3.5 h-3.5 text-accent shrink-0" />
+            <span className="truncate">Autores</span>
+          </span>
         </button>
 
         <button
           type="button"
           onClick={() => setAbaAtiva('pegadinhas')}
-          className={`flex-1 py-2 px-3 text-xs sm:text-sm font-sans font-medium rounded-lg flex items-center justify-center gap-1.5 transition-colors ${
+          className={`relative py-2 px-1 text-xs font-sans rounded-lg flex items-center justify-center gap-1.5 transition-all whitespace-nowrap cursor-pointer ${
             abaAtiva === 'pegadinhas'
-              ? 'bg-surface text-ink shadow-xs font-semibold'
-              : 'text-ink-2 hover:text-ink'
+              ? 'text-ink font-bold'
+              : 'text-ink-2 hover:text-ink font-medium'
           }`}
+          title="Pegadinhas e Cascas de Banana da Banca"
         >
-          <AlertTriangle className="w-3.5 h-3.5 text-alerta-cebraspe" />
-          <span>Pegadinhas</span>
+          {abaAtiva === 'pegadinhas' && (
+            <motion.span
+              layoutId="activeMnemonicTab"
+              className="absolute inset-0 rounded-lg bg-surface shadow-xs border border-border/80 -z-10"
+              transition={{ type: 'spring', stiffness: 450, damping: 32 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-1.5 truncate">
+            <AlertTriangle className="w-3.5 h-3.5 text-alerta-cebraspe shrink-0" />
+            <span className="truncate">Pegadinhas</span>
+          </span>
         </button>
       </div>
 
-      {/* Conteúdo da Aba */}
+      {/* Conteúdo da Aba com transição suave */}
       <div className="pt-2">
-        {abaAtiva === 'timeline' && (
-          <div>
-            <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
-              Marcos Históricos da Disciplina
-            </h4>
-            <LinhaDoTempo items={mnemonicos.timeline} />
-          </div>
-        )}
+        <AnimatePresence mode="wait">
+          {abaAtiva === 'timeline' && (
+            <motion.div
+              key="timeline"
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.18, ease: 'easeOut' }}
+            >
+              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+                Marcos Históricos da Disciplina
+              </h4>
+              <LinhaDoTempo items={mnemonicos.timeline} />
+            </motion.div>
+          )}
 
-        {abaAtiva === 'autores' && (
-          <div>
-            <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
-              Autores Canônicos e Ideias-Chave
-            </h4>
-            <CartaoAutorGrid
-              autores={mnemonicos.autores}
-              className={isCompact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'}
-            />
-          </div>
-        )}
+          {abaAtiva === 'autores' && (
+            <motion.div
+              key="autores"
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.18, ease: 'easeOut' }}
+            >
+              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+                Autores Canônicos e Ideias-Chave
+              </h4>
+              <CartaoAutorGrid
+                autores={mnemonicos.autores}
+                className={isCompact ? 'grid-cols-1' : 'grid-cols-1 md:grid-cols-2'}
+              />
+            </motion.div>
+          )}
 
-        {abaAtiva === 'pegadinhas' && (
-          <div>
-            <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
-              Padrões de Armadilhas do Cebraspe
-            </h4>
-            <PegadinhaCardList pegadinhas={mnemonicos.pegadinhas} />
-          </div>
-        )}
+          {abaAtiva === 'pegadinhas' && (
+            <motion.div
+              key="pegadinhas"
+              initial={{ opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.18, ease: 'easeOut' }}
+            >
+              <h4 className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 mb-3">
+                Padrões de Armadilhas do Cebraspe
+              </h4>
+              <PegadinhaCardList pegadinhas={mnemonicos.pegadinhas} />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );

@@ -129,7 +129,7 @@ export const RadarPage: React.FC = () => {
               }}
               className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
                 selectedMacro === 'todos'
-                  ? 'bg-primary text-white border-primary font-semibold'
+                  ? 'bg-primary text-primary-text border-primary font-semibold shadow-2xs'
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
@@ -145,7 +145,7 @@ export const RadarPage: React.FC = () => {
                 }}
                 className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
                   selectedMacro === macro.codigo
-                    ? 'bg-primary text-white border-primary font-semibold'
+                    ? 'bg-primary text-primary-text border-primary font-semibold shadow-2xs'
                     : 'bg-surface-2 border-border text-ink hover:text-ink'
                 }`}
               >
@@ -164,7 +164,7 @@ export const RadarPage: React.FC = () => {
               onClick={() => setSelectedSub('todos')}
               className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
                 selectedSub === 'todos'
-                  ? 'bg-accent text-white border-accent font-semibold'
+                  ? 'bg-accent text-accent-text border-accent font-semibold'
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
@@ -180,7 +180,7 @@ export const RadarPage: React.FC = () => {
                 onClick={() => setSelectedSub(sub.numero)}
                 className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
                   selectedSub === sub.numero
-                    ? 'bg-accent text-white border-accent font-semibold'
+                    ? 'bg-accent text-accent-text border-accent font-semibold'
                     : 'bg-surface-2 border-border text-ink hover:text-ink'
                 }`}
               >

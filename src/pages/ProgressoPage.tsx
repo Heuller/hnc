@@ -309,7 +309,7 @@ export const ProgressoPage: React.FC = () => {
           <button
             type="button"
             onClick={handleExportar}
-            className="py-2.5 px-4 rounded-lg bg-primary text-white font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 hover:opacity-95 shadow-xs"
+            className="py-2.5 px-4 rounded-lg bg-primary text-primary-text font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 hover:opacity-95 shadow-xs"
           >
             <Download className="w-4 h-4" />
             <span>Exportar Progresso (JSON)</span>

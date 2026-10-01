@@ -1,10 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
+import { motion } from 'motion/react';
 import { simuladoFundamentos100Q } from '../data/simuladoFundamentos100Q';
 import type { CebraspeQuestion, JulgamentoCebraspe, RespostaSimulado } from '../data/types';
 import { 
   CheckCircle2, XCircle, HelpCircle, ChevronLeft, ChevronRight, 
   AlertTriangle, ShieldCheck, BookOpen, Target
 } from 'lucide-react';
+import { getModuleTheme } from '../domain/moduleThemes';
+import { ModuleBadge } from './common/ModuleBadge';
 
 interface SimuladoGuiadoProps {
   onUpdateStats: (certos: number, errados: number, emBranco: number, notaLiquida: number) => void;
@@ -191,9 +194,10 @@ export const SimuladoGuiado100Q: React.FC<SimuladoGuiadoProps> = ({ onUpdateStat
                 <span className="text-xs font-black px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30">
                   ITEM {currentQ.numero} DE 100
                 </span>
-                <span className="text-xs px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 border border-slate-700 font-medium">
-                  Submódulo {currentQ.submoduloId}
-                </span>
+                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-800 text-slate-200 border border-slate-700">
+                  <ModuleBadge moduleId={getModuleTheme(currentQ.submoduloId).id} size="sm" />
+                  <span className="text-xs font-medium">Submódulo {currentQ.submoduloId}</span>
+                </div>
                 {currentQ.fonteOriginal && (
                   <span className="text-[11px] text-slate-400 hidden sm:inline-block">
                     • {currentQ.fonteOriginal}
@@ -245,7 +249,13 @@ export const SimuladoGuiado100Q: React.FC<SimuladoGuiadoProps> = ({ onUpdateStat
                       : 'bg-slate-800 hover:bg-emerald-950/40 hover:text-emerald-300 hover:border-emerald-600/60 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <CheckCircle2 className="w-4 h-4" />
+                  <motion.span
+                    animate={userResp?.resposta === 'C' ? { scale: [1, 1.3, 1] } : {}}
+                    transition={{ duration: 0.25, ease: 'easeOut' }}
+                    className="inline-flex"
+                  >
+                    <CheckCircle2 className="w-4 h-4" />
+                  </motion.span>
                   <span>CERTO</span>
                 </button>
 
@@ -260,7 +270,13 @@ export const SimuladoGuiado100Q: React.FC<SimuladoGuiadoProps> = ({ onUpdateStat
                       : 'bg-slate-800 hover:bg-rose-950/40 hover:text-rose-300 hover:border-rose-600/60 border border-slate-700 text-slate-200'
                   }`}
                 >
-                  <XCircle className="w-4 h-4" />
+                  <motion.span
+                    animate={userResp?.resposta === 'E' ? { scale: [1, 1.3, 1] } : {}}
+                    transition={{ duration: 0.25, ease: 'easeOut' }}
+                    className="inline-flex"
+                  >
+                    <XCircle className="w-4 h-4" />
+                  </motion.span>
                   <span>ERRADO</span>
                 </button>
 
@@ -273,7 +289,13 @@ export const SimuladoGuiado100Q: React.FC<SimuladoGuiadoProps> = ({ onUpdateStat
                       : 'bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-400'
                   }`}
                 >
-                  <HelpCircle className="w-4 h-4" />
+                  <motion.span
+                    animate={userResp?.resposta === 'BRANCO' ? { scale: [1, 1.3, 1] } : {}}
+                    transition={{ duration: 0.25, ease: 'easeOut' }}
+                    className="inline-flex"
+                  >
+                    <HelpCircle className="w-4 h-4" />
+                  </motion.span>
                   <span>EM BRANCO</span>
                 </button>
               </div>

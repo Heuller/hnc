@@ -12,12 +12,12 @@ export const AlertaCebraspe: React.FC<AlertaCebraspeProps> = ({
 }) => {
   return (
     <aside
-      className="rounded-xl border border-theme-alerta bg-theme-alerta-soft p-4 sm:p-5 space-y-3 shadow-editorial-sm my-6"
+      className="rounded-r-xl rounded-l-xs border-y border-r border-border border-l-4 border-l-alerta bg-alerta-soft/40 p-4 sm:p-5 space-y-3 shadow-editorial-sm my-6"
       aria-label="Alerta de armadilhas Cebraspe"
     >
-      <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-theme-alerta">
-        <AlertOctagon className="w-4 h-4 shrink-0 text-theme-alerta" aria-hidden="true" />
-        <span>⚠️ {titulo}</span>
+      <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-alerta">
+        <AlertOctagon className="w-4 h-4 shrink-0 text-alerta" aria-hidden="true" />
+        <span>{titulo}</span>
       </div>
 
       <ul className="space-y-2 text-xs sm:text-sm text-theme-ink list-none p-0 m-0">

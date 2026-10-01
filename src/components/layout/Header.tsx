@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { motion } from 'motion/react';
 import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
 import { ThemeToggle } from './ThemeToggle';
+import { MobileModulesDrawer } from './MobileModulesDrawer';
+import { MobileMoreMenu } from './MobileMoreMenu';
 
 export const Header: React.FC = () => {
-  const { activeView, setActiveView, sidebarCollapsed, toggleSidebar } = useNavigationStore();
+  const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
+  const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
   const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
     { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4" /> },
@@ -16,51 +20,94 @@ export const Header: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-theme-surface/95 backdrop-blur-md border-b border-theme transition-colors shadow-editorial-sm">
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 h-16 flex items-center justify-between gap-3">
-        {/* Left: Brand & Sidebar Toggle */}
-        <div className="flex items-center gap-3">
-          <button
-            onClick={toggleSidebar}
-            className="hidden lg:flex touch-target p-2 rounded-md hover:bg-theme-surface-2 text-theme-ink transition-colors border border-transparent hover:border-theme"
-            aria-label={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
-            title={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
-          >
-            {sidebarCollapsed ? (
-              <PanelLeftOpen className="w-5 h-5" />
-            ) : (
-              <PanelLeftClose className="w-5 h-5" />
-            )}
-          </button>
+    <>
+      <header className="sticky top-0 z-40 w-full bg-surface/95 backdrop-blur-md border-b border-border transition-colors shadow-editorial-sm">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2 sm:gap-3">
+          {/* MOBILE HEADER (Uma linha compacta: Botão Módulos + Título Curto + Menu Mais) */}
+          <div className="flex md:hidden items-center justify-between w-full">
+            <button
+              type="button"
+              onClick={() => setIsModulesDrawerOpen(true)}
+              className="flex items-center gap-1.5 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink text-xs font-semibold cursor-pointer min-h-[44px] min-w-[44px]"
+              aria-label="Abrir grade de módulos"
+            >
+              <BookOpen className="w-4 h-4 text-accent" />
+              <span>Módulos</span>
+            </button>
 
-          <button
-            onClick={() => setActiveView('painel')}
-            className="flex items-center gap-2.5 text-left group cursor-pointer"
-          >
-            {/* Símbolo editorial sóbrio da plataforma */}
-            <div className="w-9 h-9 rounded-md bg-theme-primary text-theme-primary-contrast flex items-center justify-center font-bold text-sm select-none shadow-editorial-sm">
-              {CONCURSO_CONFIG.plataforma.sigla}
+            <div className="text-center truncate px-2 flex-1">
+              <span className="font-bold text-xs text-ink truncate block">
+                HNC ·{' '}
+                {activeView === 'teoria'
+                  ? `Submódulo ${selectedSubmodule}`
+                  : activeView === 'simulado'
+                  ? 'Simulado'
+                  : activeView === 'radar'
+                  ? 'Radar'
+                  : activeView === 'progresso'
+                  ? 'Progresso'
+                  : 'Painel'}
+              </span>
             </div>
 
-            <div>
-              <div className="flex items-center gap-1.5">
-                <span className="font-bold text-sm sm:text-base text-theme-ink leading-tight">
-                  {CONCURSO_CONFIG.plataforma.nome}
-                </span>
-                <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.2 rounded bg-theme-surface-2 text-theme-ink-2 border border-theme">
-                  {CONCURSO_CONFIG.banca.nome}
-                </span>
+            <MobileMoreMenu />
+          </div>
+
+          {/* DESKTOP HEADER (Brand & Sidebar Toggle) */}
+          <div className="hidden md:flex items-center gap-3">
+            <button
+              onClick={toggleSidebar}
+              className="hidden lg:flex touch-target p-2 rounded-md hover:bg-surface-2 text-ink transition-colors border border-transparent hover:border-border"
+              aria-label={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
+              title={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
+            >
+              {sidebarCollapsed ? (
+                <PanelLeftOpen className="w-5 h-5" />
+              ) : (
+                <PanelLeftClose className="w-5 h-5" />
+              )}
+            </button>
+
+            <button
+              onClick={() => setActiveView('painel')}
+              className="flex items-center gap-2.5 text-left group cursor-pointer"
+            >
+              {/* Símbolo editorial sóbrio da plataforma */}
+              <div className="w-9 h-9 rounded-md bg-primary text-primary-text flex items-center justify-center font-bold text-sm select-none shadow-editorial-sm">
+                {CONCURSO_CONFIG.plataforma.sigla}
               </div>
-              <p className="text-[11px] text-theme-ink-2 hidden sm:block leading-tight">
-                {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
-              </p>
-            </div>
-          </button>
-        </div>
+
+              <div>
+                <div className="flex items-center gap-1.5">
+                  <span className="font-bold text-sm sm:text-base text-ink leading-tight">
+                    {CONCURSO_CONFIG.plataforma.sigla}
+                  </span>
+                  <span className="text-ink-2/60 text-xs">/</span>
+                  <span className="text-xs font-semibold text-accent capitalize">
+                    {activeView === 'teoria'
+                      ? `Teoria (${selectedSubmodule})`
+                      : activeView === 'simulado'
+                      ? 'Simulado 100Q'
+                      : activeView === 'radar'
+                      ? 'Radar Cebraspe'
+                      : activeView === 'progresso'
+                      ? 'Progresso'
+                      : 'Painel'}
+                  </span>
+                  <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden sm:inline-block ml-1">
+                    {CONCURSO_CONFIG.banca.nome}
+                  </span>
+                </div>
+                <p className="text-[11px] text-ink-2 hidden sm:block leading-tight">
+                  {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
+                </p>
+              </div>
+            </button>
+          </div>
 
         {/* Center: Desktop Navigation Tabs */}
         <nav
-          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-theme-surface-2 border border-theme"
+          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-theme-surface-2 border border-theme relative"
           aria-label="Navegação principal"
         >
           {navItems.map((item) => {
@@ -69,37 +116,54 @@ export const Header: React.FC = () => {
               <button
                 key={item.view}
                 onClick={() => setActiveView(item.view)}
-                className={`touch-target px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
+                className={`relative px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
                   isActive
-                    ? 'bg-theme-surface text-theme-ink font-bold shadow-editorial-sm border border-theme'
-                    : 'text-theme-ink-2 hover:text-theme-ink hover:bg-theme-surface/50 border border-transparent'
+                    ? 'text-ink font-bold'
+                    : 'text-ink-2 hover:text-ink'
                 }`}
               >
-                {item.icon}
-                <span>{item.label}</span>
+                {isActive && (
+                  <motion.span
+                    layoutId="activeNavPill"
+                    className="absolute inset-0 rounded bg-surface shadow-editorial-sm border border-border -z-10"
+                    transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                  />
+                )}
+                <span className="relative z-10 flex items-center gap-1.5">
+                  {item.icon}
+                  <span>{item.label}</span>
+                </span>
               </button>
             );
           })}
         </nav>
 
-        {/* Right: Design System Specimen & Theme Toggle */}
-        <div className="flex items-center gap-2">
-          <button
-            onClick={() => setActiveView('design-system')}
-            className={`touch-target p-2 rounded-md transition-colors border ${
-              activeView === 'design-system'
-                ? 'bg-theme-primary text-theme-primary-contrast border-theme'
-                : 'text-theme-ink-2 hover:text-theme-ink hover:bg-theme-surface-2 border-transparent'
-            }`}
-            title="Design System 'Papel e Tinta'"
-            aria-label="Página de Design System"
-          >
-            <Palette className="w-4 h-4" />
-          </button>
+        {/* Right: Design System Specimen (somente em DEV) & Theme Toggle (Desktop apenas; no mobile fica no MobileMoreMenu) */}
+        <div className="hidden md:flex items-center gap-2">
+          {import.meta.env.DEV && (
+            <button
+              onClick={() => setActiveView('design-system')}
+              className={`touch-target p-2 rounded-md transition-colors border ${
+                activeView === 'design-system'
+                  ? 'bg-primary text-primary-text border-border'
+                  : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
+              }`}
+              title="Design System (somente em desenvolvimento)"
+              aria-label="Página de Design System DEV"
+            >
+              <Palette className="w-4 h-4" />
+            </button>
+          )}
 
           <ThemeToggle />
         </div>
       </div>
     </header>
+
+      <MobileModulesDrawer
+        isOpen={isModulesDrawerOpen}
+        onClose={() => setIsModulesDrawerOpen(false)}
+      />
+    </>
   );
 };

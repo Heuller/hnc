@@ -10,11 +10,14 @@ interface LinhaDoTempoProps {
 export const LinhaDoTempo: React.FC<LinhaDoTempoProps> = ({ items, className = '' }) => {
   return (
     <div className={`space-y-6 ${className}`}>
-      <div className="relative pl-6 sm:pl-8 border-l-2 border-accent/40 space-y-8 my-6">
+      <div className="relative ml-4 sm:ml-5 pl-5 sm:pl-7 border-l-2 border-accent/40 space-y-8 my-6">
         {items.map((item, index) => (
           <div key={index} className="relative group">
-            {/* Marcador na linha */}
-            <div className="absolute -left-[31px] sm:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface border-2 border-accent group-hover:scale-125 transition-transform" />
+            {/* Marcador na linha (alinhamento exato no eixo da borda, sem corte à esquerda) */}
+            <div
+              className="absolute -left-[27px] sm:-left-[35px] top-1.5 w-4 h-4 rounded-full bg-surface border-2 border-accent group-hover:scale-110 transition-transform shadow-2xs"
+              aria-hidden="true"
+            />
 
             {/* Cabeçalho do evento */}
             <div className="flex flex-wrap items-baseline gap-2 mb-1.5">

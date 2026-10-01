@@ -56,7 +56,7 @@ export class ErrorBoundary extends Component<Props, State> {
                 this.setState({ hasError: false });
                 window.location.reload();
               }}
-              className="py-2.5 px-4 rounded-lg bg-primary text-white font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 mx-auto hover:opacity-95 transition-opacity"
+              className="py-2.5 px-4 rounded-lg bg-primary text-primary-text font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 mx-auto hover:opacity-95 transition-opacity"
             >
               <RotateCcw className="w-4 h-4" />
               <span>Recarregar Página</span>

@@ -46,14 +46,14 @@ export const AutoresCanonicos: React.FC<AutoresCanonicosProps> = ({
                   {nome}
                 </div>
                 {obra && (
-                  <div className="text-xs text-ink-2 font-serif italic mb-1.5 flex items-center gap-1">
-                    <BookOpen className="w-3 h-3 text-accent shrink-0 not-italic" />
-                    <span className="truncate">{obra}</span>
+                  <div className="text-xs text-ink-2 font-serif italic mb-1.5 flex items-start gap-1">
+                    <BookOpen className="w-3.5 h-3.5 text-accent shrink-0 not-italic mt-0.5" />
+                    <span className="leading-snug">{obra}</span>
                   </div>
                 )}
               </div>
               {contrib && (
-                <p className="text-xs text-ink font-sans leading-snug line-clamp-2">
+                <p className="text-xs text-ink font-sans leading-relaxed pt-1 border-t border-border/50">
                   {contrib}
                 </p>
               )}

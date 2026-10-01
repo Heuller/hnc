@@ -341,7 +341,7 @@ export const SimuladoPage: React.FC = () => {
             <button
               type="button"
               onClick={handleNovoSimulado}
-              className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-primary text-white font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 transition-opacity"
+              className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-primary text-primary-text font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-xs"
             >
               <RotateCcw className="w-4 h-4" />
               <span>Realizar Novo Simulado</span>
@@ -624,7 +624,7 @@ export const SimuladoPage: React.FC = () => {
             <button
               type="button"
               onClick={handleFinalizar}
-              className="flex-1 sm:flex-none py-2.5 px-5 rounded-lg bg-primary text-white font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-xs"
+              className="flex-1 sm:flex-none py-2.5 px-5 rounded-lg bg-primary text-primary-text font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 shadow-xs"
             >
               <FileCheck className="w-4 h-4" />
               <span>Finalizar Simulado</span>

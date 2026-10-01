@@ -22,7 +22,7 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
   const dataColumns = colunas.slice(1);
 
   return (
-    <div className="card-editorial p-4 sm:p-6 space-y-4 my-6">
+    <div className="card-editorial p-4 sm:p-6 space-y-4 my-6 @container w-full">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-theme pb-3">
         <div className="flex items-center gap-2">
           <TableIcon className="w-4 h-4 text-theme-accent" aria-hidden="true" />
@@ -31,9 +31,10 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
           </h3>
         </div>
 
-        {/* Alternador de Modo no Mobile (< 768px) */}
-        <div className="md:hidden flex items-center gap-1 bg-theme-surface-2 p-1 rounded-md border border-theme">
+        {/* Alternador de Modo quando a largura do contêiner < 640px */}
+        <div className="@[640px]:hidden flex items-center gap-1 bg-theme-surface-2 p-1 rounded-md border border-theme">
           <button
+            type="button"
             onClick={() => setMobileMode('facetas')}
             className={`px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
               mobileMode === 'facetas'
@@ -45,6 +46,7 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
             <span>Por Coluna</span>
           </button>
           <button
+            type="button"
             onClick={() => setMobileMode('empilhado')}
             className={`px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
               mobileMode === 'empilhado'
@@ -59,17 +61,20 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
       </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO DESKTOP (>= 768px): Tabela Semântica
+       * VISUALIZAÇÃO AMPLA (>= 640px no contêiner): Tabela Semântica
+       * 1ª Coluna fixa (sticky), colunas com largura mínima segura, sem cortes
        * ------------------------------------------------------------- */}
-      <div className="hidden md:block overflow-hidden rounded-lg border border-theme bg-theme-surface">
-        <table className="w-full text-left text-xs sm:text-sm border-collapse">
+      <div className="hidden @[640px]:block overflow-x-auto rounded-lg border border-theme bg-theme-surface scrollbar-thin">
+        <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[560px]">
           <thead className="bg-theme-surface-2 text-theme-ink font-bold border-b border-theme">
             <tr>
               {colunas.map((col, idx) => (
                 <th
                   key={idx}
                   className={`p-3.5 border-r border-theme last:border-r-0 font-extrabold ${
-                    idx === 0 ? 'bg-theme-surface-2/90 w-1/4' : ''
+                    idx === 0
+                      ? 'bg-theme-surface-2 sticky left-0 z-10 w-[28%] min-w-[140px] shadow-[2px_0_4px_rgba(0,0,0,0.04)]'
+                      : 'min-w-[150px]'
                   }`}
                 >
                   {col}
@@ -88,7 +93,7 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
                     key={cIdx}
                     className={`p-3.5 leading-relaxed border-r border-theme last:border-r-0 align-top ${
                       cIdx === 0
-                        ? 'font-bold text-theme-ink bg-theme-surface-2/30 font-sans'
+                        ? 'font-bold text-theme-ink bg-theme-surface sticky left-0 z-10 font-sans shadow-[2px_0_4px_rgba(0,0,0,0.04)]'
                         : 'font-serif-reading text-theme-ink'
                     }`}
                   >
@@ -102,9 +107,9 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
       </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO MOBILE (< 768px): ZERO ROLAGEM HORIZONTAL
+       * VISUALIZAÇÃO ESTREITA (< 640px no contêiner): ZERO ROLAGEM HORIZONTAL
        * ------------------------------------------------------------- */}
-      <div className="md:hidden space-y-4">
+      <div className="@[640px]:hidden space-y-4">
         {mobileMode === 'facetas' ? (
           <>
             {/* Seletor Segmentado por Coluna */}

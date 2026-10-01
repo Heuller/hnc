@@ -4,6 +4,17 @@ import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
 import {
+  getTempoTotalMacroModulo,
+  getCheckpointsCountSubmodulo,
+  getCheckpointsFeitosSubmodulo,
+  getSubmodulosLidosCount,
+  getTempoTotalCurso,
+  getCheckpointsTotalCurso,
+  getCheckpointsFeitosCurso,
+  getMacroModuloProgressoPercent,
+  getCursoProgressoPercent,
+} from '../domain/metrics';
+import {
   BookOpen,
   Calendar,
   CheckCircle2,
@@ -12,6 +23,10 @@ import {
   FileQuestion,
   Award,
 } from 'lucide-react';
+import { motion } from 'motion/react';
+import { getModuleTheme } from '../domain/moduleThemes';
+import { ModuleBadge } from '../components/common/ModuleBadge';
+import { ModuleProgressRing } from '../components/common/ModuleProgressRing';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -30,22 +45,16 @@ export const PainelPage: React.FC = () => {
     registrarAcessoHoje();
   }, [registrarAcessoHoje]);
 
-  // Estatísticas Globais de Todos os 10 Blocos (40 Submódulos)
+  // Estatísticas Globais Derivadas da Fonte Única de Verdade (A9)
   const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
   const totalSubmodulosGlobal = allSubmodules.length;
   const submodulosGlobalLidos = allSubmodules.filter((s) =>
     modulosLidosIds.includes(s.id)
   ).length;
-  const progressoGlobalPercent = Math.round(
-    (submodulosGlobalLidos / totalSubmodulosGlobal) * 100
-  );
-
-  // Total de checkpoints de recuperação ativa no curso
-  const totalCheckpointsGlobal = allSubmodules.reduce(
-    (acc, s) => acc + s.checkpoints.length,
-    0
-  );
-  const totalCheckpointsFeitos = Object.keys(checkpointsRespondidos).length;
+  const progressoGlobalPercent = getCursoProgressoPercent(COURSE_REGISTRY, modulosLidosIds);
+  const totalCheckpointsGlobal = getCheckpointsTotalCurso(COURSE_REGISTRY);
+  const totalCheckpointsFeitos = getCheckpointsFeitosCurso(COURSE_REGISTRY, checkpointsRespondidos);
+  const tempoTotalCursoMin = getTempoTotalCurso(COURSE_REGISTRY);
 
   // Último Simulado
   const ultimoSimulado =
@@ -100,36 +109,65 @@ export const PainelPage: React.FC = () => {
 
       {/* Grid de Resumo Superior (Continuar, Última Nota, Constância) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {/* Card 1: Continuar de onde parou */}
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
-          <div>
-            <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
-              <span className="uppercase tracking-wider font-semibold">Próximo Passo</span>
-              <BookOpen className="w-4 h-4 text-accent" />
-            </div>
-            <h2 className="font-sans font-bold text-ink text-base mb-1">
-              {sessaoAtivaSimulado?.emAndamento
-                ? 'Simulado em Andamento'
-                : `Submódulo ${ultimoModuloAcessado || '1.1'}`}
-            </h2>
-            <p className="text-xs text-ink-2 font-serif mb-4 leading-relaxed line-clamp-2">
-              {sessaoAtivaSimulado?.emAndamento
-                ? 'Você possui uma sessão aberta de 100 itens com respostas salvas.'
-                : 'Fundamentos da Biblioteconomia e Ciência da Informação.'}
-            </p>
-          </div>
+        {/* Card 1: Continuar de onde parou (na cor do módulo - Parte C) */}
+        {(() => {
+          const proximoSubGeral =
+            allSubmodules.find((s) => !modulosLidosIds.includes(s.id)) || allSubmodules[0];
+          const targetSubNumero = ultimoModuloAcessado || proximoSubGeral.numero;
+          const targetTheme = getModuleTheme(targetSubNumero);
+          const targetSubObj =
+            allSubmodules.find((s) => s.numero === targetSubNumero) || proximoSubGeral;
 
-          <button
-            type="button"
-            onClick={handleContinuarEstudo}
-            className="w-full py-2.5 px-4 rounded-lg bg-primary text-white font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 active:scale-98 transition-all"
-          >
-            <span>
-              {sessaoAtivaSimulado?.emAndamento ? 'Retomar Simulado' : 'Continuar Leitura'}
-            </span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </div>
+          return (
+            <motion.div
+              whileHover={{ y: -2 }}
+              className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between transition-colors overflow-hidden relative"
+              style={{
+                borderColor: 'var(--border)',
+              }}
+            >
+              <div
+                className="absolute top-0 left-0 right-0 h-1"
+                style={{ backgroundColor: targetTheme.solidVar }}
+              />
+
+              <div>
+                <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2 pt-1">
+                  <div className="flex items-center gap-1.5">
+                    <ModuleBadge moduleId={targetTheme.id} size="sm" />
+                    <span className="uppercase tracking-wider font-semibold">Próximo Passo</span>
+                  </div>
+                  <BookOpen className="w-4 h-4 text-accent" />
+                </div>
+                <h2 className="font-sans font-bold text-ink text-base mb-1">
+                  {sessaoAtivaSimulado?.emAndamento
+                    ? 'Simulado em Andamento'
+                    : `Submódulo ${targetSubNumero}`}
+                </h2>
+                <p className="text-xs text-ink-2 font-serif mb-4 leading-relaxed line-clamp-2">
+                  {sessaoAtivaSimulado?.emAndamento
+                    ? 'Você possui uma sessão aberta de 100 itens com respostas salvas.'
+                    : targetSubObj.titulo}
+                </p>
+              </div>
+
+              <button
+                type="button"
+                onClick={handleContinuarEstudo}
+                className="w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 active:scale-98 transition-all shadow-editorial-sm cursor-pointer"
+                style={{
+                  backgroundColor: targetTheme.solidVar,
+                  color: targetTheme.textVar,
+                }}
+              >
+                <span>
+                  {sessaoAtivaSimulado?.emAndamento ? 'Retomar Simulado' : 'Continuar Leitura'}
+                </span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </motion.div>
+          );
+        })()}
 
         {/* Card 2: Nota Líquida do Último Simulado */}
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
@@ -162,11 +200,24 @@ export const PainelPage: React.FC = () => {
                 </p>
               </div>
             ) : (
-              <div>
-                <div className="text-2xl font-mono font-bold text-ink-2 mb-1">--</div>
-                <p className="text-xs text-ink-2 font-serif mb-4 leading-relaxed">
-                  Nenhum simulado de 100 questões finalizado ainda.
-                </p>
+              <div className="py-2 flex items-center gap-3">
+                <svg
+                  className="w-10 h-10 text-ink-2/40 shrink-0"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  aria-hidden="true"
+                >
+                  <path d="M6 42h36M10 42V18l8-4v28M18 14l8 4v24M26 18l8-6v30M34 12l6 4v26" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M14 24h.01M22 28h.01M30 22h.01" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+                <div>
+                  <div className="font-sans font-semibold text-ink text-sm">Nenhum simulado finalizado</div>
+                  <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
+                    Estude os submódulos para desbloquear a prova de 100 itens.
+                  </p>
+                </div>
               </div>
             )}
           </div>
@@ -199,7 +250,7 @@ export const PainelPage: React.FC = () => {
             </div>
 
             <p className="text-xs text-ink-2 font-serif mb-3 leading-relaxed">
-              Registro diário sem pressa. Estudar um bloco por dia consolida a retenção.
+              Registro cronológico dos seus dias de estudo na plataforma.
             </p>
 
             {/* 7 marcadores discretos */}
@@ -227,7 +278,7 @@ export const PainelPage: React.FC = () => {
           </div>
 
           <div className="text-[11px] font-sans text-ink-2 text-center mt-3 pt-2 border-t border-border">
-            Fator de repetição espaçada ativo
+            Constância registrada localmente
           </div>
         </div>
       </div>
@@ -250,6 +301,10 @@ export const PainelPage: React.FC = () => {
             <span>•</span>
             <span>
               <strong className="text-ink font-semibold">{totalCheckpointsFeitos}</strong> de {totalCheckpointsGlobal} checkpoints
+            </span>
+            <span>•</span>
+            <span>
+              <strong className="text-ink font-semibold">~{tempoTotalCursoMin} min</strong> de leitura
             </span>
           </div>
         </div>
@@ -281,16 +336,12 @@ export const PainelPage: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {COURSE_REGISTRY.map((modulo) => {
-            const subsLidos = modulo.modulosFilhos.filter((s) =>
-              modulosLidosIds.includes(s.id)
-            ).length;
+          {COURSE_REGISTRY.map((modulo, idx) => {
+            const moduloTheme = getModuleTheme(modulo.id);
+            const subsLidos = getSubmodulosLidosCount(modulo, modulosLidosIds);
             const totalSubs = modulo.modulosFilhos.length;
-            const moduloPercent = Math.round((subsLidos / totalSubs) * 100);
-            const tempoTotalMin = modulo.modulosFilhos.reduce(
-              (acc, s) => acc + s.tempoEstimadoMinutos,
-              0
-            );
+            const moduloPercent = getMacroModuloProgressoPercent(modulo, modulosLidosIds);
+            const tempoTotalMin = getTempoTotalMacroModulo(modulo);
 
             // Primeiro submódulo ainda não lido ou o primeiro
             const proximoSub =
@@ -302,17 +353,25 @@ export const PainelPage: React.FC = () => {
             const prioridade = prioridadeAltaIds.includes(modulo.id) ? 'ALTA' : 'MÉDIA';
 
             return (
-              <div
+              <motion.div
                 key={modulo.id}
-                className="bg-surface rounded-xl border border-border p-5 shadow-xs hover:border-accent/40 transition-all flex flex-col justify-between"
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.25, delay: Math.min(idx * 0.04, 0.32) }}
+                whileHover={{ y: -2 }}
+                className="bg-surface rounded-xl border border-border p-5 shadow-xs transition-all flex flex-col justify-between overflow-hidden relative"
               >
-                <div>
+                {/* Faixa plana 4px na cor do módulo (Parte C) */}
+                <div
+                  className="absolute top-0 left-0 right-0 h-1"
+                  style={{ backgroundColor: moduloTheme.solidVar }}
+                />
+
+                <div className="pt-1">
                   {/* Cabeçalho do Card */}
                   <div className="flex items-center justify-between gap-2 mb-2">
                     <div className="flex items-center gap-2">
-                      <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
-                        {modulo.codigo}
-                      </span>
+                      <ModuleBadge moduleId={modulo.id} size="sm" />
                       <span
                         className={`text-[10px] font-sans font-semibold uppercase px-2 py-0.5 rounded ${
                           prioridade === 'ALTA'
@@ -324,16 +383,27 @@ export const PainelPage: React.FC = () => {
                       </span>
                     </div>
 
-                    <span className="text-[11px] font-mono text-ink-2 flex items-center gap-1">
-                      <Clock className="w-3 h-3" />
-                      ~{tempoTotalMin} min
-                    </span>
+                    <div className="flex items-center gap-2">
+                      <ModuleProgressRing
+                        moduleId={modulo.id}
+                        progressPercent={moduloPercent}
+                        size={22}
+                        strokeWidth={2.5}
+                      />
+                      <span className="text-[11px] font-mono text-ink-2 flex items-center gap-1">
+                        <Clock className="w-3 h-3" />
+                        ~{tempoTotalMin} min
+                      </span>
+                    </div>
                   </div>
 
                   <h3 className="font-sans font-bold text-ink text-base leading-snug">
                     {modulo.titulo}
                   </h3>
-                  <p className="text-xs text-accent font-sans font-medium mt-0.5">
+                  <p
+                    className="text-xs font-sans font-medium mt-0.5"
+                    style={{ color: moduloTheme.solidVar }}
+                  >
                     {modulo.subtitulo}
                   </p>
                   <p className="text-xs text-ink-2 font-serif mt-2 leading-relaxed line-clamp-2">
@@ -350,35 +420,51 @@ export const PainelPage: React.FC = () => {
                     </div>
                     <div className="w-full h-1.5 rounded-full bg-surface-2 overflow-hidden border border-border">
                       <div
-                        className="h-full bg-accent transition-all duration-300"
-                        style={{ width: `${moduloPercent}%` }}
+                        className="h-full transition-all duration-300"
+                        style={{
+                          width: `${moduloPercent}%`,
+                          backgroundColor: moduloTheme.solidVar,
+                        }}
                       />
                     </div>
                   </div>
 
-                  {/* Chips dos Submódulos */}
-                  <div className="grid grid-cols-2 gap-1.5 mt-3 pt-2 border-t border-border">
+                  {/* Chips dos Submódulos com quebra semântica e checkpoints exatos */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 mt-3 pt-2 border-t border-border">
                     {modulo.modulosFilhos.map((sub) => {
                       const isLido = modulosLidosIds.includes(sub.id);
+                      const cpFeitos = getCheckpointsFeitosSubmodulo(sub, checkpointsRespondidos);
+                      const cpTotal = getCheckpointsCountSubmodulo(sub);
+
                       return (
                         <button
                           key={sub.id}
                           type="button"
                           onClick={() => handleAbrirSubmodulo(sub.numero)}
-                          className={`p-2 rounded-lg border text-left text-xs transition-colors flex items-center justify-between gap-1.5 ${
+                          className={`p-2.5 rounded-lg border text-left text-xs transition-colors flex items-start justify-between gap-2 cursor-pointer ${
                             isLido
                               ? 'bg-ok-soft/40 border-ok/30 text-ink hover:border-ok'
                               : 'bg-surface-2/50 border-border text-ink-2 hover:bg-surface-2 hover:text-ink'
                           }`}
                         >
-                          <span className="font-mono font-semibold text-accent text-[11px]">
-                            {sub.numero}
-                          </span>
-                          <span className="truncate flex-1 font-sans text-[11px]">
-                            {sub.titulo}
-                          </span>
+                          <div className="min-w-0 flex-1">
+                            <div className="flex items-center gap-1.5 mb-0.5">
+                              <span
+                                className="font-mono font-semibold text-[11px] shrink-0"
+                                style={{ color: moduloTheme.solidVar }}
+                              >
+                                {sub.numero}
+                              </span>
+                              <span className="text-[10px] font-mono text-ink-2">
+                                ({cpFeitos}/{cpTotal} CP)
+                              </span>
+                            </div>
+                            <span className="line-clamp-2 leading-snug font-sans text-xs text-ink">
+                              {sub.titulo}
+                            </span>
+                          </div>
                           {isLido && (
-                            <CheckCircle2 className="w-3 h-3 text-ok shrink-0" />
+                            <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0 mt-0.5" />
                           )}
                         </button>
                       );
@@ -391,7 +477,11 @@ export const PainelPage: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => handleAbrirSubmodulo(proximoSub.numero)}
-                    className="py-1.5 px-3.5 rounded-lg bg-primary text-white text-xs font-sans font-semibold hover:opacity-95 transition-opacity flex items-center gap-1.5"
+                    className="py-1.5 px-3.5 rounded-lg text-xs font-sans font-semibold hover:opacity-95 transition-opacity flex items-center gap-1.5 shadow-2xs cursor-pointer"
+                    style={{
+                      backgroundColor: moduloTheme.solidVar,
+                      color: moduloTheme.textVar,
+                    }}
                   >
                     <span>{subsLidos === totalSubs ? 'Revisar Bloco' : 'Estudar Bloco'}</span>
                     <ArrowRight className="w-3.5 h-3.5" />
@@ -400,12 +490,12 @@ export const PainelPage: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => setCurrentRoute('simulado')}
-                    className="py-1.5 px-3 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent text-xs font-sans font-medium transition-colors"
+                    className="py-1.5 px-3 rounded-lg bg-surface-2 border border-border text-ink hover:border-accent text-xs font-sans font-medium transition-colors cursor-pointer"
                   >
                     Simulado 100Q
                   </button>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>

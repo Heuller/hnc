@@ -15,7 +15,9 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
   };
 
   return (
-    <div className={`grid grid-cols-1 md:grid-cols-2 gap-4 ${className}`}>
+    <div
+      className={`grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-4 items-stretch ${className}`}
+    >
       {autores.map((autor) => {
         const isExpanded = expandedId === autor.nome;
 
@@ -23,7 +25,7 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
           <div
             key={autor.nome}
             onClick={() => toggleExpand(autor.nome)}
-            className="bg-surface rounded-xl border border-border p-4.5 shadow-xs hover:border-accent/40 cursor-pointer transition-all duration-200 flex flex-col justify-between"
+            className="h-full bg-surface rounded-xl border border-border p-4.5 shadow-xs hover:border-accent/40 cursor-pointer transition-all duration-200 flex flex-col justify-between"
           >
             <div>
               {/* Top row: Nome + Ano */}
@@ -44,7 +46,7 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
                 <button
                   type="button"
                   aria-label={isExpanded ? 'Recolher detalhes' : 'Expandir detalhes'}
-                  className="p-1 text-ink-2 hover:text-ink rounded"
+                  className="p-1 text-ink-2 hover:text-ink rounded cursor-pointer"
                 >
                   {isExpanded ? (
                     <ChevronUp className="w-4 h-4" />
@@ -54,11 +56,11 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
                 </button>
               </div>
 
-              {/* Obra Principal */}
+              {/* Obra Principal sem truncamento semântico (A6) */}
               {autor.obraPrincipal && (
-                <div className="flex items-center gap-1.5 text-xs text-ink-2 mb-2 italic font-serif">
-                  <Book className="w-3.5 h-3.5 text-accent shrink-0 not-italic" />
-                  <span className="truncate">{autor.obraPrincipal}</span>
+                <div className="flex items-start gap-1.5 text-xs text-ink-2 mb-2 italic font-serif">
+                  <Book className="w-3.5 h-3.5 text-accent shrink-0 mt-0.5 not-italic" />
+                  <span className="line-clamp-3 leading-snug">{autor.obraPrincipal}</span>
                 </div>
               )}
 

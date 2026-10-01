@@ -14,12 +14,12 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
   tituloModulo,
 }) => {
   return (
-    <div className="lg:hidden fixed bottom-20 right-4 z-40">
-      <Drawer.Root>
+    <div className="2xl:hidden fixed bottom-20 right-4 z-40">
+      <Drawer.Root shouldScaleBackground={false}>
         <Drawer.Trigger asChild>
           <button
             type="button"
-            className="flex items-center gap-2 px-4 py-3 rounded-full bg-accent text-white shadow-lg font-sans font-semibold text-sm active:scale-95 transition-transform"
+            className="flex items-center gap-2 px-4 py-3 rounded-full bg-accent text-accent-text shadow-xl font-sans font-semibold text-sm active:scale-95 transition-transform cursor-pointer border border-accent/30"
             aria-label="Abrir Resumo e Mnemônicos"
           >
             <Sparkles className="w-4 h-4" />
@@ -28,11 +28,20 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
         </Drawer.Trigger>
 
         <Drawer.Portal>
-          <Drawer.Overlay className="fixed inset-0 bg-black/60 z-50 backdrop-blur-xs" />
-          <Drawer.Content className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88vh] fixed bottom-0 left-0 right-0 z-50 focus:outline-none">
-            <div className="p-4 bg-surface rounded-t-2xl flex flex-col max-h-[88vh]">
-              {/* Puxador da gaveta */}
-              <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3" />
+          <Drawer.Overlay className="fixed inset-0 bg-black/70 z-50 backdrop-blur-xs" />
+          <Drawer.Content
+            className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88vh] fixed bottom-0 left-0 right-0 z-50 focus:outline-none shadow-2xl"
+            style={{ backgroundColor: 'var(--surface)' }}
+          >
+            <div
+              className="p-4 rounded-t-2xl flex flex-col max-h-[88vh] bg-surface"
+              style={{ backgroundColor: 'var(--surface)' }}
+            >
+              {/* Puxador da gaveta (alça de arraste) */}
+              <div
+                className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3 cursor-grab"
+                aria-hidden="true"
+              />
 
               <div className="flex items-center justify-between pb-3 border-b border-border">
                 <div>
@@ -46,7 +55,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
                 <Drawer.Close asChild>
                   <button
                     type="button"
-                    className="p-2 text-ink-2 hover:text-ink rounded-lg focus:outline-none"
+                    className="p-2 text-ink-2 hover:text-ink rounded-lg focus:outline-none cursor-pointer"
                     aria-label="Fechar resumo"
                   >
                     <X className="w-5 h-5" />

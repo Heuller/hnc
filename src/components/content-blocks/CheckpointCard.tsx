@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import { CheckCircle2, XCircle, RotateCcw, Lightbulb } from 'lucide-react';
 import { Badge } from '../common/Badge';
 
@@ -42,13 +43,13 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
 
   return (
     <div
-      className="card-editorial p-4 sm:p-5 space-y-3.5 my-4"
+      className="card-editorial p-4 sm:p-5 space-y-3.5 my-4 bg-surface rounded-xl border border-border shadow-xs"
       aria-live="polite"
     >
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-theme pb-2.5">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border pb-2.5">
         <div className="flex items-center gap-2">
-          <Lightbulb className="w-4 h-4 text-theme-accent shrink-0" aria-hidden="true" />
-          <span className="text-xs font-bold text-theme-ink uppercase tracking-wider">
+          <Lightbulb className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
+          <span className="text-xs font-bold text-ink uppercase tracking-wider">
             {checkpoint.pergunta}
           </span>
         </div>
@@ -60,7 +61,7 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
             </Badge>
             <button
               onClick={handleRedo}
-              className="text-[11px] font-semibold text-theme-ink-2 hover:text-theme-ink flex items-center gap-1 cursor-pointer"
+              className="text-[11px] font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer transition-colors"
               title="Refazer este checkpoint"
             >
               <RotateCcw className="w-3 h-3" />
@@ -70,69 +71,89 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
         )}
       </div>
 
-      <p className="font-serif-reading text-sm sm:text-base text-theme-ink leading-relaxed font-normal">
+      <p className="font-serif text-sm sm:text-base text-ink leading-relaxed font-normal">
         {checkpoint.item}
       </p>
 
-      {/* Ações CERTO e ERRADO */}
-      <div className="flex items-center gap-3 pt-1">
+      {/* Ações CERTO e ERRADO com animação sutil de pulo no ícone (Parte D e F) */}
+      <div className="grid grid-cols-2 sm:flex sm:items-center gap-3 pt-1">
         <button
+          type="button"
           onClick={() => handleSelect('C')}
           disabled={isAnswered}
-          className={`touch-target px-4 py-2 rounded-md font-sans text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
+          className={`w-full sm:w-auto min-h-[48px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-250 flex items-center justify-center gap-2 cursor-pointer ${
             answer === 'C'
               ? isCorrect
-                ? 'bg-theme-ok text-white'
-                : 'bg-theme-err text-white'
+                ? 'bg-ok text-white shadow-xs'
+                : 'bg-err text-white shadow-xs'
               : isAnswered && checkpoint.gabarito === 'C'
-              ? 'bg-theme-ok-soft text-theme-ok border border-theme-ok'
-              : 'bg-theme-surface-2 text-theme-ink border border-theme hover:bg-theme-surface'
-          }`}
+              ? 'bg-ok-soft text-ok border border-ok'
+              : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'
+          } ${isAnswered ? 'cursor-default' : 'active:scale-98'}`}
         >
-          <CheckCircle2 className="w-3.5 h-3.5" />
+          <motion.span
+            animate={answer === 'C' ? { scale: [1, 1.3, 1] } : {}}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+            className="inline-flex"
+          >
+            <CheckCircle2 className="w-4 h-4" />
+          </motion.span>
           <span>CERTO</span>
         </button>
 
         <button
+          type="button"
           onClick={() => handleSelect('E')}
           disabled={isAnswered}
-          className={`touch-target px-4 py-2 rounded-md font-sans text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
+          className={`w-full sm:w-auto min-h-[48px] px-4 py-2.5 rounded-lg font-sans text-xs sm:text-sm font-bold transition-all duration-250 flex items-center justify-center gap-2 cursor-pointer ${
             answer === 'E'
               ? isCorrect
-                ? 'bg-theme-ok text-white'
-                : 'bg-theme-err text-white'
+                ? 'bg-ok text-white shadow-xs'
+                : 'bg-err text-white shadow-xs'
               : isAnswered && checkpoint.gabarito === 'E'
-              ? 'bg-theme-ok-soft text-theme-ok border border-theme-ok'
-              : 'bg-theme-surface-2 text-theme-ink border border-theme hover:bg-theme-surface'
-          }`}
+              ? 'bg-ok-soft text-ok border border-ok'
+              : 'bg-surface-2 text-ink border border-border hover:bg-surface hover:border-accent'
+          } ${isAnswered ? 'cursor-default' : 'active:scale-98'}`}
         >
-          <XCircle className="w-3.5 h-3.5" />
+          <motion.span
+            animate={answer === 'E' ? { scale: [1, 1.3, 1] } : {}}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+            className="inline-flex"
+          >
+            <XCircle className="w-4 h-4" />
+          </motion.span>
           <span>ERRADO</span>
         </button>
       </div>
 
       {/* Feedback Explicativo Canônico Imediato */}
-      {isAnswered && (
-        <div
-          className={`p-3.5 rounded-lg border text-xs sm:text-sm leading-relaxed ${
-            isCorrect
-              ? 'bg-theme-ok-soft/60 border-theme-ok text-theme-ink'
-              : 'bg-theme-err-soft/60 border-theme-err text-theme-ink'
-          }`}
-        >
-          <div className="font-bold mb-1 flex items-center gap-1.5">
-            {isCorrect ? (
-              <CheckCircle2 className="w-4 h-4 text-theme-ok" />
-            ) : (
-              <XCircle className="w-4 h-4 text-theme-err" />
-            )}
-            <span>
-              Gabarito Oficial: <strong className="uppercase">{checkpoint.gabarito === 'C' ? 'Certo' : 'Errado'}</strong>
-            </span>
-          </div>
-          <p className="m-0 font-serif-reading">{checkpoint.justificativa}</p>
-        </div>
-      )}
+      <AnimatePresence>
+        {isAnswered && (
+          <motion.div
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.22, ease: 'easeOut' }}
+            className={`p-3.5 rounded-lg border text-xs sm:text-sm leading-relaxed ${
+              isCorrect
+                ? 'bg-ok-soft/70 border-ok text-ink'
+                : 'bg-err-soft/70 border-err text-ink'
+            }`}
+          >
+            <div className="font-bold mb-1 flex items-center gap-1.5">
+              {isCorrect ? (
+                <CheckCircle2 className="w-4 h-4 text-ok" />
+              ) : (
+                <XCircle className="w-4 h-4 text-err" />
+              )}
+              <span>
+                Gabarito Oficial: <strong className="uppercase">{checkpoint.gabarito === 'C' ? 'Certo' : 'Errado'}</strong>
+              </span>
+            </div>
+            <p className="m-0 font-serif leading-relaxed">{checkpoint.justificativa}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
