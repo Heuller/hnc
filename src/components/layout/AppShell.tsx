@@ -24,15 +24,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
   const { activeView, selectedSubmodule, setActiveView, setSelectedSubmodule } =
     useNavigationStore();
-  const { isAuthModalOpen, closeAuthModal, initialize: initAuth } = useAuthStore();
-
-  // Inicializa sessão do Supabase
-  useEffect(() => {
-    const unsubscribe = initAuth();
-    return () => {
-      unsubscribe();
-    };
-  }, [initAuth]);
+  const { isAuthModalOpen, closeAuthModal } = useAuthStore();
 
   // Sincronização automática em nuvem (debounce de 2s) quando logado
   useEffect(() => {

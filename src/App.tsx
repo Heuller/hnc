@@ -1,8 +1,10 @@
-import { Suspense, lazy } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
 import { AppShell } from './components/layout/AppShell';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
 import { useNavigationStore } from './store/useNavigationStore';
+import { useAuthStore } from './store/useAuthStore';
+import { AuthGate } from './components/auth/AuthGate';
 
 const PainelPage = lazy(() =>
   import('./pages/PainelPage').then((m) => ({ default: m.PainelPage }))
@@ -51,6 +53,31 @@ const PageSkeletonLoader = () => (
 export function App() {
   const { activeView } = useNavigationStore();
   const shouldReduceMotion = useReducedMotion();
+  const { user, loading, initialize: initAuth } = useAuthStore();
+
+  useEffect(() => {
+    const unsubscribe = initAuth();
+    return () => {
+      unsubscribe();
+    };
+  }, [initAuth]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-theme-bg flex flex-col items-center justify-center p-4">
+        <div className="flex flex-col items-center gap-3 animate-pulse">
+          <div className="w-12 h-12 rounded-xl bg-primary text-primary-text flex items-center justify-center font-bold text-sm shadow-editorial-sm">
+            HNC
+          </div>
+          <p className="text-xs text-theme-ink-2 font-mono">Carregando ambiente...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <AuthGate />;
+  }
 
   return (
     <AppShell>
