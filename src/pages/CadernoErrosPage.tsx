@@ -11,12 +11,14 @@ import {
   ExternalLink,
   BookOpen,
   Scale,
+  Sparkles,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { getItensCadernoErros, type ItemCadernoErro } from '../domain/cadernoErros';
 import { DialogoBancaModal } from '../components/cadernoErros/DialogoBancaModal';
 import { carregarSessoesDoStorage } from '../domain/socratic/socraticService';
+import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
 
 export const CadernoErrosPage: React.FC = () => {
   const { checkpointsRespondidos, historicoSimulados, salvarCheckpoint } = useProgressStore();
@@ -32,6 +34,7 @@ export const CadernoErrosPage: React.FC = () => {
   // Estado do Diálogo Socrático com a Banca
   const [itemSocraticoAtivo, setItemSocraticoAtivo] = useState<ItemCadernoErro | null>(null);
   const [sessoesStorage, setSessoesStorage] = useState<Record<string, { superado: boolean }>>({});
+  const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
 
   useEffect(() => {
     setSessoesStorage(carregarSessoesDoStorage());
@@ -149,6 +152,20 @@ export const CadernoErrosPage: React.FC = () => {
             <span className="text-2xl font-black text-accent">{stats.moduloMaisCritico}</span>
           </div>
         </div>
+
+        {/* Ação: Gerar Simulado Adaptativo dos Meus Erros */}
+        {stats.total > 0 && (
+          <div className="pt-2">
+            <button
+              type="button"
+              onClick={() => setIsModalAdaptativoOpen(true)}
+              className="w-full sm:w-auto py-2.5 px-4 rounded-xl bg-accent text-accent-text hover:bg-accent/90 font-bold text-xs flex items-center justify-center gap-2 cursor-pointer transition-colors shadow-editorial-sm"
+            >
+              <Sparkles className="w-4 h-4" />
+              <span>Gerar Simulado Adaptativo de Erros ({stats.total} itens catalogados)</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Barra de Filtros e Busca */}
@@ -455,6 +472,13 @@ export const CadernoErrosPage: React.FC = () => {
             [itemId]: { superado },
           }));
         }}
+      />
+
+      {/* Modal do Simulado Adaptativo */}
+      <SimuladoAdaptativoModal
+        isOpen={isModalAdaptativoOpen}
+        onClose={() => setIsModalAdaptativoOpen(false)}
+        modoInicial="erros_caderno"
       />
     </div>
   );

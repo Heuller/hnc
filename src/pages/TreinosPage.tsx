@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   RotateCcw,
   BookMarked,
@@ -7,6 +7,8 @@ import {
   ArrowRight,
   CheckCircle2,
   Dumbbell,
+  Target,
+  Sparkles,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
@@ -15,6 +17,7 @@ import { getItensCadernoErros } from '../domain/cadernoErros';
 import { Button } from '../components/common/Button';
 import { IllustrationDiscursiva } from '../components/illustrations/ContextualIllustrations';
 import { EmblemaM8 } from '../components/illustrations/ModuleEmblems';
+import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
 
 export const TreinosPage: React.FC = () => {
   const {
@@ -34,6 +37,8 @@ export const TreinosPage: React.FC = () => {
     checkpointsRespondidos || {},
     historicoSimulados || []
   );
+
+  const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
@@ -213,7 +218,53 @@ export const TreinosPage: React.FC = () => {
             <ArrowRight className="w-4 h-4" />
           </Button>
         </div>
+
+        {/* 5. SIMULADO ADAPTATIVO DE FRAQUEZAS (IA) */}
+        <div className="bg-surface border border-accent/40 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden md:col-span-2 bg-gradient-to-br from-surface via-surface to-accent/5">
+          <div className="space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 text-accent flex items-center justify-center">
+                  <Target className="w-5 h-5" />
+                </div>
+                <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-accent/15 border border-accent/30 text-accent uppercase tracking-wider">
+                  Banca Cebraspe IA · Diagnóstico Ativo
+                </span>
+              </div>
+              <Sparkles className="w-5 h-5 text-accent" />
+            </div>
+
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Simulado Adaptativo de Fraquezas</h2>
+              <p className="text-xs text-ink-2 mt-1 leading-relaxed max-w-2xl">
+                Algoritmo inteligente que analisa seus pontos cegos no Caderno de Erros e gera baterias adaptativas de 10 a 20 itens inéditos focados cirurgicamente nos temas onde sua retenção é mais vulnerável.
+              </p>
+            </div>
+
+            <div className="p-3 rounded-xl bg-accent/5 border border-accent/20 text-xs text-ink flex items-center justify-between">
+              <span>Foco personalizado disponível:</span>
+              <span className="font-mono text-accent font-bold">100% calibrado ao seu perfil</span>
+            </div>
+          </div>
+
+          <Button
+            variant="primary"
+            size="md"
+            onClick={() => setIsModalAdaptativoOpen(true)}
+            className="w-full flex items-center justify-center gap-2"
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>Gerar Simulado Adaptativo de Fraquezas</span>
+            <ArrowRight className="w-4 h-4" />
+          </Button>
+        </div>
       </div>
+
+      {/* Modal do Simulado Adaptativo */}
+      <SimuladoAdaptativoModal
+        isOpen={isModalAdaptativoOpen}
+        onClose={() => setIsModalAdaptativoOpen(false)}
+      />
     </div>
   );
 };
