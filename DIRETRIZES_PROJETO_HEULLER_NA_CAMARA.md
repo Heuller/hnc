@@ -218,16 +218,145 @@ A plataforma agora conta com infraestrutura de banco de dados relacional e auten
 * **Gating Obrigatório:** Acesso fechado a visitantes não autenticados; toda a plataforma de estudos é carregada apenas após validação de credenciais ativas.
 * **Interface Neutra de Entrada:** A tela de login/cadastro é propositalmente discreta, sem exposição de temas, cargos ou menções a concursos públicos na área externa.
 * **Usuário de Teste / Demonstração:** Conta criada e confirmada no Supabase para homologação rápida:
-  * *Usuário:* \`teste\` (ou \`teste@teste.com\`)
-  * *Senha:* \`teste4344\`
+  * *Usuário:* `teste` (ou `teste@teste.com`)
+  * *Senha:* `teste4344`
 
 ---
 
 ## 10. ACERVO DE CONTEÚDO E MATERIAIS DE ESTUDO NO REPOSITÓRIO
 Para permitir a continuidade do desenvolvimento e dos estudos a partir de qualquer computador:
-* O repositório integra o diretório canônico \`acervo-estudos/\`, contendo as pastas organizadas por eixos temáticos do edital (ABNT, Catalogação, Classificação, Comunicação Científica, Digital/Repositórios, Fundamentos, Gestão de Coleções, Legislação, Preservação, Questões, Recuperação de Informação, Skills e Livros de Referência).
+* O repositório integra o diretório canônico `acervo-estudos/`, contendo as pastas organizadas por eixos temáticos do edital (ABNT, Catalogação, Classificação, Comunicação Científica, Digital/Repositórios, Fundamentos, Gestão de Coleções, Legislação, Preservação, Questões, Recuperação de Informação, Skills e Livros de Referência).
 * Documentação de diretrizes e manuais técnicos mantidos versionados na raiz do projeto.
 
 ---
-*Documento atualizado em 01 de Outubro de 2026.*  
-*Projeto Heuller na Câmara — Rumo à Aprovação como Analista Legislativo!*
+
+## 11. A ARQUITETURA DA JORNADA E PROGRESSÃO POR DOMÍNIO (RODADA 3 — OUTUBRO DE 2026)
+
+A Rodada 3 institui a **Jornada de Domínio Vertical**, transformando o acesso livre em uma progressão pedagógica estruturada que assegura retenção antes de permitir avanço.
+
+### 11.1. Regra de Ouro: Desbloqueio por 85% de Aproveitamento
+* Cada etapa (submódulo, desafio ou portal) só é dada como concluída quando o candidato alcança um aproveitamento bruto $\ge 85\%$ em itens de verificação (acertos inteiros).
+* **Fórmula de Domínio:**
+  $$\text{Aproveitamento} = \frac{\text{Acertos Brutos}}{\text{Total de Itens Submetidos}} \ge 0{,}85$$
+* A nota líquida Cebraspe ($C - E$) é apresentada em destaque paralelo como indicador de calibração competitiva, mas o critério de desbloqueio pedagógico é a retenção factual mínima de 85%.
+
+### 11.2. Desafios de Módulo ($N=100$ no M1)
+* Ao concluir todos os submódulos de um macro-módulo, o candidato é submetido ao **Desafio do Módulo**.
+* No M1 (Fundamentos), o desafio constitui-se de **100 itens inéditos e canônicos** (25 itens por submódulo, simetria 50C/50E).
+* **Critério de Aprovação:** Mínimo de 85 acertos inteiros (máximo de 15 erros ou abstenções).
+
+### 11.3. Portais de Revisão Cumulativa $P_k$ (para $k \ge 2$)
+* Entre a conclusão do macro-módulo $k-1$ e a abertura do macro-módulo $k$, ergue-se um **Portal de Revisão Cumulativa**.
+* **Composição Estratificada ($N=20$ itens):**
+  * **70% dos itens (14 itens):** Selecionados aleatoriamente a partir dos checkpoints e simulados do módulo imediatamente anterior ($M_{k-1}$).
+  * **30% dos itens (6 itens):** Selecionados a partir dos módulos anteriores históricos ($M_1$ até $M_{k-2}$).
+  * **Ponderação de Erros:** O algoritmo prioriza itens que o candidato errou em sessões passadas.
+  * **Simetria:** Exatamente 10 itens Certos e 10 itens Errados.
+* **Critério de Transposição:** Mínimo de 17 acertos inteiros em 20 itens ($\ge 85\%$).
+
+### 11.4. Protocolo de Revisão Dirigida em Falha
+* Caso o aproveitamento fique abaixo de 85%, a etapa entra no estado estrito `em_revisao_dirigida`.
+* O sistema identifica as seções exatas cujos itens foram respondidos incorretamente e bloqueia novas tentativas até que o estudante reabra e confirme a releitura reflexiva desses tópicos específicos.
+* As tentativas são ilimitadas, mas cada nova tentativa gera um registro imutável no histórico.
+
+### 11.5. Modo Livre (Consulta e Pesquisa)
+* Um seletor com confirmação explícita permite ativar temporariamente o **Modo Livre**, liberando a navegação em qualquer submódulo sem desvirtuar nem anular o mapa de progresso e as métricas oficiais da Jornada.
+
+---
+
+## 12. MODELO DE TENTATIVAS IMUTÁVEIS E AUDITORIA DO BACKEND
+
+### 12.1. Arquitetura Relacional com RLS no PostgreSQL
+* **Tabela `tentativas_itens`:**
+  * `id` (UUID, PK), `user_id` (UUID referenciando `auth.users`), `etapa_id`, `tipo` (`checkpoint`, `desafio_modulo`, `portal_revisao`, `simulado`), `respostas` (JSONB com assertiva, gabarito e resposta do aluno), `acertos`, `erros`, `em_branco`, `pontuacao_liquida` ($C - E$), `aproveitamento` (%), `tempo_segundos` e `created_at`.
+* **Tabela `usuario_progresso_jornada`:**
+  * Armazena o snapshot derivado do estado da Jornada, etapas concluídas, modo livre e timestamp de última sincronização.
+* **Políticas RLS:** Políticas rigorosas garantem que cada usuário só pode ler e gravar seus próprios registros (`auth.uid() = user_id`).
+
+### 12.2. Serviço de Sincronização Resiliente (`tentativasSyncService.ts`)
+* Arquitetura *Offline-First*: o progresso é registrado instantaneamente no armazenamento local criptografado/estruturado e sincronizado em segundo plano com o Supabase.
+* Em ambientes sem conectividade ou sem variáveis configuradas, o sistema opera sem quebras ou travamentos, mantendo a integridade de todas as telas.
+
+---
+
+## 13. SISTEMA DE NAVEGAÇÃO E NÚCLEOS DE ESTUDO
+
+A navegação da plataforma foi reorganizada em **5 núcleos canônicos**, presentes tanto no cabeçalho superior quanto na barra de navegação inferior mobile:
+
+1. **Painel (`#painel`):**
+   * **Card 1 (Próximo Passo):** Calculado dinamicamente pela máquina de estados da Jornada, direcionando o aluno com um clique para a leitura ou verificação que desbloqueia a etapa seguinte.
+   * **Card 2 (Progresso da Jornada):** Percentual acumulado, contagem de etapas concluídas e atalho para o mapa visual da trilha.
+   * **Card 3 (Revisão do Dia):** Repetição espaçada pelo Sistema Leitner (com a regra estrita de que itens respondidos fora da data de vencimento não avançam de caixa) e 7 marcadores discretos de constância semanal.
+2. **Jornada (`#jornada`):**
+   * Mapa visual da trilha com nós interativos de cada submódulo, indicador de "Você está aqui", cartões de Desafio do Módulo, Portais $P_k$, modal de regras "Como Funciona" e alternador do Modo Livre.
+3. **Treinos (`#treinos`):**
+   * Central de prática livre com 4 hubs dedicados: (1) Revisão do Dia Leitner, (2) Caderno de Erros ativos para eliminação de pontos cegos, (3) Laboratório de Discursiva e (4) Folha de Véspera (48h).
+4. **Radar Cebraspe (`#radar`):**
+   * Análise analítica de frequência de cobrança por tema, perfil da banca e calibração de risco de chutes.
+5. **Progresso (`#progresso`):**
+   * Auditoria detalhada de tempo de estudo, histórico de tentativas imutáveis e proficiência por macro-eixo do edital.
+
+### 13.1. Laboratório de Discursiva e Peça Técnica (`#discursiva`)
+* Configuração pedagógica provisória: **2 questões técnicas (até 20 linhas)** e **1 peça técnica legislativa (até 50 linhas)**.
+* **Contador Estimado de Linhas:** Baseado na proporção tipográfica de ~70 caracteres por linha manuscrita.
+* **Rubrica Analítica de Estudo:** Domínio Técnico (50%), Estrutura e Coesão (30%) e Correção Linguística (20%).
+* **Integração com IA Segura:** Botão para copiar prompt analítico especializado diretamente para a área de transferência do aluno (para colar em LLMs externas como Claude ou ChatGPT), sem qualquer chamada de API no cliente ou armazenamento de chaves secretas.
+* **Histórico de Rascunhos:** Registro de versões com carimbo de data/hora, linhas estimadas, devolutiva arquivada e botão de restauração imediata no editor.
+
+### 13.2. Relatório Pedagógico do Simulado (E.6)
+* O pós-teste do Simulado de 100 Itens passa a ser ordenado pelo princípio **"Erros Primeiro"**:
+  1. Primeiro todas as questões incorretas (com análise da pegadinha da banca e justificativa).
+  2. Em seguida, os itens deixados em branco (abstenção estratégica).
+  3. Ao final, os itens acertados com convicção.
+* Relatório consolidado por submódulo com botão nativo "Imprimir / Salvar PDF" estilizado via CSS print.
+
+### 13.3. Bloco de Conhecimentos Gerais (Macro-Bloco G)
+* Estruturado separadamente dos conhecimentos específicos na Jornada, devidamente sinalizado com a chancela *"Aguardando publicação do edital"*, preservando a pureza e a prioridade dos 10 módulos de Biblioteconomia e Ciência da Informação.
+
+---
+
+## 14. IDENTIDADE VISUAL EDITORIAL E ILUSTRAÇÕES EX-LIBRIS GRAVURA
+
+### 14.1. Conceito: Ex-Libris / Gravura em Linha Única
+* **Estilo:** Linhas finas contínuas (1.5px), cantos suaves e arcos arquitetônicos clássicos inspirados na tradição biblioteconômica do século XIX e na seriedade do Parlamento brasileiro.
+* **Anti-Gamificação:** Rejeição absoluta a badges infantis, sons de vitória, medalhas, níveis de XP fictícios ou confetes animados. O reforço psicológico decorre exclusivamente da clareza métrica do domínio atingido.
+* **Duotom Dinâmico:** Gráficos 100% vetoriais em SVG inline utilizando `currentColor` e as variáveis cromáticas de cada macro-módulo, com legibilidade perfeita em fundos claros e escuros.
+
+### 14.2. Acervo de Ilustrações e Emblemas
+* **Emblemas 64×64 (`ModuleEmblems.tsx`):**
+  * **M1:** Livro aberto clássico com colunas arquitetônicas e fita marcadora.
+  * **M2:** Fichário de madeira com gavetas, puxadores de latão e ficha catalográfica inclinada.
+  * **M3:** Estante de biblioteca e árvore hierárquica de classes (CDD / CDU).
+  * **M4:** Lupa ótica com prisma sobre rede topológica de nós e tesauros.
+  * **M5:** Prancheta técnica de avaliação com balança de decisões em equilíbrio.
+  * **M6:** Livro com circuitos integrados, nó de servidor e matriz de pixels binários.
+  * **M7:** Caixa de arquivo permanente (box arquivístico), orifício de manuseio e selo lacrado.
+  * **M8:** Página A4 com margens normalizadas, régua milimetrada e esquadro técnico (ABNT).
+  * **M9:** Periódico acadêmico aberto com histograma de dispersão e curvas bibliométricas.
+  * **M10:** Pergaminho com fita e selo em cera de chancelaria clássica (sem brasão oficial).
+  * **Bloco G:** Ampulheta de linho e pergaminho aguardando a deflagração do certame.
+* **Ilustrações Contextuais (`ContextualIllustrations.tsx`):**
+  * `IllustrationLogin`: Fachada e gabinete de estudos com estantes, luminária clássica e manuscritos.
+  * `IllustrationPortal`: Pórtico clássico de transição com chave de abóbada e fechadura de passagem.
+  * `IllustrationConclusao`: Chancela circular com louros de gravura e carimbo de proficiência.
+  * `IllustrationBloqueio`: Portão de ferro forjado e cadeado clássico de latão.
+  * `IllustrationVazio`: Prateleira em repouso com um livro inclinado e xícara quente de café.
+  * `IllustrationDiscursiva`: Lauda pautada, tinteiro sextavado e pena caligráfica.
+* Registro formal de autoria e detalhes no arquivo [`CREDITOS.md`](file:///C:/Users/USER/.gemini/antigravity-ide/scratch/hnc/CREDITOS.md).
+
+---
+
+## 15. REGRAS ESTATUTÁRIAS DE DEPLOY E CONTROLE DE VERSÃO
+
+1. **Branch de Trabalho:** Todas as alterações da Rodada 3 residem exclusivamente na branch `feature/jornada-rodada-3`.
+2. **Proibição de Deploy Prematuro:** Nenhuma publicação na branch de produção (`main`) ou no ambiente de produção da Vercel pode ser executada sem a autorização textual explícita do usuário com o comando *"pode publicar"*.
+3. **Validação Obrigatória:** Antes de qualquer entrega, é compulsório verificar que:
+   * `npm run lint` executa com zero erros.
+   * `vitest run` executa com 100% dos testes aprovados (78/78).
+   * `npm run build` (`vitest run && tsc -b && vite build`) conclui com êxito e gera o pacote PWA precache.
+   * A aplicação não expõe segredos ou chaves privadas no código do cliente.
+
+---
+*Documento atualizado em 02 de Outubro de 2026.*  
+*Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
+
