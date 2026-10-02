@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, CheckCircle2, ShieldCheck, DoorOpen, RotateCcw, Compass, HelpCircle } from 'lucide-react';
 import { Button } from '../common/Button';
+import { IllustrationPortal } from '../illustrations/ContextualIllustrations';
 
 interface ComoFuncionaJornadaModalProps {
   isOpen: boolean;
@@ -61,6 +62,13 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
 
           {/* Content */}
           <div className="p-5 sm:p-6 space-y-4 max-h-[70vh] overflow-y-auto text-sm text-ink-2 scrollbar-thin">
+            {/* Vinheta Editorial da Jornada */}
+            <div className="flex flex-col items-center justify-center py-2 text-accent border-b border-border/60 pb-4">
+              <IllustrationPortal width={140} height={90} ariaLabel="Portal de Verificação da Jornada" />
+              <p className="text-[11px] font-serif italic text-ink-2 text-center mt-2 max-w-sm">
+                "O portal se abre apenas para aquele que consolidou o fundamento anterior."
+              </p>
+            </div>
             {/* Regra 1 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
               <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5">

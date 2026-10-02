@@ -6,7 +6,6 @@ import {
   Play,
   RotateCcw,
   BookOpen,
-  Award,
   DoorOpen,
   HelpCircle,
   AlertTriangle,
@@ -21,6 +20,8 @@ import { getModuleTheme } from '../domain/moduleThemes';
 import { ComoFuncionaJornadaModal } from '../components/jornada/ComoFuncionaJornadaModal';
 import { PortaoVerificacaoModal } from '../components/jornada/PortaoVerificacaoModal';
 import { Button } from '../components/common/Button';
+import { ModuleEmblem } from '../components/illustrations/ModuleEmblems';
+import { IllustrationPortal, IllustrationConclusao } from '../components/illustrations/ContextualIllustrations';
 
 export const JornadaPage: React.FC = () => {
   const {
@@ -197,19 +198,10 @@ export const JornadaPage: React.FC = () => {
                 style={{ backgroundColor: theme.primaryColor }}
               />
 
-              {/* Título do Macro-Módulo */}
+              {/* Título do Macro-Módulo com Emblema Ex-Libris */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
-                <div className="flex items-center gap-3">
-                  <span
-                    className="w-10 h-10 rounded-xl flex items-center justify-center font-bold font-mono text-sm border shadow-2xs"
-                    style={{
-                      backgroundColor: `${theme.primaryColor}15`,
-                      borderColor: `${theme.primaryColor}30`,
-                      color: theme.primaryColor,
-                    }}
-                  >
-                    M{k}
-                  </span>
+                <div className="flex items-center gap-3.5">
+                  <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
                   <div>
                     <h2 className="text-lg font-serif font-bold text-ink">
                       Módulo {k}: {macro.titulo}
@@ -347,16 +339,7 @@ export const JornadaPage: React.FC = () => {
                   }`}
                 >
                   <div className="flex items-center gap-3.5">
-                    <div
-                      className="w-11 h-11 rounded-xl flex items-center justify-center border shrink-0"
-                      style={{
-                        backgroundColor: `${theme.primaryColor}15`,
-                        borderColor: `${theme.primaryColor}30`,
-                        color: theme.primaryColor,
-                      }}
-                    >
-                      <Award className="w-6 h-6" />
-                    </div>
+                    <IllustrationConclusao width={46} height={46} color={theme.primaryColor} className="shrink-0" />
                     <div>
                       <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
@@ -399,9 +382,7 @@ export const JornadaPage: React.FC = () => {
                   }`}
                 >
                   <div className="flex items-center gap-3.5">
-                    <div className="w-11 h-11 rounded-xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-600 dark:text-purple-400 shrink-0">
-                      <DoorOpen className="w-6 h-6" />
-                    </div>
+                    <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
                     <div>
                       <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="font-serif font-bold text-sm sm:text-base text-ink">

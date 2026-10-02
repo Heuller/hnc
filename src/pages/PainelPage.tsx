@@ -30,6 +30,7 @@ import { ModuleBadge } from '../components/common/ModuleBadge';
 import { ModuleProgressRing } from '../components/common/ModuleProgressRing';
 import { getItensPendentesRevisao } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
+import { IllustrationLogin, IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -93,19 +94,24 @@ export const PainelPage: React.FC = () => {
   return (
     <div className="space-y-8 animate-fadeIn max-w-5xl mx-auto">
       {/* Cabeçalho Editorial do Painel */}
-      <section className="border-b border-border pb-6">
-        <div className="flex flex-wrap items-baseline gap-2 mb-2">
-          <span className="font-mono text-xs text-accent uppercase tracking-wider font-semibold">
-            {CONCURSO_CONFIG.instituicao.nome} • {CONCURSO_CONFIG.cargo.titulo}
-          </span>
+      <section className="border-b border-border pb-6 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="space-y-2 max-w-2xl">
+          <div className="flex flex-wrap items-baseline gap-2 mb-1">
+            <span className="font-mono text-xs text-accent uppercase tracking-wider font-semibold">
+              {CONCURSO_CONFIG.instituicao.nome} • {CONCURSO_CONFIG.cargo.titulo}
+            </span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
+            Plano de Revisão e Domínio Cebraspe
+          </h1>
+          <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed">
+            Ambiente de leitura profunda, recuperação ativa e simulação estrita com fator
+            de correção em que {CONCURSO_CONFIG.banca.fatorCorrecao.descricao}.
+          </p>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight mb-2">
-          Plano de Revisão e Domínio Cebraspe
-        </h1>
-        <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
-          Ambiente de leitura profunda, recuperação ativa e simulação estrita com fator
-          de correção em que {CONCURSO_CONFIG.banca.fatorCorrecao.descricao}.
-        </p>
+        <div className="hidden md:block w-36 lg:w-44 shrink-0 text-accent opacity-85 dark:opacity-75">
+          <IllustrationLogin width="100%" height="auto" aria-hidden="true" />
+        </div>
       </section>
 
       {/* Grid de Resumo Superior (Continuar, Última Nota, Constância) */}
@@ -224,6 +230,12 @@ export const PainelPage: React.FC = () => {
                 {pendentesHoje.length === 1 ? 'item vencido hoje' : 'itens vencidos hoje'}
               </span>
             </div>
+
+            {pendentesHoje.length === 0 && (
+              <div className="py-1">
+                <IllustrationVazio width={80} height={50} className="mx-auto text-ink-2 opacity-60" ariaLabel="Sem revisões pendentes hoje" />
+              </div>
+            )}
 
             <p className="text-xs text-ink-2 font-serif mb-3 leading-relaxed">
               {pendentesHoje.length > 0

@@ -25,6 +25,11 @@ import {
 import { Button } from '../common/Button';
 import { selecionarItensPortal, type ItemCandidatoPortal } from '../../domain/portalRevisao';
 import { simuladoFundamentos100Q } from '../../content/questions/m1-fundamentos-100q';
+import {
+  IllustrationPortal,
+  IllustrationConclusao,
+  IllustrationBloqueio,
+} from '../illustrations/ContextualIllustrations';
 
 interface PortaoVerificacaoModalProps {
   isOpen: boolean;
@@ -300,6 +305,15 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         {/* FASE 1: INTRODUÇÃO E REGRAS */}
         {fase === 'intro' && (
           <div className="p-5 sm:p-6 space-y-5 overflow-y-auto scrollbar-thin">
+            {/* Vinheta Editorial da Etapa */}
+            <div className="flex flex-col items-center justify-center py-1 text-accent">
+              {etapa.tipo === 'portal_revisao' ? (
+                <IllustrationPortal width={130} height={95} ariaLabel="Portal de Revisão Cumulativa" />
+              ) : (
+                <IllustrationConclusao width={90} height={90} ariaLabel="Verificação de Domínio" />
+              )}
+            </div>
+
             {/* Aviso de bloqueio por falta de itens aprovados (Regra D.2) */}
             {etapa.bloqueioPorFaltaDeItens?.bloqueado && (
               <div className="p-4 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-start gap-3 text-amber-800 dark:text-amber-200">
@@ -512,7 +526,14 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         {fase === 'result' && ultimaTentativa && (
           <div className="p-5 sm:p-6 space-y-5 overflow-y-auto scrollbar-thin">
             {/* Carimbo de Conclusão ou Aviso de Revisão Dirigida (Regra E.4) */}
-            <div className="text-center space-y-2 py-2">
+            <div className="text-center space-y-3 py-2">
+              <div className="flex justify-center mb-1">
+                {isAprovado ? (
+                  <IllustrationConclusao width={100} height={100} className="text-emerald-600 dark:text-emerald-400" />
+                ) : (
+                  <IllustrationBloqueio width={95} height={80} className="text-amber-600 dark:text-amber-400" />
+                )}
+              </div>
               {isAprovado ? (
                 <div className="inline-flex flex-col items-center gap-2">
                   <div
