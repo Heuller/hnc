@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, LogIn, UserPlus, LogOut, CheckCircle2, AlertCircle, Loader2, User, KeyRound } from 'lucide-react';
+import { X, LogIn, LogOut, CheckCircle2, AlertCircle, Loader2, User, KeyRound } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { supabase } from '../../lib/supabase';
 import { progressSyncService } from '../../services/progressSyncService';
@@ -13,10 +13,8 @@ interface AuthModalProps {
 
 export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const { user, signOut } = useAuthStore();
-  const [tab, setTab] = useState<'login' | 'signup'>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [nome, setNome] = useState('');
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [successMsg, setSuccessMsg] = useState<string | null>(null);
@@ -38,67 +36,32 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
     };
 
     try {
-      if (tab === 'login') {
-        const { data, error } = await supabase.auth.signInWithPassword({
-          email: resolveEmail(email),
-          password,
-        });
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email: resolveEmail(email),
+        password,
+      });
 
-        if (error) {
-          setErrorMsg(error.message === 'Invalid login credentials' 
-            ? 'Usuário ou senha incorretos.' 
-            : error.message);
-          setLoading(false);
-          return;
-        }
+      if (error) {
+        setErrorMsg(error.message === 'Invalid login credentials' 
+          ? 'Usuário ou senha incorretos.' 
+          : error.message);
+        setLoading(false);
+        return;
+      }
 
-        if (data.user) {
-          setSuccessMsg('Login efetuado com sucesso!');
-          // Tenta puxar progresso da nuvem
-          const cloudProgress = await progressSyncService.baixarProgressoNuvem(data.user.id);
-          if (cloudProgress) {
-            useProgressStore.setState((state) => ({
-              ...state,
-              ...cloudProgress,
-            }));
-          }
-          setTimeout(() => {
-            onClose();
-          }, 800);
+      if (data.user) {
+        setSuccessMsg('Login efetuado com sucesso!');
+        // Tenta puxar progresso da nuvem
+        const cloudProgress = await progressSyncService.baixarProgressoNuvem(data.user.id);
+        if (cloudProgress) {
+          useProgressStore.setState((state) => ({
+            ...state,
+            ...cloudProgress,
+          }));
         }
-      } else {
-        // Cadastro
-        if (password.length < 6) {
-          setErrorMsg('A senha deve ter pelo menos 6 caracteres.');
-          setLoading(false);
-          return;
-        }
-
-        const { data, error } = await supabase.auth.signUp({
-          email: email.trim(),
-          password,
-          options: {
-            data: {
-              nome_completo: nome.trim(),
-            },
-            emailRedirectTo: window.location.origin,
-          },
-        });
-
-        if (error) {
-          setErrorMsg(error.message);
-          setLoading(false);
-          return;
-        }
-
-        if (data.session) {
-          setSuccessMsg('Conta criada com sucesso! Sincronização ativada.');
-          setTimeout(() => {
-            onClose();
-          }, 1000);
-        } else {
-          setSuccessMsg('Cadastro realizado! Verifique a caixa de entrada do seu e-mail para confirmar a conta.');
-        }
+        setTimeout(() => {
+          onClose();
+        }, 800);
       }
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Ocorreu um erro ao autenticar.';
@@ -186,44 +149,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               </div>
             </div>
           ) : (
-            /* Formulário de Login / Cadastro */
+            /* Formulário de Login */
             <div className="space-y-4">
-              {/* Abas Alternadoras */}
-              <div className="grid grid-cols-2 p-1 rounded-xl bg-surface-2 border border-border">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setTab('login');
-                    setErrorMsg(null);
-                    setSuccessMsg(null);
-                  }}
-                  className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                    tab === 'login'
-                      ? 'bg-surface text-ink shadow-editorial-sm border border-border'
-                      : 'text-ink-2 hover:text-ink'
-                  }`}
-                >
-                  <LogIn className="w-3.5 h-3.5" />
-                  <span>Entrar</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setTab('signup');
-                    setErrorMsg(null);
-                    setSuccessMsg(null);
-                  }}
-                  className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                    tab === 'signup'
-                      ? 'bg-surface text-ink shadow-editorial-sm border border-border'
-                      : 'text-ink-2 hover:text-ink'
-                  }`}
-                >
-                  <UserPlus className="w-3.5 h-3.5" />
-                  <span>Cadastrar</span>
-                </button>
-              </div>
-
               {/* Mensagens de Feedback */}
               {errorMsg && (
                 <div className="p-3 rounded-lg bg-err-soft border border-err/30 text-err text-xs flex items-start gap-2">
@@ -240,25 +167,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
               )}
 
               <form onSubmit={handleSubmit} className="space-y-3">
-                {tab === 'signup' && (
-                  <div>
-                    <label className="block text-xs font-semibold text-ink-2 mb-1">
-                      Nome Completo
-                    </label>
-                    <div className="relative">
-                      <User className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5" />
-                      <input
-                        type="text"
-                        required
-                        value={nome}
-                        onChange={(e) => setNome(e.target.value)}
-                        placeholder="Ex: Heuller Rodrigues"
-                        className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink focus:border-accent focus:outline-none"
-                      />
-                    </div>
-                  </div>
-                )}
-
                 <div>
                   <label className="block text-xs font-semibold text-ink-2 mb-1">
                     Usuário ou E-mail
@@ -286,6 +194,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                     <input
                       type="password"
                       required
+                      autoComplete="current-password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       placeholder="Mínimo 6 caracteres"
@@ -305,15 +214,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                         <Loader2 className="w-4 h-4 animate-spin" />
                         <span>Processando...</span>
                       </>
-                    ) : tab === 'login' ? (
+                    ) : (
                       <>
                         <LogIn className="w-4 h-4" />
                         <span>Entrar</span>
-                      </>
-                    ) : (
-                      <>
-                        <UserPlus className="w-4 h-4" />
-                        <span>Criar Conta</span>
                       </>
                     )}
                   </button>

@@ -69,7 +69,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                 onClick={openAuthModal}
                 className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer relative"
                 aria-label="Minha Conta e Sincronização"
-                title={user ? `Conectado: ${user.email}` : 'Entrar / Cadastrar'}
+                title={user ? `Conectado: ${user.email}` : 'Entrar'}
               >
                 <User className="w-4 h-4 text-accent" />
                 {user && (
@@ -221,7 +221,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                 ? 'bg-surface-2 border-border text-ink hover:border-accent shadow-editorial-sm'
                 : 'bg-primary hover:opacity-95 text-primary-text shadow-editorial-sm'
             }`}
-            title={user ? `Conta ativa: ${user.email}` : 'Entrar ou criar conta para sincronizar na nuvem'}
+            title={user ? `Conta ativa: ${user.email}` : 'Entrar para sincronizar na nuvem'}
           >
             <User className="w-3.5 h-3.5" />
             <span className="hidden sm:inline">{user ? 'Minha Conta' : 'Entrar'}</span>

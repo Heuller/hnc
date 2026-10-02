@@ -6,7 +6,6 @@ import {
   KeyRound,
   User,
   LogIn,
-  UserPlus,
   Loader2,
   AlertCircle,
   CheckCircle2,
@@ -18,10 +17,9 @@ import { useProgressStore } from '../../store/useProgressStore';
 import { ThemeToggle } from '../layout/ThemeToggle';
 
 export const AuthGate: React.FC = () => {
-  const [tab, setTab] = useState<'login' | 'signup' | 'reset'>('login');
+  const [tab, setTab] = useState<'login' | 'reset'>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [nome, setNome] = useState('');
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [successMsg, setSuccessMsg] = useState<string | null>(null);
@@ -66,37 +64,6 @@ export const AuthGate: React.FC = () => {
               ...cloudProgress,
             }));
           }
-        }
-      } else if (tab === 'signup') {
-        if (password.length < 6) {
-          setErrorMsg('A senha deve ter pelo menos 6 caracteres.');
-          setLoading(false);
-          return;
-        }
-
-        const { data, error } = await supabase.auth.signUp({
-          email: email.trim(),
-          password,
-          options: {
-            data: {
-              nome_completo: nome.trim(),
-            },
-            emailRedirectTo: window.location.origin,
-          },
-        });
-
-        if (error) {
-          setErrorMsg(error.message);
-          setLoading(false);
-          return;
-        }
-
-        if (data.session) {
-          setSuccessMsg('Conta criada com sucesso! Carregando seu ambiente...');
-        } else {
-          setSuccessMsg(
-            'Cadastro realizado! Se o e-mail de confirmação estiver ativado no Supabase, verifique sua caixa de entrada.'
-          );
         }
       } else {
         // Redefinição de senha
@@ -153,44 +120,10 @@ export const AuthGate: React.FC = () => {
                 HNC
               </h1>
               <p className="text-xs text-ink-2 leading-relaxed max-w-xs mx-auto">
-                Acesse sua conta para continuar
+                {tab === 'login'
+                  ? 'Acesso restrito — informe suas credenciais para entrar'
+                  : 'Digite seu e-mail para receber as instruções de recuperação'}
               </p>
-            </div>
-
-            {/* Alternador de Abas */}
-            <div className="grid grid-cols-2 p-1 rounded-xl bg-surface-2 border border-border">
-              <button
-                type="button"
-                onClick={() => {
-                  setTab('login');
-                  setErrorMsg(null);
-                  setSuccessMsg(null);
-                }}
-                className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                  tab === 'login'
-                    ? 'bg-surface text-ink shadow-editorial-sm border border-border'
-                    : 'text-ink-2 hover:text-ink'
-                }`}
-              >
-                <LogIn className="w-3.5 h-3.5" />
-                <span>Entrar</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setTab('signup');
-                  setErrorMsg(null);
-                  setSuccessMsg(null);
-                }}
-                className={`py-2 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                  tab === 'signup'
-                    ? 'bg-surface text-ink shadow-editorial-sm border border-border'
-                    : 'text-ink-2 hover:text-ink'
-                }`}
-              >
-                <UserPlus className="w-3.5 h-3.5" />
-                <span>Criar Conta</span>
-              </button>
             </div>
 
             {/* Alertas de Feedback */}
@@ -222,70 +155,56 @@ export const AuthGate: React.FC = () => {
 
             {/* Formulário */}
             <form onSubmit={handleSubmit} className="space-y-4">
-              {tab === 'signup' && (
+              <div>
+                <label className="block text-xs font-semibold text-ink-2 mb-1.5">
+                  {tab === 'login' ? 'Usuário ou E-mail' : 'E-mail cadastrado'}
+                </label>
+                <div className="relative">
+                  <User className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
+                  <input
+                    type={tab === 'login' ? 'text' : 'email'}
+                    required
+                    autoComplete={tab === 'login' ? 'username' : 'email'}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder={tab === 'login' ? 'teste ou seu-email@exemplo.com' : 'seu-email@exemplo.com'}
+                    className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none transition-all"
+                  />
+                </div>
+              </div>
+
+              {tab === 'login' && (
                 <div>
-                  <label className="block text-xs font-semibold text-ink-2 mb-1.5">
-                    Nome Completo
-                  </label>
+                  <div className="flex items-center justify-between mb-1.5">
+                    <label className="text-xs font-semibold text-ink-2">
+                      Senha
+                    </label>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setTab('reset');
+                        setErrorMsg(null);
+                        setSuccessMsg(null);
+                      }}
+                      className="text-[11px] text-accent hover:underline cursor-pointer"
+                    >
+                      Esqueceu a senha?
+                    </button>
+                  </div>
                   <div className="relative">
-                    <User className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
+                    <KeyRound className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
                     <input
-                      type="text"
+                      type="password"
                       required
-                      value={nome}
-                      onChange={(e) => setNome(e.target.value)}
-                      placeholder="Ex: Heuller Rodrigues"
+                      autoComplete="current-password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="Sua senha"
                       className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none transition-all"
                     />
                   </div>
                 </div>
               )}
-
-              <div>
-                <label className="block text-xs font-semibold text-ink-2 mb-1.5">
-                  Usuário ou E-mail
-                </label>
-                <div className="relative">
-                  <User className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
-                  <input
-                    type="text"
-                    required
-                    autoComplete="username"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="teste ou seu-email@exemplo.com"
-                    className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none transition-all"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <div className="flex items-center justify-between mb-1.5">
-                  <label className="text-xs font-semibold text-ink-2">
-                    Senha
-                  </label>
-                  {tab === 'login' && (
-                    <button
-                      type="button"
-                      onClick={() => setTab('reset')}
-                      className="text-[11px] text-accent hover:underline cursor-pointer"
-                    >
-                      Esqueceu a senha?
-                    </button>
-                  )}
-                </div>
-                <div className="relative">
-                  <KeyRound className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3" />
-                  <input
-                    type="password"
-                    required
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Mínimo 6 caracteres"
-                    className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none transition-all"
-                  />
-                </div>
-              </div>
 
               <div className="pt-2">
                 <button
@@ -303,11 +222,6 @@ export const AuthGate: React.FC = () => {
                       <LogIn className="w-4 h-4" />
                       <span>Entrar</span>
                     </>
-                  ) : tab === 'signup' ? (
-                    <>
-                      <UserPlus className="w-4 h-4" />
-                      <span>Criar Conta</span>
-                    </>
                   ) : (
                     <>
                       <Mail className="w-4 h-4" />
@@ -321,7 +235,11 @@ export const AuthGate: React.FC = () => {
                 <div className="text-center pt-1">
                   <button
                     type="button"
-                    onClick={() => setTab('login')}
+                    onClick={() => {
+                      setTab('login');
+                      setErrorMsg(null);
+                      setSuccessMsg(null);
+                    }}
                     className="text-xs text-ink-2 hover:text-ink underline cursor-pointer"
                   >
                     Voltar para o Login
