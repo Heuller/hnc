@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   BookMarked,
   RotateCcw,
@@ -10,10 +10,13 @@ import {
   AlertTriangle,
   ExternalLink,
   BookOpen,
+  Scale,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { getItensCadernoErros, type ItemCadernoErro } from '../domain/cadernoErros';
+import { DialogoBancaModal } from '../components/cadernoErros/DialogoBancaModal';
+import { carregarSessoesDoStorage } from '../domain/socratic/socraticService';
 
 export const CadernoErrosPage: React.FC = () => {
   const { checkpointsRespondidos, historicoSimulados, salvarCheckpoint } = useProgressStore();
@@ -25,6 +28,14 @@ export const CadernoErrosPage: React.FC = () => {
 
   // Estado para tentativa de refazer item no próprio card
   const [tentativas, setTentativas] = useState<Record<string, 'C' | 'E'>>({});
+
+  // Estado do Diálogo Socrático com a Banca
+  const [itemSocraticoAtivo, setItemSocraticoAtivo] = useState<ItemCadernoErro | null>(null);
+  const [sessoesStorage, setSessoesStorage] = useState<Record<string, { superado: boolean }>>({});
+
+  useEffect(() => {
+    setSessoesStorage(carregarSessoesDoStorage());
+  }, []);
 
   const todosErros: ItemCadernoErro[] = useMemo(() => {
     return getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
@@ -400,12 +411,51 @@ export const CadernoErrosPage: React.FC = () => {
                       </div>
                     </div>
                   )}
+
+                  {/* Ação Socrática: Discutir com a Banca Cebraspe (IA) */}
+                  <div className="pt-2">
+                    <button
+                      type="button"
+                      onClick={() => setItemSocraticoAtivo(item)}
+                      className="w-full py-2.5 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-950 dark:text-amber-200 font-bold text-xs flex items-center justify-between cursor-pointer transition-colors shadow-editorial-sm"
+                    >
+                      <div className="flex items-center gap-2">
+                        <Scale className="w-4 h-4 text-amber-700 dark:text-amber-400" />
+                        <span>Recorrer / Discutir com a Banca Cebraspe (IA)</span>
+                      </div>
+
+                      {sessoesStorage[item.id]?.superado ? (
+                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 font-bold flex items-center gap-1">
+                          <CheckCircle2 className="w-3 h-3" />
+                          <span>Lacuna Superada</span>
+                        </span>
+                      ) : (
+                        <span className="text-[10px] font-mono opacity-80 flex items-center gap-1 text-amber-800 dark:text-amber-300">
+                          <span>Parecer &amp; Desafio</span>
+                          <span>&rarr;</span>
+                        </span>
+                      )}
+                    </button>
+                  </div>
                 </div>
               </div>
             );
           })
         )}
       </div>
+
+      {/* Modal do Diálogo Socrático com a Banca */}
+      <DialogoBancaModal
+        item={itemSocraticoAtivo}
+        isOpen={Boolean(itemSocraticoAtivo)}
+        onClose={() => setItemSocraticoAtivo(null)}
+        onSuperadoChange={(itemId, superado) => {
+          setSessoesStorage((prev) => ({
+            ...prev,
+            [itemId]: { superado },
+          }));
+        }}
+      />
     </div>
   );
 };
