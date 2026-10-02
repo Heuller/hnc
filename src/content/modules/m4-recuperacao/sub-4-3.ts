@@ -6,7 +6,7 @@ export const submodulo43: ModuloFilho = {
   titulo: 'Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil',
   descricaoCurta: 'O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).',
   tempoEstimadoMinutos: 35,
-  autoresChave: ['Edilenice Jovelina', 'Ana Cláudia Carvalho de Miranda', 'LexML Brasil (Comitê Gestor)', 'Imprensa Nacional'],
+  autoresChave: ['Edilenice Jovelina de Miranda Passos', 'João Alberto de Oliveira Lima (idealizador da URN LexML)', 'Ana Cláudia Carvalho de Miranda', 'LexML Brasil (Comitê Gestor)', 'Imprensa Nacional'],
   alertasCebraspe: [
     'O tripé canônico da informação jurídica: Legislação (atos normativos estatais), Doutrina (estudos, livros e teses de juristas) e Jurisprudência (conjunto de decisões reiteradas dos tribunais). O Cebraspe adora trocar as funções (ex.: dizer que doutrina são as decisões judiciais: ERRADO!).',
     'Estrutura estrita do Diário Oficial da União (DOU - Imprensa Nacional): Seção 1 (Leis, decretos e atos normativos gerais); Seção 2 (Atos de pessoal: nomeação, exoneração, aposentadoria); Seção 3 (Contratos, editais, licitações e ineditoriais). A pegadinha clássica é inverter as Seções 2 e 3!',
@@ -69,7 +69,8 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
     * \`federal\` (esfera de autoridade governamental);
     * \`lei\` (tipo de documento jurídico);
     * \`1990-12-11;8112\` (data de promulgação ISO 8601 e número do ato).
-* **Esquemas XML do LexML:** Utiliza vocabulários controlados e esquemas XML (rígido para publicação oficial e flexível para ingestão distribuída) garantindo interoperabilidade com o OAI-PMH.`,
+* **Esquemas XML do LexML:** Utiliza vocabulários controlados e esquemas XML (rígido para publicação oficial e flexível para ingestão distribuída) garantindo interoperabilidade com o OAI-PMH.
+* **Governança e Integração com a RVBI (Lima & Passos, 2019):** Conforme demonstrado por João Alberto de Oliveira Lima e Edilenice Passos, o diferencial do LexML reside em conciliar o identificador persistente à governança cooperativa entre Senado Federal e Câmara dos Deputados, integrando a taxonomia jurídica às linguagens documentárias da Rede Virtual de Bibliotecas (RVBI).`,
   checkpoints: [
     {
       id: 'cp-4-3-1',

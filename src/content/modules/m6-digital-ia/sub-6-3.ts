@@ -6,7 +6,7 @@ export const submodulo63: ModuloFilho = {
   titulo: 'Preservação Digital e o Modelo de Referência OAIS (ISO 14721)',
   descricaoCurta: 'Desafios da obsolescência digital, dimensões física, lógica e intelectual, estratégias de preservação (migração, emulação, refrescamento), a arquitetura funcional do modelo OAIS (SIP, AIP e DIP) e a Rede Cariniana (LOCKSS).',
   tempoEstimadoMinutos: 35,
-  autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal'],
+  autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal', 'NDSA (Levels of Digital Preservation)'],
   alertasCebraspe: [
     'O modelo OAIS (Open Archival Information System / ISO 14721) NÃO é um software nem um sistema proprietário brasileiro de direitos autorais: é um MODELO CONCEITUAL internacional de referência para arquivos e bibliotecas digitais abertas.',
     'A tríade dos Pacotes de Informação do OAIS: SIP (Submission Information Package - enviado pelo produtor na ingestão); AIP (Archival Information Package - armazenado em custódia permanente com metadados completos de preservação); e DIP (Dissemination Information Package - entregue ao usuário na busca).',
@@ -62,7 +62,18 @@ O modelo é composto por seis entidades funcionais interdependentes:
 
 No Brasil, o Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) criou em 2012 a **Rede Cariniana**:
 * É a **Rede Brasileira de Serviços de Preservação Digital**, que congrega universidades, centros de pesquisa e bibliotecas governamentais.
-* **A Tecnologia LOCKSS (*Lots of Copies Keep Stuff Safe*):** Desenvolvida pela Universidade de Stanford, baseia-se no princípio de que a segurança e preservação de documentos digitais advêm da **distribuição geográfica de múltiplas cópias redundantes** em servidores independentes que realizam auditoria contínua entre si por protocolo *peer-to-peer* (P2P), restaurando automaticamente cópias corrompidas.`,
+* **A Tecnologia LOCKSS (*Lots of Copies Keep Stuff Safe*):** Desenvolvida pela Universidade de Stanford, baseia-se no princípio de que a segurança e preservação de documentos digitais advêm da **distribuição geográfica de múltiplas cópias redundantes** em servidores independentes que realizam auditoria contínua entre si por protocolo *peer-to-peer* (P2P), restaurando automaticamente cópias corrompidas.
+ 
+---
+ 
+### 4. Confiabilidade e os Níveis de Preservação da NDSA (*Levels of Preservation*)
+ 
+Para mensurar a confiabilidade e maturidade de um Repositório Digital Confiável (RDC-Arq / ISO 16363), a *National Digital Stewardship Alliance* (NDSA) desenvolveu o modelo **Levels of Preservation (LoP)**, internacionalmente adotado para guiar intervenções práticas em 5 eixos vitais:
+1. **Armazenamento e Localização Geográfica:** Do armazenamento em mídia única com backup até cópias georreferenciadas e descentralizadas imunes a desastres regionais;
+2. **Fixidez e Integridade dos Dados:** Checagem contínua por algoritmos de *checksum* criptográfico (SHA-256) na ingestão e em auditorias periódicas automáticas de integridade binária;
+3. **Segurança da Informação:** Controle estrito de acessos, privilégios baseados em papéis e trilhas auditáveis de logs de modificação;
+4. **Metadados de Preservação:** Estruturação de esquemas de metadados técnicos, contextuais e de proveniência (padrão PREMIS e METS);
+5. **Formatos de Arquivo:** Inventário e monitoramento de formatos aceitos, preferência absoluta por padrões abertos e não proprietários (ex.: PDF/A, TIFF, XML) e planos de migração automatizados.`,
   checkpoints: [
     {
       id: 'cp-6-3-1',

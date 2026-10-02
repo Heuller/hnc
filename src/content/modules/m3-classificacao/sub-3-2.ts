@@ -6,7 +6,7 @@ export const submodulo32: ModuloFilho = {
   titulo: 'Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)',
   descricaoCurta: 'A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, composição do número de chamada e as tabelas de notação de autor (Cutter, Cutter-Sanborn e PHA).',
   tempoEstimadoMinutos: 30,
-  autoresChave: ['Doris de Queiroz Carvalho', 'Charles Ammi Cutter', 'Kate Emery Sanborn', 'Paulo Henrique de Assis (PHA)'],
+  autoresChave: ['Doris de Queiroz Carvalho', 'Comissão de Atualização da CDDir / RVBI (Arouck, Jaegger & Pinha)', 'Charles Ammi Cutter', 'Kate Emery Sanborn', 'Paulo Henrique de Assis (PHA)'],
   alertasCebraspe: [
     'A CDDir foi criada pela bibliotecária brasileira Doris de Queiroz Carvalho para suprir a deficiência das tabelas gerais (CDD e CDU) no tratamento das ramificações específicas do Direito brasileiro e comparado.',
     'Divisões de Forma na CDDir: servem para reunir obras que tratam do mesmo assunto sob uma forma de apresentação documental idêntica (ex.: dicionários, códigos, anteprojetos de lei, comentários legislativos).',
@@ -34,7 +34,7 @@ A Classificação Decimal de Direito (CDDir), publicada originalmente na década
 
 #### A. Razão Histórica e Epistemológica
 Os sistemas universais de classificação (como a CDD e a CDU) foram estruturados a partir da tradição jurídica anglo-saxônica (*Common Law*), apresentando profundas deficiências para classificar o ordenamento jurídico de tradição romano-germânica (*Civil Law*) vigente no Brasil.
-A CDDir resolveu esse problema ao criar uma hierarquia detalhada para o Direito Positivo Brasileiro, sendo adotada como padrão na **Rede Virtual de Bibliotecas (RVBI)**, na Biblioteca da Câmara dos Deputados, no Senado Federal, no STF, no STJ e na Procuradoria-Geral da República.
+A CDDir resolveu esse problema ao criar uma hierarquia detalhada para o Direito Positivo Brasileiro, sendo adotada como padrão na **Rede Virtual de Bibliotecas (RVBI)**, na Biblioteca da Câmara dos Deputados, no Senado Federal, no STF, no STJ e na Procuradoria-Geral da República. Conforme sistematizado por Osmar Arouck, Fátima Jaegger e Stelina Pinha (comissão da RVBI), a CDDir passou por quatro edições históricas (1948, 1953, 1977 e 2002) com estudos contínuos de expansão, servindo ainda de alicerce para a taxonomia e recuperação temática do Portal LexML Brasil.
 
 #### B. As Divisões de Forma na CDDir
 Para além do assunto substantivo (as classes 341 a 349), a CDDir introduz **divisões de forma**, que permitem categorizar o formato de apresentação ou tratamento do documento:
