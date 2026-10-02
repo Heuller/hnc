@@ -212,10 +212,14 @@ export function getModuleTheme(key: string | number | undefined): ModuleTheme {
 
 export type SubmoduleState =
   | 'nao_iniciado'
+  | 'disponivel'
   | 'em_andamento'
   | 'em_revisao'
+  | 'em_revisao_dirigida'
   | 'concluido'
+  | 'concluida'
   | 'bloqueado'
+  | 'bloqueada'
   | 'planejado';
 
 export interface SubmoduleStatusInfo {

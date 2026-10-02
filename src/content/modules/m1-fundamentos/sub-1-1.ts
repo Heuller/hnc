@@ -4,6 +4,7 @@ export const submodulo11: ModuloFilho = {
   id: 'sub-1-1',
   numero: '1.1',
   titulo: 'Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica',
+  titulo_curto: 'Biblioteconomia, Documentação e CI',
   descricaoCurta: 'Gênese disciplinar, Paul Otlet e o Tratado de Documentação, Harold Borko e a emergência da CI pós-guerra, interdisciplinaridade e as divisões de Le Coadic.',
   tempoEstimadoMinutos: 25,
   autoresChave: ['Paul Otlet', 'Henri La Fontaine', 'Harold Borko', 'Yves-François Le Coadic', 'Tefko Saracevic', 'Vannevar Bush'],

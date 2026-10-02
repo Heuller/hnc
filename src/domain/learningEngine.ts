@@ -1,6 +1,27 @@
 import type { ModuloFilho } from './types';
+import {
+  JORNADA_CONFIG,
+  calcularAcertosNecessarios,
+} from '../config/jornada.config';
 
-export type SubmoduleStatus = 'nao_iniciado' | 'em_andamento' | 'em_revisao' | 'concluido';
+/**
+ * Estados estritos da Jornada e Submódulos (Regra B3 e D.1):
+ * - bloqueada: etapa bloqueada até que o pré-requisito seja concluído
+ * - disponivel: desbloqueada, mas ainda sem nenhuma atividade registrada
+ * - em_andamento: iniciada (leitura em curso ou verificação incompleta)
+ * - em_revisao_dirigida: verificação realizada COM APROVEITAMENTO ABAIXO DO MÍNIMO (85%)
+ * - concluida: leitura e verificação concluídas com aproveitamento >= 85%
+ */
+export type SubmoduleStatus =
+  | 'bloqueada'
+  | 'disponivel'
+  | 'em_andamento'
+  | 'em_revisao_dirigida'
+  | 'concluida';
+
+export function isSubmoduleConcluido(status: SubmoduleStatus | string): boolean {
+  return status === 'concluida' || status === 'concluido';
+}
 
 export interface SubmoduleLearningState {
   submoduloId: string;
@@ -13,7 +34,10 @@ export interface SubmoduleLearningState {
   checkpointsRespondidosCount: number;
   checkpointsAcertosCount: number;
   taxaAcertoPercent: number;
-  atingiuCriterioAcerto: boolean; // >= 70%
+  atingiuCriterioAcerto: boolean; // >= 85%
+  acertosNecessarios: number;
+  errosMaximos: number;
+  aproveitamentoMinimoPercent: number;
   explicacaoStatus: string;
   badgeLabel: string;
 }
@@ -40,21 +64,23 @@ export function getRequiredSectionsForSubmodule(submodulo: ModuloFilho): string[
 }
 
 /**
- * Calcula o status de aprendizagem estrito de um submódulo:
- * - nao_iniciado: nenhuma seção visualizada E nenhum checkpoint respondido
- * - em_andamento: pelo menos 1 seção visualizada, mas nem todas as seções vistas (ou checkpoints em aberto)
- * - em_revisao: todas as seções visualizadas MAS taxa de acerto nos checkpoints < 70%
- * - concluido: todas as seções visualizadas E taxa de acerto nos checkpoints >= 70%
+ * Calcula o status de aprendizagem estrito de um submódulo (Regra B3):
+ * - bloqueada: se isBloqueada for true (etapa anterior não concluída)
+ * - disponivel: seções e checkpoints zerados
+ * - em_andamento: leitura em curso ou verificação em andamento (nem todos os checkpoints respondidos)
+ * - em_revisao_dirigida: SÓ EXISTE se a verificação foi realizada integralmente E o aproveitamento < 85%
+ * - concluida: todas as seções visualizadas E aproveitamento na verificação >= 85%
  */
 export function calculateSubmoduleStatus(
   submodulo: ModuloFilho,
   secoesVisualizadasIds: string[] = [],
-  checkpointsRespondidos: Record<string, 'C' | 'E'> = {}
+  checkpointsRespondidos: Record<string, 'C' | 'E'> = {},
+  isBloqueada = false
 ): SubmoduleLearningState {
   const requiredSections = getRequiredSectionsForSubmodule(submodulo);
   const secoesLidasSet = new Set(secoesVisualizadasIds);
   const secoesLidasCount = requiredSections.filter((s) => secoesLidasSet.has(s)).length;
-  const todasSecoesLidas = secoesLidasCount === requiredSections.length;
+  const todasSecoesLidas = requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
 
   const checkpoints = submodulo.checkpoints || [];
   const checkpointsTotal = checkpoints.length;
@@ -72,36 +98,50 @@ export function calculateSubmoduleStatus(
     }
   }
 
+  const aproveitamentoMinimo = JORNADA_CONFIG.aproveitamentoMinimo; // 0.85
+  const aproveitamentoMinimoPercent = Math.round(aproveitamentoMinimo * 100); // 85%
+  const acertosNecessarios = calcularAcertosNecessarios(checkpointsTotal);
+  const errosMaximos = Math.max(0, checkpointsTotal - acertosNecessarios);
+
   const taxaAcertoPercent =
     checkpointsTotal > 0
       ? Math.round((checkpointsAcertosCount / checkpointsTotal) * 100)
       : 100;
 
-  const atingiuCriterioAcerto = checkpointsTotal === 0 || taxaAcertoPercent >= 70;
+  const atingiuCriterioAcerto =
+    checkpointsTotal === 0 || checkpointsAcertosCount >= acertosNecessarios;
 
-  let status: SubmoduleStatus = 'nao_iniciado';
-  let explicacaoStatus = 'Submódulo ainda não iniciado. Inicie pela fundamentação teórica e autores.';
-  let badgeLabel = 'Não Iniciado';
+  // Verificação realizada: todos os checkpoints existentes foram respondidos
+  const verificacaoRealizada =
+    checkpointsTotal > 0 && checkpointsRespondidosCount >= checkpointsTotal;
 
-  const temAlgumaAtividade = secoesLidasCount > 0 || checkpointsRespondidosCount > 0;
+  let status: SubmoduleStatus = 'disponivel';
+  let explicacaoStatus = '';
+  let badgeLabel = 'Disponível';
 
-  if (!temAlgumaAtividade) {
-    status = 'nao_iniciado';
-    explicacaoStatus = 'Ainda não iniciado. Acesse o conteúdo para começar.';
-    badgeLabel = 'Não Iniciado';
-  } else if (todasSecoesLidas && atingiuCriterioAcerto && checkpointsRespondidosCount === checkpointsTotal) {
-    status = 'concluido';
-    explicacaoStatus = `Submódulo dominado! Todas as seções foram estudadas com ${taxaAcertoPercent}% de aproveitamento nos checkpoints.`;
-    badgeLabel = 'Concluído';
-  } else if (todasSecoesLidas && (!atingiuCriterioAcerto || checkpointsRespondidosCount < checkpointsTotal)) {
-    status = 'em_revisao';
-    explicacaoStatus = `Todas as seções foram lidas, mas o aproveitamento nos itens de fixação é de ${taxaAcertoPercent}% (mínimo exigido: 70%). Revise os pontos fracos.`;
-    badgeLabel = 'Em Revisão';
+  if (isBloqueada) {
+    status = 'bloqueada';
+    badgeLabel = 'Bloqueada';
+    explicacaoStatus = `Submódulo bloqueado. Conclua a etapa anterior com aproveitamento mínimo de ${aproveitamentoMinimoPercent}%.`;
+  } else if (secoesLidasCount === 0 && checkpointsRespondidosCount === 0) {
+    status = 'disponivel';
+    badgeLabel = 'Disponível';
+    explicacaoStatus = 'Disponível para estudo. Inicie pela leitura dos fundamentos teóricos.';
+  } else if (todasSecoesLidas && verificacaoRealizada && atingiuCriterioAcerto) {
+    status = 'concluida';
+    badgeLabel = 'Concluída';
+    explicacaoStatus = `Submódulo concluído com domínio! ${checkpointsAcertosCount} acertos em ${checkpointsTotal} itens (${taxaAcertoPercent}%, mínimo de ${aproveitamentoMinimoPercent}%).`;
+  } else if (verificacaoRealizada && !atingiuCriterioAcerto) {
+    // REGRA B3: "Em revisão dirigida" SÓ existe após a verificação ser feita com aproveitamento abaixo do mínimo.
+    status = 'em_revisao_dirigida';
+    badgeLabel = 'Em Revisão Dirigida';
+    explicacaoStatus = `Aproveitamento de ${taxaAcertoPercent}% (${checkpointsAcertosCount}/${checkpointsTotal} acertos) abaixo do mínimo exigido de ${aproveitamentoMinimoPercent}% (${acertosNecessarios} acertos, máx. ${errosMaximos} erros). Releia os tópicos associados aos erros antes de nova tentativa.`;
   } else {
     status = 'em_andamento';
-    const faltamSecoes = requiredSections.length - secoesLidasCount;
-    explicacaoStatus = `Em andamento: ${secoesLidasCount} de ${requiredSections.length} seções lidas (${faltamSecoes} pendente${faltamSecoes > 1 ? 's' : ''}).`;
     badgeLabel = 'Em Andamento';
+    const faltamSecoes = Math.max(0, requiredSections.length - secoesLidasCount);
+    const pendenciaCheckpoints = checkpointsTotal - checkpointsRespondidosCount;
+    explicacaoStatus = `Em andamento: ${secoesLidasCount}/${requiredSections.length} seções lidas (${faltamSecoes} pendente${faltamSecoes !== 1 ? 's' : ''}); ${pendenciaCheckpoints} item(ns) de verificação pendente(s).`;
   }
 
   return {
@@ -116,6 +156,9 @@ export function calculateSubmoduleStatus(
     checkpointsAcertosCount,
     taxaAcertoPercent,
     atingiuCriterioAcerto,
+    acertosNecessarios,
+    errosMaximos,
+    aproveitamentoMinimoPercent,
     explicacaoStatus,
     badgeLabel,
   };
@@ -133,7 +176,7 @@ export interface SimuladoAccessControl {
 /**
  * Avalia se o Simulado de 100 Questões está liberado.
  * Para o Simulado Geral de Fundamentos (ou Geral do Curso), exige que os submódulos
- * estejam no status 'concluido' (ou ativação de bypass em desenvolvimento).
+ * estejam no status 'concluida' (ou ativação de bypass em desenvolvimento).
  */
 export function checkSimuladoAccess(
   allSubmodules: ModuloFilho[],
@@ -158,7 +201,7 @@ export function checkSimuladoAccess(
   for (const sub of allSubmodules) {
     const secoesVistas = secoesPorSubmodulo[sub.id] || [];
     const state = calculateSubmoduleStatus(sub, secoesVistas, checkpointsRespondidos);
-    if (state.status === 'concluido') {
+    if (isSubmoduleConcluido(state.status)) {
       concluidosCount++;
     } else {
       pendentes.push({
@@ -176,9 +219,10 @@ export function checkSimuladoAccess(
       ? Math.round((concluidosCount / allSubmodules.length) * 100)
       : 0;
 
+  const minPercent = Math.round(JORNADA_CONFIG.aproveitamentoMinimo * 100);
   const mensagemBloqueio = isUnlocked
-    ? 'Parabéns! Todos os requisitos pedagógicos foram cumpridos. Simulado 100Q liberado.'
-    : `Simulado bloqueado. Você concluiu ${concluidosCount} de ${allSubmodules.length} submódulos exigidos. Conclua a leitura integral e atinja ao menos 70% de acerto nos checkpoints dos submódulos pendentes para liberar.`;
+    ? 'Parabéns! Todos os requisitos pedagógicos foram cumpridos. Simulado liberado.'
+    : `Simulado bloqueado. Você concluiu ${concluidosCount} de ${allSubmodules.length} submódulos exigidos. Conclua a leitura integral e atinja ao menos ${minPercent}% de acerto nos checkpoints dos submódulos pendentes para liberar.`;
 
   return {
     isUnlocked,

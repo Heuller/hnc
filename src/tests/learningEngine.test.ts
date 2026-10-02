@@ -6,7 +6,7 @@ import {
 } from '../domain/learningEngine';
 import type { ModuloFilho } from '../domain/types';
 
-describe('Motor de Aprendizagem e Máquina de Estados (learningEngine)', () => {
+describe('Motor de Aprendizagem e Máquina de Estados (learningEngine - Regra B3)', () => {
   const mockSubmodulo: ModuloFilho = {
     id: 'sub-test-1',
     numero: '1.1',
@@ -63,11 +63,18 @@ describe('Motor de Aprendizagem e Máquina de Estados (learningEngine)', () => {
     ]);
   });
 
-  it('deve iniciar no status nao_iniciado quando não há seções nem respostas', () => {
+  it('deve iniciar no status disponivel quando não há seções nem respostas (Regra B3)', () => {
     const state = calculateSubmoduleStatus(mockSubmodulo, [], {});
-    expect(state.status).toBe('nao_iniciado');
+    expect(state.status).toBe('disponivel');
     expect(state.secoesLidasCount).toBe(0);
     expect(state.todasSecoesLidas).toBe(false);
+    expect(state.badgeLabel).toBe('Disponível');
+  });
+
+  it('deve retornar bloqueada se isBloqueada for true (Regra B3)', () => {
+    const state = calculateSubmoduleStatus(mockSubmodulo, [], {}, true);
+    expect(state.status).toBe('bloqueada');
+    expect(state.badgeLabel).toBe('Bloqueada');
   });
 
   it('deve transicionar para em_andamento quando ao menos 1 seção foi vista', () => {
@@ -77,32 +84,43 @@ describe('Motor de Aprendizagem e Máquina de Estados (learningEngine)', () => {
     expect(state.todasSecoesLidas).toBe(false);
   });
 
-  it('deve transicionar para em_revisao quando todas as seções foram vistas mas acertos < 70%', () => {
+  it('NÃO deve mostrar em_revisao_dirigida se todas as seções foram lidas mas a verificação não foi feita (Regra B3)', () => {
     const required = getRequiredSectionsForSubmodule(mockSubmodulo);
-    // 3 checkpoints: respondeu apenas 1 certo de 3 = 33% (< 70%)
+    // Leu todas as seções, mas ainda não respondeu nenhum checkpoint
+    const state = calculateSubmoduleStatus(mockSubmodulo, required, {});
+    expect(state.status).toBe('em_andamento');
+    expect(state.todasSecoesLidas).toBe(true);
+    expect(state.checkpointsRespondidosCount).toBe(0);
+  });
+
+  it('deve transicionar para em_revisao_dirigida SOMENTE após a verificação ser realizada com aproveitamento < 85% (Regra B3)', () => {
+    const required = getRequiredSectionsForSubmodule(mockSubmodulo);
+    // 3 checkpoints respondidos: 1 certo de 3 = 33% (< 85%)
     const state = calculateSubmoduleStatus(mockSubmodulo, required, {
       'cp-1': 'C', // certo
       'cp-2': 'C', // errado (gabarito é E)
       'cp-3': 'E', // errado (gabarito é C)
     });
-    expect(state.status).toBe('em_revisao');
+    expect(state.status).toBe('em_revisao_dirigida');
     expect(state.todasSecoesLidas).toBe(true);
     expect(state.taxaAcertoPercent).toBe(33);
     expect(state.atingiuCriterioAcerto).toBe(false);
+    expect(state.badgeLabel).toBe('Em Revisão Dirigida');
   });
 
-  it('deve transicionar para concluido quando todas as seções vistas E taxa de acerto >= 70%', () => {
+  it('deve transicionar para concluida quando todas as seções vistas E taxa de acerto >= 85%', () => {
     const required = getRequiredSectionsForSubmodule(mockSubmodulo);
-    // 3 checkpoints: 3 certos de 3 = 100%
+    // 3 checkpoints: 3 certos de 3 = 100% (>= 85%)
     const state = calculateSubmoduleStatus(mockSubmodulo, required, {
       'cp-1': 'C',
       'cp-2': 'E',
       'cp-3': 'C',
     });
-    expect(state.status).toBe('concluido');
+    expect(state.status).toBe('concluida');
     expect(state.todasSecoesLidas).toBe(true);
     expect(state.taxaAcertoPercent).toBe(100);
     expect(state.atingiuCriterioAcerto).toBe(true);
+    expect(state.badgeLabel).toBe('Concluída');
   });
 
   describe('Bloqueio do Simulado de 100 Questões (checkSimuladoAccess)', () => {
@@ -114,7 +132,7 @@ describe('Motor de Aprendizagem e Máquina de Estados (learningEngine)', () => {
       expect(access.mensagemBloqueio).toContain('Simulado bloqueado');
     });
 
-    it('deve desbloquear o simulado quando todos os submódulos atingirem status concluido', () => {
+    it('deve desbloquear o simulado quando todos os submódulos atingirem status concluida', () => {
       const required = getRequiredSectionsForSubmodule(mockSubmodulo);
       const secoesMap = { [mockSubmodulo.id]: required };
       const respostas = { 'cp-1': 'C' as const, 'cp-2': 'E' as const, 'cp-3': 'C' as const };
@@ -129,7 +147,7 @@ describe('Motor de Aprendizagem e Máquina de Estados (learningEngine)', () => {
     it('deve permitir bypass via modo desenvolvedor', () => {
       const access = checkSimuladoAccess([mockSubmodulo], {}, {}, true);
       expect(access.isUnlocked).toBe(true);
-      expect(access.mensagemBloqueio).toContain('Bypass ativo');
+      expect(access.mensagemBloqueio).toContain('Modo Desenvolvedor');
     });
   });
 });

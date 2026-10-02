@@ -79,30 +79,48 @@ export function App() {
     return <AuthGate />;
   }
 
+  const renderActiveView = () => {
+    switch (activeView) {
+      case 'painel':
+        return <PainelPage />;
+      case 'teoria':
+        return <TeoriaPage />;
+      case 'simulado':
+        return <SimuladoPage />;
+      case 'radar':
+        return <RadarPage />;
+      case 'progresso':
+        return <ProgressoPage />;
+      case 'caderno-erros':
+        return <CadernoErrosPage />;
+      case 'folha-vespera':
+        return <FolhaVesperaPage />;
+      case 'design-system':
+        return import.meta.env.DEV ? <DesignSystemPage /> : <PainelPage />;
+      case 'dev-rascunhos':
+        return <DevRascunhosPage />;
+      default:
+        return <PainelPage />;
+    }
+  };
+
   return (
     <AppShell>
       <ErrorBoundary>
-        <Suspense fallback={<PageSkeletonLoader />}>
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={activeView}
-              initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
-              animate={shouldReduceMotion ? { opacity: 1 } : { opacity: 1, y: 0 }}
-              exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -8 }}
-              transition={{ duration: 0.2, ease: 'easeOut' }}
-            >
-              {activeView === 'painel' && <PainelPage />}
-              {activeView === 'teoria' && <TeoriaPage />}
-              {activeView === 'simulado' && <SimuladoPage />}
-              {activeView === 'radar' && <RadarPage />}
-              {activeView === 'progresso' && <ProgressoPage />}
-              {activeView === 'caderno-erros' && <CadernoErrosPage />}
-              {activeView === 'folha-vespera' && <FolhaVesperaPage />}
-              {activeView === 'design-system' && import.meta.env.DEV && <DesignSystemPage />}
-              {activeView === 'dev-rascunhos' && <DevRascunhosPage />}
-            </motion.div>
-          </AnimatePresence>
-        </Suspense>
+        <AnimatePresence mode="wait" initial={false}>
+          <motion.div
+            key={activeView}
+            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -6 }}
+            transition={{ duration: 0.18, ease: 'easeOut' }}
+            className="w-full"
+          >
+            <Suspense fallback={<PageSkeletonLoader />}>
+              {renderActiveView()}
+            </Suspense>
+          </motion.div>
+        </AnimatePresence>
       </ErrorBoundary>
     </AppShell>
   );

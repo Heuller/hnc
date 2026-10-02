@@ -7,6 +7,7 @@ import { useAuthStore } from '../../store/useAuthStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
+import { getSearchShortcutLabel } from '../../utils/platform';
 
 interface HeaderProps {
   onOpenSearch?: () => void;
@@ -76,6 +77,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   <span className="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-emerald-500" />
                 )}
               </button>
+              <ThemeToggle compact={true} />
               <MobileMoreMenu />
             </div>
 
@@ -135,7 +137,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
         {/* Center: Desktop Navigation Tabs */}
         <nav
-          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-theme-surface-2 border border-theme relative"
+          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-surface-2 border border-border relative"
           aria-label="Navegação principal"
         >
           {navItems.map((item) => {
@@ -153,7 +155,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                 {isActive && (
                   <motion.span
                     layoutId="activeNavPill"
-                    className="absolute inset-0 rounded bg-surface shadow-editorial-sm border border-border -z-10"
+                    className="absolute inset-0 rounded bg-surface shadow-editorial-sm border border-border z-0"
                     transition={{ type: 'spring', stiffness: 400, damping: 30 }}
                   />
                 )}
@@ -172,13 +174,13 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             type="button"
             onClick={onOpenSearch}
             className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
-            title="Busca Global (Ctrl+K)"
+            title={`Busca Global (${getSearchShortcutLabel()})`}
             aria-label="Abrir busca global"
           >
             <Search className="w-3.5 h-3.5 text-accent" />
             <span className="font-sans text-xs">Buscar</span>
             <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2">
-              ⌘K
+              {getSearchShortcutLabel()}
             </span>
           </button>
           {import.meta.env.DEV && (

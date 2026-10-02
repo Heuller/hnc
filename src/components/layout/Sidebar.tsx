@@ -181,7 +181,7 @@ export const Sidebar: React.FC = () => {
             <ModuleBadge moduleId={modulo.id} size="sm" className="mt-0.5 shrink-0" />
             <div className="min-w-0 flex-1">
               <h3 className="text-xs font-bold text-ink leading-snug line-clamp-2 group-hover:text-ink transition-colors">
-                {modulo.titulo}
+                {modulo.titulo_curto || modulo.titulo}
               </h3>
               <div className="text-[10px] text-ink-2 font-mono mt-0.5">
                 {completedSubs}/{totalSubs} concluídos
@@ -253,7 +253,7 @@ export const Sidebar: React.FC = () => {
                           {sub.numero}
                         </span>
                         <span className="line-clamp-2 leading-snug text-ink flex-1">
-                          {sub.titulo}
+                          {sub.titulo_curto || sub.titulo}
                         </span>
                       </div>
                       <ChevronRight

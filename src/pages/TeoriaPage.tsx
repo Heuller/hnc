@@ -21,6 +21,8 @@ import {
   RotateCcw,
   ShieldCheck,
   Sliders,
+  ChevronDown,
+  Lock,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
@@ -160,90 +162,48 @@ export const TeoriaPage: React.FC = () => {
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura com largura configurável */}
         <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-8`}>
-          {/* Seletor de Macro-Módulos (Blocos A a J / M1 a M10) */}
-          <div className="space-y-2">
-            <div className="flex items-center justify-between text-xs font-sans text-ink-2 px-1">
-              <span className="font-semibold uppercase tracking-wider flex items-center gap-1.5">
-                <BookOpen className="w-3.5 h-3.5 text-accent" />
-                Blocos Curriculares da Câmara
-              </span>
-              <span className="font-mono">
-                {currentMacro.codigo} ({currentMacro.modulosFilhos.length} subtópicos)
-              </span>
-            </div>
-
-            {/* Scroll horizontal com os 10 blocos */}
-            <div className="flex items-center gap-1.5 p-1.5 bg-surface-2/70 rounded-xl border border-border overflow-x-auto no-scrollbar">
-              {COURSE_REGISTRY.map((macro) => {
-                const isCurrentMacro = macro.id === currentMacro.id;
-                const subsLidosCount = macro.modulosFilhos.filter((s) =>
-                  modulosLidosIds.includes(s.id)
-                ).length;
-                const isMacroFullCompleted =
-                  subsLidosCount === macro.modulosFilhos.length;
-
-                return (
-                  <button
-                    key={macro.id}
-                    type="button"
-                    onClick={() => {
-                      setSelectedSubmodule(macro.modulosFilhos[0].numero);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}
-                    className={`shrink-0 py-1.5 px-3 rounded-lg text-xs font-sans font-semibold flex items-center gap-1.5 transition-all whitespace-nowrap ${
-                      isCurrentMacro
-                        ? 'bg-surface text-ink shadow-xs border border-border/80'
-                        : 'text-ink-2 hover:text-ink hover:bg-surface/50'
-                    }`}
-                  >
-                    <span>{macro.codigo}</span>
-                    <span className="hidden sm:inline text-[11px] font-normal opacity-80">
-                      {macro.titulo.split(' ')[0]}
-                    </span>
-                    {isMacroFullCompleted && (
-                      <CheckCircle2 className="w-3 h-3 text-ok shrink-0" />
-                    )}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Seletor Segmentado de Submódulos do Macro-Módulo Ativo (Grid 2x2 no mobile, 4 colunas em sm+ - Parte F) */}
-            <nav
-              aria-label={`Submódulos de ${currentMacro.titulo}`}
-              className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 p-1.5 bg-surface-2 rounded-xl border border-border"
+          {/* Regra B6: No desktop mantenha só a sidebar; no mobile, um único seletor limpo sem redundâncias */}
+          <div className="block lg:hidden space-y-2 mb-4">
+            <label
+              htmlFor="mobile-submodule-selector"
+              className="text-xs font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
             >
-              {currentMacro.modulosFilhos.map((sub) => {
-                const active = sub.id === currentSub.id;
-                const completed = modulosLidosIds.includes(sub.id);
-
-                return (
-                  <button
-                    key={sub.id}
-                    type="button"
-                    onClick={() => {
-                      setSelectedSubmodule(sub.numero);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}
-                    className={`min-h-[44px] py-2 px-2.5 rounded-lg text-xs font-sans font-semibold flex items-center justify-between gap-1.5 transition-colors cursor-pointer ${
-                      active
-                        ? 'bg-surface text-ink shadow-xs border border-border/80'
-                        : 'text-ink-2 hover:text-ink hover:bg-surface/50'
-                    }`}
+              <span className="flex items-center gap-1.5">
+                <BookOpen className="w-3.5 h-3.5 text-accent" />
+                Navegar por Submódulo
+              </span>
+              <span className="text-[11px] text-accent font-sans">
+                {currentMacro.codigo} • {currentSub.numero}
+              </span>
+            </label>
+            <div className="relative">
+              <select
+                id="mobile-submodule-selector"
+                value={currentSub.numero}
+                onChange={(e) => {
+                  setSelectedSubmodule(e.target.value);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="w-full py-2.5 pl-3 pr-10 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer shadow-editorial-xs"
+              >
+                {COURSE_REGISTRY.map((macro) => (
+                  <optgroup
+                    key={macro.id}
+                    label={`${macro.codigo} — ${macro.titulo_curto || macro.titulo}`}
                   >
-                    <div className="flex items-center gap-1.5 min-w-0">
-                      <span className="font-mono text-xs shrink-0 font-bold">{sub.numero}</span>
-                      <span className="truncate text-[11px] font-normal text-left">
-                        {sub.titulo}
-                      </span>
-                    </div>
-                    {completed && (
-                      <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0 ml-1" />
-                    )}
-                  </button>
-                );
-              })}
-            </nav>
+                    {macro.modulosFilhos.map((sub) => {
+                      const completed = modulosLidosIds.includes(sub.id);
+                      return (
+                        <option key={sub.id} value={sub.numero}>
+                          {completed ? '✓ ' : ''}{sub.numero} — {sub.titulo_curto || sub.titulo}
+                        </option>
+                      );
+                    })}
+                  </optgroup>
+                ))}
+              </select>
+              <ChevronDown className="w-4 h-4 text-ink-2 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Cabeçalho do Submódulo */}
@@ -283,15 +243,15 @@ export const TeoriaPage: React.FC = () => {
             </h1>
 
             <div className="flex items-center justify-between pt-2">
-              {learningState.status === 'concluido' ? (
+              {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
                   <CheckCircle2 className="w-4 h-4" />
-                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
+                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos · mín. 85%)</span>
                 </div>
-              ) : learningState.status === 'em_revisao' ? (
+              ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-amber-500 shadow-2xs">
                   <RotateCcw className="w-3.5 h-3.5" />
-                  <span>Em Revisão ({learningState.taxaAcertoPercent}% nos checkpoints · mínimo 70%)</span>
+                  <span>Em Revisão Dirigida ({learningState.taxaAcertoPercent}% nos checkpoints · mín. 85%)</span>
                 </div>
               ) : learningState.status === 'em_andamento' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
@@ -300,9 +260,14 @@ export const TeoriaPage: React.FC = () => {
                     Em Leitura ({learningState.secoesLidasCount}/{learningState.secoesTotalCount} seções)
                   </span>
                 </div>
+              ) : learningState.status === 'bloqueada' ? (
+                <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
+                  <Lock className="w-3.5 h-3.5 text-ink-2" />
+                  <span>Bloqueada (conclua a etapa anterior)</span>
+                </div>
               ) : (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
-                  <span>Não Iniciado</span>
+                  <span>Disponível para Estudo</span>
                 </div>
               )}
 
@@ -504,21 +469,21 @@ export const TeoriaPage: React.FC = () => {
 
             {/* Indicador de Conclusão Pedagógica (Conquistado, não marcado livremente) */}
             <div className="w-full sm:w-auto text-center sm:text-left">
-              {learningState.status === 'concluido' ? (
+              {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-2.5 px-4 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
                   <CheckCircle2 className="w-4 h-4" />
                   <span>Domínio Conquistado ({learningState.taxaAcertoPercent}% de acertos)</span>
                 </div>
-              ) : learningState.status === 'em_revisao' ? (
+              ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
                 <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-500 font-sans text-xs flex items-center justify-center gap-2">
                   <RotateCcw className="w-4 h-4 shrink-0" />
-                  <span>Em Revisão: Refaça os checkpoints para atingir ao menos 70%</span>
+                  <span>Em Revisão Dirigida: Refaça os checkpoints para atingir ao menos 85%</span>
                 </div>
               ) : (
                 <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
                   <span>
-                    Faltam {learningState.secoesTotalCount - learningState.secoesLidasCount} seções e 70% nos checkpoints
+                    Faltam {learningState.secoesTotalCount - learningState.secoesLidasCount} seções e &ge; 85% nos checkpoints
                   </span>
                 </div>
               )}

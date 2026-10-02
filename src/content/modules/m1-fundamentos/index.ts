@@ -9,6 +9,7 @@ export const moduloM1Fundamentos: MacroModulo = {
   codigo: 'M1',
   numero: 1,
   titulo: 'Fundamentos da Biblioteconomia, Documentação e Ciência da Informação',
+  titulo_curto: 'Fundamentos de Biblioteconomia e CI',
   subtitulo: 'A base epistemológica, histórica, normativa e ética indispensável para a Câmara dos Deputados',
   descricao: 'Estudo aprofundado dos objetos de estudo, fronteiras disciplinares, Leis de Ranganathan e releituras contemporâneas, ontologia documental (Buckland, Briet e Otlet) e arcabouço normativo da profissão com Código de Ética do CFB.',
   status: 'disponivel',

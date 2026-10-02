@@ -4,6 +4,7 @@ export const submodulo13: ModuloFilho = {
   id: 'sub-1-3',
   numero: '1.3',
   titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
+  titulo_curto: 'Informação, Conhecimento e Documento',
   descricaoCurta: 'A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.',
   tempoEstimadoMinutos: 25,
   autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Rafael Capurro', 'Birger Hjørland', 'Russell Ackoff', 'Claude Shannon'],

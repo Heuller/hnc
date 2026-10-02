@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   CheckCircle2,
   AlertTriangle,
   RotateCcw,
+  Undo2,
 } from 'lucide-react';
 import type { MnemonicoAutorCard, MnemonicoTimelineItem, PegadinhaBancaItem } from '../../domain/schemas/mnemonico.schema';
+import {
+  shuffleConceptsColumn,
+  PAIR_COLOR_PALETTES,
+  type MatchedPairInfo,
+  type AssociacaoCardItem,
+} from '../../domain/associacao';
 
 interface ActiveRetrievalProps {
   submoduloNumero: string;
@@ -22,32 +29,50 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
   const [activeTab, setActiveTab] = useState<'associacao' | 'cronologia' | 'armadilha'>('associacao');
 
   // -------------------------------------------------------------
-  // MODO 1: ASSOCIAÇÃO AUTOR <-> CONCEITO/OBRA
+  // MODO 1: ASSOCIAÇÃO AUTOR <-> CONCEITO/OBRA (B4)
   // -------------------------------------------------------------
-  const authorCards: { nome: string; conceito: string }[] = autores
-    .map((a) => {
-      if (typeof a === 'string') return { nome: a, conceito: `Doutrina canônica de ${a}` };
-      return {
-        nome: a.nome,
-        conceito: a.ideiaChave || a.obraPrincipal || `Teórico canônico`,
-      };
-    })
-    .slice(0, 4);
+  const authorCards: AssociacaoCardItem[] = useMemo(() => {
+    return autores
+      .map((a, idx) => {
+        if (typeof a === 'string') return { id: `auth-${idx}`, nome: a, conceito: `Doutrina canônica de ${a}` };
+        return {
+          id: `auth-${idx}`,
+          nome: a.nome,
+          conceito: a.ideiaChave || a.obraPrincipal || `Teórico canônico`,
+        };
+      })
+      .slice(0, 4);
+  }, [autores]);
+
+  // Semente de embaralhamento registrada a cada ciclo/reinício (B4)
+  const [seed, setSeed] = useState(() => Date.now());
+
+  // Coluna direita embaralhada via PRNG seeded garantindo não coincidir por inteiro com a esquerda
+  const shuffledConcepts = useMemo(() => {
+    return shuffleConceptsColumn(authorCards, seed);
+  }, [authorCards, seed]);
 
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
-  const [matchedPairs, setMatchedPairs] = useState<string[]>([]);
+  const [matchedPairs, setMatchedPairs] = useState<MatchedPairInfo[]>([]);
   const [pairError, setPairError] = useState<string | null>(null);
 
   const handleSelectAuthor = (nome: string) => {
-    if (matchedPairs.includes(nome)) return;
+    if (matchedPairs.some((p) => p.authorName === nome)) return;
     setSelectedAuthor(nome);
     setPairError(null);
   };
 
   const handleSelectConcept = (nomeCorrespondente: string) => {
     if (!selectedAuthor) return;
+    if (matchedPairs.some((p) => p.authorName === nomeCorrespondente)) return;
+
     if (selectedAuthor === nomeCorrespondente) {
-      setMatchedPairs((prev) => [...prev, selectedAuthor]);
+      const nextPairNum = matchedPairs.length + 1;
+      const palette = PAIR_COLOR_PALETTES[(nextPairNum - 1) % PAIR_COLOR_PALETTES.length];
+      setMatchedPairs((prev) => [
+        ...prev,
+        { authorName: selectedAuthor, pairNumber: nextPairNum, colorStyle: palette },
+      ]);
       setSelectedAuthor(null);
       setPairError(null);
     } else {
@@ -56,10 +81,17 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
     }
   };
 
+  const handleUndo = () => {
+    if (matchedPairs.length === 0) return;
+    setMatchedPairs((prev) => prev.slice(0, -1));
+    setPairError(null);
+  };
+
   const resetAssociacao = () => {
     setSelectedAuthor(null);
     setMatchedPairs([]);
     setPairError(null);
+    setSeed(Date.now() + Math.floor(Math.random() * 1000));
   };
 
   // -------------------------------------------------------------
@@ -106,8 +138,9 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-border">
         <div>
           <div className="flex items-center gap-2 mb-1">
+            {/* Regra B5: Apenas Caça-Armadilha cita o estilo/método Cebraspe */}
             <span className="font-mono text-[11px] font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
-              MÉTODO CEBRASPE
+              {activeTab === 'armadilha' ? 'MÉTODO CEBRASPE' : 'RECUPERAÇÃO ATIVA'}
             </span>
             <span className="text-xs text-ink-2 font-mono">Submódulo {submoduloNumero}</span>
           </div>
@@ -154,13 +187,26 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
         </div>
       </div>
 
-      {/* ABA 1: ASSOCIAÇÃO AUTOR <-> CONCEITO */}
+      {/* ABA 1: ASSOCIAÇÃO AUTOR <-> CONCEITO (B4) */}
       {activeTab === 'associacao' && (
         <div className="space-y-4 animate-fadeIn">
-          <p className="text-xs sm:text-sm text-ink-2 font-serif">
-            Toque em um <strong>Autor</strong> à esquerda e em seguida toque no seu{' '}
-            <strong>Conceito ou Obra</strong> correspondente à direita.
-          </p>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <p className="text-xs sm:text-sm text-ink-2 font-serif">
+              Selecione um <strong>Autor</strong> à esquerda e o{' '}
+              <strong>Conceito ou Obra</strong> correspondente à direita (suporte a teclado via Enter/Espaço).
+            </p>
+            {matchedPairs.length > 0 && matchedPairs.length < authorCards.length && (
+              <button
+                type="button"
+                onClick={handleUndo}
+                className="inline-flex items-center gap-1.5 text-xs text-ink-2 hover:text-ink font-sans underline cursor-pointer self-start sm:self-auto"
+                aria-label="Desfazer última associação de par"
+              >
+                <Undo2 className="w-3.5 h-3.5" />
+                Desfazer último par
+              </button>
+            )}
+          </div>
 
           {pairError && (
             <div className="p-2.5 rounded-lg bg-err-soft border border-err text-err text-xs font-sans flex items-center gap-2">
@@ -173,12 +219,12 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
             <div className="p-3 rounded-lg bg-ok-soft border border-ok text-ok text-xs font-sans flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 shrink-0" />
-                <span className="font-bold">Excelente! Todas as associações foram consolidadas.</span>
+                <span className="font-bold">Excelente! Todos os pares foram associados corretamente.</span>
               </div>
               <button
                 type="button"
                 onClick={resetAssociacao}
-                className="flex items-center gap-1 text-[11px] underline cursor-pointer"
+                className="flex items-center gap-1 text-[11px] underline cursor-pointer font-sans"
               >
                 <RotateCcw className="w-3 h-3" />
                 Reiniciar
@@ -194,52 +240,79 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
               </span>
               <div className="space-y-2">
                 {authorCards.map((a) => {
-                  const isMatched = matchedPairs.includes(a.nome);
+                  const match = matchedPairs.find((p) => p.authorName === a.nome);
+                  const isMatched = !!match;
                   const isSelected = selectedAuthor === a.nome;
+
                   return (
                     <button
                       key={a.nome}
                       type="button"
                       disabled={isMatched}
                       onClick={() => handleSelectAuthor(a.nome)}
-                      className={`w-full min-h-[44px] p-2.5 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer ${
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          handleSelectAuthor(a.nome);
+                        }
+                      }}
+                      aria-pressed={isSelected}
+                      aria-label={isMatched ? `${a.nome}, associado ao Par ${match?.pairNumber}` : `Autor ${a.nome}`}
+                      className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
-                          ? 'bg-ok-soft/50 border-ok text-ok opacity-80 cursor-default'
+                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-90 cursor-default`
                           : isSelected
                           ? 'bg-accent-soft border-accent text-ink ring-2 ring-accent/30'
                           : 'bg-surface-2/60 border-border text-ink hover:border-accent/50'
                       }`}
                     >
-                      <span>{a.nome}</span>
-                      {isMatched && <CheckCircle2 className="w-4 h-4 text-ok" />}
+                      <span className="leading-snug">{a.nome}</span>
+                      {isMatched && (
+                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 ${match.colorStyle.badge}`}>
+                          Par {match.pairNumber}
+                        </span>
+                      )}
                     </button>
                   );
                 })}
               </div>
             </div>
 
-            {/* Coluna 2: Conceitos */}
+            {/* Coluna 2: Conceitos (ordem embaralhada via semente, altura uniforme) */}
             <div className="space-y-2">
               <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
                 Conceito / Obra Principal
               </span>
               <div className="space-y-2">
-                {authorCards.map((a) => {
-                  const isMatched = matchedPairs.includes(a.nome);
+                {shuffledConcepts.map((item) => {
+                  const match = matchedPairs.find((p) => p.authorName === item.nome);
+                  const isMatched = !!match;
+
                   return (
                     <button
-                      key={a.nome}
+                      key={item.id}
                       type="button"
                       disabled={isMatched}
-                      onClick={() => handleSelectConcept(a.nome)}
-                      className={`w-full min-h-[44px] p-2.5 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer ${
+                      onClick={() => handleSelectConcept(item.nome)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          handleSelectConcept(item.nome);
+                        }
+                      }}
+                      aria-label={isMatched ? `${item.conceito}, associado ao Par ${match?.pairNumber}` : `Conceito: ${item.conceito}`}
+                      className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
-                          ? 'bg-ok-soft/50 border-ok text-ok opacity-80 cursor-default'
+                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-90 cursor-default`
                           : 'bg-surface-2/60 border-border text-ink-2 hover:text-ink hover:border-accent/50'
                       }`}
                     >
-                      <span className="leading-snug">{a.conceito}</span>
-                      {isMatched && <CheckCircle2 className="w-4 h-4 text-ok shrink-0 ml-2" />}
+                      <span className="leading-snug pr-2">{item.conceito}</span>
+                      {isMatched && (
+                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold shrink-0 ${match.colorStyle.badge}`}>
+                          Par {match.pairNumber}
+                        </span>
+                      )}
                     </button>
                   );
                 })}

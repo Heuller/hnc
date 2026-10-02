@@ -243,9 +243,9 @@ export const SimuladoPage: React.FC = () => {
                                 <CheckCircle2 className="w-3.5 h-3.5" />
                                 Domínio Aferido
                               </span>
-                            ) : pendente?.status === 'em_revisao' ? (
+                            ) : pendente?.status === 'em_revisao_dirigida' || (pendente?.status as string) === 'em_revisao' ? (
                               <span className="text-amber-500 font-medium">
-                                Em Revisão (Refaça os checkpoints para &ge; 70%)
+                                Em Revisão Dirigida (Refaça os checkpoints para &ge; 85%)
                               </span>
                             ) : (
                               <span>Em Leitura (Conclua as seções teóricas)</span>

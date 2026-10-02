@@ -6,7 +6,7 @@ import type {
 } from '../domain/schemas/progress.schema';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
 import { COURSE_REGISTRY } from '../content/registry';
-import { calculateSubmoduleStatus } from '../domain/learningEngine';
+import { calculateSubmoduleStatus, isSubmoduleConcluido } from '../domain/learningEngine';
 import {
   processarRespostaLeitner,
   criarItemLeitner,
@@ -127,7 +127,7 @@ export const useProgressStore = create<ProgressStoreState>()(
         for (const sub of allSubs) {
           const secoes = state.secoesVisualizadas?.[sub.id] || [];
           const res = calculateSubmoduleStatus(sub, secoes, state.checkpointsRespondidos || {});
-          if (res.status === 'concluido') {
+          if (isSubmoduleConcluido(res.status)) {
             novosLidos.push(sub.id);
           }
         }
@@ -170,7 +170,7 @@ export const useProgressStore = create<ProgressStoreState>()(
         if (sub) {
           const learning = calculateSubmoduleStatus(sub, novasSecoes, state.checkpointsRespondidos || {});
           const lidosSet = new Set(novosLidos);
-          if (learning.status === 'concluido') {
+          if (isSubmoduleConcluido(learning.status)) {
             lidosSet.add(sub.id);
           } else {
             lidosSet.delete(sub.id);
@@ -220,7 +220,7 @@ export const useProgressStore = create<ProgressStoreState>()(
           const secoes = (state.secoesVisualizadas || {})[subEncontrado.id] || [];
           const learning = calculateSubmoduleStatus(subEncontrado, secoes, novosCheckpoints);
           const lidosSet = new Set(novosLidos);
-          if (learning.status === 'concluido') {
+          if (isSubmoduleConcluido(learning.status)) {
             lidosSet.add(subEncontrado.id);
           } else {
             lidosSet.delete(subEncontrado.id);

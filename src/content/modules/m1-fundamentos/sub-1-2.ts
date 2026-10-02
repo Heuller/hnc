@@ -4,6 +4,7 @@ export const submodulo12: ModuloFilho = {
   id: 'sub-1-2',
   numero: '1.2',
   titulo: 'As Cinco Leis de Ranganathan e Releituras Contemporâneas',
+  titulo_curto: 'Cinco Leis de Ranganathan',
   descricaoCurta: 'O tratado de Shiyali Ramamrita Ranganathan (1931), análise sistêmica de cada lei, implicações em bibliotecas legislativas e as formulações de Michael Gorman, Jim Thompson e Rettig.',
   tempoEstimadoMinutos: 30,
   autoresChave: ['Shiyali Ramamrita Ranganathan', 'Michael Gorman', 'James Rettig', 'Jim Thompson', 'Alire'],

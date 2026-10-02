@@ -83,7 +83,7 @@ export const CONCURSO_CONFIG: ConcursoConfig = {
       acertoPontos: 1,
       erroPontos: -1,
       brancoPontos: 0,
-      descricao: '1 Erro Anula 1 Certo (Fator de Correção Cebraspe: C - E)',
+      descricao: '1 erro anula 1 certo — Fator de Correção Cebraspe: C − E',
     },
     simetriaGabarito: {
       certosMin: 48,

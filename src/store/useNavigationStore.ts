@@ -27,16 +27,19 @@ interface NavigationState {
 
 function getViewFromHash(): AppView {
   if (typeof window === 'undefined') return 'painel';
-  const hash = window.location.hash.replace('#', '').toLowerCase();
-  if (hash.startsWith('teoria')) return 'teoria';
-  if (hash.startsWith('simulado')) return 'simulado';
-  if (hash.startsWith('radar')) return 'radar';
-  if (hash.startsWith('progresso')) return 'progresso';
-  if (hash.startsWith('caderno-erros') || hash.startsWith('caderno')) return 'caderno-erros';
-  if (hash.startsWith('folha-vespera') || hash.startsWith('folha')) return 'folha-vespera';
-  if (hash.startsWith('design-system')) return 'design-system';
-  if (hash.startsWith('dev/rascunhos') || hash.startsWith('dev-rascunhos')) return 'dev-rascunhos';
-  if (hash.startsWith('painel')) return 'painel';
+  const rawHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
+  const rawPath = window.location.pathname.replace(/^\//, '').trim().toLowerCase();
+  const route = rawHash || rawPath;
+
+  if (route.startsWith('teoria')) return 'teoria';
+  if (route.startsWith('simulado')) return 'simulado';
+  if (route.startsWith('radar')) return 'radar';
+  if (route.startsWith('progresso')) return 'progresso';
+  if (route.startsWith('caderno-erros') || route.startsWith('caderno')) return 'caderno-erros';
+  if (route.startsWith('folha-vespera') || route.startsWith('folha')) return 'folha-vespera';
+  if (route.startsWith('design-system')) return 'design-system';
+  if (route.startsWith('dev/rascunhos') || route.startsWith('dev-rascunhos')) return 'dev-rascunhos';
+  if (route.startsWith('painel')) return 'painel';
   return 'painel';
 }
 

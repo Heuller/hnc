@@ -4,6 +4,7 @@ export const submodulo14: ModuloFilho = {
   id: 'sub-1-4',
   numero: '1.4',
   titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas',
+  titulo_curto: 'Legislação e Código de Ética CFB',
   descricaoCurta: 'A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.',
   tempoEstimadoMinutos: 25,
   autoresChave: ['Conselho Federal de Biblioteconomia (CFB)', 'Lei 4.084/1962', 'Decreto 56.725/1965', 'Conselhos Regionais (CRB)'],

@@ -32,6 +32,7 @@ export const ModuloFilhoSchema = z.object({
   id: z.string(),
   numero: z.string(), // ex: '1.1'
   titulo: z.string(),
+  titulo_curto: z.string().optional(), // Rótulo de interface para evitar truncamento (Regra B7)
   descricaoCurta: z.string(),
   tempoEstimadoMinutos: z.number(),
   autoresChave: z.array(z.string()),
@@ -48,6 +49,7 @@ export const MacroModuloSchema = z.object({
   codigo: z.string(), // ex: 'M1'
   numero: z.number().min(1).max(20),
   titulo: z.string(),
+  titulo_curto: z.string().optional(), // Rótulo de interface para evitar truncamento (Regra B7)
   subtitulo: z.string(),
   descricao: z.string(),
   status: z.enum(['disponivel', 'planejado']),

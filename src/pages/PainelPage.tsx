@@ -131,7 +131,7 @@ export const PainelPage: React.FC = () => {
         </h1>
         <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
           Ambiente de leitura profunda, recuperação ativa e simulação estrita com fator
-          de correção de uma errada anula uma certa ({CONCURSO_CONFIG.banca.fatorCorrecao.descricao}).
+          de correção em que {CONCURSO_CONFIG.banca.fatorCorrecao.descricao}.
         </p>
       </section>
 
@@ -400,7 +400,9 @@ export const PainelPage: React.FC = () => {
                   </span>
                 </div>
                 <p className="text-xs text-ink-2 font-serif mt-0.5">
-                  Fórmulas de SRI, Leis Bibliométricas, Prazos LAI/RICD e Top 10 Pegadinhas Cebraspe em alta densidade.
+                  {modulosLidosIds.length > 0
+                    ? `Síntese hiperdensa derivada dos ${modulosLidosIds.length} submódulo(s) concluído(s): autores canônicos, quadros e pegadinhas da banca.`
+                    : 'Síntese hiperdensa gerada dinamicamente a partir dos submódulos que você concluir na Jornada.'}
                 </p>
               </div>
             </div>
@@ -410,7 +412,7 @@ export const PainelPage: React.FC = () => {
             onClick={() => setCurrentRoute('folha-vespera')}
             className="w-full py-2 px-3 rounded-lg bg-accent text-accent-text hover:opacity-95 font-sans font-semibold text-xs flex items-center justify-center gap-2 transition-all shadow-editorial-sm cursor-pointer mt-2"
           >
-            <span>Revisar Resumo Hiperdenso</span>
+            <span>Abrir Folha de Véspera</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
