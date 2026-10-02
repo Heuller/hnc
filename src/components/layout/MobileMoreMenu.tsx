@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
+import { useDicionarioStore } from '../../store/useDicionarioStore';
 
 export const MobileMoreMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -126,6 +127,19 @@ export const MobileMoreMenu: React.FC = () => {
           <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
             Estudo e Revisão
           </div>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              useDicionarioStore.getState().abrirBuscaVazia();
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+          >
+            <BookOpen className="w-4 h-4 text-accent" />
+            <span>Dicionário Cebraspe</span>
+          </button>
 
           <button
             type="button"

@@ -12,8 +12,11 @@ import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { progressSyncService } from '../../services/progressSyncService';
 import { COURSE_REGISTRY } from '../../content/registry';
-import { Keyboard, Search } from 'lucide-react';
+import { Keyboard, Search, BookOpen } from 'lucide-react';
 import { Kbd } from '../common/Kbd';
+import { TextSelectionListener } from '../dicionario/TextSelectionListener';
+import { GlossarioModal } from '../dicionario/GlossarioModal';
+import { useDicionarioStore } from '../../store/useDicionarioStore';
 
 interface AppShellProps {
   children: React.ReactNode;
@@ -64,6 +67,13 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setIsSearchOpen((prev) => !prev);
+        return;
+      }
+
+      // Alt+D -> Dicionário Cebraspe
+      if (e.altKey && e.key.toLowerCase() === 'd') {
+        e.preventDefault();
+        useDicionarioStore.getState().abrirBuscaVazia();
         return;
       }
 
@@ -163,6 +173,17 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
 
             <button
               type="button"
+              onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
+              className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-accent" />
+              <span>Dicionário (<Kbd>Alt</Kbd>+<Kbd>D</Kbd>)</span>
+            </button>
+
+            <span className="text-border">|</span>
+
+            <button
+              type="button"
               onClick={() => setIsShortcutsOpen(true)}
               className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
             >
@@ -194,6 +215,10 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         isOpen={isAuthModalOpen}
         onClose={closeAuthModal}
       />
+
+      {/* Glossário Vivo Cebraspe (Dicionário Técnico Flutuante e Destaque de Texto) */}
+      <TextSelectionListener />
+      <GlossarioModal />
     </div>
   );
 };

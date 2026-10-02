@@ -17,10 +17,16 @@ import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
 import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
+import type { TermoSalvo } from '../domain/dicionario/types';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
   tentativas: TentativaRegistro[];
+  termosSalvos: TermoSalvo[];
+  // Dicionário / Glossário
+  salvarTermoVocabulario: (termo: TermoSalvo) => void;
+  removerTermoVocabulario: (termoId: string) => void;
+  isTermoSalvo: (termoId: string) => boolean;
   // Ações
   registrarAcessoHoje: () => void;
   marcarModuloConcluido: (moduloId: string) => void;
@@ -88,6 +94,7 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   modoLivre: false,
   secoesReabertasAposFalha: {},
   tentativas: [],
+  termosSalvos: [],
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -107,6 +114,24 @@ export const useProgressStore = create<ProgressStoreState>()(
         typeof window !== 'undefined'
           ? tentativasSyncService.carregarTentativasLocais()
           : [],
+      termosSalvos: [],
+
+      salvarTermoVocabulario: (termo: TermoSalvo) => {
+        const atuais = get().termosSalvos || [];
+        if (!atuais.some((t) => t.id === termo.id)) {
+          set({ termosSalvos: [termo, ...atuais] });
+        }
+      },
+
+      removerTermoVocabulario: (termoId: string) => {
+        const atuais = get().termosSalvos || [];
+        set({ termosSalvos: atuais.filter((t) => t.id !== termoId) });
+      },
+
+      isTermoSalvo: (termoId: string) => {
+        const atuais = get().termosSalvos || [];
+        return atuais.some((t) => t.id === termoId);
+      },
 
       adicionarTentativa: async (tentativa: TentativaRegistro) => {
         const authUser = useAuthStore.getState().user;

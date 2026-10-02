@@ -19,6 +19,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
       categoria: 'Navegação Global',
       itens: [
         { keys: ['Ctrl', 'K'], desc: 'Abrir Busca Global Instantânea' },
+        { keys: ['Alt', 'D'], desc: 'Abrir Dicionário e Glossário Cebraspe' },
         { keys: ['/'], desc: 'Atalho alternativo para Busca Global' },
         { keys: ['?'], desc: 'Abrir Guia de Atalhos de Teclado' },
         { keys: ['Esc'], desc: 'Fechar modais, gavetas e buscas' },

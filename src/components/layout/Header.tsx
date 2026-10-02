@@ -8,6 +8,7 @@ import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
 import { getSearchShortcutLabel } from '../../utils/platform';
+import { useDicionarioStore } from '../../store/useDicionarioStore';
 
 interface HeaderProps {
   onOpenSearch?: () => void;
@@ -61,6 +62,15 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               </span>
             </div>
             <div className="flex items-center gap-1">
+              <button
+                type="button"
+                onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
+                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer"
+                aria-label="Abrir glossário e dicionário técnico Cebraspe"
+                title="Dicionário Técnico Cebraspe"
+              >
+                <BookOpen className="w-4 h-4 text-accent" />
+              </button>
               <button
                 type="button"
                 onClick={onOpenSearch}
@@ -174,6 +184,19 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
         {/* Right: Search, DEV tools & Theme Toggle */}
         <div className="hidden md:flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
+            className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
+            title="Dicionário Técnico Cebraspe (Alt+D)"
+            aria-label="Abrir glossário e dicionário técnico"
+          >
+            <BookOpen className="w-3.5 h-3.5 text-accent" />
+            <span className="font-sans text-xs">Glossário</span>
+            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2">
+              Alt+D
+            </span>
+          </button>
           <button
             type="button"
             onClick={onOpenSearch}

@@ -42,6 +42,7 @@ export const UserProgressSchema = z.object({
   modoLivre: z.boolean().default(false),
   secoesReabertasAposFalha: z.record(z.string(), z.array(z.string())).default({}),
   tentativas: z.array(z.any()).default([]),
+  termosSalvos: z.array(z.any()).default([]),
   constancia: z.object({
     ultimoAcessoData: z.string(),
     diasConsecutivos: z.number(),
