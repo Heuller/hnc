@@ -67,3 +67,27 @@ export function getDescricaoLimiar(totalItens: number, aproveitamentoMin = JORNA
   const maxErros = Math.max(0, totalItens - acertos);
   return `${acertos} acertos em ${totalItens} itens (no máximo ${maxErros} erros)`;
 }
+
+/**
+ * Calcula o intervalo-alvo (em dias) de revisão espaçada com base na proximidade da prova.
+ * Heurísticas inspiradas na literatura científica de espaçamento (Cepeda et al., 2008).
+ * Nota: São aproximações empíricas para retenção de fatos conceituais e não devem ser
+ * rotuladas como "ótimas" na interface (Regra D.4).
+ */
+export function calcularIntervaloAlvo(diasRestantes: number): number {
+  if (diasRestantes <= 0) return JORNADA_CONFIG.limiteMinimoIntervaloDias;
+
+  let fracao = JORNADA_CONFIG.heuristicaDiasRestantes[JORNADA_CONFIG.heuristicaDiasRestantes.length - 1].fracao;
+  for (const faixa of JORNADA_CONFIG.heuristicaDiasRestantes) {
+    if (diasRestantes <= faixa.ate_dias) {
+      fracao = faixa.fracao;
+      break;
+    }
+  }
+
+  const lacuna = Math.round(fracao * diasRestantes);
+  return Math.min(
+    JORNADA_CONFIG.limiteMaximoIntervaloDias,
+    Math.max(JORNADA_CONFIG.limiteMinimoIntervaloDias, lacuna)
+  );
+}
