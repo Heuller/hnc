@@ -348,13 +348,71 @@ A navegação da plataforma foi reorganizada em **5 núcleos canônicos**, prese
 
 ## 15. REGRAS ESTATUTÁRIAS DE DEPLOY E CONTROLE DE VERSÃO
 
-1. **Branch de Trabalho:** Todas as alterações da Rodada 3 residem exclusivamente na branch `feature/jornada-rodada-3`.
-2. **Proibição de Deploy Prematuro:** Nenhuma publicação na branch de produção (`main`) ou no ambiente de produção da Vercel pode ser executada sem a autorização textual explícita do usuário com o comando *"pode publicar"*.
+1. **Controle de Branches:** Sincronização estrita entre `master` e `main` via Vercel CI/CD automatizado.
+2. **Proibição de Deploy Prematuro:** Nenhuma publicação no ambiente de produção da Vercel pode ser executada sem a autorização textual explícita do usuário com o comando *"pode publicar"*.
 3. **Validação Obrigatória:** Antes de qualquer entrega, é compulsório verificar que:
-   * `npm run lint` executa com zero erros.
-   * `vitest run` executa com 100% dos testes aprovados (78/78).
+   * `npm run lint` (`oxlint`) executa com zero erros e zero advertências (0 warnings, 0 errors).
+   * `vitest run` executa com 100% dos testes aprovados (101/101 em 13 suítes).
    * `npm run build` (`vitest run && tsc -b && vite build`) conclui com êxito e gera o pacote PWA precache.
    * A aplicação não expõe segredos ou chaves privadas no código do cliente.
+
+---
+
+## 16. MOTOR DE INTELIGÊNCIA ARTIFICIAL E CAPACIDADES PEDAGÓGICAS AVANÇADAS (RODADA 4)
+
+Com a incorporação do backend serverless (Vercel Functions + Gemini API) e arquitetura de resiliência *offline-first* (0ms), a plataforma Heuller na Câmara evoluiu para um ecossistema com 4 novos módulos de inteligência ativa calibrados especificamente para a metodologia Cebraspe:
+
+### 16.1. Glossário Vivo Cebraspe & Dicionário Técnico Flutuante
+* **Mecanismo:** Ouvinte global de seleção de texto (`TextSelectionListener.tsx`) ativo em todos os módulos e simulados. Ao destacar qualquer termo (2 a 60 caracteres), surge um chip flutuante não intrusivo.
+* **Base Curada Canônica:** Mais de 20 verbetes seminais baseados no *Dicionário de Biblioteconomia e Arquivologia* (Murilo Bastos da Cunha & Cordélia Cavalcanti) com:
+  1. Conceito Canônico formal.
+  2. Pegadinha e Distrator clássico da banca Cebraspe.
+  3. Aplicação prática no acervo e assessoria parlamentar da Câmara dos Deputados.
+  4. Fonte e autoridade bibliográfica.
+* **Enriquecimento Dinâmico com IA (`/api/dictionary`):** Termos não catalogados localmente são sintetizados em tempo real via Gemini com cache automático no `localStorage` (`hnc_dicionario_ia_cache_v1`).
+* **Meu Baralho de Vocabulário:** Aba dedicada no modal (`GlossarioModal.tsx`) para salvar termos e gerenciar cartões pessoais de vocabulário com sincronização no store de progresso.
+
+### 16.2. Avaliador Cebraspe de Discursivas (com IA)
+* **Fórmula Oficial de Correção:** Implementação rigorosa do cálculo estatístico adotado pelo Cebraspe nos concursos federais:
+  $$\text{NC} = \text{NC}_P - 2 \times \frac{\text{NE}}{\text{TL}}$$
+  Onde $\text{NC}$ é a Nota da Prova Discursiva, $\text{NC}_P$ é a soma das notas dos quesitos de conteúdo, $\text{NE}$ é o número de erros gramaticais e $\text{TL}$ é o total de linhas escritas.
+* **Penalidade de Linha Menor:** Se o candidato redige poucas linhas, a penalidade por erro de língua portuguesa é amplificada proporcionalmente pelo divisor $\text{TL}$.
+* **Auditoria Gramatical por Linha:** Devolutiva estruturada apontando o número da linha, trecho com desvio, forma corrigida e fundamentação sintático-morfológica (ortografia, concordância, regência, crase, pontuação).
+* **Temas Oficiais com Padrão Preliminar:**
+  1. *Desbastamento versus Descarte de Acervos* (Waldomiro Vergueiro).
+  2. *Catalogação e Modelagem Conceitual* (RDA e IFLA LRM).
+  3. *Transparência Pública e Acesso à Informação* (Lei 12.527/2011 - LAI).
+  4. *Peça Técnica Legislativa OAIS de 50 Linhas* (Preservação Digital e Repositórios).
+* **Reescrita Padrão Ouro:** Devolutiva pedagógica com texto de referência para nota máxima.
+
+### 16.3. Modo Socrático no Caderno de Erros ("Discuta com a Banca")
+* **O Tribunal Cebraspe:** No `CadernoErrosPage.tsx`, cada assertiva que o aluno errou possui o botão *"Recorrer / Discutir com a Banca Cebraspe (IA)"*.
+* **Parecer Técnico Inicial:** A banca emite parecer formal com:
+  1. *Tese Principal*: Ratificação doutrinária do gabarito oficial (Certo ou Errado).
+  2. *Ponto Cego Identificado*: Desmontagem da intuição errônea ou falácia que levou o candidato ao erro.
+  3. *Fundamentação Canônica Irrefutável*: Citação direta de autores e normas (Suzanne Briet, Paul Otlet, Harold Borko, Jesse Shera, S. R. Ranganathan, Waldomiro Vergueiro, F. W. Lancaster, ABNT, LAI, etc.).
+  4. *Pergunta Desafio Socrática*: Contra-pergunta desafiando o candidato a provar a lógica da distinção conceitual.
+* **Peticionamento Interativo (Chat Turn-by-Turn):** O candidato pode redigir recursos administrativos contra o gabarito. O examinador do Cebraspe responde na primeira pessoa do plural com tom formal e estrita fidelidade ao edital.
+* **Ações Pedagógicas:**
+  - Exportação direta do ponto cego para o "Meu Baralho".
+  - Marcação de status *"Lacuna Superada ✓"* com persistência no armazenamento.
+
+### 16.4. Gerador Inteligente de Simulados Adaptativos de Fraquezas
+* **Motor Diagnóstico (`diagnosticEngine.ts`):** Varre a telemetria do candidato (erros em micro-checkpoints, histórico do Simulado 100Q, repetição espaçada) e mapeia vulnerabilidades categorizadas em gravidade: *Crítica, Alta ou Moderada*.
+* **Geração Adaptativa Inédita (`/api/generate-adaptive-quiz`):** Gera baterias customizadas de 10, 15 ou 20 itens no formato Certo/Errado estritamente concentradas nos tópicos de maior fraqueza ou nos itens do Caderno de Erros.
+* **Sala de Prova Cebraspe (`SimuladoAdaptativoModal.tsx`):**
+  - Cronômetro em tempo real.
+  - Atalhos universais de teclado: `C` (Certo), `E` (Errado), `B` ou `Espaço` (Em Branco), `←` e `→` (navegação).
+  - Régua interativa de navegação entre assertivas.
+* **Espelho de Notas e Penalização Real:**
+  $$\text{Nota Líquida} = \text{Certos} - \text{Errados}$$
+  Apresenta o aproveitamento líquido percentual, discrimina *Lacunas Superadas* e *Lacunas Persistentes*.
+* **Conexão Socrática:** Qualquer item errado no simulado adaptativo exibe botão para abrir diretamente o Diálogo Socrático com a banca.
+
+### 16.5. Princípio da Autonomia Offline-First (Resiliência Total)
+* **Zero Falhas:** Nenhuma funcionalidade de IA bloqueia ou quebra a plataforma se o usuário estiver sem internet, com API keys não configuradas ou em quota esgotada.
+* **Fallbacks Heurísticos Canônicos:** Todos os 4 serviços contam com geradores determinísticos locais em 0ms (`baseTermos.ts`, `temasOficiais.ts`, `socraticService.ts` e `baseQuestoesAdaptativas.ts`).
+* **Segurança de Credenciais:** As chaves de API residem exclusivamente em variáveis de ambiente de backend na nuvem da Vercel (`GEMINI_API_KEY` / `GOOGLE_API_KEY`), nunca sendo expostas no bundle do cliente.
 
 ---
 *Documento atualizado em 02 de Outubro de 2026.*  

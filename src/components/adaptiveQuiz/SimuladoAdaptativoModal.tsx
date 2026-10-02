@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import {
   Sparkles,
   X,
@@ -73,6 +73,20 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
     return () => clearInterval(interval);
   }, [etapa]);
 
+  const handleMarcarResposta = useCallback((itemId: string, escolha: 'C' | 'E' | 'BRANCO') => {
+    const item = itensSimulado.find((i) => i.id === itemId);
+    const acertou = escolha === 'BRANCO' ? null : escolha === item?.gabarito;
+
+    setRespostas((prev) => ({
+      ...prev,
+      [itemId]: {
+        itemId,
+        resposta: escolha,
+        acertou,
+      },
+    }));
+  }, [itensSimulado]);
+
   // Teclado durante o simulado (C, E, B, setas)
   useEffect(() => {
     if (etapa !== 'executando' || !itensSimulado[itemAtualIndex]) return;
@@ -102,7 +116,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [etapa, itemAtualIndex, itensSimulado]);
+  }, [etapa, itemAtualIndex, itensSimulado, handleMarcarResposta]);
 
   if (!isOpen) return null;
 
@@ -130,20 +144,6 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
     } finally {
       setGerando(false);
     }
-  };
-
-  const handleMarcarResposta = (itemId: string, escolha: 'C' | 'E' | 'BRANCO') => {
-    const item = itensSimulado.find((i) => i.id === itemId);
-    const acertou = escolha === 'BRANCO' ? null : escolha === item?.gabarito;
-
-    setRespostas((prev) => ({
-      ...prev,
-      [itemId]: {
-        itemId,
-        resposta: escolha,
-        acertou,
-      },
-    }));
   };
 
   const handleFinalizarSimulado = () => {

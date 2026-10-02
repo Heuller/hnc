@@ -59,7 +59,7 @@ export const useDicionarioStore = create<DicionarioStoreState>((set, get) => ({
         isLoading: false,
         historicoConsultas: Array.from(new Set([resultado.termo, ...state.historicoConsultas])).slice(0, 20),
       }));
-    } catch (err: any) {
+    } catch {
       set({
         isLoading: false,
         erro: 'Não foi possível carregar a definição no momento.',

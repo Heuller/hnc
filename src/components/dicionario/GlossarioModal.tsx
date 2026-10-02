@@ -41,12 +41,16 @@ export const GlossarioModal: React.FC = () => {
 
   useEffect(() => {
     if (isModalOpen) {
-      setInputBusca(termoQuery || (termoAtivo?.termo ?? ''));
-      setSugestoes(dicionarioService.buscarSugestoes(termoQuery || '', 6));
-      setTimeout(() => {
+      const q = termoQuery || (termoAtivo?.termo ?? '');
+      queueMicrotask(() => {
+        setInputBusca(q);
+        setSugestoes(dicionarioService.buscarSugestoes(termoQuery || '', 6));
+      });
+      const timer = setTimeout(() => {
         inputRef.current?.focus();
         inputRef.current?.select();
       }, 100);
+      return () => clearTimeout(timer);
     }
   }, [isModalOpen, termoQuery, termoAtivo]);
 

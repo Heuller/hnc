@@ -49,13 +49,12 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
 
   // Carrega ou inicializa a sessão quando o item for aberto
   useEffect(() => {
-    if (!isOpen || !item) {
-      setSessao(null);
-      return;
-    }
+    if (!isOpen || !item) return;
 
     let ativo = true;
-    setCarregandoInicial(true);
+    queueMicrotask(() => {
+      if (ativo) setCarregandoInicial(true);
+    });
 
     iniciarSessaoSocratica(item)
       .then((sess) => {
@@ -79,7 +78,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
     if (sessao && sessao.mensagens.length > 0) {
       chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [sessao?.mensagens]);
+  }, [sessao]);
 
   // Fecha com a tecla ESC
   useEffect(() => {

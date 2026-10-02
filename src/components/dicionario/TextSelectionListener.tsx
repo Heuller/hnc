@@ -10,11 +10,7 @@ export const TextSelectionListener: React.FC = () => {
   const buttonRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Se o modal estiver aberto, não exibe o botão flutuante de seleção
-    if (isModalOpen) {
-      setPosition(null);
-      return;
-    }
+    if (isModalOpen) return;
 
     const handleSelectionChange = () => {
       const selection = window.getSelection();

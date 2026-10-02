@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   BookMarked,
   RotateCcw,
@@ -33,12 +33,10 @@ export const CadernoErrosPage: React.FC = () => {
 
   // Estado do Diálogo Socrático com a Banca
   const [itemSocraticoAtivo, setItemSocraticoAtivo] = useState<ItemCadernoErro | null>(null);
-  const [sessoesStorage, setSessoesStorage] = useState<Record<string, { superado: boolean }>>({});
+  const [sessoesStorage, setSessoesStorage] = useState<Record<string, { superado: boolean }>>(() =>
+    carregarSessoesDoStorage()
+  );
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
-
-  useEffect(() => {
-    setSessoesStorage(carregarSessoesDoStorage());
-  }, []);
 
   const todosErros: ItemCadernoErro[] = useMemo(() => {
     return getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);

@@ -229,5 +229,32 @@ Para permitir a continuidade do desenvolvimento e dos estudos a partir de qualqu
 * Documentação de diretrizes e manuais técnicos mantidos versionados na raiz do projeto.
 
 ---
-*Documento atualizado em 01 de Outubro de 2026.*  
+
+## 11. MOTOR DE INTELIGÊNCIA ARTIFICIAL E CAPACIDADES PEDAGÓGICAS AVANÇADAS (RODADA 4)
+
+Com a incorporação do backend serverless (Vercel Functions + Gemini API) e arquitetura de resiliência *offline-first* (0ms), a plataforma Heuller na Câmara evoluiu para um ecossistema com 4 novos módulos de inteligência ativa calibrados especificamente para a metodologia Cebraspe:
+
+### 11.1. Glossário Vivo Cebraspe & Dicionário Técnico Flutuante
+* Ouvinte global de seleção de texto (`TextSelectionListener.tsx`).
+* Base curada canônica (Cunha & Lemos) com conceito, pegadinha Cebraspe, aplicação na Câmara e fonte.
+* Enriquecimento dinâmico com Gemini (`/api/dictionary`) e persistência no "Meu Baralho".
+
+### 11.2. Avaliador Cebraspe de Discursivas (com IA)
+* Fórmula oficial do Cebraspe: $\text{NC} = \text{NC}_P - 2 \times \frac{\text{NE}}{\text{TL}}$.
+* Auditoria gramatical por linha (apontando linha, trecho, correção e regra).
+* Espelho preliminar de notas e reescrita padrão ouro da resposta.
+
+### 11.3. Modo Socrático no Caderno de Erros ("Discuta com a Banca")
+* Tribunal da Banca Cebraspe para cada erro catalogado.
+* Parecer técnico fundamentado em autoridades clássicas (Briet, Otlet, Borko, Vergueiro, Lancaster, LAI, ABNT).
+* Chat turn-by-turn com o examinador da banca para recursos administrativos e superação de pontos cegos.
+
+### 11.4. Gerador Inteligente de Simulados Adaptativos de Fraquezas
+* Diagnóstico cirúrgico de vulnerabilidades por módulo e nível de gravidade.
+* Geração de baterias de 10, 15 ou 20 itens inéditos concentrados em fraquezas.
+* Sala de prova com cronômetro, atalhos de teclado e fórmula líquida ($\text{Nota} = \text{Certos} - \text{Errados}$).
+* Conexão direta com o Modo Socrático para reteste imediato dos erros.
+
+---
+*Documento atualizado em 02 de Outubro de 2026.*  
 *Projeto Heuller na Câmara — Rumo à Aprovação como Analista Legislativo!*

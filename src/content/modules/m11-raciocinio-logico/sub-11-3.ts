@@ -25,7 +25,7 @@ export const submodulo113: ModuloFilho = {
   },
   teoriaDensaMarkdown: `### 1. A Lógica da Negação Exata: Por que Negar Não é Apenas Dizer o Oposto?
 
-Na lógica formal, a **negação** de uma proposição $P$ (denotada por $\neg P$ ou $\sim P$) é uma nova proposição que assume obrigatoriamente o valor oposto em todos os cenários possíveis:
+Na lógica formal, a **negação** de uma proposição $P$ (denotada por $\neg P$ ou $\\sim P$) é uma nova proposição que assume obrigatoriamente o valor oposto em todos os cenários possíveis:
 * Se a proposição original for Verdadeira, a negação é Falsa.
 * Se a proposição original for Falsa, a negação é Verdadeira.
 
