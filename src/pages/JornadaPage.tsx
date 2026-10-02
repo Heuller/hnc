@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Compass,
   CheckCircle2,
@@ -31,17 +31,12 @@ export const JornadaPage: React.FC = () => {
 
   const { setSelectedSubmodule, setActiveView } = useNavigationStore();
 
-  const [isHelpOpen, setIsHelpOpen] = useState(false);
+  const [isHelpOpen, setIsHelpOpen] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return !localStorage.getItem('hnc_jornada_intro_seen');
+  });
   const [activePortaoId, setActivePortaoId] = useState<string | null>(null);
   const [showModoLivreConfirm, setShowModoLivreConfirm] = useState(false);
-
-  // Exibe modal explicativo no primeiro acesso
-  useEffect(() => {
-    const seen = localStorage.getItem('hnc_jornada_intro_seen');
-    if (!seen) {
-      setIsHelpOpen(true);
-    }
-  }, []);
 
   const jornada = getJornadaState();
   const { etapas, metricas, proximoPasso } = jornada;

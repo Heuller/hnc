@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   PenTool,
   Copy,
@@ -6,6 +6,8 @@ import {
   Plus,
   BookOpen,
   Save,
+  History,
+  RotateCcw,
 } from 'lucide-react';
 import { Button } from '../components/common/Button';
 
@@ -50,11 +52,36 @@ export const DiscursivaPage: React.FC = () => {
     return enunciados[0]?.id || '';
   });
 
-  const [textoCandidato, setTextoCandidato] = useState('');
+  const [dadosEnunciados, setDadosEnunciados] = useState<
+    Record<string, { texto: string; historico: VersaoTexto[]; devolutiva: string }>
+  >(() => {
+    if (typeof window === 'undefined') return {};
+    const map: Record<string, { texto: string; historico: VersaoTexto[]; devolutiva: string }> = {};
+    for (const e of enunciados) {
+      try {
+        const raw = localStorage.getItem(`hnc_discursiva_texto_${e.id}`);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          map[e.id] = {
+            texto: parsed.texto || '',
+            historico: parsed.historico || [],
+            devolutiva: parsed.devolutiva || '',
+          };
+        }
+      } catch {
+        // Ignora erro
+      }
+    }
+    return map;
+  });
+
+  const dadosAtuais = dadosEnunciados[enunciadoAtivoId] || { texto: '', historico: [], devolutiva: '' };
+  const textoCandidato = dadosAtuais.texto;
+  const historico = dadosAtuais.historico;
+  const devolutivaColada = dadosAtuais.devolutiva;
+
   const [rubricaEstudo, setRubricaEstudo] = useState(RUBRICA_PADRAO);
-  const [devolutivaColada, setDevolutivaColada] = useState('');
   const [copiado, setCopiado] = useState(false);
-  const [historico, setHistorico] = useState<VersaoTexto[]>([]);
 
   // Novo enunciado form
   const [isNovoEnunciadoOpen, setIsNovoEnunciadoOpen] = useState(false);
@@ -80,44 +107,32 @@ export const DiscursivaPage: React.FC = () => {
     return total;
   }, [textoCandidato]);
 
-  // Carrega texto e histórico para o enunciado ativo
-  useEffect(() => {
+  const atualizarTextoCandidato = (novoTexto: string) => {
     if (!enunciadoAtivoId) return;
-    try {
-      const raw = localStorage.getItem(`hnc_discursiva_texto_${enunciadoAtivoId}`);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        setTextoCandidato(parsed.texto || '');
-        setHistorico(parsed.historico || []);
-        setDevolutivaColada(parsed.devolutiva || '');
-      } else {
-        setTextoCandidato('');
-        setHistorico([]);
-        setDevolutivaColada('');
-      }
-    } catch {
-      // Ignora erro
-    }
-  }, [enunciadoAtivoId]);
+    setDadosEnunciados((prev) => {
+      const atual = prev[enunciadoAtivoId] || { texto: '', historico: [], devolutiva: '' };
+      const updated = { ...atual, texto: novoTexto };
+      try {
+        localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivoId}`, JSON.stringify(updated));
+      } catch {}
+      return { ...prev, [enunciadoAtivoId]: updated };
+    });
+  };
 
-  // Salvamento automático
-  useEffect(() => {
+  const atualizarDevolutivaColada = (novaDevolutiva: string) => {
     if (!enunciadoAtivoId) return;
-    const timer = setTimeout(() => {
-      localStorage.setItem(
-        `hnc_discursiva_texto_${enunciadoAtivoId}`,
-        JSON.stringify({
-          texto: textoCandidato,
-          historico,
-          devolutiva: devolutivaColada,
-        })
-      );
-    }, 600);
-    return () => clearTimeout(timer);
-  }, [enunciadoAtivoId, textoCandidato, historico, devolutivaColada]);
+    setDadosEnunciados((prev) => {
+      const atual = prev[enunciadoAtivoId] || { texto: '', historico: [], devolutiva: '' };
+      const updated = { ...atual, devolutiva: novaDevolutiva };
+      try {
+        localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivoId}`, JSON.stringify(updated));
+      } catch {}
+      return { ...prev, [enunciadoAtivoId]: updated };
+    });
+  };
 
   const handleSalvarVersao = () => {
-    if (!textoCandidato.trim()) return;
+    if (!textoCandidato.trim() || !enunciadoAtivoId) return;
     const novaVersao: VersaoTexto = {
       id: `versao-${Date.now()}`,
       dataHora: new Date().toISOString(),
@@ -125,7 +140,24 @@ export const DiscursivaPage: React.FC = () => {
       linhasEstimadas,
       devolutiva: devolutivaColada,
     };
-    setHistorico((prev) => [novaVersao, ...prev]);
+    setDadosEnunciados((prev) => {
+      const atual = prev[enunciadoAtivoId] || { texto: '', historico: [], devolutiva: '' };
+      const updated = { ...atual, historico: [novaVersao, ...(atual.historico || [])] };
+      try {
+        localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivoId}`, JSON.stringify(updated));
+      } catch {}
+      return { ...prev, [enunciadoAtivoId]: updated };
+    });
+  };
+
+  const handleRestaurarVersao = (v: VersaoTexto) => {
+    if (typeof window !== 'undefined' && !window.confirm(`Deseja carregar a versão salva em ${new Date(v.dataHora).toLocaleString('pt-BR')}? O texto atual no editor será substituído.`)) {
+      return;
+    }
+    atualizarTextoCandidato(v.texto);
+    if (v.devolutiva) {
+      atualizarDevolutivaColada(v.devolutiva);
+    }
   };
 
   const handleCriarEnunciado = (e: React.FormEvent) => {
@@ -352,7 +384,7 @@ export const DiscursivaPage: React.FC = () => {
 
               <textarea
                 value={textoCandidato}
-                onChange={(e) => setTextoCandidato(e.target.value)}
+                onChange={(e) => atualizarTextoCandidato(e.target.value)}
                 rows={14}
                 placeholder="Comece a redigir sua resposta aqui respeitando a norma culta e os tópicos da banca..."
                 className="w-full p-4 rounded-xl bg-surface-2/30 border border-border text-sm text-ink font-serif leading-relaxed focus:outline-hidden focus:ring-1 focus:ring-accent resize-y"
@@ -394,11 +426,70 @@ export const DiscursivaPage: React.FC = () => {
               </div>
               <textarea
                 value={devolutivaColada}
-                onChange={(e) => setDevolutivaColada(e.target.value)}
+                onChange={(e) => atualizarDevolutivaColada(e.target.value)}
                 rows={6}
                 placeholder="Cole aqui a resposta recebida para arquivar com sua tentativa..."
                 className="w-full p-3 rounded-xl bg-surface-2/30 border border-border text-xs text-ink leading-relaxed font-mono focus:outline-hidden"
               />
+            </div>
+
+            {/* Histórico de Versões Salvas */}
+            <div className="bg-surface border border-border rounded-2xl p-5 shadow-editorial-sm space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <History className="w-4 h-4 text-accent" />
+                  <span className="text-xs font-mono font-bold uppercase text-ink">
+                    Histórico de Versões Salvas ({historico.length})
+                  </span>
+                </div>
+                <span className="text-[10px] text-ink-2">
+                  Arquivamento local do rascunho e suas devolutivas
+                </span>
+              </div>
+
+              {historico.length === 0 ? (
+                <p className="text-xs text-ink-2 italic py-2">
+                  Nenhuma versão manual salva para esta questão. Clique em "Salvar Versão" acima para registrar marcos do seu rascunho.
+                </p>
+              ) : (
+                <div className="space-y-2 max-h-60 overflow-y-auto pr-1">
+                  {historico.map((v, idx) => (
+                    <div
+                      key={v.id || idx}
+                      className="p-3 rounded-xl bg-surface-2/40 border border-border flex items-center justify-between gap-3 text-xs"
+                    >
+                      <div className="min-w-0 space-y-0.5">
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono font-semibold text-ink">
+                            {new Date(v.dataHora).toLocaleString('pt-BR')}
+                          </span>
+                          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-surface border border-border text-ink-2">
+                            {v.linhasEstimadas} linhas
+                          </span>
+                          {v.devolutiva && (
+                            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-600 border border-emerald-500/20">
+                              Com devolutiva
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-[11px] text-ink-2 truncate max-w-md font-serif">
+                          {v.texto.slice(0, 100)}...
+                        </p>
+                      </div>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handleRestaurarVersao(v)}
+                        className="flex items-center gap-1 text-[11px] shrink-0"
+                        title="Restaurar versão no editor"
+                      >
+                        <RotateCcw className="w-3.5 h-3.5" />
+                        <span>Restaurar</span>
+                      </Button>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>

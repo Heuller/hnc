@@ -45,7 +45,7 @@ export const tentativasSyncService = {
       if (!raw) return [];
       const parsed = JSON.parse(raw);
       return Array.isArray(parsed) ? parsed : [];
-    } catch (e) {
+    } catch {
       return [];
     }
   },
