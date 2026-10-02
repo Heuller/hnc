@@ -136,7 +136,7 @@ export const TreinosPage: React.FC = () => {
           </Button>
         </div>
 
-        {/* 3. DISCURSIVA (ESTRUTURA PROVISÓRIA) */}
+        {/* 3. DISCURSIVA COM IA CEBRASPE */}
         <div className="bg-surface border border-border rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden">
           <div className="space-y-3">
             <div className="flex items-center justify-between">
@@ -147,19 +147,20 @@ export const TreinosPage: React.FC = () => {
                 <IllustrationDiscursiva width={38} height={30} className="text-purple-600/70 dark:text-purple-400/70 hidden sm:block" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-[10px] font-mono font-bold bg-purple-500/10 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase tracking-wider">
-                Estrutura Provisória
+                Banca Cebraspe IA
               </span>
             </div>
 
             <div>
-              <h2 className="text-lg font-serif font-bold text-ink">Treino de Discursiva</h2>
+              <h2 className="text-lg font-serif font-bold text-ink">Avaliador Cebraspe de Discursiva</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Ambiente de redação com contador estimado de linhas para 2 questões (até 20 linhas) e 1 peça técnica (até 50 linhas), com rubrica de estudo e exportação para correção assistida.
+                Ambiente de redação com correção automatizada pela fórmula oficial Cebraspe NC = NCP - 2×(NE/TL), espelho preliminar de notas, auditoria gramatical por linha e reescrita padrão ouro.
               </p>
             </div>
 
-            <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-[11px] text-ink-2">
-              <span>Configuração: 2 questões (20 linhas) + 1 peça técnica (50 linhas) · Ajustar ao edital.</span>
+            <div className="p-3 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200/60 dark:border-purple-900/40 text-[11px] text-purple-900 dark:text-purple-300">
+              <span className="font-semibold">Temas oficiais disponíveis: </span>
+              <span>Desbastamento (Vergueiro), RDA/IFLA LRM, LAI e Peça Técnica OAIS (50L).</span>
             </div>
           </div>
 
@@ -167,9 +168,9 @@ export const TreinosPage: React.FC = () => {
             variant="outline"
             size="md"
             onClick={() => setActiveView('discursiva')}
-            className="w-full flex items-center justify-center gap-2"
+            className="w-full flex items-center justify-center gap-2 border-purple-300 dark:border-purple-800 text-purple-800 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-950/30"
           >
-            <span>Laboratório de Discursiva</span>
+            <span>Abrir Laboratório de Discursiva</span>
             <ArrowRight className="w-4 h-4" />
           </Button>
         </div>
