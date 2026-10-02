@@ -14,9 +14,13 @@ import {
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useAuthStore } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
+import type { TentativaRegistro } from '../domain/tentativas';
+import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
+import { tentativasSyncService } from '../services/tentativasSyncService';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
+  tentativas: TentativaRegistro[];
   // Ações
   registrarAcessoHoje: () => void;
   marcarModuloConcluido: (moduloId: string) => void;
@@ -28,6 +32,12 @@ interface ProgressStoreState extends UserProgress {
   setDevBypassSimuladoLock: (bypass: boolean) => void;
   setUltimoModuloAcessado: (moduloId: string) => void;
   sincronizarConclusoesPorDominio: () => void;
+  // Jornada e Tentativas
+  adicionarTentativa: (tentativa: TentativaRegistro) => Promise<void>;
+  reabrirSecaoAposFalha: (targetId: string, secaoId: string) => void;
+  setModoLivre: (ativo: boolean) => void;
+  getJornadaState: () => JornadaState;
+  sincronizarTentativasNuvem: () => Promise<void>;
   // Simulado
   iniciarOuRetomarSimulado: () => void;
   salvarRespostaSimulado: (
@@ -75,6 +85,9 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
     emAndamento: false,
   },
   historicoSimulados: [],
+  modoLivre: false,
+  secoesReabertasAposFalha: {},
+  tentativas: [],
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -82,10 +95,81 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   },
 };
 
+if (typeof window !== 'undefined') {
+  tentativasSyncService.migrarProgressoExistenteV2();
+}
+
 export const useProgressStore = create<ProgressStoreState>()(
   persist(
     (set, get) => ({
       ...INITIAL_STATE,
+      tentativas:
+        typeof window !== 'undefined'
+          ? tentativasSyncService.carregarTentativasLocais()
+          : [],
+
+      adicionarTentativa: async (tentativa: TentativaRegistro) => {
+        const authUser = useAuthStore.getState().user;
+        await tentativasSyncService.registrarTentativa(tentativa, authUser?.id);
+        const atual = get().tentativas || [];
+        const atualizadas = [...atual.filter((t) => t.id !== tentativa.id), tentativa];
+        set({ tentativas: atualizadas });
+
+        if (tentativa.aprovado && tentativa.tipo === 'verificacao_submodulo') {
+          const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+          const sub = allSubs.find(
+            (s) => s.numero === tentativa.targetId || s.id === tentativa.targetId
+          );
+          if (sub) {
+            const lidos = new Set(get().modulosLidosIds);
+            lidos.add(sub.id);
+            set({ modulosLidosIds: Array.from(lidos) });
+          }
+        }
+
+        const today = getTodayString();
+        const novoLeitnerDeck = { ...(get().leitnerDeck || {}) };
+        for (const [qId, resp] of Object.entries(tentativa.respostas)) {
+          const itemAtual = novoLeitnerDeck[qId] || criarItemLeitner(qId, tentativa.moduloId, today);
+          novoLeitnerDeck[qId] = processarRespostaLeitner(itemAtual, resp.acertou, today);
+        }
+        set({ leitnerDeck: novoLeitnerDeck });
+
+        if (authUser) {
+          progressSyncService.salvarProgressoNuvem(authUser.id, get(), get().ultimoModuloAcessado);
+        }
+      },
+
+      reabrirSecaoAposFalha: (targetId: string, secaoId: string) => {
+        const mapa = { ...(get().secoesReabertasAposFalha || {}) };
+        const secoes = mapa[targetId] || [];
+        if (!secoes.includes(secaoId)) {
+          mapa[targetId] = [...secoes, secaoId];
+          set({ secoesReabertasAposFalha: mapa });
+        }
+      },
+
+      setModoLivre: (ativo: boolean) => {
+        set({ modoLivre: ativo });
+      },
+
+      getJornadaState: () => {
+        const s = get();
+        return deriveJornadaState({
+          modulos: COURSE_REGISTRY,
+          tentativas: s.tentativas || [],
+          secoesVisualizadas: s.secoesVisualizadas || {},
+          secoesReabertasAposFalha: s.secoesReabertasAposFalha || {},
+          modoLivre: s.modoLivre || false,
+        });
+      },
+
+      sincronizarTentativasNuvem: async () => {
+        const authUser = useAuthStore.getState().user;
+        if (!authUser) return;
+        const remotas = await tentativasSyncService.sincronizarTentativasNuvem(authUser.id);
+        set({ tentativas: remotas });
+      },
 
       registrarAcessoHoje: () => {
         const today = getTodayString();

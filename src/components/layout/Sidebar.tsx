@@ -64,7 +64,7 @@ export const Sidebar: React.FC = () => {
   if (sidebarCollapsed) {
     return (
       <aside
-        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] py-4 transition-all scrollbar-thin space-y-3 select-none"
+        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] py-4 transition-all scrollbar-thin space-y-3 select-none print:hidden"
         aria-label="Trilha de Módulos (Recolhida)"
       >
         <button
@@ -275,7 +275,7 @@ export const Sidebar: React.FC = () => {
 
   return (
     <aside
-      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] p-3.5 transition-all scrollbar-thin select-none"
+      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] p-3.5 transition-all scrollbar-thin select-none print:hidden"
       aria-label="Trilha de Módulos do Curso"
     >
       <div className="space-y-5">

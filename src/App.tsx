@@ -12,6 +12,15 @@ const PainelPage = lazy(() =>
 const TeoriaPage = lazy(() =>
   import('./pages/TeoriaPage').then((m) => ({ default: m.TeoriaPage }))
 );
+const JornadaPage = lazy(() =>
+  import('./pages/JornadaPage').then((m) => ({ default: m.JornadaPage }))
+);
+const TreinosPage = lazy(() =>
+  import('./pages/TreinosPage').then((m) => ({ default: m.TreinosPage }))
+);
+const DiscursivaPage = lazy(() =>
+  import('./pages/DiscursivaPage').then((m) => ({ default: m.DiscursivaPage }))
+);
 const SimuladoPage = lazy(() =>
   import('./pages/SimuladoPage').then((m) => ({ default: m.SimuladoPage }))
 );
@@ -83,6 +92,10 @@ export function App() {
     switch (activeView) {
       case 'painel':
         return <PainelPage />;
+      case 'jornada':
+        return <JornadaPage />;
+      case 'treinos':
+        return <TreinosPage />;
       case 'teoria':
         return <TeoriaPage />;
       case 'simulado':
@@ -95,6 +108,8 @@ export function App() {
         return <CadernoErrosPage />;
       case 'folha-vespera':
         return <FolhaVesperaPage />;
+      case 'discursiva':
+        return <DiscursivaPage />;
       case 'design-system':
         return import.meta.env.DEV ? <DesignSystemPage /> : <PainelPage />;
       case 'dev-rascunhos':

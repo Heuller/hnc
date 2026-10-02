@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, Award, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, Palette, TrendingUp, Search, User } from 'lucide-react';
+import { BookOpen, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, User, Compass, Dumbbell, Palette } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
@@ -20,15 +20,15 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
   const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
     { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4" /> },
-    { view: 'teoria', label: 'Teoria', icon: <BookOpen className="w-4 h-4" /> },
-    { view: 'simulado', label: 'Simulado 100Q', icon: <Award className="w-4 h-4" /> },
+    { view: 'jornada', label: 'Jornada', icon: <Compass className="w-4 h-4" /> },
+    { view: 'treinos', label: 'Treinos', icon: <Dumbbell className="w-4 h-4" /> },
     { view: 'radar', label: 'Radar Cebraspe', icon: <BarChart3 className="w-4 h-4" /> },
     { view: 'progresso', label: 'Progresso', icon: <TrendingUp className="w-4 h-4" /> },
   ];
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full bg-surface/95 backdrop-blur-md border-b border-border transition-colors shadow-editorial-sm">
+      <header className="sticky top-0 z-40 w-full bg-surface/95 backdrop-blur-md border-b border-border transition-colors shadow-editorial-sm print:hidden">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2 sm:gap-3">
           {/* MOBILE HEADER (Uma linha compacta: Botão Módulos + Título Curto + Menu Mais) */}
           <div className="flex md:hidden items-center justify-between w-full">
@@ -45,7 +45,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             <div className="text-center truncate px-2 flex-1">
               <span className="font-bold text-xs text-ink truncate block">
                 HNC ·{' '}
-                {activeView === 'teoria'
+                {activeView === 'jornada'
+                  ? 'Jornada'
+                  : activeView === 'treinos'
+                  ? 'Treinos'
+                  : activeView === 'teoria'
                   ? `Submódulo ${selectedSubmodule}`
                   : activeView === 'simulado'
                   ? 'Simulado'

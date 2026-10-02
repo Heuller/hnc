@@ -2,12 +2,15 @@ import { create } from 'zustand';
 
 export type AppView =
   | 'painel'
-  | 'teoria'
-  | 'simulado'
+  | 'jornada'
+  | 'treinos'
   | 'radar'
   | 'progresso'
+  | 'teoria'
+  | 'simulado'
   | 'caderno-erros'
   | 'folha-vespera'
+  | 'discursiva'
   | 'design-system'
   | 'dev-rascunhos';
 
@@ -31,12 +34,15 @@ function getViewFromHash(): AppView {
   const rawPath = window.location.pathname.replace(/^\//, '').trim().toLowerCase();
   const route = rawHash || rawPath;
 
+  if (route.startsWith('jornada')) return 'jornada';
+  if (route.startsWith('treinos')) return 'treinos';
   if (route.startsWith('teoria')) return 'teoria';
   if (route.startsWith('simulado')) return 'simulado';
   if (route.startsWith('radar')) return 'radar';
   if (route.startsWith('progresso')) return 'progresso';
   if (route.startsWith('caderno-erros') || route.startsWith('caderno')) return 'caderno-erros';
   if (route.startsWith('folha-vespera') || route.startsWith('folha')) return 'folha-vespera';
+  if (route.startsWith('discursiva')) return 'discursiva';
   if (route.startsWith('design-system')) return 'design-system';
   if (route.startsWith('dev/rascunhos') || route.startsWith('dev-rascunhos')) return 'dev-rascunhos';
   if (route.startsWith('painel')) return 'painel';

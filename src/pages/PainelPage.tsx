@@ -15,24 +15,20 @@ import {
   getCursoProgressoPercent,
 } from '../domain/metrics';
 import {
-  BookOpen,
   Calendar,
   CheckCircle2,
   Clock,
   ArrowRight,
-  FileQuestion,
-  Award,
-  Lock,
   RotateCcw,
   BookMarked,
   Zap,
+  Compass,
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
 import { ModuleProgressRing } from '../components/common/ModuleProgressRing';
 import { getItensPendentesRevisao } from '../domain/leitner';
-import { checkSimuladoAccess } from '../domain/learningEngine';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 
 export const PainelPage: React.FC = () => {
@@ -40,13 +36,10 @@ export const PainelPage: React.FC = () => {
     constancia,
     modulosLidosIds,
     checkpointsRespondidos,
-    secoesVisualizadas,
     leitnerDeck,
-    devBypassSimuladoLock,
     historicoSimulados,
-    sessaoAtivaSimulado,
-    ultimoModuloAcessado,
     registrarAcessoHoje,
+    getJornadaState,
   } = useProgressStore();
 
   const { setCurrentRoute, setSelectedSubmodule } = useNavigationStore();
@@ -75,19 +68,6 @@ export const PainelPage: React.FC = () => {
   const itensErros = getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
   const totalErrosAtivos = itensErros.length;
 
-  // Status de Acesso ao Simulado 100Q (Parte G)
-  const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
-  const accessControl = checkSimuladoAccess(
-    m1Submodules,
-    secoesVisualizadas || {},
-    checkpointsRespondidos || {},
-    devBypassSimuladoLock
-  );
-
-  // Último Simulado
-  const ultimoSimulado =
-    historicoSimulados.length > 0 ? historicoSimulados[0] : null;
-
   // Dias da constância (últimos 7 dias)
   const ultimos7DiasArray: { data: string; ativo: boolean; label: string }[] = [];
   const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
@@ -103,14 +83,7 @@ export const PainelPage: React.FC = () => {
     });
   }
 
-  const handleContinuarEstudo = () => {
-    if (sessaoAtivaSimulado?.emAndamento) {
-      setCurrentRoute('simulado');
-    } else {
-      setSelectedSubmodule(ultimoModuloAcessado || '1.1');
-      setCurrentRoute('teoria');
-    }
-  };
+
 
   const handleAbrirSubmodulo = (subId: string) => {
     setSelectedSubmodule(subId);
@@ -137,22 +110,16 @@ export const PainelPage: React.FC = () => {
 
       {/* Grid de Resumo Superior (Continuar, Última Nota, Constância) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {/* Card 1: Continuar de onde parou (na cor do módulo - Parte C) */}
+        {/* Card 1: Próximo Passo Derivado da Máquina de Estados (Regra E.3) */}
         {(() => {
-          const proximoSubGeral =
-            allSubmodules.find((s) => !modulosLidosIds.includes(s.id)) || allSubmodules[0];
-          const targetSubNumero = ultimoModuloAcessado || proximoSubGeral.numero;
-          const targetTheme = getModuleTheme(targetSubNumero);
-          const targetSubObj =
-            allSubmodules.find((s) => s.numero === targetSubNumero) || proximoSubGeral;
+          const jornadaState = getJornadaState();
+          const { proximoPasso } = jornadaState;
+          const targetTheme = getModuleTheme(`m${proximoPasso?.moduloNumero || 1}`);
 
           return (
             <motion.div
               whileHover={{ y: -2 }}
               className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between transition-colors overflow-hidden relative"
-              style={{
-                borderColor: 'var(--border)',
-              }}
             >
               <div
                 className="absolute top-0 left-0 right-0 h-1"
@@ -165,150 +132,106 @@ export const PainelPage: React.FC = () => {
                     <ModuleBadge moduleId={targetTheme.id} size="sm" />
                     <span className="uppercase tracking-wider font-semibold">Próximo Passo</span>
                   </div>
-                  <BookOpen className="w-4 h-4 text-accent" />
+                  <Compass className="w-4 h-4 text-accent" />
                 </div>
                 <h2 className="font-sans font-bold text-ink text-base mb-1">
-                  {sessaoAtivaSimulado?.emAndamento
-                    ? 'Simulado em Andamento'
-                    : `Submódulo ${targetSubNumero}`}
+                  {proximoPasso?.titulo || 'Módulo 1.1'}
                 </h2>
                 <p className="text-xs text-ink-2 font-serif mb-4 leading-relaxed line-clamp-2">
-                  {sessaoAtivaSimulado?.emAndamento
-                    ? 'Você possui uma sessão aberta de 100 itens com respostas salvas.'
-                    : targetSubObj.titulo}
+                  {proximoPasso?.descricaoAcao || 'Inicie a leitura dos fundamentos canônicos da Biblioteconomia.'}
                 </p>
               </div>
 
               <button
                 type="button"
-                onClick={handleContinuarEstudo}
+                onClick={() => setCurrentRoute('jornada')}
                 className="w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 hover:opacity-95 active:scale-98 transition-all shadow-editorial-sm cursor-pointer"
                 style={{
                   backgroundColor: targetTheme.solidVar,
                   color: targetTheme.textVar,
                 }}
               >
-                <span>
-                  {sessaoAtivaSimulado?.emAndamento ? 'Retomar Simulado' : 'Continuar Leitura'}
-                </span>
+                <span>{proximoPasso?.descricaoAcao || 'Continuar na Jornada'}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </motion.div>
           );
         })()}
 
-        {/* Card 2: Simulado Cebraspe (Bloqueado ou Liberado - Parte G) */}
-        <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
-          <div>
-            <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
-              <span className="uppercase tracking-wider font-semibold">Simulado 100Q</span>
-              <span
-                className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold flex items-center gap-1 ${
-                  accessControl.isUnlocked
-                    ? 'bg-ok-soft text-ok border border-ok/30'
-                    : 'bg-amber-500/15 text-amber-500 border border-amber-500/30'
-                }`}
-              >
-                {accessControl.isUnlocked ? (
-                  <Award className="w-3 h-3" />
-                ) : (
-                  <Lock className="w-3 h-3" />
-                )}
-                {accessControl.isUnlocked ? 'Liberado' : 'Bloqueado'}
-              </span>
-            </div>
+        {/* Card 2: Progresso da Jornada de Domínio (Regra E.3) */}
+        {(() => {
+          const { metricas } = getJornadaState();
 
-            {ultimoSimulado ? (
+          return (
+            <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
               <div>
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-3xl font-mono font-bold text-ink">
-                    {ultimoSimulado.notaLiquida > 0
-                      ? `+${ultimoSimulado.notaLiquida}`
-                      : ultimoSimulado.notaLiquida}
+                <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
+                  <span className="uppercase tracking-wider font-semibold">Progresso da Jornada</span>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-ok-soft text-ok border border-ok/30">
+                    {metricas.taxaDominioPercent}% Domínio
                   </span>
-                  <span className="text-xs font-mono text-ink-2">/ 100 pontos</span>
                 </div>
-                <div className="flex items-center gap-3 text-xs font-mono text-ink-2 mb-3">
-                  <span className="text-ok">✓ {ultimoSimulado.certos}C</span>
-                  <span className="text-err">✗ {ultimoSimulado.errados}E</span>
-                  <span>⚪ {ultimoSimulado.emBranco}B</span>
-                </div>
-                <p className="text-xs text-ink-2 font-serif">
-                  Aproveitamento líquido:{' '}
-                  <strong className="text-ink font-mono font-semibold">
-                    {ultimoSimulado.aproveitamentoPercent}%
-                  </strong>
-                </p>
-              </div>
-            ) : (
-              <div className="py-2 flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-surface-2 flex items-center justify-center text-ink-2 shrink-0">
-                  {accessControl.isUnlocked ? (
-                    <Award className="w-5 h-5 text-accent" />
-                  ) : (
-                    <Lock className="w-5 h-5 text-amber-500" />
-                  )}
-                </div>
-                <div>
-                  <div className="font-sans font-semibold text-ink text-sm">
-                    {accessControl.isUnlocked ? 'Simulado Liberado' : 'Simulado Bloqueado'}
+
+                <div className="space-y-2 mb-3">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-mono font-bold text-ink">
+                      {metricas.etapasConcluidas}
+                    </span>
+                    <span className="text-xs font-mono text-ink-2">/ {metricas.totalEtapas} etapas concluídas</span>
                   </div>
-                  <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
-                    {accessControl.isUnlocked
-                      ? 'Requisitos cumpridos. Teste seu índice Cebraspe.'
-                      : `${accessControl.totalSubmodulosConcluidos} de 4 submódulos do M1 concluídos.`}
+
+                  <div className="w-full h-2 bg-surface-2 rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-accent transition-all duration-300"
+                      style={{ width: `${metricas.taxaDominioPercent}%` }}
+                    />
+                  </div>
+
+                  <p className="text-xs text-ink-2 font-serif pt-1">
+                    Prontidão global calculada:{' '}
+                    <strong className="text-ink font-mono font-semibold">
+                      {metricas.prontidaoPercent}%
+                    </strong>
                   </p>
                 </div>
               </div>
-            )}
-          </div>
 
-          <button
-            type="button"
-            onClick={() => setCurrentRoute('simulado')}
-            className={`w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer ${
-              accessControl.isUnlocked
-                ? 'bg-primary text-primary-text hover:opacity-95'
-                : 'bg-surface-2 border border-border text-ink hover:border-accent'
-            }`}
-          >
-            {accessControl.isUnlocked ? (
-              <FileQuestion className="w-4 h-4" />
-            ) : (
-              <Lock className="w-4 h-4 text-amber-500" />
-            )}
-            <span>
-              {ultimoSimulado
-                ? 'Refazer Simulado 100Q'
-                : accessControl.isUnlocked
-                ? 'Iniciar Simulado 100Q'
-                : 'Ver Requisitos do Simulado'}
-            </span>
-          </button>
-        </div>
+              <button
+                type="button"
+                onClick={() => setCurrentRoute('jornada')}
+                className="w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 bg-surface-2 border border-border text-ink hover:border-accent transition-all cursor-pointer"
+              >
+                <Compass className="w-4 h-4 text-accent" />
+                <span>Abrir Trilha da Jornada</span>
+              </button>
+            </div>
+          );
+        })()}
 
-        {/* Card 3: Constância & Repetição Espaçada Leitner */}
+        {/* Card 3: Revisão do Dia & Constância Discreta (Regra E.3) */}
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div>
             <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-2">
-              <span className="uppercase tracking-wider font-semibold">Constância de Estudo</span>
+              <span className="uppercase tracking-wider font-semibold">Revisão do Dia</span>
               <Calendar className="w-4 h-4 text-accent" />
             </div>
 
-            <div className="flex items-baseline gap-2 mb-2">
+            <div className="flex items-baseline gap-2 mb-1">
               <span className="text-3xl font-mono font-bold text-ink">
-                {constancia.diasConsecutivos}
+                {pendentesHoje.length}
               </span>
               <span className="text-xs text-ink-2 font-sans">
-                {constancia.diasConsecutivos === 1 ? 'dia seguido' : 'dias seguidos'}
+                {pendentesHoje.length === 1 ? 'item vencido hoje' : 'itens vencidos hoje'}
               </span>
             </div>
 
             <p className="text-xs text-ink-2 font-serif mb-3 leading-relaxed">
-              Registro cronológico dos seus dias de estudo na plataforma.
+              {pendentesHoje.length > 0
+                ? 'Janela de esquecimento ativa. Pratique a retenção deliberada.'
+                : 'Retenção consolidada. Nenhum item pendente para hoje.'}
             </p>
 
-            {/* 7 marcadores discretos */}
+            {/* 7 marcadores discretos de constância */}
             <div className="grid grid-cols-7 gap-1.5 pt-2 border-t border-border">
               {ultimos7DiasArray.map((dia, idx) => (
                 <div key={idx} className="flex flex-col items-center gap-1">
@@ -332,22 +255,14 @@ export const PainelPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Repetição Espaçada Leitner (Parte G) */}
-          <div className="text-[11px] font-sans text-ink-2 mt-3 pt-2.5 border-t border-border flex items-center justify-between">
-            <span className="flex items-center gap-1.5 font-medium">
-              <RotateCcw className="w-3.5 h-3.5 text-accent" />
-              <span>Revisões pendentes hoje:</span>
-            </span>
-            <span
-              className={`font-mono font-bold px-1.5 py-0.5 rounded text-xs ${
-                pendentesHoje.length > 0
-                  ? 'bg-amber-500/20 text-amber-500'
-                  : 'bg-surface-2 text-ink-2'
-              }`}
-            >
-              {pendentesHoje.length} {pendentesHoje.length === 1 ? 'item' : 'itens'}
-            </span>
-          </div>
+          <button
+            type="button"
+            onClick={() => setCurrentRoute('treinos')}
+            className="w-full py-2.5 px-4 rounded-lg font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 bg-surface-2 border border-border text-ink hover:border-accent transition-all cursor-pointer mt-3"
+          >
+            <RotateCcw className="w-4 h-4 text-accent" />
+            <span>Acessar Treinos e Erros</span>
+          </button>
         </div>
       </div>
 

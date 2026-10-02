@@ -24,8 +24,54 @@ import {
   Lock,
   Unlock,
   ArrowRight,
+  Printer,
+  BookOpen,
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
+
+const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
+  '1.1': {
+    titulo: 'Evolução Histórica e Epistemologia da CI',
+    cobrado: [
+      'Diferença epistemológica entre Biblioteconomia, Documentação e Ciência da Informação',
+      'Definição canônica de Ciência da Informação por Harold Borko (1968)',
+      'Recuperação da Informação de Calvin Mooers (1950) e Memex de Vannevar Bush (1945)',
+      'Traité de Documentation de Paul Otlet (1934) e Princípio Monográfico',
+      'As 5 Leis da Biblioteconomia de S. R. Ranganathan (1931) e aplicações práticas',
+      'Paradigmas Físico, Cognitivo e Social da Ciência da Informação (Capurro e Ellis)',
+    ],
+  },
+  '1.2': {
+    titulo: 'Tipologia e Funções das Unidades de Informação',
+    cobrado: [
+      'Bibliotecas universitárias, especializadas, públicas, escolares, comunitárias e nacionais',
+      'Centros de documentação versus centros de informação e bibliotecas digitais',
+      'Estruturas organizacionais e administrativas de bibliotecas legislativas e parlamentares',
+      'Serviço de referência, DSI (Disseminação Seletiva da Informação) e canais com usuários',
+      'Políticas de gestão de acervos e redes cooperativas de catalogação',
+    ],
+  },
+  '1.3': {
+    titulo: 'Ética Profissional e Legislação do Bibliotecário',
+    cobrado: [
+      'Lei Federal nº 4.084/1962: Criação da profissão e atribuições privativas vs. gerais',
+      'Decreto regulamentador nº 56.725/1965 e obrigatoriedade de registro profissional',
+      'Sistema CFB/CRB: Natureza autárquica, competências normativas, fiscalizatórias e punitivas',
+      'Código de Ética Profissional do Bibliotecário: Deveres fundamentais, sigilo e integridade',
+      'Infrações disciplinares, gradação de penalidades e responsabilidade técnica perante o CRB',
+    ],
+  },
+  '1.4': {
+    titulo: 'Políticas Públicas de Informação e Sociedade do Conhecimento',
+    cobrado: [
+      'Conceitos basilares da Sociedade da Informação, Sociedade do Conhecimento e Inclusão Digital',
+      'Lei de Acesso à Informação (LAI - Lei nº 12.527/2011): Transparência ativa, passiva e sigilo',
+      'Marco Civil da Internet (Lei nº 12.965/2014): Neutralidade de rede, privacidade e dados',
+      'Movimento de Acesso Aberto (Open Access, Budapest 2002): Vias Verde, Dourada e Diamante/Platina',
+      'Políticas nacionais de patrimônio documental, depósito legal e preservação de acervos públicos',
+    ],
+  },
+};
 
 export const SimuladoPage: React.FC = () => {
   const {
@@ -318,57 +364,71 @@ export const SimuladoPage: React.FC = () => {
     });
 
     return (
-      <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn">
+      <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn print:max-w-none print:p-0">
         {/* Cabeçalho do Relatório */}
-        <section className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs">
-          <div className="flex items-center gap-2 mb-2">
-            <Award className="w-5 h-5 text-accent" />
-            <span className="font-mono text-xs font-bold text-accent uppercase tracking-wider">
-              Relatório de Desempenho Oficial Cebraspe
-            </span>
+        <section className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-xs print:border-none print:shadow-none print:p-0">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-border print:border-black">
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <Award className="w-5 h-5 text-accent print:text-black" />
+                <span className="font-mono text-xs font-bold text-accent print:text-black uppercase tracking-wider">
+                  Relatório de Desempenho Oficial Cebraspe
+                </span>
+              </div>
+              <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-tight">
+                Simulado M1: 100 Itens de Fundamentos
+              </h1>
+            </div>
+            <div className="flex items-center gap-2 print:hidden">
+              <button
+                type="button"
+                onClick={() => window.print()}
+                className="py-2.5 px-4 rounded-lg bg-surface-2 border border-border hover:border-accent text-ink font-sans font-semibold text-xs sm:text-sm flex items-center gap-2 transition-colors cursor-pointer shadow-2xs"
+                title="Imprimir ou Salvar em PDF"
+              >
+                <Printer className="w-4 h-4 text-accent" />
+                <span>Imprimir / Salvar PDF</span>
+              </button>
+            </div>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight mb-4">
-            Simulado M1: 100 Itens de Fundamentos
-          </h1>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 bg-surface-2 rounded-xl border border-border my-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 bg-surface-2 print:bg-gray-100 rounded-xl border border-border print:border-gray-300 my-6">
             <div>
-              <span className="text-xs font-sans text-ink-2">Nota Líquida</span>
-              <div className="text-3xl font-mono font-bold text-ink">
+              <span className="text-xs font-sans text-ink-2 print:text-gray-700">Nota Líquida</span>
+              <div className="text-3xl font-mono font-bold text-ink print:text-black">
                 {relatorioFinal.notaLiquida > 0
                   ? `+${relatorioFinal.notaLiquida}`
                   : relatorioFinal.notaLiquida}
               </div>
-              <span className="text-[11px] font-mono text-ink-2">máx: 100 pts</span>
+              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">máx: 100 pts</span>
             </div>
 
             <div>
-              <span className="text-xs font-sans text-ink-2">Aproveitamento</span>
-              <div className="text-3xl font-mono font-bold text-accent">
+              <span className="text-xs font-sans text-ink-2 print:text-gray-700">Aproveitamento</span>
+              <div className="text-3xl font-mono font-bold text-accent print:text-black">
                 {relatorioFinal.aproveitamentoPercent}%
               </div>
-              <span className="text-[11px] font-mono text-ink-2">fator C - E</span>
+              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">fator C - E</span>
             </div>
 
             <div>
-              <span className="text-xs font-sans text-ink-2">Acertos / Erros</span>
-              <div className="text-xl sm:text-2xl font-mono font-bold text-ink flex items-center gap-2">
+              <span className="text-xs font-sans text-ink-2 print:text-gray-700">Acertos / Erros</span>
+              <div className="text-xl sm:text-2xl font-mono font-bold text-ink print:text-black flex items-center gap-2">
                 <span className="text-ok">✓ {relatorioFinal.certos}</span>
                 <span className="text-err">✗ {relatorioFinal.errados}</span>
               </div>
-              <span className="text-[11px] font-mono text-ink-2">
+              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">
                 ⚪ {relatorioFinal.emBranco} em branco
               </span>
             </div>
 
             <div>
-              <span className="text-xs font-sans text-ink-2">Tempo Gasto</span>
-              <div className="text-xl sm:text-2xl font-mono font-bold text-ink">
+              <span className="text-xs font-sans text-ink-2 print:text-gray-700">Tempo Gasto</span>
+              <div className="text-xl sm:text-2xl font-mono font-bold text-ink print:text-black">
                 {Math.floor(relatorioFinal.tempoGastoSegundos / 60)}m{' '}
                 {relatorioFinal.tempoGastoSegundos % 60}s
               </div>
-              <span className="text-[11px] font-mono text-ink-2">
+              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">
                 média: ~
                 {Math.round(relatorioFinal.tempoGastoSegundos / 100)}s/item
               </span>
@@ -376,55 +436,55 @@ export const SimuladoPage: React.FC = () => {
           </div>
 
           {/* Relatório de Calibração Metacognitiva */}
-          <div className="p-5 rounded-xl border border-accent/40 bg-accent-soft/20 my-6 space-y-4">
+          <div className="p-5 rounded-xl border border-accent/40 bg-accent-soft/20 my-6 space-y-4 print:border-gray-400 print:bg-gray-50 print:break-inside-avoid">
             <div className="flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-accent" />
-              <h2 className="font-sans font-bold text-ink text-base">
+              <Sparkles className="w-5 h-5 text-accent print:text-black" />
+              <h2 className="font-sans font-bold text-ink print:text-black text-base">
                 Calibração Metacognitiva e Gestão de Risco
               </h2>
             </div>
-            <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
+            <p className="text-xs sm:text-sm text-ink-2 print:text-gray-800 font-serif leading-relaxed">
               No Cebraspe, cada item chutado e errado anula um acerto suado. Veja como a sua
               certeza subjetiva se traduziu em assertividade real:
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
-              <div className="bg-surface p-3 rounded-lg border border-border">
-                <span className="text-xs font-sans font-semibold text-ink">
+              <div className="bg-surface print:bg-white p-3 rounded-lg border border-border print:border-gray-300">
+                <span className="text-xs font-sans font-semibold text-ink print:text-black">
                   Tenho Certeza
                 </span>
                 <div className="text-2xl font-mono font-bold text-ok mt-1">
                   {relatorioFinal.calibracao.acertoCertezaPercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 font-sans">taxa de acerto real</span>
+                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
 
-              <div className="bg-surface p-3 rounded-lg border border-border">
-                <span className="text-xs font-sans font-semibold text-ink">
+              <div className="bg-surface print:bg-white p-3 rounded-lg border border-border print:border-gray-300">
+                <span className="text-xs font-sans font-semibold text-ink print:text-black">
                   Provável
                 </span>
-                <div className="text-2xl font-mono font-bold text-accent mt-1">
+                <div className="text-2xl font-mono font-bold text-accent print:text-black mt-1">
                   {relatorioFinal.calibracao.acertoProvavelPercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 font-sans">taxa de acerto real</span>
+                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
 
-              <div className="bg-surface p-3 rounded-lg border border-border">
-                <span className="text-xs font-sans font-semibold text-ink">
+              <div className="bg-surface print:bg-white p-3 rounded-lg border border-border print:border-gray-300">
+                <span className="text-xs font-sans font-semibold text-ink print:text-black">
                   Chute Consciente
                 </span>
                 <div className="text-2xl font-mono font-bold text-err mt-1">
                   {relatorioFinal.calibracao.acertoChutePercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 font-sans">taxa de acerto real</span>
+                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
             </div>
 
             {/* Impacto da Abstenção Estratégica */}
             {relatorioFinal.calibracao.ganhoPotencialSeChuteBranco > 0 ? (
-              <div className="p-3.5 bg-alerta-soft rounded-lg border border-alerta-cebraspe/30 flex items-start gap-2.5">
-                <ShieldAlert className="w-5 h-5 text-alerta-cebraspe shrink-0 mt-0.5" />
-                <div className="text-xs sm:text-sm text-alerta-cebraspe font-sans leading-relaxed">
+              <div className="p-3.5 bg-alerta-soft rounded-lg border border-alerta-cebraspe/30 flex items-start gap-2.5 print:bg-gray-100 print:border-black">
+                <ShieldAlert className="w-5 h-5 text-alerta-cebraspe print:text-black shrink-0 mt-0.5" />
+                <div className="text-xs sm:text-sm text-alerta-cebraspe print:text-black font-sans leading-relaxed">
                   <strong>Diagnóstico de Chutes Prejudiciais:</strong> Se todos os itens marcados
                   como "Chute" tivessem sido deixados em branco, sua Nota Líquida teria sido{' '}
                   <strong className="underline">
@@ -438,9 +498,9 @@ export const SimuladoPage: React.FC = () => {
                 </div>
               </div>
             ) : (
-              <div className="p-3.5 bg-ok-soft rounded-lg border border-ok/30 flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-ok shrink-0 mt-0.5" />
-                <div className="text-xs sm:text-sm text-ok font-sans leading-relaxed">
+              <div className="p-3.5 bg-ok-soft rounded-lg border border-ok/30 flex items-start gap-2.5 print:bg-gray-100 print:border-black">
+                <CheckCircle2 className="w-5 h-5 text-ok print:text-black shrink-0 mt-0.5" />
+                <div className="text-xs sm:text-sm text-ok print:text-black font-sans leading-relaxed">
                   <strong>Gestão de Risco Eficiente:</strong> Seus palpites tiveram saldo positivo ou
                   neutro em relação à pontuação líquida. Mantenha essa calibração apurada.
                 </div>
@@ -449,36 +509,42 @@ export const SimuladoPage: React.FC = () => {
           </div>
 
           {/* Desempenho por Módulo-Filho */}
-          <div className="space-y-3 my-6">
-            <h3 className="font-sans font-bold text-ink text-sm sm:text-base">
+          <div className="space-y-3 my-6 print:break-inside-avoid">
+            <h3 className="font-sans font-bold text-ink print:text-black text-sm sm:text-base">
               Desempenho por Submódulo (25 itens cada)
             </h3>
-            <div className="space-y-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {Object.entries(quebraSubmodulos).map(([subId, dados]) => {
                 const subNota = dados.certos - dados.errados;
                 const subPercent = Math.max(0, Math.round((subNota / dados.total) * 100));
+                const temaInfo = SUBMODULO_TEMAS[subId];
 
                 return (
                   <div
                     key={subId}
-                    className="p-3 bg-surface-2 rounded-lg border border-border flex flex-col sm:flex-row sm:items-center justify-between gap-2"
+                    className="p-3.5 bg-surface-2 print:bg-white rounded-lg border border-border print:border-gray-300 flex flex-col justify-between gap-2"
                   >
                     <div>
-                      <span className="font-mono text-xs font-bold text-accent">
-                        Submódulo {subId}
-                      </span>
-                      <div className="text-xs font-mono text-ink-2">
-                        {dados.certos} Certos • {dados.errados} Errados • {dados.brancos} Em Branco
+                      <div className="flex items-center justify-between">
+                        <span className="font-mono text-xs font-bold text-accent print:text-black">
+                          Submódulo {subId}
+                        </span>
+                        <div className="text-right">
+                          <span className="font-mono text-sm font-bold text-ink print:text-black">
+                            {subNota > 0 ? `+${subNota}` : subNota} pts
+                          </span>
+                          <span className="text-[11px] font-mono text-ink-2 print:text-gray-600 ml-1">
+                            ({subPercent}%)
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="text-right">
-                        <span className="font-mono text-sm font-bold text-ink">
-                          {subNota > 0 ? `+${subNota}` : subNota} pts
-                        </span>
-                        <span className="text-[11px] font-mono text-ink-2 ml-1">
-                          ({subPercent}%)
-                        </span>
+                      <div className="text-xs font-medium text-ink print:text-black mt-0.5">
+                        {temaInfo?.titulo || `Módulo ${subId}`}
+                      </div>
+                      <div className="text-[11px] font-mono text-ink-2 print:text-gray-600 mt-1">
+                        <span className="text-ok font-semibold">{dados.certos} C</span> •{' '}
+                        <span className="text-err font-semibold">{dados.errados} E</span> •{' '}
+                        <span className="text-ink-2">{dados.brancos} Branco</span>
                       </div>
                     </div>
                   </div>
@@ -487,24 +553,265 @@ export const SimuladoPage: React.FC = () => {
             </div>
           </div>
 
+          {/* Bloco: O que foi cobrado por tema (E.6) */}
+          <div className="my-8 pt-6 border-t border-border print:border-gray-300 print:break-inside-avoid">
+            <div className="flex items-center gap-2 mb-3">
+              <BookOpen className="w-5 h-5 text-accent print:text-black" />
+              <h3 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
+                O Que Foi Cobrado por Tema no Simulado
+              </h3>
+            </div>
+            <p className="text-xs sm:text-sm text-ink-2 print:text-gray-700 font-serif mb-4 leading-relaxed">
+              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos 100 itens de Fundamentos:
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {Object.entries(SUBMODULO_TEMAS).map(([subId, tema]) => (
+                <div
+                  key={subId}
+                  className="p-4 rounded-xl bg-surface-2/70 print:bg-white border border-border print:border-gray-300 space-y-2 print:break-inside-avoid"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent/10 text-accent print:bg-gray-200 print:text-black border border-accent/20">
+                      {subId}
+                    </span>
+                    <h4 className="font-sans font-bold text-xs sm:text-sm text-ink print:text-black">
+                      {tema.titulo}
+                    </h4>
+                  </div>
+                  <ul className="space-y-1.5 pt-1">
+                    {tema.cobrado.map((topico, idx) => (
+                      <li
+                        key={idx}
+                        className="text-[11px] sm:text-xs text-ink-2 print:text-gray-800 font-serif leading-relaxed flex items-start gap-1.5"
+                      >
+                        <span className="text-accent print:text-black font-bold shrink-0">•</span>
+                        <span>{topico}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Gabarito Detalhado e Análise de Itens: Agrupado por Submódulo — Erros Primeiro (E.6) */}
+          <div className="my-8 pt-6 border-t border-border print:border-gray-300 space-y-8">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-2">
+                  <FileCheck className="w-5 h-5 text-accent print:text-black" />
+                  <h3 className="font-sans font-bold text-ink print:text-black text-base sm:text-lg">
+                    Gabarito Detalhado e Análise de Itens
+                  </h3>
+                </div>
+                <p className="text-xs text-ink-2 print:text-gray-700 font-serif mt-1">
+                  Agrupado por submódulo com priorização pedagógica: <strong>erros primeiro</strong>, seguidos por itens em branco e acertos.
+                </p>
+              </div>
+
+              <div className="flex items-center gap-2 font-mono text-[11px] text-ink-2 print:hidden">
+                <span className="px-2 py-0.5 rounded bg-err-soft text-err font-bold">1º Erros</span>
+                <span>→</span>
+                <span className="px-2 py-0.5 rounded bg-alerta-soft text-alerta-cebraspe font-bold">2º Branco</span>
+                <span>→</span>
+                <span className="px-2 py-0.5 rounded bg-ok-soft text-ok font-bold">3º Acertos</span>
+              </div>
+            </div>
+
+            {/* Loop por Submódulo */}
+            {(['1.1', '1.2', '1.3', '1.4'] as const).map((subId) => {
+              const dadosSub = quebraSubmodulos[subId];
+              const subNota = dadosSub ? dadosSub.certos - dadosSub.errados : 0;
+              const subPercent = dadosSub ? Math.max(0, Math.round((subNota / dadosSub.total) * 100)) : 0;
+              const temaInfo = SUBMODULO_TEMAS[subId];
+
+              // Filtra questões do submódulo e ordena: Erros primeiro, depois Branco, depois Acertos
+              const questoesSub = simuladoFundamentos100Q.filter((q) => q.submoduloId === subId);
+              const questoesOrdenadas = [...questoesSub].sort((a, b) => {
+                const respA = relatorioFinal.respostas[a.id]?.resposta || 'BRANCO';
+                const respB = relatorioFinal.respostas[b.id]?.resposta || 'BRANCO';
+
+                const pesoA = respA === 'BRANCO' ? 2 : respA === a.gabarito ? 3 : 1;
+                const pesoB = respB === 'BRANCO' ? 2 : respB === b.gabarito ? 3 : 1;
+
+                if (pesoA !== pesoB) return pesoA - pesoB; // 1 (ERRO) < 2 (BRANCO) < 3 (ACERTO)
+                return a.numero - b.numero;
+              });
+
+              return (
+                <div
+                  key={subId}
+                  className="space-y-4 pt-4 border-t border-border/60 print:border-gray-400 print:break-before-page"
+                >
+                  {/* Cabeçalho do Submódulo */}
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-3 bg-surface-2 print:bg-gray-100 rounded-xl border border-border print:border-gray-300">
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-xs font-bold px-2 py-0.5 rounded bg-accent text-accent-contrast">
+                        Submódulo {subId}
+                      </span>
+                      <h4 className="font-sans font-bold text-sm text-ink print:text-black">
+                        {temaInfo?.titulo || `Submódulo ${subId}`}
+                      </h4>
+                    </div>
+                    <div className="flex items-center gap-3 text-xs font-mono">
+                      <span className="text-ok font-bold">{dadosSub?.certos ?? 0} certos</span>
+                      <span className="text-err font-bold">{dadosSub?.errados ?? 0} errados</span>
+                      <span className="text-ink-2">{dadosSub?.brancos ?? 0} brancos</span>
+                      <span className="font-bold text-ink print:text-black ml-1">
+                        Saldo: {subNota > 0 ? `+${subNota}` : subNota} pts ({subPercent}%)
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Lista de Itens do Submódulo */}
+                  <div className="space-y-4">
+                    {questoesOrdenadas.map((q) => {
+                      const respObj = relatorioFinal.respostas[q.id];
+                      const respostaCandidato = respObj?.resposta || 'BRANCO';
+                      const isBranco = !respObj || respostaCandidato === 'BRANCO';
+                      const isAcerto = !isBranco && respostaCandidato === q.gabarito;
+                      const isErro = !isBranco && !isAcerto;
+
+                      return (
+                        <div
+                          key={q.id}
+                          className={`p-4 sm:p-5 rounded-xl border transition-all print:break-inside-avoid print:bg-white print:border-gray-300 ${
+                            isErro
+                              ? 'bg-err-soft/15 border-err/40'
+                              : isBranco
+                              ? 'bg-alerta-soft/15 border-alerta-cebraspe/40'
+                              : 'bg-surface border-border'
+                          }`}
+                        >
+                          {/* Topo do Item: Número + Status + Fonte */}
+                          <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 mb-3 border-b border-border/60 print:border-gray-200">
+                            <div className="flex items-center gap-2">
+                              <span className="font-mono text-xs font-bold text-ink print:text-black">
+                                Item #{q.numero}
+                              </span>
+
+                              {/* Status Badge */}
+                              {isErro && (
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-err text-white">
+                                  <XCircle className="w-3 h-3" />
+                                  <span>ERRO (-1 pt líquido)</span>
+                                </span>
+                              )}
+                              {isBranco && (
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-alerta-soft text-alerta-cebraspe border border-alerta-cebraspe/30">
+                                  <HelpCircle className="w-3 h-3" />
+                                  <span>EM BRANCO (0 pts)</span>
+                                </span>
+                              )}
+                              {isAcerto && (
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-ok text-white">
+                                  <CheckCircle2 className="w-3 h-3" />
+                                  <span>ACERTO (+1 pt líquido)</span>
+                                </span>
+                              )}
+                            </div>
+
+                            <div className="flex items-center gap-3 text-xs font-mono">
+                              <span className="text-ink-2 print:text-gray-700">
+                                Sua Resposta:{' '}
+                                <strong
+                                  className={
+                                    isErro
+                                      ? 'text-err'
+                                      : isAcerto
+                                      ? 'text-ok'
+                                      : 'text-alerta-cebraspe'
+                                  }
+                                >
+                                  {isBranco ? 'EM BRANCO' : respostaCandidato}
+                                </strong>
+                              </span>
+                              <span className="text-ink-2 print:text-gray-700">
+                                Gabarito Oficial:{' '}
+                                <strong className="text-ink print:text-black">
+                                  {q.gabarito}
+                                </strong>
+                              </span>
+                              {q.fonteOriginal?.descricao && (
+                                <span className="text-[10px] text-ink-2 print:text-gray-500 hidden sm:inline">
+                                  ({q.fonteOriginal.descricao})
+                                </span>
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Enunciado da Questão */}
+                          {q.contexto && (
+                            <p className="text-xs text-ink-2 print:text-gray-700 font-serif italic mb-2 leading-relaxed">
+                              {q.contexto}
+                            </p>
+                          )}
+                          <p className="text-sm text-ink print:text-black font-serif leading-relaxed font-medium">
+                            {q.item}
+                          </p>
+
+                          {/* Pegadinha Cebraspe (se houver) */}
+                          {q.armadilhaBanca && (
+                            <div className="mt-3.5 p-3 rounded-lg bg-amber-500/10 border-l-4 border-l-amber-500 border border-border/50 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1 print:border-gray-400">
+                              <div className="flex items-center gap-1.5 font-sans font-bold text-amber-700 dark:text-amber-400 print:text-black text-[11px] uppercase tracking-wide">
+                                <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                                <span>Armadilha Cebraspe Mapeada</span>
+                              </div>
+                              <p className="text-ink print:text-black m-0 leading-relaxed font-sans text-xs">
+                                {q.armadilhaBanca}
+                              </p>
+                            </div>
+                          )}
+
+                          {/* Justificativa e Fundamentação Técnica */}
+                          <div className="mt-2.5 p-3 rounded-lg bg-surface-2 print:bg-gray-50 border border-border/80 print:border-gray-300 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1">
+                            <div className="flex items-center gap-1.5 font-sans font-bold text-ink-2 print:text-gray-700 text-[11px] uppercase tracking-wide">
+                              <BookOpen className="w-3.5 h-3.5 text-accent print:text-black shrink-0" />
+                              <span>Justificativa e Fundamentação Técnica</span>
+                            </div>
+                            <p className="text-ink print:text-black m-0 leading-relaxed font-serif text-xs">
+                              {q.justificativa}
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
           {/* Ações pós-simulado */}
-          <div className="pt-4 border-t border-border flex flex-col sm:flex-row items-center gap-3">
+          <div className="pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 print:hidden">
+            <div className="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
+              <button
+                type="button"
+                onClick={handleNovoSimulado}
+                className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-primary text-primary-text font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-xs cursor-pointer"
+              >
+                <RotateCcw className="w-4 h-4" />
+                <span>Realizar Novo Simulado</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setRelatorioFinal(null);
+                }}
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent font-sans font-semibold text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer"
+              >
+                <span>Revisar Respostas (Modo Interativo)</span>
+              </button>
+            </div>
+
             <button
               type="button"
-              onClick={handleNovoSimulado}
-              className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-primary text-primary-text font-sans font-semibold text-sm flex items-center justify-center gap-2 hover:opacity-95 transition-opacity shadow-xs"
+              onClick={() => window.print()}
+              className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface-2 border border-border hover:border-accent text-ink font-sans font-semibold text-sm flex items-center justify-center gap-2 transition-colors cursor-pointer"
             >
-              <RotateCcw className="w-4 h-4" />
-              <span>Realizar Novo Simulado</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setRelatorioFinal(null);
-              }}
-              className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent font-sans font-semibold text-sm flex items-center justify-center gap-2 transition-colors"
-            >
-              <span>Revisar Respostas</span>
+              <Printer className="w-4 h-4 text-accent" />
+              <span>Imprimir / Salvar PDF</span>
             </button>
           </div>
         </section>

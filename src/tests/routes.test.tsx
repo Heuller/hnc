@@ -11,6 +11,10 @@ import { ProgressoPage } from '../pages/ProgressoPage';
 import { CadernoErrosPage } from '../pages/CadernoErrosPage';
 import { FolhaVesperaPage } from '../pages/FolhaVesperaPage';
 
+import { JornadaPage } from '../pages/JornadaPage';
+import { TreinosPage } from '../pages/TreinosPage';
+import { DiscursivaPage } from '../pages/DiscursivaPage';
+
 describe('Teste de Fumaça de Rotas e Normalização de Roteamento (Regra B1)', () => {
   let consoleErrors: string[] = [];
   const originalConsoleError = console.error;
@@ -63,14 +67,41 @@ describe('Teste de Fumaça de Rotas e Normalização de Roteamento (Regra B1)', 
     });
     expect(useNavigationStore.getState().activeView).toBe('teoria');
 
-    // Teste 4: #folha-vespera
+    // Teste 4: #jornada e #/jornada
+    window.location.hash = '#jornada';
+    act(() => {
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+    expect(useNavigationStore.getState().activeView).toBe('jornada');
+
+    window.location.hash = '#/jornada';
+    act(() => {
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+    expect(useNavigationStore.getState().activeView).toBe('jornada');
+
+    // Teste 5: #treinos e #/treinos
+    window.location.hash = '#treinos';
+    act(() => {
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+    expect(useNavigationStore.getState().activeView).toBe('treinos');
+
+    // Teste 6: #discursiva
+    window.location.hash = '#discursiva';
+    act(() => {
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+    expect(useNavigationStore.getState().activeView).toBe('discursiva');
+
+    // Teste 7: #folha-vespera
     window.location.hash = '#folha-vespera';
     act(() => {
       window.dispatchEvent(new HashChangeEvent('hashchange'));
     });
     expect(useNavigationStore.getState().activeView).toBe('folha-vespera');
 
-    // Teste 5: fallback limpo para hash desconhecido
+    // Teste 8: fallback limpo para hash desconhecido
     window.location.hash = '#rota-inexistente';
     act(() => {
       window.dispatchEvent(new HashChangeEvent('hashchange'));
@@ -80,6 +111,9 @@ describe('Teste de Fumaça de Rotas e Normalização de Roteamento (Regra B1)', 
 
   const routes: { name: string; component: React.ReactElement }[] = [
     { name: 'PainelPage', component: <PainelPage /> },
+    { name: 'JornadaPage', component: <JornadaPage /> },
+    { name: 'TreinosPage', component: <TreinosPage /> },
+    { name: 'DiscursivaPage', component: <DiscursivaPage /> },
     { name: 'TeoriaPage', component: <TeoriaPage /> },
     { name: 'SimuladoPage', component: <SimuladoPage /> },
     { name: 'RadarPage', component: <RadarPage /> },

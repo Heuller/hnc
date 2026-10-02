@@ -7,6 +7,7 @@ export interface ModuleTheme {
   softVar: string;
   textVar: string;
   borderVar: string;
+  primaryColor?: string;
   // CSS helper classes generated via Tailwind v4 @theme
   bgSolidClass: string;
   bgSoftClass: string;
@@ -188,26 +189,31 @@ export const MODULE_THEMES: Record<string, ModuleTheme> = {
 /**
  * Normaliza qualquer identificador ('m1', 'M1', 1, '1.1') para o tema correspondente do macro-módulo.
  */
-export function getModuleTheme(key: string | number | undefined): ModuleTheme {
-  if (key === undefined || key === null) return MODULE_THEMES.m1;
+export function getModuleTheme(key: string | number | undefined): ModuleTheme & { primaryColor: string } {
+  const resolve = (): ModuleTheme => {
+    if (key === undefined || key === null) return MODULE_THEMES.m1;
 
-  const str = String(key).trim().toLowerCase();
-  
-  // Caso '1.1' -> extrai '1'
-  if (str.includes('.')) {
-    const numPart = str.split('.')[0];
-    const keyCandidate = `m${numPart}`;
-    if (MODULE_THEMES[keyCandidate]) return MODULE_THEMES[keyCandidate];
-  }
+    const str = String(key).trim().toLowerCase();
+    
+    // Caso '1.1' -> extrai '1'
+    if (str.includes('.')) {
+      const numPart = str.split('.')[0];
+      const keyCandidate = `m${numPart}`;
+      if (MODULE_THEMES[keyCandidate]) return MODULE_THEMES[keyCandidate];
+    }
 
-  // Caso 'm1', 'm10'
-  if (MODULE_THEMES[str]) return MODULE_THEMES[str];
+    // Caso 'm1', 'm10'
+    if (MODULE_THEMES[str]) return MODULE_THEMES[str];
 
-  // Caso número direto '1' ou 1
-  const asNum = `m${str.replace(/^m/, '')}`;
-  if (MODULE_THEMES[asNum]) return MODULE_THEMES[asNum];
+    // Caso número direto '1' ou 1
+    const asNum = `m${str.replace(/^m/, '')}`;
+    if (MODULE_THEMES[asNum]) return MODULE_THEMES[asNum];
 
-  return MODULE_THEMES.m1;
+    return MODULE_THEMES.m1;
+  };
+
+  const theme = resolve();
+  return { ...theme, primaryColor: theme.solidVar };
 }
 
 export type SubmoduleState =
