@@ -85,8 +85,8 @@ export default async function handler(req: any, res: any) {
 
   try {
     const prompt = `
-Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso da Câmara dos Deputados (Analista Legislativo).
-Sua missão é formular um SIMULADO ADAPTATIVO DE FRAQUEZAS com exatamente ${quantidadeItens} itens no formato CERTO/ERRADO.
+Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) para o Concurso da Câmara dos Deputados (Analista Legislativo), atuando com máximo rigor técnico em Conhecimentos Específicos (Biblioteconomia, Documentação, Gestão da Informação, Legislação) e Conhecimentos Gerais (Língua Portuguesa, Raciocínio Lógico-Matemático, Língua Inglesa).
+Sua missão é formular um SIMULADO ADAPTATIVO DE FRAQUEZAS com exatamente ${quantidadeItens} itens no formato CERTO/ERRADO, focando nos módulos solicitados (${modulosAlvo.join(', ')}).
 
 DIAGNÓSTICO DAS VULNERABILIDADES DO CANDIDATO:
 - Módulos prioritários: ${modulosAlvo.join(', ')}
@@ -94,26 +94,36 @@ DIAGNÓSTICO DAS VULNERABILIDADES DO CANDIDATO:
 - Modo de foco: ${modoFoco}
 
 DIRETRIZES DA BANCA CEBRASPE:
-1. Formulação de itens rigorosos, elegantes e de nível alto (padrão concurso da Câmara dos Deputados).
-2. Itens do tipo Certo ou Errado (equilíbrio saudável entre itens C e E).
-3. Distratores sofisticados da banca Cebraspe: palavras restritivas ("exclusivamente", "sempre", "apenas"), inversão de termos correlatos (desbastamento x descarte, revocação x precisão, SIP x AIP x DIP, resumo indicativo x informativo), prazos da LAI, autoridades clássicas (Briet, Otlet, Borko, Shera, Lancaster, Vergueiro, Ranganathan).
-4. REGRA ANTI-ALUCINAÇÃO INEGOCIÁVEL:
-   - Todo item DEVE obrigatoriamente referenciar uma fonte primária canônica verificável (ex: autor com ano e obra, norma ABNT NBR específica com número, lei federal com número e artigo, ou gramática normativa canônica com autor).
-   - NUNCA use fontes genéricas ou vagas como 'jurisprudência Cebraspe', 'edital da Câmara', 'internet', 'doutrina geral' ou 'vários autores'. Itens sem fonte primária específica serão descartados.
+1. Formulação de itens rigorosos, elegantes e de nível superior (padrão concurso da Câmara dos Deputados). Cada item deve ser uma assertiva puramente DECLARATIVA para julgamento Certo ou Errado (sem perguntas interrogativas e sem alternativas A-E).
+2. Equilíbrio estatístico saudável entre assertivas Certas (C) e Erradas (E).
+3. Distratores sofisticados da banca Cebraspe para itens ERRADOS:
+   - Inversão causal/sintática ou de conceitos correlatos (desbastamento x descarte, revocação x precisão, oração concessiva x adversativa, causa x consequência).
+   - Paráfrase infiel: reescrita gramaticalmente correta, porém com alteração do sentido original.
+   - Generalização indevida: uso de termos absolutos ("sempre", "todos", "em qualquer hipótese", "invariavelmente") em regras que comportam exceções.
+   - Restrição indevida: uso de termos limitantes ("apenas", "somente", "exclusivamente", "limita-se a") em conceitos de escopo abrangente.
+   - Adulteração de dispositivos normativos, prazos legais ou regras gramaticais estritas.
+4. REGRA ANTI-ALUCINAÇÃO INEGOCIÁVEL (BLOQUEIO SISTÊMICO):
+   - Todo item DEVE obrigatoriamente referenciar uma fonte primária canônica verificável:
+     * Língua Portuguesa: Celso Cunha & Lindley Cintra (2008), Evanildo Bechara (2009), Celso Pedro Luft, Domingos Paschoal Cegalla, Manual de Redação da Presidência da República (3ª ed. 2018), VOLP/ABL.
+     * Biblioteconomia e Ciência da Informação: Paul Otlet (1934), Suzanne Briet (1951), Waldomiro Vergueiro (1989), F. W. Lancaster (2004), S. R. Ranganathan, IFLA LRM, RDA, AACR2, ABNT NBR (com número).
+     * Legislação: CF/88 (com artigo), Lei nº 12.527/2011 (LAI com artigo), Lei nº 9.610/1998, Regimento Interno da Câmara (com artigo).
+     * Raciocínio Lógico: George Boole (1854), Philip Johnson-Laird (1983), Augustus De Morgan.
+     * Língua Inglesa: Raymond Murphy, Michael Swan, Randolph Quirk.
+   - NUNCA use termos genéricos como "jurisprudência Cebraspe", "edital da Câmara", "internet", "doutrina geral" ou "vários autores". Itens sem fonte primária canônica serão sumariamente rejeitados.
 5. Retorne EXCLUSIVAMENTE um objeto JSON válido com a seguinte estrutura:
 
 {
   "itens": [
     {
       "id": "ia-adp-1",
-      "macroModuloId": "m1",
-      "submoduloId": "1.1",
+      "macroModuloId": "m13",
+      "submoduloId": "13.1",
       "topicoNome": "Título do Tópico",
-      "item": "Texto da assertiva para julgamento em C ou E...",
+      "item": "Texto da assertiva declarativa para julgamento...",
       "gabarito": "C",
-      "justificativa": "Justificativa doutrinária irrefutável com menção à regra/trecho...",
-      "armadilhaBanca": "Qual o distrator ou pegadinha embutida no item...",
-      "autorOuNormaReferencia": "Autor, obra ou norma primária (ex: Waldomiro Vergueiro 1989 / Lei 12.527 / AACR2)"
+      "justificativa": "Justificativa analítica com citação da regra/autor...",
+      "armadilhaBanca": "Distrator ou técnica Cebraspe aplicada...",
+      "autorOuNormaReferencia": "Autor clássico com obra/ano ou dispositivo de lei/gramática"
     }
   ]
 }

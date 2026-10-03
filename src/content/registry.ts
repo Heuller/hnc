@@ -11,6 +11,7 @@ import { moduloM9Comunicacao } from './modules/m9-comunicacao';
 import { moduloM10Legislativo } from './modules/m10-legislativo';
 import { moduloM11RaciocinioLogico } from './modules/m11-raciocinio-logico';
 import { moduloM12Ingles } from './modules/m12-ingles';
+import { moduloM13Portugues } from './modules/m13-portugues';
 
 export const TRILHA_ESPECIFICOS: MacroModulo[] = [
   moduloM1Fundamentos,
@@ -28,6 +29,7 @@ export const TRILHA_ESPECIFICOS: MacroModulo[] = [
 export const TRILHA_COMPLEMENTAR: MacroModulo[] = [
   moduloM11RaciocinioLogico,
   moduloM12Ingles,
+  moduloM13Portugues,
 ];
 
 export const COURSE_REGISTRY: MacroModulo[] = [
@@ -48,4 +50,5 @@ export {
   moduloM10Legislativo,
   moduloM11RaciocinioLogico,
   moduloM12Ingles,
+  moduloM13Portugues,
 };

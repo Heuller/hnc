@@ -184,6 +184,20 @@ export const MODULE_THEMES: Record<string, ModuleTheme> = {
     textSolidClass: 'text-m12-text',
     borderClass: 'border-m12-border',
   },
+  m13: {
+    id: 'm13',
+    codigo: 'M13',
+    numero: 13,
+    hue: 20,
+    solidVar: 'var(--m13-solid)',
+    softVar: 'var(--m13-soft)',
+    textVar: 'var(--m13-text)',
+    borderVar: 'var(--m13-border)',
+    bgSolidClass: 'bg-m13',
+    bgSoftClass: 'bg-m13-soft',
+    textSolidClass: 'text-m13-text',
+    borderClass: 'border-m13-border',
+  },
 };
 
 /**
