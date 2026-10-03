@@ -6,6 +6,9 @@ export default async function handler(req: any, res: any) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  res.setHeader('Cache-Control', 'no-store, max-age=0');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+
   const {
     titulo,
     tipo,
@@ -21,7 +24,11 @@ export default async function handler(req: any, res: any) {
     return res.status(400).json({ error: 'Texto da redação insuficiente para correção (mínimo 50 caracteres).' });
   }
 
-  const totalLinhas = Math.max(1, Number(linhasEstimadas) || Math.ceil(textoCandidato.length / 70));
+  if (textoCandidato.length > 6000) {
+    return res.status(400).json({ error: 'Texto da redação excede o limite máximo permitido (6.000 caracteres).' });
+  }
+
+  const totalLinhas = Math.min(60, Math.max(1, Number(linhasEstimadas) || Math.ceil(textoCandidato.length / 70)));
   const notaMaximaGeral = tipo === 'peca_50' ? 50.0 : 20.0;
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
@@ -157,11 +164,14 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo
 `;
 
   try {
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
     const response = await fetch(geminiUrl, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey,
+      },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {

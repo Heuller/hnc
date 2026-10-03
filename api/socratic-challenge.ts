@@ -6,6 +6,9 @@ export default async function handler(req: any, res: any) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  res.setHeader('Cache-Control', 'no-store, max-age=0');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+
   const {
     acao,
     assertiva,
@@ -21,6 +24,9 @@ export default async function handler(req: any, res: any) {
   if (!assertiva || !gabarito) {
     return res.status(400).json({ error: 'Assertiva e gabarito são obrigatórios.' });
   }
+
+  const assertivaLimpa = String(assertiva).slice(0, 1000);
+  const argumentoLimpo = typeof argumentoCandidato === 'string' ? argumentoCandidato.slice(0, 2000) : '';
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
@@ -65,7 +71,7 @@ Seu estilo é rigoroso, acadêmico, formal, polido e profundamente fundamentado 
 Um candidato errou um item do concurso e solicita o Parecer Técnico e Desafio Socrático da Banca.
 
 DADOS DO ITEM:
-- Assertiva da Questão: "${assertiva}"
+- Assertiva da Questão: "${assertivaLimpa}"
 - Gabarito Oficial Cebraspe: ${gabaritoExtenso}
 - Resposta Assinalada pelo Candidato: ${escolhaExtensa}
 - Módulo / Disciplina: ${macroModuloTitulo || 'Biblioteconomia'}
@@ -84,10 +90,13 @@ Retorne EXCLUSIVAMENTE um objeto JSON válido.
 `;
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': apiKey,
+          },
           body: JSON.stringify({
             contents: [{ parts: [{ text: prompt }] }],
             generationConfig: {
@@ -114,11 +123,11 @@ Retorne EXCLUSIVAMENTE um objeto JSON válido.
       const promptSistema = `
 Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia (Câmara dos Deputados).
 O candidato está dialogando com você, tentando recorrer ou justificar sua resposta para a seguinte assertiva:
-"${assertiva}" (Gabarito Oficial: ${gabaritoExtenso}).
+"${assertivaLimpa}" (Gabarito Oficial: ${gabaritoExtenso}).
 
 Instruções:
 - Responda formalmente, na primeira pessoa do plural da banca ("A banca examinadora...", "Registramos que...", "O pleito não se sustenta porque...").
-- Discuta criticamente o argumento apresentado pelo candidato ("${argumentoCandidato}").
+- Discuta criticamente o argumento apresentado pelo candidato ("${argumentoLimpo}").
 - Se o candidato estiver correto na refutação conceitual, elogie a percepção, mas aponte por que o Cebraspe mantém a chave oficial (pegadinha formal da palavra/advérbio no item).
 - Cite os autores de referência (Cunha, Lancaster, Vergueiro, Briet, Mey, etc.) com precisão cirúrgica.
 - Mantenha tom socrático, polido e focado em alta performance.
@@ -129,15 +138,18 @@ Instruções:
         ...historicoFormatado,
         {
           role: 'user',
-          parts: [{ text: `${promptSistema}\n\nArgumento recente do candidato: "${argumentoCandidato}"` }],
+          parts: [{ text: `${promptSistema}\n\nArgumento recente do candidato: "${argumentoLimpo}"` }],
         },
       ];
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'x-goog-api-key': apiKey,
+          },
           body: JSON.stringify({
             contents,
             generationConfig: {

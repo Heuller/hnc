@@ -217,9 +217,7 @@ A plataforma agora conta com infraestrutura de banco de dados relacional e auten
 ### 9.3. Camada de Segurança e Acesso Restrito (AuthGate)
 * **Gating Obrigatório:** Acesso fechado a visitantes não autenticados; toda a plataforma de estudos é carregada apenas após validação de credenciais ativas.
 * **Interface Neutra de Entrada:** A tela de login/cadastro é propositalmente discreta, sem exposição de temas, cargos ou menções a concursos públicos na área externa.
-* **Usuário de Teste / Demonstração:** Conta criada e confirmada no Supabase para homologação rápida:
-  * *Usuário:* \`teste\` (ou \`teste@teste.com\`)
-  * *Senha:* \`teste4344\`
+* **Controle de Acesso:** Usuários e credenciais devem ser provisionados de forma estritamente privada no painel do Supabase Auth, sendo terminantemente proibida a exposição de senhas ou nomes de contas de teste no repositório.
 
 ---
 

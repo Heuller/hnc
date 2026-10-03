@@ -6,12 +6,18 @@ export default async function handler(req: any, res: any) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  res.setHeader('Cache-Control', 'no-store, max-age=0');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+
   const {
     quantidadeItens = 10,
     modoFoco = 'fraquezas_criticas',
     modulosAlvo = ['m1', 'm2', 'm4', 'm5', 'm8'],
     vulnerabilidades = [],
   } = req.body || {};
+
+  // Limite estrito de segurança contra DoS / esgotamento de quota
+  const qtdClamped = Math.min(20, Math.max(5, Number(quantidadeItens) || 10));
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
@@ -79,14 +85,14 @@ export default async function handler(req: any, res: any) {
           armadilhaBanca: 'Afirmar que essas informações seriam obrigatoriamente ultrassecretas com prazo fixo de 25 anos.',
           autorOuNormaReferencia: 'Lei nº 12.527/2011, art. 24, § 2º',
         },
-      ].slice(0, Math.min(quantidadeItens, 5)),
+      ].slice(0, Math.min(qtdClamped, 5)),
     });
   }
 
   try {
     const prompt = `
 Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) para o Concurso da Câmara dos Deputados (Analista Legislativo), atuando com máximo rigor técnico em Conhecimentos Específicos (Biblioteconomia, Documentação, Gestão da Informação, Legislação) e Conhecimentos Gerais (Língua Portuguesa, Raciocínio Lógico-Matemático, Língua Inglesa).
-Sua missão é formular um SIMULADO ADAPTATIVO DE FRAQUEZAS com exatamente ${quantidadeItens} itens no formato CERTO/ERRADO, focando nos módulos solicitados (${modulosAlvo.join(', ')}).
+Sua missão é formular um SIMULADO ADAPTATIVO DE FRAQUEZAS com exatamente ${qtdClamped} itens no formato CERTO/ERRADO, focando nos módulos solicitados (${modulosAlvo.join(', ')}).
 
 DIAGNÓSTICO DAS VULNERABILIDADES DO CANDIDATO:
 - Módulos prioritários: ${modulosAlvo.join(', ')}
@@ -130,10 +136,13 @@ DIRETRIZES DA BANCA CEBRASPE:
 `;
 
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
       {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey,
+        },
         body: JSON.stringify({
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: {
