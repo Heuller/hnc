@@ -57,26 +57,26 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
     });
   });
 
-  describe('Auditoria de Questões e Diagnóstico de Déficit para Fase E5', () => {
-    it('deve reconhecer M1 e M2 como módulos com simulados de 100 itens concluídos', () => {
-      expect(relatorio.modulosSimuladoConcluidos).toContain('M1');
-      expect(relatorio.modulosSimuladoConcluidos).toContain('M2');
-      expect(relatorio.totalQuestoesSimulados100Q).toBe(200);
-    });
-
-    it('deve apontar os 8 módulos específicos restantes (M3 a M10) como pendentes de simulados 100Q', () => {
-      const pendentesEsperados = ['M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10'];
-      pendentesEsperados.forEach(modCodigo => {
-        expect(relatorio.modulosSimuladoPendentes).toContain(modCodigo);
+  describe('Auditoria de Questões e Diagnóstico de Déficit Pós-Fase E5', () => {
+    it('deve reconhecer todos os 10 módulos de Conhecimentos Específicos (M1 a M10) com simulados de 100 itens concluídos', () => {
+      const concluidosEsperados = ['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10'];
+      concluidosEsperados.forEach(modCodigo => {
+        expect(relatorio.modulosSimuladoConcluidos).toContain(modCodigo);
       });
+      expect(relatorio.totalQuestoesSimulados100Q).toBe(1000);
     });
 
-    it('deve calcular com precisão o déficit de 800 questões para os 8 cadernos específicos na Fase E5', () => {
-      expect(relatorio.deficitTotalSimuladosE5).toBe(800);
+    it('deve apontar apenas os 3 módulos de Conhecimentos Básicos (M11, M12, M13) como pendentes de simulados 100Q', () => {
+      const pendentesEsperados = ['M11', 'M12', 'M13'];
+      expect(relatorio.modulosSimuladoPendentes).toEqual(pendentesEsperados);
     });
 
-    it('deve totalizar 356 questões atualmente ativas no sistema (156 checkpoints + 200 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(356);
+    it('deve certificar déficit zero para os módulos específicos após a conclusão das Ondas M, P e X da Fase E5', () => {
+      expect(relatorio.deficitTotalSimuladosE5).toBe(0);
+    });
+
+    it('deve totalizar 1.156 questões atualmente ativas no sistema (156 checkpoints formativos + 1.000 de simulados)', () => {
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1156);
     });
   });
 
