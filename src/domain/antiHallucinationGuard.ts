@@ -55,7 +55,7 @@ const FONTES_PRIMARIAS_VALIDAS = [
   /schellenberg|bellotto|rousseau|couture|camargo|paes|conarq/i,
 
   // Língua Portuguesa e Redação Oficial
-  /bechara|cunha\s*&\s*cintra|cegalla|rocha\s+lima|azeredo|garcia|luft/i,
+  /bechara|cunha\s*(&|e)\s*(lindley\s+)?cintra|cintra|cegalla|rocha\s+lima|azeredo|garcia|luft|marcuschi|koch/i,
   /volp|academia\s+brasileira\s+de\s+letras/i,
   /manual\s+de\s+reda[çc][ãa]o\s+da\s+presid[êe]ncia/i,
   /acordo\s+ortogr[áa]fico/i,

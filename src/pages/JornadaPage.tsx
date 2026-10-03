@@ -230,9 +230,11 @@ export const JornadaPage: React.FC = () => {
 
       {/* SELETOR DE TRILHA: PRINCIPAL (ESPECÍFICOS) vs COMPLEMENTAR (GERAIS) */}
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-b border-border pb-3">
-        <div className="flex items-center gap-2 p-1 bg-surface-2/60 rounded-xl border border-border w-fit">
+        <div className="flex items-center gap-2 p-1 bg-surface-2/60 rounded-xl border border-border w-fit" role="tablist" aria-label="Seletor de Trilha de Estudos">
           <button
             type="button"
+            role="tab"
+            aria-selected={abaTrilha === 'especificos'}
             onClick={() => setAbaTrilha('especificos')}
             className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
               abaTrilha === 'especificos'
@@ -248,6 +250,8 @@ export const JornadaPage: React.FC = () => {
 
           <button
             type="button"
+            role="tab"
+            aria-selected={abaTrilha === 'complementar'}
             onClick={() => setAbaTrilha('complementar')}
             className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
               abaTrilha === 'complementar'
@@ -255,9 +259,9 @@ export const JornadaPage: React.FC = () => {
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            <span>Trilha Complementar · Gerais</span>
+            <span>Trilha Complementar · Conhecimentos Gerais</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-700 dark:text-purple-300 font-semibold">
-              M11 & M12
+              M11, M12 & M13
             </span>
           </button>
         </div>
@@ -550,16 +554,16 @@ export const JornadaPage: React.FC = () => {
               </span>
             </div>
             <h2 className="text-lg font-serif font-bold text-ink">
-              Raciocínio Lógico-Matemático (M11) e Língua Inglesa (M12)
+              Língua Portuguesa (M13), Raciocínio Lógico (M11) e Língua Inglesa (M12)
             </h2>
             <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
               Estes módulos oferecem preparação de base enquanto aguardamos a publicação do edital da Câmara dos Deputados. As questões foram elaboradas com assistência de inteligência artificial sob o bloqueio estrito contra alucinações (
               <code className="text-[11px] bg-surface-2 px-1 rounded font-mono">antiHallucinationGuard</code>
-              ), ancoradas em fontes primárias canônicas (Boole, Frege, Aristóteles, gramática normativa de Murphy e provas Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
+              ), ancoradas em fontes primárias canônicas (Bechara, Cunha & Cintra, Luft, Manual de Redação da Presidência, Boole, Murphy e jurisprudência canônica Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
             </p>
           </div>
 
-          {/* Módulos Complementares M11 e M12 */}
+          {/* Módulos Complementares M11, M12 e M13 */}
           <div className="space-y-8">
             {modulosGerais.map((macro) => {
               const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
