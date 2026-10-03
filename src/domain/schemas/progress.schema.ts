@@ -10,6 +10,8 @@ export const RespostaItemSimuladoSchema = z.object({
 
 export const SimuladoFinalizadoSchema = z.object({
   id: z.string(),
+  simuladoId: z.string().optional(),
+  tituloSimulado: z.string().optional(),
   dataHora: z.string(),
   tempoGastoSegundos: z.number(),
   certos: z.number(),

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { SIMULADOS_REGISTRY, getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
@@ -71,6 +71,46 @@ const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
       'Políticas nacionais de patrimônio documental, depósito legal e preservação de acervos públicos',
     ],
   },
+  '2.1': {
+    titulo: 'Princípios de Catalogação (ICP 2016) e AACR2r',
+    cobrado: [
+      'Declaração de Princípios Internacionais de Catalogação (ICP 2016 da IFLA) e primazia do usuário',
+      'Regras e objetivos clássicos de Cutter (1876) para catálogos dicionários integrados',
+      'Estrutura geral do AACR2r: Parte I (Descrição por suportes/ISBD) e Parte II (Pontos de acesso)',
+      'Fontes principais de informação para monografias e regras de responsabilidade compartilhada e mista',
+      'Cabeçalhos de pessoas físicas, entidades coletivas, atos legislativos e títulos uniformes',
+    ],
+  },
+  '2.2': {
+    titulo: 'Padrão Resource Description and Access (RDA)',
+    cobrado: [
+      'Transição do AACR2r para o RDA e objetivos estruturais do Projeto 3R (Restructure and Redesign)',
+      'Substituição da DGM pela tríade: Tipo de Conteúdo (Content), Tipo de Mídia (Media) e Tipo de Suporte (Carrier)',
+      'Princípio da representação fidedigna: \'Take What You See\' e abolição das abreviaturas latinas',
+      'Elementos Núcleo (RDA Core Elements) e Designadores de Relação entre entidades',
+      'Adoção da Web Semântica, Linked Open Data e interoperabilidade no RDA Toolkit',
+    ],
+  },
+  '2.3': {
+    titulo: 'Modelos Conceituais IFLA (FRBR, FRAD, FRSAD e IFLA LRM)',
+    cobrado: [
+      'Metodologia Entidade-Relacionamento e as 4 Tarefas do Usuário dos FRBR: Encontrar, Identificar, Selecionar e Obter',
+      'Entidades do Grupo 1 (WEMI): Obra, Expressão, Manifestação e Item e suas relações hierárquicas',
+      'Agentes e nomes nos modelos FRAD (Pessoa, Família, Entidade Coletiva) e FRSAD (Thema e Nomen)',
+      'Modelo IFLA LRM (2017): Superclasse LRM-E1 (Res), Agente restrito a humanos/coletivos e nova tarefa Explorar',
+      'Modelagem de agregações, antologias, periódicos e relações de exemplificação de itens',
+    ],
+  },
+  '2.4': {
+    titulo: 'Formatos de Codificação e Metadados (MARC 21 e Dublin Core)',
+    cobrado: [
+      'Norma ISO 2709 e estrutura do registro MARC 21: Líder (24 car.), Diretório automático (12 car.) e Campos',
+      'Campos de controle (001 a 008) versus campos de dados variáveis, indicadores e subcampos ($)',
+      'Campos bibliográficos nucleares: 020 (ISBN), 080/082 (CDU/CDD), 1XX (Autor), 245/250/260/264, 300, 5XX, 6XX e 7XX',
+      'Dublin Core Simples (DCMI): Os 15 elementos universais e o Princípio de Um-para-Um',
+      'Dublin Core Qualificado: Refinamentos de elementos, esquemas de codificação e Princípio do \'Dumb-Down\'',
+    ],
+  },
 };
 
 export const SimuladoPage: React.FC = () => {
@@ -93,13 +133,25 @@ export const SimuladoPage: React.FC = () => {
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
 
+  // Seleção de simulado ativo (M1 ou M2)
+  const initialSimuladoId = () => {
+    const respostasAtuais = sessaoAtivaSimulado?.respostas || {};
+    const firstKey = Object.keys(respostasAtuais)[0];
+    if (firstKey) {
+      return detectSimuladoIdFromQuestionId(firstKey);
+    }
+    return 'm1-fundamentos';
+  };
+  const [selectedSimuladoId, setSelectedSimuladoId] = useState<string>(initialSimuladoId);
+  const simuladoAtivo = getSimuladoById(selectedSimuladoId);
+
   useEffect(() => {
     iniciarOuRetomarSimulado();
   }, [iniciarOuRetomarSimulado]);
 
   const currentIndex = sessaoAtivaSimulado?.currentIndex ?? 0;
   const respostas = sessaoAtivaSimulado?.respostas ?? {};
-  const currentQuestion = simuladoFundamentos100Q[currentIndex];
+  const currentQuestion = simuladoAtivo.questoes[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
 
   // Controle de certeza por questão sem efeitos colaterais em cascata
@@ -138,14 +190,17 @@ export const SimuladoPage: React.FC = () => {
   const notaLiquidaAtual = acertosCount - errosCount;
   const respondidasCount = Object.keys(respostas).length;
 
+  const currentQId = currentQuestion?.id;
+  const currentQGabarito = currentQuestion?.gabarito;
+
   const handleJulgar = useCallback(
     (resposta: 'C' | 'E' | 'BRANCO') => {
-      if (!currentQuestion) return;
+      if (!currentQId || !currentQGabarito) return;
 
-      const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQuestion.gabarito;
-      salvarRespostaSimulado(currentQuestion.id, resposta, certezaSelecionada, acertou);
+      const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQGabarito;
+      salvarRespostaSimulado(currentQId, resposta, certezaSelecionada, acertou);
     },
-    [currentQuestion, certezaSelecionada, salvarRespostaSimulado]
+    [currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado]
   );
 
   const handleNext = useCallback(() => {
@@ -204,9 +259,48 @@ export const SimuladoPage: React.FC = () => {
     iniciarOuRetomarSimulado();
   };
 
-    const m1Submodules = COURSE_REGISTRY[0].modulosFilhos;
+
+  const renderSimuladoSelector = () => (
+    <div className="flex flex-wrap items-center gap-2 p-1.5 bg-surface rounded-xl border border-border shadow-xs">
+      <span className="font-mono text-xs font-bold text-ink-2 px-2 uppercase tracking-wider hidden sm:inline">
+        Simulado:
+      </span>
+      {SIMULADOS_REGISTRY.map((sim) => {
+        const isSelected = sim.id === selectedSimuladoId;
+        return (
+          <button
+            key={sim.id}
+            type="button"
+            onClick={() => {
+              if (sim.id !== selectedSimuladoId) {
+                setSelectedSimuladoId(sim.id);
+                mudarQuestaoSimulado(0);
+              }
+            }}
+            className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
+              isSelected
+                ? 'bg-accent text-white shadow-xs'
+                : 'text-ink-2 hover:text-ink hover:bg-surface-2'
+            }`}
+          >
+            <span>{sim.tituloCurto}</span>
+            <span
+              className={`font-mono text-[10px] px-1.5 py-0.2 rounded ${
+                isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
+              }`}
+            >
+              100Q
+            </span>
+          </button>
+        );
+      })}
+    </div>
+  );
+
+    const macroModuloIdx = simuladoAtivo.macroModuloId === 'M2' ? 1 : 0;
+    const moduloAtualSubmodules = COURSE_REGISTRY[macroModuloIdx]?.modulosFilhos || COURSE_REGISTRY[0].modulosFilhos;
     const accessControl = checkSimuladoAccess(
-      m1Submodules,
+      moduloAtualSubmodules,
       secoesVisualizadas || {},
       checkpointsRespondidos || {},
       devBypassSimuladoLock
@@ -215,7 +309,8 @@ export const SimuladoPage: React.FC = () => {
     // SE O SIMULADO ESTIVER BLOQUEADO (Parte G - Requisito Pedagógico)
     if (!accessControl.isUnlocked) {
       return (
-        <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-8 animate-fadeIn">
+        <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-6 animate-fadeIn">
+          {renderSimuladoSelector()}
           <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6 text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 border-b border-border">
               <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 shrink-0">
@@ -259,10 +354,10 @@ export const SimuladoPage: React.FC = () => {
             {/* Lista de Submódulos Pendentes com Ações */}
             <div className="space-y-3 pt-2">
               <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold block text-left">
-                Submódulos da Disciplina M1 (Fundamentos da Biblioteconomia)
+                Submódulos da Disciplina {simuladoAtivo.macroModuloId} ({simuladoAtivo.tituloCurto})
               </span>
               <div className="grid grid-cols-1 gap-2.5">
-                {m1Submodules.map((sub) => {
+                {moduloAtualSubmodules.map((sub) => {
                   const pendente = accessControl.submodulosPendentes.find((p) => p.id === sub.id);
                   const isConcluidoSub = !pendente;
 
@@ -342,14 +437,12 @@ export const SimuladoPage: React.FC = () => {
     const quebraSubmodulos: Record<
       string,
       { certos: number; errados: number; brancos: number; total: number }
-    > = {
-      '1.1': { certos: 0, errados: 0, brancos: 0, total: 25 },
-      '1.2': { certos: 0, errados: 0, brancos: 0, total: 25 },
-      '1.3': { certos: 0, errados: 0, brancos: 0, total: 25 },
-      '1.4': { certos: 0, errados: 0, brancos: 0, total: 25 },
-    };
+    > = {};
+    simuladoAtivo.submodulosIds.forEach((id) => {
+      quebraSubmodulos[id] = { certos: 0, errados: 0, brancos: 0, total: 25 };
+    });
 
-    simuladoFundamentos100Q.forEach((q) => {
+    simuladoAtivo.questoes.forEach((q) => {
       const r = relatorioFinal.respostas[q.id];
       const sub = quebraSubmodulos[q.submoduloId];
       if (sub) {
@@ -376,7 +469,7 @@ export const SimuladoPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-tight">
-                Simulado M1: 100 Itens de Fundamentos
+                {simuladoAtivo.titulo}
               </h1>
             </div>
             <div className="flex items-center gap-2 print:hidden">
@@ -627,7 +720,7 @@ export const SimuladoPage: React.FC = () => {
               const temaInfo = SUBMODULO_TEMAS[subId];
 
               // Filtra questões do submódulo e ordena: Erros primeiro, depois Branco, depois Acertos
-              const questoesSub = simuladoFundamentos100Q.filter((q) => q.submoduloId === subId);
+              const questoesSub = simuladoAtivo.questoes.filter((q) => q.submoduloId === subId);
               const questoesOrdenadas = [...questoesSub].sort((a, b) => {
                 const respA = relatorioFinal.respostas[a.id]?.resposta || 'BRANCO';
                 const respB = relatorioFinal.respostas[b.id]?.resposta || 'BRANCO';
@@ -821,9 +914,17 @@ export const SimuladoPage: React.FC = () => {
 
   // Visualização Normal da Questão
   return (
-    <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-6 animate-fadeIn">
-      {/* Coluna Principal da Questão */}
-      <main className="flex-1 min-w-0 space-y-6">
+    <div className="max-w-6xl mx-auto space-y-4 animate-fadeIn">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        {renderSimuladoSelector()}
+        <span className="text-xs font-mono text-ink-2 hidden md:inline">
+          {simuladoAtivo.subtitulo}
+        </span>
+      </div>
+
+      <div className="flex flex-col lg:flex-row gap-6">
+        {/* Coluna Principal da Questão */}
+        <main className="flex-1 min-w-0 space-y-6">
         {/* Barra Superior do Simulado: Placar em Tempo Real */}
         <section
           aria-label="Placar em Tempo Real"
@@ -1105,7 +1206,7 @@ export const SimuladoPage: React.FC = () => {
         </div>
 
         <AnswerSheet
-          questions={simuladoFundamentos100Q}
+          questions={simuladoAtivo.questoes}
           respostas={respostas}
           currentIndex={currentIndex}
           onSelectQuestion={(idx) => mudarQuestaoSimulado(idx)}
@@ -1133,7 +1234,7 @@ export const SimuladoPage: React.FC = () => {
 
               <div className="flex-1 overflow-y-auto py-4">
                 <AnswerSheet
-                  questions={simuladoFundamentos100Q}
+                  questions={simuladoAtivo.questoes}
                   respostas={respostas}
                   currentIndex={currentIndex}
                   onSelectQuestion={(idx) => {
@@ -1146,6 +1247,7 @@ export const SimuladoPage: React.FC = () => {
           </Drawer.Content>
         </Drawer.Portal>
       </Drawer.Root>
+      </div>
     </div>
   );
 };

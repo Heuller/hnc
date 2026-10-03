@@ -5,6 +5,7 @@ import type {
   SimuladoFinalizado,
 } from '../domain/schemas/progress.schema';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { simuladoCatalogacao100Q } from '../content/questions/m2-catalogacao-100q';
 import { COURSE_REGISTRY } from '../content/registry';
 import { calculateSubmoduleStatus, isSubmoduleConcluido } from '../domain/learningEngine';
 import {
@@ -53,7 +54,7 @@ interface ProgressStoreState extends UserProgress {
     acertou?: boolean
   ) => void;
   mudarQuestaoSimulado: (index: number) => void;
-  finalizarSimulado: (tempoGastoSegundos: number) => SimuladoFinalizado;
+  finalizarSimulado: (tempoGastoSegundos: number, simuladoId?: string) => SimuladoFinalizado;
   reiniciarSimulado: () => void;
   // Backup e Restauração
   exportarProgressoJson: () => string;
@@ -417,9 +418,16 @@ export const useProgressStore = create<ProgressStoreState>()(
         }));
       },
 
-      finalizarSimulado: (tempoGastoSegundos: number) => {
+      finalizarSimulado: (tempoGastoSegundos: number, simuladoIdParam?: string) => {
         const state = get();
         const respostas = state.sessaoAtivaSimulado?.respostas || {};
+
+        const hasM2Questions = Object.keys(respostas).some((k) => k.startsWith('cat-q-'));
+        const simuladoId = simuladoIdParam || (hasM2Questions ? 'm2-catalogacao' : 'm1-fundamentos');
+        const questoes = simuladoId === 'm2-catalogacao' ? simuladoCatalogacao100Q : simuladoFundamentos100Q;
+        const tituloSimulado = simuladoId === 'm2-catalogacao'
+          ? 'Simulado M2: Catalogação, RDA, LRM & MARC 21'
+          : 'Simulado M1: 100 Itens de Fundamentos';
 
         let certos = 0;
         let errados = 0;
@@ -432,7 +440,7 @@ export const useProgressStore = create<ProgressStoreState>()(
         let chuteTotal = 0;
         let chuteAcertos = 0;
 
-        simuladoFundamentos100Q.forEach((q) => {
+        questoes.forEach((q) => {
           const r = respostas[q.id];
           if (!r || r.resposta === 'BRANCO') {
             emBranco++;
@@ -476,6 +484,8 @@ export const useProgressStore = create<ProgressStoreState>()(
 
         const resultado: SimuladoFinalizado = {
           id: `simulado-${Date.now()}`,
+          simuladoId,
+          tituloSimulado,
           dataHora: new Date().toISOString(),
           tempoGastoSegundos,
           certos,

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { simuladoCatalogacao100Q } from '../content/questions/m2-catalogacao-100q';
 import { COURSE_REGISTRY } from '../content/registry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
 import { CebraspeQuestionSchema } from '../domain/schemas/question.schema';
@@ -54,6 +55,63 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
 
     it('deve ter todos os campos obrigatórios preenchidos sem valores nulos ou vazios', () => {
       simuladoFundamentos100Q.forEach((q) => {
+        expect(q.item.trim().length).toBeGreaterThan(10);
+        expect(q.justificativa.trim().length).toBeGreaterThan(10);
+        expect(q.dificuldade).toMatch(/^(facil|media|dificil)$/);
+        expect(q.fonteOriginal.tipo).toMatch(/^(cebraspe-real|inedita)$/);
+        expect(q.fonteOriginal.descricao.trim().length).toBeGreaterThan(3);
+        expect(typeof q.fonteOriginal.verificado).toBe('boolean');
+      });
+    });
+  });
+
+  describe('Simulado de 100 Questões C/E de Catalogação e Metadados (M2)', () => {
+    it('deve conter EXATAMENTE 100 questões no total', () => {
+      expect(simuladoCatalogacao100Q).toHaveLength(100);
+    });
+
+    it('deve ter simetria rigorosa Cebraspe: EXATAMENTE 50 Certas (C) e 50 Erradas (E)', () => {
+      const certos = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'C');
+      const errados = simuladoCatalogacao100Q.filter((q) => q.gabarito === 'E');
+
+      expect(certos).toHaveLength(50);
+      expect(errados).toHaveLength(50);
+    });
+
+    it('deve ter distribuição equitativa entre os módulos-filhos: EXATAMENTE 25 por submódulo', () => {
+      const sub21 = simuladoCatalogacao100Q.filter((q) => q.submoduloId === '2.1');
+      const sub22 = simuladoCatalogacao100Q.filter((q) => q.submoduloId === '2.2');
+      const sub23 = simuladoCatalogacao100Q.filter((q) => q.submoduloId === '2.3');
+      const sub24 = simuladoCatalogacao100Q.filter((q) => q.submoduloId === '2.4');
+
+      expect(sub21).toHaveLength(25);
+      expect(sub22).toHaveLength(25);
+      expect(sub23).toHaveLength(25);
+      expect(sub24).toHaveLength(25);
+    });
+
+    it('deve possuir IDs 100% únicos e números sequenciais de 1 a 100', () => {
+      const ids = simuladoCatalogacao100Q.map((q) => q.id);
+      const uniqueIds = new Set(ids);
+      expect(uniqueIds.size).toBe(100);
+
+      simuladoCatalogacao100Q.forEach((q, idx) => {
+        expect(q.numero).toBe(idx + 1);
+      });
+    });
+
+    it('deve validar todas as 100 questões contra o schema estrito Zod', () => {
+      simuladoCatalogacao100Q.forEach((q, idx) => {
+        const result = CebraspeQuestionSchema.safeParse(q);
+        if (!result.success) {
+          console.error(`Falha no item M2 #${idx + 1} (${q.id}):`, result.error.format());
+        }
+        expect(result.success).toBe(true);
+      });
+    });
+
+    it('deve ter todos os campos obrigatórios preenchidos sem valores nulos ou vazios', () => {
+      simuladoCatalogacao100Q.forEach((q) => {
         expect(q.item.trim().length).toBeGreaterThan(10);
         expect(q.justificativa.trim().length).toBeGreaterThan(10);
         expect(q.dificuldade).toMatch(/^(facil|media|dificil)$/);
