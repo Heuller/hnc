@@ -9,6 +9,7 @@ export const moduloM5Gestao: MacroModulo = {
   codigo: 'M5',
   numero: 5,
   titulo: 'Gestão de Unidades de Informação e Coleções',
+  titulo_curto: 'Gestão de Bibliotecas',
   subtitulo: 'Planejamento estratégico, marketing, desenvolvimento de coleções e gestão do conhecimento aplicados à gestão bibliotecária',
   descricao: 'Estudo aprofundado dos processos administrativos e gerenciais de unidades de informação: planejamento nos três níveis (Almeida), avaliação e indicadores de desempenho (Lancaster), marketing de serviços de informação (Amaral), modelo cíclico de desenvolvimento de coleções (Vergueiro) e ecologia do conhecimento organizacional (Choo, Nonaka & Takeuchi).',
   status: 'disponivel',

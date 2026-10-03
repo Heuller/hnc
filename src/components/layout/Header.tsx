@@ -20,12 +20,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
   const { user, openAuthModal } = useAuthStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
-  const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
-    { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4" /> },
-    { view: 'jornada', label: 'Jornada', icon: <Compass className="w-4 h-4" /> },
-    { view: 'treinos', label: 'Treinos', icon: <Dumbbell className="w-4 h-4" /> },
-    { view: 'radar', label: 'Radar Cebraspe', icon: <BarChart3 className="w-4 h-4" /> },
-    { view: 'progresso', label: 'Progresso', icon: <TrendingUp className="w-4 h-4" /> },
+  const navItems: { view: AppView; label: string; shortLabel?: string; icon: React.ReactNode }[] = [
+    { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4 shrink-0" /> },
+    { view: 'jornada', label: 'Jornada', icon: <Compass className="w-4 h-4 shrink-0" /> },
+    { view: 'treinos', label: 'Treinos', icon: <Dumbbell className="w-4 h-4 shrink-0" /> },
+    { view: 'radar', label: 'Radar Cebraspe', shortLabel: 'Radar', icon: <BarChart3 className="w-4 h-4 shrink-0" /> },
+    { view: 'progresso', label: 'Progresso', icon: <TrendingUp className="w-4 h-4 shrink-0" /> },
   ];
 
   return (
@@ -139,11 +139,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                       ? 'Progresso'
                       : 'Painel'}
                   </span>
-                  <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden sm:inline-block ml-1">
+                  <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden xl:inline-block ml-1">
                     {CONCURSO_CONFIG.banca.nome}
                   </span>
                 </div>
-                <p className="text-[11px] text-ink-2 hidden sm:block leading-tight">
+                <p className="text-[11px] text-ink-2 hidden 2xl:block leading-tight">
                   {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
                 </p>
               </div>
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
         {/* Center: Desktop Navigation Tabs */}
         <nav
-          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-surface-2 border border-border relative"
+          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-surface-2 border border-border relative shrink-0"
           aria-label="Navegação principal"
         >
           {navItems.map((item) => {
@@ -174,9 +174,18 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                     transition={{ type: 'spring', stiffness: 400, damping: 30 }}
                   />
                 )}
-                <span className="relative z-10 flex items-center gap-1.5">
+                <span className="relative z-10 flex items-center gap-1.5 whitespace-nowrap shrink-0">
                   {item.icon}
-                  <span>{item.label}</span>
+                  <span>
+                    {item.shortLabel ? (
+                      <>
+                        <span className="hidden xl:inline">{item.label}</span>
+                        <span className="xl:hidden">{item.shortLabel}</span>
+                      </>
+                    ) : (
+                      item.label
+                    )}
+                  </span>
                 </span>
               </button>
             );
@@ -184,19 +193,16 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
         </nav>
 
         {/* Right: Search, DEV tools & Theme Toggle */}
-        <div className="hidden md:flex items-center gap-2">
+        <div className="hidden md:flex items-center gap-1.5 sm:gap-2 shrink-0">
           <button
             type="button"
             onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
             className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
-            title="Dicionário Técnico Cebraspe (Alt+D)"
+            title="Dicionário Técnico Cebraspe"
             aria-label="Abrir glossário e dicionário técnico"
           >
-            <BookOpen className="w-3.5 h-3.5 text-accent" />
+            <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
             <span className="font-sans text-xs">Glossário</span>
-            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2">
-              Alt+D
-            </span>
           </button>
           <button
             type="button"
@@ -207,7 +213,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           >
             <Search className="w-3.5 h-3.5 text-accent" />
             <span className="font-sans text-xs">Buscar</span>
-            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2">
+            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
               {getSearchShortcutLabel()}
             </span>
           </button>

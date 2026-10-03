@@ -81,8 +81,8 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         return;
       }
 
-      // Alt+D -> Dicionário Cebraspe
-      if (e.altKey && e.key.toLowerCase() === 'd') {
+      // Alt+G -> Dicionário / Glossário Cebraspe (evita conflito com a barra de endereços Alt+D do navegador)
+      if (e.altKey && e.key.toLowerCase() === 'g') {
         e.preventDefault();
         useDicionarioStore.getState().abrirBuscaVazia();
         return;

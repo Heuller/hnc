@@ -144,7 +144,10 @@ export const JornadaPage: React.FC = () => {
               <span className="text-base sm:text-lg font-bold text-ink font-sans tabular-nums">
                 {metricas.taxaDominioPercent}%
               </span>
-              <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
+              <span
+                className="text-[10px] text-ink-2 font-sans block mt-0.5"
+                title="40 submódulos teóricos + 10 desafios integradores + 9 portais cumulativos"
+              >
                 {metricas.etapasConcluidas} de 59 etapas
               </span>
             </div>

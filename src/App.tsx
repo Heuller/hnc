@@ -6,9 +6,7 @@ import { useNavigationStore } from './store/useNavigationStore';
 import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
 
-const PainelPage = lazy(() =>
-  import('./pages/PainelPage').then((m) => ({ default: m.PainelPage }))
-);
+import { PainelPage } from './pages/PainelPage';
 const TeoriaPage = lazy(() =>
   import('./pages/TeoriaPage').then((m) => ({ default: m.TeoriaPage }))
 );

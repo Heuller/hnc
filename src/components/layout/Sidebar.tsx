@@ -287,8 +287,11 @@ export const Sidebar: React.FC = () => {
               Trilha de Módulos
             </h2>
           </div>
-          <span className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border">
-            10 Blocos
+          <span
+            className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
+            title="10 Conhecimentos Específicos + 3 Complementares"
+          >
+            {COURSE_REGISTRY.length} Blocos
           </span>
         </div>
 

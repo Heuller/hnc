@@ -121,7 +121,7 @@ export const PainelPage: React.FC = () => {
           </h1>
 
           <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
-            Ambiente focado de leitura canônica, retenção espaçada e verificação formal de domínio.
+            Plano diário de estudos com revisões programadas e avanço contínuo na trilha.
           </p>
         </div>
 

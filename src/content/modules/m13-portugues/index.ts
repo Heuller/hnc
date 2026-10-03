@@ -9,6 +9,7 @@ export const moduloM13Portugues: MacroModulo = {
   codigo: 'M13',
   numero: 13,
   titulo: 'Língua Portuguesa',
+  titulo_curto: 'Língua Portuguesa',
   subtitulo: 'Linguística Textual, Coesão, Reescritura, Sintaxe Avançada e Redação Oficial para o Cebraspe',
   descricao:
     'Módulo estruturado sob rigor metodológico e fundamentado em referências canônicas (Celso Cunha & Lindley Cintra, Evanildo Bechara, Ingedore Koch, Celso Pedro Luft, Domingos Paschoal Cegalla e Manual de Redação da Presidência da República 2018), com foco cirúrgico nas peculiaridades das provas do Cebraspe para o Poder Legislativo: distinção científica entre compreensão e interpretação com desativação das armadilhas de extrapolação e inversão causal; o rastreamento anafórico de pronomes demonstrativos e do pronome cujo; a sintaxe dos operadores argumentativos; a metodologia dos três filtros de reescritura e transposição de vozes verbais; a concordância crítica com sujeitos partitivos e partícula "se"; a regência de verbos parlamentares e o algoritmo resolutivo da crase; e a semântica da vírgula nas orações adjetivas combinada com as normas oficiais de redação de expedientes para o Congresso Nacional.',
