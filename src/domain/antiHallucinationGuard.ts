@@ -43,12 +43,13 @@ const FONTES_PRIMARIAS_VALIDAS = [
   /abnt\s+nbr\s+\d+/i,
   /iso\s+\d+/i,
   /ifla\s+lrm|rda|aacr2|isbd|marc\s*21|dublin\s+core|z39\.50/i,
-  /oaipmh|oai-pmh|mets|mods|premis/i,
+  /oaipmh|oai-pmh|open\s+archives\s+initiative|dspace|mets|mods|premis/i,
 
   // Biblioteconomia e Ciência da Informação
   /ranganathan|vergueiro|lancaster|briet|otlet|buckland|tarapanoff|rowley/i,
   /borko|shera|le\s+coadic|guinchat|menou|saracevic|farradane/i,
-  /salton|blair|marrable|vickery|bates|dervin|kuhlthau/i,
+  /salton|blair|marrable|vickery|bates|dervin|kuhlthau|grogan|figueiredo/i,
+  /cassares|spinelli|takahashi|tammaro|salgado/i,
 
   // Arquivologia e Gestão de Documentos
   /schellenberg|bellotto|rousseau|couture|camargo|paes|conarq/i,
@@ -108,7 +109,7 @@ export const ItemValidadoIASchema = z.object({
   item: z
     .string()
     .min(15, 'A assertiva deve ter no mínimo 15 caracteres.')
-    .refine((txt) => !txt.includes('?'), {
+    .refine((txt) => !txt.trim().endsWith('?'), {
       message: 'Assertivas no estilo Cebraspe não podem ser perguntas interrogativas.',
     })
     .refine((txt) => !/^[A-E]\s*[).-]/i.test(txt.trim()), {
@@ -164,7 +165,7 @@ export function validarItemAntiAlucinacao(
     erros.push('Texto do item muito curto ou vazio.');
   } else {
     const textoLimpo = candidato.item.trim();
-    if (textoLimpo.includes('?')) {
+    if (textoLimpo.endsWith('?')) {
       erros.push('Itens Cebraspe são afirmativas declarativas para julgamento, não perguntas interrogativas.');
     }
     if (/^[A-E]\s*[).-]/i.test(textoLimpo)) {

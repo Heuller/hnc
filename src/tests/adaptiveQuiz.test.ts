@@ -7,6 +7,8 @@ import {
   montarSimuladoOffline,
   calcularResultadoSimuladoAdaptativo,
 } from '../domain/adaptiveQuiz/adaptiveQuizService';
+import { BASE_QUESTOES_ADAPTATIVAS } from '../domain/adaptiveQuiz/baseQuestoesAdaptativas';
+import { validarItemAntiAlucinacao } from '../domain/antiHallucinationGuard';
 import type { ItemSimuladoAdaptativo } from '../domain/adaptiveQuiz/types';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 
@@ -191,5 +193,21 @@ describe('Gerador Inteligente de Simulados Adaptativos de Fraquezas', () => {
     expect(resultado.errados).toBe(2);
     expect(resultado.notaLiquidaCebraspe).toBe(-2);
     expect(resultado.aproveitamentoLiquidoPercentual).toBe(0);
+  });
+
+  it('todas as questões da base adaptativa devem ser 100% aprovadas pelo guarda anti-alucinação com fontes primárias canônicas', () => {
+    BASE_QUESTOES_ADAPTATIVAS.forEach((q) => {
+      const res = validarItemAntiAlucinacao({
+        item: q.item,
+        gabarito: q.gabarito,
+        justificativa: q.justificativa,
+        fontePrimaria: q.autorOuNormaReferencia,
+      });
+      if (!res.valido) {
+        console.error(`Falha no item adaptativo ${q.id}:`, res.erros);
+      }
+      expect(res.valido).toBe(true);
+      expect(res.bloqueadoPorAlucinacao).toBe(false);
+    });
   });
 });

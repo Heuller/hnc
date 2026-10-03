@@ -241,4 +241,154 @@ export const BASE_QUESTOES_ADAPTATIVAS: ItemSimuladoAdaptativo[] = [
     armadilhaBanca: 'Inversão conceitual entre SIP (submissão), AIP (armazenamento permanente) e DIP (difusão).',
     autorOuNormaReferencia: 'ISO 14721 - Open Archival Information System (OAIS)',
   },
+
+  // M11: RACIOCÍNIO LÓGICO-MATEMÁTICO
+  {
+    id: 'adp-m11-01',
+    numero: 18,
+    macroModuloId: 'm11',
+    submoduloId: '11.1',
+    topicoNome: 'Estrutura Lógica das Proposições',
+    item: 'A sentença interrogativa "O projeto de lei já foi votado pelo plenário da Câmara?" constitui uma proposição lógica simples suscetível de valoração objetiva em verdadeiro ou falso.',
+    gabarito: 'E',
+    justificativa:
+      'Frases interrogativas, exclamativas e imperativas não são proposições lógicas formais, pois não possuem valor de verdade (V ou F) atribuível segundo os princípios clássicos de Aristóteles e George Boole (1854).',
+    armadilhaBanca: 'Confundir oração linguística interrogativa com proposição lógica declarativa.',
+    autorOuNormaReferencia: 'George Boole (1854) - An Investigation of the Laws of Thought',
+  },
+  {
+    id: 'adp-m11-02',
+    numero: 19,
+    macroModuloId: 'm11',
+    submoduloId: '11.2',
+    topicoNome: 'Equivalência Lógica da Condicional (Contrapositiva)',
+    item: 'A proposição condicional "Se o parecer for aprovado na comissão, então o projeto irá ao plenário" equivale logicamente à proposição "Se o projeto não for ao plenário, então o parecer não foi aprovado na comissão".',
+    gabarito: 'C',
+    justificativa:
+      'Trata-se da regra clássica da Contrapositiva (P -> Q equivale a ~Q -> ~P), a única equivalência estritamente condicional admitida na lógica dedutiva formal de Augustus De Morgan.',
+    armadilhaBanca: 'Inversão sem negação (falácia da recíproca: Q -> P).',
+    autorOuNormaReferencia: 'Peter Wason & Jonathan Evans - Dual-Process Reasoning / De Morgan',
+  },
+
+  // M12: LÍNGUA INGLESA
+  {
+    id: 'adp-m12-01',
+    numero: 20,
+    macroModuloId: 'm12',
+    submoduloId: '12.2',
+    topicoNome: 'Marcadores Discursivos e Conectivos em Inglês',
+    item: 'No trecho "Although the parliamentary committee approved the budget, several amendments were rejected", o vocábulo "Although" introduz uma oração de valor concessivo e pode ser substituído por "However" sem alteração da estrutura sintática do período.',
+    gabarito: 'E',
+    justificativa:
+      '"Although" é conjunção subordinativa concessiva (liga orações subordinadas), ao passo que "However" é advérbio/conjunção coordenativa adversativa, exigindo pontuação e estrutura oracional distintas segundo Michael Swan (Practical English Usage).',
+    armadilhaBanca: 'Equiparar sintaticamente conectivo concessivo subordinativo a advérbio adversativo.',
+    autorOuNormaReferencia: 'Michael Swan (2016) - Practical English Usage / Halliday & Hasan',
+  },
+
+  // M13: LÍNGUA PORTUGUESA
+  {
+    id: 'adp-m13-01',
+    numero: 21,
+    macroModuloId: 'm13',
+    submoduloId: '13.1',
+    topicoNome: 'Compreensão vs Interpretação e Extrapolação',
+    item: 'Nas questões em que o enunciado do Cebraspe utiliza a expressão "Depreende-se do texto que", é permitido ao candidato validar a assertiva com base em fatos e leis notórias da realidade brasileira, ainda que tais elementos não encontrem respaldo direto ou indireto nas premissas do texto apresentado na prova.',
+    gabarito: 'E',
+    justificativa:
+      'Trata-se da falácia clássica de EXTRAPOLAÇÃO. No Cebraspe, as inferências legítimas devem decorrer necessariamente das premissas e marcas linguísticas expressas no texto da prova segundo Ingedore Koch (A Coesão Textual, 2002).',
+    armadilhaBanca: 'Trazer conhecimento enciclopédico externo para julgar item de inferência textual.',
+    autorOuNormaReferencia: 'Ingedore Villaça Koch (2002) - A Coesão Textual',
+  },
+  {
+    id: 'adp-m13-02',
+    numero: 22,
+    macroModuloId: 'm13',
+    submoduloId: '13.1',
+    topicoNome: 'Emprego do Pronome Relativo "Cujo"',
+    item: 'Na oração "A comissão parlamentar, cujos os membros foram indicados pelo colégio de líderes, reuniu-se extraordinariamente", a inserção do artigo definido "os" após o pronome "cujos" confere maior precisão e formalidade à frase segundo a norma culta.',
+    gabarito: 'E',
+    justificativa:
+      'Conforme lição expressa de Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 348), o pronome relativo cujo repele categoricamente a anteposição ou posposição de artigo definido ("cujo o" é erro gramatical grave).',
+    armadilhaBanca: 'Afirmar que a inserção de artigo definido pós-cujo é elemento de clareza ou elegância.',
+    autorOuNormaReferencia: 'Celso Cunha & Lindley Cintra (2008) - Nova Gramática do Português Contemporâneo',
+  },
+  {
+    id: 'adp-m13-03',
+    numero: 23,
+    macroModuloId: 'm13',
+    submoduloId: '13.2',
+    topicoNome: 'Transposição de Voz Ativa para Passiva',
+    item: 'A substituição da sentença "A consultoria legislativa redigiu a nota técnica" por "A nota técnica foi redigida pela consultoria legislativa" preserva a correção gramatical e os valores temporais e aspectuais da oração original.',
+    gabarito: 'C',
+    justificativa:
+      'A transposição entre voz ativa no pretérito perfeito ("redigiu") e voz passiva analítica com auxiliar "ser" no pretérito perfeito ("foi redigida") mantém a perfeita identidade temporal e aspectual conforme Evanildo Bechara (Moderna Gramática Portuguesa, p. 385).',
+    armadilhaBanca: 'Troca de pretérito perfeito pontual por imperfeito habitual na voz passiva.',
+    autorOuNormaReferencia: 'Evanildo Bechara (2009) - Moderna Gramática Portuguesa',
+  },
+  {
+    id: 'adp-m13-04',
+    numero: 24,
+    macroModuloId: 'm13',
+    submoduloId: '13.2',
+    topicoNome: 'Modalidade Epistêmica em Paráfrase',
+    item: 'A substituição de "A aprovação da reforma orçamentária pode acelerar os repasses aos municípios" por "A aprovação da reforma orçamentária acelerará os repasses aos municípios" preserva a correção gramatical e os sentidos originais do período.',
+    gabarito: 'E',
+    justificativa:
+      'A substituição de modalizador de possibilidade ("pode acelerar") por verbo no futuro do presente indicativo ("acelerará") preserva a gramática, mas altera a modalidade epistêmica de hipótese para certeza absoluta segundo Othon Moacyr Garcia (Comunicação em Prosa Moderna, 2010).',
+    armadilhaBanca: 'Paráfrase gramaticalmente correta com violação de modalidade epistêmica.',
+    autorOuNormaReferencia: 'Othon Moacyr Garcia (2010) - Comunicação em Prosa Moderna',
+  },
+  {
+    id: 'adp-m13-05',
+    numero: 25,
+    macroModuloId: 'm13',
+    submoduloId: '13.3',
+    topicoNome: 'Voz Passiva Sintética com Partícula "SE"',
+    item: 'No trecho "Aprovaram-se, na última sessão deliberativa, todas as emendas de redação apresentadas ao projeto", a flexão verbal no plural decorre da concordância obrigatória com o sujeito paciente "todas as emendas de redação apresentadas ao projeto".',
+    gabarito: 'C',
+    justificativa:
+      'Com verbo transitivo direto acompanhado da partícula apassivadora "se", o termo sem preposição atua como sujeito paciente, exigindo concordância obrigatória no plural conforme Cunha & Cintra (p. 388).',
+    armadilhaBanca: 'Tratar o termo paciente como objeto direto e deixar o verbo incorretamente no singular.',
+    autorOuNormaReferencia: 'Celso Cunha & Lindley Cintra (2008) - Nova Gramática do Português Contemporâneo',
+  },
+  {
+    id: 'adp-m13-06',
+    numero: 26,
+    macroModuloId: 'm13',
+    submoduloId: '13.3',
+    topicoNome: 'Regência do Verbo Implicar',
+    item: 'A frase "A anulação do concurso implicará em severos prejuízos para os candidatos aprovados" atende plenamente ao padrão culto formal da língua portuguesa.',
+    gabarito: 'E',
+    justificativa:
+      'Segundo o Dicionário Prático de Regência Verbal de Celso Pedro Luft (p. 297), o verbo implicar no sentido de acarretar é transitivo direto (VTD) e rejeita terminantemente a preposição "em" ("implicará severos prejuízos", sem "em").',
+    armadilhaBanca: 'Emprego coloquial da preposição "em" associada ao verbo implicar.',
+    autorOuNormaReferencia: 'Celso Pedro Luft (2002) - Dicionário Prático de Regência Verbal',
+  },
+  {
+    id: 'adp-m13-07',
+    numero: 27,
+    macroModuloId: 'm13',
+    submoduloId: '13.4',
+    topicoNome: 'Pontuação Semântica de Orações Adjetivas',
+    item: 'No período "Os projetos legislativos, que receberam parecer favorável da comissão temática, seguirão para o plenário", a supressão de ambas as vírgulas manteria a correção gramatical, mas alteraria os sentidos originais do texto.',
+    gabarito: 'C',
+    justificativa:
+      'A supressão das vírgulas transforma a oração de adjetiva explicativa (totalidade dos projetos) em restritiva (apenas a parcela dos projetos que recebeu parecer favorável), preservando a gramática e alterando o sentido conforme Cunha & Cintra (p. 642).',
+    armadilhaBanca: 'Afirmar que a supressão de vírgulas de oração adjetiva altera também a correção gramatical.',
+    autorOuNormaReferencia: 'Celso Cunha & Lindley Cintra (2008) - Nova Gramática do Português Contemporâneo',
+  },
+  {
+    id: 'adp-m13-08',
+    numero: 28,
+    macroModuloId: 'm13',
+    submoduloId: '13.4',
+    topicoNome: 'Pronomes de Tratamento e Fechos Oficiais',
+    item: 'Em ofício emitido por diretor de departamento da Câmara dos Deputados dirigido a Ministro de Estado, o fecho adequado é "Atenciosamente,", por tratar-se de expediente entre agentes públicos da União.',
+    gabarito: 'E',
+    justificativa:
+      'Conforme estabelece expressamente o Manual de Redação da Presidência da República (3ª ed., 2018, Seção 2.2), para autoridades de hierarquia superior à do remetente (como Ministro de Estado em relação a diretor de departamento), o fecho obrigatório é "Respeitosamente,".',
+    armadilhaBanca: 'Usar "Atenciosamente" para autoridades de nível hierárquico superior.',
+    autorOuNormaReferencia: 'Manual de Redação da Presidência da República (3ª ed., 2018)',
+  },
 ];
+
