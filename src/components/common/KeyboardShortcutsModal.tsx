@@ -38,6 +38,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
     {
       categoria: 'Estudo da Teoria e Checkpoints',
       itens: [
+        { keys: ['F'], desc: 'Alternar Modo Foco de leitura imersiva' },
         { keys: ['['], desc: 'Submódulo anterior na Teoria' },
         { keys: [']'], desc: 'Próximo submódulo na Teoria' },
         { keys: ['C'], desc: 'Julgar item como CERTO (em checkpoints e simulado)' },

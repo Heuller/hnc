@@ -23,6 +23,8 @@ import {
   Sliders,
   ChevronDown,
   Lock,
+  Eye,
+  EyeOff,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
@@ -47,7 +49,7 @@ export const TeoriaPage: React.FC = () => {
 
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isReaderPrefsOpen, setIsReaderPrefsOpen] = useState(false);
-  const { columnWidth } = useReaderPreferencesStore();
+  const { columnWidth, isFocusMode, toggleFocusMode } = useReaderPreferencesStore();
 
   const columnWidthClass =
     columnWidth === 'focus'
@@ -159,6 +161,54 @@ export const TeoriaPage: React.FC = () => {
         scrollProgress={scrollProgress}
       />
 
+      {/* Barra de Foco Flutuante no Modo Foco (Regra U.2) */}
+      {isFocusMode && (
+        <div className="sticky top-2 z-40 bg-surface/95 backdrop-blur-md border border-border py-2 px-4 mb-4 flex items-center justify-between shadow-editorial-sm rounded-xl max-w-4xl mx-auto animate-fadeIn">
+          <div className="flex items-center gap-2 min-w-0">
+            <span
+              className="px-2 py-0.5 rounded text-[11px] font-mono font-bold shrink-0 shadow-2xs"
+              style={{
+                backgroundColor: moduleTheme.solidVar,
+                color: moduleTheme.textVar,
+              }}
+            >
+              {currentMacro.codigo} • {currentSub.numero}
+            </span>
+            <span className="text-xs font-serif font-bold text-ink truncate">
+              {currentSub.titulo_curto || currentSub.titulo}
+            </span>
+          </div>
+
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="font-mono text-[10px] text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border">
+              {scrollProgress}% lido
+            </span>
+
+            <button
+              type="button"
+              onClick={() => setIsReaderPrefsOpen(true)}
+              className="p-1 rounded-md bg-surface-2 hover:bg-surface-2/80 text-ink-2 hover:text-ink border border-border cursor-pointer transition-colors"
+              title="Ajustar preferências de leitura"
+            >
+              <Sliders className="w-3.5 h-3.5 text-accent" />
+            </button>
+
+            <button
+              type="button"
+              onClick={toggleFocusMode}
+              className="px-2.5 py-1 rounded-md bg-accent text-accent-text text-xs font-semibold flex items-center gap-1.5 cursor-pointer shadow-xs"
+              title="Sair do Modo Foco (Esc ou F)"
+            >
+              <EyeOff className="w-3.5 h-3.5" />
+              <span>Sair do Foco</span>
+              <span className="px-1 py-0.2 rounded text-[10px] font-mono bg-black/20 text-white ml-0.5">
+                Esc
+              </span>
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura com largura configurável */}
         <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-8`}>
@@ -215,11 +265,23 @@ export const TeoriaPage: React.FC = () => {
                   {currentMacro.titulo} • Submódulo {currentSub.numero}
                 </span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2.5">
                 <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5" />
                   ~{currentSub.tempoEstimadoMinutos} min de leitura profunda
                 </span>
+                <button
+                  type="button"
+                  onClick={toggleFocusMode}
+                  className="px-2 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors"
+                  title="Modo Foco imersivo (Atalho: F | Sair: Esc)"
+                >
+                  <Eye className="w-3.5 h-3.5 text-accent" />
+                  <span>Modo Foco</span>
+                  <span className="hidden sm:inline-block px-1 py-0.2 rounded text-[10px] font-mono bg-black/10 dark:bg-white/10 ml-0.5">
+                    F
+                  </span>
+                </button>
                 <button
                   type="button"
                   onClick={() => setIsReaderPrefsOpen(true)}

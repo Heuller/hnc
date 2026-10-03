@@ -526,3 +526,42 @@ html.dark {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ink-2);
 }
+
+/* Tokens de Interação Dinâmica com color-mix (Regra U.1) */
+:root {
+  --accent-hover: color-mix(in srgb, var(--accent) 88%, #000);
+  --surface-hover: color-mix(in srgb, var(--surface) 94%, var(--ink));
+  --surface-tint: color-mix(in srgb, var(--surface) 97%, var(--primary));
+  --border-focus: color-mix(in srgb, var(--border) 60%, var(--accent));
+}
+
+html.dark {
+  --accent-hover: color-mix(in srgb, var(--accent) 85%, #FFF);
+  --surface-hover: color-mix(in srgb, var(--surface) 88%, #FFF);
+  --surface-tint: color-mix(in srgb, var(--surface) 92%, var(--accent));
+  --border-focus: color-mix(in srgb, var(--border) 50%, var(--accent));
+}
+
+/* Transições Suaves e View Transitions API Sóbria (Regra U.3) */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 150ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Respeito Irrestrito a Redução de Movimento (Acessibilidade) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

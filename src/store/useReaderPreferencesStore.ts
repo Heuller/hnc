@@ -8,9 +8,12 @@ interface ReaderPreferencesState {
   fontSize: ReaderFontSize;
   columnWidth: ReaderColumnWidth;
   fontFamily: ReaderFontFamily;
+  isFocusMode: boolean;
   setFontSize: (size: ReaderFontSize) => void;
   setColumnWidth: (width: ReaderColumnWidth) => void;
   setFontFamily: (font: ReaderFontFamily) => void;
+  setFocusMode: (val: boolean) => void;
+  toggleFocusMode: () => void;
   resetPreferences: () => void;
 }
 
@@ -57,6 +60,7 @@ export const useReaderPreferencesStore = create<ReaderPreferencesState>((set, ge
     fontSize: initial.fontSize,
     columnWidth: initial.columnWidth,
     fontFamily: initial.fontFamily,
+    isFocusMode: false,
 
     setFontSize: (fontSize) => {
       persist({ fontSize });
@@ -73,9 +77,18 @@ export const useReaderPreferencesStore = create<ReaderPreferencesState>((set, ge
       set({ fontFamily });
     },
 
+    setFocusMode: (val: boolean) => {
+      set({ isFocusMode: val });
+    },
+
+    toggleFocusMode: () => {
+      set((state) => ({ isFocusMode: !state.isFocusMode }));
+    },
+
     resetPreferences: () => {
       persist(DEFAULT_PREFERENCES);
-      set(DEFAULT_PREFERENCES);
+      set({ ...DEFAULT_PREFERENCES, isFocusMode: false });
     },
   };
 });
+

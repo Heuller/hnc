@@ -17,6 +17,7 @@ import { Kbd } from '../common/Kbd';
 import { TextSelectionListener } from '../dicionario/TextSelectionListener';
 import { GlossarioModal } from '../dicionario/GlossarioModal';
 import { useDicionarioStore } from '../../store/useDicionarioStore';
+import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
 
 interface AppShellProps {
   children: React.ReactNode;
@@ -28,6 +29,9 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
   const { activeView, selectedSubmodule, setActiveView, setSelectedSubmodule } =
     useNavigationStore();
   const { isAuthModalOpen, closeAuthModal } = useAuthStore();
+  const { isFocusMode, toggleFocusMode, setFocusMode } = useReaderPreferencesStore();
+
+  const emModoFoco = activeView === 'teoria' && isFocusMode;
 
   // Sincronização automática em nuvem (debounce de 2s) quando logado
   useEffect(() => {
@@ -53,7 +57,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
     };
   }, []);
 
-  // Escuta global de atalhos de teclado (H5)
+  // Escuta global de atalhos de teclado (H5 e Modo Foco U.2)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null;
@@ -62,6 +66,13 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         (target.tagName === 'INPUT' ||
           target.tagName === 'TEXTAREA' ||
           target.isContentEditable);
+
+      // Escape -> Sair do Modo Foco
+      if (e.key === 'Escape' && isFocusMode) {
+        e.preventDefault();
+        setFocusMode(false);
+        return;
+      }
 
       // Cmd+K ou Ctrl+K -> Busca Global
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -79,6 +90,13 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
 
       // Se estiver digitando em campo de texto, ignora atalhos de caractere simples
       if (isInput) return;
+
+      // 'f' ou 'F' -> Alterna Modo Foco na leitura (Regra U.2)
+      if (activeView === 'teoria' && e.key.toLowerCase() === 'f') {
+        e.preventDefault();
+        toggleFocusMode();
+        return;
+      }
 
       // '/' -> Busca Global
       if (e.key === '/') {
@@ -130,73 +148,80 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activeView, selectedSubmodule, setActiveView, setSelectedSubmodule]);
+  }, [activeView, selectedSubmodule, setActiveView, setSelectedSubmodule, isFocusMode, setFocusMode, toggleFocusMode]);
 
   return (
     <div className="min-h-screen bg-theme-bg text-theme-ink flex flex-col font-sans transition-colors duration-200">
       <SkipLink />
-      <Header onOpenSearch={() => setIsSearchOpen(true)} />
+      {!emModoFoco && <Header onOpenSearch={() => setIsSearchOpen(true)} />}
 
-      <div className="flex-1 flex max-w-7xl w-full mx-auto">
-        <Sidebar />
+      <div className={`flex-1 flex w-full mx-auto ${emModoFoco ? 'max-w-5xl' : 'max-w-7xl'}`}>
+        {!emModoFoco && <Sidebar />}
 
         <main
           id="main-content"
           tabIndex={-1}
-          className="flex-1 w-full min-w-0 p-4 sm:p-6 lg:p-8 pb-24 md:pb-12 focus:outline-none"
+          className={`flex-1 w-full min-w-0 focus:outline-none ${
+            emModoFoco
+              ? 'p-3 sm:p-6 pb-12'
+              : 'p-4 sm:p-6 lg:p-8 pb-24 md:pb-12'
+          }`}
         >
           {children}
         </main>
       </div>
 
-      <BottomNav />
+      {!emModoFoco && <BottomNav />}
 
       {/* Rodapé Editorial Sóbrio com Botões de Acesso Rápido a Atalhos e Busca */}
-      <footer className="border-t border-theme py-6 px-4 bg-theme-surface text-center text-xs text-theme-ink-2 hidden md:block">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <span className="font-bold text-theme-ink">{CONCURSO_CONFIG.plataforma.nome}</span>
-            <span>• {CONCURSO_CONFIG.instituicao.nome}</span>
+      {!emModoFoco && (
+        <footer className="border-t border-theme py-6 px-4 bg-theme-surface text-center text-xs text-theme-ink-2 hidden md:block">
+          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <span className="font-bold text-theme-ink">{CONCURSO_CONFIG.plataforma.nome}</span>
+              <span>• {CONCURSO_CONFIG.instituicao.nome}</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={() => setIsSearchOpen(true)}
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+              >
+                <Search className="w-3.5 h-3.5 text-accent" />
+                <span>Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
+              </button>
+
+              <span className="text-border">|</span>
+
+              <button
+                type="button"
+                onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+              >
+                <BookOpen className="w-3.5 h-3.5 text-accent" />
+                <span>Dicionário (<Kbd>Alt</Kbd>+<Kbd>D</Kbd>)</span>
+              </button>
+
+              <span className="text-border">|</span>
+
+              <button
+                type="button"
+                onClick={() => setIsShortcutsOpen(true)}
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+              >
+                <Keyboard className="w-3.5 h-3.5 text-accent" />
+                <span>Atalhos (<Kbd>?</Kbd>)</span>
+              </button>
+            </div>
+
+            <p className="text-[11px] text-theme-ink-2 m-0">
+              Metodologia Cebraspe: 1 Erro Anula 1 Certo • Plataforma Editorial
+            </p>
           </div>
+        </footer>
+      )}
 
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              onClick={() => setIsSearchOpen(true)}
-              className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
-            >
-              <Search className="w-3.5 h-3.5 text-accent" />
-              <span>Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
-            </button>
-
-            <span className="text-border">|</span>
-
-            <button
-              type="button"
-              onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-              className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
-            >
-              <BookOpen className="w-3.5 h-3.5 text-accent" />
-              <span>Dicionário (<Kbd>Alt</Kbd>+<Kbd>D</Kbd>)</span>
-            </button>
-
-            <span className="text-border">|</span>
-
-            <button
-              type="button"
-              onClick={() => setIsShortcutsOpen(true)}
-              className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
-            >
-              <Keyboard className="w-3.5 h-3.5 text-accent" />
-              <span>Atalhos (<Kbd>?</Kbd>)</span>
-            </button>
-          </div>
-
-          <p className="text-[11px] text-theme-ink-2 m-0">
-            Metodologia Cebraspe: 1 Erro Anula 1 Certo • Plataforma Editorial
-          </p>
-        </div>
-      </footer>
 
       {/* Modal de Busca Global (H3) */}
       <GlobalSearchModal
