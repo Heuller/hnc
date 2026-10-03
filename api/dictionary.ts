@@ -54,7 +54,7 @@ Defina com rigor conceitual o termo técnico delimitado. Retorne ESTRITAMENTE um
 `;
 
   try {
-    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
     const response = await fetch(geminiUrl, {
       method: 'POST',

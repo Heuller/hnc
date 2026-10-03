@@ -3,6 +3,28 @@ import type { TermoDicionario } from './types';
 export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   // --- M1: FUNDAMENTOS & TEORIA DA INFORMAÇÃO ---
   {
+    id: 'documentacao',
+    termo: 'Documentação (Paul Otlet & Teoria Documental)',
+    sinonimos: ['documentacao', 'documentacao geral', 'teoria da documentacao', 'conceito de documentacao', 'paul otlet documentacao', 'tratado de documentacao'],
+    area: 'Fundamentos da Ciência da Informação e Documentação',
+    moduloRelacionado: 'M1',
+    conceitoCanonico: 'Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico "Traité de Documentation" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa. Em 1951, Suzanne Briet consolidou a teoria clássica com a obra "Qu\'est-ce que le document?", conceituando documento como qualquer índice ou indício corpóreo fixado para fins de prova, consulta ou testemunho.',
+    armadilhaCebraspe: 'O Cebraspe tenta com frequência restringir a Documentação à guarda física e passiva de papéis ou considerá-la sinônimo estrito da Biblioteconomia tradicional. ERRADO: para o Cebraspe, a Documentação se distingue pela universalidade dos suportes (não apenas livros), pelo tratamento analítico minucioso (partes de obras e artigos) e pela disseminação dinâmica e proativa.',
+    aplicacaoCamara: 'No Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, a gestão e indexação das notas taquigráficas de plenário, arquivos em áudio e vídeo de CPIs, pareceres e projetos de lei em múltiplos formatos corporificam os preceitos clássicos da Documentação.',
+    fonteReferencia: 'OTLET, Paul. Traité de Documentation. Bruxelles: Mundaneum, 1934; BRIET, Suzanne. Qu\'est-ce que le document?. Paris: EDIT, 1951.',
+  },
+  {
+    id: 'paul-otlet',
+    termo: 'Paul Otlet e o Mundaneum (Pai da Documentação & CDU)',
+    sinonimos: ['paul otlet', 'otlet', 'mundaneum', 'iib', 'fid', 'pai da documentacao', 'repertoire bibliographique universel'],
+    area: 'História e Epistemologia da Ciência da Informação',
+    moduloRelacionado: 'M1',
+    conceitoCanonico: 'Paul Otlet (1868–1944), jurista e bibliógrafo belga, é considerado o pai da Documentação e um dos maiores visionários precursores da Ciência da Informação e da internet. Fundou em 1895, com Henri La Fontaine, o Instituto Internacional de Bibliografia (IIB), adaptou e expandiu a Classificação Decimal de Dewey (CDD) para criar a Classificação Decimal Universal (CDU), padronizou a ficha bibliográfica de 7,5 x 12,5 cm e concebeu o Mundaneum (cidade mundial do saber com o Repertório Bibliográfico Universal, reunindo mais de 15 milhões de fichas interconectadas).',
+    armadilhaCebraspe: 'A banca costuma atribuir a criação da CDU exclusivamente a Melvil Dewey ou afirmar que Otlet lidava apenas com bibliotecas tradicionais. Melvil Dewey criou a CDD (1876); Otlet e La Fontaine criaram a CDU (1905) e fundaram o movimento documentalista.',
+    aplicacaoCamara: 'A Biblioteca da Câmara dos Deputados adota a CDU — desenvolvida pioneiramente por Otlet — na classificação sistemática de todo o seu acervo de Direito Constitucional, Ciência Política e Legislação.',
+    fonteReferencia: 'OTLET, Paul. Traité de Documentation: le livre sur le livre, théorie et pratique. Bruxelles: Mundaneum, 1934.',
+  },
+  {
     id: 'informacao-como-coisa',
     termo: 'Informação como Coisa (Information as Thing)',
     sinonimos: ['informação-como-coisa', 'buckland coisa', 'information as thing'],
@@ -48,6 +70,17 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
 
   // --- M2: CATALOGAÇÃO & METADADOS ---
+  {
+    id: 'rvbi-catalogacao-cooperativa',
+    termo: 'Rede Virtual de Bibliotecas (RVBI) e Catalogação Cooperativa',
+    sinonimos: ['rvbi', 'rede virtual de bibliotecas', 'catalogacao cooperativa', 'rede biblio', 'rede do congresso'],
+    area: 'Catalogação e Redes Cooperativas',
+    moduloRelacionado: 'M2',
+    conceitoCanonico: 'Rede cooperativa de bibliotecas do Poder Legislativo e da Administração Pública Federal brasileira, coordenada pelo Senado Federal e integrada pela Biblioteca Pedro Aleixo da Câmara dos Deputados, STF, STJ, TST, TCU e ministérios. Funciona sob o princípio da catalogação compartilhada com base bibliográfica unificada em formato MARC 21: o registro catalográfico criado por uma biblioteca associada fica instantaneamente disponível para todas as demais, padronizando cabeçalhos de autoridade e termos do Vocabulário Controlado Básico (VCB).',
+    armadilhaCebraspe: 'Afirmar que na RVBI cada biblioteca mantém uma base de dados isolada sem compartilhamento de autoridades ou atribuir a coordenação da rede à Biblioteca Nacional. A coordenação executiva e técnica da RVBI é de responsabilidade do Senado Federal.',
+    aplicacaoCamara: 'A Biblioteca da Câmara dos Deputados alimenta e usufrui diariamente da RVBI, registrando monografias, periódicos e atos parlamentares para consulta pública integrada.',
+    fonteReferencia: 'SENADO FEDERAL. Manual da Rede Virtual de Bibliotecas - RVBI. Brasília: Secretaria de Biblioteca, 2023.',
+  },
   {
     id: 'rda',
     termo: 'RDA (Resource Description and Access)',
@@ -128,9 +161,31 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     fonteReferencia: 'CUTTER, Charles Ammi. Cutter-Sanborn Three-Figure Author Table. Chicopee: HR Huntting, 1969.',
   },
   {
+    id: 'linguagens-documentarias',
+    termo: 'Linguagens Documentárias (Vocabulários Controlados)',
+    sinonimos: ['linguagens documentarias', 'linguagem documentaria', 'vocabulario controlado', 'sistemas de organizacao do conhecimento', 'soc'],
+    area: 'Linguagens Documentárias e Indexação',
+    moduloRelacionado: 'M3',
+    conceitoCanonico: 'Linguagens artificiais constituídas por vocabulário controlado e regras sintáticas/semânticas, concebidas para a indexação, armazenamento e recuperação temática da informação em sistemas documentários. Seu objetivo precípuo é neutralizar os ruídos da linguagem natural (sinonímia, polissemia e homonímia). Dividem-se em linguagens pré-coordenadas (sistemas de classificação CDD/CDU e cabeçalhos de assunto) e pós-coordenadas (unitermos e tesauros baseados em descritores combinados no momento da busca por operadores booleanos).',
+    armadilhaCebraspe: 'Afirmar que a busca por palavras-chave em linguagem natural torna dispensável o uso de linguagens documentárias em bases especializadas. A ausência de vocabulário controlado causa perda severa de revocação (devido a sinônimos não buscados) e explosão de ruído (polissemia).',
+    aplicacaoCamara: 'O Tesauro da Câmara dos Deputados e o Vocabulário Controlado Básico (VCB) da Rede RVBI padronizam os termos de indexação de projetos de lei, discursos e relatórios das comissões permanentes.',
+    fonteReferencia: 'CINTRA, Anna Maria Marques et al. Para entender as linguagens documentárias. São Paulo: Polis, 2002.',
+  },
+  {
+    id: 'indexacao-processo',
+    termo: 'Indexação de Assuntos (Exaustividade, Especificidade & NBR 12676)',
+    sinonimos: ['indexacao', 'processo de indexacao', 'exaustividade', 'especificidade', 'nbr 12676', 'politica de indexacao'],
+    area: 'Tratamento Temático da Informação',
+    moduloRelacionado: 'M3',
+    conceitoCanonico: 'Processo intelectual de identificação e descrição do conteúdo temático de um documento mediante a atribuição de termos representativos de uma linguagem documentária (NBR 12676 / ISO 5963). Compreende três etapas canônicas: (1) Exame e leitura técnica do documento; (2) Identificação dos conceitos centrais; (3) Tradução dos conceitos para os termos autorizados da linguagem. A Exaustividade corresponde ao número total de conceitos atribuídos (alta exaustividade maximiza a revocação). A Especificidade é o grau de precisão do termo em relação ao conceito abordado (alta especificidade maximiza a precisão).',
+    armadilhaCebraspe: 'Inversão das relações de recuperação: a banca costuma afirmar que alta especificidade aumenta a revocação e alta exaustividade aumenta a precisão. Falso! Exaustividade eleva a revocação (traz mais documentos); especificidade eleva a precisão (traz documentos mais pertinentes).',
+    aplicacaoCamara: 'Ao indexar uma Proposta de Emenda à Constituição (PEC) sobre Reforma Tributária, o bibliotecário aplica alta especificidade para permitir que a consultoria legislativa localize a proposta sem ruídos irrelevantes.',
+    fonteReferencia: 'ABNT. NBR 12676: Métodos para análise de documentos, determinação de seus assuntos e seleção de termos de indexação. Rio de Janeiro, 1992.',
+  },
+  {
     id: 'tesauros-relacoes',
     termo: 'Relações em Tesauros (TG, TE, TA, USE, UP)',
-    sinonimos: ['tesauro', 'relacoes tesauro', 'tg', 'te', 'ta', 'use up'],
+    sinonimos: ['tesauro', 'tesauros', 'relacoes tesauro', 'relacoes em tesauros', 'termo geral', 'termo especifico', 'termo associado', 'use', 'up'],
     area: 'Linguagens Documentárias e Indexação',
     moduloRelacionado: 'M3',
     conceitoCanonico: 'Vocabulário controlado de termos dinâmicos inter-relacionados semanticamente. Possui três tipos canônicos de relações: (1) Relação de Equivalência (sinonímia/quase-sinonímia: USE para termo preferido e UP/Usado Para para termo não preferido); (2) Relação Hierárquica (gênero/espécie ou todo/parte: TG - Termo Geral / BT e TE - Termo Específico / NT); (3) Relação Associativa (afinidade conceitual ou causalidade: TA - Termo Associado / RT).',
@@ -173,6 +228,28 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     aplicacaoCamara: 'A convocação e nomeação dos aprovados no concurso da Câmara dos Deputados é publicada na Seção 2 do DOU; a lei orgânica promulgada é publicada na Seção 1.',
     fonteReferencia: 'BRASIL. Imprensa Nacional. Decreto nº 9.215, de 29 de novembro de 2017.',
   },
+  {
+    id: 'disseminacao-seletiva-informacao',
+    termo: 'Disseminação Seletiva da Informação (DSI / SDI)',
+    sinonimos: ['dsi', 'sdi', 'disseminacao seletiva', 'disseminacao seletiva da informacao', 'alerta informacional'],
+    area: 'Serviço de Referência e Produtos Informacionais',
+    moduloRelacionado: 'M4',
+    conceitoCanonico: 'Serviço proativo e automatizado de alerta concebido por Hans Peter Luhn (IBM, 1958) que visa fornecer periodicamente a cada pesquisador, tomador de decisão ou grupo parlamentar apenas os novos documentos e publicações que correspondam ao seu perfil pré-definido de interesses (profile). Opera mediante a comparação sistemática entre os descritores dos novos itens entrados na base e a matriz de tópicos de interesse cadastrada.',
+    armadilhaCebraspe: 'Confundir DSI com boletim informativo genérico ou newsletter distribuída indistintamente a todos os usuários. A DSI caracteriza-se obrigatoriamente pela personalização estrita baseada no perfil individual cadastrado.',
+    aplicacaoCamara: 'Consultores legislativos e relatores de comissões temáticas recebem alertas diários automáticos de DSI com proposições, jurisprudência e doutrina pertinentes aos projetos sob sua relatoria.',
+    fonteReferencia: 'LUHN, Hans Peter. A Business Intelligence System. IBM Journal of Research and Development, 1958.',
+  },
+  {
+    id: 'servico-de-referencia',
+    termo: 'Serviço de Referência e Entrevista de Referência (Grogan)',
+    sinonimos: ['servico de referencia', 'entrevista de referencia', 'grogan', 'processo de referencia'],
+    area: 'Serviço de Referência e Atendimento ao Usuário',
+    moduloRelacionado: 'M4',
+    conceitoCanonico: 'Atendimento direto, pessoal e interativo prestado pelo bibliotecário ao consulente para solucionar suas necessidades de informação. Denis Grogan sistematizou o processo de referência em oito estágios sucessivos, desde a necessidade de informação latente e não expressa (necessidade visceral), passando pela necessidade consciente e formalizada, até a questão apresentada ao bibliotecário. A Entrevista de Referência é o diálogo profissional estruturado em perguntas abertas para esclarecer a real demanda subjacente à consulta.',
+    armadilhaCebraspe: 'Afirmar que na entrevista de referência o bibliotecário deve usar prioritariamente perguntas fechadas (que induzem sim/não) para agilizar o atendimento. Grogan preconiza perguntas abertas e escuta atenta para revelar a necessidade informacional real.',
+    aplicacaoCamara: 'No balcão de atendimento ou no serviço de referência virtual da Biblioteca Pedro Aleixo, os analistas realizam a entrevista de referência para delimitar com precisão o escopo doutrinário demandado pelos parlamentares.',
+    fonteReferencia: 'GROGAN, Denis. A prática do serviço de referência. Brasília: Briquet de Lemos, 1995/2001.',
+  },
 
   // --- M5: GESTÃO & DESENVOLVIMENTO DE COLEÇÕES ---
   {
@@ -196,6 +273,17 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     armadilhaCebraspe: 'Inversão das fases (ex.: afirmar que Externalização é de explícito para explícito ou que o conhecimento tácito é facilmente transferível sem interação interpessoal).',
     aplicacaoCamara: 'Quando um consultor legislativo sênior redige um manual de técnica legislativa a partir de sua vivência tácita, ocorre a fase de Externalização.',
     fonteReferencia: 'NONAKA, Ikujiro; TAKEUCHI, Hirotaka. The Knowledge-Creating Company. Oxford University Press, 1995.',
+  },
+  {
+    id: 'estudo-de-usuarios',
+    termo: 'Estudo de Usuários e Comportamento Informacional',
+    sinonimos: ['estudo de usuarios', 'comportamento informacional', 'necessidades de informacao', 'sense-making', 'dervin', 'kuhlthau'],
+    area: 'Usuários da Informação e Gestão de Serviços',
+    moduloRelacionado: 'M5',
+    conceitoCanonico: 'Investigação sistemática e contínua que emprega métodos qualitativos e quantitativos para identificar hábitos, necessidades conscientes ou inconscientes, fluxos e barreiras no uso da informação por uma comunidade. Evoluiu da abordagem tradicional voltada ao sistema (orientada a estatísticas quantitativas de empréstimo e uso da coleção) para a abordagem alternativa voltada ao usuário (orientada aos processos cognitivos, situacionais e afetivos de busca e construção de sentido, com destaque para o modelo Sense-Making de Brenda Dervin e o Information Search Process de Carol Kuhlthau).',
+    armadilhaCebraspe: 'Reduzir estudos de usuários a relatórios estatísticos de balcão e circulação de livros. O Cebraspe enfatiza a abordagem construtivista e fenomenológica focada no contexto e na lacuna de sentido (gaps) do indivíduo.',
+    aplicacaoCamara: 'Pesquisas periódicas de demanda diagnóstica aplicadas às consultorias parlamentares para subsidiar a aquisição de bases jurídicas e a modelagem do catálogo da Câmara.',
+    fonteReferencia: 'FIGUEIREDO, Nice Menezes de. Metodologias para promoção do uso da informação. São Paulo: Nobel / APB, 1991.',
   },
 
   // --- M6: BIBLIOTECAS DIGITAIS, PRESERVAÇÃO & IA ---

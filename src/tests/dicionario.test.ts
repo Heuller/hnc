@@ -60,6 +60,28 @@ describe('Dicionário Cebraspe & Glossário Vivo', () => {
       expect(res2?.id).toBe('desbastamento-vs-descarte');
     });
 
+    it('deve localizar com precisão o termo Documentação sem retornar relações em tesauros', () => {
+      const resDoc = dicionarioService.buscarTermoLocal('Documentação');
+      expect(resDoc).not.toBeNull();
+      expect(resDoc?.id).toBe('documentacao');
+      expect(resDoc?.termo).toContain('Documentação');
+      expect(resDoc?.termo).not.toContain('Tesauros');
+
+      const resTesauro = dicionarioService.buscarTermoLocal('tesauro');
+      expect(resTesauro).not.toBeNull();
+      expect(resTesauro?.id).toBe('tesauros-relacoes');
+
+      // Palavra contendo "ta" não deve dar falso positivo em tesauro
+      const resFake = dicionarioService.buscarTermoLocal('sustentabilidade');
+      expect(resFake).toBeNull();
+    });
+
+    it('deve localizar Paul Otlet e termos de Documentação na base curada', () => {
+      const resOtlet = dicionarioService.buscarTermoLocal('Paul Otlet');
+      expect(resOtlet).not.toBeNull();
+      expect(resOtlet?.id).toBe('paul-otlet');
+    });
+
     it('deve retornar sugestões pertinentes de termos curados', () => {
       const sugestoes = dicionarioService.buscarSugestoes('c', 5);
       expect(sugestoes.length).toBeGreaterThan(0);

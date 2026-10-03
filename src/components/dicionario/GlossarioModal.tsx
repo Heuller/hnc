@@ -178,16 +178,17 @@ export const GlossarioModal: React.FC = () => {
           </div>
 
           {/* Sugestões Rápidas de Autocomplete */}
-          {abaAtiva === 'termo' && sugestoes.length > 0 && !termoAtivo && (
+          {abaAtiva === 'termo' && sugestoes.length > 0 && (!termoAtivo || inputBusca.trim() !== termoAtivo.termo) && (
             <div className="flex flex-wrap gap-1.5 mt-2.5">
               <span className="text-[11px] text-ink-2 flex items-center gap-1 mr-1">
-                Sugestões:
+                Termos encontrados:
               </span>
               {sugestoes.map((sug) => (
                 <button
                   key={sug.id}
                   onClick={() => {
                     setAbaAtiva('termo');
+                    setInputBusca(sug.termo);
                     abrirDicionarioComTermo(sug);
                   }}
                   className="px-2 py-0.5 text-xs rounded-md bg-surface border border-border text-ink hover:border-primary dark:hover:border-amber-400 hover:text-primary dark:hover:text-amber-400 transition-colors cursor-pointer"
@@ -385,6 +386,35 @@ export const GlossarioModal: React.FC = () => {
                 </div>
               </div>
 
+              {/* Termos Correlatos / Ver Também */}
+              {(() => {
+                const correlatos = dicionarioService
+                  .buscarTermosSimilares(termoAtivo.termo, 5)
+                  .filter((t) => t.id !== termoAtivo.id);
+                if (correlatos.length === 0) return null;
+                return (
+                  <div className="pt-2">
+                    <span className="text-[11px] font-semibold text-ink-2 uppercase tracking-wider block mb-1.5">
+                      Ver Também (Conceitos Correlatos):
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {correlatos.map((cor) => (
+                        <button
+                          key={cor.id}
+                          onClick={() => {
+                            setInputBusca(cor.termo);
+                            abrirDicionarioComTermo(cor);
+                          }}
+                          className="px-2.5 py-1 text-xs rounded-lg bg-surface-2 hover:bg-surface border border-border text-ink hover:text-primary dark:hover:text-amber-400 hover:border-primary dark:hover:border-amber-400 transition-colors cursor-pointer"
+                        >
+                          {cor.termo}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+
               {/* Rodapé do Card: Fonte Bibliográfica */}
               <div className="pt-2 text-xs text-ink-2 flex items-center justify-between border-t border-border">
                 <span className="italic">Fonte: {termoAtivo.fonteReferencia}</span>
@@ -395,6 +425,37 @@ export const GlossarioModal: React.FC = () => {
                   <Sparkles className="w-3 h-3" />
                   <span>Aprofundar com IA</span>
                 </button>
+              </div>
+            </div>
+          )}
+
+          {!termoAtivo && !isLoading && !erro && (
+            <div className="py-8 text-center space-y-4 animate-in fade-in duration-150">
+              <div className="w-12 h-12 rounded-2xl bg-primary/10 dark:bg-amber-400/10 text-primary dark:text-amber-400 flex items-center justify-center mx-auto">
+                <BookOpen className="w-6 h-6" />
+              </div>
+              <div className="space-y-1 max-w-md mx-auto">
+                <h4 className="text-base font-bold text-ink">Pesquise no Vocabulário Canônico Cebraspe</h4>
+                <p className="text-xs text-ink-2">
+                  Consulte conceitos técnicos de Cunha & Lemos, normas ABNT e pegadinhas clássicas da banca examinadora da Câmara dos Deputados.
+                </p>
+              </div>
+              <div className="pt-2">
+                <span className="text-xs text-ink-2 block mb-2 font-medium">Verbetes Essenciais em Destaque:</span>
+                <div className="flex flex-wrap gap-2 justify-center max-w-lg mx-auto">
+                  {dicionarioService.buscarSugestoes('', 6).map((destaque) => (
+                    <button
+                      key={destaque.id}
+                      onClick={() => {
+                        setInputBusca(destaque.termo);
+                        abrirDicionarioComTermo(destaque);
+                      }}
+                      className="px-3 py-1.5 text-xs rounded-xl bg-surface-2 hover:bg-surface border border-border text-ink hover:border-primary dark:hover:border-amber-400 hover:text-primary dark:hover:text-amber-400 transition-all font-medium cursor-pointer shadow-sm"
+                    >
+                      {destaque.termo}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           )}

@@ -34,6 +34,7 @@ export const useDicionarioStore = create<DicionarioStoreState>((set, get) => ({
 
     set({
       isModalOpen: true,
+      termoAtivo: null,
       termoQuery: limpo,
       contextoFrase: contexto || '',
       isLoading: true,
