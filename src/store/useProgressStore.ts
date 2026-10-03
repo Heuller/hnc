@@ -550,7 +550,7 @@ export const useProgressStore = create<ProgressStoreState>()(
 
         let md = `# Relatório de Estudos e Desempenho · Heuller na Câmara\n\n`;
         md += `*Gerado em: ${new Date().toLocaleString('pt-BR')}*\n\n`;
-        md += `## 1. Cobertura do Edital (Câmara dos Deputados)\n\n`;
+        md += `## 1. Progresso Geral (Câmara dos Deputados)\n\n`;
         md += `- **Submódulos Lidos:** ${lidos.length} de 40 (${Math.round((lidos.length / 40) * 100)}%)\n`;
         md += `- **Constância de Estudo:** ${state.constancia.diasConsecutivos} dias consecutivos ativos\n`;
         md += `- **Checkpoints Respondidos:** ${Object.keys(state.checkpointsRespondidos || {}).length} de 120\n\n`;

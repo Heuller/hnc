@@ -418,7 +418,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
 
             <div className="text-[11px] text-ink-2 font-mono flex items-center gap-1.5">
               <HelpCircle className="w-3.5 h-3.5" />
-              <span>Baseado no edital e jurisprudência Cebraspe</span>
+              <span>Fundamentado em normas técnicas e doutrina de referência</span>
             </div>
           </div>
         </footer>

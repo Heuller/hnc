@@ -15,13 +15,13 @@ interface IllustrationProps {
  * Traço 1.5px, duotom currentColor / variáveis de tema, cantos suaves.
  */
 
-// Ilustração de Login: Biblioteca Legislativa Solene e Gabinete de Estudo
+// Ilustração de Login: Biblioteca e Ambiente de Estudos
 export const IllustrationLogin: React.FC<IllustrationProps> = ({
   className = '',
   width = '100%',
   height = '100%',
   color = 'currentColor',
-  ariaLabel = 'Gravura da Biblioteca e Gabinete de Estudos',
+  ariaLabel = 'Gravura da Biblioteca e Ambiente de Estudos',
   ...props
 }) => (
   <svg

@@ -53,6 +53,8 @@ export const MacroModuloSchema = z.object({
   subtitulo: z.string(),
   descricao: z.string(),
   status: z.enum(['disponivel', 'planejado']),
+  trilha: z.enum(['especificos', 'complementar']).optional(),
+  avisoVerificacao: z.string().optional(),
   modulosFilhos: z.array(ModuloFilhoSchema),
   simuladoDisponivel: z.boolean(),
 });

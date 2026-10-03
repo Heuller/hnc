@@ -97,7 +97,10 @@ DIRETRIZES DA BANCA CEBRASPE:
 1. Formulação de itens rigorosos, elegantes e de nível alto (padrão concurso da Câmara dos Deputados).
 2. Itens do tipo Certo ou Errado (equilíbrio saudável entre itens C e E).
 3. Distratores sofisticados da banca Cebraspe: palavras restritivas ("exclusivamente", "sempre", "apenas"), inversão de termos correlatos (desbastamento x descarte, revocação x precisão, SIP x AIP x DIP, resumo indicativo x informativo), prazos da LAI, autoridades clássicas (Briet, Otlet, Borko, Shera, Lancaster, Vergueiro, Ranganathan).
-4. Retorne EXCLUSIVAMENTE um objeto JSON válido com a seguinte estrutura:
+4. REGRA ANTI-ALUCINAÇÃO INEGOCIÁVEL:
+   - Todo item DEVE obrigatoriamente referenciar uma fonte primária canônica verificável (ex: autor com ano e obra, norma ABNT NBR específica com número, lei federal com número e artigo, ou gramática normativa canônica com autor).
+   - NUNCA use fontes genéricas ou vagas como 'jurisprudência Cebraspe', 'edital da Câmara', 'internet', 'doutrina geral' ou 'vários autores'. Itens sem fonte primária específica serão descartados.
+5. Retorne EXCLUSIVAMENTE um objeto JSON válido com a seguinte estrutura:
 
 {
   "itens": [
@@ -108,9 +111,9 @@ DIRETRIZES DA BANCA CEBRASPE:
       "topicoNome": "Título do Tópico",
       "item": "Texto da assertiva para julgamento em C ou E...",
       "gabarito": "C",
-      "justificativa": "Justificativa doutrinária irrefutável...",
+      "justificativa": "Justificativa doutrinária irrefutável com menção à regra/trecho...",
       "armadilhaBanca": "Qual o distrator ou pegadinha embutida no item...",
-      "autorOuNormaReferencia": "Autor, obra ou norma (ex: Waldomiro Vergueiro 1989 / Lei 12.527 / AACR2)"
+      "autorOuNormaReferencia": "Autor, obra ou norma primária (ex: Waldomiro Vergueiro 1989 / Lei 12.527 / AACR2)"
     }
   ]
 }

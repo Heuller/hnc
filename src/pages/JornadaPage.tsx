@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
-import { COURSE_REGISTRY } from '../content/registry';
+import { TRILHA_ESPECIFICOS, TRILHA_COMPLEMENTAR } from '../content/registry';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ComoFuncionaJornadaModal } from '../components/jornada/ComoFuncionaJornadaModal';
 import { PortaoVerificacaoModal } from '../components/jornada/PortaoVerificacaoModal';
@@ -32,12 +32,14 @@ export const JornadaPage: React.FC = () => {
 
   const { setSelectedSubmodule, setActiveView } = useNavigationStore();
 
+  const [abaTrilha, setAbaTrilha] = useState<'especificos' | 'complementar'>('especificos');
   const [isHelpOpen, setIsHelpOpen] = useState(() => {
     if (typeof window === 'undefined') return false;
     return !localStorage.getItem('hnc_jornada_intro_seen');
   });
   const [activePortaoId, setActivePortaoId] = useState<string | null>(null);
   const [showModoLivreConfirm, setShowModoLivreConfirm] = useState(false);
+  const [showCalculoInfo, setShowCalculoInfo] = useState(false);
 
   const jornada = getJornadaState();
   const { etapas, metricas, proximoPasso } = jornada;
@@ -64,11 +66,10 @@ export const JornadaPage: React.FC = () => {
     setShowModoLivreConfirm(false);
   };
 
-  // Módulos M1 a M10 de Conhecimentos Específicos
-  const modulosEstatisticos = COURSE_REGISTRY.filter((m) => {
-    const num = typeof m.numero === 'number' ? m.numero : parseInt(String(m.numero).replace(/\D/g, ''), 10);
-    return !isNaN(num) && num >= 1 && num <= 10;
-  });
+  // Módulos M1 a M10 da Trilha Principal
+  const modulosEstatisticos = TRILHA_ESPECIFICOS;
+  const modulosGerais = TRILHA_COMPLEMENTAR;
+
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
@@ -121,32 +122,83 @@ export const JornadaPage: React.FC = () => {
           </div>
         </div>
 
-        {/* CHIPS DE MÉTRICAS */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 border-t border-border/80">
-          <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-            <span className="text-[10px] font-mono uppercase text-ink-2 block">Taxa de Domínio</span>
-            <span className="text-base sm:text-lg font-bold text-ink font-mono">
-              {metricas.taxaDominioPercent}%
+        {/* CHIPS DE MÉTRICAS COM FÓRMULAS E AMOSTRAS VISÍVEIS (Regras C5 e C7) */}
+        <div className="space-y-2 pt-3 border-t border-border/80">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-sans font-semibold text-ink">
+              Indicadores Oficiais da Trilha
             </span>
+            <button
+              type="button"
+              onClick={() => setShowCalculoInfo((v) => !v)}
+              className="text-[11px] font-sans text-accent hover:underline flex items-center gap-1 cursor-pointer"
+            >
+              <HelpCircle className="w-3.5 h-3.5" />
+              <span>{showCalculoInfo ? 'Ocultar fórmulas' : 'Como é calculado?'}</span>
+            </button>
           </div>
-          <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-            <span className="text-[10px] font-mono uppercase text-ink-2 block">Etapas Concluídas</span>
-            <span className="text-base sm:text-lg font-bold text-emerald-600 dark:text-emerald-400 font-mono">
-              {metricas.etapasConcluidas} / {metricas.totalEtapas}
-            </span>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
+              <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-ink-2 block">Taxa de Domínio</span>
+              <span className="text-base sm:text-lg font-bold text-ink font-sans tabular-nums">
+                {metricas.taxaDominioPercent}%
+              </span>
+              <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
+                {metricas.etapasConcluidas} de 59 etapas
+              </span>
+            </div>
+            <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
+              <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-ink-2 block">Etapas da Trilha</span>
+              <span className="text-base sm:text-lg font-bold text-emerald-600 dark:text-emerald-400 font-sans tabular-nums">
+                {metricas.etapasConcluidas} / {metricas.totalEtapas}
+              </span>
+              <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
+                40 sub + 10 des + 9 port
+              </span>
+            </div>
+            <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
+              <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-ink-2 block">Prontidão Global</span>
+              <span className="text-base sm:text-lg font-bold text-accent font-sans tabular-nums">
+                {metricas.prontidaoPercent}%
+              </span>
+              <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
+                Média das 59 etapas
+              </span>
+            </div>
+            <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
+              <span className="text-[10px] font-sans font-semibold uppercase tracking-wider text-ink-2 block">Itens Resolvidos</span>
+              <span className="text-base sm:text-lg font-bold text-ink-2 font-sans tabular-nums">
+                {metricas.itensRevisadosTotal}
+              </span>
+              <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
+                Na trilha oficial
+              </span>
+            </div>
           </div>
-          <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-            <span className="text-[10px] font-mono uppercase text-ink-2 block">Prontidão Estimada</span>
-            <span className="text-base sm:text-lg font-bold text-accent font-mono">
-              {metricas.prontidaoPercent}%
-            </span>
-          </div>
-          <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-            <span className="text-[10px] font-mono uppercase text-ink-2 block">Itens Resolvidos</span>
-            <span className="text-base sm:text-lg font-bold text-ink-2 font-mono">
-              {metricas.itensRevisadosTotal}
-            </span>
-          </div>
+
+          {/* Painel Explicativo de Fórmulas e Composição (C7) */}
+          {showCalculoInfo && (
+            <div className="p-4 rounded-xl bg-surface-2 border border-border text-xs text-ink-2 space-y-2.5 animate-fadeIn">
+              <h4 className="font-sans font-bold text-ink text-xs uppercase tracking-wide">
+                Fórmulas de Avaliação e Composição Amostral
+              </h4>
+              <ul className="space-y-1.5 list-disc list-inside leading-relaxed">
+                <li>
+                  <strong className="text-ink">Composição das 59 Etapas:</strong> 40 submódulos teóricos (M1 a M10, 4 submódulos cada) + 10 Desafios de Módulo (100 itens inéditos, mín. 85 acertos) + 9 Portais de Revisão Cumulativa (20 itens, mín. 17 acertos, entre M2 e M10) = 59 etapas.
+                </li>
+                <li>
+                  <strong className="text-ink">Taxa de Domínio:</strong> (Etapas Concluídas / 59) × 100%. Uma etapa só é concluída ao atingir aproveitamento &ge; 85% e ler 100% dos textos teóricos canônicos.
+                </li>
+                <li>
+                  <strong className="text-ink">Prontidão Global Calculada:</strong> Média aritmética simples do melhor aproveitamento percentual obtido nas 59 etapas da trilha (&sum; aproveitamento / 59). Etapas ainda não concluídas contribuem com 0%.
+                </li>
+                <li>
+                  <strong className="text-ink">Fator Cebraspe:</strong> 1 erro anula 1 acerto. Calculado e apresentado de forma autônoma como nota líquida (Certos &minus; Errados) em todos os relatórios e simulados.
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
 
         {/* PRÓXIMO PASSO SUGERIDO */}
@@ -176,259 +228,424 @@ export const JornadaPage: React.FC = () => {
         )}
       </div>
 
-      {/* MAPA DA TRILHA DE MÓDULOS */}
-      <div className="space-y-12 relative">
-        {modulosEstatisticos.map((macro) => {
-          const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
-          const theme = getModuleTheme(macro.id);
-          const submodulos = macro.modulosFilhos || [];
-          const desafioId = `desafio-${macro.id}`;
-          const portalId = `portal-${macro.id}`;
-          const etapaDesafio = etapas[desafioId];
-          const etapaPortal = etapas[portalId];
+      {/* SELETOR DE TRILHA: PRINCIPAL (ESPECÍFICOS) vs COMPLEMENTAR (GERAIS) */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-b border-border pb-3">
+        <div className="flex items-center gap-2 p-1 bg-surface-2/60 rounded-xl border border-border w-fit">
+          <button
+            type="button"
+            onClick={() => setAbaTrilha('especificos')}
+            className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
+              abaTrilha === 'especificos'
+                ? 'bg-surface text-ink shadow-xs border border-border'
+                : 'text-ink-2 hover:text-ink'
+            }`}
+          >
+            <span>Trilha Principal · Específicos</span>
+            <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-accent/10 text-accent font-semibold">
+              M1 a M10
+            </span>
+          </button>
 
-          return (
-            <div
-              key={macro.id}
-              className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
-            >
-              {/* Barra lateral temática */}
+          <button
+            type="button"
+            onClick={() => setAbaTrilha('complementar')}
+            className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
+              abaTrilha === 'complementar'
+                ? 'bg-surface text-ink shadow-xs border border-border'
+                : 'text-ink-2 hover:text-ink'
+            }`}
+          >
+            <span>Trilha Complementar · Gerais</span>
+            <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-700 dark:text-purple-300 font-semibold">
+              M11 & M12
+            </span>
+          </button>
+        </div>
+
+        <span className="text-xs text-ink-2">
+          {abaTrilha === 'especificos'
+            ? 'Progressão sequencial com verificação estrita e 59 etapas de domínio.'
+            : 'Estudo autônomo com questões assistidas por IA ancoradas em fontes primárias.'}
+        </span>
+      </div>
+
+      {/* RENDERIZAÇÃO DA TRILHA PRINCIPAL (ESPECÍFICOS M1 A M10) */}
+      {abaTrilha === 'especificos' && (
+        <div className="space-y-12 relative animate-fadeIn">
+          {modulosEstatisticos.map((macro) => {
+            const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
+            const theme = getModuleTheme(macro.id);
+            const submodulos = macro.modulosFilhos || [];
+            const desafioId = `desafio-${macro.id}`;
+            const portalId = `portal-${macro.id}`;
+            const etapaDesafio = etapas[desafioId];
+            const etapaPortal = etapas[portalId];
+
+            return (
               <div
-                className="absolute top-0 left-0 bottom-0 w-1.5"
-                style={{ backgroundColor: theme.primaryColor }}
-              />
+                key={macro.id}
+                className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
+              >
+                {/* Barra lateral temática */}
+                <div
+                  className="absolute top-0 left-0 bottom-0 w-1.5"
+                  style={{ backgroundColor: theme.primaryColor }}
+                />
 
-              {/* Título do Macro-Módulo com Emblema Ex-Libris */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
-                <div className="flex items-center gap-3.5">
-                  <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
-                  <div>
-                    <h2 className="text-lg font-serif font-bold text-ink">
-                      Módulo {k}: {macro.titulo}
-                    </h2>
-                    <p className="text-xs text-ink-2">{macro.descricao}</p>
+                {/* Título do Macro-Módulo com Emblema Ex-Libris */}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
+                  <div className="flex items-center gap-3.5">
+                    <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
+                    <div>
+                      <h2 className="text-lg font-serif font-bold text-ink">
+                        Módulo {k}: {macro.titulo}
+                      </h2>
+                      <p className="text-xs text-ink-2">{macro.descricao}</p>
+                    </div>
                   </div>
+
+                  <span
+                    className="px-3 py-1 rounded-full text-xs font-mono font-semibold self-start sm:self-auto border"
+                    style={{
+                      backgroundColor: `${theme.primaryColor}10`,
+                      borderColor: `${theme.primaryColor}25`,
+                      color: theme.primaryColor,
+                    }}
+                  >
+                    {submodulos.length} Submódulos + Desafio
+                  </span>
                 </div>
 
-                <span
-                  className="px-3 py-1 rounded-full text-xs font-mono font-semibold self-start sm:self-auto border"
-                  style={{
-                    backgroundColor: `${theme.primaryColor}10`,
-                    borderColor: `${theme.primaryColor}25`,
-                    color: theme.primaryColor,
-                  }}
-                >
-                  {submodulos.length} Submódulos + Desafio
-                </span>
-              </div>
+                {/* GRADE DE SUBMÓDULOS (Nós da Trilha) */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                  {submodulos.map((sub) => {
+                    const etapaSub = etapas[sub.numero];
+                    const isBloqueada = etapaSub?.status === 'bloqueada';
+                    const isConcluida = etapaSub?.status === 'concluida';
+                    const isRevisaoDirigida = etapaSub?.status === 'em_revisao_dirigida';
+                    const isAtiva = proximoPasso?.etapaId === sub.numero;
 
-              {/* GRADE DE SUBMÓDULOS (Nós da Trilha) */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {submodulos.map((sub) => {
-                  const etapaSub = etapas[sub.numero];
-                  const isBloqueada = etapaSub?.status === 'bloqueada';
-                  const isConcluida = etapaSub?.status === 'concluida';
-                  const isRevisaoDirigida = etapaSub?.status === 'em_revisao_dirigida';
-                  const isAtiva = proximoPasso?.etapaId === sub.numero;
+                    return (
+                      <div
+                        key={sub.id}
+                        className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-all relative ${
+                          isConcluida
+                            ? 'bg-surface-2/30 border-emerald-500/30'
+                            : isRevisaoDirigida
+                            ? 'bg-amber-500/5 border-amber-500/30'
+                            : isBloqueada
+                            ? 'bg-surface-2/20 border-border/50 opacity-60'
+                            : 'bg-surface hover:bg-surface-2/40 border-border shadow-2xs'
+                        }`}
+                      >
+                        {/* Marcador "Você está aqui" */}
+                        {isAtiva && (
+                          <div className="absolute -top-2.5 right-3 px-2 py-0.5 rounded-full bg-accent text-accent-text font-mono text-[9px] font-bold tracking-wider uppercase shadow-xs flex items-center gap-1">
+                            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                            <span>Você está aqui</span>
+                          </div>
+                        )}
 
-                  return (
-                    <div
-                      key={sub.id}
-                      className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-all relative ${
-                        isConcluida
-                          ? 'bg-surface-2/30 border-emerald-500/30'
-                          : isRevisaoDirigida
-                          ? 'bg-amber-500/5 border-amber-500/30'
-                          : isBloqueada
-                          ? 'bg-surface-2/20 border-border/50 opacity-60'
-                          : 'bg-surface hover:bg-surface-2/40 border-border shadow-2xs'
-                      }`}
-                    >
-                      {/* Marcador "Você está aqui" */}
-                      {isAtiva && (
-                        <div className="absolute -top-2.5 right-3 px-2 py-0.5 rounded-full bg-accent text-accent-text font-mono text-[9px] font-bold tracking-wider uppercase shadow-xs flex items-center gap-1">
-                          <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                          <span>Você está aqui</span>
-                        </div>
-                      )}
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-xs font-bold font-mono text-ink">
+                              {sub.numero}
+                            </span>
 
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between gap-2">
-                          <span className="text-xs font-bold font-mono text-ink">
-                            {sub.numero}
-                          </span>
+                            {/* Badge de status */}
+                            {isConcluida ? (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-[10px] font-semibold">
+                                <CheckCircle2 className="w-3 h-3" />
+                                <span>Concluída</span>
+                              </span>
+                            ) : isRevisaoDirigida ? (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-300 text-[10px] font-semibold">
+                                <RotateCcw className="w-3 h-3" />
+                                <span>Revisão Dirigida</span>
+                              </span>
+                            ) : isBloqueada ? (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-2 border border-border text-ink-2 text-[10px] font-semibold">
+                                <Lock className="w-3 h-3" />
+                                <span>Bloqueada</span>
+                              </span>
+                            ) : (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
+                                <Play className="w-3 h-3" />
+                                <span>Disponível</span>
+                              </span>
+                            )}
+                          </div>
 
-                          {/* Badge de status */}
-                          {isConcluida ? (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-[10px] font-semibold">
-                              <CheckCircle2 className="w-3 h-3" />
-                              <span>Concluída</span>
-                            </span>
-                          ) : isRevisaoDirigida ? (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-300 text-[10px] font-semibold">
-                              <RotateCcw className="w-3 h-3" />
-                              <span>Revisão Dirigida</span>
-                            </span>
-                          ) : isBloqueada ? (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-2 border border-border text-ink-2 text-[10px] font-semibold">
-                              <Lock className="w-3 h-3" />
-                              <span>Bloqueada</span>
-                            </span>
-                          ) : (
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
-                              <Play className="w-3 h-3" />
-                              <span>Disponível</span>
-                            </span>
+                          <h3 className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2">
+                            {sub.titulo_curto || sub.titulo}
+                          </h3>
+
+                          {/* Requisito de desbloqueio quando bloqueada */}
+                          {isBloqueada && etapaSub?.requisitoDesbloqueio && (
+                            <p className="text-[11px] text-ink-2 leading-snug">
+                              {etapaSub.requisitoDesbloqueio}
+                            </p>
                           )}
                         </div>
 
-                        <h3 className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2">
-                          {sub.titulo_curto || sub.titulo}
-                        </h3>
+                        {/* Botões de Ação */}
+                        <div className="grid grid-cols-2 gap-1.5 pt-2 border-t border-border/60">
+                          <button
+                            type="button"
+                            onClick={() => handleOpenTeoria(sub.numero)}
+                            disabled={isBloqueada && !modoLivre}
+                            className="px-2 py-1.5 rounded-lg border border-border text-[11px] font-medium text-ink hover:bg-surface-2 transition-colors flex items-center justify-center gap-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
+                          >
+                            <BookOpen className="w-3 h-3 text-ink-2" />
+                            <span>Teoria</span>
+                          </button>
 
-                        {/* Requisito de desbloqueio quando bloqueada */}
-                        {isBloqueada && etapaSub?.requisitoDesbloqueio && (
-                          <p className="text-[11px] text-ink-2 leading-snug">
-                            {etapaSub.requisitoDesbloqueio}
-                          </p>
-                        )}
+                          <button
+                            type="button"
+                            onClick={() => handleOpenPortao(sub.numero)}
+                            disabled={isBloqueada && !modoLivre}
+                            className={`px-2 py-1.5 rounded-lg text-[11px] font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${
+                              isConcluida
+                                ? 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
+                                : isRevisaoDirigida
+                                ? 'bg-amber-500 hover:bg-amber-600 text-white'
+                                : 'bg-accent hover:bg-accent/90 text-accent-text'
+                            }`}
+                          >
+                            <ShieldCheck className="w-3 h-3" />
+                            <span>{isConcluida ? 'Refazer' : 'Verificar'}</span>
+                          </button>
+                        </div>
                       </div>
+                    );
+                  })}
+                </div>
 
-                      {/* Botões de Ação */}
-                      <div className="grid grid-cols-2 gap-1.5 pt-2 border-t border-border/60">
-                        <button
-                          type="button"
-                          onClick={() => handleOpenTeoria(sub.numero)}
-                          disabled={isBloqueada && !modoLivre}
-                          className="px-2 py-1.5 rounded-lg border border-border text-[11px] font-medium text-ink hover:bg-surface-2 transition-colors flex items-center justify-center gap-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
-                        >
-                          <BookOpen className="w-3 h-3 text-ink-2" />
-                          <span>Teoria</span>
-                        </button>
-
-                        <button
-                          type="button"
-                          onClick={() => handleOpenPortao(sub.numero)}
-                          disabled={isBloqueada && !modoLivre}
-                          className={`px-2 py-1.5 rounded-lg text-[11px] font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${
-                            isConcluida
-                              ? 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
-                              : isRevisaoDirigida
-                              ? 'bg-amber-500 hover:bg-amber-600 text-white'
-                              : 'bg-accent hover:bg-accent/90 text-accent-text'
-                          }`}
-                        >
-                          <ShieldCheck className="w-3 h-3" />
-                          <span>{isConcluida ? 'Refazer' : 'Verificar'}</span>
-                        </button>
+                {/* DESAFIO DO MÓDULO (Simulado de 100 itens) */}
+                {etapaDesafio && (
+                  <div
+                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
+                      etapaDesafio.status === 'concluida'
+                        ? 'bg-surface-2/40 border-emerald-500/30'
+                        : etapaDesafio.status === 'bloqueada'
+                        ? 'bg-surface-2/20 border-border/60 opacity-70'
+                        : 'bg-accent/5 border-accent/25 shadow-2xs'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <IllustrationConclusao width={46} height={46} color={theme.primaryColor} className="shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
+                            {etapaDesafio.titulo}
+                          </h3>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-border text-ink-2">
+                            100 Itens · Mín. 85 Acertos
+                          </span>
+                        </div>
+                        <p className="text-xs text-ink-2">
+                          {etapaDesafio.status === 'bloqueada'
+                            ? etapaDesafio.requisitoDesbloqueio
+                            : 'Simulado completo com 25 assertivas por submódulo e feedback guiado imediato.'}
+                        </p>
                       </div>
                     </div>
-                  );
-                })}
+
+                    <Button
+                      variant={etapaDesafio.status === 'concluida' ? 'outline' : 'primary'}
+                      size="sm"
+                      disabled={etapaDesafio.status === 'bloqueada' && !modoLivre}
+                      onClick={() => handleOpenPortao(desafioId)}
+                      className="self-start sm:self-auto flex items-center gap-1.5"
+                    >
+                      <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio' : 'Iniciar Desafio'}</span>
+                      <ChevronRight className="w-4 h-4" />
+                    </Button>
+                  </div>
+                )}
+
+                {/* PORTAL DE REVISÃO P(k) (SOMENTE PARA k >= 2 — Regra D.1) */}
+                {etapaPortal && (
+                  <div
+                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
+                      etapaPortal.status === 'concluida'
+                        ? 'bg-purple-500/5 border-purple-500/30'
+                        : etapaPortal.status === 'bloqueada'
+                        ? 'bg-surface-2/20 border-border/60 opacity-70'
+                        : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
+                            {etapaPortal.titulo}
+                          </h3>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
+                            Portal P({k}) · 20 Itens (10C / 10E)
+                          </span>
+                        </div>
+                        <p className="text-xs text-ink-2">
+                          {etapaPortal.status === 'bloqueada'
+                            ? etapaPortal.requisitoDesbloqueio
+                            : `Revisão cumulativa: 70% de M${k - 1} e 30% de módulos anteriores. Mínimo 17 acertos para liberar o próximo módulo.`}
+                        </p>
+                      </div>
+                    </div>
+
+                    <Button
+                      variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
+                      size="sm"
+                      disabled={etapaPortal.status === 'bloqueada' && !modoLivre}
+                      onClick={() => handleOpenPortao(portalId)}
+                      className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
+                    >
+                      <span>{etapaPortal.status === 'concluida' ? 'Portal Vencido' : 'Entrar no Portal'}</span>
+                      <DoorOpen className="w-4 h-4" />
+                    </Button>
+                  </div>
+                )}
               </div>
+            );
+          })}
 
-              {/* DESAFIO DO MÓDULO (Simulado de 100 itens) */}
-              {etapaDesafio && (
-                <div
-                  className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
-                    etapaDesafio.status === 'concluida'
-                      ? 'bg-surface-2/40 border-emerald-500/30'
-                      : etapaDesafio.status === 'bloqueada'
-                      ? 'bg-surface-2/20 border-border/60 opacity-70'
-                      : 'bg-accent/5 border-accent/25 shadow-2xs'
-                  }`}
-                >
-                  <div className="flex items-center gap-3.5">
-                    <IllustrationConclusao width={46} height={46} color={theme.primaryColor} className="shrink-0" />
-                    <div>
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
-                          {etapaDesafio.titulo}
-                        </h3>
-                        <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-border text-ink-2">
-                          100 Itens · Mín. 85 Acertos
-                        </span>
-                      </div>
-                      <p className="text-xs text-ink-2">
-                        {etapaDesafio.status === 'bloqueada'
-                          ? etapaDesafio.requisitoDesbloqueio
-                          : 'Simulado completo com 25 assertivas por submódulo e feedback guiado imediato.'}
-                      </p>
-                    </div>
-                  </div>
-
-                  <Button
-                    variant={etapaDesafio.status === 'concluida' ? 'outline' : 'primary'}
-                    size="sm"
-                    disabled={etapaDesafio.status === 'bloqueada' && !modoLivre}
-                    onClick={() => handleOpenPortao(desafioId)}
-                    className="self-start sm:self-auto flex items-center gap-1.5"
-                  >
-                    <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio' : 'Iniciar Desafio'}</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </Button>
-                </div>
-              )}
-
-              {/* PORTAL DE REVISÃO P(k) (SOMENTE PARA k >= 2 — Regra D.1) */}
-              {etapaPortal && (
-                <div
-                  className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
-                    etapaPortal.status === 'concluida'
-                      ? 'bg-purple-500/5 border-purple-500/30'
-                      : etapaPortal.status === 'bloqueada'
-                      ? 'bg-surface-2/20 border-border/60 opacity-70'
-                      : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
-                  }`}
-                >
-                  <div className="flex items-center gap-3.5">
-                    <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
-                    <div>
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
-                          {etapaPortal.titulo}
-                        </h3>
-                        <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
-                          Portal P({k}) · 20 Itens (10C / 10E)
-                        </span>
-                      </div>
-                      <p className="text-xs text-ink-2">
-                        {etapaPortal.status === 'bloqueada'
-                          ? etapaPortal.requisitoDesbloqueio
-                          : `Revisão cumulativa: 70% de M${k - 1} e 30% de módulos anteriores. Mínimo 17 acertos para liberar o próximo módulo.`}
-                      </p>
-                    </div>
-                  </div>
-
-                  <Button
-                    variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
-                    size="sm"
-                    disabled={etapaPortal.status === 'bloqueada' && !modoLivre}
-                    onClick={() => handleOpenPortao(portalId)}
-                    className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
-                  >
-                    <span>{etapaPortal.status === 'concluida' ? 'Portal Vencido' : 'Entrar no Portal'}</span>
-                    <DoorOpen className="w-4 h-4" />
-                  </Button>
-                </div>
-              )}
-            </div>
-          );
-        })}
-
-        {/* ESTRUTURA PARALELA: CONHECIMENTOS GERAIS (Regra F.4) */}
-        <div className="bg-surface-2/30 border border-dashed border-border rounded-2xl p-6 text-center space-y-3">
-          <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-surface border border-border text-ink-2">
-            Macro-Bloco G · Conhecimentos Gerais
-          </span>
-          <h3 className="text-base font-serif font-bold text-ink">
-            Língua Portuguesa, Raciocínio Lógico e Inglês
-          </h3>
-          <p className="text-xs text-ink-2 max-w-md mx-auto">
-            Trilha paralela aguardando a publicação do edital da Câmara dos Deputados para parametrização oficial. Não bloqueia a progressão de M1 a M10.
-          </p>
+          {/* CARD CONVIDATIVO PARA A TRILHA COMPLEMENTAR */}
+          <div className="bg-surface-2/30 border border-dashed border-border rounded-2xl p-6 text-center space-y-3">
+            <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold bg-surface border border-border text-ink-2">
+              Trilha Complementar Disponível
+            </span>
+            <h3 className="text-base font-serif font-bold text-ink">
+              Módulos Complementares: Raciocínio Lógico e Inglês
+            </h3>
+            <p className="text-xs text-ink-2 max-w-md mx-auto">
+              Estude RLM e Inglês em paralelo, com questões geradas por IA sob fontes primárias canônicas, sem comprometer a sua trilha sequencial de 59 etapas.
+            </p>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setAbaTrilha('complementar')}
+              className="text-xs font-serif font-bold"
+            >
+              Acessar Trilha Complementar
+            </Button>
+          </div>
         </div>
-      </div>
+      )}
+
+      {/* RENDERIZAÇÃO DA TRILHA COMPLEMENTAR (GERAIS M11 E M12) */}
+      {abaTrilha === 'complementar' && (
+        <div className="space-y-8 relative animate-fadeIn">
+          {/* Banner de Esclarecimento de IA e Fontes Primárias */}
+          <div className="bg-surface border border-purple-500/30 rounded-2xl p-5 sm:p-6 shadow-editorial-sm space-y-3">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300">
+                Trilha Complementar · Conhecimentos Gerais
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300">
+                Fontes Primárias Verificadas
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-accent/10 border border-accent/20 text-accent">
+                Navegação Independente
+              </span>
+            </div>
+            <h2 className="text-lg font-serif font-bold text-ink">
+              Raciocínio Lógico-Matemático (M11) e Língua Inglesa (M12)
+            </h2>
+            <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
+              Estes módulos oferecem preparação de base enquanto aguardamos a publicação do edital da Câmara dos Deputados. As questões foram elaboradas com assistência de inteligência artificial sob o bloqueio estrito contra alucinações (
+              <code className="text-[11px] bg-surface-2 px-1 rounded font-mono">antiHallucinationGuard</code>
+              ), ancoradas em fontes primárias canônicas (Boole, Frege, Aristóteles, gramática normativa de Murphy e provas Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
+            </p>
+          </div>
+
+          {/* Módulos Complementares M11 e M12 */}
+          <div className="space-y-8">
+            {modulosGerais.map((macro) => {
+              const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
+              const theme = getModuleTheme(macro.id);
+              const submodulos = macro.modulosFilhos || [];
+
+              return (
+                <div
+                  key={macro.id}
+                  className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
+                >
+                  <div
+                    className="absolute top-0 left-0 bottom-0 w-1.5"
+                    style={{ backgroundColor: theme.primaryColor }}
+                  />
+
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border/80 pb-4">
+                    <div className="flex items-center gap-3.5">
+                      <ModuleEmblem moduleNumber={k} size={48} color={theme.primaryColor} className="shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h2 className="text-lg font-serif font-bold text-ink">
+                            Módulo {k}: {macro.titulo}
+                          </h2>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface-2 border border-border text-ink-2">
+                            Gerais
+                          </span>
+                        </div>
+                        <p className="text-xs text-ink-2">{macro.descricao}</p>
+                      </div>
+                    </div>
+
+                    <span
+                      className="px-3 py-1 rounded-full text-xs font-mono font-semibold self-start sm:self-auto border"
+                      style={{
+                        backgroundColor: `${theme.primaryColor}10`,
+                        borderColor: `${theme.primaryColor}25`,
+                        color: theme.primaryColor,
+                      }}
+                    >
+                      {submodulos.length} Submódulos Teóricos
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    {submodulos.map((sub) => (
+                      <div
+                        key={sub.id}
+                        className="rounded-xl border border-border p-4 bg-surface hover:bg-surface-2/40 flex flex-col justify-between gap-3 shadow-2xs transition-all"
+                      >
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-xs font-bold font-mono text-ink">
+                              {sub.numero}
+                            </span>
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-500/10 border border-blue-500/25 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
+                              <BookOpen className="w-3 h-3" />
+                              <span>Livre</span>
+                            </span>
+                          </div>
+
+                          <h3 className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2">
+                            {sub.titulo_curto || sub.titulo}
+                          </h3>
+                        </div>
+
+                        <div className="pt-2 border-t border-border/60">
+                          <button
+                            type="button"
+                            onClick={() => handleOpenTeoria(sub.numero)}
+                            className="w-full px-3 py-2 rounded-lg bg-surface-2 hover:bg-surface-2/80 border border-border text-xs font-medium text-ink flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+                          >
+                            <BookOpen className="w-3.5 h-3.5 text-accent" />
+                            <span>Acessar Teoria e Exercícios</span>
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
 
       {/* MODAL COMO FUNCIONA A JORNADA */}
       <ComoFuncionaJornadaModal

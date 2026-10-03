@@ -238,7 +238,7 @@ export const TeoriaPage: React.FC = () => {
               style={{ backgroundColor: moduleTheme.solidVar }}
             />
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-sans font-bold text-ink tracking-tight mb-3">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-tight mb-3">
               {currentSub.titulo}
             </h1>
 
@@ -271,9 +271,16 @@ export const TeoriaPage: React.FC = () => {
                 </div>
               )}
 
-              <span className="text-xs font-mono text-ink-2">
-                Leitura: {scrollProgress}%
-              </span>
+              {(() => {
+                const totalSec = learningState.secoesTotalCount || 1;
+                const lidasSec = learningState.secoesLidasCount || 0;
+                const percentualSeções = Math.round((lidasSec / totalSec) * 100);
+                return (
+                  <span className="text-xs font-sans tabular-nums text-ink-2">
+                    Leitura: {percentualSeções}%
+                  </span>
+                );
+              })()}
             </div>
           </header>
 
@@ -483,7 +490,17 @@ export const TeoriaPage: React.FC = () => {
                 <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
                   <span>
-                    Faltam {learningState.secoesTotalCount - learningState.secoesLidasCount} seções e &ge; 85% nos checkpoints
+                    {(() => {
+                      const secoesFaltantes = learningState.secoesTotalCount - learningState.secoesLidasCount;
+                      const cpTotal = currentSub.checkpoints?.length || 3;
+                      const cpNecessarios = Math.ceil(0.85 * cpTotal);
+                      const destino = nextSub ? nextSub.numero : 'a próxima etapa';
+
+                      if (secoesFaltantes > 0) {
+                        return `Para abrir ${destino}: conclua a leitura de ${secoesFaltantes} seção(ões) e acerte pelo menos 85% da verificação (${cpNecessarios} de ${cpTotal})`;
+                      }
+                      return `Para abrir ${destino}: acerte pelo menos 85% da verificação (${cpNecessarios} de ${cpTotal})`;
+                    })()}
                   </span>
                 </div>
               )}

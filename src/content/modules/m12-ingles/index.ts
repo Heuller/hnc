@@ -12,6 +12,8 @@ export const moduloM12Ingles: MacroModulo = {
   subtitulo: 'Compreensão de Textos Legislativos, Marcadores Discursivos, Coesão e Paráfrase para o Cebraspe',
   descricao: 'Módulo fundamentado no Modelo Interativo-Compensatório de Keith Stanovich e na Teoria da Coesão Textual de Halliday & Hasan, estruturado para o domínio da Língua Inglesa no padrão Cebraspe / Câmara dos Deputados: técnicas cognitivas de Skimming e Scanning com apreensão da ideia central e do propósito comunicativo; domínio das famílias de Linking Words e marcadores discursivos de transição argumentativa; cadeias de referenciação anafórica, pronomes relativos encapsuladores e a distinção entre "the former" e "the latter"; e decodificação morfológica, desativação de falsos cognatos, identificação de modais epistêmicos e validação do checklist de paráfrases e reescrita de sentenças.',
   status: 'disponivel',
+  trilha: 'complementar',
+  avisoVerificacao: 'Trilha Complementar (Gerais provisórios até publicação do edital) · Conteúdo elaborado com assistência de IA e fontes primárias canônicas',
   simuladoDisponivel: true,
   modulosFilhos: [
     submodulo121,

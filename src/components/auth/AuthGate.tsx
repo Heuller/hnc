@@ -128,12 +128,11 @@ export const AuthGate: React.FC = () => {
             </div>
 
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-ink tracking-tight leading-tight">
-              Excelência, Rigor e Domínio em Biblioteconomia
+              Plataforma de Preparação e Domínio Teórico
             </h1>
 
             <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-lg">
-              Estudo vertical estruturado por domínio, com critérios canônicos, 
-              portais de revisão cumulativa e penalização estrita da banca Cebraspe.
+              Estudo estruturado por domínio de conhecimento, portais de retenção cumulativa e fator de correção Cebraspe (uma errada anula uma certa).
             </p>
 
             {/* Ilustração Ex-Libris */}
@@ -141,8 +140,8 @@ export const AuthGate: React.FC = () => {
               <IllustrationLogin className="w-full h-auto drop-shadow-sm" />
             </div>
 
-            <p className="text-[11px] font-mono text-ink-2/70 italic hidden sm:block">
-              "A mente que se apropria do método não teme a armadilha do examinador."
+            <p className="text-[11px] font-sans text-ink-2/70 hidden sm:block">
+              Lema: O domínio do método supera a armadilha do examinador.
             </p>
           </motion.div>
 
@@ -160,7 +159,7 @@ export const AuthGate: React.FC = () => {
                   <Lock className="w-5 h-5" />
                 </div>
                 <h2 className="text-xl font-bold font-serif text-ink tracking-tight">
-                  {tab === 'login' ? 'Acesso ao Gabinete de Estudos' : 'Recuperação de Acesso'}
+                  {tab === 'login' ? 'Acesso à Plataforma de Estudos' : 'Recuperação de Acesso'}
                 </h2>
                 <p className="text-xs text-ink-2 leading-relaxed max-w-xs mx-auto">
                   {tab === 'login'

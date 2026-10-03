@@ -65,8 +65,8 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
             {/* Vinheta Editorial da Jornada */}
             <div className="flex flex-col items-center justify-center py-2 text-accent border-b border-border/60 pb-4">
               <IllustrationPortal width={140} height={90} ariaLabel="Portal de Verificação da Jornada" />
-              <p className="text-[11px] font-serif italic text-ink-2 text-center mt-2 max-w-sm">
-                "O portal se abre apenas para aquele que consolidou o fundamento anterior."
+              <p className="text-[11px] font-sans text-ink-2 text-center mt-2 max-w-sm">
+                Diretriz pedagógica: A progressão para a próxima etapa ocorre após a consolidação do conteúdo anterior.
               </p>
             </div>
             {/* Regra 1 */}

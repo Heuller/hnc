@@ -12,7 +12,7 @@ import { moduloM10Legislativo } from './modules/m10-legislativo';
 import { moduloM11RaciocinioLogico } from './modules/m11-raciocinio-logico';
 import { moduloM12Ingles } from './modules/m12-ingles';
 
-export const COURSE_REGISTRY: MacroModulo[] = [
+export const TRILHA_ESPECIFICOS: MacroModulo[] = [
   moduloM1Fundamentos,
   moduloM2Catalogacao,
   moduloM3Classificacao,
@@ -23,8 +23,16 @@ export const COURSE_REGISTRY: MacroModulo[] = [
   moduloM8Normalizacao,
   moduloM9Comunicacao,
   moduloM10Legislativo,
+];
+
+export const TRILHA_COMPLEMENTAR: MacroModulo[] = [
   moduloM11RaciocinioLogico,
   moduloM12Ingles,
+];
+
+export const COURSE_REGISTRY: MacroModulo[] = [
+  ...TRILHA_ESPECIFICOS,
+  ...TRILHA_COMPLEMENTAR,
 ];
 
 export {

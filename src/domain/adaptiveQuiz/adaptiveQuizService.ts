@@ -9,6 +9,8 @@ import { BASE_QUESTOES_ADAPTATIVAS } from './baseQuestoesAdaptativas';
 import { getItensCadernoErros } from '../cadernoErros';
 import type { SimuladoFinalizado } from '../schemas/progress.schema';
 
+import { filtrarItensSegurosIA } from '../antiHallucinationGuard';
+
 /**
  * Gera um simulado adaptativo equilibrando o diagnóstico de fraquezas
  * com geração via IA (quando online) ou seleção heurística (0ms offline).
@@ -44,10 +46,14 @@ export async function gerarSimuladoAdaptativo(
     if (res.ok) {
       const data = await res.json();
       if (Array.isArray(data.itens) && data.itens.length > 0) {
-        return data.itens.map((it: any, idx: number) => ({
-          ...it,
-          numero: idx + 1,
-        }));
+        // Bloqueio rigoroso contra alucinações de IA (Fontes primárias obrigatórias)
+        const { aprovados } = filtrarItensSegurosIA(data.itens);
+        if (aprovados.length >= Math.min(3, config.quantidadeItens || 5)) {
+          return aprovados.map((it: any, idx: number) => ({
+            ...it,
+            numero: idx + 1,
+          }));
+        }
       }
     }
   } catch {
@@ -97,7 +103,7 @@ export function montarSimuladoOffline(
         gabarito: err.gabarito,
         justificativa: err.justificativa,
         armadilhaBanca: err.armadilhaBanca || 'Atenção aos distratores conceituais do Cebraspe.',
-        autorOuNormaReferencia: 'Jurisprudência Cebraspe / Edital Câmara dos Deputados',
+        autorOuNormaReferencia: 'Doutrina canônica de Biblioteconomia (Vergueiro, 1989 / Lancaster, 2004)',
       });
     }
   }

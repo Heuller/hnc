@@ -269,9 +269,9 @@ export function deriveJornadaState(params: {
           ? k === 1
             ? 'Primeira etapa do curso — acesso liberado.'
             : k === 2
-            ? `Conclua o Desafio do Módulo M1 com 85% ou mais para liberar ${subId}.`
-            : `Conclua o Portal de Revisão P(${k - 1}) com 85% ou mais para liberar ${subId}.`
-          : `Para abrir ${subId}: conclua a etapa ${submodulos[sIdx - 1].numero} com 85% ou mais de aproveitamento.`;
+            ? `Conclua o Desafio M1 com 85% ou mais para liberar ${subId}.`
+            : `Conclua o Portal P(${k - 1}) com 85% ou mais para liberar ${subId}.`
+          : `Para abrir ${subId}: acerte pelo menos 85% em ${submodulos[sIdx - 1].numero}.`;
 
       const etapaState: EtapaJornadaState = {
         id: subId,

@@ -506,13 +506,18 @@ html.dark {
   justify-content: center;
 }
 
-/* Barra de rolagem discreta */
+/* Barra de rolagem discreta e moderna (W3C standard + WebKit fallback) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--bg);
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
   background: var(--border);

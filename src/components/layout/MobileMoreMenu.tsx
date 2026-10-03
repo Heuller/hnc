@@ -1,14 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useDicionarioStore } from '../../store/useDicionarioStore';
+import { useProgressStore } from '../../store/useProgressStore';
 
 export const MobileMoreMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const { setActiveView } = useNavigationStore();
-  const { user, openAuthModal } = useAuthStore();
+  const { user, openAuthModal, signOut } = useAuthStore();
+  const { modoLivre, setModoLivre } = useProgressStore();
 
   const [currentTheme, setCurrentTheme] = useState<'light' | 'dark' | 'auto'>(() => {
     if (typeof window !== 'undefined') {
@@ -203,6 +205,44 @@ export const MobileMoreMenu: React.FC = () => {
             </div>
             {user && <span className="w-2 h-2 rounded-full bg-emerald-500" />}
           </button>
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setModoLivre(!modoLivre);
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <Unlock className={`w-4 h-4 ${modoLivre ? 'text-amber-500' : 'text-ink-2'}`} />
+              <span>Modo Livre</span>
+            </div>
+            <span
+              className={`text-[10px] font-mono font-bold px-1.5 py-0.5 rounded ${
+                modoLivre
+                  ? 'bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30'
+                  : 'bg-surface-2 text-ink-2 border border-border'
+              }`}
+            >
+              {modoLivre ? 'ATIVO' : 'DESL.'}
+            </span>
+          </button>
+
+          {user && (
+            <button
+              type="button"
+              role="menuitem"
+              onClick={async () => {
+                setIsOpen(false);
+                await signOut();
+              }}
+              className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 transition-colors min-h-[40px] cursor-pointer font-medium border-t border-border/50"
+            >
+              <LogOut className="w-4 h-4" />
+              <span>Sair da Conta (Logout)</span>
+            </button>
+          )}
 
           {import.meta.env.DEV && (
             <>
