@@ -415,6 +415,87 @@ Com a incorporação do backend serverless (Vercel Functions + Gemini API) e arq
 * **Segurança de Credenciais:** As chaves de API residem exclusivamente em variáveis de ambiente de backend na nuvem da Vercel (`GEMINI_API_KEY` / `GOOGLE_API_KEY`), nunca sendo expostas no bundle do cliente.
 
 ---
-*Documento atualizado em 02 de Outubro de 2026.*  
+
+## 17. RODADA 3B — CORREÇÕES SISTÊMICAS, MODERNIZAÇÃO DE UX/UI, GUARDA ANTI-ALUCINAÇÃO E MÓDULO DE LÍNGUA PORTUGUESA (M13)
+
+A Rodada 3B consolida a maturação institucional e pedagógica da plataforma **Heuller na Câmara**, estruturada em quatro grandes eixos de entrega:
+
+### 17.1. Parte C — Correções Sistêmicas e Integridade da Plataforma (C1 a C13)
+* **C1 & C2 (Bento Grid e Card Herói no Painel):** Reorganização da interface principal em Bento Grid com hierarquia visual editorial. Destaque para o card herói da *Jornada de Domínio*, exibindo o progresso real calculado, próxima etapa recomendada e atalho direto para retomada dos estudos.
+* **C3 (Arquitetura de Trilhas Independentes):** Separação estrita entre a **Trilha Principal de Conhecimentos Específicos (59 Etapas: M1 a M10)** e a **Trilha Complementar de Conhecimentos Gerais (M11, M12 e M13)**. A Trilha Principal preserva a contagem de 59 etapas canônicas (40 submódulos teóricos + 10 Desafios de 100Q + 9 Portais de Revisão Cumulativa com exigência de 85% de aproveitamento), enquanto a Trilha Complementar opera em navegação autônoma e independente.
+* **C4, C5 & C6 (Sincronização Resiliente e Roteamento):** Persistência no Supabase com sincronização automática e operação *offline-first* incondicional. Normalização completa do roteador SPA para hashes com ou sem barra (`#painel`, `#/painel`, `#teoria`, `#/teoria`).
+* **C7 (Fórmulas Matemáticas Transparentes):** Painel explicativo colapsável na Jornada detalhando as fórmulas de cálculo:
+  - *Taxa de Domínio:* $(\text{Etapas Concluídas} / 59) \times 100\%$.
+  - *Prontidão Global:* Média aritmética simples do melhor aproveitamento obtido nas 59 etapas ($\sum \text{aproveitamento} / 59$).
+  - *Fator Cebraspe:* $\text{Nota Líquida} = \text{Certos} - \text{Errados}$.
+* **C8, C9 & C10 (Produtividade e Acessibilidade):**
+  - Botão de logout funcional com limpeza segura de sessão e restauração para o modo local.
+  - Exportação do Caderno de Erros para arquivo Markdown estruturado para impressão ou leitura externa.
+  - Atalhos universais de teclado no simulado e na leitura: `C` (Certo), `E` (Errado), `B` ou `Espaço` (Em Branco), `F` (Modo Foco), `Esc` (Sair do Foco / Fechar Modais), `←` e `→` (Navegação).
+* **C11, C12 & C13 (Conformidade Ergonômica):** Eliminação de cronômetros intrusivos de pânico, prevenção contra sobrecarga de requisições de rede com debounce e preservação estrita do Conteúdo Sagrado dos Módulos M1 a M10 de Biblioteconomia.
+
+### 17.2. Parte U — Modernização UX/UI e Design System Editorial
+* **Tokens de Cores em Três Camadas (`src/index.css`):**
+  1. *Camada 1 (Primitivos OKLCH):* Cores universais com luminosidade e croma perceptualmente uniformes para modo claro e escuro.
+  2. *Camada 2 (Tokens Semânticos):* `--bg-canvas`, `--surface`, `--surface-2`, `--ink`, `--ink-2`, `--accent`, `--border`, garantindo contraste AA/AAA pelo padrão WCAG.
+  3. *Camada 3 (Tokens Modulares):* Variáveis personalizadas para cada macro-módulo (`--m1` a `--m13` com tokens `--m*-solid`, `--m*-soft`, `--m*-text` e `--m*-border`).
+* **Modo Foco Imersivo (Regra U.2):**
+  - Acionamento rápido via tecla `F` ou botão no cabeçalho durante a leitura teórica.
+  - Ocultação inteligente da barra de navegação global, barra inferior mobile e rodapé institucional.
+  - Barra de foco flutuante no topo do viewport com identificação do módulo, progresso de leitura em tempo real e atalho `Esc` para saída imediata.
+* **Transições Visuais Acessíveis:** Suporte à *View Transitions API* com fallback gracioso e respeito obrigatório à diretiva `@media (prefers-reduced-motion: reduce)`.
+
+### 17.3. Bloqueio Sistêmico Contra Alucinações de IA (`antiHallucinationGuard.ts`)
+Para garantir a autoridade pedagógica das questões geradas com auxílio de inteligência artificial nos módulos complementares e no gerador adaptativo, foi desenvolvido um guarda automatizado baseado em Zod e regex analítico:
+* **Rejeição de Fontes Fictícias:** Bloqueio imediato de termos vagos ou genéricos (*"jurisprudência cebraspe"*, *"doutrina geral"*, *"banca examinadora"*, *"questão adaptada de concurso público"*).
+* **Whitelist Estrita de Fontes Primárias Canônicas:**
+  - *Língua Portuguesa:* Evanildo Bechara, Celso Cunha & Lindley Cintra, Celso Pedro Luft, Domingos Paschoal Cegalla, Rocha Lima, Carlos Alberto Faraco, Azeredo, Othon Moacyr Garcia, Ingedore Koch, Luiz Antônio Marcuschi, VOLP/ABL e Manual de Redação da Presidência da República (3ª ed., 2018).
+  - *Biblioteconomia e CI:* S. R. Ranganathan, Waldomiro Vergueiro, F. W. Lancaster, Suzanne Briet, Paul Otlet, Harold Borko, Jesse Shera, Yves-François Le Coadic, Gerard Salton, Denis Grogan, Nice Figueiredo, Norma Cassares, etc.
+  - *Arquivologia:* T. R. Schellenberg, Heloísa Bellotto, Rousseau & Couture, Marilena Leite Paes, CONARQ.
+  - *Raciocínio Lógico-Matemático (RLM):* George Boole, Augustus De Morgan, Gottlob Frege, Aristóteles, Irving Copi, Alfred Tarski, Bertrand Russell, Peter Wason, Jonathan Evans e Philip Johnson-Laird.
+  - *Língua Inglesa:* Raymond Murphy, Michael Swan, Randolph Quirk, Douglas Biber, dicionários e gramáticas da Cambridge e Oxford University Press.
+  - *Legislação e Normas:* Constituição Federal de 1988 com citação de artigo, Lei 12.527/2011 (LAI), Lei 9.610/1998, Regimento Interno da Câmara dos Deputados, Normas ABNT NBR vigentes, normas ISO, normas de catalogação (IFLA LRM, RDA, AACR2, MARC 21) e modelos digitais (OAIS / ISO 14721, OAI-PMH, DSpace).
+* **Formatação Autêntica Cebraspe:** Assertivas declarativas para julgamento afirmativo (proibidas perguntas interrogativas diretas terminadas em `?` e proibidas opções de múltipla escolha A/B/C/D/E). Mapeamento de armadilhas clássicas (generalização indevida, restrição indevida e inversão conceitual).
+
+### 17.4. Parte P — Módulo 13: Língua Portuguesa Completo
+Construído a partir de pesquisa científica prévia (Fase P0) fundamentada nos manuais normativos consagrados e no perfil de cobrança do Cebraspe para o Poder Legislativo Federal:
+* **Identidade Visual:** M13 Bordeaux/Rubi Legislativo (`hue: 20`, `--m13-solid: oklch(0.52 0.16 20)`).
+* **Submódulo 13.1 — Mecânica da Interpretação, Coesão e Relações Semânticas:**
+  - Compreensão (sentido explícito literal) versus Interpretação (inferência textual autorizada).
+  - Relações anafóricas, catafóricas e elipse. Emprego do pronome "cujo" sem artigo subsequente.
+  - Matriz comparativa de operadores argumentativos (Koch & Marcuschi): adversativos (*mas, porém, contudo*) versus concessivos (*embora, conquanto, a despeito de*).
+  - 4 Alertas Cebraspe, 3 checkpoints interativos validados e mnemônicos estruturados.
+* **Submódulo 13.2 — A Arte da Reescritura e Paráfrase no Padrão Cebraspe:**
+  - Metodologia dos Três Filtros de Othon Moacyr Garcia: Filtro Gramatical, Filtro Semântico e Filtro Epistêmico.
+  - Transposição de vozes verbais com preservação milimétrica de tempo e modo verbal (Bechara, p. 238).
+  - Orações reduzidas de infinitivo, gerúndio e particípio e sua expansão correspondente.
+  - Modalizadores epistêmicos de probabilidade (*pode, é possível que*) versus assertividade indicativa (*ocorrerá, fará*).
+  - 4 Alertas Cebraspe, 3 checkpoints interativos validados e mnemônicos estruturados.
+* **Submódulo 13.3 — Sintaxe Avançada: Concordância, Regência e o Sistema da Crase:**
+  - Bipartição da partícula "SE": Partícula Apassivadora (com VTD e sujeito paciente no plural) versus Índice de Indeterminação do Sujeito (com VTI/VI e verbo obrigatoriamente no singular).
+  - Concordância com expressões partitivas (*a maioria de, grande parte de*) e porcentagens.
+  - Regência dos verbos críticos da banca segundo Celso Pedro Luft (*implicar*, *visar*, *obedecer*, *aspirar*, *assistir*).
+  - Algoritmo de resolução da crase e mnemônico HAP (Horas exatas, À moda de, Proximidade adverbial feminina).
+  - 4 Alertas Cebraspe, 3 checkpoints interativos validados e mnemônicos estruturados.
+* **Submódulo 13.4 — Pontuação Crítica e Redação Oficial Legislativa:**
+  - A vírgula semântica: orações adjetivas explicativas (com vírgula) versus restritivas (sem vírgula).
+  - Adjuntos adverbiais deslocados: pontuação facultativa (curta extensão) versus obrigatória (longa extensão).
+  - Padrão Ofício e redação institucional conforme o *Manual de Redação da Presidência da República* (3ª ed., 2018).
+  - Pronomes de tratamento de 3ª pessoa (*Vossa Excelência*) e fechos oficiais (*Respeitosamente* para autoridades superiores; *Atenciosamente* para mesma hierarquia ou inferior).
+  - 4 Alertas Cebraspe, 3 checkpoints interativos validados e mnemônicos estruturados.
+
+### 17.5. Base de Questões Adaptativas Expandida (`baseQuestoesAdaptativas.ts`)
+* Adição de 11 novas questões canônicas offline cobrindo Raciocínio Lógico-Matemático (Boole, De Morgan), Língua Inglesa (Swan, Halliday) e Língua Portuguesa (8 assertivas dedicadas cobrindo os 4 submódulos do M13, de `adp-m13-01` a `adp-m13-08`).
+* Todas as questões foram 100% testadas e aprovadas pelo validador `validarItemAntiAlucinacao`.
+
+### 17.6. Indicadores de Validação e Qualidade
+* **Testes Automatizados (Vitest):** 16 arquivos de teste, **119 testes executados com 100% de aprovação**.
+* **Linter Estrito (`oxlint`):** 0 avisos e 0 erros em 197 arquivos analisados.
+* **Compilação e Empacotamento (`npm run build`):** Sucesso absoluto em 2.53s com manifest PWA e service workers atualizados.
+* **Git e Repositório:** Branch `rodada-3b-ux-portugues` sincronizado com o GitHub remoto (`https://github.com/Heuller/hnc`).
+
+---
+*Documento atualizado em 03 de Outubro de 2026.*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
+
 
