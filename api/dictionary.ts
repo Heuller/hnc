@@ -29,6 +29,7 @@ export default async function handler(req: any, res: any) {
       armadilhaCebraspe: `A banca Cebraspe costuma explorar "${termoLimpo}" trocando suas características essenciais por exceções ou atribuindo a sua função a conceitos análogos.`,
       aplicacaoCamara: `Na Câmara dos Deputados, aplica-se no tratamento dos recursos da Biblioteca Pedro Aleixo e na assessoria técnica ao processo legislativo.`,
       fonteReferencia: 'Dicionário de Biblioteconomia e Arquivologia (Cunha & Lemos) / Padrão Cebraspe.',
+      modoDeterministico: true,
     });
   }
 

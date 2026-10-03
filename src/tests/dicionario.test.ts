@@ -21,7 +21,7 @@ describe('Dicionário Cebraspe & Glossário Vivo', () => {
 
   describe('Base Curada de Termos (Cunha & Lemos + Cebraspe)', () => {
     it('deve possuir termos essenciais da biblioteconomia devidamente categorizados', () => {
-      expect(BASE_TERMOS_DICIONARIO.length).toBeGreaterThan(15);
+      expect(BASE_TERMOS_DICIONARIO.length).toBeGreaterThan(50);
       
       const rda = BASE_TERMOS_DICIONARIO.find(t => t.id === 'rda');
       expect(rda).toBeDefined();
@@ -34,10 +34,10 @@ describe('Dicionário Cebraspe & Glossário Vivo', () => {
     it('cada termo da base curada deve ter conceito canônico, armadilha Cebraspe e aplicação na Câmara', () => {
       for (const t of BASE_TERMOS_DICIONARIO) {
         expect(t.termo.trim().length).toBeGreaterThan(0);
-        expect(t.conceitoCanonico.trim().length).toBeGreaterThan(15);
-        expect(t.armadilhaCebraspe.trim().length).toBeGreaterThan(10);
-        expect(t.aplicacaoCamara.trim().length).toBeGreaterThan(10);
-        expect(t.fonteReferencia.trim().length).toBeGreaterThan(5);
+        expect((t.conceitoCanonico || '').trim().length).toBeGreaterThan(15);
+        expect((t.armadilhaCebraspe || '').trim().length).toBeGreaterThan(10);
+        expect((t.aplicacaoCamara || '').trim().length).toBeGreaterThan(10);
+        expect((t.fonteReferencia || '').trim().length).toBeGreaterThan(5);
       }
     });
   });
@@ -88,13 +88,57 @@ describe('Dicionário Cebraspe & Glossário Vivo', () => {
       expect(sugestoes.length).toBeLessThanOrEqual(5);
     });
 
-    it('deve sintetizar fallback técnico consistente quando o termo não existe na base', async () => {
-      const resultado = await dicionarioService.buscarOuGerarDefinicao('Indexação de Coordenada');
+    it('deve localizar com precisao termos canonicos recem-expandidos como CDD, CDU, MARC 21 e AACR2r', () => {
+      const resCDD = dicionarioService.buscarTermoLocal('CDD');
+      expect(resCDD?.id).toBe('cdd-dewey');
+
+      const resCDU = dicionarioService.buscarTermoLocal('CDU');
+      expect(resCDU?.id).toBe('cdu-universal');
+
+      const resMARC = dicionarioService.buscarTermoLocal('MARC 21');
+      expect(resMARC?.id).toBe('marc21');
+
+      const resAACR = dicionarioService.buscarTermoLocal('AACR2');
+      expect(resAACR?.id).toBe('aacr2r');
+
+      const resVergueiro = dicionarioService.buscarTermoLocal('Vergueiro');
+      expect(resVergueiro?.id).toBe('waldomiro-vergueiro-colecoes');
+    });
+
+    it('deve localizar o novo termo canônico Indexação Coordenada com precisão', () => {
+      const res = dicionarioService.buscarTermoLocal('Indexação de Coordenada');
+      expect(res).not.toBeNull();
+      expect(res?.id).toBe('indexacao-coordenada');
+      expect(res?.geradoPorIA).toBeFalsy();
+    });
+
+    it('deve retornar estado sóbrio e determinístico sem IA quando o termo não existe na base (Regra D.3)', async () => {
+      const resultado = await dicionarioService.buscarOuGerarDefinicao('TermoInexistenteXYZ123');
       expect(resultado).toBeDefined();
-      expect(resultado.termo).toBe('Indexação de Coordenada');
-      expect(resultado.conceitoCanonico).toContain('Indexação de Coordenada');
-      expect(resultado.armadilhaCebraspe).toContain('Cebraspe');
-      expect(resultado.geradoPorIA).toBe(true);
+      expect(resultado.termo).toBe('TermoInexistenteXYZ123');
+      expect(resultado.ausente).toBe(true);
+      expect(resultado.geradoPorIA).toBe(false);
+      expect(resultado.conceitoCanonico).toContain('Este termo ainda não consta no Glossário canônico');
+      expect(resultado.fonte.referencia).toContain('Regra D.3');
+    });
+
+    it('deve suportar singularização automática em português (plurais -> singular)', () => {
+      const resPlural = dicionarioService.buscarTermoLocal('ontologias');
+      expect(resPlural).not.toBeNull();
+      expect(resPlural?.id).toBe('ontologias-web-semantica');
+
+      const resMetadados = dicionarioService.buscarTermoLocal('metadado');
+      expect(resMetadados).not.toBeNull();
+      expect(resMetadados?.id).toBe('metadados-tipos');
+    });
+
+    it('deve resolver siglas canônicas essenciais em 0ms (PREMIS, METS, RDC-Arq, PHA, Lotka, Zipf)', () => {
+      expect(dicionarioService.buscarTermoLocal('PREMIS')?.id).toBe('premis');
+      expect(dicionarioService.buscarTermoLocal('METS')?.id).toBe('mets');
+      expect(dicionarioService.buscarTermoLocal('RDC-Arq')?.id).toBe('rdc-arq');
+      expect(dicionarioService.buscarTermoLocal('PHA')?.id).toBe('tabela-pha');
+      expect(dicionarioService.buscarTermoLocal('Lotka')?.id).toBe('lei-de-lotka');
+      expect(dicionarioService.buscarTermoLocal('Zipf')?.id).toBe('lei-de-zipf');
     });
   });
 
@@ -135,10 +179,10 @@ describe('Dicionário Cebraspe & Glossário Vivo', () => {
       salvarTermoVocabulario({
         id: termo.id,
         termo: termo.termo,
-        area: termo.area,
+        area: termo.area || 'Geral',
         dataSalvamento: new Date().toISOString(),
-        definicaoCurta: termo.conceitoCanonico.slice(0, 100),
-        armadilhaResumo: termo.armadilhaCebraspe.slice(0, 100),
+        definicaoCurta: (termo.conceitoCanonico || '').slice(0, 100),
+        armadilhaResumo: (termo.armadilhaCebraspe || '').slice(0, 100),
       });
       expect(isTermoSalvo(termo.id)).toBe(true);
       expect(useProgressStore.getState().termosSalvos.length).toBe(1);

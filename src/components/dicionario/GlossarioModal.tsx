@@ -3,7 +3,7 @@ import {
   X,
   Search,
   BookOpen,
-  Sparkles,
+  ShieldCheck,
   AlertTriangle,
   Building2,
   Bookmark,
@@ -12,6 +12,9 @@ import {
   Layers,
   BookMarked,
   Trash2,
+  HelpCircle,
+  FileText,
+  Scale,
 } from 'lucide-react';
 import { useDicionarioStore } from '../../store/useDicionarioStore';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -69,7 +72,7 @@ export const GlossarioModal: React.FC = () => {
   };
 
   const handleToggleSalvar = () => {
-    if (!termoAtivo) return;
+    if (!termoAtivo || termoAtivo.ausente) return;
     const jaSalvo = isTermoSalvo(termoAtivo.id);
     if (jaSalvo) {
       removerTermoVocabulario(termoAtivo.id);
@@ -77,10 +80,10 @@ export const GlossarioModal: React.FC = () => {
       salvarTermoVocabulario({
         id: termoAtivo.id,
         termo: termoAtivo.termo,
-        area: termoAtivo.area,
+        area: termoAtivo.area || 'Geral',
         dataSalvamento: new Date().toISOString(),
-        definicaoCurta: termoAtivo.conceitoCanonico.slice(0, 160) + '...',
-        armadilhaResumo: termoAtivo.armadilhaCebraspe.slice(0, 140) + '...',
+        definicaoCurta: (termoAtivo.conceitoCanonico || termoAtivo.definicao_curta || '').slice(0, 160) + '...',
+        armadilhaResumo: (termoAtivo.armadilhaCebraspe || '').slice(0, 140) + '...',
       });
     }
   };
@@ -104,18 +107,18 @@ export const GlossarioModal: React.FC = () => {
         <div className="p-4 border-b border-border bg-surface-2/60">
           <div className="flex items-center justify-between gap-3 mb-3">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-primary/10 dark:bg-amber-500/10 text-primary dark:text-amber-400 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-primary/10 dark:bg-amber-400/10 text-primary dark:text-amber-400 flex items-center justify-center">
                 <BookOpen className="w-4 h-4" />
               </div>
               <div>
                 <h3 className="text-sm font-bold text-ink flex items-center gap-1.5">
-                  <span>Dicionário Cebraspe & Biblioteconomia</span>
-                  <span className="text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded bg-primary/10 dark:bg-amber-400/20 text-primary dark:text-amber-400">
-                    Cunha & Lemos
+                  <span>Glossário Canônico Cebraspe</span>
+                  <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300">
+                    Offline • Determinístico
                   </span>
                 </h3>
-                <p className="text-xs text-ink-2">
-                  Vocabulário técnico canônico e armadilhas da banca examinadora
+                <p className="text-[11px] text-ink-2">
+                  Vocabulário técnico auditado • Cunha & Lemos • Padrão Câmara dos Deputados
                 </p>
               </div>
             </div>
@@ -136,7 +139,7 @@ export const GlossarioModal: React.FC = () => {
               type="text"
               value={inputBusca}
               onChange={handleInputChange}
-              placeholder="Digite um termo (ex: desbastamento, RDA, URN LexML, OAIS)..."
+              placeholder="Digite um termo (ex: desbastamento, RDA, URN LexML, PREMIS, METS)..."
               className="w-full pl-9 pr-24 py-2 text-sm rounded-xl border border-border bg-surface text-ink focus:outline-none focus:ring-2 focus:ring-primary/20 dark:focus:ring-amber-400/30 transition-all"
             />
             <button
@@ -279,207 +282,270 @@ export const GlossarioModal: React.FC = () => {
 
           {abaAtiva === 'termo' && (
             <>
-          {isLoading && (
-            <div className="py-12 flex flex-col items-center justify-center text-center space-y-3">
-              <div className="w-10 h-10 border-3 border-primary/20 border-t-primary dark:border-amber-400/20 dark:border-t-amber-400 rounded-full animate-spin" />
-              <div className="space-y-1">
-                <p className="text-sm font-semibold text-ink">
-                  Consultando o Dicionário Canônico e Examinadores Cebraspe...
-                </p>
-                <p className="text-xs text-ink-2">
-                  Recuperando conceito técnico, cascas de banana e aplicação legislativa
-                </p>
-              </div>
-            </div>
-          )}
-
-          {erro && !isLoading && (
-            <div className="p-4 rounded-xl border border-red-300 dark:border-red-900 bg-red-50/80 dark:bg-red-950/20 text-red-800 dark:text-red-300 text-sm flex items-start gap-2.5">
-              <AlertTriangle className="w-4 h-4 mt-0.5 shrink-0" />
-              <div>
-                <p className="font-semibold">Erro na consulta</p>
-                <p className="text-xs mt-0.5">{erro}</p>
-              </div>
-            </div>
-          )}
-
-          {termoAtivo && !isLoading && (
-            <div className="space-y-5 animate-in fade-in duration-150">
-              {/* Cabeçalho do Termo */}
-              <div className="flex items-start justify-between gap-3 border-b border-border pb-4">
-                <div>
-                  <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full bg-primary/10 text-primary dark:bg-amber-400/10 dark:text-amber-400">
-                      <Layers className="w-3 h-3" />
-                      {termoAtivo.area}
-                    </span>
-                    {termoAtivo.moduloRelacionado && (
-                      <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-surface-2 text-ink-2 border border-border">
-                        {termoAtivo.moduloRelacionado}
-                      </span>
-                    )}
-                    {termoAtivo.geradoPorIA && (
-                      <span className="inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/30 text-indigo-700 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800">
-                        <Sparkles className="w-3 h-3" />
-                        Aprofundado por IA
-                      </span>
-                    )}
+              {isLoading && (
+                <div className="py-12 flex flex-col items-center justify-center text-center space-y-3">
+                  <div className="w-10 h-10 border-3 border-primary/20 border-t-primary dark:border-amber-400/20 dark:border-t-amber-400 rounded-full animate-spin" />
+                  <div className="space-y-1">
+                    <p className="text-sm font-semibold text-ink">
+                      Recuperando do Glossário Canônico...
+                    </p>
+                    <p className="text-xs text-ink-2">
+                      Localizando conceito técnico, cascas de banana e aplicação legislativa
+                    </p>
                   </div>
-                  <h2 className="text-xl sm:text-2xl font-black text-ink tracking-tight font-serif">
-                    {termoAtivo.termo}
-                  </h2>
                 </div>
+              )}
 
-                <button
-                  onClick={handleToggleSalvar}
-                  className={`p-2 rounded-xl border transition-all cursor-pointer flex items-center gap-1.5 text-xs font-semibold ${
-                    salvo
-                      ? 'bg-amber-50 dark:bg-amber-950/30 border-amber-300 dark:border-amber-700 text-amber-700 dark:text-amber-300'
-                      : 'bg-surface-2 hover:bg-surface border-border text-ink-2 hover:text-ink'
-                  }`}
-                  title={salvo ? 'Remover do meu baralho' : 'Salvar no meu baralho de vocabulário'}
-                >
-                  {salvo ? (
-                    <>
-                      <BookmarkCheck className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-                      <span className="hidden sm:inline">Salvo no Baralho</span>
-                    </>
+              {erro && !isLoading && (
+                <div className="p-4 rounded-xl border border-red-300 dark:border-red-900 bg-red-50/80 dark:bg-red-950/20 text-red-800 dark:text-red-300 text-sm flex items-start gap-2.5">
+                  <AlertTriangle className="w-4 h-4 mt-0.5 shrink-0" />
+                  <div>
+                    <p className="font-semibold">Erro na consulta</p>
+                    <p className="text-xs mt-0.5">{erro}</p>
+                  </div>
+                </div>
+              )}
+
+              {termoAtivo && !isLoading && (
+                <div className="space-y-5 animate-in fade-in duration-150">
+                  {/* CASO: TERMO NÃO CATALOGADO (AUSENTE) */}
+                  {termoAtivo.ausente ? (
+                    <div className="p-5 rounded-2xl border border-dashed border-amber-300 dark:border-amber-700/60 bg-amber-50/50 dark:bg-amber-950/20 space-y-4">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 flex items-center justify-center shrink-0">
+                          <HelpCircle className="w-5 h-5" />
+                        </div>
+                        <div>
+                          <span className="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-200/80 dark:bg-amber-900/80 text-amber-900 dark:text-amber-200 mb-1">
+                            Termo em Catalogação Canônica
+                          </span>
+                          <h3 className="text-lg font-bold text-ink">
+                            "{termoAtivo.termo}"
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div className="text-xs text-ink/80 leading-relaxed space-y-2">
+                        <p>
+                          Este conceito ainda não consta no inventário estático auditado da plataforma.
+                        </p>
+                        <p className="p-3 rounded-lg bg-surface border border-border text-ink-2">
+                          <strong>Diretriz Pedagógica Anti-Alucinação (Regra D.3):</strong> A plataforma HNC opera em regime 100% determinístico e auditado, sem geração de definições por inteligência artificial em tempo de execução, garantindo que nenhum conceito inventado ou impreciso chegue ao estudante.
+                        </p>
+                        <p>
+                          Consulte o texto do submódulo ativo para a fundamentação oficial adotada pelo Cebraspe.
+                        </p>
+                      </div>
+
+                      <div className="pt-2 border-t border-amber-200 dark:border-amber-800/40 flex items-center justify-between text-[11px] text-ink-2">
+                        <span>Status: Ausente da base local fechada</span>
+                        <span className="font-semibold text-amber-800 dark:text-amber-300">
+                          Zero IA em Runtime (Regra D.3)
+                        </span>
+                      </div>
+                    </div>
                   ) : (
+                    /* CASO: TERMO CANÔNICO PRESENTE */
                     <>
-                      <Bookmark className="w-4 h-4" />
-                      <span className="hidden sm:inline">Salvar Termo</span>
+                      {/* Cabeçalho do Termo */}
+                      <div className="flex items-start justify-between gap-3 border-b border-border pb-4">
+                        <div>
+                          <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
+                            <span className="inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full bg-primary/10 text-primary dark:bg-amber-400/10 dark:text-amber-400">
+                              <Layers className="w-3 h-3" />
+                              {termoAtivo.area}
+                            </span>
+                            {termoAtivo.moduloRelacionado && (
+                              <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-surface-2 text-ink-2 border border-border">
+                                {termoAtivo.moduloRelacionado}
+                              </span>
+                            )}
+                            {termoAtivo.tipo && (
+                              <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-surface-2 text-ink-2 border border-border capitalize">
+                                {termoAtivo.tipo}
+                              </span>
+                            )}
+                            {termoAtivo.sigla && (
+                              <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+                                {termoAtivo.sigla}
+                              </span>
+                            )}
+                            <span className="inline-flex items-center gap-1 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                              <ShieldCheck className="w-3 h-3" />
+                              Canônico Cebraspe
+                            </span>
+                          </div>
+                          <h2 className="text-xl sm:text-2xl font-black text-ink tracking-tight font-serif">
+                            {termoAtivo.termo}
+                          </h2>
+                        </div>
+
+                        <button
+                          onClick={handleToggleSalvar}
+                          className={`p-2 rounded-xl border transition-all cursor-pointer flex items-center gap-1.5 text-xs font-semibold ${
+                            salvo
+                              ? 'bg-amber-50 dark:bg-amber-950/30 border-amber-300 dark:border-amber-700 text-amber-700 dark:text-amber-300'
+                              : 'bg-surface-2 hover:bg-surface border-border text-ink-2 hover:text-ink'
+                          }`}
+                          title={salvo ? 'Remover do meu baralho' : 'Salvar no meu baralho de vocabulário'}
+                        >
+                          {salvo ? (
+                            <>
+                              <BookmarkCheck className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                              <span className="hidden sm:inline">Salvo no Baralho</span>
+                            </>
+                          ) : (
+                            <>
+                              <Bookmark className="w-4 h-4" />
+                              <span className="hidden sm:inline">Salvar Termo</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
+
+                      {/* Bloco 1: Definição Canônica */}
+                      <div className="space-y-1.5">
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-ink-2 flex items-center gap-1.5">
+                          <BookMarked className="w-3.5 h-3.5 text-primary dark:text-amber-400" />
+                          Conceito & Definição Canônica
+                        </h4>
+                        <div className="p-4 rounded-xl bg-surface-2/40 border border-border text-sm text-ink leading-relaxed font-serif">
+                          {termoAtivo.conceitoCanonico || termoAtivo.definicao_curta}
+                        </div>
+                      </div>
+
+                      {/* Bloco 2: Armadilha da Banca Cebraspe */}
+                      <div className="space-y-1.5">
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-rose-700 dark:text-rose-400 flex items-center gap-1.5">
+                          <AlertTriangle className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400" />
+                          Como o Cebraspe Tenta Te Enganar (Armadilha Mapeada)
+                        </h4>
+                        <div className="p-4 rounded-xl bg-rose-50/80 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 text-sm text-rose-900 dark:text-rose-200 leading-relaxed">
+                          {termoAtivo.armadilhaCebraspe}
+                        </div>
+                      </div>
+
+                      {/* Distinções Cruciais: Não Confundir Com */}
+                      {termoAtivo.nao_confundir_com && termoAtivo.nao_confundir_com.length > 0 && (
+                        <div className="p-3 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/60 dark:border-amber-900/40 text-xs text-amber-900 dark:text-amber-200 space-y-1">
+                          <span className="font-bold flex items-center gap-1">
+                            <Scale className="w-3.5 h-3.5 text-amber-700 dark:text-amber-400" />
+                            Atenção redobrada na prova (Distinções Fundamentais):
+                          </span>
+                          <ul className="list-disc list-inside space-y-0.5 pl-1">
+                            {termoAtivo.nao_confundir_com.map((dist, idx) => (
+                              <li key={idx}>{dist}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {/* Bloco 3: Aplicação na Câmara dos Deputados */}
+                      <div className="space-y-1.5">
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-primary dark:text-amber-400 flex items-center gap-1.5">
+                          <Building2 className="w-3.5 h-3.5" />
+                          Aplicação na Câmara dos Deputados & Rotina Legislativa
+                        </h4>
+                        <div className="p-4 rounded-xl bg-primary/5 dark:bg-amber-400/5 border border-primary/20 dark:border-amber-400/20 text-sm text-ink leading-relaxed">
+                          {termoAtivo.aplicacaoCamara}
+                        </div>
+                      </div>
+
+                      {/* Termos Correlatos / Ver Também */}
+                      {(() => {
+                        const correlatos = dicionarioService
+                          .buscarTermosSimilares(termoAtivo.termo, 5)
+                          .filter((t) => t.id !== termoAtivo.id);
+                        if (correlatos.length === 0) return null;
+                        return (
+                          <div className="pt-2">
+                            <span className="text-[11px] font-semibold text-ink-2 uppercase tracking-wider block mb-1.5">
+                              Ver Também (Conceitos Correlatos):
+                            </span>
+                            <div className="flex flex-wrap gap-1.5">
+                              {correlatos.map((cor) => (
+                                <button
+                                  key={cor.id}
+                                  onClick={() => {
+                                    setInputBusca(cor.termo);
+                                    abrirDicionarioComTermo(cor);
+                                  }}
+                                  className="px-2.5 py-1 text-xs rounded-lg bg-surface-2 hover:bg-surface border border-border text-ink hover:text-primary dark:hover:text-amber-400 hover:border-primary dark:hover:border-amber-400 transition-colors cursor-pointer"
+                                >
+                                  {cor.termo}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        );
+                      })()}
+
+                      {/* Rodapé do Card: Fonte Bibliográfica */}
+                      <div className="pt-2 text-xs text-ink-2 flex items-center justify-between border-t border-border flex-wrap gap-2">
+                        <span className="italic flex items-center gap-1">
+                          <FileText className="w-3 h-3" />
+                          Fonte: {termoAtivo.fonteReferencia || termoAtivo.fonte?.referencia}
+                        </span>
+                        <span className="text-[11px] font-medium text-ink-2/80">
+                          Base Canônica • Edital nº 1/2026
+                        </span>
+                      </div>
                     </>
                   )}
-                </button>
-              </div>
-
-              {/* Bloco 1: Definição Canônica */}
-              <div className="space-y-1.5">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-ink-2 flex items-center gap-1.5">
-                  <BookMarked className="w-3.5 h-3.5 text-primary dark:text-amber-400" />
-                  Conceito & Definição Canônica
-                </h4>
-                <div className="p-4 rounded-xl bg-surface-2/40 border border-border text-sm text-ink leading-relaxed font-serif">
-                  {termoAtivo.conceitoCanonico}
                 </div>
-              </div>
+              )}
 
-              {/* Bloco 2: Armadilha da Banca Cebraspe */}
-              <div className="space-y-1.5">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-rose-700 dark:text-rose-400 flex items-center gap-1.5">
-                  <AlertTriangle className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400" />
-                  Como o Cebraspe Tenta Te Enganar (Armadilha Mapeada)
-                </h4>
-                <div className="p-4 rounded-xl bg-rose-50/80 dark:bg-rose-950/20 border border-rose-200 dark:border-rose-900/60 text-sm text-rose-900 dark:text-rose-200 leading-relaxed">
-                  {termoAtivo.armadilhaCebraspe}
-                </div>
-              </div>
-
-              {/* Bloco 3: Aplicação na Câmara dos Deputados */}
-              <div className="space-y-1.5">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-primary dark:text-amber-400 flex items-center gap-1.5">
-                  <Building2 className="w-3.5 h-3.5" />
-                  Aplicação na Câmara dos Deputados & Rotina Legislativa
-                </h4>
-                <div className="p-4 rounded-xl bg-primary/5 dark:bg-amber-400/5 border border-primary/20 dark:border-amber-400/20 text-sm text-ink leading-relaxed">
-                  {termoAtivo.aplicacaoCamara}
-                </div>
-              </div>
-
-              {/* Termos Correlatos / Ver Também */}
-              {(() => {
-                const correlatos = dicionarioService
-                  .buscarTermosSimilares(termoAtivo.termo, 5)
-                  .filter((t) => t.id !== termoAtivo.id);
-                if (correlatos.length === 0) return null;
-                return (
+              {!termoAtivo && !isLoading && !erro && (
+                <div className="py-8 text-center space-y-4 animate-in fade-in duration-150">
+                  <div className="w-12 h-12 rounded-2xl bg-primary/10 dark:bg-amber-400/10 text-primary dark:text-amber-400 flex items-center justify-center mx-auto">
+                    <BookOpen className="w-6 h-6" />
+                  </div>
+                  <div className="space-y-1 max-w-md mx-auto">
+                    <h4 className="text-base font-bold text-ink">Pesquise no Vocabulário Canônico Cebraspe</h4>
+                    <p className="text-xs text-ink-2">
+                      Consulte conceitos técnicos de Cunha & Lemos, normas ABNT e pegadinhas clássicas da banca examinadora da Câmara dos Deputados.
+                    </p>
+                  </div>
                   <div className="pt-2">
-                    <span className="text-[11px] font-semibold text-ink-2 uppercase tracking-wider block mb-1.5">
-                      Ver Também (Conceitos Correlatos):
-                    </span>
-                    <div className="flex flex-wrap gap-1.5">
-                      {correlatos.map((cor) => (
+                    <span className="text-xs text-ink-2 block mb-2 font-medium">Verbetes Essenciais em Destaque:</span>
+                    <div className="flex flex-wrap gap-2 justify-center max-w-lg mx-auto">
+                      {dicionarioService.buscarSugestoes('', 6).map((destaque) => (
                         <button
-                          key={cor.id}
+                          key={destaque.id}
                           onClick={() => {
-                            setInputBusca(cor.termo);
-                            abrirDicionarioComTermo(cor);
+                            setInputBusca(destaque.termo);
+                            abrirDicionarioComTermo(destaque);
                           }}
-                          className="px-2.5 py-1 text-xs rounded-lg bg-surface-2 hover:bg-surface border border-border text-ink hover:text-primary dark:hover:text-amber-400 hover:border-primary dark:hover:border-amber-400 transition-colors cursor-pointer"
+                          className="px-3 py-1.5 text-xs rounded-xl bg-surface-2 hover:bg-surface border border-border text-ink hover:border-primary dark:hover:border-amber-400 hover:text-primary dark:hover:text-amber-400 transition-all font-medium cursor-pointer shadow-sm"
                         >
-                          {cor.termo}
+                          {destaque.termo}
                         </button>
                       ))}
                     </div>
                   </div>
-                );
-              })()}
-
-              {/* Rodapé do Card: Fonte Bibliográfica */}
-              <div className="pt-2 text-xs text-ink-2 flex items-center justify-between border-t border-border">
-                <span className="italic">Fonte: {termoAtivo.fonteReferencia}</span>
-                <button
-                  onClick={() => pesquisar(termoAtivo.termo + ' Cebraspe')}
-                  className="inline-flex items-center gap-1 text-xs text-primary dark:text-amber-400 hover:underline cursor-pointer font-semibold"
-                >
-                  <Sparkles className="w-3 h-3" />
-                  <span>Aprofundar com IA</span>
-                </button>
-              </div>
-            </div>
-          )}
-
-          {!termoAtivo && !isLoading && !erro && (
-            <div className="py-8 text-center space-y-4 animate-in fade-in duration-150">
-              <div className="w-12 h-12 rounded-2xl bg-primary/10 dark:bg-amber-400/10 text-primary dark:text-amber-400 flex items-center justify-center mx-auto">
-                <BookOpen className="w-6 h-6" />
-              </div>
-              <div className="space-y-1 max-w-md mx-auto">
-                <h4 className="text-base font-bold text-ink">Pesquise no Vocabulário Canônico Cebraspe</h4>
-                <p className="text-xs text-ink-2">
-                  Consulte conceitos técnicos de Cunha & Lemos, normas ABNT e pegadinhas clássicas da banca examinadora da Câmara dos Deputados.
-                </p>
-              </div>
-              <div className="pt-2">
-                <span className="text-xs text-ink-2 block mb-2 font-medium">Verbetes Essenciais em Destaque:</span>
-                <div className="flex flex-wrap gap-2 justify-center max-w-lg mx-auto">
-                  {dicionarioService.buscarSugestoes('', 6).map((destaque) => (
-                    <button
-                      key={destaque.id}
-                      onClick={() => {
-                        setInputBusca(destaque.termo);
-                        abrirDicionarioComTermo(destaque);
-                      }}
-                      className="px-3 py-1.5 text-xs rounded-xl bg-surface-2 hover:bg-surface border border-border text-ink hover:border-primary dark:hover:border-amber-400 hover:text-primary dark:hover:text-amber-400 transition-all font-medium cursor-pointer shadow-sm"
-                    >
-                      {destaque.termo}
-                    </button>
-                  ))}
                 </div>
-              </div>
-            </div>
-          )}
+              )}
 
-          {/* Histórico Recente e Termos Mais Consultados */}
-          {historicoConsultas.length > 1 && !isLoading && (
-            <div className="pt-4 border-t border-border">
-              <h5 className="text-xs font-semibold text-ink-2 mb-2 flex items-center gap-1.5">
-                <History className="w-3.5 h-3.5" />
-                Histórico Recente de Consultas:
-              </h5>
-              <div className="flex flex-wrap gap-1.5">
-                {historicoConsultas.slice(0, 8).map((hist) => (
-                  <button
-                    key={hist}
-                    onClick={() => pesquisar(hist)}
-                    className="px-2.5 py-1 text-xs rounded-lg bg-surface-2 hover:bg-surface border border-border text-ink hover:text-primary dark:hover:text-amber-400 transition-colors cursor-pointer"
-                  >
-                    {hist}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
+              {/* Histórico Recente e Termos Mais Consultados */}
+              {historicoConsultas.length > 1 && !isLoading && (
+                <div className="pt-4 border-t border-border">
+                  <h5 className="text-xs font-semibold text-ink-2 mb-2 flex items-center gap-1.5">
+                    <History className="w-3.5 h-3.5" />
+                    Histórico Recente de Consultas:
+                  </h5>
+                  <div className="flex flex-wrap gap-1.5">
+                    {historicoConsultas.slice(0, 8).map((hist) => (
+                      <button
+                        key={hist}
+                        onClick={() => pesquisar(hist)}
+                        className="px-2.5 py-1 text-xs rounded-lg bg-surface-2 hover:bg-surface border border-border text-ink hover:text-primary dark:hover:text-amber-400 transition-colors cursor-pointer"
+                      >
+                        {hist}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
             </>
           )}
         </div>
