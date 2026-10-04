@@ -200,7 +200,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
                 className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
               >
                 <BookOpen className="w-3.5 h-3.5 text-accent" />
-                <span>Dicionário (<Kbd>Alt</Kbd>+<Kbd>D</Kbd>)</span>
+                <span>Glossário Cebraspe</span>
               </button>
 
               <span className="text-border">|</span>
