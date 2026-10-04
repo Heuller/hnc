@@ -11,14 +11,18 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
   describe('Auditoria Quantitativa e Estrutural da Teoria', () => {
     it('deve auditar rigorosamente os 13 macro-módulos e 52 submódulos', () => {
       expect(relatorio.totalEixos).toBe(13);
-      expect(relatorio.totalTopicos).toBe(52);
-      expect(relatorio.totalSubmodulosAuditados).toBe(52);
+      expect(relatorio.totalTopicos).toBe(60);
+      expect(relatorio.totalSubmodulosAuditados).toBe(60);
       expect(relatorio.eixos).toHaveLength(13);
     });
 
-    it('deve certificar que cada macro-módulo possui exatamente 4 submódulos', () => {
+    it('deve certificar que cada macro-módulo possui seus submódulos correspondentes ao edital', () => {
       relatorio.eixos.forEach(eixo => {
-        expect(eixo.submodulos).toHaveLength(4);
+        if (eixo.moduloId === 'm11') {
+          expect(eixo.submodulos).toHaveLength(12);
+        } else {
+          expect(eixo.submodulos).toHaveLength(4);
+        }
       });
     });
 
@@ -36,10 +40,14 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       });
     });
 
-    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (156 no total)', () => {
-      expect(relatorio.totalCheckpointsFormativos).toBe(156);
+    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (180 no total)', () => {
+      expect(relatorio.totalCheckpointsFormativos).toBe(180);
       relatorio.eixos.forEach(eixo => {
-        expect(eixo.questoesCheckpoints).toBe(12);
+        if (eixo.moduloId === 'm11') {
+          expect(eixo.questoesCheckpoints).toBe(36);
+        } else {
+          expect(eixo.questoesCheckpoints).toBe(12);
+        }
         eixo.submodulos.forEach(sub => {
           expect(sub.totalCheckpoints).toBe(3);
         });
@@ -76,7 +84,7 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
     });
 
     it('deve totalizar 1.156 questões atualmente ativas no sistema (156 checkpoints formativos + 1.000 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1156);
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1180);
     });
   });
 

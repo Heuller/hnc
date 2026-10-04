@@ -523,10 +523,10 @@ export const JornadaPage: React.FC = () => {
               Trilha Complementar Disponível
             </span>
             <h3 className="text-base font-serif font-bold text-ink">
-              Módulos Complementares: Raciocínio Lógico e Inglês
+              Módulos Básicos: Direito Administrativo, Inglês e Português
             </h3>
             <p className="text-xs text-ink-2 max-w-md mx-auto">
-              Estude RLM e Inglês em paralelo, com questões geradas por IA sob fontes primárias canônicas, sem comprometer a sua trilha sequencial de 59 etapas.
+              Estude Direito Administrativo, Inglês e Português conforme o Edital nº 1/2026, sem comprometer a sua trilha sequencial de 59 etapas.
             </p>
             <Button
               variant="outline"
@@ -557,12 +557,12 @@ export const JornadaPage: React.FC = () => {
               </span>
             </div>
             <h2 className="text-lg font-serif font-bold text-ink">
-              Língua Portuguesa (M13), Raciocínio Lógico (M11) e Língua Inglesa (M12)
+              Noções de Direito Administrativo (M11), Língua Inglesa (M12) e Língua Portuguesa (M13)
             </h2>
             <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
               Estes módulos oferecem preparação de base enquanto aguardamos a publicação do edital da Câmara dos Deputados. As questões foram elaboradas com assistência de inteligência artificial sob o bloqueio estrito contra alucinações (
               <code className="text-[11px] bg-surface-2 px-1 rounded font-mono">antiHallucinationGuard</code>
-              ), ancoradas em fontes primárias canônicas (Bechara, Cunha & Cintra, Luft, Manual de Redação da Presidência, Boole, Murphy e jurisprudência canônica Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
+              ), ancoradas em fontes primárias canônicas (Bechara, Cunha & Cintra, Luft, Manual de Redação da Presidência, Di Pietro, Carvalho Filho, Hely Lopes Meirelles, Murphy, Swan e jurisprudência canônica Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
             </p>
           </div>
 

@@ -9,7 +9,7 @@ import { moduloM7Preservacao } from './modules/m7-preservacao';
 import { moduloM8Normalizacao } from './modules/m8-normalizacao';
 import { moduloM9Comunicacao } from './modules/m9-comunicacao';
 import { moduloM10Legislativo } from './modules/m10-legislativo';
-import { moduloM11RaciocinioLogico } from './modules/m11-raciocinio-logico';
+import { moduloM11DireitoAdministrativo } from './modules/m11-direito-administrativo';
 import { moduloM12Ingles } from './modules/m12-ingles';
 import { moduloM13Portugues } from './modules/m13-portugues';
 
@@ -27,7 +27,7 @@ export const TRILHA_ESPECIFICOS: MacroModulo[] = [
 ];
 
 export const TRILHA_COMPLEMENTAR: MacroModulo[] = [
-  moduloM11RaciocinioLogico,
+  moduloM11DireitoAdministrativo,
   moduloM12Ingles,
   moduloM13Portugues,
 ];
@@ -48,7 +48,7 @@ export {
   moduloM8Normalizacao,
   moduloM9Comunicacao,
   moduloM10Legislativo,
-  moduloM11RaciocinioLogico,
+  moduloM11DireitoAdministrativo,
   moduloM12Ingles,
   moduloM13Portugues,
 };

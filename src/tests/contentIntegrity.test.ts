@@ -123,7 +123,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
   });
 
   describe('Estrutura e Integridade Curricular dos Macro-Módulos (COURSE_REGISTRY)', () => {
-    it('deve conter 13 Macro-Módulos registrados (M1-M10 Específicos + M11 Raciocínio Lógico + M12 Inglês + M13 Língua Portuguesa)', () => {
+    it('deve conter 13 Macro-Módulos registrados (M1-M10 Específicos + M11 Direito Administrativo + M12 Inglês + M13 Língua Portuguesa)', () => {
       expect(COURSE_REGISTRY).toHaveLength(13);
       const expectedIds = ['m1', 'm2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10', 'm11', 'm12', 'm13'];
       expect(COURSE_REGISTRY.map((m) => m.id)).toEqual(expectedIds);
@@ -139,19 +139,23 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('deve totalizar exatamente 52 submódulos (4 por macro-módulo em todos os 13 módulos)', () => {
+    it('deve totalizar 60 submódulos no currículo (com M11 cobrindo os 12 tópicos do edital e 4 submódulos nos demais)', () => {
       const totalSubmodulos = COURSE_REGISTRY.reduce((acc, m) => acc + m.modulosFilhos.length, 0);
-      expect(totalSubmodulos).toBe(52);
+      expect(totalSubmodulos).toBe(60);
 
       COURSE_REGISTRY.forEach((m) => {
-        expect(m.modulosFilhos).toHaveLength(4);
+        if (m.id === 'm11') {
+          expect(m.modulosFilhos).toHaveLength(12);
+        } else {
+          expect(m.modulosFilhos).toHaveLength(4);
+        }
       });
     });
 
-    it('todos os 52 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
+    it('todos os 60 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
       const allSubIds = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos.map((s) => s.id));
       const uniqueSubIds = new Set(allSubIds);
-      expect(uniqueSubIds.size).toBe(52);
+      expect(uniqueSubIds.size).toBe(60);
 
       COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
         expect(sub.id.trim().length).toBeGreaterThan(2);

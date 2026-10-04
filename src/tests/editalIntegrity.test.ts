@@ -27,7 +27,7 @@ describe('Auditoria de Integridade do Edital nº 1/2026 (Fase E0)', () => {
     expect(basicos.length).toBe(3);
   });
 
-  it('cada eixo temático deve conter exatamente 4 tópicos programáticos densos (total de 52 tópicos)', () => {
+  it('cada eixo temático deve conter tópicos programáticos densos correspondentes ao edital (total de 60 tópicos)', () => {
     let totalTopicos = 0;
     for (const eixo of EDITAL_CAMARA_2026.eixos) {
       expect(eixo.topicos.length).toBeGreaterThanOrEqual(4);
@@ -42,7 +42,7 @@ describe('Auditoria de Integridade do Edital nº 1/2026 (Fase E0)', () => {
         expect(topico.submodulosRef.length).toBeGreaterThanOrEqual(1);
       }
     }
-    expect(totalTopicos).toBe(52);
+    expect(totalTopicos).toBe(60);
   });
 
   it('todos os eixos do edital devem ter correspondência 1:1 com os módulos do COURSE_REGISTRY', () => {
