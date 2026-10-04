@@ -233,12 +233,12 @@ export const DiscursivaPage: React.FC = () => {
       criteriosPontuacao: [
         {
           item: 'Domínio Técnico e Conceitual',
-          pontuacaoMaxima: novoTipo === 'questao_20' ? 12.0 : 30.0,
+          pontuacaoMaxima: novoTipo === 'questao_20' ? 8.0 : 16.0,
           descricaoEsperada: 'Atendimento aos tópicos essenciais solicitados no enunciado.',
         },
         {
           item: 'Estruturação Lógica e Coesão',
-          pontuacaoMaxima: novoTipo === 'questao_20' ? 8.0 : 20.0,
+          pontuacaoMaxima: novoTipo === 'questao_20' ? 7.0 : 14.0,
           descricaoEsperada: 'Paragrafação equilibrada e progressão temática consistente.',
         },
       ],
@@ -283,7 +283,7 @@ export const DiscursivaPage: React.FC = () => {
                   Avaliador Cebraspe de Discursivas
                 </h1>
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase">
-                  Fórmula NC = NCP - 2×(NE/TL) · IA Oficial
+                  Fórmulas Oficiais: NQ = NC - 3×(NE/TL) · NPT = NC - 6×(NE/TL) · Edital 1/2026 (Item 9)
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-ink-2">
@@ -489,7 +489,7 @@ export const DiscursivaPage: React.FC = () => {
               </div>
 
               <span className="text-[10px] font-mono text-ink-2 italic">
-                *Fórmula Cebraspe penaliza desvios proporcionalmente a TL
+                *Fórmulas do Edital nº 1/2026 (itens 9.8.4 e 9.8.5): penalização proporcional às linhas escritas (fator 3× para questões de 20L e 6× para peças de 50L)
               </span>
             </div>
 

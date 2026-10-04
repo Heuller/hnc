@@ -12,7 +12,8 @@ export type AppView =
   | 'folha-vespera'
   | 'discursiva'
   | 'design-system'
-  | 'dev-rascunhos';
+  | 'dev-rascunhos'
+  | 'edital';
 
 interface NavigationState {
   activeView: AppView;
@@ -45,6 +46,7 @@ function getViewFromHash(): AppView {
   if (route.startsWith('discursiva')) return 'discursiva';
   if (route.startsWith('design-system')) return 'design-system';
   if (route.startsWith('dev/rascunhos') || route.startsWith('dev-rascunhos')) return 'dev-rascunhos';
+  if (route.startsWith('edital')) return 'edital';
   if (route.startsWith('painel')) return 'painel';
   return 'painel';
 }

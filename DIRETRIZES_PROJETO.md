@@ -254,5 +254,35 @@ Com a incorporação do backend serverless (Vercel Functions + Gemini API) e arq
 * Conexão direta com o Modo Socrático para reteste imediato dos erros.
 
 ---
-*Documento atualizado em 02 de Outubro de 2026.*  
+
+---
+
+## 12. CONSOLIDAÇÃO DA RODADA 5 (VERSÃO 3) — EDITAL OFICIAL & PODA ESTRATÉGICA
+
+Com a publicação do **Edital nº 1, de 02 de Outubro de 2026**, da Câmara dos Deputados (Cebraspe), a plataforma alcançou seu estado de maturidade máxima:
+
+### 12.1. Ingestão da Matriz Oficial do Edital nº 1/2026 (Fase E0)
+* Ingestão completa do programa do **Cargo 5 (Analista Legislativo — Biblioteconomia)**: 13 eixos programáticos densos e 52 tópicos oficiais estruturados em dados validados (`matrizEdital2026.ts`).
+* Mapeamento de regras eliminatórias estritas:
+  * Prova P1 (Conhecimentos Básicos, 90 itens C/E): eliminação se $P1 < 18,00$.
+  * Prova P2 (Conhecimentos Específicos, 90 itens C/E): eliminação se $P2 < 27,00$.
+  * Nota Final da Prova Objetiva: eliminação se $NFPO < 54,00$.
+  * Convocação para Prova Discursiva: 22 primeiros por modalidade de concorrência (item 8.11.6).
+
+### 12.2. Poda Programática e Arquivamento (Fase E1 e PODA.md)
+* **Arquivamento do M11 (Raciocínio Lógico-Matemático):** RLM não consta no programa oficial do Cargo 5 nem nos conhecimentos básicos. O módulo foi arquivado com histórico preservado (`status: 'arquivado'`).
+* **Condensação de Microtópicos:** Foco cirúrgico no que é cobrado (conservação preventiva em M7, RDA/LRM em M2 e M3, LAI/RICD em M10).
+* **Restauração de Segurança:** Tag Git `pre-poda-20261004` criada para ancoragem histórica.
+
+### 12.3. Produção Massiva de Itens e Simetria 50/50 (Fases E4 e E5)
+* **1.000 Questões de Simulado Oficial:** 10 cadernos temáticos de 100 itens inéditos Cebraspe com paridade matemática perfeita: **exatamente 50 Certos e 50 Errados** ($Delta = 0$) em cada caderno.
+* **1.156 Questões Totais no Sistema:** Somando checkpoints de teoria, protótipos N1–N5 e baterias de fixação.
+* **Norma Técnica de Questões (`ESPECIFICACAO_ITENS.md`):** Engenharia reversa das 10 armadilhas da banca examinadora e escala cognitiva de Bloom (N1 Reconhecer $\rightarrow$ N5 Nível Prova Cebraspe).
+
+### 12.4. Interface sem Erros Amadores (Fase U1)
+* Cabeçalho com colapso por prioridade testado em todas as resoluções (1024px a 2061px) e zooms de até 175%, com zero rolagem horizontal.
+* Rota `#painel` e `#edital` 100% integradas e testadas.
+* Atalho conflitante `Alt+D` erradicado. Contagens derivadas de fonte única de verdade.
+
+*Documento consolidado e homologado em 04 de Outubro de 2026 — Rodada 5 (Versão 3).*  
 *Projeto Heuller na Câmara — Rumo à Aprovação como Analista Legislativo!*

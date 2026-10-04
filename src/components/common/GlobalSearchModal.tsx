@@ -11,13 +11,14 @@ import {
   FileText,
 } from 'lucide-react';
 import { COURSE_REGISTRY } from '../../content/registry';
+import { EDITAL_CAMARA_2026 } from '../../domain/edital/matrizEdital2026';
 import { simuladoFundamentos100Q } from '../../content/questions/m1-fundamentos-100q';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { Kbd } from './Kbd';
 
 interface SearchResultItem {
   id: string;
-  tipo: 'submodulo' | 'autor' | 'alerta' | 'simulado';
+  tipo: 'submodulo' | 'autor' | 'alerta' | 'simulado' | 'edital';
   titulo: string;
   subtitulo: string;
   trecho: string;
@@ -106,6 +107,36 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
         questaoNumero: q.numero,
         submoduloId: q.submoduloId,
       });
+    }
+
+    
+    // 3. Edital Oficial nº 1/2026 e Tópicos
+    items.push({
+      id: 'edital-oficial-cd-2026',
+      tipo: 'edital',
+      titulo: 'Edital nº 1/2026 — Câmara dos Deputados (Cebraspe)',
+      subtitulo: 'Cargo 5: Analista Legislativo · Biblioteconomia',
+      trecho: 'Remuneração R$ 32.070,88, 7 vagas imediatas + 10 CR, provas P1, P2 e P3 em 17/01/2027, critérios eliminatórios.',
+    });
+
+    for (const eixo of EDITAL_CAMARA_2026.eixos) {
+      items.push({
+        id: `edital-eixo-${eixo.id}`,
+        tipo: 'edital',
+        titulo: `${eixo.nome} (Edital 1/2026)`,
+        subtitulo: eixo.bloco === 'CONHECIMENTOS_BASICOS' ? 'P1 · Conhecimentos Básicos' : 'P2 · Conhecimentos Específicos',
+        trecho: `Eixo oficial com ${eixo.topicos.length} tópicos estruturados para o Cargo 5.`,
+      });
+
+      for (const t of eixo.topicos) {
+        items.push({
+          id: `edital-topico-${t.id}`,
+          tipo: 'edital',
+          titulo: t.titulo,
+          subtitulo: `Item ${t.codigoEdital} · ${eixo.nome}`,
+          trecho: `Objeto de avaliação oficial do Edital 1/2026 (Cebraspe).`,
+        });
+      }
     }
 
     return items;

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
+  FileText,
   User,
   LogOut,
   Sliders,
@@ -10,6 +11,7 @@ import {
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
+import { useNavigationStore } from '../../store/useNavigationStore';
 
 export const UserMenuDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +19,7 @@ export const UserMenuDropdown: React.FC = () => {
   const menuRef = useRef<HTMLDivElement>(null);
 
   const { user, signOut, openAuthModal } = useAuthStore();
+  const { setActiveView } = useNavigationStore();
   const { modoLivre, setModoLivre, exportarResumoMarkdown } = useProgressStore();
   const { fontSize, setFontSize, columnWidth, setColumnWidth, fontFamily, setFontFamily } =
     useReaderPreferencesStore();
@@ -138,6 +141,21 @@ export const UserMenuDropdown: React.FC = () => {
                 <span>Preferências de Leitura</span>
               </div>
               <span className="text-[10px] font-mono text-ink-2">U.5</span>
+            </button>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setActiveView('edital');
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <FileText className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                <span>Edital Oficial 2026 (Quadro & Regras)</span>
+              </div>
             </button>
 
             <button

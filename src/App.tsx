@@ -37,6 +37,9 @@ const DevRascunhosPage = lazy(() =>
 const CadernoErrosPage = lazy(() =>
   import('./pages/CadernoErrosPage').then((m) => ({ default: m.CadernoErrosPage }))
 );
+const EditalPage = lazy(() =>
+  import('./pages/EditalPage').then((m) => ({ default: m.EditalPage }))
+);
 const FolhaVesperaPage = lazy(() =>
   import('./pages/FolhaVesperaPage').then((m) => ({ default: m.FolhaVesperaPage }))
 );
@@ -88,6 +91,8 @@ export function App() {
 
   const renderActiveView = () => {
     switch (activeView) {
+      case 'edital':
+        return <EditalPage />;
       case 'painel':
         return <PainelPage />;
       case 'jornada':
