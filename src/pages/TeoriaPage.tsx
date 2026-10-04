@@ -28,6 +28,8 @@ import {
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
+import { GlossarioDoModulo } from '../components/content-blocks/GlossarioDoModulo';
+import { dicionarioService } from '../domain/dicionario/dicionarioService';
 import { TeoriaStickyBar } from '../components/layout/TeoriaStickyBar';
 import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../domain/learningEngine';
 import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
@@ -101,6 +103,9 @@ export const TeoriaPage: React.FC = () => {
     secoesVistas,
     checkpointsRespondidos || {}
   );
+  const totalTermosModulo = React.useMemo(() => {
+    return dicionarioService.obterTermosPorModulo(currentMacro.id).length;
+  }, [currentMacro.id]);
   const moduleTheme = getModuleTheme(currentMacro.id);
 
   // Monitoramento de seções para conquista estrita de conclusão (Parte G)
@@ -407,6 +412,14 @@ export const TeoriaPage: React.FC = () => {
               >
                 6. Resumo e Mnemônicos
               </button>
+              <span>•</span>
+              <button
+                type="button"
+                onClick={() => scrollToAnchor('sec-glossario-modulo')}
+                className="hover:text-accent hover:underline py-0.5 text-accent font-semibold"
+              >
+                7. Glossário do Bloco ({totalTermosModulo})
+              </button>
             </div>
           </section>
 
@@ -516,6 +529,15 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />
+          </section>
+
+          {/* Bloco 7: Glossário Canônico do Módulo */}
+          <section id="sec-glossario-modulo" className="border-t border-border pt-8 my-8">
+            <GlossarioDoModulo
+              moduloId={currentMacro.id}
+              moduloCodigo={currentMacro.codigo}
+              moduloTitulo={currentMacro.titulo_curto || currentMacro.titulo}
+            />
           </section>
 
           {/* Rodapé de Navegação do Submódulo */}

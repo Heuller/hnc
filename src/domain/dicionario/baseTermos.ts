@@ -2577,5 +2577,370 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     "nao_confundir_com": [
       "Tabela Cutter-Sanborn (3 algarismos, norte-americana)"
     ]
-  }
+  },
+{
+  "id": "lexml-urn",
+  "termo": "URN LexML Brasil (Identificador Persistente)",
+  "sigla": "LexML URN",
+  "tipo": "padrao",
+  "area": "Informação e Documentação Jurídico-Legislativa",
+  "moduloRelacionado": "M10",
+  "modulo_ref": [
+    "m10"
+  ],
+  "conceitoCanonico": "Identificador uniforme de recursos (Uniform Resource Name - RFC 2141) padronizado no projeto LexML Brasil para endereçamento semântico, persistente e unívoco de normas jurídicas, atos regulamentares, jurisprudência e proposições legislativas federais, estaduais e municipais. A estrutura hierárquica baseia-se em: urn:lex:br:autoridade:tipo.documento:data;numero!versao.",
+  "definicao_curta": "Identificador uniforme persistente (URN) padrão do LexML Brasil que garante endereçamento estável de atos legislativos e judiciais sem depender de URLs transitórias de servidores.",
+  "armadilhaCebraspe": "A banca tenta afirmar que o LexML utiliza URLs comuns que mudam quando o portal da Casa Legislativa é remodelado. ERRADO: o LexML utiliza URNs semânticas e persistentes resolvidas por um servidor de nomes que desacopla o nome da norma da sua localização física web.",
+  "aplicacaoCamara": "Utilizado no portal da Câmara dos Deputados e no Senado Federal para interoperabilidade e citação canônica de projetos de lei e emendas constitucionais.",
+  "fonteReferencia": "LIMA, João Alberto de Oliveira; PASSOS, Edilenice. LexML Brasil: visão unificada da informação legislativa e jurídica. Brasília: Senado Federal, 2019.",
+  "fonte": {
+    "referencia": "LIMA, João Alberto de Oliveira; PASSOS, Edilenice. LexML Brasil, 2019.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "lexml",
+    "urn lexml",
+    "lexml brasil",
+    "projeto lexml"
+  ],
+  "variantes": [
+    "urn:lex:br",
+    "identificador lexml"
+  ]
+},
+{
+  "id": "rvbi",
+  "termo": "Rede Virtual de Bibliotecas (RVBI)",
+  "sigla": "RVBI",
+  "tipo": "padrao",
+  "area": "Informação e Documentação Jurídico-Legislativa",
+  "moduloRelacionado": "M10",
+  "modulo_ref": [
+    "m10"
+  ],
+  "conceitoCanonico": "Rede cooperativa de bibliotecas dos órgãos do Poder Legislativo, Executivo e Judiciário da esfera federal e do Distrito Federal, coordenada pela Biblioteca do Senado Federal e integrada pela Biblioteca da Câmara dos Deputados, STF, TCU e tribunais superiores. Opera catálogo bibliográfico coletivo em ambiente integrado, compartilhando registros em MARC 21 e vocabulário controlado jurídico.",
+  "definicao_curta": "Rede cooperativa das bibliotecas dos Poderes da União (coordenada pelo Senado e integrada pela Câmara) com catálogo bibliográfico coletivo unificado de doutrina e legislação.",
+  "armadilhaCebraspe": "O Cebraspe tenta afirmar que a RVBI abrange exclusivamente bibliotecas do Poder Legislativo. ERRADO: a rede integra bibliotecas dos três Poderes (incluindo STF, STJ, TST, TCU e Ministérios).",
+  "aplicacaoCamara": "A Biblioteca da Câmara dos Deputados (CEDI) é membro fundador da RVBI, indexando e catalogando cooperativamente acervos de Direito e Ciência Política.",
+  "fonteReferencia": "SENADO FEDERAL. Regulamento da Rede Virtual de Bibliotecas (RVBI). Brasília: Secretaria de Biblioteca, 2022.",
+  "fonte": {
+    "referencia": "SENADO FEDERAL. Regulamento da RVBI, 2022.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "rvbi",
+    "rede virtual de bibliotecas",
+    "sabida",
+    "rede de bibliotecas do congresso"
+  ],
+  "variantes": [
+    "rvbi congresso",
+    "catalogo coletivo rvbi"
+  ]
+},
+{
+  "id": "ato-administrativo",
+  "termo": "Ato Administrativo (Requisitos e Atributos)",
+  "sigla": "COFIFOMOB / PATI",
+  "tipo": "conceito",
+  "area": "Noções de Direito Administrativo",
+  "moduloRelacionado": "M11",
+  "modulo_ref": [
+    "m11"
+  ],
+  "conceitoCanonico": "Manifestação unilateral de vontade da Administração Pública que, agindo nessa qualidade, tenha por fim imediato adquirir, resguardar, transferir, modificar, extinguir e declarar direitos, ou impor obrigações aos administrados ou a si própria. Possui cinco requisitos de validade (Competência, Finalidade, Forma, Motivo e Objeto - mnemônico COFIFOMOB) e atributos fundamentais (Presunção de legitimidade/veracidade, Autoexecutoriedade, Tipicidade e Imperatividade - mnemônico PATI).",
+  "definicao_curta": "Manifestação unilateral de vontade do Estado sob regime de direito público, estruturada nos 5 requisitos de validade (COFIFOMOB) e atributos de eficácia (PATI).",
+  "armadilhaCebraspe": "A banca afirma que TODOS os atos administrativos possuem autoexecutoriedade e imperatividade. ERRADO: atos enunciativos (certidões, atestados, pareceres) e atos negociais (licenças, autorizações) NÃO possuem imperatividade nem autoexecutoriedade.",
+  "aplicacaoCamara": "Atos administrativos internos da Mesa Diretora e Diretoria-Geral que disciplinam provimento de cargos, gestão documental e licitações na Câmara.",
+  "fonteReferencia": "DI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 36. ed. Rio de Janeiro: Forense, 2023; MEIRELLES, Hely Lopes. Direito Administrativo Brasileiro. 44. ed. Malheiros, 2020.",
+  "fonte": {
+    "referencia": "DI PIETRO, Maria Sylvia Zanella. Direito Administrativo, 2023.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "ato administrativo",
+    "atos administrativos",
+    "requisitos do ato",
+    "atributos do ato"
+  ],
+  "variantes": [
+    "cofifomob",
+    "pati ato administrativo"
+  ]
+},
+{
+  "id": "improbidade-administrativa",
+  "termo": "Improbidade Administrativa (Lei nº 8.429/1992 e Lei nº 14.230/2021)",
+  "sigla": "LIA",
+  "tipo": "legislacao",
+  "area": "Noções de Direito Administrativo",
+  "moduloRelacionado": "M11",
+  "modulo_ref": [
+    "m11"
+  ],
+  "conceitoCanonico": "Regime sancionador disciplinado pela Lei nº 8.429/1992, profundamente reformado pela Lei nº 14.230/2021. Configura ato de improbidade as condutas funcionais tipificadas que importam enriquecimento ilícito (art. 9º), causem prejuízo ao erário (art. 10) ou atentem contra os princípios da administração pública (art. 11). A reforma de 2021 EXTINGUIU a modalidade culposa em todas as hipóteses, exigindo dolo específico (vontade livre e consciente de alcançar o resultado ilícito) para a caracterização do ato ímprobo.",
+  "definicao_curta": "Regime de sanções político-administrativas contra agentes públicos ímprobos. Desde a Lei 14.230/2021, EXIGE DOLO ESPECÍFICO em todas as hipóteses, não existindo improbidade culposa.",
+  "armadilhaCebraspe": "O Cebraspe tenta cobrar a regra antiga de que 'o ato de improbidade que causa prejuízo ao erário admite modalidade culposa'. GABARITO ERRADO! Após a Lei 14.230/2021, NÃO existe mais nenhuma modalidade de improbidade culposa no ordenamento jurídico brasileiro.",
+  "aplicacaoCamara": "Proteção da probidade funcional dos servidores e deputados na gestão de verbas orçamentárias e patrimônio público da Câmara.",
+  "fonteReferencia": "BRASIL. Lei nº 8.429, de 2 de junho de 1992. Altera a Lei nº 14.230, de 25 de outubro de 2021.",
+  "fonte": {
+    "referencia": "BRASIL. Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021).",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "improbidade administrativa",
+    "lei de improbidade",
+    "lia",
+    "lei 8429",
+    "lei 14230"
+  ],
+  "variantes": [
+    "improbidade culposa inexistente",
+    "dolo especifico improbidade"
+  ]
+},
+{
+  "id": "governanca-publica-9203",
+  "termo": "Governança Pública Federal (Decreto Federal nº 9.203/2017)",
+  "sigla": "Decreto 9.203/2017",
+  "tipo": "legislacao",
+  "area": "Noções de Administração Pública e Governança",
+  "moduloRelacionado": "M11",
+  "modulo_ref": [
+    "m11"
+  ],
+  "conceitoCanonico": "Conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade. O Decreto nº 9.203/2017 estabelece os princípios da governança pública: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas (accountability) e transparência.",
+  "definicao_curta": "Política de governança da administração pública federal assentada na tríade de mecanismos: Liderança, Estratégia e Controle, visando à geração de valor público sustentável.",
+  "armadilhaCebraspe": "A banca confunde governança com gestão. ERRADO: gestão é responsável por planejar, executar, controlar e agir operacionalmente; a governança AVALIA, DIRECIONA e MONITORA a gestão por meio de liderança, estratégia e controle.",
+  "aplicacaoCamara": "Comitês de governança e gestão de riscos aplicados à aquisição e preservação de sistemas de informação parlamentar.",
+  "fonteReferencia": "BRASIL. Decreto nº 9.203, de 22 de novembro de 2017. Dispõe sobre a política de governança da administração pública federal.",
+  "fonte": {
+    "referencia": "BRASIL. Decreto Federal nº 9.203/2017.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "decreto 9203",
+    "governanca publica",
+    "mecanismos de governanca",
+    "lideranca estrategia e controle"
+  ],
+  "variantes": [
+    "governanca vs gestao",
+    "principios da governanca federal"
+  ]
+},
+{
+  "id": "lei-14133-licitacoes",
+  "termo": "Nova Lei de Licitações e Contratos (Lei nº 14.133/2021)",
+  "sigla": "Lei 14.133/2021",
+  "tipo": "legislacao",
+  "area": "Noções de Direito Administrativo",
+  "moduloRelacionado": "M11",
+  "modulo_ref": [
+    "m11"
+  ],
+  "conceitoCanonico": "Novo marco legal geral de licitações e contratos da Administração Pública. Institui cinco modalidades licitatórias expressas: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo (extinguindo Tomada de Preços e Convite). Estabelece a fase preparatória com Estudo Técnico Preliminar (ETP), Termo de Referência (TR), matriz de riscos e segregação de funções na fiscalização contratual.",
+  "definicao_curta": "Marco geral de licitações públicas com 5 modalidades (Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo) e fase preparatória rigorosa com ETP e TR.",
+  "armadilhaCebraspe": "O Cebraspe tenta incluir 'convite' ou 'tomada de preços' como modalidades válidas na Lei 14.133. ERRADO: essas modalidades foram expressamente revogadas. As 5 modalidades atuais são Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo.",
+  "aplicacaoCamara": "Contratação de soluções de tecnologia da informação, assinaturas de bases de periódicos e serviços especializados para a Câmara dos Deputados.",
+  "fonteReferencia": "BRASIL. Lei nº 14.133, de 1º de abril de 2021. Lei de Licitações e Contratos Administrativos.",
+  "fonte": {
+    "referencia": "BRASIL. Lei nº 14.133/2021.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "lei 14133",
+    "nova lei de licitacoes",
+    "licitacoes e contratos",
+    "modalidades licitatorias"
+  ],
+  "variantes": [
+    "etp e termo de referencia",
+    "dialogo competitivo"
+  ]
+},
+{
+  "id": "coesao-referencial-anafora",
+  "termo": "Coesão Referencial: Mecanismo de Anáfora e Catáfora",
+  "sigla": "Coesão Textual",
+  "tipo": "conceito",
+  "area": "Língua Portuguesa",
+  "moduloRelacionado": "M13",
+  "modulo_ref": [
+    "m13"
+  ],
+  "conceitoCanonico": "Propriedade linguística pela qual termos da superfície textual remetem a outros elementos do discurso. A anáfora retoma um termo já introduzido precedentemente (ex: pronomes esse/este, elipses, sinônimos, hiperônimos). A catáfora antecipa um elemento que ainda será explicitado na oração seguinte (ex: 'O problema é este: a falta de verba').",
+  "definicao_curta": "Processo de sequenciação textual que assegura continuidade temático-semântica sem repetições viciosas, por meio de retomada (anáfora) ou antecipação (catáfora).",
+  "armadilhaCebraspe": "A banca afirma que a substituição de um pronome anafórico por outro altera o sentido do texto ou introduz ambiguidade quando na verdade o referente sintático é estritamente unívoco.",
+  "aplicacaoCamara": "Redação de pareceres legislativos e relatórios de comissões parlamentares no padrão culto oficial.",
+  "fonteReferencia": "KOCH, Ingedore Grunfeld Villaça. A Coesão Textual. São Paulo: Contexto, 2018; CUNHA, Celso; CINTRA, Lindley. Nova Gramática do Português Contemporâneo. Rio de Janeiro: Lexikon, 2017.",
+  "fonte": {
+    "referencia": "KOCH, Ingedore. A Coesão Textual, 2018.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "coesao referencial",
+    "anafora",
+    "catafora",
+    "mecanismos de coesao"
+  ],
+  "variantes": [
+    "retomada anaforica",
+    "coesao textual cebraspe"
+  ]
+},
+{
+  "id": "crase-algoritmica",
+  "termo": "Sinal Indicativo de Crase (Algoritmo Resolutivo Cebraspe)",
+  "sigla": "Crase",
+  "tipo": "conceito",
+  "area": "Língua Portuguesa",
+  "moduloRelacionado": "M13",
+  "modulo_ref": [
+    "m13"
+  ],
+  "conceitoCanonico": "Fusão fonética de duas vogais idênticas (a + a), representada graficamente pelo acento grave (`). Ocorre quando um termo regente exige a preposição 'a' e o termo regido aceita ou exige o artigo definido feminino 'a(s)' ou o 'a' inicial de pronomes demonstrativos (aquele, aquela, aquilo). Casos proibidos canônicos: antes de palavras masculinas, verbos no infinitivo e pronomes pessoais.",
+  "definicao_curta": "Fusão da preposição regente 'a' com artigo definido feminino ou pronome demonstrativo, resolvida pela verificação de dupla exigência sintática.",
+  "armadilhaCebraspe": "O Cebraspe propõe reescritas trocando regências verbais para testar se o candidato percebe que o novo verbo é transitivo direto (VTD) e, portanto, não admite crase por inexistência de preposição.",
+  "aplicacaoCamara": "Rigor gramatical na elaboração de resoluções, portarias e correspondências oficiais da Câmara dos Deputados.",
+  "fonteReferencia": "BECHARA, Evanildo. Moderna Gramática Portuguesa. 39. ed. Rio de Janeiro: Nova Fronteira, 2019; CEGALLA, Domingos Paschoal. Novíssima Gramática da Língua Portuguesa. Companhia Editora Nacional, 2020.",
+  "fonte": {
+    "referencia": "BECHARA, Evanildo. Moderna Gramática Portuguesa, 2019.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "crase",
+    "sinal indicativo de crase",
+    "acento grave",
+    "fusao preposicao artigo"
+  ],
+  "variantes": [
+    "regra da crase",
+    "crase cebraspe"
+  ]
+},
+{
+  "id": "imunidade-parlamentar",
+  "termo": "Imunidades Parlamentares (Material e Formal - Art. 53 CF/88)",
+  "sigla": "Art. 53 CF/88",
+  "tipo": "conceito",
+  "area": "Noções de Direito Constitucional e Regimento",
+  "moduloRelacionado": "M14",
+  "modulo_ref": [
+    "m14",
+    "m10"
+  ],
+  "conceitoCanonico": "Prerrogativas de direito público concedidas aos Deputados Federais e Senadores para assegurar a independência do Poder Legislativo. Divide-se em: (1) Imunidade Material (inviolabilidade civil e penal por opiniões, palavras e votos proferidos no exercício do mandato parlamentar); e (2) Imunidade Formal ou Processual (foro por prerrogativa de função perante o STF desde a expedição do diploma, e impossibilidade de prisão salvo em flagrante de crime inafiançável).",
+  "definicao_curta": "Prerrogativa constitucional que garante a Deputados e Senadores inviolabilidade por votos e opiniões (material) e regras protetivas contra prisão e processo arbitrário (formal).",
+  "armadilhaCebraspe": "A banca tenta afirmar que a imunidade material protege o parlamentar mesmo em atos privados sem qualquer conexão com o mandato. ERRADO: a jurisprudência do STF exige pertinência temática com a função parlamentar quando a declaração for fora do recinto do Parlamento.",
+  "aplicacaoCamara": "Garantia institucional fundamental do livre debate e atividade fiscalizatória nas comissões e no Plenário Ulysses Guimarães da Câmara dos Deputados.",
+  "fonteReferencia": "BRASIL. Constituição da República Federativa do Brasil de 1988, art. 53; SILVA, José Afonso da. Curso de Direito Constitucional Positivo. 44. ed. Malheiros, 2021.",
+  "fonte": {
+    "referencia": "CF/88, Art. 53; SILVA, José Afonso da. Curso de Direito Constitucional Positivo, 2021.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "imunidade parlamentar",
+    "imunidade material",
+    "imunidade formal",
+    "inviolabilidade parlamentar"
+  ],
+  "variantes": [
+    "artigo 53 cf88",
+    "estatuto dos congressistas"
+  ]
+},
+{
+  "id": "regimento-interno-camara",
+  "termo": "Regimento Interno da Câmara dos Deputados (RICD)",
+  "sigla": "RICD",
+  "tipo": "legislacao",
+  "area": "Noções de Direito Constitucional e Regimento",
+  "moduloRelacionado": "M14",
+  "modulo_ref": [
+    "m14",
+    "m10"
+  ],
+  "conceitoCanonico": "Resolução nº 17, de 1989, com suas alterações posteriores, que disciplina a organização interna, os órgãos de direção (Mesa Diretora), o funcionamento das comissões temáticas e de inquérito, as sessões plenárias, a tramitação das proposições legislativas e os direitos e deveres dos Deputados Federais. É fonte primária do processo legislativo da Câmara.",
+  "definicao_curta": "Conjunto formal de normas regulamentares que disciplinam a tramitação de matérias, órgãos, sessões e prerrogativas na Câmara dos Deputados.",
+  "armadilhaCebraspe": "O Cebraspe cobra os quóruns regimentais específicos (maioria simples vs maioria absoluta) e os papéis privativos da Mesa Diretora (arts. 1º a 24) e do Presidente da Câmara.",
+  "aplicacaoCamara": "Norma reitora de todas as atividades de documentação, tramitação e registro parlamentar na Casa.",
+  "fonteReferencia": "CÂMARA DOS DEPUTADOS. Regimento Interno da Câmara dos Deputados. Resolução nº 17, de 1989 (consolidada com alterações).",
+  "fonte": {
+    "referencia": "CÂMARA DOS DEPUTADOS. Resolução nº 17/1989 (RICD consolidado).",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "ricd",
+    "regimento interno da camara",
+    "resolucao 17 1989",
+    "regimento da camara"
+  ],
+  "variantes": [
+    "normas regimentais camara",
+    "orgaos da camara ricd"
+  ]
+},
+{
+  "id": "ia-generativa-llm",
+  "termo": "Inteligência Artificial Generativa & Engenharia de Prompts",
+  "sigla": "IA Gen / Prompts",
+  "tipo": "conceito",
+  "area": "Tecnologia da Informação e Dados",
+  "moduloRelacionado": "M15",
+  "modulo_ref": [
+    "m15",
+    "m6"
+  ],
+  "conceitoCanonico": "Ramo da Inteligência Artificial baseado em modelos probabilísticos massivos (Large Language Models - LLMs e modelos de difusão) capazes de gerar textos, sumários, códigos e imagens a partir de instruções em linguagem natural. A Engenharia de Prompts compreende a formulação estratégica de instruções (zero-shot, few-shot, chain-of-thought, retrieval-augmented generation - RAG) para maximizar precisão e minimizar alucinações de modelos.",
+  "definicao_curta": "Modelos de IA probabilísticos que sintetizam novos conteúdos a partir de aprendizado profundo, operados por técnicas estruturadas de engenharia de prompts.",
+  "armadilhaCebraspe": "A banca tenta afirmar que LLMs possuem compreensão semântica consciente do mundo. ERRADO: LLMs operam por previsão estatística do próximo token com base em representações vetoriais de alta dimensionalidade (embeddings) e atenção transformers.",
+  "aplicacaoCamara": "Aplicações de IA no suporte à análise de emendas orçamentárias, sumarização de discursos e atendimento cidadão no portal da Câmara.",
+  "fonteReferencia": "RUSSELL, Stuart; NORVIG, Peter. Artificial Intelligence: A Modern Approach. 4. ed. Pearson, 2020.",
+  "fonte": {
+    "referencia": "RUSSELL, Stuart; NORVIG, Peter. Artificial Intelligence, 2020.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "ia generativa",
+    "engenharia de prompts",
+    "llm",
+    "inteligencia artificial generativa"
+  ],
+  "variantes": [
+    "prompt engineering",
+    "modelos generativos"
+  ]
+},
+{
+  "id": "visualizacao-storytelling-dados",
+  "termo": "Visualização de Dados e Storytelling (Power BI, Boxplot e Métricas)",
+  "sigla": "Dataviz & Storytelling",
+  "tipo": "conceito",
+  "area": "Tecnologia da Informação e Dados",
+  "moduloRelacionado": "M15",
+  "modulo_ref": [
+    "m15"
+  ],
+  "conceitoCanonico": "Prática analítica de representação gráfica de dados estruturados com foco na comunicação clara de insights. Compreende a seleção precisa de gráficos: histograma (distribuição de frequência contínua), box plot (diagrama de caixa com mediana, quartis e outliers), dispersão (correlação bivariada) e gráficos de linhas/barras. Em Storytelling, articula-se contexto, clareza cognitiva (eliminação de ruído de tinta de Edward Tufte) e direcionamento à tomada de decisão.",
+  "definicao_curta": "Comunicação analítica e gráfica de dados com eliminação de ruído cognitivo e escolha rigorosa de gráficos (boxplot para dispersão/outliers, histograma para distribuição).",
+  "armadilhaCebraspe": "O Cebraspe tenta usar gráficos de pizza (pie charts) para comparações com muitas categorias ou confunde histograma com gráfico de barras. GABARITO: histograma representa dados quantitativos contínuos agrupados em intervalos (bins); gráfico de barras representa variáveis categóricas discretas.",
+  "aplicacaoCamara": "Elaboração de painéis no Power BI e relatórios analíticos de transparência de despesas parlamentares e produção legislativa.",
+  "fonteReferencia": "KNAFLIC, Cole Nussbaumer. Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: Alta Books, 2019; TUFTE, Edward. The Visual Display of Quantitative Information. 2. ed. Graphics Press, 2001.",
+  "fonte": {
+    "referencia": "KNAFLIC, Cole Nussbaumer. Storytelling com Dados, 2019.",
+    "versao": "Edital nº 1/2026"
+  },
+  "sinonimos": [
+    "visualizacao de dados",
+    "storytelling com dados",
+    "power bi",
+    "box plot",
+    "histograma"
+  ],
+  "variantes": [
+    "dataviz",
+    "graficos analiticos"
+  ]
+}
 ];

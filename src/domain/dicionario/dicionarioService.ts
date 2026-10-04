@@ -180,6 +180,25 @@ export class DicionarioService {
   /**
    * Obtém a lista completa de termos canônicos ordenada alfabeticamente
    */
+
+  /**
+   * Obtém os termos canônicos pertencentes a um módulo específico (Glossário Funcional do Módulo)
+   */
+  public obterTermosPorModulo(moduloId: string): TermoDicionario[] {
+    const modNorm = moduloId.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const num = modNorm.replace(/^[a-z]+/, '');
+    const modVariantes = [moduloId.toLowerCase(), modNorm, `m${num}`, `modulo${num}`];
+
+    return BASE_TERMOS_DICIONARIO.filter((t) => {
+      const relNorm = (t.moduloRelacionado || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (modVariantes.includes(relNorm)) return true;
+      if (t.modulo_ref && t.modulo_ref.some((m) => modVariantes.includes(m.toLowerCase().replace(/[^a-z0-9]/g, '')))) {
+        return true;
+      }
+      return false;
+    }).sort((a, b) => a.termo.localeCompare(b.termo, 'pt-BR'));
+  }
+
   public obterTodosTermos(): TermoDicionario[] {
     return [...BASE_TERMOS_DICIONARIO].sort((a, b) =>
       a.termo.localeCompare(b.termo, 'pt-BR')
