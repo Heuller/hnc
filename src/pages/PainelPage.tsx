@@ -438,11 +438,15 @@ export const PainelPage: React.FC = () => {
 
           <div className="flex flex-wrap items-center gap-3 text-xs font-sans text-ink-2">
             <span>
-              <strong className="text-ink font-semibold tabular-nums">{submodulosGlobalLidos}</strong> de {totalSubmodulosGlobal} submódulos lidos
+              <strong className="text-ink font-semibold tabular-nums">{submodulosGlobalLidos}</strong> de {totalSubmodulosGlobal} submódulos
             </span>
             <span>•</span>
             <span>
               <strong className="text-ink font-semibold tabular-nums">{totalCheckpointsFeitos}</strong> de {totalCheckpointsGlobal} checkpoints
+            </span>
+            <span>•</span>
+            <span>
+              <strong className="text-ink font-semibold tabular-nums">{historicoSimulados?.length || 0}</strong> de 10 simulados 100Q
             </span>
           </div>
         </div>
@@ -465,7 +469,7 @@ export const PainelPage: React.FC = () => {
           <div className="flex items-center gap-2">
             <HelpCircle className="w-4 h-4 text-ink-2 shrink-0" />
             <span className="font-serif">
-              O catálogo detalhado e o fluxo de desbloqueio sequencial dos 10 blocos residem na <strong>Jornada</strong>.
+              Acervo de <strong>1.156 questões Cebraspe</strong> (156 checkpoints + 1.000 itens de simulados) com progressão na <strong>Jornada</strong>.
             </span>
           </div>
 

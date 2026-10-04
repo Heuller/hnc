@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { COURSE_REGISTRY } from '../content/registry';
-import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { Badge } from '../components/common/Badge';
 import {
   Radar,
@@ -53,19 +53,20 @@ export const RadarPage: React.FC = () => {
     }))
   );
 
-  // Coleta Questões com Armadilhas Explícitas do Simulado
-  const questoesArmadilha = simuladoFundamentos100Q
+  // Coleta Questões com Armadilhas Explícitas de Todos os 10 Simulados Cebraspe (1.000 questões)
+  const todasQuestoesSimulados = SIMULADOS_REGISTRY.flatMap((sim) => sim.questoes);
+  const questoesArmadilha = todasQuestoesSimulados
     .filter((q) => q.armadilhaBanca && q.armadilhaBanca.trim().length > 0)
     .map((q) => ({
       id: q.id,
       numero: q.numero,
       subId: q.submoduloId,
-      macroCodigo: 'M1',
+      macroCodigo: q.macroModuloId,
       item: q.item,
       gabarito: q.gabarito,
       armadilhaBanca: q.armadilhaBanca,
       justificativa: q.justificativa,
-      fonte: q.fonteOriginal.descricao,
+      fonte: q.fonteOriginal?.descricao || 'HNC — Inédita Cebraspe',
     }));
 
   // Filtragem combinada por macro-módulo e submódulo

@@ -24,7 +24,7 @@ import {
 } from '../../domain/tentativas';
 import { Button } from '../common/Button';
 import { selecionarItensPortal, type ItemCandidatoPortal } from '../../domain/portalRevisao';
-import { simuladoFundamentos100Q } from '../../content/questions/m1-fundamentos-100q';
+import { SIMULADOS_REGISTRY } from '../../content/simuladosRegistry';
 import {
   IllustrationPortal,
   IllustrationConclusao,
@@ -99,9 +99,10 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     }
 
     if (etapa.tipo === 'desafio_modulo') {
-      // Para o Módulo 1, utiliza o banco canônico de 100 itens
-      if (etapa.moduloNumero === 1) {
-        return simuladoFundamentos100Q.map((q) => ({
+      // Utiliza o caderno oficial de 100 itens Cebraspe do módulo se disponível (M1 a M10)
+      const simulado = SIMULADOS_REGISTRY.find((s) => s.numero === etapa.moduloNumero);
+      if (simulado && simulado.questoes.length > 0) {
+        return simulado.questoes.map((q) => ({
           id: q.id,
           pergunta: `Item ${q.numero} · Submódulo ${q.submoduloId}`,
           assertiva: q.item,
@@ -112,7 +113,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         }));
       }
 
-      // Para outros módulos, consolida as questões dos submódulos
+      // Para outros módulos complementares (M11 a M13), consolida as questões dos submódulos
       const macro = COURSE_REGISTRY.find((m) => m.numero === etapa.moduloNumero);
       const list: ItemQuiz[] = [];
       if (macro) {

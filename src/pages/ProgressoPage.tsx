@@ -17,7 +17,7 @@ import {
   Info,
   FileText,
 } from 'lucide-react';
-import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { COURSE_REGISTRY } from '../content/registry';
 
 export const ProgressoPage: React.FC = () => {
@@ -64,8 +64,9 @@ export const ProgressoPage: React.FC = () => {
     };
   });
 
+  const todasQuestoesSimulados = SIMULADOS_REGISTRY.flatMap((s) => s.questoes);
   historicoSimulados.forEach((sim) => {
-    simuladoFundamentos100Q.forEach((q) => {
+    todasQuestoesSimulados.forEach((q) => {
       const r = sim.respostas[q.id];
       if (r) {
         if (errosPorSubmodulo[q.submoduloId]) {

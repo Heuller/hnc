@@ -253,6 +253,31 @@ export const SimuladoPage: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  
+function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[] } {
+  if (SUBMODULO_TEMAS[subId]) {
+    return SUBMODULO_TEMAS[subId];
+  }
+  for (const macro of COURSE_REGISTRY) {
+    const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
+    if (filho) {
+      const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
+        ? filho.alertasCebraspe.slice(0, 4)
+        : filho.autoresChave && filho.autoresChave.length > 0
+        ? filho.autoresChave.map((a) => `Doutrina e jurisprudência canônica: ${a}`)
+        : [filho.descricaoCurta];
+      return {
+        titulo: filho.titulo,
+        cobrado: cobradoList,
+      };
+    }
+  }
+  return {
+    titulo: `Submódulo ${subId}`,
+    cobrado: ['Conteúdo e doutrina programática correspondente ao edital nº 1/2026.'],
+  };
+}
+
   const handleNovoSimulado = () => {
     reiniciarSimulado();
     setRelatorioFinal(null);
@@ -297,8 +322,10 @@ export const SimuladoPage: React.FC = () => {
     </div>
   );
 
-    const macroModuloIdx = simuladoAtivo.macroModuloId === 'M2' ? 1 : 0;
-    const moduloAtualSubmodules = COURSE_REGISTRY[macroModuloIdx]?.modulosFilhos || COURSE_REGISTRY[0].modulosFilhos;
+    const moduloAtual = COURSE_REGISTRY.find(
+      (m) => m.codigo.toUpperCase() === simuladoAtivo.macroModuloId.toUpperCase() || m.numero === simuladoAtivo.numero
+    ) || COURSE_REGISTRY[0];
+    const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
     const accessControl = checkSimuladoAccess(
       moduloAtualSubmodules,
       secoesVisualizadas || {},
@@ -610,7 +637,7 @@ export const SimuladoPage: React.FC = () => {
               {Object.entries(quebraSubmodulos).map(([subId, dados]) => {
                 const subNota = dados.certos - dados.errados;
                 const subPercent = Math.max(0, Math.round((subNota / dados.total) * 100));
-                const temaInfo = SUBMODULO_TEMAS[subId];
+                const temaInfo = getSubmoduloTemaInfo(subId);
 
                 return (
                   <div
@@ -655,11 +682,13 @@ export const SimuladoPage: React.FC = () => {
               </h3>
             </div>
             <p className="text-xs sm:text-sm text-ink-2 print:text-gray-700 font-serif mb-4 leading-relaxed">
-              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos 100 itens de Fundamentos:
+              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos 100 itens de {simuladoAtivo.tituloCurto}:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {Object.entries(SUBMODULO_TEMAS).map(([subId, tema]) => (
+              {simuladoAtivo.submodulosIds.map((subId) => {
+                const tema = getSubmoduloTemaInfo(subId);
+                return (
                 <div
                   key={subId}
                   className="p-4 rounded-xl bg-surface-2/70 print:bg-white border border-border print:border-gray-300 space-y-2 print:break-inside-avoid"
@@ -684,7 +713,8 @@ export const SimuladoPage: React.FC = () => {
                     ))}
                   </ul>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 
@@ -713,11 +743,11 @@ export const SimuladoPage: React.FC = () => {
             </div>
 
             {/* Loop por Submódulo */}
-            {(['1.1', '1.2', '1.3', '1.4'] as const).map((subId) => {
+            {simuladoAtivo.submodulosIds.map((subId) => {
               const dadosSub = quebraSubmodulos[subId];
               const subNota = dadosSub ? dadosSub.certos - dadosSub.errados : 0;
               const subPercent = dadosSub ? Math.max(0, Math.round((subNota / dadosSub.total) * 100)) : 0;
-              const temaInfo = SUBMODULO_TEMAS[subId];
+              const temaInfo = getSubmoduloTemaInfo(subId);
 
               // Filtra questões do submódulo e ordena: Erros primeiro, depois Branco, depois Acertos
               const questoesSub = simuladoAtivo.questoes.filter((q) => q.submoduloId === subId);

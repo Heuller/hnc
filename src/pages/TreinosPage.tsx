@@ -18,6 +18,8 @@ import { Button } from '../components/common/Button';
 import { IllustrationDiscursiva } from '../components/illustrations/ContextualIllustrations';
 import { EmblemaM8 } from '../components/illustrations/ModuleEmblems';
 import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import { Award, Layers } from 'lucide-react';
 
 export const TreinosPage: React.FC = () => {
   const {
@@ -39,6 +41,9 @@ export const TreinosPage: React.FC = () => {
   );
 
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
+  const totalSimuladosDisponiveis = SIMULADOS_REGISTRY.length;
+  const totalQuestoesSimulados = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
+  const simuladosConcluidosCount = historicoSimulados?.length || 0;
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
@@ -61,6 +66,45 @@ export const TreinosPage: React.FC = () => {
 
       {/* Grade de Cartões de Treino (Regra F.1) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {/* CARD DOS SIMULADOS OFICIAIS CEBRASPE (100Q) */}
+        <div className="bg-surface border border-accent/30 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden bg-gradient-to-br from-surface to-accent/5">
+          <div className="space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 text-accent flex items-center justify-center">
+                <Award className="w-5 h-5" />
+              </div>
+              <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-accent/10 border border-accent/25 text-accent">
+                {totalSimuladosDisponiveis} Cadernos · {totalQuestoesSimulados}Q
+              </span>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-serif font-bold text-ink">Simulados Oficiais Cebraspe (100Q)</h2>
+              <p className="text-xs text-ink-2 mt-1 leading-relaxed">
+                Baterias canônicas de 100 itens inéditos comentados por macro-módulo (M1 a M10), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
+              </p>
+            </div>
+
+            <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
+              <span>{simuladosConcluidosCount > 0 ? 'Simulados finalizados:' : 'Acervo disponível:'}</span>
+              <span className="font-mono font-bold text-ink">
+                {simuladosConcluidosCount > 0 ? `${simuladosConcluidosCount} de ${totalSimuladosDisponiveis} cadernos` : '10 cadernos temáticos (1.000 itens)'}
+              </span>
+            </div>
+          </div>
+
+          <Button
+            variant="primary"
+            size="md"
+            onClick={() => setActiveView('simulado')}
+            className="w-full flex items-center justify-center gap-2"
+          >
+            <Layers className="w-4 h-4" />
+            <span>Acessar Banco de Simulados</span>
+            <ArrowRight className="w-4 h-4" />
+          </Button>
+        </div>
+
         {/* 1. REVISÃO DO DIA (LEITNER) */}
         <div className="bg-surface border border-border rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden">
           <div className="space-y-3">
