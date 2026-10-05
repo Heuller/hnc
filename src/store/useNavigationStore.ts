@@ -54,15 +54,45 @@ function getViewFromHash(): AppView {
   return 'painel';
 }
 
-export const useNavigationStore = create<NavigationState>((set, get) => {
+const HNC_LAST_SUBMODULE_KEY = 'hnc_ultimo_submodulo';
+
+function getInitialSubmodule(): string {
+  if (typeof window === 'undefined') return '1.1';
+  try {
+    return localStorage.getItem(HNC_LAST_SUBMODULE_KEY) || '1.1';
+  } catch {
+    return '1.1';
+  }
+}
+
+function getSimuladoIdFromHash(): string | undefined {
+  if (typeof window === 'undefined') return undefined;
+  const rawHash = window.location.hash.replace(/^#\/?/, '').trim();
+  if (rawHash.includes('?')) {
+    const params = new URLSearchParams(rawHash.split('?')[1]);
+    const id = params.get('id');
+    if (id) return id;
+  }
+  const parts = rawHash.split('/');
+  if (parts[0] === 'simulado' && parts[1]) {
+    return parts[1];
+  }
+  return undefined;
+}
+
+export const useNavigationStore = create<NavigationState>((set) => {
   const initialView = getViewFromHash();
+  const initialTargetSimulado = getSimuladoIdFromHash();
 
   if (typeof window !== 'undefined') {
     window.addEventListener('hashchange', () => {
       const nextView = getViewFromHash();
-      if (nextView !== get().activeView) {
-        set({ activeView: nextView, currentRoute: nextView });
-      }
+      const nextSimuladoId = getSimuladoIdFromHash();
+      set((state) => ({
+        activeView: nextView,
+        currentRoute: nextView,
+        targetSimuladoId: nextSimuladoId || state.targetSimuladoId,
+      }));
     });
   }
 
@@ -70,7 +100,7 @@ export const useNavigationStore = create<NavigationState>((set, get) => {
     activeView: initialView,
     currentRoute: initialView,
     activeSubmoduleIndex: 0,
-    selectedSubmodule: '1.1',
+    selectedSubmodule: getInitialSubmodule(),
     sidebarCollapsed: false,
     setActiveView: (view: AppView) => {
       if (typeof window !== 'undefined') {
@@ -88,15 +118,22 @@ export const useNavigationStore = create<NavigationState>((set, get) => {
       set({ activeSubmoduleIndex: index });
     },
     setSelectedSubmodule: (subId: string) => {
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem(HNC_LAST_SUBMODULE_KEY, subId);
+        } catch {
+          // ignore
+        }
+      }
       set({ selectedSubmodule: subId });
     },
-    targetSimuladoId: undefined,
+    targetSimuladoId: initialTargetSimulado,
     setTargetSimuladoId: (id?: string) => {
       set({ targetSimuladoId: id });
     },
     navigateToSimulado: (simuladoId?: string) => {
       if (typeof window !== 'undefined') {
-        window.location.hash = '#simulado';
+        window.location.hash = simuladoId ? `#simulado?id=${simuladoId}` : '#simulado';
       }
       set({
         activeView: 'simulado',

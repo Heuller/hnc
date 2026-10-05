@@ -28,6 +28,15 @@ export const SimuladoFinalizadoSchema = z.object({
   }),
 });
 
+export const SessaoSimuladoStateSchema = z.object({
+  simuladoId: z.string(),
+  respostas: z.record(z.string(), RespostaItemSimuladoSchema).default({}),
+  currentIndex: z.number().default(0),
+  emAndamento: z.boolean().default(false),
+  tempoGastoSegundos: z.number().default(0),
+  ultimoAcessoTimestamp: z.number().default(0),
+});
+
 export const UserProgressSchema = z.object({
   versao: z.literal(2),
   modulosLidosIds: z.array(z.string()),
@@ -40,6 +49,8 @@ export const UserProgressSchema = z.object({
     currentIndex: z.number().default(0),
     emAndamento: z.boolean().default(false),
   }).optional(),
+  sessoesSimulados: z.record(z.string(), SessaoSimuladoStateSchema).default({}),
+  ultimoSimuladoAcessadoId: z.string().default('m1-fundamentos'),
   historicoSimulados: z.array(SimuladoFinalizadoSchema).default([]),
   modoLivre: z.boolean().default(false),
   secoesReabertasAposFalha: z.record(z.string(), z.array(z.string())).default({}),
@@ -53,5 +64,6 @@ export const UserProgressSchema = z.object({
 });
 
 export type RespostaItemSimulado = z.infer<typeof RespostaItemSimuladoSchema>;
+export type SessaoSimuladoState = z.infer<typeof SessaoSimuladoStateSchema>;
 export type SimuladoFinalizado = z.infer<typeof SimuladoFinalizadoSchema>;
 export type UserProgress = z.infer<typeof UserProgressSchema>;

@@ -493,7 +493,59 @@ Construído a partir de pesquisa científica prévia (Fase P0) fundamentada nos 
 * **Git e Repositório:** Branch `rodada-3b-ux-portugues` sincronizado com o GitHub remoto (`https://github.com/Heuller/hnc`).
 
 ---
-*Documento atualizado em 03 de Outubro de 2026.*  
+
+## 18. FASE ATUAL: SINCRONIZAÇÃO TOTAL DA JORNADA, ESTUDO REVERSO IMEDIATO, FEEDBACK EM TEMPO REAL E PERSISTÊNCIA COMPLETA DE SESSÕES (SIMULADOS E SUBMÓDULOS)
+
+*Data de Atualização: 05 de Outubro de 2026*  
+*Status de Validação: 281 testes aprovados (27/27 arquivos), TypeScript estrito com 0 erros, Build PWA verificado e sincronizado.*
+
+### 18.1. Exercícios de Associação Autor $\leftrightarrow$ Conceito (`ActiveRetrievalExercises.tsx`)
+- **Seleção Bidirecional Flexível:** O aluno agora pode iniciar tanto pelo Autor quanto pelo Conceito, sem ordem imposta pelo sistema.
+- **Feedback Háptico e Visual Imediato:** Em caso de pareamento incorreto, o card executa animação de vibração (*shake* CSS), muda a borda para vermelho vibrante e apresenta alerta claro instantâneo. Em acertos, exibe borda verde, ícone de confirmação (*check*) e expande os metadados canônicos do conceito com alerta Cebraspe.
+- **Persistência de Conclusão:** Ao completar os 4 pares, a seção `sec-recuperacao-ativa` é gravada no store de progresso com banner comemorativo e pontuação.
+
+### 18.2. Sincronização da Jornada e Desbloqueio Suave (`jornadaEngine.ts`, `useProgressStore.ts`)
+- **Diagnóstico e Eliminação da Trava Artificial:** Anteriormente, a regra de N mínimo de verificação (8 itens) comparava apenas a quantidade de checkpoints da teoria (3 a 4 itens), gerando um bloqueio insolúvel de "faltam itens". A função pura `deriveJornadaState` agora consolida tanto os microcheckpoints quanto os 25 itens do banco oficial Cebraspe para o submódulo, liberando a progressão fluida.
+- **Conclusão Automática por Domínio:** Ao responder os microcheckpoints na [TeoriaPage.tsx](file:///c:/Users/bibli/Downloads/CEBRASPE/curso-revisao/src/pages/TeoriaPage.tsx) com aproveitamento $\ge 85\%$, a etapa do submódulo correspondente é automaticamente concluída na Jornada, desbloqueando instantaneamente o próximo submódulo (1.1 $\to$ 1.2 $\to$ 1.3 $\to$ 1.4 $\to$ Desafio 100Q).
+- **Verificação via Modal com Estudo Reverso:** O quiz dentro da [PortaoVerificacaoModal.tsx](file:///c:/Users/bibli/Downloads/CEBRASPE/curso-revisao/src/components/jornada/PortaoVerificacaoModal.tsx) passou a exibir correção imediata item a item, com gabarito oficial e justificativas técnicas.
+
+### 18.3. Atalho de Continuidade no Fim do Último Submódulo (`TeoriaPage.tsx`, `useNavigationStore.ts`)
+- No término do último submódulo de cada disciplina (ex: 1.4, 2.4, 3.4...), foi integrado um card primário de conclusão da teoria:
+  - Botão de Ação: **"Iniciar Simulado 100Q"** com direcionamento imediato para a página do simulado (`SimuladoPage.tsx`).
+  - Navegação fluida sem exigir que o aluno retorne ao menu da Jornada.
+
+### 18.4. Estudo Reverso Imediato nos Simulados 100Q (`SimuladoPage.tsx`)
+- **Simulados Disciplinares de 100Q (M1 a M14):**
+  - Julgamento com feedback instantâneo ao clicar em CERTO ou ERRADO.
+  - Exibição de pontuação no padrão Cebraspe ($+1$ acerto líquido ou $-1$ ponto líquido de penalidade).
+  - Destaque pedagógico: **"Por que está errada? (Armadilha da Banca)"** e fundamentação técnica oficial.
+- **Mega Simulado Oficial Câmara dos Deputados (120Q):**
+  - Mantido no formato de simulação de prova real (itens e justificativas ocultos durante o teste, liberados integralmente no relatório pós-prova).
+
+### 18.5. Arquitetura de Persistência Total Multi-Simulados e Submódulos (`useProgressStore.ts`, `useNavigationStore.ts`)
+- **Prevenção Definitiva de Perda de Dados (Resiliência a Reload / F5 / Mobile Gestures):**
+  - Criação da entidade `SessaoSimuladoState` no schema Zod (`progress.schema.ts`) e no store Zustand persistente (`sessoesSimulados: Record<string, SessaoSimuladoState>`).
+  - Cada simulado (M1 a M14 + Mega Simulado) possui agora sua sessão isolada, guardando:
+    1. Todas as respostas selecionadas (`C`, `E`, `BRANCO`) e o status de acerto/erro.
+    2. Nível de certeza/chute marcado.
+    3. Índice exato da questão em andamento (`currentIndex`).
+    4. Tempo decorrido de prova em segundos (`tempoGastoSegundos`).
+  - Ao atualizar a página ou alternar abas, o estado é **imediatamente restabelecido**: a questão atual, o cronômetro e a folha de respostas permanecem idênticos.
+  - Finalização universal (`finalizarSimulado`): busca dinâmica pelo manifesto do simulado (`getSimuladoById`), calculando aproveitamento sobre o número real de questões (100 itens para disciplinas e 120 itens para o Mega Simulado) e salvando no histórico.
+- **Persistência de Submódulos na Teoria:**
+  - Armazenamento em `localStorage` da chave `hnc_ultimo_submodulo` e sincronização bidirecional com `useProgressStore.ultimoModuloAcessado`.
+  - Recarregamentos na aba Teoria mantêm o aluno exatamente no submódulo em que estava estudando, preservando o estado dos microcheckpoints.
+- **Deep Links e Rotas:**
+  - Suporte nativo a hash com query (`#simulado?id=m2-catalogacao`), permitindo links diretos para simulados específicos com restauração automática.
+
+### 18.6. Indicadores de Validação Atualizados
+* **Testes Automatizados (Vitest):** 27 arquivos de teste, **281 testes executados com 100% de aprovação (0 falhas)**.
+* **Validação TypeScript (`tsc -b`):** 0 erros, compilação estrita e typesafe.
+* **Build de Produção PWA (`vite build`):** Sucesso absoluto em ~12s com Service Worker e Workbox pré-carregando 132 assets, com code-splitting dedicado para o banco de questões (`content-questions`).
+* **Deploy Produção:** Sincronizado com branch `master` no GitHub (`https://github.com/Heuller/hnc`) e publicado automaticamente na Vercel (`https://heuller.vercel.app/`).
+
+---
+*Documento atualizado em 05 de Outubro de 2026.*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
 
 

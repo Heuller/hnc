@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { SIMULADOS_REGISTRY, getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
+import { SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
@@ -115,12 +115,15 @@ const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
 
 export const SimuladoPage: React.FC = () => {
   const {
-    sessaoAtivaSimulado,
+    ultimoSimuladoAcessadoId,
+    obterSessaoSimulado,
     salvarRespostaSimulado,
     mudarQuestaoSimulado,
     iniciarOuRetomarSimulado,
+    salvarTempoSimulado,
     finalizarSimulado,
     reiniciarSimulado,
+    setSimuladoAtivoId,
     secoesVisualizadas,
     checkpointsRespondidos,
     devBypassSimuladoLock,
@@ -134,17 +137,14 @@ export const SimuladoPage: React.FC = () => {
     setTargetSimuladoId,
   } = useNavigationStore();
 
-  const [tempoInicio] = useState<number>(() => Date.now());
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
 
-  // Seleção de simulado ativo
+  // Seleção de simulado ativo com restauração resiliente de sessão
   const initialSimuladoId = () => {
     if (targetSimuladoId) return targetSimuladoId;
-    const respostasAtuais = sessaoAtivaSimulado?.respostas || {};
-    const firstKey = Object.keys(respostasAtuais)[0];
-    if (firstKey) {
-      return detectSimuladoIdFromQuestionId(firstKey);
+    if (ultimoSimuladoAcessadoId && SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId)) {
+      return ultimoSimuladoAcessadoId;
     }
     return 'm1-fundamentos';
   };
@@ -152,6 +152,7 @@ export const SimuladoPage: React.FC = () => {
   const simuladoAtivo = getSimuladoById(selectedSimuladoId);
   const isMegaSimulado = selectedSimuladoId === 'mega-simulado-camara';
 
+  // Sincroniza navegação externa para o simulado alvo
   useEffect(() => {
     if (targetSimuladoId && targetSimuladoId !== selectedSimuladoId) {
       setSelectedSimuladoId(targetSimuladoId);
@@ -159,14 +160,40 @@ export const SimuladoPage: React.FC = () => {
     }
   }, [targetSimuladoId, selectedSimuladoId, setTargetSimuladoId]);
 
+  // Registra e retoma a sessão do simulado atual
   useEffect(() => {
-    iniciarOuRetomarSimulado();
-  }, [iniciarOuRetomarSimulado]);
+    setSimuladoAtivoId(selectedSimuladoId);
+    iniciarOuRetomarSimulado(selectedSimuladoId);
+  }, [selectedSimuladoId, setSimuladoAtivoId, iniciarOuRetomarSimulado]);
 
-  const currentIndex = sessaoAtivaSimulado?.currentIndex ?? 0;
-  const respostas = sessaoAtivaSimulado?.respostas ?? {};
+  const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
+  const currentIndex = Math.max(
+    0,
+    Math.min((simuladoAtivo.questoes.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
+  );
+  const respostas = sessaoAtual.respostas ?? {};
   const currentQuestion = simuladoAtivo.questoes[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
+
+  // Controle de tempo persistente por simulado (nunca perde ao recarregar a página)
+  const [tempoGasto, setTempoGasto] = useState<number>(() => sessaoAtual.tempoGastoSegundos || 0);
+
+  useEffect(() => {
+    setTempoGasto(sessaoAtual.tempoGastoSegundos || 0);
+  }, [selectedSimuladoId]);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTempoGasto((prev) => {
+        const next = prev + 1;
+        if (next % 5 === 0) {
+          salvarTempoSimulado(selectedSimuladoId, next);
+        }
+        return next;
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [selectedSimuladoId, salvarTempoSimulado]);
 
   // Controle de certeza por questão sem efeitos colaterais em cascata
   const [certezaManualMap, setCertezaManualMap] = useState<
@@ -183,12 +210,12 @@ export const SimuladoPage: React.FC = () => {
     if (currentQuestion) {
       setCertezaManualMap((prev) => ({ ...prev, [currentQuestion.id]: nivel }));
       if (respostaAtual?.resposta && nivel) {
-        salvarRespostaSimulado(currentQuestion.id, respostaAtual.resposta, nivel, respostaAtual.acertou);
+        salvarRespostaSimulado(selectedSimuladoId, currentQuestion.id, respostaAtual.resposta, nivel, respostaAtual.acertou);
       }
     }
   };
 
-  // Placar em tempo real
+  // Placar em tempo real da sessão do simulado atual
   let acertosCount = 0;
   let errosCount = 0;
   let brancoCount = 0;
@@ -212,27 +239,26 @@ export const SimuladoPage: React.FC = () => {
       if (!currentQId || !currentQGabarito) return;
 
       const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQGabarito;
-      salvarRespostaSimulado(currentQId, resposta, certezaSelecionada, acertou);
+      salvarRespostaSimulado(selectedSimuladoId, currentQId, resposta, certezaSelecionada, acertou);
     },
-    [currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado]
+    [selectedSimuladoId, currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado]
   );
 
   const handleNext = useCallback(() => {
     if (currentIndex < simuladoAtivo.questoes.length - 1) {
-      mudarQuestaoSimulado(currentIndex + 1);
+      mudarQuestaoSimulado(currentIndex + 1, selectedSimuladoId);
     }
-  }, [currentIndex, mudarQuestaoSimulado, simuladoAtivo.questoes.length]);
+  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId, simuladoAtivo.questoes.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
-      mudarQuestaoSimulado(currentIndex - 1);
+      mudarQuestaoSimulado(currentIndex - 1, selectedSimuladoId);
     }
-  }, [currentIndex, mudarQuestaoSimulado]);
+  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId]);
 
   // Atalhos de teclado no desktop
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ignora se estiver digitando em input/textarea
       if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) {
         return;
       }
@@ -261,43 +287,42 @@ export const SimuladoPage: React.FC = () => {
   }, [handleJulgar, handleNext, handlePrev]);
 
   const handleFinalizar = () => {
-    const tempoGasto = Math.round((Date.now() - tempoInicio) / 1000);
-    const resultado = finalizarSimulado(tempoGasto);
+    salvarTempoSimulado(selectedSimuladoId, tempoGasto);
+    const resultado = finalizarSimulado(tempoGasto, selectedSimuladoId);
     setRelatorioFinal(resultado);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  
-function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[] } {
-  if (SUBMODULO_TEMAS[subId]) {
-    return SUBMODULO_TEMAS[subId];
-  }
-  for (const macro of COURSE_REGISTRY) {
-    const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
-    if (filho) {
-      const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
-        ? filho.alertasCebraspe.slice(0, 4)
-        : filho.autoresChave && filho.autoresChave.length > 0
-        ? filho.autoresChave.map((a) => `Doutrina e jurisprudência canônica: ${a}`)
-        : [filho.descricaoCurta];
-      return {
-        titulo: filho.titulo,
-        cobrado: cobradoList,
-      };
+  function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[] } {
+    if (SUBMODULO_TEMAS[subId]) {
+      return SUBMODULO_TEMAS[subId];
     }
+    for (const macro of COURSE_REGISTRY) {
+      const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
+      if (filho) {
+        const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
+          ? filho.alertasCebraspe.slice(0, 4)
+          : filho.autoresChave && filho.autoresChave.length > 0
+          ? filho.autoresChave.map((a) => `Doutrina e jurisprudência canônica: ${a}`)
+          : [filho.descricaoCurta];
+        return {
+          titulo: filho.titulo,
+          cobrado: cobradoList,
+        };
+      }
+    }
+    return {
+      titulo: `Submódulo ${subId}`,
+      cobrado: ['Conteúdo e doutrina programática correspondente ao edital nº 1/2026.'],
+    };
   }
-  return {
-    titulo: `Submódulo ${subId}`,
-    cobrado: ['Conteúdo e doutrina programática correspondente ao edital nº 1/2026.'],
-  };
-}
 
   const handleNovoSimulado = () => {
-    reiniciarSimulado();
+    reiniciarSimulado(selectedSimuladoId);
+    setTempoGasto(0);
     setRelatorioFinal(null);
-    iniciarOuRetomarSimulado();
+    iniciarOuRetomarSimulado(selectedSimuladoId);
   };
-
 
   const renderSimuladoSelector = () => (
     <div className="flex flex-wrap items-center gap-2 p-1.5 bg-surface rounded-xl border border-border shadow-xs">
@@ -312,8 +337,9 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
             type="button"
             onClick={() => {
               if (sim.id !== selectedSimuladoId) {
+                salvarTempoSimulado(selectedSimuladoId, tempoGasto);
                 setSelectedSimuladoId(sim.id);
-                mudarQuestaoSimulado(0);
+                setSimuladoAtivoId(sim.id);
               }
             }}
             className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
@@ -1283,14 +1309,14 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
             <Layers className="w-4 h-4 text-accent" />
             <h3 className="font-sans font-bold text-ink text-sm">Folha de Respostas</h3>
           </div>
-          <span className="font-mono text-xs text-ink-2">100 itens</span>
+          <span className="font-mono text-xs text-ink-2">{simuladoAtivo.questoes.length} itens</span>
         </div>
 
         <AnswerSheet
           questions={simuladoAtivo.questoes}
           respostas={respostas}
           currentIndex={currentIndex}
-          onSelectQuestion={(idx) => mudarQuestaoSimulado(idx)}
+          onSelectQuestion={(idx) => mudarQuestaoSimulado(idx, selectedSimuladoId)}
         />
       </aside>
 
@@ -1306,7 +1332,7 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3" />
               <div className="flex items-center justify-between pb-3 border-b border-border">
                 <Drawer.Title className="font-sans font-bold text-ink text-base">
-                  Folha de Respostas (100 Itens)
+                  Folha de Respostas ({simuladoAtivo.questoes.length} Itens)
                 </Drawer.Title>
                 <Drawer.Description className="sr-only">
                   Grade de resposta das questões
@@ -1319,7 +1345,7 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
                   respostas={respostas}
                   currentIndex={currentIndex}
                   onSelectQuestion={(idx) => {
-                    mudarQuestaoSimulado(idx);
+                    mudarQuestaoSimulado(idx, selectedSimuladoId);
                     setIsAnswerSheetMobileOpen(false);
                   }}
                 />

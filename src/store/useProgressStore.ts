@@ -3,9 +3,9 @@ import { persist } from 'zustand/middleware';
 import type {
   UserProgress,
   SimuladoFinalizado,
+  SessaoSimuladoState,
 } from '../domain/schemas/progress.schema';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
-import { simuladoCatalogacao100Q } from '../content/questions/m2-catalogacao-100q';
 import { COURSE_REGISTRY } from '../content/registry';
 import { calculateSubmoduleStatus, isSubmoduleConcluido } from '../domain/learningEngine';
 import {
@@ -20,6 +20,7 @@ import { criarTentativaRegistro } from '../domain/tentativas';
 import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
 import type { TermoSalvo } from '../domain/dicionario/types';
+import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
@@ -46,17 +47,21 @@ interface ProgressStoreState extends UserProgress {
   setModoLivre: (ativo: boolean) => void;
   getJornadaState: () => JornadaState;
   sincronizarTentativasNuvem: () => Promise<void>;
-  // Simulado
-  iniciarOuRetomarSimulado: () => void;
+  // Simulado com persistência total multi-simulados
+  obterSessaoSimulado: (simuladoId: string) => SessaoSimuladoState;
+  iniciarOuRetomarSimulado: (simuladoId?: string) => void;
   salvarRespostaSimulado: (
-    questionId: string,
-    resposta: 'C' | 'E' | 'BRANCO',
-    certeza?: 'certeza' | 'provavel' | 'chute',
-    acertou?: boolean
+    arg1: string,
+    arg2: string | ('C' | 'E' | 'BRANCO'),
+    arg3?: ('C' | 'E' | 'BRANCO') | ('certeza' | 'provavel' | 'chute'),
+    arg4?: ('certeza' | 'provavel' | 'chute') | boolean,
+    arg5?: boolean
   ) => void;
-  mudarQuestaoSimulado: (index: number) => void;
+  mudarQuestaoSimulado: (index: number, simuladoId?: string) => void;
+  salvarTempoSimulado: (simuladoId: string, segundos: number) => void;
   finalizarSimulado: (tempoGastoSegundos: number, simuladoId?: string) => SimuladoFinalizado;
-  reiniciarSimulado: () => void;
+  reiniciarSimulado: (simuladoId?: string) => void;
+  setSimuladoAtivoId: (simuladoId: string) => void;
   // Backup e Restauração
   exportarProgressoJson: () => string;
   exportarResumoMarkdown: () => string;
@@ -92,6 +97,8 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
     currentIndex: 0,
     emAndamento: false,
   },
+  sessoesSimulados: {},
+  ultimoSimuladoAcessadoId: 'm1-fundamentos',
   historicoSimulados: [],
   modoLivre: false,
   secoesReabertasAposFalha: {},
@@ -417,25 +424,113 @@ export const useProgressStore = create<ProgressStoreState>()(
         set({ ultimoModuloAcessado: moduloId });
       },
 
-      iniciarOuRetomarSimulado: () => {
-        set((state) => ({
+      setSimuladoAtivoId: (simuladoId: string) => {
+        set({ ultimoSimuladoAcessadoId: simuladoId });
+      },
+
+      obterSessaoSimulado: (simuladoId: string) => {
+        const state = get();
+        const sessoes = state.sessoesSimulados || {};
+        if (sessoes[simuladoId]) {
+          return sessoes[simuladoId];
+        }
+        // Fallback para sessaoAtivaSimulado se compatível
+        if (state.sessaoAtivaSimulado && state.sessaoAtivaSimulado.emAndamento) {
+          const firstKey = Object.keys(state.sessaoAtivaSimulado.respostas || {})[0];
+          if (firstKey && detectSimuladoIdFromQuestionId(firstKey) === simuladoId) {
+            return {
+              simuladoId,
+              respostas: state.sessaoAtivaSimulado.respostas || {},
+              currentIndex: state.sessaoAtivaSimulado.currentIndex || 0,
+              emAndamento: true,
+              tempoGastoSegundos: 0,
+              ultimoAcessoTimestamp: Date.now(),
+            };
+          }
+        }
+        return {
+          simuladoId,
+          respostas: {},
+          currentIndex: 0,
+          emAndamento: false,
+          tempoGastoSegundos: 0,
+          ultimoAcessoTimestamp: Date.now(),
+        };
+      },
+
+      iniciarOuRetomarSimulado: (simuladoIdParam?: string) => {
+        const state = get();
+        const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
+        const sessoes = state.sessoesSimulados || {};
+        const sessaoAtual = sessoes[simuladoId] || {
+          simuladoId,
+          respostas: {},
+          currentIndex: 0,
+          emAndamento: true,
+          tempoGastoSegundos: 0,
+          ultimoAcessoTimestamp: Date.now(),
+        };
+
+        const novaSessao: SessaoSimuladoState = {
+          ...sessaoAtual,
+          emAndamento: true,
+          ultimoAcessoTimestamp: Date.now(),
+        };
+
+        set({
+          ultimoSimuladoAcessadoId: simuladoId,
+          sessoesSimulados: {
+            ...sessoes,
+            [simuladoId]: novaSessao,
+          },
           sessaoAtivaSimulado: {
-            respostas: state.sessaoAtivaSimulado?.respostas || {},
-            currentIndex: state.sessaoAtivaSimulado?.currentIndex || 0,
+            respostas: novaSessao.respostas,
+            currentIndex: novaSessao.currentIndex,
             emAndamento: true,
           },
-        }));
+        });
       },
 
       salvarRespostaSimulado: (
-        questionId: string,
-        resposta: 'C' | 'E' | 'BRANCO',
-        certeza?: 'certeza' | 'provavel' | 'chute',
-        acertou?: boolean
+        arg1: string,
+        arg2: string | ('C' | 'E' | 'BRANCO'),
+        arg3?: ('C' | 'E' | 'BRANCO') | ('certeza' | 'provavel' | 'chute'),
+        arg4?: ('certeza' | 'provavel' | 'chute') | boolean,
+        arg5?: boolean
       ) => {
+        let simuladoId: string;
+        let questionId: string;
+        let resposta: 'C' | 'E' | 'BRANCO';
+        let certeza: 'certeza' | 'provavel' | 'chute' | undefined;
+        let acertou: boolean | undefined;
+
+        if (typeof arg2 === 'string' && (arg2 === 'C' || arg2 === 'E' || arg2 === 'BRANCO')) {
+          questionId = arg1;
+          resposta = arg2;
+          certeza = arg3 as ('certeza' | 'provavel' | 'chute' | undefined);
+          acertou = arg4 as (boolean | undefined);
+          simuladoId = detectSimuladoIdFromQuestionId(questionId);
+        } else {
+          simuladoId = arg1;
+          questionId = arg2 as string;
+          resposta = arg3 as ('C' | 'E' | 'BRANCO');
+          certeza = arg4 as ('certeza' | 'provavel' | 'chute' | undefined);
+          acertou = arg5;
+        }
+
         set((state) => {
-          const respostas = {
-            ...(state.sessaoAtivaSimulado?.respostas || {}),
+          const sessoes = state.sessoesSimulados || {};
+          const sessaoAtual = sessoes[simuladoId] || {
+            simuladoId,
+            respostas: {},
+            currentIndex: 0,
+            emAndamento: true,
+            tempoGastoSegundos: 0,
+            ultimoAcessoTimestamp: Date.now(),
+          };
+
+          const novasRespostas = {
+            ...sessaoAtual.respostas,
             [questionId]: {
               questionId,
               resposta,
@@ -445,36 +540,91 @@ export const useProgressStore = create<ProgressStoreState>()(
             },
           };
 
+          const novaSessao: SessaoSimuladoState = {
+            ...sessaoAtual,
+            respostas: novasRespostas,
+            emAndamento: true,
+            ultimoAcessoTimestamp: Date.now(),
+          };
+
           return {
+            ultimoSimuladoAcessadoId: simuladoId,
+            sessoesSimulados: {
+              ...sessoes,
+              [simuladoId]: novaSessao,
+            },
             sessaoAtivaSimulado: {
-              currentIndex: state.sessaoAtivaSimulado?.currentIndex ?? 0,
+              currentIndex: novaSessao.currentIndex,
               emAndamento: true,
-              respostas,
+              respostas: novasRespostas,
             },
           };
         });
       },
 
-      mudarQuestaoSimulado: (index: number) => {
-        set((state) => ({
-          sessaoAtivaSimulado: {
-            respostas: state.sessaoAtivaSimulado?.respostas || {},
-            currentIndex: Math.max(0, Math.min(99, index)),
+      mudarQuestaoSimulado: (index: number, simuladoIdParam?: string) => {
+        set((state) => {
+          const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
+          const sessoes = state.sessoesSimulados || {};
+          const sessaoAtual = sessoes[simuladoId] || {
+            simuladoId,
+            respostas: {},
+            currentIndex: 0,
             emAndamento: true,
-          },
-        }));
+            tempoGastoSegundos: 0,
+            ultimoAcessoTimestamp: Date.now(),
+          };
+
+          const novaSessao: SessaoSimuladoState = {
+            ...sessaoAtual,
+            currentIndex: Math.max(0, index),
+            emAndamento: true,
+            ultimoAcessoTimestamp: Date.now(),
+          };
+
+          return {
+            ultimoSimuladoAcessadoId: simuladoId,
+            sessoesSimulados: {
+              ...sessoes,
+              [simuladoId]: novaSessao,
+            },
+            sessaoAtivaSimulado: {
+              respostas: novaSessao.respostas,
+              currentIndex: Math.max(0, index),
+              emAndamento: true,
+            },
+          };
+        });
+      },
+
+      salvarTempoSimulado: (simuladoId: string, segundos: number) => {
+        set((state) => {
+          const sessoes = state.sessoesSimulados || {};
+          const sessaoAtual = sessoes[simuladoId];
+          if (!sessaoAtual) return {};
+          return {
+            sessoesSimulados: {
+              ...sessoes,
+              [simuladoId]: {
+                ...sessaoAtual,
+                tempoGastoSegundos: segundos,
+                ultimoAcessoTimestamp: Date.now(),
+              },
+            },
+          };
+        });
       },
 
       finalizarSimulado: (tempoGastoSegundos: number, simuladoIdParam?: string) => {
         const state = get();
-        const respostas = state.sessaoAtivaSimulado?.respostas || {};
+        const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
+        const sessoes = state.sessoesSimulados || {};
+        const sessao = sessoes[simuladoId] || state.sessaoAtivaSimulado || { respostas: {} };
+        const respostas = sessao.respostas || {};
 
-        const hasM2Questions = Object.keys(respostas).some((k) => k.startsWith('cat-q-'));
-        const simuladoId = simuladoIdParam || (hasM2Questions ? 'm2-catalogacao' : 'm1-fundamentos');
-        const questoes = simuladoId === 'm2-catalogacao' ? simuladoCatalogacao100Q : simuladoFundamentos100Q;
-        const tituloSimulado = simuladoId === 'm2-catalogacao'
-          ? 'Simulado M2: Catalogação, RDA, LRM & MARC 21'
-          : 'Simulado M1: 100 Itens de Fundamentos';
+        const manifest = getSimuladoById(simuladoId);
+        const questoes = manifest?.questoes || simuladoFundamentos100Q;
+        const tituloSimulado = manifest?.titulo || 'Simulado Oficial Cebraspe';
 
         let certos = 0;
         let errados = 0;
@@ -516,7 +666,8 @@ export const useProgressStore = create<ProgressStoreState>()(
         });
 
         const notaLiquida = certos - errados;
-        const aproveitamentoPercent = Math.max(0, Math.round((notaLiquida / 100) * 100));
+        const totalQuestoes = Math.max(1, questoes.length);
+        const aproveitamentoPercent = Math.max(0, Math.round((notaLiquida / totalQuestoes) * 100));
 
         const acertoCertezaPercent =
           certezaTotal > 0 ? Math.round((certezaAcertos / certezaTotal) * 100) : 0;
@@ -549,14 +700,27 @@ export const useProgressStore = create<ProgressStoreState>()(
           },
         };
 
-        set((prevState) => ({
-          historicoSimulados: [resultado, ...prevState.historicoSimulados],
+        const novasSessoes = {
+          ...sessoes,
+          [simuladoId]: {
+            simuladoId,
+            respostas: {},
+            currentIndex: 0,
+            emAndamento: false,
+            tempoGastoSegundos: 0,
+            ultimoAcessoTimestamp: Date.now(),
+          },
+        };
+
+        set({
+          historicoSimulados: [resultado, ...state.historicoSimulados],
+          sessoesSimulados: novasSessoes,
           sessaoAtivaSimulado: {
             respostas: {},
             currentIndex: 0,
             emAndamento: false,
           },
-        }));
+        });
 
         // Sincroniza tentativa com o Supabase se usuário estiver autenticado
         try {
@@ -572,8 +736,22 @@ export const useProgressStore = create<ProgressStoreState>()(
         return resultado;
       },
 
-      reiniciarSimulado: () => {
+      reiniciarSimulado: (simuladoIdParam?: string) => {
+        const state = get();
+        const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
+        const sessoes = state.sessoesSimulados || {};
         set({
+          sessoesSimulados: {
+            ...sessoes,
+            [simuladoId]: {
+              simuladoId,
+              respostas: {},
+              currentIndex: 0,
+              emAndamento: false,
+              tempoGastoSegundos: 0,
+              ultimoAcessoTimestamp: Date.now(),
+            },
+          },
           sessaoAtivaSimulado: {
             respostas: {},
             currentIndex: 0,

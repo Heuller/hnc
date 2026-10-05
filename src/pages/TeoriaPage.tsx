@@ -47,6 +47,7 @@ export const TeoriaPage: React.FC = () => {
     registrarSecaoVisualizada,
     salvarCheckpoint,
     resetarCheckpoint,
+    ultimoModuloAcessado,
     setUltimoModuloAcessado,
   } = useProgressStore();
 
@@ -64,10 +65,15 @@ export const TeoriaPage: React.FC = () => {
   // Lista plana de todos os submódulos do curso (40 submódulos, 1.1 a 10.4)
   const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
 
-  // Submódulo ativo selecionado
+  // Submódulo ativo selecionado (com recuperação resiliente de sessão)
+  const targetSubId =
+    selectedSubmodule !== '1.1'
+      ? selectedSubmodule
+      : (ultimoModuloAcessado || selectedSubmodule);
+
   const currentSub =
     allSubmodules.find(
-      (s) => s.numero === selectedSubmodule || s.id === selectedSubmodule
+      (s) => s.numero === targetSubId || s.id === targetSubId
     ) || allSubmodules[0];
 
   // Macro-módulo pai correspondente
