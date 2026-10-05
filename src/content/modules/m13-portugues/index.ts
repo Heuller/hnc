@@ -16,7 +16,7 @@ export const moduloM13Portugues: MacroModulo = {
   status: 'disponivel',
   trilha: 'complementar',
   avisoVerificacao:
-    'Trilha Complementar (Gerais provisórios até publicação do edital) · Conteúdo elaborado com assistência de IA e fontes primárias canônicas',
+    'Conhecimentos Básicos Oficiais (Edital nº 1/2026) — Língua Portuguesa Completo estruturado segundo a banca Cebraspe',
   simuladoDisponivel: true,
   modulosFilhos: [
     submodulo131,
