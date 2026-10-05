@@ -9,48 +9,73 @@ export const submodulo101: ModuloFilho = {
   autoresChave: ['Câmara dos Deputados', 'Regimento Interno da Câmara dos Deputados (RICD)', 'Regimento Comum do Congresso Nacional (RCCN)'],
   alertasCebraspe: [
     'A Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo) integra a estrutura do Centro de Documentação e Informação (Cedi), subordinado à Diretoria-Geral, prestando consultoria e apoio bibliográfico prioritário aos parlamentares, comissões e consultorias legislativas.',
-    'A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI): coordenada pela Biblioteca do Senado Federal, congrega bibliotecas dos três Poderes (incluindo Câmara dos Deputados, STF, STJ, TST, TSE, TCU e ministérios) compartilhando base de dados catalográfica e autoridades.',
-    'No RICD, as Comissões Permanentes manifestam-se obrigatoriamente sobre as proposições: a Comissão de Constituição e Justiça e de Cidadania (CCJC) examina a admissibilidade jurídica e constitucional de todas as matérias.',
-    'Publicações do Congresso Nacional: o Diário da Câmara dos Deputados (DCD) publica os discursos em plenário, projetos apresentados e pareceres das comissões técnicas.',
+    'A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI): coordenada pela Secretaria de Biblioteca e Arquivo do Senado Federal, congrega bibliotecas dos três Poderes compartilhando base de dados catalográfica e autoridades em formato MARC 21.',
+    'Vedação aos membros da Mesa Diretora (Art. 24, § 1º do RICD - Câmara 2026 Técnico): os membros titulares e os suplentes da Mesa Diretora NÃO podem integrar nenhuma Comissão Permanente, Comissão Especial ou Comissão Parlamentar de Inquérito (CPI).',
+    'Blocos Parlamentares (Câmara 2026): partidos em bloco perdem atribuições de suas lideranças individuais em favor da liderança unificada do bloco; se a desfiliação de parlamentar reduzir o bloco abaixo do número mínimo, o bloco é extinto de imediato, não perdurando até o fim da legislatura.',
+    'Fases da Sessão Ordinária (Arts. 65 a 94 do RICD - Câmara 2026 Técnico): a ordem canônica compreende 1) Pequeno Expediente (60 min); 2) Grande Expediente (50 min); 3) Ordem do Dia (fase deliberativa/votação); e 4) Comunicações Parlamentares.',
+    'Regimento Comum do Congresso Nacional (RCCN): a Mesa do Congresso é presidida pelo Presidente do Senado Federal, sendo substituído sucessivamente pelo 1º Vice-Presidente da Câmara dos Deputados.',
   ],
   quadroComparativo: {
-    titulo: 'Estrutura e Órgãos da Câmara dos Deputados e a Inserção da Informação',
+    titulo: 'Estrutura e Órgãos da Câmara dos Deputados e a Inserção da Informação (RICD)',
     colunas: ['Órgão / Instância', 'Natureza Institucional', 'Função Constitucional / Regimental', 'Relação com a Biblioteca e Documentação'],
     linhas: [
-      ['Mesa Diretora', 'Órgão de Direção Executiva', 'Preside os trabalhos legislativos e administra os serviços da Casa (Presidente e 6 membros)', 'Aprova atos da Mesa sobre estruturação, contratações e preservação patrimonial'],
-      ['Plenário', 'Órgão Deliberativo Supremo', 'Reunião de todos os 513 deputados para votação final das proposições', 'Recebe subsídios de pesquisa, notas técnicas e informações das bases da biblioteca'],
-      ['Comissões Permanentes', 'Órgãos Temáticos de Instrução', 'Analisam o mérito e a constitucionalidade das proposições (ex.: CCJC, CFT)', 'Consomem acervo doutrinário e jurisprudencial especializado para instruir pareceres'],
-      ['Centro de Documentação (Cedi)', 'Órgão Técnico Administrativo', 'Preserva a memória legislativa, gere a biblioteca, o arquivo e as edições da Câmara', 'Abriga a Biblioteca Pedro Aleixo, o Arquivo Histórico e o Museu da Câmara'],
+      ['Mesa Diretora (arts. 1º a 24)', 'Órgão de Direção Executiva', 'Preside os trabalhos legislativos e administra os serviços da Casa (Presidente e 6 secretários/vices)', 'Aprova atos da Mesa sobre estruturação, regulamentos internos e segurança da informação'],
+      ['Comissões Permanentes (art. 24)', 'Órgãos Temáticos de Instrução', 'Analisam mérito e juridicidade (ex.: CCJC); membros da Mesa são vedados de participar', 'Consomem acervo doutrinário, notas técnicas e bases legislativas para instruir pareceres'],
+      ['Sessão Ordinária (arts. 65 a 94)', 'Instância Deliberativa', 'Sequência: Pequeno Expediente, Grande Expediente, Ordem do Dia e Comunicações Parlamentares', 'Registros taquigráficos integrais e discursos publicados no Diário da Câmara (DCD)'],
+      ['Deputados (arts. 226 a 251)', 'Parlamentares Federais', 'Prerrogativas, imunidades, deveres de decoro, licenças e hipóteses de perda de mandato', 'Usuários prioritários da consultoria legislativa, pesquisas e bases documentais'],
+      ['Administração Interna (arts. 262 a 273)', 'Estrutura de Apoio e Polícia', 'Polícia da Câmara subordinada ao Presidente; gestão patrimonial e funcional', 'Abriga o Cedi (Biblioteca Pedro Aleixo, Arquivo Histórico e Museu da Câmara)'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Câmara dos Deputados no Ordenamento Constitucional
+  teoriaDensaMarkdown: `### 1. A Câmara dos Deputados e o Regimento Interno (RICD)
 
-Conforme a Constituição da República Federativa do Brasil de 1988 (Arts. 44 a 58), o Poder Legislativo da União é exercido pelo **Congresso Nacional**, que se compõe da **Câmara dos Deputados** (representantes do povo, eleitos pelo sistema proporcional em cada Estado e no Distrito Federal) e do **Senado Federal** (representantes dos Estados e do DF, eleitos pelo sistema majoritário):
+O Regimento Interno da Câmara dos Deputados (Resolução nº 17/1989 e alterações) disciplina a organização interna, o processo legislativo e os órgãos colegiados da Casa do Povo:
 
-* **O Bicameralismo Federal:** O processo legislativo brasileiro é bicameral e revisor. A Câmara atua na imensa maioria das vezes como **Casa Iniciadora** dos projetos de lei e das reformas constitucionais apresentadas por deputados, pelo Presidente da República, pelos Tribunais Superiores ou por iniciativa popular.
-
----
-
-### 2. O Centro de Documentação e Informação (Cedi) e a Biblioteca Pedro Aleixo
-
-A **Biblioteca Pedro Aleixo** da Câmara dos Deputados é uma das maiores e mais ricas bibliotecas parlamentares do mundo:
-* **Estrutura Organizacional:** Integra o **Centro de Documentação e Informação (Cedi)**, atuando de forma integrada com a Coordenação de Arquivo, a Coordenação de Preservação e as Edições Câmara.
-* **Missão Primordial:** Subsidiar com agilidade, precisão e confidencialidade o trabalho dos parlamentares, das Comissões Técnicas, da Consultoria Legislativa (Conle), da Consultoria de Orçamento (Conof) e oferecer à sociedade transparência e acesso ao patrimônio histórico legislativo brasileiro.
-* **A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI):**
-  * Criada originariamente na década de 1970 a partir do pioneiro sistema SABI e da cooperação entre Câmara e Senado.
-  * É uma rede cooperativa de bibliotecas públicas federais coordenada pela Biblioteca do Senado, adotando a catalogação cooperativa, o formato MARC 21, as regras do AACR2/RDA e a Classificação Decimal de Direito (CDDir).
+#### A. Órgãos da Câmara e a Mesa Diretora (Arts. 1º a 24 do RICD)
+* **Composição da Mesa:** Composta pelo Presidente, 1º e 2º Vice-Presidentes e por 4 Secretários (com 4 suplentes de secretários).
+* **Vedação Absoluta aos Membros da Mesa (*⚠️ Pegadinha Cebraspe - Câmara 2026*):**
+  * Conforme o **art. 24, § 1º do RICD**, os membros da Mesa Diretora (titulares e suplentes) **não podem fazer parte de nenhuma Comissão Permanente, Comissão Especial ou Comissão Parlamentar de Inquérito (CPI)**.
+* **Lideranças e Blocos Parlamentares (*⚠️ Cobrado na Câmara 2026*):**
+  * Os partidos podem se agrupar em **Blocos Parlamentares**.
+  * A constituição do bloco importa a **perda das atribuições e prerrogativas das lideranças individuais** de cada partido que o compõe, as quais são exercidas exclusivamente pela liderança do bloco.
+  * A desfiliação partidária ou saída de deputados que reduza o bloco a número inferior ao exigido importa a **extinção imediata do bloco**, sendo vedada sua manutenção artificial até o fim da legislatura.
 
 ---
 
-### 3. As Comissões da Câmara e o Ciclo da Informação Regimental
+### 2. Sessões da Câmara dos Deputados (Arts. 65 a 94 do RICD)
 
-O Regimento Interno da Câmara dos Deputados (RICD) organiza o trabalho parlamentar em Comissões:
-1. **Comissões Permanentes:** Colegiados temáticos especializados que instruem as propostas antes da ida a Plenário.
-   * *A Comissão de Constituição e Justiça e de Cidadania (CCJC):* É a mais importante, incumbida de emitir parecer sobre a constitucionalidade, legalidade, juridicidade e técnica legislativa de todas as proposições.
-   * *A Comissão de Finanças e Tributação (CFT):* Examina a compatibilidade orçamentária e financeira de qualquer projeto com impacto no erário.
-2. **Poder Conclusivo das Comissões (Art. 24, II do RICD):**
-   * Em muitos casos, os projetos de lei tramitam em caráter conclusivo nas comissões, sendo aprovados definitivamente sem necessidade de votação em Plenário, salvo se houver recurso de 1/10 dos deputados.
-   * Nesses cenários, a fundamentação bibliográfica e documental fornecida pela biblioteca aos relatores é decisiva para o texto final da lei.`,
+As reuniões do Plenário realizam-se em sessões Ordinárias, Extraordinárias, Solenes ou Preparatórias:
+
+* **Estrutura Cronológica da Sessão Ordinária (*Alerta Cebraspe - Câmara 2026 Técnico*):**
+  1. **Pequeno Expediente:** Duração improrrogável de 60 minutos, destinado a oradores previamente inscritos para discursos breves de até 5 minutos.
+  2. **Grande Expediente:** Duração improrrogável de 50 minutos, com discursos de até 25 minutos para parlamentares sorteados.
+  3. **Ordem do Dia:** Fase deliberativa central e obrigatória da sessão, destinada à discussão e à votação das proposições legislativas constantes da pauta oficial.
+  4. **Comunicações Parlamentares:** Período final da sessão para manifestações de líderes partidários e deputados com tempo residual.
+
+---
+
+### 3. Estatuto dos Deputados Federais (Arts. 226 a 251 do RICD)
+
+* **Direitos e Prerrogativas:** Inviolabilidade civil e penal por opiniões, palavras e votos (imunidade material); foro por prerrogativa de função e proteção contra prisão cautelar arbitrária (imunidade formal).
+* **Licenças e Vacância:** O deputado pode licenciar-se por motivo de saúde ou para tratar de interesse particular (sem remuneração, por prazo não superior a 120 dias por sessão legislativa). Se o afastamento for superior a 120 dias, convoca-se compulsoriamente o suplente diplomado.
+* **Perda do Mandato:** Processada nos termos do art. 55 da CF/88, seja por declaração da Mesa (nos casos de faltas a 1/3 das sessões ordinárias ou perda de direitos políticos) ou por deliberação do Plenário em escrutínio aberto por maioria absoluta (por quebra de decoro ou condenação criminal transitada em julgado).
+
+---
+
+### 4. Administração, Economia Interna e o CEDI (Arts. 262 a 273 do RICD)
+
+* **Polícia da Câmara:** O policiamento do edifício e dependências externas da Câmara dos Deputados compete exclusivamente à sua Polícia Legislativa, subordinada à Mesa Diretora e sob a direção do Presidente da Casa.
+* **O Centro de Documentação e Informação (Cedi) e a Biblioteca Pedro Aleixo:**
+  * O Cedi integra a estrutura administrativa da Câmara, unificando a gestão documental, arquivística, museológica e bibliotecária.
+  * **A Biblioteca Pedro Aleixo:** Uma das maiores bibliotecas parlamentares do mundo. Fornece apoio prioritário às Comissões Técnicas, aos gabinetes de deputados e às Consultorias Legislativa (Conle) e de Orçamento (Conof).
+  * **Cooperação RVBI:** A biblioteca integra ativamente a Rede Virtual de Bibliotecas do Congresso Nacional, cuja instituição coordenadora e polo administrativo é a **Secretaria de Biblioteca e Arquivo do Senado Federal**.
+
+---
+
+### 5. Regimento Comum do Congresso Nacional (RCCN)
+
+* **Competência e Sessões Conjuntas:** Aplicável às sessões em que a Câmara dos Deputados e o Senado Federal deliberam em conjunto (abertura do ano legislativo, posse presidencial, apreciação de vetos presidenciais e deliberação sobre leis orçamentárias — PPA, LDO e LOA).
+* **Mesa do Congresso:** Presidida pelo Presidente do Senado Federal; o 1º Vice-Presidente da Câmara assume a primeira vice-presidência da Mesa do Congresso, garantindo a paridade bicameral.
+* **Comissão Mista de Orçamento (CMO - Art. 166, § 1º da CF/88):** Composta por deputados e senadores, responsável por emitir parecer prévio e emendas a todos os projetos orçamentários da União antes da votação em Plenário conjunto.`,
   checkpoints: [
     {
       id: 'cp-10-1-1',
@@ -61,34 +86,41 @@ O Regimento Interno da Câmara dos Deputados (RICD) organiza o trabalho parlamen
     },
     {
       id: 'cp-10-1-2',
-      pergunta: 'Micro-Checkpoint 2: Coordenação da Rede Virtual de Bibliotecas (RVBI)',
-      item: 'A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) é uma rede de catalogação cooperativa gerida e coordenada exclusivamente pela Presidência da República.',
+      pergunta: 'Micro-Checkpoint 2: Vedação de Membros da Mesa em Comissões (RICD)',
+      item: 'De acordo com o Regimento Interno da Câmara dos Deputados, os membros que compõem a Mesa Diretora podem exercer simultaneamente a presidência de comissões permanentes e participar como membros titulares de comissões parlamentares de inquérito.',
       gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe cobrou esse item em diversos concursos (ALECE, STJ). A RVBI é coordenada historicamente pela Biblioteca do Senado Federal, em cooperação com a Câmara dos Deputados e demais órgãos.',
+      justificativa: 'Errado! Item cobrado na prova da Câmara 2026 Técnico. O art. 24, § 1º do RICD proíbe expressamente que membros titulares e suplentes da Mesa façam parte de comissões permanentes, especiais ou de CPI.',
     },
-      {
+    {
       id: 'cp-10-1-3',
-      pergunta: "Micro-Checkpoint 3: Missão e Acervo Histórico da Biblioteca da Câmara",
-      item: "A Biblioteca Pedro Aleixo da Câmara dos Deputados destina-se exclusivamente ao atendimento interno de deputados em exercício, sendo vedado o acesso ou empréstimo presencial de suas obras a pesquisadores e cidadãos comuns.",
-      gabarito: 'E',
-      justificativa: "Errado! Embora sua missão precípua seja subsidiar o processo legislativo e os parlamentares, a Biblioteca da Câmara dos Deputados é aberta ao público em geral para consulta presencial de seu expressivo acervo de ciências sociais e jurídicas.",
+      pergunta: 'Micro-Checkpoint 3: Dissolução de Blocos Parlamentares',
+      item: 'Na hipótese de desfiliação de deputados que reduza a composição de um bloco parlamentar a número inferior ao exigido no regimento, o bloco é extinto de imediato.',
+      gabarito: 'C',
+      justificativa: 'Certo! Questão cobrada na prova da Câmara 2026. A perda de integrantes que deixe o bloco abaixo do limite legal extingue-o sumariamente, não subsistindo até o término da legislatura.',
     },
   ],
   mnemonicos: {
     timeline: [
       {
         id: 'tl-10-1-1',
-        periodo: '1823 / 1960',
-        disciplina: 'História da Biblioteca da Câmara',
-        focoPrincipal: 'Criação da Livraria da Câmara no Rio de Janeiro e posterior transferência para Brasília',
-        figuraChave: 'Câmara dos Deputados',
+        periodo: '1989',
+        disciplina: 'RICD',
+        focoPrincipal: 'Promulgação da Resolução nº 17/1989 (Regimento Interno da Câmara dos Deputados)',
+        figuraChave: 'Mesa Diretora da Câmara dos Deputados',
       },
       {
         id: 'tl-10-1-2',
-        periodo: '1972 / 2000',
+        periodo: '1970 / 2000',
         disciplina: 'Rede Cooperativa do Congresso',
-        focoPrincipal: 'Criação do Sistema SABI e consolidação da Rede Virtual de Bibliotecas (RVBI)',
+        focoPrincipal: 'Criação do Sistema SABI e consolidação da Rede Virtual de Bibliotecas (RVBI polo Senado)',
         figuraChave: 'Senado Federal e Câmara dos Deputados',
+      },
+      {
+        id: 'tl-10-1-3',
+        periodo: '2026',
+        disciplina: 'Jurisprudência Regimental',
+        focoPrincipal: 'Decisões da Presidência da Câmara sobre extinção de blocos partidários e prerrogativas de liderança',
+        figuraChave: 'Plenário da Câmara dos Deputados',
       },
     ],
     autores: [
@@ -98,29 +130,29 @@ O Regimento Interno da Câmara dos Deputados (RICD) organiza o trabalho parlamen
         ano: 1989,
         obraPrincipal: 'Regimento Interno da Câmara dos Deputados (RICD)',
         ideiaChave: 'Norma interna de ordem e processo legislativo; funcionamento do Plenário, Comissões e Cedi.',
-        chipPegadinha: 'A CCJC analisa constitucionalidade de todas as proposições.',
+        chipPegadinha: 'Membros da Mesa Diretora não podem participar de comissões permanentes, especiais ou CPI.',
       },
       {
         id: 'aut-10-1-2',
-        nome: 'Biblioteca Pedro Aleixo (Câmara dos Deputados)',
-        ano: 2023,
-        obraPrincipal: 'Regulamento e Carta de Serviços da Biblioteca da Câmara dos Deputados',
-        ideiaChave: 'Subordinação ao Centro de Documentação e Informação (Cedi) da Diretoria Legislativa; atendimento prioritário a parlamentares e comissões.',
-        chipPegadinha: 'A Biblioteca da Câmara integra a Rede Virtual de Bibliotecas (RVBI), cuja biblioteca polo/coordenadora é a do Senado Federal.',
+        nome: 'Congresso Nacional',
+        ano: 1970,
+        obraPrincipal: 'Regimento Comum do Congresso Nacional (RCCN)',
+        ideiaChave: 'Disciplina as sessões conjuntas de deputados e senadores, apreciação de vetos e a CMO.',
+        chipPegadinha: 'A Presidência da Mesa do Congresso cabe ao Presidente do Senado Federal.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-10-1-1',
-        afirmacao: 'O acervo da Rede Virtual de Bibliotecas (RVBI) reúne recursos bibliográficos exclusivamente dos órgãos vinculados ao Poder Legislativo Federal.',
+        afirmacao: 'Os integrantes da Mesa Diretora da Câmara dos Deputados podem participar normalmente de Comissões Parlamentares de Inquérito (CPI) na condição de membros titulares.',
         gabarito: 'E',
-        porQue: 'A RVBI congrega bibliotecas dos três Poderes da União (Legislativo, Executivo e Judiciário) e do Governo do Distrito Federal.',
+        porQue: 'Cobrada na Câmara 2026 Técnico! Conforme o art. 24, § 1º do RICD, os membros da Mesa não podem fazer parte de nenhuma comissão permanente, especial ou de CPI.',
       },
       {
         id: 'peg-10-1-2',
-        afirmacao: 'Todas as proposições que tramitam na Câmara dos Deputados devem compulsoriamente ser votadas em sessão do Plenário para serem aprovadas.',
+        afirmacao: 'Caso a desfiliação de deputados reduza a representação de um bloco parlamentar para aquém do quórum mínimo, o bloco subsistirá até o final da legislatura em respeito à vontade popular.',
         gabarito: 'E',
-        porQue: 'Muitas proposições tramitam em caráter conclusivo nas comissões permanentes (Art. 24, II do RICD), sendo dispensada a votação em Plenário se não houver recurso.',
+        porQue: 'Cobrada na Câmara 2026! A redução de deputados abaixo do limite mínimo exigido extingue imediatamente o bloco parlamentar no âmbito da Câmara dos Deputados.',
       },
     ],
   },

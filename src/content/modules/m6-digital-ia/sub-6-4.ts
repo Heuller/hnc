@@ -10,8 +10,11 @@ export const submodulo64: ModuloFilho = {
   alertasCebraspe: [
     'A IA não substitui o bibliotecário nem torna dispensáveis as técnicas de representação da informação (classificação e indexação): pelo contrário, a qualidade dos sistemas de IA depende diretamente de dados bem estruturados, ontologias e metadados com supervisão humana.',
     'A arquitetura tecnológica que fundamentou a revolução dos Grandes Modelos de Linguagem (LLMs) como o ChatGPT é a rede neural baseada em TRANSFORMERS (mecanismo de autoatenção), associada ao treinamento em escala massiva de parâmetros.',
-    'Busca Semântica vs. Busca Booleana Tradicional: a busca semântica via embeddings e modelos vetoriais densos compreende o contexto e o significado conceitual da pergunta do usuário, superando a mera coincidência exata de termos (match de strings) da álgebra booleana clássica.',
-    'Declaração da IFLA sobre Bibliotecas e IA: destaca que as bibliotecas devem priorizar a aquisição de tecnologias de IA que respeitem padrões éticos rigorosos de privacidade, diversidade, inclusão social e mitigação de viés algorítmico.',
+    'Foundation Models: o Cebraspe (Câmara 2026 Analista) exige o conhecimento de que os modelos fundacionais baseiam-se em aprendizagem profunda (deep learning) e métodos auto-supervisionados em grandes volumes de dados não rotulados, e NÃO em regras lógicas formais explícitas (GOFAI).',
+    'Engenharia de Prompts (Câmara 2026 Técnico): Zero-shot prompting consiste em submeter a instrução ao modelo sem nenhum exemplo de demonstração prévio; Few-shot prompting fornece demonstrações in-context com pares de entrada/saída para condicionar a resposta; Chain-of-Thought (CoT) induz o modelo a decompor o raciocínio em etapas lógicas intermediárias.',
+    'Paradigmas de Machine Learning: Supervisionado (dados rotulados / labeled data, como classificação e regressão); Não Supervisionado (dados não rotulados, descobrindo agrupamentos/clustering como K-Means e redução dimensional); Aprendizado por Reforço e RLHF (recompensas em ambiente dinâmico e alinhamento com feedback humano).',
+    'Segurança e Ransomware (Câmara 2026 Analista): o procedimento de backup offline (air-gapped ou mídia desconectada da rede) é a salvaguarda técnica mais segura contra ataques de ransomware, pois o versionamento em nuvem ou backups em rede compartilhada podem ser igualmente infectados e criptografados.',
+    'Visualização de Dados e Power BI (STJ 2024): o recurso "Analisar no Excel" conecta-se diretamente ao modelo semântico (semantic model) do Power BI mantendo medidas DAX e relações intactas. Em Dataviz, o Histograma avalia a distribuição de frequências contínuas em faixas (bins), enquanto o Gráfico de Barras compara dados categóricos discretos; o Box Plot expõe mediana, quartis e outliers.',
     'Diretrizes da Câmara dos Deputados para o Uso de IA: estabelece o princípio inegociável do "human-in-the-loop" (supervisão humana no circuito), a explicabilidade dos algoritmos, o alinhamento com a LGPD e a responsabilidade indelegável do agente público nas decisões legislativas.',
   ],
   quadroComparativo: {
@@ -26,51 +29,74 @@ export const submodulo64: ModuloFilho = {
   },
   teoriaDensaMarkdown: `### 1. A Inteligência Artificial como Novo Paradigma na Ciência da Informação
 
-A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras) e conexionistas (redes neurais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017).
+A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e conexionistas (redes neurais profundas), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017).
 
-Na Biblioteconomia contemporânea, a IA deixou de ser mero objeto de ficção científica para se converter em **ferramenta estruturante de tratamento, recuperação e disseminação da informação** (IFLA, 2020; Câmara dos Deputados, 2023, documentos oficiais presentes em nosso repositório \`Digital, repositórios e IA\`):
+Na Biblioteconomia contemporânea e na gestão pública legislativa, a IA converteu-se em **ferramenta estruturante de tratamento, recuperação e disseminação da informação** (IFLA, 2020; Câmara dos Deputados, 2023):
 
-* **Grandes Modelos de Linguagem (*Large Language Models - LLMs*):**
-  * Modelos neurais treinados em massas monumentais de texto, capazes de compreender, sumarizar, traduzir e gerar texto com fluência natural.
+* **Grandes Modelos de Linguagem (*Large Language Models - LLMs*) & Foundation Models:**
+  * Modelos massivos de aprendizagem profunda (*deep neural networks*) treinados por métodos auto-supervisionados em gigantescas coleções de dados não rotulados.
+  * *⚠️ Alerta Cebraspe (Câmara 2026):* Os Foundation Models operam a partir do reconhecimento de padrões estatísticos e vetoriais em redes neurais de grande escala, e **NÃO** a partir de deduções baseadas em regras lógicas formais pré-programadas por especialistas.
 * **Embeddings Vetoriais e Busca Semântica:**
   * O processamento de linguagem natural converte palavras, sentenças ou documentos inteiros em **vetores matemáticos densos** (embeddings) em espaços de centenas ou milhares de dimensões.
   * Documentos conceitualmente semelhantes situam-se próximos no espaço vetorial. A busca semântica calcula a distância matemática (como a similaridade por cosseno) entre o vetor da consulta e os vetores do acervo, permitindo recuperar documentos relevantes mesmo que eles não compartilhem uma única palavra literal com a pergunta do usuário.
 
 ---
 
-### 2. Aplicações Práticas de IA no Ciclo Biblioteconômico
+### 2. Paradigmas de Aprendizado de Máquina (Machine Learning)
 
-1. **Catalogação Descritiva Assistida:**
-   * Extração automatizada de metadados de fontes de informação (título, autor, editora, ISBN, data) a partir de arquivos digitais em PDF, gerando rascunhos de registros MARC 21 para validação rápida do bibliotecário.
-2. **Indexação Temática e Atribuição de Descritores:**
-   * Análise do conteúdo textual de proposições legislativas e artigos para sugerir descritores a partir de tesauros controlados (como o Tesauro da Câmara ou o LexML), reduzindo o tempo de processamento técnico.
-3. **Serviços de Referência Inteligentes e Chatbots:**
-   * Assistentes virtuais baseados em RAG (*Retrieval-Augmented Generation* - Geração Aumentada por Recuperação) capazes de responder a dúvidas frequentes dos cidadãos e assessores parlamentares consultando exclusivamente as bases oficiais da Casa.
-4. **Curadoria e Normalização de Dados:**
-   * Desduplicação de registros de autoridade, limpeza de dados em catálogos legados e enriquecimento automático de metadados.
-
----
-
-### 3. As Diretrizes Éticas da IFLA sobre Bibliotecas e Inteligência Artificial
-
-Publicada pelo comitê consultivo da IFLA (*IFLA Statement on Libraries and Artificial Intelligence*):
-* **Neutralidade e Transparência:** Os sistemas de IA adotados pelas bibliotecas devem ser auditáveis e transparentes quanto aos dados utilizados em seu treinamento.
-* **Privacidade dos Usuários:** O histórico de buscas, consultas e empréstimos dos leitores nunca deve ser exposto a modelos de IA comerciais de terceiros sem anonimização rigorosa.
-* **Combate a Vieses Algorítmicos:** Os algoritmos de IA refletem preconceitos históricos presentes nos textos da Web; as bibliotecas têm o dever de selecionar tecnologias inclusivas que mitiguem discriminações raciais, de gênero, culturais e linguísticas.
-* **Desenvolvimento da Alfabetização em IA (*AI Literacy*):** O bibliotecário deve capacitar o usuário a compreender o funcionamento, as limitações e os riscos de alucinação e plágio das ferramentas de IA generativa.
+1. **Aprendizado Supervisionado (*Supervised Learning*):**
+   * O algoritmo é treinado com um conjunto de dados rotulados (*labeled data*), no qual cada exemplo de entrada possui uma resposta correta correspondente (rótulo/alvo).
+   * *Aplicações:* Classificação (ex.: categorizar proposições legislativas por área temática) e Regressão (ex.: estimar prazos de tramitação).
+2. **Aprendizado Não Supervisionado (*Unsupervised Learning*):**
+   * O algoritmo analisa dados não rotulados (*unlabeled data*), identificando padrões ocultos, estruturas intrínsecas e similaridades conceituais sem supervisão humana prévia.
+   * *Aplicações:* Agrupamento (*clustering*, como K-Means para segmentar perfis de usuários de bibliotecas) e Redução de Dimensionalidade (ex.: PCA e t-SNE para visualização de grandes acervos).
+3. **Aprendizado por Reforço (*Reinforcement Learning - RL*) e RLHF:**
+   * O modelo (agente) toma decisões em um ambiente dinâmico, recebendo recompensas (*rewards*) por ações corretas e penalidades por erros, buscando maximizar a pontuação cumulativa.
+   * *RLHF (Reinforcement Learning from Human Feedback):* Técnica crítica para o refinamento de LLMs contemporâneos, em que avaliadores humanos ranqueiam respostas geradas pelo modelo para ajustar seus pesos, garantindo alinhamento ético, veracidade e redução de respostas tóxicas ou enviesadas.
 
 ---
 
-### 4. A Governança de IA na Câmara dos Deputados
+### 3. Engenharia de Prompts e Recuperação Aumentada (RAG)
 
-A Câmara dos Deputados consolidou-se como vanguarda na administração pública brasileira ao publicar diretrizes oficiais para o uso responsável de IA generativa no processo legislativo (documento presente em nosso acervo \`Digital, repositórios e IA/uso_responsavel_camara.pdf\`):
+A formulação estratégica de instruções em linguagem natural direcionadas aos modelos generativos compreende padrões estruturados cobrados pelo Cebraspe:
 
-* **Princípio da Supervisão Humana (*Human-in-the-Loop*):**
-  * Toda produção gerada ou assistida por ferramentas de IA deve passar compulsoriamente pela revisão, validação e responsabilidade final de um servidor ou autor humano. A IA atua estritamente como suporte técnico de produtividade, jamais como decisor final.
-* **Segurança e Conformidade com a LGPD (Lei 13.709/18):**
-  * É proibida a inserção de documentos sigilosos, minutas confidenciais ou dados pessoais de parlamentares e servidores em plataformas públicas externas de IA.
-* **Explicabilidade e Não Discriminação:**
-  * Os sistemas de suporte legislativo que utilizem algoritmos preditivos devem ser explicáveis, permitindo que a sociedade compreenda as premissas e a lógica dos resultados gerados.`,
+* **Zero-Shot Prompting:** Submissão direta da tarefa ou pergunta ao modelo sem a apresentação de qualquer exemplo prévio de demonstração no contexto. O modelo apoia-se unicamente no seu pré-treinamento.
+* **Few-Shot Prompting:** Fornecimento de alguns pares de exemplos (entrada e saída esperada) dentro do próprio prompt antes de solicitar a tarefa final, permitindo que o modelo apreenda o formato e o padrão semântico desejado (*in-context learning*).
+* **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica que instrui o modelo a explicitar as etapas intermediárias de raciocínio passo a passo antes de emitir a resposta conclusiva, elevando a precisão em raciocínios lógicos, sínteses normativas e cálculos complexos.
+* **RAG (*Retrieval-Augmented Generation*):** Arquitetura que integra um modelo generativo a uma base canônica externa de documentos (como os Diários da Câmara ou o LexML). Antes de gerar a resposta, o sistema recupera trechos factuais relevantes no banco vetorial e os injeta no prompt, mitigando alucinações e garantindo rastreabilidade institucional.
+
+---
+
+### 4. Segurança da Informação, Governança Digital e Mitigação de Ransomware
+
+* **Ameaça do Ransomware:** Código malicioso que sequestra sistemas e dados corporativos por meio de criptografia assimétrica de alta resistência, exigindo pagamento de resgate para a chave de decodificação.
+* **Salvaguarda Crítica (*Alerta Cebraspe - Câmara 2026*):** Backups online sincronizados ou pastas compartilhadas em rede local (*mapped network drives*) são vulneráveis à infecção cruzada durante o ataque. A defesa técnica definitiva exige **procedimentos de backup offline (air-gapped)**, mídias imutáveis (WORM) ou servidores isolados da rede corporativa, garantindo a restauração íntegra dos serviços essenciais.
+* **Princípios de Proteção:** Firewall de borda para controle de portas e protocolos, antivírus/EDR comportamental com análise heurística, e autenticação multifator (MFA) em todos os acessos administrativos.
+
+---
+
+### 5. Visualização de Dados e Storytelling Analítico (Power BI & Métricas)
+
+* **Microsoft Power BI no Serviço Público:**
+  * O recurso *"Analisar no Excel"* viabiliza a criação de tabelas dinâmicas conectadas em tempo real ao modelo semântico (*semantic model*) hospedado no Power BI Service, garantindo fonte única de verdade sem duplicação estática de dados (*STJ 2024*).
+  * Dashboards interativos consolidam métricas de produção bibliográfica, consultas a repositórios e execuções orçamentárias.
+* **Seleção Criteriosa de Tipos de Gráficos:**
+  * **Histograma:** Representa a distribuição de frequências de uma variável quantitativa contínua agrupada em intervalos regulares (*bins*). Não confundir com gráfico de barras, que expressa variáveis categóricas discretas.
+  * **Gráfico de Dispersão (*Scatter Plot*):** Revela correlações e padrões de dependência bivariada entre duas variáveis quantitativas contínuas.
+  * **Box Plot (Diagrama de Caixa):** Sintetiza a distribuição de dados por meio de cinco medidas sumárias: valor mínimo, primeiro quartil (Q1 - 25%), mediana (Q2 - 50%), terceiro quartil (Q3 - 75%) e valor máximo, destacando visualmente valores atípicos (*outliers*).
+  * **Gráfico de Linhas:** Ideal para evidenciar tendências, continuidades e séries temporais.
+* **Storytelling com Dados (Cole Nussbaumer Knaflic & Edward Tufte):**
+  * Maximização da *taxa de dados-tinta* (*data-ink ratio*): eliminação sistemática de elementos puramente decorativos (linhas de grade pesadas, 3D dispensável, cores aleatórias).
+  * Redução da carga cognitiva estranha e foco em elementos pré-atencionais (cores de destaque contrastantes) para guiar a atenção do gestor para conclusões acionáveis.
+
+---
+
+### 6. Diretrizes da Câmara dos Deputados e Ética na IFLA
+
+A Câmara dos Deputados estabeleceu diretrizes pioneiras para o uso ético de IA generativa (Ditec/Cedi, 2023):
+* **Princípio da Supervisão Humana (*Human-in-the-Loop*):** Nenhuma decisão legislativa ou ato de indexação automatizada possui validade sem a revisão, validação e responsabilidade final de um servidor público humano.
+* **Conformidade com a LGPD (Lei 13.709/2018):** Vedada a inserção de dados sigilosos ou pessoais em modelos comerciais externos abertos.
+* **Declaração da IFLA:** Adoção de IA que respeite a neutralidade algorítmica, proteção irrestrita da privacidade dos leitores e desenvolvimento de programas de letramento informacional em IA (*AI Literacy*).`,
   checkpoints: [
     {
       id: 'cp-6-4-1',
@@ -81,17 +107,17 @@ A Câmara dos Deputados consolidou-se como vanguarda na administração pública
     },
     {
       id: 'cp-6-4-2',
-      pergunta: 'Micro-Checkpoint 2: Diretrizes Éticas e o Papel do Bibliotecário frente à IA',
-      item: 'Em virtude dos avanços da inteligência artificial generativa, que realiza de forma autônoma e infalível todo o processamento documental, as diretrizes da IFLA orientam as bibliotecas a dispensarem a supervisão humana nas rotinas de catalogação e indexação.',
+      pergunta: 'Micro-Checkpoint 2: Foundation Models e Aprendizado Profundo',
+      item: 'Os denominados Foundation Models, que alicerçam ferramentas modernas de inteligência artificial generativa, operam com base na aplicação de conjuntos de regras formais pré-programadas por engenheiros, dispensando redes neurais de aprendizado profundo.',
       gabarito: 'E',
-      justificativa: 'Errado! A IFLA e as normas institucionais reafirmam o princípio inegociável da supervisão humana ("human-in-the-loop"), sendo a curadoria ética do bibliotecário indispensável para mitigar alucinações e vieses algorítmicos.',
+      justificativa: 'Errado! Item clássico cobrado pelo Cebraspe (Câmara 2026 Analista). Os Foundation Models baseiam-se em redes neurais profundas (deep learning) e métodos de aprendizagem auto-supervisionada em larga escala, e não em regras lógicas programadas (GOFAI).',
     },
-      {
+    {
       id: 'cp-6-4-3',
-      pergunta: "Micro-Checkpoint 3: Desafios Éticos e Alucinação em Modelos de Linguagem (LLMs)",
-      item: "Nos serviços de referência orientados por modelos de inteligência artificial generativa, a técnica de RAG (Retrieval-Augmented Generation) é dispensável quando o modelo possui parâmetros suficientes para garantir acurácia documental absoluta.",
+      pergunta: 'Micro-Checkpoint 3: Engenharia de Prompts - Zero-Shot vs. Few-Shot',
+      item: 'Na engenharia de prompts para modelos de linguagem generativa, a técnica de few-shot prompting consiste em apresentar ao modelo a instrução da tarefa sem fornecer nenhum exemplo demonstrativo prévio de entrada e saída.',
       gabarito: 'E',
-      justificativa: "Errado! Modelos de linguagem sofrem de alucinação e obsolescência temporal de dados. A arquitetura RAG conecta o LLM a um repositório canônico externo validado, sendo indispensável para recuperação de fontes fidedignas.",
+      justificativa: 'Errado! Apresentar a instrução sem exemplos é denominado "zero-shot prompting". O "few-shot prompting" inclui no prompt exemplos concretos de demonstração in-context para guiar o formato da resposta esperada (Câmara 2026 Técnico).',
     },
   ],
   mnemonicos: {
@@ -112,9 +138,9 @@ A Câmara dos Deputados consolidou-se como vanguarda na administração pública
       },
       {
         id: 'tl-6-4-3',
-        periodo: '2023 / 2024',
+        periodo: '2023 / 2026',
         disciplina: 'Governança no Legislativo',
-        focoPrincipal: 'Publicação do Guia e Diretrizes de Uso Responsável de IA na Câmara dos Deputados',
+        focoPrincipal: 'Publicação do Guia de Uso Responsável de IA na Câmara dos Deputados e aplicação de RAG institucional',
         figuraChave: 'Câmara dos Deputados / Ditec',
       },
     ],
@@ -129,25 +155,25 @@ A Câmara dos Deputados consolidou-se como vanguarda na administração pública
       },
       {
         id: 'aut-6-4-2',
-        nome: 'Câmara dos Deputados (Comitê de IA)',
-        ano: 2023,
-        obraPrincipal: 'Diretrizes para o Uso Responsável de Inteligência Artificial Generativa',
-        ideiaChave: 'Supervisão humana estrita (human-in-the-loop), conformidade com LGPD e transparência legislativa.',
-        chipPegadinha: 'O servidor responde integralmente pelo conteúdo final publicado, mesmo gerado com auxílio de IA.',
+        nome: 'Cole Nussbaumer Knaflic',
+        ano: 2019,
+        obraPrincipal: 'Storytelling com Dados',
+        ideiaChave: 'Eliminação de desordem visual (data-ink ratio), direcionamento da atenção do tomador de decisão e adequação do tipo de gráfico.',
+        chipPegadinha: 'Gráficos de pizza (pie charts) devem ser evitados para comparações de múltiplos dados; o box plot é o modelo ideal para dispersão e outliers.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-6-4-1',
-        afirmacao: 'O modelo que fundamentou a criação de sistemas de inteligência artificial generativa como o ChatGPT é denominado Token Model Process (TMP).',
+        afirmacao: 'Os Foundation Models empregados em processamento de linguagem natural fundamentam-se exclusivamente em representações lógicas explícitas e sistemas especialistas baseados em regras.',
         gabarito: 'E',
-        porQue: 'Essa pegadinha caiu no TCE-MG 2026! O modelo que fundamentou o ChatGPT é o Large Language Model (LLM) baseado na arquitetura de redes neurais Transformers.',
+        porQue: 'Cobrada na Câmara 2026! Foundation Models utilizam redes neurais profundas (deep learning) com treinamento auto-supervisionado em massas gigantescas de dados, e não sistemas especialistas lógicos clássicos.',
       },
       {
         id: 'peg-6-4-2',
-        afirmacao: 'A aplicação de inteligência artificial em unidades de informação impede sua utilização em atividades técnicas de representação temática, como classificação e indexação.',
+        afirmacao: 'Para neutralizar infecções por ransomware, a realização de backups em nuvem continuamente sincronizados com os servidores da instituição dispensa a manutenção de cópias offline desconectadas da rede.',
         gabarito: 'E',
-        porQue: 'Pelo contrário, o Cebraspe já reiterou (MPE-CE 2025) que a biblioteconomia contribui e aplica a IA diretamente em métodos de classificação e indexação automatizada.',
+        porQue: 'Cobrada na Câmara 2026 Analista! Ransomwares conseguem atingir unidades montadas em rede e nuvens sincronizadas. O procedimento mais seguro exige cópias de segurança offline (air-gapped).',
       },
     ],
   },

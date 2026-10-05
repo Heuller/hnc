@@ -13,6 +13,9 @@ export const submodulo43: ModuloFilho = {
     'A edição eletrônica do DOU assinada digitalmente com certificado ICP-Brasil possui a mesma validade jurídica oficial da antiga versão impressa (encerrada em 2017).',
     'O Diário da Justiça (DJe): os atos judiciais e decisões dos tribunais NÃO saem no DOU, mas no Diário da Justiça Eletrônico de cada tribunal ou no Diário de Justiça Eletrônico Nacional (DJEN/CNJ).',
     'LexML Brasil: portal unificado coordenado no âmbito do Senado Federal que reúne os três Poderes (Executivo, Legislativo e Judiciário) de todas as esferas federativas. Utiliza identificador unívoco persistente no formato URN Lex (Uniform Resource Name) com sintaxe: urn:lex:país:autoridade:tipo_documento:data;número.',
+    'Esquemas XML do LexML (MPE-CE 2025 / STJ 2024): o LexML opera com dois esquemas de metadados XML: o esquema XML RÍGIDO (utilizado para a publicação e validação formal de proposições legislativas e atos oficiais) e o esquema XML FLEXÍVEL (empregado para a ingestão distribuída e captura de metadados de acervos heterogêneos de colaboradores externos).',
+    'Coordenação das Redes Jurídicas (STJ 2024): a RVBI (Rede Virtual de Bibliotecas) é coordenada administrativamente pela Secretaria de Biblioteca e Arquivo do SENADO FEDERAL (e não pela Câmara dos Deputados nem pelo STF). A REJE é a rede da Justiça Eleitoral (liderada pelo TSE); a RBMPF é a rede do Ministério Público Federal (liderada pela PGR); e a Rede BIBLIODATA foi a rede cooperativa pioneira brasileira da FGV.',
+    'Indexação Pós-Coordenada e Método SLIC (MPE-CE 2025): o método SLIC (Selective Listing in Combination), desenvolvido por J. R. Sharp, seleciona combinações de descritores em ordem alfabética estrita para evitar a explosão combinatória desnecessária de termos compostos.',
   ],
   quadroComparativo: {
     titulo: 'Estrutura Canônica das Três Seções do Diário Oficial da União (DOU)',
@@ -25,7 +28,7 @@ export const submodulo43: ModuloFilho = {
   },
   teoriaDensaMarkdown: `### 1. O Tripé Estruturante da Informação Jurídica
 
-A informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo direto de bibliotecas parlamentares e tribunais (Miranda, D'Amore & Pinto, 2013, artigo canônico de nosso acervo em \`Recuperação, fontes, referência e usuários\`):
+A informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo direto de bibliotecas parlamentares e tribunais (Miranda, D'Amore & Pinto, 2013):
 
 #### A. O Tripé Informacional
 1. **Legislação (Informação Normativa):**
@@ -57,7 +60,7 @@ O Diário Oficial da União, gerido e editado pela **Imprensa Nacional** (órgã
 
 ### 3. A Rede e o Portal LexML Brasil
 
-Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado tecnicamente pela equipe do Senado Federal e da Câmara dos Deputados, o **LexML Brasil** (\`https://www.lexml.gov.br\`) é o portal unificado de referência nacional:
+Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado tecnicamente pelo Senado Federal (Interlegis) e pela Câmara dos Deputados, o **LexML Brasil** (\`https://www.lexml.gov.br\`) é o portal federado unificado de referência nacional:
 
 * **Escopo Abrangente:** Integra proposições legislativas em tramitação, legislação vigente, jurisprudência e doutrina de todos os três Poderes nas esferas Federal, Estadual e Municipal.
 * **O Padrão URN Lex (Uniform Resource Name):**
@@ -69,8 +72,32 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
     * \`federal\` (esfera de autoridade governamental);
     * \`lei\` (tipo de documento jurídico);
     * \`1990-12-11;8112\` (data de promulgação ISO 8601 e número do ato).
-* **Esquemas XML do LexML:** Utiliza vocabulários controlados e esquemas XML (rígido para publicação oficial e flexível para ingestão distribuída) garantindo interoperabilidade com o OAI-PMH.
-* **Governança e Integração com a RVBI (Lima & Passos, 2019):** Conforme demonstrado por João Alberto de Oliveira Lima e Edilenice Passos, o diferencial do LexML reside em conciliar o identificador persistente à governança cooperativa entre Senado Federal e Câmara dos Deputados, integrando a taxonomia jurídica às linguagens documentárias da Rede Virtual de Bibliotecas (RVBI).`,
+* **Esquemas XML do LexML (*⚠️ Alerta Cebraspe - MPE-CE 2025 / STJ 2024*):**
+  * **Esquema Rígido (*Strict Schema*):** Utilizado para a representação formal e estruturada de textos da legislação e proposições do Congresso Nacional, exigindo conformidade semântica exaustiva para cada elemento normativo (artigo, parágrafo, inciso, alínea).
+  * **Esquema Flexível (*Flexible Schema*):** Empregado para permitir a ingestão e interoperabilidade de registros de bibliotecas parceiras e órgãos externos cujos dados não possuem o nível máximo de granularidade legislativa.
+
+---
+
+### 4. Redes de Bibliotecas Jurídicas e Cooperação Informacional
+
+1. **Rede Virtual de Bibliotecas (RVBI):**
+   * Coordenada institucionalmente pela **Secretaria de Biblioteca e Arquivo do Senado Federal**.
+   * Reúne bibliotecas dos três Poderes da União e do GDF (incluindo Câmara dos Deputados, STF, STJ, TST, TSE, TCU e Ministérios).
+   * Compartilha catálogo bibliográfico e autoridade no padrão MARC 21, vocabulário VCX e classificação CDDir.
+2. **Rede de Bibliotecas da Justiça Eleitoral (REJE):**
+   * Coordenada pelo Tribunal Superior Eleitoral (TSE), congrega bibliotecas dos Tribunais Regionais Eleitorais (TREs) de todos os Estados para gestão cooperativa de doutrina e jurisprudência eleitoral.
+3. **Rede de Bibliotecas do Ministério Público Federal (RBMPF):**
+   * Coordenada pela Procuradoria-Geral da República (PGR), integra bibliotecas das Procuradorias Regionais e da República em todo o país.
+4. **Rede BIBLIODATA / CALCO:**
+   * Marco histórico pioneiro da catalogação cooperativa no Brasil, criada na década de 1970 pela Fundação Getulio Vargas (FGV) sob a liderança de **Edson Nery da Fonseca**, introduzindo o formato CALCO (baseado no MARC).
+
+---
+
+### 5. Indexação Pós-Coordenada e Método SLIC (J. R. Sharp)
+
+* **Método SLIC (*Selective Listing in Combination* - Sharp, 1965):**
+  * Desenvolvido para indexação pós-coordenada em sistemas de recuperação da informação.
+  * O método elimina a redundância combinatorial total. Se um documento recebe os termos $A, B, C$, em vez de gerar todas as permutações ($2^n - 1 = 7$ combinações), o SLIC gera apenas combinações ordenadas seletivas que começam com o primeiro elemento alfabético (ex.: $ABC, AB, AC, BC, C$), otimizando índices manuais e mecânicos sem gerar ruído combinatório (*MPE-CE 2025*).`,
   checkpoints: [
     {
       id: 'cp-4-3-1',
@@ -86,12 +113,12 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
       gabarito: 'C',
       justificativa: 'Correto! A URN Lex assegura a persistência e a unicidade da referência documental jurídica no LexML.',
     },
-      {
+    {
       id: 'cp-4-3-3',
-      pergunta: "Micro-Checkpoint 3: Vocabulário Controlado e Indexação no LexML Brasil",
-      item: "O portal LexML Brasil utiliza identificadores persistentes baseados em Uniform Resource Names (URN) para unificar e referenciar atos normativos, processos judiciais e proposições legislativas nas esferas federal, estadual e municipal.",
-      gabarito: 'C',
-      justificativa: "Certo! O padrão URN LexML (ex: urn:lex:br:federal:lei:2020;14010) permite a citação inequívoca e a interoperabilidade de documentos jurídicos de diferentes órgãos do Estado.",
+      pergunta: 'Micro-Checkpoint 3: Coordenação da Rede Virtual de Bibliotecas (RVBI)',
+      item: 'A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) tem sua gestão e coordenação técnica exercidas pela biblioteca da Câmara dos Deputados.',
+      gabarito: 'E',
+      justificativa: 'Errado! Cobrado pelo Cebraspe (STJ 2024). A coordenação da RVBI cabe institucionalmente à Secretaria de Biblioteca e Arquivo do SENADO FEDERAL.',
     },
   ],
   mnemonicos: {
@@ -105,23 +132,23 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
       },
       {
         id: 'tl-4-3-2',
-        periodo: '2009',
-        disciplina: 'LexML Brasil',
-        focoPrincipal: 'Lançamento do Portal e da Rede de Informação Legislativa e Jurídica LexML Brasil com padrão URN Lex',
-        figuraChave: 'Comitê Gestor LexML / Senado Federal e Câmara',
+        periodo: '1970 / 1980',
+        disciplina: 'Redes Cooperativas',
+        focoPrincipal: 'Desenvolvimento do formato CALCO e criação da Rede BIBLIODATA pela FGV',
+        figuraChave: 'Edson Nery da Fonseca / FGV',
       },
       {
         id: 'tl-4-3-3',
-        periodo: '2017',
-        disciplina: 'Digitalização Total do DOU',
-        focoPrincipal: 'Extinção definitiva do DOU em papel e circulação exclusiva digital com certificação ICP-Brasil',
-        figuraChave: 'Imprensa Nacional / Decreto 9.215/2017',
+        periodo: '2009 / 2026',
+        disciplina: 'LexML Brasil',
+        focoPrincipal: 'Lançamento e consolidação do portal LexML Brasil com padrão URN Lex e esquemas XML rígido/flexível',
+        figuraChave: 'Comitê Gestor LexML / Senado Federal (Interlegis)',
       },
     ],
     autores: [
       {
         id: 'aut-4-3-1',
-        nome: 'Edilenice Jovelina',
+        nome: 'Edilenice Jovelina Passos',
         ano: 2008,
         obraPrincipal: 'Informação jurídica: teoria e prática em bibliotecas parlamentares',
         ideiaChave: 'Sistematização do tripé legislação, doutrina e jurisprudência e rotinas de compilação normativa.',
@@ -129,25 +156,25 @@ Criado pelo Projeto de Informação Legislativa e Jurídica em 2009 e liderado t
       },
       {
         id: 'aut-4-3-2',
-        nome: 'João Alberto de Oliveira Lima',
-        ano: 2009,
-        obraPrincipal: 'LexML Brasil: padrão URN e arquitetura de dados legislativos',
-        ideiaChave: 'Idealizador do padrão URN Lex e da estrutura de dados abertos interconectados da informação jurídica brasileira.',
-        chipPegadinha: 'A URN Lex não usa HTTP/URL volátil; utiliza sintaxe formal persistente urn:lex:br:...',
+        nome: 'John R. Sharp',
+        ano: 1965,
+        obraPrincipal: 'Some Fundamentals of Information Retrieval (Método SLIC)',
+        ideiaChave: 'Método SLIC (Selective Listing in Combination) para indexação pós-coordenada sem redundância combinatória.',
+        chipPegadinha: 'O SLIC gera apenas combinações ordenadas seletivas alfabeticamente, e não todas as permutações possíveis.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-4-3-1',
-        afirmacao: 'A informação jurídica analítica, que se traduz no julgamento de casos concretos por tribunais, corresponde à doutrina jurídica.',
+        afirmacao: 'A governança e a coordenação geral da Rede Virtual de Bibliotecas (RVBI) estão centralizadas na Mesa Diretora da Câmara dos Deputados.',
         gabarito: 'E',
-        porQue: 'O julgamento de casos concretos pelos tribunais é a JURISPRUDÊNCIA (interpretativa). A doutrina é a teoria acadêmica produzida por juristas.',
+        porQue: 'Cobrada no STJ 2024! A coordenação técnica da RVBI é de atribuição exclusiva da Secretaria de Biblioteca e Arquivo do SENADO FEDERAL.',
       },
       {
         id: 'peg-4-3-2',
-        afirmacao: 'O acesso integral ao acervo histórico do Diário Oficial da União pela Internet no portal da Imprensa Nacional exige o pagamento de taxa de assinatura mensal.',
+        afirmacao: 'O padrão LexML de representação documental utiliza um esquema XML único e inflexível que impede a participação de acervos heterogêneos de órgãos externos.',
         gabarito: 'E',
-        porQue: 'O acesso a todas as edições do DOU no portal da Imprensa Nacional é totalmente público, gratuito e irrestrito.',
+        porQue: 'Cobrada no MPE-CE 2025! O LexML adota esquemas rígidos (para proposições oficiais) e esquemas flexíveis (para ingestão distribuída de dados heterogêneos).',
       },
     ],
   },

@@ -3,146 +3,168 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo104: ModuloFilho = {
   id: 'sub-10-4',
   numero: '10.4',
-  titulo: 'Legislação do Livro, Bibliotecas, Depósito Legal e a Nova Lei 14.837/2024',
-  descricaoCurta: 'A Lei do Depósito Legal (Lei nº 10.994/2004: prazos, FBN, Bibliografia Brasileira e penalidades), a regulamentação profissional (Leis 4.084/62 e 9.674/98 com Código de Ética do CFB) e o Sistema Nacional de Bibliotecas Escolares (Lei nº 14.837/2024).',
+  titulo: 'Noções de Direito Constitucional Aplicadas ao Processo Legislativo',
+  descricaoCurta: 'Constituição Federal de 1988: conceito, características, princípios fundamentais (arts. 1º a 4º), direitos e garantias fundamentais (art. 5º e remédios constitucionais), direitos políticos (arts. 14 a 17), organização do Estado (arts. 18 a 36) e a Administração Pública na CF/88 (arts. 37 a 41).',
   tempoEstimadoMinutos: 35,
-  autoresChave: ['Conselho Federal de Biblioteconomia (CFB)', 'Fundação Biblioteca Nacional (FBN)', 'Lei 10.994/2004', 'Lei 14.837/2024', 'Lei 9.674/1998'],
+  autoresChave: ['Constituição Federal de 1988', 'José Afonso da Silva', 'Gilmar Ferreira Mendes', 'Alexandre de Moraes', 'Pedro Lenza'],
   alertasCebraspe: [
-    'Depósito Legal no Brasil (Lei 10.994/2004): prazo de envio de até 30 DIAS após a publicação. Destinatária exclusiva: Fundação Biblioteca Nacional (FBN). Responsáveis solidários: o impressor e o editor. Finalidades: guarda da produção nacional e publicação da Bibliografia Brasileira.',
-    'Penalidade pelo descumprimento do Depósito Legal: a lei prevê apreensão dos exemplares e MULTA de até 100 vezes o valor de mercado da obra. O Cebraspe adora afirmar que o descumprimento gera apenas "advertência pedagógica": ERRADO!',
-    'Exercício da Profissão de Bibliotecário (Lei 9.674/1998): é privativo dos bacharéis registrados no CRB. São atos privativos do bibliotecário: a direção de bibliotecas, o planejamento de serviços de documentação e o processamento técnico (catalogação e classificação).',
-    'A NOVA LEI DAS BIBLIOTECAS ESCOLARES (Lei nº 14.837/2024): marco histórico sancionado em 2024 que altera a Lei 12.244/2010 e institui o Sistema Nacional de Bibliotecas Escolares (SNBE), reafirmando expressamente a obrigatoriedade da atuação do Bibliotecário com registro profissional no CRB em todas as escolas do país.',
-    'Código de Ética do CFB: veda terminantemente ao bibliotecário exercer censura política, religiosa ou ideológica sobre o acervo e exige dever estrito de sigilo profissional quanto às leituras e consultas efetuadas pelos usuários.',
+    'Classificação da CF/88: é Formal, Escrita, Dogmática, Promulgada (votada/popular), Rígida (alterável somente por rito especial de 3/5 em 2 turnos), Analítica (extensa e detalhista) e Dirigente (programática, orientada a metas socioeconômicas).',
+    'Fundamentos vs. Objetivos da República: o Cebraspe troca sistematicamente os fundamentos (art. 1º - mnemônico SO-CI-DI-VA-PLU: Soberania, Cidadania, Dignidade da pessoa humana, Valores sociais do trabalho e da livre iniciativa, Pluralismo político) com os objetivos fundamentais (art. 3º - mnemônico CON-GAR-ER-PRO: Construir, Garantir, Erradicar e Promover - todos iniciados por verbos no infinitivo!).',
+    'Remédios Constitucionais do Art. 5º: Habeas Corpus (liberdade de locomoção - gratuito); Habeas Data (conhecimento ou retificação de dados pessoais em bancos de dados governamentais ou de caráter público - gratuito); Mandado de Segurança (direito líquido e certo residual contra ilegalidade ou abuso de autoridade pública); Mandado de Injunção (falta de norma regulamentadora que inviabilize direito fundamental); Ação Popular (qualquer cidadão contra ato lesivo ao patrimônio, moralidade ou meio ambiente - isento de custas, salvo comprovada má-fé).',
+    'Organização do Estado (arts. 18 a 36): os entes federados (União, Estados, Distrito Federal e Municípios) são dotados de AUTONOMIA política, legislativa e financeira, mas NÃO de soberania (a soberania é atributo exclusivo e indivisível da República Federativa do Brasil perante a ordem internacional). A vedação à secessão é garantida pela intervenção federal.',
+    'Regime Jurídico dos Servidores na CF/88 (arts. 37 a 41): obedece aos princípios LIMPE (Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência). Concurso público tem prazo de validade de até 2 anos (prorrogável uma vez por igual período). A estabilidade é adquirida após 3 anos de efetivo exercício, exigindo aprovação em avaliação especial de desempenho.',
   ],
   quadroComparativo: {
-    titulo: 'Quadro Sinóptico da Legislação Federal sobre Bibliotecas e Informação',
-    colunas: ['Diploma Legal', 'Ano / Atualização', 'Objeto Principal Normatizado', 'Ponto Crítico Cobrado pelo Cebraspe'],
+    titulo: 'Comparação: Fundamentos vs. Objetivos Fundamentais da República (CF/88)',
+    colunas: ['Critério', 'Fundamentos da República (Art. 1º)', 'Objetivos Fundamentais da República (Art. 3º)'],
     linhas: [
-      ['Lei nº 10.994/2004', '2004 (Vigente)', 'Institui o Depósito Legal de publicações na Biblioteca Nacional', 'Prazo de 30 dias; remessa de exemplar; multa pesada (até 100x o valor) e elaboração da Bibliografia Brasileira'],
-      ['Lei nº 4.084/1962 e 9.674/1998', '1962 / 1998 (Vigente)', 'Regulamenta o exercício da profissão de Bibliotecário e o Sistema CFB/CRB', 'Exige registro no CRB e define a direção de bibliotecas como atribuição privativa do bibliotecário'],
-      ['Lei nº 12.244/2010', '2010', 'Dispõe sobre a universalização das bibliotecas nas instituições de ensino', 'Meta de acervo mínimo de um título por aluno matriculado'],
-      ['Lei nº 14.837/2024', 'Abril de 2024 (Nova!)', 'Institui o Sistema Nacional de Bibliotecas Escolares (SNBE)', 'Exige a presença do Bibliotecário registrado no CRB e moderniza o conceito de biblioteca com tecnologias assistivas e digitais'],
+      ['Natureza Jurídica', 'Pilares axiológicos e estruturais preexistentes da ordem constitucional', 'Metas programáticas e fins a serem alcançados pelo Estado e sociedade'],
+      ['Mnemônico Cebraspe', 'SO-CI-DI-VA-PLU', 'CON-GAR-ER-PRO'],
+      ['Itens Taxativos', 'Soberania, Cidadania, Dignidade humana, Valores sociais do trabalho, Pluralismo político', 'Construir sociedade livre/justa, Garantir desenvolvimento, Erradicar pobreza, Promover o bem de todos'],
+      ['Identificação Rápida', 'Substantivos abstratos que qualificam o Estado de Direito', 'Formulado compulsoriamente com verbos no INFINITIVO'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Lei do Depósito Legal (Lei nº 10.994/2004)
+  teoriaDensaMarkdown: `### 1. A Constituição Federal de 1988: Conceito, Características e Estrutura
 
-O Depósito Legal é o mecanismo secular pelo qual o Estado assegura o recolhimento, a preservação e o registro de toda a produção bibliográfica e fonográfica nacional:
+A Carta Magna de 1988 ("Constituição Cidadã") é o ápice do ordenamento jurídico brasileiro (Silva, 2021; Mendes & Gonet, 2022):
 
-* **Finalidades Canônicas (Art. 1º):**
-  1. Assegurar a coleta, a guarda e a preservação da produção intelectual brasileira;
-  2. Produzir e publicar a **Bibliografia Nacional Brasileira**;
-  3. Proteger e difundir a língua e a cultura nacionais;
-  4. Prover os serviços de informação e pesquisa no país e no exterior.
-* **Destinatária Legal e Prazos:**
-  * O material deve ser entregue à **Fundação Biblioteca Nacional (FBN)**, no Rio de Janeiro.
-  * O prazo legal é de **até 30 dias após a publicação** da obra.
-* **Responsabilidade Solidária:**
-  * O **editor e o impressor** respondem solidariamente pela remessa obrigatória.
-* **Penalidades por Omissão (Art. 4º):**
-  * O infrator é notificado para entregar a obra em 30 dias.
-  * Persistindo a omissão, a FBN apreenderá os exemplares onde se encontrarem e aplicará **multa de até 100 vezes o valor de mercado da obra**, cobrada judicialmente.
-
----
-
-### 2. A Regulamentação Profissional e o Código de Ética do CFB
-
-A profissão de Bibliotecário é regulamentada pelas **Leis nº 4.084/1962 e nº 9.674/1998** e fiscalizada pelo Conselho Federal de Biblioteconomia (CFB) e Conselhos Regionais (CRB):
-
-* **Atribuições Privativas do Bibliotecário (Art. 6º da Lei 9.674/98):**
-  * Direção, chefia, assessoria e consultoria de bibliotecas, centros de documentação e serviços de informação;
-  * Classificação, catalogação e indexação de documentos, manuscritos e obras raras;
-  * Elaboração de bibliografias, resumos, índices e catálogos coletivos;
-  * Ensino de disciplinas de formação profissional em Biblioteconomia.
-* **O Código de Ética Profissional do Bibliotecário:**
-  * Aprovado pelo CFB (documento em \`Legislação e contexto legislativo/codigo_etica_4ed.2reimp.pdf\`).
-  * **Princípios Deontológicos:** Defesa intransigente da **liberdade de pensamento**, da **democracia** e do **livre acesso à informação**, sendo vedada qualquer forma de censura; dever absoluto de **sigilo profissional** quanto aos temas pesquisados pelos usuários; respeito à propriedade intelectual e aprimoramento técnico contínuo.
+* **Classificação Dogmática Canônica:**
+  * **Origem:** Promulgada (democrática ou popular, originada de Assembleia Nacional Constituinte eleita pelo povo).
+  * **Forma:** Escrita e codificada em documento solene único.
+  * **Conteúdo:** Formal (todas as matérias contidas no texto possuem estatura constitucional suprema).
+  * **Modo de Elaboração:** Dogmática (estruturada a partir das teorias e ideologias dominantes no momento de sua criação).
+  * **Estabilidade:** Rígida (sua alteração exige rito legislativo qualificado e solene — quórum de 3/5 dos votos em dois turnos em cada Casa legislativa, art. 60 da CF/88).
+  * **Extensão:** Analítica (minuciosa e extensa, disciplinando desde direitos individuais até o sistema tributário, orçamentário e previdenciário).
+  * **Finalidade:** Dirigente (estabelece um plano de evolução social e metas estatais para as futuras gerações).
+* **Estrutura do Texto Constitucional:**
+  1. **Preâmbulo:** Documento de intenções políticas e axiológicas; não possui força normativa direta, nem serve de parâmetro para controle concentrado de constitucionalidade (STF, ADI 2.076).
+  2. **Corpo Permanente:** Composto por 250 artigos de força jurídica vinculante plena.
+  3. **Ato das Disposições Constitucionais Transitórias (ADCT):** Normas com eficácia temporária para a transição do regime anterior para o novo ordenamento, possuindo o mesmo status formal das normas constitucionais permanentes.
 
 ---
 
-### 3. A Nova Lei do Sistema Nacional de Bibliotecas Escolares (Lei nº 14.837/2024)
+### 2. Princípios Fundamentais da República (Arts. 1º a 4º da CF/88)
 
-Sancionada em abril de 2024, a **Lei nº 14.837/2024** representa a vitória mais recente da categoria bibliotecária e do direito à educação no Brasil (documento presente em \`Legislação e contexto legislativo/Lei-14837-2024-04-08.pdf\`):
+* **Fundamentos (Art. 1º - SO-CI-DI-VA-PLU):**
+  1. **SO**berania;
+  2. **CI**dadania;
+  3. **DI**gnidade da pessoa humana (núcleo essencial dos direitos fundamentais);
+  4. **VA**lores sociais do trabalho e da livre iniciativa;
+  5. **PLU**ralismo político (diversidade ideológica, partidária e filosófica).
+* **Separação dos Poderes (Art. 2º):**
+  * São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário. Adota o sistema de freios e contrapesos (*checks and balances*).
+* **Objetivos Fundamentais (Art. 3º - CON-GAR-ER-PRO):**
+  * I - **Construir** uma sociedade livre, justa e solidária;
+  * II - **Garantir** o desenvolvimento nacional;
+  * III - **Erradicar** a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;
+  * IV - **Promover** o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+* **Princípios das Relações Internacionais (Art. 4º):**
+  * Independência nacional, prevalência dos direitos humanos, autodeterminação dos povos, não intervenção, igualdade entre os Estados, defesa da paz, solução pacífica dos conflitos, repúdio ao terrorismo e ao racismo, cooperação entre os povos e concessão de asilo político.
 
-* **Criação do SNBE:** Institui formalmente o **Sistema Nacional de Bibliotecas Escolares**, sob coordenação do Ministério da Educação (MEC).
-* **Obrigatoriedade Profissional Expressa:** A lei atualiza a Lei 12.244/2010 e determina expressamente que as bibliotecas escolares de todas as redes públicas e privadas do Brasil **devem contar com a presença de profissional Bibliotecário devidamente registrado no Conselho Regional de Biblioteconomia (CRB)**.
-* **Biblioteca Escolar como Equipamento Cultural Multimodal:** A biblioteca escolar é redefinida como um ambiente dinâmico de mediação de leitura, acesso à cultura, pesquisa em recursos físicos e digitais e inclusão social através de recursos de acessibilidade e tecnologias assistivas.`,
+---
+
+### 3. Direitos e Garantias Fundamentais e os Remédios Constitucionais (Art. 5º)
+
+Os direitos fundamentais vinculam diretamente os poderes públicos e os particulares (eficácia horizontal dos direitos fundamentais):
+
+* **Remédios Constitucionais e suas Aplicações:**
+  * **Habeas Corpus (art. 5º, LXVIII):** Protege a liberdade de locomoção corporal contra ilegalidade ou abuso de poder. É gratuito e dispensa representação por advogado.
+  * **Habeas Data (art. 5º, LXXII):** Assegura o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, bem como para retificação de dados. É ação gratuita e personalíssima (não cabe para obter dados de terceiros).
+  * **Mandado de Segurança (art. 5º, LXIX):** Protege direito líquido e certo, não amparado por HC ou HD, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público. Prazo decadencial de 120 dias para impetração.
+  * **Mandado de Injunção (art. 5º, LXXI):** Concedido sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.
+  * **Ação Popular (art. 5º, LXXIII):** Qualquer cidadão (eleitor) é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural. O autor fica isento de custas judiciais e ônus da sucumbência, salvo comprovada má-fé.
+
+---
+
+### 4. Direitos Políticos e Partidos Políticos (Arts. 14 a 17 da CF/88)
+
+* **Soberania Popular:** Exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante:
+  * **Plebiscito:** Consulta popular prévia à formulação do ato legislativo ou administrativo.
+  * **Referendo:** Consulta popular posterior à aprovação da lei para confirmação ou rejeição pelos cidadãos.
+  * **Iniciativa Popular:** Apresentação à Câmara dos Deputados de projeto de lei subscrito por, no mínimo, 1% do eleitorado nacional, distribuído por pelo menos 5 Estados, com não menos de 0,3% dos eleitores de cada um deles.
+* **Alistabilidade e Elegibilidade:**
+  * O alistamento e o voto são obrigatórios para os maiores de 18 anos e facultativos para analfabetos, maiores de 70 anos e jovens entre 16 e 18 anos.
+
+---
+
+### 5. Organização do Estado e Administração Pública (Arts. 18 a 41 da CF/88)
+
+* **Organização Político-Administrativa:**
+  * A República Federativa do Brasil é formada pela união indissolúvel dos Estados, Municípios e Distrito Federal, todos autônomos.
+  * *⚠️ Pegadinha Cebraspe:* A União, os Estados, o DF e os Municípios possuem autonomia política, administrativa e financeira, mas **não possuem soberania**. A soberania pertence com exclusividade à República Federativa do Brasil.
+* **Servidores Públicos Civis (Arts. 37 a 41):**
+  * A investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos.
+  * A estabilidade do servidor público nomeado para cargo de provimento efetivo em virtude de concurso público ocorre após **3 anos de efetivo exercício**, condicionada à aprovação em avaliação especial de desempenho por comissão instituída para essa finalidade.`,
   checkpoints: [
     {
       id: 'cp-10-4-1',
-      pergunta: 'Micro-Checkpoint 1: Prazos e Penalidades do Depósito Legal',
-      item: 'Conforme a Lei nº 10.994/2004, o prazo para envio do exemplar de publicação à Fundação Biblioteca Nacional é de até 30 dias contados da publicação da obra, sujeitando-se o infrator omisso à apreensão de exemplares e a multa de até 100 vezes o valor de mercado da publicação.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é a literalidade das disposições da Lei do Depósito Legal brasileira (Arts. 2º e 4º).',
+      pergunta: 'Micro-Checkpoint 1: Classificação da CF/88 e Soberania Federativa',
+      item: 'No ordenamento constitucional brasileiro, a União, os Estados-membros, o Distrito Federal e os Municípios são pessoas jurídicas dotadas de soberania nacional perante a comunidade internacional.',
+      gabarito: 'E',
+      justificativa: 'Errado! Os entes federados (União, Estados, DF e Municípios) possuem apenas AUTONOMIA. A SOBERANIA é atributo indivisível e exclusivo da República Federativa do Brasil.',
     },
     {
       id: 'cp-10-4-2',
-      pergunta: 'Micro-Checkpoint 2: A Nova Lei nº 14.837/2024',
-      item: 'A Lei nº 14.837/2024, ao instituir o Sistema Nacional de Bibliotecas Escolares, autorizou expressamente que qualquer professor ou servidor com ensino médio atue como responsável técnico pela biblioteca escolar, dispensando o registro profissional de bibliotecário no CRB.',
+      pergunta: 'Micro-Checkpoint 2: Fundamentos vs. Objetivos Fundamentais',
+      item: 'A garantia do desenvolvimento nacional e a erradicação da pobreza e da marginalização constituem fundamentos da República Federativa do Brasil elencados no art. 1º da Constituição de 1988.',
       gabarito: 'E',
-      justificativa: 'Errado! A Lei 14.837/2024 determinou com rigor exatamente o oposto: reafirmou a obrigatoriedade da presença de profissional Bibliotecário diplomado e registrado no CRB nas bibliotecas escolares.',
+      justificativa: 'Errado! Desenvolvimento nacional e erradicação da pobreza são OBJETIVOS fundamentais da República (art. 3º - mnemônico CON-GAR-ER-PRO), e não fundamentos (art. 1º - SO-CI-DI-VA-PLU).',
     },
-      {
+    {
       id: 'cp-10-4-3',
-      pergunta: "Micro-Checkpoint 3: Tramitação e Numeração Progressiva de Proposições",
-      item: "No processo legislativo regimental, projetos de lei ordinária que tramitam em regime de urgência são dispensados do parecer das comissões temáticas de mérito e podem ser apreciados diretamente pelo Plenário da Câmara dos Deputados.",
+      pergunta: 'Micro-Checkpoint 3: Remédios Constitucionais - Habeas Data',
+      item: 'O habeas data é a ação constitucional adequada para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.',
       gabarito: 'C',
-      justificativa: "Certo! Conforme o Regimento Interno da Câmara dos Deputados (RICD art. 155), a urgência permite dispensar as formalidades regimentais de instrução ordinária em comissões, incluindo a matéria na Ordem do Dia do Plenário.",
+      justificativa: 'Correto! Conforme o art. 5º, LXXII, a, da CF/88, o habeas data destina-se a garantir o conhecimento ou retificação de informações pessoais do impetrante.',
     },
   ],
   mnemonicos: {
     timeline: [
       {
         id: 'tl-10-4-1',
-        periodo: '1962 / 1998',
-        disciplina: 'Leis da Profissão',
-        focoPrincipal: 'Promulgação das Leis nº 4.084/62 e nº 9.674/98 com criação do Sistema CFB/CRB e atribuições privativas',
-        figuraChave: 'Congresso Nacional / CFB',
+        periodo: '1988',
+        disciplina: 'Constituição Cidadã',
+        focoPrincipal: 'Promulgação da Constituição da República Federativa do Brasil de 1988',
+        figuraChave: 'Ulysses Guimarães / Assembleia Nacional Constituinte',
       },
       {
         id: 'tl-10-4-2',
-        periodo: '2004',
-        disciplina: 'Depósito Legal',
-        focoPrincipal: 'Sancionada a Lei nº 10.994/2004 disciplinando o depósito legal de obras na Biblioteca Nacional',
-        figuraChave: 'Fundação Biblioteca Nacional',
-      },
-      {
-        id: 'tl-10-4-3',
-        periodo: '2010 / 2024',
-        disciplina: 'Bibliotecas Escolares',
-        focoPrincipal: 'Universalização das Bibliotecas Escolares (Lei 12.244/10) e criação do SNBE pela Lei nº 14.837/2024',
-        figuraChave: 'Congresso Nacional / MEC',
+        periodo: '1998',
+        disciplina: 'Reforma Administrativa',
+        focoPrincipal: 'Emenda Constitucional nº 19/1998: inclusão do princípio da Eficiência no caput do art. 37 da CF/88',
+        figuraChave: 'Congresso Nacional',
       },
     ],
     autores: [
       {
         id: 'aut-10-4-1',
-        nome: 'Conselho Federal de Biblioteconomia (CFB)',
-        ano: 2018,
-        obraPrincipal: 'Código de Ética Profissional do Bibliotecário',
-        ideiaChave: 'Defesa da liberdade intelectual contra a censura; dever de sigilo e livre acesso.',
-        chipPegadinha: 'O bibliotecário não pode exercer censura moral, política ou religiosa.',
+        nome: 'José Afonso da Silva',
+        ano: 2021,
+        obraPrincipal: 'Curso de Direito Constitucional Positivo',
+        ideiaChave: 'Eficácia das normas constitucionais (plena, contida e limitada) e classificação dogmática da CF/88.',
+        chipPegadinha: 'A CF/88 é classificada como formal, escrita, dogmática, promulgada, rígida e analítica.',
       },
       {
         id: 'aut-10-4-2',
-        nome: 'Fundação Biblioteca Nacional (FBN)',
-        ano: 2004,
-        obraPrincipal: 'Regulamento do Depósito Legal Brasileiro',
-        ideiaChave: 'Guarda da memória cultural do país e elaboração compulsória da Bibliografia Brasileira.',
-        chipPegadinha: 'O editor e o impressor respondem solidariamente pela entrega do depósito legal.',
+        nome: 'Gilmar Mendes e Paulo Gonet',
+        ano: 2022,
+        obraPrincipal: 'Curso de Direito Constitucional',
+        ideiaChave: 'Teoria dos direitos fundamentais, dimensões/gerações, remédios constitucionais e federação.',
+        chipPegadinha: 'O Preâmbulo da CF/88 não possui força cogente nem serve de parâmetro para controle de constitucionalidade.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-10-4-1',
-        afirmacao: 'O não cumprimento do depósito legal no Brasil sujeita o editor responsável unicamente à advertência administrativa formal, sem cominação de multas financeiras.',
+        afirmacao: 'O preâmbulo da Constituição Federal de 1988 possui eficácia jurídica plena e força vinculante, podendo servir de parâmetro exclusivo para a declaração de inconstitucionalidade de lei em sede de ADI.',
         gabarito: 'E',
-        porQue: 'A Lei nº 10.994/2004 prevê expressamente multa de até cem vezes o valor de mercado da publicação, além da apreensão física dos exemplares.',
+        porQue: 'Conforme pacífica jurisprudência do STF (ADI 2.076), o preâmbulo constitucional situa-se no campo da política e da ideologia, carecendo de força normativa cogente.',
       },
       {
         id: 'peg-10-4-2',
-        afirmacao: 'Conforme a Lei nº 9.674/1998, as atividades de administração e direção de bibliotecas podem ser exercidas por qualquer profissional de nível superior com pós-graduação em gestão.',
+        afirmacao: 'Constituem fundamentos da República Federativa do Brasil a erradicação da pobreza e a garantia do desenvolvimento nacional.',
         gabarito: 'E',
-        porQue: 'A direção, organização e administração de bibliotecas são atos privativos de bacharéis em Biblioteconomia registrados no CRB.',
+        porQue: 'A erradicação da pobreza e o desenvolvimento nacional são OBJETIVOS fundamentais (art. 3º), e não fundamentos (art. 1º).',
       },
     ],
   },

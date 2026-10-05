@@ -10,8 +10,8 @@ export const moduloM10Legislativo: MacroModulo = {
   numero: 10,
   titulo: 'Legislação Federal e Contexto Legislativo',
   titulo_curto: 'Processo Legislativo e CEDI',
-  subtitulo: 'Regimento Interno da Câmara dos Deputados, Processo Legislativo Constitucional, LAI, LGPD e Legislação do Livro',
-  descricao: 'Estudo aprofundado do arcabouço normativo e do ambiente institucional da Câmara dos Deputados: a estrutura do Regimento Interno (RICD) e do Regimento Comum (RCCN) com o Centro de Documentação e Informação (Cedi) e a Rede Virtual de Bibliotecas (RVBI); o processo legislativo constitucional do Art. 59 da CF/88 e as espécies normativas (PECs, Leis Complementares, Ordinárias e MPVs); a Lei de Acesso à Informação (Lei 12.527/11) com transparência ativa/passiva e graus de sigilo, e a Lei Geral de Proteção de Dados (LGPD - Lei 13.709/18); e a legislação sobre bibliotecas, a Lei do Depósito Legal (Lei 10.994/04), o Código de Ética do CFB e a histórica Lei do Sistema Nacional de Bibliotecas Escolares (Lei 14.837/2024).',
+  subtitulo: 'Regimento Interno da Câmara dos Deputados (RICD), Processo Legislativo Constitucional, RCCN e Noções de Direito Constitucional (CF/88)',
+  descricao: 'Estudo aprofundado do arcabouço normativo institucional e constitucional da Câmara dos Deputados: a estrutura do Regimento Interno (RICD arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273), os órgãos da Mesa Diretora, comissões, blocos parlamentares e o Centro de Documentação e Informação (Cedi) com a Rede Virtual de Bibliotecas (RVBI polo Senado); o Regimento Comum do Congresso Nacional (RCCN); o processo legislativo constitucional do Art. 59 da CF/88 e espécies normativas (PECs, Leis Complementares, Ordinárias e MPVs); e as Noções de Direito Constitucional aplicadas: princípios fundamentais (arts. 1º a 4º), direitos e garantias fundamentais e remédios constitucionais (art. 5º), direitos políticos e a Administração Pública na CF/88 (arts. 37 a 41).',
   status: 'disponivel',
   simuladoDisponivel: true,
   modulosFilhos: [
