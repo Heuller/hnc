@@ -4,9 +4,9 @@ import { COURSE_REGISTRY } from '../content/registry';
 
 describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integração dos 10 Simulados', () => {
   describe('Consistência do Catálogo de Simulados e Navegação', () => {
-    it('deve disponibilizar 10 manifestos completos de simulados (M1 a M10)', () => {
-      expect(SIMULADOS_REGISTRY).toHaveLength(10);
-      SIMULADOS_REGISTRY.forEach((sim, idx) => {
+    it('deve disponibilizar manifestos completos de simulados oficiais (M1 a M14 + Mega Simulado)', () => {
+      expect(SIMULADOS_REGISTRY.length).toBeGreaterThanOrEqual(10);
+      SIMULADOS_REGISTRY.slice(0, 10).forEach((sim, idx) => {
         expect(sim.numero).toBe(idx + 1);
         expect(sim.macroModuloId).toBe(`M${idx + 1}`);
         expect(sim.questoes).toHaveLength(100);
@@ -52,15 +52,15 @@ describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integr
   });
 
   describe('Integração de Armadilhas no Radar Cebraspe', () => {
-    it('deve indexar armadilhas e pegadinhas de todos os 10 cadernos da trilha específica', () => {
+    it('deve indexar armadilhas e pegadinhas de todos os cadernos de simulado', () => {
       const todasQuestoes = SIMULADOS_REGISTRY.flatMap((sim) => sim.questoes);
-      expect(todasQuestoes).toHaveLength(1000);
+      expect(todasQuestoes).toHaveLength(1520);
 
       const questoesComArmadilha = todasQuestoes.filter(
         (q) => q.armadilhaBanca && q.armadilhaBanca.trim().length > 0
       );
-      // Cada um dos 1.000 itens foi construído com armadilhaBanca explícita
-      expect(questoesComArmadilha.length).toBeGreaterThanOrEqual(950);
+      // Cada um dos 1.520 itens foi construído com armadilhaBanca explícita
+      expect(questoesComArmadilha.length).toBeGreaterThanOrEqual(1400);
 
       // Certifica presença de armadilhas para cada um dos 10 módulos
       for (let m = 1; m <= 10; m++) {

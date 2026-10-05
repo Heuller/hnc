@@ -338,6 +338,8 @@ export function gerarRelatorioLacunas(): RelatorioLacunasEdital {
       modulosDiagnostico.length
   );
 
+  const totalQuestoesSimuladosTodos = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
+
   return {
     editalRef: `${EDITAL_CAMARA_2026.orgao} - ${EDITAL_CAMARA_2026.cargo} (${EDITAL_CAMARA_2026.editalNumero})`,
     totalEixos: EDITAL_CAMARA_2026.eixos.length,
@@ -347,8 +349,8 @@ export function gerarRelatorioLacunas(): RelatorioLacunasEdital {
     totalAutoresCitados: totalAutoresGeral,
     totalAlertasBanca: totalAlertasGeral,
     totalCheckpointsFormativos: totalCheckpointsGeral,
-    totalQuestoesSimulados100Q: totalQuestoesSimuladoGeral,
-    totalGeralQuestoesDisponiveis: totalCheckpointsGeral + totalQuestoesSimuladoGeral,
+    totalQuestoesSimulados100Q: totalQuestoesSimuladosTodos,
+    totalGeralQuestoesDisponiveis: totalCheckpointsGeral + totalQuestoesSimuladosTodos,
     deficitTotalSimuladosE5: deficitE5Especificos,
     modulosSimuladoConcluidos: modulosConcluidos100Q,
     modulosSimuladoPendentes: modulosPendentes100Q,

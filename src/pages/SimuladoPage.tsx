@@ -204,10 +204,10 @@ export const SimuladoPage: React.FC = () => {
   );
 
   const handleNext = useCallback(() => {
-    if (currentIndex < 99) {
+    if (currentIndex < simuladoAtivo.questoes.length - 1) {
       mudarQuestaoSimulado(currentIndex + 1);
     }
-  }, [currentIndex, mudarQuestaoSimulado]);
+  }, [currentIndex, mudarQuestaoSimulado, simuladoAtivo.questoes.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
@@ -314,7 +314,7 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
                 isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
               }`}
             >
-              100Q
+              {sim.questoes.length}Q
             </span>
           </button>
         );
@@ -322,16 +322,19 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
     </div>
   );
 
+    const isMegaSimulado = simuladoAtivo.macroModuloId.toUpperCase() === 'MEGA';
     const moduloAtual = COURSE_REGISTRY.find(
       (m) => m.codigo.toUpperCase() === simuladoAtivo.macroModuloId.toUpperCase() || m.numero === simuladoAtivo.numero
     ) || COURSE_REGISTRY[0];
     const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
-    const accessControl = checkSimuladoAccess(
-      moduloAtualSubmodules,
-      secoesVisualizadas || {},
-      checkpointsRespondidos || {},
-      devBypassSimuladoLock
-    );
+    const accessControl = isMegaSimulado
+      ? { isUnlocked: true, totalSubmodulosConcluidos: 14, totalSubmodulosExigidos: 14, percentualLiberacao: 100 }
+      : checkSimuladoAccess(
+          moduloAtualSubmodules,
+          secoesVisualizadas || {},
+          checkpointsRespondidos || {},
+          devBypassSimuladoLock
+        );
 
     // SE O SIMULADO ESTIVER BLOQUEADO (Parte G - Requisito Pedagógico)
     if (!accessControl.isUnlocked) {
@@ -351,7 +354,7 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
                   <span className="text-xs font-mono text-ink-2">Metodologia Cebraspe</span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
-                  Simulado de 100 Questões Bloqueado
+                  Simulado de {simuladoAtivo.questoes.length} Questões Bloqueado
                 </h1>
                 <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-xl">
                   O Simulado Integral com fator de correção Cebraspe (1 Erro Anula 1 Certo) é a etapa final de consolidação. Para preservar a validade diagnóstica do teste, ele é liberado após o domínio prévio dos submódulos teóricos.

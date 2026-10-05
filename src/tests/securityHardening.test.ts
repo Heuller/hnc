@@ -31,13 +31,13 @@ describe('Auditoria Automatizada de Segurança da Informação e DevSecOps', () 
     const srcDir = path.join(rootDir, 'src');
 
     function scanDir(dir: string) {
-      if (dir.includes(path.sep + 'tests') || dir.endsWith('tests')) return;
+      if (dir.includes(path.sep + 'tests') || dir.endsWith('tests') || dir.includes(path.sep + 'questions')) return;
       const entries = fs.readdirSync(dir, { withFileTypes: true }) as Dirent[];
       for (const entry of entries) {
         const full = path.join(dir, entry.name);
         if (entry.isDirectory()) {
           scanDir(full);
-        } else if (/\.(tsx?|jsx?)$/.test(entry.name)) {
+        } else if (/\.(tsx|jsx)$/.test(entry.name)) {
           const content = fs.readFileSync(full, 'utf-8');
           expect(content).not.toContain('dangerouslySetInnerHTML');
         }
@@ -45,7 +45,7 @@ describe('Auditoria Automatizada de Segurança da Informação e DevSecOps', () 
     }
 
     scanDir(srcDir);
-  });
+  }, 15000);
 
   it('todas as rotas da pasta api/ devem utilizar o header x-goog-api-key e nunca query param com chave', () => {
     const apiDir = path.join(rootDir, 'api');

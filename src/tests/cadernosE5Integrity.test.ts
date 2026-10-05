@@ -93,20 +93,21 @@ describe('Auditoria de Integridade dos Cadernos da Fase E5 (Ondas M, P, X - M3 a
   });
 
   describe('Auditoria Global do Catálogo de Simulados (SIMULADOS_REGISTRY)', () => {
-    it('deve conter 10 manifestos de simulados registrados (M1 a M10)', () => {
-      expect(SIMULADOS_REGISTRY).toHaveLength(10);
+    it('deve conter 15 manifestos de simulados registrados (M1 a M14 + Mega Simulado)', () => {
+      expect(SIMULADOS_REGISTRY).toHaveLength(15);
       const codigos = SIMULADOS_REGISTRY.map(s => s.macroModuloId);
-      for (let i = 1; i <= 10; i++) {
+      for (let i = 1; i <= 14; i++) {
         expect(codigos).toContain(`M${i}`);
       }
+      expect(codigos).toContain('MEGA');
     });
 
-    it('deve totalizar exatamente 1.000 questões ativas no registro de simulados', () => {
+    it('deve totalizar exatamente 1.520 questões ativas no registro de simulados', () => {
       const totalQuestoes = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
-      expect(totalQuestoes).toBe(1000);
+      expect(totalQuestoes).toBe(1520);
     });
 
-    it('todos os 1.000 identificadores de questões no sistema de simulados devem ser globalmente únicos', () => {
+    it('todos os 1.520 identificadores de questões no sistema de simulados devem ser globalmente únicos', () => {
       const allIds: string[] = [];
       SIMULADOS_REGISTRY.forEach(s => {
         s.questoes.forEach(q => {
@@ -114,7 +115,7 @@ describe('Auditoria de Integridade dos Cadernos da Fase E5 (Ondas M, P, X - M3 a
         });
       });
       const uniqueIds = new Set(allIds);
-      expect(uniqueIds.size).toBe(1000);
+      expect(uniqueIds.size).toBe(1520);
     });
   });
 });

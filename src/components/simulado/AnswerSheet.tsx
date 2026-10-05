@@ -34,7 +34,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
               : 'text-ink-2 hover:text-ink'
           }`}
         >
-          Todas (100)
+          Todas ({questions.length})
         </button>
         <button
           type="button"

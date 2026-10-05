@@ -8,7 +8,7 @@ export const FonteOriginalSchema = z.object({
 
 export const CebraspeQuestionSchema = z.object({
   id: z.string(),
-  numero: z.number().min(1).max(100),
+  numero: z.number().min(1).max(200),
   macroModuloId: z.string().default('M1'),
   submoduloId: z.string(), // ex: '1.1', '1.2'
   contexto: z.string().optional(),

@@ -9,6 +9,11 @@ import { simuladoPreservacao100Q } from './questions/m7-preservacao-100q';
 import { simuladoNormalizacao100Q } from './questions/m8-normalizacao-100q';
 import { simuladoComunicacao100Q } from './questions/m9-comunicacao-100q';
 import { simuladoLegislativo100Q } from './questions/m10-legislativo-100q';
+import { simuladoAdministrativo100Q } from './questions/m11-administrativo-100q';
+import { simuladoIngles100Q } from './questions/m12-ingles-100q';
+import { simuladoPortugues100Q } from './questions/m13-portugues-100q';
+import { simuladoTecnologiaDados100Q } from './questions/m14-tecnologia-dados-100q';
+import { megaSimuladoCamara120Q } from './questions/mega-simulado-camara-120q';
 
 export interface SimuladoManifest {
   id: string;
@@ -143,6 +148,69 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     questoes: simuladoLegislativo100Q,
     submodulosIds: ['10.1', '10.2', '10.3', '10.4'],
   },
+  {
+    id: 'm11-administrativo',
+    macroModuloId: 'M11',
+    numero: 11,
+    titulo: 'Simulado M11: Direito Administrativo & Legislação Federal',
+    tituloCurto: 'M11 - Direito Administrativo',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 11.1 a 11.12)',
+    descricao:
+      'Simulado aprofundado cobrindo princípios expressos e implícitos, organização administrativa, atos, poderes, servidores (Lei 8.112/90), licitações e contratos (Lei 14.133/21), serviços públicos, responsabilidade civil, processo administrativo (Lei 9.784/99), improbidade (Lei 8.429/92 alterada pela 14.230/21) e LINDB.',
+    questoes: simuladoAdministrativo100Q,
+    submodulosIds: ['11.1', '11.2', '11.3', '11.4', '11.5', '11.6', '11.7', '11.8', '11.9', '11.10', '11.11', '11.12'],
+  },
+  {
+    id: 'm12-ingles',
+    macroModuloId: 'M12',
+    numero: 12,
+    titulo: 'Simulado M12: Língua Inglesa Aplicada à Biblioteconomia & Pesquisa Parlamentar',
+    tituloCurto: 'M12 - Língua Inglesa',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 12.1 a 12.4)',
+    descricao:
+      'Simulado denso com textos autênticos em inglês cobrindo compreensão e inferência textual, vocabulário especializado, marcadores do discurso, falsos cognatos, tempos verbais, verbos modais e estruturas condicionais aplicadas à biblioteconomia e processo legislativo.',
+    questoes: simuladoIngles100Q,
+    submodulosIds: ['12.1', '12.2', '12.3', '12.4'],
+  },
+  {
+    id: 'm13-portugues',
+    macroModuloId: 'M13',
+    numero: 13,
+    titulo: 'Simulado M13: Língua Portuguesa & Redação Oficial',
+    tituloCurto: 'M13 - Língua Portuguesa',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 13.1 a 13.4)',
+    descricao:
+      'Simulado rigoroso cobrindo interpretação e tipologia textual, reescrita de frases com filtro tripartite Cebraspe, sintaxe do período, funções do SE e do QUE, concordância, regência, crase, pontuação semântica e Manual de Redação da Presidência da República (3ª ed. 2018).',
+    questoes: simuladoPortugues100Q,
+    submodulosIds: ['13.1', '13.2', '13.3', '13.4'],
+  },
+  {
+    id: 'm14-tecnologia-dados',
+    macroModuloId: 'M14',
+    numero: 14,
+    titulo: 'Simulado M14: Tecnologia da Informação, Segurança Cibernética & Ciência de Dados',
+    tituloCurto: 'M14 - TI & Dados',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 14.1 a 14.4)',
+    descricao:
+      'Simulado moderno cobrindo ferramentas de escritório e colaboração em nuvem (M365 e Google Workspace), redes e segurança cibernética (NGFW, MFA, ransomware, backup 3-2-1), Inteligência Artificial Generativa (Transformers, LLMs, RAG, Shadow AI) e Ciência de Dados/BI (Kimball Star Schema, Power BI, DAX, Storytelling com dados).',
+    questoes: simuladoTecnologiaDados100Q,
+    submodulosIds: ['14.1', '14.2', '14.3', '14.4'],
+  },
+  {
+    id: 'mega-simulado-camara',
+    macroModuloId: 'MEGA',
+    numero: 15,
+    titulo: 'Mega Simulado Oficial: Câmara dos Deputados (Estrutura Real do Edital)',
+    tituloCurto: 'Mega Simulado 120Q',
+    subtitulo: '120 Itens C/E - Prova Completa: Básicos (P1 - 40Q) + Específicos (P2 - 80Q)',
+    descricao:
+      'A experiência definitiva de prova com 120 questões cobrindo 100% dos assuntos do edital da Câmara dos Deputados: 40 Conhecimentos Básicos (Português, Inglês, Administrativo, TI e Dados) e 80 Conhecimentos Específicos (M1 a M10 de Biblioteconomia, Ciência da Informação e Processo Legislativo).',
+    questoes: megaSimuladoCamara120Q,
+    submodulosIds: [
+      '13.1', '12.1', '11.1', '14.1',
+      '1.1', '2.1', '3.1', '4.1', '5.1', '6.1', '7.1', '8.1', '9.1', '10.1'
+    ],
+  },
 ];
 
 export function getSimuladoById(id: string): SimuladoManifest {
@@ -150,6 +218,7 @@ export function getSimuladoById(id: string): SimuladoManifest {
 }
 
 export function detectSimuladoIdFromQuestionId(questionId: string): string {
+  if (questionId.startsWith('mega-q-')) return 'mega-simulado-camara';
   if (questionId.startsWith('cat-q-')) return 'm2-catalogacao';
   if (questionId.startsWith('m3-q-')) return 'm3-classificacao';
   if (questionId.startsWith('m4-q-')) return 'm4-recuperacao';
@@ -159,5 +228,10 @@ export function detectSimuladoIdFromQuestionId(questionId: string): string {
   if (questionId.startsWith('m8-q-')) return 'm8-normalizacao';
   if (questionId.startsWith('m9-q-')) return 'm9-comunicacao';
   if (questionId.startsWith('m10-q-')) return 'm10-legislativo';
+  if (questionId.startsWith('m11-q-')) return 'm11-administrativo';
+  if (questionId.startsWith('m12-q-')) return 'm12-ingles';
+  if (questionId.startsWith('m13-q-')) return 'm13-portugues';
+  if (questionId.startsWith('m14-q-')) return 'm14-tecnologia-dados';
   return 'm1-fundamentos';
 }
+

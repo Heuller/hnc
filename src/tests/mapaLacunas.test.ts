@@ -65,26 +65,28 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
     });
   });
 
-  describe('Auditoria de Questões e Diagnóstico de Déficit Pós-Fase E5', () => {
-    it('deve reconhecer todos os 10 módulos de Conhecimentos Específicos (M1 a M10) com simulados de 100 itens concluídos', () => {
-      const concluidosEsperados = ['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10'];
+  describe('Auditoria de Questões e Diagnóstico de Déficit Pós-Fase E5 e Eixo 1', () => {
+    it('deve reconhecer todos os 14 módulos (M1 a M14) com simulados de 100 itens concluídos', () => {
+      const concluidosEsperados = [
+        'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10',
+        'M11', 'M12', 'M13', 'M14'
+      ];
       concluidosEsperados.forEach(modCodigo => {
         expect(relatorio.modulosSimuladoConcluidos).toContain(modCodigo);
       });
-      expect(relatorio.totalQuestoesSimulados100Q).toBe(1000);
+      expect(relatorio.totalQuestoesSimulados100Q).toBe(1520);
     });
 
-    it('deve apontar os 4 módulos de Conhecimentos Básicos (M11, M12, M13, M14) como pendentes de simulados 100Q', () => {
-      const pendentesEsperados = ['M11', 'M12', 'M13', 'M14'];
-      expect(relatorio.modulosSimuladoPendentes).toEqual(pendentesEsperados);
+    it('deve certificar que não restam módulos pendentes de simulados 100Q no edital', () => {
+      expect(relatorio.modulosSimuladoPendentes).toEqual([]);
     });
 
     it('deve certificar déficit zero para os módulos específicos após a conclusão das Ondas M, P e X da Fase E5', () => {
       expect(relatorio.deficitTotalSimuladosE5).toBe(0);
     });
 
-    it('deve totalizar 1.192 questões atualmente ativas no sistema (192 checkpoints formativos + 1.000 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1192);
+    it('deve totalizar 1.712 questões atualmente ativas no sistema (192 checkpoints formativos + 1.520 de simulados)', () => {
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1712);
     });
   });
 
