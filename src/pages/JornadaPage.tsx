@@ -16,6 +16,7 @@ import {
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { TRILHA_ESPECIFICOS, TRILHA_COMPLEMENTAR } from '../content/registry';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ComoFuncionaJornadaModal } from '../components/jornada/ComoFuncionaJornadaModal';
 import { PortaoVerificacaoModal } from '../components/jornada/PortaoVerificacaoModal';
@@ -30,7 +31,7 @@ export const JornadaPage: React.FC = () => {
     setModoLivre,
   } = useProgressStore();
 
-  const { setSelectedSubmodule, setActiveView } = useNavigationStore();
+  const { setSelectedSubmodule, setActiveView, navigateToSimulado } = useNavigationStore();
 
   const [abaTrilha, setAbaTrilha] = useState<'especificos' | 'complementar'>('especificos');
   const [isHelpOpen, setIsHelpOpen] = useState(() => {
@@ -221,7 +222,16 @@ export const JornadaPage: React.FC = () => {
             <Button
               variant="primary"
               size="sm"
-              onClick={() => handleOpenPortao(proximoPasso.etapaId)}
+              onClick={() => {
+                if (proximoPasso.tipo === 'desafio_modulo') {
+                  const sim = SIMULADOS_REGISTRY.find((s) => s.numero === proximoPasso.moduloNumero);
+                  if (sim) {
+                    navigateToSimulado(sim.id);
+                    return;
+                  }
+                }
+                handleOpenPortao(proximoPasso.etapaId);
+              }}
               className="flex items-center gap-1.5 self-start sm:self-auto"
             >
               <span>{proximoPasso.descricaoAcao}</span>
@@ -464,10 +474,17 @@ export const JornadaPage: React.FC = () => {
                       variant={etapaDesafio.status === 'concluida' ? 'outline' : 'primary'}
                       size="sm"
                       disabled={etapaDesafio.status === 'bloqueada' && !modoLivre}
-                      onClick={() => handleOpenPortao(desafioId)}
+                      onClick={() => {
+                        const sim = SIMULADOS_REGISTRY.find((s) => s.numero === k);
+                        if (sim) {
+                          navigateToSimulado(sim.id);
+                        } else {
+                          handleOpenPortao(desafioId);
+                        }
+                      }}
                       className="self-start sm:self-auto flex items-center gap-1.5"
                     >
-                      <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio' : 'Iniciar Desafio'}</span>
+                      <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio 100Q' : 'Iniciar Desafio 100Q'}</span>
                       <ChevronRight className="w-4 h-4" />
                     </Button>
                   </div>

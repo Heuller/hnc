@@ -21,10 +21,13 @@ interface NavigationState {
   activeSubmoduleIndex: number;
   selectedSubmodule: string;
   sidebarCollapsed: boolean;
+  targetSimuladoId?: string;
   setActiveView: (view: AppView) => void;
   setCurrentRoute: (view: AppView) => void;
   setActiveSubmoduleIndex: (index: number) => void;
   setSelectedSubmodule: (subId: string) => void;
+  setTargetSimuladoId: (id?: string) => void;
+  navigateToSimulado: (simuladoId?: string) => void;
   toggleSidebar: () => void;
   setSidebarCollapsed: (collapsed: boolean) => void;
 }
@@ -86,6 +89,20 @@ export const useNavigationStore = create<NavigationState>((set, get) => {
     },
     setSelectedSubmodule: (subId: string) => {
       set({ selectedSubmodule: subId });
+    },
+    targetSimuladoId: undefined,
+    setTargetSimuladoId: (id?: string) => {
+      set({ targetSimuladoId: id });
+    },
+    navigateToSimulado: (simuladoId?: string) => {
+      if (typeof window !== 'undefined') {
+        window.location.hash = '#simulado';
+      }
+      set({
+        activeView: 'simulado',
+        currentRoute: 'simulado',
+        targetSimuladoId: simuladoId,
+      });
     },
     toggleSidebar: () => {
       set((state) => ({ sidebarCollapsed: !state.sidebarCollapsed }));

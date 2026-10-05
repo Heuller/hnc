@@ -16,6 +16,7 @@ import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useAuthStore } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
+import { criarTentativaRegistro } from '../domain/tentativas';
 import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
 import type { TermoSalvo } from '../domain/dicionario/types';
@@ -187,6 +188,7 @@ export const useProgressStore = create<ProgressStoreState>()(
           secoesVisualizadas: s.secoesVisualizadas || {},
           secoesReabertasAposFalha: s.secoesReabertasAposFalha || {},
           modoLivre: s.modoLivre || false,
+          checkpointsRespondidos: s.checkpointsRespondidos || {},
         });
       },
 
@@ -326,6 +328,8 @@ export const useProgressStore = create<ProgressStoreState>()(
         }
 
         let novosLidos = state.modulosLidosIds || [];
+        let novasTentativas = state.tentativas || [];
+
         if (subEncontrado) {
           const secoes = (state.secoesVisualizadas || {})[subEncontrado.id] || [];
           const learning = calculateSubmoduleStatus(subEncontrado, secoes, novosCheckpoints);
@@ -336,12 +340,55 @@ export const useProgressStore = create<ProgressStoreState>()(
             lidosSet.delete(subEncontrado.id);
           }
           novosLidos = Array.from(lidosSet);
+
+          // Sincronização automática com a Jornada: registra tentativa se todos os checkpoints foram feitos
+          const totalCps = subEncontrado.checkpoints?.length || 0;
+          let respondidosCount = 0;
+          let acertosCount = 0;
+          const mapaRespostas: Record<string, any> = {};
+
+          for (const cp of subEncontrado.checkpoints || []) {
+            const resp = novosCheckpoints[cp.id];
+            if (resp) {
+              respondidosCount++;
+              const acertou = resp === cp.gabarito;
+              if (acertou) acertosCount++;
+              mapaRespostas[cp.id] = {
+                questionId: cp.id,
+                resposta: resp,
+                gabarito: cp.gabarito,
+                acertou,
+                secaoId: 'sec-checkpoints',
+                texto: cp.item,
+              };
+            }
+          }
+
+          if (totalCps > 0 && respondidosCount === totalCps) {
+            const aproveitamento = acertosCount / totalCps;
+            if (aproveitamento >= 0.85) {
+              const novaTentativa = criarTentativaRegistro({
+                userId: 'usuario-logado',
+                tipo: 'verificacao_submodulo',
+                targetId: subEncontrado.numero,
+                moduloId: subEncontrado.id,
+                totalItens: totalCps,
+                respostas: mapaRespostas,
+                foraDaTrilha: false,
+              });
+              novasTentativas = [
+                ...novasTentativas.filter((t) => t.targetId !== subEncontrado.numero),
+                novaTentativa,
+              ];
+            }
+          }
         }
 
         set({
           checkpointsRespondidos: novosCheckpoints,
           leitnerDeck: novoLeitnerDeck,
           modulosLidosIds: novosLidos,
+          tentativas: novasTentativas,
         });
       },
 

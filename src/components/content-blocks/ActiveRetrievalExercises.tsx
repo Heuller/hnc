@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   CheckCircle2,
   AlertTriangle,
@@ -12,6 +12,7 @@ import {
   type MatchedPairInfo,
   type AssociacaoCardItem,
 } from '../../domain/associacao';
+import { useProgressStore } from '../../store/useProgressStore';
 
 interface ActiveRetrievalProps {
   submoduloNumero: string;
@@ -52,45 +53,104 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
     return shuffleConceptsColumn(authorCards, seed);
   }, [authorCards, seed]);
 
+  const registrarSecaoVisualizada = useProgressStore((s) => s.registrarSecaoVisualizada);
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
+  const [selectedConcept, setSelectedConcept] = useState<string | null>(null);
   const [matchedPairs, setMatchedPairs] = useState<MatchedPairInfo[]>([]);
   const [pairError, setPairError] = useState<string | null>(null);
+  const [pairSuccess, setPairSuccess] = useState<string | null>(null);
+  const [shakingCard, setShakingCard] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (matchedPairs.length === authorCards.length && authorCards.length > 0) {
+      registrarSecaoVisualizada(submoduloNumero, 'sec-recuperacao-ativa');
+    }
+  }, [matchedPairs.length, authorCards.length, submoduloNumero, registrarSecaoVisualizada]);
 
   const handleSelectAuthor = (nome: string) => {
     if (matchedPairs.some((p) => p.authorName === nome)) return;
-    setSelectedAuthor(nome);
     setPairError(null);
+    setPairSuccess(null);
+
+    // Se já havia um conceito selecionado previamente (seleção bidirecional)
+    if (selectedConcept) {
+      if (nome === selectedConcept) {
+        const nextPairNum = matchedPairs.length + 1;
+        const palette = PAIR_COLOR_PALETTES[(nextPairNum - 1) % PAIR_COLOR_PALETTES.length];
+        setMatchedPairs((prev) => [
+          ...prev,
+          { authorName: nome, pairNumber: nextPairNum, colorStyle: palette },
+        ]);
+        setSelectedAuthor(null);
+        setSelectedConcept(null);
+        setPairSuccess(`Correto! ${nome} associado com sucesso ao Par ${nextPairNum}.`);
+        setTimeout(() => setPairSuccess(null), 2500);
+      } else {
+        setShakingCard(nome);
+        setPairError(`Associação incorreta: ${nome} não corresponde ao conceito selecionado. Releia a teoria!`);
+        setTimeout(() => {
+          setShakingCard(null);
+          setSelectedAuthor(null);
+          setSelectedConcept(null);
+        }, 1200);
+      }
+      return;
+    }
+
+    // Alterna seleção
+    setSelectedAuthor((prev) => (prev === nome ? null : nome));
   };
 
   const handleSelectConcept = (nomeCorrespondente: string) => {
-    if (!selectedAuthor) return;
     if (matchedPairs.some((p) => p.authorName === nomeCorrespondente)) return;
+    setPairError(null);
+    setPairSuccess(null);
 
-    if (selectedAuthor === nomeCorrespondente) {
-      const nextPairNum = matchedPairs.length + 1;
-      const palette = PAIR_COLOR_PALETTES[(nextPairNum - 1) % PAIR_COLOR_PALETTES.length];
-      setMatchedPairs((prev) => [
-        ...prev,
-        { authorName: selectedAuthor, pairNumber: nextPairNum, colorStyle: palette },
-      ]);
-      setSelectedAuthor(null);
-      setPairError(null);
-    } else {
-      setPairError('Associação incorreta. Releia os conceitos canônicos.');
-      setTimeout(() => setPairError(null), 1800);
+    // Se já havia um autor selecionado previamente (seleção bidirecional)
+    if (selectedAuthor) {
+      if (selectedAuthor === nomeCorrespondente) {
+        const nextPairNum = matchedPairs.length + 1;
+        const palette = PAIR_COLOR_PALETTES[(nextPairNum - 1) % PAIR_COLOR_PALETTES.length];
+        setMatchedPairs((prev) => [
+          ...prev,
+          { authorName: selectedAuthor, pairNumber: nextPairNum, colorStyle: palette },
+        ]);
+        setSelectedAuthor(null);
+        setSelectedConcept(null);
+        setPairSuccess(`Correto! ${selectedAuthor} associado com sucesso ao Par ${nextPairNum}.`);
+        setTimeout(() => setPairSuccess(null), 2500);
+      } else {
+        setShakingCard(nomeCorrespondente);
+        setPairError(`Associação incorreta: este conceito não pertence a ${selectedAuthor}. Tente novamente!`);
+        setTimeout(() => {
+          setShakingCard(null);
+          setSelectedAuthor(null);
+          setSelectedConcept(null);
+        }, 1200);
+      }
+      return;
     }
+
+    // Alterna seleção
+    setSelectedConcept((prev) => (prev === nomeCorrespondente ? null : nomeCorrespondente));
   };
 
   const handleUndo = () => {
     if (matchedPairs.length === 0) return;
     setMatchedPairs((prev) => prev.slice(0, -1));
+    setSelectedAuthor(null);
+    setSelectedConcept(null);
     setPairError(null);
+    setPairSuccess(null);
   };
 
   const resetAssociacao = () => {
     setSelectedAuthor(null);
+    setSelectedConcept(null);
     setMatchedPairs([]);
     setPairError(null);
+    setPairSuccess(null);
+    setShakingCard(null);
     setSeed(Date.now() + Math.floor(Math.random() * 1000));
   };
 
@@ -192,8 +252,8 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
         <div className="space-y-4 animate-fadeIn">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <p className="text-xs sm:text-sm text-ink-2 font-serif">
-              Selecione um <strong>Autor</strong> à esquerda e o{' '}
-              <strong>Conceito ou Obra</strong> correspondente à direita (suporte a teclado via Enter/Espaço).
+              Selecione um <strong>Autor</strong> e o{' '}
+              <strong>Conceito ou Obra</strong> correspondente (pode clicar em qualquer ordem).
             </p>
             {matchedPairs.length > 0 && matchedPairs.length < authorCards.length && (
               <button
@@ -208,25 +268,46 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
             )}
           </div>
 
+          {/* Dica de seleção ativa */}
+          {(selectedAuthor || selectedConcept) && !pairError && !pairSuccess && (
+            <div className="p-3 rounded-xl bg-accent-soft/70 border border-accent/30 text-ink text-xs font-sans flex items-center gap-2 animate-fadeIn">
+              <span className="w-2 h-2 rounded-full bg-accent animate-ping shrink-0" />
+              <span>
+                {selectedAuthor
+                  ? `👉 Autor selecionado: "${selectedAuthor}". Agora toque no conceito correspondente à direita.`
+                  : `👈 Conceito selecionado. Agora toque no autor correspondente à esquerda.`}
+              </span>
+            </div>
+          )}
+
+          {/* Alerta de Erro In-Place */}
           {pairError && (
-            <div className="p-2.5 rounded-lg bg-err-soft border border-err text-err text-xs font-sans flex items-center gap-2">
-              <AlertTriangle className="w-4 h-4 shrink-0" />
+            <div className="p-3 rounded-xl bg-err-soft border-2 border-err text-err text-xs font-sans font-semibold flex items-center gap-2.5 animate-fadeIn shadow-xs">
+              <AlertTriangle className="w-4 h-4 shrink-0 text-err" />
               <span>{pairError}</span>
             </div>
           )}
 
+          {/* Alerta de Sucesso In-Place */}
+          {pairSuccess && (
+            <div className="p-3 rounded-xl bg-ok-soft border-2 border-ok text-ok text-xs font-sans font-semibold flex items-center gap-2.5 animate-fadeIn shadow-xs">
+              <CheckCircle2 className="w-4 h-4 shrink-0 text-ok" />
+              <span>{pairSuccess}</span>
+            </div>
+          )}
+
           {matchedPairs.length === authorCards.length && authorCards.length > 0 && (
-            <div className="p-3 rounded-lg bg-ok-soft border border-ok text-ok text-xs font-sans flex items-center justify-between">
+            <div className="p-3.5 rounded-xl bg-ok-soft border-2 border-ok text-ok text-xs font-sans flex items-center justify-between shadow-xs">
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 shrink-0" />
-                <span className="font-bold">Excelente! Todos os pares foram associados corretamente.</span>
+                <CheckCircle2 className="w-5 h-5 shrink-0 text-ok" />
+                <span className="font-bold text-sm">Excelente! Todos os 4 pares foram associados corretamente.</span>
               </div>
               <button
                 type="button"
                 onClick={resetAssociacao}
-                className="flex items-center gap-1 text-[11px] underline cursor-pointer font-sans"
+                className="flex items-center gap-1.5 text-xs font-bold underline cursor-pointer font-sans ml-2"
               >
-                <RotateCcw className="w-3 h-3" />
+                <RotateCcw className="w-3.5 h-3.5" />
                 Reiniciar
               </button>
             </div>
@@ -243,6 +324,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                   const match = matchedPairs.find((p) => p.authorName === a.nome);
                   const isMatched = !!match;
                   const isSelected = selectedAuthor === a.nome;
+                  const isShaking = shakingCard === a.nome;
 
                   return (
                     <button
@@ -260,16 +342,18 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                       aria-label={isMatched ? `${a.nome}, associado ao Par ${match?.pairNumber}` : `Autor ${a.nome}`}
                       className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
-                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-90 cursor-default`
+                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-bold`
+                          : isShaking
+                          ? 'bg-err-soft border-err text-err ring-2 ring-err/60 animate-shake'
                           : isSelected
-                          ? 'bg-accent-soft border-accent text-ink ring-2 ring-accent/30'
+                          ? 'bg-accent-soft border-accent text-ink ring-2 ring-accent shadow-xs scale-[1.01]'
                           : 'bg-surface-2/60 border-border text-ink hover:border-accent/50'
                       }`}
                     >
                       <span className="leading-snug">{a.nome}</span>
                       {isMatched && (
-                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 ${match.colorStyle.badge}`}>
-                          Par {match.pairNumber}
+                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                          <span>✓ Par {match.pairNumber}</span>
                         </span>
                       )}
                     </button>
@@ -287,6 +371,8 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                 {shuffledConcepts.map((item) => {
                   const match = matchedPairs.find((p) => p.authorName === item.nome);
                   const isMatched = !!match;
+                  const isSelected = selectedConcept === item.nome;
+                  const isShaking = shakingCard === item.nome;
 
                   return (
                     <button
@@ -300,17 +386,22 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                           handleSelectConcept(item.nome);
                         }
                       }}
+                      aria-pressed={isSelected}
                       aria-label={isMatched ? `${item.conceito}, associado ao Par ${match?.pairNumber}` : `Conceito: ${item.conceito}`}
                       className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
-                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-90 cursor-default`
+                          ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-medium`
+                          : isShaking
+                          ? 'bg-err-soft border-err text-err ring-2 ring-err/60 animate-shake'
+                          : isSelected
+                          ? 'bg-accent-soft border-accent text-ink ring-2 ring-accent shadow-xs scale-[1.01]'
                           : 'bg-surface-2/60 border-border text-ink-2 hover:text-ink hover:border-accent/50'
                       }`}
                     >
                       <span className="leading-snug pr-2">{item.conceito}</span>
                       {isMatched && (
-                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold shrink-0 ${match.colorStyle.badge}`}>
-                          Par {match.pairNumber}
+                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                          <span>✓ Par {match.pairNumber}</span>
                         </span>
                       )}
                     </button>

@@ -3,7 +3,7 @@ import { SIMULADOS_REGISTRY, getSimuladoById, detectSimuladoIdFromQuestionId } f
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
-import { checkSimuladoAccess } from '../domain/learningEngine';
+import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learningEngine';
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { Badge } from '../components/common/Badge';
 import { Kbd } from '../components/common/Kbd';
@@ -127,14 +127,20 @@ export const SimuladoPage: React.FC = () => {
     setDevBypassSimuladoLock,
   } = useProgressStore();
 
-  const { setSelectedSubmodule, setActiveView } = useNavigationStore();
+  const {
+    setSelectedSubmodule,
+    setActiveView,
+    targetSimuladoId,
+    setTargetSimuladoId,
+  } = useNavigationStore();
 
   const [tempoInicio] = useState<number>(() => Date.now());
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
 
-  // Seleção de simulado ativo (M1 ou M2)
+  // Seleção de simulado ativo
   const initialSimuladoId = () => {
+    if (targetSimuladoId) return targetSimuladoId;
     const respostasAtuais = sessaoAtivaSimulado?.respostas || {};
     const firstKey = Object.keys(respostasAtuais)[0];
     if (firstKey) {
@@ -144,6 +150,14 @@ export const SimuladoPage: React.FC = () => {
   };
   const [selectedSimuladoId, setSelectedSimuladoId] = useState<string>(initialSimuladoId);
   const simuladoAtivo = getSimuladoById(selectedSimuladoId);
+  const isMegaSimulado = selectedSimuladoId === 'mega-simulado-camara';
+
+  useEffect(() => {
+    if (targetSimuladoId && targetSimuladoId !== selectedSimuladoId) {
+      setSelectedSimuladoId(targetSimuladoId);
+      setTargetSimuladoId(undefined);
+    }
+  }, [targetSimuladoId, selectedSimuladoId, setTargetSimuladoId]);
 
   useEffect(() => {
     iniciarOuRetomarSimulado();
@@ -322,13 +336,19 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
     </div>
   );
 
-    const isMegaSimulado = simuladoAtivo.macroModuloId.toUpperCase() === 'MEGA';
     const moduloAtual = COURSE_REGISTRY.find(
       (m) => m.codigo.toUpperCase() === simuladoAtivo.macroModuloId.toUpperCase() || m.numero === simuladoAtivo.numero
     ) || COURSE_REGISTRY[0];
     const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
-    const accessControl = isMegaSimulado
-      ? { isUnlocked: true, totalSubmodulosConcluidos: 14, totalSubmodulosExigidos: 14, percentualLiberacao: 100 }
+    const accessControl: SimuladoAccessControl = isMegaSimulado
+      ? {
+          isUnlocked: true,
+          totalSubmodulosConcluidos: 14,
+          totalSubmodulosExigidos: 14,
+          percentualLiberacao: 100,
+          submodulosPendentes: [],
+          mensagemBloqueio: '',
+        }
       : checkSimuladoAccess(
           moduloAtualSubmodules,
           secoesVisualizadas || {},
@@ -1093,17 +1113,40 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
             </button>
           </div>
 
-          {/* Bloco de Feedback Imediato (Modo Estudo Guiado) */}
-          {respostaAtual && (
+          {/* Se for Mega Simulado da Câmara (120Q): Modo Prova Real (justificativas somente no relatório pós-prova) */}
+          {isMegaSimulado && respostaAtual && (
+            <div className="pt-4 border-t border-border flex items-center justify-between text-xs font-mono text-ink-2 animate-fadeIn">
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5 text-accent" />
+                <span>Resposta gravada para o espelho de prova.</span>
+              </span>
+              <span className="font-semibold text-accent px-2 py-0.5 rounded bg-accent/10 border border-accent/20">
+                Simulado de Prova (Gabarito no Final)
+              </span>
+            </div>
+          )}
+
+          {/* Nos Simulados de 100Q (M1 a M14): Estudo Reverso Imediato Obrigatório */}
+          {!isMegaSimulado && respostaAtual && (
             <div className="pt-6 border-t border-border space-y-4 animate-fadeIn" aria-live="polite">
+              {/* Badge de cabeçalho do Estudo Reverso */}
+              <div className="flex items-center justify-between gap-2 pb-1 border-b border-border/60 flex-wrap">
+                <span className="font-mono text-[11px] font-bold text-accent px-2.5 py-0.5 rounded bg-accent-soft border border-accent/25 uppercase tracking-wider">
+                  ESTUDO REVERSO IMEDIATO
+                </span>
+                <span className="text-[11px] font-mono text-ink-2">
+                  Regra Cebraspe: Uma errada anula uma certa
+                </span>
+              </div>
+
               {/* Resultado e Impacto na Pontuação */}
               <div
-                className={`p-4 rounded-xl border flex items-center justify-between gap-3 ${
+                className={`p-4 rounded-xl border flex items-center justify-between gap-3 flex-wrap ${
                   respostaAtual.resposta === 'BRANCO'
                     ? 'bg-surface-2 border-border'
                     : respostaAtual.acertou
-                    ? 'bg-ok-soft border-ok text-ok'
-                    : 'bg-err-soft border-err text-err'
+                    ? 'bg-ok-soft border-ok text-ok shadow-2xs'
+                    : 'bg-err-soft border-err text-err shadow-2xs'
                 }`}
               >
                 <div className="flex items-center gap-2.5">
@@ -1117,39 +1160,44 @@ function getSubmoduloTemaInfo(subId: string): { titulo: string; cobrado: string[
 
                   <span className="font-sans font-bold text-sm">
                     {respostaAtual.resposta === 'BRANCO'
-                      ? 'Item deixado em branco (0 pontos)'
+                      ? 'Item deixado em branco (0 pontos líquidos)'
                       : respostaAtual.acertou
-                      ? 'Você acertou! (+1 ponto líquido)'
+                      ? 'Você acertou! (+1 ponto líquido Cebraspe)'
                       : 'Você errou! (-1 ponto líquido: anula uma questão certa)'}
                   </span>
                 </div>
 
                 <Badge
                   variant={currentQuestion.gabarito === 'C' ? 'certo' : 'errado'}
-                  size="sm"
+                  size="md"
                 >
-                  {`Gabarito: ${currentQuestion.gabarito === 'C' ? 'CERTO' : 'ERRADO'}`}
+                  {`Gabarito Oficial: ${currentQuestion.gabarito === 'C' ? 'CERTO' : 'ERRADO'}`}
                 </Badge>
               </div>
 
-              {/* Armadilha Cebraspe */}
+              {/* Destaque: Por que está certa / Por que está errada (Armadilha) */}
               {currentQuestion.armadilhaBanca && (
-                <div className="p-4 rounded-xl bg-theme-alerta-soft/60 border border-theme-alerta/30 space-y-1">
-                  <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-theme-alerta">
-                    <AlertTriangle className="w-4 h-4" />
-                    <span>Armadilha Cebraspe Identificada</span>
+                <div className="p-4 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border border-amber-500/25 space-y-1.5">
+                  <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-amber-700 dark:text-amber-300">
+                    <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+                    <span>
+                      {currentQuestion.gabarito === 'E'
+                        ? 'Por que está errada? (Armadilha da Banca)'
+                        : 'Ponto Chave da Assertiva Certa'}
+                    </span>
                   </div>
-                  <p className="text-xs sm:text-sm font-sans text-theme-alerta leading-relaxed">
+                  <p className="text-xs sm:text-sm font-sans text-ink leading-relaxed">
                     {currentQuestion.armadilhaBanca}
                   </p>
                 </div>
               )}
 
-              {/* Justificativa Canônica */}
+              {/* Justificativa Canônica e Fundamentação Técnica */}
               <div className="p-5 bg-surface-2 rounded-xl border border-border space-y-2">
-                <span className="font-sans font-bold text-xs uppercase tracking-wider text-ink-2">
-                  Justificativa Canônica e Fundamentação
-                </span>
+                <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-ink-2">
+                  <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
+                  <span>Justificativa e Fundamentação Técnica</span>
+                </div>
                 <p className="text-xs sm:text-sm font-serif text-ink leading-relaxed">
                   {currentQuestion.justificativa}
                 </p>

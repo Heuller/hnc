@@ -65,6 +65,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
   const [fase, setFase] = useState<'intro' | 'quiz' | 'result'>('intro');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [respostas, setRespostas] = useState<Record<string, 'C' | 'E' | 'BRANCO'>>({});
+  const [tentativaRecente, setTentativaRecente] = useState<any | null>(null);
 
   const jornada = getJornadaState();
   const etapa = jornada.etapas[etapaId];
@@ -233,6 +234,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     });
 
     await adicionarTentativa(novaTentativa);
+    setTentativaRecente(novaTentativa);
     setFase('result');
   };
 
@@ -246,11 +248,12 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
   const handleReiniciar = () => {
     setRespostas({});
     setCurrentIndex(0);
+    setTentativaRecente(null);
     setFase('quiz');
   };
 
-  // Avaliação do resultado após o quiz
-  const ultimaTentativa = etapa.ultimaTentativa;
+  // Avaliação do resultado após o quiz (usa tentativa recém-calculada ou do store)
+  const ultimaTentativa = tentativaRecente || etapa.ultimaTentativa;
   const isAprovado = ultimaTentativa?.aprovado ?? false;
 
   return (
@@ -496,6 +499,64 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                   <span>EM BRANCO</span>
                 </button>
               </div>
+
+              {/* Feedback Imediato com Estudo Reverso */}
+              {respostas[currentItem.id] && (
+                <div className="p-4 rounded-xl border border-border bg-surface-2/40 space-y-3 animate-fadeIn text-xs" aria-live="polite">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <div className="flex items-center gap-2">
+                      {respostas[currentItem.id] === 'BRANCO' ? (
+                        <>
+                          <HelpCircle className="w-4 h-4 text-ink-2" />
+                          <span className="font-bold text-ink">Item deixado em branco (0 pontos)</span>
+                        </>
+                      ) : respostas[currentItem.id] === currentItem.gabarito ? (
+                        <>
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                          <span className="font-bold text-emerald-700 dark:text-emerald-300">
+                            Você acertou! (+1 ponto líquido Cebraspe)
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <XCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                          <span className="font-bold text-rose-700 dark:text-rose-300">
+                            Você errou! (-1 ponto líquido: anula uma questão certa)
+                          </span>
+                        </>
+                      )}
+                    </div>
+                    <span
+                      className={`px-2 py-0.5 rounded font-mono font-bold text-[11px] ${
+                        currentItem.gabarito === 'C'
+                          ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
+                          : 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
+                      }`}
+                    >
+                      Gabarito: {currentItem.gabarito === 'C' ? 'CERTO' : 'ERRADO'}
+                    </span>
+                  </div>
+
+                  {/* Armadilha da Banca */}
+                  {currentItem.armadilhaBanca && (
+                    <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/25 space-y-1 text-amber-800 dark:text-amber-200">
+                      <div className="flex items-center gap-1.5 font-bold text-[11px] uppercase tracking-wide text-amber-600 dark:text-amber-400">
+                        <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                        <span>Armadilha Cebraspe Identificada</span>
+                      </div>
+                      <p className="leading-relaxed font-sans">{currentItem.armadilhaBanca}</p>
+                    </div>
+                  )}
+
+                  {/* Justificativa Técnica */}
+                  <div className="p-3 rounded-lg bg-surface border border-border/80 space-y-1 text-ink">
+                    <span className="font-bold text-[11px] uppercase tracking-wide text-ink-2 block">
+                      Justificativa e Fundamentação Técnica
+                    </span>
+                    <p className="font-serif leading-relaxed text-xs sm:text-[13px]">{currentItem.justificativa}</p>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Navegação entre itens */}
@@ -594,7 +655,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                   Itens com Incorreções ({ultimaTentativa.erros} erro{ultimaTentativa.erros !== 1 ? 's' : ''})
                 </h4>
                 <div className="space-y-2.5 max-h-60 overflow-y-auto pr-1 scrollbar-thin">
-                  {Object.values(ultimaTentativa.respostas)
+                  {(Object.values(ultimaTentativa.respostas) as RespostaTentativa[])
                     .filter((r) => !r.acertou)
                     .map((item, idx) => (
                       <div

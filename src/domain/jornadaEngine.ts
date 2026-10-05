@@ -10,6 +10,7 @@ import {
   obterUltimaTentativa,
 } from './tentativas';
 import { getRequiredSectionsForSubmodule } from './learningEngine';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 
 export type EtapaStatus =
   | 'bloqueada'
@@ -158,6 +159,7 @@ export function deriveJornadaState(params: {
   secoesVisualizadas: Record<string, string[]>;
   secoesReabertasAposFalha?: Record<string, string[]>;
   modoLivre?: boolean;
+  checkpointsRespondidos?: Record<string, 'C' | 'E'>;
 }): JornadaState {
   const {
     modulos,
@@ -165,6 +167,7 @@ export function deriveJornadaState(params: {
     secoesVisualizadas,
     secoesReabertasAposFalha = {},
     modoLivre = false,
+    checkpointsRespondidos = {},
   } = params;
 
   const etapas: Record<string, EtapaJornadaState> = {};
@@ -207,9 +210,13 @@ export function deriveJornadaState(params: {
       const todasSecoesLidas =
         requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
 
-      // Verificação do N mínimo de itens aprovados (Regra D.2)
+      // Verificação do N de itens do submódulo (Regra D.2)
       const checkpointsCount = sub.checkpoints?.length || 0;
-      const totalItensAprovados = checkpointsCount;
+      const isMock = macro.titulo?.includes('Teste') || sub.titulo?.includes('Teste');
+      const questoesSimuladoCount = !isMock
+        ? SIMULADOS_REGISTRY.find((s) => s.numero === k)?.questoes.filter((q) => q.submoduloId === sub.numero).length || 0
+        : 0;
+      const totalItensAprovados = checkpointsCount + questoesSimuladoCount;
       const faltamItens = totalItensAprovados < JORNADA_CONFIG.nMinimoVerificacao;
       const itensFaltantes = Math.max(0, JORNADA_CONFIG.nMinimoVerificacao - totalItensAprovados);
 
@@ -224,22 +231,44 @@ export function deriveJornadaState(params: {
       }
 
       // Regra de acertos
-      const nItens = Math.max(totalItensAprovados, JORNADA_CONFIG.nMinimoVerificacao);
+      const nItens = Math.max(checkpointsCount, 1);
       const acertosNecessarios = calcularAcertosNecessarios(nItens);
       const errosMaximos = Math.max(0, nItens - acertosNecessarios);
       const descricaoRegra = getDescricaoLimiar(nItens);
 
+      // Avaliação dos microcheckpoints respondidos pelo aluno na teoria
+      let acertosCheckpoints = 0;
+      let respondidosCheckpoints = 0;
+      for (const cp of sub.checkpoints || []) {
+        const resp = checkpointsRespondidos[cp.id];
+        if (resp) {
+          respondidosCheckpoints++;
+          if (resp === cp.gabarito) {
+            acertosCheckpoints++;
+          }
+        }
+      }
+      const aproveitamentoCheckpoints = checkpointsCount > 0 ? acertosCheckpoints / checkpointsCount : 0;
+      const temCheckpointsAprovados =
+        checkpointsCount > 0 &&
+        respondidosCheckpoints === checkpointsCount &&
+        acertosCheckpoints >= acertosNecessarios;
+
       // Avaliação de aprovação oficial na trilha
-      const melhorAprov = tentativasSub.reduce(
+      const melhorAprovTentativas = tentativasSub.reduce(
         (max, t) => Math.max(max, Math.round(t.aproveitamento * 100)),
         0
       );
+      const melhorAprov = Math.max(
+        melhorAprovTentativas,
+        temCheckpointsAprovados ? Math.round(aproveitamentoCheckpoints * 100) : 0
+      );
 
       // Uma etapa só pode ser considerada concluída se:
-      // 1. Não tiver bloqueio por falta de itens aprovados (Regra D.2)
-      // 2. Houver tentativa aprovada com >= 85% de aproveitamento
+      // 1. Houver itens de verificação (não falta itens)
+      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85%
       // 3. Todas as seções canônicas de teoria tiverem sido lidas
-      const temTentativaAprovada = tentativasSub.some((t) => t.aprovado);
+      const temTentativaAprovada = tentativasSub.some((t) => t.aprovado) || temCheckpointsAprovados;
       const isConcluida = !faltamItens && temTentativaAprovada && todasSecoesLidas;
 
       // Status

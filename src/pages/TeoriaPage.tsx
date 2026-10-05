@@ -35,9 +35,10 @@ import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../do
 import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
 import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
 import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 
 export const TeoriaPage: React.FC = () => {
-  const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute } =
+  const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute, navigateToSimulado } =
     useNavigationStore();
   const {
     modulosLidosIds,
@@ -539,6 +540,56 @@ export const TeoriaPage: React.FC = () => {
               moduloTitulo={currentMacro.titulo_curto || currentMacro.titulo}
             />
           </section>
+
+          {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q) */}
+          {(() => {
+            const isUltimoSubmoduloDoMacro =
+              currentMacro.modulosFilhos.length > 0 &&
+              currentMacro.modulosFilhos[currentMacro.modulosFilhos.length - 1].id === currentSub.id;
+            const simuladoDoMacro = SIMULADOS_REGISTRY.find((s) => s.numero === currentMacro.numero);
+
+            if (!isUltimoSubmoduloDoMacro || !simuladoDoMacro) return null;
+
+            return (
+              <section
+                aria-label="Conclusão do Módulo e Simulado 100Q"
+                className="my-8 p-6 sm:p-7 rounded-2xl bg-accent-soft/40 border-2 border-accent/40 shadow-editorial-sm space-y-4 animate-fadeIn"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+                  <div className="flex items-start sm:items-center gap-4">
+                    <div className="w-14 h-14 rounded-2xl bg-accent text-accent-text flex items-center justify-center font-mono font-bold text-xl shrink-0 shadow-xs">
+                      M{currentMacro.numero}
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="font-mono text-xs font-bold px-2.5 py-0.5 rounded-full bg-accent/15 text-accent border border-accent/25 uppercase tracking-wider">
+                          Teoria Concluída · Módulo {currentMacro.numero}
+                        </span>
+                        <span className="text-xs text-ink-2 font-mono">
+                          {currentMacro.modulosFilhos.length} submódulos lidos
+                        </span>
+                      </div>
+                      <h3 className="text-lg sm:text-xl font-serif font-bold text-ink">
+                        Pronto para o Simulado de 100 Questões Cebraspe?
+                      </h3>
+                      <p className="text-xs sm:text-sm text-ink-2 font-serif max-w-2xl leading-relaxed">
+                        Você completou toda a base teórica de <strong>{currentMacro.titulo_curto || currentMacro.titulo}</strong>. Agora aplique o <strong>Estudo Reverso imediato</strong> no caderno com 100 assertivas comentadas item a item.
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => navigateToSimulado(simuladoDoMacro.id)}
+                    className="w-full sm:w-auto py-3.5 px-6 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 transition-all shadow-md active:scale-98 cursor-pointer shrink-0"
+                  >
+                    <span>Iniciar Simulado 100Q</span>
+                    <ArrowRight className="w-5 h-5" />
+                  </button>
+                </div>
+              </section>
+            );
+          })()}
 
           {/* Rodapé de Navegação do Submódulo */}
           <footer className="border-t border-border pt-6 pb-12 flex flex-col sm:flex-row items-center justify-between gap-4">
