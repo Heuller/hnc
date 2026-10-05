@@ -34,4 +34,19 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
       window.location.reload();
     }
   });
+
+  // Força verificação ativa de atualizações ao abrir e ao retornar ao app no celular
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.getRegistration().then((reg) => {
+      if (reg) reg.update();
+    });
+  });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      navigator.serviceWorker.getRegistration().then((reg) => {
+        if (reg) reg.update();
+      });
+    }
+  });
 }

@@ -46,7 +46,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
             <div className="flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-accent" />
               <h2 id="mobile-modules-title" className="text-sm font-bold tracking-tight text-ink">
-                Grade Curricular (M1–M10)
+                Grade Curricular (M1–M14)
               </h2>
             </div>
 

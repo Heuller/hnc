@@ -469,7 +469,7 @@ export const PainelPage: React.FC = () => {
           <div className="flex items-center gap-2">
             <HelpCircle className="w-4 h-4 text-ink-2 shrink-0" />
             <span className="font-serif">
-              Acervo de <strong>1.156 questões Cebraspe</strong> (156 checkpoints + 1.000 itens de simulados) com progressão na <strong>Jornada</strong>.
+              Acervo de <strong>1.192 questões Cebraspe</strong> (192 checkpoints + 1.000 itens de simulados) com progressão na <strong>Jornada</strong>.
             </span>
           </div>
 

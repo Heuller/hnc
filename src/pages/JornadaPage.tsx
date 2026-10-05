@@ -233,19 +233,20 @@ export const JornadaPage: React.FC = () => {
 
       {/* SELETOR DE TRILHA: PRINCIPAL (ESPECÍFICOS) vs COMPLEMENTAR (GERAIS) */}
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-b border-border pb-3">
-        <div className="flex items-center gap-2 p-1 bg-surface-2/60 rounded-xl border border-border w-fit" role="tablist" aria-label="Seletor de Trilha de Estudos">
+        <div className="grid grid-cols-2 sm:flex items-center gap-1.5 p-1 bg-surface-2/60 rounded-xl border border-border w-full sm:w-fit" role="tablist" aria-label="Seletor de Trilha de Estudos">
           <button
             type="button"
             role="tab"
+            aria-label="Trilha Principal · Específicos"
             aria-selected={abaTrilha === 'especificos'}
             onClick={() => setAbaTrilha('especificos')}
-            className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
+            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               abaTrilha === 'especificos'
                 ? 'bg-surface text-ink shadow-xs border border-border'
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            <span>Trilha Principal · Específicos</span>
+            <span>Trilha Principal</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-accent/10 text-accent font-semibold">
               M1 a M10
             </span>
@@ -254,15 +255,16 @@ export const JornadaPage: React.FC = () => {
           <button
             type="button"
             role="tab"
+            aria-label="Trilha Complementar · Conhecimentos Gerais"
             aria-selected={abaTrilha === 'complementar'}
             onClick={() => setAbaTrilha('complementar')}
-            className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center gap-2 ${
+            className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               abaTrilha === 'complementar'
                 ? 'bg-surface text-ink shadow-xs border border-border'
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            <span>Trilha Complementar · Conhecimentos Gerais</span>
+            <span>Trilha Complementar</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-700 dark:text-purple-300 font-semibold">
               M11 a M14
             </span>

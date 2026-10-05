@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock, RotateCcw } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useDicionarioStore } from '../../store/useDicionarioStore';
@@ -227,6 +227,31 @@ export const MobileMoreMenu: React.FC = () => {
             >
               {modoLivre ? 'ATIVO' : 'DESL.'}
             </span>
+          </button>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={async () => {
+              setIsOpen(false);
+              if ('serviceWorker' in navigator) {
+                const regs = await navigator.serviceWorker.getRegistrations();
+                for (const reg of regs) {
+                  await reg.unregister();
+                }
+              }
+              if ('caches' in window) {
+                const keys = await caches.keys();
+                for (const key of keys) {
+                  await caches.delete(key);
+                }
+              }
+              window.location.reload();
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-accent font-semibold transition-colors min-h-[40px] cursor-pointer border-t border-border/50"
+          >
+            <RotateCcw className="w-4 h-4 text-accent" />
+            <span>Atualizar App (Recarregar Versão)</span>
           </button>
 
           {user && (
