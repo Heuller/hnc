@@ -264,7 +264,7 @@ export const JornadaPage: React.FC = () => {
           >
             <span>Trilha Complementar · Conhecimentos Gerais</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-700 dark:text-purple-300 font-semibold">
-              M11, M12 & M13
+              M11 a M14
             </span>
           </button>
         </div>
@@ -523,10 +523,10 @@ export const JornadaPage: React.FC = () => {
               Trilha Complementar Disponível
             </span>
             <h3 className="text-base font-serif font-bold text-ink">
-              Módulos Básicos: Direito Administrativo, Inglês e Português
+              Módulos Básicos: Direito Administrativo, Inglês, Português e Tecnologia da Informação
             </h3>
             <p className="text-xs text-ink-2 max-w-md mx-auto">
-              Estude Direito Administrativo, Inglês e Português conforme o Edital nº 1/2026, sem comprometer a sua trilha sequencial de 59 etapas.
+              Estude Direito Administrativo, Inglês, Português e Tecnologia da Informação conforme o Edital nº 1/2026, sem comprometer a sua trilha sequencial de 59 etapas.
             </p>
             <Button
               variant="outline"
@@ -540,7 +540,7 @@ export const JornadaPage: React.FC = () => {
         </div>
       )}
 
-      {/* RENDERIZAÇÃO DA TRILHA COMPLEMENTAR (GERAIS M11 E M12) */}
+      {/* RENDERIZAÇÃO DA TRILHA COMPLEMENTAR (GERAIS M11 A M14) */}
       {abaTrilha === 'complementar' && (
         <div className="space-y-8 relative animate-fadeIn">
           {/* Banner de Esclarecimento de IA e Fontes Primárias */}
@@ -557,12 +557,10 @@ export const JornadaPage: React.FC = () => {
               </span>
             </div>
             <h2 className="text-lg font-serif font-bold text-ink">
-              Noções de Direito Administrativo (M11), Língua Inglesa (M12) e Língua Portuguesa (M13)
+              Direito Administrativo (M11), Língua Inglesa (M12), Língua Portuguesa (M13) e Tecnologia da Informação e Dados (M14)
             </h2>
             <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
-              Estes módulos oferecem preparação de base enquanto aguardamos a publicação do edital da Câmara dos Deputados. As questões foram elaboradas com assistência de inteligência artificial sob o bloqueio estrito contra alucinações (
-              <code className="text-[11px] bg-surface-2 px-1 rounded font-mono">antiHallucinationGuard</code>
-              ), ancoradas em fontes primárias canônicas (Bechara, Cunha & Cintra, Luft, Manual de Redação da Presidência, Di Pietro, Carvalho Filho, Hely Lopes Meirelles, Murphy, Swan e jurisprudência canônica Cebraspe). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
+              Estes módulos cobrem com exaustão as disciplinas de Conhecimentos Básicos do Edital nº 1/2026 da Câmara dos Deputados (Cebraspe). As questões e checkpoints são ancorados em fontes primárias canônicas (Bechara, Cunha & Cintra, Lei 8.112/90, Lei 14.133/2021, Murphy, Tanenbaum, Stallings, Tufte e normas técnicas). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
             </p>
           </div>
 

@@ -67,6 +67,12 @@ const FONTES_PRIMARIAS_VALIDAS = [
   // Língua Inglesa
   /murphy|swan|quirk|biber|cambridge|oxford/i,
 
+  // Tecnologia da Informação, Redes, Segurança, IA e Ciência de Dados
+  /tanenbaum|stallings|kurose|forouzan|nist|cert\.br|nic\.br|ietf|rfc\s*\d+|w3c/i,
+  /vaswani|tufte|knaflic|russell|norvig|wei|microsoft|power\s*bi|dax|power\s*query|tableau/i,
+  /tcp|udp|ip|dns|dhcp|smtp|imap|pop3|http|https|ssh|tls|ssl/i,
+  /sql|json|xml|yaml|etl|elt|star\s*schema|snowflake|k-means|pca|rag|prompt/i,
+
   // Citações bibliográficas formais com autor e ano (ex: Autor, 1989)
   /\(\s*\d{4}\s*\)/,
   /[A-Z][a-z]+,\s*\d{4}/,

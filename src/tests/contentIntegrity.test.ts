@@ -123,13 +123,13 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
   });
 
   describe('Estrutura e Integridade Curricular dos Macro-Módulos (COURSE_REGISTRY)', () => {
-    it('deve conter 13 Macro-Módulos registrados (M1-M10 Específicos + M11 Direito Administrativo + M12 Inglês + M13 Língua Portuguesa)', () => {
-      expect(COURSE_REGISTRY).toHaveLength(13);
-      const expectedIds = ['m1', 'm2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10', 'm11', 'm12', 'm13'];
+    it('deve conter 14 Macro-Módulos registrados (M1-M10 Específicos + M11 Direito Administrativo + M12 Inglês + M13 Língua Portuguesa + M14 Tecnologia da Informação e Dados)', () => {
+      expect(COURSE_REGISTRY).toHaveLength(14);
+      const expectedIds = ['m1', 'm2', 'm3', 'm4', 'm5', 'm6', 'm7', 'm8', 'm9', 'm10', 'm11', 'm12', 'm13', 'm14'];
       expect(COURSE_REGISTRY.map((m) => m.id)).toEqual(expectedIds);
     });
 
-    it('deve validar todos os 13 Macro-Módulos contra o schema estrito Zod', () => {
+    it('deve validar todos os 14 Macro-Módulos contra o schema estrito Zod', () => {
       COURSE_REGISTRY.forEach((modulo) => {
         const result = MacroModuloSchema.safeParse(modulo);
         if (!result.success) {
@@ -139,9 +139,9 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('deve totalizar 60 submódulos no currículo (com M11 cobrindo os 12 tópicos do edital e 4 submódulos nos demais)', () => {
+    it('deve totalizar 64 submódulos no currículo (com M11 cobrindo os 12 tópicos do edital e 4 submódulos nos demais)', () => {
       const totalSubmodulos = COURSE_REGISTRY.reduce((acc, m) => acc + m.modulosFilhos.length, 0);
-      expect(totalSubmodulos).toBe(60);
+      expect(totalSubmodulos).toBe(64);
 
       COURSE_REGISTRY.forEach((m) => {
         if (m.id === 'm11') {
@@ -152,10 +152,10 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('todos os 60 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
+    it('todos os 64 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
       const allSubIds = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos.map((s) => s.id));
       const uniqueSubIds = new Set(allSubIds);
-      expect(uniqueSubIds.size).toBe(60);
+      expect(uniqueSubIds.size).toBe(64);
 
       COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
         expect(sub.id.trim().length).toBeGreaterThan(2);

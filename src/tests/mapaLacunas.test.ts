@@ -9,11 +9,11 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
   const relatorio = gerarRelatorioLacunas();
 
   describe('Auditoria Quantitativa e Estrutural da Teoria', () => {
-    it('deve auditar rigorosamente os 13 macro-módulos e 52 submódulos', () => {
-      expect(relatorio.totalEixos).toBe(13);
-      expect(relatorio.totalTopicos).toBe(60);
-      expect(relatorio.totalSubmodulosAuditados).toBe(60);
-      expect(relatorio.eixos).toHaveLength(13);
+    it('deve auditar rigorosamente os 14 macro-módulos e 64 submódulos', () => {
+      expect(relatorio.totalEixos).toBe(14);
+      expect(relatorio.totalTopicos).toBe(64);
+      expect(relatorio.totalSubmodulosAuditados).toBe(64);
+      expect(relatorio.eixos).toHaveLength(14);
     });
 
     it('deve certificar que cada macro-módulo possui seus submódulos correspondentes ao edital', () => {
@@ -40,8 +40,8 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       });
     });
 
-    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (180 no total)', () => {
-      expect(relatorio.totalCheckpointsFormativos).toBe(180);
+    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (192 no total)', () => {
+      expect(relatorio.totalCheckpointsFormativos).toBe(192);
       relatorio.eixos.forEach(eixo => {
         if (eixo.moduloId === 'm11') {
           expect(eixo.questoesCheckpoints).toBe(36);
@@ -54,7 +54,7 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       });
     });
 
-    it('deve validar que 100% dos 52 submódulos possuem quadros comparativos e mnemônicos', () => {
+    it('deve validar que 100% dos 64 submódulos possuem quadros comparativos e mnemônicos', () => {
       relatorio.eixos.forEach(eixo => {
         eixo.submodulos.forEach(sub => {
           expect(sub.temQuadro).toBe(true);
@@ -74,8 +74,8 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       expect(relatorio.totalQuestoesSimulados100Q).toBe(1000);
     });
 
-    it('deve apontar apenas os 3 módulos de Conhecimentos Básicos (M11, M12, M13) como pendentes de simulados 100Q', () => {
-      const pendentesEsperados = ['M11', 'M12', 'M13'];
+    it('deve apontar os 4 módulos de Conhecimentos Básicos (M11, M12, M13, M14) como pendentes de simulados 100Q', () => {
+      const pendentesEsperados = ['M11', 'M12', 'M13', 'M14'];
       expect(relatorio.modulosSimuladoPendentes).toEqual(pendentesEsperados);
     });
 
@@ -83,8 +83,8 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       expect(relatorio.deficitTotalSimuladosE5).toBe(0);
     });
 
-    it('deve totalizar 1.156 questões atualmente ativas no sistema (156 checkpoints formativos + 1.000 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1180);
+    it('deve totalizar 1.192 questões atualmente ativas no sistema (192 checkpoints formativos + 1.000 de simulados)', () => {
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1192);
     });
   });
 

@@ -12,6 +12,7 @@ import { moduloM10Legislativo } from './modules/m10-legislativo';
 import { moduloM11DireitoAdministrativo } from './modules/m11-direito-administrativo';
 import { moduloM12Ingles } from './modules/m12-ingles';
 import { moduloM13Portugues } from './modules/m13-portugues';
+import { moduloM14TecnologiaDados } from './modules/m14-tecnologia-dados';
 
 export const TRILHA_ESPECIFICOS: MacroModulo[] = [
   moduloM1Fundamentos,
@@ -30,6 +31,7 @@ export const TRILHA_COMPLEMENTAR: MacroModulo[] = [
   moduloM11DireitoAdministrativo,
   moduloM12Ingles,
   moduloM13Portugues,
+  moduloM14TecnologiaDados,
 ];
 
 export const COURSE_REGISTRY: MacroModulo[] = [
@@ -51,4 +53,5 @@ export {
   moduloM11DireitoAdministrativo,
   moduloM12Ingles,
   moduloM13Portugues,
+  moduloM14TecnologiaDados,
 };

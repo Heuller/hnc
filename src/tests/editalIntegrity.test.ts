@@ -11,8 +11,8 @@ describe('Auditoria de Integridade do Edital nº 1/2026 (Fase E0)', () => {
     expect(EDITAL_CAMARA_2026.fatorCorrecao).toContain('1 Erro Anula 1 Certo');
   });
 
-  it('deve mapear exatamente 13 eixos temáticos correspondentes aos módulos M1 a M13 da plataforma', () => {
-    expect(EDITAL_CAMARA_2026.eixos.length).toBe(13);
+  it('deve mapear exatamente 14 eixos temáticos correspondentes aos módulos M1 a M14 da plataforma', () => {
+    expect(EDITAL_CAMARA_2026.eixos.length).toBe(14);
 
     // Módulos 1 a 10: Conhecimentos Específicos
     const especificos = EDITAL_CAMARA_2026.eixos.filter(
@@ -20,14 +20,14 @@ describe('Auditoria de Integridade do Edital nº 1/2026 (Fase E0)', () => {
     );
     expect(especificos.length).toBe(10);
 
-    // Módulos 11 a 13: Conhecimentos Básicos
+    // Módulos 11 a 14: Conhecimentos Básicos
     const basicos = EDITAL_CAMARA_2026.eixos.filter(
       (e) => e.bloco === 'CONHECIMENTOS_BASICOS'
     );
-    expect(basicos.length).toBe(3);
+    expect(basicos.length).toBe(4);
   });
 
-  it('cada eixo temático deve conter tópicos programáticos densos correspondentes ao edital (total de 60 tópicos)', () => {
+  it('cada eixo temático deve conter tópicos programáticos densos correspondentes ao edital (total de 64 tópicos)', () => {
     let totalTopicos = 0;
     for (const eixo of EDITAL_CAMARA_2026.eixos) {
       expect(eixo.topicos.length).toBeGreaterThanOrEqual(4);
@@ -42,7 +42,7 @@ describe('Auditoria de Integridade do Edital nº 1/2026 (Fase E0)', () => {
         expect(topico.submodulosRef.length).toBeGreaterThanOrEqual(1);
       }
     }
-    expect(totalTopicos).toBe(60);
+    expect(totalTopicos).toBe(64);
   });
 
   it('todos os eixos do edital devem ter correspondência 1:1 com os módulos do COURSE_REGISTRY', () => {

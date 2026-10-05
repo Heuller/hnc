@@ -3,133 +3,152 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo52: ModuloFilho = {
   id: 'sub-5-2',
   numero: '5.2',
-  titulo: 'Marketing em Unidades de Informação e Serviços',
-  descricaoCurta: 'Fundamentos mercadológicos aplicados à Biblioteconomia (Amaral, Kotler), segmentação de mercado, composto de marketing (4 Ps), endomarketing, marketing de relacionamento e de permissão.',
-  tempoEstimadoMinutos: 25,
-  autoresChave: ['Sueli Angélica do Amaral', 'Philip Kotler', 'Amélia Silveira', 'Seth Godin'],
+  titulo: 'CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional',
+  descricaoCurta: 'Gestão de Relacionamento (CRM de Paul Greenberg: operacional, analítico e colaborativo), Personalização e DSI (Eirão & Cunha), Curadoria de Informação (Bezerra) e elaboração de Dossiês, Estados da Arte e Panoramas (Candido).',
+  tempoEstimadoMinutos: 35,
+  autoresChave: ['Paul Greenberg', 'Thiago Gomes Eirão', 'Murilo Bastos da Cunha', 'Arthur Bezerra', 'Renato Alexandre Candido'],
   alertasCebraspe: [
-    'Pegadinha clássica da banca: afirmar que endomarketing é voltado ao atendimento direto de usuários externos. ERRADO! Endomarketing é exclusivamente interno, voltado aos colaboradores da unidade de informação para alinhar visão, cultura e engajamento.',
-    'O Cebraspe insiste em afirmar que bibliotecas públicas ou governamentais não podem usar marketing por não terem fins lucrativos. FALSO! O marketing social e de serviços em bibliotecas foca na agregação de valor, satisfação de necessidades e promoção do uso social da informação.',
-    'Cuidado com a confusão entre marketing de massa (indiferenciado) e segmentação de mercado: embora bibliotecas tradicionalmente tenham praticado marketing indiferenciado, a gestão moderna exige segmentar a comunidade em nichos com necessidades específicas.',
-    'Marketing de permissão em bibliotecas tem aplicação clássica nos serviços de Disseminação Seletiva da Informação (DSI) e newsletters, onde o usuário autoriza previamente o recebimento de alertas.',
+    'CRM em Serviços de Informação (Paul Greenberg): divide-se na tríade canônica: 1. CRM Operacional (pontos de contato direto, automação de balcão e circulação); 2. CRM Analítico (mineração de dados, identificação de padrões de busca e antecipação de demandas); e 3. CRM Colaborativo (interação multicanal e diálogo contínuo com os usuários para cocriação de serviços). O Cebraspe adora inverter as funções de CRM Analítico e Operacional!',
+    'Disseminação Seletiva da Informação (DSI) e Personalização (Eirão & Cunha): modernizada por tecnologias de alerta, feeds RSS e agentes inteligentes, a DSI não envia tudo para todos; ela confronta o perfil de interesse previamente cadastrado com as novas entradas do acervo, reduzindo a sobrecarga informacional (infoxicação).',
+    'Curadoria de Informação (Arthur Bezerra): transcende a mera coleta e guarda mecânica de documentos; envolve seleção crítica, validação de autoridade, filtragem contra desinformação, contextualização e enriquecimento semântico para entregar valor analítico ao tomador de decisão.',
+    'Produtos de Inteligência Informacional (Candido): a elaboração de Dossiês, Estados da Arte e Panoramas baseia-se na triangulação metodológica entre indicadores bibliométricos (núcleo de autores e periódicos mais citados) e análise qualitativa contextual, organizando linhas do tempo e matrizes comparativas.',
   ],
   quadroComparativo: {
-    titulo: 'O Composto de Marketing (4 Ps) Adaptado a Unidades de Informação',
-    colunas: ['Elemento', 'No Contexto Tradicional de Bens', 'Na Biblioteca / Unidade de Informação', 'Aplicações no Ambiente Legislativo'],
+    titulo: 'As Três Dimensões do CRM (Customer Relationship Management) de Paul Greenberg',
+    colunas: ['Dimensão do CRM', 'Foco de Atuação', 'Aplicação Prática em Bibliotecas e CEDI', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
-      ['Produto / Serviço (Product)', 'Mercadoria física tangível', 'Informação tratada, dossiês temáticos, bases de dados, serviços de referência', 'Dossiês de projetos de lei, compilações normativas, clipping parlamentar'],
-      ['Preço / Custo (Price)', 'Valor monetário pago em moeda', 'Custo temporal, esforço cognitivo, barreiras de acesso e deslocamento do usuário', 'Economia do tempo do deputado e assessores para tomada de decisão ágil'],
-      ['Praça / Distribuição (Place)', 'Canais físicos de distribuição e logística', 'Acesso físico às instalações e acesso remoto via portais web, repositórios e intranet', 'Portal da Câmara, LexML, RVBI, aplicativo móvel e terminais de consulta'],
-      ['Promoção / Comunicação (Promotion)', 'Publicidade de vendas e propaganda persuasiva', 'Disseminação, eventos culturais, guias do usuário, redes sociais institucionais', 'Treinamento de assessores, boletins informativos e campanhas de transparência pública'],
+      ['CRM Operacional', 'Processos e pontos de contato com o usuário (*front-office*)', 'Balcão de referência, empréstimo automatizado, canais de atendimento e agendamentos', 'Afirmar que o CRM operacional faz mineração preditiva de dados (FALSO: é função do Analítico).'],
+      ['CRM Analítico', 'Análise de dados de uso e perfis de comportamento (*back-office*)', 'Identificação de padrões de empréstimo, termos mais buscados e antecipação de temas legislativos', 'Dizer que o CRM analítico é apenas o envio de formulários de pesquisa de satisfação (FALSO).'],
+      ['CRM Colaborativo', 'Comunicação e integração multicanal com os usuários', 'Portais participativos, integração com redes sociais institucionais, chats e ouvidoria', 'Afirmar que o CRM colaborativo substitui o atendimento técnico presencial (FALSO).'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. Fundamentos e Evolução do Marketing em Bibliotecas
+  teoriaDensaMarkdown: `### 1. O CRM (Customer Relationship Management) Aplicado a Serviços de Informação
 
-A aplicação do marketing na Biblioteconomia brasileira tem como autoridade máxima a Profa. **Sueli Angélica do Amaral** (*Marketing: abordagem em unidades de informação*, presente no repositório \`Gestão e Coleções\`). O marketing não se restringe à propaganda cosmética de cartazes, mas constitui uma **filosofia de gestão orientada para o usuário/cliente**.
+Com a transição paradigmática para a gestão focada nas necessidades do cidadão e do parlamentar, as bibliotecas especializadas e centros de documentação adotam a metodologia de **CRM** (*Customer Relationship Management*), conceituada por **Paul Greenberg** (*CRM na Velocidade da Luz*):
 
-#### A. A Mudança de Foco: Da Oferta para a Demanda
-Historicamente, as bibliotecas adotaram a postura de "orientação para o produto/acervo": organizava-se o acervo físico e aguardava-se passivamente a chegada do usuário.  
-A gestão orientada pelo marketing inverte esse vetor:
-* **Foco no Usuário:** A biblioteca identifica previamente as necessidades, hábitos, modelos mentais e carências informacionais da comunidade para só então conceber, desenhar e disponibilizar produtos e serviços relevantes.
-* **Agregação de Valor:** A informação só adquire valor no momento do seu uso. Os processos técnicos de catalogação e indexação são meios para assegurar que a informação tenha valor agregado para a tomada de decisão do usuário.
-
----
-
-#### B. As Fases do Processo de Marketing em Unidades de Informação
-Conforme Amaral (2011) e Silveira (2001), o ciclo de marketing desenvolve-se em quatro grandes etapas integradas:
-1. **Auditoria e Análise do Mercado:** Coleta de dados sobre a comunidade, análise dos fatores ambientais e identificação do perfil de usuários reais e potenciais.
-2. **Segmentação de Mercado:** Divisão da comunidade heterogênea em subgrupos homogêneos que compartilhem características, interesses e comportamentos similares (ex.: parlamentares, assessores jurídicos, pesquisadores acadêmicos e cidadãos em geral).
-3. **Desenvolvimento do Composto de Marketing (Mix de Marketing):**
-   * Ajuste dos **4 Ps**: *Produto/Serviço*, *Preço/Custo de acesso*, *Praça/Disponibilidade* e *Promoção/Comunicação*.
-4. **Implementação e Controle:** Acompanhamento contínuo dos indicadores de qualidade, satisfação e percepção de valor pelos usuários.
+* **Conceito Canônico:** CRM é uma estratégia de negócios e gestão informacional, apoiada por tecnologia, projetada para otimizar a rentabilidade, as receitas e a **satisfação dos usuários**, organizando a instituição em torno de segmentos de clientes.
+* **A Tríade Estrutural do CRM (Paul Greenberg):**
+  1. **CRM Operacional (*Front-Office*):**
+     * Abrange a automação e integração de todos os pontos de contato direto com o usuário: serviços de referência presencial e virtual, circulação de obras, atendimento a consultas legislativas e gestão de solicitações no balcão.
+  2. **CRM Analítico (*Back-Office*):**
+     * Utiliza ferramentas de análise de dados, *data warehouse* e mineração (*data mining*) para capturar, estruturar e interpretar o histórico de interações informacionais dos usuários.
+     * *Aplicação na Câmara:* Analisa quais temas normativos, proposições e bases doutrinárias apresentam maior pico de demanda pelas consultorias em diferentes períodos legislativos, permitindo a aquisição e o processamento técnico antecipado de acervos estratégicos.
+  3. **CRM Colaborativo:**
+     * Promove a integração e o compartilhamento de dados entre diferentes setores da instituição (Biblioteca, Arquivo, Consultoria Legislativa e Gabinetes), garantindo que o parlamentar receba atendimento unificado e coerente independentemente do canal escolhido (presencial, e-mail, intranet ou aplicativo móvel).
 
 ---
 
-### 2. Tipologias Específicas de Marketing Cobradas pelo Cebraspe
+### 2. Disseminação Seletiva da Informação (DSI) e Personalização de Serviços
 
-#### A. Endomarketing (Marketing Interno)
-* **Conceito:** Ações de marketing dirigidas ao **público interno da organização** (equipe de bibliotecários, técnicos, estagiários e funcionários de apoio).
-* **Finalidade:** Vender as metas, a visão estratégica e a cultura da biblioteca para seus próprios colaboradores, gerando motivação, comprometimento e sintonia com a missão institucional.
-* *Atenção Cebraspe:* Não confundir endomarketing com comunicação para usuários internos ou atendimento ao público!
+A Disseminação Seletiva da Informação, concebida originalmente por Hans Peter Luhn (1958) e aprofundada por **Thiago Gomes Eirão** e **Murilo Bastos da Cunha** (2011), é o serviço no qual a unidade de informação atua proativamente:
 
-#### B. Marketing de Relacionamento e de Permissão
-* **Marketing de Relacionamento:** Estratégia de longo prazo focada em estabelecer vínculos contínuos de confiança e fidelização com os usuários, em vez de focar apenas em transações isoladas de empréstimo.
-* **Marketing de Permissão (Seth Godin):** O usuário concede autorização prévia e explícita para que a unidade de informação lhe envie comunicações direcionadas.  
-  * *Exemplo Canônico em Bibliotecas:* O cadastramento de perfil na **Disseminação Seletiva da Informação (DSI)**, em que o pesquisador escolhe os descritores e aceita receber alertas periódicos.
+* **O Mecanismo da DSI:**
+  $$\\text{Perfil de Interesses do Usuário} \\longleftrightarrow \\text{Perfil das Novas Informações do Acervo} \\implies \\text{Notificação Direcionada}$$
+* **Adoção de Tecnologias Contemporâneas:**
+  * Uso de canais RSS (*Really Simple Syndication*), alertas automatizados por e-mail, notificações via push em aplicativos e agentes inteligentes.
+  * O usuário cadastra temas e palavras-chave de seu interesse (ex.: "Reforma Tributária", "Inteligência Artificial no Setor Público") e o sistema dispara relatórios analíticos periódicos apenas quando novas proposições, leis promulgadas ou artigos especializados ingressam nas bases canônicas (SILEG, LexML, RVBI).
+* **Mitigação da Infoxicação (*Information Overload*):** A personalização é uma barreira técnica contra a sobrecarga informacional, garantindo que o assessor receba apenas o que é relevante e acionável.
 
-#### C. Marketing de Guerrilha e Marketing Digital
-* **Marketing de Guerrilha:** Ações criativas, de alto impacto visual e baixo custo financeiro, com o propósito de causar forte impressão memorável e surpreender os usuários no espaço físico ou institucional.
-* **Marketing Digital e Redes Sociais:** Utilização planejada de canais digitais (Instagram, Twitter/X, podcasts, portais). Exige definição prévia de objetivos e linha editorial; abrir perfis de forma indiscriminada sem gestão editorial compromete a reputação institucional.`,
+---
+
+### 3. Curadoria de Informação e Curadoria Digital (Arthur Bezerra)
+
+Conforme **Arthur Bezerra** (2017), a curadoria de informação supera a mera catalogação descritiva ou arquivamento técnico passivo:
+
+* **O Ciclo da Curadoria Informacional:**
+  1. **Identificação e Seleção Crítica:** Filtragem rigorosa em meio ao dilúvio informacional (*big data*), avaliando autoridade, atualidade e confiabilidade da fonte.
+  2. **Validação e Combate à Desinformação:** Verificação contra manipulações factuais, notícias falsas (*fake news*) e alucinações de modelos generativos.
+  3. **Contextualização e Enriquecimento:** Adição de metadados analíticos, vínculos com normas correlatas, sínteses executivas e notas de rodapé explicativas.
+  4. **Preservação e Acesso Contínuo:** Manutenção da integridade do objeto digital e disponibilização em plataformas abertas e interoperáveis.
+
+---
+
+### 4. Produtos de Inteligência Informacional: Dossiês, Estados da Arte e Panoramas
+
+Na dinâmica do Poder Legislativo, os parlamentares e formuladores de políticas públicas demandam sínteses executivas de alta precisão (Candido, 2023):
+
+* **Notas Informacionais:** Textos sintéticos e objetivos (1 a 3 páginas) que elucidam um ponto jurídico ou técnico controverso de uma matéria em tramitação urgente.
+* **Relatórios Temáticos e Panoramas:** Mapeamentos amplos que reúnem a contextualização histórica, os atores envolvidos (stakeholders), as posições divergentes e os impactos orçamentários de uma determinada política pública.
+* **Dossiês Informacionais e Linhas do Tempo:**
+  * Reúnem a íntegra de proposições anteriores, pareceres de comissões, legislações comparadas de outros países e decisões jurisprudenciais vinculantes sobre o tema.
+  * *Metodologia de Recortes Temporais (Renato Candido):* Utiliza a associação entre a **análise bibliométrica** (identificação do núcleo de publicações mais citadas via leis bibliométricas) e a **revisão de estado da arte**, estruturando linhas do tempo cronológicas sem viés ideológico pré-concebido.`,
   checkpoints: [
     {
       id: 'cp-5-2-1',
-      pergunta: 'Micro-Checkpoint 1: Conceito de Endomarketing',
-      item: 'Nas unidades de informação, as estratégias de endomarketing têm como finalidade primária o treinamento de usuários externos e a divulgação do catálogo de livros aos leitores da comunidade.',
+      pergunta: 'Micro-Checkpoint 1: Dimensões do CRM em Unidades de Informação',
+      item: 'No âmbito do modelo de CRM proposto por Paul Greenberg, a dimensão analítica é responsável pelo atendimento presencial no balcão e pelo empréstimo de livros físicos, enquanto a dimensão operacional cuida da mineração de dados estatísticos.',
       gabarito: 'E',
-      justificativa: 'Errado! O endomarketing é voltado estritamente ao público interno (colaboradores da biblioteca), visando à sua integração, alinhamento institucional e motivação.',
+      justificativa: 'Errado! O Cebraspe inverte sistematicamente os papéis: o atendimento no balcão e os pontos de contato direto constituem o CRM OPERACIONAL; a mineração de dados e identificação de padrões de comportamento integram o CRM ANALÍTICO.',
     },
     {
       id: 'cp-5-2-2',
-      pergunta: 'Micro-Checkpoint 2: Marketing de Permissão e DSI',
-      item: 'Em bibliotecas e centros de documentação, o serviço de disseminação seletiva da informação (DSI), baseado no cadastramento voluntário de perfis temáticos pelos usuários, constitui uma aplicação prática do conceito de marketing de permissão.',
+      pergunta: 'Micro-Checkpoint 2: Papel da Curadoria de Informação',
+      item: 'A curadoria de informação difere da mera coleta e custódia documental por envolver um processo intelectual contínuo de seleção crítica, validação de autoridade, enriquecimento de metadados e contextualização para a tomada de decisão.',
       gabarito: 'C',
-      justificativa: 'Correto! No marketing de permissão o usuário manifesta consentimento prévio para receber informações pertinentes ao seu interesse específico.',
+      justificativa: 'Correto! Conforme demonstrado por Arthur Bezerra, a curadoria informacional é um processo ativo de agregação de valor semântico e filtragem crítica contra a desinformação.',
     },
-      {
+    {
       id: 'cp-5-2-3',
-      pergunta: "Micro-Checkpoint 3: Composto Mercadológico em Serviços de Informação",
-      item: "No marketing de serviços de informação, a dimensão 'Preço' restringe-se exclusivamente à cobrança monetária direta de emolumentos ou taxas aos usuários das bibliotecas.",
-      gabarito: 'E',
-      justificativa: "Errado! Em serviços bibliotecários, o conceito de 'preço' é ampliado para englobar custos não monetários arcados pelo usuário, tais como o tempo despendido, esforço físico e barreiras psicológicas ou cognitivas de acesso.",
+      pergunta: 'Micro-Checkpoint 3: DSI e Sobrecarga Informacional',
+      item: 'Os serviços de Disseminação Seletiva da Informação (DSI) atuam no combate à sobrecarga informacional ao confrontarem os perfis individuais de interesse com as novas entradas do acervo, encaminhando notificações direcionadas aos usuários.',
+      gabarito: 'C',
+      justificativa: 'Certo! A DSI (Eirão & Cunha) filtra o fluxo informacional, evitando a dispersão cognitiva e entregando apenas o que é pertinente ao usuário.',
     },
   ],
   mnemonicos: {
     timeline: [
       {
         id: 'tl-5-2-1',
-        periodo: 'Anos 1980',
-        disciplina: 'Marketing de Serviços',
-        focoPrincipal: 'Adaptação dos conceitos de Kotler para organizações sem fins lucrativos e bibliotecas públicas',
-        figuraChave: 'Philip Kotler',
+        periodo: '1958',
+        disciplina: 'Origem da DSI',
+        focoPrincipal: 'Hans Peter Luhn publica o conceito pioneiro de Disseminação Seletiva da Informação na IBM',
+        figuraChave: 'Hans Peter Luhn',
       },
       {
         id: 'tl-5-2-2',
-        periodo: '1998 / 2011',
-        disciplina: 'Marketing da Informação',
-        focoPrincipal: 'Sistematização do marketing em bibliotecas no Brasil: 4 Ps, auditoria e valor da informação',
-        figuraChave: 'Sueli Angélica do Amaral',
+        periodo: '2001 / 2004',
+        disciplina: 'Fundamentos de CRM',
+        focoPrincipal: 'Publicação de "CRM na Velocidade da Luz": CRM operacional, analítico e colaborativo',
+        figuraChave: 'Paul Greenberg',
+      },
+      {
+        id: 'tl-5-2-3',
+        periodo: '2011 / 2017',
+        disciplina: 'DSI Moderna e Curadoria',
+        focoPrincipal: 'Estudo de DSI com RSS no Judiciário (Eirão/Cunha) e consolidação da Curadoria Informacional (Bezerra)',
+        figuraChave: 'Thiago Gomes Eirão e Arthur Bezerra',
       },
     ],
     autores: [
       {
         id: 'aut-5-2-1',
-        nome: 'Sueli Angélica do Amaral',
-        ano: 2011,
-        obraPrincipal: 'Marketing: abordagem em unidades de informação',
-        ideiaChave: 'Filosofia gerencial centrada no usuário, composto de marketing (4 Ps), segmentação e agregação de valor.',
-        chipPegadinha: 'Marketing em bibliotecas não é sinônimo de relações públicas nem de venda com lucro monetário.',
+        nome: 'Paul Greenberg',
+        ano: 2004,
+        obraPrincipal: 'CRM at the Speed of Light (CRM na Velocidade da Luz)',
+        ideiaChave: 'Tríade do CRM: operacional (contato), analítico (dados e mineração) e colaborativo (integração multicanal).',
+        chipPegadinha: 'CRM analítico foca em padrões estatísticos de dados de uso, não no atendimento físico.',
       },
       {
         id: 'aut-5-2-2',
-        nome: 'Seth Godin',
-        ano: 1999,
-        obraPrincipal: 'Permission Marketing',
-        ideiaChave: 'O usuário autoriza previamente o envio de informações selecionadas; base da DSI moderna.',
-        chipPegadinha: 'A DSI é o caso arquetípico de marketing de permissão em biblioteconomia.',
+        nome: 'Arthur Bezerra',
+        ano: 2017,
+        obraPrincipal: 'Curadoria de Informação e Curadoria Digital',
+        ideiaChave: 'Seleção crítica, agregação de valor semântico, validação de autoridade e combate à desinformação.',
+        chipPegadinha: 'Curadoria não é mero arquivamento passivo; exige intervenção intelectual crítica.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-5-2-1',
-        afirmacao: 'O aspecto negocial e mercadológico do marketing não pode ser aplicado às bibliotecas governamentais, pois o acesso público é conflitante com técnicas de mercado.',
+        afirmacao: 'O CRM colaborativo limita-se ao envio de mensagens promocionais de marketing sem recolher feedbacks ou dados interativos dos usuários da biblioteca.',
         gabarito: 'E',
-        porQue: 'O marketing em bibliotecas atua no âmbito do valor de uso, satisfação do usuário e eficácia social, sendo perfeitamente aplicável a entidades públicas.',
+        porQue: 'O CRM colaborativo baseia-se na interação bidirecional multicanal, permitindo a cocriação e o diálogo constante entre o usuário e a instituição informacional.',
       },
       {
         id: 'peg-5-2-2',
-        afirmacao: 'A prática tradicional das bibliotecas sempre foi a da segmentação apurada de mercado, atendendo a nichos personalizados em detrimento do atendimento massificado.',
+        afirmacao: 'Para garantir a universalidade de atendimento, os serviços de Disseminação Seletiva da Informação (DSI) devem encaminhar a totalidade das novas publicações adquiridas a todos os servidores cadastrados.',
         gabarito: 'E',
-        porQue: 'Tradicionalmente as bibliotecas praticavam marketing de massa ou indiferenciado; a personalização e a segmentação são conquistas da abordagem moderna.',
+        porQue: 'A premissa da DSI é a SELETIVIDADE: cruzar o perfil específico do usuário com o perfil do documento, evitando a infoxicação e o envio indiscriminado de dados.',
       },
     ],
   },
