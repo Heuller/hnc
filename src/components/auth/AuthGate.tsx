@@ -14,7 +14,8 @@ import {
   EyeOff,
   BookOpen,
 } from 'lucide-react';
-import { supabase } from '../../lib/supabase';
+import type { User as SupabaseUser } from '@supabase/supabase-js';
+import { supabase, isSupabaseConfigured } from '../../lib/supabase';
 import { progressSyncService } from '../../services/progressSyncService';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useAuthStore } from '../../store/useAuthStore';
@@ -46,6 +47,26 @@ export const AuthGate: React.FC = () => {
 
     try {
       if (tab === 'login') {
+        if (!isSupabaseConfigured) {
+          // Ambiente sem Supabase (offline / GitHub Pages sem secrets): login local imediato
+          setSuccessMsg('Acesso autorizado (Modo Local)! Carregando dados...');
+          const userEmail = resolveEmail(email);
+          const userName = userEmail.split('@')[0];
+          useAuthStore.setState({
+            user: {
+              id: '00000000-0000-0000-0000-000000000001',
+              email: userEmail,
+              app_metadata: {},
+              user_metadata: { name: userName },
+              aud: 'authenticated',
+              created_at: new Date().toISOString(),
+            } as unknown as SupabaseUser,
+            session: null,
+            loading: false,
+          });
+          return;
+        }
+
         const { data, error } = await supabase.auth.signInWithPassword({
           email: resolveEmail(email),
           password,
