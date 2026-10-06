@@ -1011,7 +1011,7 @@ export const SimuladoPage: React.FC = () => {
         >
           <div className="flex items-center gap-3">
             <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
-              ITEM {currentIndex + 1} / 100
+              ITEM {currentIndex + 1} / {simuladoAtivo.questoes.length}
             </span>
             <span className="text-xs font-mono text-ink-2">
               Submódulo {currentQuestion.submoduloId}
@@ -1034,7 +1034,7 @@ export const SimuladoPage: React.FC = () => {
               <span className="text-err">✗ {errosCount}</span>
               <span>⚪ {brancoCount}</span>
             </div>
-            <span className="text-ink-2">({respondidasCount}/100)</span>
+            <span className="text-ink-2">({respondidasCount}/{simuladoAtivo.questoes.length})</span>
           </div>
         </section>
 
@@ -1266,7 +1266,7 @@ export const SimuladoPage: React.FC = () => {
 
             <button
               type="button"
-              disabled={currentIndex === 99}
+              disabled={currentIndex === simuladoAtivo.questoes.length - 1}
               onClick={handleNext}
               className="flex-1 sm:flex-none py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-1.5 disabled:opacity-40 transition-colors"
             >
@@ -1284,7 +1284,7 @@ export const SimuladoPage: React.FC = () => {
               className="lg:hidden flex-1 sm:flex-none py-2.5 px-4 rounded-lg bg-surface-2 border border-border text-ink font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2"
             >
               <Layers className="w-4 h-4 text-accent" />
-              <span>Folha (100)</span>
+              <span>Folha ({simuladoAtivo.questoes.length})</span>
             </button>
 
             <button
@@ -1301,7 +1301,7 @@ export const SimuladoPage: React.FC = () => {
 
       {/* Coluna Lateral da Folha de Respostas no Desktop */}
       <aside
-        aria-label="Folha de respostas das 100 questões"
+        aria-label={`Folha de respostas das ${simuladoAtivo.questoes.length} questões`}
         className="hidden lg:block w-80 shrink-0 bg-surface rounded-2xl border border-border p-4.5 shadow-xs sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto"
       >
         <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
