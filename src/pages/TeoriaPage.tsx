@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
-import { COURSE_REGISTRY } from '../content/registry';
+import { ALL_COURSE_MODULES } from '../content/registry';
 import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos';
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
@@ -35,7 +35,7 @@ import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../do
 import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
 import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
 import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
-import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import { SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import {
   verificarAcessoModulo,
   verificarNavegacaoRodapeSubmodulo,
@@ -69,8 +69,8 @@ export const TeoriaPage: React.FC = () => {
       ? 'max-w-4xl'
       : 'max-w-3xl';
 
-  // Lista plana de todos os submódulos do curso (40 submódulos, 1.1 a 10.4)
-  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+  // Lista plana de todos os submódulos do curso (incluindo mini-módulos especiais)
+  const allSubmodules = ALL_COURSE_MODULES.flatMap((m) => m.modulosFilhos);
 
   // Submódulo ativo selecionado (com recuperação resiliente de sessão)
   const targetSubId =
@@ -85,9 +85,9 @@ export const TeoriaPage: React.FC = () => {
 
   // Macro-módulo pai correspondente
   const currentMacro =
-    COURSE_REGISTRY.find((m) =>
+    ALL_COURSE_MODULES.find((m) =>
       m.modulosFilhos.some((s) => s.id === currentSub.id)
-    ) || COURSE_REGISTRY[0];
+    ) || ALL_COURSE_MODULES[0];
 
   useEffect(() => {
     setUltimoModuloAcessado(currentSub.numero);
@@ -147,17 +147,25 @@ export const TeoriaPage: React.FC = () => {
   const progressoGlobal = getProgressoGlobal();
 
   // Verificação de Acesso Global ao Módulo (Regra 2.2)
-  const statusAcesso = verificarAcessoModulo(
-    currentMacro.id,
-    progressoGlobal,
-    historicoSimulados || [],
-    devBypassSimuladoLock
-  );
+  const statusAcesso =
+    currentMacro.id === 'm2-5'
+      ? { moduloId: 'm2-5', moduloNumero: 2.5, liberado: true }
+      : verificarAcessoModulo(
+          currentMacro.id,
+          progressoGlobal,
+          historicoSimulados || [],
+          devBypassSimuladoLock
+        );
 
   // Submódulos pertencentes estritamente a este macro-módulo
   const submodulosDoMacro = currentMacro.modulosFilhos;
   const indexNoMacro = submodulosDoMacro.findIndex((s) => s.id === currentSub.id);
-  const prevSubNoMacro = indexNoMacro > 0 ? submodulosDoMacro[indexNoMacro - 1] : null;
+  const prevSubNoMacro =
+    currentSub.numero === '2.5'
+      ? allSubmodules.find((s) => s.numero === '2.4') || null
+      : indexNoMacro > 0
+      ? submodulosDoMacro[indexNoMacro - 1]
+      : null;
 
   // Status de navegação do rodapé
   const rodapeNav = verificarNavegacaoRodapeSubmodulo(
@@ -284,10 +292,10 @@ export const TeoriaPage: React.FC = () => {
                 }}
                 className="w-full py-2 pl-3 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer shadow-editorial-xs"
               >
-                {COURSE_REGISTRY.map((macro) => (
+                {ALL_COURSE_MODULES.map((macro) => (
                   <optgroup
                     key={macro.id}
-                    label={`${macro.codigo} — ${macro.titulo_curto || macro.titulo}`}
+                    label={`${macro.id === 'm2-5' ? '⭐ ' : ''}${macro.codigo} — ${macro.titulo_curto || macro.titulo}${macro.id === 'm2-5' ? ' (Mini-Módulo Especial)' : ''}`}
                   >
                     {macro.modulosFilhos.map((sub) => {
                       const completed = modulosLidosIds.includes(sub.id);
@@ -647,39 +655,54 @@ export const TeoriaPage: React.FC = () => {
             />
           </section>
 
-          {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q) */}
+          {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q ou 30Q) */}
           {(() => {
             const isUltimoSubmoduloDoMacro =
               currentMacro.modulosFilhos.length > 0 &&
               currentMacro.modulosFilhos[currentMacro.modulosFilhos.length - 1].id === currentSub.id;
-            const simuladoDoMacro = SIMULADOS_REGISTRY.find((s) => s.numero === currentMacro.numero);
+            const simuladoDoMacro =
+              currentMacro.id === 'm2-5'
+                ? getSimuladoById('mini-modulo-orgaos')
+                : SIMULADOS_REGISTRY.find((s) => s.numero === currentMacro.numero);
 
             if (!isUltimoSubmoduloDoMacro || !simuladoDoMacro) return null;
 
+            const isMini = currentMacro.id === 'm2-5';
+
             return (
               <section
-                aria-label="Conclusão do Módulo e Simulado 100Q"
+                aria-label={`Conclusão do Módulo e Simulado ${isMini ? '30Q' : '100Q'}`}
                 className="my-8 p-6 sm:p-7 rounded-2xl bg-accent-soft/40 border-2 border-accent/40 shadow-editorial-sm space-y-4 animate-fadeIn"
               >
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-5">
                   <div className="flex items-start sm:items-center gap-4">
                     <div className="w-14 h-14 rounded-2xl bg-accent text-accent-text flex items-center justify-center font-mono font-bold text-xl shrink-0 shadow-xs">
-                      M{currentMacro.numero}
+                      {isMini ? 'M2.5' : `M${currentMacro.numero}`}
                     </div>
                     <div className="space-y-1">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono text-xs font-bold px-2.5 py-0.5 rounded-full bg-accent/15 text-accent border border-accent/25 uppercase tracking-wider">
-                          Teoria Concluída · Módulo {currentMacro.numero}
+                          {isMini ? 'Mini-Módulo Especial Concluído' : `Teoria Concluída · Módulo ${currentMacro.numero}`}
                         </span>
                         <span className="text-xs text-ink-2 font-mono">
-                          {currentMacro.modulosFilhos.length} submódulos lidos
+                          {currentMacro.modulosFilhos.length} {currentMacro.modulosFilhos.length === 1 ? 'submódulo lido' : 'submódulos lidos'}
                         </span>
                       </div>
                       <h3 className="text-lg sm:text-xl font-serif font-bold text-ink">
-                        Pronto para o Simulado de 100 Questões Cebraspe?
+                        {isMini
+                          ? 'Pronto para o Simulado Especial de 30 Questões Cebraspe?'
+                          : 'Pronto para o Simulado de 100 Questões Cebraspe?'}
                       </h3>
                       <p className="text-xs sm:text-sm text-ink-2 font-serif max-w-2xl leading-relaxed">
-                        Você completou toda a base teórica de <strong>{currentMacro.titulo_curto || currentMacro.titulo}</strong>. Agora aplique o <strong>Estudo Reverso imediato</strong> no caderno com 100 assertivas comentadas item a item.
+                        {isMini ? (
+                          <>
+                            Você completou o estudo essencial sobre os <strong>órgãos públicos</strong>, regras de <strong>catalogação governamental</strong> e a <strong>Biblioteca Pedro Aleixo</strong>. Teste sua retenção agora no caderno com <strong>30 assertivas C/E inéditas</strong> comentadas item a item.
+                          </>
+                        ) : (
+                          <>
+                            Você completou toda a base teórica de <strong>{currentMacro.titulo_curto || currentMacro.titulo}</strong>. Agora aplique o <strong>Estudo Reverso imediato</strong> no caderno com 100 assertivas comentadas item a item.
+                          </>
+                        )}
                       </p>
                     </div>
                   </div>
@@ -689,7 +712,7 @@ export const TeoriaPage: React.FC = () => {
                     onClick={() => navigateToSimulado(simuladoDoMacro.id)}
                     className="w-full sm:w-auto py-3.5 px-6 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 transition-all shadow-md active:scale-98 cursor-pointer shrink-0"
                   >
-                    <span>Iniciar Simulado 100Q</span>
+                    <span>{isMini ? 'Iniciar Simulado Especial (30Q)' : 'Iniciar Simulado 100Q'}</span>
                     <ArrowRight className="w-5 h-5" />
                   </button>
                 </div>

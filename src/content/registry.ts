@@ -13,6 +13,7 @@ import { moduloM11DireitoAdministrativo } from './modules/m11-direito-administra
 import { moduloM12Ingles } from './modules/m12-ingles';
 import { moduloM13Portugues } from './modules/m13-portugues';
 import { moduloM14TecnologiaDados } from './modules/m14-tecnologia-dados';
+import { moduloM25OrgaosGov } from './modules/m2-5-orgaos-gov';
 
 export const TRILHA_ESPECIFICOS: MacroModulo[] = [
   moduloM1Fundamentos,
@@ -34,14 +35,38 @@ export const TRILHA_COMPLEMENTAR: MacroModulo[] = [
   moduloM14TecnologiaDados,
 ];
 
+export const MINI_MODULOS_REGISTRY: MacroModulo[] = [
+  moduloM25OrgaosGov,
+];
+
 export const COURSE_REGISTRY: MacroModulo[] = [
   ...TRILHA_ESPECIFICOS,
+  ...TRILHA_COMPLEMENTAR,
+];
+
+/**
+ * Grade completa com mini-módulos integrados em suas posições pedagógicas
+ * (Ex.: M2.5 posicionado exatamente entre M2 e M3)
+ */
+export const ALL_COURSE_MODULES: MacroModulo[] = [
+  moduloM1Fundamentos,
+  moduloM2Catalogacao,
+  moduloM25OrgaosGov,
+  moduloM3Classificacao,
+  moduloM4Recuperacao,
+  moduloM5Gestao,
+  moduloM6DigitalIA,
+  moduloM7Preservacao,
+  moduloM8Normalizacao,
+  moduloM9Comunicacao,
+  moduloM10Legislativo,
   ...TRILHA_COMPLEMENTAR,
 ];
 
 export {
   moduloM1Fundamentos,
   moduloM2Catalogacao,
+  moduloM25OrgaosGov,
   moduloM3Classificacao,
   moduloM4Recuperacao,
   moduloM5Gestao,
@@ -55,3 +80,4 @@ export {
   moduloM13Portugues,
   moduloM14TecnologiaDados,
 };
+

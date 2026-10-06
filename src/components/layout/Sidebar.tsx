@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { BookOpen, ChevronRight, ChevronDown, CheckCircle2, Circle } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useProgressStore } from '../../store/useProgressStore';
-import { COURSE_REGISTRY } from '../../content/registry';
+import { ALL_COURSE_MODULES } from '../../content/registry';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import { ModuleBadge } from '../common/ModuleBadge';
 import { ModuleProgressRing } from '../common/ModuleProgressRing';
@@ -23,7 +23,7 @@ export const Sidebar: React.FC = () => {
 
   // Mapeia qual módulo pai contém o submódulo selecionado
   const activeModuleOfSub =
-    COURSE_REGISTRY.find((m) =>
+    ALL_COURSE_MODULES.find((m) =>
       m.modulosFilhos.some((s) => s.numero === selectedSubmodule)
     )?.id || 'm1';
 
@@ -50,13 +50,13 @@ export const Sidebar: React.FC = () => {
   };
 
   // Separação entre módulos "Em Estudo" e "Planejados / A Estudar" (Parte C)
-  const modulosEmEstudo = COURSE_REGISTRY.filter((m) => {
+  const modulosEmEstudo = ALL_COURSE_MODULES.filter((m) => {
     const lidos = getSubmodulosLidosCount(m, modulosLidosIds);
     const hasActive = m.modulosFilhos.some((s) => s.numero === selectedSubmodule);
-    return lidos > 0 || hasActive || m.id === 'm1';
+    return lidos > 0 || hasActive || m.id === 'm1' || m.id === 'm2-5';
   });
 
-  const modulosPlanejados = COURSE_REGISTRY.filter(
+  const modulosPlanejados = ALL_COURSE_MODULES.filter(
     (m) => !modulosEmEstudo.some((em) => em.id === m.id)
   );
 
@@ -80,7 +80,7 @@ export const Sidebar: React.FC = () => {
         <div className="w-8 h-px bg-border my-1" />
 
         <div className="space-y-2.5 w-full flex flex-col items-center">
-          {COURSE_REGISTRY.map((modulo) => {
+          {ALL_COURSE_MODULES.map((modulo) => {
             const theme = getModuleTheme(modulo.id);
             const hasActiveSub = modulo.modulosFilhos.some(
               (s) => s.numero === selectedSubmodule && activeView === 'teoria'
@@ -142,7 +142,7 @@ export const Sidebar: React.FC = () => {
     );
   }
 
-  const renderModuleCard = (modulo: typeof COURSE_REGISTRY[0]) => {
+  const renderModuleCard = (modulo: typeof ALL_COURSE_MODULES[0]) => {
     const theme = getModuleTheme(modulo.id);
     const isExpanded = isModuleExpanded(modulo.id);
     const hasActiveSub = modulo.modulosFilhos.some(
@@ -180,9 +180,16 @@ export const Sidebar: React.FC = () => {
           <div className="flex items-start gap-2.5 min-w-0 flex-1">
             <ModuleBadge moduleId={modulo.id} size="sm" className="mt-0.5 shrink-0" />
             <div className="min-w-0 flex-1">
-              <h3 className="text-xs font-bold text-ink leading-snug line-clamp-2 group-hover:text-ink transition-colors">
-                {modulo.titulo_curto || modulo.titulo}
-              </h3>
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <h3 className="text-xs font-bold text-ink leading-snug group-hover:text-ink transition-colors">
+                  {modulo.titulo_curto || modulo.titulo}
+                </h3>
+                {modulo.id === 'm2-5' && (
+                  <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
+                    Mini
+                  </span>
+                )}
+              </div>
               <div className="text-[10px] text-ink-2 font-mono mt-0.5">
                 {completedSubs}/{totalSubs} concluídos
               </div>
@@ -291,7 +298,7 @@ export const Sidebar: React.FC = () => {
             className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
             title="10 Conhecimentos Específicos + 3 Complementares"
           >
-            {COURSE_REGISTRY.length} Blocos
+            {ALL_COURSE_MODULES.length} Blocos
           </span>
         </div>
 

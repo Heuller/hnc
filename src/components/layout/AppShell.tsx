@@ -11,7 +11,7 @@ import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { progressSyncService } from '../../services/progressSyncService';
-import { COURSE_REGISTRY } from '../../content/registry';
+import { ALL_COURSE_MODULES } from '../../content/registry';
 import { Keyboard, Search, BookOpen } from 'lucide-react';
 import { Kbd } from '../common/Kbd';
 import { TextSelectionListener } from '../dicionario/TextSelectionListener';
@@ -132,7 +132,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
 
       // '[' e ']' para navegar submódulos na teoria
       if (activeView === 'teoria') {
-        const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+        const allSubs = ALL_COURSE_MODULES.flatMap((m) => m.modulosFilhos);
         const currentIndex = allSubs.findIndex(
           (s) => s.numero === selectedSubmodule || s.id === selectedSubmodule
         );

@@ -140,6 +140,15 @@ export function verificarAcessoModulo(
     return { moduloId, moduloNumero: 1, liberado: true };
   }
 
+  // Mini-Módulo Especial 2.5 é sempre liberado para estudo
+  if (moduloId === 'm2-5' || moduloId === 'm2.5') {
+    return {
+      moduloId,
+      moduloNumero: 2.5,
+      liberado: true,
+    };
+  }
+
   const modNumMatch = moduloId.match(/m(\d+)/i) || moduloId.match(/^(\d+)$/);
   const moduloNumero = modNumMatch ? parseInt(modNumMatch[1], 10) : 1;
 
@@ -229,6 +238,20 @@ export function verificarNavegacaoRodapeSubmodulo(
   podeAvancarProximoSubmodulo: boolean;
   proximoSubmoduloNumero?: string;
 } {
+  if (submoduloNumero === '2.5' || submoduloNumero === 'sub-2-5') {
+    return {
+      isUltimoDoModulo: true,
+      moduloNumero: 2.5,
+      moduloId: 'm2-5',
+      submoduloConcluido: true,
+      todosSubmodulosDoModuloConcluidos: true,
+      simuladoModuloId: 'mini-modulo-orgaos',
+      simuladoAprovado: true,
+      notaConsolidadaSimulado: 100,
+      podeAvancarProximoSubmodulo: true,
+      proximoSubmoduloNumero: '3.1',
+    };
+  }
 
   const macroAtual = COURSE_REGISTRY.find((m) =>
     m.modulosFilhos.some((s) => s.numero === submoduloNumero || s.id === submoduloNumero)

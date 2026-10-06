@@ -301,10 +301,10 @@ export const JornadaPage: React.FC = () => {
             const etapaPortal = etapas[portalId];
 
             return (
-              <div
-                key={macro.id}
-                className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
-              >
+              <React.Fragment key={macro.id}>
+                <div
+                  className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
+                >
                 {/* Barra lateral temática */}
                 <div
                   className="absolute top-0 left-0 bottom-0 w-1.5"
@@ -533,8 +533,62 @@ export const JornadaPage: React.FC = () => {
                   </div>
                 )}
               </div>
-            );
-          })}
+
+              {/* MINI-MÓDULO ESPECIAL INTERMEDIÁRIO 2.5 (Entre M2 e M3) */}
+              {macro.id === 'm2' && (
+                <div
+                  key="mini-modulo-2-5-banner"
+                  className="p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-emerald-500/5 to-surface border-2 border-emerald-500/30 shadow-editorial-sm space-y-4 my-6 animate-fadeIn"
+                >
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div className="flex items-start sm:items-center gap-3.5">
+                      <div className="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
+                        M2.5
+                      </div>
+                      <div className="space-y-1">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="font-mono text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 uppercase tracking-wider">
+                            ⭐ Mini-Módulo Especial Intermediário
+                          </span>
+                          <span className="text-xs text-ink-2 font-mono">
+                            30 Questões C/E Inéditas
+                          </span>
+                        </div>
+                        <h3 className="text-base sm:text-lg font-serif font-bold text-ink">
+                          Órgãos Públicos, Catalogação Governamental & Biblioteca da Câmara
+                        </h3>
+                        <p className="text-xs sm:text-sm text-ink-2 font-serif max-w-2xl leading-relaxed">
+                          Aprofundamento sobre a estrutura dos poderes e órgãos (STF, STJ, TJs, TCU, MP, Câmara dos Deputados), catalogação sob jurisdição vs entrada direta (AACR2r 24.18/24.19 e MARC 110/710) e a história e sistemas da Biblioteca Pedro Aleixo (BDCam, DSpace, SILEG e RVBI).
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-wrap sm:flex-nowrap items-center gap-2.5 shrink-0">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => handleOpenTeoria('2.5')}
+                        className="flex items-center gap-1.5 border-emerald-500/40 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-500/10"
+                      >
+                        <BookOpen className="w-4 h-4" />
+                        <span>Estudar Teoria 2.5</span>
+                      </Button>
+                      <Button
+                        variant="primary"
+                        size="sm"
+                        onClick={() => navigateToSimulado('mini-modulo-orgaos')}
+                        className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white"
+                      >
+                        <span>Simulado 30Q</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </React.Fragment>
+          );
+        })}
 
           {/* CARD CONVIDATIVO PARA A TRILHA COMPLEMENTAR */}
           <div className="bg-surface-2/30 border border-dashed border-border rounded-2xl p-6 text-center space-y-3">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, BookOpen, ChevronRight, CheckCircle2, Circle } from 'lucide-react';
-import { COURSE_REGISTRY } from '../../content/registry';
+import { ALL_COURSE_MODULES } from '../../content/registry';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import { ModuleBadge } from '../common/ModuleBadge';
 import { ModuleProgressRing } from '../common/ModuleProgressRing';
@@ -65,7 +65,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
             className="flex-1 overflow-y-auto p-4 space-y-4 scrollbar-thin"
             style={{ paddingBottom: 'max(env(safe-area-inset-bottom, 0px), 24px)' }}
           >
-            {COURSE_REGISTRY.map((modulo) => {
+            {ALL_COURSE_MODULES.map((modulo) => {
               const theme = getModuleTheme(modulo.id);
               const totalSubs = modulo.modulosFilhos.length;
               const subsLidos = getSubmodulosLidosCount(modulo, modulosLidosIds);

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
+import { ALL_SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
-import { COURSE_REGISTRY } from '../content/registry';
+import { ALL_COURSE_MODULES } from '../content/registry';
 import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learningEngine';
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { PainelDecisaoPortaoSimulado } from '../components/simulado/PainelDecisaoPortaoSimulado';
@@ -144,7 +144,7 @@ export const SimuladoPage: React.FC = () => {
   // Seleção de simulado ativo com restauração resiliente de sessão
   const initialSimuladoId = () => {
     if (targetSimuladoId) return targetSimuladoId;
-    if (ultimoSimuladoAcessadoId && SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId)) {
+    if (ultimoSimuladoAcessadoId && ALL_SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId)) {
       return ultimoSimuladoAcessadoId;
     }
     return 'm1-fundamentos';
@@ -311,13 +311,13 @@ export const SimuladoPage: React.FC = () => {
     if (SUBMODULO_TEMAS[subId]) {
       return SUBMODULO_TEMAS[subId];
     }
-    for (const macro of COURSE_REGISTRY) {
-      const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
+    for (const macro of ALL_COURSE_MODULES) {
+      const filho = macro.modulosFilhos?.find((f: any) => f.numero === subId || f.id === subId);
       if (filho) {
         const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
           ? filho.alertasCebraspe.slice(0, 4)
           : filho.autoresChave && filho.autoresChave.length > 0
-          ? filho.autoresChave.map((a) => `Doutrina e jurisprudência canônica: ${a}`)
+          ? filho.autoresChave.map((a: string) => `Doutrina e jurisprudência canônica: ${a}`)
           : [filho.descricaoCurta];
         return {
           titulo: filho.titulo,
@@ -358,8 +358,9 @@ export const SimuladoPage: React.FC = () => {
       <span className="font-mono text-xs font-bold text-ink-2 px-2 uppercase tracking-wider hidden sm:inline">
         Simulado:
       </span>
-      {SIMULADOS_REGISTRY.map((sim) => {
+      {ALL_SIMULADOS_REGISTRY.map((sim) => {
         const isSelected = sim.id === selectedSimuladoId;
+        const isMini = sim.id === 'mini-modulo-orgaos';
         return (
           <button
             key={sim.id}
@@ -375,9 +376,9 @@ export const SimuladoPage: React.FC = () => {
               isSelected
                 ? 'bg-accent text-white shadow-xs'
                 : 'text-ink-2 hover:text-ink hover:bg-surface-2'
-            }`}
+            } ${isMini ? 'border border-emerald-500/30' : ''}`}
           >
-            <span>{sim.tituloCurto}</span>
+            <span>{isMini ? '⭐ ' : ''}{sim.tituloCurto}</span>
             <span
               className={`font-mono text-[10px] px-1.5 py-0.2 rounded ${
                 isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
@@ -391,25 +392,31 @@ export const SimuladoPage: React.FC = () => {
     </div>
   );
 
-    const moduloAtual = COURSE_REGISTRY.find(
-      (m) => m.codigo.toUpperCase() === simuladoAtivo.macroModuloId.toUpperCase() || m.numero === simuladoAtivo.numero
-    ) || COURSE_REGISTRY[0];
+    const moduloAtual =
+      ALL_COURSE_MODULES.find(
+        (m) =>
+          m.codigo.toUpperCase() === simuladoAtivo.macroModuloId.toUpperCase() ||
+          m.id.toLowerCase() === simuladoAtivo.macroModuloId.toLowerCase() ||
+          m.numero === simuladoAtivo.numero
+      ) || ALL_COURSE_MODULES[0];
     const moduloAtualSubmodules = moduloAtual.modulosFilhos || [];
-    const accessControl: SimuladoAccessControl = isMegaSimulado
-      ? {
-          isUnlocked: true,
-          totalSubmodulosConcluidos: 14,
-          totalSubmodulosExigidos: 14,
-          percentualLiberacao: 100,
-          submodulosPendentes: [],
-          mensagemBloqueio: '',
-        }
-      : checkSimuladoAccess(
-          moduloAtualSubmodules,
-          secoesVisualizadas || {},
-          checkpointsRespondidos || {},
-          devBypassSimuladoLock
-        );
+    const isMiniSimulado = simuladoAtivo.id === 'mini-modulo-orgaos';
+    const accessControl: SimuladoAccessControl =
+      isMegaSimulado || isMiniSimulado
+        ? {
+            isUnlocked: true,
+            totalSubmodulosConcluidos: 1,
+            totalSubmodulosExigidos: 1,
+            percentualLiberacao: 100,
+            submodulosPendentes: [],
+            mensagemBloqueio: '',
+          }
+        : checkSimuladoAccess(
+            moduloAtualSubmodules,
+            secoesVisualizadas || {},
+            checkpointsRespondidos || {},
+            devBypassSimuladoLock
+          );
 
     // SE O SIMULADO ESTIVER BLOQUEADO (Parte G - Requisito Pedagógico)
     if (!accessControl.isUnlocked) {
@@ -462,7 +469,7 @@ export const SimuladoPage: React.FC = () => {
                 Submódulos da Disciplina {simuladoAtivo.macroModuloId} ({simuladoAtivo.tituloCurto})
               </span>
               <div className="grid grid-cols-1 gap-2.5">
-                {moduloAtualSubmodules.map((sub) => {
+                {moduloAtualSubmodules.map((sub: any) => {
                   const pendente = accessControl.submodulosPendentes.find((p) => p.id === sub.id);
                   const isConcluidoSub = !pendente;
 

@@ -14,6 +14,7 @@ import { simuladoIngles100Q } from './questions/m12-ingles-100q';
 import { simuladoPortugues100Q } from './questions/m13-portugues-100q';
 import { simuladoTecnologiaDados100Q } from './questions/m14-tecnologia-dados-100q';
 import { megaSimuladoCamara120Q } from './questions/mega-simulado-camara-120q';
+import { simuladoOrgaosGov30Q } from './questions/mini-modulo-orgaos-30q';
 
 export interface SimuladoManifest {
   id: string;
@@ -26,6 +27,21 @@ export interface SimuladoManifest {
   questoes: CebraspeQuestion[];
   submodulosIds: string[];
 }
+
+export const MINI_SIMULADOS_REGISTRY: SimuladoManifest[] = [
+  {
+    id: 'mini-modulo-orgaos',
+    macroModuloId: 'm2-5',
+    numero: 2.5,
+    titulo: 'Mini Simulado Especial: Órgãos Públicos, Catalogação e Biblioteca da Câmara',
+    tituloCurto: 'Mini 2.5 - Órgãos & Bib. Câmara',
+    subtitulo: '30 Itens C/E Inéditos Cebraspe (Poderes, AACR2/MARC21 e Biblioteca Pedro Aleixo)',
+    descricao:
+      'Avaliação direcionada cobrindo a estrutura dos Poderes e órgãos (STF, STJ, TJs, TCU, TCEs, MP, Câmara dos Deputados), regras de catalogação governamental sob jurisdição vs entrada direta, regras de subordinação (AACR2 24.18/24.19 e MARC 110/710) e a história e sistemas da Biblioteca Pedro Aleixo.',
+    questoes: simuladoOrgaosGov30Q,
+    submodulosIds: ['2.5'],
+  },
+];
 
 export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
   {
@@ -213,12 +229,21 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
   },
 ];
 
+export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
+  ...SIMULADOS_REGISTRY,
+  ...MINI_SIMULADOS_REGISTRY,
+];
+
 export function getSimuladoById(id: string): SimuladoManifest {
-  return SIMULADOS_REGISTRY.find((s) => s.id === id) ?? SIMULADOS_REGISTRY[0];
+  return (
+    ALL_SIMULADOS_REGISTRY.find((s) => s.id === id) ??
+    SIMULADOS_REGISTRY[0]
+  );
 }
 
 export function detectSimuladoIdFromQuestionId(questionId: string): string {
   if (questionId.startsWith('mega-q-')) return 'mega-simulado-camara';
+  if (questionId.startsWith('orgaos-q-')) return 'mini-modulo-orgaos';
   if (questionId.startsWith('cat-q-')) return 'm2-catalogacao';
   if (questionId.startsWith('m3-q-')) return 'm3-classificacao';
   if (questionId.startsWith('m4-q-')) return 'm4-recuperacao';
@@ -234,4 +259,5 @@ export function detectSimuladoIdFromQuestionId(questionId: string): string {
   if (questionId.startsWith('m14-q-')) return 'm14-tecnologia-dados';
   return 'm1-fundamentos';
 }
+
 
