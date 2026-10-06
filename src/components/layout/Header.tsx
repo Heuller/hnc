@@ -117,15 +117,15 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               onClick={() => setActiveView('painel')}
               className="flex items-center gap-2.5 text-left group cursor-pointer"
             >
-              {/* Símbolo editorial sóbrio da plataforma */}
-              <div className="w-9 h-9 rounded-md bg-primary text-primary-text flex items-center justify-center font-bold text-sm select-none shadow-editorial-sm">
-                {CONCURSO_CONFIG.plataforma.sigla}
+              {/* Símbolo editorial nobre da plataforma com gravura sutil de Brasília */}
+              <div className="w-9 h-9 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs select-none shadow-editorial-sm border border-primary/20 shrink-0">
+                <span className="font-serif tracking-widest text-[13px] font-bold">CD</span>
               </div>
 
               <div>
                 <div className="flex items-center gap-1.5">
-                  <span className="font-bold text-sm sm:text-base text-ink leading-tight">
-                    {CONCURSO_CONFIG.plataforma.sigla}
+                  <span className="font-serif font-bold text-sm sm:text-base text-ink leading-tight tracking-tight">
+                    {CONCURSO_CONFIG.plataforma.nome}
                   </span>
                   <span className="text-ink-2/60 text-xs">/</span>
                   <span className="text-xs font-semibold text-accent capitalize">
@@ -139,11 +139,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                       ? 'Progresso'
                       : 'Painel'}
                   </span>
-                  <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden xl:inline-block ml-1">
-                    {CONCURSO_CONFIG.banca.nome}
+                  <span className="text-[9px] uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden xl:inline-block ml-1">
+                    {CONCURSO_CONFIG.instituicao.sigla} · {CONCURSO_CONFIG.banca.nome}
                   </span>
                 </div>
-                <p className="text-[11px] text-ink-2 hidden 2xl:block leading-tight">
+                <p className="text-[11px] text-ink-2 hidden 2xl:block leading-tight font-sans">
                   {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
                 </p>
               </div>

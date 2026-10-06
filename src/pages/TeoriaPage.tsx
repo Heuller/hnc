@@ -41,6 +41,7 @@ import {
   verificarNavegacaoRodapeSubmodulo,
 } from '../domain/portaoSimuladoEngine';
 import { TelaBloqueioModulo } from '../components/common/TelaBloqueioModulo';
+import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
@@ -258,18 +259,18 @@ export const TeoriaPage: React.FC = () => {
 
       <div className="max-w-7xl mx-auto flex gap-8 items-start">
         {/* Coluna Central de Leitura com largura configurável */}
-        <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-8`}>
+        <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-6 sm:space-y-8`}>
           {/* Regra B6: No desktop mantenha só a sidebar; no mobile, um único seletor limpo sem redundâncias */}
-          <div className="block lg:hidden space-y-2 mb-4">
+          <div className="block lg:hidden space-y-1.5 mb-2.5">
             <label
               htmlFor="mobile-submodule-selector"
-              className="text-xs font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
+              className="text-[11px] font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
             >
               <span className="flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5 text-accent" />
-                Navegar por Submódulo
+                Submódulo Ativo
               </span>
-              <span className="text-[11px] text-accent font-sans">
+              <span className="text-[10px] text-accent font-sans font-semibold">
                 {currentMacro.codigo} • {currentSub.numero}
               </span>
             </label>
@@ -281,7 +282,7 @@ export const TeoriaPage: React.FC = () => {
                   setSelectedSubmodule(e.target.value);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="w-full py-2.5 pl-3 pr-10 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer shadow-editorial-xs"
+                className="w-full py-2 pl-3 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer shadow-editorial-xs"
               >
                 {COURSE_REGISTRY.map((macro) => (
                   <optgroup
@@ -304,18 +305,18 @@ export const TeoriaPage: React.FC = () => {
           </div>
 
           {/* Cabeçalho do Submódulo */}
-          <header className="border-b border-border pb-6">
+          <header className="border-b border-border pb-4 sm:pb-6">
             <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={currentMacro.id} size="sm" />
-                <span className="font-mono text-xs text-ink font-semibold uppercase tracking-wider">
-                  {currentMacro.titulo} • Submódulo {currentSub.numero}
+                <span className="font-mono text-[11px] sm:text-xs text-ink font-semibold uppercase tracking-wider">
+                  {currentMacro.titulo_curto || currentMacro.titulo} • Submódulo {currentSub.numero}
                 </span>
               </div>
-              <div className="flex items-center gap-2.5">
-                <span className="font-mono text-xs text-ink-2 flex items-center gap-1">
+              <div className="flex items-center gap-2">
+                <span className="font-mono text-[11px] sm:text-xs text-ink-2 hidden sm:flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5" />
-                  ~{currentSub.tempoEstimadoMinutos} min de leitura profunda
+                  ~{currentSub.tempoEstimadoMinutos} min
                 </span>
                 <button
                   type="button"
@@ -324,7 +325,7 @@ export const TeoriaPage: React.FC = () => {
                   title="Modo Foco imersivo (Atalho: F | Sair: Esc)"
                 >
                   <Eye className="w-3.5 h-3.5 text-accent" />
-                  <span>Modo Foco</span>
+                  <span className="hidden xs:inline">Foco</span>
                   <span className="hidden sm:inline-block px-1 py-0.2 rounded text-[10px] font-mono bg-black/10 dark:bg-white/10 ml-0.5">
                     F
                   </span>
@@ -332,25 +333,30 @@ export const TeoriaPage: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setIsReaderPrefsOpen(true)}
-                  className="px-2.5 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors shadow-2xs"
+                  className="px-2 sm:px-2.5 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors shadow-2xs"
                   title="Preferências de leitura e tipografia (fonte, largura, tamanho)"
                   aria-label="Abrir preferências de leitura e tipografia"
                 >
                   <Type className="w-3.5 h-3.5 text-accent" />
-                  <span>Aa Leitura</span>
+                  <span>Aa</span>
                 </button>
               </div>
             </div>
 
             {/* Faixa fina plana (4px, sem gradiente) do cabeçalho da Teoria (Parte C) */}
             <div
-              className="h-1 w-20 rounded-full mb-3"
+              className="h-1 w-16 sm:w-20 rounded-full mb-2.5 sm:mb-3"
               style={{ backgroundColor: moduleTheme.solidVar }}
             />
 
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-tight mb-3">
-              {currentSub.titulo}
-            </h1>
+            <div className="flex items-start justify-between gap-4 mb-2.5 sm:mb-3">
+              <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-tight flex-1 leading-tight">
+                {currentSub.titulo}
+              </h1>
+              <div className="hidden lg:block shrink-0 opacity-80 hover:opacity-100 transition-opacity" title="Biblioteca da Câmara dos Deputados · Acervo Canônico">
+                <ExLibrisCamaraIllustration className="w-14 h-14 text-accent" />
+              </div>
+            </div>
 
             {/* Chip Unificado Soberano de Status (D13) */}
             <div className="flex flex-wrap items-center justify-between gap-2 pt-2">

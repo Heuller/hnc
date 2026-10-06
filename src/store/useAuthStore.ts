@@ -11,6 +11,7 @@ interface AuthState {
   openAuthModal: () => void;
   closeAuthModal: () => void;
   initialize: () => () => void; // Retorna função de unsubscribe
+  loginAsGuest: () => void;
   signOut: () => Promise<void>;
 }
 
@@ -23,6 +24,21 @@ export const useAuthStore = create<AuthState>((set) => ({
 
   openAuthModal: () => set({ isAuthModalOpen: true }),
   closeAuthModal: () => set({ isAuthModalOpen: false }),
+
+  loginAsGuest: () => {
+    set({
+      user: {
+        id: '00000000-0000-0000-0000-000000000001',
+        email: 'heuller.camara@hnc.internal',
+        app_metadata: {},
+        user_metadata: { name: 'Heuller (Convidado)' },
+        aud: 'authenticated',
+        created_at: new Date().toISOString(),
+      } as unknown as User,
+      session: null,
+      loading: false,
+    });
+  },
 
   initialize: () => {
     if (!isSupabaseConfigured) {

@@ -10,6 +10,7 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react';
+import { BalancaCebraspeIllustration } from '../components/common/Illustrations';
 
 export const RadarPage: React.FC = () => {
   const [selectedMacro, setSelectedMacro] = useState<string>('todos');
@@ -91,21 +92,26 @@ export const RadarPage: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
       {/* Cabeçalho do Radar */}
-      <section className="border-b border-border pb-6">
-        <div className="flex items-center gap-2 mb-2">
-          <Radar className="w-5 h-5 text-accent" />
-          <span className="font-mono text-xs font-bold text-accent uppercase tracking-wider">
-            Mapeamento Doutrinário e Jurisprudência da Banca
-          </span>
+      <section className="border-b border-border pb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div className="space-y-2 max-w-2xl">
+          <div className="flex items-center gap-2">
+            <Radar className="w-5 h-5 text-accent" />
+            <span className="font-mono text-xs font-bold text-accent uppercase tracking-wider">
+              Mapeamento Doutrinário e Jurisprudência da Banca
+            </span>
+          </div>
+          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
+            Radar Cebraspe: Padrões e Armadilhas
+          </h1>
+          <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed">
+            Catálogo estruturado de armadilhas recorrentes, distinções conceituais críticas e
+            regras de julgamento da banca Cebraspe, extraídas diretamente das fontes doutrinárias e
+            questões aplicadas.
+          </p>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight mb-2">
-          Radar Cebraspe: Padrões e Armadilhas
-        </h1>
-        <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
-          Catálogo estruturado de armadilhas recorrentes, distinções conceituais críticas e
-          regras de julgamento da banca Cebraspe, extraídas diretamente das fontes doutrinárias e
-          questões aplicadas.
-        </p>
+        <div className="hidden sm:flex items-center justify-center p-3 rounded-2xl bg-surface-2 border border-border/80 shadow-2xs shrink-0">
+          <BalancaCebraspeIllustration className="w-24 h-24 text-accent drop-shadow-sm" />
+        </div>
       </section>
 
       {/* Barra de Filtros */}
@@ -113,9 +119,14 @@ export const RadarPage: React.FC = () => {
         aria-label="Filtros do Radar"
         className="bg-surface rounded-xl border border-border p-4 shadow-xs space-y-3"
       >
-        <div className="flex items-center gap-2 text-xs font-sans font-semibold text-ink-2 uppercase tracking-wider">
-          <Filter className="w-4 h-4 text-accent" />
-          <span>Filtros por Submódulo e Categoria</span>
+        <div className="flex items-center justify-between gap-2 text-xs font-sans font-semibold text-ink-2 uppercase tracking-wider">
+          <div className="flex items-center gap-2">
+            <Filter className="w-4 h-4 text-accent" />
+            <span>Filtros Curriculares</span>
+          </div>
+          <span className="font-mono text-[11px] text-ink-3 lowercase font-normal">
+            {selectedMacro === 'todos' ? 'todos os 14 blocos' : `bloco ${selectedMacro}`}
+          </span>
         </div>
 
         {/* Filtro por Bloco / Macro-Módulo */}
@@ -156,10 +167,17 @@ export const RadarPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Filtro por Submódulo */}
+        {/* Filtro por Submódulo (Contextual e Sanfonado) */}
         <div className="space-y-1.5 pt-1.5 border-t border-border/40">
-          <div className="text-[11px] font-sans font-medium text-ink-2">Submódulo:</div>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
+            <span>Submódulo Contextual:</span>
+            {selectedMacro === 'todos' && (
+              <span className="text-[10px] text-ink-3 italic">
+                (Selecione um bloco acima para detalhar submódulos específicos)
+              </span>
+            )}
+          </div>
+          <div className="flex flex-wrap items-center gap-1.5">
             <button
               type="button"
               onClick={() => setSelectedSub('todos')}
@@ -169,25 +187,25 @@ export const RadarPage: React.FC = () => {
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              Todos os Submódulos
+              {selectedMacro === 'todos' ? 'Todos os Submódulos (59)' : `Todos de ${selectedMacro}`}
             </button>
-            {(selectedMacro === 'todos'
-              ? allSubmodules
-              : allSubmodules.filter((s) => s.macroCodigo === selectedMacro)
-            ).map((sub) => (
-              <button
-                key={sub.id}
-                type="button"
-                onClick={() => setSelectedSub(sub.numero)}
-                className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
-                  selectedSub === sub.numero
-                    ? 'bg-accent text-accent-text border-accent font-semibold'
-                    : 'bg-surface-2 border-border text-ink hover:text-ink'
-                }`}
-              >
-                {sub.numero}
-              </button>
-            ))}
+            {selectedMacro !== 'todos' &&
+              allSubmodules
+                .filter((s) => s.macroCodigo === selectedMacro)
+                .map((sub) => (
+                  <button
+                    key={sub.id}
+                    type="button"
+                    onClick={() => setSelectedSub(sub.numero)}
+                    className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                      selectedSub === sub.numero
+                        ? 'bg-accent text-accent-text border-accent font-semibold'
+                        : 'bg-surface-2 border-border text-ink hover:text-ink'
+                    }`}
+                  >
+                    {sub.numero}
+                  </button>
+                ))}
           </div>
         </div>
 

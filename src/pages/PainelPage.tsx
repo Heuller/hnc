@@ -27,7 +27,8 @@ import { ModuleBadge } from '../components/common/ModuleBadge';
 import { getItensPendentesRevisao } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useDicionarioStore } from '../store/useDicionarioStore';
-import { IllustrationLogin, IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
+import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
+import { CupulaCongressoIllustration } from '../components/common/Illustrations';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
 export const PainelPage: React.FC = () => {
@@ -126,8 +127,8 @@ export const PainelPage: React.FC = () => {
           </p>
         </div>
 
-        <div className="hidden md:block w-32 shrink-0 text-accent opacity-80 dark:opacity-70">
-          <IllustrationLogin width="100%" height="auto" aria-hidden="true" />
+        <div className="hidden md:block w-36 shrink-0 text-accent opacity-85 hover:opacity-100 transition-opacity">
+          <CupulaCongressoIllustration className="w-full h-auto" />
         </div>
       </section>
 

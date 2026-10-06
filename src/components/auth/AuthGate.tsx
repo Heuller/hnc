@@ -17,6 +17,7 @@ import {
 import { supabase } from '../../lib/supabase';
 import { progressSyncService } from '../../services/progressSyncService';
 import { useProgressStore } from '../../store/useProgressStore';
+import { useAuthStore } from '../../store/useAuthStore';
 import { ThemeToggle } from '../layout/ThemeToggle';
 import { IllustrationLogin } from '../illustrations/ContextualIllustrations';
 
@@ -283,6 +284,17 @@ export const AuthGate: React.FC = () => {
                       </>
                     )}
                   </button>
+
+                  {tab === 'login' && (
+                    <button
+                      type="button"
+                      onClick={() => useAuthStore.getState().loginAsGuest()}
+                      className="w-full mt-2 py-2 px-3 rounded-xl bg-surface-2 hover:bg-surface-3 border border-border text-ink-2 hover:text-ink text-xs font-semibold flex items-center justify-center gap-2 transition-colors cursor-pointer"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-accent" />
+                      <span>Acessar Modo Demonstração (Convidado)</span>
+                    </button>
+                  )}
                 </div>
 
                 {tab === 'reset' && (

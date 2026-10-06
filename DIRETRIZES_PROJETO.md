@@ -284,5 +284,25 @@ Com a publicação do **Edital nº 1, de 02 de Outubro de 2026**, da Câmara dos
 * Rota `#painel` e `#edital` 100% integradas e testadas.
 * Atalho conflitante `Alt+D` erradicado. Contagens derivadas de fonte única de verdade.
 
-*Documento consolidado e homologado em 04 de Outubro de 2026 — Rodada 5 (Versão 3).*  
+---
+
+## 13. RODADA 6 — EVOLUÇÃO VISUAL, UX/UI, IDENTIDADE EDITORIAL E RESPONSIVIDADE MOBILE (TENDÊNCIAS 2026)
+
+Em Outubro de 2026, a plataforma passou por uma auditoria visual completa em **Desktop (1440×900)** e **Mobile (390×844)**, resultando em:
+
+* **Micro-Ilustrações Vetoriais SVG Autorais (`Illustrations.tsx`):**
+  - Cúpula do Congresso Nacional e Anexos (`CupulaCongressoIllustration`).
+  - Livro clássico em louros da Biblioteca da Câmara (`ExLibrisCamaraIllustration`).
+  - Balança da Justiça Cebraspe com pratos `C` e `E` (`BalancaCebraspeIllustration`).
+  - Ficha catalográfica internacional de Paul Otlet (`FichaOtletIllustration`).
+* **Redesign do Cabeçalho e Identidade Visual (`Header.tsx`):**
+  - Desduplicação da marca ("HNC HNC") e introdução do monograma `CD` da Câmara dos Deputados em azul-noite institucional.
+* **Filtros Sanfonados e Contextuais no Radar Cebraspe (`RadarPage.tsx`):**
+  - Eliminação da esteira de 59 botões de submódulo em favor de um agrupamento inteligente em dois níveis com contagem em tempo real.
+* **Otimização da Primeira Dobra na Teoria Mobile (`TeoriaPage.tsx`):**
+  - Compactação das barras superiores em smartphones, permitindo visualização imediata da doutrina e dos autores canônicos sem necessidade de rolagem prévia.
+* **Acesso Convidado / Demonstração Resiliente (`AuthGate.tsx` / `useAuthStore.ts`):**
+  - Modo instantâneo de avaliação e uso offline sem dependência de autenticação de rede externa.
+
+*Documento consolidado e homologado em 06 de Outubro de 2026 — Rodada 6 (UX/UI & Estética Editorial).*  
 *Projeto Heuller na Câmara — Rumo à Aprovação como Analista Legislativo!*

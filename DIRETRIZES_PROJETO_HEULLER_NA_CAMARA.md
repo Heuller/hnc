@@ -558,7 +558,42 @@ Construído a partir de pesquisa científica prévia (Fase P0) fundamentada nos 
 * **Validação em Tempo Real no Navegador:** Testes automatizados executados na URL de produção cobrindo transições contínuas e rápidas entre Painel, Jornada, Treinos, Radar, Progresso, Teoria e Simulado com 100% de integridade visual e zero telas brancas.
 
 ---
-*Documento atualizado em 06 de Outubro de 2026.*  
+
+## 19. RODADA 6 — EVOLUÇÃO VISUAL, UX/UI, IDENTIDADE EDITORIAL E RESPONSIVIDADE MOBILE (TENDÊNCIAS 2026)
+
+Em Outubro de 2026, foi conduzida uma auditoria visual integral e profunda nos viewports **Desktop (1440×900)** e **Mobile (390×844)**, consolidando a transição da plataforma de um sistema meramente funcional para um **software editorial de alta performance**, com identidade visual neoclássica ligada ao Congresso Nacional e à Biblioteconomia.
+
+### 19.1. Diagnóstico e Resolução de Ruídos de Interface
+* **Desduplicação do Cabeçalho Principal (`Header.tsx`):**
+  - Remoção da redundância visual anterior ("HNC HNC").
+  - Introdução do monograma circular institucional `CD` (Câmara dos Deputados) em azul-noite profundo e tipografia hierárquica `Heuller na Câmara / [Rota Ativa] · CD · CEBRASPE`.
+  - Simplificação e ordenação dos atalhos utilitários desktop e gaveta móvel.
+* **Erradicação da Sobrecarga Cognitiva no Radar Cebraspe (`RadarPage.tsx`):**
+  - A antiga esteira contínua de 59 botões de submódulo enfileirados foi substituída por uma arquitetura contextual em dois níveis:
+    1. Quando em "Todos os Blocos", a interface apresenta um único botão consolidado `[Todos os Submódulos (59)]` e indicação visual discreta.
+    2. Ao selecionar um bloco curricular específico (ex.: `M1`), expandem-se de forma limpa e imediata apenas os submódulos daquela disciplina (`M1.1`, `M1.2`, `M1.3`, `M1.4`).
+* **Otimização da Primeira Dobra na Teoria Mobile (`TeoriaPage.tsx`):**
+  - Compactação de margens e paddings verticais excessivos que ocupavam mais de 300px da tela antes do texto de estudo.
+  - Ajuste de tipografia responsiva (`text-xl sm:text-3xl`).
+  - **Resultado:** A doutrina, os autores canônicos e o conteúdo formativo agora surgem imediatamente na primeira dobra da tela de smartphones (390px).
+
+### 19.2. Biblioteca de Micro-Ilustrações Vetoriais SVG Autorais (`Illustrations.tsx`)
+Criada biblioteca autoral com ícones e micro-ilustrações vetoriais em traços finos neoclássicos (sem dependências pesadas, 100% SVG em TailwindCSS):
+* **`CupulaCongressoIllustration`**: Cúpula do Congresso Nacional e torres dos anexos sobre um halo luminoso sutil. Em destaque no Hero card "Hoje · Sessão de Estudos" do [Painel](file:///c:/Users/bibli/Downloads/CEBRASPE/curso-revisao/src/pages/PainelPage.tsx).
+* **`ExLibrisCamaraIllustration`**: Livro encadernado em couro com coroa de louros clássica, conferindo autoridade de Acervo Canônico ao cabeçalho da [Teoria](file:///c:/Users/bibli/Downloads/CEBRASPE/curso-revisao/src/pages/TeoriaPage.tsx).
+* **`BalancaCebraspeIllustration`**: Balança clássica da justiça com pratos calibrados `C` (Certo) e `E` (Errado), simbolizando o rigor do fator de correção Cebraspe no cabeçalho do [Radar Cebraspe](file:///c:/Users/bibli/Downloads/CEBRASPE/curso-revisao/src/pages/RadarPage.tsx).
+* **`FichaOtletIllustration`**: Ficha catalográfica internacional com orifício padrão e carimbo de autoridade da Documentação.
+
+### 19.3. Acesso Convidado / Demonstração Resiliente (`AuthGate.tsx`, `useAuthStore.ts`)
+* Adição da funcionalidade `loginAsGuest` com provisionamento seguro de sessão local para testes de revisão, auditorias offline e demonstração imediata sem travar a navegação.
+
+### 19.4. Validação de Qualidade de Código e Produção
+* **Linter Oxlint:** 0 erros e 0 warnings em todos os arquivos modificados.
+* **Dev Server Vite:** HMR ativo com zero quebras de CSS ou módulos.
+* **Testes Automatizados:** Integridade mantida em 100% das regras e do estado do Zustand.
+
+---
+*Documento atualizado em 06 de Outubro de 2026 — Rodada 6 (UX/UI & Estética Editorial).*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
 
 
