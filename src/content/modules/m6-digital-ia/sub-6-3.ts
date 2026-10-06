@@ -4,76 +4,126 @@ export const submodulo63: ModuloFilho = {
   id: 'sub-6-3',
   numero: '6.3',
   titulo: 'Preservação Digital e o Modelo de Referência OAIS (ISO 14721)',
-  descricaoCurta: 'Desafios da obsolescência digital, dimensões física, lógica e intelectual, estratégias de preservação (migração, emulação, refrescamento), a arquitetura funcional do modelo OAIS (SIP, AIP e DIP) e a Rede Cariniana (LOCKSS).',
-  tempoEstimadoMinutos: 35,
-  autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal', 'NDSA (Levels of Digital Preservation)'],
+  descricaoCurta: 'Desafios da obsolescência digital, dimensões física, lógica e intelectual, estratégias de preservação (migração, emulação, refrescamento, encapsulamento), a arquitetura funcional do modelo OAIS (SIP, AIP e DIP), o padrão de metadados PREMIS, RDF e a Rede Cariniana (LOCKSS).',
+  tempoEstimadoMinutos: 45,
+  autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal', 'NDSA / Library of Congress', 'Luciana Duranti'],
   alertasCebraspe: [
-    'O modelo OAIS (Open Archival Information System / ISO 14721) NÃO é um software nem um sistema proprietário brasileiro de direitos autorais: é um MODELO CONCEITUAL internacional de referência para arquivos e bibliotecas digitais abertas.',
-    'A tríade dos Pacotes de Informação do OAIS: SIP (Submission Information Package - enviado pelo produtor na ingestão); AIP (Archival Information Package - armazenado em custódia permanente com metadados completos de preservação); e DIP (Dissemination Information Package - entregue ao usuário na busca).',
-    'Diferença entre Emulação e Migração: a Migração converte o arquivo digital de um formato em desuso para um formato mais novo (altera o arquivo); a Emulação mantém o arquivo binário original intacto e recria o ambiente original de software/hardware executável por meio de outro programa emulador.',
-    'Fazer backups em discos rígidos ou nuvem NÃO é suficiente para garantir a preservação digital de longo prazo: backups combatem apenas falhas físicas de curto prazo, não resolvendo a obsolescência lógica dos formatos nem garantindo autenticidade e proveniência.',
-    'A Rede Cariniana (coordenada pelo IBICT) utiliza o software livre LOCKSS (Lots of Copies Keep Stuff Safe), baseado em uma rede distribuída e descentralizada peer-to-peer (P2P) de cópias espelhadas.',
+    'O modelo OAIS (Open Archival Information System / ISO 14721) NÃO é um software nem uma ferramenta de computador: é um MODELO CONCEITUAL internacional de referência que define a arquitetura funcional e os requisitos de repositórios digitais confiáveis (RDC-Arq).',
+    'A tríade dos Pacotes de Informação do OAIS: 1. SIP (Submission Information Package - enviado pelo produtor na ingestão); 2. AIP (Archival Information Package - custodiado com metadados exaustivos de preservação, proveniência e integridade); e 3. DIP (Dissemination Information Package - entregue ao usuário na busca, derivado do AIP).',
+    'Diferença crucial entre Emulação e Migração: a Migração converte o arquivo digital de um formato obsoleto para um formato contemporâneo (alterando a estrutura binária do arquivo); a Emulação mantém o arquivo binário original estritamente intocado e recria o ambiente original de software e hardware através de um programa emulador em computadores modernos.',
+    'Backups em discos rígidos ou em nuvem NÃO equivalem a preservação digital de longo prazo: backups combatem unicamente falhas físicas imediatas de perda de dados; não solucionam a obsolescência lógica dos formatos, não monitoram a perda de renderização e não garantem autenticidade jurídica ao longo dos anos.',
+    'Metadados de Preservação Digital (PREMIS 3.0): estruturam-se em 5 entidades essenciais: Objetos (arquivos e representações), Eventos (ações exercidas sobre o objeto), Agentes (pessoas ou softwares executores), Direitos (permissões legais de acesso e cópia) e Ambientes.',
+    'A estrutura de dados fundamental da Web Semântica e do RDF (Resource Description Framework) consiste em TRIPLAS: Sujeito, Predicado e Objeto, expressas por meio de URIs.',
   ],
   quadroComparativo: {
     titulo: 'Comparação das Principais Estratégias de Preservação Digital',
-    colunas: ['Estratégia de Preservação', 'Mecanismo Operacional', 'Vantagens Principais', 'Limitações e Riscos Críticos'],
+    colunas: ['Estratégia de Preservação', 'Mecanismo Operacional', 'Vantagens Principais', 'Limitações e Riscos Críticos', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
-      ['Refrescamento (*Refreshing*)', 'Cópia periódica dos dados de uma mídia antiga para outra mídia mais recente do mesmo tipo', 'Combate a degradação física do suporte magnético ou óptico', 'Não soluciona a obsolescência lógica dos formatos nem dos softwares de leitura'],
-      ['Migração de Formatos', 'Conversão de arquivos de formatos obsoletos para novos padrões abertos (ex.: DOC para PDF/A)', 'Permite a leitura em softwares atuais e ampla disseminação', 'Risco de perda cumulativa de formatação, layout original, fontes e metadados intrínsecos'],
-      ['Emulação (*Emulation*)', 'Recriação do hardware e sistema operacional original por meio de software emulador em máquinas modernas', 'Preserva a integridade e o comportamento exato original sem alterar o arquivo binário', 'Depende de conhecimento técnico profundo dos sistemas operacionais e hardware arcaicos'],
-      ['Preservação de Tecnologia', 'Manutenção física e operacional de computadores, drives e placas originais (museu de hardware)', 'Permite a execução em sua forma nativa física', 'Completamente inviável a longo prazo por falta de peças sobressalentes e custo astronômico'],
+      ['Refrescamento (*Refreshing*)', 'Cópia periódica dos bits de uma mídia degradada para outra mídia mais nova do mesmo formato', 'Combate a deterioração física do suporte magnético ou óptico', 'Não soluciona a obsolescência lógica dos formatos de arquivo nem dos softwares de leitura', 'Afirmar que o refrescamento converte arquivos DOC em PDF/A (FALSO: quem converte é a Migração).'],
+      ['Migração de Formatos', 'Conversão de arquivos de formatos proprietários/obsoletos para novos padrões abertos (ex.: DOC para PDF/A)', 'Garante leitura em softwares contemporâneos sem exigir equipamentos arcaicos', 'Risco de perda cumulativa de formatação, layout, fontes especiais e scripts dinâmicos', 'Dizer que a migração não altera o código binário original (FALSO: o arquivo é transformado).'],
+      ['Emulação (*Emulation*)', 'Recriação do hardware e sistema operacional original por software emulador em máquinas modernas', 'Preserva a integridade e o comportamento original exato mantendo o arquivo binário intocado', 'Depende de alto domínio técnico para desenvolver e manter emuladores de sistemas complexos', 'Afirmar que a emulação converte o arquivo para formatos web modernos (FALSO: mantém o arquivo antigo).'],
+      ['Encapsulamento', 'Agrupamento do documento digital com seus metadados descritivos e softwares de leitura em um único pacote', 'Autossuficiência informativa do pacote preservado', 'Aumenta significativamente o tamanho em disco e a complexidade de desempacotamento', 'Confundir encapsulamento com descompactação simples de arquivos ZIP.'],
+      ['Preservação de Tecnologia', 'Manutenção física e operacional de computadores, placas e unidades de leitura originais (museu de hardware)', 'Execução no suporte físico original nativo', 'Completamente inviável a longo prazo por ausência de peças sobressalentes e custo exorbitante', 'Achar que manter computadores antigos em funcionamento é a recomendação oficial do OAIS.'],
     ],
   },
   teoriaDensaMarkdown: `### 1. Os Desafios e as Três Dimensões da Preservação Digital
 
-Preservar documentos digitais é um desafio radicalmente mais complexo do que guardar papel em estantes. Enquanto o papel alcalino dura séculos sob condições ambientais estáveis, documentos digitais tornam-se inacessíveis em poucos anos devido à **obsolescência tecnológica acelerada** (Arellano, 2004; Miguel, 2008, presentes em nosso acervo em \`Digital, repositórios e IA\`):
+Preservar documentos digitais é um desafio radicalmente mais complexo e dinâmico do que a conservação tradicional de livros em papel. Enquanto o papel alcalino sobrevive por séculos em ambientes climaticamente estáveis, **o documento digital pode tornar-se ilegível em poucos anos**, vitimado pela degradação das mídias magnéticas/ópticas e pela **obsolescência tecnológica acelerada** de softwares e formatos (Arellano, 2004; Miguel, 2008):
 
 #### As Três Dimensões da Preservação Digital:
 1. **Preservação Física:**
-   * Cuida da integridade física dos suportes e mídias de armazenamento (discos magnéticos, fitas LTO, discos de estado sólido e ópticos) contra poeira, campos magnéticos e degradação de materiais.
+   * Cuida da integridade física dos suportes e suportes magnéticos, discos rígidos corporativos, fitas LTO e discos ópticos contra poeira, calor, umidade, descargas eletrostáticas e campos magnéticos.
 2. **Preservação Lógica:**
-   * Enfrenta a obsolescência de formatos e codificações de dados face à evolução dos sistemas operacionais e softwares aplicativos (garantindo que o arquivo binário possa ser interpretado no futuro).
+   * Enfrenta a obsolescência de formatos de arquivos e linguagens de codificação. Garante que os fluxos de bits (*bitstreams*) armazenados continuem sendo decodificáveis, interpretáveis e renderizáveis por novos softwares no futuro.
 3. **Preservação Intelectual:**
-   * Garante a **autenticidade, integridade e confiabilidade** do documento digital ao longo de sucessivas migrações, certificando que o conteúdo não foi adulterado, forjado ou descontextualizado (controle de cadeias de custódia e metadados de proveniência - PREMIS).
+   * Garante a **autenticidade, integridade, fidedignidade e proveniência** do documento digital ao longo de sucessivas migrações e transferências de custódia.
+   * Assegura que o documento não sofreu adulterações fraudulentas ou corrupções acidentais, mantendo sua validade jurídica e probatória (projeto InterPARES / Luciana Duranti).
+
+> [!CAUTION]
+> **Pegadinha Clássica do Cebraspe:** A banca afirma que "a realização sistemática de rotinas de backup garante a preservação digital de longo prazo dos documentos de uma biblioteca". **ERRADO!** O backup é mera cópia física de segurança para recuperação de curto prazo em caso de desastre operacional. Ele não resolve a obsolescência de formatos nem registra metadados de proveniência e autenticidade.
 
 ---
 
 ### 2. O Modelo de Referência OAIS (ISO 14721:2012 / 2025)
 
-O **Open Archival Information System (OAIS)**, padronizado pela norma internacional ISO 14721 (disponível integralmente em nosso acervo na pasta \`Digital, repositórios e IA/ISO-14721-2025.pdf\`), é a espinha dorsal de todo Repositório Digital Confiável (RDC-Arq):
+O **Open Archival Information System (OAIS)**, padronizado internacionalmente pela norma **ISO 14721**, é o arcabouço conceitual definidor de todo Repositório Digital Confiável (RDC-Arq e ISO 16363):
 
-#### A. A Arquitetura Funcional do OAIS
-O modelo é composto por seis entidades funcionais interdependentes:
-1. **Ingestão (*Ingest*):** Recebe os dados do Produtor, valida a integridade e gera o pacote de arquivamento.
-2. **Armazenamento Arquivístico (*Archival Storage*):** Custodia com redundância e segurança os pacotes preservados.
-3. **Gestão de Dados (*Data Management*):** Administra os metadados de busca e os bancos de dados do repositório.
-4. **Administração (*Administration*):** Gerencia a operação geral, padrões e políticas institucionais.
-5. **Planejamento da Preservação (*Preservation Planning*):** Monitora a evolução tecnológica externa, detecta formatos em risco de obsolescência e formula planos de migração preventiva.
-6. **Acesso (*Access*):** Interface de busca e entrega de conteúdos ao Consumidor (usuário final).
+\`\`\`mermaid
+graph LR
+    subgraph Ambiente Externo
+        P[Produtor]
+        C[Consumidor / Comunidade Alvo]
+        M[Administração / Gestão]
+    end
+    subgraph Repositório OAIS - ISO 14721
+        ING[Ingestão - Ingest]
+        AS[Armazenamento - Archival Storage]
+        DM[Gestão de Dados - Data Management]
+        ADM[Administração - Administration]
+        PP[Planejamento da Preservação - Preservation Planning]
+        ACC[Acesso - Access]
+    end
+    P -->|Envia SIP| ING
+    ING -->|Gera AIP| AS
+    ING -. Metadados .-> DM
+    PP -. Monitora Tecnologia .-> ADM
+    ADM -. Diretrizes .-> AS
+    AS -->|AIP para DIP| ACC
+    ACC -->|Entrega DIP| C
+\`\`\`
 
-#### B. A Tríade de Pacotes de Informação (*Information Packages*)
-* **SIP (*Submission Information Package*):** Pacote de submissão criado pelo autor ou setor produtor e submetido ao repositório para ingestão.
-* **AIP (*Archival Information Package*):** Pacote de arquivamento gerado a partir do SIP, contendo os arquivos originais acompanhados de metadados exaustivos de representação, fixidez (hashes SHA-256), proveniência, contexto e direitos (o coração do repositório).
-* **DIP (*Dissemination Information Package*):** Pacote de disseminação gerado a partir do AIP quando o usuário solicita o acesso, adaptado para navegação rápida na Web (ex.: gerando um PDF web a partir de matrizes TIFF pesadas).
+#### A. As Três Entidades do Ambiente Externo
+1. **Produtor (*Producer*):** Pessoa ou entidade que submete os documentos e metadados ao repositório.
+2. **Consumidor (*Consumer*):** Usuário final ou sistema que pesquisa e recupera conteúdos preservados. O OAIS destaca o conceito de **Comunidade-Alvo (*Designated Community*)**: o grupo específico de usuários para quem o repositório é projetado e cujos conhecimentos prévios definem a quantidade de metadados de representação exigida.
+3. **Administração / Gestão (*Management*):** Órgão de direção que estabelece políticas institucionais e assegura recursos financeiros para a sustentabilidade do arquivo.
+
+#### B. Os Seis Módulos Funcionais do OAIS
+1. **Ingestão (*Ingest*):** Recebe o SIP do Produtor, valida sua fixidez (*checksum*), extrai metadados, formata o conteúdo e produz o pacote de arquivamento (AIP).
+2. **Armazenamento Arquivístico (*Archival Storage*):** Custodia os pacotes AIP com redundância física, monitora mídias e executa rotinas de refrescamento.
+3. **Gestão de Dados (*Data Management*):** Administra os bancos de dados que armazenam os metadados descritivos e administrativos para pesquisa.
+4. **Administração (*Administration*):** Gerencia a operação rotineira, negocia acordos de submissão com produtores e supervisiona os padrões de serviço.
+5. **Planejamento da Preservação (*Preservation Planning*):** Módulo intelectual que monitora o ambiente tecnológico externo, identifica formatos em vias de extinção e planeja planos de migração preventiva antes que os documentos se tornem inacessíveis.
+6. **Acesso (*Access*):** Interface que atende às solicitações dos consumidores, consulta o Data Management, extrai o conteúdo do Archival Storage, gera o pacote de disseminação (DIP) e o entrega ao usuário.
+
+#### C. A Tríade de Pacotes de Informação (*Information Packages*)
+* **SIP (*Submission Information Package*):** Pacote de submissão elaborado pelo autor/produtor, contendo o documento bruto e metadados preliminares.
+* **AIP (*Archival Information Package*):** O pacote nuclear da preservação. Reúne o objeto digital acompanhado de sua **Informação de Representação** (como decodificar os bits) e de sua **Informação de Preservação e Descrição (PDI)**: Proveniência, Contexto, Referência, Fixidez (*checksum* SHA-256) e Direitos de Acesso.
+* **DIP (*Dissemination Information Package*):** Pacote leve e otimizado gerado a partir do AIP quando o usuário solicita o download na interface web (ex.: versão PDF compactada gerada a partir de arquivos TIFF matrizes pesados).
 
 ---
 
-### 3. A Rede Cariniana e a Estratégia LOCKSS
+### 3. Padrões de Metadados: PREMIS, METS e RDF na Web Semântica
 
-No Brasil, o Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) criou em 2012 a **Rede Cariniana**:
-* É a **Rede Brasileira de Serviços de Preservação Digital**, que congrega universidades, centros de pesquisa e bibliotecas governamentais.
-* **A Tecnologia LOCKSS (*Lots of Copies Keep Stuff Safe*):** Desenvolvida pela Universidade de Stanford, baseia-se no princípio de que a segurança e preservação de documentos digitais advêm da **distribuição geográfica de múltiplas cópias redundantes** em servidores independentes que realizam auditoria contínua entre si por protocolo *peer-to-peer* (P2P), restaurando automaticamente cópias corrompidas.
- 
+#### A. O Dicionário de Dados PREMIS (Preservation Metadata: Implementation Strategies)
+Coordenado pela Library of Congress, o PREMIS é o padrão de metadados de preservação por excelência, estruturado em **cinco entidades nucleares**:
+1. **Objetos (*Objects*):** As unidades discretas de informação digital (arquivos, representações ou fluxos de bits).
+2. **Eventos (*Events*):** Ações e intervenções que afetam um Objeto ao longo de sua existência (ex.: ingestão, migração de formato, validação de fixidez, assinatura digital).
+3. **Agentes (*Agents*):** Pessoas, instituições ou softwares executores dos Eventos.
+4. **Direitos (*Rights*):** Declarações formais sobre permissões e proibições de direitos autorais e licenças de custódia e cópia.
+5. **Ambientes (*Environments*):** Especificações de hardware e software necessárias para renderizar e utilizar os Objetos.
+
+#### B. O Padrão METS (Metadata Encoding and Transmission Standard)
+Esquema XML padronizado pela Library of Congress para empacotar e estruturar objetos digitais complexos:
+* Divide-se em seções rigorosas: Cabeçalho METS (*metsHdr*), Metadados Descritivos (*dmdSec*), Metadados Administrativos (*amdSec*), Grupo de Arquivos (*fileSec*), Mapa Estrutural (*structMap* - obrigatório, define a hierarquia da obra) e Vínculos Estruturais (*structLink*).
+
+#### C. O Modelo RDF (Resource Description Framework) na Web Semântica
+* Modelo conceitual desenvolvido pelo W3C para representar dados e relacionamentos na Web Semântica.
+* **Estrutura Canônica:** Baseia-se em declarações expressas por meio de **TRIPLAS**:
+
+$$\\langle \\text{Sujeito} \\rangle \\; \\xrightarrow{\\text{Predicado}} \\; \\langle \\text{Objeto} \\rangle$$
+
+* Sujeitos, Predicados e Objetos são identificados universalmente por **URIs / IRIs**, permitindo que computadores processem o sentido semântico das conexões e construam grafos de conhecimento conectados (*Linked Data*).
+
 ---
- 
-### 4. Confiabilidade e os Níveis de Preservação da NDSA (*Levels of Preservation*)
- 
-Para mensurar a confiabilidade e maturidade de um Repositório Digital Confiável (RDC-Arq / ISO 16363), a *National Digital Stewardship Alliance* (NDSA) desenvolveu o modelo **Levels of Preservation (LoP)**, internacionalmente adotado para guiar intervenções práticas em 5 eixos vitais:
-1. **Armazenamento e Localização Geográfica:** Do armazenamento em mídia única com backup até cópias georreferenciadas e descentralizadas imunes a desastres regionais;
-2. **Fixidez e Integridade dos Dados:** Checagem contínua por algoritmos de *checksum* criptográfico (SHA-256) na ingestão e em auditorias periódicas automáticas de integridade binária;
-3. **Segurança da Informação:** Controle estrito de acessos, privilégios baseados em papéis e trilhas auditáveis de logs de modificação;
-4. **Metadados de Preservação:** Estruturação de esquemas de metadados técnicos, contextuais e de proveniência (padrão PREMIS e METS);
-5. **Formatos de Arquivo:** Inventário e monitoramento de formatos aceitos, preferência absoluta por padrões abertos e não proprietários (ex.: PDF/A, TIFF, XML) e planos de migração automatizados.`,
+
+### 4. A Rede Cariniana e a Tecnologia LOCKSS
+
+No Brasil, o IBICT estruturou em 2012 a **Rede Cariniana**:
+* Congrega repositórios institucionais de universidades federais e órgãos governamentais para garantir a custódia compartilhada de teses, dissertações e periódicos.
+* **A Tecnologia LOCKSS (*Lots of Copies Keep Stuff Safe* de Stanford):**
+  * Baseia-se no princípio clássico da Biblioteconomia de que a conservação assegura-se pela **distribuição geográfica descentralizada de cópias redundantes**.
+  * Opera em rede *peer-to-peer* (P2P): servidores espalhados por todo o país realizam auditorias recíprocas e contínuas por meio de protocolos criptográficos (*polling* de integridade).
+  * Se um nó da rede sofrer perda de dados ou ataque cibernético, os outros nós restauram automaticamente o arquivo idêntico e íntegro.`,
   checkpoints: [
     {
       id: 'cp-6-3-1',
@@ -89,35 +139,35 @@ Para mensurar a confiabilidade e maturidade de um Repositório Digital Confiáve
       gabarito: 'E',
       justificativa: 'Errado! Quem altera o arquivo e seu formato é a MIGRAÇÃO. A emulação preserva o arquivo binário exatamente intocado e recria o ambiente do sistema antigo por meio de um software emulador.',
     },
-      {
+    {
       id: 'cp-6-3-3',
-      pergunta: "Micro-Checkpoint 3: Triplas RDF na Web Semântica",
-      item: "A estrutura de dados fundamental do padrão RDF (Resource Description Framework) consiste em triplas compostas por Sujeito, Predicado e Objeto.",
+      pergunta: 'Micro-Checkpoint 3: Triplas RDF na Web Semântica',
+      item: 'A estrutura de dados fundamental do padrão RDF (Resource Description Framework) consiste em triplas compostas por Sujeito, Predicado e Objeto.',
       gabarito: 'C',
-      justificativa: "Certo! As triplas RDF formam grafos de conhecimento que permitem computadores interpretarem o significado semântico das conexões entre entidades identificadas por URIs.",
+      justificativa: 'Certo! As triplas RDF formam grafos de conhecimento que permitem computadores interpretarem o significado semântico das conexões entre entidades identificadas por URIs.',
     },
   ],
   mnemonicos: {
     timeline: [
       {
         id: 'tl-6-3-1',
-        periodo: '1999 / 2002',
-        disciplina: 'Padrão Espacial e Arquivístico',
-        focoPrincipal: 'Desenvolvimento do modelo OAIS pelo comitê CCSDS e homologação como ISO 14721',
+        periodo: '2002 / 2012',
+        disciplina: 'Modelo OAIS',
+        focoPrincipal: 'Publicação do modelo OAIS pela NASA/CCSDS e homologação como norma internacional ISO 14721',
         figuraChave: 'CCSDS / ISO',
       },
       {
         id: 'tl-6-3-2',
-        periodo: '1999',
-        disciplina: 'Preservação Distribuída',
-        focoPrincipal: 'Criação do projeto LOCKSS na Universidade de Stanford',
-        figuraChave: 'David Rosenthal e Vicky Reich',
+        periodo: '2004 / 2015',
+        disciplina: 'Metadados PREMIS',
+        focoPrincipal: 'Criação do dicionário de dados PREMIS pela Library of Congress e OCLC para metadados de preservação digital',
+        figuraChave: 'Library of Congress',
       },
       {
         id: 'tl-6-3-3',
         periodo: '2012',
-        disciplina: 'Preservação Digital no Brasil',
-        focoPrincipal: 'Criação da Rede Cariniana pelo IBICT para preservação digital de periódicos e teses',
+        disciplina: 'Preservação em Rede no Brasil',
+        focoPrincipal: 'Criação da Rede Cariniana pelo IBICT utilizando a infraestrutura distribuída LOCKSS',
         figuraChave: 'Miguel Ángel Márdero Arellano / IBICT',
       },
     ],
@@ -126,31 +176,45 @@ Para mensurar a confiabilidade e maturidade de um Repositório Digital Confiáve
         id: 'aut-6-3-1',
         nome: 'Miguel Ángel Márdero Arellano',
         ano: 2004,
-        obraPrincipal: 'Preservação de documentos digitais',
-        ideiaChave: 'Coordenador da Rede Cariniana; referência nacional em estratégias de migração, emulação e modelo OAIS.',
-        chipPegadinha: 'Arellano lidera a aplicação prática do modelo OAIS e LOCKSS no Brasil.',
+        obraPrincipal: 'Preservação de documentos digitais e Repositórios Confiáveis',
+        ideiaChave: 'Sistematização da preservação digital no Brasil e liderança na implantação da Rede Cariniana.',
+        chipPegadinha: 'Preservação digital exige intervenção política e metadados estruturados, não apenas backup físico.',
       },
       {
         id: 'aut-6-3-2',
         nome: 'David Rosenthal',
+        ano: 2005,
+        obraPrincipal: 'LOCKSS: Lots of Copies Keep Stuff Safe',
+        ideiaChave: 'Rede distribuída P2P de cópias redundantes com auditoria contínua e autocura.',
+        chipPegadinha: 'A segurança do LOCKSS baseia-se na descentralização e no consenso criptográfico entre múltiplos nós.',
+      },
+      {
+        id: 'aut-6-3-3',
+        nome: 'Luciana Duranti',
         ano: 1999,
-        obraPrincipal: 'LOCKSS: A permanent publishing system for digital networks',
-        ideiaChave: 'Princípio do LOCKSS: muitas cópias distribuídas garantem a segurança de longo prazo.',
-        chipPegadinha: 'LOCKSS opera em rede peer-to-peer com auditoria contínua de integridade de hashes.',
+        obraPrincipal: 'The InterPARES Project (International Research on Permanent Authentic Records in Electronic Systems)',
+        ideiaChave: 'Diplomática contemporânea e garantia de autenticidade jurídica e integridade de documentos eletrônicos.',
+        chipPegadinha: 'Documentos autênticos exigem cadeia ininterrupta de custódia e fixidez inviolável.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-6-3-1',
-        afirmacao: 'O modelo de referência OAIS consiste em um sistema governamental brasileiro para a gestão e comercialização de direitos de propriedade intelectual em repositórios abertos.',
+        afirmacao: 'O modelo de referência OAIS (ISO 14721) define um software de código aberto pronto para download e instalação direta em servidores de arquivos.',
         gabarito: 'E',
-        porQue: 'Essa assertiva é uma pegadinha clássica do Cebraspe (IPHAN). O OAIS é um modelo conceitual internacional de preservação digital de longo prazo (ISO 14721), sem relação com comércio de propriedade intelectual.',
+        porQue: 'O OAIS é um MODELO CONCEITUAL e normativo de referência que orienta o projeto de sistemas, e não um software ou pacote executável de computador.',
       },
       {
         id: 'peg-6-3-2',
-        afirmacao: 'A realização periódica de backups em mídias físicas de memória não volátil é suficiente para garantir a preservação digital permanente em bibliotecas universitárias.',
+        afirmacao: 'A realização periódica de rotinas de backup físico em discos rígidos assegura plenamente a preservação digital de longo prazo dos documentos de um repositório.',
         gabarito: 'E',
-        porQue: 'Backup apenas salva cópias do arquivo físico; não resolve a degradação lógica dos formatos de software, a quebra de links nem a obsolescência de programas leitores.',
+        porQue: 'Backups combatem apenas panes físicas de hardware no curto prazo; não combatem a obsolescência lógica dos formatos nem garantem integridade conceitual e autenticidade.',
+      },
+      {
+        id: 'peg-6-3-3',
+        afirmacao: 'Na arquitetura funcional do OAIS, o módulo de Ingestão é o responsável exclusivo por realizar a entrega dos pacotes de disseminação (DIP) aos usuários consumidores.',
+        gabarito: 'E',
+        porQue: 'A Ingestão recebe o SIP do Produtor e gera o AIP. Quem entrega o DIP ao Consumidor na interface externa é o módulo funcional de ACESSO (Access).',
       },
     ],
   },

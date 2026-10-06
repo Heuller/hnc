@@ -24,57 +24,121 @@ export const submodulo41: ModuloFilho = {
       ['Ponderação de Termos', 'Não pondera (termos têm peso 1 ou 0)', 'Ponderação apurada: Frequência do Termo (TF) × Inverso da Frequência no Documento (IDF)', 'Pesos atribuídos a partir de parâmetros estatísticos da coleção'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Gênese da Recuperação da Informação (*Information Retrieval - IR*)
+  teoriaDensaMarkdown: `### 1. A Gênese e os Fundamentos da Recuperação da Informação (*Information Retrieval - IR*)
+O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Conforme a definição clássica de Gerard Salton e dos autores de referência contemporânea Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):
+> *"A Recuperação da Informação é o processo de representação, armazenamento, organização e acesso a itens de informação, com o propósito de disponibilizar ao usuário os documentos que atendem à sua necessidade de informação expressa em uma consulta."*
 
-O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**:
-> *"A recuperação da informação abrange os aspectos intelectuais da descrição das informações e de suas especificações para a busca, assim como os sistemas, técnicas ou máquinas que são empregados para executar a operação."*
+Ao contrário dos Bancos de Dados Relacionais clássicos (SGBDs baseados em SQL), que operam sobre dados estruturados com correspondência determinística e exata, os **Sistemas de Recuperação da Informação (SRI)** operam predominantemente sobre **textos em linguagem natural não estruturados ou semiestruturados**, onde a pertinência e a relevância possuem natureza conceitual, gradual e subjetiva.
 
-Conforme Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*), o objetivo primordial de um sistema de RI é recuperar informações de natureza não estruturada ou semiestruturada (documentos textuais) que satisfaçam uma **necessidade de informação** do usuário.
-
----
-
-### 2. Estratégias de Busca e a Álgebra Booleana
-
-A formulação da consulta (*query*) envolve a combinação lógica de termos representativos:
-
-#### A. Operadores Lógicos Booleanos (George Boole)
-1. **Operador AND (E) — Interseção:**
-   * Exige a ocorrência simultânea de todos os termos vinculados.
-   * *Efeito:* Restringe o escopo da pesquisa, reduz o volume de resultados recuperados e **aumenta a Precisão**.
-2. **Operador OR (OU) — União:**
-   * Exige a ocorrência de pelo menos um dos termos combinados. Utilizado para agrupar sinônimos, variantes linguísticas e termos correlatos.
-   * *Efeito:* Amplia a pesquisa, traz maior volume de documentos e **aumenta a Revocação**.
-3. **Operador NOT / AND NOT (NÃO) — Exclusão:**
-   * Elimina os documentos que contenham determinado termo indesejado.
-   * *Efeito:* Aumenta a precisão, mas deve ser usado com extremo cuidado para evitar a perda de itens pertinentes.
-
-#### B. Operadores Sintáticos Complementares
-* **Truncagem (*Wildcards*):** Permite recuperar variações morfológicas de uma raiz com o uso de caracteres coringa como \`*\` ou \`?\` (ex.: \`bibliotec*\` recupera biblioteca, bibliotecas, bibliotecário, biblioteconomia).
-* **Operadores de Proximidade e Adjacência:** Exigem que os termos apareçam próximos dentro de uma determinada distância de palavras ou na mesma sentença (\`NEAR\`, \`ADJ\`, \`WITH\`).
-* **Busca por Frase Exata:** Uso de aspas duplas \`"..."\` para recuperar a sequência literal e exata de palavras (ex.: \`"processo legislativo brasileiro"\`).
+\`\`\`mermaid
+graph TD
+    DOCS["Coleção de Documentos (Textos Não Estruturados)"] --> PRE["Pré-processamento: Tokenização, Stop Words e Stemming"]
+    PRE --> INV["Indexação: Construção do Arquivo Invertido (Inverted Index)"]
+    USER["Usuário com Necessidade de Informação"] --> QUERY["Formulação da Consulta (Query com Operadores)"]
+    QUERY --> MATCH["Mecanismo de Casamento e Algoritmo de Similaridade (Matching)"]
+    INV --> MATCH
+    MATCH --> RANK["Ranqueamento de Resultados por Grau de Relevância"]
+    RANK --> USER
+\`\`\`
 
 ---
 
-### 3. A Estrutura do Arquivo Invertido (*Inverted Index*)
+### 2. Os Modelos Clássicos de Recuperação da Informação
+O **CEBRASPE** cobra a comparação aprofundada dos três modelos matemáticos clássicos de RI:
 
-O **Arquivo Invertido** é a estrutura de indexação computacional fundamental que torna viável a busca instantânea em sistemas com milhões de registros:
-* Ao processar a coleção documental, o sistema decompõe os textos em termos individuais (removendo *stop words* como preposições e artigos).
-* Cria-se um dicionário ordenado de termos únicos, onde cada termo aponta para uma lista encadeada (*postings list*) dos identificadores dos documentos onde ele ocorre e a posição das palavras.
-* Quando o usuário executa uma busca booleana, o computador não lê os documentos inteiros; ele simplesmente cruza as listas de ponteiros do arquivo invertido na memória RAM em milissegundos.
+| Critério Analítico | Modelo Booleano Clássico | Modelo do Espaço Vetorial (Gerard Salton) | Modelo Probabilístico (Robertson & Spärck Jones) |
+| :--- | :--- | :--- | :--- |
+| **Base Teórica Formal** | Teoria dos Conjuntos e Álgebra de George Boole (1854). | Álgebra Linear e Geometria Euclidiana multidimensional. | Teoria da Probabilidade e Teorema da Probabilidade Total de Bayes. |
+| **Ponderação de Termos** | **Binária** (pesos $0$ ou $1$ — o termo está presente ou ausente). | **Numérica Contínua** baseada em frequências estatísticas (**TF-IDF**). | Probabilística baseada na distribuição de termos em classes de relevância. |
+| **Tipo de Casamento (*Matching*)** | Exato e determinístico (Tudo ou Nada). Não aceita correspondência parcial. | **Casamento Parcial** baseado no ângulo de proximidade entre vetores. | Estimação da probabilidade de um documento ser relevante dada uma consulta. |
+| **Ranqueamento dos Resultados** | **INEXISTENTE**. Os documentos recuperados não são ordenados por relevância. | **Excelente e contínuo**. Ordenação decrescente pelo Cosseno da Similaridade. | Ordenação decrescente pelo princípio da probabilidade de relevância (PRP). |
+| **Vantagens Principais** | Simplicidade lógica, precisão em consultas de especialistas (Direito/Medicina). | Alta revocação, casamento gradual e ordenação intuitiva para usuários comuns. | Fundamentação teórica rigorosa em inferência estatística bayesiana. |
+| **Limitações Críticas** | Rigidez extrema: não tolera sinônimos sem o operador OR; gera silêncio ou excesso. | Assume independência mútua entre os termos (o que não ocorre na linguagem real). | Exige dados amostrais prévios ou relevância inicial para calibrar as probabilidades. |
+
+#### A. Detalhamento do Modelo do Espaço Vetorial e o Esquema TF-IDF (Gerard Salton, 1975)
+No Modelo Vetorial desenvolvido no projeto SMART da Universidade de Cornell, cada documento $d_j$ e a consulta $q$ são representados como vetores multidimensionais em um espaço de $t$ dimensões, onde cada dimensão corresponde a um termo único do vocabulário:
+* **Frequência do Termo no Documento (*Term Frequency - TF*):**
+  $$TF_{i, j} = \\frac{f_{i, j}}{\\max_k f_{k, j}}$$
+  *Mede quantas vezes o termo $t_i$ aparece no documento $d_j$. Quanto mais frequente o termo no documento, maior a evidência de que a obra trata daquele assunto.*
+* **Inverso da Frequência no Documento (*Inverse Document Frequency - IDF*):**
+  $$IDF_i = \\log \\left( \\frac{N}{n_i} \\right)$$
+  *Onde $N$ é o número total de documentos da coleção e $n_i$ é o número de documentos que contêm o termo $t_i$. O IDF penaliza termos triviais que aparecem em quase todos os livros (baixo poder de discriminação) e valoriza termos raros e específicos.*
+* **Peso TF-IDF Combinado:**
+  $$w_{i, j} = TF_{i, j} \\times IDF_i$$
+* **Medida de Similaridade do Cosseno (*Cosine Similarity*):**
+  A proximidade entre o vetor da consulta $\\vec{q}$ e o vetor do documento $\\vec{d_j}$ é calculada pelo cosseno do ângulo $\\theta$ formado entre eles no espaço vetorial:
+  $$\\text{Sim}(\\vec{q}, \\vec{d_j}) = \\cos(\\theta) = \\frac{\\vec{q} \\cdot \\vec{d_j}}{\\|\\vec{q}\\| \\times \\|\\vec{d_j}\\|}$$
+  *Se os vetores coincidirem perfeitamente, $\\cos(0) = 1$ (similaridade máxima). Se forem perpendiculares (ortogonais), $\\cos(90^\\circ) = 0$ (sem termos em comum).*
 
 ---
 
-### 4. Mecanismos de Busca vs. Metabuscadores
+### 3. Estratégias de Busca, Álgebra Booleana e Operadores Sintáticos
+A elaboração de uma estratégia de busca exige o domínio cirúrgico dos operadores e de seus impactos nas taxas de Revocação (*Recall*) e Precisão (*Precision*):
 
-* **Mecanismos de Busca Diretos (Motores de Busca / Search Engines):**
-  * Possuem três módulos estruturais:
-    1. *Rastreador / Coletor (Crawler / Spider):* Robô que navega continuamente pela rede coletando páginas e links;
-    2. *Módulo de Indexação:* Processa o texto coletado e constrói o arquivo invertido;
-    3. *Módulo de Consulta e Ranqueamento:* Interface que recebe a pergunta do usuário e devolve os links ranqueados por algoritmos como PageRank e TF-IDF.
-* **Metabuscadores (Metamecanismos / Busca Federada):**
-  * **Não mantêm base de dados própria de documentos nem coletam a rede!**
-  * Atuam como intermediários: recebem a consulta do usuário, traduzem-na e transmitem-na simultaneamente a múltiplos motores de busca ou catálogos externos (ex.: Google, Yahoo, Scopus, catálogos OPAC).
-  * Coletam as respostas dessas fontes, eliminam as duplicatas, unificam o ranqueamento e apresentam um único resultado consolidado.`,
+#### A. Operadores Lógicos Booleanos
+1. **Operador AND (E) — Interseção de Conjuntos:**
+   * Exige a presença simultânea de todos os termos vinculados no documento.
+   * *Efeito Matemático:* Restringe e afunila o universo de recuperação.
+   * *Impacto no Desempenho:* **AUMENTA A PRECISÃO** e **DIMINUI A REVOCAÇÃO** (risco de silêncio documental se a busca for muito restritiva).
+2. **Operador OR (OU) — União de Conjuntos:**
+   * Recupera documentos que contenham qualquer um dos termos informados (ou todos eles).
+   * *Finalidade Primordial:* Agrupar sinônimos, variantes linguísticas, plurais e termos correlatos (ex.: \`"Câmara dos Deputados" OR "Parlamento Brasileiro" OR "Poder Legislativo"\`).
+   * *Impacto no Desempenho:* **AUMENTA A REVOCAÇÃO** e **DIMINUI A PRECISÃO** (aumenta o volume de itens recuperados, podendo gerar ruído).
+3. **Operador NOT / AND NOT (NÃO) — Diferença / Exclusão:**
+   * Elimina da recuperação os documentos que apresentem determinado termo indesejado (ex.: \`Licitação NOT "Pregão Eletrônico"\`).
+   * *Impacto no Desempenho:* Aumenta a precisão, mas é considerado de **alto risco**, pois pode descartar documentos altamente pertinentes que apenas citem o termo excluído de passagem em uma nota de rodapé.
+
+#### B. Ordem de Precedência e Parênteses
+Em expressões booleanas complexas, os sistemas de recuperação seguem uma ordem padrão de avaliação (normalmente \`NOT\` $\\rightarrow$ \`AND\` $\\rightarrow$ \`OR\`). O uso de parênteses é mandatório para alterar a precedência:
+$$\\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$$
+
+#### C. Operadores Sintáticos de Proximidade e Truncagem
+* **Truncagem (*Wildcards*):**
+  * *À Direita:* Recupera todas as palavras que compartilham o mesmo radical morfossintático (ex.: \`legisla*\` recupera legislação, legislativo, legislador, legislatura).
+  * *Interna / Coringa Unicactere:* Substitui um único caractere para absorver variantes ortográficas (ex.: \`wom?n\` para *woman* e *women*; \`organi?ação\` para organização e organisação).
+* **Operadores de Proximidade e Adjacência:**
+  * \`ADJ\` ou aspas duplas \`"..."\`: Exigem que os termos apareçam imediatamente contíguos na mesma ordem (frase exata);
+  * \`NEAR/n\`: Exige que os termos estejam a uma distância máxima de $n$ palavras um do outro, em qualquer ordem;
+  * \`WITH\`: Exige que os termos estejam na mesma frase (*sentence*);
+  * \`SAME\`: Exige que os termos estejam no mesmo campo ou parágrafo.
+
+---
+
+### 4. A Estrutura Interna de Dados: O Arquivo Invertido (*Inverted Index*)
+Como os sistemas de busca conseguem responder consultas booleanas em bilhões de páginas em frações de segundo? Através da arquitetura do **Arquivo Invertido**:
+
+\`\`\`mermaid
+graph LR
+    T["Texto Original:<br>Doc 1: 'processo legislativo'<br>Doc 2: 'regimento legislativo'"] --> INV["ARQUIVO INVERTIDO:<br>'legislativo' -> Doc 1 (pos 2), Doc 2 (pos 2)<br>'processo' -> Doc 1 (pos 1)<br>'regimento' -> Doc 2 (pos 1)"]
+\`\`\`
+
+* **Vocabulário / Dicionário de Termos:** Lista alfabética de todas as palavras distintas da coleção, mantida em memória primária rápida (estruturada em árvores B+ ou tabelas *Hash*).
+* **Listas de Ocorrências (*Postings Lists*):** Para cada termo do vocabulário, há uma lista encadeada contendo os IDs dos documentos onde o termo aparece, a frequência local e a posição exata de cada palavra no texto (viabilizando operadores de frase e proximidade).
+* **Processamento Booleano:** A operação \`termoA AND termoB\` resume-se a fazer a interseção das duas listas de ponteiros na memória RAM, sem jamais precisar reabrir os arquivos de texto originais no disco.
+
+---
+
+### 5. Mecanismos de Busca Diretos vs. Metabuscadores (Busca Federada)
+O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de busca e os metabuscadores:
+
+| Característica | Mecanismo de Busca Direto (Ex.: Google, Bing) | Metabuscador / Busca Federada (Ex.: MetaGer, Dogpile, Portal CAPES) |
+| :--- | :--- | :--- |
+| **Base de Dados Própria** | **SIM**. Armazena terabytes de páginas e índices em datacenters próprios. | **NÃO POSSUI BASE DE DADOS PRÓPRIA DE DOCUMENTOS**. |
+| **Coleta da Web (*Crawling*)** | Emprega robôs rastreadores (*spiders/crawlers*) que navegam continuamente. | **Não realiza rastreamento**. Consulta APIs ou formulários de motores externos. |
+| **Funcionamento Operacional** | Pesquisa diretamente no seu próprio arquivo invertido local. | Envia a consulta simultaneamente em paralelo para múltiplos motores externos. |
+| **Tratamento dos Resultados** | Aplica algoritmo proprietário de relevância (ex.: PageRank). | Recebe as listas externas, **elimina duplicatas**, funde e reordena os resultados. |
+| **Vantagem Principal** | Velocidade extrema e controle total do índice. | Amplitude e cobertura: permite consultar acervos heterogêneos com uma única busca. |
+
+---
+
+### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em RI
+
+| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"No modelo booleano clássico de recuperação, os documentos recuperados são automaticamente ordenados pelo grau decrescente de pertinência temática."* | **ERRADO** | O modelo booleano **não ranqueia** resultados; o casamento é binário (pertence ou não pertence ao conjunto). |
+| *"A aplicação do operador booleano OR tem por objetivo primordial elevar a precisão da pesquisa documental."* | **ERRADO** | O operador OR serve para elevar a **REVOCAÇÃO**, pois amplia o escopo unindo sinônimos e termos correlatos. |
+| *"Os metabuscadores destacam-se por manter o maior repositório indexado próprio de documentos científicos da Internet."* | **ERRADO** | Metabuscadores **não mantêm base própria de documentos**; realizam busca federada intermediando fontes externas. |
+| *"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF."* | **ERRADO** | Quanto mais frequente o termo na coleção ($n_i \\approx N$), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |`,
   checkpoints: [
     {
       id: 'cp-4-1-1',

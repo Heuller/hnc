@@ -23,51 +23,103 @@ export const submodulo51: ModuloFilho = {
       ['Atuação do Bibliotecário', 'Líder estratégico junto à direção e stakeholders', 'Coordenador de processos e setores técnicos/atendimento', 'Supervisor e executor direto de rotinas procedimentais'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. Fundamentos e Filosofia do Planejamento Bibliotecário
+  teoriaDensaMarkdown: `### 1. Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário
+O planejamento em unidades de informação contemporâneas deixou de ser um mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência, inovação e legitimidade social das bibliotecas públicas e parlamentares (**Maria Christina Barbosa de Almeida, 2005; Alba Costa Maciel & Marília Alvarenga Mendonça, 2000**).
 
-O planejamento em unidades de informação deixou de ser mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência e relevância social das bibliotecas modernas (Almeida, 2005; Maciel & Mendonça, 2000).
+\`\`\`mermaid
+graph TD
+    PE["1. PLANEJAMENTO ESTRATÉGICO (Longo Prazo / Macroinstitucional)<br>Missão, Visão, Valores, Análise SWOT, Alinhamento Institucional"] --> PT["2. PLANEJAMENTO TÁTICO (Médio Prazo / Setorial)<br>Programas de Aquisição, Projetos de Conservação, Gestão da Referência"]
+    PT --> PO["3. PLANEJAMENTO OPERACIONAL (Curto Prazo / Procedimental)<br>Rotinas de Catalogação, Escalas de Balcão, Metas Diárias e Checklists"]
+\`\`\`
 
-#### A. Conceito e Finalidades do Planejamento
-Conforme Maria Christina Barbosa de Almeida (*Planejamento de Bibliotecas e Serviços de Informação*, obra canônica de nosso acervo), o planejamento é um **processo contínuo, dinâmico e flexível** de tomada de decisões racionais sobre o futuro da unidade de informação:
-* **Proatividade vs. Reatividade:** O planejamento visa antecipar mudanças ambientais, tecnológicas e de demandas informacionais, em vez de apenas reagir passivamente às crises.
-* **Alinhamento Institucional:** Uma biblioteca parlamentar ou universitária não possui autonomia dissociada da instituição mantenedora. Seus objetivos e metas devem refletir diretamente as diretrizes da entidade matriz (na Câmara dos Deputados, subsidiar o processo legislativo e a transparência pública).
-* **Diagnóstico da Situação Atual:** Antes de formular planos futuros, é indispensável a realização de um diagnóstico exaustivo da realidade da unidade (recursos humanos, acervo, tecnologia, infraestrutura e estudo de necessidades dos usuários).
+#### A. Conceito e Princípios do Planejamento
+Conforme Almeida (2005), o planejamento é um **processo contínuo, dinâmico, participativo e flexível** de tomada de decisões racionais sobre o futuro da unidade de informação:
+1. **Proatividade vs. Reatividade:** O planejamento visa antecipar tendências tecnológicas e demandas de informação da sociedade, em vez de apenas reagir a crises orçamentárias ou espaciais.
+2. **Alinhamento Institucional:** A biblioteca universitária ou parlamentar não possui missão autônoma dissociada da instituição mantenedora. Seus objetivos estratégicos devem refletir e subsidiar diretamente a missão da instituição matriz (na Câmara dos Deputados: subsidiar o processo legislativo, a fiscalização orçamentária e o controle social da cidadania).
+3. **Diagnóstico Situacional Prévio:** Antes de estabelecer metas futuras, é indispensável realizar um diagnóstico detalhado da realidade da unidade (quadro de pessoal, acervo, infraestrutura predial, tecnologia e necessidades reais dos usuários).
+
+#### B. As Três Dimensões Hierárquicas do Planejamento
+* **1. Planejamento Estratégico:**
+  * Horizonte temporal de longo prazo (normalmente de 3 a 5 anos);
+  * Abrange a organização como um todo e seu relacionamento com o ambiente externo;
+  * Define a **Missão** (razão de existir da instituição, seu propósito social perene), a **Visão de Futuro** (onde a biblioteca almeja estar em um horizonte temporal) e os **Valores** (princípios éticos inegociáveis de conduta);
+  * Liderado pelo bibliotecário-gestor em interlocução direta com a alta administração.
+* **2. Planejamento Tático:**
+  * Horizonte temporal de médio prazo (1 a 2 anos);
+  * Ocupa-se das grandes áreas funcionais ou seções da biblioteca (Processamento Técnico, Atendimento e Referência, Tecnologia da Informação, Preservação e Obras Raras);
+  * Desdobra os objetivos estratégicos em programas, projetos específicos e alocação orçamentária setorial.
+* **3. Planejamento Operacional:**
+  * Curto prazo (execução diária, semanal ou mensal);
+  * Foco na execução prática e no cumprimento de metas quantificadas;
+  * Materializa-se em manuais de serviços, fluxogramas de trabalho, cronogramas de tarefas (*Gantt*) e procedimentos operacionais padrão (POPs).
 
 ---
 
-#### B. As Três Dimensões do Planejamento
-1. **Planejamento Estratégico:**
-   * Foco no longo prazo e na relação da biblioteca com o ambiente externo.
-   * Define a **Missão** (razão de existir da biblioteca, seu papel social), a **Visão** (onde a instituição deseja chegar) e os **Valores**.
-   * Utiliza metodologias como a **Análise SWOT / FOFA** (Forças e Fraquezas no ambiente interno; Oportunidades e Ameaças no ambiente externo).
-2. **Planejamento Tático:**
-   * Traduz as diretrizes estratégicas em planos concretos para cada grande área funcional (desenvolvimento de coleções, processamento técnico, referência, TI).
-   * Médio prazo, integrando recursos humanos, financeiros e materiais.
-3. **Planejamento Operacional:**
-   * Micro-orientado, detalhado e voltado para o curto prazo.
-   * Formaliza manuais de rotinas e procedimentos, fluxogramas, cronogramas de execução e metas quantitativas imediatas.
+### 2. Metodologias e Ferramentas Estratégicas: Matriz SWOT e Balanced Scorecard (BSC)
+
+#### A. A Matriz SWOT / FOFA em Bibliotecas
+A Análise SWOT avalia o posicionamento estratégico através de duas variáveis espaciais fundamentais:
+
+| Ambiente de Análise | Fatores Positivos (Alavancadores) | Fatores Negativos (Restritivos) |
+| :--- | :--- | :--- |
+| **Ambiente Interno**<br>*(Totalmente controlável pela gestão da biblioteca)* | **FORÇAS (*Strengths*):**<br>• Equipe técnica altamente qualificada e concursada;<br>• Acervo histórico e de obras raras único no país;<br>• Infraestrutura tecnológica moderna com OPAC rápido. | **FRAQUEZAS (*Weaknesses*):**<br>• Espaço físico saturado nas estantes;<br>• Atraso no processamento técnico de doações;<br>• Falta de sinalização predial acessível. |
+| **Ambiente Externo**<br>*(Incontrolável pela biblioteca; exige adaptação)* | **OPORTUNIDADES (*Opportunities*):**<br>• Avanço de verbas de emendas para inteligência artificial;<br>• Cooperação com a rede RVBI e Portal LexML;<br>• Crescente demanda social por transparência pública. | **AMEAÇAS (*Threats*):**<br>• Contingenciamento ou corte de orçamento federal;<br>• Crise fiscal que afeta a assinatura de bases internacionais;<br>• Mudanças bruscas na legislação de direitos autorais. |
+
+> [!CAUTION]
+> **Casca de Banana Cebraspe nº 1:** A banca adora afirmar que *"o corte orçamentário decorrente de diretriz governamental constitui uma fraqueza interna da biblioteca"*. Isso é **ERRADO**! O corte orçamentário externo é uma **AMEAÇA** (ambiente externo incontrolável). Fraqueza é uma deficiência interna da própria unidade (como obsolescência de computadores ou desorganização de estantes).
+
+#### B. O Balanced Scorecard (BSC) de Kaplan & Norton Adaptado a Bibliotecas
+O BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro perspectivas interligadas por relações de causa e efeito:
+1. **Perspectiva dos Usuários / Clientes:** Como os parlamentares, servidores e cidadãos enxergam a biblioteca? (Métricas: taxa de satisfação, tempo de resposta na referência, índice de uso do OPAC).
+2. **Perspectiva dos Processos Internos:** Em quais processos internos a biblioteca deve alcançar a excelência? (Métricas: tempo médio de catalogação e indexação de novas obras, taxa de catalogação cooperativa na RVBI, índice de preservação preventiva).
+3. **Perspectiva do Aprendizado e Crescimento (Pessoas e Inovação):** Como podemos continuar melhorando e agregando valor? (Métricas: horas de capacitação da equipe em RDA/MARC21/IA, índice de retenção de talentos, clima organizacional).
+4. **Perspectiva Financeira / Orçamentária:** Como gerenciamos os recursos públicos para maximizar o retorno à sociedade? (Métricas: custo por consulta atendida, índice de execução orçamentária, custo de manutenção de assinaturas de bases).
 
 ---
 
-### 2. Avaliação de Serviços e Indicadores de Desempenho (F. W. Lancaster)
+### 3. Avaliação de Serviços de Bibliotecas segundo F. W. Lancaster (1996)
+No tratado canônico *Avaliação de Serviços de Bibliotecas*, **F. W. Lancaster** estabeleceu os fundamentos teóricos da avaliação de desempenho:
 
-A avaliação não é o fim do processo gerencial, mas um elo permanente de retroalimentação (*feedback*) que viabiliza o controle e a melhoria contínua dos serviços.
+\`\`\`mermaid
+graph LR
+    I["INSUMOS (Inputs)<br>Orçamento, Funcionários, Prédio, Acervo"] --> P["PROCESSOS (Throughput)<br>Produtividade, Tempo de Catalogação"]
+    P --> S["PRODUTOS (Outputs)<br>Consultas Realizadas, Empréstimos, Downloads"]
+    S --> R["RESULTADOS / IMPACTO (Outcomes)<br>Resolução da Dúvida, Sucesso Legislativo, Satisfação"]
+\`\`\`
 
-#### A. A Tríade Canônica de F. W. Lancaster (1996)
-No clássico *Avaliação de Serviços de Bibliotecas*, Lancaster divide a avaliação em três dimensões cruciais:
-* **Custos:** Os insumos e recursos financeiros, humanos e materiais consumidos na prestação do serviço.
-* **Eficácia (*Effectiveness*):** Mede em que proporção o serviço ou produto alcança seus objetivos declarados e atende às necessidades e expectativas dos usuários.
-* **Benefício (*Benefit*):** O impacto positivo real (social, educacional, acadêmico ou legislativo) propiciado pela informação obtida pelo usuário.
+#### A. A Distinção Vital entre Eficiência e Eficácia
+* **Eficiência (Foco nos Meios e Processos):** Mede a relação entre os insumos aplicados e a produtividade alcançada (fazer as coisas direito, com o menor custo e desperdício de tempo). Exemplo: *uma equipe que cataloga 50 livros por dia por funcionário é altamente eficiente*.
+* **Eficácia (Foco nos Fins e Resultados):** Mede o grau em que o serviço satisfaz as reais necessidades informacionais dos usuários (fazer a coisa certa que resolve o problema). Exemplo: *entregar ao parlamentar exatamente a doutrina que ele necessita para fundamentar um voto em plenário*.
+* **O Paradoxo de Lancaster:** Um serviço de biblioteca pode ser **extremamente eficiente** (custar muito pouco e operar com grande velocidade burocrática) e ao mesmo tempo ser **completamente ineficaz** (porque as informações entregues não atendem à necessidade do usuário e geram insatisfação).
 
-> **⚠️ Alerta Cebraspe — Custo-Eficácia vs. Custo-Benefício:**  
-> * **Custo-Eficácia:** Avalia a relação entre o custo investido e a qualidade/volume do produto gerado (ex.: custo por consulta respondida com exatidão).  
-> * **Custo-Benefício:** Tenta mensurar o retorno de valor (muitas vezes intangível) obtido em relação ao custo econômico aplicado.
+#### B. Custo-Eficácia vs. Custo-Benefício
+* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona o custo financeiro incorrido com o nível de desempenho técnico alcançado. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R$ 15,00 por documento recuperado via empréstimo entre bibliotecas*).
+* **Análise de Custo-Benefício (*Cost-Benefit*):** Tenta mensurar o retorno de valor, benefício ou impacto positivo (geralmente intangível e social) gerado para o indivíduo ou para a instituição em comparação ao custo investido (ex.: *o valor econômico e democrático de aprovar uma lei bem fundamentada em estudos fornecidos pela biblioteca parlamentar*).
 
-#### B. Medidas de Avaliação: Insumos, Processos e Produtos
-* **Medidas de Insumo (*Inputs*):** Recursos alocados (orçamento, número de funcionários, área física, títulos adquiridos).
-* **Medidas de Processo (*Throughput*):** Produtividade interna (tempo médio de catalogação, taxa de processamento físico).
-* **Medidas de Produto / Saída (*Outputs*):** Itens circulados, buscas realizadas, usuários atendidos, downloads de artigos.
-* **Medidas de Resultado / Impacto (*Outcomes*):** Satisfação do usuário, sucesso na pesquisa parlamentar, economia de tempo dos assessores.`,
+---
+
+### 4. A Norma Internacional ISO 11620: Indicadores de Desempenho para Bibliotecas
+A **ISO 11620** (*Information and documentation — Library performance indicators*) é a norma técnica internacional que padroniza a mensuração quantitativa e qualitativa dos serviços de informação:
+* **Requisitos de um Bom Indicador segundo a ISO 11620:**
+  * **Validade:** O indicador mede exatamente aquilo a que se propõe medir;
+  * **Confiabilidade:** O resultado é reproduzível quando aplicado sob as mesmas condições;
+  * **Relevância:** A métrica é útil para a tomada de decisão gerencial;
+  * **Praticabilidade:** Os dados podem ser coletados com custo e esforço razoáveis.
+* **Indicadores Padronizados Clássicos:**
+  * *Taxa de Disponibilidade de Títulos Requeridos:* Proporção de obras buscadas que estavam efetivamente disponíveis na estante no momento da procura (Teste de Orr);
+  * *Velocidade do Processamento Técnico:* Tempo médio decorrido entre a chegada física de um livro à biblioteca e sua disponibilização final para empréstimo no catálogo;
+  * *Custo por Usuário Atendido:* Orçamento total dividido pelo número de usuários ativos da instituição.
+
+---
+
+### 5. Quadro Sinóptico de Cascas de Banana do Cebraspe em Gestão e Planejamento
+
+| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"O planejamento estratégico de uma biblioteca compete exclusivamente à alta administração do órgão mantenedor, cabendo aos bibliotecários apenas o planejamento operacional."* | **ERRADO** | O bibliotecário deve atuar como líder estratégico da unidade de informação, participando ativamente de **todos os níveis** de planejamento. |
+| *"Um serviço de biblioteca que atinge alto índice de eficiência operacional é necessariamente eficaz no atendimento às necessidades dos usuários."* | **ERRADO** | Eficiência diz respeito ao uso econômico de recursos (meios); um serviço eficiente pode ser **ineficaz** se entregar informações inúteis ao usuário. |
+| *"Na análise SWOT aplicada a bibliotecas parlamentares, o corte de verbas orçamentárias imposto pelo Congresso Nacional classifica-se como fraqueza interna."* | **ERRADO** | Cortes orçamentários governamentais decorrem do ambiente externo incontrolável, configurando uma **AMEAÇA** (e não fraqueza). |
+| *"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados."* | **ERRADO** | Essa é a análise de **custo-eficácia**. A de **custo-benefício** mensura o retorno de valor/impacto qualitativo e social em relação aos custos. |`,
   checkpoints: [
     {
       id: 'cp-5-1-1',

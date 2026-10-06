@@ -4,60 +4,99 @@ export const submodulo91: ModuloFilho = {
   id: 'sub-9-1',
   numero: '9.1',
   titulo: 'Ciclo da Comunicação Científica, Canais e Avaliação por Pares',
-  descricaoCurta: 'O fluxo e ciclo da comunicação científica (A. J. Meadows), distinção entre canais formais e informais (colégios invisíveis), preprints e modalidades de avaliação por pares (cega, duplo-cega e avaliação aberta).',
-  tempoEstimadoMinutos: 30,
-  autoresChave: ['A. J. Meadows', 'Derek de Solla Price', 'Robert K. Merton', 'John Ziman'],
+  descricaoCurta: 'O fluxo e ciclo da comunicação científica (A. J. Meadows e Garvey-Griffith), distinção entre canais formais e informais, os colégios invisíveis (Derek de Solla Price), as 4 normas mertonianas (CUDOS), preprints e modalidades de avaliação por pares.',
+  tempoEstimadoMinutos: 40,
+  autoresChave: ['A. J. Meadows', 'Derek de Solla Price', 'Robert K. Merton', 'William Garvey & Belver Griffith', 'John Ziman'],
   alertasCebraspe: [
-    'Diferenciação canônica entre canais formais e informais (A. J. Meadows): Canais Formais (periódicos científicos revisados, livros acadêmicos, patentes) têm validação institucional, registro público permanente e controle bibliográfico; Canais Informais (conversas interpessoais, e-mails, colégios invisíveis, reuniões científicas) são efêmeros, rápidos e sem controle bibliográfico prévio.',
-    'Colégios Invisíveis (Derek de Solla Price): redes informais de cooperação entre pesquisadores de elite que compartilham dados, manuscritos e ideias preliminares muito antes da publicação formal. O Cebraspe adora afirmar que nos colégios invisíveis os cientistas "não se comunicam": ERRADO!',
-    'Avaliação por Pares (Peer Review): simples-cega (o autor não sabe quem é o avaliador, mas o avaliador sabe quem é o autor); duplo-cega / double-blind (nem autor nem avaliador sabem a identidade um do outro - padrão tradicional de periódicos); aberta / open peer review (as identidades de autor e avaliador são públicas, e os pareceres podem ser publicados junto com o artigo).',
-    'Preprints: manuscritos científicos disponibilizados publicamente em servidores abertos (como arXiv, SciELO Preprints, bioRxiv) ANTES de passarem pela avaliação formal por pares.',
+    'Diferenciação canônica entre canais formais e informais (A. J. Meadows / Garvey-Griffith): Canais Formais (periódicos científicos revisados, livros acadêmicos, patentes) têm validação institucional, registro público permanente, ampla acessibilidade e controle bibliográfico; Canais Informais (conversas de laboratório, e-mails, colégios invisíveis, reuniões científicas) são efêmeros, rápidos, não indexados e sem controle bibliográfico prévio.',
+    'Colégios Invisíveis (Derek de Solla Price): redes informais de cooperação ativa e ágil entre pesquisadores de ponta que compartilham dados, manuscritos preliminares e impressões muito antes da publicação formal. O Cebraspe adora afirmar que nos colégios invisíveis os cientistas "são isolados e não se comunicam": ERRADO!',
+    'As Quatro Normas Institucionais de Merton (Ethos Científico - CUDOS): Comunismo/Comunalismo (conhecimento como herança pública comum), Universalismo (critérios de validade independentes da pessoa do cientista), Desinteresse (motivação pela verdade, e não por ganho pessoal escuso) e Ceticismo Organizado (escrutínio crítico e suspensão de juízo até provas empíricas).',
+    'Avaliação por Pares (Peer Review): simples-cega (o autor não sabe quem é o avaliador, mas o avaliador sabe quem é o autor); duplo-cega / double-blind (nem autor nem avaliador sabem a identidade recíproca - anonimização tradicional); aberta / open peer review (as identidades de autor e avaliador são públicas e os pareceres podem ser divulgados com o artigo).',
+    'Preprints: manuscritos científicos completos disponibilizados publicamente em servidores abertos (arXiv, SciELO Preprints, bioRxiv) ANTES de passarem pela avaliação formal por pares, garantindo prioridade de descoberta e disseminação em tempo real.',
   ],
   quadroComparativo: {
-    titulo: 'Comparação dos Canais de Comunicação Científica (Meadows & Price)',
-    colunas: ['Critério', 'Canais Informais de Comunicação', 'Canais Formais de Comunicação'],
+    titulo: 'Comparação dos Canais de Comunicação Científica (Meadows, Price e Garvey-Griffith)',
+    colunas: ['Critério Comparativo', 'Canais Informais de Comunicação', 'Canais Formais de Comunicação', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
-      ['Velocidade de Transmissão', 'Quase instantânea (tempo real)', 'Lenta (meses ou anos de submissão, revisão e editoração)'],
-      ['Público e Alcance', 'Restrito a grupos de pesquisa e redes pessoais (Colégios Invisíveis)', 'Universal, aberto a qualquer leitor e pesquisador no mundo'],
-      ['Controle e Validação', 'Sem controle formal de qualidade institucional', 'Validação rigorosa por pares (*peer review*) e comitê editorial'],
-      ['Memória e Registro', 'Efêmero, volátil e de difícil rastreamento', 'Permanente, indexado em bases e depositado na memória científica'],
-      ['Exemplos Típicos', 'E-mails, conversas de corredor, mensagens em chats, debates em eventos', 'Artigos em revistas indexadas, monografias acadêmicas, patentes concedidas'],
+      ['Velocidade de Transmissão', 'Quase instantânea (tempo real, trocas diretas)', 'Lenta (meses ou anos de submissão, peer review e editoração)', 'Afirmar que a publicação em periódicos formais é mais rápida que a troca informal.'],
+      ['Público e Alcance', 'Restrito a grupos de pesquisa e redes pessoais (Colégios Invisíveis)', 'Universal, aberto a qualquer leitor e pesquisador no mundo', 'Considerar que os colégios invisíveis têm circulação universal e aberta ao público geral.'],
+      ['Controle e Validação', 'Sem controle formal de qualidade institucional', 'Validação rigorosa por pares (*peer review*) e comitê editorial', 'Dizer que artigos de periódicos são canais informais por circularem em congressos.'],
+      ['Memória e Registro', 'Efêmero, volátil e de difícil rastreamento documental', 'Permanente, indexado em bases de dados e arquivado perenemente', 'Afirmar que conversas informais e e-mails garantem controle bibliográfico duradouro.'],
+      ['Exemplos Típicos', 'E-mails, preprints preliminares, conversas em laboratório e chats', 'Artigos em revistas indexadas, livros acadêmicos e patentes concedidas', 'Confundir o artigo de periódico científico publicado com canal informal da ciência.'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Natureza da Comunicação Científica (A. J. Meadows)
+  teoriaDensaMarkdown: `### 1. A Natureza Sociológica da Ciência e da Comunicação Científica
 
-Em sua obra monumental *A Comunicação Científica* (presente em nosso acervo \`Comunicação científica, Ciência Aberta e métricas/pdf-p-classtruncatedtext-module-lineclamped-85ulhh-style-max-lines5a-comunicacao-cientifica-by-a-j-meadows-p_compress.pdf\`), **Arthur Jack Meadows** demonstra que a ciência é essencialmente um empreendimento social e comunicativo:
-> *"Uma pesquisa científica só se completa verdadeiramente quando os seus resultados são comunicados, validados criticamente pela comunidade e incorporados ao patrimônio do saber público registrado."*
+A Ciência da Informação contemporânea apoia-se nas formulações de **Arthur Jack Meadows** (*A Comunicação Científica*, 1999) e **John Ziman** (*Conhecimento Público*, 1979) para definir o caráter indissociável entre ciência e comunicação:
 
-#### O Ciclo da Publicação Científica
-O ciclo da informação científica percorre etapas bem definidas:
-$$\\text{Ideia / Hipótese} \\rightarrow \\text{Experimento} \\rightarrow \\text{Comunicação Informal} \\rightarrow \\text{Redação de Preprint} \\rightarrow \\text{Submissão a Periódico} \\rightarrow \\text{Peer Review} \\rightarrow \\text{Publicação Formal} \\rightarrow \\text{Indexação e Citação}$$
+> *"Uma pesquisa científica só se completa verdadeiramente quando os seus resultados são comunicados, validados criticamente pela comunidade e incorporados ao patrimônio do saber público registrado."* — A. J. Meadows
 
----
-
-### 2. Canais Formais vs. Canais Informais e os Colégios Invisíveis
-
-* **Canais Formais:**
-  * Meios públicos de transmissão do conhecimento que garantem **autoria, data de prioridade intelectual e perenidade**.
-  * O **periódico científico** (cujo nascimento remonta a 1665 com o *Journal des Sçavans* na França e a *Philosophical Transactions* na Inglaterra) é o veículo formal hegemônico.
-* **Canais Informais e os Colégios Invisíveis:**
-  * O historiador da ciência **Derek de Solla Price** cunhou a expressão **"Colégios Invisíveis"** (*Invisible Colleges*) para descrever as redes informais de comunicação mantidas por grupos de ponta na pesquisa científica.
-  * *Mecanismo:* Cientistas trocam versões preliminares de textos, impressões sobre experimentos e comentários críticos de maneira rápida e não hierarquizada. Essa comunicação informal direciona as futuras publicações formais.
+* **O Princípio do Conhecimento Público:** Uma descoberta mantida em segredo no laboratório não possui valor científico social. A ciência é um processo coletivo de consenso racional decorrente da crítica interpares.
+* **O Ethos Científico de Robert K. Merton (As Quatro Normas CUDOS - 1942):**
+  A conduta da comunidade científica apoia-se em quatro imperativos institucionais normativos:
+  1. **Comunalismo / Comunismo Epistêmico (C):** Os achados da ciência são frutos de cooperação social e pertencem a toda a humanidade como patrimônio comum. A apropriação privada de leis da natureza é vedada; o cientista reivindica apenas o reconhecimento moral da autoria e da prioridade da descoberta.
+  2. **Universalismo (U):** As afirmações científicas devem ser submetidas a critérios impessoais pré-estabelecidos. A validação de uma teoria independe da raça, nacionalidade, religião, gênero ou prestígio social de quem a propôs.
+  3. **Desinteresse (D):** A atividade científica deve ser orientada primordialmente pela busca desinteressada da verdade e pelo progresso do saber, e não pela obtenção de lucros pecuniários pessoais egoístas.
+  4. **Ceticismo Organizado (OS):** Suspensão temporária de julgamento e escrutínio crítico impiedoso sobre todas as hipóteses. Nenhuma verdade científica é imune a testes empíricos rigorosos e refutações.
 
 ---
 
-### 3. A Avaliação por Pares (*Peer Review*) e a Transição para a Ciência Aberta
+### 2. O Fluxo da Informação Científica: O Modelo Garvey-Griffith
 
-A avaliação por pares é o crivo de controle de qualidade e validação epistemológica da literatura científica:
+Desenvolvido pelos psicólogos e cientistas da informação **William Garvey e Belver Griffith** (1972), o modelo descreve a trajetória temporal que uma ideia científica percorre:
 
-1. **Avaliação Simples-Cega (*Single-Blind Review*):**
-   * O revisor conhece a autoria do artigo, mas o autor desconhece quem são os revisores.
-   * *Crítica:* Pode gerar viés contra autores desconhecidos ou de instituições periféricas.
-2. **Avaliação Duplo-Cega (*Double-Blind Review*):**
-   * Nem o autor sabe a identidade dos pareceristas, nem os pareceristas sabem a identidade do autor (anonimização do manuscrito).
-   * Modelo historicamente mais adotado pelas ciências humanas e sociais aplicadas.
-3. **Avaliação Aberta por Pares (*Open Peer Review*):**
-   * Um dos pilares da **Ciência Aberta**. As identidades de autores e revisores são tornadas públicas, os pareceres críticos podem ser publicados juntamente com o artigo aprovado e, em alguns modelos, a comunidade acadêmica em geral pode comentar e sugerir correções ao texto na Web de forma transparente.`,
+\`\`\`mermaid
+graph TD
+    A[Início da Pesquisa / Ideia] --> B[1. Canais Informais: Conversas, Laboratório, Colégios Invisíveis]
+    B --> C[2. Relatórios de Pesquisa e Preprints em Repositórios Abertos]
+    C --> D[3. Apresentações Orais e Resumos em Congressos / Anais]
+    D --> E[4. Submissão Formal a Periódico Científico e Peer Review]
+    E --> F[5. Publicação do Artigo: Ápice do Canal Formal]
+    F --> G[6. Indexação em Bases, Citações e Revisões de Literatura]
+    G --> H[7. Incorporação em Livros Didáticos e Tratados / Saber Consolidado]
+\`\`\`
+
+1. **Fase Informal (Rápida e Restrita):** Trocas diretas no laboratório, correspondência entre pares e distribuição de cópias preliminares de manuscritos aos membros do grupo.
+2. **Fase Semi-formal:** Comunicação de resultados em mesas-redondas, congressos científicos e anais de eventos (permite receber feedbacks rápidos da comunidade).
+3. **Fase Formal (Lenta e Pública):** Redação do artigo e submissão ao periódico indexado, submissão ao comitê editorial e revisores (*peer review*), editoração, atribuição de DOI e publicação oficial.
+4. **Fase de Consolidação e Memória:** O artigo é indexado em bases referenciais (Scopus, Web of Science, SciELO), recebe citações de outros cientistas, é sintetizado em artigos de revisão (*review articles*) e, finalmente, após anos, entra nos livros didáticos (*textbooks*).
+
+---
+
+### 3. Canais Formais vs. Informais e os Colégios Invisíveis de Solla Price
+
+* **Canais Formais de Comunicação:**
+  * Veículos oficiais de registro da ciência: periódicos científicos arbitrados, livros acadêmicos monográficos, relatórios técnicos oficiais publicados e patentes concedidas.
+  * *Atributos:* Ampla acessibilidade pública universal, estabilidade perene no tempo, rigoroso controle bibliográfico internacional e validação institucionalizada por pareceristas.
+  * O **periódico científico** (cujo nascimento remonta a 1665 com o *Journal des Sçavans* em Paris e a *Philosophical Transactions of the Royal Society* em Londres) é o veículo formal hegemônico do saber científico há mais de 350 anos.
+* **Canais Informais e os Colégios Invisíveis (*Invisible Colleges*):**
+  * Conceito cunhado pelo historiador da ciência **Derek de Solla Price** (*Little Science, Big Science*, 1963):
+  * Descreve as redes informais de cooperação e interlocução ágil mantidas pelos principais pesquisadores situados na vanguarda de determinada especialidade científica.
+  * *Mecanismo Operacional:* Troca contínua de impressões, dados brutos, manuscritos não publicados e comentários críticos por canais diretos (antigamente por cartas e encontros pessoais; hoje por e-mail, redes sociais acadêmicas e aplicativos de mensagens).
+  * *⚠️ Atenção Cebraspe:* A banca adora afirmar que os cientistas dos colégios invisíveis trabalham isolados ou não dialogam entre si. **ERRADO!** Os colégios invisíveis são justamente os canais informais mais intensos, velozes e influentes de cooperação científica internacional.
+
+---
+
+### 4. Modalidades de Avaliação por Pares (*Peer Review*) e a Ciência Aberta
+
+A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qualidade e integridade metodológica que distingue a literatura científica da publicação comum:
+
+| Modalidade de Peer Review | Anonimato do Autor | Anonimato do Revisor | Vantagens Centrais | Críticas e Fragilidades Mapeadas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Simples-Cega (*Single-Blind*)** | Não (o revisor sabe quem é o autor). | Sim (o autor não sabe quem é o revisor). | O revisor expressa críticas com total liberdade sem temer represálias. | Risco de viés discriminatório contra autores iniciantes, mulheres ou de países periféricos. |
+| **Duplo-Cega (*Double-Blind*)** | Sim (o revisor não conhece o autor). | Sim (o autor não conhece o revisor). | **Padrão mais tradicional:** mitiga preconceitos institucionais e foca no mérito do texto. | Em áreas muito especializadas, o revisor frequentemente deduz quem é o autor pelo estilo e citações. |
+| **Triplo-Cega (*Triple-Blind*)** | Sim (inclusive para o editor-chefe). | Sim (para todos). | Elimina o viés do editor na triagem inicial (*desk reject*). | Complexidade administrativa e operacional elevada na gestão editorial. |
+| **Aberta (*Open Peer Review*)** | Não (público para todos). | Não (público para todos). | **Pilar da Ciência Aberta:** transparência total, civilidade, publicação dos pareceres ao lado do artigo e crédito acadêmico aos pareceristas. | Dificuldade em recrutar revisores que se disponham a assinar publicamente pareceres críticos negativos sobre líderes da área. |
+
+---
+
+### 5. Preprints e a Mudança de Paradigma na Circulação da Ciência
+
+* **Conceito Canônico:** Um *preprint* é uma versão completa de um manuscrito científico disponibilizada publicamente em um repositório aberto de preprints (ex.: arXiv para física/matemática, bioRxiv para biologia, SciELO Preprints para América Latina) **ANTES** de passar pela avaliação formal por pares de um periódico.
+* **Benefícios para a Comunidade Científica:**
+  1. *Rapidez e Agilidade:* Elimina o longo tempo de espera da publicação formal (que pode levar de 6 meses a 2 anos), permitindo que descobertas urgentes (ex.: vacinas e pandemias) circulem imediatamente.
+  2. *Garantia de Prioridade Intelectual:* O depósito recebe um carimbo de data (*timestamp*) e um identificador persistente (DOI), assegurando o pioneirismo da descoberta.
+  3. *Aprimoramento Colaborativo:* Permite que a comunidade leia o manuscrito e envie críticas e sugestões ao autor antes da submissão formal definitiva a uma revista científica.`,
   checkpoints: [
     {
       id: 'cp-9-1-1',
@@ -73,12 +112,12 @@ A avaliação por pares é o crivo de controle de qualidade e validação episte
       gabarito: 'C',
       justificativa: 'Correto! Os canais formais garantem o rigor, o controle de qualidade por pares e a preservação duradoura na memória científica mundial.',
     },
-      {
+    {
       id: 'cp-9-1-3',
-      pergunta: "Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith",
-      item: "No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação.",
+      pergunta: 'Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith',
+      item: 'No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação.',
       gabarito: 'E',
-      justificativa: "Errado! Artigos em periódicos científicos com peer review são o exemplo canônico e central de canal FORMAL (público, arquivável e validado pela comunidade). Canais informais englobam cartas, e-mails, pré-prints e conversas orais em congressos.",
+      justificativa: 'Errado! Artigos em periódicos científicos com peer review são o exemplo canônico e central de canal FORMAL (público, arquivável e validado pela comunidade). Canais informais englobam cartas, e-mails, pré-prints e conversas orais em congressos.',
     },
   ],
   mnemonicos: {
@@ -87,30 +126,37 @@ A avaliação por pares é o crivo de controle de qualidade e validação episte
         id: 'tl-9-1-1',
         periodo: '1665',
         disciplina: 'Nascimento dos Periódicos',
-        focoPrincipal: 'Surgimento do Journal des Sçavans e da Philosophical Transactions na Europa',
+        focoPrincipal: 'Surgimento do Journal des Sçavans (França) e da Philosophical Transactions (Inglaterra)',
         figuraChave: 'Royal Society e Denis de Sallo',
       },
       {
         id: 'tl-9-1-2',
+        periodo: '1942',
+        disciplina: 'Sociologia da Ciência',
+        focoPrincipal: 'Robert K. Merton formula as 4 normas do Ethos Científico (CUDOS)',
+        figuraChave: 'Robert K. Merton',
+      },
+      {
+        id: 'tl-9-1-3',
         periodo: '1963',
         disciplina: 'Cientometria e Redes',
         focoPrincipal: 'Publicação de "Little Science, Big Science" e conceituação dos Colégios Invisíveis',
         figuraChave: 'Derek de Solla Price',
       },
       {
-        id: 'tl-9-1-3',
-        periodo: '1974 / 1998',
+        id: 'tl-9-1-4',
+        periodo: '1972 / 1999',
         disciplina: 'Comunicação Científica',
-        focoPrincipal: 'Sistematização do ciclo da comunicação científica e impacto da editoração eletrônica',
-        figuraChave: 'A. J. Meadows',
+        focoPrincipal: 'Modelo Garvey-Griffith e publicação de "A Comunicação Científica" por A. J. Meadows',
+        figuraChave: 'William Garvey e A. J. Meadows',
       },
     ],
     autores: [
       {
         id: 'aut-9-1-1',
         nome: 'A. J. Meadows',
-        ano: 1998,
-        obraPrincipal: 'The Scientific Journal / A Comunicação Científica',
+        ano: 1999,
+        obraPrincipal: 'A Comunicação Científica / The Scientific Journal',
         ideiaChave: 'O ciclo da comunicação formal e informal na ciência e a sociologia da publicação acadêmica.',
         chipPegadinha: 'A pesquisa não termina no laboratório; só existe se for comunicada formalmente.',
       },
@@ -121,6 +167,14 @@ A avaliação por pares é o crivo de controle de qualidade e validação episte
         obraPrincipal: 'Little Science, Big Science',
         ideiaChave: 'Pai da Cientometria; conceito de Colégios Invisíveis e crescimento exponencial da ciência.',
         chipPegadinha: 'Colégios Invisíveis são redes informais de cientistas em comunicação ativa e ágil.',
+      },
+      {
+        id: 'aut-9-1-3',
+        nome: 'Robert K. Merton',
+        ano: 1942,
+        obraPrincipal: 'A Estrutura Normativa da Ciência',
+        ideiaChave: 'As 4 normas mertonianas (CUDOS): Comunalismo, Universalismo, Desinteresse e Ceticismo Organizado.',
+        chipPegadinha: 'Comunalismo mertoniano prega que a ciência é patrimônio público de todos, não propriedade privada.',
       },
     ],
     pegadinhas: [
@@ -135,6 +189,12 @@ A avaliação por pares é o crivo de controle de qualidade e validação episte
         afirmacao: 'Informações científicas preliminares divulgadas em palestras, comunicações orais e correspondências eletrônicas constituem canais formais da comunicação científica.',
         gabarito: 'E',
         porQue: 'Palestras, conversas e correspondências são canais INFORMAIS. Canais formais são os registros publicados de forma perene com revisão editorial.',
+      },
+      {
+        id: 'peg-9-1-3',
+        afirmacao: 'Um preprint publicado em servidor aberto de preprints equivale formalmente a um artigo científico com validação de peer review concluída.',
+        gabarito: 'E',
+        porQue: 'O preprint é disponibilizado exatamente ANTES da avaliação formal por pares; ele atesta a prioridade da ideia, mas ainda carece de validação pelos pareceristas de uma revista.',
       },
     ],
   },

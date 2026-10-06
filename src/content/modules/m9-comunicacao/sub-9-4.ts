@@ -4,74 +4,178 @@ export const submodulo94: ModuloFilho = {
   id: 'sub-9-4',
   numero: '9.4',
   titulo: 'Estudos Métricos da Informação: Leis Bibliométricas, Fator de Impacto e Índice h',
-  descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria e Informetria, as três leis clássicas (Bradford - dispersão de periódicos; Lotka - quadrado inverso de autores; Zipf - menor esforço de palavras), Fator de Impacto (JCR/Garfield) e o Índice h de Hirsch.',
-  tempoEstimadoMinutos: 40,
-  autoresChave: ['Samuel C. Bradford', 'Alfred J. Lotka', 'George K. Zipf', 'Eugene Garfield', 'Jorge E. Hirsch', 'Alan Pritchard'],
+  descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore), Índice h de Hirsch, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.',
+  tempoEstimadoMinutos: 45,
+  autoresChave: ['Samuel C. Bradford', 'Alfred J. Lotka', 'George K. Zipf', 'Eugene Garfield', 'Jorge E. Hirsch', 'Alan Pritchard', 'Derek de Solla Price'],
   alertasCebraspe: [
-    'As Três Leis Bibliométricas e suas associações inegociáveis: 1. Lei de Bradford = PRODUTIVIDADE E DISPERSÃO DE PERIÓDICOS (núcleo e zonas 1:n:n²); 2. Lei de Lotka = PRODUTIVIDADE DE AUTORES (regra do quadrado inverso 1/n²); 3. Lei de Zipf = FREQUÊNCIA E OCORRÊNCIA DE PALAVRAS EM TEXTOS (menor esforço, r x f = C). O Cebraspe adora trocar qual autor mede o quê!',
+    'As Três Leis Bibliométricas e suas associações inegociáveis: 1. Lei de Bradford = PRODUTIVIDADE E DISPERSÃO DE PERIÓDICOS (núcleo e zonas 1 : n : n²); 2. Lei de Lotka = PRODUTIVIDADE DE AUTORES (regra do quadrado inverso 1/n²); 3. Lei de Zipf = FREQUÊNCIA E OCORRÊNCIA DE PALAVRAS EM TEXTOS (menor esforço, r x f = C). O Cebraspe adora trocar qual autor mede o quê!',
     'Fator de Impacto (Eugene Garfield - JCR / Web of Science): calcula a média de citações recebidas no ano corrente por artigos publicados por um periódico nos dois anos anteriores. O denominador do cálculo considera apenas "artigos citáveis" (pesquisas originais e revisões), e NÃO todos os tipos de documentos (cartas e editoriais são excluídos do denominador).',
-    'Índice h (Jorge Hirsch, 2005): um pesquisador tem índice h se h de seus trabalhos têm pelo menos h citações cada um. Limitação cobrada em prova (UNEAL 2026): o índice h NÃO é uma métrica universal justa para comparar cientistas em diferentes estágios de carreira nem pesquisadores de áreas distintas com dinâmicas de citação desiguais.',
+    'Índice h (Jorge Hirsch, 2005): um pesquisador tem índice h se h de seus trabalhos têm pelo menos h citações cada um. Limitação cobrada em prova (UNEAL 2026 e Cebraspe): o índice h NÃO é uma métrica justa para comparar cientistas em diferentes estágios de carreira nem pesquisadores de áreas distintas com dinâmicas de citação desiguais.',
     'Diferenciação conceitual da área métrica: Bibliometria (documentos impressos e publicações); Cientometria (ciência como atividade sociopolítica macro); Informetria (qualquer informação em qualquer suporte e canal, inclusive informal); Altmetria (métricas alternativas de impacto na Web social: downloads, tweets, menções).',
+    'Declaração DORA (2012) e Manifesto de Leiden (2015): documentos canônicos internacionais que condenam enfaticamente o uso do Fator de Impacto do periódico como substituto da avaliação da qualidade do pesquisador individual ou de artigos específicos.',
+    'Vias do Acesso Aberto: a Via Diamante (ou Platina) não cobra taxas de ninguém (nem leitores nem autores via APC), sendo subsidiada por instituições públicas/acadêmicas; a Via Verde é o autoarquivamento em repositórios; e a Via Dourada publica em revistas abertas com ou sem APC.',
   ],
   quadroComparativo: {
-    titulo: 'As Três Leis Bibliométricas Fundamentais e suas Aplicações em Bibliotecas',
-    colunas: ['Lei Bibliométrica', 'Objeto de Mensuração', 'Fórmula / Proporção Matemática', 'Aplicação Prática em Bibliotecas e Concursos'],
+    titulo: 'As Três Leis Bibliométricas Clássicas e Aplicações Estratégicas em Bibliotecas',
+    colunas: ['Lei Bibliométrica', 'Objeto de Mensuração', 'Fórmula / Proporção Matemática', 'Aplicação Prática no Parlamento e em Concursos'],
     linhas: [
-      ['Lei de Bradford (1934)', 'Periódicos científicos e dispersão de artigos sobre um assunto', 'Núcleo e zonas sucessivas na proporção $1 : n : n^2$', 'Seleção e renovação de assinaturas de revistas: identifica o núcleo de periódicos essenciais'],
-      ['Lei de Lotka (1926)', 'Produtividade científica de autores/pesquisadores', 'Regra do quadrado inverso: $1/n^2$ (poucos produzem muito)', 'Identificação de pesquisadores líderes e avaliação de programas de pós-graduação'],
+      ['Lei de Bradford (1934)', 'Periódicos científicos e dispersão de artigos sobre um assunto', 'Núcleo e zonas sucessivas na proporção $1 : n : n^2$', 'Seleção, aquisição racional e desbaste de coleções: identifica o núcleo de periódicos essenciais'],
+      ['Lei de Lotka (1926)', 'Produtividade científica de autores/pesquisadores', 'Regra do quadrado inverso: $A_n = A_1 / n^2$', 'Identificação de pesquisadores líderes e avaliação de programas de pós-graduação'],
       ['Lei de Zipf (1949)', 'Frequência de ocorrência de palavras em textos', 'Produto constante do ranking pela frequência: $r \\times f = C$', 'Indexação automática e mineração de textos: identificação da zona de palavras com valor semântico'],
     ],
   },
   teoriaDensaMarkdown: `### 1. As Disciplinas Métricas da Informação
 
-O termo **Bibliometria** foi cunhado formalmente por **Paul Otlet** em 1934 em seu *Traité de Documentation* e popularizado no mundo anglo-saxão por **Alan Pritchard** em 1969. A área expandiu-se em quatro ramificações complementares:
+O campo dos estudos métricos desenvolveu-se historicamente para quantificar a produção, a circulação e o uso da informação registrada, ramificando-se em quatro subdisciplinas com fronteiras epistemológicas bem definidas pela literatura e cobradas pelo Cebraspe:
 
-* **Bibliometria:** Aplicação de métodos matemáticos e estatísticos a livros, periódicos, artigos e outros suportes documentais registrados.
-* **Cientometria (*Scientometrics*):** Proposta por Vasily Nalimov e Derek de Solla Price; estuda os aspectos quantitativos da ciência como instituição social, apoiando governos na formulação de **políticas científicas e tecnológicas**.
-* **Informetria (*Informetrics*):** Proposta por Otto Nacke em 1979; possui escopo mais abrangente, medindo o fluxo da informação em qualquer forma, suporte e contexto comunicativo (formal ou informal).
-* **Altmetria (*Altmetrics*):** Conjunto de métricas alternativas que mensuram a atenção, compartilhamento e engajamento online de produtos científicos em mídias sociais (Twitter/X, Mendeley, blogs, Wikipédia, menções jornalísticas), complementando as citações tradicionais.
+\`\`\`mermaid
+flowchart TD
+    INF["INFORMETRIA (Otto Nacke, 1979)<br/>Mensuração de qualquer informação em qualquer suporte e fluxo (formal e informal)"]
+    INF --> SCI["CIENTOMETRIA (Vasily Nalimov & Solla Price, 1969)<br/>Estudo quantitativo da ciência como atividade social e políticas públicas (Science Policy)"]
+    INF --> BIB["BIBLIOMETRIA (Paul Otlet, 1934 / Alan Pritchard, 1969)<br/>Estudo estatístico e matemático de livros, periódicos, artigos e documentos registrados"]
+    BIB --> WEB["WEBOMETRIA / CIBERMETRIA (Almind & Ingwersen, 1997)<br/>Estrutura de links, hiperlinks e nós na World Wide Web"]
+    BIB --> ALT["ALTMETRIA (Jason Priem et al., 2010)<br/>Métricas alternativas de atenção social em tempo real (redes sociais, blogs, Wikipédia, políticas públicas)"]
+\`\`\`
+
+* **Bibliometria:** Termo cunhado por **Paul Otlet** em 1934 (*Traité de Documentation*) e consolidado no ocidente por **Alan Pritchard** em 1969 (*Statistical bibliography or bibliometrics?*). Aplica técnicas estatísticas e matemáticas a livros, artigos, periódicos e suportes físicos/digitais registrados.
+* **Cientometria (*Scientometrics*):** Proposta pelo matemático russo **Vasily Nalimov** e disseminada pelo historiador da ciência **Derek de Solla Price**. Trata dos aspectos quantitativos da ciência como instituição social e processo econômico, servindo de subsídio direto para governos na elaboração de **políticas públicas científicas e tecnológicas (*Science Policy*)**.
+* **Informetria (*Informetrics*):** Proposta pelo alemão **Otto Nacke** em 1979 e desenvolvida por Egghe e Rousseau. É o ramo mais abrangente de todos, pois investiga o fluxo e as propriedades matemáticas da informação em **qualquer forma, canal, suporte e contexto comunicativo**, abrangendo tanto os registros formais quanto a comunicação informal humana.
+* **Altmetria (*Altmetrics*):** Movimento iniciado em 2010 pelo manifesto de **Jason Priem, Dario Taraborelli, Paul Groth e Cameron Neylon**. Mensura a atenção, o engajamento e a circulação social de produtos de pesquisa na Web social (Twitter/X, Facebook, Mendeley, Zotero, blogs científicos, Wikipédia, notícias jornalísticas e documentos governamentais de políticas públicas).
+  * *Atenção Cebraspe:* A altmetria não substitui a contagem de citações acadêmicas tradicionais; ela atua como **métrica complementar**, capturando o impacto sociocultural imediato da pesquisa antes que as citações formais se acumulem (o que leva de 2 a 5 anos).
 
 ---
 
-### 2. As Três Leis Clássicas da Bibliometria
+### 2. As Três Leis Fundamentais da Bibliometria
 
-#### A. Lei de Bradford (1934) — Dispersão de Periódicos
-Samuel Clement Bradford estudou a distribuição de artigos sobre geofísica e lubrificação em revistas científicas:
-* Se os periódicos de um domínio forem listados em ordem decrescente do número de artigos que publicam sobre o assunto, eles se distribuem em um **núcleo (*core*) de revistas altamente especializadas** e zonas sucessivas contendo o mesmo número total de artigos que o núcleo.
-* O número de periódicos nas zonas cresce em **progressão geométrica**:
-  $$1 : n : n^2 : n^3 ...$$
-* *Aplicação na Câmara dos Deputados:* Permite ao bibliotecário adquirir apenas o "núcleo de Bradford" de revistas de Direito Constitucional, garantindo a cobertura da maior parte dos artigos de ponta com o menor custo orçamentário.
+#### A. Lei de Bradford (1934) — Dispersão e Produtividade de Periódicos
+Samuel Clement Bradford estudou a distribuição de artigos sobre tópicos específicos (como geofísica aplicada e lubrificação) em milhares de revistas:
+* **Enunciado Teórico:** Se periódicos científicos forem ordenados em ordem decrescente de sua produtividade de artigos sobre determinado assunto, eles podem ser divididos em um **núcleo (*core*)** de periódicos altamente dedicados ao tema e várias **zonas sucessivas**, contendo cada zona o **mesmo número total de artigos** que o núcleo.
+* **Proporção Geométrica de Bradford:** O número de títulos de periódicos no núcleo e nas zonas subsequentes cresce em progressão geométrica:
+  $$1 : n : n^2 : n^3 \\dots$$
+  Onde $1$ representa a quantidade de revistas no núcleo central, e $n$ é o multiplicador constante de Bradford.
+
+\`\`\`mermaid
+flowchart TD
+    subgraph Bradford["Lei de Bradford: Mesma quantidade de artigos por zona"]
+        Z1["Núcleo (Core): Poucas revistas especializadas (Ex: 5 revistas = 100 artigos)"]
+        Z2["Zona 2: Número intermediário de revistas (Ex: 5 x n = 25 revistas = 100 artigos)"]
+        Z3["Zona 3: Enorme dispersão de revistas gerais (Ex: 5 x n² = 125 revistas = 100 artigos)"]
+    end
+\`\`\`
+
+* *Aplicação Prática no Parlamento e em Bibliotecas:* A Lei de Bradford fundamenta a **política de seleção, aquisição racional e desbaste/cancelamento de assinaturas**. Um bibliotecário da Câmara dos Deputados adquire apenas as revistas do núcleo de Direito Constitucional, assegurando o acesso à grande maioria dos artigos essenciais ao menor custo financeiro.
+* *Curva de Bradford e Groos Droop:* Em representação gráfica semilogarítmica, a curva forma um formato de "S" (*S-shape*). O desvio final para baixo no gráfico é conhecido na literatura como o **"desvio de Groos" (*Groos droop*)**, decorrente do fato de que a dispersão nas zonas periféricas é tão vasta que é praticamente impossível capturar exaustivamente todos os periódicos que publicam apenas um artigo isolado.
 
 #### B. Lei de Lotka (1926) — Produtividade de Autores
-Alfred J. Lotka formulou a **Lei do Quadrado Inverso**:
-* O número de autores que publicam $n$ artigos em um determinado campo é inversamente proporcional a $n^2$:
+Alfred J. Lotka investigou a distribuição de publicações na área da física e da química no século XIX:
+* **Enunciado Teórico (Regra do Quadrado Inverso):** O número de autores que publicam $n$ artigos em um determinado campo do saber é inversamente proporcional a $n^2$:
   $$A_n = \\frac{A_1}{n^2}$$
-* *Consequência empírica:* Cerca de **60% dos autores publicam apenas um único trabalho** ao longo da vida; uma minoria elitizada (em torno de 5% a 10%) é responsável pela produção da grande maioria dos artigos da disciplina.
+  Onde $A_n$ é o número de autores que publicam $n$ artigos, e $A_1$ é o número de autores que publicam apenas 1 artigo.
+* **Consequência Empírica:**
+  * Aproximadamente **60% dos autores produzem um único artigo** em toda a sua trajetória científica ($A_1 \\approx 0{,}60$ do total);
+  * O número de autores que publicam 2 artigos é de cerca de $1/4$ ($25%$) de $A_1$;
+  * Apenas uma pequena fração de cientistas de elite (em torno de 5% a 6%) é hiperprodutiva e responde pela vasta maioria da literatura científica da disciplina.
 
-#### C. Lei de Zipf (1949) — O Menor Esforço da Linguagem
-O linguista George Kingsley Zipf analisou textos em linguagem natural e constatou que os humanos tendem a usar o menor esforço verbal possível:
-* Se as palavras de um texto longo forem ordenadas por frequência decrescente, o produto de sua ordem no ranking ($r$) pela sua frequência ($f$) é constante:
+#### C. Lei de Zipf (1949) — Princípio do Menor Esforço e Frequência de Palavras
+O linguista norte-americano George Kingsley Zipf analisou obras em linguagem natural (como o romance *Ulysses* de James Joyce):
+* **Primeira Lei de Zipf (Lei do Menor Esforço):** Se as palavras distintas de um texto longo forem ordenadas em ordem decrescente de sua frequência absoluta ($f$), o produto da ordem no ranking ($r$) pela frequência ($f$) é aproximadamente constante ($C$):
   $$r \\times f = C$$
-* **Ponto de Transição de Goffman (Zona de Indexação):**
-  * Palavras no topo do ranking têm frequência altíssima, mas valor informativo nulo (*stop words*: de, a, o, em, que);
-  * Palavras na base do ranking aparecem apenas uma vez (*hapax legomena*), sendo termos acidentais;
-  * Os melhores termos para **indexação e representação do assunto** situam-se na **faixa intermediária de frequência**.
+* **Ponto de Transição de Goffman e Zona de Indexação (H. P. Luhn e F. W. Lancaster):**
+
+\`\`\`mermaid
+flowchart TD
+    subgraph Zipf["Distribuição de Palavras em Textos Longos (Zipf)"]
+        ZTopo["ALTA FREQUÊNCIA (Topo): Palavras gramaticais / Stop words<br/>('de', 'a', 'em', 'que', 'o') -> VALOR SEMÂNTICO NULO"]
+        ZMeio["FREQUÊNCIA INTERMEDIÁRIA (Zona de Luhn / Transição de Goffman)<br/>Palavras conceituais e temáticas relevantes -> ZONA IDEAL PARA INDEXAÇÃO"]
+        ZBase["BAIXA FREQUÊNCIA (Base): Palavras raras / Ocorrência única<br/>('Hapax legomena') -> RUÍDO OU ESPECIFICIDADE EXCESSIVA"]
+    end
+\`\`\`
+
+* *Aplicação na Indexação Automática:* Sistemas de busca e representação temática descartam automaticamente o topo (*stop words*) e a base (*hapax legomena*), extraindo os descritores e termos autorizados preferencialmente da **faixa intermediária de frequência**.
 
 ---
 
-### 3. Indicadores de Impacto e Prestígio Científico
+### 3. Indicadores de Citação e Avaliação Científica
 
-#### A. Fator de Impacto (*Impact Factor - IF*) de Eugene Garfield
-Criado no âmbito do *Institute for Scientific Information* (ISI) e publicado anualmente no **Journal Citation Reports (JCR / Web of Science)**:
-$$\\text{Fator de Impacto (Ano X)} = \\frac{\\text{Citações recebidas no Ano X a artigos publicados nos Anos (X-1) e (X-2)}}{\\text{Total de artigos citáveis publicados nos Anos (X-1) e (X-2)}}$$
-* *Atenção Cebraspe:* Mede o impacto do **periódico**, e não de um pesquisador isolado. O denominador inclui apenas artigos citáveis (exclui notas editoriais e cartas).
+#### A. Fator de Impacto (*Journal Impact Factor - JIF*) de Eugene Garfield
+Calculado anualmente pelo **Journal Citation Reports (JCR)** no âmbito da Web of Science (Clarivate Analytics):
+$$\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\text{ por itens publicados nos Anos } (A-1) \\text{ e } (A-2)}{\\text{Número total de itens citáveis publicados nos Anos } (A-1) \\text{ e } (A-2)}$$
 
-#### B. O Índice h de Jorge Hirsch (2005)
-Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso acervo em \`Comunicação científica, Ciência Aberta e métricas/hirsch-2005...\`):
-* **Definição Canônica:** Um pesquisador tem índice $h$ se $h$ de seus $N$ trabalhos tiverem pelo menos $h$ citações cada um, e os outros $(N - h)$ trabalhos tiverem $\\le h$ citações cada um.
-* *Exemplo:* Um autor com índice $h = 25$ possui 25 artigos que receberam no mínimo 25 citações cada um.
-* **Vantagens:** Não é distorcido por um único artigo amplamente citado nem pela publicação massiva de artigos medíocres nunca citados.
-* **Limitações:** Prejudica jovens pesquisadores e favorece cientistas sêniores (pois citações acumulam com os anos); varia enormemente entre áreas do saber (medicina e física têm índices $h$ muito superiores à matemática e às ciências sociais).`,
+* **Pegadinha Crucial Cebraspe sobre os "Itens Citáveis":**
+  * O denominador computa apenas **artigos originais de pesquisa e artigos de revisão** (*citable items*);
+  * Cartas ao editor, notas, resenhas de livros, erratas e editoriais **são excluídos do denominador**;
+  * No entanto, se um editorial ou carta receber citações de outros trabalhos, essas citações entram normalmente no **numerador**! Essa assimetria histórica permite distorções e manipulações artificiais do FI por comitês editoriais.
+* **Índice de Imediatismo (*Immediacy Index*):** Mede a velocidade com que os artigos de uma revista são citados logo após serem publicados. Divide as citações recebidas no próprio ano $A$ pelos artigos publicados no mesmo ano $A$.
+
+#### B. Métricas do Ecossistema Scopus (Elsevier)
+* **CiteScore:** Métrica da base Scopus que utiliza uma **janela de citação de 4 anos** (em vez de 2 anos como o JCR).
+* **SCImago Journal Rank (SJR):** Desenvolvido pelo grupo SCImago (Félix de Moya-Anegón) na Universidade de Granada com base no algoritmo *PageRank* do Google. Atribui pesos diferentes às citações recebidas: **uma citação vinda de uma revista de altíssimo prestígio (ex.: *Nature*) vale muito mais** do que uma citação oriunda de um periódico periférico.
+* **SNIP (*Source Normalized Impact per Paper*):** Criado por Henk Moed (Universidade de Leiden); corrige e normaliza as variações nas práticas de citação entre diferentes campos do conhecimento, permitindo a comparação direta de revistas de áreas distintas.
+
+#### C. O Índice h de Jorge Hirsch (2005)
+Formulado pelo físico argentino Jorge E. Hirsch para mensurar a produtividade e o impacto acumulado de um pesquisador individual:
+* **Definição Canônica:** Um cientista tem índice $h$ se $h$ de seus $N$ artigos publicados receberam pelo menos $h$ citações cada um, e os demais $(N - h)$ artigos receberam no máximo $h$ citações cada um.
+* **Exemplo Prático de Ordenação para Provas:**
+  Organizam-se os artigos em ordem decrescente de citações:
+  * Artigo 1: 52 citações $\\ge 1$
+  * Artigo 2: 38 citações $\\ge 2$
+  * Artigo 3: 20 citações $\\ge 3$
+  * Artigo 4: 15 citações $\\ge 4$
+  * Artigo 5: 8 citações $\\ge 5$
+  * Artigo 6: 6 citações $\\ge 6$
+  * Artigo 7: 4 citações $< 7$ (Interrupção!)
+  * *Resultado:* O autor possui **índice h = 6** (possui 6 artigos com pelo menos 6 citações).
+
+\`\`\`mermaid
+flowchart LR
+    A["Vantagens do Índice h:<br/>• Combina volume e impacto<br/>• Insensível a 'outliers' isolados<br/>• Fácil de calcular"]
+    B["Limitações do Índice h (Cebraspe):<br/>• Favorece carreiras longevas (senilidade)<br/>• Desfavorece jovens doutores<br/>• Não comparável entre áreas distintas<br/>• Monotônico (nunca diminui)"]
+\`\`\`
+
+* **Limitações Cobradas em Provas (UNEAL 2026 e Cebraspe):**
+  1. *Incomparabilidade Interdisciplinar:* Áreas como imunologia e física têm taxas massivas de citação, gerando índices $h$ altíssimos; áreas como matemática, história e ciências sociais possuem taxas lentas de citação, gerando índices $h$ baixos sem que isso signifique menor qualidade.
+  2. *Vieses de Tempo de Carreira:* Um cientista sênior aposentado continuará acumulando citações e terá índice $h$ sempre superior a um jovem pesquisador brilhante em início de carreira.
+  3. *Ignora a Ordem de Autoria:* Trata com o mesmo peso o autor principal e o 50º coautor de um artigo biomédico massivo.
+  4. *Índice g de Leo Egghe (2006):* Criado como alternativa ao índice $h$ para dar mais peso aos artigos do autor que se tornaram "supercitados" (*citation classics*).
+
+---
+
+### 4. Sistemas Institucionais de Avaliação: Qualis-CAPES, DORA e Leiden
+
+#### A. O Sistema Qualis-Periódicos da CAPES
+O **Qualis** é o sistema oficial mantido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para categorizar os periódicos científicos utilizados pelos programas de pós-graduação brasileiros:
+* **Novo Qualis de Referência (Quadriênio 2017-2020 em diante):**
+  * Elimina a antiga fragmentação em que a mesma revista tinha notas diferentes em diferentes comitês de área;
+  * Classificação única nacional em **8 estratos hierárquicos**:
+    $$\text{A1} > \text{A2} > \text{A3} > \text{A4} > \text{B1} > \text{B2} > \text{B3} > \text{B4}$$
+  * Periódicos não enquadráveis, sem rigor científico ou predatórios são classificados no estrato **C** (peso zero para fins de fomento).
+
+#### B. A Declaração DORA (San Francisco Declaration on Research Assessment, 2012)
+Assinada por cientistas e editores durante o encontro da Sociedade Americana de Biologia Celular:
+* **Princípio Fundamental:** O **Fator de Impacto de um periódico NÃO deve ser utilizado** como substituto da qualidade de um artigo de pesquisa individual, nem para avaliar contribuições de cientistas individuais para contratação, estabilidade acadêmica ou financiamento de projetos.
+* Defende que a pesquisa seja avaliada por seus próprios méritos intelectuais e científicos, reconhecendo que artigos de excelência são publicados em revistas de menor fator de impacto.
+
+#### C. O Manifesto de Leiden (Hicks, Wouters et al., 2015)
+Conjunto de dez princípios canônicos para orientar o uso responsável de indicadores métricos na avaliação da pesquisa científica:
+1. *A avaliação quantitativa deve apoiar, e nunca substituir, o julgamento qualitativo de especialistas (*peer review*)*;
+2. *Medir o desempenho de acordo com a missão da instituição ou do pesquisador*;
+3. *Proteger a excelência na pesquisa relevante localmente (em idiomas locais e contextos regionais)*;
+4. *Manter processos de coleta e cálculo de dados totalmente abertos e transparentes*;
+5. *Permitir que os pesquisadores avaliados verifiquem seus próprios dados e cálculos*;
+6. *Considerar as diferenças sistemáticas entre áreas do conhecimento nas práticas de publicação e citação*;
+7. *Basear a avaliação de cientistas individuais em um julgamento qualitativo de seu portfólio, e não em um número métrico único*;
+8. *Evitar precisão ilusória e falsas certezas geradas por rankings lineares*;
+9. *Reconhecer e mitigar os efeitos sistêmicos e as perversões causadas pelos próprios indicadores*;
+10. *Escrutinar e atualizar os indicadores periodicamente*.
+
+---
+
+### 5. Revisão das Vias do Acesso Aberto (Open Access)
+
+Conectando-se ao compromisso de universalização do conhecimento:
+* **Via Dourada (*Gold Open Access*):** Publicação em revistas de acesso aberto imediato. Pode ser financiada por taxas de processamento de artigos (**APC - *Article Processing Charges***) pagas pelo autor ou instituição, ou gratuita.
+* **Via Verde (*Green Open Access*):** Autoarquivamento (*self-archiving*) pelo próprio pesquisador de versões pré-print (antes da revisão) ou pós-print (artigo aceito após revisão) em **repositórios institucionais ou temáticos abertos**, respeitando eventuais períodos de embargo editorial.
+* **Via Diamante ou Platina (*Diamond / Platinum Open Access*):** Publicação em periódicos totalmente abertos que **NÃO cobram taxas de ninguém** — nem dos leitores (acesso 100% gratuito) nem dos autores (sem cobrança de APC). É o modelo amplamente sustentado no Brasil e na América Latina por universidades públicas, sociedades científicas e pelo ecossistema **SciELO**.`,
   checkpoints: [
     {
       id: 'cp-9-4-1',
@@ -87,9 +191,9 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
       gabarito: 'C',
       justificativa: 'Correto! O índice h sintetiza volume de produção com relevância/citação acumulada.',
     },
-      {
+    {
       id: 'cp-9-4-3',
-      pergunta: "Micro-Checkpoint 3: Vias Dourada, Verde e Diamante do Acesso Aberto",
+      pergunta: 'Micro-Checkpoint 3: Vias Dourada, Verde e Diamante do Acesso Aberto',
       item: "Na tipologia do Acesso Aberto, a 'Via Verde' designa a publicação original em periódico que não cobra taxas de processamento de artigos (APC) nem do leitor nem do autor.",
       gabarito: 'E',
       justificativa: "Errado! A via que não cobra taxas de ninguém é a 'Via Diamante' (ou Platina). A 'Via Verde' consiste no autoarquivamento de pré-prints ou pós-prints pelo próprio autor em repositórios institucionais abertos.",
@@ -120,10 +224,17 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
       },
       {
         id: 'tl-9-4-4',
-        periodo: '1963 / 2005',
-        disciplina: 'Fator de Impacto e Índice h',
-        focoPrincipal: 'Criação do Fator de Impacto por Eugene Garfield e formulação do Índice h por Jorge Hirsch',
-        figuraChave: 'Eugene Garfield e Jorge E. Hirsch',
+        periodo: '1963 / 1975',
+        disciplina: 'Fator de Impacto e JCR',
+        focoPrincipal: 'Criação do Fator de Impacto por Eugene Garfield no Science Citation Index / ISI',
+        figuraChave: 'Eugene Garfield',
+      },
+      {
+        id: 'tl-9-4-5',
+        periodo: '2005 / 2012',
+        disciplina: 'Índice h e Movimento DORA',
+        focoPrincipal: 'Formulação do Índice h por Jorge Hirsch e Declaração DORA de avaliação responsável',
+        figuraChave: 'Jorge E. Hirsch / Declaração DORA',
       },
     ],
     autores: [
@@ -132,7 +243,7 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
         nome: 'Samuel C. Bradford',
         ano: 1934,
         obraPrincipal: 'Sources of information on specific subjects',
-        ideiaChave: 'Dispersão de periódicos: núcleo (core) e zonas geométricas 1:n:n².',
+        ideiaChave: 'Dispersão de periódicos: núcleo (core) e zonas geométricas 1 : n : n².',
         chipPegadinha: 'Bradford trata de periódicos e artigos, NÃO de autores ou palavras.',
       },
       {
@@ -140,11 +251,19 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
         nome: 'Alfred J. Lotka',
         ano: 1926,
         obraPrincipal: 'The frequency distribution of scientific productivity',
-        ideiaChave: 'Produtividade de autores: regra do quadrado inverso 1/n².',
+        ideiaChave: 'Produtividade de autores: regra do quadrado inverso An = A1 / n².',
         chipPegadinha: 'Lotka mede autoria individual e produção acumulada de cientistas.',
       },
       {
         id: 'aut-9-4-3',
+        nome: 'George Kingsley Zipf',
+        ano: 1949,
+        obraPrincipal: 'Human Behavior and the Principle of Least Effort',
+        ideiaChave: 'Frequência de palavras: produto ranking x frequência é constante (r x f = C).',
+        chipPegadinha: 'Palavras de altíssima frequência (stop words) não servem para indexação.',
+      },
+      {
+        id: 'aut-9-4-4',
         nome: 'Jorge E. Hirsch',
         ano: 2005,
         obraPrincipal: 'An index to quantify an individual\'s scientific research output',
@@ -164,6 +283,18 @@ Publicado pelo físico Jorge Hirsch no PNAS (artigo clássico presente em nosso 
         afirmacao: 'Na lei de Zipf, as palavras que apresentam maior frequência de ocorrência em um texto longo são exatamente aquelas que possuem maior especificidade e relevância para a indexação de assuntos.',
         gabarito: 'E',
         porQue: 'Palavras de altíssima frequência são preposições, artigos e conjunções (stop words sem valor substantivo). As palavras ideais de indexação estão na zona intermediária de frequência.',
+      },
+      {
+        id: 'peg-9-4-3',
+        afirmacao: 'O índice h é uma métrica recomendada pela Declaração DORA para a comparação direta e irrestrita entre cientistas de diferentes áreas do conhecimento, tais como medicina e matemática pura.',
+        gabarito: 'E',
+        porQue: 'A Declaração DORA condena comparações simplistas por métricas numéricas isoladas, e o índice h varia radicalmente pelas tradições de citação díspares de cada campo.',
+      },
+      {
+        id: 'peg-9-4-4',
+        afirmacao: 'A via que viabiliza o Acesso Aberto sem custos nem para o leitor (gratuito) nem para o autor (sem cobrança de APC) é denominada pela literatura de Via Dourada.',
+        gabarito: 'E',
+        porQue: 'A via sem cobrança de taxas nem do autor nem do leitor é a VIA DIAMANTE (ou Platina). A Via Dourada pode cobrar ou não APC.',
       },
     ],
   },

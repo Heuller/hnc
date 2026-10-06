@@ -23,54 +23,109 @@ export const submodulo14: ModuloFilho = {
       ['Proibições Éticas', 'Código de Ética do CFB (Art. 4º)', 'Assinar laudos ou fichas catalográficas elaboradas por terceiros leigos; reter documentos', 'Advertência, Censura, Multa, Suspensão e Cassação'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. O Marco Legal da Profissão no Brasil
+  teoriaDensaMarkdown: `### 1. O Marco Regulatório Federal da Profissão de Bibliotecário
+O exercício profissional da Biblioteconomia no Brasil possui estatura legal pública federal, sendo regulado por diplomas normativos específicos cuja literalidade e jurisprudência são intensamente cobradas pelo **CEBRASPE**:
 
-O exercício da profissão de bibliotecário no território nacional é rigorosamente regulado por diplomas legais federais:
-
-* **Lei Federal nº 4.084, de 30 de junho de 1962:**
-  * Dispõe sobre a profissão de bibliotecário e regula o seu exercício.
-  * O exercício da profissão em qualquer de seus ramos é privativo dos bacharéis em Biblioteconomia por escolas oficiais ou reconhecidas, portadores de carteira de identidade profissional expedida pelo respectivo Conselho Regional de Biblioteconomia (CRB).
-* **Decreto nº 56.725, de 16 de agosto de 1965:**
-  * Regulamenta a Lei 4.084/62 e detalha a estrutura dos órgãos fiscalizadores.
-* **Estrutura CFB / CRB:**
-  * **CFB (Conselho Federal de Biblioteconomia):** Órgão superior com sede em Brasília, responsável por normatizar, julgar em grau de recurso, expedir resoluções e aprovar o Código de Ética.
-  * **CRBs (Conselhos Regionais de Biblioteconomia):** Autarquias fiscalizadoras nos âmbitos regionais estaduais/distritais, responsáveis pelo registro, fiscalização e aplicação inicial de sanções.
+\`\`\`mermaid
+graph TD
+    L4084["LEI FEDERAL Nº 4.084/1962<br>Dispõe sobre a profissão e cria as atribuições privativas"] --> D56725["DECRETO Nº 56.725/1965<br>Regulamenta a fiscalização e os órgãos de classe"]
+    D56725 --> L9674["LEI FEDERAL Nº 9.674/1998<br>Reestrutura o Sistema CFB/CRB e o regime disciplinar"]
+    L9674 --> RES207["RESOLUÇÃO CFB Nº 207/2018<br>Código de Ética Profissional do Bibliotecário"]
+\`\`\`
 
 ---
 
-### 2. Atribuições Privativas (Art. 6º da Lei 4.084/62)
-São privativas dos bacharéis em Biblioteconomia as seguintes funções:
-1. Planejamento, organização, direção e execução dos serviços técnicos de bibliotecas e centros de documentação.
-2. Planejamento e execução dos serviços de catalogação e classificação de documentos.
-3. Organização e direção de serviços de bibliografia e documentação.
-4. Ensino de disciplinas específicas de Biblioteconomia nos cursos de graduação e pós-graduação.
-5. Realização de perícias documentais e emissão de laudos técnicos pertinentes.
+### 2. A Lei Federal nº 4.084, de 30 de junho de 1962
+Promulgada pelo Presidente João Goulart, é o estatuto matriz da profissão no Brasil:
+* **Art. 2º (Requisitos de Habilitação Legal):** O exercício da profissão de bibliotecário em todo o território nacional é privativo dos bacharéis em Biblioteconomia por escolas oficiais ou reconhecidas e portadores de registro e carteira profissional expedida pelo respectivo **Conselho Regional de Biblioteconomia (CRB)** de sua jurisdição.
+* **Art. 3º (Validade Territorial):** A carteira profissional é válida em todo o território nacional como prova de identidade civil para todos os efeitos legais.
+
+#### Atribuições Privativas (Art. 6º da Lei 4.084/62)
+São funções e atividades de competência **EXCLUSIVA e PRIVATIVA** dos bacharéis em Biblioteconomia:
+1. **Planejamento, organização, direção e execução** dos serviços técnicos de bibliotecas e centros de documentação;
+2. **Planejamento e execução dos serviços de catalogação e classificação de documentos** (atenção: leigos não podem assinar catalogação na fonte nem fichas catalográficas!);
+3. **Organização e direção de serviços de bibliografia e documentação**;
+4. **Ensino de disciplinas específicas de Biblioteconomia** nos cursos de graduação e pós-graduação da área;
+5. **Realização de perícias documentais e emissão de laudos técnicos** pertinentes à organização de acervos e documentos bibliográficos.
+
+> [!IMPORTANT]
+> **Distinção Crítica Cebraspe:** Atividades como atendimento ao público, empréstimo no balcão e higienização física podem ser executadas por técnicos ou auxiliares sob supervisão. No entanto, a **classificação, a catalogação, a indexação técnica e a direção do serviço** são atos privativos indelegáveis do bibliotecário registrado!
 
 ---
 
-### 3. Código de Ética Profissional do Bibliotecário (Resolução CFB)
-O Código de Ética fixa os padrões de conduta que orientam o relacionamento do bibliotecário com os usuários, a sociedade, a profissão e os órgãos de classe.
+### 3. A Lei Federal nº 9.674, de 26 de junho de 1998: O Sistema CFB / CRB
+A Lei nº 9.674/98 reestruturou o Conselho Federal e os Conselhos Regionais de Biblioteconomia como autarquias federais dotadas de personalidade jurídica de direito público e autonomia administrativa e financeira:
 
-#### Deveres Fundamentais (Art. 3º):
-* Desempenhar suas atividades com zelo, dedicação, dignidade e decoro.
-* Guardar **sigilo profissional** sobre dados ou fatos conhecidos em razão do ofício (essencial para quem atua em gabinetes parlamentares e comissões da Câmara!).
-* Manter constante aprimoramento cultural e profissional.
-* Tratar os usuários com equidade, sem discriminação de qualquer natureza.
-* Denunciar tempestivamente às autoridades competentes qualquer prática de exercício ilegal da profissão.
+#### A. Conselho Federal de Biblioteconomia (CFB)
+* Sede e foro no Distrito Federal (Brasília);
+* Jurisdição em todo o território nacional;
+* **Competências Principais:**
+  * Normatizar o exercício da profissão por meio de Resoluções;
+  * Aprovar e modificar o Código de Ética Profissional;
+  * Julgar, em grau de último recurso administrativo, os processos disciplinares decididos pelos CRBs;
+  * Fixar o valor de anuidades, taxas e emolumentos em todo o território nacional;
+  * **Competência Privativa Absoluta:** Aplicar a penalidade máxima de **Cassação do Registro Profissional**.
 
-#### Proibições Expressas (Art. 4º):
-* Praticar atos que desabonem a classe ou concorram para o descrédito da profissão.
-* Assinar ou referendar trabalhos, catálogos, fichas ou laudos elaborados por indivíduos não habilitados perante a lei.
-* Praticar concorrência desleal ou aviltamento de honorários.
-* Reter abusivamente documentos ou bens confiados à sua guarda.
+#### B. Conselhos Regionais de Biblioteconomia (CRB)
+* Jurisdição regional (abrangem um ou mais estados da federação);
+* **Competências Principais:**
+  * Fiscalizar o exercício profissional em sua área geográfica;
+  * Expedir a carteira de identidade profissional e a cédula do bibliotecário;
+  * Fiscalizar bibliotecas públicas, privadas, escolares e governamentais, autuando estabelecimentos sem bibliotecário responsável registrado;
+  * Processar e julgar infrações disciplinares em primeira instância administrativa.
 
-#### Escala de Penalidades Disciplinares:
-1. Advertência confidencial (aplicada pelo CRB).
-2. Censura confidencial.
-3. Censura pública (divulgada no Diário Oficial e mural do conselho).
-4. Multa.
-5. Suspensão do exercício profissional (por prazo de até 3 anos).
-6. Cassação do registro profissional (sanção extrema de competência privativa do CFB).`,
+---
+
+### 4. O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018)
+O Código de Ética estabelece os princípios deontológicos que guiam a conduta profissional:
+
+#### A. Princípios Fundamentais (Art. 2º)
+* O bibliotecário deve pautar sua conduta pelo respeito à dignidade da pessoa humana, pelo livre acesso à informação, pela defesa dos Direitos Humanos e pela recusa a qualquer forma de censura ideológica ou discriminação de raça, gênero, orientação sexual, credo ou convicção política.
+
+#### B. Deveres Expressos do Bibliotecário (Art. 3º)
+1. Desempenhar suas funções com zelo, probidade, decoro e independência técnica;
+2. **Guardar Sigilo Profissional:** Preservar sigilo absoluto sobre fatos, dados e interesses informacionais de usuários conhecidos em razão do exercício do ofício.
+   * *Atenção:* O dever de sigilo **permanece mesmo após a cessação do vínculo de trabalho** ou término da prestação de serviços (regra vital para a Biblioteca da Câmara dos Deputados no atendimento a parlamentares!).
+3. Manter permanente atualização e aprimoramento cultural e técnico;
+4. Tratar usuários, colegas e colaboradores com urbanidade e estrita equidade;
+5. **Dever de Denúncia:** Denunciar aos órgãos fiscalizadores (CRB) qualquer prática de exercício ilegal ou clandestino da profissão;
+6. Informar com exatidão suas qualificações profissionais, abstendo-se de atribuir a si títulos que não possua.
+
+#### C. Proibições Expressas (Art. 4º)
+É terminantemente vedado ao bibliotecário:
+1. **Praticar o "acobertamento":** Assinar, referendar ou rubricar trabalhos técnicos, fichas catalográficas, classificações ou laudos periciais executados por leigos ou pessoas não habilitadas perante o CRB;
+2. Reter abusivamente documentos, acervos, prontuários ou materiais confiados à sua guarda profissional;
+3. Praticar concorrência desleal, captação ilícita de clientela ou aviltamento de honorários;
+4. Utilizar a profissão para obter vantagens indevidas, suborno ou favorecimento ilícito;
+5. Deixar de pagar a anuidade ao respectivo CRB (a inadimplência constitui infração disciplinar expressa!).
+
+---
+
+### 5. Regime Disciplinar e Gradação das Penalidades Éticas (Art. 13 da Res. CFB 207/2018 e Art. 40 da Lei 9.674/98)
+As sanções aplicáveis em caso de cometimento de falta ética ou descumprimento legal obedecem a uma ordem rigorosa de gradação e dosimetria:
+
+| Penalidade Disciplinar | Caráter da Sanção | Órgão Julgador Competente | Efeitos e Publicidade |
+| :--- | :--- | :--- | :--- |
+| **1. Advertência Reservada** | Confidencial | Conselho Regional (CRB) | Ofício sigiloso registrado no prontuário do profissional, sem divulgação externa. |
+| **2. Censura Reservada** | Confidencial | Conselho Regional (CRB) | Notificação sigilosa com advertência formal por escrito. |
+| **3. Censura Pública** | Pública | Conselho Regional (CRB) | **Publicada no Diário Oficial** e afixada no mural oficial da sede do CRB. |
+| **4. Multa** | Pecuniária | Conselho Regional (CRB) | Fixada de 1 a 10 vezes o valor da anuidade profissional vigente. |
+| **5. Suspensão do Exercício Profissional** | Temporária | Conselho Regional (CRB) / Recurso ao CFB | Proibição de exercer a profissão por prazo de **até 3 (três) anos**. |
+| **6. Cassação do Registro Profissional** | Definitiva | **COMPETÊNCIA PRIVATIVA E EXCLUSIVA DO CFB** | Cancelamento definitivo do direito de exercer a profissão de bibliotecário em todo o país. |
+
+> [!CAUTION]
+> **Casca de Banana Cebraspe nº 2:** A banca afirma reiteradamente que *"um Conselho Regional de Biblioteconomia pode, por maioria simples de seus conselheiros, cassar definitivamente o registro de um bibliotecário infrator"*. Essa afirmação é **ERRADA**! A cassação é competência **indelegável e privativa do Conselho Federal (CFB)**, dependendo de quórum qualificado de dois terços dos votos e garantido o contraditório e a ampla defesa.
+
+---
+
+### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em Legislação e Ética
+
+| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"A elaboração de fichas catalográficas e a classificação de obras podem ser realizadas por técnicos de nível médio, dispensando-se a supervisão de bibliotecário."* | **ERRADO** | A catalogação e classificação são atribuições **privativas** do bibliotecário (Art. 6º da Lei 4.084/62). |
+| *"O bibliotecário está desobrigado do sigilo profissional sobre pesquisas realizadas por parlamentares assim que seu contrato de trabalho for rescindido."* | **ERRADO** | O sigilo profissional **permanece inalterado mesmo após o término do vínculo** funcional ou de prestação de serviços. |
+| *"A penalidade de Censura Pública é comunicada apenas em caráter estritamente confidencial ao infrator."* | **ERRADO** | A Censura Pública é obrigatoriamente **publicada no Diário Oficial**, perdendo o caráter sigiloso. |
+| *"O ensino de disciplinas de Biblioteconomia nos cursos superiores não exige diploma de graduação na área nem registro profissional."* | **ERRADO** | O ensino de matérias específicas de Biblioteconomia é função **privativa** do bacharel registrado (Art. 6º, 'd', Lei 4.084/62). |`,
   checkpoints: [
     {
       id: 'cp-1-4-1',

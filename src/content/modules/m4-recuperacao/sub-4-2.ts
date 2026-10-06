@@ -23,57 +23,114 @@ export const submodulo42: ModuloFilho = {
       ['Fontes Terciárias', 'Funcionam como sinalizadores de rota, direcionando o pesquisador para fontes primárias e secundárias', 'Bibliografias de bibliografias, guias de bibliotecas, diretórios de instituições e pesquisadores, revisões de literatura', 'Guia da Biblioteca da Câmara, diretórios de comissões parlamentares, catálogos de bases jurídicas disponíveis'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. Conceito e Importância das Fontes de Informação
+  teoriaDensaMarkdown: `### 1. Conceito e Tipologia Epistemológica das Fontes de Informação
+Conforme a definição seminal de **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*), uma **fonte de informação** compreende:
+> *"Qualquer recurso, documento, pessoa, instituição ou sistema eletrônico capaz de responder a uma necessidade de informação do usuário, atuando como veículo transmissor de dados, ideias ou conhecimentos."*
 
-Conforme **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*, presente em nosso acervo \`Recuperação, fontes, referência e usuários/LIVRO_ParaSaberMais.pdf\`), as fontes de informação compreendem qualquer recurso, documento, pessoa, instituição ou sistema eletrônico capaz de responder a uma necessidade de informação do usuário.
+A literatura canônica internacional (**Denis Grogan, 1995; Murilo Bastos da Cunha, 2001; Bernadete Campello, 2000**) categoriza as fontes de informação em três grandes níveis hierárquicos, segundo o grau de originalidade e tratamento documentário:
 
-A evolução tecnológica diversificou extraordinariamente o universo das fontes, exigindo do bibliotecário domínio refinado sobre sua tipologia e critérios objetivos de avaliação crítica.
+\`\`\`mermaid
+graph TD
+    P["1. FONTES PRIMÁRIAS<br>Conhecimento original, inédito e não filtrado<br>(Artigos, Teses, Patentes, Diários Oficiais, Leis, Relatórios Técnicos)"] -->|Indexação, Condensação e Organização| S["2. FONTES SECUNDÁRIAS<br>Reorganização das primárias para localização rápida<br>(Bases Referenciais, Índices, Bibliografias, OPACs, Dicionários, Enciclopédias)"]
+    S -->|Sinalização e Guias de Rota| T["3. FONTES TERCIÁRIAS<br>Guias que direcionam para fontes primárias e secundárias<br>(Bibliografias de Bibliografias, Guias de Bibliotecas, Diretórios de Pesquisadores)"]
+\`\`\`
 
 ---
 
-### 2. A Tipologia Clássica das Fontes de Informação
+### 2. Detalhamento da Tipologia Tripartite (Grogan & Cunha)
 
-A literatura canônica internacional (Grogan, 1995; Cunha, 2001) divide as fontes de informação em três grandes níveis hierárquicos:
+| Nível Tipológico | Conceito e Natureza | Características Técnicas | Exemplos Gerais Canônicos | Exemplos no Ambiente Legislativo / Jurídico |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fontes Primárias** | Registram o conhecimento original pela primeira vez; dados novos e não interpretados. | Grande dispersão física; terminologia especializada; ausência de condensação prévia. | Artigos de periódicos, teses e dissertações, patentes, anais de congressos, relatórios científicos. | **Projetos de Lei (PLs), Diário Oficial da União (DOU), Diário da Justiça (DJe), acórdãos na íntegra, transcrições taquigráficas.** |
+| **Fontes Secundárias** | Documentos que resultam da organização, análise e sumarização das fontes primárias. | Não contêm conhecimento inédito; servem como instrumentos de busca e filtragem. | Bases de resumos/índices (Scopus, Web of Science, BRAPCI), bibliografias temáticas, catálogos OPAC, dicionários, enciclopédias. | **Catálogo da Rede RVBI, Portal LexML Brasil, ementários jurisprudenciais, compilações legislativas consolidadas.** |
+| **Fontes Terciárias** | Recursos concebidos para apontar a localização e instruir o uso de fontes primárias e secundárias. | São "sinalizadores de tráfego"; guias de alto nível sobre a literatura existente. | **Bibliografias de bibliografias**, guias de literatura especializada, diretórios de centros de pesquisa, revisões do estado da arte. | **Guia do Usuário da Biblioteca Pedro Aleixo, Guia de Fontes Jurídicas do Senado, diretório de comissões temáticas.** |
 
-#### A. Fontes Primárias
-* São os veículos em que os autores e pesquisadores registram seus pensamentos, descobertas e criações intelectuais em primeira mão.
-* **Características:** Contêm informações novas e não filtradas; frequentemente dispersas e de difícil localização.
-* **Exemplos Canônicos:** Artigos de periódicos científicos, comunicações em anais de congressos (*proceedings*), relatórios técnicos governamentais, teses e dissertações acadêmicas, relatórios de patentes, normas técnicas originais e textos de leis/diários oficiais.
-
-#### B. Fontes Secundárias
-* Documentos elaborados a partir do tratamento, indexação e sumarização das fontes primárias.
-* **Características:** Não trazem conhecimento científico inédito, mas organizam as fontes primárias para permitir que o usuário as localize e selecione com agilidade.
-* **Exemplos Canônicos:**
-  1. *Serviços de Indexação e Resumos (Abstracts):* Bases de dados referenciais (ex.: LISA, Web of Science, Scopus, BRAPCI).
-  2. *Bibliografias:* Listas sistemáticas de referências (gerais, nacionais ou especializadas).
-  3. *Catálogos de Bibliotecas (OPAC):* Registros dos acervos disponíveis.
-  4. *Obras de Referência de Leitura Rápida:* Dicionários, enciclopédias, manuais, tabelas e tratados.
-
-#### C. Fontes Terciárias
-* Documentos cuja função precípua é guiar o usuário na identificação e no uso de fontes primárias e secundárias.
-* **Características:** São guias e compilações de alto nível sobre a literatura disponível.
-* **Exemplos Canônicos:** Bibliografias de bibliografias, guias de bibliotecas e centros de documentação, diretórios de pesquisadores e instituições científicas, e revisões do estado da arte (*literature reviews*).
+> [!CAUTION]
+> **Casca de Banana Cebraspe nº 1:** A banca afirma que *"as bibliografias de bibliografias e os guias de bibliotecas são fontes secundárias"*. Isso é **ERRADO**! Ambas são exemplos clássicos de **FONTES TERCIÁRIAS**. Já a bibliografia comum (que lista livros ou artigos) é **FONTE SECUNDÁRIA**.
 
 ---
 
 ### 3. A Literatura Cinzenta (*Grey Literature*)
-
-* **Conceito:** Material de caráter técnico, acadêmico, administrativo ou científico produzido por governos, universidades, corporações e institutos de pesquisa que **não é disponibilizado comercialmente** pelos canais tradicionais de livrarias e editoras comerciais.
-* **Exemplos:** Relatórios de comissões parlamentares de inquérito (CPIs), notas técnicas de consultorias legislativas, preprints, apostilas internas, relatórios de prestação de contas governamentais e atas de reuniões.
-* **Importância:** É fonte primária de elevadíssimo valor contemporâneo por conter dados empíricos recentes muito antes de sua publicação formal em livros comerciais.
+A Literatura Cinzenta compreende a produção documental de caráter técnico, acadêmico, legislativo ou corporativo **não disponibilizada pelos canais comerciais usuais de distribuição editorial e livrarias**:
+* **Características:** Tiragem restrita ou circulação interna; ausência de controle bibliográfico comercial (frequentemente sem ISBN); elaboração rápida para atender demandas imediatas.
+* **Exemplos no Poder Público:**
+  * Relatórios finais de Comissões Parlamentares de Inquérito (CPIs);
+  * Notas técnicas e estudos de consultoria legislativa e orçamentária da Câmara dos Deputados;
+  * Relatórios técnicos de fiscalização e auditoria do Tribunal de Contas da União (TCU);
+  * *Preprints* acadêmicos, apostilas de treinamento interno e atas de sessões reservadas.
+* **Valor para o Parlamento:** É fonte primária de elevadíssimo valor contemporâneo, pois carrega dados factuais inéditos e análises de políticas públicas meses ou anos antes de qualquer publicação formal em livro.
 
 ---
 
-### 4. Critérios Científicos de Avaliação de Fontes de Informação
+### 4. Critérios Científicos de Avaliação de Fontes de Informação (Campello, Cendón & Tomaél)
+Diante da profusão de dados não validados na Internet, o bibliotecário legislativo aplica critérios científicos rigorosos para atestar a higidez das fontes:
 
-No ambiente digital contemporâneo, marcado pelo excesso de dados e fenômenos como desinformação e *fake news*, a avaliação crítica de fontes é atribuição indelegável do bibliotecário (Campello & Cendón, 2000):
+1. **Autoridade (*Authority*):** Credibilidade científica, titulação e reputação institucional do autor ou órgão emissor. Identificação clara da entidade patrocinadora e comitê editorial.
+2. **Exatidão e Rigor Factual (*Accuracy*):** Isenção de erros factuais, coerência metodológica, citações explícitas de fontes originais e reprodutibilidade dos dados.
+3. **Atualidade (*Currency*):** Frequência de atualização, visibilidade da data da última revisão e validade das remissões a leis que já foram revogadas.
+4. **Cobertura e Escopo (*Coverage*):** Profundidade analítica e abrangência temporal e geográfica condizente com o escopo prometido.
+5. **Objetividade e Neutralidade (*Objectivity*):** Isenção partidária ou ideológica, transparência na metodologia e declaração de conflitos de interesse.
+6. **Acessibilidade, Navegabilidade e Usabilidade:** Facilidade de recuperação, estabilidade do servidor e conformidade com as diretrizes de acessibilidade na Web (WCAG/e-MAG).
 
-1. **Autoridade (*Authority*):** Credibilidade e qualificação formal do autor, do comitê editorial ou da instituição responsável pela publicação.
-2. **Exatidão e Precisão (*Accuracy*):** Rigor metodológico, ausência de erros factuais e integridade dos dados apresentados.
-3. **Atualidade (*Currency*):** Frequência de atualização da fonte, clareza nas datas de publicação e de revisão dos conteúdos.
-4. **Cobertura (*Coverage*):** Profundidade e amplitude temática abordada pela fonte em relação ao seu propósito declarado.
-5. **Objetividade e Imparcialidade (*Objectivity*):** Isenção ideológica, transparência nas fontes de financiamento e ausência de viés tendencioso.
-6. **Acessibilidade e Usabilidade (*Accessibility & Usability*):** Facilidade de navegação, conformidade com padrões de acessibilidade (W3C/WCAG) e estabilidade de acesso.`,
+---
+
+### 5. Avaliação Científica de Sistemas de Recuperação da Informação: Os Testes de Cranfield (Cyril Cleverdon)
+Entre 1957 e 1966, na Faculdade de Aeronáutica de Cranfield (Inglaterra), **Cyril Cleverdon** conduziu os célebres **Testes de Cranfield (Cranfield I e Cranfield II)**, que fundaram a metodologia científica moderna de avaliação de sistemas de RI:
+
+\`\`\`mermaid
+graph TD
+    COL["Coleção de Teste Controlada"] --> QUERIES["Conjunto Padronizado de Consultas"]
+    QUERIES --> REL["Julgamento Humano Exaustivo de Relevância"]
+    REL --> CONTINGENCIA["Matriz de Contingência 2x2"]
+    CONTINGENCIA --> REC["REVOCAÇÃO (Recall): Proporção de Relevantes Resgatados"]
+    CONTINGENCIA --> PREC["PRECISÃO (Precision): Proporção de Relevantes nos Recuperados"]
+\`\`\`
+
+#### A. A Matriz de Contingência 2x2
+Para qualquer consulta executada sobre uma base documental, a coleção total divide-se em quatro quadrantes absolutos:
+
+| Situação Documental | Documentos Pertinentes / Relevantes | Documentos Não Relevantes | Total da Situação |
+| :--- | :---: | :---: | :---: |
+| **Documentos Recuperados pelo Sistema** | **$a$** (Verdadeiros Positivos) | **$b$** (Falsos Positivos — **RUÍDO**) | $a + b$ (Total Recuperado) |
+| **Documentos Não Recuperados pelo Sistema** | **$c$** (Falsos Negativos — **SILÊNCIO**) | **$d$** (Verdadeiros Negativos) | $c + d$ (Total Não Recuperado) |
+| **Total da Coleção** | $a + c$ (Total de Relevantes na Base) | $b + d$ (Total de Não Relevantes) | $N = a + b + c + d$ |
+
+#### B. Fórmulas Canônicas Cobradas pelo Cebraspe
+1. **Revocação (*Recall* — $R$):**
+   Mede a capacidade do sistema em encontrar **TODOS os documentos relevantes** existentes na base:
+   $$R = \\frac{a}{a + c} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes Existentes na Base}}$$
+2. **Precisão (*Precision* — $P$):**
+   Mede a capacidade do sistema em recuperar **APENAS documentos relevantes**, sem entulhar o usuário com lixo:
+   $$P = \\frac{a}{a + b} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Documentos Recuperados pelo Sistema}}$$
+3. **Silêncio Documental:**
+   Corresponde aos documentos relevantes que o sistema **deixou de encontrar** ($c$).
+   $$\\text{Taxa de Silêncio} = 1 - R = \\frac{c}{a + c}$$
+4. **Ruído Documental:**
+   Corresponde aos documentos inúteis que o sistema **entregou por engano** ($b$).
+   $$\\text{Taxa de Ruído} = 1 - P = \\frac{b}{a + b}$$
+5. **Medida F (*F-Measure / F1-Score*):**
+   É a média harmônica ponderada entre Precisão e Revocação, equilibrando as duas métricas em uma única pontuação:
+   $$F_1 = 2 \\times \\frac{P \\times R}{P + R}$$
+6. **Coeficiente de Queda / Ruído Global (*Fallout* — $F$):**
+   A proporção de documentos irrelevantes que foram indevidamente recuperados:
+   $$\\text{Fallout} = \\frac{b}{b + d} = \\frac{\\text{Não Relevantes Recuperados}}{\\text{Total de Não Relevantes na Coleção}}$$
+
+#### C. O Compromisso Estrutural Inverso entre Revocação e Precisão
+Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciência da Informação:
+* **Relação Inversa:** Em qualquer sistema de busca, **quando se tenta aumentar a Revocação, a Precisão cai; e quando se força a Precisão ao máximo, a Revocação diminui**.
+* *Busca de Alta Revocação:* Típica de um advogado que precisa de todos os precedentes possíveis ou de um historiador em pesquisa exaustiva (usa muitos operadores OR e truncagens).
+* *Busca de Alta Precisão:* Típica de um parlamentar que precisa de um dado numérico imediato para discursar em 5 minutos (usa termos exatos entre aspas e operador AND restritivo).
+
+---
+
+### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em Fontes e Avaliação
+
+| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"A taxa de revocação mede a proporção de documentos relevantes recuperados em relação ao total de documentos recuperados pela busca."* | **ERRADO** | Essa é a definição de **Precisão** ($a / [a+b]$). A Revocação calcula em relação ao total de relevantes existentes na base ($a / [a+c]$). |
+| *"A literatura cinzenta é classificada epistemologicamente como fonte secundária devido ao seu formato não convencional."* | **ERRADO** | A literatura cinzenta é **FONTE PRIMÁRIA**, pois contém dados originais e inéditos. |
+| *"Em sistemas de recuperação ideais, é rotineiro alcançar simultaneamente 100% de precisão e 100% de revocação em buscas amplas."* | **ERRADO** | Revocação e Precisão são grandezas **inversamente proporcionais**; maximizar uma penaliza a outra. |
+| *"O silêncio documental decorre da recuperação de documentos irrelevantes que poluem o resultado da pesquisa."* | **ERRADO** | Recuperar itens irrelevantes é **RUÍDO** ($b$). O **SILÊNCIO** ($c$) é a não recuperação de documentos relevantes que existiam na base. |`,
   checkpoints: [
     {
       id: 'cp-4-2-1',

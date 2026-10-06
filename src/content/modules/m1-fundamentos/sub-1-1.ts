@@ -23,41 +23,119 @@ export const submodulo11: ModuloFilho = {
       ['Público-Alvo', 'Comunidade geral e leitores da instituição', 'Pesquisadores especializados e cientistas', 'Usuários de sistemas de informação complexos e redes globais'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Trajetória Histórica e Rupturas Epistemológicas
+  teoriaDensaMarkdown: `### 1. A Trajetória Epistemológica e Rupturas Históricas
+A gestão social e científica do conhecimento registrado evoluiu ao longo de séculos através de rupturas epistemológicas fundamentais. O **CEBRASPE** cobra com rigor cirúrgico a diferenciação conceitual, cronológica e metodológica entre as três disciplinas correlatas: **a Biblioteconomia**, **a Documentação** e **a Ciência da Informação (CI)**.
 
-A evolução da gestão social do conhecimento registrado é marcada por três grandes momentos epistemológicos que o Cebraspe explora com rigor cirúrgico: **a Biblioteconomia**, **a Documentação** e **a Ciência da Informação**.
-
-#### A. A Biblioteconomia: Da Guarda Patrimonial à Função Social
-Historicamente, a biblioteconomia nasceu vinculada à **instituição biblioteca** e à conservação física dos suportes textuais (rolos de papiro, códices medievais e livros impressos pós-Gutenberg). 
-* Durante séculos predominou o **paradigma patrimonialista** (guardar para preservar).
-* A partir do final do século XIX e início do século XX, com o avanço da educação pública e as formulações de teóricos como Melvil Dewey e S. R. Ranganathan, a biblioteconomia assume o **paradigma social e educacional**: a biblioteca como agente democrático de mediação entre o leitor e o conhecimento.
-* **A visão de Yves-François Le Coadic (1996):** O teórico francês divide a área em duas dimensões complementares:
-  1. *Biblioteconomia dos Livros:* Ocupa-se da organização administrativa, técnica, orçamentária e física dos acervos.
-  2. *Biblioteconomia dos Leitores:* Centrada no usuário, nas práticas de leitura, nos serviços de referência e na mediação sociocultural. *(Alerta de Prova: o Cebraspe adora trocar essas duas definições!)*.
+\`\`\`mermaid
+graph TD
+    B["BIBLIOTECONOMIA (Antiguidade / Séc. XIX)<br>Objeto: O Livro e a Biblioteca<br>Foco: Custódia, Tratamento Técnico e Uso Social"] -->|Explosão de Periódicos Científicos| D["DOCUMENTAÇÃO (Otlet & Briet - 1895/1934)<br>Objeto: O Documento em Qualquer Suporte<br>Foco: Princípio Monográfico e Disseminação"]
+    D -->|Pós-Segunda Guerra / Guerra Fria| CI["CIÊNCIA DA INFORMAÇÃO (Bush, Mooers, Borko - 1968)<br>Objeto: A Informação em Si (Propriedades e Fluxos)<br>Foco: Sistemas de Recuperação (IR), Redes e Cognição"]
+\`\`\`
 
 ---
 
-#### B. A Documentação e a Revolução de Paul Otlet
-No final do século XIX, a explosão das publicações periódicas e relatórios científicos internacionais tornou os métodos bibliotecários tradicionais insuficientes para atender à velocidade exigida pelos cientistas.
-* **Paul Otlet e Henri La Fontaine (1895):** Criam em Bruxelas o Instituto Internacional de Bibliografia (IIB) e concebem o ambicioso projeto do *Mundaneum* e do *Repertório Bibliográfico Universal (RBU)*.
-* **O Tratado de Documentação (1934):** Obra máxima de Otlet (presente em nosso acervo na pasta \`Fundamentos/003043331.pdf\`). Otlet cunha o termo **Documentação** e estabelece o **Princípio Monográfico** (desmembrar o conteúdo das publicações em fichas analíticas padronizadas para recombinar o saber).
-* **A ampliação do suporte:** Para Otlet e, posteriormente, Suzanne Briet (1951), documento deixa de ser sinônimo estrito de livro em papel e passa a abranger fotografias, mapas, esquemas gráficos, patentes, microfichas e registros sonoros.
+### 2. A Biblioteconomia: Da Guarda Patrimonial à Função Social Democrática
+Historicamente, a Biblioteconomia nasceu umbilicalmente ligada à **instituição biblioteca** e à custódia física de suportes textuais (rolos de papiro em Alexandria e Pérgamo, códices medievais nos mosteiros e o livro impresso tipográfico após a revolução de Gutenberg no século XV).
+
+#### A. A Transição de Paradigmas
+1. **Paradigma Patrimonialista / Conservacionista (Antiguidade ao Séc. XVIII):** O livro era visto como patrimônio raro, tesouro material e relíquia. A biblioteca funcionava como depósito sagrado onde o objetivo primordial era a custódia, guarda e preservação física dos suportes, muitas vezes com acesso restrito a sacerdotes, monges e elites aristocráticas.
+2. **Paradigma Educacional, Social e Democrático (Final do Séc. XIX e Séc. XX):** Com a expansão da escolarização pública, a industrialização e as teorizações de Melvil Dewey (1876) e S. R. Ranganathan (1931), a biblioteca transformou-se em equipamento público e social. O objetivo primordial passou a ser a **disseminação, o livre acesso e o uso social da informação**.
+
+#### B. A Dualidade Canônica de Yves-François Le Coadic (1996)
+O epistemólogo francês Yves-François Le Coadic (*A Ciência da Informação*) estabelece uma distinção teórica clássica frequentemente explorada pela banca:
+* **Biblioteconomia dos Livros:** Centrada na dimensão técnica, administrativa, patrimonial e física. Ocupa-se da formação e desenvolvimento de coleções, catalogação, classificação, tombamento, inventário, preservação física das estantes e gestão orçamentária do prédio.
+* **Biblioteconomia dos Leitores:** Centrada na dimensão humana, social e comunicativa. Ocupa-se do usuário, do estudo de comunidades, dos hábitos e práticas de leitura, dos serviços de referência, da mediação pedagógica e da inclusão sociocultural.
+
+> [!CAUTION]
+> **Casca de Banana Cebraspe nº 1:** A banca costuma inverter maliciosamente esses dois conceitos, afirmando que *"a biblioteconomia dos livros foca nas necessidades dos leitores e nos serviços de referência"*, ou que *"a biblioteconomia dos leitores restringe-se aos procedimentos de conservação predial e inventário de volumes"*. O item é categoricamente **ERRADO**.
 
 ---
 
-#### C. A Emergência da Ciência da Informação
-No contexto da Guerra Fria e da explosão informacional (*information explosion*) do pós-guerra:
-* **Vannevar Bush (1945):** Publica o ensaio visionário *"As We May Think"*, propondo o *Memex* (dispositivo conceitual eletromecânico para armazenamento e associação hipertextual de informações).
-* **Calvin Mooers (1950):** Cunhou o termo **Recuperação da Informação** (*Information Retrieval*), que se tornou um dos pilares estruturantes da nova ciência.
-* **Harold Borko (1968) - O Conceito Canônico:** No artigo histórico *"Information Science: What is it?"*, Borko define:
-  > *"A Ciência da Informação é a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso. Ela se ocupa daquele corpo de conhecimentos relativos à origem, coleta, organização, armazenamento, recuperação, interpretação, transmissão, transformação e utilização da informação."*
+### 3. A Documentação e a Revolução Conceitual de Paul Otlet
+No final do século XIX, a Revolução Industrial e a especialização das ciências provocaram uma explosão no número de **artigos de periódicos, relatórios técnicos, atas de congressos e patentes**. A Biblioteconomia tradicional, estruturada em torno do livro monográfico encadernado, revelou-se incapaz de catalogar e recuperar rapidamente as frações mínimas do saber exigidas pela comunidade científica.
+
+#### A. Paul Otlet, Henri La Fontaine e o Instituto Internacional de Bibliografia (IIB - 1895)
+* Em 1895, os advogados e juristas belgas **Paul Otlet** e **Henri La Fontaine** fundaram em Bruxelas o **Instituto Internacional de Bibliografia (IIB)**.
+* **O Repertório Bibliográfico Universal (RBU):** Concebido como um catálogo universal de todo o conhecimento registrado da humanidade.
+* **O *Mundaneum*:** O "museu mundial" e cidade do saber idealizado por Otlet para reunir, indexar e conectar globalmente os saberes humanos (precursor analógico da internet).
+* **Criação da CDU:** Para indexar as fichas do RBU com detalhamento facetado e relacional, Otlet e La Fontaine adaptaram a CDD de Dewey, criando a **Classificação Decimal Universal (CDU)**.
+
+#### B. O Tratado de Documentação (1934) e o Princípio Monográfico
+Na obra seminal *Traité de Documentation: le livre sur le livre, théorie et pratique* (1934), Otlet sistematizou:
+1. **O Princípio Monográfico:** Consiste em desmembrar o conteúdo das publicações em seus elementos conceituais constitutivos (ideias, fatos, dados, fórmulas), registrando cada unidade analítica em uma ficha móvel padronizada independente (o formato internacional 12,5 × 7,5 cm). Dessa forma, o conhecimento podia ser infinitamente reorganizado, recombinado e atualizado, superando a rigidez estática do livro encadernado.
+2. **Ampliação do Suporte Documental:** Para Otlet, a documentação não se restringe a livros impressos. Abrange gráficos, mapas, fotografias, esquemas, cartazes, diapositivos, patentes e discos sonoros.
+
+#### C. Suzanne Briet e as Quatro Condições do Documento (1951)
+No manifesto seminal *Qu'est-ce que la documentation?* (1951), a bibliotecária e documentalista francesa **Suzanne Briet** formulou a mais influente definição de documento da área:
+> *"Documento é todo indício material, conservado ou registrado, com a finalidade de representar, reconstituir ou provar um fenômeno físico ou intelectual."*
+
+Para Briet, um objeto torna-se documento se preencher cumulativamente **quatro condições**:
+1. **Materialidade:** Deve possuir base material tangível ou registro físico/magnético de signos.
+2. **Intencionalidade:** O artefato foi criado, coletado ou selecionado com a intenção expressa de comunicar ou registrar algo.
+3. **Tratamento Documentário / Institucional:** O objeto foi inserido em um sistema ou unidade de informação (catalogado, indexado, descrito ou classificado).
+4. **Valor de Prova / Indício:** O objeto serve de evidência, testemunho ou elemento probatório perante uma comunidade social.
+
+> **O Célebre Exemplo do Antílope de Briet (Cobrado na Prova CAPES 2024 e IPEA):**
+> * Um antílope correndo livre na savana africana **NÃO** é documento; é apenas um espécime biológico vivo.
+> * No entanto, se o antílope for capturado, transportado para a Europa, alojado no Jardin des Plantes (zoológico), examinado por zoólogos, receber uma placa taxonômica descritiva e constar no catálogo do museu de história natural, ele **TORNA-SE UM DOCUMENTO PRIMÁRIO**.
+> * Os artigos científicos redigidos sobre ele, suas fotografias e as radiografias de seus ossos são documentos secundários derivados.
+
+#### D. Evolução Institucional da Documentação
+* 1895: **IIB** (Instituto Internacional de Bibliografia);
+* 1931: **IID** (Instituto Internacional de Documentação);
+* 1938: **FID** (Federação Internacional de Documentação), que liderou o desenvolvimento e a governança internacional da CDU até sua dissolução em 2002.
 
 ---
 
-### 2. Interdisciplinaridade e Fronteiras Disciplinares
-A Ciência da Informação não substituiu nem extinguiu a Biblioteconomia. Conforme demonstrado por Tefko Saracevic (1995) e Lena Vânia Pinheiro (1995):
-* A Ciência da Informação é intrinsecamente **interdisciplinar**: conecta-se à Ciência da Computação, Linguística, Semiótica, Comunicação, Psicologia Cognitiva, Lógica e Administração.
-* Enquanto a Biblioteconomia se foca primordialmente nas práticas e serviços de unidades de informação e bibliotecas, a Ciência da Informação possui um escopo teórico mais abrangente voltado aos fenômenos informacionais em sistemas sociais e tecnológicos complexos.`,
+### 4. A Emergência da Ciência da Informação no Pós-Guerra
+A emergência da Ciência da Informação ocorreu no contexto da Segunda Guerra Mundial e da Guerra Fria (décadas de 1940 a 1960), impulsionada pela explosão da pesquisa científica militar, pela cibernética e pelo surgimento dos computadores eletrônicos.
+
+#### A. Marcos Fundacionais
+* **Vannevar Bush e o Ensaio "As We May Think" (1945):**
+  * Bush, conselheiro científico do presidente Franklin Roosevelt, publicou na revista *The Atlantic Monthly* o ensaio visionário alertando que a humanidade estava submergindo em um oceano de publicações científicas sem capacidade física de localizá-las.
+  * Propôs o **Memex** (*Memory Extender*): um dispositivo conceitual eletromecânico, baseado em microfilmes e fotocélulas, no qual um cientista poderia armazenar todos os seus livros, anotações e comunicações, consultando-os através de **trilhas associativas** (*associative trails*). O Memex é universalmente reconhecido como o precursor conceitual do hipertexto e da Web.
+* **Calvin Mooers e a Recuperação da Informação (1950):**
+  * Mooers cunhou a expressão **Recuperação da Informação** (*Information Retrieval - IR*), que veio a constituir o coração operacional da nova disciplina. Formulou a famosa **Lei de Mooers**: *"Um sistema de recuperação da informação tende a não ser utilizado quando for mais penoso e incômodo para o usuário obter a informação do que ficar sem ela"*.
+* **Conferências do Georgia Institute of Technology (1961-1962):**
+  * Consideradas o marco zero da definição formal da área. Estabeleceram que a Ciência da Informação é uma ciência interdisciplinar que estuda as propriedades e o comportamento da informação, as forças que governam seus fluxos e os meios de processamento.
+* **Harold Borko e o Artigo "Information Science: What is it?" (1968):**
+  * Borko formulou a definição canônica mais cobrada em concursos públicos federais:
+  > *"A Ciência da Informação é a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso. Ela se ocupa daquele corpo de conhecimentos relativos à origem, coleta, organização, armazenamento, recuperação, interpretação, transmissão, transformação e utilização da informação. Possui uma componente de ciência pura (que investiga o assunto sem relação com a aplicação imediata) e uma componente de ciência aplicada (que desenvolve serviços e produtos)."*
+
+---
+
+### 5. Interdisciplinaridade e Fronteiras Disciplinares (Saracevic & Borko)
+Conforme demonstrado por **Tefko Saracevic (1995/1999)** e **Lena Vânia Pinheiro (1995)**, a Ciência da Informação não extinguiu nem substituiu a Biblioteconomia:
+* **Interdisciplinaridade Constitutiva:** A CI nutre-se da Ciência da Computação (algoritmos e bancos de dados), Linguística e Semiótica (estruturas de linguagem e tesauros), Comunicação (teorias da recepção e canais), Psicologia Cognitiva (modelos mentais e necessidades de informação), Lógica e Filosofia (ontologias e epistemologia).
+* **Diferenciação de Escopo:**
+  * A **Biblioteconomia** é uma disciplina aplicada de natureza eminentemente profissional, institucional e social, voltada à operação, curadoria e prestação de serviços no âmbito das bibliotecas.
+  * A **Ciência da Informação** é um campo científico abrangente que investiga fenômenos informacionais gerais em sistemas sociais, institucionais e tecnológicos, independentemente de estarem confinados a uma biblioteca física.
+
+---
+
+### 6. Tipologia Completa de Bibliotecas no Edital da Câmara
+O edital da Câmara dos Deputados exige o domínio das características institucionais de cada tipo de unidade de informação:
+
+| Tipo de Biblioteca | Missão Principal | Coleção Típica | Usuário Alvo | Marco / Característica Diferencial |
+| :--- | :--- | :--- | :--- | :--- |
+| **Biblioteca Nacional** | Preservar a memória bibliográfica do país e produzir a Bibliografia Nacional. | Exaustiva de publicações nacionais via **Depósito Legal** (Lei 10.994/2004). | Pesquisadores, historiadores e sociedade em geral. | Custódia patrimonial perpétua; atua como agência bibliográfica nacional (ISBN/ISMN). |
+| **Biblioteca Pública** | Promover o livre acesso à cultura, informação e fomento à cidadania e leitura. | Enciclopédica, diversificada (literatura, artes, ciências básicas). | Toda a comunidade local sem distinção de idade, renda ou escolaridade. | Manifesto da UNESCO sobre Bibliotecas Públicas; serviços gratuitos de empréstimo. |
+| **Biblioteca Universitária** | Dar suporte às atividades de ensino, pesquisa e extensão da instituição superior. | Especializada e didática em múltiplas áreas do conhecimento; periódicos e teses. | Comunidade acadêmica (professores, pesquisadores e alunos de graduação/pós). | Redes cooperativas de comutação bibliográfica (COMUT); repositórios institucionais. |
+| **Biblioteca Especializada** | Subsidiar a pesquisa técnica e o desenvolvimento institucional ou empresarial. | Altamente focada em um domínio temático específico (ex.: Direito, Medicina, Engenharia). | Especialistas, cientistas, técnicos e gestores da corporação. | Ênfase em **DSI ativa**, busca em bases de dados restritas e indexação em profundidade. |
+| **Biblioteca Escolar** | Apoiar o projeto pedagógico e desenvolver habilidades de letramento informacional. | Acervo infantil, infantojuvenil e livros didáticos curriculares. | Alunos, professores e corpo técnico da escola básica. | **Lei Federal nº 12.244/2010** (universalização de bibliotecas escolares no Brasil). |
+| **Biblioteca Parlamentar (Ex.: Câmara / Senado)** | Subsidiar o processo legislativo, a fiscalização orçamentária e a cidadania. | Direito, Ciência Política, Administração Pública, Economia, anais e projetos de lei. | Deputados, senadores, assessores legislativos, comissões temáticas e cidadãos. | Integra a **RVBI** (Rede Virtual de Bibliotecas); alimentação do Portal **LexML Brasil**. |
+
+---
+
+### 7. Quadro de Distratores Típicos do Cebraspe em Fundamentos
+
+| Afirmação Típica da Banca | Diagnóstico | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"A Ciência da Informação surgiu na Antiguidade clássica em Alexandria com o objetivo de guardar o livro impresso."* | **ERRADO** | Confunde CI com Biblioteconomia antiga. A CI surgiu na metade do séc. XX (pós-Segunda Guerra). |
+| *"Harold Borko definiu a Biblioteconomia como a ciência que investiga as propriedades e fluxos da informação."* | **ERRADO** | A definição canônica de Borko (1968) é de **Ciência da Informação**, e não de Biblioteconomia. |
+| *"O Princípio Monográfico de Paul Otlet propunha manter o livro encadernado intacto como unidade indivisível de conhecimento."* | **ERRADO** | O Princípio Monográfico propunha justamente o oposto: **desmembrar** o livro em fichas móveis analíticas. |
+| *"Suzanne Briet excluiu categoricamente do conceito de documento qualquer entidade que não fosse suporte em papel."* | **ERRADO** | Briet ampliou radicalmente o conceito de documento para qualquer objeto físico/natural que sirva de prova (o antílope). |
+| *"A Lei Federal nº 12.244/2010 estabeleceu que as bibliotecas escolares poderiam ser substituídas por salas de leitura sem bibliotecário."* | **ERRADO** | A Lei 12.244/2010 determinou a obrigatoriedade de biblioteca com acervo mínimo e presença de bibliotecário habilitado. |`,
   checkpoints: [
     {
       id: 'cp-1-1-1',

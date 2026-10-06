@@ -5,81 +5,120 @@ export const submodulo82: ModuloFilho = {
   numero: '8.2',
   titulo: 'ABNT NBR 10520: Citações em Documentos (Versão 2023)',
   descricaoCurta: 'A histórica atualização da ABNT NBR 10520:2023, o fim da caixa alta obrigatória entre parênteses, citação direta curta (até 3 linhas entre aspas) vs. longa (recuo de 4 cm, sem aspas e entrelinha simples), citação indireta, citação de citação (apud) e expressões latinas.',
-  tempoEstimadoMinutos: 35,
-  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Antônio Agenor Briquet de Lemos'],
+  tempoEstimadoMinutos: 45,
+  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Antônio Agenor Briquet de Lemos', 'Júnia Lessa França'],
   alertasCebraspe: [
-    'A MAIOR MUDANÇA DA NBR 10520:2023: o nome do autor em chamadas autor-data agora é grafado em letras maiúsculas e minúsculas TANTO fora QUANTO DENTRO dos parênteses (ex.: "(Silva, 2023, p. 10)" e NÃO mais "(SILVA, 2023, p. 10)"). A caixa alta obrigatória entre parênteses foi extinta!',
-    'Citação Direta Curta (até 3 linhas): inserida na continuidade do parágrafo, OBRIGATORIAMENTE entre aspas duplas. Aspas simples são usadas apenas para citações que já existiam no interior do texto citado.',
-    'Citação Direta Longa (mais de 3 linhas): deve ser destacada em parágrafo próprio, com recuo de EXATAMENTE 4 cm da margem esquerda, com tamanho de fonte menor (ex.: corpo 10), espaçamento interlinear simples e SEM QUALQUER USO DE ASPAS.',
-    'Indicação de página: na citação direta (curta ou longa), a indicação da página consultada é OBRIGATÓRIA (ex.: "Silva, 2023, p. 45"). Na citação indireta (paráfrase), a indicação de página é FACULTATIVA pela norma.',
-    'Expressões latinas de notas de rodapé (ibid., op. cit., passim, loc. cit.): só podem ser empregadas em notas de rodapé quando se adota o sistema numérico de citação; elas NÃO podem ser utilizadas no corpo do texto sob o sistema autor-data (com exceção exclusiva do "apud").',
+    'A MAIOR MUDANÇA DA NBR 10520:2023: o nome do autor em chamadas autor-data agora é grafado em letras maiúsculas e minúsculas (caixa alta e baixa) TANTO FORA QUANTO DENTRO dos parênteses (ex.: "(Silva, 2023, p. 10)" e NÃO mais "(SILVA, 2023, p. 10)"). A antiga caixa alta obrigatória entre parênteses foi formalmente extinta pela norma!',
+    'Citação Direta Curta (até 3 linhas): inserida na continuidade do parágrafo, OBRIGATORIAMENTE entre aspas duplas. Aspas simples são usadas apenas para citações secundárias que já constavam originalmente dentro do trecho citado.',
+    'Citação Direta Longa (mais de 3 linhas): deve ser destacada em parágrafo próprio independente, com recuo de EXATAMENTE 4 cm da margem esquerda, com tamanho de fonte menor (ex.: corpo 10 ou 11), espaçamento interlinear simples e SEM QUALQUER USO DE ASPAS.',
+    'Indicação de página: na citação direta (seja curta ou longa), a indicação da página consultada (ou localização precisa) é OBRIGATÓRIA (ex.: "Silva, 2023, p. 45"). Na citação indireta (paráfrase livre), a indicação de página é FACULTATIVA pela norma.',
+    'Destaques e Supressões: supressões de trechos são indicadas por reticências entre colchetes "[...]"; quando o pesquisador destaca uma palavra na citação direta, deve indicar no final da chamada "(grifo nosso)"; se o destaque já era original do autor consultado, indica-se "(grifo do autor)".',
+    'Expressões latinas de notas de rodapé (ibid., op. cit., passim, loc. cit., id.): só podem ser empregadas em notas de rodapé no sistema numérico de citação; elas NÃO podem ser utilizadas no corpo do texto sob o sistema autor-data (com exceção exclusiva da expressão "apud").',
   ],
   quadroComparativo: {
     titulo: 'Comparação das Modalidades de Citação conforme a ABNT NBR 10520:2023',
-    colunas: ['Modalidade de Citação', 'Critério de Extensão', 'Regras de Formatação Tipográfica', 'Exemplo Oficial Formatado'],
+    colunas: ['Modalidade de Citação', 'Critério de Extensão', 'Regras de Formatação Tipográfica', 'Exemplo Oficial Formatado', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
-      ['Citação Direta Curta', 'Até três linhas inteiras', 'Inserida no próprio parágrafo textual, entre aspas duplas, fonte e espaçamento normais', 'Segundo Vergueiro (2020, p. 15), "o acervo deve refletir a comunidade".'],
-      ['Citação Direta Longa', 'Mais de três linhas', 'Bloco isolado, recuo de 4 cm da margem esquerda, entrelinha simples, fonte menor (10pt), SEM aspas', 'A biblioteca parlamentar atua como órgão de consultoria técnica (...). (Almeida, 2024, p. 88).'],
-      ['Citação Indireta (Paráfrase)', 'Qualquer extensão', 'Redigida com as palavras do próprio autor do trabalho, sem aspas e sem recuo especial', 'O planejamento bibliotecário deve integrar-se aos objetivos institucionais da Casa (Maciel, 2022).'],
-      ['Citação de Citação (*apud*)', 'Citação de segunda mão', 'Utiliza a expressão latina *apud* (citado por), indicando autor original e obra consultada', 'Otlet (1934 apud Briet, 1951, p. 7) afirmava a universalidade do documento.'],
+      ['Citação Direta Curta', 'Até três linhas inteiras de texto', 'Inserida no próprio parágrafo textual, entre aspas duplas, fonte e entrelinha normais', 'Segundo Vergueiro (2020, p. 15), "o acervo deve refletir a comunidade".', 'Colocar citação curta em bloco recuado com fonte reduzida (ERRADO: só até 3 linhas fica no parágrafo).'],
+      ['Citação Direta Longa', 'Mais de três linhas inteiras', 'Bloco isolado, recuo de 4 cm da margem esquerda, entrelinha simples, fonte menor (10pt), SEM aspas', 'A biblioteca parlamentar atua como órgão de consultoria técnica (...). (Almeida, 2024, p. 88).', 'Colocar aspas no bloco recuado a 4 cm (ERRADO: citação longa NUNCA leva aspas).'],
+      ['Citação Indireta (Paráfrase)', 'Qualquer extensão de texto', 'Redigida com as palavras do autor do trabalho, sem aspas e sem recuo especial', 'O planejamento bibliotecário deve integrar-se aos objetivos institucionais da Casa (Maciel, 2022).', 'Afirmar que a citação indireta exige compulsoriamente a indicação da página (FALSO: é facultativa).'],
+      ['Citação de Citação (*apud*)', 'Citação de segunda mão', 'Utiliza a expressão latina *apud* (citado por), indicando autor original e obra consultada', 'Otlet (1934 apud Briet, 1951, p. 7) afirmava a universalidade do documento.', 'Referenciar no final do trabalho apenas a obra que não foi lida (FALSO: referencia-se a consultada).'],
     ],
   },
   teoriaDensaMarkdown: `### 1. A Nova ABNT NBR 10520:2023 e o Fim da Caixa Alta
 
-Em julho de 2023, a ABNT publicou a aguardada revisão histórica da **NBR 10520** (*Informação e Documentação — Citações em Documentos — Apresentação*, documento presente em nosso repositório \`ABNT/Abnt_nbr_10520_2023.pdf\`), revogando a versão de 2002:
+Em julho de 2023, a ABNT publicou a aguardada revisão histórica da norma **ABNT NBR 10520** (*Informação e Documentação — Citações em Documentos — Apresentação*), revogando a clássica versão de 2002 que vigorava há mais de duas décadas:
 
-#### A Grande Ruptura da Versão 2023:
+#### A Grande Ruptura Normativa da Edição 2023:
 * **Padronização em Letras Maiúsculas e Minúsculas:**
-  * Na norma antiga (2002), se o autor estivesse fora dos parênteses, usava-se maiúsculas/minúsculas (\`Conforme Silva (2002)\`), mas se estivesse dentro dos parênteses, era obrigatório o uso de caixa alta total (\`(SILVA, 2002)\`).
-  * **Na NBR 10520:2023, essa distinção artificial foi abolida!** A indicação de autoria agora é grafada em **letras maiúsculas e minúsculas em qualquer situação**, seja dentro, seja fora dos parênteses:
+  * No padrão antigo (2002), havia uma exigência bifásica: fora dos parênteses usava-se maiúsculas e minúsculas (\`Conforme Silva (2002)\`), mas dentro dos parênteses era obrigatório o uso de caixa alta total (\`(SILVA, 2002, p. 10)\`).
+  * **Na NBR 10520:2023, essa exigência de caixa alta entre parênteses foi formalmente extinta!**
+  * O sobrenome do autor agora é grafado em **letras maiúsculas e minúsculas em qualquer posição**, tanto fora quanto dentro dos parênteses:
     * *Dentro dos parênteses:* \`(Silva, 2023, p. 15)\` ou \`(Almeida; Maciel, 2023)\`.
-    * *No corpo do texto:* \`Segundo Silva (2023, p. 15)...\`
-* Essa mudança harmoniza a norma brasileira com o padrão internacional ISO e com os manuais de estilo modernos (APA, Chicago), sendo a pegadinha predileta das bancas em 2024-2026.
+    * *No corpo do parágrafo:* \`Segundo Silva (2023, p. 15)...\`
+    * *Entidades e órgãos institucionais:* \`(Brasil, 2021)\` ou \`(Câmara dos Deputados, 2023)\`.
+* Essa atualização alinhou a normalização brasileira aos padrões internacionais da ISO e aos manuais internacionais de estilo (APA, Chicago, Vancouver), constituindo o ponto de maior incidência em bancas examinadoras contemporâneas.
 
 ---
 
-### 2. Modalidades de Citação e Formatação Estrita
+### 2. Modalidades de Citação e Regras Tipográficas
+
+\`\`\`mermaid
+graph TD
+    A[Modalidades de Citação - NBR 10520:2023] --> B[Citação Direta Curta: Até 3 linhas]
+    A --> C[Citação Direta Longa: Mais de 3 linhas]
+    A --> D[Citação Indireta / Paráfrase]
+    A --> E[Citação de Citação: apud]
+    B --> B1[No fluxo do parágrafo, entre aspas duplas, p. obrigatória]
+    C --> C1[Bloco recuado a 4 cm, fonte menor, entrelinha simples, SEM aspas, p. obrigatória]
+    D --> D1[Palavras próprias, sem aspas, ano obrigatório, p. facultativa]
+    E --> E1[Autor Original apud Autor Consultado; referencia-se a obra lida]
+\`\`\`
 
 #### A. Citação Direta Curta
-* Transcrição textual literal e exata do documento original com **extensão de até três linhas**.
-* Permanece inserida normalmente no fluxo contínuo do parágrafo, devendo vir **obrigatoriamente entre aspas duplas**.
-* A indicação da autoria, do ano e da página consultada (ou localização) é **compulsória**.
-* Caso o trecho original citado já contenha palavras entre aspas, estas são convertidas em **aspas simples** na transcrição.
+* Transcrição textual exata das palavras do autor consultado com **extensão de até três linhas inteiras**.
+* Permanece inserida normalmente no fluxo contínuo do parágrafo textual.
+* Deve vir **obrigatoriamente entre aspas duplas (\`"\`)**.
+* Caso o fragmento original citado já possua palavras entre aspas, estas são convertidas em **aspas simples (\`'\`)** na transcrição.
+* A indicação da autoria, do ano de publicação e da **página consultada** (ou localização precisa no suporte) é **compulsória**:
+  * Ex.: De acordo com Vergueiro (2010, p. 25), "a seleção deve ser entendida como um processo de decisão contínuo".
 
 #### B. Citação Direta Longa
-* Transcrição literal com **mais de três linhas de extensão**.
-* **Regras Estritas de Apresentação:**
+* Transcrição literal de trecho com **mais de três linhas inteiras de extensão**.
+* **Requisitos Tipográficos Exigíveis e Cumulativos:**
   1. Deve ser destacada em parágrafo próprio independente;
-  2. Aplicar **recuo uniforme de exatamente 4 cm** a partir da margem esquerda;
-  3. Utilizar **tamanho de fonte menor** do que a do texto principal (geralmente corpo 10 ou 11);
-  4. O espaçamento entre linhas deve ser **simples** (enquanto o texto principal usa espaçamento 1,5);
-  5. **NÃO USAR ASPAS DUPLAS NEM SIMPLES** em nenhuma hipótese no bloco recuado.
+  2. Aplicar **recuo uniforme de exatamente 4 cm da margem esquerda** do texto;
+  3. Utilizar **tamanho de fonte menor** do que a fonte do texto principal (usualmente corpo 10 ou 11);
+  4. O espaçamento entre linhas deve ser **simples** (enquanto o corpo do texto usa espaçamento 1,5);
+  5. **NÃO USAR ASPAS EM NENHUMA HIPÓTESE** (nem simples nem duplas). O próprio recuo de 4 cm e a redução do corpo tipográfico já funcionam como sinalizador gráfico da transcrição;
+  6. A menção de autor, ano e **página é obrigatória**:
+     * Ex.: Ao final do bloco recuado: \`...fim da citação direta longa. (Lancaster, 1993, p. 88).\`
 
 #### C. Citação Indireta (Livre / Paráfrase)
-* Texto baseado na obra consultada, reproduzindo suas ideias com as palavras do próprio pesquisador.
-* Não leva aspas nem recuo. A menção do ano de publicação é obrigatória; a indicação da página é facultativa.
+* Texto baseado na obra consultada, no qual o pesquisador reproduz fielmente as ideias e argumentos do autor com suas próprias palavras e estilo redacional.
+* Não leva aspas nem recuo de margem.
+* A indicação do autor e do ano é obrigatória; a **indicação da página consultada é facultativa** pela norma (embora recomendada).
+  * Ex.: A gestão do conhecimento articula fluxos informais e capital humano nas organizações (Choo, 2003).
 
 #### D. Citação de Citação (*apud*)
-* Utilizada quando o pesquisador não teve acesso direto ao documento original, citando-o por intermédio de outro autor que o transcreveu.
-* Formato: \`Autor Original (Ano original apud Autor Consultado, Ano da obra consultada, página)\`.
-* Exemplo: \`Cutter (1876 apud Mey, 2009, p. 45)\`.
-* Nas referências finais ao término do trabalho, referencia-se obrigatoriamente a **obra efetivamente consultada** (no caso, Mey).
+* Utilizada quando o pesquisador não teve acesso físico ou digital ao documento original, citando-o por intermédio de outro autor que o transcreveu em sua obra:
+* A expressão latina **apud** significa "junto a", "em", "citado por" (grafa-se em fonte redonda ou itálica).
+* Formato Canônico:
+  $$\\text{Autor da Ideia Original (Ano original } \\textbf{apud} \\text{ Autor Consultado, Ano consultado, página)}$$
+  * Ex.: Segundo Otlet (1934 *apud* Briet, 1951, p. 7), o documento abrange múltiplos suportes informacionais.
+* **Regra Crítica das Referências Finais:** Na lista de referências ao término do trabalho acadêmico ou relatório técnico, **deve constar obrigatoriamente a referência completa da obra efetivamente consultada** (no exemplo, Briet, 1951). Faculta-se mencionar a obra original em nota de rodapé informativa.
 
 ---
 
-### 3. Sistemas de Chamada e Expressões Latinas de Notas
+### 3. Supressões, Destaques, Interpolações e Erros
 
-* **Sistemas de Chamada no Texto:** O trabalho acadêmico deve optar por um único sistema:
-  1. *Sistema Autor-Data:* As fontes são indicadas pelo sobrenome do autor seguido da data no próprio texto.
-  2. *Sistema Numérico:* As fontes são indicadas por algarismos arábicos em expoente (\`¹\`) ou entre parênteses (\`(1)\`), remetendo a uma lista numérica ordenada de referências ou às notas de rodapé.
-* **Expressões Latinas em Notas de Rodapé:**
-  São permitidas **exclusivamente no rodapé** para evitar repetições quando se utiliza o sistema numérico:
-  * \`Idem\` ou \`Id.\`: do mesmo autor.
-  * \`Ibidem\` ou \`Ibid.\`: na mesma obra e mesmo autor.
-  * \`Opus citatum\` ou \`Op. cit.\`: na obra citada anteriormente.
-  * \`Passim\`: aqui e ali (a informação encontra-se dispersa em várias páginas do documento).
-  * \`Loco citato\` ou \`Loc. cit.\`: no mesmo lugar/página citado anteriormente.
-  * \`Sequentia\` ou \`et seq.\`: e seguintes (ex.: p. 15 et seq.).`,
+* **Supressões (*omissões de trechos da citação*):** Indicadas por reticências entre colchetes: \`[...]\`.
+* **Interpolações, Acréscimos ou Comentários:** Inseridos entre colchetes no interior da citação: \`[grifo nosso]\`, \`[tradução nossa]\`, \`[nota do autor]\`.
+* **Incorreções no Texto Original Citado:** Quando o texto original contém um erro ortográfico, factual ou gramatical e o pesquisador deseja manter a fidelidade da transcrição, insere-se a expressão latina \`[sic]\` (assim mesmo) imediatamente após o erro entre colchetes.
+* **Indicação de Destaques Tipográficos:**
+  * Quando o pesquisador decide destacar (negrito ou itálico) uma palavra ou frase na citação direta que não estava destacada no original, acrescenta-se na chamada: \`(grifo nosso)\` ou \`(grifo próprio)\`.
+  * Se o destaque gráfico já pertencia ao texto original do autor consultado, registra-se: \`(grifo do autor)\`.
+
+---
+
+### 4. Sistemas de Chamada e as Expressões Latinas de Rodapé
+
+A norma disciplina que todo documento acadêmico ou técnico deve escolher **um único sistema de chamada** consistente para todo o trabalho:
+
+#### A. O Sistema Autor-Data vs. Sistema Numérico
+1. **Sistema Autor-Data:** As fontes são identificadas no corpo do texto pelo sobrenome do autor seguido da data de publicação e página: \`(Mey, 2009, p. 45)\`.
+2. **Sistema Numérico:** A citação é indicada por numeração única sequencial em algarismos arábicos em expoente (\`¹\`) ou entre parênteses (\`(1)\`), que remete a uma lista ordenada de referências ao final ou a notas de rodapé de referência.
+* *Incompatibilidade Absoluta:* A NBR 10520 **proíbe o uso simultâneo do sistema autor-data e do sistema numérico** para a citação de fontes no corpo do mesmo trabalho.
+
+#### B. Expressões Latinas de Notas de Rodapé
+São admitidas **exclusivamente em notas de rodapé de referência** no sistema numérico, para evitar repetições exaustivas:
+* \`Idem\` ou \`Id.\`: do mesmo autor (utilizado quando se cita outra obra do mesmo autor imediatamente anterior).
+* \`Ibidem\` ou \`Ibid.\`: na mesma obra e mesmo autor (quando se cita a mesma obra em página igual ou diferente imediatamente após).
+* \`Opus citatum\` ou \`Op. cit.\`: na obra citada anteriormente (usado para o mesmo autor quando há outras notas intercaladas).
+* \`Passim\`: aqui e ali (indica que a matéria encontra-se dispersa em várias passagens da obra citada).
+* \`Loco citato\` ou \`Loc. cit.\`: no mesmo lugar / na mesma página citada anteriormente.
+* \`Sequentia\` ou \`et seq.\`: e páginas seguintes (ex.: p. 15 et seq.).
+* *Atenção Cebraspe:* No corpo do texto sob o sistema autor-data, **nenhuma dessas expressões latinas é permitida**, com exceção única do **apud**.`,
   checkpoints: [
     {
       id: 'cp-8-2-1',
@@ -95,12 +134,12 @@ Em julho de 2023, a ABNT publicou a aguardada revisão histórica da **NBR 10520
       gabarito: 'E',
       justificativa: 'Errado! Citações diretas longas com mais de três linhas NÃO LEVAM ASPAS em nenhuma hipótese. O próprio recuo de 4 cm e a fonte menor já indicam a citação.',
     },
-      {
+    {
       id: 'cp-8-2-3',
-      pergunta: "Micro-Checkpoint 3: Citações Diretas Longas conforme a ABNT NBR 10520",
-      item: "Conforme a ABNT NBR 10520, citações diretas com mais de três linhas devem ser destacadas com recuo de 4 cm da margem esquerda, com fonte em tamanho menor que o do texto principal e sem aspas.",
+      pergunta: 'Micro-Checkpoint 3: Citações Diretas Longas conforme a ABNT NBR 10520',
+      item: 'Conforme a ABNT NBR 10520, citações diretas com mais de três linhas devem ser destacadas com recuo de 4 cm da margem esquerda, com fonte em tamanho menor que o do texto principal e sem aspas.',
       gabarito: 'C',
-      justificativa: "Certo! Esta é a regra canônica expressa na norma: bloco recuado a 4 cm, espaçamento simples, tamanho de fonte menor (usualmente 10 ou 11) e sem o uso de aspas tipográficas.",
+      justificativa: 'Certo! Esta é a regra canônica expressa na norma: bloco recuado a 4 cm, espaçamento simples, tamanho de fonte menor (usualmente 10 ou 11) e sem o uso de aspas tipográficas.',
     },
   ],
   mnemonicos: {
@@ -116,7 +155,7 @@ Em julho de 2023, a ABNT publicou a aguardada revisão histórica da **NBR 10520
         id: 'tl-8-2-2',
         periodo: 'Julho de 2023',
         disciplina: 'NBR 10520:2023',
-        focoPrincipal: 'Revolução normativa: fim da caixa alta e padronização em maiúsculas e minúsculas: (Silva, 2023)',
+        focoPrincipal: 'Revolução normativa: extinção da caixa alta entre parênteses e padronização em maiúsculas e minúsculas: (Silva, 2023)',
         figuraChave: 'Comitê Brasileiro CB-014',
       },
     ],
@@ -150,6 +189,12 @@ Em julho de 2023, a ABNT publicou a aguardada revisão histórica da **NBR 10520
         afirmacao: 'No sistema autor-data de citação no corpo do texto, é permitido o emprego de expressões latinas como "ibid." e "op. cit." no interior dos parágrafos.',
         gabarito: 'E',
         porQue: 'As expressões como ibid., op. cit. e loc. cit. são de uso restrito a NOTAS DE RODAPÉ (sistema numérico); no texto autor-data só se admite o "apud".',
+      },
+      {
+        id: 'peg-8-2-3',
+        afirmacao: 'Conforme a ABNT NBR 10520:2023, nas citações diretas com mais de três linhas, além do recuo de 4 cm e fonte menor, é obrigatório o uso de aspas duplas no início e ao término do bloco transcrito.',
+        gabarito: 'E',
+        porQue: 'Citações longas recuadas a 4 cm NÃO LEVAM ASPAS. O próprio recuo e o corpo tipográfico reduzido já exercem a função de isolamento gráfico da transcrição.',
       },
     ],
   },

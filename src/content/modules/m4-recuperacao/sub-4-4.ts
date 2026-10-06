@@ -25,68 +25,121 @@ export const submodulo44: ModuloFilho = {
     ],
   },
   teoriaDensaMarkdown: `### 1. O Processo de Referência segundo Denis Grogan (1995)
-
 Na obra clássica *A Prática do Serviço de Referência* (presente em nosso acervo em \`Recuperação, fontes, referência e usuários\`), **Denis Grogan** define o serviço de referência como o contato pessoal e a assistência direta prestada pelo bibliotecário ao leitor em busca de conhecimento.
 
-#### As Oito Etapas Decisórias do Processo de Referência
-Grogan decompõe a dinâmica da referência em uma cadeia sequencial inegociável:
-1. **O Problema:** O contexto real, acadêmico ou legislativo do usuário que gera um impasse prático ou intelectual.
-2. **A Necessidade de Informação:** A tomada de consciência interior pelo usuário de que ele necessita de dados ou subsídios para solucionar seu problema.
-3. **A Questão Inicial:** A pergunta expressa pelo usuário ao chegar ao balcão ou chat. Quase sempre é uma pergunta imperfeita, vaga ou distorcida da real necessidade.
-4. **A Questão Negociada:** O resultado da **entrevista de referência**: mediante escuta ativa e perguntas bem formuladas, o bibliotecário decodifica a real necessidade informacional oculta por trás da questão inicial.
-5. **A Estratégia de Busca:** O plano mental ou estruturado em operadores booleanos, campos e fontes adequadas para executar a consulta.
-6. **O Processo de Busca:** A navegação concreta e a recuperação física ou eletrônica nos sistemas, bases de dados e estantes.
-7. **A Resposta:** O conjunto de dados, citações, referências ou documentos entregues ao usuário.
-8. **A Solução:** O julgamento de relevância feito pelo próprio usuário, avaliando se a resposta de fato resolveu o seu problema original.
+\`\`\`mermaid
+graph TD
+    E1["1. O PROBLEMA (Usuário vivencia um impasse prático ou teórico)"] --> E2["2. A NECESSIDADE DE INFORMAÇÃO (Consciência da lacuna cognitiva)"]
+    E2 --> E3["3. A QUESTÃO INICIAL (Pergunta expressa ao bibliotecário - vaga/imperfeita)"]
+    E3 --> E4["4. A QUESTÃO NEGOCIADA (Entrevista de referência decodifica a necessidade real)"]
+    E4 --> E5["5. A ESTRATÉGIA DE BUSCA (Plano lógico: termos, fontes e operadores)"]
+    E5 --> E6["6. O PROCESSO DE BUSCA (Execução física ou eletrônica nas bases e acervos)"]
+    E6 --> E7["7. A RESPOSTA (Entrega dos documentos, citações ou dados localizados)"]
+    E7 --> E8["8. A SOLUÇÃO (Julgamento de valor pelo usuário: o problema foi resolvido?)"]
+\`\`\`
+
+#### As Oito Etapas Decisórias e os Papéis dos Atores
+A banca **CEBRASPE** cobra a sequência exata e a atribuição de responsabilidades em cada etapa:
+1. **O Problema:** Situação fática ou dilema intelectual que o usuário precisa resolver em seu trabalho ou estudo. **Ator: Usuário**.
+2. **A Necessidade de Informação:** O reconhecimento interno de que o conhecimento acumulado é insuficiente e que dados externos são necessários. **Ator: Usuário**.
+3. **A Questão Inicial:** A verbalização da dúvida apresentada no balcão de referência, telefone ou chat. É quase invariavelmente **imperfeita, distorcida ou excessivamente genérica** em relação à necessidade real. **Ator: Usuário**.
+4. **A Questão Negociada:** O cerne da mediação do bibliotecário. Por meio da **entrevista de referência**, o profissional filtra ambiguidades e formula a verdadeira questão técnica a ser respondida. **Atores: Bibliotecário e Usuário em cooperação**.
+5. **A Estratégia de Busca:** A tradução da questão negociada na linguagem do sistema (seleção de vocabulários controlados, tesauros, campos e operadores booleanos). **Ator: Bibliotecário**.
+6. **O Processo de Busca:** A navegação concreta em catálogos, estantes, bases de dados comerciais ou repositórios digitais. **Ator: Bibliotecário**.
+7. **A Resposta:** O produto informativo entregue ao usuário (livros, artigos, relatórios ou referências). **Ator: Bibliotecário**.
+8. **A Solução:** A etapa final de validação pragmática. Somente o próprio usuário tem competência epistemológica para determinar se a resposta obtida efetivamente sanou seu problema original. **Ator: Usuário**.
 
 ---
 
-### 2. A Entrevista de Referência e o Serviço Digital
+### 2. Tipologia das Questões de Referência segundo William Katz (2002)
+O autor norte-americano William Katz categorizou as consultas recebidas pelo serviço de referência em quatro classes fundamentais:
 
-* **A Entrevista de Referência:**
-  * Diálogo interpessoal que tem por objetivo clarificar a dúvida do usuário e reduzir a **ansiedade informacional**.
-  * Requer o uso hábil de **perguntas abertas** no início (para estimular o usuário a contextualizar o problema) e **perguntas fechadas** no fechamento (para delimitar datas, idiomas, escopo e nível de aprofundamento).
-* **Serviço de Referência Virtual (SRV):**
-  * *Modalidade Síncrona:* Interação em tempo real (chat, mensagens instantâneas, videoconferência). Exige agilidade e competências comunicacionais textuais.
-  * *Modalidade Assíncrona:* O usuário formula a demanda e recebe a resposta com intervalo de tempo (e-mail, formulários web, sistemas de tickets e FAQs).
-
----
-
-### 3. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn
-
-Desenvolvida pelo engenheiro da IBM **Hans Peter Luhn** em 1958, a DSI é a modalidade mais refinada de serviço de alerta corrente:
-* **Conceito:** Canalização contínua de novos itens de informação relevantes diretamente para o usuário cuja probabilidade de uso seja alta.
-* **Componentes Estruturais:**
-  1. *Perfil de Interesse do Usuário:* Conjunto de termos, descritores, autores ou áreas temáticas que representam os interesses de pesquisa do usuário.
-  2. *Perfil do Documento:* Descritores e metadados atribuídos aos novos documentos ingressados no sistema.
-  3. *Mecanismo de Comparação (*Matching*):* Software que cruza periodicamente a base de perfis com as novas entradas.
-  4. *Envio de Notificações / Alertas:* Mensagens personalizadas via e-mail, feeds RSS ou aplicativo.
-  5. *Mecanismo de Retroalimentação (*Feedback*):* O usuário avalia a pertinência dos itens recebidos ("relevante" / "não relevante"), permitindo refinar e calibrar continuamente seu perfil.
+| Categoria da Questão (Katz) | Complexidade | Fontes Utilizadas | Exemplo Prático na Câmara dos Deputados |
+| :--- | :--- | :--- | :--- |
+| **1. Questões de Direção / Administrativas** | Mínima (não bibliográfica). | Nenhuma fonte documental técnica; conhecimento do prédio e regulamento. | *"Onde fica o banheiro?", "Qual o horário de funcionamento da Seção de Raras?", "Onde tiro cópias?"* |
+| **2. Questões de Pronta-Referência (*Ready Reference*)** | Baixa / Factual pontual. | Obras de referência rápida (dicionários, anuários estatísticos, diretórios). | *"Qual é o número da Lei de Responsabilidade Fiscal?", "Quem é o atual Presidente da Câmara dos Deputados?"* |
+| **3. Questões de Pesquisa Específica (*Specific Search*)** | Média. | Catálogos em linha (OPAC), bibliografias especializadas e bases referenciais. | *"Quais monografias a biblioteca possui sobre a reforma tributária aprovada na Emenda Constitucional 132?"* |
+| **4. Questões de Pesquisa Ampla / Avançada (*Research / Extended*)** | Máxima. | Múltiplas bases heterogêneas, literatura cinzenta, comutação e consulta a especialistas. | *"Elaborar dossiê bibliográfico e jurisprudencial exaustivo sobre a evolução do controle de constitucionalidade de medidas provisórias nos últimos 20 anos."* |
 
 ---
 
-### 4. Teorias do Comportamento Informacional e Estudos de Usuários
+### 3. A Entrevista de Referência e os Níveis de Necessidade de Robert S. Taylor (1968)
+Em seu artigo clássico *Question-Negotiation and Information Seeking in Libraries* (1968), **Robert S. Taylor** formulou os quatro níveis estruturais de necessidade de informação que habitam a mente do consulente:
 
-A evolução dos estudos de usuários transitou do paradigma tradicional para o alternativo:
+* **$Q_1$ — Necessidade Visceral:** A necessidade vaga, subconsciente e nebulosa de informação. O indivíduo sente que algo lhe falta, mas é totalmente incapaz de expressar isso em palavras (*informação intangível*).
+* **$Q_2$ — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.
+* **$Q_3$ — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. Pode ser imperfeita ou distorcida (*a Questão Inicial de Grogan*).
+* **$Q_4$ — Necessidade Comprometida com o Sistema:** A questão adaptada e traduzida para os limites técnicos e operacionais do sistema de recuperação da biblioteca (*a Questão Negociada / Estratégia de Busca*).
 
-* **Abordagem Tradicional (Centrada no Sistema):**
-  * Foco nos produtos, no acervo e na tecnologia. Métodos puramente quantitativos de contagem de circulação e frequência à biblioteca. Considera o usuário como consumidor passivo.
-* **Abordagem Alternativa / Moderna (Centrada no Usuário):**
-  * Foco no ser humano que busca sentido, em seus processos cognitivos, modelos mentais e estados emocionais em contextos socioculturais específicos (métodos qualitativos).
-
-#### Os Quatro Modelos Teóricos Canônicos:
-1. **Tom Wilson (1981 / 1996):** As necessidades de informação são necessidades secundárias decorrentes de necessidades fisiológicas, afetivas ou cognitivas. O comportamento de busca é modulado por variáveis psicológicas, ambientais e demográficas, e envolve desde buscas ativas até o encontro fortuito com a informação (*information encountering*).
-2. **Brenda Dervin (*Sense-Making*):** O ser humano movimenta-se pelo tempo e espaço construindo sentido. Quando encontra uma descontinuidade ou barreira cognitiva (**lacuna / gap**), cria estratégias (**pontes**) para obter a informação e alcançar um novo resultado funcional.
-3. **Nicholas Belkin (*Anomalous State of Knowledge - ASK*):** O usuário inicia a busca por estar em um estado cognitivo imperfeito. Por não saber exatamente o que lhe falta, é incapaz de formular uma busca perfeita de início, necessitando da mediação interativa do sistema ou do bibliotecário.
-4. **Carol Kuhlthau (*Information Search Process - ISP*):** Mapeia os seis estágios da pesquisa (Iniciação, Seleção, Exploração, Formulação, Coleta, Apresentação), demonstrando que o usuário vivencia sentimentos de grande ansiedade, dúvida e frustração no início, os quais se convertem em confiança e alívio à medida que a clareza conceitual é alcançada.
+#### A Técnica do "Funil de Perguntas" na Entrevista
+Para transformar uma questão inicial vaga em uma consulta eficiente sem constranger o usuário:
+1. **Perguntas Abertas no Início:** *"Conte-me mais sobre o foco da sua pesquisa", "Para qual finalidade o senhor utilizará esses dados?"* (estimula a contextualização ampla);
+2. **Perguntas Exploratórias Intermediárias:** *"Quais autores ou correntes teóricas o senhor já consultou?", "O enfoque é de direito público ou privado?"*;
+3. **Perguntas Fechadas no Encerramento:** *"O senhor precisa apenas de legislação federal ou também estadual?", "Podemos restringir aos últimos 5 anos?", "O idioma em inglês atende?"* (delimita os parâmetros exatos da busca).
 
 ---
 
-### 5. Competência Informacional (*Information Literacy*)
+### 4. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
+Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:
 
-Conforme a Declaração de Alexandria da UNESCO (2005) e as diretrizes da ALA/ACRL:
-* É o conjunto integrado de conhecimentos, habilidades e atitudes que permite a um indivíduo **reconhecer quando precisa de informação, saber localizá-la, avaliá-la criticamente e utilizá-la eticamente** para a tomada de decisões e a produção de novos conhecimentos.
-* No contexto parlamentar da Câmara dos Deputados, o bibliotecário atua como educador e mediador infocomunicacional, capacitando assessores e cidadãos no uso crítico das fontes públicas.`,
+\`\`\`mermaid
+graph LR
+    P["PERFIL DO USUÁRIO<br>(Descritores, Autores e Temas de Interesse)"] --> M["MECANISMO DE CASAMENTO (Matching)"]
+    D["PERFIL DO DOCUMENTO<br>(Metadados de Novas Obras Adquiridas)"] --> M
+    M --> N["NOTIFICAÇÃO / ALERTA (E-mail, RSS, App)"]
+    N --> F["RETROALIMENTAÇÃO (Feedback: Útil vs Inútil)"]
+    F -->|Calibração Contínua| P
+\`\`\`
+
+#### A. As Duas Gerações de DSI Cobradas pelo Cebraspe (*Prova STJ 2024*)
+* **DSI de 1ª Geração (Tradicional / Analógica / Em Lote):**
+  * Baseada em cartões perfurados ou perfis fixos de interesse preenchidos em formulários em papel;
+  * Cruzamentos periódicos manuais ou em lotes computacionais (*batch processing*);
+  * Alertas físicos encaminhados em fichas impressas ou boletins datilografados;
+  * Feedback lento e baixa flexibilidade de calibração.
+* **DSI de 2ª Geração (Digital / Automatizada / Semântica):**
+  * Perfis dinâmicos alimentados continuamente por algoritmos de aprendizado de máquina (*machine learning*) e rastreamento do histórico de consultas do usuário;
+  * Alertas instantâneos disparados em tempo real via feeds RSS, e-mails automatizados, APIs e notificações em aplicativos móveis;
+  * *Feedback* com um único clique (botão de "relevante/não relevante"), ajustando os pesos estatísticos do perfil do usuário em tempo de execução.
+
+---
+
+### 5. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
+
+1. **Modelo de Tom D. Wilson (1981 / 1996):**
+   * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.
+   * Introduz as **variáveis intervenientes**: barreiras psicológicas, demográficas, ambientais e características da fonte que podem impedir ou desviar o comportamento de busca.
+2. **Abordagem do *Sense-Making* de Brenda Dervin (1983 / 1992):**
+   * O ser humano é visto como um viajante que se desloca no tempo e no espaço construindo sentido para sua vida.
+   * **O Triângulo do Sense-Making:**
+     * **Situação:** O contexto histórico e espaço-temporal onde o indivíduo está inserido;
+     * **Lacuna (*Gap*):** A barreira cognitiva, dúvida ou incerteza que interrompe a sua caminhada;
+     * **Ponte:** As informações, ideias e estratégias mobilizadas para superar a barreira;
+     * **Resultado / Uso:** A nova compreensão alcançada que permite continuar a caminhada.
+3. **Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):**
+   * O usuário busca informação em um sistema precisamente porque reconhece uma **anomalia ou lacuna em seu estado de conhecimento**. Por não dominar o tema, ele tem extrema dificuldade de formular a consulta exata em termos técnicos no início da interação.
+4. **Modelo ISP (*Information Search Process*) de Carol Kuhlthau (1991):**
+   * Integra três domínios do ser humano na busca: **Sentimentos (afetivo)**, **Pensamentos (cognitivo)** e **Ações (físico)**.
+   * Divide a pesquisa em 6 estágios: Iniciação $\\rightarrow$ Seleção $\\rightarrow$ Exploração $\\rightarrow$ Formulação $\\rightarrow$ Coleta $\\rightarrow$ Apresentação.
+   * Revela que os sentimentos de incerteza, confusão e frustração são máximos no início e na fase de exploração, convertendo-se em confiança e satisfação após a formulação do foco.
+
+---
+
+### 6. Competência em Informação (*Information Literacy*)
+* Definida pela ACRL/ALA e pelas Declarações de Praga (2003) e Alexandria (2005 - Farol da Sociedade da Informação):
+* A competência informacional é a capacidade do indivíduo de **reconhecer quando necessita de informação, saber localizá-la, avaliá-la criticamente em sua autoridade e exatidão, e utilizá-la de forma ética e legal**.
+* Na Câmara dos Deputados, manifesta-se nos programas de capacitação continuada oferecidos pela Biblioteca Pedro Aleixo e pelo Cefor aos servidores e assessores parlamentares.
+
+---
+
+### 7. Quadro Sinóptico de Cascas de Banana do Cebraspe em Referência e Usuários
+
+| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
+| :--- | :--- | :--- |
+| *"Na oitava etapa do processo de referência de Denis Grogan (A Solução), o bibliotecário decide unilateralmente se a pesquisa foi concluída."* | **ERRADO** | A Solução é uma avaliação de competência **EXCLUSIVA DO USUÁRIO** (somente ele sabe se seu problema foi resolvido). |
+| *"No modelo de Denis Grogan, a formulação da estratégia de busca precede o processo de negociação da questão com o usuário."* | **ERRADO** | A Questão Negociada (etapa 4) **antecede** a Estratégia de Busca (etapa 5). Não se pode planejar a busca antes de negociar a dúvida. |
+| *"Segundo Brenda Dervin, a informação é um objeto físico estático independente do contexto existencial do indivíduo."* | **ERRADO** | No *Sense-Making*, a informação é **construída ativamente** pelo sujeito para transpor lacunas cognitivas situadas. |
+| *"Nas questões de pronta-referência de William Katz, o bibliotecário precisa elaborar buscas exaustivas em bases de teses e patentes."* | **ERRADO** | Pronta-referência destina-se a **fatos rápidos e pontuais** consultados em obras de referência básica (dicionários, anuários). |`,
   checkpoints: [
     {
       id: 'cp-4-4-1',
