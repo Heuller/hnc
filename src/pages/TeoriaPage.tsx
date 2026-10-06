@@ -323,6 +323,7 @@ export const TeoriaPage: React.FC = () => {
                   onClick={toggleFocusMode}
                   className="px-2 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors"
                   title="Modo Foco imersivo (Atalho: F | Sair: Esc)"
+                  aria-label="Modo Foco"
                 >
                   <Eye className="w-3.5 h-3.5 text-accent" />
                   <span className="hidden xs:inline">Foco</span>
@@ -338,7 +339,7 @@ export const TeoriaPage: React.FC = () => {
                   aria-label="Abrir preferências de leitura e tipografia"
                 >
                   <Type className="w-3.5 h-3.5 text-accent" />
-                  <span>Aa</span>
+                  <span>Aa Leitura</span>
                 </button>
               </div>
             </div>
