@@ -88,11 +88,21 @@ export const useNavigationStore = create<NavigationState>((set) => {
     window.addEventListener('hashchange', () => {
       const nextView = getViewFromHash();
       const nextSimuladoId = getSimuladoIdFromHash();
-      set((state) => ({
-        activeView: nextView,
-        currentRoute: nextView,
-        targetSimuladoId: nextSimuladoId || state.targetSimuladoId,
-      }));
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      } catch {
+        window.scrollTo(0, 0);
+      }
+      set((state) => {
+        if (state.activeView === nextView && state.targetSimuladoId === nextSimuladoId) {
+          return state;
+        }
+        return {
+          activeView: nextView,
+          currentRoute: nextView,
+          targetSimuladoId: nextSimuladoId || state.targetSimuladoId,
+        };
+      });
     });
   }
 
@@ -104,13 +114,29 @@ export const useNavigationStore = create<NavigationState>((set) => {
     sidebarCollapsed: false,
     setActiveView: (view: AppView) => {
       if (typeof window !== 'undefined') {
-        window.location.hash = `#${view}`;
+        try {
+          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        } catch {
+          window.scrollTo(0, 0);
+        }
+        const currentHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
+        if (currentHash !== view) {
+          window.location.hash = `#${view}`;
+        }
       }
       set({ activeView: view, currentRoute: view });
     },
     setCurrentRoute: (view: AppView) => {
       if (typeof window !== 'undefined') {
-        window.location.hash = `#${view}`;
+        try {
+          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        } catch {
+          window.scrollTo(0, 0);
+        }
+        const currentHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
+        if (currentHash !== view) {
+          window.location.hash = `#${view}`;
+        }
       }
       set({ activeView: view, currentRoute: view });
     },
@@ -133,7 +159,16 @@ export const useNavigationStore = create<NavigationState>((set) => {
     },
     navigateToSimulado: (simuladoId?: string) => {
       if (typeof window !== 'undefined') {
-        window.location.hash = simuladoId ? `#simulado?id=${simuladoId}` : '#simulado';
+        try {
+          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        } catch {
+          window.scrollTo(0, 0);
+        }
+        const targetHash = simuladoId ? `simulado?id=${simuladoId}` : 'simulado';
+        const currentHash = window.location.hash.replace(/^#\/?/, '').trim();
+        if (currentHash !== targetHash) {
+          window.location.hash = `#${targetHash}`;
+        }
       }
       set({
         activeView: 'simulado',

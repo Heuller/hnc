@@ -1,5 +1,4 @@
-import { Suspense, lazy, useEffect } from 'react';
-import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
+import React, { Suspense, lazy, useEffect } from 'react';
 import { AppShell } from './components/layout/AppShell';
 import { ErrorBoundary } from './components/common/ErrorBoundary';
 import { useNavigationStore } from './store/useNavigationStore';
@@ -7,40 +6,63 @@ import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
 
 import { PainelPage } from './pages/PainelPage';
-const TeoriaPage = lazy(() =>
+
+// Carregador resiliente a novos deploys e falhas transientes de rede
+function lazyWithRetry<T extends React.ComponentType<any>>(
+  componentImport: () => Promise<{ default: T }>
+) {
+  return lazy(async () => {
+    const pageHasAlreadyBeenReloaded = sessionStorage.getItem('hnc_chunk_reload');
+    try {
+      const component = await componentImport();
+      sessionStorage.removeItem('hnc_chunk_reload');
+      return component;
+    } catch (error) {
+      if (!pageHasAlreadyBeenReloaded) {
+        sessionStorage.setItem('hnc_chunk_reload', 'true');
+        window.location.reload();
+        return new Promise<{ default: T }>(() => {});
+      }
+      sessionStorage.removeItem('hnc_chunk_reload');
+      throw error;
+    }
+  });
+}
+
+const TeoriaPage = lazyWithRetry(() =>
   import('./pages/TeoriaPage').then((m) => ({ default: m.TeoriaPage }))
 );
-const JornadaPage = lazy(() =>
+const JornadaPage = lazyWithRetry(() =>
   import('./pages/JornadaPage').then((m) => ({ default: m.JornadaPage }))
 );
-const TreinosPage = lazy(() =>
+const TreinosPage = lazyWithRetry(() =>
   import('./pages/TreinosPage').then((m) => ({ default: m.TreinosPage }))
 );
-const DiscursivaPage = lazy(() =>
+const DiscursivaPage = lazyWithRetry(() =>
   import('./pages/DiscursivaPage').then((m) => ({ default: m.DiscursivaPage }))
 );
-const SimuladoPage = lazy(() =>
+const SimuladoPage = lazyWithRetry(() =>
   import('./pages/SimuladoPage').then((m) => ({ default: m.SimuladoPage }))
 );
-const RadarPage = lazy(() =>
+const RadarPage = lazyWithRetry(() =>
   import('./pages/RadarPage').then((m) => ({ default: m.RadarPage }))
 );
-const ProgressoPage = lazy(() =>
+const ProgressoPage = lazyWithRetry(() =>
   import('./pages/ProgressoPage').then((m) => ({ default: m.ProgressoPage }))
 );
-const DesignSystemPage = lazy(() =>
+const DesignSystemPage = lazyWithRetry(() =>
   import('./pages/DesignSystemPage').then((m) => ({ default: m.DesignSystemPage }))
 );
-const DevRascunhosPage = lazy(() =>
+const DevRascunhosPage = lazyWithRetry(() =>
   import('./pages/DevRascunhosPage').then((m) => ({ default: m.DevRascunhosPage }))
 );
-const CadernoErrosPage = lazy(() =>
+const CadernoErrosPage = lazyWithRetry(() =>
   import('./pages/CadernoErrosPage').then((m) => ({ default: m.CadernoErrosPage }))
 );
-const EditalPage = lazy(() =>
+const EditalPage = lazyWithRetry(() =>
   import('./pages/EditalPage').then((m) => ({ default: m.EditalPage }))
 );
-const FolhaVesperaPage = lazy(() =>
+const FolhaVesperaPage = lazyWithRetry(() =>
   import('./pages/FolhaVesperaPage').then((m) => ({ default: m.FolhaVesperaPage }))
 );
 
@@ -62,7 +84,6 @@ const PageSkeletonLoader = () => (
 
 export function App() {
   const { activeView } = useNavigationStore();
-  const shouldReduceMotion = useReducedMotion();
   const { user, loading, initialize: initAuth } = useAuthStore();
 
   useEffect(() => {
@@ -71,6 +92,15 @@ export function App() {
       unsubscribe();
     };
   }, [initAuth]);
+
+  // Garante posicionamento no topo a cada transição de rota
+  useEffect(() => {
+    try {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    } catch {
+      window.scrollTo(0, 0);
+    }
+  }, [activeView]);
 
   if (loading) {
     return (
@@ -125,20 +155,11 @@ export function App() {
   return (
     <AppShell>
       <ErrorBoundary>
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.div
-            key={activeView}
-            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 6 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -6 }}
-            transition={{ duration: 0.18, ease: 'easeOut' }}
-            className="w-full"
-          >
-            <Suspense fallback={<PageSkeletonLoader />}>
-              {renderActiveView()}
-            </Suspense>
-          </motion.div>
-        </AnimatePresence>
+        <div key={activeView} className="w-full animate-fadeIn">
+          <Suspense fallback={<PageSkeletonLoader />}>
+            {renderActiveView()}
+          </Suspense>
+        </div>
       </ErrorBoundary>
     </AppShell>
   );
