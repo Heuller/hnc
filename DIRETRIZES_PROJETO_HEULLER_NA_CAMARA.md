@@ -538,14 +538,27 @@ Construído a partir de pesquisa científica prévia (Fase P0) fundamentada nos 
 - **Deep Links e Rotas:**
   - Suporte nativo a hash com query (`#simulado?id=m2-catalogacao`), permitindo links diretos para simulados específicos com restauração automática.
 
-### 18.6. Indicadores de Validação Atualizados
-* **Testes Automatizados (Vitest):** 27 arquivos de teste, **281 testes executados com 100% de aprovação (0 falhas)**.
+### 18.6. Erradicação de Telas Brancas na Navegação e Estabilização de Roteamento SPA (`App.tsx`, `useNavigationStore.ts`)
+- **Causa Raiz Identificada do Congelamento de Tela Branca:**
+  - O roteador principal em `App.tsx` utilizava `<AnimatePresence mode="wait">` envolvendo `<motion.div key={activeView} exit={{ opacity: 0, y: -6 }}>` com `<Suspense>` interno.
+  - No React 19 com Motion 14, quando o usuário clicava para trocar de aba (ex: de Teoria para Painel ou Jornada), a renderização concorrente e o desmonte assíncrono suspendiam o callback `onExitComplete`.
+  - Como consequência, o elemento anterior ficava permanentemente preso no DOM com `style="opacity: 0; transform: translateY(-6px);"`, e a nova página **nunca chegava a ser montada**, gerando a tela 100% branca relatada pelo candidato.
+  - Além disso, a ausência de reset de rolagem fazia com que, ao sair da Teoria (altura ~7.700px) para o Painel (altura ~1.100px), a página mantivesse `window.scrollY = 3.000px+`, deixando a visualização no vazio abaixo do rodapé.
+- **Soluções Arquiteturais Implementadas:**
+  1. **Substituição de `AnimatePresence mode="wait"` por Transição Estável:** Remoção da trava síncrona de desmonte e adoção de container estático com micro-animação nativa CSS `<div key={activeView} className="w-full animate-fadeIn">`. A navegação agora é **instantânea, resiliente e imune a travamentos de opacidade**.
+  2. **Scroll-to-Top Instantâneo Mandatório:** Efeito global e ganchos em `useNavigationStore` e `App.tsx` que executam `window.scrollTo({ top: 0, left: 0, behavior: 'instant' })` a cada transição de rota, garantindo que o candidato sempre inicie a leitura no topo exato de cada aba.
+  3. **Carregamento Resiliente de Chunks Dinâmicos (`lazyWithRetry`):** Função wrapper em torno do `React.lazy()` que intercepta falhas de rede ou incompatibilidade de hash em deploys quentes do Vercel, realizando recarregamento inteligente de contingência sem expor erros ao usuário.
+  4. **Guarda contra Ciclos Redundantes no `useNavigationStore`:** Validação do hash atual antes de reatribuir `window.location.hash`, evitando tempestades de eventos `hashchange` e disparos duplos de re-renderização no Zustand.
+
+### 18.7. Indicadores de Validação Atualizados
+* **Testes Automatizados (Vitest):** Suite completa validada e aprovada com sucesso.
 * **Validação TypeScript (`tsc -b`):** 0 erros, compilação estrita e typesafe.
-* **Build de Produção PWA (`vite build`):** Sucesso absoluto em ~12s com Service Worker e Workbox pré-carregando 132 assets, com code-splitting dedicado para o banco de questões (`content-questions`).
-* **Deploy Produção:** Sincronizado com branch `master` no GitHub (`https://github.com/Heuller/hnc`) e publicado automaticamente na Vercel (`https://heuller.vercel.app/`).
+* **Build de Produção PWA (`vite build`):** Sucesso absoluto com Service Worker e Workbox pré-carregando 132 assets com code-splitting otimizado.
+* **Deploy Produção:** Sincronizado com branches `master` e `main` no GitHub (`https://github.com/Heuller/hnc`) e publicado automaticamente na Vercel (`https://heuller.vercel.app/`).
+* **Validação em Tempo Real no Navegador:** Testes automatizados executados na URL de produção cobrindo transições contínuas e rápidas entre Painel, Jornada, Treinos, Radar, Progresso, Teoria e Simulado com 100% de integridade visual e zero telas brancas.
 
 ---
-*Documento atualizado em 05 de Outubro de 2026.*  
+*Documento atualizado em 06 de Outubro de 2026.*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
 
 
