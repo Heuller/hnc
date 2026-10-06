@@ -35,7 +35,11 @@ interface NavigationState {
 function getViewFromHash(): AppView {
   if (typeof window === 'undefined') return 'painel';
   const rawHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
-  const rawPath = window.location.pathname.replace(/^\//, '').trim().toLowerCase();
+  const rawPath = window.location.pathname
+    .replace(/^\/?hnc\/?/i, '')
+    .replace(/^\//, '')
+    .trim()
+    .toLowerCase();
   const route = rawHash || rawPath;
 
   if (route.startsWith('jornada')) return 'jornada';
