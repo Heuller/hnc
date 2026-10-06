@@ -62,10 +62,10 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
             <button
               onClick={handleRedo}
               className="text-[11px] font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer transition-colors"
-              title="Refazer este checkpoint"
+              title="Praticar novamente (a 1ª tentativa permanece para a nota do portão)"
             >
               <RotateCcw className="w-3 h-3" />
-              <span>Refazer</span>
+              <span>Praticar</span>
             </button>
           </div>
         )}
@@ -147,7 +147,7 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
                 <XCircle className="w-4 h-4 text-err" />
               )}
               <span>
-                Gabarito Oficial: <strong className="uppercase">{checkpoint.gabarito === 'C' ? 'Certo' : 'Errado'}</strong>
+                Gabarito: <strong className="uppercase">{checkpoint.gabarito === 'C' ? 'Certo' : 'Errado'}</strong>
               </span>
             </div>
             <p className="m-0 font-serif leading-relaxed">{checkpoint.justificativa}</p>

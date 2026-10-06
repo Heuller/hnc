@@ -340,7 +340,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                       }}
                       aria-pressed={isSelected}
                       aria-label={isMatched ? `${a.nome}, associado ao Par ${match?.pairNumber}` : `Autor ${a.nome}`}
-                      className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
                           ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-bold`
                           : isShaking
@@ -362,7 +362,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
               </div>
             </div>
 
-            {/* Coluna 2: Conceitos (ordem embaralhada via semente, altura uniforme) */}
+            {/* Coluna 2: Conceitos (ordem embaralhada via semente, altura uniforme - D14) */}
             <div className="space-y-2">
               <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
                 Conceito / Obra Principal
@@ -388,7 +388,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                       }}
                       aria-pressed={isSelected}
                       aria-label={isMatched ? `${item.conceito}, associado ao Par ${match?.pairNumber}` : `Conceito: ${item.conceito}`}
-                      className={`w-full min-h-[58px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
                         isMatched
                           ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-medium`
                           : isShaking

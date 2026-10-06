@@ -28,6 +28,7 @@ import { getItensPendentesRevisao } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useDicionarioStore } from '../store/useDicionarioStore';
 import { IllustrationLogin, IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
+import { JORNADA_CONFIG } from '../config/jornada.config';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -107,7 +108,7 @@ export const PainelPage: React.FC = () => {
       <section className="border-b border-border pb-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5 max-w-2xl">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="font-sans text-xs text-accent font-semibold tracking-wide capitalize">
+            <span className="font-sans text-xs text-accent font-semibold tracking-wide">
               {dataHojeExtenso}
             </span>
             <span className="text-border">•</span>
@@ -164,14 +165,18 @@ export const PainelPage: React.FC = () => {
                 {proximoPasso?.tipo === 'submodulo'
                   ? 'Texto canônico estruturado com autores clássicos, alertas de distratores da banca e micro-checkpoints formativos.'
                   : proximoPasso?.tipo === 'desafio_modulo'
-                  ? 'Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de 85 acertos).'
+                  ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos).`
                   : 'Portal de retenção cumulativa com 20 itens sobre módulos anteriores.'}
               </p>
 
               <div className="flex items-center gap-4 text-xs font-sans text-ink-2 pt-1">
                 <span className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-accent" />
-                  <span>Sessão estimada: ~25 min</span>
+                  <span>
+                    {proximoPasso?.tipo === 'desafio_modulo'
+                      ? `Sessão estimada: ~${Math.round((100 * JORNADA_CONFIG.segundosPorItemProva) / 60)} min em ritmo de prova`
+                      : 'Sessão estimada: ~20 min'}
+                  </span>
                 </span>
                 <span>•</span>
                 <span className="flex items-center gap-1.5">
@@ -196,7 +201,9 @@ export const PainelPage: React.FC = () => {
                     ? 'Revisar Tópicos Pendentes'
                     : proximoPasso?.tipo === 'submodulo'
                     ? 'Continuar Leitura'
-                    : 'Iniciar Verificação'}
+                    : proximoPasso?.tipo === 'desafio_modulo'
+                    ? `Iniciar simulado do M${proximoPasso.moduloNumero}`
+                    : 'Iniciar Portal de Revisão'}
                 </span>
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -268,7 +275,7 @@ export const PainelPage: React.FC = () => {
             </div>
 
             <p className="text-xs text-ink-2 font-serif leading-relaxed">
-              Histórico de dedicação dos últimos 7 dias. O estudo diário espaçado maximiza a consolidação mnemônica.
+              Histórico de sessões realizadas nos últimos 7 dias.
             </p>
 
             <div className="grid grid-cols-7 gap-1.5 pt-2 border-t border-border">
@@ -324,9 +331,9 @@ export const PainelPage: React.FC = () => {
             </div>
 
             <p className="text-xs text-ink-2 font-serif pt-1">
-              Prontidão global calculada:{' '}
+              Progresso:{' '}
               <strong className="text-ink font-sans font-semibold tabular-nums">
-                {metricas.prontidaoPercent}%
+                {metricas.etapasConcluidas} de {metricas.totalEtapas} etapas
               </strong>
             </p>
           </div>

@@ -56,7 +56,7 @@ Publicada em 1931, a obra *The Five Laws of Library Science* (disponível integr
 ---
 
 ### 2. As Releituras Contemporâneas para a Era Digital
-O Cebraspe tem cobrado com muita frequência como as leis foram reinterpretadas por teóricos modernos:
+Principais reformulações doutrinárias das leis desenvolvidas por teóricos modernos:
 
 * **Michael Gorman (1995) — *Our Singular Strengths*:**
   1. *As bibliotecas servem à humanidade.*
@@ -77,6 +77,7 @@ O Cebraspe tem cobrado com muita frequência como as leis foram reinterpretadas 
       item: "A segunda lei de Ranganathan ('A cada leitor o seu livro') tem o documento bibliográfico como elemento central de sua formulação.",
       gabarito: 'E',
       justificativa: "Errado! A 2ª Lei parte do LEITOR (usuário) e exige democratização. A 3ª Lei ('A cada livro o seu leitor') é que parte do DOCUMENTO para garantir visibilidade.",
+      versao_correta: "A terceira lei de Ranganathan ('A cada livro o seu leitor') tem o documento bibliográfico como elemento central de sua formulação, enquanto a segunda lei foca no leitor.",
     },
     {
       id: 'cp-1-2-2',
@@ -91,6 +92,7 @@ O Cebraspe tem cobrado com muita frequência como as leis foram reinterpretadas 
       item: "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física.",
       gabarito: 'E',
       justificativa: "Errado! A 4ª Lei exige exatamente o oposto: a implantação do livre acesso às estantes (open access), catálogos eficientes e arranjo lógico com guias para minimizar o tempo despendido pelo usuário na busca.",
+      versao_correta: "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de livre acesso às estantes, catálogos eficientes e sinalização clara para agilizar a consulta.",
     },
   ],
   mnemonicos: {

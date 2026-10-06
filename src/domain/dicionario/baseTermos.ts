@@ -14,15 +14,15 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     ],
     "area": "Fundamentos da Ciência da Informação e Documentação",
     "moduloRelacionado": "M1",
-    "conceitoCanonico": "Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico \"Traité de Documentation\" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa. Em 1951, Suzanne Briet consolidou a teoria clássica com a obra \"Qu'est-ce que le document?\", conceituando documento como qualquer índice ou indício corpóreo fixado para fins de prova, consulta ou testemunho.",
+    "conceitoCanonico": "Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico \"Traité de Documentation\" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa. Em 1951, Suzanne Briet consolidou a teoria clássica com a obra \"Qu'est-ce que la documentation?\", conceituando documento como qualquer índice ou indício corpóreo fixado para fins de prova, consulta ou testemunho.",
     "armadilhaCebraspe": "O Cebraspe tenta com frequência restringir a Documentação à guarda física e passiva de papéis ou considerá-la sinônimo estrito da Biblioteconomia tradicional. ERRADO: para o Cebraspe, a Documentação se distingue pela universalidade dos suportes (não apenas livros), pelo tratamento analítico minucioso (partes de obras e artigos) e pela disseminação dinâmica e proativa.",
     "aplicacaoCamara": "No Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, a gestão e indexação das notas taquigráficas de plenário, arquivos em áudio e vídeo de CPIs, pareceres e projetos de lei em múltiplos formatos corporificam os preceitos clássicos da Documentação.",
-    "fonteReferencia": "OTLET, Paul. Traité de Documentation. Bruxelles: Mundaneum, 1934; BRIET, Suzanne. Qu'est-ce que le document?. Paris: EDIT, 1951.",
+    "fonteReferencia": "OTLET, Paul. Traité de Documentation. Bruxelles: Mundaneum, 1934; BRIET, Suzanne. Qu'est-ce que la documentation?. Paris: EDIT, 1951.",
     "tipo": "conceito",
     "definicao_curta": "Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico \"Traité de Documentation\" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa.",
-    "definicao_completa": "Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico \"Traité de Documentation\" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa. Em 1951, Suzanne Briet consolidou a teoria clássica com a obra \"Qu'est-ce que le document?\", conceituando documento como qualquer índice ou indício corpóreo fixado para fins de prova, consulta ou testemunho.",
+    "definicao_completa": "Disciplina e técnica fundada por Paul Otlet e Henri La Fontaine no final do século XIX (criação do Instituto Internacional de Bibliografia - IIB em 1895, posterior FID), consagrada no histórico \"Traité de Documentation\" (1934). Diferencia-se da Biblioteconomia tradicional por superar a restrição exclusiva ao livro encadernado, estendendo-se a qualquer suporte ou vestígio material portador de informação registrada (artigos de periódicos, relatórios técnicos, fotografias, patentes, mapas), com ênfase primordial na análise de conteúdo minuciosa, síntese e disseminação ativa. Em 1951, Suzanne Briet consolidou a teoria clássica com a obra \"Qu'est-ce que la documentation?\", conceituando documento como qualquer índice ou indício corpóreo fixado para fins de prova, consulta ou testemunho.",
     "fonte": {
-      "referencia": "OTLET, Paul. Traité de Documentation. Bruxelles: Mundaneum, 1934; BRIET, Suzanne. Qu'est-ce que le document?. Paris: EDIT, 1951.",
+      "referencia": "OTLET, Paul. Traité de Documentation. Bruxelles: Mundaneum, 1934; BRIET, Suzanne. Qu'est-ce que la documentation?. Paris: EDIT, 1951.",
       "versao": "Edital nº 1/2026"
     },
     "modulo_ref": [
@@ -128,15 +128,15 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     ],
     "area": "Fundamentos da Ciência da Informação",
     "moduloRelacionado": "M1",
-    "conceitoCanonico": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que le document?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
+    "conceitoCanonico": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que la documentation?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
     "armadilhaCebraspe": "A banca afirma que para Briet qualquer objeto natural é um documento em seu estado bruto original. Falso! É indispensável a intencionalidade humana de fixação, custódia e uso como testemunho ou prova científica.",
     "aplicacaoCamara": "Um discurso solto de um deputado em plenário só se converte em documento arquivístico/bibliográfico oficial quando é degravado, revisado pelas notas taquigráficas e incorporado aos anais da Casa.",
-    "fonteReferencia": "BRIET, Suzanne. Qu'est-ce que le document?. Paris: EDIT, 1951.",
+    "fonteReferencia": "BRIET, Suzanne. Qu'est-ce que la documentation?. Paris: EDIT, 1951.",
     "tipo": "autor",
-    "definicao_curta": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que le document?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
-    "definicao_completa": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que le document?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
+    "definicao_curta": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que la documentation?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
+    "definicao_completa": "Postulado clássico de Suzanne Briet (1951, \"Qu'est-ce que la documentation?\"): um antílope correndo livre na savana não é um documento; contudo, a partir do momento em que é capturado, enjaulado em um zoológico, catalogado e submetido à observação científica, ele torna-se um documento primário (uma evidência física portadora de informação).",
     "fonte": {
-      "referencia": "BRIET, Suzanne. Qu'est-ce que le document?. Paris: EDIT, 1951.",
+      "referencia": "BRIET, Suzanne. Qu'est-ce que la documentation?. Paris: EDIT, 1951.",
       "versao": "Edital nº 1/2026"
     },
     "modulo_ref": [
@@ -1418,7 +1418,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "regras de catalogacao",
       "regra dos tres autores"
     ],
-    "area": "Representacao Descritiva e Catalogacao",
+    "area": "Representação Descritiva e Catalogação",
     "moduloRelacionado": "M2",
     "conceitoCanonico": "Codigo internacional de catalogacao descritiva publicado em 1978 e revisado em 1988/2002. Divide-se em Parte I (Descricao Bibliografica baseada nas 8 areas da ISBD) e Parte II (Escolha e forma dos pontos de acesso e titulos uniformes). Regra dos Tres Autores: ate 3 autores sem destaque, entrada principal pelo primeiro e secundarias para os outros; 4 ou mais autores sem destaque, entrada principal OBRIGATORIAMENTE PELO TITULO e secundaria apenas para o primeiro autor citado seguido de et al. Organizadores e coordenadores NUNCA recebem entrada principal.",
     "armadilhaCebraspe": "O Cebraspe frequentemente afirma que uma obra com organizador na folha de rosto tem entrada principal por esse organizador. ERRADO: no AACR2r, obras organizadas tem entrada principal obrigatoriamente pelo titulo. Outra armadilha classica: afirmar que para 4 autores a entrada e pelo primeiro autor. ERRADO: e pelo titulo!",
@@ -1461,7 +1461,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "diretorio marc",
       "campos variaveis marc"
     ],
-    "area": "Representacao Descritiva e Catalogacao",
+    "area": "Representação Descritiva e Catalogação",
     "moduloRelacionado": "M2",
     "conceitoCanonico": "Padrao internacional de estruturacao e intercambio de dados bibliograficos legivel por computador mantido pela Library of Congress. Sua arquitetura compoe-se de tres secoes fisicas indispensaveis: (1) Lider (Leader) de 24 caracteres fixos (posicoes 00 a 23); (2) Diretorio (Directory), com entradas de 12 caracteres cada (3 digitos da tag + 4 digitos do tamanho + 5 digitos da posicao inicial); (3) Campos variaveis de controle (001 a 008) e de dados (010 a 999), dotados de dois indicadores e subcampos identificados por delimitadores ($).",
     "armadilhaCebraspe": "O Cebraspe afirma que o lider possui 12 caracteres e o diretorio 24 (invertendo a ordem). O Lider tem exatamente 24 caracteres; o Diretorio e uma sequencia de blocos de 12 caracteres por campo. Outra pegadinha: dizer que campos 00X possuem indicadores e subcampos (campos de controle 001 a 008 NAO possuem indicadores nem subcampos).",
@@ -1503,7 +1503,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "tabela cutter",
       "regras para catalogo dicionario"
     ],
-    "area": "Fundamentos da Catalogacao e Notacao de Autor",
+    "area": "Fundamentos da Catalogação e Notação de Autor",
     "moduloRelacionado": "M2",
     "conceitoCanonico": "Bibliotecario norte-americano (1837-1903), autor de \"Rules for a Dictionary Catalog\" (1876). Estabeleceu os objetivos primordiais de qualquer catalogo bibliografico: encontrar um livro (por autor, titulo ou assunto), mostrar o que a biblioteca possui e auxiliar na escolha do leitor. Desenvolveu a Tabela Cutter (e posterior Cutter-Sanborn), sistema alfanumerico que gera a notacao de autor (formada pela primeira letra do sobrenome seguida de numeros) para ordenacao fisica dos livros nas estantes sob uma mesma classe decimal.",
     "armadilhaCebraspe": "Afirmar que a Tabela Cutter serve para classificar o assunto de uma obra. ERRADO: Cutter gera a notacao de AUTOR (numero de chamada/livro) para ordenar livros dentro de um mesmo assunto classificado por CDD ou CDU.",
@@ -1533,7 +1533,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "cdd-dewey",
-    "termo": "Classificacao Decimal de Dewey (CDD)",
+    "termo": "Classificação Decimal de Dewey (CDD)",
     "sinonimos": [
       "cdd",
       "dewey",
@@ -1541,7 +1541,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "melvil dewey",
       "decimal classification"
     ],
-    "area": "Representacao Tematica e Classificacao",
+    "area": "Representação Temática e Classificação",
     "moduloRelacionado": "M3",
     "conceitoCanonico": "Sistema de classificacao bibliografica concebido por Melvil Dewey em 1876. Caracteriza-se por notacao pura estritamente decimal (algarismos arabicos de 000 a 999), estrutura hierarquica baseada em 10 classes principais, divisao em subclasses de base decimal e o principio da relatividade (o assunto e classificado segundo a disciplina em que e tratado). Possui tabelas auxiliares (T1 a T6) para subdivisao geografica, de formas e de linguas.",
     "armadilhaCebraspe": "A banca costuma afirmar que a CDD possui notacao mista ou que foi criada por Otlet. ERRADO: a CDD possui notacao PURA (apenas algarismos arabicos e ponto apos o 3o digito). Quem possui notacao mista com simbolos diversos (+, /, :, []) e a CDU criada por Otlet e La Fontaine.",
@@ -1564,7 +1564,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "classificacao decimal de dewey",
       "melvil dewey",
       "decimal classification",
-      "Classificacao Decimal de Dewey (CDD)",
+      "Classificação Decimal de Dewey (CDD)",
       "CDD"
     ],
     "nao_confundir_com": [
@@ -1573,7 +1573,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "cdu-universal",
-    "termo": "Classificacao Decimal Universal (CDU)",
+    "termo": "Classificação Decimal Universal (CDU)",
     "sinonimos": [
       "cdu",
       "classificacao decimal universal",
@@ -1581,16 +1581,16 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "tabelas auxiliares cdu",
       "simbolos cdu"
     ],
-    "area": "Representacao Tematica e Classificacao",
+    "area": "Representação Temática e Classificação",
     "moduloRelacionado": "M3",
-    "conceitoCanonico": "Sistema de classificacao bibliografica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notacao mista com base decimal e rica linguagem sintetica/facetada, permitindo a coordenacao de conceitos mediante simbolos e sinais de pontuacao: Adicao (+), Extensao consecutiva (/), Relacao simples (:), Subagrupamento ([]), Lingua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
+    "conceitoCanonico": "Sistema de classificação bibliográfica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notação mista com base decimal e rica linguagem sintética/facetada, permitindo a coordenação de conceitos mediante símbolos e sinais de pontuação: Adição (+), Extensão consecutiva (/), Relação simples (:), Subagrupamento ([]), Língua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
     "armadilhaCebraspe": "Inverter o significado dos sinais auxiliares (ex.: dizer que a barra \"/\" indica adicao e o mais \"+\" indica extensao; ou que aspas duplas indicam lugar quando indicam tempo; ou que parenteses com zero indicam lugar quando indicam forma).",
     "aplicacaoCamara": "A Biblioteca da Camara adota a CDU na organizacao fisica e logica de suas colecoes gerais e especializadas.",
     "fonteReferencia": "IBICT. Classificacao Decimal Universal: edicao padrao em lingua portuguesa. Brasilia: IBICT, 2007.",
     "tipo": "padrao",
     "sigla": "CDU",
-    "definicao_curta": "Sistema de classificacao bibliografica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notacao mista com base decimal e rica linguagem sintetica/facetada, permitindo a coordenacao de conceitos mediante simbolos e sinais de pontuacao: Adicao (+), Extensao consecutiva (/), Relacao simples (:), Subagrupamento ([]), Lingua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
-    "definicao_completa": "Sistema de classificacao bibliografica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notacao mista com base decimal e rica linguagem sintetica/facetada, permitindo a coordenacao de conceitos mediante simbolos e sinais de pontuacao: Adicao (+), Extensao consecutiva (/), Relacao simples (:), Subagrupamento ([]), Lingua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
+    "definicao_curta": "Sistema de classificação bibliográfica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notação mista com base decimal e rica linguagem sintética/facetada, permitindo a coordenação de conceitos mediante símbolos e sinais de pontuação: Adição (+), Extensão consecutiva (/), Relação simples (:), Subagrupamento ([]), Língua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
+    "definicao_completa": "Sistema de classificação bibliográfica concebido por Paul Otlet e Henri La Fontaine (1895/1905) a partir da CDD. Notação mista com base decimal e rica linguagem sintética/facetada, permitindo a coordenação de conceitos mediante símbolos e sinais de pontuação: Adição (+), Extensão consecutiva (/), Relação simples (:), Subagrupamento ([]), Língua (=), Forma ((0...)), Lugar ((1/9)), Tempo (\"...\"), Ponto de vista (.00...), Auxiliares especiais (-1/-9, .01/.09, 1/9).",
     "fonte": {
       "referencia": "IBICT. Classificacao Decimal Universal: edicao padrao em lingua portuguesa. Brasilia: IBICT, 2007.",
       "versao": "Edital nº 1/2026"
@@ -1604,7 +1604,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "udc",
       "tabelas auxiliares cdu",
       "simbolos cdu",
-      "Classificacao Decimal Universal (CDU)",
+      "Classificação Decimal Universal (CDU)",
       "CDU"
     ],
     "nao_confundir_com": [
@@ -1613,14 +1613,14 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "harold-borko",
-    "termo": "Harold Borko (Conceito de Ciencia da Informacao de 1968)",
+    "termo": "Harold Borko (Conceito de Ciência da Informação de 1968)",
     "sinonimos": [
       "harold borko",
       "borko",
       "definicao de borko",
       "conceito borko ciencia da informacao"
     ],
-    "area": "Historia e Epistemologia da Ciencia da Informacao",
+    "area": "História e Epistemologia da Ciência da Informação",
     "moduloRelacionado": "M1",
     "conceitoCanonico": "Harold Borko (1968), no celebre artigo \"Information Science: What is it?\", formulou a definicao canonica da disciplina: \"A Ciencia da Informacao e a disciplina que investiga as propriedades e o comportamento da informacao, as forcas que governam seus fluxos e os meios de processa-la para acesso e uso otimizados. E uma ciencia interdisciplinar derivada ou relacionada a matematica, logica, linguistica, psicologia, tecnologia de computadores, pesquisa operacional, artes graficas, comunicacao, biblioteconomia e gestao\".",
     "armadilhaCebraspe": "Trocar o termo \"Ciencia da Informacao\" por \"Biblioteconomia\" no texto da definicao de Borko para tornar o item errado (pegadinha classica e recorrente do Cebraspe).",
@@ -1641,7 +1641,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "borko",
       "definicao de borko",
       "conceito borko ciencia da informacao",
-      "Harold Borko (Conceito de Ciencia da Informacao de 1968)"
+      "Harold Borko (Conceito de Ciência da Informação de 1968)"
     ],
     "nao_confundir_com": [
       "Trocar o termo \"Ciencia da Informacao\" por \"Biblioteconomia\" no texto da definicao de Borko para tornar o item errado (pegadinha classica e recorrente do Cebraspe)."
@@ -1656,7 +1656,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "passos da referencia",
       "processo de referencia grogan"
     ],
-    "area": "Servico de Referencia e Recuperacao da Informacao",
+    "area": "Serviço de Referência e Recuperação da Informação",
     "moduloRelacionado": "M4",
     "conceitoCanonico": "Denis Grogan e a maior referencia canonica nos concursos sobre Servico de Referencia. Estruturou o processo de referencia em 8 passos logicos: (1) O problema; (2) A necessidade de informacao; (3) A questao inicial; (4) A questao negociada (entrevista de referencia); (5) A estrategia de busca; (6) A busca na fonte; (7) A resposta obtida; (8) A solucao do problema do usuario. A entrevista de referencia (passo 4) e a etapa mais critica para transformar uma questao mal formulada na real necessidade informacional.",
     "armadilhaCebraspe": "Inverter os passos ou dizer que a estrategia de busca ocorre antes da entrevista de referencia. O bibliotecario NUNCA pesquisa antes de negociar e clarificar a questao com o usuario.",
@@ -1685,7 +1685,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "robert-taylor-necessidade",
-    "termo": "Robert S. Taylor e os 4 Niveis de Necessidade de Informacao",
+    "termo": "Robert S. Taylor e os 4 Níveis de Necessidade de Informação",
     "sinonimos": [
       "robert taylor",
       "taylor necessidade",
@@ -1713,7 +1713,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "taylor necessidade",
       "niveis de necessidade",
       "visceral consciente formalizada comprometida",
-      "Robert S. Taylor e os 4 Niveis de Necessidade de Informacao"
+      "Robert S. Taylor e os 4 Níveis de Necessidade de Informação"
     ],
     "nao_confundir_com": [
       "Inverter a ordem dos 4 niveis (dizendo, por exemplo, que a comprometida vem antes da formalizada) ou confundir o conceito de necessidade visceral com necessidade consciente."
@@ -1729,7 +1729,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "ciclo de vergueiro",
       "etapas de desenvolvimento de colecoes"
     ],
-    "area": "Gestao de Unidades de Informacao e Colecoes",
+    "area": "Gestão de Unidades de Informação e Coleções",
     "moduloRelacionado": "M5",
     "conceitoCanonico": "Waldomiro Vergueiro e o autor canonico brasileiro sobre Desenvolvimento de Colecoes. Define-o como um processo ininterrupto e ciclico composto por 6 etapas interdependentes: (1) Estudo da Comunidade (diagnostico do publico-alvo); (2) Politicas de Selecao (criterios de inclusao); (3) Aquisicao (compra, doacao e permuta); (4) Desbastamento (remocao temporaria de obras de baixa procura para depositos ou remanejamento); (5) Descarte (eliminacao definitiva do acervo e baixa patrimonial); (6) Avaliacao da Colecao (qualitativa e quantitativa).",
     "armadilhaCebraspe": "Confundir desbastamento com descarte! Desbastamento e remanejamento/guarda secundaria (a obra permanece no patrimonio da instituicao). Descarte e expulsao definitiva do patrimonio com baixa formal.",
@@ -1797,7 +1797,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "lei-4084-profissao",
-    "termo": "Lei no 4.084/1962 (Exercicio da Profissao de Bibliotecario)",
+    "termo": "Lei nº 4.084/1962 (Exercício da Profissão de Bibliotecário)",
     "sinonimos": [
       "lei 4084",
       "profissao de bibliotecario",
@@ -1805,7 +1805,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "cfb crb",
       "exercicio da profissao"
     ],
-    "area": "Legislacao e Etica Profissional",
+    "area": "Legislação e Ética Profissional",
     "moduloRelacionado": "M1",
     "conceitoCanonico": "Regulamenta o exercicio da profissao de bibliotecario no Brasil. Define como privativas do bacharel em Biblioteconomia com registro no Conselho Regional de Biblioteconomia (CRB): a direcao e organizacao de servicos de biblioteconomia e documentacao; catalogacao e classificacao de manuscritos, livros e documentos; e ensino das disciplinas de biblioteconomia. O Codigo de Etica Profissional do Bibliotecario impoe deveres de sigilo, atualizacao continua e combate a censura.",
     "armadilhaCebraspe": "Dizer que qualquer profissional com ensino superior pode chefiar biblioteca universitaria ou que o registro no CRB e facultativo para cargos com atribuicao privativa.",
@@ -1827,7 +1827,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "atribuicoes privativas bibliotecario",
       "cfb crb",
       "exercicio da profissao",
-      "Lei no 4.084/1962 (Exercicio da Profissao de Bibliotecario)"
+      "Lei nº 4.084/1962 (Exercício da Profissão de Bibliotecário)"
     ],
     "nao_confundir_com": [
       "Dizer que qualquer profissional com ensino superior pode chefiar biblioteca universitaria ou que o registro no CRB e facultativo para cargos com atribuicao privativa."
@@ -1835,7 +1835,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
   },
   {
     "id": "abnt-nbr-6023-referencias",
-    "termo": "ABNT NBR 6023:2018 (Informacao e Documentacao - Referencias)",
+    "termo": "ABNT NBR 6023:2018 (Informação e Documentação - Referências)",
     "sinonimos": [
       "nbr 6023",
       "abnt 6023",
@@ -1865,7 +1865,7 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
       "referencias abnt",
       "norma de referencias",
       "elementos essenciais referencias",
-      "ABNT NBR 6023:2018 (Informacao e Documentacao - Referencias)"
+      "ABNT NBR 6023:2018 (Informação e Documentação - Referências)"
     ],
     "nao_confundir_com": [
       "Destacar graficamente o subtitulo ou destacar o nome do autor em vez do titulo da obra."

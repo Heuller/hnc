@@ -5,7 +5,7 @@ import { COURSE_REGISTRY } from '../content/registry';
 import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos';
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
-import { CheckpointCard } from '../components/content-blocks/CheckpointCard';
+import { ItemCE } from '../components/common/ItemCE';
 import { MarkdownRenderer } from '../components/common/MarkdownRenderer';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
 import { MnemonicosDrawerMobile } from '../components/content-blocks/MnemonicosDrawerMobile';
@@ -14,17 +14,17 @@ import {
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
-  List,
   ArrowRight,
   Sparkles,
   BookOpen,
   RotateCcw,
-  ShieldCheck,
-  Sliders,
   ChevronDown,
   Lock,
   Eye,
   EyeOff,
+  Type,
+  Sliders,
+  ShieldCheck,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
@@ -36,19 +36,25 @@ import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRet
 import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
 import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import {
+  verificarAcessoModulo,
+  verificarNavegacaoRodapeSubmodulo,
+} from '../domain/portaoSimuladoEngine';
+import { TelaBloqueioModulo } from '../components/common/TelaBloqueioModulo';
 
 export const TeoriaPage: React.FC = () => {
-  const { selectedSubmodule, setSelectedSubmodule, setCurrentRoute, navigateToSimulado } =
+  const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
     useNavigationStore();
   const {
     modulosLidosIds,
     checkpointsRespondidos,
     secoesVisualizadas,
     registrarSecaoVisualizada,
-    salvarCheckpoint,
-    resetarCheckpoint,
     ultimoModuloAcessado,
     setUltimoModuloAcessado,
+    getProgressoGlobal,
+    historicoSimulados,
+    devBypassSimuladoLock,
   } = useProgressStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -137,11 +143,27 @@ export const TeoriaPage: React.FC = () => {
     return () => observer.disconnect();
   }, [currentSub, registrarSecaoVisualizada]);
 
-  // Índices para navegação sequencial contínua (atravessa submódulos e blocos)
-  const currentIndex = allSubmodules.findIndex((s) => s.id === currentSub.id);
-  const prevSub = currentIndex > 0 ? allSubmodules[currentIndex - 1] : null;
-  const nextSub =
-    currentIndex < allSubmodules.length - 1 ? allSubmodules[currentIndex + 1] : null;
+  const progressoGlobal = getProgressoGlobal();
+
+  // Verificação de Acesso Global ao Módulo (Regra 2.2)
+  const statusAcesso = verificarAcessoModulo(
+    currentMacro.id,
+    progressoGlobal,
+    historicoSimulados || [],
+    devBypassSimuladoLock
+  );
+
+  // Submódulos pertencentes estritamente a este macro-módulo
+  const submodulosDoMacro = currentMacro.modulosFilhos;
+  const indexNoMacro = submodulosDoMacro.findIndex((s) => s.id === currentSub.id);
+  const prevSubNoMacro = indexNoMacro > 0 ? submodulosDoMacro[indexNoMacro - 1] : null;
+
+  // Status de navegação do rodapé
+  const rodapeNav = verificarNavegacaoRodapeSubmodulo(
+    currentSub.numero,
+    progressoGlobal,
+    historicoSimulados || []
+  );
 
   const scrollToAnchor = (id: string) => {
     const el = document.getElementById(id);
@@ -149,6 +171,19 @@ export const TeoriaPage: React.FC = () => {
       el.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  // Se o módulo estiver bloqueado pedagogicamente (Regra 2.2)
+  if (!statusAcesso.liberado) {
+    return (
+      <TelaBloqueioModulo
+        moduloNumero={statusAcesso.moduloNumero}
+        moduloAnteriorNumero={statusAcesso.moduloAnteriorNumero || 1}
+        simuladoAnteriorId={statusAcesso.simuladoAnteriorId || 'm1-fundamentos'}
+        notaConsolidadaAtual={statusAcesso.notaConsolidadaAnterior}
+        motivo={statusAcesso.motivoBloqueio}
+      />
+    );
+  }
 
   return (
     <div className="relative animate-fadeIn">
@@ -297,11 +332,12 @@ export const TeoriaPage: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setIsReaderPrefsOpen(true)}
-                  className="px-2 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors"
-                  title="Preferências de leitura (fonte, largura, tamanho)"
+                  className="px-2.5 py-1 rounded-md bg-surface-2 border border-border text-ink hover:border-accent text-xs font-semibold flex items-center gap-1.5 cursor-pointer transition-colors shadow-2xs"
+                  title="Preferências de leitura e tipografia (fonte, largura, tamanho)"
+                  aria-label="Abrir preferências de leitura e tipografia"
                 >
-                  <Sliders className="w-3.5 h-3.5 text-accent" />
-                  <span>Leitura</span>
+                  <Type className="w-3.5 h-3.5 text-accent" />
+                  <span>Aa Leitura</span>
                 </button>
               </div>
             </div>
@@ -316,28 +352,29 @@ export const TeoriaPage: React.FC = () => {
               {currentSub.titulo}
             </h1>
 
-            <div className="flex items-center justify-between pt-2">
+            {/* Chip Unificado Soberano de Status (D13) */}
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
               {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
-                  <CheckCircle2 className="w-4 h-4" />
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
                   <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos · mín. 85%)</span>
                 </div>
               ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-amber-500 shadow-2xs">
-                  <RotateCcw className="w-3.5 h-3.5" />
+                  <RotateCcw className="w-3.5 h-3.5 shrink-0" />
                   <span>Em Revisão Dirigida ({learningState.taxaAcertoPercent}% nos checkpoints · mín. 85%)</span>
                 </div>
               ) : learningState.status === 'em_andamento' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
-                  <BookOpen className="w-3.5 h-3.5 text-accent" />
+                  <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
                   <span>
-                    Em Leitura ({learningState.secoesLidasCount}/{learningState.secoesTotalCount} seções)
+                    Em Leitura ({learningState.secoesLidasCount}/{learningState.secoesTotalCount} seções · {Math.round(((learningState.secoesLidasCount || 0) / (learningState.secoesTotalCount || 1)) * 100)}%)
                   </span>
                 </div>
               ) : learningState.status === 'bloqueada' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
-                  <Lock className="w-3.5 h-3.5 text-ink-2" />
-                  <span>Bloqueada (conclua a etapa anterior)</span>
+                  <Lock className="w-3.5 h-3.5 text-ink-2 shrink-0" />
+                  <span>Bloqueada (conclua o submódulo anterior)</span>
                 </div>
               ) : (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
@@ -345,90 +382,138 @@ export const TeoriaPage: React.FC = () => {
                 </div>
               )}
 
-              {(() => {
-                const totalSec = learningState.secoesTotalCount || 1;
-                const lidasSec = learningState.secoesLidasCount || 0;
-                const percentualSeções = Math.round((lidasSec / totalSec) * 100);
-                return (
-                  <span className="text-xs font-sans tabular-nums text-ink-2">
-                    Leitura: {percentualSeções}%
-                  </span>
-                );
-              })()}
+              {/* Indicador suplementar discreto se ainda não concluído */}
+              {learningState.status !== 'concluida' && (learningState.status as string) !== 'concluido' && (
+                <span className="text-xs font-sans tabular-nums text-ink-2 hidden sm:inline">
+                  Meta de aprovação: 85% nos checkpoints
+                </span>
+              )}
             </div>
           </header>
 
-          {/* Sumário Rápido de Seções (Desktop apenas - no mobile usa TeoriaStickyBar - A11) */}
-          <section
-            aria-label="Sumário da Página"
-            className="hidden md:block p-3.5 bg-surface-2/60 border border-border rounded-xl text-xs font-sans"
+          {/* Barra de Etapas do Submódulo Estruturada (U1 / D6) */}
+          <nav
+            aria-label="Etapas pedagógicas deste submódulo"
+            className="hidden md:block bg-surface-2/70 border border-border rounded-xl p-3 shadow-2xs"
           >
-            <div className="flex items-center gap-1.5 font-bold text-ink mb-2">
-              <List className="w-4 h-4 text-accent" />
-              <span>Navegação Rápida neste Submódulo</span>
+            <div className="flex items-center justify-between mb-2 px-1">
+              <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-ink-2">
+                Jornada do Submódulo (Ciclo de Domínio)
+              </span>
+              <span className="text-[11px] font-mono text-ink-2">
+                4 Etapas Obrigatórias
+              </span>
             </div>
-            <div className="flex flex-wrap gap-2 text-ink-2">
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-autores')}
-                className="hover:text-accent hover:underline py-0.5"
-              >
-                1. Autores Canônicos
-              </button>
-              <span>•</span>
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-alertas')}
-                className="hover:text-accent hover:underline py-0.5"
-              >
-                2. Alertas Cebraspe
-              </button>
-              <span>•</span>
-              {currentSub.quadroComparativo && (
-                <>
-                  <button
-                    type="button"
-                    onClick={() => scrollToAnchor('sec-quadro')}
-                    className="hover:text-accent hover:underline py-0.5"
-                  >
-                    3. Matriz Comparativa
-                  </button>
-                  <span>•</span>
-                </>
-              )}
+
+            <div className="grid grid-cols-4 gap-2">
               <button
                 type="button"
                 onClick={() => scrollToAnchor('sec-teoria')}
-                className="hover:text-accent hover:underline py-0.5"
+                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
               >
-                4. Teoria Detalhada
+                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
+                  1
+                </div>
+                <div className="min-w-0">
+                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
+                    1. Ler
+                  </span>
+                  <span className="text-[10px] text-ink-2 truncate block mt-1">
+                    Teoria & Doutrina
+                  </span>
+                </div>
               </button>
-              <span>•</span>
+
               <button
                 type="button"
-                onClick={() => scrollToAnchor('sec-checkpoints')}
-                className="hover:text-accent hover:underline py-0.5"
+                onClick={() => scrollToAnchor('sec-recuperacao-ativa')}
+                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
               >
-                5. Checkpoints
+                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
+                  2
+                </div>
+                <div className="min-w-0">
+                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
+                    2. Praticar
+                  </span>
+                  <span className="text-[10px] text-ink-2 truncate block mt-1">
+                    Recuperação Ativa
+                  </span>
+                </div>
               </button>
-              <span>•</span>
+
               <button
                 type="button"
                 onClick={() => scrollToAnchor('sec-mnemonicos')}
-                className="hover:text-accent hover:underline py-0.5"
+                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
               >
-                6. Resumo e Mnemônicos
+                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
+                  3
+                </div>
+                <div className="min-w-0">
+                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
+                    3. Revisar
+                  </span>
+                  <span className="text-[10px] text-ink-2 truncate block mt-1">
+                    Mnemônicos & Síntese
+                  </span>
+                </div>
               </button>
-              <span>•</span>
+
+              <button
+                type="button"
+                onClick={() => scrollToAnchor('sec-checkpoints')}
+                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
+              >
+                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
+                  4
+                </div>
+                <div className="min-w-0">
+                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
+                    4. Verificar
+                  </span>
+                  <span className="text-[10px] text-ink-2 truncate block mt-1">
+                    Micro-Checkpoints
+                  </span>
+                </div>
+              </button>
+            </div>
+
+            {/* Acesso rápido às seções complementares sem separadores soltos */}
+            <div className="flex flex-wrap items-center gap-2 pt-2.5 mt-2.5 border-t border-border/60 text-[11px] text-ink-2">
+              <span className="font-semibold text-ink">Seções:</span>
+              <button
+                type="button"
+                onClick={() => scrollToAnchor('sec-autores')}
+                className="hover:text-accent px-1.5 py-0.5 rounded hover:bg-surface transition-colors cursor-pointer"
+              >
+                Autores Canônicos
+              </button>
+              <button
+                type="button"
+                onClick={() => scrollToAnchor('sec-alertas')}
+                className="hover:text-accent px-1.5 py-0.5 rounded hover:bg-surface transition-colors cursor-pointer"
+              >
+                Alertas Cebraspe
+              </button>
+              {currentSub.quadroComparativo && (
+                <button
+                  type="button"
+                  onClick={() => scrollToAnchor('sec-quadro')}
+                  className="hover:text-accent px-1.5 py-0.5 rounded hover:bg-surface transition-colors cursor-pointer"
+                >
+                  Matriz Comparativa
+                </button>
+              )}
               <button
                 type="button"
                 onClick={() => scrollToAnchor('sec-glossario-modulo')}
-                className="hover:text-accent hover:underline py-0.5 text-accent font-semibold"
+                className="hover:text-accent px-1.5 py-0.5 rounded hover:bg-surface transition-colors cursor-pointer text-accent font-semibold ml-auto"
               >
-                7. Glossário do Bloco ({totalTermosModulo})
+                Glossário do Bloco ({totalTermosModulo})
               </button>
             </div>
-          </section>
+          </nav>
 
           {/* Bloco 1: Autores Canônicos */}
           <div id="sec-autores">
@@ -490,13 +575,21 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp) => (
-                <CheckpointCard
+              {currentSub.checkpoints.map((cp, idx) => (
+                <ItemCE
                   key={cp.id}
-                  checkpoint={cp}
-                  userAnswer={checkpointsRespondidos[cp.id]}
-                  onAnswer={(resp: 'C' | 'E') => salvarCheckpoint(cp.id, resp)}
-                  onReset={() => resetarCheckpoint(cp.id)}
+                  item={{
+                    id: cp.id,
+                    numero: idx + 1,
+                    submoduloId: currentSub.numero,
+                    moduloId: currentMacro.id,
+                    enunciado: cp.item,
+                    gabarito: cp.gabarito,
+                    justificativa: cp.justificativa,
+                    versaoCorreta: (cp as any).versao_correta,
+                  }}
+                  contexto="teoria"
+                  contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}
                 />
               ))}
             </div>
@@ -597,76 +690,114 @@ export const TeoriaPage: React.FC = () => {
             );
           })()}
 
-          {/* Rodapé de Navegação do Submódulo */}
+          {/* Rodapé de Navegação do Submódulo (Regra 2.1) */}
           <footer className="border-t border-border pt-6 pb-12 flex flex-col sm:flex-row items-center justify-between gap-4">
-            {prevSub ? (
+            {prevSubNoMacro ? (
               <button
                 type="button"
                 onClick={() => {
-                  setSelectedSubmodule(prevSub.numero);
+                  setSelectedSubmodule(prevSubNoMacro.numero);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-2 transition-all"
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-2 transition-all cursor-pointer"
               >
                 <ChevronLeft className="w-4 h-4" />
-                <span>Submódulo {prevSub.numero}</span>
+                <span>Submódulo {prevSubNoMacro.numero}</span>
               </button>
             ) : (
               <div />
             )}
 
-            {/* Indicador de Conclusão Pedagógica (Conquistado, não marcado livremente) */}
+            {/* Indicador de Conclusão Pedagógica Sóbrio (Defeito D13) */}
             <div className="w-full sm:w-auto text-center sm:text-left">
-              {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
-                <div className="py-2.5 px-4 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
+              {rodapeNav.submoduloConcluido ? (
+                <div className="py-2 px-3.5 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
                   <CheckCircle2 className="w-4 h-4" />
-                  <span>Domínio Conquistado ({learningState.taxaAcertoPercent}% de acertos)</span>
+                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
                 </div>
-              ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
-                <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-500 font-sans text-xs flex items-center justify-center gap-2">
-                  <RotateCcw className="w-4 h-4 shrink-0" />
-                  <span>Em Revisão Dirigida: Refaça os checkpoints para atingir ao menos 85%</span>
+              ) : rodapeNav.motivoBloqueioSubmodulo ? (
+                <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
+                  <RotateCcw className="w-4 h-4 shrink-0 text-amber-500" />
+                  <span>{rodapeNav.motivoBloqueioSubmodulo}</span>
                 </div>
               ) : (
                 <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
-                  <span>
-                    {(() => {
-                      const secoesFaltantes = learningState.secoesTotalCount - learningState.secoesLidasCount;
-                      const cpTotal = currentSub.checkpoints?.length || 3;
-                      const cpNecessarios = Math.ceil(0.85 * cpTotal);
-                      const destino = nextSub ? nextSub.numero : 'a próxima etapa';
-
-                      if (secoesFaltantes > 0) {
-                        return `Para abrir ${destino}: conclua a leitura de ${secoesFaltantes} seção(ões) e acerte pelo menos 85% da verificação (${cpNecessarios} de ${cpTotal})`;
-                      }
-                      return `Para abrir ${destino}: acerte pelo menos 85% da verificação (${cpNecessarios} de ${cpTotal})`;
-                    })()}
-                  </span>
+                  <span>Conclua a leitura e atinja 85% na verificação para concluir</span>
                 </div>
               )}
             </div>
 
-            {nextSub ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setSelectedSubmodule(nextSub.numero);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-2 transition-all"
-              >
-                <span>Submódulo {nextSub.numero}</span>
-                <ChevronRight className="w-4 h-4" />
-              </button>
+            {/* Ação Principal Direita: Próximo Submódulo ou Portão do Simulado (Regra 2.1) */}
+            {rodapeNav.isUltimoDoModulo ? (
+              // ÚLTIMO SUBMÓDULO DO MÓDULO (ex: 1.4): NUNCA avança para 2.1 sem simulado!
+              rodapeNav.simuladoAprovado ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    const proximoModNum = rodapeNav.moduloNumero + 1;
+                    setSelectedSubmodule(`${proximoModNum}.1`);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-ok text-white font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-ok/90"
+                >
+                  <span>Começar Módulo {rodapeNav.moduloNumero + 1}</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              ) : rodapeNav.todosSubmodulosDoModuloConcluidos ? (
+                <div className="flex flex-col items-center sm:items-end gap-1 w-full sm:w-auto">
+                  <button
+                    type="button"
+                    onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
+                    className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-accent text-accent-contrast font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
+                  >
+                    <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                  <span className="text-[11px] font-serif text-ink-2">
+                    O M{rodapeNav.moduloNumero + 1} será liberado ao atingir 80% no simulado
+                  </span>
+                </div>
+              ) : (
+                <div className="flex flex-col items-center sm:items-end gap-1 w-full sm:w-auto">
+                  <button
+                    type="button"
+                    disabled
+                    className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-surface-2 border border-border text-ink-2 font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 opacity-60 cursor-not-allowed"
+                    title="Conclua todos os submódulos para desbloquear o simulado"
+                  >
+                    <Lock className="w-4 h-4 text-ink-2" />
+                    <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
+                  </button>
+                  <span className="text-[11px] font-serif text-ink-2">
+                    Conclua todos os submódulos para liberar o simulado
+                  </span>
+                </div>
+              )
             ) : (
+              // SUBMÓDULOS INTERMEDIÁRIOS (ex: 1.1, 1.2, 1.3)
               <button
                 type="button"
-                onClick={() => setCurrentRoute('simulado')}
-                className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-text font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs"
+                disabled={!rodapeNav.podeAvancarProximoSubmodulo}
+                onClick={() => {
+                  if (rodapeNav.proximoSubmoduloNumero) {
+                    setSelectedSubmodule(rodapeNav.proximoSubmoduloNumero);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
+                }}
+                className={`w-full sm:w-auto py-2.5 px-4 rounded-lg font-sans text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-all ${
+                  rodapeNav.podeAvancarProximoSubmodulo
+                    ? 'bg-surface border border-border text-ink hover:border-accent cursor-pointer'
+                    : 'bg-surface-2 border border-border text-ink-2 opacity-60 cursor-not-allowed'
+                }`}
+                title={
+                  !rodapeNav.podeAvancarProximoSubmodulo
+                    ? rodapeNav.motivoBloqueioSubmodulo || 'Conclua este submódulo para avançar'
+                    : undefined
+                }
               >
-                <span>Ir para o Simulado 100Q</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>Submódulo {rodapeNav.proximoSubmoduloNumero}</span>
+                <ChevronRight className="w-4 h-4" />
               </button>
             )}
           </footer>

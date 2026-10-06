@@ -197,22 +197,22 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           <button
             type="button"
             onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-            className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 py-1.5 px-2 lg:px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
             title="Dicionário Técnico Cebraspe"
             aria-label="Abrir glossário e dicionário técnico"
           >
             <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs">Glossário</span>
+            <span className="font-sans text-xs hidden xl:inline">Glossário</span>
           </button>
           <button
             type="button"
             onClick={onOpenSearch}
-            className="flex items-center gap-2 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 py-1.5 px-2 lg:px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
             title={`Busca Global (${getSearchShortcutLabel()})`}
             aria-label="Abrir busca global"
           >
-            <Search className="w-3.5 h-3.5 text-accent" />
-            <span className="font-sans text-xs">Buscar</span>
+            <Search className="w-3.5 h-3.5 text-accent shrink-0" />
+            <span className="font-sans text-xs hidden xl:inline">Buscar</span>
             <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
               {getSearchShortcutLabel()}
             </span>

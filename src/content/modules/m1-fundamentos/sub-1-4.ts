@@ -85,6 +85,7 @@ O Código de Ética fixa os padrões de conduta que orientam o relacionamento do
       item: 'A sanção de cassação definitiva do registro profissional pode ser aplicada de forma autônoma por qualquer Conselho Regional de Biblioteconomia em decisão singular.',
       gabarito: 'E',
       justificativa: 'Errado! A cassação do registro é a penalidade máxima e é de competência EXCLUSIVA do Conselho Federal de Biblioteconomia (CFB), dependendo de processo com contraditório e ampla defesa.',
+      versao_correta: 'A sanção de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), não podendo ser aplicada de forma autônoma por um CRB.',
     },
       {
       id: 'cp-1-4-3',

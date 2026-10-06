@@ -5,11 +5,15 @@ export interface HeuristicaDiasRestantes {
 
 export interface JornadaConfig {
   aproveitamentoMinimo: number;
+  minimoVerificacao: number; // 0.85
+  minimoSimuladoModulo: number; // 0.80
   nMinimoVerificacao: number;
   simuladoObrigatorioParaAvancar: boolean;
   desafioItensTotal: number;
   desafioAcertosMinimo: number;
   desafioErrosMaximo: number;
+  segundosPorItemProva: number; // 100s ritmo de prova (edital: 5h / 180 itens)
+  intervaloRetesteMinutos: number; // 0min
   portalItensTotal: number;
   portalAcertosMinimo: number;
   portalErrosMaximo: number;
@@ -23,16 +27,20 @@ export interface JornadaConfig {
 }
 
 /**
- * Parâmetros centrais da Jornada de Domínio Cebraspe (Parte D)
+ * Parâmetros centrais da Jornada de Domínio Cebraspe (Parte D e Rodada 5B)
  * Regra D.2: Todos os critérios devem vir deste arquivo de configuração, nunca hardcoded no código.
  */
 export const JORNADA_CONFIG: JornadaConfig = {
   aproveitamentoMinimo: 0.85,
+  minimoVerificacao: 0.85,
+  minimoSimuladoModulo: 0.80,
   nMinimoVerificacao: 8,
   simuladoObrigatorioParaAvancar: true,
   desafioItensTotal: 100,
-  desafioAcertosMinimo: 85, // ceil(0.85 * 100)
-  desafioErrosMaximo: 15,
+  desafioAcertosMinimo: 80, // ceil(0.80 * 100) = 80 acertos exigidos
+  desafioErrosMaximo: 20,
+  segundosPorItemProva: 100, // 100 segundos por item em ritmo de prova
+  intervaloRetesteMinutos: 0,
   portalItensTotal: 20,
   portalAcertosMinimo: 17, // ceil(0.85 * 20)
   portalErrosMaximo: 3,

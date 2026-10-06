@@ -19,6 +19,7 @@ export const CheckpointSchema = z.object({
   item: z.string(),
   gabarito: z.enum(['C', 'E']),
   justificativa: z.string(),
+  versao_correta: z.string().optional(),
 });
 
 export const SecaoTeoriaSchema = z.object({

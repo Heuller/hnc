@@ -5,6 +5,7 @@ import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learningEngine';
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
+import { PainelDecisaoPortaoSimulado } from '../components/simulado/PainelDecisaoPortaoSimulado';
 import { Badge } from '../components/common/Badge';
 import { Kbd } from '../components/common/Kbd';
 import { Drawer } from 'vaul';
@@ -166,13 +167,26 @@ export const SimuladoPage: React.FC = () => {
     iniciarOuRetomarSimulado(selectedSimuladoId);
   }, [selectedSimuladoId, setSimuladoAtivoId, iniciarOuRetomarSimulado]);
 
+  // Modo de reteste apenas com erros (Regra 2.4 B)
+  const [itensFiltradosReteste, setItensFiltradosReteste] = useState<string[] | null>(null);
+
+  const questoesExibidas = React.useMemo(() => {
+    if (!itensFiltradosReteste || itensFiltradosReteste.length === 0) {
+      return simuladoAtivo.questoes;
+    }
+    const map = new Map(simuladoAtivo.questoes.map((q) => [q.id, q]));
+    return itensFiltradosReteste
+      .map((id) => map.get(id))
+      .filter((q): q is (typeof simuladoAtivo.questoes)[0] => Boolean(q));
+  }, [itensFiltradosReteste, simuladoAtivo.questoes]);
+
   const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
   const currentIndex = Math.max(
     0,
-    Math.min((simuladoAtivo.questoes.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
+    Math.min((questoesExibidas.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
   );
   const respostas = sessaoAtual.respostas ?? {};
-  const currentQuestion = simuladoAtivo.questoes[currentIndex];
+  const currentQuestion = questoesExibidas[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
 
   // Controle de tempo persistente por simulado (nunca perde ao recarregar a página)
@@ -245,10 +259,10 @@ export const SimuladoPage: React.FC = () => {
   );
 
   const handleNext = useCallback(() => {
-    if (currentIndex < simuladoAtivo.questoes.length - 1) {
+    if (currentIndex < questoesExibidas.length - 1) {
       mudarQuestaoSimulado(currentIndex + 1, selectedSimuladoId);
     }
-  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId, simuladoAtivo.questoes.length]);
+  }, [currentIndex, mudarQuestaoSimulado, selectedSimuladoId, questoesExibidas.length]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
@@ -321,7 +335,22 @@ export const SimuladoPage: React.FC = () => {
     reiniciarSimulado(selectedSimuladoId);
     setTempoGasto(0);
     setRelatorioFinal(null);
+    setItensFiltradosReteste(null);
     iniciarOuRetomarSimulado(selectedSimuladoId);
+  };
+
+  const handleRefazerErros = (itensErradosIds: string[]) => {
+    if (itensErradosIds.length === 0) return;
+    const embaralhados = [...itensErradosIds].sort(() => Math.random() - 0.5);
+    setItensFiltradosReteste(embaralhados);
+    setRelatorioFinal(null);
+    mudarQuestaoSimulado(0, selectedSimuladoId);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleNovoSimuladoCompleto = () => {
+    setItensFiltradosReteste(null);
+    handleNovoSimulado();
   };
 
   const renderSimuladoSelector = () => (
@@ -603,6 +632,14 @@ export const SimuladoPage: React.FC = () => {
               </span>
             </div>
           </div>
+
+          {/* Portão do Simulado: Decisão de Aprovação/Reprovação (Regra 2.4) */}
+          <PainelDecisaoPortaoSimulado
+            simuladoId={selectedSimuladoId}
+            relatorioFinal={relatorioFinal}
+            onRefazerErros={handleRefazerErros}
+            onNovoSimuladoCompleto={handleNovoSimuladoCompleto}
+          />
 
           {/* Relatório de Calibração Metacognitiva */}
           <div className="p-5 rounded-xl border border-accent/40 bg-accent-soft/20 my-6 space-y-4 print:border-gray-400 print:bg-gray-50 print:break-inside-avoid">
@@ -900,7 +937,7 @@ export const SimuladoPage: React.FC = () => {
                                 </strong>
                               </span>
                               <span className="text-ink-2 print:text-gray-700">
-                                Gabarito Oficial:{' '}
+                                Gabarito:{' '}
                                 <strong className="text-ink print:text-black">
                                   {q.gabarito}
                                 </strong>
@@ -1001,6 +1038,28 @@ export const SimuladoPage: React.FC = () => {
         </span>
       </div>
 
+      {/* Banner de Modo Reteste de Erros */}
+      {itensFiltradosReteste && (
+        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2">
+            <RotateCcw className="w-4 h-4 text-amber-500" />
+            <span className="font-sans text-ink">
+              <strong>Modo Prática / Reteste de Erros:</strong> {questoesExibidas.length} itens errados em ordem embaralhada.
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setItensFiltradosReteste(null);
+              mudarQuestaoSimulado(0, selectedSimuladoId);
+            }}
+            className="font-mono text-[11px] underline text-ink-2 hover:text-ink cursor-pointer"
+          >
+            Voltar ao simulado completo
+          </button>
+        </div>
+      )}
+
       <div className="flex flex-col lg:flex-row gap-6">
         {/* Coluna Principal da Questão */}
         <main className="flex-1 min-w-0 space-y-6">
@@ -1011,7 +1070,7 @@ export const SimuladoPage: React.FC = () => {
         >
           <div className="flex items-center gap-3">
             <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
-              ITEM {currentIndex + 1} / {simuladoAtivo.questoes.length}
+              ITEM {currentIndex + 1} / {questoesExibidas.length}
             </span>
             <span className="text-xs font-mono text-ink-2">
               Submódulo {currentQuestion.submoduloId}
@@ -1034,7 +1093,7 @@ export const SimuladoPage: React.FC = () => {
               <span className="text-err">✗ {errosCount}</span>
               <span>⚪ {brancoCount}</span>
             </div>
-            <span className="text-ink-2">({respondidasCount}/{simuladoAtivo.questoes.length})</span>
+            <span className="text-ink-2">({respondidasCount}/{questoesExibidas.length})</span>
           </div>
         </section>
 
@@ -1197,7 +1256,7 @@ export const SimuladoPage: React.FC = () => {
                   variant={currentQuestion.gabarito === 'C' ? 'certo' : 'errado'}
                   size="md"
                 >
-                  {`Gabarito Oficial: ${currentQuestion.gabarito === 'C' ? 'CERTO' : 'ERRADO'}`}
+                  {`Gabarito: ${currentQuestion.gabarito === 'C' ? 'CERTO' : 'ERRADO'}`}
                 </Badge>
               </div>
 
@@ -1266,7 +1325,7 @@ export const SimuladoPage: React.FC = () => {
 
             <button
               type="button"
-              disabled={currentIndex === simuladoAtivo.questoes.length - 1}
+              disabled={currentIndex === questoesExibidas.length - 1}
               onClick={handleNext}
               className="flex-1 sm:flex-none py-2.5 px-4 rounded-lg bg-surface border border-border text-ink hover:border-accent text-xs sm:text-sm font-sans font-medium flex items-center justify-center gap-1.5 disabled:opacity-40 transition-colors"
             >
@@ -1284,7 +1343,7 @@ export const SimuladoPage: React.FC = () => {
               className="lg:hidden flex-1 sm:flex-none py-2.5 px-4 rounded-lg bg-surface-2 border border-border text-ink font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2"
             >
               <Layers className="w-4 h-4 text-accent" />
-              <span>Folha ({simuladoAtivo.questoes.length})</span>
+              <span>Folha ({questoesExibidas.length})</span>
             </button>
 
             <button
@@ -1301,7 +1360,7 @@ export const SimuladoPage: React.FC = () => {
 
       {/* Coluna Lateral da Folha de Respostas no Desktop */}
       <aside
-        aria-label={`Folha de respostas das ${simuladoAtivo.questoes.length} questões`}
+        aria-label={`Folha de respostas das ${questoesExibidas.length} questões`}
         className="hidden lg:block w-80 shrink-0 bg-surface rounded-2xl border border-border p-4.5 shadow-xs sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto"
       >
         <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
@@ -1309,11 +1368,11 @@ export const SimuladoPage: React.FC = () => {
             <Layers className="w-4 h-4 text-accent" />
             <h3 className="font-sans font-bold text-ink text-sm">Folha de Respostas</h3>
           </div>
-          <span className="font-mono text-xs text-ink-2">{simuladoAtivo.questoes.length} itens</span>
+          <span className="font-mono text-xs text-ink-2">{questoesExibidas.length} itens</span>
         </div>
 
         <AnswerSheet
-          questions={simuladoAtivo.questoes}
+          questions={questoesExibidas}
           respostas={respostas}
           currentIndex={currentIndex}
           onSelectQuestion={(idx) => mudarQuestaoSimulado(idx, selectedSimuladoId)}
@@ -1332,7 +1391,7 @@ export const SimuladoPage: React.FC = () => {
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3" />
               <div className="flex items-center justify-between pb-3 border-b border-border">
                 <Drawer.Title className="font-sans font-bold text-ink text-base">
-                  Folha de Respostas ({simuladoAtivo.questoes.length} Itens)
+                  Folha de Respostas ({questoesExibidas.length} Itens)
                 </Drawer.Title>
                 <Drawer.Description className="sr-only">
                   Grade de resposta das questões
@@ -1341,7 +1400,7 @@ export const SimuladoPage: React.FC = () => {
 
               <div className="flex-1 overflow-y-auto py-4">
                 <AnswerSheet
-                  questions={simuladoAtivo.questoes}
+                  questions={questoesExibidas}
                   respostas={respostas}
                   currentIndex={currentIndex}
                   onSelectQuestion={(idx) => {

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { motion } from 'motion/react';
 import {
   X,
@@ -30,6 +30,7 @@ import {
   IllustrationConclusao,
   IllustrationBloqueio,
 } from '../illustrations/ContextualIllustrations';
+import { obterItensVerificacaoSubmodulo } from '../../domain/progressoEngine';
 
 interface PortaoVerificacaoModalProps {
   isOpen: boolean;
@@ -58,6 +59,9 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     reabrirSecaoAposFalha,
     leitnerDeck,
     modoLivre,
+    checkpointsRespondidos,
+    obterPrimeiraTentativa,
+    adicionarItemAttempt,
   } = useProgressStore();
 
   const { setSelectedSubmodule, setActiveView } = useNavigationStore();
@@ -75,7 +79,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     return etapa ? getModuleTheme(etapa.moduloId) : getModuleTheme('m1');
   }, [etapa]);
 
-  // Monta o banco de itens para esta etapa
+  // Monta o banco de itens para esta etapa (usando a engine canônica para submódulos - Regra 1.3 e 1.6)
   const itensParaQuiz: ItemQuiz[] = useMemo(() => {
     if (!etapa) return [];
 
@@ -84,19 +88,15 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
       const sub = allSubs.find((s) => s.numero === etapa.id || s.id === etapa.id);
       if (!sub) return [];
 
-      const list: ItemQuiz[] = [];
-      // Adiciona checkpoints
-      for (const cp of sub.checkpoints || []) {
-        list.push({
-          id: cp.id,
-          pergunta: cp.pergunta,
-          assertiva: cp.item,
-          gabarito: cp.gabarito,
-          justificativa: cp.justificativa,
-          secaoId: 'sec-checkpoints',
-        });
-      }
-      return list;
+      const listaItens = obterItensVerificacaoSubmodulo(sub, etapa.moduloId);
+      return listaItens.map((it) => ({
+        id: it.id,
+        pergunta: `Item de Verificação · Submódulo ${it.submoduloNumero}`,
+        assertiva: it.texto,
+        gabarito: it.gabarito,
+        justificativa: it.justificativa || 'Assertiva formulada de acordo com as normas e literatura canônica.',
+        secaoId: 'sec-checkpoints',
+      }));
     }
 
     if (etapa.tipo === 'desafio_modulo') {
@@ -176,14 +176,45 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     return [];
   }, [etapa, leitnerDeck]);
 
+  // Carrega respostas já dadas na Teoria ou em outros contextos (Regra 1.1 e 1.3)
+  useEffect(() => {
+    if (isOpen && itensParaQuiz.length > 0) {
+      const respostasIniciais: Record<string, 'C' | 'E' | 'BRANCO'> = {};
+      for (const it of itensParaQuiz) {
+        const tentativa = obterPrimeiraTentativa(it.id);
+        if (tentativa) {
+          respostasIniciais[it.id] = tentativa.resposta;
+        } else if (checkpointsRespondidos && checkpointsRespondidos[it.id]) {
+          respostasIniciais[it.id] = checkpointsRespondidos[it.id];
+        }
+      }
+      setRespostas((prev) => ({ ...respostasIniciais, ...prev }));
+    }
+  }, [isOpen, itensParaQuiz, obterPrimeiraTentativa, checkpointsRespondidos]);
+
   if (!isOpen || !etapa) return null;
 
   const currentItem = itensParaQuiz[currentIndex];
   const totalItens = itensParaQuiz.length;
 
-  const handleResponder = (resposta: 'C' | 'E' | 'BRANCO') => {
+  const handleResponder = async (resposta: 'C' | 'E' | 'BRANCO') => {
     if (!currentItem) return;
     setRespostas((prev) => ({ ...prev, [currentItem.id]: resposta }));
+
+    // Sincroniza atômica e imediatamente com a Fonte Única de Respostas (Regra 1.1)
+    await adicionarItemAttempt({
+      itemId: currentItem.id,
+      submoduloId: etapa.tipo === 'submodulo' ? etapa.id : '1.1',
+      moduloId: etapa.moduloId,
+      contexto:
+        etapa.tipo === 'submodulo'
+          ? 'jornada'
+          : etapa.tipo === 'desafio_modulo'
+          ? 'simulado'
+          : 'portal',
+      resposta,
+      gabarito: currentItem.gabarito,
+    });
   };
 
   const handleProximo = () => {

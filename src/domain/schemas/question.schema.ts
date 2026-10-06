@@ -15,6 +15,8 @@ export const CebraspeQuestionSchema = z.object({
   item: z.string().min(10), // assertiva
   gabarito: z.enum(['C', 'E']),
   justificativa: z.string().min(10),
+  versao_correta: z.string().optional(),
+  secao_ref: z.string().optional(),
   armadilhaBanca: z.string().optional(),
   dificuldade: z.enum(['facil', 'media', 'dificil']),
   fonteOriginal: FonteOriginalSchema,

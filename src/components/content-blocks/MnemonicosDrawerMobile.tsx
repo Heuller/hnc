@@ -14,7 +14,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
   tituloModulo,
 }) => {
   return (
-    <div className="2xl:hidden fixed bottom-20 right-4 z-40">
+    <div className="md:hidden fixed bottom-20 right-4 z-30 print:hidden">
       <Drawer.Root shouldScaleBackground={false}>
         <Drawer.Trigger asChild>
           <button

@@ -21,11 +21,30 @@ import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
 import type { TermoSalvo } from '../domain/dicionario/types';
 import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
+import type { ItemAttempt, CriarItemAttemptParams } from '../domain/itemAttempts';
+import {
+  criarItemAttempt,
+  obterPrimeiraTentativaItem,
+  obterUltimaTentativaItem,
+} from '../domain/itemAttempts';
+import { itemAttemptsSyncService } from '../services/itemAttemptsSyncService';
+import {
+  derivarProgresso,
+  type ProgressoGlobalDerivado,
+} from '../domain/progressoEngine';
+import { executarMigracaoHistorico } from '../domain/migracaoTentativas';
+import { JORNADA_CONFIG } from '../config/jornada.config';
 
 interface ProgressStoreState extends UserProgress {
   ultimoModuloAcessado: string;
   tentativas: TentativaRegistro[];
+  itemAttempts: ItemAttempt[];
   termosSalvos: TermoSalvo[];
+  // Fonte Única de Respostas (Parte 1)
+  adicionarItemAttempt: (params: CriarItemAttemptParams) => Promise<ItemAttempt>;
+  obterPrimeiraTentativa: (itemId: string) => ItemAttempt | undefined;
+  obterUltimaTentativa: (itemId: string) => ItemAttempt | undefined;
+  getProgressoGlobal: () => ProgressoGlobalDerivado;
   // Dicionário / Glossário
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
   removerTermoVocabulario: (termoId: string) => void;
@@ -103,6 +122,7 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   modoLivre: false,
   secoesReabertasAposFalha: {},
   tentativas: [],
+  itemAttempts: [],
   termosSalvos: [],
   constancia: {
     ultimoAcessoData: getTodayString(),
@@ -113,6 +133,47 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
 
 if (typeof window !== 'undefined') {
   tentativasSyncService.migrarProgressoExistenteV2();
+  try {
+    const rawProgress = localStorage.getItem('hnc_progress_storage');
+    if (rawProgress) {
+      const parsed = JSON.parse(rawProgress)?.state;
+      if (parsed) {
+        const mig = executarMigracaoHistorico(
+          {
+            checkpointsRespondidos: parsed.checkpointsRespondidos,
+            tentativas: parsed.tentativas,
+          },
+          itemAttemptsSyncService.carregarLocais()
+        );
+        if (mig.totalCheckpointsMigrados > 0 || mig.totalTentativasJornadaMigradas > 0) {
+          itemAttemptsSyncService.salvarLocais(mig.attemptsGeradas);
+        }
+      }
+    }
+  } catch (e) {
+    console.warn('[Migracao] Falha na auto-migração:', e);
+  }
+
+  // Listener para sincronização instantânea entre abas via BroadcastChannel (Regra 1.2 e 1.7 i)
+  itemAttemptsSyncService.onTentativaRecebida((novaAttempt) => {
+    try {
+      const store = useProgressStore.getState();
+      const atuais = store.itemAttempts || [];
+      if (!atuais.some((a) => a.id === novaAttempt.id)) {
+        const novasAttempts = [...atuais, novaAttempt];
+        const novosCheckpoints = {
+          ...(store.checkpointsRespondidos || {}),
+          [novaAttempt.item_id]: novaAttempt.resposta as ('C' | 'E'),
+        };
+        useProgressStore.setState({
+          itemAttempts: novasAttempts,
+          checkpointsRespondidos: novosCheckpoints,
+        });
+      }
+    } catch (err) {
+      console.warn('[BroadcastSync] Erro ao sincronizar tentativa entre abas:', err);
+    }
+  });
 }
 
 export const useProgressStore = create<ProgressStoreState>()(
@@ -123,7 +184,121 @@ export const useProgressStore = create<ProgressStoreState>()(
         typeof window !== 'undefined'
           ? tentativasSyncService.carregarTentativasLocais()
           : [],
+      itemAttempts:
+        typeof window !== 'undefined'
+          ? itemAttemptsSyncService.carregarLocais()
+          : [],
       termosSalvos: [],
+
+      adicionarItemAttempt: async (params: CriarItemAttemptParams) => {
+        const state = get();
+        const authUser = useAuthStore.getState().user;
+        const userId = authUser?.id || 'usuario-local';
+
+        const novaAttempt = criarItemAttempt(
+          {
+            ...params,
+            userId,
+          },
+          state.itemAttempts || []
+        );
+
+        const novasAttempts = [
+          ...(state.itemAttempts || []).filter((a) => a.id !== novaAttempt.id),
+          novaAttempt,
+        ];
+
+        const novosCheckpoints = {
+          ...(state.checkpointsRespondidos || {}),
+          [novaAttempt.item_id]: novaAttempt.resposta as ('C' | 'E'),
+        };
+
+        const today = getTodayString();
+        const novoLeitnerDeck = { ...(state.leitnerDeck || {}) };
+        const itemAtual =
+          novoLeitnerDeck[novaAttempt.item_id] ||
+          criarItemLeitner(novaAttempt.item_id, novaAttempt.submodulo_id, today);
+        novoLeitnerDeck[novaAttempt.item_id] = processarRespostaLeitner(
+          itemAtual,
+          novaAttempt.correto,
+          today
+        );
+
+        const progressoGlobal = derivarProgresso(
+          novasAttempts,
+          state.secoesVisualizadas || {},
+          COURSE_REGISTRY,
+          JORNADA_CONFIG,
+          state.historicoSimulados || []
+        );
+
+        const subProgresso = progressoGlobal.submodulos[novaAttempt.submodulo_id];
+        let novosLidos = state.modulosLidosIds || [];
+        if (subProgresso && subProgresso.concluido) {
+          const lidosSet = new Set(novosLidos);
+          lidosSet.add(subProgresso.submoduloId);
+          novosLidos = Array.from(lidosSet);
+        }
+
+        // Gera registro de lote para retrocompatibilidade
+        let novasTentativas = state.tentativas || [];
+        if (subProgresso && subProgresso.itensRespondidosCount === subProgresso.totalItensVerificacao) {
+          const mapaRespostas: Record<string, any> = {};
+          for (const [itId, att] of Object.entries(subProgresso.primeirasTentativasMap)) {
+            mapaRespostas[itId] = {
+              questionId: itId,
+              resposta: att.resposta,
+              gabarito: att.correto ? att.resposta : att.resposta === 'C' ? 'E' : 'C',
+              acertou: att.correto,
+              secaoId: 'sec-checkpoints',
+            };
+          }
+          const loteTentativa = criarTentativaRegistro({
+            userId,
+            tipo: 'verificacao_submodulo',
+            targetId: subProgresso.submoduloNumero,
+            moduloId: subProgresso.moduloId,
+            totalItens: subProgresso.totalItensVerificacao,
+            respostas: mapaRespostas,
+            foraDaTrilha: state.modoLivre || false,
+          });
+          novasTentativas = [
+            ...novasTentativas.filter((t) => t.targetId !== subProgresso.submoduloNumero),
+            loteTentativa,
+          ];
+        }
+
+        set({
+          itemAttempts: novasAttempts,
+          checkpointsRespondidos: novosCheckpoints,
+          leitnerDeck: novoLeitnerDeck,
+          modulosLidosIds: novosLidos,
+          tentativas: novasTentativas,
+        });
+
+        await itemAttemptsSyncService.registrarTentativa(novaAttempt, userId);
+
+        return novaAttempt;
+      },
+
+      obterPrimeiraTentativa: (itemId: string) => {
+        return obterPrimeiraTentativaItem(get().itemAttempts || [], itemId);
+      },
+
+      obterUltimaTentativa: (itemId: string) => {
+        return obterUltimaTentativaItem(get().itemAttempts || [], itemId);
+      },
+
+      getProgressoGlobal: () => {
+        const state = get();
+        return derivarProgresso(
+          state.itemAttempts || [],
+          state.secoesVisualizadas || {},
+          COURSE_REGISTRY,
+          JORNADA_CONFIG,
+          state.historicoSimulados || []
+        );
+      },
 
       salvarTermoVocabulario: (termo: TermoSalvo) => {
         const atuais = get().termosSalvos || [];
@@ -304,12 +479,6 @@ export const useProgressStore = create<ProgressStoreState>()(
       },
 
       salvarCheckpoint: (checkpointId: string, resposta: 'C' | 'E') => {
-        const state = get();
-        const novosCheckpoints = {
-          ...(state.checkpointsRespondidos || {}),
-          [checkpointId]: resposta,
-        };
-
         const allSubs = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
         let subEncontrado: (typeof allSubs)[0] | undefined;
         let cpEncontrado: { id: string; gabarito: 'C' | 'E' } | undefined;
@@ -323,83 +492,23 @@ export const useProgressStore = create<ProgressStoreState>()(
           }
         }
 
-        const today = getTodayString();
-        const novoLeitnerDeck = { ...(state.leitnerDeck || {}) };
+        const submoduloId = subEncontrado ? subEncontrado.numero : '1.1';
+        const moduloId = subEncontrado ? subEncontrado.id.split('.')[0] : 'm1';
+        const gabarito = cpEncontrado ? cpEncontrado.gabarito : 'C';
 
-        if (subEncontrado && cpEncontrado) {
-          const acertou = resposta === cpEncontrado.gabarito;
-          const itemAtual =
-            novoLeitnerDeck[checkpointId] ||
-            criarItemLeitner(checkpointId, subEncontrado.id, today);
-          novoLeitnerDeck[checkpointId] = processarRespostaLeitner(itemAtual, acertou, today);
-        }
-
-        let novosLidos = state.modulosLidosIds || [];
-        let novasTentativas = state.tentativas || [];
-
-        if (subEncontrado) {
-          const secoes = (state.secoesVisualizadas || {})[subEncontrado.id] || [];
-          const learning = calculateSubmoduleStatus(subEncontrado, secoes, novosCheckpoints);
-          const lidosSet = new Set(novosLidos);
-          if (isSubmoduleConcluido(learning.status)) {
-            lidosSet.add(subEncontrado.id);
-          } else {
-            lidosSet.delete(subEncontrado.id);
-          }
-          novosLidos = Array.from(lidosSet);
-
-          // Sincronização automática com a Jornada: registra tentativa se todos os checkpoints foram feitos
-          const totalCps = subEncontrado.checkpoints?.length || 0;
-          let respondidosCount = 0;
-          let acertosCount = 0;
-          const mapaRespostas: Record<string, any> = {};
-
-          for (const cp of subEncontrado.checkpoints || []) {
-            const resp = novosCheckpoints[cp.id];
-            if (resp) {
-              respondidosCount++;
-              const acertou = resp === cp.gabarito;
-              if (acertou) acertosCount++;
-              mapaRespostas[cp.id] = {
-                questionId: cp.id,
-                resposta: resp,
-                gabarito: cp.gabarito,
-                acertou,
-                secaoId: 'sec-checkpoints',
-                texto: cp.item,
-              };
-            }
-          }
-
-          if (totalCps > 0 && respondidosCount === totalCps) {
-            const aproveitamento = acertosCount / totalCps;
-            if (aproveitamento >= 0.85) {
-              const novaTentativa = criarTentativaRegistro({
-                userId: 'usuario-logado',
-                tipo: 'verificacao_submodulo',
-                targetId: subEncontrado.numero,
-                moduloId: subEncontrado.id,
-                totalItens: totalCps,
-                respostas: mapaRespostas,
-                foraDaTrilha: false,
-              });
-              novasTentativas = [
-                ...novasTentativas.filter((t) => t.targetId !== subEncontrado.numero),
-                novaTentativa,
-              ];
-            }
-          }
-        }
-
-        set({
-          checkpointsRespondidos: novosCheckpoints,
-          leitnerDeck: novoLeitnerDeck,
-          modulosLidosIds: novosLidos,
-          tentativas: novasTentativas,
+        // Delega para a Fonte Única de Respostas (Regra 1.1 e 1.2)
+        get().adicionarItemAttempt({
+          itemId: checkpointId,
+          submoduloId,
+          moduloId,
+          contexto: 'teoria',
+          resposta,
+          gabarito,
         });
       },
 
       resetarCheckpoint: (checkpointId: string) => {
+        // Regra 1.4: Prática visual sem apagar histórico append-only da primeira tentativa
         set((state) => {
           const updated = { ...(state.checkpointsRespondidos || {}) };
           delete updated[checkpointId];
@@ -721,6 +830,39 @@ export const useProgressStore = create<ProgressStoreState>()(
             emAndamento: false,
           },
         });
+
+        // Regra 1.2 e 2.4: Registra tentativas append-only e alimenta Leitner/Caderno de Erros
+        try {
+          questoes.forEach((q) => {
+            const r = respostas[q.id];
+            if (r) {
+              const correto = r.resposta !== 'BRANCO' && r.resposta === q.gabarito;
+              get().adicionarItemAttempt({
+                itemId: q.id,
+                submoduloId: q.submoduloId,
+                moduloId: manifest?.macroModuloId || 'M1',
+                contexto: 'simulado',
+                resposta: r.resposta as 'C' | 'E' | 'BRANCO',
+                certeza:
+                  r.certeza === 'certeza'
+                    ? 'alta'
+                    : r.certeza === 'provavel'
+                    ? 'media'
+                    : r.certeza === 'chute'
+                    ? 'baixa'
+                    : undefined,
+                gabarito: q.gabarito,
+              });
+
+              // Todo item errado entra automaticamente no Leitner / Caderno de Erros
+              if (r.resposta !== 'BRANCO' && !correto) {
+                get().responderItemLeitner(q.id, q.submoduloId, false);
+              }
+            }
+          });
+        } catch (e) {
+          console.warn('[Simulado Tentativas] Falha ao registrar tentativas append-only:', e);
+        }
 
         // Sincroniza tentativa com o Supabase se usuário estiver autenticado
         try {

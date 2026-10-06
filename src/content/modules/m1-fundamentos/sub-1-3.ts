@@ -89,6 +89,7 @@ Em seu influente estudo epistemológico, Rafael Capurro analisa a evolução te�
       item: "Para Michael Buckland, a dimensão da 'informação como coisa' exclui qualquer objeto tridimensional ou artefato da natureza, aplicando-se apenas a livros impressos.",
       gabarito: 'E',
       justificativa: 'Errado! Buckland enfatiza que qualquer entidade física tangível (inclusive fósseis, esculturas, gravações) é informação como coisa quando portadora de evidência informativa.',
+      versao_correta: "Para Michael Buckland, a dimensão da 'informação como coisa' abrange qualquer entidade física tangível portadora de evidência informativa, inclusive objetos tridimensionais, documentos e fósseis.",
     },
     {
       id: 'cp-1-3-2',

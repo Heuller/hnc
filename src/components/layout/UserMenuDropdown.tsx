@@ -68,8 +68,11 @@ export const UserMenuDropdown: React.FC = () => {
     await signOut();
   };
 
+  const userInitial = user?.email ? user.email[0].toUpperCase() : 'U';
+  const userName = user?.email ? user.email.split('@')[0] : '';
+
   return (
-    <div className="relative" ref={menuRef}>
+    <div className="relative shrink-0" ref={menuRef}>
       {/* Botão Gatilho */}
       <button
         type="button"
@@ -81,25 +84,32 @@ export const UserMenuDropdown: React.FC = () => {
             setIsOpen((prev) => !prev);
           }
         }}
-        className={`flex items-center gap-1.5 py-1.5 px-3 rounded-lg border text-xs font-sans font-semibold transition-all cursor-pointer min-h-[40px] select-none ${
+        className={`flex items-center gap-1.5 py-1 px-2 sm:px-2.5 rounded-lg border text-xs font-sans font-semibold transition-all cursor-pointer min-h-[38px] select-none shrink-0 ${
           user
-            ? 'bg-surface-2 border-border text-ink hover:border-accent shadow-xs'
-            : 'bg-primary hover:opacity-95 text-primary-text shadow-xs'
+            ? 'bg-surface-2 border-border text-ink hover:border-accent shadow-2xs'
+            : 'bg-primary hover:opacity-95 text-primary-text shadow-2xs'
         }`}
         aria-haspopup="menu"
         aria-expanded={isOpen}
         aria-label={user ? `Menu de usuário: ${user.email}` : 'Entrar na conta'}
       >
-        <User className="w-3.5 h-3.5 text-accent" />
-        <span className="hidden sm:inline font-sans truncate max-w-[120px]">
-          {user ? user.email?.split('@')[0] : 'Entrar'}
-        </span>
         {user ? (
           <>
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-            <ChevronDown className="w-3 h-3 text-ink-2" />
+            <div className="w-6 h-6 rounded-full bg-accent/20 text-accent font-bold text-xs flex items-center justify-center shrink-0">
+              {userInitial}
+            </div>
+            <span className="hidden xl:inline font-sans truncate max-w-[90px]">
+              {userName}
+            </span>
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+            <ChevronDown className="w-3 h-3 text-ink-2 shrink-0" />
           </>
-        ) : null}
+        ) : (
+          <>
+            <User className="w-3.5 h-3.5" />
+            <span className="font-sans">Entrar</span>
+          </>
+        )}
       </button>
 
       {/* Menu Suspenso */}

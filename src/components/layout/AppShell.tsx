@@ -182,36 +182,36 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
               <span>• {CONCURSO_CONFIG.instituicao.nome}</span>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-2.5 sm:gap-3 shrink-0">
               <button
                 type="button"
                 onClick={() => setIsSearchOpen(true)}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
               >
-                <Search className="w-3.5 h-3.5 text-accent" />
-                <span>Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
+                <Search className="w-3.5 h-3.5 text-accent shrink-0" />
+                <span className="whitespace-nowrap">Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
               </button>
 
-              <span className="text-border">|</span>
+              <span className="text-border hidden sm:inline">|</span>
 
               <button
                 type="button"
                 onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
               >
-                <BookOpen className="w-3.5 h-3.5 text-accent" />
-                <span>Glossário Cebraspe</span>
+                <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
+                <span className="whitespace-nowrap">Glossário Cebraspe</span>
               </button>
 
-              <span className="text-border">|</span>
+              <span className="text-border hidden sm:inline">|</span>
 
               <button
                 type="button"
                 onClick={() => setIsShortcutsOpen(true)}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
               >
-                <Keyboard className="w-3.5 h-3.5 text-accent" />
-                <span>Atalhos (<Kbd>?</Kbd>)</span>
+                <Keyboard className="w-3.5 h-3.5 text-accent shrink-0" />
+                <span className="whitespace-nowrap">Atalhos (<Kbd>?</Kbd>)</span>
               </button>
             </div>
 

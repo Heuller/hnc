@@ -64,7 +64,7 @@ A Ciência da Informação não substituiu nem extinguiu a Biblioteconomia. Conf
       pergunta: 'Micro-Checkpoint 1: Conceito Canônico de Ciência da Informação',
       item: 'A Ciência da Informação é definida como a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam seus fluxos e os meios de processá-la para acesso e uso otimizados.',
       gabarito: 'C',
-      justificativa: 'Correto! Esta é a clássica definição de Harold Borko (1968), uma das mais cobradas pelo Cebraspe.',
+      justificativa: 'Correto! Esta é a clássica definição de Harold Borko (1968), esteio conceitual fundacional da Ciência da Informação.',
     },
     {
       id: 'cp-1-1-2',
@@ -72,6 +72,7 @@ A Ciência da Informação não substituiu nem extinguiu a Biblioteconomia. Conf
       item: "Conforme Le Coadic, a 'biblioteconomia dos livros' refere-se ao estudo das práticas de leitura e necessidades de informação dos usuários.",
       gabarito: 'E',
       justificativa: "Errado! A 'biblioteconomia dos livros' foca na gestão técnica e física do acervo; é a 'biblioteconomia dos leitores' que se ocupa dos usuários e de suas práticas.",
+      versao_correta: "Conforme Le Coadic, a 'biblioteconomia dos leitores' refere-se ao estudo das práticas de leitura e necessidades de informação dos usuários, enquanto a 'biblioteconomia dos livros' foca na gestão técnica e física do acervo.",
     },
       {
       id: 'cp-1-1-3',
