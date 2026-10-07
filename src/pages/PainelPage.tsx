@@ -164,10 +164,10 @@ export const PainelPage: React.FC = () => {
 
               <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
                 {proximoPasso?.tipo === 'submodulo'
-                  ? 'Texto canônico estruturado com autores clássicos, alertas de distratores da banca e micro-checkpoints formativos.'
+                  ? `Texto canônico estruturado com autores clássicos, alertas de distratores da banca e verificação de retenção (mínimo de ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%).`
                   : proximoPasso?.tipo === 'desafio_modulo'
-                  ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos).`
-                  : 'Portal de retenção cumulativa com 20 itens sobre módulos anteriores.'}
+                  ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos / ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}%).`
+                  : `Portal de retenção cumulativa com 20 itens sobre módulos anteriores (mínimo de ${JORNADA_CONFIG.portalAcertosMinimo} acertos / ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%).`}
               </p>
 
               <div className="flex items-center gap-4 text-xs font-sans text-ink-2 pt-1">

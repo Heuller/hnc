@@ -298,9 +298,9 @@ export function deriveJornadaState(params: {
           ? k === 1
             ? 'Primeira etapa do curso — acesso liberado.'
             : k === 2
-            ? `Conclua o Desafio M1 com 85% ou mais para liberar ${subId}.`
-            : `Conclua o Portal P(${k - 1}) com 85% ou mais para liberar ${subId}.`
-          : `Para abrir ${subId}: acerte pelo menos 85% em ${submodulos[sIdx - 1].numero}.`;
+            ? `Conclua o Desafio M1 com ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% ou mais para liberar ${subId}.`
+            : `Conclua o Portal P(${k - 1}) com ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% ou mais para liberar ${subId}.`
+          : `Para abrir ${subId}: acerte pelo menos ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% em ${submodulos[sIdx - 1].numero}.`;
 
       const etapaState: EtapaJornadaState = {
         id: subId,
@@ -393,15 +393,15 @@ export function deriveJornadaState(params: {
       status: statusDesafio,
       isDesbloqueada: isDesafioDesbloqueado,
       totalItens: JORNADA_CONFIG.desafioItensTotal, // 100
-      acertosNecessarios: JORNADA_CONFIG.desafioAcertosMinimo, // 85
-      errosMaximos: JORNADA_CONFIG.desafioErrosMaximo, // 15
+      acertosNecessarios: JORNADA_CONFIG.desafioAcertosMinimo, // 80
+      errosMaximos: JORNADA_CONFIG.desafioErrosMaximo, // 20
       descricaoRegra: `${JORNADA_CONFIG.desafioAcertosMinimo} acertos em ${JORNADA_CONFIG.desafioItensTotal} itens (no máximo ${JORNADA_CONFIG.desafioErrosMaximo} erros)`,
       tentativasCount: tentativasDesafio.length,
       ultimaTentativa: ultimaTentativaDesafio,
       melhorAproveitamentoPercent: melhorAprovDesafio,
       aprovado: desafioConcluido,
       revisaoDirigida: revisaoDirigidaDesafio,
-      requisitoDesbloqueio: `Conclua todos os ${submodulos.length} submódulos do Módulo ${k} com 85% ou mais para liberar o Desafio.`,
+      requisitoDesbloqueio: `Conclua todos os ${submodulos.length} submódulos do Módulo ${k} com ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% ou mais para liberar o Desafio.`,
       foraDaTrilha: false,
     };
 
@@ -414,7 +414,7 @@ export function deriveJornadaState(params: {
         tipo: 'desafio_modulo',
         moduloNumero: k,
         titulo: `Desafio do Módulo M${k}`,
-        descricaoAcao: 'Realizar simulado de 100 itens (mínimo 85 acertos)',
+        descricaoAcao: `Realizar simulado de 100 itens (mínimo ${JORNADA_CONFIG.desafioAcertosMinimo} acertos)`,
         status: statusDesafio,
       };
       moduloAtivoNumero = k;
@@ -473,7 +473,7 @@ export function deriveJornadaState(params: {
         melhorAproveitamentoPercent: melhorAprovPortal,
         aprovado: portalConcluido,
         revisaoDirigida: revisaoDirigidaPortal,
-        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com 85% ou mais para liberar o Portal de Revisão P(${k}).`,
+        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% ou mais para liberar o Portal de Revisão P(${k}).`,
         foraDaTrilha: false,
       };
 

@@ -13,6 +13,7 @@ import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
+import { JORNADA_CONFIG } from '../config/jornada.config';
 
 export const FolhaVesperaPage: React.FC = () => {
   const { setActiveView } = useNavigationStore();
@@ -126,7 +127,7 @@ export const FolhaVesperaPage: React.FC = () => {
 
         <p className="font-serif text-sm sm:text-base text-ink-2 leading-relaxed m-0">
           {completedSubmodules.length > 0
-            ? `Documento consolidado de alta retenção derivado de ${completedSubmodules.length} submódulo(s) concluído(s) com aproveitamento mínimo de 85%. Autores, quadros e pegadinhas da banca compilados para revisão imediata.`
+            ? `Documento consolidado de alta retenção derivado de ${completedSubmodules.length} submódulo(s) concluído(s) com aproveitamento mínimo de ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%. Autores, quadros e pegadinhas da banca compilados para revisão imediata.`
             : 'A Folha de Véspera consolida exclusivamente o conhecimento das etapas que você já dominou. Conclua os submódulos da Jornada para gerar automaticamente suas sínteses.'}
         </p>
       </div>
@@ -160,7 +161,7 @@ export const FolhaVesperaPage: React.FC = () => {
             <h3 className="text-base font-bold text-ink">Nenhum submódulo concluído ainda</h3>
             <p className="text-xs text-ink-2 font-serif leading-relaxed">
               Em respeito à fidelidade pedagógica, a Folha de Véspera não exibe conteúdos de módulos
-              não estudados. Assim que você atingir 85% de acertos nos checkpoints de uma etapa, suas
+              não estudados. Assim que você atingir {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% de acertos nos checkpoints de uma etapa, suas
               fórmulas, quadros e pegadinhas aparecerão aqui automaticamente.
             </p>
           </div>
