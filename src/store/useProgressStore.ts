@@ -32,7 +32,10 @@ import {
   derivarProgresso,
   type ProgressoGlobalDerivado,
 } from '../domain/progressoEngine';
-import { executarMigracaoHistorico } from '../domain/migracaoTentativas';
+import {
+  executarMigracaoHistorico,
+  criarPayloadBackupLogico,
+} from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
 interface ProgressStoreState extends UserProgress {
@@ -40,10 +43,15 @@ interface ProgressStoreState extends UserProgress {
   tentativas: TentativaRegistro[];
   itemAttempts: ItemAttempt[];
   termosSalvos: TermoSalvo[];
-  // Fonte Única de Respostas (Parte 1)
+  rodadasAtivas: Record<string, number>;
+  flagsLegado: string[];
+  // Fonte Única de Respostas (Parte 1 e Marco 1)
   adicionarItemAttempt: (params: CriarItemAttemptParams) => Promise<ItemAttempt>;
   obterPrimeiraTentativa: (itemId: string) => ItemAttempt | undefined;
   obterUltimaTentativa: (itemId: string) => ItemAttempt | undefined;
+  obterTentativaRodada: (itemId: string, rodada: number) => ItemAttempt | undefined;
+  iniciarNovaRodadaVerificacao: (submoduloNumero: string) => void;
+  gerarBackupLogicoJSON: () => string;
   getProgressoGlobal: () => ProgressoGlobalDerivado;
   // Dicionário / Glossário
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
@@ -103,7 +111,11 @@ const getRecent7Days = (): string[] => {
   return days;
 };
 
-const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
+const INITIAL_STATE: UserProgress & {
+  ultimoModuloAcessado: string;
+  rodadasAtivas: Record<string, number>;
+  flagsLegado: string[];
+} = {
   versao: 2,
   ultimoModuloAcessado: '1.1',
   modulosLidosIds: [],
@@ -124,6 +136,8 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   tentativas: [],
   itemAttempts: [],
   termosSalvos: [],
+  rodadasAtivas: {},
+  flagsLegado: ['2.1'],
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -142,6 +156,9 @@ if (typeof window !== 'undefined') {
           {
             checkpointsRespondidos: parsed.checkpointsRespondidos,
             tentativas: parsed.tentativas,
+            secoesVisualizadas: parsed.secoesVisualizadas,
+            historicoSimulados: parsed.historicoSimulados,
+            itemAttempts: itemAttemptsSyncService.carregarLocais(),
           },
           itemAttemptsSyncService.carregarLocais()
         );
@@ -195,10 +212,22 @@ export const useProgressStore = create<ProgressStoreState>()(
         const authUser = useAuthStore.getState().user;
         const userId = authUser?.id || 'usuario-local';
 
+        const rodadaSub = state.rodadasAtivas?.[params.submoduloId] || 1;
+        const rodadaN = params.rodadaN ?? rodadaSub;
+        const jaTemOficial = (state.itemAttempts || []).some(
+          (a) =>
+            a.item_id === params.itemId &&
+            !a.is_pratica &&
+            (a.rodada_n === rodadaN || (rodadaN === 1 && a.tentativa_n === 1 && !a.rodada_n))
+        );
+        const isPratica = params.isPratica !== undefined ? params.isPratica : jaTemOficial;
+
         const novaAttempt = criarItemAttempt(
           {
             ...params,
             userId,
+            rodadaN,
+            isPratica,
           },
           state.itemAttempts || []
         );
@@ -229,7 +258,9 @@ export const useProgressStore = create<ProgressStoreState>()(
           state.secoesVisualizadas || {},
           COURSE_REGISTRY,
           JORNADA_CONFIG,
-          state.historicoSimulados || []
+          state.historicoSimulados || [],
+          state.flagsLegado || ['2.1'],
+          state.rodadasAtivas || {}
         );
 
         const subProgresso = progressoGlobal.submodulos[novaAttempt.submodulo_id];
@@ -282,11 +313,76 @@ export const useProgressStore = create<ProgressStoreState>()(
       },
 
       obterPrimeiraTentativa: (itemId: string) => {
-        return obterPrimeiraTentativaItem(get().itemAttempts || [], itemId);
+        const state = get();
+        const att = obterPrimeiraTentativaItem(state.itemAttempts || [], itemId);
+        if (att) return att;
+        // Fallback resiliente para reidratação do legado (Bug 8)
+        const respLegado = state.checkpointsRespondidos?.[itemId];
+        if (respLegado) {
+          return {
+            id: `legacy-${itemId}`,
+            user_id: 'usuario-local',
+            item_id: itemId,
+            submodulo_id: '',
+            modulo_id: '',
+            contexto: 'teoria',
+            resposta: respLegado,
+            correto: true,
+            tentativa_n: 1,
+            rodada_n: 1,
+            is_pratica: false,
+            criado_em: new Date().toISOString(),
+          } as ItemAttempt;
+        }
+        return undefined;
       },
 
       obterUltimaTentativa: (itemId: string) => {
         return obterUltimaTentativaItem(get().itemAttempts || [], itemId);
+      },
+
+      obterTentativaRodada: (itemId: string, rodada: number) => {
+        const state = get();
+        return (state.itemAttempts || []).find(
+          (a) =>
+            a.item_id === itemId &&
+            !a.is_pratica &&
+            (a.rodada_n === rodada || (rodada === 1 && a.tentativa_n === 1 && !a.rodada_n))
+        );
+      },
+
+      iniciarNovaRodadaVerificacao: (submoduloNumero: string) => {
+        const state = get();
+        const subAttempts = (state.itemAttempts || []).filter(
+          (a) => a.submodulo_id === submoduloNumero && !a.is_pratica
+        );
+        const rodadasRegistradas = subAttempts.map((a) => a.rodada_n || (a.tentativa_n === 1 ? 1 : 1));
+        const rodadaMax =
+          rodadasRegistradas.length > 0
+            ? Math.max(...rodadasRegistradas)
+            : state.rodadasAtivas?.[submoduloNumero] || 1;
+        const proximaRodada = rodadaMax + 1;
+
+        set({
+          rodadasAtivas: {
+            ...(state.rodadasAtivas || {}),
+            [submoduloNumero]: proximaRodada,
+          },
+        });
+      },
+
+      gerarBackupLogicoJSON: () => {
+        const state = get();
+        return criarPayloadBackupLogico(
+          {
+            checkpointsRespondidos: state.checkpointsRespondidos,
+            tentativas: state.tentativas,
+            secoesVisualizadas: state.secoesVisualizadas,
+            historicoSimulados: state.historicoSimulados,
+            itemAttempts: state.itemAttempts,
+          },
+          state.itemAttempts || []
+        );
       },
 
       getProgressoGlobal: () => {
@@ -296,7 +392,9 @@ export const useProgressStore = create<ProgressStoreState>()(
           state.secoesVisualizadas || {},
           COURSE_REGISTRY,
           JORNADA_CONFIG,
-          state.historicoSimulados || []
+          state.historicoSimulados || [],
+          state.flagsLegado || ['2.1'],
+          state.rodadasAtivas || {}
         );
       },
 

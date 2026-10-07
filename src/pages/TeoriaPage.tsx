@@ -54,6 +54,7 @@ export const TeoriaPage: React.FC = () => {
     ultimoModuloAcessado,
     setUltimoModuloAcessado,
     getProgressoGlobal,
+    iniciarNovaRodadaVerificacao,
     historicoSimulados,
     devBypassSimuladoLock,
   } = useProgressStore();
@@ -174,11 +175,26 @@ export const TeoriaPage: React.FC = () => {
     historicoSimulados || []
   );
 
+  const subProg = progressoGlobal.submodulos[currentSub.numero];
+
+  const [checkpointsOrdem, setCheckpointsOrdem] = useState(currentSub.checkpoints);
+
+  useEffect(() => {
+    setCheckpointsOrdem(currentSub.checkpoints);
+  }, [currentSub.id, currentSub.checkpoints]);
+
   const scrollToAnchor = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleRefazerVerificacao = () => {
+    iniciarNovaRodadaVerificacao(currentSub.numero);
+    // Ajuste 6: itens em ordem aleatória ao refazer verificação oficial
+    setCheckpointsOrdem([...currentSub.checkpoints].sort(() => Math.random() - 0.5));
+    scrollToAnchor('sec-checkpoints');
   };
 
   // Se o módulo estiver bloqueado pedagogicamente (Regra 2.2)
@@ -590,9 +606,9 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp, idx) => (
+              {checkpointsOrdem.map((cp, idx) => (
                 <ItemCE
-                  key={cp.id}
+                  key={`${cp.id}-${subProg?.rodadaAtual || 1}`}
                   item={{
                     id: cp.id,
                     numero: idx + 1,
@@ -604,7 +620,8 @@ export const TeoriaPage: React.FC = () => {
                     versaoCorreta: (cp as any).versao_correta,
                   }}
                   contexto="teoria"
-                  contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}
+                  rodadaAtiva={subProg?.rodadaAtual || 1}
+                  contadorTexto={`Checkpoint ${idx + 1} de ${checkpointsOrdem.length}`}
                 />
               ))}
             </div>
@@ -738,12 +755,27 @@ export const TeoriaPage: React.FC = () => {
               <div />
             )}
 
-            {/* Indicador de Conclusão Pedagógica Sóbrio (Defeito D13) */}
+            {/* Indicador de Conclusão Pedagógica Sóbrio (Defeito D13 e Marco 1) */}
             <div className="w-full sm:w-auto text-center sm:text-left">
               {rodapeNav.submoduloConcluido ? (
                 <div className="py-2 px-3.5 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
                   <CheckCircle2 className="w-4 h-4" />
-                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
+                  <span>Submódulo Concluído ({subProg?.aproveitamentoPortaoPercent ?? 100}% de acertos)</span>
+                </div>
+              ) : rodapeNav.podeRefazerVerificacao ? (
+                <div className="flex flex-col sm:flex-row items-center gap-2">
+                  <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
+                    <RotateCcw className="w-4 h-4 shrink-0 text-amber-500" />
+                    <span>Aproveitamento insuficiente ({subProg?.aproveitamentoPortaoPercent}%). Mínimo exigido: 85%.</span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleRefazerVerificacao}
+                    className="py-2 px-3.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-sans text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs cursor-pointer transition-all active:scale-98"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5" />
+                    <span>Refazer Verificação Oficial</span>
+                  </button>
                 </div>
               ) : rodapeNav.motivoBloqueioSubmodulo ? (
                 <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">

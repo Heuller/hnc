@@ -3,12 +3,16 @@ import type { ItemAttempt } from './itemAttempts';
 import { criarItemAttempt } from './itemAttempts';
 import type { TentativaRegistro } from './tentativas';
 
-const HNC_MIGRACAO_REALIZADA_KEY = 'hnc_migracao_item_attempts_v1_done';
-const HNC_BACKUP_STORAGE_KEY = 'hnc_backup_pre_rodada5b';
+export const HNC_MIGRACAO_REALIZADA_KEY = 'hnc_migracao_item_attempts_v1_done';
+export const HNC_BACKUP_STORAGE_KEY = 'hnc_backup_pre_rodada5b';
+export const HNC_BACKUP_LOGICO_KEY = 'hnc_backup_logico_pre_m1';
 
 export interface DadosParaMigracao {
   checkpointsRespondidos?: Record<string, 'C' | 'E'>;
   tentativas?: TentativaRegistro[];
+  secoesVisualizadas?: Record<string, string[]>;
+  historicoSimulados?: any[];
+  itemAttempts?: ItemAttempt[];
   userId?: string;
 }
 
@@ -22,8 +26,31 @@ export interface ResultadoMigracao {
 }
 
 /**
+ * Gera um payload de backup lógico em JSON dos dados do usuário (Regra de Segurança do Marco 1).
+ */
+export function criarPayloadBackupLogico(
+  dados: DadosParaMigracao,
+  attemptsExistentes: ItemAttempt[] = []
+): string {
+  return JSON.stringify(
+    {
+      timestamp: new Date().toISOString(),
+      versao: 'backup-logico-m1',
+      checkpoints: dados.checkpointsRespondidos || {},
+      tentativas: dados.tentativas || [],
+      secoesVisualizadas: dados.secoesVisualizadas || {},
+      historicoSimulados: dados.historicoSimulados || [],
+      itemAttempts: dados.itemAttempts || attemptsExistentes || [],
+    },
+    null,
+    2
+  );
+}
+
+/**
  * Migra o progresso histórico já salvo (teoria e Jornada) para o registro canônico item_attempts (Regra 1.5).
- * Realiza backup prévio, preserva 100% dos dados e reconcilia duplicatas de forma idempotente.
+ * Realiza backup prévio lógico de 100% dos dados (itemAttempts, tentativas, secoesVisualizadas, historicoSimulados)
+ * de forma append-only e estritamente idempotente.
  */
 export function executarMigracaoHistorico(
   dados: DadosParaMigracao,
@@ -31,18 +58,19 @@ export function executarMigracaoHistorico(
 ): ResultadoMigracao {
   const userId = dados.userId || 'usuario-local';
 
-  // 1. Backup prévio de segurança
+  // 1. Backup prévio de segurança idempotente
   let backupRealizado = false;
   if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
     try {
-      const backupData = {
-        data: new Date().toISOString(),
-        checkpoints: dados.checkpointsRespondidos,
-        tentativas: dados.tentativas,
-        attemptsAtuais: attemptsExistentes,
-      };
-      localStorage.setItem(HNC_BACKUP_STORAGE_KEY, JSON.stringify(backupData));
-      backupRealizado = true;
+      const backupExistente = localStorage.getItem(HNC_BACKUP_LOGICO_KEY) || localStorage.getItem(HNC_BACKUP_STORAGE_KEY);
+      if (!backupExistente) {
+        const backupJson = criarPayloadBackupLogico(dados, attemptsExistentes);
+        localStorage.setItem(HNC_BACKUP_LOGICO_KEY, backupJson);
+        localStorage.setItem(HNC_BACKUP_STORAGE_KEY, backupJson);
+        backupRealizado = true;
+      } else {
+        backupRealizado = true; // Já garantido previamente
+      }
     } catch (e) {
       console.warn('[Migracao] Falha ao gravar backup local:', e);
     }

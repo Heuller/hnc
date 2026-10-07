@@ -18,20 +18,23 @@ export interface SubmoduloProgressoDerivado {
   submoduloId: string; // Ex: 'sub-1-1'
   submoduloNumero: string; // Ex: '1.1'
   moduloId: string; // Ex: 'm1'
-  totalItensVerificacao: number; // N total
-  itensRespondidosCount: number; // X respondidos na 1ª tentativa
-  acertosPrimeiraTentativa: number;
-  errosPrimeiraTentativa: number;
-  aproveitamentoPortaoPercent: number; // % da primeira tentativa
-  acertosNecessariosPortao: number; // ceil(minimoVerificacao * N)
+  totalItensVerificacao: number; // N total de checkpoints reais
+  itensRespondidosCount: number; // Itens respondidos na rodada oficial ativa
+  acertosPrimeiraTentativa: number; // Acertos na rodada oficial ativa
+  errosPrimeiraTentativa: number; // Erros na rodada oficial ativa
+  aproveitamentoPortaoPercent: number; // % da rodada oficial ativa
+  acertosNecessariosPortao: number; // Mínimo de acertos para >= 85%
   aprovadoNoPortao: boolean;
   secoesLidasCount: number;
   secoesTotalCount: number;
   leituraCompleta: boolean;
-  concluido: boolean; // leituraCompleta && aprovadoNoPortao
+  concluido: boolean; // leituraCompleta && aprovadoNoPortao (ou liberado por exceção)
   emRevisaoDirigida: boolean;
   itensPendentesIds: string[];
-  statusTexto: string; // Ex: "3 de 3 respondidos · 100% · Concluído" ou "2 de 3 respondidos · 67% · faltam 1 item"
+  statusTexto: string;
+  rodadaAtual?: number;
+  podeRefazerVerificacao?: boolean;
+  submoduloLiberadoPorExcecao?: boolean;
   primeirasTentativasMap: Record<string, ItemAttempt>;
   ultimasTentativasMap: Record<string, ItemAttempt>;
 }
@@ -70,7 +73,7 @@ export function obterItensVerificacaoSubmodulo(
 ): ItemVerificacaoCanonica[] {
   const lista: ItemVerificacaoCanonica[] = [];
 
-  // 1. Checkpoints canônicos da teoria
+  // Checkpoints canônicos da teoria (única composição oficial da verificação)
   for (const cp of sub.checkpoints || []) {
     lista.push({
       id: cp.id,
@@ -80,38 +83,6 @@ export function obterItensVerificacaoSubmodulo(
       gabarito: cp.gabarito,
       tipo: 'checkpoint',
       justificativa: cp.justificativa,
-    });
-  }
-
-  // 2. Se N < 6, soma exercícios do Treino de Recuperação Ativa (Regra 1.6)
-  if (lista.length < 6 && sub.mnemonicos) {
-    // A) Pares de autores
-    (sub.mnemonicos.autores || []).slice(0, 3).forEach((a, idx) => {
-      const nomeAutor = typeof a === 'string' ? a : a.nome;
-      lista.push({
-        id: `pair-${sub.numero}-${idx}`,
-        submoduloNumero: sub.numero,
-        moduloId,
-        texto: `Associação Autor/Conceito: ${nomeAutor}`,
-        gabarito: 'C',
-        tipo: 'treino_par',
-        justificativa: typeof a === 'object' ? a.ideiaChave || a.obraPrincipal : undefined,
-      });
-    });
-
-    // B) Pegadinhas / Caça-armadilha
-    (sub.mnemonicos.pegadinhas || []).slice(0, 3).forEach((peg) => {
-      if (typeof peg === 'object') {
-        lista.push({
-          id: peg.id,
-          submoduloNumero: sub.numero,
-          moduloId,
-          texto: peg.afirmacao,
-          gabarito: peg.gabarito,
-          tipo: 'treino_armadilha',
-          justificativa: peg.porQue,
-        });
-      }
     });
   }
 
@@ -129,7 +100,9 @@ export function derivarProgresso(
   secoesVisualizadas: Record<string, string[]> = {},
   registry: MacroModulo[],
   config: JornadaConfig = JORNADA_CONFIG,
-  simuladoTentativas: any[] = []
+  simuladoTentativas: any[] = [],
+  flagsLegado: string[] = [],
+  rodadasAtivas: Record<string, number> = {}
 ): ProgressoGlobalDerivado {
   const submodulosMap: Record<string, SubmoduloProgressoDerivado> = {};
   const modulosMap: Record<string, ModuloProgressoDerivado> = {};
@@ -139,13 +112,11 @@ export function derivarProgresso(
   const ultimasTentativasMap: Record<string, ItemAttempt> = {};
 
   for (const att of attempts) {
-    // 1ª tentativa oficial (portão)
-    if (att.tentativa_n === 1) {
+    if (att.tentativa_n === 1 || att.rodada_n === 1) {
       if (!primeirasTentativasMap[att.item_id]) {
         primeirasTentativasMap[att.item_id] = att;
       }
     }
-    // Última tentativa (mais recente)
     const atual = ultimasTentativasMap[att.item_id];
     if (!atual || att.tentativa_n > atual.tentativa_n) {
       ultimasTentativasMap[att.item_id] = att;
@@ -166,29 +137,53 @@ export function derivarProgresso(
       const totalN = itensVerificacao.length;
       const acertosNecessarios = Math.ceil(config.minimoVerificacao * totalN);
 
+      // Filtra tentativas pertencentes a este submódulo
+      const subAttempts = attempts.filter(
+        (a) => a.submodulo_id === sub.numero || a.submodulo_id === sub.id
+      );
+
+      // Separa tentativas oficiais (não-prática) e descobre a rodada oficial ativa
+      const tentativasOficiais = subAttempts.filter((a) => !a.is_pratica);
+      const rodadasRegistradas = tentativasOficiais.map(
+        (a) => a.rodada_n || (a.tentativa_n === 1 ? 1 : 1)
+      );
+      const rodadaRegistradaMax = rodadasRegistradas.length > 0 ? Math.max(...rodadasRegistradas) : 1;
+      const rodadaAtivaForcada = rodadasAtivas[sub.numero] || rodadasAtivas[sub.id] || 1;
+      const rodadaAtual = Math.max(rodadaRegistradaMax, rodadaAtivaForcada);
+
+      // Mapeia as respostas oficiais da rodada ativa
+      const tentativasRodadaAtiva: Record<string, ItemAttempt> = {};
+      for (const att of tentativasOficiais) {
+        const r = att.rodada_n || (att.tentativa_n === 1 ? 1 : 1);
+        if (r === rodadaAtual) {
+          tentativasRodadaAtiva[att.item_id] = att;
+        }
+      }
+
       let respondidosCount = 0;
-      let acertosPrimeiraTentativa = 0;
-      let errosPrimeiraTentativa = 0;
+      let acertosRodada = 0;
+      let errosRodada = 0;
       const itensPendentesIds: string[] = [];
 
       for (const it of itensVerificacao) {
-        const primeira = primeirasTentativasMap[it.id];
-        if (primeira && primeira.resposta !== 'BRANCO') {
+        const att = tentativasRodadaAtiva[it.id];
+        if (att && att.resposta !== 'BRANCO') {
           respondidosCount++;
-          if (primeira.correto) {
-            acertosPrimeiraTentativa++;
+          if (att.correto) {
+            acertosRodada++;
           } else {
-            errosPrimeiraTentativa++;
+            errosRodada++;
           }
         } else {
           itensPendentesIds.push(it.id);
         }
       }
 
-      const aproveitamentoPortaoPercent =
-        totalN > 0 ? Math.round((acertosPrimeiraTentativa / totalN) * 100) : 0;
+      // Limiar estrito sem arredondamento para cima: acertos / totalN >= 0.85
+      const taxaAcerto = totalN > 0 ? acertosRodada / totalN : 0;
+      const aproveitamentoPortaoPercent = Math.round(taxaAcerto * 100);
       const aprovadoNoPortao =
-        respondidosCount === totalN && acertosPrimeiraTentativa >= acertosNecessarios;
+        respondidosCount === totalN && totalN > 0 && taxaAcerto >= config.minimoVerificacao;
 
       // Avaliação de leitura canônica
       const secoesLidas = secoesVisualizadas[sub.id] || secoesVisualizadas[sub.numero] || [];
@@ -197,19 +192,26 @@ export function derivarProgresso(
       const leituraCompleta = requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
 
       const emRevisaoDirigida = respondidosCount === totalN && !aprovadoNoPortao;
-      const concluido = leituraCompleta && aprovadoNoPortao;
+      const podeRefazerVerificacao = emRevisaoDirigida;
+
+      // Exceção legada (grandfathering) para 2.1 não quebrar etapas 2.2/2.3 já concluídas
+      const submoduloLiberadoPorExcecao = Boolean(
+        flagsLegado && (flagsLegado.includes(sub.numero) || flagsLegado.includes(sub.id))
+      );
+
+      const concluido = (leituraCompleta && aprovadoNoPortao) || submoduloLiberadoPorExcecao;
 
       if (concluido) {
         submodulosConcluidosDoModulo++;
         totalEtapasConcluidas++;
       }
 
-      // Texto de status honesto (Regra 1.3)
+      // Texto de status honesto
       let statusTexto = '';
       if (concluido) {
         statusTexto = `${respondidosCount} de ${totalN} respondidos · ${aproveitamentoPortaoPercent}% · Concluído`;
       } else if (emRevisaoDirigida) {
-        statusTexto = `${acertosPrimeiraTentativa} de ${totalN} acertos (${aproveitamentoPortaoPercent}% · mín. ${Math.round(config.minimoVerificacao * 100)}%) · Revisão dirigida`;
+        statusTexto = `${acertosRodada} de ${totalN} acertos (${aproveitamentoPortaoPercent}% · mín. ${Math.round(config.minimoVerificacao * 100)}%) · Revisão dirigida`;
       } else if (respondidosCount > 0) {
         const faltam = totalN - respondidosCount;
         statusTexto = `${respondidosCount} de ${totalN} respondidos · ${aproveitamentoPortaoPercent}% · faltam ${faltam} ite${faltam > 1 ? 'ns' : 'm'}`;
@@ -223,8 +225,8 @@ export function derivarProgresso(
         moduloId: macro.id,
         totalItensVerificacao: totalN,
         itensRespondidosCount: respondidosCount,
-        acertosPrimeiraTentativa,
-        errosPrimeiraTentativa,
+        acertosPrimeiraTentativa: acertosRodada,
+        errosPrimeiraTentativa: errosRodada,
         aproveitamentoPortaoPercent,
         acertosNecessariosPortao: acertosNecessarios,
         aprovadoNoPortao,
@@ -235,6 +237,9 @@ export function derivarProgresso(
         emRevisaoDirigida,
         itensPendentesIds,
         statusTexto,
+        rodadaAtual,
+        podeRefazerVerificacao,
+        submoduloLiberadoPorExcecao,
         primeirasTentativasMap,
         ultimasTentativasMap,
       };

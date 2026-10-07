@@ -30,6 +30,7 @@ export interface ItemCEData {
 export interface ItemCEProps {
   item: ItemCEData;
   contexto: ContextoTentativa;
+  rodadaAtiva?: number;
   contadorTexto?: string; // Ex: "Item 2 de 3"
   onAnswered?: (attempt: ItemAttempt) => void;
   autoFocus?: boolean;
@@ -38,13 +39,16 @@ export interface ItemCEProps {
 export const ItemCE: React.FC<ItemCEProps> = ({
   item,
   contexto,
+  rodadaAtiva,
   contadorTexto,
   onAnswered,
 }) => {
   const {
     obterPrimeiraTentativa,
     obterUltimaTentativa,
+    obterTentativaRodada,
     adicionarItemAttempt,
+    checkpointsRespondidos,
   } = useProgressStore();
 
   const { setSelectedSubmodule, setActiveView } = useNavigationStore();
@@ -52,19 +56,45 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   const primeiraTentativa = obterPrimeiraTentativa(item.id);
   const ultimaTentativa = obterUltimaTentativa(item.id);
 
-  // Modo prática (quando o usuário clica em "Refazer")
+  // Modo prática (quando o usuário clica em "Refazer" individualmente)
   const [modoPraticaAtivo, setModoPraticaAtivo] = useState(false);
   const [respostaPratica, setRespostaPratica] = useState<'C' | 'E' | 'BRANCO' | null>(null);
 
-  const attemptAtual = modoPraticaAtivo
-    ? respostaPratica
+  // Derivação estrita da tentativa correspondente à rodada ativa
+  let attemptAtual: any = null;
+  if (modoPraticaAtivo) {
+    attemptAtual = respostaPratica
       ? {
           resposta: respostaPratica,
           correto: respostaPratica === item.gabarito,
           tentativa_n: (ultimaTentativa?.tentativa_n || 1) + 1,
         }
-      : null
-    : ultimaTentativa || primeiraTentativa;
+      : null;
+  } else if (rodadaAtiva) {
+    const attemptNaRodada = obterTentativaRodada(item.id, rodadaAtiva);
+    attemptAtual = attemptNaRodada || null;
+  } else {
+    attemptAtual = ultimaTentativa || primeiraTentativa || null;
+  }
+
+  // Fallback de reidratação para legado (Bug 8): nunca exibe botões em branco se já respondido
+  if (!attemptAtual && (!rodadaAtiva || rodadaAtiva === 1) && checkpointsRespondidos?.[item.id]) {
+    const respLegado = checkpointsRespondidos[item.id];
+    attemptAtual = {
+      id: `legacy-${item.id}`,
+      user_id: 'usuario-local',
+      item_id: item.id,
+      submodulo_id: item.submoduloId || '',
+      modulo_id: item.moduloId || '',
+      contexto,
+      resposta: respLegado,
+      correto: respLegado === item.gabarito,
+      tentativa_n: 1,
+      rodada_n: 1,
+      is_pratica: false,
+      criado_em: new Date().toISOString(),
+    };
+  }
 
   const isRespondido = attemptAtual !== null && attemptAtual !== undefined;
   const respostaDada = attemptAtual?.resposta;
@@ -107,6 +137,8 @@ export const ItemCE: React.FC<ItemCEProps> = ({
       contexto,
       resposta,
       gabarito: item.gabarito,
+      rodadaN: rodadaAtiva,
+      isPratica: modoPraticaAtivo ? true : false,
     });
 
     if (modoPraticaAtivo) {
@@ -168,12 +200,20 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
         {isRespondido && (
           <div className="flex items-center gap-2">
-            {primeiraTentativa && (
+            {primeiraTentativa && (!rodadaAtiva || rodadaAtiva === 1) && (
               <Badge
                 variant={primeiraTentativa.correto ? 'certo' : 'errado'}
                 className="text-[10px] font-mono"
               >
                 1ª tentativa: {primeiraTentativa.correto ? '✓ Acerto' : '✗ Erro'}
+              </Badge>
+            )}
+            {rodadaAtiva && rodadaAtiva > 1 && attemptAtual && (
+              <Badge
+                variant={attemptAtual.correto ? 'certo' : 'errado'}
+                className="text-[10px] font-mono"
+              >
+                {rodadaAtiva}ª rodada: {attemptAtual.correto ? '✓ Acerto' : '✗ Erro'}
               </Badge>
             )}
             {modoPraticaAtivo && (

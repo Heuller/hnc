@@ -219,7 +219,8 @@ export function verificarAcessoModulo(
 /**
  * Verifica o status de navegação do rodapé do submódulo conforme Regra 2.1:
  * - Último submódulo (ex: 1.4) NUNCA leva ao próximo módulo.
- * - Submódulos intermediários (ex: 1.1) só habilitam avanço quando o atual estiver concluído.
+ * - Submódulos intermediários (ex: 1.1) habilitam avanço quando o atual estiver concluído.
+ * - Ajuste 7: O destino do botão de avanço é a PRÓXIMA ETAPA RECOMENDADA NÃO CONCLUÍDA.
  */
 export function verificarNavegacaoRodapeSubmodulo(
   submoduloNumero: string,
@@ -237,6 +238,8 @@ export function verificarNavegacaoRodapeSubmodulo(
   notaConsolidadaSimulado: number;
   podeAvancarProximoSubmodulo: boolean;
   proximoSubmoduloNumero?: string;
+  podeRefazerVerificacao?: boolean;
+  rodadaAtual?: number;
 } {
   if (submoduloNumero === '2.5' || submoduloNumero === 'sub-2-5') {
     return {
@@ -250,6 +253,8 @@ export function verificarNavegacaoRodapeSubmodulo(
       notaConsolidadaSimulado: 100,
       podeAvancarProximoSubmodulo: true,
       proximoSubmoduloNumero: '3.1',
+      podeRefazerVerificacao: false,
+      rodadaAtual: 1,
     };
   }
 
@@ -267,7 +272,13 @@ export function verificarNavegacaoRodapeSubmodulo(
   );
 
   const isUltimoDoModulo = indexNoMacro === submodulosDoMacro.length - 1;
-  const proximoSubNoMacro = !isUltimoDoModulo ? submodulosDoMacro[indexNoMacro + 1] : undefined;
+
+  // Ajuste 7: O destino do avanço é a PRÓXIMA ETAPA RECOMENDADA NÃO CONCLUÍDA
+  // Exemplo: se 2.2 e 2.3 já estão concluídos, ao aprovar 2.1 avança direto para 2.4
+  const proximoSubRecomendado = submodulosDoMacro
+    .slice(indexNoMacro + 1)
+    .find((s) => !progressoGlobal.submodulos[s.numero]?.concluido);
+  const proximoSubNoMacro = proximoSubRecomendado || (!isUltimoDoModulo ? submodulosDoMacro[indexNoMacro + 1] : undefined);
 
   const subProg = progressoGlobal.submodulos[submoduloNumero];
   const submoduloConcluido = subProg?.concluido ?? false;
@@ -280,7 +291,7 @@ export function verificarNavegacaoRodapeSubmodulo(
     } else if (pendentes > 0) {
       motivoBloqueioSubmodulo = `Responda os ${pendentes} itens de verificação pendentes.`;
     } else if (!subProg.aprovadoNoPortao) {
-      motivoBloqueioSubmodulo = `Aproveitamento insuficiente (${subProg.aproveitamentoPortaoPercent}%). Mínimo exigido: ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%.`;
+      motivoBloqueioSubmodulo = `Aproveitamento insuficiente (${subProg.aproveitamentoPortaoPercent}%). Mínimo exigido: ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%. Revise os pontos com erro e refaça a verificação.`;
     }
   }
 
@@ -307,5 +318,7 @@ export function verificarNavegacaoRodapeSubmodulo(
     notaConsolidadaSimulado: consolidada.notaConsolidadaPercent,
     podeAvancarProximoSubmodulo: !isUltimoDoModulo && submoduloConcluido,
     proximoSubmoduloNumero: proximoSubNoMacro?.numero,
+    podeRefazerVerificacao: subProg?.podeRefazerVerificacao ?? false,
+    rodadaAtual: subProg?.rodadaAtual ?? 1,
   };
 }
