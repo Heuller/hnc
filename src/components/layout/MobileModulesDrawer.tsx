@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, BookOpen, ChevronRight, CheckCircle2, Circle } from 'lucide-react';
+import { X, BookOpen, ChevronRight, CheckCircle2, Circle, Lock } from 'lucide-react';
 import { ALL_COURSE_MODULES } from '../../content/registry';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import { ModuleBadge } from '../common/ModuleBadge';
 import { ModuleProgressRing } from '../common/ModuleProgressRing';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
-import { getMacroModuloProgressoPercent, getSubmodulosLidosCount } from '../../domain/metrics';
+import { deduplicarSubmodulos } from '../../domain/progressCore';
 
 interface MobileModulesDrawerProps {
   isOpen: boolean;
@@ -18,10 +18,17 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
   isOpen,
   onClose,
 }) => {
-  const { setSelectedSubmodule, setActiveView, selectedSubmodule } = useNavigationStore();
-  const { modulosLidosIds } = useProgressStore();
+  const { setSelectedSubmodule, setActiveView, selectedSubmodule, setCurrentRoute } = useNavigationStore();
+  const { modulosLidosIds, getProgressCore } = useProgressStore();
+  const progressCore = getProgressCore();
+  const { modulosStatus, isSubmoduloBloqueado } = progressCore;
 
   const handleSelectSub = (subNumero: string) => {
+    if (isSubmoduloBloqueado(subNumero)) {
+      setCurrentRoute('jornada');
+      onClose();
+      return;
+    }
     setSelectedSubmodule(subNumero);
     setActiveView('teoria');
     onClose();
@@ -67,9 +74,11 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
           >
             {ALL_COURSE_MODULES.map((modulo) => {
               const theme = getModuleTheme(modulo.id);
-              const totalSubs = modulo.modulosFilhos.length;
-              const subsLidos = getSubmodulosLidosCount(modulo, modulosLidosIds);
-              const moduloPercent = getMacroModuloProgressoPercent(modulo, modulosLidosIds);
+              const modStatus = modulosStatus[modulo.id];
+              const totalSubs = modStatus?.submodulosTotal ?? modulo.modulosFilhos.length;
+              const subsLidos = modStatus?.submodulosConcluidos ?? 0;
+              const moduloPercent = modStatus?.progressoPercent ?? 0;
+              const isBloqueado = modStatus?.isBloqueado ?? false;
               const hasSelectedSub = modulo.modulosFilhos.some(
                 (s) => s.numero === selectedSubmodule
               );
@@ -80,6 +89,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
                   className="rounded-xl border border-border bg-surface shadow-xs overflow-hidden"
                   style={{
                     borderColor: hasSelectedSub ? theme.solidVar : undefined,
+                    opacity: isBloqueado ? 0.8 : 1,
                   }}
                 >
                   {/* Faixa plana 4px na cor do módulo */}
@@ -93,9 +103,16 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
                     <div className="flex items-center gap-2.5 min-w-0 flex-1">
                       <ModuleBadge moduleId={modulo.id} size="sm" />
                       <div className="min-w-0 flex-1">
-                        <h3 className="text-xs font-bold text-ink truncate">
-                          {modulo.titulo}
-                        </h3>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <h3 className="text-xs font-bold text-ink truncate">
+                            {modulo.titulo}
+                          </h3>
+                          {isBloqueado && (
+                            <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/25 uppercase tracking-wider">
+                              Bloqueado
+                            </span>
+                          )}
+                        </div>
                         <span className="text-[10px] text-ink-2 font-mono">
                           {subsLidos}/{totalSubs} concluídos ({moduloPercent}%)
                         </span>
@@ -112,18 +129,22 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
 
                   {/* Lista de Submódulos */}
                   <div className="divide-y divide-border/40 p-1">
-                    {modulo.modulosFilhos.map((sub) => {
-                      const isLido = modulosLidosIds.includes(sub.id);
+                    {deduplicarSubmodulos(modulo.modulosFilhos).map((sub) => {
+                      const etapaSub = progressCore.etapas[sub.numero];
+                      const isLido = etapaSub?.status === 'concluida' || modulosLidosIds.includes(sub.id);
                       const isSelected = selectedSubmodule === sub.numero;
+                      const isSubBloq = isSubmoduloBloqueado(sub.numero);
 
                       return (
                         <button
-                          key={sub.id}
+                          key={sub.numero}
                           type="button"
                           onClick={() => handleSelectSub(sub.numero)}
                           className={`w-full text-left p-2.5 rounded-lg text-xs flex items-center justify-between transition-colors min-h-[44px] cursor-pointer ${
                             isSelected
                               ? 'font-bold shadow-2xs'
+                              : isSubBloq
+                              ? 'text-ink-2/60 hover:text-ink hover:bg-surface-2 opacity-75'
                               : 'text-ink-2 hover:text-ink hover:bg-surface-2'
                           }`}
                           style={{
@@ -137,6 +158,8 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
                                 className="w-4 h-4 shrink-0 mt-0.5"
                                 style={{ color: theme.solidVar }}
                               />
+                            ) : isSubBloq ? (
+                              <Lock className="w-3.5 h-3.5 text-ink-2/50 shrink-0 mt-0.5" />
                             ) : (
                               <Circle className="w-3.5 h-3.5 text-border shrink-0 mt-0.5 stroke-[2]" />
                             )}

@@ -24,10 +24,11 @@ import { Button } from '../components/common/Button';
 import { ModuleEmblem } from '../components/illustrations/ModuleEmblems';
 import { IllustrationPortal, IllustrationConclusao } from '../components/illustrations/ContextualIllustrations';
 import { JORNADA_CONFIG } from '../config/jornada.config';
+import { deduplicarSubmodulos } from '../domain/progressCore';
 
 export const JornadaPage: React.FC = () => {
   const {
-    getJornadaState,
+    getProgressCore,
     modoLivre,
     setModoLivre,
   } = useProgressStore();
@@ -43,7 +44,8 @@ export const JornadaPage: React.FC = () => {
   const [showModoLivreConfirm, setShowModoLivreConfirm] = useState(false);
   const [showCalculoInfo, setShowCalculoInfo] = useState(false);
 
-  const jornada = getJornadaState();
+  const progressCore = getProgressCore();
+  const { jornada } = progressCore;
   const { etapas, metricas, proximoPasso } = jornada;
 
   const handleOpenPortao = (etapaId: string) => {
@@ -295,7 +297,7 @@ export const JornadaPage: React.FC = () => {
           {modulosEstatisticos.map((macro) => {
             const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
             const theme = getModuleTheme(macro.id);
-            const submodulos = macro.modulosFilhos || [];
+            const submodulos = deduplicarSubmodulos(macro.modulosFilhos || []);
             const desafioId = `desafio-${macro.id}`;
             const portalId = `portal-${macro.id}`;
             const etapaDesafio = etapas[desafioId];
@@ -347,7 +349,7 @@ export const JornadaPage: React.FC = () => {
 
                     return (
                       <div
-                        key={sub.id}
+                        key={sub.numero}
                         className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-all relative ${
                           isConcluida
                             ? 'bg-surface-2/30 border-emerald-500/30'
@@ -643,7 +645,7 @@ export const JornadaPage: React.FC = () => {
             {modulosGerais.map((macro) => {
               const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
               const theme = getModuleTheme(macro.id);
-              const submodulos = macro.modulosFilhos || [];
+              const submodulos = deduplicarSubmodulos(macro.modulosFilhos || []);
 
               return (
                 <div
@@ -686,7 +688,7 @@ export const JornadaPage: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {submodulos.map((sub) => (
                       <div
-                        key={sub.id}
+                        key={sub.numero}
                         className="rounded-xl border border-border p-4 bg-surface hover:bg-surface-2/40 flex flex-col justify-between gap-3 shadow-2xs transition-all"
                       >
                         <div className="space-y-2">

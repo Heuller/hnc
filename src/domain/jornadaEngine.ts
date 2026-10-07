@@ -160,6 +160,7 @@ export function deriveJornadaState(params: {
   secoesReabertasAposFalha?: Record<string, string[]>;
   modoLivre?: boolean;
   checkpointsRespondidos?: Record<string, 'C' | 'E'>;
+  flagsLegado?: string[];
 }): JornadaState {
   const {
     modulos,
@@ -168,6 +169,7 @@ export function deriveJornadaState(params: {
     secoesReabertasAposFalha = {},
     modoLivre = false,
     checkpointsRespondidos = {},
+    flagsLegado = [],
   } = params;
 
   const etapas: Record<string, EtapaJornadaState> = {};
@@ -195,7 +197,14 @@ export function deriveJornadaState(params: {
 
   for (const macro of modulosTrilha) {
     const k = extrairNumero(macro);
-    const submodulos = macro.modulosFilhos || [];
+    // Deduplicação canônica por número (Bug 3)
+    const subVistos = new Set<string>();
+    const submodulos = (macro.modulosFilhos || []).filter((s) => {
+      if (!s || !s.numero) return false;
+      if (subVistos.has(s.numero)) return false;
+      subVistos.add(s.numero);
+      return true;
+    });
 
     // 1. Processa cada submódulo sequencialmente: Mk.1 -> Mk.2 -> ... -> Mk.n
     for (let sIdx = 0; sIdx < submodulos.length; sIdx++) {
@@ -273,7 +282,8 @@ export function deriveJornadaState(params: {
 
       // Status
       let status: EtapaStatus = 'bloqueada';
-      const isDesbloqueada = etapaAnteriorConcluida || modoLivre;
+      const isGrandfathered = flagsLegado.includes(subId);
+      const isDesbloqueada = etapaAnteriorConcluida || modoLivre || isGrandfathered;
 
       const revisaoDirigida = avaliarRevisaoDirigida(
         tentativasSub,
@@ -294,7 +304,9 @@ export function deriveJornadaState(params: {
       }
 
       const requisitoDesbloqueio =
-        sIdx === 0
+        isGrandfathered
+          ? 'Acesso liberado por continuidade de estudo (exceção legada).'
+          : sIdx === 0
           ? k === 1
             ? 'Primeira etapa do curso — acesso liberado.'
             : k === 2

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { BookOpen, ChevronRight, ChevronDown, CheckCircle2, Circle } from 'lucide-react';
+import { BookOpen, ChevronRight, ChevronDown, CheckCircle2, Circle, Lock } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { ALL_COURSE_MODULES } from '../../content/registry';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import { ModuleBadge } from '../common/ModuleBadge';
 import { ModuleProgressRing } from '../common/ModuleProgressRing';
-import { getMacroModuloProgressoPercent, getSubmodulosLidosCount } from '../../domain/metrics';
+import { deduplicarSubmodulos } from '../../domain/progressCore';
 
 export const Sidebar: React.FC = () => {
   const {
@@ -17,9 +17,12 @@ export const Sidebar: React.FC = () => {
     setSelectedSubmodule,
     sidebarCollapsed,
     toggleSidebar,
+    setCurrentRoute,
   } = useNavigationStore();
 
-  const { modulosLidosIds } = useProgressStore();
+  const { modulosLidosIds, getProgressCore } = useProgressStore();
+  const progressCore = getProgressCore();
+  const { modulosStatus, isSubmoduloBloqueado } = progressCore;
 
   // Mapeia qual módulo pai contém o submódulo selecionado
   const activeModuleOfSub =
@@ -45,15 +48,19 @@ export const Sidebar: React.FC = () => {
   };
 
   const handleSelectSubmodule = (subNumero: string) => {
+    if (isSubmoduloBloqueado(subNumero)) {
+      setCurrentRoute('jornada');
+      return;
+    }
     setSelectedSubmodule(subNumero);
     setActiveView('teoria');
   };
 
   // Separação entre módulos "Em Estudo" e "Planejados / A Estudar" (Parte C)
   const modulosEmEstudo = ALL_COURSE_MODULES.filter((m) => {
-    const lidos = getSubmodulosLidosCount(m, modulosLidosIds);
+    const status = modulosStatus[m.id];
     const hasActive = m.modulosFilhos.some((s) => s.numero === selectedSubmodule);
-    return lidos > 0 || hasActive || m.id === 'm1' || m.id === 'm2-5';
+    return (status && status.progressoPercent > 0) || hasActive || m.id === 'm1' || m.id === 'm2-5';
   });
 
   const modulosPlanejados = ALL_COURSE_MODULES.filter(
@@ -85,15 +92,21 @@ export const Sidebar: React.FC = () => {
             const hasActiveSub = modulo.modulosFilhos.some(
               (s) => s.numero === selectedSubmodule && activeView === 'teoria'
             );
-            const totalSubs = modulo.modulosFilhos.length;
-            const completedSubs = getSubmodulosLidosCount(modulo, modulosLidosIds);
-            const moduloPercent = getMacroModuloProgressoPercent(modulo, modulosLidosIds);
+            const modStatus = modulosStatus[modulo.id];
+            const totalSubs = modStatus?.submodulosTotal ?? modulo.modulosFilhos.length;
+            const completedSubs = modStatus?.submodulosConcluidos ?? 0;
+            const moduloPercent = modStatus?.progressoPercent ?? 0;
+            const isBloqueado = modStatus?.isBloqueado ?? false;
 
             return (
               <button
                 key={modulo.id}
                 type="button"
                 onClick={() => {
+                  if (isBloqueado) {
+                    setCurrentRoute('jornada');
+                    return;
+                  }
                   setSelectedSubmodule(modulo.modulosFilhos[0].numero);
                   setActiveView('teoria');
                 }}
@@ -148,9 +161,11 @@ export const Sidebar: React.FC = () => {
     const hasActiveSub = modulo.modulosFilhos.some(
       (s) => s.numero === selectedSubmodule && activeView === 'teoria'
     );
-    const totalSubs = modulo.modulosFilhos.length;
-    const completedSubs = getSubmodulosLidosCount(modulo, modulosLidosIds);
-    const moduloPercent = getMacroModuloProgressoPercent(modulo, modulosLidosIds);
+    const modStatus = modulosStatus[modulo.id];
+    const totalSubs = modStatus?.submodulosTotal ?? modulo.modulosFilhos.length;
+    const completedSubs = modStatus?.submodulosConcluidos ?? 0;
+    const moduloPercent = modStatus?.progressoPercent ?? 0;
+    const isBloqueado = modStatus?.isBloqueado ?? false;
 
     return (
       <div
@@ -162,6 +177,7 @@ export const Sidebar: React.FC = () => {
         }`}
         style={{
           borderColor: hasActiveSub ? theme.solidVar : 'var(--border)',
+          opacity: isBloqueado ? 0.75 : 1,
         }}
       >
         {/* Faixa sutil superior com a cor do módulo (Parte C) */}
@@ -184,6 +200,11 @@ export const Sidebar: React.FC = () => {
                 <h3 className="text-xs font-bold text-ink leading-snug group-hover:text-ink transition-colors">
                   {modulo.titulo_curto || modulo.titulo}
                 </h3>
+                {isBloqueado && (
+                  <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/25 uppercase tracking-wider">
+                    Bloqueado
+                  </span>
+                )}
                 {modulo.id === 'm2-5' && (
                   <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
                     Mini
@@ -222,14 +243,16 @@ export const Sidebar: React.FC = () => {
               className="overflow-hidden"
             >
               <div className="space-y-1 p-2 pt-0 border-t border-border/50">
-                {modulo.modulosFilhos.map((sub) => {
+                {deduplicarSubmodulos(modulo.modulosFilhos).map((sub) => {
                   const isSelected =
                     activeView === 'teoria' && selectedSubmodule === sub.numero;
-                  const isLido = modulosLidosIds.includes(sub.id);
+                  const etapaSub = progressCore.etapas[sub.numero];
+                  const isConcluido = etapaSub?.status === 'concluida' || modulosLidosIds.includes(sub.id);
+                  const isSubBloq = isSubmoduloBloqueado(sub.numero);
 
                   return (
                     <motion.button
-                      key={sub.id}
+                      key={sub.numero}
                       type="button"
                       whileHover={{ y: -1 }}
                       whileTap={{ scale: 0.98 }}
@@ -237,6 +260,8 @@ export const Sidebar: React.FC = () => {
                       className={`w-full text-left p-2 rounded-lg text-xs flex items-center justify-between transition-all cursor-pointer ${
                         isSelected
                           ? 'font-bold shadow-2xs'
+                          : isSubBloq
+                          ? 'text-ink-2/60 hover:text-ink hover:bg-surface-2 opacity-75'
                           : 'text-ink-2 hover:text-ink hover:bg-surface-2'
                       }`}
                       style={{
@@ -245,11 +270,13 @@ export const Sidebar: React.FC = () => {
                       }}
                     >
                       <div className="pr-2 flex items-start gap-2 flex-1 min-w-0">
-                        {isLido ? (
+                        {isConcluido ? (
                           <CheckCircle2
                             className="w-3.5 h-3.5 shrink-0 mt-0.5"
                             style={{ color: theme.solidVar }}
                           />
+                        ) : isSubBloq ? (
+                          <Lock className="w-3.5 h-3.5 text-ink-2/50 shrink-0 mt-0.5" />
                         ) : (
                           <Circle className="w-3 h-3 text-border shrink-0 mt-0.5 stroke-[2.5]" />
                         )}

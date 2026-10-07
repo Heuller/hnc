@@ -12,6 +12,8 @@ import {
 } from 'lucide-react';
 import { BalancaCebraspeIllustration } from '../components/common/Illustrations';
 
+import { deduplicarSubmodulos } from '../domain/progressCore';
+
 export const RadarPage: React.FC = () => {
   const [selectedMacro, setSelectedMacro] = useState<string>('todos');
   const [selectedSub, setSelectedSub] = useState<string>('todos');
@@ -23,7 +25,7 @@ export const RadarPage: React.FC = () => {
   };
 
   const allSubmodules = COURSE_REGISTRY.flatMap((m) =>
-    m.modulosFilhos.map((s) => ({
+    deduplicarSubmodulos(m.modulosFilhos).map((s) => ({
       ...s,
       macroCodigo: m.codigo,
       macroTitulo: m.titulo,
@@ -187,7 +189,7 @@ export const RadarPage: React.FC = () => {
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              {selectedMacro === 'todos' ? 'Todos os Submódulos (59)' : `Todos de ${selectedMacro}`}
+              {selectedMacro === 'todos' ? `Todos os Submódulos (${allSubmodules.length})` : `Todos de ${selectedMacro}`}
             </button>
             {selectedMacro !== 'todos' &&
               allSubmodules

@@ -26,10 +26,12 @@ export const TreinosPage: React.FC = () => {
     leitnerDeck,
     checkpointsRespondidos,
     historicoSimulados,
-    modulosLidosIds,
+    getProgressCore,
   } = useProgressStore();
 
   const { setActiveView } = useNavigationStore();
+  const progressCore = getProgressCore();
+  const { contagens } = progressCore;
 
   const todayIso = new Date().toISOString().split('T')[0];
   const deckList = Object.values(leitnerDeck || {});
@@ -41,9 +43,7 @@ export const TreinosPage: React.FC = () => {
   );
 
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
-  const totalSimuladosDisponiveis = SIMULADOS_REGISTRY.length;
   const totalQuestoesSimulados = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
-  const simuladosConcluidosCount = historicoSimulados?.length || 0;
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-8 select-none">
@@ -74,7 +74,7 @@ export const TreinosPage: React.FC = () => {
                 <Award className="w-5 h-5" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-accent/10 border border-accent/25 text-accent">
-                {totalSimuladosDisponiveis} Cadernos · {totalQuestoesSimulados}Q
+                {contagens.cadernosTrilhaTotal} Cadernos da Trilha · {contagens.cadernosPlataformaTotal} no Acervo
               </span>
             </div>
 
@@ -86,11 +86,14 @@ export const TreinosPage: React.FC = () => {
             </div>
 
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
-              <span>{simuladosConcluidosCount > 0 ? 'Simulados finalizados:' : 'Acervo disponível:'}</span>
+              <span>Cadernos da Trilha aprovados (mín. 80%):</span>
               <span className="font-mono font-bold text-ink">
-                {simuladosConcluidosCount > 0 ? `${simuladosConcluidosCount} de ${totalSimuladosDisponiveis} cadernos` : '10 cadernos temáticos (1.000 itens)'}
+                {contagens.cadernosTrilhaAprovados} de {contagens.cadernosTrilhaTotal} cadernos
               </span>
             </div>
+            <p className="text-[11px] text-ink-3 font-sans">
+              Acervo completo: {contagens.cadernosPlataformaTotal} cadernos ({totalQuestoesSimulados} itens disponíveis incluindo Básicos e Mega Simulado).
+            </p>
           </div>
 
           <Button
@@ -235,7 +238,7 @@ export const TreinosPage: React.FC = () => {
                 <EmblemaM8 size={32} className="text-emerald-600/70 dark:text-emerald-400/70 hidden sm:block" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-surface-2 border border-border text-ink">
-                {modulosLidosIds.length} módulos concluídos
+                {contagens.submodulosCursoConcluidos} submódulos concluídos
               </span>
             </div>
 

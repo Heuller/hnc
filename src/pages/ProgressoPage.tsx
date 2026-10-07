@@ -19,24 +19,26 @@ import {
 } from 'lucide-react';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { COURSE_REGISTRY } from '../content/registry';
+import { deduplicarSubmodulos } from '../domain/progressCore';
 
 export const ProgressoPage: React.FC = () => {
   const {
     historicoSimulados,
-    modulosLidosIds,
-    checkpointsRespondidos,
     constancia,
     exportarProgressoJson,
     exportarResumoMarkdown,
     importarProgressoJson,
     limparTodoProgresso,
+    getProgressCore,
   } = useProgressStore();
 
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const [showConfirmReset, setShowConfirmReset] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
+  const progressCore = getProgressCore();
+  const { contagens } = progressCore;
+  const allSubmodules = COURSE_REGISTRY.flatMap((m) => deduplicarSubmodulos(m.modulosFilhos));
 
   // Dados para o Gráfico de Evolução de Nota Líquida
   const dadosGrafico = historicoSimulados
@@ -155,25 +157,25 @@ export const ProgressoPage: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
-            Simulados Realizados
+            Desafios Aprovados (Trilha)
           </span>
           <div className="text-3xl font-mono font-bold text-ink mt-1">
-            {historicoSimulados.length}
+            {contagens.desafiosTrilhaConcluidos} / {contagens.totalDesafiosTrilha}
           </div>
           <span className="text-xs text-ink-2 font-sans">
-            {historicoSimulados.length * 100} itens julgados
+            {historicoSimulados.length} sessões realizadas ({contagens.cadernosPlataformaAprovados} cadernos aprovados)
           </span>
         </div>
 
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
-            Módulos de Teoria Concluídos
+            Submódulos da Trilha
           </span>
           <div className="text-3xl font-mono font-bold text-ink mt-1">
-            {modulosLidosIds.length} / {allSubmodules.length}
+            {contagens.submodulosTrilhaConcluidos} / {contagens.totalSubmodulosTrilha}
           </div>
           <span className="text-xs text-ink-2 font-sans">
-            {Object.keys(checkpointsRespondidos).length} checkpoints respondidos
+            {contagens.etapasTrilhaConcluidas} de {contagens.totalEtapasTrilha} etapas da Jornada ({contagens.taxaDominioTrilhaPercent}%)
           </span>
         </div>
 

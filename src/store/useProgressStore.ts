@@ -17,7 +17,8 @@ import { useAuthStore } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
-import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
+import type { JornadaState } from '../domain/jornadaEngine';
+import { deriveProgressCore, type ProgressCoreState } from '../domain/progressCore';
 import { tentativasSyncService } from '../services/tentativasSyncService';
 import type { TermoSalvo } from '../domain/dicionario/types';
 import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
@@ -73,6 +74,7 @@ interface ProgressStoreState extends UserProgress {
   reabrirSecaoAposFalha: (targetId: string, secaoId: string) => void;
   setModoLivre: (ativo: boolean) => void;
   getJornadaState: () => JornadaState;
+  getProgressCore: () => ProgressCoreState;
   sincronizarTentativasNuvem: () => Promise<void>;
   // Simulado com persistência total multi-simulados
   obterSessaoSimulado: (simuladoId: string) => SessaoSimuladoState;
@@ -460,16 +462,24 @@ export const useProgressStore = create<ProgressStoreState>()(
         set({ modoLivre: ativo });
       },
 
-      getJornadaState: () => {
+      getProgressCore: () => {
         const s = get();
-        return deriveJornadaState({
+        return deriveProgressCore({
           modulos: COURSE_REGISTRY,
           tentativas: s.tentativas || [],
+          itemAttempts: s.itemAttempts || [],
+          checkpointsRespondidos: s.checkpointsRespondidos || {},
           secoesVisualizadas: s.secoesVisualizadas || {},
           secoesReabertasAposFalha: s.secoesReabertasAposFalha || {},
+          historicoSimulados: s.historicoSimulados || [],
+          modulosLidosIds: s.modulosLidosIds || [],
           modoLivre: s.modoLivre || false,
-          checkpointsRespondidos: s.checkpointsRespondidos || {},
+          flagsLegado: s.flagsLegado || ['2.1'],
         });
+      },
+
+      getJornadaState: () => {
+        return get().getProgressCore().jornada;
       },
 
       sincronizarTentativasNuvem: async () => {
