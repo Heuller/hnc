@@ -15,7 +15,7 @@ import {
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useAuthStore } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
-import type { TentativaRegistro } from '../domain/tentativas';
+import type { TentativaRegistro, RespostaTentativa } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
 import type { JornadaState } from '../domain/jornadaEngine';
 import { deriveProgressCore, type ProgressCoreState } from '../domain/progressCore';
@@ -938,6 +938,66 @@ export const useProgressStore = create<ProgressStoreState>()(
             emAndamento: false,
           },
         });
+
+        // Marco 4 (Bug 2): Se este simulado for o Desafio de Módulo da Trilha (M1 a M10),
+        // registra uma TentativaRegistro canônica em `tentativas` para manter a fonte de verdade sincronizada.
+        const modNumMatch = simuladoId.match(/m(\d+)/i);
+        const moduloNumero = manifest?.numero ?? (modNumMatch ? parseInt(modNumMatch[1], 10) : undefined);
+
+        if (moduloNumero && moduloNumero >= 1 && moduloNumero <= 10) {
+          try {
+            const desafioId = `desafio-m${moduloNumero}`;
+            const moduloId = `m${moduloNumero}`;
+
+            const mapaRespostas: Record<string, RespostaTentativa> = {};
+            questoes.forEach((q) => {
+              const r = respostas[q.id];
+              const resp = (r?.resposta as 'C' | 'E' | 'BRANCO') || 'BRANCO';
+              const acertou = resp !== 'BRANCO' && resp === q.gabarito;
+              mapaRespostas[q.id] = {
+                questionId: q.id,
+                resposta: resp,
+                gabarito: q.gabarito,
+                acertou,
+                secaoId: 'sec-teoria',
+                texto: q.item,
+              };
+            });
+
+            const isAprovadoDesafio =
+              certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+              aproveitamentoPercent >= Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
+
+            const novaTentativaDesafio = criarTentativaRegistro({
+              userId: useAuthStore.getState().user?.id || 'usuario-local',
+              tipo: 'desafio_modulo',
+              targetId: desafioId,
+              moduloId,
+              totalItens: questoes.length,
+              respostas: mapaRespostas,
+              foraDaTrilha: state.modoLivre || false,
+              aproveitamentoMinimo: JORNADA_CONFIG.minimoSimuladoModulo,
+            });
+
+            if (isAprovadoDesafio) {
+              novaTentativaDesafio.aprovado = true;
+            }
+
+            const atuaisTentativas = get().tentativas || [];
+            const atualizadasTentativas = [
+              ...atuaisTentativas.filter((t) => t.id !== novaTentativaDesafio.id),
+              novaTentativaDesafio,
+            ];
+            set({ tentativas: atualizadasTentativas });
+
+            const authUser = useAuthStore.getState().user;
+            if (authUser) {
+              tentativasSyncService.registrarTentativa(novaTentativaDesafio, authUser.id);
+            }
+          } catch (e) {
+            console.warn('[Desafio Tentativa] Falha ao registrar tentativa do desafio:', e);
+          }
+        }
 
         // Regra 1.2 e 2.4: Registra tentativas append-only e alimenta Leitner/Caderno de Erros
         try {

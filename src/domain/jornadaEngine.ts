@@ -11,6 +11,7 @@ import {
 } from './tentativas';
 import { getRequiredSectionsForSubmodule } from './learningEngine';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import type { SimuladoFinalizado } from './schemas/progress.schema';
 
 export type EtapaStatus =
   | 'bloqueada'
@@ -161,6 +162,8 @@ export function deriveJornadaState(params: {
   modoLivre?: boolean;
   checkpointsRespondidos?: Record<string, 'C' | 'E'>;
   flagsLegado?: string[];
+  modulosLidosIds?: string[];
+  historicoSimulados?: SimuladoFinalizado[];
 }): JornadaState {
   const {
     modulos,
@@ -170,6 +173,8 @@ export function deriveJornadaState(params: {
     modoLivre = false,
     checkpointsRespondidos = {},
     flagsLegado = [],
+    modulosLidosIds = [],
+    historicoSimulados = [],
   } = params;
 
   const etapas: Record<string, EtapaJornadaState> = {};
@@ -216,8 +221,10 @@ export function deriveJornadaState(params: {
       const secoesLidas = secoesVisualizadas[sub.id] || secoesVisualizadas[sub.numero] || [];
       const requiredSections = getRequiredSectionsForSubmodule(sub);
       const secoesLidasCount = requiredSections.filter((s) => secoesLidas.includes(s)).length;
+      const isLidoExplicitamente = modulosLidosIds.includes(sub.id) || modulosLidosIds.includes(sub.numero);
       const todasSecoesLidas =
-        requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
+        isLidoExplicitamente ||
+        (requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true);
 
       // Verificação do N de itens do submódulo (Regra D.2)
       const checkpointsCount = sub.checkpoints?.length || 0;
@@ -275,9 +282,12 @@ export function deriveJornadaState(params: {
 
       // Uma etapa só pode ser considerada concluída se:
       // 1. Houver itens de verificação (não falta itens)
-      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85%
+      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85% OU marcado como lido
       // 3. Todas as seções canônicas de teoria tiverem sido lidas
-      const temTentativaAprovada = tentativasSub.some((t) => t.aprovado) || temCheckpointsAprovados;
+      const temTentativaAprovada =
+        tentativasSub.some((t) => t.aprovado) ||
+        temCheckpointsAprovados ||
+        isLidoExplicitamente;
       const isConcluida = !faltamItens && temTentativaAprovada && todasSecoesLidas;
 
       // Status
@@ -368,9 +378,22 @@ export function deriveJornadaState(params: {
 
     // 2. Desafio do Módulo Mk (100 itens - Regra D.1 e D.2)
     const desafioId = `desafio-${macro.id}`;
-    const tentativasDesafio = filtrarTentativasPorTarget(tentativas, desafioId, false);
+    const tentativasDesafio = filtrarTentativasPorTarget(tentativas, desafioId, false).concat(
+      filtrarTentativasPorTarget(tentativas, `desafio-${k}`, false)
+    );
     const ultimaTentativaDesafio = obterUltimaTentativa(tentativas, desafioId, false);
-    const desafioConcluido = tentativasDesafio.some((t) => t.aprovado);
+
+    const simuladoHistoricoAprovado = historicoSimulados.some((sim) => {
+      const match = (sim.simuladoId || sim.id || '').match(/m(\d+)/i);
+      const num = match ? parseInt(match[1], 10) : 0;
+      const isEsteModulo = num === k;
+      const isAprov =
+        sim.certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+        sim.aproveitamentoPercent >= Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
+      return isEsteModulo && isAprov;
+    });
+
+    const desafioConcluido = tentativasDesafio.some((t) => t.aprovado) || simuladoHistoricoAprovado;
     const melhorAprovDesafio = tentativasDesafio.reduce(
       (max, t) => Math.max(max, Math.round(t.aproveitamento * 100)),
       0

@@ -136,6 +136,8 @@ export function deriveProgressCore(input: ProgressCoreInput = {}): ProgressCoreS
     modoLivre,
     checkpointsRespondidos,
     flagsLegado,
+    modulosLidosIds,
+    historicoSimulados,
   });
 
   const { etapas, etapasOrdenadas, proximoPasso, metricas } = jornada;
@@ -236,8 +238,18 @@ export function deriveProgressCore(input: ProgressCoreInput = {}): ProgressCoreS
           (t.moduloId === modulo.id && (t.tipo === 'desafio_modulo' || (t as any).targetTipo === 'desafio_modulo'))) &&
         t.aprovado
     );
+    const simuladoHistoricoAprovado = historicoSimulados.some((sim) => {
+      const match = (sim.simuladoId || sim.id || '').match(/m(\d+)/i);
+      const num = match ? parseInt(match[1], 10) : 0;
+      const isEsteModulo = num === k;
+      const isAprov =
+        sim.certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+        sim.aproveitamentoPercent >= Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
+      return isEsteModulo && isAprov;
+    });
+
     const desafioConcluido = temDesafioTrilha
-      ? Boolean(etapaDesafio?.status === 'concluida' || tentativaDesafioAprovada)
+      ? Boolean(etapaDesafio?.status === 'concluida' || tentativaDesafioAprovada || simuladoHistoricoAprovado)
       : true;
 
     // Cálculo integrado: submódulos + desafio (elimina 100% indevido com desafio pendente)
