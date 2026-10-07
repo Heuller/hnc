@@ -20,7 +20,9 @@ export const ItemAttemptSchema = z.object({
   resposta: z.enum(['C', 'E', 'BRANCO']),
   certeza: z.enum(['alta', 'media', 'baixa']).optional(),
   correto: z.boolean(),
-  tentativa_n: z.number().int().positive(), // 1 = 1ª tentativa oficial (portão); 2+ = prática
+  tentativa_n: z.number().int().positive(), // Contador histórico sequencial
+  rodada_n: z.number().int().positive().optional(), // Rodada oficial de verificação (1, 2, ...)
+  is_pratica: z.boolean().optional(), // Se true, modo prática que não pontua na verificação oficial
   criado_em: z.string(), // ISO 8601 UTC
 });
 
@@ -37,6 +39,8 @@ export interface CriarItemAttemptParams {
   gabarito: 'C' | 'E';
   certeza?: 'alta' | 'media' | 'baixa';
   tentativaN?: number;
+  rodadaN?: number;
+  isPratica?: boolean;
   criadoEm?: string;
 }
 
@@ -73,6 +77,20 @@ export function criarItemAttempt(
     tentativa_n = anteriores.length > 0 ? Math.max(...anteriores.map((a) => a.tentativa_n)) + 1 : 1;
   }
 
+  // Determina rodada_n e is_pratica:
+  // Se informado explicitamente, respeita.
+  // Caso contrário, mapeamento seguro do legado: tentativa_n === 1 é rodada 1 oficial; tentativa_n > 1 é prática.
+  let rodada_n = params.rodadaN;
+  let is_pratica = params.isPratica;
+  if (rodada_n === undefined && is_pratica === undefined) {
+    if (tentativa_n === 1) {
+      rodada_n = 1;
+      is_pratica = false;
+    } else {
+      is_pratica = true;
+    }
+  }
+
   const attempt: ItemAttempt = {
     id,
     user_id: userId,
@@ -84,6 +102,8 @@ export function criarItemAttempt(
     certeza,
     correto,
     tentativa_n,
+    rodada_n,
+    is_pratica,
     criado_em: criadoEm,
   };
 

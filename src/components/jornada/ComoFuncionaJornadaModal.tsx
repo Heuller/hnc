@@ -91,10 +91,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  2. Limiar de 85% de Domínio
+                  2. Limiares de Aprovação por Domínio
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Para concluir qualquer verificação, é obrigatório atingir ao menos 85% de acertos inteiros (ex: 7 em 8 nos checkpoints, 17 em 20 no portal, 85 em 100 no simulado). A nota líquida Cebraspe (C − E) é exibida à parte para sua autoavaliação.
+                  Para concluir qualquer verificação de submódulo ou portal, é obrigatório atingir ao menos 85% de acertos inteiros (ex: 3 em 3 nos checkpoints canônicos oficiais, 17 em 20 no portal). Para os Simulados de Módulo (100 itens), o limiar exigido é de 80% (80 em 100). A nota líquida Cebraspe (C − E) é exibida à parte para sua autoavaliação.
                 </p>
               </div>
             </div>

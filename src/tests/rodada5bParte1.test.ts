@@ -270,11 +270,10 @@ describe('RODADA 5B — PARTE 1: UMA ÚNICA FONTE DE RESPOSTAS (TEORIA ↔ JORNA
     expect(state.checkpointsRespondidos[cp3.id]).toBe(cp3.gabarito);
   });
 
-  it('1.6: Se N checkpoints < 6, soma exercícios de treino garantindo régua honesta com N >= 6', () => {
+  it('Marco 1 / Bug 5: Gate oficial conta EXCLUSIVAMENTE os checkpoints canônicos (3 itens)', () => {
     const itensVerificacao = obterItensVerificacaoSubmodulo(sub11, 'm1');
-    // Submódulo 1.1 tem 3 checkpoints; agregando treino atinge N >= 6
-    expect(itensVerificacao.length).toBeGreaterThanOrEqual(6);
-    expect(itensVerificacao.some((it) => it.tipo === 'checkpoint')).toBe(true);
-    expect(itensVerificacao.some((it) => it.tipo === 'treino_par' || it.tipo === 'treino_armadilha')).toBe(true);
+    // Conforme especificado pelo Marco 1 (Bug 5), o gate é aferido exclusivamente pelos checkpoints oficiais
+    expect(itensVerificacao.length).toBe(3);
+    expect(itensVerificacao.every((it) => it.tipo === 'checkpoint')).toBe(true);
   });
 });

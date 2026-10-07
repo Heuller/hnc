@@ -69,8 +69,8 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       useProgressStore.getState().salvarCheckpoint(sub11.checkpoints[2].id, gabaritoInvertido);
 
       const storeState = useProgressStore.getState();
-      // Nenhuma tentativa foi registrada na lista de tentativas!
-      expect(storeState.tentativas.length).toBe(0);
+      // Com a correção da Fonte Única, a tentativa de verificação concluída é gravada mesmo com nota < 85%
+      expect(storeState.tentativas.length).toBe(1);
     });
   });
 

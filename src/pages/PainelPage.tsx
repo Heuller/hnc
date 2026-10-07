@@ -1,13 +1,8 @@
 import React, { useEffect } from 'react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
-import { COURSE_REGISTRY } from '../content/registry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
-import {
-  getCheckpointsTotalCurso,
-  getCheckpointsFeitosCurso,
-  getCursoProgressoPercent,
-} from '../domain/metrics';
+
 import {
   Calendar,
   CheckCircle2,
@@ -34,12 +29,11 @@ import { JORNADA_CONFIG } from '../config/jornada.config';
 export const PainelPage: React.FC = () => {
   const {
     constancia,
-    modulosLidosIds,
     checkpointsRespondidos,
     leitnerDeck,
     historicoSimulados,
     registrarAcessoHoje,
-    getJornadaState,
+    getProgressCore,
   } = useProgressStore();
 
   const { setCurrentRoute, setSelectedSubmodule } = useNavigationStore();
@@ -48,15 +42,11 @@ export const PainelPage: React.FC = () => {
     registrarAcessoHoje();
   }, [registrarAcessoHoje]);
 
-  // Estatísticas Globais Derivadas de Específicos e Geral
-  const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
-  const totalSubmodulosGlobal = allSubmodules.length;
-  const submodulosGlobalLidos = allSubmodules.filter((s) =>
-    modulosLidosIds.includes(s.id)
-  ).length;
-  const progressoGlobalPercent = getCursoProgressoPercent(COURSE_REGISTRY, modulosLidosIds);
-  const totalCheckpointsGlobal = getCheckpointsTotalCurso(COURSE_REGISTRY);
-  const totalCheckpointsFeitos = getCheckpointsFeitosCurso(COURSE_REGISTRY, checkpointsRespondidos);
+  // Motor Canônico Centralizado (progressCore - Marco 3)
+  const progressCore = getProgressCore();
+  const { jornada, contagens, proximoPasso } = progressCore;
+  const { metricas } = jornada;
+  const targetTheme = getModuleTheme(`m${proximoPasso?.moduloNumero || 1}`);
 
   // Repetição Espaçada (Sistema Leitner)
   const todayIso = new Date().toISOString().split('T')[0];
@@ -66,11 +56,6 @@ export const PainelPage: React.FC = () => {
   // Caderno de Erros
   const itensErros = getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
   const totalErrosAtivos = itensErros.length;
-
-  // Estado da Jornada e Próximo Passo
-  const jornadaState = getJornadaState();
-  const { proximoPasso, metricas } = jornadaState;
-  const targetTheme = getModuleTheme(`m${proximoPasso?.moduloNumero || 1}`);
 
   // Histórico de constância dos últimos 7 dias (Sóbrio, sem confetes)
   const ultimos7DiasArray: { data: string; ativo: boolean; label: string }[] = [];
@@ -164,10 +149,10 @@ export const PainelPage: React.FC = () => {
 
               <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
                 {proximoPasso?.tipo === 'submodulo'
-                  ? 'Texto canônico estruturado com autores clássicos, alertas de distratores da banca e micro-checkpoints formativos.'
+                  ? `Texto canônico estruturado com autores clássicos, alertas de distratores da banca e verificação de retenção (mínimo de ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%).`
                   : proximoPasso?.tipo === 'desafio_modulo'
-                  ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos).`
-                  : 'Portal de retenção cumulativa com 20 itens sobre módulos anteriores.'}
+                  ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos / ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}%).`
+                  : `Portal de retenção cumulativa com 20 itens sobre módulos anteriores (mínimo de ${JORNADA_CONFIG.portalAcertosMinimo} acertos / ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%).`}
               </p>
 
               <div className="flex items-center gap-4 text-xs font-sans text-ink-2 pt-1">
@@ -336,6 +321,7 @@ export const PainelPage: React.FC = () => {
               <strong className="text-ink font-sans font-semibold tabular-nums">
                 {metricas.etapasConcluidas} de {metricas.totalEtapas} etapas
               </strong>
+              {' '}({contagens.submodulosTrilhaConcluidos}/{contagens.totalSubmodulosTrilha} submódulos · {contagens.desafiosTrilhaConcluidos}/{contagens.totalDesafiosTrilha} desafios)
             </p>
           </div>
 
@@ -446,11 +432,11 @@ export const PainelPage: React.FC = () => {
 
           <div className="flex flex-wrap items-center gap-3 text-xs font-sans text-ink-2">
             <span>
-              <strong className="text-ink font-semibold tabular-nums">{submodulosGlobalLidos}</strong> de {totalSubmodulosGlobal} submódulos
+              <strong className="text-ink font-semibold tabular-nums">{contagens.submodulosCursoConcluidos}</strong> de {contagens.totalSubmodulosCurso} submódulos
             </span>
             <span>•</span>
             <span>
-              <strong className="text-ink font-semibold tabular-nums">{totalCheckpointsFeitos}</strong> de {totalCheckpointsGlobal} checkpoints
+              <strong className="text-ink font-semibold tabular-nums">{contagens.totalCheckpointsFeitos}</strong> de {contagens.totalCheckpointsGlobal} checkpoints
             </span>
             <span>•</span>
             <span>
@@ -463,12 +449,12 @@ export const PainelPage: React.FC = () => {
         <div>
           <div className="flex items-center justify-between text-xs font-sans text-ink-2 mb-1.5">
             <span>Total da Teoria Concluída</span>
-            <span className="font-bold text-accent tabular-nums">{progressoGlobalPercent}% concluído</span>
+            <span className="font-bold text-accent tabular-nums">{contagens.progressoGlobalCursoPercent}% concluído</span>
           </div>
           <div className="w-full h-2 rounded-full bg-surface-2 overflow-hidden border border-border">
             <div
               className="h-full bg-accent transition-all duration-300"
-              style={{ width: `${progressoGlobalPercent}%` }}
+              style={{ width: `${contagens.progressoGlobalCursoPercent}%` }}
             />
           </div>
         </div>

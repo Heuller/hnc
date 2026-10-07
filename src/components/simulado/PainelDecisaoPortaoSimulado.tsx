@@ -44,7 +44,11 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
   );
 
   const minimoExigido = Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
-  const isAprovado = consolidada.aprovado || taxaAcertoBruto >= minimoExigido;
+  const isAprovado =
+    consolidada.aprovado ||
+    taxaAcertoBruto >= minimoExigido ||
+    relatorioFinal.certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+    relatorioFinal.aproveitamentoPercent >= minimoExigido;
 
   // Itens errados nesta execução
   const itensErradosIds = Object.entries(relatorioFinal.respostas || {})

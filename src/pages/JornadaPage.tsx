@@ -23,10 +23,12 @@ import { PortaoVerificacaoModal } from '../components/jornada/PortaoVerificacaoM
 import { Button } from '../components/common/Button';
 import { ModuleEmblem } from '../components/illustrations/ModuleEmblems';
 import { IllustrationPortal, IllustrationConclusao } from '../components/illustrations/ContextualIllustrations';
+import { JORNADA_CONFIG } from '../config/jornada.config';
+import { deduplicarSubmodulos } from '../domain/progressCore';
 
 export const JornadaPage: React.FC = () => {
   const {
-    getJornadaState,
+    getProgressCore,
     modoLivre,
     setModoLivre,
   } = useProgressStore();
@@ -42,7 +44,8 @@ export const JornadaPage: React.FC = () => {
   const [showModoLivreConfirm, setShowModoLivreConfirm] = useState(false);
   const [showCalculoInfo, setShowCalculoInfo] = useState(false);
 
-  const jornada = getJornadaState();
+  const progressCore = getProgressCore();
+  const { jornada } = progressCore;
   const { etapas, metricas, proximoPasso } = jornada;
 
   const handleOpenPortao = (etapaId: string) => {
@@ -96,7 +99,7 @@ export const JornadaPage: React.FC = () => {
                 )}
               </div>
               <p className="text-xs sm:text-sm text-ink-2">
-                Progressão sequencial por macro-módulo com verificação de 85% e Portais de Revisão cumulativos.
+                Progressão sequencial por macro-módulo com verificação ({Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%), simulados de 100Q ({Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}%) e Portais de Revisão cumulativos.
               </p>
             </div>
           </div>
@@ -189,10 +192,10 @@ export const JornadaPage: React.FC = () => {
               </h4>
               <ul className="space-y-1.5 list-disc list-inside leading-relaxed">
                 <li>
-                  <strong className="text-ink">Composição das 59 Etapas:</strong> 40 submódulos teóricos (M1 a M10, 4 submódulos cada) + 10 Desafios de Módulo (100 itens inéditos, mín. 85 acertos) + 9 Portais de Revisão Cumulativa (20 itens, mín. 17 acertos, entre M2 e M10) = 59 etapas.
+                  <strong className="text-ink">Composição das 59 Etapas:</strong> 40 submódulos teóricos (M1 a M10, 4 submódulos cada) + 10 Desafios de Módulo (100 itens inéditos, mín. {JORNADA_CONFIG.desafioAcertosMinimo} acertos / {Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}%) + 9 Portais de Revisão Cumulativa (20 itens, mín. {JORNADA_CONFIG.portalAcertosMinimo} acertos / {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%, entre M2 e M10) = 59 etapas.
                 </li>
                 <li>
-                  <strong className="text-ink">Taxa de Domínio:</strong> (Etapas Concluídas / 59) × 100%. Uma etapa só é concluída ao atingir aproveitamento &ge; 85% e ler 100% dos textos teóricos canônicos.
+                  <strong className="text-ink">Taxa de Domínio:</strong> (Etapas Concluídas / 59) × 100%. Uma etapa só é concluída ao atingir o limiar exigido ({Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% nas verificações/portais e {Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% nos simulados de módulo) e ler 100% dos textos teóricos canônicos.
                 </li>
                 <li>
                   <strong className="text-ink">Prontidão Global Calculada:</strong> Média aritmética simples do melhor aproveitamento percentual obtido nas 59 etapas da trilha (&sum; aproveitamento / 59). Etapas ainda não concluídas contribuem com 0%.
@@ -294,7 +297,7 @@ export const JornadaPage: React.FC = () => {
           {modulosEstatisticos.map((macro) => {
             const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
             const theme = getModuleTheme(macro.id);
-            const submodulos = macro.modulosFilhos || [];
+            const submodulos = deduplicarSubmodulos(macro.modulosFilhos || []);
             const desafioId = `desafio-${macro.id}`;
             const portalId = `portal-${macro.id}`;
             const etapaDesafio = etapas[desafioId];
@@ -346,7 +349,7 @@ export const JornadaPage: React.FC = () => {
 
                     return (
                       <div
-                        key={sub.id}
+                        key={sub.numero}
                         className={`rounded-xl border p-4 flex flex-col justify-between gap-3 transition-all relative ${
                           isConcluida
                             ? 'bg-surface-2/30 border-emerald-500/30'
@@ -459,7 +462,7 @@ export const JornadaPage: React.FC = () => {
                             {etapaDesafio.titulo}
                           </h3>
                           <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-border text-ink-2">
-                            100 Itens · Mín. 85 Acertos
+                            {etapaDesafio.totalItens} Itens · Mín. {etapaDesafio.acertosNecessarios} Acertos ({Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}%)
                           </span>
                         </div>
                         <p className="text-xs text-ink-2">
@@ -642,7 +645,7 @@ export const JornadaPage: React.FC = () => {
             {modulosGerais.map((macro) => {
               const k = typeof macro.numero === 'number' ? macro.numero : parseInt(String(macro.numero).replace(/\D/g, ''), 10);
               const theme = getModuleTheme(macro.id);
-              const submodulos = macro.modulosFilhos || [];
+              const submodulos = deduplicarSubmodulos(macro.modulosFilhos || []);
 
               return (
                 <div
@@ -685,7 +688,7 @@ export const JornadaPage: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {submodulos.map((sub) => (
                       <div
-                        key={sub.id}
+                        key={sub.numero}
                         className="rounded-xl border border-border p-4 bg-surface hover:bg-surface-2/40 flex flex-col justify-between gap-3 shadow-2xs transition-all"
                       >
                         <div className="space-y-2">

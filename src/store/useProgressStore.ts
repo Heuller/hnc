@@ -15,9 +15,10 @@ import {
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useAuthStore } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
-import type { TentativaRegistro } from '../domain/tentativas';
+import type { TentativaRegistro, RespostaTentativa } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
-import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
+import type { JornadaState } from '../domain/jornadaEngine';
+import { deriveProgressCore, type ProgressCoreState } from '../domain/progressCore';
 import { tentativasSyncService } from '../services/tentativasSyncService';
 import type { TermoSalvo } from '../domain/dicionario/types';
 import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
@@ -32,7 +33,10 @@ import {
   derivarProgresso,
   type ProgressoGlobalDerivado,
 } from '../domain/progressoEngine';
-import { executarMigracaoHistorico } from '../domain/migracaoTentativas';
+import {
+  executarMigracaoHistorico,
+  criarPayloadBackupLogico,
+} from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
 interface ProgressStoreState extends UserProgress {
@@ -40,10 +44,15 @@ interface ProgressStoreState extends UserProgress {
   tentativas: TentativaRegistro[];
   itemAttempts: ItemAttempt[];
   termosSalvos: TermoSalvo[];
-  // Fonte Única de Respostas (Parte 1)
+  rodadasAtivas: Record<string, number>;
+  flagsLegado: string[];
+  // Fonte Única de Respostas (Parte 1 e Marco 1)
   adicionarItemAttempt: (params: CriarItemAttemptParams) => Promise<ItemAttempt>;
   obterPrimeiraTentativa: (itemId: string) => ItemAttempt | undefined;
   obterUltimaTentativa: (itemId: string) => ItemAttempt | undefined;
+  obterTentativaRodada: (itemId: string, rodada: number) => ItemAttempt | undefined;
+  iniciarNovaRodadaVerificacao: (submoduloNumero: string) => void;
+  gerarBackupLogicoJSON: () => string;
   getProgressoGlobal: () => ProgressoGlobalDerivado;
   // Dicionário / Glossário
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
@@ -65,6 +74,7 @@ interface ProgressStoreState extends UserProgress {
   reabrirSecaoAposFalha: (targetId: string, secaoId: string) => void;
   setModoLivre: (ativo: boolean) => void;
   getJornadaState: () => JornadaState;
+  getProgressCore: () => ProgressCoreState;
   sincronizarTentativasNuvem: () => Promise<void>;
   // Simulado com persistência total multi-simulados
   obterSessaoSimulado: (simuladoId: string) => SessaoSimuladoState;
@@ -103,7 +113,11 @@ const getRecent7Days = (): string[] => {
   return days;
 };
 
-const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
+const INITIAL_STATE: UserProgress & {
+  ultimoModuloAcessado: string;
+  rodadasAtivas: Record<string, number>;
+  flagsLegado: string[];
+} = {
   versao: 2,
   ultimoModuloAcessado: '1.1',
   modulosLidosIds: [],
@@ -124,6 +138,8 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   tentativas: [],
   itemAttempts: [],
   termosSalvos: [],
+  rodadasAtivas: {},
+  flagsLegado: ['2.1'],
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -142,6 +158,9 @@ if (typeof window !== 'undefined') {
           {
             checkpointsRespondidos: parsed.checkpointsRespondidos,
             tentativas: parsed.tentativas,
+            secoesVisualizadas: parsed.secoesVisualizadas,
+            historicoSimulados: parsed.historicoSimulados,
+            itemAttempts: itemAttemptsSyncService.carregarLocais(),
           },
           itemAttemptsSyncService.carregarLocais()
         );
@@ -195,10 +214,22 @@ export const useProgressStore = create<ProgressStoreState>()(
         const authUser = useAuthStore.getState().user;
         const userId = authUser?.id || 'usuario-local';
 
+        const rodadaSub = state.rodadasAtivas?.[params.submoduloId] || 1;
+        const rodadaN = params.rodadaN ?? rodadaSub;
+        const jaTemOficial = (state.itemAttempts || []).some(
+          (a) =>
+            a.item_id === params.itemId &&
+            !a.is_pratica &&
+            (a.rodada_n === rodadaN || (rodadaN === 1 && a.tentativa_n === 1 && !a.rodada_n))
+        );
+        const isPratica = params.isPratica !== undefined ? params.isPratica : jaTemOficial;
+
         const novaAttempt = criarItemAttempt(
           {
             ...params,
             userId,
+            rodadaN,
+            isPratica,
           },
           state.itemAttempts || []
         );
@@ -229,7 +260,9 @@ export const useProgressStore = create<ProgressStoreState>()(
           state.secoesVisualizadas || {},
           COURSE_REGISTRY,
           JORNADA_CONFIG,
-          state.historicoSimulados || []
+          state.historicoSimulados || [],
+          state.flagsLegado || ['2.1'],
+          state.rodadasAtivas || {}
         );
 
         const subProgresso = progressoGlobal.submodulos[novaAttempt.submodulo_id];
@@ -282,11 +315,76 @@ export const useProgressStore = create<ProgressStoreState>()(
       },
 
       obterPrimeiraTentativa: (itemId: string) => {
-        return obterPrimeiraTentativaItem(get().itemAttempts || [], itemId);
+        const state = get();
+        const att = obterPrimeiraTentativaItem(state.itemAttempts || [], itemId);
+        if (att) return att;
+        // Fallback resiliente para reidratação do legado (Bug 8)
+        const respLegado = state.checkpointsRespondidos?.[itemId];
+        if (respLegado) {
+          return {
+            id: `legacy-${itemId}`,
+            user_id: 'usuario-local',
+            item_id: itemId,
+            submodulo_id: '',
+            modulo_id: '',
+            contexto: 'teoria',
+            resposta: respLegado,
+            correto: true,
+            tentativa_n: 1,
+            rodada_n: 1,
+            is_pratica: false,
+            criado_em: new Date().toISOString(),
+          } as ItemAttempt;
+        }
+        return undefined;
       },
 
       obterUltimaTentativa: (itemId: string) => {
         return obterUltimaTentativaItem(get().itemAttempts || [], itemId);
+      },
+
+      obterTentativaRodada: (itemId: string, rodada: number) => {
+        const state = get();
+        return (state.itemAttempts || []).find(
+          (a) =>
+            a.item_id === itemId &&
+            !a.is_pratica &&
+            (a.rodada_n === rodada || (rodada === 1 && a.tentativa_n === 1 && !a.rodada_n))
+        );
+      },
+
+      iniciarNovaRodadaVerificacao: (submoduloNumero: string) => {
+        const state = get();
+        const subAttempts = (state.itemAttempts || []).filter(
+          (a) => a.submodulo_id === submoduloNumero && !a.is_pratica
+        );
+        const rodadasRegistradas = subAttempts.map((a) => a.rodada_n || (a.tentativa_n === 1 ? 1 : 1));
+        const rodadaMax =
+          rodadasRegistradas.length > 0
+            ? Math.max(...rodadasRegistradas)
+            : state.rodadasAtivas?.[submoduloNumero] || 1;
+        const proximaRodada = rodadaMax + 1;
+
+        set({
+          rodadasAtivas: {
+            ...(state.rodadasAtivas || {}),
+            [submoduloNumero]: proximaRodada,
+          },
+        });
+      },
+
+      gerarBackupLogicoJSON: () => {
+        const state = get();
+        return criarPayloadBackupLogico(
+          {
+            checkpointsRespondidos: state.checkpointsRespondidos,
+            tentativas: state.tentativas,
+            secoesVisualizadas: state.secoesVisualizadas,
+            historicoSimulados: state.historicoSimulados,
+            itemAttempts: state.itemAttempts,
+          },
+          state.itemAttempts || []
+        );
       },
 
       getProgressoGlobal: () => {
@@ -296,7 +394,9 @@ export const useProgressStore = create<ProgressStoreState>()(
           state.secoesVisualizadas || {},
           COURSE_REGISTRY,
           JORNADA_CONFIG,
-          state.historicoSimulados || []
+          state.historicoSimulados || [],
+          state.flagsLegado || ['2.1'],
+          state.rodadasAtivas || {}
         );
       },
 
@@ -362,16 +462,24 @@ export const useProgressStore = create<ProgressStoreState>()(
         set({ modoLivre: ativo });
       },
 
-      getJornadaState: () => {
+      getProgressCore: () => {
         const s = get();
-        return deriveJornadaState({
+        return deriveProgressCore({
           modulos: COURSE_REGISTRY,
           tentativas: s.tentativas || [],
+          itemAttempts: s.itemAttempts || [],
+          checkpointsRespondidos: s.checkpointsRespondidos || {},
           secoesVisualizadas: s.secoesVisualizadas || {},
           secoesReabertasAposFalha: s.secoesReabertasAposFalha || {},
+          historicoSimulados: s.historicoSimulados || [],
+          modulosLidosIds: s.modulosLidosIds || [],
           modoLivre: s.modoLivre || false,
-          checkpointsRespondidos: s.checkpointsRespondidos || {},
+          flagsLegado: s.flagsLegado || ['2.1'],
         });
+      },
+
+      getJornadaState: () => {
+        return get().getProgressCore().jornada;
       },
 
       sincronizarTentativasNuvem: async () => {
@@ -830,6 +938,66 @@ export const useProgressStore = create<ProgressStoreState>()(
             emAndamento: false,
           },
         });
+
+        // Marco 4 (Bug 2): Se este simulado for o Desafio de Módulo da Trilha (M1 a M10),
+        // registra uma TentativaRegistro canônica em `tentativas` para manter a fonte de verdade sincronizada.
+        const modNumMatch = simuladoId.match(/m(\d+)/i);
+        const moduloNumero = manifest?.numero ?? (modNumMatch ? parseInt(modNumMatch[1], 10) : undefined);
+
+        if (moduloNumero && moduloNumero >= 1 && moduloNumero <= 10) {
+          try {
+            const desafioId = `desafio-m${moduloNumero}`;
+            const moduloId = `m${moduloNumero}`;
+
+            const mapaRespostas: Record<string, RespostaTentativa> = {};
+            questoes.forEach((q) => {
+              const r = respostas[q.id];
+              const resp = (r?.resposta as 'C' | 'E' | 'BRANCO') || 'BRANCO';
+              const acertou = resp !== 'BRANCO' && resp === q.gabarito;
+              mapaRespostas[q.id] = {
+                questionId: q.id,
+                resposta: resp,
+                gabarito: q.gabarito,
+                acertou,
+                secaoId: 'sec-teoria',
+                texto: q.item,
+              };
+            });
+
+            const isAprovadoDesafio =
+              certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+              aproveitamentoPercent >= Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
+
+            const novaTentativaDesafio = criarTentativaRegistro({
+              userId: useAuthStore.getState().user?.id || 'usuario-local',
+              tipo: 'desafio_modulo',
+              targetId: desafioId,
+              moduloId,
+              totalItens: questoes.length,
+              respostas: mapaRespostas,
+              foraDaTrilha: state.modoLivre || false,
+              aproveitamentoMinimo: JORNADA_CONFIG.minimoSimuladoModulo,
+            });
+
+            if (isAprovadoDesafio) {
+              novaTentativaDesafio.aprovado = true;
+            }
+
+            const atuaisTentativas = get().tentativas || [];
+            const atualizadasTentativas = [
+              ...atuaisTentativas.filter((t) => t.id !== novaTentativaDesafio.id),
+              novaTentativaDesafio,
+            ];
+            set({ tentativas: atualizadasTentativas });
+
+            const authUser = useAuthStore.getState().user;
+            if (authUser) {
+              tentativasSyncService.registrarTentativa(novaTentativaDesafio, authUser.id);
+            }
+          } catch (e) {
+            console.warn('[Desafio Tentativa] Falha ao registrar tentativa do desafio:', e);
+          }
+        }
 
         // Regra 1.2 e 2.4: Registra tentativas append-only e alimenta Leitner/Caderno de Erros
         try {

@@ -7,6 +7,7 @@ import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learn
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { PainelDecisaoPortaoSimulado } from '../components/simulado/PainelDecisaoPortaoSimulado';
 import { Badge } from '../components/common/Badge';
+import { JORNADA_CONFIG } from '../config/jornada.config';
 import { Kbd } from '../components/common/Kbd';
 import { Drawer } from 'vaul';
 import {
@@ -498,7 +499,7 @@ export const SimuladoPage: React.FC = () => {
                               </span>
                             ) : pendente?.status === 'em_revisao_dirigida' || (pendente?.status as string) === 'em_revisao' ? (
                               <span className="text-amber-500 font-medium">
-                                Em Revisão Dirigida (Refaça os checkpoints para &ge; 85%)
+                                Em Revisão Dirigida (Refaça os checkpoints para &ge; {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%)
                               </span>
                             ) : (
                               <span>Em Leitura (Conclua as seções teóricas)</span>

@@ -36,6 +36,7 @@ import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRet
 import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
 import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
 import { SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
+import { JORNADA_CONFIG } from '../config/jornada.config';
 import {
   verificarAcessoModulo,
   verificarNavegacaoRodapeSubmodulo,
@@ -54,6 +55,7 @@ export const TeoriaPage: React.FC = () => {
     ultimoModuloAcessado,
     setUltimoModuloAcessado,
     getProgressoGlobal,
+    iniciarNovaRodadaVerificacao,
     historicoSimulados,
     devBypassSimuladoLock,
   } = useProgressStore();
@@ -174,11 +176,26 @@ export const TeoriaPage: React.FC = () => {
     historicoSimulados || []
   );
 
+  const subProg = progressoGlobal.submodulos[currentSub.numero];
+
+  const [checkpointsOrdem, setCheckpointsOrdem] = useState(currentSub.checkpoints);
+
+  useEffect(() => {
+    setCheckpointsOrdem(currentSub.checkpoints);
+  }, [currentSub.id, currentSub.checkpoints]);
+
   const scrollToAnchor = (id: string) => {
     const el = document.getElementById(id);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleRefazerVerificacao = () => {
+    iniciarNovaRodadaVerificacao(currentSub.numero);
+    // Ajuste 6: itens em ordem aleatória ao refazer verificação oficial
+    setCheckpointsOrdem([...currentSub.checkpoints].sort(() => Math.random() - 0.5));
+    scrollToAnchor('sec-checkpoints');
   };
 
   // Se o módulo estiver bloqueado pedagogicamente (Regra 2.2)
@@ -372,12 +389,12 @@ export const TeoriaPage: React.FC = () => {
               {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
                   <CheckCircle2 className="w-4 h-4 shrink-0" />
-                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos · mín. 85%)</span>
+                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos · mín. {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%)</span>
                 </div>
               ) : learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-amber-500/15 border border-amber-500/40 text-amber-500 shadow-2xs">
                   <RotateCcw className="w-3.5 h-3.5 shrink-0" />
-                  <span>Em Revisão Dirigida ({learningState.taxaAcertoPercent}% nos checkpoints · mín. 85%)</span>
+                  <span>Em Revisão Dirigida ({learningState.taxaAcertoPercent}% nos checkpoints · mín. {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%)</span>
                 </div>
               ) : learningState.status === 'em_andamento' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-medium flex items-center gap-1.5 bg-surface-2 border border-border text-ink-2 shadow-2xs">
@@ -400,7 +417,7 @@ export const TeoriaPage: React.FC = () => {
               {/* Indicador suplementar discreto se ainda não concluído */}
               {learningState.status !== 'concluida' && (learningState.status as string) !== 'concluido' && (
                 <span className="text-xs font-sans tabular-nums text-ink-2 hidden sm:inline">
-                  Meta de aprovação: 85% nos checkpoints
+                  Meta de aprovação: {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% nos checkpoints
                 </span>
               )}
             </div>
@@ -590,9 +607,9 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp, idx) => (
+              {checkpointsOrdem.map((cp, idx) => (
                 <ItemCE
-                  key={cp.id}
+                  key={`${cp.id}-${subProg?.rodadaAtual || 1}`}
                   item={{
                     id: cp.id,
                     numero: idx + 1,
@@ -604,7 +621,8 @@ export const TeoriaPage: React.FC = () => {
                     versaoCorreta: (cp as any).versao_correta,
                   }}
                   contexto="teoria"
-                  contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}
+                  rodadaAtiva={subProg?.rodadaAtual || 1}
+                  contadorTexto={`Checkpoint ${idx + 1} de ${checkpointsOrdem.length}`}
                 />
               ))}
             </div>
@@ -738,12 +756,27 @@ export const TeoriaPage: React.FC = () => {
               <div />
             )}
 
-            {/* Indicador de Conclusão Pedagógica Sóbrio (Defeito D13) */}
+            {/* Indicador de Conclusão Pedagógica Sóbrio (Defeito D13 e Marco 1) */}
             <div className="w-full sm:w-auto text-center sm:text-left">
               {rodapeNav.submoduloConcluido ? (
                 <div className="py-2 px-3.5 rounded-xl bg-ok-soft border border-ok text-ok font-sans text-xs sm:text-sm font-bold flex items-center justify-center gap-2">
                   <CheckCircle2 className="w-4 h-4" />
-                  <span>Submódulo Concluído ({learningState.taxaAcertoPercent}% de acertos)</span>
+                  <span>Submódulo Concluído ({subProg?.aproveitamentoPortaoPercent ?? 100}% de acertos)</span>
+                </div>
+              ) : rodapeNav.podeRefazerVerificacao ? (
+                <div className="flex flex-col sm:flex-row items-center gap-2">
+                  <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
+                    <RotateCcw className="w-4 h-4 shrink-0 text-amber-500" />
+                    <span>Aproveitamento insuficiente ({subProg?.aproveitamentoPortaoPercent}%). Mínimo exigido: {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%.</span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleRefazerVerificacao}
+                    className="py-2 px-3.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-sans text-xs font-bold flex items-center justify-center gap-1.5 shadow-xs cursor-pointer transition-all active:scale-98"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5" />
+                    <span>Refazer Verificação Oficial</span>
+                  </button>
                 </div>
               ) : rodapeNav.motivoBloqueioSubmodulo ? (
                 <div className="py-2 px-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-300 font-sans text-xs flex items-center justify-center gap-2">
@@ -753,7 +786,7 @@ export const TeoriaPage: React.FC = () => {
               ) : (
                 <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
-                  <span>Conclua a leitura e atinja 85% na verificação para concluir</span>
+                  <span>Conclua a leitura e atinja {Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% na verificação para concluir</span>
                 </div>
               )}
             </div>
@@ -785,7 +818,7 @@ export const TeoriaPage: React.FC = () => {
                     <ArrowRight className="w-4 h-4" />
                   </button>
                   <span className="text-[11px] font-serif text-ink-2">
-                    O M{rodapeNav.moduloNumero + 1} será liberado ao atingir 80% no simulado
+                    O M{rodapeNav.moduloNumero + 1} será liberado ao atingir {Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% no simulado
                   </span>
                 </div>
               ) : (

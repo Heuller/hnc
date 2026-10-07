@@ -1,0 +1,642 @@
+[
+  {
+    "moduloId": "m1",
+    "moduloCodigo": "M1",
+    "submoduloNumero": "1.1",
+    "submoduloTitulo": "Biblioteconomia, Documentação e CI",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m1",
+    "moduloCodigo": "M1",
+    "submoduloNumero": "1.2",
+    "submoduloTitulo": "Cinco Leis de Ranganathan",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m1",
+    "moduloCodigo": "M1",
+    "submoduloNumero": "1.3",
+    "submoduloTitulo": "Informação, Conhecimento e Documento",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m1",
+    "moduloCodigo": "M1",
+    "submoduloNumero": "1.4",
+    "submoduloTitulo": "Legislação e Código de Ética CFB",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m2",
+    "moduloCodigo": "M2",
+    "submoduloNumero": "2.1",
+    "submoduloTitulo": "Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m2",
+    "moduloCodigo": "M2",
+    "submoduloNumero": "2.2",
+    "submoduloTitulo": "O Padrão RDA (Resource Description and Access) e o Projeto 3R",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m2",
+    "moduloCodigo": "M2",
+    "submoduloNumero": "2.3",
+    "submoduloTitulo": "Modelos Conceituais: A Família FRBR e o IFLA LRM",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m2",
+    "moduloCodigo": "M2",
+    "submoduloNumero": "2.4",
+    "submoduloTitulo": "Notação de Autor, Formato MARC 21 e Padrão Dublin Core",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m3",
+    "moduloCodigo": "M3",
+    "submoduloNumero": "3.1",
+    "submoduloTitulo": "Teoria da Classificação, CDD (23ª ed.) e CDU",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m3",
+    "moduloCodigo": "M3",
+    "submoduloNumero": "3.2",
+    "submoduloTitulo": "Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m3",
+    "moduloCodigo": "M3",
+    "submoduloNumero": "3.3",
+    "submoduloTitulo": "Análise Documentária e Processo de Indexação",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m3",
+    "moduloCodigo": "M3",
+    "submoduloNumero": "3.4",
+    "submoduloTitulo": "Linguagens Documentárias, Tesauros, Ontologias e SKOS",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m4",
+    "moduloCodigo": "M4",
+    "submoduloNumero": "4.1",
+    "submoduloTitulo": "Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m4",
+    "moduloCodigo": "M4",
+    "submoduloNumero": "4.2",
+    "submoduloTitulo": "Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m4",
+    "moduloCodigo": "M4",
+    "submoduloNumero": "4.3",
+    "submoduloTitulo": "Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m4",
+    "moduloCodigo": "M4",
+    "submoduloNumero": "4.4",
+    "submoduloTitulo": "Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m5",
+    "moduloCodigo": "M5",
+    "submoduloNumero": "5.1",
+    "submoduloTitulo": "Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m5",
+    "moduloCodigo": "M5",
+    "submoduloNumero": "5.2",
+    "submoduloTitulo": "CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m5",
+    "moduloCodigo": "M5",
+    "submoduloNumero": "5.3",
+    "submoduloTitulo": "Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m5",
+    "moduloCodigo": "M5",
+    "submoduloNumero": "5.4",
+    "submoduloTitulo": "Gestão da Informação e Gestão do Conhecimento Organizacional",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m6",
+    "moduloCodigo": "M6",
+    "submoduloNumero": "6.1",
+    "submoduloTitulo": "Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m6",
+    "moduloCodigo": "M6",
+    "submoduloNumero": "6.2",
+    "submoduloTitulo": "Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m6",
+    "moduloCodigo": "M6",
+    "submoduloNumero": "6.3",
+    "submoduloTitulo": "Preservação Digital e o Modelo de Referência OAIS (ISO 14721)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m6",
+    "moduloCodigo": "M6",
+    "submoduloNumero": "6.4",
+    "submoduloTitulo": "Inteligência Artificial na Biblioteconomia e na Ciência da Informação",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m7",
+    "moduloCodigo": "M7",
+    "submoduloNumero": "7.1",
+    "submoduloTitulo": "Agentes Ambientais e Físico-Químicos de Degradação de Acervos",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m7",
+    "moduloCodigo": "M7",
+    "submoduloNumero": "7.2",
+    "submoduloTitulo": "Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m7",
+    "moduloCodigo": "M7",
+    "submoduloNumero": "7.3",
+    "submoduloTitulo": "Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m7",
+    "moduloCodigo": "M7",
+    "submoduloNumero": "7.4",
+    "submoduloTitulo": "Intervenções Curativas, Restauração e Planos de Contingência contra Desastres",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m8",
+    "moduloCodigo": "M8",
+    "submoduloNumero": "8.1",
+    "submoduloTitulo": "ABNT NBR 6023: Referências Bibliográficas",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m8",
+    "moduloCodigo": "M8",
+    "submoduloNumero": "8.2",
+    "submoduloTitulo": "ABNT NBR 10520: Citações em Documentos (Versão 2023)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m8",
+    "moduloCodigo": "M8",
+    "submoduloNumero": "8.3",
+    "submoduloTitulo": "ABNT NBR 14724: Apresentação de Trabalhos Acadêmicos",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m8",
+    "moduloCodigo": "M8",
+    "submoduloNumero": "8.4",
+    "submoduloTitulo": "ABNT NBR 6028 (Resumos - 2021), NBR 6027 (Sumários) e NBR 6022 (Artigos)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m9",
+    "moduloCodigo": "M9",
+    "submoduloNumero": "9.1",
+    "submoduloTitulo": "Ciclo da Comunicação Científica, Canais e Avaliação por Pares",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m9",
+    "moduloCodigo": "M9",
+    "submoduloNumero": "9.2",
+    "submoduloTitulo": "Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m9",
+    "moduloCodigo": "M9",
+    "submoduloNumero": "9.3",
+    "submoduloTitulo": "Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m9",
+    "moduloCodigo": "M9",
+    "submoduloNumero": "9.4",
+    "submoduloTitulo": "Estudos Métricos da Informação: Leis Bibliométricas, Fator de Impacto e Índice h",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m10",
+    "moduloCodigo": "M10",
+    "submoduloNumero": "10.1",
+    "submoduloTitulo": "Regimento Interno da Câmara dos Deputados (RICD) e a Biblioteca Parlamentar",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m10",
+    "moduloCodigo": "M10",
+    "submoduloNumero": "10.2",
+    "submoduloTitulo": "Processo Legislativo Constitucional e Espécies de Proposições",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m10",
+    "moduloCodigo": "M10",
+    "submoduloNumero": "10.3",
+    "submoduloTitulo": "Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m10",
+    "moduloCodigo": "M10",
+    "submoduloNumero": "10.4",
+    "submoduloTitulo": "Noções de Direito Constitucional Aplicadas ao Processo Legislativo",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.1",
+    "submoduloTitulo": "Estado, Princípios e Organização",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.2",
+    "submoduloTitulo": "Atos Administrativos e Pareceres",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.3",
+    "submoduloTitulo": "Agentes Públicos e Lei 8.112/90",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.4",
+    "submoduloTitulo": "Processo Administrativo e Disciplinar",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.5",
+    "submoduloTitulo": "Poderes Administrativos e Abuso",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.6",
+    "submoduloTitulo": "Responsabilidade Civil do Estado",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.7",
+    "submoduloTitulo": "Improbidade Administrativa",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.8",
+    "submoduloTitulo": "Modelos de Gestão e NPG",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.9",
+    "submoduloTitulo": "Governança Pública Federal",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.10",
+    "submoduloTitulo": "Licitações na Lei 14.133/2021",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.11",
+    "submoduloTitulo": "Contratos e Fiscalização Contratual",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m11",
+    "moduloCodigo": "M11",
+    "submoduloNumero": "11.12",
+    "submoduloTitulo": "LAI e LGPD no Setor Público",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m12",
+    "moduloCodigo": "M12",
+    "submoduloNumero": "12.1",
+    "submoduloTitulo": "Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m12",
+    "moduloCodigo": "M12",
+    "submoduloNumero": "12.2",
+    "submoduloTitulo": "Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m12",
+    "moduloCodigo": "M12",
+    "submoduloNumero": "12.3",
+    "submoduloTitulo": "Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m12",
+    "moduloCodigo": "M12",
+    "submoduloNumero": "12.4",
+    "submoduloTitulo": "Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m13",
+    "moduloCodigo": "M13",
+    "submoduloNumero": "13.1",
+    "submoduloTitulo": "Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m13",
+    "moduloCodigo": "M13",
+    "submoduloNumero": "13.2",
+    "submoduloTitulo": "A Arte da Reescritura e Paráfrase no Padrão Cebraspe",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m13",
+    "moduloCodigo": "M13",
+    "submoduloNumero": "13.3",
+    "submoduloTitulo": "Sintaxe Avançada: Concordância, Regência e o Sistema da Crase",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m13",
+    "moduloCodigo": "M13",
+    "submoduloNumero": "13.4",
+    "submoduloTitulo": "Pontuação Crítica e Redação Oficial Legislativa (Manual da Presidência, 3ª ed.)",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m14",
+    "moduloCodigo": "M14",
+    "submoduloNumero": "14.1",
+    "submoduloTitulo": "MSOffice 365 e Ferramentas de Comunicação e Colaboração",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m14",
+    "moduloCodigo": "M14",
+    "submoduloNumero": "14.2",
+    "submoduloTitulo": "Redes de Computadores, Internet/Intranet e Segurança da Informação",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m14",
+    "moduloCodigo": "M14",
+    "submoduloNumero": "14.3",
+    "submoduloTitulo": "Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  },
+  {
+    "moduloId": "m14",
+    "moduloCodigo": "M14",
+    "submoduloNumero": "14.4",
+    "submoduloTitulo": "Ciência de Dados, Transformação, Visualização e Storytelling",
+    "totalCheckpoints": 3,
+    "acertosMinimos85": 3,
+    "errosPermitidos": 0,
+    "equivaleA100Porcento": true
+  }
+]

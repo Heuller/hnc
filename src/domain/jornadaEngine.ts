@@ -11,6 +11,7 @@ import {
 } from './tentativas';
 import { getRequiredSectionsForSubmodule } from './learningEngine';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import type { SimuladoFinalizado } from './schemas/progress.schema';
 
 export type EtapaStatus =
   | 'bloqueada'
@@ -160,6 +161,9 @@ export function deriveJornadaState(params: {
   secoesReabertasAposFalha?: Record<string, string[]>;
   modoLivre?: boolean;
   checkpointsRespondidos?: Record<string, 'C' | 'E'>;
+  flagsLegado?: string[];
+  modulosLidosIds?: string[];
+  historicoSimulados?: SimuladoFinalizado[];
 }): JornadaState {
   const {
     modulos,
@@ -168,6 +172,9 @@ export function deriveJornadaState(params: {
     secoesReabertasAposFalha = {},
     modoLivre = false,
     checkpointsRespondidos = {},
+    flagsLegado = [],
+    modulosLidosIds = [],
+    historicoSimulados = [],
   } = params;
 
   const etapas: Record<string, EtapaJornadaState> = {};
@@ -195,7 +202,14 @@ export function deriveJornadaState(params: {
 
   for (const macro of modulosTrilha) {
     const k = extrairNumero(macro);
-    const submodulos = macro.modulosFilhos || [];
+    // Deduplicação canônica por número (Bug 3)
+    const subVistos = new Set<string>();
+    const submodulos = (macro.modulosFilhos || []).filter((s) => {
+      if (!s || !s.numero) return false;
+      if (subVistos.has(s.numero)) return false;
+      subVistos.add(s.numero);
+      return true;
+    });
 
     // 1. Processa cada submódulo sequencialmente: Mk.1 -> Mk.2 -> ... -> Mk.n
     for (let sIdx = 0; sIdx < submodulos.length; sIdx++) {
@@ -207,8 +221,10 @@ export function deriveJornadaState(params: {
       const secoesLidas = secoesVisualizadas[sub.id] || secoesVisualizadas[sub.numero] || [];
       const requiredSections = getRequiredSectionsForSubmodule(sub);
       const secoesLidasCount = requiredSections.filter((s) => secoesLidas.includes(s)).length;
+      const isLidoExplicitamente = modulosLidosIds.includes(sub.id) || modulosLidosIds.includes(sub.numero);
       const todasSecoesLidas =
-        requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
+        isLidoExplicitamente ||
+        (requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true);
 
       // Verificação do N de itens do submódulo (Regra D.2)
       const checkpointsCount = sub.checkpoints?.length || 0;
@@ -266,14 +282,18 @@ export function deriveJornadaState(params: {
 
       // Uma etapa só pode ser considerada concluída se:
       // 1. Houver itens de verificação (não falta itens)
-      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85%
+      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85% OU marcado como lido
       // 3. Todas as seções canônicas de teoria tiverem sido lidas
-      const temTentativaAprovada = tentativasSub.some((t) => t.aprovado) || temCheckpointsAprovados;
+      const temTentativaAprovada =
+        tentativasSub.some((t) => t.aprovado) ||
+        temCheckpointsAprovados ||
+        isLidoExplicitamente;
       const isConcluida = !faltamItens && temTentativaAprovada && todasSecoesLidas;
 
       // Status
       let status: EtapaStatus = 'bloqueada';
-      const isDesbloqueada = etapaAnteriorConcluida || modoLivre;
+      const isGrandfathered = flagsLegado.includes(subId);
+      const isDesbloqueada = etapaAnteriorConcluida || modoLivre || isGrandfathered;
 
       const revisaoDirigida = avaliarRevisaoDirigida(
         tentativasSub,
@@ -294,13 +314,15 @@ export function deriveJornadaState(params: {
       }
 
       const requisitoDesbloqueio =
-        sIdx === 0
+        isGrandfathered
+          ? 'Acesso liberado por continuidade de estudo (exceção legada).'
+          : sIdx === 0
           ? k === 1
             ? 'Primeira etapa do curso — acesso liberado.'
             : k === 2
-            ? `Conclua o Desafio M1 com 85% ou mais para liberar ${subId}.`
-            : `Conclua o Portal P(${k - 1}) com 85% ou mais para liberar ${subId}.`
-          : `Para abrir ${subId}: acerte pelo menos 85% em ${submodulos[sIdx - 1].numero}.`;
+            ? `Conclua o Desafio M1 com ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% ou mais para liberar ${subId}.`
+            : `Conclua o Portal P(${k - 1}) com ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% ou mais para liberar ${subId}.`
+          : `Para abrir ${subId}: acerte pelo menos ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% em ${submodulos[sIdx - 1].numero}.`;
 
       const etapaState: EtapaJornadaState = {
         id: subId,
@@ -356,9 +378,22 @@ export function deriveJornadaState(params: {
 
     // 2. Desafio do Módulo Mk (100 itens - Regra D.1 e D.2)
     const desafioId = `desafio-${macro.id}`;
-    const tentativasDesafio = filtrarTentativasPorTarget(tentativas, desafioId, false);
+    const tentativasDesafio = filtrarTentativasPorTarget(tentativas, desafioId, false).concat(
+      filtrarTentativasPorTarget(tentativas, `desafio-${k}`, false)
+    );
     const ultimaTentativaDesafio = obterUltimaTentativa(tentativas, desafioId, false);
-    const desafioConcluido = tentativasDesafio.some((t) => t.aprovado);
+
+    const simuladoHistoricoAprovado = historicoSimulados.some((sim) => {
+      const match = (sim.simuladoId || sim.id || '').match(/m(\d+)/i);
+      const num = match ? parseInt(match[1], 10) : 0;
+      const isEsteModulo = num === k;
+      const isAprov =
+        sim.certos >= JORNADA_CONFIG.desafioAcertosMinimo ||
+        sim.aproveitamentoPercent >= Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
+      return isEsteModulo && isAprov;
+    });
+
+    const desafioConcluido = tentativasDesafio.some((t) => t.aprovado) || simuladoHistoricoAprovado;
     const melhorAprovDesafio = tentativasDesafio.reduce(
       (max, t) => Math.max(max, Math.round(t.aproveitamento * 100)),
       0
@@ -393,15 +428,15 @@ export function deriveJornadaState(params: {
       status: statusDesafio,
       isDesbloqueada: isDesafioDesbloqueado,
       totalItens: JORNADA_CONFIG.desafioItensTotal, // 100
-      acertosNecessarios: JORNADA_CONFIG.desafioAcertosMinimo, // 85
-      errosMaximos: JORNADA_CONFIG.desafioErrosMaximo, // 15
+      acertosNecessarios: JORNADA_CONFIG.desafioAcertosMinimo, // 80
+      errosMaximos: JORNADA_CONFIG.desafioErrosMaximo, // 20
       descricaoRegra: `${JORNADA_CONFIG.desafioAcertosMinimo} acertos em ${JORNADA_CONFIG.desafioItensTotal} itens (no máximo ${JORNADA_CONFIG.desafioErrosMaximo} erros)`,
       tentativasCount: tentativasDesafio.length,
       ultimaTentativa: ultimaTentativaDesafio,
       melhorAproveitamentoPercent: melhorAprovDesafio,
       aprovado: desafioConcluido,
       revisaoDirigida: revisaoDirigidaDesafio,
-      requisitoDesbloqueio: `Conclua todos os ${submodulos.length} submódulos do Módulo ${k} com 85% ou mais para liberar o Desafio.`,
+      requisitoDesbloqueio: `Conclua todos os ${submodulos.length} submódulos do Módulo ${k} com ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}% ou mais para liberar o Desafio.`,
       foraDaTrilha: false,
     };
 
@@ -414,7 +449,7 @@ export function deriveJornadaState(params: {
         tipo: 'desafio_modulo',
         moduloNumero: k,
         titulo: `Desafio do Módulo M${k}`,
-        descricaoAcao: 'Realizar simulado de 100 itens (mínimo 85 acertos)',
+        descricaoAcao: `Realizar simulado de 100 itens (mínimo ${JORNADA_CONFIG.desafioAcertosMinimo} acertos)`,
         status: statusDesafio,
       };
       moduloAtivoNumero = k;
@@ -473,7 +508,7 @@ export function deriveJornadaState(params: {
         melhorAproveitamentoPercent: melhorAprovPortal,
         aprovado: portalConcluido,
         revisaoDirigida: revisaoDirigidaPortal,
-        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com 85% ou mais para liberar o Portal de Revisão P(${k}).`,
+        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com ${Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100)}% ou mais para liberar o Portal de Revisão P(${k}).`,
         foraDaTrilha: false,
       };
 

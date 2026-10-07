@@ -74,6 +74,12 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
   const jornada = getJornadaState();
   const etapa = jornada.etapas[etapaId];
 
+  const limiarMinimoEtapa =
+    etapa?.tipo === 'desafio_modulo'
+      ? JORNADA_CONFIG.minimoSimuladoModulo
+      : JORNADA_CONFIG.minimoVerificacao;
+  const limiarMinimoPercent = Math.round(limiarMinimoEtapa * 100);
+
   // Recupera o tema visual do módulo
   const moduleTheme = useMemo(() => {
     return etapa ? getModuleTheme(etapa.moduloId) : getModuleTheme('m1');
@@ -262,6 +268,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
       totalItens: totalItens > 0 ? totalItens : etapa.totalItens,
       respostas: mapaRespostas,
       foraDaTrilha: modoLivre,
+      aproveitamentoMinimo: limiarMinimoEtapa,
     });
 
     await adicionarTentativa(novaTentativa);
@@ -417,7 +424,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                   <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
                   <span>
                     <strong className="text-ink">Regra de Domínio:</strong>{' '}
-                    {getDescricaoLimiar(totalItens > 0 ? totalItens : etapa.totalItens)} (aproveitamento ≥ 85%).
+                    {getDescricaoLimiar(totalItens > 0 ? totalItens : etapa.totalItens, limiarMinimoEtapa)} (aproveitamento ≥ {limiarMinimoPercent}%).
                   </span>
                 </li>
                 <li className="flex items-center gap-2">
@@ -651,7 +658,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                     <span>EM REVISÃO DIRIGIDA</span>
                   </div>
                   <h3 className="text-xl font-serif font-bold text-ink">
-                    Aproveitamento abaixo do limiar de 85%
+                    Aproveitamento abaixo do limiar de {limiarMinimoPercent}%
                   </h3>
                 </div>
               )}
