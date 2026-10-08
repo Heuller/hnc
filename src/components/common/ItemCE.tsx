@@ -363,7 +363,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             {/* Linha E: Fonte e Ação Rever na Teoria */}
             <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-[11px] font-sans text-ink-2">
               {item.fonte ? (
-                <span className="truncate max-w-[280px]">
+                <span className="break-words">
                   <strong>Fonte:</strong> {item.fonte}
                 </span>
               ) : <span />}

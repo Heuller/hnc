@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           </div>
 
           {/* DESKTOP HEADER (Brand & Sidebar Toggle) */}
-          <div className="hidden md:flex items-center gap-3 shrink-0">
+          <div className="hidden md:flex items-center gap-2 lg:gap-3 shrink-0">
             <button
               onClick={toggleSidebar}
               className="hidden lg:flex touch-target p-2 rounded-md hover:bg-surface-2 text-ink transition-colors border border-transparent hover:border-border"
@@ -137,8 +137,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   <span className="font-serif font-bold text-sm sm:text-base text-ink leading-tight tracking-tight whitespace-nowrap">
                     {CONCURSO_CONFIG.plataforma.nome}
                   </span>
-                  <span className="text-ink-2/60 text-xs">/</span>
-                  <span className="text-xs font-semibold text-accent capitalize whitespace-nowrap">
+                  <span className="text-ink-2/60 text-xs hidden lg:inline">/</span>
+                  <span className="text-xs font-semibold text-accent capitalize whitespace-nowrap hidden lg:inline">
                     {activeView === 'teoria'
                       ? `Teoria (${selectedSubmodule})`
                       : activeView === 'simulado'
@@ -163,7 +163,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                       ? 'Laboratório Dev'
                       : 'Painel'}
                   </span>
-                  <span className="text-[9px] uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden xl:inline-block ml-1">
+                  <span className="text-[9px] uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden 2xl:inline-block ml-1">
                     {CONCURSO_CONFIG.instituicao.sigla} · {CONCURSO_CONFIG.banca.nome}
                   </span>
                 </div>
@@ -176,7 +176,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
         {/* Center: Desktop Navigation Tabs */}
         <nav
-          className="hidden md:flex items-center gap-1 p-1 rounded-md bg-surface-2 border border-border relative shrink-0"
+          className="hidden md:flex items-center gap-0.5 lg:gap-1 p-1 rounded-md bg-surface-2 border border-border relative shrink-0"
           aria-label="Navegação principal"
         >
           {navItems.map((item) => {
@@ -185,7 +185,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               <button
                 key={item.view}
                 onClick={() => setActiveView(item.view)}
-                className={`relative px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
+                className={`relative px-2 sm:px-2.5 xl:px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
                   isActive
                     ? 'text-ink font-bold'
                     : 'text-ink-2 hover:text-ink'
@@ -221,22 +221,22 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           <button
             type="button"
             onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-            className="flex items-center gap-1.5 py-1.5 px-2 lg:px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
+            className="flex items-center gap-1.5 py-1.5 px-2 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
             title="Dicionário Técnico Cebraspe"
             aria-label="Abrir glossário e dicionário técnico"
           >
             <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs hidden xl:inline">Glossário</span>
+            <span className="font-sans text-xs hidden 2xl:inline">Glossário</span>
           </button>
           <button
             type="button"
             onClick={onOpenSearch}
-            className="flex items-center gap-1.5 py-1.5 px-2 lg:px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
+            className="flex items-center gap-1.5 py-1.5 px-2 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
             title={`Busca Global (${getSearchShortcutLabel()})`}
             aria-label="Abrir busca global"
           >
             <Search className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs hidden xl:inline">Buscar</span>
+            <span className="font-sans text-xs hidden 2xl:inline">Buscar</span>
             <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
               {getSearchShortcutLabel()}
             </span>
@@ -270,7 +270,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             </>
           )}
 
-          <ThemeToggle />
+          <ThemeToggle compact={true} />
 
           {/* Menu do Usuário com Logout, Preferências e Modo Livre (Regra C11) */}
           <UserMenuDropdown />

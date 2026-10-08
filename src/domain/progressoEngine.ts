@@ -88,14 +88,15 @@ export function obterItensVerificacaoSubmodulo(
     // A) Pares de autores
     (sub.mnemonicos.autores || []).slice(0, 3).forEach((a, idx) => {
       const nomeAutor = typeof a === 'string' ? a : a.nome;
+      const conceito = typeof a === 'object' ? a.ideiaChave || a.obraPrincipal : 'Doutrina canônica de referência';
       lista.push({
         id: `pair-${sub.numero}-${idx}`,
         submoduloNumero: sub.numero,
         moduloId,
-        texto: `Associação Autor/Conceito: ${nomeAutor}`,
+        texto: `Julgue o item a respeito da doutrina e autores de referência: ${nomeAutor} é associado ao seguinte fundamento conceitual ou obra: "${conceito}".`,
         gabarito: 'C',
         tipo: 'treino_par',
-        justificativa: typeof a === 'object' ? a.ideiaChave || a.obraPrincipal : undefined,
+        justificativa: typeof a === 'object' ? `${a.nome}${a.ano ? ` (${a.ano})` : ''}: ${a.ideiaChave || a.obraPrincipal}${a.chipPegadinha ? ` · Atenção: ${a.chipPegadinha}` : ''}` : undefined,
       });
     });
 

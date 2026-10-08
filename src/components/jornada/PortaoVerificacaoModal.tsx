@@ -303,9 +303,9 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
       >
         {/* Top bar com badge do módulo e botão fechar */}
         <div className="p-4 sm:p-5 border-b border-border flex items-center justify-between gap-3 bg-surface-2/40 shrink-0">
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2.5 min-w-0 flex-1 pr-2">
             <span
-              className="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold font-mono border"
+              className="w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold font-mono border shrink-0"
               style={{
                 backgroundColor: `${moduleTheme.primaryColor}15`,
                 borderColor: `${moduleTheme.primaryColor}30`,
@@ -314,8 +314,8 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
             >
               M{etapa.moduloNumero}
             </span>
-            <div>
-              <h2 id="portao-modal-title" className="text-base font-serif font-bold text-ink truncate">
+            <div className="min-w-0 flex-1">
+              <h2 id="portao-modal-title" className="text-sm sm:text-base font-serif font-bold text-ink leading-snug break-words">
                 {etapa.titulo}
               </h2>
               <p className="text-[11px] text-ink-2 font-mono">
