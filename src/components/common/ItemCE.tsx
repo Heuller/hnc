@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   CheckCircle2,
@@ -70,6 +70,43 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   const respostaDada = attemptAtual?.resposta;
   const isCorreto = attemptAtual?.correto;
 
+  const handleJulgamento = useCallback(
+    async (resposta: 'C' | 'E' | 'BRANCO') => {
+      if (isRespondido && !modoPraticaAtivo) return;
+
+      const subId = item.submoduloId || '1.1';
+      const modId = item.moduloId || 'm1';
+
+      const novaAttempt = await adicionarItemAttempt({
+        itemId: item.id,
+        submoduloId: subId,
+        moduloId: modId,
+        contexto,
+        resposta,
+        gabarito: item.gabarito,
+      });
+
+      if (modoPraticaAtivo) {
+        setRespostaPratica(resposta);
+      }
+
+      if (onAnswered) {
+        onAnswered(novaAttempt);
+      }
+    },
+    [
+      isRespondido,
+      modoPraticaAtivo,
+      item.submoduloId,
+      item.moduloId,
+      item.id,
+      item.gabarito,
+      adicionarItemAttempt,
+      contexto,
+      onAnswered,
+    ]
+  );
+
   // Atalhos de teclado (C, E, B) desativados se focado em campos de texto (WCAG 2.1.4)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -92,31 +129,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [item.id, isRespondido, modoPraticaAtivo]);
-
-  const handleJulgamento = async (resposta: 'C' | 'E' | 'BRANCO') => {
-    if (isRespondido && !modoPraticaAtivo) return;
-
-    const subId = item.submoduloId || '1.1';
-    const modId = item.moduloId || 'm1';
-
-    const novaAttempt = await adicionarItemAttempt({
-      itemId: item.id,
-      submoduloId: subId,
-      moduloId: modId,
-      contexto,
-      resposta,
-      gabarito: item.gabarito,
-    });
-
-    if (modoPraticaAtivo) {
-      setRespostaPratica(resposta);
-    }
-
-    if (onAnswered) {
-      onAnswered(novaAttempt);
-    }
-  };
+  }, [handleJulgamento]);
 
   const handleIniciarPratica = () => {
     setModoPraticaAtivo(true);

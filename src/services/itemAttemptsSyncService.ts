@@ -159,7 +159,7 @@ class ItemAttemptsSyncService {
       }
 
       return { success: true, syncedWithServer: true };
-    } catch (err) {
+    } catch {
       this.enfileirarOffline(attempt);
       return { success: true, syncedWithServer: false };
     }

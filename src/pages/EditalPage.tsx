@@ -13,9 +13,11 @@ import { EDITAL_CAMARA_2026 } from '../domain/edital/matrizEdital2026';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { Button } from '../components/common/Button';
 
+const EIXOS_EDITAL = EDITAL_CAMARA_2026.eixos || [];
+
 export const EditalPage: React.FC = () => {
   const { setActiveView } = useNavigationStore();
-  const eixos = EDITAL_CAMARA_2026.eixos || [];
+  const eixos = EIXOS_EDITAL;
   const [eixoAberto, setEixoAberto] = useState<string | null>(eixos[0]?.id || null);
   const [filtroTipo, setFiltroTipo] = useState<'todos' | 'basico' | 'especifico'>('todos');
 
@@ -29,17 +31,17 @@ export const EditalPage: React.FC = () => {
 
   const eixosFiltrados = useMemo(() => {
     if (filtroTipo === 'basico') {
-      return eixos.filter((e) => e.bloco === 'CONHECIMENTOS_BASICOS');
+      return EIXOS_EDITAL.filter((e) => e.bloco === 'CONHECIMENTOS_BASICOS');
     }
     if (filtroTipo === 'especifico') {
-      return eixos.filter((e) => e.bloco === 'CONHECIMENTOS_ESPECIFICOS');
+      return EIXOS_EDITAL.filter((e) => e.bloco === 'CONHECIMENTOS_ESPECIFICOS');
     }
-    return eixos;
-  }, [eixos, filtroTipo]);
+    return EIXOS_EDITAL;
+  }, [filtroTipo]);
 
   const totalTopicos = useMemo(() => {
-    return eixos.reduce((acc, e) => acc + (e.topicos ? e.topicos.length : 0), 0);
-  }, [eixos]);
+    return EIXOS_EDITAL.reduce((acc, e) => acc + (e.topicos ? e.topicos.length : 0), 0);
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto space-y-8 pb-16 animate-in fade-in duration-200">

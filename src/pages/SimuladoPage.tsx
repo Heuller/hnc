@@ -198,7 +198,7 @@ export const SimuladoPage: React.FC = () => {
 
   useEffect(() => {
     setTempoGasto(sessaoAtual.tempoGastoSegundos || 0);
-  }, [selectedSimuladoId]);
+  }, [selectedSimuladoId, sessaoAtual.tempoGastoSegundos]);
 
   useEffect(() => {
     const timer = setInterval(() => {

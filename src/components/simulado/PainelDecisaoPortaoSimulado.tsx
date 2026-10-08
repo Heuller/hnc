@@ -48,7 +48,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
 
   // Itens errados nesta execução
   const itensErradosIds = Object.entries(relatorioFinal.respostas || {})
-    .filter(([_, r]) => r.resposta !== 'BRANCO' && !r.acertou)
+    .filter(([, r]) => r.resposta !== 'BRANCO' && !r.acertou)
     .map(([qId]) => qId);
 
   const handleIrParaProximoModulo = () => {
