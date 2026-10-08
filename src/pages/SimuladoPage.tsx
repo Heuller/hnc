@@ -27,6 +27,7 @@ import {
   ArrowRight,
   Printer,
   BookOpen,
+  Keyboard,
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 
@@ -140,6 +141,9 @@ export const SimuladoPage: React.FC = () => {
 
   const [relatorioFinal, setRelatorioFinal] = useState<SimuladoFinalizado | null>(null);
   const [isAnswerSheetMobileOpen, setIsAnswerSheetMobileOpen] = useState(false);
+  const [categoriaSimuladoFiltro, setCategoriaSimuladoFiltro] = useState<
+    'todos' | 'especificos' | 'basicos' | 'especiais'
+  >('todos');
 
   // Seleção de simulado ativo com restauração resiliente de sessão
   const initialSimuladoId = () => {
@@ -353,42 +357,106 @@ export const SimuladoPage: React.FC = () => {
     handleNovoSimulado();
   };
 
+  const simuladosFiltrados = ALL_SIMULADOS_REGISTRY.filter((sim) => {
+    if (categoriaSimuladoFiltro === 'especificos') {
+      return sim.numero >= 1 && sim.numero <= 10 && sim.id !== 'mini-modulo-orgaos';
+    }
+    if (categoriaSimuladoFiltro === 'basicos') {
+      return sim.numero >= 11 && sim.numero <= 14;
+    }
+    if (categoriaSimuladoFiltro === 'especiais') {
+      return sim.id === 'mega-simulado-camara' || sim.id === 'mini-modulo-orgaos';
+    }
+    return true;
+  });
+
   const renderSimuladoSelector = () => (
-    <div className="flex flex-wrap items-center gap-2 p-1.5 bg-surface rounded-xl border border-border shadow-xs">
-      <span className="font-mono text-xs font-bold text-ink-2 px-2 uppercase tracking-wider hidden sm:inline">
-        Simulado:
-      </span>
-      {ALL_SIMULADOS_REGISTRY.map((sim) => {
-        const isSelected = sim.id === selectedSimuladoId;
-        const isMini = sim.id === 'mini-modulo-orgaos';
-        return (
-          <button
-            key={sim.id}
-            type="button"
-            onClick={() => {
-              if (sim.id !== selectedSimuladoId) {
-                salvarTempoSimulado(selectedSimuladoId, tempoGasto);
-                setSelectedSimuladoId(sim.id);
-                setSimuladoAtivoId(sim.id);
-              }
-            }}
-            className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
-              isSelected
-                ? 'bg-accent text-white shadow-xs'
-                : 'text-ink-2 hover:text-ink hover:bg-surface-2'
-            } ${isMini ? 'border border-emerald-500/30' : ''}`}
-          >
-            <span>{isMini ? '⭐ ' : ''}{sim.tituloCurto}</span>
-            <span
-              className={`font-mono text-[10px] px-1.5 py-0.2 rounded ${
-                isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
-              }`}
+    <div className="space-y-2 w-full">
+      {/* Abas de Categorias */}
+      <div className="flex items-center gap-1.5 p-1 bg-surface-2 rounded-xl border border-border w-fit text-xs font-sans overflow-x-auto max-w-full">
+        <button
+          type="button"
+          onClick={() => setCategoriaSimuladoFiltro('todos')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+            categoriaSimuladoFiltro === 'todos'
+              ? 'bg-surface text-ink shadow-xs border border-border'
+              : 'text-ink-2 hover:text-ink'
+          }`}
+        >
+          Todos ({ALL_SIMULADOS_REGISTRY.length})
+        </button>
+        <button
+          type="button"
+          onClick={() => setCategoriaSimuladoFiltro('especificos')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+            categoriaSimuladoFiltro === 'especificos'
+              ? 'bg-surface text-ink shadow-xs border border-border'
+              : 'text-ink-2 hover:text-ink'
+          }`}
+        >
+          Específicos · M1 a M10 (10)
+        </button>
+        <button
+          type="button"
+          onClick={() => setCategoriaSimuladoFiltro('basicos')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+            categoriaSimuladoFiltro === 'basicos'
+              ? 'bg-surface text-ink shadow-xs border border-border'
+              : 'text-ink-2 hover:text-ink'
+          }`}
+        >
+          Básicos · M11 a M14 (4)
+        </button>
+        <button
+          type="button"
+          onClick={() => setCategoriaSimuladoFiltro('especiais')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition-all cursor-pointer whitespace-nowrap ${
+            categoriaSimuladoFiltro === 'especiais'
+              ? 'bg-surface text-ink shadow-xs border border-border'
+              : 'text-ink-2 hover:text-ink'
+          }`}
+        >
+          Mega & Especiais (2)
+        </button>
+      </div>
+
+      {/* Grade de Pílulas de Seleção */}
+      <div className="flex flex-wrap items-center gap-2 p-1.5 bg-surface rounded-xl border border-border shadow-xs">
+        <span className="font-mono text-xs font-bold text-ink-2 px-2 uppercase tracking-wider hidden sm:inline">
+          Simulado:
+        </span>
+        {simuladosFiltrados.map((sim) => {
+          const isSelected = sim.id === selectedSimuladoId;
+          const isMini = sim.id === 'mini-modulo-orgaos';
+          return (
+            <button
+              key={sim.id}
+              type="button"
+              onClick={() => {
+                if (sim.id !== selectedSimuladoId) {
+                  salvarTempoSimulado(selectedSimuladoId, tempoGasto);
+                  setSelectedSimuladoId(sim.id);
+                  setSimuladoAtivoId(sim.id);
+                }
+              }}
+              className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
+                isSelected
+                  ? 'bg-accent text-white shadow-xs'
+                  : 'text-ink-2 hover:text-ink hover:bg-surface-2'
+              } ${isMini ? 'border border-emerald-500/30' : ''}`}
             >
-              {sim.questoes.length}Q
-            </span>
-          </button>
-        );
-      })}
+              <span>{isMini ? '⭐ ' : ''}{sim.tituloCurto}</span>
+              <span
+                className={`font-mono text-[10px] px-1.5 py-0.2 rounded ${
+                  isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
+                }`}
+              >
+                {sim.questoes.length}Q
+              </span>
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 
@@ -1363,6 +1431,29 @@ export const SimuladoPage: React.FC = () => {
             </button>
           </div>
         </nav>
+
+        {/* Barra de Auxílio Visual: Atalhos de Teclado no Desktop */}
+        <div className="hidden md:flex items-center justify-between px-3.5 py-2 rounded-xl bg-surface-2/60 border border-border text-[11px] font-sans text-ink-2">
+          <span className="font-semibold text-ink flex items-center gap-1.5">
+            <Keyboard className="w-3.5 h-3.5 text-accent" />
+            <span>Atalhos Rápidos de Teclado:</span>
+          </span>
+          <div className="flex items-center gap-3 font-mono">
+            <span className="flex items-center gap-1">
+              <Kbd>C</Kbd> <span className="text-ok font-semibold">Certo</span>
+            </span>
+            <span className="flex items-center gap-1">
+              <Kbd>E</Kbd> <span className="text-err font-semibold">Errado</span>
+            </span>
+            <span className="flex items-center gap-1">
+              <Kbd>B</Kbd> <span>Em Branco</span>
+            </span>
+            <span className="text-border">|</span>
+            <span className="flex items-center gap-1">
+              <Kbd>←</Kbd> <Kbd>→</Kbd> <span>Navegar</span>
+            </span>
+          </div>
+        </div>
       </main>
 
       {/* Coluna Lateral da Folha de Respostas no Desktop */}

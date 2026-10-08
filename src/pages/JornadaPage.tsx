@@ -12,6 +12,7 @@ import {
   ChevronRight,
   ShieldCheck,
   ArrowRight,
+  Unlock,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
@@ -113,12 +114,17 @@ export const JornadaPage: React.FC = () => {
             </Button>
 
             <Button
-              variant={modoLivre ? 'primary' : 'ghost'}
+              variant={modoLivre ? 'primary' : 'outline'}
               size="sm"
               onClick={handleToggleModoLivre}
-              className={`text-xs ${modoLivre ? 'bg-amber-600 hover:bg-amber-700 text-white' : ''}`}
+              className={`flex items-center gap-1.5 text-xs transition-colors ${
+                modoLivre
+                  ? 'bg-amber-600 hover:bg-amber-700 text-white border-amber-600'
+                  : 'text-ink-2 hover:text-ink'
+              }`}
             >
-              {modoLivre ? 'Desativar Modo Livre' : 'Modo Livre'}
+              <Unlock className={`w-3.5 h-3.5 ${modoLivre ? 'text-white' : 'text-amber-600 dark:text-amber-400'}`} />
+              <span>{modoLivre ? 'Desativar Modo Livre' : 'Modo Livre'}</span>
             </Button>
           </div>
         </div>
@@ -395,7 +401,10 @@ export const JornadaPage: React.FC = () => {
                             )}
                           </div>
 
-                          <h3 className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2">
+                          <h3
+                            className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2 min-h-[2.5rem]"
+                            title={sub.titulo}
+                          >
                             {sub.titulo_curto || sub.titulo}
                           </h3>
 
@@ -699,7 +708,10 @@ export const JornadaPage: React.FC = () => {
                             </span>
                           </div>
 
-                          <h3 className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2">
+                          <h3
+                            className="text-xs sm:text-sm font-serif font-bold text-ink line-clamp-2 min-h-[2.5rem]"
+                            title={sub.titulo}
+                          >
                             {sub.titulo_curto || sub.titulo}
                           </h3>
                         </div>

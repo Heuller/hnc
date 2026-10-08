@@ -117,7 +117,7 @@ export const UserMenuDropdown: React.FC = () => {
         <div
           role="menu"
           aria-labelledby="user-menu-trigger"
-          className="absolute right-0 top-12 z-50 w-64 rounded-xl bg-surface border border-border shadow-xl p-2 space-y-1 text-xs font-sans text-ink animate-fadeIn"
+          className="absolute right-0 top-12 z-50 w-72 sm:w-80 rounded-xl bg-surface border border-border shadow-xl p-2 space-y-1 text-xs font-sans text-ink animate-fadeIn"
         >
           {/* Cabeçalho do Usuário */}
           <div className="px-3 py-2 border-b border-border/60">

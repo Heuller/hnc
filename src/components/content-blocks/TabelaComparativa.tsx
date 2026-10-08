@@ -83,25 +83,34 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
             </tr>
           </thead>
           <tbody className="divide-y divide-theme">
-            {linhas.map((row, rIdx) => (
-              <tr
-                key={rIdx}
-                className="hover:bg-theme-surface-2/40 transition-colors"
-              >
-                {row.map((cell, cIdx) => (
-                  <td
-                    key={cIdx}
-                    className={`p-3.5 leading-relaxed border-r border-theme last:border-r-0 align-top ${
-                      cIdx === 0
-                        ? 'font-bold text-theme-ink bg-theme-surface sticky left-0 z-10 font-sans shadow-[2px_0_4px_rgba(0,0,0,0.04)]'
-                        : 'font-serif-reading text-theme-ink'
-                    }`}
-                  >
-                    {cell}
-                  </td>
-                ))}
-              </tr>
-            ))}
+            {linhas.map((row, rIdx) => {
+              const isEven = rIdx % 2 === 1;
+              return (
+                <tr
+                  key={rIdx}
+                  className={`transition-colors ${
+                    isEven
+                      ? 'bg-theme-surface-2/30 hover:bg-theme-surface-2/60'
+                      : 'bg-transparent hover:bg-theme-surface-2/40'
+                  }`}
+                >
+                  {row.map((cell, cIdx) => (
+                    <td
+                      key={cIdx}
+                      className={`p-3.5 leading-relaxed border-r border-theme last:border-r-0 align-top ${
+                        cIdx === 0
+                          ? `font-bold text-theme-ink sticky left-0 z-10 font-sans shadow-[2px_0_4px_rgba(0,0,0,0.04)] ${
+                              isEven ? 'bg-theme-surface-2/60' : 'bg-theme-surface'
+                            }`
+                          : 'font-serif-reading text-theme-ink'
+                      }`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

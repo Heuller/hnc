@@ -124,14 +124,17 @@ export const Sidebar: React.FC = () => {
                   className="mt-0.5"
                 />
 
-                {/* Tooltip flutuante no hover */}
-                <div className="absolute left-[54px] top-1/2 -translate-y-1/2 bg-surface text-ink text-xs font-sans rounded-lg p-2.5 shadow-lg border border-border whitespace-nowrap opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity z-50">
-                  <div className="flex items-center gap-1.5 mb-1">
-                    <ModuleBadge moduleId={modulo.id} size="sm" />
-                    <span className="font-bold">{modulo.titulo}</span>
-                  </div>
-                  <div className="text-[11px] text-ink-2">
-                    {completedSubs} de {totalSubs} submódulos concluídos ({moduloPercent}%)
+                {/* Tooltip flutuante no hover com indicador direcional */}
+                <div className="absolute left-[54px] top-1/2 -translate-y-1/2 bg-surface text-ink text-xs font-sans rounded-xl p-2.5 shadow-xl border border-border whitespace-nowrap opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all z-50">
+                  <div className="absolute -left-1.5 top-1/2 -translate-y-1/2 w-3 h-3 bg-surface border-l border-b border-border rotate-45" />
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <ModuleBadge moduleId={modulo.id} size="sm" />
+                      <span className="font-bold">{modulo.titulo}</span>
+                    </div>
+                    <div className="text-[11px] text-ink-2 font-mono">
+                      {completedSubs} de {totalSubs} submódulos concluídos ({moduloPercent}%)
+                    </div>
                   </div>
                 </div>
               </button>
@@ -296,7 +299,7 @@ export const Sidebar: React.FC = () => {
           </div>
           <span
             className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
-            title="10 Conhecimentos Específicos + 3 Complementares"
+            title="10 Específicos (M1 a M10) + 4 Básicos (M11 a M14) + Mini-Módulo 2.5 (15 Blocos no Total)"
           >
             {ALL_COURSE_MODULES.length} Blocos
           </span>

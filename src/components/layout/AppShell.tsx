@@ -153,6 +153,23 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
   return (
     <div className="min-h-screen bg-theme-bg text-theme-ink flex flex-col font-sans transition-colors duration-200">
       <SkipLink />
+      {emModoFoco && (
+        <aside
+          aria-label="Indicador do Modo Foco"
+          className="fixed top-3 right-4 z-50 flex items-center gap-2 bg-theme-surface/90 backdrop-blur-md border border-border px-3.5 py-1.5 rounded-full shadow-lg text-xs font-sans animate-fadeIn select-none"
+        >
+          <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
+          <span className="text-theme-ink font-medium hidden sm:inline">Modo Foco Ativo</span>
+          <button
+            type="button"
+            onClick={() => setFocusMode(false)}
+            className="text-[11px] font-mono text-theme-ink-2 hover:text-theme-ink hover:underline cursor-pointer flex items-center gap-1 ml-1"
+            title="Sair do Modo Foco (Pressione Esc ou F)"
+          >
+            <span>Sair (<Kbd>Esc</Kbd>)</span>
+          </button>
+        </aside>
+      )}
       {!emModoFoco && <Header onOpenSearch={() => setIsSearchOpen(true)} />}
 
       <div className={`flex-1 flex w-full mx-auto ${emModoFoco ? 'max-w-5xl' : 'max-w-7xl'}`}>

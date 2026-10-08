@@ -81,14 +81,14 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Simulados Oficiais Cebraspe (100Q)</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Baterias canônicas de 100 itens inéditos comentados por macro-módulo (M1 a M10), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
+                Baterias canônicas de itens inéditos comentados cobrindo os módulos de Conhecimentos Específicos (M1 a M10), Básicos (M11 a M14) e Mega Simulado Oficial (120Q), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
               </p>
             </div>
 
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
               <span>{simuladosConcluidosCount > 0 ? 'Simulados finalizados:' : 'Acervo disponível:'}</span>
               <span className="font-mono font-bold text-ink">
-                {simuladosConcluidosCount > 0 ? `${simuladosConcluidosCount} de ${totalSimuladosDisponiveis} cadernos` : '10 cadernos temáticos (1.000 itens)'}
+                {simuladosConcluidosCount > 0 ? `${simuladosConcluidosCount} de ${totalSimuladosDisponiveis} cadernos` : `${totalSimuladosDisponiveis} cadernos temáticos (${totalQuestoesSimulados.toLocaleString('pt-BR')} itens)`}
               </span>
             </div>
           </div>
