@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
+import { EditorialDiagram } from './EditorialDiagram';
 
 interface MarkdownRendererProps {
   content: string;
@@ -66,6 +67,17 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
             />
           ),
           code: ({ className: codeClass, children, ...props }) => {
+            const rawContent = String(children || '').trim();
+            const isMermaid =
+              Boolean(codeClass && (codeClass.includes('language-mermaid') || codeClass.includes('mermaid'))) ||
+              rawContent.startsWith('graph ') ||
+              rawContent.startsWith('flowchart ') ||
+              rawContent.startsWith('subgraph ');
+
+            if (isMermaid) {
+              return <EditorialDiagram code={rawContent} />;
+            }
+
             const isInline = !codeClass;
             if (isInline) {
               return (

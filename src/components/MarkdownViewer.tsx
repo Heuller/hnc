@@ -2,6 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Lightbulb, AlertTriangle, Bookmark, BookOpen, CheckCircle2, MoveHorizontal } from 'lucide-react';
+import { EditorialDiagram } from './common/EditorialDiagram';
 
 export interface MarkdownViewerProps {
   content: string;
@@ -189,15 +190,40 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
               </div>
             );
           },
-          code: ({ children }) => (
-            <code className={`px-1.5 py-0.5 font-mono text-xs font-semibold rounded-md border ${
-              isDark 
-                ? 'bg-slate-800 text-teal-300 border-slate-700' 
-                : 'bg-slate-100 text-indigo-700 border-slate-200'
-            }`}>
-              {children}
-            </code>
-          ),
+          code: ({ className: codeClass, children, ...props }: any) => {
+            const rawContent = String(children || '').trim();
+            const isMermaid =
+              Boolean(codeClass && (codeClass.includes('language-mermaid') || codeClass.includes('mermaid'))) ||
+              rawContent.startsWith('graph ') ||
+              rawContent.startsWith('flowchart ') ||
+              rawContent.startsWith('subgraph ');
+
+            if (isMermaid) {
+              return <EditorialDiagram code={rawContent} isDark={isDark} />;
+            }
+
+            const isInline = !codeClass;
+            if (isInline) {
+              return (
+                <code
+                  className={`px-1.5 py-0.5 font-mono text-xs font-semibold rounded-md border ${
+                    isDark 
+                      ? 'bg-slate-800 text-teal-300 border-slate-700' 
+                      : 'bg-slate-100 text-indigo-700 border-slate-200'
+                  }`}
+                  {...props}
+                >
+                  {children}
+                </code>
+              );
+            }
+
+            return (
+              <pre className="font-mono text-xs md:text-sm bg-surface-2 p-4 rounded-xl border border-border overflow-x-auto my-4 text-ink">
+                <code {...props}>{children}</code>
+              </pre>
+            );
+          },
           hr: () => (
             <hr className={`my-6 ${isDark ? 'border-slate-800' : 'border-slate-200/80'}`} />
           ),
