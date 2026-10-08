@@ -56,12 +56,12 @@ A mais célebre ruptura técnica do RDA com o AACR2r foi a **abolição definiti
 
 O RDA substituiu a DGM pela decomposição analítica em **três atributos fundamentais independentes**, codificados no formato MARC 21 nos campos 336, 337 e 338:
 
-\`\`\`mermaid
-graph LR
-    DGM["Antiga DGM do AACR2r: [recurso eletrônico]"] -->|Decomposta pelo RDA em 3 Dimensões| T["Trio Analítico Canônico"]
-    T --> C["1. Tipo de Conteúdo (MARC 336): O QUE é a mensagem?"]
-    T --> M["2. Tipo de Mídia (MARC 337): QUAL aparelho é exigido?"]
-    T --> S["3. Tipo de Suporte (MARC 338): ONDE está armazenado?"]
+\`\`\`tree
+TITLE: Decomposição da DGM no Trio RDA / MARC 21 (Campos 336, 337 e 338)
+- Abolição da DGM do AACR2r | Fim de termos genéricos confusos como [recurso eletrônico]
+  - 1. Tipo de Conteúdo (MARC 336) | O QUE é a mensagem intelectual expressa (ex: texto $b txt, imagem estática $b sti)
+  - 2. Tipo de Mídia (MARC 337) | QUAL dispositivo é exigido para mediar o acesso (ex: não mediado $b n, computador $b c)
+  - 3. Tipo de Suporte (MARC 338) | ONDE fisicamente o recurso está corporificado (ex: volume $b nc, recurso online $b cr)
 \`\`\`
 
 #### A. Detalhamento Técnico do Trio de Campos MARC 21 / RDA:

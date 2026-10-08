@@ -31,16 +31,16 @@ export const submodulo102: ModuloFilho = {
 
 O processo legislativo é o conjunto coordenado e sucessivo de atos e procedimentos solenemente prescritos pela Constituição Federal (Arts. 59 a 69) para a elaboração das normas jurídicas estatais primárias (Silva, 2021; Ferreira Filho, 2020):
 
-\`\`\`mermaid
-flowchart TD
-    CF["Processo Legislativo Constitucional (Art. 59 da CF/88)"]
-    CF --> E1["1. Emendas à Constituição (PECs - Art. 60)"]
-    CF --> E2["2. Leis Complementares (PLPs - Art. 69)"]
-    CF --> E3["3. Leis Ordinárias (PLs - Arts. 61 a 67)"]
-    CF --> E4["4. Leis Delegadas (Art. 68)"]
-    CF --> E5["5. Medidas Provisórias (MPVs - Art. 62)"]
-    CF --> E6["6. Decretos Legislativos (PDCs - Art. 49)"]
-    CF --> E7["7. Resoluções (PRSs - Arts. 51 e 52)"]
+\`\`\`tree
+TITLE: Espécies Normativas no Processo Legislativo (Art. 59 da CF/88)
+- Processo Legislativo Constitucional | Artigo 59 da Constituição Federal de 1988
+  - 1. Emendas à Constituição (PECs) | Art. 60 • Reforma constitucional, quórum de 3/5 em 2 turnos, sem sanção presidencial
+  - 2. Leis Complementares (PLPs) | Art. 69 • Matérias taxativas na CF, aprovadas por maioria absoluta (257 CD / 41 SF)
+  - 3. Leis Ordinárias (PLs) | Arts. 61 a 67 • Campo residual/comum, aprovadas por maioria simples (presente maioria absoluta)
+  - 4. Leis Delegadas | Art. 68 • Elaboradas pelo Presidente da República mediante autorização expressa do Congresso
+  - 5. Medidas Provisórias (MPVs) | Art. 62 • Ato do Presidente com força de lei (urgência e relevância), 60+60 dias
+  - 6. Decretos Legislativos (PDCs) | Art. 49 • Competência exclusiva do Congresso Nacional (tratados, contas), sem veto
+  - 7. Resoluções (PRSs) | Arts. 51 e 52 • Competência privativa da Câmara ou do Senado (regimentos, economia interna)
 \`\`\`
 
 ---
@@ -93,13 +93,14 @@ As Emendas Constitucionais são fruto do **Poder Constituinte Derivado Reformado
 
 ### 3. As Fases da Tramitação do Processo Legislativo Ordinário
 
-\`\`\`mermaid
-flowchart TD
-    F1["1. FASE DE INICIATIVA<br/>• Parlamentar (Deputado / Senador / Comissão)<br/>• Privativa do Presidente (Servidores / Forças Armadas / Orçamento)<br/>• Popular (1% eleitorado em 5 estados com 0,3% cada)"]
-    F2["2. FASE CONSTITUTIVA (Deliberação Parlamentar)<br/>• Casa Iniciadora (Câmara) -> Comissões (CCJC, Mérito) -> Plenário<br/>• Casa Revisora (Senado) -> Aprova, Rejeita ou Emenda<br/>• Se emendado no Senado -> Retorna à Câmara exclusivamente para avaliar emendas"]
-    F3["3. FASE CONSTITUTIVA EXECUTIVA (Sanção ou Veto)<br/>• Sanção (Expressa ou Tácita em 15 dias úteis)<br/>• Veto (Total ou Parcial / Jurídico ou Político)<br/>• Derrubada de Veto: Maioria Absoluta Conjunta de Deputados e Senadores"]
-    F4["4. FASE COMPLEMENTAR<br/>• Promulgação (Atesta existência e validade formal da lei)<br/>• Publicação no DOU (Garante vigência e eficácia perante a sociedade)"]
-    F1 --> F2 --> F3 --> F4
+\`\`\`timeline
+F1 | 1. Fase de Iniciativa | Deflagração do Processo | Parlamentar (Deputado/Senador/Comissão), Privativa do Presidente (órgãos, Forças Armadas, orçamento) ou Popular (1% eleitorado nacional em pelo menos 5 estados).
+---> Tramitação Parlamentar
+F2 | 2. Fase Constitutiva (Deliberação) | Câmara dos Deputados & Senado | Casa Iniciadora (Comissões temáticas + CCJC + Plenário) e Casa Revisora (aprova, rejeita ou emenda com retorno à iniciadora).
+---> Envio ao Poder Executivo
+F3 | 3. Fase Constitutiva Executiva | Sanção ou Veto Presidencial | Prazo de 15 dias úteis: Sanção (expressa ou tácita) ou Veto (total/parcial; político/jurídico). Derrubada de veto por maioria absoluta conjunta.
+---> Convalidação e Eficácia
+F4 | 4. Fase Complementar | Promulgação e Publicação | Promulgação atesta a existência jurídica da lei; publicação oficial no Diário Oficial da União (DOU) assegura vigência e eficácia pública.
 \`\`\`
 
 * **Iniciativa Popular de Leis (Art. 61, § 2º da CF/88):**

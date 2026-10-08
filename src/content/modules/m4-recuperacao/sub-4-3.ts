@@ -29,11 +29,12 @@ export const submodulo43: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. O Tripé Estruturante da Informação Jurídica no Parlamento
 A informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo da tomada de decisão e do controle de constitucionalidade no Congresso Nacional (**Edilenice Passos, 2014; Ana Cláudia Carvalho de Miranda, 2013**):
 
-\`\`\`mermaid
-graph TD
-    IJ["INFORMAÇÃO JURÍDICA INTEGRADA"] --> LEG["1. LEGISLAÇÃO (Normativa / Prescritiva)<br>Atos estatais, normas gerais e processo legislativo"]
-    IJ --> JUR["2. JURISPRUDÊNCIA (Interpretativa / Casuística)<br>Decisões reiteradas dos tribunais e súmulas"]
-    IJ --> DOU["3. DOUTRINA (Analítica / Científica)<br>Estudos teóricos, teses, tratados e artigos de juristas"]
+\`\`\`tree
+TITLE: Tripé Estruturante da Informação Jurídica
+- Informação Jurídica Integrada | Sustentáculo da tomada de decisão e do controle de constitucionalidade
+  - 1. Legislação (Normativa / Prescritiva) | Atos estatais, normas gerais e processo legislativo (CF, leis, MPs, decretos)
+  - 2. Jurisprudência (Interpretativa / Casuística) | Decisões reiteradas dos tribunais, acórdãos e súmulas vinculantes do STF
+  - 3. Doutrina (Analítica / Científica) | Estudos teóricos, teses, tratados e artigos de juristas especializados
 \`\`\`
 
 #### A. O Tripé Informacional Canônico

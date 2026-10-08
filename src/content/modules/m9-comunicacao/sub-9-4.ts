@@ -28,13 +28,13 @@ export const submodulo94: ModuloFilho = {
 
 O campo dos estudos métricos desenvolveu-se historicamente para quantificar a produção, a circulação e o uso da informação registrada, ramificando-se em quatro subdisciplinas com fronteiras epistemológicas bem definidas pela literatura e cobradas pelo Cebraspe:
 
-\`\`\`mermaid
-flowchart TD
-    INF["INFORMETRIA (Otto Nacke, 1979)<br/>Mensuração de qualquer informação em qualquer suporte e fluxo (formal e informal)"]
-    INF --> SCI["CIENTOMETRIA (Vasily Nalimov & Solla Price, 1969)<br/>Estudo quantitativo da ciência como atividade social e políticas públicas (Science Policy)"]
-    INF --> BIB["BIBLIOMETRIA (Paul Otlet, 1934 / Alan Pritchard, 1969)<br/>Estudo estatístico e matemático de livros, periódicos, artigos e documentos registrados"]
-    BIB --> WEB["WEBOMETRIA / CIBERMETRIA (Almind & Ingwersen, 1997)<br/>Estrutura de links, hiperlinks e nós na World Wide Web"]
-    BIB --> ALT["ALTMETRIA (Jason Priem et al., 2010)<br/>Métricas alternativas de atenção social em tempo real (redes sociais, blogs, Wikipédia, políticas públicas)"]
+\`\`\`tree
+TITLE: Disciplinas Métricas da Informação e Suas Fronteiras
+- Informetria (Otto Nacke, 1979) | Superconjunto: mensuração de qualquer fluxo informacional (formal e informal) em qualquer suporte
+  - Cientometria (Nalimov & Price, 1969) | Estudo quantitativo da ciência como atividade social e insumo para políticas científicas (Science Policy)
+  - Bibliometria (Otlet, 1934 / Pritchard, 1969) | Aplicação matemática e estatística sobre livros, periódicos, artigos e documentos registrados
+    - Webometria / Cibermetria (Almind & Ingwersen, 1997) | Análise quantitativa de nós, sítios eletrônicos e redes de hiperlinks na World Wide Web
+    - Altmetria (Jason Priem et al., 2010) | Métricas de atenção e impacto social imediato em redes sociais, blogs, Wikipédia e políticas públicas
 \`\`\`
 
 * **Bibliometria:** Termo cunhado por **Paul Otlet** em 1934 (*Traité de Documentation*) e consolidado no ocidente por **Alan Pritchard** em 1969 (*Statistical bibliography or bibliometrics?*). Aplica técnicas estatísticas e matemáticas a livros, artigos, periódicos e suportes físicos/digitais registrados.
@@ -54,13 +54,12 @@ Samuel Clement Bradford estudou a distribuição de artigos sobre tópicos espec
   $$1 : n : n^2 : n^3 \\dots$$
   Onde $1$ representa a quantidade de revistas no núcleo central, e $n$ é o multiplicador constante de Bradford.
 
-\`\`\`mermaid
-flowchart TD
-    subgraph Bradford["Lei de Bradford: Mesma quantidade de artigos por zona"]
-        Z1["Núcleo (Core): Poucas revistas especializadas (Ex: 5 revistas = 100 artigos)"]
-        Z2["Zona 2: Número intermediário de revistas (Ex: 5 x n = 25 revistas = 100 artigos)"]
-        Z3["Zona 3: Enorme dispersão de revistas gerais (Ex: 5 x n² = 125 revistas = 100 artigos)"]
-    end
+\`\`\`timeline
+Z1 | Núcleo Central (Core) | Proporção: 1 | Poucos títulos de periódicos altamente especializados que concentram 1/3 do total de artigos da área
+---> Dispersão Geométrica (multiplicador n)
+Z2 | Zona 2: Intermediária | Proporção: 1 × n | Quantidade moderada de periódicos correlatos publicando a mesma quantidade total de artigos que o núcleo
+---> Dispersão Máxima (multiplicador n²)
+Z3 | Zona 3: Periferia Dispersa | Proporção: 1 × n² | Grande massa de periódicos gerais ou de outras áreas, cada um publicando raros artigos sobre o tema
 \`\`\`
 
 * *Aplicação Prática no Parlamento e em Bibliotecas:* A Lei de Bradford fundamenta a **política de seleção, aquisição racional e desbaste/cancelamento de assinaturas**. Um bibliotecário da Câmara dos Deputados adquire apenas as revistas do núcleo de Direito Constitucional, assegurando o acesso à grande maioria dos artigos essenciais ao menor custo financeiro.
@@ -82,13 +81,12 @@ O linguista norte-americano George Kingsley Zipf analisou obras em linguagem nat
   $$r \\times f = C$$
 * **Ponto de Transição de Goffman e Zona de Indexação (H. P. Luhn e F. W. Lancaster):**
 
-\`\`\`mermaid
-flowchart TD
-    subgraph Zipf["Distribuição de Palavras em Textos Longos (Zipf)"]
-        ZTopo["ALTA FREQUÊNCIA (Topo): Palavras gramaticais / Stop words<br/>('de', 'a', 'em', 'que', 'o') -> VALOR SEMÂNTICO NULO"]
-        ZMeio["FREQUÊNCIA INTERMEDIÁRIA (Zona de Luhn / Transição de Goffman)<br/>Palavras conceituais e temáticas relevantes -> ZONA IDEAL PARA INDEXAÇÃO"]
-        ZBase["BAIXA FREQUÊNCIA (Base): Palavras raras / Ocorrência única<br/>('Hapax legomena') -> RUÍDO OU ESPECIFICIDADE EXCESSIVA"]
-    end
+\`\`\`timeline
+ZTOPO | 1. Alta Frequência (Topo) | Stop Words Gramaticais | Palavras funcionais de altíssima frequência ('de', 'a', 'em', 'que') com valor semântico e discriminatório NULO
+---> Transição para a Faixa Ótima
+ZMEIO | 2. Frequência Intermediária | Zona de Luhn / Ponto de Goffman | Termos conceituais e temáticos substantivos: ZONA IDEAL PARA INDEXAÇÃO e extração de descritores
+---> Cauda Longa de Frequência
+ZBASE | 3. Baixa Frequência (Base) | Hapax Legomena | Palavras raras de ocorrência única: termos com especificidade excessiva ou ruído textual desprezível
 \`\`\`
 
 * *Aplicação na Indexação Automática:* Sistemas de busca e representação temática descartam automaticamente o topo (*stop words*) e a base (*hapax legomena*), extraindo os descritores e termos autorizados preferencialmente da **faixa intermediária de frequência**.
@@ -126,10 +124,18 @@ Formulado pelo físico argentino Jorge E. Hirsch para mensurar a produtividade e
   * Artigo 7: 4 citações $< 7$ (Interrupção!)
   * *Resultado:* O autor possui **índice h = 6** (possui 6 artigos com pelo menos 6 citações).
 
-\`\`\`mermaid
-flowchart LR
-    A["Vantagens do Índice h:<br/>• Combina volume e impacto<br/>• Insensível a 'outliers' isolados<br/>• Fácil de calcular"]
-    B["Limitações do Índice h (Cebraspe):<br/>• Favorece carreiras longevas (senilidade)<br/>• Desfavorece jovens doutores<br/>• Não comparável entre áreas distintas<br/>• Monotônico (nunca diminui)"]
+\`\`\`tree
+TITLE: Avaliação do Índice h de Jorge Hirsch (Balanço Crítico)
+- Análise Crítica do Índice h | Indicador de produtividade e impacto cumulativo de autores e periódicos
+  - Vantagens do Índice h | Equilíbrio entre volume quantitativo e impacto qualitativo
+    - Robustez a Outliers | Imune ao impacto distorcido de um único artigo supercitado isolado
+    - Síntese Única | Resume produtividade (nº de artigos) e consistência (citações mínimas) em um só número
+    - Facilidade de Cálculo | Cálculo direto a partir da ordenação decrescente de citações em bases indexadas
+  - Limitações e Vieses (Cebraspe) | Distorções estruturais cobradas em concursos públicos
+    - Incomparabilidade Interdisciplinar | Não permite comparar cientistas de áreas distintas (imunologia vs. matemática)
+    - Viés de Senilidade da Carreira | Favorece carreiras longevas e aposentados em detrimento de jovens pesquisadores
+    - Monotonicidade Permanente | É uma função monótona não decrescente (o índice h de um pesquisador jamais diminui)
+    - Desconsideração da Coautoria | Atribui exatamente o mesmo peso a todos os coautores de um artigo coletivo
 \`\`\`
 
 * **Limitações Cobradas em Provas (UNEAL 2026 e Cebraspe):**

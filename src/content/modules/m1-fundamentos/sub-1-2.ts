@@ -28,14 +28,16 @@ export const submodulo12: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. A Filosofia Axiomática das Cinco Leis de Shiyali Ramamrita Ranganathan (1931)
 Publicada em 1931 na Índia, a obra *The Five Laws of Library Science* de **Shiyali Ramamrita Ranganathan** (matemático, filósofo e bibliotecário indiano) é considerada o mais perfeito modelo dedutivo normativo da Biblioteconomia. Ranganathan estruturou princípios axiológicos que regem o planejamento, a arquitetura predial, o processamento técnico e a interação humana em qualquer unidade de informação.
 
-\`\`\`mermaid
-graph TD
-    L1["1ª LEI: Os livros são para usar<br>(Acesso / Derrubada de Barreiras)"]
-    L2["2ª LEI: A cada leitor seu livro<br>(Foco no LEITOR / Democratização)"]
-    L3["3ª LEI: A cada livro seu leitor<br>(Foco no DOCUMENTO / Disseminação Ativa)"]
-    L4["4ª LEI: Poupe o tempo do leitor<br>(Eficiência / Automação / Indexação)"]
-    L5["5ª LEI: A biblioteca é um organismo em crescimento<br>(Adaptação Contínua / Espaço / Desbaste)"]
-    L1 --> L2 --> L3 --> L4 --> L5
+\`\`\`timeline
+L1 | 1ª Lei: Os livros são para usar | Princípio de Acesso | Derrubada de barreiras físicas, burocracia e elitismo no acesso ao conhecimento
+---> →
+L2 | 2ª Lei: A cada leitor, seu livro | Princípio do Leitor | Foco na democratização — o sistema se organiza em torno da necessidade do usuário
+---> →
+L3 | 3ª Lei: A cada livro, seu leitor | Princípio do Documento | Disseminação ativa — o bibliotecário vai ao encontro do potencial leitor
+---> →
+L4 | 4ª Lei: Poupe o tempo do leitor | Princípio da Eficiência | Catálogos, automação, indexação e sinalização adequada para buscas rápidas
+---> →
+L5 | 5ª Lei: A biblioteca é um organismo em crescimento | Princípio da Adaptação | Desbaste, novos suportes, espaço flexível e evolução contínua dos serviços
 \`\`\`
 
 ---

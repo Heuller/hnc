@@ -29,14 +29,22 @@ export const submodulo73: ModuloFilho = {
 
 Na doutrina contemporânea da conservação (Cassares, 2000; Beck, 1995; Soares, 2005; IFLA, 2010), estabelece-se uma distinção terminológica estrita frequentemente explorada em provas de concurso:
 
-\`\`\`mermaid
-graph TD
-    A[Preservação: Nível Macroestratégico, Político, Financeiro e Predial] --> B[Conservação Preventiva: Ação Indireta no Ambiente]
-    A --> C[Conservação Curativa: Ação Direta Emergencial para Estancar Dano]
-    A --> D[Restauração: Ação Direta para Recompor Integridade Estética e Funcional]
-    B --> B1[Climatização 24h, CIP, Acondicionamento Neutro, Higienização Mecânica]
-    C --> C1[Secagem Pós-Inundação, Desinfestação por Anóxia, Estabilização]
-    D --> D1[Reversibilidade, Intervenção Mínima, Papel Japonês, Amido Neutro]
+\`\`\`tree
+TITLE: Hierarquia Conceitual da Salvaguarda Patrimonial (Cassares, Beck, IFLA)
+- Preservação Geral | Macroestratégia, políticas institucionais, recursos orçamentários e infraestrutura predial
+  - Conservação Preventiva (Intervenção Indireta) | Atuação sobre o ambiente e condições de guarda para retardar a deterioração
+    - Climatização Contínua 24h | Estabilidade de temperatura (18°C a 22°C) e umidade relativa (45% a 55%)
+    - Controle Integrado de Pragas (CIP) | Monitoramento por armadilhas e vedação sem inseticidas nocivos
+    - Acondicionamento Estável | Caixas, envelopes e pastas de papel alcalino permanente (pH neutro)
+    - Higienização Periódica | Limpeza mecânica com trinchas macias e aspirador com filtro HEPA
+  - Conservação Curativa (Intervenção Direta Emergencial) | Ação imediata sobre o documento para estancar degradação ativa
+    - Estabilização Pós-Sinistro | Secagem técnica imediata após alagamento ou inundação
+    - Desinfestação Segura | Tratamento por anóxia (privação de oxigênio) contra insetos ativos
+    - Neutralização Emergencial | Remoção de focos fúngicos ativos e controle de acidez destrutiva
+  - Restauração (Intervenção Direta Especializada) | Recomposição da integridade física, funcional e estética
+    - Reversibilidade Plena | Uso de adesivos solúveis (amido/metilcelulose) e intervenção mínima
+    - Reintegração Harmoniosa | Enxertos com papel japonês (kozo) de gramatura e pH compatíveis
+    - Respeito à Autenticidade | Preservação de marcas históricas legítimas sem falsificação de época
 \`\`\`
 
 * **Preservação:** Conceito abrangente e macroestrutural. Engloba todas as decisões gerenciais, políticas, orçamentárias, prediais, de segurança contra incêndio/pânico e de capacitação profissional que asseguram a integridade e o acesso continuado às coleções a longo prazo.

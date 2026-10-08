@@ -49,16 +49,19 @@ Para dominar a preservação de acervos bibliográficos, o profissional deve com
 
 O papel é um material eminentemente **higroscópico**: ele busca continuamente o equilíbrio higroscópico com o ar circundante, absorvendo ou liberando moléculas de água.
 
-\`\`\`mermaid
-graph TD
-    A[Ambiente da Biblioteca] --> B[Flutuação Brusca de Temp e UR]
-    B --> C[Ciclos Repetidos de Dilatação e Contração Higroscópica]
-    C --> D[Ruptura das Pontes de Hidrogênio da Celulose]
-    D --> E[Estresse Mecânico, Ondulação e Quebra do Papel]
-    A --> F[UR > 65% + Calor > 25°C]
-    F --> G[Germinação de Fungos Filamentosos - Mofo e Foxing]
-    A --> H[UR < 35%]
-    H --> I[Dessecação Extrema e Fragilização Estrutural]
+\`\`\`tree
+TITLE: Dinâmica Higroscópica e Danos Ambientais ao Papel
+- Ambiente de Guarda e Climatização | Fatores físico-ambientais que afetam as fibras celulósicas
+  - Flutuação Brusca de Temperatura e UR | Ligar e desligar ar-condicionado gera estresse violento
+    - Ciclos de Dilatação e Contração | Movimento higroscópico contínuo na malha fibrosa do papel
+    - Ruptura de Pontes de Hidrogênio | Rompimento progressivo das ligações intermoleculares da celulose
+    - Fadiga Mecânica e Quebra | Ondulação de folhas, descolamento de lombadas e fragilização permanente
+  - Umidade Relativa Elevada (UR > 65% e Calor > 25°C) | Condições críticas para agentes biológicos
+    - Proliferação Fúngica (Mofo / Bolor) | Digestão enzimática da celulose e manchas ácidas irreversíveis (*foxing*)
+    - Atração e Proliferação de Insetos | Ambiente favorável a brocas, traças e baratas
+  - Ar Excessivamente Seco (UR < 35%) | Desidratação acentuada das fibras
+    - Dessecação Extrema | Fibras ressecadas perdem flexibilidade e hidratação natural
+    - Fragilização Estrutural | Papel torna-se quebradiço e suscetível a rasgos ao simples folhear
 \`\`\`
 
 #### A. O Estresse Mecânico das Flutuações Ambientais

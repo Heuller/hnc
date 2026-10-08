@@ -29,13 +29,14 @@ export const submodulo103: ModuloFilho = {
 
 A Lei de Acesso à Informação regulamenta o direito fundamental consagrado no **Art. 5º, XXXIII**, no **Art. 37, § 3º, II** e no **Art. 216, § 2º** da Constituição Federal de 1988, aplicável a todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, bem como a entidades privadas que recebam recursos públicos para realização de ações de interesse coletivo:
 
-\`\`\`mermaid
-flowchart TD
-    CF["Direito Constitucional de Acesso (CF/88)"] --> LAI["Lei de Acesso à Informação (Lei 12.527/2011)"]
-    LAI --> P1["Princípio da Publicidade como Regra Geral"]
-    LAI --> P2["Princípio do Sigilo como Exceção Estrita e Temporária"]
-    LAI --> P3["Gratuidade do Acesso (Salvo custos de reprografia)"]
-    LAI --> P4["Vedação de Exigência dos Motivos do Pedido"]
+\`\`\`tree
+TITLE: Princípios Estruturantes da LAI (Lei nº 12.527/2011)
+- Direito Constitucional de Acesso (CF/88) | Arts. 5º XXXIII, 37 § 3º II e 216 § 2º
+  - Lei de Acesso à Informação (LAI) | Marco regulatório da transparência republicana
+    - Publicidade como Regra Geral | Acesso amplo de ofício (transparência ativa) e sob demanda (passiva)
+    - Sigilo como Exceção Estrita | Restrição admitida apenas quando indispensável à segurança social e do Estado
+    - Gratuidade do Acesso | Isenção total de tarifas, admitida cobrança exclusiva de custos de reprografia
+    - Vedação de Exigência de Motivo | Ilegalidade de qualquer exigência sobre os motivos determinantes do pedido
 \`\`\`
 
 #### A. Diretrizes Fundamentais (Art. 3º):
@@ -63,10 +64,12 @@ flowchart TD
 
 Quando a publicidade da informação comprometer a segurança da sociedade e do Estado (Art. 23), ela poderá ser excepcionalmente classificada em um dos três graus de sigilo (Art. 24):
 
-\`\`\`mermaid
-flowchart LR
-    R["1. RESERVADA<br/>Até 5 ANOS"] --> S["2. SECRETA<br/>Até 15 ANOS"]
-    S --> U["3. ULTRASSECRETA<br/>Até 25 ANOS<br/>(Prorrogável 1x pela CMRI)"]
+\`\`\`timeline
+RES | 1. Grau Reservado | Até 5 Anos de Restrição | Classificável por autoridades até DAS 101.5. Salvaguarda planos estratégicos e operações em andamento.
+---> Escalação de Gravidade
+SEC | 2. Grau Secreto | Até 15 Anos de Restrição | Classificável por Ministros, Comandantes Militares e dirigentes de estatais/autarquias federais.
+---> Grau Máximo
+ULTRA | 3. Grau Ultrassecreto | Até 25 Anos de Restrição | Prorrogável 1x pela CMRI (até +25 anos). Competência restrita: Presidência, Ministros, Forças Armadas e Chefes de Missão.
 \`\`\`
 
 #### A. A Escala Temporal e Competências de Classificação (Art. 27):
@@ -102,13 +105,13 @@ O tratamento de informações pessoais na administração pública obedece ao pr
 
 A LGPD aplica-se a qualquer operação de tratamento de dados pessoais realizada por pessoa natural ou por pessoa jurídica de direito público ou privado:
 
-\`\`\`mermaid
-flowchart TD
-    LGPD["Conceitos Fundamentais da LGPD (Lei 13.709/2018)"]
-    LGPD --> DP["Dado Pessoal:<br/>Informação relacionada a pessoa natural identificada ou identificável (Nome, CPF, RG, IP)"]
-    LGPD --> DPS["Dado Pessoal Sensível:<br/>Origem racial/étnica, convicção religiosa, opinião política, filiação sindical, saúde, vida sexual, genética ou biometria"]
-    LGPD --> PUB["Tratamento pelo Setor Público (Art. 23):<br/>Dispensa consentimento para cumprimento de obrigação legal ou execução de políticas públicas previstas em lei"]
-    LGPD --> DPO["Encarregado de Proteção (DPO):<br/>Canal de comunicação institucional entre Controlador, Titulares de dados e a ANPD"]
+\`\`\`tree
+TITLE: Conceitos Fundamentais da LGPD (Lei nº 13.709/2018)
+- Marco Legal da Proteção de Dados | Aplicação a pessoas naturais e pessoas jurídicas públicas e privadas
+  - Dado Pessoal | Informação relacionada a pessoa natural identificada ou identificável (nome, CPF, RG, IP, geolocalização)
+  - Dado Pessoal Sensível | Dados sobre origem racial/étnica, convicção religiosa, opinião política, saúde, biometria ou genética
+  - Tratamento pelo Setor Público | Dispensa consentimento do titular para cumprimento de obrigação legal ou execução de políticas públicas (Art. 23)
+  - Encarregado de Proteção (DPO) | Canal de comunicação institucional entre o controlador dos dados, os titulares e a ANPD
 \`\`\`
 
 #### A. Princípios Norteadores do Tratamento (Art. 6º):

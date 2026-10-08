@@ -27,15 +27,22 @@ export const submodulo44: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. O Processo de Referência segundo Denis Grogan (1995)
 Na obra clássica *A Prática do Serviço de Referência* (presente em nosso acervo em \`Recuperação, fontes, referência e usuários\`), **Denis Grogan** define o serviço de referência como o contato pessoal e a assistência direta prestada pelo bibliotecário ao leitor em busca de conhecimento.
 
-\`\`\`mermaid
-graph TD
-    E1["1. O PROBLEMA (Usuário vivencia um impasse prático ou teórico)"] --> E2["2. A NECESSIDADE DE INFORMAÇÃO (Consciência da lacuna cognitiva)"]
-    E2 --> E3["3. A QUESTÃO INICIAL (Pergunta expressa ao bibliotecário - vaga/imperfeita)"]
-    E3 --> E4["4. A QUESTÃO NEGOCIADA (Entrevista de referência decodifica a necessidade real)"]
-    E4 --> E5["5. A ESTRATÉGIA DE BUSCA (Plano lógico: termos, fontes e operadores)"]
-    E5 --> E6["6. O PROCESSO DE BUSCA (Execução física ou eletrônica nas bases e acervos)"]
-    E6 --> E7["7. A RESPOSTA (Entrega dos documentos, citações ou dados localizados)"]
-    E7 --> E8["8. A SOLUÇÃO (Julgamento de valor pelo usuário: o problema foi resolvido?)"]
+\`\`\`timeline
+E1 | 1. O Problema | Ator: Usuário | Usuário vivencia um impasse prático, acadêmico ou dilema de trabalho
+---> Tomada de Consciência
+E2 | 2. A Necessidade de Informação | Ator: Usuário | Reconhecimento da lacuna cognitiva: percepção de que precisa de ajuda externa
+---> Expressão Verbal
+E3 | 3. A Questão Inicial | Ator: Usuário | Pergunta verbalizada no balcão de referência — quase sempre vaga ou distorcida
+---> Entrevista de Referência
+E4 | 4. A Questão Negociada | Atores: Bibliotecário & Usuário | Filtragem de ambiguidades e identificação técnica da real necessidade informacional
+---> Formulação Estruturada
+E5 | 5. A Estratégia de Busca | Ator: Bibliotecário | Tradução na linguagem do sistema: termos, vocabulário controlado e operadores booleanos
+---> Execução Técnica
+E6 | 6. O Processo de Busca | Ator: Bibliotecário | Navegação concreta em catálogos, acervos, bases de dados ou repositórios
+---> Recuperação Documental
+E7 | 7. A Resposta | Ator: Bibliotecário | Entrega física ou digital dos documentos, referências ou dados pertinentes
+---> Validação Pragmática
+E8 | 8. A Solução | Ator: Usuário | Julgamento exclusivo de valor pelo usuário: o problema foi resolvido?
 \`\`\`
 
 #### As Oito Etapas Decisórias e os Papéis dos Atores
@@ -82,13 +89,16 @@ Para transformar uma questão inicial vaga em uma consulta eficiente sem constra
 ### 4. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
 Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:
 
-\`\`\`mermaid
-graph LR
-    P["PERFIL DO USUÁRIO<br>(Descritores, Autores e Temas de Interesse)"] --> M["MECANISMO DE CASAMENTO (Matching)"]
-    D["PERFIL DO DOCUMENTO<br>(Metadados de Novas Obras Adquiridas)"] --> M
-    M --> N["NOTIFICAÇÃO / ALERTA (E-mail, RSS, App)"]
-    N --> F["RETROALIMENTAÇÃO (Feedback: Útil vs Inútil)"]
-    F -->|Calibração Contínua| P
+\`\`\`timeline
+P | 1. Perfil de Interesse do Usuário | Mapeamento Temático | Cadastro formal de termos, descritores, operadores booleanos e áreas de pesquisa do leitor
+---> Cruzamento com Novas Entradas
+D | 2. Perfil dos Novos Documentos | Ingestão no Acervo | Metadados e indexação das obras recém-adquiridas incorporadas ao catálogo
+---> Algoritmo de Similaridade
+M | 3. Mecanismo de Casamento (Matching) | Filtro Automatizado | Interseção matemática entre os termos do perfil do usuário e as novas aquisições
+---> Canal Proativo
+N | 4. Notificação Direcionada | Alerta Antecipado | Disparo de avisos eletrônicos (e-mail, RSS, app) com links diretos aos itens pertinentes
+---> Calibração Algorítmica
+F | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertinência (útil vs. inútil), refinando continuamente o perfil cadastrado
 \`\`\`
 
 #### A. As Duas Gerações de DSI Cobradas pelo Cebraspe (*Prova STJ 2024*)

@@ -41,14 +41,21 @@ Com a transição do paradigma custodial (focado no acervo físico) para o parad
      * Promove a integração e o compartilhamento de dados entre diferentes setores da instituição (Biblioteca Pedro Aleixo, Arquivo da Câmara, Consultoria Legislativa, CEDI e Gabinetes Parlamentares).
      * Garante que o parlamentar receba atendimento unificado e coerente independentemente do canal escolhido (presencial, e-mail, intranet ou aplicativo móvel), permitindo a cocriação de serviços e produtos sob medida.
 
-\`\`\`mermaid
-graph TD
-    A[CRM em Bibliotecas - Paul Greenberg] --> B[CRM Operacional - Front-Office]
-    A --> C[CRM Analítico - Back-Office]
-    A --> D[CRM Colaborativo - Multicanal]
-    B --> B1[Balcão, Referência, Autoatendimento, Chat]
-    C --> C1[Data Mining, Logs de Busca, Antecipação de Demandas]
-    D --> D1[Integração Biblioteca + Consultorias + Gabinetes]
+\`\`\`tree
+TITLE: Dimensões do CRM em Unidades de Informação (Paul Greenberg)
+- CRM em Bibliotecas | Gestão do Relacionamento com Usuários e Cidadãos
+  - CRM Operacional (Front-Office) | Pontos de contato direto e atendimento ao usuário
+    - Balcão de Empréstimo e Atendimento Presencial | Agilidade, empatia e desburocratização
+    - Serviço de Referência Especializada | Apoio imediato a parlamentares e pesquisadores
+    - Canais Virtuais de Atendimento | Chat, WhatsApp institucional, e-mail e autoatendimento
+  - CRM Analítico (Back-Office) | Inteligência de dados e antecipação de demandas
+    - Data Mining e Mineração de Logs | Análise de padrões de busca no OPAC e termos sem recuperação
+    - Estatísticas de Circulação e Uso | Mapeamento de picos temáticos para aquisições oportunas
+    - Antecipação de Demandas Legislativas | Aquisição prévia de temas pautados para votação
+  - CRM Colaborativo (Multicanal) | Integração sistêmica entre unidades da Casa
+    - Integração Biblioteca Pedro Aleixo & Consultoria | Compartilhamento ágil de subsídios técnicos
+    - Interlocução com Gabinetes Parlamentares | Produtos sob medida para comissões e frentes
+    - Articulação com CEDI e Arquivo Histórico | Visão 360° do usuário parlamentar
 \`\`\`
 
 ---

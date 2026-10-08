@@ -61,20 +61,14 @@ Em sua obra seminal *Criação de Conhecimento na Empresa*, **Ikujiro Nonaka e H
 
 Essa dinâmica ocorre por meio de **quatro modos de conversão do conhecimento (SECI)**:
 
-\`\`\`mermaid
-graph TD
-    subgraph De Tácito
-        S[Socialização: Tácito -> Tácito]
-        E[Externalização: Tácito -> Explícito]
-    end
-    subgraph De Explícito
-        C[Combinação: Explícito -> Explícito]
-        I[Internalização: Explícito -> Tácito]
-    end
-    S --> E
-    E --> C
-    C --> I
-    I --> S
+\`\`\`timeline
+S | 1. Socialização | Tácito → Tácito | Compartilhamento de modelos mentais e experiências pelo convívio, observação e prática mestre-aprendiz
+---> Diálogo e Reflexão Coletiva
+E | 2. Externalização | Tácito → Explícito | Modo crítico: articulação do saber tácito em conceitos claros via metáforas, modelos visuais e manuais
+---> Sistematização e Difusão
+C | 3. Combinação | Explícito → Explícito | Reconfiguração e agregação de conhecimentos explícitos em relatórios, bases de dados e repositórios
+---> Aprendizagem Prática (Learning by Doing)
+I | 4. Internalização | Explícito → Tácito | Incorporação do conhecimento explícito aos modelos mentais individuais, reiniciando a espiral em nível superior
 \`\`\`
 
 1. **Socialização ($Tácito \rightarrow Tácito$):**
@@ -115,12 +109,14 @@ Em *A Organização do Conhecimento: como as organizações usam a informação 
    * O ser humano possui limites cognitivos de processamento da informação (*racionalidade limitada*).
    * A tomada de decisão consiste na identificação estruturada de alternativas, pesagem de consequências e seleção do curso de ação mais satisfatório para resolver problemas e cumprir a missão institucional.
 
-\`\`\`mermaid
-graph LR
-    A[Ambiente Externo Caótico] --> B[1. Construção de Sentido - Sense Making]
-    B --> C[2. Criação de Conhecimento - SECI]
-    C --> D[3. Tomada de Decisão - Ação Eficaz]
-    D -. Retroalimenta .-> A
+\`\`\`timeline
+A | Incerteza e Ruído do Ambiente | Ponto de Partida | Cenário externo dinâmico, turbulento e ambíguo com fluxo volumoso de dados dispersos
+---> Filtragem Cognitiva
+B | 1. Construção de Sentido (Sense Making) | Interpretação Coletiva | Mapeamento de sinais fracos, filtragem de ruído e atribuição de significado compartilhado (Karl Weick)
+---> Conversão Epistêmica
+C | 2. Criação de Conhecimento | Inovação Institucional | Geração de novas competências a partir da espiral SECI (tácito/explícito de Nonaka & Takeuchi)
+---> Escolha Racional
+D | 3. Tomada de Decisão | Ação Eficaz e Racionalidade | Seleção de cursos de ação sob racionalidade limitada de Herbert Simon, retroalimentando o ambiente
 \`\`\`
 
 ---

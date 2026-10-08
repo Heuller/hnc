@@ -34,16 +34,18 @@ Conforme **Waldomiro Vergueiro** (*Desenvolvimento de Coleções*, 1989; *Seleç
 * **O Modelo Cíclico de Waldomiro Vergueiro:**
   O processo estrutura-se em **seis etapas interdependentes e contínuas**, dispostas em circuito fechado retroalimentado pela comunidade de usuários:
 
-\`\`\`mermaid
-graph TD
-    COM((Comunidade de Usuários)) --> F1[1. Estudo da Comunidade]
-    F1 --> F2[2. Políticas de Seleção]
-    F2 --> F3[3. Seleção]
-    F3 --> F4[4. Aquisição]
-    F4 --> F5[5. Desbastamento e Descarte]
-    F5 --> F6[6. Avaliação da Coleção]
-    F6 --> F1
-    F6 -. Retroalimenta .-> COM
+\`\`\`timeline
+F1 | 1. Estudo da Comunidade | Ponto de Partida e Insumo Geral | Mapeamento das características demográficas, necessidades de informação e hábitos dos usuários
+---> Subsídios Diretos
+F2 | 2. Políticas de Seleção | Documento Normativo Formal | Diretrizes escritas, prioridades temáticas, critérios de aceitação de doações e descarte
+---> Aplicação Prática
+F3 | 3. Seleção | Julgamento Técnico Crítico | Escolha dos títulos a serem incorporados com base na política e nos pedidos dos usuários
+---> Trâmites Administrativos
+F4 | 4. Aquisição | Incorporação Concreta | Processo de compra, permuta ou doação conforme a Lei 14.133/2021
+---> Gestão do Espaço Físico
+F5 | 5. Desbastamento e Descarte | Manutenção da Vitalidade | Remanejamento para depósito ou descarte de obras obsoletas ou deterioradas
+---> Diagnóstico Contínuo
+F6 | 6. Avaliação da Coleção | Fechamento e Retroalimentação | Análise de adequação e uso que retroalimenta o estudo da comunidade e a política de seleção
 \`\`\`
 
 > [!IMPORTANT]
@@ -155,18 +157,19 @@ O método CREW (*Continuous Reevaluation, Conditioning, Removing and Weeding*), 
 
 Avaliar a coleção consiste em determinar sua adequação aos objetivos da instituição e às necessidades dos usuários (Figueiredo, 1994; Lancaster, 1993):
 
-\`\`\`mermaid
-graph TD
-    A[Métodos de Avaliação de Coleções] --> B[Centrados no Acervo - Quantitativos/Normativos]
-    A --> C[Centrados no Uso - Comportamentais/Empíricos]
-    B --> B1[Listas de Verificação / Checklists]
-    B --> B2[Opinião de Especialistas - Impressionista]
-    B --> B3[Idade Média / Obsolescência]
-    B --> B4[Modelo Conspectus Níveis 0 a 5]
-    C --> C1[Estatísticas de Circulação e Empréstimo]
-    C --> C2[Empréstimo Entre Bibliotecas - EEB]
-    C --> C3[Análise de Citações]
-    C --> C4[Teste de Disponibilidade de Orr - DDT]
+\`\`\`tree
+TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
+- Métodos de Avaliação de Coleções | Determinação da adequação aos objetivos institucionais e usuários
+  - Centrados no Acervo (Quantitativos / Normativos) | Medem dimensão física, profundidade temática e atualidade
+    - Listas de Verificação (Checklists) | Confrontação do acervo contra bibliografias especializadas de referência
+    - Opinião de Especialistas (Impressionista) | Pareceres de pesquisadores e docentes sobre a profundidade temática
+    - Idade Média e Obsolescência | Análise das datas de publicação para verificar desatualização
+    - Modelo Conspectus (RLG / WLN) | Escala padronizada de 0 a 5 de profundidade de cobertura
+  - Centrados no Uso (Comportamentais / Empíricos) | Medem a utilização real da coleção pela comunidade
+    - Estatísticas de Circulação e Consulta | Empréstimos domiciliares, renovações e uso de estante
+    - Empréstimo Entre Bibliotecas (EEB) | Mapeamento das lacunas supridas por outras instituições
+    - Análise de Citações | Obras referenciadas em teses, artigos e notas técnicas da Casa
+    - Teste de Disponibilidade de Orr (DDT) | Taxa de sucesso do usuário em localizar o documento na estante
 \`\`\`
 
 #### A. Métodos Centrados no Acervo

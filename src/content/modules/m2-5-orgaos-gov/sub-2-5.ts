@@ -256,35 +256,32 @@ Para o concurso de **Bibliotecário da Câmara dos Deputados** (Banca Cebraspe),
 
 Além disso, a banca exige conhecimento institucional íntimo sobre a **Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo)**: sua história secular (desde o Império em 1826), seu papel no apoio ao processo legislativo, sua inserção no **Centro de Documentação e Informação (CEDI)**, seus repositórios (**BDCam** sobre software DSpace), suas publicações (**Edições Câmara**) e sua cooperação na **Rede Virtual de Bibliotecas (RVBI)**.
 
-\`\`\`mermaid
-graph TD
-    A[Estado Brasileiro - CF/88] --> B[Poder Legislativo]
-    A --> C[Poder Judiciário]
-    A --> D[Poder Executivo]
-    A --> E[Tribunais de Contas - Controle Externo]
-    A --> F[Funções Essenciais à Justiça]
-
-    B --> B1[Congresso Nacional]
-    B1 --> B2[Câmara dos Deputados - 513 Deputados]
-    B1 --> B3[Senado Federal - 81 Senadores]
-    B2 --> B4[CEDI - Centro de Documentação e Informação]
-    B4 --> B5[Biblioteca Pedro Aleixo - 1826]
-    B5 --> B6[BDCam / DSpace]
-    B5 --> B7[RVBI - Rede Virtual de Bibliotecas]
-
-    C --> C1[STF - Cúpula Constitucional]
-    C --> C2[STJ - Cúpula Infraconstitucional]
-    C --> C3[TRFs / Juízes Federais]
-    C --> C4[TJs Estaduais e TJDFT]
-    C --> C5[CNJ - Controle Administrativo]
-
-    E --> E1[TCU - União]
-    E --> E2[TCEs - Estados]
-    E --> E3[TCDF / TCMs]
-
-    F --> F1[Ministério Público: MPU e MPEs]
-    F --> F2[Defensoria Pública: DPU e DPEs]
-    F --> F3[Advocacia Pública: AGU e PGEs]
+\`\`\`tree
+TITLE: Organização do Estado Brasileiro (CF/88)
+- Estado Brasileiro (CF/88) | Estrutura Constitucional da República Federativa do Brasil
+  - Poder Legislativo | Modelo bicameral no plano federal (CF, art. 44)
+    - Congresso Nacional | Bicameralismo: Câmara dos Deputados e Senado Federal
+      - Câmara dos Deputados | 513 Deputados Federais — Representantes do Povo
+        - Centro de Documentação e Informação (CEDI) | Órgão de apoio informacional e patrimonial
+          - Coordenação de Biblioteca (Pedro Aleixo) | Criada em 1826 — Apoio direto ao processo legislativo
+            - BDCam / DSpace | Repositório institucional e memória parlamentar
+            - RVBI | Rede Virtual de Bibliotecas (cooperação interinstitucional)
+      - Senado Federal | 81 Senadores — Representantes dos Estados e DF
+  - Poder Judiciário | Estrutura taxativa de jurisdição (CF, art. 92)
+    - STF | Supremo Tribunal Federal — Guarda precípua da Constituição (11 ministros)
+    - STJ | Superior Tribunal de Justiça — Guardião da lei federal infraconstitucional (33 ministros)
+    - TRFs e Juízes Federais | Justiça Federal comum (6 Regiões: TRF1 a TRF6)
+    - TJs Estaduais e TJDFT | Justiça comum residual dos Estados e do DF
+    - CNJ | Conselho Nacional de Justiça — Controle administrativo e financeiro
+  - Poder Executivo | Chefiado pelo Presidente da República auxiliado pelos Ministros de Estado
+  - Tribunais de Contas | Controle externo exercido com auxílio do Poder Legislativo (art. 71)
+    - TCU | Tribunal de Contas da União
+    - TCEs | Tribunais de Contas dos Estados
+    - TCDF e TCMs | DF e Tribunais de Contas Municipais (SP e Rio de Janeiro)
+  - Funções Essenciais à Justiça | Advocacia e tutela da ordem jurídica
+    - Ministério Público | MPU (Federal, Trabalho, Militar, DF) e MPEs
+    - Defensoria Pública | DPU (União) e DPEs (Estados) — Acesso gratuito à justiça
+    - Advocacia Pública | AGU (União) e PGEs/PGMs (Estados e Municípios)
 \`\`\`
 
 ---
@@ -359,19 +356,13 @@ O Capítulo 24 do AACR2r (*Cabeçalhos para Entidades Coletivas*) e o Capítulo 
      - \`Fundação Oswaldo Cruz.\`
      - \`Instituto Brasileiro de Geografia e Estatística.\`
 
-\`\`\`mermaid
-graph TD
-    Entidade[Entidade Pública a Catalogar] --> Analise{Exerce função básica de soberania ou enquadra-se no AACR2 24.18?}
-    Analise -->|SIM: Órgãos de cúpula, Judiciário, Legislativo, Ministérios| SubJurisdicao[Entrada sob Jurisdição Geográfica]
-    Analise -->|NÃO: Universidades, Empresas Públicas, Autarquias Científicas| EntradaDireta[Entrada DIRETA sob o próprio Nome]
-
-    SubJurisdicao --> MARC1[MARC 21: Campo 110/710 com 1º Indicador = 1]
-    MARC1 --> Ex1["Ex: 110 1# $a Brasil. $b Congresso Nacional."]
-    MARC1 --> Ex2["Ex: 110 1# $a São Paulo (Estado). $b Tribunal de Justiça."]
-
-    EntradaDireta --> MARC2[MARC 21: Campo 110/710 com 1º Indicador = 2]
-    MARC2 --> Ex3["Ex: 110 2# $a Universidade de Brasília."]
-    MARC2 --> Ex4["Ex: 110 2# $a Petróleo Brasileiro."]
+\`\`\`decision
+START: Entidade Pública a Catalogar | Análise segundo regras de subordinação do AACR2 e MARC 21
+QUESTION: Exerce função básica de soberania ou enquadra-se no AACR2 24.18?
+YES: Entrada sob Jurisdição Geográfica | Órgãos de cúpula, Judiciário, Legislativo e Ministérios
+NO: Entrada Direta sob o próprio Nome | Universidades, Empresas Públicas e Autarquias Científicas
+YES_RESULT: 110 1# $a Brasil. $b Congresso Nacional. | 1º Indicador = 1 (Jurisdição territorial)
+NO_RESULT: 110 2# $a Universidade de Brasília. | 1º Indicador = 2 (Nome direto da entidade)
 \`\`\`
 
 ---
@@ -458,21 +449,20 @@ A Biblioteca está inserida no nível estratégico de apoio à gestão da inform
   - **Coordenação de Publicações / Edições Câmara**: selo editorial responsável por editar e difundir publicações de interesse cívico, histórico, parlamentar e legislativo.
   - **Centro Cultural e Museu da Câmara**: preservação e difusão do patrimônio artístico, museológico e cultural da instituição.
 
-\`\`\`mermaid
-graph TD
-    Mesa[Mesa Diretora da Câmara dos Deputados] --> DG[Diretoria-Geral - DG]
-    DG --> CEDI[CEDI - Centro de Documentação e Informação]
-
-    CEDI --> Cobib[Coordenação de Biblioteca - Biblioteca Pedro Aleixo]
-    CEDI --> Coarq[Coordenação de Arquivo - Arquivo Histórico]
-    CEDI --> Edicoes[Coordenação de Publicações - Edições Câmara]
-    CEDI --> Cultural[Centro Cultural e Museu da Câmara]
-
-    Cobib --> Serv1[Atendimento ao Parlamentar & Comissões]
-    Cobib --> Serv2[Apoio à Conle & Conof]
-    Cobib --> Serv3[BDCam - Biblioteca Digital da Câmara]
-    Cobib --> Serv4[Cooperação na RVBI - Rede Virtual de Bibliotecas]
-    Cobib --> Serv5[Acervo de Obras Raras e Coleções Especiais]
+\`\`\`tree
+TITLE: Estrutura Administrativa e Serviços — CEDI / Câmara dos Deputados
+- Mesa Diretora da Câmara dos Deputados | Órgão diretor colegiado supremo
+  - Diretoria-Geral (DG) | Gestão executiva administrativa da Casa
+    - Centro de Documentação e Informação (CEDI) | Preservação, difusão e memória institucional
+      - Coordenação de Biblioteca (Cobib - Pedro Aleixo) | Atendimento legislativo e processamento técnico
+        - Atendimento ao Parlamentar & Comissões | Pesquisa jurídica, referência e apoio imediato
+        - Apoio à Conle & Conof | Consultoria Legislativa e de Orçamento da Câmara
+        - BDCam (DSpace) | Biblioteca Digital com livre acesso à memória parlamentar
+        - RVBI (Rede Virtual de Bibliotecas) | Catalogação cooperativa e base unificada
+        - Acervo de Obras Raras | Coleções especiais e patrimônio bibliográfico
+      - Coordenação de Arquivo (Coarq) | Arquivo Histórico e documentos do processo legislativo
+      - Coordenação de Publicações (Edições Câmara) | Selo editorial de obras cívicas e parlamentares
+      - Centro Cultural e Museu da Câmara | Patrimônio artístico, museológico e exposições
 \`\`\`
 
 ---

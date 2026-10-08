@@ -26,10 +26,12 @@ export const submodulo51: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. Fundamentos e Filosofia do Planejamento Estratégico Bibliotecário
 O planejamento em unidades de informação contemporâneas deixou de ser um mero instrumento burocrático de previsão orçamentária e converteu-se em **ferramenta de gestão estratégica essencial** para a sobrevivência, inovação e legitimidade social das bibliotecas públicas e parlamentares (**Maria Christina Barbosa de Almeida, 2005; Alba Costa Maciel & Marília Alvarenga Mendonça, 2000**).
 
-\`\`\`mermaid
-graph TD
-    PE["1. PLANEJAMENTO ESTRATÉGICO (Longo Prazo / Macroinstitucional)<br>Missão, Visão, Valores, Análise SWOT, Alinhamento Institucional"] --> PT["2. PLANEJAMENTO TÁTICO (Médio Prazo / Setorial)<br>Programas de Aquisição, Projetos de Conservação, Gestão da Referência"]
-    PT --> PO["3. PLANEJAMENTO OPERACIONAL (Curto Prazo / Procedimental)<br>Rotinas de Catalogação, Escalas de Balcão, Metas Diárias e Checklists"]
+\`\`\`timeline
+PE | 1. Planejamento Estratégico | Longo Prazo (3 a 5+ anos) | Foco macroinstitucional: missão, visão de futuro, valores éticos, análise SWOT e alinhamento com a mantenedora
+---> Desdobramento Setorial
+PT | 2. Planejamento Tático | Médio Prazo (1 a 2 anos) | Foco departamental: programas de aquisição, projetos de conservação, captação de recursos e gestão de referência
+---> Detalhamento Operacional
+PO | 3. Planejamento Operacional | Curto Prazo (diário/mensal) | Foco procedimental: rotinas de catalogação, escalas de balcão, cronogramas de tarefas e checklists de metas
 \`\`\`
 
 #### A. Conceito e Princípios do Planejamento
@@ -80,11 +82,14 @@ O BSC traduz a estratégia em objetivos operacionais equilibrados sob quatro per
 ### 3. Avaliação de Serviços de Bibliotecas segundo F. W. Lancaster (1996)
 No tratado canônico *Avaliação de Serviços de Bibliotecas*, **F. W. Lancaster** estabeleceu os fundamentos teóricos da avaliação de desempenho:
 
-\`\`\`mermaid
-graph LR
-    I["INSUMOS (Inputs)<br>Orçamento, Funcionários, Prédio, Acervo"] --> P["PROCESSOS (Throughput)<br>Produtividade, Tempo de Catalogação"]
-    P --> S["PRODUTOS (Outputs)<br>Consultas Realizadas, Empréstimos, Downloads"]
-    S --> R["RESULTADOS / IMPACTO (Outcomes)<br>Resolução da Dúvida, Sucesso Legislativo, Satisfação"]
+\`\`\`timeline
+I | 1. Insumos (Inputs) | Recursos e Estrutura | Orçamento público, quadro de bibliotecários, espaço físico, equipamentos e acervo disponível
+---> Aplicação Operacional
+P | 2. Processos (Throughput) | Métricas de Eficiência | Produtividade da equipe, velocidade de catalogação na RVBI, rotinas de processamento e conservação
+---> Entregas Concretas
+S | 3. Produtos (Outputs) | Serviços Disponibilizados | Volume de consultas atendidas no balcão, empréstimos realizados e downloads no repositório BDCam
+---> Avaliação de Valor
+R | 4. Resultados e Impacto (Outcomes) | Métricas de Eficácia | Resolução da lacuna cognitiva do usuário, subsídio a votos parlamentares e satisfação do leitor
 \`\`\`
 
 #### A. A Distinção Vital entre Eficiência e Eficácia

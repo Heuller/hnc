@@ -32,14 +32,14 @@ export const submodulo64: ModuloFilho = {
 
 A Inteligência Artificial (IA), historicamente dividida entre as abordagens simbólicas (sistemas especialistas baseados em regras formais explícitas — GOFAI) e as abordagens conexionistas (redes neurais artificiais), vivenciou uma ruptura revolucionária a partir de 2017 com o desenvolvimento da arquitetura de **Transformers** (*Attention Is All You Need*, Vaswani et al., 2017):
 
-\`\`\`mermaid
-graph TD
-    A[Evolução da IA na Informação] --> B[1. IA Simbólica / GOFAI: Regras e Sistemas Especialistas]
-    A --> C[2. Machine Learning Clássico: Estatística e Vetores TF-IDF]
-    A --> D[3. Deep Learning e Transformers: Autoatenção e LLMs]
-    D --> D1[Foundation Models: Aprendizado Auto-Supervisionado]
-    D --> D2[Embeddings Vetoriais Densos e Busca Semântica]
-    D --> D3[Arquitetura RAG: Recuperação Aumentada com Fontes Oficiais]
+\`\`\`timeline
+GOFAI | 1. IA Simbólica (GOFAI) | Regras Formais e Sistemas Especialistas | Engenharia de conhecimento artesanal: regras lógicas explícitas (*if-then*) com alta interpretabilidade e rigidez funcional
+---> Aprendizado Estatístico sobre Dados
+ML | 2. Machine Learning Clássico | Extração Estatística de Padrões | Modelos de espaço vetorial (TF-IDF, Naive Bayes, SVM) para classificação e ranqueamento com representações esparsas
+---> Ruptura: Redes Neurais e Transformers (2017)
+TRANS | 3. Deep Learning & Transformers | Autoatenção Paralela e LLMs | Modelos fundacionais (*Foundation Models*) com bilhões de parâmetros treinados de forma auto-supervisionada
+---> Aplicação em Unidades de Informação
+RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperação | Vetores densos de alta dimensionalidade (*embeddings*) combinados com documentos oficiais para resposta sem alucinações
 \`\`\`
 
 #### A. A Arquitetura de Transformers e os Grandes Modelos de Linguagem (LLMs)

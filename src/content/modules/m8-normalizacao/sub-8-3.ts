@@ -29,16 +29,22 @@ export const submodulo83: ModuloFilho = {
 
 A norma **ABNT NBR 14724** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
 
-\`\`\`mermaid
-graph TD
-    TRAB[Estrutura do Trabalho Acadêmico - NBR 14724] --> EXT[Parte Externa: Capa e Lombada]
-    TRAB --> PRE[Elementos Pré-Textuais]
-    TRAB --> TEX[Elementos Textuais: Introdução, Desenvolvimento, Conclusão]
-    TRAB --> POS[Elementos Pós-Textuais: Referências, Apêndices, Anexos]
-    PRE --> PRE_OB[Obrigatórios: Folha de Rosto, Aprovação, Resumos PT/EN, Sumário]
-    PRE --> PRE_OP[Opcionais: Errata, Dedicatória, Agradecimentos, Epígrafe, Listas]
-    POS --> POS_OB[Obrigatório: Referências - NBR 6023]
-    POS --> POS_OP[Opcionais: Glossário, Apêndices, Anexos, Índice - NBR 6034]
+\`\`\`tree
+TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724)
+- Trabalho Acadêmico (NBR 14724) | Teses, dissertações, TCCs e monografias
+  - Parte Externa | Proteção física e identificação inicial
+    - Capa | Elemento OBRIGATÓRIO de proteção física externa
+    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225
+  - Elementos Pré-Textuais | Antecedem o corpo da pesquisa e contextualizam o leitor
+    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027)
+    - Pré-Textuais Opcionais | Errata, folha de dedicatória, folha de agradecimentos, epígrafe, lista de ilustrações, lista de tabelas e lista de abreviaturas/siglas
+  - Elementos Textuais | O núcleo substantivo e investigativo do trabalho
+    - Introdução | Apresentação do tema, problema, hipóteses, justificativa e objetivos
+    - Desenvolvimento | Revisão de literatura, fundamentação teórica, metodologia e análise de dados
+    - Conclusão | Considerações finais, resposta aos objetivos e recomendações
+  - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão
+    - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023
+    - Pós-Textuais Opcionais | Glossário, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
 \`\`\`
 
 #### A Divisão Tripartite Padronizada:

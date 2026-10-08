@@ -30,10 +30,15 @@ export const submodulo101: ModuloFilho = {
 
 O Poder Legislativo da União é exercido pelo **Congresso Nacional**, que se estrutura sob o modelo de **Bicameralismo Federativo (Bicameralismo Mitigado ou Desigual)**, composto por duas Casas legislativas autônomas (Arts. 44 a 58 da CF/88):
 
-\`\`\`mermaid
-flowchart TD
-    CN["Congresso Nacional (Art. 44 da CF/88)"] --> CD["Câmara dos Deputados (Art. 45)<br/>• Representantes do POVO<br/>• Sistema proporcional de votos<br/>• 513 Deputados Federais (8 a 70 por Estado/DF)<br/>• Mandato de 4 anos (Legislatura)"]
-    CN --> SF["Senado Federal (Art. 46)<br/>• Representantes dos ESTADOS e DF<br/>• Sistema majoritário de votos<br/>• 81 Senadores (3 por Ente Federado fixos)<br/>• Mandato de 8 anos (2 Legislaturas)"]
+\`\`\`tree
+TITLE: Bicameralismo Federativo Brasileiro (CF/88, Arts. 44 a 58)
+- Congresso Nacional (CF/88, Art. 44) | Poder Legislativo da União sob modelo bicameral mitigado
+  - Câmara dos Deputados (Art. 45) | Representantes do POVO eleitos pelo sistema proporcional
+    - Bancada Federativa | 513 Deputados Federais (mínimo de 8 e máximo de 70 por Estado/DF)
+    - Mandato Eletivo | 4 anos de duração (coincide com a Legislatura)
+  - Senado Federal (Art. 46) | Representantes dos ESTADOS e do DF eleitos pelo sistema majoritário
+    - Bancada Paritária | 81 Senadores (3 senadores por unidade federativa, de forma fixa e igualitária)
+    - Mandato Eletivo | 8 anos de duração (equivale a duas Legislaturas, com renovação alternada de 1/3 e 2/3)
 \`\`\`
 
 * **Legislatura (Art. 44, Parágrafo Único):** Período de 4 anos que coincide com a duração do mandato dos deputados federais.
@@ -69,11 +74,20 @@ O Regimento Interno da Câmara dos Deputados (Resolução nº 17/1989 e atualiza
 
 As comissões são órgãos colegiados formados por parlamentares para instruir e deliberar sobre matérias legislativas com base na especialização temática:
 
-\`\`\`mermaid
-flowchart TD
-    COM["Comissões da Câmara dos Deputados"] --> PERM["Comissões Permanentes (Art. 24)<br/>• Subsistem pelas legislaturas<br/>• Ex: CCJC (Constituição e Justiça), CFT (Finanças e Tributação)"]
-    COM --> TEMP["Comissões Temporárias<br/>• Especiais (examinam PECs e projetos complexos)<br/>• Externas (missões fora da Câmara)<br/>• Parlamentares de Inquérito (CPIs)"]
-    COM --> MIST["Comissões Mistas (Art. 58 da CF/88)<br/>• Deputados e Senadores reunidos<br/>• Ex: Comissão Mista de Orçamento (CMO)"]
+\`\`\`tree
+TITLE: Tipologia das Comissões da Câmara dos Deputados
+- Comissões da Câmara dos Deputados | Órgãos colegiados de especialização temática e instrução legislativa
+  - Comissões Permanentes (Art. 24 do RICD) | Subsistem através das diferentes legislaturas com campos temáticos próprios
+    - Comissão de Constituição e Justiça e de Cidadania (CCJC) | Controle prévio de constitucionalidade e juridicidade
+    - Comissão de Finanças e Tributação (CFT) | Análise de compatibilidade e adequação financeira e orçamentária
+    - Comissões de Mérito Temático | Educação, Saúde, Cultura, Meio Ambiente, Segurança Pública, etc.
+  - Comissões Temporárias | Criadas para finalidade específica e extintas ao término do prazo ou missão
+    - Comissões Especiais | Instituídas para examinar Propostas de Emenda à Constituição (PECs) ou projetos complexos
+    - Comissões Externas | Designadas para cumprir missões temporárias e vistorias fora da sede da Câmara
+    - Comissões Parlamentares de Inquérito (CPIs) | Apuração de fato determinado por prazo certo, com poderes de investigação judiciais
+  - Comissões Mistas (Art. 58 da CF/88) | Integradas paritariamente por Deputados Federais e Senadores da República
+    - Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) | Exame do PPA, LDO e LOA
+    - Comissões Mistas de Medidas Provisórias | Emissão de parecer prévio antes da votação nos plenários
 \`\`\`
 
 #### A. A Tramitação e a Competência Conclusiva das Comissões (Art. 24, II do RICD)
@@ -97,11 +111,14 @@ As sessões plenárias realizam-se em dias úteis e dividem-se em Preparatórias
 #### A Estrutura em 4 Fases da Sessão Ordinária (*⚠️ Cobrado na Prova Câmara 2026 Técnico*):
 O Regimento Interno (Arts. 65 a 94) impõe a seguinte sequência rígida:
 
-\`\`\`mermaid
-flowchart LR
-    P1["1. Pequeno Expediente<br/>(60 minutos)"] --> P2["2. Grande Expediente<br/>(50 minutos)"]
-    P2 --> P3["3. Ordem do Dia<br/>(Fase Deliberativa / Votações)"]
-    P3 --> P4["4. Comunicações Parlamentares<br/>(Encerramento da Sessão)"]
+\`\`\`timeline
+P1 | 1. Pequeno Expediente | Duração: 60 minutos | Discursos de até 5 minutos por parlamentar inscrito; quórum de abertura de 1/10 da Casa
+---> Transição Imediata
+P2 | 2. Grande Expediente | Duração: 50 minutos | Pronunciamentos aprofundados de até 25 minutos para oradores sorteados sobre temas de relevância nacional
+---> Deliberação Central
+P3 | 3. Ordem do Dia | Fase Deliberativa das Votações | Discussão e votação de matérias pautadas; exige quórum de maioria absoluta (257 deputados registrados)
+---> Encerramento
+P4 | 4. Comunicações Parlamentares | Fase Final Residual | Manifestação breve de deputados e líderes partidários antes do término oficial da sessão do dia
 \`\`\`
 
 1. **Pequeno Expediente:** Duração improrrogável de **60 minutos**, iniciado pontualmente com o quórum de abertura (presença de pelo menos 1/10 dos deputados). Destina-se a breves comunicações de parlamentares previamente inscritos, com tempo de fala de até 5 minutos por orador.

@@ -34,11 +34,14 @@ Com a emergência do chamado **Quarto Paradigma da Ciência** (formulado pelo ci
 
 Nesse novo ecossistema, os **dados de pesquisa (*Research Data*)** ganharam o estatuto de produtos informacionais primários autônomos, exigindo tratamento documental tão rigoroso quanto as publicações bibliográficas tradicionais (Sayão & Sales, 2014; IBICT):
 
-\`\`\`mermaid
-flowchart LR
-    A["1º Paradigma:<br/>Empírico/Experimental<br/>(Observação direta)"] --> B["2º Paradigma:<br/>Teórico/Analítico<br/>(Leis da Física/Modelos)"]
-    B --> C["3º Paradigma:<br/>Computacional<br/>(Simulações complexas)"]
-    C --> D["4º Paradigma:<br/>e-Science / Big Data<br/>(Intensivo em Dados Brutos)"]
+\`\`\`timeline
+P1 | 1º Paradigma: Empírico / Experimental | Antiguidade e Idade Média | Observação direta e descrição de fenômenos naturais sem formalização matemática abstrata
+---> Formalização Teórica
+P2 | 2º Paradigma: Teórico / Analítico | Revolução Científica (Galileu, Newton) | Leis universais da física, equações analíticas, modelos teóricos e generalizações generalizáveis
+---> Computação Eletrônica
+P3 | 3º Paradigma: Computacional / Simulacional | Pós-Guerra / Século XX | Simulações complexas de equações diferenciais em computadores para fenômenos não observáveis diretamente
+---> Dilúvio de Dados
+P4 | 4º Paradigma: e-Science / Big Data | Século XXI (Jim Gray) | Investigação intensiva em dados brutos (*Data-Intensive Science*), mineração distribuída e curadoria digital permanente
 \`\`\`
 
 #### A. Tipologia de Dados de Pesquisa
@@ -67,31 +70,22 @@ A **Curadoria Digital** transcende a preservação digital técnica e o arquivam
 
 > *"A Curadoria Digital é a seleção, preservação, manutenção, agregação de valor e disponibilização continuada de ativos digitais ao longo de todo o seu ciclo de vida, com o propósito de mitigar a obsolescência tecnológica, atestar sua proveniência e permitir seu reúso futuro e confiável."*
 
-\`\`\`mermaid
-flowchart TD
-    subgraph Ciclo["Ciclo de Vida do Modelo DCC (Digital Curation Centre)"]
-        direction TB
-        C1["1. Conceber (Conceptualise)"] --> C2["2. Criar ou Receber (Create/Receive)"]
-        C2 --> C3["3. Avaliar e Selecionar (Appraise & Select)"]
-        C3 --> C4["4. Ingerir (Ingest)"]
-        C4 --> C5["5. Ação de Preservação (Preservation Action)"]
-        C5 --> C6["6. Armazenar (Store)"]
-        C6 --> C7["7. Acesso, Uso e Reúso (Access, Use & Reuse)"]
-        C7 --> C8["8. Transformar (Transform)"]
-    end
-    subgraph Continuas["Ações Contínuas (Transversais)"]
-        A1["Descrição e Informação de Representação (Metadados)"]
-        A2["Planejamento de Preservação"]
-        A3["Monitoramento da Comunidade (Community Watch)"]
-        A4["Curar e Preservar Continuamente"]
-    end
-    subgraph Ocasiao["Ações de Ocasião"]
-        O1["Descarte (Dispose)"]
-        O2["Reavaliação (Reappraise)"]
-        O3["Migração de Formato (Migrate)"]
-    end
-    Ciclo -.-> Continuas
-    Ciclo -.-> Ocasiao
+\`\`\`timeline
+C1 | 1. Conceber (Conceptualise) | Planejamento Inicial | Definir métodos de captura, requisitos de dados e formatos de preservação no Plano de Gestão de Dados (PGD)
+---> Coleta e Documentação
+C2 | 2. Criar ou Receber (Create/Receive) | Produção dos Ativos | Gerar os dados conforme protocolos técnicos e registrar metadados de proveniência inicial
+---> Aplicação da Política Institucional
+C3 | 3. Avaliar e Selecionar (Appraise & Select) | Filtragem Técnica | Determinar quais conjuntos de dados possuem valor de longo prazo para custódia permanente
+---> Validação de Fixidez e Formato
+C4 | 4. Ingerir (Ingest) | Entrada no Repositório | Transferência para o repositório confiável com verificação de integridade (*checksum*) e empacotamento
+---> Conversão e Tratamento Perene
+C5 | 5. Ação de Preservação (Preservation Action) | Salvaguarda Técnica | Limpeza, conversão para formatos abertos padrão (ex.: CSV, PNG, TIFF) e monitoramento de integridade
+---> Custódia Segura e Redundante
+C6 | 6. Armazenar (Store) | Infraestrutura Físico-Digital | Armazenamento em servidores seguros com redundância geográfica e política de cópias múltiplas (LOCKSS)
+---> Disseminação e Localização
+C7 | 7. Acesso, Uso e Reúso (Access & Reuse) | Entrega à Sociedade | Disponibilização via identificadores persistentes (DOI), interfaces de busca abertas e licenças Creative Commons
+---> Criação de Novos Conhecimentos
+C8 | 8. Transformar (Transform) | Retroalimentação Científica | Criação de novos subconjuntos de dados derivados, migrações para padrões futuros e reprocessamento
 \`\`\`
 
 #### A. Ações Sequenciais do Modelo DCC:
@@ -133,20 +127,19 @@ A legislação autoral brasileira insere-se no ramo do **Direito da Propriedade 
 
 #### B. A Dicotomia Canônica: Direitos Morais vs. Direitos Patrimoniais
 
-\`\`\`mermaid
-flowchart TD
-    DA["Direitos Autorais (Lei 9.610/98)"] --> DM["Direitos Morais (Art. 24)<br/>• Vínculo de personalidade<br/>• INALIENÁVEIS<br/>• IRRENUNCIÁVEIS<br/>• IMPRESCRITÍVEIS"]
-    DA --> DP["Direitos Patrimoniais (Arts. 28-45)<br/>• Conteúdo econômico<br/>• CESSÍVEIS e negociáveis<br/>• TEMPORÁRIOS (70 anos pós-morte)<br/>• Prescritíveis"]
-    
-    DM --> DM1["Reivindicar paternidade a qualquer tempo"]
-    DM --> DM2["Ter seu nome/pseudônimo indicado na obra"]
-    DM --> DM3["Conservar a obra inédita"]
-    DM --> DM4["Assegurar a integridade da obra"]
-    
-    DP --> DP1["Reprodução parcial ou integral"]
-    DP --> DP2["Edição, tradução e adaptação"]
-    DP --> DP3["Distribuição e comercialização"]
-    DP --> DP4["Comunicação ao público"]
+\`\`\`tree
+TITLE: Estrutura dos Direitos Autorais na Lei Federal nº 9.610/1998
+- Direitos Autorais no Brasil (Lei 9.610/98) | Proteção jurídica das criações do espírito expressas em qualquer suporte
+  - Direitos Morais do Autor (Art. 24) | Vínculo perene de personalidade entre o criador e a sua criação
+    - Características Canônicas | Inalienáveis, irrenunciáveis e imprescritíveis (não podem ser vendidos nem cedidos)
+    - Paternidade da Obra | Direito de reivindicar a autoria a qualquer tempo e ter o nome ou pseudônimo indicado
+    - Integridade e Ineditismo | Direito de manter a obra inédita e opor-se a alterações que desabonem a criação
+    - Modificação e Retirada | Direito de alterar a obra ou retirá-la de circulação por motivo de consciência moral
+  - Direitos Patrimoniais do Autor (Arts. 28 a 45) | Prerrogativa de exploração econômica e fruição pecuniária
+    - Características Canônicas | Renunciáveis, alienáveis, transferíveis, cedíveis contratualmente e temporários
+    - Modalidades de Exploração | Reprodução integral/parcial, tradução, adaptação, distribuição, edição e venda
+    - Prazo de Proteção Geral | Perduram por 70 anos contados de 1º de janeiro do ano subsequente ao falecimento do autor
+    - Domínio Público | Findo o prazo de 70 anos pós-morte (ou para autores falecidos sem herdeiros), a obra cai em domínio público
 \`\`\`
 
 * **Direitos Morais (Art. 24):**

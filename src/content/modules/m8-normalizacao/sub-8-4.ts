@@ -27,14 +27,19 @@ export const submodulo84: ModuloFilho = {
 
 A norma **ABNT NBR 6028** (*Informação e Documentação — Resumo, Resenha e Recensão — Apresentação*, revisada em 2021) padroniza a condensação do conteúdo documental em qualquer área do conhecimento humano:
 
-\`\`\`mermaid
-graph TD
-    A[Tipologia de Resumos - ABNT NBR 6028:2021] --> B[1. Resumo Informativo]
-    A --> C[2. Resumo Indicativo]
-    A --> D[3. Resumo Crítico / Resenha / Recensão]
-    B --> B1[Objetivos + Metodologia + Resultados + Conclusões: DISPENSA o original]
-    C --> C1[Indica apenas os tópicos gerais sem resultados: NÃO dispensa o original]
-    D --> D1[Emite juízo de valor e análise de mérito por especialista]
+\`\`\`tree
+TITLE: Tipologia de Resumos (ABNT NBR 6028:2021)
+- Resumos, Resenhas e Recensões (NBR 6028) | Apresentação condensada de documentos informacionais
+  - 1. Resumo Informativo | Condensa objetivos, metodologia, principais resultados e conclusões
+    - Suficiência Informativa | DISPENSA a leitura imediata do documento original
+    - Extensão Padrão | De 150 a 500 palavras em trabalhos acadêmicos; 100 a 250 em artigos de periódicos
+    - Estilo de Redação | Parágrafo único, voz ativa, verbo na 3ª pessoa do singular, sem enumeração de tópicos
+  - 2. Resumo Indicativo | Aponta apenas os pontos gerais abordados sem dados empíricos ou resultados
+    - Caráter Sumário | NÃO dispensa a consulta ao documento original
+    - Aplicação Prática | Índices de periódicos, alertas rápidos e guias bibliográficos sumários
+  - 3. Resumo Crítico (Resenha / Recensão) | Análise valorativa redigida por especialista temático
+    - Juízo de Valor | Emite julgamento crítico explícito sobre mérito científico e originalidade
+    - Extensão Livre | Não se submete ao limite numérico rígido de palavras da NBR 6028
 \`\`\`
 
 #### A. A Tipologia Tripartite Canônica:

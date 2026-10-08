@@ -43,16 +43,23 @@ Em julho de 2023, a ABNT publicou a aguardada revisão histórica da norma **ABN
 
 ### 2. Modalidades de Citação e Regras Tipográficas
 
-\`\`\`mermaid
-graph TD
-    A[Modalidades de Citação - NBR 10520:2023] --> B[Citação Direta Curta: Até 3 linhas]
-    A --> C[Citação Direta Longa: Mais de 3 linhas]
-    A --> D[Citação Indireta / Paráfrase]
-    A --> E[Citação de Citação: apud]
-    B --> B1[No fluxo do parágrafo, entre aspas duplas, p. obrigatória]
-    C --> C1[Bloco recuado a 4 cm, fonte menor, entrelinha simples, SEM aspas, p. obrigatória]
-    D --> D1[Palavras próprias, sem aspas, ano obrigatório, p. facultativa]
-    E --> E1[Autor Original apud Autor Consultado; referencia-se a obra lida]
+\`\`\`tree
+TITLE: Modalidades de Citação e Regras Tipográficas (ABNT NBR 10520:2023)
+- Citações em Documentos (NBR 10520:2023) | Menção no texto de informação colhida de outra fonte
+  - Citação Direta Curta (Até 3 Linhas) | Transcrição textual exata mantida no corpo do parágrafo
+    - Pontuação Tipográfica | Inserida obrigatoriamente entre aspas duplas ("...")
+    - Dados Obrigatórios | Indicação de autor, ano e página consultada (ex: Silva, 2023, p. 15)
+    - Aspas Internas | Aspas originais do texto citado convertem-se em aspas simples ('...')
+  - Citação Direta Longa (Mais de 3 Linhas) | Transcrição textual destacada do parágrafo
+    - Recuo Gráfico | Bloco recuado a 4 cm da margem esquerda da página
+    - Tipografia e Espaçamento | Tamanho de fonte menor (ex: 10 ou 11 pt) e entrelinhas simples
+    - Supressão de Aspas | SEM aspas duplas; indicação de autor, ano e página obrigatória
+  - Citação Indireta (Paráfrase / Livre) | Texto redigido com as próprias palavras do pesquisador
+    - Ausência de Aspas | Redação autoral livre baseada na ideia do autor consultado
+    - Dados Obrigatórios | Indicação de autor e ano obrigatória; número de página é facultativo
+  - Citação de Citação (apud) | Citação direta ou indireta de documento ao qual não se teve acesso
+    - Expressão latina apud | 'Citado por': Autor Original (ano) apud Autor Consultado (ano, p.)
+    - Lista de Referências | Na lista final, referencia-se OBRIGATORIAMENTE a obra consultada (efetivamente lida)
 \`\`\`
 
 #### A. Citação Direta Curta

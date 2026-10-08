@@ -28,11 +28,14 @@ export const submodulo13: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. A Hierarquia Conceitual Ontológica: Dado, Informação, Conhecimento e Sabedoria (DIKW)
 A fundamentação epistemológica da Ciência da Informação inicia-se pela diferenciação rigorosa dos quatro níveis da pirâmide ontológica de **Russell Ackoff (1989)**:
 
-\`\`\`mermaid
-graph TD
-    S["4. SABEDORIA (Wisdom)<br>Juízo Ético, Ação Prudente e Julgamento de Valor Humano"] --> K["3. CONHECIMENTO (Knowledge)<br>Apropriação Cognitiva, Estruturas Mentais, Compreensão e 'Saber-Fazer'"]
-    K --> I["2. INFORMAÇÃO (Information)<br>Dados Contextualizados, Dotados de Significado e Redutores de Incerteza"]
-    I --> D["1. DADO (Data)<br>Registros Brutos, Símbolos Desconexos, Sinais Neutros sem Semântica Intrínseca"]
+\`\`\`timeline
+D | 1. DADO (Data) | Nível Base | Registros brutos, símbolos desconexos, sinais neutros sem semântica intrínseca
+---> Contextualização e Estruturação
+I | 2. INFORMAÇÃO (Information) | Nível Intermediário | Dados contextualizados, dotados de significado e redutores de incerteza
+---> Internalização e Compreensão
+K | 3. CONHECIMENTO (Knowledge) | Nível Avançado | Apropriação cognitiva, estruturas mentais, compreensão e "saber-fazer"
+---> Juízo Ético e Discernimento
+S | 4. SABEDORIA (Wisdom) | Nível Superior | Julgamento de valor humano, ação prudente e tomada de decisão de longo prazo
 \`\`\`
 
 1. **Dado (*Data*):** Representação bruta, discreta e desprovida de contexto de um fato ou evento. Não possui significado inerente nem capacidade de direcionar ações por si só (ex.: o registro isolado \`PL 1234/2026\`).
@@ -61,13 +64,16 @@ No clássico ensaio *Information as Thing* (1991), o professor e pesquisador **M
 ### 3. O Estatuto Ontológico do Documento: De Otlet a Suzanne Briet
 O que transforma uma entidade qualquer do universo em um **documento**? A resposta foi construída pioneiramente por Paul Otlet (1934) e consolidada de forma brilhante por **Suzanne Briet (1951)** em *Qu'est-ce que la documentation?*:
 
-\`\`\`mermaid
-graph LR
-    O["Objeto da Natureza ou Artefato"] --> C1["1. Materialidade (Física / Digital)"]
-    C1 --> C2["2. Intencionalidade (Criado/Coletado para Registrar)"]
-    C2 --> C3["3. Tratamento Institucional (Classificado/Catalogado)"]
-    C3 --> C4["4. Valor Probatório (Funciona como Indício ou Testemunho)"]
-    C4 --> DOC["DOCUMENTO (Evidência Social)"]
+\`\`\`timeline
+O | Objeto da Natureza ou Artefato | Ponto de Partida | Entidade física ou ideia dispersa no universo sem destinação informacional prévia
+---> Fixação em Suporte
+C1 | 1. Materialidade | Condição Física ou Digital | Inscrição material tangível ou dados codificados em papel, película ou suporte eletrônico
+---> Finalidade Comunicacional
+C2 | 2. Intencionalidade | Registro Deliberado | Criação ou coleta orientada pelo propósito de comunicar, testemunhar ou preservar
+---> Custódia e Representação
+C3 | 3. Tratamento Institucional | Mediação Documentária | Classificação, catalogação e indexação perante instituição de guarda (biblioteca, arquivo ou museu)
+---> Evidência Social
+C4 | 4. Valor Probatório | Estatuto de Documento Pleno | O objeto atua como indício ou testemunho para comprovar e reconstituir fatos
 \`\`\`
 
 #### A. As Quatro Condições de Briet

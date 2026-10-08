@@ -29,10 +29,12 @@ Conforme a definição seminal de **Murilo Bastos da Cunha** (*Para Saber Mais: 
 
 A literatura canônica internacional (**Denis Grogan, 1995; Murilo Bastos da Cunha, 2001; Bernadete Campello, 2000**) categoriza as fontes de informação em três grandes níveis hierárquicos, segundo o grau de originalidade e tratamento documentário:
 
-\`\`\`mermaid
-graph TD
-    P["1. FONTES PRIMÁRIAS<br>Conhecimento original, inédito e não filtrado<br>(Artigos, Teses, Patentes, Diários Oficiais, Leis, Relatórios Técnicos)"] -->|Indexação, Condensação e Organização| S["2. FONTES SECUNDÁRIAS<br>Reorganização das primárias para localização rápida<br>(Bases Referenciais, Índices, Bibliografias, OPACs, Dicionários, Enciclopédias)"]
-    S -->|Sinalização e Guias de Rota| T["3. FONTES TERCIÁRIAS<br>Guias que direcionam para fontes primárias e secundárias<br>(Bibliografias de Bibliografias, Guias de Bibliotecas, Diretórios de Pesquisadores)"]
+\`\`\`timeline
+P | 1. FONTES PRIMÁRIAS | Conhecimento Original e Inédito | Artigos de periódicos, teses, patentes, Diários Oficiais (DOU/DJe), projetos de lei e relatórios técnicos
+---> Indexação, Condensação e Organização
+S | 2. FONTES SECUNDÁRIAS | Tratamento e Localização Rápida | Bases referenciais (Scopus, LexML), catálogos OPAC/RVBI, índices, bibliografias, dicionários e enciclopédias
+---> Sinalização e Guias de Rota
+T | 3. FONTES TERCIÁRIAS | Guias e Sinalizadores de Tráfego | Bibliografias de bibliografias, guias de bibliotecas, diretórios de centros de pesquisa e revisões do estado da arte
 \`\`\`
 
 ---
@@ -77,13 +79,12 @@ Diante da profusão de dados não validados na Internet, o bibliotecário legisl
 ### 5. Avaliação Científica de Sistemas de Recuperação da Informação: Os Testes de Cranfield (Cyril Cleverdon)
 Entre 1957 e 1966, na Faculdade de Aeronáutica de Cranfield (Inglaterra), **Cyril Cleverdon** conduziu os célebres **Testes de Cranfield (Cranfield I e Cranfield II)**, que fundaram a metodologia científica moderna de avaliação de sistemas de RI:
 
-\`\`\`mermaid
-graph TD
-    COL["Coleção de Teste Controlada"] --> QUERIES["Conjunto Padronizado de Consultas"]
-    QUERIES --> REL["Julgamento Humano Exaustivo de Relevância"]
-    REL --> CONTINGENCIA["Matriz de Contingência 2x2"]
-    CONTINGENCIA --> REC["REVOCAÇÃO (Recall): Proporção de Relevantes Resgatados"]
-    CONTINGENCIA --> PREC["PRECISÃO (Precision): Proporção de Relevantes nos Recuperados"]
+\`\`\`decision
+START: Coleção de Teste Controlada | Acervo estático e conhecido de documentos técnicos
+STEP: Consultas Padronizadas | Conjunto fixo de perguntas formuladas para o teste
+STEP: Julgamento Humano de Relevância | Especialistas avaliam pertinência prévia documento a documento
+STEP: Matriz de Contingência 2x2 | Cruzamento: Recuperados vs. Relevantes (Verdadeiros/Falsos Positivos)
+END: Cálculo das Métricas de Desempenho | Revocação (Recall: % resgatados) e Precisão (Precision: % pertinentes)
 \`\`\`
 
 #### A. A Matriz de Contingência 2x2

@@ -29,17 +29,20 @@ export const submodulo72: ModuloFilho = {
 
 Os agentes biológicos constituem uma das mais severas fontes de perda patrimonial irrecuperável em bibliotecas situadas em climas tropicais como o brasileiro (Cassares, 2000; Beck, 1995; Spinelli, 2003):
 
-\`\`\`mermaid
-graph TD
-    A[Agentes Biológicos de Degradação] --> B[Insetos Bibliófagos]
-    A --> C[Microrganismos - Fungos e Bactérias]
-    A --> D[Roedores - Ratos e Camundongos]
-    B --> B1[Brocas: Galerias cilíndricas profundas e frass]
-    B --> B2[Traças: Raspagem superficial e bordas rendilhadas]
-    B --> B3[Cupins: Destruição massiva interna e casca oca]
-    B --> B4[Baratas: Desgaste de lombadas e manchas de dejetos]
-    C --> C1[Fungos Filamentosos: UR > 65%, mofo ativo e foxing]
-    D --> D1[Roeduras marginais para desgaste dos dentes e ninhos]
+\`\`\`tree
+TITLE: Agentes Biológicos de Degradação Documental (Cassares, Beck, Spinelli)
+- Agentes Biológicos de Degradação | Pragas e microrganismos que atacam acervos em clima tropical
+  - Insetos Bibliófagos | Insetos que utilizam a celulose e a cola como alimento
+    - Brocas dos Livros (Coleoptera) | Perfuração de galerias cilíndricas sinuosas profundas e resíduo fino (*frass*)
+    - Traças dos Livros (Thysanura) | Raspagem superficial de impressos, adesivos de amido e bordas rendilhadas
+    - Cupins de Madeira Seca e Subterrâneos (Isoptera) | Destruição massiva e rápida da celulose, deixando capas ocas
+    - Baratas (Blattodea) | Desgaste superficial de lombadas, cola de encadernação e manchas ácidas de dejetos
+  - Microrganismos (Fungos e Bactérias) | Germinação ativa quando UR > 65% e temperatura > 22°C
+    - Fungos Filamentosos (Mofo e Bolor) | Digestão enzimática da fibra de celulose, pigmentação e odor acre característico
+    - Foxing (Manchas Ferruginosas) | Ação fúngica combinada com oxidação de partículas férricas do papel
+  - Roedores (Ratos e Camundongos) | Mamíferos de hábitos noturnos
+    - Roeduras Marginais | Roem papel e encadernações para desgaste contínuo de incisivos e confecção de ninhos
+    - Contaminação Biológica | Dejetos e urina que acidificam o papel e transmitem zoonoses aos profissionais
 \`\`\`
 
 #### A. Insetos Bibliófagos (Pragas de Bibliotecas)

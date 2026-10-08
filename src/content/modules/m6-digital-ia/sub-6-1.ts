@@ -28,11 +28,14 @@ export const submodulo61: ModuloFilho = {
 
 A Ciência da Informação e a Biblioteconomia contemporâneas (Lancaster, 1993; Cunha, 2000; Marchiori, 1997) delimitam com rigor epistemológico as categorias evolutivas das bibliotecas:
 
-\`\`\`mermaid
-graph LR
-    A[1. Biblioteca Tradicional] --> B[2. Biblioteca Eletrônica / Automatizada]
-    B --> C[3. Biblioteca Digital]
-    C --> D[4. Biblioteca Virtual / Sem Paredes]
+\`\`\`timeline
+TRAD | 1. Biblioteca Tradicional | Suporte Analógico Exclusivo | Acervo físico em papel, fichas catalográficas manuais e acesso restrito aos limites do prédio físico
+---> Informatização de Rotinas
+ELET | 2. Biblioteca Eletrônica / Automatizada | Gestão Informatizada / Acervo Físico | Catálogo em linha (OPAC), controle informatizado de empréstimos, mas acervo primário continua impresso
+---> Digitalização e Objetos Natos Digitais
+DIG | 3. Biblioteca Digital | Conteúdo na Íntegra em Formato Binário | Armazenamento e preservação de textos completos e dados digitais estruturados com metadados
+---> Desterritorialização e Redes Abertas
+VIRT | 4. Biblioteca Virtual / Sem Paredes | Acesso Distribuído Ubíquo | Existência puramente informacional em rede: sem sede física única, integrando múltiplos acervos globais
 \`\`\`
 
 * **1. Biblioteca Tradicional:**
@@ -54,16 +57,25 @@ graph LR
 
 Em *Information Architecture for the World Wide Web* (conhecido mundialmente como o "livro do urso polar"), **Louis Rosenfeld e Peter Morville** (1998/2006) estruturam a Arquitetura da Informação (AI) digital em **quatro sistemas fundamentais e interdependentes**:
 
-\`\`\`mermaid
-graph TD
-    AI[Arquitetura da Informação - Rosenfeld & Morville] --> S1[1. Sistemas de Organização]
-    AI --> S2[2. Sistemas de Navegação]
-    AI --> S3[3. Sistemas de Rotulagem]
-    AI --> S4[4. Sistemas de Busca]
-    S1 --> S1A[Esquemas Exatos vs. Ambíguos]
-    S2 --> S2A[Global, Local, Contextual, Breadcrumbs]
-    S3 --> S3A[Rótulos Verbais e Icônicos Consistentes]
-    S4 --> S4A[Motores, Facetas, Relevância, Filtros]
+\`\`\`tree
+TITLE: Quatro Sistemas da Arquitetura da Informação (Rosenfeld & Morville)
+- Arquitetura da Informação Digital | Estrutura de organização, navegação, rotulagem e busca
+  - 1. Sistemas de Organização | Como o conteúdo informacional é categorizado e agrupado
+    - Esquemas de Organização Exatos | Sem ambiguidade: alfabético, cronológico e geográfico
+    - Esquemas de Organização Ambíguos | Exigem interpretação: por assunto/tópico, tarefa e público-alvo
+    - Estruturas de Organização | Hierarquia taxonômica, modelo hipertextual e banco de dados relacional
+  - 2. Sistemas de Navegação | Como os usuários se movimentam pelo espaço informacional
+    - Navegação Global | Menus persistentes presentes em todas as páginas da plataforma
+    - Navegação Local | Menus setoriais específicos de uma subseção ou módulo temático
+    - Navegação Contextual | Links em linha (*inline*) inseridos diretamente no corpo textual
+    - Navegação Suplementar | Breadcrumbs (trilhas de migalhas), mapas do site e índices remissivos
+  - 3. Sistemas de Rotulagem | Como as opções e categorias são nomeadas de forma intuitiva
+    - Rótulos Verbais | Termos textuais claros, padronizados e livres de jargões técnicos herméticos
+    - Rótulos Icônicos | Ícones visuais universais acompanhados de texto alternativo descritivo
+  - 4. Sistemas de Busca | Como os usuários formulam consultas para extrair dados específicos
+    - Motor de Busca e Indexação | Algoritmos de busca booleana, vetorial e semântica
+    - Navegação Facetada | Filtros dinâmicos simultâneos por data, autor, formato e assunto
+    - Algoritmos de Ranqueamento | Ordenação de resultados por relevância, pertinência e data
 \`\`\`
 
 #### A. Sistemas de Organização (*Organization Systems*)

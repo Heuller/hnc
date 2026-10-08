@@ -4,6 +4,9 @@ import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
 import { EditorialDiagram } from './EditorialDiagram';
+import { TimelineFlow } from './TimelineFlow';
+import { AccordionTree } from './AccordionTree';
+import { DecisionFlow } from './DecisionFlow';
 
 interface MarkdownRendererProps {
   content: string;
@@ -68,8 +71,16 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
           ),
           code: ({ className: codeClass, children, ...props }) => {
             const rawContent = String(children || '').trim();
+
+            // Native infographic components — zero re-render, mobile-first
+            const lang = (codeClass || '').replace('language-', '').toLowerCase();
+            if (lang === 'timeline') return <TimelineFlow code={rawContent} />;
+            if (lang === 'tree') return <AccordionTree code={rawContent} />;
+            if (lang === 'decision') return <DecisionFlow code={rawContent} />;
+
+            // Legacy Mermaid fallback (being deprecated)
             const isMermaid =
-              Boolean(codeClass && (codeClass.includes('language-mermaid') || codeClass.includes('mermaid'))) ||
+              lang === 'mermaid' ||
               rawContent.startsWith('graph ') ||
               rawContent.startsWith('flowchart ') ||
               rawContent.startsWith('subgraph ');

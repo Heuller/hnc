@@ -31,17 +31,24 @@ A restauração de bens culturais e documentos históricos apoia-se nos pilares 
 
 > *"A restauração constitui o momento metodológico de reconhecimento da obra de arte ou documento histórico na sua consistência física e na sua dupla polaridade estética e histórica, com vistas à sua transmissão para o futuro."* — Cesare Brandi
 
-\`\`\`mermaid
-graph TD
-    A[Princípios Éticos da Restauração - Cesare Brandi] --> B[1. Reversibilidade Plena]
-    A --> C[2. Mínima Intervenção]
-    A --> D[3. Distinguibilidade / Discernibilidade]
-    A --> E[4. Compatibilidade Físico-Química]
-    A --> F[5. Respeito à Autenticidade Histórica]
-    B --> B1[Adesivos de amido/metilcelulose solúveis em água]
-    C --> C1[Intervir apenas onde há risco de perda de suporte]
-    D --> D1[Reparo harmonioso, mas sem criar falso histórico]
-    E --> E1[Papel japonês kozo compatível com fibras celulósicas]
+\`\`\`tree
+TITLE: Princípios Éticos da Restauração Documental (Cesare Brandi / Cartas do Restauro)
+- Ética Internacional da Restauração | Reconhecimento da obra em sua consistência física, estética e histórica
+  - 1. Reversibilidade Plena | Todo tratamento, reforço ou adesivo deve poder ser desfeito sem dano futuro
+    - Adesivos Reversíveis | Emprego exclusivo de amido de trigo, arroz purificado ou metilcelulose solúvel em água
+    - Banho de Reversão | Possibilidade técnica de remoção completa do enxerto sem desfibramento do suporte original
+  - 2. Mínima Intervenção | Agir estritamente no necessário para garantir a estabilidade física do item
+    - Estabilização Sem Excesso | Não intervir onde o documento mantém estabilidade e legibilidade
+    - Manutenção de Faltas Neutras | Lacunas que não comprometem a compreensão não devem ser preenchidas arbitrariamente
+  - 3. Distinguibilidade / Discernibilidade | O restauro deve ser perceptível ao exame atento sem criar falso histórico
+    - Diferenciação Óptica | Reintegração cromática e estrutural sutilmente discernível da matéria original
+    - Vedação a Falsificações | Proibição de recriar artificialmente pátina do tempo ou forjar documentos primitivos
+  - 4. Compatibilidade Físico-Química | Materiais introduzidos devem ser química e mecanicamente compatíveis
+    - Papel Japonês Kozo | Fibras longas de celulose pura de amoreira com pH neutro/alcalino
+    - Equilíbrio de Gramatura | Enxertos com gramatura similar ou ligeiramente inferior para não forçar as bordas
+  - 5. Respeito à Autenticidade Histórica | Preservação de todas as marcas legítimas da trajetória do documento
+    - Marcas de Posse e Históricas | Respeito a carimbos antigos, anotações de parlamentares e encadernações de época
+    - Registro em Ficha de Restauro | Documentação fotográfica e memorial descritivo antes, durante e após a intervenção
 \`\`\`
 
 #### Os Princípios Deontológicos Inegociáveis:

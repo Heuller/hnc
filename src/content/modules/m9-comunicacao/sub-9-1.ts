@@ -45,15 +45,18 @@ A Ciência da Informação contemporânea apoia-se nas formulações de **Arthur
 
 Desenvolvido pelos psicólogos e cientistas da informação **William Garvey e Belver Griffith** (1972), o modelo descreve a trajetória temporal que uma ideia científica percorre:
 
-\`\`\`mermaid
-graph TD
-    A[Início da Pesquisa / Ideia] --> B[1. Canais Informais: Conversas, Laboratório, Colégios Invisíveis]
-    B --> C[2. Relatórios de Pesquisa e Preprints em Repositórios Abertos]
-    C --> D[3. Apresentações Orais e Resumos em Congressos / Anais]
-    D --> E[4. Submissão Formal a Periódico Científico e Peer Review]
-    E --> F[5. Publicação do Artigo: Ápice do Canal Formal]
-    F --> G[6. Indexação em Bases, Citações e Revisões de Literatura]
-    G --> H[7. Incorporação em Livros Didáticos e Tratados / Saber Consolidado]
+\`\`\`timeline
+INF | 1. Canais Informais | Fase Preliminar e Restrita | Trocas verbais de laboratório, correios eletrônicos e debates em colégios invisíveis
+---> Registro Escrito Aberto
+PRE | 2. Preprints e Relatórios | Comunicação Semiformal Rápida | Depósito preliminar em servidores abertos de preprints e relatórios técnicos institucionais
+---> Validação e Feedback Entre Pares
+CONG | 3. Congressos e Anais | Exposição Acadêmica Pública | Apresentações em simpósios, debates em painéis e publicação de resumos em anais de eventos
+---> Submissão e Revisão por Pares (Peer Review)
+REV | 4. Periódico Científico | Canal Formal Canônico | Avaliação cega por pares (*double-blind review*), editoração, atribuição de DOI e publicação oficial
+---> Impacto, Disseminação e Mapeamento
+INDEX | 5. Indexação e Citações | Absorção pela Comunidade Científica | Inclusão em bases de resumos/índices (Scopus, Web of Science, SciELO) e acúmulo de citações
+---> Sedimentação Epistêmica
+CONS | 6. Saber Consolidado | Livros Didáticos e Tratados | O conhecimento testado e aceito converte-se em paradigma nos manuais (*textbooks*) e enciclopédias
 \`\`\`
 
 1. **Fase Informal (Rápida e Restrita):** Trocas diretas no laboratório, correspondência entre pares e distribuição de cópias preliminares de manuscritos aos membros do grupo.

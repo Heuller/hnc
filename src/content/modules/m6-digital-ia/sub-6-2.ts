@@ -51,13 +51,12 @@ $$\\text{Comunidades} \\longrightarrow \\text{Subcomunidades} \\longrightarrow \
 
 A literatura especializada de Ciência da Informação (Corrêa da Silva & Borges, 2024; Viana, 2022; Chauhan et al., 2018) mapeia a transição dos sistemas de gestão:
 
-\`\`\`mermaid
-graph TD
-    A[1. SIGB Tradicional Monolítico: Koha, Aleph, Pergamum] -->|Transição para Nuvem e APIs| B[2. LSP - Library Services Platform: FOLIO, Alma]
-    B --> B1[Arquitetura de Microsserviços Desacoplados]
-    B --> B2[Gateway Okapi]
-    B --> B3[Gestão Unificada: Físico + Digital + Assinaturas Eletrônicas]
-    B --> B4[Apoio a Linked Data e BIBFRAME]
+\`\`\`timeline
+SIGB | 1. SIGB Tradicional Monolítico | Era Analógica / Centrado no Suporte Físico | Softwares como Koha, Aleph e Pergamum: arquitetura em silo para controle de acervo físico, tombo e empréstimos
+---> Nuvem, Microsserviços e APIs REST
+LSP | 2. LSP (Library Services Platform) | Era Digital e Híbrida / Centrado em Serviços | Plataformas como FOLIO e Alma: arquitetura desacoplada com gateway Okapi e gestão integrada (físico, digital e licenças)
+---> Web Semântica e Interoperabilidade Aberta
+LINKED | 3. Dados Conectados e BIBFRAME | Próxima Fronteira dos Catálogos | Superação do padrão MARC 21 tradicional com ontologias de Linked Open Data e grafos de conhecimento
 \`\`\`
 
 #### A. Sistemas Integrados de Gestão de Bibliotecas (SIGB / ILS)

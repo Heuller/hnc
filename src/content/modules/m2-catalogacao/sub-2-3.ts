@@ -106,19 +106,19 @@ Como consequência direta do princípio de herança ontológica:
 * Toda e qualquer entidade herda os atributos e relacionamentos de Res.
 * Não existe mais uma entidade "Thema" separada (como havia no FRSAD): como qualquer entidade é uma *Res*, **qualquer entidade pode ser assunto de uma Obra** (*Work*).
 
-\`\`\`mermaid
-graph TD
-    Res["LRM-E1 Res (Entidade Raiz)"]
-    Res --> Work["LRM-E2 Work"]
-    Res --> Expr["LRM-E3 Expression"]
-    Res --> Manif["LRM-E4 Manifestation"]
-    Res --> Item["LRM-E5 Item"]
-    Res --> Agent["LRM-E6 Agent"]
-    Agent --> Person["LRM-E7 Person"]
-    Agent --> CollAgent["LRM-E8 Collective Agent"]
-    Res --> Nomen["LRM-E9 Nomen"]
-    Res --> Place["LRM-E10 Place"]
-    Res --> TimeSpan["LRM-E11 Time-span"]
+\`\`\`tree
+TITLE: Hierarquia Ontológica do IFLA LRM (Herança de Res)
+- LRM-E1 Res | Entidade Raiz — Superclasse universal de tudo no universo do discurso
+  - LRM-E2 Work (Obra) | Criação intelectual ou artística pura e distinta
+  - LRM-E3 Expression (Expressão) | Realização em signos linguísticos, visuais ou sonoros
+  - LRM-E4 Manifestation (Manifestação) | Corporificação física ou digital da expressão
+  - LRM-E5 Item (Item) | Exemplar singular de uma manifestação
+  - LRM-E6 Agent (Agente) | Entidade capaz de ação intencional e responsabilidade
+    - LRM-E7 Person (Pessoa) | Ser humano individual
+    - LRM-E8 Collective Agent (Agente Coletivo) | Órgãos coletivos, empresas e famílias
+  - LRM-E9 Nomen (Nomen) | Associação de qualquer signo/nome para identificar uma entidade
+  - LRM-E10 Place (Lugar) | Extensão espacial geográfica delimitada
+  - LRM-E11 Time-span (Intervalo de Tempo) | Extensão temporal com início, término e duração
 \`\`\`
 
 #### B. As 11 Entidades Oficiais do IFLA LRM

@@ -108,12 +108,16 @@ O **VCB** é o tesauro estruturado oficial da **Rede Virtual de Bibliotecas (RVB
 
 A Ciência da Informação contemporânea estendeu o estudo dos tesauros para os Sistemas de Organização do Conhecimento (SOC / KOS) na Web Semântica:
 
-\`\`\`mermaid
-graph LR
-    L["Lista de Termos / Glossário"] --> T["Taxonomia Hierárquica"]
-    T --> TE["Tesauro Documentário (ISO 25964)"]
-    TE --> SK["Padrão SKOS (W3C / RDF)"]
-    SK --> O["Ontologia Formal (OWL / RDFS)"]
+\`\`\`timeline
+L | 1. Lista de Termos / Glossário | Nível Básico | Relações não estruturadas: definições textuais sem controle de hierarquia ou rede de equivalência
+---> Introdução de Relações de Subordinação
+T | 2. Taxonomia Hierárquica | Estrutura em Árvore | Organização formal por classes e subclasses (relação todo-parte e gênero-espécie)
+---> Controle Terminológico e Equivalência
+TE | 3. Tesauro Documentário | Padrão ISO 25964 | Vocabulário controlado completo com relações de equivalência (USE/UP), hierarquia (TG/TE) e associação (TR)
+---> Modelagem em Grafo RDF
+SK | 4. Padrão SKOS (W3C) | Simple Knowledge Organization System | Serialização de tesauros na Web Semântica via conceitos RDF (prefLabel, altLabel, broader, narrower)
+---> Formalização Lógica Completa e Inferência
+O | 5. Ontologia Formal | Padrão W3C (OWL / RDFS) | Especificação formal e explícita com classes, propriedades e axiomas lógicos para inferência automatizada
 \`\`\`
 
 #### A. Ontologias (Thomas Gruber, 1993)

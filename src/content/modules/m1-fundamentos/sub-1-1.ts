@@ -26,10 +26,12 @@ export const submodulo11: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. A Trajetória Epistemológica e Rupturas Históricas
 A gestão social e científica do conhecimento registrado evoluiu ao longo de séculos através de rupturas epistemológicas fundamentais. O **CEBRASPE** cobra com rigor cirúrgico a diferenciação conceitual, cronológica e metodológica entre as três disciplinas correlatas: **a Biblioteconomia**, **a Documentação** e **a Ciência da Informação (CI)**.
 
-\`\`\`mermaid
-graph TD
-    B["BIBLIOTECONOMIA (Antiguidade / Séc. XIX)<br>Objeto: O Livro e a Biblioteca<br>Foco: Custódia, Tratamento Técnico e Uso Social"] -->|Explosão de Periódicos Científicos| D["DOCUMENTAÇÃO (Otlet & Briet - 1895/1934)<br>Objeto: O Documento em Qualquer Suporte<br>Foco: Princípio Monográfico e Disseminação"]
-    D -->|Pós-Segunda Guerra / Guerra Fria| CI["CIÊNCIA DA INFORMAÇÃO (Bush, Mooers, Borko - 1968)<br>Objeto: A Informação em Si (Propriedades e Fluxos)<br>Foco: Sistemas de Recuperação (IR), Redes e Cognição"]
+\`\`\`timeline
+BIBLIO | Biblioteconomia (Antiguidade / Séc. XIX) | Objeto: O Livro e a Biblioteca | Foco: Custódia, Tratamento Técnico e Uso Social
+---> Explosão de Periódicos Científicos
+DOC | Documentação (Otlet & Briet — 1895/1934) | Objeto: O Documento em Qualquer Suporte | Foco: Princípio Monográfico e Disseminação
+---> Pós-Segunda Guerra / Guerra Fria
+CI | Ciência da Informação (Bush, Mooers, Borko — 1968) | Objeto: A Informação em Si (Propriedades e Fluxos) | Foco: Sistemas de RI, Redes e Cognição
 \`\`\`
 
 ---

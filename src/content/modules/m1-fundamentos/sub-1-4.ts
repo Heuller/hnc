@@ -26,11 +26,14 @@ export const submodulo14: ModuloFilho = {
   teoriaDensaMarkdown: `### 1. O Marco Regulatório Federal da Profissão de Bibliotecário
 O exercício profissional da Biblioteconomia no Brasil possui estatura legal pública federal, sendo regulado por diplomas normativos específicos cuja literalidade e jurisprudência são intensamente cobradas pelo **CEBRASPE**:
 
-\`\`\`mermaid
-graph TD
-    L4084["LEI FEDERAL Nº 4.084/1962<br>Dispõe sobre a profissão e cria as atribuições privativas"] --> D56725["DECRETO Nº 56.725/1965<br>Regulamenta a fiscalização e os órgãos de classe"]
-    D56725 --> L9674["LEI FEDERAL Nº 9.674/1998<br>Reestrutura o Sistema CFB/CRB e o regime disciplinar"]
-    L9674 --> RES207["RESOLUÇÃO CFB Nº 207/2018<br>Código de Ética Profissional do Bibliotecário"]
+\`\`\`timeline
+L4084 | LEI FEDERAL Nº 4.084/1962 | Marco Matriz da Profissão | Dispõe sobre a profissão de Bibliotecário e fixa as atribuições privativas exclusivas
+---> Regulamentação
+D56725 | DECRETO Nº 56.725/1965 | Regulamentação Executiva | Regulamenta a fiscalização profissional e disciplina a atuação dos órgãos de classe
+---> Reestruturação do Sistema
+L9674 | LEI FEDERAL Nº 9.674/1998 | Modernização Institucional | Reestrutura o Sistema CFB/CRB, fixa penalidades e o regime disciplinar
+---> Deontologia e Prática
+RES207 | RESOLUÇÃO CFB Nº 207/2018 | Código de Ética Profissional | Fixa os princípios fundamentais, deveres, proibições e gradação das sanções disciplinares
 \`\`\`
 
 ---

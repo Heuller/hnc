@@ -48,28 +48,16 @@ Preservar documentos digitais é um desafio radicalmente mais complexo e dinâmi
 
 O **Open Archival Information System (OAIS)**, padronizado internacionalmente pela norma **ISO 14721**, é o arcabouço conceitual definidor de todo Repositório Digital Confiável (RDC-Arq e ISO 16363):
 
-\`\`\`mermaid
-graph LR
-    subgraph Ambiente Externo
-        P[Produtor]
-        C[Consumidor / Comunidade Alvo]
-        M[Administração / Gestão]
-    end
-    subgraph Repositório OAIS - ISO 14721
-        ING[Ingestão - Ingest]
-        AS[Armazenamento - Archival Storage]
-        DM[Gestão de Dados - Data Management]
-        ADM[Administração - Administration]
-        PP[Planejamento da Preservação - Preservation Planning]
-        ACC[Acesso - Access]
-    end
-    P -->|Envia SIP| ING
-    ING -->|Gera AIP| AS
-    ING -. Metadados .-> DM
-    PP -. Monitora Tecnologia .-> ADM
-    ADM -. Diretrizes .-> AS
-    AS -->|AIP para DIP| ACC
-    ACC -->|Entrega DIP| C
+\`\`\`timeline
+PROD | Produtor (Producer) | Ambiente Externo | Submete os objetos digitais originais encapsulados no pacote de submissão (SIP)
+---> Ingestão (Ingest) no Repositório
+ING | Módulo de Ingestão | Validação e Conversão | Valida integridade (checksum), extrai metadados e empacota o pacote de arquivamento (AIP)
+---> Armazenamento Arquivístico (Archival Storage)
+STORE | Armazenamento & Gestão de Dados | Custódia Segura Permanente | Guarda os AIPs com redundância física e gerencia metadados sob vigilância do Planejamento da Preservação
+---> Solicitação de Consulta
+ACC | Módulo de Acesso (Access) | Transformação em DIP | Recebe requisições de busca, descompacta os AIPs e gera o pacote de disseminação (DIP)
+---> Entrega Final
+CONS | Consumidor / Comunidade-Alvo | Usuário Final | Recebe o DIP customizado com garantia de inteligibilidade, proveniência e autenticidade
 \`\`\`
 
 #### A. As Três Entidades do Ambiente Externo

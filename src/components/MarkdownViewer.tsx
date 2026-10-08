@@ -3,6 +3,9 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Lightbulb, AlertTriangle, Bookmark, BookOpen, CheckCircle2, MoveHorizontal } from 'lucide-react';
 import { EditorialDiagram } from './common/EditorialDiagram';
+import { TimelineFlow } from './common/TimelineFlow';
+import { AccordionTree } from './common/AccordionTree';
+import { DecisionFlow } from './common/DecisionFlow';
 
 export interface MarkdownViewerProps {
   content: string;
@@ -192,8 +195,16 @@ export const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
           },
           code: ({ className: codeClass, children, ...props }: any) => {
             const rawContent = String(children || '').trim();
+
+            // Native infographic components — zero re-render, mobile-first
+            const lang = (codeClass || '').replace('language-', '').toLowerCase();
+            if (lang === 'timeline') return <TimelineFlow code={rawContent} />;
+            if (lang === 'tree') return <AccordionTree code={rawContent} />;
+            if (lang === 'decision') return <DecisionFlow code={rawContent} />;
+
+            // Legacy Mermaid fallback (being deprecated)
             const isMermaid =
-              Boolean(codeClass && (codeClass.includes('language-mermaid') || codeClass.includes('mermaid'))) ||
+              lang === 'mermaid' ||
               rawContent.startsWith('graph ') ||
               rawContent.startsWith('flowchart ') ||
               rawContent.startsWith('subgraph ');

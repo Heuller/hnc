@@ -30,15 +30,14 @@ O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da c
 
 Ao contrário dos Bancos de Dados Relacionais clássicos (SGBDs baseados em SQL), que operam sobre dados estruturados com correspondência determinística e exata, os **Sistemas de Recuperação da Informação (SRI)** operam predominantemente sobre **textos em linguagem natural não estruturados ou semiestruturados**, onde a pertinência e a relevância possuem natureza conceitual, gradual e subjetiva.
 
-\`\`\`mermaid
-graph TD
-    DOCS["Coleção de Documentos (Textos Não Estruturados)"] --> PRE["Pré-processamento: Tokenização, Stop Words e Stemming"]
-    PRE --> INV["Indexação: Construção do Arquivo Invertido (Inverted Index)"]
-    USER["Usuário com Necessidade de Informação"] --> QUERY["Formulação da Consulta (Query com Operadores)"]
-    QUERY --> MATCH["Mecanismo de Casamento e Algoritmo de Similaridade (Matching)"]
-    INV --> MATCH
-    MATCH --> RANK["Ranqueamento de Resultados por Grau de Relevância"]
-    RANK --> USER
+\`\`\`decision
+START: Coleção de Documentos | Textos não estruturados na base informacional
+STEP: Pré-processamento Textual | Tokenização, remoção de stopwords e radicalização (stemming)
+STEP: Indexação & Arquivo Invertido | Mapeamento estruturado de termos para os respectivos documentos
+STEP: Formulação da Consulta (Query) | Usuário traduz necessidade de informação com termos e operadores
+STEP: Casamento & Similaridade | Algoritmo (vetorial/probabilístico) compara query e índice invertido
+STEP: Ranqueamento por Relevância | Atribuição de pesos (TF-IDF/BM25) e ordenação por pertinência
+END: Entrega ao Usuário | Apresentação dos resultados para validação da necessidade
 \`\`\`
 
 ---
@@ -107,9 +106,10 @@ $$\\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência
 ### 4. A Estrutura Interna de Dados: O Arquivo Invertido (*Inverted Index*)
 Como os sistemas de busca conseguem responder consultas booleanas em bilhões de páginas em frações de segundo? Através da arquitetura do **Arquivo Invertido**:
 
-\`\`\`mermaid
-graph LR
-    T["Texto Original:<br>Doc 1: 'processo legislativo'<br>Doc 2: 'regimento legislativo'"] --> INV["ARQUIVO INVERTIDO:<br>'legislativo' -> Doc 1 (pos 2), Doc 2 (pos 2)<br>'processo' -> Doc 1 (pos 1)<br>'regimento' -> Doc 2 (pos 1)"]
+\`\`\`timeline
+T | Textos Originais na Base | Coleção de Documentos Brutos | Doc 1: "processo legislativo" | Doc 2: "regimento legislativo"
+---> Tokenização e Inversão dos Ponteiros
+INV | Arquivo Invertido (Inverted Index) | Dicionário em Memória & Postings | 'legislativo' → Doc 1 (pos 2), Doc 2 (pos 2) • 'processo' → Doc 1 (pos 1) • 'regimento' → Doc 2 (pos 1)
 \`\`\`
 
 * **Vocabulário / Dicionário de Termos:** Lista alfabética de todas as palavras distintas da coleção, mantida em memória primária rápida (estruturada em árvores B+ ou tabelas *Hash*).

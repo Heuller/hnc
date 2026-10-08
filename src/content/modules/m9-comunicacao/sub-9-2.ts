@@ -43,13 +43,12 @@ A partir do final da década de 1970 e ao longo dos anos 1980 e 1990, as bibliot
 
 O movimento foi consagrado e sistematizado internacionalmente por três declarações seminais sucessivas:
 
-\`\`\`mermaid
-graph LR
-    A[1. Declaração de Budapeste - BOAI 2002] --> B[2. Declaração de Bethesda - 2003]
-    B --> C[3. Declaração de Berlim - 2003]
-    A --> A1[Inaugura o Movimento e define Vias Verde e Dourada]
-    B --> B1[Foco em Ciências da Saúde e Depósito Obrigatório em Repositórios]
-    C --> C1[Pacto Global estendido a todas as Ciências, Artes e Humanidades]
+\`\`\`timeline
+BUD | 1. Declaração de Budapeste (BOAI 2002) | Marco Inaugural do Movimento | Fixa a definição universal de Acesso Aberto e consagra as duas vias canônicas: Verde (autoarquivamento) e Dourada (periódicos abertos)
+---> Foco nas Ciências Biomédicas e Agências de Fomento
+BETH | 2. Declaração de Bethesda (2003) | Mandato de Depósito em Repositórios | Enfatiza o depósito obrigatório de artigos em repositórios abertos (ex: PubMed Central) como condição de financiamento público
+---> Expansão Universal para Todas as Áreas do Conhecimento
+BER | 3. Declaração de Berlim (2003) | Pacto Global Interdisciplinar | Ratificada por governos e academias mundiais (Sociedade Max Planck), estendendo o Acesso Aberto às Artes, Humanidades e Patrimônio
 \`\`\`
 
 1. **Iniciativa de Acesso Aberto de Budapeste (BOAI — *Budapest Open Access Initiative*, 2002):**

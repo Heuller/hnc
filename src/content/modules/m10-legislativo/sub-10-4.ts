@@ -29,16 +29,16 @@ export const submodulo104: ModuloFilho = {
 
 A Carta Magna de 1988 ("Constituição Cidadã") ocupa o ápice da pirâmide normativa brasileira (Kelsen), servindo de fundamento de validade para todas as leis e atos do Poder Público (Silva, 2021; Mendes & Gonet, 2022):
 
-\`\`\`mermaid
-flowchart TD
-    CF["Classificação Dogmática da CF/88"]
-    CF --> C1["Origem: PROMULGADA (Democrática / Votada pelo povo via Constituinte)"]
-    CF --> C2["Forma: ESCRITA (Codificada em documento solene)"]
-    CF --> C3["Conteúdo: FORMAL (Todas as matérias no texto possuem status supremo)"]
-    CF --> C4["Modo: DOGMÁTICA (Sistematiza os valores dominantes no momento constituinte)"]
-    CF --> C5["Estabilidade: RÍGIDA (Alteração exige rito solene e quórum de 3/5 em 2 turnos)"]
-    CF --> C6["Extensão: ANALÍTICA (Minuciosa, extensa e detalhista)"]
-    CF --> C7["Finalidade: DIRIGENTE (Estabelece metas e programas socioeconômicos futuros)"]
+\`\`\`tree
+TITLE: Classificação Dogmática da Constituição Federal de 1988
+- Constituição Federal de 1988 | Carta Magna e ápice do ordenamento jurídico brasileiro
+  - Origem: Promulgada | Democrática, votada e aprovada por Assembleia Nacional Constituinte
+  - Forma: Escrita | Codificada e solenemente consolidada em um documento único
+  - Conteúdo: Formal | Todas as regras inseridas no texto possuem estatura constitucional suprema
+  - Modo de Elaboração: Dogmática | Sistematiza dogmas e valores dominantes na fase constituinte
+  - Estabilidade: Rígida | Alteração restrita a processo solene e quórum de 3/5 em 2 turnos (Art. 60)
+  - Extensão: Analítica | Minuciosa, extensa e detalhista na disciplina das relações estatais e sociais
+  - Finalidade: Dirigente | Estabelece programas, metas de desenvolvimento e diretrizes para o futuro
 \`\`\`
 
 #### A. Estrutura do Texto Constitucional
@@ -84,14 +84,14 @@ Independência nacional; prevalência dos direitos humanos; autodeterminação d
 
 Os direitos fundamentais vinculam tanto o Estado quanto as relações particulares (eficácia horizontal dos direitos):
 
-\`\`\`mermaid
-flowchart TD
-    REM["Os Cinco Remédios Constitucionais do Art. 5º"]
-    REM --> HC["Habeas Corpus (inciso LXVIII)<br/>• Tutela a liberdade de locomoção corporal<br/>• Ação GRATUITA; dispensa advogado"]
-    REM --> HD["Habeas Data (inciso LXXII)<br/>• Acesso ou retificação de dados pessoais em registros públicos<br/>• Ação GRATUITA; personalíssima"]
-    REM --> MS["Mandado de Segurança (inciso LXIX)<br/>• Direito líquido e certo contra ilegalidade/abuso<br/>• Prazo decadencial de 120 dias"]
-    REM --> MI["Mandado de Injunção (inciso LXXI)<br/>• Omissão legislativa que inviabiliza direito fundamental<br/>• Não cabe se houver norma aplicável"]
-    REM --> AP["Ação Popular (inciso LXXIII)<br/>• Anular ato lesivo ao patrimônio, moralidade ou meio ambiente<br/>• Proposta por CIDADÃO (eleitor); isenta de custas"]
+\`\`\`tree
+TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
+- Ações Constitucionais de Tutela de Direitos | Instrumentos jurisdicionais de proteção e garantias cívicas
+  - Habeas Corpus (Art. 5º, LXVIII) | Protege a liberdade de locomoção corporal contra ilegalidade ou abuso. Gratuito e dispensa advogado.
+  - Habeas Data (Art. 5º, LXXII) | Assegura acesso ou retificação de dados pessoais em bancos governamentais. Gratuito e de natureza personalíssima.
+  - Mandado de Segurança (Art. 5º, LXIX) | Protege direito líquido e certo não amparado por HC/HD. Prova pré-constituída e prazo decadencial de 120 dias.
+  - Mandado de Injunção (Art. 5º, LXXI) | Combate a falta de norma regulamentadora que inviabilize o exercício de direitos e liberdades constitucionais.
+  - Ação Popular (Art. 5º, LXXIII) | Proposta por cidadão (eleitor) para anular ato lesivo ao patrimônio público, moralidade administrativa ou meio ambiente.
 \`\`\`
 
 #### A. Eficácia e Aplicabilidade das Normas Constitucionais (José Afonso da Silva):

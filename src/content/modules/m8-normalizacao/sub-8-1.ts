@@ -44,16 +44,19 @@ A norma **ABNT NBR 6023** (*Informação e Documentação — Referências — E
 
 ### 2. Regras Fundamentais de Autoria e Tipografia
 
-\`\`\`mermaid
-graph TD
-    A[Autoria na NBR 6023] --> B[Autoria Pessoal]
-    A --> C[Autoria Institucional / Governamental]
-    A --> D[Obra sem Autoria Declarada / Anônima]
-    B --> B1[Até 3 Autores: Indicam-se TODOS, separados por ponto e vírgula]
-    B --> B2[4 ou mais Autores: Regra geral indica TODOS; facultativo o primeiro + et al.]
-    C --> C1[Órgãos de Administração Direta: Jurisdição Geográfica em MAIÚSCULAS]
-    C --> C2[Entidades com Nome Próprio Distintivo: Nome da Instituição em MAIÚSCULAS]
-    D --> D1[Entrada pelo TÍTULO com primeira palavra em MAIÚSCULAS]
+\`\`\`tree
+TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
+- Autoria na ABNT NBR 6023 | Regras formais para representação e ordenação de pontos de acesso
+  - Autoria Pessoal | Sobrenome em MAIÚSCULAS seguido de prenomes por extenso ou abreviados
+    - Até 3 Autores | Indicam-se obrigatoriamente TODOS, separados por ponto e vírgula (; )
+    - 4 ou Mais Autores | Regra geral indica TODOS; é facultativo indicar o primeiro seguido de et al.
+    - Organizadores e Coordenadores | Sobrenome em MAIÚSCULAS seguido do tipo de responsabilidade (Org., Coord., Ed.)
+  - Autoria Institucional / Governamental | Entidades coletivas, órgãos públicos e associações
+    - Administração Direta | Entrada pela jurisdição geográfica em MAIÚSCULAS (ex: BRASIL. Congresso Nacional.)
+    - Entidades com Nome Distintivo | Entrada direta pelo nome da entidade em MAIÚSCULAS (ex: UNIVERSIDADE DE BRASÍLIA.)
+  - Obra sem Autoria Declarada (Anônima) | Inexistência de autor pessoal ou institucional identificado
+    - Entrada pelo Título | Primeira palavra do título em MAIÚSCULAS (desconsiderando artigo definido inicial)
+    - Proibição de Anon | É terminantemente vedado o uso da expressão latina 'Anon.' ou 'Anônimo'
 \`\`\`
 
 #### A. Entrada de Autoria Pessoal
