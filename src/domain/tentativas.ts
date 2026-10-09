@@ -6,7 +6,8 @@ import {
 export type TipoTentativa =
   | 'verificacao_submodulo'
   | 'desafio_modulo'
-  | 'portal_revisao';
+  | 'portal_revisao'
+  | 'submodulo_revisao';
 
 export interface RespostaTentativa {
   questionId: string;

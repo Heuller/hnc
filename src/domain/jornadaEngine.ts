@@ -22,7 +22,8 @@ export type EtapaStatus =
 export type TipoEtapa =
   | 'submodulo'
   | 'desafio_modulo'
-  | 'portal_revisao';
+  | 'portal_revisao'
+  | 'submodulo_revisao';
 
 export interface BloqueioFaltaItensInfo {
   bloqueado: boolean;
@@ -423,78 +424,91 @@ export function deriveJornadaState(params: {
 
     etapaAnteriorConcluida = desafioConcluido;
 
-    // 3. Portal de Revisão P(k) (SOMENTE QUANDO k >= 2 — Regra D.1)
-    // De M1 para M2 NÃO há portal!
+    // 3. Submódulo de Revisão Científica Rn (antigo Portal P(k) migrado com histórico - Marco R4/R5)
+    // De M1 para M2 não há portal/revisão intermediária; ocorre a partir de k >= 2
     if (k >= 2) {
       const portalId = `portal-${macro.id}`;
+      const revisaoId = `revisao-${macro.id}`;
       const moduloRevisado = k - 1;
-      const tentativasPortal = filtrarTentativasPorTarget(tentativas, portalId, false);
-      const ultimaTentativaPortal = obterUltimaTentativa(tentativas, portalId, false);
-      const portalConcluido = tentativasPortal.some((t) => t.aprovado);
-      const melhorAprovPortal = tentativasPortal.reduce(
+
+      // Busca tentativas registradas tanto com o novo ID (revisao-mk) quanto com o ID legado (portal-mk)
+      const tentativasNovo = filtrarTentativasPorTarget(tentativas, revisaoId, false);
+      const tentativasLegado = filtrarTentativasPorTarget(tentativas, portalId, false);
+      const tentativasCombinadas = [...tentativasNovo, ...tentativasLegado];
+      const ultimaTentativaRevisao =
+        obterUltimaTentativa(tentativasCombinadas, revisaoId, false) ||
+        obterUltimaTentativa(tentativasCombinadas, portalId, false);
+      const revisaoConcluida = tentativasCombinadas.some((t) => t.aprovado);
+      const melhorAprovRevisao = tentativasCombinadas.reduce(
         (max, t) => Math.max(max, Math.round(t.aproveitamento * 100)),
         0
       );
 
-      const isPortalDesbloqueado = etapaAnteriorConcluida || modoLivre;
-      const revisaoDirigidaPortal = avaliarRevisaoDirigida(
-        tentativasPortal,
-        secoesReabertasAposFalha[portalId] || []
+      const isRevisaoDesbloqueada = etapaAnteriorConcluida || modoLivre;
+      const revisaoDirigida = avaliarRevisaoDirigida(
+        tentativasCombinadas,
+        [...(secoesReabertasAposFalha[revisaoId] || []), ...(secoesReabertasAposFalha[portalId] || [])]
       );
 
-      let statusPortal: EtapaStatus = 'bloqueada';
-      if (!isPortalDesbloqueado) {
-        statusPortal = 'bloqueada';
-      } else if (portalConcluido) {
-        statusPortal = 'concluida';
-      } else if (revisaoDirigidaPortal) {
-        statusPortal = 'em_revisao_dirigida';
-      } else if (tentativasPortal.length > 0) {
-        statusPortal = 'em_andamento';
+      let statusRevisao: EtapaStatus = 'bloqueada';
+      if (!isRevisaoDesbloqueada) {
+        statusRevisao = 'bloqueada';
+      } else if (revisaoConcluida) {
+        statusRevisao = 'concluida';
+      } else if (revisaoDirigida) {
+        statusRevisao = 'em_revisao_dirigida';
+      } else if (tentativasCombinadas.length > 0) {
+        statusRevisao = 'em_andamento';
       } else {
-        statusPortal = 'disponivel';
+        statusRevisao = 'disponivel';
       }
 
-      const etapaPortal: EtapaJornadaState = {
-        id: portalId,
-        tipo: 'portal_revisao',
+      const etapaRevisao: EtapaJornadaState = {
+        id: revisaoId,
+        tipo: 'submodulo_revisao',
         moduloNumero: k,
         moduloId: macro.id,
-        titulo: `Portal de Revisão P(${k}): Retenção de M${moduloRevisado}`,
-        tituloCurto: `Portal P(${k})`,
-        status: statusPortal,
-        isDesbloqueada: isPortalDesbloqueado,
+        titulo: `Submódulo de Revisão Científica R${k}: Retenção de M${moduloRevisado}`,
+        tituloCurto: `Revisão R${k}`,
+        status: statusRevisao,
+        isDesbloqueada: isRevisaoDesbloqueada,
         totalItens: JORNADA_CONFIG.portalItensTotal, // 20
         acertosNecessarios: JORNADA_CONFIG.portalAcertosMinimo, // 17
         errosMaximos: JORNADA_CONFIG.portalErrosMaximo, // 3
         descricaoRegra: `${JORNADA_CONFIG.portalAcertosMinimo} acertos em ${JORNADA_CONFIG.portalItensTotal} itens (no máximo ${JORNADA_CONFIG.portalErrosMaximo} erros)`,
-        tentativasCount: tentativasPortal.length,
-        ultimaTentativa: ultimaTentativaPortal,
-        melhorAproveitamentoPercent: melhorAprovPortal,
-        aprovado: portalConcluido,
-        revisaoDirigida: revisaoDirigidaPortal,
-        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com 85% ou mais para liberar o Portal de Revisão P(${k}).`,
+        tentativasCount: tentativasCombinadas.length,
+        ultimaTentativa: ultimaTentativaRevisao,
+        melhorAproveitamentoPercent: melhorAprovRevisao,
+        aprovado: revisaoConcluida,
+        revisaoDirigida,
+        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com 85% ou mais para liberar a Revisão R${k}.`,
         foraDaTrilha: false,
       };
 
-      etapas[portalId] = etapaPortal;
-      etapasOrdenadas.push(etapaPortal);
+      etapas[revisaoId] = etapaRevisao;
+      // Alias legado para compatibilidade bidirecional
+      etapas[portalId] = {
+        ...etapaRevisao,
+        id: portalId,
+        tipo: 'portal_revisao',
+      };
+      etapasOrdenadas.push(etapaRevisao);
 
-      if (!proximoPassoEncontrado && isPortalDesbloqueado && statusPortal !== 'concluida') {
+      if (!proximoPassoEncontrado && isRevisaoDesbloqueada && statusRevisao !== 'concluida') {
         proximoPassoEncontrado = {
-          etapaId: portalId,
-          tipo: 'portal_revisao',
+          etapaId: revisaoId,
+          tipo: 'submodulo_revisao',
           moduloNumero: k,
-          titulo: `Portal de Revisão P(${k})`,
+          titulo: `Submódulo de Revisão R${k}`,
           descricaoAcao: `Revisar M${moduloRevisado} (20 itens, mín. 17 acertos)`,
-          status: statusPortal,
+          status: statusRevisao,
         };
         moduloAtivoNumero = k;
-        etapaAtivaId = portalId;
+        etapaAtivaId = revisaoId;
       }
 
-      // O próximo módulo Mk+1 só abre após o portal ser concluído
-      etapaAnteriorConcluida = portalConcluido;
+      // O próximo módulo Mk+1 só abre após a revisão ser concluída
+      etapaAnteriorConcluida = revisaoConcluida;
     }
   }
 

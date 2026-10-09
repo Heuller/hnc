@@ -21,6 +21,7 @@ import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ComoFuncionaJornadaModal } from '../components/jornada/ComoFuncionaJornadaModal';
 import { PortaoVerificacaoModal } from '../components/jornada/PortaoVerificacaoModal';
+import { RevisaoCientificaModal } from '../components/jornada/RevisaoCientificaModal';
 import { Button } from '../components/common/Button';
 import { ModuleEmblem } from '../components/illustrations/ModuleEmblems';
 import { IllustrationPortal, IllustrationConclusao } from '../components/illustrations/ContextualIllustrations';
@@ -499,7 +500,7 @@ export const JornadaPage: React.FC = () => {
                   </div>
                 )}
 
-                {/* PORTAL DE REVISÃO P(k) (SOMENTE PARA k >= 2 — Regra D.1) */}
+                {/* SUBMÓDULO DE REVISÃO CIENTÍFICA R(k) (Marco R4/R5) */}
                 {etapaPortal && (
                   <div
                     className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
@@ -518,13 +519,13 @@ export const JornadaPage: React.FC = () => {
                             {etapaPortal.titulo}
                           </h3>
                           <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
-                            Portal P({k}) · 20 Itens (10C / 10E)
+                            Revisão R{k} · 20 Itens (10C / 10E)
                           </span>
                         </div>
                         <p className="text-xs text-ink-2">
                           {etapaPortal.status === 'bloqueada'
                             ? etapaPortal.requisitoDesbloqueio
-                            : `Revisão cumulativa: 70% de M${k - 1} e 30% de módulos anteriores. Mínimo 17 acertos para liberar o próximo módulo.`}
+                            : `Revisão cumulativa com formatos cognitivos F1 a F8 (60% de M${k} e 40% de precedentes). Mínimo 85% de acertos para liberação formal.`}
                         </p>
                       </div>
                     </div>
@@ -533,10 +534,10 @@ export const JornadaPage: React.FC = () => {
                       variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
                       size="sm"
                       disabled={etapaPortal.status === 'bloqueada' && !modoLivre}
-                      onClick={() => handleOpenPortao(portalId)}
+                      onClick={() => handleOpenPortao(etapaPortal.id)}
                       className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
                     >
-                      <span>{etapaPortal.status === 'concluida' ? 'Portal Vencido' : 'Entrar no Portal'}</span>
+                      <span>{etapaPortal.status === 'concluida' ? 'Revisão Dominada' : `Iniciar Revisão R${k}`}</span>
                       <DoorOpen className="w-4 h-4" />
                     </Button>
                   </div>
@@ -743,14 +744,20 @@ export const JornadaPage: React.FC = () => {
         onClose={() => setIsHelpOpen(false)}
       />
 
-      {/* MODAL PORTÃO DE VERIFICAÇÃO */}
-      {activePortaoId && (
+      {/* MODAIS DE EXECUÇÃO (REVISÃO CIENTÍFICA OU PORTÃO DE VERIFICAÇÃO) */}
+      {activePortaoId && etapas[activePortaoId]?.tipo === 'submodulo_revisao' ? (
+        <RevisaoCientificaModal
+          isOpen={Boolean(activePortaoId)}
+          onClose={() => setActivePortaoId(null)}
+          etapa={etapas[activePortaoId]}
+        />
+      ) : activePortaoId ? (
         <PortaoVerificacaoModal
           isOpen={Boolean(activePortaoId)}
           onClose={() => setActivePortaoId(null)}
           etapaId={activePortaoId}
         />
-      )}
+      ) : null}
 
       {/* DIÁLOGO DE CONFIRMAÇÃO DO MODO LIVRE (Regra D.5) */}
       {showModoLivreConfirm && (
