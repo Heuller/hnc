@@ -151,7 +151,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
   }, [activeView, selectedSubmodule, setActiveView, setSelectedSubmodule, isFocusMode, setFocusMode, toggleFocusMode]);
 
   return (
-    <div className="min-h-screen bg-theme-bg text-theme-ink flex flex-col font-sans transition-colors duration-200">
+    <div className="min-h-[100dvh] w-full max-w-full overflow-x-hidden bg-theme-bg text-theme-ink flex flex-col font-sans transition-colors duration-200">
       <SkipLink />
       {emModoFoco && (
         <aside

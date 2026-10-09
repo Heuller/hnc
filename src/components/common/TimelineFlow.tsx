@@ -130,21 +130,22 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
 
   return (
     <div
-      className={`my-6 w-full ${className}`}
+      className={`my-6 w-full max-w-full overflow-hidden ${className}`}
       role="list"
       aria-label="Sequência cronológica"
     >
       {/* Header label */}
-      <div className="flex items-center gap-2 mb-4">
-        <ChevronRight className="w-4 h-4 text-slate-400" />
-        <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-          Sequência Cronológica
-        </span>
-        <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700" />
-        <span className="text-xs text-slate-400">{steps.length} etapas</span>
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-4 max-w-full">
+        <div className="flex items-center gap-1.5 min-w-0 flex-1">
+          <ChevronRight className="w-4 h-4 text-slate-400 shrink-0" />
+          <span className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 truncate">
+            Sequência Cronológica
+          </span>
+        </div>
+        <span className="text-xs text-slate-400 shrink-0">{steps.length} etapas</span>
       </div>
 
-      <div className="flex flex-col gap-0">
+      <div className="flex flex-col gap-0 w-full max-w-full">
         {items.map((item, idx) => {
           if (item.type === 'connector') {
             const conn = item.data as TimelineConnector;
@@ -156,9 +157,9 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               >
                 <div className="w-px h-4 bg-slate-300 dark:bg-slate-600" />
                 {conn.label && (
-                  <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-                    <ArrowDown className="w-3 h-3 text-slate-400" />
-                    <span className="text-[11px] font-medium text-slate-500 dark:text-slate-400 italic">
+                  <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 max-w-full">
+                    <ArrowDown className="w-3 h-3 text-slate-400 shrink-0" />
+                    <span className="text-[11px] font-medium text-slate-500 dark:text-slate-400 italic break-words" style={{ overflowWrap: 'anywhere' }}>
                       {conn.label}
                     </span>
                   </div>
@@ -177,7 +178,7 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               key={step.id}
               role="listitem"
               className={`
-                relative flex gap-4 p-4 rounded-xl border-l-4 shadow-sm
+                relative flex gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl border-l-4 shadow-sm min-w-0 max-w-full
                 ${c.bg} ${c.border}
                 transition-all duration-200
               `}
@@ -185,8 +186,8 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               {/* Step badge */}
               <div
                 className={`
-                  flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center
-                  text-sm font-bold shadow-md
+                  shrink-0 w-8 sm:w-9 h-8 sm:h-9 rounded-full flex items-center justify-center
+                  text-xs sm:text-sm font-bold shadow-md
                   ${c.badge} ${c.badgeText}
                 `}
                 aria-hidden="true"
@@ -195,17 +196,17 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               </div>
 
               {/* Content */}
-              <div className="flex-1 min-w-0">
-                <h4 className="text-sm font-bold text-slate-800 dark:text-slate-100 leading-tight">
+              <div className="flex-1 min-w-0 break-words">
+                <h4 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 leading-tight break-words" style={{ overflowWrap: 'anywhere' }}>
                   {step.title}
                 </h4>
                 {step.subtitle && (
-                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5">
+                  <p className="text-[11px] sm:text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5 break-words" style={{ overflowWrap: 'anywhere' }}>
                     {step.subtitle}
                   </p>
                 )}
                 {step.description && (
-                  <p className="text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed">
+                  <p className="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed break-words" style={{ overflowWrap: 'anywhere' }}>
                     {step.description}
                   </p>
                 )}

@@ -14,7 +14,13 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
   tituloModulo,
 }) => {
   return (
-    <div className="md:hidden fixed bottom-20 right-4 z-30 print:hidden">
+    <div
+      className="md:hidden fixed z-30 print:hidden transition-all duration-200"
+      style={{
+        bottom: 'calc(4.75rem + env(safe-area-inset-bottom, 0px))',
+        right: '1rem',
+      }}
+    >
       <Drawer.Root shouldScaleBackground={false}>
         <Drawer.Trigger asChild>
           <button

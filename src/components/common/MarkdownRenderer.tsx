@@ -29,7 +29,8 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
 
   return (
     <div
-      className={`prose-editorial max-w-none text-ink ${sizeClass} ${fontClass} ${className}`}
+      className={`prose-editorial max-w-none text-ink ${sizeClass} ${fontClass} ${className} break-words`}
+      style={{ overflowWrap: 'anywhere' }}
     >
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
@@ -37,24 +38,24 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
         components={{
           h1: ({ ...props }) => (
             <h1
-              className="text-2xl md:text-3xl font-sans font-bold text-ink tracking-tight mt-8 mb-4 border-b border-border pb-2"
+              className="text-2xl md:text-3xl font-sans font-bold text-ink tracking-tight mt-8 mb-4 border-b border-border pb-2 break-words"
               {...props}
             />
           ),
           h2: ({ ...props }) => (
             <h2
-              className="text-xl md:text-2xl font-sans font-bold text-ink tracking-tight mt-6 mb-3"
+              className="text-xl md:text-2xl font-sans font-bold text-ink tracking-tight mt-6 mb-3 break-words"
               {...props}
             />
           ),
           h3: ({ ...props }) => (
             <h3
-              className="text-lg md:text-xl font-sans font-semibold text-ink mt-5 mb-2"
+              className="text-lg md:text-xl font-sans font-semibold text-ink mt-5 mb-2 break-words"
               {...props}
             />
           ),
           p: ({ ...props }) => (
-            <p className={`my-4 leading-[1.7] text-ink ${fontClass}`} style={{ textWrap: 'pretty' }} {...props} />
+            <p className={`my-4 leading-[1.7] text-ink ${fontClass} break-words`} style={{ textWrap: 'pretty', overflowWrap: 'anywhere' }} {...props} />
           ),
           ul: ({ ...props }) => (
             <ul className={`list-disc pl-6 my-4 space-y-2 text-ink ${fontClass}`} {...props} />
@@ -62,12 +63,26 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
           ol: ({ ...props }) => (
             <ol className={`list-decimal pl-6 my-4 space-y-2 text-ink ${fontClass}`} {...props} />
           ),
-          li: ({ ...props }) => <li className="leading-relaxed" {...props} />,
+          li: ({ ...props }) => <li className="leading-relaxed break-words" {...props} />,
           blockquote: ({ ...props }) => (
             <blockquote
-              className="border-l-4 border-accent pl-4 my-4 italic text-ink-2 bg-surface-2 p-3 rounded-r-lg"
+              className="border-l-4 border-accent pl-4 my-4 italic text-ink-2 bg-surface-2 p-3 rounded-r-lg break-words"
               {...props}
             />
+          ),
+          table: ({ ...props }) => (
+            <div className="my-4 w-full max-w-full overflow-x-auto rounded-lg border border-border bg-surface shadow-2xs scrollbar-thin">
+              <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[320px]" {...props} />
+            </div>
+          ),
+          thead: ({ ...props }) => (
+            <thead className="bg-surface-2 text-ink font-bold border-b border-border" {...props} />
+          ),
+          th: ({ ...props }) => (
+            <th className="p-2.5 sm:p-3 text-ink font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider" {...props} />
+          ),
+          td: ({ ...props }) => (
+            <td className="p-2.5 sm:p-3 text-ink border-b border-r border-border last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words" {...props} />
           ),
           code: ({ className: codeClass, children, ...props }) => {
             const rawContent = String(children || '').trim();
@@ -93,7 +108,8 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
             if (isInline) {
               return (
                 <code
-                  className="font-mono text-xs md:text-sm bg-surface-2 text-ink px-1.5 py-0.5 rounded border border-border"
+                  className="font-mono text-xs md:text-sm bg-surface-2 text-ink px-1.5 py-0.5 rounded border border-border break-words"
+                  style={{ overflowWrap: 'anywhere' }}
                   {...props}
                 >
                   {children}
@@ -101,8 +117,8 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
               );
             }
             return (
-              <pre className="font-mono text-xs md:text-sm bg-surface-2 p-4 rounded-xl border border-border overflow-x-auto my-4 text-ink">
-                <code {...props}>{children}</code>
+              <pre className="font-mono text-xs md:text-sm bg-surface-2 p-3 sm:p-4 rounded-xl border border-border overflow-x-auto max-w-full my-4 text-ink">
+                <code className="block min-w-0" {...props}>{children}</code>
               </pre>
             );
           },
@@ -111,7 +127,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
           ),
           a: ({ ...props }) => (
             <a
-              className="text-info underline hover:opacity-80 transition-opacity font-sans"
+              className="text-info underline hover:opacity-80 transition-opacity font-sans break-words"
               target="_blank"
               rel="noopener noreferrer"
               {...props}

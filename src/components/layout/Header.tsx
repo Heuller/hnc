@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, User, Compass, Dumbbell, Palette } from 'lucide-react';
+import { BookOpen, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, Compass, Dumbbell, Palette } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
-import { useAuthStore } from '../../store/useAuthStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
@@ -17,7 +16,6 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
   const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
-  const { user, openAuthModal } = useAuthStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
   const navItems: { view: AppView; label: string; shortLabel?: string; icon: React.ReactNode }[] = [
@@ -44,7 +42,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               <span>Módulos</span>
             </button>
 
-            <div className="text-center truncate px-2 flex-1">
+            <div className="text-center truncate px-2 flex-1 min-w-0">
               <span className="font-bold text-xs text-ink truncate block">
                 HNC ·{' '}
                 {activeView === 'jornada'
@@ -72,35 +70,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   : 'Painel'}
               </span>
             </div>
-            <div className="flex items-center gap-1">
-              <button
-                type="button"
-                onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer"
-                aria-label="Abrir glossário e dicionário técnico Cebraspe"
-                title="Dicionário Técnico Cebraspe"
-              >
-                <BookOpen className="w-4 h-4 text-accent" />
-              </button>
+            <div className="flex items-center gap-0.5 sm:gap-1 shrink-0">
               <button
                 type="button"
                 onClick={onOpenSearch}
-                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer"
+                className="min-h-[44px] min-w-[40px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer"
                 aria-label="Abrir busca global"
               >
                 <Search className="w-4 h-4" />
-              </button>
-              <button
-                type="button"
-                onClick={openAuthModal}
-                className="min-h-[44px] min-w-[44px] p-2 rounded-lg text-ink-2 hover:text-ink hover:bg-surface-2 transition-colors flex items-center justify-center cursor-pointer relative"
-                aria-label="Minha Conta e Sincronização"
-                title={user ? `Conectado: ${user.email}` : 'Entrar'}
-              >
-                <User className="w-4 h-4 text-accent" />
-                {user && (
-                  <span className="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-emerald-500" />
-                )}
               </button>
               <ThemeToggle compact={true} />
               <MobileMoreMenu />

@@ -31,15 +31,15 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
           </h3>
         </div>
 
-        {/* Alternador de Modo quando a largura do contêiner < 640px */}
-        <div className="@[640px]:hidden flex items-center gap-1 bg-theme-surface-2 p-1 rounded-md border border-theme">
+        {/* Alternador de Modo quando a largura da tela < 640px */}
+        <div className="sm:hidden flex items-center gap-1 bg-theme-surface-2 p-1 rounded-md border border-theme">
           <button
             type="button"
             onClick={() => setMobileMode('facetas')}
             className={`px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
               mobileMode === 'facetas'
                 ? 'bg-theme-surface text-theme-ink font-bold shadow-editorial-sm border border-theme'
-                : 'text-theme-ink-2 hover:text-theme-ink'
+                : 'text-theme-ink-2 hover:text-ink'
             }`}
           >
             <SlidersHorizontal className="w-3 h-3" />
@@ -51,7 +51,7 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
             className={`px-2.5 py-1 rounded text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
               mobileMode === 'empilhado'
                 ? 'bg-theme-surface text-theme-ink font-bold shadow-editorial-sm border border-theme'
-                : 'text-theme-ink-2 hover:text-theme-ink'
+                : 'text-theme-ink-2 hover:text-ink'
             }`}
           >
             <Layers className="w-3 h-3" />
@@ -61,10 +61,10 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
       </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO AMPLA (>= 640px no contêiner): Tabela Semântica
+       * VISUALIZAÇÃO AMPLA (>= 640px): Tabela Semântica
        * 1ª Coluna fixa (sticky), colunas com largura mínima segura, sem cortes
        * ------------------------------------------------------------- */}
-      <div className="hidden @[640px]:block overflow-x-auto rounded-lg border border-theme bg-theme-surface scrollbar-thin">
+      <div className="hidden sm:block overflow-x-auto rounded-lg border border-theme bg-theme-surface scrollbar-thin max-w-full">
         <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[560px]">
           <thead className="bg-theme-surface-2 text-theme-ink font-bold border-b border-theme">
             <tr>
@@ -116,9 +116,9 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
       </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO ESTREITA (< 640px no contêiner): ZERO ROLAGEM HORIZONTAL
+       * VISUALIZAÇÃO ESTREITA (< 640px): ZERO ROLAGEM HORIZONTAL
        * ------------------------------------------------------------- */}
-      <div className="@[640px]:hidden space-y-4">
+      <div className="sm:hidden space-y-4 max-w-full">
         {mobileMode === 'facetas' ? (
           <>
             {/* Seletor Segmentado por Coluna */}

@@ -20,13 +20,13 @@ export const BottomNav: React.FC = () => {
 
   return (
     <nav
-      className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface/95 backdrop-blur-md border-t border-border shadow-[0_-4px_16px_rgba(0,0,0,0.06)] print:hidden"
+      className="md:hidden fixed inset-x-0 bottom-0 z-40 bg-surface/95 backdrop-blur-md border-t border-border shadow-[0_-4px_16px_rgba(0,0,0,0.06)] print:hidden w-full"
       style={{
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
       }}
       aria-label="Navegação móvel inferior"
     >
-      <div className="grid grid-cols-5 h-16 w-full max-w-lg mx-auto relative px-1">
+      <div className="grid grid-cols-5 h-16 w-full max-w-lg mx-auto relative px-0.5 sm:px-1">
         {tabs.map((tab) => {
           const isActive = activeView === tab.view;
           const Icon = tab.icon;
@@ -36,7 +36,7 @@ export const BottomNav: React.FC = () => {
               key={tab.view}
               type="button"
               onClick={() => setActiveView(tab.view)}
-              className={`relative flex flex-col items-center justify-center gap-1 transition-all select-none min-h-[44px] min-w-[44px] py-1 px-0.5 cursor-pointer ${
+              className={`relative flex flex-col items-center justify-center gap-1 transition-all select-none min-h-[44px] min-w-0 w-full py-1 px-0.5 cursor-pointer ${
                 isActive
                   ? 'text-ink font-bold'
                   : 'text-ink-2 hover:text-ink font-medium'

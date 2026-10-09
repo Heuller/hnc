@@ -113,22 +113,30 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
     node,
     isQuestion = false,
   }) => (
-    <div className={`relative px-4 py-3 rounded-xl shadow-sm text-center ${NODE_STYLES[node.type]}`}>
+    <div className={`relative px-2.5 sm:px-4 py-2.5 sm:py-3 rounded-xl shadow-sm text-center w-full min-w-0 break-words ${NODE_STYLES[node.type]}`}>
       <span
         className={`
           absolute -top-2.5 left-1/2 -translate-x-1/2
           text-[9px] font-bold uppercase tracking-widest
-          px-2 py-0.5 rounded-full
+          px-2 py-0.5 rounded-full whitespace-nowrap
           ${LABEL_COLORS[node.type]}
         `}
       >
         {LABEL_MAP[node.type]}
       </span>
-      <p className={`text-xs ${isQuestion ? 'font-bold' : 'font-medium'} leading-snug mt-1`}>
+      <p
+        className={`text-xs ${isQuestion ? 'font-bold' : 'font-medium'} leading-snug mt-1 break-words`}
+        style={{ overflowWrap: 'anywhere' }}
+      >
         {node.label}
       </p>
       {node.detail && (
-        <p className="text-[10px] opacity-70 mt-1 leading-snug">{node.detail}</p>
+        <p
+          className="text-[10px] opacity-70 mt-1 leading-snug break-words"
+          style={{ overflowWrap: 'anywhere' }}
+        >
+          {node.detail}
+        </p>
       )}
     </div>
   );
@@ -151,7 +159,7 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
   if (hasBranching) {
     return (
       <div
-        className={`my-6 w-full ${className}`}
+        className={`my-6 w-full max-w-full overflow-hidden ${className}`}
         role="img"
         aria-label="Fluxo de decisão"
       >
@@ -164,7 +172,7 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
           <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700" />
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-full max-w-full">
           {/* START */}
           {startNode && (
             <>
@@ -187,20 +195,20 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
           {/* Branching */}
           <div className="w-full flex items-start gap-2 mt-0">
             {/* YES branch */}
-            <div className="flex-1 flex flex-col items-center">
+            <div className="flex-1 min-w-0 flex flex-col items-center">
               <Arrow
                 label="SIM"
                 color="text-emerald-500"
               />
               {yesNode && (
-                <div className="w-full">
+                <div className="w-full min-w-0">
                   <NodeBox node={yesNode} />
                 </div>
               )}
               {yesResultNode && (
                 <>
                   <Arrow color="text-emerald-400" />
-                  <div className="w-full">
+                  <div className="w-full min-w-0">
                     <NodeBox node={yesResultNode} />
                   </div>
                 </>
@@ -208,23 +216,23 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
             </div>
 
             {/* Divider */}
-            <div className="self-stretch w-px bg-slate-200 dark:bg-slate-700 mt-2" />
+            <div className="self-stretch w-px bg-slate-200 dark:bg-slate-700 mt-2 shrink-0" />
 
             {/* NO branch */}
-            <div className="flex-1 flex flex-col items-center">
+            <div className="flex-1 min-w-0 flex flex-col items-center">
               <Arrow
                 label="NÃO"
                 color="text-rose-500"
               />
               {noNode && (
-                <div className="w-full">
+                <div className="w-full min-w-0">
                   <NodeBox node={noNode} />
                 </div>
               )}
               {noResultNode && (
                 <>
                   <Arrow color="text-rose-400" />
-                  <div className="w-full">
+                  <div className="w-full min-w-0">
                     <NodeBox node={noResultNode} />
                   </div>
                 </>

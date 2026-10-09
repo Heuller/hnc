@@ -846,6 +846,9 @@ export const TeoriaPage: React.FC = () => {
         </aside>
       </div>
 
+      {/* Espaçador de segurança para evitar que a barra e botão flutuante cubram texto no mobile */}
+      <div className="h-28 md:hidden w-full shrink-0" aria-hidden="true" />
+
       {/* Botão Flutuante + Bottom Sheet no Mobile */}
       <MnemonicosDrawerMobile
         mnemonicos={currentSub.mnemonicos}

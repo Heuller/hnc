@@ -150,15 +150,15 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         disabled={!hasChildren}
         aria-expanded={hasChildren ? isOpen : undefined}
         className={`
-          flex items-center gap-2.5 w-full text-left px-3 py-2.5 rounded-lg
-          transition-all duration-150
+          flex items-center gap-2 w-full text-left px-2.5 sm:px-3 py-2 sm:py-2.5 rounded-lg
+          transition-all duration-150 min-w-0 max-w-full
           ${style.container}
           ${hasChildren ? 'cursor-pointer hover:opacity-90 active:scale-[0.99]' : 'cursor-default'}
           ${level === 0 ? 'shadow-md' : 'shadow-sm'}
         `}
       >
         {/* Expand icon */}
-        <span className={`flex-shrink-0 ${style.icon}`} aria-hidden="true">
+        <span className={`shrink-0 ${style.icon}`} aria-hidden="true">
           {hasChildren ? (
             isOpen ? (
               <ChevronDown className="w-4 h-4" />
@@ -172,7 +172,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
 
         {/* Label */}
         <span
-          className={`flex-1 font-${level === 0 ? 'bold' : level === 1 ? 'semibold' : 'medium'} text-${level === 0 ? 'sm' : 'xs'} leading-snug`}
+          className={`flex-1 min-w-0 break-words font-${level === 0 ? 'bold' : level === 1 ? 'semibold' : 'medium'} text-${level === 0 ? 'sm' : 'xs'} leading-snug`}
         >
           {node.label}
         </span>
@@ -181,8 +181,8 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         {node.description && (
           <span
             className={`
-              hidden sm:inline-block flex-shrink-0 text-[10px] font-medium
-              px-2 py-0.5 rounded-full
+              hidden sm:inline-block shrink-0 text-[10px] font-medium
+              px-2 py-0.5 rounded-full max-w-[140px] truncate
               ${level === 0
                 ? 'bg-white/20 text-white/90'
                 : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400'}
@@ -195,7 +195,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         {/* Children count */}
         {hasChildren && !isOpen && (
           <span
-            className="flex-shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-black/10 dark:bg-white/10"
+            className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-black/10 dark:bg-white/10"
             aria-label={`${node.children.length} subitens`}
           >
             +{node.children.length}
@@ -205,7 +205,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
 
       {/* Mobile description (shown below button) */}
       {node.description && (
-        <p className="sm:hidden text-[10px] text-slate-400 dark:text-slate-500 px-3 pt-1 pb-0.5">
+        <p className="sm:hidden text-[10px] text-slate-400 dark:text-slate-500 px-2 pt-1 pb-0.5 break-words">
           {node.description}
         </p>
       )}
@@ -214,15 +214,15 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
       {hasChildren && (
         <div
           className={`
-            overflow-hidden transition-all duration-300
+            overflow-hidden transition-all duration-300 min-w-0 max-w-full
             ${isOpen ? 'max-h-[4000px] opacity-100' : 'max-h-0 opacity-0'}
           `}
           aria-hidden={!isOpen}
         >
           <div
             className={`
-              pl-5 mt-1.5 space-y-1.5
-              border-l-2 ml-3.5
+              pl-2 sm:pl-3.5 mt-1.5 space-y-1.5
+              border-l-2 ml-1.5 sm:ml-2.5 min-w-0 max-w-full
               ${style.connector}
             `}
           >
@@ -258,22 +258,25 @@ export const AccordionTree: React.FC<AccordionTreeProps> = ({ code, className = 
   }, [roots]);
 
   return (
-    <div className={`my-6 w-full ${className}`} role="tree" aria-label={title}>
+    <div className={`my-6 w-full max-w-full overflow-hidden ${className}`} role="tree" aria-label={title}>
       {/* Header */}
-      <div className="flex items-center gap-2 mb-3">
-        <Network className="w-4 h-4 text-slate-400" />
-        <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
-          {title}
-        </span>
-        <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700" />
-        <span className="text-xs text-slate-400">{totalNodes} nós</span>
-        <button
-          onClick={() => setAllExpanded((v) => !v)}
-          className="text-[10px] text-indigo-500 dark:text-indigo-400 hover:underline font-medium"
-          aria-label={allExpanded ? 'Recolher todos' : 'Expandir todos'}
-        >
-          {allExpanded ? 'Recolher todos' : 'Expandir todos'}
-        </button>
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-3 max-w-full">
+        <div className="flex items-center gap-1.5 min-w-0 flex-1">
+          <Network className="w-4 h-4 text-slate-400 shrink-0" />
+          <span className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 truncate">
+            {title}
+          </span>
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          <span className="text-xs text-slate-400">{totalNodes} nós</span>
+          <button
+            onClick={() => setAllExpanded((v) => !v)}
+            className="text-[10px] text-indigo-500 dark:text-indigo-400 hover:underline font-medium cursor-pointer"
+            aria-label={allExpanded ? 'Recolher todos' : 'Expandir todos'}
+          >
+            {allExpanded ? 'Recolher todos' : 'Expandir todos'}
+          </button>
+        </div>
       </div>
 
       {/* Tree */}

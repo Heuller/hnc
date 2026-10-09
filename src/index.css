@@ -651,3 +651,42 @@ html.dark {
   stroke-width: 1.75px !important;
 }
 
+/* -------------------------------------------------------------
+ * CORREÇÃO MOBILE: OVERFLOW HORIZONTAL & ADAPTABILIDADE
+ * Conforme Marco R1 / Seção 8 da especificação
+ * ------------------------------------------------------------- */
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100dvh;
+  box-sizing: border-box;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100dvh;
+}
+
+/* Garante que elementos de texto e artigos quebrem adequadamente */
+article, .prose-editorial, main {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* Proteção estrutural para tabelas e preformatados */
+pre, table, .mermaid-svg-container {
+  max-width: 100%;
+}
+
+
