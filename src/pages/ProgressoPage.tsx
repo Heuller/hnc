@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { COURSE_REGISTRY } from '../content/registry';
+import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 
 export const ProgressoPage: React.FC = () => {
   const {
@@ -150,6 +151,11 @@ export const ProgressoPage: React.FC = () => {
           fazer download regular do seu backup com o botão <strong>Exportar Progresso</strong>.
         </div>
       </div>
+
+      {/* BLOCO DE PROJEÇÃO TEMPORAL E MARCOS DE DISCIPLINA (Marco R6) */}
+      <section aria-labelledby="projecao-temporal-title">
+        <ProjecaoTemporalCard />
+      </section>
 
       {/* Grid de Métricas Gerais */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

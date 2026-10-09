@@ -30,6 +30,7 @@ import { useDicionarioStore } from '../store/useDicionarioStore';
 import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
 import { CupulaCongressoIllustration } from '../components/common/Illustrations';
 import { JORNADA_CONFIG } from '../config/jornada.config';
+import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -220,6 +221,11 @@ export const PainelPage: React.FC = () => {
             </div>
           </div>
         </div>
+      </section>
+      
+      {/* BLOCO DE PROJEÇÃO TEMPORAL E MARCOS DE DISCIPLINA (Marco R6) */}
+      <section aria-labelledby="projecao-temporal-title">
+        <ProjecaoTemporalCard />
       </section>
 
       {/* GRID DE CARDS MENORES: REVISÃO DO DIA, CONSTÂNCIA E RESUMO DA JORNADA (Regra U.3) */}
