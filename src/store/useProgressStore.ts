@@ -32,7 +32,10 @@ import {
   derivarProgresso,
   type ProgressoGlobalDerivado,
 } from '../domain/progressoEngine';
-import { executarMigracaoHistorico } from '../domain/migracaoTentativas';
+import {
+  executarMigracaoHistorico,
+  migrarTentativasPortaisParaRevisao,
+} from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
 interface ProgressStoreState extends UserProgress {
@@ -147,6 +150,19 @@ if (typeof window !== 'undefined') {
         );
         if (mig.totalCheckpointsMigrados > 0 || mig.totalTentativasJornadaMigradas > 0) {
           itemAttemptsSyncService.salvarLocais(mig.attemptsGeradas);
+        }
+
+        // Migração de histórico: Portais de Verificação -> Submódulos de Revisão Científica (Marco R5)
+        if (parsed.tentativas && Array.isArray(parsed.tentativas)) {
+          const migPortais = migrarTentativasPortaisParaRevisao(parsed.tentativas);
+          if (migPortais.totalPortaisMigrados > 0) {
+            parsed.tentativas = migPortais.tentativasAtualizadas;
+            try {
+              const fullObj = JSON.parse(rawProgress);
+              fullObj.state.tentativas = migPortais.tentativasAtualizadas;
+              localStorage.setItem('hnc_progress_storage', JSON.stringify(fullObj));
+            } catch {}
+          }
         }
       }
     }

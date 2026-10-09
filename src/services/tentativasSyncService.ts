@@ -4,6 +4,7 @@ import {
   criarTentativaRegistro,
 } from '../domain/tentativas';
 import { COURSE_REGISTRY } from '../content/registry';
+import { migrarTentativasPortaisParaRevisao } from '../domain/migracaoTentativas';
 
 const HNC_TENTATIVAS_KEY = 'hnc_jornada_tentativas_v3';
 const HNC_OFFLINE_QUEUE_KEY = 'hnc_jornada_offline_queue_v3';
@@ -18,7 +19,13 @@ export const tentativasSyncService = {
       const raw = localStorage.getItem(HNC_TENTATIVAS_KEY);
       if (!raw) return [];
       const parsed = JSON.parse(raw);
-      return Array.isArray(parsed) ? parsed : [];
+      const lista = Array.isArray(parsed) ? parsed : [];
+      const mig = migrarTentativasPortaisParaRevisao(lista);
+      if (mig.totalPortaisMigrados > 0) {
+        this.salvarTentativasLocais(mig.tentativasAtualizadas);
+        return mig.tentativasAtualizadas;
+      }
+      return lista;
     } catch (e) {
       console.warn('[TentativasStorage] Falha ao carregar tentativas locais:', e);
       return [];

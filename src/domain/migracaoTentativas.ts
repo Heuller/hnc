@@ -146,3 +146,80 @@ export function executarMigracaoHistorico(
     backupChave: HNC_BACKUP_STORAGE_KEY,
   };
 }
+
+export const HNC_MIGRACAO_PORTAIS_KEY = 'hnc_migracao_portais_revisao_v1_done';
+export const HNC_BACKUP_PORTAIS_KEY = 'hnc_backup_pre_portais_migracao';
+
+export interface ResultadoMigracaoPortais {
+  migrado: boolean;
+  totalPortaisMigrados: number;
+  tentativasAtualizadas: TentativaRegistro[];
+  backupRealizado: boolean;
+  backupChave: string;
+}
+
+/**
+ * Migra o histórico de tentativas dos antigos Portais de Verificação (portal-m2 a portal-m10)
+ * para os novos Submódulos de Revisão Científica (revisao-m2 a revisao-m10), preservando
+ * todas as tentativas de submódulos (ex: 2.2 e 2.3 concluídos) e liberados (2.1 e 2.5 intacto).
+ */
+export function migrarTentativasPortaisParaRevisao(
+  tentativas: TentativaRegistro[] = []
+): ResultadoMigracaoPortais {
+  let backupRealizado = false;
+  if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
+    try {
+      localStorage.setItem(
+        HNC_BACKUP_PORTAIS_KEY,
+        JSON.stringify({
+          data: new Date().toISOString(),
+          tentativasOriginais: tentativas,
+        })
+      );
+      backupRealizado = true;
+    } catch (e) {
+      console.warn('[MigracaoPortais] Falha ao gravar backup local:', e);
+    }
+  }
+
+  let totalPortaisMigrados = 0;
+  const tentativasAtualizadas: TentativaRegistro[] = [...tentativas];
+  const idsExistentes = new Set(tentativas.map((t) => `${t.targetId}:${t.id}`));
+
+  for (const t of tentativas) {
+    if (t.tipo === 'portal_revisao' || (t.targetId && t.targetId.startsWith('portal-'))) {
+      const novoTargetId = t.targetId.replace('portal-', 'revisao-');
+      const chaveNova = `${novoTargetId}:migrado_${t.id}`;
+      const chaveDireta = `${novoTargetId}:${t.id}`;
+
+      if (!idsExistentes.has(chaveNova) && !idsExistentes.has(chaveDireta)) {
+        const tentativaMigrada: TentativaRegistro = {
+          ...t,
+          id: `migrado_${t.id}`,
+          tipo: 'submodulo_revisao',
+          targetId: novoTargetId,
+        };
+        tentativasAtualizadas.push(tentativaMigrada);
+        idsExistentes.add(chaveNova);
+        totalPortaisMigrados++;
+      }
+    }
+  }
+
+  if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
+    try {
+      localStorage.setItem(HNC_MIGRACAO_PORTAIS_KEY, 'true');
+    } catch {
+      // ignore
+    }
+  }
+
+  return {
+    migrado: true,
+    totalPortaisMigrados,
+    tentativasAtualizadas,
+    backupRealizado,
+    backupChave: HNC_BACKUP_PORTAIS_KEY,
+  };
+}
+

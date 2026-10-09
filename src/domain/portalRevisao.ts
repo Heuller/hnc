@@ -1,6 +1,10 @@
 import { JORNADA_CONFIG } from '../config/jornada.config';
 import type { LeitnerItem } from './leitner';
 
+/**
+ * @deprecated Substituted by reviewSubmoduleEngine.ts (Marco R4/R5).
+ * Mantido como compatibilidade reversa para o histórico legado de portais.
+ */
 export interface ItemCandidatoPortal {
   id: string;
   moduloNumero: number; // k (ex: 1 para M1, 2 para M2)
@@ -34,6 +38,7 @@ export interface ResultadoSelecaoPortal {
 }
 
 /**
+ * @deprecated Use comporSubmoduloRevisao em src/domain/reviewSubmoduleEngine.ts (Marco R4/R5).
  * Motor de Seleção do Portal de Revisão P(k) (Regra D.2):
  * - Disponível somente quando k >= 2.
  * - Revisa o módulo Mk-1 e módulos anteriores.
