@@ -263,7 +263,7 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
    $\\text{CPU} = \\frac{\\text{Custo Total Anual do Recurso (Assinatura)}}{\\text{Total de Usos Efetivos Desduplicados (\\textit{Unique\\_Item\\_Requests})}}$
 
    * *Parâmetro de Decisão:* O bibliotecário confronta o CPU calculado contra o custo médio de aquisição avulsa por artigo via *Pay-Per-View* (normalmente entre US$ 30 e US$ 45 / cerca de R$ 150 a R$ 250 por download avulso) ou comutação bibliográfica (COMUT).
-   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($\\text{CPU} = \\text{R\\$} \\; 500,00$ por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
+   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($\\text{CPU} =$ R$ 500,00 por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
 
 3. **Taxa de Obsolescência e Meia-Vida da Literatura (Burton & Kebler, 1960):**
    * *Conceito de Meia-Vida (Half-Life):* O tempo decorrido para que 50% de todas as consultas ou citações ativas a uma determinada literatura deixem de ocorrer.
