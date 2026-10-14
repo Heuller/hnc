@@ -84,6 +84,57 @@ export interface ReviewConfig {
   };
 
   /**
+   * Orçamento de tempo diário dedicado a revisões (25% ≈ 45 min de 3 h/dia).
+   */
+  readonly orcamentoTempoRevisaoPct: number;
+
+  /**
+   * Limiar de tolerância de atraso acumulado em dias úteis antes de emitir alerta (2 dias úteis).
+   */
+  readonly alertaAcumuloDiasUteis: number;
+
+  /**
+   * Submódulos novos e de alta densidade técnica que exigem revisão de ativação precoce
+   * (2 dias úteis após a 1ª revisão).
+   */
+  readonly submodulosAltaDensidadeTecnica: readonly string[];
+
+  /**
+   * Regras dinâmicas de aceleração e retrocesso de intervalo:
+   * - taxaAceleracao (>= 0.85 em 2 revisões seguidas): dobra o intervalo
+   * - taxaRetrocesso (< 0.70): recua ao intervalo anterior e reativa itens
+   * - diasAtivacaoConteudoNovo (2 dias úteis)
+   */
+  readonly dynamicIntervalRules: {
+    taxaAceleracao: number; // 0.85
+    minRevisoesParaAcelerar: number; // 2
+    fatorMultiplicadorAceleracao: number; // 2.0 (dobra)
+    taxaRetrocesso: number; // 0.70
+    diasAtivacaoConteudoNovo: number; // 2 dias úteis
+  };
+
+  /**
+   * Pesos de risco por módulo para priorização no agendador (T7.1):
+   * M7 possui P0.5 (baixa prioridade editalícia para preservação física).
+   */
+  readonly pesosRiscoModulo: Record<string, number>;
+
+  /**
+   * Parâmetros da Trilha Reta Final (T7.3) para as últimas 3 semanas antes da prova.
+   */
+  readonly retaFinal: {
+    dataInicioIso: string; // '2026-12-28'
+    dataProvaIso: string; // '2027-01-17'
+    dataCorteNormativoIso: string; // '2026-12-17'
+    totalItensSimuladoGeral: number; // 180
+    distribuicaoQuestoes: {
+      conhecimentosBasicos: number; // 50
+      conhecimentosEspecificos: number; // 70
+      conhecimentosEspecializados: number; // 60
+    };
+  };
+
+  /**
    * Parâmetros de composição dos novos Submódulos de Revisão Científica (Rn).
    */
   readonly reviewSubmodule: {
@@ -101,6 +152,134 @@ export interface ReviewConfig {
   readonly exerciseFormats: Record<ExerciseFormatId, ExerciseFormatMeta>;
 }
 
+export interface ParConceitualConfundivel {
+  readonly id: string;
+  readonly termoA: string;
+  readonly termoB: string;
+  readonly moduloIdA: string;
+  readonly moduloIdB: string;
+  readonly submoduloIdA?: string;
+  readonly submoduloIdB?: string;
+  readonly diferencaChave: string;
+  readonly pegadinhaCebraspe: string;
+  readonly baseCientifica: string;
+}
+
+export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[] = [
+  {
+    id: 'par-crosswalk-conversao',
+    termoA: 'Crosswalk de Metadados (Mapeamento)',
+    termoB: 'Conversão de Metadados (Transformação)',
+    moduloIdA: 'm2',
+    moduloIdB: 'm6',
+    diferencaChave:
+      'Crosswalk estabelece equivalência semântica e sintática entre esquemas distintos sem alterar fisicamente a base de origem; Conversão executa a transformação e gera novos registros fisicamente em outro padrão.',
+    pegadinhaCebraspe: 'Afirmar que a aplicação de um crosswalk altera os metadados nativos gravados na base original.',
+    baseCientifica: 'Kornell & Bjork (2008) - Intercalação e discriminação de conceitos análogos.',
+  },
+  {
+    id: 'par-owner-steward',
+    termoA: 'Data Owner (Proprietário de Dados)',
+    termoB: 'Data Steward (Curador / Custodiante de Dados)',
+    moduloIdA: 'm8',
+    moduloIdB: 'm8',
+    submoduloIdA: 'sub-8-5',
+    submoduloIdB: 'sub-8-5',
+    diferencaChave:
+      'Data Owner detém autoridade decisória e orçamentária sobre o ciclo de vida e classificação de acesso; Data Steward é o guardião técnico-operacional da qualidade, conformidade com metadados e integridade.',
+    pegadinhaCebraspe: 'Atribuir a responsabilidade decisória de classificação e descarte dos dados ao Data Steward.',
+    baseCientifica: 'DAMA-DMBOK v2 e Kornell & Bjork (2008).',
+  },
+  {
+    id: 'par-acoplamento-cocitacao',
+    termoA: 'Acoplamento Bibliográfico (Kessler, 1963)',
+    termoB: 'Co-citação (Small, 1973; Marshakova, 1973)',
+    moduloIdA: 'm1',
+    moduloIdB: 'm1',
+    submoduloIdA: 'sub-1-6',
+    submoduloIdB: 'sub-1-6',
+    diferencaChave:
+      'Acoplamento bibliográfico é fixo e imutável (dois artigos citam a mesma referência na data da publicação); Co-citação é dinâmica e prospectiva (dois artigos são citados conjuntamente por publicações posteriores).',
+    pegadinhaCebraspe: 'Sustentar que a intensidade de acoplamento bibliográfico se altera dinamicamente com citações futuras.',
+    baseCientifica: 'Kornell & Bjork (2008) - Discriminação de categorias bibliométricas.',
+  },
+  {
+    id: 'par-aacr2r-rda',
+    termoA: 'AACR2r (Código Prescritivo Centrado no Suporte)',
+    termoB: 'RDA (Diretrizes Baseadas em Entidades LRM)',
+    moduloIdA: 'm2',
+    moduloIdB: 'm2',
+    diferencaChave:
+      'AACR2r estrutura classes de materiais e Designação Geral de Material (DGM) atrelada ao suporte físico; RDA organiza dados com base em Entidades (WEMI), Atributos e Relacionamentos independentes de mídia (campos 336/337/338).',
+    pegadinhaCebraspe: 'Tratar os campos RDA 336/337/338 como mera substituição textual do DGM colcheteado do AACR2r.',
+    baseCientifica: 'Kornell & Bjork (2008).',
+  },
+  {
+    id: 'par-mods-mets-dublin-core',
+    termoA: 'MODS (Metadata Object Description Schema)',
+    termoB: 'METS (Metadata Encoding and Transmission Standard)',
+    moduloIdA: 'm2',
+    moduloIdB: 'm6',
+    submoduloIdA: 'sub-2-6',
+    submoduloIdB: 'sub-6-5',
+    diferencaChave:
+      'MODS provê semântica descritiva bibliográfica rica derivada do MARC em XML; METS provê um invólucro estrutural que organiza arquivos digitais, mapas estruturais e metadados administrativos/técnicos.',
+    pegadinhaCebraspe: 'Classificar o METS como vocabulário de catalogação temática ou bibliográfica descritiva primária.',
+    baseCientifica: 'Kornell & Bjork (2008).',
+  },
+  {
+    id: 'par-precisao-revocacao',
+    termoA: 'Precisão (Precision - Relevantes Recuperados / Total Recuperados)',
+    termoB: 'Revocação (Recall - Relevantes Recuperados / Total Relevantes no Acervo)',
+    moduloIdA: 'm4',
+    moduloIdB: 'm4',
+    diferencaChave:
+      'Precisão mede a pureza da busca minimizando ruído; Revocação mede a completude da busca minimizando silêncio documental. Tendem a uma relação de compromisso inverso.',
+    pegadinhaCebraspe: 'Inverter os denominadores do cálculo ou afirmar que o operador booleano OR eleva a precisão do resultado.',
+    baseCientifica: 'Kornell & Bjork (2008).',
+  },
+  {
+    id: 'par-proveniencia-linhagem',
+    termoA: 'Princípio da Proveniência Arquivística (Respeito aos Fundos)',
+    termoB: 'Linhagem de Dados (Data Lineage - Governança DAMA)',
+    moduloIdA: 'm5',
+    moduloIdB: 'm8',
+    submoduloIdA: 'sub-5-1',
+    submoduloIdB: 'sub-8-5',
+    diferencaChave:
+      'Proveniência arquivística exige manter reunidos e indivisos os fundos da entidade geradora; Linhagem de dados rastreia o fluxo de ponta a ponta (ETL, transformações, pipelines e consumo) em ambientes informacionais.',
+    pegadinhaCebraspe: 'Tratar a linhagem técnica de dados como mero sinônimo de proveniência arquivística sem considerar a rastreabilidade algorítmica de pipelines.',
+    baseCientifica: 'Kornell & Bjork (2008).',
+  },
+  {
+    id: 'par-cdd-cdu',
+    termoA: 'CDD (Classificação Decimal de Dewey - Estrutura Pura)',
+    termoB: 'CDU (Classificação Decimal Universal - Facetada e Sintética)',
+    moduloIdA: 'm3',
+    moduloIdB: 'm3',
+    diferencaChave:
+      'CDD baseia-se em notação decimal pura (000-990) com tabelas auxiliares restritas (T1 a T6); CDU é uma linguagem sintético-analítica com tabelas de auxiliares comuns e ricos símbolos de relação e coordenação (: + / :: [ ]).',
+    pegadinhaCebraspe: 'Atribuir operadores sintéticos da CDU (dois-pontos ou apóstrofo) à notação padrão pura da CDD.',
+    baseCientifica: 'Kornell & Bjork (2008).',
+  },
+];
+
+export const SUBMODULOS_ALTA_DENSIDADE_TECNICA: readonly string[] = [
+  'sub-1-5',
+  'sub-1-6',
+  'sub-2-6',
+  'sub-2-7',
+  'sub-6-5',
+  'sub-6-6',
+  'sub-6-7',
+  'sub-8-5',
+  'sub-10-5',
+  'sub-10-6',
+  'sub-13-4',
+  'sub-14-3',
+  'sub-14-4',
+];
+
 export const REVIEW_CONFIG: ReviewConfig = {
   examDateIso: '2027-01-17',
   scheduleDays: 'weekdays-only',
@@ -108,6 +287,47 @@ export const REVIEW_CONFIG: ReviewConfig = {
   testCeilingPct: 0.20,
   minPassingRetention: 0.85,
   leitnerBoxesTotal: 5,
+  orcamentoTempoRevisaoPct: 0.25, // 25% do tempo de estudo (≈ 45 min de 3 h/dia)
+  alertaAcumuloDiasUteis: 2, // Aviso se pendências > 2 dias de capacidade
+
+  submodulosAltaDensidadeTecnica: SUBMODULOS_ALTA_DENSIDADE_TECNICA,
+
+  dynamicIntervalRules: {
+    taxaAceleracao: 0.85,
+    minRevisoesParaAcelerar: 2,
+    fatorMultiplicadorAceleracao: 2.0,
+    taxaRetrocesso: 0.70,
+    diasAtivacaoConteudoNovo: 2,
+  },
+
+  pesosRiscoModulo: {
+    m1: 1.5,
+    m2: 1.5,
+    m3: 1.2,
+    m4: 1.2,
+    m5: 1.0,
+    m6: 1.5,
+    m7: 0.5, // P0.5: Preservação física tem peso reduzido à metade conforme diretriz editalícia
+    m8: 1.5,
+    m9: 1.0,
+    m10: 1.5,
+    m11: 1.0,
+    m12: 1.0,
+    m13: 1.2,
+    m14: 1.5,
+  },
+
+  retaFinal: {
+    dataInicioIso: '2026-12-28', // 3 semanas antes da prova (17/01/2027)
+    dataProvaIso: '2027-01-17',
+    dataCorteNormativoIso: '2026-12-17', // Corte a 30 dias da prova
+    totalItensSimuladoGeral: 180,
+    distribuicaoQuestoes: {
+      conhecimentosBasicos: 50,
+      conhecimentosEspecificos: 70,
+      conhecimentosEspecializados: 60,
+    },
+  },
 
   // Intervalos em dias úteis (segunda a sexta)
   // Caixa 1: 1 dia útil

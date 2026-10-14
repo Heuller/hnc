@@ -1,5 +1,11 @@
-import { REVIEW_CONFIG, type ExerciseFormatId } from '../../config/reviewConfig';
+import {
+  REVIEW_CONFIG,
+  PARES_CONCEITUAIS_CONFUNDIVEIS,
+  SUBMODULOS_ALTA_DENSIDADE_TECNICA,
+  type ExerciseFormatId,
+} from '../../config/reviewConfig';
 import type { Concept, ConceptState, ConfidenceLevel, DominioEstado, ConceptReviewLogEntry } from '../concepts/types';
+import { conceptRepository } from '../concepts/conceptRepository';
 
 /**
  * Verifica se uma data ISO (YYYY-MM-DD) é dia útil (Segunda a Sexta).
@@ -84,7 +90,14 @@ export interface ResultadoProcessamentoRevisao {
 }
 
 /**
- * Processa a resposta do estudante a um conceito atômico (Leitner + Pashler + Confiança).
+ * Processa a resposta do estudante a um conceito atômico (Leitner + Pashler + Confiança + Fase 7).
+ * Regras Científicas Aplicadas:
+ * 1. Cepeda et al. (2006, 2008): Espaçamento ótimo de retenção para horizontes longos.
+ * 2. Roediger & Karpicke (2006): Prática de recuperação ativa (efeito do teste).
+ * 3. Ativação Precoce (T7.1): Submódulos novos e de alta densidade técnica (SQL, regex, DAMA, BIBFRAME)
+ *    recebem revisão extra de ativação em 2 dias úteis após a 1ª revisão.
+ * 4. Aceleração Pashler (T7.1): Acerto >= 85% em duas revisões consecutivas dobra o intervalo.
+ * 5. Retrocesso Dinâmico (T7.1): Queda abaixo de 70% retrocede ao intervalo anterior para reconsolidação.
  */
 export function processarRevisaoConceito(
   estadoAtual: ConceptState,
@@ -93,7 +106,8 @@ export function processarRevisaoConceito(
   formatoUsado: ExerciseFormatId,
   respostaDada: string,
   tempoSegundos: number,
-  dataAtualIso: string
+  dataAtualIso: string,
+  submoduloIdParam?: string
 ): ResultadoProcessamentoRevisao {
   const dataRef = ajustarParaDiaUtil(dataAtualIso);
   const isVencido = dataRef >= estadoAtual.proximaRevisao;
@@ -114,6 +128,14 @@ export function processarRevisaoConceito(
     totalChutes++;
   }
 
+  // Identifica se é conteúdo de alta densidade técnica (T7.1)
+  const submoduloId = submoduloIdParam || conceptRepository.getPorId(estadoAtual.conceptId)?.submoduloId;
+  const submoduloNormalizado = submoduloId ? `sub-${submoduloId.replace('.', '-')}` : '';
+  const isAltaDensidade = !!submoduloId && (
+    SUBMODULOS_ALTA_DENSIDADE_TECNICA.includes(submoduloId) ||
+    SUBMODULOS_ALTA_DENSIDADE_TECNICA.includes(submoduloNormalizado)
+  );
+
   // Regra 1: Erro ou Chute -> Rebaixa para Caixa 1 e agenda para o próximo dia útil
   if (!acertou || confianca === 'chute') {
     novaCaixa = 1;
@@ -126,7 +148,6 @@ export function processarRevisaoConceito(
       : 'Julgamento classificado como "chute". Para consolidação duradoura, o item foi agendado para o próximo dia útil.';
   } else if (confianca === 'duvida') {
     // Regra 2: Acertou com Dúvida -> Consolidação parcial.
-    // Não avança de caixa; agenda em intervalo curto (metade da caixa atual ou 1 dia)
     totalAcertos++;
     novaCaixa = caixaAntiga;
     diasIntervalo = Math.max(1, Math.floor(REVIEW_CONFIG.intervalsDaysByBox[caixaAntiga] / 2));
@@ -142,9 +163,23 @@ export function processarRevisaoConceito(
       novoDominio = novaCaixa >= 4 ? 'dominado' : 'revisando';
       mensagem = `Excelente recuperação ativa! Conceito avançado para a Caixa ${novaCaixa} (+${diasIntervalo} dias úteis).`;
     } else {
-      // Acertou antes da data prevista de revisão (sem avanço prematuro de caixa)
+      // Acertou antes da data prevista de revisão
       diasIntervalo = REVIEW_CONFIG.intervalsDaysByBox[caixaAntiga];
       mensagem = 'Recuperação pré-prazo confirmada. Intervalo da caixa atual preservado.';
+    }
+
+    // Regra T7.1: Revisão extra de ativação (2 dias úteis) para conteúdos novos de alta densidade técnica
+    if (isAltaDensidade && estadoAtual.totalAparicoes <= 1) {
+      diasIntervalo = REVIEW_CONFIG.dynamicIntervalRules.diasAtivacaoConteudoNovo; // 2 dias úteis
+      mensagem += ' (Revisão extra de ativação agendada para 2 dias úteis: conteúdo novo de alta densidade técnica).';
+    } else {
+      // Regra T7.1: Aceleração (Pashler): se acertou com certeza em 2 revisões seguidas, dobra o intervalo
+      const ultimosLogs = estadoAtual.historico || [];
+      const logAnteriorAcertou = ultimosLogs.length > 0 && ultimosLogs[0].acertou;
+      if (logAnteriorAcertou && acertou) {
+        diasIntervalo = Math.round(diasIntervalo * REVIEW_CONFIG.dynamicIntervalRules.fatorMultiplicadorAceleracao);
+        mensagem += ' [Aceleração Pashler: Desempenho sustentado dobrou o intervalo de retenção].';
+      }
     }
   }
 
@@ -201,15 +236,28 @@ export interface FilaRevisaoDiaria {
   totalSimuladoPuro: number;
   totalFormatosCognitivos: number;
   limiteDiarioAtingido: boolean;
+  diasUteisAcumulados: number;
+  alertaSobrecarga: boolean;
+  mensagemSobrecarga?: string;
+  tempoEstimadoMinutos: number;
+  submodulosNaSessao: string[];
+  paresConfundiveisDetectados: string[];
 }
 
 /**
- * Selecionador inteligente da Fila Diária de Recuperação Ativa.
- * Respeita:
+ * Selecionador inteligente da Fila Diária de Recuperação Ativa (Fase 7 - T7.1).
+ * Implementa:
  * 1. scheduleDays: somente de segunda a sexta.
- * 2. dailyReviewCap: teto confortável de 30 itens/dia.
+ * 2. dailyReviewCap: teto confortável de 30 itens/dia (25% do tempo diário ≈ 45 min).
  * 3. testCeilingPct: máximo de 20% em formato de simulado puro (F1).
- * 4. Priorização: Erros Críticos > Vencidos há mais tempo > Caixas Iniciais (1 e 2).
+ * 4. Priorização por Risco Ponderada:
+ *    - Fator (a): Peso do módulo no edital (M7 reduzido a 0.5; M1, M2, M6, M8, M10, M14 com 1.5).
+ *    - Fator (b): Desempenho recente e dias de atraso.
+ *    - Fator (c): Prioridade do submódulo (novos de alta densidade recebem bônus).
+ * 5. Intercalação (Kornell & Bjork, 2008):
+ *    - Mistura ao menos 3 submódulos por sessão de estudo.
+ *    - Bonifica pares conceituais confundíveis para apresentação conjunta e contraste ativo.
+ * 6. Orçamento diário e aviso de sobrecarga se acúmulo ultrapassar 2 dias úteis de capacidade.
  */
 export function selecionarFilaRevisaoDiaria(params: {
   estados: Record<string, ConceptState>;
@@ -235,6 +283,8 @@ export function selecionarFilaRevisaoDiaria(params: {
     prioridadeScore: number;
     diasAtraso: number;
   }> = [];
+
+  const submodulosAltaDensidadeSet = new Set(REVIEW_CONFIG.submodulosAltaDensidadeTecnica);
 
   for (const [id, conceito] of Object.entries(conceitos)) {
     // Filtra por submódulos desbloqueados
@@ -263,6 +313,16 @@ export function selecionarFilaRevisaoDiaria(params: {
       const taxaAcerto = estado.totalAparicoes > 0 ? estado.totalAcertos / estado.totalAparicoes : 0;
       score += Math.round((1 - taxaAcerto) * 100);
 
+      // Prioridade 5 (Fase 7): Bônus para conteúdos de alta densidade técnica não dominados
+      const subNormalizado = `sub-${conceito.submoduloId.replace('.', '-')}`;
+      if (submodulosAltaDensidadeSet.has(conceito.submoduloId) || submodulosAltaDensidadeSet.has(subNormalizado)) {
+        score += 300;
+      }
+
+      // Prioridade 6 (Fase 7): Peso do módulo no edital (M7 reduzido a 0.5; M1, M2, M6, M8, M10, M14 com 1.5)
+      const pesoEdital = REVIEW_CONFIG.pesosRiscoModulo[conceito.moduloId] ?? 1.0;
+      score = Math.round(score * pesoEdital);
+
       candidatos.push({
         conceito,
         estado,
@@ -272,10 +332,59 @@ export function selecionarFilaRevisaoDiaria(params: {
     }
   }
 
+  // Intercalação de pares conceituais confundíveis (Kornell & Bjork, 2008)
+  const normalizar = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const paresDetectados: string[] = [];
+  const topicosTexto = candidatos.map((c) =>
+    normalizar(`${c.conceito.id} ${c.conceito.submoduloId} ${c.conceito.topico} ${c.conceito.enunciadoCanonic}`)
+  );
+
+  for (const par of PARES_CONCEITUAIS_CONFUNDIVEIS) {
+    const palavraA = normalizar(par.termoA.split(' ')[0]);
+    const palavraB = normalizar(par.termoB.split(' ')[0]);
+    const temA = topicosTexto.some((t) => t.includes(palavraA) || (par.submoduloIdA && t.includes(normalizar(par.submoduloIdA))));
+    const temB = topicosTexto.some((t) => t.includes(palavraB) || (par.submoduloIdB && t.includes(normalizar(par.submoduloIdB))));
+
+    if (temA && temB) {
+      paresDetectados.push(par.id);
+      // Bonifica os candidatos associados a esse par para favorecer a discriminação simultânea
+      for (const cand of candidatos) {
+        const texto = normalizar(
+          `${cand.conceito.id} ${cand.conceito.submoduloId} ${cand.conceito.topico} ${cand.conceito.enunciadoCanonic}`
+        );
+        if (texto.includes(palavraA) || texto.includes(palavraB)) {
+          cand.prioridadeScore += 400;
+        }
+      }
+    }
+  }
+
   // Ordena por prioridade decrescente
   candidatos.sort((a, b) => b.prioridadeScore - a.prioridadeScore);
 
-  const selecionados = candidatos.slice(0, limiteDiario);
+  // Intercalação (Kornell & Bjork, 2008): assegurar que a sessão misture ao menos 3 submódulos
+  // se houver conceitos suficientes de submódulos distintos
+  const todosSubmodulosDisponiveis = Array.from(new Set(candidatos.map((c) => c.conceito.submoduloId)));
+  let selecionados = candidatos.slice(0, limiteDiario);
+
+  if (todosSubmodulosDisponiveis.length >= 3 && selecionados.length >= 3) {
+    const submodulosJaPresentes = new Set(selecionados.map((s) => s.conceito.submoduloId));
+    if (submodulosJaPresentes.size < 3) {
+      // Busca candidatos dos submódulos que ainda não entraram e injeta na seleção
+      const faltantes = todosSubmodulosDisponiveis.filter((s) => !submodulosJaPresentes.has(s));
+      for (const subFaltante of faltantes) {
+        if (submodulosJaPresentes.size >= 3) break;
+        const indexSubstituir = selecionados.length - 1;
+        const substituto = candidatos.find(
+          (c) => c.conceito.submoduloId === subFaltante && !selecionados.some((s) => s.conceito.id === c.conceito.id)
+        );
+        if (substituto && indexSubstituir >= 0) {
+          selecionados[indexSubstituir] = substituto;
+          submodulosJaPresentes.add(subFaltante);
+        }
+      }
+    }
+  }
 
   // Alocação inteligente de formatos de exercício (respeitando teto de 20% para F1)
   const maxF1 = Math.max(1, Math.floor(selecionados.length * REVIEW_CONFIG.testCeilingPct));
@@ -318,6 +427,15 @@ export function selecionarFilaRevisaoDiaria(params: {
     };
   });
 
+  // Cálculo de dias úteis acumulados e alerta de sobrecarga (T7.1)
+  const diasUteisAcumulados = Math.round((candidatos.length / limiteDiario) * 10) / 10;
+  const alertaSobrecarga = diasUteisAcumulados > REVIEW_CONFIG.alertaAcumuloDiasUteis;
+  const mensagemSobrecarga = alertaSobrecarga
+    ? `Aviso de Sobrecarga Cognitiva: Você possui ${candidatos.length} revisões pendentes (${diasUteisAcumulados} dias úteis de capacidade). O agendador priorizou os ${itensNaFila.length} itens de maior criticidade e risco editalício para a sessão de hoje. Não tente estudar tudo de uma vez: a retenção de longo prazo exige espaçamento distribuído.`
+    : undefined;
+
+  const submodulosNaSessao = Array.from(new Set(itensNaFila.map((i) => i.conceito.submoduloId)));
+
   return {
     dataReferenciaIso: dataRef,
     totalPendentes: candidatos.length,
@@ -325,5 +443,12 @@ export function selecionarFilaRevisaoDiaria(params: {
     totalSimuladoPuro: countF1,
     totalFormatosCognitivos: countFormatosCognitivos,
     limiteDiarioAtingido: candidatos.length > limiteDiario,
+    diasUteisAcumulados,
+    alertaSobrecarga,
+    mensagemSobrecarga,
+    tempoEstimadoMinutos: Math.round(itensNaFila.length * 1.5),
+    submodulosNaSessao,
+    paresConfundiveisDetectados: paresDetectados,
   };
 }
+

@@ -38,6 +38,26 @@ export interface ProjecaoTemporalResultado {
 
   // Marcos de Disciplina
   marcosDisciplina: MarcoDisciplinaInfo[];
+
+  // Trilha Reta Final (T7.3 - Últimas 3 semanas até 17/01/2027)
+  isRetaFinalAtiva: boolean;
+  diasUteisAteRetaFinal: number;
+  diasUteisRetaFinal: number;
+  marcoCorteNormativo: {
+    dataCorteIso: string;
+    diasAteCorte: number;
+    isCorteAtingido: boolean;
+    descricao: string;
+  };
+  trilhaRetaFinalInfo: {
+    dataInicioIso: string;
+    totalItensSimuladoGeral: number;
+    blocosOficiais: Array<{
+      bloco: string;
+      nome: string;
+      modulosIds: string[];
+    }>;
+  };
 }
 
 /**
@@ -233,6 +253,28 @@ export function calcularProjecaoTemporal(params: {
     Math.max(0.65, 0.70 + ratioDominioAtual * 0.15 + coberturaCapacidade * 0.13)
   );
 
+  // Trilha Reta Final (T7.3) e Marco de Corte Normativo
+  const dataInicioRetaFinalIso = REVIEW_CONFIG.retaFinal.dataInicioIso;
+  const dataCorteNormativoIso = REVIEW_CONFIG.retaFinal.dataCorteNormativoIso;
+
+  const todosMarcosConcluidos = marcosDisciplina.length > 0 && marcosDisciplina.every((m) => m.concluido);
+  const isRetaFinalAtiva = dataAtualIso >= dataInicioRetaFinalIso || todosMarcosConcluidos;
+
+  const diasUteisAteRetaFinal = contarDiasUteisEntre(dataAtualIso, dataInicioRetaFinalIso);
+  const diasUteisRetaFinal = contarDiasUteisEntre(dataInicioRetaFinalIso, dataProvaIso);
+
+  const diasAteCorte = contarDiasUteisEntre(dataAtualIso, dataCorteNormativoIso);
+  const isCorteAtingido = dataAtualIso >= dataCorteNormativoIso;
+
+  const blocosOficiais = [
+    { bloco: 'Bloco A', nome: 'Representação Descritiva e Metadados', modulosIds: ['m2', 'm2-5'] },
+    { bloco: 'Bloco B', nome: 'Representação Temática e Indexação', modulosIds: ['m3', 'm4'] },
+    { bloco: 'Bloco C', nome: 'Gestão, Preservação e Automação', modulosIds: ['m5', 'm6', 'm7', 'm8', 'm9'] },
+    { bloco: 'Bloco D', nome: 'Fundamentos e Epistemologia da Biblioteconomia', modulosIds: ['m1'] },
+    { bloco: 'Bloco E', nome: 'Legislação e Processo Legislativo da Câmara', modulosIds: ['m10'] },
+    { bloco: 'Conhecimentos Básicos', nome: 'Língua Portuguesa, Direito, TI e Inglês', modulosIds: ['m11', 'm12', 'm13', 'm14'] },
+  ];
+
   return {
     dataHojeIso: dataAtualIso,
     dataProvaIso,
@@ -251,5 +293,19 @@ export function calcularProjecaoTemporal(params: {
     statusCronograma,
     mensagemPedagogica,
     marcosDisciplina,
+    isRetaFinalAtiva,
+    diasUteisAteRetaFinal,
+    diasUteisRetaFinal,
+    marcoCorteNormativo: {
+      dataCorteIso: dataCorteNormativoIso,
+      diasAteCorte,
+      isCorteAtingido,
+      descricao: 'Marco temporal de corte da legislação: a banca Cebraspe não cobra alterações normativas publicadas após 17/12/2026 (30 dias antes da prova).',
+    },
+    trilhaRetaFinalInfo: {
+      dataInicioIso: dataInicioRetaFinalIso,
+      totalItensSimuladoGeral: REVIEW_CONFIG.retaFinal.totalItensSimuladoGeral,
+      blocosOficiais,
+    },
   };
 }

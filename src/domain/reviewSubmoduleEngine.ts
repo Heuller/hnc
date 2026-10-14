@@ -1,6 +1,55 @@
 import { REVIEW_CONFIG, type ExerciseFormatId } from '../config/reviewConfig';
 import type { Concept, ConceptState } from './concepts/types';
 import { conceptRepository } from './concepts/conceptRepository';
+import { CASOS_INTEGRADORES } from './casosIntegradores/casosIntegradores';
+import type { CasoIntegrador } from './casosIntegradores/types';
+import { somarDiasUteis, ajustarParaDiaUtil } from './scheduler/unifiedScheduler';
+
+export const EVIDENCIA_CIENTIFICA_FORMATOS: Record<
+  ExerciseFormatId,
+  { evidencia: string; referencia: string; utilidade: 'alta' | 'moderada' }
+> = {
+  f1_ce_simples: {
+    evidencia: 'Julgamento factual direto simulando a pressão de prova da banca Cebraspe (sem pistas adicionais).',
+    referencia: 'Roediger & Karpicke (2006) - Test-enhanced learning in classroom contexts.',
+    utilidade: 'alta',
+  },
+  f2_com_justificativa: {
+    evidencia: 'Interrogação elaborativa com justificação explícita do porquê o item é verdadeiro ou falso.',
+    referencia: 'Dunlosky et al. (2013) - Elaborative interrogation has high utility for factual integration.',
+    utilidade: 'alta',
+  },
+  f3_identificacao_erro: {
+    evidencia: 'Discriminação de contraste cirúrgico para suprimir falsas ilusões de competência e identificar armadilhas.',
+    referencia: 'Kornell & Bjork (2008) - Category induction via interleaved contrast.',
+    utilidade: 'alta',
+  },
+  f4_preenchimento_lacunas: {
+    evidencia: 'Recordação com pistas (cued recall / Cloze): força a recuperação ativa da terminologia normativa exata.',
+    referencia: 'Taylor (1953); Roediger & Butler (2011) - Critical benefits of retrieval practice with cues.',
+    utilidade: 'alta',
+  },
+  f5_associacao: {
+    evidencia: 'Mapeamento relacional de esquemas e padrões de metadados para consolidação de estruturas conceituais.',
+    referencia: 'Dunlosky et al. (2013) - Organizing information into conceptual schemas enhances transfer.',
+    utilidade: 'alta',
+  },
+  f6_caso_pratico: {
+    evidencia: 'Aprendizagem contextual e aplicação transferencial a cenários práticos da Câmara dos Deputados.',
+    referencia: 'Pashler et al. (2007) - Applying knowledge to novel real-world contexts promotes durable retention.',
+    utilidade: 'alta',
+  },
+  f7_flashcard_ativo: {
+    evidencia: 'Recordação livre com elaborative retrieval (recuperar mentalmente antes de ler o gabarito).',
+    referencia: 'Pressley et al. (1987); Roediger & Karpicke (2006) - Pure active retrieval testing effect.',
+    utilidade: 'alta',
+  },
+  f8_inversao_papeis: {
+    evidencia: 'Metacognição crítica e análise da ótica do examinador: desmascara os 4 padrões de armadilha Cebraspe.',
+    referencia: 'Dunlosky et al. (2013); Flavell (1979) - Metacognitive monitoring and test-maker modeling.',
+    utilidade: 'alta',
+  },
+};
 
 export interface ItemRevisaoSubmodulo {
   conceito: Concept;
@@ -22,6 +71,10 @@ export interface ComposicaoRevisaoSubmodulo {
   itens: ItemRevisaoSubmodulo[];
   acertosNecessarios: number;
   aproveitamentoMinimo: number;
+  submodulosCobertos: string[];
+  dataProximaRevisaoSugerida: string;
+  casoIntegradorDestaque?: CasoIntegrador;
+  fundamentacaoCientificaFormatos: typeof EVIDENCIA_CIENTIFICA_FORMATOS;
 }
 
 /**
@@ -182,6 +235,23 @@ export function comporSubmoduloRevisao(params: {
     };
   });
 
+  const submodulosCobertos = Array.from(new Set(itensFinais.map((i) => i.conceito.submoduloId)));
+  const dataBase = ajustarParaDiaUtil(dataAtualIso);
+  const dataProximaRevisaoSugerida = somarDiasUteis(dataBase, REVIEW_CONFIG.intervalsDaysByBox[1]);
+
+  // Associação de Casos Integradores a módulos de fechamento de ciclo interdisciplinar
+  const mapaCasoIntegradorModulo: Record<number, string> = {
+    3: 'ci-1',
+    6: 'ci-2',
+    8: 'ci-3',
+    10: 'ci-4',
+    14: 'ci-5',
+  };
+  const casoIdDestaque = mapaCasoIntegradorModulo[moduloNumero];
+  const casoIntegradorDestaque = casoIdDestaque
+    ? CASOS_INTEGRADORES.find((ci) => ci.id === casoIdDestaque)
+    : undefined;
+
   return {
     revisaoId,
     moduloNumero,
@@ -194,5 +264,10 @@ export function comporSubmoduloRevisao(params: {
     itens: itensFinais,
     acertosNecessarios,
     aproveitamentoMinimo: REVIEW_CONFIG.minPassingRetention,
+    submodulosCobertos,
+    dataProximaRevisaoSugerida,
+    casoIntegradorDestaque,
+    fundamentacaoCientificaFormatos: EVIDENCIA_CIENTIFICA_FORMATOS,
   };
 }
+

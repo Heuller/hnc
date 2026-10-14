@@ -572,3 +572,99 @@ Em cumprimento estrito à Seção 4.7 do *Plano Diretor de Auditoria Editalícia
 - **Suíte de Testes do Projeto:** **43 arquivos de testes executados com 404 testes aprovados (100% de sucesso)**.
 - **Build de Produção:** `npm run build` concluído com sucesso e 220 assets pré-cacheados no PWA.
 - **Dossiê PDF:** 14.38 MB compilado com 4 Apêndices completos (A: Discursivas, B: Glossário, C: Folha de Véspera, D: Casos Integradores).
+
+---
+
+## [Fase 7] — Revisões Espaçadas Adaptadas aos Conteúdos Novos (14/10/2026)
+
+Em cumprimento estrito à Seção 4.8 do *Plano Diretor de Auditoria Editalícia e Antigravity* (`Auditoria_Editalicia_e_Plano_Antigravity_Heuller_na_Camara.md`), foram executadas todas as 3 metas de calibração neurocognitiva, reconstrução dos submódulos Rn e estruturação da Trilha Reta Final:
+
+### T7.1 — Regras de Agendamento Espaçado e Priorização por Risco
+- **Arquivos modificados:**
+  - `src/config/reviewConfig.ts`
+  - `src/domain/scheduler/unifiedScheduler.ts`
+- **Fundamentação Neurocognitiva:**
+  - **Prática Distribuída (Spacing Effect):** Cepeda, Pashler, Vul, Wixted & Rohrer (2006); Cepeda et al. (2008) — o espaçamento de estudo potencializa a retenção de longo prazo e previne a saturação mnemônica.
+  - **Prática de Recuperação Ativa (Testing Effect):** Roediger & Karpicke (2006) — a recuperação esforçada supera substancialmente a releitura passiva.
+  - **Intercalação (Interleaving Effect):** Kornell & Bjork (2008) — a alternância entre categorias análogas treina a discriminação conceitual de pegadinhas Cebraspe.
+  - **Síntese de Utilidade das Técnicas:** Dunlosky et al. (2013).
+- **Ciclo de Agendamento Leitner/Pashler:**
+  - Calendário estrito em dias úteis (segunda a sexta-feira). Sábados e domingos com zero revisões agendadas.
+  - 1ª revisão em 1 dia útil, 2ª em ~1 semana (3 dias úteis), 3ª em ~1,5 semana (7 dias úteis), 4ª em ~3,5 semanas (16 dias úteis), 5ª em ~7 semanas (35 dias úteis).
+- **Ativação Precoce para Conteúdos Novos de Alta Densidade Técnica:**
+  - Lista canônica de submódulos de alta densidade (`SUBMODULOS_ALTA_DENSIDADE_TECNICA`): `sub-1-5` (Fontes Jurídicas), `sub-1-6` (Epistemologia/Metodologia), `sub-2-6` (Linked Data: BIBFRAME, Dublin Core, MODS, METS), `sub-2-7` (Modelagem LRM/FRBR), `sub-6-5` (XML/JSON/CSV), `sub-6-6` (SQL e Bancos Relacionais), `sub-6-7` (Regex em Metadados), `sub-8-5` (Governança DAMA-DMBOK), `sub-10-5` (RICD), `sub-10-6` (Regimento Comum), `sub-13-4` (Gestão de Riscos e Integridade), `sub-14-3` (Python/Shell Scripting) e `sub-14-4` (Web Scraping e APIs RESTful).
+  - Primeira revisão bem-sucedida agenda automaticamente **revisão extra de ativação em 2 dias úteis**.
+- **Aceleração e Retrocesso Dinâmico:**
+  - **Aceleração Pashler:** Acerto com certeza sustentado em 2 revisões seguidas (aproveitamento ≥ 85%) dobra o intervalo da repetição (`fatorMultiplicadorAceleracao: 2.0`).
+  - **Retrocesso:** Queda de aproveitamento abaixo de 70%, chute ou erro rebaixa imediatamente para Caixa 1 e agenda para o próximo dia útil.
+- **Priorização Ponderada por Risco:**
+  - Ponderação com 3 fatores integrados: (a) peso do módulo no edital (`pesosRiscoModulo`), (b) desempenho e erros recentes, (c) prioridade do submódulo.
+  - **Atenuação de M7 (P0.5):** Módulo 7 (Preservação física: agentes biológicos e planos de contingência curativos) recebe multiplicador 0.5, reduzindo pela metade sua frequência em relação aos tópicos de peso 1.5.
+- **Intercalação por Pares Conceituais Confundíveis (Kornell & Bjork, 2008):**
+  - Matriz canônica de 8 pares (`PARES_CONCEITUAIS_CONFUNDIVEIS`):
+    1. `Crosswalk de Metadados` vs. `Conversão de Metadados`
+    2. `Data Owner` vs. `Data Steward` (DAMA-DMBOK)
+    3. `Acoplamento Bibliográfico` vs. `Co-citação`
+    4. `AACR2r` vs. `RDA`
+    5. `MODS` vs. `METS` vs. `Dublin Core`
+    6. `Precisão` vs. `Revocação`
+    7. `Proveniência Arquivística` vs. `Linhagem de Dados`
+    8. `CDD` vs. `CDU`
+  - Seletor diário bonifica (+400 pts) itens de pares opostos para exibição simultânea e garante que a sessão diária misture ao menos 3 submódulos distintos.
+- **Orçamento Diário e Alerta de Atraso Acumulado:**
+  - Capacidade diária limitada a 30 itens (≈ 45 min de 3 h/dia de estudo, respeitando o teto de 25%).
+  - Cálculo de `diasUteisAcumulados = totalPendentes / dailyReviewCap`.
+  - Alerta explícito de sobrecarga cognitiva acionado quando as pendências ultrapassarem 2 dias úteis (> 60 itens), com mensagem pedagógica despressurizadora.
+
+### T7.2 — Reconstrução dos Submódulos de Revisão Científica (Rn)
+- **Arquivos modificados:**
+  - `src/domain/reviewSubmoduleEngine.ts`
+- **Composição Científica dos Submódulos Rn (R1 a R14):**
+  - Sessões de 20 itens calibrados na simetria Cebraspe (10 C / 10 E).
+  - Quotas cumulativas: 60% do módulo atual Mk e 40% dos módulos precedentes M1..Mk-1.
+  - Teto estrito de 20% para F1 (máx 4 itens de julgamento simples C/E) e 80% nos formatos cognitivos F2 a F8.
+  - Retorno enriquecido com `submodulosCobertos` e `dataProximaRevisaoSugerida` (1 dia útil após a conclusão).
+- **Integração dos Casos Integradores Transversais (T6.2):**
+  - Módulos de encerramento de ciclos interdisciplinares integrados aos Casos Integradores como desafios formativos:
+    - **R3:** Desafio do **CI-1** (Catalogação, LRM, Classificação de Obra sobre Processo Legislativo);
+    - **R6:** Desafio do **CI-2** (Metadados Estruturados, SQL e OAIS na Preservação Digital);
+    - **R8:** Desafio do **CI-3** (Governança de Dados DAMA, LGPD, LAI e Acesso da Câmara);
+    - **R10:** Desafio do **CI-4** (Processo Legislativo, Regimento Interno e Regimento Comum);
+    - **R14:** Desafio do **CI-5** (Web Scraping, APIs RESTful, SPARQL e Dados Legislativos).
+- **Declaração Formal de Evidência Científica (F1 a F8):**
+  - Dicionário canônico `EVIDENCIA_CIENTIFICA_FORMATOS` declarando a base neurocognitiva de cada um dos 8 formatos (Dunlosky et al., 2013; Roediger & Karpicke, 2006; Kornell & Bjork, 2008; Taylor, 1953; Pressley et al., 1987). Proibição expressa de formatos sem evidência empírica.
+
+### T7.3 — Trilha Reta Final (Últimas 3 Semanas até 17/01/2027)
+- **Arquivos modificados:**
+  - `src/config/reviewConfig.ts`
+  - `src/domain/projectionsEngine.ts`
+- **Configuração da Reta Final:**
+  - **Início Oficial:** 28/12/2026 (exatamente 3 semanas / 15 dias úteis antes da prova em 17/01/2027).
+  - **Marco de Corte Normativo Cebraspe (T4.6):** 17/12/2026 (congelamento jurisprudencial e legal a 30 dias da prova). O motor projeta a contagem regressiva em dias úteis e o status de corte.
+  - **Estrutura por Blocos Oficiais do Edital 2026:**
+    - Bloco A: Representação Descritiva e Metadados (M2, M2.5)
+    - Bloco B: Representação Temática e Indexação (M3, M4)
+    - Bloco C: Gestão, Preservação e Automação (M5, M6, M7, M8, M9)
+    - Bloco D: Fundamentos e Epistemologia da Biblioteconomia (M1)
+    - Bloco E: Legislação e Processo Legislativo da Câmara (M10)
+    - Conhecimentos Básicos: Língua Portuguesa, Direito Administrativo, TI e Inglês (M11, M12, M13, M14)
+  - **Simulado Geral de 180 Itens Certo/Errado:** Proporção oficial calibrada (50 Conhecimentos Básicos, 70 Conhecimentos Específicos e 60 Conhecimentos Especializados).
+  - **Condição de Desbloqueio:** Disponível a partir de 28/12/2026 ou mediante conclusão dos 6 marcos de disciplina, sem quebrar os gates de 80% dos simulados modulares.
+
+### Validação Formal e Testes da Fase 7
+- **Novo Arquivo de Testes:** `src/tests/fase7RevisaoAgendador.test.ts` com **13 testes automatizados específicos**:
+  - Simulação de 68 dias úteis com zero revisões em fins de semana;
+  - Ativação precoce em 2 dias úteis para temas de alta densidade;
+  - Aceleração Pashler (dobro de intervalo) em acertos sustentados;
+  - Rebaixamento e recuo para Caixa 1 em erros/chutes;
+  - Atenuação de prioridade em M7 (P0.5);
+  - Intercalação ativa com ≥ 3 submódulos por sessão;
+  - Alerta de sobrecarga para acúmulos > 2 dias úteis de capacidade;
+  - Bonificação de contraste para pares conceituais confundíveis;
+  - Composição de R3 a R14 com submodulosCobertos, data da próxima revisão e Casos Integradores CI-1 a CI-5;
+  - Fundamentação científica declarada para F1 a F8;
+  - Ativação da Trilha Reta Final e marco de corte normativo de 17/12/2026.
+- **Suíte Global do Projeto:** **44 arquivos de testes executados com 417 testes aprovados (100% de sucesso)**.
+- **Compilação TypeScript:** `npx tsc -b` com **zero erros e zero avisos**.
+- **Build de Produção:** `npm run build` gerado com sucesso pelo Vite/Rolldown e PWA com 220 assets pré-cacheados.
+
