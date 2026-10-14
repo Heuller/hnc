@@ -6,7 +6,7 @@ import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos'
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
-import { MarkdownRenderer } from '../components/common/MarkdownRenderer';
+import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
 import { MnemonicosDrawerMobile } from '../components/content-blocks/MnemonicosDrawerMobile';
 import {
@@ -560,7 +560,7 @@ export const TeoriaPage: React.FC = () => {
               </h2>
             </div>
 
-            <MarkdownRenderer content={currentSub.teoriaDensaMarkdown} />
+            <ConteudoMarkdown content={currentSub.teoriaDensaMarkdown} />
           </article>
 
           {/* Bloco 5: Checkpoints de Recuperação Ativa */}
