@@ -183,7 +183,7 @@ O Cebraspe explora minuciosamente as seguintes adulterações semânticas:
 
 3. **Inversão da Posição do Adjetivo em Relação ao Substantivo (Cunha & Cintra, p. 257):**
    - Na língua portuguesa, a anteposição do adjetivo tende a conferir valor afetivo, conotativo ou subjetivo, enquanto a posposição confere sentido denotativo, objetivo e classificador.
-   - Exemplo: *"um **simples** deputado"* (insignificante, modesto) $\neq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o candidato julga que essa inversão preserva sempre o sentido original.`,
+   - Exemplo: *"um **simples** deputado"* (insignificante, modesto) $\\neq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o candidato julga que essa inversão preserva sempre o sentido original.`,
   checkpoints: [
     {
       id: 'chk-13-2-1',

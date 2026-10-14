@@ -247,7 +247,7 @@ O **Qualis** é o sistema oficial mantido pela Coordenação de Aperfeiçoamento
 * **Novo Qualis de Referência (Quadriênio 2017-2020 em diante):**
   * Elimina a antiga fragmentação em que a mesma revista tinha notas diferentes em diferentes comitês de área;
   * Classificação única nacional em **8 estratos hierárquicos**:
-    $\text{A1} > \text{A2} > \text{A3} > \text{A4} > \text{B1} > \text{B2} > \text{B3} > \text{B4}$
+    $\\text{A1} > \\text{A2} > \\text{A3} > \\text{A4} > \\text{B1} > \\text{B2} > \\text{B3} > \\text{B4}$
   * Periódicos não enquadráveis, sem rigor científico ou predatórios são classificados no estrato **C** (peso zero para fins de fomento).
 
 #### B. A Declaração DORA (San Francisco Declaration on Research Assessment, 2012)

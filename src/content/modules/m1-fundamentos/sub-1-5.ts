@@ -140,7 +140,7 @@ O edital exige a distinção das formas de organização da informação (item 1
 
 #### A. Informação Estruturada
 * **Conceito:** Dados organizados de acordo com um esquema prévio rígido (*schema-first*), com tipos de dados estritamente delimitados (inteiro, texto com tamanho fixo, data, booleano) e armazenados em tabelas de bases de dados relacionais (PostgreSQL, MySQL, Oracle) ou em registros formatados padronizados.
-* **No universo bibliográfico:** Um registro no padrão **MARC 21**, onde cada campo de três dígitos possui significado unívoco (campo 100 para autor pessoal, 245 para título, 260/264 para publicação) e subcampos delimitados pelo delimitador subcampo ($a, $b, $c).
+* **No universo bibliográfico:** Um registro no padrão **MARC 21**, onde cada campo de três dígitos possui significado unívoco (campo 100 para autor pessoal, 245 para título, 260/264 para publicação) e subcampos delimitados pelo delimitador subcampo (\`$a\`, \`$b\`, \`$c\`).
 * **No universo da Câmara:** As tabelas relacionais do Sistema de Informações Legislativas (SILEG) e os dados brutos de votação nominal de deputados.
 * **Vantagens e Limitações:** Alta eficiência de recuperação e consultas analíticas precisas; extrema rigidez e alto custo para acomodar novos atributos não modelados previamente.
 

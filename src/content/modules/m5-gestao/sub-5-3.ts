@@ -183,7 +183,7 @@ A Release 5 superou a ambiguidade de releases anteriores estabelecendo uma disti
 * **Protocolo SUSHI (ANSI/NISO Z39.93):**
   O *Standardized Usage Statistics Harvesting Initiative* é o protocolo automatizado baseado em web services (REST/JSON e XML) que permite aos sistemas de bibliotecas (SIGB / ERM) "colher" automaticamente os relatórios COUNTER de todos os fornecedores contratados, eliminando a extração manual de planilhas.
 * **Custo por Download (CPD - *Cost per Download*):**
-  $\\text{CPD} = \\frac{\\text{Valor Anual da Assinatura}}{\\text{Total de Unique_Item_Requests}}$
+  $\\text{CPD} = \\frac{\\text{Valor Anual da Assinatura}}{\\text{Total de Unique\\_Item\\_Requests}}$
   Indicador mestre utilizado pelo bibliotecário para subsidiar decisões de renovação, cancelamento de títulos ociosos ou substituição de pacotes fechados (*Big Deals*) por aquisição seletiva pontual.
 
 ---
@@ -260,10 +260,10 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 2. **Análise de Custo por Uso (Cost-Per-Use - CPU) e Decisão de Assinaturas:**
    O indicador financeiro mais decisivo para renovação ou cancelamento de pacotes de periódicos e bases de dados:
 
-   $\text{CPU} = \frac{\text{Custo Total Anual do Recurso (Assinatura)}}{\text{Total de Usos Efetivos Desduplicados (\textit{Unique\_Item\_Requests})}}$
+   $\\text{CPU} = \\frac{\\text{Custo Total Anual do Recurso (Assinatura)}}{\\text{Total de Usos Efetivos Desduplicados (\\textit{Unique\\_Item\\_Requests})}}$
 
    * *Parâmetro de Decisão:* O bibliotecário confronta o CPU calculado contra o custo médio de aquisição avulsa por artigo via *Pay-Per-View* (normalmente entre US$ 30 e US$ 45 / cerca de R$ 150 a R$ 250 por download avulso) ou comutação bibliográfica (COMUT).
-   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($\text{CPU} = \text{R\$} \; 500,00$ por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
+   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($\\text{CPU} = \\text{R\\$} \\; 500,00$ por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
 
 3. **Taxa de Obsolescência e Meia-Vida da Literatura (Burton & Kebler, 1960):**
    * *Conceito de Meia-Vida (Half-Life):* O tempo decorrido para que 50% de todas as consultas ou citações ativas a uma determinada literatura deixem de ocorrer.

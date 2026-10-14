@@ -248,7 +248,7 @@ Para avaliar o prestígio e o impacto de periódicos científicos que publicam d
 #### A. Fator de Impacto (*Impact Factor - IF*) de Eugene Garfield
 Desenvolvido na década de 1960 pelo fundador do *Institute for Scientific Information (ISI)*, **Eugene Garfield**, e publicado no relatório anual **Journal Citation Reports (JCR)** (atualmente mantido pela Clarivate Analytics integrado à plataforma Web of Science):
 
-$\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{ a artigos publicados nos Anos } (A-1) \text{ e } (A-2)}{\text{Número de itens citáveis publicados nos Anos } (A-1) \text{ e } (A-2)}$
+$\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\text{ a artigos publicados nos Anos } (A-1) \\text{ e } (A-2)}{\\text{Número de itens citáveis publicados nos Anos } (A-1) \\text{ e } (A-2)}$
 
 * **A Distorção dos "Itens Citáveis" (*Citable Items* — Pegadinha de Ouro Cebraspe):**
   * O denominador computa estritamente **artigos de pesquisa originais e artigos de revisão**;

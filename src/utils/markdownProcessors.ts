@@ -60,16 +60,10 @@ export const CALLOUT_CONFIG: Record<CalloutType, { titulo: string; borda: string
 export function protegerCifraoMoeda(texto: string): string {
   if (!texto) return '';
 
-  // 1. Protege "R$" e "US$" seguidos de espaço e/ou dígitos/vírgulas/pontos (não escapados)
-  let processado = texto.replace(
-    /(^|[^\\])(R|US)\$(\s*[\d.,]+)/g,
+  // Protege "R$" e "US$" seguidos de espaço horizontal e/ou dígitos/vírgulas/pontos (não escapados)
+  const processado = texto.replace(
+    /(^|[^\\])(R|US)\$([ \t]*[\d.,]+)/g,
     (_match, prefix, moeda, valor) => `${prefix}${moeda}\\$${valor}`
-  );
-
-  // 2. Protege cifrão isolado seguido diretamente de dígitos monetários (ex: "$ 50,00" ou "$ 100") que não seja fórmula LaTeX
-  processado = processado.replace(
-    /(^|[^\\])\$(\s+[\d.,]+)/g,
-    (_match, prefix, valor) => `${prefix}\\$${valor}`
   );
 
   return processado;

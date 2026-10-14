@@ -106,7 +106,7 @@ Em seu estudo seminal *Question-Negotiation and Information Seeking in Libraries
 #### C. A Tríade Canônica: Necessidade vs. Demanda vs. Uso (Maurice Line, 1974; Nice Figueiredo, 1994)
 O Cebraspe explora sistematicamente a falsa equivalência entre esses três conceitos:
 
-$\text{Necessidade (Need)} \neq \text{Demanda (Demand)} \neq \text{Uso (Use)}$
+$\\text{Necessidade (Need)} \\neq \\text{Demanda (Demand)} \\neq \\text{Uso (Use)}$
 
 * **Necessidade de Informação (*Information Need*):**
   * Representa o estado real de carência informacional indispensável para que o indivíduo execute suas tarefas, tome decisões ou resolva impasses de pesquisa.

@@ -41,7 +41,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
   * Parênteses () $\rightarrow$ Exponenciação (^) $\rightarrow$ Multiplicação (*) e Divisão (/) $\rightarrow$ Adição (+) e Subtração (-).
 * **Tipos de Referências de Células (*⚠️ Clássico Cebraspe*):**
   * **Relativa (\`A1\`):** Desloca-se dinamicamente ao copiar e colar ou arrastar pela alça de preenchimento.
-  * **Absoluta (\`$A$1\`):** Trava completamente a coluna A e a linha 1 através do caractere cifrão ($), permanecendo fixa independentemente do destino da cópia.
+  * **Absoluta (\`$A$1\`):** Trava completamente a coluna A e a linha 1 através do caractere cifrão (\`$\`), permanecendo fixa independentemente do destino da cópia.
   * **Mista (\`$A1\` ou \`A$1\`):** Trava apenas a coluna (\`$A1\`) ou apenas a linha (\`A$1\`).
 * **Funções Essenciais:**
   * \`=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)\`

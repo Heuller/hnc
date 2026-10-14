@@ -230,15 +230,15 @@ Todos os elementos do Dublin Core Simples compartilham duas características fun
 
 | Elemento DCMI | Definição Canônica | Mapeamento no MARC 21 |
 | :--- | :--- | :--- |
-| **Title** | O nome formal atribuído ao recurso. | Campo 245 $a |
-| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 $a |
-| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 $a (Assunto) |
+| **Title** | O nome formal atribuído ao recurso. | Campo 245 \`$a\` |
+| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 \`$a\` |
+| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 \`$a\` (Assunto) |
 | **Description** | Um resumo explicativo, sumário ou descrição textual livre do recurso. | Campo 520 (Resumo) ou 500 (Nota) |
-| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 $b |
-| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 $a |
-| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 $c |
+| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 \`$b\` |
+| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 \`$a\` |
+| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 \`$c\` |
 | **Type** | A natureza ou gênero abstrato do conteúdo (ex.: \`dataset\`, \`image\`, \`text\`). | Líder pos. 06 / Campo 655 |
-| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: \`application/pdf\`). | Campo 856 $q / Campo 300 |
+| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: \`application/pdf\`). | Campo 856 \`$q\` / Campo 300 |
 | **Identifier** | Referência inequívoca ao recurso em um dado contexto (URI, DOI, ISBN). | Campo 020 (ISBN) / 024 (DOI) |
 | **Source** | Recurso original do qual o presente recurso é derivado. | Campo 786 (Fonte de dados) |
 | **Language** | O idioma ou código linguístico do conteúdo intelectual. | Campo 008 pos. 35-37 / Campo 041 |
