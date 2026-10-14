@@ -42,7 +42,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
           conceito: a.ideiaChave || a.obraPrincipal || `Teórico canônico`,
         };
       })
-      .slice(0, 4);
+      .slice(0, 6);
   }, [autores]);
 
   // Semente de embaralhamento registrada a cada ciclo/reinício (B4)
@@ -300,7 +300,9 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
             <div className="p-3.5 rounded-xl bg-ok-soft border-2 border-ok text-ok text-xs font-sans flex items-center justify-between shadow-xs">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-5 h-5 shrink-0 text-ok" />
-                <span className="font-bold text-sm">Excelente! Todos os 4 pares foram associados corretamente.</span>
+                <span className="font-bold text-sm">
+                  Excelente! Todos os {authorCards.length} pares foram associados corretamente.
+                </span>
               </div>
               <button
                 type="button"
