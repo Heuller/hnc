@@ -668,3 +668,82 @@ Em cumprimento estrito à Seção 4.8 do *Plano Diretor de Auditoria Editalícia
 - **Compilação TypeScript:** `npx tsc -b` com **zero erros e zero avisos**.
 - **Build de Produção:** `npm run build` gerado com sucesso pelo Vite/Rolldown e PWA com 220 assets pré-cacheados.
 
+---
+
+## [Fase 8] — Expansão do Banco de Questões, Rastreabilidade Estrita, M10A/M10B e Simulado Geral 180Q (14/10/2026)
+
+Em cumprimento estrito à Seção 4.9 do *Plano Diretor de Auditoria Editalícia e Antigravity* (`Auditoria_Editalicia_e_Plano_Antigravity_Heuller_na_Camara.md`), foram executadas todas as 5 metas de ampliação do banco de questões, ancoragem normativa, desmembramento regimental e estruturação do Simulado Geral e Discursivas:
+
+### T8.1 — Banco de Questões com Rastreabilidade Estrita
+- **Arquivos modificados:**
+  - `src/domain/schemas/question.schema.ts`
+- **Ação e Especificação Técnica:**
+  - Definição do schema e tipos para rastreabilidade auditável de cada item: `modulo`, `submodulo`, `editalRef`, `nivel` (1 a 4), `habilidade` (memorizar, compreender, aplicar, analisar, avaliar), `gabarito` ('C' | 'E'), `justificativa`, `fonte`, `ehPegadinha` (boolean) e `dataConferencia`.
+  - Implementação da função canônica `validarRastreabilidadeItem()`, que valida em runtime se o item possui fonte declarada válida, justificativa consistente com o gabarito e todos os metadados de rastreabilidade preenchidos.
+  - Regra inegociável Cebraspe: **Itens sem fonte não entram no banco ativo da plataforma.**
+
+### T8.2 — Questões Novas para Submódulos Criados ou Ampliados
+- **Arquivos criados:**
+  - `src/content/questions/questoes-submodulos-ampliados.ts`
+- **Ação e Conteúdo:**
+  - Elaboração de 69 questões inéditas rigorosamente fundamentadas em normas primárias (CF/88, LAI, DAMA-DMBOK 2ª ed., NISO Z39.87, MIX, PBCore, W3C PROV-O, SQL ANSI, etc.), cobrindo os novos submódulos:
+    - `1.5`: Ciclo de Vida, Qualidade da Informação (Wang & Strong) e Memória Institucional;
+    - `1.6`: Governança de Dados (DAMA-DMBOK) e Dados Abertos Governamentais;
+    - `2.6`: Metadados NISO, MIX, PBCore, Perfis de Aplicação e Crosswalks;
+    - `2.7`: Linked Data, BIBFRAME 2.0, Ontologias e Vocabulários W3C;
+    - `6.5`: Representação e Intercâmbio de Dados (XML, JSON, CSV, YAML);
+    - `6.6`: Bancos de Dados Relacionais e Linguagem SQL em Bibliotecas;
+    - `6.7`: Expressões Regulares (Regex) e Limpeza/Transformação de Metadados;
+    - `8.5`: Citação em Documentos (ABNT NBR 10520:2023) e Numeração Progressiva;
+    - `13.4`: Semântica, Coesão e Relações Lógico-Discursivas.
+  - Distribuição pedagógica nos 4 níveis de RPG da plataforma: Nível 1 (Aprendiz), Nível 2 (Operador), Nível 3 (Estrategista) e Nível 4 (Prova Real).
+
+### T8.3 — Desmembramento de M10 em Dois Simulados de 100 Itens
+- **Arquivos criados:**
+  - `src/content/questions/m10a-legislativo-constituicao-100q.ts`
+  - `src/content/questions/m10b-regimentos-100q.ts`
+- **Ação e Especificação:**
+  - **M10A — Processo Legislativo Constitucional, Produção Editorial e Disseminação (100 Itens C/E):**
+    - Escopo: CF/88 arts. 59 a 69, iniciativas privativas, quóruns de aprovação, processo orçamentário, sistema LexML Brasil, Rede Virtual de Bibliotecas (RVBI) e CEDI/Edições Câmara.
+    - Simetria exata Cebraspe: **50 Certas e 50 Erradas (50/50)**.
+  - **M10B — Regimentos da Câmara dos Deputados e do Congresso Nacional (100 Itens C/E):**
+    - Escopo: Regimento Interno da Câmara dos Deputados (Resolução nº 17/1989) e Regimento Comum do Congresso Nacional (Resolução nº 1/1970-CN), incluindo atribuições da Mesa, Colégio de Líderes, Comissões Permanentes/Temporárias, CPIs, tramitação de urgência e veto presidencial.
+    - Simetria exata Cebraspe: **50 Certas e 50 Erradas (50/50)**.
+
+### T8.4 — Simulado Geral e Casos Integradores (180 Itens)
+- **Arquivos criados/modificados:**
+  - `src/content/questions/simulado-geral-180q.ts`
+  - `src/content/simuladosRegistry.ts`
+- **Ação e Especificação:**
+  - Estruturação do **Simulado Geral de 180 Itens C/E** reproduzindo a composição exata da prova oficial do Cargo 5:
+    - **50 itens de Conhecimentos Básicos:** Língua Portuguesa (M13), Direito Constitucional e Administrativo (M11/M12), Informática e Dados (M14) e Língua Inglesa (M15).
+    - **70 itens de Conhecimentos Específicos I:** Módulos 1 a 9 (Fundamentos, Catalogação, Classificação, Indexação, Gestão de Bibliotecas, Automação/Digital, Preservação, Normalização e Serviços de Referência).
+    - **60 itens de Conhecimentos Especializados II:** Módulo 10A e 10B (Processo Legislativo Constitucional, RICD, RCCN, LexML, RVBI e Memória Legislativa).
+  - Inclusão dos **Casos Integradores CI-1 a CI-5** como questões de Nível 4 (Prova Real) com enunciados interdisciplinares e contextualizados.
+  - Simetria exata Cebraspe: **90 Certas e 90 Erradas (90/90)**.
+  - Registro em `SIMULADOS_FASE8_REGISTRY` e em `ALL_SIMULADOS_REGISTRY` com resolução transparente via `getSimuladoById()` e `detectSimuladoIdFromQuestionId()`, preservando intactos os 15 simulados legados no catálogo histórico.
+
+### T8.5 — Temas Discursivos com Rubricas de Autocorreção (E16)
+- **Arquivos modificados:**
+  - `src/domain/discursiva/temasOficiais.ts`
+- **Ação e Especificação:**
+  - Disponibilização dos **12 Temas Oficiais de Prova Discursiva** com critérios rigorosos de autocorreção:
+    - Critérios macroestruturais (apresentação, legibilidade e estrutura do texto dissertativo) e microestruturais (domínio do tema, profundidade conceitual e fidelidade normativa).
+    - Padrão preliminar de resposta detalhado para cada tema, permitindo que o candidato faça o espelhamento de notas por faixa de pontuação.
+
+### Validação Formal e Testes da Fase 8
+- **Novo Arquivo de Testes:** `src/tests/fase8SimuladosIntegridade.test.ts` com **16 testes automatizados específicos**:
+  - Validação de rastreabilidade de todas as 69 questões ampliadas;
+  - Rastreabilidade integral de todos os itens de M10A e M10B;
+  - Rastreabilidade de todos os 180 itens do Simulado Geral;
+  - Simetria rigorosa de 50C / 50E para M10A e M10B;
+  - Simetria rigorosa de 90C / 90E para o Simulado Geral 180Q;
+  - Proporção exata 50 Básicos / 70 Específicos / 60 Especializados no Simulado Geral;
+  - Presença dos Casos Integradores CI-1 a CI-5 no Simulado Geral;
+  - Disponibilidade e integridade das rubricas dos 12 temas de discursiva;
+  - Registro e resolução no catálogo unificado de simulados.
+- **Suíte Global do Projeto:** **45 arquivos de testes executados com 433 testes aprovados (100% de sucesso)**.
+- **Compilação TypeScript:** `npx tsc -b` com **zero erros e zero avisos**.
+- **Build de Produção:** `npm run build` gerado com sucesso pelo Vite/Rolldown e PWA compilado com 223 assets pré-cacheados.
+
+

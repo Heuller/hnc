@@ -9,11 +9,14 @@ import { simuladoPreservacao100Q } from './questions/m7-preservacao-100q';
 import { simuladoNormalizacao100Q } from './questions/m8-normalizacao-100q';
 import { simuladoComunicacao100Q } from './questions/m9-comunicacao-100q';
 import { simuladoLegislativo100Q } from './questions/m10-legislativo-100q';
+import { simuladoLegislativoConstituicao100Q } from './questions/m10a-legislativo-constituicao-100q';
+import { simuladoRegimentosCamaraCongresso100Q } from './questions/m10b-regimentos-100q';
 import { simuladoAdministrativo100Q } from './questions/m11-administrativo-100q';
 import { simuladoIngles100Q } from './questions/m12-ingles-100q';
 import { simuladoPortugues100Q } from './questions/m13-portugues-100q';
 import { simuladoTecnologiaDados100Q } from './questions/m14-tecnologia-dados-100q';
 import { megaSimuladoCamara120Q } from './questions/mega-simulado-camara-120q';
+import { simuladoGeral180Q } from './questions/simulado-geral-180q';
 import { simuladoOrgaosGov30Q } from './questions/mini-modulo-orgaos-30q';
 
 export interface SimuladoManifest {
@@ -229,9 +232,54 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
   },
 ];
 
+export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
+  {
+    id: 'm10a-legislativo-constituicao',
+    macroModuloId: 'M10A',
+    numero: 10.1,
+    titulo: 'Simulado M10-A: Constituição Federal, Processo Legislativo & CEDI',
+    tituloCurto: 'M10-A - Constituição & CEDI',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (CF/88, Espécies Normativas, Veto, LexML e RVBI)',
+    descricao:
+      'Avaliação diagnóstica completa sobre processo legislativo constitucional (arts. 59-69), espécies normativas, tramitação bicameral, veto, fiscalização contábil/financeira (TCU/CPIs), CEDI e LexML.',
+    questoes: simuladoLegislativoConstituicao100Q,
+    submodulosIds: ['10.1', '10.2', '10.3', '10.4'],
+  },
+  {
+    id: 'm10b-regimentos-camara-congresso',
+    macroModuloId: 'M10B',
+    numero: 10.2,
+    titulo: 'Simulado M10-B: Regimento Interno da Câmara (RICD) & Regimento Comum (RCCN)',
+    tituloCurto: 'M10-B - RICD & Regimento Comum',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (RICD Resolução 17/1989 e RCCN Resolução 1/1970-CN)',
+    descricao:
+      'Simulado especializado cobrindo a estrutura orgânica da Câmara (Mesa Diretora, Colégio de Líderes), Comissões (Poder Conclusivo art. 24, II), sessões e votação no RICD e sessões conjuntas bicamerais no RCCN (CMO, vetos e MPs).',
+    questoes: simuladoRegimentosCamaraCongresso100Q,
+    submodulosIds: ['10.5', '10.6', '10.7', '10.8'],
+  },
+  {
+    id: 'simulado-geral-180q',
+    macroModuloId: 'GERAL',
+    numero: 16,
+    titulo: 'Simulado Geral Oficial: Prova Integral da Câmara dos Deputados (180 Itens)',
+    tituloCurto: 'Simulado Geral 180Q',
+    subtitulo: '180 Itens C/E na Proporção Oficial do Edital: Básicos (50Q) + Específicos (70Q) + Especializados (60Q)',
+    descricao:
+      'A prova definitiva para o cargo de Analista Legislativo - Bibliotecário da Câmara dos Deputados. Integração dos Casos Integradores CI-1 a CI-5 como questões analíticas de nível 4, abrangendo 100% dos tópicos do edital.',
+    questoes: simuladoGeral180Q,
+    submodulosIds: [
+      '13.1', '13.2', '13.3', '13.4', '12.1', '12.2', '12.3', '12.4', '11.1', '11.2', '11.3', '11.4', '14.1', '14.2', '14.3', '14.4',
+      '1.1', '1.2', '1.3', '1.4', '1.5', '1.6', '2.1', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7', '3.1', '3.2', '3.3', '3.4',
+      '4.1', '4.2', '4.3', '4.4', '5.1', '5.2', '5.3', '5.4', '6.1', '6.2', '6.3', '6.4', '6.5', '6.6', '6.7', '7.1', '7.2', '7.3', '7.4',
+      '8.1', '8.2', '8.3', '8.4', '8.5', '9.1', '9.2', '9.3', '9.4', '10.1', '10.2', '10.3', '10.4', '10.5', '10.6', '10.7', '10.8'
+    ],
+  },
+];
+
 export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
   ...SIMULADOS_REGISTRY,
   ...MINI_SIMULADOS_REGISTRY,
+  ...SIMULADOS_FASE8_REGISTRY,
 ];
 
 export function getSimuladoById(id: string): SimuladoManifest {
@@ -242,6 +290,7 @@ export function getSimuladoById(id: string): SimuladoManifest {
 }
 
 export function detectSimuladoIdFromQuestionId(questionId: string): string {
+  if (questionId.startsWith('geral-180q-')) return 'simulado-geral-180q';
   if (questionId.startsWith('mega-q-')) return 'mega-simulado-camara';
   if (questionId.startsWith('orgaos-q-')) return 'mini-modulo-orgaos';
   if (questionId.startsWith('cat-q-')) return 'm2-catalogacao';
@@ -252,6 +301,8 @@ export function detectSimuladoIdFromQuestionId(questionId: string): string {
   if (questionId.startsWith('m7-q-')) return 'm7-preservacao';
   if (questionId.startsWith('m8-q-')) return 'm8-normalizacao';
   if (questionId.startsWith('m9-q-')) return 'm9-comunicacao';
+  if (questionId.startsWith('m10a-q-')) return 'm10a-legislativo-constituicao';
+  if (questionId.startsWith('m10b-q-')) return 'm10b-regimentos-camara-congresso';
   if (questionId.startsWith('m10-q-')) return 'm10-legislativo';
   if (questionId.startsWith('m11-q-')) return 'm11-administrativo';
   if (questionId.startsWith('m12-q-')) return 'm12-ingles';

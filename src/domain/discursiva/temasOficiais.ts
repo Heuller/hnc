@@ -337,5 +337,65 @@ export const TEMAS_OFICIAIS_DISCURSIVA: TemaDiscursiva[] = [
       },
     ],
   },
+  {
+    id: 'tema-processo-legislativo-ricd',
+    tipo: 'questao_20',
+    titulo: 'Processo Legislativo Constitucional, Tramitação e Regimento Interno da Câmara (RICD)',
+    enunciado:
+      'O conhecimento detalhado do processo legislativo constitucional e regimental é indispensável para o tratamento documental e a prestação do serviço de referência na Câmara dos Deputados. Redija um texto dissertativo, de até 20 linhas, que aborde obrigatoriamente: 1. A distinção procedimental e de quórum entre Projeto de Lei Ordinária (art. 61 da CF/88), Projeto de Lei Complementar (art. 69 da CF/88) e Proposta de Emenda à Constituição (art. 60 da CF/88); 2. O rito e os efeitos da apreciação conclusiva pelas Comissões Permanentes no âmbito da Câmara dos Deputados (art. 58, § 2º, I da CF/88 e art. 24, II do RICD), indicando a hipótese de recurso para o Plenário; 3. O papel técnico do Centro de Documentação e Informação (CEDI) e da Biblioteca Pedro Aleixo no registro, controle de versões textuais e indexação temática das proposições legislativas.',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve apontar que o Projeto de Lei Ordinária (PL) exige maioria simples (maioria dos presentes, havendo maioria absoluta), o Projeto de Lei Complementar (PLC) exige maioria absoluta em turno único em cada Casa, e a PEC exige aprovação em dois turnos em ambas as Casas pelo quórum qualificado de 3/5 dos respectivos membros. No rito conclusivo (art. 24, II do RICD), o projeto aprovado pelas comissões temáticas competentes é considerado aprovado pela Câmara sem deliberação do Plenário, salvo se houver recurso subscrito por 1/10 dos membros da Casa (52 deputados) para que a matéria seja submetida ao Plenário. O CEDI e a Biblioteca Pedro Aleixo desempenham papel estratégico no controle de versões das redações finais, indexação por vocabulários controlados no portal legislativo e garantia da cadeia de custódia das proposições.',
+    criteriosPontuacao: [
+      {
+        item: '1. Distinção de Espécies Normativas e Quóruns Constitucionais (PL, PLC e PEC)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Diferenciou com exatidão o rito e os quóruns de aprovação: maioria simples (PL), maioria absoluta (PLC) e 3/5 em dois turnos (PEC).',
+      },
+      {
+        item: '2. Apreciação Conclusiva pelas Comissões e Rito de Recurso ao Plenário (RICD)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Explicou a eficácia da aprovação pelas comissões sem o Plenário e citou o recurso por 1/10 dos membros (art. 24, II do RICD).',
+      },
+      {
+        item: '3. Papel do CEDI e da Biblioteca Pedro Aleixo no Tratamento de Proposições',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Evidenciou a gestão documental, controle de versões e indexação semântica das proposições para suporte à atividade parlamentar e transparência cidadã.',
+      },
+    ],
+  },
+  {
+    id: 'tema-web-scraping-dados-abertos',
+    tipo: 'questao_20',
+    titulo: 'Web Scraping Ético, Consumo de APIs RESTful e Dados Abertos Legislativos',
+    enunciado:
+      'A automação na coleta de dados digitais transformou as rotinas de pesquisa e inteligência informacional no setor público. Em até 20 linhas: 1. Diferencie a raspagem de dados (Web Scraping) do consumo estruturado de dados via APIs RESTful (Application Programming Interfaces); 2. Aponte três diretrizes éticas e técnicas obrigatórias na realização de web scraping em portais governamentais (respeito ao arquivo robots.txt, controle de taxa de requisições / rate limiting e conformidade com a LGPD); 3. Discorra sobre como a API de Dados Abertos da Câmara dos Deputados potencializa o desenvolvimento de produtos e serviços bibliográficos de alto valor agregado.',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve explicar que o Web Scraping consiste na extração automatizada de dados diretamente do código HTML das páginas web, dependente do layout visual e sujeito a quebras com alterações de interface, enquanto as APIs RESTful fornecem acesso programático direto e padronizado a dados estruturados (geralmente JSON ou XML) via requisições HTTP seguras (GET, POST). Nas diretrizes éticas: consulta prévia ao robots.txt para verificar diretivas de permissão (User-agent / Disallow), espaçamento entre requisições (rate limiting/delays) para não sobrecarregar os servidores públicos com ataques involuntários de negação de serviço (DoS), e anonimização/proteção de dados pessoais sensíveis conforme a LGPD. A API de Dados Abertos da Câmara dos Deputados (Swagger/OpenAPI) viabiliza a criação de dashboards de tramitação, análise de redes de coautoria de proposições, cruzamento bibliométrico de pareceres e relatórios automatizados de inteligência legislativa.',
+    criteriosPontuacao: [
+      {
+        item: '1. Diferenciação Conceitual e Técnica entre Web Scraping e APIs RESTful',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Contrastou a extração de páginas HTML (frágil e não estruturada) com o fornecimento nativo de dados via endpoints JSON/XML de APIs REST.',
+      },
+      {
+        item: '2. Diretrizes Éticas e Técnicas (robots.txt, Rate Limiting e LGPD)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Apresentou o respeito ao robots.txt, limitação de requisições por segundo para evitar sobrecarga e salvaguarda da privacidade segundo a LGPD.',
+      },
+      {
+        item: '3. Aplicação da API da Câmara no Ecossistema de Informação Parlamentar',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Demonstrou o uso dos endpoints abertos da Câmara para análise de dados legislativos, transparência ativa e criação de produtos biblioteconômicos inovadores.',
+      },
+    ],
+  },
 ];
 
