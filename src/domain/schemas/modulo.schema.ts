@@ -21,6 +21,8 @@ export const CheckpointSchema = z.object({
   justificativa: z.string(),
   versao_correta: z.string().optional(),
   editalRef: z.string().optional(),
+  habilidade: z.enum(['memorizar', 'compreender', 'aplicar', 'analisar', 'avaliar']).optional(),
+  nivel: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
 });
 
 export const SecaoTeoriaSchema = z.object({
