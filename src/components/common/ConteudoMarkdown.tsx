@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import { Bookmark, MoveHorizontal } from 'lucide-react';
+import {
+  Bookmark,
+  MoveHorizontal,
+  Info,
+  Lightbulb,
+  AlertTriangle,
+  AlertOctagon,
+  CheckCircle2,
+  BookOpen,
+} from 'lucide-react';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
+import {
+  prepararConteudoMarkdown,
+  CALLOUT_CONFIG,
+  extractPlainText,
+  stripCalloutMarker,
+  type CalloutType,
+} from '../../utils/markdownProcessors';
 import { EditorialDiagram } from './EditorialDiagram';
 import { TimelineFlow } from './TimelineFlow';
 import { AccordionTree } from './AccordionTree';
@@ -16,8 +33,6 @@ export interface ConteudoMarkdownProps {
   usePreferences?: boolean;
 }
 
-
-
 export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
   content,
   className = '',
@@ -28,6 +43,9 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
 
   const isDark = variant === 'dark';
   const isLight = variant === 'light';
+
+  // Pré-processa markdown (protegendo moedas R$ e normalizando [!ALERTAS])
+  const processedContent = useMemo(() => prepararConteudoMarkdown(content), [content]);
 
   // Preferências do leitor (apenas se usePreferences for true)
   const fontClass = usePreferences
@@ -57,7 +75,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
       style={{ overflowWrap: 'anywhere' }}
     >
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeKatex]}
         components={{
           h1: ({ children, ...props }) => (
@@ -129,14 +147,138 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               {children}
             </em>
           ),
-          blockquote: ({ children, ...props }) => (
-            <blockquote
-              className="border-l-4 border-accent pl-4 my-4 italic text-ink bg-surface-2 p-3.5 rounded-r-xl break-words shadow-2xs"
-              {...props}
-            >
-              {children}
-            </blockquote>
-          ),
+          blockquote: ({ children }) => {
+            const rawText = extractPlainText(children);
+
+            // 1. Detecção explícita de Callouts padronizados estilo GitHub
+            let calloutType: CalloutType | null = null;
+            if (rawText.includes('[[CALLOUT:caution]]')) calloutType = 'caution';
+            else if (rawText.includes('[[CALLOUT:warning]]')) calloutType = 'warning';
+            else if (rawText.includes('[[CALLOUT:important]]')) calloutType = 'important';
+            else if (rawText.includes('[[CALLOUT:tip]]')) calloutType = 'tip';
+            else if (rawText.includes('[[CALLOUT:note]]')) calloutType = 'note';
+
+            // Remove marcador interno para que nenhum artefato chegue ao DOM
+            const sanitizedChildren = stripCalloutMarker(children);
+
+            if (calloutType) {
+              const cfg = CALLOUT_CONFIG[calloutType];
+              const IconComp =
+                calloutType === 'caution'
+                  ? AlertOctagon
+                  : calloutType === 'warning'
+                  ? AlertTriangle
+                  : calloutType === 'important'
+                  ? Bookmark
+                  : calloutType === 'tip'
+                  ? Lightbulb
+                  : Info;
+
+              return (
+                <aside
+                  role="note"
+                  aria-label={cfg.titulo}
+                  className={`my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 ${cfg.borda} ${cfg.fundo} ${cfg.texto}`}
+                >
+                  <div className={`p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 ${cfg.iconeCor}`}>
+                    <IconComp className="w-5 h-5" />
+                  </div>
+                  <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium">
+                    <div className="font-sans font-bold text-xs uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+                      <span>{cfg.titulo}</span>
+                    </div>
+                    <div className="prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
+                      {sanitizedChildren}
+                    </div>
+                  </div>
+                </aside>
+              );
+            }
+
+            // 2. Fallback de detecção por palavras-chave em blockquotes legados
+            const isWarningFallback =
+              rawText.includes('🚨') ||
+              rawText.includes('Atenção') ||
+              rawText.includes('ERRADO') ||
+              rawText.includes('⚠️') ||
+              rawText.includes('Pegadinha') ||
+              rawText.includes('Cuidado');
+
+            const isTipFallback =
+              rawText.includes('💡') ||
+              rawText.includes('Dica') ||
+              rawText.includes('Princípio') ||
+              rawText.includes('Macete') ||
+              rawText.includes('Regra de Ouro');
+
+            const isSuccessFallback =
+              rawText.includes('✅') ||
+              rawText.includes('Correto') ||
+              rawText.includes('Vencedor');
+
+            if (isWarningFallback) {
+              return (
+                <aside
+                  role="note"
+                  aria-label="Atenção"
+                  className="my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 border-l-amber-500 border-amber-200/80 bg-amber-50/80 text-amber-950 dark:bg-amber-950/40 dark:border-amber-800/60 dark:text-amber-200"
+                >
+                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-amber-600 dark:text-amber-400">
+                    <AlertTriangle className="w-5 h-5" />
+                  </div>
+                  <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
+                    {sanitizedChildren}
+                  </div>
+                </aside>
+              );
+            }
+
+            if (isTipFallback) {
+              return (
+                <aside
+                  role="note"
+                  aria-label="Dica"
+                  className="my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 border-l-emerald-500 border-emerald-200/80 bg-emerald-50/80 text-emerald-950 dark:bg-emerald-950/40 dark:border-emerald-800/60 dark:text-emerald-200"
+                >
+                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-emerald-600 dark:text-emerald-400">
+                    <Lightbulb className="w-5 h-5" />
+                  </div>
+                  <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
+                    {sanitizedChildren}
+                  </div>
+                </aside>
+              );
+            }
+
+            if (isSuccessFallback) {
+              return (
+                <aside
+                  role="note"
+                  aria-label="Sucesso"
+                  className="my-5 p-4 sm:p-5 rounded-2xl border-l-4 border shadow-xs flex items-start gap-3.5 border-l-teal-500 border-teal-200/80 bg-teal-50/80 text-teal-950 dark:bg-teal-950/40 dark:border-teal-800/60 dark:text-teal-200"
+                >
+                  <div className="p-2 rounded-xl shrink-0 mt-0.5 shadow-xs bg-surface-2 text-teal-600 dark:text-teal-400">
+                    <CheckCircle2 className="w-5 h-5" />
+                  </div>
+                  <div className="text-[14.5px] sm:text-[15px] leading-relaxed flex-1 font-medium prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
+                    {sanitizedChildren}
+                  </div>
+                </aside>
+              );
+            }
+
+            // Blockquote editorial canônico (citações normais)
+            return (
+              <blockquote className="border-l-4 border-accent pl-4 my-4 italic text-ink bg-surface-2 p-3.5 rounded-r-xl break-words shadow-2xs flex items-start gap-3">
+                <div className="p-1 rounded-lg shrink-0 mt-0.5 text-accent">
+                  <BookOpen className="w-4 h-4" />
+                </div>
+                <div className="flex-1 prose-p:my-1 first:prose-p:mt-0 last:prose-p:mb-0">
+                  {sanitizedChildren}
+                </div>
+              </blockquote>
+            );
+          },
           table: ({ children, ...props }) => (
             <div className="my-5 w-full max-w-full">
               <div className="sm:hidden flex items-center justify-end gap-1 text-[11px] font-sans font-semibold mb-1 px-1 text-ink-2">
@@ -220,7 +362,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
         }}
       >
-        {content}
+        {processedContent}
       </ReactMarkdown>
     </div>
   );
