@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo102: ModuloFilho = {
   id: 'sub-10-2',
   numero: '10.2',
+  editalRef: 'Conhecimentos Básicos - Processo Legislativo Constitucional',
+  preRequisitos: ["sub-10-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-10-5",
+          "titulo": "Poder Legislativo na CF/88",
+          "motivo": "Espécies normativas do art. 59 da Constituição Federal."
+      }
+  ],
   titulo: 'Processo Legislativo Constitucional e Espécies de Proposições',
   descricaoCurta: 'O Art. 59 da CF/88, as 7 espécies normativas primárias, o rito das Emendas Constitucionais (quórum de 3/5 em 2 turnos sem sanção presidencial), Leis Complementares vs. Ordinárias, Medidas Provisórias e o Vocabulário Controlado do Congresso (Sicon/VCB).',
   tempoEstimadoMinutos: 45,
@@ -128,7 +137,13 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
   * **Equivalência:** Termos Autorizados (*USE*) e Termos Não Autorizados (*UP - Usado Para / Sinônimos*);
   * **Hierarquia:** Termo Geral (*TG*) e Termo Específico (*TE*);
   * **Associação:** Termo Relacionado (*TR*).
-* **Finalidade no Processo Legislativo:** Garante a exatidão semântica na indexação de projetos e discursos, permitindo que consultores legislativos e cidadãos encontrem todas as proposições correlatas a um mesmo assunto (ex.: "Reforma Tributária", "Inteligência Artificial", "Proteção de Dados") independentemente dos termos coloquiais empregados pelos diferentes parlamentares.`,
+* **Finalidade no Processo Legislativo:** Garante a exatidão semântica na indexação de projetos e discursos, permitindo que consultores legislativos e cidadãos encontrem todas as proposições correlatas a um mesmo assunto (ex.: "Reforma Tributária", "Inteligência Artificial", "Proteção de Dados") independentemente dos termos coloquiais empregados pelos diferentes parlamentares.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Poder Legislativo na CF/88 (sub-10-5):** Espécies normativas do art. 59 da Constituição Federal.
+`,
   checkpoints: [
     {
       id: 'cp-10-2-1',

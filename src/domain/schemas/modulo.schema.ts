@@ -20,6 +20,7 @@ export const CheckpointSchema = z.object({
   gabarito: z.enum(['C', 'E']),
   justificativa: z.string(),
   versao_correta: z.string().optional(),
+  editalRef: z.string().optional(),
 });
 
 export const SecaoTeoriaSchema = z.object({
@@ -27,6 +28,12 @@ export const SecaoTeoriaSchema = z.object({
   nivel: z.union([z.literal(3), z.literal(4)]),
   titulo: z.string(),
   conteudo: z.string(),
+});
+
+export const ReferenciaCruzadaSchema = z.object({
+  submoduloId: z.string(),
+  titulo: z.string(),
+  motivo: z.string(),
 });
 
 export const ModuloFilhoSchema = z.object({
@@ -43,6 +50,10 @@ export const ModuloFilhoSchema = z.object({
   secoes: z.array(SecaoTeoriaSchema).optional(),
   checkpoints: z.array(CheckpointSchema).min(2).max(3),
   mnemonicos: MnemonicosModuloSchema,
+  prioridade: z.enum(['alta', 'normal', 'baixa']).default('normal').optional(),
+  preRequisitos: z.array(z.string()).optional(), // T6.1: Pré-requisitos pedagógicos (ex: ['sub-1-6'])
+  editalRef: z.string().optional(), // T6.4: Item do Edital nº 1/2026
+  referenciasCruzadas: z.array(ReferenciaCruzadaSchema).optional(), // T6.3: Veja Também (Articulação Intermódulos)
 });
 
 export const MacroModuloSchema = z.object({
@@ -58,10 +69,13 @@ export const MacroModuloSchema = z.object({
   avisoVerificacao: z.string().optional(),
   modulosFilhos: z.array(ModuloFilhoSchema),
   simuladoDisponivel: z.boolean(),
+  preRequisitos: z.array(z.string()).optional(), // T6.1: Pré-requisitos entre módulos
+  blocoEdital: z.string().optional(), // T6.4: Bloco do Edital (ex: 'Bloco A')
 });
 
 export type AlertaBancaItem = z.infer<typeof AlertaBancaItemSchema>;
 export type QuadroComparativo = z.infer<typeof QuadroComparativoSchema>;
+export type ReferenciaCruzada = z.infer<typeof ReferenciaCruzadaSchema>;
 export type Checkpoint = z.infer<typeof CheckpointSchema>;
 export type SecaoTeoria = z.infer<typeof SecaoTeoriaSchema>;
 export type ModuloFilho = z.infer<typeof ModuloFilhoSchema>;

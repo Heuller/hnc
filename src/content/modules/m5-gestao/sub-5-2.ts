@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo52: ModuloFilho = {
   id: 'sub-5-2',
   numero: '5.2',
+  editalRef: 'Bloco E - Item 3.6 a 3.14',
+  preRequisitos: ["sub-4-4"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-4-4",
+          "titulo": "Estudos de Usuários e Entrevista de Referência",
+          "motivo": "Identificação de necessidades para elaboração de produtos especializados."
+      },
+      {
+          "submoduloId": "sub-8-5",
+          "titulo": "Editoração e Publicação Digital",
+          "motivo": "Estruturação formal de infográficos, linhas do tempo e relatórios."
+      }
+  ],
   titulo: 'CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional',
   descricaoCurta: 'Gestão de Relacionamento (CRM de Paul Greenberg: operacional, analítico e colaborativo), Personalização e DSI (Eirão & Cunha), Curadoria de Informação (Bezerra) e elaboração de Dossiês, Estados da Arte e Panoramas (Candido).',
   tempoEstimadoMinutos: 40,
@@ -67,7 +81,7 @@ A Disseminação Seletiva da Informação, concebida originalmente por **Hans Pe
 #### A. O Mecanismo Operacional Canônico da DSI
 O serviço de DSI fundamenta-se no cruzamento automatizado entre dois fluxos dinâmicos de dados:
 
-$$\\text{Perfil de Interesses do Usuário (PIU)} \\; \\bigcap \\; \\text{Perfil dos Novos Documentos (PND)} \\implies \\text{Notificação Direcionada}$$
+$\\text{Perfil de Interesses do Usuário (PIU)} \\; \\bigcap \\; \\text{Perfil dos Novos Documentos (PND)} \\implies \\text{Notificação Direcionada}$
 
 1. **Elaboração e Cadastramento do Perfil do Usuário:** Mapeamento formal dos temas, termos de indexação, autores de interesse e operadores booleanos pertinentes a cada usuário ou grupo funcional.
 2. **Entrada e Indexação das Novas Obras:** Processamento técnico contínuo de livros recém-adquiridos, fascículos de periódicos, notas técnicas e normas legais.
@@ -99,17 +113,140 @@ Com a explosão informacional da internet e a disseminação de fake news e aluc
 
 ---
 
-### 4. Produtos de Inteligência Informacional no Legislativo: Dossiês e Estados da Arte
+### 4. Produtos de Inteligência Informacional no Legislativo (Edital Bloco E, itens 3.12 e 3.13)
 
-Na dinâmica do Parlamento e dos órgãos de cúpula da Administração Pública, a demanda de deputados, senadores e consultores legislativos não é por listas desordenadas de referências bibliográficas, mas por **produtos analíticos consolidados de alto valor agregado** (Candido, 2023; Maciel & Mendonça, 2006):
+No ecossistema do Congresso Nacional e dos órgãos de assessoramento de cúpula, a demanda de parlamentares, lideranças e consultorias legislativas não é por listagens bibliográficas brutas, mas por **produtos informacionais analíticos de alto valor agregado**, consolidados com base em metodologia rigorosa e isenção ético-política (**Renato Alexandre Candido, 2023; Alba Costa Maciel & Marília Alvarenga Mendonça, 2006**).
 
-| Produto Informacional | Características Estruturais | Aplicação Típica na Câmara dos Deputados |
-| :--- | :--- | :--- |
-| **Nota Informacional** | Síntese executiva ultra-objetiva (1 a 3 páginas) focada em esclarecer ponto controverso ou dúvida técnica pontual. | Apoio a deputado durante debate em comissão temática ou votação imediata em plenário. |
-| **Relatório Temático / Panorama** | Mapeamento transversal amplo com antecedentes históricos, atores envolvidos (*stakeholders*), dados estatísticos e impactos financeiros. | Subsídio para elaboração de projetos de lei complexos e relatorias setoriais. |
-| **Dossiê Legislativo / Documental** | Compilação exaustiva e estruturada contendo proposições correlatas, pareceres de comissões, doutrina jurídica, jurisprudência e legislação comparada. | Subsídio a Comissões Parlamentares de Inquérito (CPIs) e reformas constitucionais (PECs). |
-| **Revisão de Estado da Arte** | Mapeamento científico da fronteira do conhecimento sobre determinado tema em dado recorte temporal. | Emprega **triangulação metodológica**: bibliometria (Bradford/Lotka) + análise de conteúdo qualitativa sistemática. |
-| **Linha do Tempo Normativa** | Representação cronológica e relacional da evolução de determinado instituto jurídico no ordenamento pátrio. | Elucidação da sucessão de leis, medidas provisórias e emendas constitucionais. |
+A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete produtos fundamentais:
+
+#### A. Nota Informacional
+* **Finalidade:** Esclarecimento técnico imediato, sintético e conclusivo (geralmente entre 1 e 3 páginas) sobre dúvida factual, conceito controverso ou aspecto pontual de proposição em debate urgente.
+* **Estrutura-Padrão Canônica:**
+  1. *Identificação do Pedido e Contexto:* Tema, solicitante (comissão ou parlamentar), urgência e escopo exato da indagação;
+  2. *Sumário Executivo / Ementa:* Resposta direta em um parágrafo objetivo para leitura rápida;
+  3. *Fundamentação Técnico-Normativa:* Citação pontual de dispositivos constitucionais, legais, regimentais e jurisprudência vinculante aplicável;
+  4. *Conclusão / Encaminhamentos:* Síntese dos achados sem extrapolar para juízos de conveniência política;
+  5. *Fontes Consultadas:* Relação concisa das fontes primárias pesquisadas.
+* **Fontes Típicas:** Portal LexML, Sistema de Informações do Congresso Nacional (Sicon), jurisprudência consolidada do STF/STJ/TCU e notas técnicas prévias das consultorias.
+* **Critérios de Qualidade:** Tempestividade (entrega em prazos curtíssimos, por vezes durante a sessão de plenário), concisão, clareza meridiana e precisão terminológica.
+* **Erros Comuns / Distratores Cebraspe:** Prolixidade, inclusão de histórico doutrinário enciclopédico desnecessário e emissão de opinião pessoal ou partidária pelo bibliotecário.
+
+#### B. Relatório Temático
+* **Finalidade:** Estudo técnico verticalizado e abrangente sobre temática complexa ou setor de política pública, fornecendo subsídios aprofundados para a elaboração de anteprojetos de lei, relatorias de matérias estruturantes ou reformas constitucionais.
+* **Estrutura-Padrão Canônica:**
+  1. *Introdução e Justificativa:* Relevância social, econômica e jurídica do tema na conjuntura legislativa;
+  2. *Diagnóstico da Situação Atual:* Análise empírica amparada em dados estatísticos oficiais e relatórios governamentais;
+  3. *Histórico e Marco Regulatório Vigente:* Evolução das leis e gargalos regulatórios no direito pátrio;
+  4. *Direito Comparado e Práticas Internacionais:* Como outros parlamentos democráticos (ex.: EUA, União Europeia, América Latina) enfrentam a mesma matéria;
+  5. *Análise de Cenários e Impactos Previsíveis:* Avaliação de impactos orçamentários, sociais e jurídicos de eventuais alterações legais;
+  6. *Considerações Finais e Referências Exaustivas:* Conclusões técnicas e aparato bibliográfico completo.
+* **Fontes Típicas:** Estatísticas do IBGE, IPEA, Banco Central, bases internacionais (OCDE, ONU, Banco Mundial), artigos científicos peer-reviewed e relatórios de auditoria do TCU.
+* **Critérios de Qualidade:** Profundidade analítica, neutralidade axiológica, fidedignidade dos dados empíricos e rigor na metodologia de triangulação de fontes.
+
+#### C. Panorama de Informação
+* **Finalidade:** Síntese diagnóstica transversal que oferece visão panorâmica ("vista aérea") e integrada sobre determinado setor ou política pública, permitindo apreensão ágil do estado geral da arte da matéria por tomadores de decisão.
+* **Estrutura-Padrão Canônica:**
+  1. *Visão Geral (Overview):* Delimitação do setor e contextualização macroeconômica e institucional;
+  2. *Painel de Indicadores Estratégicos:* Representação gráfica de dados estruturados (gastos públicos, metas atingidas, séries temporais);
+  3. *Mapeamento Normativo das Políticas Ativas:* Lista das principais leis, programas e órgãos executores;
+  4. *Gargalos e Questões Críticas em Pauta no Congresso:* Pontos de tensão que motivam proposições legislativas concorrentes.
+* **Critérios de Qualidade:** Alta capacidade de síntese visual (*storytelling com dados*), uso de infográficos claros e facilidade de navegação entre seções temáticas.
+
+#### D. Linha do Tempo Normativa e Histórica
+* **Finalidade:** Representação cronológica e relacional da evolução de determinado instituto jurídico, marco legal ou tramitação de matérias no Parlamento, evidenciando causas, revogações e sucessão temporal de normas.
+* **Estrutura-Padrão Canônica:**
+  1. *Eixo Temporal Estruturado:* Ordenação estritamente cronológica por data de promulgação ou publicação;
+  2. *Diploma Normativo Identificado:* Espécie normativa, número, ano e data do Diário Oficial;
+  3. *Fato Gerador / Contexto Político:* Acontecimentos históricos que precipitaram a edição da norma;
+  4. *Alteração Substancial Operada:* O que o diploma criou, modificou ou revogou no ordenamento;
+  5. *Situação de Eficácia Atual:* Indicação explícita se a norma continua vigente, se foi revogada por lei posterior ou se teve eficácia suspensa pelo STF (ex.: liminar em ADI).
+* **Critérios de Qualidade:** Exatidão cronológica milimétrica, indicação precisa dos vínculos relacionais (norma alteradora <-> norma alterada) e concisão nos sumários de impacto.
+
+#### E. Mapa de Atores (*Stakeholder Mapping*)
+* **Finalidade:** Identificação, caracterização sistemática e mapeamento do posicionamento de grupos de interesse, entidades da sociedade civil, setores econômicos e órgãos de Estado envolvidos na tramitação de matéria legislativa controvertida.
+* **Estrutura-Padrão Canônica:**
+  1. *Matriz de Identificação de Atores:* Relação das instituições (órgãos públicos, confederações empresariais, centrais sindicais, ONGs e academia);
+  2. *Matriz Poder × Interesse (Modelo de Mendelow):* Classificação dos atores nos quatro quadrantes canônicos: Alto Poder / Alto Interesse (gerenciar de perto); Alto Poder / Baixo Interesse (manter satisfeito); Baixo Poder / Alto Interesse (manter informado); Baixo Poder / Baixo Interesse (monitorar);
+  3. *Posicionamento Político-Técnico Declarado:* Favorável à aprovação integral, favorável com emendas restritivas ou contrário à matéria;
+  4. *Síntese dos Argumentos e Notas Técnicas Apresentadas:* Resumo dos memoriais entregues em audiências públicas e comissões da Câmara;
+  5. *Vínculo com Proposições Concorrentes:* Identificação de emendas de plenário ou projetos apensados patrocinados pelo respectivo ator.
+* **Critérios de Qualidade:** Pluralidade democrática na amostragem (equilíbrio rigoroso entre correntes antagônicas), comprovação documental de todo posicionamento atribuído e ausência de valoração subjetiva.
+
+#### F. Dossiê Legislativo e Documental
+* **Finalidade:** Compilação enciclopédica, categorizada e exaustiva de toda a matéria fática, processual e bibliográfica concernente a uma investigação parlamentar (CPI), grande reforma constitucional (PEC) ou consolidação de códigos.
+* **Estrutura-Padrão Canônica:**
+  1. *Sumário Analítico Estruturado:* Organização por módulos temáticos;
+  2. *Ficha Técnica da Proposição Principal:* Autoria, ementa, regime de tramitação e órgãos colegiados designados;
+  3. *Histórico e Tramitação Processual Completa:* Despachos da Mesa, atas de comissões, relatórios e pareceres de mérito aprovados ou rejeitados;
+  4. *Aparato Doutrinário e Pareceres Jurídicos:* Artigos doutrinários de referência, pareceres de juristas e subsídios da Consultoria Legislativa;
+  5. *Jurisprudência Vinculante e Precedentes Judiciais:* Julgados do STF e STJ diretamente correlacionados;
+  6. *Legislação Estrangeira Comparada:* Levantamento de diplomas internacionais sobre o objeto;
+  7. *Apêndice Documental:* Cópia integral ou links persistentes (URN LEX / LexML) para a íntegra dos documentos citados.
+
+#### G. Revisão de Estado da Arte (*State-of-the-Art Review*)
+* **Finalidade:** Mapeamento sistemático da fronteira científica internacional sobre um tema emergente em recorte temporal explícito, identificando consensos consolidados, controvérsias abertas e lacunas na literatura.
+* **Metodologia de Triangulação Obrigatória (Candido, 2023):**
+  1. *Etapa Quantitativa (Bibliometria):* Aplicação das leis de Bradford (núcleo de periódicos de maior produtividade) e Lotka (produtividade dos autores), métricas de citação e coocorrência de termos de indexação;
+  2. *Etapa Qualitativa (Análise de Conteúdo Sistemática):* Leitura crítica dos artigos do núcleo, extração padronizada de evidências e sintetização de conclusões teóricas.
+
+\`\`\`tree
+TITLE: Tipologia e Arquitetura dos Produtos de Inteligência Informacional Legislativa
+- Produtos de Inteligência Informacional (Edital 3.12 e 3.13) | Apoio à Decisão e Subsídio Parlamentar
+  - Produtos de Resposta Rápida e Decisão Imediata
+    - Nota Informacional | Síntese executiva (1 a 3 páginas) sobre ponto controverso pontual em plenário
+    - Linha do Tempo Normativa | Sucessão cronológica e relacional de leis, MPs e vigência de normas
+  - Produtos de Diagnóstico Setorial e Visualização
+    - Panorama de Informação | Diagnóstico visual transversal com indicadores de BI e dados abertos
+    - Mapa de Atores (Stakeholder Mapping) | Matriz Poder x Interesse (Mendelow) e argumentos em audiências
+  - Produtos de Pesquisa Aprofundada e Memória Exaustiva
+    - Relatório Temático | Análise verticalizada com direito comparado, impacto orçamentário e cenários
+    - Dossiê Legislativo e Documental | Reunião exaustiva de proposições, pareceres, jurisprudência e doutrina
+    - Revisão de Estado da Arte | Mapeamento da fronteira científica via triangulação (Bibliometria + Análise Qualitativa)
+\`\`\`
+
+#### H. Exemplo Anotado de Esqueleto de Produto Informacional (Nota Informacional)
+
+\`\`\`markdown
+[CABEÇALHO INSTITUCIONAL]
+PRODUTO: NOTA INFORMACIONAL Nº XX/2026
+SOLICITANTE: Comissão de Constituição e Justiça e de Cidadania (CCJC)
+TEMA: Limitações Constitucionais à Cópia Reprográfica em Bibliotecas Públicas (PL nº XXXX/2026)
+CLASSIFICAÇÃO: Apoio Técnico Legislativo / Referência Especializada
+
+1. SUMÁRIO EXECUTIVO (EMENTA TÉCNICA)
+A reprodução integral de livros por cópia reprográfica ou scanner em bibliotecas públicas sem autorização prévia
+do autor ofende os arts. 29, I, e 46, II, da Lei nº 9.610/1998, não sendo amparada pela gratuidade de serviços.
+A legislação pátria autoriza estritamente a cópia de pequenos trechos para uso privado do copista, sem intuito de lucro.
+
+2. MARCO CONSTITUCIONAL E LEGAL APLICÁVEL
+- Constituição Federal de 1988: Art. 5º, XXVII (direito exclusivo dos autores de utilização, publicação ou reprodução);
+- Lei Federal nº 9.610/1998: Art. 29 (atos que dependem de autorização prévia) e Art. 46 (limitações expressas);
+- Decreto nº 9.522/2018: Promulgação do Tratado de Marraqueche (exceção para pessoas com deficiência visual).
+
+3. ANÁLISE TÉCNICA COMPARATIVA
+A jurisprudência pacificada do Superior Tribunal de Justiça (Súmula 522/STJ) e a doutrina especializada
+asseveram que o conceito de "pequenos trechos" não abrange a cópia de obras integrais, ainda que fracionada
+capítulo a capítulo por múltiplos usuários.
+
+4. CONCLUSÃO E SUBSÍDIOS AO RELATOR
+Recomenda-se a rejeição de emendas que prevejam fotocópia integral indiscriminada, preservando-se a redação
+que assegura a acessibilidade digital em formatos acessíveis para pessoas com deficiência visual.
+
+5. FONTES CONSULTADAS
+LexML Brasil; Sicon (Câmara dos Deputados); Base de Jurisprudência do STJ; Repositório BDCam.
+\`\`\`
+
+#### I. Matriz Comparativa Estruturada dos Sete Produtos de Inteligência Informacional
+
+| Produto Informacional | Finalidade Principal | Extensão Típica | Tempo de Elaboração | Fontes Típicas | Aplicação no Processo Legislativo |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Nota Informacional** | Esclarecimento técnico imediato sobre dúvida factual pontual. | 1 a 3 páginas | Horas a 1 dia | LexML, Sicon, súmulas de tribunais, notas técnicas | Sessão de votação em Plenário e debates em Comissões. |
+| **Relatório Temático** | Análise vertical profunda sobre política pública ou grande tema. | 15 a 50 páginas | 2 a 4 semanas | Estatísticas oficiais, IPEA, OCDE, direito comparado | Elaboração de Projetos de Lei e relatorias setoriais. |
+| **Panorama de Informação** | Diagnóstico visual sintético do estado geral de um setor. | 5 a 15 páginas | 3 a 5 dias | Painéis de BI, dados abertos governamentais, anuários | Apresentação em colégio de líderes e frentes parlamentares. |
+| **Linha do Tempo** | Representação cronológica da evolução de normas e tramitações. | 2 a 8 páginas | 1 a 3 dias | Diário Oficial da União, LexML, anais da Câmara | Elucidação da sucessão de leis e reformas constitucionais. |
+| **Mapa de Atores** | Mapeamento de stakeholders e posicionamento de grupos de pressão. | 5 a 20 páginas | 1 a 2 semanas | Audiências públicas, notas de entidades, lobbies, imprensa | Subsidiar negociações políticas em comissões temáticas. |
+| **Dossiê Legislativo** | Compilação enciclopédica exaustiva de documentos sobre matéria. | 50 a centenas de pág. | Semanas a meses | Proposições, pareceres, acórdãos STF, doutrina jurídica | Comissões Parlamentares de Inquérito (CPIs) e PECs. |
+| **Estado da Arte** | Mapeamento da fronteira científica com triangulação metodológica. | 20 a 40 páginas | 3 a 6 semanas | Bases de dados (Scopus, Web of Science, SciELO), tesauros | Formulação de políticas científicas, tecnológicas e de IA. |
 
 ---
 
@@ -144,7 +281,14 @@ O estudo de usuários é a investigação sistemática das características, com
   * *Métodos Diretos:* Questionários estruturados, entrevistas individuais em profundidade, técnica do incidente crítico (Flanagan) e grupos focais (*focus groups*).
   * *Métodos Indiretos:* Análise de dados estatísticos de empréstimo, contagem de downloads, análise de citações em teses ou relatórios de consultoria e análise de logs de busca.
 * **Acessibilidade e Ergonomia (NBR 9050 da ABNT):**
-  * A biblioteca pública e parlamentar deve garantir acessibilidade universal: rotas acessíveis livres de barreiras, sinalização visual, tátil e em Braille, balcões de atendimento rebaixados, acervos com espaçamento adequado entre estantes (mínimo de 0,90 m a 1,20 m para circulação de cadeiras de rodas) e terminais equipados com tecnologias assistivas (leitores de tela NVDA/JAWS e teclados adaptados).`,
+  * A biblioteca pública e parlamentar deve garantir acessibilidade universal: rotas acessíveis livres de barreiras, sinalização visual, tátil e em Braille, balcões de atendimento rebaixados, acervos com espaçamento adequado entre estantes (mínimo de 0,90 m a 1,20 m para circulação de cadeiras de rodas) e terminais equipados com tecnologias assistivas (leitores de tela NVDA/JAWS e teclados adaptados).
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Estudos de Usuários e Entrevista de Referência (sub-4-4):** Identificação de necessidades para elaboração de produtos especializados.
+* **Editoração e Publicação Digital (sub-8-5):** Estruturação formal de infográficos, linhas do tempo e relatórios.
+`,
   checkpoints: [
     {
       id: 'cp-5-2-1',
@@ -155,10 +299,10 @@ O estudo de usuários é a investigação sistemática das características, com
     },
     {
       id: 'cp-5-2-2',
-      pergunta: 'Micro-Checkpoint 2: Papel da Curadoria de Informação',
-      item: 'A curadoria de informação difere da mera coleta e custódia documental por envolver um processo intelectual contínuo de seleção crítica, validação de autoridade, enriquecimento de metadados e contextualização para a tomada de decisão.',
-      gabarito: 'C',
-      justificativa: 'Correto! Conforme demonstrado por Arthur Bezerra, a curadoria informacional é um processo ativo de agregação de valor semântico e filtragem crítica contra a desinformação.',
+      pergunta: 'Micro-Checkpoint 2: Produtos de Inteligência Informacional Legislativa',
+      item: 'No âmbito dos produtos de inteligência informacional para o processo legislativo, a nota informacional caracteriza-se como uma compilação exaustiva de centenas de páginas para Comissões Parlamentares de Inquérito, ao passo que o relatório temático restringe-se a uma resposta executiva de uma página para uso durante debates de plenário.',
+      gabarito: 'E',
+      justificativa: 'Errado! Conforme Renato Alexandre Candido (2023) e Alba Costa Maciel & Marília Mendonça (2006), os conceitos estão invertidos: a nota informacional é uma síntese executiva concisa (1 a 3 páginas) para atendimento pontual e tempestivo em plenário ou comissão, enquanto o relatório temático e o dossiê legislativo constituem estudos aprofundados e compilações exaustivas sobre matérias estruturantes.',
     },
     {
       id: 'cp-5-2-3',

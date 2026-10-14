@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo104: ModuloFilho = {
   id: 'sub-10-4',
   numero: '10.4',
+  editalRef: 'Conhecimentos Básicos - CF/88 arts. 1º a 41',
+  preRequisitos: [],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-10-5",
+          "titulo": "Poder Legislativo na CF/88",
+          "motivo": "Organização dos Poderes a partir dos princípios fundamentais."
+      }
+  ],
   titulo: 'Noções de Direito Constitucional Aplicadas ao Processo Legislativo',
   descricaoCurta: 'Constituição Federal de 1988: conceito, características, princípios fundamentais (arts. 1º a 4º), direitos e garantias fundamentais (art. 5º e remédios constitucionais), organização político-administrativa (arts. 18 a 36) e a Administração Pública na CF/88 (arts. 37 a 41).',
   tempoEstimadoMinutos: 45,
@@ -126,7 +135,75 @@ TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
 * **Regras Fundamentais de Pessoal:**
   * **Concurso Público (Art. 37, II):** Prazo de validade de **até 2 anos**, prorrogável uma única vez por igual período.
   * **Acumulação de Cargos (Art. 37, XVI):** É vedada a acumulação remunerada de cargos públicos, exceto, quando houver compatibilidade de horários: a) a de dois cargos de professor; b) a de um cargo de professor com outro técnico ou científico; c) a de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.
-  * **Estabilidade do Servidor Público (Art. 41):** São estáveis após **3 anos de efetivo exercício** os servidores nomeados para cargo de provimento efetivo em virtude de concurso público. Exige-se compulsoriamente a aprovação em **avaliação especial de desempenho** por comissão instituída para essa finalidade.`,
+  * **Estabilidade do Servidor Público (Art. 41):** São estáveis após **3 anos de efetivo exercício** os servidores nomeados para cargo de provimento efetivo em virtude de concurso público. Exige-se compulsoriamente a aprovação em **avaliação especial de desempenho** por comissão instituída para essa finalidade.
+
+---
+
+### 5. Nacionalidade, Direitos Políticos e Partidos Políticos (Arts. 12 a 17 da CF/88)
+
+#### A. Regime Constitucional da Nacionalidade (Art. 12)
+A nacionalidade é o vínculo jurídico-político que liga o indivíduo ao Estado soberano:
+* **Brasileiros Natos (Art. 12, I):**
+  1. *Critério territorial (Jus soli):* Os nascidos no Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço de seu país de origem;
+  2. *Critério sanguíneo e funcional:* Os nascidos no estrangeiro de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço do Brasil;
+  3. *Critério potestativo (Opção confirmativa):* Os nascidos no estrangeiro de pai ou mãe brasileira, desde que sejam registrados em repartição consular competente ou venham a residir no Brasil e optem, a qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.
+* **Cargos Privativos de Brasileiro Nato (Art. 12, § 3º - Mnemônico MP3.COM):**
+  * **M** - Ministro do Supremo Tribunal Federal (todos os 11 membros do STF);
+  * **P** - Presidente e Vice-Presidente da República;
+  * **P** - Presidente da Câmara dos Deputados (na linha sucessória presidencial);
+  * **P** - Presidente do Senado Federal (na linha sucessória presidencial);
+  * **C** - Carreira Diplomática;
+  * **O** - Oficial das Forças Armadas (Exército, Marinha e Aeronáutica);
+  * **M** - Ministro de Estado da Defesa.
+  * *⚠️ Atenção Crítica Cebraspe:* Deputados Federais e Senadores comuns **podem ser brasileiros naturalizados**! Apenas o cargo de **Presidente da Câmara dos Deputados** e de **Presidente do Senado Federal** é privativo de nato. Ministro do STJ, Procurador-Geral da República e Ministro da Justiça podem ser naturalizados.
+* **Perda da Nacionalidade (Emenda Constitucional nº 131/2023):**
+  * A EC nº 131/2023 alterou profundamente o regime: o brasileiro que adquire outra nacionalidade voluntariamente **NÃO perde mais automaticamente a nacionalidade brasileira**;
+  * A perda só ocorre em duas hipóteses:
+    1. Cancelamento da naturalização por sentença judicial em virtude de fraude relacionada ao processo de naturalização ou de atentado contra a ordem constitucional;
+    2. Pedido expresso de renúncia perante autoridade brasileira competente, desde que não acarrete situação de apatridia.
+
+#### B. Direitos Políticos (Arts. 14 a 16 da CF/88)
+A soberania popular é exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos:
+* **Instrumentos de Democracia Semidireta:**
+  * **Plebiscito:** Consulta popular **prévia** ao ato legislativo ou administrativo;
+  * **Referendo:** Consulta popular **posterior** à edição do ato para ratificação ou rejeição;
+  * **Iniciativa Popular de Leis (Art. 61, § 2º):** Subscrita por no mínimo **1% do eleitorado nacional**, distribuído por pelo menos **5 Estados**, com não menos de **0,3% dos eleitores** de cada um deles.
+* **Alistamento Eleitoral e Voto:**
+  * **Obrigatórios:** Para os maiores de 18 anos;
+  * **Facultativos:** Para os analfabetos, maiores de 70 anos e maiores de 16 e menores de 18 anos;
+  * **Inalistáveis:** Estrangeiros e os conscritos durante o período do serviço militar obrigatório.
+* **Condições de Elegibilidade e Idades Mínimas Constitucionais (Art. 14, § 3º):**
+  * As idades mínimas são aferidas com base na data da posse no cargo:
+    * **35 anos:** Presidente e Vice-Presidente da República e Senador da República;
+    * **30 anos:** Governador e Vice-Governador de Estado e do DF;
+    * **21 anos:** Deputado Federal, Deputado Estadual, Deputado Distrital, Prefeito, Vice-Prefeito e Juiz de Paz;
+    * **18 anos:** Vereador.
+* **Inelegibilidades:**
+  * *Absolutas:* Inalistáveis e analfabetos (analfabeto tem alistamento facultativo, podendo votar, mas não pode ser votado);
+  * *Relativa por Motivo de Parentesco (Inelegibilidade Reflexa - Art. 14, § 7º):* São inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes consanguíneos ou afins, até o 2º grau ou por adoção, do Presidente da República, Governador ou Prefeito, salvo se já titular de mandato eletivo e candidato à reeleição. Conforme a **Súmula Vinculante nº 18 do STF**, a dissolução da sociedade conjugal no curso do mandato não afasta essa inelegibilidade.
+* **Perda e Suspensão dos Direitos Políticos (Art. 15):**
+  * **É VEDADA A CASSAÇÃO DE DIREITOS POLÍTICOS!** Só ocorrem perda ou suspensão nas hipóteses taxativas:
+    1. Cancelamento da naturalização por sentença transitada em julgado (perda);
+    2. Incapacidade civil absoluta (suspensão);
+    3. Condenação criminal transitada em julgado, enquanto durarem seus efeitos (suspensão);
+    4. Recusa de cumprir obrigação a todos imposta ou prestação alternativa (Art. 5º, VIII - perda/suspensão);
+    5. Improbidade administrativa (Art. 37, § 4º - suspensão).
+
+#### C. Partidos Políticos (Art. 17 da CF/88)
+* É livre a criação, fusão, incorporação e extinção de partidos políticos, resguardados a soberania nacional, o regime democrático, o pluripartidarismo e os direitos fundamentais.
+* **Preceitos Constitucionais Obrigatórios:**
+  * Caráter nacional;
+  * Proibição de recebimento de recursos financeiros de entidade ou governo estrangeiros ou de subordinação a estes;
+  * Prestação de contas à Justiça Eleitoral;
+  * Funcionamento parlamentar de acordo com a lei;
+  * **Vedação expressa de coligações partidárias nas eleições proporcionais** (deputados federais, estaduais, distritais e vereadores).
+* **Cláusula de Desempenho / Barreira (Art. 17, § 3º):** Somente têm direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão na proporção de votos válidos obtidos na eleição para a Câmara dos Deputados distribuídos em pelo menos um terço dos Estados, ou bancada mínima eleita.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Poder Legislativo na CF/88 (sub-10-5):** Organização dos Poderes a partir dos princípios fundamentais.
+`,
   checkpoints: [
     {
       id: 'cp-10-4-1',
@@ -137,17 +214,17 @@ TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
     },
     {
       id: 'cp-10-4-2',
-      pergunta: 'Micro-Checkpoint 2: Fundamentos vs. Objetivos Fundamentais',
-      item: 'A garantia do desenvolvimento nacional e a erradicação da pobreza e da marginalização constituem fundamentos da República Federativa do Brasil elencados no art. 1º da Constituição de 1988.',
-      gabarito: 'E',
-      justificativa: 'Errado! Desenvolvimento nacional e erradicação da pobreza são OBJETIVOS fundamentais da República (art. 3º - mnemônico CON-GAR-ER-PRO), e não fundamentos (art. 1º - SO-CI-DI-VA-PLU).',
+      pergunta: 'Micro-Checkpoint 2: Cargos Privativos de Brasileiro Nato e Presidência das Casas',
+      item: 'Um cidadão brasileiro naturalizado pode exercer o mandato de Deputado Federal ou de Senador da República, mas é constitucionalmente impedido de assumir a Presidência da Câmara dos Deputados ou do Senado Federal.',
+      gabarito: 'C',
+      justificativa: 'Correto! Os mandatos de Deputado e Senador são acessíveis ao brasileiro naturalizado, mas a Presidência de ambas as Casas é privativa de brasileiro nato (art. 12, § 3º da CF/88) por figurarem na linha sucessória do Presidente da República.',
     },
     {
       id: 'cp-10-4-3',
-      pergunta: 'Micro-Checkpoint 3: Remédios Constitucionais - Habeas Data',
-      item: 'O habeas data é a ação constitucional adequada para assegurar o conhecimento de informações relativas à pessoa do impetrante constantes de registros ou bancos de dados de entidades governamentais ou de caráter público.',
+      pergunta: 'Micro-Checkpoint 3: Direitos Políticos - Cassação vs. Perda e Suspensão',
+      item: 'A Constituição Federal de 1988 veda expressamente a cassação de direitos políticos, admitindo a sua perda ou suspensão exclusivamente nos casos taxativos previstos no art. 15, entre os quais figura a condenação criminal transitada em julgado enquanto durarem seus efeitos.',
       gabarito: 'C',
-      justificativa: 'Correto! Conforme o art. 5º, LXXII, a, da CF/88, o habeas data destina-se a garantir o conhecimento ou retificação de informações pessoais do impetrante.',
+      justificativa: 'Correto! A CF/88 veda peremptoriamente a cassação de direitos políticos (art. 15, caput), estabelecendo rol taxativo de perda ou suspensão, sendo a condenação criminal transitada hipótese de suspensão automática durante a execução da pena.',
     },
   ],
   mnemonicos: {
@@ -168,10 +245,17 @@ TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
       },
       {
         id: 'tl-10-4-3',
-        periodo: '2004',
-        disciplina: 'Reforma do Judiciário',
-        focoPrincipal: 'Emenda Constitucional nº 45/2004: criação do CNJ, súmulas vinculantes e tratados de direitos humanos',
+        periodo: '2017 (EC nº 97)',
+        disciplina: 'Reforma Política',
+        focoPrincipal: 'Fim das coligações partidárias proporcionais e criação da cláusula de desempenho/barreira',
         figuraChave: 'Congresso Nacional',
+      },
+      {
+        id: 'tl-10-4-4',
+        periodo: '2023 (EC nº 131)',
+        disciplina: 'Nacionalidade Brasileira',
+        focoPrincipal: 'Fim da perda automática da nacionalidade pela aquisição voluntária de outra cidadania estrangeira',
+        figuraChave: 'Emenda Constitucional nº 131/2023',
       },
     ],
     autores: [
@@ -188,7 +272,7 @@ TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
         nome: 'Gilmar Mendes e Paulo Gonet',
         ano: 2022,
         obraPrincipal: 'Curso de Direito Constitucional',
-        ideiaChave: 'Teoria dos direitos fundamentais, dimensões/gerações, remédios constitucionais e federação.',
+        ideiaChave: 'Teoria dos direitos fundamentais, direitos políticos, nacionalidade e federação.',
         chipPegadinha: 'O Preâmbulo da CF/88 não possui força cogente nem serve de parâmetro para controle de constitucionalidade.',
       },
       {
@@ -196,34 +280,34 @@ TITLE: Remédios Constitucionais (Garantias Fundamentais do Art. 5º)
         nome: 'Pedro Lenza',
         ano: 2023,
         obraPrincipal: 'Direito Constitucional Esquematizado',
-        ideiaChave: 'Sistematização didática dos remédios constitucionais, mnemônicos e organização dos poderes.',
-        chipPegadinha: 'Ação popular exige prova da condição de cidadão eleitor; pessoa jurídica não tem legitimidade ativa.',
+        ideiaChave: 'Mnemônico MP3.COM para cargos de brasileiro nato e regras de elegibilidade.',
+        chipPegadinha: 'Analfabeto pode votar (facultativo), mas não pode ser votado (inelegibilidade absoluta).',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-10-4-1',
-        afirmacao: 'O preâmbulo da Constituição Federal de 1988 possui eficácia jurídica plena e força vinculante, podendo servir de parâmetro exclusivo para a declaração de inconstitucionalidade de lei em sede de ADI.',
+        afirmacao: 'O cargo de Deputado Federal é privativo de brasileiro nato em virtude da relevância de sua atuação no processo de elaboração legislativa federal.',
         gabarito: 'E',
-        porQue: 'Conforme pacífica jurisprudência do STF (ADI 2.076), o preâmbulo constitucional situa-se no campo da política e da ideologia, carecendo de força normativa cogente.',
+        porQue: 'Deputado Federal comum pode ser brasileiro naturalizado! Apenas o Presidente da Câmara dos Deputados (que está na linha sucessória presidencial) deve ser obrigatoriamente brasileiro nato (CF, art. 12, § 3º, II).',
       },
       {
         id: 'peg-10-4-2',
-        afirmacao: 'Constituem fundamentos da República Federativa do Brasil a erradicação da pobreza e a garantia do desenvolvimento nacional.',
+        afirmacao: 'A condenação por improbidade administrativa acarreta a cassação dos direitos políticos do servidor público responsável.',
         gabarito: 'E',
-        porQue: 'A erradicação da pobreza e o desenvolvimento nacional são OBJETIVOS fundamentais (art. 3º), e não fundamentos (art. 1º).',
+        porQue: 'A CF/88 VEDA expressamente a cassação de direitos políticos (art. 15). A improbidade administrativa gera SUSPENSÃO dos direitos políticos (art. 37, § 4º), jamais cassação.',
       },
       {
         id: 'peg-10-4-3',
-        afirmacao: 'O mandado de segurança é a ação constitucional adequada para a obtenção de dados sobre a pessoa do impetrante constantes de bancos de dados públicos quando negados administrativamente.',
+        afirmacao: 'O cidadão com vinte anos de idade completados até a data da posse atende aos requisitos constitucionais de elegibilidade para concorrer ao cargo de Deputado Federal.',
         gabarito: 'E',
-        porQue: 'Para conhecer ou retificar dados pessoais em bancos de dados governamentais, o remédio constitucional específico é o HABEAS DATA, e não o Mandado de Segurança.',
+        porQue: 'A idade mínima constitucional para o cargo de Deputado Federal é de 21 ANOS na data da posse (art. 14, § 3º, VI, c da CF/88).',
       },
       {
         id: 'peg-10-4-4',
-        afirmacao: 'Uma empresa privada (pessoa jurídica) com sede regular no Brasil possui plena legitimidade ativa para impetrar Ação Popular com o objetivo de anular ato lesivo ao patrimônio público.',
+        afirmacao: 'A aquisição de outra nacionalidade por brasileiro nato residente no exterior decorrente de naturalização voluntária implica a perda automática e compulsória da nacionalidade brasileira.',
         gabarito: 'E',
-        porQue: 'A Ação Popular é remédio restrito e exclusivo ao CIDADÃO (pessoa física no pleno gozo dos direitos políticos e com título de eleitor). Pessoa jurídica não pode propor Ação Popular (Súmula 365 do STF).',
+        porQue: 'Atualização pela EC nº 131/2023: a aquisição de outra nacionalidade não acarreta mais a perda automática da nacionalidade brasileira, que só é perdida por pedido formal e voluntário de renúncia perante a autoridade consular/brasileira.',
       },
     ],
   },

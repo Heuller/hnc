@@ -3,6 +3,25 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo34: ModuloFilho = {
   id: 'sub-3-4',
   numero: '3.4',
+  editalRef: 'Bloco D - Item 3.5 a 3.13 e Bloco A - Item 3.6',
+  preRequisitos: ["sub-1-1","sub-2-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-2-7",
+          "titulo": "BIBFRAME 2.0 e Linked Data",
+          "motivo": "Modelagem de tesauros e vocabulários controlados em SKOS e RDF."
+      },
+      {
+          "submoduloId": "sub-6-7",
+          "titulo": "IA Aplicada à Informação",
+          "motivo": "Uso de taxonomias e ontologias para extração semântica e controle de alucinações em RAG."
+      },
+      {
+          "submoduloId": "sub-4-3",
+          "titulo": "Fontes Jurídicas e LexML",
+          "motivo": "Vocabulário Controlado da RVBI aplicado a proposições legislativas."
+      }
+  ],
   titulo: 'Linguagens Documentárias, Tesauros, Ontologias e SKOS',
   descricaoCurta: 'Tipologia das linguagens documentárias (Cintra, Lara), a Teoria do Conceito de Ingetraut Dahlberg, arquitetura e normas de tesauros (ISO 25964), forma gramatical dos descritores, o Vocabulário Controlado Básico (VCB da RVBI), Ontologias e o padrão SKOS do W3C.',
   tempoEstimadoMinutos: 45,
@@ -14,10 +33,11 @@ export const submodulo34: ModuloFilho = {
     'O Vocabulário Controlado Básico (VCB) da Rede Virtual de Bibliotecas (RVBI): É o tesauro estruturado oficial coordenado pela Biblioteca do Senado Federal com participação da Câmara dos Deputados e tribunais federais. É a linguagem de indexação hegemônica da produção legislativa e jurídica nacional e o padrão semântico do LexML Brasil.',
     'Diferença estrutural entre Tesauro e Ontologia: Enquanto o tesauro organiza termos lexicais para humanos indexarem e recuperarem textos via descritores, a ontologia é uma base de conhecimento formal legível por computadores, com axiomas lógicos e propriedades que permitem a agentes de Inteligência Artificial realizarem inferências dedutivas automáticas.',
     'O padrão SKOS (Simple Knowledge Organization System) do W3C: Padrão ontológico do Linked Data que converte tesauros e taxonomias tradicionais em grafos RDF interoperáveis, empregando propriedades semânticas como skos:prefLabel, skos:altLabel, skos:broader, skos:narrower e skos:related.',
+    'Critérios de Compatibilização de Linguagens Documentárias (Edital Item 3.13): A harmonização e o mapeamento entre vocabulários controlados heterogêneos exigem a observância estrita dos cinco critérios canônicos: (1) Precisão (rigor na equivalência semântica termo a termo, evitando distorções conceituais); (2) Universalidade (cobertura ampla e exaustiva do domínio sem omissão de áreas temáticas essenciais); (3) Univocidade (relação biunívoca entre termo autorizado e conceito, eliminando ambiguidades e polissemias); (4) Pertinência (relevância e adequação direta dos descritores às reais demandas informacionais dos usuários); e (5) Funcionalidade (viabilidade operacional, facilidade de manutenção e eficiência prática no fluxo diário de indexação e busca).',
   ],
   quadroComparativo: {
-    titulo: 'As Três Relações Semânticas Fundamentais em Tesauros Documentários (ISO 25964)',
-    colunas: ['Tipo de Relação', 'Símbolos (Português / Inglês)', 'Natureza Semântica do Vínculo', 'Exemplo Prático no Contexto Legislativo/Jurídico'],
+    titulo: 'As Três Relações Semânticas em Tesauros (ISO 25964) e Critérios de Compatibilização (Edital 3.13)',
+    colunas: ['Tipo de Relação / Critério', 'Símbolos / Princípio Operacional', 'Natureza Semântica do Vínculo', 'Exemplo Prático no Contexto Legislativo/Jurídico'],
     linhas: [
       ['Equivalência', 'USE (Usar) / UP (Usado Para) [USE / UF]', 'Conecta termos sinônimos, grafias variantes e quase-sinônimos, elegendo o descritor oficial preferido', 'Crime de Responsabilidade -> UP Impeachment; Impeachment -> USE Crime de Responsabilidade'],
       ['Hierárquica (Gênero/Espécie)', 'TG (Termo Geral) / TE (Termo Específico) [BT / NT]', 'Relação lógica de subordinação em que a espécie compartilha todos os atributos do gênero', 'TG: Proposição Legislativa / TE: Projeto de Lei Complementar'],
@@ -25,6 +45,7 @@ export const submodulo34: ModuloFilho = {
       ['Hierárquica (Instancial)', 'TG (Termo Geral) / TE (Termo Específico) [BT / NT]', 'Relação entre uma classe geral de entidades e um exemplar histórico ou geográfico individual', 'TG: Tribunal Superior / TE: Supremo Tribunal Federal'],
       ['Associativa', 'TR (Termo Relacionado) / RT (Related Term)', 'Relação simétrica de afinidade conceitual ou causal que não é hierárquica nem de equivalência', 'Processo Legislativo TR Imunidade Parlamentar; Direito Constitucional TR Controle de Constitucionalidade'],
       ['Nota de Escopo', 'NE (Nota de Escopo) / SN (Scope Note)', 'Instrução textual explicativa que delimita o significado do descritor naquele tesauro ou orienta seu uso', 'NE: Aplica-se exclusivamente a matérias submetidas à deliberação do Plenário'],
+      ['Compatibilização: Univocidade e Precisão', 'Critérios do Edital 3.13 (ISO 25964-2)', 'Assegura relação biunívoca (termo = conceito) e exatidão semântica no mapeamento entre vocabulários', 'Mapeamento exato entre descritor do VCB da RVBI e termo de tesauro parlamentar internacional'],
     ],
   },
   teoriaDensaMarkdown: `### 1. As Linguagens Documentárias: Natureza, Tipologia e Funções
@@ -138,14 +159,44 @@ O SKOS é o padrão internacional da Web Semântica desenvolvido para expressar 
 
 ---
 
-### 6. Padrões de Cobrança e Armadilhas do Cebraspe em Provas
+### 6. Critérios de Compatibilização de Vocabulários e Linguagens Documentárias (Edital Item 3.13)
+
+No contexto de cooperação bibliotecária (como a RVBI, a RBMPF e redes internacionais), distintas instituições frequentemente empregam vocabulários controlados próprios. A **compatibilização de linguagens documentárias** (normatizada pela **ISO 25964-2:2013** — *Interoperability with other vocabularies*) é o processo sistemático de estabelecer correspondências conceituais e mapeamentos entre diferentes linguagens para permitir a busca integrada e o intercâmbio de dados.
+
+O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco critérios fundamentais** que norteiam o processo de compatibilização:
+
+| Critério de Compatibilização | O que Mensura / Princípio Teórico | Aplicação Prática no Mapeamento de Vocabulários | Armadilha Típica Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **1. Precisão** | Grau de exatidão e correspondência semântica estrita entre os termos mapeados de duas linguagens. | Mapeamento exato (1:1), em que o conceito da linguagem-fonte cobre precisamente a mesma extensão e compreensão do termo na linguagem-alvo, sem perdas ou acréscimos indevidos. | A banca afirma que a compatibilização admite aproximações grosseiras sem comprometer a precisão do sistema (Errado). |
+| **2. Universalidade** | Amplitude e capacidade do esquema compatibilizado de abranger exaustivamente a totalidade das ramificações temáticas e tipológicas do domínio. | O sistema harmonizado deve cobrir todas as áreas do conhecimento previstas pelo escopo cooperativo, evitando "zonas cegas" ou omissão de conceitos estruturantes. | A banca confunde universalidade com generalismo superficial (omissão de termos específicos). |
+| **3. Univocidade** | Princípio da relação biunívoca entre o termo autorizado e o conceito representado (um conceito = um único termo preferido). | Eliminação total de sinônimos concorrentes, homógrafos não qualificados e ambiguidades. Cada termo preferido na linguagem harmonizada remete a um e apenas um conceito. | A banca afirma que a univocidade permite múltiplos descritores concorrentes para o mesmo conceito no mesmo nível hierárquico (Errado). |
+| **4. Pertinência** | Grau de relevância, utilidade e adequação direta dos termos compatibilizados às necessidades reais dos usuários da unidade. | Impede a introdução de termos obsoletos, puramente acadêmicos ou descolados do perfil de busca dos parlamentares e cidadãos. | A banca afirma que a pertinência é aferida exclusivamente pela erudição teórica do bibliotecário indexador. |
+| **5. Funcionalidade** | Viabilidade técnica, simplicidade de aplicação, custo-benefício e eficiência operacional da linguagem compatibilizada. | Avalia se o vocabulário integrado é ágil de consultar no OPAC e viável de manter pela equipe sem gerar lentidão ou custos insustentáveis de atualização. | A banca afirma que a compatibilização deve ser buscada a qualquer custo, mesmo que inviabilize o fluxo operacional cotidiano. |
+
+#### A. Tipos de Mapeamento segundo a ISO 25964-2
+* **Mapeamento de Equivalência Exata (*Exact Equivalence*):** Os termos de ambos os vocabulários possuem rigorosamente o mesmo significado e escopo ($A = B$).
+* **Mapeamento de Equivalência Inexata / Quase-equivalência (*Inexact Equivalence*):** Há pequena divergência de nuance ou escopo cultural, mas os termos são tratados como equivalentes para viabilizar a busca cruzada ($A \\approx B$).
+* **Mapeamento de Equivalência Parcial / Hierárquica (*Partial Equivalence*):** Um termo em uma linguagem é mais amplo ou mais restrito que o termo correspondente na outra linguagem ($A < B$ ou $A > B$).
+* **Mapeamento Composto (*Compound Equivalence*):** Um termo em um vocabulário exige a combinação de dois ou mais termos no outro vocabulário ($A = B + C$).
+
+---
+
+### 7. Padrões de Cobrança e Armadilhas do Cebraspe em Provas
 
 | Tema de Prova | Como o Cebraspe Formula o Item Falso | Fundamentação Técnica Oficial (Gabarito) |
 | :--- | :--- | :--- |
 | **Número Gramatical** | *"Nos tesauros documentários, todos os descritores sem exceção devem ser obrigatoriamente grafados no singular."* | **ERRADO.** Entidades contáveis (bibliotecas, tribunais, leis) são grafadas no **PLURAL**. Apenas termos abstratos e massas não contáveis ficam no singular. |
 | **Garantia Literária** | *"O princípio da garantia literária determina que o vocabulário de um tesauro deve refletir exclusivamente a vontade subjetiva do bibliotecário indexador."* | **ERRADO.** A garantia literária exige que os termos decorram da **literatura técnica real** existente e processada no acervo. |
-| **Tesauro vs Ontologia** | *"Tesauros e ontologias possuem naturezas idênticas, sendo ambos dotados de axiomas formais e motores de inferência dedutiva automatizada."* | **ERRADO.** Tesauros operam no nível lexical para busca documental humana; ontologias possuem **lógica formal e axiomas** para inferência de máquina. |
-| **Padrão SKOS** | *"O padrão SKOS é incompatível com o modelo de dados RDF da Web Semântica."* | **ERRADO.** O SKOS é **nativamente expresso em RDF** como vocabulário oficial do W3C para sistemas de organização do conhecimento. |`,
+| **Compatibilização (Univocidade)** | *"No processo de compatibilização de linguagens documentárias, o critério da univocidade dispensa a eliminação de termos sinônimos concorrentes no esquema harmonizado."* | **ERRADO.** A univocidade exige estritamente a relação biunívoca (um termo preferido para cada conceito), eliminando sinônimos concorrentes. |
+| **Padrão SKOS** | *"O padrão SKOS é incompatível com o modelo de dados RDF da Web Semântica."* | **ERRADO.** O SKOS é **nativamente expresso em RDF** como vocabulário oficial do W3C para sistemas de organização do conhecimento. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **BIBFRAME 2.0 e Linked Data (sub-2-7):** Modelagem de tesauros e vocabulários controlados em SKOS e RDF.
+* **IA Aplicada à Informação (sub-6-7):** Uso de taxonomias e ontologias para extração semântica e controle de alucinações em RAG.
+* **Fontes Jurídicas e LexML (sub-4-3):** Vocabulário Controlado da RVBI aplicado a proposições legislativas.
+`,
   checkpoints: [
     {
       id: 'cp-3-4-1',
@@ -163,10 +214,10 @@ O SKOS é o padrão internacional da Web Semântica desenvolvido para expressar 
     },
     {
       id: 'cp-3-4-3',
-      pergunta: 'Micro-Checkpoint 3: Forma Gramatical dos Descritores',
-      item: 'Em tesauros documentários, substantivos representativos de entidades e objetos contáveis devem figurar preferencialmente no singular na composição dos descritores autorizados.',
-      gabarito: 'E',
-      justificativa: 'Errado! Pelas normas internacionais de tesauros (ISO 25964 e ANSI/NISO Z39.19), termos que designam entidades ou objetos contáveis (ex.: bibliotecas, leis, tribunais) devem ser registrados no PLURAL.',
+      pergunta: 'Micro-Checkpoint 3: Critérios de Compatibilização de Vocabulários (Edital 3.13)',
+      item: 'No processo de compatibilização de linguagens documentárias, o critério da univocidade assegura que cada conceito seja representado por um único descritor autorizado no vocabulário harmonizado, ao passo que o critério da precisão afere o rigor e a exatidão da correspondência semântica entre os termos mapeados de diferentes esquemas.',
+      gabarito: 'C',
+      justificativa: 'Certo! Univocidade garante a relação biunívoca entre significante e significado (eliminando duplicidade de descritores autorizados para o mesmo conceito), enquanto a precisão mede o rigor da correspondência conceitual (exatidão de mapeamento 1:1) entre vocabulários compatibilizados (ISO 25964-2 e Edital 3.13).',
     },
   ],
   mnemonicos: {

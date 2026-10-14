@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo123: ModuloFilho = {
   id: 'sub-12-3',
   numero: '12.3',
+  editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)',
+  preRequisitos: ["sub-12-2"],
   titulo: 'Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)',
   descricaoCurta: 'Cadeias de referenciação anafórica e catafórica, o uso exato dos pronomes relativos (who, whom, which, that, whose), a distinção clássica entre "the former" e "the latter", e os itens de remissão pronominal mais cobrados pelo Cebraspe.',
   tempoEstimadoMinutos: 35,

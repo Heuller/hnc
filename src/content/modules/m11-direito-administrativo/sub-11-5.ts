@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo115: ModuloFilho = {
   id: 'sub-11-5',
   numero: '11.5',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 5: Atos Administrativos)',
+  preRequisitos: ["sub-11-4"],
   titulo: 'Poderes Administrativos, Ciclo de Polícia e Abuso de Poder',
   titulo_curto: 'Poderes Administrativos e Abuso',
   descricaoCurta: 'Poder vinculado e discricionário. Poder hierárquico, disciplinar e regulamentar (decretos regulamentares e autônomos). Poder de polícia: conceito (art. 78 do CTN), atributos, ciclo de polícia e delegabilidade a estatais (STF Tema 532). Uso e abuso de poder: excesso de poder vs. desvio de finalidade.',

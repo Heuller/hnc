@@ -14,6 +14,8 @@ export const moduloM5Gestao: MacroModulo = {
   descricao: 'Estudo aprofundado dos processos gerenciais e de inteligência em unidades de informação: planejamento estratégico (Almeida), avaliação e indicadores de desempenho (Lancaster); CRM aplicado a serviços de informação (Paul Greenberg: operacional, analítico e colaborativo), personalização e DSI (Eirão & Cunha), curadoria de informação (Arthur Bezerra) e elaboração de dossiês e panoramas (Candido); modelo cíclico de desenvolvimento de coleções (Vergueiro); e gestão do conhecimento e inteligência organizacional (Choo, Nonaka & Takeuchi).',
   status: 'disponivel',
   simuladoDisponivel: true,
+    blocoEdital: 'Bloco A e Bloco D: Gestão de Coleções e Serviços',
+  preRequisitos: ["m4"],
   modulosFilhos: [
     submodulo51,
     submodulo52,

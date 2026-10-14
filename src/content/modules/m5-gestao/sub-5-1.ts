@@ -3,10 +3,24 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo51: ModuloFilho = {
   id: 'sub-5-1',
   numero: '5.1',
+  editalRef: 'Bloco D - Item 4.1 a 4.6 e 4.9',
+  preRequisitos: ["sub-1-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-5-3",
+          "titulo": "Avaliação, Desbastamento e Métricas",
+          "motivo": "Critérios quantitativos e qualitativos de descarte e remanejamento."
+      },
+      {
+          "submoduloId": "sub-9-3",
+          "titulo": "Direito Autoral e Acesso Aberto",
+          "motivo": "Liberdade intelectual versus censura segundo IFLA e CF/88."
+      }
+  ],
   titulo: 'Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho',
   descricaoCurta: 'Planejamento estratégico, tático e operacional em unidades de informação, diagnóstico organizacional, matriz SWOT, avaliação de insumos, processos e produtos, e indicadores de desempenho (Lancaster, Almeida, Maciel).',
   tempoEstimadoMinutos: 30,
-  autoresChave: ['Maria Christina Barbosa de Almeida', 'F. W. Lancaster', 'Alba Costa Maciel', 'Amélia Silveira', 'Peter Drucker'],
+  autoresChave: ['Maria Christina Barbosa de Almeida', 'F. W. Lancaster', 'Alba Costa Maciel', 'Amélia Silveira', 'Peter Drucker', 'IFLA (1999)', 'CF/88'],
   alertasCebraspe: [
     'O Cebraspe adora afirmar que o planejamento estratégico é de competência exclusiva da alta administração da instituição mantenedora e que o bibliotecário cuida apenas do nível operacional: ERRADO! O bibliotecário lidera o planejamento da unidade em todos os níveis.',
     'Cuidado com a confusão entre eficiência (relação insumo/custo e produtividade) e eficácia (grau de atendimento aos objetivos e satisfação do usuário). Lancaster pontua que um serviço pode ser altamente eficiente gastando pouco, mas completamente ineficaz por não satisfazer os usuários.',
@@ -113,18 +127,72 @@ A **ISO 11620** (*Information and documentation — Library performance indicato
 * **Indicadores Padronizados Clássicos:**
   * *Taxa de Disponibilidade de Títulos Requeridos:* Proporção de obras buscadas que estavam efetivamente disponíveis na estante no momento da procura (Teste de Orr);
   * *Velocidade do Processamento Técnico:* Tempo médio decorrido entre a chegada física de um livro à biblioteca e sua disponibilização final para empréstimo no catálogo;
-  * *Custo por Usuário Atendido:* Orçamento total dividido pelo número de usuários ativos da instituição.
+  * *Custo por Usuário Atendido:* Orçamento total dividido pelo número de usuários ativos da instituição;
+  * *Custo por Download de Recursos Eletrônicos (Padrão COUNTER R5 / Protocolo SUSHI — ver 5.3):* Mede o custo-eficácia de assinaturas dividindo o valor contratual pelo total de acessos efetivos (\`Unique_Item_Requests\`).
 
 ---
 
-### 5. Quadro Sinóptico de Cascas de Banana do Cebraspe em Gestão e Planejamento
+### 5. Censura, Liberdade Intelectual e a Política de Coleções como Escudo Institucional (Edital Bloco D, item 4.9)
+
+No contexto das bibliotecas públicas, universitárias e parlamentares, a salvaguarda da **liberdade intelectual** constitui um dos pilares deontológicos mais expressivos da profissão bibliotecária e do Estado Democrático de Direito (**IFLA, 1999; Waldomiro Vergueiro, 1989; Simone Weitzel, 2013**):
+
+#### A. A Distinção Teórica Vital: Seleção Técnica vs. Censura Arbitrária
+O Cebraspe explora com frequência a tentativa de disfarçar atos de censura ideológica sob o manto de "discricionariedade técnica na seleção":
+
+* **Seleção Técnica:**
+  * É um processo **positivo, planejado, inclusivo e transparente**, fundamentado em critérios técnicos objetivos pré-fixados no documento formal de Política de Desenvolvimento de Coleções (PDC);
+  * Orienta-se pelo estudo das necessidades da comunidade, representatividade do pensamento científico/filosófico, autoridade, atualidade e equilíbrio de correntes antagônicas;
+  * O objetivo da seleção é **construir um acervo plural e representativo** da sociedade.
+* **Censura Arbitrária:**
+  * É um processo **negativo, excludente, coercitivo e autoritário**, motivado por preconceitos morais, dogmas religiosos, intolerância política ou pressões corporativas de grupos hegemônicos;
+  * Consiste na rejeição a priori de livros, na rotulagem pejorativa discriminatória de obras ou na retirada forçada (expurgo) de materiais legalmente incorporados ao acervo, com o propósito de **impedir que os cidadãos tenham acesso a ideias divergentes**.
+
+#### B. O Manifesto da IFLA sobre a Liberdade Intelectual e de Expressão (1999 / Declaração de Glasgow 2002)
+A *International Federation of Library Associations and Institutions* (IFLA) estabeleceu princípios universais inegociáveis:
+1. **O Acesso Livre à Informação como Direito Humano:** Fundamenta-se no Artigo 19 da Declaração Universal dos Direitos Humanos (DUDH/ONU);
+2. **Rejeição a Toda Forma de Censura:** As bibliotecas devem disponibilizar seus acervos e serviços a todos os membros da comunidade, rejeitando qualquer censura de natureza ideológica, política ou religiosa promovida pelo Estado ou por grupos de pressão;
+3. **Imparcialidade Pessoal do Bibliotecário:** O profissional de informação tem o dever ético de assegurar que suas próprias convicções pessoais, crenças religiosas ou preferências partidárias **jamais interfiram** na seleção, catalogação, disponibilização ou descarte de obras;
+4. **Resistência às Pressões Externas:** As bibliotecas devem resistir ativamente a exigências de censura impostas por indivíduos, grupos organizados ou autoridades governamentais.
+
+#### C. Arcabouço Constitucional Brasileiro (CF/88)
+A Constituição da República Federativa do Brasil de 1988 consagrou garantias expressas de vedação à censura:
+* **Art. 5º, inciso IX:** *"É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença"*;
+* **Art. 220, caput:** *"A manifestação do pensamento, a criação, a expressão e a informação, sob qualquer forma, processo ou veículo não sofrerão qualquer restrição, observado o disposto nesta Constituição"*;
+* **Art. 220, § 2º (Mandamento Pétreo de Vedação):** *"É vedada toda e qualquer censura de natureza política, ideológica e artística"*.
+
+#### D. A Política de Desenvolvimento de Coleções (PDC) como Escudo Institucional no Parlamento
+No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visões de mundo polarizadas, a biblioteca pública parlamentar (Biblioteca Pedro Aleixo) está sob constante escrutínio:
+* **O Caráter Político da PDC:** Conforme Waldomiro Vergueiro (1989), a política de seleção formalmente aprovada pela Mesa Diretora da Câmara dos Deputados funciona como um **escudo protetor legal e técnico** para a equipe de bibliotecários;
+* **Caso Concreto de Pressão Externa:** Se um parlamentar ou grupo de pressão exigir a retirada de circulação de uma obra sobre direitos humanos, diversidade ou história política sob alegação de "conteúdo impróprio", o bibliotecário não cede à arbitrariedade: ampara-se formalmente na PDC aprovada, na CF/88 (arts. 5º, IX, e 220, § 2º) e no Código de Ética do Bibliotecário (CFB) para demonstrar que a presença da obra atende aos critérios técnicos de pluralismo e representatividade do acervo.
+
+#### E. Matriz Comparativa Estruturada: Seleção Técnica vs. Censura Arbitrária
+
+| Critério de Confronto | Seleção Técnica de Acervos | Censura Ideológica de Acervos |
+| :--- | :--- | :--- |
+| **Natureza do Ato** | Positiva, técnica, democrática e inclusiva. | Negativa, arbitrária, coercitiva e excludente. |
+| **Fundamentação** | Documento formal escrito de política e estudo da comunidade. | Preconceito moral, dogma religioso ou conveniência partidária. |
+| **Objetivo Primordial** | Enriquecer o acervo com a diversidade do pensamento humano. | Suprimir o acesso público a ideias e visões divergentes. |
+| **Ator Decisório** | Comissão técnica multidisciplinar e corpo de bibliotecários. | Grupos de pressão, autoridades autoritárias ou censores individuais. |
+| **Conformidade Jurídica** | Plena adesão à CF/88 (Art. 5º, IX) e Manifesto da IFLA (1999). | Violação frontal da CF/88 (Art. 220, § 2º) e do Código de Ética Profissional. |
+
+---
+
+### 6. Quadro Sinóptico de Cascas de Banana do Cebraspe em Gestão e Planejamento
 
 | Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
 | :--- | :--- | :--- |
 | *"O planejamento estratégico de uma biblioteca compete exclusivamente à alta administração do órgão mantenedor, cabendo aos bibliotecários apenas o planejamento operacional."* | **ERRADO** | O bibliotecário deve atuar como líder estratégico da unidade de informação, participando ativamente de **todos os níveis** de planejamento. |
 | *"Um serviço de biblioteca que atinge alto índice de eficiência operacional é necessariamente eficaz no atendimento às necessidades dos usuários."* | **ERRADO** | Eficiência diz respeito ao uso econômico de recursos (meios); um serviço eficiente pode ser **ineficaz** se entregar informações inúteis ao usuário. |
 | *"Na análise SWOT aplicada a bibliotecas parlamentares, o corte de verbas orçamentárias imposto pelo Congresso Nacional classifica-se como fraqueza interna."* | **ERRADO** | Cortes orçamentários governamentais decorrem do ambiente externo incontrolável, configurando uma **AMEAÇA** (e não fraqueza). |
-| *"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados."* | **ERRADO** | Essa é a análise de **custo-eficácia**. A de **custo-benefício** mensura o retorno de valor/impacto qualitativo e social em relação aos custos. |`,
+| *"A análise de custo-benefício expressa estritamente a relação matemática entre os custos financeiros e as unidades físicas de produtos catalogados."* | **ERRADO** | Essa é a análise de **custo-eficácia**. A de **custo-benefício** mensura o retorno de valor/impacto qualitativo e social em relação aos custos. |
+| *"A recusa de aquisição de um livro de autor renomado exclusivamente em razão de seu viés ideológico contrário à bancada majoritária da Câmara constitui legítimo exercício da seleção técnica de coleções."* | **ERRADO** | Trata-se de hipótese cabal de **CENSURA POLÍTICO-IDEOLÓGICA**, vedada expressamente pelo art. 220, § 2º, da CF/88 e pelos princípios da IFLA. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Avaliação, Desbastamento e Métricas (sub-5-3):** Critérios quantitativos e qualitativos de descarte e remanejamento.
+* **Direito Autoral e Acesso Aberto (sub-9-3):** Liberdade intelectual versus censura segundo IFLA e CF/88.
+`,
   checkpoints: [
     {
       id: 'cp-5-1-1',
@@ -140,12 +208,12 @@ A **ISO 11620** (*Information and documentation — Library performance indicato
       gabarito: 'C',
       justificativa: 'Correto! Eficácia foca nos fins e no atendimento ao usuário; eficiência foca nos meios e na economia de recursos/processos.',
     },
-      {
+    {
       id: 'cp-5-1-3',
-      pergunta: "Micro-Checkpoint 3: Matriz SWOT em Bibliotecas",
-      item: "Na análise estratégica SWOT (FOFA) aplicada à gestão bibliotecária, a obsolescência tecnológica dos servidores locais e o corte orçamentário institucional constituem fraquezas intrínsecas da unidade de informação.",
+      pergunta: 'Micro-Checkpoint 3: Censura versus Seleção de Coleções (IFLA e CF/88)',
+      item: 'A recusa de inclusão ou o expurgo de uma obra de renome acadêmico do acervo de uma biblioteca parlamentar, motivados exclusivamente por discordância ideológica ou partidária de autoridade da Casa com as ideias do autor, configura ato legítimo de seleção técnica discricionária.',
       gabarito: 'E',
-      justificativa: "Errado! A obsolescência interna dos equipamentos é de fato uma 'fraqueza' (fator interno), mas o corte orçamentário decorrente do ambiente externo governamental ou institucional é categorizado como 'ameaça' (fator externo).",
+      justificativa: 'Errado! Conforme as diretrizes internacionais da IFLA (Manifesto sobre Liberdade Intelectual, 1999) e a Constituição Federal de 1988 (art. 5º, IX e art. 220, § 2º), a exclusão de obras por motivações ideológicas, morais ou políticas caracteriza CENSURA arbitrária, sendo vedada no ordenamento jurídico pátrio. A seleção técnica rege-se pelo pluralismo e por critérios objetivos previstos formalmente na Política de Desenvolvimento de Coleções, que atua como escudo institucional da biblioteca.',
     },
   ],
   mnemonicos: {

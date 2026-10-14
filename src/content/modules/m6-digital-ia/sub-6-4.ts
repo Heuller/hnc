@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo64: ModuloFilho = {
   id: 'sub-6-4',
   numero: '6.4',
+  editalRef: 'Bloco C - Item 1.1 a 1.4',
+  preRequisitos: ["sub-6-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-7",
+          "titulo": "IA Aplicada à Informação",
+          "motivo": "Modelos fundacionais, prompting e curadoria profissional de corpora."
+      },
+      {
+          "submoduloId": "sub-14-3",
+          "titulo": "Inteligência Artificial e Machine Learning",
+          "motivo": "Conceitos básicos de aprendizado supervisionado e não supervisionado."
+      }
+  ],
   titulo: 'Inteligência Artificial na Biblioteconomia e na Ciência da Informação',
   descricaoCurta: 'Fundamentos de IA na Biblioteconomia, Grandes Modelos de Linguagem (LLMs), Embeddings vetoriais e busca semântica, catalogação assistida, RAG, Declaração da IFLA sobre Bibliotecas e IA, e as Diretrizes de Uso Responsável de IA da Câmara dos Deputados.',
   tempoEstimadoMinutos: 45,
@@ -10,10 +24,10 @@ export const submodulo64: ModuloFilho = {
   alertasCebraspe: [
     'A IA não substitui o bibliotecário nem torna dispensáveis as técnicas de representação temática e descritiva (classificação e indexação): pelo contrário, a acurácia dos sistemas de IA depende diretamente de bases bem estruturadas, ontologias, grafos de conhecimento e metadados de alta qualidade gerados com curadoria humana.',
     'A arquitetura tecnológica que deflagrou a revolução dos Grandes Modelos de Linguagem (LLMs) é a rede neural baseada em TRANSFORMERS (mecanismo de autoatenção / self-attention, Vaswani et al., 2017), viabilizando processamento altamente paralelizado de linguagem natural.',
-    'Foundation Models: o Cebraspe (Câmara 2026 Analista) exige o conhecimento exato de que os modelos fundacionais baseiam-se em redes neurais de aprendizado profundo (deep learning) e métodos auto-supervisionados em gigantescos volumes de dados não rotulados, e NÃO em regras lógicas formais explícitas programadas por especialistas (GOFAI).',
-    'Engenharia de Prompts (Câmara 2026 Técnico): Zero-shot prompting consiste em submeter a instrução ao modelo sem nenhum exemplo de demonstração prévio; Few-shot prompting fornece demonstrações in-context com pares de entrada/saída para condicionar a resposta; Chain-of-Thought (CoT) induz o modelo a decompor o raciocínio em etapas lógicas intermediárias antes de responder.',
+    'Foundation Models (Tema de Alta Probabilidade Cebraspe): os modelos fundacionais baseiam-se em redes neurais de aprendizado profundo (deep learning) e métodos auto-supervisionados em gigantescos volumes de dados não rotulados, e NÃO em regras lógicas formais explícitas programadas por especialistas (GOFAI).',
+    'Engenharia de Prompts (Tema de Alta Probabilidade Cebraspe): Zero-shot prompting consiste em submeter a instrução ao modelo sem nenhum exemplo de demonstração prévio; Few-shot prompting fornece demonstrações in-context com pares de entrada/saída para condicionar a resposta; Chain-of-Thought (CoT) induz o modelo a decompor o raciocínio em etapas lógicas intermediárias antes de responder.',
     'Arquitetura RAG (Retrieval-Augmented Generation): integra modelos generativos a bancos vetoriais de documentos institucionais canônicos (como o LexML e proposições da Câmara), recuperando trechos factuais pertinentes para ancorar o prompt, mitigando alucinações e garantindo rastreabilidade jurídica com citação de fontes.',
-    'Segurança e Ransomware (Câmara 2026 Analista): o procedimento de backup offline (air-gapped ou mídia fisicamente desconectada da rede corporativa) é a salvaguarda técnica mais segura contra ataques de ransomware, pois o versionamento em nuvem ou backups em rede compartilhada podem ser igualmente infectados e criptografados.',
+    'Segurança e Ransomware (Tema de Alta Probabilidade Cebraspe): o procedimento de backup offline (air-gapped ou mídia fisicamente desconectada da rede corporativa) é a salvaguarda técnica mais segura contra ataques de ransomware, pois o versionamento em nuvem ou backups em rede compartilhada podem ser igualmente infectados e criptografados.',
     'Visualização de Dados e Power BI (STJ 2024): o recurso "Analisar no Excel" conecta-se diretamente ao modelo semântico (semantic model) do Power BI mantendo medidas DAX e relações intactas. Em Dataviz, o Histograma avalia a distribuição de frequências de variáveis contínuas em faixas (bins), enquanto o Gráfico de Barras compara dados categóricos discretos; o Box Plot expõe mediana, quartis e outliers.',
     'Diretrizes da Câmara dos Deputados para o Uso de IA: estabelecem o princípio inegociável do "human-in-the-loop" (supervisão humana no circuito), a explicabilidade dos algoritmos, o alinhamento com a LGPD e a responsabilidade indelegável do agente público nas decisões legislativas.',
   ],
@@ -47,7 +61,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 * **Superação das Redes Anteriores:** As redes neurais recorrentes (RNNs) e LSTMs processavam o texto sequencialmente palavra por palavra, gerando lentidão e perda de memória de longo prazo em textos extensos. Os Transformers processam sequências inteiras em paralelo.
 * **Foundation Models (*Modelos Fundacionais*):**
   * Modelos de escala gigantesca (bilhões ou trilhões de parâmetros) pré-treinados em massas monumentais de dados não rotulados por métodos auto-supervisionados (*self-supervised learning*).
-  * *⚠️ Alerta Crítico Cebraspe (Câmara 2026 Analista):* Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!
+  * *⚠️ Alerta Crítico Cebraspe (Tema de Alta Probabilidade):* Os Foundation Models operam a partir da extração estatística de representações em redes neurais profundas, e **NÃO** a partir de sistemas dedutivos pré-programados com regras lógicas explícitas por engenheiros do conhecimento!
 
 #### B. Embeddings Vetoriais e Busca Semântica
 * O processamento de linguagem natural converte textos em **vetores numéricos densos** (embeddings) em espaços vetoriais de centenas ou milhares de dimensões:
@@ -75,7 +89,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 ### 3. Engenharia de Prompts e a Arquitetura RAG
 
-#### A. Estratégias de Engenharia de Prompts (Câmara 2026 Técnico):
+#### A. Estratégias de Engenharia de Prompts (Padrão Canônico Cebraspe):
 * **Zero-Shot Prompting:** Envio direto do comando ou pergunta ao modelo sem incluir nenhum exemplo prévio no contexto. O modelo apoia-se estritamente no seu conhecimento pré-treinado.
 * **Few-Shot Prompting:** Inclusão no corpo do prompt de alguns pares exemplificativos de entrada e saída esperada antes do comando definitivo. O modelo aprende o formato e o tom desejados por aprendizado em contexto (*in-context learning*).
 * **Chain-of-Thought (CoT - Cadeia de Pensamento):** Técnica na qual o modelo é instruído a explicitar seu raciocínio passo a passo antes de emitir a conclusão final, reduzindo drasticamente erros em inferências lógicas, interpretações normativas complexas e análises quantitativas.
@@ -93,7 +107,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 * **A Ameaça Crítica do Ransomware:**
   * Malware que realiza o sequestro digital de arquivos institucionais por meio de criptografia de chave pública/privada (RSA/AES), exigindo resgates financeiros vultosos em criptomoedas.
-* **A Salvaguarda Técnica Definitiva (*Alerta Cebraspe - Câmara 2026 Analista*):**
+* **A Salvaguarda Técnica Definitiva (*Alerta Cebraspe — Tema de Alta Probabilidade*):**
   * Backups em nuvem sincronizados em tempo real ou pastas compartilhadas em rede local (*network shares*) são vulneráveis à infecção cruzada imediata pelo ransomware durante o ataque.
   * A proteção institucional definitiva requer **procedimentos de backup offline (air-gapped)**: cópias de segurança gravadas em mídias físicas desconectadas de qualquer rede computacional (ex.: fitas LTO guardadas em cofres ou unidades em modo WORM — *Write Once, Read Many*).
 * **Mecanismos Complementares de Defesa:** Autenticação multifator (MFA) obrigatória, segmentação de redes em VLANs, privilégios mínimos de acesso (*least privilege*) e soluções de EDR (*Endpoint Detection and Response*).
@@ -122,7 +136,14 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
   * **Explicabilidade e Auditabilidade:** Os sistemas de IA aplicados a processos legislativos devem manter trilhas de auditoria que explicitem as fontes consultadas e a lógica do processamento.
 * **Declaração da IFLA sobre Bibliotecas e Inteligência Artificial:**
   * Reafirma o compromisso histórico das bibliotecas com a **privacidade do leitor**, a preservação da diversidade cultural e o combate aos vieses algorítmicos discriminatórios.
-  * As bibliotecas devem liderar iniciativas de **Letramento em Inteligência Artificial (*AI Literacy*)**, capacitando os cidadãos a avaliarem criticamente a proveniência e a veracidade das respostas geradas por IA.`,
+  * As bibliotecas devem liderar iniciativas de **Letramento em Inteligência Artificial (*AI Literacy*)**, capacitando os cidadãos a avaliarem criticamente a proveniência e a veracidade das respostas geradas por IA.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **IA Aplicada à Informação (sub-6-7):** Modelos fundacionais, prompting e curadoria profissional de corpora.
+* **Inteligência Artificial e Machine Learning (sub-14-3):** Conceitos básicos de aprendizado supervisionado e não supervisionado.
+`,
   checkpoints: [
     {
       id: 'cp-6-4-1',
@@ -136,14 +157,14 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
       pergunta: 'Micro-Checkpoint 2: Foundation Models e Aprendizado Profundo',
       item: 'Os denominados Foundation Models, que alicerçam ferramentas modernas de inteligência artificial generativa, operam com base na aplicação de conjuntos de regras formais pré-programadas por engenheiros, dispensando redes neurais de aprendizado profundo.',
       gabarito: 'E',
-      justificativa: 'Errado! Item clássico cobrado pelo Cebraspe (Câmara 2026 Analista). Os Foundation Models baseiam-se em redes neurais profundas (deep learning) e métodos de aprendizagem auto-supervisionada em larga escala, e não em regras lógicas programadas (GOFAI).',
+      justificativa: 'Errado! Tema de alta probabilidade de cobrança no Cebraspe. Os Foundation Models baseiam-se em redes neurais profundas (deep learning) e métodos de aprendizagem auto-supervisionada em larga escala, e não em regras lógicas programadas (GOFAI).',
     },
     {
       id: 'cp-6-4-3',
       pergunta: 'Micro-Checkpoint 3: Engenharia de Prompts - Zero-Shot vs. Few-Shot',
       item: 'Na engenharia de prompts para modelos de linguagem generativa, a técnica de few-shot prompting consiste em apresentar ao modelo a instrução da tarefa sem fornecer nenhum exemplo demonstrativo prévio de entrada e saída.',
       gabarito: 'E',
-      justificativa: 'Errado! Apresentar a instrução sem exemplos é denominado "zero-shot prompting". O "few-shot prompting" inclui no prompt exemplos concretos de demonstração in-context para guiar o formato da resposta esperada (Câmara 2026 Técnico).',
+      justificativa: 'Errado! Apresentar a instrução sem exemplos é denominado "zero-shot prompting". O "few-shot prompting" inclui no prompt exemplos concretos de demonstração in-context para guiar o formato da resposta esperada (tema de alta probabilidade de cobrança no Cebraspe).',
     },
   ],
   mnemonicos: {
@@ -201,13 +222,13 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
         id: 'peg-6-4-1',
         afirmacao: 'Os Foundation Models empregados em processamento de linguagem natural fundamentam-se exclusivamente em representações lógicas explícitas e sistemas especialistas baseados em regras.',
         gabarito: 'E',
-        porQue: 'Cobrada na Câmara 2026! Foundation Models utilizam redes neurais profundas (deep learning) com treinamento auto-supervisionado em massas gigantescas de dados, e não sistemas especialistas lógicos clássicos.',
+        porQue: 'Tema de alta probabilidade no Cebraspe! Foundation Models utilizam redes neurais profundas (deep learning) com treinamento auto-supervisionado em massas gigantescas de dados, e não sistemas especialistas lógicos clássicos.',
       },
       {
         id: 'peg-6-4-2',
         afirmacao: 'Para neutralizar infecções por ransomware, a realização de backups em nuvem continuamente sincronizados com os servidores da instituição dispensa a manutenção de cópias offline desconectadas da rede.',
         gabarito: 'E',
-        porQue: 'Cobrada na Câmara 2026 Analista! Ransomwares conseguem atingir unidades montadas em rede e nuvens sincronizadas. O procedimento mais seguro exige cópias de segurança offline (air-gapped).',
+        porQue: 'Tema de alta probabilidade de cobrança! Ransomwares conseguem atingir unidades montadas em rede e nuvens sincronizadas. O procedimento mais seguro exige cópias de segurança offline (air-gapped).',
       },
       {
         id: 'peg-6-4-3',

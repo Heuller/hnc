@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo121: ModuloFilho = {
   id: 'sub-12-1',
   numero: '12.1',
+  editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)',
+  preRequisitos: [],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-7",
+          "titulo": "IA Aplicada à Informação",
+          "motivo": "Terminologia contemporânea em inglês de inteligência artificial e RAG."
+      }
+  ],
   titulo: 'Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)',
   descricaoCurta: 'O modelo psicocognitivo interativo-compensatório de Keith Stanovich, processamento top-down vs bottom-up, leitura rápida com Skimming e Scanning, e técnicas de apreensão da ideia central e do propósito comunicativo do autor no padrão Cebraspe.',
   tempoEstimadoMinutos: 35,
@@ -60,7 +69,41 @@ Ao avaliar assertivas de compreensão global, o Cebraspe opera através de 3 des
 
 1. **Extrapolação:** A assertiva introduz uma conclusão plausível no mundo real, mas que NÃO está respaldada por nenhuma frase do texto. Lembre-se: no Cebraspe, julga-se estritamente *o que o texto diz ou permite inferir*, e não o que é verdade no senso comum.
 2. **Redução / Foco Indevido:** A assertiva toma um exemplo ou dado menor mencionado de passagem e afirma que aquele é o tema principal da obra.
-3. **Inversão de Causa e Efeito:** A assertiva inverte quem gerou quem no argumento apresentado pelo autor.`,
+3. **Inversão de Causa e Efeito:** A assertiva inverte quem gerou quem no argumento apresentado pelo autor.
+
+---
+
+### 4. Textos Autênticos em Contexto Contemporâneo: Bibliotecas, Dados e IA
+
+O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal of Documentation*, *The Economist*, *Communications of the ACM*, *IFLA Journal*). A seguir, dois modelos autênticos de leitura com análise pragmática de itens:
+
+#### Texto I: Artificial Intelligence and Retrieval-Augmented Generation in Parliamentary Libraries
+
+> *"Modern legislative libraries are undergoing a profound paradigm shift driven by the integration of Large Language Models and Retrieval-Augmented Generation (RAG) frameworks. Rather than replacing human information professionals, automated retrieval systems rely heavily on structured metadata, controlled vocabularies, and rigorous cataloguing standards to prevent algorithmic hallucinations. Although automated summarization accelerates bill analysis, parliamentary librarians must retain oversight to ensure that legislative briefs reflect neutral, comprehensive, and legally verifiable evidence."*
+
+* **Análise de Item de Inferência (Cebraspe):**
+  * *Assertiva:* *"According to the text, the deployment of generative artificial intelligence in parliamentary libraries eliminates the necessity of human metadata curation and cataloguing."*
+  * *Julgamento:* **ERRADO.** O texto estabelece exatamente o oposto: os sistemas automatizados dependem fortemente (*rely heavily on*) de metadados estruturados, vocabulários controlados e curadoria humana para evitar alucinações algorítmicas (*prevent algorithmic hallucinations*).
+* **Análise de Item de Reescrita Sintática:**
+  * *Assertiva:* *"In the sentence 'Although automated summarization accelerates bill analysis, parliamentary librarians must retain oversight', the conjunction 'Although' could be correctly replaced with 'Even though' without altering the syntactic relationship or the original meaning."*
+  * *Julgamento:* **CERTO.** Ambos os conectivos (*although* e *even though*) pertencem à família do contraste/concessão e introduzem orações subordinadas adverbiais concessivas completas (compostas por sujeito e verbo).
+
+#### Texto II: Open Government Data and Long-Term Digital Preservation
+
+> *"The longevity of open parliamentary data depends not merely on cloud-based storage, but on sustainable digital preservation architectures. Formats such as PDF/A and uncompressed TIFF ensure that historical legislative proceedings remain legible across generations without reliance on proprietary software. Nevertheless, without continuous fixity monitoring via cryptographic hashes, digital repositories remain vulnerable to bit-level deterioration and undetected corruption."*
+
+* **Análise de Item de Compreensão Global:**
+  * *Assertiva:* *"The author implies that relying solely on cloud storage is insufficient to guarantee the long-term accessibility and integrity of parliamentary records."*
+  * *Julgamento:* **CERTO.** O autor afirma categoricamente que a longevidade depende não meramente do armazenamento em nuvem (*depends not merely on cloud-based storage*), mas de arquiteturas sustentáveis e checagem contínua de fixidez.
+* **Análise de Item Gramatical de Conectivo:**
+  * *Assertiva:* *"The transition marker 'Nevertheless' expresses a causal relationship between digital formats and repository vulnerability."*
+  * *Julgamento:* **ERRADO.** *Nevertheless* é um marcador discursivo adversativo/concessivo (equivale a *however*, *nonetheless*, *todavia*), indicando contraste ou quebra de expectativa, e jamais relação de causa e efeito.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **IA Aplicada à Informação (sub-6-7):** Terminologia contemporânea em inglês de inteligência artificial e RAG.
+`,
   checkpoints: [
     {
       id: 'chk-12-1-1',

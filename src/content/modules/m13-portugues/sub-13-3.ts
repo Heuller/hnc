@@ -3,29 +3,41 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo133: ModuloFilho = {
   id: 'sub-13-3',
   numero: '13.3',
-  titulo: 'Sintaxe Avançada: Concordância, Regência e o Sistema da Crase',
+  editalRef: 'Conhecimentos Básicos - Língua Portuguesa (Item 5: Sintaxe da Pontuação, Concordância e Regência)',
+  preRequisitos: ["sub-13-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-13-4",
+          "titulo": "Ortografia, Gêneros Textuais e Colocação Pronominal",
+          "motivo": "Sintaxe da pontuação e casos especiais de colocação pronominal."
+      }
+  ],
+  titulo: 'Sintaxe Avançada, Pontuação, Concordância, Regência e Crase',
   descricaoCurta:
-    'A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar) e o algoritmo decisório da crase.',
-  tempoEstimadoMinutos: 45,
+    'A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar), o algoritmo decisório da crase e a sintaxe e semântica da pontuação (vírgula proibida, obrigatória e facultativa, e orações adjetivas explicativas vs restritivas).',
+  tempoEstimadoMinutos: 55,
   autoresChave: [
     'Celso Pedro Luft (Dicionário Prático de Regência Verbal e Nominal)',
     'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',
     'Evanildo Bechara (Moderna Gramática Portuguesa)',
     'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
+    'Rocha Lima (Gramática Normativa da Língua Portuguesa)',
   ],
   alertasCebraspe: [
     'A partícula "se" é um dos tópicos de maior taxa de repetição no Cebraspe. Identifique a transitividade do verbo: se for Verbo Transitivo Direto (VTD), o "se" é Pronome Apassivador e o termo subsequente é o SUJEITO PACIENTE, exigindo concordância obrigatória ("Aprovou-se a emenda" / "Aprovaram-se as emendas"). Se for Verbo Transitivo Indireto (VTI), Intransitivo (VI) ou de Ligação, o "se" é Índice de Indeterminação do Sujeito e o verbo fica OBRIGATORIAMENTE no singular ("Precisa-se de novos técnicos", jamais "precisam-se").',
     'Concordância com Expressões Partitivas ("a maioria de", "grande parte de", "a metade de") acompanhadas de adjunto no plural: a norma culta (Cunha & Cintra, p. 504) autoriza a dupla concordância facultativa (no singular com o núcleo ou no plural com o determinante: "A maioria dos parlamentares votou / votaram"). O Cebraspe adora afirmar falsamente que uma das opções é gramaticalmente incorreta ou que a concordância no plural é a única admitida.',
     'Regência do verbo "implicar": no sentido de acarretar, produzir como consequência ou resultar, é VERBO TRANSITIVO DIRETO (VTD) e REJEITA a preposição "em". A frase formal é: "A promulgação da lei implicará mudanças operacionais", e nunca "implicará em mudanças". O Cebraspe explora massivamente esse vício de linguagem comum do meio jurídico.',
     'Algoritmo infalível da Crase: A crase é a fusão da preposição "a" exigida pelo termo regente com o artigo definido feminino "a(s)" admitido pelo termo regido. Para testar com rapidez, substitua a palavra feminina por um substantivo masculino equivalente (ex: "comissão" por "colegiado"). Se surgir a forma combinada "AO", a crase é OBRIGATÓRIA ("Dirigiu-se à comissão" -> "Dirigiu-se ao colegiado"). Se resultar apenas "A" ou "O", a crase é proibida.',
+    'A supressão ou inserção de vírgulas em orações subordinadas adjetivas é a questão semântica número 1 do Cebraspe. Com vírgulas, a oração é EXPLICATIVA (generaliza para a totalidade dos elementos); sem vírgulas, torna-se RESTRITIVA (limita a apenas parte dos elementos). O Cebraspe propõe: "A supressão das vírgulas preservaria a correção gramatical e os sentidos do texto". GABARITO ERRADO! A correção gramatical é mantida, mas o sentido original é substancialmente alterado.',
+    'Nunca separe por vírgula o Sujeito do seu respectivo Verbo, nem o Verbo de seus Complementos diretos ou indiretos imediatos (salvo se houver termo intercalado devidamente isolado por DUAS vírgulas). As assertivas que propõem a inserção de uma única vírgula entre sujeito longo e verbo incorrem em erro gramatical crasso.',
   ],
   quadroComparativo: {
-    titulo: 'Matriz Cebraspe da Partícula "SE" e da Regência com Crase',
+    titulo: 'Matriz Cebraspe de Sintaxe, Pontuação Semântica, Regência e Crase',
     colunas: [
       'Estrutura Sintática',
-      'Classificação do "SE"',
-      'Função do Termo Subsequente',
-      'Comportamento do Verbo',
+      'Classificação / Regra',
+      'Função Sintática',
+      'Comportamento do Verbo / Pontuação',
       'Exemplo Canônico Correto',
       'Armadilha Típica da Banca',
     ],
@@ -70,6 +82,22 @@ export const submodulo133: ModuloFilho = {
         'O relator fez alusão a sua / à sua proposta.',
         'Afirmar que a inserção ou retirada do acento grave alteraria o sentido ou violaria a norma.',
       ],
+      [
+        'Oração Adjetiva Explicativa -> Restritiva',
+        'Supressão das vírgulas com pronome relativo',
+        'Oração Subordinada Adjetiva',
+        '✅ Correção mantida | ❌ Sentido alterado',
+        'Os parlamentares, que votaram favoravelmente, comemoraram.',
+        'Afirmar que os sentidos originais são preservados na supressão das vírgulas.',
+      ],
+      [
+        'Adjunto Adverbial Longo Deslocado',
+        'Anteposição de adjunto de 3 ou mais vocábulos',
+        'Adjunto Adverbial Deslocado',
+        'Presença de vírgula OBRIGATÓRIA',
+        'Durante a última sessão legislativa, os deputados deliberaram.',
+        'Afirmar que a vírgula após adjunto longo inicial seria mera faculdade estilística.',
+      ],
     ],
   },
   secoes: [
@@ -101,6 +129,20 @@ export const submodulo133: ModuloFilho = {
       conteudo:
         'Casos de proibição categórica, obrigatoriedade estrita e os três casos facultativos clássicos (nomes próprios femininos, possessivos adjetivos femininos singulares e após a preposição até).',
     },
+    {
+      id: 'sec-pontuacao-sintatica',
+      nivel: 3,
+      titulo: '5. A Sintaxe da Pontuação: A Vírgula Proibida, Obrigatória e Facultativa',
+      conteudo:
+        'A interdição da vírgula entre sujeito e predicado, adjuntos adverbiais curtos vs longos, e o isolamento de vocativos e apostos explicativos.',
+    },
+    {
+      id: 'sec-adjetivas-semantica',
+      nivel: 3,
+      titulo: '6. A Vírgula Semântica nas Orações Subordinadas Adjetivas',
+      conteudo:
+        'O contraste semântico entre explicitação universal (com vírgulas) e restrição partitiva (sem vírgulas) e o padrão decisório da banca Cebraspe.',
+    },
   ],
   teoriaDensaMarkdown: `### 1. A Bipartição Sintática da Partícula "SE"
 
@@ -115,8 +157,8 @@ A palavra "se" será **Partícula Apassivadora** (ou pronome apassivador) quando
 3. O termo sem preposição que segue o verbo exercer a função de **SUJEITO PACIENTE**.
 
 > **Regra de Concordância Obrigatória:** O verbo DEVE concordar em número e pessoa com o sujeito paciente:
-> * *"Identificou-se uma inconformidade no texto."* (Sujeito singular $\rightarrow$ Verbo no singular).
-> * *"**Identificaram-se** várias inconformidades no texto."* (Sujeito plural $\rightarrow$ Verbo no plural).
+> * *"Identificou-se uma inconformidade no texto."* (Sujeito singular $\\rightarrow$ Verbo no singular).
+> * *"**Identificaram-se** várias inconformidades no texto."* (Sujeito plural $\\rightarrow$ Verbo no plural).
 
 *O Teste da Conversão Analítica:* Para ter certeza absoluta, converta a frase para a voz passiva com o verbo *ser*:
 *"Identificaram-se várias inconformidades"* = *"Várias inconformidades **foram identificadas**"*. Se a conversão for natural, o "se" é apassivador!
@@ -195,7 +237,54 @@ Nas três situações a seguir, o uso do acento grave é **opcional**; a sua pre
 1. **H** — Diante de **Nomes Próprios Femininos Humanizados** (sem adjetivo especificador): *"Enviei a correspondência a Maria"* ou *"...à Maria"*.
 2. **A** — Após a preposição **Até** (quando indicativa de limite de espaço ou tempo): *"O parlamentar foi até a tribuna"* ou *"...até à tribuna"*.
 3. **P** — Diante de **Pronomes Possessivos Femininos Singulares Adjetivos** (*minha, tua, sua, nossa, vossa*): *"Apresentou emendas a sua bancada"* ou *"...à sua bancada"*.
-   - *Atenção Cebraspe:* Se o pronome possessivo for plural (*suas propostas*) ou pronome substantivo (que substitui o nome, ex: *"fez referência à minha proposta e à sua"*), a crase torna-se obrigatória!`,
+   - *Atenção Cebraspe:* Se o pronome possessivo for plural (*suas propostas*) ou pronome substantivo (que substitui o nome, ex: *"fez referência à minha proposta e à sua"*), a crase torna-se obrigatória!
+
+---
+
+### 5. A Sintaxe da Pontuação: A Vírgula Proibida, Obrigatória e Facultativa
+
+A pontuação não é um recurso de "respiração" ou pausa oral, mas sim um instrumento de **organização sintática e semântica da frase** (**Celso Cunha & Lindley Cintra**, *Nova Gramática do Português Contemporâneo*, 2008, p. 640).
+
+---
+
+#### A. As Duas Proibições Absolutas da Vírgula
+1. **É proibido separar o Sujeito do seu Verbo:**
+   - Mesmo que o sujeito seja extenso ou oracional:
+   - *"A aprovação da reforma orçamentária pela comissão mista [sem vírgula] viabilizou os investimentos públicos."*
+   - *Pegadinha do Cebraspe:* A banca insere uma única vírgula após sujeitos longos, alegando que "facilita a clareza da leitura". O item é categoricamente **ERRADO**.
+2. **É proibido separar o Verbo dos seus Complementos Imediatos:**
+   - Entre o verbo transitivo e o objeto direto ou indireto:
+   - *"O presidente declarou [sem vírgula] que a sessão seria suspensa."*
+
+---
+
+#### B. A Dinâmica dos Adjuntos Adverbiais Deslocados
+* **Ordem Direta (No fim da oração):** Não requer vírgula (*"O plenário deliberou com presteza ontem"*).
+* **Adjunto Adverbial Curto Deslocado (1 ou 2 palavras):** Vírgula **FACULTATIVA** (*"Ontem, o plenário deliberou"* ou *"Ontem o plenário deliberou"*).
+* **Adjunto Adverbial Longo Deslocado (3 ou mais palavras):** Vírgula **OBRIGATÓRIA** segundo a Academia Brasileira de Letras e o Cebraspe:
+  - *"**Durante a última sessão deliberativa**, o plenário aprovou a proposta."* (Obrigatória a vírgula).
+
+---
+
+### 6. A Vírgula Semântica nas Orações Subordinadas Adjetivas
+
+Este é o padrão de questão de pontuação com **maior frequência histórica nas provas do Cebraspe**:
+
+#### Oposição Fundamental:
+* **Com Vírgulas = Oração Subordinada Adjetiva Explicativa:**
+  - *"Os parlamentares, **que votaram favoravelmente ao texto**, comemoraram o resultado."*
+  - **Sentido:** **TODOS** os parlamentares votaram favoravelmente e todos comemoraram. A oração atribui uma qualidade geral ao todo.
+* **Sem Vírgulas = Oração Subordinada Adjetiva Restritiva:**
+  - *"Os parlamentares **que votaram favoravelmente ao texto** comemoraram o resultado."*
+  - **Sentido:** **APENAS ALGUNS** parlamentares votaram favoravelmente (aqueles que votaram a favor) e somente eles comemoraram. Os demais parlamentares não comemoraram.
+
+> **Regra Canônica Cebraspe:** A eliminação ou a inserção das vírgulas que isolam oração adjetiva com pronome relativo **mantém a correção gramatical**, mas **ALTERA SUBSTANCIALMENTE OS SENTIDOS ORIGINAIS DO TEXTO**.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Ortografia, Gêneros Textuais e Colocação Pronominal (sub-13-4):** Sintaxe da pontuação e casos especiais de colocação pronominal.
+`,
   checkpoints: [
     {
       id: 'chk-13-3-1',
@@ -209,11 +298,11 @@ Nas três situações a seguir, o uso do acento grave é **opcional**; a sua pre
     {
       id: 'chk-13-3-2',
       pergunta:
-        'Julgue o item quanto à regência verbal do verbo implicar na norma culta segundo Celso Pedro Luft:',
-      item: 'A substituição da redação "A revogação do decreto implicará custos imprevistos ao erário" por "A revogação do decreto implicará em custos imprevistos ao erário" preservaria a correção gramatical do texto formal.',
-      gabarito: 'E',
+        'Julgue o item quanto à pontuação de orações adjetivas e seu impacto semântico no Cebraspe:',
+      item: 'No trecho "Os técnicos legislativos, que participaram do treinamento de preservação digital, foram certificados pela diretoria", a supressão de ambas as vírgulas preservaria a correção gramatical do período, mas alteraria os sentidos originais do texto.',
+      gabarito: 'C',
       justificativa:
-        'Conforme o Dicionário Prático de Regência Verbal de Celso Pedro Luft (p. 297), o verbo "implicar", no sentido de acarretar ou ter como consequência, é transitivo direto (VTD) e REJEITA terminantemente a preposição "em". A inserção da preposição "em" constitui desvio gramatical no padrão culto da língua.',
+        'Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 642), o isolamento por vírgulas confere à oração adjetiva valor explicativo, atribuindo a participação no treinamento à totalidade dos técnicos. A supressão das vírgulas transforma a oração em restritiva, limitando a certificação apenas à parcela dos técnicos que concluiu o treinamento. Portanto, a gramática permanece impecável, mas o sentido original é substancialmente alterado.',
     },
     {
       id: 'chk-13-3-3',
@@ -241,6 +330,13 @@ Nas três situações a seguir, o uso do acento grave é **opcional**; a sua pre
         focoPrincipal: 'Metodologia Didática dos Casos Canônicos de Crase e Concordância',
         figuraChave: 'Domingos Paschoal Cegalla',
       },
+      {
+        id: 'tm-13-3-3',
+        periodo: '2008',
+        disciplina: 'Pontuação da Norma Culta',
+        focoPrincipal: 'Sintaxe da Vírgula nas Orações Adjetivas e Adjuntos Deslocados',
+        figuraChave: 'Celso Cunha & Lindley Cintra',
+      },
     ],
     autores: [
       {
@@ -260,6 +356,15 @@ Nas três situações a seguir, o uso do acento grave é **opcional**; a sua pre
         ideiaChave:
           'A crase opera sob a regra da duplicidade: exigência de preposição pelo regente + presença de artigo no regido. Os três casos facultativos compõem a regra HAP.',
         chipPegadinha: 'Mnemônico HAP da Crase',
+      },
+      {
+        id: 'aut-13-3-3',
+        nome: 'Celso Cunha & Lindley Cintra',
+        ano: 2008,
+        obraPrincipal: 'Nova Gramática do Português Contemporâneo',
+        ideiaChave:
+          'A vírgula nas orações adjetivas define a fronteira semântica entre generalização explicativa e restrição partitiva.',
+        chipPegadinha: 'Vírgula Explicativa vs Restritiva',
       },
     ],
     pegadinhas: [
@@ -286,6 +391,22 @@ Nas três situações a seguir, o uso do acento grave é **opcional**; a sua pre
         gabarito: 'C',
         porQue:
           'Com expressões partitivas seguidas de determinante no plural, admite-se a concordância lógica no singular (com "a maioria") ou atrativa no plural (com "servidores").',
+      },
+      {
+        id: 'peg-13-3-4',
+        afirmacao:
+          'É legítima a inserção de vírgula entre o sujeito e o predicado quando o sujeito for composto por mais de dez vocábulos.',
+        gabarito: 'E',
+        porQue:
+          'A interdição de vírgula entre o sujeito e o verbo principal é uma regra absoluta na norma culta, independentemente da extensão do sujeito (Cunha & Cintra, p. 640).',
+      },
+      {
+        id: 'peg-13-3-5',
+        afirmacao:
+          'A frase "Em conformidade com o regimento interno, a audiência foi iniciada às dez horas" apresenta pontuação correta com adjunto adverbial longo anteposto isolado por vírgula.',
+        gabarito: 'C',
+        porQue:
+          'Adjuntos adverbiais de longa extensão (três ou mais vocábulos) antepostos exigem obrigatoriamente a presença de vírgula para marcar o deslocamento sintático.',
       },
     ],
   },

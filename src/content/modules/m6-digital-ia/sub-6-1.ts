@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo61: ModuloFilho = {
   id: 'sub-6-1',
   numero: '6.1',
+  editalRef: 'Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6',
+  preRequisitos: ["sub-2-6"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-2",
+          "titulo": "Protocolos de Interoperabilidade e SIGB",
+          "motivo": "Integração entre bibliotecas digitais, SIGB e discovery services."
+      },
+      {
+          "submoduloId": "sub-8-5",
+          "titulo": "Acessibilidade de Produtos Informacionais",
+          "motivo": "Diretrizes WCAG 2.2 e eMAG aplicadas a portais de bibliotecas."
+      }
+  ],
   titulo: 'Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade',
   descricaoCurta: 'Diferenciação conceitual entre biblioteca tradicional, eletrônica, digital e virtual, os 4 sistemas da Arquitetura da Informação (Rosenfeld & Morville: organização, navegação, rotulagem e busca), heurísticas de usabilidade de Jakob Nielsen e acessibilidade digital (WCAG e e-MAG).',
   tempoEstimadoMinutos: 40,
@@ -133,14 +147,50 @@ A usabilidade avalia a facilidade, eficácia, eficiência e satisfação com que
 * **Inspeção Heurística:** Avaliação analítica conduzida por especialistas em usabilidade que confrontam a interface contra as 10 heurísticas de Nielsen. Rápida e de baixo custo, mas sujeita a vieses dos avaliadores.
 * **Testes de Usabilidade com Usuários Reais:** Método empírico observacional onde usuários representativos executam tarefas típicas monitoradas em laboratório ou remotamente. É o padrão-ouro para detectar atritos cognitivos reais.
 
-#### B. Acessibilidade Digital (WCAG 2.1/2.2 e e-MAG)
-A legislação brasileira (Lei Brasileira de Inclusão - Lei nº 13.146/2015) determina a acessibilidade obrigatória em todos os sítios de órgãos públicos:
-* **Os Quatro Princípios da WCAG (W3C - Modelo POUR):**
-  1. *Perceptível (Perceivable):* Informações e interfaces devem ser apresentadas de modo que os usuários possam percebê-las (ex.: textos alternativos \`alt\` em imagens, contraste de cores e legendas).
-  2. *Operável (Operable):* A interface deve permitir operação integral via teclado sem depender de mouse, concedendo tempo suficiente para leitura.
-  3. *Compreensível (Understandable):* Textos claros, previsibilidade no comportamento de páginas e mecanismos de assistência à entrada de dados.
-  4. *Robusto (Robust):* Compatibilidade com tecnologias assistivas atuais e futuras (leitores de tela NVDA, JAWS e ampliadores de tela).
-* **e-MAG (Modelo de Acessibilidade em Governo Eletrônico):** Normativa brasileira que adapta as recomendações internacionais da WCAG ao ecossistema dos sítios e portais da administração pública federal.`,
+#### B. Acessibilidade Digital (WCAG 2.1/2.2, e-MAG e LBI)
+A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiência - Lei nº 13.146/2015, art. 63) determina a acessibilidade obrigatória em todos os sítios e portais mantidos por órgãos do governo e entidades públicas:
+
+* **1. Os Quatro Princípios Estruturantes da WCAG (W3C - Modelo POUR):**
+  1. *Perceptível (Perceivable):* A informação e os componentes da interface devem ser apresentados aos usuários em formas que eles possam perceber pelos sentidos:
+     * Fornecimento de textos alternativos equivalentes (\`alt\`) para qualquer conteúdo não textual (imagens, gráficos, infográficos e ícones);
+     * Legendas sincronizadas e audiodescrição para conteúdos em vídeo e gravações de sessões legislativas;
+     * Contraste mínimo de cor entre texto e plano de fundo (requisito Nível AA: razão de contraste mínima de **4,5:1** para texto normal e **3:1** para texto grande com 18pt ou 14pt em negrito).
+  2. *Operável (Operable):* Os componentes da interface e a navegação devem ser operáveis:
+     * **Navegação 100% via Teclado:** Todas as funcionalidades do catálogo e do repositório devem ser acessíveis por teclado (tecla \`Tab\`, \`Enter\`, \`Espaço\`, setas), sem prender o usuário em "armadilhas de teclado" (*keyboard traps*);
+     * **Foco Visível:** O elemento com foco de navegação deve ter indicador visual evidente na tela;
+     * **Tempo Suficiente:** Concessão de tempo ajustável para leitura e interação antes de qualquer expiração automática de sessão;
+     * **Sem Convulsões:** Proibição de elementos piscantes com frequência entre 3 Hz e 50 Hz para evitar crises epilépticas fotossensíveis.
+  3. *Compreensível (Understandable):* A informação e a operação da interface devem ser compreensíveis:
+     * Textos redigidos com clareza, declaração explícita do idioma principal da página (\`<html lang="pt-BR">\`);
+     * Previsibilidade: elementos interativos não devem alterar abruptamente o contexto da página apenas por receberem foco;
+     * Assistência à Entrada de Dados: mensagens de erro claras, identificando o campo faltante e orientando a correção imediata.
+  4. *Robusto (Robust):* O conteúdo deve ser suficientemente robusto para ser interpretado de forma confiável por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas:
+     * Marcação HTML5 semântica e válida (uso correto de \`<header>\`, \`<nav>\`, \`<main>\`, \`<article>\`, \`<footer>\` e atributos ARIA onde necessário);
+     * Compatibilidade garantida com leitores de tela populares (NVDA, JAWS, Orca, VoiceOver) e linhas braille atualizáveis.
+
+* **2. Os Três Níveis de Conformidade da WCAG:**
+  * **Nível A (Básico):** Requisitos mínimos indispensáveis; sua ausência impossibilita totalmente o acesso por pessoas com deficiência.
+  * **Nível AA (Padrão para a Administração Pública):** Nível internacionalmente exigido para sítios governamentais, bibliotecas públicas e serviços digitais de Estado.
+  * **Nível AAA (Avançado / Especializado):** Nível mais rigoroso de acessibilidade, indicado para ambientes especializados (ex.: contraste mínimo de 7:1, audiodescrição gravada estendida).
+
+* **3. O Modelo de Acessibilidade em Governo Eletrônico (e-MAG):**
+  * Padrão oficial normativo instituído no âmbito do Governo Federal brasileiro (Portaria SLTI/MPOG nº 3/2007) para orientar desenvolvedores e conteudistas de órgãos públicos:
+  * Divide-se em 6 eixos práticos: 1. Marcação; 2. Comportamento; 3. Conteúdo / Informação; 4. Apresentação / Design; 5. Multimídia; e 6. Formulários.
+  * **Barra de Acessibilidade Padrão:** Recomenda a presença de atalhos padronizados no cabeçalho das páginas federais:
+    * Atalho 1: Ir para o conteúdo principal (\`Alt + 1\`);
+    * Atalho 2: Ir para o menu de navegação (\`Alt + 2\`);
+    * Atalho 3: Ir para o campo de busca (\`Alt + 3\`);
+    * Botões de alto contraste visual e mapa do sítio.
+
+* **4. A Lei Brasileira de Inclusão da Pessoa com Deficiência (LBI - Lei nº 13.146/2015):**
+  * O **Art. 63** estabelece a **obrigatoriedade cogente de acessibilidade** nos sítios da internet mantidos por empresas com sede ou representação comercial no País ou por órgãos de governo, para uso da pessoa com deficiência, garantindo-se-lhe pleno acesso às informações disponíveis, conforme as melhores práticas e diretrizes adotadas internacionalmente.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Protocolos de Interoperabilidade e SIGB (sub-6-2):** Integração entre bibliotecas digitais, SIGB e discovery services.
+* **Acessibilidade de Produtos Informacionais (sub-8-5):** Diretrizes WCAG 2.2 e eMAG aplicadas a portais de bibliotecas.
+`,
   checkpoints: [
     {
       id: 'cp-6-1-1',
@@ -158,10 +208,10 @@ A legislação brasileira (Lei Brasileira de Inclusão - Lei nº 13.146/2015) de
     },
     {
       id: 'cp-6-1-3',
-      pergunta: 'Micro-Checkpoint 3: Protocolo OAI-PMH e Coleta de Metadados',
-      item: 'O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) realiza a transferência integral dos arquivos binários dos documentos (arquivos PDF) entre os repositórios digitais provedores.',
-      gabarito: 'E',
-      justificativa: 'Errado! O protocolo OAI-PMH opera estritamente na camada de METADADOS (preferencialmente em Dublin Core simples). Ele não é concebido para coleta massiva de arquivos de conteúdo digital.',
+      pergunta: 'Micro-Checkpoint 3: Acessibilidade Digital no Setor Público (WCAG e LBI)',
+      item: 'A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) estabelece a obrigatoriedade de acessibilidade nos sítios da internet mantidos por órgãos de governo, devendo as bibliotecas digitais públicas observar as diretrizes internacionais da WCAG (W3C), cujos princípios estruturantes são Perceptível, Operável, Compreensível e Robusto (POUR).',
+      gabarito: 'C',
+      justificativa: 'Correto! Conforme o art. 63 da Lei nº 13.146/2015 (LBI), sítios governamentais devem garantir pleno acesso conforme as diretrizes internacionais da WCAG, estruturadas nos quatro princípios fundamentais do acrônimo POUR.',
     },
   ],
   mnemonicos: {

@@ -58,6 +58,7 @@ describe('Rodada 5B — Parte 2: Portão do Simulado e Fim do Módulo', () => {
     submodulos: {
       '1.1': mockSubmodulo({ submoduloId: '1.1', submoduloNumero: '1.1' }),
       '1.4': mockSubmodulo({ submoduloId: '1.4', submoduloNumero: '1.4' }),
+      '1.6': mockSubmodulo({ submoduloId: '1.6', submoduloNumero: '1.6' }),
     },
     modulos: {
       m1: mockModulo({ moduloId: 'm1', moduloNumero: 1 }),
@@ -68,8 +69,8 @@ describe('Rodada 5B — Parte 2: Portão do Simulado e Fim do Módulo', () => {
     progressoPercent: 0,
   };
 
-  it('(2.1) Submódulo 1.4 nunca avança para 2.1 via rodapé de teoria (sempre abre portão do simulado)', () => {
-    const rodapeNav = verificarNavegacaoRodapeSubmodulo('1.4', progressoZerado, []);
+  it('(2.1) Submódulo final (1.6) nunca avança para 2.1 via rodapé de teoria (sempre abre portão do simulado)', () => {
+    const rodapeNav = verificarNavegacaoRodapeSubmodulo('1.6', progressoZerado, []);
 
     expect(rodapeNav.isUltimoDoModulo).toBe(true);
     expect(rodapeNav.simuladoModuloId).toBe('m1-fundamentos');
@@ -82,6 +83,13 @@ describe('Rodada 5B — Parte 2: Portão do Simulado e Fim do Módulo', () => {
 
     expect(rodapeNav.isUltimoDoModulo).toBe(false);
     expect(rodapeNav.proximoSubmoduloNumero).toBe('1.2');
+  });
+
+  it('(2.1) Submódulo intermediário (1.4) aponta para o próximo (1.5) se liberado', () => {
+    const rodapeNav = verificarNavegacaoRodapeSubmodulo('1.4', progressoZerado, []);
+
+    expect(rodapeNav.isUltimoDoModulo).toBe(false);
+    expect(rodapeNav.proximoSubmoduloNumero).toBe('1.5');
   });
 
   it('(2.2) Bloqueio global de acesso: Módulo 2 é bloqueado se o Simulado do Módulo 1 não foi aprovado', () => {

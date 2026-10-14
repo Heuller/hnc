@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo21: ModuloFilho = {
   id: 'sub-2-1',
   numero: '2.1',
+  editalRef: 'Bloco D - Item 2.1 e 2.2',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-2-2",
+          "titulo": "Padrão RDA e Transição Catalográfica",
+          "motivo": "Substituição das regras de pontos de acesso do AACR2r pelas diretrizes do RDA."
+      },
+      {
+          "submoduloId": "sub-2-4",
+          "titulo": "Formato MARC 21 Bibliográfico e Autoridades",
+          "motivo": "Codificação dos pontos de acesso e dados descritivos em campos padronizados."
+      }
+  ],
   titulo: 'Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r',
   descricaoCurta: 'Teoria e objetivos dos catálogos (Cutter), Catálogo Dicionário vs Sistemático, Declaração de Princípios da IFLA (ICP 2016), estrutura do AACR2r, as 8 áreas da ISBD, os 3 níveis de descrição bibliográfica (Regra 1.0D) e regras aprofundadas de escolha e forma de pontos de acesso (autoria pessoal, pseudônimos, entidades coletivas, eventos e atos legislativos).',
   tempoEstimadoMinutos: 45,
@@ -220,6 +234,13 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 | **Regra de Quatro ou Mais Autores** | *"Na catalogação de monografia de quatro autores sem destaque, a entrada principal é pelo primeiro autor citado, usando-se et al. para os demais."* | **ERRADO.** Com 4 ou mais autores sem destaque, a entrada principal é **OBRIGATORIAMENTE PELO TÍTULO**. O primeiro autor recebe entrada secundária acompanhado de *et al.* |
 | **Área 3 em Livros Comuns** | *"A Área 3 da ISBD destina-se a registrar a paginação e o tamanho físico de livros impressos comuns."* | **ERRADO.** Paginação e tamanho pertencem à **Área 5 (Descrição Física)**. A Área 3 é de preenchimento restrito a cartográficos, música, seriados e recursos eletrônicos. |
 | **Entrada de Leis Federais** | *"Uma lei federal tem entrada principal sob o cabeçalho Brasil. Congresso Nacional. Câmara dos Deputados, por ter sido originada nessa Casa."* | **ERRADO.** Leis federais entram diretamente sob o cabeçalho da jurisdição territorial soberana: **Brasil.**, seguido do título uniforme, e não sob órgãos fracionários. |
+
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Padrão RDA e Transição Catalográfica (sub-2-2):** Substituição das regras de pontos de acesso do AACR2r pelas diretrizes do RDA.
+* **Formato MARC 21 Bibliográfico e Autoridades (sub-2-4):** Codificação dos pontos de acesso e dados descritivos em campos padronizados.
 `,
   checkpoints: [
     {

@@ -3,20 +3,29 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo81: ModuloFilho = {
   id: 'sub-8-1',
   numero: '8.1',
-  titulo: 'ABNT NBR 6023: Referências Bibliográficas',
-  descricaoCurta: 'Norma ABNT NBR 6023 (versão atualizada), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
+  editalRef: 'Bloco D - Item 5.1 e 5.2',
+  preRequisitos: ["sub-2-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-8-2",
+          "titulo": "NBR 10520 (Citações)",
+          "motivo": "Regras de citação e remissão cruzada para referências bibliográficas."
+      }
+  ],
+  titulo: 'ABNT NBR 6023:2018 (com Emenda 1:2020): Referências Bibliográficas',
+  descricaoCurta: 'Norma ABNT NBR 6023:2018 (com Emenda 1:2020), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
   tempoEstimadoMinutos: 45,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
   alertasCebraspe: [
-    'O destaque tipográfico na NBR 6023: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',
-    'Regras de Autoria na NBR 6023: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". O Cebraspe adora inventar que o uso de "et al." é obrigatório: na norma atual, é uma FACULDADE!',
+    'O destaque tipográfico na NBR 6023:2018: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',
+    'Regras de Autoria na NBR 6023:2018: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". O Cebraspe adora inventar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2018/Emenda 1:2020), é uma FACULDADE!',
     'Em artigos de periódicos (revistas científicas), quem recebe o destaque tipográfico (negrito/itálico) é o TÍTULO DO PERIÓDICO, e JAMAIS o título do artigo!',
     'Documentos Eletrônicos em Linha: a indicação da disponibilidade e da data de acesso é elemento essencial, registrada no formato: "Disponível em: URL. Acesso em: dia mês abreviado ano" (ex.: "Disponível em: https://www.camara.leg.br. Acesso em: 15 mar. 2026."). Todos os meses do ano são abreviados nas três primeiras letras com ponto, COM A EXCEÇÃO ABSOLUTA DO MÊS DE MAIO, que se grafa por extenso!',
     'Indicação de Edição: indica-se a partir da segunda edição, utilizando números arábicos seguidos de ponto e da abreviatura da palavra edição na língua do texto (ex.: "2. ed.", "3. ed. rev. e ampl."). A primeira edição NUNCA se indica.',
-    'Alinhamento da Lista de Referências: conforme a NBR 6023 e NBR 14724, as referências devem ser alinhadas exclusivamente À MARGEM ESQUERDA do texto (não são justificadas), em espaçamento simples e separadas entre si por um espaço simples em branco.',
+    'Alinhamento da Lista de Referências: conforme a NBR 6023:2018 e NBR 14724:2011, as referências devem ser alinhadas exclusivamente À MARGEM ESQUERDA do texto (não são justificadas), em espaçamento simples e separadas entre si por um espaço simples em branco.',
   ],
   quadroComparativo: {
-    titulo: 'Elementos Essenciais para os Principais Tipos de Documentos na ABNT NBR 6023',
+    titulo: 'Elementos Essenciais para os Principais Tipos de Documentos na ABNT NBR 6023:2018',
     colunas: ['Tipo de Documento', 'Ordem dos Elementos Essenciais Obrigatórios', 'Exemplo Canônico Formatado', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
       ['Monografia / Livro no todo', 'AUTOR. Título: subtítulo. Edição. Local: Editora, data de publicação.', 'VERGUEIRO, Waldomiro. **Desenvolvimento de coleções**. 2. ed. São Paulo: Polis, 1989.', 'Destacar o subtítulo ou registrar "1. ed." para a primeira edição (ambos são ERROS crassos).'],
@@ -26,9 +35,9 @@ export const submodulo81: ModuloFilho = {
       ['Obra sem Autoria Declarada', 'PRIMEIRA PALAVRA DO TÍTULO EM MAIÚSCULAS... Local: Editora, data.', '**DIAGNÓSTICO** do setor editorial brasileiro. São Paulo: Câmara Brasileira do Livro, 1993.', 'Iniciar a referência pela expressão "ANÔNIMO" (terminantemente PROIBIDO pela ABNT).'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. O Escopo e a Sistemática da ABNT NBR 6023
+  teoriaDensaMarkdown: `### 1. O Escopo e a Sistemática da ABNT NBR 6023:2018 (Emenda 1:2020)
 
-A norma **ABNT NBR 6023** (*Informação e Documentação — Referências — Elaboração*) estabelece os requisitos exigíveis para a apresentação e padronização de referências destinadas a trabalhos acadêmicos, relatórios técnicos, artigos científicos, livros e documentos oficiais:
+A norma **ABNT NBR 6023:2018** (*Informação e Documentação — Referências — Elaboração*, com Emenda 1:2020) estabelece os requisitos exigíveis para a apresentação e padronização de referências destinadas a trabalhos acadêmicos, relatórios técnicos, artigos científicos, livros e documentos oficiais:
 
 * **Conceito Canônico de Referência:** Conjunto padronizado de elementos descritivos estruturados, retirados diretamente de um documento consultado, que permite sua identificação individual unívoca e rastreabilidade por terceiros.
 * **Elementos Essenciais vs. Complementares:**
@@ -130,8 +139,14 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
   * Ex.: \`Disponível em: https://www.camara.leg.br. Acesso em: 18 maio 2026.\`
 * **Legislação e Atos Normativos Federais:**
   * Estrutura canônica:
-    $$\\text{JURISDIÇÃO. } \\text{Tipo de Ato e Número, de dia mês ano. } \\text{Ementa oficial. } \\textbf{Veículo Oficial}, \\text{ Local, data de publicação. Seção, páginas.}$$
-  * Ex.: \`BRASIL. Lei nº 14.133, de 1º de abril de 2021. Lei de Licitações e Contratos Administrativos. **Diário Oficial da União**, Brasília, Seção 1, p. 1, 1 abr. 2021.\``,
+    $\\text{JURISDIÇÃO. } \\text{Tipo de Ato e Número, de dia mês ano. } \\text{Ementa oficial. } \\textbf{Veículo Oficial}, \\text{ Local, data de publicação. Seção, páginas.}$
+  * Ex.: \`BRASIL. Lei nº 14.133, de 1º de abril de 2021. Lei de Licitações e Contratos Administrativos. **Diário Oficial da União**, Brasília, Seção 1, p. 1, 1 abr. 2021.\`
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **NBR 10520 (Citações) (sub-8-2):** Regras de citação e remissão cruzada para referências bibliográficas.
+`,
   checkpoints: [
     {
       id: 'cp-8-1-1',

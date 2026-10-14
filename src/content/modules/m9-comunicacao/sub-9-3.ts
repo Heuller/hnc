@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo93: ModuloFilho = {
   id: 'sub-9-3',
   numero: '9.3',
+  editalRef: 'Bloco A - Item 2.9, 4.1 e Bloco D - Item 4.9',
+  preRequisitos: ["sub-9-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-1-6",
+          "titulo": "Governança da Informação e de Dados",
+          "motivo": "Direito autoral, limitações dos arts. 46 a 48 e dados abertos governamentais."
+      },
+      {
+          "submoduloId": "sub-11-12",
+          "titulo": "Transparência, LAI e LGPD",
+          "motivo": "Equilíbrio entre publicidade estatal e tutela da propriedade intelectual."
+      }
+  ],
   titulo: 'Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons',
   descricaoCurta: 'Ciclo de vida dos dados de pesquisa e Planos de Gestão de Dados (PGD), curadoria digital (DCC), a Lei de Direitos Autorais brasileira (Lei 9.610/98: direitos morais vs. patrimoniais e limitações), o sistema Creative Commons e métricas de impacto editorial (JCR/Garfield).',
   tempoEstimadoMinutos: 45,
@@ -159,13 +173,44 @@ TITLE: Estrutura dos Direitos Autorais na Lei Federal nº 9.610/1998
 Decorrido o prazo de 70 anos do falecimento do autor (ou do último coautor), a obra ingressa no **Domínio Público**. Também pertencem ao domínio público as obras de autores falecidos sem deixar sucessores e as obras de autores desconhecidos.
 * *Atenção Cebraspe:* A entrada no domínio público extingue apenas os direitos patrimoniais (qualquer pessoa pode imprimir, traduzir ou vender a obra sem pagar direitos autorais). No entanto, os **direitos morais permanecem eternos** (é mandatório creditar a autoria original de Machado de Assis ou Shakespeare e preservar a integridade do texto!).
 
-#### D. Limitações aos Direitos Autorais (Art. 46 — Exceções Legais de Uso Livre)
-O Art. 46 lista as condutas que **não constituem ofensa aos direitos autorais** e dispensam prévia autorização ou pagamento de royalties:
-* **Citação (Inciso VIII):** A citação em livros, jornais, revistas ou qualquer outro meio, de passagens de qualquer obra, para fins de estudo, crítica ou polêmica, na medida estritamente justificada para o fim a atingir, indicando-se o nome do autor e a origem da obra.
-* **Cópia Privada de Pequenos Trechos (Inciso II):** A reprodução, em um só exemplar de pequenos trechos, para uso privado do copista, desde que feita por este e sem intuito de lucro. *(Atenção: copiar o livro inteiro em reprografia é ilegal, mas a cópia de um capítulo para estudo individual é amparada por lei!)*.
-* **Acessibilidade para Pessoas com Deficiência Visual (Inciso I, 'd'):** A reprodução de obras literárias, artísticas ou científicas para uso exclusivo de deficientes visuais, sempre que a reprodução seja feita sem fins comerciais, seja em Braille ou outro procedimento em suporte adaptado.
-* **Trechos para Defesa em Juízo (Inciso I, 'c'):** A utilização em juízo ou procedimentos administrativos de peças e documentos necessários à instrução probatória.
+#### D. Limitações aos Direitos Autorais na Lei nº 9.610/1998 (Arts. 46 a 48 — Exceções Legais de Uso Livre)
+
+O sistema jurídico brasileiro adota o modelo de **rol taxativo (numerus clausus)** de exceções aos direitos autorais. O Brasil **não adota** a doutrina aberta norte-americana do *fair use* (uso razoável). Portanto, somente as condutas expressamente tipificadas nos artigos 46 a 48 da Lei nº 9.610/1998 dispensam a autorização prévia e o pagamento de retribuição ao titular:
+
+##### 1. As Hipóteses do Artigo 46 de Maior Relevância para Bibliotecas:
+* **Citação Justificada (Art. 46, VIII):** É livre a citação em livros, revistas ou relatórios de passagens de qualquer obra para fins de estudo, crítica ou polêmica, na medida estritamente necessária para o fim a atingir, **indicando-se obrigatoriamente o nome do autor e a origem da obra**.
+* **Reprodução Privada de Pequenos Trechos (Art. 46, II):** É livre a reprodução, em **um só exemplar de pequenos trechos**, para **uso privado do copista**, desde que feita por este e **sem intuito de lucro**.
+  * *Conceito de Pequenos Trechos:* A lei não fixou percentual numérico (não existe a lenda urbana dos "10% ou 20%"). A doutrina e a jurisprudência do STJ definem pequeno trecho como fração que não concorra com a exploração comercial da obra original nem desestimule sua aquisição (ex.: um capítulo, um artigo de periódico, poucas páginas).
+  * *Proibição da Obra Integral:* É terminantemente proibida a cópia reprográfica ou digital integral de livros, mesmo para fins exclusivamente didáticos ou de estudo.
+* **Acessibilidade para Pessoas com Deficiência (Art. 46, I, 'd' e Tratado de Marraqueche):**
+  * A Lei 9.610/98 autoriza a reprodução para uso exclusivo de pessoas com deficiência visual ou outras dificuldades para ter acesso ao texto impresso, sem fins comerciais, em Braille ou outro suporte adaptado.
+  * *Tratado de Marraqueche (promulgado pelo Decreto nº 9.522/2018):* Possui estatura de emenda constitucional (CF, art. 5º, § 3º) e autoriza "entidades autorizadas" (incluindo bibliotecas públicas e universitárias) a produzir, disponibilizar e intercambiar transfronteiriçamente cópias em formatos acessíveis (DAISY, audiolivros, e-books acessíveis) para beneficiários sem incorrer em infração autoral.
+* **Instrução Probatória e Atos Oficiais (Art. 46, I, 'c'):** É livre a utilização de trechos de obras em juízo ou procedimentos administrativos para prova judiciária ou instrução probatória.
+* **Execução em Estabelecimentos de Ensino (Art. 46, VI):** É livre a representação teatral e a execução musical, quando realizadas no recesso familiar ou, para fins exclusivamente didáticos, nos estabelecimentos de ensino, sem intuito de lucro.
+* **Retrato Encomendado (Art. 46, V):** A utilização de retrato sob encomenda pelo proprietário da coisa.
+
+##### 2. Paródias, Paráfrases e Obras em Logradouro Público (Arts. 47 e 48):
 * **Paródias e Paráfrases (Art. 47):** São livres as paráfrases e paródias que não forem verdadeiras reproduções da obra originária nem lhe trouxerem descrédito.
+* **Obras em Logradouros Públicos (Art. 48):** As obras situadas permanentemente em logradouros públicos (esculturas, estátuas, monumentos, fachadas de edifícios) podem ser representadas livremente por meio de pinturas, desenhos, fotografias e procedimentos audiovisuais.
+
+##### 3. O que NÃO É Permitido às Bibliotecas (Práticas Ilegais e Distratores Cebraspe):
+1. **Fotocópia ou Digitalização Integral de Livros:** Ainda que a obra esteja esgotada nas livrarias, que a biblioteca seja pública e gratuita, ou que a cópia se destine a estudante carente, a reprodução integral sem autorização do autor/editor é ilícita (jurisprudência consolidada na Súmula 522 do STJ).
+2. **Digitalização de Acervo para Download Aberto na Internet:** Escanear o acervo físico protegido para disponibilização em PDF no portal da biblioteca sem licença prévia constitui violação de direitos autorais.
+3. **Empréstimo Digital Não Licenciado (*Controlled Digital Lending - CDL* sem amparo legal):** O empréstimo físico é legítimo pelo princípio do exaurimento dos direitos de distribuição do exemplar (Art. 37); contudo, a transmissão digital envolve ato autônomo de reprodução e comunicação ao público (Art. 29), exigindo contratos de licenciamento eletrônico com editoras.
+4. **Reprodução Integral de Partituras Musicais:** A reprodução integral de partituras é proibida pela Lei 9.610/98 em qualquer hipótese não autorizada.
+
+##### 4. Quadro Comparativo Estruturado: O que Pode vs. O que Não Pode em Bibliotecas
+
+| Ação em Unidade de Informação | É Permitido por Lei? | Dispositivo Legal da Lei 9.610/1998 | Condições Mandatórias e Requisitos |
+| :--- | :---: | :--- | :--- |
+| **Cópia de pequenos trechos para estudo** | **SIM** | Art. 46, inciso II | Cópia de 1 só exemplar, feita pelo próprio copista, para uso privado e sem intuito de lucro. |
+| **Cópia integral de livro pelo usuário ou biblioteca** | **NÃO** | Art. 29, I e Art. 46, II (STJ Súmula 522) | Proibido mesmo para fins educativos, sem lucro ou para livros esgotados. |
+| **Conversão para formatos acessíveis (Braille, áudio)** | **SIM** | Art. 46, I, 'd' e Decreto nº 9.522/2018 | Uso exclusivo de pessoas com deficiência, sem fins comerciais, por entidades autorizadas. |
+| **Citação de passagens em artigos ou pareceres** | **SIM** | Art. 46, inciso VIII | Na medida estrita do fim científico/crítico, com indicação expressa de autor e fonte. |
+| **Disponibilização de PDF integral protegido na web** | **NÃO** | Art. 29, incisos I e VII | Violação de reprodução e disponibilização pública; exige licença ou domínio público. |
+| **Fotografar monumento permanente em praça pública** | **SIM** | Art. 48 | A obra deve estar em logradouro público em caráter permanente. |
+| **Elaboração de paródia ou paráfrase** | **SIM** | Art. 47 | Não pode ser mera cópia disfarçada nem trazer descrédito à honra do autor. |
+| **Empréstimo de livro físico adquirido legalmente** | **SIM** | Art. 37 (Exaurimento da distribuição) | A aquisição do exemplar físico esgota o direito do titular de impedir o empréstimo gratuito. |
 
 ---
 
@@ -203,13 +248,20 @@ Para avaliar o prestígio e o impacto de periódicos científicos que publicam d
 #### A. Fator de Impacto (*Impact Factor - IF*) de Eugene Garfield
 Desenvolvido na década de 1960 pelo fundador do *Institute for Scientific Information (ISI)*, **Eugene Garfield**, e publicado no relatório anual **Journal Citation Reports (JCR)** (atualmente mantido pela Clarivate Analytics integrado à plataforma Web of Science):
 
-$$\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{ a artigos publicados nos Anos } (A-1) \text{ e } (A-2)}{\text{Número de itens citáveis publicados nos Anos } (A-1) \text{ e } (A-2)}$$
+$\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{ a artigos publicados nos Anos } (A-1) \text{ e } (A-2)}{\text{Número de itens citáveis publicados nos Anos } (A-1) \text{ e } (A-2)}$
 
 * **A Distorção dos "Itens Citáveis" (*Citable Items* — Pegadinha de Ouro Cebraspe):**
   * O denominador computa estritamente **artigos de pesquisa originais e artigos de revisão**;
   * O denominador **NÃO inclui** cartas ao editor (*letters*), editoriais, resenhas de livros, obituários ou erratas;
   * Contudo, se um editorial ou carta receber citações no ano de referência, essas citações entram normalmente no **numerador**! Periódicos que publicam cartas e comentários muito citados conseguem inflar artificialmente seu Fator de Impacto.
-* **Autocitação de Periódicos (*Journal Self-Citation*):** Citações que os artigos de uma revista fazem a artigos da própria revista. Quando essa taxa ultrapassa limites razoáveis ou quando há "cartéis de citação" entre periódicos parceiros, a Clarivate Analytics aplica a pena de **supressão (*title suppression*)**, excluindo o periódico do JCR por um ou mais anos.`,
+* **Autocitação de Periódicos (*Journal Self-Citation*):** Citações que os artigos de uma revista fazem a artigos da própria revista. Quando essa taxa ultrapassa limites razoáveis ou quando há "cartéis de citação" entre periódicos parceiros, a Clarivate Analytics aplica a pena de **supressão (*title suppression*)**, excluindo o periódico do JCR por um ou mais anos.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Governança da Informação e de Dados (sub-1-6):** Direito autoral, limitações dos arts. 46 a 48 e dados abertos governamentais.
+* **Transparência, LAI e LGPD (sub-11-12):** Equilíbrio entre publicidade estatal e tutela da propriedade intelectual.
+`,
   checkpoints: [
     {
       id: 'cp-9-3-1',
@@ -220,10 +272,10 @@ $$\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{
     },
     {
       id: 'cp-9-3-2',
-      pergunta: 'Micro-Checkpoint 2: Direitos Morais e Patrimoniais (Lei 9.610/98)',
-      item: 'De acordo com a Lei de Direitos Autorais brasileira (Lei nº 9.610/1998), tanto os direitos morais quanto os direitos patrimoniais do autor sobre sua obra podem ser objeto de renúncia, cessão ou alienação comercial definitiva a terceiros.',
+      pergunta: 'Micro-Checkpoint 2: Limitações aos Direitos Autorais em Bibliotecas (Lei nº 9.610/1998)',
+      item: 'Nos termos da Lei nº 9.610/1998, é lícito a uma biblioteca pública realizar a reprodução fotocopiada ou digital integral de livros protegidos por direitos autorais para empréstimo aos seus usuários, desde que a instituição não persiga intuito de lucro.',
       gabarito: 'E',
-      justificativa: 'Errado! Apenas os direitos PATRIMONIAIS podem ser cedidos ou comercializados. Os direitos MORAIS são inalienáveis, irrenunciáveis e imprescritíveis por força expressa de lei.',
+      justificativa: 'Errado! Conforme a Lei nº 9.610/1998 (art. 29, I, e art. 46, II) e a jurisprudência pacificada do STJ (Súmula 522/STJ), a ausência de intuito de lucro não autoriza a reprodução integral de obras protegidas. A limitação legal do art. 46, II, restringe-se estritamente à cópia em um só exemplar de pequenos trechos para uso privado do copista.',
     },
     {
       id: 'cp-9-3-3',

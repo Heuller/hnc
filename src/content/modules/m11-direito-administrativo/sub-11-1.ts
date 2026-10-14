@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo111: ModuloFilho = {
   id: 'sub-11-1',
   numero: '11.1',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 1: Estado, Governo e Administração Pública)',
+  preRequisitos: [],
   titulo: 'Estado, Governo, Princípios e Organização Administrativa',
   titulo_curto: 'Estado, Princípios e Organização',
   descricaoCurta: 'Conceito e elementos do Estado, separação de poderes e funções atípicas. Princípios constitucionais (LIMPE) e princípios implícitos da Administração Pública. Organização administrativa: centralização, descentralização, concentração, desconcentração, Administração Direta e Indireta.',

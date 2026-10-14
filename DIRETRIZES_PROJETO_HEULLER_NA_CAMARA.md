@@ -593,7 +593,26 @@ Criada biblioteca autoral com ícones e micro-ilustrações vetoriais em traços
 * **Testes Automatizados:** Integridade mantida em 100% das regras e do estado do Zustand.
 
 ---
-*Documento atualizado em 06 de Outubro de 2026 — Rodada 6 (UX/UI & Estética Editorial).*  
+
+## 20. REGRAS DO EDITAL SOBRE ATUALIZAÇÃO NORMATIVA E JURISPRUDENCIAL (ITENS 13.33 A 13.34.1)
+
+Em estrita consonância com as cláusulas editalícias oficiais do Concurso da Câmara dos Deputados (Edital nº 1/2026), todo o conteúdo doutrinário, legal, regimental e jurisprudencial da plataforma rege-se pelos seguintes postulados mandatórios:
+
+### 20.1. Marco Temporal da Legislação (Item 13.33 do Edital)
+* **Regra Geral:** A legislação com entrada em vigor após a data de publicação do edital, bem como alterações em dispositivos legais e normativos a ele posteriores, NÃO serão objeto de avaliação nas provas do concurso.
+* **Exceção Expressa:** Legislações não vigentes ou projetos somente serão cobrados se constarem de forma literal e explícita no conteúdo programático publicado.
+
+### 20.2. Marco Temporal da Jurisprudência (Item 13.34 e 13.34.1 do Edital)
+* **Jurisprudência Vinculante e Consolidada:** A jurisprudência dos Tribunais Superiores (STF, STJ e TST) e do Tribunal de Contas da União (TCU) poderá ser considerada para fins de formulação e julgamento de itens, desde que publicada e pacificada até **30 (trinta) dias antes da data de realização das provas**.
+* **Proteção contra Inovações Repentinas:** Decisões monocráticas isoladas ou súmulas/temas fixados a menos de 30 dias do certame não são admitidos como critério de correção pela banca Cebraspe.
+
+### 20.3. Calendário Operacional de Revisão da Plataforma
+* **Rodada Geral de Atualização Normativa e Jurisprudencial:** Agendada para **17/12/2026**.
+* **Escopo da Rodada:** Varredura exaustiva de informativos, teses de repercussão geral do STF e acórdãos do TCU aplicáveis à Administração Pública, Biblioteconomia, Ciência da Informação e Processo Legislativo da Câmara dos Deputados.
+
+---
+*Documento atualizado em 13 de Outubro de 2026 — Fase 4 (Conhecimentos Básicos: RCCN, Constitucional, Português e Atualização Normativa).*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
+
 
 

@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo141: ModuloFilho = {
   id: 'sub-14-1',
   numero: '14.1',
+  editalRef: 'Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)',
+  preRequisitos: [],
   titulo: 'MSOffice 365 e Ferramentas de Comunicação e Colaboração',
   descricaoCurta: 'Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.',
   tempoEstimadoMinutos: 35,

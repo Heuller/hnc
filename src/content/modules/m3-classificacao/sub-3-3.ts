@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo33: ModuloFilho = {
   id: 'sub-3-3',
   numero: '3.3',
+  editalRef: 'Bloco D - Item 3.4',
+  preRequisitos: ["sub-3-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-3-2",
+          "titulo": "Classificação Decimal Universal (CDU)",
+          "motivo": "Classificação de acervos jurídicos especializados."
+      },
+      {
+          "submoduloId": "sub-4-3",
+          "titulo": "Fontes Jurídicas e LexML Brasil",
+          "motivo": "Organização temática da biblioteca jurídica parlamentar."
+      }
+  ],
   titulo: 'Análise Documentária e Processo de Indexação',
   descricaoCurta: 'Teoria da análise documentária (Kobashi e Cintra), as etapas da indexação segundo Lancaster e a ISO 5963, pré-coordenação vs pós-coordenação, sumarização vs indexação em profundidade, coerência de indexação e as métricas de avaliação de recuperação (revocação, precisão, ruído e silêncio).',
   tempoEstimadoMinutos: 45,
@@ -104,14 +118,14 @@ A coerência avalia a repetibilidade e estabilidade das decisões de indexação
 * **Coerência Interindexadores:** O grau de concordância entre dois ou mais indexadores diferentes ao atribuírem termos ao mesmo documento.
 * **Coerência Intraindexador:** O grau de concordância do mesmo indexador consigo mesmo ao indexar o mesmo documento em dois momentos temporais distintos.
 * *Coeficiente de Consistência de Hooper:*
-  $$\\text{Consistência} = \\frac{C}{A + B - C}$$
+  $\\text{Consistência} = \\frac{C}{A + B - C}$
   Onde $A$ é o número de termos do indexador 1, $B$ é o número de termos do indexador 2, e $C$ é o número de termos em comum atribuídos por ambos.
 
 #### B. As Métricas dos Testes de Cranfield (Cleverdon, 1960)
 * **Revocação (*Recall*):**
-  $$\\text{Revocação} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes Existentes no Acervo}}$$
+  $\\text{Revocação} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes Existentes no Acervo}}$
 * **Precisão (*Precision*):**
-  $$\\text{Precisão} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Itens Recuperados na Busca}}$$
+  $\\text{Precisão} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Itens Recuperados na Busca}}$
 
 A relação entre revocação e precisão é fundamentalmente **inversamente proporcional**:
 * **Alta Exaustividade -> Alta Revocação -> Risco de Ruído** (recupera-se muito lixo informacional irrelevante).
@@ -126,7 +140,14 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 | **Etapas de Lancaster** | *"No processo de indexação, a tradução dos termos para a linguagem documentária precede a análise conceitual do documento."* | **ERRADO.** A **análise conceitual** (identificação do assunto) é a primeira etapa inegociável; a **tradução** é a segunda. |
 | **Exaustividade vs Precisão** | *"Uma política de indexação que priorize a alta exaustividade tem como consequência direta o aumento da precisão das pesquisas no catálogo."* | **ERRADO.** Alta exaustividade eleva a **revocação** (e diminui a precisão, gerando ruído informacional). Quem eleva a precisão é a **alta especificidade**. |
 | **Sumarização** | *"Denomina-se sumarização a indexação exaustiva de todas as tabelas, notas de rodapé e apêndices de um relatório técnico."* | **ERRADO.** Essa é a **indexação em profundidade**. A **sumarização** limita-se a cobrir o tema central do documento como uma unidade total. |
-| **Pós-Coordenação** | *"Nos sistemas pós-coordenados, a associação lógica entre os conceitos é realizada compulsoriamente pelo catalogador no momento da indexação."* | **ERRADO.** Nos sistemas pós-coordenados, a combinação é realizada **pelo usuário no momento da busca** via operadores booleanos. |`,
+| **Pós-Coordenação** | *"Nos sistemas pós-coordenados, a associação lógica entre os conceitos é realizada compulsoriamente pelo catalogador no momento da indexação."* | **ERRADO.** Nos sistemas pós-coordenados, a combinação é realizada **pelo usuário no momento da busca** via operadores booleanos. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Classificação Decimal Universal (CDU) (sub-3-2):** Classificação de acervos jurídicos especializados.
+* **Fontes Jurídicas e LexML Brasil (sub-4-3):** Organização temática da biblioteca jurídica parlamentar.
+`,
   checkpoints: [
     {
       id: 'cp-3-3-1',

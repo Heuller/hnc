@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo43: ModuloFilho = {
   id: 'sub-4-3',
   numero: '4.3',
+  editalRef: 'Bloco E - Item 2.3 a 2.5',
+  preRequisitos: ["sub-2-4","sub-3-4"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-10-1",
+          "titulo": "Regimento Interno da Câmara dos Deputados",
+          "motivo": "Classificação de proposições e atos do processo legislativo."
+      },
+      {
+          "submoduloId": "sub-2-6",
+          "titulo": "Metadados, Dublin Core e Crosswalks",
+          "motivo": "Esquema XML LexML e interoperabilidade com catálogos MARC 21."
+      }
+  ],
   titulo: 'Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil',
   descricaoCurta: 'O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).',
   tempoEstimadoMinutos: 35,
@@ -81,7 +95,7 @@ Criado em 2009 sob a coordenação técnica do Senado Federal (Interlegis) e da 
 
 #### A. O Padrão URN Lex (Uniform Resource Name - RFC 2141 / IETF)
 Para evitar que alterações nos servidores ou arquiteturas de URL quebrem os links (*link rot*), o LexML adota identificadores persistentes e unívocos globais através da **URN Lex**:
-$$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$$
+$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$
 * **Sintaxe Decomposta:**
   * \`urn:lex\`: Prefixo identificador de namespace (*Namespace Identifier - NID*);
   * \`br\`: Código de país segundo a norma internacional ISO 3166-1;
@@ -99,15 +113,53 @@ $$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$$
 
 ---
 
-### 5. Redes Cooperativas de Bibliotecas Jurídicas no Brasil
-O CEBRASPE cobra com regularidade a coordenação institucional e a finalidade de cada rede:
+### 5. Redes Cooperativas de Bibliotecas Jurídicas e Parlamentares no Brasil
 
-| Rede Cooperativa | Órgão Coordenador | Composição Institucional | Padrões Utilizados |
-| :--- | :--- | :--- | :--- |
-| **RVBI (Rede Virtual de Bibliotecas)** | **Secretaria de Biblioteca e Arquivo do SENADO FEDERAL** | Bibliotecas dos três Poderes da União e do Distrito Federal (Câmara dos Deputados, STF, STJ, TST, TSE, TCU, Ministérios). | Catálogo Coletivo MARC 21, Classificação Decimal de Direito (CDDir) e Vocabulário Controlado Básico (VCB). |
-| **REJE (Rede de Bibliotecas da Justiça Eleitoral)** | **Tribunal Superior Eleitoral (TSE)** | Bibliotecas do TSE e dos 27 Tribunais Regionais Eleitorais (TREs). | Compartilhamento de doutrina e jurisprudência em matéria eleitoral e partidária. |
-| **RBMPF (Rede do Ministério Público Federal)** | **Procuradoria-Geral da República (PGR)** | Bibliotecas da PGR e das Procuradorias Regionais da República em todo o país. | Acervos voltados à tutela coletiva, direito ambiental e ciências penais. |
-| **Rede BIBLIODATA / CALCO** | **Fundação Getulio Vargas (FGV)** (Marco Histórico - Década de 1970) | Pioneira da catalogação cooperativa em rede no Brasil (liderada por Edson Nery da Fonseca). | Formato CALCO (Catalogação Legível por Computador, adaptação brasileira pioneira do MARC). |
+A cooperação técnica e o compartilhamento de recursos informacionais constituem diretrizes centrais no universo jurídico nacional, frequentemente cobradas pelo Cebraspe quanto à governança, finalidade e histórico:
+
+#### A. A Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional
+* **Órgão Coordenador:** Secretaria de Biblioteca e Arquivo do **SENADO FEDERAL**.
+* **Composição:** Congrega bibliotecas dos três Poderes da União e da Administração Pública Federal no Distrito Federal (Câmara dos Deputados, Senado Federal, Supremo Tribunal Federal, Superior Tribunal de Justiça, Tribunal Superior do Trabalho, Tribunal Superior Eleitoral, Tribunal de Contas da União, Ministério da Justiça, Advocacia-Geral da União, entre outras).
+* **Instrumentos Padronizados:**
+  * **Catálogo Coletivo Integrado:** Base bibliográfica compartilhada no formato MARC 21;
+  * **Vocabulário Controlado Básico (VCB):** Tesauro setorial coordenado pelo Senado Federal para indexação de doutrina, legislação e atos normativos;
+  * **Classificação Decimal de Direito (CDDir):** Tabela especializada desenvolvida pela bibliotecária Doris de Queiroz Carvalho;
+  * **Alimentação do LexML Brasil:** As bibliotecas da RVBI alimentam a base referencial e doutrinária que subsidia a URN Lex.
+
+#### B. A Rede de Bibliotecas da Justiça Eleitoral (REJE)
+* **Órgão Coordenador:** Biblioteca Professor Aliomar Baleeiro do **Tribunal Superior Eleitoral (TSE)**.
+* **Composição:** Bibliotecas do TSE e dos 27 Tribunais Regionais Eleitorais (TREs).
+* **Missão e Foco:** Especializada em Direito Eleitoral, Direito Partidário, Ciência Política e Jurisprudência Eleitoral.
+* **Serviços:** Catálogo unificado de doutrina eleitoral, empréstimo entre bibliotecas da rede e compartilhamento de artigos da Revista de Jurisprudência Eleitoral.
+
+#### C. A Rede de Bibliotecas do Ministério Público Federal (RBMPF)
+* **Órgão Coordenador:** Biblioteca da **Procuradoria-Geral da República (PGR)**.
+* **Composição Institucional:** Instituída por ato normativo da PGR/MPF, integra a Biblioteca Central da Procuradoria-Geral da República (em Brasília), as bibliotecas das cinco Procuradorias Regionais da República (PRRs nas 5 regiões) e os centros de documentação e bibliotecas das Procuradorias da República nos 26 Estados e no Distrito Federal (PRs/PRMs).
+* **Missão e Escopo Especializado:** Fornecer suporte bibliográfico e doutrinário intensivo à atuação dos Procuradores da República nas funções constitucionais do Ministério Público:
+  * Tutela coletiva e direitos difusos (direitos indígenas, meio ambiente, patrimônio histórico e cultural);
+  * Defesa da ordem jurídica, do regime democrático e da probidade administrativa (combate à corrupção);
+  * Ciências penais, processo penal e cooperação jurídica internacional.
+* **Serviços em Rede:** Catálogo bibliográfico compartilhado, padronização da catalogação em MARC 21, serviço unificado de comutação bibliográfica e circulação de acervos entre as unidades regionais do MPF em todo o território nacional.
+
+#### D. A Rede BIBLIODATA / CALCO (Marco Histórico Pioneiro no Brasil)
+* **Instituição Mantenedora e Origem:** Criada em 1976 sob a liderança técnica da **Fundação Getulio Vargas (FGV)** e do **IBICT (Instituto Brasileiro de Informação em Ciência e Tecnologia)**, no Rio de Janeiro, com papel pioneiro da bibliotecária **Alice Príncipe Barbosa**.
+* **Natureza Histórica:** Foi a **primeira e mais importante rede cooperativa de catalogação automatizada do Brasil**, precursora direta de todas as redes automatizadas contemporâneas no país, estabelecida décadas antes da difusão da Internet comercial.
+* **O Formato CALCO (*Catalogação Legível por Computador*):**
+  * Adaptação oficial brasileira do padrão MARC da Library of Congress;
+  * Desenvolvido para superar a incompatibilidade dos sistemas locais e viabilizar o intercâmbio de dados em fitas magnéticas.
+* **Dinâmica Operacional da Rede:** As bibliotecas cooperantes em todo o país (universidades federais, centros de pesquisa e órgãos públicos) alimentavam o banco central da FGV no Rio de Janeiro, que produzia e remetia às unidades participantes **fichas catalográficas impressas padronizadas** e matrizes de microfichas, evitando a catalogação redundante do mesmo livro em múltiplos estados.
+* **Legado para o Concurso:** A BIBLIODATA consolidou a cultura de cooperação técnica, precedendo a transição para o MARC 21 e para a RVBI.
+
+---
+
+#### E. Quadro Sinóptico Comparativo das Redes de Bibliotecas Jurídicas e Parlamentares
+
+| Rede Cooperativa | Instituição Coordenadora | Marco Cronológico | Foco Temático Central | Padrões Tecnológicos / Vocabulário | Relação com a Câmara dos Deputados |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **RVBI** | **Senado Federal** (Sec. de Biblioteca e Arquivo) | Década de 1970 (antiga Rede Sabin) / 2000 (RVBI) | Direito, Processo Legislativo, Ciência Política e Administração Pública | Catálogo Coletivo MARC 21, Tesauro VCB e CDDir | A Câmara dos Deputados é membro cooperante cofundador de primeiro escalão. |
+| **REJE** | **Tribunal Superior Eleitoral (TSE)** | Anos 2000 (Consolidação em rede) | Direito Eleitoral, Partidário e Jurisprudência dos Tribunais Regionais | Base compartilhada de decisões eleitorais e periódicos jurídicos | Intercâmbio de doutrina eleitoral e projetos de reforma política. |
+| **RBMPF** | **Procuradoria-Geral da República (PGR)** | Portaria PGR/MPF | Tutela coletiva, Direitos Humanos, Meio Ambiente e Ciências Penais | Catálogo unificado MPF em MARC 21 e empréstimo entre sedes regionais | Cooperação e intercâmbio de pesquisas com as consultorias legislativas. |
+| **BIBLIODATA** | **Fundação Getulio Vargas (FGV)** / IBICT | 1976 (Pioneira nacional) | Ciências Sociais, Economia, Administração e Acervos Universitários | Formato **CALCO** (MARC brasileiro) e distribuição de fichas impressas | Marco precursor da catalogação cooperativa que estruturou as bibliotecas públicas brasileiras. |
 
 ---
 
@@ -125,8 +177,16 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 | :--- | :--- | :--- |
 | *"No Diário Oficial da União, os editais de abertura de concursos públicos para a Câmara dos Deputados são veiculados na Seção 1."* | **ERRADO** | Editais de concursos saem na **Seção 3** (editais, contratos e licitações). A Seção 1 veicula atos normativos gerais. |
 | *"A coordenação administrativa e técnica da Rede Virtual de Bibliotecas (RVBI) é de responsabilidade da Câmara dos Deputados."* | **ERRADO** | A coordenação da RVBI é privativa da **Secretaria de Biblioteca e Arquivo do SENADO FEDERAL**. |
+| *"A Rede BIBLIODATA/CALCO foi instituída recentemente pela PGR para compartilhamento exclusivo de acórdãos judiciais em formato Dublin Core."* | **ERRADO** | A BIBLIODATA foi criada na década de 1970 pela **FGV/IBICT**, pioneira na catalogação cooperativa no Brasil com o formato **CALCO** (MARC brasileiro). |
 | *"A URN Lex empregada no LexML utiliza o endereço físico dos servidores web (IP) para garantir a localização do documento."* | **ERRADO** | A URN Lex é um identificador de **nome persistente abstrato**, completamente independente de servidores IP ou URLs físicas. |
-| *"No LexML, o esquema XML flexível é o exigido para a redação formal das proposições legislativas em tramitação no Congresso."* | **ERRADO** | A redação formal de proposições exige o **esquema XML RÍGIDO** (*Strict Schema*); o flexível serve para capturar dados externos. |`,
+| *"No LexML, o esquema XML flexível é o exigido para a redação formal das proposições legislativas em tramitação no Congresso."* | **ERRADO** | A redação formal de proposições exige o **esquema XML RÍGIDO** (*Strict Schema*); o flexível serve para capturar dados externos. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Regimento Interno da Câmara dos Deputados (sub-10-1):** Classificação de proposições e atos do processo legislativo.
+* **Metadados, Dublin Core e Crosswalks (sub-2-6):** Esquema XML LexML e interoperabilidade com catálogos MARC 21.
+`,
   checkpoints: [
     {
       id: 'cp-4-3-1',
@@ -144,10 +204,10 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
     },
     {
       id: 'cp-4-3-3',
-      pergunta: 'Micro-Checkpoint 3: Coordenação da Rede Virtual de Bibliotecas (RVBI)',
-      item: 'A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) tem sua gestão e coordenação técnica exercidas pela biblioteca da Câmara dos Deputados.',
-      gabarito: 'E',
-      justificativa: 'Errado! Cobrado pelo Cebraspe (STJ 2024). A coordenação da RVBI cabe institucionalmente à Secretaria de Biblioteca e Arquivo do SENADO FEDERAL.',
+      pergunta: 'Micro-Checkpoint 3: Redes Cooperativas Brasileiras (RVBI, RBMPF e BIBLIODATA)',
+      item: 'A Rede Virtual de Bibliotecas (RVBI) tem sua gestão técnica e coordenação centralizadas na Secretaria de Biblioteca e Arquivo do Senado Federal, ao passo que a Rede BIBLIODATA, criada na década de 1970 sob coordenação da FGV com apoio do IBICT, consolidou-se como o marco pioneiro da catalogação cooperativa automatizada no Brasil com o uso do formato CALCO.',
+      gabarito: 'C',
+      justificativa: 'Certo! O Cebraspe exige o domínio institucional e histórico das redes nacionais: a RVBI é liderada pelo Senado Federal (com participação da Câmara e tribunais), e a pioneira BIBLIODATA/CALCO foi liderada pela FGV/IBICT a partir de 1976 como primeira rede nacional de catalogação cooperativa.',
     },
   ],
   mnemonicos: {

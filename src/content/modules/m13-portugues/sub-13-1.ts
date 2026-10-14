@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo131: ModuloFilho = {
   id: 'sub-13-1',
   numero: '13.1',
+  editalRef: 'Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)',
+  preRequisitos: [],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-13-4",
+          "titulo": "Ortografia, Gêneros Textuais e Morfossintaxe",
+          "motivo": "Tipologias e gêneros textuais segundo Marcuschi."
+      }
+  ],
   titulo: 'Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe',
   descricaoCurta: 'Diferenciação científica entre Compreensão e Interpretação, identificação de anáforas e elipses, operadores argumentativos e as armadilhas clássicas de extrapolação e inversão causal.',
   tempoEstimadoMinutos: 35,
@@ -181,7 +190,13 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 * **Pressupostos Textuais:** Ideias introduzidas obrigatoriamente por um elemento linguístico (gatilho). Se negarmos a oração, o pressuposto permanece verdadeiro.
   - *Advérbios de tempo/mudança:* *"A comissão **ainda** não concluiu os trabalhos"* $\rightarrow$ Pressupõe que a conclusão é esperada e que os trabalhos continuam.
   - *Verbos de cessação/permanência:* *"O parlamentar **deixou de** integrar o colegiado"* $\rightarrow$ Pressupõe que antes ele integrava o colegiado.
-* **Subentendidos:** Mensagens insinuadas nas entrelinhas, que dependem da inferência do interlocutor e que o autor pode negar sem se contradizer gramaticalmente. O Cebraspe somente aceita subentendidos em itens de interpretação quando o contexto geral da passagem fornece evidências inequívocas de sua validade.`,
+* **Subentendidos:** Mensagens insinuadas nas entrelinhas, que dependem da inferência do interlocutor e que o autor pode negar sem se contradizer gramaticalmente. O Cebraspe somente aceita subentendidos em itens de interpretação quando o contexto geral da passagem fornece evidências inequívocas de sua validade.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Ortografia, Gêneros Textuais e Morfossintaxe (sub-13-4):** Tipologias e gêneros textuais segundo Marcuschi.
+`,
   checkpoints: [
     {
       id: 'chk-13-1-1',

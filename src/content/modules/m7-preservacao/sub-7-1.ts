@@ -3,9 +3,19 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo71: ModuloFilho = {
   id: 'sub-7-1',
   numero: '7.1',
+  editalRef: 'Bloco D - Item 4.8',
+  preRequisitos: ["sub-5-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-7-3",
+          "titulo": "Suportes e Condições Ambientais",
+          "motivo": "Controle de temperatura e umidade relativa no arquivo da Câmara."
+      }
+  ],
   titulo: 'Agentes Ambientais e Físico-Químicos de Degradação de Acervos',
   descricaoCurta: 'A composição físico-química dos suportes documentais, acidez intrínseca do papel industrial, parâmetros de temperatura e umidade relativa (flutuações e estresse mecânico), radiação ultravioleta e poluição atmosférica.',
   tempoEstimadoMinutos: 40,
+  prioridade: 'normal',
   autoresChave: ['Norma Cassares', 'Ingrid Beck', 'Antônio Celso Ramos Spinelli', 'Garry Thomson', 'Library of Congress Preservation Directorate', 'Conarq'],
   alertasCebraspe: [
     'O pior inimigo ambiental do acervo em suporte papel não é a temperatura ou a umidade alta isolada, mas sim a FLUTUAÇÃO BRUSCA E CONSTANTE de temperatura e umidade relativa, pois provoca ciclos repetidos de dilatação e contração higroscópica que quebram as fibras de celulose.',
@@ -119,7 +129,13 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
   * Prateleira inferior: situada a pelo menos **15 cm acima do nível do piso**, prevenindo sinistros de alagamento acidental, facilitando a limpeza do chão e impedindo o acesso imediato de insetos rastejantes.
   * Prateleira superior: distante no mínimo **50 cm do teto e das luminárias**, garantindo a circulação adequada de ar e evitando calor focal das lâmpadas.
   * Afastamento das paredes: estantes devem ficar afastadas **de 5 cm a 10 cm das paredes externas**, impedindo a transferência de umidade por capilaridade e condensação.
-* **Proibição Absoluta de Mobiliário de Madeira Crua:** Armários, gaveteiros e estantes de madeira não tratada, compensado, aglomerado ou MDF desprendem continuamente **lignina, ácido acético e ácido fórmico**, criando microclimas confinados altamente ácidos que destroem documentos e materiais fotográficos.`,
+* **Proibição Absoluta de Mobiliário de Madeira Crua:** Armários, gaveteiros e estantes de madeira não tratada, compensado, aglomerado ou MDF desprendem continuamente **lignina, ácido acético e ácido fórmico**, criando microclimas confinados altamente ácidos que destroem documentos e materiais fotográficos.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Suportes e Condições Ambientais (sub-7-3):** Controle de temperatura e umidade relativa no arquivo da Câmara.
+`,
   checkpoints: [
     {
       id: 'cp-7-1-1',

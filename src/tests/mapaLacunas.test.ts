@@ -9,17 +9,25 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
   const relatorio = gerarRelatorioLacunas();
 
   describe('Auditoria Quantitativa e Estrutural da Teoria', () => {
-    it('deve auditar rigorosamente os 14 macro-módulos e 64 submódulos', () => {
+    it('deve auditar rigorosamente os 14 macro-módulos e submódulos', () => {
       expect(relatorio.totalEixos).toBe(14);
       expect(relatorio.totalTopicos).toBe(64);
-      expect(relatorio.totalSubmodulosAuditados).toBe(64);
+      expect(relatorio.totalSubmodulosAuditados).toBe(74);
       expect(relatorio.eixos).toHaveLength(14);
     });
 
     it('deve certificar que cada macro-módulo possui seus submódulos correspondentes ao edital', () => {
       relatorio.eixos.forEach(eixo => {
-        if (eixo.moduloId === 'm11') {
+        if (eixo.moduloId === 'm1' || eixo.moduloId === 'm2' || eixo.moduloId === 'm10') {
+          expect(eixo.submodulos).toHaveLength(6);
+        } else if (eixo.moduloId === 'm6') {
+          expect(eixo.submodulos).toHaveLength(7);
+        } else if (eixo.moduloId === 'm8') {
+          expect(eixo.submodulos).toHaveLength(5);
+        } else if (eixo.moduloId === 'm11') {
           expect(eixo.submodulos).toHaveLength(12);
+        } else if (eixo.moduloId === 'm13') {
+          expect(eixo.submodulos).toHaveLength(4);
         } else {
           expect(eixo.submodulos).toHaveLength(4);
         }
@@ -40,11 +48,19 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       });
     });
 
-    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (192 no total)', () => {
-      expect(relatorio.totalCheckpointsFormativos).toBe(192);
+    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (222 no total)', () => {
+      expect(relatorio.totalCheckpointsFormativos).toBe(222);
       relatorio.eixos.forEach(eixo => {
-        if (eixo.moduloId === 'm11') {
+        if (eixo.moduloId === 'm1' || eixo.moduloId === 'm2' || eixo.moduloId === 'm10') {
+          expect(eixo.questoesCheckpoints).toBe(18);
+        } else if (eixo.moduloId === 'm6') {
+          expect(eixo.questoesCheckpoints).toBe(21);
+        } else if (eixo.moduloId === 'm8') {
+          expect(eixo.questoesCheckpoints).toBe(15);
+        } else if (eixo.moduloId === 'm11') {
           expect(eixo.questoesCheckpoints).toBe(36);
+        } else if (eixo.moduloId === 'm13') {
+          expect(eixo.questoesCheckpoints).toBe(12);
         } else {
           expect(eixo.questoesCheckpoints).toBe(12);
         }
@@ -85,8 +101,8 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       expect(relatorio.deficitTotalSimuladosE5).toBe(0);
     });
 
-    it('deve totalizar 1.712 questões atualmente ativas no sistema (192 checkpoints formativos + 1.520 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1712);
+    it('deve totalizar 1.742 questões atualmente ativas no sistema (222 checkpoints formativos + 1.520 de simulados)', () => {
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1742);
     });
   });
 

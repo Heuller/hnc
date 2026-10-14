@@ -16,6 +16,8 @@ export const moduloM14TecnologiaDados: MacroModulo = {
   trilha: 'complementar',
   avisoVerificacao: 'Conhecimentos Básicos Oficiais (Edital nº 1/2026) — Conteúdo canônico de Tecnologia da Informação e Dados estruturado segundo a banca Cebraspe',
   simuladoDisponivel: true,
+    blocoEdital: 'Conhecimentos Básicos: Tecnologia da Informação e Dados',
+  preRequisitos: ["m6"],
   modulosFilhos: [
     submodulo141,
     submodulo142,

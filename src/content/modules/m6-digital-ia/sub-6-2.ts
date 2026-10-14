@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo62: ModuloFilho = {
   id: 'sub-6-2',
   numero: '6.2',
+  editalRef: 'Bloco E - Item 1.1 a 1.5 e 1.9 a 1.12',
+  preRequisitos: ["sub-2-6"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-2-4",
+          "titulo": "MARC 21 Bibliográfico e Autoridades",
+          "motivo": "Protocolo Z39.50 e catalogação cooperativa."
+      },
+      {
+          "submoduloId": "sub-6-3",
+          "titulo": "Preservação Digital e Repositórios Confiáveis",
+          "motivo": "Colheita OAI-PMH de pacotes de metadados em repositórios digitais."
+      }
+  ],
   titulo: 'Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)',
   descricaoCurta: 'Arquitetura e gestão de repositórios digitais, o software DSpace e SEER/OJS, SIGBs livres (Koha) e comerciais (Pergamum, Aleph), o protocolo OAI-PMH (seis verbos e colheita de metadados), Z39.50, SRU/SRW e Discovery Services Web-Scale.',
   tempoEstimadoMinutos: 45,
@@ -34,7 +48,7 @@ Conforme **Clifford Lynch** (2003), um repositório institucional universitário
 * **Arquitetura Hierárquica do Software DSpace:**
   O DSpace (software livre hegemônico mundialmente, desenvolvido em consórcio pelo MIT e HP Labs) organiza os dados em cinco níveis concêntricos rigorosos:
 
-$$\\text{Comunidades} \\longrightarrow \\text{Subcomunidades} \\longrightarrow \\text{Coleções} \\longrightarrow \\text{Itens} \\longrightarrow \\text{Bitstreams (Arquivos Finais)}$$
+$\\text{Comunidades} \\longrightarrow \\text{Subcomunidades} \\longrightarrow \\text{Coleções} \\longrightarrow \\text{Itens} \\longrightarrow \\text{Bitstreams (Arquivos Finais)}$
 
   1. **Comunidades (*Communities*):** Representam grandes divisões orgânicas institucionais (ex.: CEDI, Consultoria Legislativa, Secretarias).
   2. **Subcomunidades (*Subcommunities*):** Departamentos ou núcleos subordinados.
@@ -113,28 +127,45 @@ O *Open Archives Initiative Protocol for Metadata Harvesting* é o mecanismo pad
 * **Protocolos SRU/SRW (*Search/Retrieve via URL / Web Service*):**
   * Modernização do Z39.50 liderada pela Library of Congress para adaptá-lo às tecnologias contemporâneas da Web.
   * O **SRU** utiliza requisições RESTful simples via HTTP GET (parâmetros de URL); o **SRW** utiliza mensagens estruturadas via SOAP/XML.
-  * Ambos adotam a **CQL** (*Contextual Query Language*), permitindo formular buscas booleanas, relacionais e por campos de forma padronizada.`,
+  * Ambos adotam a **CQL** (*Contextual Query Language*), permitindo formular buscas booleanas, relacionais e por campos de forma padronizada.
+
+#### C. Matriz de Decisão Arquitetural: Qual Protocolo de Interoperabilidade Adotar? (Alvo E12)
+Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos Deputados, a escolha do protocolo é orientada pelo cenário operacional e pelo tipo de fluxo informacional:
+
+| Protocolo / Padrão | Mecanismo e Transporte | Quando DEVE ser Utilizado | Quando NÃO deve ser Utilizado | Exemplo Prático no Legislativo |
+| :--- | :--- | :--- | :--- | :--- |
+| **OAI-PMH** (Van de Sompel & Lagoze) | **Colheita em lote assíncrona** (*Batch Harvesting*) via HTTP GET/POST com XML. Exige Dublin Core (*oai_dc*). | Alimentação de portais agregadores de dados abertos, repositórios nacionais e índices coletivos (BDTD, Oasisbr, LexML Brasil, Europeana). | Consultas interativas em tempo real de usuários no catálogo; operações transacionais (reserva, empréstimo); transferência de arquivos binários pesados. | O Repositório Digital da Câmara dos Deputados expondo metadados para coleta periódica pelo IBICT (Oasisbr). |
+| **ANSI/NISO Z39.50** (ISO 23950) | **Busca síncrona cliente/servidor com sessão (*stateful*)** em conexão TCP dedicada na porta 210. Sintaxe MARC 21. | **Catalogação cooperativa pontual**: importação direta de registros bibliográficos da Library of Congress ou Biblioteca Nacional para o SIGB local. | Aplicações web modernas e leves no navegador; ambientes com firewalls restritivos que barram a porta 210; agregação de grandes volumes de dados. | Bibliotecário da Câmara importando a ficha MARC 21 de um livro estrangeiro diretamente do servidor Z39.50 da LoC. |
+| **SRU / SRW** (Library of Congress) | **Busca síncrona na Web** via HTTP GET (SRU) ou SOAP (SRW) com sintaxe CQL (*Contextual Query Language*) e XML. | Consultas bibliográficas padronizadas pela Web entre bibliotecas parceiras que requerem busca por campos sem manter sessão TCP aberta na porta 210. | Colheita massiva de acervos inteiros em lote (cenário próprio do OAI-PMH); transações operacionais de circulação de exemplares. | Consulta federada a catálogos legislativos estaduais a partir do portal da Biblioteca Pedro Aleixo via HTTP/CQL. |
+| **APIs RESTful** (HTTP / JSON) | **Integração transacional e microsserviços em tempo real** via métodos HTTP (GET, POST, PUT, DELETE) com JSON sobre HTTPS (porta 443). | Interligação do SIGB com o Portal da Câmara, aplicativos móveis para parlamentares e cidadãos, serviços de circulação (renovação, reserva) e gateways LSP (Okapi/FOLIO). | Intercâmbio formal com agregadores acadêmicos internacionais que exigem estrita conformidade com o protocolo OAI-PMH e Dublin Core. | Aplicativo móvel da Câmara consultando em tempo real o status de disponibilidade de um exemplar na Biblioteca Pedro Aleixo. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **MARC 21 Bibliográfico e Autoridades (sub-2-4):** Protocolo Z39.50 e catalogação cooperativa.
+* **Preservação Digital e Repositórios Confiáveis (sub-6-3):** Colheita OAI-PMH de pacotes de metadados em repositórios digitais.
+`,
   checkpoints: [
     {
       id: 'cp-6-2-1',
       pergunta: 'Micro-Checkpoint 1: O Papel do Protocolo OAI-PMH',
       item: 'O protocolo OAI-PMH é um mecanismo de comunicação que permite a colheita automatizada de metadados entre repositórios provedores de dados e sistemas provedores de serviços, exigindo como formato mínimo o padrão Dublin Core.',
       gabarito: 'C',
-      justificativa: 'Correto! Essa é a função exata do OAI-PMH, que utiliza HTTP/XML para transferir metadados estruturados.',
+      justificativa: 'Correto! Conforme conceituado por Herbert Van de Sompel e Carl Lagoze (2004), o OAI-PMH utiliza HTTP/XML para transferir metadados estruturados, tendo o Dublin Core simples (oai_dc) como requisito mandatório.',
     },
     {
       id: 'cp-6-2-2',
       pergunta: 'Micro-Checkpoint 2: Diferença entre Metabusca e Discovery Services (WSDS)',
       item: 'Diferentemente dos metabuscadores tradicionais, que disparam consultas simultâneas distribuídas em tempo real a múltiplos servidores, os serviços de descoberta web-scale (WSDS) realizam a pesquisa sobre um índice centralizado previamente coletado e normalizado na nuvem.',
       gabarito: 'C',
-      justificativa: 'Correto! Essa é a distinção tecnológica basilar cobrada pelo Cebraspe: os discovery services consultam um índice pré-unificado na nuvem (pre-harvested index), garantindo respostas em milissegundos e relevância unificada.',
+      justificativa: 'Correto! Conforme analisado por Clifford Lynch (2003) e pelas diretrizes da NISO ODI (RP-19), os discovery services consultam um índice pré-unificado na nuvem (pre-harvested index), garantindo respostas em milissegundos e relevância unificada.',
     },
     {
       id: 'cp-6-2-3',
       pergunta: 'Micro-Checkpoint 3: Arquitetura de Microsserviços do FOLIO',
       item: 'A plataforma FOLIO (The Future of Library is Open) é estruturada como um sistema integrado monolítico de código proprietário, inviabilizando a adição ou substituição modular de componentes de gestão bibliotecária.',
       gabarito: 'E',
-      justificativa: 'Errado! O FOLIO é uma plataforma livre (open-source) estruturada em microsserviços integrados pelo gateway Okapi, caracterizando-se pela flexibilidade e modularidade de seus componentes funcionais.',
+      justificativa: 'Errado! Segundo Luciana Viana (2022) e Satbir Chauhan (2018), o FOLIO é uma plataforma livre (open-source) estruturada em microsserviços integrados pelo gateway Okapi, caracterizando-se pela flexibilidade e modularidade de seus componentes funcionais.',
     },
   ],
   mnemonicos: {

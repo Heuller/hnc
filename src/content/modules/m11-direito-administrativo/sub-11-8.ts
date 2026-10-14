@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo118: ModuloFilho = {
   id: 'sub-11-8',
   numero: '11.8',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 8: Controle da Administração Pública)',
+  preRequisitos: ["sub-11-5"],
   titulo: 'Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública',
   titulo_curto: 'Modelos de Gestão e NPG',
   descricaoCurta: 'A transição histórica: Patrimonialismo (prebendas), Burocracia Weberiana (formalismo e disfunções) e Nova Gestão Pública (NPM e gerencialismo). Nova Governança Pública (NPG): ação em redes, coprodução do bem público e transparência ativa. O Valor Público de Mark Moore e a Cadeia de Valor.',

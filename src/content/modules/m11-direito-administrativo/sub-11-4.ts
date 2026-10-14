@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo114: ModuloFilho = {
   id: 'sub-11-4',
   numero: '11.4',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)',
+  preRequisitos: ["sub-11-2"],
   titulo: 'Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)',
   titulo_curto: 'Processo Administrativo e Disciplinar',
   descricaoCurta: 'Princípios do processo administrativo (verdade material, oficialidade, informalismo moderado). Lei nº 9.784/1999: impedimento e suspeição, prazos, delegação/avocação e recursos. Direito disciplinar: sindicância, rito do PAD ordinário e sumário, prescrição e Súmula Vinculante 5 do STF.',

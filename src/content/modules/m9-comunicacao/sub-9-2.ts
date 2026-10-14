@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo92: ModuloFilho = {
   id: 'sub-9-2',
   numero: '9.2',
+  editalRef: 'Bloco E - Item 1.6 e Bloco D - Item 4.9',
+  preRequisitos: ["sub-9-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-1",
+          "titulo": "Bibliotecas Digitais e DSpace",
+          "motivo": "Plataformas de repositório e políticas de autoarquivamento."
+      }
+  ],
   titulo: 'Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR',
   descricaoCurta: 'A crise dos periódicos, as 3 declarações fundacionais (Budapest, Bethesda, Berlin), as vias do Acesso Aberto (Dourada, Verde, Diamante, Híbrida e Bronze), licenças Creative Commons e os Princípios FAIR (Findable, Accessible, Interoperable, Reusable).',
   tempoEstimadoMinutos: 45,
@@ -111,7 +120,13 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 
 > [!IMPORTANT]
 > **A Pegadinha Mais Cobrada pelo Cebraspe (UNEAL 2026):**
-> Os Princípios FAIR **NÃO são sinônimos de dados 100% públicos e abertos sem controle**. Dados confidenciais de pacientes médicos, segredos militares, patentes de inovação ou investigações judiciais podem ser plenamente compatíveis com os princípios FAIR: seus metadados são localizáveis e interoperáveis, mas o acesso ao dado bruto é estritamente restrito e condicionado à autenticação de usuários credenciados. O princípio orientador é: **"Tão aberto quanto possível, tão fechado quanto necessário"** (*as open as possible, as closed as necessary*).`,
+> Os Princípios FAIR **NÃO são sinônimos de dados 100% públicos e abertos sem controle**. Dados confidenciais de pacientes médicos, segredos militares, patentes de inovação ou investigações judiciais podem ser plenamente compatíveis com os princípios FAIR: seus metadados são localizáveis e interoperáveis, mas o acesso ao dado bruto é estritamente restrito e condicionado à autenticação de usuários credenciados. O princípio orientador é: **"Tão aberto quanto possível, tão fechado quanto necessário"** (*as open as possible, as closed as necessary*).
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Bibliotecas Digitais e DSpace (sub-6-1):** Plataformas de repositório e políticas de autoarquivamento.
+`,
   checkpoints: [
     {
       id: 'cp-9-2-1',

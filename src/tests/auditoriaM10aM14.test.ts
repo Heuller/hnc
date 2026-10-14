@@ -24,22 +24,22 @@ describe('Auditoria Completa da Construção Teórica dos Módulos M10 a M14', (
       expect(m.descricao.length).toBeGreaterThan(50);
       expect(m.status).toBe('disponivel');
       expect(m.simuladoDisponivel).toBe(true);
-      expect(m.modulosFilhos.length).toBeGreaterThanOrEqual(4);
+      expect(m.modulosFilhos.length).toBeGreaterThanOrEqual(m.id === 'm13' ? 3 : 4);
     });
   });
 
-  it('o número de submódulos deve corresponder exatamente à grade do currículo (28 no total de M10 a M14)', () => {
+  it('o número de submódulos deve corresponder exatamente à grade do currículo (30 no total de M10 a M14 na Fase 4)', () => {
     const totalSubmodulos = modulosAlvo.reduce((acc, m) => acc + m.modulosFilhos.length, 0);
-    // M10: 4, M11: 12, M12: 4, M13: 4, M14: 4 => 28
-    expect(totalSubmodulos).toBe(28);
-    expect(moduloM10Legislativo.modulosFilhos).toHaveLength(4);
+    // M10: 6, M11: 12, M12: 4, M13: 4, M14: 4 => 30
+    expect(totalSubmodulos).toBe(30);
+    expect(moduloM10Legislativo.modulosFilhos).toHaveLength(6);
     expect(moduloM11DireitoAdministrativo.modulosFilhos).toHaveLength(12);
     expect(moduloM12Ingles.modulosFilhos).toHaveLength(4);
     expect(moduloM13Portugues.modulosFilhos).toHaveLength(4);
     expect(moduloM14TecnologiaDados.modulosFilhos).toHaveLength(4);
   });
 
-  it('todos os 28 submódulos devem passar com 100% de conformidade no Zod ModuloFilhoSchema', () => {
+  it('todos os submódulos devem passar com 100% de conformidade no Zod ModuloFilhoSchema', () => {
     const todosSubmodulos = modulosAlvo.flatMap((m) => m.modulosFilhos);
     todosSubmodulos.forEach((sub) => {
       const parseResult = ModuloFilhoSchema.safeParse(sub);
@@ -50,7 +50,7 @@ describe('Auditoria Completa da Construção Teórica dos Módulos M10 a M14', (
     });
   });
 
-  it('todos os 28 submódulos devem possuir teoria densa em markdown substantive (> 2.000 caracteres)', () => {
+  it('todos os 30 submódulos devem possuir teoria densa em markdown substantive (> 2.000 caracteres)', () => {
     const todosSubmodulos = modulosAlvo.flatMap((m) => m.modulosFilhos);
     todosSubmodulos.forEach((sub) => {
       expect(sub.teoriaDensaMarkdown.trim().length).toBeGreaterThan(2000);

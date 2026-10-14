@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo113: ModuloFilho = {
   id: 'sub-11-3',
   numero: '11.3',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 3: Regime Jurídico Único - Lei 8.112/90)',
+  preRequisitos: ["sub-11-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-10-1",
+          "titulo": "Administração da Câmara dos Deputados",
+          "motivo": "Regime funcional dos servidores legislativos e requisição de pessoal."
+      }
+  ],
   titulo: 'Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)',
   titulo_curto: 'Agentes Públicos e Lei 8.112/90',
   descricaoCurta: 'Classificação de agentes públicos. Cargo, emprego e função pública. Provimento (4R + PAN) e vacância (PADRE PF). Estabilidade constitucional. Remoção vs. Redistribuição. Acumulação remunerada de cargos. Direitos, vantagens e independência das instâncias de responsabilização.',
@@ -70,17 +79,75 @@ A vacância é a desocupação do cargo público, ocorrendo por: **P**romoção,
 
 ---
 
-### 4. Remoção vs. Redistribuição
+### 4. Formas de Movimentação de Pessoal: Remoção, Redistribuição, Cessão e Requisição
 
-* **Remoção (Art. 36):** Deslocamento do **servidor**, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede. Hipóteses a pedido independentes do interesse da administração:
-  1. Para acompanhar cônjuge ou companheiro, também servidor público, que foi deslocado no interesse da administração;
-  2. Por motivo de saúde do próprio servidor, cônjuge, companheiro ou dependente que viva às suas expensas, comprovado por junta médica oficial;
-  3. Em virtude de processo seletivo interno de remoção promovido pelo órgão.
-* **Redistribuição (Art. 37):** Deslocamento do **cargo de provimento efetivo**, ocupado ou vago, para outro órgão ou entidade do mesmo Poder, com prévia apreciação do órgão central do SIPEC, estritamente no interesse da administração.
+O Regime Jurídico Único (Lei nº 8.112/1990) e a legislação correlata preveem quatro figuras fundamentais de movimentação de pessoal no serviço público, com distinções sistematicamente exploradas pelo Cebraspe:
+
+\`\`\`tree
+TITLE: Formas de Movimentação de Servidores Públicos (Lei nº 8.112/1990 e Leis Especiais)
+- Movimentação Interna no Mesmo Quadro
+  - Remoção (Art. 36) | Deslocamento do SERVIDOR no âmbito do mesmo quadro, com ou sem mudança de sede
+    - De Ofício | No exclusivo interesse da Administração
+    - A Pedido a Critério da Administração | Ato discricionário
+    - A Pedido Independente do Interesse da Administração | Cônjuge deslocado, saúde ou concurso de remoção
+- Movimentação de Cargos no Mesmo Poder
+  - Redistribuição (Art. 37) | Deslocamento do CARGO (ocupado ou vago) para outro órgão do mesmo Poder (sempre de ofício)
+- Movimentação Externa Entre Órgãos/Poderes
+  - Cessão (Art. 93) | Deslocamento temporário e discricionário para cargo em comissão/função ou lei específica
+  - Requisição (Art. 93 c/c Leis 9.007/95 e 6.999/82) | Deslocamento COMPULSÓRIO e IRRECUSÁVEL imposto por lei especial
+\`\`\`
+
+#### 4.1 Remoção (Art. 36 da Lei nº 8.112/1990)
+* Deslocamento do **servidor**, a pedido ou de ofício, no âmbito do **mesmo quadro de pessoal**, com ou sem mudança de sede. O cargo em si não se desloca; quem se move é o titular.
+* **Hipóteses a Pedido que são Vinculadas (Independentes do Interesse da Administração):**
+  1. *Acompanhamento de Cônjuge ou Companheiro:* Quando o cônjuge (também servidor público civil ou militar de qualquer dos Poderes da União, Estados, DF ou Municípios) foi deslocado no estrito interesse da administração.
+  2. *Motivo de Saúde:* Do próprio servidor, de seu cônjuge, companheiro ou dependente que viva a expensas e conste do assentamento funcional, condicionada à comprovação por junta médica oficial.
+  3. *Processo Seletivo Interno de Remoção:* Promovido pela administração quando o número de interessados supera o número de vagas abertas.
+
+#### 4.2 Redistribuição (Art. 37 da Lei nº 8.112/1990)
+* Deslocamento do **cargo de provimento efetivo** (esteja ele ocupado por servidor ou vago), no âmbito do quadro geral de pessoal, para outro órgão ou entidade do **mesmo Poder**.
+* **Características Rígidas:** É ato **exclusivamente de ofício** (não existe redistribuição a pedido do servidor!); decorre estritamente do interesse da administração para ajustar lotação e força de trabalho; exige prévia apreciação do órgão central do SIPEC no Executivo ou órgão correlato no Legislativo; mantém os vencimentos do cargo inalterados.
+
+#### 4.3 Cessão de Servidores (Art. 93 da Lei nº 8.112/1990)
+* Ato **discricionário e temporário** pelo qual o servidor efetivo é cedido para ter exercício em outro órgão ou entidade dos Poderes da União, dos Estados, do DF ou dos Municípios.
+* **Hipóteses Taxativas:**
+  * Para exercício de **cargo em comissão ou função de confiança** (art. 93, I);
+  * Em casos previstos em **leis específicas** (art. 93, II).
+* **Natureza Jurídica:** É ato **bilateral e facultativo**: depende de concordância do órgão cedente (que pode negar a cessão por conveniência e oportunidade do serviço) e da aceitação do cessionário.
+* **Ônus da Remuneração (Art. 93, § 1º c/c Lei nº 9.007/1995 e Dec. nº 10.835/2021):**
+  * Em regra, na cessão para órgãos da União (Executivo, Legislativo ou Judiciário), o ônus da remuneração recai sobre o órgão cessionário (que recebe o servidor), mediante reembolso ao cedente, SALVO quando se tratar de cargos em comissão de Natureza Especial ou níveis superiores (DAS 4, 5 e 6 ou equivalentes CCE/FKE), em que o ônus pode permanecer no órgão cedente de origem.
+
+#### 4.4 Requisição de Servidores: Natureza Compulsória e Marcos Legais
+A **Requisição** distingue-se ontologicamente da Cessão:
+* **Conceito:** Ato unilateral dotado de **imperatividade e coercibilidade**, mediante o qual uma autoridade estatal legalmente qualificada exige a liberação compulsória de servidor público de outro órgão ou Poder para prestar serviços junto à sua estrutura.
+* **Inexistência de Discricionariedade:** O órgão de origem (cedente) **não possui margem de discricionariedade para recusar** o atendimento à requisição nem para subordiná-la à sua conveniência interna, salvo ilegalidade formal expressa.
+* **Principais Regimes Jurídicos de Requisição:**
+  1. **Requisição para a Presidência e Vice-Presidência da República:**
+     * *Base Legal:* Art. 93, I, da Lei nº 8.112/1990 c/c arts. 1º a 3º da **Lei nº 9.007/1995** e Decreto nº 10.835/2021.
+     * As requisições de servidores públicos federais para órgãos da Presidência da República (ex.: Casa Civil, Gabinete Pessoal, Secretaria-Geral) têm caráter **irrecusável e compulsório**, sendo de cumprimento imediato pelas Casas do Congresso Nacional e órgãos do Poder Judiciário.
+     * Assegura-se ao servidor requisitado todos os direitos, vantagens e remuneração como se em efetivo exercício no cargo de origem estivesse.
+  2. **Requisição para a Justiça Eleitoral:**
+     * *Base Legal:* Art. 30, XIII da **Lei nº 4.737/1965 (Código Eleitoral)** e **Lei nº 6.999/1982**.
+     * Os juízes eleitorais e os Tribunais Regionais Eleitorais podem requisitar servidores de quaisquer órgãos públicos da União, Estados e Municípios para auxiliar nas eleições e cartórios eleitorais.
+     * *Prazos:* Requisições para cartórios eleitorais ocorrem pelo prazo de **1 ano, prorrogável uma única vez por igual período**, ressalvadas requisições especiais em anos eleitorais por até 6 meses.
+     * *Ônus Remuneratório:* O servidor continua recebendo seus vencimentos e vantagens pelo **órgão de origem cedente** (ex.: a Câmara dos Deputados continua pagando o salário do servidor requisitado pelo TRE).
+  3. **Requisição pelo Poder Legislativo (Câmara e Senado):**
+     * O Congresso Nacional e suas Casas possuem competência regimental e legal para requisitar servidores para assessoramento parlamentar ou funcionamento de Comissões Parlamentares de Inquérito (CPIs - art. 58, § 3º da CF/88 c/c Lei nº 1.579/1952).
 
 ---
 
-### 5. Acumulação Remunerada de Cargos e Teto Constitucional
+### 5. Quadro Sinótico: Matriz Comparativa das Movimentações de Pessoal
+
+| Figura de Movimentação | Objeto Deslocado | Âmbito de Aplicação | Iniciativa / Vontade | Margem de Recusa do Órgão Cedente | Ônus Financeiro da Remuneração | Base Normativa Primária |
+|---|---|---|---|---|---|---|
+| **Remoção** | O **Servidor** | No âmbito do **mesmo quadro de pessoal** | De ofício ou a pedido do servidor | Inexiste recusa nas hipóteses vinculadas (saúde, cônjuge) | Órgão de origem (mesmo órgão) | Lei nº 8.112/1990, art. 36 |
+| **Redistribuição** | O **Cargo Efetivo** (ocupado ou vago) | Entre órgãos do **mesmo Poder** | **Exclusivamente de ofício** pela Administração | Não se aplica (ato privativo da Administração central) | Novo órgão para o qual o cargo foi remanejado | Lei nº 8.112/1990, art. 37 |
+| **Cessão** | O **Servidor** | Entre quaisquer órgãos ou Poderes da Federação | Bilateral (acordo entre órgãos) | **Discricionária:** órgão cedente pode recusar livremente | Em regra cessionário (ressarcimento) ou cedente em DAS altos | Lei nº 8.112/1990, art. 93 |
+| **Requisição** | O **Servidor** | De qualquer órgão para órgãos com poder de requisição | Unilateral compulsória do requisitante | **Vinculada / Irrecusável:** cumprimento obrigatório por lei | Em regra do órgão cedente de origem (ex.: Justiça Eleitoral) | Lei 8.112/90, art. 93; Lei 9.007/95; Lei 6.999/82 |
+
+---
+
+### 6. Acumulação Remunerada de Cargos e Teto Constitucional
 
 A Constituição de 1988 (art. 37, XVI) veda terminantemente a acumulação remunerada de cargos públicos, exceto quando houver **compatibilidade de horários**, observada a vedação ao extrapolamento do teto remuneratório constitucional (art. 37, XI - subsídio dos Ministros do STF):
 1. Dois cargos de professor;
@@ -89,7 +156,7 @@ A Constituição de 1988 (art. 37, XVI) veda terminantemente a acumulação remu
 
 ---
 
-### 6. Responsabilidade Civil, Penal e Administrativa
+### 7. Responsabilidade Civil, Penal e Administrativa
 
 O servidor público federal responde em três esferas distintas e independentes:
 * **Civil:** Decorre de conduta omissiva ou comissiva, dolosa ou culposa, que resulte em prejuízo ao erário ou a terceiros. A indenização ao terceiro é paga pelo Estado, que move **ação regressiva** contra o servidor (CF/88, art. 37, § 6º).
@@ -98,28 +165,34 @@ O servidor público federal responde em três esferas distintas e independentes:
 * **Comunicabilidade entre as Instâncias:** As instâncias não se comunicam, SALVO quando a sentença penal transitada em julgado absolver o servidor por:
   1. **Negativa da existência material do fato** (o crime não existiu);
   2. **Negativa categórica de autoria** (o servidor não foi o autor).
-  * A absolvição penal por insuficiência de provas ou ausência de tipicidade criminal **não impede** a demissão do servidor na via administrativa.`,
+  * A absolvição penal por insuficiência de provas ou ausência de tipicidade criminal **não impede** a demissão do servidor na via administrativa.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Administração da Câmara dos Deputados (sub-10-1):** Regime funcional dos servidores legislativos e requisição de pessoal.
+`,
   checkpoints: [
     {
       id: 'cp-11-3-1',
       pergunta: 'Micro-Checkpoint 1: Recondução e Reintegração de Servidor Estável',
-      item: 'Servidor estável da Câmara dos Deputados que tomar posse em outro cargo público inacumulável e for reprovado no respectivo estágio probatório tem direito à recondução ao cargo de origem, mesmo que este já tenha sido provido por novo servidor.',
+      item: 'Servidor estável da Câmara dos Deputados que tomar posse em outro cargo público inacumulável e for inabilitado no respectivo estágio probatório tem direito à recondução ao cargo de origem, nos termos dos arts. 28 e 29 da Lei nº 8.112/1990.',
       gabarito: 'C',
-      justificativa: 'Correto! A recondução é o retorno do servidor estável ao cargo de origem em razão de inabilitação em estágio probatório. Se o cargo de origem estiver ocupado, o ocupante subsequente será reconduzido ao seu cargo anterior (sem direito a indenização), aproveitado em outro cargo ou posto em disponibilidade.',
+      justificativa: 'Correto! Conforme os arts. 28 e 29 da Lei nº 8.112/1990, a recondução é o retorno do servidor estável ao cargo de origem decorrente de inabilitação em estágio probatório ou reintegração do anterior ocupante.',
     },
     {
       id: 'cp-11-3-2',
-      pergunta: 'Micro-Checkpoint 2: Diferença Técnica entre Remoção e Redistribuição',
-      item: 'A redistribuição consiste no deslocamento do servidor a pedido ou de ofício no âmbito do mesmo quadro de pessoal, ao passo que a remoção enseja a transferência definitiva do cargo efetivo para outro órgão do mesmo Poder.',
-      gabarito: 'E',
-      justificativa: 'Errado! O Cebraspe inverteu deliberadamente os conceitos: a REMOÇÃO é o deslocamento do servidor (no mesmo quadro); a REDISTRIBUIÇÃO é o deslocamento do cargo efetivo (ocupado ou vago) para outro órgão do mesmo Poder.',
+      pergunta: 'Micro-Checkpoint 2: Diferença Técnica entre Requisição e Cessão de Servidores',
+      item: 'A requisição de servidor público federal para a Presidência da República ou para a Justiça Eleitoral constitui ato dotado de caráter compulsório e irrecusável pelo órgão de origem, ao passo que a cessão de servidor é ato de natureza discricionária subordinado à concordância do órgão cedente.',
+      gabarito: 'C',
+      justificativa: 'Correto! Conforme o art. 93 da Lei nº 8.112/1990 c/c a Lei nº 9.007/1995 e a Lei nº 6.999/1982, a requisição é impositiva e irrecusável por força de lei, enquanto a cessão ordinária depende da anuência discricionária da autoridade de origem.',
     },
     {
       id: 'cp-11-3-3',
       pergunta: 'Micro-Checkpoint 3: Independência das Instâncias e Absolvição Criminal',
       item: 'A absolvição penal de um servidor público federal fundada na falta de provas suficientes para a condenação criminal vincula a esfera administrativa e impõe o arquivamento automático do processo administrativo disciplinar contra ele instaurado.',
       gabarito: 'E',
-      justificativa: 'Errado! A sentença penal só vincula a esfera administrativa se comprovar a inexistência do fato ou a negativa categórica de autoria (art. 126 da Lei nº 8.112/90). A absolvição por insuficiência de provas não afasta a punição disciplinar.',
+      justificativa: 'Errado! Conforme o art. 126 da Lei nº 8.112/1990 e a jurisprudência sumulada dos Tribunais Superiores, a sentença penal só vincula a esfera administrativa quando reconhecer categoricamente a inexistência material do fato ou a negativa de autoria. A absolvição por insuficiência de provas não impede a sanção disciplinar.',
     },
   ],
   mnemonicos: {
@@ -133,17 +206,17 @@ O servidor público federal responde em três esferas distintas e independentes:
       },
       {
         id: 'tl-11-3-2',
-        periodo: '1998',
-        disciplina: 'Reforma Constitucional',
-        focoPrincipal: 'EC nº 19/1998: alteração do estágio probatório de 2 para 3 anos para aquisição da estabilidade',
-        figuraChave: 'Emenda Administrativa',
+        periodo: '1995',
+        disciplina: 'Regime de Requisição',
+        focoPrincipal: 'Promulgação da Lei nº 9.007/1995 regulamentando a requisição de servidores na Administração Federal',
+        figuraChave: 'Presidência da República',
       },
       {
         id: 'tl-11-3-3',
-        periodo: '2014',
-        disciplina: 'Jurisprudência Vinculante',
-        focoPrincipal: 'Súmula Vinculante 43 do STF: inconstitucionalidade da ascensão e transferência funcional',
-        figuraChave: 'STF',
+        periodo: '1998 / 2014',
+        disciplina: 'Reforma e Súmula Vinculante',
+        focoPrincipal: 'EC nº 19/1998 (estágio de 3 anos) e Súmula Vinculante 43 do STF (vedação de ascensão funcional)',
+        figuraChave: 'STF / Congresso',
       },
     ],
     autores: [
@@ -152,7 +225,7 @@ O servidor público federal responde em três esferas distintas e independentes:
         nome: 'José dos Santos Carvalho Filho',
         ano: '2023',
         obraPrincipal: 'Manual de Direito Administrativo (37ª edição)',
-        ideiaChave: 'Distinção ontológica entre provimento originário e derivado, com ênfase na vedação de provimento derivado vertical.',
+        ideiaChave: 'Distinção ontológica entre provimento originário e derivado, e limites das formas de movimentação funcional.',
         chipPegadinha: 'Tratar a promoção como forma puramente originária de provimento.',
       },
       {
@@ -173,9 +246,9 @@ O servidor público federal responde em três esferas distintas e independentes:
       },
       {
         id: 'peg-11-3-2',
-        afirmacao: 'O servidor estável investido em mandato de Deputado Federal ficará afastado do seu cargo efetivo durante o exercício parlamentar, sendo seu tempo de serviço contado para todos os efeitos legais, inclusive para promoção por merecimento.',
+        afirmacao: 'O órgão de lotação de origem de um servidor público federal pode negar, por motivos de conveniência e oportunidade do serviço, a requisição expedida pela Justiça Eleitoral para auxílio em cartório eleitoral.',
         gabarito: 'E',
-        porQue: 'Nos termos do art. 38, IV, da CF/88 e do art. 94 da Lei nº 8.112/90, o tempo de mandato eletivo é contado para todos os efeitos legais, EXCETO para promoção por merecimento (pois promoção por merecimento exige exercício fático das funções do cargo).',
+        porQue: 'A requisição eleitoral (Lei nº 6.999/1982 e art. 30, XIII da Lei nº 4.737/1965) é ato compulsório e irrecusável pelo órgão de origem, não se admitindo recusa por conveniência administrativa.',
       },
       {
         id: 'peg-11-3-3',
@@ -186,3 +259,4 @@ O servidor público federal responde em três esferas distintas e independentes:
     ],
   },
 };
+

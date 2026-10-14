@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo42: ModuloFilho = {
   id: 'sub-4-2',
   numero: '4.2',
+  editalRef: 'Bloco E - Item 2.1 e 2.2',
+  preRequisitos: ["sub-4-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-4-3",
+          "titulo": "Fontes Jurídicas e LexML Brasil",
+          "motivo": "Pesquisa avançada em diários oficiais e bases governamentais."
+      },
+      {
+          "submoduloId": "sub-11-12",
+          "titulo": "Transparência, LAI e LGPD",
+          "motivo": "Acesso a informações públicas e sigilo."
+      }
+  ],
   titulo: 'Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação',
   descricaoCurta: 'Tipologia das fontes de informação (Cunha, Grogan): fontes primárias, secundárias e terciárias, literatura cinzenta, bases de dados especializadas e critérios de avaliação de fontes analógicas e digitais.',
   tempoEstimadoMinutos: 30,
@@ -99,22 +113,22 @@ Para qualquer consulta executada sobre uma base documental, a coleção total di
 #### B. Fórmulas Canônicas Cobradas pelo Cebraspe
 1. **Revocação (*Recall* — $R$):**
    Mede a capacidade do sistema em encontrar **TODOS os documentos relevantes** existentes na base:
-   $$R = \\frac{a}{a + c} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes Existentes na Base}}$$
+   $R = \\frac{a}{a + c} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes Existentes na Base}}$
 2. **Precisão (*Precision* — $P$):**
    Mede a capacidade do sistema em recuperar **APENAS documentos relevantes**, sem entulhar o usuário com lixo:
-   $$P = \\frac{a}{a + b} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Documentos Recuperados pelo Sistema}}$$
+   $P = \\frac{a}{a + b} = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Documentos Recuperados pelo Sistema}}$
 3. **Silêncio Documental:**
    Corresponde aos documentos relevantes que o sistema **deixou de encontrar** ($c$).
-   $$\\text{Taxa de Silêncio} = 1 - R = \\frac{c}{a + c}$$
+   $\\text{Taxa de Silêncio} = 1 - R = \\frac{c}{a + c}$
 4. **Ruído Documental:**
    Corresponde aos documentos inúteis que o sistema **entregou por engano** ($b$).
-   $$\\text{Taxa de Ruído} = 1 - P = \\frac{b}{a + b}$$
+   $\\text{Taxa de Ruído} = 1 - P = \\frac{b}{a + b}$
 5. **Medida F (*F-Measure / F1-Score*):**
    É a média harmônica ponderada entre Precisão e Revocação, equilibrando as duas métricas em uma única pontuação:
-   $$F_1 = 2 \\times \\frac{P \\times R}{P + R}$$
+   $F_1 = 2 \\times \\frac{P \\times R}{P + R}$
 6. **Coeficiente de Queda / Ruído Global (*Fallout* — $F$):**
    A proporção de documentos irrelevantes que foram indevidamente recuperados:
-   $$\\text{Fallout} = \\frac{b}{b + d} = \\frac{\\text{Não Relevantes Recuperados}}{\\text{Total de Não Relevantes na Coleção}}$$
+   $\\text{Fallout} = \\frac{b}{b + d} = \\frac{\\text{Não Relevantes Recuperados}}{\\text{Total de Não Relevantes na Coleção}}$
 
 #### C. O Compromisso Estrutural Inverso entre Revocação e Precisão
 Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciência da Informação:
@@ -131,7 +145,14 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 | *"A taxa de revocação mede a proporção de documentos relevantes recuperados em relação ao total de documentos recuperados pela busca."* | **ERRADO** | Essa é a definição de **Precisão** ($a / [a+b]$). A Revocação calcula em relação ao total de relevantes existentes na base ($a / [a+c]$). |
 | *"A literatura cinzenta é classificada epistemologicamente como fonte secundária devido ao seu formato não convencional."* | **ERRADO** | A literatura cinzenta é **FONTE PRIMÁRIA**, pois contém dados originais e inéditos. |
 | *"Em sistemas de recuperação ideais, é rotineiro alcançar simultaneamente 100% de precisão e 100% de revocação em buscas amplas."* | **ERRADO** | Revocação e Precisão são grandezas **inversamente proporcionais**; maximizar uma penaliza a outra. |
-| *"O silêncio documental decorre da recuperação de documentos irrelevantes que poluem o resultado da pesquisa."* | **ERRADO** | Recuperar itens irrelevantes é **RUÍDO** ($b$). O **SILÊNCIO** ($c$) é a não recuperação de documentos relevantes que existiam na base. |`,
+| *"O silêncio documental decorre da recuperação de documentos irrelevantes que poluem o resultado da pesquisa."* | **ERRADO** | Recuperar itens irrelevantes é **RUÍDO** ($b$). O **SILÊNCIO** ($c$) é a não recuperação de documentos relevantes que existiam na base. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Fontes Jurídicas e LexML Brasil (sub-4-3):** Pesquisa avançada em diários oficiais e bases governamentais.
+* **Transparência, LAI e LGPD (sub-11-12):** Acesso a informações públicas e sigilo.
+`,
   checkpoints: [
     {
       id: 'cp-4-2-1',

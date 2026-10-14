@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo119: ModuloFilho = {
   id: 'sub-11-9',
   numero: '11.9',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 9: Improbidade Administrativa - Lei 8.429/1992)',
+  preRequisitos: ["sub-11-8"],
   titulo: 'Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)',
   titulo_curto: 'Governança Pública Federal',
   descricaoCurta: 'Conceito e distinção: Governança vs. Gestão vs. Governabilidade. A tríade de mecanismos: Liderança, Estratégia e Controle. Princípios e diretrizes do Decreto nº 9.203/2017. Gestão de riscos, programas de integridade e o modelo das Três Linhas de Defesa no serviço público federal.',

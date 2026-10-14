@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo1111: ModuloFilho = {
   id: 'sub-11-11',
   numero: '11.11',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 11: Processo Administrativo Federal - Lei 9.784/1999)',
+  preRequisitos: ["sub-11-5"],
   titulo: 'Contratos Administrativos, Gestão e Fiscalização Contratual',
   titulo_curto: 'Contratos e Fiscalização Contratual',
   descricaoCurta: 'Características do contrato administrativo e cláusulas exorbitantes (art. 104). Duração dos contratos (até 10 anos em contínuos). Gestão vs. Fiscalização técnica e administrativa. Recebimento provisório e definitivo. Alterações contratuais e equilíbrio econômico-financeiro. Sanções.',

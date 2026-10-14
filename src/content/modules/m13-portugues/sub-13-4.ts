@@ -3,270 +3,339 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo134: ModuloFilho = {
   id: 'sub-13-4',
   numero: '13.4',
-  titulo: 'Pontuação Crítica e Redação Oficial Legislativa (Manual da Presidência, 3ª ed.)',
+  editalRef: 'Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)',
+  preRequisitos: ["sub-13-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-13-1",
+          "titulo": "Compreensão e Interpretação Textual",
+          "motivo": "Classificação de gêneros em correspondências e normas legislativas."
+      }
+  ],
+  titulo: 'Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal',
   descricaoCurta:
-    'A semântica da vírgula nas orações adjetivas (explicativa vs restritiva), adjuntos adverbiais deslocados e os preceitos do Manual de Redação da Presidência da República (2018): impessoalidade, concisão, pronomes de tratamento e fechos oficiais.',
-  tempoEstimadoMinutos: 40,
+    'Acordo Ortográfico (acentuação e hífen), a distinção teórico-empírica entre tipos e gêneros textuais segundo Marcuschi, semântica e correlação dos tempos e modos verbais, e sintaxe rigorosa de colocação pronominal (próclise, mesóclise e ênclise).',
+  tempoEstimadoMinutos: 50,
   autoresChave: [
-    'Presidência da República (Manual de Redação da Presidência da República, 3ª ed., 2018)',
-    'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
+    'Luiz Antônio Marcuschi (Da Fala para a Escrita / Gêneros Textuais e Ensino)',
+    'Ingedore Villaça Koch (A Coesão Textual / Desvendando os Segredos do Texto)',
     'Evanildo Bechara (Moderna Gramática Portuguesa)',
-    'Rocha Lima (Gramática Normativa da Língua Portuguesa)',
+    'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
+    'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',
   ],
   alertasCebraspe: [
-    'A supressão ou inserção de vírgulas em orações subordinadas adjetivas é a questão semântica número 1 do Cebraspe. Com vírgulas, a oração é EXPLICATIVA (generaliza para a totalidade dos elementos); sem vírgulas, torna-se RESTRITIVA (limita a apenas parte dos elementos). O Cebraspe propõe: "A supressão das vírgulas preservaria a correção gramatical e os sentidos do texto". GABARITO ERRADO! A correção gramatical é mantida, mas o sentido original é substancialmente alterado.',
-    'Nunca separe por vírgula o Sujeito do seu respectivo Verbo, nem o Verbo de seus Complementos diretos ou indiretos imediatos (salvo se houver termo intercalado devidamente isolado por DUAS vírgulas). As assertivas que propõem a inserção de uma única vírgula entre sujeito longo e verbo incorrem em erro gramatical crasso.',
-    'Pronomes de Tratamento no Manual de Redação da Presidência da República (3ª ed., 2018): embora se refiram à 2ª pessoa do discurso (com quem se fala), a concordância gramatical do verbo e dos pronomes possessivos faz-se RIGOROSAMENTE NA 3ª PESSOA ("Vossa Excelência apresentou seu parecer", e NUNCA "apresentastes vosso parecer"). Além disso, o adjetivo concorda com o gênero da autoridade ("Vossa Excelência será recebido [se homem] / recebida [se mulher]").',
-    'Fechos Oficiais Simplificados (Manual de 2018): Existem APENAS DOIS fechos admitidos para comunicações oficiais federais: "Respeitosamente," (para autoridades de hierarquia superior à do remetente, inclusive o Presidente da República e chefes de Poder) e "Atenciosamente," (para autoridades de mesma hierarquia, inferior ou particulares). Expressões como "Digníssimo (DD.)", "Ilustríssimo", "Saudações cordiais" foram expressamente ABOLIDAS pela Presidência.',
+    'Acentuação e o Acordo Ortográfico: Os ditongos abertos "éi" e "ói" em palavras PAROXÍTONAS perderam o acento gráfico (ideia, plateia, heroico, paranoico, jiboia, assembleia). Contudo, em palavras OXÍTONAS e MONOSSÍLABOS TÔNICOS, o acento PERMANECE OBRIGATÓRIO (herói, troféu, pastéis, coronéis, dói, céu). O Cebraspe frequentemente afirma que palavras como "herói" e "ideia" obedecem à mesma regra de acentuação ou que "herói" perdeu o acento gráfico com o Acordo Ortográfico. Assertiva categoricamente ERRADA!',
+    'Tipos Textuais vs. Gêneros Textuais (Luiz Antônio Marcuschi): Tipos textuais constituem constructos teóricos finitos e invariáveis (narração, descrição, dissertação expositiva, dissertação argumentativa e injunção), definidos por propriedades linguísticas intrínsecas (tempos verbais, conectivos, relações lógicas). Gêneros textuais, ao revés, são realizações empíricas infinitas, fluidas, históricas e ancoradas em práticas sociocomunicativas (parecer técnico, ata de sessão legislativa, edital, relatório, memorando, crônica, artigo de opinião). Confundir tipo textual com gênero textual é o erro conceitual clássico que a banca explora!',
+    'Semântica e Aspecto dos Tempos Verbais: O Pretérito Perfeito traduz fato pontual, circunscrito e plenamente concluído no passado ("O relator apresentou o parecer"). O Pretérito Imperfeito expressa ação durativa, habitual, incompleta ou em desenvolvimento no passado ("Enquanto os deputados debatiam..."), funcionando também como recurso de cortesia ou polidez ("Queria solicitar vista dos autos"). O Pretérito Mais-que-perfeito marca um fato passado anterior a outro fato passado ("Quando o presidente chegou, a comissão já iniciara a votação"). Alterações propostas pelo Cebraspe entre esses tempos mudam o aspecto e o sentido original do texto!',
+    'Correlação (Harmonia) Verbal: O Cebraspe propõe reescritas que quebram a articulação lógica entre orações subordinadas e principais. A harmonia verbal impõe correspondências canônicas: "Se o quórum for atingido [futuro do subjuntivo], a sessão será aberta [futuro do presente do indicativo]"; "Se o quórum fosse atingido [pretérito imperfeito do subjuntivo], a sessão seria aberta [futuro do pretérito do indicativo]"; "Caso tivesse havido impugnação [pretérito mais-que-perfeito composto do subjuntivo], o presidente teria suspenso os trabalhos [futuro do pretérito composto do indicativo]". A quebra dessa correspondência acarreta incorreção gramatical.',
+    'Colocação Pronominal e Fatores de Atração: Havendo palavra atrativa (palavras de sentido negativo, advérbios sem vírgula, pronomes relativos, indefinidos e demonstrativos, e conjunções subordinativas), a PRÓCLISE É OBRIGATÓRIA ("Não se admitirão emendas", "Tudo se encaminhou conforme o regimento", "O projeto que se votou ontem", "Embora se alegasse urgência"). Não se admite ênclise na presença de elemento atrativo. Ademais, NUNCA se inicia período com pronome oblíquo átono na norma culta ("Me pareceu oportuno" = ERRADO; "Pareceu-me oportuno" = CERTO) e NUNCA se usa ênclise com particípio ("Tinha expressado-se" = ERRADO; "Tinha-se expressado" ou "Tinha se expressado" = CERTO).',
   ],
   quadroComparativo: {
-    titulo: 'Matriz Cebraspe de Pontuação Semântica e Redação Oficial (MRPR 2018)',
+    titulo: 'Quadro Sinótico de Gramática Aplicada: Ortografia, Verbos, Tipologia e Colocação Pronominal',
     colunas: [
-      'Estrutura Sintática / Padrão Oficial',
-      'Regra Gramatical / Norma MRPR',
-      'Impacto na Correção Gramatical',
-      'Impacto no Sentido Original',
+      'Eixo Gramatical',
+      'Regra Geral da Norma Culta',
+      'Exceção / Particularidade Crítica',
       'Armadilha Típica do Cebraspe',
     ],
     linhas: [
       [
-        'Oração Adjetiva Explicativa -> Restritiva',
-        'Supressão das vírgulas que isolam a oração adjetiva com pronome relativo',
-        '✅ Mantida (Frase continua gramaticalmente correta)',
-        '❌ Alterado (Passa de totalidade para recorte restrito)',
-        'Afirmar que os sentidos originais são preservados na supressão.',
+        'Acentuação (Ditongos Abertos)',
+        'Ditongos abertos ÉI e ÓI em paroxítonas NÃO são acentuados (ideia, assembleia)',
+        'Em oxítonas e monossílabos tônicos o acento É MANTIDO (herói, pastéis, dói, céu)',
+        'Dizer que "herói" e "ideia" perderam o acento pela mesma regra após o Acordo Ortográfico',
       ],
       [
-        'Adjunto Adverbial Longo Deslocado',
-        'Anteposição de adjunto adverbial de 3 ou mais palavras no início da oração',
-        'Obrigatória a presença da vírgula',
-        '✅ Mantido',
-        'Afirmar que a vírgula após adjunto longo inicial seria mera faculdade estilística.',
+        'Emprego do Hífen (Prefixos)',
+        'Letras iguais separam com hífen (micro-ondas); letras diferentes unem-se (autoescola)',
+        'Se o segundo elemento inicia com R ou S, duplicam-se as consoantes sem hífen (antirreligioso, minissaia)',
+        'Afirmar que "anti-inflamatório" não tem hífen ou grafar "anti-social" com hífen e um só "s"',
       ],
       [
-        'Pronome de Tratamento (Vossa Excelência)',
-        'Concordância verbal e pronominal de 3ª pessoa (verbo em 3ª pessoa + pronome "seu")',
-        'Obrigatória a 3ª pessoa do singular',
-        '✅ Mantido',
-        'Utilizar formas arcaicas de 2ª pessoa do plural ("apresentastes", "vosso parecer").',
+        'Tipos vs. Gêneros Textuais',
+        'Tipos textuais são finitos e estruturais (narração, descrição, dissertação, injunção)',
+        'Gêneros textuais são infinitos e sociocomunicativos (ata, parecer, ofício, lei)',
+        'Classificar um "parecer legislativo" como "tipo de texto" em vez de "gênero textual"',
       ],
       [
-        'Fecho para Autoridade Superior (Presidente / Ministros)',
-        'Uso do fecho "Respeitosamente," com vírgula ao final',
-        'Obrigatório na administração pública federal',
-        '✅ Mantido',
-        'Empregar "Atenciosamente" para autoridade superior ou usar adjetivos abolidos como "Digníssimo".',
+        'Correlação Verbal Condicional',
+        'Imperfeito do Subjuntivo ("se fizesse") correlaciona-se com Futuro do Pretérito ("faria")',
+        'Futuro do Subjuntivo ("se fizer") correlaciona-se com Futuro do Presente ("fará")',
+        'Misturar modos e tempos criando frases anômalas como "Se ele fizesse, eu farei"',
       ],
       [
-        'Vocativo para Deputado / Senador',
-        'Emprego de "Senhor Deputado," ou "Senhor Senador,"',
-        'Padrão canônico do Manual da Presidência (p. 23)',
-        '✅ Mantido',
-        'Afirmar ser obrigatório o tratamento "Excelentíssimo" (reservado apenas aos Chefes de Poder).',
+        'Colocação Pronominal',
+        'Palavra atrativa exige próclise ("Não se disse", "Quem me chamou?")',
+        'Verbos no futuro do indicativo sem atração exigem mesóclise ("Dir-se-ia", "Aprovar-se-á")',
+        'Colocar pronome átono iniciando período ("Me parece") ou usar ênclise após advérbio atrativo',
       ],
     ],
   },
-  secoes: [
-    {
-      id: 'sec-pontuacao-sintatica',
-      nivel: 3,
-      titulo: '1. A Sintaxe da Pontuação: A Vírgula Proibida, Obrigatória e Facultativa',
-      conteudo:
-        'A interdição da vírgula entre sujeito e predicado, adjuntos adverbiais curtos vs longos, e o isolamento de vocativos e apostos explicativos.',
-    },
-    {
-      id: 'sec-adjetivas-semantica',
-      nivel: 3,
-      titulo: '2. A Vírgula Semântica nas Orações Subordinadas Adjetivas',
-      conteudo:
-        'O contraste semântico entre explicitação universal (com vírgulas) e restrição partitiva (sem vírgulas) e o padrão decisório da banca Cebraspe.',
-    },
-    {
-      id: 'sec-principios-redacao-oficial',
-      nivel: 3,
-      titulo: '3. Princípios e Atributos da Redação Oficial (Manual da Presidência, 2018)',
-      conteudo:
-        'A impessoalidade (da perspectiva, do remetente e do destinatário), clareza, concisão, precisão e o padrão ofício unificado.',
-    },
-    {
-      id: 'sec-tratamento-fechos',
-      nivel: 3,
-      titulo: '4. Pronomes de Tratamento, Vocativos e Fechos para o Legislativo Federal',
-      conteudo:
-        'O emprego de Vossa Excelência no Congresso Nacional, a regra da 3ª pessoa gramatical, a abolição de tratamentos arcaicos e os dois únicos fechos oficiais.',
-    },
-  ],
-  teoriaDensaMarkdown: `### 1. A Sintaxe da Pontuação: A Vírgula Proibida, Obrigatória e Facultativa
-
-A pontuação não é um recurso de "respiração" ou pausa oral, mas sim um instrumento de **organização sintática e semântica da frase** (**Celso Cunha & Lindley Cintra**, *Nova Gramática do Português Contemporâneo*, 2008, p. 640).
+  teoriaDensaMarkdown: `
+# LÍNGUA PORTUGUESA: ORTOGRAFIA, TIPOLOGIA TEXTUAL, VERBOS E COLOCAÇÃO PRONOMINAL
+*Doutrina de Referência: Luiz Antônio Marcuschi, Ingedore Koch, Evanildo Bechara, Celso Cunha & Lindley Cintra e Domingos Paschoal Cegalla.*
 
 ---
 
-#### A. As Duas Proibições Absolutas da Vírgula
-1. **É proibido separar o Sujeito do seu Verbo:**
-   - Mesmo que o sujeito seja extenso ou oracional:
-   - *"A aprovação da reforma orçamentária pela comissão mista [sem vírgula] viabilizou os investimentos públicos."*
-   - *Pegadinha do Cebraspe:* A banca insere uma única vírgula após sujeitos longos, alegando que "facilita a clareza da leitura". O item é categoricamente **ERRADO**.
-2. **É proibido separar o Verbo dos seus Complementos Imediatos:**
-   - Entre o verbo transitivo e o objeto direto ou indireto:
-   - *"O presidente declarou [sem vírgula] que a sessão seria suspensa."*
+## 1. ORTOGRAFIA OFICIAL E ACENTUAÇÃO GRÁFICA (ACORDO ORTOGRÁFICO)
+
+O Acordo Ortográfico da Língua Portuguesa de 1990 (de vigência definitiva e obrigatória no Brasil a partir de 2016) buscou unificar a grafia nos países lusófonos, simplificando normas e eliminando incongruências históricas da acentuação e do emprego de sinais gráficos.
+
+### 1.1 Regras Gerais de Acentuação Gráfica
+A acentuação gráfica na língua portuguesa apoia-se na posição da sílaba tônica e no timbre das vogais:
+1. **Proparoxítonas (Sílaba tônica na antepenúltima):** TODAS são obrigatoriamente acentuadas (ex: *legislativo*, *quórum*, *público*, *parlâmentares*, *hipótese*, *bélico*).
+2. **Oxítonas (Sílaba tônica na última sílaba):** Acentuam-se as oxítonas terminadas em:
+   - **-A(S), -E(S), -O(S):** *sofá, sofás, café, cafés, cipó, cipós*;
+   - **-EM, -ENS:** *também, porém, armazém, vinténs*;
+   - Formas verbais com pronomes enclíticos terminadas em vogal tônica aberta: *amá-lo, retê-lo, repô-lo*.
+3. **Monossílabos Tônicos:** Acentuam-se os monossílabos tônicos terminados em:
+   - **-A(S), -E(S), -O(S):** *pá, pás, pé, pés, dó, dós, nós, mês*.
+4. **Paroxítonas (Sílaba tônica na penúltima sílaba):** Acentuam-se as paroxítonas com as seguintes terminações mnemônicas (**ROUXINOL / PS / DITONGO**):
+   - **-R, -X, -N, -L:** *caráter, tórax, pólen, hífen, fácil*;
+   - **-I(S), -US:** *júri, júris, vírus, ônus*;
+   - **-UM, -UNS:** *álbum, álbuns, fórum, quóruns*;
+   - **-PS:** *bíceps, fórceps*;
+   - **-Ã(S), -ÃO(S):** *órfã, órfãs, órfão, bênção, órgãos*;
+   - **Ditongos orais (crescentes ou decrescentes), seguidos ou não de S:** *relatório, câmara, secretária, competência, pátria, água, área, série*.
+
+### 1.2 Alterações Cruciais Introduzidas pelo Novo Acordo Ortográfico
+O Cebraspe explora sistematicamente as palavras cuja grafia foi alterada pelo Acordo:
+1. **Fim do Acento nos Ditongos Abertos "ÉI" e "ÓI" em Paroxítonas:**
+   - As palavras paroxítonas que possuem ditongo aberto "éi" ou "ói" NÃO recebem mais acento gráfico: *ideia, plateia, geleia, assembleia, heroico, paranoico, jiboia, epopeia*.
+   - **ATENÇÃO MÁXIMA:** As palavras **OXÍTONAS** e os **MONOSSÍLABOS TÔNICOS** mantêm o acento gráfico nos ditongos abertos: *herói, constrói, troféu, pastéis, coronéis, chapéu, céu, dói, sóis*.
+2. **Fim do Acento no "I" e "U" Tônicos de Paroxítonas Precedidos de Ditongo:**
+   - Palavras paroxítonas com "i" ou "u" tônicos antecedidos de ditongo na mesma palavra não são mais acentuadas: *feiura, baiuca, bocaiuva*.
+   - *Ressalva:* Se a palavra for oxítona e terminar em "i" ou "u" tônico após ditongo, o acento permanece: *Piauí, tuiuiú*.
+3. **Fim do Acento nos Hiatos "OO" e "EEM":**
+   - Formas verbais na 3ª pessoa do plural com hiato "eem" perderam o acento circunflexo: *eles veem, eles leem, eles creem, eles deem*.
+   - Substantivos e formas verbais com "oo" perderam o circunflexo: *voo, enjoo, perdoo, abençoo*.
+4. **Acentos Diferenciais Remanescentes:**
+   - O Acordo extinguiu a maioria dos acentos diferenciais (*pára/para, péla/pela, pólo/polo*), mas PRESERVOU expressamente:
+     - **Pôde** (pretérito perfeito do indicativo) vs. **Pode** (presente do indicativo);
+     - **Pôr** (verbo) vs. **Por** (preposição);
+     - **Têm / Vêm** (3ª pessoa do plural dos verbos ter e vir) vs. **Tem / Vem** (3ª pessoa do singular);
+     - Formas derivadas de ter e vir: oxítonas com acento agudo no singular e circunflexo no plural (*ele contém / eles contêm; ele intervém / eles intervêm; ele mantém / eles mantêm*);
+     - Acento facultativo em **fôrma** (substantivo) para distinguir de **forma** (substantivo/verbo).
 
 ---
 
-#### B. A Dinâmica dos Adjuntos Adverbiais Deslocados
-* **Ordem Direta (No fim da oração):** Não requer vírgula (*"O plenário deliberou com presteza ontem"*).
-* **Adjunto Adverbial Curto Deslocado (1 ou 2 palavras):** Vírgula **FACULTATIVA** (*"Ontem, o plenário deliberou"* ou *"Ontem o plenário deliberou"*).
-* **Adjunto Adverbial Longo Deslocado (3 ou mais palavras):** Vírgula **OBRIGATÓRIA** segundo a Academia Brasileira de Letras e o Cebraspe:
-  - *"**Durante a última sessão deliberativa**, o plenário aprovou a proposta."* (Obrigatória a vírgula).
+## 2. EMPREGO DO HÍFEN COM PREFIXOS E ELEMENTOS DE COMPOSIÇÃO
+
+A regra geral do hífen sob o Acordo Ortográfico norteia-se pelo princípio da **atração dos opostos e repulsão dos iguais**:
+
+### 2.1 Regra Básica dos Prefixos
+1. **Letras Iguais se Separam com Hífen:** Quando o prefixo termina com a mesma vogal com que se inicia o segundo elemento, usa-se o hífen:
+   - *micro-ondas, anti-inflamatório, contra-ataque, sobre-elevação, auto-observação, arqui-inimigo*.
+2. **Letras Diferentes se Unem sem Hífen:** Quando o prefixo termina com vogal e o segundo elemento principia com vogal diferente, os elementos aglutinam-se:
+   - *autoescola, infraestrutura, contraindicação, semiárido, extraoficial, plurianual, coautor, reescrever*.
+3. **Segundo Elemento com "R" ou "S" (Dobram-se as Consoantes):** Quando o prefixo termina em vogal e o segundo elemento se inicia pelas consoantes "r" ou "s", NÃO há hífen, dobrando-se a consoante ("rr" ou "ss"):
+   - *antirreflexo, antissocial, minissaia, ultrassom, microssistema, biorritmo, contrarregra, semirreta*.
+4. **Segundo Elemento Iniciado por "H":** O hífen é sempre obrigatório diante de palavra iniciada por "h":
+   - *anti-higiênico, super-homem, sobre-humano, contra-habitual, macro-história*.
+
+### 2.2 Prefixos Específicos e Casos Notáveis
+- Prefixos **SUB-** e **SOB-**: exigem hífen diante de palavras iniciadas por "b", "r" e "h" (*sub-base, sub-bloco, sub-região, sub-reitor, sub-humano*); diante de vogal ou outras consoantes, aglutina-se (*subchefe, subdiretor, subdelegado, subitem, suboficial*).
+- Prefixos **EX-** (cessação), **VICE-**, **ALÉM-**, **AQUÉM-**, **RECÉM-**, **SEM-**: SEMPRE exigem hífen (*ex-presidente, vice-líder, além-mar, recém-eleito, sem-terra*).
+- Prefixos **CO-**, **PRO-**, **PRE-**, **RE-** (inacentuados e átonos): tendem a aglutinar-se mesmo diante de letras iguais (*coordenar, cooperação, coabitar, preencher, reeleger, reescrever*).
 
 ---
 
-### 2. A Vírgula Semântica nas Orações Subordinadas Adjetivas
+## 3. TIPOLOGIA TEXTUAL VS. GÊNEROS TEXTUAIS (LUIZ ANTÔNIO MARCUSCHI E INGEDORE KOCH)
 
-Este é o padrão de questão de pontuação com **maior frequência histórica nas provas do Cebraspe**:
+A distinção teórica e aplicada entre **tipos textuais** e **gêneros textuais** fundamenta-se nos trabalhos seminais do linguista brasileiro **Luiz Antônio Marcuschi** (*Gêneros Textuais: Definição e Funcionalidade*) e de **Ingedore Villaça Koch**.
 
-#### Oposição Fundamental:
-* **Com Vírgulas = Oração Subordinada Adjetiva Explicativa:**
-  - *"Os parlamentares, **que votaram favoravelmente ao texto**, comemoraram o resultado."*
-  - **Sentido:** **TODOS** os parlamentares votaram favoravelmente e todos comemoraram. A oração atribui uma qualidade geral ao todo.
-* **Sem Vírgulas = Oração Subordinada Adjetiva Restritiva:**
-  - *"Os parlamentares **que votaram favoravelmente ao texto** comemoraram o resultado."*
-  - **Sentido:** **APENAS ALGUNS** parlamentares votaram favoravelmente (aqueles que votaram a favor) e somente eles comemoraram. Os demais parlamentares não comemoraram.
+### 3.1 Tipologia Textual (Forma e Estrutura Linguística Intrínseca)
+Os tipos textuais (ou sequências textuais de Jean-Michel Adam) são constructos teóricos conceituais, definidos pela composição estritamente interna de seus elementos linguísticos e gramaticais. São finitos (geralmente agrupados em cinco modalidades básicas):
+1. **Texto Narrativo:** Caracteriza-se pela sucessão cronológica de eventos (progressão temporal dinâmica) em que atuam personagens situados em determinado espaço. Elementos nucleares: verbos de ação predominantes no pretérito perfeito do indicativo, relato fático e encadeamento causa-efeito.
+2. **Texto Descritivo:** Caracteriza-se pela apresentação espacial simultânea de características, propriedades, atributos ou aspectos de um ser, objeto, cena ou paisagem. Elementos nucleares: ausência de progressão temporal sucessiva, predomínio de adjetivos e locuções adjetivas, verbos de ligação ou de estado, e pretérito imperfeito do indicativo.
+3. **Texto Dissertativo-Expositivo:** Caracteriza-se pela apresentação, explicação, ordenação e esclarecimento de dados, ideias, teorias ou conceitos para o leitor, sem o intuito precípuo de persuadir ou converter opiniões. Elementos nucleares: linguagem referencial, clareza lógica, verbos no presente do indicativo com valor de verdade atemporal e marcadores elucidativos (*isto é, por exemplo, em outros termos*).
+4. **Texto Dissertativo-Argumentativo:** Caracteriza-se pela defesa sistemática de uma tese (ponto de vista) fundamentada em argumentos lógicos, evidências empíricas, dados estatísticos e citações de autoridade, visando ao convencimento, à persuasão ou à adesão do interlocutor. Elementos nucleares: presença de modalizadores discursivos (*inegavelmente, é mister, faz-se imperioso*), operadores argumentativos (*além disso, com efeito, não obstante, por conseguinte*) e encadeamento dialético (premissas e conclusão).
+5. **Texto Injuntivo (ou Instrucional):** Caracteriza-se pela orientação, ordenação, prescrição ou instrução sobre como proceder ou executar determinadas ações. Elementos nucleares: verbos no modo imperativo, no infinitivo com sentido de comando ou locuções de obrigatoriedade (*deve-se, cumpre, é vedado*).
 
-> **Regra Canônica Cebraspe:** A eliminação ou a inserção das vírgulas que isolam oração adjetiva com pronome relativo **mantém a correção gramatical**, mas **ALTERA SUBSTANCIALMENTE OS SENTIDOS ORIGINAIS DO TEXTO**.
-
----
-
-### 3. Princípios e Atributos da Redação Oficial (Manual da Presidência da República 2018)
-
-O *Manual de Redação da Presidência da República* (3ª edição, revista, atualizada e ampliada, 2018) é a norma soberana que rege os expedientes do serviço público federal:
-
-#### Os Atributos da Redação Oficial (Cap. I, Seção 1.2):
-1. **Impessoalidade:**
-   - Ausência de impressões individuais do redator (uso da 3ª pessoa ou voz passiva).
-   - Impessoalidade de quem comunica (é o órgão público que emite, não a pessoa física).
-   - Impessoalidade de com quem se comunica (o cidadão ou destinatário é tratado com equidade).
-2. **Clareza e Precisão:** Compreensão imediata sem ambiguidade, utilizando vocabulário exato e termos técnicos apenas quando indispensáveis.
-3. **Concisão:** Eliminação de palavras inúteis, circunlóquios e adjetivações vazias. Dizer o máximo com o mínimo de palavras.
-4. **Formalidade e Padronização:** Obediência aos pronomes de tratamento e à diagramação padrão do Padrão Ofício.
+### 3.2 Gêneros Textuais (Práticas Sociocomunicativas Empíricas)
+Ao contrário dos tipos textuais, os **gêneros textuais** são fenômenos empíricos, históricos, dinâmicos e essencialmente comunicativos. Surgem a partir das necessidades cotidianas de interação social e institucional da atividade humana.
+- **Natureza Aberta e Infinita:** Os gêneros multiplicam-se infinitamente à medida que a sociedade evolui tecnologicamente e institucionalmente.
+- **Exemplos no Âmbito Parlamentar e Administrativo:**
+  - *Parecer da Comissão de Constituição e Justiça (CCJC)*;
+  - *Ata de Sessão Deliberativa Plenária*;
+  - *Relatório de Auditoria Governamental*;
+  - *Ofício e Memorando Circular*;
+  - *Projeto de Lei Ordinária e Emenda Constitucional*;
+  - *Discurso Parlamentar em Grande Expediente*.
+- **Heterogeneidade Tipológica dos Gêneros:** Um único gênero textual pode agregar múltiplos tipos textuais. Por exemplo, um *Parecer Legislativo* (gênero textual) contém uma seção inicial de **relatório** (predominantemente narrativa e descritiva dos fatos tramitados) e uma seção final de **voto do relator** (predominantemente dissertativa-argumentativa, concluindo pelo acolhimento ou rejeição da matéria).
 
 ---
 
-### 4. Pronomes de Tratamento, Vocativos e Fechos para o Legislativo Federal
+## 4. MORFOLOGIA, SEMÂNTICA E CORRELAÇÃO DOS TEMPOS E MODOS VERBAIS
 
-O Manual de 2018 promoveu uma racionalização profunda e eliminou velhos vícios burocráticos:
+O verbo é o núcleo predicativo da oração, articulando o tempo cronológico (passado, presente, futuro) ao modo discursivo (certeza, hipótese, ordem) e ao aspecto verbal (ação concluída, durativa ou habitual).
 
-#### A. A Concordância dos Pronomes de Tratamento (Manual de 2018, p. 22):
-* **Concordância Verbal de 3ª Pessoa:** Embora designem a 2ª pessoa gramatical (o interlocutor), os pronomes de tratamento exigem verbo rigorosamente na **3ª pessoa do singular**:
-  - *"Vossa Excelência **aprovou** o requerimento."* (e NUNCA *"aprovastes"*).
-* **Concordância Pronominal de 3ª Pessoa:** Os possessivos e pronomes oblíquos devem ser de 3ª pessoa:
-  - *"Vossa Excelência solicitou a inclusão de **seu** projeto na pauta."* (e NUNCA *"vosso projeto"*).
-* **Concordância Nominal com o Gênero do Ocupante:**
-  - Se a autoridade for mulher: *"Vossa Excelência foi **designada** relatora."*
-  - Se a autoridade for homem: *"Vossa Excelência foi **designado** relator."*
+### 4.1 Modos Verbais e suas Matizes Semânticas
+- **Modo Indicativo:** Expressa certeza fática, assertividade, objetividade e fatos consumados ou tidos por reais no discurso.
+- **Modo Subjuntivo:** Expressa incerteza, dúvida, eventualidade, possibilidade, desejo, hipótese ou condição de irrealidade.
+- **Modo Imperativo:** Expressa comando, prescrição, exortação, pedido, orientação ou advertência.
 
-#### B. O Vocativo Correto para Autoridades Legislativas:
-* Para os Chefes dos Três Poderes (Presidente da República, Presidente do Congresso Nacional / Câmara dos Deputados / Senado Federal, Presidente do STF):
-  - Vocativo: *"**Excelentíssimo Senhor Presidente da Câmara dos Deputados,**"*.
-* Para as demais autoridades (Deputados Federais, Senadores, Ministros, Governadores):
-  - Vocativo: *"**Senhor Deputado,**"* ou *"**Senhor Senador,**"*.
-  - O uso de "Excelentíssimo" para deputados e senadores comuns é desvio em relação ao Manual de 2018.
+### 4.2 Tempos do Indicativo e Aspecto Discursivo
+1. **Presente do Indicativo:** Fato simultâneo ao momento da enunciação (*"O presidente abre a sessão"*), mas também usado como:
+   - *Presente Universal / Atemporal:* Expressão de leis científicas ou máximas doutrinárias (*"A soberania reside no povo"*);
+   - *Presente Histórico:* Narração de fatos passados com vivacidade (*"Em 1988, o constituinte promulga a Carta Cidadã"*);
+   - *Futuro Iminente:* Fato futuro considerado certo (*"Amanhã os relatores apresentam o texto final"*).
+2. **Pretérito Perfeito do Indicativo:** Ação inteiramente concluída em momento anterior à fala, apresentando aspecto **perfectivo** (pontual, acabado): *"A Câmara aprovou o projeto de lei orçamentária"*.
+3. **Pretérito Imperfeito do Indicativo:** Ação contínua, habitual ou repetitiva no passado, apresentando aspecto **imperfectivo** (processo em curso ou não finalizado): *"Os deputados discutiam a matéria quando ocorreu a interrupção"*. Usado também com valor modal de **polidez/atenuação**: *"Queria sugerir uma emenda de redação"*.
+4. **Pretérito Mais-que-perfeito do Indicativo:** Expressa fato passado anterior a outro acontecimento também pretérito: *"Quando a sessão começou, o relator já concluíra o voto"*. Frequentemente substituído na linguagem moderna pela forma composta (*tinha/havia concluído*).
+5. **Futuro do Presente do Indicativo:** Fato certo ou de realização provável em tempo posterior: *"O Congresso Nacional apreciará o veto na próxima terça-feira"*.
+6. **Futuro do Pretérito do Indicativo:** Ação futura condicionada a um fato hipotético no passado, ou atenuador de delicadeza/polidez: *"O plenário rejeitaria a proposta se houvesse quórum suficiente"* / *"Gostaria de solicitar a palavra pela ordem"*.
 
-#### C. Os Fechos Oficiais (Manual de 2018, Seção 2.2):
-Restam **exclusivamente dois fechos** para fechar ofícios e memorandos:
-1. *"**Respeitosamente,**"* $\rightarrow$ para autoridades de hierarquia **superior** à do remetente (inclusive ao Presidente da República).
-2. *"**Atenciosamente,**"* $\rightarrow$ para autoridades de **mesma hierarquia**, de hierarquia **inferior** ou para o cidadão.
-* **Abolições Expressas:** É terminantemente **proibido** utilizar *"Digníssimo (DD.)"*, *"Ilustríssimo (Ilmo.)"*, *"Cordialmente"*, *"Sem mais para o momento"* ou fechos frasais longos.`,
+### 4.3 A Correlação (Harmonia) Verbal em Questões Cebraspe
+A harmonia verbal disciplina a coerência temporal entre a oração principal e a oração subordinada, especialmente em estruturas condicionais, conformativas e concessivas:
+- **Hipótese Provável (Futuro):**
+  - Oração subordinada condicional no **Futuro do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Presente do Indicativo**.
+  - *Exemplo:* "Se o relator **acolher** as emendas, a comissão **aprovará** o texto."
+- **Hipótese Improvável ou Contrafactual (Presente/Passado):**
+  - Oração subordinada condicional no **Pretérito Imperfeito do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Pretérito do Indicativo**.
+  - *Exemplo:* "Se o relator **acolhesse** as emendas, a comissão **aprovaria** o texto."
+- **Hipótese Não Realizada no Passado (Irrealidade Pretérica):**
+  - Oração condicional no **Pretérito Mais-que-perfeito Composto do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Pretérito Composto do Indicativo**.
+  - *Exemplo:* "Se o relator **tivesse acolhido** as emendas, a comissão **teria aprovado** o texto."
+
+---
+
+## 5. SINTAXE DE COLOCAÇÃO PRONOMINAL (PRÓCLISE, MESÓCLISE E ÊNCLISE)
+
+A colocação dos pronomes pessoais oblíquos átonos (*me, te, se, o, a, lhe, nos, vos, os, as, lhes*) subordina-se à eufonia e às regras estritas da sintaxe de regência oracional na norma culta padrão.
+
+### 5.1 As Três Posições Pronominais
+- **Próclise:** O pronome situa-se antes do verbo (*"Não **se** deve aceitar emendas intempestivas"*).
+- **Mesóclise:** O pronome é intercalado no corpo do verbo (*"Apresentar-**se**-á o relatório conclusivo"*).
+- **Ênclise:** O pronome posiciona-se após o verbo (*"Aprovou-**se** a proposta sem ressalvas"*).
+
+### 5.2 Fatores de Atração Proclítica (Próclise Obrigatória)
+A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriamente o pronome oblíquo átono para antes dele, vedando a ênclise:
+1. **Palavras de Sentido Negativo:** *não, nunca, jamais, ninguém, nada, nenhum, de modo algum*.
+   - *Exemplo:* "Ninguém **o** advertiu sobre o prazo regimental." (Inadmissível: "Ninguém advertiu-o").
+2. **Advérbios e Locuções Adverbiais (sem pausa por vírgula):** *já, sempre, talvez, hoje, bem, aqui*.
+   - *Exemplo:* "Sempre **se** respeitaram as prerrogativas dos parlamentares."
+   - *Ressalva da Vírgula:* Se o advérbio estiver isolado por vírgula, a atração cessa e usa-se a ênclise: *"Ontem, pronunciou-**se** o líder do partido"*.
+3. **Pronomes Relativos:** *que, quem, cujo(a), onde, o qual, como*.
+   - *Exemplo:* "A matéria **que** **se** discutiu ontem obteve votação expressiva."
+4. **Pronomes Indefinidos:** *tudo, alguém, outrem, algo, cada, muitos, poucos*.
+   - *Exemplo:* "Tudo **se** resolveu conforme o regimento."
+5. **Pronomes Demonstrativos:** *isso, aquilo, este, esse, aquele*.
+   - *Exemplo:* "Aquilo **nos** surpreendeu durante a sessão."
+6. **Conjunções Subordinativas (Integrantes e Adverbiais):** *que, se, quando, embora, caso, como, para que, visto que*.
+   - *Exemplo:* "Embora **se** soubesse do resultado, a votação transcorreu normalmente."
+7. **Frases Optativas (Desejo), Interrogativas ou Exclamativas:**
+   - *Exemplo:* "Deus **o** abençoe!" / "Quem **te** autorizou a intervir?"
+8. **Preposição "Em" + Verbo no Gerúndio:**
+   - *Exemplo:* "**Em se tratando** de matéria orçamentária, a CMO é soberana."
+
+### 5.3 Regras Restritivas e Vedações Absolutas na Norma Culta
+1. **Vedação de Iniciar Frase ou Período com Pronome Oblíquo Átono:**
+   - Na modalidade padrão formal, é erro crasso iniciar período com pronome oblíquo: *"Me falaram sobre o relatório"* (ERRADO); o correto é: *"Falaram-me sobre o relatório"*.
+2. **Vedação de Ênclise com Verbos no Futuro do Presente ou do Pretérito:**
+   - Verbos flexionados no futuro do presente ou do pretérito do indicativo REJEITAM a ênclise em qualquer situação (*"Aprovará-se"* ou *"Aprovaria-se"* são formas inexistentes e agramaticais!).
+   - Se houver fator de próclise: **PRÓCLISE** (*"Não se aprovará o texto"*);
+   - Se NÃO houver fator de próclise e o verbo iniciar o período: **MESÓCLISE OBRIGATÓRIA** (*"Aprovar-se-á o texto"*; *"Apresentar-se-ia o voto caso houvesse quórum"*).
+3. **Vedação de Ênclise após Particípio:**
+   - NUNCA se coloca pronome oblíquo átono enclítico a particípio: *"O presidente tinha manifestado-se"* (ERRADO); o correto é: *"O presidente tinha-se manifestado"* ou *"O presidente tinha se manifestado"*.
+
+### 5.4 Colocação Pronominal em Locuções Verbais (Verbo Auxiliar + Verbo Principal)
+- **Verbo Auxiliar + Infinitivo:**
+  - Sem palavra atrativa: o pronome pode ligar-se ao auxiliar (próclise ou ênclise) ou ao infinitivo (ênclise): *"Quero-lhe dizer"*, *"Quero dizer-lhe"*.
+  - Com palavra atrativa: próclise ao auxiliar ou ênclise ao infinitivo: *"Não lhe quero dizer"* ou *"Não quero dizer-lhe"*.
+- **Verbo Auxiliar + Gerúndio:**
+  - Sem palavra atrativa: próclise/ênclise ao auxiliar ou ênclise ao gerúndio: *"Estava-se preparando"*, *"Estava preparando-se"*.
+  - Com palavra atrativa: próclise ao auxiliar ou ênclise ao gerúndio: *"Não se estava preparando"* ou *"Não estava preparando-se"*.
+- **Verbo Auxiliar + Particípio:**
+  - Sem palavra atrativa: próclise ou ênclise ao verbo auxiliar: *"Haviam-me alertado"*, *"Ele havia me alertado"*.
+  - Com palavra atrativa: próclise obrigatória ao verbo auxiliar: *"Não me haviam alertado"*.
+
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Compreensão e Interpretação Textual (sub-13-1):** Classificação de gêneros em correspondências e normas legislativas.
+`,
   checkpoints: [
     {
-      id: 'chk-13-4-1',
-      pergunta:
-        'Julgue o item quanto à pontuação de orações adjetivas e seu impacto semântico no Cebraspe:',
-      item: 'No trecho "Os técnicos legislativos, que participaram do treinamento de preservação digital, foram certificados pela diretoria", a supressão de ambas as vírgulas preservaria a correção gramatical do período, mas alteraria os sentidos originais do texto.',
-      gabarito: 'C',
-      justificativa:
-        'Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 642), o isolamento por vírgulas confere à oração adjetiva valor explicativo, atribuindo a participação no treinamento à totalidade dos técnicos. A supressão das vírgulas transforma a oração em restritiva, limitando a certificação apenas à parcela dos técnicos que concluiu o treinamento. Portanto, a gramática permanece impecável, mas o sentido original é substancialmente alterado.',
-    },
-    {
-      id: 'chk-13-4-2',
-      pergunta:
-        'Julgue a assertiva referente à concordância gramatical com pronomes de tratamento no Manual de Redação da Presidência da República (3ª ed., 2018):',
-      item: 'Em correspondência oficial endereçada a um Senador da República, é gramaticalmente correta e adequada ao padrão culto a redação: "Informamos que Vossa Excelência devereis comparecer à sessão solene acompanhado de vossa comitiva".',
+      id: 'cp-13-4-1',
+      pergunta: 'Micro-Checkpoint 1: Ditongos Abertos no Acordo Ortográfico',
+      item: 'Com a vigência do Acordo Ortográfico da Língua Portuguesa, palavras como "ideia", "plateia" e "herói" deixaram de ser grafadas com acento agudo, em razão da regra de simplificação que extinguiu o acento gráfico sobre os ditongos abertos "ei" e "oi".',
       gabarito: 'E',
       justificativa:
-        'Conforme estabelece categoricamente o Manual de Redação da Presidência da República (3ª ed., 2018, p. 22), os pronomes de tratamento exigem concordância verbal e pronominal rigorosamente na 3ª pessoa gramatical, sendo incorreto o emprego da 2ª pessoa do plural ("devereis", "vossa"). A forma correta seria: "Vossa Excelência deverá comparecer (...) acompanhado de sua comitiva".',
+        'Errado! O Acordo Ortográfico extinguiu o acento agudo nos ditongos abertos "éi" e "ói" exclusivamente nas palavras PAROXÍTONAS (como "ideia", "plateia", "heroico", "jiboia", "assembleia"). Nas palavras OXÍTONAS e nos MONOSSÍLABOS TÔNICOS terminados nesses ditongos, o acento gráfico PERMANECE OBRIGATÓRIO (como "herói", "troféu", "pastéis", "coronéis", "dói", "céu"). Portanto, "herói" continua sendo obrigatoriamente acentuada.',
     },
     {
-      id: 'chk-13-4-3',
-      pergunta:
-        'Julgue o item quanto aos fechos oficiais de expedientes no serviço público federal:',
-      item: 'De acordo com o Manual de Redação da Presidência da República (2018), o fecho "Respeitosamente," é empregado para autoridades de hierarquia superior à do remetente, enquanto "Atenciosamente," destina-se a autoridades de mesma hierarquia ou de hierarquia inferior.',
+      id: 'cp-13-4-2',
+      pergunta: 'Micro-Checkpoint 2: Tipos vs. Gêneros Textuais segundo Luiz Antônio Marcuschi',
+      item: 'Na teoria linguística moderna sistematizada por Luiz Antônio Marcuschi, os tipos textuais constituem constructos teóricos definidos por traços linguísticos intrínsecos e formam um conjunto finito de categorias (como narração e dissertação), ao passo que os gêneros textuais são realizações discursivas empíricas, ilimitadas e fluidas, historicamente vinculadas a práticas sociocomunicativas (como ata, edital e parecer legislativo).',
       gabarito: 'C',
       justificativa:
-        'Conforme o Manual de Redação da Presidência da República (3ª ed., 2018, Seção 2.2), existem apenas dois fechos padronizados na administração pública federal: "Respeitosamente," para autoridades superiores, e "Atenciosamente," para autoridades de mesma hierarquia ou inferior.',
+        'Correto! A assertiva reflete com exatidão a clássica distinção cunhada por Luiz Antônio Marcuschi. Os tipos textuais (ou sequências tipológicas) são categorias teóricas finitas (narração, descrição, dissertação expositiva, dissertação argumentativa e injunção) identificadas pela estrutura interna léxico-gramatical e temporal. Já os gêneros textuais são formas empíricas infinitas de comunicação social, mutáveis no tempo, que cumprem funções pragmáticas específicas nas diversas esferas da atividade humana (por exemplo, ofício, parecer, ata, editorial).',
+    },
+    {
+      id: 'cp-13-4-3',
+      pergunta: 'Micro-Checkpoint 3: Colocação Pronominal e Palavra Atrativa',
+      item: 'No trecho "Não se admitirão emendas fora dos prazos estabelecidos", a alteração da colocação pronominal para "Não admitir-se-ão emendas fora dos prazos estabelecidos" preservaria a correção gramatical do texto, por se tratar de verbo conjugado no futuro do presente do indicativo, tempo verbal que exige prioritariamente a mesóclise.',
+      gabarito: 'E',
+      justificativa:
+        'Errado! Conforme as lições gramaticais canônicas de Evanildo Bechara (2019) e Celso Cunha & Lindley Cintra (2013), a mesóclise com verbos no futuro do presente ou do pretérito só é empregada quando o verbo inicia a oração ou quando NÃO houver palavra atrativa antes dele. No trecho apresentado, a presença da palavra de sentido negativo "Não" constitui fator de atração proclítica MANDATÓRIO e absoluto. Havendo fator de atração, a próclise prevalece sempre sobre a mesóclise ("Não se admitirão"). A estrutura "Não admitir-se-ão" acarreta erro gramatical crasso perante a norma culta padrão.',
     },
   ],
   mnemonicos: {
     timeline: [
       {
-        id: 'tm-13-4-1',
-        periodo: '2008',
-        disciplina: 'Pontuação da Norma Culta',
-        focoPrincipal: 'Sintaxe da Vírgula nas Orações Adjetivas e Adjuntos Deslocados',
-        figuraChave: 'Celso Cunha & Lindley Cintra',
+        id: 'tl-13-4-1',
+        periodo: '1990 (Acordo Ortográfico)',
+        disciplina: 'Ortografia Oficial',
+        focoPrincipal: 'Assinatura do Acordo Ortográfico unificando as regras nos países de língua portuguesa',
+        figuraChave: 'Academia Brasileira de Letras / ACL',
       },
       {
-        id: 'tm-13-4-2',
-        periodo: '2018',
-        disciplina: 'Redação Oficial da República',
-        focoPrincipal: 'Manual de Redação da Presidência (3ª Edição Revista e Ampliada)',
-        figuraChave: 'Presidência da República',
+        id: 'tl-13-4-2',
+        periodo: '2002 (Marcuschi: Gêneros Textuais)',
+        disciplina: 'Linguística Textual',
+        focoPrincipal: 'Publicação de "Gêneros Textuais: Definição e Funcionalidade", consolidando a distinção entre tipos e gêneros',
+        figuraChave: 'Luiz Antônio Marcuschi',
+      },
+      {
+        id: 'tl-13-4-3',
+        periodo: '2016 (Obrigatoriedade no Brasil)',
+        disciplina: 'Ortografia Oficial',
+        focoPrincipal: 'Entrada em vigor em caráter obrigatório e definitivo do Acordo Ortográfico de 1990 no Brasil',
+        figuraChave: 'Decreto nº 6.583/2008 e Decreto nº 7.875/2012',
       },
     ],
     autores: [
       {
         id: 'aut-13-4-1',
-        nome: 'Manual de Redação da Presidência da República',
-        ano: 2018,
-        obraPrincipal: 'Manual de Redação Oficial (3ª Edição)',
-        ideiaChave:
-          'Padronização oficial dos expedientes, concordância em 3ª pessoa para pronomes de tratamento e unificação dos fechos em Respeitosamente e Atenciosamente.',
-        chipPegadinha: 'Fechos e Tratamentos Oficiais',
+        nome: 'Luiz Antônio Marcuschi',
+        ano: 2008,
+        obraPrincipal: 'Da Fala para a Escrita / Produção Textual, Análise de Gêneros e Compreensão',
+        ideiaChave: 'Tipos textuais são finitos e teóricos; gêneros textuais são infinitos, dinâmicos e sociocomunicativos.',
+        chipPegadinha: 'Classificar ata, parecer ou relatório como tipo textual em vez de gênero textual.',
       },
       {
         id: 'aut-13-4-2',
-        nome: 'Celso Cunha & Lindley Cintra',
-        ano: 2008,
-        obraPrincipal: 'Nova Gramática do Português Contemporâneo',
-        ideiaChave:
-          'A vírgula nas orações adjetivas define a fronteira semântica entre generalização explicativa e restrição partitiva.',
-        chipPegadinha: 'Vírgula Explicativa vs Restritiva',
+        nome: 'Evanildo Bechara',
+        ano: 2019,
+        obraPrincipal: 'Moderna Gramática Portuguesa',
+        ideiaChave: 'Sintaxe rigorosa de colocação pronominal com primazia absoluta da próclise diante de fatores de atração.',
+        chipPegadinha: 'Usar mesóclise com verbo no futuro quando houver palavra atrativa anterior.',
       },
     ],
     pegadinhas: [
       {
         id: 'peg-13-4-1',
-        afirmacao:
-          'É legítima a inserção de vírgula entre o sujeito e o predicado quando o sujeito for composto por mais de dez vocábulos.',
+        afirmacao: 'O Acordo Ortográfico extinguiu o acento gráfico de todas as palavras terminadas no ditongo aberto "ói", como "heroico" e "herói".',
         gabarito: 'E',
-        porQue:
-          'A interdição de vírgula entre o sujeito e o verbo principal é uma regra absoluta na norma culta, independentemente da extensão do sujeito (Cunha & Cintra, p. 640).',
+        porQue: 'Pegadinha manjada do Cebraspe! O acento caiu apenas nas PAROXÍTONAS ("heroico", "jiboia"). Nas OXÍTONAS e monossílabos ("herói", "dói"), o acento permanece obrigatório.',
       },
       {
         id: 'peg-13-4-2',
-        afirmacao:
-          'O pronome de tratamento "Digníssimo" (DD.) é obrigatório no endereçamento de expedientes dirigidos a parlamentares do Congresso Nacional.',
+        afirmacao: 'Um parecer legislativo emitido pela CCJC é classificado como um tipo textual dissertativo.',
         gabarito: 'E',
-        porQue:
-          'O Manual de Redação da Presidência da República (2018) aboliu terminantemente o uso de "Digníssimo" e "Ilustríssimo", considerando a dignidade um pressuposto inerente ao cargo público.',
-      },
-      {
-        id: 'peg-13-4-3',
-        afirmacao:
-          'A frase "Em conformidade com o regimento interno, a audiência foi iniciada às dez horas" apresenta pontuação correta com adjunto adverbial longo anteposto isolado por vírgula.',
-        gabarito: 'C',
-        porQue:
-          'Adjuntos adverbiais de longa extensão (três ou mais vocábulos) antepostos exigem obrigatoriamente a presença de vírgula para marcar o deslocamento sintático.',
+        porQue: 'Parecer legislativo é GÊNERO TEXTUAL, e não tipo textual. O parecer mobiliza sequências tipológicas dissertativas, mas sua categoria pragmática é gênero.',
       },
     ],
   },

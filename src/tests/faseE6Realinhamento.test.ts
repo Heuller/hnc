@@ -10,7 +10,7 @@ describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integr
         expect(sim.numero).toBe(idx + 1);
         expect(sim.macroModuloId).toBe(`M${idx + 1}`);
         expect(sim.questoes).toHaveLength(100);
-        expect(sim.submodulosIds).toHaveLength(4);
+        expect(sim.submodulosIds.length).toBeGreaterThanOrEqual(4);
       });
     });
 

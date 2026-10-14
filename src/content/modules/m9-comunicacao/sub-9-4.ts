@@ -3,15 +3,42 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo94: ModuloFilho = {
   id: 'sub-9-4',
   numero: '9.4',
-  titulo: 'Estudos Métricos da Informação: Leis Bibliométricas, Fator de Impacto e Índice h',
-  descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore), Índice h de Hirsch, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.',
+  editalRef: 'Bloco E - Item 4.1 a 4.8',
+  preRequisitos: ["sub-9-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-5-3",
+          "titulo": "Avaliação de Coleções e Métricas",
+          "motivo": "Leis de Bradford, Lotka e Zipf aplicadas à gestão de periódicos."
+      },
+      {
+          "submoduloId": "sub-14-4",
+          "titulo": "Ciência de Dados e Text Mining",
+          "motivo": "Lei de Zipf e análise de frequência de vocábulos."
+      }
+  ],
+  titulo: 'Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria',
+  descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore, Índice h), acoplamento bibliográfico, cocitação, redes de coautoria, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.',
   tempoEstimadoMinutos: 45,
-  autoresChave: ['Samuel C. Bradford', 'Alfred J. Lotka', 'George K. Zipf', 'Eugene Garfield', 'Jorge E. Hirsch', 'Alan Pritchard', 'Derek de Solla Price'],
+  autoresChave: [
+    'Samuel C. Bradford',
+    'Alfred J. Lotka',
+    'George K. Zipf',
+    'Eugene Garfield',
+    'Jorge E. Hirsch',
+    'M. M. Kessler',
+    'Henry Small',
+    'Jason Priem',
+    'Linton C. Freeman',
+    'Derek de Solla Price',
+  ],
   alertasCebraspe: [
     'As Três Leis Bibliométricas e suas associações inegociáveis: 1. Lei de Bradford = PRODUTIVIDADE E DISPERSÃO DE PERIÓDICOS (núcleo e zonas 1 : n : n²); 2. Lei de Lotka = PRODUTIVIDADE DE AUTORES (regra do quadrado inverso 1/n²); 3. Lei de Zipf = FREQUÊNCIA E OCORRÊNCIA DE PALAVRAS EM TEXTOS (menor esforço, r x f = C). O Cebraspe adora trocar qual autor mede o quê!',
+    'Acoplamento Bibliográfico vs. Cocitação (pegadinha clássica Cebraspe): O acoplamento bibliográfico (M. M. Kessler, 1963) é RETROSPECTIVO e FIXO no tempo (dois artigos citam as mesmas referências passadas, e essa ligação jamais se altera); a cocitação (Henry Small e Irina Marshakova, 1973) é PROSPECTIVA e DINÂMICA (dois artigos são citados conjuntamente por trabalhos futuros, podendo sua intensidade aumentar com o tempo).',
     'Fator de Impacto (Eugene Garfield - JCR / Web of Science): calcula a média de citações recebidas no ano corrente por artigos publicados por um periódico nos dois anos anteriores. O denominador do cálculo considera apenas "artigos citáveis" (pesquisas originais e revisões), e NÃO todos os tipos de documentos (cartas e editoriais são excluídos do denominador).',
     'Índice h (Jorge Hirsch, 2005): um pesquisador tem índice h se h de seus trabalhos têm pelo menos h citações cada um. Limitação cobrada em prova (UNEAL 2026 e Cebraspe): o índice h NÃO é uma métrica justa para comparar cientistas em diferentes estágios de carreira nem pesquisadores de áreas distintas com dinâmicas de citação desiguais.',
-    'Diferenciação conceitual da área métrica: Bibliometria (documentos impressos e publicações); Cientometria (ciência como atividade sociopolítica macro); Informetria (qualquer informação em qualquer suporte e canal, inclusive informal); Altmetria (métricas alternativas de impacto na Web social: downloads, tweets, menções).',
+    'Redes de Coautoria e Análise de Redes Sociais (ARS): nós representam autores e arestas representam publicações conjuntas. A Centralidade de Intermediação (Betweenness Centrality) identifica autores que funcionam como "pontes" ou corretores de informação entre grupos de pesquisa que não colaboram diretamente.',
+    'Altmetria (Jason Priem et al., 2010): métricas alternativas de atenção e impacto na Web social (X/Twitter, Mendeley, Wikipédia, notícias, documentos de políticas públicas). A altmetria atua como métrica COMPLEMENTAR às citações tradicionais da literatura científica, e NUNCA como sua substituta excludente.',
     'Declaração DORA (2012) e Manifesto de Leiden (2015): documentos canônicos internacionais que condenam enfaticamente o uso do Fator de Impacto do periódico como substituto da avaliação da qualidade do pesquisador individual ou de artigos específicos.',
     'Vias do Acesso Aberto: a Via Diamante (ou Platina) não cobra taxas de ninguém (nem leitores nem autores via APC), sendo subsidiada por instituições públicas/acadêmicas; a Via Verde é o autoarquivamento em repositórios; e a Via Dourada publica em revistas abertas com ou sem APC.',
   ],
@@ -51,7 +78,7 @@ TITLE: Disciplinas Métricas da Informação e Suas Fronteiras
 Samuel Clement Bradford estudou a distribuição de artigos sobre tópicos específicos (como geofísica aplicada e lubrificação) em milhares de revistas:
 * **Enunciado Teórico:** Se periódicos científicos forem ordenados em ordem decrescente de sua produtividade de artigos sobre determinado assunto, eles podem ser divididos em um **núcleo (*core*)** de periódicos altamente dedicados ao tema e várias **zonas sucessivas**, contendo cada zona o **mesmo número total de artigos** que o núcleo.
 * **Proporção Geométrica de Bradford:** O número de títulos de periódicos no núcleo e nas zonas subsequentes cresce em progressão geométrica:
-  $$1 : n : n^2 : n^3 \\dots$$
+  $1 : n : n^2 : n^3 \\dots$
   Onde $1$ representa a quantidade de revistas no núcleo central, e $n$ é o multiplicador constante de Bradford.
 
 \`\`\`timeline
@@ -68,7 +95,7 @@ Z3 | Zona 3: Periferia Dispersa | Proporção: 1 × n² | Grande massa de perió
 #### B. Lei de Lotka (1926) — Produtividade de Autores
 Alfred J. Lotka investigou a distribuição de publicações na área da física e da química no século XIX:
 * **Enunciado Teórico (Regra do Quadrado Inverso):** O número de autores que publicam $n$ artigos em um determinado campo do saber é inversamente proporcional a $n^2$:
-  $$A_n = \\frac{A_1}{n^2}$$
+  $A_n = \\frac{A_1}{n^2}$
   Onde $A_n$ é o número de autores que publicam $n$ artigos, e $A_1$ é o número de autores que publicam apenas 1 artigo.
 * **Consequência Empírica:**
   * Aproximadamente **60% dos autores produzem um único artigo** em toda a sua trajetória científica ($A_1 \\approx 0{,}60$ do total);
@@ -78,7 +105,7 @@ Alfred J. Lotka investigou a distribuição de publicações na área da física
 #### C. Lei de Zipf (1949) — Princípio do Menor Esforço e Frequência de Palavras
 O linguista norte-americano George Kingsley Zipf analisou obras em linguagem natural (como o romance *Ulysses* de James Joyce):
 * **Primeira Lei de Zipf (Lei do Menor Esforço):** Se as palavras distintas de um texto longo forem ordenadas em ordem decrescente de sua frequência absoluta ($f$), o produto da ordem no ranking ($r$) pela frequência ($f$) é aproximadamente constante ($C$):
-  $$r \\times f = C$$
+  $r \\times f = C$
 * **Ponto de Transição de Goffman e Zona de Indexação (H. P. Luhn e F. W. Lancaster):**
 
 \`\`\`timeline
@@ -97,7 +124,7 @@ ZBASE | 3. Baixa Frequência (Base) | Hapax Legomena | Palavras raras de ocorrê
 
 #### A. Fator de Impacto (*Journal Impact Factor - JIF*) de Eugene Garfield
 Calculado anualmente pelo **Journal Citation Reports (JCR)** no âmbito da Web of Science (Clarivate Analytics):
-$$\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\text{ por itens publicados nos Anos } (A-1) \\text{ e } (A-2)}{\\text{Número total de itens citáveis publicados nos Anos } (A-1) \\text{ e } (A-2)}$$
+$\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\text{ por itens publicados nos Anos } (A-1) \\text{ e } (A-2)}{\\text{Número total de itens citáveis publicados nos Anos } (A-1) \\text{ e } (A-2)}$
 
 * **Pegadinha Crucial Cebraspe sobre os "Itens Citáveis":**
   * O denominador computa apenas **artigos originais de pesquisa e artigos de revisão** (*citable items*);
@@ -146,14 +173,81 @@ TITLE: Avaliação do Índice h de Jorge Hirsch (Balanço Crítico)
 
 ---
 
-### 4. Sistemas Institucionais de Avaliação: Qualis-CAPES, DORA e Leiden
+### 4. Análise de Citação Avançada: Acoplamento Bibliográfico, Cocitação e Redes de Coautoria
+
+Além da contagem direta de citações recebidas por um documento, a bibliometria contemporânea fundamenta-se nas relações estruturais estabelecidas pelas citações, com destaque para duas técnicas clássicas e a análise de redes sociais (ARS):
+
+#### A. Acoplamento Bibliográfico (*Bibliographic Coupling* — M. M. Kessler, 1963)
+* **Definição Teórica:** Ocorre quando dois artigos ($A$ e $B$) citam **um ou mais documentos em comum** em suas respectivas listas de referências bibliográficas.
+* **Direção Temporal e Estabilidade (Questão Certa de Prova):**
+  * O acoplamento bibliográfico é uma medida **retrospectiva** (olha para o passado, conectando artigos pelas fontes que ambos consultaram);
+  * A intensidade de acoplamento entre dois artigos é **estática, fixa e permanente no tempo**: uma vez publicados os artigos $A$ e $B$, suas referências nunca mais se alteram;
+  * **Aplicação Principal:** Mapeamento de frentes de pesquisa contemporâneas (*research fronts*) e agrupamento de artigos recentes que operam sob a mesma tradição teórica ou metodológica, mesmo antes de receberem qualquer citação.
+
+#### B. Cocitação (*Co-citation* — Henry Small, 1973 e Irina Marshakova, 1973)
+* **Definição Teórica:** Ocorre quando dois documentos independentes ($A$ e $B$) são **citados conjuntamente por um terceiro documento posterior ($C$)**.
+* **Direção Temporal e Dinamicidade (Pegadinha do Cebraspe):**
+  * A cocitação é uma medida **prospectiva** (olha para o futuro, dependendo de como a comunidade científica continuará citando os trabalhos no decorrer dos anos);
+  * A frequência de cocitação é **dinâmica e variável no tempo**: a intensidade de ligação entre $A$ e $B$ pode aumentar drasticamente, estabilizar ou cair ao longo das décadas;
+  * **Aplicação Principal:** Mapeamento da estrutura intelectual de um campo, identificação de escolas de pensamento históricas, revoluções científicas e clássicos seminais da literatura (*paradigm shifts*).
+
+| Dimensão Comparativa | Acoplamento Bibliográfico (Kessler, 1963) | Cocitação (Small, 1973 / Marshakova, 1973) |
+|---|---|---|
+| **Definição Operacional** | Artigos $A$ e $B$ citam a mesma referência $C$ | Artigos $A$ e $B$ são citados juntos pelo artigo $C$ |
+| **Unidade de Ligação** | Referências compartilhadas no passado | Citações recebidas conjuntamente no futuro |
+| **Direção Temporal** | Retrospectiva (olha para o passado) | Prospectiva (olha para a literatura subsequente) |
+| **Comportamento Temporal** | **Fixo, permanente e estático** | **Dinâmico, mutável e cumulativo** |
+| **Objeto de Mapeamento** | Frentes de pesquisa ativas / emergentes | Estrutura intelectual consolidada / escolas de pensamento |
+
+#### C. Redes de Coautoria e Análise de Redes Sociais (ARS)
+A produção científica em regime de colaboração é mapeada pela teoria dos grafos e ARS:
+* **Topologia do Grafo Científico:**
+  * **Nós (Vértices):** Representam os autores, pesquisadores ou instituições;
+  * **Arestas (Laços):** Representam os artigos publicados em colaboração formal (coautoria). O peso da aresta reflete o número de artigos conjuntos.
+* **Métricas de Centralidade Topológica (Linton C. Freeman, 1978/1979):**
+  1. **Centralidade de Grau (*Degree Centrality*):** Número direto de laços de um autor com outros pesquisadores (número de coautores diretos). Identifica os nós mais ativos e conectados localmente.
+  2. **Centralidade de Intermediação (*Betweenness Centrality*):** Frequência com que um nó se posiciona no caminho geodésico (caminho mais curto) conectando outros pares de nós na rede.
+     * *Importância Estratégica em Concursos:* Um pesquisador com poucas publicações diretas pode apresentar **altíssima intermediação** se atuar como o **único elo ("ponte" ou *broker*)** entre dois grupos de pesquisa isolados que não colaboram entre si.
+  3. **Centralidade de Proximidade (*Closeness Centrality*):** Mede a facilidade e rapidez com que um autor alcança todos os outros nós da rede (calculada como o inverso da soma das distâncias mínimas). Indica independência funcional e agilidade na circulação de informações.
+  4. **Centralidade de Autovetor (*Eigenvector Centrality*) / PageRank:** Pondera as conexões não apenas pela quantidade, mas pela relevância e prestígio dos nós aos quais o autor está conectado. Ter laços com cientistas altamente influentes confere maior autovetor do que ter laços com nós periféricos.
+
+---
+
+### 5. Altmetria (*Altmetrics*): Métricas de Atenção Social e Impacto Público
+
+O termo **Altmetria** (*Alternative Metrics*) foi consolidado no artigo seminal de **Jason Priem, Dario Taraborelli, Paul Groth e Cameron Neylon** (2010), intitulado *Altmetrics: A manifesto*:
+
+#### A. Fundamentos e Necessidade
+* A comunicação científica tradicional depende de canais formais (periódicos e citações) que exigem entre **2 a 5 anos para que o impacto de um artigo seja mensurado** por métricas bibliométricas tradicionais.
+* Com a disseminação da Web 2.0 e da Ciência Aberta, a circulação do conhecimento ocorre em ambientes informais e acelerados: redes sociais, blogs acadêmicos, pré-prints, repositórios institucionais e documentos governamentais de políticas públicas.
+* **Princípio da Complementaridade:** A altmetria **não substitui** a avaliação por pares (*peer review*) nem as citações acadêmicas clássicas; ela atua como **indicador complementar**, oferecendo rastreabilidade em tempo quase real da atenção, interesse social e impacto extra-acadêmico de pesquisas.
+
+#### B. Fontes e Tipologias Altmétricas
+* **Redes Sociais e Difusão Imediata:** Menções no X/Twitter, Bluesky, Facebook, Reddit e YouTube;
+* **Gerenciadores de Referências Pessoais:** Leitores salvando o trabalho no Mendeley e Zotero (indicador precoce de futura citação acadêmica formal);
+* **Plataformas Abertas Colaborativas:** Menções e citações em verbetes da Wikipédia e posts de blogs de divulgação científica reconhecidos;
+* **Impacto em Políticas Públicas (*Policy Documents*):** Citações do artigo em notas técnicas de órgãos reguladores, relatórios de comissões parlamentares (Câmara dos Deputados e Senado) e documentos de organizações internacionais (OMS, UNESCO, Banco Mundial) — rastreados por ferramentas como Overton;
+* **Cobertura da Imprensa (*News Outlets*):** Reportagens em jornais de grande circulação citando diretamente o DOI da pesquisa.
+
+#### C. Provedores e Painéis Visuais: Altmetric.com vs. PlumX
+* **Altmetric Attention Score (Altmetric.com):** Representado pelo famoso **"Donut Altmétrico"**, cuja pontuação numérica pondera diferentes fontes de menção (ex.: uma menção na grande imprensa ou documento de política pública possui peso numérico muito superior a um tweet isolado). As cores dos anéis do donut refletem as diferentes categorias de fontes de atenção.
+* **PlumX Metrics (EBSCO / Elsevier):** Agrupa os sinais em **5 categorias padronizadas**:
+  1. *Usage* (Uso): downloads, visualizações de resumo, cliques e acessos HTML/PDF;
+  2. *Captures* (Capturas): salvamentos no Mendeley, favoritos e bookmarks (indicador líder de citações);
+  3. *Mentions* (Menções): notícias jornalísticas, posts em blogs, comentários e verbetes da Wikipédia;
+  4. *Social Media* (Redes Sociais): tweets, compartilhamentos e curtidas públicas;
+  5. *Citations* (Citações): contagem tradicional de citações acadêmicas e citações em patentes.
+
+---
+
+### 6. Sistemas Institucionais de Avaliação: Qualis-CAPES, DORA e Leiden
 
 #### A. O Sistema Qualis-Periódicos da CAPES
 O **Qualis** é o sistema oficial mantido pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para categorizar os periódicos científicos utilizados pelos programas de pós-graduação brasileiros:
 * **Novo Qualis de Referência (Quadriênio 2017-2020 em diante):**
   * Elimina a antiga fragmentação em que a mesma revista tinha notas diferentes em diferentes comitês de área;
   * Classificação única nacional em **8 estratos hierárquicos**:
-    $$\text{A1} > \text{A2} > \text{A3} > \text{A4} > \text{B1} > \text{B2} > \text{B3} > \text{B4}$$
+    $\text{A1} > \text{A2} > \text{A3} > \text{A4} > \text{B1} > \text{B2} > \text{B3} > \text{B4}$
   * Periódicos não enquadráveis, sem rigor científico ou predatórios são classificados no estrato **C** (peso zero para fins de fomento).
 
 #### B. A Declaração DORA (San Francisco Declaration on Research Assessment, 2012)
@@ -176,33 +270,40 @@ Conjunto de dez princípios canônicos para orientar o uso responsável de indic
 
 ---
 
-### 5. Revisão das Vias do Acesso Aberto (Open Access)
+### 7. Revisão das Vias do Acesso Aberto (Open Access)
 
 Conectando-se ao compromisso de universalização do conhecimento:
 * **Via Dourada (*Gold Open Access*):** Publicação em revistas de acesso aberto imediato. Pode ser financiada por taxas de processamento de artigos (**APC - *Article Processing Charges***) pagas pelo autor ou instituição, ou gratuita.
 * **Via Verde (*Green Open Access*):** Autoarquivamento (*self-archiving*) pelo próprio pesquisador de versões pré-print (antes da revisão) ou pós-print (artigo aceito após revisão) em **repositórios institucionais ou temáticos abertos**, respeitando eventuais períodos de embargo editorial.
-* **Via Diamante ou Platina (*Diamond / Platinum Open Access*):** Publicação em periódicos totalmente abertos que **NÃO cobram taxas de ninguém** — nem dos leitores (acesso 100% gratuito) nem dos autores (sem cobrança de APC). É o modelo amplamente sustentado no Brasil e na América Latina por universidades públicas, sociedades científicas e pelo ecossistema **SciELO**.`,
+* **Via Diamante ou Platina (*Diamond / Platinum Open Access*):** Publicação em periódicos totalmente abertos que **NÃO cobram taxas de ninguém** — nem dos leitores (acesso 100% gratuito) nem dos autores (sem cobrança de APC). É o modelo amplamente sustentado no Brasil e na América Latina por universidades públicas, sociedades científicas e pelo ecossistema **SciELO**.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Avaliação de Coleções e Métricas (sub-5-3):** Leis de Bradford, Lotka e Zipf aplicadas à gestão de periódicos.
+* **Ciência de Dados e Text Mining (sub-14-4):** Lei de Zipf e análise de frequência de vocábulos.
+`,
   checkpoints: [
     {
       id: 'cp-9-4-1',
       pergunta: 'Micro-Checkpoint 1: Associação das Leis Bibliométricas',
       item: 'A lei de Lotka estabelece que a distribuição de artigos científicos em periódicos organiza-se em um núcleo de revistas dedicadas e zonas sucessivas que crescem em progressão geométrica.',
       gabarito: 'E',
-      justificativa: 'Errado! Essa definição refere-se à LEI DE BRADFORD (dispersão de periódicos). A Lei de Lotka trata da produtividade de autores segundo a regra do quadrado inverso.',
+      justificativa: 'Errado! Essa definição refere-se à LEI DE BRADFORD (dispersão de periódicos em zonas 1 : n : n²). A Lei de Lotka trata da produtividade de autores segundo a regra do quadrado inverso (An = A1 / n²).',
     },
     {
       id: 'cp-9-4-2',
       pergunta: 'Micro-Checkpoint 2: Aplicação do Índice h',
       item: 'O índice h, formulado por Jorge Hirsch, caracteriza-se por quantificar conjuntamente a produtividade e o impacto das publicações de um pesquisador, baseando-se no número de artigos que atingiram determinado patamar de citações.',
       gabarito: 'C',
-      justificativa: 'Correto! O índice h sintetiza volume de produção com relevância/citação acumulada.',
+      justificativa: 'Correto! O índice h sintetiza volume de produção com relevância/citação acumulada (h artigos com pelo menos h citações cada).',
     },
     {
       id: 'cp-9-4-3',
-      pergunta: 'Micro-Checkpoint 3: Vias Dourada, Verde e Diamante do Acesso Aberto',
-      item: "Na tipologia do Acesso Aberto, a 'Via Verde' designa a publicação original em periódico que não cobra taxas de processamento de artigos (APC) nem do leitor nem do autor.",
-      gabarito: 'E',
-      justificativa: "Errado! A via que não cobra taxas de ninguém é a 'Via Diamante' (ou Platina). A 'Via Verde' consiste no autoarquivamento de pré-prints ou pós-prints pelo próprio autor em repositórios institucionais abertos.",
+      pergunta: 'Micro-Checkpoint 3: Acoplamento Bibliográfico vs. Cocitação',
+      item: 'Diferentemente da cocitação, cuja intensidade varia dinamicamente ao longo do tempo à medida que novos artigos citam conjuntamente determinado par de documentos, o acoplamento bibliográfico é uma medida fixa e permanente, determinada de modo retrospectivo pelas listas de referências dos próprios trabalhos analisados.',
+      gabarito: 'C',
+      justificativa: 'Correto! O acoplamento bibliográfico (Kessler, 1963) é fixo e retrospectivo (definido pelas referências dos documentos já publicados, que nunca mudam). Já a cocitação (Small/Marshakova, 1973) é prospectiva e dinâmica, pois novos artigos podem continuar citando conjuntamente os dois trabalhos no futuro.',
     },
   ],
   mnemonicos: {
@@ -230,17 +331,17 @@ Conectando-se ao compromisso de universalização do conhecimento:
       },
       {
         id: 'tl-9-4-4',
-        periodo: '1963 / 1975',
-        disciplina: 'Fator de Impacto e JCR',
-        focoPrincipal: 'Criação do Fator de Impacto por Eugene Garfield no Science Citation Index / ISI',
-        figuraChave: 'Eugene Garfield',
+        periodo: '1963 / 1973',
+        disciplina: 'Acoplamento e Cocitação',
+        focoPrincipal: 'M. M. Kessler propõe o acoplamento bibliográfico (1963); Small e Marshakova formulam a cocitação (1973)',
+        figuraChave: 'M. M. Kessler / Henry Small',
       },
       {
         id: 'tl-9-4-5',
-        periodo: '2005 / 2012',
-        disciplina: 'Índice h e Movimento DORA',
-        focoPrincipal: 'Formulação do Índice h por Jorge Hirsch e Declaração DORA de avaliação responsável',
-        figuraChave: 'Jorge E. Hirsch / Declaração DORA',
+        periodo: '1975 / 2005 / 2010',
+        disciplina: 'JCR, Índice h e Altmetria',
+        focoPrincipal: 'Criação do JCR/FI por Garfield (1975), formulação do Índice h por Hirsch (2005) e Manifesto Altmetrics por Priem et al. (2010)',
+        figuraChave: 'Eugene Garfield / Jorge Hirsch / Jason Priem',
       },
     ],
     autores: [
@@ -276,28 +377,50 @@ Conectando-se ao compromisso de universalização do conhecimento:
         ideiaChave: 'Índice h: h artigos com pelo menos h citações; equilibra quantidade e impacto.',
         chipPegadinha: 'Não serve para comparar pesquisadores de áreas distintas.',
       },
+      {
+        id: 'aut-9-4-5',
+        nome: 'M. M. Kessler & Henry Small',
+        ano: 1963,
+        obraPrincipal: 'Bibliographic coupling between scientific papers (1963) / Co-citation in the scientific literature (1973)',
+        ideiaChave: 'Acoplamento bibliográfico é fixo e retrospectivo; Cocitação é dinâmica e prospectiva.',
+        chipPegadinha: 'Banca inverte: diz que acoplamento é dinâmico e cocitação é estática.',
+      },
+      {
+        id: 'aut-9-4-6',
+        nome: 'Jason Priem et al.',
+        ano: 2010,
+        obraPrincipal: 'Altmetrics: A manifesto',
+        ideiaChave: 'Altmetria: mensuração do impacto e atenção na Web social e políticas públicas como métrica complementar.',
+        chipPegadinha: 'Altmetria NÃO substitui o julgamento de pares e a citação acadêmica.',
+      },
     ],
     pegadinhas: [
       {
         id: 'peg-9-4-1',
+        afirmacao: 'O acoplamento bibliográfico entre dois artigos científicos é uma medida essencialmente prospectiva, pois se modifica dinamicamente com as citações que os documentos receberem ao longo dos anos.',
+        gabarito: 'E',
+        porQue: 'Essa é a pegadinha favorita do Cebraspe! O acoplamento bibliográfico é RETROSPECTIVO e FIXO (olha para as referências passadas dos próprios artigos, que nunca mudam). Quem é prospectiva e dinâmica é a COCITAÇÃO.',
+      },
+      {
+        id: 'peg-9-4-2',
         afirmacao: 'O cálculo do fator de impacto de um periódico no Journal Citation Reports (JCR) inclui no denominador todos os tipos de documentos publicados pela revista, tais como resenhas, cartas e editoriais.',
         gabarito: 'E',
         porQue: 'Essa pegadinha caiu na UNEAL 2026! O denominador considera apenas "itens citáveis" (artigos de pesquisa e revisões), excluindo cartas e editoriais.',
       },
       {
-        id: 'peg-9-4-2',
-        afirmacao: 'Na lei de Zipf, as palavras que apresentam maior frequência de ocorrência em um texto longo são exatamente aquelas que possuem maior especificidade e relevância para a indexação de assuntos.',
+        id: 'peg-9-4-3',
+        afirmacao: 'Na análise de redes sociais de coautoria, um pesquisador com baixo número de publicações diretas não pode, em nenhuma hipótese, apresentar elevada centralidade de intermediação (betweenness centrality).',
         gabarito: 'E',
-        porQue: 'Palavras de altíssima frequência são preposições, artigos e conjunções (stop words sem valor substantivo). As palavras ideais de indexação estão na zona intermediária de frequência.',
+        porQue: 'Pode sim! A centralidade de intermediação mede o papel de "ponte". Um pesquisador que tenha poucas publicações, mas conecte dois grupos que de outro modo seriam isolados, terá altíssima intermediação.',
       },
       {
-        id: 'peg-9-4-3',
+        id: 'peg-9-4-4',
         afirmacao: 'O índice h é uma métrica recomendada pela Declaração DORA para a comparação direta e irrestrita entre cientistas de diferentes áreas do conhecimento, tais como medicina e matemática pura.',
         gabarito: 'E',
         porQue: 'A Declaração DORA condena comparações simplistas por métricas numéricas isoladas, e o índice h varia radicalmente pelas tradições de citação díspares de cada campo.',
       },
       {
-        id: 'peg-9-4-4',
+        id: 'peg-9-4-5',
         afirmacao: 'A via que viabiliza o Acesso Aberto sem custos nem para o leitor (gratuito) nem para o autor (sem cobrança de APC) é denominada pela literatura de Via Dourada.',
         gabarito: 'E',
         porQue: 'A via sem cobrança de taxas nem do autor nem do leitor é a VIA DIAMANTE (ou Platina). A Via Dourada pode cobrar ou não APC.',
@@ -305,3 +428,4 @@ Conectando-se ao compromisso de universalização do conhecimento:
     ],
   },
 };
+

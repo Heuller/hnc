@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo13: ModuloFilho = {
   id: 'sub-1-3',
   numero: '1.3',
+  editalRef: 'Bloco A - Item 1.1 e 1.4',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-1-5",
+          "titulo": "Ciclo de Vida, Qualidade e Memória",
+          "motivo": "Analisa a estruturação dos dados e o modelo de qualidade de Wang & Strong."
+      },
+      {
+          "submoduloId": "sub-14-4",
+          "titulo": "Ciência de Dados e Text Mining",
+          "motivo": "Tratamento de dados não estruturados de proposições legislativas."
+      }
+  ],
   titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
   titulo_curto: 'Informação, Conhecimento e Documento',
   descricaoCurta: 'A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.',
@@ -102,7 +116,7 @@ No seminal artigo *Epistemology and Information Science* (2003), o filósofo e c
 * **Raiz Teórica:** Teoria do Conhecimento, Psicologia Cognitiva e Inteligência Artificial, liderado por Bertram Brookes, Nicholas Belkin e Peter Ingwersen.
 * **Conceito de Informação:** A informação é um **processo cognitivo que modifica estruturas mentais**. Não é o sinal físico em si, mas aquilo que transforma os estados de conhecimento do usuário.
 * **A Equação Fundamental da Ciência da Informação (Bertram Brookes, 1980):**
-  $$K[S] + \\Delta I = K[S + \\Delta S]$$
+  $K[S] + \\Delta I = K[S + \\Delta S]$
   *Onde $K[S]$ representa a estrutura cognitiva inicial do sujeito, $\\Delta I$ é o incremento informacional assimilado, e $K[S + \\Delta S]$ é a estrutura de conhecimento alterada e enriquecida.*
 * **O Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):** O usuário não busca informação porque sabe exatamente o que deseja, mas porque vivencia um "Estado Anômalo de Conhecimento" — uma lacuna, incerteza ou dúvida que ele é incapaz de articular perfeitamente em linguagem de busca.
 * **Brenda Dervin e o Modelo *Sense-Making*:** O usuário encontra uma "brecha" cognitiva (*gap*) e busca pontes informacionais para dar sentido ao seu mundo e continuar sua caminhada.
@@ -132,7 +146,14 @@ No contexto legislativo da Câmara dos Deputados:
 | *"Segundo Michael Buckland, os sistemas informatizados de bibliotecas são capazes de armazenar tanto informação como coisa quanto informação como processo."* | **ERRADO** | Sistemas só podem armazenar e processar **informação como coisa**. O processo é a dinâmica subjetiva do ato de informar. |
 | *"A equação fundamental de Bertram Brookes pertence epistemologicamente ao paradigma físico de Shannon e Weaver."* | **ERRADO** | A equação de Brookes pertence expressamente ao **paradigma cognitivo**, pois modela a transformação das estruturas mentais do sujeito ($K[S]$). |
 | *"No paradigma social da Ciência da Informação, a relevância de um documento é uma medida matemática universal invariável no tempo e no espaço."* | **ERRADO** | No paradigma social (Hjørland), a relevância é **situada, contextual e relativa** à comunidade de domínio que avalia o documento. |
-| *"Para Suzanne Briet, a intencionalidade de registro é irrelevante para que um objeto material seja elevado à categoria de documento."* | **ERRADO** | A **intencionalidade** é um dos 4 requisitos cumulativos obrigatórios estabelecidos por Briet (materialidade, intencionalidade, tratamento e valor probatório). |`,
+| *"Para Suzanne Briet, a intencionalidade de registro é irrelevante para que um objeto material seja elevado à categoria de documento."* | **ERRADO** | A **intencionalidade** é um dos 4 requisitos cumulativos obrigatórios estabelecidos por Briet (materialidade, intencionalidade, tratamento e valor probatório). |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Ciclo de Vida, Qualidade e Memória (sub-1-5):** Analisa a estruturação dos dados e o modelo de qualidade de Wang & Strong.
+* **Ciência de Dados e Text Mining (sub-14-4):** Tratamento de dados não estruturados de proposições legislativas.
+`,
   checkpoints: [
     {
       id: 'cp-1-3-1',

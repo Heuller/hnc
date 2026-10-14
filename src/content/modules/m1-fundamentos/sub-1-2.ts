@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo12: ModuloFilho = {
   id: 'sub-1-2',
   numero: '1.2',
+  editalRef: 'Bloco A - Item 1.1 e 1.6',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-5-1",
+          "titulo": "Desenvolvimento e Gestão de Coleções",
+          "motivo": "Aplica a 1ª, 2ª e 3ª leis de Ranganathan à política de seleção e censura."
+      },
+      {
+          "submoduloId": "sub-6-1",
+          "titulo": "Bibliotecas Digitais e Discovery",
+          "motivo": "Aplica a 4ª e 5ª leis à economia de tempo e evolução dos repositórios digitais."
+      }
+  ],
   titulo: 'As Cinco Leis de Ranganathan e Releituras Contemporâneas',
   titulo_curto: 'Cinco Leis de Ranganathan',
   descricaoCurta: 'O tratado de Shiyali Ramamrita Ranganathan (1931), análise sistêmica de cada lei, implicações em bibliotecas legislativas e as formulações de Michael Gorman, Jim Thompson e Rettig.',
@@ -140,7 +154,7 @@ Ao analisar o índice de resumos químicos (*Chemical Abstracts*) e de física, 
 Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavras de um texto por ordem decrescente de frequência:
 * A palavra mais comum ocorre aproximadamente com o dobro da frequência da 2ª mais comum, o triplo da 3ª, e assim sucessivamente.
 * A fórmula clássica é:
-  $$r \\times f = C$$
+  $r \\times f = C$
   *(onde $r$ é a ordem de colocação ou posto, $f$ é a frequência absoluta e $C$ é uma constante).*
 * **O Princípio do Menor Esforço (*Principle of Least Effort*):** O ser humano tende a reutilizar um vocabulário restrito de palavras econômicas e polissêmicas.
 * **Aplicação em Ciência da Informação (H. P. Luhn, 1958):**
@@ -158,7 +172,14 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 | *"A Lei de Lotka trata da dispersão de artigos científicos em periódicos nucleares e periféricos."* | **ERRADO** | A dispersão de artigos em periódicos é a **Lei de Bradford**. Lotka trata da **produtividade dos autores** (quadrado inverso). |
 | *"Segundo a Lei de Zipf, as palavras com maior frequência absoluta em um texto são as ideais para atuar como descritores de indexação."* | **ERRADO** | Palavras de frequência máxima são *stop words* (artigos, preposições) e têm valor nulo de recuperação. Os descritores situam-se na **média frequência** (Luhn). |
 | *"A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') recomenda que os usuários não tenham acesso direto às estantes para não desorganizá-las."* | **ERRADO** | A 4ª Lei exige expressamente o **livre acesso às estantes** para agilizar a consulta e evitar esperas burocráticas no balcão. |
-| *"A 5ª Lei de Ranganathan impede o descarte de materiais em bibliotecas públicas, pois o acervo deve apenas crescer cumulativamente."* | **ERRADO** | Como organismo vivo, a biblioteca precisa tanto crescer quanto eliminar células mortas: a 5ª Lei **fundamenta e exige o desbastamento e o descarte** periódico. |`,
+| *"A 5ª Lei de Ranganathan impede o descarte de materiais em bibliotecas públicas, pois o acervo deve apenas crescer cumulativamente."* | **ERRADO** | Como organismo vivo, a biblioteca precisa tanto crescer quanto eliminar células mortas: a 5ª Lei **fundamenta e exige o desbastamento e o descarte** periódico. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Desenvolvimento e Gestão de Coleções (sub-5-1):** Aplica a 1ª, 2ª e 3ª leis de Ranganathan à política de seleção e censura.
+* **Bibliotecas Digitais e Discovery (sub-6-1):** Aplica a 4ª e 5ª leis à economia de tempo e evolução dos repositórios digitais.
+`,
   checkpoints: [
     {
       id: 'cp-1-2-1',

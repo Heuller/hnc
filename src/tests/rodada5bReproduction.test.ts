@@ -74,18 +74,18 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
     });
   });
 
-  describe('Falha 2: Transição indevida de 1.4 diretamente para 2.1 sem Simulado M1', () => {
-    it('REPRODUÇÃO: allSubmodules coloca 2.1 como sucessor imediato de 1.4', () => {
+  describe('Falha 2: Transição indevida de 1.6 diretamente para 2.1 sem Simulado M1', () => {
+    it('REPRODUÇÃO: allSubmodules coloca 2.1 como sucessor imediato do último submódulo de M1 (1.6)', () => {
       const allSubmodules = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos);
-      const sub14Index = allSubmodules.findIndex((s) => s.numero === '1.4');
-      const nextSubFrom14 = allSubmodules[sub14Index + 1];
+      const sub16Index = allSubmodules.findIndex((s) => s.numero === '1.6');
+      const nextSubFrom16 = allSubmodules[sub16Index + 1];
 
-      // FALHA IDENTIFICADA: O sucessor direto de 1.4 na navegação plana é 2.1!
-      // Em TeoriaPage, o botão no rodapé de 1.4 renderiza "Submódulo 2.1",
+      // FALHA IDENTIFICADA: O sucessor direto do último submódulo de M1 (1.6) na navegação plana é 2.1!
+      // Em TeoriaPage, o botão no rodapé de 1.6 renderizaria "Submódulo 2.1",
       // permitindo que o usuário avance para o Módulo 2 sem realizar o Simulado de 100 itens do M1.
-      expect(sub14Index).toBeGreaterThanOrEqual(0);
-      expect(nextSubFrom14).toBeDefined();
-      expect(nextSubFrom14.numero).toBe('2.1');
+      expect(sub16Index).toBeGreaterThanOrEqual(0);
+      expect(nextSubFrom16).toBeDefined();
+      expect(nextSubFrom16.numero).toBe('2.1');
     });
   });
 });

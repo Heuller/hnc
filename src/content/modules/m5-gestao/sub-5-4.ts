@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo54: ModuloFilho = {
   id: 'sub-5-4',
   numero: '5.4',
+  editalRef: 'Bloco A - Item 1.6 e Bloco D - Item 4.1',
+  preRequisitos: ["sub-1-6"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-1-6",
+          "titulo": "Governança da Informação e de Dados",
+          "motivo": "Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA."
+      }
+  ],
   titulo: 'Gestão da Informação e Gestão do Conhecimento Organizacional',
   descricaoCurta: 'Distinção epistemológica entre Gestão da Informação e Gestão do Conhecimento, modelo da Organização do Conhecimento de Chun Wei Choo, Espiral do Conhecimento SECI de Nonaka e Takeuchi, e ecologia da informação de Davenport.',
   tempoEstimadoMinutos: 40,
@@ -44,7 +53,7 @@ A Ciência da Informação contemporânea estabelece uma clara demarcação teó
 
 A distinção canônica entre as naturezas do conhecimento foi formulada pelo filósofo **Michael Polanyi** (*The Tacit Dimension*, 1966) e popularizada na administração por Nonaka e Takeuchi:
 
-$$\\text{"Podemos saber mais do que podemos dizer."} \\quad - \\; \\text{Michael Polanyi}$$
+$\\text{"Podemos saber mais do que podemos dizer."} \\quad - \\; \\text{Michael Polanyi}$
 
 | Dimensão | Conhecimento Tácito | Conhecimento Explícito |
 | :--- | :--- | :--- |
@@ -149,7 +158,13 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 * **Barreiras ao Compartilhamento do Conhecimento:**
   * *Barreiras Culturais:* A crença arcaica de que "reter informação é reter poder", gerando feudos departamentais.
   * *Barreiras Organizacionais:* Estruturas excessivamente burocráticas e verticais que inibem o diálogo horizontal.
-  * *Barreiras Tecnológicas:* Sistemas fragmentados que não conversam entre si e interfaces pouco amigáveis.`,
+  * *Barreiras Tecnológicas:* Sistemas fragmentados que não conversam entre si e interfaces pouco amigáveis.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Governança da Informação e de Dados (sub-1-6):** Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA.
+`,
   checkpoints: [
     {
       id: 'cp-5-4-1',

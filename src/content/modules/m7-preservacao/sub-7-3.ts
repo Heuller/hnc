@@ -3,9 +3,19 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo73: ModuloFilho = {
   id: 'sub-7-3',
   numero: '7.3',
+  editalRef: 'Bloco D - Item 4.8',
+  preRequisitos: ["sub-7-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-3",
+          "titulo": "Preservação Digital (OAIS e PREMIS)",
+          "motivo": "Preservação de matrizes digitalizadas e suporte de longo prazo."
+      }
+  ],
   titulo: 'Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos',
   descricaoCurta: 'Diferenças entre preservação, conservação e restauração, técnicas de higienização mecânica a seco (trinchas, esponjas e aspiradores HEPA), materiais adequados de acondicionamento (papel alcalino/acid-free e poliéster vs. PVC), pequenos reparos com papel japonês e regras ergonômicas de manuseio e estantes.',
   tempoEstimadoMinutos: 40,
+  prioridade: 'normal',
   autoresChave: ['Norma Cassares', 'Ingrid Beck', 'Maria Luísa Soares', 'Paul N. Banks', 'Library of Congress', 'IFLA-PAC'],
   alertasCebraspe: [
     'Hierarquia conceitual: Preservação (conjunto global de medidas políticas, administrativas, financeiras e prediais); Conservação Preventiva (ações indiretas sobre o meio ambiente, controle de temperatura/umidade, CIP e acondicionamento para retardar a deterioração); Conservação Curativa (ações diretas sobre o item para estancar dano ativo em curso); Restauração (intervenção direta para recuperar a integridade estética e física perdida, regida pela reversibilidade e intervenção mínima).',
@@ -118,28 +128,39 @@ O reparo emergencial de rasgos em livros de valor histórico ou patrimonial não
   * Os livros não devem ficar excessivamente apertados (dificulta a retirada e comprime a costura) nem folgados demais (faz com que o livro tombe lateralmente, empenando a encadernação).
 * **Armazenamento de Obras de Grandes Formatos (In-fólio, Jornais e Atlas):**
   * Livros pesados e de grandes dimensões **não suportam a guarda vertical**, pois o peso do próprio miolo deforma e rompe a costura da lombada pela gravidade.
-  * Devem ser guardados **deitados na posição horizontal** em prateleiras planas ou mapotecas, em pilhas de **no máximo 2 a 3 volumes**, evitando que o sobrepeso excessivo esmague a encadernação dos livros da base.`,
+  * Devem ser guardados **deitados na posição horizontal** em prateleiras planas ou mapotecas, em pilhas de **no máximo 2 a 3 volumes**, evitando que o sobrepeso excessivo esmague a encadernação dos livros da base.
+
+---
+
+### 6. Convergência com a Preservação Digital
+Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e Centro de Documentação e Informação - Cedi), a conservação preventiva física articula-se organicamente com a **Preservação Digital** tratada no **Submódulo 6.3** (Modelo OAIS / ISO 14721, fixidez com checksums SHA-256 e formatos abertos normatizados como PDF/A ISO 19005 e TIFF ISO 12639), garantindo tanto a longevidade dos volumes raros físicos quanto a integridade e autenticidade jurídica das matrizes digitais custodiadas.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Preservação Digital (OAIS e PREMIS) (sub-6-3):** Preservação de matrizes digitalizadas e suporte de longo prazo.
+`,
   checkpoints: [
     {
       id: 'cp-7-3-1',
       pergunta: 'Micro-Checkpoint 1: Técnicas de Manuseio e Retirada de Livros',
       item: 'Para preservar a integridade das encadernações nas estantes de uma biblioteca, o usuário ou bibliotecário deve retirar o livro puxando-o com firmeza pela parte superior da lombada (cabeça), o que facilita sua extração sem atrito com os volumes vizinhos.',
       gabarito: 'E',
-      justificativa: 'Errado! Essa é a prática mais destrutiva em bibliotecas. Puxar pela ponta superior da lombada causa o rasgamento do revestimento. O correto é empurrar os livros adjacentes para trás e puxar o exemplar segurando pelo meio da lombada.',
+      justificativa: 'Errado! Conforme as recomendações de Norma Cassares (2000) e Ingrid Beck (1995), essa é a prática mais destrutiva em bibliotecas. Puxar pela ponta superior da lombada causa o rasgamento do revestimento e da coifa. O correto é empurrar os livros adjacentes para trás e puxar o exemplar segurando pelo meio do corpo da lombada.',
     },
     {
       id: 'cp-7-3-2',
       pergunta: 'Micro-Checkpoint 2: Materiais para Acondicionamento de Obras Raras',
       item: 'No acondicionamento e proteção de fotografias e papéis históricos, o emprego de invólucros plásticos confeccionados em PVC (policloreto de vinila) é expressamente desaconselhado pelos conservadores em virtude da liberação contínua de gases ácidos e plastificantes químicos voláteis.',
       gabarito: 'C',
-      justificativa: 'Correto! O PVC é quimicamente instável e libera ácido clorídrico; devem ser utilizados exclusivamente poliéster estável (Mylar), polietileno ou polipropileno.',
+      justificativa: 'Correto! Conforme a literatura de conservação preventiva (Cassares, 2000; Soares, 2005), o PVC é quimicamente instável e libera ácido clorídrico; devem ser utilizados exclusivamente plásticos inertes como poliéster estável (Mylar/Melinex), polietileno ou polipropileno virgens.',
     },
     {
       id: 'cp-7-3-3',
-      pergunta: 'Micro-Checkpoint 3: Emulação vs Migração na Preservação Digital',
+      pergunta: 'Micro-Checkpoint 3: Emulação vs Preservação de Tecnologia',
       item: 'A estratégia de emulação em preservação digital preserva o software e o hardware originais em museus físicos para permitir a execução pontual dos arquivos legados em suas máquinas de época.',
       gabarito: 'E',
-      justificativa: 'Errado! A emulação NÃO consiste em guardar o hardware físico, mas em recriar por software (código emulador) o ambiente operacional e a arquitetura de processamento em computadores modernos para rodar os dados sem convertê-los.',
+      justificativa: 'Errado! Conforme a doutrina de preservação digital (Arellano, 2004; Rosenthal, 2005) e a norma ISO 14721 (OAIS), a emulação NÃO consiste em guardar o hardware físico (o que corresponde à Preservação de Tecnologia), mas em recriar por software (código emulador) o ambiente operacional e a arquitetura em computadores modernos para rodar os dados binários intocados sem convertê-los.',
     },
   ],
   mnemonicos: {

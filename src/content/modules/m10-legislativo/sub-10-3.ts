@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo103: ModuloFilho = {
   id: 'sub-10-3',
   numero: '10.3',
+  editalRef: 'Conhecimentos Básicos - Administração da Câmara e Transparência',
+  preRequisitos: ["sub-10-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-11-12",
+          "titulo": "Transparência e LAI",
+          "motivo": "Portal da Transparência da Câmara e dados abertos de despesas parlamentares."
+      }
+  ],
   titulo: 'Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública',
   descricaoCurta: 'A Lei nº 12.527/2011 (LAI): princípio da publicidade máxima, transparência ativa vs. passiva, prazos do SIC, graus de sigilo (Reservada 5 anos, Secreta 15 anos, Ultrassecreta 25 anos), proteção de dados pessoais (100 anos), a LGPD (Lei 13.709/2018) e a neutralidade técnica na consultoria parlamentar.',
   tempoEstimadoMinutos: 45,
@@ -130,7 +139,13 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
   * O bibliotecário parlamentar atende a deputados federais de todas as agremiações políticas, ideologias e correntes partidárias (bancadas do governo e da oposição).
   * Em consultas de pesquisa doutrinária, legislativa e jurisprudencial formuladas por parlamentares ou comissões, **é estritamente vedado ao bibliotecário direcionar a seleção informacional** para favorecer a tese política ou a preferência ideológica do solicitante.
   * O dossiê bibliográfico deve refletir com **equidistância técnica e pluralismo científico** o estado da arte do tema em debate, apresentando tanto a corrente doutrinária majoritária quanto os argumentos das correntes minoritárias e dissidentes.
-* **Sigilo Profissional da Demanda Parlamentar:** As pesquisas encomendadas por gabinetes parlamentares para embasar projetos de lei em formulação gozam de confidencialidade funcional até que a proposição seja protocolada formalmente pela liderança ou parlamentar no sistema da Casa.`,
+* **Sigilo Profissional da Demanda Parlamentar:** As pesquisas encomendadas por gabinetes parlamentares para embasar projetos de lei em formulação gozam de confidencialidade funcional até que a proposição seja protocolada formalmente pela liderança ou parlamentar no sistema da Casa.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Transparência e LAI (sub-11-12):** Portal da Transparência da Câmara e dados abertos de despesas parlamentares.
+`,
   checkpoints: [
     {
       id: 'cp-10-3-1',

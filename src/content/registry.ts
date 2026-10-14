@@ -81,3 +81,5 @@ export {
   moduloM14TecnologiaDados,
 };
 
+export { CASOS_INTEGRADORES } from '../domain/casosIntegradores';
+

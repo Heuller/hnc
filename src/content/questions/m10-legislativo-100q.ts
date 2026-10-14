@@ -24,9 +24,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.1",
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
-    "item": "Uma 'sessão conjunta' do Congresso Nacional é aquela realizada conjuntamente por Deputados e Senadores sob a direção da Mesa do Senado Federal, no plenário da Câmara dos Deputados (ou do Senado), para inaugurar a sessão legislativa, deliberar sobre vetos ou votar o orçamento da União.",
+    "item": "Uma 'sessão conjunta' do Congresso Nacional é aquela realizada conjuntamente por Deputados e Senadores sob a direção da Mesa do Congresso Nacional (órgão bicameral presidido pelo Presidente do Senado Federal), para inaugurar a sessão legislativa, deliberar sobre vetos ou votar o orçamento da União.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 57, § 3º e 5º da CF/88: a Mesa do Congresso é presidida pelo Presidente do Senado Federal.",
+    "justificativa": "Gabarito CERTO. Conforme o Art. 57, § 3º e § 5º da CF/88 e o Regimento Comum (Resolução nº 1/1970-CN), a sessão conjunta do Congresso Nacional é dirigida pela Mesa do Congresso Nacional, órgão colegiado presidido pelo Presidente do Senado Federal, com alternância dos demais cargos entre a Câmara dos Deputados e o Senado Federal.",
     "armadilhaBanca": "Sessão conjunta do Congresso Nacional.",
     "dificuldade": "media",
     "fonteOriginal": {

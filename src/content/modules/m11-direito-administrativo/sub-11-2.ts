@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo112: ModuloFilho = {
   id: 'sub-11-2',
   numero: '11.2',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)',
+  preRequisitos: ["sub-11-1"],
   titulo: 'Ato Administrativo, Invalidação e Responsabilidade por Pareceres',
   titulo_curto: 'Atos Administrativos e Pareceres',
   descricaoCurta: 'Conceito, requisitos de validade (COFIFOMOB) e atributos (PATI). Classificação e espécies de atos. Extinção: anulação, revogação, cassação, caducidade e convalidação (FO-CO). Teoria dos Motivos Determinantes. Espécies de parecer e responsabilidade do emissor (STF e LINDB).',

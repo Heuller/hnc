@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo31: ModuloFilho = {
   id: 'sub-3-1',
   numero: '3.1',
+  editalRef: 'Bloco D - Item 3.1',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-3-2",
+          "titulo": "Classificação Decimal Universal (CDU)",
+          "motivo": "Contraste entre o modelo enumerativo hierárquico da CDD e o modelo analítico-sintético da CDU."
+      }
+  ],
   titulo: 'Teoria da Classificação, CDD (23ª ed.) e CDU',
   descricaoCurta: 'Teoria da classificação bibliográfica (Piedade), estrutura hierárquica e enumerativa da CDD (23ª ed. e Tabelas T1 a T6), e arquitetura analítico-sintética da CDU (sinais de síntese, auxiliares comuns independentes e dependentes, e auxiliares especiais analíticas).',
   tempoEstimadoMinutos: 45,
@@ -158,7 +167,13 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 | **Vacância da Classe 4 da CDU** | *"Na Classificação Decimal Universal, as 10 classes principais encontram-se plenamente ocupadas, estando a classe 4 reservada para as ciências da linguagem."* | **ERRADO.** A classe 4 está **vaga**. Os conteúdos de linguagem migraram para a classe 8 juntamente com a literatura. |
 | **Sinal de Relação Fixa (::)** | *"O sinal de dois pontos duplos (::) na CDU indica que os dois conceitos indexados podem ser livremente invertidos na ordenação do catálogo coletivo."* | **ERRADO.** Quem admite inversão livre é a relação simples (**:**). Os dois pontos duplos (**::**) determinam **relação fixa / ordem irreversível**. |
 | **Extensão Consecutiva (/)** | *"O sinal de barra (/) na CDU é utilizado para coordenar temas distantes e dispersos nas tabelas, como História e Química."* | **ERRADO.** A barra indica **extensão consecutiva** (classes vizinhas e contíguas, ex.: 53/55). Para temas não consecutivos utiliza-se o sinal de adição (**+**). |
-| **Tabela 1 da CDD** | *"Para adicionar uma subdivisão padrão da Tabela 1 da CDD a um número de classificação, o catalogador necessita de autorização explícita na tabela principal."* | **ERRADO.** As subdivisões padrão da Tabela 1 da CDD aplicam-se **universalmente a qualquer número**, salvo instrução em contrário. |`,
+| **Tabela 1 da CDD** | *"Para adicionar uma subdivisão padrão da Tabela 1 da CDD a um número de classificação, o catalogador necessita de autorização explícita na tabela principal."* | **ERRADO.** As subdivisões padrão da Tabela 1 da CDD aplicam-se **universalmente a qualquer número**, salvo instrução em contrário. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Classificação Decimal Universal (CDU) (sub-3-2):** Contraste entre o modelo enumerativo hierárquico da CDD e o modelo analítico-sintético da CDU.
+`,
   checkpoints: [
     {
       id: 'cp-3-1-1',

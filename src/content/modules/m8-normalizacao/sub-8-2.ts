@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo82: ModuloFilho = {
   id: 'sub-8-2',
   numero: '8.2',
+  editalRef: 'Bloco D - Item 5.3',
+  preRequisitos: ["sub-8-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-8-1",
+          "titulo": "NBR 6023 (Referências)",
+          "motivo": "Chamadas no texto pelo sistema autor-data e numérico."
+      }
+  ],
   titulo: 'ABNT NBR 10520: Citações em Documentos (Versão 2023)',
   descricaoCurta: 'A histórica atualização da ABNT NBR 10520:2023, o fim da caixa alta obrigatória entre parênteses, citação direta curta (até 3 linhas entre aspas) vs. longa (recuo de 4 cm, sem aspas e entrelinha simples), citação indireta, citação de citação (apud) e expressões latinas.',
   tempoEstimadoMinutos: 45,
@@ -91,7 +100,7 @@ TITLE: Modalidades de Citação e Regras Tipográficas (ABNT NBR 10520:2023)
 * Utilizada quando o pesquisador não teve acesso físico ou digital ao documento original, citando-o por intermédio de outro autor que o transcreveu em sua obra:
 * A expressão latina **apud** significa "junto a", "em", "citado por" (grafa-se em fonte redonda ou itálica).
 * Formato Canônico:
-  $$\\text{Autor da Ideia Original (Ano original } \\textbf{apud} \\text{ Autor Consultado, Ano consultado, página)}$$
+  $\\text{Autor da Ideia Original (Ano original } \\textbf{apud} \\text{ Autor Consultado, Ano consultado, página)}$
   * Ex.: Segundo Otlet (1934 *apud* Briet, 1951, p. 7), o documento abrange múltiplos suportes informacionais.
 * **Regra Crítica das Referências Finais:** Na lista de referências ao término do trabalho acadêmico ou relatório técnico, **deve constar obrigatoriamente a referência completa da obra efetivamente consultada** (no exemplo, Briet, 1951). Faculta-se mencionar a obra original em nota de rodapé informativa.
 
@@ -125,7 +134,13 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 * \`Passim\`: aqui e ali (indica que a matéria encontra-se dispersa em várias passagens da obra citada).
 * \`Loco citato\` ou \`Loc. cit.\`: no mesmo lugar / na mesma página citada anteriormente.
 * \`Sequentia\` ou \`et seq.\`: e páginas seguintes (ex.: p. 15 et seq.).
-* *Atenção Cebraspe:* No corpo do texto sob o sistema autor-data, **nenhuma dessas expressões latinas é permitida**, com exceção única do **apud**.`,
+* *Atenção Cebraspe:* No corpo do texto sob o sistema autor-data, **nenhuma dessas expressões latinas é permitida**, com exceção única do **apud**.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **NBR 6023 (Referências) (sub-8-1):** Chamadas no texto pelo sistema autor-data e numérico.
+`,
   checkpoints: [
     {
       id: 'cp-8-2-1',

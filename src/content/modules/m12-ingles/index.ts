@@ -16,6 +16,8 @@ export const moduloM12Ingles: MacroModulo = {
   trilha: 'complementar',
   avisoVerificacao: 'Conhecimentos Básicos Oficiais (Edital nº 1/2026) — Língua Inglesa Instrumental estruturada segundo a banca Cebraspe',
   simuladoDisponivel: true,
+    blocoEdital: 'Conhecimentos Básicos: Língua Inglesa',
+  preRequisitos: [],
   modulosFilhos: [
     submodulo121,
     submodulo122,

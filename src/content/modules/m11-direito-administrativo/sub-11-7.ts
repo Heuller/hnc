@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo117: ModuloFilho = {
   id: 'sub-11-7',
   numero: '11.7',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 7: Serviços Públicos)',
+  preRequisitos: ["sub-11-5"],
   titulo: 'Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)',
   titulo_curto: 'Improbidade Administrativa',
   descricaoCurta: 'O novo regime da Lei nº 8.429/1992 após a Lei nº 14.230/2021. Extinção da modalidade culposa e exigência de dolo específico. Tipologias dos arts. 9º, 10 e taxatividade do art. 11. Sanções aplicáveis. Sujeito passivo e particular em coautoria. Prescrição de 8 anos e o ANPC.',

@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo122: ModuloFilho = {
   id: 'sub-12-2',
   numero: '12.2',
+  editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Morfossintaxe e Coesão Textual)',
+  preRequisitos: ["sub-12-1"],
   titulo: 'Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa',
   descricaoCurta: 'As famílias funcionais de conectivos em inglês (contraste, concessão, causa, consequência, adição e condição), a distinção sintática entre Although e Despite, e as técnicas de substituição e equivalência semântica cobradas pelo Cebraspe.',
   tempoEstimadoMinutos: 40,

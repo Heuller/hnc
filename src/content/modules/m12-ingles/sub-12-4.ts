@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo124: ModuloFilho = {
   id: 'sub-12-4',
   numero: '12.4',
+  editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 3: Reescrita e Paráfrase Semântica)',
+  preRequisitos: ["sub-12-3"],
   titulo: 'Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe',
   descricaoCurta: 'O arsenal de falsos amigos (actually, eventually, intend, pretend, comprehensive), a armadilha da alteração de grau nos verbos modais (may/might vs must/will), e o método para julgar itens de paráfrase e reescrita de sentenças no Cebraspe.',
   tempoEstimadoMinutos: 40,

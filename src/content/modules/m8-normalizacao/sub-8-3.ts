@@ -3,40 +3,49 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo83: ModuloFilho = {
   id: 'sub-8-3',
   numero: '8.3',
-  titulo: 'ABNT NBR 14724: Apresentação de Trabalhos Acadêmicos',
-  descricaoCurta: 'A estrutura formal de teses, dissertações e monografias (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
+  editalRef: 'Bloco D - Item 5.4',
+  preRequisitos: ["sub-8-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-8-4",
+          "titulo": "NBR 6028 (Resumos)",
+          "motivo": "Estruturação de trabalhos acadêmicos e elementos pré-textuais."
+      }
+  ],
+  titulo: 'ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos',
+  descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2011 (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
   tempoEstimadoMinutos: 45,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Instituto Brasileiro de Geografia e Estatística (IBGE)', 'Júnia Lessa França'],
   alertasCebraspe: [
-    'A MAIOR PEGADINHA DA NBR 14724: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). O Cebraspe inverte essas definições sistematicamente!',
-    'Elementos Obrigatórios vs. Opcionais na parte Pré-Textual: Obrigatórios = Folha de Rosto (com ficha catalográfica no verso), Folha de Aprovação (obrigatória para teses e dissertações), Resumo na língua vernácula, Resumo em língua estrangeira e Sumário. Opcionais = Errata, Dedicatória, Agradecimentos, Epígrafe, Listas de Ilustrações, Listas de Tabelas, Siglas e Símbolos.',
-    'Regra Estrita de Paginação: todas as folhas a partir da FOLHA DE ROSTO são CONTADAS na sequência numérica, mas o número da página só é IMPRESSO a partir da primeira folha da parte textual (INTRODUÇÃO), posicionado no canto superior direito a 2 cm da borda superior.',
+    'A MAIOR PEGADINHA DA NBR 14724:2011: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). O Cebraspe inverte essas definições sistematicamente!',
+    'Elementos Obrigatórios vs. Opcionais na parte Pré-Textual: Obrigatórios = Folha de Rosto (com ficha catalográfica no verso), Folha de Aprovação (obrigatória para teses e dissertações), Resumo na língua vernácula, Resumo em língua estrangeira e Sumário (NBR 6027:2012). Opcionais = Errata, Dedicatória, Agradecimentos, Epígrafe, Listas de Ilustrações, Listas de Tabelas, Siglas e Símbolos.',
+    'Regra Estrita de Paginação da NBR 14724:2011: todas as folhas a partir da FOLHA DE ROSTO são CONTADAS na sequência numérica, mas o número da página só é IMPRESSO a partir da primeira folha da parte textual (INTRODUÇÃO), posicionado no canto superior direito a 2 cm da borda superior.',
     'Margens regulamentares da folha (para impressão no anverso): Margem Superior e Margem Esquerda = 3 cm; Margem Inferior e Margem Direita = 2 cm. Para anverso e verso, as margens externas e internas alternam-se.',
     'Espaçamento interlinear: 1,5 para o texto corrido; espaçamento SIMPLES para citações diretas longas (recuadas a 4 cm), notas de rodapé, referências bibliográficas, legendas de ilustrações e tabelas.',
     'Diferença entre Tabela (IBGE) e Quadro (ABNT): Tabelas apresentam prioritariamente dados numéricos/quantitativos, têm topo e base delimitados por traços horizontais e NÃO possuem traços verticais de fechamento lateral (são abertas dos lados); Quadros apresentam dados textuais/qualitativos e são totalmente fechados por linhas em todos os quatro lados.',
   ],
   quadroComparativo: {
-    titulo: 'Estrutura Completa de Trabalhos Acadêmicos segundo a ABNT NBR 14724',
+    titulo: 'Estrutura Completa de Trabalhos Acadêmicos segundo a ABNT NBR 14724:2011',
     colunas: ['Parte Estrutural', 'Elementos Constitutivos Obrigatórios', 'Elementos Constitutivos Opcionais', 'Regra Específica de Formatação e Paginação', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
-      ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
-      ['Elementos Pré-Textuais', 'Folha de rosto, Folha de aprovação, Resumo em português, Resumo em língua estrangeira, Sumário', 'Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, tabelas, siglas e símbolos', 'Contados a partir da folha de rosto, mas NÃO exibem número de página impresso', 'Afirmar que o sumário é pós-textual ou opcional (FALSO: é pré-textual obrigatório).'],
-      ['Elementos Textuais', 'Introdução, Desenvolvimento (seções e subseções numeradas - NBR 6024) e Conclusão', 'Nenhum (todos os elementos textuais são de redação compulsória)', 'Inicia a impressão física do número da página no canto superior direito (algarismos arábicos)', 'Dizer que a introdução não é numerada (FALSO: é a primeira página impressa).'],
-      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023)', 'Glossário, Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
+      ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225:2023)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
+      ['Elementos Pré-Textuais', 'Folha de rosto, Folha de aprovação, Resumo em português, Resumo em língua estrangeira, Sumário (NBR 6027:2012)', 'Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, tabelas, siglas e símbolos', 'Contados a partir da folha de rosto, mas NÃO exibem número de página impresso', 'Afirmar que o sumário é pós-textual ou opcional (FALSO: é pré-textual obrigatório).'],
+      ['Elementos Textuais', 'Introdução, Desenvolvimento (seções e subseções numeradas - NBR 6024:2012) e Conclusão', 'Nenhum (todos os elementos textuais são de redação compulsória)', 'Inicia a impressão física do número da página no canto superior direito (algarismos arábicos)', 'Dizer que a introdução não é numerada (FALSO: é a primeira página impressa).'],
+      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Glossário, Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724
+  teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2011
 
-A norma **ABNT NBR 14724** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
+A norma **ABNT NBR 14724:2011** (*Informação e Documentação — Trabalhos Acadêmicos — Apresentação*, confirmada em 2021) padroniza a produção formal de teses de doutorado, dissertações de mestrado, trabalhos de conclusão de curso (TCC), monografias de especialização e relatórios de pesquisa:
 
 \`\`\`tree
-TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724)
-- Trabalho Acadêmico (NBR 14724) | Teses, dissertações, TCCs e monografias
+TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2011)
+- Trabalho Acadêmico (NBR 14724:2011) | Teses, dissertações, TCCs e monografias
   - Parte Externa | Proteção física e identificação inicial
     - Capa | Elemento OBRIGATÓRIO de proteção física externa
-    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225
+    - Lombada | Elemento OPCIONAL conforme ABNT NBR 12225:2023
   - Elementos Pré-Textuais | Antecedem o corpo da pesquisa e contextualizam o leitor
-    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027)
+    - Pré-Textuais Obrigatórios | Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário (NBR 6027:2012)
     - Pré-Textuais Opcionais | Errata, folha de dedicatória, folha de agradecimentos, epígrafe, lista de ilustrações, lista de tabelas e lista de abreviaturas/siglas
   - Elementos Textuais | O núcleo substantivo e investigativo do trabalho
     - Introdução | Apresentação do tema, problema, hipóteses, justificativa e objetivos
@@ -133,7 +142,13 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
   * **Traços Verticais de Fechamento Lateral são PROIBIDOS:** As laterais esquerda e direita de uma tabela permanecem **sempre abertas**.
 * **Quadros (ABNT NBR 14724):**
   * Destinam-se a apresentar informações **qualitativas, descritivas e textuais**.
-  * São **fechados lateralmente por linhas verticais em todos os quatro lados**, formando uma grade completa.`,
+  * São **fechados lateralmente por linhas verticais em todos os quatro lados**, formando uma grade completa.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **NBR 6028 (Resumos) (sub-8-4):** Estruturação de trabalhos acadêmicos e elementos pré-textuais.
+`,
   checkpoints: [
     {
       id: 'cp-8-3-1',

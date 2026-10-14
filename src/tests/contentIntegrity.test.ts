@@ -139,23 +139,31 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       });
     });
 
-    it('deve totalizar 64 submódulos no currículo (com M11 cobrindo os 12 tópicos do edital e 4 submódulos nos demais)', () => {
+    it('deve totalizar 74 submódulos no currículo (com M1, M2 e M10 com 6 cada, M6 com 7, M8 com 5, M11 com 12, M13 com 4 e 4 nos demais)', () => {
       const totalSubmodulos = COURSE_REGISTRY.reduce((acc, m) => acc + m.modulosFilhos.length, 0);
-      expect(totalSubmodulos).toBe(64);
+      expect(totalSubmodulos).toBe(74);
 
       COURSE_REGISTRY.forEach((m) => {
-        if (m.id === 'm11') {
+        if (m.id === 'm1' || m.id === 'm2' || m.id === 'm10') {
+          expect(m.modulosFilhos).toHaveLength(6);
+        } else if (m.id === 'm6') {
+          expect(m.modulosFilhos).toHaveLength(7);
+        } else if (m.id === 'm8') {
+          expect(m.modulosFilhos).toHaveLength(5);
+        } else if (m.id === 'm11') {
           expect(m.modulosFilhos).toHaveLength(12);
+        } else if (m.id === 'm13') {
+          expect(m.modulosFilhos).toHaveLength(4);
         } else {
           expect(m.modulosFilhos).toHaveLength(4);
         }
       });
     });
 
-    it('todos os 64 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
+    it('todos os 74 submódulos devem possuir IDs únicos, títulos substantivos e autores-chave', () => {
       const allSubIds = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos.map((s) => s.id));
       const uniqueSubIds = new Set(allSubIds);
-      expect(uniqueSubIds.size).toBe(64);
+      expect(uniqueSubIds.size).toBe(74);
 
       COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).forEach((sub) => {
         expect(sub.id.trim().length).toBeGreaterThan(2);

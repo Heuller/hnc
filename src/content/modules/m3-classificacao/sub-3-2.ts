@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo32: ModuloFilho = {
   id: 'sub-3-2',
   numero: '3.2',
+  editalRef: 'Bloco D - Item 3.2 e 3.3',
+  preRequisitos: ["sub-3-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-3-1",
+          "titulo": "Classificação Decimal de Dewey (CDD)",
+          "motivo": "Uso de tabelas auxiliares e síntese notacional."
+      },
+      {
+          "submoduloId": "sub-3-3",
+          "titulo": "Classificação Decimal de Direito (CDDir)",
+          "motivo": "Especialização da classe 34 para o ordenamento jurídico brasileiro."
+      }
+  ],
   titulo: 'Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)',
   descricaoCurta: 'A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, a espinha dorsal temática da RVBI e do LexML, e as regras avançadas de Notação de Autor (Cutter-Sanborn e Tabela PHA de Prado).',
   tempoEstimadoMinutos: 45,
@@ -125,7 +139,14 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 | **Gênese da CDDir** | *"A CDDir foi criada com o propósito de adaptar o direito inglês (Common Law) ao acervo da biblioteca do Senado norte-americano."* | **ERRADO.** A CDDir foi criada pela brasileira Doris de Queiroz Carvalho para adaptar o Direito Positivo Brasileiro e a tradição Romano-Germânica (*Civil Law*). |
 | **Entrada por Sigla no Cutter** | *"Ao classificar uma publicação oficial da OAB, o catalogador deve extrair o código de Cutter do nome por extenso 'Ordem dos Advogados do Brasil'."* | **ERRADO.** Entidades que entram por sigla têm a notação de Cutter extraída **diretamente das letras da própria sigla**. |
 | **Marca de Obra em Entrada por Título** | *"Nas obras com entrada principal pelo título, a marca de obra deve ser a letra minúscula da primeira palavra do título, incluindo os artigos."* | **ERRADO.** Artigos iniciais são sempre desprezados. Quando a entrada é por título, o Cutter vem da 1ª palavra e a marca de obra vem da **2ª palavra**. |
-| **Divisões de Forma da CDDir** | *"As divisões de forma da CDDir são usadas exclusivamente para classificar o teor substantivo de crimes previstos no Código Penal."* | **ERRADO.** As divisões de forma (.01 a .09) representam o **gênero documental** (dicionários, códigos, revistas, jurisprudência), aplicáveis a qualquer ramo jurídico. |`,
+| **Divisões de Forma da CDDir** | *"As divisões de forma da CDDir são usadas exclusivamente para classificar o teor substantivo de crimes previstos no Código Penal."* | **ERRADO.** As divisões de forma (.01 a .09) representam o **gênero documental** (dicionários, códigos, revistas, jurisprudência), aplicáveis a qualquer ramo jurídico. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Classificação Decimal de Dewey (CDD) (sub-3-1):** Uso de tabelas auxiliares e síntese notacional.
+* **Classificação Decimal de Direito (CDDir) (sub-3-3):** Especialização da classe 34 para o ordenamento jurídico brasileiro.
+`,
   checkpoints: [
     {
       id: 'cp-3-2-1',

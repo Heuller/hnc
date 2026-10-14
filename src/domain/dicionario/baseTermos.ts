@@ -1,6 +1,7 @@
 import type { TermoDicionario } from './types';
+import { TERMOS_ENRIQUECIMENTO_FASE5 } from './termosEnriquecimentoFase5';
 
-export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
+const TERMOS_ORIGINAIS: TermoDicionario[] = [
   {
     "id": "documentacao",
     "termo": "Documentação (Paul Otlet & Teoria Documental)",
@@ -2943,4 +2944,11 @@ export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
     "graficos analiticos"
   ]
 }
+];
+
+// Deduplica por id, priorizando termos enriquecidos da Fase 5
+const idsEnriquecidos = new Set(TERMOS_ENRIQUECIMENTO_FASE5.map(t => t.id));
+export const BASE_TERMOS_DICIONARIO: TermoDicionario[] = [
+  ...TERMOS_ORIGINAIS.filter(t => !idsEnriquecidos.has(t.id)),
+  ...TERMOS_ENRIQUECIMENTO_FASE5
 ];

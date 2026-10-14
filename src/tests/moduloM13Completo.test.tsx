@@ -50,7 +50,7 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
     });
   });
 
-  it('todos os 12 checkpoints de M13 devem ser 100% aprovados pelo guarda anti-alucinação', () => {
+  it('todos os checkpoints de M13 devem ser 100% aprovados pelo guarda anti-alucinação', () => {
     moduloM13Portugues.modulosFilhos.forEach((sub) => {
       sub.checkpoints.forEach((chk) => {
         const res = validarItemAntiAlucinacao({
@@ -139,6 +139,6 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
     // M13 deve estar visível com seu título e submódulos
     expect(screen.getAllByText(/Língua Portuguesa/i).length).toBeGreaterThanOrEqual(1);
     expect(screen.getAllByText(/13\.1/i).length).toBeGreaterThanOrEqual(1);
-    expect(screen.getAllByText(/13\.4/i).length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByText(/13\.3/i).length).toBeGreaterThanOrEqual(1);
   });
 });

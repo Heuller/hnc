@@ -3,15 +3,30 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo11: ModuloFilho = {
   id: 'sub-1-1',
   numero: '1.1',
+  editalRef: 'Bloco A - Item 1.1 e 1.6',
+  preRequisitos: [],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-1-3",
+          "titulo": "Dado, Informação, Documento e Conhecimento",
+          "motivo": "Aprofunda a ontologia documental de Briet e Buckland em relação ao ciclo DIKW."
+      },
+      {
+          "submoduloId": "sub-1-6",
+          "titulo": "Governança da Informação e de Dados",
+          "motivo": "Conecta a história da documentação à governança contemporânea de dados segundo o DAMA-DMBOK2."
+      }
+  ],
   titulo: 'Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica',
   titulo_curto: 'Biblioteconomia, Documentação e CI',
   descricaoCurta: 'Gênese disciplinar, Paul Otlet e o Tratado de Documentação, Harold Borko e a emergência da CI pós-guerra, interdisciplinaridade e as divisões de Le Coadic.',
   tempoEstimadoMinutos: 25,
-  autoresChave: ['Paul Otlet', 'Henri La Fontaine', 'Harold Borko', 'Yves-François Le Coadic', 'Tefko Saracevic', 'Vannevar Bush'],
+  autoresChave: ['Paul Otlet', 'Henri La Fontaine', 'Harold Borko', 'Yves-François Le Coadic', 'Tefko Saracevic', 'Vannevar Bush', 'IFLA / UNESCO'],
   alertasCebraspe: [
     'O Cebraspe frequentemente atribui a definição canônica de Ciência da Informação de Harold Borko (1968) à Biblioteconomia para induzir o candidato ao erro.',
     'Atenção à divisão de Le Coadic: a "Biblioteconomia dos livros" cuida da gestão física/técnica do acervo, enquanto a "Biblioteconomia dos leitores" foca nas necessidades, uso e mediação humana.',
     'A Documentação não substituiu a Biblioteconomia; ela expandiu o universo documental para qualquer suporte informacional e antecipou as técnicas de recuperação da informação.',
+    'A IFLA é a voz global da profissão bibliotecária e formuladora de padrões internacionais (como ISBD e IFLA LRM). Em relação aos seus manifestos com a UNESCO, o Cebraspe explora o Manifesto da Biblioteca Pública IFLA/UNESCO (atualizado em 2022 com ênfase na inclusão digital e sustentabilidade/Agenda 2030 da ONU) e o Manifesto sobre Bibliotecas Digitais (2010 com foco na redução da exclusão digital e preservação digital perene). Lembre-se: os serviços básicos da biblioteca pública devem ser fundamentalmente gratuitos e acessíveis sem qualquer discriminação.',
   ],
   quadroComparativo: {
     titulo: 'Matriz Comparativa das Três Disciplinas da Informação',
@@ -129,7 +144,37 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
 
 ---
 
-### 7. Quadro de Distratores Típicos do Cebraspe em Fundamentos
+### 7. A Cooperação Internacional e a IFLA: Missão, Governança, Padrões e Manifestos Históricos
+
+A **IFLA** (*International Federation of Library Associations and Institutions* — Federação Internacional de Associações e Instituições Bibliotecárias) é o principal organismo internacional não governamental de representação dos interesses dos serviços de bibliotecas, informação e de seus usuários no mundo.
+
+#### A. Natureza Institucional, Missão e Estrutura de Governança
+* **Fundação e Sede:** Fundada em 1927 em Edimburgo (Escócia) e sediada na Haia (Holanda), a IFLA possui relações formais de consulta e cooperação estreita com a **UNESCO**, com a Organização Mundial da Propriedade Intelectual (OMPI) e com a International Organization for Standardization (ISO).
+* **Missão Estratégica:** Promover padrões internacionais de alta qualidade para a prestação de serviços bibliotecários, defender a liberdade intelectual e o livre acesso à informação, e capacitar os membros da profissão globalmente.
+* **Estrutura de Governança:** Organizada em Assembleia Geral, Conselho de Administração (*Governing Board*), Divisões Profissionais e dezenas de Seções Especializadas — destacando-se, no contexto parlamentar, a **Seção de Serviços de Bibliotecas e Pesquisa para Parlamentos** (*Library and Research Services for Parliaments Section*), que formula diretrizes mundiais para bibliotecas legislativas como a da Câmara dos Deputados do Brasil.
+* **Papel Normativo Global:** A IFLA é a responsável pelo desenvolvimento e manutenção dos maiores referenciais descritivos da história da Biblioteconomia: a **ISBD** (Descrição Bibliográfica Internacional Normalizada), o modelo conceitual **IFLA LRM** (*Library Reference Model*), a **Declaração de Princípios Internacionais de Catalogação (ICP)** e o padrão **UNIMARC**.
+
+#### B. O Manifesto da Biblioteca Pública IFLA/UNESCO (Atualização de 2022)
+Publicado originalmente em 1949 e periodicamente atualizado (1972, 1994 e **revisado em Dublin em 2022**), o **Manifesto da Biblioteca Pública IFLA/UNESCO** é o documento político e doutrinário mais cobrado pelo Cebraspe no tocante a políticas públicas de informação.
+* **Proclamação Central:** A biblioteca pública é proclamada como a **porta de entrada local para o conhecimento**, constituindo uma **força viva para a educação, a cultura, a inclusão social e a paz**, bem como um agente essencial para o desenvolvimento sustentável e o exercício pleno da cidadania.
+* **Princípio da Universalidade e Gratuidade:** Os serviços da biblioteca pública devem ser oferecidos com base na **igualdade de acesso para todos, sem distinção de idade, raça, sexo, religião, nacionalidade, idioma ou condição social**. O Manifesto estipula expressamente que os serviços básicos da biblioteca pública devem ser, em princípio, **gratuitos**.
+* **Inovações Críticas da Edição 2022 (Atenção ao Edital!):**
+  1. **Inclusão Digital e Alfabetização Midiática:** O manifesto incorpora a missão de capacitar os cidadãos com habilidades de letramento digital e midiático (*media and information literacy*), capacitando a sociedade a combater ativamente a desinformação (*fake news*).
+  2. **Alinhamento à Agenda 2030 da ONU:** Estabelece o compromisso explícito das bibliotecas públicas com a sustentabilidade ambiental, justiça social e os Objetivos de Desenvolvimento Sustentável (ODS).
+  3. **Espaço Comunitário Democrático:** Reafirma a biblioteca como terceiro lugar (*third place*) neutro, seguro e acolhedor para o diálogo cívico e a coesão social.
+
+#### C. O Manifesto da IFLA/UNESCO sobre Bibliotecas Digitais (2010)
+Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrizes para a construção de pontes informacionais no ciberespaço:
+* **Missão Central:** Superar a exclusão digital (*digital divide*) e garantir que o patrimônio cultural, científico e documental mundial em formato digital seja preservado, mantido acessível e compartilhado de maneira equitativa.
+* **Diretrizes e Requisitos de Sustentabilidade:**
+  1. Promoção da digitalização do patrimônio analógico e preservação a longo prazo dos objetos digitais nativos (*born-digital*);
+  2. Garantia do acesso aberto e universal com respeito estrito aos direitos autorais e à propriedade intelectual (incentivando exceções e limitações para bibliotecas);
+  3. Adoção obrigatória de **padrões abertos e interoperáveis** de metadados para viabilizar redes globais e colheita federada;
+  4. Cooperação transversal entre instituições de memória: Bibliotecas, Arquivos e Museus (*GLAM - Galleries, Libraries, Archives, Museums*).
+
+---
+
+### 8. Quadro de Distratores Típicos do Cebraspe em Fundamentos
 
 | Afirmação Típica da Banca | Diagnóstico | Erro Crítico / Armadilha Oculta |
 | :--- | :--- | :--- |
@@ -137,7 +182,15 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
 | *"Harold Borko definiu a Biblioteconomia como a ciência que investiga as propriedades e fluxos da informação."* | **ERRADO** | A definição canônica de Borko (1968) é de **Ciência da Informação**, e não de Biblioteconomia. |
 | *"O Princípio Monográfico de Paul Otlet propunha manter o livro encadernado intacto como unidade indivisível de conhecimento."* | **ERRADO** | O Princípio Monográfico propunha justamente o oposto: **desmembrar** o livro em fichas móveis analíticas. |
 | *"Suzanne Briet excluiu categoricamente do conceito de documento qualquer entidade que não fosse suporte em papel."* | **ERRADO** | Briet ampliou radicalmente o conceito de documento para qualquer objeto físico/natural que sirva de prova (o antílope). |
-| *"A Lei Federal nº 12.244/2010 estabeleceu que as bibliotecas escolares poderiam ser substituídas por salas de leitura sem bibliotecário."* | **ERRADO** | A Lei 12.244/2010 determinou a obrigatoriedade de biblioteca com acervo mínimo e presença de bibliotecário habilitado. |`,
+| *"O Manifesto da Biblioteca Pública IFLA/UNESCO preconiza que a cobrança de mensalidades para empréstimo domiciliar é legítima como fonte primária de custeio da unidade."* | **ERRADO** | O Manifesto afirma categoricamente que os serviços básicos da biblioteca pública devem ser, em princípio, **gratuitos**. |
+| *"A Lei Federal nº 12.244/2010 estabeleceu que as bibliotecas escolares poderiam ser substituídas por salas de leitura sem bibliotecário."* | **ERRADO** | A Lei 12.244/2010 determinou a obrigatoriedade de biblioteca com acervo mínimo e presença de bibliotecário habilitado. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Dado, Informação, Documento e Conhecimento (sub-1-3):** Aprofunda a ontologia documental de Briet e Buckland em relação ao ciclo DIKW.
+* **Governança da Informação e de Dados (sub-1-6):** Conecta a história da documentação à governança contemporânea de dados segundo o DAMA-DMBOK2.
+`,
   checkpoints: [
     {
       id: 'cp-1-1-1',
@@ -154,12 +207,12 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
       justificativa: "Errado! A 'biblioteconomia dos livros' foca na gestão técnica e física do acervo; é a 'biblioteconomia dos leitores' que se ocupa dos usuários e de suas práticas.",
       versao_correta: "Conforme Le Coadic, a 'biblioteconomia dos leitores' refere-se ao estudo das práticas de leitura e necessidades de informação dos usuários, enquanto a 'biblioteconomia dos livros' foca na gestão técnica e física do acervo.",
     },
-      {
+    {
       id: 'cp-1-1-3',
-      pergunta: "Micro-Checkpoint 3: Conceito de Documento em Suzanne Briet",
-      item: "Para Suzanne Briet, qualquer objeto material, natural ou cultural, pode ser considerado documento, desde que colocado sob observação ou tratamento informacional com a finalidade de servir como prova ou testemunho.",
+      pergunta: 'Micro-Checkpoint 3: Manifesto da Biblioteca Pública IFLA/UNESCO (Atualização 2022)',
+      item: 'Segundo o Manifesto da Biblioteca Pública IFLA/UNESCO, a biblioteca pública constitui uma força viva pela educação, cultura e inclusão social, cujos serviços fundamentais devem ser prestados com base na igualdade de acesso e de forma gratuita para toda a comunidade.',
       gabarito: 'C',
-      justificativa: "Certo! No manifesto canônico 'Qu'est-ce que la documentation?' (1951), Briet afirma que até mesmo um antílope em seu habitat selvagem não é documento, mas, uma vez capturado, classificado e exposto em um zoológico com ficha descritiva, torna-se documento primário.",
+      justificativa: 'Certo! O Manifesto da Biblioteca Pública IFLA/UNESCO (com sua versão atualizada em 2022) reafirma categoricamente que a biblioteca pública é a porta de entrada local para o conhecimento e que seus serviços básicos devem ser inteiramente gratuitos e abertos a todos sem discriminação.',
     },
   ],
   mnemonicos: {
@@ -184,6 +237,13 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
         disciplina: 'Ciência da Informação',
         focoPrincipal: 'Propriedades, comportamento e fluxos da informação; sistemas de busca (IR)',
         figuraChave: 'Harold Borko, Vannevar Bush e Calvin Mooers',
+      },
+      {
+        id: 'tl-1-1-4',
+        periodo: '1949 / 2022',
+        disciplina: 'Políticas Públicas Globais de Bibliotecas',
+        focoPrincipal: 'Manifesto da Biblioteca Pública IFLA/UNESCO (acesso universal, gratuidade, inclusão digital e ODS da Agenda 2030)',
+        figuraChave: 'IFLA e UNESCO',
       },
     ],
     autores: [
@@ -221,19 +281,11 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
       },
       {
         id: 'aut-1-1-5',
-        nome: 'Vannevar Bush',
-        ano: 1945,
-        obraPrincipal: 'As We May Think',
-        ideiaChave: 'Idealizador do conceito do Memex e trilhas associativas precursoras do hipertexto.',
-        chipPegadinha: 'Dispositivo conceitual eletromecânico, não um computador digital operacional.',
-      },
-      {
-        id: 'aut-1-1-6',
-        nome: 'Calvin Mooers',
-        ano: 1950,
-        obraPrincipal: 'Information Retrieval',
-        ideiaChave: 'Criador da expressão Recuperação da Informação (Information Retrieval).',
-        chipPegadinha: 'Pilar fundacional da Ciência da Informação pós-guerra.',
+        nome: 'IFLA / UNESCO',
+        ano: 2022,
+        obraPrincipal: 'Public Library Manifesto / Digital Library Manifesto',
+        ideiaChave: 'Biblioteca pública como força viva pela educação, cultura e sustentabilidade, com serviços básicos gratuitos.',
+        chipPegadinha: 'Serviços básicos da biblioteca pública são gratuitos; discriminação de qualquer natureza é vedada.',
       },
     ],
     pegadinhas: [
@@ -245,9 +297,9 @@ O edital da Câmara dos Deputados exige o domínio das características instituc
       },
       {
         id: 'peg-1-1-2',
-        afirmacao: 'Segundo Le Coadic, a biblioteconomia dos livros compreende os estudos dedicados aos usuários e às suas práticas de leitura.',
+        afirmacao: 'Segundo o Manifesto da Biblioteca Pública IFLA/UNESCO, a prestação de serviços deve priorizar os cidadãos alfabetizados, podendo os analfabetos ser direcionados exclusivamente a outros órgãos assistenciais.',
         gabarito: 'E',
-        porQue: 'A biblioteconomia dos livros foca na organização técnica e física do acervo; é a biblioteconomia dos leitores que cuida dos usuários.',
+        porQue: 'O Manifesto IFLA/UNESCO estipula que a biblioteca pública deve atender a toda a comunidade sem distinção de escolaridade, desempenhando papel ativo fundamental justamente no combate ao analfabetismo e na inclusão social.',
       },
     ],
   },

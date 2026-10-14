@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo22: ModuloFilho = {
   id: 'sub-2-2',
   numero: '2.2',
+  editalRef: 'Bloco D - Item 2.3',
+  preRequisitos: ["sub-2-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-2-3",
+          "titulo": "Modelos Conceituais: FRBR e IFLA LRM",
+          "motivo": "Fundamentação teórica do RDA centrada nas entidades e relacionamentos LRM."
+      },
+      {
+          "submoduloId": "sub-2-7",
+          "titulo": "BIBFRAME 2.0 e Linked Data",
+          "motivo": "Adoção de URIs e entidades para integração na Web Semântica."
+      }
+  ],
   titulo: 'O Padrão RDA (Resource Description and Access) e o Projeto 3R',
   descricaoCurta: 'Gênese do RDA, superação do AACR2r para o ambiente de dados conectados (Linked Data), alinhamento com FRBR e IFLA LRM, o Projeto 3R (RDA Toolkit Oficial), eliminação radical da DGM e adoção do trio 336/337/338, fim das abreviaturas latinas ([S.l.] e [s.n.]), transcrição de autoria aberta e vocabulários controlados.',
   tempoEstimadoMinutos: 45,
@@ -132,6 +146,13 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 | **DGM vs Trio Analítico** | *"No padrão RDA, a Designação Geral do Material (DGM) foi preservada entre colchetes logo após o título principal, tendo sido apenas complementada pelos campos 336, 337 e 338."* | **ERRADO.** A DGM foi **completamente eliminada e extinta**. O RDA utiliza exclusivamente o trio de tipo de conteúdo, mídia e suporte. |
 | **Limite de Autores** | *"De acordo com as diretrizes do RDA, em obras com quatro ou mais autores, o catalogador deve obrigatoriamente registrar apenas o primeiro seguido de et al."* | **ERRADO.** Essa regra restritiva era do AACR2r. O RDA eliminou o corte automático obrigatório e permite registrar todos os autores. |
 | **Cabeçalho vs Ponto de Acesso** | *"No padrão RDA, o termo 'cabeçalho' continua sendo a denominação técnica canônica para o ponto de acesso principal padronizado."* | **ERRADO.** O RDA substituiu o termo 'cabeçalho' por **'Ponto de Acesso Autorizado'** (*Authorized Access Point*). |
+
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Modelos Conceituais: FRBR e IFLA LRM (sub-2-3):** Fundamentação teórica do RDA centrada nas entidades e relacionamentos LRM.
+* **BIBFRAME 2.0 e Linked Data (sub-2-7):** Adoção de URIs e entidades para integração na Web Semântica.
 `,
   checkpoints: [
     {

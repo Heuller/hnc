@@ -13,6 +13,8 @@ export const moduloM25OrgaosGov: MacroModulo = {
     'Mini-módulo especial unindo Direito Constitucional aplicado, técnicas de representação descritiva de entidades coletivas governamentais no catálogo bibliográfico e o conhecimento institucional aprofundado da Biblioteca da Câmara dos Deputados.',
   status: 'disponivel',
   simuladoDisponivel: true,
+    blocoEdital: 'Bloco A / Institucional',
+  preRequisitos: ["m2"],
   modulosFilhos: [submodulo25],
 };
 

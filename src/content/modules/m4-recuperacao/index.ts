@@ -14,6 +14,8 @@ export const moduloM4Recuperacao: MacroModulo = {
   descricao: 'Estudo aprofundado dos sistemas de busca e recuperação de informação (Mooers, Salton, Baeza-Yates), lógica booleana, arquivo invertido e metabuscadores; tipologia das fontes de informação gerais e especializadas (Cunha, Grogan) e avaliação crítica; o tripé da informação jurídica (legislação, doutrina e jurisprudência), a estrutura do Diário Oficial da União e o portal LexML Brasil; o serviço de referência e suas 8 etapas (Grogan), a Disseminação Seletiva da Informação (DSI de Luhn), modelos teóricos de estudos de usuários (Wilson, Dervin, Belkin, Kuhlthau) e competência informacional.',
   status: 'disponivel',
   simuladoDisponivel: true,
+    blocoEdital: 'Bloco B e Bloco E: Recuperação da Informação e Redes',
+  preRequisitos: ["m3"],
   modulosFilhos: [
     submodulo41,
     submodulo42,

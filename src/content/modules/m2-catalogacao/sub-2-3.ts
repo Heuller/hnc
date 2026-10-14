@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo23: ModuloFilho = {
   id: 'sub-2-3',
   numero: '2.3',
+  editalRef: 'Bloco D - Item 1.1 e 1.2',
+  preRequisitos: ["sub-2-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-5",
+          "titulo": "Sistemas Informacionais e Bancos de Dados",
+          "motivo": "Distinção crucial entre modelagem de domínio bibliográfico (LRM) e modelagem de dados (MER)."
+      },
+      {
+          "submoduloId": "sub-2-7",
+          "titulo": "BIBFRAME 2.0 e Linked Data",
+          "motivo": "Mapeamento WEMI para as classes centrais do BIBFRAME (Work, Instance, Item)."
+      }
+  ],
   titulo: 'Modelos Conceituais: A Família FRBR e o IFLA LRM',
   descricaoCurta: 'Modelagem Entidade-Relacionamento no universo bibliográfico: o quarteto WEMI, a evolução FRBR/FRAD/FRSAD e a consolidação no IFLA LRM (2017) com suas 11 entidades ontológicas e 5 tarefas do usuário.',
   tempoEstimadoMinutos: 45,
@@ -178,7 +192,14 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 | **LRM-E3 Expression 3** | O audiolivro com a gravação da leitura integral da lei para pessoas com deficiência visual. | Nova expressão, pois houve transposição do código textual para o código sonoro. |
 | **LRM-E4 Manifestation 1** | Edição impressa em brochura pelas Edições Câmara em 2021 (ISBN 978-65-87317-00-1). | Corporificação física com atributos industriais e comerciais próprios. |
 | **LRM-E4 Manifestation 2** | Arquivo digital em formato PDF disponível no Portal da Legislação do Planalto. | Nova manifestação (suporte digital e características técnicas distintas). |
-| **LRM-E5 Item** | O exemplar físico tombado sob o nº de patrimônio 2021.0049 na estante 12B da Biblioteca do STJ. | O objeto físico singular mantido sob a guarda da unidade de informação. |`,
+| **LRM-E5 Item** | O exemplar físico tombado sob o nº de patrimônio 2021.0049 na estante 12B da Biblioteca do STJ. | O objeto físico singular mantido sob a guarda da unidade de informação. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Sistemas Informacionais e Bancos de Dados (sub-6-5):** Distinção crucial entre modelagem de domínio bibliográfico (LRM) e modelagem de dados (MER).
+* **BIBFRAME 2.0 e Linked Data (sub-2-7):** Mapeamento WEMI para as classes centrais do BIBFRAME (Work, Instance, Item).
+`,
   checkpoints: [
     {
       id: 'cp-2-3-1',

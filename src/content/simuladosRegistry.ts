@@ -50,11 +50,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     numero: 1,
     titulo: 'Simulado M1: Fundamentos da Biblioteconomia & CI',
     tituloCurto: 'M1 - Fundamentos',
-    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 1.1 a 1.4)',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 1.1 a 1.6)',
     descricao:
-      'Avaliação diagnóstica completa cobrindo epistemologia, tipologia de unidades de informação, ética profissional, Leis 4.084/62 e 12.527/11 (LAI) e Marco Civil da Internet.',
+      'Avaliação diagnóstica completa cobrindo epistemologia, tipologia de unidades de informação, ética profissional, Leis 4.084/62 e 12.527/11 (LAI), ciclo de vida e governança de dados.',
     questoes: simuladoFundamentos100Q,
-    submodulosIds: ['1.1', '1.2', '1.3', '1.4'],
+    submodulosIds: ['1.1', '1.2', '1.3', '1.4', '1.5', '1.6'],
   },
   {
     id: 'm2-catalogacao',
@@ -62,11 +62,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     numero: 2,
     titulo: 'Simulado M2: Catalogação, RDA, LRM & MARC 21',
     tituloCurto: 'M2 - Catalogação',
-    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 2.1 a 2.4)',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 2.1 a 2.7)',
     descricao:
-      'Simulado aprofundado cobrindo Princípios da IFLA (ICP 2016), AACR2r, padrão RDA (Projeto 3R), modelos conceituais WEMI (FRBR, FRAD, FRSAD, IFLA LRM), campos e tags do MARC 21 Bibliográfico e Dublin Core.',
+      'Simulado aprofundado cobrindo Princípios da IFLA (ICP 2016), AACR2r, padrão RDA (Projeto 3R), modelos conceituais WEMI (FRBR, FRAD, FRSAD, IFLA LRM), campos e tags do MARC 21 Bibliográfico, Dublin Core, metadados especiais, MODS, METS e Linked Data.',
     questoes: simuladoCatalogacao100Q,
-    submodulosIds: ['2.1', '2.2', '2.3', '2.4'],
+    submodulosIds: ['2.1', '2.2', '2.3', '2.4', '2.6', '2.7'],
   },
   {
     id: 'm3-classificacao',
@@ -110,11 +110,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     numero: 6,
     titulo: 'Simulado M6: Repositórios Digitais, Interoperabilidade, FAIR & Inteligência Artificial',
     tituloCurto: 'M6 - Repositórios & IA',
-    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 6.1 a 6.4)',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 6.1 a 6.7)',
     descricao:
-      'Simulado avançado sobre plataformas livres (DSpace, Koha, OJS), protocolo OAI-PMH (6 verbos), Dublin Core, Princípios FAIR de dados de pesquisa e IA generativa/RAG aplicada a bibliotecas.',
+      'Simulado avançado sobre plataformas livres (DSpace, Koha, OJS), protocolo OAI-PMH, Dublin Core, Princípios FAIR, bancos de dados relacionais e NoSQL, SQL, regex, APIs e IA generativa/RAG aplicada a bibliotecas.',
     questoes: simuladoDigitalIA100Q,
-    submodulosIds: ['6.1', '6.2', '6.3', '6.4'],
+    submodulosIds: ['6.1', '6.2', '6.3', '6.4', '6.5', '6.6', '6.7'],
   },
   {
     id: 'm7-preservacao',
@@ -134,11 +134,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     numero: 8,
     titulo: 'Simulado M8: Normalização Documental, NBRs da ABNT & Produção Editorial',
     tituloCurto: 'M8 - Normalização & ABNT',
-    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 8.1 a 8.4)',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 8.1 a 8.5)',
     descricao:
-      'Simulado com foco em pegadinhas normativas: NBR 10520:2023 (abolição da caixa alta em parênteses), NBR 6023:2018 (referências), NBR 6028:2021 (resumos), NBR 6027:2012 (sumários), NBR 6024:2012 (numeração progressiva) e NBR 14724:2011 (trabalhos acadêmicos).',
+      'Simulado com foco em pegadinhas normativas: NBR 10520:2023 (abolição da caixa alta em parênteses), NBR 6023:2018 (referências), NBR 6028:2021 (resumos), NBR 6027:2012 (sumários), NBR 6024:2012 (numeração progressiva), NBR 14724:2011 (trabalhos acadêmicos e fichas catalográficas), NBR 6034:2004 (índices), infografia funcional e acessibilidade.',
     questoes: simuladoNormalizacao100Q,
-    submodulosIds: ['8.1', '8.2', '8.3', '8.4'],
+    submodulosIds: ['8.1', '8.2', '8.3', '8.4', '8.5'],
   },
   {
     id: 'm9-comunicacao',
@@ -158,11 +158,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     numero: 10,
     titulo: 'Simulado M10: Legislação Federal, Regimento Interno da Câmara (RICD) & CEDI',
     tituloCurto: 'M10 - Regimento Interno & CEDI',
-    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 10.1 a 10.4)',
+    subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 10.1 a 10.6)',
     descricao:
-      'Caderno decisivo com foco no contexto institucional da Câmara dos Deputados: processo legislativo constitucional, RICD (tramitação terminativa conclusiva, Mesa, Comissões), estrutura do CEDI, Biblioteca Pedro Aleixo, LAI (Lei 12.527/11), LGPD e RVBI.',
+      'Caderno decisivo com foco no contexto institucional da Câmara dos Deputados: processo legislativo constitucional, RICD (tramitação terminativa conclusiva, Mesa, Comissões), RCCN, estrutura do CEDI, Biblioteca Pedro Aleixo, LAI (Lei 12.527/11), LGPD e RVBI.',
     questoes: simuladoLegislativo100Q,
-    submodulosIds: ['10.1', '10.2', '10.3', '10.4'],
+    submodulosIds: ['10.1', '10.2', '10.3', '10.4', '10.5', '10.6'],
   },
   {
     id: 'm11-administrativo',
@@ -192,11 +192,11 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     id: 'm13-portugues',
     macroModuloId: 'M13',
     numero: 13,
-    titulo: 'Simulado M13: Língua Portuguesa & Redação Oficial',
+    titulo: 'Simulado M13: Língua Portuguesa & Sintaxe',
     tituloCurto: 'M13 - Língua Portuguesa',
     subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 13.1 a 13.4)',
     descricao:
-      'Simulado rigoroso cobrindo interpretação e tipologia textual, reescrita de frases com filtro tripartite Cebraspe, sintaxe do período, funções do SE e do QUE, concordância, regência, crase, pontuação semântica e Manual de Redação da Presidência da República (3ª ed. 2018).',
+      'Simulado rigoroso cobrindo interpretação e tipologia textual, reescrita de frases com filtro tripartite Cebraspe, sintaxe do período, funções do SE e do QUE, concordância, regência, crase, pontuação semântica, ortografia pós-acordo e colocação pronominal.',
     questoes: simuladoPortugues100Q,
     submodulosIds: ['13.1', '13.2', '13.3', '13.4'],
   },

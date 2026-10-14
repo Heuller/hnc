@@ -133,4 +133,209 @@ export const TEMAS_OFICIAIS_DISCURSIVA: TemaDiscursiva[] = [
       },
     ],
   },
+  {
+    id: 'tema-governanca-dados-legislativa',
+    tipo: 'questao_20',
+    titulo: 'Política de Governança de Dados em Biblioteca Legislativa',
+    enunciado:
+      'Considerando o papel estratégico dos dados na gestão da informação pública, redija um texto dissertativo, de até 20 linhas, atendendo necessariamente ao que se pede: 1. Defina o papel nuclear da Governança de Dados segundo o DAMA-DMBOK2 no contexto de uma biblioteca parlamentar; 2. Diferencie analiticamente as atribuições do Data Owner (proprietário), Data Steward (curador funcional) e Data Custodian (custodiante de TI); 3. Indique as dimensões essenciais de qualidade de dados (DAMA/Wang & Strong) aplicáveis aos metadados bibliográficos e proposições legislativas.',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve conceituar Governança de Dados com base no DAMA-DMBOK2 como o exercício de autoridade e controle sobre o gerenciamento dos ativos de dados, posicionada no centro da DAMA Wheel articulando as demais funções. Diferenciar os papéis: Data Owner é o decisor estratégico de negócio responsável por políticas e autorizações; Data Steward é o bibliotecário/curador funcional que zela pela qualidade, padronização de vocabulários e regras semânticas dos metadados; Data Custodian é a equipe de TI responsável pela infraestrutura técnica, armazenamento e segurança física/lógica. Indicar dimensões de qualidade (acurácia, completude, consistência, validade, pontualidade e integridade), essenciais para subsidiar o processo legislativo e a transparência pública.',
+    criteriosPontuacao: [
+      {
+        item: '1. Conceito e Função Nuclear da Governança de Dados (DAMA-DMBOK2)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Definiu Governança de Dados como autoridade e controle sobre ativos de dados no núcleo articulador do DMBOK.',
+      },
+      {
+        item: '2. Diferenciação dos Papéis DAMA (Owner, Steward e Custodian)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Diferenciou com exatidão o Data Owner (decisão estratégica), Data Steward (curador de metadados e regras de negócio) e Data Custodian (infraestrutura de TI).',
+      },
+      {
+        item: '3. Dimensões de Qualidade de Dados Aplicadas ao Legislativo',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Apresentou dimensões canônicas (acurácia, completude, consistência, validade) vinculadas a metadados e transparência parlamentar.',
+      },
+    ],
+  },
+  {
+    id: 'tema-migracao-marc-bibframe',
+    tipo: 'questao_20',
+    titulo: 'Transição do Formato MARC 21 para BIBFRAME e Linked Data',
+    enunciado:
+      'A evolução da catalogação bibliográfica impõe a superação dos formatos legados isolados em direção à interoperabilidade na Web Semântica. Em até 20 linhas: 1. Aponte as limitações estruturais do formato MARC 21 frente aos requisitos da Web Semântica; 2. Apresente as três classes fundamentais do modelo conceitual BIBFRAME 2.0 (Work, Instance e Item) da Library of Congress; 3. Discorra sobre como o modelo RDF e o uso de URIs permitem converter catálogos de bibliotecas parlamentares em grafos de conhecimento conectados (Linked Open Data).',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve apontar que o MARC 21 foi concebido para automação de fichas impressas nos anos 1960, possuindo estrutura rígida de campos numéricos (tags/subcampos) ilegíveis para motores de busca da web, gerando silos fechados de informação. No BIBFRAME 2.0 (Library of Congress), as três classes nucleares são: Work (Obra - essência conceitual e conteúdo intelectual), Instance (Instância - publicação material ou digital da obra) e Item (Item concreto e exemplar físico custodiado). No RDF, as informações estruturam-se em triplas (Sujeito-Predicado-Objeto) identificadas por URIs universais, permitindo que os registros da Biblioteca Pedro Aleixo sejam linkados a ontologias mundiais, ao LexML e a outras bases semânticas abertas.',
+    criteriosPontuacao: [
+      {
+        item: '1. Limitações Estruturais do MARC 21 na Web',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Demonstrou a obsolescência da estrutura isolada do MARC 21 frente aos motores de busca e grafos da Web Semântica.',
+      },
+      {
+        item: '2. As Três Classes do BIBFRAME 2.0 (Work, Instance, Item)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Definiu e caracterizou com clareza as três entidades nucleares do BIBFRAME 2.0 padronizado pela Library of Congress.',
+      },
+      {
+        item: '3. RDF, URIs e Grafos de Conhecimento na Biblioteca Parlamentar',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Explicou a mecânica das triplas RDF, o uso de URIs persistentes e o papel do Linked Open Data para integração com LexML e portais públicos.',
+      },
+    ],
+  },
+  {
+    id: 'tema-rag-referencia-legislativa',
+    tipo: 'questao_20',
+    titulo: 'Uso de RAG (Retrieval-Augmented Generation) no Serviço de Referência Legislativa',
+    enunciado:
+      'A incorporação de modelos de inteligência artificial generativa em unidades de informação parlamentares exige rigor técnico e salvaguardas metodológicas. Redija um texto de até 20 linhas que aborde: 1. A arquitetura e o funcionamento técnico de sistemas de Geração Aumentada por Recuperação (RAG - Retrieval-Augmented Generation); 2. Os riscos informacionais críticos em tarefas de referência parlamentar (alucinações algorítmicas, viés de representatividade e tratamento de dados pessoais conforme a LGPD); 3. O papel do bibliotecário e os mecanismos de supervisão profissional (human-in-the-loop, groundedness e vocabulários controlados).',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve explicar que o RAG (Lewis et al., 2020) ancora as respostas de modelos de linguagem (LLMs) em bases de conhecimento proprietárias confiáveis: o sistema converte a pergunta do usuário e os documentos em embeddings vetoriais, recupera trechos documentais faticamente relevantes via busca por similaridade semântica e os envia ao modelo junto ao prompt gerador. Riscos críticos: alucinações (respostas inverídicas sem lastro), viés na amostragem dos corpora e risco de vazamento de dados protegidos pelo sigilo parlamentar ou LGPD em prompts. Papel biblioteconômico: curadoria dos corpora, auditoria de fundamentação em fonte (groundedness), indexação por vocabulários controlados e supervisão mandatória humana (human-in-the-loop) para homologação de respostas formais.',
+    criteriosPontuacao: [
+      {
+        item: '1. Funcionamento Técnico e Arquitetura do RAG',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Explicou a integração entre recuperação de evidências documentais ancoradas em vetores e a geração orientada de respostas por LLMs.',
+      },
+      {
+        item: '2. Riscos Informacionais, Éticos e de Conformidade com a LGPD',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Identificou alucinações, viés algorítmico e riscos de privacidade e segurança da informação em consultas legislativas.',
+      },
+      {
+        item: '3. Mediação Biblioteconômica, Vocabulários e Human-in-the-Loop',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Destacou a supervisão profissional humana necessária, auditoria de groundedness e indexação controlada do acervo de referência.',
+      },
+    ],
+  },
+  {
+    id: 'tema-dados-abertos-bibliograficos',
+    tipo: 'questao_20',
+    titulo: 'Política de Dados Abertos Governamentais e Catálogos Bibliográficos',
+    enunciado:
+      'A abertura de dados governamentais constitui exigência legal de transparência e cidadania no Estado Democrático de Direito. Em até 20 linhas: 1. Apresente o fundamento legal da abertura de dados no Brasil (Lei nº 12.527/2011, art. 8º, § 3º e Decreto nº 8.777/2016); 2. Enuncie os princípios centrais de dados abertos governamentais (completude, primariedade, formatos abertos não proprietários e legibilidade por máquina); 3. Explique a aplicação da escala de 5 estrelas de Tim Berners-Lee na disponibilização de acervos bibliográficos e proposições da Câmara dos Deputados.',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'O candidato deve fundamentar a política na Lei de Acesso à Informação (art. 8º, § 3º) e no Decreto Federal nº 8.777/2016, que institui a Política de Dados Abertos do Poder Executivo Federal, balizando também as boas práticas do Legislativo. Deve citar os princípios de Sebastopol e do governo federal: dados completos, primários, oportunos, acessíveis, processáveis por máquina, em formatos não proprietários (CSV, XML, JSON) e livres de licenças restritivas. Na escala de 5 estrelas de Berners-Lee: 1 estrela (PDF na web com licença aberta); 2 estrelas (formato estruturado proprietário como XLS); 3 estrelas (formato não proprietário como CSV); 4 estrelas (padrões W3C abertos como RDF e URIs); 5 estrelas (Linked Open Data conectado a outros repositórios mundiais).',
+    criteriosPontuacao: [
+      {
+        item: '1. Fundamentação Legal e Normativa dos Dados Abertos (LAI e Dec. 8.777/16)',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Citou expressamente os dispositivos da Lei nº 12.527/2011 e do Decreto nº 8.777/2016 como base da transparência ativa.',
+      },
+      {
+        item: '2. Princípios de Abertura e Formatos Legíveis por Máquina',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Listou dados primários, completos, formatos abertos e livres de patentes (CSV, JSON, XML).',
+      },
+      {
+        item: '3. A Escala de 5 Estrelas de Tim Berners-Lee Aplicada à Câmara',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Explicou progressivamente os 5 níveis de maturidade da escala e sua relevância para a integração semântica do parlamento.',
+      },
+    ],
+  },
+  {
+    id: 'tema-preservacao-acervo-audiovisual',
+    tipo: 'peca_50',
+    titulo: 'Projeto de Preservação Digital de Acervo Audiovisual Parlamentar (TV Câmara)',
+    enunciado:
+      'Na condição de Analista Legislativo - Bibliotecário, elabore uma PEÇA TÉCNICA (projeto de parecer técnico com diretrizes de preservação), de até 50 linhas, estruturada conforme as normas da redação técnica oficial, para a salvaguarda do acervo histórico sonoro e imagético da TV Câmara e das sessões plenárias. Sua peça deve contemplar obrigatoriamente: 1. Diagnóstico dos riscos de deterioração física e obsolescência lógica dos suportes e fitas magnéticas analógicas legadas; 2. Padrões de formatos abertos de arquivamento matriz (AIP) para áudio (BWF ITU-R BS.1382 / IASA-TC 04) e vídeo (codec FFV1 em contêiner Matroska / RFC 9043); 3. Esquemas de metadados especializados para recursos audiovisuais (PBCore e NISO Z39.87 / MIX); 4. Protocolos de auditoria contínua de fixidez com funções criptográficas hash (SHA-256); 5. Diretrizes de disseminação pública em pacotes DIP otimizados para consulta cidadã no portal da Câmara dos Deputados.',
+    limiteLinhas: 50,
+    padraoRespostaPreliminar:
+      'A peça técnica deve apresentar estrutura formal sóbria (Diagnóstico, Fundamentação Técnica, Especificação de Formatos de Matriz, Metadados Especializados, Protocolo de Fixidez e Diretrizes de Disseminação). No diagnóstico, elencar a síndrome do desprendimento do aglutinante (sticky-shed syndrome) e a obsolescência de aparelhos reprodutores mecânicos. Nos formatos matrizes: para áudio, Broadcast WAVE Format (BWF / WAV) linear PCM não comprimido em 96 kHz / 24-bit (ITU-R BS.1382 e IASA-TC 04); para vídeo, codec FFV1 de compressão estritamente sem perdas (lossless) encapsulado em contêiner Matroska (MKV / IETF RFC 9043), reduzindo armazenamento sem qualquer perda de pixels. Nos metadados: PBCore (Public Broadcasting Metadata Dictionary) para descrição de mídia e NISO Z39.87/MIX para aspectos técnicos. Na fixidez: geração de hashes SHA-256 no momento da ingestão e rotinas periódicas de checagem. Na disseminação (DIP): transcodificação para MP4 (H.264/AAC) e MP3 com streaming adaptativo.',
+    criteriosPontuacao: [
+      {
+        item: '1. Diagnóstico e Adequação Estrutural da Peça Técnica',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Elaborou peça técnica impessoal, coesa e com fundamentação precisa da obsolescência física e lógica de acervos audiovisuais.',
+      },
+      {
+        item: '2. Formatos Abertos Normatizados de Matriz (BWF e FFV1/Matroska)',
+        pontuacaoMaxima: 7.0,
+        descricaoEsperada:
+          'Especificou com exatidão o formato BWF (ITU-R BS.1382) para áudio e o codec FFV1 em Matroska (RFC 9043) para matriz de preservação de vídeo.',
+      },
+      {
+        item: '3. Padrões de Metadados Especializados (PBCore e MIX)',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Identificou e aplicou o esquema PBCore para radiodifusão pública e metadados técnicos NISO Z39.87.',
+      },
+      {
+        item: '4. Protocolos de Fixidez Criptográfica SHA-256 e PREMIS',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Demonstrou a rotina automatizada de checagem periódica de hash contra corrupção silenciosa de bits (bit rot).',
+      },
+      {
+        item: '5. Estratégias de Disseminação Pública (DIP) e Acesso Cidadão',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Apresentou soluções eficientes de streaming e pacotes derivados leves com respeito aos direitos autorais e transparência legislativa.',
+      },
+    ],
+  },
+  {
+    id: 'tema-colecoes-digitais-licenciamento',
+    tipo: 'peca_50',
+    titulo: 'Diretrizes de Desenvolvimento de Coleções Digitais, Licenciamento e Norma COUNTER',
+    enunciado:
+      'Na condição de Analista Legislativo - Bibliotecário, elabore uma PEÇA TÉCNICA (projeto de política de gestão e avaliação de coleções eletrônicas), de até 50 linhas, estruturada conforme o padrão documental oficial, abordando necessariamente: 1. Modelos contratuais de licenciamento de conteúdos digitais (assinatura temporária com acesso remoto, compra perpétua de e-books e consórcios interinstitucionais), apontando cláusulas mandatórias de direitos autorais e custódia perpétua; 2. Adoção da Norma COUNTER (Release 5) para aferição de uso, detalhando as métricas Unique_Item_Requests e Total_Item_Investigations; 3. Metodologia de Custo por Uso (CPU) e parâmetros de obsolescência da literatura para fundamentar decisões de renovação ou descarte/desbastamento; 4. Requisitos de conformidade com a LGPD e sigilo nas consultas parlamentares; 5. Integração cooperativa com repositórios de acesso aberto e a Rede Virtual de Bibliotecas (RVBI).',
+    limiteLinhas: 50,
+    padraoRespostaPreliminar:
+      'A peça técnica deve apresentar estrutura formal equilibrada (Introdução Justificada, Modelos de Aquisição e Licenciamento, Métricas COUNTER e Avaliação por Custo, Privacidade/LGPD e Recomendações Finais). Nos modelos: contrastar assinatura temporária (risco de perda de acesso com término do contrato) com compra perpétua com direito de arquivamento local (garantia de preservação), exigindo cláusulas de mineração de textos (TDM) e acesso remoto seguro via proxy/VPN. Na Norma COUNTER R5: diferenciar Unique_Item_Requests (número real de conteúdos únicos acessados) de Total_Item_Investigations (todas as interações, incluindo cliques em sumários e visualizações). No Custo por Uso (CPU): demonstrar a fórmula Custo Total / Total de Usos Únicos e a relação com a meia-vida da literatura e desbastamento. Na LGPD: anonimização dos logs de pesquisa dos parlamentares e servidores para resguardar sigilo de proposições em elaboração. Na cooperação: articular compras consorciadas com a RVBI e priorizar repositórios de acesso aberto.',
+    criteriosPontuacao: [
+      {
+        item: '1. Diagnóstico e Estrutura Formal da Peça Técnica',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Estruturou documento formal com redação técnica clara, vocabulário especializado e argumentação jurídica sólida.',
+      },
+      {
+        item: '2. Modelos de Licenciamento Eletrônico e Cláusulas de Preservação',
+        pontuacaoMaxima: 7.0,
+        descricaoEsperada:
+          'Diferenciou assinatura, compra perpétua e consórcios, exigindo salvaguardas contratuais de custódia e uso justo.',
+      },
+      {
+        item: '3. Métricas da Norma COUNTER (Release 5) e Custo por Uso (CPU)',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Explicou com precisão as métricas Unique_Item_Requests e Total_Item_Investigations, e a aplicação matemática do CPU para desbastamento.',
+      },
+      {
+        item: '4. Conformidade com a LGPD e Sigilo na Atividade Parlamentar',
+        pontuacaoMaxima: 6.0,
+        descricaoEsperada:
+          'Estabeleceu diretrizes estritas de anonimização e proteção da privacidade de consultas de deputados e assessorias.',
+      },
+      {
+        item: '5. Integração com Redes Cooperativas (RVBI) e Acesso Aberto',
+        pontuacaoMaxima: 5.0,
+        descricaoEsperada:
+          'Propôs articulação de aquisições compartilhadas na RVBI e valorização de repositórios institucionais em consonância com a ciência aberta.',
+      },
+    ],
+  },
 ];
+

@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo143: ModuloFilho = {
   id: 'sub-14-3',
   numero: '14.3',
+  editalRef: 'Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)',
+  preRequisitos: ["sub-14-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-6-4",
+          "titulo": "Inteligência Artificial e Curadoria",
+          "motivo": "Modelos Transformer, LLMs e prompting avançado."
+      }
+  ],
   titulo: 'Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público',
   descricaoCurta: 'Paradigmas de Machine Learning (supervisionado, não-supervisionado e por reforço/RLHF); arquitetura Transformer e LLMs; técnicas de engenharia de prompts (Zero-shot, Few-shot, Chain-of-Thought e RAG); governança ética, LGPD, explicabilidade e supervisão humana (human-in-the-loop).',
   tempoEstimadoMinutos: 40,
@@ -83,7 +92,13 @@ export const submodulo143: ModuloFilho = {
 * **Transparência e Explicabilidade (*Explainable AI - XAI*):**
   * Qualquer parecer, relatório ou minuta elaborada com suporte de ferramentas de IA generativa deve registrar expressamente essa condição, garantindo o controle social, o contraditório e o direito à ampla defesa do cidadão interessado.
 * **Conformidade com a LGPD (Lei nº 13.709/2018):**
-  * Respeito rigoroso aos princípios da **Finalidade**, da **Necessidade** (minimização da coleta de dados pessoais ao estritamente essencial para o fim público) e da **Não Discriminação**, sendo vedado o uso de IA para traçar perfis comportamentais discriminatórios ilícitos.`,
+  * Respeito rigoroso aos princípios da **Finalidade**, da **Necessidade** (minimização da coleta de dados pessoais ao estritamente essencial para o fim público) e da **Não Discriminação**, sendo vedado o uso de IA para traçar perfis comportamentais discriminatórios ilícitos.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Inteligência Artificial e Curadoria (sub-6-4):** Modelos Transformer, LLMs e prompting avançado.
+`,
   checkpoints: [
     {
       id: 'cp-14-3-1',

@@ -17,13 +17,13 @@ import {
 describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
   const m1 = COURSE_REGISTRY.find((m) => m.id === 'm1')!;
 
-  it('M1 deve somar exatamente 105 minutos (25 + 30 + 25 + 25), eliminando o hardcode de 150 min', () => {
+  it('M1 deve somar exatamente o tempo de seus submódulos (25 + 30 + 25 + 25 + 35 + 40 = 180 min)', () => {
     expect(m1).toBeDefined();
     const temposFilhos = m1.modulosFilhos.map((s) => getTempoEstimadoSubmodulo(s));
-    expect(temposFilhos).toEqual([25, 30, 25, 25]);
+    expect(temposFilhos).toEqual([25, 30, 25, 25, 35, 40]);
 
     const tempoTotalM1 = getTempoTotalMacroModulo(m1);
-    expect(tempoTotalM1).toBe(105);
+    expect(tempoTotalM1).toBe(180);
   });
 
   it('cada submódulo deve computar seus próprios checkpoints sem vazar a contagem do macro-módulo', () => {
@@ -41,12 +41,12 @@ describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
     const sub12 = m1.modulosFilhos[1];
     expect(getCheckpointsFeitosSubmodulo(sub12, respondidos)).toBe(0);
 
-    // Macro-Módulo M1 tem 12 checkpoints no total (3 em cada um dos 4 submódulos)
-    expect(getCheckpointsCountMacroModulo(m1)).toBe(12);
+    // Macro-Módulo M1 tem 18 checkpoints no total (3 em cada um dos 6 submódulos)
+    expect(getCheckpointsCountMacroModulo(m1)).toBe(18);
     expect(getCheckpointsFeitosMacroModulo(m1, respondidos)).toBe(1);
   });
 
-  it('o tempo total do curso deve ser a soma exata de todos os 40 submódulos', () => {
+  it('o tempo total do curso deve ser a soma exata de todos os submódulos', () => {
     const totalMinutos = getTempoTotalCurso(COURSE_REGISTRY);
     expect(totalMinutos).toBeGreaterThan(500);
 
@@ -59,13 +59,13 @@ describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
 
   it('o total de checkpoints do curso deve ser consistente com todos os submódulos', () => {
     const totalCheckpoints = getCheckpointsTotalCurso(COURSE_REGISTRY);
-    expect(totalCheckpoints).toBeGreaterThanOrEqual(80); // mínimo 2 por cada um dos 40 submódulos
+    expect(totalCheckpoints).toBeGreaterThanOrEqual(80); // mínimo 2 por cada um dos submódulos
   });
 
   it('o cálculo de progresso percentual deve ser proporcional e arredondado corretamente', () => {
     const lidosMock = ['sub-1-1', 'sub-1-2'];
     expect(getSubmodulosLidosCount(m1, lidosMock)).toBe(2);
-    expect(getMacroModuloProgressoPercent(m1, lidosMock)).toBe(50);
+    expect(getMacroModuloProgressoPercent(m1, lidosMock)).toBe(33);
 
     // Progresso global dinâmico baseado no total real de submódulos
     const totalSubmodulos = COURSE_REGISTRY.flatMap((m) => m.modulosFilhos).length;

@@ -1,5 +1,6 @@
-import type { TermoDicionario, TermoGlossarioCanonico } from './types';
+import type { TermoDicionario, TermoGlossarioCanonico, SubmoduloOrigemTermo } from './types';
 import { BASE_TERMOS_DICIONARIO } from './baseTermos';
+import { COURSE_REGISTRY } from '../../content/registry';
 
 // Normalizador terminológico avançado (Parte D.3): NFD sem acentos, minúsculas e pontuação
 export const normalizarTexto = (texto: string): string => {
@@ -244,6 +245,62 @@ export class DicionarioService {
     };
 
     return termoAusente;
+  }
+
+  /**
+   * Resolve o submódulo de origem do termo no currículo oficial (Fase 6 - T6.5)
+   */
+  public resolverSubmoduloOrigem(termo: TermoDicionario): SubmoduloOrigemTermo | null {
+    if (!termo) return null;
+
+    // 1. Prioridade: verificar se modulo_ref contém ID explícito de submódulo (ex: 'sub-1-6')
+    if (termo.modulo_ref) {
+      for (const ref of termo.modulo_ref) {
+        if (ref.startsWith('sub-')) {
+          for (const m of COURSE_REGISTRY) {
+            const sub = m.modulosFilhos.find((s) => s.id === ref);
+            if (sub) {
+              return {
+                subId: sub.id,
+                subNumero: sub.numero,
+                subTitulo: sub.titulo,
+                moduloCodigo: m.codigo,
+                moduloTitulo: m.titulo,
+              };
+            }
+          }
+        }
+      }
+    }
+
+    // 2. Procurar pelo módulo relacionado (ex: 'M1' ou 'm1')
+    const rawRef = termo.moduloRelacionado || (termo.modulo_ref && termo.modulo_ref[0]) || '';
+    const modNorm = rawRef.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const macro = COURSE_REGISTRY.find(
+      (m) =>
+        m.id.toLowerCase() === modNorm ||
+        m.codigo.toLowerCase() === modNorm ||
+        `m${m.numero}` === modNorm
+    );
+
+    if (macro && macro.modulosFilhos.length > 0) {
+      const qNorm = normalizarTexto(termo.termo);
+      const subMatch = macro.modulosFilhos.find((s) => {
+        const txt = normalizarTexto(s.titulo + ' ' + s.autoresChave.join(' '));
+        return txt.includes(qNorm) || (termo.sigla && txt.includes(normalizarTexto(termo.sigla)));
+      });
+
+      const subEscolhido = subMatch || macro.modulosFilhos[0];
+      return {
+        subId: subEscolhido.id,
+        subNumero: subEscolhido.numero,
+        subTitulo: subEscolhido.titulo,
+        moduloCodigo: macro.codigo,
+        moduloTitulo: macro.titulo,
+      };
+    }
+
+    return null;
   }
 }
 

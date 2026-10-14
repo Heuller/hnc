@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo132: ModuloFilho = {
   id: 'sub-13-2',
   numero: '13.2',
+  editalRef: 'Conhecimentos Básicos - Língua Portuguesa (Item 2: Coesão, Coerência e Reescrita)',
+  preRequisitos: ["sub-13-1"],
   titulo: 'A Arte da Reescritura e Paráfrase no Padrão Cebraspe',
   descricaoCurta:
     'A metodologia dos três filtros (Correção Gramatical vs Sentido Original vs Coerência Textual), desdobramento de orações reduzidas, transposição rigorosa de vozes verbais e as sutis armadilhas de modalidade epistêmica.',

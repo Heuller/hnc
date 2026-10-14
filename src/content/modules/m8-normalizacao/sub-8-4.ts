@@ -3,15 +3,24 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo84: ModuloFilho = {
   id: 'sub-8-4',
   numero: '8.4',
-  titulo: 'ABNT NBR 6028 (Resumos - 2021), NBR 6027 (Sumários) e NBR 6022 (Artigos)',
-  descricaoCurta: 'Tipologia de resumos (indicativo, informativo e crítico/resenha), regras de redação da NBR 6028:2021 (parágrafo único, voz ativa e contagem de palavras), diferença entre Sumário (NBR 6027) e Índice (NBR 6034), estrutura de artigos (NBR 6022) e a sintaxe do DOI.',
+  editalRef: 'Bloco D - Item 5.5',
+  preRequisitos: ["sub-8-3"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-5-2",
+          "titulo": "Produtos e Serviços Informacionais",
+          "motivo": "Elaboração de resumos indicativos, informativos e estados da arte."
+      }
+  ],
+  titulo: 'ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)',
+  descricaoCurta: 'Tipologia de resumos (indicativo, informativo e crítico/resenha), regras de redação da NBR 6028:2021 (parágrafo único, voz ativa e contagem de palavras), diferença entre Sumário (NBR 6027:2012) e Índice (NBR 6034:2004), estrutura de artigos (NBR 6022:2018) e a sintaxe do DOI.',
   tempoEstimadoMinutos: 40,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'F. W. Lancaster', 'Comitê Brasileiro CB-014', 'International DOI Foundation (IDF)'],
   alertasCebraspe: [
-    'Tipos de Resumos na NBR 6028: Resumo Informativo (informa finalidades, metodologia, resultados e conclusões, DISPENSANDO a consulta ao original); Resumo Indicativo (aponta os temas principais SEM detalhar dados ou conclusões, NÃO dispensando a leitura do original); Resumo Crítico / Resenha / Recensão (análise crítica valorativa elaborada por especialista). O Cebraspe inverte sistematicamente informativo e indicativo!',
-    'Extensão recomendada de palavras na NBR 6028: 150 a 500 palavras para teses, dissertações e relatórios técnico-científicos; 100 a 250 palavras para artigos de periódicos; 50 a 100 palavras para notas editoriais e comunicações breves.',
+    'Tipos de Resumos na NBR 6028:2021: Resumo Informativo (informa finalidades, metodologia, resultados e conclusões, DISPENSANDO a consulta ao original); Resumo Indicativo (aponta os temas principais SEM detalhar dados ou conclusões, NÃO dispensando a leitura do original); Resumo Crítico / Resenha / Recensão (análise crítica valorativa elaborada por especialista). O Cebraspe inverte sistematicamente informativo e indicativo!',
+    'Extensão recomendada de palavras na NBR 6028:2021: 150 a 500 palavras para teses, dissertações e relatórios técnico-científicos; 100 a 250 palavras para artigos de periódicos; 50 a 100 palavras para notas editoriais e comunicações breves.',
     'Regras de redação do Resumo: deve ser composto em PARÁGRAFO ÚNICO contínuo, com verbo na VOZ ATIVA e na TERCEIRA PESSOA DO SINGULAR (ex.: "Analisa...", "Demonstra..."). Palavras-chave ficam logo abaixo, separadas entre si por PONTO E VÍRGULA e finalizadas por PONTO.',
-    'A grande confusão: SUMÁRIO vs. ÍNDICE. O Sumário (NBR 6027) apresenta as seções na MESMA ORDEM LINEAR em que aparecem no corpo do trabalho (pré-textual obrigatório); o Índice (NBR 6034) é ordenado ALFABETICAMENTE ou SISTEMATICAMENTE para localização pontual de termos (pós-textual opcional). Os elementos pré-textuais que antecedem o sumário NÃO devem constar nele!',
+    'A grande confusão: SUMÁRIO vs. ÍNDICE. O Sumário (NBR 6027:2012) apresenta as seções na MESMA ORDEM LINEAR em que aparecem no corpo do trabalho (pré-textual obrigatório); o Índice (NBR 6034:2004) é ordenado ALFABETICAMENTE ou SISTEMATICAMENTE para localização pontual de termos (pós-textual opcional). Os elementos pré-textuais que antecedem o sumário NÃO devem constar nele!',
     'Identificador de Objeto Digital (DOI - ISO 26324): estruturado na sintaxe canônica "prefixo/sufixo", em que o prefixo (iniciado por 10.) identifica a autoridade nomeadora/editora junto à Crossref/IDF, e o sufixo é definido pelo editor para identificar a obra de forma persistente.',
   ],
   quadroComparativo: {
@@ -70,11 +79,11 @@ TITLE: Tipologia de Resumos (ABNT NBR 6028:2021)
 
 ---
 
-### 2. A ABNT NBR 6027 (Sumário) vs. NBR 6034 (Índice)
+### 2. A ABNT NBR 6027:2012 (Sumário) vs. NBR 6034:2004 (Índice)
 
 A delimitação conceitual e posicional entre sumário e índice constitui uma das pegadinhas clássicas do Cebraspe:
 
-| Critério Comparativo | Sumário (ABNT NBR 6027) | Índice (ABNT NBR 6034) |
+| Critério Comparativo | Sumário (ABNT NBR 6027:2012) | Índice (ABNT NBR 6034:2004) |
 | :--- | :--- | :--- |
 | **Definição Canônica** | Enumeração das divisões, seções e capítulos **na mesma ordem física de ocorrência no texto**. | Relação detalhada de termos, nomes ou assuntos **ordenada alfabeticamente ou sistematicamente**. |
 | **Localização no Trabalho** | Elemento **pré-textual obrigatório** (o último dos pré-textuais). | Elemento **pós-textual opcional** (localizado no final da obra). |
@@ -83,7 +92,7 @@ A delimitação conceitual e posicional entre sumário e índice constitui uma d
 
 ---
 
-### 3. A ABNT NBR 6022: Artigo em Publicação Periódica
+### 3. A ABNT NBR 6022:2018: Artigo em Publicação Periódica
 
 A norma disciplina a estrutura formal de artigos científicos e técnicos publicados em revistas:
 * **Estrutura Tripartite do Artigo:**
@@ -102,10 +111,16 @@ O **Digital Object Identifier (DOI)**, administrado pela *International DOI Foun
 * **A Sintaxe Padronizada do DOI:**
   O identificador é alfanumérico e divide-se em duas partes estritas separadas por uma **barra oblíqua (\`/\`)**:
 
-$$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_{\\text{Sufixo}}$$
+$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_{\\text{Sufixo}}$
 
 1. **Prefixo:** Inicia obrigatoriamente pelos caracteres numéricos \`10.\`, seguidos pelo código da autoridade nomeadora (editora comercial, universidade ou agência depositária registrada junto à Crossref, DataCite ou mEDRA).
-2. **Sufixo:** Sequência livre atribuída pela própria instituição publicadora para identificar unicamente o artigo, tese, relatório ou capítulo dentro de seu catálogo.`,
+2. **Sufixo:** Sequência livre atribuída pela própria instituição publicadora para identificar unicamente o artigo, tese, relatório ou capítulo dentro de seu catálogo.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Produtos e Serviços Informacionais (sub-5-2):** Elaboração de resumos indicativos, informativos e estados da arte.
+`,
   checkpoints: [
     {
       id: 'cp-8-4-1',
@@ -133,9 +148,9 @@ $$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_
     timeline: [
       {
         id: 'tl-8-4-1',
-        periodo: '2003 / 2012',
+        periodo: '2012 / 2018',
         disciplina: 'Normalização de Sumários e Artigos',
-        focoPrincipal: 'Consolidação das normas ABNT NBR 6027 (Sumários) e NBR 6022 (Artigos de periódicos)',
+        focoPrincipal: 'Consolidação das normas ABNT NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos de periódicos)',
         figuraChave: 'ABNT',
       },
       {
@@ -149,7 +164,7 @@ $$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_
         id: 'tl-8-4-3',
         periodo: 'Maio de 2021',
         disciplina: 'Revisão da NBR 6028',
-        focoPrincipal: 'Publicação da versão atualizada da ABNT NBR 6028 (Resumo, resenha e recensão)',
+        focoPrincipal: 'Publicação da ABNT NBR 6028:2021 (Resumo, resenha e recensão)',
         figuraChave: 'Comitê Brasileiro CB-014',
       },
     ],
@@ -158,7 +173,7 @@ $$\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_
         id: 'aut-8-4-1',
         nome: 'ABNT CB-014',
         ano: 2021,
-        obraPrincipal: 'ABNT NBR 6028: Informação e documentação — Resumo, resenha e recensão — Apresentação',
+        obraPrincipal: 'ABNT NBR 6028:2021: Informação e documentação — Resumo, resenha e recensão — Apresentação',
         ideiaChave: 'Tipologia de resumos (informativo, indicativo, crítico), limites de palavras (150-500, 100-250, 50-100) e parágrafo único.',
         chipPegadinha: 'Resumo informativo dispensa a leitura do original; indicativo não dispensa.',
       },

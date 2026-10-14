@@ -3,6 +3,15 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo91: ModuloFilho = {
   id: 'sub-9-1',
   numero: '9.1',
+  editalRef: 'Bloco D - Item 4.9 e Bloco E - Item 4.1',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-9-2",
+          "titulo": "Acesso Aberto e Repositórios",
+          "motivo": "Modelos de negócios e vias dourada e verde do acesso aberto."
+      }
+  ],
   titulo: 'Ciclo da Comunicação Científica, Canais e Avaliação por Pares',
   descricaoCurta: 'O fluxo e ciclo da comunicação científica (A. J. Meadows e Garvey-Griffith), distinção entre canais formais e informais, os colégios invisíveis (Derek de Solla Price), as 4 normas mertonianas (CUDOS), preprints e modalidades de avaliação por pares.',
   tempoEstimadoMinutos: 40,
@@ -99,7 +108,13 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 * **Benefícios para a Comunidade Científica:**
   1. *Rapidez e Agilidade:* Elimina o longo tempo de espera da publicação formal (que pode levar de 6 meses a 2 anos), permitindo que descobertas urgentes (ex.: vacinas e pandemias) circulem imediatamente.
   2. *Garantia de Prioridade Intelectual:* O depósito recebe um carimbo de data (*timestamp*) e um identificador persistente (DOI), assegurando o pioneirismo da descoberta.
-  3. *Aprimoramento Colaborativo:* Permite que a comunidade leia o manuscrito e envie críticas e sugestões ao autor antes da submissão formal definitiva a uma revista científica.`,
+  3. *Aprimoramento Colaborativo:* Permite que a comunidade leia o manuscrito e envie críticas e sugestões ao autor antes da submissão formal definitiva a uma revista científica.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Acesso Aberto e Repositórios (sub-9-2):** Modelos de negócios e vias dourada e verde do acesso aberto.
+`,
   checkpoints: [
     {
       id: 'cp-9-1-1',

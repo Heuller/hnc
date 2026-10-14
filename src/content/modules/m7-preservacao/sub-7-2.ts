@@ -3,9 +3,19 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo72: ModuloFilho = {
   id: 'sub-7-2',
   numero: '7.2',
+  editalRef: 'Bloco D - Item 4.8',
+  preRequisitos: ["sub-7-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-7-4",
+          "titulo": "Restauração e Planos de Contingência",
+          "motivo": "Manejo integrado de pragas e intervenções curativas."
+      }
+  ],
   titulo: 'Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)',
   descricaoCurta: 'Insetos bibliófagos (traças, brocas, cupins e baratas), fungos filamentosos (mofo e foxing), roedores, superação da fumigação química e as técnicas ecológicas modernas: Anóxia (gás inerte) e Congelamento.',
   tempoEstimadoMinutos: 40,
+  prioridade: 'baixa',
   autoresChave: ['Ingrid Beck', 'Norma Cassares', 'José Luiz Pedersoli Jr.', 'IFLA-PAC', 'Getty Conservation Institute'],
   alertasCebraspe: [
     'Atenção ao abandono definitivo da fumigação química tradicional: o uso de pesticidas tóxicos como brometo de metila, óxido de etileno ou pastilhas de fosfeto de alumínio é PROIBIDO na conservação moderna, por ser cancerígeno para profissionais e usuários, destruir a camada de ozônio (Protocolo de Montreal) e reagir quimicamente degradando papéis e tintas.',
@@ -116,7 +126,13 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 * Os materiais são acondicionados em sacos plásticos de polietileno hermeticamente selados, retirando-se o excesso de ar para impedir que a umidade congele em cristais sobre o papel.
 * As embalagens são dispostas em câmaras frias ou freezers de conservação a temperaturas de **$-20$ °C a $-25$ °C por um período mínimo de 7 a 14 dias**.
 * O choque térmico congela os fluidos corporais dos insetos, exterminando ovos e larvas.
-* *Etapa Obrigatória de Descongelamento:* Ao retirar os livros do freezer, eles **devem permanecer selados na embalagem plástica por 24 a 48 horas**, até atingirem o equilíbrio com a temperatura ambiente. Se a embalagem for aberta antes disso, o ar quente e úmido condensará água líquida sobre as folhas geladas, deflagrando ataque imediato de mofo.`,
+* *Etapa Obrigatória de Descongelamento:* Ao retirar os livros do freezer, eles **devem permanecer selados na embalagem plástica por 24 a 48 horas**, até atingirem o equilíbrio com a temperatura ambiente. Se a embalagem for aberta antes disso, o ar quente e úmido condensará água líquida sobre as folhas geladas, deflagrando ataque imediato de mofo.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Restauração e Planos de Contingência (sub-7-4):** Manejo integrado de pragas e intervenções curativas.
+`,
   checkpoints: [
     {
       id: 'cp-7-2-1',

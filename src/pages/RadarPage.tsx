@@ -13,10 +13,21 @@ import {
 import { BalancaCebraspeIllustration } from '../components/common/Illustrations';
 
 export const RadarPage: React.FC = () => {
+  const [selectedBloco, setSelectedBloco] = useState<string>('todos');
   const [selectedMacro, setSelectedMacro] = useState<string>('todos');
   const [selectedSub, setSelectedSub] = useState<string>('todos');
   const [tipoFiltro, setTipoFiltro] = useState<'todos' | 'alertas' | 'pegadinhas' | 'questoes'>('todos');
   const [revelados, setRevelados] = useState<Record<string, boolean>>({});
+
+  const BLOCOS_EDITAL = [
+    { id: 'todos', label: 'Todos os Blocos', desc: 'Edital Completo (M1 a M14)', modulos: [] as string[] },
+    { id: 'A', label: 'Bloco A', desc: 'Tratamento & Representação', modulos: ['M1', 'M2', 'M3'] },
+    { id: 'B', label: 'Bloco B', desc: 'Serviços & Referência', modulos: ['M4', 'M5'] },
+    { id: 'C', label: 'Bloco C', desc: 'Tecnologias & Preservação Digital', modulos: ['M6', 'M7', 'M8'] },
+    { id: 'D', label: 'Bloco D', desc: 'Gestão de UIs & Políticas', modulos: ['M9', 'M10'] },
+    { id: 'E', label: 'Bloco E', desc: 'Legislação & Regimento da CD', modulos: ['M11', 'M12', 'M13'] },
+    { id: 'BAS', label: 'Básicos', desc: 'Governança & Ciência de Dados', modulos: ['M14'] },
+  ];
 
   const toggleRevelar = (id: string) => {
     setRevelados((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -70,24 +81,33 @@ export const RadarPage: React.FC = () => {
       fonte: q.fonteOriginal?.descricao || 'HNC — Inédita Cebraspe',
     }));
 
-  // Filtragem combinada por macro-módulo e submódulo
+  const blocoAtivo = BLOCOS_EDITAL.find((b) => b.id === selectedBloco);
+
+  // Filtragem combinada por bloco oficial, macro-módulo e submódulo
   const alertasFiltrados = todosAlertas.filter((a) => {
+    const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(a.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || a.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || a.subId === selectedSub;
-    return macroOk && subOk;
+    return blocoOk && macroOk && subOk;
   });
 
   const pegadinhasFiltradas = todasPegadinhas.filter((p) => {
+    const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(p.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || p.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || p.subId === selectedSub;
-    return macroOk && subOk;
+    return blocoOk && macroOk && subOk;
   });
 
   const questoesFiltradas = questoesArmadilha.filter((q) => {
+    const blocoOk = selectedBloco === 'todos' || (blocoAtivo?.modulos.includes(q.macroCodigo) ?? false);
     const macroOk = selectedMacro === 'todos' || q.macroCodigo === selectedMacro;
     const subOk = selectedSub === 'todos' || q.subId === selectedSub;
-    return macroOk && subOk;
+    return blocoOk && macroOk && subOk;
   });
+
+  const macrosDisponiveis = selectedBloco === 'todos'
+    ? COURSE_REGISTRY
+    : COURSE_REGISTRY.filter((m) => blocoAtivo?.modulos.includes(m.codigo));
 
   return (
     <div className="max-w-5xl mx-auto space-y-8 animate-fadeIn">
@@ -114,6 +134,37 @@ export const RadarPage: React.FC = () => {
         </div>
       </section>
 
+      {/* Banner de Conformidade Editalícia (Itens 13.33 a 13.34.1) */}
+      <section
+        aria-label="Marco Temporal Normativo do Edital"
+        className="bg-surface-2 border border-border/80 rounded-xl p-4 sm:p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-2xs"
+      >
+        <div className="flex items-start gap-3">
+          <div className="p-2 rounded-lg bg-accent/10 text-accent shrink-0 mt-0.5 sm:mt-0">
+            <AlertTriangle className="w-5 h-5" />
+          </div>
+          <div className="space-y-1">
+            <h2 className="text-xs font-sans font-bold text-ink uppercase tracking-wider flex items-center gap-2 flex-wrap">
+              <span>Marco Temporal Normativo do Edital nº 1/2026 (Itens 13.33 a 13.34.1)</span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-accent/15 text-accent font-semibold">
+                Auditado Cebraspe
+              </span>
+            </h2>
+            <p className="text-xs text-ink-2 font-serif leading-relaxed">
+              Legislação e normas técnicas consideradas estritamente em vigor até a publicação do <strong>Edital nº 1 (02/10/2026)</strong>. Jurisprudência consolidada dos Tribunais Superiores (STF/STJ/TCU) aceita até 30 dias antes da data da prova: marco temporal de corte fixado em <strong>17/12/2026</strong> para a prova de <strong>17/01/2027</strong>.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-row md:flex-col gap-2 shrink-0 w-full md:w-auto justify-between md:items-end">
+          <Badge variant="accent" className="font-mono text-[11px] shrink-0">
+            Corte: 17/12/2026 (-30d)
+          </Badge>
+          <span className="text-[11px] font-mono text-ink-3">
+            Prova: 17/01/2027
+          </span>
+        </div>
+      </section>
+
       {/* Barra de Filtros */}
       <section
         aria-label="Filtros do Radar"
@@ -122,16 +173,57 @@ export const RadarPage: React.FC = () => {
         <div className="flex items-center justify-between gap-2 text-xs font-sans font-semibold text-ink-2 uppercase tracking-wider">
           <div className="flex items-center gap-2">
             <Filter className="w-4 h-4 text-accent" />
-            <span>Filtros Curriculares</span>
+            <span>Filtros Curriculares & Editalícios</span>
           </div>
-          <span className="font-mono text-[11px] text-ink-3 lowercase font-normal">
-            {selectedMacro === 'todos' ? 'todos os 14 blocos' : `bloco ${selectedMacro}`}
+          <span className="font-mono text-[11px] text-ink-3 font-normal">
+            {selectedBloco === 'todos' ? 'Edital nº 1/2026 Integral' : blocoAtivo?.label} •{' '}
+            {selectedMacro === 'todos' ? 'M1-M14' : `Módulo ${selectedMacro}`}
           </span>
         </div>
 
-        {/* Filtro por Bloco / Macro-Módulo */}
+        {/* Filtro por Bloco Oficial do Edital 2026 */}
         <div className="space-y-1.5">
-          <div className="text-[11px] font-sans font-medium text-ink-2">Bloco Curricular:</div>
+          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
+            <span className="font-semibold text-accent uppercase tracking-wider text-[10px]">
+              Bloco Oficial do Edital nº 1/2026:
+            </span>
+            <span className="text-[10px] text-ink-3 hidden sm:inline">
+              {blocoAtivo?.desc}
+            </span>
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {BLOCOS_EDITAL.map((bloco) => (
+              <button
+                key={bloco.id}
+                type="button"
+                onClick={() => {
+                  setSelectedBloco(bloco.id);
+                  setSelectedMacro('todos');
+                  setSelectedSub('todos');
+                }}
+                className={`py-1 px-2.5 rounded-lg text-xs font-sans transition-colors cursor-pointer border ${
+                  selectedBloco === bloco.id
+                    ? 'bg-accent text-accent-text border-accent font-bold shadow-xs'
+                    : 'bg-surface-2 border-border text-ink-2 hover:text-ink hover:border-accent/40'
+                }`}
+                title={bloco.desc}
+              >
+                <span>{bloco.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Filtro por Macro-Módulo didático */}
+        <div className="space-y-1.5 pt-1.5 border-t border-border/40">
+          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
+            <span>Macro-Módulo Didático:</span>
+            {selectedBloco !== 'todos' && (
+              <span className="text-[10px] text-accent font-mono">
+                {macrosDisponiveis.length} módulos no {blocoAtivo?.label}
+              </span>
+            )}
+          </div>
           <div className="flex flex-wrap gap-1.5">
             <button
               type="button"
@@ -139,15 +231,15 @@ export const RadarPage: React.FC = () => {
                 setSelectedMacro('todos');
                 setSelectedSub('todos');
               }}
-              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors cursor-pointer ${
                 selectedMacro === 'todos'
                   ? 'bg-primary text-primary-text border-primary font-semibold shadow-2xs'
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              Todos os Blocos
+              {selectedBloco === 'todos' ? 'Todos os Módulos (M1-M14)' : `Todos do ${blocoAtivo?.label}`}
             </button>
-            {COURSE_REGISTRY.map((macro) => (
+            {macrosDisponiveis.map((macro) => (
               <button
                 key={macro.id}
                 type="button"
@@ -155,11 +247,12 @@ export const RadarPage: React.FC = () => {
                   setSelectedMacro(macro.codigo);
                   setSelectedSub('todos');
                 }}
-                className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors cursor-pointer ${
                   selectedMacro === macro.codigo
                     ? 'bg-primary text-primary-text border-primary font-semibold shadow-2xs'
                     : 'bg-surface-2 border-border text-ink hover:text-ink'
                 }`}
+                title={`${macro.codigo} — ${macro.titulo}`}
               >
                 {macro.codigo}
               </button>
@@ -173,7 +266,7 @@ export const RadarPage: React.FC = () => {
             <span>Submódulo Contextual:</span>
             {selectedMacro === 'todos' && (
               <span className="text-[10px] text-ink-3 italic">
-                (Selecione um bloco acima para detalhar submódulos específicos)
+                (Selecione um macro-módulo acima para detalhar submódulos específicos)
               </span>
             )}
           </div>
@@ -181,13 +274,13 @@ export const RadarPage: React.FC = () => {
             <button
               type="button"
               onClick={() => setSelectedSub('todos')}
-              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+              className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors cursor-pointer ${
                 selectedSub === 'todos'
                   ? 'bg-accent text-accent-text border-accent font-semibold'
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              {selectedMacro === 'todos' ? 'Todos os Submódulos (59)' : `Todos de ${selectedMacro}`}
+              {selectedMacro === 'todos' ? `Todos os Submódulos (${allSubmodules.length})` : `Todos de ${selectedMacro}`}
             </button>
             {selectedMacro !== 'todos' &&
               allSubmodules
@@ -197,7 +290,7 @@ export const RadarPage: React.FC = () => {
                     key={sub.id}
                     type="button"
                     onClick={() => setSelectedSub(sub.numero)}
-                    className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors ${
+                    className={`py-1 px-2.5 rounded-lg text-xs font-sans font-medium border transition-colors cursor-pointer ${
                       selectedSub === sub.numero
                         ? 'bg-accent text-accent-text border-accent font-semibold'
                         : 'bg-surface-2 border-border text-ink hover:text-ink'

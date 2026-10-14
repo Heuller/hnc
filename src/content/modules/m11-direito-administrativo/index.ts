@@ -24,6 +24,8 @@ export const moduloM11DireitoAdministrativo: MacroModulo = {
   trilha: 'complementar',
   avisoVerificacao: 'Conhecimentos Básicos Oficiais (Edital nº 1/2026) — Conteúdo canônico exaustivo, amparado na doutrina majoritária e na jurisprudência vinculante do STF, STJ e TCU para o Cebraspe',
   simuladoDisponivel: true,
+    blocoEdital: 'Conhecimentos Básicos: Direito Administrativo',
+  preRequisitos: ["m10"],
   modulosFilhos: [
     submodulo111,
     submodulo112,

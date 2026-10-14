@@ -15,9 +15,11 @@ import {
   HelpCircle,
   FileText,
   Scale,
+  ArrowRight,
 } from 'lucide-react';
 import { useDicionarioStore } from '../../store/useDicionarioStore';
 import { useProgressStore } from '../../store/useProgressStore';
+import { useNavigationStore } from '../../store/useNavigationStore';
 import { dicionarioService } from '../../domain/dicionario/dicionarioService';
 import type { TermoDicionario } from '../../domain/dicionario/types';
 
@@ -36,6 +38,8 @@ export const GlossarioModal: React.FC = () => {
 
   const { termosSalvos, salvarTermoVocabulario, removerTermoVocabulario, isTermoSalvo } =
     useProgressStore();
+
+  const { setSelectedSubmodule, setActiveView } = useNavigationStore();
 
   const [inputBusca, setInputBusca] = useState('');
   const [sugestoes, setSugestoes] = useState<TermoDicionario[]>([]);
@@ -91,6 +95,10 @@ export const GlossarioModal: React.FC = () => {
   if (!isModalOpen) return null;
 
   const salvo = termoAtivo ? isTermoSalvo(termoAtivo.id) : false;
+  const origemSub =
+    termoAtivo && !termoAtivo.ausente
+      ? dicionarioService.resolverSubmoduloOrigem(termoAtivo)
+      : null;
 
   return (
     <div
@@ -378,6 +386,23 @@ export const GlossarioModal: React.FC = () => {
                           <h2 className="text-xl sm:text-2xl font-black text-ink tracking-tight font-serif">
                             {termoAtivo.termo}
                           </h2>
+                          {origemSub && (
+                            <button
+                              onClick={() => {
+                                setSelectedSubmodule(origemSub.subNumero);
+                                setActiveView('teoria');
+                                fecharDicionario();
+                              }}
+                              className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-primary/10 dark:bg-amber-400/10 hover:bg-primary/20 dark:hover:bg-amber-400/20 text-primary dark:text-amber-400 border border-primary/20 dark:border-amber-400/30 text-xs font-semibold transition-all cursor-pointer group text-left"
+                              title={`Ir para o submódulo ${origemSub.subNumero}`}
+                            >
+                              <BookOpen className="w-3.5 h-3.5 shrink-0 group-hover:scale-110 transition-transform" />
+                              <span className="truncate max-w-[280px] sm:max-w-md">
+                                Submódulo {origemSub.subNumero} ({origemSub.moduloCodigo}): {origemSub.subTitulo}
+                              </span>
+                              <ArrowRight className="w-3.5 h-3.5 shrink-0 ml-0.5 group-hover:translate-x-0.5 transition-transform" />
+                            </button>
+                          )}
                         </div>
 
                         <button

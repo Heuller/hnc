@@ -3,9 +3,19 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo74: ModuloFilho = {
   id: 'sub-7-4',
   numero: '7.4',
+  editalRef: 'Bloco D - Item 4.8',
+  preRequisitos: ["sub-7-3"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-14-2",
+          "titulo": "Segurança da Informação e Riscos",
+          "motivo": "Planos de contingência contra desastres e continuidade do negócio."
+      }
+  ],
   titulo: 'Intervenções Curativas, Restauração e Planos de Contingência contra Desastres',
   descricaoCurta: 'Princípios éticos da restauração (Brandi: reversibilidade, mínima intervenção e distinguibilidade), testes de solubilidade de tintas, desacidificação, remendos com papel japonês, leafcasting, encadernação de conservação e protocolos de emergência e congelamento em sinistros.',
   tempoEstimadoMinutos: 45,
+  prioridade: 'baixa',
   autoresChave: ['Cesare Brandi', 'Paul Philippot', 'Antônio Celso Ramos Spinelli', 'Norma Cassares', 'Stefan Michalski', 'Robert Waller'],
   alertasCebraspe: [
     'O princípio supremo e inegociável da restauração moderna de documentos gráficos é a REVERSIBILIDADE: qualquer tratamento, adesivo ou reforço aplicado ao documento histórico deve poder ser desfeito a qualquer tempo no futuro sem causar o menor dano ao suporte original.',
@@ -120,7 +130,13 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
   * O congelamento solidifica a água e **paralisa de forma imediata o crescimento biológico de mofo e a hidrólise**, conferindo à equipe técnica dias, semanas ou meses para planejar a secagem sem perda das coleções.
   * *Técnicas de Secagem Subsequentes:*
     * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), secando os livros sem deformar as folhas nem colar as páginas entre si.
-    * **Secagem Manual Controlada:** Livros com pouca umidade são postos em pé em leque (*fan-out*) em ambiente com desumidificadores e ventiladores forçados indiretos, intercalando folhas de papel absorvente mata-borrão neutro a cada poucas páginas.`,
+    * **Secagem Manual Controlada:** Livros com pouca umidade são postos em pé em leque (*fan-out*) em ambiente com desumidificadores e ventiladores forçados indiretos, intercalando folhas de papel absorvente mata-borrão neutro a cada poucas páginas.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Segurança da Informação e Riscos (sub-14-2):** Planos de contingência contra desastres e continuidade do negócio.
+`,
   checkpoints: [
     {
       id: 'cp-7-4-1',

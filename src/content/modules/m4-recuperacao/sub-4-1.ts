@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo41: ModuloFilho = {
   id: 'sub-4-1',
   numero: '4.1',
+  editalRef: 'Bloco B - Item 3.1 a 3.9',
+  preRequisitos: ["sub-3-4"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-14-4",
+          "titulo": "Ciência de Dados e Text Mining",
+          "motivo": "Algoritmos de ponderação vetorial TF-IDF e métricas de precisão e revocação."
+      },
+      {
+          "submoduloId": "sub-6-7",
+          "titulo": "IA Aplicada à Informação",
+          "motivo": "Avaliação de relevância e busca semântica vetorial."
+      }
+  ],
   titulo: 'Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca',
   descricaoCurta: 'Fundamentos de Information Retrieval (Mooers, Salton), álgebra booleana (AND, OR, NOT), operadores de proximidade e truncagem, modelos de recuperação (booleano, vetorial e probabilístico), arquivo invertido, motores de busca e metabuscadores.',
   tempoEstimadoMinutos: 35,
@@ -57,16 +71,16 @@ O **CEBRASPE** cobra a comparação aprofundada dos três modelos matemáticos c
 #### A. Detalhamento do Modelo do Espaço Vetorial e o Esquema TF-IDF (Gerard Salton, 1975)
 No Modelo Vetorial desenvolvido no projeto SMART da Universidade de Cornell, cada documento $d_j$ e a consulta $q$ são representados como vetores multidimensionais em um espaço de $t$ dimensões, onde cada dimensão corresponde a um termo único do vocabulário:
 * **Frequência do Termo no Documento (*Term Frequency - TF*):**
-  $$TF_{i, j} = \\frac{f_{i, j}}{\\max_k f_{k, j}}$$
+  $TF_{i, j} = \\frac{f_{i, j}}{\\max_k f_{k, j}}$
   *Mede quantas vezes o termo $t_i$ aparece no documento $d_j$. Quanto mais frequente o termo no documento, maior a evidência de que a obra trata daquele assunto.*
 * **Inverso da Frequência no Documento (*Inverse Document Frequency - IDF*):**
-  $$IDF_i = \\log \\left( \\frac{N}{n_i} \\right)$$
+  $IDF_i = \\log \\left( \\frac{N}{n_i} \\right)$
   *Onde $N$ é o número total de documentos da coleção e $n_i$ é o número de documentos que contêm o termo $t_i$. O IDF penaliza termos triviais que aparecem em quase todos os livros (baixo poder de discriminação) e valoriza termos raros e específicos.*
 * **Peso TF-IDF Combinado:**
-  $$w_{i, j} = TF_{i, j} \\times IDF_i$$
+  $w_{i, j} = TF_{i, j} \\times IDF_i$
 * **Medida de Similaridade do Cosseno (*Cosine Similarity*):**
   A proximidade entre o vetor da consulta $\\vec{q}$ e o vetor do documento $\\vec{d_j}$ é calculada pelo cosseno do ângulo $\\theta$ formado entre eles no espaço vetorial:
-  $$\\text{Sim}(\\vec{q}, \\vec{d_j}) = \\cos(\\theta) = \\frac{\\vec{q} \\cdot \\vec{d_j}}{\\|\\vec{q}\\| \\times \\|\\vec{d_j}\\|}$$
+  $\\text{Sim}(\\vec{q}, \\vec{d_j}) = \\cos(\\theta) = \\frac{\\vec{q} \\cdot \\vec{d_j}}{\\|\\vec{q}\\| \\times \\|\\vec{d_j}\\|}$
   *Se os vetores coincidirem perfeitamente, $\\cos(0) = 1$ (similaridade máxima). Se forem perpendiculares (ortogonais), $\\cos(90^\\circ) = 0$ (sem termos em comum).*
 
 ---
@@ -89,7 +103,7 @@ A elaboração de uma estratégia de busca exige o domínio cirúrgico dos opera
 
 #### B. Ordem de Precedência e Parênteses
 Em expressões booleanas complexas, os sistemas de recuperação seguem uma ordem padrão de avaliação (normalmente \`NOT\` $\\rightarrow$ \`AND\` $\\rightarrow$ \`OR\`). O uso de parênteses é mandatório para alterar a precedência:
-$$\\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$$
+$\\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$
 
 #### C. Operadores Sintáticos de Proximidade e Truncagem
 * **Truncagem (*Wildcards*):**
@@ -138,7 +152,14 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 | *"No modelo booleano clássico de recuperação, os documentos recuperados são automaticamente ordenados pelo grau decrescente de pertinência temática."* | **ERRADO** | O modelo booleano **não ranqueia** resultados; o casamento é binário (pertence ou não pertence ao conjunto). |
 | *"A aplicação do operador booleano OR tem por objetivo primordial elevar a precisão da pesquisa documental."* | **ERRADO** | O operador OR serve para elevar a **REVOCAÇÃO**, pois amplia o escopo unindo sinônimos e termos correlatos. |
 | *"Os metabuscadores destacam-se por manter o maior repositório indexado próprio de documentos científicos da Internet."* | **ERRADO** | Metabuscadores **não mantêm base própria de documentos**; realizam busca federada intermediando fontes externas. |
-| *"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF."* | **ERRADO** | Quanto mais frequente o termo na coleção ($n_i \\approx N$), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |`,
+| *"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF."* | **ERRADO** | Quanto mais frequente o termo na coleção ($n_i \\approx N$), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Ciência de Dados e Text Mining (sub-14-4):** Algoritmos de ponderação vetorial TF-IDF e métricas de precisão e revocação.
+* **IA Aplicada à Informação (sub-6-7):** Avaliação de relevância e busca semântica vetorial.
+`,
   checkpoints: [
     {
       id: 'cp-4-1-1',

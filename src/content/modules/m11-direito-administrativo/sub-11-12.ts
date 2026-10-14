@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo1112: ModuloFilho = {
   id: 'sub-11-12',
   numero: '11.12',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 12: LAI, LGPD e Ética Pública)',
+  preRequisitos: ["sub-11-2"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-1-6",
+          "titulo": "Governança da Informação e de Dados",
+          "motivo": "Diretrizes de transparência ativa, dados abertos e tutela de privacidade."
+      },
+      {
+          "submoduloId": "sub-6-7",
+          "titulo": "IA Aplicada à Informação",
+          "motivo": "Conformidade com a LGPD no uso de modelos de linguagem e prompts."
+      }
+  ],
   titulo: 'Transparência e Privacidade: Lei de Acesso à Informação e LGPD',
   titulo_curto: 'LAI e LGPD no Setor Público',
   descricaoCurta: 'A Lei de Acesso à Informação (Lei nº 12.527/2011): transparência ativa vs. passiva, prazos de resposta e graus de sigilo (ultrassecreto, secreto e reservado). A LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais sensíveis, bases legais, Encarregado (DPO) e harmonização com a LAI.',
@@ -48,7 +62,7 @@ A LAI regulamenta o direito constitucional fundamental de acesso à informação
 São passíveis de classificação temporária as informações cujo sigilo seja comprovadamente imprescindível à segurança da sociedade e do Estado (art. 23):
 
 #### 2.1 Os Três Graus de Sigilo (Art. 24)
-$$\\text{Prazos de Sigilo} = \\begin{cases} \\text{Ultrassecreto} & \\longrightarrow \\text{Até 25 anos (prorrogável 1x por igual período pela CMRI)} \\\\ \\text{Secreto} & \\longrightarrow \\text{Até 15 anos (sem prorrogação)} \\\\ \\text{Reservado} & \\longrightarrow \\text{Até 5 anos (sem prorrogação)} \\end{cases}$$
+$\\text{Prazos de Sigilo} = \\begin{cases} \\text{Ultrassecreto} & \\longrightarrow \\text{Até 25 anos (prorrogável 1x por igual período pela CMRI)} \\\\ \\text{Secreto} & \\longrightarrow \\text{Até 15 anos (sem prorrogação)} \\\\ \\text{Reservado} & \\longrightarrow \\text{Até 5 anos (sem prorrogação)} \\end{cases}$
 
 * **Comissão Mista de Reavaliação de Informações (CMRI):** Órgão colegiado que decide, em última instância na esfera do Executivo federal, sobre a prorrogação do prazo de sigilo de documentos ultrassecretos e julga recursos contra negativas de acesso a informações.
 * **Informações Pessoais (Art. 31):** Informações relativas à intimidade, vida privada, honra e imagem dos cidadãos têm acesso restrito, independentemente de classificação de sigilo, pelo prazo máximo de **100 anos** a contar da data de sua produção, tendo acesso assegurado o próprio titular e agentes públicos para cumprimento de atribuições legais.
@@ -87,7 +101,14 @@ No setor público, a regra geral de tratamento **NÃO é o consentimento**, mas:
 A jurisprudência do STF (Tema 483 da Repercussão Geral) e as diretrizes conjuntas da CGU e da ANPD fixaram a harmonização dos dois diplomas:
 * **Não há contradição:** A LAI garante o acesso à informação pública e governamental; a LGPD protege a privacidade dos dados pessoais de pessoas físicas.
 * **Remuneração de Servidores Públicos:** É legítima e obrigatória a divulgação nominal da remuneração, subsídios e lotação dos servidores públicos na internet (princípio da publicidade e LAI), não violando a LGPD.
-* **Dados Pessoais em Documentos Públicos:** Devem ser anonimizados ou tarjados em caso de fornecimento de processos a terceiros os dados puramente privados e sensíveis (como CPF pessoal, número de RG, dados bancários, endereço residencial e prontuários médicos).`,
+* **Dados Pessoais em Documentos Públicos:** Devem ser anonimizados ou tarjados em caso de fornecimento de processos a terceiros os dados puramente privados e sensíveis (como CPF pessoal, número de RG, dados bancários, endereço residencial e prontuários médicos).
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Governança da Informação e de Dados (sub-1-6):** Diretrizes de transparência ativa, dados abertos e tutela de privacidade.
+* **IA Aplicada à Informação (sub-6-7):** Conformidade com a LGPD no uso de modelos de linguagem e prompts.
+`,
   checkpoints: [
     {
       id: 'cp-11-12-1',

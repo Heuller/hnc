@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo14: ModuloFilho = {
   id: 'sub-1-4',
   numero: '1.4',
+  editalRef: 'Bloco A - Item 4.2',
+  preRequisitos: ["sub-1-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-4-4",
+          "titulo": "Estudos de Usuários e Entrevista de Referência",
+          "motivo": "Conduta ética e sigilo durante o atendimento de referência parlamentar."
+      },
+      {
+          "submoduloId": "sub-11-12",
+          "titulo": "Transparência, LAI e LGPD",
+          "motivo": "Responsabilidade legal do servidor público e deveres funcionais."
+      }
+  ],
   titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas',
   titulo_curto: 'Legislação e Código de Ética CFB',
   descricaoCurta: 'A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.',
@@ -128,7 +142,14 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 | *"A elaboração de fichas catalográficas e a classificação de obras podem ser realizadas por técnicos de nível médio, dispensando-se a supervisão de bibliotecário."* | **ERRADO** | A catalogação e classificação são atribuições **privativas** do bibliotecário (Art. 6º da Lei 4.084/62). |
 | *"O bibliotecário está desobrigado do sigilo profissional sobre pesquisas realizadas por parlamentares assim que seu contrato de trabalho for rescindido."* | **ERRADO** | O sigilo profissional **permanece inalterado mesmo após o término do vínculo** funcional ou de prestação de serviços. |
 | *"A penalidade de Censura Pública é comunicada apenas em caráter estritamente confidencial ao infrator."* | **ERRADO** | A Censura Pública é obrigatoriamente **publicada no Diário Oficial**, perdendo o caráter sigiloso. |
-| *"O ensino de disciplinas de Biblioteconomia nos cursos superiores não exige diploma de graduação na área nem registro profissional."* | **ERRADO** | O ensino de matérias específicas de Biblioteconomia é função **privativa** do bacharel registrado (Art. 6º, 'd', Lei 4.084/62). |`,
+| *"O ensino de disciplinas de Biblioteconomia nos cursos superiores não exige diploma de graduação na área nem registro profissional."* | **ERRADO** | O ensino de matérias específicas de Biblioteconomia é função **privativa** do bacharel registrado (Art. 6º, 'd', Lei 4.084/62). |
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Estudos de Usuários e Entrevista de Referência (sub-4-4):** Conduta ética e sigilo durante o atendimento de referência parlamentar.
+* **Transparência, LAI e LGPD (sub-11-12):** Responsabilidade legal do servidor público e deveres funcionais.
+`,
   checkpoints: [
     {
       id: 'cp-1-4-1',

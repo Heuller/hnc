@@ -3,27 +3,42 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo53: ModuloFilho = {
   id: 'sub-5-3',
   numero: '5.3',
+  editalRef: 'Bloco D - Item 4.7 e Bloco E - Item 1.7',
+  preRequisitos: ["sub-5-1"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-9-4",
+          "titulo": "Bibliometria e Altmetria",
+          "motivo": "Leis bibliométricas e obsolescência da literatura de Burton & Kebler."
+      },
+      {
+          "submoduloId": "sub-6-1",
+          "titulo": "Bibliotecas Digitais",
+          "motivo": "Métricas de uso eletrônico COUNTER R5 e protocolo SUSHI."
+      }
+  ],
   titulo: 'Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação',
   descricaoCurta: 'O modelo cíclico de Waldomiro Vergueiro, documento formal de política de seleção, critérios e agentes, modalidades de aquisição, desbastamento vs. descarte, política de crescimento zero e métodos de avaliação do acervo (Conspectus, Lancaster e Figueiredo).',
   tempoEstimadoMinutos: 45,
-  autoresChave: ['Waldomiro Vergueiro', 'Nice Menezes de Figueiredo', 'Simone da Rocha Weitzel', 'F. W. Lancaster', 'Daniel Gore', 'Peggy Johnson'],
+  autoresChave: ['Waldomiro Vergueiro', 'Nice Menezes de Figueiredo', 'Simone da Rocha Weitzel', 'F. W. Lancaster', 'Daniel Gore', 'Peggy Johnson', 'Stanley J. Slote', 'R. E. Burton & R. W. Kebler'],
   alertasCebraspe: [
     'A política de desenvolvimento de coleções é um documento formal que possui tríplice caráter: administrativo, político e de relações públicas. O Cebraspe adora afirmar que seu caráter é "exclusivamente administrativo" ou "meramente operacional": ERRADO! O caráter político protege o bibliotecário contra censura e pressões externas arbitrarias.',
     'No modelo cíclico de Vergueiro, o estudo da comunidade de usuários é insumo e subsídio obrigatório para TODAS as seis fases do ciclo, sem exceção (não apenas para a seleção).',
     'Não confunda desbastamento (relocação/remanejamento de itens de baixa circulação para depósitos secundários mantendo o item no patrimônio) com descarte (eliminação física e baixa patrimonial definitiva). O desbastamento precede e nem sempre culmina em descarte!',
     'A política de "crescimento zero" (zero growth), proposta por Daniel Gore, determina que o acervo físico deve se estabilizar em um teto quantitativo: a cada novo volume incorporado, outro deve ser retirado para desbaste ou descarte. O Cebraspe tenta ligar isso falsamente à falta de orçamento ou escassez de compras.',
     'Métodos qualitativos centrados no acervo, como a avaliação por especialistas (método impressionista), apresentam a fragilidade canônica de o especialista conhecer a literatura teórica de ponta de sua especialidade, mas desconhecer o perfil real e as demandas cotidianas do público atendido pela biblioteca.',
+    'Licenciamento Digital e Padrão COUNTER Release 5 (Itens 4.5 a 4.7 do Edital): Em coleções digitais e bases de dados, as métricas de uso auditadas seguem o padrão internacional COUNTER. Diferenciação crucial da Release 5: "Total_Item_Investigations" afere qualquer interação de interesse com o registro (visualização de resumo, citação ou metadados); enquanto "Unique_Item_Requests" afere exclusivamente o acesso/download efetivo do texto completo (HTML ou PDF), desduplicado na sessão. O protocolo SUSHI (ANSI/NISO Z39.93) automatiza a colheita dessas métricas via API.',
   ],
   quadroComparativo: {
-    titulo: 'As Seis Fases do Modelo Cíclico de Desenvolvimento de Coleções (Waldomiro Vergueiro)',
-    colunas: ['Fase do Ciclo', 'Objetivo Central', 'Atores Envolvidos', 'Pegadinha Cebraspe Mapeada'],
+    titulo: 'As Seis Fases do Modelo Cíclico de Desenvolvimento de Coleções (Waldomiro Vergueiro) e Gestão Digital',
+    colunas: ['Fase do Ciclo / Dimensão', 'Objetivo Central', 'Atores Envolvidos / Padrões', 'Pegadinha Cebraspe Mapeada'],
     linhas: [
       ['1. Estudo da Comunidade', 'Mapear as necessidades, interesses e características dos usuários reais e potenciais', 'Bibliotecário e comunidade de usuários', 'Afirmar que o estudo da comunidade só importa para a seleção, ignorando o descarte e a avaliação.'],
       ['2. Políticas de Seleção', 'Estabelecer critérios, prioridades, instrumentos e diretrizes formais escritas', 'Comissão de seleção (bibliotecários, especialistas, direção)', 'Dizer que a política é prescindível por serem mutáveis as demandas da biblioteca.'],
       ['3. Seleção', 'Decidir quais obras específicas farão ou não parte do acervo (processo intelectual)', 'Bibliotecários e especialistas/comissão', 'Confundir seleção (decisão intelectual) com aquisição (procedimento operacional).'],
-      ['4. Aquisição', 'Efetivar a incorporação das obras selecionadas (compra, doação, permuta)', 'Setor de aquisição, compras e administração patrimonial', 'Afirmar que a aquisição é feita de forma avulsa e sem planejamento financeiro prévio.'],
+      ['4. Aquisição e Licenciamento', 'Efetivar a compra física ou licenciamento eletrônico (assinatura, perpétuo, consórcios)', 'Setor de aquisição, compras, comissão e provedores', 'Afirmar que o licenciamento eletrônico dispensa cláusulas de acesso perpétuo e preservação digital.'],
       ['5. Desbastamento / Descarte', 'Reavaliar a pertinência física do acervo: remanejamento e expurgo', 'Bibliotecários e comissão técnica', 'Confundir desbastamento (mudar de lugar) com descarte (saída definitiva do patrimônio).'],
-      ['6. Avaliação da Coleção', 'Verificar o grau de adequação do acervo aos objetivos institucionais e demandas', 'Bibliotecários e avaliadores externos', 'Considerar que métodos quantitativos de contagem de livros são suficientes para atestar qualidade.'],
+      ['6. Avaliação da Coleção', 'Verificar a adequação do acervo e métricas de uso (Conspectus, COUNTER Release 5)', 'Bibliotecários e relatórios automatizados (SUSHI)', 'Confundir Total_Item_Investigations (interesse/resumo) com Unique_Item_Requests (download real do texto).'],
     ],
   },
   teoriaDensaMarkdown: `### 1. O Conceito e a Evolução do Desenvolvimento de Coleções
@@ -41,11 +56,11 @@ F2 | 2. Políticas de Seleção | Documento Normativo Formal | Diretrizes escrit
 ---> Aplicação Prática
 F3 | 3. Seleção | Julgamento Técnico Crítico | Escolha dos títulos a serem incorporados com base na política e nos pedidos dos usuários
 ---> Trâmites Administrativos
-F4 | 4. Aquisição | Incorporação Concreta | Processo de compra, permuta ou doação conforme a Lei 14.133/2021
+F4 | 4. Aquisição e Licenciamento | Incorporação Concreta | Processo de compra física ou licenciamento digital conforme a Lei 14.133/2021
 ---> Gestão do Espaço Físico
 F5 | 5. Desbastamento e Descarte | Manutenção da Vitalidade | Remanejamento para depósito ou descarte de obras obsoletas ou deterioradas
 ---> Diagnóstico Contínuo
-F6 | 6. Avaliação da Coleção | Fechamento e Retroalimentação | Análise de adequação e uso que retroalimenta o estudo da comunidade e a política de seleção
+F6 | 6. Avaliação da Coleção | Fechamento e Retroalimentação | Análise de adequação e uso (COUNTER R5) que retroalimenta o estudo da comunidade
 \`\`\`
 
 > [!IMPORTANT]
@@ -72,10 +87,10 @@ O documento de política é o instrumento normativo norteador da gestão de acer
 * **Público-alvo:** Usuários reais e potenciais e suas demandas prioritárias.
 * **Responsabilidade pela seleção:** Definição dos papéis da equipe de bibliotecários, da comissão de seleção e dos especialistas.
 * **Critérios gerais e específicos de seleção:** Conteúdo, escopo, idioma, suporte físico/digital, custo e atualidade.
-* **Modalidades de aquisição:** Regras para compra, doação e permuta.
+* **Modalidades de aquisição e licenciamento:** Regras para compra, doação, permuta e assinaturas eletrônicas.
 * **Políticas de desbastamento e descarte:** Prazos, critérios de expurgo e destinação final dos itens baixados.
 * **Políticas de preservação e conservação:** Diretrizes de encadernação, higienização e digitalização.
-* **Metodologia de avaliação da coleção:** Indicadores e periodicidade dos diagnósticos.
+* **Metodologia de avaliação da coleção:** Indicadores e periodicidade dos diagnósticos (métodos tradicionais e relatórios COUNTER).
 * **Revisão periódica do documento:** Cláusula estipulando que o documento deve ser reavaliado formalmente a cada 2, 3 ou 5 anos.
 
 ---
@@ -105,7 +120,7 @@ A seleção é o **processo intelectual de tomada de decisão** no qual se deter
 
 ---
 
-### 4. Modalidades de Aquisição: Compra, Doação e Permuta
+### 4. Modalidades de Aquisição Tradicionais: Compra, Doação e Permuta
 
 A aquisição é o **processo operacional** que concretiza a incorporação física ou o acesso institucional aos recursos selecionados:
 
@@ -128,7 +143,52 @@ A aquisição é o **processo operacional** que concretiza a incorporação fís
 
 ---
 
-### 5. Desbastamento vs. Descarte e a Teoria do Crescimento Zero
+### 5. Licenciamento de Conteúdos Digitais e Métricas de Uso: Padrão COUNTER (Itens 4.5 a 4.7 do Edital)
+
+Com a transição para acervos digitais e híbridos, o desenvolvimento de coleções passou a englobar a gestão de contratos de licenciamento eletrônico e o monitoramento de dados de acesso auditados:
+
+#### A. Modelos de Licenciamento de Recursos Digitais (Item 4.5)
+Diferentemente dos livros impressos (adquiridos sob o princípio do esgotamento dos direitos autorais e posse física plena), os recursos eletrônicos são regidos por **contratos de licença de uso**:
+1. **Assinatura Periódica (*Subscription Model*):** Pagamento recorrente (anual) que garante acesso temporário às bases de dados ou pacotes de periódicos. Interrompido o pagamento, a biblioteca perde o acesso, salvo se houver cláusula expressa de arquivo perpétuo.
+2. **Compra Perpétua / Acesso Perpétuo (*Perpetual Access / Ownership*):** Pagamento único pela aquisição do conteúdo digital (frequentemente e-books), assegurando à biblioteca o direito irrevogável de acesso perpétuo aos arquivos, mesmo se a editora descontinuar a plataforma.
+3. **Aquisição Orientada pela Demanda (PDA - *Patron-Driven Acquisition* / DDA - *Demand-Driven Acquisition*):** A biblioteca disponibiliza no OPAC centenas de títulos não adquiridos. A compra efetiva do e-book é disparada automaticamente apenas quando os usuários atingem um limiar pré-estabelecido de uso (ex.: 3 consultas ou download de capítulo).
+4. **Aquisição Baseada em Evidências (EBA - *Evidence-Based Acquisition*):** A biblioteca paga uma taxa inicial de depósito para ter acesso irrestrito a um catálogo amplo durante 12 meses. Ao término do ciclo, a biblioteca utiliza as métricas reais de uso para selecionar e comprar em caráter perpétuo os títulos mais consultados até atingir o valor do depósito.
+5. **Licenciamento Consorcial (*Consortium Licensing*):** Negociação coletiva conduzida por grupos cooperativos de bibliotecas (no Brasil, o exemplo magno é o **Portal de Periódicos da CAPES**), maximizando o poder de barganha frente aos conglomerados editoriais internacionais e barateando custos por instituição.
+
+#### B. Cláusulas Contratuais Críticas em Licenciamento Digital
+* **Acesso Concorrente (*Concurrent Users*):** Define se o acesso é monousuário (1 leitor por vez), multiusuário com limite de simultaneidade ou ilimitado institucional (*unlimited access* por IP e proxy institucional);
+* **Empréstimo Entre Bibliotecas Digital (*Digital Interlibrary Loan* - dILL):** Cláusula que autoriza expressamente a biblioteca a fornecer artigos ou capítulos isolados para fins de EEB a instituições parceiras;
+* **Mineração de Textos e Dados (TDM - *Text and Data Mining*):** Autorização para pesquisadores e consultores executarem algoritmos de IA e processamento de linguagem natural sobre os corpora licenciados;
+* **Preservação e Custódia Perpétua:** Garantia de que os conteúdos digitais assinados estão depositados em repositórios de preservação de terceiros independentes (como **LOCKSS, CLOCKSS e Portico**), protegendo a instituição contra a falência da editora;
+* **Privacidade e LGPD:** Vedação estrita à coleta, rastreamento ou comercialização de dados pessoais e hábitos de leitura dos pesquisadores pelos provedores.
+
+#### C. Métricas de Uso de Recursos Eletrônicos: O Padrão Internacional COUNTER Release 5 (Itens 4.6 e 4.7)
+Para avaliar objetivamente o retorno sobre o investimento em assinaturas eletrônicas, a comunidade internacional de bibliotecas instituiu o **COUNTER (*Counting Online Usage of NeTworked Electronic Resources*)**:
+* **Natureza e Missão:** É uma organização internacional sem fins lucrativos que publica Códigos de Prática (*Codes of Practice* - CoP) para **auditar e padronizar** os relatórios de uso emitidos por editores e agregadores de conteúdo digital.
+* **O Problema Resolvido:** Historicamente, cada editora inflava suas estatísticas com métricas heterogêneas, contabilizando requisições de robôs, recarregamentos acidentais de tela e caches duplicados. O COUNTER impõe algoritmos rígidos de filtragem e janelas de desduplicação.
+* **Os Quatro Relatórios Mestre (*Master Reports*) do COUNTER Release 5 (R5):**
+  1. **TR (Title Report):** Atividade em nível de título (periódicos e livros eletrônicos). Principais visualizações padrão:
+     * \`TR_J1\`: Uso de artigos de periódicos (*Journal Requests* excluindo acesso aberto dourado);
+     * \`TR_B1\`: Uso de livros eletrônicos (*Book Requests* por seções/capítulos).
+  2. **DR (Database Report):** Consultas, buscas regulares (\`regular searches\`), buscas federadas e cliques em bases de dados bibliográficas e referenciais.
+  3. **PR (Platform Report):** Nível de atividade macro e sessões registradas em toda a plataforma do provedor.
+  4. **IR (Item Report):** Atividade granular em nível de item individual (artigos multimídia, preprints, teses e conjuntos de dados associados).
+
+#### D. As Duas Métricas Nucleares do COUNTER Release 5 (Cebraspe)
+A Release 5 superou a ambiguidade de releases anteriores estabelecendo uma distinção conceitual rigorosa:
+* **Total_Item_Investigations (Investigações de Item):**
+  Mede **qualquer interação ou manifestação de interesse** do usuário com um item informacional. Inclui: visualização do resumo (*abstract*), exibição de referências bibliográficas, consulta a metadados detalhados, exibição de imagens em miniatura E também o download do texto completo.
+* **Unique_Item_Requests (Requisições Únicas de Item):**
+  Mede estritamente o **consumo efetivo do conteúdo integral** (download do arquivo PDF ou carregamento do texto completo em HTML). É **desduplicado dentro da mesma sessão de usuário** (se o leitor baixar o mesmo artigo em PDF e em HTML na mesma hora, conta como apenas 1 *Unique_Item_Request*, mas gera múltiplos *Investigations*).
+* **Protocolo SUSHI (ANSI/NISO Z39.93):**
+  O *Standardized Usage Statistics Harvesting Initiative* é o protocolo automatizado baseado em web services (REST/JSON e XML) que permite aos sistemas de bibliotecas (SIGB / ERM) "colher" automaticamente os relatórios COUNTER de todos os fornecedores contratados, eliminando a extração manual de planilhas.
+* **Custo por Download (CPD - *Cost per Download*):**
+  $\\text{CPD} = \\frac{\\text{Valor Anual da Assinatura}}{\\text{Total de Unique_Item_Requests}}$
+  Indicador mestre utilizado pelo bibliotecário para subsidiar decisões de renovação, cancelamento de títulos ociosos ou substituição de pacotes fechados (*Big Deals*) por aquisição seletiva pontual.
+
+---
+
+### 6. Desbastamento vs. Descarte e a Teoria do Crescimento Zero
 
 Esta é uma das distinções conceituais mais cobradas pelo Cebraspe em concursos de alta complexidade:
 
@@ -153,7 +213,7 @@ O método CREW (*Continuous Reevaluation, Conditioning, Removing and Weeding*), 
 
 ---
 
-### 6. Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
+### 7. Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
 
 Avaliar a coleção consiste em determinar sua adequação aos objetivos da instituição e às necessidades dos usuários (Figueiredo, 1994; Lancaster, 1993):
 
@@ -167,6 +227,7 @@ TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
     - Modelo Conspectus (RLG / WLN) | Escala padronizada de 0 a 5 de profundidade de cobertura
   - Centrados no Uso (Comportamentais / Empíricos) | Medem a utilização real da coleção pela comunidade
     - Estatísticas de Circulação e Consulta | Empréstimos domiciliares, renovações e uso de estante
+    - Relatórios COUNTER Release 5 | Métricas auditadas de Unique_Item_Requests em recursos eletrônicos
     - Empréstimo Entre Bibliotecas (EEB) | Mapeamento das lacunas supridas por outras instituições
     - Análise de Citações | Obras referenciadas em teses, artigos e notas técnicas da Casa
     - Teste de Disponibilidade de Orr (DDT) | Taxa de sucesso do usuário em localizar o documento na estante
@@ -185,13 +246,59 @@ TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
   * \`Nível 4\`: Pesquisa Avançada / Pós-graduação (*Research*).
   * \`Nível 5\`: Exaustivo / Abrangência Total (*Comprehensive*).
 
-#### B. Métodos Centrados no Uso
-* **Estatísticas de Circulação:** Análise do número de empréstimos e renovações por classe de assunto. Permite identificar classes "mortas" e classes de alta rotatividade.
-* **Empréstimo Entre Bibliotecas (EEB):** Um volume excessivo de pedidos de EEB em uma determinada subárea é indicador empírico direto de que o acervo local possui graves lacunas nessa disciplina.
-* **Análise de Citações:** Investigação das referências bibliográficas utilizadas pelos próprios pesquisadores, consultores ou alunos da instituição em seus trabalhos. Identifica quais autores e periódicos são de fato lidos e incorporados.
-* **Teste de Entrega de Documentos de Richard Orr (DDT - *Document Delivery Test*):**
-  * Desenvolvido por Richard H. Orr (1968), mede a **velocidade e a probabilidade** com que a biblioteca é capaz de colocar uma amostra representativa de documentos nas mãos do usuário no exato momento da demanda.
-  * Expressa-se por meio do Índice de Capacidade de Entrega (*Capability Index*), variando de 0 a 100.`,
+#### B. Métodos Centrados no Uso e Gestão de Coleções Orientada por Dados (Edital Bloco D, item 4.7)
+
+A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturando-se na **análise quantitativa de dados de uso real (*Data-Driven Collection Management*)** para fundamentar decisões orçamentárias de aquisição, renovação de licenças, desbastamento e descarte (**Stanley J. Slote, 1997; R. E. Burton & R. W. Kebler, 1960; COUNTER R5 / ANSI/NISO Z39.93**):
+
+1. **Indicadores Tradicionais de Uso do Acervo Físico:**
+   * *Taxa de Circulação por Classe:* Confronta a proporção de empréstimos em determinada classe (ex.: Classe 340 - Direito na CDD) com a proporção de volumes que aquela classe ocupa nas estantes. Revela se a classe está subdimensionada ou superdimensionada em relação à demanda.
+   * *Uso Interno de Estante (Consulta Local):* Coletado periodicamente pelo método da contagem de livros deixados sobre as mesas de estudo antes da guarda nas prateleiras, captando o uso que não transita pelo balcão de empréstimo.
+   * *Empréstimo Entre Bibliotecas (EEB):* Um volume excessivo de pedidos de EEB em uma determinada disciplina é indicador empírico de que o acervo local possui graves lacunas temáticas.
+   * *Análise de Citações:* Levantamento das fontes citadas nos relatórios, votos e pareceres da Consultoria Legislativa e das Comissões da Câmara, evidenciando quais títulos geram impacto real na produção legislativa.
+   * *Teste de Entrega de Documentos de Richard Orr (DDT):* Desenvolvido por Richard H. Orr (1968), mede a velocidade e probabilidade com que a biblioteca entrega uma amostra aleatória de documentos nas mãos do consulente no momento da busca, expressando o Índice de Capacidade de Entrega (*Capability Index*, de 0 a 100).
+
+2. **Análise de Custo por Uso (Cost-Per-Use - CPU) e Decisão de Assinaturas:**
+   O indicador financeiro mais decisivo para renovação ou cancelamento de pacotes de periódicos e bases de dados:
+
+   $\text{CPU} = \frac{\text{Custo Total Anual do Recurso (Assinatura)}}{\text{Total de Usos Efetivos Desduplicados (\textit{Unique\_Item\_Requests})}}$
+
+   * *Parâmetro de Decisão:* O bibliotecário confronta o CPU calculado contra o custo médio de aquisição avulsa por artigo via *Pay-Per-View* (normalmente entre US$ 30 e US$ 45 / cerca de R$ 150 a R$ 250 por download avulso) ou comutação bibliográfica (COMUT).
+   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($\text{CPU} = \text{R\$} \; 500,00$ por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
+
+3. **Taxa de Obsolescência e Meia-Vida da Literatura (Burton & Kebler, 1960):**
+   * *Conceito de Meia-Vida (Half-Life):* O tempo decorrido para que 50% de todas as consultas ou citações ativas a uma determinada literatura deixem de ocorrer.
+   * *Diferenciação por Área do Conhecimento:*
+     * *Literatura Efêmera / Tecnológica (Ciências Exatas, Informática, Engenharia):* Apresenta meia-vida ultracurta (2 a 4 anos), demandando atualização constante e descarte ágil de edições superadas;
+     * *Literatura Clássica / Cumulativa (Direito, Filosofia, História, Ciências Sociais):* Apresenta meia-vida longa (10 a 20 anos ou mais). No universo legislativo, leis históricas, anais parlamentares e tratados doutrinários fundamentais mantêm valor informativo perpétuo, não devendo ser descartados por mera passagem do tempo.
+
+4. **Método de Desbastamento de Stanley J. Slote (1997):**
+   No clássico *Weeding Library Collections*, Slote demonstrou cientificamente que **a data do último uso (último empréstimo) é o melhor preditor individual da probabilidade de uso futuro de uma obra**:
+   * *Padrão de Tempo de Uso Recente (Use-Time Pattern):* O bibliotecário identifica um "período de corte" (ex.: 5 anos sem nenhum registro de circulação);
+   * *A Coleção Nuclear (Core Collection):* Ao retirar para depósito secundário as obras sem circulação no período de corte, a biblioteca preserva uma coleção enxuta em livre acesso capaz de satisfazer de 95% a 99% de todas as consultas correntes, liberando espaço físico e agilizando a localização na estante.
+
+5. **Padrão COUNTER Release 5 / 5.1 e Protocolo SUSHI (ANSI/NISO Z39.93):**
+   O *Counting Online Usage of NeTworked Electronic Resources* (COUNTER) é o padrão internacional auditado que impede editoras de inflarem artificialmente estatísticas de acesso:
+
+   * **A Matriz de Métricas Canônicas da Release 5:**
+     * \`Total_Item_Investigations\`: Mede todo e qualquer interesse demonstrado pelo usuário em relação a um conteúdo (ex.: visualizar resumo, metadados, citação bibliográfica, sumário ou o texto integral);
+     * \`Unique_Item_Investigations\`: Número de itens distintos investigados por um mesmo usuário em uma mesma sessão de navegação;
+     * \`Total_Item_Requests\`: Total de vezes que o arquivo completo (PDF ou HTML) foi baixado ou visualizado, incluindo múltiplos cliques repetidos no mesmo documento;
+     * \`Unique_Item_Requests\`: **Métrica de Ouro do Licenciamento.** Computa o acesso efetivo ao texto completo desduplicado na sessão (se o usuário baixar o mesmo artigo em PDF e HTML na mesma sessão, computa-se apenas 1 \`Unique_Item_Request\`). É esta métrica que deve compor o denominador do cálculo de Custo por Uso!
+   * **Os Quatro Relatórios Mestres (*Master Reports*):**
+     * **TR (*Title Report*):** Atividade em nível de título (livros eletrônicos e periódicos);
+     * **DR (*Database Report*):** Consultas, buscas regulares e buscas federadas em bases de dados;
+     * **PR (*Platform Report*):** Métricas consolidadas em nível de plataforma do fornecedor;
+     * **IR (*Item Report*):** Nível mais granular (artigos, capítulos de livros, vídeos e teses), padrão em repositórios institucionais.
+   * **Protocolo SUSHI (*Standardized Usage Statistics Harvesting Initiative* / ANSI/NISO Z39.93):**
+     * Protocolo automatizado baseado em arquitetura de **APIs RESTful e serialização JSON** (na Release 5);
+     * Permite que o software de gestão da biblioteca (SIGB ou sistema de gestão de recursos eletrônicos - ERM) se conecte diretamente aos servidores das editoras e faça o download automatizado periódico dos relatórios COUNTER, dispensando login manual e exportações manuais em planilhas.
+
+---
+
+### 🔗 Veja Também (Articulação Intermódulos)
+* **Bibliometria e Altmetria (sub-9-4):** Leis bibliométricas e obsolescência da literatura de Burton & Kebler.
+* **Bibliotecas Digitais (sub-6-1):** Métricas de uso eletrônico COUNTER R5 e protocolo SUSHI.
+`,
   checkpoints: [
     {
       id: 'cp-5-3-1',
@@ -209,10 +316,10 @@ TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
     },
     {
       id: 'cp-5-3-3',
-      pergunta: 'Micro-Checkpoint 3: Processo de Desbastamento e Descarte de Acervos',
-      item: 'O processo de desbastamento (weeding) consiste no remanejamento de itens de baixa frequência de uso para depósitos secundários com acesso indireto, diferenciando-se do descarte, que implica a exclusão patrimonial definitiva.',
+      pergunta: 'Micro-Checkpoint 3: Licenciamento Digital e Métricas COUNTER Release 5 (Caso)',
+      item: 'Ao analisar a renovação da assinatura de uma base de periódicos da Câmara dos Deputados, o bibliotecário deve basear o cálculo do custo por download no relatório padronizado COUNTER Release 5, utilizando a métrica Unique_Item_Requests para avaliar o consumo efetivo de textos integrais, e não a métrica Total_Item_Investigations, que computa qualquer interação preliminar com o registro, como a leitura do resumo.',
       gabarito: 'C',
-      justificativa: 'Certo! Conforme Weitzel e Vergueiro, desbastar é relocar materiais para locais de menor custo de armazenagem, enquanto descartar é expurgar o exemplar do acervo e dos registros patrimoniais.',
+      justificativa: 'Certo! O padrão internacional COUNTER R5 disciplina que Unique_Item_Requests mede o acesso real aos textos completos (PDF/HTML) sem duplicações por sessão, sendo a métrica recomendada para calcular o custo por uso; já Total_Item_Investigations inclui visualização de resumos e metadados, medindo o interesse exploratório global.',
     },
   ],
   mnemonicos: {

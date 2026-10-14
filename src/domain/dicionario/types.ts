@@ -61,6 +61,14 @@ export interface TermoGlossarioCanonico {
 // Alias de retrocompatibilidade
 export type TermoDicionario = TermoGlossarioCanonico;
 
+export interface SubmoduloOrigemTermo {
+  subId: string;
+  subNumero: string;
+  subTitulo: string;
+  moduloCodigo: string;
+  moduloTitulo: string;
+}
+
 export interface TermoSalvo {
   id: string;
   termo: string;

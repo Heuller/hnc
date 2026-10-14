@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo116: ModuloFilho = {
   id: 'sub-11-6',
   numero: '11.6',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 6: Licitações e Contratos - Lei 14.133/2021)',
+  preRequisitos: ["sub-11-5"],
   titulo: 'Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso',
   titulo_curto: 'Responsabilidade Civil do Estado',
   descricaoCurta: 'Evolução histórica e a Teoria do Risco Administrativo (art. 37, § 6º da CF/88). Responsabilidade por atos comissivos vs. omissivos (falta do serviço e dever de custódia). Excludentes e atenuantes do nexo causal. Teoria do Risco Integral. Ação de regresso e ilegitimidade do servidor (STF Tema 940).',

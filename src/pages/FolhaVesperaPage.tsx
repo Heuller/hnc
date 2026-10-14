@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Printer,
   Sparkles,
@@ -8,15 +8,20 @@ import {
   Table,
   AlertTriangle,
   History,
+  ShieldAlert,
+  CheckCircle2,
 } from 'lucide-react';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
+import { MATRIZ_BLOCOS_EDITAL_VESPERA } from '../domain/folhaVespera/pegadinhasBlocos';
 
 export const FolhaVesperaPage: React.FC = () => {
   const { setActiveView } = useNavigationStore();
   const { modulosLidosIds } = useProgressStore();
+  const [activeTab, setActiveTab] = useState<'blocos' | 'progresso'>('blocos');
+  const [selectedBloco, setSelectedBloco] = useState<string>('todos');
 
   const handlePrint = () => {
     window.print();
@@ -82,6 +87,16 @@ export const FolhaVesperaPage: React.FC = () => {
     }))
   );
 
+  const blocosExibidos =
+    selectedBloco === 'todos'
+      ? MATRIZ_BLOCOS_EDITAL_VESPERA
+      : MATRIZ_BLOCOS_EDITAL_VESPERA.filter((b) => b.id === selectedBloco);
+
+  const totalPegadinhasBlocos = MATRIZ_BLOCOS_EDITAL_VESPERA.reduce(
+    (acc, b) => acc + b.pegadinhas.length,
+    0
+  );
+
   return (
     <div className="space-y-8 max-w-5xl mx-auto py-2 px-1 sm:px-0 folha-vespera-container">
       {/* Barra de Ações (Oculta na Impressão) */}
@@ -97,19 +112,17 @@ export const FolhaVesperaPage: React.FC = () => {
 
         <div className="flex items-center gap-2">
           <span className="text-[11px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
-            Revisão de Véspera (48h)
+            Revisão de Véspera (48h) • Edital nº 1/2026
           </span>
-          {completedSubmodules.length > 0 && (
-            <button
-              type="button"
-              onClick={handlePrint}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95"
-              title="Imprimir ou Salvar em PDF"
-            >
-              <Printer className="w-4 h-4" />
-              <span>Imprimir / Salvar PDF</span>
-            </button>
-          )}
+          <button
+            type="button"
+            onClick={handlePrint}
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary text-primary-text text-xs font-bold shadow-editorial-sm cursor-pointer hover:opacity-95"
+            title="Imprimir ou Salvar em PDF"
+          >
+            <Printer className="w-4 h-4" />
+            <span>Imprimir / Salvar PDF</span>
+          </button>
         </div>
       </div>
 
@@ -117,18 +130,45 @@ export const FolhaVesperaPage: React.FC = () => {
       <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 space-y-4 border-l-4 border-l-accent shadow-editorial-xs no-print">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-accent-soft text-ink border border-accent/20 text-xs font-bold uppercase tracking-wider font-mono">
           <Flame className="w-3.5 h-3.5 text-accent" />
-          <span>Folha de Véspera • Síntese Derivada</span>
+          <span>Folha de Véspera • Matriz de Choque & Síntese</span>
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-black text-ink tracking-tight m-0">
-          Folha de Véspera: Síntese de Conteúdo Concluído
+          Folha de Véspera: Matriz dos 5 Blocos do Edital 2026
         </h1>
 
         <p className="font-serif text-sm sm:text-base text-ink-2 leading-relaxed m-0">
-          {completedSubmodules.length > 0
-            ? `Documento consolidado de alta retenção derivado de ${completedSubmodules.length} submódulo(s) concluído(s) com aproveitamento mínimo de 85%. Autores, quadros e pegadinhas da banca compilados para revisão imediata.`
-            : 'A Folha de Véspera consolida exclusivamente o conhecimento das etapas que você já dominou. Conclua os submódulos da Jornada para gerar automaticamente suas sínteses.'}
+          Compilação mnemônica intensiva para as 48 horas pré-prova de Analista Legislativo da Câmara dos Deputados (Cebraspe). Contém as <strong>60 pegadinhas capitais</strong> divididas pelos 5 blocos do edital e a síntese dinâmica dos submódulos que você já dominou.
         </p>
+
+        {/* Abas de Navegação */}
+        <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-border">
+          <button
+            type="button"
+            onClick={() => setActiveTab('blocos')}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+              activeTab === 'blocos'
+                ? 'bg-accent text-white shadow-sm'
+                : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
+            }`}
+          >
+            <ShieldAlert className="w-3.5 h-3.5" />
+            <span>Matriz Cebraspe dos 5 Blocos ({totalPegadinhasBlocos} Pegadinhas)</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab('progresso')}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+              activeTab === 'progresso'
+                ? 'bg-accent text-white shadow-sm'
+                : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
+            }`}
+          >
+            <CheckCircle2 className="w-3.5 h-3.5" />
+            <span>Minha Síntese de Progresso ({completedSubmodules.length} Concluídos)</span>
+          </button>
+        </div>
       </div>
 
       {/* CABEÇALHO FORMAL PARA IMPRESSÃO */}
@@ -143,174 +183,274 @@ export const FolhaVesperaPage: React.FC = () => {
             </p>
           </div>
           <div className="text-right text-[10px] font-mono text-gray-600">
-            <span>Síntese de Conteúdo Concluído ({completedSubmodules.length} submódulos)</span>
+            <span>Matriz dos 5 Blocos ({totalPegadinhasBlocos} Pegadinhas)</span>
             <br />
-            <span>Documento de Revisão Rápida</span>
+            <span>Documento de Revisão de Véspera</span>
           </div>
         </div>
       </div>
 
-      {/* CASO VAZIO: NENHUM SUBMÓDULO CONCLUÍDO AINDA (Regra B9) */}
-      {completedSubmodules.length === 0 && (
-        <div className="bg-surface rounded-2xl border border-dashed border-border p-8 text-center space-y-4 no-print">
-          <div className="w-12 h-12 rounded-xl bg-surface-2 border border-border flex items-center justify-center mx-auto text-ink-2">
-            <BookOpen className="w-6 h-6 text-accent" />
-          </div>
-          <div className="max-w-md mx-auto space-y-1">
-            <h3 className="text-base font-bold text-ink">Nenhum submódulo concluído ainda</h3>
-            <p className="text-xs text-ink-2 font-serif leading-relaxed">
-              Em respeito à fidelidade pedagógica, a Folha de Véspera não exibe conteúdos de módulos
-              não estudados. Assim que você atingir 85% de acertos nos checkpoints de uma etapa, suas
-              fórmulas, quadros e pegadinhas aparecerão aqui automaticamente.
-            </p>
-          </div>
+      {/* SEÇÃO 1: MATRIZ CEBRASPE DOS 5 BLOCOS DO EDITAL 2026 */}
+      <div className={activeTab === 'blocos' ? 'space-y-6' : 'hidden print:block space-y-6'}>
+        {/* Filtro por Bloco no topo (Oculto na Impressão) */}
+        <div className="flex flex-wrap items-center gap-1.5 no-print">
+          <span className="text-xs font-semibold text-ink-2 mr-1">Filtrar Bloco:</span>
           <button
             type="button"
-            onClick={() => setActiveView('painel')}
-            className="py-2 px-4 rounded-lg bg-primary text-primary-text text-xs font-bold cursor-pointer hover:opacity-95"
+            onClick={() => setSelectedBloco('todos')}
+            className={`px-2.5 py-1 rounded-md text-xs font-medium cursor-pointer transition-colors ${
+              selectedBloco === 'todos'
+                ? 'bg-ink text-surface font-bold'
+                : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
+            }`}
           >
-            Iniciar Estudos no Painel
+            Todos os 5 Blocos (60)
           </button>
+          {MATRIZ_BLOCOS_EDITAL_VESPERA.map((bloco) => (
+            <button
+              key={bloco.id}
+              type="button"
+              onClick={() => setSelectedBloco(bloco.id)}
+              className={`px-2.5 py-1 rounded-md text-xs font-medium cursor-pointer transition-colors ${
+                selectedBloco === bloco.id
+                  ? 'bg-accent text-white font-bold'
+                  : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
+              }`}
+            >
+              {bloco.sigla} ({bloco.pegadinhas.length})
+            </button>
+          ))}
         </div>
-      )}
 
-      {/* CASO COM CONTEÚDO: RENDERIZA EXCLUSIVAMENTE O QUE FOI CONCLUÍDO */}
-      {completedSubmodules.length > 0 && (
-        <div className="space-y-6">
-          {/* BLOCO 1: AUTORES CANÔNICOS E DOUTRINAS */}
-          {autoresConsolidados.length > 0 && (
-            <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-              <div className="flex items-center gap-2 border-b border-border pb-2">
-                <Sparkles className="w-4 h-4 text-accent print:text-black" />
-                <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
-                  1. Autores Canônicos e Conceitos Chave ({autoresConsolidados.length})
+        {/* Listagem dos Blocos */}
+        {blocosExibidos.map((bloco) => (
+          <section
+            key={bloco.id}
+            className="bg-surface rounded-2xl border border-border p-6 space-y-5 print:p-3 print:border-black print:shadow-none shadow-editorial-xs print:break-before-page"
+          >
+            <div className="border-b border-border pb-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                <span className="px-2 py-0.5 rounded bg-accent text-white text-xs font-black font-mono">
+                  {bloco.sigla}
+                </span>
+                <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-tight">
+                  {bloco.titulo}
                 </h2>
               </div>
+              <span className="text-[11px] font-mono text-ink-2 font-medium">
+                Módulos: {bloco.modulosRelacionados.join(', ')} • {bloco.pegadinhas.length} Pegadinhas Capitais
+              </span>
+            </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
-                {autoresConsolidados.map((item, idx) => (
-                  <div
-                    key={`${item.nome}-${idx}`}
-                    className="p-3 rounded-xl bg-surface-2/60 border border-border print:border-gray-400 space-y-1"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-bold text-ink print:text-black block text-xs">
-                        {item.nome}
-                      </span>
-                      <span className="text-[10px] font-mono text-accent print:text-gray-700">
-                        §{item.subNumero}
-                      </span>
-                    </div>
-                    <p className="text-[11px] text-ink-2 print:text-black leading-snug font-serif m-0">
-                      {item.ideia}
+            <p className="text-xs text-ink-2 font-serif leading-relaxed m-0 print:text-gray-800">
+              {bloco.descricao}
+            </p>
+
+            <div className="space-y-3.5">
+              {bloco.pegadinhas.map((item, pIdx) => (
+                <div
+                  key={item.id}
+                  className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2 text-xs font-serif leading-relaxed text-ink print:text-black"
+                >
+                  <div className="flex items-center justify-between gap-2 font-mono text-[10px] border-b border-border/50 pb-1.5">
+                    <span className="font-bold text-accent uppercase">
+                      #{pIdx + 1} · {item.topico}
+                    </span>
+                    <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold">
+                      GABARITO: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
+                    </span>
+                  </div>
+
+                  <div>
+                    <span className="font-semibold text-ink-2 text-[11px] block mb-0.5">
+                      Assertiva Típica Cebraspe:
+                    </span>
+                    <p className="font-medium italic m-0 text-ink bg-surface/60 p-2 rounded border border-border/60">
+                      "{item.afirmacaoFalsa}"
                     </p>
                   </div>
-                ))}
-              </div>
-            </section>
-          )}
 
-          {/* BLOCO 2: QUADROS COMPARATIVOS CONSOLIDADOS */}
-          {quadrosConsolidados.length > 0 && (
-            <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-              <div className="flex items-center gap-2 border-b border-border pb-2">
-                <Table className="w-4 h-4 text-accent print:text-black" />
-                <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
-                  2. Matrizes e Quadros Comparativos ({quadrosConsolidados.length})
-                </h2>
-              </div>
-
-              <div className="space-y-6">
-                {quadrosConsolidados.map((q, idx) => (
-                  <div key={idx} className="space-y-2">
-                    <span className="text-xs font-mono text-ink-2 font-semibold">
-                      Submódulo {q.subNumero} • {q.subTitulo}
-                    </span>
-                    <TabelaComparativa quadro={q.quadro} />
+                  <div className="text-[11px] space-y-1">
+                    <p className="m-0 text-red-600 dark:text-red-400">
+                      <strong>⚠️ Armadilha da Banca:</strong> {item.armadilhaCebraspe}
+                    </p>
+                    <p className="m-0 text-emerald-700 dark:text-emerald-400">
+                      <strong>Fundamentação Canônica:</strong> {item.fundamentacaoCanonico}
+                    </p>
+                    <p className="m-0 text-ink-2 font-mono text-[10px]">
+                      <strong>Fonte Primária:</strong> {item.fontePrimaria} (Ref: §{item.submoduloRef})
+                    </p>
                   </div>
-                ))}
-              </div>
-            </section>
-          )}
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
 
-          {/* BLOCO 3: ALERTAS CEBRASPE E PEGADINHAS DA BANCA */}
-          {(alertasConsolidados.length > 0 || pegadinhasConsolidadas.length > 0) && (
-            <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-              <div className="flex items-center gap-2 border-b border-border pb-2">
-                <AlertTriangle className="w-4 h-4 text-amber-500 print:text-black" />
-                <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
-                  3. Alertas Cebraspe e Armadilhas Típicas ({alertasConsolidados.length + pegadinhasConsolidadas.length})
-                </h2>
-              </div>
+      {/* SEÇÃO 2: MINHA SÍNTESE DE PROGRESSO (REGRA B9) */}
+      <div className={activeTab === 'progresso' ? 'space-y-6' : 'hidden print:block space-y-6'}>
+        {/* CASO VAZIO */}
+        {completedSubmodules.length === 0 && (
+          <div className="bg-surface rounded-2xl border border-dashed border-border p-8 text-center space-y-4 no-print">
+            <div className="w-12 h-12 rounded-xl bg-surface-2 border border-border flex items-center justify-center mx-auto text-ink-2">
+              <BookOpen className="w-6 h-6 text-accent" />
+            </div>
+            <div className="max-w-md mx-auto space-y-1">
+              <h3 className="text-base font-bold text-ink">Nenhum submódulo concluído ainda</h3>
+              <p className="text-xs text-ink-2 font-serif leading-relaxed">
+                Em respeito à fidelidade pedagógica, a síntese pessoal consolida apenas conteúdos das
+                etapas em que você atingiu 85% de acertos nos micro-checkpoints.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setActiveView('painel')}
+              className="py-2 px-4 rounded-lg bg-primary text-primary-text text-xs font-bold cursor-pointer hover:opacity-95"
+            >
+              Iniciar Estudos no Painel
+            </button>
+          </div>
+        )}
 
-              <div className="space-y-3">
-                {alertasConsolidados.map((alerta, idx) => (
-                  <div
-                    key={`alerta-${idx}`}
-                    className="p-3 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border-y border-r border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
-                  >
-                    <div className="flex items-center gap-1.5 text-[10px] font-mono text-amber-600 dark:text-amber-400 uppercase font-bold mb-1">
-                      <span>Alerta Cebraspe • Submódulo {alerta.subNumero}</span>
-                    </div>
-                    {alerta.texto}
-                  </div>
-                ))}
+        {/* CASO COM CONTEÚDO */}
+        {completedSubmodules.length > 0 && (
+          <div className="space-y-6">
+            {/* BLOCO 1: AUTORES CANÔNICOS E DOUTRINAS */}
+            {autoresConsolidados.length > 0 && (
+              <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
+                <div className="flex items-center gap-2 border-b border-border pb-2">
+                  <Sparkles className="w-4 h-4 text-accent print:text-black" />
+                  <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
+                    Autores Canônicos e Doutrinas Concluídas ({autoresConsolidados.length})
+                  </h2>
+                </div>
 
-                {pegadinhasConsolidadas.map((pegadinha, idx) => (
-                  <div
-                    key={`peg-${idx}`}
-                    className="p-3 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
-                  >
-                    <div className="flex items-center justify-between text-[10px] font-mono text-ink-2 font-bold mb-1">
-                      <span>Pegadinha Recorrente • Submódulo {pegadinha.subNumero}</span>
-                    </div>
-                    <p className="font-semibold m-0 text-ink print:text-black">"{pegadinha.afirmacao}"</p>
-                    {pegadinha.armadilha && (
-                      <p className="text-[11px] text-accent print:text-black mt-1 m-0">
-                        <strong>Armadilha da banca:</strong> {pegadinha.armadilha}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+                  {autoresConsolidados.map((item, idx) => (
+                    <div
+                      key={`${item.nome}-${idx}`}
+                      className="p-3 rounded-xl bg-surface-2/60 border border-border print:border-gray-400 space-y-1"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-ink print:text-black block text-xs">
+                          {item.nome}
+                        </span>
+                        <span className="text-[10px] font-mono text-accent print:text-gray-700">
+                          §{item.subNumero}
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-ink-2 print:text-black leading-snug font-serif m-0">
+                        {item.ideia}
                       </p>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* BLOCO 4: MARCOS CRONOLÓGICOS CONSOLIDADOS */}
-          {timelineConsolidada.length > 0 && (
-            <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
-              <div className="flex items-center gap-2 border-b border-border pb-2">
-                <History className="w-4 h-4 text-accent print:text-black" />
-                <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
-                  4. Marcos Cronológicos Históricos ({timelineConsolidada.length})
-                </h2>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                {timelineConsolidada.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3 rounded-xl bg-surface-2 border border-border print:border-gray-400 space-y-1"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-bold text-accent print:text-black font-sans">
-                        {item.periodo}
-                      </span>
-                      <span className="text-[10px] font-mono text-ink-2">
-                        Submódulo {item.subNumero}
-                      </span>
                     </div>
-                    <div className="font-bold text-ink print:text-black">{item.disciplina}</div>
-                    <div className="text-[11px] text-ink-2 print:text-black font-serif">
-                      {item.focoPrincipal}
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* BLOCO 2: QUADROS COMPARATIVOS CONSOLIDADOS */}
+            {quadrosConsolidados.length > 0 && (
+              <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
+                <div className="flex items-center gap-2 border-b border-border pb-2">
+                  <Table className="w-4 h-4 text-accent print:text-black" />
+                  <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
+                    Matrizes e Quadros Comparativos dos Módulos Concluídos ({quadrosConsolidados.length})
+                  </h2>
+                </div>
+
+                <div className="space-y-6">
+                  {quadrosConsolidados.map((q, idx) => (
+                    <div key={idx} className="space-y-2">
+                      <span className="text-xs font-mono text-ink-2 font-semibold">
+                        Submódulo {q.subNumero} • {q.subTitulo}
+                      </span>
+                      <TabelaComparativa quadro={q.quadro} />
                     </div>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
-        </div>
-      )}
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* BLOCO 3: ALERTAS CEBRASPE E PEGADINHAS DA BANCA */}
+            {(alertasConsolidados.length > 0 || pegadinhasConsolidadas.length > 0) && (
+              <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
+                <div className="flex items-center gap-2 border-b border-border pb-2">
+                  <AlertTriangle className="w-4 h-4 text-amber-500 print:text-black" />
+                  <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
+                    Alertas e Armadilhas dos Submódulos Concluídos ({alertasConsolidados.length + pegadinhasConsolidadas.length})
+                  </h2>
+                </div>
+
+                <div className="space-y-3">
+                  {alertasConsolidados.map((alerta, idx) => (
+                    <div
+                      key={`alerta-${idx}`}
+                      className="p-3 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border-y border-r border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
+                    >
+                      <div className="flex items-center gap-1.5 text-[10px] font-mono text-amber-600 dark:text-amber-400 uppercase font-bold mb-1">
+                        <span>Alerta Cebraspe • Submódulo {alerta.subNumero}</span>
+                      </div>
+                      {alerta.texto}
+                    </div>
+                  ))}
+
+                  {pegadinhasConsolidadas.map((pegadinha, idx) => (
+                    <div
+                      key={`peg-${idx}`}
+                      className="p-3 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
+                    >
+                      <div className="flex items-center justify-between text-[10px] font-mono text-ink-2 font-bold mb-1">
+                        <span>Pegadinha Recorrente • Submódulo {pegadinha.subNumero}</span>
+                      </div>
+                      <p className="font-semibold m-0 text-ink print:text-black">"{pegadinha.afirmacao}"</p>
+                      {pegadinha.armadilha && (
+                        <p className="text-[11px] text-accent print:text-black mt-1 m-0">
+                          <strong>Armadilha da banca:</strong> {pegadinha.armadilha}
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* BLOCO 4: MARCOS CRONOLÓGICOS CONSOLIDADOS */}
+            {timelineConsolidada.length > 0 && (
+              <section className="bg-surface rounded-2xl border border-border p-6 space-y-4 print:p-2 print:border-black print:shadow-none break-inside-avoid shadow-editorial-xs">
+                <div className="flex items-center gap-2 border-b border-border pb-2">
+                  <History className="w-4 h-4 text-accent print:text-black" />
+                  <h2 className="text-sm font-black uppercase tracking-wider text-ink print:text-black m-0 font-sans">
+                    Marcos Cronológicos Históricos ({timelineConsolidada.length})
+                  </h2>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                  {timelineConsolidada.map((item, idx) => (
+                    <div
+                      key={idx}
+                      className="p-3 rounded-xl bg-surface-2 border border-border print:border-gray-400 space-y-1"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-accent print:text-black font-sans">
+                          {item.periodo}
+                        </span>
+                        <span className="text-[10px] font-mono text-ink-2">
+                          Submódulo {item.subNumero}
+                        </span>
+                      </div>
+                      <div className="font-bold text-ink print:text-black">{item.disciplina}</div>
+                      <div className="text-[11px] text-ink-2 print:text-black font-serif">
+                        {item.focoPrincipal}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
+        )}
+      </div>
 
       {/* RODAPÉ DE IMPRESSÃO */}
       <div className="hidden print:block text-center text-[10px] text-gray-500 pt-4 border-t border-gray-300">

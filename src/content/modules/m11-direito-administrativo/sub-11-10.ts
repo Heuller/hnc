@@ -3,6 +3,8 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo1110: ModuloFilho = {
   id: 'sub-11-10',
   numero: '11.10',
+  editalRef: 'Conhecimentos Básicos - Direito Administrativo (Item 10: Responsabilidade Civil do Estado)',
+  preRequisitos: ["sub-11-5"],
   titulo: 'Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência',
   titulo_curto: 'Licitações na Lei 14.133/2021',
   descricaoCurta: 'Princípios e finalidades licitatórias na Lei nº 14.133/2021. Modalidades taxativas: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo. Critérios de julgamento. Contratação direta: Inexigibilidade vs. Dispensa. Fase preparatória: Estudo Técnico Preliminar (ETP) e Termo de Referência (TR).',

@@ -3,6 +3,20 @@ import type { ModuloFilho } from '../../../domain/types';
 export const submodulo25: ModuloFilho = {
   id: 'sub-2-5',
   numero: '2.5',
+  editalRef: 'Bloco A - Item 1.6 e Bloco D - Item 2.5',
+  preRequisitos: ["sub-2-4"],
+  referenciasCruzadas: [
+      {
+          "submoduloId": "sub-2-4",
+          "titulo": "Formato MARC 21 Bibliográfico e Autoridades",
+          "motivo": "Catalogação de publicações oficiais governamentais e campos 110/710."
+      },
+      {
+          "submoduloId": "sub-4-3",
+          "titulo": "Fontes Jurídicas e LexML",
+          "motivo": "Identificação de atos e normas de órgãos da administração pública federal."
+      }
+  ],
   titulo: 'Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados',
   titulo_curto: 'Órgãos Públicos & Bib. Câmara',
   descricaoCurta:
