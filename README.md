@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-101%2F101%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-535%2F535%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -88,7 +88,7 @@ npm run dev
 
 ## 🧪 Suíte de Testes Automatizados
 
-A plataforma conta com **101 testes unitários** automatizados em 13 suítes:
+A plataforma conta com **535 testes unitários** automatizados em 51 suítes:
 
 ```bash
 npm test
