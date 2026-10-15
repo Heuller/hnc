@@ -270,11 +270,59 @@ describe('RODADA 5B — PARTE 1: UMA ÚNICA FONTE DE RESPOSTAS (TEORIA ↔ JORNA
     expect(state.checkpointsRespondidos[cp3.id]).toBe(cp3.gabarito);
   });
 
-  it('1.6: Se N checkpoints < 6, soma exercícios de treino garantindo régua honesta com N >= 6', () => {
+  it('1.6 (U2.3): obterItensVerificacaoSubmodulo elimina pendências fantasma e retorna apenas checkpoints da teoria', () => {
     const itensVerificacao = obterItensVerificacaoSubmodulo(sub11, 'm1');
-    // Submódulo 1.1 tem 3 checkpoints; agregando treino atinge N >= 6
-    expect(itensVerificacao.length).toBeGreaterThanOrEqual(6);
-    expect(itensVerificacao.some((it) => it.tipo === 'checkpoint')).toBe(true);
-    expect(itensVerificacao.some((it) => it.tipo === 'treino_par' || it.tipo === 'treino_armadilha')).toBe(true);
+    // Submódulo 1.1 tem 3 checkpoints; deve retornar exatamente 3 itens, todos do tipo 'checkpoint'
+    expect(itensVerificacao.length).toBe(3);
+    expect(itensVerificacao.every((it) => it.tipo === 'checkpoint')).toBe(true);
+    expect(itensVerificacao.some((it) => it.tipo === 'treino_par' || it.tipo === 'treino_armadilha')).toBe(false);
+  });
+
+  it('U2.3: submódulo com 3 checkpoints respondidos mostra exatamente 3 de 3 respondidos sem pendências fantasma', () => {
+    const attempts = [
+      {
+        id: 'att-1',
+        user_id: 'user-test',
+        item_id: cp1.id,
+        submodulo_id: '1.1',
+        modulo_id: 'm1',
+        contexto: 'teoria' as const,
+        resposta: cp1.gabarito,
+        correto: true,
+        tentativa_n: 1,
+        criado_em: new Date().toISOString(),
+      },
+      {
+        id: 'att-2',
+        user_id: 'user-test',
+        item_id: cp2.id,
+        submodulo_id: '1.1',
+        modulo_id: 'm1',
+        contexto: 'teoria' as const,
+        resposta: cp2.gabarito,
+        correto: true,
+        tentativa_n: 1,
+        criado_em: new Date().toISOString(),
+      },
+      {
+        id: 'att-3',
+        user_id: 'user-test',
+        item_id: cp3.id,
+        submodulo_id: '1.1',
+        modulo_id: 'm1',
+        contexto: 'teoria' as const,
+        resposta: cp3.gabarito,
+        correto: true,
+        tentativa_n: 1,
+        criado_em: new Date().toISOString(),
+      },
+    ];
+
+    const progresso = derivarProgresso(attempts, {}, COURSE_REGISTRY, JORNADA_CONFIG);
+    const subProg = progresso.submodulos['1.1'];
+    expect(subProg.totalItensVerificacao).toBe(3);
+    expect(subProg.itensRespondidosCount).toBe(3);
+    expect(subProg.itensPendentesIds.length).toBe(0);
+    expect(subProg.statusTexto).toContain('3 de 3 respondidos');
   });
 });

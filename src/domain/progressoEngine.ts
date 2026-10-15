@@ -60,9 +60,8 @@ export interface ProgressoGlobalDerivado {
 }
 
 /**
- * Obtém a lista exata e canônica de itens de verificação de um submódulo (Regra 1.3 e 1.6).
- * Se N de checkpoints < 6, agrega os exercícios do Treino de Recuperação Ativa (pares, ordenação, pegadinhas)
- * para atingir o N representativo exigido pelo edital sem reduzir o limiar de 85%.
+ * Obtém a lista exata e canônica de itens de verificação de um submódulo (Fase U2 - Bug D4 corrigido).
+ * Retorna estritamente os checkpoints canônicos da teoria, sem inflar contagens com pares de autores ou pegadinhas.
  */
 export function obterItensVerificacaoSubmodulo(
   sub: ModuloFilho,
@@ -70,7 +69,7 @@ export function obterItensVerificacaoSubmodulo(
 ): ItemVerificacaoCanonica[] {
   const lista: ItemVerificacaoCanonica[] = [];
 
-  // 1. Checkpoints canônicos da teoria
+  // Checkpoints canônicos da teoria
   for (const cp of sub.checkpoints || []) {
     lista.push({
       id: cp.id,
@@ -80,39 +79,6 @@ export function obterItensVerificacaoSubmodulo(
       gabarito: cp.gabarito,
       tipo: 'checkpoint',
       justificativa: cp.justificativa,
-    });
-  }
-
-  // 2. Se N < 6, soma exercícios do Treino de Recuperação Ativa (Regra 1.6)
-  if (lista.length < 6 && sub.mnemonicos) {
-    // A) Pares de autores
-    (sub.mnemonicos.autores || []).slice(0, 3).forEach((a, idx) => {
-      const nomeAutor = typeof a === 'string' ? a : a.nome;
-      const conceito = typeof a === 'object' ? a.ideiaChave || a.obraPrincipal : 'Doutrina canônica de referência';
-      lista.push({
-        id: `pair-${sub.numero}-${idx}`,
-        submoduloNumero: sub.numero,
-        moduloId,
-        texto: `Julgue o item a respeito da doutrina e autores de referência: ${nomeAutor} é associado ao seguinte fundamento conceitual ou obra: "${conceito}".`,
-        gabarito: 'C',
-        tipo: 'treino_par',
-        justificativa: typeof a === 'object' ? `${a.nome}${a.ano ? ` (${a.ano})` : ''}: ${a.ideiaChave || a.obraPrincipal}${a.chipPegadinha ? ` · Atenção: ${a.chipPegadinha}` : ''}` : undefined,
-      });
-    });
-
-    // B) Pegadinhas / Caça-armadilha
-    (sub.mnemonicos.pegadinhas || []).slice(0, 3).forEach((peg) => {
-      if (typeof peg === 'object') {
-        lista.push({
-          id: peg.id,
-          submoduloNumero: sub.numero,
-          moduloId,
-          texto: peg.afirmacao,
-          gabarito: peg.gabarito,
-          tipo: 'treino_armadilha',
-          justificativa: peg.porQue,
-        });
-      }
     });
   }
 
