@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Compass,
   CheckCircle2,
-  Lock,
   Play,
   RotateCcw,
   BookOpen,
