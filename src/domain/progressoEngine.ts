@@ -1,7 +1,20 @@
 import type { MacroModulo, ModuloFilho } from './schemas/modulo.schema';
 import type { ItemAttempt } from './itemAttempts';
-import { JORNADA_CONFIG, type JornadaConfig } from '../config/jornada.config';
+import {
+  JORNADA_CONFIG,
+  SELO_CONFIG,
+  type JornadaConfig,
+  type NivelSeloDominio,
+} from '../config/jornada.config';
 import { getRequiredSectionsForSubmodule } from './learningEngine';
+
+export type NivelSelo = NivelSeloDominio; // 'em_andamento' | 'consolidado' | 'dominado'
+
+export interface SeloDominio {
+  nivel: NivelSelo;
+  label: string;
+  descricao: string;
+}
 
 export interface ItemVerificacaoCanonica {
   id: string;
@@ -28,10 +41,11 @@ export interface SubmoduloProgressoDerivado {
   secoesLidasCount: number;
   secoesTotalCount: number;
   leituraCompleta: boolean;
-  concluido: boolean; // leituraCompleta && aprovadoNoPortao
+  concluido: boolean; // leituraCompleta && itensRespondidosCount === totalN (sem exigir nota mínima)
+  selo: SeloDominio;
   emRevisaoDirigida: boolean;
   itensPendentesIds: string[];
-  statusTexto: string; // Ex: "3 de 3 respondidos · 100% · Concluído" ou "2 de 3 respondidos · 67% · faltam 1 item"
+  statusTexto: string;
   primeirasTentativasMap: Record<string, ItemAttempt>;
   ultimasTentativasMap: Record<string, ItemAttempt>;
 }
@@ -86,8 +100,83 @@ export function obterItensVerificacaoSubmodulo(
 }
 
 /**
- * Função Pura Canônica (Regra 1.2):
- * Deriva TODO o estado de progresso, conclusão e liberação de portões a partir
+ * Calcula o Selo de Domínio de um submódulo (Plano v3 Fase U2):
+ * - em_andamento: leitura em progresso, itens incompletos ou aproveitamento < limiar (85%)
+ * - consolidado: concluído com aproveitamento >= 85%
+ * - dominado: consolidado + retenção comprovada em revisão espaçada realizada >= 7 dias depois
+ * Os critérios são puramente baseados em evidência e nunca bloqueiam a navegação.
+ */
+export function calcularSeloDominio(
+  leituraCompleta: boolean,
+  totalN: number,
+  respondidosCount: number,
+  aproveitamentoPercent: number,
+  itensDoSubmodulo: ItemVerificacaoCanonica[],
+  primeirasTentativas: Record<string, ItemAttempt>,
+  allAttempts: ItemAttempt[],
+  config: JornadaConfig = JORNADA_CONFIG
+): SeloDominio {
+  const limiarConsolidadoPercent = Math.round(
+    (SELO_CONFIG?.limiarConsolidado ?? config.aproveitamentoMinimo ?? 0.85) * 100
+  );
+  const intervaloMinimoMs =
+    (SELO_CONFIG?.intervaloMinimoDominadoDias ?? 7) * 24 * 60 * 60 * 1000;
+
+  // 1. Leitura não concluída ou itens não todos respondidos
+  if (!leituraCompleta || (totalN > 0 && respondidosCount < totalN)) {
+    return {
+      nivel: 'em_andamento',
+      label: 'Em andamento',
+      descricao: 'Leitura em progresso ou itens de verificação pendentes.',
+    };
+  }
+
+  // 2. Não atingiu o limiar consolidado (85%)
+  if (aproveitamentoPercent < limiarConsolidadoPercent) {
+    return {
+      nivel: 'em_andamento',
+      label: 'Em andamento',
+      descricao: `Aproveitamento de ${aproveitamentoPercent}% abaixo do limiar de ${limiarConsolidadoPercent}% para consolidação.`,
+    };
+  }
+
+  // 3. Critério de Dominado: retenção em revisão espaçada realizada >= 7 dias após a 1ª tentativa
+  let itensComRetencao = 0;
+  for (const it of itensDoSubmodulo) {
+    const primeira = primeirasTentativas[it.id];
+    if (primeira) {
+      const dataPrimeira = new Date(primeira.criado_em).getTime();
+      const revisaoAcertada = allAttempts.some((a) => {
+        if (a.item_id !== it.id || a.tentativa_n <= 1 || !a.correto) return false;
+        const dataRevisao = new Date(a.criado_em).getTime();
+        return dataRevisao - dataPrimeira >= intervaloMinimoMs;
+      });
+      if (revisaoAcertada) {
+        itensComRetencao++;
+      }
+    }
+  }
+
+  const retencaoComprovada = totalN > 0 && itensComRetencao >= totalN;
+
+  if (retencaoComprovada) {
+    return {
+      nivel: 'dominado',
+      label: 'Dominado',
+      descricao: 'Conteúdo consolidado e retido com sucesso em revisão espaçada após 7 dias.',
+    };
+  }
+
+  return {
+    nivel: 'consolidado',
+    label: 'Consolidado',
+    descricao: `Concluído com aproveitamento de ${aproveitamentoPercent}% (mínimo de ${limiarConsolidadoPercent}%).`,
+  };
+}
+
+/**
+ * Função Pura Canônica (Regra 1.2 / Plano v3 Fase U2):
+ * Deriva TODO o estado de progresso, conclusão e selos a partir
  * do registro append-only de tentativas de itens e leituras.
  * PROIBIDO armazenar flags independentes de "concluído".
  */
@@ -163,20 +252,38 @@ export function derivarProgresso(
       const secoesLidasCount = requiredSections.filter((s) => secoesLidas.includes(s)).length;
       const leituraCompleta = requiredSections.length > 0 ? secoesLidasCount === requiredSections.length : true;
 
-      const emRevisaoDirigida = respondidosCount === totalN && !aprovadoNoPortao;
-      const concluido = leituraCompleta && aprovadoNoPortao;
+      // Fase U2 (U2.2): submódulo concluído = leitura de todas as seções E itens da seção respondidos sem exigir nota mínima.
+      const todosItensRespondidos = totalN === 0 || respondidosCount === totalN;
+      const concluido = leituraCompleta && todosItensRespondidos;
+
+      const selo = calcularSeloDominio(
+        leituraCompleta,
+        totalN,
+        respondidosCount,
+        aproveitamentoPortaoPercent,
+        itensVerificacao,
+        primeirasTentativasMap,
+        attempts,
+        config
+      );
+
+      const emRevisaoDirigida =
+        respondidosCount === totalN &&
+        aproveitamentoPortaoPercent < Math.round(config.minimoVerificacao * 100);
 
       if (concluido) {
         submodulosConcluidosDoModulo++;
         totalEtapasConcluidas++;
       }
 
-      // Texto de status honesto (Regra 1.3)
+      // Texto de status honesto (Regra 1.3 / Fase U2)
       let statusTexto = '';
-      if (concluido) {
+      if (selo.nivel === 'dominado') {
+        statusTexto = `${respondidosCount} de ${totalN} respondidos · Dominado`;
+      } else if (selo.nivel === 'consolidado') {
+        statusTexto = `${respondidosCount} de ${totalN} respondidos · ${aproveitamentoPortaoPercent}% · Consolidado`;
+      } else if (concluido) {
         statusTexto = `${respondidosCount} de ${totalN} respondidos · ${aproveitamentoPortaoPercent}% · Concluído`;
-      } else if (emRevisaoDirigida) {
-        statusTexto = `${acertosPrimeiraTentativa} de ${totalN} acertos (${aproveitamentoPortaoPercent}% · mín. ${Math.round(config.minimoVerificacao * 100)}%) · Revisão dirigida`;
       } else if (respondidosCount > 0) {
         const faltam = totalN - respondidosCount;
         statusTexto = `${respondidosCount} de ${totalN} respondidos · ${aproveitamentoPortaoPercent}% · faltam ${faltam} ite${faltam > 1 ? 'ns' : 'm'}`;
@@ -199,6 +306,7 @@ export function derivarProgresso(
         secoesTotalCount: requiredSections.length,
         leituraCompleta,
         concluido,
+        selo,
         emRevisaoDirigida,
         itensPendentesIds,
         statusTexto,
@@ -229,8 +337,10 @@ export function derivarProgresso(
       : undefined;
 
     const simuladoAprovado = (simuladoNotaConsolidada ?? 0) >= config.minimoSimuladoModulo;
-    const moduloConcluido = todosSubmodulosConcluidos && simuladoAprovado;
-    const proximoModuloLiberado = moduloConcluido;
+    const moduloConcluido = config.simuladoObrigatorioParaAvancar
+      ? todosSubmodulosConcluidos && simuladoAprovado
+      : todosSubmodulosConcluidos;
+    const proximoModuloLiberado = true; // No modo livre permanente, próximo módulo sempre liberado
 
     modulosMap[macro.id] = {
       moduloId: macro.id,
@@ -238,7 +348,7 @@ export function derivarProgresso(
       submodulosConcluidosCount: submodulosConcluidosDoModulo,
       submodulosTotalCount,
       todosSubmodulosConcluidos,
-      simuladoLiberado: todosSubmodulosConcluidos,
+      simuladoLiberado: true, // No modo livre permanente, simulado sempre liberado
       simuladoTentativasCount,
       simuladoPrimeiraTentativaNota,
       simuladoNotaConsolidada,
