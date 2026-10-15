@@ -11,6 +11,7 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       secoesVisualizadas: {},
       modulosLidosIds: [],
       tentativas: [],
+      itemAttempts: [],
       modoLivre: false,
     });
   });
@@ -59,7 +60,7 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       expect(storeState.itemAttempts.map((a) => a.item_id)).toContain('cp-1-1-1');
     });
 
-    it('REPRODUÇÃO: useProgressStore.salvarCheckpoint não grava tentativa se aproveitamento < 85%', () => {
+    it('CORREÇÃO U2.3: useProgressStore.salvarCheckpoint grava tentativa ao responder os 3 checkpoints mesmo com aproveitamento < 85%', () => {
       const sub11 = COURSE_REGISTRY[0].modulosFilhos[0];
       
       // Responde 2 corretos e 1 errado (66% de aproveitamento)
@@ -69,8 +70,10 @@ describe('FASE A0 — Testes de Reprodução de Falhas (Rodada 5B)', () => {
       useProgressStore.getState().salvarCheckpoint(sub11.checkpoints[2].id, gabaritoInvertido);
 
       const storeState = useProgressStore.getState();
-      // Nenhuma tentativa foi registrada na lista de tentativas!
-      expect(storeState.tentativas.length).toBe(0);
+      // Fase U2 (U2.3): Agora que não há pendências fantasma de mnemônicos, a tentativa é registrada
+      expect(storeState.tentativas.length).toBe(1);
+      expect(storeState.tentativas[0].totalItens).toBe(3);
+      expect(storeState.tentativas[0].aprovado).toBe(false);
     });
   });
 

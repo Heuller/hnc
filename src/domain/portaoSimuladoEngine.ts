@@ -132,80 +132,22 @@ export function calcularNotaConsolidadaSimulado(
  */
 export function verificarAcessoModulo(
   moduloId: string,
-  progressoGlobal: ProgressoGlobalDerivado,
+  _progressoGlobal: ProgressoGlobalDerivado,
   historicoSimulados: SimuladoFinalizado[] = [],
-  devBypass = false
+  _devBypass = false
 ): StatusAcessoModulo {
-  if (devBypass) {
-    return { moduloId, moduloNumero: 1, liberado: true };
-  }
-
-  // Mini-Módulo Especial 2.5 é sempre liberado para estudo
-  if (moduloId === 'm2-5' || moduloId === 'm2.5') {
-    return {
-      moduloId,
-      moduloNumero: 2.5,
-      liberado: true,
-    };
-  }
-
   const modNumMatch = moduloId.match(/m(\d+)/i) || moduloId.match(/^(\d+)$/);
   const moduloNumero = modNumMatch ? parseInt(modNumMatch[1], 10) : 1;
 
-  // M1 (Fundamentos) é sempre liberado
-  if (moduloNumero <= 1) {
-    return {
-      moduloId,
-      moduloNumero,
-      liberado: true,
-    };
-  }
-
-  // Módulos da trilha complementar (ex: M13 Língua Portuguesa) são de acesso livre
-  const macroObj = COURSE_REGISTRY.find(
-    (m) =>
-      m.codigo?.toLowerCase() === moduloId.toLowerCase() ||
-      m.id?.toLowerCase() === moduloId.toLowerCase() ||
-      m.numero === moduloNumero
-  );
-  if (macroObj && macroObj.trilha === 'complementar') {
-    return {
-      moduloId,
-      moduloNumero,
-      liberado: true,
-    };
-  }
-
-  // Para Módulo N > 1, verifica aprovação no simulado do Módulo anterior (N - 1)
-  const moduloAnteriorNumero = moduloNumero - 1;
+  const moduloAnteriorNumero = Math.max(1, moduloNumero - 1);
   const simuladoAnteriorId = `m${moduloAnteriorNumero}-fundamentos`;
 
-  // Calcula nota consolidada do simulado anterior
   const consolidada = calcularNotaConsolidadaSimulado(
     simuladoAnteriorId,
     historicoSimulados
   );
 
-  // Checa também via progresso derivado puro
-  const moduloAnteriorDerivado = progressoGlobal.modulos[`m${moduloAnteriorNumero}`];
-  const liberadoPorProgresso = moduloAnteriorDerivado?.simuladoAprovado ?? false;
-
-  const liberado = consolidada.aprovado || liberadoPorProgresso;
-
-  if (!liberado) {
-    const notaAtual = consolidada.notaConsolidadaPercent;
-    const minimo = Math.round(JORNADA_CONFIG.minimoSimuladoModulo * 100);
-    return {
-      moduloId,
-      moduloNumero,
-      liberado: false,
-      moduloAnteriorNumero,
-      simuladoAnteriorId,
-      notaConsolidadaAnterior: notaAtual,
-      motivoBloqueio: `Requer ${minimo}% de aproveitamento consolidado no simulado do Módulo ${moduloAnteriorNumero} (atual: ${notaAtual}%).`,
-    };
-  }
-
+  // Fase U2: Modo livre permanente. Nenhum módulo fica bloqueado.
   return {
     moduloId,
     moduloNumero,
@@ -217,9 +159,9 @@ export function verificarAcessoModulo(
 }
 
 /**
- * Verifica o status de navegação do rodapé do submódulo conforme Regra 2.1:
- * - Último submódulo (ex: 1.4) NUNCA leva ao próximo módulo.
- * - Submódulos intermediários (ex: 1.1) só habilitam avanço quando o atual estiver concluído.
+ * Verifica o status de navegação do rodapé do submódulo conforme Fase U2:
+ * - Modo livre permanente: o usuário pode navegar livremente pelo curso.
+ * - Fornece feedback pedagógico e status sem bloquear o clique.
  */
 export function verificarNavegacaoRodapeSubmodulo(
   submoduloNumero: string,
@@ -276,11 +218,9 @@ export function verificarNavegacaoRodapeSubmodulo(
   if (!submoduloConcluido && subProg) {
     const pendentes = subProg.itensPendentesIds.length;
     if (!subProg.leituraCompleta) {
-      motivoBloqueioSubmodulo = 'Conclua a leitura de todas as seções deste submódulo.';
+      motivoBloqueioSubmodulo = 'Leitura pendente de conclusão.';
     } else if (pendentes > 0) {
-      motivoBloqueioSubmodulo = `Responda os ${pendentes} itens de verificação pendentes.`;
-    } else if (!subProg.aprovadoNoPortao) {
-      motivoBloqueioSubmodulo = `Aproveitamento insuficiente (${subProg.aproveitamentoPortaoPercent}%). Mínimo exigido: ${Math.round(JORNADA_CONFIG.minimoVerificacao * 100)}%.`;
+      motivoBloqueioSubmodulo = `${pendentes} ite${pendentes > 1 ? 'ns' : 'm'} de verificação pendente${pendentes > 1 ? 's' : ''}.`;
     }
   }
 
@@ -305,7 +245,7 @@ export function verificarNavegacaoRodapeSubmodulo(
     simuladoModuloId,
     simuladoAprovado: consolidada.aprovado,
     notaConsolidadaSimulado: consolidada.notaConsolidadaPercent,
-    podeAvancarProximoSubmodulo: !isUltimoDoModulo && submoduloConcluido,
+    podeAvancarProximoSubmodulo: !isUltimoDoModulo, // Em modo livre permanente, navegação livre
     proximoSubmoduloNumero: proximoSubNoMacro?.numero,
   };
 }

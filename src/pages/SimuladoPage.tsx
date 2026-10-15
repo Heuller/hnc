@@ -1106,12 +1106,16 @@ export const SimuladoPage: React.FC = () => {
   // Visualização Normal da Questão
   return (
     <div className="max-w-6xl mx-auto space-y-4 animate-fadeIn">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        {renderSimuladoSelector()}
-        <span className="text-xs font-mono text-ink-2 hidden md:inline">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <h1 className="text-xl sm:text-2xl font-serif font-bold text-ink">
+          {simuladoAtivo.titulo}
+        </h1>
+        <span className="text-xs font-mono text-ink-2">
           {simuladoAtivo.subtitulo}
         </span>
       </div>
+
+      {renderSimuladoSelector()}
 
       {/* Banner de Modo Reteste de Erros */}
       {itensFiltradosReteste && (

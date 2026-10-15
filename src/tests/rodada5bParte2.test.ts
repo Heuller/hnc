@@ -92,14 +92,13 @@ describe('Rodada 5B — Parte 2: Portão do Simulado e Fim do Módulo', () => {
     expect(rodapeNav.proximoSubmoduloNumero).toBe('1.5');
   });
 
-  it('(2.2) Bloqueio global de acesso: Módulo 2 é bloqueado se o Simulado do Módulo 1 não foi aprovado', () => {
+  it('(2.2 - U2.1) Modo livre permanente: Módulo 2 tem acesso liberado independentemente de aprovação no simulado', () => {
     const statusAcessoM2 = verificarAcessoModulo('m2', progressoZerado, []);
 
-    expect(statusAcessoM2.liberado).toBe(false);
+    expect(statusAcessoM2.liberado).toBe(true);
     expect(statusAcessoM2.moduloNumero).toBe(2);
     expect(statusAcessoM2.moduloAnteriorNumero).toBe(1);
     expect(statusAcessoM2.simuladoAnteriorId).toBe('m1-fundamentos');
-    expect(statusAcessoM2.motivoBloqueio).toContain('Requer 80% de aproveitamento consolidado');
   });
 
   it('(2.2) Módulo 1 (primeiro módulo) tem acesso liberado imediatamente', () => {
