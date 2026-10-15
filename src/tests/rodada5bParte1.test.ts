@@ -4,6 +4,7 @@ import { useProgressStore } from '../store/useProgressStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { itemAttemptsSyncService } from '../services/itemAttemptsSyncService';
 import { derivarProgresso, obterItensVerificacaoSubmodulo } from '../domain/progressoEngine';
+import { getRequiredSectionsForSubmodule } from '../domain/learningEngine';
 import { executarMigracaoHistorico } from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 import type { ItemAttempt } from '../domain/itemAttempts';
@@ -324,5 +325,221 @@ describe('RODADA 5B — PARTE 1: UMA ÚNICA FONTE DE RESPOSTAS (TEORIA ↔ JORNA
     expect(subProg.itensRespondidosCount).toBe(3);
     expect(subProg.itensPendentesIds.length).toBe(0);
     expect(subProg.statusTexto).toContain('3 de 3 respondidos');
+  });
+
+  describe('U2.2: Redefinição de Conclusão e Selos de Domínio Cebraspe', () => {
+    const secoesCompletas = {
+      [sub11.id]: getRequiredSectionsForSubmodule(sub11),
+      [sub11.numero]: getRequiredSectionsForSubmodule(sub11),
+    };
+
+    it('Estado 1: Selo Em andamento quando leitura e itens foram feitos mas acerto < 85% (sem travar conclusão)', () => {
+      const attempts = [
+        {
+          id: 'att-1',
+          user_id: 'user-test',
+          item_id: cp1.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp1.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:00:00Z',
+        },
+        {
+          id: 'att-2',
+          user_id: 'user-test',
+          item_id: cp2.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp2.gabarito === 'C' ? 'E' : 'C',
+          correto: false,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:05:00Z',
+        },
+        {
+          id: 'att-3',
+          user_id: 'user-test',
+          item_id: cp3.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp3.gabarito === 'C' ? 'E' : 'C',
+          correto: false,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:10:00Z',
+        },
+      ];
+
+      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
+      const subProg = progresso.submodulos['1.1'];
+      // Em U2, leitura completa + itens respondidos = CONCLUÍDO (não trava o avanço)
+      expect(subProg.concluido).toBe(true);
+      expect(subProg.leituraCompleta).toBe(true);
+      expect(subProg.itensRespondidosCount).toBe(3);
+      // Mas o selo reflete com honestidade que está em andamento/a consolidar (33% < 85%)
+      expect(subProg.selo.nivel).toBe('em_andamento');
+      expect(subProg.selo.label).toBe('Em andamento');
+    });
+
+    it('Estado 2: Selo Consolidado quando leitura completa e acerto >= 85% (3/3)', () => {
+      const attempts = [
+        {
+          id: 'att-1',
+          user_id: 'user-test',
+          item_id: cp1.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp1.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:00:00Z',
+        },
+        {
+          id: 'att-2',
+          user_id: 'user-test',
+          item_id: cp2.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp2.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:05:00Z',
+        },
+        {
+          id: 'att-3',
+          user_id: 'user-test',
+          item_id: cp3.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp3.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:10:00Z',
+        },
+      ];
+
+      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
+      const subProg = progresso.submodulos['1.1'];
+      expect(subProg.concluido).toBe(true);
+      expect(subProg.selo.nivel).toBe('consolidado');
+      expect(subProg.selo.label).toBe('Consolidado');
+      expect(subProg.statusTexto).toContain('Consolidado');
+    });
+
+    it('Estado 3: Selo Dominado quando Consolidado + retenção confirmada em revisão espaçada >= 7 dias', () => {
+      const dataBase = new Date('2026-10-01T10:00:00Z');
+      const data8DiasDepois = new Date('2026-10-09T10:00:00Z').toISOString();
+
+      const attempts = [
+        // 1ª tentativa oficial (100% acerto)
+        {
+          id: 'att-1',
+          user_id: 'user-test',
+          item_id: cp1.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp1.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: dataBase.toISOString(),
+        },
+        {
+          id: 'att-2',
+          user_id: 'user-test',
+          item_id: cp2.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp2.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: dataBase.toISOString(),
+        },
+        {
+          id: 'att-3',
+          user_id: 'user-test',
+          item_id: cp3.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp3.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: dataBase.toISOString(),
+        },
+        // Revisão espaçada feita 8 dias depois (> 7 dias) com acerto
+        {
+          id: 'att-rev-1',
+          user_id: 'user-test',
+          item_id: cp1.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'revisao' as const,
+          resposta: cp1.gabarito,
+          correto: true,
+          tentativa_n: 2,
+          criado_em: data8DiasDepois,
+        },
+        {
+          id: 'att-rev-2',
+          user_id: 'user-test',
+          item_id: cp2.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'revisao' as const,
+          resposta: cp2.gabarito,
+          correto: true,
+          tentativa_n: 2,
+          criado_em: data8DiasDepois,
+        },
+        {
+          id: 'att-rev-3',
+          user_id: 'user-test',
+          item_id: cp3.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'revisao' as const,
+          resposta: cp3.gabarito,
+          correto: true,
+          tentativa_n: 2,
+          criado_em: data8DiasDepois,
+        },
+      ];
+
+      const progresso = derivarProgresso(attempts, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
+      const subProg = progresso.submodulos['1.1'];
+      expect(subProg.concluido).toBe(true);
+      expect(subProg.selo.nivel).toBe('dominado');
+      expect(subProg.selo.label).toBe('Dominado');
+      expect(subProg.statusTexto).toContain('Dominado');
+    });
+
+    it('Pureza: derivarProgresso não altera os parâmetros recebidos e retorna resultado determinístico', () => {
+      const attemptsClone = [
+        {
+          id: 'att-1',
+          user_id: 'user-test',
+          item_id: cp1.id,
+          submodulo_id: '1.1',
+          modulo_id: 'm1',
+          contexto: 'teoria' as const,
+          resposta: cp1.gabarito,
+          correto: true,
+          tentativa_n: 1,
+          criado_em: '2026-10-01T10:00:00Z',
+        },
+      ];
+      const frozenAttempts = Object.freeze([...attemptsClone]);
+      const res1 = derivarProgresso(frozenAttempts as any, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
+      const res2 = derivarProgresso(frozenAttempts as any, secoesCompletas, COURSE_REGISTRY, JORNADA_CONFIG);
+      expect(res1).toEqual(res2);
+    });
   });
 });
