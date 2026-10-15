@@ -31,6 +31,11 @@ function mockSubmodulo(parcial: Partial<SubmoduloProgressoDerivado>): SubmoduloP
     emRevisaoDirigida: false,
     itensPendentesIds: [],
     statusTexto: '',
+    selo: {
+      nivel: 'em_andamento',
+      label: 'Em andamento',
+      descricao: 'Em andamento',
+    },
     primeirasTentativasMap: {},
     ultimasTentativasMap: {},
     ...parcial,

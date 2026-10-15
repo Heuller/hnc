@@ -36,10 +36,8 @@ import { useReaderPreferencesStore } from '../store/useReaderPreferencesStore';
 import { ReaderPreferencesModal } from '../components/common/ReaderPreferencesModal';
 import { SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import {
-  verificarAcessoModulo,
   verificarNavegacaoRodapeSubmodulo,
 } from '../domain/portaoSimuladoEngine';
-import { TelaBloqueioModulo } from '../components/common/TelaBloqueioModulo';
 import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
 
 export const TeoriaPage: React.FC = () => {
@@ -54,7 +52,6 @@ export const TeoriaPage: React.FC = () => {
     setUltimoModuloAcessado,
     getProgressoGlobal,
     historicoSimulados,
-    devBypassSimuladoLock,
   } = useProgressStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -145,16 +142,6 @@ export const TeoriaPage: React.FC = () => {
 
   const progressoGlobal = getProgressoGlobal();
 
-  // Verificação de Acesso Global ao Módulo (Regra 2.2)
-  const statusAcesso =
-    currentMacro.id === 'm2-5'
-      ? { moduloId: 'm2-5', moduloNumero: 2.5, liberado: true }
-      : verificarAcessoModulo(
-          currentMacro.id,
-          progressoGlobal,
-          historicoSimulados || [],
-          devBypassSimuladoLock
-        );
 
   // Submódulos pertencentes estritamente a este macro-módulo
   const submodulosDoMacro = currentMacro.modulosFilhos;
