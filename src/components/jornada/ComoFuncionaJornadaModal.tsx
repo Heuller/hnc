@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, CheckCircle2, ShieldCheck, DoorOpen, RotateCcw, Compass, HelpCircle } from 'lucide-react';
+import { X, CheckCircle2, ShieldCheck, DoorOpen, RotateCcw, Compass } from 'lucide-react';
 import { Button } from '../common/Button';
 import { IllustrationPortal } from '../illustrations/ContextualIllustrations';
 
