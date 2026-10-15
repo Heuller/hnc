@@ -1,0 +1,159 @@
+================================================================================
+RELATÓRIO DE AVERIGUAÇÃO E CORREÇÕES TÉCNICAS — PLATAFORMA HEULLER NA CÂMARA (HNC)
+Repositório: github.com/Heuller/hnc
+Data da Averiguação: 15/10/2026
+================================================================================
+
+1. SUMÁRIO EXECUTIVO
+--------------------------------------------------------------------------------
+Este documento formaliza a averiguação completa do repositório Heuller/hnc, o
+diagnóstico do plano de execução em andamento, a resolução definitiva das falhas
+de deployment e de CI/CD que geravam erros contínuos no GitHub Actions, a
+sincronização das branches de desenvolvimento e produção, e a validação integral
+da suíte automatizada de testes e compilação da plataforma.
+
+Todas as branches principais (master, main e ux/plano-v3) foram alinhadas e
+enviadas (push) com sucesso para o GitHub, executando o pipeline automatizado
+com 100% de aprovação (Green Checkmark).
+
+
+2. FASE EM QUE PARAMOS NO ÚLTIMO PLANO DE EXECUÇÃO
+--------------------------------------------------------------------------------
+Plano de Execução Ativo:
+- PLANO v3: CORREÇÕES, UX/UI PROFISSIONAL, PEDAGOGIA BASEADA EM EVIDÊNCIA E MODO LIVRE
+  (Documento mestre: docs/Plano_v3_Correcoes_UX_Pedagogia_Heuller_na_Camara.md)
+  (Cadernos de trabalho: docs/prompts_v3/Prompt_U0_Higiene.md a Prompt_U9_Qualidade.md)
+
+Fase de Parada Identificada:
+- Paramos exatamente na CONCLUSÃO INTEGRAL DA FASE U1 (Motor de Renderização de Conteúdo).
+- O último commit registrado pelo agente anterior no branch ux/plano-v3 foi o
+  SHA dda15129fda2329b949d70b08ab4a3931f1c59b7:
+  "U1.7: relatorio final de conclusao da Fase U1".
+
+Entregas Consolidadas da Fase U0 e Fase U1 no Código:
+1. U0.1 a U0.5 (Higiene e Contenção):
+   - Adição do acervo-estudos ao .gitignore para proteção de direitos autorais.
+   - Correção da contagem dinâmica de pares de autor (authorCards.length).
+   - Estabelecimento da linha de base de qualidade inicial (docs/qualidade_inicial.md).
+   - Validação da rotina de backup lógico do progresso do usuário.
+   - Relatório final de U0 (docs/relatorios/plano_v3_U0_relatorio.md).
+
+2. U1.1 a U1.7 (Motor de Renderização):
+   - Unificação dos leitores legados MarkdownViewer e MarkdownRenderer em um único
+     componente modular: src/components/common/ConteudoMarkdown.tsx.
+   - Instalação e parametrização de remark-math + rehype-katex, integrando filtro
+     regex para blindagem de valores monetários em Real (R$) e Dólar (US$) para
+     evitar falso-positivos matemáticos.
+   - Plugin de alertas padrão GitHub (> [!NOTE|TIP|IMPORTANT|WARNING|CAUTION])
+     com renderização nativa de callouts em português (Nota, Dica, Importante,
+     Atenção e a clássica "Casca de Banana Cebraspe").
+   - Varredura e auditoria automatizada do acervo teórico: 315 expressões
+     matemáticas compilando perfeitamente no KaTeX sem erros de sintaxe.
+   - Suíte de regressão visual/sintática em todos os 75 submódulos teóricos.
+   - Componente TabelaResponsiva.tsx para conversão automática de quadros
+     comparativos e distratores em cartões verticais empilhados em celulares (<640px).
+   - Reposicionamento do botão flutuante amarelo de Mnemônicos para a barra
+     superior móvel TeoriaStickyBar, eliminando obstrução visual do texto.
+
+Próxima Fase a ser Iniciada:
+- FASE U2: MODO LIVRE PERMANENTE E MODELO DE PROGRESSO SEM TRAVA
+  (Objetivo: remover bloqueios e portões de verificação dos submódulos e simulados,
+  eliminar contagens fantasma de pendências, manter Próxima Ação Recomendada como
+  guia informativo e instituir selos de domínio sem restrição de acesso).
+
+
+3. ERROS AVERIGUADOS E CORREÇÕES EXECUTADAS
+--------------------------------------------------------------------------------
+
+A. ERRO NO DEPLOYMENT DO GITHUB ACTIONS (HttpError 404 / 422)
+- Sintoma: Todos os workflow runs anteriores da action "Deploy Vite App to GitHub Pages"
+  falhavam no step "Setup Pages" com erro:
+  "##[error]Get Pages site failed. Please verify that the repository has Pages enabled...
+   HttpError: Not Found".
+- Causa Raiz: O workflow .github/workflows/deploy.yml tentava publicar o projeto
+  no serviço "GitHub Pages". No entanto, o repositório Heuller/hnc é PRIVADO em
+  uma conta do GitHub Free, plano que não dá suporte ao GitHub Pages para repositórios
+  privados (a API do GitHub retorna status 422). Além disso, a produção real da
+  plataforma é hospedada na VERCEL (https://heuller.vercel.app/) e não no GitHub Pages.
+- Correção Realizada:
+  1. O arquivo .github/workflows/deploy.yml foi reescrito e convertido em um
+     pipeline moderno de CI: "CI - Qualidade e Build".
+  2. Foram removidos os passos incompatíveis do GitHub Pages (configure-pages,
+     upload-pages-artifact e deploy-pages).
+  3. O workflow agora executa:
+     - Checkout do repositório
+     - Setup do Node.js 20 com cache npm
+     - Instalação limpa de dependências (npm ci)
+     - Validação estática de linter com Oxlint (npm run lint)
+     - Execução da suíte completa de 535 testes unitários + compilação estrita
+       TypeScript (tsc -b) + empacotamento Vite de produção (npm run build).
+- Resultado: Execução concluída com SUCESSO (Green Checkmark) em todas as branches.
+
+B. ERRO DE PREFIXO DE BASE PATH EM VITE.CONFIG.TS
+- Sintoma: O arquivo vite.config.ts continha a instrução:
+  base: process.env.GITHUB_ACTIONS ? '/hnc/' : '/'
+- Causa Raiz: Durante o build no GitHub Actions, a variável GITHUB_ACTIONS fazia
+  o Vite compilar todos os assets com prefixo /hnc/, incompatível com o deploy
+  raiz da Vercel.
+- Correção Realizada:
+  Substituído por:
+  base: process.env.BASE_URL || '/'
+  Garantindo integridade tanto no build local quanto em pipelines de CI e Vercel.
+
+C. DESSINCRONIZAÇÃO CRÍTICA DE COMMITS E PUSHS ENTRE AS BRANCHES
+- Sintoma: Os branches de produção "master" e "main" estavam paralisados no commit
+  6870c89 (adiciona cadernos de prompt v3), sem receber nenhuma das correções e
+  avanços das Fases U0 e U1. Todo o código atualizado estava restrito à branch
+  ux/plano-v3 (commit dda1512).
+- Causa Raiz: Falta de merge e push para as branches de produção após a conclusão de U1.
+- Correção Realizada:
+  1. Commit das correções de CI/CD e base path no branch ux/plano-v3 (commit 47bad71).
+  2. Push remoto do branch ux/plano-v3 para origin/ux/plano-v3.
+  3. Merge fast-forward de ux/plano-v3 para o branch master.
+  4. Push remoto do branch master para origin/master.
+  5. Merge fast-forward de master para o branch main.
+  6. Push remoto do branch main para origin/main.
+- Resultado: master, main e ux/plano-v3 estão 100% idênticos e sincronizados no
+  commit 47bad71.
+
+D. ATUALIZAÇÃO DA DOCUMENTAÇÃO DO README.MD
+- Sintoma: O README apresentava dados defasados informando 101 testes unitários em
+  13 suítes.
+- Correção Realizada:
+  Atualizado o badge e a seção de testes para refletir o estado real consolidado:
+  535 testes unitários passando em 51 suítes.
+
+E. STATUS DE DEPLOYMENTS NA VERCEL
+- Averiguação:
+  1. A URL oficial de produção (https://heuller.vercel.app/) está ativa, online
+     e respondendo com código HTTP 200 (OK), servindo a aplicação SPA e assets.
+  2. Para deployments efetuados via GitHub App na Vercel em repositórios privados,
+     o status "Deployment was blocked" retornado na API de deploys refere-se à
+     configuração padrão de "Vercel Deployment Protection" (exigência de autenticação
+     SSO/Vercel Login para links de preview de branches não-públicas).
+  3. O build de produção local e em CI roda sem qualquer impedimento.
+
+
+4. RESULTADOS DA AUDITORIA DE CÓDIGO E TESTES
+--------------------------------------------------------------------------------
+Pipeline de CI (GitHub Actions - Runs 38749856722, 38749904647, 38749925054):
+- Status: SUCCESS em todas as branches (master, main e ux/plano-v3)
+- Linter: 0 erros críticos
+- TypeScript (tsc -b): 0 erros de compilação
+- Suíte Vitest: 535 testes passando em 51 arquivos de teste
+- Build Vite: Bundle de produção gerado com sucesso em ~3.4s
+- Service Worker (PWA): 220 assets pré-cacheados (12.781 KiB)
+
+
+5. PRÓXIMOS PASSOS RECOMENDADOS
+--------------------------------------------------------------------------------
+1. Autorizar o início da FASE U2 (Modo Livre Permanente e Modelo de Progresso sem Trava)
+   conforme as especificações de docs/prompts_v3/Prompt_U2_Modo_Livre.md.
+2. Caso deseje desabilitar a tela de login/proteção nos links de preview da Vercel:
+   Acessar Vercel Dashboard -> Projeto HNC -> Settings -> Deployment Protection
+   e ajustar para o comportamento de visualização desejado para o time.
+3. Manter as branches master e main sincronizadas com os novos merges de fase.
+
+================================================================================
+Fim do Relatório Técnico.
+================================================================================
