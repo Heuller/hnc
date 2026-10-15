@@ -181,7 +181,7 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
   });
 
   describe('D.1 e D.3 - Máquina de Estados e Revisão Dirigida', () => {
-    it('deve iniciar com M1.1 disponível e M1.2 bloqueada', () => {
+    it('deve iniciar com todas as etapas disponíveis no modo livre permanente e recomendar M1.1 (Fase U2)', () => {
       const modulos = [criarMockMacroModulo(1)];
       const estado = deriveJornadaState({
         modulos,
@@ -191,9 +191,12 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
 
       expect(estado.etapas['1.1'].status).toBe('disponivel');
       expect(estado.etapas['1.1'].isDesbloqueada).toBe(true);
-      expect(estado.etapas['1.2'].status).toBe('bloqueada');
-      expect(estado.etapas['1.2'].isDesbloqueada).toBe(false);
+      // Fase U2 (U2.1): modo livre permanente, M1.2 não tem trava de bloqueio
+      expect(estado.etapas['1.2'].status).toBe('disponivel');
+      expect(estado.etapas['1.2'].isDesbloqueada).toBe(true);
       expect(estado.proximoPasso.etapaId).toBe('1.1');
+      expect(estado.proximoPasso.motivo).toBe('tema_novo');
+      expect(estado.proximoPasso.explicacaoMotivo).toBeDefined();
     });
 
     it('deve transicionar para "em_revisao_dirigida" após falha (< 85%) e exigir rever as seções dos erros', () => {
@@ -222,7 +225,12 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       expect(etapa11.status).toBe('em_revisao_dirigida');
       expect(etapa11.revisaoDirigida?.secoesComErros).toEqual(['sec-autores', 'sec-teoria']);
       expect(etapa11.revisaoDirigida?.podeRefazer).toBe(false);
-      expect(estado.etapas['1.2'].status).toBe('bloqueada'); // M1.2 continua bloqueada!
+      // Fase U2 (U2.1): M1.2 permanece acessível sem bloqueio
+      expect(estado.etapas['1.2'].status).toBe('disponivel');
+      expect(estado.etapas['1.2'].isDesbloqueada).toBe(true);
+      // Fase U2 (U2.5): próximo passo prioriza ponto fraco em revisão dirigida
+      expect(estado.proximoPasso.etapaId).toBe('1.1');
+      expect(estado.proximoPasso.motivo).toBe('ponto_fraco');
 
       // Se o usuário revisita as duas seções com erros:
       const estadoRevisitado = deriveJornadaState({
@@ -268,13 +276,13 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       );
     });
 
-    it('deve impedir a conclusão da etapa se o submódulo possuir menos de 8 itens aprovados (Regra D.2)', () => {
+    it('não deve impedir a conclusão da etapa com 3 checkpoints respondidos (Resolução Bug D4 e U2.4)', () => {
       // Submódulo com apenas 3 checkpoints
       const modulos = [criarMockMacroModulo(1, 4, 3)];
       const sub = modulos[0].modulosFilhos[0];
       expect(sub.checkpoints.length).toBe(3);
 
-      // Mesmo com 100% de acertos nos 3 itens:
+      // 100% de acertos nos 3 checkpoints existentes:
       const tentativa100 = criarTentativaRegistro({
         userId: 'user-1',
         tipo: 'verificacao_submodulo',
@@ -295,10 +303,10 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       });
 
       const etapa11 = estado.etapas['1.1'];
-      expect(etapa11.bloqueioPorFaltaDeItens?.bloqueado).toBe(true);
-      expect(etapa11.bloqueioPorFaltaDeItens?.itensFaltantes).toBe(5); // 8 - 3 = 5
-      expect(etapa11.bloqueioPorFaltaDeItens?.mensagem).toContain('Faltam 5 itens aprovados');
-      expect(etapa11.status).not.toBe('concluida'); // NÃO pode ser concluída!
+      // Fase U2 (U2.4 / Bug D4): com nMinimoVerificacao = 3 e sem bloqueio artificial
+      expect(etapa11.bloqueioPorFaltaDeItens).toBeUndefined();
+      expect(etapa11.status).toBe('concluida');
+      expect(etapa11.isDesbloqueada).toBe(true);
     });
   });
 
@@ -495,19 +503,18 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
   });
 
   describe('D.5 - Modo Livre (Isolamento de Indicadores)', () => {
-    it('deve liberar todas as etapas na interface mas desconsiderar tentativas fora da trilha dos indicadores oficiais', () => {
+    it('deve garantir modo livre permanente sem travas e isolar tentativas fora da trilha (Fase U2)', () => {
       const modulos = [criarMockMacroModulo(1)];
 
-      // Sem modo livre: M1.2 está bloqueada
+      // Fase U2 (U2.1): modo livre é sempre ativo, etapas sempre desbloqueadas
       const estadoNormal = deriveJornadaState({
         modulos,
         tentativas: [],
         secoesVisualizadas: {},
-        modoLivre: false,
       });
-      expect(estadoNormal.etapas['1.2'].isDesbloqueada).toBe(false);
+      expect(estadoNormal.modoLivreAtivo).toBe(true);
+      expect(estadoNormal.etapas['1.2'].isDesbloqueada).toBe(true);
 
-      // Com modo livre: M1.2 fica desbloqueada para navegação
       const estadoLivre = deriveJornadaState({
         modulos,
         tentativas: [],
@@ -516,7 +523,7 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       });
       expect(estadoLivre.etapas['1.2'].isDesbloqueada).toBe(true);
 
-      // Se uma tentativa for respondida no modo livre (foraDaTrilha = true):
+      // Se uma tentativa for respondida fora da trilha (foraDaTrilha = true):
       const tentativaFora = criarTentativaRegistro({
         userId: 'user-1',
         tipo: 'verificacao_submodulo',
@@ -536,16 +543,15 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
         },
       });
 
-      // No modo normal posterior, M1.2 permanece bloqueada porque a tentativa foi fora da trilha!
+      // Tentativas fora da trilha não contam para as métricas da trilha oficial
       const estadoAposLivre = deriveJornadaState({
         modulos,
         tentativas: [tentativaFora],
         secoesVisualizadas: { '1.1': ['sec-autores', 'sec-alertas', 'sec-teoria', 'sec-checkpoints', 'sec-mnemonicos'] },
-        modoLivre: false,
       });
 
       expect(estadoAposLivre.etapas['1.1'].status).not.toBe('concluida');
-      expect(estadoAposLivre.etapas['1.2'].isDesbloqueada).toBe(false);
+      expect(estadoAposLivre.etapas['1.2'].isDesbloqueada).toBe(true);
       expect(estadoAposLivre.metricas.etapasConcluidas).toBe(0);
     });
   });
@@ -645,12 +651,16 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
         });
       };
 
-      // 1. Início: M1.1 disponível, M1.2 e M2 bloqueados
+      // 1. Início: todas as etapas desbloqueadas no modo livre permanente; recomendação inicia em M1.1
       let st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['1.1'].status).toBe('disponivel');
-      expect(st.etapas['1.2'].status).toBe('bloqueada');
-      expect(st.etapas['desafio-m1'].status).toBe('bloqueada');
-      expect(st.etapas['2.1'].status).toBe('bloqueada');
+      expect(st.etapas['1.1'].isDesbloqueada).toBe(true);
+      expect(st.etapas['1.2'].status).toBe('disponivel');
+      expect(st.etapas['1.2'].isDesbloqueada).toBe(true);
+      expect(st.etapas['desafio-m1'].status).toBe('disponivel');
+      expect(st.etapas['2.1'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('1.1');
+      expect(st.proximoPasso.motivo).toBe('tema_novo');
 
       // 2. Conclui M1.1
       secoesLidas['1.1'] = todasSecoes;
@@ -658,13 +668,15 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['1.1'].status).toBe('concluida');
       expect(st.etapas['1.2'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('1.2');
 
       // 3. Conclui M1.2
       secoesLidas['1.2'] = todasSecoes;
       tentativas.push(criarTentativaSucesso('1.2', 'm1', 'verificacao_submodulo', 8));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['1.2'].status).toBe('concluida');
-      expect(st.etapas['desafio-m1'].status).toBe('disponivel'); // Desafio M1 liberado!
+      expect(st.etapas['desafio-m1'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('desafio-m1');
 
       // 4. Conclui Desafio M1 (100 itens)
       tentativas.push(criarTentativaSucesso('desafio-m1', 'm1', 'desafio_modulo', 100));
@@ -674,6 +686,7 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       // REGRA D.1: DE M1 PARA M2 NÃO HÁ PORTAL! M2.1 desbloqueia imediatamente!
       expect(st.etapas['portal-m1']).toBeUndefined(); // Não existe portal para k = 1
       expect(st.etapas['2.1'].status).toBe('disponivel'); // M2.1 aberto!
+      expect(st.proximoPasso.etapaId).toBe('2.1');
 
       // 5. Conclui M2.1 e M2.2
       secoesLidas['2.1'] = todasSecoes;
@@ -682,25 +695,144 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       tentativas.push(criarTentativaSucesso('2.2', 'm2', 'verificacao_submodulo', 8));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['desafio-m2'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('desafio-m2');
 
       // 6. Conclui Desafio M2
       tentativas.push(criarTentativaSucesso('desafio-m2', 'm2', 'desafio_modulo', 100));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['desafio-m2'].status).toBe('concluida');
 
-      // REGRA D.1: Ao concluir M2 (k = 2 >= 2), surge o Portal de Revisão P(2)!
-      // M3.1 ainda deve estar bloqueado até o Portal P(2) ser vencido!
+      // REGRA D.1: Ao concluir M2 (k = 2 >= 2), surge a Revisão Científica R(2) / Portal P(2)!
       expect(st.etapas['portal-m2'].status).toBe('disponivel');
-      expect(st.etapas['3.1'].status).toBe('bloqueada');
+      expect(st.etapas['3.1'].status).toBe('disponivel');
+      expect(st.etapas['3.1'].isDesbloqueada).toBe(true);
+      // Próximo passo recomenda a revisão periódica R(2) prioritariamente (revisao_vencida)
+      expect(st.proximoPasso.etapaId).toBe('revisao-m2');
+      expect(st.proximoPasso.motivo).toBe('revisao_vencida');
 
       // 7. Conclui o Portal de Revisão P(2) (20 itens, 100% de acertos >= 85%)
       tentativas.push(criarTentativaSucesso('portal-m2', 'm2', 'portal_revisao', 20));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['portal-m2'].status).toBe('concluida');
 
-      // AGORA SIM: M3.1 fica disponível!
+      // AGORA SIM: Próximo passo avança para M3.1!
       expect(st.etapas['3.1'].status).toBe('disponivel');
       expect(st.proximoPasso.etapaId).toBe('3.1');
+      expect(st.proximoPasso.motivo).toBe('tema_novo');
+    });
+  });
+
+  describe('U2.5 - Ordem de Desempate Determinística da Próxima Ação Recomendada', () => {
+    it('deve priorizar ponto_fraco sobre tema_novo quando houver pendência de revisão dirigida', () => {
+      const modulos = [criarMockMacroModulo(1, 2, 8)];
+      const tentativaFalha11 = criarTentativaRegistro({
+        userId: 'user-teste',
+        tipo: 'verificacao_submodulo',
+        targetId: '1.1',
+        moduloId: 'm1',
+        totalItens: 8,
+        respostas: {
+          q1: { questionId: 'q1', resposta: 'E', gabarito: 'C', acertou: false, secaoId: 'sec-autores' },
+        },
+      });
+
+      const estado = deriveJornadaState({
+        modulos,
+        tentativas: [tentativaFalha11],
+        secoesVisualizadas: { '1.1': ['sec-autores', 'sec-alertas', 'sec-teoria', 'sec-checkpoints', 'sec-mnemonicos'] },
+      });
+
+      // M1.1 está em revisão dirigida (ponto fraco) e M1.2 é tema novo
+      expect(estado.etapas['1.1'].status).toBe('em_revisao_dirigida');
+      expect(estado.etapas['1.2'].status).toBe('disponivel');
+
+      // A recomendação DEVE ser M1.1 com motivo ponto_fraco
+      expect(estado.proximoPasso.etapaId).toBe('1.1');
+      expect(estado.proximoPasso.motivo).toBe('ponto_fraco');
+      expect(estado.proximoPasso.explicacaoMotivo).toContain('Foco de reforço');
+    });
+
+    it('deve priorizar revisao_vencida sobre ponto_fraco e tema_novo quando revisão estiver programada', () => {
+      const m1 = criarMockMacroModulo(1, 2, 8);
+      const m2 = criarMockMacroModulo(2, 2, 8);
+      const modulos = [m1, m2];
+      const todasSecoes = ['sec-autores', 'sec-alertas', 'sec-teoria', 'sec-checkpoints', 'sec-mnemonicos'];
+
+      const criarSucesso = (targetId: string, moduloId: string, tipo: any, total: number) => {
+        const respostas: Record<string, any> = {};
+        for (let i = 1; i <= total; i++) {
+          respostas[`q${i}`] = { questionId: `q${i}`, resposta: 'C', gabarito: 'C', acertou: true };
+        }
+        return criarTentativaRegistro({ userId: 'u1', tipo, targetId, moduloId, totalItens: total, respostas });
+      };
+
+      // Completa M1 inteiro e Desafio M1
+      const t11 = criarSucesso('1.1', 'm1', 'verificacao_submodulo', 8);
+      const t12 = criarSucesso('1.2', 'm1', 'verificacao_submodulo', 8);
+      const td1 = criarSucesso('desafio-m1', 'm1', 'desafio_modulo', 100);
+
+      // Completa M2.1, M2.2 e Desafio M2
+      const t21 = criarSucesso('2.1', 'm2', 'verificacao_submodulo', 8);
+      const t22 = criarSucesso('2.2', 'm2', 'verificacao_submodulo', 8);
+      const td2 = criarSucesso('desafio-m2', 'm2', 'desafio_modulo', 100);
+
+      // Adiciona uma tentativa com erro em M1.1 (ponto fraco simulado)
+      const tFalha = criarTentativaRegistro({
+        userId: 'u1',
+        tipo: 'verificacao_submodulo',
+        targetId: '1.1',
+        moduloId: 'm1',
+        totalItens: 8,
+        respostas: { q1: { questionId: 'q1', resposta: 'E', gabarito: 'C', acertou: false } },
+      });
+
+      const estado = deriveJornadaState({
+        modulos,
+        tentativas: [t11, t12, td1, t21, t22, td2, tFalha],
+        secoesVisualizadas: { '1.1': todasSecoes, '1.2': todasSecoes, '2.1': todasSecoes, '2.2': todasSecoes },
+      });
+
+      // A revisão periódica R2 (portal-m2) está vencida/programada
+      expect(estado.proximoPasso.etapaId).toBe('revisao-m2');
+      expect(estado.proximoPasso.motivo).toBe('revisao_vencida');
+      expect(estado.proximoPasso.explicacaoMotivo).toContain('Revisão periódica programada');
+    });
+
+    it('deve retornar recomendação de conclusão quando todas as etapas da trilha forem concluídas', () => {
+      const m1 = criarMockMacroModulo(1, 1, 8);
+      const modulos = [m1];
+      const todasSecoes = ['sec-autores', 'sec-alertas', 'sec-teoria', 'sec-checkpoints', 'sec-mnemonicos'];
+
+      const respostas: Record<string, any> = {};
+      for (let i = 1; i <= 100; i++) {
+        respostas[`q${i}`] = { questionId: `q${i}`, resposta: 'C', gabarito: 'C', acertou: true };
+      }
+      const t11 = criarTentativaRegistro({
+        userId: 'u1',
+        tipo: 'verificacao_submodulo',
+        targetId: '1.1',
+        moduloId: 'm1',
+        totalItens: 8,
+        respostas,
+      });
+      const td1 = criarTentativaRegistro({
+        userId: 'u1',
+        tipo: 'desafio_modulo',
+        targetId: 'desafio-m1',
+        moduloId: 'm1',
+        totalItens: 100,
+        respostas,
+      });
+
+      const estado = deriveJornadaState({
+        modulos,
+        tentativas: [t11, td1],
+        secoesVisualizadas: { '1.1': todasSecoes },
+      });
+
+      expect(estado.proximoPasso.etapaId).toBe('conclusao');
+      expect(estado.proximoPasso.motivo).toBe('conclusao');
+      expect(estado.proximoPasso.explicacaoMotivo).toContain('Trilha completa');
     });
   });
 });

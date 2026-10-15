@@ -218,12 +218,50 @@ export const JornadaPage: React.FC = () => {
             <div className="flex items-center gap-3">
               <span className="w-2.5 h-2.5 rounded-full bg-accent animate-ping" />
               <div>
-                <span className="text-[10px] font-mono uppercase font-bold text-accent block tracking-wider">
-                  Próximo Passo Recomendado
-                </span>
-                <span className="text-sm font-semibold text-ink">
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] font-mono uppercase font-bold text-accent block tracking-wider">
+                    Próxima Ação Recomendada
+                  </span>
+                  {proximoPasso.motivo && (
+                    <span
+                      className="text-[9px] font-sans font-bold px-1.5 py-0.5 rounded border"
+                      style={{
+                        backgroundColor:
+                          proximoPasso.motivo === 'revisao_vencida'
+                            ? '#fef3c7'
+                            : proximoPasso.motivo === 'ponto_fraco'
+                            ? '#fee2e2'
+                            : '#e0f2fe',
+                        color:
+                          proximoPasso.motivo === 'revisao_vencida'
+                            ? '#92400e'
+                            : proximoPasso.motivo === 'ponto_fraco'
+                            ? '#991b1b'
+                            : '#075985',
+                        borderColor:
+                          proximoPasso.motivo === 'revisao_vencida'
+                            ? '#fde68a'
+                            : proximoPasso.motivo === 'ponto_fraco'
+                            ? '#fecaca'
+                            : '#bae6fd',
+                      }}
+                    >
+                      {proximoPasso.motivo === 'revisao_vencida'
+                        ? 'Revisão Vencida'
+                        : proximoPasso.motivo === 'ponto_fraco'
+                        ? 'Ponto Fraco'
+                        : 'Tema Novo'}
+                    </span>
+                  )}
+                </div>
+                <span className="text-sm font-semibold text-ink block">
                   {proximoPasso.titulo}
                 </span>
+                {proximoPasso.explicacaoMotivo && (
+                  <span className="text-[11px] text-ink-3 block italic mt-0.5">
+                    {proximoPasso.explicacaoMotivo}
+                  </span>
+                )}
               </div>
             </div>
             <Button
@@ -389,11 +427,6 @@ export const JornadaPage: React.FC = () => {
                                 <RotateCcw className="w-3 h-3" />
                                 <span>Revisão Dirigida</span>
                               </span>
-                            ) : isBloqueada ? (
-                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-2 border border-border text-ink-2 text-[10px] font-semibold">
-                                <Lock className="w-3 h-3" />
-                                <span>Bloqueada</span>
-                              </span>
                             ) : (
                               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
                                 <Play className="w-3 h-3" />
@@ -408,13 +441,6 @@ export const JornadaPage: React.FC = () => {
                           >
                             {sub.titulo_curto || sub.titulo}
                           </h3>
-
-                          {/* Requisito de desbloqueio quando bloqueada */}
-                          {isBloqueada && etapaSub?.requisitoDesbloqueio && (
-                            <p className="text-[11px] text-ink-2 leading-snug">
-                              {etapaSub.requisitoDesbloqueio}
-                            </p>
-                          )}
                         </div>
 
                         {/* Botões de Ação */}
@@ -422,8 +448,7 @@ export const JornadaPage: React.FC = () => {
                           <button
                             type="button"
                             onClick={() => handleOpenTeoria(sub.numero)}
-                            disabled={isBloqueada && !modoLivre}
-                            className="px-2 py-1.5 rounded-lg border border-border text-[11px] font-medium text-ink hover:bg-surface-2 transition-colors flex items-center justify-center gap-1 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="px-2 py-1.5 rounded-lg border border-border text-[11px] font-medium text-ink hover:bg-surface-2 transition-colors flex items-center justify-center gap-1 cursor-pointer"
                           >
                             <BookOpen className="w-3 h-3 text-ink-2" />
                             <span>Teoria</span>
@@ -432,8 +457,7 @@ export const JornadaPage: React.FC = () => {
                           <button
                             type="button"
                             onClick={() => handleOpenPortao(sub.numero)}
-                            disabled={isBloqueada && !modoLivre}
-                            className={`px-2 py-1.5 rounded-lg text-[11px] font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${
+                            className={`px-2 py-1.5 rounded-lg text-[11px] font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer ${
                               isConcluida
                                 ? 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
                                 : isRevisaoDirigida
@@ -456,8 +480,6 @@ export const JornadaPage: React.FC = () => {
                     className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                       etapaDesafio.status === 'concluida'
                         ? 'bg-surface-2/40 border-emerald-500/30'
-                        : etapaDesafio.status === 'bloqueada'
-                        ? 'bg-surface-2/20 border-border/60 opacity-70'
                         : 'bg-accent/5 border-accent/25 shadow-2xs'
                     }`}
                   >
@@ -473,9 +495,7 @@ export const JornadaPage: React.FC = () => {
                           </span>
                         </div>
                         <p className="text-xs text-ink-2">
-                          {etapaDesafio.status === 'bloqueada'
-                            ? etapaDesafio.requisitoDesbloqueio
-                            : 'Simulado completo com 25 assertivas por submódulo e feedback guiado imediato.'}
+                          Simulado completo com 25 assertivas por submódulo e feedback guiado imediato.
                         </p>
                       </div>
                     </div>
@@ -483,7 +503,6 @@ export const JornadaPage: React.FC = () => {
                     <Button
                       variant={etapaDesafio.status === 'concluida' ? 'outline' : 'primary'}
                       size="sm"
-                      disabled={etapaDesafio.status === 'bloqueada' && !modoLivre}
                       onClick={() => {
                         const sim = SIMULADOS_REGISTRY.find((s) => s.numero === k);
                         if (sim) {
@@ -506,8 +525,6 @@ export const JornadaPage: React.FC = () => {
                     className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                       etapaPortal.status === 'concluida'
                         ? 'bg-purple-500/5 border-purple-500/30'
-                        : etapaPortal.status === 'bloqueada'
-                        ? 'bg-surface-2/20 border-border/60 opacity-70'
                         : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
                     }`}
                   >
@@ -523,9 +540,7 @@ export const JornadaPage: React.FC = () => {
                           </span>
                         </div>
                         <p className="text-xs text-ink-2">
-                          {etapaPortal.status === 'bloqueada'
-                            ? etapaPortal.requisitoDesbloqueio
-                            : `Revisão cumulativa com formatos cognitivos F1 a F8 (60% de M${k} e 40% de precedentes). Mínimo 85% de acertos para liberação formal.`}
+                          Revisão cumulativa com formatos cognitivos F1 a F8 (60% de M{k} e 40% de precedentes). Mínimo 85% de acertos para liberação formal.
                         </p>
                       </div>
                     </div>
@@ -533,7 +548,6 @@ export const JornadaPage: React.FC = () => {
                     <Button
                       variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
                       size="sm"
-                      disabled={etapaPortal.status === 'bloqueada' && !modoLivre}
                       onClick={() => handleOpenPortao(etapaPortal.id)}
                       className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
                     >
