@@ -71,7 +71,7 @@ export const TabelaComparativa: React.FC<TabelaComparativaProps> = ({ quadro }) 
               {colunas.map((col, idx) => (
                 <th
                   key={idx}
-                  className={`p-3.5 border-r border-theme last:border-r-0 font-extrabold ${
+                  className={`p-3.5 border-r border-theme last:border-r-0 font-extrabold whitespace-nowrap ${
                     idx === 0
                       ? 'bg-theme-surface-2 sticky left-0 z-10 w-[28%] min-w-[140px] shadow-[2px_0_4px_rgba(0,0,0,0.04)]'
                       : 'min-w-[150px]'

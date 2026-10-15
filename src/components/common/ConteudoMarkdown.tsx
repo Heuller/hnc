@@ -5,7 +5,6 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import {
   Bookmark,
-  MoveHorizontal,
   Info,
   Lightbulb,
   AlertTriangle,
@@ -13,6 +12,7 @@ import {
   CheckCircle2,
   BookOpen,
 } from 'lucide-react';
+import { TabelaResponsiva } from './TabelaResponsiva';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
 import {
   prepararConteudoMarkdown,
@@ -279,27 +279,25 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               </blockquote>
             );
           },
-          table: ({ children, ...props }) => (
-            <div className="my-5 w-full max-w-full">
-              <div className="sm:hidden flex items-center justify-end gap-1 text-[11px] font-sans font-semibold mb-1 px-1 text-ink-2">
-                <MoveHorizontal className="w-3.5 h-3.5 text-accent" />
-                <span>Deslize a tabela para ver tudo</span>
-              </div>
-              <div className="overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
-                <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[320px]" {...props}>
-                  {children}
-                </table>
-              </div>
-            </div>
-          ),
+          table: (props) => <TabelaResponsiva {...props} />,
           thead: ({ children, ...props }) => (
-            <thead className="bg-surface-2 text-ink font-bold border-b border-border" {...props}>
+            <thead
+              data-component="thead"
+              className="bg-surface-2 text-ink font-bold border-b border-border"
+              {...props}
+            >
               {children}
             </thead>
           ),
+          tbody: ({ children, ...props }) => (
+            <tbody data-component="tbody" className="divide-y divide-border" {...props}>
+              {children}
+            </tbody>
+          ),
           th: ({ children, ...props }) => (
             <th
-              className="p-2.5 sm:p-3 text-ink font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider"
+              data-component="th"
+              className="p-2.5 sm:p-3 text-ink font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider whitespace-nowrap"
               {...props}
             >
               {children}
@@ -307,6 +305,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           td: ({ children, ...props }) => (
             <td
+              data-component="td"
               className="p-2.5 sm:p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words"
               {...props}
             >

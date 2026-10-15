@@ -36,9 +36,9 @@ Use a variável \`CDD_23\` para classificação.
 
       render(<ConteudoMarkdown content={md} />);
 
-      expect(screen.getByText('Critério')).toBeDefined();
-      expect(screen.getByText('Cebraspe')).toBeDefined();
-      expect(screen.getByText('Doutrina')).toBeDefined();
+      expect(screen.getAllByText('Critério').length).toBeGreaterThanOrEqual(1);
+      expect(screen.getAllByText('Cebraspe').length).toBeGreaterThanOrEqual(1);
+      expect(screen.getAllByText('Doutrina').length).toBeGreaterThanOrEqual(1);
       expect(screen.getByText('CDD_23')).toBeDefined();
     });
   });

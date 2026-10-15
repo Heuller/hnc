@@ -4,6 +4,8 @@ import { ChevronDown, X, CheckCircle2, List } from 'lucide-react';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import type { ModuloFilho } from '../../domain/schemas/modulo.schema';
 
+import { MnemonicosDrawerMobile } from '../content-blocks/MnemonicosDrawerMobile';
+
 interface TeoriaStickyBarProps {
   macroId: string;
   submodulo: ModuloFilho;
@@ -98,10 +100,16 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
           </button>
         </div>
 
-        {/* Indicador de Leitura */}
-        <span className="font-mono text-[10px] text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border shrink-0 ml-2">
-          {scrollProgress}%
-        </span>
+        {/* Ações contextuais de leitura: Mnemônicos e Progresso */}
+        <div className="flex items-center gap-1.5 shrink-0 ml-2">
+          <MnemonicosDrawerMobile
+            mnemonicos={submodulo.mnemonicos}
+            tituloModulo={`Submódulo ${submodulo.numero}: ${submodulo.titulo}`}
+          />
+          <span className="font-mono text-[10px] text-ink-2 bg-surface-2 px-1.5 py-1 rounded border border-border shrink-0">
+            {scrollProgress}%
+          </span>
+        </div>
       </div>
 
       {/* Painel Deslizante de Sumário (Bottom Sheet Mobile) */}

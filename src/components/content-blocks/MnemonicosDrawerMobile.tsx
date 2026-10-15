@@ -4,33 +4,47 @@ import type { MnemonicosModulo } from '../../domain/schemas/mnemonico.schema';
 import { MnemonicosTabs } from './MnemonicosTabs';
 import { Sparkles, X } from 'lucide-react';
 
-interface MnemonicosDrawerMobileProps {
+export interface MnemonicosDrawerMobileProps {
   mnemonicos: MnemonicosModulo;
   tituloModulo: string;
+  trigger?: React.ReactNode;
+  isOpen?: boolean;
+  onOpenChange?: (open: boolean) => void;
+  className?: string;
 }
 
+/**
+ * Gaveta móvel de Mnemônicos e Resumo Rápido
+ *
+ * Integrada na barra de ações/contexto móvel (TeoriaStickyBar), sem botão flutuante (FAB)
+ * sobrepondo o texto de leitura ou tabelas (Diretriz D6 do Plano v3).
+ */
 export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
   mnemonicos,
   tituloModulo,
+  trigger,
+  isOpen,
+  onOpenChange,
+  className = '',
 }) => {
   return (
-    <div
-      className="md:hidden fixed z-30 print:hidden transition-all duration-200"
-      style={{
-        bottom: 'calc(4.75rem + env(safe-area-inset-bottom, 0px))',
-        right: '1rem',
-      }}
-    >
-      <Drawer.Root shouldScaleBackground={false}>
+    <div className={`md:hidden inline-flex items-center ${className}`}>
+      <Drawer.Root
+        shouldScaleBackground={false}
+        open={isOpen}
+        onOpenChange={onOpenChange}
+      >
         <Drawer.Trigger asChild>
-          <button
-            type="button"
-            className="flex items-center gap-2 px-4 py-3 rounded-full bg-accent text-accent-text shadow-xl font-sans font-semibold text-sm active:scale-95 transition-transform cursor-pointer border border-accent/30"
-            aria-label="Abrir Resumo e Mnemônicos"
-          >
-            <Sparkles className="w-4 h-4" />
-            <span>Mnemônicos</span>
-          </button>
+          {trigger || (
+            <button
+              type="button"
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-accent text-accent-text shadow-2xs font-sans font-bold text-xs active:scale-95 transition-all cursor-pointer border border-accent/40"
+              aria-label="Abrir Resumo e Mnemônicos"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Mnemônicos</span>
+            </button>
+          )}
         </Drawer.Trigger>
 
         <Drawer.Portal>
