@@ -180,18 +180,6 @@ export const TeoriaPage: React.FC = () => {
     }
   };
 
-  // Se o módulo estiver bloqueado pedagogicamente (Regra 2.2)
-  if (!statusAcesso.liberado) {
-    return (
-      <TelaBloqueioModulo
-        moduloNumero={statusAcesso.moduloNumero}
-        moduloAnteriorNumero={statusAcesso.moduloAnteriorNumero || 1}
-        simuladoAnteriorId={statusAcesso.simuladoAnteriorId || 'm1-fundamentos'}
-        notaConsolidadaAtual={statusAcesso.notaConsolidadaAnterior}
-        motivo={statusAcesso.motivoBloqueio}
-      />
-    );
-  }
 
   return (
     <div className="relative animate-fadeIn">
@@ -752,15 +740,22 @@ export const TeoriaPage: React.FC = () => {
               ) : (
                 <div className="py-2 px-3.5 rounded-xl bg-surface-2 border border-border text-ink-2 font-sans text-xs flex items-center justify-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
-                  <span>Conclua a leitura e atinja 85% na verificação para concluir</span>
+                  <span>Conclua a leitura e responda os checkpoints para registrar conclusão</span>
                 </div>
               )}
             </div>
 
-            {/* Ação Principal Direita: Próximo Submódulo ou Portão do Simulado (Regra 2.1) */}
+            {/* Ação Principal Direita: Próximo Submódulo ou Portão do Simulado (Fase U2) */}
             {rodapeNav.isUltimoDoModulo ? (
-              // ÚLTIMO SUBMÓDULO DO MÓDULO (ex: 1.4): NUNCA avança para 2.1 sem simulado!
-              rodapeNav.simuladoAprovado ? (
+              <div className="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+                <button
+                  type="button"
+                  onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
+                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-contrast font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
+                >
+                  <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
+                  <ArrowRight className="w-4 h-4" />
+                </button>
                 <button
                   type="button"
                   onClick={() => {
@@ -768,62 +763,23 @@ export const TeoriaPage: React.FC = () => {
                     setSelectedSubmodule(`${proximoModNum}.1`);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-ok text-white font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-ok/90"
+                  className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-surface border border-border text-ink font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer hover:border-accent"
                 >
                   <span>Começar Módulo {rodapeNav.moduloNumero + 1}</span>
-                  <ArrowRight className="w-4 h-4" />
+                  <ChevronRight className="w-4 h-4" />
                 </button>
-              ) : rodapeNav.todosSubmodulosDoModuloConcluidos ? (
-                <div className="flex flex-col items-center sm:items-end gap-1 w-full sm:w-auto">
-                  <button
-                    type="button"
-                    onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
-                    className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-accent text-accent-contrast font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
-                  >
-                    <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                  <span className="text-[11px] font-serif text-ink-2">
-                    O M{rodapeNav.moduloNumero + 1} será liberado ao atingir 80% no simulado
-                  </span>
-                </div>
-              ) : (
-                <div className="flex flex-col items-center sm:items-end gap-1 w-full sm:w-auto">
-                  <button
-                    type="button"
-                    disabled
-                    className="w-full sm:w-auto py-2.5 px-5 rounded-lg bg-surface-2 border border-border text-ink-2 font-sans font-semibold text-xs sm:text-sm flex items-center justify-center gap-2 opacity-60 cursor-not-allowed"
-                    title="Conclua todos os submódulos para desbloquear o simulado"
-                  >
-                    <Lock className="w-4 h-4 text-ink-2" />
-                    <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
-                  </button>
-                  <span className="text-[11px] font-serif text-ink-2">
-                    Conclua todos os submódulos para liberar o simulado
-                  </span>
-                </div>
-              )
+              </div>
             ) : (
               // SUBMÓDULOS INTERMEDIÁRIOS (ex: 1.1, 1.2, 1.3)
               <button
                 type="button"
-                disabled={!rodapeNav.podeAvancarProximoSubmodulo}
                 onClick={() => {
                   if (rodapeNav.proximoSubmoduloNumero) {
                     setSelectedSubmodule(rodapeNav.proximoSubmoduloNumero);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }
                 }}
-                className={`w-full sm:w-auto py-2.5 px-4 rounded-lg font-sans text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-all ${
-                  rodapeNav.podeAvancarProximoSubmodulo
-                    ? 'bg-surface border border-border text-ink hover:border-accent cursor-pointer'
-                    : 'bg-surface-2 border border-border text-ink-2 opacity-60 cursor-not-allowed'
-                }`}
-                title={
-                  !rodapeNav.podeAvancarProximoSubmodulo
-                    ? rodapeNav.motivoBloqueioSubmodulo || 'Conclua este submódulo para avançar'
-                    : undefined
-                }
+                className="w-full sm:w-auto py-2.5 px-4 rounded-lg font-sans text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition-all bg-surface border border-border text-ink hover:border-accent cursor-pointer"
               >
                 <span>Submódulo {rodapeNav.proximoSubmoduloNumero}</span>
                 <ChevronRight className="w-4 h-4" />

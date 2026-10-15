@@ -127,15 +127,19 @@ export function calculateSubmoduleStatus(
     status = 'disponivel';
     badgeLabel = 'Disponível';
     explicacaoStatus = 'Disponível para estudo. Inicie pela leitura dos fundamentos teóricos.';
-  } else if (todasSecoesLidas && verificacaoRealizada && atingiuCriterioAcerto) {
+  } else if (todasSecoesLidas && (checkpointsTotal === 0 || (verificacaoRealizada && atingiuCriterioAcerto))) {
     status = 'concluida';
     badgeLabel = 'Concluída';
     explicacaoStatus = `Submódulo concluído com domínio! ${checkpointsAcertosCount} acertos em ${checkpointsTotal} itens (${taxaAcertoPercent}%, mínimo de ${aproveitamentoMinimoPercent}%).`;
   } else if (verificacaoRealizada && !atingiuCriterioAcerto) {
-    // REGRA B3: "Em revisão dirigida" SÓ existe após a verificação ser feita com aproveitamento abaixo do mínimo.
+    // "Em revisão dirigida" SÓ existe se a verificação foi realizada e aproveitamento < 85%
     status = 'em_revisao_dirigida';
     badgeLabel = 'Em Revisão Dirigida';
     explicacaoStatus = `Aproveitamento de ${taxaAcertoPercent}% (${checkpointsAcertosCount}/${checkpointsTotal} acertos) abaixo do mínimo exigido de ${aproveitamentoMinimoPercent}% (${acertosNecessarios} acertos, máx. ${errosMaximos} erros). Releia os tópicos associados aos erros antes de nova tentativa.`;
+  } else if (todasSecoesLidas && (checkpointsRespondidosCount > 0 || checkpointsTotal === 0)) {
+    status = 'concluida';
+    badgeLabel = 'Concluída';
+    explicacaoStatus = `Submódulo concluído. Leitura e itens respondidos (${taxaAcertoPercent}% de acerto).`;
   } else {
     status = 'em_andamento';
     badgeLabel = 'Em Andamento';
@@ -174,9 +178,8 @@ export interface SimuladoAccessControl {
 }
 
 /**
- * Avalia se o Simulado de 100 Questões está liberado.
- * Para o Simulado Geral de Fundamentos (ou Geral do Curso), exige que os submódulos
- * estejam no status 'concluida' (ou ativação de bypass em desenvolvimento).
+ * Avalia o status pedagógico do Simulado de 100 Questões.
+ * No modo livre permanente (Fase U2), o simulado permanece SEMPRE desbloqueado (isUnlocked: true).
  */
 export function checkSimuladoAccess(
   allSubmodules: ModuloFilho[],
@@ -184,17 +187,6 @@ export function checkSimuladoAccess(
   checkpointsRespondidos: Record<string, 'C' | 'E'>,
   devBypass = false
 ): SimuladoAccessControl {
-  if (devBypass) {
-    return {
-      isUnlocked: true,
-      totalSubmodulosExigidos: allSubmodules.length,
-      totalSubmodulosConcluidos: allSubmodules.length,
-      percentualLiberacao: 100,
-      submodulosPendentes: [],
-      mensagemBloqueio: 'Simulado desbloqueado via Modo Desenvolvedor (Bypass ativo).',
-    };
-  }
-
   const pendentes: { id: string; numero: string; titulo: string; status: SubmoduleStatus }[] = [];
   let concluidosCount = 0;
 
@@ -213,16 +205,18 @@ export function checkSimuladoAccess(
     }
   }
 
-  const isUnlocked = concluidosCount === allSubmodules.length;
   const percentualLiberacao =
     allSubmodules.length > 0
       ? Math.round((concluidosCount / allSubmodules.length) * 100)
-      : 0;
+      : 100;
 
-  const minPercent = Math.round(JORNADA_CONFIG.aproveitamentoMinimo * 100);
-  const mensagemBloqueio = isUnlocked
+  // Fase U2: Modo livre permanente. O simulado fica sempre liberado (isUnlocked: true).
+  const isUnlocked = true;
+  const mensagemBloqueio = devBypass
+    ? 'Simulado desbloqueado via Modo Desenvolvedor (Bypass ativo).'
+    : concluidosCount === allSubmodules.length
     ? 'Parabéns! Todos os requisitos pedagógicos foram cumpridos. Simulado liberado.'
-    : `Simulado bloqueado. Você concluiu ${concluidosCount} de ${allSubmodules.length} submódulos exigidos. Conclua a leitura integral e atinja ao menos ${minPercent}% de acerto nos checkpoints dos submódulos pendentes para liberar.`;
+    : `Modo livre ativo: simulado liberado para autoavaliação diagnóstica (${concluidosCount} de ${allSubmodules.length} submódulos concluídos).`;
 
   return {
     isUnlocked,

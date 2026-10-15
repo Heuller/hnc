@@ -123,13 +123,13 @@ describe('Motor de Aprendizagem e Máquina de Estados (learningEngine - Regra B3
     expect(state.badgeLabel).toBe('Concluída');
   });
 
-  describe('Bloqueio do Simulado de 100 Questões (checkSimuladoAccess)', () => {
-    it('deve manter o simulado bloqueado se houver submódulos incompletos', () => {
+  describe('Acesso ao Simulado de 100 Questões (checkSimuladoAccess - Fase U2)', () => {
+    it('U2.1: deve manter o simulado desbloqueado mesmo se houver submódulos incompletos (modo livre permanente)', () => {
       const access = checkSimuladoAccess([mockSubmodulo], {}, {}, false);
-      expect(access.isUnlocked).toBe(false);
+      expect(access.isUnlocked).toBe(true);
       expect(access.totalSubmodulosConcluidos).toBe(0);
       expect(access.submodulosPendentes).toHaveLength(1);
-      expect(access.mensagemBloqueio).toContain('Simulado bloqueado');
+      expect(access.mensagemBloqueio).toContain('Modo livre ativo');
     });
 
     it('deve desbloquear o simulado quando todos os submódulos atingirem status concluida', () => {
