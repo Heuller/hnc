@@ -157,6 +157,40 @@ export const PainelPage: React.FC = () => {
                 >
                   Módulo {proximoPasso?.moduloNumero || 1}
                 </span>
+                {proximoPasso?.motivo && (
+                  <span
+                    className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded border"
+                    style={{
+                      backgroundColor:
+                        proximoPasso.motivo === 'revisao_vencida'
+                          ? '#fef3c7'
+                          : proximoPasso.motivo === 'ponto_fraco'
+                          ? '#fee2e2'
+                          : '#e0f2fe',
+                      color:
+                        proximoPasso.motivo === 'revisao_vencida'
+                          ? '#92400e'
+                          : proximoPasso.motivo === 'ponto_fraco'
+                          ? '#991b1b'
+                          : '#075985',
+                      borderColor:
+                        proximoPasso.motivo === 'revisao_vencida'
+                          ? '#fde68a'
+                          : proximoPasso.motivo === 'ponto_fraco'
+                          ? '#fecaca'
+                          : '#bae6fd',
+                    }}
+                    title={proximoPasso.explicacaoMotivo}
+                  >
+                    {proximoPasso.motivo === 'revisao_vencida'
+                      ? 'Revisão Vencida'
+                      : proximoPasso.motivo === 'ponto_fraco'
+                      ? 'Ponto Fraco'
+                      : proximoPasso.motivo === 'tema_novo'
+                      ? 'Tema Novo'
+                      : 'Concluído'}
+                  </span>
+                )}
               </div>
 
               <h2 id="heroi-continuar-title" className="text-xl sm:text-2xl font-serif font-bold text-ink leading-snug">
@@ -170,6 +204,13 @@ export const PainelPage: React.FC = () => {
                   ? `Simulado de consolidação com 100 itens inéditos no padrão Cebraspe (mínimo de ${JORNADA_CONFIG.desafioAcertosMinimo} acertos).`
                   : 'Portal de retenção cumulativa com 20 itens sobre módulos anteriores.'}
               </p>
+
+              {proximoPasso?.explicacaoMotivo && (
+                <div className="text-[11px] font-sans text-ink-3 italic bg-surface-2/60 px-2.5 py-1.5 rounded-lg border border-border/50">
+                  <span className="font-semibold not-italic text-ink-2">Por que esta ação: </span>
+                  {proximoPasso.explicacaoMotivo}
+                </div>
+              )}
 
               <div className="flex items-center gap-4 text-xs font-sans text-ink-2 pt-1">
                 <span className="flex items-center gap-1.5">

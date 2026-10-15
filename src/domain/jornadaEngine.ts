@@ -67,6 +67,8 @@ export interface EtapaJornadaState {
   foraDaTrilha: boolean;
 }
 
+export type MotivoRecomendacao = 'revisao_vencida' | 'ponto_fraco' | 'tema_novo' | 'conclusao';
+
 export interface ProximoPassoInfo {
   etapaId: string;
   tipo: TipoEtapa;
@@ -74,6 +76,8 @@ export interface ProximoPassoInfo {
   titulo: string;
   descricaoAcao: string;
   status: EtapaStatus;
+  motivo?: MotivoRecomendacao;
+  explicacaoMotivo?: string;
 }
 
 export interface MetricasJornada {
@@ -143,6 +147,105 @@ function avaliarRevisaoDirigida(
 }
 
 /**
+ * U2.5: Ordem de desempate determinística da recomendação principal:
+ * 1. revisao_vencida: revisão periódica programada/vencida (prioridade máxima pedagógica)
+ * 2. ponto_fraco: tópicos em revisão dirigida ou com erros anteriores (< 85%)
+ * 3. tema_novo: primeira etapa sequencial da trilha ainda não concluída
+ * 4. conclusao: trilha 100% concluída
+ */
+export function selecionarProximoPassoComDesempate(
+  etapasOrdenadas: EtapaJornadaState[]
+): ProximoPassoInfo {
+  // 1. Prioridade máxima: Revisão periódica programada
+  // Uma revisão só está "vencida/programada" se a etapa de desafio imediatamente anterior foi concluída
+  // ou se o usuário já realizou tentativas nela sem concluir
+  const revisaoVencida = etapasOrdenadas.find((e, idx) => {
+    if (e.tipo !== 'submodulo_revisao' && e.tipo !== 'portal_revisao') return false;
+    if (e.status === 'concluida') return false;
+    const etapaAnterior = idx > 0 ? etapasOrdenadas[idx - 1] : null;
+    const elegivelPorPrecedencia = etapaAnterior ? etapaAnterior.status === 'concluida' : true;
+    const jaTentada = e.tentativasCount > 0;
+    return elegivelPorPrecedencia || jaTentada;
+  });
+
+  if (revisaoVencida) {
+    const moduloRevisado = revisaoVencida.moduloNumero - 1;
+    return {
+      etapaId: revisaoVencida.id,
+      tipo: revisaoVencida.tipo,
+      moduloNumero: revisaoVencida.moduloNumero,
+      titulo: revisaoVencida.tituloCurto || revisaoVencida.titulo,
+      descricaoAcao: `Revisar M${moduloRevisado} (20 itens, mín. 17 acertos)`,
+      status: revisaoVencida.status,
+      motivo: 'revisao_vencida',
+      explicacaoMotivo:
+        'Revisão periódica programada para consolidar a retenção a longo prazo e combater a curva de esquecimento.',
+    };
+  }
+
+  // 2. Segunda prioridade: Ponto fraco (em revisão dirigida ou com rendimento < 85%)
+  const pontoFraco = etapasOrdenadas.find(
+    (e) =>
+      e.status === 'em_revisao_dirigida' ||
+      (e.tentativasCount > 0 && e.melhorAproveitamentoPercent < 85 && e.status !== 'concluida')
+  );
+
+  if (pontoFraco) {
+    return {
+      etapaId: pontoFraco.id,
+      tipo: pontoFraco.tipo,
+      moduloNumero: pontoFraco.moduloNumero,
+      titulo: pontoFraco.tituloCurto || pontoFraco.titulo,
+      descricaoAcao:
+        pontoFraco.status === 'em_revisao_dirigida'
+          ? 'Revisar seções com erros e refazer verificação'
+          : 'Reforçar tópicos com rendimento abaixo de 85%',
+      status: pontoFraco.status,
+      motivo: 'ponto_fraco',
+      explicacaoMotivo:
+        'Foco de reforço em tópicos com erros registrados ou aproveitamento abaixo do limiar de 85%.',
+    };
+  }
+
+  // 3. Terceira prioridade: Tema novo (primeira etapa da trilha ainda não concluída)
+  const temaNovo = etapasOrdenadas.find((e) => e.status !== 'concluida');
+
+  if (temaNovo) {
+    return {
+      etapaId: temaNovo.id,
+      tipo: temaNovo.tipo,
+      moduloNumero: temaNovo.moduloNumero,
+      titulo: temaNovo.tituloCurto || temaNovo.titulo,
+      descricaoAcao:
+        temaNovo.tipo === 'desafio_modulo'
+          ? `Iniciar simulado do M${temaNovo.moduloNumero}`
+          : temaNovo.tipo === 'submodulo_revisao' || temaNovo.tipo === 'portal_revisao'
+          ? `Revisar M${temaNovo.moduloNumero - 1} (20 itens)`
+          : temaNovo.status === 'em_andamento'
+          ? 'Continuar estudo e realizar verificação'
+          : 'Iniciar leitura do submódulo',
+      status: temaNovo.status,
+      motivo: 'tema_novo',
+      explicacaoMotivo:
+        'Avanço no edital para cobrir novos conteúdos teóricos e questões da banca Cebraspe.',
+    };
+  }
+
+  // 4. Trilha 100% concluída
+  return {
+    etapaId: 'conclusao',
+    tipo: 'submodulo',
+    moduloNumero: 10,
+    titulo: 'Trilha de Domínio Concluída',
+    descricaoAcao: 'Mantenha a retenção ativa com as revisões diárias e cadernos de erros',
+    status: 'concluida',
+    motivo: 'conclusao',
+    explicacaoMotivo:
+      'Trilha completa! Mantenha a retenção com simulados e cadernos de revisão.',
+  };
+}
+
+/**
  * Função Pura: Deriva todo o estado da Jornada a partir das tentativas e leituras (Regra D.6).
  *
  * Estrutura de Progressão (Regra D.1):
@@ -167,17 +270,12 @@ export function deriveJornadaState(params: {
     tentativas,
     secoesVisualizadas,
     secoesReabertasAposFalha = {},
-    modoLivre = false,
+    modoLivre = true, // Modo livre permanente na Fase U2
     checkpointsRespondidos = {},
   } = params;
 
   const etapas: Record<string, EtapaJornadaState> = {};
   const etapasOrdenadas: EtapaJornadaState[] = [];
-
-  let etapaAnteriorConcluida = true; // A primeira etapa (M1.1) inicia liberada
-  let proximoPassoEncontrado: ProximoPassoInfo | null = null;
-  let moduloAtivoNumero = 1;
-  let etapaAtivaId = '1.1';
 
   // Filtra apenas os módulos de Conhecimentos Específicos M1 a M10 para a trilha de domínio
   // (Conhecimentos Gerais M11/M12 ficam como estrutura paralela aguardando edital - Regra F.4)
@@ -265,30 +363,26 @@ export function deriveJornadaState(params: {
         temCheckpointsAprovados ? Math.round(aproveitamentoCheckpoints * 100) : 0
       );
 
-      // Uma etapa só pode ser considerada concluída se:
-      // 1. Houver itens de verificação (não falta itens)
-      // 2. Houver tentativa aprovada com >= 85% OU microcheckpoints respondidos com >= 85%
-      // 3. Todas as seções canônicas de teoria tiverem sido lidas
+      // Fase U2 (U2.2): submódulo concluído = leitura de todas as seções E itens respondidos sem exigir nota mínima
       const temTentativaAprovada = tentativasSub.some((t) => t.aprovado) || temCheckpointsAprovados;
-      const isConcluida = !faltamItens && temTentativaAprovada && todasSecoesLidas;
+      const todosCheckpointsRespondidos =
+        checkpointsCount === 0 || respondidosCheckpoints >= checkpointsCount;
+      const isConcluida = todasSecoesLidas && (todosCheckpointsRespondidos || tentativasSub.length > 0);
 
-      // Status
-      let status: EtapaStatus = 'bloqueada';
-      const isDesbloqueada = etapaAnteriorConcluida || modoLivre;
+      // Status (Fase U2: modo livre permanente, todas as etapas são desbloqueadas)
+      const isDesbloqueada = true;
 
       const revisaoDirigida = avaliarRevisaoDirigida(
         tentativasSub,
         secoesReabertasAposFalha[subId] || []
       );
 
-      if (!isDesbloqueada) {
-        status = 'bloqueada';
+      let status: EtapaStatus = 'disponivel';
+      if (revisaoDirigida) {
+        status = 'em_revisao_dirigida';
       } else if (isConcluida) {
         status = 'concluida';
-      } else if (revisaoDirigida) {
-        // REGRA B3 e D.3: "Em revisão dirigida" SÓ existe se a verificação foi realizada com aproveitamento < 85%
-        status = 'em_revisao_dirigida';
-      } else if (secoesLidasCount > 0 || tentativasSub.length > 0) {
+      } else if (secoesLidasCount > 0 || tentativasSub.length > 0 || respondidosCheckpoints > 0) {
         status = 'em_andamento';
       } else {
         status = 'disponivel';
@@ -331,28 +425,6 @@ export function deriveJornadaState(params: {
 
       etapas[subId] = etapaState;
       etapasOrdenadas.push(etapaState);
-
-      // Define próximo passo prioritário na trilha
-      if (!proximoPassoEncontrado && isDesbloqueada && status !== 'concluida') {
-        proximoPassoEncontrado = {
-          etapaId: subId,
-          tipo: 'submodulo',
-          moduloNumero: k,
-          titulo: `${sub.numero} · ${sub.titulo_curto || sub.titulo}`,
-          descricaoAcao:
-            status === 'em_revisao_dirigida'
-              ? 'Revisar seções com erros e refazer verificação'
-              : status === 'em_andamento'
-              ? 'Continuar estudo e realizar verificação'
-              : 'Iniciar leitura do submódulo',
-          status,
-        };
-        moduloAtivoNumero = k;
-        etapaAtivaId = subId;
-      }
-
-      // Progressão linear: o próximo submódulo só abre se este foi concluído
-      etapaAnteriorConcluida = isConcluida;
     }
 
     // 2. Desafio do Módulo Mk (100 itens - Regra D.1 e D.2)
@@ -365,16 +437,14 @@ export function deriveJornadaState(params: {
       0
     );
 
-    const isDesafioDesbloqueado = etapaAnteriorConcluida || modoLivre;
+    const isDesafioDesbloqueado = true;
     const revisaoDirigidaDesafio = avaliarRevisaoDirigida(
       tentativasDesafio,
       secoesReabertasAposFalha[desafioId] || []
     );
 
-    let statusDesafio: EtapaStatus = 'bloqueada';
-    if (!isDesafioDesbloqueado) {
-      statusDesafio = 'bloqueada';
-    } else if (desafioConcluido) {
+    let statusDesafio: EtapaStatus = 'disponivel';
+    if (desafioConcluido) {
       statusDesafio = 'concluida';
     } else if (revisaoDirigidaDesafio) {
       statusDesafio = 'em_revisao_dirigida';
@@ -409,21 +479,6 @@ export function deriveJornadaState(params: {
     etapas[desafioId] = etapaDesafio;
     etapasOrdenadas.push(etapaDesafio);
 
-    if (!proximoPassoEncontrado && isDesafioDesbloqueado && statusDesafio !== 'concluida') {
-      proximoPassoEncontrado = {
-        etapaId: desafioId,
-        tipo: 'desafio_modulo',
-        moduloNumero: k,
-        titulo: `Desafio do Módulo M${k}`,
-        descricaoAcao: 'Realizar simulado de 100 itens (mínimo 85 acertos)',
-        status: statusDesafio,
-      };
-      moduloAtivoNumero = k;
-      etapaAtivaId = desafioId;
-    }
-
-    etapaAnteriorConcluida = desafioConcluido;
-
     // 3. Submódulo de Revisão Científica Rn (antigo Portal P(k) migrado com histórico - Marco R4/R5)
     // De M1 para M2 não há portal/revisão intermediária; ocorre a partir de k >= 2
     if (k >= 2) {
@@ -444,16 +499,14 @@ export function deriveJornadaState(params: {
         0
       );
 
-      const isRevisaoDesbloqueada = etapaAnteriorConcluida || modoLivre;
+      const isRevisaoDesbloqueada = true;
       const revisaoDirigida = avaliarRevisaoDirigida(
         tentativasCombinadas,
         [...(secoesReabertasAposFalha[revisaoId] || []), ...(secoesReabertasAposFalha[portalId] || [])]
       );
 
-      let statusRevisao: EtapaStatus = 'bloqueada';
-      if (!isRevisaoDesbloqueada) {
-        statusRevisao = 'bloqueada';
-      } else if (revisaoConcluida) {
+      let statusRevisao: EtapaStatus = 'disponivel';
+      if (revisaoConcluida) {
         statusRevisao = 'concluida';
       } else if (revisaoDirigida) {
         statusRevisao = 'em_revisao_dirigida';
@@ -493,36 +546,13 @@ export function deriveJornadaState(params: {
         tipo: 'portal_revisao',
       };
       etapasOrdenadas.push(etapaRevisao);
-
-      if (!proximoPassoEncontrado && isRevisaoDesbloqueada && statusRevisao !== 'concluida') {
-        proximoPassoEncontrado = {
-          etapaId: revisaoId,
-          tipo: 'submodulo_revisao',
-          moduloNumero: k,
-          titulo: `Submódulo de Revisão R${k}`,
-          descricaoAcao: `Revisar M${moduloRevisado} (20 itens, mín. 17 acertos)`,
-          status: statusRevisao,
-        };
-        moduloAtivoNumero = k;
-        etapaAtivaId = revisaoId;
-      }
-
-      // O próximo módulo Mk+1 só abre após a revisão ser concluída
-      etapaAnteriorConcluida = revisaoConcluida;
     }
   }
 
-  // Se todas as etapas foram concluídas
-  if (!proximoPassoEncontrado) {
-    proximoPassoEncontrado = {
-      etapaId: 'conclusao',
-      tipo: 'submodulo',
-      moduloNumero: 10,
-      titulo: 'Trilha de Domínio Concluída',
-      descricaoAcao: 'Mantenha a retenção ativa com as revisões diárias e cadernos de erros',
-      status: 'concluida',
-    };
-  }
+  // U2.5: Próxima ação recomendada determinística com explicação pedagógica
+  const proximoPasso = selecionarProximoPassoComDesempate(etapasOrdenadas);
+  const moduloAtivoNumero = proximoPasso.moduloNumero;
+  const etapaAtivaId = proximoPasso.etapaId;
 
   // Cálculo de Métricas Globais (Regra D.5: exclui tentativas marcadas foraDaTrilha)
   const totalEtapas = etapasOrdenadas.length;
@@ -547,7 +577,7 @@ export function deriveJornadaState(params: {
     modoLivreAtivo: modoLivre,
     moduloAtivoNumero,
     etapaAtivaId,
-    proximoPasso: proximoPassoEncontrado,
+    proximoPasso,
     etapas,
     etapasOrdenadas,
     metricas: {
