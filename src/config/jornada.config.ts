@@ -26,16 +26,30 @@ export interface JornadaConfig {
   modoLivreDefault: boolean;
 }
 
+export type NivelSeloDominio = 'em_andamento' | 'consolidado' | 'dominado';
+
+export interface SeloDominioConfig {
+  limiarConsolidado: number; // 0.85 (85% acertos)
+  intervaloMinimoDominadoDias: number; // 7 dias de retenção
+}
+
+export const SELO_CONFIG: SeloDominioConfig = {
+  limiarConsolidado: 0.85,
+  intervaloMinimoDominadoDias: 7,
+};
+
 /**
- * Parâmetros centrais da Jornada de Domínio Cebraspe (Parte D e Rodada 5B)
+ * Parâmetros centrais da Jornada de Domínio Cebraspe (Parte D e Rodada 5B / Plano v3 Fase U2)
  * Regra D.2: Todos os critérios devem vir deste arquivo de configuração, nunca hardcoded no código.
+ * Em Fase U2, travas de avanço são desativadas (modoLivreDefault: true, simuladoObrigatorioParaAvancar: false)
+ * e os limiares atuam como critérios de qualidade/selo, não bloqueio.
  */
 export const JORNADA_CONFIG: JornadaConfig = {
   aproveitamentoMinimo: 0.85,
   minimoVerificacao: 0.85,
   minimoSimuladoModulo: 0.80,
-  nMinimoVerificacao: 8,
-  simuladoObrigatorioParaAvancar: true,
+  nMinimoVerificacao: 3,
+  simuladoObrigatorioParaAvancar: false,
   desafioItensTotal: 100,
   desafioAcertosMinimo: 80, // ceil(0.80 * 100) = 80 acertos exigidos
   desafioErrosMaximo: 20,
@@ -54,7 +68,7 @@ export const JORNADA_CONFIG: JornadaConfig = {
   ],
   limiteMaximoIntervaloDias: 30,
   limiteMinimoIntervaloDias: 1,
-  modoLivreDefault: false,
+  modoLivreDefault: true,
 };
 
 /**
