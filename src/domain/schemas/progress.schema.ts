@@ -38,7 +38,7 @@ export const SessaoSimuladoStateSchema = z.object({
 });
 
 export const UserProgressSchema = z.object({
-  versao: z.literal(2),
+  versao: z.union([z.literal(2), z.literal(3)]).default(3),
   modulosLidosIds: z.array(z.string()),
   checkpointsRespondidos: z.record(z.string(), z.enum(['C', 'E'])).default({}),
   secoesVisualizadas: z.record(z.string(), z.array(z.string())).default({}),
@@ -52,7 +52,7 @@ export const UserProgressSchema = z.object({
   sessoesSimulados: z.record(z.string(), SessaoSimuladoStateSchema).default({}),
   ultimoSimuladoAcessadoId: z.string().default('m1-fundamentos'),
   historicoSimulados: z.array(SimuladoFinalizadoSchema).default([]),
-  modoLivre: z.boolean().default(false),
+  modoLivre: z.boolean().default(true),
   secoesReabertasAposFalha: z.record(z.string(), z.array(z.string())).default({}),
   tentativas: z.array(z.any()).default([]),
   itemAttempts: z.array(z.any()).default([]),

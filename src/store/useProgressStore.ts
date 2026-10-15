@@ -107,7 +107,7 @@ const getRecent7Days = (): string[] => {
 };
 
 const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
-  versao: 2,
+  versao: 3,
   ultimoModuloAcessado: '1.1',
   modulosLidosIds: [],
   checkpointsRespondidos: {},
@@ -122,7 +122,7 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   sessoesSimulados: {},
   ultimoSimuladoAcessadoId: 'm1-fundamentos',
   historicoSimulados: [],
-  modoLivre: false,
+  modoLivre: true,
   secoesReabertasAposFalha: {},
   tentativas: [],
   itemAttempts: [],
@@ -1022,14 +1022,17 @@ export const useProgressStore = create<ProgressStoreState>()(
     }),
     {
       name: 'heuller_camara_v2_progress',
-      version: 2,
+      version: 3,
       migrate: (persistedState: unknown, version: number) => {
-        if (version === 1 || !version) {
-          const old = (persistedState as Record<string, unknown>) || {};
+        const old = (persistedState as Record<string, unknown>) || {};
+        if (version < 3 || !version) {
+          // Fase U2 (U2.6 / Regra A2): Migração aditiva sem perda de dados
+          // Mantém todas as chaves persistidas legadas intactas, garante modoLivre: true e versao: 3
           return {
             ...INITIAL_STATE,
             ...old,
-            versao: 2,
+            modoLivre: true,
+            versao: 3,
           };
         }
         return persistedState as ProgressStoreState;
