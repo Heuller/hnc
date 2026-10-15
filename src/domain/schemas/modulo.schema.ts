@@ -25,11 +25,18 @@ export const CheckpointSchema = z.object({
   nivel: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
 });
 
+export const TermoAntesDeLerSchema = z.object({
+  termo: z.string().min(1),
+  definicao: z.string().min(5),
+  exemploBiblioteca: z.string().min(5),
+});
+
 export const SecaoTeoriaSchema = z.object({
   id: z.string(),
   nivel: z.union([z.literal(3), z.literal(4)]),
   titulo: z.string(),
   conteudo: z.string(),
+  itens: z.array(CheckpointSchema).optional(),
 });
 
 export const ReferenciaCruzadaSchema = z.object({
@@ -50,6 +57,7 @@ export const ModuloFilhoSchema = z.object({
   quadroComparativo: QuadroComparativoSchema.optional(),
   teoriaDensaMarkdown: z.string(), // Texto original preservado verbatim
   secoes: z.array(SecaoTeoriaSchema).optional(),
+  antesDeLer: z.array(TermoAntesDeLerSchema).optional(),
   checkpoints: z.array(CheckpointSchema).min(2).max(3),
   mnemonicos: MnemonicosModuloSchema,
   prioridade: z.enum(['alta', 'normal', 'baixa']).default('normal').optional(),
@@ -79,6 +87,7 @@ export type AlertaBancaItem = z.infer<typeof AlertaBancaItemSchema>;
 export type QuadroComparativo = z.infer<typeof QuadroComparativoSchema>;
 export type ReferenciaCruzada = z.infer<typeof ReferenciaCruzadaSchema>;
 export type Checkpoint = z.infer<typeof CheckpointSchema>;
+export type TermoAntesDeLer = z.infer<typeof TermoAntesDeLerSchema>;
 export type SecaoTeoria = z.infer<typeof SecaoTeoriaSchema>;
 export type ModuloFilho = z.infer<typeof ModuloFilhoSchema>;
 export type MacroModulo = z.infer<typeof MacroModuloSchema>;
