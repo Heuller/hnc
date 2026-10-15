@@ -10,7 +10,7 @@ export default defineConfig({
       ignored: ['**/acervo-privado/**', '**/acervo-estudos/**', '**/provas/**', '**/*.pdf'],
     },
   },
-  base: process.env.GITHUB_ACTIONS ? '/hnc/' : '/',
+  base: process.env.BASE_URL || '/',
   plugins: [
     react(),
     tailwindcss(),
