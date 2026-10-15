@@ -228,37 +228,37 @@ Para permitir a continuidade do desenvolvimento e dos estudos a partir de qualqu
 
 ---
 
-## 11. A ARQUITETURA DA JORNADA E PROGRESSÃO POR DOMÍNIO (RODADA 3 — OUTUBRO DE 2026)
+## 11. A ARQUITETURA DA JORNADA: MODO LIVRE PERMANENTE E PROGRESSÃO POR DOMÍNIO (FASE U2 — OUTUBRO DE 2026)
 
-A Rodada 3 institui a **Jornada de Domínio Vertical**, transformando o acesso livre em uma progressão pedagógica estruturada que assegura retenção antes de permitir avanço.
+Em cumprimento ao **Plano v3 (Fase U2)** e à decisão estratégica de autonomia do estudante, a plataforma opera com **Modo Livre Permanente**, eliminando qualquer trava de acesso artificial, cadeados ou bloqueios forçados de navegação, ao mesmo tempo em que preserva a orientação pedagógica inteligente e os selos de domínio.
 
-### 11.1. Regra de Ouro: Desbloqueio por 85% de Aproveitamento
-* Cada etapa (submódulo, desafio ou portal) só é dada como concluída quando o candidato alcança um aproveitamento bruto $\ge 85\%$ em itens de verificação (acertos inteiros).
-* **Fórmula de Domínio:**
-  $$\text{Aproveitamento} = \frac{\text{Acertos Brutos}}{\text{Total de Itens Submetidos}} \ge 0{,}85$$
-* A nota líquida Cebraspe ($C - E$) é apresentada em destaque paralelo como indicador de calibração competitiva, mas o critério de desbloqueio pedagógico é a retenção factual mínima de 85%.
+### 11.1. Modo Livre Permanente e Acesso Universal
+* **Nenhuma Trava de Bloqueio:** Todos os módulos ($M_1$ a $M_{14}$), submódulos, desafios e simulados estão permanentemente acessíveis para leitura, revisão e consulta imediata em qualquer ordem.
+* **Componentes como Atividades Opcionais:** Os portais e desafios permanecem como atividades recomendadas na trilha de domínio, mas sem funcionar como portas de bloqueio (*gates* rígidos).
+* **Nenhum Cadeado Visual:** A interface da Jornada, da Teoria e dos Simulados não exibe ícones de cadeado nem mensagens de impedimento de estudo.
 
-### 11.2. Desafios de Módulo ($N=100$ no M1)
-* Ao concluir todos os submódulos de um macro-módulo, o candidato é submetido ao **Desafio do Módulo**.
-* No M1 (Fundamentos), o desafio constitui-se de **100 itens inéditos e canônicos** (25 itens por submódulo, simetria 50C/50E).
-* **Critério de Aprovação:** Mínimo de 85 acertos inteiros (máximo de 15 erros ou abstenções).
+### 11.2. Redefinição de Conclusão e Selos de Domínio
+* **Critério de Conclusão de Submódulo:** Um submódulo é considerado **concluído** quando todas as seções teóricas forem lidas e os itens de verificação (microcheckpoints) forem respondidos, **sem exigir nota mínima de corte** para prosseguir.
+* **Selos de Proficiência Pedagógicos:** O domínio real não bloqueia, mas é atestado por selos visuais em três níveis:
+  1. **Em Andamento:** Leitura em curso ou itens de verificação parcialmente respondidos.
+  2. **Consolidado:** Aproveitamento bruto $\ge 85\%$ nos itens de verificação da etapa (atualmente 3 de 3 nos microcheckpoints canônicos).
+  3. **Dominado:** Selo Consolidado + confirmação de retenção em repetição espaçada realizada com intervalo $\ge 7$ dias após a primeira resolução.
 
-### 11.3. Portais de Revisão Cumulativa $P_k$ (para $k \ge 2$)
-* Entre a conclusão do macro-módulo $k-1$ e a abertura do macro-módulo $k$, ergue-se um **Portal de Revisão Cumulativa**.
-* **Composição Estratificada ($N=20$ itens):**
-  * **70% dos itens (14 itens):** Selecionados aleatoriamente a partir dos checkpoints e simulados do módulo imediatamente anterior ($M_{k-1}$).
-  * **30% dos itens (6 itens):** Selecionados a partir dos módulos anteriores históricos ($M_1$ até $M_{k-2}$).
-  * **Ponderação de Erros:** O algoritmo prioriza itens que o candidato errou em sessões passadas.
-  * **Simetria:** Exatamente 10 itens Certos e 10 itens Errados.
-* **Critério de Transposição:** Mínimo de 17 acertos inteiros em 20 itens ($\ge 85\%$).
+### 11.3. Próxima Ação Recomendada Determinística com Motivo
+A plataforma mantém uma bússola de direcionamento para o candidato, fornecendo a qualquer momento **exatamente uma recomendação principal**, acompanhada de justificativa pedagógica explícita (`motivo` e `explicacaoMotivo`). A ordem determinística de desempate é:
+1. **Revisão Vencida (`revisao_vencida`):** Submódulo de revisão periódica programado ou itens vencidos no baralho Leitner. Justificativa: *Combater a curva de esquecimento e consolidar a memória de longo prazo.*
+2. **Ponto Fraco (`ponto_fraco`):** Etapa com pendência de revisão dirigida (`em_revisao_dirigida`) ou com aproveitamento abaixo de 85% em tentativas passadas. Justificativa: *Reforçar tópicos com erros identificados na verificação formativa.*
+3. **Tema Novo (`tema_novo`):** Primeiro submódulo sequencial ainda não concluído ao longo do currículo. Justificativa: *Avançar na cobertura do edital do Cargo 5.*
+4. **Conclusão (`conclusao`):** Manutenção contínua de prontidão quando a trilha estiver 100% percorrida.
 
-### 11.4. Protocolo de Revisão Dirigida em Falha
-* Caso o aproveitamento fique abaixo de 85%, a etapa entra no estado estrito `em_revisao_dirigida`.
-* O sistema identifica as seções exatas cujos itens foram respondidos incorretamente e bloqueia novas tentativas até que o estudante reabra e confirme a releitura reflexiva desses tópicos específicos.
-* As tentativas são ilimitadas, mas cada nova tentativa gera um registro imutável no histórico.
+### 11.4. Eliminação de Pendências Fantasma (Bug D4)
+* A função `obterItensVerificacaoSubmodulo` calcula estritamente os microcheckpoints canônicos do submódulo, sem somar indevidamente itens de mnemônicos ou pares de autores.
+* A configuração `nMinimoVerificacao` foi ajustada para 3 (compatível com o schema dos submódulos), extinguindo mensagens de "faltam itens" quando o aluno respondeu todos os checkpoints disponíveis na leitura.
 
-### 11.5. Modo Livre (Consulta e Pesquisa)
-* Um seletor com confirmação explícita permite ativar temporariamente o **Modo Livre**, liberando a navegação em qualquer submódulo sem desvirtuar nem anular o mapa de progresso e as métricas oficiais da Jornada.
+### 11.5. Migração Aditiva Sem Perda de Progresso (Versão 3)
+* A migração para o modelo sem travas é estritamente aditiva (`versao: 3`).
+* Todo o progresso do usuário (leituras, checkpoints respondidos, tentativas imutáveis, histórico de simulados e baralho Leitner) é preservado de forma idêntica.
+* Estados anteriormente marcados como "bloqueados" passam automaticamente para "disponíveis", garantindo que nenhuma conquista passada seja perdida.
 
 ---
 

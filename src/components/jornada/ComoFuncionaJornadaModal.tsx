@@ -66,9 +66,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
             <div className="flex flex-col items-center justify-center py-2 text-accent border-b border-border/60 pb-4">
               <IllustrationPortal width={140} height={90} ariaLabel="Portal de Verificação da Jornada" />
               <p className="text-[11px] font-sans text-ink-2 text-center mt-2 max-w-sm">
-                Diretriz pedagógica: A progressão para a próxima etapa ocorre após a consolidação do conteúdo anterior.
+                Diretriz pedagógica: Estudo livre e irrestrito com recomendação inteligente e selos de consolidação.
               </p>
             </div>
+
             {/* Regra 1 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
               <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5">
@@ -76,10 +77,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  1. Progressão Sequencial
+                  1. Modo Livre Permanente (Sem Travas)
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Cada etapa só abre quando a anterior é concluída. Não há atalhos artificiais: você avança garantindo que cada conceito da ementa foi verdadeiramente assimilado.
+                  Todas as etapas, submódulos e simulados estão permanentemente abertos para navegação e consulta. Não há cadeados nem bloqueios artificiais: você é o dono do seu ritmo de preparação.
                 </p>
               </div>
             </div>
@@ -91,10 +92,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  2. Limiar de 85% de Domínio
+                  2. Conclusão e Selos de Domínio
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Para concluir qualquer verificação, é obrigatório atingir ao menos 85% de acertos inteiros (ex: 7 em 8 nos checkpoints, 17 em 20 no portal, 85 em 100 no simulado). A nota líquida Cebraspe (C − E) é exibida à parte para sua autoavaliação.
+                  A leitura das seções e a resposta aos checkpoints concluem a etapa sem nota mínima de corte. O seu aproveitamento é atestado por Selos de Proficiência: <em>Em Andamento</em>, <em>Consolidado</em> (&ge; 85% de acertos) e <em>Dominado</em> (&ge; 85% com retenção espaçada após 7 dias).
                 </p>
               </div>
             </div>
@@ -102,14 +103,14 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
             {/* Regra 3 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
               <div className="p-1.5 rounded-lg bg-purple-500/10 text-purple-600 dark:text-purple-400 shrink-0 mt-0.5">
-                <DoorOpen className="w-4 h-4" />
+                <Compass className="w-4 h-4" />
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  3. Portais de Revisão Entre Módulos
+                  3. Próxima Ação Recomendada Inteligente
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Ao concluir o Desafio de um módulo a partir de M2, surge um Portal de Revisão de 20 itens com paridade estrita (50% Certos e 50% Errados). Ele revisa o módulo imediatamente anterior (70%) e módulos prévios (30%) antes de liberar o próximo assunto.
+                  A plataforma aponta de forma determinística a ação mais produtiva para a sua sessão, priorizando: (1º) Revisões periódicas vencidas, (2º) Tópicos com pontos fracos e (3º) Novos temas da esteira do edital.
                 </p>
               </div>
             </div>
@@ -121,10 +122,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  4. Revisão Dirigida e Tentativas Ilimitadas
+                  4. Revisões Periódicas e Repetição Espaçada
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Se o rendimento ficar abaixo de 85%, a etapa entra em <span className="font-semibold text-ink">Revisão Dirigida</span>. O sistema mapeia os itens errados por seção e exige reabrir os tópicos com falha antes da nova tentativa. Cada tentativa tem composição diferente.
+                  Submódulos de revisão cumulativa (20 itens com simetria 50% C e 50% E) e o baralho Leitner garantem a fixação a longo prazo dos módulos anteriores, combatendo a curva de esquecimento.
                 </p>
               </div>
             </div>
@@ -132,14 +133,14 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
             {/* Regra 5 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
               <div className="p-1.5 rounded-lg bg-blue-500/10 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5">
-                <HelpCircle className="w-4 h-4" />
+                <DoorOpen className="w-4 h-4" />
               </div>
               <div className="space-y-1">
                 <h3 className="font-semibold text-xs text-ink uppercase tracking-wider">
-                  5. Modo Livre (Opcional)
+                  5. Simulados no Padrão Cebraspe
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  Disponível em Preferências com confirmação. Libera a navegação por qualquer etapa para consultas pontuais; todo estudo nesse modo é sinalizado como "fora da trilha" e não distorce seus indicadores de domínio e prontidão.
+                  Simulados de 100 itens inéditos por módulo e o Mega Simulado de 120 itens com penalização do erro (1 errado anula 1 certo), cronômetro oficial e calibração de certeza versus chute.
                 </p>
               </div>
             </div>
