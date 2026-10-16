@@ -18,6 +18,33 @@ export const submodulo66: ModuloFilho = {
       }
   ],
   titulo: 'Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping',
+  antesDeLer: [
+    {
+      termo: 'SQL',
+      definicao: 'Linguagem declarativa padrão para criação, consulta e manipulação de bancos de dados relacionais.',
+      exemploBiblioteca: 'Consultar no banco Koha/Pergamum da Câmara os livros catalogados com mais de 3 exemplares disponíveis.',
+    },
+    {
+      termo: 'API',
+      definicao: 'Interface de comunicação padronizada que viabiliza a troca direta de dados entre sistemas distintos.',
+      exemploBiblioteca: 'Consumir o endpoint /proposicoes da API de Dados Abertos da Câmara para indexar projetos no catálogo.',
+    },
+    {
+      termo: 'REST',
+      definicao: 'Estilo arquitetural para serviços web baseado no protocolo HTTP sem estado (stateless) e recursos com URIs.',
+      exemploBiblioteca: 'Requisição HTTP GET para recuperar metadados de parlamentares em formato JSON.',
+    },
+    {
+      termo: 'Regex',
+      definicao: 'Expressão regular; sequência de caracteres que define um padrão de busca textual flexível.',
+      exemploBiblioteca: 'Validar se números de chamada ou ISBNs digitados pelos usuários seguem a máscara correta.',
+    },
+    {
+      termo: 'Web Scraping',
+      definicao: 'Técnica automatizada de extração de dados estruturados a partir do código HTML de páginas web públicas.',
+      exemploBiblioteca: 'Coletar listas de publicações parlamentares em sítios históricos que não possuem APIs de exportação.',
+    },
+  ],
   descricaoCurta:
     'Pensamento computacional e estruturas de controle; ordem lógica de execução em SQL (WHERE vs. HAVING, JOINs e agregações); expressões regulares (metacaracteres e padrões bibliográficos); arquitetura REST, JSON e API de Dados Abertos da Câmara; web scraping, robots.txt e limites ético-jurídicos da LGPD.',
   tempoEstimadoMinutos: 40,

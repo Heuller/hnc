@@ -18,6 +18,33 @@ export const submodulo62: ModuloFilho = {
       }
   ],
   titulo: 'Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)',
+  antesDeLer: [
+    {
+      termo: 'OAI-PMH',
+      definicao: 'Protocolo baseado em HTTP e XML para colheita automatizada de metadados entre repositórios digitais.',
+      exemploBiblioteca: 'A Biblioteca Digital da Câmara expõe seus metadados para colheita pela BDTD (IBICT) via OAI-PMH.',
+    },
+    {
+      termo: 'DSpace',
+      definicao: 'Software livre de código aberto para criação e gestão de repositórios digitais e institucionais.',
+      exemploBiblioteca: 'Armazenar teses, artigos e publicações legislativas estruturados em Comunidades, Coleções e Itens.',
+    },
+    {
+      termo: 'Z39.50',
+      definicao: 'Protocolo cliente-servidor para busca e recuperação simultânea de registros em catálogos remotos.',
+      exemploBiblioteca: 'Importar ficha catalográfica da Biblioteca Nacional diretamente para o catálogo da Câmara sem redigitar.',
+    },
+    {
+      termo: 'Handle',
+      definicao: 'Sistema de identificadores persistentes atribuído a objetos digitais para links permanentes que não quebram.',
+      exemploBiblioteca: 'Cada documento no Repositório da Câmara recebe um prefixo Handle exclusivo permanente.',
+    },
+    {
+      termo: 'SIGB',
+      definicao: 'Sistema Integrado de Gestão de Bibliotecas; software que automatiza catalogação, circulação e consulta.',
+      exemploBiblioteca: 'Gerenciar empréstimos e reservas de livros físicos aos gabinetes parlamentares.',
+    },
+  ],
   descricaoCurta: 'Arquitetura e gestão de repositórios digitais, o software DSpace e SEER/OJS, SIGBs livres (Koha) e comerciais (Pergamum, Aleph), o protocolo OAI-PMH (seis verbos e colheita de metadados), Z39.50, SRU/SRW e Discovery Services Web-Scale.',
   tempoEstimadoMinutos: 45,
   autoresChave: ['Herbert Van de Sompel', 'Carl Lagoze', 'Clifford Lynch', 'IBICT', 'Satbir Chauhan', 'Luciana Viana'],

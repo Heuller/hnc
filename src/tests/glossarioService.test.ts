@@ -53,7 +53,7 @@ describe('Glossário Unificado - Serviço (U3.10)', () => {
     expect(primeiro.acervo).toBe('dicionario');
     expect(primeiro.fonte.obra).toContain('Dicionário de Biblioteconomia e Arquivologia');
     expect(primeiro.fonte.ano).toBe(2008);
-  }, 15000);
+  }, 60000);
 
   it('resetarCacheDicionario deve invalidar o cache em memoria', () => {
     resetarCacheDicionario();

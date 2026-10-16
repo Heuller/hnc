@@ -39,6 +39,9 @@ import {
   verificarNavegacaoRodapeSubmodulo,
 } from '../domain/portaoSimuladoEngine';
 import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
+import { CartaoAntesDeLer } from '../components/content-blocks/CartaoAntesDeLer';
+import { GavetaCurtaDefinicao } from '../components/glossario/GavetaCurtaDefinicao';
+import { useGlossarioStore } from '../store/useGlossarioStore';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
@@ -53,6 +56,7 @@ export const TeoriaPage: React.FC = () => {
     getProgressoGlobal,
     historicoSimulados,
   } = useProgressStore();
+  const { termoAtivoDrawer, isDrawerOpen, fecharDrawer } = useGlossarioStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isReaderPrefsOpen, setIsReaderPrefsOpen] = useState(false);
@@ -523,6 +527,13 @@ export const TeoriaPage: React.FC = () => {
             </div>
           )}
 
+          {/* Bloco Antes de Ler: Pré-requisitos Conceituais (U3.4 / U3.1) */}
+          {currentSub.antesDeLer && currentSub.antesDeLer.length > 0 && (
+            <div id="sec-antes-de-ler">
+              <CartaoAntesDeLer termos={currentSub.antesDeLer} />
+            </div>
+          )}
+
           {/* Bloco 4: Teoria Editorial */}
           <article id="sec-teoria" className="border-t border-border pt-6">
             <div className="mb-4">
@@ -534,7 +545,10 @@ export const TeoriaPage: React.FC = () => {
               </h2>
             </div>
 
-            <ConteudoMarkdown content={currentSub.teoriaDensaMarkdown} />
+            <ConteudoMarkdown
+              content={currentSub.teoriaDensaMarkdown}
+              submoduloId={currentSub.id}
+            />
           </article>
 
           {/* Bloco 5: Checkpoints de Recuperação Ativa */}
@@ -795,6 +809,13 @@ export const TeoriaPage: React.FC = () => {
       <ReaderPreferencesModal
         isOpen={isReaderPrefsOpen}
         onClose={() => setIsReaderPrefsOpen(false)}
+      />
+
+      {/* Gaveta Curta de Definição ao Tocar em Termo Destacado (U3.12 / U3.5) */}
+      <GavetaCurtaDefinicao
+        verbete={termoAtivoDrawer}
+        isOpen={isDrawerOpen}
+        onClose={fecharDrawer}
       />
     </div>
   );

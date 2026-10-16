@@ -86,17 +86,28 @@ export async function carregarDicionario(): Promise<VerbeteUnificado[]> {
       fonte: FonteVerbete;
     }>;
 
-    dicionarioCache = dados.map((item) => ({
-      id: `dic-${item.id.toLowerCase()}`,
-      termo: item.termo,
-      acervo: 'dicionario' as const,
-      variantes: item.variantes || [],
-      definicao: item.definicao,
-      definicaoCompleta: item.definicao,
-      remissivas: item.remissivas || [],
-      fonte: item.fonte,
-      submodulosOndeAparece: [],
-    }));
+    let mapaOcorrencias: Record<string, SubmoduloReferencia[]> = {};
+    try {
+      const modOcorr = await import('../../content/glossario/termos-para-submodulos.json');
+      mapaOcorrencias = (modOcorr.default || modOcorr) as Record<string, SubmoduloReferencia[]>;
+    } catch {
+      // Silencioso se arquivo ainda nao foi gerado
+    }
+
+    dicionarioCache = dados.map((item) => {
+      const vId = `dic-${item.id.toLowerCase()}`;
+      return {
+        id: vId,
+        termo: item.termo,
+        acervo: 'dicionario' as const,
+        variantes: item.variantes || [],
+        definicao: item.definicao,
+        definicaoCompleta: item.definicao,
+        remissivas: item.remissivas || [],
+        fonte: item.fonte,
+        submodulosOndeAparece: mapaOcorrencias[vId] || [],
+      };
+    });
 
     return dicionarioCache;
   } catch (err) {

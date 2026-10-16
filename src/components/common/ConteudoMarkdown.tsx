@@ -25,12 +25,19 @@ import { EditorialDiagram } from './EditorialDiagram';
 import { TimelineFlow } from './TimelineFlow';
 import { AccordionTree } from './AccordionTree';
 import { DecisionFlow } from './DecisionFlow';
+import { useGlossarioStore } from '../../store/useGlossarioStore';
+import {
+  obterTermosDestaque,
+  destacarTermosNoTexto,
+  converterParaVerbeteUnificado,
+} from '../../domain/glossario/destaquesService';
 
 export interface ConteudoMarkdownProps {
   content: string;
   className?: string;
   variant?: 'light' | 'dark' | 'auto';
   usePreferences?: boolean;
+  submoduloId?: string;
 }
 
 export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
@@ -38,8 +45,59 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
   className = '',
   variant = 'auto',
   usePreferences = true,
+  submoduloId,
 }) => {
   const { fontSize, fontFamily } = useReaderPreferencesStore();
+  const { destaquesHabilitados, termosSilenciados, abrirDrawer } = useGlossarioStore();
+
+  const setSilenciados = useMemo(
+    () => new Set(termosSilenciados.map((s) => s.toLowerCase())),
+    [termosSilenciados]
+  );
+  const termosDestaque = useMemo(
+    () => obterTermosDestaque(submoduloId),
+    [submoduloId]
+  );
+
+  const renderComDestaques = React.useCallback(
+    function processNode(node: React.ReactNode): React.ReactNode {
+      if (!destaquesHabilitados || termosDestaque.length === 0) return node;
+
+      if (typeof node === 'string') {
+        return destacarTermosNoTexto(
+          node,
+          termosDestaque,
+          setSilenciados,
+          (item) => abrirDrawer(converterParaVerbeteUnificado(item))
+        );
+      }
+
+      if (Array.isArray(node)) {
+        return node.map((child, idx) => (
+          <React.Fragment key={idx}>{processNode(child)}</React.Fragment>
+        ));
+      }
+
+      if (React.isValidElement(node)) {
+        const typeName = typeof node.type === 'string' ? node.type : '';
+        if (['code', 'pre', 'a', 'button'].includes(typeName)) {
+          return node;
+        }
+
+        const props = node.props as { children?: React.ReactNode };
+        if (props && props.children) {
+          return React.cloneElement(
+            node as React.ReactElement<Record<string, unknown>>,
+            undefined,
+            processNode(props.children)
+          );
+        }
+      }
+
+      return node;
+    },
+    [destaquesHabilitados, termosDestaque, setSilenciados, abrirDrawer]
+  );
 
   const isDark = variant === 'dark';
   const isLight = variant === 'light';
@@ -119,7 +177,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               style={{ textWrap: 'pretty', overflowWrap: 'anywhere' }}
               {...props}
             >
-              {children}
+              {renderComDestaques(children)}
             </p>
           ),
           ul: ({ children, ...props }) => (
@@ -134,7 +192,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           li: ({ children, ...props }) => (
             <li className="leading-relaxed break-words" {...props}>
-              {children}
+              {renderComDestaques(children)}
             </li>
           ),
           strong: ({ children, ...props }) => (
