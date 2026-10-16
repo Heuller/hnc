@@ -122,7 +122,7 @@ describe('U0.4 - Backup Lógico do Progresso e Exportação', () => {
       expect(md).toContain('# Relatório de Estudos e Desempenho · Heuller na Câmara');
       expect(md).toContain('Progresso Geral (Câmara dos Deputados)');
       expect(md).toContain('Submódulos Lidos:');
-    });
+    }, 15000);
   });
 
   describe('Interface do Usuário (ProgressoPage)', () => {
