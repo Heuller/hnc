@@ -107,7 +107,7 @@ O desenvolvimento e a implantação de sistemas de informação em unidades docu
 
 ---
 
-### 2. O Modelo Entidade-Relacionamento (MER) de Peter Chen (1976)
+### 2. O Modelo MER de Chen É Metodologia de Banco de Dados, Não Se Confundindo com Ontologias Bibliográficas como IFLA LRM
 
 Formulado por **Peter Pin-Shan Chen** em 1976 (*The Entity-Relationship Model: Toward a Unified View of Data*), o MER constitui o padrão conceitual dominante para modelagem lógica de dados:
 
@@ -146,7 +146,7 @@ Formulado por **Peter Pin-Shan Chen** em 1976 (*The Entity-Relationship Model: T
 
 ---
 
-### 3. O Modelo Relacional e as Formas Normais de Edgar F. Codd (1970)
+### 3. O Modelo Relacional Elimina Redundâncias Operacionais Através das Formas Normais (1FN, 2FN e 3FN)
 
 Criado por **Edgar Frank Codd** nos laboratórios da IBM (*A Relational Model of Data for Large Shared Data Banks*, 1970), o modelo relacional organiza os dados sob a fundamentação matemática da teoria dos conjuntos e da lógica de predicados de primeira ordem:
 
