@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { useProgressStore } from '../store/useProgressStore';
+import { useConceptStore } from '../store/useConceptStore';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { COURSE_REGISTRY } from '../content/registry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
@@ -24,7 +25,6 @@ import {
 
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
-import { getItensPendentesRevisao } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { useDicionarioStore } from '../store/useDicionarioStore';
 import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
@@ -37,12 +37,12 @@ export const PainelPage: React.FC = () => {
     constancia,
     modulosLidosIds,
     checkpointsRespondidos,
-    leitnerDeck,
     historicoSimulados,
     registrarAcessoHoje,
     getJornadaState,
   } = useProgressStore();
 
+  const { estados, getFilaRevisaoHoje } = useConceptStore();
   const { setCurrentRoute, setSelectedSubmodule } = useNavigationStore();
 
   useEffect(() => {
@@ -59,10 +59,9 @@ export const PainelPage: React.FC = () => {
   const totalCheckpointsGlobal = getCheckpointsTotalCurso(COURSE_REGISTRY);
   const totalCheckpointsFeitos = getCheckpointsFeitosCurso(COURSE_REGISTRY, checkpointsRespondidos);
 
-  // Repetição Espaçada (Sistema Leitner)
-  const todayIso = new Date().toISOString().split('T')[0];
-  const deckList = Object.values(leitnerDeck || {});
-  const pendentesHoje = getItensPendentesRevisao(deckList, todayIso);
+  // Repetição Espaçada (Fonte Única: useConceptStore - Regra U5.2)
+  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [estados, getFilaRevisaoHoje]);
+  const pendentesHojeCount = filaHoje.totalPendentes;
 
   // Caderno de Erros
   const itensErros = getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
@@ -281,14 +280,14 @@ export const PainelPage: React.FC = () => {
 
             <div className="flex items-baseline gap-2 pt-1">
               <span className="text-3xl font-sans font-bold tabular-nums text-ink">
-                {pendentesHoje.length}
+                {pendentesHojeCount}
               </span>
               <span className="text-xs text-ink-2 font-sans">
-                {pendentesHoje.length === 1 ? 'item vencido para hoje' : 'itens vencidos para hoje'}
+                {pendentesHojeCount === 1 ? 'item vencido para hoje' : 'itens vencidos para hoje'}
               </span>
             </div>
 
-            {pendentesHoje.length === 0 ? (
+            {pendentesHojeCount === 0 ? (
               <div className="py-2 text-center">
                 <IllustrationVazio width={70} height={45} className="mx-auto text-ink-2 opacity-60" ariaLabel="Sem revisões pendentes hoje" />
                 <p className="text-xs text-ink-2 font-serif mt-1">
@@ -308,7 +307,7 @@ export const PainelPage: React.FC = () => {
             className="w-full mt-4 py-2 px-3 rounded-lg bg-surface-2 hover:bg-surface-3 border border-border text-ink hover:border-accent font-sans font-semibold text-xs flex items-center justify-center gap-1.5 transition-all cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5 text-accent" />
-            <span>{pendentesHoje.length > 0 ? 'Iniciar Sessão de Revisão' : 'Abrir Treinos'}</span>
+            <span>{pendentesHojeCount > 0 ? 'Iniciar Sessão de Revisão' : 'Abrir Treinos'}</span>
           </button>
         </div>
 

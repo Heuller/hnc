@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   RotateCcw,
   BookMarked,
@@ -11,29 +11,29 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
+import { useConceptStore } from '../store/useConceptStore';
 import { useNavigationStore } from '../store/useNavigationStore';
-import { getItensPendentesRevisao } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { Button } from '../components/common/Button';
 import { IllustrationDiscursiva } from '../components/illustrations/ContextualIllustrations';
 import { EmblemaM8 } from '../components/illustrations/ModuleEmblems';
 import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
+import { RevisaoDiariaModal } from '../components/review/RevisaoDiariaModal';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { Award, Layers } from 'lucide-react';
 
 export const TreinosPage: React.FC = () => {
   const {
-    leitnerDeck,
     checkpointsRespondidos,
     historicoSimulados,
     modulosLidosIds,
   } = useProgressStore();
 
+  const { estados, getFilaRevisaoHoje } = useConceptStore();
   const { setActiveView } = useNavigationStore();
 
-  const todayIso = new Date().toISOString().split('T')[0];
-  const deckList = Object.values(leitnerDeck || {});
-  const pendentesHoje = getItensPendentesRevisao(deckList, todayIso);
+  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [estados, getFilaRevisaoHoje]);
+  const pendentesHojeCount = filaHoje.totalPendentes;
 
   const itensErros = getItensCadernoErros(
     checkpointsRespondidos || {},
@@ -41,6 +41,7 @@ export const TreinosPage: React.FC = () => {
   );
 
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
+  const [isModalRevisaoDiariaOpen, setIsModalRevisaoDiariaOpen] = useState(false);
   const totalSimuladosDisponiveis = SIMULADOS_REGISTRY.length;
   const totalQuestoesSimulados = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
   const simuladosConcluidosCount = historicoSimulados?.length || 0;
@@ -113,26 +114,26 @@ export const TreinosPage: React.FC = () => {
                 <RotateCcw className="w-5 h-5" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-surface-2 border border-border text-ink">
-                {pendentesHoje.length} ite{pendentesHoje.length !== 1 ? 'ns' : 'm'} hoje
+                {pendentesHojeCount} ite{pendentesHojeCount !== 1 ? 'ns' : 'm'} hoje
               </span>
             </div>
 
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Revisão do Dia</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Algoritmo de repetição espaçada por Caixas de Leitner. Revisa apenas os conceitos que alcançaram sua janela de esquecimento para consolidar na memória de longo prazo.
+                Algoritmo unificado de repetição espaçada em dias úteis. Revisa conceitos na janela ótima de retenção com exercícios formativos ricos (F1 a F8).
               </p>
             </div>
 
-            {pendentesHoje.length === 0 ? (
+            {pendentesHojeCount === 0 ? (
               <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center gap-2 text-xs text-emerald-700 dark:text-emerald-300">
                 <CheckCircle2 className="w-4 h-4 shrink-0" />
                 <span>Nenhuma revisão pendente para hoje. Sua retenção está em dia!</span>
               </div>
             ) : (
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-xs text-ink-2 flex items-center justify-between">
-                <span>Itens com vencimento hoje:</span>
-                <span className="font-mono font-bold text-ink">{pendentesHoje.length}</span>
+                <span>Itens com vencimento hoje (teto {filaHoje.itensNaFila.length}):</span>
+                <span className="font-mono font-bold text-ink">{pendentesHojeCount}</span>
               </div>
             )}
           </div>
@@ -140,8 +141,8 @@ export const TreinosPage: React.FC = () => {
           <Button
             variant="primary"
             size="md"
-            disabled={pendentesHoje.length === 0}
-            onClick={() => setActiveView('painel')}
+            disabled={pendentesHojeCount === 0}
+            onClick={() => setIsModalRevisaoDiariaOpen(true)}
             className="w-full flex items-center justify-center gap-2"
           >
             <span>Iniciar Revisão Espaçada</span>
@@ -308,6 +309,12 @@ export const TreinosPage: React.FC = () => {
       <SimuladoAdaptativoModal
         isOpen={isModalAdaptativoOpen}
         onClose={() => setIsModalAdaptativoOpen(false)}
+      />
+
+      {/* Modal da Revisão Diária Espaçada (Fonte Única U5.2) */}
+      <RevisaoDiariaModal
+        isOpen={isModalRevisaoDiariaOpen}
+        onClose={() => setIsModalRevisaoDiariaOpen(false)}
       />
     </div>
   );

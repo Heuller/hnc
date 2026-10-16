@@ -270,6 +270,7 @@ export function selecionarFilaRevisaoDiaria(params: {
   dataHojeIso: string;
   submodulosLiberados?: string[];
   limiteDiario?: number;
+  itensExcluidosIds?: Set<string>;
 }): FilaRevisaoDiaria {
   const {
     estados,
@@ -277,6 +278,7 @@ export function selecionarFilaRevisaoDiaria(params: {
     dataHojeIso,
     submodulosLiberados,
     limiteDiario = REVIEW_CONFIG.dailyReviewCap,
+    itensExcluidosIds,
   } = params;
 
   const dataRef = ajustarParaDiaUtil(dataHojeIso);
@@ -292,12 +294,22 @@ export function selecionarFilaRevisaoDiaria(params: {
   const submodulosAltaDensidadeSet = new Set(REVIEW_CONFIG.submodulosAltaDensidadeTecnica);
 
   for (const [id, conceito] of Object.entries(conceitos)) {
+    // Filtra itens explicitamente excluídos (ex: já agendados em outro fluxo do mesmo dia)
+    if (itensExcluidosIds && itensExcluidosIds.has(id)) {
+      continue;
+    }
+
     // Filtra por submódulos desbloqueados
     if (submodulosPermitidos && !submodulosPermitidos.has(conceito.submoduloId)) {
       continue;
     }
 
     const estado = estados[id] || criarEstadoInicialConceito(id, 'anon', dataRef);
+
+    // Se já foi revisado hoje e sua próxima revisão é futura, não entra novamente no mesmo dia
+    if (estado.dataUltimaRevisao === dataRef && estado.proximaRevisao > dataRef) {
+      continue;
+    }
 
     // Se está vencido ou na data de hoje
     if (estado.proximaRevisao <= dataRef) {

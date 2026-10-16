@@ -96,12 +96,14 @@ export function comporSubmoduloRevisao(params: {
   moduloId: string; // 'm1', 'm2', etc.
   estadosConceitos?: Record<string, ConceptState>;
   dataAtualIso?: string;
+  itensExcluidosIds?: Set<string>;
 }): ComposicaoRevisaoSubmodulo {
   const {
     moduloNumero,
     moduloId,
     estadosConceitos = {},
     dataAtualIso = new Date().toISOString().split('T')[0],
+    itensExcluidosIds,
   } = params;
 
   const revisaoId = `revisao-${moduloId}`;
@@ -125,18 +127,23 @@ export function comporSubmoduloRevisao(params: {
 
   const temPrecedentes = moduloNumero > 1 && conceitosPrecedentes.length > 0;
 
-  // Quotas:
-  // Se k = 1: 10 C e 10 E de M1
-  // Se k >= 2: 6 C e 6 E de Mk; 4 C e 4 E de precedentes
-  const quotaAtualC = temPrecedentes ? 6 : 10;
-  const quotaAtualE = temPrecedentes ? 6 : 10;
-  const quotaPrecedenteC = temPrecedentes ? 4 : 0;
-  const quotaPrecedenteE = temPrecedentes ? 4 : 0;
+  // Quotas proporcionais baseadas em totalItens (padrão 20)
+  const metaC = Math.ceil(totalItens / 2);
+  const metaE = Math.floor(totalItens / 2);
+
+  const quotaAtualC = temPrecedentes ? Math.min(metaC, Math.max(1, Math.round(metaC * 0.6))) : metaC;
+  const quotaAtualE = temPrecedentes ? Math.min(metaE, Math.max(1, Math.round(metaE * 0.6))) : metaE;
+  const quotaPrecedenteC = Math.max(0, metaC - quotaAtualC);
+  const quotaPrecedenteE = Math.max(0, metaE - quotaAtualE);
 
   const calcularPrioridade = (c: Concept): number => {
     const est = estadosConceitos[c.id];
     let score = 0;
     if (est) {
+      // Se já foi revisado hoje com sucesso, reduz prioridade drasticamente
+      if (est.dataUltimaRevisao === dataAtualIso && est.proximaRevisao > dataAtualIso) {
+        score -= 5000;
+      }
       if (est.estadoDominio === 'critico') score += 1000;
       if (est.proximaRevisao <= dataAtualIso) score += 500;
       if (est.caixaLeitner === 1) score += 300;
@@ -144,6 +151,12 @@ export function comporSubmoduloRevisao(params: {
     } else {
       score += 100; // Itens novos recebem prioridade base
     }
+
+    // Penaliza itens explicitamente excluídos (ex: já agendados na fila diária do mesmo dia)
+    if (itensExcluidosIds && itensExcluidosIds.has(c.id)) {
+      score -= 10000;
+    }
+
     return score;
   };
 
@@ -152,9 +165,24 @@ export function comporSubmoduloRevisao(params: {
     quantidade: number,
     gabarito: 'C' | 'E'
   ): Concept[] => {
+    if (quantidade <= 0) return [];
     const filtrados = candidatos.filter((c) => c.gabaritoCanonic === gabarito);
-    filtrados.sort((a, b) => calcularPrioridade(b) - calcularPrioridade(a));
-    return filtrados.slice(0, quantidade);
+    // Prioriza estritamente não excluídos e não revisados hoje
+    const naoExcluidos = filtrados.filter(
+      (c) =>
+        (!itensExcluidosIds || !itensExcluidosIds.has(c.id)) &&
+        !(estadosConceitos[c.id]?.dataUltimaRevisao === dataAtualIso && estadosConceitos[c.id]?.proximaRevisao > dataAtualIso)
+    );
+    // Usa os não-excluídos se existirem; nunca inclui itens de itensExcluidosIds ou revisados hoje com sucesso
+    const pool = naoExcluidos.length > 0
+      ? naoExcluidos
+      : filtrados.filter(
+          (c) =>
+            (!itensExcluidosIds || !itensExcluidosIds.has(c.id)) &&
+            !(estadosConceitos[c.id]?.dataUltimaRevisao === dataAtualIso && estadosConceitos[c.id]?.proximaRevisao > dataAtualIso)
+        );
+    pool.sort((a, b) => calcularPrioridade(b) - calcularPrioridade(a));
+    return pool.slice(0, quantidade);
   };
 
   const selecionadosAtualC = selecionarGrupo(conceitosModuloAtual, quotaAtualC, 'C');
@@ -174,10 +202,14 @@ export function comporSubmoduloRevisao(params: {
   let countC = itensSelecionados.filter((i) => i.conceito.gabaritoCanonic === 'C').length;
   let countE = itensSelecionados.filter((i) => i.conceito.gabaritoCanonic === 'E').length;
 
-  if (countC < 10) {
-    const faltam = 10 - countC;
+  if (countC < metaC) {
+    const faltam = metaC - countC;
     const extras = todosConceitos.filter(
-      (c) => c.gabaritoCanonic === 'C' && !idsJaEscolhidos.has(c.id)
+      (c) =>
+        c.gabaritoCanonic === 'C' &&
+        !idsJaEscolhidos.has(c.id) &&
+        (!itensExcluidosIds || !itensExcluidosIds.has(c.id)) &&
+        !(estadosConceitos[c.id]?.dataUltimaRevisao === dataAtualIso && estadosConceitos[c.id]?.proximaRevisao > dataAtualIso)
     );
     for (let i = 0; i < faltam && i < extras.length; i++) {
       itensSelecionados.push({ conceito: extras[i], isAtual: false });
@@ -186,10 +218,14 @@ export function comporSubmoduloRevisao(params: {
     }
   }
 
-  if (countE < 10) {
-    const faltam = 10 - countE;
+  if (countE < metaE) {
+    const faltam = metaE - countE;
     const extras = todosConceitos.filter(
-      (c) => c.gabaritoCanonic === 'E' && !idsJaEscolhidos.has(c.id)
+      (c) =>
+        c.gabaritoCanonic === 'E' &&
+        !idsJaEscolhidos.has(c.id) &&
+        (!itensExcluidosIds || !itensExcluidosIds.has(c.id)) &&
+        !(estadosConceitos[c.id]?.dataUltimaRevisao === dataAtualIso && estadosConceitos[c.id]?.proximaRevisao > dataAtualIso)
     );
     for (let i = 0; i < faltam && i < extras.length; i++) {
       itensSelecionados.push({ conceito: extras[i], isAtual: false });
