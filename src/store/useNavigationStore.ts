@@ -13,7 +13,8 @@ export type AppView =
   | 'discursiva'
   | 'design-system'
   | 'dev-rascunhos'
-  | 'edital';
+  | 'edital'
+  | 'glossario';
 
 interface NavigationState {
   activeView: AppView;
@@ -54,6 +55,7 @@ function getViewFromHash(): AppView {
   if (route.startsWith('design-system')) return 'design-system';
   if (route.startsWith('dev/rascunhos') || route.startsWith('dev-rascunhos')) return 'dev-rascunhos';
   if (route.startsWith('edital')) return 'edital';
+  if (route.startsWith('glossario') || route.startsWith('dicionario')) return 'glossario';
   if (route.startsWith('painel')) return 'painel';
   return 'painel';
 }

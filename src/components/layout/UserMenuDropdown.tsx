@@ -7,6 +7,7 @@ import {
   Download,
   Unlock,
   ChevronDown,
+  Book,
 } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -151,6 +152,22 @@ export const UserMenuDropdown: React.FC = () => {
                 <span>Preferências de Leitura</span>
               </div>
               <span className="text-[10px] font-mono text-ink-2">U.5</span>
+            </button>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setActiveView('glossario');
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <Book className="w-4 h-4 text-accent" />
+                <span>Glossário do Concurso</span>
+              </div>
+              <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
             </button>
 
             <button
