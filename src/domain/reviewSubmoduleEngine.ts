@@ -296,13 +296,20 @@ export function comporSubmoduloRevisao(params: {
     }
   }
 
+  const naoExcluidoOuRevisadoHoje = (c: Concept): boolean => {
+    if (itensExcluidosIds && itensExcluidosIds.has(c.id)) return false;
+    const est = estadosConceitos[c.id];
+    if (est && est.dataUltimaRevisao === dataAtualIso && est.proximaRevisao > dataAtualIso) return false;
+    return true;
+  };
+
   // 1. Contraste de Pares Conceituais Confundíveis (Kornell & Bjork, 2008 / U5.5)
   const paresContrastados: string[] = [];
   const conceitosParesContrastadosIds = new Set<string>();
 
   for (const par of paresNoEscopo) {
-    const candA = poolCumulativo.filter((c) => conceitoCorrespondeAoTermo(c, par.termoA, par.submoduloIdA));
-    const candB = poolCumulativo.filter((c) => conceitoCorrespondeAoTermo(c, par.termoB, par.submoduloIdB));
+    const candA = poolCumulativo.filter((c) => naoExcluidoOuRevisadoHoje(c) && conceitoCorrespondeAoTermo(c, par.termoA, par.submoduloIdA));
+    const candB = poolCumulativo.filter((c) => naoExcluidoOuRevisadoHoje(c) && conceitoCorrespondeAoTermo(c, par.termoB, par.submoduloIdB));
 
     if (candA.length > 0 && candB.length > 0) {
       let itemA = itensSelecionados.find((i) => conceitoCorrespondeAoTermo(i.conceito, par.termoA, par.submoduloIdA));
@@ -394,6 +401,7 @@ export function comporSubmoduloRevisao(params: {
         if (submodulosPresentes.size >= 3) break;
         const candidatosSub = poolCumulativo.filter(
           (c) =>
+            naoExcluidoOuRevisadoHoje(c) &&
             c.submoduloId === subFaltante &&
             !itensSelecionados.some((it) => it.conceito.id === c.id)
         );

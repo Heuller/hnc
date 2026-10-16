@@ -309,7 +309,7 @@ export const JornadaPage: React.FC = () => {
           <button
             type="button"
             role="tab"
-            aria-label="Acervo Complementar · M11 a M14"
+            aria-label="Acervo Complementar · Trilha Complementar · M11 a M14"
             aria-selected={abaTrilha === 'complementar'}
             onClick={() => setAbaTrilha('complementar')}
             className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
