@@ -47,7 +47,8 @@ Principais conquistas da fase:
 | **U6.5** | Painel com cartão "Hoje" destacado e Jornada livre com selos informativos (sem cadeados) | `a6203b8` | `src/pages/PainelPage.tsx`, `src/pages/JornadaPage.tsx`, `src/tests/painelU6.test.tsx` |
 | **U6.6** | Estados padronizados de carregamento (`LoadingSkeleton`) e erro amigável (`ErrorState` e `ErrorBoundary`) | `b1a093c` | `src/components/common/LoadingSkeleton.tsx`, `src/components/common/ErrorState.tsx`, `src/components/common/ErrorBoundary.tsx`, `src/tests/loadingErrorU6.test.tsx` |
 | **U6.7** | Auditoria automatizada de acessibilidade, contraste WCAG 2.2 AA ($\ge 4.5:1$) e alvos táteis mínimos ($\ge 44\text{ px}$) | `e16e58d` | `src/tests/acessibilidadeU6.test.tsx` |
-| **U6.8** | Testes em 4 viewports (360×800, 375×812, 768×1024, 1440×900), zero overflow horizontal e capturas | *(este commit)* | `scripts/capturarScreenshotsU6.mjs`, `docs/relatorios/screenshots/u6_*.png` |
+| **U6.8** | Testes em 4 viewports (360×800, 375×812, 768×1024, 1440×900), zero overflow horizontal e capturas | `e82091a` | `scripts/capturarScreenshotsU6.mjs`, `docs/relatorios/screenshots/u6_*.png`, `docs/relatorios/plano_v3_U6_relatorio.md` |
+| **Ajuste CI** | Remoção de variável não utilizada `isBloqueada` em `JornadaPage.tsx` para validação no `tsc -b` do CI | `29f9397` | `src/pages/JornadaPage.tsx` |
 
 ---
 
@@ -55,7 +56,7 @@ Principais conquistas da fase:
 
 | Métrica | Linha de Base (Fim U5) | Estado Atual (Fim U6) | Delta / Impacto |
 | :--- | :--- | :--- | :--- |
-| **Suíte de Testes Automatizados** | 654 testes em 70 suítes | **670 testes em 75 suítes** | **+16 testes novos em 5 novas suítes**, 0 falhas |
+| **Suíte de Testes Automatizados** | 654 testes em 70 suítes | **674 testes em 76 suítes** | **+20 testes novos**, 0 falhas |
 | **Abas no Cabeçalho Desktop** | 5 abas + radar disperso | **4 abas centrais limpas** | Elimina compressão em viewports 768px-1280px |
 | **Níveis de Superfície** | Indeterminados / múltiplos | **3 níveis formais (`--surface-1, 2, 3`)** | Redução do ruído visual e cartões aninhados |
 | **Corpo do Texto de Leitura** | Variável / pequeno em mobile | **Fixo em $\ge 16\text{ px}$ (1rem)** | Leitura confortável sem necessidade de zoom |
@@ -68,10 +69,11 @@ Principais conquistas da fase:
 
 ## 5. Resultado dos Testes e Qualidade
 
-- **`npm test` (Vitest):** ✅ 75 suítes passaram, 670 testes passaram, 0 regressões.
+- **`npm test` (Vitest):** ✅ 76 suítes passaram, 674 testes passaram, 0 regressões.
 - **`npx tsc -b` (TypeScript 6):** ✅ 0 erros de compilação.
 - **`npm run lint` (Oxlint):** ✅ 0 erros, código 100% limpo.
 - **`npm run build` (Vite + Rolldown + Workbox PWA):** ✅ Compilação de produção concluída com sucesso e geração dos arquivos `dist/sw.js` e `dist/workbox-*.js`.
+- **CI do GitHub Actions:** ✅ Workflow "CI - Qualidade e Build" aprovado em verde na branch `ux/plano-v3` (Run `38982444262`).
 
 ---
 
