@@ -208,7 +208,7 @@ export const CheckpointSchema = z.object({
   pergunta: z.string().default('Julgue o item:'),
   item: z.string(),
   enunciado: z.string().optional(),
-  tipo: z.literal('X2').default('X2').optional(),
+  tipo: TipoExercicioSchema.optional(),
   gabarito: z.enum(['C', 'E']),
   justificativa: z.string(),
   versao_correta: z.string().optional(),
@@ -220,10 +220,78 @@ export const CheckpointSchema = z.object({
   nivel: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
 });
 
-export function converterCheckpointParaExercicio(cp: z.infer<typeof CheckpointSchema>): ExercicioX2 {
+export function converterCheckpointParaExercicio(cp: z.infer<typeof CheckpointSchema>): Exercicio {
+  const isSegundoItem =
+    cp.id.endsWith('-2') ||
+    cp.id.endsWith('_2') ||
+    cp.id.endsWith('cp2') ||
+    /\bcheckpoint\s*2\b/i.test(cp.pergunta || '');
+
+  // Se explicitamente X3 ou se for o segundo item com versao_correta
+  if (cp.tipo === 'X3' || (!cp.tipo && isSegundoItem && cp.gabarito === 'E' && cp.versao_correta)) {
+    const versao = cp.versao_correta || cp.justificativa.replace(/^Errado!?\s*/i, '');
+    return {
+      id: cp.id,
+      tipo: 'X3',
+      enunciado: cp.enunciado || cp.item,
+      gabarito: versao,
+      justificativa: cp.justificativa,
+      fonte: cp.fonte || 'Edital nº 1/2026 - Conhecimentos Específicos',
+      editalRef: cp.editalRef || 'Cargo 5 - Biblioteconomia',
+      trechoIncorreto: cp.armadilhaBanca,
+      opcoesCorrecao: [
+        versao,
+        cp.enunciado || cp.item,
+        `Na doutrina canônica, não se aplica ${cp.armadilhaBanca || 'a restrição indevida'}.`,
+      ],
+      nivelConfianca: cp.nivelConfianca ?? true,
+    };
+  }
+
+  // Se for o segundo item sem tipo explícito, converte para X3 para quebrar monotonia (U4.3)
+  if (!cp.tipo && isSegundoItem) {
+    if (cp.gabarito === 'E') {
+      const versaoCorreta = cp.versao_correta || cp.justificativa.replace(/^Errado!?\s*/i, '');
+      return {
+        id: cp.id,
+        tipo: 'X3',
+        enunciado: cp.enunciado || cp.item,
+        gabarito: versaoCorreta,
+        justificativa: cp.justificativa,
+        fonte: cp.fonte || 'Edital nº 1/2026 - Conhecimentos Específicos',
+        editalRef: cp.editalRef || 'Cargo 5 - Biblioteconomia',
+        trechoIncorreto: cp.armadilhaBanca,
+        opcoesCorrecao: [
+          versaoCorreta,
+          cp.enunciado || cp.item,
+          `A regra canônica veda a restrição apontada pela banca.`,
+        ],
+        nivelConfianca: cp.nivelConfianca ?? true,
+      };
+    } else {
+      // Gabarito 'C' no segundo item: interrogação elaborativa sobre a formulação correta
+      return {
+        id: cp.id,
+        tipo: 'X3',
+        enunciado: `Identifique a formulação canônica correta: ${cp.item}`,
+        gabarito: cp.item,
+        justificativa: cp.justificativa,
+        fonte: cp.fonte || 'Edital nº 1/2026 - Conhecimentos Específicos',
+        editalRef: cp.editalRef || 'Cargo 5 - Biblioteconomia',
+        trechoIncorreto: cp.armadilhaBanca,
+        opcoesCorrecao: [
+          cp.item,
+          `A doutrina contemporânea inverte a regra canônica para dispensar o procedimento.`,
+          `A aplicação descrita restringe-se exclusivamente a suportes analógicos em papel.`,
+        ],
+        nivelConfianca: cp.nivelConfianca ?? true,
+      };
+    }
+  }
+
   return {
     id: cp.id,
-    tipo: 'X2',
+    tipo: (cp.tipo as 'X2') || 'X2',
     enunciado: cp.enunciado || cp.item,
     item: cp.item,
     pergunta: cp.pergunta,

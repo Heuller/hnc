@@ -6,6 +6,7 @@ import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos'
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
+import { ExercicioRenderer } from '../components/exercicios';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
 import {
@@ -549,6 +550,43 @@ export const TeoriaPage: React.FC = () => {
               content={currentSub.teoriaDensaMarkdown}
               submoduloId={currentSub.id}
             />
+
+            {/* Itens Seccionais de Recuperação Ativa (U4.3: 1 item por seção) */}
+            {currentSub.secoes && currentSub.secoes.some((s) => s.itens && s.itens.length > 0) && (
+              <div className="space-y-6 mt-8 pt-6 border-t border-border">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+                    EXERCÍCIOS POR SEÇÃO
+                  </span>
+                  <span className="text-xs text-ink-2 font-mono">
+                    Fixação Imediata ao Longo da Leitura
+                  </span>
+                </div>
+                {currentSub.secoes.map((secao) => (
+                  secao.itens && secao.itens.length > 0 ? (
+                    <div key={secao.id} className="p-4 rounded-xl border border-border/70 bg-surface-2/40 space-y-3">
+                      <h4 className="text-sm font-bold font-sans text-ink">{secao.titulo}</h4>
+                      {secao.itens.map((it) => (
+                        <ExercicioRenderer
+                          key={it.id}
+                          exercicio={it}
+                          onResponder={async (res) => {
+                            await useProgressStore.getState().adicionarItemAttempt({
+                              itemId: it.id,
+                              submoduloId: currentSub.numero,
+                              moduloId: currentMacro.id,
+                              contexto: 'teoria',
+                              resposta: res.respostaDada === 'C' ? 'C' : res.respostaDada === 'E' ? 'E' : (res.acertou ? 'C' : 'E'),
+                              gabarito: 'gabarito' in it && typeof it.gabarito === 'string' && (it.gabarito === 'C' || it.gabarito === 'E') ? it.gabarito : (res.acertou ? 'C' : 'E'),
+                            });
+                          }}
+                        />
+                      ))}
+                    </div>
+                  ) : null
+                ))}
+              </div>
+            )}
           </article>
 
           {/* Bloco 5: Checkpoints de Recuperação Ativa */}
