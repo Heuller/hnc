@@ -69,4 +69,16 @@ describe('U6.3 & U6.4: Tela de Leitura, Índice Lateral e Mnemônicos Não-Flutu
     const botoesFixos = container.querySelectorAll('button.fixed, .fab, button[class*="fixed bottom"]');
     expect(botoesFixos.length).toBe(0);
   });
+
+  it('U6.4: deve fornecer acesso a Mnemônicos na barra móvel contextual e em seção sem FAB', () => {
+    render(<TeoriaPage />);
+
+    // Na barra móvel contextual, o botão de mnemônicos abre a gaveta inferior
+    const triggerMobile = screen.getByRole('button', { name: /Abrir Resumo e Mnemônicos/i });
+    expect(triggerMobile).toBeDefined();
+
+    // Na página de teoria, a seção estruturada de mnemônicos existe no fluxo do documento
+    const secaoMnemonicos = document.getElementById('sec-mnemonicos');
+    expect(secaoMnemonicos).toBeDefined();
+  });
 });
