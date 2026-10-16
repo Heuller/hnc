@@ -21,10 +21,10 @@ import { carregarSessoesDoStorage } from '../domain/socratic/socraticService';
 import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
 
 export const CadernoErrosPage: React.FC = () => {
-  const { checkpointsRespondidos, historicoSimulados, salvarCheckpoint } = useProgressStore();
+  const { checkpointsRespondidos, historicoSimulados, salvarCheckpoint, itemAttempts } = useProgressStore();
   const { setActiveView, setSelectedSubmodule } = useNavigationStore();
 
-  const [origemFiltro, setOrigemFiltro] = useState<'todos' | 'checkpoint' | 'simulado'>('todos');
+  const [origemFiltro, setOrigemFiltro] = useState<'todos' | 'checkpoint' | 'simulado' | 'hipercorrecao'>('todos');
   const [moduloFiltro, setModuloFiltro] = useState<string>('todos');
   const [busca, setBusca] = useState<string>('');
 
@@ -39,14 +39,15 @@ export const CadernoErrosPage: React.FC = () => {
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
 
   const todosErros: ItemCadernoErro[] = useMemo(() => {
-    return getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || []);
-  }, [checkpointsRespondidos, historicoSimulados]);
+    return getItensCadernoErros(checkpointsRespondidos || {}, historicoSimulados || [], itemAttempts || []);
+  }, [checkpointsRespondidos, historicoSimulados, itemAttempts]);
 
   // Estatísticas
   const stats = useMemo(() => {
     const total = todosErros.length;
     const checkpointsCount = todosErros.filter((e) => e.origem === 'checkpoint').length;
     const simuladoCount = todosErros.filter((e) => e.origem === 'simulado').length;
+    const hipercorrecaoCount = todosErros.filter((e) => e.prioridadeHipercorrecao).length;
 
     // Contagem por módulo
     const porModulo: Record<string, number> = {};
@@ -64,13 +65,17 @@ export const CadernoErrosPage: React.FC = () => {
       }
     }
 
-    return { total, checkpointsCount, simuladoCount, moduloMaisCritico, maxErros };
+    return { total, checkpointsCount, simuladoCount, hipercorrecaoCount, moduloMaisCritico, maxErros };
   }, [todosErros]);
 
   // Filtragem
   const errosFiltrados = useMemo(() => {
     return todosErros.filter((item) => {
-      if (origemFiltro !== 'todos' && item.origem !== origemFiltro) return false;
+      if (origemFiltro === 'hipercorrecao') {
+        if (!item.prioridadeHipercorrecao) return false;
+      } else if (origemFiltro !== 'todos' && item.origem !== origemFiltro) {
+        return false;
+      }
       if (moduloFiltro !== 'todos' && item.macroModuloId.toLowerCase() !== moduloFiltro.toLowerCase()) {
         return false;
       }
@@ -132,7 +137,7 @@ export const CadernoErrosPage: React.FC = () => {
         </p>
 
         {/* Métricas do Caderno */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2">
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Total de Erros</span>
             <span className="text-2xl font-black text-ink">{stats.total}</span>
@@ -144,6 +149,10 @@ export const CadernoErrosPage: React.FC = () => {
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Simulado 100Q</span>
             <span className="text-2xl font-black text-indigo-600 dark:text-indigo-400">{stats.simuladoCount}</span>
+          </div>
+          <div className="p-3 rounded-lg bg-surface-2 border border-rose-500/30 bg-rose-500/5 text-center">
+            <span className="text-[11px] uppercase tracking-wider text-rose-700 dark:text-rose-400 font-semibold block">Hipercorreção</span>
+            <span className="text-2xl font-black text-rose-600 dark:text-rose-400">{stats.hipercorrecaoCount}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
             <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Módulo Crítico</span>
@@ -207,6 +216,14 @@ export const CadernoErrosPage: React.FC = () => {
               }`}
             >
               Simulado ({stats.simuladoCount})
+            </button>
+            <button
+              onClick={() => setOrigemFiltro('hipercorrecao')}
+              className={`px-2.5 py-1 rounded text-xs font-semibold cursor-pointer transition-colors ${
+                origemFiltro === 'hipercorrecao' ? 'bg-rose-600 text-white' : 'bg-surface-2 text-ink-2 hover:text-ink'
+              }`}
+            >
+              🔥 Hipercorreção ({stats.hipercorrecaoCount})
             </button>
           </div>
         </div>
@@ -282,6 +299,8 @@ export const CadernoErrosPage: React.FC = () => {
                   className={`absolute top-0 left-0 bottom-0 w-1.5 ${
                     acertouNaTentativa
                       ? 'bg-emerald-500'
+                      : item.prioridadeHipercorrecao
+                      ? 'bg-rose-500'
                       : item.origem === 'simulado'
                       ? 'bg-indigo-500'
                       : 'bg-amber-500'
@@ -300,6 +319,11 @@ export const CadernoErrosPage: React.FC = () => {
                     >
                       {item.origem === 'simulado' ? 'Simulado 100Q' : 'Micro-Checkpoint'}
                     </span>
+                    {item.prioridadeHipercorrecao && (
+                      <span className="font-mono text-[11px] font-bold px-2 py-0.5 rounded border bg-rose-500/10 text-rose-700 dark:text-rose-400 border-rose-500/30 flex items-center gap-1">
+                        🔥 Hipercorreção (Peso 2x)
+                      </span>
+                    )}
                     <span className="text-xs text-ink-2 font-mono">
                       #{idx + 1} · {item.macroModuloId.toUpperCase()}
                     </span>
@@ -330,6 +354,21 @@ export const CadernoErrosPage: React.FC = () => {
                 <h3 className="text-xs sm:text-sm font-bold text-ink m-0">
                   {item.tituloContexto}
                 </h3>
+
+                {/* Callout de Hipercorreção */}
+                {item.prioridadeHipercorrecao && (
+                  <div className="p-3 rounded-lg bg-rose-500/10 border border-rose-500/25 text-rose-900 dark:text-rose-300 text-xs flex items-start gap-2">
+                    <span className="text-base shrink-0">🔥</span>
+                    <div className="space-y-0.5">
+                      <span className="font-bold block uppercase tracking-wider text-[10px]">
+                        Efeito da Hipercorreção (Butterfield &amp; Metcalfe, 2001):
+                      </span>
+                      <p className="m-0 leading-relaxed">
+                        Este erro foi cometido com alta certeza. Equívocos conceituais sustentados com convicção geram a maior retenção duradoura quando corrigidos imediatamente com justificativa factual (prioridade máxima e peso 2.0x).
+                      </p>
+                    </div>
+                  </div>
+                )}
 
                 {/* Assertiva */}
                 <div className="p-4 rounded-lg bg-surface-2 border border-border/80">

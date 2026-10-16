@@ -143,7 +143,10 @@ export function processarRevisaoConceito(
     totalErros = acertou ? totalErros : totalErros + 1;
     novoDominio = totalErros >= 2 ? 'critico' : 'em_aprendizado';
 
-    mensagem = !acertou
+    const isErroComCerteza = !acertou && confianca === 'certeza';
+    mensagem = isErroComCerteza
+      ? 'Efeito da Hipercorreção (Butterfield & Metcalfe, 2001): Erro cometido com certeza absoluta. O agendador atribuiu peso duplo (2x) e prioridade máxima de revisão para desconstruir o equívoco factual.'
+      : !acertou
       ? 'A banca Cebraspe anula 1 acerto por erro. Conceito retornado à Caixa 1 para re-consolidação ativa.'
       : 'Julgamento classificado como "chute". Para consolidação duradoura, o item foi agendado para o próximo dia útil.';
   } else if (confianca === 'duvida') {
@@ -210,6 +213,8 @@ export function processarRevisaoConceito(
     ultimoJulgamento: respostaDada === 'C' || respostaDada === 'E' ? (respostaDada as 'C' | 'E') : undefined,
     dataUltimaRevisao: dataRef,
     estadoDominio: novoDominio,
+    prioridadeHipercorrecao: !acertou && confianca === 'certeza',
+    pesoRevisao: (!acertou && confianca === 'certeza') ? 2.0 : 1.0,
     historico: [logEntry, ...(estadoAtual.historico || [])].slice(0, 50),
   };
 
@@ -304,6 +309,10 @@ export function selecionarFilaRevisaoDiaria(params: {
       let score = 0;
       // Prioridade 1: Estado Crítico (erros recentes)
       if (estado.estadoDominio === 'critico') score += 2000;
+      // Prioridade Hipercorreção (Butterfield & Metcalfe, 2001): erro cometido com alta confiança
+      const isHipercorrecao = estado.prioridadeHipercorrecao ||
+        (estado.ultimaConfianca === 'certeza' && (estado.historico?.[0]?.acertou === false || estado.totalErros > 0));
+      if (isHipercorrecao) score += 1500;
       // Prioridade 2: Caixa 1
       if (estado.caixaLeitner === 1) score += 1000;
       else if (estado.caixaLeitner === 2) score += 500;
