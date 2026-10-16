@@ -246,7 +246,7 @@ TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
   * \`Nível 4\`: Pesquisa Avançada / Pós-graduação (*Research*).
   * \`Nível 5\`: Exaustivo / Abrangência Total (*Comprehensive*).
 
-#### B. Métodos Centrados no Uso e Gestão de Coleções Orientada por Dados (Edital Bloco D, item 4.7)
+### 8. Métodos Centrados no Uso e Gestão Orientada por Dados (CPU, COUNTER e Slote) Orientam Decisões Orçamentárias
 
 A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturando-se na **análise quantitativa de dados de uso real (*Data-Driven Collection Management*)** para fundamentar decisões orçamentárias de aquisição, renovação de licenças, desbastamento e descarte (**Stanley J. Slote, 1997; R. E. Burton & R. W. Kebler, 1960; COUNTER R5 / ANSI/NISO Z39.93**):
 

@@ -221,7 +221,9 @@ export const submodulo142: ModuloFilho = {
 * **Aplicação Canônica em Bibliotecas e Arquivos (Fixidez / *Fixity*):**
   * No modelo **OAIS (ISO 14721)** e no esquema de metadados **PREMIS (ISO 16363)**, a geração de resumos de hash (SHA-256) na ingestão de Pacotes de Informação para Submissão (SIP) e sua verificação periódica no armazenamento (AIP) constituem a rotina técnica de **auditoria de fixidez (*fixity check*)**, garantindo que nenhum documento legislativo sofreu alteração maliciosa ou degradação silenciosa de bits (*bit rot* / *silent data corruption*).
 
-#### D. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
+### 5. Assinatura Digital e ICP-Brasil Asseguram Autenticidade, Integridade e Não Repúdio com Validade Jurídica
+
+#### A. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
 * **Mecanismo de Geração e Verificação:**
   1. *Geração (Signatário):* O software aplica uma função de hash (ex.: SHA-256) ao documento original, produzindo um resumo. Em seguida, cifra esse resumo utilizando a **chave privada** do signatário. O resultado cifrado é a **assinatura digital**, que é anexada ao documento.
   2. *Verificação (Destinatário ou Cidadão):* O verificador decifra a assinatura digital utilizando a **chave pública** do signatário, obtendo o resumo original. Paralelamente, calcula o hash do documento recebido. Se ambos os resumos forem perfeitamente idênticos, a assinatura é matematicamente válida.
@@ -234,7 +236,7 @@ export const submodulo142: ModuloFilho = {
   * *Assinatura Eletrônica:* Gênero amplo (Lei Federal nº 14.063/2020) que abrange qualquer método eletrônico de identificação (login e senha, código SMS, biometria). Divide-se em: simples, avançada e qualificada.
   * *Assinatura Digital Qualificada (ICP-Brasil):* Espécie tecnicamente mais rigorosa, gerada por criptografia assimétrica lastreada em certificado digital emitido no âmbito da ICP-Brasil, com presunção legal absoluta de veracidade.
 
-#### E. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
+#### B. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
 * **Origem e Marco Legal:** Criada pela **Medida Provisória nº 2.200-2, de 24 de agosto de 2001**, com a finalidade de garantir a autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica e das aplicações de suporte no Brasil.
 * **Estrutura Hierárquica da ICP-Brasil:**
   * **AC Raiz (Autoridade Certificadora Raiz):** Única autoridade do topo da cadeia de confiança, operada pelo **ITI (Instituto Nacional de Tecnologia da Informação)**, autarquia vinculada à Casa Civil da Presidência da República. Executa a geração das chaves da AC Raiz e emite, expede, distribui, revoga e gerencia os certificados das Autoridades Certificadoras de primeiro nível.
