@@ -1,4 +1,4 @@
-import { REVIEW_CONFIG, type ExerciseFormatId } from '../config/reviewConfig';
+import { REVIEW_CONFIG, PARES_CONCEITUAIS_CONFUNDIVEIS, type ExerciseFormatId } from '../config/reviewConfig';
 import type { Concept, ConceptState } from './concepts/types';
 import { conceptRepository } from './concepts/conceptRepository';
 import { CASOS_INTEGRADORES } from './casosIntegradores/casosIntegradores';
@@ -72,13 +72,51 @@ export interface ComposicaoRevisaoSubmodulo {
   acertosNecessarios: number;
   aproveitamentoMinimo: number;
   submodulosCobertos: string[];
+  paresContrastados?: string[]; // Marco U5.5: IDs dos pares conceituais confundíveis contrastados na sessão
   dataProximaRevisaoSugerida: string;
   casoIntegradorDestaque?: CasoIntegrador;
   fundamentacaoCientificaFormatos: typeof EVIDENCIA_CIENTIFICA_FORMATOS;
 }
 
+export function normalizarTextoComparacao(s: string): string {
+  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+export function conceitoCorrespondeAoTermo(
+  c: Concept,
+  termoCompleto: string,
+  submoduloId?: string
+): boolean {
+  const norm = normalizarTextoComparacao;
+  const palavraChave = norm(termoCompleto.split(' ')[0].replace(/[^a-z0-9]/g, ''));
+  const texto = norm(
+    `${c.id} ${c.submoduloId} ${c.topico} ${c.enunciadoCanonic} ${c.justificativaCanonic} ${c.armadilhaCebraspe || ''}`
+  );
+
+  if (submoduloId && (c.submoduloId === submoduloId || norm(c.submoduloId).includes(norm(submoduloId)))) {
+    return true;
+  }
+
+  if (palavraChave.startsWith('aacr2') && (texto.includes('aacr2') || texto.includes('aacr 2'))) return true;
+  if (palavraChave === 'rda' && texto.includes('rda')) return true;
+  if (palavraChave === 'cdd' && (texto.includes('cdd') || texto.includes('dewey'))) return true;
+  if (palavraChave === 'cdu' && texto.includes('cdu')) return true;
+  if (palavraChave === 'crosswalk' && texto.includes('crosswalk')) return true;
+  if (palavraChave === 'conversao' && texto.includes('conversao')) return true;
+  if (palavraChave === 'owner' && (texto.includes('owner') || texto.includes('proprietario'))) return true;
+  if (palavraChave === 'steward' && (texto.includes('steward') || texto.includes('custodiante') || texto.includes('curador'))) return true;
+  if (palavraChave === 'acoplamento' && texto.includes('acoplamento')) return true;
+  if (palavraChave.includes('citacao') && (texto.includes('co-citacao') || texto.includes('cocitacao'))) return true;
+  if (palavraChave === 'precisao' && texto.includes('precisao')) return true;
+  if (palavraChave === 'revocacao' && (texto.includes('revocacao') || texto.includes('recall'))) return true;
+  if (palavraChave === 'proveniencia' && texto.includes('proveniencia')) return true;
+  if (palavraChave === 'linhagem' && (texto.includes('linhagem') || texto.includes('lineage'))) return true;
+
+  return texto.includes(palavraChave);
+}
+
 /**
- * Motor de Composição Científica dos Submódulos Rn (Marco R4):
+ * Motor de Composição Científica dos Submódulos Rn (Marco R4 / U5.5):
  * - N = 20 itens rigorosamente calibrados.
  * - Simetria Cebraspe: exatamente 10 C e 10 E (50% / 50%).
  * - Origem cumulativa:
@@ -87,9 +125,12 @@ export interface ComposicaoRevisaoSubmodulo {
  * - Priorização cognitiva:
  *   1. Itens em estado crítico ou com histórico de erros.
  *   2. Itens vencidos na repetição espaçada.
- *   3. Menos vistos / menos expostos.
+ *   3. Contraste de pares conceituais confundíveis (Kornell & Bjork, 2008).
+ * - Intercalação:
+ *   - Cobertura de ao menos 3 submódulos distintos por sessão quando houver conceitos disponíveis.
  * - Formatos cognitivos:
  *   - Respeita o teto de 20% para o formato F1 (simulado clássico) e distribui os demais em F2 a F8.
+ *   - Garante formato formativo (F2 a F8) para ao menos um dos itens de cada par contrastado.
  */
 export function comporSubmoduloRevisao(params: {
   moduloNumero: number; // k
@@ -125,6 +166,9 @@ export function comporSubmoduloRevisao(params: {
     (c) => extrairNumeroModulo(c.moduloId) < moduloNumero
   );
 
+  const poolCumulativo = [...conceitosModuloAtual, ...conceitosPrecedentes];
+  const todosSubmodulosNoPool = Array.from(new Set(poolCumulativo.map((c) => c.submoduloId)));
+
   const temPrecedentes = moduloNumero > 1 && conceitosPrecedentes.length > 0;
 
   // Quotas proporcionais baseadas em totalItens (padrão 20)
@@ -135,6 +179,13 @@ export function comporSubmoduloRevisao(params: {
   const quotaAtualE = temPrecedentes ? Math.min(metaE, Math.max(1, Math.round(metaE * 0.6))) : metaE;
   const quotaPrecedenteC = Math.max(0, metaC - quotaAtualC);
   const quotaPrecedenteE = Math.max(0, metaE - quotaAtualE);
+
+  // Pares no escopo cumulativo do submódulo Rn (ambos os módulos <= moduloNumero)
+  const paresNoEscopo = PARES_CONCEITUAIS_CONFUNDIVEIS.filter((par) => {
+    const numA = extrairNumeroModulo(par.moduloIdA);
+    const numB = extrairNumeroModulo(par.moduloIdB);
+    return numA <= moduloNumero && numB <= moduloNumero;
+  });
 
   const calcularPrioridade = (c: Concept): number => {
     const est = estadosConceitos[c.id];
@@ -150,6 +201,17 @@ export function comporSubmoduloRevisao(params: {
       score += est.totalErros * 50;
     } else {
       score += 100; // Itens novos recebem prioridade base
+    }
+
+    // Bônus para conceitos que compõem pares conceituais confundíveis no escopo
+    for (const par of paresNoEscopo) {
+      if (
+        conceitoCorrespondeAoTermo(c, par.termoA, par.submoduloIdA) ||
+        conceitoCorrespondeAoTermo(c, par.termoB, par.submoduloIdB)
+      ) {
+        score += 400;
+        break;
+      }
     }
 
     // Penaliza itens explicitamente excluídos (ex: já agendados na fila diária do mesmo dia)
@@ -234,10 +296,152 @@ export function comporSubmoduloRevisao(params: {
     }
   }
 
+  // 1. Contraste de Pares Conceituais Confundíveis (Kornell & Bjork, 2008 / U5.5)
+  const paresContrastados: string[] = [];
+  const conceitosParesContrastadosIds = new Set<string>();
+
+  for (const par of paresNoEscopo) {
+    const candA = poolCumulativo.filter((c) => conceitoCorrespondeAoTermo(c, par.termoA, par.submoduloIdA));
+    const candB = poolCumulativo.filter((c) => conceitoCorrespondeAoTermo(c, par.termoB, par.submoduloIdB));
+
+    if (candA.length > 0 && candB.length > 0) {
+      let itemA = itensSelecionados.find((i) => conceitoCorrespondeAoTermo(i.conceito, par.termoA, par.submoduloIdA));
+      let itemB = itensSelecionados.find((i) => conceitoCorrespondeAoTermo(i.conceito, par.termoB, par.submoduloIdB));
+
+      if (!itemA) {
+        candA.sort((a, b) => calcularPrioridade(b) - calcularPrioridade(a));
+        const escolhidoA = candA.find((c) => !itensSelecionados.some((it) => it.conceito.id === c.id));
+        if (escolhidoA) {
+          const gab = escolhidoA.gabaritoCanonic;
+          const isAtualA = extrairNumeroModulo(escolhidoA.moduloId) === moduloNumero;
+          let idxSubst = itensSelecionados.findIndex(
+            (it) =>
+              it.conceito.gabaritoCanonic === gab &&
+              it.isAtual === isAtualA &&
+              !conceitosParesContrastadosIds.has(it.conceito.id) &&
+              (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+          );
+          if (idxSubst < 0 && !temPrecedentes) {
+            idxSubst = itensSelecionados.findIndex(
+              (it) =>
+                it.conceito.gabaritoCanonic === gab &&
+                !conceitosParesContrastadosIds.has(it.conceito.id) &&
+                (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+            );
+          }
+          if (idxSubst >= 0) {
+            itensSelecionados[idxSubst] = {
+              conceito: escolhidoA,
+              isAtual: isAtualA,
+            };
+            itemA = itensSelecionados[idxSubst];
+          }
+        }
+      }
+
+      if (!itemB) {
+        candB.sort((a, b) => calcularPrioridade(b) - calcularPrioridade(a));
+        const escolhidoB = candB.find((c) => !itensSelecionados.some((it) => it.conceito.id === c.id));
+        if (escolhidoB) {
+          const gab = escolhidoB.gabaritoCanonic;
+          const isAtualB = extrairNumeroModulo(escolhidoB.moduloId) === moduloNumero;
+          let idxSubst = itensSelecionados.findIndex(
+            (it) =>
+              it.conceito.gabaritoCanonic === gab &&
+              it.isAtual === isAtualB &&
+              !conceitosParesContrastadosIds.has(it.conceito.id) &&
+              (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+          );
+          if (idxSubst < 0 && !temPrecedentes) {
+            idxSubst = itensSelecionados.findIndex(
+              (it) =>
+                it.conceito.gabaritoCanonic === gab &&
+                !conceitosParesContrastadosIds.has(it.conceito.id) &&
+                (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+            );
+          }
+          if (idxSubst >= 0) {
+            itensSelecionados[idxSubst] = {
+              conceito: escolhidoB,
+              isAtual: isAtualB,
+            };
+            itemB = itensSelecionados[idxSubst];
+          }
+        }
+      }
+
+      if (itemA && itemB) {
+        paresContrastados.push(par.id);
+        conceitosParesContrastadosIds.add(itemA.conceito.id);
+        conceitosParesContrastadosIds.add(itemB.conceito.id);
+      }
+    }
+  }
+
+  // 2. Intercalação de Submódulos (assegura cobertura de ao menos 3 submódulos distintos se houver disponíveis)
+  if (todosSubmodulosNoPool.length >= 3) {
+    const submodulosPresentes = new Set(itensSelecionados.map((i) => i.conceito.submoduloId));
+    if (submodulosPresentes.size < 3) {
+      const faltantes = todosSubmodulosNoPool.filter((s) => !submodulosPresentes.has(s));
+      // Prioriza submódulos do módulo atual para manter a quota
+      const faltantesModuloAtual = faltantes.filter(
+        (s) => poolCumulativo.some((c) => c.submoduloId === s && extrairNumeroModulo(c.moduloId) === moduloNumero)
+      );
+      const faltantesPrecedentes = faltantes.filter((s) => !faltantesModuloAtual.includes(s));
+      const faltantesOrdenados = [...faltantesModuloAtual, ...faltantesPrecedentes];
+
+      for (const subFaltante of faltantesOrdenados) {
+        if (submodulosPresentes.size >= 3) break;
+        const candidatosSub = poolCumulativo.filter(
+          (c) =>
+            c.submoduloId === subFaltante &&
+            !itensSelecionados.some((it) => it.conceito.id === c.id)
+        );
+        if (candidatosSub.length === 0) continue;
+        candidatosSub.sort((a, b) => calcularPrioridade(b) - calcularPrioridade(a));
+        const escolhido = candidatosSub[0];
+        const gab = escolhido.gabaritoCanonic;
+        const isCandidatoAtual = extrairNumeroModulo(escolhido.moduloId) === moduloNumero;
+
+        const contagemPorSubmodulo = itensSelecionados.reduce((acc, it) => {
+          acc[it.conceito.submoduloId] = (acc[it.conceito.submoduloId] || 0) + 1;
+          return acc;
+        }, {} as Record<string, number>);
+
+        let idxSubst = itensSelecionados.findIndex(
+          (it) =>
+            it.conceito.gabaritoCanonic === gab &&
+            it.isAtual === isCandidatoAtual &&
+            !conceitosParesContrastadosIds.has(it.conceito.id) &&
+            contagemPorSubmodulo[it.conceito.submoduloId] > 1 &&
+            (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+        );
+
+        if (idxSubst < 0 && !temPrecedentes) {
+          idxSubst = itensSelecionados.findIndex(
+            (it) =>
+              it.conceito.gabaritoCanonic === gab &&
+              !conceitosParesContrastadosIds.has(it.conceito.id) &&
+              contagemPorSubmodulo[it.conceito.submoduloId] > 1 &&
+              (estadosConceitos[it.conceito.id]?.estadoDominio !== 'critico')
+          );
+        }
+
+        if (idxSubst >= 0) {
+          itensSelecionados[idxSubst] = {
+            conceito: escolhido,
+            isAtual: isCandidatoAtual,
+          };
+          submodulosPresentes.add(subFaltante);
+        }
+      }
+    }
+  }
+
   // Embaralha itens mantendo a rastreabilidade
   itensSelecionados.sort(() => 0.5 - Math.random());
 
-  // Distribuição de formatos F1 a F8 respeitando teto de 20% para F1
+  // 3. Distribuição de formatos F1 a F8 respeitando teto de 20% para F1
   const maxF1 = Math.floor(totalItens * REVIEW_CONFIG.testCeilingPct); // 4
   let countF1 = 0;
   const formatosAlternativos: ExerciseFormatId[] = [
@@ -271,7 +475,28 @@ export function comporSubmoduloRevisao(params: {
     };
   });
 
+  // U5.5: Assegura que para cada par contrastado, ao menos um dos itens use formato formativo F2 a F8
+  // (evitando que ambos sejam F1 puro)
+  for (const parId of paresContrastados) {
+    const par = PARES_CONCEITUAIS_CONFUNDIVEIS.find((p) => p.id === parId);
+    if (!par) continue;
+
+    const itemA = itensFinais.find((it) => conceitoCorrespondeAoTermo(it.conceito, par.termoA, par.submoduloIdA));
+    const itemB = itensFinais.find((it) => conceitoCorrespondeAoTermo(it.conceito, par.termoB, par.submoduloIdB));
+
+    if (itemA && itemB) {
+      if (itemA.formato === 'f1_ce_simples' && itemB.formato === 'f1_ce_simples') {
+        const novoFormato: ExerciseFormatId =
+          itemB.conceito.gabaritoCanonic === 'E' ? 'f3_identificacao_erro' : 'f2_com_justificativa';
+        itemB.formato = novoFormato;
+        countF1 = Math.max(0, countF1 - 1);
+      }
+    }
+  }
+
   const submodulosCobertos = Array.from(new Set(itensFinais.map((i) => i.conceito.submoduloId)));
+  const totalC = itensFinais.filter((i) => i.conceito.gabaritoCanonic === 'C').length;
+  const totalE = itensFinais.filter((i) => i.conceito.gabaritoCanonic === 'E').length;
   const dataBase = ajustarParaDiaUtil(dataAtualIso);
   const dataProximaRevisaoSugerida = somarDiasUteis(dataBase, REVIEW_CONFIG.intervalsDaysByBox[1]);
 
@@ -295,12 +520,13 @@ export function comporSubmoduloRevisao(params: {
     titulo: `Submódulo de Revisão Científica R${moduloNumero}`,
     tituloCurto: `Revisão R${moduloNumero}`,
     totalItens: itensFinais.length,
-    totalC: countC,
-    totalE: countE,
+    totalC,
+    totalE,
     itens: itensFinais,
     acertosNecessarios,
     aproveitamentoMinimo: REVIEW_CONFIG.minPassingRetention,
     submodulosCobertos,
+    paresContrastados,
     dataProximaRevisaoSugerida,
     casoIntegradorDestaque,
     fundamentacaoCientificaFormatos: EVIDENCIA_CIENTIFICA_FORMATOS,

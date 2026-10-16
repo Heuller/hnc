@@ -326,7 +326,7 @@ export function selecionarFilaRevisaoDiaria(params: {
 
       const tUltima = estado.dataUltimaRevisao
         ? new Date(estado.dataUltimaRevisao).getTime()
-        : new Date(estado.criadoEm || dataRef).getTime();
+        : new Date(dataRef).getTime();
       const diasSemRevisao = Math.max(0, Math.floor((tHoje - tUltima) / msDia));
 
       let score = 0;

@@ -3,7 +3,6 @@ import { REVIEW_CONFIG } from '../config/reviewConfig';
 import {
   isDiaUtil,
   somarDiasUteis,
-  ajustarParaDiaUtil,
   selecionarFilaRevisaoDiaria,
   criarEstadoInicialConceito,
   processarRevisaoConceito,
