@@ -13,6 +13,33 @@ export const submodulo131: ModuloFilho = {
       }
   ],
   titulo: 'Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe',
+  antesDeLer: [
+    {
+      termo: 'Anáfora',
+      definicao: 'Mecanismo de coesão referencial pelo qual um termo retoma um elemento previamente introduzido no texto.',
+      exemploBiblioteca: 'Na frase "A biblioteca adquiriu novos periódicos; eles já estão catalogados", "eles" é anafórico.',
+    },
+    {
+      termo: 'Catáfora',
+      definicao: 'Mecanismo de coesão referencial pelo qual um termo antecipa uma informação que só virá adiante.',
+      exemploBiblioteca: 'Na frase "Apenas isto interessa: a data de promulgação da lei", o pronome "isto" é catafórico.',
+    },
+    {
+      termo: 'Elipse',
+      definicao: 'Omissão intencional de um termo facilmente identificável pelo contexto, evitando repetições.',
+      exemploBiblioteca: 'Na frase "A Seção de Atendimento abriu às 8h; a de Obras Raras, às 9h", o verbo abrir foi elidido.',
+    },
+    {
+      termo: 'Concessão',
+      definicao: 'Relação semântica em que se admite um fato que poderia ser obstáculo, mas não impede a ação principal.',
+      exemploBiblioteca: '"Embora o acervo estivesse sob higienização, a consulta às obras raras foi autorizada."',
+    },
+    {
+      termo: 'Extrapolação',
+      definicao: 'Erro clássico em que a assertiva da banca traz ideias externas verídicas, mas sem respaldo no texto.',
+      exemploBiblioteca: 'Afirmar que o autor defende uma teoria porque é famosa na área, sem que o texto a mencione.',
+    },
+  ],
   descricaoCurta: 'Diferenciação científica entre Compreensão e Interpretação, identificação de anáforas e elipses, operadores argumentativos e as armadilhas clássicas de extrapolação e inversão causal.',
   tempoEstimadoMinutos: 35,
   autoresChave: [

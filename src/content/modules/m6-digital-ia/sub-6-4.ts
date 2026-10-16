@@ -18,6 +18,33 @@ export const submodulo64: ModuloFilho = {
       }
   ],
   titulo: 'Inteligência Artificial na Biblioteconomia e na Ciência da Informação',
+  antesDeLer: [
+    {
+      termo: 'LLM',
+      definicao: 'Large Language Model; modelo de aprendizado profundo treinado em grandes volumes de texto para linguagem natural.',
+      exemploBiblioteca: 'Assistente virtual para resumir projetos de lei e sugerir termos de indexação a partir do texto integral.',
+    },
+    {
+      termo: 'RAG',
+      definicao: 'Retrieval-Augmented Generation; arquitetura que busca documentos factuais antes de gerar resposta, reduzindo alucinações.',
+      exemploBiblioteca: 'Conectar a IA ao LexML para responder dúvidas citando artigos vigentes da Constituição.',
+    },
+    {
+      termo: 'Embeddings',
+      definicao: 'Representação vetorial de textos em espaço multidimensional, onde documentos semanticamente similares ficam próximos.',
+      exemploBiblioteca: 'Encontrar livros sobre crise hídrica mesmo se a busca for por escassez de água em reservatórios.',
+    },
+    {
+      termo: 'Prompt',
+      definicao: 'Instrução textual fornecida como entrada a um modelo generativo para guiar a tarefa e o formato da resposta.',
+      exemploBiblioteca: 'Comando estruturado enviado à IA solicitando a elaboração de uma ementa legislativa padronizada.',
+    },
+    {
+      termo: 'Human-in-the-loop',
+      definicao: 'Princípio de governança onde a decisão final, revisão e validação técnica de saídas de IA permanecem sob controle humano.',
+      exemploBiblioteca: 'O bibliotecário revisa e homologa termos de assunto sugeridos por IA antes de publicar no catálogo.',
+    },
+  ],
   descricaoCurta: 'Fundamentos de IA na Biblioteconomia, Grandes Modelos de Linguagem (LLMs), Embeddings vetoriais e busca semântica, catalogação assistida, RAG, Declaração da IFLA sobre Bibliotecas e IA, e as Diretrizes de Uso Responsável de IA da Câmara dos Deputados.',
   tempoEstimadoMinutos: 45,
   autoresChave: ['IFLA Advisory Committee', 'Câmara dos Deputados (Ditec/Cedi)', 'Ashish Vaswani', 'Cole Nussbaumer Knaflic', 'Stuart Russell', 'Edward Tufte'],

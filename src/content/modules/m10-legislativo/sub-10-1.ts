@@ -23,6 +23,33 @@ export const submodulo101: ModuloFilho = {
       }
   ],
   titulo: 'Regimento Interno da Câmara dos Deputados (RICD: Arts. 1-24, 65-94, 226-251 e 262-273)',
+  antesDeLer: [
+    {
+      termo: 'Mesa Diretora',
+      definicao: 'Órgão colegiado diretivo da Câmara dos Deputados, composto por 7 titulares e 4 suplentes eleitos para 2 anos.',
+      exemploBiblioteca: 'A Mesa Diretora regulamenta as diretrizes do Cedi e da Biblioteca Pedro Aleixo.',
+    },
+    {
+      termo: 'Cedi',
+      definicao: 'Centro de Documentação e Informação da Câmara; órgão técnico que coordena a Biblioteca, Arquivo e Publicações.',
+      exemploBiblioteca: 'Órgão de lotação direta do Analista Legislativo - Biblioteconomia (Cargo 5).',
+    },
+    {
+      termo: 'Proposição',
+      definicao: 'Toda matéria legislativa submetida à deliberação da Câmara (projetos de lei, emendas, requerimentos).',
+      exemploBiblioteca: 'Catalogar a tramitação regimental e as ementas no Sistema de Informações Legislativas.',
+    },
+    {
+      termo: 'Sessão Deliberativa',
+      definicao: 'Reunião do Plenário destinada à votação de matérias legislativas com pauta definida na Ordem do Dia.',
+      exemploBiblioteca: 'Registrar notas taquigráficas e diários de sessões para preservação permanente.',
+    },
+    {
+      termo: 'Ordem do Dia',
+      definicao: 'Fase da sessão plenária reservada à discussão e votação das proposições constantes da pauta aprovada.',
+      exemploBiblioteca: 'Monitorar a pauta do Plenário para disponibilizar aos parlamentares bibliografias de apoio.',
+    },
+  ],
   descricaoCurta: 'Organização regimental da Câmara dos Deputados: Mesa Diretora e Lideranças (arts. 1-24), Sessões Plenárias e suas quatro fases (arts. 65-94), Estatuto dos Deputados, prerrogativas e deveres (arts. 226-251), e Administração, Polícia e Centro de Documentação Cedi (arts. 262-273).',
   tempoEstimadoMinutos: 45,
   autoresChave: [

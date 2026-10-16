@@ -20,6 +20,7 @@ import {
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { COURSE_REGISTRY } from '../content/registry';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
+import { PainelOQueFunciona } from '../components/analytics/PainelOQueFunciona';
 
 export const ProgressoPage: React.FC = () => {
   const {
@@ -304,6 +305,9 @@ export const ProgressoPage: React.FC = () => {
           })}
         </div>
       </section>
+
+      {/* Painel Metacognitivo: O que funciona para você (Seção 3.4) */}
+      <PainelOQueFunciona />
 
       {/* Seção de Backup e Persistência Local */}
       <section className="bg-surface rounded-2xl border border-border p-6 shadow-xs space-y-4">

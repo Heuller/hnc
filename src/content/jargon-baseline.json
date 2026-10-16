@@ -1,0 +1,147 @@
+{
+  "versao": "1.0",
+  "dataCriacao": "2026-10-16T12:54:28.220Z",
+  "descricao": "Linha de base de jargões técnicos não conceituados previamente (U3.2)",
+  "submodulosTratados": [],
+  "dividaConhecida": {
+    "sub-1-3": [
+      "XML"
+    ],
+    "sub-1-5": [
+      "JSON",
+      "XML",
+      "RDF",
+      "RAG",
+      "OCR",
+      "SPARQL"
+    ],
+    "sub-1-6": [
+      "JSON",
+      "XML",
+      "RDF",
+      "ETL",
+      "URI",
+      "SPARQL"
+    ],
+    "sub-2-2": [
+      "RDF",
+      "URI"
+    ],
+    "sub-2-3": [
+      "MER"
+    ],
+    "sub-2-4": [
+      "RDF",
+      "URI",
+      "OAI-PMH"
+    ],
+    "sub-2-6": [
+      "JSON",
+      "XML",
+      "OAI-PMH"
+    ],
+    "sub-2-7": [
+      "SQL",
+      "JSON",
+      "XML",
+      "RDF",
+      "regex",
+      "RAG",
+      "URI",
+      "SPARQL"
+    ],
+    "sub-2-5": [
+      "OAI-PMH"
+    ],
+    "sub-3-4": [
+      "RDF",
+      "RAG"
+    ],
+    "sub-4-1": [
+      "SQL",
+      "hash"
+    ],
+    "sub-4-3": [
+      "XML",
+      "URN"
+    ],
+    "sub-4-4": [
+      "SQL",
+      "JSON",
+      "URN"
+    ],
+    "sub-5-2": [
+      "URN"
+    ],
+    "sub-5-3": [
+      "REST",
+      "JSON",
+      "XML"
+    ],
+    "sub-6-2": [
+      "URI"
+    ],
+    "sub-6-3": [
+      "XML",
+      "hash",
+      "OCR",
+      "HTR"
+    ],
+    "sub-6-4": [
+      "LLM",
+      "RAG"
+    ],
+    "sub-6-5": [
+      "SQL",
+      "JSON",
+      "XML",
+      "RDF",
+      "OAI-PMH",
+      "SPARQL"
+    ],
+    "sub-6-6": [
+      "API",
+      "REST",
+      "JSON",
+      "URI"
+    ],
+    "sub-6-7": [
+      "LLM",
+      "RAG"
+    ],
+    "sub-8-4": [
+      "URN",
+      "OAI-PMH"
+    ],
+    "sub-8-5": [
+      "XML",
+      "RDF"
+    ],
+    "sub-9-2": [
+      "JSON",
+      "XML",
+      "RDF"
+    ],
+    "sub-9-3": [
+      "JSON",
+      "XML",
+      "RDF",
+      "OAI-PMH"
+    ],
+    "sub-10-3": [
+      "JSON",
+      "XML"
+    ],
+    "sub-11-12": [
+      "JSON",
+      "XML"
+    ],
+    "sub-12-1": [
+      "RAG"
+    ],
+    "sub-14-4": [
+      "JSON",
+      "XML"
+    ]
+  }
+}

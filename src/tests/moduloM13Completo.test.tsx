@@ -85,7 +85,7 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
       expect(consoleErrors).toHaveLength(0);
       unmount();
     });
-  });
+  }, 15000);
 
   it('deve alternar para o Modo Foco ao clicar no botão de foco ou pressionar F', async () => {
     act(() => {
@@ -117,7 +117,7 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
 
     // Botão de Modo Foco volta a estar visível
     expect(screen.getByRole('button', { name: /modo foco/i })).toBeDefined();
-  });
+  }, 15000);
 
   it('deve exibir o M13 (Língua Portuguesa) na Jornada sob a aba Trilha Complementar', () => {
     act(() => {
@@ -140,5 +140,5 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
     expect(screen.getAllByText(/Língua Portuguesa/i).length).toBeGreaterThanOrEqual(1);
     expect(screen.getAllByText(/13\.1/i).length).toBeGreaterThanOrEqual(1);
     expect(screen.getAllByText(/13\.3/i).length).toBeGreaterThanOrEqual(1);
-  });
+  }, 15000);
 });

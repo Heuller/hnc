@@ -6,6 +6,7 @@ import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos'
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
+import { ExercicioRenderer } from '../components/exercicios';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
 import {
@@ -39,6 +40,9 @@ import {
   verificarNavegacaoRodapeSubmodulo,
 } from '../domain/portaoSimuladoEngine';
 import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
+import { CartaoAntesDeLer } from '../components/content-blocks/CartaoAntesDeLer';
+import { GavetaCurtaDefinicao } from '../components/glossario/GavetaCurtaDefinicao';
+import { useGlossarioStore } from '../store/useGlossarioStore';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
@@ -53,6 +57,7 @@ export const TeoriaPage: React.FC = () => {
     getProgressoGlobal,
     historicoSimulados,
   } = useProgressStore();
+  const { termoAtivoDrawer, isDrawerOpen, fecharDrawer } = useGlossarioStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isReaderPrefsOpen, setIsReaderPrefsOpen] = useState(false);
@@ -523,6 +528,13 @@ export const TeoriaPage: React.FC = () => {
             </div>
           )}
 
+          {/* Bloco Antes de Ler: Pré-requisitos Conceituais (U3.4 / U3.1) */}
+          {currentSub.antesDeLer && currentSub.antesDeLer.length > 0 && (
+            <div id="sec-antes-de-ler">
+              <CartaoAntesDeLer termos={currentSub.antesDeLer} />
+            </div>
+          )}
+
           {/* Bloco 4: Teoria Editorial */}
           <article id="sec-teoria" className="border-t border-border pt-6">
             <div className="mb-4">
@@ -534,7 +546,47 @@ export const TeoriaPage: React.FC = () => {
               </h2>
             </div>
 
-            <ConteudoMarkdown content={currentSub.teoriaDensaMarkdown} />
+            <ConteudoMarkdown
+              content={currentSub.teoriaDensaMarkdown}
+              submoduloId={currentSub.id}
+            />
+
+            {/* Itens Seccionais de Recuperação Ativa (U4.3: 1 item por seção) */}
+            {currentSub.secoes && currentSub.secoes.some((s) => s.itens && s.itens.length > 0) && (
+              <div className="space-y-6 mt-8 pt-6 border-t border-border">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+                    EXERCÍCIOS POR SEÇÃO
+                  </span>
+                  <span className="text-xs text-ink-2 font-mono">
+                    Fixação Imediata ao Longo da Leitura
+                  </span>
+                </div>
+                {currentSub.secoes.map((secao) => (
+                  secao.itens && secao.itens.length > 0 ? (
+                    <div key={secao.id} className="p-4 rounded-xl border border-border/70 bg-surface-2/40 space-y-3">
+                      <h4 className="text-sm font-bold font-sans text-ink">{secao.titulo}</h4>
+                      {secao.itens.map((it) => (
+                        <ExercicioRenderer
+                          key={it.id}
+                          exercicio={it}
+                          onResponder={async (res) => {
+                            await useProgressStore.getState().adicionarItemAttempt({
+                              itemId: it.id,
+                              submoduloId: currentSub.numero,
+                              moduloId: currentMacro.id,
+                              contexto: 'teoria',
+                              resposta: res.respostaDada === 'C' ? 'C' : res.respostaDada === 'E' ? 'E' : (res.acertou ? 'C' : 'E'),
+                              gabarito: 'gabarito' in it && typeof it.gabarito === 'string' && (it.gabarito === 'C' || it.gabarito === 'E') ? it.gabarito : (res.acertou ? 'C' : 'E'),
+                            });
+                          }}
+                        />
+                      ))}
+                    </div>
+                  ) : null
+                ))}
+              </div>
+            )}
           </article>
 
           {/* Bloco 5: Checkpoints de Recuperação Ativa */}
@@ -795,6 +847,13 @@ export const TeoriaPage: React.FC = () => {
       <ReaderPreferencesModal
         isOpen={isReaderPrefsOpen}
         onClose={() => setIsReaderPrefsOpen(false)}
+      />
+
+      {/* Gaveta Curta de Definição ao Tocar em Termo Destacado (U3.12 / U3.5) */}
+      <GavetaCurtaDefinicao
+        verbete={termoAtivoDrawer}
+        isOpen={isDrawerOpen}
+        onClose={fecharDrawer}
       />
     </div>
   );

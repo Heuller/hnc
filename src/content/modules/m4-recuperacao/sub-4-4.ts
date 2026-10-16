@@ -118,7 +118,9 @@ $\\text{Necessidade (Need)} \\neq \\text{Demanda (Demand)} \\neq \\text{Uso (Use
   * É o consumo efetivo, a leitura assimilada e a aplicação prática das fontes recuperadas na tomada de decisão legislativa ou produção acadêmica.
   * Nem tudo o que foi demandado é de fato usado (livros retirados que não chegam a ser lidos); e muito do que é usado advém de canais informais (conversas com pares em gabinetes) sem ter transitado pela biblioteca.
 
-#### D. Metodologias de Estudos de Usuários
+### 4. Metodologias Diretas e Indiretas de Estudos de Usuários Revelam Necessidades Reais no Legislativo
+
+A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
 A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
 
 | Modalidade | Metodologias Empregadas | Vantagens Principais | Limitações e Riscos Críticos |
@@ -138,7 +140,7 @@ A investigação sistemática do comportamento informacional da comunidade class
 
 ---
 
-### 4. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
+### 5. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
 Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:
 
 \`\`\`timeline
@@ -166,7 +168,7 @@ F | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertin
 
 ---
 
-### 5. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
+### 6. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
 
 1. **Modelo de Tom D. Wilson (1981 / 1996):**
    * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.

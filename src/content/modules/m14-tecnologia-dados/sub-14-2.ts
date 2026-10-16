@@ -13,6 +13,33 @@ export const submodulo142: ModuloFilho = {
       }
   ],
   titulo: 'Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação',
+  antesDeLer: [
+    {
+      termo: 'Hash',
+      definicao: 'Função matemática unidirecional que converte qualquer volume de dados em um resumo de tamanho fixo para atestar fixidez.',
+      exemploBiblioteca: 'Calcular SHA-256 de ata parlamentar para certificar que nenhum bit foi corrompido ou adulterado.',
+    },
+    {
+      termo: 'Criptografia Assimétrica',
+      definicao: 'Criptografia baseada em par de chaves: chave pública (para cifrar) e chave privada (para decifrar e assinar).',
+      exemploBiblioteca: 'Garantir que pareceres jurídicos sejam assinados com a chave privada do consultor legislativo.',
+    },
+    {
+      termo: 'Assinatura Digital',
+      definicao: 'Mecanismo criptográfico que atesta autoria, integridade e não repúdio a documentos digitais com certificado ICP-Brasil.',
+      exemploBiblioteca: 'Assinatura digital com token ICP-Brasil A3 para homologação oficial de autógrafos de leis.',
+    },
+    {
+      termo: 'Ransomware',
+      definicao: 'Software malicioso que sequestra sistemas informacionais criptografando arquivos e exigindo resgate financeiro.',
+      exemploBiblioteca: 'Risco cibernético enfrentado por repositórios digitais, exigindo backups desconectados (air-gapped).',
+    },
+    {
+      termo: 'Regra 3-2-1',
+      definicao: 'Estratégia de backup: manter pelo menos 3 cópias, em 2 mídias diferentes, com 1 cópia fora do local físico.',
+      exemploBiblioteca: 'Manter cópia dos arquivos digitais da Câmara no cofre local e réplica em nuvem governamental em outra cidade.',
+    },
+  ],
   descricaoCurta: 'Arquitetura TCP/IP, modelos de rede e navegação web; ameaças cibernéticas (malware, ransomware, phishing e pharming); mecanismos de proteção (firewall, antivírus, MFA); criptografia simétrica, assimétrica, hash, assinatura digital e ICP-Brasil (MP nº 2.200-2/2001); políticas de backup (regra 3-2-1) e gestão de riscos informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023).',
   tempoEstimadoMinutos: 45,
   autoresChave: [
@@ -194,7 +221,9 @@ export const submodulo142: ModuloFilho = {
 * **Aplicação Canônica em Bibliotecas e Arquivos (Fixidez / *Fixity*):**
   * No modelo **OAIS (ISO 14721)** e no esquema de metadados **PREMIS (ISO 16363)**, a geração de resumos de hash (SHA-256) na ingestão de Pacotes de Informação para Submissão (SIP) e sua verificação periódica no armazenamento (AIP) constituem a rotina técnica de **auditoria de fixidez (*fixity check*)**, garantindo que nenhum documento legislativo sofreu alteração maliciosa ou degradação silenciosa de bits (*bit rot* / *silent data corruption*).
 
-#### D. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
+### 5. Assinatura Digital e ICP-Brasil Asseguram Autenticidade, Integridade e Não Repúdio com Validade Jurídica
+
+#### A. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
 * **Mecanismo de Geração e Verificação:**
   1. *Geração (Signatário):* O software aplica uma função de hash (ex.: SHA-256) ao documento original, produzindo um resumo. Em seguida, cifra esse resumo utilizando a **chave privada** do signatário. O resultado cifrado é a **assinatura digital**, que é anexada ao documento.
   2. *Verificação (Destinatário ou Cidadão):* O verificador decifra a assinatura digital utilizando a **chave pública** do signatário, obtendo o resumo original. Paralelamente, calcula o hash do documento recebido. Se ambos os resumos forem perfeitamente idênticos, a assinatura é matematicamente válida.
@@ -207,7 +236,7 @@ export const submodulo142: ModuloFilho = {
   * *Assinatura Eletrônica:* Gênero amplo (Lei Federal nº 14.063/2020) que abrange qualquer método eletrônico de identificação (login e senha, código SMS, biometria). Divide-se em: simples, avançada e qualificada.
   * *Assinatura Digital Qualificada (ICP-Brasil):* Espécie tecnicamente mais rigorosa, gerada por criptografia assimétrica lastreada em certificado digital emitido no âmbito da ICP-Brasil, com presunção legal absoluta de veracidade.
 
-#### E. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
+#### B. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
 * **Origem e Marco Legal:** Criada pela **Medida Provisória nº 2.200-2, de 24 de agosto de 2001**, com a finalidade de garantir a autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica e das aplicações de suporte no Brasil.
 * **Estrutura Hierárquica da ICP-Brasil:**
   * **AC Raiz (Autoridade Certificadora Raiz):** Única autoridade do topo da cadeia de confiança, operada pelo **ITI (Instituto Nacional de Tecnologia da Informação)**, autarquia vinculada à Casa Civil da Presidência da República. Executa a geração das chaves da AC Raiz e emite, expede, distribui, revoga e gerencia os certificados das Autoridades Certificadoras de primeiro nível.

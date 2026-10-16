@@ -169,7 +169,7 @@ Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza
 
 ---
 
-### 5. Mineração de Dados (*Data Mining*) e Mineração de Textos (*Text Mining*) — Alvo E3
+### 5. Mineração de Dados (Data Mining) Estrutura Padrões Preditivos e Descritivos pelo Ciclo CRISP-DM
 
 #### A. O Processo de Mineração de Dados: O Ciclo de Vida CRISP-DM
 O padrão de fato mais adotado internacionalmente para projetos de mineração de dados é o **CRISP-DM (Cross-Industry Standard Process for Data Mining)**, concebido por um consórcio industrial (Chapman et al., 2000). O modelo é **cíclico, adaptativo e iterativo**, estruturado em seis fases sucessivas:
@@ -194,7 +194,9 @@ A mineração divide-se fundamentalmente em duas grandes vertentes analíticas:
   * *Classificação:* A variável-alvo é **qualitativa/categórica e discreta** (ex.: prever se uma proposição legislativa será aprovada ou rejeitada; classificar um e-mail como spam ou não spam; classificar documentos em classes da CDD/CDU). Algoritmos: Árvores de Decisão (C4.5, CART), Florestas Aleatórias (*Random Forest*), Máquinas de Vetores de Suporte (SVM), *Naive Bayes* e Regressão Logística.
   * *Regressão:* A variável-alvo é **quantitativa/numérica contínua** (ex.: prever o custo orçamentário futuro de uma emenda parlamentar ou o número de empréstimos que uma obra terá no próximo semestre). Algoritmos: Regressão Linear Simples/Múltipla, Árvores de Regressão e Redes Neurais Artificiais.
 
-#### C. Mineração de Textos (*Text Mining*) e Pipeline de Processamento de Linguagem Natural
+### 6. Mineração de Textos (Text Mining) e TF-IDF Operam na Faixa Áurea de Luhn Sob a Lei de Zipf
+
+#### A. Mineração de Textos (*Text Mining*) e Pipeline de Processamento de Linguagem Natural
 Enquanto a mineração de dados opera sobre tabelas estruturadas, o *Text Mining* lida com o desafio de extrair conhecimento estruturado e acionável a partir de **textos em linguagem natural não estruturados** (pareceres, discursos, atas, projetos de lei).
 * **Pipeline Canônico de Pré-Processamento Textual:**
   1. *Extração e Limpeza do Corpus:* Remoção de tags HTML, marcações XML, caracteres não alfanuméricos e conversão de todo o texto para minúsculas (*case folding*).
@@ -204,7 +206,7 @@ Enquanto a mineração de dados opera sobre tabelas estruturadas, o *Text Mining
      * **Stemming (Radicalização):** Processo heurístico computacionalmente rápido que decepa e remove prefixos e sufixos morfológicos da palavra, reduzindo-a a um radical básico (*stem*). **Atenção:** O radical resultante não é necessariamente uma palavra válida no dicionário (ex.: o algoritmo canônico de **Porter, 1980** reduz "biblioteca", "bibliotecário" e "biblioteconomia" para o radical comum \`bibliotec\`).
      * **Lemmatization (Lematização):** Processo linguístico muito mais sofisticado e profundo que utiliza tabelas morfológicas e análise do contexto sintático/gramatical (*Part-of-Speech Tagging*) para mapear cada palavra flexionada ao seu **lema canônico de dicionário** (ex.: os verbos "foram", "era", "fui" são reduzidos ao lema verbal "ser"; o substantivo plural "leis" é reduzido ao lema no singular "lei").
 
-#### D. Ponderação Term Frequency – Inverse Document Frequency (TF-IDF)
+#### B. Ponderação Term Frequency – Inverse Document Frequency (TF-IDF)
 Desenvolvido por **Gerard Salton** (1975) no âmbito do **Modelo de Espaço Vetorial (*Vector Space Model*)** de Recuperação da Informação, o TF-IDF é a métrica padrão para converter textos em vetores numéricos de pesos semânticos ponderados:
 * **Frequência do Termo ($TF_{t,d}$ - Term Frequency):**
   Mede a importância local de um termo $t$ dentro de um documento específico $d$:
@@ -220,7 +222,7 @@ Desenvolvido por **Gerard Salton** (1975) no âmbito do **Modelo de Espaço Veto
   $TF\\text{-}IDF_{t,d} = TF_{t,d} \\times IDF_t$
   O peso é máximo quando um termo ocorre muitas vezes em um documento restrito (alto TF) e raramente no restante da biblioteca (alto IDF).
 
-#### E. Conexão Epistemológica com a Lei de Zipf e os Pontos de Corte de Luhn
+#### C. Conexão Epistemológica com a Lei de Zipf e os Pontos de Corte de Luhn
 A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwords no *Text Mining* ancora-se na Bibliometria clássica:
 * **A Lei de Zipf (George Kingsley Zipf, 1949):**
   Demonstra que, em qualquer corpus em linguagem natural, a frequência de ocorrência ($f$) de uma palavra é inversamente proporcional ao seu posto de classificação ($r$) no ranking ordenado de frequências:

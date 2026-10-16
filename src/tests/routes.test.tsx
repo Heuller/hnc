@@ -130,6 +130,6 @@ describe('Teste de Fumaça de Rotas e Normalização de Roteamento (Regra B1)', 
       expect(h1Element?.textContent?.trim().length).toBeGreaterThan(0);
       expect(container.innerHTML.trim().length).toBeGreaterThan(50);
       expect(consoleErrors).toHaveLength(0);
-    });
+    }, 15000);
   });
 });

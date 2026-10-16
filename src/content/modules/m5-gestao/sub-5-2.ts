@@ -113,7 +113,7 @@ Com a explosão informacional da internet e a disseminação de fake news e aluc
 
 ---
 
-### 4. Produtos de Inteligência Informacional no Legislativo (Edital Bloco E, itens 3.12 e 3.13)
+### 4. Produtos de Inteligência Informacional Imediata: Notas, Relatórios e Panoramas Subsidiam Decisões Rápidas
 
 No ecossistema do Congresso Nacional e dos órgãos de assessoramento de cúpula, a demanda de parlamentares, lideranças e consultorias legislativas não é por listagens bibliográficas brutas, mas por **produtos informacionais analíticos de alto valor agregado**, consolidados com base em metodologia rigorosa e isenção ético-política (**Renato Alexandre Candido, 2023; Alba Costa Maciel & Marília Alvarenga Mendonça, 2006**).
 
@@ -152,7 +152,9 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   4. *Gargalos e Questões Críticas em Pauta no Congresso:* Pontos de tensão que motivam proposições legislativas concorrentes.
 * **Critérios de Qualidade:** Alta capacidade de síntese visual (*storytelling com dados*), uso de infográficos claros e facilidade de navegação entre seções temáticas.
 
-#### D. Linha do Tempo Normativa e Histórica
+### 5. Produtos Estruturados de Inteligência: Linhas do Tempo, Mapas de Atores e Dossiês Mapeiam Redes Complexas
+
+#### A. Linha do Tempo Normativa e Histórica
 * **Finalidade:** Representação cronológica e relacional da evolução de determinado instituto jurídico, marco legal ou tramitação de matérias no Parlamento, evidenciando causas, revogações e sucessão temporal de normas.
 * **Estrutura-Padrão Canônica:**
   1. *Eixo Temporal Estruturado:* Ordenação estritamente cronológica por data de promulgação ou publicação;
@@ -162,7 +164,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   5. *Situação de Eficácia Atual:* Indicação explícita se a norma continua vigente, se foi revogada por lei posterior ou se teve eficácia suspensa pelo STF (ex.: liminar em ADI).
 * **Critérios de Qualidade:** Exatidão cronológica milimétrica, indicação precisa dos vínculos relacionais (norma alteradora <-> norma alterada) e concisão nos sumários de impacto.
 
-#### E. Mapa de Atores (*Stakeholder Mapping*)
+#### B. Mapa de Atores (*Stakeholder Mapping*)
 * **Finalidade:** Identificação, caracterização sistemática e mapeamento do posicionamento de grupos de interesse, entidades da sociedade civil, setores econômicos e órgãos de Estado envolvidos na tramitação de matéria legislativa controvertida.
 * **Estrutura-Padrão Canônica:**
   1. *Matriz de Identificação de Atores:* Relação das instituições (órgãos públicos, confederações empresariais, centrais sindicais, ONGs e academia);
@@ -172,7 +174,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   5. *Vínculo com Proposições Concorrentes:* Identificação de emendas de plenário ou projetos apensados patrocinados pelo respectivo ator.
 * **Critérios de Qualidade:** Pluralidade democrática na amostragem (equilíbrio rigoroso entre correntes antagônicas), comprovação documental de todo posicionamento atribuído e ausência de valoração subjetiva.
 
-#### F. Dossiê Legislativo e Documental
+#### C. Dossiê Legislativo e Documental
 * **Finalidade:** Compilação enciclopédica, categorizada e exaustiva de toda a matéria fática, processual e bibliográfica concernente a uma investigação parlamentar (CPI), grande reforma constitucional (PEC) ou consolidação de códigos.
 * **Estrutura-Padrão Canônica:**
   1. *Sumário Analítico Estruturado:* Organização por módulos temáticos;
@@ -183,7 +185,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   6. *Legislação Estrangeira Comparada:* Levantamento de diplomas internacionais sobre o objeto;
   7. *Apêndice Documental:* Cópia integral ou links persistentes (URN LEX / LexML) para a íntegra dos documentos citados.
 
-#### G. Revisão de Estado da Arte (*State-of-the-Art Review*)
+#### D. Revisão de Estado da Arte (*State-of-the-Art Review*)
 * **Finalidade:** Mapeamento sistemático da fronteira científica internacional sobre um tema emergente em recorte temporal explícito, identificando consensos consolidados, controvérsias abertas e lacunas na literatura.
 * **Metodologia de Triangulação Obrigatória (Candido, 2023):**
   1. *Etapa Quantitativa (Bibliometria):* Aplicação das leis de Bradford (núcleo de periódicos de maior produtividade) e Lotka (produtividade dos autores), métricas de citação e coocorrência de termos de indexação;

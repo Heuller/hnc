@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock, RotateCcw } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
-import { useDicionarioStore } from '../../store/useDicionarioStore';
 import { useProgressStore } from '../../store/useProgressStore';
 
 export const MobileMoreMenu: React.FC = () => {
@@ -134,13 +133,16 @@ export const MobileMoreMenu: React.FC = () => {
             type="button"
             role="menuitem"
             onClick={() => {
-              useDicionarioStore.getState().abrirBuscaVazia();
+              setActiveView('glossario');
               setIsOpen(false);
             }}
-            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
           >
-            <BookOpen className="w-4 h-4 text-accent" />
-            <span>Dicionário Cebraspe</span>
+            <div className="flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-accent" />
+              <span>Glossário & Dicionário</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
           </button>
 
           <button

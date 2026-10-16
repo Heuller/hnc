@@ -66,4 +66,6 @@ export interface ConceptState {
   dataUltimaRevisao?: string; // YYYY-MM-DD
   estadoDominio: DominioEstado;
   historico: ConceptReviewLogEntry[];
+  prioridadeHipercorrecao?: boolean;
+  pesoRevisao?: number;
 }

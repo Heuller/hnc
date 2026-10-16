@@ -173,7 +173,7 @@ TITLE: Estrutura dos Direitos Autorais na Lei Federal nº 9.610/1998
 Decorrido o prazo de 70 anos do falecimento do autor (ou do último coautor), a obra ingressa no **Domínio Público**. Também pertencem ao domínio público as obras de autores falecidos sem deixar sucessores e as obras de autores desconhecidos.
 * *Atenção Cebraspe:* A entrada no domínio público extingue apenas os direitos patrimoniais (qualquer pessoa pode imprimir, traduzir ou vender a obra sem pagar direitos autorais). No entanto, os **direitos morais permanecem eternos** (é mandatório creditar a autoria original de Machado de Assis ou Shakespeare e preservar a integridade do texto!).
 
-#### D. Limitações aos Direitos Autorais na Lei nº 9.610/1998 (Arts. 46 a 48 — Exceções Legais de Uso Livre)
+### 4. Limitações aos Direitos Autorais na Lei nº 9.610/1998 Constituem Rol Taxativo (Numerus Clausus)
 
 O sistema jurídico brasileiro adota o modelo de **rol taxativo (numerus clausus)** de exceções aos direitos autorais. O Brasil **não adota** a doutrina aberta norte-americana do *fair use* (uso razoável). Portanto, somente as condutas expressamente tipificadas nos artigos 46 a 48 da Lei nº 9.610/1998 dispensam a autorização prévia e o pagamento de retribuição ao titular:
 

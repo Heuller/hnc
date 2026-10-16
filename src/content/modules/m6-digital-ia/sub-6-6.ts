@@ -18,6 +18,33 @@ export const submodulo66: ModuloFilho = {
       }
   ],
   titulo: 'Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping',
+  antesDeLer: [
+    {
+      termo: 'SQL',
+      definicao: 'Linguagem declarativa padrão para criação, consulta e manipulação de bancos de dados relacionais.',
+      exemploBiblioteca: 'Consultar no banco Koha/Pergamum da Câmara os livros catalogados com mais de 3 exemplares disponíveis.',
+    },
+    {
+      termo: 'API',
+      definicao: 'Interface de comunicação padronizada que viabiliza a troca direta de dados entre sistemas distintos.',
+      exemploBiblioteca: 'Consumir o endpoint /proposicoes da API de Dados Abertos da Câmara para indexar projetos no catálogo.',
+    },
+    {
+      termo: 'REST',
+      definicao: 'Estilo arquitetural para serviços web baseado no protocolo HTTP sem estado (stateless) e recursos com URIs.',
+      exemploBiblioteca: 'Requisição HTTP GET para recuperar metadados de parlamentares em formato JSON.',
+    },
+    {
+      termo: 'Regex',
+      definicao: 'Expressão regular; sequência de caracteres que define um padrão de busca textual flexível.',
+      exemploBiblioteca: 'Validar se números de chamada ou ISBNs digitados pelos usuários seguem a máscara correta.',
+    },
+    {
+      termo: 'Web Scraping',
+      definicao: 'Técnica automatizada de extração de dados estruturados a partir do código HTML de páginas web públicas.',
+      exemploBiblioteca: 'Coletar listas de publicações parlamentares em sítios históricos que não possuem APIs de exportação.',
+    },
+  ],
   descricaoCurta:
     'Pensamento computacional e estruturas de controle; ordem lógica de execução em SQL (WHERE vs. HAVING, JOINs e agregações); expressões regulares (metacaracteres e padrões bibliográficos); arquitetura REST, JSON e API de Dados Abertos da Câmara; web scraping, robots.txt e limites ético-jurídicos da LGPD.',
   tempoEstimadoMinutos: 40,
@@ -111,36 +138,38 @@ Em provas do Cebraspe, a pegadinha clássica explora a divergência entre a orde
 * **RIGHT (OUTER) JOIN:** Retorna todas as linhas da tabela à direita e os dados correspondentes da esquerda (ou \`NULL\`).
 * **FULL (OUTER) JOIN:** Retorna a união completa de todas as linhas de ambas as tabelas, inserindo \`NULL\` onde inexistir paridade.
 
-#### C. Três Consultas SQL de Exemplo no Universo da Câmara dos Deputados
+#### C. Exemplos Resolvidos com Esmaecimento: Consultas SQL (3 Degraus)
 
-* **Consulta 1: Total de Obras por Assunto com Filtro de Grupo (WHERE vs. HAVING)**
+##### Degrau 1: Exemplo Completo (Filtro Prévio no WHERE e Filtro Agregado no HAVING)
+* **Problema:** Na base de dados bibliográfica da Câmara dos Deputados, listar os assuntos que possuem pelo menos 2 obras editadas a partir do ano 2020, ordenando pelo total de obras em ordem decrescente.
+* **Consulta SQL Resolvida:**
 \`\`\`sql
 SELECT 
-    assunto.termo_assunto,
-    COUNT(livro.id_livro) AS total_obras
+    assunto.nome AS termo_assunto,
+    COUNT(livro.id) AS total_obras
 FROM assunto
-INNER JOIN livro_assunto ON assunto.id_assunto = livro_assunto.id_assunto
-INNER JOIN livro ON livro_assunto.id_livro = livro.id_livro
-WHERE livro.ano_publicacao >= 2000
-GROUP BY assunto.termo_assunto
-HAVING COUNT(livro.id_livro) >= 50
-ORDER BY total_obras DESC;
+INNER JOIN livro_assunto ON assunto.id = livro_assunto.id_assunto
+INNER JOIN livro ON livro_assunto.id_livro = livro.id
+WHERE livro.ano >= 2020
+GROUP BY assunto.nome
+HAVING COUNT(livro.id) >= 2
+ORDER BY total_obras DESC, termo_assunto ASC;
 \`\`\`
-*Explicação da Lógica:* O \`WHERE\` descarta previamente livros editados antes do ano 2000. Em seguida, as obras são agrupadas por assunto. Por fim, o \`HAVING\` filtra e exibe apenas os assuntos que possuem 50 ou mais obras no acervo moderno.
+* **Explicação Passo a Passo:**
+  1. \`FROM\` e \`INNER JOIN\` unem as tabelas \`assunto\`, \`livro_assunto\` e \`livro\`.
+  2. \`WHERE livro.ano >= 2020\` descarta previamente títulos mais antigos antes do agrupamento.
+  3. \`GROUP BY assunto.nome\` reúne as obras por área temática.
+  4. \`HAVING COUNT(livro.id) >= 2\` descarta assuntos com apenas 1 publicação.
+  5. \`SELECT\` projeta as colunas e \`ORDER BY\` ordena.
+* **Saída Declarada:**
+| termo_assunto | total_obras |
+| :--- | :--- |
+| Direito Constitucional | 3 |
+| Ciência Política | 2 |
 
-* **Consulta 2: Mapeamento de Autores e suas Obras via INNER JOIN**
-\`\`\`sql
-SELECT 
-    autor.nome_autor,
-    livro.titulo,
-    livro.isbn
-FROM autor
-INNER JOIN livro_autor ON autor.id_autor = livro_autor.id_autor
-INNER JOIN livro ON livro_autor.id_livro = livro.id_livro
-ORDER BY autor.nome_autor ASC, livro.ano_publicacao DESC;
-\`\`\`
-
-* **Consulta 3: Identificação de Proposições Legislativas sem Relator Designado (LEFT JOIN com verificação de NULL)**
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: LEFT JOIN e Verificação de Nulo)
+* **Problema:** Encontrar proposições legislativas que ainda não possuem relator designado, exibindo sigla, número, ano e ementa.
+* **Código com Lacuna:**
 \`\`\`sql
 SELECT 
     prop.sigla_tipo,
@@ -148,14 +177,53 @@ SELECT
     prop.ano,
     prop.ementa
 FROM proposicao prop
-LEFT JOIN relatoria rel ON prop.id_proposicao = rel.id_proposicao
+/* LACUNA 1: Qual tipo de JOIN preserva proposições sem relator? */
+/* ___ JOIN relatoria rel ON prop.id = rel.id_proposicao */
+/* LACUNA 2: Qual cláusula filtra onde o relator não existe? */
+/* WHERE rel.id_relator IS ___ */
+ORDER BY prop.ano DESC, prop.numero DESC;
+\`\`\`
+* **Resolução Completa:**
+\`\`\`sql
+SELECT 
+    prop.sigla_tipo,
+    prop.numero,
+    prop.ano,
+    prop.ementa
+FROM proposicao prop
+LEFT JOIN relatoria rel ON prop.id = rel.id_proposicao
 WHERE rel.id_relator IS NULL
 ORDER BY prop.ano DESC, prop.numero DESC;
 \`\`\`
+* **Saída Declarada:**
+| sigla_tipo | numero | ano | ementa |
+| :--- | :--- | :--- | :--- |
+| PL | 1042 | 2026 | Institui a Política Nacional de Livros Abertos |
+| PEC | 45 | 2026 | Altera regime constitucional de bibliotecas públicas |
+
+##### Degrau 3: Aplicação Autônoma (Mapeamento de Autoria e Produtividade com Agrupamento)
+* **Desafio:** Elaborar consulta para gerar ranking de autores por quantidade de livros cadastrados, exibindo apenas autores que tenham pelo menos 1 livro, ordenando decrescentemente pela quantidade.
+* **Resolução Completa:**
+\`\`\`sql
+SELECT 
+    autor.nome AS nome_autor,
+    COUNT(livro_autor.id_livro) AS total_livros
+FROM autor
+INNER JOIN livro_autor ON autor.id = livro_autor.id_autor
+GROUP BY autor.id, autor.nome
+HAVING COUNT(livro_autor.id_livro) >= 1
+ORDER BY total_livros DESC, nome_autor ASC;
+\`\`\`
+* **Saída Declarada:**
+| nome_autor | total_livros |
+| :--- | :--- |
+| Machado de Assis | 3 |
+| Clarice Lispector | 2 |
+| Darcy Ribeiro | 1 |
 
 ---
 
-### 3. Expressões Regulares (Regex): Sintaxe, Metacaracteres e Padrões Documentais
+### 3. Regex Exige Escape no Ponto Literal e Ancoragem para Evitar Falsos Positivos
 
 Expressões Regulares (*Regular Expressions*) baseiam-se na teoria das linguagens formais de **Stephen Kleene** (1951) e fornecem uma sintaxe concisa para casar padrões de texto:
 
@@ -183,20 +251,52 @@ Expressões Regulares (*Regular Expressions*) baseiam-se na teoria das linguagen
   * \`.\`: Casa **qualquer caractere único** (exceto nova linha).
   * \`\\.\`: Casa o **ponto literal** (exige barra invertida de escape).
 
-#### B. Aplicação de Regex em Ambientes de Bibliotecas e Documentação
-1. **Validação de ISBN-13 (formato de 13 dígitos iniciado por 978 ou 979):**
-   * Padrão: \`^97[89]\\d{10}$\`
-   * Casamentos válidos: \`9788535902778\`, \`9791090636071\`.
-2. **Extração de Anos de Publicação dos Séculos XX e XXI:**
-   * Padrão: \`\\b(19|20)\\d{2}\\b\`
-   * Casamentos: captura "1988" e "2026", ignorando números como "12345" ou "19888".
-3. **Identificação de Leis Federais em Textos Jurídicos:**
-   * Padrão: \`Lei n[ºo]\\s*\\d+(?:\\.\\d+)?/\\d{4}\`
-   * Casamentos: \`Lei nº 14.133/2021\`, \`Lei no 4084/1962\`, \`Lei nº 12.527/2011\`.
+#### B. Exemplos Resolvidos com Esmaecimento: Expressões Regulares (3 Degraus)
+
+##### Degrau 1: Exemplo Completo (Validação e Extração de Proposições Legislativas)
+* **Problema:** Validar e extrair componentes de identificação formal de proposições da Câmara (ex.: \`PL 1042/2026\`, \`PEC 45/2026\`, \`PLP 12/2025\`).
+* **Padrão Regex Resolvido:**
+\`\`\`regex
+^(PL|PLP|PEC|PDL)\\s+(\\d{1,5})\\/(\\d{4})$
+\`\`\`
+* **Casos Testados e Saída Declarada:**
+  * \`"PL 1042/2026"\` -> Casa: Sim. Grupo 1: \`"PL"\`, Grupo 2: \`"1042"\`, Grupo 3: \`"2026"\`.
+  * \`"PEC 45/2026"\` -> Casa: Sim. Grupo 1: \`"PEC"\`, Grupo 2: \`"45"\`, Grupo 3: \`"2026"\`.
+  * \`"MPV 100/2026"\` -> Casa: Não (sigla não permitida na lista de alternativas).
+  * \`"PL 123456/2026"\` -> Casa: Não (excede 5 dígitos no número).
+
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: Citação de Artigo em Ementas)
+* **Problema:** Capturar o número de artigos citados em documentos legislativos (ex.: \`art. 5º\`, \`artigo 37\`, \`Art. 102\`).
+* **Padrão com Lacuna:**
+\`\`\`regex
+/* LACUNA: Usar grupo não capturador (?:...) para prefixo art. ou artigo, seguido de dígitos e ordinal opcional */
+/* \\b(?:art\\.|artigo)\\s+(\\d+)(?:[º°]|___)?\\b */
+\`\`\`
+* **Resolução Completa:**
+\`\`\`regex
+\\b(?:art\\.|artigo)\\s+(\\d+)(?:[º°]|\\b)
+\`\`\`
+* **Casos Testados e Saída Declarada:**
+  * \`"Em cumprimento ao art. 5º da CF"\` -> Casa: Sim. Número capturado no Grupo 1: \`"5"\`.
+  * \`"conforme previsto no artigo 37, caput"\` -> Casa: Sim. Número capturado no Grupo 1: \`"37"\`.
+  * \`"artesanato regional"\` -> Casa: Não casa (respeita fronteira de palavra \`\\b\`).
+
+##### Degrau 3: Aplicação Autônoma (Validação de Notação de Classificação Decimal CDU/CDD)
+* **Desafio:** Construir expressão regular rigorosa para validar notações de classes principais e subdivisões decimais da CDU/CDD (ex.: \`020\`, \`025.4\`, \`342.7\`), recusando números com pontos duplicados ou letras.
+* **Resolução Completa:**
+\`\`\`regex
+^\\d{3}(?:\\.\\d+)*$
+\`\`\`
+* **Casos Testados e Saída Declarada:**
+  * \`"020"\` -> Casa: Sim.
+  * \`"025.4"\` -> Casa: Sim.
+  * \`"342.721"\` -> Casa: Sim.
+  * \`"25.4"\` -> Casa: Não (exige 3 dígitos iniciais).
+  * \`"025..4"\` -> Casa: Não (rejeita ponto duplo consecutivo).
 
 ---
 
-### 4. Arquitetura REST, Formato JSON e a API de Dados Abertos da Câmara
+### 4. APIs REST São Sem Estado (Stateless) e Manipulam Recursos por URIs e Verbos Semânticos
 
 #### A. Princípios da Arquitetura REST (Roy Fielding, 2000)
 Em sua tese de doutorado na Universidade da Califórnia, **Roy Fielding** definiu os princípios de transferência de estado representacional (*Representational State Transfer* - REST):
@@ -223,9 +323,87 @@ A Câmara dos Deputados disponibiliza uma API pública RESTful no endereço base
   * \`GET /proposicoes?ano=2026&siglaTipo=PL\`: Recupera projetos de lei apresentados no ano.
   * \`GET /votacoes/{id}/votos\`: Recupera a relação de votos nominais de cada parlamentar em determinada deliberação.
 
+#### D. Exemplos Resolvidos com Esmaecimento: Consumo de APIs REST e JSON (3 Degraus)
+
+##### Degrau 1: Exemplo Completo (Requisição com Parâmetros e Extração de Lista de Dados)
+* **Problema:** Consumir o endpoint \`/proposicoes\` filtrando por projetos de lei de 2026 com limite de 2 registros e extrair o identificador e a ementa de cada item.
+* **Requisição:** \`GET https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&ordem=ASC&ordenarPor=id&itens=2\`
+* **Payload JSON Retornado pelo Servidor:**
+\`\`\`json
+{
+  "dados": [
+    {
+      "id": 24001,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/24001",
+      "siglaTipo": "PL",
+      "numero": 101,
+      "ano": 2026,
+      "ementa": "Dispõe sobre o depósito legal de obras digitais na Biblioteca da Câmara."
+    },
+    {
+      "id": 24002,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/24002",
+      "siglaTipo": "PL",
+      "numero": 102,
+      "ano": 2026,
+      "ementa": "Institui o Plano Nacional de Acessibilidade Documental Legislativa."
+    }
+  ],
+  "links": [
+    { "rel": "self", "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=1" },
+    { "rel": "next", "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=2" }
+  ]
+}
+\`\`\`
+* **Processamento e Saída Declarada:**
+  * Item 1: ID = \`24001\`, Ementa = \`"Dispõe sobre o depósito legal de obras digitais na Biblioteca da Câmara."\`
+  * Item 2: ID = \`24002\`, Ementa = \`"Institui o Plano Nacional de Acessibilidade Documental Legislativa."\`
+
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: Extração de Objeto Aninhado em Perfil)
+* **Problema:** Recuperar dados detalhados de um parlamentar pelo ID e extrair o partido e a UF de sua situação funcional atual no nó \`ultimoStatus\`.
+* **Requisição:** \`GET https://dadosabertos.camara.leg.br/api/v2/deputados/204521\`
+* **Código de Extração com Lacuna:**
+\`\`\`javascript
+// Dado o payload retornado da API:
+const resposta = {
+  dados: {
+    id: 204521,
+    nomeCivil: "Deputado Exemplar",
+    ultimoStatus: {
+      siglaPartido: "PLD",
+      siglaUf: "DF",
+      condicaoEleitoral: "Titular"
+    }
+  }
+};
+/* LACUNA: Acessar a sigla partidária e UF no nó de status atual */
+/* const partido = resposta.dados.______.siglaPartido; */
+/* const uf = resposta.dados.______.siglaUf; */
+\`\`\`
+* **Resolução Completa:**
+\`\`\`javascript
+const partido = resposta.dados.ultimoStatus.siglaPartido;
+const uf = resposta.dados.ultimoStatus.siglaUf;
+\`\`\`
+* **Saída Declarada:**
+  * \`partido\` = \`"PLD"\`
+  * \`uf\` = \`"DF"\`
+
+##### Degrau 3: Aplicação Autônoma (Paginação HATEOAS Navegando por Links Hipermídia)
+* **Desafio:** Implementar função de controle que recebe a resposta de uma requisição e localiza a URL da próxima página de dados utilizando a convenção \`rel="next"\` dos links hipermídia.
+* **Resolução Completa:**
+\`\`\`javascript
+function extrairProximaPagina(respostaJson) {
+  const linkNext = respostaJson.links.find(link => link.rel === 'next');
+  return linkNext ? linkNext.href : null;
+}
+\`\`\`
+* **Saída Declarada para o Payload do Degrau 1:**
+  * Retorno: \`"https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=2"\`
+
 ---
 
-### 5. Web Scraping: Técnicas, Limitações e Fronteiras Jurídicas
+### 5. Web Scraping Possui Restrições Éticas (robots.txt) e Legais (LGPD e Direitos Autorais), Sendo APIs Oficiais Preferíveis
 
 O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreadores) para extrair dados tabulares ou textuais a partir do código HTML de páginas da Web:
 
