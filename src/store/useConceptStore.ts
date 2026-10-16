@@ -43,13 +43,24 @@ interface ConceptStoreState {
   }) => { avancouCaixa: boolean; diasAteProximaRevisao: number; mensagemPedagogica: string };
 
   // Fila diária de repetição espaçada
-  getFilaRevisaoHoje: (submodulosLiberados?: string[], limiteDiario?: number) => FilaRevisaoDiaria;
+  getFilaRevisaoHoje: (
+    submodulosLiberados?: string[],
+    limiteDiario?: number,
+    itensExcluidosIds?: Set<string>,
+    dataHojeIso?: string
+  ) => FilaRevisaoDiaria;
+
+  // Itens agendados hoje na fila diária (para prevenção de dupla marcação)
+  getItensAgendadosHoje: (dataHojeIso?: string) => Set<string>;
 
   // Estatísticas de domínio global
   getEstatisticasDominio: () => EstatisticasDominio;
 
   // Inicialização sob demanda
   inicializarSubmodulos: (submoduloIds: string[]) => void;
+
+  // Reset para testes e migrações
+  reset: () => void;
 
   // Sincronização Supabase
   sincronizarComSupabase: () => Promise<void>;
@@ -135,16 +146,28 @@ export const useConceptStore = create<ConceptStoreState>()(
         };
       },
 
-      getFilaRevisaoHoje: (submodulosLiberados, limiteDiario) => {
+      getFilaRevisaoHoje: (submodulosLiberados, limiteDiario, itensExcluidosIds, dataHojeIso) => {
         const conceitos = conceptRepository.getMapaCompleto();
-        const hojeIso = new Date().toISOString().split('T')[0];
+        const hojeIso = dataHojeIso || new Date().toISOString().split('T')[0];
         return selecionarFilaRevisaoDiaria({
           estados: get().estados,
           conceitos,
           dataHojeIso: hojeIso,
           submodulosLiberados,
           limiteDiario,
+          itensExcluidosIds,
         });
+      },
+
+      getItensAgendadosHoje: (dataHojeIso) => {
+        const conceitos = conceptRepository.getMapaCompleto();
+        const hojeIso = dataHojeIso || new Date().toISOString().split('T')[0];
+        const fila = selecionarFilaRevisaoDiaria({
+          estados: get().estados,
+          conceitos,
+          dataHojeIso: hojeIso,
+        });
+        return new Set(fila.itensNaFila.map((i) => i.conceito.id));
       },
 
       getEstatisticasDominio: () => {
@@ -220,6 +243,10 @@ export const useConceptStore = create<ConceptStoreState>()(
             },
           }));
         }
+      },
+
+      reset: () => {
+        set({ estados: {} });
       },
 
       sincronizarComSupabase: async () => {

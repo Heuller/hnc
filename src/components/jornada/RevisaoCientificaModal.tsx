@@ -30,21 +30,23 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
   etapa,
 }) => {
   const { adicionarTentativa, adicionarItemAttempt, modoLivre } = useProgressStore();
-  const { estados, registrarRespostaConceito } = useConceptStore();
+  const { estados, registrarRespostaConceito, getItensAgendadosHoje } = useConceptStore();
 
   const [indiceAtual, setIndiceAtual] = useState(0);
   const [submissoes, setSubmissoes] = useState<Record<string, ExerciseSubmission>>({});
   const [fase, setFase] = useState<'exercicio' | 'resultado'>('exercicio');
   const [tentativaFinalizada, setTentativaFinalizada] = useState<any | null>(null);
 
-  // Compõe a lista canônica de 20 itens com simetria 50/50 Cebraspe
+  // Compõe a lista canônica de 20 itens com simetria 50/50 Cebraspe (sem colisão com a revisão do dia)
   const sessaoRevisao = useMemo(() => {
+    const itensAgendados = getItensAgendadosHoje();
     return comporSubmoduloRevisao({
       moduloNumero: etapa.moduloNumero,
       moduloId: etapa.moduloId,
       estadosConceitos: estados,
+      itensExcluidosIds: itensAgendados,
     });
-  }, [etapa.moduloNumero, etapa.moduloId, estados]);
+  }, [etapa.moduloNumero, etapa.moduloId, estados, getItensAgendadosHoje]);
 
   const itemAtual = sessaoRevisao.itens[indiceAtual];
   const totalItens = sessaoRevisao.totalItens;
