@@ -79,6 +79,13 @@ describe('U3.1 - Esquema Zod: antesDeLer e secoes[].itens', () => {
           gabarito: 'E' as const,
           justificativa: 'DROP TABLE é instrução DDL (Data Definition Language).',
         },
+        {
+          id: 'cp-test-3',
+          pergunta: 'Julgue o item:',
+          item: 'A instrução SELECT realiza recuperação de dados.',
+          gabarito: 'C' as const,
+          justificativa: 'SELECT é a instrução canônica de DQL/DML.',
+        },
       ],
       mnemonicos: {
         timeline: [],
