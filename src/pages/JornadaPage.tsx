@@ -473,6 +473,47 @@ export const JornadaPage: React.FC = () => {
                   })}
                 </div>
 
+                {/* SUBMÓDULO DE REVISÃO CIENTÍFICA R(k) (Marco R4/R5 e U5.3) */}
+                {etapaPortal && (
+                  <div
+                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
+                      etapaPortal.status === 'concluida'
+                        ? 'bg-purple-500/5 border-purple-500/30'
+                        : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
+                            {etapaPortal.titulo}
+                          </h3>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-bold bg-purple-500/20 text-purple-700 dark:text-purple-300 border border-purple-500/30 uppercase tracking-wider">
+                            Recomendado
+                          </span>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
+                            Revisão R{k} · 20 Itens
+                          </span>
+                        </div>
+                        <p className="text-xs text-ink-2">
+                          10 a 20 assertivas intercaladas de todos os submódulos já concluídos até o módulo {k}. Retenção cumulativa com formatos cognitivos F1 a F8.
+                        </p>
+                      </div>
+                    </div>
+
+                    <Button
+                      variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
+                      size="sm"
+                      onClick={() => handleOpenPortao(etapaPortal.id)}
+                      className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
+                    >
+                      <span>{etapaPortal.status === 'concluida' ? 'Revisão Dominada' : `Iniciar Revisão R${k}`}</span>
+                      <DoorOpen className="w-4 h-4" />
+                    </Button>
+                  </div>
+                )}
+
                 {/* DESAFIO DO MÓDULO (Simulado de 100 itens) */}
                 {etapaDesafio && (
                   <div
@@ -514,44 +555,6 @@ export const JornadaPage: React.FC = () => {
                     >
                       <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio 100Q' : 'Iniciar Desafio 100Q'}</span>
                       <ChevronRight className="w-4 h-4" />
-                    </Button>
-                  </div>
-                )}
-
-                {/* SUBMÓDULO DE REVISÃO CIENTÍFICA R(k) (Marco R4/R5) */}
-                {etapaPortal && (
-                  <div
-                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
-                      etapaPortal.status === 'concluida'
-                        ? 'bg-purple-500/5 border-purple-500/30'
-                        : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
-                    }`}
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
-                      <div>
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
-                            {etapaPortal.titulo}
-                          </h3>
-                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
-                            Revisão R{k} · 20 Itens (10C / 10E)
-                          </span>
-                        </div>
-                        <p className="text-xs text-ink-2">
-                          Revisão cumulativa com formatos cognitivos F1 a F8 (60% de M{k} e 40% de precedentes). Mínimo 85% de acertos para liberação formal.
-                        </p>
-                      </div>
-                    </div>
-
-                    <Button
-                      variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
-                      size="sm"
-                      onClick={() => handleOpenPortao(etapaPortal.id)}
-                      className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
-                    >
-                      <span>{etapaPortal.status === 'concluida' ? 'Revisão Dominada' : `Iniciar Revisão R${k}`}</span>
-                      <DoorOpen className="w-4 h-4" />
                     </Button>
                   </div>
                 )}

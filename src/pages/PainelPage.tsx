@@ -60,7 +60,10 @@ export const PainelPage: React.FC = () => {
   const totalCheckpointsFeitos = getCheckpointsFeitosCurso(COURSE_REGISTRY, checkpointsRespondidos);
 
   // Repetição Espaçada (Fonte Única: useConceptStore - Regra U5.2)
-  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [estados, getFilaRevisaoHoje]);
+  const filaHoje = useMemo(() => {
+    if (estados) { /* invalidação reativa */ }
+    return getFilaRevisaoHoje();
+  }, [estados, getFilaRevisaoHoje]);
   const pendentesHojeCount = filaHoje.totalPendentes;
 
   // Caderno de Erros

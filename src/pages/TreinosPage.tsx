@@ -32,7 +32,10 @@ export const TreinosPage: React.FC = () => {
   const { estados, getFilaRevisaoHoje } = useConceptStore();
   const { setActiveView } = useNavigationStore();
 
-  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [estados, getFilaRevisaoHoje]);
+  const filaHoje = useMemo(() => {
+    if (estados) { /* invalidação reativa */ }
+    return getFilaRevisaoHoje();
+  }, [estados, getFilaRevisaoHoje]);
   const pendentesHojeCount = filaHoje.totalPendentes;
 
   const itensErros = getItensCadernoErros(
