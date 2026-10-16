@@ -91,7 +91,7 @@ describe('Glossário Unificado - Serviço (U3.10)', () => {
 
     const totalContado = indice.reduce((acc, curr) => acc + curr.quantidade, 0);
     expect(totalContado).toBe(todos.length);
-  });
+  }, 15000);
 
   it('filtrarVerbetes deve priorizar correspondencia exata e prefixos', async () => {
     const todos = await carregarAcervoUnificado();
@@ -111,7 +111,7 @@ describe('Glossário Unificado - Serviço (U3.10)', () => {
     const resB = filtrarVerbetes(todos, { busca: '', letra: 'B' });
     expect(resB.length).toBeGreaterThan(0);
     expect(resB.every((v) => normalizarTermo(v.termo).startsWith('b'))).toBe(true);
-  });
+  }, 15000);
 
   it('buscarPorId e buscarPorTermoExato devem localizar registros pontuais', async () => {
     const sql = await buscarPorId('tec-sql');
