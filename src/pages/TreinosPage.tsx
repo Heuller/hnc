@@ -85,7 +85,7 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Simulados Oficiais Cebraspe (100Q)</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Baterias canônicas de itens inéditos comentados cobrindo os módulos de Conhecimentos Específicos (M1 a M10), Básicos (M11 a M14) e Mega Simulado Oficial (120Q), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
+                Baterias canônicas de itens inéditos comentados cobrindo a Trilha Específica (M1 a M10), o Acervo Complementar de Conhecimentos Básicos (M11 a M14) e o Mega Simulado Oficial (120Q), com rigorosa simetria Cebraspe (50C / 50E), aplicação da fórmula C &minus; E e diagnóstico pedagógico por tema.
               </p>
             </div>
 
