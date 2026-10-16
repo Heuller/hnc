@@ -383,7 +383,6 @@ export const JornadaPage: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                   {submodulos.map((sub) => {
                     const etapaSub = etapas[sub.numero];
-                    const isBloqueada = etapaSub?.status === 'bloqueada';
                     const isConcluida = etapaSub?.status === 'concluida';
                     const isRevisaoDirigida = etapaSub?.status === 'em_revisao_dirigida';
                     const isAtiva = proximoPasso?.etapaId === sub.numero;
