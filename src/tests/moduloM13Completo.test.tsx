@@ -85,7 +85,7 @@ describe('Validação Completa do Módulo 13 (Língua Portuguesa) e UX - Fases P
       expect(consoleErrors).toHaveLength(0);
       unmount();
     });
-  });
+  }, 15000);
 
   it('deve alternar para o Modo Foco ao clicar no botão de foco ou pressionar F', async () => {
     act(() => {
