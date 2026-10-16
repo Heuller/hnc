@@ -41,3 +41,5 @@ acervo-estudos/
 
 # Scratch & Dev temporary tests
 scratch/
+__pycache__/
+*.pyc
