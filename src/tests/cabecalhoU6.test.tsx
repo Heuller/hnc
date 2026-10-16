@@ -1,9 +1,7 @@
 // @vitest-environment jsdom
 import { describe, it, expect, beforeAll } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import React from 'react';
 import { Header } from '../components/layout/Header';
-import { useNavigationStore } from '../store/useNavigationStore';
 import { useAuthStore } from '../store/useAuthStore';
 
 describe('U6.2: Cabeçalho Enxuto e Navegação Descomplicada', () => {
