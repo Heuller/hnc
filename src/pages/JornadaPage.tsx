@@ -396,8 +396,6 @@ export const JornadaPage: React.FC = () => {
                             ? 'bg-surface-2/30 border-emerald-500/30'
                             : isRevisaoDirigida
                             ? 'bg-amber-500/5 border-amber-500/30'
-                            : isBloqueada
-                            ? 'bg-surface-2/20 border-border/50 opacity-60'
                             : 'bg-surface hover:bg-surface-2/40 border-border shadow-2xs'
                         }`}
                       >

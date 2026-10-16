@@ -135,8 +135,8 @@ export const PainelPage: React.FC = () => {
         </div>
       </section>
 
-      {/* BLOCO HERÓI: CONTINUAR DE ONDE PAROU (Regra U.3 e C4) */}
-      <section aria-labelledby="heroi-continuar-title">
+      {/* BLOCO HERÓI: HOJE E CONTINUAR DE ONDE PAROU (U6.5) */}
+      <section aria-labelledby="heroi-continuar-title" data-testid="cartao-hoje">
         <div className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm relative overflow-hidden">
           <div
             className="absolute top-0 left-0 right-0 h-1"
@@ -148,7 +148,7 @@ export const PainelPage: React.FC = () => {
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={targetTheme.id} size="sm" />
                 <span className="text-[11px] font-sans font-semibold uppercase tracking-wider text-ink-2">
-                  Próxima Ação Recomendada
+                  Hoje · Próxima Ação Recomendada
                 </span>
                 <span
                   className="text-[10px] font-sans font-bold px-2 py-0.5 rounded"
