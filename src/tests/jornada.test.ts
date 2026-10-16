@@ -675,50 +675,45 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
       tentativas.push(criarTentativaSucesso('1.2', 'm1', 'verificacao_submodulo', 8));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['1.2'].status).toBe('concluida');
-      expect(st.etapas['desafio-m1'].status).toBe('disponivel');
+      // U5.3: Ao concluir os submódulos de M1, a trilha sugere Rn antes do Desafio
+      expect(st.etapas['revisao-m1'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('revisao-m1');
+
+      // 4. Conclui Revisão R1 recomendada
+      tentativas.push(criarTentativaSucesso('revisao-m1', 'm1', 'submodulo_revisao', 20));
+      st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
+      expect(st.etapas['revisao-m1'].status).toBe('concluida');
       expect(st.proximoPasso.etapaId).toBe('desafio-m1');
 
-      // 4. Conclui Desafio M1 (100 itens)
+      // 5. Conclui Desafio M1 (100 itens)
       tentativas.push(criarTentativaSucesso('desafio-m1', 'm1', 'desafio_modulo', 100));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['desafio-m1'].status).toBe('concluida');
-
-      // REGRA D.1: DE M1 PARA M2 NÃO HÁ PORTAL! M2.1 desbloqueia imediatamente!
-      expect(st.etapas['portal-m1']).toBeUndefined(); // Não existe portal para k = 1
-      expect(st.etapas['2.1'].status).toBe('disponivel'); // M2.1 aberto!
+      expect(st.etapas['2.1'].status).toBe('disponivel'); // M2.1 aberto sem travas!
       expect(st.proximoPasso.etapaId).toBe('2.1');
 
-      // 5. Conclui M2.1 e M2.2
+      // 6. Conclui M2.1 e M2.2
       secoesLidas['2.1'] = todasSecoes;
       tentativas.push(criarTentativaSucesso('2.1', 'm2', 'verificacao_submodulo', 8));
       secoesLidas['2.2'] = todasSecoes;
       tentativas.push(criarTentativaSucesso('2.2', 'm2', 'verificacao_submodulo', 8));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
-      expect(st.etapas['desafio-m2'].status).toBe('disponivel');
+      // Sugere R2 antes do Desafio M2
+      expect(st.etapas['revisao-m2'].status).toBe('disponivel');
+      expect(st.proximoPasso.etapaId).toBe('revisao-m2');
+
+      // 7. Conclui Revisão R2
+      tentativas.push(criarTentativaSucesso('revisao-m2', 'm2', 'submodulo_revisao', 20));
+      st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
+      expect(st.etapas['revisao-m2'].status).toBe('concluida');
       expect(st.proximoPasso.etapaId).toBe('desafio-m2');
 
-      // 6. Conclui Desafio M2
+      // 8. Conclui Desafio M2
       tentativas.push(criarTentativaSucesso('desafio-m2', 'm2', 'desafio_modulo', 100));
       st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
       expect(st.etapas['desafio-m2'].status).toBe('concluida');
-
-      // REGRA D.1: Ao concluir M2 (k = 2 >= 2), surge a Revisão Científica R(2) / Portal P(2)!
-      expect(st.etapas['portal-m2'].status).toBe('disponivel');
-      expect(st.etapas['3.1'].status).toBe('disponivel');
-      expect(st.etapas['3.1'].isDesbloqueada).toBe(true);
-      // Próximo passo recomenda a revisão periódica R(2) prioritariamente (revisao_vencida)
-      expect(st.proximoPasso.etapaId).toBe('revisao-m2');
-      expect(st.proximoPasso.motivo).toBe('revisao_vencida');
-
-      // 7. Conclui o Portal de Revisão P(2) (20 itens, 100% de acertos >= 85%)
-      tentativas.push(criarTentativaSucesso('portal-m2', 'm2', 'portal_revisao', 20));
-      st = deriveJornadaState({ modulos, tentativas, secoesVisualizadas: secoesLidas });
-      expect(st.etapas['portal-m2'].status).toBe('concluida');
-
-      // AGORA SIM: Próximo passo avança para M3.1!
       expect(st.etapas['3.1'].status).toBe('disponivel');
       expect(st.proximoPasso.etapaId).toBe('3.1');
-      expect(st.proximoPasso.motivo).toBe('tema_novo');
     });
   });
 
@@ -766,9 +761,10 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
         return criarTentativaRegistro({ userId: 'u1', tipo, targetId, moduloId, totalItens: total, respostas });
       };
 
-      // Completa M1 inteiro e Desafio M1
+      // Completa M1 inteiro, Revisão R1 e Desafio M1
       const t11 = criarSucesso('1.1', 'm1', 'verificacao_submodulo', 8);
       const t12 = criarSucesso('1.2', 'm1', 'verificacao_submodulo', 8);
+      const tr1 = criarSucesso('revisao-m1', 'm1', 'submodulo_revisao', 20);
       const td1 = criarSucesso('desafio-m1', 'm1', 'desafio_modulo', 100);
 
       // Completa M2.1, M2.2 e Desafio M2
@@ -788,7 +784,7 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
 
       const estado = deriveJornadaState({
         modulos,
-        tentativas: [t11, t12, td1, t21, t22, td2, tFalha],
+        tentativas: [t11, t12, tr1, td1, t21, t22, td2, tFalha],
         secoesVisualizadas: { '1.1': todasSecoes, '1.2': todasSecoes, '2.1': todasSecoes, '2.2': todasSecoes },
       });
 
@@ -815,6 +811,14 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
         totalItens: 8,
         respostas,
       });
+      const tr1 = criarTentativaRegistro({
+        userId: 'u1',
+        tipo: 'submodulo_revisao',
+        targetId: 'revisao-m1',
+        moduloId: 'm1',
+        totalItens: 20,
+        respostas,
+      });
       const td1 = criarTentativaRegistro({
         userId: 'u1',
         tipo: 'desafio_modulo',
@@ -826,7 +830,7 @@ describe('Motor da Jornada Cebraspe - Parte D (jornada.test.ts)', () => {
 
       const estado = deriveJornadaState({
         modulos,
-        tentativas: [t11, td1],
+        tentativas: [t11, tr1, td1],
         secoesVisualizadas: { '1.1': todasSecoes },
       });
 

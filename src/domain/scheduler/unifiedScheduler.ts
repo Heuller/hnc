@@ -270,6 +270,7 @@ export function selecionarFilaRevisaoDiaria(params: {
   dataHojeIso: string;
   submodulosLiberados?: string[];
   limiteDiario?: number;
+  itensExcluidosIds?: Set<string>;
 }): FilaRevisaoDiaria {
   const {
     estados,
@@ -277,6 +278,7 @@ export function selecionarFilaRevisaoDiaria(params: {
     dataHojeIso,
     submodulosLiberados,
     limiteDiario = REVIEW_CONFIG.dailyReviewCap,
+    itensExcluidosIds,
   } = params;
 
   const dataRef = ajustarParaDiaUtil(dataHojeIso);
@@ -292,6 +294,11 @@ export function selecionarFilaRevisaoDiaria(params: {
   const submodulosAltaDensidadeSet = new Set(REVIEW_CONFIG.submodulosAltaDensidadeTecnica);
 
   for (const [id, conceito] of Object.entries(conceitos)) {
+    // Filtra itens explicitamente excluídos (ex: já agendados em outro fluxo do mesmo dia)
+    if (itensExcluidosIds && itensExcluidosIds.has(id)) {
+      continue;
+    }
+
     // Filtra por submódulos desbloqueados
     if (submodulosPermitidos && !submodulosPermitidos.has(conceito.submoduloId)) {
       continue;
@@ -299,36 +306,65 @@ export function selecionarFilaRevisaoDiaria(params: {
 
     const estado = estados[id] || criarEstadoInicialConceito(id, 'anon', dataRef);
 
-    // Se está vencido ou na data de hoje
-    if (estado.proximaRevisao <= dataRef) {
+    // Se já foi revisado hoje e sua próxima revisão é futura, não entra novamente no mesmo dia
+    if (estado.dataUltimaRevisao === dataRef && estado.proximaRevisao > dataRef) {
+      continue;
+    }
+
+    // U5.4: Avaliação de vencimento e rodada cumulativa intensiva nas 3 últimas semanas antes da prova (a partir de 28/12/2026)
+    const isVencido = estado.proximaRevisao <= dataRef;
+    const isRetaFinal = dataRef >= REVIEW_CONFIG.retaFinal.dataInicioIso && dataRef <= REVIEW_CONFIG.retaFinal.dataProvaIso;
+    const isConceitoMaduro = estado.caixaLeitner === 4 || estado.caixaLeitner === 5;
+    const jaRevistoNaRetaFinal = Boolean(estado.dataUltimaRevisao && estado.dataUltimaRevisao >= REVIEW_CONFIG.retaFinal.dataInicioIso);
+    const devePuxarRetaFinal = isRetaFinal && isConceitoMaduro && !jaRevistoNaRetaFinal;
+
+    if (isVencido || devePuxarRetaFinal) {
       const msDia = 1000 * 60 * 60 * 24;
       const tHoje = new Date(dataRef).getTime();
       const tPrev = new Date(estado.proximaRevisao).getTime();
-      const diasAtraso = Math.max(0, Math.floor((tHoje - tPrev) / msDia));
+      const diasAtraso = isVencido ? Math.max(0, Math.floor((tHoje - tPrev) / msDia)) : 0;
+
+      const tUltima = estado.dataUltimaRevisao
+        ? new Date(estado.dataUltimaRevisao).getTime()
+        : new Date(dataRef).getTime();
+      const diasSemRevisao = Math.max(0, Math.floor((tHoje - tUltima) / msDia));
 
       let score = 0;
-      // Prioridade 1: Estado Crítico (erros recentes)
+
+      // U5.4 - Priorização estrita:
+      // (1) Com erro anterior
+      if (estado.totalErros > 0) score += 3000;
       if (estado.estadoDominio === 'critico') score += 2000;
+
       // Prioridade Hipercorreção (Butterfield & Metcalfe, 2001): erro cometido com alta confiança
       const isHipercorrecao = estado.prioridadeHipercorrecao ||
         (estado.ultimaConfianca === 'certeza' && (estado.historico?.[0]?.acertou === false || estado.totalErros > 0));
       if (isHipercorrecao) score += 1500;
-      // Prioridade 2: Caixa 1
-      if (estado.caixaLeitner === 1) score += 1000;
-      else if (estado.caixaLeitner === 2) score += 500;
-      // Prioridade 3: Dias de atraso (10 pts por dia)
-      score += diasAtraso * 10;
-      // Prioridade 4: Menor taxa de acerto
-      const taxaAcerto = estado.totalAparicoes > 0 ? estado.totalAcertos / estado.totalAparicoes : 0;
-      score += Math.round((1 - taxaAcerto) * 100);
 
-      // Prioridade 5 (Fase 7): Bônus para conteúdos de alta densidade técnica não dominados
+      // (2) Com menor taxa de acerto
+      const taxaAcerto = estado.totalAparicoes > 0 ? estado.totalAcertos / estado.totalAparicoes : 0;
+      score += Math.round((1 - taxaAcerto) * 1000);
+
+      // (3) Sem revisão há mais tempo
+      score += diasSemRevisao * 20;
+
+      // Bônus para itens estritamente vencidos sobre antecipações
+      if (isVencido) {
+        score += 1000;
+        score += diasAtraso * 10;
+        if (estado.caixaLeitner === 1) score += 500;
+        else if (estado.caixaLeitner === 2) score += 250;
+      } else if (devePuxarRetaFinal) {
+        score += 800; // Puxado na reta final para consolidação pré-prova
+      }
+
+      // Prioridade 5: Bônus para conteúdos de alta densidade técnica não dominados
       const subNormalizado = `sub-${conceito.submoduloId.replace('.', '-')}`;
       if (submodulosAltaDensidadeSet.has(conceito.submoduloId) || submodulosAltaDensidadeSet.has(subNormalizado)) {
         score += 300;
       }
 
-      // Prioridade 6 (Fase 7): Peso do módulo no edital (M7 reduzido a 0.5; M1, M2, M6, M8, M10, M14 com 1.5)
+      // Prioridade 6: Peso do módulo no edital
       const pesoEdital = REVIEW_CONFIG.pesosRiscoModulo[conceito.moduloId] ?? 1.0;
       score = Math.round(score * pesoEdital);
 

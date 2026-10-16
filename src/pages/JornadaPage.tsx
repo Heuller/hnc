@@ -153,9 +153,9 @@ export const JornadaPage: React.FC = () => {
               </span>
               <span
                 className="text-[10px] text-ink-2 font-sans block mt-0.5"
-                title="40 submódulos teóricos + 10 desafios integradores + 9 portais cumulativos"
+                title={`${metricas.totalEtapas} etapas formativas da Trilha Específica`}
               >
-                {metricas.etapasConcluidas} de 59 etapas
+                {metricas.etapasConcluidas} de {metricas.totalEtapas} etapas
               </span>
             </div>
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
@@ -164,7 +164,7 @@ export const JornadaPage: React.FC = () => {
                 {metricas.etapasConcluidas} / {metricas.totalEtapas}
               </span>
               <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
-                40 sub + 10 des + 9 port
+                Submódulos + Revisões + Desafios
               </span>
             </div>
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
@@ -173,7 +173,7 @@ export const JornadaPage: React.FC = () => {
                 {metricas.prontidaoPercent}%
               </span>
               <span className="text-[10px] text-ink-2 font-sans block mt-0.5">
-                Média das 59 etapas
+                Média das {metricas.totalEtapas} etapas
               </span>
             </div>
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
@@ -187,7 +187,7 @@ export const JornadaPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Painel Explicativo de Fórmulas e Composição (C7) */}
+          {/* Painel Explicativo de Fórmulas e Composição (C7 / D12) */}
           {showCalculoInfo && (
             <div className="p-4 rounded-xl bg-surface-2 border border-border text-xs text-ink-2 space-y-2.5 animate-fadeIn">
               <h4 className="font-sans font-bold text-ink text-xs uppercase tracking-wide">
@@ -195,13 +195,13 @@ export const JornadaPage: React.FC = () => {
               </h4>
               <ul className="space-y-1.5 list-disc list-inside leading-relaxed">
                 <li>
-                  <strong className="text-ink">Composição das 59 Etapas:</strong> 40 submódulos teóricos (M1 a M10, 4 submódulos cada) + 10 Desafios de Módulo (100 itens inéditos, mín. 85 acertos) + 9 Portais de Revisão Cumulativa (20 itens, mín. 17 acertos, entre M2 e M10) = 59 etapas.
+                  <strong className="text-ink">Composição da Trilha Específica ({metricas.totalEtapas} etapas):</strong> Submódulos teóricos da Trilha Específica (M1 a M10) + Submódulos de Revisão Científica Rn + Desafios de Módulo (100 itens inéditos, mín. 85 acertos) = {metricas.totalEtapas} etapas.
                 </li>
                 <li>
-                  <strong className="text-ink">Taxa de Domínio:</strong> (Etapas Concluídas / 59) × 100%. Uma etapa só é concluída ao atingir aproveitamento &ge; 85% e ler 100% dos textos teóricos canônicos.
+                  <strong className="text-ink">Taxa de Domínio:</strong> (Etapas Concluídas / {metricas.totalEtapas}) × 100%. Uma etapa só é concluída ao atingir aproveitamento &ge; 85% e ler 100% dos textos teóricos canônicos.
                 </li>
                 <li>
-                  <strong className="text-ink">Prontidão Global Calculada:</strong> Média aritmética simples do melhor aproveitamento percentual obtido nas 59 etapas da trilha (&sum; aproveitamento / 59). Etapas ainda não concluídas contribuem com 0%.
+                  <strong className="text-ink">Prontidão Global Calculada:</strong> Média aritmética simples do melhor aproveitamento percentual obtido nas {metricas.totalEtapas} etapas da trilha (&sum; aproveitamento / {metricas.totalEtapas}). Etapas ainda não concluídas contribuem com 0%.
                 </li>
                 <li>
                   <strong className="text-ink">Fator Cebraspe:</strong> 1 erro anula 1 acerto. Calculado e apresentado de forma autônoma como nota líquida (Certos &minus; Errados) em todos os relatórios e simulados.
@@ -291,7 +291,7 @@ export const JornadaPage: React.FC = () => {
           <button
             type="button"
             role="tab"
-            aria-label="Trilha Principal · Específicos"
+            aria-label="Trilha Específica · M1 a M10"
             aria-selected={abaTrilha === 'especificos'}
             onClick={() => setAbaTrilha('especificos')}
             className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
@@ -300,7 +300,7 @@ export const JornadaPage: React.FC = () => {
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            <span>Trilha Principal</span>
+            <span>Trilha Específica</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-accent/10 text-accent font-semibold">
               M1 a M10
             </span>
@@ -309,7 +309,7 @@ export const JornadaPage: React.FC = () => {
           <button
             type="button"
             role="tab"
-            aria-label="Trilha Complementar · Conhecimentos Gerais"
+            aria-label="Acervo Complementar · Trilha Complementar · M11 a M14"
             aria-selected={abaTrilha === 'complementar'}
             onClick={() => setAbaTrilha('complementar')}
             className={`px-3 sm:px-4 py-2.5 rounded-lg text-xs sm:text-sm font-serif font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
@@ -318,7 +318,7 @@ export const JornadaPage: React.FC = () => {
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            <span>Trilha Complementar</span>
+            <span>Acervo Complementar</span>
             <span className="px-1.5 py-0.5 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-700 dark:text-purple-300 font-semibold">
               M11 a M14
             </span>
@@ -327,8 +327,8 @@ export const JornadaPage: React.FC = () => {
 
         <span className="text-xs text-ink-2">
           {abaTrilha === 'especificos'
-            ? 'Progressão sequencial com verificação estrita e 59 etapas de domínio.'
-            : 'Estudo autônomo com questões assistidas por IA ancoradas em fontes primárias.'}
+            ? `Trilha Específica de Domínio (M1 a M10) com ${metricas.totalEtapas} etapas formativas.`
+            : 'Acervo Complementar de Conhecimentos Básicos (M11 a M14) com estudo autônomo e simulados.'}
         </span>
       </div>
 
@@ -473,6 +473,47 @@ export const JornadaPage: React.FC = () => {
                   })}
                 </div>
 
+                {/* SUBMÓDULO DE REVISÃO CIENTÍFICA R(k) (Marco R4/R5 e U5.3) */}
+                {etapaPortal && (
+                  <div
+                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
+                      etapaPortal.status === 'concluida'
+                        ? 'bg-purple-500/5 border-purple-500/30'
+                        : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
+                            {etapaPortal.titulo}
+                          </h3>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-bold bg-purple-500/20 text-purple-700 dark:text-purple-300 border border-purple-500/30 uppercase tracking-wider">
+                            Recomendado
+                          </span>
+                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
+                            Revisão R{k} · 20 Itens
+                          </span>
+                        </div>
+                        <p className="text-xs text-ink-2">
+                          10 a 20 assertivas intercaladas de todos os submódulos já concluídos até o módulo {k}. Retenção cumulativa com formatos cognitivos F1 a F8.
+                        </p>
+                      </div>
+                    </div>
+
+                    <Button
+                      variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
+                      size="sm"
+                      onClick={() => handleOpenPortao(etapaPortal.id)}
+                      className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
+                    >
+                      <span>{etapaPortal.status === 'concluida' ? 'Revisão Dominada' : `Iniciar Revisão R${k}`}</span>
+                      <DoorOpen className="w-4 h-4" />
+                    </Button>
+                  </div>
+                )}
+
                 {/* DESAFIO DO MÓDULO (Simulado de 100 itens) */}
                 {etapaDesafio && (
                   <div
@@ -514,44 +555,6 @@ export const JornadaPage: React.FC = () => {
                     >
                       <span>{etapaDesafio.status === 'concluida' ? 'Revisar Desafio 100Q' : 'Iniciar Desafio 100Q'}</span>
                       <ChevronRight className="w-4 h-4" />
-                    </Button>
-                  </div>
-                )}
-
-                {/* SUBMÓDULO DE REVISÃO CIENTÍFICA R(k) (Marco R4/R5) */}
-                {etapaPortal && (
-                  <div
-                    className={`p-4 sm:p-5 rounded-xl border flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
-                      etapaPortal.status === 'concluida'
-                        ? 'bg-purple-500/5 border-purple-500/30'
-                        : 'bg-purple-500/10 border-purple-500/30 shadow-2xs'
-                    }`}
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <IllustrationPortal width={52} height={42} color="#9333ea" className="shrink-0" />
-                      <div>
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <h3 className="font-serif font-bold text-sm sm:text-base text-ink">
-                            {etapaPortal.titulo}
-                          </h3>
-                          <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold bg-surface border border-purple-500/30 text-purple-700 dark:text-purple-300">
-                            Revisão R{k} · 20 Itens (10C / 10E)
-                          </span>
-                        </div>
-                        <p className="text-xs text-ink-2">
-                          Revisão cumulativa com formatos cognitivos F1 a F8 (60% de M{k} e 40% de precedentes). Mínimo 85% de acertos para liberação formal.
-                        </p>
-                      </div>
-                    </div>
-
-                    <Button
-                      variant={etapaPortal.status === 'concluida' ? 'outline' : 'primary'}
-                      size="sm"
-                      onClick={() => handleOpenPortao(etapaPortal.id)}
-                      className="self-start sm:self-auto flex items-center gap-1.5 bg-purple-600 hover:bg-purple-700 text-white"
-                    >
-                      <span>{etapaPortal.status === 'concluida' ? 'Revisão Dominada' : `Iniciar Revisão R${k}`}</span>
-                      <DoorOpen className="w-4 h-4" />
                     </Button>
                   </div>
                 )}
@@ -643,7 +646,7 @@ export const JornadaPage: React.FC = () => {
           <div className="bg-surface border border-purple-500/30 rounded-2xl p-5 sm:p-6 shadow-editorial-sm space-y-3">
             <div className="flex items-center gap-2 flex-wrap">
               <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300">
-                Trilha Complementar · Conhecimentos Gerais
+                Acervo Complementar · Conhecimentos Básicos (M11 a M14)
               </span>
               <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300">
                 Fontes Primárias Verificadas
@@ -656,7 +659,7 @@ export const JornadaPage: React.FC = () => {
               Direito Administrativo (M11), Língua Inglesa (M12), Língua Portuguesa (M13) e Tecnologia da Informação e Dados (M14)
             </h2>
             <p className="text-xs sm:text-sm text-ink-2 leading-relaxed">
-              Estes módulos cobrem com exaustão as disciplinas de Conhecimentos Básicos do Edital nº 1/2026 da Câmara dos Deputados (Cebraspe). As questões e checkpoints são ancorados em fontes primárias canônicas (Bechara, Cunha & Cintra, Lei 8.112/90, Lei 14.133/2021, Murphy, Tanenbaum, Stallings, Tufte e normas técnicas). O estudo aqui é autônomo e não altera as 59 etapas da Trilha Principal.
+              Estes módulos cobrem com exaustão as disciplinas de Conhecimentos Básicos do Edital nº 1/2026 da Câmara dos Deputados (Cebraspe). As questões e checkpoints são ancorados em fontes primárias canônicas (Bechara, Cunha & Cintra, Lei 8.112/90, Lei 14.133/2021, Murphy, Tanenbaum, Stallings, Tufte e normas técnicas). O estudo aqui é autônomo e complementa a Trilha Específica (M1 a M10).
             </p>
           </div>
 

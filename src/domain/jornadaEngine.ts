@@ -169,13 +169,12 @@ export function selecionarProximoPassoComDesempate(
   });
 
   if (revisaoVencida) {
-    const moduloRevisado = revisaoVencida.moduloNumero - 1;
     return {
       etapaId: revisaoVencida.id,
       tipo: revisaoVencida.tipo,
       moduloNumero: revisaoVencida.moduloNumero,
       titulo: revisaoVencida.tituloCurto || revisaoVencida.titulo,
-      descricaoAcao: `Revisar M${moduloRevisado} (20 itens, mín. 17 acertos)`,
+      descricaoAcao: `Revisão R${revisaoVencida.moduloNumero}: Retenção Cumulativa (20 itens)`,
       status: revisaoVencida.status,
       motivo: 'revisao_vencida',
       explicacaoMotivo:
@@ -220,7 +219,7 @@ export function selecionarProximoPassoComDesempate(
         temaNovo.tipo === 'desafio_modulo'
           ? `Iniciar simulado do M${temaNovo.moduloNumero}`
           : temaNovo.tipo === 'submodulo_revisao' || temaNovo.tipo === 'portal_revisao'
-          ? `Revisar M${temaNovo.moduloNumero - 1} (20 itens)`
+          ? `Revisão R${temaNovo.moduloNumero}: Retenção Cumulativa (20 itens)`
           : temaNovo.status === 'em_andamento'
           ? 'Continuar estudo e realizar verificação'
           : 'Iniciar leitura do submódulo',
@@ -288,7 +287,7 @@ export function deriveJornadaState(params: {
   const modulosTrilha = modulos
     .filter((m) => {
       const num = extrairNumero(m);
-      return num >= 1 && num <= 10;
+      return (num >= 1 && num <= 10) || num === 14;
     })
     .sort((a, b) => extrairNumero(a) - extrairNumero(b));
 
@@ -476,15 +475,11 @@ export function deriveJornadaState(params: {
       foraDaTrilha: false,
     };
 
-    etapas[desafioId] = etapaDesafio;
-    etapasOrdenadas.push(etapaDesafio);
-
-    // 3. Submódulo de Revisão Científica Rn (antigo Portal P(k) migrado com histórico - Marco R4/R5)
-    // De M1 para M2 não há portal/revisão intermediária; ocorre a partir de k >= 2
-    if (k >= 2) {
+    // 2. Submódulo de Revisão Científica Rn (U5.3: atividade recomendada sem trava ao fim de cada módulo k)
+    // Elegíveis: M1 a M10 e M14
+    if ((k >= 1 && k <= 10) || k === 14) {
       const portalId = `portal-${macro.id}`;
       const revisaoId = `revisao-${macro.id}`;
-      const moduloRevisado = k - 1;
 
       // Busca tentativas registradas tanto com o novo ID (revisao-mk) quanto com o ID legado (portal-mk)
       const tentativasNovo = filtrarTentativasPorTarget(tentativas, revisaoId, false);
@@ -521,20 +516,20 @@ export function deriveJornadaState(params: {
         tipo: 'submodulo_revisao',
         moduloNumero: k,
         moduloId: macro.id,
-        titulo: `Submódulo de Revisão Científica R${k}: Retenção de M${moduloRevisado}`,
+        titulo: `Submódulo de Revisão Científica R${k}: Retenção Cumulativa`,
         tituloCurto: `Revisão R${k}`,
         status: statusRevisao,
         isDesbloqueada: isRevisaoDesbloqueada,
         totalItens: JORNADA_CONFIG.portalItensTotal, // 20
         acertosNecessarios: JORNADA_CONFIG.portalAcertosMinimo, // 17
         errosMaximos: JORNADA_CONFIG.portalErrosMaximo, // 3
-        descricaoRegra: `${JORNADA_CONFIG.portalAcertosMinimo} acertos em ${JORNADA_CONFIG.portalItensTotal} itens (no máximo ${JORNADA_CONFIG.portalErrosMaximo} erros)`,
+        descricaoRegra: `10 a 20 assertivas intercaladas de todos os submódulos já concluídos até o módulo ${k}`,
         tentativasCount: tentativasCombinadas.length,
         ultimaTentativa: ultimaTentativaRevisao,
         melhorAproveitamentoPercent: melhorAprovRevisao,
         aprovado: revisaoConcluida,
         revisaoDirigida,
-        requisitoDesbloqueio: `Conclua o Desafio do Módulo M${k} com 85% ou mais para liberar a Revisão R${k}.`,
+        requisitoDesbloqueio: `Atividade recomendada de retenção cumulativa para o Módulo M${k}.`,
         foraDaTrilha: false,
       };
 
@@ -545,8 +540,13 @@ export function deriveJornadaState(params: {
         id: portalId,
         tipo: 'portal_revisao',
       };
+      // Sugere Rn antes do Desafio do módulo (U5.3)
       etapasOrdenadas.push(etapaRevisao);
     }
+
+    // 3. Desafio do Módulo Mk (100 itens - Regra D.1 e D.2)
+    etapas[desafioId] = etapaDesafio;
+    etapasOrdenadas.push(etapaDesafio);
   }
 
   // U2.5: Próxima ação recomendada determinística com explicação pedagógica

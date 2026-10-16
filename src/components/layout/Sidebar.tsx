@@ -308,14 +308,14 @@ export const Sidebar: React.FC = () => {
           <div className="flex items-center gap-2">
             <BookOpen className="w-4 h-4 text-accent" aria-hidden="true" />
             <h2 className="text-xs font-bold uppercase tracking-wider text-ink">
-              Trilha de Módulos
+              Módulos do Curso
             </h2>
           </div>
           <span
             className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
-            title="10 Específicos (M1 a M10) + 4 Básicos (M11 a M14) + Mini-Módulo 2.5 (15 Blocos no Total)"
+            title="Trilha Específica (M1 a M10) + Acervo Complementar (M11 a M14)"
           >
-            {ALL_COURSE_MODULES.length} Blocos
+            M1–M10 · M11–M14
           </span>
         </div>
 
