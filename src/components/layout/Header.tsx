@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, BarChart3, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, Compass, Dumbbell, Palette } from 'lucide-react';
+import { BookOpen, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, Compass, Dumbbell, Palette } from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
 import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
 import { getSearchShortcutLabel } from '../../utils/platform';
-import { useDicionarioStore } from '../../store/useDicionarioStore';
 import { UserMenuDropdown } from './UserMenuDropdown';
 
 interface HeaderProps {
@@ -18,11 +17,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
   const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
 
-  const navItems: { view: AppView; label: string; shortLabel?: string; icon: React.ReactNode }[] = [
+  const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
     { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4 shrink-0" /> },
     { view: 'jornada', label: 'Jornada', icon: <Compass className="w-4 h-4 shrink-0" /> },
     { view: 'treinos', label: 'Treinos', icon: <Dumbbell className="w-4 h-4 shrink-0" /> },
-    { view: 'radar', label: 'Radar Cebraspe', shortLabel: 'Radar', icon: <BarChart3 className="w-4 h-4 shrink-0" /> },
     { view: 'progresso', label: 'Progresso', icon: <TrendingUp className="w-4 h-4 shrink-0" /> },
   ];
 
@@ -177,43 +175,24 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                 )}
                 <span className="relative z-10 flex items-center gap-1.5 whitespace-nowrap shrink-0">
                   {item.icon}
-                  <span>
-                    {item.shortLabel ? (
-                      <>
-                        <span className="hidden xl:inline">{item.label}</span>
-                        <span className="xl:hidden">{item.shortLabel}</span>
-                      </>
-                    ) : (
-                      item.label
-                    )}
-                  </span>
+                  <span>{item.label}</span>
                 </span>
               </button>
             );
           })}
         </nav>
 
-        {/* Right: Search, DEV tools & Theme Toggle */}
+        {/* Right: Search, DEV tools, Theme Toggle & User Menu */}
         <div className="hidden md:flex items-center gap-1.5 sm:gap-2 shrink-0">
           <button
             type="button"
-            onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-            className="flex items-center gap-1.5 py-1.5 px-2 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
-            title="Dicionário Técnico Cebraspe"
-            aria-label="Abrir glossário e dicionário técnico"
-          >
-            <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs hidden 2xl:inline">Glossário</span>
-          </button>
-          <button
-            type="button"
             onClick={onOpenSearch}
-            className="flex items-center gap-1.5 py-1.5 px-2 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0"
+            className="flex items-center gap-1.5 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0 min-h-[38px]"
             title={`Busca Global (${getSearchShortcutLabel()})`}
             aria-label="Abrir busca global"
           >
             <Search className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs hidden 2xl:inline">Buscar</span>
+            <span className="font-sans text-xs hidden lg:inline">Buscar</span>
             <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
               {getSearchShortcutLabel()}
             </span>
