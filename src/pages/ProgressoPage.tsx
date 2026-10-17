@@ -145,11 +145,13 @@ export const ProgressoPage: React.FC = () => {
         <Info className="w-5 h-5 text-accent shrink-0 mt-0.5" />
         <div className="text-xs sm:text-sm text-ink-2 font-sans leading-relaxed">
           <strong className="text-ink font-semibold">
-            Privacidade e Armazenamento Local:
+            Privacidade e Armazenamento dos Dados:
           </strong>{' '}
-          Seus dados de estudo ficam salvos 100% no seu navegador (sem rastreadores ou servidores
-          externos). Limpar o histórico ou cache do navegador apagará o progresso. Recomendamos
-          fazer download regular do seu backup com o botão <strong>Exportar Progresso</strong>.
+          Seus dados de estudo são armazenados prioritariamente no seu próprio navegador (offline-first,
+          sem rastreadores invasivos). A sincronização em nuvem via Supabase é <strong>opcional</strong>,
+          voltada para backup e continuidade em múltiplos dispositivos. Limpar o histórico ou cache do
+          navegador sem sincronização ativa apagará os dados locais. Recomendamos fazer download regular
+          do seu arquivo de segurança com o botão <strong>Exportar Progresso</strong>.
         </div>
       </div>
 
