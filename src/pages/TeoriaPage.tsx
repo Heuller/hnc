@@ -430,92 +430,49 @@ export const TeoriaPage: React.FC = () => {
           </header>
 
           {/* Barra de Etapas do Submódulo Estruturada (U1 / D6) */}
-          <nav
-            aria-label="Etapas pedagógicas deste submódulo"
-            className="hidden md:block bg-surface-2/70 border border-border rounded-xl p-3 shadow-2xs"
-          >
-            <div className="flex items-center justify-between mb-2 px-1">
-              <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-ink-2">
-                Jornada do Submódulo (Ciclo de Domínio)
-              </span>
-              <span className="text-[11px] font-mono text-ink-2">
-                4 Etapas Obrigatórias
-              </span>
-            </div>
-
-            <div className="grid grid-cols-4 gap-2">
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-teoria')}
-                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
+          {(() => {
+            const etapasBarra = [
+              { id: 'sec-teoria', num: 1, rotulo: '1. Ler', desc: 'Teoria & Doutrina' },
+              { id: 'sec-recuperacao-ativa', num: 2, rotulo: '2. Praticar', desc: 'Recuperação Ativa' },
+              { id: 'sec-mnemonicos', num: 3, rotulo: '3. Revisar', desc: 'Mnemônicos & Síntese' },
+              { id: 'sec-checkpoints', num: 4, rotulo: '4. Verificar', desc: 'Micro-Checkpoints' },
+            ];
+            return (
+              <nav
+                aria-label="Etapas pedagógicas deste submódulo"
+                className="hidden md:block bg-surface-2/70 border border-border rounded-xl p-3 shadow-2xs"
               >
-                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
-                  1
-                </div>
-                <div className="min-w-0">
-                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
-                    1. Ler
+                <div className="flex items-center justify-between mb-2 px-1">
+                  <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-ink-2">
+                    Jornada do Submódulo (Ciclo de Domínio)
                   </span>
-                  <span className="text-[10px] text-ink-2 truncate block mt-1">
-                    Teoria & Doutrina
+                  <span className="text-[11px] font-mono text-ink-2">
+                    {etapasBarra.length} Etapas Obrigatórias
                   </span>
                 </div>
-              </button>
 
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-recuperacao-ativa')}
-                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
-              >
-                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
-                  2
+                <div className="grid grid-cols-4 gap-2">
+                  {etapasBarra.map((etapa) => (
+                    <button
+                      key={etapa.id}
+                      type="button"
+                      onClick={() => scrollToAnchor(etapa.id)}
+                      className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
+                    >
+                      <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
+                        {etapa.num}
+                      </div>
+                      <div className="min-w-0">
+                        <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
+                          {etapa.rotulo}
+                        </span>
+                        <span className="text-[10px] text-ink-2 truncate block mt-1">
+                          {etapa.desc}
+                        </span>
+                      </div>
+                    </button>
+                  ))}
                 </div>
-                <div className="min-w-0">
-                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
-                    2. Praticar
-                  </span>
-                  <span className="text-[10px] text-ink-2 truncate block mt-1">
-                    Recuperação Ativa
-                  </span>
-                </div>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-mnemonicos')}
-                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
-              >
-                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
-                  3
-                </div>
-                <div className="min-w-0">
-                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
-                    3. Revisar
-                  </span>
-                  <span className="text-[10px] text-ink-2 truncate block mt-1">
-                    Mnemônicos & Síntese
-                  </span>
-                </div>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-checkpoints')}
-                className="flex items-center gap-2 p-2 rounded-lg bg-surface border border-border/80 hover:border-accent hover:bg-accent-soft/30 transition-all text-ink font-semibold group cursor-pointer text-left"
-              >
-                <div className="w-6 h-6 rounded-md bg-accent-soft text-accent flex items-center justify-center shrink-0 font-mono text-xs font-bold">
-                  4
-                </div>
-                <div className="min-w-0">
-                  <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
-                    4. Verificar
-                  </span>
-                  <span className="text-[10px] text-ink-2 truncate block mt-1">
-                    Micro-Checkpoints
-                  </span>
-                </div>
-              </button>
-            </div>
 
             {/* Acesso rápido às seções complementares sem separadores soltos */}
             <div className="flex flex-wrap items-center gap-2 pt-2.5 mt-2.5 border-t border-border/60 text-[11px] text-ink-2">
@@ -552,6 +509,8 @@ export const TeoriaPage: React.FC = () => {
               </button>
             </div>
           </nav>
+        );
+      })()}
 
           {/* Bloco 1: Autores Canônicos */}
           <div id="sec-autores">
@@ -759,18 +718,16 @@ export const TeoriaPage: React.FC = () => {
                         </span>
                       </div>
                       <h3 className="text-lg sm:text-xl font-serif font-bold text-ink">
-                        {isMini
-                          ? 'Pronto para o Simulado Especial de 30 Questões Cebraspe?'
-                          : 'Pronto para o Simulado de 100 Questões Cebraspe?'}
+                        Pronto para o Simulado de {simuladoDoMacro.questoes.length} Questões Cebraspe?
                       </h3>
                       <p className="text-xs sm:text-sm text-ink-2 font-serif max-w-2xl leading-relaxed">
                         {isMini ? (
                           <>
-                            Você completou o estudo essencial sobre os <strong>órgãos públicos</strong>, regras de <strong>catalogação governamental</strong> e a <strong>Biblioteca Pedro Aleixo</strong>. Teste sua retenção agora no caderno com <strong>30 assertivas C/E inéditas</strong> comentadas item a item.
+                            Você completou o estudo essencial sobre os <strong>órgãos públicos</strong>, regras de <strong>catalogação governamental</strong> e a <strong>Biblioteca Pedro Aleixo</strong>. Teste sua retenção agora no caderno com <strong>{simuladoDoMacro.questoes.length} assertivas C/E inéditas</strong> comentadas item a item.
                           </>
                         ) : (
                           <>
-                            Você completou toda a base teórica de <strong>{currentMacro.titulo_curto || currentMacro.titulo}</strong>. Agora aplique o <strong>Estudo Reverso imediato</strong> no caderno com 100 assertivas comentadas item a item.
+                            Você completou toda a base teórica de <strong>{currentMacro.titulo_curto || currentMacro.titulo}</strong>. Agora aplique o <strong>Estudo Reverso imediato</strong> no caderno com {simuladoDoMacro.questoes.length} assertivas comentadas item a item.
                           </>
                         )}
                       </p>
@@ -782,7 +739,7 @@ export const TeoriaPage: React.FC = () => {
                     onClick={() => navigateToSimulado(simuladoDoMacro.id)}
                     className="w-full sm:w-auto py-3.5 px-6 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 transition-all shadow-md active:scale-98 cursor-pointer shrink-0"
                   >
-                    <span>{isMini ? 'Iniciar Simulado Especial (30Q)' : 'Iniciar Simulado 100Q'}</span>
+                    <span>Iniciar Simulado ({simuladoDoMacro.questoes.length}Q)</span>
                     <ArrowRight className="w-5 h-5" />
                   </button>
                 </div>
@@ -836,7 +793,9 @@ export const TeoriaPage: React.FC = () => {
                   onClick={() => navigateToSimulado(rodapeNav.simuladoModuloId)}
                   className="w-full sm:w-auto py-2.5 px-4 rounded-lg bg-accent text-accent-contrast font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer hover:bg-accent/90"
                 >
-                  <span>Ir ao simulado do M{rodapeNav.moduloNumero} (100 itens)</span>
+                  <span>
+                    Ir ao simulado do M{rodapeNav.moduloNumero} ({getSimuladoById(rodapeNav.simuladoModuloId)?.questoes.length || 100} itens)
+                  </span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <button

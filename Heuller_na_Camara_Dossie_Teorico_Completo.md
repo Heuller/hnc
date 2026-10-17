@@ -10,117 +10,117 @@
 ### PARTE I: CONHECIMENTOS ESPECÍFICOS (MÓDULOS M1 A M10 + M2.5)
 
 #### M1: Fundamentos da Biblioteconomia, Documentação e Ciência da Informação
-- **Submódulo 1.1:** Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica
-- **Submódulo 1.2:** As Cinco Leis de Ranganathan e Releituras Contemporâneas
-- **Submódulo 1.3:** Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões
-- **Submódulo 1.4:** Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas
-- **Submódulo 1.5:** Ciclo de Vida, Qualidade e Memória da Informação
-- **Submódulo 1.6:** Governança da Informação e Governança de Dados
+- [**Submódulo 1.1:** Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica](#submodulo-11)
+- [**Submódulo 1.2:** As Cinco Leis de Ranganathan e Releituras Contemporâneas](#submodulo-12)
+- [**Submódulo 1.3:** Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões](#submodulo-13)
+- [**Submódulo 1.4:** Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas](#submodulo-14)
+- [**Submódulo 1.5:** Ciclo de Vida, Qualidade e Memória da Informação](#submodulo-15)
+- [**Submódulo 1.6:** Governança da Informação e Governança de Dados](#submodulo-16)
 
 #### M2: Catalogação, Metadados e Modelos Conceituais
-- **Submódulo 2.1:** Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r
-- **Submódulo 2.2:** O Padrão RDA (Resource Description and Access) e o Projeto 3R
-- **Submódulo 2.3:** Modelos Conceituais: A Família FRBR e o IFLA LRM
-- **Submódulo 2.4:** Notação de Autor, Formato MARC 21 e Padrão Dublin Core
-- **Submódulo 2.6:** Metadados: Tipologia, Qualidade, Perfis de Aplicação, Crosswalks, Imagem e Som
-- **Submódulo 2.7:** MODS, METS, BIBFRAME, Linked Data e Interoperabilidade
+- [**Submódulo 2.1:** Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r](#submodulo-21)
+- [**Submódulo 2.2:** O Padrão RDA (Resource Description and Access) e o Projeto 3R](#submodulo-22)
+- [**Submódulo 2.3:** Modelos Conceituais: A Família FRBR e o IFLA LRM](#submodulo-23)
+- [**Submódulo 2.4:** Notação de Autor, Formato MARC 21 e Padrão Dublin Core](#submodulo-24)
+- [**Submódulo 2.6:** Metadados: Tipologia, Qualidade, Perfis de Aplicação, Crosswalks, Imagem e Som](#submodulo-26)
+- [**Submódulo 2.7:** MODS, METS, BIBFRAME, Linked Data e Interoperabilidade](#submodulo-27)
 
 #### M2.5: Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara
-- **Submódulo 2.5:** Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados
+- [**Submódulo 2.5:** Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados](#submodulo-25)
 
 #### M3: Classificação Documentária e Indexação
-- **Submódulo 3.1:** Teoria da Classificação, CDD (23ª ed.) e CDU
-- **Submódulo 3.2:** Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)
-- **Submódulo 3.3:** Análise Documentária e Processo de Indexação
-- **Submódulo 3.4:** Linguagens Documentárias, Tesauros, Ontologias e SKOS
+- [**Submódulo 3.1:** Teoria da Classificação, CDD (23ª ed.) e CDU](#submodulo-31)
+- [**Submódulo 3.2:** Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)](#submodulo-32)
+- [**Submódulo 3.3:** Análise Documentária e Processo de Indexação](#submodulo-33)
+- [**Submódulo 3.4:** Linguagens Documentárias, Tesauros, Ontologias e SKOS](#submodulo-34)
 
 #### M4: Recuperação da Informação, Fontes e Usuários
-- **Submódulo 4.1:** Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca
-- **Submódulo 4.2:** Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação
-- **Submódulo 4.3:** Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil
-- **Submódulo 4.4:** Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional
+- [**Submódulo 4.1:** Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca](#submodulo-41)
+- [**Submódulo 4.2:** Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação](#submodulo-42)
+- [**Submódulo 4.3:** Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil](#submodulo-43)
+- [**Submódulo 4.4:** Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional](#submodulo-44)
 
 #### M5: Gestão de Unidades de Informação e Coleções
-- **Submódulo 5.1:** Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho
-- **Submódulo 5.2:** CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional
-- **Submódulo 5.3:** Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação
-- **Submódulo 5.4:** Gestão da Informação e Gestão do Conhecimento Organizacional
+- [**Submódulo 5.1:** Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho](#submodulo-51)
+- [**Submódulo 5.2:** CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional](#submodulo-52)
+- [**Submódulo 5.3:** Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação](#submodulo-53)
+- [**Submódulo 5.4:** Gestão da Informação e Gestão do Conhecimento Organizacional](#submodulo-54)
 
 #### M6: Bibliotecas Digitais, Repositórios e Inteligência Artificial
-- **Submódulo 6.1:** Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade
-- **Submódulo 6.2:** Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)
-- **Submódulo 6.3:** Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas
-- **Submódulo 6.4:** Inteligência Artificial na Biblioteconomia e na Ciência da Informação
-- **Submódulo 6.5:** Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL
-- **Submódulo 6.6:** Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping
-- **Submódulo 6.7:** IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses
+- [**Submódulo 6.1:** Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade](#submodulo-61)
+- [**Submódulo 6.2:** Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)](#submodulo-62)
+- [**Submódulo 6.3:** Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas](#submodulo-63)
+- [**Submódulo 6.4:** Inteligência Artificial na Biblioteconomia e na Ciência da Informação](#submodulo-64)
+- [**Submódulo 6.5:** Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL](#submodulo-65)
+- [**Submódulo 6.6:** Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping](#submodulo-66)
+- [**Submódulo 6.7:** IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses](#submodulo-67)
 
 #### M7: Preservação, Conservação e Memória Institucional
-- **Submódulo 7.1:** Agentes Ambientais e Físico-Químicos de Degradação de Acervos
-- **Submódulo 7.2:** Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)
-- **Submódulo 7.3:** Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos
-- **Submódulo 7.4:** Intervenções Curativas, Restauração e Planos de Contingência contra Desastres
+- [**Submódulo 7.1:** Agentes Ambientais e Físico-Químicos de Degradação de Acervos](#submodulo-71)
+- [**Submódulo 7.2:** Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)](#submodulo-72)
+- [**Submódulo 7.3:** Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos](#submodulo-73)
+- [**Submódulo 7.4:** Intervenções Curativas, Restauração e Planos de Contingência contra Desastres](#submodulo-74)
 
 #### M8: Normalização Documental e Normas da ABNT
-- **Submódulo 8.1:** ABNT NBR 6023:2018 (com Emenda 1:2020): Referências Bibliográficas
-- **Submódulo 8.2:** ABNT NBR 10520: Citações em Documentos (Versão 2023)
-- **Submódulo 8.3:** ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos
-- **Submódulo 8.4:** ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)
-- **Submódulo 8.5:** Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade
+- [**Submódulo 8.1:** ABNT NBR 6023:2025 (3ª Edição): Referências Bibliográficas](#submodulo-81)
+- [**Submódulo 8.2:** ABNT NBR 10520: Citações em Documentos (Versão 2023)](#submodulo-82)
+- [**Submódulo 8.3:** ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos](#submodulo-83)
+- [**Submódulo 8.4:** ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)](#submodulo-84)
+- [**Submódulo 8.5:** Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade](#submodulo-85)
 
 #### M9: Comunicação Científica, Ciência Aberta e Métricas
-- **Submódulo 9.1:** Ciclo da Comunicação Científica, Canais e Avaliação por Pares
-- **Submódulo 9.2:** Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR
-- **Submódulo 9.3:** Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons
-- **Submódulo 9.4:** Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria
+- [**Submódulo 9.1:** Ciclo da Comunicação Científica, Canais e Avaliação por Pares](#submodulo-91)
+- [**Submódulo 9.2:** Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR](#submodulo-92)
+- [**Submódulo 9.3:** Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons](#submodulo-93)
+- [**Submódulo 9.4:** Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria](#submodulo-94)
 
 #### M10: Legislação Federal e Contexto Legislativo
-- **Submódulo 10.1:** Regimento Interno da Câmara dos Deputados (RICD: Arts. 1-24, 65-94, 226-251 e 262-273)
-- **Submódulo 10.2:** Processo Legislativo Constitucional e Espécies de Proposições
-- **Submódulo 10.3:** Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública
-- **Submódulo 10.4:** Noções de Direito Constitucional Aplicadas ao Processo Legislativo
-- **Submódulo 10.5:** Poder Legislativo e Regime Jurídico dos Parlamentares na CF/88
-- **Submódulo 10.6:** Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)
+- [**Submódulo 10.1:** Regimento Interno da Câmara dos Deputados (RICD: Arts. 1-24, 65-94, 226-251 e 262-273)](#submodulo-101)
+- [**Submódulo 10.2:** Processo Legislativo Constitucional e Espécies de Proposições](#submodulo-102)
+- [**Submódulo 10.3:** Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública](#submodulo-103)
+- [**Submódulo 10.4:** Noções de Direito Constitucional Aplicadas ao Processo Legislativo](#submodulo-104)
+- [**Submódulo 10.5:** Poder Legislativo e Regime Jurídico dos Parlamentares na CF/88](#submodulo-105)
+- [**Submódulo 10.6:** Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)](#submodulo-106)
 
 ### PARTE II: CONHECIMENTOS GERAIS E BÁSICOS (MÓDULOS M11 A M14)
 
 #### M11: Noções de Direito Administrativo e Administração Pública
-- **Submódulo 11.1:** Estado, Governo, Princípios e Organização Administrativa
-- **Submódulo 11.2:** Ato Administrativo, Invalidação e Responsabilidade por Pareceres
-- **Submódulo 11.3:** Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)
-- **Submódulo 11.4:** Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)
-- **Submódulo 11.5:** Poderes Administrativos, Ciclo de Polícia e Abuso de Poder
-- **Submódulo 11.6:** Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso
-- **Submódulo 11.7:** Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)
-- **Submódulo 11.8:** Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública
-- **Submódulo 11.9:** Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)
-- **Submódulo 11.10:** Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência
-- **Submódulo 11.11:** Contratos Administrativos, Gestão e Fiscalização Contratual
-- **Submódulo 11.12:** Transparência e Privacidade: Lei de Acesso à Informação e LGPD
+- [**Submódulo 11.1:** Estado, Governo, Princípios e Organização Administrativa](#submodulo-111)
+- [**Submódulo 11.2:** Ato Administrativo, Invalidação e Responsabilidade por Pareceres](#submodulo-112)
+- [**Submódulo 11.3:** Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)](#submodulo-113)
+- [**Submódulo 11.4:** Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)](#submodulo-114)
+- [**Submódulo 11.5:** Poderes Administrativos, Ciclo de Polícia e Abuso de Poder](#submodulo-115)
+- [**Submódulo 11.6:** Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso](#submodulo-116)
+- [**Submódulo 11.7:** Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)](#submodulo-117)
+- [**Submódulo 11.8:** Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública](#submodulo-118)
+- [**Submódulo 11.9:** Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)](#submodulo-119)
+- [**Submódulo 11.10:** Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência](#submodulo-1110)
+- [**Submódulo 11.11:** Contratos Administrativos, Gestão e Fiscalização Contratual](#submodulo-1111)
+- [**Submódulo 11.12:** Transparência e Privacidade: Lei de Acesso à Informação e LGPD](#submodulo-1112)
 
 #### M12: Língua Inglesa (Inglês Instrumental)
-- **Submódulo 12.1:** Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)
-- **Submódulo 12.2:** Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa
-- **Submódulo 12.3:** Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)
-- **Submódulo 12.4:** Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe
+- [**Submódulo 12.1:** Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)](#submodulo-121)
+- [**Submódulo 12.2:** Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa](#submodulo-122)
+- [**Submódulo 12.3:** Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)](#submodulo-123)
+- [**Submódulo 12.4:** Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe](#submodulo-124)
 
 #### M13: Língua Portuguesa
-- **Submódulo 13.1:** Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe
-- **Submódulo 13.2:** A Arte da Reescritura e Paráfrase no Padrão Cebraspe
-- **Submódulo 13.3:** Sintaxe Avançada, Pontuação, Concordância, Regência e Crase
-- **Submódulo 13.4:** Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal
+- [**Submódulo 13.1:** Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe](#submodulo-131)
+- [**Submódulo 13.2:** A Arte da Reescritura e Paráfrase no Padrão Cebraspe](#submodulo-132)
+- [**Submódulo 13.3:** Sintaxe Avançada, Pontuação, Concordância, Regência e Crase](#submodulo-133)
+- [**Submódulo 13.4:** Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal](#submodulo-134)
 
 #### M14: Tecnologia da Informação e Dados
-- **Submódulo 14.1:** MSOffice 365 e Ferramentas de Comunicação e Colaboração
-- **Submódulo 14.2:** Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação
-- **Submódulo 14.3:** Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público
-- **Submódulo 14.4:** Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling
+- [**Submódulo 14.1:** MSOffice 365 e Ferramentas de Comunicação e Colaboração](#submodulo-141)
+- [**Submódulo 14.2:** Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação](#submodulo-142)
+- [**Submódulo 14.3:** Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público](#submodulo-143)
+- [**Submódulo 14.4:** Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling](#submodulo-144)
 
 ### PARTE III: APÊNDICES TEÓRICOS COMPLEMENTARES
-- **Apêndice A:** Temas Discursivos Oficiais com Enunciados e Espelhos Cebraspe (10 Temas Oficiais)
-- **Apêndice B:** Dicionário e Glossário Técnico Canônico Cebraspe (176 Verbetes Canônicos)
-- **Apêndice C:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)
-- **Apêndice D:** Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens Inéditos C/E Fundamentados)
+- [**Apêndice A:** Temas Discursivos Oficiais com Enunciados e Espelhos Cebraspe (12 Temas Oficiais)](#apendice-a-temas-discursivos-oficiais-e-espelhos-cebraspe)
+- [**Apêndice B:** Dicionário e Glossário Técnico Canônico Cebraspe (177 Verbetes Canônicos)](#apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe)
+- [**Apêndice C:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)](#apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026)
+- [**Apêndice D:** Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens Inéditos C/E Fundamentados)](#apendice-d-casos-integradores-intermodulos)
 
 ---
 
@@ -133,8 +133,9 @@ Estudo aprofundado dos objetos de estudo, fronteiras disciplinares, Leis de Rang
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-11"></a>
 ## SUBMÓDULO 1.1: Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica
-**Tempo Estimado:** 25 minutos
+**Tempo Estimado:** 25 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Gênese disciplinar, Paul Otlet e o Tratado de Documentação, Harold Borko e a emergência da CI pós-guerra, interdisciplinaridade e as divisões de Le Coadic.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -211,8 +212,10 @@ Na obra seminal *Traité de Documentation: le livre sur le livre, théorie et pr
 2. **Ampliação do Suporte Documental:** Para Otlet, a documentação não se restringe a livros impressos. Abrange gráficos, mapas, fotografias, esquemas, cartazes, diapositivos, patentes e discos sonoros.
 
 #### C. Suzanne Briet e as Quatro Condições do Documento (1951)
-No manifesto seminal *Qu'est-ce que la documentation?* (1951), a bibliotecária e documentalista francesa **Suzanne Briet** formulou a mais influente definição de documento da área:
-> *"Documento é todo indício material, conservado ou registrado, com a finalidade de representar, reconstituir ou provar um fenômeno físico ou intelectual."*
+No manifesto seminal *Qu'est-ce que la documentation?* (1951), a bibliotecária e documentalista francesa **Suzanne Briet** formulou a mais influente conceituação de documento da área.
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Definição Doutrinária (Suzanne Briet, 1951):** Segundo Suzanne Briet (1951), o documento se caracteriza como todo indício material, conservado ou registrado, que tem por finalidade representar, reconstituir ou provar determinado fenômeno físico ou intelectual.
 
 Para Briet, um objeto torna-se documento se preencher cumulativamente **quatro condições**:
 1. **Materialidade:** Deve possuir base material tangível ou registro físico/magnético de signos.
@@ -244,8 +247,10 @@ A emergência da Ciência da Informação ocorreu no contexto da Segunda Guerra 
 * **Conferências do Georgia Institute of Technology (1961-1962):**
   * Consideradas o marco zero da definição formal da área. Estabeleceram que a Ciência da Informação é uma ciência interdisciplinar que estuda as propriedades e o comportamento da informação, as forças que governam seus fluxos e os meios de processamento.
 * **Harold Borko e o Artigo "Information Science: What is it?" (1968):**
-  * Borko formulou a definição canônica mais cobrada em concursos públicos federais:
-  > *"A Ciência da Informação é a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso. Ela se ocupa daquele corpo de conhecimentos relativos à origem, coleta, organização, armazenamento, recuperação, interpretação, transmissão, transformação e utilização da informação. Possui uma componente de ciência pura (que investiga o assunto sem relação com a aplicação imediata) e uma componente de ciência aplicada (que desenvolve serviços e produtos)."*
+  * Borko formulou a caracterização canônica mais cobrada em concursos públicos federais:
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Doutrinária (Harold Borko, 1968):** Segundo Harold Borko (1968), a Ciência da Informação investiga as propriedades e o comportamento da informação, as forças que regem seu fluxo e os meios de processamento destinados a aperfeiçoar sua acessibilidade e uso. O campo abrange os saberes relativos à gênese, coleta, organização, guarda, recuperação, interpretação, difusão, transformação e uso da informação, integrando uma vertente de ciência pura e uma de ciência aplicada (desenvolvimento de produtos e serviços).
 
 ---
 
@@ -342,7 +347,7 @@ Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrize
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Conceito Canônico de Ciência da Informação
 
 **Assertiva:** "A Ciência da Informação é definida como a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam seus fluxos e os meios de processá-la para acesso e uso otimizados."
@@ -351,7 +356,7 @@ Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrize
 
 **Justificativa Canônica:** Correto! Esta é a clássica definição de Harold Borko (1968), esteio conceitual fundacional da Ciência da Informação.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: A Divisão de Yves-François Le Coadic
 
 **Assertiva:** "Conforme Le Coadic, a 'biblioteconomia dos livros' refere-se ao estudo das práticas de leitura e necessidades de informação dos usuários."
@@ -362,7 +367,7 @@ Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrize
 
 **Versão Correta:** Conforme Le Coadic, a 'biblioteconomia dos leitores' refere-se ao estudo das práticas de leitura e necessidades de informação dos usuários, enquanto a 'biblioteconomia dos livros' foca na gestão técnica e física do acervo.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Manifesto da Biblioteca Pública IFLA/UNESCO (Atualização 2022)
 
 **Assertiva:** "Segundo o Manifesto da Biblioteca Pública IFLA/UNESCO, a biblioteca pública constitui uma força viva pela educação, cultura e inclusão social, cujos serviços fundamentais devem ser prestados com base na igualdade de acesso e de forma gratuita para toda a comunidade."
@@ -373,8 +378,9 @@ Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrize
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-12"></a>
 ## SUBMÓDULO 1.2: As Cinco Leis de Ranganathan e Releituras Contemporâneas
-**Tempo Estimado:** 30 minutos
+**Tempo Estimado:** 30 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O tratado de Shiyali Ramamrita Ranganathan (1931), análise sistêmica de cada lei, implicações em bibliotecas legislativas e as formulações de Michael Gorman, Jim Thompson e Rettig.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -475,9 +481,9 @@ Teóricos contemporâneos atualizaram a formulação de Ranganathan para abarcar
   4. *Proteja o livre acesso ao conhecimento* (combate à censura e barreiras proprietárias);
   5. *Honre o passado e crie o futuro* (preservação da memória histórica combinada à inovação contínua).
 * **James Rettig (1992) e Jim Thompson (1999):** Realizaram a transposição terminológica direta:
-  * Livros $\rightarrow$ **Informação**;
-  * Leitores $\rightarrow$ **Usuários**;
-  * Bibliotecas $\rightarrow$ **Sistemas de Informação e Redes Digitais**.
+  * Livros \rightarrow **Informação**;
+  * Leitores \rightarrow **Usuários**;
+  * Bibliotecas \rightarrow **Sistemas de Informação e Redes Digitais**.
 * **Alire (2007) e Noruzi (2004 - Leis para a Web):**
   1. *Recursos da Web são para usar*;
   2. *A cada usuário seu recurso web*;
@@ -492,36 +498,36 @@ O edital da Câmara dos Deputados cobra com destaque os **Estudos Métricos da I
 
 | Lei Bibliométrica | Autor e Ano | Fenômeno Mensurado | Relação Matemática / Fórmula | Aplicação Prática na Biblioteca |
 | :--- | :--- | :--- | :--- | :--- |
-| **Lei de Bradford** | Samuel C. Bradford (1934) | **Dispersão da Literatura Periódica** em uma área do saber. | Relação geométrica entre zonas: $1 : n : n^2$. | Identificação do **núcleo de periódicos essenciais** (*core journals*) para assinaturas prioritárias. |
-| **Lei de Lotka** | Alfred J. Lotka (1926) | **Produtividade dos Autores** científicos (Lei do Quadrado Inverso). | $A_n = \frac{A_1}{n^2}$ (a proporção de autores com $n$ artigos é $1/n^2$ dos que publicam 1). | Mapeamento da elite de pesquisadores e concentração de autoria científica. |
-| **Lei de Zipf** | George K. Zipf (1935) | **Frequência de Ocorrência de Palavras** em um texto. | $r \times f = C$ (o produto do posto pela frequência é uma constante). | Indexação automática (H. P. Luhn), extração de termos e criação de *stop words*. |
+| **Lei de Bradford** | Samuel C. Bradford (1934) | **Dispersão da Literatura Periódica** em uma área do saber. | Relação geométrica entre zonas: 1 : n : n^2. | Identificação do **núcleo de periódicos essenciais** (*core journals*) para assinaturas prioritárias. |
+| **Lei de Lotka** | Alfred J. Lotka (1926) | **Produtividade dos Autores** científicos (Lei do Quadrado Inverso). | A_n = (A_1 / n^2) (a proporção de autores com n artigos é 1/n^2 dos que publicam 1). | Mapeamento da elite de pesquisadores e concentração de autoria científica. |
+| **Lei de Zipf** | George K. Zipf (1935) | **Frequência de Ocorrência de Palavras** em um texto. | r × f = C (o produto do posto pela frequência é uma constante). | Indexação automática (H. P. Luhn), extração de termos e criação de *stop words*. |
 | **Lei de Derek de Solla Price** | Derek de Solla Price (1963) | **Crescimento Exponencial da Ciência** e Obsolescência. | Crescimento logarítmico: a literatura científica dobra a cada 10 a 15 anos. | Políticas de descarte/desbastamento e cálculo da **meia-vida** (*half-life*) de citações. |
 | **Teoria Epidêmica** | William Goffman (1966) | **Disseminação de Ideias e Informações** em redes de pesquisa. | Modelo matemático SIR (Suscetíveis, Infecciosos e Recuperados). | Análise do contágio informacional e surgimento de novos paradigmas científicos. |
 
 #### A. Detalhamento da Lei de Bradford (1934)
 Bradford investigou a publicação de artigos científicos sobre geofísica e lubrificação, descobrindo que, ao ordenar os periódicos em ordem decrescente de produtividade de artigos sobre um determinado tema:
 * Pode-se dividir o conjunto total de artigos em zonas que contêm aproximadamente o **mesmo número de artigos**;
-* O número de periódicos necessários para cobrir cada zona sucessiva cresce segundo uma proporção multiplicativa constante $n$:
-  * **Zona 1 (Núcleo Central - *Core*):** Pequeno número de periódicos ($T_1$) altamente produtivos e especializados.
-  * **Zona 2 (Periódicos de Assunto Correlato):** Exige $T_1 \times n$ periódicos para produzir o mesmo número de artigos.
-  * **Zona 3 (Periódicos Periféricos / Gerais):** Exige $T_1 \times n^2$ periódicos para produzir a mesma quantidade.
+* O número de periódicos necessários para cobrir cada zona sucessiva cresce segundo uma proporção multiplicativa constante n:
+  * **Zona 1 (Núcleo Central - *Core*):** Pequeno número de periódicos (T_1) altamente produtivos e especializados.
+  * **Zona 2 (Periódicos de Assunto Correlato):** Exige T_1 × n periódicos para produzir o mesmo número de artigos.
+  * **Zona 3 (Periódicos Periféricos / Gerais):** Exige T_1 × n^2 periódicos para produzir a mesma quantidade.
 * **Implicação para a Câmara dos Deputados:** Se o orçamento for reduzido, a biblioteca deve assinar exclusivamente os periódicos do **núcleo de Bradford**, obtendo o restante por comutação bibliográfica sob demanda.
 
 #### B. Detalhamento da Lei de Lotka (1926)
 Ao analisar o índice de resumos químicos (*Chemical Abstracts*) e de física, Lotka demonstrou a desigualdade extrema na produtividade acadêmica:
-* O número de pesquisadores que publicam $n$ artigos em um dado campo é inversamente proporcional a $n^2$ em relação àqueles que publicam apenas um artigo ($A_n = A_1 / n^2$).
-* **Exemplo Numérico:** Se 100 autores publicaram 1 artigo ($A_1 = 100$):
-  * Autores que publicaram 2 artigos: $100 / 2^2 = 100 / 4 = 25$ autores;
-  * Autores que publicaram 3 artigos: $100 / 3^2 = 100 / 9 \approx 11$ autores;
-  * Autores que publicaram 10 artigos: $100 / 10^2 = 100 / 100 = 1$ autor!
+* O número de pesquisadores que publicam n artigos em um dado campo é inversamente proporcional a n^2 em relação àqueles que publicam apenas um artigo (A_n = A_1 / n^2).
+* **Exemplo Numérico:** Se 100 autores publicaram 1 artigo (A_1 = 100):
+  * Autores que publicaram 2 artigos: 100 / 2^2 = 100 / 4 = 25 autores;
+  * Autores que publicaram 3 artigos: 100 / 3^2 = 100 / 9 ≈ 11 autores;
+  * Autores que publicaram 10 artigos: 100 / 10^2 = 100 / 100 = 1 autor!
 * Mais de 60% dos autores científicos de qualquer domínio publicam um único trabalho ao longo de toda a sua vida acadêmica.
 
 #### C. Detalhamento da Lei de Zipf (1935) e a Contribuição de H. P. Luhn (1958)
 Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavras de um texto por ordem decrescente de frequência:
 * A palavra mais comum ocorre aproximadamente com o dobro da frequência da 2ª mais comum, o triplo da 3ª, e assim sucessivamente.
 * A fórmula clássica é:
-  $r \times f = C$
-  *(onde $r$ é a ordem de colocação ou posto, $f$ é a frequência absoluta e $C$ é uma constante).*
+  r × f = C
+  *(onde r é a ordem de colocação ou posto, f é a frequência absoluta e C é uma constante).*
 * **O Princípio do Menor Esforço (*Principle of Least Effort*):** O ser humano tende a reutilizar um vocabulário restrito de palavras econômicas e polissêmicas.
 * **Aplicação em Ciência da Informação (H. P. Luhn, 1958):**
   * **Palavras de Alta Frequência:** Artigos, preposições, pronomes (*stop words* como "de", "para", "o", "que"). Possuem altíssima ocorrência e **baixíssimo valor semântico** discriminatório (devem ser eliminadas na indexação).
@@ -566,7 +572,7 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Foco da Segunda vs Terceira Lei
 
 **Assertiva:** "A segunda lei de Ranganathan ('A cada leitor o seu livro') tem o documento bibliográfico como elemento central de sua formulação."
@@ -577,7 +583,7 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 
 **Versão Correta:** A terceira lei de Ranganathan ('A cada livro o seu leitor') tem o documento bibliográfico como elemento central de sua formulação, enquanto a segunda lei foca no leitor.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Releituras Contemporâneas
 
 **Assertiva:** "Na releitura das Cinco Leis para a era da informação, os termos clássicos 'livro' e 'leitor' foram reinterpretados respectivamente como 'informação' e 'usuário'."
@@ -586,7 +592,7 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 
 **Justificativa Canônica:** Certo! Formulações de teóricos contemporâneos como Rettig e Thompson realizaram essa transposição direta para o universo digital.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Implicações Práticas da Quarta Lei
 
 **Assertiva:** "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física."
@@ -599,8 +605,9 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-13"></a>
 ## SUBMÓDULO 1.3: Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões
-**Tempo Estimado:** 25 minutos
+**Tempo Estimado:** 25 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -709,8 +716,8 @@ No seminal artigo *Epistemology and Information Science* (2003), o filósofo e c
 * **Raiz Teórica:** Teoria do Conhecimento, Psicologia Cognitiva e Inteligência Artificial, liderado por Bertram Brookes, Nicholas Belkin e Peter Ingwersen.
 * **Conceito de Informação:** A informação é um **processo cognitivo que modifica estruturas mentais**. Não é o sinal físico em si, mas aquilo que transforma os estados de conhecimento do usuário.
 * **A Equação Fundamental da Ciência da Informação (Bertram Brookes, 1980):**
-  $K[S] + \Delta I = K[S + \Delta S]$
-  *Onde $K[S]$ representa a estrutura cognitiva inicial do sujeito, $\Delta I$ é o incremento informacional assimilado, e $K[S + \Delta S]$ é a estrutura de conhecimento alterada e enriquecida.*
+  K[S] + Δ I = K[S + Δ S]
+  *Onde K[S] representa a estrutura cognitiva inicial do sujeito, Δ I é o incremento informacional assimilado, e K[S + Δ S] é a estrutura de conhecimento alterada e enriquecida.*
 * **O Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):** O usuário não busca informação porque sabe exatamente o que deseja, mas porque vivencia um "Estado Anômalo de Conhecimento" — uma lacuna, incerteza ou dúvida que ele é incapaz de articular perfeitamente em linguagem de busca.
 * **Brenda Dervin e o Modelo *Sense-Making*:** O usuário encontra uma "brecha" cognitiva (*gap*) e busca pontes informacionais para dar sentido ao seu mundo e continuar sua caminhada.
 
@@ -737,7 +744,7 @@ No contexto legislativo da Câmara dos Deputados:
 | Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
 | :--- | :--- | :--- |
 | *"Segundo Michael Buckland, os sistemas informatizados de bibliotecas são capazes de armazenar tanto informação como coisa quanto informação como processo."* | **ERRADO** | Sistemas só podem armazenar e processar **informação como coisa**. O processo é a dinâmica subjetiva do ato de informar. |
-| *"A equação fundamental de Bertram Brookes pertence epistemologicamente ao paradigma físico de Shannon e Weaver."* | **ERRADO** | A equação de Brookes pertence expressamente ao **paradigma cognitivo**, pois modela a transformação das estruturas mentais do sujeito ($K[S]$). |
+| *"A equação fundamental de Bertram Brookes pertence epistemologicamente ao paradigma físico de Shannon e Weaver."* | **ERRADO** | A equação de Brookes pertence expressamente ao **paradigma cognitivo**, pois modela a transformação das estruturas mentais do sujeito (K[S]). |
 | *"No paradigma social da Ciência da Informação, a relevância de um documento é uma medida matemática universal invariável no tempo e no espaço."* | **ERRADO** | No paradigma social (Hjørland), a relevância é **situada, contextual e relativa** à comunidade de domínio que avalia o documento. |
 | *"Para Suzanne Briet, a intencionalidade de registro é irrelevante para que um objeto material seja elevado à categoria de documento."* | **ERRADO** | A **intencionalidade** é um dos 4 requisitos cumulativos obrigatórios estabelecidos por Briet (materialidade, intencionalidade, tratamento e valor probatório). |
 
@@ -768,7 +775,7 @@ No contexto legislativo da Câmara dos Deputados:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Buckland e a Informação como Coisa
 
 **Assertiva:** "Para Michael Buckland, a dimensão da 'informação como coisa' exclui qualquer objeto tridimensional ou artefato da natureza, aplicando-se apenas a livros impressos."
@@ -779,7 +786,7 @@ No contexto legislativo da Câmara dos Deputados:
 
 **Versão Correta:** Para Michael Buckland, a dimensão da 'informação como coisa' abrange qualquer entidade física tangível portadora de evidência informativa, inclusive objetos tridimensionais, documentos e fósseis.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Requisitos do Documento (Briet)
 
 **Assertiva:** "Suzanne Briet definiu documento como todo indício ou suporte material conservado ou registrado com o fim de representar, reconstituir ou provar um fenômeno."
@@ -788,7 +795,7 @@ No contexto legislativo da Câmara dos Deputados:
 
 **Justificativa Canônica:** Correto! A célebre definição de Briet (1951) exige materialidade, intencionalidade e capacidade de funcionar como indício ou prova.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Paradigmas Epistemológicos de Capurro
 
 **Assertiva:** "No paradigma social da Ciência da Informação, proposto por teóricos como Capurro e Hjørland, a informação é analisada a partir de sua inserção em comunidades discursivas e contextos históricos específicos, superando o foco estritamente individualista do paradigma cognitivo."
@@ -799,8 +806,9 @@ No contexto legislativo da Câmara dos Deputados:
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-14"></a>
 ## SUBMÓDULO 1.4: Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas
-**Tempo Estimado:** 25 minutos
+**Tempo Estimado:** 25 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -960,7 +968,7 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Atribuições Privativas (Lei 4.084/62)
 
 **Assertiva:** "A catalogação e a classificação de documentos constituem atribuições privativas dos bacharéis em Biblioteconomia no Brasil."
@@ -969,7 +977,7 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 
 **Justificativa Canônica:** Certo! O Art. 6º, alínea 'b', da Lei nº 4.084/1962 estabelece expressamente essa exclusividade profissional.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Penalidades Éticas e Competência
 
 **Assertiva:** "A sanção de cassação definitiva do registro profissional pode ser aplicada de forma autônoma por qualquer Conselho Regional de Biblioteconomia em decisão singular."
@@ -980,7 +988,7 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 
 **Versão Correta:** A sanção de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), não podendo ser aplicada de forma autônoma por um CRB.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Sigilo Profissional e Código de Ética do CFB
 
 **Assertiva:** "O Código de Ética Profissional do Bibliotecário (Resolução CFB nº 207/2018) estabelece como dever ético a guarda de sigilo sobre dados e hábitos de consulta informacional dos usuários, mesmo após o término do vínculo de trabalho."
@@ -991,8 +999,9 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-15"></a>
 ## SUBMÓDULO 1.5: Ciclo de Vida, Qualidade e Memória da Informação
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Modelos de ciclo de vida da informação (McGee & Prusak, Choo), modelo de qualidade de Wang & Strong (1996), graus de estruturação do dado (estruturado, semiestruturado e não estruturado) e memória institucional parlamentar (Cedi e Biblioteca Pedro Aleixo).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -1093,7 +1102,7 @@ O edital exige a distinção das formas de organização da informação (item 1
 
 #### A. Informação Estruturada
 * **Conceito:** Dados organizados de acordo com um esquema prévio rígido (*schema-first*), com tipos de dados estritamente delimitados (inteiro, texto com tamanho fixo, data, booleano) e armazenados em tabelas de bases de dados relacionais (PostgreSQL, MySQL, Oracle) ou em registros formatados padronizados.
-* **No universo bibliográfico:** Um registro no padrão **MARC 21**, onde cada campo de três dígitos possui significado unívoco (campo 100 para autor pessoal, 245 para título, 260/264 para publicação) e subcampos delimitados pelo delimitador subcampo ($a, $b, $c).
+* **No universo bibliográfico:** Um registro no padrão **MARC 21**, onde cada campo de três dígitos possui significado unívoco (campo 100 para autor pessoal, 245 para título, 260/264 para publicação) e subcampos delimitados pelo delimitador subcampo (`a`, `b`, `c`).
 * **No universo da Câmara:** As tabelas relacionais do Sistema de Informações Legislativas (SILEG) e os dados brutos de votação nominal de deputados.
 * **Vantagens e Limitações:** Alta eficiência de recuperação e consultas analíticas precisas; extrema rigidez e alto custo para acomodar novos atributos não modelados previamente.
 
@@ -1149,7 +1158,7 @@ A articulação entre a preservação física desses acervos e a sua disponibili
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Autenticidade versus Integridade da Informação (Item 1.8)
 
 **Assertiva:** "A distinção entre autenticidade e integridade da informação é relevante porque a primeira diz respeito à identidade e à origem do documento, e a segunda à ausência de alteração não autorizada."
@@ -1158,7 +1167,7 @@ A articulação entre a preservação física desses acervos e a sua disponibili
 
 **Justificativa Canônica:** Certo! Conforme a literatura arquivística e de segurança da informação, a autenticidade atesta a proveniência e a legitimidade de autoria de um documento (ele é o que afirma ser), enquanto a integridade certifica que seu conteúdo permaneceu inalterado e completo, sem modificações espúrias ou corrupções.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Modelos Conceituais de Ciclo de Vida da Informação
 
 **Assertiva:** "Os modelos de ciclo de vida da informação são unânimes quanto ao número e à nomenclatura das etapas, de modo que a sequência de seis fases de determinado autor é a única aceita pela banca."
@@ -1169,7 +1178,7 @@ A articulação entre a preservação física desses acervos e a sua disponibili
 
 **Versão Correta:** Os modelos de ciclo de vida da informação apresentam divergências na literatura quanto à quantidade e à nomenclatura das etapas, cabendo ao analista compreender a lógica de fluxo contínuo e retroalimentação sistêmica.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Classificação Estrutural de Dados Parlamentares (Item 1.4)
 
 **Assertiva:** "Um registro bibliográfico em MARC 21, com campos e subcampos definidos, é um exemplo de informação estruturada, ao passo que o texto integral de um projeto de lei em PDF sem marcação é exemplo de informação não estruturada."
@@ -1180,8 +1189,9 @@ A articulação entre a preservação física desses acervos e a sua disponibili
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-16"></a>
 ## SUBMÓDULO 1.6: Governança da Informação e Governança de Dados
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Princípios do DAMA-DMBOK 2ª ed., papéis de governança (Data Owner, Data Steward, Data Custodian), dimensões de qualidade, proveniência e linhagem (W3C PROV-O), catálogo vs inventário, dados mestres e dados abertos (8 princípios, 5 estrelas e LAI).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -1365,7 +1375,7 @@ O criador da World Wide Web propôs uma escala progressiva de maturidade para a 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Governança de Dados versus Gestão de Dados (DAMA-DMBOK)
 
 **Assertiva:** "A governança de dados define direitos de decisão e responsabilidades sobre os dados, ao passo que a gestão de dados executa as atividades operacionais segundo essas definições."
@@ -1374,7 +1384,7 @@ O criador da World Wide Web propôs uma escala progressiva de maturidade para a 
 
 **Justificativa Canônica:** Certo! Essa é a distinção estrutural canônica do DAMA-DMBOK: a governança atua na dimensão estratégica de autoridade, diretrizes, políticas e responsabilização (accountability), enquanto a gestão encarrega-se da operação diária, implementação técnica e processos operacionais sob essas regras.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Papéis Organizacionais: Data Owner versus Data Steward
 
 **Assertiva:** "O data steward é, em regra, o responsável final pelas decisões estratégicas de acesso e uso de um domínio de dados, cabendo ao data owner a verificação diária da qualidade."
@@ -1385,7 +1395,7 @@ O criador da World Wide Web propôs uma escala progressiva de maturidade para a 
 
 **Versão Correta:** O data owner é o responsável executivo final pelas decisões estratégicas de acesso e uso de um domínio de dados, cabendo ao data steward zelar taticamente pela qualidade diária e pela consistência dos metadados.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Requisitos de Dados Abertos Governamentais (LAI e Princípios de 2007)
 
 **Assertiva:** "Dados orçamentários publicados exclusivamente como imagens em PDF, ainda que acessíveis a qualquer pessoa sem cadastro, atendem plenamente ao princípio de processamento por máquina dos dados abertos."
@@ -1405,8 +1415,9 @@ Estudo aprofundado da representação descritiva de recursos informacionais: os 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-21"></a>
 ## SUBMÓDULO 2.1: Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Teoria e objetivos dos catálogos (Cutter), Catálogo Dicionário vs Sistemático, Declaração de Princípios da IFLA (ICP 2016), estrutura do AACR2r, as 8 áreas da ISBD, os 3 níveis de descrição bibliográfica (Regra 1.0D) e regras aprofundadas de escolha e forma de pontos de acesso (autoria pessoal, pseudônimos, entidades coletivas, eventos e atos legislativos).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -1672,7 +1683,7 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Tipologia de Catálogos e Regras de Cutter (1876)
 
 **Assertiva:** "No modelo de catálogo dicionário formulado por Charles Ammi Cutter, os pontos de acesso de autor, título e assunto devem ser fisicamente separados em seções estanques, vedando-se a sua interfilação em ordem alfabética contínua."
@@ -1681,7 +1692,7 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 
 **Justificativa Canônica:** Errado! A própria essência e definição do Catálogo Dicionário é a interfilação contínua de autores, títulos e assuntos em uma ÚNICA sequência alfabética integrada, tal como em um dicionário comum.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Princípios Internacionais de Catalogação (ICP 2016)
 
 **Assertiva:** "De acordo com a Declaração de Princípios Internacionais de Catalogação (ICP 2016) da IFLA, a conveniência do usuário constitui o princípio primordial e orientador supremo de todas as decisões relativas à descrição e escolha de pontos de acesso."
@@ -1690,7 +1701,7 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 
 **Justificativa Canônica:** Correto! O princípio orientador basilar da ICP 2016 é inegociavelmente a conveniência do usuário (item 2.1), superando interesses burocráticos ou administrativos da instituição.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Níveis de Descrição do AACR2r (Regra 1.0D)
 
 **Assertiva:** "O primeiro nível de descrição bibliográfica previsto no AACR2r é o mais sumário, prescrevendo obrigatoriamente apenas o título próprio, a primeira indicação de responsabilidade se diferir do cabeçalho principal, a menção de edição, os detalhes específicos (se aplicável), o primeiro publicador, a data, a extensão e o número normalizado."
@@ -1701,8 +1712,9 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-22"></a>
 ## SUBMÓDULO 2.2: O Padrão RDA (Resource Description and Access) e o Projeto 3R
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Gênese do RDA, superação do AACR2r para o ambiente de dados conectados (Linked Data), alinhamento com FRBR e IFLA LRM, o Projeto 3R (RDA Toolkit Oficial), eliminação radical da DGM e adoção do trio 336/337/338, fim das abreviaturas latinas ([S.l.] e [s.n.]), transcrição de autoria aberta e vocabulários controlados.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -1731,7 +1743,7 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 | Dimensão Conceitual | Tradição do AACR2r (1978/2002) | Padrão RDA / Projeto 3R (2010/2020) | Jurisprudência / Foco da Banca Cebraspe |
 | --- | --- | --- | --- |
 | Modelo Estrutural | Baseado na ISBD, voltado à descrição de suportes físicos isolados | Baseado no modelo relacional IFLA LRM (entidades, atributos e relacionamentos) | Cebraspe cobra se o RDA é modelo ou padrão de conteúdo (é padrão de conteúdo baseado em modelo) |
-| Identificação do Recurso | DGM (Designação Geral do Material) inserida entre colchetes logo após o título | Trio Analítico Desagregado: Tipo de Conteúdo + Tipo de Mídia + Tipo de Suporte | Itens exigindo a identificação dos campos MARC 336 ($a texto), 337 ($a computador) e 338 ($a recurso online) |
+| Identificação do Recurso | DGM (Designação Geral do Material) inserida entre colchetes logo após o título | Trio Analítico Desagregado: Tipo de Conteúdo + Tipo de Mídia + Tipo de Suporte | Itens exigindo a identificação dos campos MARC 336 (a texto), 337 (a computador) e 338 (a recurso online) |
 | Princípio de Transcrição | Uso extensivo de abreviaturas formais e termos latinos ([S.l.], [s.n.], ed., il., p., et al.) | Princípio "Take what you see" (transcreva o que vê); abreviaturas proibidas, texto por extenso | Cebraspe elabora assertivas afirmando falsamente que [S.l.] permanece válido no RDA (GABARITO: ERRADO) |
 | Tratamento de Autoria Múltipla | Regra restritiva: mais de 3 autores corta no primeiro seguido de [et al.] | Sem corte automático: registra todos os autores para permitir recuperação exaustiva | Cebraspe testa se há limite fixo de três autores no RDA (GABARITO: NÃO HÁ) |
 | Terminologia Canônica | Cabeçalho, Título Uniforme, Ponto de acesso principal | Ponto de Acesso Autorizado, Título Preferencial, Ponto de Acesso Variante | Substituição formal de termos para adequação a ontologias e grafos de conhecimento |
@@ -1771,31 +1783,31 @@ O RDA substituiu a DGM pela decomposição analítica em **três atributos funda
 ```tree
 TITLE: Decomposição da DGM no Trio RDA / MARC 21 (Campos 336, 337 e 338)
 - Abolição da DGM do AACR2r | Fim de termos genéricos confusos como [recurso eletrônico]
-  - 1. Tipo de Conteúdo (MARC 336) | O QUE é a mensagem intelectual expressa (ex: texto $b txt, imagem estática $b sti)
-  - 2. Tipo de Mídia (MARC 337) | QUAL dispositivo é exigido para mediar o acesso (ex: não mediado $b n, computador $b c)
-  - 3. Tipo de Suporte (MARC 338) | ONDE fisicamente o recurso está corporificado (ex: volume $b nc, recurso online $b cr)
+  - 1. Tipo de Conteúdo (MARC 336) | O QUE é a mensagem intelectual expressa (ex: texto b txt, imagem estática b sti)
+  - 2. Tipo de Mídia (MARC 337) | QUAL dispositivo é exigido para mediar o acesso (ex: não mediado b n, computador b c)
+  - 3. Tipo de Suporte (MARC 338) | ONDE fisicamente o recurso está corporificado (ex: volume b nc, recurso online b cr)
 ```
 
 #### A. Detalhamento Técnico do Trio de Campos MARC 21 / RDA:
 
 | Atributo RDA | Campo MARC 21 | Definição Canônica | Subcampos Obrigatórios | Exemplos Canônicos de Vocabulário |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tipo de Conteúdo (*Content Type*)** | **Campo 336** | Refere-se à forma fundamental de comunicação intelectual ou artística por meio da qual a obra é expressa. | **$a** (termo por extenso)<br>**$b** (código)<br>**$2** (código da fonte: `rdacontent`) | • `texto` ($b txt)<br>• `imagem estática` ($b sti)<br>• `música executada` ($b prm)<br>• `imagem bidimensional em movimento` ($b tdi)<br>• `dados computacionais` ($b cod) |
-| **Tipo de Mídia (*Media Type*)** | **Campo 337** | Refere-se ao tipo geral de dispositivo intermediário ou aparelho necessário para visualizar, executar ou acessar o conteúdo do recurso. | **$a** (termo por extenso)<br>**$b** (código)<br>**$2** (código da fonte: `rdamedia`) | • `não mediado` ($b n - não requer aparelho, ex.: livro impresso)<br>• `computador` ($b c)<br>• `áudio` ($b s)<br>• `vídeo` ($b v)<br>• `projetado` ($b g) |
-| **Tipo de Suporte (*Carrier Type*)** | **Campo 338** | Refere-se ao formato ou invólucro físico específico que armazena a mídia e o conteúdo. | **$a** (termo por extenso)<br>**$b** (código)<br>**$2** (código da fonte: `rdacarrier`) | • `volume` ($b nc - livros encadernados)<br>• `recurso online` ($b cr)<br>• `disco óptico` ($b cd)<br>• `folha` ($b nb) |
+| **Tipo de Conteúdo (*Content Type*)** | **Campo 336** | Refere-se à forma fundamental de comunicação intelectual ou artística por meio da qual a obra é expressa. | **`a`** (termo por extenso)<br>**`b`** (código)<br>**`2`** (código da fonte: `rdacontent`) | • `texto` (`b` txt)<br>• `imagem estática` (`b` sti)<br>• `música executada` (`b` prm)<br>• `imagem bidimensional em movimento` (`b` tdi)<br>• `dados computacionais` (`b` cod) |
+| **Tipo de Mídia (*Media Type*)** | **Campo 337** | Refere-se ao tipo geral de dispositivo intermediário ou aparelho necessário para visualizar, executar ou acessar o conteúdo do recurso. | **`a`** (termo por extenso)<br>**`b`** (código)<br>**`2`** (código da fonte: `rdamedia`) | • `não mediado` (`b` n - não requer aparelho, ex.: livro impresso)<br>• `computador` (`b` c)<br>• `áudio` (`b` s)<br>• `vídeo` (`b` v)<br>• `projetado` (`b` g) |
+| **Tipo de Suporte (*Carrier Type*)** | **Campo 338** | Refere-se ao formato ou invólucro físico específico que armazena a mídia e o conteúdo. | **`a`** (termo por extenso)<br>**`b`** (código)<br>**`2`** (código da fonte: `rdacarrier`) | • `volume` (`b` nc - livros encadernados)<br>• `recurso online` (`b` cr)<br>• `disco óptico` (`b` cd)<br>• `folha` (`b` nb) |
 
 #### Exemplo Prático de Aplicação em Concurso:
 * **Livro Impresso Tradicional da Câmara dos Deputados:**
   ```text
-  336 ## $a texto $b txt $2 rdacontent
-  337 ## $a não mediado $b n $2 rdamedia
-  338 ## $a volume $b nc $2 rdacarrier
+  336 ## a texto b txt 2 rdacontent
+  337 ## a não mediado b n 2 rdamedia
+  338 ## a volume b nc 2 rdacarrier
   ```
 * **E-book em PDF disponível no Portal da Câmara dos Deputados:**
   ```text
-  336 ## $a texto $b txt $2 rdacontent
-  337 ## $a computador $b c $2 rdamedia
-  338 ## $a recurso online $b cr $2 rdacarrier
+  336 ## a texto b txt 2 rdacontent
+  337 ## a computador b c 2 rdamedia
+  338 ## a recurso online b cr 2 rdacarrier
   ```
 
 ---
@@ -1875,7 +1887,7 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Substituição da DGM no Padrão RDA
 
 **Assertiva:** "No padrão RDA (Resource Description and Access), a tradicional Designação Geral do Material (DGM) foi suprimida e substituída por três atributos analíticos fundamentais: tipo de conteúdo, tipo de mídia e tipo de suporte."
@@ -1884,7 +1896,7 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 
 **Justificativa Canônica:** Correto! Essa é uma das principais inovações do RDA, refletida diretamente nos campos 336, 337 e 338 do formato MARC 21.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Uso de Expressões Latinas no RDA
 
 **Assertiva:** "Na catalogação baseada nas instruções do RDA, caso não seja possível identificar a editora de uma publicação na fonte de informação, o catalogador deve registrar a expressão latina tradicional [s.n.] entre colchetes."
@@ -1893,7 +1905,7 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 
 **Justificativa Canônica:** Errado! O RDA baniu expressamente o uso de abreviaturas latinas. No lugar de [s.n.], registra-se no idioma da agência por extenso: [editor não identificado].
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Campos MARC 21 do Trio RDA
 
 **Assertiva:** "No formato MARC 21 Bibliográfico adaptado ao RDA, o campo 336 é destinado à codificação do tipo de conteúdo intelectual do recurso, ao passo que o campo 338 registra o tipo de suporte físico ou invólucro do documento."
@@ -1904,8 +1916,9 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-23"></a>
 ## SUBMÓDULO 2.3: Modelos Conceituais: A Família FRBR e o IFLA LRM
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Modelagem Entidade-Relacionamento no universo bibliográfico: o quarteto WEMI, a evolução FRBR/FRAD/FRSAD e a consolidação no IFLA LRM (2017) com suas 11 entidades ontológicas e 5 tarefas do usuário.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -2013,8 +2026,10 @@ O IFLA LRM é uma **ontologia de alto nível** baseada no paradigma orientado a 
 #### A. A Estrutura Hierárquica e a Superclasse "Res"
 Ao contrário dos FRBR, onde as entidades eram tratadas em silos conceituais planos, o IFLA LRM organiza suas entidades em uma estrutura hierárquica rigorosa de herança (superclasses e subclasses).
 
-A raiz do modelo é a entidade **LRM-E1 Res** (do latim: *coisa*), definida como:
-> *"Qualquer entidade no universo do discurso; inclui tudo o que pode ser de interesse para catalogadores ou usuários."*
+A raiz do modelo é a entidade **LRM-E1 Res** (do latim: *coisa*), definida pelo modelo conceitual da IFLA:
+
+<!-- [CONFERIDO EM ACERVO: ifla-lrm-august-2017_rev201712-por.pdf, p. 21] -->
+> *"Qualquer entidade no universo do discurso; inclui tudo o que pode ser de interesse para catalogadores ou usuários."* (IFLA LRM, 2017, p. 21)
 
 Como consequência direta do princípio de herança ontológica:
 * Todas as entidades de LRM-E2 a LRM-E11 são **subclasses de Res**.
@@ -2124,7 +2139,7 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: O Quarteto WEMI do Grupo 1 do FRBR / IFLA LRM
 
 **Assertiva:** "No modelo conceitual IFLA LRM, a tradução da obra Dom Quixote para a língua portuguesa e a sua narração em formato de audiolivro constituem novas manifestações da mesma expressão textual original."
@@ -2133,7 +2148,7 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 
 **Justificativa Canônica:** Errado! A tradução para outro idioma e a narração sonora modificam a forma de realização semiótica e os signos linguísticos do conteúdo, constituindo, portanto, NOVAS EXPRESSÕES (LRM-E3) da mesma obra, e não meras manifestações.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Unificação e a Superclasse Res no IFLA LRM
 
 **Assertiva:** "O modelo IFLA LRM (Library Reference Model), aprovado em 2017, consolidou e substituiu os modelos conceituais FRBR, FRAD e FRSAD, adotando a entidade máxima Res como a superclasse universal de todas as demais entidades do universo do discurso."
@@ -2142,7 +2157,7 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 
 **Justificativa Canônica:** Correto! O IFLA LRM estabeleceu a entidade LRM-E1 Res como superclasse raiz, da qual todas as demais entidades (Work, Expression, Manifestation, Item, Agent, Nomen, etc.) derivam por herança direta ou indireta.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: As Tarefas do Usuário no IFLA LRM
 
 **Assertiva:** "Em comparação com o modelo FRBR original, que contemplava as quatro tarefas clássicas (Find, Identify, Select, Obtain), o IFLA LRM incorporou formalmente a quinta tarefa do usuário denominada Explorar (Explore)."
@@ -2153,8 +2168,9 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-24"></a>
 ## SUBMÓDULO 2.4: Notação de Autor, Formato MARC 21 e Padrão Dublin Core
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Composição do Número de Chamada, tabelas Cutter-Sanborn e PHA; arquitetura do MARC 21 (ISO 2709, Líder, Diretório, campo 008, campo 264 no RDA e autoridades) e padrão Dublin Core (15 elementos simples e qualificados).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -2172,7 +2188,7 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 
 > ⚠️ **Alerta:** Regras de Notação de Autor Cutter-Sanborn: Se o sobrenome inicia por consoante (exceto S), usa-se a primeira letra maiúscula + código numérico (ex.: Machado -> M149). Se inicia por vogal, usa-se a primeira letra maiúscula + segunda letra minúscula + código (ex.: Andrade -> An24). Se inicia pela letra S, usa-se "S" maiúsculo + segunda letra minúscula + código (ex.: Silva -> Si38). Para diferenciar títulos do mesmo autor, acrescenta-se a "marca de obra" (work mark): letra minúscula da primeira palavra do título que não seja artigo.
 
-> ⚠️ **Alerta:** Campos de Controle 00X do MARC 21: Não possuem indicadores e não possuem subcampos delimitados por $. O campo 008 possui 40 posições fixas (00 a 39). Posições cruciais para concurso: 00-05 (data de entrada), 06 (tipo de data: s = data única, m = datas múltiplas), 07-10 (data principal), 15-17 (país de publicação em 3 caracteres), 35-37 (idioma do texto em 3 caracteres, ex.: por = português).
+> ⚠️ **Alerta:** Campos de Controle 00X do MARC 21: Não possuem indicadores e não possuem subcampos delimitados por . O campo 008 possui 40 posições fixas (00 a 39). Posições cruciais para concurso: 00-05 (data de entrada), 06 (tipo de data: s = data única, m = datas múltiplas), 07-10 (data principal), 15-17 (país de publicação em 3 caracteres), 35-37 (idioma do texto em 3 caracteres, ex.: por = português).
 
 > ⚠️ **Alerta:** Campo 264 no RDA vs Campo 260 no AACR2: No RDA, a publicação/imprenta é registrada no campo 264, onde o 2º INDICADOR define a função da entidade: 0 = Produção, 1 = Publicação, 2 = Distribuição, 3 = Fabricação/Manufatura, 4 = Aviso de Direitos Autorais (Copyright notice).
 
@@ -2186,7 +2202,7 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 | --- | --- | --- | --- |
 | Tabela Cutter-Sanborn | Charles A. Cutter e Kate Sanborn (EUA) | 1 letra maiúscula + 2-3 algarismos + marca de obra minúscula (ex.: M149d) | A banca afirma que a letra da marca de obra deve ser maiúscula (Errado: é minúscula) ou que inclui artigos (Errado: despreza artigos). |
 | Tabela PHA | Heloísa de Almeida Prado (Brasil) | Adaptada à fonética e morfologia dos sobrenomes em língua portuguesa | A banca afirma que a tabela PHA substitui a CDD na classificação (Errado: PHA é notação de autor, não sistema de classificação). |
-| MARC 21 Bibliográfico | Henriette Avram / Library of Congress | ISO 2709: Líder (24 posições), Diretório (12 posições por campo) e Tags 001-8XX | Afirmar que campos 00X possuem subcampos $a ou indicadores (Errado: campos 00X são puramente caracteres fixos). |
+| MARC 21 Bibliográfico | Henriette Avram / Library of Congress | ISO 2709: Líder (24 posições), Diretório (12 posições por campo) e Tags 001-8XX | Afirmar que campos 00X possuem subcampos a ou indicadores (Errado: campos 00X são puramente caracteres fixos). |
 | MARC 21 de Autoridades | Library of Congress | Tags 1XX (autorizado), 4XX (remissiva "ver" / variante), 5XX (remissiva "ver também") | Inverter 4XX e 5XX: 4XX é forma variante NÃO autorizada; 5XX é termo relacionado JÁ autorizado. |
 | MARC 21 de Holdings (Fundos) | Library of Congress | Tags 852 (Localização institucional e exemplar), 853-855 (Legendas/Padrões) e 863-868 (Enumeração/Cronologia) | Confundir dados de exemplar/localização física (Holdings, campo 852) com a descrição bibliográfica da manifestação. |
 | Dublin Core (15 Elementos) | Stuart Weibel / DCMI (ISO 15836) | Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage, Rights | Afirmar que o elemento "Title" ou "Identifier" é de preenchimento obrigatório pelo padrão (Errado: nenhum é obrigatório no padrão básico). |
@@ -2264,7 +2280,7 @@ Criado na década de 1960 por **Henriette Avram** na Library of Congress, o form
      * **4 posições:** Comprimento total do campo em caracteres.
      * **5 posições:** Posição inicial relativa do campo a partir da área de dados.
 3. **Campos Variáveis de Controle (001 a 008):**
-   * Campos sem indicadores e sem códigos de subcampo delimitados por `$`.
+   * Campos sem indicadores e sem códigos de subcampo delimitados por ``.
    * **Campo 001:** Número de controle do registro no sistema local.
    * **Campo 003:** Identificador da agência do número de controle.
    * **Campo 005:** Data e hora da última transação (AAAAMMDDhhmmss.f).
@@ -2281,7 +2297,7 @@ Criado na década de 1960 por **Henriette Avram** na Library of Congress, o form
 ---
 
 #### B. Campos Variáveis de Dados e seus Indicadores
-Possuem dois dígitos inaugurais denominados **indicadores** (posições 0 e 1 de cada campo de dados) e subcampos identificados pelo caractere delimitador `$` seguido de letra ou algarismo:
+Possuem dois dígitos inaugurais denominados **indicadores** (posições 0 e 1 de cada campo de dados) e subcampos identificados pelo caractere delimitador `` seguido de letra ou algarismo:
 
 * **Campo 245 (Título e Indicação de Responsabilidade):**
   * **1º Indicador:** Entrada secundária de título:
@@ -2292,16 +2308,16 @@ Possuem dois dígitos inaugurais denominados **indicadores** (posições 0 e 1 d
     * `2`: Despreza 2 caracteres (ex.: artigo "A " ou "O ").
     * `3`: Despreza 3 caracteres (ex.: artigo "As " ou "Os " ou "Um ").
     * `4`: Despreza 4 caracteres (ex.: artigo em inglês "The ").
-  * **Subcampos:** `$a` Título propriamente dito; `$b` Restante do título / subtítulo; `$c` Indicação de responsabilidade.
+  * **Subcampos:** `a` Título propriamente dito; `b` Restante do título / subtítulo; `c` Indicação de responsabilidade.
 
 * **Campo 260 vs. Campo 264 no RDA:**
-  * O campo `260` era a imprenta tradicional do AACR2r (`$a` lugar, `$b` editora, `$c` data).
+  * O campo `260` era a imprenta tradicional do AACR2r (`a` lugar, `b` editora, `c` data).
   * No RDA, adota-se o **Campo 264**, onde o **2º Indicador** discrimina a função específica da menção:
     * `0`: Produção (recursos inéditos, manuscritos, obras de arte).
     * `1`: Publicação (recurso publicado comercialmente).
     * `2`: Distribuição (distribuidor ou agente comercial).
     * `3`: Fabricação / Manufatura (impressor, fundição, tipografia).
-    * `4`: Aviso de Direitos Autorais (*Copyright notice*, ex.: `$c ©2024`).
+    * `4`: Aviso de Direitos Autorais (*Copyright notice*, ex.: `c ©2024`).
 
 ---
 
@@ -2313,16 +2329,16 @@ O ecossistema MARC 21 padronizado pela Library of Congress não se limita à cat
 O formato de Autoridades estabelece o controle normativo de pontos de acesso para garantir a consistência e a desambiguação dos catálogos:
 * **Finalidade:** Fixar a forma autorizada e oficial de nomes de pessoas, entidades coletivas, eventos, títulos uniformes, termos de assunto e gênero/forma, criando a rede de remissivas.
 * **Bloco 1XX (Cabeçalho Autorizado):**
-  * `100`: Nome Pessoal autorizado (ex.: `100 1# $a Assis, Machado de, $d 1839-1908`).
-  * `110`: Nome Corporativo / Entidade Coletiva (ex.: `110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados`).
-  * `111`: Nome de Reunião / Conferência (ex.: `111 2# $a Congresso Brasileiro de Biblioteconomia e Documentação`).
-  * `130`: Título Uniforme (ex.: `130 #0 $a Bíblia. $l Português`).
+  * `100`: Nome Pessoal autorizado (ex.: `100 1# a Assis, Machado de, d 1839-1908`).
+  * `110`: Nome Corporativo / Entidade Coletiva (ex.: `110 1# a Brasil. b Congresso Nacional. b Câmara dos Deputados`).
+  * `111`: Nome de Reunião / Conferência (ex.: `111 2# a Congresso Brasileiro de Biblioteconomia e Documentação`).
+  * `130`: Título Uniforme (ex.: `130 #0 a Bíblia. l Português`).
   * `148`: Termo Cronológico.
-  * `150`: Termo Tópico de Assunto (ex.: `150 ## $a Controle de constitucionalidade`).
-  * `151`: Nome Geográfico (ex.: `151 ## $a Brasília (DF)`).
-  * `155`: Termo de Gênero / Forma (ex.: `155 ## $a Discursos parlamentares`).
+  * `150`: Termo Tópico de Assunto (ex.: `150 ## a Controle de constitucionalidade`).
+  * `151`: Nome Geográfico (ex.: `151 ## a Brasília (DF)`).
+  * `155`: Termo de Gênero / Forma (ex.: `155 ## a Discursos parlamentares`).
 * **Bloco 4XX (Remissivas "Ver" / *See From Tracing*):**
-  * Registra **formas variantes, não autorizadas ou sinônimas**, que remetem o usuário para o cabeçalho preferido do bloco 1XX (ex.: `400 1# $a Machado de Assis, Joaquim Maria` remete para o cabeçalho `100 1# $a Assis, Machado de`).
+  * Registra **formas variantes, não autorizadas ou sinônimas**, que remetem o usuário para o cabeçalho preferido do bloco 1XX (ex.: `400 1# a Machado de Assis, Joaquim Maria` remete para o cabeçalho `100 1# a Assis, Machado de`).
 * **Bloco 5XX (Remissivas "Ver Também" / *See Also From Tracing*):**
   * Conecta o cabeçalho autorizado a **outros cabeçalhos igualmente autorizados** (termos relacionados, termos mais amplos ou nomes anteriores/posteriores de órgãos públicos no caso de cisão ou fusão institucional).
 * **Bloco 6XX (Notas de Fundamentação e Escopo da Autoridade):**
@@ -2336,22 +2352,22 @@ O formato de Holdings gerencia a informação sobre a posse física e a localiza
 * **Finalidade:** Registrar a localização física (biblioteca, edifício, sala, estante), os exemplares disponíveis, as políticas de empréstimo e a série cronológica de fascículos possuídos de um periódico (identificando lacunas no acervo).
 * **Relação com o Registro Bibliográfico:** Conecta-se ao registro bibliográfico correspondente mediante o campo `004` (que armazena o número de controle do registro bibliográfico ao qual o holding pertence).
 * **Campo 852 (Localização / *Location* — Mandatório):**
-  * `$a`: Código da agência mantenedora / instituição (código MARC).
-  * `$b`: Sub-biblioteca, unidade setorial ou coleção (ex.: `$b Biblioteca Pedro Aleixo`).
-  * `$c`: Localização específica na sala / estante (ex.: `$c Obras Raras` ou `$c Reserva Técnica`).
-  * `$h`: Notação de classificação (primeira parte do número de chamada, ex.: `$h 341.2`).
-  * `$i`: Notação de autor e marca de obra (segunda parte, ex.: `$i M149d`).
-  * `$k`: Prefixo do número de chamada (ex.: `$k REF` ou `$k FOL`).
-  * `$t`: Número da cópia ou exemplar (ex.: `$t ex. 1`).
-  * `$p`: Código de barras da peça (*piece barcode*).
+  * `a`: Código da agência mantenedora / instituição (código MARC).
+  * `b`: Sub-biblioteca, unidade setorial ou coleção (ex.: `b Biblioteca Pedro Aleixo`).
+  * `c`: Localização específica na sala / estante (ex.: `c Obras Raras` ou `c Reserva Técnica`).
+  * `h`: Notação de classificação (primeira parte do número de chamada, ex.: `h 341.2`).
+  * `i`: Notação de autor e marca de obra (segunda parte, ex.: `i M149d`).
+  * `k`: Prefixo do número de chamada (ex.: `k REF` ou `k FOL`).
+  * `t`: Número da cópia ou exemplar (ex.: `t ex. 1`).
+  * `p`: Código de barras da peça (*piece barcode*).
 * **Campos 853-855 (Legendas e Padrões / *Captions and Pattern*):**
   * `853` para fundos básicos, `854` para suplementos, `855` para índices.
   * Descrevem a regularidade da publicação, designações de volume, número e periodicidade de recursos contínuos.
 * **Campos 863-865 (Enumeração e Cronologia / *Enumeration and Chronology*):**
   * `863` fundos básicos, `864` suplementos, `865` índices.
-  * Registram os volumes, fascículos e anos específicos que a biblioteca detém (ex.: `$a v. 1-12 $i 2010-2022`).
+  * Registram os volumes, fascículos e anos específicos que a biblioteca detém (ex.: `a v. 1-12 i 2010-2022`).
 * **Campos 866-868 (Fundos Textuais / *Textual Holdings*):**
-  * Declarações em texto livre compreensíveis para o leitor final no OPAC (ex.: `866 ## $a v. 1(1990) - v. 25(2015), com lacuna do v. 14`).
+  * Declarações em texto livre compreensíveis para o leitor final no OPAC (ex.: `866 ## a v. 1(1990) - v. 25(2015), com lacuna do v. 14`).
 
 #### C. Controle de Autoridade na Catalogação Cooperativa e Redes Bibliográficas (Alvo E11)
 A catalogação cooperativa (*shared cataloging*) fundamenta-se no princípio de que uma obra deve ser catalogada com excelência uma única vez, sendo seu registro bibliográfico e de autoridade compartilhado com toda a rede de bibliotecas:
@@ -2376,15 +2392,15 @@ Todos os elementos do Dublin Core Simples compartilham duas características fun
 
 | Elemento DCMI | Definição Canônica | Mapeamento no MARC 21 |
 | :--- | :--- | :--- |
-| **Title** | O nome formal atribuído ao recurso. | Campo 245 $a |
-| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 $a |
-| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 $a (Assunto) |
+| **Title** | O nome formal atribuído ao recurso. | Campo 245 `a` |
+| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 `a` |
+| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 `a` (Assunto) |
 | **Description** | Um resumo explicativo, sumário ou descrição textual livre do recurso. | Campo 520 (Resumo) ou 500 (Nota) |
-| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 $b |
-| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 $a |
-| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 $c |
+| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 `b` |
+| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 `a` |
+| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 `c` |
 | **Type** | A natureza ou gênero abstrato do conteúdo (ex.: `dataset`, `image`, `text`). | Líder pos. 06 / Campo 655 |
-| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: `application/pdf`). | Campo 856 $q / Campo 300 |
+| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: `application/pdf`). | Campo 856 `q` / Campo 300 |
 | **Identifier** | Referência inequívoca ao recurso em um dado contexto (URI, DOI, ISBN). | Campo 020 (ISBN) / 024 (DOI) |
 | **Source** | Recurso original do qual o presente recurso é derivado. | Campo 786 (Fonte de dados) |
 | **Language** | O idioma ou código linguístico do conteúdo intelectual. | Campo 008 pos. 35-37 / Campo 041 |
@@ -2427,16 +2443,16 @@ O Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípi
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Estrutura Física do MARC 21 e Campos 00X
 
-**Assertiva:** "No formato MARC 21, o Líder é um campo de tamanho fixo com 24 posições de caracteres, e os campos variáveis de controle 00X não admitem o emprego de indicadores nem de códigos de subcampos delimitados por $."
+**Assertiva:** "No formato MARC 21, o Líder é um campo de tamanho fixo com 24 posições de caracteres, e os campos variáveis de controle 00X não admitem o emprego de indicadores nem de códigos de subcampos delimitados por ."
 
 **Gabarito Oficial:** **CERTO**
 
-**Justificativa Canônica:** Correto! Os campos 00X são estritamente de controle e posições fixas, sem os 2 indicadores e sem os códigos de subcampo ($a, $b) característicos dos campos de dados variáveis 010 a 8XX.
+**Justificativa Canônica:** Correto! Os campos 00X são estritamente de controle e posições fixas, sem os 2 indicadores e sem os códigos de subcampo (a, b) característicos dos campos de dados variáveis 010 a 8XX.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Campo 264 no Padrão RDA
 
 **Assertiva:** "Na catalogação em formato MARC 21 sob as diretrizes do RDA, o campo 264 utiliza o segundo indicador para definir a função da menção, sendo o indicador 4 reservado para registrar a data e o aviso de direitos autorais (copyright)."
@@ -2445,7 +2461,7 @@ O Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípi
 
 **Justificativa Canônica:** Certo! No campo 264 do RDA: 0 = Produção, 1 = Publicação, 2 = Distribuição, 3 = Fabricação e 4 = Aviso de Direitos Autorais (Copyright notice).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Formatos MARC 21 de Autoridades e Holdings (Caso)
 
 **Assertiva:** "Em uma biblioteca parlamentar que adota o ecossistema MARC 21, o controle normativo de nomes e suas formas variantes remissivas ("ver") deve ser implementado no formato MARC 21 de Autoridades (blocos 1XX e 4XX), enquanto a localização física das estantes, o número de chamada e os dados de exemplares e fascículos de coleções devem ser estruturados no formato MARC 21 para Dados de Holdings (campo 852 e blocos 853-868)."
@@ -2456,8 +2472,9 @@ O Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípi
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-26"></a>
 ## SUBMÓDULO 2.6: Metadados: Tipologia, Qualidade, Perfis de Aplicação, Crosswalks, Imagem e Som
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Tipologia NISO (descritivos, administrativos, técnicos, estruturais, direitos, preservação), qualidade e governança de metadados, perfis de aplicação (Heery & Patel 2000), crosswalks (perda e granularidade) e padrões para imagem (MIX/Z39.87) e som (PBCore).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -2623,7 +2640,7 @@ O edital nº 1/2026 exige explicitamente os metadados aplicados a **imagem e som
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Conceito de Perfil de Aplicação (Heery & Patel 2000)
 
 **Assertiva:** "Um perfil de aplicação combina elementos de diferentes esquemas de metadados, adaptados às necessidades de uma comunidade ou sistema."
@@ -2632,7 +2649,7 @@ O edital nº 1/2026 exige explicitamente os metadados aplicados a **imagem e som
 
 **Justificativa Canônica:** Certo! Conforme definido classicamente por Rachel Heery e Manjula Patel (2000), um Perfil de Aplicação (Application Profile) reúne e customiza propriedades de esquemas de metadados pré-existentes distintos (mix and match), adaptando-os aos requisitos locais de um domínio sem a declaração desnecessária de novos termos semânticos.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Crosswalks e Equivalência Semântica
 
 **Assertiva:** "O crosswalk entre dois esquemas de metadados garante a conversão integral e sem perda de informação, dada a equivalência semântica plena de seus elementos."
@@ -2643,7 +2660,7 @@ O edital nº 1/2026 exige explicitamente os metadados aplicados a **imagem e som
 
 **Versão Correta:** O crosswalk entre esquemas de metadados envolve mapeamentos aproximados sujeitos a perdas de informação e alterações de granularidade, inexistindo equivalência semântica plena e universal.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Tipologia NISO: Metadados Estruturais (Item 3.2)
 
 **Assertiva:** "A indicação da ordem das páginas de um livro digitalizado e da relação entre seus arquivos de imagem constitui exemplo de metadado estrutural."
@@ -2654,8 +2671,9 @@ O edital nº 1/2026 exige explicitamente os metadados aplicados a **imagem e som
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-27"></a>
 ## SUBMÓDULO 2.7: MODS, METS, BIBFRAME, Linked Data e Interoperabilidade
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Padrões XML da Library of Congress (MODS e METS), o modelo BIBFRAME 2.0 (Work, Instance, Item e conversão MARC-BIBFRAME), regras de Linked Data (Berners-Lee 2006), identificadores persistentes e os quatro níveis de interoperabilidade.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -2702,7 +2720,7 @@ Desenvolvido pela *Library of Congress* (LoC) como iniciativa do *Network Develo
 
 #### A. Características Arquiteturais do MODS:
 * **Compatibilidade e Derivação do MARC 21:** O MODS foi concebido expressamente a partir do conjunto de elementos do MARC 21. Um subconjunto substancial de dados catalográficos pode ser convertido de MARC 21 para MODS e vice-versa com perdas mínimas, utilizando scripts de transformação XSLT mantidos pela própria Biblioteca do Congresso.
-* **Linguagem Natural Legível (*Human-Readable Tags*):** Em vez de empregar campos crípticos de três dígitos como `100 1# $a`, o MODS utiliza elementos semânticos legíveis em XML, tais como `<titleInfo><title>`, `<name type="personal"><namePart>`, `<genre>` e `<subject>`.
+* **Linguagem Natural Legível (*Human-Readable Tags*):** Em vez de empregar campos crípticos de três dígitos como `100 1# a`, o MODS utiliza elementos semânticos legíveis em XML, tais como `<titleInfo><title>`, `<name type="personal"><namePart>`, `<genre>` e `<subject>`.
 * **Riqueza Superior ao Dublin Core:** Enquanto o Dublin Core possui apenas `dc:creator` e `dc:contributor`, o MODS permite especificar papéis detalhados de autoria (`<role><roleTerm>`), qualificadores de edição, formas variantes de títulos e datas estruturadas de forma muito mais sofisticada.
 * **Uso Típico:** Muito empregado na descrição de acervos digitais de bibliotecas acadêmicas, como formato de entrega em repositórios digitais e como metadado descritivo embutido em contêineres METS.
 
@@ -2894,7 +2912,7 @@ A interoperabilidade é a capacidade de sistemas distintos e autônomos comunica
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Estrutura Conceitual do Modelo BIBFRAME 2.0 (LoC)
 
 **Assertiva:** "No BIBFRAME 2.0, as classes centrais do modelo são Work, Instance e Item."
@@ -2903,7 +2921,7 @@ A interoperabilidade é a capacidade de sistemas distintos e autônomos comunica
 
 **Justificativa Canônica:** Certo! O modelo BIBFRAME 2.0, mantido pela Library of Congress para a catalogação em Linked Data, organiza os recursos bibliográficos a partir de três classes fundamentais: Work (conteúdo conceitual/intelectual), Instance (publicação/emissão concreta em determinado suporte) e Item (cópia física ou digital específica custodiada).
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Compatibilidade do Padrão MODS com o Formato MARC 21
 
 **Assertiva:** "O MODS é um padrão de metadados incompatível com o MARC 21, uma vez que utiliza XML e rótulos em linguagem natural em lugar de campos numéricos."
@@ -2914,7 +2932,7 @@ A interoperabilidade é a capacidade de sistemas distintos e autônomos comunica
 
 **Versão Correta:** O MODS é plenamente compatível com o formato MARC 21, tendo sido derivado dele para expressar sua riqueza catalográfica em linguagem XML com rótulos semânticos legíveis.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Arquitetura e Funções do Padrão METS (Library of Congress)
 
 **Assertiva:** "O METS é um padrão que atua como envelope XML, podendo reunir metadados descritivos e administrativos, a lista de arquivos e o mapa estrutural de um objeto digital."
@@ -2932,8 +2950,9 @@ Mini-módulo especial unindo Direito Constitucional aplicado, técnicas de repre
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-25"></a>
 ## SUBMÓDULO 2.5: Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Estrutura constitucional dos poderes e órgãos (STF, STJ, TJs, TCU, TCEs, MP, Câmara dos Deputados), catalogação sob jurisdição vs entrada direta (AACR2r 24.18/24.19 e RDA Cap. 11), campos MARC 21 (110/710) e a história e sistemas da Biblioteca Pedro Aleixo.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -2959,14 +2978,14 @@ Mini-módulo especial unindo Direito Constitucional aplicado, técnicas de repre
 
 | Natureza Jurídica / Órgão | Ponto de Acesso Autorizado (AACR2r/RDA) | MARC 21 (Campo / Indicadores / Tags) | Regra Aplicável e Fundamentação Cebraspe |
 | --- | --- | --- | --- |
-| Poder Legislativo Federal (Câmara dos Deputados) | Brasil. Congresso Nacional. Câmara dos Deputados. | 110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. | AACR2 24.18 (Tipo 5 e Tipo 11). Entrada sob jurisdição com subordinação hierárquica ao Congresso Nacional. |
-| Poder Judiciário Federal de Cúpula (STF e STJ) | Brasil. Supremo Tribunal Federal. / Brasil. Superior Tribunal de Justiça. | 110 1# $a Brasil. $b Supremo Tribunal Federal. | AACR2 24.18 (Tipo 6 - Tribunais). Entrada sob a jurisdição política (Brasil), omitindo ministérios ou intermediários. |
-| Poder Judiciário Estadual (Tribunais de Justiça) | São Paulo (Estado). Tribunal de Justiça. | 110 1# $a São Paulo (Estado). $b Tribunal de Justiça. | AACR2 24.18 (Tipo 6). Entrada sob o nome do Estado federado qualificado entre parênteses para distinguir de cidades homônimas. |
-| Tribunais de Contas (TCU e TCEs) | Brasil. Tribunal de Contas da União. / Minas Gerais. Tribunal de Contas do Estado. | 110 1# $a Brasil. $b Tribunal de Contas da União. | AACR2 24.18 (Tipo 3 / Órgão de controle externo constitucional). Entrada sob jurisdição federal ou estadual. |
-| Ministério Público (MPU e MPEs) | Brasil. Ministério Público da União. / Rio de Janeiro (Estado). Ministério Público. | 110 1# $a Brasil. $b Ministério Público da União. | Função Essencial à Justiça autônoma. Entrada sob jurisdição territorial correspondente. |
-| Universidades Públicas Federais e Estaduais | Universidade de Brasília. / Universidade de São Paulo. | 110 2# $a Universidade de Brasília. | AACR2 24.17 e 24.1. Entrada DIRETA pelo nome próprio da instituição. NÃO se subordinam à jurisdição geográfica no ponto de acesso. |
-| Empresas Públicas e Sociedades de Economia Mista | Petróleo Brasileiro. / Empresa Brasileira de Correios e Telégrafos. | 110 2# $a Petróleo Brasileiro. | Entidades empresariais estatais com personalidade jurídica de direito privado entram em ordem direta (indicador 2). |
-| Biblioteca da Câmara dos Deputados (Pedro Aleixo) | Brasil. Congresso Nacional. Câmara dos Deputados. Centro de Documentação e Informação. Coordenação de Biblioteca. | 710 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Centro de Documentação e Informação. $b Coordenação de Biblioteca. | AACR2 24.18 e 24.19. Subordinação encadeada quando a unidade subordinada requer o contexto do órgão maior (CEDI). |
+| Poder Legislativo Federal (Câmara dos Deputados) | Brasil. Congresso Nacional. Câmara dos Deputados. | 110 1# a Brasil. b Congresso Nacional. b Câmara dos Deputados. | AACR2 24.18 (Tipo 5 e Tipo 11). Entrada sob jurisdição com subordinação hierárquica ao Congresso Nacional. |
+| Poder Judiciário Federal de Cúpula (STF e STJ) | Brasil. Supremo Tribunal Federal. / Brasil. Superior Tribunal de Justiça. | 110 1# a Brasil. b Supremo Tribunal Federal. | AACR2 24.18 (Tipo 6 - Tribunais). Entrada sob a jurisdição política (Brasil), omitindo ministérios ou intermediários. |
+| Poder Judiciário Estadual (Tribunais de Justiça) | São Paulo (Estado). Tribunal de Justiça. | 110 1# a São Paulo (Estado). b Tribunal de Justiça. | AACR2 24.18 (Tipo 6). Entrada sob o nome do Estado federado qualificado entre parênteses para distinguir de cidades homônimas. |
+| Tribunais de Contas (TCU e TCEs) | Brasil. Tribunal de Contas da União. / Minas Gerais. Tribunal de Contas do Estado. | 110 1# a Brasil. b Tribunal de Contas da União. | AACR2 24.18 (Tipo 3 / Órgão de controle externo constitucional). Entrada sob jurisdição federal ou estadual. |
+| Ministério Público (MPU e MPEs) | Brasil. Ministério Público da União. / Rio de Janeiro (Estado). Ministério Público. | 110 1# a Brasil. b Ministério Público da União. | Função Essencial à Justiça autônoma. Entrada sob jurisdição territorial correspondente. |
+| Universidades Públicas Federais e Estaduais | Universidade de Brasília. / Universidade de São Paulo. | 110 2# a Universidade de Brasília. | AACR2 24.17 e 24.1. Entrada DIRETA pelo nome próprio da instituição. NÃO se subordinam à jurisdição geográfica no ponto de acesso. |
+| Empresas Públicas e Sociedades de Economia Mista | Petróleo Brasileiro. / Empresa Brasileira de Correios e Telégrafos. | 110 2# a Petróleo Brasileiro. | Entidades empresariais estatais com personalidade jurídica de direito privado entram em ordem direta (indicador 2). |
+| Biblioteca da Câmara dos Deputados (Pedro Aleixo) | Brasil. Congresso Nacional. Câmara dos Deputados. Centro de Documentação e Informação. Coordenação de Biblioteca. | 710 1# a Brasil. b Congresso Nacional. b Câmara dos Deputados. b Centro de Documentação e Informação. b Coordenação de Biblioteca. | AACR2 24.18 e 24.19. Subordinação encadeada quando a unidade subordinada requer o contexto do órgão maior (CEDI). |
 
 ### TEORIA DENSA E DOUTRINA INTEGRAL
 
@@ -3084,8 +3103,8 @@ START: Entidade Pública a Catalogar | Análise segundo regras de subordinação
 QUESTION: Exerce função básica de soberania ou enquadra-se no AACR2 24.18?
 YES: Entrada sob Jurisdição Geográfica | Órgãos de cúpula, Judiciário, Legislativo e Ministérios
 NO: Entrada Direta sob o próprio Nome | Universidades, Empresas Públicas e Autarquias Científicas
-YES_RESULT: 110 1# $a Brasil. $b Congresso Nacional. | 1º Indicador = 1 (Jurisdição territorial)
-NO_RESULT: 110 2# $a Universidade de Brasília. | 1º Indicador = 2 (Nome direto da entidade)
+YES_RESULT: 110 1# a Brasil. b Congresso Nacional. | 1º Indicador = 1 (Jurisdição territorial)
+NO_RESULT: 110 2# a Universidade de Brasília. | 1º Indicador = 2 (Nome direto da entidade)
 ```
 
 ---
@@ -3132,21 +3151,21 @@ No padrão MARC 21, o tratamento de nomes de entidades governamentais é codific
 - **Segundo Indicador**:
   - `#` (indefinido ou em branco).
 - **Subcampos Principais**:
-  - `$a`: Nome da jurisdição ou nome da entidade coletiva em ordem direta (obrigatório, não repetível).
-  - `$b`: Unidade subordinada (repetível para cada nível de subordinação hierárquica).
-  - `$c`: Local do evento ou sede (quando aplicável).
-  - `$d`: Data da reunião, conferência ou tratado.
-  - `$e`: Termo de relação (ex.: `$e relator`, `$e editor`).
+  - `a`: Nome da jurisdição ou nome da entidade coletiva em ordem direta (obrigatório, não repetível).
+  - `b`: Unidade subordinada (repetível para cada nível de subordinação hierárquica).
+  - `c`: Local do evento ou sede (quando aplicável).
+  - `d`: Data da reunião, conferência ou tratado.
+  - `e`: Termo de relação (ex.: `e relator`, `e editor`).
 
 #### Exemplos de Aplicação Real em Provas Cebraspe:
 ```text
-110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.
-110 1# $a Brasil. $b Supremo Tribunal Federal.
-110 1# $a São Paulo (Estado). $b Tribunal de Justiça.
-110 1# $a Brasil. $b Tribunal de Contas da União.
-110 2# $a Universidade de Brasília.
-110 2# $a Fundação Oswaldo Cruz.
-710 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Centro de Documentação e Informação. $b Coordenação de Biblioteca.
+110 1# a Brasil. b Congresso Nacional. b Câmara dos Deputados.
+110 1# a Brasil. b Supremo Tribunal Federal.
+110 1# a São Paulo (Estado). b Tribunal de Justiça.
+110 1# a Brasil. b Tribunal de Contas da União.
+110 2# a Universidade de Brasília.
+110 2# a Fundação Oswaldo Cruz.
+710 1# a Brasil. b Congresso Nacional. b Câmara dos Deputados. b Centro de Documentação e Informação. b Coordenação de Biblioteca.
 ```
 
 ---
@@ -3270,7 +3289,7 @@ A Biblioteca Pedro Aleixo é uma **biblioteca parlamentar especializada**, com m
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Sobre a natureza institucional dos órgãos públicos e sua competência constitucional, julgue o item a seguir:
 
 **Assertiva:** "O Tribunal de Contas da União (TCU) integra formalmente a estrutura do Poder Judiciário brasileiro, competindo-lhe proferir decisões transitadas em julgado com eficácia de coisa julgada material sobre as contas de gestores públicos federais."
@@ -3279,16 +3298,16 @@ A Biblioteca Pedro Aleixo é uma **biblioteca parlamentar especializada**, com m
 
 **Justificativa Canônica:** ERRADO. O TCU NÃO integra o Poder Judiciário (o rol de órgãos do Judiciário é taxativo no art. 92 da CF/88 e não inclui os Tribunais de Contas). O TCU é órgão constitucional autônomo que auxilia o Poder Legislativo no controle externo. Suas decisões condenatórias têm eficácia de título executivo extrajudicial (art. 71, § 3º, da CF/88) e podem ter sua legalidade revista pelo Poder Judiciário.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Acerca das regras de escolha e determinação de cabeçalhos para entidades coletivas no código AACR2r e no formato MARC 21, julgue o item a seguir:
 
-**Assertiva:** "De acordo com o AACR2r e o formato MARC 21, as universidades públicas federais devem ser catalogadas com entrada principal subordinada à jurisdição territorial correspondente, utilizando-se o campo 110 com primeiro indicador 1 (ex.: 110 1# $a Brasil. $b Universidade Federal de Minas Gerais.)."
+**Assertiva:** "De acordo com o AACR2r e o formato MARC 21, as universidades públicas federais devem ser catalogadas com entrada principal subordinada à jurisdição territorial correspondente, utilizando-se o campo 110 com primeiro indicador 1 (ex.: 110 1# a Brasil. b Universidade Federal de Minas Gerais.)."
 
 **Gabarito Oficial:** **ERRADO**
 
-**Justificativa Canônica:** ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), entidades que não se enquadram nos tipos restritos da regra 24.18 — como instituições de ensino superior, hospitais públicos, bancos estatais e institutos de pesquisa com nomes distintivos — entram diretamente sob o seu próprio nome. Portanto, a forma autorizada é "Universidade Federal de Minas Gerais." e no MARC 21 utiliza-se o campo 110 com primeiro indicador 2 (ordem direta): 110 2# $a Universidade Federal de Minas Gerais.
+**Justificativa Canônica:** ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), entidades que não se enquadram nos tipos restritos da regra 24.18 — como instituições de ensino superior, hospitais públicos, bancos estatais e institutos de pesquisa com nomes distintivos — entram diretamente sob o seu próprio nome. Portanto, a forma autorizada é "Universidade Federal de Minas Gerais." e no MARC 21 utiliza-se o campo 110 com primeiro indicador 2 (ordem direta): 110 2# a Universidade Federal de Minas Gerais.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Em relação à Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo) e aos sistemas de informação do Congresso Nacional, julgue o item a seguir:
 
 **Assertiva:** "A Biblioteca da Câmara dos Deputados, criada originalmente em 1826 no Rio de Janeiro e denominada Biblioteca Pedro Aleixo, integra o Centro de Documentação e Informação (CEDI) e mantém a Biblioteca Digital da Câmara (BDCam), plataforma baseada no software livre DSpace destinada a disponibilizar em acesso aberto a memória parlamentar, estudos técnicos e publicações institucionais."
@@ -3306,8 +3325,9 @@ Estudo aprofundado da representação temática do conhecimento: a teoria da cla
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-31"></a>
 ## SUBMÓDULO 3.1: Teoria da Classificação, CDD (23ª ed.) e CDU
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Teoria da classificação bibliográfica (Piedade), estrutura hierárquica e enumerativa da CDD (23ª ed. e Tabelas T1 a T6), e arquitetura analítico-sintética da CDU (sinais de síntese, auxiliares comuns independentes e dependentes, e auxiliares especiais analíticas).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -3505,7 +3525,7 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Estrutura Atual das Classes da CDU
 
 **Assertiva:** "Na Classificação Decimal Universal (CDU), a classe 4 encontra-se atualmente vaga, tendo seus conteúdos de linguística sido transferidos e agrupados com a literatura na classe 8."
@@ -3514,7 +3534,7 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 
 **Justificativa Canônica:** Correto! Essa é uma clássica questão do Cebraspe. A classe 4 foi esvaziada pela FID para futura expansão do conhecimento, restando exatamente 9 classes principais ativas.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Sinais de Relação na CDU
 
 **Assertiva:** "O sinal de dois pontos duplos (::) na CDU é utilizado como indicador de relação simples e perfeitamente reversível, permitindo a livre inversão dos números na composição notacional."
@@ -3523,7 +3543,7 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 
 **Justificativa Canônica:** Errado! Os dois pontos duplos (::) indicam relação fixa ou irreversível. Quem indica relação reversível na CDU são os dois pontos simples (:).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Tabela 1 Auxiliar da CDD
 
 **Assertiva:** "Na Classificação Decimal de Dewey (CDD), a Tabela 1 (Subdivisões Padrão) só pode ser utilizada quando houver instrução expressa na tabela principal de classificação autorizando a sua adição."
@@ -3534,8 +3554,9 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-32"></a>
 ## SUBMÓDULO 3.2: Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, a espinha dorsal temática da RVBI e do LexML, e as regras avançadas de Notação de Autor (Cutter-Sanborn e Tabela PHA de Prado).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -3700,7 +3721,7 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Origem e Aplicação da CDDir
 
 **Assertiva:** "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, foi estruturada para adaptar a classificação jurídica às particularidades do ordenamento jurídico brasileiro e comparado de matriz romano-germânica (Civil Law)."
@@ -3709,7 +3730,7 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 
 **Justificativa Canônica:** Correto! A CDDir é amplamente utilizada nas bibliotecas jurídicas federais e na RVBI para superar as limitações das tabelas gerais anglo-saxônicas.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Notação de Autor para Entidades com Sigla
 
 **Assertiva:** "Na composição do número de Cutter segundo a tabela Cutter-Sanborn, caso a autoria de uma obra seja atribuída a uma entidade cuja entrada seja por sigla oficial, a notação numérica deve ser extraída do significado por extenso da denominação do órgão."
@@ -3718,7 +3739,7 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 
 **Justificativa Canônica:** Errado! A notação numérica de Cutter é extraída diretamente das letras da sigla oficial (ex.: OAB, STF, IPEA), e não do seu significado por extenso.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Notação de Autor em Biografias Individuais
 
 **Assertiva:** "Na catalogação de biografias individuais, a notação de autor extraída da tabela Cutter é atribuída ao nome do biografado, cabendo ao biógrafo fornecer a letra minúscula representativa da marca de obra."
@@ -3729,8 +3750,9 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-33"></a>
 ## SUBMÓDULO 3.3: Análise Documentária e Processo de Indexação
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Teoria da análise documentária (Kobashi e Cintra), as etapas da indexação segundo Lancaster e a ISO 5963, pré-coordenação vs pós-coordenação, sumarização vs indexação em profundidade, coerência de indexação e as métricas de avaliação de recuperação (revocação, precisão, ruído e silêncio).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -3845,14 +3867,14 @@ A coerência avalia a repetibilidade e estabilidade das decisões de indexação
 * **Coerência Interindexadores:** O grau de concordância entre dois ou mais indexadores diferentes ao atribuírem termos ao mesmo documento.
 * **Coerência Intraindexador:** O grau de concordância do mesmo indexador consigo mesmo ao indexar o mesmo documento em dois momentos temporais distintos.
 * *Coeficiente de Consistência de Hooper:*
-  $\text{Consistência} = \frac{C}{A + B - C}$
-  Onde $A$ é o número de termos do indexador 1, $B$ é o número de termos do indexador 2, e $C$ é o número de termos em comum atribuídos por ambos.
+  Consistência = (C / A + B - C)
+  Onde A é o número de termos do indexador 1, B é o número de termos do indexador 2, e C é o número de termos em comum atribuídos por ambos.
 
 #### B. As Métricas dos Testes de Cranfield (Cleverdon, 1960)
 * **Revocação (*Recall*):**
-  $\text{Revocação} = \frac{\text{Relevantes Recuperados}}{\text{Total de Relevantes Existentes no Acervo}}$
+  Revocação = \frac{Relevantes Recuperados}{Total de Relevantes Existentes no Acervo}
 * **Precisão (*Precision*):**
-  $\text{Precisão} = \frac{\text{Relevantes Recuperados}}{\text{Total de Itens Recuperados na Busca}}$
+  Precisão = \frac{Relevantes Recuperados}{Total de Itens Recuperados na Busca}
 
 A relação entre revocação e precisão é fundamentalmente **inversamente proporcional**:
 * **Alta Exaustividade -> Alta Revocação -> Risco de Ruído** (recupera-se muito lixo informacional irrelevante).
@@ -3898,7 +3920,7 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: As Etapas do Processo de Indexação de Lancaster
 
 **Assertiva:** "Segundo F. W. Lancaster, o processo de indexação desdobra-se tradicionalmente em duas etapas consecutivas: a análise conceitual, que identifica do que trata o documento em linguagem natural, e a tradução, que converte esses conceitos em termos de uma linguagem documentária."
@@ -3907,7 +3929,7 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 
 **Justificativa Canônica:** Correto! Essa é a formulação clássica de Lancaster (1993), universalmente cobrada pela banca Cebraspe.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Exaustividade e Revocação
 
 **Assertiva:** "No processo de indexação, a exaustividade refere-se à quantidade de temas e conceitos indexados no documento, e sua elevação tende a aumentar a taxa de revocação do sistema de recuperação da informação."
@@ -3916,7 +3938,7 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 
 **Justificativa Canônica:** Correto! Quanto maior o número de conceitos indexados (alta exaustividade), maior é a probabilidade de o documento ser encontrado na busca (alta revocação), aumentando concomitantemente o risco de ruído informacional.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Relação Inversa entre Revocação e Precisão
 
 **Assertiva:** "Conforme a doutrina de F. W. Lancaster e os resultados históricos dos testes de Cranfield, o aumento da especificidade dos termos de indexação tende a elevar a revocação do sistema, reduzindo paralelamente a precisão das buscas."
@@ -3927,8 +3949,9 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-34"></a>
 ## SUBMÓDULO 3.4: Linguagens Documentárias, Tesauros, Ontologias e SKOS
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Tipologia das linguagens documentárias (Cintra, Lara), a Teoria do Conceito de Ingetraut Dahlberg, arquitetura e normas de tesauros (ISO 25964), forma gramatical dos descritores, o Vocabulário Controlado Básico (VCB da RVBI), Ontologias e o padrão SKOS do W3C.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -4095,10 +4118,10 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 | **5. Funcionalidade** | Viabilidade técnica, simplicidade de aplicação, custo-benefício e eficiência operacional da linguagem compatibilizada. | Avalia se o vocabulário integrado é ágil de consultar no OPAC e viável de manter pela equipe sem gerar lentidão ou custos insustentáveis de atualização. | A banca afirma que a compatibilização deve ser buscada a qualquer custo, mesmo que inviabilize o fluxo operacional cotidiano. |
 
 #### A. Tipos de Mapeamento segundo a ISO 25964-2
-* **Mapeamento de Equivalência Exata (*Exact Equivalence*):** Os termos de ambos os vocabulários possuem rigorosamente o mesmo significado e escopo ($A = B$).
-* **Mapeamento de Equivalência Inexata / Quase-equivalência (*Inexact Equivalence*):** Há pequena divergência de nuance ou escopo cultural, mas os termos são tratados como equivalentes para viabilizar a busca cruzada ($A \approx B$).
-* **Mapeamento de Equivalência Parcial / Hierárquica (*Partial Equivalence*):** Um termo em uma linguagem é mais amplo ou mais restrito que o termo correspondente na outra linguagem ($A < B$ ou $A > B$).
-* **Mapeamento Composto (*Compound Equivalence*):** Um termo em um vocabulário exige a combinação de dois ou mais termos no outro vocabulário ($A = B + C$).
+* **Mapeamento de Equivalência Exata (*Exact Equivalence*):** Os termos de ambos os vocabulários possuem rigorosamente o mesmo significado e escopo (A = B).
+* **Mapeamento de Equivalência Inexata / Quase-equivalência (*Inexact Equivalence*):** Há pequena divergência de nuance ou escopo cultural, mas os termos são tratados como equivalentes para viabilizar a busca cruzada (A ≈ B).
+* **Mapeamento de Equivalência Parcial / Hierárquica (*Partial Equivalence*):** Um termo em uma linguagem é mais amplo ou mais restrito que o termo correspondente na outra linguagem (A < B ou A > B).
+* **Mapeamento Composto (*Compound Equivalence*):** Um termo em um vocabulário exige a combinação de dois ou mais termos no outro vocabulário (A = B + C).
 
 ---
 
@@ -4141,7 +4164,7 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Relações Semânticas em Tesauros
 
 **Assertiva:** "Nos tesauros documentários estruturados segundo as normas internacionais, a relação entre dois termos na qual um é preferido e outro é não preferido caracteriza a relação de equivalência, expressa formalmente pelas convenções USE e UP (Usado Para)."
@@ -4150,7 +4173,7 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 
 **Justificativa Canônica:** Correto! A relação de equivalência conecta termos sinônimos, variantes ortográficas e quase-sinônimos, estabelecendo o descritor autorizado.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença entre Tesauro e Ontologia
 
 **Assertiva:** "Diferentemente dos tesauros tradicionais, cuja função primordial é apoiar a recuperação documental mediante termos padronizados, as ontologias contêm axiomas formais e propriedades lógicas que viabilizam o raciocínio automatizado por máquinas."
@@ -4159,7 +4182,7 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 
 **Justificativa Canônica:** Correto! Essa é a distinção ontológica fundamental cobrada pelo Cebraspe entre instrumentos terminológicos (tesauros) e modelos conceituais da Web Semântica e inteligência artificial (ontologias).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Critérios de Compatibilização de Vocabulários (Edital 3.13)
 
 **Assertiva:** "No processo de compatibilização de linguagens documentárias, o critério da univocidade assegura que cada conceito seja representado por um único descritor autorizado no vocabulário harmonizado, ao passo que o critério da precisão afere o rigor e a exatidão da correspondência semântica entre os termos mapeados de diferentes esquemas."
@@ -4177,8 +4200,9 @@ Estudo aprofundado dos sistemas de busca e recuperação de informação (Mooers
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-41"></a>
 ## SUBMÓDULO 4.1: Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Fundamentos de Information Retrieval (Mooers, Salton), álgebra booleana (AND, OR, NOT), operadores de proximidade e truncagem, modelos de recuperação (booleano, vetorial e probabilístico), arquivo invertido, motores de busca e metabuscadores.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -4211,8 +4235,10 @@ Estudo aprofundado dos sistemas de busca e recuperação de informação (Mooers
 ### TEORIA DENSA E DOUTRINA INTEGRAL
 
 ### 1. A Gênese e os Fundamentos da Recuperação da Informação (*Information Retrieval - IR*)
-O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Conforme a definição clássica de Gerard Salton e dos autores de referência contemporânea Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):
-> *"A Recuperação da Informação é o processo de representação, armazenamento, organização e acesso a itens de informação, com o propósito de disponibilizar ao usuário os documentos que atendem à sua necessidade de informação expressa em uma consulta."*
+O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Na tradição conceitual associada a Gerard Salton e às referências contemporâneas de Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Conceituação Doutrinária (Baeza-Yates & Ribeiro-Neto; Salton):** De acordo com a doutrina consolidada de Baeza-Yates, Ribeiro-Neto e Salton, a Recuperação da Informação compreende o conjunto estruturado de processos de representação, armazenamento, organização e acesso a itens documentários, visando fornecer ao usuário aqueles recursos que atendam à necessidade informacional formulada em sua consulta.
 
 Ao contrário dos Bancos de Dados Relacionais clássicos (SGBDs baseados em SQL), que operam sobre dados estruturados com correspondência determinística e exata, os **Sistemas de Recuperação da Informação (SRI)** operam predominantemente sobre **textos em linguagem natural não estruturados ou semiestruturados**, onde a pertinência e a relevância possuem natureza conceitual, gradual e subjetiva.
 
@@ -4234,26 +4260,26 @@ O **CEBRASPE** cobra a comparação aprofundada dos três modelos matemáticos c
 | Critério Analítico | Modelo Booleano Clássico | Modelo do Espaço Vetorial (Gerard Salton) | Modelo Probabilístico (Robertson & Spärck Jones) |
 | :--- | :--- | :--- | :--- |
 | **Base Teórica Formal** | Teoria dos Conjuntos e Álgebra de George Boole (1854). | Álgebra Linear e Geometria Euclidiana multidimensional. | Teoria da Probabilidade e Teorema da Probabilidade Total de Bayes. |
-| **Ponderação de Termos** | **Binária** (pesos $0$ ou $1$ — o termo está presente ou ausente). | **Numérica Contínua** baseada em frequências estatísticas (**TF-IDF**). | Probabilística baseada na distribuição de termos em classes de relevância. |
+| **Ponderação de Termos** | **Binária** (pesos 0 ou 1 — o termo está presente ou ausente). | **Numérica Contínua** baseada em frequências estatísticas (**TF-IDF**). | Probabilística baseada na distribuição de termos em classes de relevância. |
 | **Tipo de Casamento (*Matching*)** | Exato e determinístico (Tudo ou Nada). Não aceita correspondência parcial. | **Casamento Parcial** baseado no ângulo de proximidade entre vetores. | Estimação da probabilidade de um documento ser relevante dada uma consulta. |
 | **Ranqueamento dos Resultados** | **INEXISTENTE**. Os documentos recuperados não são ordenados por relevância. | **Excelente e contínuo**. Ordenação decrescente pelo Cosseno da Similaridade. | Ordenação decrescente pelo princípio da probabilidade de relevância (PRP). |
 | **Vantagens Principais** | Simplicidade lógica, precisão em consultas de especialistas (Direito/Medicina). | Alta revocação, casamento gradual e ordenação intuitiva para usuários comuns. | Fundamentação teórica rigorosa em inferência estatística bayesiana. |
 | **Limitações Críticas** | Rigidez extrema: não tolera sinônimos sem o operador OR; gera silêncio ou excesso. | Assume independência mútua entre os termos (o que não ocorre na linguagem real). | Exige dados amostrais prévios ou relevância inicial para calibrar as probabilidades. |
 
 #### A. Detalhamento do Modelo do Espaço Vetorial e o Esquema TF-IDF (Gerard Salton, 1975)
-No Modelo Vetorial desenvolvido no projeto SMART da Universidade de Cornell, cada documento $d_j$ e a consulta $q$ são representados como vetores multidimensionais em um espaço de $t$ dimensões, onde cada dimensão corresponde a um termo único do vocabulário:
+No Modelo Vetorial desenvolvido no projeto SMART da Universidade de Cornell, cada documento d_j e a consulta q são representados como vetores multidimensionais em um espaço de t dimensões, onde cada dimensão corresponde a um termo único do vocabulário:
 * **Frequência do Termo no Documento (*Term Frequency - TF*):**
-  $TF_{i, j} = \frac{f_{i, j}}{\max_k f_{k, j}}$
-  *Mede quantas vezes o termo $t_i$ aparece no documento $d_j$. Quanto mais frequente o termo no documento, maior a evidência de que a obra trata daquele assunto.*
+  TF_{i, j} = \frac{f_{i, j}}{\max_k f_{k, j}}
+  *Mede quantas vezes o termo t_i aparece no documento d_j. Quanto mais frequente o termo no documento, maior a evidência de que a obra trata daquele assunto.*
 * **Inverso da Frequência no Documento (*Inverse Document Frequency - IDF*):**
-  $IDF_i = \log \left( \frac{N}{n_i} \right)$
-  *Onde $N$ é o número total de documentos da coleção e $n_i$ é o número de documentos que contêm o termo $t_i$. O IDF penaliza termos triviais que aparecem em quase todos os livros (baixo poder de discriminação) e valoriza termos raros e específicos.*
+  IDF_i = \log ≤ft( (N / n_i) \right)
+  *Onde N é o número total de documentos da coleção e n_i é o número de documentos que contêm o termo t_i. O IDF penaliza termos triviais que aparecem em quase todos os livros (baixo poder de discriminação) e valoriza termos raros e específicos.*
 * **Peso TF-IDF Combinado:**
-  $w_{i, j} = TF_{i, j} \times IDF_i$
+  w_{i, j} = TF_{i, j} × IDF_i
 * **Medida de Similaridade do Cosseno (*Cosine Similarity*):**
-  A proximidade entre o vetor da consulta $\vec{q}$ e o vetor do documento $\vec{d_j}$ é calculada pelo cosseno do ângulo $\theta$ formado entre eles no espaço vetorial:
-  $\text{Sim}(\vec{q}, \vec{d_j}) = \cos(\theta) = \frac{\vec{q} \cdot \vec{d_j}}{\|\vec{q}\| \times \|\vec{d_j}\|}$
-  *Se os vetores coincidirem perfeitamente, $\cos(0) = 1$ (similaridade máxima). Se forem perpendiculares (ortogonais), $\cos(90^\circ) = 0$ (sem termos em comum).*
+  A proximidade entre o vetor da consulta \vec{q} e o vetor do documento \vec{d_j} é calculada pelo cosseno do ângulo \theta formado entre eles no espaço vetorial:
+  Sim(\vec{q}, \vec{d_j}) = \cos(\theta) = \frac{\vec{q} · \vec{d_j}}{\|\vec{q}\| × \|\vec{d_j}\|}
+  *Se os vetores coincidirem perfeitamente, \cos(0) = 1 (similaridade máxima). Se forem perpendiculares (ortogonais), \cos(90^\circ) = 0 (sem termos em comum).*
 
 ---
 
@@ -4274,8 +4300,8 @@ A elaboração de uma estratégia de busca exige o domínio cirúrgico dos opera
    * *Impacto no Desempenho:* Aumenta a precisão, mas é considerado de **alto risco**, pois pode descartar documentos altamente pertinentes que apenas citem o termo excluído de passagem em uma nota de rodapé.
 
 #### B. Ordem de Precedência e Parênteses
-Em expressões booleanas complexas, os sistemas de recuperação seguem uma ordem padrão de avaliação (normalmente `NOT` $\rightarrow$ `AND` $\rightarrow$ `OR`). O uso de parênteses é mandatório para alterar a precedência:
-$\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$
+Em expressões booleanas complexas, os sistemas de recuperação seguem uma ordem padrão de avaliação (normalmente `NOT` \rightarrow `AND` \rightarrow `OR`). O uso de parênteses é mandatório para alterar a precedência:
+(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência
 
 #### C. Operadores Sintáticos de Proximidade e Truncagem
 * **Truncagem (*Wildcards*):**
@@ -4283,7 +4309,7 @@ $\text{(Processo Legislativo OR Regimento Interno) AND Votação NOT Urgência}$
   * *Interna / Coringa Unicactere:* Substitui um único caractere para absorver variantes ortográficas (ex.: `wom?n` para *woman* e *women*; `organi?ação` para organização e organisação).
 * **Operadores de Proximidade e Adjacência:**
   * `ADJ` ou aspas duplas `"..."`: Exigem que os termos apareçam imediatamente contíguos na mesma ordem (frase exata);
-  * `NEAR/n`: Exige que os termos estejam a uma distância máxima de $n$ palavras um do outro, em qualquer ordem;
+  * `NEAR/n`: Exige que os termos estejam a uma distância máxima de n palavras um do outro, em qualquer ordem;
   * `WITH`: Exige que os termos estejam na mesma frase (*sentence*);
   * `SAME`: Exige que os termos estejam no mesmo campo ou parágrafo.
 
@@ -4324,7 +4350,7 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 | *"No modelo booleano clássico de recuperação, os documentos recuperados são automaticamente ordenados pelo grau decrescente de pertinência temática."* | **ERRADO** | O modelo booleano **não ranqueia** resultados; o casamento é binário (pertence ou não pertence ao conjunto). |
 | *"A aplicação do operador booleano OR tem por objetivo primordial elevar a precisão da pesquisa documental."* | **ERRADO** | O operador OR serve para elevar a **REVOCAÇÃO**, pois amplia o escopo unindo sinônimos e termos correlatos. |
 | *"Os metabuscadores destacam-se por manter o maior repositório indexado próprio de documentos científicos da Internet."* | **ERRADO** | Metabuscadores **não mantêm base própria de documentos**; realizam busca federada intermediando fontes externas. |
-| *"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF."* | **ERRADO** | Quanto mais frequente o termo na coleção ($n_i \approx N$), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |
+| *"No cálculo do TF-IDF de Gerard Salton, palavras presentes em praticamente todos os documentos da base recebem os maiores valores de IDF."* | **ERRADO** | Quanto mais frequente o termo na coleção (n_i ≈ N), menor o seu IDF (tende a zero); o IDF valoriza termos **raros**. |
 
 ---
 
@@ -4351,7 +4377,7 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Operadores Booleanos e Desempenho de RI
 
 **Assertiva:** "Na formulação de uma estratégia de busca em base de dados documental, o emprego do operador booleano OR visa restringir a quantidade de resultados para aumentar a precisão da pesquisa."
@@ -4360,7 +4386,7 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 
 **Justificativa Canônica:** Errado! O operador OR é de união; ele amplia a pesquisa agrupando termos e sinônimos, com a finalidade precípua de elevar a REVOCAÇÃO (e não a precisão).
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Funcionamento dos Metabuscadores
 
 **Assertiva:** "Os metabuscadores caracterizam-se por realizar buscas federadas em múltiplos sistemas e bases de dados heterogêneas a partir de uma interface única, sem a necessidade de manterem um repositório próprio de documentos."
@@ -4369,7 +4395,7 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 
 **Justificativa Canônica:** Correto! Essa é a definição conceitual de metabuscador: um provedor de serviço que pesquisa em fontes distribuídas sem ter base de dados própria.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Modelo Vetorial de Gerard Salton
 
 **Assertiva:** "O modelo vetorial de recuperação da informação desenvolvido por Salton atribui pesos aos termos nos documentos e nas consultas, permitindo a ordenação dos resultados por grau de similaridade (ranking)."
@@ -4380,8 +4406,9 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-42"></a>
 ## SUBMÓDULO 4.2: Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação
-**Tempo Estimado:** 30 minutos
+**Tempo Estimado:** 30 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Tipologia das fontes de informação (Cunha, Grogan): fontes primárias, secundárias e terciárias, literatura cinzenta, bases de dados especializadas e critérios de avaliação de fontes analógicas e digitais.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -4412,8 +4439,10 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 ### TEORIA DENSA E DOUTRINA INTEGRAL
 
 ### 1. Conceito e Tipologia Epistemológica das Fontes de Informação
-Conforme a definição seminal de **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*), uma **fonte de informação** compreende:
-> *"Qualquer recurso, documento, pessoa, instituição ou sistema eletrônico capaz de responder a uma necessidade de informação do usuário, atuando como veículo transmissor de dados, ideias ou conhecimentos."*
+Conforme a síntese doutrinária associada a **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*):
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Definição Doutrinária (Murilo Bastos da Cunha):** Segundo Murilo Bastos da Cunha, fonte de informação abrange todo recurso, suporte documental, pessoa, instituição ou sistema eletrônico apto a responder a uma demanda informacional, funcionando como condutor transmissor de dados, ideias ou conhecimentos.
 
 A literatura canônica internacional (**Denis Grogan, 1995; Murilo Bastos da Cunha, 2001; Bernadete Campello, 2000**) categoriza as fontes de informação em três grandes níveis hierárquicos, segundo o grau de originalidade e tratamento documentário:
 
@@ -4480,29 +4509,29 @@ Para qualquer consulta executada sobre uma base documental, a coleção total di
 
 | Situação Documental | Documentos Pertinentes / Relevantes | Documentos Não Relevantes | Total da Situação |
 | :--- | :---: | :---: | :---: |
-| **Documentos Recuperados pelo Sistema** | **$a$** (Verdadeiros Positivos) | **$b$** (Falsos Positivos — **RUÍDO**) | $a + b$ (Total Recuperado) |
-| **Documentos Não Recuperados pelo Sistema** | **$c$** (Falsos Negativos — **SILÊNCIO**) | **$d$** (Verdadeiros Negativos) | $c + d$ (Total Não Recuperado) |
-| **Total da Coleção** | $a + c$ (Total de Relevantes na Base) | $b + d$ (Total de Não Relevantes) | $N = a + b + c + d$ |
+| **Documentos Recuperados pelo Sistema** | **a** (Verdadeiros Positivos) | **b** (Falsos Positivos — **RUÍDO**) | a + b (Total Recuperado) |
+| **Documentos Não Recuperados pelo Sistema** | **c** (Falsos Negativos — **SILÊNCIO**) | **d** (Verdadeiros Negativos) | c + d (Total Não Recuperado) |
+| **Total da Coleção** | a + c (Total de Relevantes na Base) | b + d (Total de Não Relevantes) | N = a + b + c + d |
 
 #### B. Fórmulas Canônicas Cobradas pelo Cebraspe
-1. **Revocação (*Recall* — $R$):**
+1. **Revocação (*Recall* — R):**
    Mede a capacidade do sistema em encontrar **TODOS os documentos relevantes** existentes na base:
-   $R = \frac{a}{a + c} = \frac{\text{Relevantes Recuperados}}{\text{Total de Relevantes Existentes na Base}}$
-2. **Precisão (*Precision* — $P$):**
+   R = (a / a + c) = \frac{Relevantes Recuperados}{Total de Relevantes Existentes na Base}
+2. **Precisão (*Precision* — P):**
    Mede a capacidade do sistema em recuperar **APENAS documentos relevantes**, sem entulhar o usuário com lixo:
-   $P = \frac{a}{a + b} = \frac{\text{Relevantes Recuperados}}{\text{Total de Documentos Recuperados pelo Sistema}}$
+   P = (a / a + b) = \frac{Relevantes Recuperados}{Total de Documentos Recuperados pelo Sistema}
 3. **Silêncio Documental:**
-   Corresponde aos documentos relevantes que o sistema **deixou de encontrar** ($c$).
-   $\text{Taxa de Silêncio} = 1 - R = \frac{c}{a + c}$
+   Corresponde aos documentos relevantes que o sistema **deixou de encontrar** (c).
+   Taxa de Silêncio = 1 - R = (c / a + c)
 4. **Ruído Documental:**
-   Corresponde aos documentos inúteis que o sistema **entregou por engano** ($b$).
-   $\text{Taxa de Ruído} = 1 - P = \frac{b}{a + b}$
+   Corresponde aos documentos inúteis que o sistema **entregou por engano** (b).
+   Taxa de Ruído = 1 - P = (b / a + b)
 5. **Medida F (*F-Measure / F1-Score*):**
    É a média harmônica ponderada entre Precisão e Revocação, equilibrando as duas métricas em uma única pontuação:
-   $F_1 = 2 \times \frac{P \times R}{P + R}$
-6. **Coeficiente de Queda / Ruído Global (*Fallout* — $F$):**
+   F_1 = 2 × (P × R / P + R)
+6. **Coeficiente de Queda / Ruído Global (*Fallout* — F):**
    A proporção de documentos irrelevantes que foram indevidamente recuperados:
-   $\text{Fallout} = \frac{b}{b + d} = \frac{\text{Não Relevantes Recuperados}}{\text{Total de Não Relevantes na Coleção}}$
+   Fallout = (b / b + d) = \frac{Não Relevantes Recuperados}{Total de Não Relevantes na Coleção}
 
 #### C. O Compromisso Estrutural Inverso entre Revocação e Precisão
 Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciência da Informação:
@@ -4516,10 +4545,10 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 
 | Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
 | :--- | :--- | :--- |
-| *"A taxa de revocação mede a proporção de documentos relevantes recuperados em relação ao total de documentos recuperados pela busca."* | **ERRADO** | Essa é a definição de **Precisão** ($a / [a+b]$). A Revocação calcula em relação ao total de relevantes existentes na base ($a / [a+c]$). |
+| *"A taxa de revocação mede a proporção de documentos relevantes recuperados em relação ao total de documentos recuperados pela busca."* | **ERRADO** | Essa é a definição de **Precisão** (a / [a+b]). A Revocação calcula em relação ao total de relevantes existentes na base (a / [a+c]). |
 | *"A literatura cinzenta é classificada epistemologicamente como fonte secundária devido ao seu formato não convencional."* | **ERRADO** | A literatura cinzenta é **FONTE PRIMÁRIA**, pois contém dados originais e inéditos. |
 | *"Em sistemas de recuperação ideais, é rotineiro alcançar simultaneamente 100% de precisão e 100% de revocação em buscas amplas."* | **ERRADO** | Revocação e Precisão são grandezas **inversamente proporcionais**; maximizar uma penaliza a outra. |
-| *"O silêncio documental decorre da recuperação de documentos irrelevantes que poluem o resultado da pesquisa."* | **ERRADO** | Recuperar itens irrelevantes é **RUÍDO** ($b$). O **SILÊNCIO** ($c$) é a não recuperação de documentos relevantes que existiam na base. |
+| *"O silêncio documental decorre da recuperação de documentos irrelevantes que poluem o resultado da pesquisa."* | **ERRADO** | Recuperar itens irrelevantes é **RUÍDO** (b). O **SILÊNCIO** (c) é a não recuperação de documentos relevantes que existiam na base. |
 
 ---
 
@@ -4545,7 +4574,7 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Classificação de Fontes de Informação
 
 **Assertiva:** "Bibliografia de bibliografias, guias de centros de documentação e diretórios de pesquisadores são classificados, quanto à tipologia documental, como fontes de informação secundárias."
@@ -4554,7 +4583,7 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 
 **Justificativa Canônica:** Errado! Bibliografia de bibliografias, guias de bibliotecas e diretórios são fontes TERCIÁRIAS, pois servem para guiar o usuário na localização das fontes primárias e secundárias.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Natureza da Literatura Cinzenta
 
 **Assertiva:** "A literatura cinzenta refere-se a documentos de circulação não comercial produzidos no âmbito acadêmico, empresarial ou governamental, sendo considerada fonte primária de informação relevante para a pesquisa científica e legislativa."
@@ -4563,7 +4592,7 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 
 **Justificativa Canônica:** Correto! A literatura cinzenta compreende relatórios técnicos, notas técnicas parlamentares e teses não publicadas comercialmente, constituindo fonte primária essencial.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Tipologia das Fontes de Informação de Grogan
 
 **Assertiva:** "Segundo a clássica classificação de Denis Grogan, as bibliografias de bibliografias e os guias de literatura especializada enquadram-se na categoria de fontes de informação secundárias."
@@ -4574,8 +4603,9 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-43"></a>
 ## SUBMÓDULO 4.3: Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -4626,7 +4656,7 @@ TITLE: Tripé Estruturante da Informação Jurídica
 #### A. O Tripé Informacional Canônico
 1. **Legislação (Informação Normativa):**
    * O conjunto de atos e normas prescritivas emanadas das autoridades constituídas do Estado no exercício de sua competência legislativa e regulamentar.
-   * *Hierarquia Constitucional (Art. 59 da CF/88):* Emendas Constitucionais $\rightarrow$ Leis Complementares $\rightarrow$ Leis Ordinárias e Delegadas $\rightarrow$ Medidas Provisórias $\rightarrow$ Decretos Legislativos $\rightarrow$ Resoluções $\rightarrow$ Atos Infralegais (Decretos Regulamentares, Portarias, Instruções Normativas).
+   * *Hierarquia Constitucional (Art. 59 da CF/88):* Emendas Constitucionais \rightarrow Leis Complementares \rightarrow Leis Ordinárias e Delegadas \rightarrow Medidas Provisórias \rightarrow Decretos Legislativos \rightarrow Resoluções \rightarrow Atos Infralegais (Decretos Regulamentares, Portarias, Instruções Normativas).
 2. **Doutrina (Informação Analítica / Científica):**
    * Produção intelectual, científica e acadêmica de juristas, professores e pesquisadores que interpretam, criticam, contextualizam e sistematizam o ordenamento jurídico.
    * *Veículos Típicos:* Tratados, manuais jurídicos, monografias, dissertações, teses e artigos em periódicos especializados (como a *Revista de Informação Legislativa do Senado* e a *Revista da EJE*).
@@ -4667,7 +4697,7 @@ Criado em 2009 sob a coordenação técnica do Senado Federal (Interlegis) e da 
 
 #### A. O Padrão URN Lex (Uniform Resource Name - RFC 2141 / IETF)
 Para evitar que alterações nos servidores ou arquiteturas de URL quebrem os links (*link rot*), o LexML adota identificadores persistentes e unívocos globais através da **URN Lex**:
-$\text{urn:lex:br:federal:lei:1990-12-11;8112}$
+urn:lex:br:federal:lei:1990-12-11;8112
 * **Sintaxe Decomposta:**
   * `urn:lex`: Prefixo identificador de namespace (*Namespace Identifier - NID*);
   * `br`: Código de país segundo a norma internacional ISO 3166-1;
@@ -4737,7 +4767,7 @@ A cooperação técnica e o compartilhamento de recursos informacionais constitu
 
 ### 6. Indexação Pós-Coordenada e o Método SLIC (J. R. Sharp, 1965)
 Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Método SLIC (*Selective Listing in Combination*)** foi concebido por J. R. Sharp para índices impressos e mecânicos pós-coordenados:
-* **Problema Resolvido:** Se um documento recebe 5 descritores ($A, B, C, D, E$), o número total de combinações possíveis é $2^n - 1 = 31$ permutações. Para 10 descritores, o índice explodiria para mais de 1.000 entradas redundantes.
+* **Problema Resolvido:** Se um documento recebe 5 descritores (A, B, C, D, E), o número total de combinações possíveis é 2^n - 1 = 31 permutações. Para 10 descritores, o índice explodiria para mais de 1.000 entradas redundantes.
 * **A Solução do SLIC:** O método estabelece uma **ordenação alfabética rígida dos termos** e gera apenas combinações que mantêm a ordem alfabética estrita, selecionando sequências que não repetem termos menores já cobertos.
 * **Resultado:** Reduz drasticamente o tamanho dos índices mantendo 100% da capacidade de recuperação de qualquer subconjunto conceitual.
 
@@ -4778,7 +4808,7 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Seções do Diário Oficial da União (DOU)
 
 **Assertiva:** "No Diário Oficial da União (DOU), a publicação de editais de concurso público e de extratos de contratos administrativos deve ser realizada obrigatoriamente na Seção 2."
@@ -4787,7 +4817,7 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 
 **Justificativa Canônica:** Errado! Editais de concurso, licitações e contratos são publicados na Seção 3 do DOU. A Seção 2 é reservada exclusivamente aos atos de pessoal (servidores).
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Identificador Persistente do LexML Brasil
 
 **Assertiva:** "O portal LexML Brasil adota a notação URN (Uniform Resource Name) para atribuir identificadores persistentes e independentes de localização aos documentos legislativos e jurídicos em sua base de dados."
@@ -4796,7 +4826,7 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 
 **Justificativa Canônica:** Correto! A URN Lex assegura a persistência e a unicidade da referência documental jurídica no LexML.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Redes Cooperativas Brasileiras (RVBI, RBMPF e BIBLIODATA)
 
 **Assertiva:** "A Rede Virtual de Bibliotecas (RVBI) tem sua gestão técnica e coordenação centralizadas na Secretaria de Biblioteca e Arquivo do Senado Federal, ao passo que a Rede BIBLIODATA, criada na década de 1970 sob coordenação da FGV com apoio do IBICT, consolidou-se como o marco pioneiro da catalogação cooperativa automatizada no Brasil com o uso do formato CALCO."
@@ -4807,8 +4837,9 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-44"></a>
 ## SUBMÓDULO 4.4: Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O processo de referência de Denis Grogan (8 etapas), entrevista e mediação, Disseminação Seletiva da Informação (DSI de Luhn), modelos teóricos de comportamento informacional (Wilson, Dervin - Sense Making, Belkin - ASK) e Competência em Informação (Information Literacy).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -4899,24 +4930,22 @@ No serviço de referência moderno, a interação dialógica entre o bibliotecá
 
 #### A. Os Quatro Níveis de Necessidade de Robert S. Taylor (1968)
 Em seu estudo seminal *Question-Negotiation and Information Seeking in Libraries*, Taylor demonstrou que a dúvida percorre quatro estados cognitivos na mente do usuário antes de alcançar o sistema:
-* **$Q_1$ — Necessidade Visceral:** A necessidade vaga, subconsciente e nebulosa de informação. O indivíduo sente que algo lhe falta, mas é totalmente incapaz de expressar isso em palavras (*informação intangível*).
-* **$Q_2$ — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.
-* **$Q_3$ — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. É quase sempre imperfeita, vaga ou distorcida (*a Questão Inicial de Grogan*).
-* **$Q_4$ — Necessidade Comprometida com o Sistema:** A questão traduzida e adaptada para os termos controlados, campos e operadores do sistema de recuperação da biblioteca (*a Questão Negociada / Estratégia de Busca*).
+* **Q_1 — Necessidade Visceral:** A necessidade vaga, subconsciente e nebulosa de informação. O indivíduo sente que algo lhe falta, mas é totalmente incapaz de expressar isso em palavras (*informação intangível*).
+* **Q_2 — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.
+* **Q_3 — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. É quase sempre imperfeita, vaga ou distorcida (*a Questão Inicial de Grogan*).
+* **Q_4 — Necessidade Comprometida com o Sistema:** A questão traduzida e adaptada para os termos controlados, campos e operadores do sistema de recuperação da biblioteca (*a Questão Negociada / Estratégia de Busca*).
 
 #### B. As Cinco Fases Operacionais da Entrevista de Referência (Grogan & Katz)
 1. **Acolhimento Empático e Abertura:** Estabelecer clima de confiança e receptividade, quebrando a chamada *"ansiedade de biblioteca"* (*library anxiety*, Constance Mellon, 1986), vício psicológico que inibe o consulente de admitir o desconhecimento.
 2. **Negociação da Pergunta (Técnica do Funil):** O bibliotecário conduz a entrevista partindo de **perguntas abertas** (*"Conte-me sobre a finalidade da pesquisa no projeto de lei"*), passando por **perguntas exploratórias** (*"Quais correntes doutrinárias ou precedentes já foram mapeados?"*) e concluindo com **perguntas fechadas** (*"A busca deve se restringir às decisões do STF dos últimos 5 anos?"*).
-3. **Tradução e Formulação da Estratégia de Busca:** Conversão da questão negociada ($Q_4$) em descritores de tesauro (ex.: Tesauro do Congresso Nacional / MFN), operadores booleanos (AND, OR, NOT) e filtros de data e idioma.
+3. **Tradução e Formulação da Estratégia de Busca:** Conversão da questão negociada (Q_4) em descritores de tesauro (ex.: Tesauro do Congresso Nacional / MFN), operadores booleanos (AND, OR, NOT) e filtros de data e idioma.
 4. **Execução e Avaliação Preliminar Conjunta:** Apresentação de amostra dos primeiros registros recuperados para verificar a pertinência e calibrar a precisão antes do levantamento exaustivo.
-5. **Retroalimentação (Feedback) e Encerramento:** Confirmação de que o produto informativo atendeu à necessidade visceral ($Q_1$) e disponibilização de canais para desdobramentos adicionais.
+5. **Retroalimentação (Feedback) e Encerramento:** Confirmação de que o produto informativo atendeu à necessidade visceral (Q_1) e disponibilização de canais para desdobramentos adicionais.
 
 #### C. A Tríade Canônica: Necessidade vs. Demanda vs. Uso (Maurice Line, 1974; Nice Figueiredo, 1994)
 O Cebraspe explora sistematicamente a falsa equivalência entre esses três conceitos:
 
-$	ext{Necessidade (Need)} 
-eq 	ext{Demanda (Demand)} 
-eq 	ext{Uso (Use)}$
+Necessidade (Need) \neq Demanda (Demand) \neq Uso (Use)
 
 * **Necessidade de Informação (*Information Need*):**
   * Representa o estado real de carência informacional indispensável para que o indivíduo execute suas tarefas, tome decisões ou resolva impasses de pesquisa.
@@ -4928,7 +4957,9 @@ eq 	ext{Uso (Use)}$
   * É o consumo efetivo, a leitura assimilada e a aplicação prática das fontes recuperadas na tomada de decisão legislativa ou produção acadêmica.
   * Nem tudo o que foi demandado é de fato usado (livros retirados que não chegam a ser lidos); e muito do que é usado advém de canais informais (conversas com pares em gabinetes) sem ter transitado pela biblioteca.
 
-#### D. Metodologias de Estudos de Usuários
+### 4. Metodologias Diretas e Indiretas de Estudos de Usuários Revelam Necessidades Reais no Legislativo
+
+A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
 A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
 
 | Modalidade | Metodologias Empregadas | Vantagens Principais | Limitações e Riscos Críticos |
@@ -4940,15 +4971,15 @@ A investigação sistemática do comportamento informacional da comunidade class
 
 * **Caso 1: Balcão Presencial na Biblioteca Pedro Aleixo (Técnica do Funil)**
   * *Situação:* Assessor parlamentar chega ao balcão de referência solicitando: *"Preciso urgentemente de tudo o que a biblioteca tiver sobre reforma tributária"*.
-  * *Intervenção do Bibliotecário:* O profissional percebe que a questão é excessivamente genérica ($Q_3$) e aplica o funil de perguntas. Pergunta aberta: *"Qual é o foco da emenda que o deputado apresentará?"*. O assessor esclarece que a discussão versa sobre a não cumulatividade plena do IBS e da CBS na aquisição de insumos de tecnologia. Pergunta fechada: *"A pesquisa deve focar a jurisprudência do STF ou doutrina de Direito Tributário comparado?"*.
-  * *Resultado:* A questão negociada ($Q_4$) é delimitada para *"precedentes do STF sobre creditamento de ICMS/IBS em insumos digitais"*, viabilizando a entrega de 3 acórdãos precisos em 30 minutos, evitando a entrega de dezenas de manuais irrelevantes.
+  * *Intervenção do Bibliotecário:* O profissional percebe que a questão é excessivamente genérica (Q_3) e aplica o funil de perguntas. Pergunta aberta: *"Qual é o foco da emenda que o deputado apresentará?"*. O assessor esclarece que a discussão versa sobre a não cumulatividade plena do IBS e da CBS na aquisição de insumos de tecnologia. Pergunta fechada: *"A pesquisa deve focar a jurisprudência do STF ou doutrina de Direito Tributário comparado?"*.
+  * *Resultado:* A questão negociada (Q_4) é delimitada para *"precedentes do STF sobre creditamento de ICMS/IBS em insumos digitais"*, viabilizando a entrega de 3 acórdãos precisos em 30 minutos, evitando a entrega de dezenas de manuais irrelevantes.
 * **Caso 2: Atendimento Digital Remoto via Intranet / Chat Especializado**
   * *Situação:* Consultor legislativo lotado em comissão parlamentar abre chamado eletrônico solicitando: *"Modelos de relatórios sobre inteligência artificial"*.
   * *Intervenção do Bibliotecário:* Mediante contato síncrono via chat, o bibliotecário identifica que a demanda visa instruir a Comissão Especial sobre o Marco Regulatório da Inteligência Artificial (PL 2338/2023). O bibliotecário acessa o Portal LexML, recupera as proposições apensadas com identificadores URN LEX, cruza com a legislação da União Europeia (*EU AI Act*) e elabora uma **Linha do Tempo Normativa** acompanhada de **Mapa de Atores** dos setores ouvidos nas audiências públicas.
 
 ---
 
-### 4. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
+### 5. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
 Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:
 
 ```timeline
@@ -4976,7 +5007,7 @@ F | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertin
 
 ---
 
-### 5. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
+### 6. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
 
 1. **Modelo de Tom D. Wilson (1981 / 1996):**
    * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.
@@ -4992,7 +5023,7 @@ F | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertin
    * O usuário busca informação em um sistema precisamente porque reconhece uma **anomalia ou lacuna em seu estado de conhecimento**. Por não dominar o tema, ele tem extrema dificuldade de formular a consulta exata em termos técnicos no início da interação.
 4. **Modelo ISP (*Information Search Process*) de Carol Kuhlthau (1991):**
    * Integra três domínios do ser humano na busca: **Sentimentos (afetivo)**, **Pensamentos (cognitivo)** e **Ações (físico)**.
-   * Divide a pesquisa em 6 estágios: Iniciação $\rightarrow$ Seleção $\rightarrow$ Exploração $\rightarrow$ Formulação $\rightarrow$ Coleta $\rightarrow$ Apresentação.
+   * Divide a pesquisa em 6 estágios: Iniciação \rightarrow Seleção \rightarrow Exploração \rightarrow Formulação \rightarrow Coleta \rightarrow Apresentação.
    * Revela que os sentimentos de incerteza, confusão e frustração são máximos no início e na fase de exploração, convertendo-se em confiança e satisfação após a formulação do foco.
 
 ---
@@ -5067,7 +5098,7 @@ Com a proliferação da ciência orientada a dados (*data science*), do governo 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: As Etapas do Processo de Referência de Grogan
 
 **Assertiva:** "No processo de referência conceituado por Denis Grogan, a sequência lógica de etapas compreende: problema, necessidade de informação, questão inicial, questão negociada, estratégia de busca, processo de busca, resposta e solução."
@@ -5076,7 +5107,7 @@ Com a proliferação da ciência orientada a dados (*data science*), do governo 
 
 **Justificativa Canônica:** Correto! Essa é a exata ordenação de 8 passos formulada por Grogan e sistematicamente exigida pela banca Cebraspe.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Necessidade, Demanda e Uso (Maurice Line e Nice Figueiredo)
 
 **Assertiva:** "No âmbito dos estudos de usuários e do comportamento informacional, os conceitos de necessidade, demanda e uso de informação são perfeitamente sinônimos e equivalentes, uma vez que toda necessidade sentida pelo usuário é exteriorizada de forma fidedigna como demanda e se converte diretamente em uso do acervo."
@@ -5085,7 +5116,7 @@ Com a proliferação da ciência orientada a dados (*data science*), do governo 
 
 **Justificativa Canônica:** Errado! Conforme Maurice Line (1974) e Nice Menezes de Figueiredo (1994), necessidade, demanda e uso constituem categorias conceituais distintas: a necessidade é a carência cognitiva real (muitas vezes latente ou inconsciente); a demanda é o que o usuário efetivamente formaliza e solicita ao sistema ou bibliotecário; e o uso é a leitura, assimilação e aplicação prática real da informação recuperada.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Competência em Informação versus Competência em Dados
 
 **Assertiva:** "A competência em dados (data literacy) é sinônima da competência informacional tradicional (information literacy), circunscrevendo-se à habilidade de localizar artigos de periódicos científicos em catálogos eletrônicos de bibliotecas."
@@ -5105,8 +5136,9 @@ Estudo aprofundado dos processos gerenciais e de inteligência em unidades de in
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-51"></a>
 ## SUBMÓDULO 5.1: Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho
-**Tempo Estimado:** 30 minutos
+**Tempo Estimado:** 30 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Planejamento estratégico, tático e operacional em unidades de informação, diagnóstico organizacional, matriz SWOT, avaliação de insumos, processos e produtos, e indicadores de desempenho (Lancaster, Almeida, Maciel).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -5213,7 +5245,7 @@ R | 4. Resultados e Impacto (Outcomes) | Métricas de Eficácia | Resolução da
 * **O Paradoxo de Lancaster:** Um serviço de biblioteca pode ser **extremamente eficiente** (custar muito pouco e operar com grande velocidade burocrática) e ao mesmo tempo ser **completamente ineficaz** (porque as informações entregues não atendem à necessidade do usuário e geram insatisfação).
 
 #### B. Custo-Eficácia vs. Custo-Benefício
-* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona o custo financeiro incorrido com o nível de desempenho técnico alcançado. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R$ 15,00 por documento recuperado via empréstimo entre bibliotecas*).
+* **Análise de Custo-Eficácia (*Cost-Effectiveness*):** Relaciona o custo financeiro incorrido com o nível de desempenho técnico alcançado. Expressa-se em unidades quantitativas de serviço (ex.: *custo de R 15,00 por documento recuperado via empréstimo entre bibliotecas*).
 * **Análise de Custo-Benefício (*Cost-Benefit*):** Tenta mensurar o retorno de valor, benefício ou impacto positivo (geralmente intangível e social) gerado para o indivíduo ou para a instituição em comparação ao custo investido (ex.: *o valor econômico e democrático de aprovar uma lei bem fundamentada em estudos fornecidos pela biblioteca parlamentar*).
 
 ---
@@ -5312,7 +5344,7 @@ No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visõe
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Níveis de Planejamento em Unidades de Informação
 
 **Assertiva:** "O planejamento estratégico de uma biblioteca é uma prerrogativa exclusiva dos níveis de direção da organização mantenedora, cabendo à equipe de bibliotecários atuar restritamente no planejamento operacional e na execução de rotinas."
@@ -5321,7 +5353,7 @@ No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visõe
 
 **Justificativa Canônica:** Errado! O bibliotecário deve atuar como gestor e líder estratégico da unidade de informação, participando ativamente da formulação estratégica, tática e operacional da biblioteca.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Eficiência e Eficácia segundo Lancaster
 
 **Assertiva:** "Na avaliação de serviços de informação segundo Lancaster, a eficácia está relacionada ao nível de alcance das metas e à satisfação das necessidades informacionais dos usuários, ao passo que a eficiência foca na otimização de recursos e custos aplicados."
@@ -5330,7 +5362,7 @@ No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visõe
 
 **Justificativa Canônica:** Correto! Eficácia foca nos fins e no atendimento ao usuário; eficiência foca nos meios e na economia de recursos/processos.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Censura versus Seleção de Coleções (IFLA e CF/88)
 
 **Assertiva:** "A recusa de inclusão ou o expurgo de uma obra de renome acadêmico do acervo de uma biblioteca parlamentar, motivados exclusivamente por discordância ideológica ou partidária de autoridade da Casa com as ideias do autor, configura ato legítimo de seleção técnica discricionária."
@@ -5341,8 +5373,9 @@ No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visõe
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-52"></a>
 ## SUBMÓDULO 5.2: CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Gestão de Relacionamento (CRM de Paul Greenberg: operacional, analítico e colaborativo), Personalização e DSI (Eirão & Cunha), Curadoria de Informação (Bezerra) e elaboração de Dossiês, Estados da Arte e Panoramas (Candido).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -5419,7 +5452,7 @@ A Disseminação Seletiva da Informação, concebida originalmente por **Hans Pe
 #### A. O Mecanismo Operacional Canônico da DSI
 O serviço de DSI fundamenta-se no cruzamento automatizado entre dois fluxos dinâmicos de dados:
 
-$\text{Perfil de Interesses do Usuário (PIU)} \; \bigcap \; \text{Perfil dos Novos Documentos (PND)} \implies \text{Notificação Direcionada}$
+Perfil de Interesses do Usuário (PIU) \; \bigcap \; Perfil dos Novos Documentos (PND) \implies Notificação Direcionada
 
 1. **Elaboração e Cadastramento do Perfil do Usuário:** Mapeamento formal dos temas, termos de indexação, autores de interesse e operadores booleanos pertinentes a cada usuário ou grupo funcional.
 2. **Entrada e Indexação das Novas Obras:** Processamento técnico contínuo de livros recém-adquiridos, fascículos de periódicos, notas técnicas e normas legais.
@@ -5451,7 +5484,7 @@ Com a explosão informacional da internet e a disseminação de fake news e aluc
 
 ---
 
-### 4. Produtos de Inteligência Informacional no Legislativo (Edital Bloco E, itens 3.12 e 3.13)
+### 4. Produtos de Inteligência Informacional Imediata: Notas, Relatórios e Panoramas Subsidiam Decisões Rápidas
 
 No ecossistema do Congresso Nacional e dos órgãos de assessoramento de cúpula, a demanda de parlamentares, lideranças e consultorias legislativas não é por listagens bibliográficas brutas, mas por **produtos informacionais analíticos de alto valor agregado**, consolidados com base em metodologia rigorosa e isenção ético-política (**Renato Alexandre Candido, 2023; Alba Costa Maciel & Marília Alvarenga Mendonça, 2006**).
 
@@ -5490,7 +5523,9 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   4. *Gargalos e Questões Críticas em Pauta no Congresso:* Pontos de tensão que motivam proposições legislativas concorrentes.
 * **Critérios de Qualidade:** Alta capacidade de síntese visual (*storytelling com dados*), uso de infográficos claros e facilidade de navegação entre seções temáticas.
 
-#### D. Linha do Tempo Normativa e Histórica
+### 5. Produtos Estruturados de Inteligência: Linhas do Tempo, Mapas de Atores e Dossiês Mapeiam Redes Complexas
+
+#### A. Linha do Tempo Normativa e Histórica
 * **Finalidade:** Representação cronológica e relacional da evolução de determinado instituto jurídico, marco legal ou tramitação de matérias no Parlamento, evidenciando causas, revogações e sucessão temporal de normas.
 * **Estrutura-Padrão Canônica:**
   1. *Eixo Temporal Estruturado:* Ordenação estritamente cronológica por data de promulgação ou publicação;
@@ -5500,7 +5535,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   5. *Situação de Eficácia Atual:* Indicação explícita se a norma continua vigente, se foi revogada por lei posterior ou se teve eficácia suspensa pelo STF (ex.: liminar em ADI).
 * **Critérios de Qualidade:** Exatidão cronológica milimétrica, indicação precisa dos vínculos relacionais (norma alteradora <-> norma alterada) e concisão nos sumários de impacto.
 
-#### E. Mapa de Atores (*Stakeholder Mapping*)
+#### B. Mapa de Atores (*Stakeholder Mapping*)
 * **Finalidade:** Identificação, caracterização sistemática e mapeamento do posicionamento de grupos de interesse, entidades da sociedade civil, setores econômicos e órgãos de Estado envolvidos na tramitação de matéria legislativa controvertida.
 * **Estrutura-Padrão Canônica:**
   1. *Matriz de Identificação de Atores:* Relação das instituições (órgãos públicos, confederações empresariais, centrais sindicais, ONGs e academia);
@@ -5510,7 +5545,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   5. *Vínculo com Proposições Concorrentes:* Identificação de emendas de plenário ou projetos apensados patrocinados pelo respectivo ator.
 * **Critérios de Qualidade:** Pluralidade democrática na amostragem (equilíbrio rigoroso entre correntes antagônicas), comprovação documental de todo posicionamento atribuído e ausência de valoração subjetiva.
 
-#### F. Dossiê Legislativo e Documental
+#### C. Dossiê Legislativo e Documental
 * **Finalidade:** Compilação enciclopédica, categorizada e exaustiva de toda a matéria fática, processual e bibliográfica concernente a uma investigação parlamentar (CPI), grande reforma constitucional (PEC) ou consolidação de códigos.
 * **Estrutura-Padrão Canônica:**
   1. *Sumário Analítico Estruturado:* Organização por módulos temáticos;
@@ -5521,7 +5556,7 @@ A literatura de inteligência parlamentar e o edital Cebraspe categorizam sete p
   6. *Legislação Estrangeira Comparada:* Levantamento de diplomas internacionais sobre o objeto;
   7. *Apêndice Documental:* Cópia integral ou links persistentes (URN LEX / LexML) para a íntegra dos documentos citados.
 
-#### G. Revisão de Estado da Arte (*State-of-the-Art Review*)
+#### D. Revisão de Estado da Arte (*State-of-the-Art Review*)
 * **Finalidade:** Mapeamento sistemático da fronteira científica internacional sobre um tema emergente em recorte temporal explícito, identificando consensos consolidados, controvérsias abertas e lacunas na literatura.
 * **Metodologia de Triangulação Obrigatória (Candido, 2023):**
   1. *Etapa Quantitativa (Bibliometria):* Aplicação das leis de Bradford (núcleo de periódicos de maior produtividade) e Lotka (produtividade dos autores), métricas de citação e coocorrência de termos de indexação;
@@ -5651,7 +5686,7 @@ O estudo de usuários é a investigação sistemática das características, com
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Dimensões do CRM em Unidades de Informação
 
 **Assertiva:** "No âmbito do modelo de CRM proposto por Paul Greenberg, a dimensão analítica é responsável pelo atendimento presencial no balcão e pelo empréstimo de livros físicos, enquanto a dimensão operacional cuida da mineração de dados estatísticos."
@@ -5660,7 +5695,7 @@ O estudo de usuários é a investigação sistemática das características, com
 
 **Justificativa Canônica:** Errado! O Cebraspe inverte sistematicamente os papéis: o atendimento no balcão e os pontos de contato direto constituem o CRM OPERACIONAL; a mineração de dados e identificação de padrões de comportamento integram o CRM ANALÍTICO.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Produtos de Inteligência Informacional Legislativa
 
 **Assertiva:** "No âmbito dos produtos de inteligência informacional para o processo legislativo, a nota informacional caracteriza-se como uma compilação exaustiva de centenas de páginas para Comissões Parlamentares de Inquérito, ao passo que o relatório temático restringe-se a uma resposta executiva de uma página para uso durante debates de plenário."
@@ -5669,7 +5704,7 @@ O estudo de usuários é a investigação sistemática das características, com
 
 **Justificativa Canônica:** Errado! Conforme Renato Alexandre Candido (2023) e Alba Costa Maciel & Marília Mendonça (2006), os conceitos estão invertidos: a nota informacional é uma síntese executiva concisa (1 a 3 páginas) para atendimento pontual e tempestivo em plenário ou comissão, enquanto o relatório temático e o dossiê legislativo constituem estudos aprofundados e compilações exaustivas sobre matérias estruturantes.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: DSI e Sobrecarga Informacional
 
 **Assertiva:** "Os serviços de Disseminação Seletiva da Informação (DSI) atuam no combate à sobrecarga informacional ao confrontarem os perfis individuais de interesse com as novas entradas do acervo, encaminhando notificações direcionadas aos usuários."
@@ -5680,8 +5715,9 @@ O estudo de usuários é a investigação sistemática das características, com
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-53"></a>
 ## SUBMÓDULO 5.3: Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O modelo cíclico de Waldomiro Vergueiro, documento formal de política de seleção, critérios e agentes, modalidades de aquisição, desbastamento vs. descarte, política de crescimento zero e métodos de avaliação do acervo (Conspectus, Lancaster e Figueiredo).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -5862,7 +5898,7 @@ A Release 5 superou a ambiguidade de releases anteriores estabelecendo uma disti
 * **Protocolo SUSHI (ANSI/NISO Z39.93):**
   O *Standardized Usage Statistics Harvesting Initiative* é o protocolo automatizado baseado em web services (REST/JSON e XML) que permite aos sistemas de bibliotecas (SIGB / ERM) "colher" automaticamente os relatórios COUNTER de todos os fornecedores contratados, eliminando a extração manual de planilhas.
 * **Custo por Download (CPD - *Cost per Download*):**
-  $\text{CPD} = \frac{\text{Valor Anual da Assinatura}}{\text{Total de Unique_Item_Requests}}$
+  CPD = \frac{Valor Anual da Assinatura}{Total de Unique\_Item\_Requests}
   Indicador mestre utilizado pelo bibliotecário para subsidiar decisões de renovação, cancelamento de títulos ociosos ou substituição de pacotes fechados (*Big Deals*) por aquisição seletiva pontual.
 
 ---
@@ -5925,7 +5961,7 @@ TITLE: Métodos de Avaliação de Coleções (Figueiredo, Lancaster, Weitzel)
   * `Nível 4`: Pesquisa Avançada / Pós-graduação (*Research*).
   * `Nível 5`: Exaustivo / Abrangência Total (*Comprehensive*).
 
-#### B. Métodos Centrados no Uso e Gestão de Coleções Orientada por Dados (Edital Bloco D, item 4.7)
+### 8. Métodos Centrados no Uso e Gestão Orientada por Dados (CPU, COUNTER e Slote) Orientam Decisões Orçamentárias
 
 A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturando-se na **análise quantitativa de dados de uso real (*Data-Driven Collection Management*)** para fundamentar decisões orçamentárias de aquisição, renovação de licenças, desbastamento e descarte (**Stanley J. Slote, 1997; R. E. Burton & R. W. Kebler, 1960; COUNTER R5 / ANSI/NISO Z39.93**):
 
@@ -5939,10 +5975,10 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 2. **Análise de Custo por Uso (Cost-Per-Use - CPU) e Decisão de Assinaturas:**
    O indicador financeiro mais decisivo para renovação ou cancelamento de pacotes de periódicos e bases de dados:
 
-   $	ext{CPU} = rac{	ext{Custo Total Anual do Recurso (Assinatura)}}{	ext{Total de Usos Efetivos Desduplicados (	extit{Unique_Item_Requests})}}$
+   CPU = \frac{Custo Total Anual do Recurso (Assinatura)}{Total de Usos Efetivos Desduplicados (\textit{Unique\_Item\_Requests)}}
 
-   * *Parâmetro de Decisão:* O bibliotecário confronta o CPU calculado contra o custo médio de aquisição avulsa por artigo via *Pay-Per-View* (normalmente entre US$ 30 e US$ 45 / cerca de R$ 150 a R$ 250 por download avulso) ou comutação bibliográfica (COMUT).
-   * *Quebra do "Big Deal":* Se uma base contratada por R$ 200.000,00 anuais registrar apenas 400 downloads úteis no exercício ($	ext{CPU} = 	ext{R$} ; 500,00$ por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
+   * *Parâmetro de Decisão:* O bibliotecário confronta o CPU calculado contra o custo médio de aquisição avulsa por artigo via *Pay-Per-View* (normalmente entre US 30 e US 45 / cerca de R 150 a R 250 por download avulso) ou comutação bibliográfica (COMUT).
+   * *Quebra do "Big Deal":* Se uma base contratada por R 200.000,00 anuais registrar apenas 400 downloads úteis no exercício (CPU = R 500,00 por artigo), a renovação em pacote torna-se economicamente inviável. Recomenda-se cancelar a assinatura do pacote amplo e adotar o modelo transacional de compra sob demanda (*Demand-Driven Acquisition - DDA* ou *Pay-Per-View* mediado).
 
 3. **Taxa de Obsolescência e Meia-Vida da Literatura (Burton & Kebler, 1960):**
    * *Conceito de Meia-Vida (Half-Life):* O tempo decorrido para que 50% de todas as consultas ou citações ativas a uma determinada literatura deixem de ocorrer.
@@ -6004,7 +6040,7 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Política de Seleção e suas Funções
 
 **Assertiva:** "O documento formal de política de desenvolvimento de coleções de uma biblioteca possui finalidades exclusivamente técnicas e administrativas, não exercendo papel na mediação de conflitos ou na proteção institucional do profissional."
@@ -6013,7 +6049,7 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 
 **Justificativa Canônica:** Errado! A política possui caráter administrativo, político e de relações públicas, servindo justamente como escudo institucional contra pressões e censura.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença entre Desbastamento e Descarte
 
 **Assertiva:** "Enquanto o desbastamento compreende o remanejamento de materiais para locais de menor acesso sem retirá-los da custódia da biblioteca, o descarte consiste na eliminação definitiva ou na baixa patrimonial do documento."
@@ -6022,7 +6058,7 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 
 **Justificativa Canônica:** Correto! Essa é a distinção clássica consolidada por Vergueiro e cobrada com frequência pelo Cebraspe.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Licenciamento Digital e Métricas COUNTER Release 5 (Caso)
 
 **Assertiva:** "Ao analisar a renovação da assinatura de uma base de periódicos da Câmara dos Deputados, o bibliotecário deve basear o cálculo do custo por download no relatório padronizado COUNTER Release 5, utilizando a métrica Unique_Item_Requests para avaliar o consumo efetivo de textos integrais, e não a métrica Total_Item_Investigations, que computa qualquer interação preliminar com o registro, como a leitura do resumo."
@@ -6033,8 +6069,9 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-54"></a>
 ## SUBMÓDULO 5.4: Gestão da Informação e Gestão do Conhecimento Organizacional
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Distinção epistemológica entre Gestão da Informação e Gestão do Conhecimento, modelo da Organização do Conhecimento de Chun Wei Choo, Espiral do Conhecimento SECI de Nonaka e Takeuchi, e ecologia da informação de Davenport.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -6088,7 +6125,7 @@ A Ciência da Informação contemporânea estabelece uma clara demarcação teó
 
 A distinção canônica entre as naturezas do conhecimento foi formulada pelo filósofo **Michael Polanyi** (*The Tacit Dimension*, 1966) e popularizada na administração por Nonaka e Takeuchi:
 
-$\text{"Podemos saber mais do que podemos dizer."} \quad - \; \text{Michael Polanyi}$
+"Podemos saber mais do que podemos dizer." \quad - \; Michael Polanyi
 
 | Dimensão | Conhecimento Tácito | Conhecimento Explícito |
 | :--- | :--- | :--- |
@@ -6115,18 +6152,18 @@ C | 3. Combinação | Explícito → Explícito | Reconfiguração e agregação
 I | 4. Internalização | Explícito → Tácito | Incorporação do conhecimento explícito aos modelos mentais individuais, reiniciando a espiral em nível superior
 ```
 
-1. **Socialização ($Tácito ightarrow Tácito$):**
+1. **Socialização (Tácito ightarrow Tácito):**
    * Compartilhamento de experiências vividas, percepções e modelos mentais sem a mediação necessária de códigos escritos.
    * Dá-se por observação, imitação, convívio diário e relação mestre-aprendiz.
    * *Exemplo em biblioteca:* Um bibliotecário recém-empossado acompanha um colega sênior em entrevistas de referência difíceis com parlamentares, absorvendo o tom de voz, o equilíbrio postural e a perspicácia na condução do diálogo.
-2. **Externalização ($Tácito ightarrow Explícito$):**
+2. **Externalização (Tácito ightarrow Explícito):**
    * **É o modo crítico da criação do conhecimento.** Consiste na articulação do saber tácito individual em conceitos compreensíveis a todos, por meio do uso deliberado de **metáforas, analogias, conceitos formalizados, hipóteses ou modelos visuais**.
    * *Exemplo em biblioteca:* A equipe técnica de indexadores se reúne para redigir o *Manual de Indexação Parlamentar*, transformando regras intuitivas não escritas em diretrizes e fluxogramas objetivos.
-3. **Combinação ($Explícito ightarrow Explícito$):**
+3. **Combinação (Explícito ightarrow Explícito):**
    * Reconfiguração, agregação e sistematização de diferentes corpos de conhecimentos explícitos já existentes.
    * Envolve a coleta de fontes diversas, análise de dados e criação de novos documentos integrados.
    * *Exemplo em biblioteca:* O bibliotecário cruza dados do catálogo automatizado com as estatísticas de votações da Câmara e relatórios de empréstimo para gerar um *Dashboard Executivo de Tendências Temáticas do Parlamento*.
-4. **Internalização ($Explícito ightarrow Tácito$):**
+4. **Internalização (Explícito ightarrow Tácito):**
    * Incorporação do conhecimento explícito às rotinas mentais e à vivência prática dos colaboradores (*learning by doing*).
    * Ocorre quando a leitura de manuais e procedimentos técnicos se transforma em um hábito quase instintivo de atuação.
    * *Exemplo em biblioteca:* Após estudar profundamente o modelo conceitual IFLA LRM e o novo RDA Toolkit, o catalogador passa a atribuir atributos e relacionamentos de entidades de forma fluida e automática no dia a dia.
@@ -6226,7 +6263,7 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Modelo SECI de Nonaka e Takeuchi
 
 **Assertiva:** "No modelo SECI de conversão do conhecimento, a externalização é o modo pelo qual o conhecimento tácito é convertido em conceitos explícitos por meio de metáforas, modelos visuais e manuais formalizados."
@@ -6235,7 +6272,7 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 
 **Justificativa Canônica:** Correto! Externalização é a passagem do tácito para o explícito, permitindo que intuições individuais sejam formalizadas e compartilhadas pela organização.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Escopo da Gestão da Informação vs. do Conhecimento
 
 **Assertiva:** "A gestão da informação atua primordialmente na perspectiva do conhecimento tácito dos colaboradores, mapeando suas relações informais, enquanto a gestão do conhecimento restringe-se ao controle e armazenamento de suportes físicos de dados."
@@ -6244,7 +6281,7 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 
 **Justificativa Canônica:** Errado! O item inverteu completamente os conceitos: a Gestão da Informação foca no conhecimento explícito e nos suportes registrados; a Gestão do Conhecimento foca no conhecimento tácito e no capital humano.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Modelo SECI de Conversão do Conhecimento
 
 **Assertiva:** "No modelo SECI de Nonaka e Takeuchi, a conversão de conhecimento tácito em conhecimento explícito recebe o nome técnico de Externalização."
@@ -6262,8 +6299,9 @@ Estudo aprofundado dos ecossistemas digitais de informação: tipologias de bibl
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-61"></a>
 ## SUBMÓDULO 6.1: Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Diferenciação conceitual entre biblioteca tradicional, eletrônica, digital e virtual, os 4 sistemas da Arquitetura da Informação (Rosenfeld & Morville: organização, navegação, rotulagem e busca), heurísticas de usabilidade de Jakob Nielsen e acessibilidade digital (WCAG e e-MAG).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -6472,7 +6510,7 @@ A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiênci
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Os Quatro Sistemas da Arquitetura da Informação
 
 **Assertiva:** "Segundo Rosenfeld e Morville, a arquitetura da informação em ambientes digitais organiza-se a partir de quatro sistemas estruturantes: sistemas de organização, sistemas de navegação, sistemas de rotulagem e sistemas de busca."
@@ -6481,7 +6519,7 @@ A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiênci
 
 **Justificativa Canônica:** Correto! Essa é a tetralogia fundacional da Arquitetura da Informação cobrada com frequência em concursos do Cebraspe.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença Conceitual entre Biblioteca Eletrônica e Digital
 
 **Assertiva:** "A distinção entre biblioteca eletrônica e biblioteca digital reside no fato de que a biblioteca digital tem como foco a provisão de acesso a documentos em texto completo em formato digital, enquanto a biblioteca eletrônica utiliza a computação para automatizar rotinas internas de acervos primordialmente físicos."
@@ -6490,7 +6528,7 @@ A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiênci
 
 **Justificativa Canônica:** Correto! Essa é a exata distinção conceitual cobrada em provas recentes da banca Cebraspe (FUB, SEE-PE).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Acessibilidade Digital no Setor Público (WCAG e LBI)
 
 **Assertiva:** "A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) estabelece a obrigatoriedade de acessibilidade nos sítios da internet mantidos por órgãos de governo, devendo as bibliotecas digitais públicas observar as diretrizes internacionais da WCAG (W3C), cujos princípios estruturantes são Perceptível, Operável, Compreensível e Robusto (POUR)."
@@ -6501,9 +6539,20 @@ A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiênci
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-62"></a>
 ## SUBMÓDULO 6.2: Repositórios Institucionais, Softwares de Bibliotecas e Interoperabilidade (OAI-PMH e Z39.50)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Arquitetura e gestão de repositórios digitais, o software DSpace e SEER/OJS, SIGBs livres (Koha) e comerciais (Pergamum, Aleph), o protocolo OAI-PMH (seis verbos e colheita de metadados), Z39.50, SRU/SRW e Discovery Services Web-Scale.
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **OAI-PMH** | Protocolo baseado em HTTP e XML para colheita automatizada de metadados entre repositórios digitais. | A Biblioteca Digital da Câmara expõe seus metadados para colheita pela BDTD (IBICT) via OAI-PMH. |
+| **DSpace** | Software livre de código aberto para criação e gestão de repositórios digitais e institucionais. | Armazenar teses, artigos e publicações legislativas estruturados em Comunidades, Coleções e Itens. |
+| **Z39.50** | Protocolo cliente-servidor para busca e recuperação simultânea de registros em catálogos remotos. | Importar ficha catalográfica da Biblioteca Nacional diretamente para o catálogo da Câmara sem redigitar. |
+| **Handle** | Sistema de identificadores persistentes atribuído a objetos digitais para links permanentes que não quebram. | Cada documento no Repositório da Câmara recebe um prefixo Handle exclusivo permanente. |
+| **SIGB** | Sistema Integrado de Gestão de Bibliotecas; software que automatiza catalogação, circulação e consulta. | Gerenciar empréstimos e reservas de livros físicos aos gabinetes parlamentares. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Herbert Van de Sompel
@@ -6546,7 +6595,7 @@ Conforme **Clifford Lynch** (2003), um repositório institucional universitário
 * **Arquitetura Hierárquica do Software DSpace:**
   O DSpace (software livre hegemônico mundialmente, desenvolvido em consórcio pelo MIT e HP Labs) organiza os dados em cinco níveis concêntricos rigorosos:
 
-$\text{Comunidades} \longrightarrow \text{Subcomunidades} \longrightarrow \text{Coleções} \longrightarrow \text{Itens} \longrightarrow \text{Bitstreams (Arquivos Finais)}$
+Comunidades \longrightarrow Subcomunidades \longrightarrow Coleções \longrightarrow Itens \longrightarrow Bitstreams (Arquivos Finais)
 
   1. **Comunidades (*Communities*):** Representam grandes divisões orgânicas institucionais (ex.: CEDI, Consultoria Legislativa, Secretarias).
   2. **Subcomunidades (*Subcommunities*):** Departamentos ou núcleos subordinados.
@@ -6666,7 +6715,7 @@ Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos D
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: O Papel do Protocolo OAI-PMH
 
 **Assertiva:** "O protocolo OAI-PMH é um mecanismo de comunicação que permite a colheita automatizada de metadados entre repositórios provedores de dados e sistemas provedores de serviços, exigindo como formato mínimo o padrão Dublin Core."
@@ -6675,7 +6724,7 @@ Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos D
 
 **Justificativa Canônica:** Correto! Conforme conceituado por Herbert Van de Sompel e Carl Lagoze (2004), o OAI-PMH utiliza HTTP/XML para transferir metadados estruturados, tendo o Dublin Core simples (oai_dc) como requisito mandatório.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença entre Metabusca e Discovery Services (WSDS)
 
 **Assertiva:** "Diferentemente dos metabuscadores tradicionais, que disparam consultas simultâneas distribuídas em tempo real a múltiplos servidores, os serviços de descoberta web-scale (WSDS) realizam a pesquisa sobre um índice centralizado previamente coletado e normalizado na nuvem."
@@ -6684,7 +6733,7 @@ Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos D
 
 **Justificativa Canônica:** Correto! Conforme analisado por Clifford Lynch (2003) e pelas diretrizes da NISO ODI (RP-19), os discovery services consultam um índice pré-unificado na nuvem (pre-harvested index), garantindo respostas em milissegundos e relevância unificada.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Arquitetura de Microsserviços do FOLIO
 
 **Assertiva:** "A plataforma FOLIO (The Future of Library is Open) é estruturada como um sistema integrado monolítico de código proprietário, inviabilizando a adição ou substituição modular de componentes de gestão bibliotecária."
@@ -6695,8 +6744,9 @@ Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos D
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-63"></a>
 ## SUBMÓDULO 6.3: Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Desafios da obsolescência digital, fixidez (checksums SHA-256), estratégias práticas (migração, normalização, emulação, encapsulamento), formatos abertos e normas ISO (PDF/A ISO 19005, TIFF ISO 12639, BWF ITU-R BS.1382, FFV1/MKV, WARC ISO 28500), arquitetura OAIS (ISO 14721), PREMIS 3.0, METS e Rede Cariniana (LOCKSS).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -6908,7 +6958,7 @@ Coordenado pela Library of Congress, estrutura-se em 5 entidades:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: O Modelo de Referência OAIS
 
 **Assertiva:** "O modelo de referência OAIS (Open Archival Information System), formalizado pela norma ISO 14721, estabelece as bases conceituais para a arquitetura de repositórios digitais confiáveis, estruturando o fluxo documental nos pacotes SIP, AIP e DIP."
@@ -6917,7 +6967,7 @@ Coordenado pela Library of Congress, estrutura-se em 5 entidades:
 
 **Justificativa Canônica:** Correto! Conforme a norma internacional ISO 14721 (CCSDS), o modelo de referência OAIS define a arquitetura funcional de repositórios digitais confiáveis e estrutura o ciclo documental nos pacotes SIP (submissão), AIP (arquivamento de longo prazo com metadados exaustivos de preservação) e DIP (disseminação ao usuário final).
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Formatos de Preservação e a Norma ISO 19005 (PDF/A)
 
 **Assertiva:** "O padrão PDF/A, homologado pela norma ISO 19005, permite a inclusão de códigos executáveis em JavaScript e áudios dinâmicos embutidos, bem como a proteção por criptografia com senha, com o objetivo de assegurar maior interatividade e confidencialidade aos documentos arquivados."
@@ -6926,7 +6976,7 @@ Coordenado pela Library of Congress, estrutura-se em 5 entidades:
 
 **Justificativa Canônica:** Errado! A norma ISO 19005 (partes 1 a 4) veda expressamente o uso de códigos executáveis em JavaScript, arquivos executáveis externos, conteúdos em áudio e vídeo dinâmicos e proteção por senha/criptografia em arquivos PDF/A, pois tais recursos impedem a renderização independente e a preservação digital autônoma a longo prazo.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Emulação, Migração e Fixidez Digital
 
 **Assertiva:** "Diferentemente da migração de formatos, a estratégia de emulação altera o código binário interno do documento digital para torná-lo compatível com os novos sistemas operacionais vigentes no mercado."
@@ -6937,9 +6987,20 @@ Coordenado pela Library of Congress, estrutura-se em 5 entidades:
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-64"></a>
 ## SUBMÓDULO 6.4: Inteligência Artificial na Biblioteconomia e na Ciência da Informação
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Fundamentos de IA na Biblioteconomia, Grandes Modelos de Linguagem (LLMs), Embeddings vetoriais e busca semântica, catalogação assistida, RAG, Declaração da IFLA sobre Bibliotecas e IA, e as Diretrizes de Uso Responsável de IA da Câmara dos Deputados.
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **LLM** | Large Language Model; modelo de aprendizado profundo treinado em grandes volumes de texto para linguagem natural. | Assistente virtual para resumir projetos de lei e sugerir termos de indexação a partir do texto integral. |
+| **RAG** | Retrieval-Augmented Generation; arquitetura que busca documentos factuais antes de gerar resposta, reduzindo alucinações. | Conectar a IA ao LexML para responder dúvidas citando artigos vigentes da Constituição. |
+| **Embeddings** | Representação vetorial de textos em espaço multidimensional, onde documentos semanticamente similares ficam próximos. | Encontrar livros sobre crise hídrica mesmo se a busca for por escassez de água em reservatórios. |
+| **Prompt** | Instrução textual fornecida como entrada a um modelo generativo para guiar a tarefa e o formato da resposta. | Comando estruturado enviado à IA solicitando a elaboração de uma ementa legislativa padronizada. |
+| **Human-in-the-loop** | Princípio de governança onde a decisão final, revisão e validação técnica de saídas de IA permanecem sob controle humano. | O bibliotecário revisa e homologa termos de assunto sugeridos por IA antes de publicar no catálogo. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - IFLA Advisory Committee
@@ -7002,7 +7063,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 #### B. Embeddings Vetoriais e Busca Semântica
 * O processamento de linguagem natural converte textos em **vetores numéricos densos** (embeddings) em espaços vetoriais de centenas ou milhares de dimensões:
 * Documentos conceitualmente correlatos situam-se em coordenadas espaciais próximas.
-* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana ($L_2$).
+* **Métricas de Similaridade Vetorial:** A distância entre o vetor da consulta do usuário e os vetores dos documentos é calculada matematicamente por meio da **Similaridade por Cosseno** (ângulo entre vetores), Produto Escalar (*Dot Product*) ou Distância Euclidiana (L_2).
 * Isso viabiliza a recuperação semântica por conceito: uma busca por "remuneração de servidores" recupera documentos sobre "vencimentos e subsídios do funcionalismo", mesmo sem coincidência literal de palavras.
 
 ---
@@ -7103,7 +7164,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Busca Semântica por IA vs. Busca Tradicional
 
 **Assertiva:** "Diferentemente dos sistemas tradicionais de busca baseados na correspondência estrita de palavras-chave, a busca semântica orientada por inteligência artificial utiliza representações vetoriais de texto (embeddings) para recuperar documentos pelo seu contexto e significado conceitual."
@@ -7112,7 +7173,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 **Justificativa Canônica:** Correto! Os modelos de busca semântica baseados em IA processam a proximidade vetorial de significados, superando a rigidez da correspondência literal.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Foundation Models e Aprendizado Profundo
 
 **Assertiva:** "Os denominados Foundation Models, que alicerçam ferramentas modernas de inteligência artificial generativa, operam com base na aplicação de conjuntos de regras formais pré-programadas por engenheiros, dispensando redes neurais de aprendizado profundo."
@@ -7121,7 +7182,7 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 **Justificativa Canônica:** Errado! Tema de alta probabilidade de cobrança no Cebraspe. Os Foundation Models baseiam-se em redes neurais profundas (deep learning) e métodos de aprendizagem auto-supervisionada em larga escala, e não em regras lógicas programadas (GOFAI).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Engenharia de Prompts - Zero-Shot vs. Few-Shot
 
 **Assertiva:** "Na engenharia de prompts para modelos de linguagem generativa, a técnica de few-shot prompting consiste em apresentar ao modelo a instrução da tarefa sem fornecer nenhum exemplo demonstrativo prévio de entrada e saída."
@@ -7132,8 +7193,9 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-65"></a>
 ## SUBMÓDULO 6.5: Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Levantamento de requisitos funcionais e não funcionais; Modelo Entidade-Relacionamento (MER de Chen) e cardinalidades; modelo relacional, chaves (PK/FK) e formas normais (1FN, 2FN, 3FN); bancos NoSQL (documento, chave-valor, coluna, grafo) e grafos de conhecimento.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -7190,7 +7252,7 @@ O desenvolvimento e a implantação de sistemas de informação em unidades docu
 
 ---
 
-### 2. O Modelo Entidade-Relacionamento (MER) de Peter Chen (1976)
+### 2. O Modelo MER de Chen É Metodologia de Banco de Dados, Não Se Confundindo com Ontologias Bibliográficas como IFLA LRM
 
 Formulado por **Peter Pin-Shan Chen** em 1976 (*The Entity-Relationship Model: Toward a Unified View of Data*), o MER constitui o padrão conceitual dominante para modelagem lógica de dados:
 
@@ -7229,7 +7291,7 @@ Formulado por **Peter Pin-Shan Chen** em 1976 (*The Entity-Relationship Model: T
 
 ---
 
-### 3. O Modelo Relacional e as Formas Normais de Edgar F. Codd (1970)
+### 3. O Modelo Relacional Elimina Redundâncias Operacionais Através das Formas Normais (1FN, 2FN e 3FN)
 
 Criado por **Edgar Frank Codd** nos laboratórios da IBM (*A Relational Model of Data for Large Shared Data Banks*, 1970), o modelo relacional organiza os dados sob a fundamentação matemática da teoria dos conjuntos e da lógica de predicados de primeira ordem:
 
@@ -7252,7 +7314,7 @@ A normalização é uma técnica formal de análise de esquemas relacionais que 
 
 3. **Terceira Forma Normal (3FN):**
    * Uma tabela está na 3FN se, e somente se, **já estiver na 2FN e nenhum atributo não-chave depender transitivamente de outro atributo não-chave** (inexistência de **dependência funcional transitiva**).
-   * *Fórmula Lógica:* Se $A \rightarrow B$ e $B \rightarrow C$ (onde $A$ é a PK e $B, C$ são atributos não-chave), então $C$ depende transitivamente de $A$ através de $B$.
+   * *Fórmula Lógica:* Se A \rightarrow B e B \rightarrow C (onde A é a PK e B, C são atributos não-chave), então C depende transitivamente de A através de B.
    * *Exemplo de Violação:* Em uma tabela de exemplares com PK `id_exemplar`, temos as colunas `id_editora` e `cidade_editora`. A cidade da editora depende do `id_editora` (que não é PK da tabela), e não diretamente do exemplar. A solução exige transferir `cidade_editora` para a tabela própria de `EDITORA`.
 
 #### C. As Propriedades ACID em Sistemas RDBMS
@@ -7274,7 +7336,7 @@ Em sistemas distribuídos de dados, o Teorema CAP estabelece que uma arquitetura
 2. **A - Disponibilidade (Availability):** Toda requisição não falha recebe uma resposta válida (sem garantia de ser a mais recente).
 3. **P - Tolerância a Particionamento (Partition Tolerance):** O sistema continua operando mesmo se houver perda de comunicação ou falhas de rede entre os nós do cluster.
 
-Como redes reais estão inevitavelmente sujeitas a partições e quedas físicas de conexão ($P$ é mandatório em redes distribuídas), os sistemas distribuídos devem optar por:
+Como redes reais estão inevitavelmente sujeitas a partições e quedas físicas de conexão (P é mandatório em redes distribuídas), os sistemas distribuídos devem optar por:
 * **Sistemas CP:** Priorizam a consistência estrita em detrimento da disponibilidade (ex.: se um nó perde sincronia, rejeita requisições até se restabelecer).
 * **Sistemas AP:** Priorizam a disponibilidade ininterrupta adotando o modelo de **Consistência Eventual (Eventual Consistency / modelo BASE: Basically Available, Soft-state, Eventual consistency)**.
 
@@ -7287,7 +7349,7 @@ Como redes reais estão inevitavelmente sujeitas a partições e quedas físicas
 
 2. **Chave-Valor (Key-Value):**
    * O modelo mais simples e performático: armazena pares de chave identificadora única e seu valor binário/texto associado.
-   * Operações primitivas de busca direta em complexidade algorítmica $O(1)$.
+   * Operações primitivas de busca direta em complexidade algorítmica O(1).
    * *Tecnologias:* **Redis**, **Memcached**, **Amazon DynamoDB**.
    * *Uso em Informação:* Armazenamento de sessões web de usuários, carrinho de reserva de publicações e cache de consultas pesadas ao catálogo.
 
@@ -7347,7 +7409,7 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Distinção Epistemológica entre MER e IFLA LRM
 
 **Assertiva:** "O Modelo Entidade-Relacionamento (MER) de Peter Chen e o modelo conceitual IFLA LRM compartilham a lógica de entidades e atributos, mas enquanto o MER é uma metodologia geral de modelagem lógica de bancos de dados para engenharia de software, o LRM constitui um modelo conceitual descritivo voltado especificamente para o universo bibliográfico."
@@ -7356,7 +7418,7 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 **Justificativa Canônica:** Correto! O MER é uma técnica agnóstica de modelagem de dados da Ciência da Computação (Chen, 1976), ao passo que o IFLA LRM é uma ontologia/modelo conceitual de domínio bibliográfico homologado pela IFLA.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Segunda e Terceira Formas Normais de Codd
 
 **Assertiva:** "Uma tabela relacional está na Segunda Forma Normal (2FN) quando todos os seus atributos não-chave dependem transitivamente da chave primária, exigindo-se a Terceira Forma Normal (3FN) apenas quando houver dependência parcial em relação a uma chave primária composta."
@@ -7365,7 +7427,7 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 **Justificativa Canônica:** Errado! Os conceitos foram invertidos: a 2FN exige a eliminação de dependências parciais (todos os atributos não-chave devem depender da totalidade da chave primária composta); a 3FN exige a eliminação de dependências transitivas entre atributos não-chave.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Teorema CAP e Bancos Orientados a Grafos
 
 **Assertiva:** "Em ambientes de recuperação de informação documental que exigem mapeamento dinâmico de redes de coautoria, genealogia normativa de leis e desambiguação de autoridades por meio de grafos de conhecimento, bancos de dados NoSQL orientados a grafos apresentam desempenho superior ao modelo relacional por realizarem travessias diretas de arestas sem a necessidade de dispendiosas operações de junção (JOINs)."
@@ -7376,9 +7438,20 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-66"></a>
 ## SUBMÓDULO 6.6: Fundamentos Computacionais: Algoritmos, SQL, Regex, APIs e Web Scraping
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Pensamento computacional e estruturas de controle; ordem lógica de execução em SQL (WHERE vs. HAVING, JOINs e agregações); expressões regulares (metacaracteres e padrões bibliográficos); arquitetura REST, JSON e API de Dados Abertos da Câmara; web scraping, robots.txt e limites ético-jurídicos da LGPD.
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **SQL** | Linguagem declarativa padrão para criação, consulta e manipulação de bancos de dados relacionais. | Consultar no banco Koha/Pergamum da Câmara os livros catalogados com mais de 3 exemplares disponíveis. |
+| **API** | Interface de comunicação padronizada que viabiliza a troca direta de dados entre sistemas distintos. | Consumir o endpoint /proposicoes da API de Dados Abertos da Câmara para indexar projetos no catálogo. |
+| **REST** | Estilo arquitetural para serviços web baseado no protocolo HTTP sem estado (stateless) e recursos com URIs. | Requisição HTTP GET para recuperar metadados de parlamentares em formato JSON. |
+| **Regex** | Expressão regular; sequência de caracteres que define um padrão de busca textual flexível. | Validar se números de chamada ou ISBNs digitados pelos usuários seguem a máscara correta. |
+| **Web Scraping** | Técnica automatizada de extração de dados estruturados a partir do código HTML de páginas web públicas. | Coletar listas de publicações parlamentares em sítios históricos que não possuem APIs de exportação. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Jeanette Wing (Pensamento Computacional)
@@ -7446,36 +7519,38 @@ Em provas do Cebraspe, a pegadinha clássica explora a divergência entre a orde
 * **RIGHT (OUTER) JOIN:** Retorna todas as linhas da tabela à direita e os dados correspondentes da esquerda (ou `NULL`).
 * **FULL (OUTER) JOIN:** Retorna a união completa de todas as linhas de ambas as tabelas, inserindo `NULL` onde inexistir paridade.
 
-#### C. Três Consultas SQL de Exemplo no Universo da Câmara dos Deputados
+#### C. Exemplos Resolvidos com Esmaecimento: Consultas SQL (3 Degraus)
 
-* **Consulta 1: Total de Obras por Assunto com Filtro de Grupo (WHERE vs. HAVING)**
+##### Degrau 1: Exemplo Completo (Filtro Prévio no WHERE e Filtro Agregado no HAVING)
+* **Problema:** Na base de dados bibliográfica da Câmara dos Deputados, listar os assuntos que possuem pelo menos 2 obras editadas a partir do ano 2020, ordenando pelo total de obras em ordem decrescente.
+* **Consulta SQL Resolvida:**
 ```sql
 SELECT 
-    assunto.termo_assunto,
-    COUNT(livro.id_livro) AS total_obras
+    assunto.nome AS termo_assunto,
+    COUNT(livro.id) AS total_obras
 FROM assunto
-INNER JOIN livro_assunto ON assunto.id_assunto = livro_assunto.id_assunto
-INNER JOIN livro ON livro_assunto.id_livro = livro.id_livro
-WHERE livro.ano_publicacao >= 2000
-GROUP BY assunto.termo_assunto
-HAVING COUNT(livro.id_livro) >= 50
-ORDER BY total_obras DESC;
+INNER JOIN livro_assunto ON assunto.id = livro_assunto.id_assunto
+INNER JOIN livro ON livro_assunto.id_livro = livro.id
+WHERE livro.ano >= 2020
+GROUP BY assunto.nome
+HAVING COUNT(livro.id) >= 2
+ORDER BY total_obras DESC, termo_assunto ASC;
 ```
-*Explicação da Lógica:* O `WHERE` descarta previamente livros editados antes do ano 2000. Em seguida, as obras são agrupadas por assunto. Por fim, o `HAVING` filtra e exibe apenas os assuntos que possuem 50 ou mais obras no acervo moderno.
+* **Explicação Passo a Passo:**
+  1. `FROM` e `INNER JOIN` unem as tabelas `assunto`, `livro_assunto` e `livro`.
+  2. `WHERE livro.ano >= 2020` descarta previamente títulos mais antigos antes do agrupamento.
+  3. `GROUP BY assunto.nome` reúne as obras por área temática.
+  4. `HAVING COUNT(livro.id) >= 2` descarta assuntos com apenas 1 publicação.
+  5. `SELECT` projeta as colunas e `ORDER BY` ordena.
+* **Saída Declarada:**
+| termo_assunto | total_obras |
+| :--- | :--- |
+| Direito Constitucional | 3 |
+| Ciência Política | 2 |
 
-* **Consulta 2: Mapeamento de Autores e suas Obras via INNER JOIN**
-```sql
-SELECT 
-    autor.nome_autor,
-    livro.titulo,
-    livro.isbn
-FROM autor
-INNER JOIN livro_autor ON autor.id_autor = livro_autor.id_autor
-INNER JOIN livro ON livro_autor.id_livro = livro.id_livro
-ORDER BY autor.nome_autor ASC, livro.ano_publicacao DESC;
-```
-
-* **Consulta 3: Identificação de Proposições Legislativas sem Relator Designado (LEFT JOIN com verificação de NULL)**
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: LEFT JOIN e Verificação de Nulo)
+* **Problema:** Encontrar proposições legislativas que ainda não possuem relator designado, exibindo sigla, número, ano e ementa.
+* **Código com Lacuna:**
 ```sql
 SELECT 
     prop.sigla_tipo,
@@ -7483,27 +7558,66 @@ SELECT
     prop.ano,
     prop.ementa
 FROM proposicao prop
-LEFT JOIN relatoria rel ON prop.id_proposicao = rel.id_proposicao
+/* LACUNA 1: Qual tipo de JOIN preserva proposições sem relator? */
+/* ___ JOIN relatoria rel ON prop.id = rel.id_proposicao */
+/* LACUNA 2: Qual cláusula filtra onde o relator não existe? */
+/* WHERE rel.id_relator IS ___ */
+ORDER BY prop.ano DESC, prop.numero DESC;
+```
+* **Resolução Completa:**
+```sql
+SELECT 
+    prop.sigla_tipo,
+    prop.numero,
+    prop.ano,
+    prop.ementa
+FROM proposicao prop
+LEFT JOIN relatoria rel ON prop.id = rel.id_proposicao
 WHERE rel.id_relator IS NULL
 ORDER BY prop.ano DESC, prop.numero DESC;
 ```
+* **Saída Declarada:**
+| sigla_tipo | numero | ano | ementa |
+| :--- | :--- | :--- | :--- |
+| PL | 1042 | 2026 | Institui a Política Nacional de Livros Abertos |
+| PEC | 45 | 2026 | Altera regime constitucional de bibliotecas públicas |
+
+##### Degrau 3: Aplicação Autônoma (Mapeamento de Autoria e Produtividade com Agrupamento)
+* **Desafio:** Elaborar consulta para gerar ranking de autores por quantidade de livros cadastrados, exibindo apenas autores que tenham pelo menos 1 livro, ordenando decrescentemente pela quantidade.
+* **Resolução Completa:**
+```sql
+SELECT 
+    autor.nome AS nome_autor,
+    COUNT(livro_autor.id_livro) AS total_livros
+FROM autor
+INNER JOIN livro_autor ON autor.id = livro_autor.id_autor
+GROUP BY autor.id, autor.nome
+HAVING COUNT(livro_autor.id_livro) >= 1
+ORDER BY total_livros DESC, nome_autor ASC;
+```
+* **Saída Declarada:**
+| nome_autor | total_livros |
+| :--- | :--- |
+| Machado de Assis | 3 |
+| Clarice Lispector | 2 |
+| Darcy Ribeiro | 1 |
 
 ---
 
-### 3. Expressões Regulares (Regex): Sintaxe, Metacaracteres e Padrões Documentais
+### 3. Regex Exige Escape no Ponto Literal e Ancoragem para Evitar Falsos Positivos
 
 Expressões Regulares (*Regular Expressions*) baseiam-se na teoria das linguagens formais de **Stephen Kleene** (1951) e fornecem uma sintaxe concisa para casar padrões de texto:
 
 #### A. Metacaracteres Essenciais
 * **Ancoragem:**
   * `^`: Casa o início da linha ou string.
-  * `$`: Casa o final da linha ou string.
+  * ``: Casa o final da linha ou string.
 * **Quantificadores:**
   * `*`: Zero ou mais ocorrências do elemento anterior (guloso / *greedy*).
   * `+`: Uma ou mais ocorrências do elemento anterior.
   * `?`: Zero ou uma ocorrência (opcional).
-  * `{n}`: Exatamente $n$ ocorrências.
-  * `{n,m}`: Entre $n$ e $m$ ocorrências.
+  * `{n}`: Exatamente n ocorrências.
+  * `{n,m}`: Entre n e m ocorrências.
 * **Classes de Caracteres e Atalhos:**
   * `[abc]`: Qualquer um dos caracteres enumerados.
   * `[^abc]`: Negação (qualquer caractere exceto 'a', 'b' ou 'c').
@@ -7518,20 +7632,52 @@ Expressões Regulares (*Regular Expressions*) baseiam-se na teoria das linguagen
   * `.`: Casa **qualquer caractere único** (exceto nova linha).
   * `\.`: Casa o **ponto literal** (exige barra invertida de escape).
 
-#### B. Aplicação de Regex em Ambientes de Bibliotecas e Documentação
-1. **Validação de ISBN-13 (formato de 13 dígitos iniciado por 978 ou 979):**
-   * Padrão: `^97[89]\d{10}$`
-   * Casamentos válidos: `9788535902778`, `9791090636071`.
-2. **Extração de Anos de Publicação dos Séculos XX e XXI:**
-   * Padrão: `\b(19|20)\d{2}\b`
-   * Casamentos: captura "1988" e "2026", ignorando números como "12345" ou "19888".
-3. **Identificação de Leis Federais em Textos Jurídicos:**
-   * Padrão: `Lei n[ºo]\s*\d+(?:\.\d+)?/\d{4}`
-   * Casamentos: `Lei nº 14.133/2021`, `Lei no 4084/1962`, `Lei nº 12.527/2011`.
+#### B. Exemplos Resolvidos com Esmaecimento: Expressões Regulares (3 Degraus)
+
+##### Degrau 1: Exemplo Completo (Validação e Extração de Proposições Legislativas)
+* **Problema:** Validar e extrair componentes de identificação formal de proposições da Câmara (ex.: `PL 1042/2026`, `PEC 45/2026`, `PLP 12/2025`).
+* **Padrão Regex Resolvido:**
+```regex
+^(PL|PLP|PEC|PDL)\s+(\d{1,5})\/(\d{4})
+```
+* **Casos Testados e Saída Declarada:**
+  * `"PL 1042/2026"` -> Casa: Sim. Grupo 1: `"PL"`, Grupo 2: `"1042"`, Grupo 3: `"2026"`.
+  * `"PEC 45/2026"` -> Casa: Sim. Grupo 1: `"PEC"`, Grupo 2: `"45"`, Grupo 3: `"2026"`.
+  * `"MPV 100/2026"` -> Casa: Não (sigla não permitida na lista de alternativas).
+  * `"PL 123456/2026"` -> Casa: Não (excede 5 dígitos no número).
+
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: Citação de Artigo em Ementas)
+* **Problema:** Capturar o número de artigos citados em documentos legislativos (ex.: `art. 5º`, `artigo 37`, `Art. 102`).
+* **Padrão com Lacuna:**
+```regex
+/* LACUNA: Usar grupo não capturador (?:...) para prefixo art. ou artigo, seguido de dígitos e ordinal opcional */
+/* \b(?:art\.|artigo)\s+(\d+)(?:[º°]|___)?\b */
+```
+* **Resolução Completa:**
+```regex
+\b(?:art\.|artigo)\s+(\d+)(?:[º°]|\b)
+```
+* **Casos Testados e Saída Declarada:**
+  * `"Em cumprimento ao art. 5º da CF"` -> Casa: Sim. Número capturado no Grupo 1: `"5"`.
+  * `"conforme previsto no artigo 37, caput"` -> Casa: Sim. Número capturado no Grupo 1: `"37"`.
+  * `"artesanato regional"` -> Casa: Não casa (respeita fronteira de palavra `\b`).
+
+##### Degrau 3: Aplicação Autônoma (Validação de Notação de Classificação Decimal CDU/CDD)
+* **Desafio:** Construir expressão regular rigorosa para validar notações de classes principais e subdivisões decimais da CDU/CDD (ex.: `020`, `025.4`, `342.7`), recusando números com pontos duplicados ou letras.
+* **Resolução Completa:**
+```regex
+^\d{3}(?:\.\d+)*
+```
+* **Casos Testados e Saída Declarada:**
+  * `"020"` -> Casa: Sim.
+  * `"025.4"` -> Casa: Sim.
+  * `"342.721"` -> Casa: Sim.
+  * `"25.4"` -> Casa: Não (exige 3 dígitos iniciais).
+  * `"025..4"` -> Casa: Não (rejeita ponto duplo consecutivo).
 
 ---
 
-### 4. Arquitetura REST, Formato JSON e a API de Dados Abertos da Câmara
+### 4. APIs REST São Sem Estado (Stateless) e Manipulam Recursos por URIs e Verbos Semânticos
 
 #### A. Princípios da Arquitetura REST (Roy Fielding, 2000)
 Em sua tese de doutorado na Universidade da Califórnia, **Roy Fielding** definiu os princípios de transferência de estado representacional (*Representational State Transfer* - REST):
@@ -7558,9 +7704,87 @@ A Câmara dos Deputados disponibiliza uma API pública RESTful no endereço base
   * `GET /proposicoes?ano=2026&siglaTipo=PL`: Recupera projetos de lei apresentados no ano.
   * `GET /votacoes/{id}/votos`: Recupera a relação de votos nominais de cada parlamentar em determinada deliberação.
 
+#### D. Exemplos Resolvidos com Esmaecimento: Consumo de APIs REST e JSON (3 Degraus)
+
+##### Degrau 1: Exemplo Completo (Requisição com Parâmetros e Extração de Lista de Dados)
+* **Problema:** Consumir o endpoint `/proposicoes` filtrando por projetos de lei de 2026 com limite de 2 registros e extrair o identificador e a ementa de cada item.
+* **Requisição:** `GET https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&ordem=ASC&ordenarPor=id&itens=2`
+* **Payload JSON Retornado pelo Servidor:**
+```json
+{
+  "dados": [
+    {
+      "id": 24001,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/24001",
+      "siglaTipo": "PL",
+      "numero": 101,
+      "ano": 2026,
+      "ementa": "Dispõe sobre o depósito legal de obras digitais na Biblioteca da Câmara."
+    },
+    {
+      "id": 24002,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/24002",
+      "siglaTipo": "PL",
+      "numero": 102,
+      "ano": 2026,
+      "ementa": "Institui o Plano Nacional de Acessibilidade Documental Legislativa."
+    }
+  ],
+  "links": [
+    { "rel": "self", "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=1" },
+    { "rel": "next", "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=2" }
+  ]
+}
+```
+* **Processamento e Saída Declarada:**
+  * Item 1: ID = `24001`, Ementa = `"Dispõe sobre o depósito legal de obras digitais na Biblioteca da Câmara."`
+  * Item 2: ID = `24002`, Ementa = `"Institui o Plano Nacional de Acessibilidade Documental Legislativa."`
+
+##### Degrau 2: Exemplo Parcial com Esmaecimento (Lacuna: Extração de Objeto Aninhado em Perfil)
+* **Problema:** Recuperar dados detalhados de um parlamentar pelo ID e extrair o partido e a UF de sua situação funcional atual no nó `ultimoStatus`.
+* **Requisição:** `GET https://dadosabertos.camara.leg.br/api/v2/deputados/204521`
+* **Código de Extração com Lacuna:**
+```javascript
+// Dado o payload retornado da API:
+const resposta = {
+  dados: {
+    id: 204521,
+    nomeCivil: "Deputado Exemplar",
+    ultimoStatus: {
+      siglaPartido: "PLD",
+      siglaUf: "DF",
+      condicaoEleitoral: "Titular"
+    }
+  }
+};
+/* LACUNA: Acessar a sigla partidária e UF no nó de status atual */
+/* const partido = resposta.dados.______.siglaPartido; */
+/* const uf = resposta.dados.______.siglaUf; */
+```
+* **Resolução Completa:**
+```javascript
+const partido = resposta.dados.ultimoStatus.siglaPartido;
+const uf = resposta.dados.ultimoStatus.siglaUf;
+```
+* **Saída Declarada:**
+  * `partido` = `"PLD"`
+  * `uf` = `"DF"`
+
+##### Degrau 3: Aplicação Autônoma (Paginação HATEOAS Navegando por Links Hipermídia)
+* **Desafio:** Implementar função de controle que recebe a resposta de uma requisição e localiza a URL da próxima página de dados utilizando a convenção `rel="next"` dos links hipermídia.
+* **Resolução Completa:**
+```javascript
+function extrairProximaPagina(respostaJson) {
+  const linkNext = respostaJson.links.find(link => link.rel === 'next');
+  return linkNext ? linkNext.href : null;
+}
+```
+* **Saída Declarada para o Payload do Degrau 1:**
+  * Retorno: `"https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2026&siglaTipo=PL&itens=2&pagina=2"`
+
 ---
 
-### 5. Web Scraping: Técnicas, Limitações e Fronteiras Jurídicas
+### 5. Web Scraping Possui Restrições Éticas (robots.txt) e Legais (LGPD e Direitos Autorais), Sendo APIs Oficiais Preferíveis
 
 O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreadores) para extrair dados tabulares ou textuais a partir do código HTML de páginas da Web:
 
@@ -7611,7 +7835,7 @@ O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreado
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Ordem Lógica e Diferença entre WHERE e HAVING no SQL
 
 **Assertiva:** "Em uma consulta SQL, a cláusula WHERE avalia condições lógicas sobre registros individuais antes da execução do agrupamento, sendo vedada a inclusão direta de funções de agregação nessa cláusula; por sua vez, a cláusula HAVING atua filtrando os grupos formados após o processamento do GROUP BY."
@@ -7620,7 +7844,7 @@ O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreado
 
 **Justificativa Canônica:** Correto! Essa é a regra estrutural da ordem lógica de execução do SQL: o WHERE filtra tuplas no nível atômico antes do agrupamento; o HAVING filtra os agregados resultantes do GROUP BY.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Semântica do Metacaractere Ponto em Regex
 
 **Assertiva:** "Na sintaxe padrão das expressões regulares (regex), o metacaractere ponto "." é utilizado exclusivamente para localizar instâncias do ponto final ortográfico em um documento textual, devendo-se utilizar "\." para localizar caracteres curingas quaisquer."
@@ -7629,7 +7853,7 @@ O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreado
 
 **Justificativa Canônica:** Errado! A afirmação inverteu a sintaxe: o metacaractere ponto "." representa qualquer caractere único (exceto quebras de linha); para localizar o caractere ponto ortográfico literal, é mandatório utilizar o escape com barra invertida "\.".
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Web Scraping de Dados Pessoais e a LGPD
 
 **Assertiva:** "Considerando que determinado sítio governamental disponibiliza dados em página web pública sem exigência de senha ou cadastro, a coleta automatizada desses dados pessoais por meio de web scraping está integralmente isenta do cumprimento dos princípios e obrigações da Lei Geral de Proteção de Dados (LGPD)."
@@ -7640,8 +7864,9 @@ O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreado
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-67"></a>
 ## SUBMÓDULO 6.7: IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Aprendizado supervisionado vs. não supervisionado na organização informacional; sumarização extrativa vs. abstrativa; tecnologias de OCR e HTR (métricas CER e WER); curadoria e documentação de corpora (Datasheets for Datasets e Model Cards); avaliação em sistemas RAG (groundedness e alucinação); vieses algorítmicos e ética informacional.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -7712,12 +7937,12 @@ A preservação e o acesso a acervos históricos parlamentares dependem de tecno
 
 * **3. Métricas Padronizadas de Acurácia em OCR/HTR:**
   * **Taxa de Erro de Caracteres (CER - Character Error Rate):**
-    $\text{CER} = \frac{S + D + I}{N}$
+    CER = (S + D + I / N)
     Onde:
-    * $S$ = Substituições (caracteres trocados incorretamente);
-    * $D$ = Deleções (caracteres omitidos pelo leitor);
-    * $I$ = Inserções (caracteres espúrios adicionados);
-    * $N$ = Número total de caracteres no texto de referência (*ground truth*).
+    * S = Substituições (caracteres trocados incorretamente);
+    * D = Deleções (caracteres omitidos pelo leitor);
+    * I = Inserções (caracteres espúrios adicionados);
+    * N = Número total de caracteres no texto de referência (*ground truth*).
   * **Taxa de Erro de Palavras (WER - Word Error Rate):**
     * Mensura a proporção de palavras inteiras que sofreram falhas na transcrição.
   * *Human-in-the-Loop (HITL):* Em acervos patrimoniais e jurídicos, nenhum sistema de OCR/HTR opera de forma 100% autônoma sem uma etapa de revisão, curadoria e pós-correção manual por arquivistas e bibliotecários.
@@ -7834,7 +8059,7 @@ A governança responsável de IA na administração pública exige a compreensã
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Arquitetura RAG e o Controle de Alucinações
 
 **Assertiva:** "A adoção da arquitetura de geração aumentada por recuperação (RAG) em bibliotecas digitais tem como finalidade primordial fundamentar as respostas do modelo de linguagem em evidências documentais extraídas de bases institucionais confiáveis, reduzindo significativamente as alucinações, embora não elimine por completo o risco de geração de imprecisões factuais pelo modelo generativo."
@@ -7843,7 +8068,7 @@ A governança responsável de IA na administração pública exige a compreensã
 
 **Justificativa Canônica:** Correto! O RAG (Lewis et al., 2020) ancora a geração em fontes externas fornecidas no prompt, reduzindo alucinações factuais de forma expressiva; contudo, a literatura e a prática técnica reconhecem que o risco residual de inferências incorretas ou alucinações não é eliminado a zero.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Documentação de Dados e Modelos (Datasheets e Model Cards)
 
 **Assertiva:** "Segundo os padrões consagrados na literatura de ética e governança de inteligência artificial, o instrumento denominado Model Card é utilizado precipuamente para catalogar a proveniência e a coleta de dados de um dataset bruto, ao passo que o Datasheet for Datasets destina-se a reportar os hiperparâmetros de treinamento e as métricas de inferência de um modelo de aprendizado de máquina."
@@ -7852,7 +8077,7 @@ A governança responsável de IA na administração pública exige a compreensã
 
 **Justificativa Canônica:** Errado! Os conceitos foram invertidos: "Datasheets for Datasets" (Gebru et al., 2018) destina-se a documentar o conjunto de DADOS (motivação, composição, coleta, usos recomendados); "Model Cards for Model Reporting" (Mitchell et al., 2019) destina-se a documentar os MODELOS treinados (arquitetura, limitações, métricas e casos de uso).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Volume de Dados Massivo e Neutralização de Vieses
 
 **Assertiva:** "Em projetos de inteligência artificial voltados à organização de acervos governamentais, a expansão quantitativa de um corpus textual para a escala de bilhões de palavras dispensa a necessidade de documentação qualitativa e auditoria de proveniência, uma vez que a representatividade matemática de grandes volumes de dados neutraliza automaticamente quaisquer vieses históricos e terminológicos."
@@ -7870,8 +8095,9 @@ Estudo aprofundado da salvaguarda material e conservação preventiva de acervos
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-71"></a>
 ## SUBMÓDULO 7.1: Agentes Ambientais e Físico-Químicos de Degradação de Acervos
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A composição físico-química dos suportes documentais, acidez intrínseca do papel industrial, parâmetros de temperatura e umidade relativa (flutuações e estresse mecânico), radiação ultravioleta e poluição atmosférica.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -7909,7 +8135,7 @@ Estudo aprofundado da salvaguarda material e conservação preventiva de acervos
 
 Para dominar a preservação de acervos bibliográficos, o profissional deve compreender a natureza química fundamental dos suportes (Cassares, 2000; Beck, 1995; Spinelli, 2003):
 
-* **A Molécula de Celulose:** Polímero linear natural formado por monômeros de glicose unidos por **ligações glicosídicas $\beta-1,4$**. A resistência mecânica do papel decorre da extensão dessas cadeias poliméricas e da formação de densas pontes de hidrogênio intermoleculares.
+* **A Molécula de Celulose:** Polímero linear natural formado por monômeros de glicose unidos por **ligações glicosídicas \beta-1,4**. A resistência mecânica do papel decorre da extensão dessas cadeias poliméricas e da formação de densas pontes de hidrogênio intermoleculares.
 * **O Papel Tradicional de Trapos (Pré-1850):**
   * Fabricado a partir de fibras vegetais nobres (algodão e linho), com cadeias de celulose muito longas, baixo teor de impurezas e pH neutro/básico.
   * Por essa razão, incunábulos e obras impressas dos séculos XV a XVIII frequentemente encontram-se em estado material impecável.
@@ -7917,11 +8143,11 @@ Para dominar a preservação de acervos bibliográficos, o profissional deve com
   * Com a Revolução Industrial e a impressão de massas, o trapo foi substituído pela polpa de madeira triturada física e quimicamente.
   * *Os Vilões Intrínsecos da Degradação:*
     1. **Lignina:** Polímero amorfo que confere rigidez estrutural às árvores. Sofre **fotoxidação acelerada** sob a luz, formando cromóforos que escurecem e amarelam as páginas.
-    2. **Alume de Colofônia (Sulfato de Alumínio - $Al_2(SO_4)_3$):** Aditivo ácido empregado para impermeabilizar o papel contra o borrão de tinta. Em contato com a umidade do ar, o sulfato de alumínio sofre hidrólise, liberando **ácido sulfúrico ($H_2SO_4$)** diretamente no cerne das fibras.
-    3. **Hidrólise Ácida da Celulose:** O ácido ataca e rompe as ligações $\beta-1,4$ glicosídicas, encurtando as cadeias celulósicas. O papel sofre despolimerização, perde a elasticidade, escurece e torna-se tão quebradiço que se esfarela ao toque.
+    2. **Alume de Colofônia (Sulfato de Alumínio - Al_2(SO_4)_3):** Aditivo ácido empregado para impermeabilizar o papel contra o borrão de tinta. Em contato com a umidade do ar, o sulfato de alumínio sofre hidrólise, liberando **ácido sulfúrico (H_2SO_4)** diretamente no cerne das fibras.
+    3. **Hidrólise Ácida da Celulose:** O ácido ataca e rompe as ligações \beta-1,4 glicosídicas, encurtando as cadeias celulósicas. O papel sofre despolimerização, perde a elasticidade, escurece e torna-se tão quebradiço que se esfarela ao toque.
 * **O Papel Permanente (Norma ISO 9706):**
   * Papel alcalino fabricado a partir de polpa química purificada sem celulose mecânica.
-  * Requisitos normativos: teor de lignina insignificante (número Kappa $< 5$), pH aquoso neutro ou básico entre **7,5 e 10**, e presença obrigatória de **reserva alcalina de pelo menos 2% de carbonato de cálcio ($CaCO_3$)**, que neutraliza ácidos futuros.
+  * Requisitos normativos: teor de lignina insignificante (número Kappa < 5), pH aquoso neutro ou básico entre **7,5 e 10**, e presença obrigatória de **reserva alcalina de pelo menos 2% de carbonato de cálcio (CaCO_3)**, que neutraliza ácidos futuros.
 
 ---
 
@@ -7951,11 +8177,11 @@ TITLE: Dinâmica Higroscópica e Danos Ambientais ao Papel
 * *Diretriz Inegociável:* O sistema de climatização de acervos históricos deve operar **24 horas por dia, 365 dias por ano**, sem desligamentos noturnos.
 
 #### B. Parâmetros Ambientais Canônicos (Conarq, Beck, Cassares)
-* **Temperatura:** Entre **18 °C e 22 °C** (com flutuação diária máxima tolerada de $\pm 2$ °C).
-* **Umidade Relativa (UR):** Entre **45% e 55%** (tolerância máxima de $40%$ a $60%$, com variação diária não superior a $\pm 5%$).
+* **Temperatura:** Entre **18 °C e 22 °C** (com flutuação diária máxima tolerada de \pm 2 °C).
+* **Umidade Relativa (UR):** Entre **45% e 55%** (tolerância máxima de 40% a 60%, com variação diária não superior a \pm 5%).
 * *Riscos Críticos:*
-  * $UR > 65%$: Eclosão de esporos fúngicos, desenvolvimento de colônias de fungos filamentosos (mofo) e aceleração de reações hidrolíticas.
-  * $UR < 35%$: Dessecação excessiva, tornando o papel rígido, seco e quebradiço, além de retrair e rachar encadernações de couro e pergaminho.
+  * UR > 65%: Eclosão de esporos fúngicos, desenvolvimento de colônias de fungos filamentosos (mofo) e aceleração de reações hidrolíticas.
+  * UR < 35%: Dessecação excessiva, tornando o papel rígido, seco e quebradiço, além de retrair e rachar encadernações de couro e pergaminho.
 
 ---
 
@@ -7963,11 +8189,11 @@ TITLE: Dinâmica Higroscópica e Danos Ambientais ao Papel
 
 A luz é uma forma de energia radiante cuja degradação sobre os acervos é **cumulativa e irreversível** (Thomson, 1978; Cassares, 2000):
 
-* **Radiação Ultravioleta (UV - comprimentos de onda $< 400$ nm):**
+* **Radiação Ultravioleta (UV - comprimentos de onda < 400 nm):**
   * Invisível ao olho humano, mas possui fótons de elevadíssima energia.
   * Atua como catalisador direto da **fotoxidação**, quebrando as moléculas de celulose e promovendo a quebra de corantes e tintas históricas (tintas ferrogálicas).
-  * *Limite de Segurança:* A proporção de UV na iluminação não deve ultrapassar **75 $\mu$W/lúmen**.
-* **Radiação Infravermelha ($> 700$ nm):**
+  * *Limite de Segurança:* A proporção de UV na iluminação não deve ultrapassar **75 \muW/lúmen**.
+* **Radiação Infravermelha (> 700 nm):**
   * Emite calor radiante, aquecendo diretamente a superfície das obras e acelerando a perda de umidade intrínseca.
 * **Luz Visível (400 a 700 nm):**
   * Também causa desbotamento cumulativo ao longo do tempo.
@@ -7982,8 +8208,8 @@ A luz é uma forma de energia radiante cuja degradação sobre os acervos é **c
 
 Os poluentes atmosféricos atacam o acervo em duas frentes:
 1. **Poluentes Gasosos Ácidos:**
-   * O dióxido de enxofre ($SO_2$) e os óxidos de nitrogênio ($NO_x$) expelidos pela queima de combustíveis fósseis reagem cataliticamente com o oxigênio e a umidade do ar na presença de metais (como o ferro das tintas ferrogálicas), convertendo-se em **ácido sulfúrico ($H_2SO_4$) e ácido nítrico ($HNO_3$)**.
-   * O ozônio ($O_3$), gerado por fotocopiadoras antigas e poluição fotoquímica, é um oxidante extremamente agressivo às fibras de celulose.
+   * O dióxido de enxofre (SO_2) e os óxidos de nitrogênio (NO_x) expelidos pela queima de combustíveis fósseis reagem cataliticamente com o oxigênio e a umidade do ar na presença de metais (como o ferro das tintas ferrogálicas), convertendo-se em **ácido sulfúrico (H_2SO_4) e ácido nítrico (HNO_3)**.
+   * O ozônio (O_3), gerado por fotocopiadoras antigas e poluição fotoquímica, é um oxidante extremamente agressivo às fibras de celulose.
 2. **Poluentes Particulados (Poeira e Fuligem):**
    * A fuligem contém partículas abrasivas de sílica e carbono que riscam mecanicamente as superfícies das obras durante o manuseio.
    * Além disso, a poeira atua como núcleo higroscópico que retém umidade ácida e serve de veículo transportador de nutrientes e esporos de fungos.
@@ -8029,7 +8255,7 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Parâmetros Ambientais de Preservação
 
 **Assertiva:** "Em unidades de conservação de acervos bibliográficos, a oscilação brusca diária de temperatura e umidade relativa é considerada um dos mais graves agentes mecânicos de deterioração das fibras de celulose."
@@ -8038,7 +8264,7 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
 
 **Justificativa Canônica:** Correto! A higroscopicidade do papel faz com que ele se dilate e se contraia nas variações de umidade, quebrando as cadeias moleculares.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Armazenamento e Mobiliário
 
 **Assertiva:** "Para a guarda de coleções raras e documentos históricos em bibliotecas, recomenda-se prioritariamente o uso de armários e estantes de madeira nobre crua, tendo em vista que a madeira atua como isolante natural contra a umidade externa."
@@ -8047,7 +8273,7 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
 
 **Justificativa Canônica:** Errado! O Cebraspe cobrou esse item no TJ-AC. Móveis de madeira liberam gases ácidos (ácido acético) e lignina nocivos ao acervo, sendo obrigatório o uso de aço tratado com pintura epóxi.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Radiação Ultravioleta e Oxidação da Celulose
 
 **Assertiva:** "A radiação luminosa com comprimentos de onda na faixa ultravioleta acelera a quebra fotoquímica das cadeias moleculares de celulose e promove o amarelamento e a fragilização do papel."
@@ -8058,8 +8284,9 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-72"></a>
 ## SUBMÓDULO 7.2: Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Insetos bibliófagos (traças, brocas, cupins e baratas), fungos filamentosos (mofo e foxing), roedores, superação da fumigação química e as técnicas ecológicas modernas: Anóxia (gás inerte) e Congelamento.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -8174,14 +8401,14 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 #### A. A Técnica da Anóxia (Atmosfera Modificada Isenta de Oxigênio)
 * **O Padrão-Ouro Internacional:**
   * O livro infestado é colocado no interior de uma bolsa de filme plástico especial de altíssima barreira a gases (filmes de barreira laminados com alumínio / PET aluminizado).
-  * O ar comum é extraído por seladora a vácuo e o interior da embalagem é preenchido com um **gás inerte puro (Nitrogênio com $99,9\%$ de pureza ou Argônio)**, ou aplicam-se sachês de absorvedores químicos de oxigênio (*Ageless*).
-  * A concentração de oxigênio é reduzida para **menos de 0,1%** (nível inferior a 1.000 ppm) e mantida monitorada durante **21 a 30 dias** a temperatura ambiente controlada ($20$ °C a $25$ °C).
+  * O ar comum é extraído por seladora a vácuo e o interior da embalagem é preenchido com um **gás inerte puro (Nitrogênio com 99,9\% de pureza ou Argônio)**, ou aplicam-se sachês de absorvedores químicos de oxigênio (*Ageless*).
+  * A concentração de oxigênio é reduzida para **menos de 0,1%** (nível inferior a 1.000 ppm) e mantida monitorada durante **21 a 30 dias** a temperatura ambiente controlada (20 °C a 25 °C).
 * **Mecanismo Letal:** A privação extrema de oxigênio mata por **asfixia celular anóxica** 100% dos insetos em todos os seus estágios evolutivos (**ovos, larvas, pupas e adultos**).
 * **Vantagens Canônicas:** Método seguro, totalmente atóxico para os profissionais, não deixa resíduos químicos nas páginas e não agride tintas, selos ou encadernações raras.
 
 #### B. A Técnica do Congelamento (*Freezing*)
 * Os materiais são acondicionados em sacos plásticos de polietileno hermeticamente selados, retirando-se o excesso de ar para impedir que a umidade congele em cristais sobre o papel.
-* As embalagens são dispostas em câmaras frias ou freezers de conservação a temperaturas de **$-20$ °C a $-25$ °C por um período mínimo de 7 a 14 dias**.
+* As embalagens são dispostas em câmaras frias ou freezers de conservação a temperaturas de **-20 °C a -25 °C por um período mínimo de 7 a 14 dias**.
 * O choque térmico congela os fluidos corporais dos insetos, exterminando ovos e larvas.
 * *Etapa Obrigatória de Descongelamento:* Ao retirar os livros do freezer, eles **devem permanecer selados na embalagem plástica por 24 a 48 horas**, até atingirem o equilíbrio com a temperatura ambiente. Se a embalagem for aberta antes disso, o ar quente e úmido condensará água líquida sobre as folhas geladas, deflagrando ataque imediato de mofo.
 
@@ -8213,7 +8440,7 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Técnicas Ecológicas de Desinfestação
 
 **Assertiva:** "Na conservação preventiva moderna de acervos bibliográficos, a técnica de anóxia baseia-se na substituição do oxigênio atmosférico por um gás inerte, como o nitrogênio, promovendo a eliminação de pragas por asfixia sem o emprego de produtos químicos residuais nocivos."
@@ -8222,7 +8449,7 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 
 **Justificativa Canônica:** Correto! A anóxia é o método ecológico padrão-ouro reconhecido internacionalmente pela IFLA e pelos manuais de conservação.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Condições de Proliferação Fúngica
 
 **Assertiva:** "A infestação por fungos e mofo em livros impressos depende exclusivamente da presença de luz solar direta nas salas de acervo, ocorrendo mesmo sob umidade relativa do ar inferior a 30%."
@@ -8231,7 +8458,7 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 
 **Justificativa Canônica:** Errado! Fungos proliferam na escuridão e exigem umidade relativa ALTA (acima de 65%) associada ao calor; sob umidade inferior a 30%, os fungos entram em dessecação e não se desenvolvem.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Uso de Fitas Adesivas Comerciais em Livros Danificados
 
 **Assertiva:** "A aplicação de fitas adesivas de base plástica transparente comum (como o durex) é procedimento recomendado para o reparo rápido de rasgos em obras raras devido à sua vedação contra a umidade."
@@ -8242,8 +8469,9 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-73"></a>
 ## SUBMÓDULO 7.3: Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Diferenças entre preservação, conservação e restauração, técnicas de higienização mecânica a seco (trinchas, esponjas e aspiradores HEPA), materiais adequados de acondicionamento (papel alcalino/acid-free e poliéster vs. PVC), pequenos reparos com papel japonês e regras ergonômicas de manuseio e estantes.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -8333,12 +8561,12 @@ A poeira acumulada é uma matriz agressiva composta por sílica abrasiva, fulige
 O acondicionamento individual atua como uma microbarreira protetora contra luz, poeira e flutuações higrotérmicas:
 
 * **Papel e Cartão Alcalino Permanente (Norma ISO 9706):**
-  * Confeccionado com celulose química purificada, pH neutro/alcalino entre **7,5 e 8,5**, livre de ácido e lignina, e dotado de **reserva alcalina de pelo menos 2% a 3% de carbonato de cálcio ($CaCO_3$)**.
+  * Confeccionado com celulose química purificada, pH neutro/alcalino entre **7,5 e 8,5**, livre de ácido e lignina, e dotado de **reserva alcalina de pelo menos 2% a 3% de carbonato de cálcio (CaCO_3)**.
   * Utilizado para confeccionar envelopes, camisas, pastas de quatro abas e caixas de guarda tipo concha (*clamshell* ou *phase boxes*).
 * **Plásticos Quimicamente Estáveis vs. Nocivos:**
   * **Aprovados:** Filmes de **Poliéster puro** (Mylar tipo D ou Melinex 516), **Polietileno (PE)** e **Polipropileno (PP)** virgens. São filmes cristalinos, quimicamente inertes, termicamente estáveis e que não desprendem vapores voláteis.
   * **Proibição Absoluta do PVC (Policloreto de Vinila):**
-    * O PVC é extremamente instável: na presença de calor e luz, sua estrutura polimérica quebra-se, liberando **gás ácido clorídrico ($HCl$)**, que corrói e acidifica o papel ao redor.
+    * O PVC é extremamente instável: na presença de calor e luz, sua estrutura polimérica quebra-se, liberando **gás ácido clorídrico (HCl)**, que corrói e acidifica o papel ao redor.
     * Além disso, os plastificantes voláteis (ftalatos) adicionados para dar maleabilidade ao PVC exsudam com o tempo, formando uma camada pegajosa oleosa que dissolve tintas, gravuras e emulsões fotográficas, colando os documentos de forma irreversível.
 * **Elementos de Fixação Proibidos:**
   * Banimento total de clipes metálicos comuns, grampos de metal ferroso, alfinetes e elásticos de borracha.
@@ -8405,7 +8633,7 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Técnicas de Manuseio e Retirada de Livros
 
 **Assertiva:** "Para preservar a integridade das encadernações nas estantes de uma biblioteca, o usuário ou bibliotecário deve retirar o livro puxando-o com firmeza pela parte superior da lombada (cabeça), o que facilita sua extração sem atrito com os volumes vizinhos."
@@ -8414,7 +8642,7 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 
 **Justificativa Canônica:** Errado! Conforme as recomendações de Norma Cassares (2000) e Ingrid Beck (1995), essa é a prática mais destrutiva em bibliotecas. Puxar pela ponta superior da lombada causa o rasgamento do revestimento e da coifa. O correto é empurrar os livros adjacentes para trás e puxar o exemplar segurando pelo meio do corpo da lombada.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Materiais para Acondicionamento de Obras Raras
 
 **Assertiva:** "No acondicionamento e proteção de fotografias e papéis históricos, o emprego de invólucros plásticos confeccionados em PVC (policloreto de vinila) é expressamente desaconselhado pelos conservadores em virtude da liberação contínua de gases ácidos e plastificantes químicos voláteis."
@@ -8423,7 +8651,7 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 
 **Justificativa Canônica:** Correto! Conforme a literatura de conservação preventiva (Cassares, 2000; Soares, 2005), o PVC é quimicamente instável e libera ácido clorídrico; devem ser utilizados exclusivamente plásticos inertes como poliéster estável (Mylar/Melinex), polietileno ou polipropileno virgens.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Emulação vs Preservação de Tecnologia
 
 **Assertiva:** "A estratégia de emulação em preservação digital preserva o software e o hardware originais em museus físicos para permitir a execução pontual dos arquivos legados em suas máquinas de época."
@@ -8434,8 +8662,9 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-74"></a>
 ## SUBMÓDULO 7.4: Intervenções Curativas, Restauração e Planos de Contingência contra Desastres
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Princípios éticos da restauração (Brandi: reversibilidade, mínima intervenção e distinguibilidade), testes de solubilidade de tintas, desacidificação, remendos com papel japonês, leafcasting, encadernação de conservação e protocolos de emergência e congelamento em sinistros.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -8474,7 +8703,8 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 
 A restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):
 
-> *"A restauração constitui o momento metodológico de reconhecimento da obra de arte ou documento histórico na sua consistência física e na sua dupla polaridade estética e histórica, com vistas à sua transmissão para o futuro."* — Cesare Brandi
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Teórica (Cesare Brandi, 1963):** De acordo com Cesare Brandi (1963), a restauração configura o momento metodológico de reconhecimento da obra de arte ou bem documentário em sua consistência material e em sua dupla dimensão (estética e histórica), com o propósito precípuo de assegurar sua justa transmissão às gerações futuras.
 
 ```tree
 TITLE: Princípios Éticos da Restauração Documental (Cesare Brandi / Cartas do Restauro)
@@ -8523,7 +8753,7 @@ O fluxo técnico de tratamento em laboratórios de conservação e restauração
 
 #### C. Higienização e Desacidificação
 * **Banho de Lavagem Aquosa:** Realizado em cubas de aço inoxidável com água desionizada para remoção de produtos solúveis da degradação ácida.
-* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [$Ca(OH)_2$], bicarbonato de cálcio [$Ca(HCO_3)_2$] ou bicarbonato de magnésio**. O tratamento eleva o pH para a faixa neutra (7,0 a 7,5) e precipita uma **reserva alcalina protetora de carbonato de cálcio ($CaCO_3$)**, que neutralizará a acidez futura.
+* **Desacidificação e Neutralização:** Aplicação de soluções alcalinas contendo **hidróxido de cálcio [Ca(OH)_2], bicarbonato de cálcio [Ca(HCO_3)_2] ou bicarbonato de magnésio**. O tratamento eleva o pH para a faixa neutra (7,0 a 7,5) e precipita uma **reserva alcalina protetora de carbonato de cálcio (CaCO_3)**, que neutralizará a acidez futura.
 
 #### D. Remendos, Enxertos e Papel Japonês
 * **O Papel Japonês (*Washi*):** Confeccionado artesanalmente no Japão a partir das fibras de entrecasca de arbustos nobres: **Kozo** (amoreira-de-papel, de fibras extra-longas e resistentes), **Mitsumata** e **Gampi**. Possui pH neutro, alta flexibilidade, espessura ultrafina (gramaturas de 5 a 20 g/m²) e transparência quase ótica.
@@ -8561,7 +8791,7 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 #### Protocolo Emergencial em Caso de Inundação / Grandes Alagamentos:
 * **A Janela Crítica das 48 Horas:** Livros e papéis encharcados de água iniciam a proliferação explosiva e incontrolável de fungos filamentosos dentro de **48 a 72 horas**.
 * **Medida Técnica Padrão-Ouro de Salvamento:**
-  * O acervo alagado deve ser imediatamente embalado em papel manteiga/siliconado e submetido ao **CONGELAMENTO RÁPIDO a temperaturas inferiores a $-18$ °C a $-20$ °C**.
+  * O acervo alagado deve ser imediatamente embalado em papel manteiga/siliconado e submetido ao **CONGELAMENTO RÁPIDO a temperaturas inferiores a -18 °C a -20 °C**.
   * O congelamento solidifica a água e **paralisa de forma imediata o crescimento biológico de mofo e a hidrólise**, conferindo à equipe técnica dias, semanas ou meses para planejar a secagem sem perda das coleções.
   * *Técnicas de Secagem Subsequentes:*
     * **Liofilização (*Freeze-Drying* / Sublimação):** Os livros congelados são colocados em câmara de vácuo onde a água congelada passa diretamente do estado sólido para o gasoso (sublimação), secando os livros sem deformar as folhas nem colar as páginas entre si.
@@ -8595,7 +8825,7 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Princípio da Reversibilidade
 
 **Assertiva:** "No âmbito da restauração de documentos gráficos e livros raros, o princípio da reversibilidade estabelece que qualquer substância, adesivo ou reforço introduzido no suporte documental deve poder ser desfeito a qualquer tempo sem provocar novas deteriorações à obra original."
@@ -8604,7 +8834,7 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 
 **Justificativa Canônica:** Correto! A reversibilidade é o mandamento ético fundamental da moderna ciência da conservação e restauração.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Materiais para Reparo de Rasgos
 
 **Assertiva:** "Para a consolidação de rasgos e preenchimento de perdas de suporte em manuscritos históricos, a prática laboratorial correta prescreve o uso de papel celofane com adesivo de contato instantâneo (cianoacrilato), devido à sua secagem rápida e alta transparência."
@@ -8613,7 +8843,7 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 
 **Justificativa Canônica:** Errado! Cianoacrilato (superbonder) e celofane são totalmente proibidos e destrutivos. Utilizam-se exclusivamente papéis japoneses de fibras longas (Kozo/Gampi) e colas naturais reversíveis de amido ou metilcelulose.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Congelamento em Sinistros de Alagamento de Acervos
 
 **Assertiva:** "Em situações de emergência causadas por grandes alagamentos de bibliotecas, o congelamento rápido de livros encharcados a temperaturas inferiores a -18°C é técnica válida para paralisar a proliferação biológica de fungos e retardar a degradação física até o processo de secagem controlada."
@@ -8625,15 +8855,16 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 
 # =====================================================================
 # M8: NORMALIZAÇÃO DOCUMENTAL E NORMAS DA ABNT
-*Série ABNT NBR 6023 (Referências), NBR 10520 (Citações - 2023), NBR 14724 (Trabalhos Acadêmicos), NBR 6028 (Resumos) e NBR 6034 (Índices)*
+*Série ABNT NBR 6023:2025 (Referências), NBR 10520:2023 (Citações), NBR 15287:2025 (Projetos de Pesquisa), NBR 14724 (Trabalhos Acadêmicos), NBR 6028:2021 (Resumos) e NBR 6034 (Índices)*
 
-Estudo minucioso e rigoroso da série de normas de informação e documentação da ABNT: NBR 6023 (elementos essenciais e complementares, destaques tipográficos e modelos por tipo de documento), a histórica revisão da NBR 10520:2023 com a extinção da caixa alta nos parênteses e formatação de citações curtas, longas e apud; a NBR 14724 (apresentação de trabalhos acadêmicos, ficha catalográfica no verso da folha de rosto, elementos pré, textuais e pós-textuais, regras de margens e a distinção canônica entre apêndice e anexo); a NBR 6028:2021 (resumos) conjugada com a NBR 6027 (sumário), NBR 6022 (artigos) e NBR 6034:2004 (índices), além de editoração digital (EPUB, PDF/A), infografia funcional (Cairo, Tufte) e acessibilidade de produtos informacionais.
+Estudo minucioso e rigoroso da série de normas de informação e documentação da ABNT: NBR 6023:2025 (elementos essenciais e complementares, destaques tipográficos e modelos por tipo de documento), NBR 15287:2025 (apresentação de projetos de pesquisa), a histórica revisão da NBR 10520:2023 com a extinção da caixa alta nos parênteses e formatação de citações curtas, longas e apud; a NBR 14724 (apresentação de trabalhos acadêmicos, ficha catalográfica no verso da folha de rosto, elementos pré, textuais e pós-textuais, regras de margens e a distinção canônica entre apêndice e anexo); a NBR 6028:2021 (resumos) conjugada com a NBR 6027 (sumário), NBR 6022 (artigos) e NBR 6034:2004 (índices), além de editoração digital (EPUB, PDF/A), infografia funcional (Cairo, Tufte) e acessibilidade de produtos informacionais.
 
 
 ---------------------------------------------------------------------
-## SUBMÓDULO 8.1: ABNT NBR 6023:2018 (com Emenda 1:2020): Referências Bibliográficas
-**Tempo Estimado:** 45 minutos
-**Descrição:** Norma ABNT NBR 6023:2018 (com Emenda 1:2020), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.
+<a id="submodulo-81"></a>
+## SUBMÓDULO 8.1: ABNT NBR 6023:2025 (3ª Edição): Referências Bibliográficas
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
+**Descrição:** Norma ABNT NBR 6023:2025 (3ª edição de 21.05.2025), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Associação Brasileira de Normas Técnicas (ABNT)
@@ -8642,9 +8873,9 @@ Estudo minucioso e rigoroso da série de normas de informação e documentação
 - Maria Luísa Leite Leão
 
 ### ALERTAS E ARMADILHAS DA BANCA CEBRASPE
-> ⚠️ **Alerta:** O destaque tipográfico na NBR 6023:2018: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.
+> ⚠️ **Alerta:** O destaque tipográfico na NBR 6023:2025: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.
 
-> ⚠️ **Alerta:** Regras de Autoria na NBR 6023:2018: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". O Cebraspe adora inventar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2018/Emenda 1:2020), é uma FACULDADE!
+> ⚠️ **Alerta:** Regras de Autoria na NBR 6023:2025: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". O Cebraspe adora inventar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2025), é uma FACULDADE!
 
 > ⚠️ **Alerta:** Em artigos de periódicos (revistas científicas), quem recebe o destaque tipográfico (negrito/itálico) é o TÍTULO DO PERIÓDICO, e JAMAIS o título do artigo!
 
@@ -8652,9 +8883,9 @@ Estudo minucioso e rigoroso da série de normas de informação e documentação
 
 > ⚠️ **Alerta:** Indicação de Edição: indica-se a partir da segunda edição, utilizando números arábicos seguidos de ponto e da abreviatura da palavra edição na língua do texto (ex.: "2. ed.", "3. ed. rev. e ampl."). A primeira edição NUNCA se indica.
 
-> ⚠️ **Alerta:** Alinhamento da Lista de Referências: conforme a NBR 6023:2018 e NBR 14724:2011, as referências devem ser alinhadas exclusivamente À MARGEM ESQUERDA do texto (não são justificadas), em espaçamento simples e separadas entre si por um espaço simples em branco.
+> ⚠️ **Alerta:** Alinhamento da Lista de Referências: conforme a NBR 6023:2025 e NBR 14724, as referências devem ser alinhadas exclusivamente À MARGEM ESQUERDA do texto (não são justificadas), em espaçamento simples e separadas entre si por um espaço simples em branco.
 
-### QUADRO COMPARATIVO: Elementos Essenciais para os Principais Tipos de Documentos na ABNT NBR 6023:2018
+### QUADRO COMPARATIVO: Elementos Essenciais para os Principais Tipos de Documentos na ABNT NBR 6023:2025
 
 | Tipo de Documento | Ordem dos Elementos Essenciais Obrigatórios | Exemplo Canônico Formatado | Pegadinha Cebraspe Mapeada |
 | --- | --- | --- | --- |
@@ -8666,9 +8897,9 @@ Estudo minucioso e rigoroso da série de normas de informação e documentação
 
 ### TEORIA DENSA E DOUTRINA INTEGRAL
 
-### 1. O Escopo e a Sistemática da ABNT NBR 6023:2018 (Emenda 1:2020)
+### 1. O Escopo e a Sistemática da ABNT NBR 6023:2025 (3ª Edição)
 
-A norma **ABNT NBR 6023:2018** (*Informação e Documentação — Referências — Elaboração*, com Emenda 1:2020) estabelece os requisitos exigíveis para a apresentação e padronização de referências destinadas a trabalhos acadêmicos, relatórios técnicos, artigos científicos, livros e documentos oficiais:
+A norma **ABNT NBR 6023:2025** (*Informação e Documentação — Referências — Elaboração*, 3ª edição, publicada em 21/05/2025) estabelece os requisitos exigíveis para a apresentação e padronização de referências destinadas a trabalhos acadêmicos, relatórios técnicos, artigos científicos, livros e documentos oficiais, consolidando e revogando a edição anterior (2018 com Emenda 1:2020):
 
 * **Conceito Canônico de Referência:** Conjunto padronizado de elementos descritivos estruturados, retirados diretamente de um documento consultado, que permite sua identificação individual unívoca e rastreabilidade por terceiros.
 * **Elementos Essenciais vs. Complementares:**
@@ -8770,7 +9001,7 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
   * Ex.: `Disponível em: https://www.camara.leg.br. Acesso em: 18 maio 2026.`
 * **Legislação e Atos Normativos Federais:**
   * Estrutura canônica:
-    $\text{JURISDIÇÃO. } \text{Tipo de Ato e Número, de dia mês ano. } \text{Ementa oficial. } \textbf{Veículo Oficial}, \text{ Local, data de publicação. Seção, páginas.}$
+    JURISDIÇÃO.  Tipo de Ato e Número, de dia mês ano.  Ementa oficial.  \textbf{Veículo Oficial},  Local, data de publicação. Seção, páginas.
   * Ex.: `BRASIL. Lei nº 14.133, de 1º de abril de 2021. Lei de Licitações e Contratos Administrativos. **Diário Oficial da União**, Brasília, Seção 1, p. 1, 1 abr. 2021.`
 
 ---
@@ -8781,10 +9012,10 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 
 #### Linha do Tempo e Marcos Históricos
 - **2002** (NBR 6023:2002): Versão histórica anterior que vigorou por 16 anos [Figura-Chave: ABNT / CB-014]
-- **2018 / 2020 / Atual** (NBR 6023 Atualizada): Revisão profunda da NBR 6023: novos formatos digitais, flexibilização de quatro ou mais autores e alinhamento à margem esquerda [Figura-Chave: Comitê Brasileiro de Documentação (CB-014)]
+- **2025 (Vigente)** (NBR 6023:2025 (3ª Edição)): Publicação da 3ª edição da NBR 6023 em 21.05.2025: consolidação de formatos digitais, flexibilização de quatro ou mais autores e alinhamento à margem esquerda [Figura-Chave: Comitê Brasileiro de Documentação (CB-014)]
 
 #### "Quem é Quem" — Cartões de Autores Canônicos
-- **ABNT / CB-014** (2018): Obra: *ABNT NBR 6023: Informação e documentação — Referências — Elaboração* | Ideia-Chave: Padronização nacional de elementos essenciais e complementares para listas de referências bibliográficas. | ⚠️ Pegadinha: A NBR 6023 regula as referências no final do texto; quem regula as citações no corpo é a NBR 10520.
+- **ABNT / CB-014** (2025): Obra: *ABNT NBR 6023:2025: Informação e documentação — Referências — Elaboração (3ª Edição)* | Ideia-Chave: Padronização nacional de elementos essenciais e complementares para listas de referências bibliográficas. | ⚠️ Pegadinha: A NBR 6023 regula as referências no final do texto; quem regula as citações no corpo é a NBR 10520.
 - **Antonio Agenor Briquet de Lemos** (2000): Obra: *Para uma história da normalização bibliográfica no Brasil* | Ideia-Chave: Pioneirismo na transposição das normas da ISO (ISO 690) para o sistema normativo brasileiro. | ⚠️ Pegadinha: A NBR 6023 adota a lógica internacional da ISO 690 adaptada à prática bibliotecária brasileira.
 
 #### Pegadinhas Típicas da Banca Cebraspe
@@ -8799,7 +9030,7 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Destaque Tipográfico na NBR 6023
 
 **Assertiva:** "Na elaboração de referências conforme a norma ABNT NBR 6023, o título e o subtítulo da obra devem receber o mesmo destaque tipográfico, podendo ser empregado o itálico, o negrito ou aspas duplas."
@@ -8808,7 +9039,7 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 
 **Justificativa Canônica:** Errado! O subtítulo NUNCA recebe destaque tipográfico (permanece em fonte redonda). Além disso, aspas duplas são expressamente proibidas para destacar títulos de livros na NBR 6023.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Indicação de Mês na NBR 6023
 
 **Assertiva:** "Ao se referenciar um documento acessado em sítio da Internet segundo a ABNT NBR 6023, todos os meses do ano devem ser abreviados pelas suas três primeiras letras seguidas de ponto, excetuando-se apenas o mês de maio, que deve ser grafado por extenso."
@@ -8817,7 +9048,7 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 
 **Justificativa Canônica:** Correto! Essa é uma das regras mais minuciosas da ABNT: maio não se abrevia.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: ABNT NBR 6023 e Autoria Institucional
 
 **Assertiva:** "De acordo com a norma ABNT NBR 6023, publicações de órgãos governamentais de administração direta devem ter sua entrada de autoria realizada pelo nome do órgão subordinado, omitindo-se a jurisdição geográfica correspondente."
@@ -8828,8 +9059,9 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-82"></a>
 ## SUBMÓDULO 8.2: ABNT NBR 10520: Citações em Documentos (Versão 2023)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A histórica atualização da ABNT NBR 10520:2023, o fim da caixa alta obrigatória entre parênteses, citação direta curta (até 3 linhas entre aspas) vs. longa (recuo de 4 cm, sem aspas e entrelinha simples), citação indireta, citação de citação (apud) e expressões latinas.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -8928,7 +9160,7 @@ TITLE: Modalidades de Citação e Regras Tipográficas (ABNT NBR 10520:2023)
 * Utilizada quando o pesquisador não teve acesso físico ou digital ao documento original, citando-o por intermédio de outro autor que o transcreveu em sua obra:
 * A expressão latina **apud** significa "junto a", "em", "citado por" (grafa-se em fonte redonda ou itálica).
 * Formato Canônico:
-  $\text{Autor da Ideia Original (Ano original } \textbf{apud} \text{ Autor Consultado, Ano consultado, página)}$
+  Autor da Ideia Original (Ano original  \textbf{apud}  Autor Consultado, Ano consultado, página)
   * Ex.: Segundo Otlet (1934 *apud* Briet, 1951, p. 7), o documento abrange múltiplos suportes informacionais.
 * **Regra Crítica das Referências Finais:** Na lista de referências ao término do trabalho acadêmico ou relatório técnico, **deve constar obrigatoriamente a referência completa da obra efetivamente consultada** (no exemplo, Briet, 1951). Faculta-se mencionar a obra original em nota de rodapé informativa.
 
@@ -8990,7 +9222,7 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: A Nova NBR 10520:2023 e Grafia de Autores
 
 **Assertiva:** "Na versão atualizada da ABNT NBR 10520:2023, o sobrenome do autor indicado dentro de parênteses no sistema autor-data deve ser grafado em letras maiúsculas e minúsculas, não sendo mais exigida a antiga caixa alta integral."
@@ -8999,7 +9231,7 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 
 **Justificativa Canônica:** Correto! A norma de 2023 eliminou expressamente a obrigatoriedade da caixa alta entre parênteses, adotando maiúsculas e minúsculas uniformes.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Formatação da Citação Direta Longa
 
 **Assertiva:** "Em trabalhos acadêmicos estruturados pelas normas da ABNT, as citações diretas com mais de três linhas devem ser apresentadas com recuo de 4 cm da margem esquerda, espaçamento simples, tamanho de fonte menor e delimitadas por aspas duplas."
@@ -9008,7 +9240,7 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 
 **Justificativa Canônica:** Errado! Citações diretas longas com mais de três linhas NÃO LEVAM ASPAS em nenhuma hipótese. O próprio recuo de 4 cm e a fonte menor já indicam a citação.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Citações Diretas Longas conforme a ABNT NBR 10520
 
 **Assertiva:** "Conforme a ABNT NBR 10520, citações diretas com mais de três linhas devem ser destacadas com recuo de 4 cm da margem esquerda, com fonte em tamanho menor que o do texto principal e sem aspas."
@@ -9019,8 +9251,9 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-83"></a>
 ## SUBMÓDULO 8.3: ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2011 (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -9125,7 +9358,7 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 ### 4. Regras Gráficas de Formatação, Margens e Paginação
 
 * **Formato e Margens (Impressão no Anverso / Frente da Folha):**
-  * Papel branco formato A4 ($210 \times 297$ mm).
+  * Papel branco formato A4 (210 × 297 mm).
   * **Margem Superior = 3,0 cm**
   * **Margem Esquerda = 3,0 cm** (espaço ampliado para permitir encadernação e furação)
   * **Margem Inferior = 2,0 cm**
@@ -9190,7 +9423,7 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Diferença entre Apêndice e Anexo na NBR 14724
 
 **Assertiva:** "Nos termos da ABNT NBR 14724, denomina-se anexo o documento complementar elaborado pelo próprio autor da monografia, enquanto apêndice designa o documento de autoria de terceiros incluído para comprovação."
@@ -9199,7 +9432,7 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 
 **Justificativa Canônica:** Errado! O Cebraspe inverteu os conceitos: APÊNDICE é o documento elaborado pelo PRÓPRIO AUTOR; ANEXO é o documento de autoria de TERCEIROS.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Regra de Paginação de Trabalhos Acadêmicos
 
 **Assertiva:** "Conforme a NBR 14724, todas as folhas do trabalho acadêmico a partir da folha de rosto são contadas, porém a numeração só deve figurar impressa a partir da primeira folha da parte textual."
@@ -9208,7 +9441,7 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 
 **Justificativa Canônica:** Correto! A contagem começa na folha de rosto, mas a impressão dos números em algarismos arábicos ocorre apenas na introdução.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Estrutura do Sumário conforme ABNT NBR 6027
 
 **Assertiva:** "Segundo a ABNT NBR 6027, os elementos pré-textuais, como a dedicatória, o agradecimento e a lista de abreviaturas, devem constar obrigatoriamente no sumário do trabalho acadêmico."
@@ -9219,8 +9452,9 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-84"></a>
 ## SUBMÓDULO 8.4: ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Tipologia de resumos (indicativo, informativo e crítico/resenha), regras de redação da NBR 6028:2021 (parágrafo único, voz ativa e contagem de palavras), diferença entre Sumário (NBR 6027:2012) e Índice (NBR 6034:2004), estrutura de artigos (NBR 6022:2018) e a sintaxe do DOI.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -9329,7 +9563,7 @@ O **Digital Object Identifier (DOI)**, administrado pela *International DOI Foun
 * **A Sintaxe Padronizada do DOI:**
   O identificador é alfanumérico e divide-se em duas partes estritas separadas por uma **barra oblíqua (`/`)**:
 
-$\underbrace{10.1000}_{\text{Prefixo}} \; / \; \underbrace{182.v2n1.art5}_{\text{Sufixo}}$
+\underbrace{10.1000}_{Prefixo} \; / \; \underbrace{182.v2n1.art5}_{Sufixo}
 
 1. **Prefixo:** Inicia obrigatoriamente pelos caracteres numéricos `10.`, seguidos pelo código da autoridade nomeadora (editora comercial, universidade ou agência depositária registrada junto à Crossref, DataCite ou mEDRA).
 2. **Sufixo:** Sequência livre atribuída pela própria instituição publicadora para identificar unicamente o artigo, tese, relatório ou capítulo dentro de seu catálogo.
@@ -9362,7 +9596,7 @@ $\underbrace{10.1000}_{\text{Prefixo}} \; / \; \underbrace{182.v2n1.art5}_{\text
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Resumo Informativo vs. Indicativo
 
 **Assertiva:** "De acordo com a ABNT NBR 6028:2021, o resumo informativo tem por finalidade apenas apontar os tópicos gerais de um trabalho sem discorrer sobre metodologia e resultados, não podendo em hipótese alguma dispensar a leitura do documento original."
@@ -9371,7 +9605,7 @@ $\underbrace{10.1000}_{\text{Prefixo}} \; / \; \underbrace{182.v2n1.art5}_{\text
 
 **Justificativa Canônica:** Errado! O item descreve o Resumo INDICATIVO. O Resumo INFORMATIVO inclui finalidades, metodologia, resultados e conclusões, dispensando a leitura do original.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença entre Sumário e Índice
 
 **Assertiva:** "Nos termos das normas técnicas brasileiras de documentação, enquanto o sumário enumera as divisões do trabalho na ordem cronológica de sua ocorrência no texto, o índice é organizado alfabeticamente ou sistematicamente para localização de termos e autores."
@@ -9380,7 +9614,7 @@ $\underbrace{10.1000}_{\text{Prefixo}} \; / \; \underbrace{182.v2n1.art5}_{\text
 
 **Justificativa Canônica:** Correto! O sumário segue a ordem física de sucessão dos capítulos; o índice é ordenado alfabética ou tematicamente no final da obra.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Estrutura do Identificador de Objeto Digital (DOI)
 
 **Assertiva:** "Um número DOI (Digital Object Identifier) é composto por duas partes separadas por uma barra oblíqua: o prefixo, que identifica a autoridade nomeadora, e o sufixo, que identifica o objeto específico."
@@ -9391,8 +9625,9 @@ $\underbrace{10.1000}_{\text{Prefixo}} \; / \; \underbrace{182.v2n1.art5}_{\text
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-85"></a>
 ## SUBMÓDULO 8.5: Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Elaboração da ficha catalográfica (ABNT NBR 14724:2011 e CIP); índices e instrumentos auxiliares (ABNT NBR 6034:2004); formatos digitais de editoração (EPUB, PDF/A); infografia funcional (Alberto Cairo, Edward Tufte) e acessibilidade de produtos informacionais.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -9437,7 +9672,7 @@ A editoração de publicações institucionais, relatórios técnicos, livros do
 A **ABNT NBR 14724:2011** (*Informação e documentação — Trabalhos acadêmicos — Apresentação*) disciplina rigorosamente a disposição da ficha:
 1. **Classificação Estrutural:** É um **elemento pré-textual OBRIGATÓRIO**.
 2. **Localização Exata:** Deve figurar impressa no **VERSO da folha de rosto**, ocupando preferencialmente a **metade inferior** da página.
-3. **Enquadramento Físico:** É apresentada tradicionalmente circunscrita em um retângulo de dimensões aproximadas de $12{,}5 \text{ cm} \times 7{,}5 \text{ cm}$ (dimensão física padrão da histórica ficha catalográfica impressa internacional de 3x5 polegadas).
+3. **Enquadramento Físico:** É apresentada tradicionalmente circunscrita em um retângulo de dimensões aproximadas de 12{,}5  cm × 7{,}5  cm (dimensão física padrão da histórica ficha catalográfica impressa internacional de 3x5 polegadas).
 4. **Elementos Canônicos Obrigatórios:**
    * Notação de autor (Cutter-Sanborn ou PHA) no canto superior esquerdo;
    * Entrada principal (autor pessoal ou entidade) em conformidade com o código de catalogação (AACR2 ou RDA);
@@ -9519,11 +9754,11 @@ O jornalista e designer espanhol Alberto Cairo, referência mundial em visualiza
 #### B. Edward Tufte e o *Data-Ink Ratio*
 Edward Tufte (*The Visual Display of Quantitative Information*, 1983) estabeleceu postulados canônicos de excelência gráfica:
 * **Maximização da Taxa Tinta-Dado (*Data-Ink Ratio*):**
-  $\text{Data-Ink Ratio} = \frac{\text{Tinta usada para exibir dados informativos}}{\text{Tinta total utilizada para imprimir o gráfico}}$
+  Data-Ink Ratio = \frac{Tinta usada para exibir dados informativos}{Tinta total utilizada para imprimir o gráfico}
   O designer deve maximizar essa fração, eliminando todo e qualquer traço que não represente dados reais.
 * **Eliminação de *Chartjunk* (Lixo Gráfico):** Elementos decorativos inúteis, tais como grades densas de fundo, texturas ópticas vibrantes, sombras artificiais e ilustrações redundantes devem ser eliminados sem hesitação.
 * **Fator de Distorção (*Lie Factor*):** Mede a fidelidade matemática do gráfico:
-  $\text{Lie Factor} = \frac{\text{Tamanho do efeito exibido no gráfico}}{\text{Tamanho do efeito real nos dados}}$
+  Lie Factor = \frac{Tamanho do efeito exibido no gráfico}{Tamanho do efeito real nos dados}
   Se o fator for significativamente diferente de 1, o gráfico está enganando o leitor.
 
 ---
@@ -9572,7 +9807,7 @@ O padrão internacional **PDF/UA (ISO 14289-1)** define os requisitos técnicos 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Localização da Ficha Catalográfica segundo a NBR 14724:2011
 
 **Assertiva:** "Em trabalhos acadêmicos e monografias formatados segundo a ABNT NBR 14724:2011, a ficha catalográfica constitui elemento pré-textual obrigatório e deve figurar impressa no verso da folha de rosto, em sua metade inferior."
@@ -9581,7 +9816,7 @@ O padrão internacional **PDF/UA (ISO 14289-1)** define os requisitos técnicos 
 
 **Justificativa Canônica:** Correto! Conforme o item 4.1.5 da ABNT NBR 14724:2011, a ficha catalográfica (elaborada em conformidade com o código de catalogação vigente por bibliotecário registrado no CRB) deve constar obrigatoriamente no VERSO da folha de rosto, ocupando a sua metade inferior.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença Estrutural entre Índice e Sumário
 
 **Assertiva:** "Segundo as normas da ABNT, o sumário (NBR 6027:2012) e o índice (NBR 6034:2004) constituem elementos pré-textuais obrigatórios que ordenam alfabeticamente os termos e assuntos abordados no corpo do documento."
@@ -9590,7 +9825,7 @@ O padrão internacional **PDF/UA (ISO 14289-1)** define os requisitos técnicos 
 
 **Justificativa Canônica:** Errado! O sumário (NBR 6027) é elemento PRÉ-TEXTUAL OBRIGATÓRIO que enumera as divisões na EXATA ORDEM sequencial em que aparecem no texto; já o índice (NBR 6034) é elemento PÓS-TEXTUAL OPCIONAL que organiza termos de forma alfabética, cronológica ou sistemática com remissão pontual às páginas.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Teoria da Infografia Funcional e Preservação em PDF/A (Caso)
 
 **Assertiva:** "Ao planejar a publicação digital acessível de um relatório orçamentário da Câmara dos Deputados contendo infográficos complexos, o bibliotecário deve adotar a perspectiva da infografia funcional de Alberto Cairo — na qual a visualização atua como ferramenta cognitiva submetida à clareza factual — e selecionar o padrão PDF/A (ISO 19005), o qual veda criptografia e scripts externos e exige a incorporação integral de fontes e metadados XMP."
@@ -9608,8 +9843,9 @@ Estudo aprofundado dos ecossistemas de produção e circulação do saber cient�
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-91"></a>
 ## SUBMÓDULO 9.1: Ciclo da Comunicação Científica, Canais e Avaliação por Pares
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O fluxo e ciclo da comunicação científica (A. J. Meadows e Garvey-Griffith), distinção entre canais formais e informais, os colégios invisíveis (Derek de Solla Price), as 4 normas mertonianas (CUDOS), preprints e modalidades de avaliação por pares.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -9646,7 +9882,8 @@ Estudo aprofundado dos ecossistemas de produção e circulação do saber cient�
 
 A Ciência da Informação contemporânea apoia-se nas formulações de **Arthur Jack Meadows** (*A Comunicação Científica*, 1999) e **John Ziman** (*Conhecimento Público*, 1979) para definir o caráter indissociável entre ciência e comunicação:
 
-> *"Uma pesquisa científica só se completa verdadeiramente quando os seus resultados são comunicados, validados criticamente pela comunidade e incorporados ao patrimônio do saber público registrado."* — A. J. Meadows
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Doutrinária (A. J. Meadows, 1999):** Conforme leciona Arthur Jack Meadows (1999), o ciclo de uma investigação científica só se encerra plenamente quando seus achados são socializados, submetidos ao escrutínio crítico dos pares e incorporados ao corpo do conhecimento público consolidado.
 
 * **O Princípio do Conhecimento Público:** Uma descoberta mantida em segredo no laboratório não possui valor científico social. A ciência é um processo coletivo de consenso racional decorrente da crítica interpares.
 * **O Ethos Científico de Robert K. Merton (As Quatro Normas CUDOS - 1942):**
@@ -9747,7 +9984,7 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Os Colégios Invisíveis de Solla Price
 
 **Assertiva:** "No âmbito da comunicação científica, a teoria dos colégios invisíveis descreve redes de trabalho científico compostas por pesquisadores que se isolam institucionalmente e que não se comunicam entre si."
@@ -9756,7 +9993,7 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 
 **Justificativa Canônica:** Errado! Essa é uma casca de banana clássica do Cebraspe (SUFRAMA). Os colégios invisíveis são exatamente o OPOSTO: redes intensas e ágeis de comunicação informal direta e compartilhamento entre cientistas.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Canais Formais da Ciência
 
 **Assertiva:** "Os canais formais da comunicação científica, exemplificados pelos periódicos científicos arbitrados, caracterizam-se por propiciar o registro público permanente, a ampla visibilidade e o controle bibliográfico da produção científica."
@@ -9765,7 +10002,7 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 
 **Justificativa Canônica:** Correto! Os canais formais garantem o rigor, o controle de qualidade por pares e a preservação duradoura na memória científica mundial.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Canais Formais vs Informais de Garvey-Griffith
 
 **Assertiva:** "No modelo de comunicação científica de Garvey e Griffith, os artigos publicados em periódicos científicos indexados com revisão por pares enquadram-se na categoria de canais informais de comunicação."
@@ -9776,8 +10013,9 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-92"></a>
 ## SUBMÓDULO 9.2: Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A crise dos periódicos, as 3 declarações fundacionais (Budapest, Bethesda, Berlin), as vias do Acesso Aberto (Dourada, Verde, Diamante, Híbrida e Bronze), licenças Creative Commons e os Princípios FAIR (Findable, Accessible, Interoperable, Reusable).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -9927,7 +10165,7 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Os Princípios FAIR e a Abertura de Dados
 
 **Assertiva:** "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser compulsoriamente aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou necessidade de autenticação."
@@ -9936,7 +10174,7 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 
 **Justificativa Canônica:** Errado! O Cebraspe cobrou esse item na UNEAL 2026. Os princípios FAIR orientam que os dados sejam "tão abertos quanto possível, tão fechados quanto necessário", permitindo controle de acesso e autenticação para dados sigilosos ou sensíveis.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: As Vias Verde e Dourada do Acesso Aberto
 
 **Assertiva:** "A Via Verde do acesso aberto caracteriza-se pela publicação direta em revistas científicas de acesso irrestrito mediante pagamento de APC, enquanto a Via Dourada baseia-se no autoarquivamento de artigos em repositórios institucionais."
@@ -9945,7 +10183,7 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 
 **Justificativa Canônica:** Errado! O item inverteu as definições: a Via Dourada é a publicação direta em periódicos abertos; a Via Verde é o autoarquivamento em repositórios institucionais.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Lei de Lotka sobre Produtividade de Autores
 
 **Assertiva:** "A Lei do Quadrado Inverso de Lotka demonstra que a proporção de autores que publicam apenas um único trabalho em um determinado campo científico é de aproximadamente 60% do total de autores."
@@ -9956,8 +10194,9 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-93"></a>
 ## SUBMÓDULO 9.3: Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Ciclo de vida dos dados de pesquisa e Planos de Gestão de Dados (PGD), curadoria digital (DCC), a Lei de Direitos Autorais brasileira (Lei 9.610/98: direitos morais vs. patrimoniais e limitações), o sistema Creative Commons e métricas de impacto editorial (JCR/Garfield).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -10033,9 +10272,10 @@ O **Plano de Gestão de Dados (PGD)** é o documento formal, dinâmico e prospec
 
 ### 2. Curadoria Digital e o Modelo do *Digital Curation Centre (DCC)*
 
-A **Curadoria Digital** transcende a preservação digital técnica e o arquivamento passivo. Segundo a definição canônica do *Digital Curation Centre* (Reino Unido) e de Luís Fernando Sayão e Luana Farias Sales (2014):
+A **Curadoria Digital** transcende a preservação digital técnica e o arquivamento passivo. Na linha do *Digital Curation Centre* (Reino Unido) e dos estudos de Luís Fernando Sayão e Luana Farias Sales (2014):
 
-> *"A Curadoria Digital é a seleção, preservação, manutenção, agregação de valor e disponibilização continuada de ativos digitais ao longo de todo o seu ciclo de vida, com o propósito de mitigar a obsolescência tecnológica, atestar sua proveniência e permitir seu reúso futuro e confiável."*
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Conceituação Doutrinária (DCC; Sayão & Sales, 2014):** Segundo as formulações do Digital Curation Centre e de Sayão & Sales (2014), a Curadoria Digital consiste na gestão ativa, seleção, preservação continuada, enriquecimento com metadados e agregação de valor aos ativos digitais durante todo o seu ciclo vital, prevenindo a degradação e a obsolescência para assegurar a autenticidade e o reúso legítimo no longo prazo.
 
 ```timeline
 C1 | 1. Conceber (Conceptualise) | Planejamento Inicial | Definir métodos de captura, requisitos de dados e formatos de preservação no Plano de Gestão de Dados (PGD)
@@ -10126,7 +10366,7 @@ TITLE: Estrutura dos Direitos Autorais na Lei Federal nº 9.610/1998
 Decorrido o prazo de 70 anos do falecimento do autor (ou do último coautor), a obra ingressa no **Domínio Público**. Também pertencem ao domínio público as obras de autores falecidos sem deixar sucessores e as obras de autores desconhecidos.
 * *Atenção Cebraspe:* A entrada no domínio público extingue apenas os direitos patrimoniais (qualquer pessoa pode imprimir, traduzir ou vender a obra sem pagar direitos autorais). No entanto, os **direitos morais permanecem eternos** (é mandatório creditar a autoria original de Machado de Assis ou Shakespeare e preservar a integridade do texto!).
 
-#### D. Limitações aos Direitos Autorais na Lei nº 9.610/1998 (Arts. 46 a 48 — Exceções Legais de Uso Livre)
+### 4. Limitações aos Direitos Autorais na Lei nº 9.610/1998 Constituem Rol Taxativo (Numerus Clausus)
 
 O sistema jurídico brasileiro adota o modelo de **rol taxativo (numerus clausus)** de exceções aos direitos autorais. O Brasil **não adota** a doutrina aberta norte-americana do *fair use* (uso razoável). Portanto, somente as condutas expressamente tipificadas nos artigos 46 a 48 da Lei nº 9.610/1998 dispensam a autorização prévia e o pagamento de retribuição ao titular:
 
@@ -10201,7 +10441,7 @@ Para avaliar o prestígio e o impacto de periódicos científicos que publicam d
 #### A. Fator de Impacto (*Impact Factor - IF*) de Eugene Garfield
 Desenvolvido na década de 1960 pelo fundador do *Institute for Scientific Information (ISI)*, **Eugene Garfield**, e publicado no relatório anual **Journal Citation Reports (JCR)** (atualmente mantido pela Clarivate Analytics integrado à plataforma Web of Science):
 
-$	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a artigos publicados nos Anos } (A-1) 	ext{ e } (A-2)}{	ext{Número de itens citáveis publicados nos Anos } (A-1) 	ext{ e } (A-2)}$
+FI_{Ano  A} = \frac{Citações recebidas no Ano  A  a artigos publicados nos Anos  (A-1)  e  (A-2)}{Número de itens citáveis publicados nos Anos  (A-1)  e  (A-2)}
 
 * **A Distorção dos "Itens Citáveis" (*Citable Items* — Pegadinha de Ouro Cebraspe):**
   * O denominador computa estritamente **artigos de pesquisa originais e artigos de revisão**;
@@ -10242,7 +10482,7 @@ $	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a art
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Conceito de Curadoria Digital
 
 **Assertiva:** "A curadoria digital pode ser corretamente definida como o processo dinâmico que compreende a seleção, a preservação, a manutenção, a agregação de valor e o arquivamento de ativos digitais ao longo de seu ciclo de vida para viabilizar seu reúso futuro."
@@ -10251,7 +10491,7 @@ $	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a art
 
 **Justificativa Canônica:** Correto! Essa definição canônica do Digital Curation Centre (DCC) foi cobrada literalmente pelo Cebraspe em provas recentes (STJ 2024 e EMBRAPA 2025).
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Limitações aos Direitos Autorais em Bibliotecas (Lei nº 9.610/1998)
 
 **Assertiva:** "Nos termos da Lei nº 9.610/1998, é lícito a uma biblioteca pública realizar a reprodução fotocopiada ou digital integral de livros protegidos por direitos autorais para empréstimo aos seus usuários, desde que a instituição não persiga intuito de lucro."
@@ -10260,7 +10500,7 @@ $	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a art
 
 **Justificativa Canônica:** Errado! Conforme a Lei nº 9.610/1998 (art. 29, I, e art. 46, II) e a jurisprudência pacificada do STJ (Súmula 522/STJ), a ausência de intuito de lucro não autoriza a reprodução integral de obras protegidas. A limitação legal do art. 46, II, restringe-se estritamente à cópia em um só exemplar de pequenos trechos para uso privado do copista.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Fator de Impacto e Autocitações de Periódicos
 
 **Assertiva:** "O Fator de Impacto de uma revista científica, calculado pelo Journal Citation Reports (JCR), expressa a razão entre as citações recebidas no ano de referência e o número de artigos citáveis publicados nos dois anos precedentes."
@@ -10271,8 +10511,9 @@ $	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a art
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-94"></a>
 ## SUBMÓDULO 9.4: Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore, Índice h), acoplamento bibliográfico, cocitação, redes de coautoria, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -10308,9 +10549,9 @@ $	ext{FI}_{	ext{Ano } A} = rac{	ext{Citações recebidas no Ano } A 	ext{ a art
 
 | Lei Bibliométrica | Objeto de Mensuração | Fórmula / Proporção Matemática | Aplicação Prática no Parlamento e em Concursos |
 | --- | --- | --- | --- |
-| Lei de Bradford (1934) | Periódicos científicos e dispersão de artigos sobre um assunto | Núcleo e zonas sucessivas na proporção $1 : n : n^2$ | Seleção, aquisição racional e desbaste de coleções: identifica o núcleo de periódicos essenciais |
-| Lei de Lotka (1926) | Produtividade científica de autores/pesquisadores | Regra do quadrado inverso: $A_n = A_1 / n^2$ | Identificação de pesquisadores líderes e avaliação de programas de pós-graduação |
-| Lei de Zipf (1949) | Frequência de ocorrência de palavras em textos | Produto constante do ranking pela frequência: $r \times f = C$ | Indexação automática e mineração de textos: identificação da zona de palavras com valor semântico |
+| Lei de Bradford (1934) | Periódicos científicos e dispersão de artigos sobre um assunto | Núcleo e zonas sucessivas na proporção 1 : n : n^2 | Seleção, aquisição racional e desbaste de coleções: identifica o núcleo de periódicos essenciais |
+| Lei de Lotka (1926) | Produtividade científica de autores/pesquisadores | Regra do quadrado inverso: A_n = A_1 / n^2 | Identificação de pesquisadores líderes e avaliação de programas de pós-graduação |
+| Lei de Zipf (1949) | Frequência de ocorrência de palavras em textos | Produto constante do ranking pela frequência: r × f = C | Indexação automática e mineração de textos: identificação da zona de palavras com valor semântico |
 
 ### TEORIA DENSA E DOUTRINA INTEGRAL
 
@@ -10341,8 +10582,8 @@ TITLE: Disciplinas Métricas da Informação e Suas Fronteiras
 Samuel Clement Bradford estudou a distribuição de artigos sobre tópicos específicos (como geofísica aplicada e lubrificação) em milhares de revistas:
 * **Enunciado Teórico:** Se periódicos científicos forem ordenados em ordem decrescente de sua produtividade de artigos sobre determinado assunto, eles podem ser divididos em um **núcleo (*core*)** de periódicos altamente dedicados ao tema e várias **zonas sucessivas**, contendo cada zona o **mesmo número total de artigos** que o núcleo.
 * **Proporção Geométrica de Bradford:** O número de títulos de periódicos no núcleo e nas zonas subsequentes cresce em progressão geométrica:
-  $1 : n : n^2 : n^3 \dots$
-  Onde $1$ representa a quantidade de revistas no núcleo central, e $n$ é o multiplicador constante de Bradford.
+  1 : n : n^2 : n^3 \dots
+  Onde 1 representa a quantidade de revistas no núcleo central, e n é o multiplicador constante de Bradford.
 
 ```timeline
 Z1 | Núcleo Central (Core) | Proporção: 1 | Poucos títulos de periódicos altamente especializados que concentram 1/3 do total de artigos da área
@@ -10357,18 +10598,18 @@ Z3 | Zona 3: Periferia Dispersa | Proporção: 1 × n² | Grande massa de perió
 
 #### B. Lei de Lotka (1926) — Produtividade de Autores
 Alfred J. Lotka investigou a distribuição de publicações na área da física e da química no século XIX:
-* **Enunciado Teórico (Regra do Quadrado Inverso):** O número de autores que publicam $n$ artigos em um determinado campo do saber é inversamente proporcional a $n^2$:
-  $A_n = \frac{A_1}{n^2}$
-  Onde $A_n$ é o número de autores que publicam $n$ artigos, e $A_1$ é o número de autores que publicam apenas 1 artigo.
+* **Enunciado Teórico (Regra do Quadrado Inverso):** O número de autores que publicam n artigos em um determinado campo do saber é inversamente proporcional a n^2:
+  A_n = (A_1 / n^2)
+  Onde A_n é o número de autores que publicam n artigos, e A_1 é o número de autores que publicam apenas 1 artigo.
 * **Consequência Empírica:**
-  * Aproximadamente **60% dos autores produzem um único artigo** em toda a sua trajetória científica ($A_1 \approx 0{,}60$ do total);
-  * O número de autores que publicam 2 artigos é de cerca de $1/4$ ($25%$) de $A_1$;
+  * Aproximadamente **60% dos autores produzem um único artigo** em toda a sua trajetória científica (A_1 ≈ 0{,}60 do total);
+  * O número de autores que publicam 2 artigos é de cerca de 1/4 (25%) de A_1;
   * Apenas uma pequena fração de cientistas de elite (em torno de 5% a 6%) é hiperprodutiva e responde pela vasta maioria da literatura científica da disciplina.
 
 #### C. Lei de Zipf (1949) — Princípio do Menor Esforço e Frequência de Palavras
 O linguista norte-americano George Kingsley Zipf analisou obras em linguagem natural (como o romance *Ulysses* de James Joyce):
-* **Primeira Lei de Zipf (Lei do Menor Esforço):** Se as palavras distintas de um texto longo forem ordenadas em ordem decrescente de sua frequência absoluta ($f$), o produto da ordem no ranking ($r$) pela frequência ($f$) é aproximadamente constante ($C$):
-  $r \times f = C$
+* **Primeira Lei de Zipf (Lei do Menor Esforço):** Se as palavras distintas de um texto longo forem ordenadas em ordem decrescente de sua frequência absoluta (f), o produto da ordem no ranking (r) pela frequência (f) é aproximadamente constante (C):
+  r × f = C
 * **Ponto de Transição de Goffman e Zona de Indexação (H. P. Luhn e F. W. Lancaster):**
 
 ```timeline
@@ -10387,13 +10628,13 @@ ZBASE | 3. Baixa Frequência (Base) | Hapax Legomena | Palavras raras de ocorrê
 
 #### A. Fator de Impacto (*Journal Impact Factor - JIF*) de Eugene Garfield
 Calculado anualmente pelo **Journal Citation Reports (JCR)** no âmbito da Web of Science (Clarivate Analytics):
-$\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{ por itens publicados nos Anos } (A-1) \text{ e } (A-2)}{\text{Número total de itens citáveis publicados nos Anos } (A-1) \text{ e } (A-2)}$
+FI_{Ano  A} = \frac{Citações recebidas no Ano  A  por itens publicados nos Anos  (A-1)  e  (A-2)}{Número total de itens citáveis publicados nos Anos  (A-1)  e  (A-2)}
 
 * **Pegadinha Crucial Cebraspe sobre os "Itens Citáveis":**
   * O denominador computa apenas **artigos originais de pesquisa e artigos de revisão** (*citable items*);
   * Cartas ao editor, notas, resenhas de livros, erratas e editoriais **são excluídos do denominador**;
   * No entanto, se um editorial ou carta receber citações de outros trabalhos, essas citações entram normalmente no **numerador**! Essa assimetria histórica permite distorções e manipulações artificiais do FI por comitês editoriais.
-* **Índice de Imediatismo (*Immediacy Index*):** Mede a velocidade com que os artigos de uma revista são citados logo após serem publicados. Divide as citações recebidas no próprio ano $A$ pelos artigos publicados no mesmo ano $A$.
+* **Índice de Imediatismo (*Immediacy Index*):** Mede a velocidade com que os artigos de uma revista são citados logo após serem publicados. Divide as citações recebidas no próprio ano A pelos artigos publicados no mesmo ano A.
 
 #### B. Métricas do Ecossistema Scopus (Elsevier)
 * **CiteScore:** Métrica da base Scopus que utiliza uma **janela de citação de 4 anos** (em vez de 2 anos como o JCR).
@@ -10402,16 +10643,16 @@ $\text{FI}_{\text{Ano } A} = \frac{\text{Citações recebidas no Ano } A \text{ 
 
 #### C. O Índice h de Jorge Hirsch (2005)
 Formulado pelo físico argentino Jorge E. Hirsch para mensurar a produtividade e o impacto acumulado de um pesquisador individual:
-* **Definição Canônica:** Um cientista tem índice $h$ se $h$ de seus $N$ artigos publicados receberam pelo menos $h$ citações cada um, e os demais $(N - h)$ artigos receberam no máximo $h$ citações cada um.
+* **Definição Canônica:** Um cientista tem índice h se h de seus N artigos publicados receberam pelo menos h citações cada um, e os demais (N - h) artigos receberam no máximo h citações cada um.
 * **Exemplo Prático de Ordenação para Provas:**
   Organizam-se os artigos em ordem decrescente de citações:
-  * Artigo 1: 52 citações $\ge 1$
-  * Artigo 2: 38 citações $\ge 2$
-  * Artigo 3: 20 citações $\ge 3$
-  * Artigo 4: 15 citações $\ge 4$
-  * Artigo 5: 8 citações $\ge 5$
-  * Artigo 6: 6 citações $\ge 6$
-  * Artigo 7: 4 citações $< 7$ (Interrupção!)
+  * Artigo 1: 52 citações ≥ 1
+  * Artigo 2: 38 citações ≥ 2
+  * Artigo 3: 20 citações ≥ 3
+  * Artigo 4: 15 citações ≥ 4
+  * Artigo 5: 8 citações ≥ 5
+  * Artigo 6: 6 citações ≥ 6
+  * Artigo 7: 4 citações < 7 (Interrupção!)
   * *Resultado:* O autor possui **índice h = 6** (possui 6 artigos com pelo menos 6 citações).
 
 ```tree
@@ -10429,10 +10670,10 @@ TITLE: Avaliação do Índice h de Jorge Hirsch (Balanço Crítico)
 ```
 
 * **Limitações Cobradas em Provas (UNEAL 2026 e Cebraspe):**
-  1. *Incomparabilidade Interdisciplinar:* Áreas como imunologia e física têm taxas massivas de citação, gerando índices $h$ altíssimos; áreas como matemática, história e ciências sociais possuem taxas lentas de citação, gerando índices $h$ baixos sem que isso signifique menor qualidade.
-  2. *Vieses de Tempo de Carreira:* Um cientista sênior aposentado continuará acumulando citações e terá índice $h$ sempre superior a um jovem pesquisador brilhante em início de carreira.
+  1. *Incomparabilidade Interdisciplinar:* Áreas como imunologia e física têm taxas massivas de citação, gerando índices h altíssimos; áreas como matemática, história e ciências sociais possuem taxas lentas de citação, gerando índices h baixos sem que isso signifique menor qualidade.
+  2. *Vieses de Tempo de Carreira:* Um cientista sênior aposentado continuará acumulando citações e terá índice h sempre superior a um jovem pesquisador brilhante em início de carreira.
   3. *Ignora a Ordem de Autoria:* Trata com o mesmo peso o autor principal e o 50º coautor de um artigo biomédico massivo.
-  4. *Índice g de Leo Egghe (2006):* Criado como alternativa ao índice $h$ para dar mais peso aos artigos do autor que se tornaram "supercitados" (*citation classics*).
+  4. *Índice g de Leo Egghe (2006):* Criado como alternativa ao índice h para dar mais peso aos artigos do autor que se tornaram "supercitados" (*citation classics*).
 
 ---
 
@@ -10441,22 +10682,22 @@ TITLE: Avaliação do Índice h de Jorge Hirsch (Balanço Crítico)
 Além da contagem direta de citações recebidas por um documento, a bibliometria contemporânea fundamenta-se nas relações estruturais estabelecidas pelas citações, com destaque para duas técnicas clássicas e a análise de redes sociais (ARS):
 
 #### A. Acoplamento Bibliográfico (*Bibliographic Coupling* — M. M. Kessler, 1963)
-* **Definição Teórica:** Ocorre quando dois artigos ($A$ e $B$) citam **um ou mais documentos em comum** em suas respectivas listas de referências bibliográficas.
+* **Definição Teórica:** Ocorre quando dois artigos (A e B) citam **um ou mais documentos em comum** em suas respectivas listas de referências bibliográficas.
 * **Direção Temporal e Estabilidade (Questão Certa de Prova):**
   * O acoplamento bibliográfico é uma medida **retrospectiva** (olha para o passado, conectando artigos pelas fontes que ambos consultaram);
-  * A intensidade de acoplamento entre dois artigos é **estática, fixa e permanente no tempo**: uma vez publicados os artigos $A$ e $B$, suas referências nunca mais se alteram;
+  * A intensidade de acoplamento entre dois artigos é **estática, fixa e permanente no tempo**: uma vez publicados os artigos A e B, suas referências nunca mais se alteram;
   * **Aplicação Principal:** Mapeamento de frentes de pesquisa contemporâneas (*research fronts*) e agrupamento de artigos recentes que operam sob a mesma tradição teórica ou metodológica, mesmo antes de receberem qualquer citação.
 
 #### B. Cocitação (*Co-citation* — Henry Small, 1973 e Irina Marshakova, 1973)
-* **Definição Teórica:** Ocorre quando dois documentos independentes ($A$ e $B$) são **citados conjuntamente por um terceiro documento posterior ($C$)**.
+* **Definição Teórica:** Ocorre quando dois documentos independentes (A e B) são **citados conjuntamente por um terceiro documento posterior (C)**.
 * **Direção Temporal e Dinamicidade (Pegadinha do Cebraspe):**
   * A cocitação é uma medida **prospectiva** (olha para o futuro, dependendo de como a comunidade científica continuará citando os trabalhos no decorrer dos anos);
-  * A frequência de cocitação é **dinâmica e variável no tempo**: a intensidade de ligação entre $A$ e $B$ pode aumentar drasticamente, estabilizar ou cair ao longo das décadas;
+  * A frequência de cocitação é **dinâmica e variável no tempo**: a intensidade de ligação entre A e B pode aumentar drasticamente, estabilizar ou cair ao longo das décadas;
   * **Aplicação Principal:** Mapeamento da estrutura intelectual de um campo, identificação de escolas de pensamento históricas, revoluções científicas e clássicos seminais da literatura (*paradigm shifts*).
 
 | Dimensão Comparativa | Acoplamento Bibliográfico (Kessler, 1963) | Cocitação (Small, 1973 / Marshakova, 1973) |
 |---|---|---|
-| **Definição Operacional** | Artigos $A$ e $B$ citam a mesma referência $C$ | Artigos $A$ e $B$ são citados juntos pelo artigo $C$ |
+| **Definição Operacional** | Artigos A e B citam a mesma referência C | Artigos A e B são citados juntos pelo artigo C |
 | **Unidade de Ligação** | Referências compartilhadas no passado | Citações recebidas conjuntamente no futuro |
 | **Direção Temporal** | Retrospectiva (olha para o passado) | Prospectiva (olha para a literatura subsequente) |
 | **Comportamento Temporal** | **Fixo, permanente e estático** | **Dinâmico, mutável e cumulativo** |
@@ -10510,7 +10751,7 @@ O **Qualis** é o sistema oficial mantido pela Coordenação de Aperfeiçoamento
 * **Novo Qualis de Referência (Quadriênio 2017-2020 em diante):**
   * Elimina a antiga fragmentação em que a mesma revista tinha notas diferentes em diferentes comitês de área;
   * Classificação única nacional em **8 estratos hierárquicos**:
-    $	ext{A1} > 	ext{A2} > 	ext{A3} > 	ext{A4} > 	ext{B1} > 	ext{B2} > 	ext{B3} > 	ext{B4}$
+    A1 > A2 > A3 > A4 > B1 > B2 > B3 > B4
   * Periódicos não enquadráveis, sem rigor científico ou predatórios são classificados no estrato **C** (peso zero para fins de fomento).
 
 #### B. A Declaração DORA (San Francisco Declaration on Research Assessment, 2012)
@@ -10580,7 +10821,7 @@ Conectando-se ao compromisso de universalização do conhecimento:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Associação das Leis Bibliométricas
 
 **Assertiva:** "A lei de Lotka estabelece que a distribuição de artigos científicos em periódicos organiza-se em um núcleo de revistas dedicadas e zonas sucessivas que crescem em progressão geométrica."
@@ -10589,7 +10830,7 @@ Conectando-se ao compromisso de universalização do conhecimento:
 
 **Justificativa Canônica:** Errado! Essa definição refere-se à LEI DE BRADFORD (dispersão de periódicos em zonas 1 : n : n²). A Lei de Lotka trata da produtividade de autores segundo a regra do quadrado inverso (An = A1 / n²).
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Aplicação do Índice h
 
 **Assertiva:** "O índice h, formulado por Jorge Hirsch, caracteriza-se por quantificar conjuntamente a produtividade e o impacto das publicações de um pesquisador, baseando-se no número de artigos que atingiram determinado patamar de citações."
@@ -10598,7 +10839,7 @@ Conectando-se ao compromisso de universalização do conhecimento:
 
 **Justificativa Canônica:** Correto! O índice h sintetiza volume de produção com relevância/citação acumulada (h artigos com pelo menos h citações cada).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Acoplamento Bibliográfico vs. Cocitação
 
 **Assertiva:** "Diferentemente da cocitação, cuja intensidade varia dinamicamente ao longo do tempo à medida que novos artigos citam conjuntamente determinado par de documentos, o acoplamento bibliográfico é uma medida fixa e permanente, determinada de modo retrospectivo pelas listas de referências dos próprios trabalhos analisados."
@@ -10616,9 +10857,20 @@ Estudo aprofundado do arcabouço normativo institucional e constitucional da Câ
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-101"></a>
 ## SUBMÓDULO 10.1: Regimento Interno da Câmara dos Deputados (RICD: Arts. 1-24, 65-94, 226-251 e 262-273)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Organização regimental da Câmara dos Deputados: Mesa Diretora e Lideranças (arts. 1-24), Sessões Plenárias e suas quatro fases (arts. 65-94), Estatuto dos Deputados, prerrogativas e deveres (arts. 226-251), e Administração, Polícia e Centro de Documentação Cedi (arts. 262-273).
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **Mesa Diretora** | Órgão colegiado diretivo da Câmara dos Deputados, composto por 7 titulares e 4 suplentes eleitos para 2 anos. | A Mesa Diretora regulamenta as diretrizes do Cedi e da Biblioteca Pedro Aleixo. |
+| **Cedi** | Centro de Documentação e Informação da Câmara; órgão técnico que coordena a Biblioteca, Arquivo e Publicações. | Órgão de lotação direta do Analista Legislativo - Biblioteconomia (Cargo 5). |
+| **Proposição** | Toda matéria legislativa submetida à deliberação da Câmara (projetos de lei, emendas, requerimentos). | Catalogar a tramitação regimental e as ementas no Sistema de Informações Legislativas. |
+| **Sessão Deliberativa** | Reunião do Plenário destinada à votação de matérias legislativas com pauta definida na Ordem do Dia. | Registrar notas taquigráficas e diários de sessões para preservação permanente. |
+| **Ordem do Dia** | Fase da sessão plenária reservada à discussão e votação das proposições constantes da pauta aprovada. | Monitorar a pauta do Plenário para disponibilizar aos parlamentares bibliografias de apoio. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Câmara dos Deputados (Resolução nº 17/1989)
@@ -10827,7 +11079,7 @@ A organização interna da Câmara dos Deputados equilibra a autonomia política
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Vedação a Membros da Mesa Diretora nas Comissões (Art. 24, § 1º do RICD)
 
 **Assertiva:** "Conforme expressa disposição do Regimento Interno da Câmara dos Deputados, os membros titulares e os suplentes da Mesa Diretora são impedidos de integrar comissões permanentes, especiais ou comissões parlamentares de inquérito."
@@ -10836,7 +11088,7 @@ A organização interna da Câmara dos Deputados equilibra a autonomia política
 
 **Justificativa Canônica:** Correto! O art. 24, § 1º do RICD estabelece categoricamente que os membros da Mesa Diretora (titulares e suplentes) não podem fazer parte de nenhuma comissão permanente, comissão especial ou CPI.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Quórum de Deliberação na Ordem do Dia (Art. 73 do RICD)
 
 **Assertiva:** "Para a abertura da fase deliberativa da Ordem do Dia em sessão ordinária da Câmara dos Deputados, basta o comparecimento registrado de um décimo dos parlamentares da Casa."
@@ -10845,7 +11097,7 @@ A organização interna da Câmara dos Deputados equilibra a autonomia política
 
 **Justificativa Canônica:** Errado! O quórum de 1/10 (52 deputados) é exigido apenas para a abertura do Pequeno Expediente (art. 71). Para iniciar a deliberação na Ordem do Dia, é obrigatória a presença da maioria absoluta dos membros da Câmara (pelo menos 257 deputados registrados no painel, art. 73 do RICD e art. 47 da CF/88).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Hipóteses Regimentais de Vedação de Apartes (Art. 230 do RICD)
 
 **Assertiva:** "O regimento interno autoriza a formulação de apartes durante a manifestação parlamentar em sede de questão de ordem, desde que o orador conceda previamente a interrupção."
@@ -10856,8 +11108,9 @@ A organização interna da Câmara dos Deputados equilibra a autonomia política
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-102"></a>
 ## SUBMÓDULO 10.2: Processo Legislativo Constitucional e Espécies de Proposições
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O Art. 59 da CF/88, as 7 espécies normativas primárias, o rito das Emendas Constitucionais (quórum de 3/5 em 2 turnos sem sanção presidencial), Leis Complementares vs. Ordinárias, Medidas Provisórias e o Vocabulário Controlado do Congresso (Sicon/VCB).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -11027,7 +11280,7 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Promulgação de Emendas Constitucionais
 
 **Assertiva:** "Aprovada uma Proposta de Emenda à Constituição (PEC) em dois turnos por três quintos dos membros de cada Casa do Congresso Nacional, o texto segue para o Presidente da República para fins de sanção ou veto."
@@ -11036,7 +11289,7 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
 
 **Justificativa Canônica:** Errado! As Emendas Constitucionais NÃO vão para a sanção do Presidente da República. São promulgadas diretamente pelas Mesas da Câmara dos Deputados e do Senado Federal conjuntamente.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Quórum de Aprovação de Leis Complementares
 
 **Assertiva:** "A aprovação de um Projeto de Lei Complementar (PLP) no plenário da Câmara dos Deputados exige o voto favorável da maioria absoluta dos seus membros."
@@ -11045,7 +11298,7 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
 
 **Justificativa Canônica:** Correto! Conforme o Art. 69 da CF/88, leis complementares são aprovadas por maioria absoluta (257 deputados), diferentemente das leis ordinárias que exigem maioria simples.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Sistema Sicon e Vocabulário Controlado do Congresso
 
 **Assertiva:** "O Vocabulário Controlado Básico do Congresso Nacional (Sicon) utiliza estruturas hierárquicas e sinonímicas para padronizar a indexação de matérias legislativas e discursos proferidos em plenário."
@@ -11056,8 +11309,9 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-103"></a>
 ## SUBMÓDULO 10.3: Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A Lei nº 12.527/2011 (LAI): princípio da publicidade máxima, transparência ativa vs. passiva, prazos do SIC, graus de sigilo (Reservada 5 anos, Secreta 15 anos, Ultrassecreta 25 anos), proteção de dados pessoais (100 anos), a LGPD (Lei 13.709/2018) e a neutralidade técnica na consultoria parlamentar.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -11229,7 +11483,7 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Prazos Máximos de Sigilo na LAI
 
 **Assertiva:** "Nos termos da Lei nº 12.527/2011 (LAI), os prazos máximos de restrição de acesso a informações classificadas como reservadas, secretas e ultrassecretas são de cinco, quinze e vinte e cinco anos, respectivamente."
@@ -11238,7 +11492,7 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
 
 **Justificativa Canônica:** Correto! Essa é a exata escala temporal de sigilo do Art. 24 da LAI: Reservada (5 anos), Secreta (15 anos) e Ultrassecreta (25 anos).
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Sigilo e Violações de Direitos Humanos
 
 **Assertiva:** "Autoridades públicas competentes podem classificar como ultrassecretos documentos oficiais que contenham relatos e provas de violações de direitos humanos perpetradas por agentes do Estado, com a finalidade de proteger a soberania nacional."
@@ -11247,7 +11501,7 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
 
 **Justificativa Canônica:** Errado! O Art. 21 da LAI proíbe expressamente qualquer restrição de acesso a informações e documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes do Estado.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Neutralidade Técnica na Pesquisa Legislativa
 
 **Assertiva:** "Na elaboração de pesquisas informacionais solicitadas por gabinetes parlamentares, o bibliotecário legislativo deve selecionar preferencialmente a doutrina alinhada ao posicionamento partidário do solicitante para resguardar a celeridade do trabalho."
@@ -11258,8 +11512,9 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-104"></a>
 ## SUBMÓDULO 10.4: Noções de Direito Constitucional Aplicadas ao Processo Legislativo
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Constituição Federal de 1988: conceito, características, princípios fundamentais (arts. 1º a 4º), direitos e garantias fundamentais (art. 5º e remédios constitucionais), organização político-administrativa (arts. 18 a 36) e a Administração Pública na CF/88 (arts. 37 a 41).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -11490,7 +11745,7 @@ A soberania popular é exercida pelo sufrágio universal e pelo voto direto e se
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Classificação da CF/88 e Soberania Federativa
 
 **Assertiva:** "No ordenamento constitucional brasileiro, a União, os Estados-membros, o Distrito Federal e os Municípios são pessoas jurídicas dotadas de soberania nacional perante a comunidade internacional."
@@ -11499,7 +11754,7 @@ A soberania popular é exercida pelo sufrágio universal e pelo voto direto e se
 
 **Justificativa Canônica:** Errado! Os entes federados (União, Estados, DF e Municípios) possuem apenas AUTONOMIA. A SOBERANIA é atributo indivisível e exclusivo da República Federativa do Brasil.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Cargos Privativos de Brasileiro Nato e Presidência das Casas
 
 **Assertiva:** "Um cidadão brasileiro naturalizado pode exercer o mandato de Deputado Federal ou de Senador da República, mas é constitucionalmente impedido de assumir a Presidência da Câmara dos Deputados ou do Senado Federal."
@@ -11508,7 +11763,7 @@ A soberania popular é exercida pelo sufrágio universal e pelo voto direto e se
 
 **Justificativa Canônica:** Correto! Os mandatos de Deputado e Senador são acessíveis ao brasileiro naturalizado, mas a Presidência de ambas as Casas é privativa de brasileiro nato (art. 12, § 3º da CF/88) por figurarem na linha sucessória do Presidente da República.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Direitos Políticos - Cassação vs. Perda e Suspensão
 
 **Assertiva:** "A Constituição Federal de 1988 veda expressamente a cassação de direitos políticos, admitindo a sua perda ou suspensão exclusivamente nos casos taxativos previstos no art. 15, entre os quais figura a condenação criminal transitada em julgado enquanto durarem seus efeitos."
@@ -11519,8 +11774,9 @@ A soberania popular é exercida pelo sufrágio universal e pelo voto direto e se
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-105"></a>
 ## SUBMÓDULO 10.5: Poder Legislativo e Regime Jurídico dos Parlamentares na CF/88
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Organização do Poder Legislativo (Congresso Nacional, Câmara e Senado), sessões legislativas, comissões e CPIs, estatuto dos congressistas (inviolabilidade, imunidades formais, prerrogativas, incompatibilidades e perda de mandato) e intervenção federal.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -11758,7 +12014,7 @@ A Intervenção Federal é medida de caráter excepcional e temporário que afas
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Imunidade Formal e Prisão Parlamentar
 
 **Assertiva:** "Desde a expedição do diploma, os membros do Congresso Nacional não podem ser presos, salvo em flagrante de crime inafiançável, hipótese em que os autos devem ser remetidos em vinte e quatro horas à Casa respectiva para que a maioria de seus membros resolva sobre a prisão."
@@ -11767,7 +12023,7 @@ A Intervenção Federal é medida de caráter excepcional e temporário que afas
 
 **Justificativa Canônica:** Correto! É a literalidade do art. 53, § 2º da CF/88. A imunidade contra prisão opera a partir da diplomação e restringe a custódia cautelar ao flagrante de crime inafiançável, cabendo à respectiva Casa deliberar por maioria absoluta.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Sistema Eleitoral e Renovação do Senado Federal
 
 **Assertiva:** "O Senado Federal é composto por representantes dos Estados e do Distrito Federal eleitos pelo sistema proporcional para mandato de quatro anos, com renovação quadrienal total de seus membros."
@@ -11776,7 +12032,7 @@ A Intervenção Federal é medida de caráter excepcional e temporário que afas
 
 **Justificativa Canônica:** Errado! O Senado Federal adota o sistema MAJORITÁRIO, o mandato de cada senador é de 8 ANOS, e a renovação é parcial alternada (1/3 e 2/3 a cada 4 anos), conforme preconiza o art. 46 da CF/88.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Poderes e Limites Constitucionais das CPIs
 
 **Assertiva:** "Em virtude de possuírem poderes de investigação próprios das autoridades judiciais, as comissões parlamentares de inquérito têm competência constitucional para decretar a interceptação das comunicações telefônicas (escuta) e a busca e apreensão domiciliar noturna dos alvos investigados."
@@ -11787,8 +12043,9 @@ A Intervenção Federal é medida de caráter excepcional e temporário que afas
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-106"></a>
 ## SUBMÓDULO 10.6: Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Mesa do Congresso Nacional, alternância institucional de cargos, sessões conjuntas, quóruns de deliberação, apreciação de vetos presidenciais em 30 dias e tramitação de leis e resoluções no Congresso Nacional.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -11967,7 +12224,7 @@ O processo legislativo orçamentário federal ocorre no âmbito compartilhado do
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Presidência e Sucessão da Mesa do Congresso Nacional
 
 **Assertiva:** "A Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal. Em caso de ausência ou impedimento temporário do Presidente do Senado durante a realização de uma sessão conjunta do Congresso Nacional, a presidência dos trabalhos é transferida imediatamente para o Presidente da Câmara dos Deputados, em obediência ao bicameralismo federativo."
@@ -11976,7 +12233,7 @@ O processo legislativo orçamentário federal ocorre no âmbito compartilhado do
 
 **Justificativa Canônica:** Errado! Conforme o art. 57, § 5º da CF/88 e arts. 2º e 4º do RCCN, a Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal, mas os demais cargos alternam-se entre a Câmara e o Senado. O 1º Vice-Presidente da Mesa do Congresso Nacional é o 1º Vice-Presidente da Câmara dos Deputados, e é a este que cabe substituir o Presidente do Senado na condução das sessões conjuntas. O Presidente da Câmara dos Deputados NÃO é membro nato nem 1º Vice da Mesa do Congresso Nacional, não figurando na linha direta de substituição imediata da presidência da sessão conjunta.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Quórum de Deliberação em Sessão Conjunta e Vetos
 
 **Assertiva:** "Nas sessões conjuntas do Congresso Nacional convocadas para a apreciação de veto presidencial, os Deputados Federais e Senadores reúnem-se no mesmo recinto físico, ocorrendo a rejeição do veto caso se atinja a maioria absoluta da soma total dos parlamentares presentes à sessão deliberativa."
@@ -11985,7 +12242,7 @@ O processo legislativo orçamentário federal ocorre no âmbito compartilhado do
 
 **Justificativa Canônica:** Errado! Segundo o art. 66, § 4º da CF/88 e disposições do RCCN, o Congresso Nacional delibera em sessão conjunta, mas NUNCA de forma unicameral congregada. Os votos dos Deputados Federais e dos Senadores da República são computados de maneira estritamente SEPARADA. Para a rejeição do veto, é imprescindível alcançar cumulativamente a maioria absoluta dos votos da Câmara dos Deputados (257 deputados) E a maioria absoluta dos votos do Senado Federal (41 senadores). Não existe soma indistinta ou pool unificado de votos entre as duas Casas legislativas.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Prazo e Efeitos do Sobrestamento por Veto Presidencial
 
 **Assertiva:** "Transcorrido in albis o prazo de trinta dias a contar do recebimento formal do veto presidencial pelo Congresso Nacional sem que haja ocorrido deliberação em sessão conjunta, o veto será colocado na ordem do dia da sessão conjunta imediata, sobrestando as demais proposições no âmbito do Congresso Nacional, sem paralisar, contudo, a pauta de votações legislativas ordinárias das sessões isoladas da Câmara dos Deputados."
@@ -12003,8 +12260,9 @@ Módulo canônico exaustivo estruturado com rigor absoluto conforme o Edital nº
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-111"></a>
 ## SUBMÓDULO 11.1: Estado, Governo, Princípios e Organização Administrativa
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Conceito e elementos do Estado, separação de poderes e funções atípicas. Princípios constitucionais (LIMPE) e princípios implícitos da Administração Pública. Organização administrativa: centralização, descentralização, concentração, desconcentração, Administração Direta e Indireta.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12136,7 +12394,7 @@ Na Câmara dos Deputados, a **Biblioteca Pedro Aleixo** e o **Centro de Document
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Desconcentração vs. Descentralização Administrativa
 
 **Assertiva:** "A criação de um novo departamento especializado em curadoria digital de documentos parlamentares dentro da estrutura do Centro de Documentação e Informação (Cedi) da Câmara dos Deputados consubstancia hipótese de descentralização por serviços, uma vez que confere nova titularidade ao órgão criado."
@@ -12145,7 +12403,7 @@ Na Câmara dos Deputados, a **Biblioteca Pedro Aleixo** e o **Centro de Document
 
 **Justificativa Canônica:** Errado! Trata-se de hipótese típica de DESCONCENTRAÇÃO administrativa (criação interna de órgãos dentro da mesma pessoa jurídica, a União Federal, sem outorga de personalidade jurídica própria nem de nova titularidade). A descentralização exigiria a transferência da competência a uma pessoa jurídica autônoma.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Princípio da Impessoalidade e Publicidade Governamental
 
 **Assertiva:** "Em consonância com o princípio da impessoalidade e com o art. 37, § 1º, da CF/88, é vedado que informativos oficiais de circulação ampla sobre acervos históricos da Biblioteca da Câmara contenham nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridade ou de parlamentar."
@@ -12154,7 +12412,7 @@ Na Câmara dos Deputados, a **Biblioteca Pedro Aleixo** e o **Centro de Document
 
 **Justificativa Canônica:** Correto! A vertente subjetiva da impessoalidade veda a apropriação ou promoção pessoal de agentes ou mandatários políticos em peças de publicidade e informativos institucionais custeados pelo poder público.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Regime Jurídico das Sociedades de Economia Mista
 
 **Assertiva:** "As sociedades de economia mista, por integrarem a Administração Pública Indireta, podem adotar qualquer formato societário admitido em direito comercial, a critério da lei instituidora, devendo a integralidade de seu capital ser subscrita pelo poder público."
@@ -12165,8 +12423,9 @@ Na Câmara dos Deputados, a **Biblioteca Pedro Aleixo** e o **Centro de Document
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-112"></a>
 ## SUBMÓDULO 11.2: Ato Administrativo, Invalidação e Responsabilidade por Pareceres
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Conceito, requisitos de validade (COFIFOMOB) e atributos (PATI). Classificação e espécies de atos. Extinção: anulação, revogação, cassação, caducidade e convalidação (FO-CO). Teoria dos Motivos Determinantes. Espécies de parecer e responsabilidade do emissor (STF e LINDB).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12208,7 +12467,7 @@ O ato administrativo é a **manifestação unilateral de vontade da Administraç
 
 Conforme a Lei da Ação Popular (Lei nº 4.717/1965, art. 2º), todo ato administrativo exige cinco elementos essenciais de validade:
 
-$$\text{Requisitos} = \text{Competência} + \text{Finalidade} + \text{Forma} + \text{Motivo} + \text{Objeto}$$
+$Requisitos = Competência + Finalidade + Forma + Motivo + Objeto
 
 1. **Competência:** Sujeito legalmente investido de atribuições para a prática do ato. A competência é intransferível, irrenunciável, imprescritível e imodificável pela vontade do agente. Admite, em regra, delegação e avocação transitórias, salvo as vedações do art. 11 da Lei nº 9.784/1999 (edição de atos normativos, decisão de recursos administrativos e matérias de competência exclusiva).
 2. **Finalidade:** O objetivo de interesse público primário que a norma persegue. A Administração não pode visar interesse privado próprio, de terceiros ou de vingança política. A violação configura **desvio de finalidade** (ou desvio de poder), gerando nulidade absoluta do ato.
@@ -12294,7 +12553,7 @@ O Supremo Tribunal Federal (STF - MS 24.631/DF) e o art. 28 da LINDB (Lei de Int
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Atributos do Ato Administrativo e Casos Excepcionais
 
 **Assertiva:** "Em virtude do atributo da imperatividade, todos os atos emanados da Administração Pública, inclusive as certidões de tempo de serviço e os pareceres técnicos de descarte bibliográfico, impõem comandos coercitivos independentemente da anuência prévia do administrado."
@@ -12303,7 +12562,7 @@ O Supremo Tribunal Federal (STF - MS 24.631/DF) e o art. 28 da LINDB (Lei de Int
 
 **Justificativa Canônica:** Errado! A imperatividade NÃO está presente em todos os atos administrativos. Atos enunciativos (certidões, atestados, pareceres técnicos) limitam-se a declarar um fato ou emitir uma opinião técnica, sendo destituídos de coercitividade ou imposição unilateral.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Controle Judicial de Anulação e Revogação
 
 **Assertiva:** "O Poder Judiciário, no exercício de sua função jurisdicional típica, pode anular atos administrativos eivados de vícios insanáveis de legalidade, sendo-lhe, todavia, vedado revogar ato discricionário sob o fundamento de que este se tornou inoportuno para o interesse público."
@@ -12312,7 +12571,7 @@ O Supremo Tribunal Federal (STF - MS 24.631/DF) e o art. 28 da LINDB (Lei de Int
 
 **Justificativa Canônica:** Correto! O controle judicial sobre atos dos demais Poderes é estritamente de legalidade e legitimidade (anulação). O mérito administrativo (juízo discricionário de oportunidade e conveniência) é privativo da Administração, não cabendo revogação pelo Judiciário.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Responsabilidade do Parecerista e LINDB
 
 **Assertiva:** "Servidor bibliotecário da Câmara que emitir parecer técnico sugerindo a alienação de obras repetidas responde civil e administrativamente de forma objetiva por eventuais prejuízos orçamentários, independentemente de demonstração de dolo ou de erro grosseiro."
@@ -12323,8 +12582,9 @@ O Supremo Tribunal Federal (STF - MS 24.631/DF) e o art. 28 da LINDB (Lei de Int
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-113"></a>
 ## SUBMÓDULO 11.3: Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Classificação de agentes públicos. Cargo, emprego e função pública. Provimento (4R + PAN) e vacância (PADRE PF). Estabilidade constitucional. Remoção vs. Redistribuição. Acumulação remunerada de cargos. Direitos, vantagens e independência das instâncias de responsabilização.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12509,7 +12769,7 @@ O servidor público federal responde em três esferas distintas e independentes:
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Recondução e Reintegração de Servidor Estável
 
 **Assertiva:** "Servidor estável da Câmara dos Deputados que tomar posse em outro cargo público inacumulável e for inabilitado no respectivo estágio probatório tem direito à recondução ao cargo de origem, nos termos dos arts. 28 e 29 da Lei nº 8.112/1990."
@@ -12518,7 +12778,7 @@ O servidor público federal responde em três esferas distintas e independentes:
 
 **Justificativa Canônica:** Correto! Conforme os arts. 28 e 29 da Lei nº 8.112/1990, a recondução é o retorno do servidor estável ao cargo de origem decorrente de inabilitação em estágio probatório ou reintegração do anterior ocupante.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Diferença Técnica entre Requisição e Cessão de Servidores
 
 **Assertiva:** "A requisição de servidor público federal para a Presidência da República ou para a Justiça Eleitoral constitui ato dotado de caráter compulsório e irrecusável pelo órgão de origem, ao passo que a cessão de servidor é ato de natureza discricionária subordinado à concordância do órgão cedente."
@@ -12527,7 +12787,7 @@ O servidor público federal responde em três esferas distintas e independentes:
 
 **Justificativa Canônica:** Correto! Conforme o art. 93 da Lei nº 8.112/1990 c/c a Lei nº 9.007/1995 e a Lei nº 6.999/1982, a requisição é impositiva e irrecusável por força de lei, enquanto a cessão ordinária depende da anuência discricionária da autoridade de origem.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Independência das Instâncias e Absolvição Criminal
 
 **Assertiva:** "A absolvição penal de um servidor público federal fundada na falta de provas suficientes para a condenação criminal vincula a esfera administrativa e impõe o arquivamento automático do processo administrativo disciplinar contra ele instaurado."
@@ -12538,8 +12798,9 @@ O servidor público federal responde em três esferas distintas e independentes:
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-114"></a>
 ## SUBMÓDULO 11.4: Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Princípios do processo administrativo (verdade material, oficialidade, informalismo moderado). Lei nº 9.784/1999: impedimento e suspeição, prazos, delegação/avocação e recursos. Direito disciplinar: sindicância, rito do PAD ordinário e sumário, prescrição e Súmula Vinculante 5 do STF.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12627,7 +12888,7 @@ O servidor que cometer ilícito funcional sujeita-se a três sanções principai
 3. **Demissão:** Sanção máxima capital aplicada às faltas graves do art. 132 (improbidade administrativa, crime contra a administração pública, abandono de cargo [ausência intencional por mais de 30 dias consecutivos], inassiduidade habitual [falta sem causa justificada por 60 dias interpolados no período de 12 meses], corrupção, aplicação irregular de dinheiros públicos, revelação de segredo conhecido em razão do cargo). Prescreve em 5 anos.
 
 #### Fases do PAD Ordinário (Art. 151 da Lei 8.112/90)
-$$\text{PAD} = \text{Instauração} \longrightarrow \text{Inquérito (Instrução + Defesa + Relatório)} \longrightarrow \text{Julgamento}$$
+PAD = Instauração \longrightarrow Inquérito (Instrução + Defesa + Relatório) \longrightarrow Julgamento
 
 * **Comissão Processante:** Composta por **3 servidores estáveis**, designados pela autoridade instauradora, devendo o presidente ocupar cargo de nível igual ou superior ao do indiciado ou ter escolaridade igual ou superior.
 * **Defesa Técnica e Súmula Vinculante 5 do STF:** O indiciado tem o direito de ser pessoalmente citado e intimado para todos os atos, podendo constituir advogado. Contudo, a ausência de advogado não anula o PAD nem viola a ampla defesa constitucional (Súmula Vinculante 5).
@@ -12652,7 +12913,7 @@ $$\text{PAD} = \text{Instauração} \longrightarrow \text{Inquérito (Instruçã
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Delegação de Competências e Limitações Legais
 
 **Assertiva:** "Titular de órgão administrativo federal da Câmara dos Deputados pode delegar legitimamente a um subordinado hierárquico a competência decisória para julgar recurso administrativo interposto contra resultado de pregão eletrônico, desde que tal delegação seja formalmente publicada em veículo oficial."
@@ -12661,7 +12922,7 @@ $$\text{PAD} = \text{Instauração} \longrightarrow \text{Inquérito (Instruçã
 
 **Justificativa Canônica:** Errado! O julgamento de recursos administrativos é matéria de competência INDELEGÁVEL nos termos expressos do art. 13, inciso II, da Lei nº 9.784/1999 (não se delegam atos normativos, decisões de recursos administrativos nem matérias de competência exclusiva).
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Impedimento Funcional e Dever de Comunicação
 
 **Assertiva:** "O servidor que for designado para compor comissão de processo administrativo disciplinar instaurado contra parente consanguíneo em linha reta de até terceiro grau incorre em impedimento legal, ensejando a omissão do dever de abstenção falta grave para efeitos disciplinares."
@@ -12670,7 +12931,7 @@ $$\text{PAD} = \text{Instauração} \longrightarrow \text{Inquérito (Instruçã
 
 **Justificativa Canônica:** Correto! Trata-se de hipótese objetiva de impedimento prevista no art. 18, II, da Lei nº 9.784/1999. O art. 19 expressamente comina falta grave disciplinar à autoridade ou servidor que deixar de comunicar o impedimento.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Prescrição Disciplinar e Termo Inicial
 
 **Assertiva:** "O prazo prescricional para a aplicação da penalidade de demissão a servidor federal prescreve em cinco anos, computando-se o termo inicial a partir da data em que o servidor efetivamente consumou a falta funcional."
@@ -12681,8 +12942,9 @@ $$\text{PAD} = \text{Instauração} \longrightarrow \text{Inquérito (Instruçã
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-115"></a>
 ## SUBMÓDULO 11.5: Poderes Administrativos, Ciclo de Polícia e Abuso de Poder
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Poder vinculado e discricionário. Poder hierárquico, disciplinar e regulamentar (decretos regulamentares e autônomos). Poder de polícia: conceito (art. 78 do CTN), atributos, ciclo de polícia e delegabilidade a estatais (STF Tema 532). Uso e abuso de poder: excesso de poder vs. desvio de finalidade.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12777,7 +13039,7 @@ O ciclo do poder de polícia desdobra-se em 4 fases sequenciais:
 
 O administrador deve utilizar o poder estritamente para a finalidade pública colimada pela lei (**uso legítimo do poder**). Quando ultrapassa esses limites ou desvia-se dos fins, comete **abuso de poder**, que se manifesta sob duas formas típicas:
 
-$$\text{Abuso de Poder} = \begin{cases} \text{Excesso de Poder} & \longrightarrow \text{Vício na COMPETÊNCIA (ultrapassa seus limites legais)} \\ \text{Desvio de Finalidade} & \longrightarrow \text{Vício na FINALIDADE (busca objetivo oculto alheio à lei)} \end{cases}$$
+Abuso de Poder = \begin{cases} Excesso de Poder & \longrightarrow Vício na COMPETÊNCIA (ultrapassa seus limites legais) \\ Desvio de Finalidade & \longrightarrow Vício na FINALIDADE (busca objetivo oculto alheio à lei) \end{cases}
 
 * **Excesso de Poder:** A autoridade extrapola os limites das atribuições que a lei lhe conferiu. Ex.: autoridade sem competência legal que impõe demissão a um servidor.
 * **Desvio de Finalidade (Desvio de Poder):** A autoridade atua formalmente dentro de sua competência legal, mas pratica o ato com finalidade diversa daquela prevista pela lei ou contrária ao interesse público. Ex.: chefe de setor que remove compulsoriamente um bibliotecário para arquivo distante apenas por inimizade pessoal decorrente de divergência política.
@@ -12803,7 +13065,7 @@ $$\text{Abuso de Poder} = \begin{cases} \text{Excesso de Poder} & \longrightarro
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Decretos Autônomos e Limites Constitucionais
 
 **Assertiva:** "O Presidente da República pode, mediante decreto autônomo, extinguir cargos públicos ocupados de provimento efetivo no âmbito do Poder Executivo federal, desde que a medida proporcione comprovada economia de despesas ao erário."
@@ -12812,7 +13074,7 @@ $$\text{Abuso de Poder} = \begin{cases} \text{Excesso de Poder} & \longrightarro
 
 **Justificativa Canônica:** Errado! Nos termos do art. 84, VI, alínea "b" da CF/88, o decreto autônomo só pode extinguir cargos públicos QUANDO VAGOS. A extinção de cargos públicos ocupados exige imperativamente aprovação de lei ordinária pelo Congresso Nacional.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Delegação do Poder de Polícia a Entidades Estatais
 
 **Assertiva:** "Conforme tese de repercussão geral fixada pelo Supremo Tribunal Federal, é constitucional a delegação das fases de consentimento, fiscalização e sanção de poder de polícia de trânsito a empresas públicas e sociedades de economia mista que prestem serviço público de forma exclusiva e em regime não concorrencial."
@@ -12821,7 +13083,7 @@ $$\text{Abuso de Poder} = \begin{cases} \text{Excesso de Poder} & \longrightarro
 
 **Justificativa Canônica:** Correto! Trata-se da tese vinculante firmada pelo STF no Tema 532 (RE 633.782), que reconheceu a possibilidade de estatais de capital público prestadoras de serviços exclusivos aplicarem sanções de trânsito.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Modalidades de Abuso de Poder
 
 **Assertiva:** "Configura excesso de poder a conduta do diretor administrativo que remove servidor para outro setor visando a puni-lo sumariamente por desavenças sindicais, tendo em vista que a remoção de ofício foi praticada por autoridade com competência formal para expedir o ato de lotação."
@@ -12832,8 +13094,9 @@ $$\text{Abuso de Poder} = \begin{cases} \text{Excesso de Poder} & \longrightarro
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-116"></a>
 ## SUBMÓDULO 11.6: Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Evolução histórica e a Teoria do Risco Administrativo (art. 37, § 6º da CF/88). Responsabilidade por atos comissivos vs. omissivos (falta do serviço e dever de custódia). Excludentes e atenuantes do nexo causal. Teoria do Risco Integral. Ação de regresso e ilegitimidade do servidor (STF Tema 940).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -12944,7 +13207,7 @@ O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.0
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Polo Passivo da Ação Indenizatória (STF Tema 940)
 
 **Assertiva:** "Cidadão que tiver bens pessoais destruídos por negligência comprovada de servidor bibliotecário durante transporte de acervo da Câmara pode ajuizar ação de reparação de danos incluindo o servidor e a União em litisconsórcio passivo facultativo."
@@ -12953,7 +13216,7 @@ O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.0
 
 **Justificativa Canônica:** Errado! De acordo com a tese de repercussão geral fixada pelo STF no Tema 940, o agente público é parte passiva manifestamente ilegítima em ações propostas por particulares. A ação deve ser ajuizada exclusivamente contra o Estado (União Federal), descabendo litisconsórcio passivo com o servidor.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Responsabilidade Objetiva por Atos Comissivos e Regresso
 
 **Assertiva:** "A responsabilidade civil da União perante terceiros pelos atos comissivos praticados por seus agentes públicos independe da comprovação de culpa ou dolo, ao passo que a ação de regresso movida pela União contra o servidor exige a prova indispensável de conduta dolosa ou culposa."
@@ -12962,7 +13225,7 @@ O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.0
 
 **Justificativa Canônica:** Correto! Perante o administrado lesado a responsabilidade é objetiva (Teoria do Risco Administrativo, dispensando dolo/culpa). Na esfera interna de regresso contra o servidor, a responsabilidade é subjetiva, exigindo dolo ou culpa (art. 37, § 6º da CF).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Teoria do Risco Integral e Excludentes de Causalidade
 
 **Assertiva:** "No ordenamento jurídico brasileiro, a teoria do risco integral aplica-se como regra geral a toda a Administração Pública direta e indireta, impedindo que o Estado se exima de indenizar mesmo diante de comprovada culpa exclusiva da vítima."
@@ -12973,8 +13236,9 @@ O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.0
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-117"></a>
 ## SUBMÓDULO 11.7: Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O novo regime da Lei nº 8.429/1992 após a Lei nº 14.230/2021. Extinção da modalidade culposa e exigência de dolo específico. Tipologias dos arts. 9º, 10 e taxatividade do art. 11. Sanções aplicáveis. Sujeito passivo e particular em coautoria. Prescrição de 8 anos e o ANPC.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13080,7 +13344,7 @@ Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Modalidade Culposa na Lei de Improbidade Reformada
 
 **Assertiva:** "Servidor público da área de compras que, por manifesta negligência e falta de cautela profissional, assinar ateste de recebimento de livros didáticos com avarias graves comete ato de improbidade administrativa que causa prejuízo ao erário na modalidade culposa."
@@ -13089,7 +13353,7 @@ Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e 
 
 **Justificativa Canônica:** Errado! Desde a vigência da Lei nº 14.230/2021, foi EXTINTA a modalidade culposa na improbidade administrativa. O art. 10 exige indispensavelmente a comprovação de DOLO ESPECÍFICO. A negligência pode gerar punição disciplinar ou ação cível indenizatória comum, mas nunca improbidade.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Sanções Aplicáveis aos Atos contra Princípios (Art. 11)
 
 **Assertiva:** "Agente público condenado por ato de improbidade administrativa que atenta contra os princípios da administração pública (art. 11 da LIA) está sujeito à sanção de perda da função pública e à suspensão de seus direitos políticos por até cinco anos."
@@ -13098,7 +13362,7 @@ Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e 
 
 **Justificativa Canônica:** Errado! A reforma da Lei nº 14.230/2021 revogou as sanções de perda da função pública e de suspensão dos direitos políticos para os atos do art. 11 da LIA. O agente sujeita-se exclusivamente a pagamento de multa civil de até 24 vezes sua remuneração e proibição de contratar por até 4 anos.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Polo Passivo e Responsabilidade do Particular
 
 **Assertiva:** "Pessoa jurídica privada prestadora de serviços terceirizados à Câmara dos Deputados pode figurar individualmente no polo passivo de ação civil de improbidade administrativa proposta pelo Ministério Público, mesmo sem a presença concomitante de agente público na relação processual."
@@ -13109,8 +13373,9 @@ Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-118"></a>
 ## SUBMÓDULO 11.8: Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A transição histórica: Patrimonialismo (prebendas), Burocracia Weberiana (formalismo e disfunções) e Nova Gestão Pública (NPM e gerencialismo). Nova Governança Pública (NPG): ação em redes, coprodução do bem público e transparência ativa. O Valor Público de Mark Moore e a Cadeia de Valor.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13203,7 +13468,7 @@ Para que uma política pública ou projeto governamental seja sustentável, o ge
 #### 3.2 A Cadeia de Valor Público
 A transformação da ação governamental em impacto social percorre cinco etapas integradas:
 
-$$\text{Insumos (Inputs)} \longrightarrow \text{Processos (Activities)} \longrightarrow \text{Produtos (Outputs)} \longrightarrow \text{Resultados (Outcomes)} \longrightarrow \text{Impacto Social (Impacts)}$$
+Insumos (Inputs) \longrightarrow Processos (Activities) \longrightarrow Produtos (Outputs) \longrightarrow Resultados (Outcomes) \longrightarrow Impacto Social (Impacts)
 
 * **Insumos (*Inputs*):** Orçamento, servidores bibliotecários, computadores, instalações físicas da biblioteca.
 * **Processos (*Activities*):** Indexação, catalogação descritiva, curadoria e restauração de documentos parlamentares.
@@ -13233,7 +13498,7 @@ $$\text{Insumos (Inputs)} \longrightarrow \text{Processos (Activities)} \longrig
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Distinção entre NPM e Nova Governança Pública (NPG)
 
 **Assertiva:** "Enquanto a Nova Gestão Pública (NPM) introduziu a lógica de mercado e a centralidade do cidadão como cliente consumidor, a Nova Governança Pública (NPG) enfatiza a atuação estatal em redes de cooperação interinstitucional e a coprodução de bens e serviços públicos pelo cidadão."
@@ -13242,7 +13507,7 @@ $$\text{Insumos (Inputs)} \longrightarrow \text{Processos (Activities)} \longrig
 
 **Justificativa Canônica:** Correto! A NPG supera a visão mercadológica do NPM, privilegiando redes colaborativas multissetoriais e o papel do cidadão como parceiro ativo e coprodutor de valor público.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Triângulo Estratégico de Mark Moore e Capacidade Operacional
 
 **Assertiva:** "No modelo do triângulo estratégico de Mark Moore, a criação de valor público prescinde da legitimidade política e do respaldo legal formal, bastando a existência de capacidade operacional técnica suficiente da administração para a execução da medida."
@@ -13251,7 +13516,7 @@ $$\text{Insumos (Inputs)} \longrightarrow \text{Processos (Activities)} \longrig
 
 **Justificativa Canônica:** Errado! O triângulo estratégico exige a congruência indissociável de três vértices: 1) Valor substantivo; 2) Sustentabilidade política e legalidade (ambiente autorizador); 3) Capacidade operacional. A ausência de apoio no ambiente autorizador inviabiliza o projeto.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Cadeia de Valor Público: Output vs. Outcome
 
 **Assertiva:** "Na cadeia de valor público aplicada à gestão documental, a quantidade de proposições legislativas devidamente digitalizadas e disponibilizadas em repositório institucional consubstancia um resultado (outcome), e não um mero produto (output)."
@@ -13262,8 +13527,9 @@ $$\text{Insumos (Inputs)} \longrightarrow \text{Processos (Activities)} \longrig
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-119"></a>
 ## SUBMÓDULO 11.9: Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Conceito e distinção: Governança vs. Gestão vs. Governabilidade. A tríade de mecanismos: Liderança, Estratégia e Controle. Princípios e diretrizes do Decreto nº 9.203/2017. Gestão de riscos, programas de integridade e o modelo das Três Linhas de Defesa no serviço público federal.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13307,7 +13573,7 @@ Para o Cebraspe, a precisão terminológica entre estas três dimensões institu
 
 A governança pública federal estrutura-se sob três mecanismos vitais (**L-E-C**):
 
-$$\text{Mecanismos de Governança} = \text{Liderança} + \text{Estratégia} + \text{Controle}$$
+Mecanismos de Governança = Liderança + Estratégia + Controle
 
 1. **Mecanismo de Liderança:** Compreende as competências técnicas e comportamentais, o comprometimento ético, a integridade funcional e o engajamento da alta administração para guiar os servidores e a organização em direção aos objetivos públicos prioritários.
 2. **Mecanismo de Estratégia:** Compreende a definição clara da visão de futuro, dos objetivos institucionais de longo prazo, dos planos de ação, do alinhamento das políticas públicas às necessidades da sociedade e da alocação racional dos recursos orçamentários.
@@ -13364,7 +13630,7 @@ Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o mo
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Distinção entre Governança e Gestão Pública
 
 **Assertiva:** "No âmbito da administração pública federal, a governança é responsável pelo planejamento operacional, execução das rotinas administrativas e gestão orçamentária cotidiana, cabendo à gestão a definição de estratégias e o monitoramento da alta administração."
@@ -13373,7 +13639,7 @@ Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o mo
 
 **Justificativa Canônica:** Errado! O Cebraspe inverteu os papéis: a GOVERNANÇA avalia, direciona e monitora a alta administração e as diretrizes estratégicas. A GESTÃO é a responsável por planejar, executar, controlar e coordenar as rotinas e orçamentos operacionais no dia a dia.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Mecanismos da Governança Federal (Decreto 9.203/2017)
 
 **Assertiva:** "De acordo com o Decreto Federal nº 9.203/2017, a política de governança da administração pública federal fundamenta-se nos mecanismos essenciais de liderança, estratégia e controle."
@@ -13382,7 +13648,7 @@ Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o mo
 
 **Justificativa Canônica:** Correto! O art. 2º, II, do Decreto nº 9.203/2017 prevê textualmente a tríade de mecanismos de governança pública: liderança, estratégia e controle.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Modelo das Três Linhas e Auditoria Interna
 
 **Assertiva:** "No modelo das três linhas de defesa acolhido pelos órgãos federais e pelo TCU, a auditoria interna integra a primeira linha, sendo responsável imediata pela execução dos controles operacionais preventivos contra fraudes."
@@ -13393,8 +13659,9 @@ Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o mo
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-1110"></a>
 ## SUBMÓDULO 11.10: Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Princípios e finalidades licitatórias na Lei nº 14.133/2021. Modalidades taxativas: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo. Critérios de julgamento. Contratação direta: Inexigibilidade vs. Dispensa. Fase preparatória: Estudo Técnico Preliminar (ETP) e Termo de Referência (TR).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13438,7 +13705,7 @@ A Lei nº 14.133/2021 consolidou o novo marco legal das licitações e contratos
 
 ### 2. As Cinco Modalidades Licitatórias (Rol Taxativo do Art. 28)
 
-$$\text{Modalidades} = \text{Pregão} + \text{Concorrência} + \text{Concurso} + \text{Leilão} + \text{Diálogo Competitivo}$$
+Modalidades = Pregão + Concorrência + Concurso + Leilão + Diálogo Competitivo
 
 * **Pregão (Art. 29):** Modalidade obrigatória para a aquisição de **bens e serviços comuns**, cujos padrões de desempenho e qualidade possam ser objetivamente definidos pelo edital por meio de especificações usuais de mercado. Critérios de julgamento: menor preço ou maior desconto.
 * **Concorrência (Art. 30):** Destinada a contratação de **bens e serviços especiais** e de **obras e serviços comuns e especiais de engenharia**. Admite os critérios de menor preço, melhor técnica ou conteúdo artístico, técnica e preço, maior retorno econômico e maior desconto.
@@ -13474,7 +13741,7 @@ Ocorre quando há **inviabilidade fática ou jurídica de competição**:
 
 #### 4.2 Dispensa de Licitação (Art. 75 - Rol Taxativo)
 A competição seria teoricamente possível, mas a lei expressamente autoriza ou impõe a contratação direta por razões de conveniência pública, celeridade ou pequeno valor:
-* **Dispensa em Razão do Valor (Inciso I e II):** Obras e serviços de engenharia ou manutenção de veículos até R$ 100.000,00; outros serviços e compras até R$ 50.000,00 (valores atualizados periodicamente por Decreto Federal).
+* **Dispensa em Razão do Valor (Inciso I e II):** Obras e serviços de engenharia ou manutenção de veículos até R 100.000,00; outros serviços e compras até R 50.000,00 (valores atualizados periodicamente por Decreto Federal).
 * **Dispensa por Emergência ou Calamidade (Inciso VIII):** Para atendimento imediato de situação emergencial que cause risco a pessoas, obras ou serviços públicos. Limita-se rigorosamente à parcela indispensável ao atendimento do perigo, pelo prazo máximo de **1 ano** (vedada prorrogação contratual).
 * **Licitação Deserta ou Fracassada (Inciso III):** Quando não acudirem interessados (deserta) ou quando todos forem desclassificados/inabilitados (fracassada), desde que mantidas todas as condições preestabelecidas no edital anterior.
 
@@ -13511,7 +13778,7 @@ A Lei nº 14.133/2021 estabeleceu o **Planejamento** como princípio expresso de
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Modalidades Licitatórias na Lei nº 14.133/2021
 
 **Assertiva:** "Para a aquisição emergencial de obras raras para restauração na Biblioteca da Câmara, o administrador público pode utilizar validamente a modalidade convite, desde que o valor total da compra não ultrapasse os limites fixados para contratações de pequeno valor."
@@ -13520,7 +13787,7 @@ A Lei nº 14.133/2021 estabeleceu o **Planejamento** como princípio expresso de
 
 **Justificativa Canônica:** Errado! A modalidade Convite (assim como a Tomada de Preços) foi EXTINTA pela Lei nº 14.133/2021. As únicas modalidades existentes são: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo. Além disso, restauração de obras raras por notória especialização é hipótese de inexigibilidade de licitação.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Inexigibilidade para Serviços Técnicos Notórios
 
 **Assertiva:** "A contratação direta de renomado especialista em conservação preventiva de pergaminhos históricos para ministrar treinamento aos servidores bibliotecários da Câmara configura hipótese de inexigibilidade de licitação fundada em notória especialização."
@@ -13529,7 +13796,7 @@ A Lei nº 14.133/2021 estabeleceu o **Planejamento** como princípio expresso de
 
 **Justificativa Canônica:** Correto! Nos termos do art. 74, inciso III, alínea "f", da Lei nº 14.133/2021, é inexigível a licitação para treinamento e aperfeiçoamento de pessoal prestado por profissional ou empresa de notória especialização.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Inversão de Fases no Rito Procedimental Comum
 
 **Assertiva:** "Na sistemática procedimental da Lei nº 14.133/2021, a fase de habilitação documental dos licitantes antecede obrigatoriamente a abertura e o julgamento das propostas de preços em todas as modalidades de licitação."
@@ -13540,8 +13807,9 @@ A Lei nº 14.133/2021 estabeleceu o **Planejamento** como princípio expresso de
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-1111"></a>
 ## SUBMÓDULO 11.11: Contratos Administrativos, Gestão e Fiscalização Contratual
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Características do contrato administrativo e cláusulas exorbitantes (art. 104). Duração dos contratos (até 10 anos em contínuos). Gestão vs. Fiscalização técnica e administrativa. Recebimento provisório e definitivo. Alterações contratuais e equilíbrio econômico-financeiro. Sanções.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13658,7 +13926,7 @@ Pela prática de infrações licitatórias e contratuais, aplicam-se quatro san�
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Limites de Duração de Contratos Contínuos na Lei 14.133/21
 
 **Assertiva:** "Contrato de assinatura e suporte técnico continuado de sistema integrado de gestão de bibliotecas (SIGB) celebrado pela Câmara dos Deputados pode ter vigência prorrogada sucessivamente por aditivos até o limite máximo de dez anos."
@@ -13667,7 +13935,7 @@ Pela prática de infrações licitatórias e contratuais, aplicam-se quatro san�
 
 **Justificativa Canônica:** Correto! Nos termos do art. 107 da Lei nº 14.133/2021, os contratos de serviços e fornecimentos contínuos podem ser prorrogados sucessivamente, respeitada a vigência máxima decenal (10 anos), desde que vantajosa a prorrogação.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Exceção de Contrato não Cumprido contra a Administração
 
 **Assertiva:** "Diante de atraso injustificado de trinta dias nos pagamentos devidos pela Administração Pública, a empresa fornecedora de livros pode paralisar imediatamente a entrega das obras com amparo na exceção de contrato não cumprido."
@@ -13676,7 +13944,7 @@ Pela prática de infrações licitatórias e contratuais, aplicam-se quatro san�
 
 **Justificativa Canônica:** Errado! Nos contratos administrativos vigora a mitigação da exceptio non adimpleti contractus (art. 137, § 2º, IV da Lei nº 14.133/2021): o contratado só tem direito de paralisar a execução ou pedir a rescisão contratual caso os atrasos de pagamento ultrapassem dois meses (60 dias).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Alcance da Declaração de Inidoneidade
 
 **Assertiva:** "A declaração de inidoneidade para licitar ou contratar aplicada a um fornecedor por fraude comprovada impede a empresa de participar de licitações exclusivamente no âmbito do órgão sancionador, preservada sua participação nos demais órgãos da União."
@@ -13687,8 +13955,9 @@ Pela prática de infrações licitatórias e contratuais, aplicam-se quatro san�
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-1112"></a>
 ## SUBMÓDULO 11.12: Transparência e Privacidade: Lei de Acesso à Informação e LGPD
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A Lei de Acesso à Informação (Lei nº 12.527/2011): transparência ativa vs. passiva, prazos de resposta e graus de sigilo (ultrassecreto, secreto e reservado). A LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais sensíveis, bases legais, Encarregado (DPO) e harmonização com a LAI.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13736,7 +14005,7 @@ A LAI regulamenta o direito constitucional fundamental de acesso à informação
 São passíveis de classificação temporária as informações cujo sigilo seja comprovadamente imprescindível à segurança da sociedade e do Estado (art. 23):
 
 #### 2.1 Os Três Graus de Sigilo (Art. 24)
-$\text{Prazos de Sigilo} = \begin{cases} \text{Ultrassecreto} & \longrightarrow \text{Até 25 anos (prorrogável 1x por igual período pela CMRI)} \\ \text{Secreto} & \longrightarrow \text{Até 15 anos (sem prorrogação)} \\ \text{Reservado} & \longrightarrow \text{Até 5 anos (sem prorrogação)} \end{cases}$
+Prazos de Sigilo = \begin{cases} Ultrassecreto & \longrightarrow Até 25 anos (prorrogável 1x por igual período pela CMRI) \\ Secreto & \longrightarrow Até 15 anos (sem prorrogação) \\ Reservado & \longrightarrow Até 5 anos (sem prorrogação) \end{cases}
 
 * **Comissão Mista de Reavaliação de Informações (CMRI):** Órgão colegiado que decide, em última instância na esfera do Executivo federal, sobre a prorrogação do prazo de sigilo de documentos ultrassecretos e julga recursos contra negativas de acesso a informações.
 * **Informações Pessoais (Art. 31):** Informações relativas à intimidade, vida privada, honra e imagem dos cidadãos têm acesso restrito, independentemente de classificação de sigilo, pelo prazo máximo de **100 anos** a contar da data de sua produção, tendo acesso assegurado o próprio titular e agentes públicos para cumprimento de atribuições legais.
@@ -13805,7 +14074,7 @@ A jurisprudência do STF (Tema 483 da Repercussão Geral) e as diretrizes conjun
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Exigência de Justificativa em Pedido de Acesso (LAI)
 
 **Assertiva:** "Servidor responsável pelo atendimento de serviço de informação ao cidadão (SIC) na Câmara dos Deputados pode condicionar o fornecimento de relatório de gastos com acervo à declaração formal, pelo solicitante, dos motivos determinantes e do interesse jurídico no pedido."
@@ -13814,7 +14083,7 @@ A jurisprudência do STF (Tema 483 da Repercussão Geral) e as diretrizes conjun
 
 **Justificativa Canônica:** Errado! O art. 10, § 3º, da Lei nº 12.527/2011 proíbe expressamente quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público. O cidadão não é obrigado a justificar por que deseja os dados.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Prazos Máximos de Classificação de Sigilo na LAI
 
 **Assertiva:** "Nos termos da Lei de Acesso à Informação, os documentos classificados no grau de sigilo ultrassecreto têm prazo máximo de restrição de acesso fixado em vinte e cinco anos, admitindo-se uma única prorrogação por igual período por deliberação da Comissão Mista de Reavaliação de Informações."
@@ -13823,7 +14092,7 @@ A jurisprudência do STF (Tema 483 da Repercussão Geral) e as diretrizes conjun
 
 **Justificativa Canônica:** Correto! Conforme o art. 24, § 1º, da LAI, o prazo de ultrassecreto é de até 25 anos. O art. 35, § 1º, confere à CMRI a competência excepcional para prorrogar esse prazo uma única vez por até igual período.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Base Legal para Tratamento de Dados no Setor Público (LGPD)
 
 **Assertiva:** "Sob a égide da LGPD, a Biblioteca da Câmara dos Deputados só pode tratar os dados cadastrais de pesquisadores externos e parlamentares caso obtenha previamente o consentimento expresso e inequívoco de cada titular."
@@ -13841,8 +14110,9 @@ Módulo fundamentado no Modelo Interativo-Compensatório de Keith Stanovich e na
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-121"></a>
 ## SUBMÓDULO 12.1: Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O modelo psicocognitivo interativo-compensatório de Keith Stanovich, processamento top-down vs bottom-up, leitura rápida com Skimming e Scanning, e técnicas de apreensão da ideia central e do propósito comunicativo do autor no padrão Cebraspe.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -13961,7 +14231,7 @@ O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item sobre técnicas de leitura instrumental em língua inglesa para o padrão Cebraspe:
 
 **Assertiva:** "A técnica de leitura conhecida como skimming consiste na busca minuciosa por palavras-chave específicas e dados factuais no texto, como datas, valores e porcentagens, sendo indicada para responder a itens pontuais."
@@ -13970,7 +14240,7 @@ O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal
 
 **Justificativa Canônica:** Inversão clássica de conceitos! A busca por dados específicos, números e palavras-chave pontuais é o SCANNING. O SKIMMING, por sua vez, é a leitura panorâmica rápida destinada a apreender a ideia geral, a organização estrutural e o objetivo global do texto.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue a assertiva referente ao processamento cognitivo segundo o modelo de Keith Stanovich:
 
 **Assertiva:** "De acordo com o modelo interativo-compensatório, um candidato que desconheça um vocábulo específico no texto em inglês pode compensar essa limitação recorrendo ao contexto global da frase e ao seu conhecimento prévio sobre o tema."
@@ -13979,7 +14249,7 @@ O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal
 
 **Justificativa Canônica:** Perfeito. O modelo interativo-compensatório de Keith Stanovich postula que a compreensão leitora resulta da interação simultânea de processos ascendentes (bottom-up) e descendentes (top-down), permitindo que lacunas lexicais sejam compensadas por pistas contextuais e esquemas conceituais do leitor.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item relativo às armadilhas de extrapolação em interpretação de texto da banca Cebraspe:
 
 **Assertiva:** "Caso uma assertiva da prova apresente uma informação verdadeira e coerente com a realidade contemporânea, o candidato deve julgá-la como CERTA, mesmo que tal afirmação não encontre respaldo direto ou inferencial no texto-base apresentado."
@@ -13990,8 +14260,9 @@ O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-122"></a>
 ## SUBMÓDULO 12.2: Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** As famílias funcionais de conectivos em inglês (contraste, concessão, causa, consequência, adição e condição), a distinção sintática entre Although e Despite, e as técnicas de substituição e equivalência semântica cobradas pelo Cebraspe.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -14092,7 +14363,7 @@ O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guard
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item sobre substituição de marcadores discursivos no padrão Cebraspe:
 
 **Assertiva:** "No texto, o vocábulo "However" no início do segundo parágrafo poderia ser substituído por "Therefore" sem prejuízo para a coerência e para a correção gramatical do texto."
@@ -14101,7 +14372,7 @@ O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guard
 
 **Justificativa Canônica:** Erro conceitual gravíssimo! "However" é um conectivo adversativo de CONTRASTE (oposição de ideias, equivalente a "contudo/no entanto"), enquanto "Therefore" é um conectivo conclusivo de CONSEQUÊNCIA (equivalente a "portanto/por conseguinte"). A troca altera totalmente o sentido pretendido pelo autor.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue a assertiva referente à estrutura sintática das linking words concessivas:
 
 **Assertiva:** "A sentença "Despite the president presented strong arguments, the council rejected the proposal" está gramaticalmente correta de acordo com a norma-padrão da língua inglesa."
@@ -14110,7 +14381,7 @@ O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guard
 
 **Justificativa Canônica:** Incorreto. A preposição "Despite" não pode ser seguida diretamente por uma oração com sujeito e verbo conjugado ("the president presented"). O correto seria utilizar a conjunção "Although" ("Although the president presented...") ou a locução "Despite the fact that the president presented...".
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item acerca da equivalência semântica e gramatical de conectivos:
 
 **Assertiva:** "Em textos argumentativos, a palavra "Furthermore" pode ser adequadamente substituída por "Moreover", sem alteração do sentido original de adição de argumentos."
@@ -14121,8 +14392,9 @@ O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guard
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-123"></a>
 ## SUBMÓDULO 12.3: Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Cadeias de referenciação anafórica e catafórica, o uso exato dos pronomes relativos (who, whom, which, that, whose), a distinção clássica entre "the former" e "the latter", e os itens de remissão pronominal mais cobrados pelo Cebraspe.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -14212,7 +14484,7 @@ Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análi
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item referente à referenciação pronominal em textos em língua inglesa segundo o Cebraspe:
 
 **Assertiva:** "Na sentença "The Prime Minister resigned unexpectedly, which caused market instability", o pronome "which" refere-se unicamente ao substantivo "Prime Minister"."
@@ -14221,7 +14493,7 @@ Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análi
 
 **Justificativa Canônica:** Erro recorrente explorado pelo Cebraspe! O pronome relativo "which" após a vírgula funciona como encapsulador sentencial, referindo-se a todo o fato relatado na oração anterior (a renúncia inesperada do Primeiro-Ministro), e não à pessoa do governante.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue a assertiva referente ao uso anafórico de "the former" e "the latter":
 
 **Assertiva:** "Em "The library acquired both printed books and electronic journals; the latter require dedicated digital infrastructure", a expressão "the latter" refere-se a "printed books"."
@@ -14230,7 +14502,7 @@ Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análi
 
 **Justificativa Canônica:** Inversão da referência. A expressão "the latter" refere-se ao segundo/último termo citado no par ("electronic journals"). O primeiro termo ("printed books") seria retomado por "the former".
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item relativo ao pronome relativo possessivo "whose":
 
 **Assertiva:** "O pronome "whose" na oração "The researcher whose paper was selected" estabelece uma relação de posse entre "The researcher" e "paper", correspondendo ao termo "cujo" em língua portuguesa."
@@ -14241,8 +14513,9 @@ Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análi
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-124"></a>
 ## SUBMÓDULO 12.4: Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** O arsenal de falsos amigos (actually, eventually, intend, pretend, comprehensive), a armadilha da alteração de grau nos verbos modais (may/might vs must/will), e o método para julgar itens de paráfrase e reescrita de sentenças no Cebraspe.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -14343,7 +14616,7 @@ Se qualquer um desses 4 pontos tiver sido alterado, o item é **ERRADO**.
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item referente aos falsos amigos (false friends) no padrão Cebraspe:
 
 **Assertiva:** "No trecho "The minister actually defended the immediate review of the policy", o vocábulo "actually" expressa uma circunstância de tempo, indicando que a ação ocorre no momento presente."
@@ -14352,7 +14625,7 @@ Se qualquer um desses 4 pontos tiver sido alterado, o item é **ERRADO**.
 
 **Justificativa Canônica:** Falso cognato clássico! "Actually" é um advérbio que significa "na verdade", "de fato" ou "realmente" (indicando ênfase factual). A ideia temporal de "no momento presente / atualmente" é expressa em inglês por "currently", "at present" ou "nowadays".
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue a assertiva referente à modalização e grau de certeza epistêmica segundo o Cebraspe:
 
 **Assertiva:** "Se o texto original afirma que "The new technology may reduce operating costs in parliamentary libraries", é correto inferir que a nova tecnologia certamente extinguirá os custos de manutenção desses órgãos."
@@ -14361,7 +14634,7 @@ Se qualquer um desses 4 pontos tiver sido alterado, o item é **ERRADO**.
 
 **Justificativa Canônica:** Duplo erro de extrapolação e modalidade! O texto original emprega o modal "may", que indica mera POSSIBILIDADE (pode reduzir), e o verbo "reduce" (reduzir). A assertiva substitui essa possibilidade por certeza absoluta ("certamente") e amplia indevidamente para extinção total dos custos.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item acerca do significado contextual do vocábulo "comprehensive":
 
 **Assertiva:** "A expressão "a comprehensive reform" pode ser corretamente interpretada como "uma reforma abrangente e minuciosa", e não como uma reforma que demonstra empatia ou benevolência."
@@ -14379,9 +14652,20 @@ Módulo estruturado sob rigor metodológico e fundamentado em referências canô
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-131"></a>
 ## SUBMÓDULO 13.1: Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Diferenciação científica entre Compreensão e Interpretação, identificação de anáforas e elipses, operadores argumentativos e as armadilhas clássicas de extrapolação e inversão causal.
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **Anáfora** | Mecanismo de coesão referencial pelo qual um termo retoma um elemento previamente introduzido no texto. | Na frase "A biblioteca adquiriu novos periódicos; eles já estão catalogados", "eles" é anafórico. |
+| **Catáfora** | Mecanismo de coesão referencial pelo qual um termo antecipa uma informação que só virá adiante. | Na frase "Apenas isto interessa: a data de promulgação da lei", o pronome "isto" é catafórico. |
+| **Elipse** | Omissão intencional de um termo facilmente identificável pelo contexto, evitando repetições. | Na frase "A Seção de Atendimento abriu às 8h; a de Obras Raras, às 9h", o verbo abrir foi elidido. |
+| **Concessão** | Relação semântica em que se admite um fato que poderia ser obstáculo, mas não impede a ação principal. | "Embora o acervo estivesse sob higienização, a consulta às obras raras foi autorizada." |
+| **Extrapolação** | Erro clássico em que a assertiva da banca traz ideias externas verídicas, mas sem respaldo no texto. | Afirmar que o autor defende uma teoria porque é famosa na área, sem que o texto a mencione. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)
@@ -14459,7 +14743,7 @@ Na construção do texto formal, os pronomes demonstrativos exercem funções te
 
 O pronome relativo **cujo** (e suas flexões *cuja, cujos, cujas*) é um dos temas prediletos do Cebraspe em provas para a Câmara dos Deputados:
 
-1. **Relação de Posse Obrigatória:** Liga dois substantivos, indicando que o segundo pertence ao primeiro (*"O deputado **cujo** parecer foi lido..."* $ightarrow$ o parecer do deputado).
+1. **Relação de Posse Obrigatória:** Liga dois substantivos, indicando que o segundo pertence ao primeiro (*"O deputado **cujo** parecer foi lido..."* ightarrow o parecer do deputado).
 2. **Proibição Absoluta de Artigo:** É gramaticalmente **proibido** pospor artigo ao pronome (*cujo o*, *cuja a*). A assertiva que sugerir a inserção de artigo após *cujo* deve ser julgada **ERRADA**.
 3. **Regra de Concordância:** O pronome *cujo* concorda em gênero e número com o **termo subsequente** (a coisa possuída), e nunca com o antecedente:
    - *"A instituição [fem. sing.] **cujos** regulamentos [masc. pl.] foram revistos..."* (concorda com *regulamentos*).
@@ -14504,8 +14788,8 @@ O Cebraspe adora explorar a dupla personalidade do vocábulo **pois**:
 No discurso formal, a distinção entre o que está linguisticamente marcado e o que depende do contexto de enunciação é basilar:
 
 * **Pressupostos Textuais:** Ideias introduzidas obrigatoriamente por um elemento linguístico (gatilho). Se negarmos a oração, o pressuposto permanece verdadeiro.
-  - *Advérbios de tempo/mudança:* *"A comissão **ainda** não concluiu os trabalhos"* $ightarrow$ Pressupõe que a conclusão é esperada e que os trabalhos continuam.
-  - *Verbos de cessação/permanência:* *"O parlamentar **deixou de** integrar o colegiado"* $ightarrow$ Pressupõe que antes ele integrava o colegiado.
+  - *Advérbios de tempo/mudança:* *"A comissão **ainda** não concluiu os trabalhos"* ightarrow Pressupõe que a conclusão é esperada e que os trabalhos continuam.
+  - *Verbos de cessação/permanência:* *"O parlamentar **deixou de** integrar o colegiado"* ightarrow Pressupõe que antes ele integrava o colegiado.
 * **Subentendidos:** Mensagens insinuadas nas entrelinhas, que dependem da inferência do interlocutor e que o autor pode negar sem se contradizer gramaticalmente. O Cebraspe somente aceita subentendidos em itens de interpretação quando o contexto geral da passagem fornece evidências inequívocas de sua validade.
 
 ---
@@ -14535,7 +14819,7 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue o item sobre a distinção metodológica entre compreensão e interpretação no Cebraspe:
 
 **Assertiva:** "Nas questões em que o enunciado do Cebraspe utiliza a expressão "Depreende-se do texto que", é permitido ao candidato validar a assertiva com base em fatos e leis notórias da realidade brasileira, ainda que tais elementos não encontrem respaldo direto ou indireto nas premissas do texto apresentado na prova."
@@ -14544,7 +14828,7 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 
 **Justificativa Canônica:** Trata-se do erro clássico de EXTRAPOLAÇÃO. A expressão "depreende-se" autoriza a realização de inferências lógicas, mas tais inferências devem obrigatoriamente derivar das premissas e evidências textuais fornecidas na prova. O uso de informações extratextuais não mencionadas nem sugeridas torna o item incorreto.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item referente ao emprego dos pronomes relativos segundo Celso Cunha e Lindley Cintra:
 
 **Assertiva:** "No trecho "A comissão parlamentar, cujos membros defenderam a urgência da votação, encerrou os trabalhos", o pronome "cujos" estabelece relação de posse com "comissão parlamentar", concorda em gênero e número com "membros" e rejeita a anteposição ou posposição de artigo definido."
@@ -14553,7 +14837,7 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 
 **Justificativa Canônica:** Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 348), o pronome relativo cujo estabelece nexo de posse entre o termo antecedente (comissão) e o subsequente (membros), concordando estritamente com a coisa possuída (membros - masculino plural) e repelindo qualquer artigo ("cujo o" é proibido).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue a assertiva referente ao valor sintático e semântico dos conectivos oracionais:
 
 **Assertiva:** "A substituição da conjunção "conquanto" por "embora" no período "Conquanto houvesse divergência regimental, o parecer foi aprovado" preservaria a correção gramatical e os sentidos originais do texto, uma vez que ambas as conjunções possuem valor estritamente concessivo e regem o modo subjuntivo."
@@ -14564,8 +14848,9 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-132"></a>
 ## SUBMÓDULO 13.2: A Arte da Reescritura e Paráfrase no Padrão Cebraspe
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A metodologia dos três filtros (Correção Gramatical vs Sentido Original vs Coerência Textual), desdobramento de orações reduzidas, transposição rigorosa de vozes verbais e as sutis armadilhas de modalidade epistêmica.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -14624,12 +14909,12 @@ A transposição entre voz ativa e voz passiva analítica é um dos terrenos pre
 4. **O Verbo "Ser" deve assumir rigorosamente o mesmo tempo e modo do verbo ativo original.**
 
 #### Matriz de Espelhamento Verbal Cebraspe:
-* *Presente do Indicativo:* *"A Mesa promulga a emenda"* $ightarrow$ *"A emenda **é promulgada** pela Mesa"*.
-* *Pretérito Perfeito:* *"O plenário aprovou o projeto"* $ightarrow$ *"O projeto **foi aprovado** pelo plenário"*.
-* *Pretérito Imperfeito:* *"A comissão debatia as diretrizes"* $ightarrow$ *"As diretrizes **eram debatidas** pela comissão"*.
-* *Pretérito Mais-que-Perfeito:* *"O relator redigira o voto"* $ightarrow$ *"O voto **fora redigido** pelo relator"*.
-* *Futuro do Presente:* *"O Congresso votará o orçamento"* $ightarrow$ *"O orçamento **será votado** pelo Congresso"*.
-* *Futuro do Pretérito:* *"O presidente vetaria o dispositivo"* $ightarrow$ *"O dispositivo **seria vetado** pelo presidente"*.
+* *Presente do Indicativo:* *"A Mesa promulga a emenda"* ightarrow *"A emenda **é promulgada** pela Mesa"*.
+* *Pretérito Perfeito:* *"O plenário aprovou o projeto"* ightarrow *"O projeto **foi aprovado** pelo plenário"*.
+* *Pretérito Imperfeito:* *"A comissão debatia as diretrizes"* ightarrow *"As diretrizes **eram debatidas** pela comissão"*.
+* *Pretérito Mais-que-Perfeito:* *"O relator redigira o voto"* ightarrow *"O voto **fora redigido** pelo relator"*.
+* *Futuro do Presente:* *"O Congresso votará o orçamento"* ightarrow *"O orçamento **será votado** pelo Congresso"*.
+* *Futuro do Pretérito:* *"O presidente vetaria o dispositivo"* ightarrow *"O dispositivo **seria vetado** pelo presidente"*.
 
 **Armadilha Clássica do Cebraspe:** A banca reescreve *"O colegiado concluiu a auditoria"* por *"A auditoria era concluída pelo colegiado"*. A frase passiva está impecável gramaticalmente, mas a troca de *foi concluída* (ação concluída e pontual) por *era concluída* (ação habitual ou contínua no passado) viola o sentido original.
 
@@ -14674,8 +14959,7 @@ O Cebraspe explora minuciosamente as seguintes adulterações semânticas:
 
 3. **Inversão da Posição do Adjetivo em Relação ao Substantivo (Cunha & Cintra, p. 257):**
    - Na língua portuguesa, a anteposição do adjetivo tende a conferir valor afetivo, conotativo ou subjetivo, enquanto a posposição confere sentido denotativo, objetivo e classificador.
-   - Exemplo: *"um **simples** deputado"* (insignificante, modesto) $
-eq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o candidato julga que essa inversão preserva sempre o sentido original.
+   - Exemplo: *"um **simples** deputado"* (insignificante, modesto) \neq *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o candidato julga que essa inversão preserva sempre o sentido original.
 
 #### Linha do Tempo e Marcos Históricos
 - **1967** (Comunicação e Estilística): Estrutura da Frase e Paráfrase Analítica na Prosa Moderna [Figura-Chave: Othon Moacyr Garcia]
@@ -14697,7 +14981,7 @@ eq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item quanto à preservação da correção gramatical e dos sentidos originais na transposição de vozes verbais:
 
 **Assertiva:** "A substituição da oração "O relator elaborou o parecer conclusivo sobre o projeto de lei" por "O parecer conclusivo sobre o projeto de lei foi elaborado pelo relator" preserva a correção gramatical e as informações originais do texto."
@@ -14706,7 +14990,7 @@ eq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o
 
 **Justificativa Canônica:** Conforme ensina Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 385), a transposição de voz ativa com verbo no pretérito perfeito do indicativo ("elaborou") para voz passiva analítica com o auxiliar "ser" no pretérito perfeito ("foi elaborado") preserva a identidade de tempo, modo e sentido referencial das proposições.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue a assertiva referente à alteração de modalidade epistêmica em itens de paráfrase do Cebraspe:
 
 **Assertiva:** "No trecho "A aprovação célere da reforma tributária pode impulsionar os investimentos do setor produtivo", a substituição de "pode impulsionar" por "impulsionará" manteria a correção gramatical e os sentidos originais do texto, uma vez que ambas as construções expressam a eficácia futura da norma."
@@ -14715,7 +14999,7 @@ eq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o
 
 **Justificativa Canônica:** Embora a correção gramatical seja mantida, os sentidos originais são claramente violados. A locução "pode impulsionar" expressa modalidade de possibilidade/potencialidade (hipótese), enquanto a forma verbal "impulsionará" expressa certeza categórica no futuro. No padrão Cebraspe (Othon Garcia, 2010), a troca de probabilidade por certeza altera substancialmente o sentido da mensagem.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue a assertiva sobre o desdobramento de orações reduzidas e a manutenção do nexo lógico:
 
 **Assertiva:** "No período "Ao constatar divergência regimental, o presidente suspendeu os trabalhos da comissão", a oração reduzida "Ao constatar divergência regimental" possui valor semântico temporal imediato e pode ser substituída, sem prejuízo para a correção gramatical e o sentido original, por "Assim que constatou divergência regimental"."
@@ -14726,8 +15010,9 @@ eq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-133"></a>
 ## SUBMÓDULO 13.3: Sintaxe Avançada, Pontuação, Concordância, Regência e Crase
-**Tempo Estimado:** 55 minutos
+**Tempo Estimado:** 55 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar), o algoritmo decisório da crase e a sintaxe e semântica da pontuação (vírgula proibida, obrigatória e facultativa, e orações adjetivas explicativas vs restritivas).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -14777,8 +15062,8 @@ A palavra "se" será **Partícula Apassivadora** (ou pronome apassivador) quando
 3. O termo sem preposição que segue o verbo exercer a função de **SUJEITO PACIENTE**.
 
 > **Regra de Concordância Obrigatória:** O verbo DEVE concordar em número e pessoa com o sujeito paciente:
-> * *"Identificou-se uma inconformidade no texto."* (Sujeito singular $\rightarrow$ Verbo no singular).
-> * *"**Identificaram-se** várias inconformidades no texto."* (Sujeito plural $\rightarrow$ Verbo no plural).
+> * *"Identificou-se uma inconformidade no texto."* (Sujeito singular \rightarrow Verbo no singular).
+> * *"**Identificaram-se** várias inconformidades no texto."* (Sujeito plural \rightarrow Verbo no plural).
 
 *O Teste da Conversão Analítica:* Para ter certeza absoluta, converta a frase para a voz passiva com o verbo *ser*:
 *"Identificaram-se várias inconformidades"* = *"Várias inconformidades **foram identificadas**"*. Se a conversão for natural, o "se" é apassivador!
@@ -14934,7 +15219,7 @@ Este é o padrão de questão de pontuação com **maior frequência histórica 
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Julgue a assertiva referente à concordância verbal com a partícula "se" apassivadora:
 
 **Assertiva:** "No trecho "Aprovou-se, após intensos debates regimentais, as novas diretrizes orçamentárias da União", a flexão verbal na terceira pessoa do singular justifica-se pelo fato de o sujeito da oração encontrar-se indeterminado pela partícula "se"."
@@ -14943,7 +15228,7 @@ Este é o padrão de questão de pontuação com **maior frequência histórica 
 
 **Justificativa Canônica:** Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 388), o verbo "aprovar" é transitivo direto (VTD). Associado ao pronome "se", forma-se a voz passiva sintética, na qual o termo "as novas diretrizes orçamentárias da União" atua como SUJEITO PACIENTE no plural. Logo, a concordância verbal no plural é rigorosamente obrigatória: "Aprovaram-se (...) as novas diretrizes". O item incorre no erro de confundir apassivação com indeterminação do sujeito.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue o item quanto à pontuação de orações adjetivas e seu impacto semântico no Cebraspe:
 
 **Assertiva:** "No trecho "Os técnicos legislativos, que participaram do treinamento de preservação digital, foram certificados pela diretoria", a supressão de ambas as vírgulas preservaria a correção gramatical do período, mas alteraria os sentidos originais do texto."
@@ -14952,7 +15237,7 @@ Este é o padrão de questão de pontuação com **maior frequência histórica 
 
 **Justificativa Canônica:** Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 642), o isolamento por vírgulas confere à oração adjetiva valor explicativo, atribuindo a participação no treinamento à totalidade dos técnicos. A supressão das vírgulas transforma a oração em restritiva, limitando a certificação apenas à parcela dos técnicos que concluiu o treinamento. Portanto, a gramática permanece impecável, mas o sentido original é substancialmente alterado.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Julgue a assertiva referente ao emprego facultativo do acento grave indicativo de crase:
 
 **Assertiva:** "No trecho "O deputado prestou homenagem a sua bancada partidária", a aposição do acento grave na palavra "a", resultando em "à sua bancada partidária", manteria a correção gramatical e os sentidos originais do texto."
@@ -14963,8 +15248,9 @@ Este é o padrão de questão de pontuação com **maior frequência histórica 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-134"></a>
 ## SUBMÓDULO 13.4: Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal
-**Tempo Estimado:** 50 minutos
+**Tempo Estimado:** 50 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Acordo Ortográfico (acentuação e hífen), a distinção teórico-empírica entre tipos e gêneros textuais segundo Marcuschi, semântica e correlação dos tempos e modos verbais, e sintaxe rigorosa de colocação pronominal (próclise, mesóclise e ênclise).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -15115,13 +15401,13 @@ O verbo é o núcleo predicativo da oração, articulando o tempo cronológico (
 ### 4.3 A Correlação (Harmonia) Verbal em Questões Cebraspe
 A harmonia verbal disciplina a coerência temporal entre a oração principal e a oração subordinada, especialmente em estruturas condicionais, conformativas e concessivas:
 - **Hipótese Provável (Futuro):**
-  - Oração subordinada condicional no **Futuro do Subjuntivo** $ightarrow$ Oração principal no **Futuro do Presente do Indicativo**.
+  - Oração subordinada condicional no **Futuro do Subjuntivo** ightarrow Oração principal no **Futuro do Presente do Indicativo**.
   - *Exemplo:* "Se o relator **acolher** as emendas, a comissão **aprovará** o texto."
 - **Hipótese Improvável ou Contrafactual (Presente/Passado):**
-  - Oração subordinada condicional no **Pretérito Imperfeito do Subjuntivo** $ightarrow$ Oração principal no **Futuro do Pretérito do Indicativo**.
+  - Oração subordinada condicional no **Pretérito Imperfeito do Subjuntivo** ightarrow Oração principal no **Futuro do Pretérito do Indicativo**.
   - *Exemplo:* "Se o relator **acolhesse** as emendas, a comissão **aprovaria** o texto."
 - **Hipótese Não Realizada no Passado (Irrealidade Pretérica):**
-  - Oração condicional no **Pretérito Mais-que-perfeito Composto do Subjuntivo** $ightarrow$ Oração principal no **Futuro do Pretérito Composto do Indicativo**.
+  - Oração condicional no **Pretérito Mais-que-perfeito Composto do Subjuntivo** ightarrow Oração principal no **Futuro do Pretérito Composto do Indicativo**.
   - *Exemplo:* "Se o relator **tivesse acolhido** as emendas, a comissão **teria aprovado** o texto."
 
 ---
@@ -15201,7 +15487,7 @@ A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriament
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Ditongos Abertos no Acordo Ortográfico
 
 **Assertiva:** "Com a vigência do Acordo Ortográfico da Língua Portuguesa, palavras como "ideia", "plateia" e "herói" deixaram de ser grafadas com acento agudo, em razão da regra de simplificação que extinguiu o acento gráfico sobre os ditongos abertos "ei" e "oi"."
@@ -15210,7 +15496,7 @@ A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriament
 
 **Justificativa Canônica:** Errado! O Acordo Ortográfico extinguiu o acento agudo nos ditongos abertos "éi" e "ói" exclusivamente nas palavras PAROXÍTONAS (como "ideia", "plateia", "heroico", "jiboia", "assembleia"). Nas palavras OXÍTONAS e nos MONOSSÍLABOS TÔNICOS terminados nesses ditongos, o acento gráfico PERMANECE OBRIGATÓRIO (como "herói", "troféu", "pastéis", "coronéis", "dói", "céu"). Portanto, "herói" continua sendo obrigatoriamente acentuada.
 
-#### Checkpoint 2 (CERTO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Tipos vs. Gêneros Textuais segundo Luiz Antônio Marcuschi
 
 **Assertiva:** "Na teoria linguística moderna sistematizada por Luiz Antônio Marcuschi, os tipos textuais constituem constructos teóricos definidos por traços linguísticos intrínsecos e formam um conjunto finito de categorias (como narração e dissertação), ao passo que os gêneros textuais são realizações discursivas empíricas, ilimitadas e fluidas, historicamente vinculadas a práticas sociocomunicativas (como ata, edital e parecer legislativo)."
@@ -15219,7 +15505,7 @@ A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriament
 
 **Justificativa Canônica:** Correto! A assertiva reflete com exatidão a clássica distinção cunhada por Luiz Antônio Marcuschi. Os tipos textuais (ou sequências tipológicas) são categorias teóricas finitas (narração, descrição, dissertação expositiva, dissertação argumentativa e injunção) identificadas pela estrutura interna léxico-gramatical e temporal. Já os gêneros textuais são formas empíricas infinitas de comunicação social, mutáveis no tempo, que cumprem funções pragmáticas específicas nas diversas esferas da atividade humana (por exemplo, ofício, parecer, ata, editorial).
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Colocação Pronominal e Palavra Atrativa
 
 **Assertiva:** "No trecho "Não se admitirão emendas fora dos prazos estabelecidos", a alteração da colocação pronominal para "Não admitir-se-ão emendas fora dos prazos estabelecidos" preservaria a correção gramatical do texto, por se tratar de verbo conjugado no futuro do presente do indicativo, tempo verbal que exige prioritariamente a mesóclise."
@@ -15237,8 +15523,9 @@ Módulo canônico exaustivo estruturado com rigor absoluto conforme o item 5 de 
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-141"></a>
 ## SUBMÓDULO 14.1: MSOffice 365 e Ferramentas de Comunicação e Colaboração
-**Tempo Estimado:** 35 minutos
+**Tempo Estimado:** 35 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -15248,7 +15535,7 @@ Módulo canônico exaustivo estruturado com rigor absoluto conforme o item 5 de 
 - Câmara dos Deputados (Ditec)
 
 ### ALERTAS E ARMADILHAS DA BANCA CEBRASPE
-> ⚠️ **Alerta:** Microsoft Excel 365: operadores aritméticos fundamentais (+, -, *, /, ^ para exponenciação e % para percentual); referências relativas (A1), absolutas ($A$1) e mistas ($A1 ou A$1); funções estatísticas e de busca (PROCV, PROCX, SOMA, MÉDIA, SE, SOMASE e CONT.SE); tabelas dinâmicas conectadas a modelos semânticos.
+> ⚠️ **Alerta:** Microsoft Excel 365: operadores aritméticos fundamentais (+, -, *, /, ^ para exponenciação e % para percentual); referências relativas (A1), absolutas (A1) e mistas (A1 ou A1); funções estatísticas e de busca (PROCV, PROCX, SOMA, MÉDIA, SE, SOMASE e CONT.SE); tabelas dinâmicas conectadas a modelos semânticos.
 
 > ⚠️ **Alerta:** OneDrive e Nuvem: o recurso "Arquivos Sob Demanda" (Files On-Demand) permite visualizar e gerenciar arquivos na nuvem sem ocupar espaço de armazenamento no disco rígido local; o versionamento automático preserva o histórico de revisões para recuperação contra corrupção acidental.
 
@@ -15263,7 +15550,7 @@ Módulo canônico exaustivo estruturado com rigor absoluto conforme o item 5 de 
 | Aplicativo | Finalidade Primordial | Funcionalidades Críticas Cebraspe | Pegadinha Mapeada |
 | --- | --- | --- | --- |
 | Microsoft Word | Processamento e redação técnica de textos normativos | Controle de alterações, quebras de seção, mala direta e estilos | Dizer que quebra de página permite alterar a orientação para paisagem isoladamente (FALSO: exige quebra de seção). |
-| Microsoft Excel | Planilhas de cálculo, modelagem financeira e estatística | Fórmulas, referências relativas/absolutas ($), PROCV/PROCX e tabelas dinâmicas | Confundir PROCX (bidirecional, não exige ordenação prévia) com PROCV (apenas esquerda para direita). |
+| Microsoft Excel | Planilhas de cálculo, modelagem financeira e estatística | Fórmulas, referências relativas/absolutas (), PROCV/PROCX e tabelas dinâmicas | Confundir PROCX (bidirecional, não exige ordenação prévia) com PROCV (apenas esquerda para direita). |
 | Microsoft PowerPoint | Comunicação visual e apresentações institucionais | Slide mestre, modos de exibição, animações e exportação em PDF/vídeo | Afirmar que a alteração de fonte no slide mestre não se propaga aos slides normais (FALSO: propaga-se a todos). |
 | Microsoft OneDrive | Armazenamento em nuvem e compartilhamento seguro | Arquivos sob demanda, versionamento automático e permissões de link | Dizer que arquivos sob demanda exigem download obrigatório prévio de todo o acervo (FALSO). |
 
@@ -15281,11 +15568,11 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 
 #### B. Microsoft Excel 365
 * **Sintaxe e Prioridade de Operadores:**
-  * Parênteses () $ightarrow$ Exponenciação (^) $ightarrow$ Multiplicação (*) e Divisão (/) $ightarrow$ Adição (+) e Subtração (-).
+  * Parênteses () ightarrow Exponenciação (^) ightarrow Multiplicação (*) e Divisão (/) ightarrow Adição (+) e Subtração (-).
 * **Tipos de Referências de Células (*⚠️ Clássico Cebraspe*):**
   * **Relativa (`A1`):** Desloca-se dinamicamente ao copiar e colar ou arrastar pela alça de preenchimento.
-  * **Absoluta (`$A$1`):** Trava completamente a coluna A e a linha 1 através do caractere cifrão ($), permanecendo fixa independentemente do destino da cópia.
-  * **Mista (`$A1` ou `A$1`):** Trava apenas a coluna (`$A1`) ou apenas a linha (`A$1`).
+  * **Absoluta (`A1`):** Trava completamente a coluna A e a linha 1 através do caractere cifrão (``), permanecendo fixa independentemente do destino da cópia.
+  * **Mista (`A1` ou `A1`):** Trava apenas a coluna (`A1`) ou apenas a linha (`A1`).
 * **Funções Essenciais:**
   * `=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)`
   * `=PROCV(valor_procurado; matriz_tabela; núm_índice_coluna; [procurar_intervalo])`: Busca apenas da esquerda para a direita.
@@ -15334,7 +15621,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Microsoft Excel - Referências e PROCX
 
 **Assertiva:** "No Microsoft Excel 365, a função PROCX permite localizar dados tanto à direita quanto à esquerda da coluna de pesquisa, diferentemente da função PROCV tradicional, que restringe a busca da esquerda para a direita."
@@ -15343,7 +15630,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 
 **Justificativa Canônica:** Correto! Conforme a documentação oficial da Microsoft (2022), a função PROCX supera a limitação unidirecional do PROCV, permitindo retornos em qualquer sentido matricial.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: OneDrive e Arquivos Sob Demanda
 
 **Assertiva:** "O recurso de Arquivos Sob Demanda do Microsoft OneDrive exige que todo o conteúdo armazenado na nuvem seja compulsoriamente baixado para o disco rígido local do usuário para que os arquivos possam ser listados no Explorador de Arquivos."
@@ -15352,7 +15639,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 
 **Justificativa Canônica:** Errado! Segundo a Microsoft (2022), o recurso Arquivos Sob Demanda lista os metadados dos arquivos sem consumir espaço local no disco; o download só ocorre quando o usuário solicita a abertura do arquivo.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Microsoft Word - Quebras de Seção
 
 **Assertiva:** "No Microsoft Word 365, a alteração da orientação de página de retrato para paisagem em apenas uma página intermediária do documento exige a inserção de quebras de seção no início e no término da referida página."
@@ -15363,9 +15650,20 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-142"></a>
 ## SUBMÓDULO 14.2: Redes de Computadores, Internet/Intranet, Criptografia e Gestão de Riscos de Segurança da Informação
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Arquitetura TCP/IP, modelos de rede e navegação web; ameaças cibernéticas (malware, ransomware, phishing e pharming); mecanismos de proteção (firewall, antivírus, MFA); criptografia simétrica, assimétrica, hash, assinatura digital e ICP-Brasil (MP nº 2.200-2/2001); políticas de backup (regra 3-2-1) e gestão de riscos informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023).
+
+### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL
+
+| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |
+| :--- | :--- | :--- |
+| **Hash** | Função matemática unidirecional que converte qualquer volume de dados em um resumo de tamanho fixo para atestar fixidez. | Calcular SHA-256 de ata parlamentar para certificar que nenhum bit foi corrompido ou adulterado. |
+| **Criptografia Assimétrica** | Criptografia baseada em par de chaves: chave pública (para cifrar) e chave privada (para decifrar e assinar). | Garantir que pareceres jurídicos sejam assinados com a chave privada do consultor legislativo. |
+| **Assinatura Digital** | Mecanismo criptográfico que atesta autoria, integridade e não repúdio a documentos digitais com certificado ICP-Brasil. | Assinatura digital com token ICP-Brasil A3 para homologação oficial de autógrafos de leis. |
+| **Ransomware** | Software malicioso que sequestra sistemas informacionais criptografando arquivos e exigindo resgate financeiro. | Risco cibernético enfrentado por repositórios digitais, exigindo backups desconectados (air-gapped). |
+| **Regra 3-2-1** | Estratégia de backup: manter pelo menos 3 cópias, em 2 mídias diferentes, com 1 cópia fora do local físico. | Manter cópia dos arquivos digitais da Câmara no cofre local e réplica em nuvem governamental em outra cidade. |
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
 - Andrew Tanenbaum (2021)
@@ -15427,7 +15725,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
   * **HTTP (porta 80 TCP) e HTTPS (porta 443 TCP):** Protocolo de transferência de hipertexto; o HTTPS implementa criptografia em trânsito com TLS/SSL.
   * **SSH (Secure Shell - porta 22 TCP):** Acesso remoto e execução de comandos seguros com autenticação criptografada por chaves públicas/privadas, substituindo o obsoleto e inseguro Telnet (porta 23).
 * **Camada de Transporte:**
-  * **TCP (Transmission Control Protocol):** Orientado a conexão, confiável, garante entrega ordenada de pacotes com controle de fluxo e congestionamento por meio do *three-way handshake* (SYN $ightarrow$ SYN-ACK $ightarrow$ ACK).
+  * **TCP (Transmission Control Protocol):** Orientado a conexão, confiável, garante entrega ordenada de pacotes com controle de fluxo e congestionamento por meio do *three-way handshake* (SYN ightarrow SYN-ACK ightarrow ACK).
   * **UDP (User Datagram Protocol):** Não orientado a conexão, sem confirmação de entrega (*best-effort*), de baixa latência e alta velocidade, ideal para transmissões ao vivo de áudio e vídeo da TV Câmara e consultas DNS.
 * **Camada de Rede / Internet:**
   * **IP (IPv4 e IPv6):** Roteamento e endereçamento lógico de pacotes. O IPv4 utiliza 32 bits (4 octetos decimais separados por pontos); o IPv6 utiliza 128 bits (8 grupos de 4 dígitos hexadecimais separados por dois-pontos).
@@ -15493,7 +15791,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 * **Conceito:** Utiliza **a mesma chave secreta** para cifrar o texto em claro (*plaintext*) e para decifrar o texto cifrado (*ciphertext*).
 * **Vantagens e Desvantagens:**
   * *Vantagens:* Altíssima velocidade de processamento e baixo consumo computacional; ideal para cifrar grandes volumes de dados em repouso (bancos de dados relacionais, unidades de disco e fitas de backup).
-  * *Desvantagens:* Problema crítico de **distribuição de chaves** (como enviar a chave secreta ao destinatário sem que ela seja interceptada no canal) e escalabilidade quadrática ($n(n-1)/2$ chaves necessárias para $n$ usuários se comunicarem aos pares em segredo).
+  * *Desvantagens:* Problema crítico de **distribuição de chaves** (como enviar a chave secreta ao destinatário sem que ela seja interceptada no canal) e escalabilidade quadrática (n(n-1)/2 chaves necessárias para n usuários se comunicarem aos pares em segredo).
 * **Algoritmos Canônicos:**
   * **AES (Advanced Encryption Standard):** Padrão do NIST e mundial, cifra de bloco operando em blocos de 128 bits com chaves de 128, 192 ou 256 bits. Robusto contra ataques práticos.
   * **DES / 3DES (Data Encryption Standard):** Obsoletos; o DES (chave efetiva de 56 bits) é vulnerável a ataques de força bruta; o 3DES aplica o DES três vezes, mas foi superado pelo AES em segurança e eficiência.
@@ -15509,15 +15807,15 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
   * *Desvantagens:* Custo computacional centenas a milhares de vezes superior à simétrica; inviável para cifração direta de arquivos gigantescos.
 * **Algoritmos Canônicos:**
   * **RSA (Rivest, Shamir, Adleman, 1977):** Baseado na dificuldade de fatoração de produtos de primos grandes. Chaves recomendadas de no mínimo 2048 ou 4096 bits.
-  * **ECC (Elliptic Curve Cryptography):** Baseado em logaritmos discretos em curvas elípticas. Oferece o mesmo nível de segurança do RSA com chaves drasticamente menores (ex.: 256 bits ECC $\approx$ 3072 bits RSA), com menor consumo de memória e energia.
+  * **ECC (Elliptic Curve Cryptography):** Baseado em logaritmos discretos em curvas elípticas. Oferece o mesmo nível de segurança do RSA com chaves drasticamente menores (ex.: 256 bits ECC ≈ 3072 bits RSA), com menor consumo de memória e energia.
 
 #### C. Funções de Resumo Criptográfico (*Hash Functions*) e Fixidez na Preservação Digital
 * **Conceito:** Algoritmo matemático determinístico e **unidirecional (*one-way*)** que mapeia uma entrada de tamanho arbitrário em um resumo binário de tamanho estritamente fixo (*hash* ou *digest*).
 * **Propriedades Indispensáveis:**
   1. *Determinismo:* O mesmo dado de entrada sempre produz exatamente o mesmo hash.
-  2. *Unidirecionalidade (Resistência à Primeira Pré-Imagem):* Dado um resumo $h$, é computacionalmente inviável encontrar a entrada $x$ tal que $\text{Hash}(x) = h$.
-  3. *Resistência à Segunda Pré-Imagem:* Dada uma entrada $x$, é computacionalmente inviável encontrar outra entrada $y \neq x$ tal que $\text{Hash}(y) = \text{Hash}(x)$.
-  4. *Resistência a Colisões:* É computacionalmente inviável encontrar quaisquer duas entradas distintas $x$ e $y$ que gerem o mesmo resumo.
+  2. *Unidirecionalidade (Resistência à Primeira Pré-Imagem):* Dado um resumo h, é computacionalmente inviável encontrar a entrada x tal que Hash(x) = h.
+  3. *Resistência à Segunda Pré-Imagem:* Dada uma entrada x, é computacionalmente inviável encontrar outra entrada y \neq x tal que Hash(y) = Hash(x).
+  4. *Resistência a Colisões:* É computacionalmente inviável encontrar quaisquer duas entradas distintas x e y que gerem o mesmo resumo.
   5. *Efeito Avalanche:* A alteração de um único bit no arquivo original modifica de forma imprevisível cerca de 50% dos bits do resumo gerado.
 * **Famílias de Algoritmos:**
   * **MD5 (128 bits) e SHA-1 (160 bits):** Criptograficamente **vulneráveis e obsoletos**. Ataques práticos comprovaram geração de colisões. Proibidos para segurança e certificação digital na ICP-Brasil.
@@ -15526,7 +15824,9 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
 * **Aplicação Canônica em Bibliotecas e Arquivos (Fixidez / *Fixity*):**
   * No modelo **OAIS (ISO 14721)** e no esquema de metadados **PREMIS (ISO 16363)**, a geração de resumos de hash (SHA-256) na ingestão de Pacotes de Informação para Submissão (SIP) e sua verificação periódica no armazenamento (AIP) constituem a rotina técnica de **auditoria de fixidez (*fixity check*)**, garantindo que nenhum documento legislativo sofreu alteração maliciosa ou degradação silenciosa de bits (*bit rot* / *silent data corruption*).
 
-#### D. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
+### 5. Assinatura Digital e ICP-Brasil Asseguram Autenticidade, Integridade e Não Repúdio com Validade Jurídica
+
+#### A. Assinatura Digital: Funcionamento, Propriedades e Distinções Críticas
 * **Mecanismo de Geração e Verificação:**
   1. *Geração (Signatário):* O software aplica uma função de hash (ex.: SHA-256) ao documento original, produzindo um resumo. Em seguida, cifra esse resumo utilizando a **chave privada** do signatário. O resultado cifrado é a **assinatura digital**, que é anexada ao documento.
   2. *Verificação (Destinatário ou Cidadão):* O verificador decifra a assinatura digital utilizando a **chave pública** do signatário, obtendo o resumo original. Paralelamente, calcula o hash do documento recebido. Se ambos os resumos forem perfeitamente idênticos, a assinatura é matematicamente válida.
@@ -15539,7 +15839,7 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
   * *Assinatura Eletrônica:* Gênero amplo (Lei Federal nº 14.063/2020) que abrange qualquer método eletrônico de identificação (login e senha, código SMS, biometria). Divide-se em: simples, avançada e qualificada.
   * *Assinatura Digital Qualificada (ICP-Brasil):* Espécie tecnicamente mais rigorosa, gerada por criptografia assimétrica lastreada em certificado digital emitido no âmbito da ICP-Brasil, com presunção legal absoluta de veracidade.
 
-#### E. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
+#### B. A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil - MP nº 2.200-2/2001)
 * **Origem e Marco Legal:** Criada pela **Medida Provisória nº 2.200-2, de 24 de agosto de 2001**, com a finalidade de garantir a autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica e das aplicações de suporte no Brasil.
 * **Estrutura Hierárquica da ICP-Brasil:**
   * **AC Raiz (Autoridade Certificadora Raiz):** Única autoridade do topo da cadeia de confiança, operada pelo **ITI (Instituto Nacional de Tecnologia da Informação)**, autarquia vinculada à Casa Civil da Presidência da República. Executa a geração das chaves da AC Raiz e emite, expede, distribui, revoga e gerencia os certificados das Autoridades Certificadoras de primeiro nível.
@@ -15582,9 +15882,9 @@ O processo é dinâmico, iterativo e compõe-se das seguintes etapas interligada
 5. **Monitoramento e Análise Crítica:** Acompanhamento permanente da evolução das ameaças, eficácia dos controles e reavaliação periódica dos riscos residuais.
 6. **Registro e Relato:** Documentação formal de todo o processo para auditoria, governança e prestação de contas.
 
-#### C. Matriz de Probabilidade $	imes$ Impacto Aplicada à Biblioteca Pedro Aleixo (Caso Concreto)
+#### C. Matriz de Probabilidade 	imes Impacto Aplicada à Biblioteca Pedro Aleixo (Caso Concreto)
 
-A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos históricos do Império e da República quanto o Repositório Institucional da Câmara (depósito legal e produção legislativa digital). A tabela a seguir ilustra a aplicação prática da matriz de riscos $3 \times 3$:
+A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos históricos do Império e da República quanto o Repositório Institucional da Câmara (depósito legal e produção legislativa digital). A tabela a seguir ilustra a aplicação prática da matriz de riscos 3 × 3:
 
 | ID do Risco | Evento / Ameaça Identificada | Vulnerabilidade Associada | Probabilidade | Impacto | Nível de Risco | Estratégia de Tratamento Adotada |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -15624,7 +15924,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Segurança da Informação - Phishing vs. Pharming
 
 **Assertiva:** "No ataque de pharming, o usuário é induzido por um e-mail fraudulento a clicar em um link enganoso; diferentemente do phishing, no qual a tabela de resolução de nomes (DNS) é corrompida para redirecionar o tráfego mesmo quando o endereço correto é digitado."
@@ -15633,7 +15933,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 **Justificativa Canônica:** Errado! Segundo as diretrizes do CERT.br (2021) e William Stallings (2018), os conceitos foram invertidos pela banca. O phishing baseia-se na indução humana por mensagens capciosas (engenharia social), enquanto o pharming compromete a resolução de nomes (DNS Cache Poisoning ou arquivo hosts) redirecionando o tráfego tecnicamente mesmo com a digitação da URL correta.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Criptografia Assimétrica, Assinatura Digital e ICP-Brasil
 
 **Assertiva:** "No âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, a assinatura digital qualificada é gerada a partir da cifração do resumo criptográfico (hash) do documento eletrônico com a chave pública do signatário, permitindo que qualquer terceiro decifre a assinatura com a chave privada correspondente para atestar a autenticidade."
@@ -15642,7 +15942,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 **Justificativa Canônica:** Errado! Conforme preceituado por William Stallings (2018) e pela MP nº 2.200-2/2001, a assinatura digital é gerada mediante a cifração do hash do documento com a chave PRIVADA do signatário (de posse exclusiva deste). A verificação da assinatura é realizada por terceiros decifrando-a com a chave PÚBLICA do signatário. A assertiva inverteu a função das chaves.
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Gestão de Riscos Informacionais (ISO 31000 e ISO/IEC 27005)
 
 **Assertiva:** "De acordo com a ABNT NBR ISO 31000:2018 e a ABNT NBR ISO/IEC 27005:2023, o processo de avaliação de riscos (risk assessment) compreende as etapas sequenciais de identificação de riscos, análise de riscos e avaliação de riscos, sendo esta última a fase em que os níveis de risco estimados são comparados com os critérios de tolerância definidos para orientar a tomada de decisão sobre o tratamento."
@@ -15653,8 +15953,9 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-143"></a>
 ## SUBMÓDULO 14.3: Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público
-**Tempo Estimado:** 40 minutos
+**Tempo Estimado:** 40 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Paradigmas de Machine Learning (supervisionado, não-supervisionado e por reforço/RLHF); arquitetura Transformer e LLMs; técnicas de engenharia de prompts (Zero-shot, Few-shot, Chain-of-Thought e RAG); governança ética, LGPD, explicabilidade e supervisão humana (human-in-the-loop).
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -15680,7 +15981,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 | Técnica | Mecanismo Operacional | Quando Utilizar | Vantagem Crítica / Atenção Cebraspe |
 | --- | --- | --- | --- |
 | Zero-shot Prompting | Instrução direta sem fornecer nenhum exemplo demonstrativo no contexto | Tarefas canônicas de síntese, tradução ou classificação simples | Baixo consumo de tokens; pode falhar em tarefas de raciocínio abstrato ou formatações rígidas. |
-| Few-shot Prompting | Inclusão de 2 ou mais pares de (Entrada $\rightarrow$ Saída) no corpo do prompt | Padronização de formatos específicos de saída (JSON, tabelas ou ementas) | Ensina o padrão por indução em tempo de inferência (*in-context learning*) sem alterar pesos da rede. |
+| Few-shot Prompting | Inclusão de 2 ou mais pares de (Entrada \rightarrow Saída) no corpo do prompt | Padronização de formatos específicos de saída (JSON, tabelas ou ementas) | Ensina o padrão por indução em tempo de inferência (*in-context learning*) sem alterar pesos da rede. |
 | Chain-of-Thought (CoT) | Estimulação de raciocínio passo a passo antes de emitir a conclusão final | Problemas matemáticos, inferências jurídicas e interpretação de regras lógicas | Reduz saltos ilógicos e erros de dedução ao exteriorizar a cadeia de premissas intermediárias. |
 | RAG (Recuperação Aumentada) | Busca vetorial em base de documentos indexada + injeção de contexto no prompt | Consultas a bases normativas, acervos jurisprudenciais ou manuais internos da Câmara | Elimina alucinações ao ancorar a resposta em fatos comprovados; dispensa retreinamento oneroso. |
 
@@ -15694,7 +15995,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 #### B. Os Três Grandes Paradigmas de Aprendizado de Máquina
 1. **Aprendizado Supervisionado (*Supervised Learning*):**
-   * **Dados:** Conjuntos rotulados compostos por atributos preditores ($X$) e um rótulo-alvo verdadeiro ($y$).
+   * **Dados:** Conjuntos rotulados compostos por atributos preditores (X) e um rótulo-alvo verdadeiro (y).
    * **Classificação:** O rótulo é discreto/categórico (ex.: classificar se uma petição é constitucional ou inconstitucional; detecção de spam/phishing).
    * **Regressão:** O rótulo é contínuo/numérico (ex.: estimar o tempo de tramitação de uma proposição legislativa em dias).
 2. **Aprendizado Não-Supervisionado (*Unsupervised Learning*):**
@@ -15770,7 +16071,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (CERTO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Engenharia de Prompts - Chain-of-Thought (CoT)
 
 **Assertiva:** "A técnica de engenharia de prompts denominada Chain-of-Thought (CoT) fundamenta-se na instrução para que o modelo de linguagem decomponha o raciocínio em etapas lógicas intermediárias antes de emitir a resposta definitiva, demonstrando eficácia sobretudo em problemas de inferência e cálculo."
@@ -15779,7 +16080,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 **Justificativa Canônica:** Correto! O CoT (Wei et al., 2022) força a geração de premissas dedutivas sequenciais passo a passo, o que reduz substancialmente saltos lógicos e respostas incorretas em tarefas analíticas complexas.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Recuperação de Informações - Arquitetura RAG
 
 **Assertiva:** "A arquitetura RAG (Retrieval-Augmented Generation) atua exclusivamente por meio da alteração e do retreinamento profundo dos pesos da rede neural do LLM, dispensando a consulta a bancos de dados externos de documentos."
@@ -15788,7 +16089,7 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 **Justificativa Canônica:** Errado! Conforme demonstrado por Vaswani et al. (2017) e Lewis et al. (2020), o RAG combina a busca em bases de dados externas com a injeção do contexto recuperado no prompt em tempo de inferência, sem realizar retreinamento nem alterar os pesos sinápticos do modelo.
 
-#### Checkpoint 3 (ERRADO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Governança Pública de IA - Supervisão Humana
 
 **Assertiva:** "No âmbito da administração pública e do Poder Legislativo, a incorporação de sistemas de inteligência artificial generativa autoriza a transferência da competência decisória final para os algoritmos em procedimentos administrativos rotineiros, dispensando a revisão por servidor público."
@@ -15799,8 +16100,9 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 
 
 ---------------------------------------------------------------------
+<a id="submodulo-144"></a>
 ## SUBMÓDULO 14.4: Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling
-**Tempo Estimado:** 45 minutos
+**Tempo Estimado:** 45 minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)
 **Descrição:** Tipologia de dados; estatística descritiva e EDA (Tukey); mineração de dados (metodologia CRISP-DM, tarefas descritivas e preditivas); mineração de textos (pipeline de PLN, tokenização, stopwords, stemming vs lematização, TF-IDF e Lei de Zipf/Luhn); pipeline de ETL/ELT; gramática dos gráficos; ferramentas analíticas corporativas (Power BI, Tableau, Looker Studio) e storytelling com dados.
 
 ### AUTORES CANÔNICOS & REFERÊNCIAS ESSENCIAIS
@@ -15863,22 +16165,22 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
   * **Mediana:** Ponto central que divide o conjunto de dados ordenados em duas metades com 50% dos dados cada. É uma medida **robusta e resistente a outliers**.
   * **Moda:** O valor que ocorre com maior frequência na distribuição de dados.
 * **Dispersão e Variabilidade:**
-  * **Variância ($s^2$):** Média dos desvios quadráticos em relação à média.
-  * **Desvio-Padrão ($s$):** Raiz quadrada da variância, expressa na mesma unidade de medida dos dados originais.
-  * **Intervalo Interquartil (IQR):** Diferença entre o terceiro quartil (Q3, percentil 75) e o primeiro quartil (Q1, percentil 25): $\text{IQR} = Q3 - Q1$.
+  * **Variância (s^2):** Média dos desvios quadráticos em relação à média.
+  * **Desvio-Padrão (s):** Raiz quadrada da variância, expressa na mesma unidade de medida dos dados originais.
+  * **Intervalo Interquartil (IQR):** Diferença entre o terceiro quartil (Q3, percentil 75) e o primeiro quartil (Q1, percentil 25): IQR = Q3 - Q1.
 
 #### D. Análise Exploratória de Dados (EDA - Exploratory Data Analysis)
 Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza investigar as características fundamentais de um conjunto de dados por meio de gráficos e medidas sumárias antes de aplicar qualquer modelagem formal:
 * **Sumário de Cinco Números de Tukey:** Mínimo, Primeiro Quartil (Q1), Mediana (Q2), Terceiro Quartil (Q3) e Máximo.
 * **Detecção de Valores Discrepantes (Outliers):**
-  * *Regra de Tukey (IQR):* Observações situadas abaixo de $Q1 - 1,5 \times \text{IQR}$ ou acima de $Q3 + 1,5 \times \text{IQR}$.
-  * *Escore Padrão (Z-Score):* Em distribuições aproximadamente normais, dados com $|Z| > 3$ (afastamento superior a três desvios-padrão da média).
+  * *Regra de Tukey (IQR):* Observações situadas abaixo de Q1 - 1,5 × IQR ou acima de Q3 + 1,5 × IQR.
+  * *Escore Padrão (Z-Score):* Em distribuições aproximadamente normais, dados com |Z| > 3 (afastamento superior a três desvios-padrão da média).
 * **Tratamento de Dados Faltantes (Missing Values):**
   * *Exclusão Listwise:* Descarte de registros inteiros incompletos (aceitável apenas se a perda for pequena e aleatória - MCAR).
   * *Imputação:* Substituição de valores ausentes pela mediana (robusta a outliers) ou média da variável, ou por modelos preditivos (K-Nearest Neighbors).
 * **Correlação vs. Causalidade:**
-  * *Coeficiente de Correlação Linear de Pearson ($r$):* Varia entre $-1$ e $+1$, mensurando a força e a direção da associação linear entre duas variáveis contínuas.
-  * *Coeficiente de Postos de Spearman ($\rho$):* Avalia associações monotônicas entre variáveis ordinais ou contínuas não lineares.
+  * *Coeficiente de Correlação Linear de Pearson (r):* Varia entre -1 e +1, mensurando a força e a direção da associação linear entre duas variáveis contínuas.
+  * *Coeficiente de Postos de Spearman (\rho):* Avalia associações monotônicas entre variáveis ordinais ou contínuas não lineares.
   * **Advertência de Rigor:** Constatar correlação estatística entre dois fenômenos jamais comprova que um causa o outro; podem existir variáveis ocultas intervenientes (*confounding variables*) ou correlações puramente casuais (espúrias).
 
 ---
@@ -15904,10 +16206,10 @@ Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza
 * **Box Plot (Diagrama de Caixas de Tukey):**
   * A linha central da caixa representa a **Mediana** (Q2).
   * As bordas inferior e superior da caixa indicam, respectivamente, o **Primeiro Quartil (Q1 - 25%)** e o **Terceiro Quartil (Q3 - 75%)**.
-  * A altura da caixa é a distância interquartil: $\text{IQR} = Q3 - Q1$.
-  * As hastes (*whiskers*) estendem-se até o menor e maior valor dentro do limite de $1,5 \times \text{IQR}$.
+  * A altura da caixa é a distância interquartil: IQR = Q3 - Q1.
+  * As hastes (*whiskers*) estendem-se até o menor e maior valor dentro do limite de 1,5 × IQR.
   * Pontos plotados além dos limites das hastes são formalmente classificados como **outliers** (valores discrepantes).
-* **Gráfico de Dispersão (*Scatter Plot*):** Plota pontos de dados ao longo de dois eixos cartesianos ($X$ e $Y$), permitindo identificar correlação linear ou não linear, agrupamentos naturais e dispersão conjunta.
+* **Gráfico de Dispersão (*Scatter Plot*):** Plota pontos de dados ao longo de dois eixos cartesianos (X e Y), permitindo identificar correlação linear ou não linear, agrupamentos naturais e dispersão conjunta.
 * **Gráficos de Linhas vs. Barras:** Linhas são reservadas exclusivamente para fenômenos contínuos ou temporais. Barras e colunas devem obrigatoriamente iniciar o eixo quantitativo no valor zero para evitar distorção visual de proporções relativas.
 
 #### B. Ferramentas Corporativas: O Ecossistema Microsoft Power BI
@@ -15916,7 +16218,7 @@ Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza
   * *Colunas Calculadas:* Avaliadas linha a linha durante a carga de dados, ocupando espaço de memória RAM.
   * *Medidas Calculadas:* Fórmulas dinâmicas avaliadas em tempo real durante a renderização do relatório, operando sobre o **Contexto de Filtro** vigente na interação do usuário.
 * **Modelagem de Dados e Esquema em Estrela (*Star Schema*):**
-  * O padrão-ouro de modelagem dimensional de BI. Composto por uma ou mais tabelas de fatos centrais ligadas em relacionamentos 1 para muitos ($1:*$) com tabelas de dimensões desnormalizadas circundantes, otimizando o desempenho do motor colunar VertiPaq.
+  * O padrão-ouro de modelagem dimensional de BI. Composto por uma ou mais tabelas de fatos centrais ligadas em relacionamentos 1 para muitos (1:*) com tabelas de dimensões desnormalizadas circundantes, otimizando o desempenho do motor colunar VertiPaq.
 * **Recurso "Analisar no Excel":** Permite que usuários conectem planilhas convencionais do Microsoft Excel diretamente a um modelo semântico corporativo hospedado no Serviço Power BI, consultando tabelas dinâmicas com segurança e integridade centralizada.
 
 #### C. Ferramentas Analíticas do Mercado: Tableau e Google Looker Studio (antigo Data Studio)
@@ -15948,7 +16250,7 @@ Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza
 
 #### A. A Filosofia de Edward Tufte (*Data-Ink Ratio*)
 * **Taxa de Tinta de Dados (*Data-Ink Ratio*):**
-  $\text{Data-Ink Ratio} = \frac{\text{Tinta dedicada aos dados}}{\text{Tinta total utilizada no gráfico}}$
+  Data-Ink Ratio = \frac{Tinta dedicada aos dados}{Tinta total utilizada no gráfico}
   Tufte postula que a meta de qualquer representação gráfica de excelência é aproximar essa taxa de 1,0, eliminando impiedosamente qualquer tinta que não transmita dados objetivos.
 * **Eliminação de *Chartjunk* (Lixo Visual):** Remoção de elementos estéticos artificiais que distraem o observador, tais como efeitos 3D falsos em barras ou tortas, fundos coloridos carregados, linhas de grade pesadas e marcadores redundantes.
 
@@ -15959,7 +16261,7 @@ Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza
 
 ---
 
-### 5. Mineração de Dados (*Data Mining*) e Mineração de Textos (*Text Mining*) — Alvo E3
+### 5. Mineração de Dados (Data Mining) Estrutura Padrões Preditivos e Descritivos pelo Ciclo CRISP-DM
 
 #### A. O Processo de Mineração de Dados: O Ciclo de Vida CRISP-DM
 O padrão de fato mais adotado internacionalmente para projetos de mineração de dados é o **CRISP-DM (Cross-Industry Standard Process for Data Mining)**, concebido por um consórcio industrial (Chapman et al., 2000). O modelo é **cíclico, adaptativo e iterativo**, estruturado em seis fases sucessivas:
@@ -15977,14 +16279,16 @@ A mineração divide-se fundamentalmente em duas grandes vertentes analíticas:
   * *Agrupamento (*Clustering*):* Particiona os registros em grupos (clusters) onde a similaridade interna intra-cluster é maximizada e a similaridade inter-clusters é minimizada (ex.: algoritmo **K-Means**, DBSCAN). Aplicação: segmentar parlamentares por perfil de votação ou usuários da biblioteca por áreas de interesse de pesquisa.
   * *Regras de Associação:* Descobre relações de coocorrência e dependência entre itens transacionais (ex.: algoritmo **Apriori**). Fundamenta-se em três métricas canônicas:
     * **Suporte (*Support*):** Frequência relativa em que o conjunto de itens aparece em todas as transações.
-    * **Confiança (*Confidence*):** Probabilidade condicional de o item consequente $Y$ ocorrer dado que o item antecedente $X$ ocorreu: $P(Y|X)$.
-    * **Lift:** Mede a força da regra comparada à independência estatística dos itens: $\text{Lift} > 1$ indica associação positiva relevante.
+    * **Confiança (*Confidence*):** Probabilidade condicional de o item consequente Y ocorrer dado que o item antecedente X ocorreu: P(Y|X).
+    * **Lift:** Mede a força da regra comparada à independência estatística dos itens: Lift > 1 indica associação positiva relevante.
 * **Tarefas Preditivas (Aprendizado Supervisionado):**
   * Buscam modelar a relação entre variáveis preditoras (atributos) e uma **variável-alvo (*target*) previamente rotulada**, visando estimar ou prever o valor desse atributo em novos dados não observados.
   * *Classificação:* A variável-alvo é **qualitativa/categórica e discreta** (ex.: prever se uma proposição legislativa será aprovada ou rejeitada; classificar um e-mail como spam ou não spam; classificar documentos em classes da CDD/CDU). Algoritmos: Árvores de Decisão (C4.5, CART), Florestas Aleatórias (*Random Forest*), Máquinas de Vetores de Suporte (SVM), *Naive Bayes* e Regressão Logística.
   * *Regressão:* A variável-alvo é **quantitativa/numérica contínua** (ex.: prever o custo orçamentário futuro de uma emenda parlamentar ou o número de empréstimos que uma obra terá no próximo semestre). Algoritmos: Regressão Linear Simples/Múltipla, Árvores de Regressão e Redes Neurais Artificiais.
 
-#### C. Mineração de Textos (*Text Mining*) e Pipeline de Processamento de Linguagem Natural
+### 6. Mineração de Textos (Text Mining) e TF-IDF Operam na Faixa Áurea de Luhn Sob a Lei de Zipf
+
+#### A. Mineração de Textos (*Text Mining*) e Pipeline de Processamento de Linguagem Natural
 Enquanto a mineração de dados opera sobre tabelas estruturadas, o *Text Mining* lida com o desafio de extrair conhecimento estruturado e acionável a partir de **textos em linguagem natural não estruturados** (pareceres, discursos, atas, projetos de lei).
 * **Pipeline Canônico de Pré-Processamento Textual:**
   1. *Extração e Limpeza do Corpus:* Remoção de tags HTML, marcações XML, caracteres não alfanuméricos e conversão de todo o texto para minúsculas (*case folding*).
@@ -15994,31 +16298,31 @@ Enquanto a mineração de dados opera sobre tabelas estruturadas, o *Text Mining
      * **Stemming (Radicalização):** Processo heurístico computacionalmente rápido que decepa e remove prefixos e sufixos morfológicos da palavra, reduzindo-a a um radical básico (*stem*). **Atenção:** O radical resultante não é necessariamente uma palavra válida no dicionário (ex.: o algoritmo canônico de **Porter, 1980** reduz "biblioteca", "bibliotecário" e "biblioteconomia" para o radical comum `bibliotec`).
      * **Lemmatization (Lematização):** Processo linguístico muito mais sofisticado e profundo que utiliza tabelas morfológicas e análise do contexto sintático/gramatical (*Part-of-Speech Tagging*) para mapear cada palavra flexionada ao seu **lema canônico de dicionário** (ex.: os verbos "foram", "era", "fui" são reduzidos ao lema verbal "ser"; o substantivo plural "leis" é reduzido ao lema no singular "lei").
 
-#### D. Ponderação Term Frequency – Inverse Document Frequency (TF-IDF)
+#### B. Ponderação Term Frequency – Inverse Document Frequency (TF-IDF)
 Desenvolvido por **Gerard Salton** (1975) no âmbito do **Modelo de Espaço Vetorial (*Vector Space Model*)** de Recuperação da Informação, o TF-IDF é a métrica padrão para converter textos em vetores numéricos de pesos semânticos ponderados:
-* **Frequência do Termo ($TF_{t,d}$ - Term Frequency):**
-  Mede a importância local de um termo $t$ dentro de um documento específico $d$:
-  $TF_{t,d} = \frac{\text{Contagem de ocorrências do termo } t \text{ no documento } d}{\text{Total de termos no documento } d}$
+* **Frequência do Termo (TF_{t,d} - Term Frequency):**
+  Mede a importância local de um termo t dentro de um documento específico d:
+  TF_{t,d} = \frac{Contagem de ocorrências do termo  t  no documento  d}{Total de termos no documento  d}
   Quanto mais vezes o termo é repetido no documento, maior tende a ser sua relevância para o assunto tratado naquele texto.
-* **Frequência Inversa no Documento ($IDF_t$ - Inverse Document Frequency):**
-  Mede a especificidade ou raridade informacional do termo $t$ no conjunto global de documentos (corpus com $N$ documentos):
-  $IDF_t = \log \left( \frac{N}{DF_t} \right)$
-  Onde $N$ é o total de documentos do corpus e $DF_t$ (*Document Frequency*) é o número de documentos em que o termo $t$ aparece ao menos uma vez.
-  * Termos ubíquos que aparecem em praticamente todos os documentos do acervo (ex.: "Brasil", "artigo", "lei" em uma base legislativa) terão $DF_t \approx N$, logo $\frac{N}{DF_t} \approx 1$ e $IDF_t = \log(1) = 0$. Ou seja, seu peso global é neutralizado.
-  * Termos raros e altamente específicos (ex.: "desregulamentação", "biotecnologia") aparecem em poucos documentos ($DF_t$ baixo), resultando em um valor de $IDF$ elevado.
+* **Frequência Inversa no Documento (IDF_t - Inverse Document Frequency):**
+  Mede a especificidade ou raridade informacional do termo t no conjunto global de documentos (corpus com N documentos):
+  IDF_t = \log ≤ft( (N / DF_t) \right)
+  Onde N é o total de documentos do corpus e DF_t (*Document Frequency*) é o número de documentos em que o termo t aparece ao menos uma vez.
+  * Termos ubíquos que aparecem em praticamente todos os documentos do acervo (ex.: "Brasil", "artigo", "lei" em uma base legislativa) terão DF_t ≈ N, logo (N / DF_t) ≈ 1 e IDF_t = \log(1) = 0. Ou seja, seu peso global é neutralizado.
+  * Termos raros e altamente específicos (ex.: "desregulamentação", "biotecnologia") aparecem em poucos documentos (DF_t baixo), resultando em um valor de IDF elevado.
 * **Peso Final TF-IDF:**
-  $TF\text{-}IDF_{t,d} = TF_{t,d} \times IDF_t$
+  TF-IDF_{t,d} = TF_{t,d} × IDF_t
   O peso é máximo quando um termo ocorre muitas vezes em um documento restrito (alto TF) e raramente no restante da biblioteca (alto IDF).
 
-#### E. Conexão Epistemológica com a Lei de Zipf e os Pontos de Corte de Luhn
+#### C. Conexão Epistemológica com a Lei de Zipf e os Pontos de Corte de Luhn
 A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwords no *Text Mining* ancora-se na Bibliometria clássica:
 * **A Lei de Zipf (George Kingsley Zipf, 1949):**
-  Demonstra que, em qualquer corpus em linguagem natural, a frequência de ocorrência ($f$) de uma palavra é inversamente proporcional ao seu posto de classificação ($r$) no ranking ordenado de frequências:
-  $f \times r = C \quad \text{ou} \quad f \propto \frac{1}{r}$
+  Demonstra que, em qualquer corpus em linguagem natural, a frequência de ocorrência (f) de uma palavra é inversamente proporcional ao seu posto de classificação (r) no ranking ordenado de frequências:
+  f × r = C \quad ou \quad f ∝ (1 / r)
   A palavra mais frequente ocorre aproximadamente o dobro de vezes da segunda mais frequente, o triplo da terceira, e assim sucessivamente.
 * **Os Pontos de Corte de H. P. Luhn (1958):**
   O pioneiro da indexação automática H. P. Luhn cruzou a curva hiperbólica de Zipf com o valor informacional das palavras, estabelecendo dois limites fundamentais:
-  1. *Ponto de Corte Superior:* Elimina as palavras do topo da distribuição de Zipf. São palavras de altíssima frequência (artigos, preposições, pronomes), porém de **nula carga semântica específica** (as *stopwords*). No TF-IDF, essas palavras recebem $IDF \approx 0$.
+  1. *Ponto de Corte Superior:* Elimina as palavras do topo da distribuição de Zipf. São palavras de altíssima frequência (artigos, preposições, pronomes), porém de **nula carga semântica específica** (as *stopwords*). No TF-IDF, essas palavras recebem IDF ≈ 0.
   2. *Ponto de Corte Inferior:* Elimina as palavras da cauda longa da distribuição de Zipf (*hapax legomena* — palavras que ocorrem apenas uma ou duas vezes em todo o acervo). Apresentam frequência tão ínfima que são estatisticamente desprezíveis ou representam erros tipográficos e ruídos.
   3. *Zona de Transição Intermediária (Faixa Áurea de Luhn):* Palavras situadas entre o corte superior e o inferior. Possuem frequência média e concentram a **máxima densidade informacional e poder discriminatório semântico**, sendo os alvos nobres selecionados pelos algoritmos de mineração de textos para classificação automática, extração de tópicos e recuperação em bases legislativas.
 
@@ -16053,7 +16357,7 @@ A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwo
 
 ### CHECKPOINTS DE FIXAÇÃO CANÔNICOS
 
-#### Checkpoint 1 (ERRADO)
+#### Checkpoint 1 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 1: Estatística Descritiva - Box Plot e Outliers
 
 **Assertiva:** "No diagrama de caixas (Box Plot), a linha horizontal situada no interior do retângulo indica a média aritmética da distribuição, enquanto os pontos isolados além das hastes indicam os valores classificados como outliers com base no intervalo interquartil."
@@ -16062,7 +16366,7 @@ A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwo
 
 **Justificativa Canônica:** Errado! Conforme a gramática gráfica de John Tukey (1977) e Stephen Few (2012), a linha central no interior da caixa do Box Plot representa estritamente a MEDIANA (segundo quartil, Q2), e não a média aritmética.
 
-#### Checkpoint 2 (ERRADO)
+#### Checkpoint 2 [Formato X1: C/E Tradicional] (ERRADO)
 **Contexto/Pergunta:** Micro-Checkpoint 2: Mineração de Dados - Processo CRISP-DM e Tarefas
 
 **Assertiva:** "No modelo de processo CRISP-DM, as tarefas descritivas de mineração, a exemplo do agrupamento (clustering) e das regras de associação, destinam-se a prever o comportamento futuro de uma variável-alvo previamente rotulada a partir do treinamento de atributos preditores."
@@ -16071,7 +16375,7 @@ A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwo
 
 **Justificativa Canônica:** Errado! Segundo a metodologia do consórcio CRISP-DM (Chapman et al., 2000) e Tanenbaum (2021), a predição de variável-alvo rotulada é atribuição exclusiva das tarefas PREDITIVAS (classificação e regressão). As tarefas DESCRITIVAS (agrupamento/clustering e regras de associação como Apriori) buscam padrões intrínsecos e estruturas subjacentes aos dados sem qualquer variável-alvo prévia (aprendizado não supervisionado).
 
-#### Checkpoint 3 (CERTO)
+#### Checkpoint 3 [Formato X1: C/E Tradicional] (CERTO)
 **Contexto/Pergunta:** Micro-Checkpoint 3: Text Mining - TF-IDF e Lei de Zipf
 
 **Assertiva:** "No âmbito da mineração de textos e da recuperação de informações, a métrica TF-IDF penaliza palavras de altíssima frequência no corpus global mediante a aplicação do IDF, convergindo teoricamente com a Lei de Zipf e com os postulados de Luhn, segundo os quais termos de frequência intermediária concentram a máxima capacidade de discriminação semântica."
@@ -16082,7 +16386,16 @@ A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwo
 
 
 # =====================================================================
+<a id="apendice-a-temas-discursivos-oficiais-e-espelhos-cebraspe"></a>
 # APÊNDICE A: TEMAS DISCURSIVOS OFICIAIS E ESPELHOS CEBRASPE
+
+### CRITÉRIOS OFICIAIS DE CORREÇÃO DISCURSIVA (EDITAL Nº 1/2026, ITENS 9.8.4 E 9.8.5)
+
+- **2 Questões Discursivas (NQ):** Até 20 linhas cada (valor 15,00 pts cada). Fórmula oficial: **NQ_i = NC_i − 3 × (NE_i / TL_i)**
+- **1 Peça Técnica (NPT):** Até 50 linhas (valor 30,00 pts). Fórmula oficial: **NPT = NC − 6 × (NE / TL)**
+- **Nota Final da Prova Discursiva (NFPD):** NFPD = NQ_1 + NQ_2 + NPT (máximo 60,00 pontos; mínimo de aprovação: 30,00 pontos no conjunto e > 0 em cada parte).
+
+---
 
 ## TEMA 1: DESBASTAMENTO E DESCARTE DE COLEÇÕES PARLAMENTARES (20 LINHAS)
 
@@ -16240,8 +16553,39 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 
 ---
 
+## TEMA 11: PROCESSO LEGISLATIVO CONSTITUCIONAL, TRAMITAÇÃO E REGIMENTO INTERNO DA CÂMARA (RICD) (20 LINHAS)
+
+**Enunciado Oficial:**
+O conhecimento detalhado do processo legislativo constitucional e regimental é indispensável para o tratamento documental e a prestação do serviço de referência na Câmara dos Deputados. Redija um texto dissertativo, de até 20 linhas, que aborde obrigatoriamente: 1. A distinção procedimental e de quórum entre Projeto de Lei Ordinária (art. 61 da CF/88), Projeto de Lei Complementar (art. 69 da CF/88) e Proposta de Emenda à Constituição (art. 60 da CF/88); 2. O rito e os efeitos da apreciação conclusiva pelas Comissões Permanentes no âmbito da Câmara dos Deputados (art. 58, § 2º, I da CF/88 e art. 24, II do RICD), indicando a hipótese de recurso para o Plenário; 3. O papel técnico do Centro de Documentação e Informação (CEDI) e da Biblioteca Pedro Aleixo no registro, controle de versões textuais e indexação temática das proposições legislativas.
+
+**Padrão Preliminar de Resposta (Espelho da Banca):**
+O candidato deve apontar que o Projeto de Lei Ordinária (PL) exige maioria simples (maioria dos presentes, havendo maioria absoluta), o Projeto de Lei Complementar (PLC) exige maioria absoluta em turno único em cada Casa, e a PEC exige aprovação em dois turnos em ambas as Casas pelo quórum qualificado de 3/5 dos respectivos membros. No rito conclusivo (art. 24, II do RICD), o projeto aprovado pelas comissões temáticas competentes é considerado aprovado pela Câmara sem deliberação do Plenário, salvo se houver recurso subscrito por 1/10 dos membros da Casa (52 deputados) para que a matéria seja submetida ao Plenário. O CEDI e a Biblioteca Pedro Aleixo desempenham papel estratégico no controle de versões das redações finais, indexação por vocabulários controlados no portal legislativo e garantia da cadeia de custódia das proposições.
+
+**Critérios Objetivos de Pontuação:**
+- **1. Distinção de Espécies Normativas e Quóruns Constitucionais (PL, PLC e PEC)** (Valor: 5 pts): Diferenciou com exatidão o rito e os quóruns de aprovação: maioria simples (PL), maioria absoluta (PLC) e 3/5 em dois turnos (PEC).
+- **2. Apreciação Conclusiva pelas Comissões e Rito de Recurso ao Plenário (RICD)** (Valor: 5 pts): Explicou a eficácia da aprovação pelas comissões sem o Plenário e citou o recurso por 1/10 dos membros (art. 24, II do RICD).
+- **3. Papel do CEDI e da Biblioteca Pedro Aleixo no Tratamento de Proposições** (Valor: 5 pts): Evidenciou a gestão documental, controle de versões e indexação semântica das proposições para suporte à atividade parlamentar e transparência cidadã.
+
+---
+
+## TEMA 12: WEB SCRAPING ÉTICO, CONSUMO DE APIS RESTFUL E DADOS ABERTOS LEGISLATIVOS (20 LINHAS)
+
+**Enunciado Oficial:**
+A automação na coleta de dados digitais transformou as rotinas de pesquisa e inteligência informacional no setor público. Em até 20 linhas: 1. Diferencie a raspagem de dados (Web Scraping) do consumo estruturado de dados via APIs RESTful (Application Programming Interfaces); 2. Aponte três diretrizes éticas e técnicas obrigatórias na realização de web scraping em portais governamentais (respeito ao arquivo robots.txt, controle de taxa de requisições / rate limiting e conformidade com a LGPD); 3. Discorra sobre como a API de Dados Abertos da Câmara dos Deputados potencializa o desenvolvimento de produtos e serviços bibliográficos de alto valor agregado.
+
+**Padrão Preliminar de Resposta (Espelho da Banca):**
+O candidato deve explicar que o Web Scraping consiste na extração automatizada de dados diretamente do código HTML das páginas web, dependente do layout visual e sujeito a quebras com alterações de interface, enquanto as APIs RESTful fornecem acesso programático direto e padronizado a dados estruturados (geralmente JSON ou XML) via requisições HTTP seguras (GET, POST). Nas diretrizes éticas: consulta prévia ao robots.txt para verificar diretivas de permissão (User-agent / Disallow), espaçamento entre requisições (rate limiting/delays) para não sobrecarregar os servidores públicos com ataques involuntários de negação de serviço (DoS), e anonimização/proteção de dados pessoais sensíveis conforme a LGPD. A API de Dados Abertos da Câmara dos Deputados (Swagger/OpenAPI) viabiliza a criação de dashboards de tramitação, análise de redes de coautoria de proposições, cruzamento bibliométrico de pareceres e relatórios automatizados de inteligência legislativa.
+
+**Critérios Objetivos de Pontuação:**
+- **1. Diferenciação Conceitual e Técnica entre Web Scraping e APIs RESTful** (Valor: 5 pts): Contrastou a extração de páginas HTML (frágil e não estruturada) com o fornecimento nativo de dados via endpoints JSON/XML de APIs REST.
+- **2. Diretrizes Éticas e Técnicas (robots.txt, Rate Limiting e LGPD)** (Valor: 5 pts): Apresentou o respeito ao robots.txt, limitação de requisições por segundo para evitar sobrecarga e salvaguarda da privacidade segundo a LGPD.
+- **3. Aplicação da API da Câmara no Ecossistema de Informação Parlamentar** (Valor: 5 pts): Demonstrou o uso dos endpoints abertos da Câmara para análise de dados legislativos, transparência ativa e criação de produtos biblioteconômicos inovadores.
+
+---
+
 
 # =====================================================================
+<a id="apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe"></a>
 # APÊNDICE B: DICIONÁRIO E GLOSSÁRIO TÉCNICO CANÔNICO CEBRASPE
 
 ### AACR2r (Anglo-American Cataloguing Rules, 2a ed. revista) [Área: Representação Descritiva e Catalogação | Módulo: M2]
@@ -16255,14 +16599,25 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 
 ---
 
-### ABNT NBR 6023:2018 (Informação e Documentação - Referências) [Área: Normalizacao Documentaria e ABNT | Módulo: M8]
-**Conceito Canônico:** Norma brasileira que estabelece os elementos a serem incluidos em referencias de documentos. Elementos Essenciais para monografias: Autor, Titulo (em destaque: negrito, italico ou sublinhado), Edicao (a partir da 2a), Local, Editora e Ano de publicacao. O subtitulo NUNCA recebe destaque grafico. Pontuacao canonica: dois pontos entre local e editora; virgula entre editora e ano; ponto final apos o ano.
+### ABNT NBR 15287:2025 (Projeto de Pesquisa — Apresentação) [Área: Normalizacao Documentaria e ABNT | Módulo: M8]
+**Conceito Canônico:** Norma técnica brasileira (3ª edição, 18.03.2025) que estabelece os princípios gerais para apresentação de projetos de pesquisa. Define estrutura com elementos pré-textuais (capa, folha de rosto, listas, sumário), textuais (introdução com tema, problema, hipóteses/questões, objetivos, justificativa, referencial teórico, metodologia e cronograma) e pós-textuais (referências conforme NBR 6023:2025, glossário, apêndices e anexos).
 
-**Armadilha Cebraspe:** Destacar graficamente o subtitulo ou destacar o nome do autor em vez do titulo da obra.
+**Armadilha Cebraspe:** Afirmar que o cronograma e os recursos financeiros são elementos pós-textuais, quando na NBR 15287 integram a parte textual do projeto.
 
-**Aplicação na Câmara:** Padronizacao editorial das publicacoes e estudos tematicos produzidos pelas Consultorias Legislativa e de Orcamento da Camara dos Deputados.
+**Aplicação na Câmara:** Elaboração metodológica de propostas de pesquisa institucional e projetos técnicos de modernização no Centro de Documentação e Informação (Cedi) da Câmara.
 
-**Fonte:** ASSOCIACAO BRASILEIRA DE NORMAS TECNICAS. ABNT NBR 6023: Informacao e documentacao - Referencias - Elaboracao. Rio de Janeiro: ABNT, 2018.
+**Fonte:** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 15287: Informação e documentação — Projeto de pesquisa — Apresentação. Rio de Janeiro: ABNT, 2025.
+
+---
+
+### ABNT NBR 6023:2025 (Informação e Documentação — Referências) [Área: Normalizacao Documentaria e ABNT | Módulo: M8]
+**Conceito Canônico:** Norma brasileira (3ª edição, 21.05.2025) que estabelece os elementos a serem incluídos em referências de documentos. Elementos Essenciais para monografias: Autor, Título (em destaque: negrito, itálico ou sublinhado), Edição (a partir da 2ª), Local, Editora e Ano de publicação. O subtítulo NUNCA recebe destaque gráfico. Pontuação canônica: dois pontos entre local e editora; vírgula entre editora e ano; ponto final após o ano. Alinhamento exclusivamente à margem esquerda.
+
+**Armadilha Cebraspe:** Destacar graficamente o subtítulo ou afirmar que 'et al.' é obrigatório para 4 ou mais autores (é faculdade na NBR 6023:2025).
+
+**Aplicação na Câmara:** Padronização editorial das publicações e estudos temáticos produzidos pelas Consultorias Legislativa e de Orçamento da Câmara dos Deputados.
+
+**Fonte:** ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6023: Informação e documentação — Referências — Elaboração. Rio de Janeiro: ABNT, 2025.
 
 ---
 
@@ -16729,7 +17084,7 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 ---
 
 ### Designação Geral do Material (DGM) vs. Trio RDA (336/337/338) [Área: Catalogação e Metadados | Módulo: M2]
-**Conceito Canônico:** A DGM era o termo entre colchetes utilizado no AACR2r logo após o título principal (campo 245 $h do MARC 21, ex.: [recurso eletrônico]). O padrão RDA extinguiu a DGM e desmembrou a identificação do recurso em três atributos analíticos: Tipo de Conteúdo (MARC 336), Tipo de Mídia (MARC 337) e Tipo de Suporte (MARC 338).
+**Conceito Canônico:** A DGM era o termo entre colchetes utilizado no AACR2r logo após o título principal (campo 245 h do MARC 21, ex.: [recurso eletrônico]). O padrão RDA extinguiu a DGM e desmembrou a identificação do recurso em três atributos analíticos: Tipo de Conteúdo (MARC 336), Tipo de Mídia (MARC 337) e Tipo de Suporte (MARC 338).
 
 **Armadilha Cebraspe:** A banca elabora assertivas dizendo que a DGM continua obrigatória no RDA ou que os campos 336/337/338 são usados no AACR2r original. Ambas falsas!
 
@@ -16850,7 +17205,7 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 ---
 
 ### Expressões Regulares (Regex) [Área: Tecnologia da Informação e Processamento de Texto | Módulo: M6]
-**Conceito Canônico:** Linguagem formal e concisa para casamento de padrões e manipulação de cadeias de caracteres em processamento de texto. Utiliza metacaracteres (^, $, ., *, +, ?, \d, \w, []) para validação de formatos (ISBN, CPF, e-mail) e extração de entidades.
+**Conceito Canônico:** Linguagem formal e concisa para casamento de padrões e manipulação de cadeias de caracteres em processamento de texto. Utiliza metacaracteres (^, , ., *, +, ?, \d, \w, []) para validação de formatos (ISBN, CPF, e-mail) e extração de entidades.
 
 **Armadilha Cebraspe:** O Cebraspe afirma que o metactaractere ponto (.) reconhece exclusivamente o caractere ponto. ERRADO: o ponto casa com qualquer caractere (exceto quebra de linha); para casar o ponto literal, exige-se o escape com barra invertida (\.).
 
@@ -16894,7 +17249,7 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 ---
 
 ### Formato MARC 21 (Machine-Readable Cataloging) [Área: Representação Descritiva e Catalogação | Módulo: M2]
-**Conceito Canônico:** Padrao internacional de estruturacao e intercambio de dados bibliograficos legivel por computador mantido pela Library of Congress. Sua arquitetura compoe-se de tres secoes fisicas indispensaveis: (1) Lider (Leader) de 24 caracteres fixos (posicoes 00 a 23); (2) Diretorio (Directory), com entradas de 12 caracteres cada (3 digitos da tag + 4 digitos do tamanho + 5 digitos da posicao inicial); (3) Campos variaveis de controle (001 a 008) e de dados (010 a 999), dotados de dois indicadores e subcampos identificados por delimitadores ($).
+**Conceito Canônico:** Padrao internacional de estruturacao e intercambio de dados bibliograficos legivel por computador mantido pela Library of Congress. Sua arquitetura compoe-se de tres secoes fisicas indispensaveis: (1) Lider (Leader) de 24 caracteres fixos (posicoes 00 a 23); (2) Diretorio (Directory), com entradas de 12 caracteres cada (3 digitos da tag + 4 digitos do tamanho + 5 digitos da posicao inicial); (3) Campos variaveis de controle (001 a 008) e de dados (010 a 999), dotados de dois indicadores e subcampos identificados por delimitadores ().
 
 **Armadilha Cebraspe:** O Cebraspe afirma que o lider possui 12 caracteres e o diretorio 24 (invertendo a ordem). O Lider tem exatamente 24 caracteres; o Diretorio e uma sequencia de blocos de 12 caracteres por campo. Outra pegadinha: dizer que campos 00X possuem indicadores e subcampos (campos de controle 001 a 008 NAO possuem indicadores nem subcampos).
 
@@ -18182,6 +18537,7 @@ A peça técnica deve apresentar estrutura formal equilibrada (Introdução Just
 
 
 # =====================================================================
+<a id="apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026"></a>
 # APÊNDICE C: FOLHA DE VÉSPERA CONSOLIDADA — MATRIZ DOS 5 BLOCOS DO EDITAL 2026
 
 Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe (60 Pegadinhas Capitais distribuidas pelos 5 blocos temáticos).
@@ -18474,7 +18830,7 @@ Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe (
 ### #3 · Estrutura dos Campos de Controle no MARC 21 (Bloco 00X)
 - **Assertiva Típica Cebraspe:** "Campos do bloco 00X no formato MARC 21 Bibliográfico caracterizam-se por exibir dois indicadores numéricos e códigos alfanuméricos de subcampo."
 - **Gabarito Oficial:** [ERRADO]
-- **⚠️ Armadilha da Banca:** Campos de controle (001 a 008) NÃO contêm indicadores nem subcampos com delimitador ($); possuem posições de caracteres fixas definidas por offset (ex.: campo 008).
+- **⚠️ Armadilha da Banca:** Campos de controle (001 a 008) NÃO contêm indicadores nem subcampos com delimitador (); possuem posições de caracteres fixas definidas por offset (ex.: campo 008).
 - **Fundamentação Canônica:** O manual do MARC 21 define os campos de controle 00X como sequências posicionais puras de bytes reservadas a dados de processamento automatizado.
 - **Fonte Primária:** LIBRARY OF CONGRESS. MARC 21 Format for Bibliographic Data. Washington, 2020. (§sub-2-4)
 
@@ -18630,6 +18986,7 @@ Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe (
 
 
 # =====================================================================
+<a id="apendice-d-casos-integradores-intermodulos"></a>
 # APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 A CI-5)
 
 Estudos de caso interdisciplinares contextualizados na Câmara dos Deputados, integrando competências transversais com itens inéditos no padrão Cebraspe (Certo/Errado) e fundamentação doutrinária exaustiva.
@@ -18659,11 +19016,11 @@ A Biblioteca Pedro Aleixo da Câmara dos Deputados adquiriu uma monografia jurí
 - **Justificativa Cebraspe:** ERRADO. A regra 21.6B1 do AACR2r determina expressamente que, em obras produzidas em colaboração com dois ou três autores sem destaque de autor principal, a entrada principal é feita sob o nome do primeiro autor mencionado na folha de rosto (campo 100 no MARC 21), criando-se entrada secundária de autor para os demais colaboradores (campo 700). A entrada principal pelo título só ocorre quando há mais de três autores e nenhum é destacado como principal (regra 21.6C2).
 
 #### Item 1.3
-"No formato MARC 21 Bibliográfico, os termos autorizados de assunto extraídos do Vocabulário Controlado da RVBI/BDCam devem ser inseridos no campo 650 com segundo indicador 7 e subcampo $2 preenchido com a sigla do vocabulário ("rvbi"), preservando formalmente a proveniência terminológica no registro."
+"No formato MARC 21 Bibliográfico, os termos autorizados de assunto extraídos do Vocabulário Controlado da RVBI/BDCam devem ser inseridos no campo 650 com segundo indicador 7 e subcampo 2 preenchido com a sigla do vocabulário ("rvbi"), preservando formalmente a proveniência terminológica no registro."
 
 - **Gabarito Oficial:** [CERTO]
 - **Submódulo Referência:** Submódulo 2.4 · Edital: Bloco D - 2.7 e 3.6
-- **Justificativa Cebraspe:** CERTO. No padrão MARC 21 Bibliográfico para o campo 650 (Topical Term), o segundo indicador "7" especifica que o esquema ou tesauro de assunto é identificado no subcampo $2 (Source of heading or term). O uso de "rvbi" no subcampo $2 é a prática canônica cooperativa da Rede Virtual de Bibliotecas coordenada pelo Senado e integrada pela Câmara dos Deputados (Library of Congress MARC 21 Formats; Rede RVBI).
+- **Justificativa Cebraspe:** CERTO. No padrão MARC 21 Bibliográfico para o campo 650 (Topical Term), o segundo indicador "7" especifica que o esquema ou tesauro de assunto é identificado no subcampo 2 (Source of heading or term). O uso de "rvbi" no subcampo 2 é a prática canônica cooperativa da Rede Virtual de Bibliotecas coordenada pelo Senado e integrada pela Câmara dos Deputados (Library of Congress MARC 21 Formats; Rede RVBI).
 
 #### Item 1.4
 "Ao classificar a obra na Classificação Decimal de Dewey (CDD - classe 340) e na Classificação Decimal Universal (CDU - classe 34), a síntese de assuntos na CDD permite a livre combinação de classes distintas mediante o uso do sinal de dois pontos (:), recurso de coordenação próprio herdado da tradição de Melvil Dewey."
@@ -18697,11 +19054,11 @@ O Centro de Documentação e Informação (CEDI) e a Biblioteca da Câmara dos D
 - **Justificativa Cebraspe:** ERRADO. A URN LEX é um identificador persistente do tipo Uniform Resource Name (conforme a RFC 2141 / RFC 8141), e não uma URL dependente de localização física, protocolo de transporte (como HTTP) ou endereço IP de servidor. A URN LEX codifica autoridade emissora, tipo de documento, data e evento numa sintaxe independente da localização do arquivo (ex.: "urn:lex:br:federal:lei:2020-09-18;14063"), sendo resolvida para URLs reais por meio de um serviço de resolução descentralizado do LexML.
 
 #### Item 2.2
-"No mapeamento semântico (crosswalk) entre o formato MARC 21 Bibliográfico e o conjunto de elementos Dublin Core simples (15 elementos), o campo MARC 245 é mapeado para o elemento dc:title, ocorrendo perda de granularidade dos subcampos $b (subtítulo) e $c (indicação de responsabilidade), fenômeno estrutural típico da conversão de esquemas ricos para esquemas simplificados."
+"No mapeamento semântico (crosswalk) entre o formato MARC 21 Bibliográfico e o conjunto de elementos Dublin Core simples (15 elementos), o campo MARC 245 é mapeado para o elemento dc:title, ocorrendo perda de granularidade dos subcampos b (subtítulo) e c (indicação de responsabilidade), fenômeno estrutural típico da conversão de esquemas ricos para esquemas simplificados."
 
 - **Gabarito Oficial:** [CERTO]
 - **Submódulo Referência:** Submódulo 2.6 · Edital: Bloco A - 3.4 e Bloco E - 1.10
-- **Justificativa Cebraspe:** CERTO. Um crosswalk (tabela de concordância ou mapeamento semântico) entre esquemas de complexidades díspares — como o MARC 21 (altamente granular, com centenas de campos e subcampos) e o Dublin Core simples (apenas 15 elementos sem qualificadores) — acarreta inevitável achatamento ou perda de granularidade (down-mapping). Os dados dos subcampos $a, $b e $c do campo 245 são concatenados no elemento único "dc:title" (Library of Congress MARC-to-Dublin Core Crosswalk; NISO Z39.85).
+- **Justificativa Cebraspe:** CERTO. Um crosswalk (tabela de concordância ou mapeamento semântico) entre esquemas de complexidades díspares — como o MARC 21 (altamente granular, com centenas de campos e subcampos) e o Dublin Core simples (apenas 15 elementos sem qualificadores) — acarreta inevitável achatamento ou perda de granularidade (down-mapping). Os dados dos subcampos a, b e $c do campo 245 são concatenados no elemento único "dc:title" (Library of Congress MARC-to-Dublin Core Crosswalk; NISO Z39.85).
 
 #### Item 2.3
 "Os relacionamentos conceituais no Tesauro da RVBI representados na linguagem SKOS (Simple Knowledge Organization System) utilizam a propriedade skos:broader para indicar termos associativos de mesmo nível hierárquico e a propriedade skos:related para indicar termos genéricos subordinantes."
