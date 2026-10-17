@@ -10,7 +10,7 @@ import {
   X,
   FileText,
 } from 'lucide-react';
-import { COURSE_REGISTRY } from '../../content/registry';
+import { ALL_COURSE_MODULES } from '../../content/registry';
 import { EDITAL_CAMARA_2026 } from '../../domain/edital/matrizEdital2026';
 import { simuladoFundamentos100Q } from '../../content/questions/m1-fundamentos-100q';
 import { useNavigationStore } from '../../store/useNavigationStore';
@@ -52,12 +52,18 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
     return () => clearTimeout(timer);
   }, [isOpen]);
 
+  // Total de submódulos indexados dinamicamente
+  const totalSubmodulos = useMemo(
+    () => ALL_COURSE_MODULES.reduce((acc, m) => acc + m.modulosFilhos.length, 0),
+    []
+  );
+
   // Indexação em memória dos dados da plataforma
   const searchIndex = useMemo(() => {
     const items: SearchResultItem[] = [];
 
     // 1. Submódulos e Seus Conteúdos
-    for (const macro of COURSE_REGISTRY) {
+    for (const macro of ALL_COURSE_MODULES) {
       for (const sub of macro.modulosFilhos) {
         // O próprio submódulo
         items.push({
@@ -244,7 +250,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
               <div className="py-12 px-4 text-center space-y-2">
                 <FileText className="w-8 h-8 text-ink-2/40 mx-auto" />
                 <p className="text-xs text-ink-2 font-serif m-0">
-                  Digite para buscar em todos os 40 submódulos, autores canônicos, alertas Cebraspe e questões.
+                  Digite para buscar em todos os {totalSubmodulos} submódulos, autores canônicos, alertas Cebraspe e questões.
                 </p>
                 <div className="flex flex-wrap justify-center gap-1.5 pt-2">
                   {['Ranganathan', 'MARC 21', 'Briet', 'CDD', 'Revocação', 'LAI', 'LRM'].map((tag) => (

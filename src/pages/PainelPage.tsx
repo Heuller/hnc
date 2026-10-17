@@ -31,6 +31,7 @@ import { IllustrationVazio } from '../components/illustrations/ContextualIllustr
 import { CupulaCongressoIllustration } from '../components/common/Illustrations';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
+import { METRICAS_ACERVO } from '../domain/metrics/acervoMetricas';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -526,7 +527,7 @@ export const PainelPage: React.FC = () => {
           <div className="flex items-center gap-2">
             <HelpCircle className="w-4 h-4 text-ink-2 shrink-0" />
             <span className="font-serif">
-              Acervo de <strong>1.712 questões Cebraspe</strong> (192 checkpoints + 1.520 itens de simulados) com progressão na <strong>Jornada</strong>.
+              Acervo de <strong>{METRICAS_ACERVO.totalQuestoesAcervo.toLocaleString('pt-BR')} questões Cebraspe</strong> ({METRICAS_ACERVO.totalCheckpoints} checkpoints + {METRICAS_ACERVO.totalItensSimulados.toLocaleString('pt-BR')} itens de simulados) com progressão na <strong>Jornada</strong>.
             </span>
           </div>
 

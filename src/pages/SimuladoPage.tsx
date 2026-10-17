@@ -792,7 +792,7 @@ export const SimuladoPage: React.FC = () => {
           {/* Desempenho por Módulo-Filho */}
           <div className="space-y-3 my-6 print:break-inside-avoid">
             <h3 className="font-sans font-bold text-ink print:text-black text-sm sm:text-base">
-              Desempenho por Submódulo (25 itens cada)
+              Desempenho por Submódulo
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {Object.entries(quebraSubmodulos).map(([subId, dados]) => {
@@ -843,7 +843,7 @@ export const SimuladoPage: React.FC = () => {
               </h3>
             </div>
             <p className="text-xs sm:text-sm text-ink-2 print:text-gray-700 font-serif mb-4 leading-relaxed">
-              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos 100 itens de {simuladoAtivo.tituloCurto}:
+              Mapeamento sistemático dos núcleos conceituais e normativos avaliados pela banca Cebraspe ao longo dos {simuladoAtivo.questoes.length} itens de {simuladoAtivo.tituloCurto}:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

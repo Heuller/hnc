@@ -177,7 +177,7 @@ export const RadarPage: React.FC = () => {
           </div>
           <span className="font-mono text-[11px] text-ink-3 font-normal">
             {selectedBloco === 'todos' ? 'Edital nº 1/2026 Integral' : blocoAtivo?.label} •{' '}
-            {selectedMacro === 'todos' ? 'M1-M14' : `Módulo ${selectedMacro}`}
+            {selectedMacro === 'todos' ? `M1-M${COURSE_REGISTRY.length}` : `Módulo ${selectedMacro}`}
           </span>
         </div>
 

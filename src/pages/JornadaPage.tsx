@@ -622,7 +622,7 @@ export const JornadaPage: React.FC = () => {
               Módulos Básicos: Direito Administrativo, Inglês, Português e Tecnologia da Informação
             </h3>
             <p className="text-xs text-ink-2 max-w-md mx-auto">
-              Estude Direito Administrativo, Inglês, Português e Tecnologia da Informação conforme o Edital nº 1/2026, sem comprometer a sua trilha sequencial de 59 etapas.
+              Estude Direito Administrativo, Inglês, Português e Tecnologia da Informação conforme o Edital nº 1/2026, sem comprometer a sua trilha sequencial de {metricas.totalEtapas} etapas.
             </p>
             <Button
               variant="outline"

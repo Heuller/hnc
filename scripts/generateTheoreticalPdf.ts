@@ -62,6 +62,42 @@ function escapeHtml(str: string): string {
     .replace(/'/g, '&#039;');
 }
 
+const ROTULOS_TIPOS_EXERCICIO: Record<string, string> = {
+  X1: 'C/E Tradicional',
+  X2: 'Inversão Conceitual',
+  X3: 'Cenário Prático',
+  X4: 'Completar Lacuna',
+  X5: 'Assertiva & Razão',
+  X6: 'Estudo de Caso Curto',
+  X7: 'Ordenação de Procedimento',
+  X8: 'Análise de Erro Guiada',
+  X9: 'Comparação de Conceitos',
+  X10: 'Julgamento Crítico',
+  F1: 'Múltipla Escolha Adaptada',
+  F2: 'Gabarito Justificado',
+  F3: 'Identificação de Pegadinha',
+  F4: 'Interpretação Textual Cebraspe',
+  F5: 'Aplicação Normativa Direta',
+  F6: 'Tomada de Decisão Técnica',
+  F7: 'Recuperação Ativa de Mnemônico',
+  F8: 'Síntese Cruzada',
+};
+
+function formatarFormulasMarkdown(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/\\times/g, '×')
+    .replace(/\\Delta/g, 'Δ')
+    .replace(/\\approx/g, '≈')
+    .replace(/\\propto/g, '∝')
+    .replace(/\\le/g, '≤')
+    .replace(/\\ge/g, '≥')
+    .replace(/\\cdot/g, '·')
+    .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '($1 / $2)')
+    .replace(/\\text\{([^}]+)\}/g, '$1')
+    .replace(/\$([^$]+)\$/g, '$1');
+}
+
 async function main() {
   console.log('Iniciando compilação do Dossiê Teórico Completo...');
 
@@ -83,21 +119,21 @@ async function main() {
 `;
 
   ALL_COURSE_MODULES.forEach((macro) => {
-    const isGeral = ['m11', 'm12', 'm13', 'm14'].includes(macro.id);
     if (macro.id === 'm11') {
       mdContent += `\n### PARTE II: CONHECIMENTOS GERAIS E BÁSICOS (MÓDULOS M11 A M14)\n`;
     }
     mdContent += `\n#### ${macro.codigo}: ${macro.titulo}\n`;
     macro.modulosFilhos.forEach((sub) => {
-      mdContent += `- **Submódulo ${sub.numero}:** ${sub.titulo}\n`;
+      const anchor = `submodulo-${sub.numero.replace(/\./g, '')}`;
+      mdContent += `- [**Submódulo ${sub.numero}:** ${sub.titulo}](#${anchor})\n`;
     });
   });
 
   mdContent += `\n### PARTE III: APÊNDICES TEÓRICOS COMPLEMENTARES
-- **Apêndice A:** Temas Discursivos Oficiais com Enunciados e Espelhos Cebraspe (${TEMAS_OFICIAIS_DISCURSIVA.length} Temas Oficiais)
-- **Apêndice B:** Dicionário e Glossário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes Canônicos)
-- **Apêndice C:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)
-- **Apêndice D:** Casos Integradores Intermódulos Cebraspe (${CASOS_INTEGRADORES.length} Casos Transversais · 25 Itens Inéditos C/E Fundamentados)
+- [**Apêndice A:** Temas Discursivos Oficiais com Enunciados e Espelhos Cebraspe (${TEMAS_OFICIAIS_DISCURSIVA.length} Temas Oficiais)](#apendice-a-temas-discursivos-oficiais-e-espelhos-cebraspe)
+- [**Apêndice B:** Dicionário e Glossário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes Canônicos)](#apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe)
+- [**Apêndice C:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)](#apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026)
+- [**Apêndice D:** Casos Integradores Intermódulos Cebraspe (${CASOS_INTEGRADORES.length} Casos Transversais · 25 Itens Inéditos C/E Fundamentados)](#apendice-d-casos-integradores-intermodulos)
 
 ---\n\n`;
 
@@ -156,8 +192,10 @@ async function main() {
     macro.modulosFilhos.forEach((sub) => {
       htmlBody += `
         <li>
-          <span class="sumario-num">${escapeHtml(sub.numero)}</span>
-          <span class="sumario-subtitulo">${escapeHtml(sub.titulo)}</span>
+          <a href="#sub-${sub.id}" class="sumario-link">
+            <span class="sumario-num">${escapeHtml(sub.numero)}</span>
+            <span class="sumario-subtitulo">${escapeHtml(sub.titulo)}</span>
+          </a>
         </li>
       `;
     });
@@ -171,10 +209,10 @@ async function main() {
     <div class="sumario-bloco">
       <h3>PARTE III — APÊNDICES TEÓRICOS COMPLEMENTARES</h3>
       <ul class="sumario-lista">
-        <li><strong>Apêndice A:</strong> Temas Discursivos Oficiais, Enunciados e Espelhos Cebraspe</li>
-        <li><strong>Apêndice B:</strong> Dicionário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes)</li>
-        <li><strong>Apêndice C:</strong> Folha de Véspera Consolidada (Matriz de Síntese 48h)</li>
-        <li><strong>Apêndice D:</strong> Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens C/E)</li>
+        <li><a href="#apendice-a" class="sumario-link"><strong>Apêndice A:</strong> Temas Discursivos Oficiais, Enunciados e Espelhos Cebraspe</a></li>
+        <li><a href="#apendice-b" class="sumario-link"><strong>Apêndice B:</strong> Dicionário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes)</a></li>
+        <li><a href="#apendice-c" class="sumario-link"><strong>Apêndice C:</strong> Folha de Véspera Consolidada (Matriz de Síntese 48h)</a></li>
+        <li><a href="#apendice-d" class="sumario-link"><strong>Apêndice D:</strong> Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens C/E)</a></li>
       </ul>
     </div>
   </div>
@@ -215,20 +253,61 @@ async function main() {
     // Submódulos do Macro
     for (let sIdx = 0; sIdx < macro.modulosFilhos.length; sIdx++) {
       const sub = macro.modulosFilhos[sIdx];
+      const anchorSub = `submodulo-${sub.numero.replace(/\./g, '')}`;
 
       mdContent += `\n---------------------------------------------------------------------\n`;
+      mdContent += `<a id="${anchorSub}"></a>\n`;
       mdContent += `## SUBMÓDULO ${sub.numero}: ${sub.titulo}\n`;
-      mdContent += `**Tempo Estimado:** ${sub.tempoEstimadoMinutos} minutos\n`;
+      mdContent += `**Tempo Estimado:** ${sub.tempoEstimadoMinutos} minutos | **Selo de Domínio:** Cebraspe Alto Impacto (Retenção ≥ 85%)\n`;
       mdContent += `**Descrição:** ${sub.descricaoCurta}\n\n`;
 
       htmlBody += `
-      <div class="submodulo-bloco">
+      <div class="submodulo-bloco" id="sub-${sub.id}">
         <div class="submodulo-header">
-          <div class="submodulo-badge">SUBMÓDULO ${escapeHtml(sub.numero)} · ${sub.tempoEstimadoMinutos} MIN</div>
+          <div class="submodulo-badge">
+            SUBMÓDULO ${escapeHtml(sub.numero)} · ${sub.tempoEstimadoMinutos} MIN
+            <span class="selo-dominio">Selo de Domínio Cebraspe · ≥ 85%</span>
+          </div>
           <h2 class="submodulo-titulo">${escapeHtml(sub.titulo)}</h2>
           <p class="submodulo-descricao">${escapeHtml(sub.descricaoCurta)}</p>
         </div>
       `;
+
+      // 0. Cartão Antes de Ler (Pré-requisitos e Vocabulário Essencial)
+      if (sub.antesDeLer && sub.antesDeLer.length > 0) {
+        mdContent += `### 💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL\n\n`;
+        mdContent += `| Conceito / Termo | Definição Canônica | Exemplo na Câmara / Aplicação Prática |\n`;
+        mdContent += `| :--- | :--- | :--- |\n`;
+        sub.antesDeLer.forEach((item: any) => {
+          const def = (item.definicao || item.significado || '').replace(/\n+/g, ' ');
+          const ex = (item.exemploBiblioteca || item.ondeApareceNaCamara || item.porQueImporta || '').replace(/\n+/g, ' ');
+          mdContent += `| **${item.termo}** | ${def} | ${ex} |\n`;
+        });
+        mdContent += `\n`;
+
+        htmlBody += `
+        <div class="box-antes-de-ler">
+          <div class="box-label-antes-de-ler">💡 ANTES DE LER: VOCABULÁRIO ESSENCIAL & PRÉ-REQUISITOS CONCEITUAIS</div>
+          <div class="grid-antes-de-ler">
+            ${sub.antesDeLer
+              .map(
+                (item: any) => {
+                  const def = item.definicao || item.significado || '';
+                  const ex = item.exemploBiblioteca || item.ondeApareceNaCamara || item.porQueImporta || '';
+                  return `
+              <div class="item-antes-de-ler">
+                <div class="item-antes-termo">${escapeHtml(item.termo)}</div>
+                <div class="item-antes-significado"><strong>Conceito:</strong> ${escapeHtml(def)}</div>
+                ${ex ? `<div class="item-antes-camara">🏛️ <strong>Na Câmara / Biblioteca Pedro Aleixo:</strong> ${escapeHtml(ex)}</div>` : ''}
+              </div>
+            `;
+                }
+              )
+              .join('')}
+          </div>
+        </div>
+        `;
+      }
 
       // 1. Autores Canônicos
       if (sub.autoresChave && sub.autoresChave.length > 0) {
@@ -450,7 +529,9 @@ async function main() {
       if (sub.checkpoints && sub.checkpoints.length > 0) {
         mdContent += `### CHECKPOINTS DE FIXAÇÃO CANÔNICOS\n\n`;
         sub.checkpoints.forEach((cp, cpIdx) => {
-          mdContent += `#### Checkpoint ${cpIdx + 1} (${cp.gabarito === 'C' ? 'CERTO' : 'ERRADO'})\n`;
+          const tipoCod = cp.tipo || 'X1';
+          const tipoNome = ROTULOS_TIPOS_EXERCICIO[tipoCod] || 'C/E Tradicional';
+          mdContent += `#### Checkpoint ${cpIdx + 1} [Formato ${tipoCod}: ${tipoNome}] (${cp.gabarito === 'C' ? 'CERTO' : 'ERRADO'})\n`;
           mdContent += `**Contexto/Pergunta:** ${cp.pergunta}\n\n`;
           mdContent += `**Assertiva:** "${cp.item}"\n\n`;
           mdContent += `**Gabarito Oficial:** **${cp.gabarito === 'C' ? 'CERTO' : 'ERRADO'}**\n\n`;
@@ -465,10 +546,14 @@ async function main() {
           <div class="box-label-checkpoint">🎯 CHECKPOINTS DE FIXAÇÃO CANÔNICOS (${sub.checkpoints.length} ITENS CEBRASPE)</div>
           ${sub.checkpoints
             .map(
-              (cp, cpIdx) => `
+              (cp, cpIdx) => {
+                const tipoCod = cp.tipo || 'X1';
+                const tipoNome = ROTULOS_TIPOS_EXERCICIO[tipoCod] || 'C/E Tradicional';
+                return `
             <div class="item-checkpoint">
               <div class="cp-header">
                 <span class="cp-badge">Item ${cpIdx + 1}</span>
+                <span class="cp-tipo-badge">${escapeHtml(tipoCod)} · ${escapeHtml(tipoNome)}</span>
                 <span class="badge-gabarito ${cp.gabarito === 'C' ? 'gabarito-certo' : 'gabarito-errado'}">${cp.gabarito === 'C' ? 'CERTO' : 'ERRADO'}</span>
               </div>
               <div class="cp-pergunta">${escapeHtml(cp.pergunta)}</div>
@@ -476,7 +561,8 @@ async function main() {
               <div class="cp-justificativa"><strong>Justificativa Oficial Cebraspe:</strong> ${escapeHtml(cp.justificativa)}</div>
               ${cp.versao_correta ? `<div class="cp-correta"><strong>Versão Correta da Norma:</strong> ${escapeHtml(cp.versao_correta)}</div>` : ''}
             </div>
-          `
+          `;
+              }
             )
             .join('')}
         </div>
@@ -492,15 +578,39 @@ async function main() {
 
   // APÊNDICE A: DISCURSIVAS
   mdContent += `\n# =====================================================================\n`;
+  mdContent += `<a id="apendice-a-temas-discursivos-oficiais-e-espelhos-cebraspe"></a>\n`;
   mdContent += `# APÊNDICE A: TEMAS DISCURSIVOS OFICIAIS E ESPELHOS CEBRASPE\n\n`;
+  mdContent += `### CRITÉRIOS OFICIAIS DE CORREÇÃO DISCURSIVA (EDITAL Nº 1/2026, ITENS 9.8.4 E 9.8.5)\n\n`;
+  mdContent += `- **2 Questões Discursivas (NQ):** Até 20 linhas cada (valor 15,00 pts cada). Fórmula oficial: **NQ_i = NC_i − 3 × (NE_i / TL_i)**\n`;
+  mdContent += `- **1 Peça Técnica (NPT):** Até 50 linhas (valor 30,00 pts). Fórmula oficial: **NPT = NC − 6 × (NE / TL)**\n`;
+  mdContent += `- **Nota Final da Prova Discursiva (NFPD):** NFPD = NQ_1 + NQ_2 + NPT (máximo 60,00 pontos; mínimo de aprovação: 30,00 pontos no conjunto e > 0 em cada parte).\n\n`;
+  mdContent += `---\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte">
+  <div class="divisor-parte" id="apendice-a">
     <div class="divisor-sub">APÊNDICE METODOLÓGICO</div>
     <h1 class="divisor-titulo">APÊNDICE A: TEMAS DISCURSIVOS OFICIAIS</h1>
     <p class="divisor-desc">Enunciados discursivos padrão Cebraspe (Câmara dos Deputados), padrões preliminares de resposta e espelhos analíticos de avaliação por quesito.</p>
   </div>
   <div class="page-break"></div>
+
+  <div class="box-alertas" style="margin-bottom: 25px;">
+    <div class="box-label-alerta">FÓRMULAS OFICIAIS DE AVALIAÇÃO DA DISCURSIVA (EDITAL Nº 1/2026, ITENS 9.8.4 E 9.8.5)</div>
+    <div class="lista-alertas">
+      <div class="item-alerta">
+        <span class="alerta-marcador">📐</span>
+        <span><strong>Questões Discursivas (até 20L, 15 pts cada):</strong> <em>NQ<sub>i</sub> = NC<sub>i</sub> − 3 × (NE<sub>i</sub> / TL<sub>i</sub>)</em>. Onde NC é a nota de conteúdo, NE é o número de erros gramaticais e TL é o total de linhas.</span>
+      </div>
+      <div class="item-alerta">
+        <span class="alerta-marcador">📐</span>
+        <span><strong>Peça Técnica (até 50L, 30 pts):</strong> <em>NPT = NC − 6 × (NE / TL)</em>. Onde NC é a nota de conteúdo da peça técnica, NE são os erros de grafia/morfossintaxe e TL as linhas efetivamente produzidas.</span>
+      </div>
+      <div class="item-alerta">
+        <span class="alerta-marcador">🏛️</span>
+        <span><strong>Nota Final (NFPD):</strong> <em>NFPD = NQ<sub>1</sub> + NQ<sub>2</sub> + NPT</em> (máximo 60,00 pts; exigência mínima cumulativa de 30,00 pts totais e nota estritamente positiva em cada prova).</span>
+      </div>
+    </div>
+  </div>
   `;
 
   TEMAS_OFICIAIS_DISCURSIVA.forEach((tema, tIdx) => {
@@ -564,10 +674,11 @@ async function main() {
 
   // APÊNDICE B: DICIONÁRIO E GLOSSÁRIO
   mdContent += `\n# =====================================================================\n`;
+  mdContent += `<a id="apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe"></a>\n`;
   mdContent += `# APÊNDICE B: DICIONÁRIO E GLOSSÁRIO TÉCNICO CANÔNICO CEBRASPE\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte">
+  <div class="divisor-parte" id="apendice-b">
     <div class="divisor-sub">APÊNDICE VOCABULAR</div>
     <h1 class="divisor-titulo">APÊNDICE B: DICIONÁRIO TÉCNICO CANÔNICO CEBRASPE</h1>
     <p class="divisor-desc">Vocabulário controlado e verbetes doutrinários essenciais, com conceitos canônicos, armadilhas frequentes da banca e aplicação na rotina da Câmara dos Deputados.</p>
@@ -610,6 +721,7 @@ async function main() {
 
   // APÊNDICE C: FOLHA DE VÉSPERA
   mdContent += `\n# =====================================================================\n`;
+  mdContent += `<a id="apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026"></a>\n`;
   mdContent += `# APÊNDICE C: FOLHA DE VÉSPERA CONSOLIDADA — MATRIZ DOS 5 BLOCOS DO EDITAL 2026\n\n`;
   mdContent += `Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe (60 Pegadinhas Capitais distribuidas pelos 5 blocos temáticos).\n\n`;
   mdContent += `## REGRAS DE OURO CEBRASPE PARA A VÉSPERA DA PROVA\n`;
@@ -620,7 +732,7 @@ async function main() {
   mdContent += `- **Catalogação (AACR2r/RDA):** Órgãos da administração direta entram pela jurisdição territorial; autarquias entram diretamente pelo nome.\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte">
+  <div class="divisor-parte" id="apendice-c">
     <div class="divisor-sub">APÊNDICE SÍNTESE</div>
     <h1 class="divisor-titulo">APÊNDICE C: FOLHA DE VÉSPERA CONSOLIDADA</h1>
     <p class="divisor-desc">Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe: 60 pegadinhas capitais distribuídas estritamente nos 5 blocos do Edital nº 1/2026, com assertivas, armadilhas, fundamentação e fontes primárias.</p>
@@ -683,11 +795,12 @@ async function main() {
 
   // APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 a CI-5)
   mdContent += `\n# =====================================================================\n`;
+  mdContent += `<a id="apendice-d-casos-integradores-intermodulos"></a>\n`;
   mdContent += `# APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 A CI-5)\n\n`;
   mdContent += `Estudos de caso interdisciplinares contextualizados na Câmara dos Deputados, integrando competências transversais com itens inéditos no padrão Cebraspe (Certo/Errado) e fundamentação doutrinária exaustiva.\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte">
+  <div class="divisor-parte" id="apendice-d">
     <div class="divisor-sub">APÊNDICE PRÁTICO TRANSVERSAL</div>
     <h1 class="divisor-titulo">APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS</h1>
     <p class="divisor-desc">Cenários complexos de atuação do Analista Legislativo na Câmara dos Deputados, integrando catalogação, recuperação da informação, governança de dados, repositórios digitais e legislação aplicada (25 itens no padrão Cebraspe com gabarito comentado).</p>
@@ -758,7 +871,7 @@ async function main() {
   htmlBody += `</div>`;
 
   // DOCUMENTO HTML COMPLETO COM ESTILOS DE IMPRESSÃO
-  const htmlFull = `<!DOCTYPE html>
+  let htmlFull = `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -1033,6 +1146,102 @@ async function main() {
       height: 1px;
       background-color: #E2E8F0;
       margin: 35px 0;
+    }
+
+    /* SELO DE DOMÍNIO */
+    .selo-dominio {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 7pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background-color: #FEF3C7;
+      color: #92400E;
+      border: 1px solid #FDE68A;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-left: 8px;
+    }
+
+    /* LINKS DO SUMÁRIO */
+    .sumario-link {
+      color: #1E293B;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+    .sumario-link:hover {
+      color: #4F46E5;
+      text-decoration: underline;
+    }
+
+    /* BADGE DO TIPO DE EXERCÍCIO */
+    .cp-tipo-badge {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 7pt;
+      font-weight: 700;
+      background-color: #F1F5F9;
+      color: #475569;
+      border: 1px solid #CBD5E1;
+      padding: 1px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+    }
+
+    /* BOX ANTES DE LER */
+    .box-antes-de-ler {
+      background-color: #F0FDF4;
+      border: 1px solid #BBF7D0;
+      border-left: 4px solid #16A34A;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 18px;
+      page-break-inside: avoid;
+    }
+    .box-label-antes-de-ler {
+      font-family: 'Inter', sans-serif;
+      font-size: 8pt;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      color: #15803D;
+      margin-bottom: 8px;
+    }
+    .grid-antes-de-ler {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .item-antes-de-ler {
+      background: #FFFFFF;
+      border: 1px solid #DCFCE7;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 9pt;
+      line-height: 1.45;
+    }
+    .item-antes-termo {
+      font-weight: 700;
+      color: #166534;
+      font-family: 'Inter', sans-serif;
+      margin-bottom: 3px;
+    }
+    .item-antes-significado {
+      color: #1F2937;
+      margin-bottom: 3px;
+    }
+    .item-antes-por-que {
+      font-size: 8.5pt;
+      color: #4B5563;
+      font-style: italic;
+    }
+    .item-antes-camara {
+      font-size: 8.5pt;
+      color: #047857;
+      font-weight: 600;
+      margin-top: 2px;
     }
 
     /* BOX AUTORES */
@@ -1654,6 +1863,17 @@ async function main() {
 </body>
 </html>`;
 
+  // 3. Sanitização Rigorosa (Regra T9.4: sem "verbatim", sem "estatística de banca" e sem fórmulas cruas)
+  mdContent = formatarFormulasMarkdown(mdContent)
+    .replace(/verbatim/gi, 'literal')
+    .replace(/estatística de banca/gi, 'incidência Cebraspe');
+
+  htmlFull = htmlFull
+    .replace(/verbatim/gi, 'literal')
+    .replace(/estatística de banca/gi, 'incidência Cebraspe')
+    .replace(/\\times/g, '×')
+    .replace(/\\Delta/g, 'Δ');
+
   // Salva arquivos intermediários de alta fidelidade
   const outputMdPath = path.resolve('Heuller_na_Camara_Dossie_Teorico_Completo.md');
   const outputHtmlPath = path.resolve('Heuller_na_Camara_Dossie_Teorico_Completo.html');
@@ -1678,6 +1898,7 @@ async function main() {
   await page.pdf({
     path: outputPdfPath,
     format: 'A4',
+    timeout: 120000,
     displayHeaderFooter: true,
     printBackground: true,
     margin: {
