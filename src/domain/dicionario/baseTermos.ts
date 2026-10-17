@@ -1836,25 +1836,26 @@ const TERMOS_ORIGINAIS: TermoDicionario[] = [
   },
   {
     "id": "abnt-nbr-6023-referencias",
-    "termo": "ABNT NBR 6023:2018 (Informação e Documentação - Referências)",
+    "termo": "ABNT NBR 6023:2025 (Informação e Documentação — Referências)",
     "sinonimos": [
       "nbr 6023",
       "abnt 6023",
+      "nbr 6023:2025",
       "referencias abnt",
       "norma de referencias",
       "elementos essenciais referencias"
     ],
     "area": "Normalizacao Documentaria e ABNT",
     "moduloRelacionado": "M8",
-    "conceitoCanonico": "Norma brasileira que estabelece os elementos a serem incluidos em referencias de documentos. Elementos Essenciais para monografias: Autor, Titulo (em destaque: negrito, italico ou sublinhado), Edicao (a partir da 2a), Local, Editora e Ano de publicacao. O subtitulo NUNCA recebe destaque grafico. Pontuacao canonica: dois pontos entre local e editora; virgula entre editora e ano; ponto final apos o ano.",
-    "armadilhaCebraspe": "Destacar graficamente o subtitulo ou destacar o nome do autor em vez do titulo da obra.",
-    "aplicacaoCamara": "Padronizacao editorial das publicacoes e estudos tematicos produzidos pelas Consultorias Legislativa e de Orcamento da Camara dos Deputados.",
-    "fonteReferencia": "ASSOCIACAO BRASILEIRA DE NORMAS TECNICAS. ABNT NBR 6023: Informacao e documentacao - Referencias - Elaboracao. Rio de Janeiro: ABNT, 2018.",
+    "conceitoCanonico": "Norma brasileira (3ª edição, 21.05.2025) que estabelece os elementos a serem incluídos em referências de documentos. Elementos Essenciais para monografias: Autor, Título (em destaque: negrito, itálico ou sublinhado), Edição (a partir da 2ª), Local, Editora e Ano de publicação. O subtítulo NUNCA recebe destaque gráfico. Pontuação canônica: dois pontos entre local e editora; vírgula entre editora e ano; ponto final após o ano. Alinhamento exclusivamente à margem esquerda.",
+    "armadilhaCebraspe": "Destacar graficamente o subtítulo ou afirmar que 'et al.' é obrigatório para 4 ou mais autores (é faculdade na NBR 6023:2025).",
+    "aplicacaoCamara": "Padronização editorial das publicações e estudos temáticos produzidos pelas Consultorias Legislativa e de Orçamento da Câmara dos Deputados.",
+    "fonteReferencia": "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6023: Informação e documentação — Referências — Elaboração. Rio de Janeiro: ABNT, 2025.",
     "tipo": "norma",
-    "definicao_curta": "Norma brasileira que estabelece os elementos a serem incluidos em referencias de documentos. Elementos Essenciais para monografias: Autor, Titulo (em destaque: negrito, italico ou sublinhado), Edicao (a partir da 2a), Local, Editora e Ano de publicacao.",
-    "definicao_completa": "Norma brasileira que estabelece os elementos a serem incluidos em referencias de documentos. Elementos Essenciais para monografias: Autor, Titulo (em destaque: negrito, italico ou sublinhado), Edicao (a partir da 2a), Local, Editora e Ano de publicacao. O subtitulo NUNCA recebe destaque grafico. Pontuacao canonica: dois pontos entre local e editora; virgula entre editora e ano; ponto final apos o ano.",
+    "definicao_curta": "Norma brasileira (3ª edição, 2025) que estabelece os elementos essenciais e complementares para elaboração e apresentação de referências em documentos.",
+    "definicao_completa": "Norma brasileira (3ª edição, 21.05.2025) que estabelece os elementos a serem incluídos em referências de documentos. Elementos Essenciais para monografias: Autor, Título (em destaque: negrito, itálico ou sublinhado), Edição (a partir da 2ª), Local, Editora e Ano de publicação. O subtítulo NUNCA recebe destaque gráfico. Pontuação canônica: dois pontos entre local e editora; vírgula entre editora e ano; ponto final após o ano.",
     "fonte": {
-      "referencia": "ASSOCIACAO BRASILEIRA DE NORMAS TECNICAS. ABNT NBR 6023: Informacao e documentacao - Referencias - Elaboracao. Rio de Janeiro: ABNT, 2018.",
+      "referencia": "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 6023: Informação e documentação — Referências — Elaboração. Rio de Janeiro: ABNT, 2025.",
       "versao": "Edital nº 1/2026"
     },
     "modulo_ref": [
@@ -1863,13 +1864,50 @@ const TERMOS_ORIGINAIS: TermoDicionario[] = [
     "variantes": [
       "nbr 6023",
       "abnt 6023",
+      "nbr 6023:2025",
       "referencias abnt",
       "norma de referencias",
       "elementos essenciais referencias",
-      "ABNT NBR 6023:2018 (Informação e Documentação - Referências)"
+      "ABNT NBR 6023:2025 (Informação e Documentação — Referências)"
     ],
     "nao_confundir_com": [
       "Destacar graficamente o subtitulo ou destacar o nome do autor em vez do titulo da obra."
+    ]
+  },
+  {
+    "id": "abnt-nbr-15287-projeto-pesquisa",
+    "termo": "ABNT NBR 15287:2025 (Projeto de Pesquisa — Apresentação)",
+    "sinonimos": [
+      "nbr 15287",
+      "abnt 15287",
+      "nbr 15287:2025",
+      "projeto de pesquisa abnt"
+    ],
+    "area": "Normalizacao Documentaria e ABNT",
+    "moduloRelacionado": "M8",
+    "conceitoCanonico": "Norma técnica brasileira (3ª edição, 18.03.2025) que estabelece os princípios gerais para apresentação de projetos de pesquisa. Define estrutura com elementos pré-textuais (capa, folha de rosto, listas, sumário), textuais (introdução com tema, problema, hipóteses/questões, objetivos, justificativa, referencial teórico, metodologia e cronograma) e pós-textuais (referências conforme NBR 6023:2025, glossário, apêndices e anexos).",
+    "armadilhaCebraspe": "Afirmar que o cronograma e os recursos financeiros são elementos pós-textuais, quando na NBR 15287 integram a parte textual do projeto.",
+    "aplicacaoCamara": "Elaboração metodológica de propostas de pesquisa institucional e projetos técnicos de modernização no Centro de Documentação e Informação (Cedi) da Câmara.",
+    "fonteReferencia": "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 15287: Informação e documentação — Projeto de pesquisa — Apresentação. Rio de Janeiro: ABNT, 2025.",
+    "tipo": "norma",
+    "definicao_curta": "Norma técnica da ABNT (3ª edição, 2025) que fixa os requisitos para a estrutura e apresentação de projetos de pesquisa acadêmicos e institucionais.",
+    "definicao_completa": "Norma técnica brasileira (3ª edição, 18.03.2025) que estabelece os princípios gerais para apresentação de projetos de pesquisa. Define estrutura com elementos pré-textuais (capa, folha de rosto, listas, sumário), textuais (introdução com tema, problema, hipóteses/questões, objetivos, justificativa, referencial teórico, metodologia e cronograma) e pós-textuais (referências conforme NBR 6023:2025, glossário, apêndices e anexos).",
+    "fonte": {
+      "referencia": "ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 15287: Informação e documentação — Projeto de pesquisa — Apresentação. Rio de Janeiro: ABNT, 2025.",
+      "versao": "Edital nº 1/2026"
+    },
+    "modulo_ref": [
+      "m8"
+    ],
+    "variantes": [
+      "nbr 15287",
+      "abnt 15287",
+      "nbr 15287:2025",
+      "projeto de pesquisa abnt",
+      "ABNT NBR 15287:2025 (Projeto de Pesquisa — Apresentação)"
+    ],
+    "nao_confundir_com": [
+      "NBR 14724 (que trata de trabalhos acadêmicos concluídos: teses, dissertações e TCCs)."
     ]
   },
   {

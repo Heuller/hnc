@@ -78,7 +78,7 @@ export const RadarPage: React.FC = () => {
       gabarito: q.gabarito,
       armadilhaBanca: q.armadilhaBanca,
       justificativa: q.justificativa,
-      fonte: q.fonteOriginal?.descricao || 'HNC — Inédita Cebraspe',
+      fonte: q.fonteOriginal?.descricao || 'HNC — Item autoral no estilo Cebraspe',
     }));
 
   const blocoAtivo = BLOCOS_EDITAL.find((b) => b.id === selectedBloco);
@@ -237,7 +237,7 @@ export const RadarPage: React.FC = () => {
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              {selectedBloco === 'todos' ? 'Todos os Módulos (M1-M14)' : `Todos do ${blocoAtivo?.label}`}
+              {selectedBloco === 'todos' ? `Todos os Módulos (M1-M${COURSE_REGISTRY.length})` : `Todos do ${blocoAtivo?.label}`}
             </button>
             {macrosDisponiveis.map((macro) => (
               <button
@@ -346,7 +346,7 @@ export const RadarPage: React.FC = () => {
                 : 'text-ink-2 hover:text-ink'
             }`}
           >
-            Itens da Banca com Armadilha ({questoesFiltradas.length})
+            Itens autorais no estilo Cebraspe ({questoesFiltradas.length})
           </button>
         </div>
       </section>
@@ -391,7 +391,7 @@ export const RadarPage: React.FC = () => {
             <div className="flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-accent" />
               <h2 className="font-sans font-bold text-ink text-lg">
-                Armadilhas Sintáticas e Vocabulares
+                Padrões de armadilha (autorais)
               </h2>
             </div>
 
@@ -461,7 +461,7 @@ export const RadarPage: React.FC = () => {
             <div className="flex items-center gap-2">
               <AlertTriangle className="w-4 h-4 text-accent" />
               <h2 className="font-sans font-bold text-ink text-lg">
-                Questões Canônicas com Análise de Distrator
+                Itens autorais no estilo Cebraspe com Análise de Distrator
               </h2>
             </div>
 
@@ -489,7 +489,7 @@ export const RadarPage: React.FC = () => {
 
                     <div className="p-3 bg-theme-alerta-soft/40 border-l-2 border-theme-alerta rounded-r-lg mb-3">
                       <span className="font-sans font-bold text-xs text-theme-alerta block mb-0.5">
-                        Armadilha da Banca:
+                        Padrão de armadilha (autoral):
                       </span>
                       <p className="text-xs sm:text-sm text-theme-alerta font-sans leading-snug">
                         {q.armadilhaBanca}

@@ -64,6 +64,17 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         )}
       </div>
 
+      {/* Banner de Honestidade e Transparência Pedagógica (Edital nº 1/2026, item 9.8.4.1) */}
+      <div className="p-3.5 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/40 text-xs text-amber-900 dark:text-amber-200 flex items-start gap-2.5">
+        <Sparkles className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+        <div className="space-y-0.5 leading-relaxed">
+          <span className="font-bold font-sans">Estimativa Pedagógica de IA:</span>{' '}
+          <span className="font-serif">
+            Esta avaliação e notas são estimativas pedagógicas automatizadas para orientação de estudo. No concurso real da Câmara dos Deputados (Edital nº 1/2026, item 9.8.4.1), cada prova discursiva é avaliada por dois examinadores humanos independentes, cuja média aritmética compõe a nota oficial.
+          </span>
+        </div>
+      </div>
+
       {/* Grid de Métricas Principais (Placar Editorial Cebraspe) */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {/* Nota Final */}
@@ -99,7 +110,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         {/* Desconto Gramatical */}
         <div className="p-4 rounded-xl bg-rose-50/60 dark:bg-rose-950/20 border border-rose-200/80 dark:border-rose-900/40 space-y-1">
           <span className="text-[11px] font-mono uppercase tracking-wider text-rose-700 dark:text-rose-300 font-bold block">
-            Desconto Língua (2×NE/TL)
+            Desconto Língua ({avaliacao.tipo === 'peca_50' ? '6' : '3'}×NE/TL)
           </span>
           <div className="flex items-baseline gap-1.5">
             <span className="text-2xl sm:text-3xl font-black text-rose-900 dark:text-rose-100 font-serif">

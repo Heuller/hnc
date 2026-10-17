@@ -207,7 +207,7 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Avaliador Cebraspe de Discursiva</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Ambiente de redação com correção automatizada pela fórmula oficial Cebraspe NC = NCP - 2×(NE/TL), espelho preliminar de notas, auditoria gramatical por linha e reescrita padrão ouro.
+                Ambiente de redação com correção automatizada pelas fórmulas oficiais Cebraspe do Edital nº 1/2026 (NQi = NCi − 3×(NE/TL) e NPT = NC − 6×(NE/TL)), espelho preliminar de notas, auditoria gramatical por linha e reescrita padrão ouro.
               </p>
             </div>
 
@@ -239,7 +239,7 @@ export const TreinosPage: React.FC = () => {
                 <EmblemaM8 size={32} className="text-emerald-600/70 dark:text-emerald-400/70 hidden sm:block" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-surface-2 border border-border text-ink">
-                {modulosLidosIds.length} módulos concluídos
+                {modulosLidosIds.length} submódulos concluídos
               </span>
             </div>
 
