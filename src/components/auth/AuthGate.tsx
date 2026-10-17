@@ -13,7 +13,6 @@ import {
   Eye,
   EyeOff,
   BookOpen,
-  Compass,
 } from 'lucide-react';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
@@ -306,27 +305,6 @@ export const AuthGate: React.FC = () => {
                       </>
                     )}
                   </button>
-
-                  {tab === 'login' && (
-                    <div className="pt-2">
-                      <div className="relative flex py-2 items-center">
-                        <div className="flex-grow border-t border-border"></div>
-                        <span className="flex-shrink mx-2 text-[10px] font-mono text-ink-2 uppercase tracking-wider">
-                          ou experimente
-                        </span>
-                        <div className="flex-grow border-t border-border"></div>
-                      </div>
-
-                      <button
-                        type="button"
-                        onClick={() => useAuthStore.getState().loginAsGuest()}
-                        className="w-full py-2.5 px-3 rounded-xl bg-surface-2 hover:bg-surface border border-border hover:border-accent text-ink text-xs font-semibold flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer group"
-                      >
-                        <Compass className="w-4 h-4 text-accent group-hover:rotate-45 transition-transform" />
-                        <span>Acessar Modo Demonstração (Convidado)</span>
-                      </button>
-                    </div>
-                  )}
                 </div>
 
                 {tab === 'reset' && (

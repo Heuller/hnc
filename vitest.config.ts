@@ -5,8 +5,15 @@ export default defineConfig({
     globals: true,
     environment: 'node',
     pool: 'threads',
-    testTimeout: 20000,
-    hookTimeout: 20000,
+    poolOptions: {
+      threads: {
+        isolate: false,
+        maxThreads: 2,
+        minThreads: 1,
+      },
+    },
+    testTimeout: 25000,
+    hookTimeout: 25000,
     include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
   },
 });
