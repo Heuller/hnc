@@ -32,6 +32,8 @@ A **Fase 9 (REVISADA) — Consolidação pós-correções** coroa e encerra com 
 | **T9.4** | Regeneração do dossiê teórico completo com termos prévios, selos e KaTeX | `08f6770` | `scripts/generateTheoreticalPdf.ts`, `Heuller_na_Camara_Dossie_Teorico_Completo.md`, `.html`, `.pdf` |
 | **T9.5** | Testes de integridade normativa ABNT, ausência de pendências e fórmulas da discursiva | `7dd3483` | `src/tests/verificacoesFinaisConteudoT9.test.ts` |
 | **T9.6** | Relatório de prontidão final e cronograma de 13 semanas até 17/01/2027 | `b4f6f87` | `docs/prontidao_final.md`, `Heuller_na_Camara_Dossie_Teorico_Completo.pdf` |
+| **T9.7** | Relatório final consolidado de pós-correções e fechamento do Plano v3 | `477f28e` | `docs/relatorios/plano_v3_fase9_relatorio.md` |
+| **T9.8** | Estabilidade de testes em concorrência (timeout 20s) e fechamento de sintaxe JSX | `8e7f71a` | `src/pages/TeoriaPage.tsx`, `vitest.config.ts` |
 
 ---
 
