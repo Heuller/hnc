@@ -8,6 +8,10 @@ import {
   Unlock,
   ChevronDown,
   Book,
+  BarChart3,
+  Bookmark,
+  PenTool,
+  Sparkles,
 } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -136,38 +140,74 @@ export const UserMenuDropdown: React.FC = () => {
             </p>
           </div>
 
-          {/* Opções de Estudo e Preferências */}
-          <div className="py-1 space-y-0.5">
+          {/* Ferramentas Especializadas de Estudo (U6.2) */}
+          <div className="py-1 space-y-0.5 border-b border-border/60">
+            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
+              Ferramentas de Estudo
+            </span>
+
             <button
               type="button"
               role="menuitem"
               onClick={() => {
-                setShowPrefsModal(true);
+                setActiveView('radar');
                 setIsOpen(false);
               }}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-2.5">
-                <Sliders className="w-4 h-4 text-accent" />
-                <span>Preferências de Leitura</span>
+                <BarChart3 className="w-4 h-4 text-accent" />
+                <span>Radar Cebraspe</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">U.5</span>
+              <span className="text-[10px] font-mono text-ink-2">Banca</span>
             </button>
 
             <button
               type="button"
               role="menuitem"
               onClick={() => {
-                setActiveView('glossario');
+                setActiveView('caderno-erros');
                 setIsOpen(false);
               }}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-2.5">
-                <Book className="w-4 h-4 text-accent" />
-                <span>Glossário do Concurso</span>
+                <Bookmark className="w-4 h-4 text-rose-500" />
+                <span>Caderno de Erros</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
+              <span className="text-[10px] font-mono text-ink-2">Hipercorreção</span>
+            </button>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setActiveView('discursiva');
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <PenTool className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                <span>Oficina Discursiva</span>
+              </div>
+              <span className="text-[10px] font-mono text-ink-2">Item 9</span>
+            </button>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setActiveView('folha-vespera');
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <Sparkles className="w-4 h-4 text-amber-500" />
+                <span>Folha de Véspera</span>
+              </div>
+              <span className="text-[10px] font-mono text-ink-2">Revisão Express</span>
             </button>
 
             <button
@@ -177,31 +217,72 @@ export const UserMenuDropdown: React.FC = () => {
                 setActiveView('edital');
                 setIsOpen(false);
               }}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-2.5">
-                <FileText className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-                <span>Edital Oficial 2026 (Quadro & Regras)</span>
+                <FileText className="w-4 h-4 text-indigo-500" />
+                <span>Edital Oficial 2026</span>
               </div>
+              <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
+            </button>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setActiveView('glossario');
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <Book className="w-4 h-4 text-accent" />
+                <span>Glossário do Concurso</span>
+              </div>
+              <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
+            </button>
+          </div>
+
+          {/* Opções de Estudo e Preferências */}
+          <div className="py-1 space-y-0.5">
+            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
+              Configurações & Progresso
+            </span>
+
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => {
+                setShowPrefsModal(true);
+                setIsOpen(false);
+              }}
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-2.5">
+                <Sliders className="w-4 h-4 text-accent" />
+                <span>Preferências de Leitura</span>
+              </div>
+              <span className="text-[10px] font-mono text-ink-2">Visual</span>
             </button>
 
             <button
               type="button"
               role="menuitem"
               onClick={handleExport}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-2.5">
                 <Download className="w-4 h-4 text-accent" />
                 <span>Exportar Progresso (MD)</span>
               </div>
+              <span className="text-[10px] font-mono text-ink-2">Backup</span>
             </button>
 
             <button
               type="button"
               role="menuitem"
               onClick={handleToggleModoLivre}
-              className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
+              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-2.5">
                 <Unlock className={`w-4 h-4 ${modoLivre ? 'text-amber-500' : 'text-ink-2'}`} />

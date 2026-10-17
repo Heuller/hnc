@@ -383,7 +383,6 @@ export const JornadaPage: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                   {submodulos.map((sub) => {
                     const etapaSub = etapas[sub.numero];
-                    const isBloqueada = etapaSub?.status === 'bloqueada';
                     const isConcluida = etapaSub?.status === 'concluida';
                     const isRevisaoDirigida = etapaSub?.status === 'em_revisao_dirigida';
                     const isAtiva = proximoPasso?.etapaId === sub.numero;
@@ -396,8 +395,6 @@ export const JornadaPage: React.FC = () => {
                             ? 'bg-surface-2/30 border-emerald-500/30'
                             : isRevisaoDirigida
                             ? 'bg-amber-500/5 border-amber-500/30'
-                            : isBloqueada
-                            ? 'bg-surface-2/20 border-border/50 opacity-60'
                             : 'bg-surface hover:bg-surface-2/40 border-border shadow-2xs'
                         }`}
                       >

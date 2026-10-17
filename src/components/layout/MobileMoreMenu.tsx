@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock, RotateCcw } from 'lucide-react';
+import { MoreVertical, Sun, Moon, Laptop, Download, Palette, BookOpen, BookMarked, Flame, User, LogOut, Unlock, RotateCcw, BarChart3, PenTool, FileText } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
@@ -133,16 +133,16 @@ export const MobileMoreMenu: React.FC = () => {
             type="button"
             role="menuitem"
             onClick={() => {
-              setActiveView('glossario');
+              setActiveView('radar');
               setIsOpen(false);
             }}
-            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
           >
             <div className="flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-accent" />
-              <span>Glossário & Dicionário</span>
+              <BarChart3 className="w-4 h-4 text-accent" />
+              <span>Radar Cebraspe</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
+            <span className="text-[10px] font-mono text-ink-2">Banca</span>
           </button>
 
           <button
@@ -152,10 +152,29 @@ export const MobileMoreMenu: React.FC = () => {
               setActiveView('caderno-erros');
               setIsOpen(false);
             }}
-            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
           >
-            <BookMarked className="w-4 h-4 text-amber-500" />
-            <span>Caderno de Erros</span>
+            <div className="flex items-center gap-2">
+              <BookMarked className="w-4 h-4 text-rose-500" />
+              <span>Caderno de Erros</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2">Hipercorreção</span>
+          </button>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setActiveView('discursiva');
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <PenTool className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+              <span>Oficina Discursiva</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2">Item 9</span>
           </button>
 
           <button
@@ -165,10 +184,45 @@ export const MobileMoreMenu: React.FC = () => {
               setActiveView('folha-vespera');
               setIsOpen(false);
             }}
-            className="w-full text-left px-3 py-2 rounded-lg flex items-center gap-2 hover:bg-surface-2 text-ink transition-colors min-h-[40px] cursor-pointer"
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
           >
-            <Flame className="w-4 h-4 text-accent" />
-            <span>Folha de Véspera (48h)</span>
+            <div className="flex items-center gap-2">
+              <Flame className="w-4 h-4 text-amber-500" />
+              <span>Folha de Véspera (48h)</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2">Express</span>
+          </button>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setActiveView('edital');
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <FileText className="w-4 h-4 text-indigo-500" />
+              <span>Edital Oficial 2026</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
+          </button>
+
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => {
+              setActiveView('glossario');
+              setIsOpen(false);
+            }}
+            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-accent" />
+              <span>Glossário do Concurso</span>
+            </div>
+            <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
           </button>
 
           <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">

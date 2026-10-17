@@ -24,7 +24,7 @@ function getInitialTheme(): ThemeMode {
 }
 
 function resolveSystemTheme(): 'light' | 'dark' {
-  if (typeof window === 'undefined') return 'dark';
+  if (typeof window === 'undefined' || typeof window.matchMedia !== 'function') return 'dark';
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
@@ -44,7 +44,7 @@ export const useThemeStore = create<ThemeState>((set, get) => {
   applyThemeToDOM(initialResolved);
 
   // Set up system listener
-  if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined' && typeof window.matchMedia === 'function') {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     mediaQuery.addEventListener('change', (e) => {
       const current = get().theme;
