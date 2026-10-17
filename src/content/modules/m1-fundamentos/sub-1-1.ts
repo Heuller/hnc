@@ -83,8 +83,10 @@ Na obra seminal *Traité de Documentation: le livre sur le livre, théorie et pr
 2. **Ampliação do Suporte Documental:** Para Otlet, a documentação não se restringe a livros impressos. Abrange gráficos, mapas, fotografias, esquemas, cartazes, diapositivos, patentes e discos sonoros.
 
 #### C. Suzanne Briet e as Quatro Condições do Documento (1951)
-No manifesto seminal *Qu'est-ce que la documentation?* (1951), a bibliotecária e documentalista francesa **Suzanne Briet** formulou a mais influente definição de documento da área:
-> *"Documento é todo indício material, conservado ou registrado, com a finalidade de representar, reconstituir ou provar um fenômeno físico ou intelectual."*
+No manifesto seminal *Qu'est-ce que la documentation?* (1951), a bibliotecária e documentalista francesa **Suzanne Briet** formulou a mais influente conceituação de documento da área.
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Definição Doutrinária (Suzanne Briet, 1951):** Segundo Suzanne Briet (1951), o documento se caracteriza como todo indício material, conservado ou registrado, que tem por finalidade representar, reconstituir ou provar determinado fenômeno físico ou intelectual.
 
 Para Briet, um objeto torna-se documento se preencher cumulativamente **quatro condições**:
 1. **Materialidade:** Deve possuir base material tangível ou registro físico/magnético de signos.
@@ -116,8 +118,10 @@ A emergência da Ciência da Informação ocorreu no contexto da Segunda Guerra 
 * **Conferências do Georgia Institute of Technology (1961-1962):**
   * Consideradas o marco zero da definição formal da área. Estabeleceram que a Ciência da Informação é uma ciência interdisciplinar que estuda as propriedades e o comportamento da informação, as forças que governam seus fluxos e os meios de processamento.
 * **Harold Borko e o Artigo "Information Science: What is it?" (1968):**
-  * Borko formulou a definição canônica mais cobrada em concursos públicos federais:
-  > *"A Ciência da Informação é a disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso. Ela se ocupa daquele corpo de conhecimentos relativos à origem, coleta, organização, armazenamento, recuperação, interpretação, transmissão, transformação e utilização da informação. Possui uma componente de ciência pura (que investiga o assunto sem relação com a aplicação imediata) e uma componente de ciência aplicada (que desenvolve serviços e produtos)."*
+  * Borko formulou a caracterização canônica mais cobrada em concursos públicos federais:
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Doutrinária (Harold Borko, 1968):** Segundo Harold Borko (1968), a Ciência da Informação investiga as propriedades e o comportamento da informação, as forças que regem seu fluxo e os meios de processamento destinados a aperfeiçoar sua acessibilidade e uso. O campo abrange os saberes relativos à gênese, coleta, organização, guarda, recuperação, interpretação, difusão, transformação e uso da informação, integrando uma vertente de ciência pura e uma de ciência aplicada (desenvolvimento de produtos e serviços).
 
 ---
 

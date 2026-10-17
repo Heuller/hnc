@@ -39,8 +39,10 @@ export const submodulo41: ModuloFilho = {
     ],
   },
   teoriaDensaMarkdown: `### 1. A Gênese e os Fundamentos da Recuperação da Informação (*Information Retrieval - IR*)
-O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Conforme a definição clássica de Gerard Salton e dos autores de referência contemporânea Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):
-> *"A Recuperação da Informação é o processo de representação, armazenamento, organização e acesso a itens de informação, com o propósito de disponibilizar ao usuário os documentos que atendem à sua necessidade de informação expressa em uma consulta."*
+O termo **Recuperação da Informação** foi cunhado em 1950 pelo pioneiro da computação **Calvin Mooers**. Na tradição conceitual associada a Gerard Salton e às referências contemporâneas de Ricardo Baeza-Yates e Berthier Ribeiro-Neto (*Modern Information Retrieval*):
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Conceituação Doutrinária (Baeza-Yates & Ribeiro-Neto; Salton):** De acordo com a doutrina consolidada de Baeza-Yates, Ribeiro-Neto e Salton, a Recuperação da Informação compreende o conjunto estruturado de processos de representação, armazenamento, organização e acesso a itens documentários, visando fornecer ao usuário aqueles recursos que atendam à necessidade informacional formulada em sua consulta.
 
 Ao contrário dos Bancos de Dados Relacionais clássicos (SGBDs baseados em SQL), que operam sobre dados estruturados com correspondência determinística e exata, os **Sistemas de Recuperação da Informação (SRI)** operam predominantemente sobre **textos em linguagem natural não estruturados ou semiestruturados**, onde a pertinência e a relevância possuem natureza conceitual, gradual e subjetiva.
 

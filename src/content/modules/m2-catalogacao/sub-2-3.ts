@@ -112,8 +112,10 @@ O IFLA LRM é uma **ontologia de alto nível** baseada no paradigma orientado a 
 #### A. A Estrutura Hierárquica e a Superclasse "Res"
 Ao contrário dos FRBR, onde as entidades eram tratadas em silos conceituais planos, o IFLA LRM organiza suas entidades em uma estrutura hierárquica rigorosa de herança (superclasses e subclasses).
 
-A raiz do modelo é a entidade **LRM-E1 Res** (do latim: *coisa*), definida como:
-> *"Qualquer entidade no universo do discurso; inclui tudo o que pode ser de interesse para catalogadores ou usuários."*
+A raiz do modelo é a entidade **LRM-E1 Res** (do latim: *coisa*), definida pelo modelo conceitual da IFLA:
+
+<!-- [CONFERIDO EM ACERVO: ifla-lrm-august-2017_rev201712-por.pdf, p. 21] -->
+> *"Qualquer entidade no universo do discurso; inclui tudo o que pode ser de interesse para catalogadores ou usuários."* (IFLA LRM, 2017, p. 21)
 
 Como consequência direta do princípio de herança ontológica:
 * Todas as entidades de LRM-E2 a LRM-E11 são **subclasses de Res**.

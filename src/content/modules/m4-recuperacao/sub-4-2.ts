@@ -38,8 +38,10 @@ export const submodulo42: ModuloFilho = {
     ],
   },
   teoriaDensaMarkdown: `### 1. Conceito e Tipologia Epistemológica das Fontes de Informação
-Conforme a definição seminal de **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*), uma **fonte de informação** compreende:
-> *"Qualquer recurso, documento, pessoa, instituição ou sistema eletrônico capaz de responder a uma necessidade de informação do usuário, atuando como veículo transmissor de dados, ideias ou conhecimentos."*
+Conforme a síntese doutrinária associada a **Murilo Bastos da Cunha** (*Para Saber Mais: Fontes de Informação em Ciência e Tecnologia*):
+
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Definição Doutrinária (Murilo Bastos da Cunha):** Segundo Murilo Bastos da Cunha, fonte de informação abrange todo recurso, suporte documental, pessoa, instituição ou sistema eletrônico apto a responder a uma demanda informacional, funcionando como condutor transmissor de dados, ideias ou conhecimentos.
 
 A literatura canônica internacional (**Denis Grogan, 1995; Murilo Bastos da Cunha, 2001; Bernadete Campello, 2000**) categoriza as fontes de informação em três grandes níveis hierárquicos, segundo o grau de originalidade e tratamento documentário:
 
