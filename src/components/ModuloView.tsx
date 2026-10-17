@@ -108,7 +108,7 @@ export const ModuloView: React.FC<ModuloViewProps> = ({ onGoToSimulado }) => {
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <div className="flex items-center gap-2 text-xs text-slate-400 bg-slate-800/60 px-3 py-1.5 rounded-lg border border-slate-700/50">
               <Clock className="w-3.5 h-3.5 text-amber-400" />
-              <span>4 Módulos-Filhos densamente fundamentados</span>
+              <span>{moduloFundamentos.modulosFilhos.length} Módulos-Filhos densamente fundamentados</span>
             </div>
             <button
               onClick={onGoToSimulado}
@@ -381,7 +381,7 @@ export const ModuloView: React.FC<ModuloViewProps> = ({ onGoToSimulado }) => {
                 Pronto para a Prova de Fogo?
               </h4>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Testes práticos consolidados de 100 itens estilo Cebraspe baseados exatamente nos 4 submódulos teóricos.
+                Testes práticos consolidados de 100 itens estilo Cebraspe baseados exatamente nos {moduloFundamentos.modulosFilhos.length} submódulos teóricos.
               </p>
               <button
                 onClick={onGoToSimulado}
