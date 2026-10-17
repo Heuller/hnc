@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
 import { ALL_COURSE_MODULES } from '../content/registry';
@@ -25,6 +25,7 @@ import {
   Type,
   Sliders,
   ShieldCheck,
+  List,
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
@@ -122,6 +123,49 @@ export const TeoriaPage: React.FC = () => {
     return dicionarioService.obterTermosPorModulo(currentMacro.id).length;
   }, [currentMacro.id]);
   const moduleTheme = getModuleTheme(currentMacro.id);
+
+  const [activeSectionId, setActiveSectionId] = useState<string>('sec-teoria');
+  const [lateralTab, setLateralTab] = useState<'sumario' | 'mnemonicos'>('sumario');
+
+  const readingSections = useMemo(
+    () => [
+      { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
+      ...(currentSub.alertasCebraspe && currentSub.alertasCebraspe.length > 0
+        ? [{ id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' }]
+        : []),
+      ...(currentSub.quadroComparativo
+        ? [{ id: 'sec-quadro', numero: '3', titulo: 'Matriz Comparativa' }]
+        : []),
+      ...(currentSub.antesDeLer && currentSub.antesDeLer.length > 0
+        ? [{ id: 'sec-antes-de-ler', numero: '4', titulo: 'Pré-requisitos' }]
+        : []),
+      { id: 'sec-teoria', numero: '5', titulo: 'Fundamentação Teórica' },
+      { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
+      { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
+      { id: 'sec-glossario-modulo', numero: '8', titulo: `Glossário (${totalTermosModulo})` },
+    ],
+    [currentSub, totalTermosModulo]
+  );
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActiveSectionId(entry.target.id);
+          }
+        }
+      },
+      { rootMargin: '-80px 0px -50% 0px' }
+    );
+
+    readingSections.forEach((sec) => {
+      const el = document.getElementById(sec.id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, [currentSub.id, readingSections]);
 
   // Monitoramento de seções para conquista estrita de conclusão (Parte G)
   useEffect(() => {
@@ -827,16 +871,94 @@ export const TeoriaPage: React.FC = () => {
           </footer>
         </main>
 
-        {/* Coluna Lateral Direita Fixa no Desktop Largo (>= 1440px / 3 colunas fluídas) */}
+        {/* Coluna Lateral Direita no Desktop (>= 1280px / telas xl+) */}
         <aside
-          aria-label="Resumo rápido lateral"
-          className="hidden 2xl:block w-80 sticky top-20 bg-surface rounded-xl border border-border p-4.5 shadow-xs max-h-[calc(100vh-6rem)] overflow-y-auto scrollbar-thin"
+          aria-label="Índice da Leitura e Resumo"
+          className="hidden xl:flex flex-col w-80 shrink-0 sticky top-20 bg-surface rounded-2xl border border-border p-4 shadow-editorial-xs max-h-[calc(100vh-6rem)] overflow-hidden"
         >
-          <div className="flex items-center gap-2 pb-3 mb-3 border-b border-border">
-            <Sparkles className="w-4 h-4 text-accent" />
-            <h3 className="font-sans font-bold text-ink text-sm">Resumo Rápido</h3>
+          {/* Alternador de Abas: Índice vs. Mnemônicos */}
+          <div className="flex items-center p-1 rounded-xl bg-surface-2 border border-border/80 mb-3 shrink-0">
+            <button
+              type="button"
+              onClick={() => setLateralTab('sumario')}
+              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                lateralTab === 'sumario'
+                  ? 'bg-surface text-ink shadow-2xs border border-border/60'
+                  : 'text-ink-2 hover:text-ink'
+              }`}
+            >
+              <List className="w-3.5 h-3.5 text-accent" />
+              <span>Índice</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setLateralTab('mnemonicos')}
+              className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-sans font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
+                lateralTab === 'mnemonicos'
+                  ? 'bg-surface text-ink shadow-2xs border border-border/60'
+                  : 'text-ink-2 hover:text-ink'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-accent" />
+              <span>Mnemônicos</span>
+            </button>
           </div>
-          <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
+
+          {/* Barra de Progresso do Submódulo */}
+          <div className="pb-3 mb-3 border-b border-border/70 shrink-0">
+            <div className="flex items-center justify-between text-[11px] font-mono text-ink-2 mb-1.5">
+              <span>Progresso da Leitura</span>
+              <span className="font-bold text-accent">{scrollProgress}%</span>
+            </div>
+            <div className="w-full h-1.5 rounded-full bg-border/60 overflow-hidden">
+              <div
+                className="h-full rounded-full transition-all duration-200"
+                style={{
+                  width: `${scrollProgress}%`,
+                  backgroundColor: moduleTheme.solidVar,
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Conteúdo da Aba */}
+          <div className="flex-1 overflow-y-auto scrollbar-thin pr-1 space-y-1">
+            {lateralTab === 'sumario' ? (
+              <nav aria-label="Seções da Leitura" className="space-y-1">
+                {readingSections.map((sec) => {
+                  const isActive = activeSectionId === sec.id;
+                  const isRead = secoesVistas.includes(sec.id);
+
+                  return (
+                    <button
+                      key={sec.id}
+                      type="button"
+                      onClick={() => scrollToAnchor(sec.id)}
+                      className={`w-full text-left p-2 rounded-xl text-xs font-sans flex items-center justify-between gap-2 transition-all cursor-pointer ${
+                        isActive
+                          ? 'bg-accent-soft text-accent font-bold border-l-2 border-accent'
+                          : 'text-ink-2 hover:text-ink hover:bg-surface-2'
+                      }`}
+                    >
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className="font-mono text-[10px] w-4 text-center shrink-0">
+                          {sec.numero}
+                        </span>
+                        <span className="truncate">{sec.titulo}</span>
+                      </div>
+                      {isRead ? (
+                        <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0" />
+                      ) : isActive ? (
+                        <div className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
+                      ) : null}
+                    </button>
+                  );
+                })}
+              </nav>
+            ) : (
+              <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
+            )}
+          </div>
         </aside>
       </div>
 

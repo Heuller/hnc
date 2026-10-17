@@ -3,7 +3,9 @@
 @theme {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
+  --color-surface-1: var(--surface-1);
   --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
   --color-border: var(--border);
   --color-border-subtle: var(--border-subtle);
   --color-ink: var(--ink);
@@ -96,7 +98,9 @@
   /* TEMA CLARO (Padrão) */
   --bg: #FAF7F0;
   --surface: #FFFFFF;
-  --surface-2: #F2EEE4;
+  --surface-1: #FAF7F0;
+  --surface-2: #FFFFFF;
+  --surface-3: #F2EEE4;
   --border: #E4DED0;
   --border-subtle: #ECE6D8;
   --ink: #1A2238;
@@ -209,7 +213,9 @@
 html.dark {
   --bg: #0D1220;
   --surface: #141B2E;
-  --surface-2: #1B2440;
+  --surface-1: #0D1220;
+  --surface-2: #141B2E;
+  --surface-3: #1B2440;
   --border: #2A3555;
   --border-subtle: #202942;
   --ink: #E9ECF5;
@@ -310,7 +316,9 @@ html.dark {
   html:not(.light) {
     --bg: #0D1220;
     --surface: #141B2E;
-    --surface-2: #1B2440;
+    --surface-1: #0D1220;
+    --surface-2: #141B2E;
+    --surface-3: #1B2440;
     --border: #2A3555;
     --border-subtle: #202942;
     --ink: #E9ECF5;
