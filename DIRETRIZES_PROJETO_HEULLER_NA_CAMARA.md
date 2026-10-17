@@ -585,7 +585,7 @@ Criada biblioteca autoral com ícones e micro-ilustrações vetoriais em traços
 * **`FichaOtletIllustration`**: Ficha catalográfica internacional com orifício padrão e carimbo de autoridade da Documentação.
 
 ### 19.3. Acesso Convidado / Demonstração Resiliente (`AuthGate.tsx`, `useAuthStore.ts`)
-* Adição da funcionalidade `loginAsGuest` com provisionamento seguro de sessão local para testes de revisão, auditorias offline e demonstração imediata sem travar a navegação.
+* Exclusão definitiva do Modo Demonstração (`loginAsGuest`) no AuthGate e na store de autenticação para garantia de segurança e exclusividade de acesso.
 
 ### 19.4. Validação de Qualidade de Código e Produção
 * **Linter Oxlint:** 0 erros e 0 warnings em todos os arquivos modificados.
