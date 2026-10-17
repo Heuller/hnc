@@ -587,7 +587,7 @@ export const EDITAL_CAMARA_2026: EditalOficial = {
         {
           id: 'NOR-01',
           codigoEdital: '8.1',
-          titulo: 'ABNT NBR 6023:2018 (Referências — Elaboração)',
+          titulo: 'ABNT NBR 6023:2025 (Referências — Elaboração)',
           detalhamento: [
             'Elementos essenciais e complementares de referências para monografias no todo e em parte',
             'Publicações periódicas, artigos de revista e matérias de jornal',
