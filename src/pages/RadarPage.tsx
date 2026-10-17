@@ -237,7 +237,7 @@ export const RadarPage: React.FC = () => {
                   : 'bg-surface-2 border-border text-ink hover:text-ink'
               }`}
             >
-              {selectedBloco === 'todos' ? 'Todos os Módulos (M1-M14)' : `Todos do ${blocoAtivo?.label}`}
+              {selectedBloco === 'todos' ? `Todos os Módulos (M1-M${COURSE_REGISTRY.length})` : `Todos do ${blocoAtivo?.label}`}
             </button>
             {macrosDisponiveis.map((macro) => (
               <button

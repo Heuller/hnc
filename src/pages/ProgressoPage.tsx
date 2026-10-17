@@ -176,7 +176,7 @@ export const ProgressoPage: React.FC = () => {
 
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs">
           <span className="text-xs font-sans text-ink-2 uppercase tracking-wider font-semibold">
-            Módulos de Teoria Concluídos
+            Submódulos Teóricos Concluídos
           </span>
           <div className="text-3xl font-mono font-bold text-ink mt-1">
             {modulosLidosIds.length} / {allSubmodules.length}

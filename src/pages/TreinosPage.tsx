@@ -239,7 +239,7 @@ export const TreinosPage: React.FC = () => {
                 <EmblemaM8 size={32} className="text-emerald-600/70 dark:text-emerald-400/70 hidden sm:block" />
               </div>
               <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-surface-2 border border-border text-ink">
-                {modulosLidosIds.length} módulos concluídos
+                {modulosLidosIds.length} submódulos concluídos
               </span>
             </div>
 
