@@ -645,7 +645,7 @@ export const SimuladoPage: React.FC = () => {
               <div className="flex items-center gap-2 mb-1">
                 <Award className="w-5 h-5 text-accent print:text-black" />
                 <span className="font-mono text-xs font-bold text-accent print:text-black uppercase tracking-wider">
-                  Relatório de Desempenho Oficial Cebraspe
+                  Relatório de Desempenho no Modelo Cebraspe (Fator 1:1)
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-tight">
@@ -1040,7 +1040,7 @@ export const SimuladoPage: React.FC = () => {
                             <div className="mt-3.5 p-3 rounded-lg bg-amber-500/10 border-l-4 border-l-amber-500 border border-border/50 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1 print:border-gray-400">
                               <div className="flex items-center gap-1.5 font-sans font-bold text-amber-700 dark:text-amber-400 print:text-black text-[11px] uppercase tracking-wide">
                                 <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                                <span>Armadilha Cebraspe Mapeada</span>
+                                <span>Padrão de armadilha (autoral)</span>
                               </div>
                               <p className="text-ink print:text-black m-0 leading-relaxed font-sans text-xs">
                                 {q.armadilhaBanca}
@@ -1346,7 +1346,7 @@ export const SimuladoPage: React.FC = () => {
                     <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
                     <span>
                       {currentQuestion.gabarito === 'E'
-                        ? 'Por que está errada? (Armadilha da Banca)'
+                        ? 'Por que está errada? (Padrão de armadilha autoral)'
                         : 'Ponto Chave da Assertiva Certa'}
                     </span>
                   </div>

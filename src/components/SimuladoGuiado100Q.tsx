@@ -329,7 +329,7 @@ export const SimuladoGuiado100Q: React.FC<SimuladoGuiadoProps> = ({ onUpdateStat
                           : 'Resposta Incorreta! (-1 Ponto Líquido)'}
                       </div>
                       <div className="text-xs opacity-90 mt-0.5">
-                        Gabarito Oficial Cebraspe: <strong className="font-black text-amber-300">{currentQ.gabarito === 'C' ? 'CERTO' : 'ERRADO'}</strong>
+                        Gabarito no Padrão Cebraspe: <strong className="font-black text-amber-300">{currentQ.gabarito === 'C' ? 'CERTO' : 'ERRADO'}</strong>
                       </div>
                     </div>
                   </div>

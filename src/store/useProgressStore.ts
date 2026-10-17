@@ -749,7 +749,7 @@ export const useProgressStore = create<ProgressStoreState>()(
 
         const manifest = getSimuladoById(simuladoId);
         const questoes = manifest?.questoes || simuladoFundamentos100Q;
-        const tituloSimulado = manifest?.titulo || 'Simulado Oficial Cebraspe';
+        const tituloSimulado = manifest?.titulo || 'Simulado no Modelo Cebraspe';
 
         let certos = 0;
         let errados = 0;

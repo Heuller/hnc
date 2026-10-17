@@ -441,7 +441,7 @@ export const CadernoErrosPage: React.FC = () => {
                   <div className="p-3 rounded-lg bg-surface-2 border border-border space-y-1">
                     <div className="flex items-center justify-between">
                       <span className="font-bold text-ink uppercase tracking-wider text-[10px]">
-                        Gabarito Oficial Cebraspe:
+                        Gabarito no Padrão Cebraspe:
                       </span>
                       <span className="font-bold font-mono text-accent">
                         {item.gabarito === 'C' ? 'CERTO' : 'ERRADO'}
