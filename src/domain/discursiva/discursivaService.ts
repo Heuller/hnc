@@ -1,4 +1,5 @@
 import type { TemaDiscursiva, AvaliacaoCebraspe } from './types';
+import { notaQuestao, notaPeca } from './formulas';
 
 const STORAGE_AVALIACOES_KEY = 'hnc_discursiva_avaliacoes_v1';
 
@@ -79,7 +80,9 @@ export class DiscursivaService {
     const notaConteudo = Number((notaMaximaGeral * 0.78).toFixed(2));
     const numErros = 2; // Erros simulados de grafia, morfossintaxe ou propriedade vocabular
     const desconto = Number((fatorDesconto * (numErros / totalLinhas)).toFixed(2));
-    const notaFinal = Math.max(0, Number((notaConteudo - desconto).toFixed(2)));
+    const notaFinal = isPeca
+      ? notaPeca(notaConteudo, numErros, totalLinhas)
+      : notaQuestao(notaConteudo, numErros, totalLinhas);
 
     const formulaIdentificador = isPeca
       ? `NPT = NC - 6 × (NE / TL) = ${notaConteudo} - 6 × (${numErros} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5)`

@@ -207,7 +207,7 @@ export const TreinosPage: React.FC = () => {
             <div>
               <h2 className="text-lg font-serif font-bold text-ink">Avaliador Cebraspe de Discursiva</h2>
               <p className="text-xs text-ink-2 mt-1 leading-relaxed">
-                Ambiente de redação com correção automatizada pela fórmula oficial Cebraspe NC = NCP - 2×(NE/TL), espelho preliminar de notas, auditoria gramatical por linha e reescrita padrão ouro.
+                Ambiente de redação com correção automatizada pelas fórmulas oficiais Cebraspe do Edital nº 1/2026 (NQi = NCi − 3×(NE/TL) e NPT = NC − 6×(NE/TL)), espelho preliminar de notas, auditoria gramatical por linha e reescrita padrão ouro.
               </p>
             </div>
 
