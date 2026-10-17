@@ -17,9 +17,10 @@ describe('U5.2 - Fonte Única da Verdade e Prevenção de Agendamento Duplicado'
     const c1 = conceitosM1[0];
     const c2 = conceitosM1[1];
     const hoje = '2026-10-19'; // Segunda-feira
+    const dataInicializacao = '2026-10-16'; // Sexta-feira anterior (intervalo de 1 dia útil = 2026-10-19)
 
-    // Inicializa estados dos submódulos
-    store.inicializarSubmodulos([c1.submoduloId, c2.submoduloId]);
+    // Inicializa estados dos submódulos de forma determinística
+    store.inicializarSubmodulos([c1.submoduloId, c2.submoduloId], dataInicializacao);
 
     // Ambos vencem na data da apresentação (ou seja, estão pendentes para hoje)
     const fila = store.getFilaRevisaoHoje(undefined, undefined, undefined, hoje);
@@ -36,8 +37,9 @@ describe('U5.2 - Fonte Única da Verdade e Prevenção de Agendamento Duplicado'
     const c2 = conceitosM1[1];
     const c3 = conceitosM2[0];
     const hoje = '2026-10-19';
+    const dataInicializacao = '2026-10-16';
 
-    store.inicializarSubmodulos([c1.submoduloId, c2.submoduloId, c3.submoduloId]);
+    store.inicializarSubmodulos([c1.submoduloId, c2.submoduloId, c3.submoduloId], dataInicializacao);
 
     const itensAgendadosHoje = store.getItensAgendadosHoje(hoje);
     expect(itensAgendadosHoje.has(c1.id)).toBe(true);
@@ -62,8 +64,9 @@ describe('U5.2 - Fonte Única da Verdade e Prevenção de Agendamento Duplicado'
     const conceitosM1 = conceptRepository.getPorModulo('m1');
     const c1 = conceitosM1[0];
     const hoje = '2026-10-19';
+    const dataInicializacao = '2026-10-16';
 
-    store.inicializarSubmodulos([c1.submoduloId]);
+    store.inicializarSubmodulos([c1.submoduloId], dataInicializacao);
     let fila = store.getFilaRevisaoHoje(undefined, undefined, undefined, hoje);
     expect(fila.itensNaFila.some((item) => item.conceito.id === c1.id)).toBe(true);
 

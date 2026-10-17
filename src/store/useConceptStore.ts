@@ -57,7 +57,7 @@ interface ConceptStoreState {
   getEstatisticasDominio: () => EstatisticasDominio;
 
   // Inicialização sob demanda
-  inicializarSubmodulos: (submoduloIds: string[]) => void;
+  inicializarSubmodulos: (submoduloIds: string[], dataAtualIso?: string) => void;
 
   // Reset para testes e migrações
   reset: () => void;
@@ -221,9 +221,9 @@ export const useConceptStore = create<ConceptStoreState>()(
         };
       },
 
-      inicializarSubmodulos: (submoduloIds: string[]) => {
+      inicializarSubmodulos: (submoduloIds: string[], dataAtualIso?: string) => {
         const userId = useAuthStore.getState().user?.id || 'offline_user';
-        const hojeIso = new Date().toISOString().split('T')[0];
+        const hojeIso = dataAtualIso || new Date().toISOString().split('T')[0];
         const novosEstados: Record<string, ConceptState> = {};
 
         for (const subId of submoduloIds) {
