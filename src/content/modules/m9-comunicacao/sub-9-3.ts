@@ -80,9 +80,10 @@ O **Plano de Gestão de Dados (PGD)** é o documento formal, dinâmico e prospec
 
 ### 2. Curadoria Digital e o Modelo do *Digital Curation Centre (DCC)*
 
-A **Curadoria Digital** transcende a preservação digital técnica e o arquivamento passivo. Segundo a definição canônica do *Digital Curation Centre* (Reino Unido) e de Luís Fernando Sayão e Luana Farias Sales (2014):
+A **Curadoria Digital** transcende a preservação digital técnica e o arquivamento passivo. Na linha do *Digital Curation Centre* (Reino Unido) e dos estudos de Luís Fernando Sayão e Luana Farias Sales (2014):
 
-> *"A Curadoria Digital é a seleção, preservação, manutenção, agregação de valor e disponibilização continuada de ativos digitais ao longo de todo o seu ciclo de vida, com o propósito de mitigar a obsolescência tecnológica, atestar sua proveniência e permitir seu reúso futuro e confiável."*
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Conceituação Doutrinária (DCC; Sayão & Sales, 2014):** Segundo as formulações do Digital Curation Centre e de Sayão & Sales (2014), a Curadoria Digital consiste na gestão ativa, seleção, preservação continuada, enriquecimento com metadados e agregação de valor aos ativos digitais durante todo o seu ciclo vital, prevenindo a degradação e a obsolescência para assegurar a autenticidade e o reúso legítimo no longo prazo.
 
 \`\`\`timeline
 C1 | 1. Conceber (Conceptualise) | Planejamento Inicial | Definir métodos de captura, requisitos de dados e formatos de preservação no Plano de Gestão de Dados (PGD)

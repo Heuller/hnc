@@ -494,7 +494,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
               <div className="card-editorial p-6 sm:p-8 bg-surface border border-border shadow-editorial-sm space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-mono font-bold text-accent uppercase tracking-wider">
-                    Espelho de Pontos Oficial Cebraspe
+                    Espelho de Pontos no Modelo Cebraspe (Fator 1:1)
                   </span>
                   <span className="text-xs font-mono text-ink-2">
                     Tempo: {formatarTempo(resultadoFinal.tempoGastoSegundos)}

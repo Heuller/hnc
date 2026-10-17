@@ -414,8 +414,8 @@ export const COMPENDIO_PESQUISA_AUTORES: Record<string, CompendioModuloPesquisa>
       {
         nome: 'ABNT / CB-014',
         nacionalidade: 'Brasileira',
-        obraPrincipal: 'ABNT NBR 6023:2018 (Referências — Elaboração)',
-        anoReferencia: 2018,
+        obraPrincipal: 'ABNT NBR 6023:2025 (Referências — Elaboração)',
+        anoReferencia: 2025,
         conceitoChave: 'Regras de Autoria e Destaque Tipográfico do Título',
         citacaoLiteralOuDefinicao:
           'Até 3 autores citam-se todos; 4 ou mais cita-se o primeiro seguido de et al. (embora seja facultado citar todos). O destaque tipográfico (negrito, itálico ou sublinhado) é aplicado exclusivamente ao título, nunca ao subtítulo.',

@@ -39,7 +39,8 @@ export const submodulo74: ModuloFilho = {
 
 A restauração de bens culturais e documentos históricos apoia-se nos pilares conceituais formulados por **Cesare Brandi** (*Teoria da Restauração*, 1963) e nas convenções internacionais do patrimônio (Carta de Veneza de 1964 e Carta do Restauro):
 
-> *"A restauração constitui o momento metodológico de reconhecimento da obra de arte ou documento histórico na sua consistência física e na sua dupla polaridade estética e histórica, com vistas à sua transmissão para o futuro."* — Cesare Brandi
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Teórica (Cesare Brandi, 1963):** De acordo com Cesare Brandi (1963), a restauração configura o momento metodológico de reconhecimento da obra de arte ou bem documentário em sua consistência material e em sua dupla dimensão (estética e histórica), com o propósito precípuo de assegurar sua justa transmissão às gerações futuras.
 
 \`\`\`tree
 TITLE: Princípios Éticos da Restauração Documental (Cesare Brandi / Cartas do Restauro)

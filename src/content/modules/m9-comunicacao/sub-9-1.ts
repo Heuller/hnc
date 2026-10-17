@@ -38,7 +38,8 @@ export const submodulo91: ModuloFilho = {
 
 A Ciência da Informação contemporânea apoia-se nas formulações de **Arthur Jack Meadows** (*A Comunicação Científica*, 1999) e **John Ziman** (*Conhecimento Público*, 1979) para definir o caráter indissociável entre ciência e comunicação:
 
-> *"Uma pesquisa científica só se completa verdadeiramente quando os seus resultados são comunicados, validados criticamente pela comunidade e incorporados ao patrimônio do saber público registrado."* — A. J. Meadows
+<!-- [NÃO CONFERIDO]: convertido de aspas rígidas em paráfrase autoral doutrinária -->
+> **Fundamentação Doutrinária (A. J. Meadows, 1999):** Conforme leciona Arthur Jack Meadows (1999), o ciclo de uma investigação científica só se encerra plenamente quando seus achados são socializados, submetidos ao escrutínio crítico dos pares e incorporados ao corpo do conhecimento público consolidado.
 
 * **O Princípio do Conhecimento Público:** Uma descoberta mantida em segredo no laboratório não possui valor científico social. A ciência é um processo coletivo de consenso racional decorrente da crítica interpares.
 * **O Ethos Científico de Robert K. Merton (As Quatro Normas CUDOS - 1942):**

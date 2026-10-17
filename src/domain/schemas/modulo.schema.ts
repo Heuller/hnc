@@ -335,7 +335,7 @@ export const ModuloFilhoSchema = z.object({
   autoresChave: z.array(z.string()),
   alertasCebraspe: z.array(z.string()),
   quadroComparativo: QuadroComparativoSchema.optional(),
-  teoriaDensaMarkdown: z.string(), // Texto original preservado verbatim
+  teoriaDensaMarkdown: z.string(), // Texto autoral com fundamentação em doutrina e normas
   secoes: z.array(SecaoTeoriaSchema).optional(),
   antesDeLer: z.array(TermoAntesDeLerSchema).optional(),
   checkpoints: z.array(CheckpointSchema).min(3).max(8),

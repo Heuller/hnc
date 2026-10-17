@@ -21,7 +21,7 @@ import { EspelhoCorrecaoCebraspe } from '../components/discursiva/EspelhoCorreca
 const CARACTERES_POR_LINHA_ESTIMATIVA = 70;
 
 const PROMPT_CORRECAO_TEMPLATE = `Você é um corretor experiente de provas discursivas de concursos públicos do Cebraspe, com conhecimento de Biblioteconomia e Ciência da Informação. Avalie o texto de um candidato ao cargo de Analista Legislativo (Bibliotecário) da Câmara dos Deputados.
-REGRAS: (1) Use o padrão preliminar de resposta oficial. (2) Aplique estritamente a fórmula oficial Cebraspe: NC = NCP - 2 * (NE / TL). (3) Aponte erros de língua portuguesa citando o trecho e a linha. (4) Forneça nota detalhada por quesito.
+REGRAS: (1) Use o padrão preliminar de resposta oficial. (2) Aplique estritamente as fórmulas oficiais Cebraspe do Edital nº 1/2026 (itens 9.8.5.1 e 9.8.5.2): para questões de até 20 linhas, NQi = NCi - 3 * (NEi / TLi); para peças técnicas de até 50 linhas, NPT = NC - 6 * (NE / TL). (3) Aponte erros de língua portuguesa citando o trecho e a linha. (4) Forneça nota detalhada por quesito.
 DADOS: Tipo: {{tipo}} | Limite: {{limite_linhas}} linhas | Enunciado: {{enunciado}} | Padrão: {{padrao}} | Texto do candidato ({{n_linhas_estimadas}} linhas estimadas): {{texto}}`;
 
 interface DadosEnunciadoArmazenado {
@@ -558,8 +558,8 @@ export const DiscursivaPage: React.FC = () => {
                   A Banca Examinadora Cebraspe está corrigindo sua prova...
                 </h4>
                 <p className="text-xs text-ink-2 max-w-md">
-                  Calculando pontuação de conteúdo (NCP), identificando desvios gramaticais (NE), aplicando a fórmula
-                  oficial NC = NCP - 2×(NE/TL) e confrontando com o padrão preliminar.
+                  Calculando pontuação de conteúdo (NC), identificando desvios gramaticais (NE), aplicando as fórmulas
+                  oficiais do Edital nº 1/2026 (NQi = NCi − 3×(NE/TL) e NPT = NC − 6×(NE/TL)) e confrontando com o padrão preliminar.
                 </p>
               </div>
             </div>
