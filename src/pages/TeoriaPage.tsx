@@ -509,6 +509,8 @@ export const TeoriaPage: React.FC = () => {
               </button>
             </div>
           </nav>
+        );
+      })()}
 
           {/* Bloco 1: Autores Canônicos */}
           <div id="sec-autores">
