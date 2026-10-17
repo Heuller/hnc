@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest run",
-    "build": "vitest run && tsc -b && vite build",
+    "check:budget": "node scripts/verificarOrcamentoPacote.mjs",
+    "build": "vitest run && tsc -b && vite build && node scripts/verificarOrcamentoPacote.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },
