@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
+// @ts-ignore
 import { ORCAMENTO, verificarOrcamento } from '../../scripts/verificarOrcamentoPacote.mjs';
 
 describe('U9.2: Verificação de Orçamento de Pacote e Build em CI', () => {

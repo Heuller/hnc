@@ -84,7 +84,6 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
   let precacheCount = 0;
   const swPath = path.join(distPath, 'sw.js');
   if (fs.existsSync(swPath)) {
-    const swContent = fs.readFileSync(swPath, 'utf-8');
     // Workbox precache manifest costuma ser embutido em sw.js ou importScripts workbox-*.js
     const workboxFiles = fs.readdirSync(distPath).filter((f) => f.startsWith('workbox-') && f.endsWith('.js'));
     if (workboxFiles.length > 0) {

@@ -1,7 +1,6 @@
 /** @vitest-environment jsdom */
 import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/react';
-import React from 'react';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { TabelaResponsiva } from '../components/common/TabelaResponsiva';
 import { LoadingSkeleton } from '../components/common/LoadingSkeleton';
@@ -14,9 +13,7 @@ import {
   notaPeca,
   notaFinalDiscursiva,
   isAprovadoDiscursiva,
-  obterDetalheCalculoDiscursiva,
 } from '../domain/discursiva/formulas';
-import { moduloSchema } from '../domain/schemas/modulo.schema';
 
 describe('U9.1: Suíte Consolidada de Regressão do Plano v3 (Defeitos D1 a D14)', () => {
   // --------------------------------------------------------------------------
