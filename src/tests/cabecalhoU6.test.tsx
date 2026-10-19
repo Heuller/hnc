@@ -63,7 +63,7 @@ describe('U6.2: Cabeçalho Enxuto e Navegação Descomplicada', () => {
     expect(screen.getByText('Oficina Discursiva')).toBeTruthy();
     expect(screen.getByText('Folha de Véspera')).toBeTruthy();
     expect(screen.getByText('Edital Oficial 2026')).toBeTruthy();
-    expect(screen.getByText('Glossário do Concurso')).toBeTruthy();
+    expect(screen.queryByText('Glossário do Concurso')).toBeNull();
     expect(screen.getByText('Preferências de Leitura')).toBeTruthy();
     expect(screen.getByText('Exportar Progresso (MD)')).toBeTruthy();
   });

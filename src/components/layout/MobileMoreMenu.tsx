@@ -209,22 +209,6 @@ export const MobileMoreMenu: React.FC = () => {
             <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
           </button>
 
-          <button
-            type="button"
-            role="menuitem"
-            onClick={() => {
-              setActiveView('glossario');
-              setIsOpen(false);
-            }}
-            className="w-full text-left px-3 py-2 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors min-h-[44px] cursor-pointer"
-          >
-            <div className="flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-accent" />
-              <span>Glossário do Concurso</span>
-            </div>
-            <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
-          </button>
-
           <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
             Dados e Progresso
           </div>

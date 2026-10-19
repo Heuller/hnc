@@ -7,8 +7,30 @@ export const submodulo112: ModuloFilho = {
   preRequisitos: ["sub-11-1"],
   titulo: 'Ato Administrativo, Invalidação e Responsabilidade por Pareceres',
   titulo_curto: 'Atos Administrativos e Pareceres',
+  antesDeLer: [
+    {
+      termo: 'Elementos do Ato Administrativo (COMFIFOR)',
+      definicao: 'Requisitos de validade: Competência, Finalidade, Forma, Motivo e Objeto.',
+      exemploBiblioteca: 'Elaboração de termo de doação de livros contendo motivo justificado, competência da chefia e forma escrita oficial.',
+    },
+    {
+      termo: 'Atributos do Ato (PATI)',
+      definicao: 'Características dos atos administrativos: Presunção de legitimidade, Autoexecutoriedade, Tipicidade e Imperatividade.',
+      exemploBiblioteca: 'Presunção de que certidões e relatórios emitidos pela Biblioteca Pedro Aleixo são verdadeiros e conformes à lei.',
+    },
+    {
+      termo: 'Atos Vinculados vs. Discricionários',
+      definicao: 'Vinculado é aquele em que a lei não deixa margem de escolha; discricionário permite juízo de conveniência e oportunidade nos limites da lei.',
+      exemploBiblioteca: 'A escolha dos temas das exposições culturais da biblioteca como ato discricionário da direção do CEDI.',
+    },
+    {
+      termo: 'Anulação vs. Revogação',
+      definicao: 'Anulação extingue ato ilegal com efeitos retroativos (ex tunc); revogação extingue ato legal inconveniente com efeitos prospectivos (ex nunc).',
+      exemploBiblioteca: 'Revogação de uma portaria interna sobre horários de empréstimo para atender ao novo expediente da Câmara.',
+    },
+  ],
   descricaoCurta: 'Conceito, requisitos de validade (COFIFOMOB) e atributos (PATI). Classificação e espécies de atos. Extinção: anulação, revogação, cassação, caducidade e convalidação (FO-CO). Teoria dos Motivos Determinantes. Espécies de parecer e responsabilidade do emissor (STF e LINDB).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: [
     'Maria Sylvia Zanella Di Pietro',
     'Hely Lopes Meirelles',
@@ -107,6 +129,53 @@ O Supremo Tribunal Federal (STF - MS 24.631/DF) e o art. 28 da LINDB (Lei de Int
 * O parecerista **não responde pessoalmente** por meras divergências de interpretação jurídica ou técnica plausível.
 * O parecerista responde civil, administrativa e regressivamente perante o Estado e órgãos de controle (como o TCU) **apenas se comprovado DOLO ou ERRO GROSSEIRO** (culpa gravíssima, negligência inescusável ou omissão temerária).
 * No parecer vinculante, como a decisão está legalmente atrelada ao teor do parecer, se este induzir manifestamente a um ato ilícito criminoso ou danoso ao erário com culpa grave, o parecerista responde solidariamente com a autoridade decisória.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Organização da Administração Pública** diferencia a estrutura dos entes federados e suas entidades descentralizadas (Decreto-Lei nº 200/1967):
+1. **Administração Direta vs. Indireta:**
+   - **Administração Direta:** Órgãos internos dos entes federativos políticos soberanos/autônomos (União, Estados, DF e Municípios). Ex.: Ministérios, Secretarias, Câmara dos Deputados, Senado, STF. Atuam de forma centralizada.
+   - **Administração Indireta:** Pessoas jurídicas criadas ou autorizadas pelo Estado para desempenhar atividades descentralizadas. **O Quarteto Canônico:**
+     - **Autarquias:** Criadas **diretamente por lei específica**. Personalidade jurídica de **direito público**. Exercem atividades típicas e exclusivas de Estado (ex.: INSS, Banco Central, Universidades Federais como a UnB). Regime de pessoal estatutário.
+     - **Fundações Públicas:** Autorizadas por lei específica (lei complementar define área de atuação). Podem ser de direito público (autarquias fundacionais) ou de direito privado (ex.: FUNAI, Fiocruz).
+     - **Empresas Públicas (EP):** Autorizadas por lei; personalidade de **direito privado**; capital **100% público**; sob qualquer forma societária (ex.: Correios, Caixa Econômica Federal). Regime celetista.
+     - **Sociedades de Economia Mista (SEM):** Autorizadas por lei; personalidade de **direito privado**; capital misto (maioria com direito a voto é do Estado); obrigatoriamente constituídas sob a forma de **Sociedade Anônima (S/A)** (ex.: Petrobras, Banco do Brasil).
+2. **Desconcentração vs. Descentralização:**
+   - **Desconcentração:** Criação de **órgãos internos dentro da mesma pessoa jurídica** (envolve subordinação hierárquica). Mnemônico: Desconcen**O**ração = cria **Ó**rgãos.
+   - **Descentralização:** Transferência da execução de serviços para **outra pessoa jurídica** diferente (não há hierarquia, mas apenas vinculação e controle finalístico / tutela). Mnemônico: Descentrali**E**ação = cria **E**ntidades.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Desconcentração Interna no Centro de Documentação e Informação - CEDI):** Quando a Diretoria-Geral da Câmara divide suas funções e estabelece a Diretoria do CEDI e, dentro dele, a Coordenação da Biblioteca Pedro Aleixo, ocorre **desconcentração pura** (distribuição interna de competências dentro da mesma pessoa jurídica União Federal, sob estrita hierarquia).
+- **Cenário 2 (Catalogação de Publicação de Sociedade de Economia Mista):** O bibliotecário processa um livro técnico de geologia patrocinado pela Petrobras. Ele aplica as regras de catalogação sabendo que a Petrobras é uma **Sociedade de Economia Mista (administração indireta)**, razão pela qual entra em ordem direta (\`110 2# $a Petróleo Brasileiro S.A.\`) e não sob o nome do país.
+- **Cenário 3 (Controle Finalístico sobre Contratos com Empresas Públicas):** A Câmara celebra contrato de prestação de serviços logísticos com a Empresa Brasileira de Correios e Telégrafos (Empresa Pública Federal). Como a relação é entre pessoas jurídicas distintas (União e ECT), não há hierarquia, mas vínculo contratual fiscalizado pela administração da Casa.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Entidade da Adm. Indireta | Personalidade Jurídica | Forma de Criação | Capital / Forma Societária | Regime de Pessoal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Autarquia** | **Direito Público** | **Criada por lei** | Patrimônio público / Típica de Estado | Estatutário (Lei 8.112) |
+| **Fundação Pública (Priv.)** | Direito Privado | Autorizada por lei | Patrimônio destacado | CLT ou Estatutário |
+| **Empresa Pública** | Direito Privado | Autorizada por lei | **100% Público** / Qualquer forma | Celetista (CLT) |
+| **Soc. Economia Mista** | Direito Privado | Autorizada por lei | Capital misto / **Obrigatoriamente S/A** | Celetista (CLT) |
+| **Desconcentração** | Mesma pessoa jurídica | Cria Órgãos internos | **Com hierarquia** | Estatutário |
+| **Descentralização** | Pessoas jurídicas distintas | Cria Entidades externas | **Sem hierarquia** (Tutela finalística) | Variável |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Desconcentração vs. Descentralização:** A banca afirma que *"a criação do INSS pela União é um exemplo de desconcentração administrativa"*. **Gabarito: ERRADO.** A criação de uma autarquia como o INSS transfere atribuições para uma nova pessoa jurídica, tratando-se de **descentralização**!
+- **Criação de Autarquia por Decreto:** Dizer que o Presidente pode criar uma autarquia mediante decreto regulamentar. **Gabarito: ERRADO.** Autarquias só podem ser criadas por **lei ordinária específica** (art. 37, XIX da CF/88).
+- **Hierarquia entre Ministério e Autarquia:** Afirmar que existe relação de subordinação e hierarquia rígida entre a União e suas autarquias. **Gabarito: ERRADO.** Há apenas vinculação administrativa, supervisão ministerial e tutela finalística, **sem hierarquia**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Decreto-Lei nº 200, de 25 de fevereiro de 1967*. Dispõe sobre a organização da Administração Federal.
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Capítulo de Organização da Administração Pública).
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **MEIRELLES, Hely Lopes.** *Direito Administrativo Brasileiro*. 42. ed. São Paulo: Malheiros, 2016.
+- **MELLO, Celso Antônio Bandeira de.** *Curso de Direito Administrativo*. 35. ed. São Paulo: Malheiros, 2021.`,
   checkpoints: [
     {
       id: 'cp-11-2-1',

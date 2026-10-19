@@ -7,8 +7,30 @@ export const submodulo117: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)',
   titulo_curto: 'Improbidade Administrativa',
+  antesDeLer: [
+    {
+      termo: 'Lei de Improbidade Administrativa (Lei nº 8.429/1992)',
+      definicao: 'Norma reformada pela Lei nº 14.230/2021 que pune atos que causam enriquecimento ilícito, dano ao erário ou violação de princípios.',
+      exemploBiblioteca: 'Tipificação rigorosa que exige comprovação de dolo específico para configuração do ato de improbidade.',
+    },
+    {
+      termo: 'Exigência de Dolo Específico (Reforma 2021)',
+      definicao: 'Não se admite mais a modalidade culposa em improbidade; exige-se a vontade livre e consciente de alcançar o resultado ilícito.',
+      exemploBiblioteca: 'Mero erro formal ou imperícia no inventário de livros não configura improbidade, exigindo apuração apenas disciplinar se cabível.',
+    },
+    {
+      termo: 'Sanções por Improbidade',
+      definicao: 'Penalidades cominadas judicialmente: perda da função pública, suspensão dos direitos políticos, ressarcimento ao erário e multa civil.',
+      exemploBiblioteca: 'Perda do cargo público de gestor que desviar verbas destinadas à aquisição de obras raras para benefício próprio.',
+    },
+    {
+      termo: 'Princípio da Intranscendência das Penas',
+      definicao: 'Regra que assegura que as sanções por ato de improbidade não podem passar da pessoa do agente condenado.',
+      exemploBiblioteca: 'A responsabilidade patrimonial atinge sucessores até o limite do valor da herança transferida.',
+    },
+  ],
   descricaoCurta: 'O novo regime da Lei nº 8.429/1992 após a Lei nº 14.230/2021. Extinção da modalidade culposa e exigência de dolo específico. Tipologias dos arts. 9º, 10 e taxatividade do art. 11. Sanções aplicáveis. Sujeito passivo e particular em coautoria. Prescrição de 8 anos e o ANPC.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021)',
     'STF (ADIs 7042 e 7043 - Legitimidade Concorrente)',
@@ -86,6 +108,53 @@ Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e 
 * **Prescrição Unificada (Art. 23):**
   * A ação de improbidade administrativa prescreve em **8 anos**, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.
   * **Prescrição Intercorrente (Art. 23, § 5º):** Interrompida a prescrição (ex.: pelo ajuizamento da ação ou pela publicação da sentença condenatória), o prazo recomeça a correr pela **metade (4 anos)**. Se o processo ficar paralisado entre os marcos interruptivos por mais de 4 anos sem sentença/acórdão, pronuncia-se a prescrição intercorrente.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Lei de Improbidade Administrativa (Lei nº 8.429/1992)** com a profunda reforma promovida pela **Lei Federal nº 14.230/2021** alterou os parâmetros da responsabilidade sancionatória:
+1. **A Grande Mudança: Exclusão Absoluta da Modalidade Culposa:**
+   - Com a reforma da Lei nº 14.230/2021, **NÃO existe mais ato de improbidade administrativa culposo no ordenamento jurídico brasileiro**!
+   - Todo e qualquer ato de improbidade administrativa exige agora a comprovação de **DOLO ESPECÍFICO** (vontade livre e consciente de alcançar o resultado ilícito tipificado em lei). A mera divergência interpretativa da lei não configura improbidade.
+2. **Os Três Grupos Canônicos de Atos de Improbidade:**
+   - **Art. 9º — Enriquecimento Ilícito:** Obtenção de qualquer vantagem patrimonial indevida em razão do cargo (ex.: receber propina, usar bens da biblioteca em obra particular).
+     - *Sanções:* Perda dos bens ilícitos, perda da função pública, suspensão dos direitos políticos **até 14 anos**, multa civil equivalente ao valor do acréscimo e proibição de contratar por até 14 anos.
+   - **Art. 10 — Lesão ao Erário:** Qualquer ação dolosa que cause perda patrimonial efetiva aos cofres públicos (ex.: permitir superfaturamento em compra de livros).
+     - *Sanções:* Ressarcimento integral do dano, perda dos bens, perda da função, suspensão dos direitos políticos **até 12 anos**, multa civil equivalente ao valor do dano e proibição de contratar por até 12 anos.
+   - **Art. 11 — Violação aos Princípios da Administração Pública:** Rol taxativo de condutas dolosas graves (ex.: fraudar concurso público, quebrar sigilo oficial).
+     - *Sanções:* Multa civil de até 24 vezes a remuneração e proibição de contratar por até 4 anos. **ATENÇÃO:** Para o art. 11, a Lei 14.230/2021 **revogou a perda da função pública e a suspensão dos direitos políticos**!
+3. **Prazo Prescricional Unificado:**
+   - Prescrição em **8 anos**, contados da data da ocorrência do fato (ou da cessação da permanência no caso de atos contínuos).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Recebimento de Vantagem Econômica Indevida em Licitação de Periódicos):** Um servidor do CEDI recebe R$ 20.000 de uma distribuidora de livros para favorecê-la em uma compra. Ele incorre no **Art. 9º da Lei nº 8.429/92 (Enriquecimento Ilícito com dolo específico)**, sujeito à perda do cargo, suspensão de direitos políticos de até 14 anos e ressarcimento integral.
+- **Cenário 2 (Superfaturamento Doloso em Contrato de Digitalização):** Gestores públicos da Câmara atestam a digitalização de 100.000 páginas de anais que nunca foram digitalizadas, liberando o pagamento à empresa parceira. Incorrem no **Art. 10 (Prejuízo ao Erário)**, exigindo ressarcimento do erário e multas severas.
+- **Cenário 3 (Erro Material sem Dolo em Parecer Técnico):** Um bibliotecário comete um equívoco de interpretação em uma nota técnica de aquisição de software, gerando descompasso sem qualquer proveito próprio ou má-fé. Sob a Lei nº 14.230/2021, esse fato pode ser apurado disciplinarmente, mas **NÃO constitui improbidade administrativa**, pois inexiste dolo específico.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Improbidade | Exigência Subjetiva | Sanção Máx. Direitos Políticos | Perda da Função Pública? |
+| :--- | :--- | :--- | :--- |
+| **Enriquecimento Ilícito (Art. 9º)** | **Dolo Específico** | Suspensão de **até 14 anos** | SIM |
+| **Prejuízo ao Erário (Art. 10)** | **Dolo Específico** (culpa foi revogada!) | Suspensão de **até 12 anos** | SIM |
+| **Atentado aos Princípios (Art. 11)** | **Dolo Específico** | **NÃO tem mais suspensão!** | **NÃO tem mais perda de função!** |
+| **Prazo Prescricional** | Regra Geral | **8 anos contados do fato** | Prescrição intercorrente de 4 anos |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Ato de Improbidade Culposo:** O Cebraspe coloca uma situação em que o agente público agiu com imprudência ou negligência causando prejuízo ao erário e pergunta se ele cometeu improbidade culposa. **Gabarito: ERRADO.** A reforma da Lei nº 14.230/2021 extirpou a culpa do sistema de improbidade; sem dolo específico demonstrado, o ato não é ímprobo.
+- **Suspensão de Direitos Políticos no Art. 11:** Afirmar que quem viola princípios da administração pública (art. 11) tem seus direitos políticos suspensos por 5 anos. **Gabarito: ERRADO.** A nova lei revogou expressamente a suspensão de direitos políticos para o art. 11!
+- **Legitimidade para Ação de Improbidade:** Dizer que qualquer cidadão ou a própria pessoa jurídica lesada pode propor a ação judicial de improbidade. **Gabarito: ERRADO.** A legitimidade ativa para propor a ação de improbidade administrativa é privativa e exclusiva do **Ministério Público** (art. 17).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 8.429, de 2 de junho de 1992*. Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa (com a redação da Lei Federal nº 14.230/2021).
+- **GARCIA, Emerson; ALVES, Rogério Pacheco.** *Improbidade Administrativa*. 11. ed. São Paulo: Saraiva, 2022. (A principal obra de referência sobre a nova lei de improbidade).
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023.
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Tema 1.199 de Repercussão Geral (ARE 843.989)*: Todos os atos de improbidade administrativa exigem dolo, aplicando-se a nova lei aos casos sem trânsito em julgado...`,
   checkpoints: [
     {
       id: 'cp-11-7-1',

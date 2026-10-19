@@ -33,6 +33,7 @@ export interface ItemCEProps {
   contadorTexto?: string; // Ex: "Item 2 de 3"
   onAnswered?: (attempt: ItemAttempt) => void;
   autoFocus?: boolean;
+  forcarRetesteAtivo?: boolean;
 }
 
 export const ItemCE: React.FC<ItemCEProps> = ({
@@ -40,6 +41,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   contexto,
   contadorTexto,
   onAnswered,
+  forcarRetesteAtivo = false,
 }) => {
   const {
     obterPrimeiraTentativa,
@@ -52,11 +54,13 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   const primeiraTentativa = obterPrimeiraTentativa(item.id);
   const ultimaTentativa = obterUltimaTentativa(item.id);
 
-  // Modo prática (quando o usuário clica em "Refazer")
+  // Modo prática (quando o usuário clica em "Refazer" ou quando revisão ativa é forçada)
   const [modoPraticaAtivo, setModoPraticaAtivo] = useState(false);
   const [respostaPratica, setRespostaPratica] = useState<'C' | 'E' | 'BRANCO' | null>(null);
 
-  const attemptAtual = modoPraticaAtivo
+  const deveIniciarLimpo = forcarRetesteAtivo || contexto === 'revisao';
+
+  const attemptAtual = (modoPraticaAtivo || deveIniciarLimpo)
     ? respostaPratica
       ? {
           resposta: respostaPratica,
@@ -72,7 +76,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
   const handleJulgamento = useCallback(
     async (resposta: 'C' | 'E' | 'BRANCO') => {
-      if (isRespondido && !modoPraticaAtivo) return;
+      if (isRespondido && !modoPraticaAtivo && !deveIniciarLimpo) return;
 
       const subId = item.submoduloId || '1.1';
       const modId = item.moduloId || 'm1';

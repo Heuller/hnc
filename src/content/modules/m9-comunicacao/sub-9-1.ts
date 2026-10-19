@@ -13,8 +13,30 @@ export const submodulo91: ModuloFilho = {
       }
   ],
   titulo: 'Ciclo da Comunicação Científica, Canais e Avaliação por Pares',
+  antesDeLer: [
+    {
+      termo: 'Comunicação Científica',
+      definicao: 'Processo social e formal pelo qual os cientistas comunicam, debatem, validam e disseminam seus resultados de pesquisa.',
+      exemploBiblioteca: 'Apoio a pesquisadores do Cefor na escolha de periódicos indexados para publicação de estudos sobre orçamento público.',
+    },
+    {
+      termo: 'Avaliação por Pares (Peer Review)',
+      definicao: 'Mecanismo clássico de controle de qualidade e validação em que manuscritos são avaliados anonimamente por especialistas da mesma área.',
+      exemploBiblioteca: 'Gestão do fluxo editorial da Revista de Informação Legislativa garantindo o sistema duplo-cego (double-blind review).',
+    },
+    {
+      termo: 'Canais Formais vs. Informais',
+      definicao: 'Formais são canais permanentes e públicos (artigos de periódicos, livros); informais são contatos diretos (congressos, e-mails, pré-prints).',
+      exemploBiblioteca: 'Disponibilização de servidor institucional de pré-prints para que notas técnicas sejam debatidas antes da publicação oficial.',
+    },
+    {
+      termo: 'Colégios Invisíveis (Derek de Solla Price)',
+      definicao: 'Redes informais de cooperação e intercâmbio de dados entre cientistas líderes de uma mesma especialidade ao redor do mundo.',
+      exemploBiblioteca: 'Mapeamento das redes de consultores legislativos de parlamentos mundiais que trocam minutas sobre regulamentação digital.',
+    },
+  ],
   descricaoCurta: 'O fluxo e ciclo da comunicação científica (A. J. Meadows e Garvey-Griffith), distinção entre canais formais e informais, os colégios invisíveis (Derek de Solla Price), as 4 normas mertonianas (CUDOS), preprints e modalidades de avaliação por pares.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['A. J. Meadows', 'Derek de Solla Price', 'Robert K. Merton', 'William Garvey & Belver Griffith', 'John Ziman'],
   alertasCebraspe: [
     'Diferenciação canônica entre canais formais e informais (A. J. Meadows / Garvey-Griffith): Canais Formais (periódicos científicos revisados, livros acadêmicos, patentes) têm validação institucional, registro público permanente, ampla acessibilidade e controle bibliográfico; Canais Informais (conversas de laboratório, e-mails, colégios invisíveis, reuniões científicas) são efêmeros, rápidos, não indexados e sem controle bibliográfico prévio.',
@@ -116,6 +138,51 @@ A avaliação por pares é o filtro epistêmico e o mecanismo de controle de qua
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Acesso Aberto e Repositórios (sub-9-2):** Modelos de negócios e vias dourada e verde do acesso aberto.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Ciclo da Comunicação Científica**, seus canais formais e informais e os modelos de **Avaliação por Pares (*Peer Review*)** são esteios da produção e validação do saber científico:
+1. **O Modelo Clássico de Garvey-Griffith (1972):**
+   - Mapeia a trajetória da informação desde a ideia inicial do cientista até sua consagração nos manuais enciclopédicos.
+   - **Canais Informais (Comunicação Direta e Não Filtrada):** Conversas em laboratório, correspondência entre pares, colégios invisíveis (*invisible colleges* de Derek de Solla Price), apresentações orais em congressos e distribuição de *preprints*. Caracterizam-se por rapidez, público restrito e ausência de avaliação formal por pares.
+   - **Canais Formais (Comunicação Filtrada e Permanente):** Artigos em periódicos científicos revisados por pares, livros acadêmicos, teses e tratados. Caracterizam-se por validação metodológica, controle bibliográfico internacional, registro público de prioridade da descoberta e arquivo permanente da ciência.
+2. **Modelos de Avaliação por Pares (*Peer Review*):**
+   - **Simples-Cego (*Single-Blind*):** Os avaliadores sabem quem é o autor, mas o autor não sabe quem são os avaliadores.
+   - **Duplo-Cego (*Double-Blind*):** Nem os avaliadores sabem a identidade dos autores, nem os autores sabem a identidade dos avaliadores. Modelo tradicional mais adotado nas ciências sociais.
+   - **Avaliação Aberta (*Open Peer Review* - Ciência Aberta):** As identidades de autores e revisores são públicas, e os pareceres podem ser publicados juntamente com o artigo para máxima transparência.
+3. **Colégios Invisíveis (Derek de Solla Price):**
+   - Redes informais de cooperação entre cientistas de ponta ao redor do mundo que trocam ideias e pesquisas em andamento antes que os artigos sejam formalmente publicados.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Identificação de Canal Formal em Audiência Pública):** Em uma audiência pública na Comissão de Seguridade Social sobre uma nova vacina, um deputado cita um artigo publicado em um blog pessoal da internet (canal informal não revisado). O bibliotecário da Câmara é consultado e emite nota de esclarecimento demonstrando que a tese só adquire legitimidade científica ao ser chancelada por periódicos indexados com revisão por pares duplo-cego na *The Lancet* ou *SciELO* (canal formal).
+- **Cenário 2 (Gestão de Repositório de Preprints para Consultores):** O CEDI implementa um servidor interno de *preprints* para que os consultores legislativos publiquem previamente seus estudos econômicos em regime de **Open Peer Review**, recebendo críticas abertas de colegas da Câmara e do Senado antes do fechamento do parecer final.
+- **Cenário 3 (A Biblioteca como Arquivo Permanente do Saber Formal):** As teses de doutorado e os anais parlamentares custodiados pela Biblioteca Pedro Aleixo cumprem o estágio final do modelo de Garvey-Griffith: a fixação permanente do conhecimento na memória pública documentada.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Canal / Modelo de Avaliação | Característica Central | Vantagem Principal | Desvantagem / Risco |
+| :--- | :--- | :--- | :--- |
+| **Canal Informal** | Sem revisão formal por pares | Altíssima velocidade | Risco de erros e circulação restrita |
+| **Canal Formal** | Submetido a peer review | Validação e arquivo histórico permanente | Lentidão editorial (meses/anos) |
+| **Duplo-Cego (Double-Blind)** | Anonimato recíproco completo | Reduz viés de prestígio ou preconceito | Dificuldade de anonimizar dados locais |
+| **Avaliação Aberta (Open)** | Nomes e pareceres públicos | Transparência e responsabilidade | Inibição de pareceristas juniores |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Congresso Científico como Canal Estritamente Formal:** O Cebraspe propõe que uma palestra em congresso pertence aos canais formais da ciência. **Gabarito: ERRADO.** A apresentação oral em congresso é classicamente canal **informal/semiformal**; o que pertence ao canal formal definitivo é o artigo completo publicado nos anais impressos/digitais com registro bibliográfico.
+- **Velocidade vs. Rigor nos Canais:** Afirmar que os canais formais são mais velozes que os informais. **Gabarito: ERRADO.** O canal informal é instantâneo; o canal formal é mais lento devido aos ciclos de revisão por pares e editoração.
+- **Colégios Invisíveis Exigem Prédio Físico:** Dizer que os colégios invisíveis são instituições formais criadas por governos. **Gabarito: ERRADO.** São redes sociais informais e espontâneas de pesquisadores.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **MEADOWS, Arthur Jack.** *A comunicação científica*. Brasília: Briquet de Lemos, 1999. (A grande referência mundial sobre história e modelos de comunicação científica).
+- **GARVEY, William D.; GRIFFITH, Belver C.** Communication and information processing within scientific disciplines: empirical findings for psychology. *Information Storage and Retrieval*, v. 8, n. 3, p. 123-136, 1972. (O modelo canônico do ciclo da informação científica).
+- **PRICE, Derek de Solla.** *Little Science, Big Science... and Beyond*. New York: Columbia University Press, 1986. (Conceituação dos colégios invisíveis).
+- **MUELLER, Suzana Pinheiro Machado.** A ciência, o sistema de comunicação científica e a literatura científica. In: CAMPELLO, B. et al. *Fontes de informação para pesquisadores e profissionais*. Belo Horizonte: UFMG, 2000.
+- **TARGINO, Maria das Graças.** Comunicação científica: uma revisão de seus elementos constitutivos. *Informação & Sociedade: Estudos*, v. 10, n. 2, 2000.`,
   checkpoints: [
     {
       id: 'cp-9-1-1',

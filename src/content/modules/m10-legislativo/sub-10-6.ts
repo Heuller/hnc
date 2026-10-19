@@ -18,9 +18,31 @@ export const submodulo106: ModuloFilho = {
       }
   ],
   titulo: 'Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)',
+  antesDeLer: [
+    {
+      termo: 'Regimento Comum do Congresso Nacional (RCCN)',
+      definicao: 'Norma regulamentadora das sessões conjuntas da Câmara e do Senado, das comissões mistas e da deliberação sobre matérias orçamentárias e vetos.',
+      exemploBiblioteca: 'Catalogação de pareceres emitidos pela Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO).',
+    },
+    {
+      termo: 'Sessão Conjunta',
+      definicao: 'Reunião simultânea dos deputados federais e senadores no plenário da Câmara dos Deputados presidida pelo Presidente do Senado Federal.',
+      exemploBiblioteca: 'Catalogação das atas e diários do Congresso Nacional relativos à apreciação de vetos presidenciais.',
+    },
+    {
+      termo: 'Comissão Mista de Orçamento (CMO)',
+      definicao: 'Colegiado paritário composto por deputados e senadores encarregado de examinar e emitir parecer sobre o PPA, a LDO e a LOA.',
+      exemploBiblioteca: 'Atendimento técnico contínuo à Consultoria de Orçamento da Câmara na análise de emendas parlamentares.',
+    },
+    {
+      termo: 'Apreciação de Vetos em Sessão Conjunta',
+      definicao: 'Procedimento regimental em que o veto presidencial só é rejeitado pela maioria absoluta de votos de ambas as Casas legislativas.',
+      exemploBiblioteca: 'Registro da derrubada de vetos e a subsequente promulgação de trechos legais pelo Presidente do Congresso Nacional.',
+    },
+  ],
   descricaoCurta:
     'Mesa do Congresso Nacional, alternância institucional de cargos, sessões conjuntas, quóruns de deliberação, apreciação de vetos presidenciais em 30 dias e tramitação de leis e resoluções no Congresso Nacional.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'João Trindade Cavalcante Filho',
     'Paulo Modesto',
@@ -203,6 +225,53 @@ O processo legislativo orçamentário federal ocorre no âmbito compartilhado do
 * **Regimento Interno da Câmara dos Deputados (sub-10-1):** Mesa do Congresso Nacional e alternância de cargos.
 * **Poder Legislativo na CF/88 (sub-10-5):** Deliberação sobre vetos presidenciais e projetos de lei orçamentária.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Fiscalização e Controle, o Orçamento Público e o Ciclo Orçamentário (CF/88, arts. 70 a 75 e 165 a 169)** concretizam o controle democrático dos recursos da sociedade:
+1. **O Sistema Tripartite de Leis Orçamentárias (Iniciativa Privativa do Presidente da República):**
+   - **Plano Plurianual (PPA):** Planejamento estratégico de médio prazo (vigência de 4 anos, iniciando no 2º ano de mandato do Presidente e terminando no 1º ano do mandato subsequente). Estabelece diretrizes, objetivos e metas para despesas de capital e programas continuados.
+   - **Lei de Diretrizes Orçamentárias (LDO):** Anual. Conecta o PPA à LOA; define metas e prioridades da administração, orienta a elaboração da LOA e dispõe sobre alterações tributárias e política de pessoal. **A sessão legislativa não pode ser interrompida em julho sem a aprovação da LDO!**
+   - **Lei Orçamentária Anual (LOA):** Anual. Orçamento fiscal, de seguridade social e de investimentos das estatais. Fixa despesas e prevê receitas.
+2. **A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO):**
+   - Comissão mista permanente do Congresso Nacional (deputados e senadores) responsável por examinar e emitir parecer sobre o PPA, LDO, LOA, créditos adicionais e contas do Presidente.
+3. **O Controle Externo e o Tribunal de Contas da União (TCU - CF art. 70 e 71):**
+   - O controle externo é exercido pelo **Congresso Nacional com o auxílio do TCU**.
+   - **Julgamento de Contas:**
+     - O TCU **julga** as contas dos administradores públicos e demais responsáveis por dinheiros, bens e valores públicos federais (com eficácia de título executivo condenatório).
+     - As contas do **Presidente da República**, todavia, o TCU **NÃO julga**: o TCU emite apenas um **Parecer Prévio**, cabendo o julgamento político-financeiro exclusivamente ao **Congresso Nacional**!
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Tramitação Orçamentária na CMO):** Em outubro, a equipe de apoio da Consultoria de Orçamento da Câmara recebe o projeto da LOA do ano seguinte. Os bibliotecários catalogam as emendas parlamentares individuais e de bancada, indexando os programas de saúde e educação para que os relatores setoriais elaborem o relatório geral.
+- **Cenário 2 (Parecer Prévio do TCU sobre as Contas Presidenciais):** O TCU conclui a análise das contas do Presidente da República e emite Parecer Prévio recomendando a aprovação com ressalvas. O bibliotecário registra o documento e o encaminha à Comissão Mista de Orçamento (CMO), que emitirá projeto de decreto legislativo para julgamento final pelos 513 deputados e 81 senadores reunidos em sessão conjunta.
+- **Cenário 3 (A Regra de Ouro Orçamentária no CEDI):** Ao planejar a contratação de modernização do parque tecnológico do CEDI, os gestores da Câmara observam os limites de despesa de capital e a Lei de Responsabilidade Fiscal (LRF), garantindo que as operações de crédito não superem as despesas de capital (Regra de Ouro - art. 167, III da CF).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Instrumento Orçamentário / Julgamento | Prazo / Vigência | Iniciativa Constitucional | Papel do TCU vs. Congresso |
+| :--- | :--- | :--- | :--- |
+| **PPA** | 4 anos (ultrapassa mandato) | Presidente da República | Parecer na CMO $\to$ Aprovado no CN |
+| **LDO** | Anual (sintoniza PPA e LOA) | Presidente da República | Impede recesso parlamentar de julho se não aprovada |
+| **LOA** | Anual (Orçamento formal) | Presidente da República | Fixa despesas e estima receitas públicas |
+| **Contas de Administradores** | Anuais | Contas de gestão | **O TCU julga diretamente** |
+| **Contas do Presidente** | Anuais | Contas de governo | **O TCU emite parecer; o Congresso julga** |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Quem Julga as Contas do Presidente da República:** O Cebraspe adora afirmar que o TCU julga as contas prestadas anualmente pelo Presidente da República. **Gabarito: ERRADO.** O TCU elabora apenas um **Parecer Prévio conclusivo** em 60 dias; quem **julga** as contas do Presidente da República é o **Congresso Nacional** (CF art. 49, IX e art. 71, I).
+- **Recesso Parlamentar e a LDO:** Dizer que o Congresso Nacional entra em recesso em 17 de julho mesmo sem votar a LDO. **Gabarito: ERRADO.** O art. 57, § 2º da CF veda expressamente a interrupção da sessão legislativa sem a aprovação do projeto de LDO.
+- **Iniciativa das Leis Orçamentárias:** Afirmar que deputados federais podem propor projeto de lei de iniciativa parlamentar original para criar o PPA. **Gabarito: ERRADO.** PPA, LDO e LOA são de iniciativa privativa do **Presidente da República**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. arts. 70 a 75 e 165 a 169.
+- **BRASIL.** *Lei Complementar nº 101, de 4 de maio de 2000*. Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal (Lei de Responsabilidade Fiscal - LRF).
+- **PISCITELLI, Roberto Bocaccio; TIMM, Paulo Roberto.** *Contabilidade Pública: uma abordagem da administração financeira pública*. 14. ed. São Paulo: Atlas, 2018.
+- **GIACOMONI, James.** *Orçamento público*. 18. ed. São Paulo: Atlas, 2021.
+- **TRIBUNAL DE CONTAS DA UNIÃO (TCU).** *Regimento Interno do Tribunal de Contas da União*. Brasília: TCU, 2022.`,
   checkpoints: [
     {
       id: 'cp-10-6-1',

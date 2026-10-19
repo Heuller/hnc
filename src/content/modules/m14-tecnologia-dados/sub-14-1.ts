@@ -6,8 +6,30 @@ export const submodulo141: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)',
   preRequisitos: [],
   titulo: 'MSOffice 365 e Ferramentas de Comunicação e Colaboração',
+  antesDeLer: [
+    {
+      termo: 'Microsoft 365 e Nuvem Corporativa',
+      definicao: 'Suíte de produtividade e colaboração em nuvem (Teams, SharePoint, OneDrive, Word, Excel) adotada na administração pública.',
+      exemploBiblioteca: 'Armazenamento compartilhado de minutas e controle de versão de pareceres no SharePoint da biblioteca.',
+    },
+    {
+      termo: 'Controle de Versão Colaborativo',
+      definicao: 'Capacidade de múltiplos usuários editarem o mesmo documento simultaneamente com histórico de alterações auditável.',
+      exemploBiblioteca: 'Edição simultânea por bibliotecários e técnicos do relatório semestral de aquisições no Word Online.',
+    },
+    {
+      termo: 'SharePoint Online',
+      definicao: 'Plataforma de intranet e gerenciamento eletrônico de documentos com controle granular de permissões e listas estruturadas.',
+      exemploBiblioteca: 'Construção do portal interno da biblioteca para comunicação rápida com os gabinetes parlamentares.',
+    },
+    {
+      termo: 'Segurança e Permissões de Acesso (RBAC)',
+      definicao: 'Controle de acesso baseado em papéis (Role-Based Access Control) que restringe permissões a arquivos conforme a função do usuário.',
+      exemploBiblioteca: 'Configuração de pastas restritas a servidores comissionados da Mesa Diretora para matérias em elaboração.',
+    },
+  ],
   descricaoCurta: 'Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 10,
   autoresChave: ['Microsoft Corporation', 'João Antonio Carvalho', 'CERT.br', 'Câmara dos Deputados (Ditec)'],
   alertasCebraspe: [
     'Microsoft Excel 365: operadores aritméticos fundamentais (+, -, *, /, ^ para exponenciação e % para percentual); referências relativas (A1), absolutas ($A$1) e mistas ($A1 ou A$1); funções estatísticas e de busca (PROCV, PROCX, SOMA, MÉDIA, SE, SOMASE e CONT.SE); tabelas dinâmicas conectadas a modelos semânticos.',
@@ -73,6 +95,50 @@ O Microsoft 365 é a plataforma de produtividade em nuvem adotada pela administr
     * **SMTP (Simple Mail Transfer Protocol - porta 587 com TLS):** Protocolo para *envio* de mensagens.
     * **POP3 (Post Office Protocol - porta 995 com SSL):** Baixa as mensagens para a máquina local e tradicionalmente as apaga do servidor.
     * **IMAP (Internet Message Access Protocol - porta 993 com SSL):** Mantém a sincronização bidirecional em tempo real entre o cliente e o servidor de e-mail, refletindo pastas, leituras e exclusões em todos os dispositivos.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O ecossistema **Microsoft Office 365 e as Ferramentas de Comunicação e Colaboração** operam o fluxo de trabalho digital e em nuvem nos órgãos públicos:
+1. **Ferramentas de Produtividade em Nuvem (MS 365):**
+   - **Microsoft Word / Excel / PowerPoint:** Edição colaborativa em tempo real (*coauthoring*), histórico de versões automatizado e integração nativa com nuvem corporativa (OneDrive/SharePoint).
+   - **Microsoft OneDrive for Business:** Armazenamento em nuvem individual e sincronização de arquivos de trabalho do servidor público com versionamento automático e controle granular de permissões de acesso (leitura, edição, expiração de links).
+   - **Microsoft SharePoint:** Plataforma de intranet, repositório de documentos institucionais e gerenciamento de conteúdo corporativo com controle de metadados e fluxos de aprovação.
+2. **Comunicação e Trabalho Híbrido:**
+   - **Microsoft Teams:** Centro de trabalho em equipe (*hub*) que integra chat corporativo, chamadas de voz/vídeo, reuniões gravadas em nuvem, canais temáticos e compartilhamento seguro de documentos.
+   - **Microsoft Outlook:** Gestão de correio eletrônico corporativo, calendários compartilhados, delegação de caixas de entrada e agendamento de salas de reunião.
+3. **Segurança e Conformidade no Office 365:**
+   - Criptografia de dados em trânsito (TLS) e em repouso (BitLocker / AES-256); Autenticação Multifator (MFA / 2FA); e Prevenção contra Perda de Dados (DLP - *Data Loss Prevention*), que bloqueia o vazamento acidental de CPFs e dados sigilosos por e-mail ou chat.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Coautoria em Tempo Real no Parecer Legislativo):** Três analistas da Consultoria Legislativa e um bibliotecário do CEDI redigem simultaneamente uma nota técnica sobre o mercado de carbono utilizando o **Word Online via SharePoint da Câmara**. Todos visualizam os cursores em tempo real com comentários e sugestões rastreadas sem gerar conflitos de versões de arquivo.
+- **Cenário 2 (Reunião Deliberativa de Comissão Híbrida no Teams):** Durante a pandemia e nas sessões deliberativas descentralizadas, as comissões parlamentares realizam audiências públicas pelo **Microsoft Teams Corporativo da Câmara**, com tradução simultânea, transcrição automática em tempo real e gravação arquivada diretamente no portal da BDCam.
+- **Cenário 3 (Prevenção de Vazamento com DLP no Outlook da Câmara):** Um servidor tenta anexar em e-mail externo uma planilha contendo a relação com dados fiscais sigilosos de investigados de uma CPI. A ferramenta **DLP do Microsoft 365** identifica automaticamente o padrão de dados sensíveis e bloqueia o envio da mensagem, notificando a equipe de segurança da informação da Casa.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Ferramenta MS 365 | Função Primária | Ambiente Principal | Controle de Segurança |
+| :--- | :--- | :--- | :--- |
+| **OneDrive for Business** | Armazenamento pessoal em nuvem do servidor | Arquivos individuais de trabalho | Compartilhamento com expiração de link |
+| **SharePoint** | Intranet e repositório corporativo compartilhado | Documentos departamentais/equipes | Metadados institucionais e fluxos de aprovação |
+| **Teams** | Comunicação e colaboração síncrona | Chat, canais, reuniões e conferências | Criptografia de ponta a ponta e auditoria |
+| **DLP (Data Loss Prevention)** | Bloqueio de vazamento de dados sensíveis | E-mail, arquivos e chats | Regras automatizadas de conformidade e LGPD |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Edição Concorrente sem Internet:** O Cebraspe afirma que a coautoria colaborativa em tempo real com múltiplos usuários editando a mesma linha de texto no Word pode ser realizada sem conexão à internet. **Gabarito: ERRADO.** A coautoria síncrona exige obrigatoriamente conexão de rede ativa com o serviço de nuvem (OneDrive ou SharePoint).
+- **OneDrive Pessoal vs. OneDrive for Business:** A banca confunde: no ambiente corporativo público, o OneDrive for Business é gerido sob as políticas de segurança da instituição (com controle de retenção e auditoria), não se confundindo com contas pessoais gratuitas de consumidores domésticos.
+- **DLP como Antivírus:** Afirmar que a tecnologia DLP (*Data Loss Prevention*) serve para remover vírus do computador. **Gabarito: ERRADO.** DLP serve especificamente para **prevenir vazamento acidental ou não autorizado de informações confidenciais**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **MICROSOFT.** *Documentação Oficial do Microsoft 365 para Empresas e Governos*. Redmond: Microsoft Corporation, 2023.
+- **STALLINGS, William.** *Sistemas Operacionais: princípios e prática*. 8. ed. São Paulo: Pearson, 2018.
+- **CÂMARA DOS DEPUTADOS.** *Norma de Uso de Recursos Tecnológicos e Ferramentas de Produtividade em Nuvem*. Brasília: Diretoria de Inovação e TI (DITEC), 2022.
+- **LAUDON, Kenneth C.; LAUDON, Jane P.** *Sistemas de Informação Gerenciais*. 14. ed. São Paulo: Pearson, 2018.
+- **CERT.BR.** *Cartilha de Segurança para Internet: Trabalho Seguro e em Nuvem*. São Paulo: NIC.br, 2021.`,
   checkpoints: [
     {
       id: 'cp-14-1-1',

@@ -13,8 +13,30 @@ export const submodulo103: ModuloFilho = {
       }
   ],
   titulo: 'Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública',
+  antesDeLer: [
+    {
+      termo: 'Comissões Parlamentares',
+      definicao: 'Órgãos colegiados integrados por deputados constituídos para debater matérias técnicas especializadas antes do Plenário.',
+      exemploBiblioteca: 'Fornecimento de pesquisas temáticas diretamente aos consultores da Comissão de Constituição e Justiça e de Cidadania (CCJC).',
+    },
+    {
+      termo: 'Poder Conclusivo das Comissões',
+      definicao: 'Competência conferida pelo Regimento para que a comissão vote definitivamente o projeto de lei sem necessidade de ir ao Plenário, salvo recurso.',
+      exemploBiblioteca: 'Identificação em catálogo do rito conclusivo da proposição para fins de histórico e publicação nos diários da Casa.',
+    },
+    {
+      termo: 'Comissão Parlamentar de Inquérito (CPI)',
+      definicao: 'Comissão temporária dotada de poderes de investigação próprios das autoridades judiciais para apurar fato determinado e por prazo certo.',
+      exemploBiblioteca: 'Tratamento confidencial de acervos documentais e depoimentos coletados por CPIs depositados no CEDI.',
+    },
+    {
+      termo: 'Relator e Parecer',
+      definicao: 'Deputado designado para analisar a matéria e emitir relatório e voto; uma vez aprovado pelo colegiado, passa a se chamar Parecer da Comissão.',
+      exemploBiblioteca: 'Catalogação analítica do parecer do relator, destacando o voto em separado e emendas acatadas.',
+    },
+  ],
   descricaoCurta: 'A Lei nº 12.527/2011 (LAI): princípio da publicidade máxima, transparência ativa vs. passiva, prazos do SIC, graus de sigilo (Reservada 5 anos, Secreta 15 anos, Ultrassecreta 25 anos), proteção de dados pessoais (100 anos), a LGPD (Lei 13.709/2018) e a neutralidade técnica na consultoria parlamentar.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['Controladoria-Geral da União (CGU)', 'Autoridade Nacional de Proteção de Dados (ANPD)', 'Lei nº 12.527/2011', 'Lei nº 13.709/2018', 'Câmara dos Deputados'],
   alertasCebraspe: [
     'A tríade dos graus de sigilo da LAI (Art. 24 da Lei nº 12.527/2011) e seus prazos MÁXIMOS exatos: 1. Reservada = até 5 anos; 2. Secreta = até 15 anos; 3. Ultrassecreta = até 25 anos (prorrogável uma única vez por mais 25 anos pela CMRI). O Cebraspe troca sistematicamente esses prazos e suas respectivas autoridades!',
@@ -146,6 +168,56 @@ No ecossistema de assessoria informacional da Câmara dos Deputados e do Congres
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Transparência e LAI (sub-11-12):** Portal da Transparência da Câmara e dados abertos de despesas parlamentares.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Estrutura Orgânica da Câmara dos Deputados, a Mesa Diretora e o Colégio de Líderes** regem o funcionamento político e administrativo da Casa (RICD, arts. 4º a 21):
+1. **Composição e Eleição da Mesa Diretora:**
+   - Órgão colegiado diretivo da Câmara, eleito para mandato de **2 anos, vedada a recondução para o mesmo cargo** na eleição imediatamente subsequente dentro da mesma legislatura (CF art. 57, § 4º e RICD art. 5º).
+   - Composta por **7 membros titulares** e **4 suplentes**:
+     - *Presidente:* Representa a Câmara, define a Ordem do Dia (pauta de votação), preside as sessões e substitui o Presidente da República na linha sucessória (2º na linha, após o Vice-Presidente!).
+     - *1º Vice-Presidente:* Substitui o Presidente e elabora pareceres sobre requerimentos de informação.
+     - *2º Vice-Presidente:* Estimula a cooperação com outros parlamentos e analisa ressarcimentos.
+     - *1º Secretário:* Responsável pela superintendência dos serviços administrativos e de pessoal da Câmara (diretamente ligado ao CEDI e à Biblioteca!).
+     - *2º Secretário:* Gerencia programas de intercâmbio, passaportes diplomáticos e estágios.
+     - *3º e 4º Secretários:* Cuidam de concessões de diárias, licenças e habitação funcional.
+   - **Princípio da Proporcionalidade Partidária:** A composição da Mesa e das Comissões deve assegurar, tanto quanto possível, a representação proporcional dos partidos ou blocos parlamentares (art. 58, § 1º da CF).
+2. **O Colégio de Líderes:**
+   - Composto pelos Líderes das bancadas partidárias, dos blocos parlamentares e da liderança do Governo e da Oposição.
+   - Órgão de concertação política que negocia acordos de procedimentos e orienta a pauta de votações do Plenário com o Presidente da Casa.
+3. **A Procuradoria Parlamentar e a Ouvidoria:**
+   - Defesa jurídica institucional dos parlamentares no exercício do mandato e canal direto de comunicação da sociedade com a Câmara.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (A Subordinação Administrativa da Biblioteca ao 1º Secretário):** Ao tramitar o projeto de expansão do acervo de obras raras e o plano de carreira de analistas do CEDI, o bibliotecário sabe que as matérias administrativas internas da Casa submetem-se à supervisão direta da **Primeira-Secretaria da Mesa Diretora**, responsável pela gestão dos serviços e órgãos administrativos da Câmara.
+- **Cenário 2 (Definição da Pauta de Plenário no Colégio de Líderes):** Em uma manhã de terça-feira, o Colégio de Líderes reúne-se na Presidência e fecha um acordo para colocar em votação urgente o projeto de inteligência artificial. O bibliotecário de plantão no apoio ao plenário é acionado imediatamente para compilar a documentação temática da matéria nas duas horas que antecedem a abertura da Ordem do Dia.
+- **Cenário 3 (Aplicação da Regra de Proporcionalidade Partidária):** Ao catalogar as resoluções de posse da nova Mesa Diretora, o bibliotecário observa que a maior bancada eleita indicou o Presidente, enquanto a segunda maior indicou o 1º Vice-Presidente, cumprindo rigorosamente a proporcionalidade partidária prescrita no art. 58, § 1º da CF/88.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Cargo / Órgão da Mesa | Função Institucional Primária | Reeleição Permitida? | Atribuição Típica no Concurso |
+| :--- | :--- | :--- | :--- |
+| **Presidente da Câmara** | Pauta do Plenário / Representação externa | Proibida na mesma legislatura | 2º na linha de substituição da Presidência da República |
+| **1º Secretário** | Gestão Administrativa e Pessoal | Proibida para o mesmo cargo | Superintendência dos órgãos administrativos e do CEDI |
+| **Colégio de Líderes** | Órgão de Acordo Político | - | Negocia a pauta e acordos de procedimentos |
+| **Procuradoria Parlamentar** | Defesa institucional dos deputados | - | Atua em crimes contra a honra da Câmara |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Recondução da Mesa na Mesma Legislatura:** O Cebraspe afirma que os membros da Mesa Diretora podem ser reeleitos indefinidamente para os mesmos cargos. **Gabarito: ERRADO.** O art. 57, § 4º da CF/88 proíbe a reeleição para o mesmo cargo na eleição imediatamente subsequente dentro da mesma legislatura.
+- **Quem Pauta a Ordem do Dia:** Dizer que a Ordem do Dia é definida por votação de maioria absoluta do Plenário. **Gabarito: ERRADO.** A prerrogativa regimental indelegável de organizar e pautar a Ordem do Dia é do **Presidente da Câmara**, ouvindo o Colégio de Líderes.
+- **Número de Titulares da Mesa:** A banca altera o número de membros: a Mesa é composta por **7 titulares** (Presidente, 2 Vices e 4 Secretários) e **4 suplentes**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CÂMARA DOS DEPUTADOS.** *Regimento Interno da Câmara dos Deputados (RICD)*. Resolução nº 17, de 1989 e alterações. arts. 4º a 21.
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. arts. 51, 57 e 58.
+- **PACHECO, Luciana.** *Regimento Interno da Câmara dos Deputados Comentado*. Brasília. Edições Câmara, 2021.
+- **MORAES, Alexandre de.** *Direito Constitucional*. 38. ed. São Paulo: Atlas, 2022.
+- **SILVA, José Afonso da.** *Curso de Direito Constitucional Positivo*. 43. ed. São Paulo: Malheiros, 2020.`,
   checkpoints: [
     {
       id: 'cp-10-3-1',

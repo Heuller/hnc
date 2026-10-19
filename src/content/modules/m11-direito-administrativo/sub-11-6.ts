@@ -7,8 +7,30 @@ export const submodulo116: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso',
   titulo_curto: 'Responsabilidade Civil do Estado',
+  antesDeLer: [
+    {
+      termo: 'Responsabilidade Civil Objetiva do Estado',
+      definicao: 'Dever estatal de indenizar danos causados por seus agentes no exercício da função, independentemente de dolo ou culpa (art. 37, § 6º da CF/88).',
+      exemploBiblioteca: 'A União indenizando pesquisador cujo notebook foi danificado por queda de teto na biblioteca durante reforma da Casa.',
+    },
+    {
+      termo: 'Teoria do Risco Administrativo',
+      definicao: 'Doutrina que fundamenta a responsabilidade objetiva, admitindo excludentes: culpa exclusiva da vítima, caso fortuito e força maior.',
+      exemploBiblioteca: 'Isenção de responsabilidade do órgão se o visitante danificou voluntariamente seu próprio celular ao tropeçar desatento.',
+    },
+    {
+      termo: 'Direito de Regresso',
+      definicao: 'Ação regressiva pela qual o Estado cobra do servidor o valor da indenização paga a terceiros, nos casos de dolo ou culpa do servidor.',
+      exemploBiblioteca: 'Cobrança regressiva caso um servidor jogue intencionalmente água sobre material de um visitante credenciado.',
+    },
+    {
+      termo: 'Responsabilidade por Omissão',
+      definicao: 'Regra geral subjetiva (falha do serviço / faute du service), exigindo comprovação de que o Estado tinha o dever legal de agir e foi negligente.',
+      exemploBiblioteca: 'Análise de omissão caso o sistema de proteção contra incêndio estivesse inoperante sem manutenção programada.',
+    },
+  ],
   descricaoCurta: 'Evolução histórica e a Teoria do Risco Administrativo (art. 37, § 6º da CF/88). Responsabilidade por atos comissivos vs. omissivos (falta do serviço e dever de custódia). Excludentes e atenuantes do nexo causal. Teoria do Risco Integral. Ação de regresso e ilegitimidade do servidor (STF Tema 940).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Constituição Federal de 1988 (art. 37, § 6º)',
     'STF (Tema 940 - Dupla Garantia)',
@@ -90,6 +112,58 @@ O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.0
 > *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o agente público, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
 
 * **Princípio da Dupla Garantia:** Protege o cidadão (que terá a certeza de receber a indenização do erário solvente, sem risco de insolvência do agente) e protege o servidor público (que não poderá ser processado diretamente pela vítima, ficando a salvo de pressões ou vinganças pessoais e só respondendo perante o próprio Estado caso comprovado que agiu com dolo ou culpa em ação regressiva).`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Responsabilidade Civil do Estado** regula a obrigação jurídica de indenizar danos causados a terceiros por condutas estatais (CF/88, art. 37, § 6º):
+1. **A Teoria da Responsabilidade Objetiva (Teoria do Risco Administrativo):**
+   - As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, **assegurado o direito de regresso** contra o responsável nos casos de dolo ou culpa (art. 37, § 6º da CF).
+   - **Elementos da Responsabilidade Objetiva:**
+     1. Conduta estatal (lícita ou ilícita de agente público).
+     2. Dano material, moral ou estético comprovado.
+     3. Nexo de causalidade entre a conduta e o dano.
+     - **Dispensa a comprovação de dolo ou culpa do Estado!**
+   - **Causas Excludentes ou Atenuantes do Nexo Causal:**
+     - *Culpa Exclusiva da Vítima:* Exclui a responsabilidade do Estado.
+     - *Caso Fortuito ou Força Maior:* Exclui a responsabilidade do Estado (se não houver omissão/falha do serviço).
+     - *Fato Exclusivo de Terceiro:* Exclui a responsabilidade estatal.
+     - *Culpa Concorrente da Vítima:* Atenua o valor da indenização devida pelo Estado.
+2. **Responsabilidade por Omissão Estatal (Teoria da Falha do Serviço / *Faute du Service*):**
+   - Quando o Estado não causou o dano diretamente, mas **deixou de prestar um serviço que tinha o dever legal de prestar** (omissão genérica), a responsabilidade é em regra **subjetiva**, exigindo a prova de que o serviço não funcionou, funcionou mal ou funcionou com atraso culposo.
+3. **Direito de Regresso contra o Servidor:**
+   - O cidadão prejudicado processa **diretamente o Estado** (Pessoa Jurídica), e não o servidor (STF, Tema 940 de Repercussão Geral: dupla garantia).
+   - O Estado, após ser condenado e pagar a indenização, pode mover **ação regressiva contra o servidor público**, mas deve **comprovar que o servidor agiu com dolo ou com culpa** (a responsabilidade do servidor é subjetiva!).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Acidente com Prateleira Móvel no Acervo da Biblioteca):** Um pesquisador externo está consultando livros raros no arquivo deslizante da Biblioteca Pedro Aleixo quando uma prateleira com defeito se solta e atinge o usuário, causando fratura. A União Federal responde **objetivamente (sem necessidade de provar culpa do bibliotecário)** pelo dano sofrido pelo pesquisador, bastando provar o nexo de causalidade.
+- **Cenário 2 (Ação de Regresso por Dolo na Danificação de Livro Raro):** Se for comprovado em PAD que um servidor agiu com dolo ou negligência grosseira intencional ao despejar água sobre um códice raro de 1823, a Câmara dos Deputados indeniza o proprietário da obra e em seguida aciona a Advocacia-Geral da União (AGU) para cobrar judicialmente cada centavo do servidor causador do dano em **ação regressiva**.
+- **Cenário 3 (Tema 940 do STF no Atendimento ao Público):** Um cidadão alega ter sido ofendido por um servidor no balcão de atendimento e ingressa com ação de danos morais diretamente contra o servidor (pessoa física). O juiz extingue o processo sem julgamento de mérito com base no **Tema 940 do STF**: a ação indenizatória deve ser proposta obrigatoriamente em face da União Federal (ente estatal).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Conduta / Ação | Modalidade de Responsabilidade | O que Deve Ser Provado | Cabimento de Direito de Regresso |
+| :--- | :--- | :--- | :--- |
+| **Ação Estatal (Comissiva)** | **Objetiva** (Risco Administrativo) | Conduta + Dano + Nexo causal (sem culpa) | Sim, se comprovado dolo ou culpa do servidor |
+| **Omissão Comum (Genérica)** | **Subjetiva** (Falha do serviço) | Conduta omissiva + Dano + Nexo + **Culpa do Estado** | Raro |
+| **Ação Regressiva do Estado** | **Subjetiva** | O Estado deve **provar dolo ou culpa do servidor** | - |
+| **Tema 940 do STF** | Princípio da Dupla Garantia | Ação proposta em face do Estado, não do servidor | O servidor só responde internamente em regresso |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Ação Direta do Cidadão contra o Servidor:** O Cebraspe formula itens dizendo que a vítima pode escolher entre processar o Estado ou processar diretamente o servidor causador do dano. **Gabarito: ERRADO.** O STF fixou a tese de que a ação deve ser movida **exclusivamente contra a pessoa jurídica de direito público**, sendo o servidor parte ilegítima na ação inicial.
+- **Responsabilidade do Servidor em Regresso é Objetiva:** Afirmar que na ação de regresso o servidor responde objetivamente independentemente de dolo ou culpa. **Gabarito: ERRADO.** A responsabilidade do servidor é puramente **subjetiva**; se ele não agiu com dolo nem com culpa, o Estado arca sozinho com a indenização.
+- **Teoria do Risco Integral no Brasil:** Afirmar que o Brasil adotou como regra geral a teoria do risco integral (onde o Estado indeniza mesmo se houver culpa exclusiva da vítima). **Gabarito: ERRADO.** A regra geral brasileira é a **Teoria do Risco Administrativo**, que admite excludentes como culpa exclusiva da vítima e força maior. O risco integral aplica-se apenas em situações extremas (danos nucleares, ambientais e ataques terroristas em aeronaves).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. art. 37, § 6º.
+- **CAVALIERI FILHO, Sergio.** *Programa de Responsabilidade Civil*. 15. ed. São Paulo: Atlas, 2021. (A principal obra de referência doutrinária em responsabilidade civil).
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Capítulo de Responsabilidade Extracontratual do Estado).
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Tema 940 de Repercussão Geral (RE 1.027.633)*: A teor do disposto no art. 37, § 6º, da CF, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público...`,
   checkpoints: [
     {
       id: 'cp-11-6-1',

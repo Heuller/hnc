@@ -13,8 +13,30 @@ export const submodulo74: ModuloFilho = {
       }
   ],
   titulo: 'Intervenções Curativas, Restauração e Planos de Contingência contra Desastres',
+  antesDeLer: [
+    {
+      termo: 'Intervenção Curativa e Restauração',
+      definicao: 'Ações diretas sobre o objeto danificado para estabilizar sua deterioração e recuperar sua integridade física segundo princípios éticos.',
+      exemploBiblioteca: 'Enxerto mecânico de papel japonês com metilcelulose em páginas rasgadas de um exemplar de 1824 da Carta Outorgada.',
+    },
+    {
+      termo: 'Princípio da Reversibilidade',
+      definicao: 'Norma ética fundamental que determina que qualquer material ou técnica aplicada na restauração deve poder ser removida sem danificar o original.',
+      exemploBiblioteca: 'Proibição estrita do uso de fitas adesivas comerciais tipo \'durex\' ou colas plásticas sintéticas em livros raros.',
+    },
+    {
+      termo: 'Plano de Contingência contra Desastres',
+      definicao: 'Protocolo formal de emergência que estabelece rotinas e prioridades de resgate em caso de incêndio, inundação ou vandalismo.',
+      exemploBiblioteca: 'Lista de prioridade de evacuação que coloca as primeiras edições e manuscritos raros como itens número 1 a serem resgatados.',
+    },
+    {
+      termo: 'Liofilização (Secagem por Congelamento)',
+      definicao: 'Técnica de resgate de documentos molhados por inundação através de sublimação a vácuo, evitando proliferação de fungos e deformação.',
+      exemploBiblioteca: 'Congelamento imediato de caixas de documentos atingidas por vazamento acidental em depósito subterrâneo.',
+    },
+  ],
   descricaoCurta: 'Princípios éticos da restauração (Brandi: reversibilidade, mínima intervenção e distinguibilidade), testes de solubilidade de tintas, desacidificação, remendos com papel japonês, leafcasting, encadernação de conservação e protocolos de emergência e congelamento em sinistros.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   prioridade: 'baixa',
   autoresChave: ['Cesare Brandi', 'Paul Philippot', 'Antônio Celso Ramos Spinelli', 'Norma Cassares', 'Stefan Michalski', 'Robert Waller'],
   alertasCebraspe: [
@@ -138,6 +160,56 @@ A preservação preventiva contemporânea adota o método de gerenciamento de ri
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Segurança da Informação e Riscos (sub-14-2):** Planos de contingência contra desastres e continuidade do negócio.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As **Intervenções Curativas, a Restauração e os Planos de Contingência contra Desastres** tratam do resgate técnico de acervos danificados por sinistros ou deterioração avançada:
+1. **Princípios Éticos Fundamentais da Restauração (Cartas Internacionais de Restauro):**
+   - **Reversibilidade:** Todo material, adesivo ou técnica aplicada em uma intervenção deve poder ser removido no futuro sem causar danos ao original.
+   - **Legibilidade e Distinguibilidade:** A intervenção não deve falsificar o documento histórico; partes reintegradas devem ser sutis, porém discerníveis pelo olho de um especialista.
+   - **Mínima Intervenção:** Intervir apenas no estritamente necessário para garantir a estabilidade física e a funcionalidade do documento, sem buscar uma "falsa aparência de novo".
+   - **Estabilidade Química:** Uso exclusivo de adesivos inertes (metilcelulose, cola de amido purificado de trigo/arroz) e papel japonês (*kozo/gampi*) de fibras longas livres de ácido.
+2. **Planos de Gestão de Riscos e Contingência contra Desastres (IFLA / CPBA):**
+   - Um desastre é qualquer evento imprevisto que cause destruição rápida em larga escala (incêndios, inundações, rompimento de tubulações, desabamentos).
+   - **Fases do Plano de Desastres:**
+     1. *Prevenção e Mitigação:* Identificação de vulnerabilidades prediais, manutenção de extintores (CO2 e gás limpo FM-200; evitar água sob livros raros), limpeza de calhas e revisão de rede elétrica.
+     2. *Preparação:* Formação da brigada interna de salvamento, lista de contatos de emergência atualizada, suprimentos de resgate em prontidão (lonas plásticas, caixas plásticas, toalhas absorventes).
+     3. *Resposta Imediata:* Garantir a segurança das vidas humanas em primeiro lugar; isolar a fonte do perigo; estabilizar o ambiente; priorizar o resgate dos acervos mais valiosos da instituição.
+     4. *Recuperação:* Triagem, secagem e reabilitação de documentos atingidos.
+3. **Resgate de Documentos Molhados (Inundações):**
+   - A proliferação de fungos ocorre em **48 a 72 horas** após o contato com a água!
+   - Se for impossível secar todo o acervo em até 48 horas, a conduta correta canônica é o **congelamento imediato dos documentos molhados** (a -20 °C), que interrompe o crescimento de fungos e ganha tempo para posterior liofilização (*freeze-drying*) ou secagem lenta com ar circulante frio.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Restauração com Papel Japonês na Biblioteca Pedro Aleixo):** Uma ata original da Constituinte de 1988 apresenta rasgos profundos na folha de assinaturas dos deputados. O restaurador do laboratório do CEDI utiliza papel japonês *Kozo* de 9 g/m² e adesivo de metilcelulose pura. A intervenção é perfeitamente **reversível** em banho de água morna e visível sob luz rasante, cumprindo a ética internacional de restauro.
+- **Cenário 2 (Rompimento de Tubulação de Ar-Condicionado no Depósito):** Uma tubulação de condensado se rompe no fim de semana, molhando 2.000 volumes de anais parlamentares. A equipe de emergência da Câmara isola o vazamento e transporta imediatamente os volumes encharcados para câmaras frigoríficas industriais a -20 °C, impedindo que colônias de fungos destruam o papel nas 48 horas seguintes.
+- **Cenário 3 (Simulado Anual de Evacuação de Obras Raras):** A Brigada de Emergência do CEDI realiza simulação de incêndio: enquanto os brigadistas direcionam os servidores para as saídas de emergência, os bibliotecários identificam as caixas prioritárias identificadas com fitas refletivas vermelhas (o acervo constitucional histórico), prontas para serem retiradas em carrinhos antichoque.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Conceito / Fase | Ação Primária | Regra Inegociável | Erro Típico da Banca |
+| :--- | :--- | :--- | :--- |
+| **Reversibilidade** | Uso de materiais solúveis | Remoção sem danos no futuro | Usar cola branca PVA comum |
+| **Mínima Intervenção** | Estabilizar a estrutura física | Não redesenhar ou repintar texto | Tentar deixar o livro como "novo" |
+| **Documentos Molhados** | Congelar em até 48 horas | Parar o crescimento de fungos | Deixar secar ao sol direto |
+| **Extintor em Obras Raras** | Gás limpo (FM-200 / CO2) | Não deixar resíduos corrosivos | Usar pó químico seco ou água |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Secagem de Livros ao Sol:** O Cebraspe propõe que livros encharcados por enchente devem ser abertos ao sol quente do meio-dia para secagem rápida. **Gabarito: ERRADO.** O calor solar empena o papel, deforma encadernações, oxida tintas e acelera o desenvolvimento de fungos; a secagem deve ser feita em ambiente ventilado com ar frio desumidificado ou por congelamento/liofilização.
+- **Uso de Adesivo Sintético Irreversível:** Dizer que o restaurador deve usar cola branca escolar (PVA) ou supercola de cianoacrilato para fixar lombadas históricas. **Gabarito: ERRADO.** Fere o princípio ético da **reversibilidade**.
+- **Primeira Prioridade no Desastre:** Afirmar que a prioridade número um ao soar o alarme de incêndio é salvar os manuscritos raros. **Gabarito: ERRADO.** A salvaguarda de vidas humanas é a prioridade absoluta número um; os bens materiais só são resgatados após a evacuação segura de todas as pessoas.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **IFLA.** *Diretrizes para o Planejamento de Desastres em Bibliotecas*. Haia: IFLA Core Activity on Preservation and Conservation, 2006. (A cartilha canônica de gestão de desastres).
+- **BUCHANAN, Sally A.** *Planejamento e gerenciamento de desastres*. Rio de Janeiro: Projeto CPBA; Arquivo Nacional, 2001.
+- **CASSARES, Norma Cristina.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Imprensa Oficial, 2000.
+- **CARVALHO, Cláudia S. Rodrigues de et al.** *Gestão de riscos para o patrimônio museológico e bibliográfico*. Rio de Janeiro: Museu Histórico Nacional, 2014.
+- **WATERS, Peter.** *Procedures for salvage of water-damaged library materials*. Washington: Library of Congress, 1993.`,
   checkpoints: [
     {
       id: 'cp-7-4-1',

@@ -18,8 +18,30 @@ export const submodulo93: ModuloFilho = {
       }
   ],
   titulo: 'Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons',
+  antesDeLer: [
+    {
+      termo: 'Curadoria Digital',
+      definicao: 'Manutenção, preservação e agregação de valor a dados de pesquisa e acervos digitais ao longo de todo o seu ciclo de vida.',
+      exemploBiblioteca: 'Preservação e validação de metadados dos conjuntos de dados brutos que subsidiaram relatórios de comissões parlamentares de inquérito.',
+    },
+    {
+      termo: 'Plano de Gestão de Dados (PGD / DMP)',
+      definicao: 'Documento formal elaborado antes da pesquisa que descreve como os dados serão coletados, organizados, preservados e compartilhados.',
+      exemploBiblioteca: 'Orientação do bibliotecário aos consultores legislativos na elaboração de PGDs para grandes estudos amostrais.',
+    },
+    {
+      termo: 'Licenças Creative Commons (CC)',
+      definicao: 'Instrumentos jurídicos padronizados que autorizam o público a utilizar, compartilhar e reutilizar obras protegidas por direitos autorais.',
+      exemploBiblioteca: 'Adoção da licença CC BY 4.0 em todas as bases e publicações do portal da Câmara, permitindo livre reuso com citação da fonte.',
+    },
+    {
+      termo: 'Lei de Direitos Autorais (Lei nº 9.610/1998)',
+      definicao: 'Legislação brasileira que disciplina os direitos morais e patrimoniais de autores sobre criações do espírito expressas em qualquer suporte.',
+      exemploBiblioteca: 'Aplicação das exceções e limitações do direito autoral para cópia e consulta em bibliotecas públicas sem infração legal.',
+    },
+  ],
   descricaoCurta: 'Ciclo de vida dos dados de pesquisa e Planos de Gestão de Dados (PGD), curadoria digital (DCC), a Lei de Direitos Autorais brasileira (Lei 9.610/98: direitos morais vs. patrimoniais e limitações), o sistema Creative Commons e métricas de impacto editorial (JCR/Garfield).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 27,
   autoresChave: ['Digital Curation Centre (DCC)', 'Lawrence Lessig', 'Luís Fernando Sayão & Luana Sales', 'Eugene Garfield', 'Lei 9.610/1998', 'IBICT'],
   alertasCebraspe: [
     'Curadoria Digital: processo dinâmico, abrangente e contínuo que envolve a seleção, preservação, manutenção, agregação de valor e arquivamento de ativos digitais durante todo o seu ciclo de vida para viabilizar seu reúso futuro e confiável (questão literal do Cebraspe no STJ 2024 e EMBRAPA 2025).',
@@ -263,6 +285,59 @@ $\\text{FI}_{\\text{Ano } A} = \\frac{\\text{Citações recebidas no Ano } A \\t
 * **Governança da Informação e de Dados (sub-1-6):** Direito autoral, limitações dos arts. 46 a 48 e dados abertos governamentais.
 * **Transparência, LAI e LGPD (sub-11-12):** Equilíbrio entre publicidade estatal e tutela da propriedade intelectual.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Curadoria Digital**, a **Gestão de Dados de Pesquisa (GDP)** e as licenças de **Direito Autoral e Creative Commons** garantem a preservação ativa e o reuso legal da informação:
+1. **O Ciclo de Curadoria Digital (Modelo DCC - *Digital Curation Centre*):**
+   - Curadoria digital é a gestão ativa e contínua, conservação e preservação de dados e objetos digitais ao longo de todo o seu ciclo de vida.
+   - **Ações Seqüenciais do Modelo DCC:** Conceituação $\to$ Criação ou Coleta de dados $\to$ Avaliação e Seleção $\to$ Ingresso (*Ingest*) $\to$ Ações de Preservação $\to$ Armazenamento seguro $\to$ Acesso, uso e reuso $\to$ Transformação (migração de dados).
+2. **Plano de Gestão de Dados (PGD / DMP - *Data Management Plan*):**
+   - Documento formal obrigatório em agências de fomento (CNPq, FAPESP) e órgãos públicos que descreve: que dados serão coletados, quais formatos abertos serão usados, como serão documentados com metadados, onde serão arquivados e como serão compartilhados.
+3. **Direito Autoral Brasileiro (Lei Federal nº 9.610/1998):**
+   - **Direitos Morais:** Imprescritíveis, inalienáveis e irrenunciáveis (reivindicar a autoria, ter seu nome indicado, defender a integridade da obra). O autor **nunca pode vender ou renunciar** a seus direitos morais!
+   - **Direitos Patrimoniais:** O direito exclusivo de utilizar, fruir e dispor da obra (reproduzir, editar, comercializar, traduzir). Podem ser cedidos ou transferidos a terceiros.
+   - **Prazo de Proteção Geral:** Os direitos patrimoniais perduram por **70 anos contados de 1º de janeiro do ano subsequente ao falecimento do autor** (art. 41). Após esse prazo, a obra cai em **Domínio Público**.
+   - **Exclusões da Proteção Autoral (Art. 8º da Lei 9.610/98):** Leis, decretos, decisões judiciais e atos oficiais do governo **NÃO são protegidos por direito autoral** (são de livre reprodução pública!).
+4. **Licenças Creative Commons (CC):**
+   - Conjunto modular de licenças públicas baseadas em 4 cláusulas:
+     - \`BY\` (Atribuição): Obrigatoriedade de dar os créditos ao autor original. Presente em **todas as licenças CC**!
+     - \`NC\` (Não Comercial): Proíbe o uso para fins comerciais ou de lucro.
+     - \`ND\` (Sem Derivações): Proíbe alterações, traduções ou obras derivadas.
+     - \`SA\` (Compartilha Igual): Exige que obras derivadas usem a mesma licença aberta.
+   - A licença \`CC BY\` é a mais aberta; a \`CC BY-NC-ND\` é a mais restritiva.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Livre Uso de Leis e Atos Oficiais conforme o Art. 8º da Lei 9.610/98):** Uma editora privada publica uma coletânea comercial com o texto integral do Regimento Interno da Câmara dos Deputados. O bibliotecário sabe que isso é **perfeitamente legítimo e legal**, pois textos de leis e atos regimentais públicos não possuem direito autoral (art. 8º da Lei nº 9.610/98).
+- **Cenário 2 (Aplicação de Licença Creative Commons CC BY na BDCam):** Todas as publicações e relatórios técnicos das Edições Câmara são disponibilizados no portal sob licença **CC BY 4.0 Internacional**. Qualquer cidadão ou pesquisador pode copiar, traduzir e até criar aplicativos comerciais usando esses relatórios, desde que dê o devido crédito institucional à Câmara dos Deputados.
+- **Cenário 3 (Cálculo de Domínio Público em Obras Raras da Biblioteca):** Um pesquisador deseja digitalizar os livros de um deputado constituinte falecido em 1952. O bibliotecário calcula: falecimento em 1952 $\to$ contagem inicia em 1º de janeiro de 1953 $\to$ 70 anos completados em 31 de dezembro de 2022. Em **1º de janeiro de 2023** a obra caiu oficialmente em **domínio público**, podendo ser integralmente escaneada e disponibilizada na web sem autorização de herdeiros.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Vertente / Cláusula CC | Natureza Jurídica | Alienabilidade / Cessão | Regra Inegociável |
+| :--- | :--- | :--- | :--- |
+| **Direitos Morais** | Ligados à personalidade | **Inalienáveis e irrenunciáveis** | O autor nunca perde o direito à paternidade |
+| **Direitos Patrimoniais** | Econômicos / Comerciais | Podem ser cedidos e vendidos | Duram 70 anos *post mortem* auctoris |
+| **Atos Oficiais e Leis** | Sem direito autoral (Art. 8º) | Domínio público permanente | Livre reprodução por qualquer cidadão |
+| **Cláusula CC BY** | Atribuição de autoria | Obrigatória em todas as licenças | Sempre deve citar o autor original |
+| **Cláusula CC ND** | Sem derivações (*NoDerivs*) | Proíbe adaptações e traduções | Só permite distribuição da cópia idêntica |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Cessão dos Direitos Morais em Contrato de Trabalho:** O Cebraspe afirma que o contrato de trabalho de um servidor da Câmara pode prever a renúncia expressa aos seus direitos morais de autor sobre os livros que escrever. **Gabarito: ERRADO.** O art. 27 da Lei nº 9.610/98 é taxativo: os direitos morais são **inalienáveis e irrenunciáveis**; qualquer cláusula de renúncia é juridicamente nula.
+- **Contagem do Prazo de 70 Anos de Domínio Público:** A banca conta os 70 anos a partir do dia exato do falecimento do autor. **Gabarito: ERRADO.** O prazo conta-se **a partir de 1º de janeiro do ano subsequente** ao falecimento (art. 41).
+- **Direito Autoral de Leis e Sentenças:** Afirmar que uma lei federal ou decisão judicial do STF é protegida por direito autoral. **Gabarito: ERRADO.** O art. 8º da Lei nº 9.610/98 exclui taxativamente textos de tratados, leis, decretos, regulamentos e decisões judiciais da proteção de direitos autorais.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 9.610, de 19 de fevereiro de 1998*. Altera, atualiza e consolida a legislação sobre direitos autorais. (A lei canônica de direito autoral no Brasil).
+- **DIGITAL CURATION CENTRE (DCC).** *DCC Curation Lifecycle Model*. Edinburgh: DCC, 2008. (O modelo canônico internacional de curadoria digital).
+- **SAYÃO, Luís Fernando; SALES, Luana Farias.** Dados de pesquisa: um novo desafio para os bibliotecários. *Biblios: Journal of Librarianship and Information Science*, n. 48, p. 1-14, 2012.
+- **LESSIG, Lawrence.** *Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity*. New York: Penguin Press, 2004. (A base conceitual das licenças Creative Commons).
+- **BITTAR, Carlos Alberto.** *Direito de autor*. 6. ed. Rio de Janeiro: Forense Universitária, 2015.`,
   checkpoints: [
     {
       id: 'cp-9-3-1',

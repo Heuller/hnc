@@ -6,8 +6,30 @@ export const submodulo122: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Morfossintaxe e Coesão Textual)',
   preRequisitos: ["sub-12-1"],
   titulo: 'Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa',
+  antesDeLer: [
+    {
+      termo: 'Discourse Markers (Conectivos)',
+      definicao: 'Palavras e locuções que estabelecem relações lógicas entre orações: adição, contraste, causa, consequência, conclusão.',
+      exemploBiblioteca: 'Identificar a relação de contraste indicada pelo conectivo \'However\' em texto da IFLA sobre acesso aberto.',
+    },
+    {
+      termo: 'Conectivos de Oposição e Concessão',
+      definicao: 'Termos chave: Although, Even though, Despite, In spite of, However, Nevertheless, On the other hand, Whereas.',
+      exemploBiblioteca: 'O Cebraspe frequentemente pergunta se \'Although\' pode ser substituído por \'Despite\' sem alterar o sentido (atenção à estrutura gramatical seguinte).',
+    },
+    {
+      termo: 'Conectivos de Causa e Consequência',
+      definicao: 'Causa: Because, Since, As, Due to; Consequência: Therefore, Thus, Consequently, Hence, As a result.',
+      exemploBiblioteca: 'Identificar a relação causal em: \'Due to severe budget constraints, the digitisation project was delayed\'.',
+    },
+    {
+      termo: 'Conectivos de Adição e Ênfase',
+      definicao: 'Adição: Furthermore, Moreover, In addition, Besides; Ênfase: Indeed, Notably, In fact, Particularly.',
+      exemploBiblioteca: 'Reconhecer que \'Furthermore\' introduz um novo argumento convergente em texto sobre metadados Linked Data.',
+    },
+  ],
   descricaoCurta: 'As famílias funcionais de conectivos em inglês (contraste, concessão, causa, consequência, adição e condição), a distinção sintática entre Although e Despite, e as técnicas de substituição e equivalência semântica cobradas pelo Cebraspe.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 9,
   autoresChave: ['Ken Hyland (Discourse Analysis & Metadiscourse)', 'M.A.K. Halliday (Cohesion in English)', 'Ruqaiya Hasan', 'Prof. Gabriela Kruger'],
   alertasCebraspe: [
     'Substituição de Conectivos de Famílias Diferentes: O Cebraspe propõe trocar "however" por "therefore", ou "furthermore" por "although". O item é INVANCIVELMENTE ERRADO, pois altera a orientação argumentativa do parágrafo.',
@@ -79,6 +101,59 @@ O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guard
 
 #### B. Indicadores de Efeito / Conclusão (O Resultado)
 * **Therefore / Thus / Hence / Consequently / As a result:** Traduzem-se por *portanto*, *assim*, *por conseguinte*.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Marcadores Discursivos (*Linking Words* / Connectors)** e as conjunções estabelecem as relações de sentido lógico entre frases e parágrafos em textos em inglês:
+1. **Categorias Semânticas Canônicas de Conectivos:**
+   - **Contraste / Oposição / Concessão:**
+     - *However, Nevertheless, Nonetheless, Yet, Still* (No entanto, todavia, contudo).
+     - *Although, Even though, Though* (Embora, ainda que — introduzem orações subordinadas concessivas).
+     - *Despite, In spite of* (Apesar de — seguidos de substantivo ou verbo no \`-ing\`!).
+     - *On the other hand, Whereas, While* (Por outro lado, enquanto que).
+   - **Causa e Consequência:**
+     - *Causa:* *Because, Since, As, Due to, Owing to* (Porque, já que, devido a).
+     - *Consequência / Conclusão:* *Therefore, Thus, Hence, Consequently, As a result* (Portanto, dessa forma, por conseguinte).
+   - **Adição / Continuidade:**
+     - *Furthermore, Moreover, In addition, Besides, Also* (Além disso, ademais).
+   - **Condição:**
+     - *If, Unless* (a não ser que / a menos que = *if not*), *Provided that, As long as* (contanto que).
+   - **Finalidade / Propósito:**
+     - *In order to, So as to, So that* (A fim de que, para que).
+2. **Equivalência e Substituição Semântica no Cebraspe:**
+   - A banca testa frequentemente se a substituição de um conectivo por outro preserva o sentido original e a correção gramatical do texto (ex.: trocar *However* por *Nevertheless*, ou *Due to* por *Owing to*).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Interpretação de Relatório do Banco Mundial sobre Dívida Pública):** O texto em inglês afirma: *"Although the fiscal deficit increased, inflation remained under control"*. O analista traduz para a Consultoria de Orçamento: *"Embora o déficit fiscal tenha aumentado, a inflação permaneceu sob controle"*, identificando a oração concessiva introduzida por *Although*.
+- **Cenário 2 (Análise de Condição em Acordo de Cooperação Internacional):** Em termo de doação de livros da Biblioteca do Congresso americano para a Câmara, consta a cláusula: *"The books will be delivered, **unless** shipping costs exceed the budget"*. O bibliotecário alerta a Diretoria: os livros serão entregues **a não ser que** os custos de frete superem o teto orçamentário.
+- **Cenário 3 (Articulação Argumentativa em Artigo para Publicação Internacional):** Ao redigir artigo em inglês para a IFLA sobre as inovações da BDCam, o bibliotecário utiliza *Furthermore* e *Moreover* para encadear os avanços de inteligência artificial aplicados aos anais históricos da Câmara.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Marcador Discursivo | Relação Lógica Estabelecida | Equivalentes Diretos | Pegadinha Típica Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **However / Nevertheless** | Contraste / Oposição | *Nonetheless, Yet, Still* | Dizer que expressa causa ou adição |
+| **Although / Even though** | Concessão (quebra de expectativa) | *Though, In spite of the fact that* | Exige oração com verbo conjugado |
+| **Despite / In spite of** | Concessão | Seguido de nome ou \`-ing\` | Não aceitam oração com sujeito e verbo direto |
+| **Therefore / Thus** | Conclusão / Consequência | *Hence, Consequently, As a result* | Dizer que expressa contraste |
+| **Unless** | Condição negativa (*If not*) | *Except if* | Confundir com *as long as* (afirmativo) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Troca de Conector de Causa por Consequência:** A banca afirma que a substituição de *Because* por *Therefore* mantém o sentido original do período. **Gabarito: ERRADO.** *Because* introduz a causa; *Therefore* introduz a consequência (são vetores lógicos opostos!).
+- **Substituição de Although por Despite:** Dizer que se pode substituir *Although* por *Despite* sem qualquer alteração sintática na frase. **Gabarito: ERRADO.** *Although* introduz uma oração completa (com sujeito e verbo); *Despite* exige sintagma nominal ou verbo substantivado no gerúndio (\`-ing\`).
+- **Sentido de Unless:** A banca afirma que *Unless the law is passed* significa *Se a lei for aprovada*. **Gabarito: ERRADO.** *Unless* significa *A não ser que a lei seja aprovada* (condição negativa).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **HALLIDAY, M. A. K.; HASAN, Ruqaiya.** *Cohesion in English*. London: Longman, 1976. (A obra fundacional sobre coesão e conectivos lógicos).
+- **MURPHY, Raymond.** *English Grammar in Use*. 5. ed. Cambridge: Cambridge University Press, 2019. (A gramática prática mais respeitada no mundo).
+- **HEWINGS, Martin.** *Advanced Grammar in Use*. 3. ed. Cambridge: Cambridge University Press, 2013.
+- **SWALES, John M.; FEAK, Christine B.** *Academic Writing for Graduate Students: Essential Tasks and Skills*. 3. ed. Ann Arbor: University of Michigan Press, 2012.
+- **CEBRASPE.** *Banco de Questões de Provas de Língua Inglesa para o Congresso Nacional*. Brasília: Cebraspe, 2022.`,
   checkpoints: [
     {
       id: 'chk-12-2-1',

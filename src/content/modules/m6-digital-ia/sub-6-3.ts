@@ -18,8 +18,30 @@ export const submodulo63: ModuloFilho = {
       }
   ],
   titulo: 'Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas',
+  antesDeLer: [
+    {
+      termo: 'Modelo OAIS (ISO 14721)',
+      definicao: 'Open Archival Information System: modelo de referência internacional que padroniza os conceitos e funções de preservação digital perene.',
+      exemploBiblioteca: 'Estruturação dos pacotes de submissão (SIP), arquivamento (AIP) e disseminação (DIP) no repositório de memória da Câmara.',
+    },
+    {
+      termo: 'Fixidez e Checksum',
+      definicao: 'Mecanismo criptográfico (como SHA-256 ou MD5) que gera uma hash única para certificar que o arquivo digital não foi alterado ou corrompido.',
+      exemploBiblioteca: 'Auditoria periódica de checksums de arquivos PDF/A de decretos e discursos históricos para garantir sua autenticidade jurídica.',
+    },
+    {
+      termo: 'Formatos Abertos de Preservação',
+      definicao: 'Padrões com especificações públicas e sem royalties (PDF/A, TIFF, XML) indicados para garantir a longevidade da informação.',
+      exemploBiblioteca: 'Conversão mandatória de documentos textuais legados para PDF/A-1a na Biblioteca Digital da Câmara.',
+    },
+    {
+      termo: 'Estratégias de Preservação Digital',
+      definicao: 'Métodos operacionais para combater a obsolescência tecnológica: migração de formato, emulação, encapsulamento e preservação de tecnologia.',
+      exemploBiblioteca: 'Migração programada de acervos em disquetes e CD-ROMs antigos para storages seguros e replicados.',
+    },
+  ],
   descricaoCurta: 'Desafios da obsolescência digital, fixidez (checksums SHA-256), estratégias práticas (migração, normalização, emulação, encapsulamento), formatos abertos e normas ISO (PDF/A ISO 19005, TIFF ISO 12639, BWF ITU-R BS.1382, FFV1/MKV, WARC ISO 28500), arquitetura OAIS (ISO 14721), PREMIS 3.0, METS e Rede Cariniana (LOCKSS).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal', 'NDSA / Library of Congress', 'Luciana Duranti'],
   alertasCebraspe: [
     'O modelo OAIS (Open Archival Information System / ISO 14721) NÃO é um software nem uma ferramenta de computador: é um MODELO CONCEITUAL internacional de referência que define a arquitetura funcional e os requisitos de repositórios digitais confiáveis (RDC-Arq e ISO 16363).',
@@ -193,6 +215,57 @@ Coordenado pela Library of Congress, estrutura-se em 5 entidades:
 * **Preservação de Suportes e Acervos Físicos (sub-7-3):** Políticas integradas de conservação de matrizes e objetos digitais.
 * **Segurança da Informação e Criptografia (sub-14-2):** Fixidez e hashes SHA-256 no dicionário PREMIS.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Preservação Digital** visa garantir a integridade, confiabilidade e acessibilidade a longo prazo da informação digital diante da obsolescência tecnológica de hardware e software:
+1. **O Modelo de Referência OAIS (*Open Archival Information System* / ISO 14721):**
+   - Padrão arquitetural mundial para sistemas e repositórios de preservação digital de longo prazo.
+   - **Os Três Pacotes de Informação Canônicos do OAIS:**
+     - **SIP (*Submission Information Package*):** Pacote de submissão entregue pelo produtor/autor ao repositório.
+     - **AIP (*Archival Information Package*):** Pacote de arquivamento preservado no núcleo seguro do repositório, com metadados de preservação completos e fixidez. É a versão mestre definitiva!
+     - **DIP (*Dissemination Information Package*):** Pacote de disseminação entregue ao usuário final quando ele consulta ou baixa o documento (geralmente versão mais leve para web).
+2. **Estratégias de Preservação Digital (Informativas e Tecnológicas):**
+   - **Migração:** Conversão periódica de dados de um formato em obsolescência para um formato mais novo e padronizado (ex.: converter Word .doc para PDF/A-1a). É a estratégia mais adotada mundialmente.
+   - **Emulação:** Recriação por software do ambiente de hardware e sistema operacional original para permitir a execução do arquivo antigo sem modificar seus bits originais.
+   - **Encapsulamento:** Agrupamento do objeto digital juntamente com todos os seus metadados, especificações técnicas e softwares decodificadores em um pacote único.
+   - **Refrescamento (*Refreshing*):** Cópia física dos bits de uma mídia física que se desgasta para uma mídia nova do mesmo tipo ou mais moderna (ex.: de disco magnético antigo para fita LTO).
+3. **Fixidez, Integridade e Formatos Abertos:**
+   - **Fixidez (*Fixity*):** Garantia matemática de que o arquivo digital não sofreu corrupção de bits, exclusão ou alteração fraudulenta. Medida por funções hash criptográficas (MD5, SHA-256).
+   - **Formatos Abertos Recomendados pela ISO/CONARQ:** PDF/A (ISO 19005 para texto), TIFF não compactado (ISO 12234 para imagens), CSV/XML para dados tabulares, ODF/ODT para textos.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Ciclo SIP $\to$ AIP $\to$ DIP no Repositório da BDCam):** O setor de comissões entrega a gravação bruta e as transcrições de uma CPI em formato Word e WAV (isto é o **SIP**). O bibliotecário do CEDI valida o pacote, converte as transcrições para PDF/A-1a, gera hashes SHA-256 e armazena na área de preservação profunda segura (isto é o **AIP**). Quando o cidadão acessa o portal da Câmara para consultar o relatório, o sistema gera dinamicamente um arquivo leve com marca d'água institucional (isto é o **DIP**).
+- **Cenário 2 (Auditoria Periódica de Fixidez com Hashes SHA-256):** A cada seis meses, um script automatizado de preservação digital lê todos os arquivos mestres da BDCam e recalcula seus hashes. Se o hash SHA-256 calculado hoje for idêntico ao armazenado no metadado PREMIS no momento da admissão, está formalmente comprovada a **fixidez e autenticidade** da memória legislativa perante a sociedade.
+- **Cenário 3 (Estratégia de Migração para Evitar Obsolescência):** Em 2002, muitos discursos parlamentares foram salvos em disquetes no formato WordPerfect. A equipe da biblioteca adota a estratégia de **migração de formato**, convertendo os arquivos para o padrão aberto ISO PDF/A antes que os programas de leitura deixem de existir no mercado.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Pacote OAIS / Estratégia | Significado / Objetivo | Onde Atua | Exemplo Concreto Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **SIP** | Submissão | Entrada no repositório | Arquivo enviado pelo autor/gabinete |
+| **AIP** | Arquivamento / Preservação | Núcleo de guarda segura | Arquivo mestre TIFF/PDF/A com PREMIS |
+| **DIP** | Disseminação / Acesso | Saída para o usuário | PDF leve baixado pelo cidadão na web |
+| **Migração** | Converter formato de arquivo | Objeto digital | Converter .doc para PDF/A |
+| **Emulação** | Recriar o sistema computacional | Ambiente de execução | Emular MS-DOS para rodar software de 1990 |
+| **Fixidez (Hash)** | Verificar alteração de bits | Segurança da informação | Cálculo de hash SHA-256 |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão dos Pacotes OAIS:** O Cebraspe afirma que o pacote entregue ao usuário que pesquisa no site da biblioteca é o AIP. **Gabarito: ERRADO.** O pacote entregue ao usuário final é sempre o **DIP (*Dissemination Information Package*)**; o AIP é o pacote arquivístico mestre de guarda interna.
+- **Preservação Digital vs. Mero Backup:** Dizer que fazer backup diário dos servidores é suficiente para garantir a preservação digital a longo prazo. **Gabarito: ERRADO.** O backup protege contra perda acidental de dados no curto prazo, mas não combate a obsolescência de formatos de arquivos e mídias ao longo de décadas.
+- **Emulação Altera os Bits do Arquivo:** Afirmar que na emulação os arquivos antigos são convertidos e modificados estruturalmente. **Gabarito: ERRADO.** Na emulação os bits originais do arquivo permanecem intocados; o que muda é o software emulador que imita o computador antigo.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ISO 14721:2012 (CCSDS 650.0-M-2).** *Space data and information transfer systems — Open archival information system (OAIS) — Reference model*. Genebra: ISO, 2012. (A norma mundial de preservação digital).
+- **CONSELHO NACIONAL DE ARQUIVOS (CONARQ).** *Diretrizes para a Presunção de Autenticidade de Documentos Arquivísticos Digitais*. Rio de Janeiro: CONARQ, 2015.
+- **ARELLANO, Miguel Ángel Mardero.** Critérios para a preservação digital da informação científica. *Ciência da Informação*, v. 33, n. 2, p. 15-27, 2004. (Artigo canônico do IBICT mais cobrado em provas).
+- **THOMAZ, Katia Pires; SOARES, Antônio José.** A preservação de documentos eletrônicos: uma visão contemporânea. *Ciência da Informação*, v. 33, n. 1, p. 86-92, 2004.
+- **PREMIS EDITORIAL COMMITTEE.** *PREMIS Data Dictionary for Preservation Metadata*. Version 3.0. Library of Congress, 2015.`,
   checkpoints: [
     {
       id: 'cp-6-3-1',

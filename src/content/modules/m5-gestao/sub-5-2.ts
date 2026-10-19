@@ -18,8 +18,30 @@ export const submodulo52: ModuloFilho = {
       }
   ],
   titulo: 'CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional',
+  antesDeLer: [
+    {
+      termo: 'CRM (Customer Relationship Management)',
+      definicao: 'Estratégia e conjunto de ferramentas tecnológicas voltadas ao gerenciamento e estreitamento das relações com os usuários/clientes.',
+      exemploBiblioteca: 'Registro no sistema de referência das preferências temáticas e histórico de consultas de cada comissão parlamentar.',
+    },
+    {
+      termo: 'Curadoria de Conteúdo',
+      definicao: 'Processo contínuo de selecionar, organizar, enriquecer e contextualizar as informações mais relevantes sobre determinado domínio temático.',
+      exemploBiblioteca: 'Elaboração de dossiê temático curado sobre inteligência artificial no setor público para apoiar debate em comissão mista.',
+    },
+    {
+      termo: 'Produtos de Inteligência Informacional',
+      definicao: 'Relatórios sintetizados, informativos analíticos e resumos executivos que agregam valor e orientam a tomada de decisão estratégica.',
+      exemploBiblioteca: 'Boletim legislativo semanal distribuído pela biblioteca aos líderes partidários com panorama de matérias internacionais.',
+    },
+    {
+      termo: 'Segmentação de Usuários',
+      definicao: 'Divisão da comunidade de usuários em grupos homogêneos segundo suas necessidades de informação para oferta de serviços customizados.',
+      exemploBiblioteca: 'Criação de trilhas de serviços distintas para parlamentares, pesquisadores acadêmicos e cidadãos comuns.',
+    },
+  ],
   descricaoCurta: 'Gestão de Relacionamento (CRM de Paul Greenberg: operacional, analítico e colaborativo), Personalização e DSI (Eirão & Cunha), Curadoria de Informação (Bezerra) e elaboração de Dossiês, Estados da Arte e Panoramas (Candido).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 25,
   autoresChave: ['Paul Greenberg', 'Thiago Gomes Eirão', 'Murilo Bastos da Cunha', 'Arthur Bezerra', 'Renato Alexandre Candido', 'Sueli Angélica do Amaral', 'Alba Costa Maciel'],
   alertasCebraspe: [
     'CRM em Serviços de Informação (Paul Greenberg): divide-se na tríade canônica: 1. CRM Operacional (pontos de contato direto, automação de balcão, circulação e referência - front-office); 2. CRM Analítico (mineração de dados, identificação de padrões de busca, perfil de consumo e antecipação de demandas - back-office); e 3. CRM Colaborativo (interação multicanal e integração intersetorial para cocriação de serviços). O Cebraspe inverte sistematicamente CRM Analítico e Operacional!',
@@ -291,6 +313,50 @@ O estudo de usuários é a investigação sistemática das características, com
 * **Estudos de Usuários e Entrevista de Referência (sub-4-4):** Identificação de necessidades para elaboração de produtos especializados.
 * **Editoração e Publicação Digital (sub-8-5):** Estruturação formal de infográficos, linhas do tempo e relatórios.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Marketing da Informação**, o **CRM (*Customer Relationship Management*)** e a **Inteligência Informacional** transformam bibliotecas de meros depósitos em centros estratégicos de valor:
+1. **Marketing de Serviços de Informação (Sueli Angélica do Amaral):**
+   - Não se resume a publicidade ou propaganda. É uma filosofia gerencial orientada para a satisfação das necessidades de informação do usuário.
+   - **Os 4 Ps Clássicos Adaptados à Informação:** Produto (serviços de valor agregado), Preço (custo de acesso, tempo despendido pelo usuário e esforço cognitivo), Praça (canais físicos e digitais de distribuição) e Promoção (comunicação, oficinas e divulgação ativa).
+   - **Marketing de Relacionamento (CRM):** Gestão contínua da interação com os clientes/usuários para fidelização, personalização e antecipação de demandas futuras.
+2. **Produtos e Serviços de Informação Especializada:**
+   - Boletins de Alerta e Clipping Temático, Dossiês Legislativos, Guias de Fontes, Sumários Correntes e Análises de Tendências.
+3. **Inteligência Competitiva / Inteligência Informacional (Tarapanoff):**
+   - Processo sistemático de coleta, tratamento, análise e disseminação de informações acionáveis sobre o ambiente externo e interno para subsidiar decisões de alto nível.
+   - **Ciclo da Inteligência:** Planejamento/Direção $\to$ Coleta de dados $\to$ Processamento $\to$ Análise e Produção de Conhecimento $\to$ Disseminação ao tomador de decisão.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Dossiê Temático para Votação de PEC):** Diante da votação iminente de uma PEC no Plenário, a equipe de bibliotecários do CEDI prepara proativamente um **Dossiê Legislativo de Inteligência Informacional** contendo: histórico da tramitação, legislação comparada em 10 países democráticos, notas técnicas e as decisões recentes do STF. Esse produto é entregue aos líderes partidários antes do debate.
+- **Cenário 2 (CRM no Atendimento às Comissões Parlamentares):** A Biblioteca Pedro Aleixo adota um sistema de CRM para mapear as preferências dos presidentes e relatores das 30 comissões permanentes. O sistema registra quais autores e temas cada comissão mais requisita, permitindo personalizar alertas prévios sempre que uma nova obra correlata é adquirida.
+- **Cenário 3 (O "Preço" do Serviço de Informação na Câmara):** Embora o atendimento da biblioteca seja gratuito financeiramente para o parlamentar, o bibliotecário compreende que o "preço" percebido pelo deputado é o **tempo de resposta**. Se a informação demorar 2 horas além da ordem do dia, o custo foi excessivo e o serviço fracassou.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Conceito / Ferramenta | Foco Central | Papel do Bibliotecário | Exemplo Típico |
+| :--- | :--- | :--- | :--- |
+| **Marketing da Informação** | Orientação para necessidades do usuário | Diagnosticar demandas e formatar serviços | Análise dos 4 Ps do serviço de referência |
+| **CRM (Relacionamento)** | Fidelização e personalização contínua | Manter histórico e preferências de uso | Perfis personalizados para gabinetes |
+| **Inteligência Informacional** | Informação acionável para decisão | Analisar tendências e gerar sínteses | Dossiê comparativo para subsídio a votação |
+| **Clipping / Alerta** | Disseminação corrente de notícias | Filtrar e compilar mídia temática | Resumo diário de notícias parlamentares |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Redução do Marketing à Publicidade:** O Cebraspe formula itens dizendo que *"o marketing em bibliotecas limita-se à confecção de cartazes e avisos promocionais para atração de público"*. **Gabarito: ERRADO.** O marketing é processo gerencial completo de planejamento, segmentação de mercado, análise de custo-benefício e avaliação.
+- **Conceito de Preço em Serviços Públicos:** Afirmar que, por ser pública e gratuita, a biblioteca não tem o elemento "preço" no composto de marketing. **Gabarito: ERRADO.** O preço inclui custos intangíveis: tempo gasto, deslocamento, esforço intelectual e barreiras de acesso.
+- **Inteligência Competitiva como Espionagem:** Dizer que a inteligência corporativa envolve apropriação ilícita de informações sigilosas. **Gabarito: ERRADO.** O ciclo de inteligência baseia-se exclusivamente em métodos éticos e fontes legítimas de informação aberta (*OSINT*).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **AMARAL, Sueli Angelica do.** *Marketing da informação: entre a teoria e a prática*. Brasília: Thesaurus, 2011. (A principal autoridade brasileira em marketing da informação).
+- **TARAPANOFF, Kira (Org.).** *Inteligência, informação e conhecimento em corporações*. Brasília: IBICT; UNESCO, 2006. (Obra canônica sobre inteligência competitiva no Brasil).
+- **KOTLER, Philip; KELLER, Kevin Lane.** *Administração de marketing*. 14. ed. São Paulo: Pearson, 2012.
+- **CÂMARA DOS DEPUTADOS.** *Produtos de Informação e Pesquisa da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2022.
+- **DAVENPORT, Thomas H.** *Ecologia da informação: por que só a tecnologia não basta para o sucesso na era da informação*. São Paulo: Futura, 1998.`,
   checkpoints: [
     {
       id: 'cp-5-2-1',

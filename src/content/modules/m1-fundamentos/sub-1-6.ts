@@ -29,8 +29,30 @@ export const submodulo16: ModuloFilho = {
   ],
   titulo: 'Governança da Informação e Governança de Dados',
   titulo_curto: 'Governança de Dados',
+  antesDeLer: [
+    {
+      termo: 'Governança de Dados (DAMA-DMBOK2)',
+      definicao: 'Exercício de autoridade, controle e planejamento sobre a gestão de ativos de dados dentro de uma organização.',
+      exemploBiblioteca: 'Definição de papéis de custódia e padrões de metadados para os documentos digitais no ecossistema da Câmara.',
+    },
+    {
+      termo: 'Dados Mestres (Master Data)',
+      definicao: 'Dados fundamentais e consistentes que fornecem o contexto central para transações de negócio através de toda a instituição.',
+      exemploBiblioteca: 'Tabela padronizada de autores corporativos governamentais e parlamentares utilizada conjuntamente pelo CEDI e pelo Plenário.',
+    },
+    {
+      termo: 'Data Stewardship',
+      definicao: 'Atividade operacional e tática de zelar pela qualidade, conformidade, segurança e integridade de conjuntos de dados sob sua responsabilidade.',
+      exemploBiblioteca: 'O bibliotecário atuando como curador responsável por validar metadados e metadados de preservação no repositório institucional.',
+    },
+    {
+      termo: 'Dicionário de Dados',
+      definicao: 'Repositório centralizado de metadados que descreve o significado, a estrutura, as relações e os formatos dos elementos de dados.',
+      exemploBiblioteca: 'Documento técnico que padroniza os campos de busca e filtros do Sistema de Informações Legislativas (Sileg).',
+    },
+  ],
   descricaoCurta: 'Princípios do DAMA-DMBOK 2ª ed., papéis de governança (Data Owner, Data Steward, Data Custodian), dimensões de qualidade, proveniência e linhagem (W3C PROV-O), catálogo vs inventário, dados mestres e dados abertos (8 princípios, 5 estrelas e LAI).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 19,
   autoresChave: [
     'DAMA International',
     'Tim Berners-Lee',
@@ -56,7 +78,7 @@ export const submodulo16: ModuloFilho = {
       [
         'Decisões Típicas',
         'Autoriza concessão de acessos críticos, define classificação de sigilo/privacidade e aprova políticas do domínio.',
-        'Define termos de glossários de dados, resolve divergências de significado, audita qualidade e especifica requisitos de metadados.',
+        'Define termos de vocabulários e dicionários de dados, resolve divergências de significado, audita qualidade e especifica requisitos de metadados.',
         'Executa rotinas de backup, otimiza consultas no SGBD, aplica patches de segurança e implementa arquitetura de armazenamento.',
       ],
       [
@@ -113,7 +135,7 @@ O edital nº 1/2026 exige explicitamente os papéis e políticas de governança 
 
 #### B. Data Steward (Curador / Zelador do Dado)
 * **Definição:** É o profissional (ou comitê) que atua na interface direta entre as necessidades de negócio e as capacidades técnicas de TI, zelando diariamente pela integridade semântica, qualidade e conformidade dos dados.
-* **Responsabilidades Primordiais:** Elaborar e manter o glossário corporativo de termos (*business glossary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.
+* **Responsabilidades Primordiais:** Elaborar e manter o vocabulário corporativo de termos (*business vocabulary / data dictionary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.
 * **O Papel do Bibliotecário:** O bibliotecário contemporâneo exerce com naturalidade as atribuições de *data steward*, dada sua expertise secular em organização do conhecimento, controle de vocabulário, ontologias, catalogação e padrões de metadados.
 
 #### C. Data Custodian (Custodiante Técnico)
@@ -211,6 +233,52 @@ O criador da World Wide Web propôs uma escala progressiva de maturidade para a 
 * **Direito Autoral e Dados Abertos de Pesquisa (sub-9-3):** Licenças e princípios de abertura de dados públicos.
 * **Transparência, LAI e LGPD (sub-11-12):** Conformidade legal sobre proteção de dados e transparência pública.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A atuação do Bibliotecário na Câmara dos Deputados está submetida a um regime legal estrito, ao Código de Ética Profissional e às normas de Governança de Dados do setor público federal:
+1. **Regulamentação Profissional (Leis Federais nº 4.084/1962 e nº 9.674/1998):**
+   - O exercício da profissão de bibliotecário em todo o território nacional é privativo dos bacharéis em Biblioteconomia diplomados por escolas oficiais ou reconhecidas e **registrados no respectivo Conselho Regional de Biblioteconomia (CRB)**.
+   - Atividades privativas: organização, direção e execução dos serviços técnicos de bibliotecas; classificação e catalogação de manuscritos e livros; planejamento e coordenação de redes de bibliotecas.
+2. **Sistema CFB/CRB:**
+   - **Conselho Federal de Biblioteconomia (CFB):** Órgão normativo e de grau de recurso superior.
+   - **Conselhos Regionais (CRB):** Órgãos de fiscalização direta do exercício profissional em suas respectivas jurisdições (o Distrito Federal pertence à jurisdição do **CRB-1**).
+3. **Código de Ética e Deontologia (Resolução CFB nº 207/2018):**
+   - Deveres fundamentais: sigilo profissional sobre informações confiadas em razão do ofício; combate à censura e defesa do livre acesso à informação; atualização profissional contínua; não assinar trabalhos executados por terceiros sem sua participação técnica.
+   - Infrações éticas puníveis com: advertência, censura confidencial, censura pública, multa, suspensão temporária do registro e cassação do exercício profissional.
+4. **Governança de Dados e da Informação no Setor Público (DMBOK e Decreto nº 9.203/2017):**
+   - A governança estabelece as diretrizes estratégicas, a prestação de contas (*accountability*), a liderança e o controle para assegurar que a informação seja tratada como ativo corporativo confiável, seguro e interoperável.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Sigilo Profissional no Atendimento à Consultoria Legislativa):** Um consultor legislativo solicita estudos comparados sigilosos sobre um tema de grande impacto econômico que embasará uma CPI ainda não divulgada. O bibliotecário da Biblioteca Pedro Aleixo tem o **dever ético e legal de sigilo absoluto**, não podendo divulgar a temática da busca nem a parlamentares de outras legendas.
+- **Cenário 2 (Fiscalização do Exercício Privativo no Quadro da Câmara):** Ao realizar concurso público para provimento de vagas de Analista Legislativo - Atribuição Bibliotecário, a Câmara exige obrigatoriamente a comprovação de diploma de Bacharel em Biblioteconomia e o registro ativo no **CRB-1**, em estrito cumprimento às Leis 4.084/62 e 9.674/98.
+- **Cenário 3 (Governança de Dados e Gestão de Metadados):** Ao participar do Comitê de Governança Digital da Câmara dos Deputados, o bibliotecário atua na definição do vocabulário controlado institucional e na gestão de metadados para garantir que os dados abertos das votações sejam interoperáveis entre a Câmara e o Senado Federal segundo o DAMA-DMBOK2.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Órgão / Norma | Papel Principal | Competência Típica | Recurso Final |
+| :--- | :--- | :--- | :--- |
+| **CFB (Federal)** | Normativo e Recursal | Editar o Código de Ética e resoluções gerais | Instância superior administrativa |
+| **CRB-1 (Regional - DF)** | Fiscalização e Registro | Conceder registro profissional e fiscalizar acervos | Recursos sobem ao CFB |
+| **Lei nº 4.084/1962** | Marco Regulatório Inicial | Define a profissão e atos privativos do bibliotecário | Lei Federal ordinária |
+| **Lei nº 9.674/1998** | Reestruturação dos Conselhos | Detalha funcionamento dos Conselhos e infrações | Lei Federal ordinária |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Assinatura de Responsabilidade Técnica por Outrem:** O Cebraspe adora colocar como assertiva que *"é lícito ao bibliotecário assumir a responsabilidade técnica e assinar catálogos e bases de dados organizados inteiramente por estagiários ou técnicos administrativos sem sua supervisão direta"*. **Gabarito: ERRADO.** Constitui infração ética grave capitulada no Código de Ética do CFB.
+- **Inversão das Competências CFB vs. CRB:** A banca diz que compete aos CRBs editar o Código de Ética e julgar em grau final as infrações. **Gabarito: ERRADO.** Quem edita o Código e julga recursos finais é o CFB.
+- **Dispensa de Registro para Servidores Públicos:** Afirmar que a aprovação em concurso público de órgão federal dispensa o registro no Conselho Regional. **Gabarito: ERRADO.** O exercício profissional, mesmo no setor público estatutário, exige inscrição regular no CRB da jurisdição.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 4.084, de 30 de junho de 1962*. Dispõe sobre a profissão de Bibliotecário e regula o seu exercício.
+- **BRASIL.** *Lei Federal nº 9.674, de 25 de junho de 1998*. Dispõe sobre o exercício da profissão de Bibliotecário e determina outras providências.
+- **CONSELHO FEDERAL DE BIBLIOTECONOMIA (CFB).** *Resolução CFB nº 207, de 9 de novembro de 2018*. Aprova o Código de Ética e Deontologia do Profissional Bibliotecário brasileiro.
+- **IFLA.** *IFLA Code of Ethics for Librarians and other Information Workers*. Haia: IFLA, 2012.
+- **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge*. 2. ed. Technics Publications, 2017. (Capítulo de Governança da Informação e Dados).`,
   checkpoints: [
     {
       id: 'cp-1-6-1',

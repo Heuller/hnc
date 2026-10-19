@@ -365,7 +365,11 @@ export const SimuladoPage: React.FC = () => {
       return sim.numero >= 11 && sim.numero <= 14;
     }
     if (categoriaSimuladoFiltro === 'especiais') {
-      return sim.id === 'mega-simulado-camara' || sim.id === 'mini-modulo-orgaos';
+      return (
+        sim.id === 'mega-simulado-camara' ||
+        sim.id === 'mini-modulo-orgaos' ||
+        sim.id === 'simulado-geral-180q'
+      );
     }
     return true;
   });
@@ -416,7 +420,7 @@ export const SimuladoPage: React.FC = () => {
               : 'text-ink-2 hover:text-ink'
           }`}
         >
-          Mega & Especiais (2)
+          Mega, Geral & Especiais (3)
         </button>
       </div>
 

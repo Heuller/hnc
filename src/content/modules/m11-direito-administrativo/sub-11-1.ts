@@ -7,8 +7,30 @@ export const submodulo111: ModuloFilho = {
   preRequisitos: [],
   titulo: 'Estado, Governo, Princípios e Organização Administrativa',
   titulo_curto: 'Estado, Princípios e Organização',
+  antesDeLer: [
+    {
+      termo: 'Princípios Constitucionais (LIMPE)',
+      definicao: 'Princípios fundamentais do art. 37 da CF/88: Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência.',
+      exemploBiblioteca: 'Aplicação do princípio da publicidade no livre acesso às informações e gastos públicos na administração da biblioteca.',
+    },
+    {
+      termo: 'Administração Pública Direta vs. Indireta',
+      definicao: 'Direta compreende os órgãos integrantes das pessoas políticas (União, Estados, DF, Municípios); Indireta compreende autarquias, fundações e estatais.',
+      exemploBiblioteca: 'A Câmara dos Deputados atuando como órgão independente da Administração Direta da União.',
+    },
+    {
+      termo: 'Desconcentração vs. Descentralização',
+      definicao: 'Desconcentração é a partição de competências dentro de uma mesma pessoa jurídica (órgãos); descentralização cria nova pessoa jurídica.',
+      exemploBiblioteca: 'A criação do CEDI como órgão interno da Câmara por ato regimental constitui caso clássico de desconcentração administrativa.',
+    },
+    {
+      termo: 'Autotutela Administrativa',
+      definicao: 'Poder da administração de anular seus próprios atos quando eivados de vícios de legalidade, ou revogá-los por conveniência e oportunidade.',
+      exemploBiblioteca: 'Anulação de ato de descarte de acervo que não tenha observado o rito legal previsto em norma institucional.',
+    },
+  ],
   descricaoCurta: 'Conceito e elementos do Estado, separação de poderes e funções atípicas. Princípios constitucionais (LIMPE) e princípios implícitos da Administração Pública. Organização administrativa: centralização, descentralização, concentração, desconcentração, Administração Direta e Indireta.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 14,
   autoresChave: [
     'Maria Sylvia Zanella Di Pietro',
     'Hely Lopes Meirelles',
@@ -110,6 +132,55 @@ Para executar suas atribuições, o Estado organiza sua estrutura por meio de t�
 Na Câmara dos Deputados, a **Biblioteca Pedro Aleixo** e o **Centro de Documentação e Informação (Cedi)** são **órgãos públicos** resultantes da **desconcentração administrativa** da União Federal no âmbito do Poder Legislativo:
 * Não detêm personalidade jurídica própria: a titularidade das relações jurídicas, responsabilidades civis e orçamentos é da **União Federal**.
 * Todos os contratos de aquisição de coleções, assinaturas de periódicos e acordos com a RVBI são celebrados em nome da União/Câmara dos Deputados, subordinando-se estritamente aos princípios constitucionais do art. 37 da CF/88 (especialmente legalidade, impessoalidade e publicidade).`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Princípios Constitucionais da Administração Pública** estruturam todo o regime jurídico-administrativo brasileiro (CF/88, art. 37, *caput*):
+1. **O Mnemônico LIMPE (Princípios Expressos do Art. 37):**
+   - **Legalidade:** Para o particular, é lícito fazer tudo o que a lei não proíbe (autonomia da vontade). Para o administrador público, **só é permitido fazer o que a lei expressamente autoriza ou determina** (estrita legalidade).
+   - **Impessoalidade:** A atuação estatal deve buscar o interesse público, sem favorecimentos ou perseguições (princípio da finalidade). Veda a autopromoção de agentes em obras e serviços públicos (art. 37, § 1º: proibição de nomes, símbolos ou imagens que caracterizem promoção pessoal).
+   - **Moralidade:** Exige probidade, honestidade, boa-fé e lealdade institucional. Não se confunde com moral comum subjetiva: trata-se de moral jurídica objetiva. Súmula Vinculante nº 13 (vedação ao nepotismo).
+   - **Publicidade:** Os atos administrativos devem ser transparentes e divulgados oficialmente para produzir efeitos jurídicos e permitir o controle social. Exceções: segurança da sociedade e do Estado, e intimidade/privacidade das pessoas.
+   - **Eficiência:** Introduzido pela Emenda Constitucional nº 19/1998 (Reforma Gerencial). Exige produtividade, celeridade, rendimento funcional e redução de desperdícios no serviço público.
+2. **Princípios Implícitos Fundamentais:**
+   - **Supremacia do Interesse Público sobre o Privado:** Prerrogativas do Estado para tutelar a coletividade.
+   - **Indisponibilidade do Interesse Público:** O gestor não é "dono" da coisa pública; ele apenas administra bens alheios pertencentes ao povo.
+   - **Autotutela:** A Administração pode anular seus próprios atos ilegais e revogar os inoportunos ou inconvenientes (Súmulas 346 e 473 do STF).
+   - **Proporcionalidade e Razoabilidade:** Adequação, necessidade e proporcionalidade em sentido estrito.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Aplicação da Impessoalidade nas Redes e Publicações da Câmara):** Um deputado presidente de comissão solicita que a revista institucional das Edições Câmara estampe sua fotografia na capa com o slogan de sua campanha eleitoral. O bibliotecário e o editor recusam formalmente o pedido com base no **princípio da impessoalidade e no art. 37, § 1º da CF/88**, que veda promoção pessoal em publicações com recursos da Câmara.
+- **Cenário 2 (Autotutela em Concurso Público de Analista):** A Diretoria-Geral da Câmara identifica um erro material na fórmula de cálculo das notas de um processo seletivo interno. Aplicando o **princípio da autotutela (Súmula 473 do STF)**, a própria Mesa anula a classificação com vício de legalidade, republicando a lista correta sem precisar esperar decisão judicial.
+- **Cenário 3 (A Estrita Legalidade na Aquisição de Livros Raros):** O gestor da Biblioteca Pedro Aleixo encontra em um sebo uma obra rara imperdível para o acervo histórico. Embora a compra seja oportuna, ele não pode pagar em dinheiro vivo de forma direta; deve seguir rigorosamente o processo de inexigibilidade previsto na Lei nº 14.133/2021 em estrito respeito ao **princípio da legalidade**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Princípio Administrativo | Significado no Setor Público | Exceção / Limite Constitucional | Súmula / Dispositivo Chave |
+| :--- | :--- | :--- | :--- |
+| **Legalidade** | Só faz o que a lei expressamente autoriza | Medidas Provisórias e Estado de Defesa | CF/88, art. 37, *caput* |
+| **Impessoalidade** | Vedação a favoritismos e promoção pessoal | - | CF/88, art. 37, § 1º |
+| **Moralidade** | Honestidade e lealdade objetiva | - | Súmula Vinculante nº 13 (Nepotismo) |
+| **Publicidade** | Transparência em diários e portais | Sigilo de Estado e intimidade pessoal | CF/88, art. 5º, XXXIII e LAI |
+| **Autotutela** | Anula atos ilegais e revoga inoportunos | Respeito ao direito adquirido e contraditório | Súmulas 346 e 473 do STF |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Anulação vs. Revogação de Atos (Súmula 473 do STF):**
+  - *Anulação:* Incide sobre atos **ilegais**; tem efeitos retroativos (**ex tunc**); pode ser feita pela Administração ou pelo Judiciário.
+  - *Revogação:* Incide sobre atos **legais, mas inoportunos ou inconvenientes**; tem efeitos prospectivos (**ex nunc**); **só pode ser feita pela própria Administração** (o Judiciário NUNCA revoga ato alheio no mérito administrativo!). O Cebraspe troca sistematicamente esses conceitos.
+- **Legalidade do Particular vs. do Administrador:** Dizer que o bibliotecário público pode praticar qualquer ato desde que não haja lei proibindo. **Gabarito: ERRADO.** Essa é a legalidade privada; o administrador público só pode agir se houver lei autorizando previamente.
+- **Publicidade Absoluta sem Exceções:** Afirmar que todos os documentos e atos da Administração Pública são obrigatoriamente públicos sem qualquer exceção. **Gabarito: ERRADO.** A própria CF estabelece exceções para segurança do Estado e intimidade/privacidade individual.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **MEIRELLES, Hely Lopes.** *Direito Administrativo Brasileiro*. 42. ed. São Paulo: Malheiros, 2016. (A maior doutrina clássica de direito administrativo em concursos).
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Doutrina indispensável com altíssima incidência nas provas do Cebraspe).
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Súmula nº 473: A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais...*.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Súmula Vinculante nº 13: A nomeação de cônjuge, companheiro ou parente... viola a Constituição Federal*.`,
   checkpoints: [
     {
       id: 'cp-11-1-1',

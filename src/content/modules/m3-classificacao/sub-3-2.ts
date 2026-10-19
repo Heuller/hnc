@@ -18,8 +18,30 @@ export const submodulo32: ModuloFilho = {
       }
   ],
   titulo: 'Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)',
+  antesDeLer: [
+    {
+      termo: 'Classificação Decimal de Direito (CDDir)',
+      definicao: 'Sistema brasileiro especializado desenvolvido por Doris de Queiroz Carvalho e adotado pelas bibliotecas jurídicas para o detalhamento da classe 340.',
+      exemploBiblioteca: 'Classificação temática específica dos tratados de direito tributário e processual na Rede Virtual de Bibliotecas (RVBI).',
+    },
+    {
+      termo: 'Tabela PHA (Paulo Homem de Albuquerque)',
+      definicao: 'Tabela de notação de autor desenvolvida especificamente para a língua portuguesa, concorrente da Cutter-Sanborn em bibliotecas brasileiras.',
+      exemploBiblioteca: 'Atribuição de código alfanumérico para autores nacionais com grafias compostas na Biblioteca da Câmara.',
+    },
+    {
+      termo: 'Número de Chamada',
+      definicao: 'Conjunto alfanumérico composto pela notação de classificação, notação de autor e elementos complementares (ano, volume, exemplar) que localiza a obra.',
+      exemploBiblioteca: 'Etiqueta na lombada: 342.53 C172p 2023 ex. 1, permitindo ao usuário ou atendente retirar o livro exato na estante.',
+    },
+    {
+      termo: 'Doutrina Jurídica',
+      definicao: 'Conjunto de estudos, pareceres e teorias formulados pelos juristas que interpretam as normas legais e orientam a aplicação do direito.',
+      exemploBiblioteca: 'Acervo central da Biblioteca Pedro Aleixo que subsidia pareceres das comissões temáticas da Câmara.',
+    },
+  ],
   descricaoCurta: 'A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, a espinha dorsal temática da RVBI e do LexML, e as regras avançadas de Notação de Autor (Cutter-Sanborn e Tabela PHA de Prado).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['Doris de Queiroz Carvalho', 'Comissão de Atualização da CDDir / RVBI (Arouck, Jaegger & Pinha)', 'Charles Ammi Cutter', 'Kate Emery Sanborn', 'Heloísa de Almeida Prado'],
   alertasCebraspe: [
     'A CDDir foi criada pela bibliotecária brasileira Doris de Queiroz Carvalho na década de 1940 para superar a inadequação das classificações gerais (CDD e CDU) ao ordenamento jurídico brasileiro. As tabelas universais foram desenhadas sob a tradição da Common Law anglo-americana, ao passo que o Brasil adota a tradição Romano-Germânica (Civil Law), com codificações e ramificações dogmáticas próprias.',
@@ -147,6 +169,60 @@ Criada no Brasil pela bibliotecária Heloísa de Almeida Prado:
 * **Classificação Decimal de Dewey (CDD) (sub-3-1):** Uso de tabelas auxiliares e síntese notacional.
 * **Classificação Decimal de Direito (CDDir) (sub-3-3):** Especialização da classe 34 para o ordenamento jurídico brasileiro.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+No âmbito jurídico-legislativo, a **Classificação Decimal de Direito (CDDir)** e as **Notações de Autor** são instrumentos indispensáveis para a precisão técnica do acervo:
+1. **A Classificação Decimal de Direito (CDDir de Doris de Queiroz Carvalho):**
+   - Sistema decimal especializado desenvolvido no Brasil por **Doris de Queiroz Carvalho** (criado originalmente no Ministério da Fazenda em 1948 e adotado pelo STF, Senado e Câmara).
+   - Toma como raiz a classe **34 (Direito)** da CDU e desdobra minuciosamente as ramificações jurídicas nacionais:
+     - \`340\`: Teoria Geral, Filosofia do Direito, Enciclopédia Jurídica.
+     - \`341\`: Direito Internacional (Público e Privado).
+     - \`342\`: Direito Público e Constitucional (Sistemas políticos, processo legislativo).
+     - \`343\`: Direito Penal (Crimes, criminologia, processo penal).
+     - \`344\`: Direito Militar.
+     - \`345\`: Direito Administrativo (Serviços públicos, servidores, licitações).
+     - \`346\`: Direito Econômico e Tributário.
+     - \`347\`: Direito Civil e Comercial / Direito Privado.
+     - \`348\`: Direito Canônico e Eclesiástico.
+     - \`349\`: Ramos Especiais (Direito do Trabalho, Direito Agrário, Direito Ambiental).
+2. **Notação de Autor (Cutter-Sanborn e Tabela PHA):**
+   - **Tabela Cutter-Sanborn:** Letra inicial maiúscula do sobrenome + dois ou três algarismos.
+   - **Tabela PHA (Paula Hawkins de Azevedo):** Criada para superar a limitação da Cutter-Sanborn em nomes de língua portuguesa (com abundância de Silva, Santos, Souza, Oliveira, Pereira).
+   - **Obra-Marca (*Workmark*):** Letra minúscula adicionada ao final da notação de autor correspondente à primeira letra do título da obra (desconsiderando artigo inicial) para diferenciar livros do mesmo autor na mesma classe.
+   - **Edição e Data no Número de Chamada:** Registrados em linhas sucessivas para garantir a ordenação cronológica e evolutiva das edições.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (CDDir na Biblioteca Pedro Aleixo):** Ao dar entrada nas obras clássicas de Direito Constitucional de José Afonso da Silva e Michel Temer, a biblioteca utiliza a CDDir \`342.1\` (Direito Constitucional Brasileiro). A notação Cutter de Silva é \`S586\` e a obra-marca para o livro *Curso de Direito Constitucional Positivo* é \`c\` minúsculo, resultando no número de chamada:
+  \`342.1\` / \`S586c\` / \`45. ed.\` / \`2022\`.
+- **Cenário 2 (Diferenciação PHA em Homônimos):** Em uma biblioteca parlamentar com dezenas de juristas com sobrenome "Oliveira", a Tabela PHA fornece granularidade específica para a antroponímia brasileira, evitando que obras de autores distintos recebam exatamente o mesmo número de chamada.
+- **Cenário 3 (Organização da Coleção Especial de Pareceres da CCJ):** Os pareceres da Comissão de Constituição e Justiça são classificados pela CDDir sob a classe \`342.52\` (Poder Legislativo e Processo de Elaboração das Leis), permitindo que consultores e parlamentares localizem em segundos qualquer precedente normativo nas estantes do CEDI.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Sistema de Classificação / Notação | Autoria / Origem | Foco Principal | Vantagem Competitiva no Concurso |
+| :--- | :--- | :--- | :--- |
+| **CDDir** | Doris de Queiroz Carvalho | Direito e Legislação Brasileira | Granularidade exata para ramos do direito nacional |
+| **Cutter-Sanborn** | C. A. Cutter e Kate Sanborn | Nomes de autores em geral (anglo-saxão) | Padrão mundial mais cobrado em concursos |
+| **Tabela PHA** | Paula Hawkins de Azevedo | Autores luso-brasileiros | Desempate refinado de sobrenomes ibéricos (Silva, Santos) |
+| **Obra-Marca (Workmark)** | Teoria da Notação | Letra minúscula do título | Desempata obras do mesmo autor na mesma classe |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Artigo Inicial na Obra-Marca:** O Cebraspe afirma que a obra-marca do livro *"O Direito Administrativo"* do autor Celso Antônio Bandeira de Mello deve ser a letra \`o\`. **Gabarito: ERRADO.** Artigos iniciais são sumariamente ignorados na composição da obra-marca; a letra correta é \`d\` (de Direito).
+- **Autoria da CDDir:** Atribuir a criação da Classificação Decimal de Direito a Melvil Dewey ou Paul Otlet. **Gabarito: ERRADO.** Trata-se de obra genuinamente brasileira criada pela bibliotecária **Doris de Queiroz Carvalho**.
+- **Maiúscula vs. Minúscula na Notação de Autor:** A letra inicial do sobrenome é sempre **maiúscula** e a obra-marca do título é sempre **minúscula**. A inversão dessas caixas tipográficas constitui erro de notação.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CARVALHO, Doris de Queiroz.** *Classificação decimal de direito*. 4. ed. Brasília: Ministério da Justiça, 2002. (Tabela canônica adotada pelos tribunais superiores e pelo Congresso Nacional).
+- **SILVEIRA, Amélia.** *A notação de autor e a tabela Cutter-Sanborn*. Florianópolis: Ed. da UFSC, 2002.
+- **AZEVEDO, Paula Hawkins de.** *Tabela de notação de autor (PHA)*. Rio de Janeiro: s.n., 1965.
+- **CÂMARA DOS DEPUTADOS.** *Manual de Processamento Técnico da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2019.
+- **LEHNUS, Donald J.** *Book numbers: history, principles, and application to materials*. Chicago: ALA, 1980.`,
   checkpoints: [
     {
       id: 'cp-3-2-1',

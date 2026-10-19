@@ -23,8 +23,30 @@ export const submodulo24: ModuloFilho = {
       }
   ],
   titulo: 'Notação de Autor, Formato MARC 21 e Padrão Dublin Core',
+  antesDeLer: [
+    {
+      termo: 'Formato MARC 21',
+      definicao: 'Padrão de metadados legível por máquina composto por campos numéricos de 3 dígitos (tags), indicadores e subcampos ($a, $b, etc.).',
+      exemploBiblioteca: 'Preenchimento do campo 245 com título da proposição e 100/110 com a autoria parlamentar ou governamental.',
+    },
+    {
+      termo: 'Tabela Cutter-Sanborn',
+      definicao: 'Tabela alfanumérica utilizada para gerar notação de autor associada ao sobrenome ou entrada principal, ordenando itens nas estantes.',
+      exemploBiblioteca: 'Criação do número de chamada combinando classificação e Cutter para um livro sobre processo legislativo.',
+    },
+    {
+      termo: 'Dublin Core (DC)',
+      definicao: 'Padrão simplificado e aberto de metadados composto por 15 elementos básicos projetado para facilitar a recuperação de recursos digitais na web.',
+      exemploBiblioteca: 'Esquema padrão utilizado na indexação de discursos parlamentares no repositório digital DSpace da Câmara.',
+    },
+    {
+      termo: 'Tags Fundamentais do MARC',
+      definicao: 'Campos essenciais: 020 (ISBN), 100 (Autor Pessoal), 110 (Autor Coletivo), 245 (Título), 260/264 (Imprenta) e 650 (Assunto).',
+      exemploBiblioteca: 'Catalogação de pareceres parlamentares no sistema integrado da biblioteca utilizando a tag 650 para tesauro legislativo.',
+    },
+  ],
   descricaoCurta: 'Composição do Número de Chamada, tabelas Cutter-Sanborn e PHA; arquitetura do MARC 21 (ISO 2709, Líder, Diretório, campo 008, campo 264 no RDA e autoridades) e padrão Dublin Core (15 elementos simples e qualificados).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 22,
   autoresChave: ['Henriette Avram', 'Charles Ammi Cutter', 'Kate E. Sanborn', 'Heloísa de Almeida Prado', 'Stuart Weibel', 'Library of Congress'],
   alertasCebraspe: [
     'Número de Chamada (Call Number): É o código alfanumérico que determina de forma inequívoca a localização física do item no acervo. Sua estrutura canônica compõe-se de quatro elementos sobrepostos na lombada: (1) Notação de Classificação (CDD, CDU ou LC); (2) Notação de Autor (Tabela Cutter-Sanborn ou PHA); (3) Marca de Obra (letra minúscula do título) e/ou ano/edição; (4) Notação de Volume e Exemplar (ex.: v. 1, ex. 2).',
@@ -258,6 +280,67 @@ O Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípi
 * **Protocolos de Interoperabilidade (Z39.50 e OAI-PMH) (sub-6-2):** Transporte e colheita de registros bibliográficos em rede cooperativa.
 * **Fontes de Informação Jurídica e LexML (sub-4-3):** Estruturação de metadados legislativos e catalogação cooperativa na RVBI.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A codificação da informação catalográfica exige o domínio articulado entre a **Notação de Autor**, o formato canônico **MARC 21** e o padrão de metadados web **Dublin Core**:
+1. **Notação de Autor (Cutter-Sanborn e PHA):**
+   - **Finalidade:** Ordenar alfabeticamente os livros com a mesma classificação temática nas estantes e compor o número de chamada (*Call Number* = Notação de Classe + Notação de Autor + Edição/Ano).
+   - **Tabela Cutter-Sanborn:** Composta pela letra inicial do sobrenome do autor seguida de dois ou três algarismos e, quando necessário, letra minúscula de desambiguação de título (*obra-marca* ou *workmark*).
+   - **Tabela PHA (Paula Hawkins de Azevedo):** Adaptação brasileira consagrada para nomes luso-brasileiros.
+2. **Formato MARC 21 (Estrutura e Campos Bibliográficos Principais):**
+   - **Estrutura:** Líder (24 posições fixas) $\to$ Diretório $\to$ Campos de Controle (00X) $\to$ Campos Variáveis de Dados (01X a 9XX, com 2 indicadores e subcampos antecedidos por \`$\`).
+   - **Blocos Canônicos de Campos:**
+     - \`020\`: ISBN | \`041\`: Código de idioma | \`080\`: Número da CDU | \`082\`: Número da CDD.
+     - \`100\`: Entrada principal — Nome pessoal (autor).
+     - \`110\`: Entrada principal — Entidade coletiva (órgãos públicos, empresas).
+     - \`111\`: Entrada principal — Evento/Congresso/Conferência.
+     - \`245\`: Título principal e indicação de responsabilidade (\`$a\` título, \`$b\` subtítulo, \`$c\` responsabilidade).
+     - \`250\`: Edição (\`$a\` ex.: "3. ed.").
+     - \`260\` / \`264\`: Dados de publicação/distribuição/fabricação (\`$a\` local, \`$b\` publicador/editora, \`$c\` data).
+     - \`300\`: Descrição física (\`$a\` extensão/páginas, \`$b\` detalhes ilustrativos, \`$c\` dimensões em cm).
+     - \`500\`: Nota geral | \`505\`: Nota de conteúdo formatada.
+     - \`650\`: Assunto — Tópico geral (com indicadores para tesauro/vocabulário).
+     - \`700\`: Entrada secundária — Nome pessoal (coautores, organizadores, ilustradores).
+     - \`856\`: Localização eletrônica e acesso (URI / Link web).
+3. **Dublin Core Metadata Element Set (ISO 15836):**
+   - Padrão internacional de 15 elementos básicos: *Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage, Rights*.
+   - Simples (15 elementos sem qualificadores) vs. Qualificado (com termos de refinamento e esquemas de codificação).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Composição do Número de Chamada na Biblioteca Pedro Aleixo):** Um livro de Direito Constitucional escrito por Gilmar Ferreira Mendes recebe a classificação CDU \`342(81)\` e a notação Cutter-Sanborn \`M538d\` (onde \`M538\` representa o autor Mendes e \`d\` é a primeira letra significativa do título *Direito Constitucional* para desempatar de outras obras do mesmo autor). O número de chamada colado na lombada garante a ordenação exata nas estantes de livre acesso.
+- **Cenário 2 (Catalogação de Publicação Oficial no MARC 21):** Ao catalogar o relatório final da *Comissão Parlamentar Mista de Inquérito dos Atos de 8 de Janeiro*, o catalogador utiliza:
+  - \`110 1# $a Brasil. $b Congresso Nacional. $b Comissão Parlamentar Mista de Inquérito...\`
+  - \`245 10 $a Relatório final... $c Relatora: Senadora Eliziane Gama.\`
+  - \`264 #1 $a Brasília : $b Edições Câmara, $c 2023.\`
+- **Cenário 3 (Mapeamento MARC $\to$ Dublin Core na BDCam):** Quando o registro MARC 21 da biblioteca é exportado para o repositório digital DSpace (BDCam), o sistema executa um *crosswalk*: o campo MARC \`245$a\` mapeia para \`dc.title\`, o campo \`100$a\` mapeia para \`dc.creator\` e o campo \`650$a\` mapeia para \`dc.subject\`.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Campo MARC 21 | Descrição e Finalidade | Primeiro Indicador Crítico | Subcampos Chave |
+| :--- | :--- | :--- | :--- |
+| **100** | Autor Pessoal Principal | 0: Prenome / 1: Sobrenome / 3: Família | \`$a\` Nome, \`$d\` Datas (nasc.-morte) |
+| **110** | Autor Entidade Coletiva | 1: Jurisdição territorial / 2: Ordem direta | \`$a\` Jurisdição/Nome, \`$b\` Subordinado |
+| **245** | Título e Responsabilidade | 0: Não gera secundária / 1: Gera secundária | \`$a\` Título, \`$b\` Resto, \`$c\` Responsab. |
+| **264** | Publicação / Distribuição (RDA) | 2º indicador: 0=Produção, 1=Publicação | \`$a\` Local, \`$b\` Nome, \`$c\` Data |
+| **650** | Ponto de Acesso de Assunto | 2º ind.: 0=LCSH, 7=Vocab. Controlado em \`$2\` | \`$a\` Termo de assunto, \`$v\` Forma |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Primeiro Indicador do Campo 110:** A banca afirma que *"para catalogar a Petrobras como autor corporativo no campo 110, deve-se usar o primeiro indicador 1 (jurisdição)"*. **Gabarito: ERRADO.** Entidades de ordem direta levam o primeiro indicador 2 (\`110 2# $a Petróleo Brasileiro S.A.\`); o indicador 1 é reservado exclusivamente para órgãos sob jurisdição geográfica (\`110 1# $a Brasil. $b Ministério da Fazenda.\`).
+- **Segundo Indicador do Campo 245:** O segundo indicador do 245 representa o **número de caracteres a ignorar na ordenação** (artigos definidos e indefinidos). Para *"A Constituição do Brasil"*, o segundo indicador deve ser \`2\` (o "A" + o espaço contam 2 caracteres). Se for zero, a ordenação buscará na letra A.
+- **O Dublin Core Substitui o MARC 21 na Descrição Detalhada:** Dizer que o Dublin Core substitui o MARC 21 em catalogação detalhada de livros raros. **Gabarito: ERRADO.** O Dublin Core é um padrão simples de metadados para interoperabilidade geral, insuficiente para o nível de exaustividade e granularidade do MARC 21.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **LIBRARY OF CONGRESS.** *MARC 21 Format for Bibliographic Data*. Washington: Library of Congress, Network Development and MARC Standards Office, 2022. (Manual oficial canônico).
+- **DUBLIN CORE METADATA INITIATIVE (DCMI).** *DCMI Metadata Terms (ISO 15836-1:2017)*. DCMI, 2020.
+- **SILVEIRA, Amélia.** *A notação de autor e a tabela Cutter-Sanborn*. Florianópolis: Ed. da UFSC, 2002.
+- **MEY, Eliane Serrão Alves; SILVEIRA, Nair Kobashi.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009.
+- **FURRIE, Betty.** *O MARC bibliográfico: um guia introdutório*. Brasília: Thesaurus, 2000.`,
   checkpoints: [
     {
       id: 'cp-2-4-1',

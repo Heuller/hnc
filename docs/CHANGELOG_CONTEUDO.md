@@ -4,6 +4,71 @@ Este documento registra todas as alterações estruturais, correções normativa
 
 ---
 
+## [Missão v2 — Fase 4: W5] — Modelo Teórico Dual, Metadados e Vida Real na Câmara (19/10/2026)
+
+### W5.1 — Dispositivo de Alternância Teórica Dual (Diretriz do Aluno)
+- **Alternador Editorial na Leitura:** Adicionado seletor visual Segmented Control no cabeçalho da teoria (`TeoriaPage.tsx`) permitindo ao aluno alternar instantaneamente entre a **Teoria Canônica (Doutrina Densa)** e o **Modo Prático & Vida Real (Câmara dos Deputados)**.
+- **Persistência de Preferência:** Campo `preferenciaModoTeoria` modelado no `UserProgressSchema` e gerenciado pelas ações `setModoTeoria` e `obterModoTeoria` no `useProgressStore.ts`, persistindo por módulo e por submódulo.
+- **Suporte no Schema de Módulos:** Campo opcional `teoriaDidaticaMarkdown` adicionado ao `ModuloFilhoSchema`.
+
+### W5.2 — Preenchimento Universal de `antesDeLer` nos 75 Submódulos
+- **Saneamento Total:** 69 submódulos que possuíam `antesDeLer` vazio ou ausente foram integralmente preenchidos com **3 a 5 conceitos essenciais**.
+- **Contextualização Prática:** Cada termo possui `termo`, `definicao` formal no padrão Cebraspe e `exemploBiblioteca` com aplicação na rotina da Câmara dos Deputados (CEDI, Biblioteca Pedro Aleixo, RVBI e processo legislativo).
+- **Cobertura:** 75 de 75 submódulos (100%) agora renderizam o componente `CartaoAntesDeLer` com opções de memorização ativa ("Já sei" / "Reabrir").
+
+### W5.3 — Recalibração Científica do Tempo Estimado de Leitura
+- **Fórmula Dinâmica:** $\text{tempoEstimadoMinutos} = \max\left(5, \operatorname{round}\left(\frac{\text{palavras}}{180}\right) + \text{checkpoints} \times 2\right)$.
+- **Erradicação de Valores Arbitrários:** Valores fixos legados (45/50 min) substituídos por estimativas realistas que variam entre 7 e 27 minutos conforme a extensão do conteúdo.
+
+### W5.4 — Piloto da Teoria Didática em 5 Submódulos Estratégicos
+- **Submódulos Pilotos:** Implementada a `teoriaDidaticaMarkdown` em `sub-1-1`, `sub-1-2`, `sub-2-1`, `sub-7-1` e `sub-10-1`.
+- **Estrutura Cognitiva Quíntupla:** Visão Direta em 3 Minutos, Casos Reais na Câmara dos Deputados, Quadro de Contraste Anticonfusão, Como o Cebraspe Cobra na Prova e Micro-Pausa Ativa.
+
+---
+
+## [Missão v2 — Fase 3: W3 e W4] — Auditoria Editalícia, Higienização de OCR e Injeção Massiva de Questões Reais Cebraspe (19/10/2026)
+
+### W3.1 — Higienização de OCR e Erradicação de Anacronismos
+- **Erradicação dos 15 itens "Câmara 2026":** 14 itens em `m10-legislativo-100q.ts` corrigidos para sua fonte oficial histórica (*Câmara dos Deputados / 2014 Cespe*); item `m7-q-96` (Maslow) substituído por questão real Cebraspe sobre OAIS (ISO 14721) do concurso *IPHAN / 2018 (Cebraspe)* com gabarito ERRADO.
+- **Higienização de 94 Quebras de OCR:** reparo sistemático de palavras cindidas com hífen/espaço nos arquivos de questões (`classificações`, `ramos`, `consultas`, `científica`, `estabelecidos`, `especificidade`, `enumerativa`, `deliberações`, `considerados`, `disponíveis`, etc.).
+- **Enriquecimento de M13:** texto-base integral sobre Linguagem Simples inserido no campo `contexto` dos itens 1 a 10 de `m13-portugues-100q.ts`.
+- **Matriz Viva do Edital nº 1/2026:** 100% de cobertura nos 64 tópicos oficiais (`docs/matriz_edital_cargo5.md`).
+
+### W4.1 — Mineração e Injeção de 5.239 Questões Reais Cebraspe
+- **Corpus Extraído:** 5.239 itens reais catalogados com gabarito oficial em `archive/corpus_questoes_reais_cebraspe.json`.
+- **Descoberta Empírica sobre Quantificadores Absolutos:** no mundo real Cebraspe, 47.1% dos itens com termos absolutos (*apenas, sempre, exclusivamente, todos*) possuem gabarito CERTO, desmistificando atalhos ingênuos.
+- **Mega Simulado 120Q (`mega-simulado-camara-120q.ts`):** 100% reconstruído com questões reais Cebraspe (60 C / 60 E), 40 itens de Conhecimentos Básicos e 80 de Conhecimentos Específicos (8 itens em cada um dos 10 módulos).
+- **Simulado de Língua Inglesa (`m12-ingles-100q.ts`):** 100% reconstruído com questões reais Cebraspe (50 C / 50 E), incluindo itens oficiais da Câmara dos Deputados.
+- **Simulado de Preservação (`m7-preservacao-100q.ts`):** injeção de 60 novas questões reais Cebraspe, elevando a proporção de itens reais de 12% para 72%.
+- **Censo de Questões Reais:** total de itens reais vivos na plataforma elevado de 487 (31.4%) para 767 (49.5%).
+
+---
+
+## [Missão v2 — Fase 2: W2] — Remoção e Arquivamento do Glossário & Dicionário (19/10/2026)
+
+### W2.1 — Arquivamento Canônico de Dados Fora do Bundle
+- **Arquivos criados:**
+  - `archive/glossario-v1.json` (8.15 MB): preservação canônica dos 19 termos técnicos do acervo e dos 12.431 verbetes de Cunha & Cavalcanti com índice de ocorrências.
+  - `archive/baseTermos.ts` e `archive/termosEnriquecimentoFase5.ts`: preservação do acervo de 333 verbetes doutrinários e conceituais do Dicionário Cebraspe.
+  - `archive/scripts/`: movimentação dos scripts de extração e cruzamento (`compararAcervos.ts`, `extrairDicionarioCompleto.py`, `gerarIndiceOcorrenciasGlossario.ts`).
+- **Racional:** Atendimento estrito ao Pedido nº 2 do aluno Richard (*"Remover o glossário (não ficou bom)"*), aliviando a carga cognitiva e removendo dados volumosos fora do bundle final de produção da plataforma.
+
+### W2.2 — Desacoplamento Completo da UI e Redirecionamento de Rotas
+- **Rotas e Redirecionamentos:**
+  - Rota `/glossario` e `/dicionario` interceptadas e redirecionadas automaticamente para `/painel` (evitando erro 404 em bookmarks antigos).
+- **Remoção de Componentes e Dependências:**
+  - Excluídos: `src/pages/GlossarioPage.tsx`, `src/components/content-blocks/GlossarioDoModulo.tsx`, pastas `src/components/dicionario/`, `src/components/glossario/`, `src/domain/glossario/`, `src/domain/dicionario/`, `src/content/glossario/`, stores `useGlossarioStore.ts` e `useDicionarioStore.ts`.
+  - Limpos elementos de navegação: Sidebar, Header, UserMenuDropdown, MobileMoreMenu, TeoriaPage, CartaoAntesDeLer, ConteudoMarkdown e PainelPage (onde o atalho foi reconvertido para o "Radar Cebraspe").
+- **Tratamento de Menções Textuais:**
+  - Convertidas 9 menções textuais na teoria (`sub-1-6`, `sub-3-4`, `sub-6-1`, `sub-8-3`, `sub-8-5`, `sub-12-4`) para linguagem direta da norma bibliográfica (*"vocabulário de termos"*, *"lista de termos"*).
+- **Validação e Regressão:**
+  - Suíte `src/tests/w2RemocaoGlossario.test.tsx` criada e aprovada.
+  - Suíte `src/tests/rodada5bParte4.test.ts` atualizada para validar os termos no arquivo canônico preservado em `archive/`.
+  - 80 arquivos de teste aprovados (685 testes passando, 100% verde).
+  - Orçamento de bundle respeitado no build de produção.
+
+---
+
 ## [Fase 0] — Integridade e Contenção de Risco (13/10/2026)
 
 ### P0.1 — Procedência dos Alertas "Câmara 2026"

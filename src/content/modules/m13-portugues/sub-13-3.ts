@@ -13,9 +13,31 @@ export const submodulo133: ModuloFilho = {
       }
   ],
   titulo: 'Sintaxe Avançada, Pontuação, Concordância, Regência e Crase',
+  antesDeLer: [
+    {
+      termo: 'Crase e Regência',
+      definicao: 'Fusão da preposição \'a\' exigida pelo termo regente com o artigo feminino \'a\' ou pronomes demonstrativos.',
+      exemploBiblioteca: 'Uso correto: \'Acesso à informação\' (regência de acesso exige preposição \'a\' + artigo \'a\').',
+    },
+    {
+      termo: 'Concordância Verbal e Nominal',
+      definicao: 'Harmonização de número e pessoa entre o verbo e seu sujeito, e de gênero e número entre o substantivo e seus modificadores.',
+      exemploBiblioteca: 'Atenção ao sujeito paciente posposto com a partícula \'se\': \'Catalogaram-se novos livros\' e não \'Catalogou-se novos livros\'.',
+    },
+    {
+      termo: 'Pontuação Sintática',
+      definicao: 'Emprego de vírgulas, ponto e vírgula e travessões para demarcar limites sintáticos; proibição absoluta de separar sujeito e predicado por vírgula.',
+      exemploBiblioteca: 'Isolamento de orações subordinadas adjetivas explicativas e termos intercalados em atas de sessões.',
+    },
+    {
+      termo: 'Partícula \'SE\': Apassivador vs. Indeterminação',
+      definicao: 'Pronome apassivador acompanha verbo transitivo direto com sujeito paciente; índice de indeterminação acompanha VTI, VI ou VL com verbo na 3ª pessoa do singular.',
+      exemploBiblioteca: 'Diferenciar \'Precisou-se de mais bibliotecários\' (VTI: índice, singular) de \'Contrataram-se mais bibliotecários\' (VTD: apassivador, plural).',
+    },
+  ],
   descricaoCurta:
     'A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar), o algoritmo decisório da crase e a sintaxe e semântica da pontuação (vírgula proibida, obrigatória e facultativa, e orações adjetivas explicativas vs restritivas).',
-  tempoEstimadoMinutos: 55,
+  tempoEstimadoMinutos: 13,
   autoresChave: [
     'Celso Pedro Luft (Dicionário Prático de Regência Verbal e Nominal)',
     'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',
@@ -285,6 +307,62 @@ Este é o padrão de questão de pontuação com **maior frequência histórica 
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Ortografia, Gêneros Textuais e Colocação Pronominal (sub-13-4):** Sintaxe da pontuação e casos especiais de colocação pronominal.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Sintaxe Avançada, Pontuação, Concordância, Regência e Crase** representam a espinha dorsal normativa da Língua Portuguesa exigida pelo Cebraspe:
+1. **Regência e Crase Canônica:**
+   - **Regra Geral da Crase:** A crase é a fusão da preposição \`a\` exigida pelo termo regente com o artigo feminino \`a(s)\` exigido pelo termo regido, ou com pronomes demonstrativos (\`aquele, aquela, aquilo\`).
+   - **Casos Proibidos de Crase:**
+     - Antes de palavras masculinas (*a pé, a prazo, a cavalo*).
+     - Antes de verbos (*a partir de, a discutir*).
+     - Antes de pronomes de tratamento (salvo *senhora, senhorita e dona*!).
+     - Antes de pronomes indefinidos (*a todos, a qualquer*).
+     - Com \`a\` no singular diante de palavra no plural (*a deputadas* sem \`s\`).
+   - **Casos Facultativos de Crase (Mnemônico PAM):**
+     - Diante de pronome possessivo feminino singular (*a/à minha biblioteca*).
+     - Diante de nomes próprios femininos (*a/à Maria*).
+     - Depois da preposição *até* (*até a/à Câmara*).
+2. **Concordância Verbal Crítica:**
+   - Sujeito com expressão partitiva (*a maioria de, grande parte de* + plural): o verbo pode concordar no singular com o núcleo partitivo ou no plural com o adjunto (*A maioria dos deputados votou / votaram*).
+   - Sujeito com porcentagem: concorda com o numeral ou com o substantivo que o segue (*1% dos parlamentares faltou / faltaram*; mas *1% faltou*; *20% faltaram*).
+   - Verbo **Haver** no sentido de existir/ocorrer e indicando tempo decorrido: é **impessoal**, não tem sujeito e fica obrigatoriamente na **3ª pessoa do singular** (*Havia dez projetos*, e NUNCA *Haviam dez projetos*!). O verbo auxiliar que o acompanha também fica no singular (*Deve haver dez projetos*).
+   - Verbo **Fazer** indicando tempo decorrido ou temperatura: também é impessoal (*Faz dez anos*, e NUNCA *Fazem dez anos*!).
+3. **Pontuação e Vírgula:**
+   - **Proibições Absolutas:** NUNCA se separa o sujeito do verbo por vírgula; NUNCA se separa o verbo de seu objeto direto/indireto por vírgula.
+   - **Uso Obrigatório da Vírgula:** Para isolar adjunto adverbial deslocado (de grande extensão); para isolar orações subordinadas adverbiais antecipadas; para isolar aposto explicativo; para isolar vocativo.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Aplicação do Verbo Haver em Parecer Orçamentário):** O consultor redige: *"No exercício financeiro de 2023, **havia** três propostas concorrentes"*. O bibliotecário revisor valida o texto, alertando que o uso de *"haviam"* constituiria erro crasso de concordância em documento oficial da Câmara.
+- **Cenário 2 (Crase Proibida em Portaria Administrativa do CEDI):** O texto de uma portaria interna trazia a redação: *"O atendimento ao público será realizado **à partir** das 9h"*. O bibliotecário elimina o acento grave imediatamente: diante de verbo (*partir*), o uso de crase é terminantemente proibido pela norma culta.
+- **Cenário 3 (Vírgula em Adjunto Adverbial Deslocado em Lei Federal):** Na redação de um artigo de lei: *"Durante o estado de calamidade pública, as compras de medicamentos serão simplificadas"*. A vírgula é obrigatória para isolar o adjunto adverbial temporal de grande extensão antecipado na oração.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Fenômeno Gramatical | Regra Geral | Casos Proibidos / Erros Crassos | Casos Facultativos |
+| :--- | :--- | :--- | :--- |
+| **Crase** | Preposição \`a\` + Artigo \`a\` | Antes de verbo, masculino, pronome indefinido | Possessivo feminino (*minha*), nome mulher, *até* |
+| **Verbo Haver** | Sentido de existir = Impessoal | Jamais vai para o plural (*Haviam pessoas*) | Fica sempre na **3ª pessoa do singular** |
+| **Verbo Fazer** | Tempo decorrido = Impessoal | Jamais vai para o plural (*Fazem três dias*) | Fica sempre no singular (*Faz três dias*) |
+| **Vírgula Proibida** | Entre termos essenciais | Separar sujeito do predicado ou verbo do objeto | - |
+| **Expressão Partitiva** | A maioria de / parte de | - | Concordância facultativa (núcleo ou adjunto) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Crase antes de Pronome Relativo Quem ou Cujo:** A banca insere crase antes de *quem* ou *cujo*. **Gabarito: ERRADO.** Não há artigo feminino diante de *quem* e *cujo*, sendo a crase terminantemente proibida.
+- **Locução Verbal com o Verbo Haver:** O Cebraspe afirma que a frase *"Devem haver muitas dúvidas sobre o regimento"* está gramaticalmente correta. **Gabarito: ERRADO.** O verbo *haver* transmite sua impessoalidade para o verbo auxiliar; a concordância correta é: *"Deve haver muitas dúvidas"*.
+- **Crase Facultativa com Nomes de Cidades:** Dizer que a crase é sempre proibida com nomes de localidades. Se a cidade vier especificada por adjetivo ou locução, a crase ocorre (*Irei à bela Florianópolis* / *Volto de Florianópolis, venho de, crase pra quê?*).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. Rio de Janeiro: Nova Fronteira, 2019. (Capítulos de Sintaxe de Concordância, Regência e Crase).
+- **ROCHA LIMA, Carlos Henrique da.** *Gramática Normativa da Língua Portuguesa*. 53. ed. Rio de Janeiro: José Olympio, 2016.
+- **CUNHA, Celso; CINTRA, Luís F. Lindley.** *Nova Gramática do Português Contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2017.
+- **CEAG/CÂMARA DOS DEPUTADOS.** *Manual de Redação Oficial e Gramática da Câmara dos Deputados*. Brasília: Edições Câmara, 2021.
+- **CEBRASPE.** *Padrões de Correção Gramatical em Concursos Públicos Federais*. Brasília: Cebraspe, 2023.`,
   checkpoints: [
     {
       id: 'chk-13-3-1',

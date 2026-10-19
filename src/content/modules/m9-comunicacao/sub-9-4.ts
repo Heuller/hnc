@@ -18,8 +18,30 @@ export const submodulo94: ModuloFilho = {
       }
   ],
   titulo: 'Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria',
+  antesDeLer: [
+    {
+      termo: 'Lei de Bradford (Dispersão)',
+      definicao: 'Lei bibliométrica que estabelece que um núcleo reduzido de periódicos concentra a maior parte dos artigos relevantes sobre determinado tema.',
+      exemploBiblioteca: 'Otimização das assinaturas da biblioteca selecionando os periódicos de direito público que compõem o núcleo de Bradford.',
+    },
+    {
+      termo: 'Lei de Lotka (Produtividade dos Autores)',
+      definicao: 'Lei empírica que postula que um pequeno número de autores muito prolíficos produz a maioria das publicações em determinado campo.',
+      exemploBiblioteca: 'Identificação dos autores parlamentares e juristas mais citados na tramitação de matérias econômicas.',
+    },
+    {
+      termo: 'Lei de Zipf (Frequência de Palavras)',
+      definicao: 'Princípio do menor esforço que demonstra que poucas palavras têm frequência altíssima no texto, enquanto a maioria ocorre raramente.',
+      exemploBiblioteca: 'Ajuste de stop words em mecanismos de busca de discursos parlamentares para ignorar termos de frequência extrema sem valor semântico.',
+    },
+    {
+      termo: 'Altmetria (Métricas Alternativas)',
+      definicao: 'Medição do impacto de publicações acadêmicas em redes sociais, notícias, blogs, políticas públicas e gerenciadores de referências.',
+      exemploBiblioteca: 'Monitoramento de menções e downloads de relatórios da consultoria da Câmara no Twitter, portais de notícias e Wikipédia.',
+    },
+  ],
   descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore, Índice h), acoplamento bibliográfico, cocitação, redes de coautoria, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 25,
   autoresChave: [
     'Samuel C. Bradford',
     'Alfred J. Lotka',
@@ -283,6 +305,62 @@ Conectando-se ao compromisso de universalização do conhecimento:
 * **Avaliação de Coleções e Métricas (sub-5-3):** Leis de Bradford, Lotka e Zipf aplicadas à gestão de periódicos.
 * **Ciência de Dados e Text Mining (sub-14-4):** Lei de Zipf e análise de frequência de vocábulos.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Estudos Métricos da Informação (Bibliometria, Cientometria, Infometria e Altmetria)** medem quantitativamente a produção, circulação e o impacto social da ciência:
+1. **As Três Leis Clássicas da Bibliometria:**
+   - **Lei da Dispersão de Bradford (1934 - Periódicos):**
+     - Descreve a dispersão de artigos sobre determinado tema em periódicos.
+     - Divide os periódicos em três zonas de produtividade concêntricas contendo o mesmo número de artigos: $1 : n : n^2$.
+     - *Zona 1 (Núcleo / Core):* Pequeno número de periódicos altamente especializados que concentram a maior parte dos artigos seminais.
+     - *Zonas 2 e 3:* Número crescente e exponencial de periódicos generalistas com artigos dispersos.
+   - **Lei do Quadrado Inverso de Lotka (1926 - Autores/Produtividade):**
+     - Modela a produtividade dos autores em um campo: $A_n = \frac{A_1}{n^2}$.
+     - Um número muito pequeno de autores de elite produz a maior parte das publicações (grandes produtores), enquanto a imensa maioria dos autores produz apenas um ou dois artigos ao longo da vida.
+   - **Lei do Menor Esforço de Zipf (1949 - Palavras/Linguística):**
+     - Modela a frequência de palavras em um texto: $r \times f = C$ (o produto da ordem de classificação $r$ pela frequência $f$ é constante).
+     - Pouquíssimas palavras são extremamente frequentes (*stopwords*), e um volume enorme de palavras raras ocorre uma única vez (*hapax legomena*).
+2. **Análise de Citação e Indicadores Tradicionais:**
+   - **Fator de Impacto (JCR / Clarivate):** Razão entre as citações recebidas no ano corrente por artigos publicados nos dois anos anteriores e o total de artigos publicáveis nesses dois anos: $\text{FI} = \frac{\text{Citações nos anos } t-1 \text{ e } t-2}{\text{Artigos publicados em } t-1 \text{ e } t-2}$.
+   - **Índice H (Jorge Hirsch, 2005):** Um autor possui índice $h$ se tiver $h$ artigos publicados com pelo menos $h$ citações cada um. Combina produtividade quantitativa com relevância citacional.
+   - **Meia-Vida (*Half-Life*):** Tempo necessário para que metade das citações de uma literatura ocorra, medindo a obsolescência da área.
+3. **Altmetria (*Altmetrics* / Métricas Alternativas):**
+   - Medição do impacto e da atenção online imediata que uma produção científica recebe na web social e pública (menções no Twitter/X, citações na Wikipédia, salvamentos no Mendeley, referências em políticas públicas governamentais e matérias de jornal). Não substitui a citação por pares, mas complementa com a repercussão social em tempo real.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Aplicação da Lei de Bradford na Política de Aquisições da Biblioteca):** O setor de desenvolvimento de coleções analisa o orçamento para assinatura de periódicos de Direito Tributário. O bibliotecário aplica a **Lei de Bradford**: identifica os 5 periódicos do Núcleo (Zona 1) que concentram 60% das citações dos deputados e renova suas assinaturas, cancelando periódicos da Zona 3 periférica para economizar recursos públicos.
+- **Cenário 2 (Altmetria para Medir o Impacto de Estudos da Consultoria da Câmara):** Um consultor publica uma nota técnica sobre desregulamentação do mercado de carbono. A biblioteca monitora a repercussão usando indicadores altmétricos (Altmetric Badge): o estudo foi citado em 40 projetos de lei de deputados, compartilhado 5.000 vezes em redes sociais e usado como referência em matérias de jornal. Esse dado comprova o **impacto social direto** da produção legislativa perante a sociedade.
+- **Cenário 3 (Índice H na Seleção de Peritos para Audiências Públicas):** Uma comissão permanente precisa convidar cientistas de renome para depor sobre transição energética. O bibliotecário levanta o **Índice H** dos pesquisadores nas bases Web of Science e Scopus, selecionando os acadêmicos com produção consolidada e alto impacto citacional internacional.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Lei / Indicador | Criador / Origem | O que Mede Exatamente | Fórmula / Princípio |
+| :--- | :--- | :--- | :--- |
+| **Lei de Bradford** | Samuel C. Bradford (1934) | Produtividade de **periódicos** (dispersão) | Zonas concêntricas $1 : n : n^2$ |
+| **Lei de Lotka** | Alfred J. Lotka (1926) | Produtividade de **autores** | Quadrado inverso: $A_n = \frac{A_1}{n^2}$ |
+| **Lei de Zipf** | George K. Zipf (1949) | Frequência de **palavras** no texto | $r \times f = C$ |
+| **Fator de Impacto** | Eugene Garfield (1955) | Prestígio de um **periódico** específico | Citações em 2 anos / Artigos publicados |
+| **Índice H** | Jorge Hirsch (2005) | Impacto citacional de um **pesquisador** | $h$ artigos com $\ge h$ citações |
+| **Altmetria** | Jason Priem et al. (2010) | Impacto social da ciência na web | Menções em redes, blogs, Wikipédia e políticas |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Troca das Três Leis Bibliométricas:** O Cebraspe inverte sistematicamente: diz que Bradford mede palavras, que Zipf mede autores e que Lotka mede periódicos. **Gabarito: ERRADO.** Grave: **B**radford = **P**eriódicos; **L**otka = **A**utores; **Z**ipf = **P**alavras.
+- **Índice H com Citação de um Único Artigo:** Afirmar que um autor que possui um único artigo com 10.000 citações terá índice H igual a 10.000. **Gabarito: ERRADO.** Seu índice H será exatamente **1**, pois ele só possui 1 artigo com pelo menos 1 citação! O índice H exige quantidade e impacto simultaneamente.
+- **Altmetria Substitui a Revisão por Pares:** A banca propõe que a altmetria substitui a avaliação por pares e a contagem de citações tradicionais. **Gabarito: ERRADO.** A altmetria mede a atenção e repercussão social imediata; ela é **complementar** e não substitui a validação acadêmica formal.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **VANTI, Nadia Pompeu.** Da bibliometria à webometria: uma exploração conceitual dos mecanismos de mensuração da informação e do ponto de vista da informação e de sua alocação espacial e digital. *Ciência da Informação*, v. 31, n. 2, p. 152-162, 2002. (O melhor artigo introdutório cobrado pelo Cebraspe).
+- **BRADFORD, Samuel C.** Sources of information on specific subjects. *Engineering*, v. 137, p. 85-86, 1934.
+- **LOTKA, Alfred J.** The frequency distribution of scientific productivity. *Journal of the Washington Academy of Sciences*, v. 16, n. 12, p. 317-323, 1926.
+- **ZIPF, George K.** *Human Behavior and the Principle of Least Effort*. Cambridge: Addison-Wesley, 1949.
+- **PRIEM, Jason et al.** *Altmetrics: a manifesto*. Altmetrics.org, 2010.
+- **HIRSCH, Jorge E.** An index to quantify an individual's scientific research output. *Proceedings of the National Academy of Sciences (PNAS)*, v. 102, n. 46, p. 16569-16572, 2005.`,
   checkpoints: [
     {
       id: 'cp-9-4-1',

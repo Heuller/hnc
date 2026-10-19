@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { BookOpen, Book, ChevronRight, ChevronDown, CheckCircle2, Circle } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { BookOpen, ChevronRight, ChevronDown, CheckCircle2, Circle } from 'lucide-react';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { ALL_COURSE_MODULES } from '../../content/registry';
@@ -75,20 +75,6 @@ export const Sidebar: React.FC = () => {
           aria-label="Expandir barra lateral"
         >
           <BookOpen className="w-5 h-5 text-accent" />
-        </button>
-
-        <button
-          type="button"
-          onClick={() => setActiveView('glossario')}
-          className={`w-12 h-12 rounded-xl flex flex-col items-center justify-center transition-all cursor-pointer relative group ${
-            activeView === 'glossario'
-              ? 'bg-accent/15 border-2 border-accent text-accent'
-              : 'bg-surface-2/60 border border-border hover:border-accent text-ink'
-          }`}
-          title="Glossário e Dicionário (12.450 verbetes)"
-          aria-label="Abrir Glossário do Concurso"
-        >
-          <Book className="w-5 h-5 text-accent" />
         </button>
 
         <div className="w-8 h-px bg-border my-1" />
@@ -318,26 +304,6 @@ export const Sidebar: React.FC = () => {
             M1–M10 · M11–M14
           </span>
         </div>
-
-        {/* Acesso rápido ao Glossário */}
-        <button
-          type="button"
-          onClick={() => setActiveView('glossario')}
-          className={`w-full p-2.5 rounded-xl border flex items-center justify-between transition-all cursor-pointer select-none ${
-            activeView === 'glossario'
-              ? 'bg-accent/15 border-accent text-accent font-bold shadow-2xs'
-              : 'bg-surface hover:bg-surface-2 border-border text-ink'
-          }`}
-          aria-label="Abrir Glossário e Dicionário de Biblioteconomia"
-        >
-          <div className="flex items-center gap-2">
-            <Book className="w-4 h-4 text-accent" />
-            <span className="text-xs font-serif font-bold">Glossário do Concurso</span>
-          </div>
-          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-surface-2 border border-border text-ink-2">
-            12k+
-          </span>
-        </button>
 
         {/* Grupo 1: Em Estudo */}
         <div className="space-y-2.5">

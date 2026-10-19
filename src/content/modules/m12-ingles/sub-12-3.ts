@@ -6,8 +6,30 @@ export const submodulo123: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)',
   preRequisitos: ["sub-12-2"],
   titulo: 'Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)',
+  antesDeLer: [
+    {
+      termo: 'Anáfora e Catáfora em Inglês',
+      definicao: 'Anáfora retoma elemento textual anterior; catáfora antecipa elemento que será introduzido adiante no discurso.',
+      exemploBiblioteca: 'Questão clássica Cebraspe: identificar a que substantivo o pronome \'its\' ou \'they\' se refere no parágrafo 2.',
+    },
+    {
+      termo: 'Pronomes Relativos (Relative Pronouns)',
+      definicao: 'Who (pessoas), Which (coisas/animais), That (pessoas/coisas em restritivas) e Whose (posse).',
+      exemploBiblioteca: 'Analisar se a omissão do pronome relativo em orações adjetivas restritivas prejudica a correção gramatical da frase.',
+    },
+    {
+      termo: 'Elipse e Substituição',
+      definicao: 'Mecanismos de coesão que evitam repetições desnecessárias omitindo termos facilmente recuperáveis pelo contexto (\'one\', \'do so\').',
+      exemploBiblioteca: 'Compreender que \'the modern ones\' retoma \'the ancient libraries\' citado na linha anterior.',
+    },
+    {
+      termo: 'Cadeia Coesiva Lexical',
+      definicao: 'Uso de sinônimos, hiperônimos e termos derivados para manter o fluxo temático sem repetição vocabular excessiva.',
+      exemploBiblioteca: 'O autor alternando \'records\', \'documents\', \'archives\' e \'materials\' para se referir ao mesmo acervo histórico.',
+    },
+  ],
   descricaoCurta: 'Cadeias de referenciação anafórica e catafórica, o uso exato dos pronomes relativos (who, whom, which, that, whose), a distinção clássica entre "the former" e "the latter", e os itens de remissão pronominal mais cobrados pelo Cebraspe.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 8,
   autoresChave: ['M.A.K. Halliday (Cohesion in English)', 'Ruqaiya Hasan', 'Gillian Brown (Discourse Analysis)', 'George Yule'],
   alertasCebraspe: [
     'O pronome "which" retomando uma oração inteira: Em estruturas do tipo "... the parliament approved the reform, WHICH surprised the opposition", o Cebraspe afirma que "which" refere-se a "the opposition" ou a "the reform". ITEM ERRADO! O pronome "which" após vírgula refere-se a TODO O FATO expresso na oração anterior (o fato de o parlamento ter aprovado a reforma).',
@@ -68,6 +90,55 @@ Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análi
 > *"The Senate and the Chamber of Deputies reviewed the amendment. **The former** approved the text immediately, whereas **the latter** requested further hearings."*
 > * *The former* = O Senado (primeiro citado).
 > * *The latter* = A Câmara dos Deputados (segunda citada).`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Mecanismos de Coesão Textual e Referenciação Pronominal** sustentam o encadeamento gramatical das ideias em textos formais em inglês:
+1. **Tipos de Referenciação:**
+   - **Anáfora (Referência Anafórica):** O termo refere-se a um elemento já citado anteriormente no texto (é a forma de referenciação mais frequente e mais cobrada pelo Cebraspe).
+   - **Catáfora (Referência Catafórica):** O termo antecipa um elemento que ainda será explicitado adiante na oração.
+   - **Exófora (Referência Exofórica):** O termo aponta para fora do texto, para a situação comunicativa ou contexto extralinguístico.
+2. **Pronomes Relativos Canônicos (*Relative Pronouns*):**
+   - **Who:** Refere-se exclusivamente a **pessoas** (sujeito da oração adjetiva).
+   - **Whom:** Refere-se a pessoas na função de **objeto** (frequentemente precedido de preposição: *to whom, with whom*).
+   - **Which:** Refere-se a **coisas, animais, objetos ou à oração anterior inteira**.
+   - **That:** Pode referir-se a pessoas ou coisas; usado **exclusivamente em orações adjetivas restritivas** (sem vírgulas!). Nunca pode ser precedido de vírgula ou preposição!
+   - **Whose:** Indica **posse** (cujo, cuja, cujos, cujas); liga dois substantivos sem artigo (*the author whose book...*).
+3. **Pronomes Demonstrativos e Coesão Gramatical:**
+   - *This / These:* Proximidade temporal ou espacial; refere-se ao que acabou de ser dito.
+   - *That / Those:* Distância; contraste com elementos anteriores.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Identificação de Referência Anafórica em Tratado Internacional):** No texto do Acordo de Paris, lê-se: *"The participating countries submitted their emission targets. **They** pledged to reduce carbon output by 2030"*. O bibliotecário identifica para o consultor legislativo que o pronome anafórico *They* retoma exclusivamente o sintagma *The participating countries*.
+- **Cenário 2 (Uso Correto de Whose em Resenha Bibliográfica em Inglês):** Ao resenhar um livro de direito constitucional para a Revista da Câmara, o bibliotecário escreve: *"The jurist **whose** theories revolutionized parliamentarism..."*. O pronome *whose* indica posse semântica (as teorias do jurista).
+- **Cenário 3 (A Regra do That sem Vírgula em Relatórios Oficiais):** Ao revisar a versão em inglês de um relatório da CPI, o tradutor remove a vírgula antes de *that*: *"The evidence **that** was presented to the committee"* (oração restritiva essencial para a identificação da prova).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Pronome Relativo | Refere-se a Quem | Uso com Vírgula? | Precedido de Preposição? |
+| :--- | :--- | :--- | :--- |
+| **Who** | Pessoas (sujeito) | Sim (explicativa) ou Não (restritiva) | Raro no inglês formal |
+| **Whom** | Pessoas (objeto) | Sim ou Não | **SIM** (*To whom, from whom*) |
+| **Which** | Coisas / Animais / Oração | Sim ou Não | **SIM** (*In which, for which*) |
+| **That** | Pessoas ou Coisas | **NUNCA!** (Apenas restritivas) | **NUNCA!** |
+| **Whose** | Posse (de quem / cujo) | Sim ou Não | Sim (*In whose hands*) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O Pronome "Which" Retomando a Frase Inteira:** O Cebraspe adora colocar o pronome *which* precedido de vírgula e perguntar se ele retoma apenas o último substantivo. **Gabarito: ERRADO.** Quando precedido de vírgula após uma oração, *which* frequentemente retoma **toda a ideia da oração anterior**, e não apenas a última palavra!
+- **That após Vírgula ou Preposição:** A banca propõe substituir *which* por *that* em frases com preposição (*The room in which...* $\to$ *in that*). **Gabarito: ERRADO.** O pronome *that* não admite preposição antes de si nem pode ser usado após vírgula em orações explicativas.
+- **Ambiguidade Anafórica:** A banca sugere que o pronome *it* retoma um termo no plural. **Gabarito: ERRADO.** *It* é pronome singular neutro; para entidades no plural usa-se *they/them*.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **HALLIDAY, M. A. K.; HASAN, Ruqaiya.** *Cohesion in English*. London: Longman, 1976. (A teoria canônica de anáfora, catáfora e coesão gramatical).
+- **BIEBER, Douglas et al.** *Longman Grammar of Spoken and Written English*. London: Longman, 1999.
+- **QUIRK, Randolph et al.** *A Comprehensive Grammar of the English Language*. London: Longman, 1985. (A maior enciclopédia gramatical da língua inglesa).
+- **SWALES, John M.** *Genre Analysis: English in academic and research settings*. Cambridge: Cambridge University Press, 1990.
+- **CEBRASPE.** *Análise de Itens de Referenciação Textual em Língua Estrangeira*. Brasília: Cebraspe, 2023.`,
   checkpoints: [
     {
       id: 'chk-12-3-1',

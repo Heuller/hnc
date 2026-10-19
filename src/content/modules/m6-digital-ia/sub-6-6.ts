@@ -47,7 +47,7 @@ export const submodulo66: ModuloFilho = {
   ],
   descricaoCurta:
     'Pensamento computacional e estruturas de controle; ordem lógica de execução em SQL (WHERE vs. HAVING, JOINs e agregações); expressões regulares (metacaracteres e padrões bibliográficos); arquitetura REST, JSON e API de Dados Abertos da Câmara; web scraping, robots.txt e limites ético-jurídicos da LGPD.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 22,
   autoresChave: [
     'Jeanette Wing (Pensamento Computacional)',
     'Roy Fielding (Arquitetura REST, 2000)',
@@ -431,6 +431,74 @@ O **Web Scraping** consiste no uso de scripts automatizados (robôs ou rastreado
 * **Ciência de Dados e Text Mining (sub-14-4):** Consultas SQL e expressões regulares para mineração de textos.
 * **Protocolos e APIs (sub-6-2):** APIs REST e consumo de dados abertos da Câmara.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões regulares (Regex), APIs e Web Scraping — habilitam a automação bibliotecária em larga escala:
+1. **Linguagem SQL (Structured Query Language):**
+   - **DQL (Consulta):** \`SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY\`.
+   - **DML (Manipulação):** \`INSERT INTO\`, \`UPDATE ... SET\`, \`DELETE FROM\`.
+   - **DDL (Definição):** \`CREATE TABLE\`, \`ALTER TABLE\`, \`DROP TABLE\`.
+   - **DCL (Controle):** \`GRANT\`, \`REVOKE\`.
+   - **Junções Canônicas (*JOINs*):**
+     - \`INNER JOIN\`: Retorna apenas os registros com correspondência em ambas as tabelas.
+     - \`LEFT JOIN\`: Retorna todos os registros da tabela da esquerda e os correspondentes da direita (com NULL se não houver).
+2. **Expressões Regulares (*Regex*):**
+   - Padrões formais para busca, validação e manipulação de cadeias de caracteres textuais:
+     - \`^\`: Início da linha | \`$\`: Fim da linha.
+     - \`.\`: Qualquer caractere (exceto nova linha).
+     - \`*\`: Zero ou mais ocorrências | \`+\`: Uma ou mais ocorrências | \`?\`: Zero ou uma ocorrência.
+     - \`\d\`: Qualquer dígito numérico \`[0-9]\` | \`\w\`: Qualquer caractere alfanumérico.
+     - \`[A-Z]\`: Qualquer letra maiúscula | \`( )\`: Grupo de captura.
+3. **APIs e Arquitetura REST:**
+   - **API (*Application Programming Interface*):** Conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado em requisições e respostas.
+   - **REST (*Representational State Transfer*):** Padrão arquitetural web que opera sobre HTTP sem estado (*stateless*), usando métodos padronizados:
+     - \`GET\`: Recuperar dados (idempotente e seguro).
+     - \`POST\`: Criar um novo recurso.
+     - \`PUT\`: Atualizar integralmente um recurso existente.
+     - \`DELETE\`: Excluir um recurso.
+4. **Web Scraping (Raspagem de Dados):**
+   - Extração automatizada de dados de páginas HTML da web quando não há API estruturada disponível. Requer atenção à ética, termos de serviço e à Lei Geral de Proteção de Dados (LGPD).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Consulta SQL para Relatório da Mesa Diretora):** O Diretor-Geral da Câmara solicita a lista de todos os livros de Direito Constitucional adquiridos em 2023 com custo unitário superior a R$ 200,00. O bibliotecário executa a consulta:
+  \`\`\`sql
+  SELECT titulo, autor, valor_aquisicao 
+  FROM acervo 
+  WHERE classe_cdu LIKE '342%' AND ano_aquisicao = 2023 AND valor_aquisicao > 200.00 
+  ORDER BY valor_aquisicao DESC;
+  \`\`\`
+  O relatório é exportado em CSV e entregue em segundos.
+- **Cenário 2 (Expressão Regular para Limpeza de ISBN e CPF no Catálogo):** Ao higienizar uma base de dados legada com 50.000 registros, o bibliotecário utiliza uma regex no editor de texto para validar e padronizar ISBNs de 13 dígitos: \`^97[89]-\d{1,5}-\d{1,7}-\d{1,7}-\d$\`.
+- **Cenário 3 (Consumo de Dados Abertos via API REST da Câmara):** O bibliotecário programa um script em Python que consome o endpoint REST oficial da Câmara (\`GET https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2024\`) para baixar automaticamente todas as ementas em JSON e integrá-las aos novos sumários temáticos da Biblioteca Pedro Aleixo.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Comando / Método | Categoria / Função | Comportamento no Sistema | Efeito no Dado |
+| :--- | :--- | :--- | :--- |
+| **SELECT** | SQL DQL | Lê e projeta colunas da tabela | Não altera nada no banco |
+| **DELETE** | SQL DML | Remove linhas específicas com \`WHERE\` | Exclui tuplas do banco |
+| **DROP** | SQL DDL | Destrói a estrutura da tabela inteira | Elimina a tabela do banco |
+| **GET (HTTP)** | Método REST | Leitura segura de recursos | Não altera o estado no servidor |
+| **POST (HTTP)** | Método REST | Envio de novos dados | Cria um novo registro |
+| **Regex \`+\` vs \`*\`** | Metacaracteres | \`+\` exige $\ge 1$ | \`*\` aceita $\ge 0$ (inclusive vazio) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O WHERE sem DELETE no SQL:** O Cebraspe adverte sobre o perigo do \`DELETE FROM acervo;\` sem a cláusula \`WHERE\`. **Gabarito: CERTO.** Executar \`DELETE\` sem \`WHERE\` apaga todas as linhas de toda a tabela.
+- **Idempotência do Método POST:** Afirmar que o método HTTP POST é idempotente (isto é, que executá-lo 10 vezes produz sempre o mesmo resultado sem criar novos registros). **Gabarito: ERRADO.** O método \`GET\` e \`PUT\` são idempotentes; o \`POST\` não é idempotente (executar 10 vezes cria 10 novos recursos duplicados).
+- **Regex \`^\` dentro de colchetes:** O símbolo \`^\` no início da regex significa início de linha, mas **dentro de colchetes** \`[^0-9]\` significa negação lógica (qualquer caractere que NÃO seja dígito).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CORMEN, Thomas H. et al.** *Algoritmos: teoria e prática*. 3. ed. Rio de Janeiro: Elsevier, 2012. (A bíblia mundial de estruturas de dados e algoritmos).
+- **FRIEDL, Jeffrey E. F.** *Mastering Regular Expressions*. 3. ed. Sebastopol: O'Reilly Media, 2006. (A obra de referência absoluta em expressões regulares).
+- **FIELDING, Roy Thomas.** *Architectural Styles and the Design of Network-based Software Architectures*. 2000. Tese (Doutorado em Ciência da Computação) – University of California, Irvine, 2000. (A tese seminal que definiu o padrão REST).
+- **DATE, C. J.** *Introdução a sistemas de bancos de dados*. 8. ed. Rio de Janeiro: Campus, 2004.
+- **BRASIL. CÂMARA DOS DEPUTADOS.** *Portal de Dados Abertos da Câmara dos Deputados: Documentação das APIs REST v2*. Brasília: Diretoria de Inovação e TI (DITEC), 2023.`,
   checkpoints: [
     {
       id: 'cp-6-6-1',

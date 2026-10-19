@@ -5,7 +5,6 @@ import { marked } from 'marked';
 import katex from 'katex';
 import { ALL_COURSE_MODULES } from '../src/content/registry';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../src/domain/discursiva/temasOficiais';
-import { BASE_TERMOS_DICIONARIO } from '../src/domain/dicionario/baseTermos';
 import { MATRIZ_BLOCOS_EDITAL_VESPERA } from '../src/domain/folhaVespera/pegadinhasBlocos';
 import { CASOS_INTEGRADORES } from '../src/domain/casosIntegradores/casosIntegradores';
 import type { ModuloFilho, MacroModulo } from '../src/domain/types';
@@ -131,9 +130,8 @@ async function main() {
 
   mdContent += `\n### PARTE III: APÊNDICES TEÓRICOS COMPLEMENTARES
 - [**Apêndice A:** Temas Discursivos Oficiais com Enunciados e Espelhos Cebraspe (${TEMAS_OFICIAIS_DISCURSIVA.length} Temas Oficiais)](#apendice-a-temas-discursivos-oficiais-e-espelhos-cebraspe)
-- [**Apêndice B:** Dicionário e Glossário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes Canônicos)](#apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe)
-- [**Apêndice C:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)](#apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026)
-- [**Apêndice D:** Casos Integradores Intermódulos Cebraspe (${CASOS_INTEGRADORES.length} Casos Transversais · 25 Itens Inéditos C/E Fundamentados)](#apendice-d-casos-integradores-intermodulos)
+- [**Apêndice B:** Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 - 60 Pegadinhas Capitais)](#apendice-b-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026)
+- [**Apêndice C:** Casos Integradores Intermódulos Cebraspe (${CASOS_INTEGRADORES.length} Casos Transversais · 25 Itens Inéditos C/E Fundamentados)](#apendice-c-casos-integradores-intermodulos)
 
 ---\n\n`;
 
@@ -672,57 +670,10 @@ async function main() {
 
   htmlBody += `<div class="page-break"></div>`;
 
-  // APÊNDICE B: DICIONÁRIO E GLOSSÁRIO
+  // APÊNDICE B: FOLHA DE VÉSPERA
   mdContent += `\n# =====================================================================\n`;
-  mdContent += `<a id="apendice-b-dicionario-e-glossario-tecnico-canonico-cebraspe"></a>\n`;
-  mdContent += `# APÊNDICE B: DICIONÁRIO E GLOSSÁRIO TÉCNICO CANÔNICO CEBRASPE\n\n`;
-
-  htmlBody += `
-  <div class="divisor-parte" id="apendice-b">
-    <div class="divisor-sub">APÊNDICE VOCABULAR</div>
-    <h1 class="divisor-titulo">APÊNDICE B: DICIONÁRIO TÉCNICO CANÔNICO CEBRASPE</h1>
-    <p class="divisor-desc">Vocabulário controlado e verbetes doutrinários essenciais, com conceitos canônicos, armadilhas frequentes da banca e aplicação na rotina da Câmara dos Deputados.</p>
-  </div>
-  <div class="page-break"></div>
-  `;
-
-  // Ordena verbetes por ordem alfabética
-  const termosOrdenados = [...BASE_TERMOS_DICIONARIO].sort((a, b) =>
-    a.termo.localeCompare(b.termo, 'pt-BR')
-  );
-
-  htmlBody += `<div class="glossario-container">`;
-
-  termosOrdenados.forEach((t) => {
-    mdContent += `### ${t.termo} [Área: ${t.area} | Módulo: ${t.moduloRelacionado}]\n`;
-    mdContent += `**Conceito Canônico:** ${t.conceitoCanonico}\n\n`;
-    mdContent += `**Armadilha Cebraspe:** ${t.armadilhaCebraspe}\n\n`;
-    mdContent += `**Aplicação na Câmara:** ${t.aplicacaoCamara}\n\n`;
-    mdContent += `**Fonte:** ${t.fonteReferencia}\n\n`;
-    mdContent += `---\n\n`;
-
-    htmlBody += `
-    <div class="verbete-card">
-      <div class="verbete-header">
-        <h3 class="verbete-titulo">${escapeHtml(t.termo)}</h3>
-        <span class="verbete-meta">${escapeHtml(t.area)} · Ref: ${escapeHtml(t.moduloRelacionado)}</span>
-      </div>
-      <div class="verbete-corpo">
-        <p><strong>Conceito Canônico:</strong> ${escapeHtml(t.conceitoCanonico)}</p>
-        <p class="verbete-alerta"><strong>⚠️ Pegadinha Cebraspe:</strong> ${escapeHtml(t.armadilhaCebraspe)}</p>
-        <p><strong>Aplicação na Câmara dos Deputados:</strong> ${escapeHtml(t.aplicacaoCamara)}</p>
-        <p class="verbete-fonte"><strong>Fonte Bibliográfica:</strong> ${escapeHtml(t.fonteReferencia)}</p>
-      </div>
-    </div>
-    `;
-  });
-
-  htmlBody += `</div><div class="page-break"></div>`;
-
-  // APÊNDICE C: FOLHA DE VÉSPERA
-  mdContent += `\n# =====================================================================\n`;
-  mdContent += `<a id="apendice-c-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026"></a>\n`;
-  mdContent += `# APÊNDICE C: FOLHA DE VÉSPERA CONSOLIDADA — MATRIZ DOS 5 BLOCOS DO EDITAL 2026\n\n`;
+  mdContent += `<a id="apendice-b-folha-de-vespera-consolidada--matriz-dos-5-blocos-do-edital-2026"></a>\n`;
+  mdContent += `# APÊNDICE B: FOLHA DE VÉSPERA CONSOLIDADA — MATRIZ DOS 5 BLOCOS DO EDITAL 2026\n\n`;
   mdContent += `Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe (60 Pegadinhas Capitais distribuidas pelos 5 blocos temáticos).\n\n`;
   mdContent += `## REGRAS DE OURO CEBRASPE PARA A VÉSPERA DA PROVA\n`;
   mdContent += `- **Fator de Correção C − E:** Nunca chute sem eliminação racional. Em dúvida total, deixe em branco. 1 erro anula rigorosamente 1 acerto líquido.\n`;
@@ -732,9 +683,9 @@ async function main() {
   mdContent += `- **Catalogação (AACR2r/RDA):** Órgãos da administração direta entram pela jurisdição territorial; autarquias entram diretamente pelo nome.\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte" id="apendice-c">
+  <div class="divisor-parte" id="apendice-b">
     <div class="divisor-sub">APÊNDICE SÍNTESE</div>
-    <h1 class="divisor-titulo">APÊNDICE C: FOLHA DE VÉSPERA CONSOLIDADA</h1>
+    <h1 class="divisor-titulo">APÊNDICE B: FOLHA DE VÉSPERA CONSOLIDADA</h1>
     <p class="divisor-desc">Matriz mnemônica de choque para as 48 horas antecedentes à prova do Cebraspe: 60 pegadinhas capitais distribuídas estritamente nos 5 blocos do Edital nº 1/2026, com assertivas, armadilhas, fundamentação e fontes primárias.</p>
   </div>
   <div class="page-break"></div>
@@ -793,16 +744,16 @@ async function main() {
 
   htmlBody += `</div><div class="page-break"></div>`;
 
-  // APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 a CI-5)
+  // APÊNDICE C: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 a CI-5)
   mdContent += `\n# =====================================================================\n`;
-  mdContent += `<a id="apendice-d-casos-integradores-intermodulos"></a>\n`;
-  mdContent += `# APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 A CI-5)\n\n`;
+  mdContent += `<a id="apendice-c-casos-integradores-intermodulos"></a>\n`;
+  mdContent += `# APÊNDICE C: CASOS INTEGRADORES INTERMÓDULOS CEBRASPE (CI-1 A CI-5)\n\n`;
   mdContent += `Estudos de caso interdisciplinares contextualizados na Câmara dos Deputados, integrando competências transversais com itens inéditos no padrão Cebraspe (Certo/Errado) e fundamentação doutrinária exaustiva.\n\n`;
 
   htmlBody += `
-  <div class="divisor-parte" id="apendice-d">
+  <div class="divisor-parte" id="apendice-c">
     <div class="divisor-sub">APÊNDICE PRÁTICO TRANSVERSAL</div>
-    <h1 class="divisor-titulo">APÊNDICE D: CASOS INTEGRADORES INTERMÓDULOS</h1>
+    <h1 class="divisor-titulo">APÊNDICE C: CASOS INTEGRADORES INTERMÓDULOS</h1>
     <p class="divisor-desc">Cenários complexos de atuação do Analista Legislativo na Câmara dos Deputados, integrando catalogação, recuperação da informação, governança de dados, repositórios digitais e legislação aplicada (25 itens no padrão Cebraspe com gabarito comentado).</p>
   </div>
   <div class="page-break"></div>
@@ -1610,49 +1561,6 @@ async function main() {
       border-left: 3px solid #10B981;
     }
 
-    /* GLOSSÁRIO */
-    .glossario-container {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-    .verbete-card {
-      background-color: #FFFFFF;
-      border: 1px solid #E2E8F0;
-      border-radius: 6px;
-      padding: 12px 14px;
-      page-break-inside: avoid;
-    }
-    .verbete-titulo {
-      font-size: 11pt;
-      font-weight: 800;
-      color: #0F172A;
-      margin: 0;
-    }
-    .verbete-meta {
-      font-family: 'Inter', sans-serif;
-      font-size: 8pt;
-      color: #64748B;
-      font-weight: 600;
-    }
-    .verbete-corpo {
-      font-size: 9pt;
-      margin-top: 6px;
-      line-height: 1.5;
-    }
-    .verbete-alerta {
-      color: #B45309;
-      background-color: #FFFBEB;
-      padding: 6px 10px;
-      border-radius: 4px;
-      border-left: 3px solid #D97706;
-      margin: 6px 0;
-    }
-    .verbete-fonte {
-      font-size: 8pt;
-      color: #64748B;
-      font-style: italic;
-    }
 
     .folha-vespera-conteudo {
       font-size: 10pt;

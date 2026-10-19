@@ -13,8 +13,30 @@ export const submodulo81: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 6023:2025 (3ª Edição): Referências Bibliográficas',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 6023:2025',
+      definicao: 'Norma brasileira que estabelece os elementos a serem incluídos em referências bibliográficas e fixa padrões de apresentação.',
+      exemploBiblioteca: 'Orientação aos pesquisadores sobre a inclusão obrigatória do DOI e formatação de links de documentos legislativos.',
+    },
+    {
+      termo: 'Elementos Essenciais vs. Complementares',
+      definicao: 'Essenciais são indispensáveis à identificação do documento (autor, título, local, editora, data); complementares detalham a descrição física.',
+      exemploBiblioteca: 'Elaboração de lista de referências em notas técnicas contendo rigorosamente todos os elementos essenciais da NBR 6023.',
+    },
+    {
+      termo: 'Destaque Tipográfico na NBR 6023',
+      definicao: 'Uso uniforme de itálico, negrito ou sublinhado para o título da publicação em toda a obra, não se aplicando a obras sem autoria.',
+      exemploBiblioteca: 'Padronização pelo uso de itálico no título dos livros referenciados nas publicações institucionais da Câmara.',
+    },
+    {
+      termo: 'Referência de Documentos Legislativos',
+      definicao: 'Regra que determina entrada pela jurisdição em caixa alta, seguida do título oficial do ato, data de promulgação e dados da publicação oficial.',
+      exemploBiblioteca: 'BRASIL. Lei nº 14.133, de 1º de abril de 2021. Diário Oficial da União: seção 1, Brasília, DF, ano 159, n. 61-E, p. 1-43, 1 abr. 2021.',
+    },
+  ],
   descricaoCurta: 'Norma ABNT NBR 6023:2025 (3ª edição de 21.05.2025), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
   alertasCebraspe: [
     'O destaque tipográfico na NBR 6023:2025: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',
@@ -147,6 +169,59 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **NBR 10520 (Citações) (sub-8-2):** Regras de citação e remissão cruzada para referências bibliográficas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **ABNT NBR 6023 (Versões 2018 e 2025)** estabelece as regras de elaboração de referências bibliográficas no Brasil e é fonte contínua de questões no Cebraspe:
+1. **Regras Gerais de Apresentação:**
+   - **Alinhamento:** Alinhadas **à margem esquerda** do texto (e não justificadas!) e com **espaçamento simples** entre linhas.
+   - **Separação:** Separadas entre si por um espaço simples em branco.
+   - **Destaque Tipográfico (Itálico, Negrito ou Sublinhado):** Aplicado uniformemente no **título da publicação** (ou no título do periódico). Nunca se destaca o subtítulo!
+2. **Autoria e Sobrenomes:**
+   - Entrada pelo último sobrenome em letras MAIÚSCULAS seguido dos prenomes.
+   - *Até 3 autores:* Indicam-se todos, separados por ponto e vírgula (\`;\`). Ex.: \`SILVA, José; SOUZA, Maria; PEREIRA, Carlos.\`
+   - *Mais de 3 autores:* Convenciona-se indicar apenas o primeiro seguido da expressão latina \`et al.\`, embora a norma faculte indicar todos os nomes caso seja necessário para a instituição.
+   - *Sobrenomes Compostos / Parentesco:* \`JÚNIOR\`, \`FILHO\`, \`NETO\`, \`SOBRINHO\` acompanham o sobrenome que os precede: \`SILVA FILHO, José da.\`
+   - *Responsabilidade Intelectual Destacada:* Organizadores, compiladores ou coordenadores levam indicação abreviada entre parênteses: \`(coord.)\`, \`(org.)\`.
+3. **Elementos Essenciais vs. Complementares:**
+   - **Livro no Todo:** AUTOR. **Título**: subtítulo. Edição. Local: Editora, data.
+   - **Capítulo de Livro (Autor do capítulo = Autor do livro):** AUTOR DO CAPÍTULO. Título do capítulo. *In*: **Título do livro**...
+   - **Artigo de Periódico:** AUTOR. Título do artigo. **Título da Revista**, local, volume, número, páginas inicial e final, data.
+   - **Documento Online:** Acrescenta-se obrigatoriamente: \`Disponível em: URL. Acesso em: dia mês abreviado. ano.\` (O mês de maio não se abrevia!).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Normalização de Parecer Técnico na Consultoria Legislativa):** Ao revisar as referências bibliográficas de uma Nota Técnica sobre a reforma tributária elaborada para a Mesa Diretora, o bibliotecário aplica a NBR 6023:
+  \`BRASIL. Congresso Nacional. Câmara dos Deputados. **Regimento interno da Câmara dos Deputados**. Brasília: Edições Câmara, 2023.\`
+  O título recebe o negrito, o órgão entra padronizado e o alinhamento fica rigorosamente à esquerda.
+- **Cenário 2 (Referência de Documento Eletrônico no Portal LexML):** O bibliotecário referencia um projeto de lei obtido na web:
+  \`BRASIL. Congresso Nacional. Câmara dos Deputados. **Projeto de Lei nº 2.630, de 2020**. Institui a Lei Brasileira de Liberdade, Responsabilidade e Transparência na Internet. Brasília: Câmara dos Deputados, 2020. Disponível em: https://www.camara.leg.br/proposicoesWeb/... Acesso em: 15 out. 2024.\`
+- **Cenário 3 (Abreviação de Meses na Revista de Informação Legislativa):** Ao catalogar artigos de revistas para a RVBI, abrevia-se os meses com três letras seguidas de ponto (\`jan.\`, \`fev.\`, \`mar.\`, \`abr.\`, \`jun.\`, \`jul.\`, \`ago.\`, \`set.\`, \`out.\`, \`nov.\`, \`dez.\`), exceto o mês de **maio**, que se escreve por extenso sem ponto (\`maio\`).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Documento | Ordem dos Elementos Essenciais | Onde Fica o Destaque Tipográfico |
+| :--- | :--- | :--- |
+| **Monografia (Livro)** | AUTOR. Título: subtítulo. Ed. Local: Editora, ano. | No **Título** principal (subtítulo sem destaque) |
+| **Artigo de Revista** | AUTOR. Título do artigo. Título da Revista, dados. | No **Título da Revista** (o artigo fica sem destaque) |
+| **Capítulo de Livro** | AUTOR DO CAP. Título do cap. *In*: AUTOR. Título do livro... | No **Título do Livro** que contém o capítulo |
+| **Legislação / Lei** | JURISDIÇÃO. Tipo, número e data. Ementa... | Na **Identificação do Ato** (ex.: **Lei nº 14.133...**) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Destaque no Subtítulo:** A banca coloca em negrito tanto o título quanto o subtítulo após os dois pontos (\`**Direito Constitucional: Teoria e Prática**\`). **Gabarito: ERRADO.** O subtítulo é grafado em caracteres normais, sem negrito e sem itálico!
+- **Alinhamento Justificado das Referências:** Afirmar que a NBR 6023 prescreve o alinhamento justificado para a lista de referências ao final do trabalho. **Gabarito: ERRADO.** O alinhamento obrigatório segundo a ABNT é à **margem esquerda**.
+- **Abreviação do Mês de Maio:** A banca escreve \`mai.\` na data de acesso web. **Gabarito: ERRADO.** Pela norma ABNT, todos os meses são abreviados com 3 letras e ponto, exceto **maio**, que é escrito integralmente por extenso (\`maio\`).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6023:2018/Emenda 1:2020: Informação e documentação — Referências — Elaboração*. Rio de Janeiro: ABNT, 2020.
+- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019. (O guia mais utilizado por universidades e bancas).
+- **MEDEIROS, João Bosco.** *Redação científica: a prática de fichamentos, resumos, resenhas*. 13. ed. São Paulo: Atlas, 2019.
+- **IBICT.** *Manual de Normalização de Documentos Científicos*. Brasília: IBICT, 2021.
+- **CÂMARA DOS DEPUTADOS.** *Manual de Editoração das Edições Câmara*. Brasília: Coordenação Edições Câmara, 2022.`,
   checkpoints: [
     {
       id: 'cp-8-1-1',

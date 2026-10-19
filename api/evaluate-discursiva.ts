@@ -29,7 +29,9 @@ export default async function handler(req: any, res: any) {
   }
 
   const totalLinhas = Math.min(60, Math.max(1, Number(linhasEstimadas) || Math.ceil(textoCandidato.length / 70)));
-  const notaMaximaGeral = tipo === 'peca_50' ? 50.0 : 20.0;
+  const isPeca = tipo === 'peca_50';
+  const notaMaximaGeral = isPeca ? 30.0 : 15.0;
+  const fatorDesconto = isPeca ? 6 : 3;
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
@@ -37,8 +39,12 @@ export default async function handler(req: any, res: any) {
     // Retorno de fallback consistente caso a chave não esteja configurada no ambiente
     const notaConteudoBase = Number((notaMaximaGeral * 0.78).toFixed(2));
     const neFallback = 2;
-    const desconto = Number((2 * (neFallback / totalLinhas)).toFixed(2));
+    const desconto = Number((fatorDesconto * (neFallback / totalLinhas)).toFixed(2));
     const notaFinal = Math.max(0, Number((notaConteudoBase - desconto).toFixed(2)));
+
+    const formulaAplicada = isPeca
+      ? `NPT = NC - 6 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.2)`
+      : `NQ = NC - 3 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.1)`;
 
     return res.status(200).json({
       id: `eval-${Date.now()}`,
@@ -51,8 +57,8 @@ export default async function handler(req: any, res: any) {
       numErrosGramaticais: neFallback,
       descontoGramatical: desconto,
       notaFinal,
-      formulaAplicada: `NC = ${notaConteudoBase} - 2 × (${neFallback} / ${totalLinhas}) = ${notaFinal}`,
-      situacao: notaFinal >= notaMaximaGeral * 0.6 ? 'HABILITADO' : 'ELIMINADO',
+      formulaAplicada,
+      situacao: notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO',
       criterios: [
         {
           item: 'Domínio Técnico do Tema e Adequação ao Padrão',
@@ -92,18 +98,18 @@ export default async function handler(req: any, res: any) {
 Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) responsável pela correção da Prova Discursiva do Concurso da Câmara dos Deputados para o cargo de Analista Legislativo - Área Biblioteconomia.
 Seu perfil é estritamente técnico, rigoroso, focado no padrão de resposta preliminar e na aplicação exata dos critérios de correção da banca.
 
-CRITÉRIOS OFICIAIS CEBRASPE:
-1. NOTA DE CONTEÚDO (NCP): Atribuída exclusivamente com base nos tópicos do Padrão de Resposta Preliminar e critérios fornecidos. A soma máxima dos quesitos de conteúdo é ${notaMaximaGeral} pontos.
+CRITÉRIOS OFICIAIS CEBRASPE (EDITAL Nº 1/2026, ITENS 9.8.5.1 E 9.8.5.2):
+1. NOTA DE CONTEÚDO (NCP): Atribuída exclusivamente com base nos tópicos do Padrão de Resposta Preliminar e critérios fornecidos. A soma máxima dos quesitos de conteúdo é ${notaMaximaGeral} pontos (${isPeca ? 'até 30,00 pontos para Peça Técnica' : 'até 15,00 pontos para Questão Discursiva'}).
 2. NÚMERO DE ERROS (NE): Erros de Língua Portuguesa (ortografia, acentuação, pontuação, concordância verbal/nominal, regência verbal/nominal, propriedade vocabular e estrutura morfossintática). Cada desvio deve ser contabilizado individualmente.
 3. TOTAL DE LINHAS ESCRITAS (TL): Considerar o valor informado de ${totalLinhas} linhas (ou a contagem efetiva de linhas do texto).
-4. FÓRMULA OFICIAL CEBRASPE DA NOTA DA PROVA DISCURSIVA (NC):
-   NC = NCP - 2 * (NE / TL)
-   Se o resultado de NC for inferior a 0, NC = 0.
-   Nota de corte para habilitação: 60% da nota máxima (mínimo de ${(notaMaximaGeral * 0.6).toFixed(1)} pontos).
+4. FÓRMULA OFICIAL CEBRASPE DA NOTA (Edital nº 1/2026, subitens 9.8.5.1 e 9.8.5.2):
+   ${isPeca ? 'NPT = NC - 6 × (NE / TL)' : 'NQ = NC - 3 × (NE / TL)'}
+   Se o resultado for inferior a 0, a nota final será 0.
+   Nota de corte de aprovação na questão: 50% da nota máxima (mínimo de ${(notaMaximaGeral * 0.5).toFixed(1)} pontos).
 
 DADOS DA QUESTÃO:
 - TÍTULO: ${titulo}
-- TIPO: ${tipo === 'peca_50' ? 'Peça Técnica (até 50 linhas)' : 'Questão Discursiva (até 20 linhas)'}
+- TIPO: ${isPeca ? 'Peça Técnica (até 50 linhas - 30 pts)' : 'Questão Discursiva (até 20 linhas - 15 pts)'}
 - LIMITE DE LINHAS: ${limiteLinhas}
 - ENUNCIADO:
 ${enunciado}
@@ -126,9 +132,9 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo
   "notaConteudo": number (soma das notas de cada critério do padrão preliminar, máx ${notaMaximaGeral}),
   "notaConteudoMaxima": ${notaMaximaGeral},
   "numErrosGramaticais": number (quantidade exata de erros de língua portuguesa identificados),
-  "descontoGramatical": number (valor calculado de 2 * (NE / TL), arredondado para 2 casas decimais),
+  "descontoGramatical": number (valor calculado de ${fatorDesconto} * (NE / TL), arredondado para 2 casas decimais),
   "notaFinal": number (NCP - descontoGramatical, mínimo 0, arredondado para 2 casas decimais),
-  "formulaAplicada": "NC = NCP - 2 × (NE / TL) = ...",
+  "formulaAplicada": "${isPeca ? 'NPT = NC - 6 × (NE / TL)' : 'NQ = NC - 3 × (NE / TL)'} = ...",
   "situacao": "HABILITADO" ou "ELIMINADO",
   "criterios": [
     {
@@ -207,8 +213,12 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo
     // Fallback gracioso com cálculo da fórmula
     const notaConteudoFallback = Number((notaMaximaGeral * 0.75).toFixed(2));
     const neFallback = 3;
-    const desconto = Number((2 * (neFallback / totalLinhas)).toFixed(2));
+    const desconto = Number((fatorDesconto * (neFallback / totalLinhas)).toFixed(2));
     const notaFinal = Math.max(0, Number((notaConteudoFallback - desconto).toFixed(2)));
+
+    const formulaFallback = isPeca
+      ? `NPT = NC - 6 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.2)`
+      : `NQ = NC - 3 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.1)`;
 
     return res.status(200).json({
       id: `eval-${Date.now()}`,
@@ -221,8 +231,8 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo
       numErrosGramaticais: neFallback,
       descontoGramatical: desconto,
       notaFinal,
-      formulaAplicada: `NC = ${notaConteudoFallback} - 2 × (${neFallback} / ${totalLinhas}) = ${notaFinal}`,
-      situacao: notaFinal >= notaMaximaGeral * 0.6 ? 'HABILITADO' : 'ELIMINADO',
+      formulaAplicada: formulaFallback,
+      situacao: notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO',
       criterios: [
         {
           item: 'Adequação ao Padrão de Resposta Preliminar',
