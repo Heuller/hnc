@@ -21,6 +21,7 @@ import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { COURSE_REGISTRY } from '../content/registry';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 import { PainelOQueFunciona } from '../components/analytics/PainelOQueFunciona';
+import { PainelMedicaoContinuaW6 } from '../components/analytics/PainelMedicaoContinuaW6';
 
 export const ProgressoPage: React.FC = () => {
   const {
@@ -307,6 +308,9 @@ export const ProgressoPage: React.FC = () => {
           })}
         </div>
       </section>
+
+      {/* Painel de Medição Contínua e Metas Oficiais W6 */}
+      <PainelMedicaoContinuaW6 />
 
       {/* Painel Metacognitivo: O que funciona para você (Seção 3.4) */}
       <PainelOQueFunciona />
