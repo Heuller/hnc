@@ -19,7 +19,7 @@ import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
 import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
-import type { TermoSalvo } from '../domain/dicionario/types';
+import type { TermoSalvo } from '../domain/types';
 import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 import type { ItemAttempt, CriarItemAttemptParams } from '../domain/itemAttempts';
 import {
@@ -49,7 +49,7 @@ interface ProgressStoreState extends UserProgress {
   obterPrimeiraTentativa: (itemId: string) => ItemAttempt | undefined;
   obterUltimaTentativa: (itemId: string) => ItemAttempt | undefined;
   getProgressoGlobal: () => ProgressoGlobalDerivado;
-  // Dicionário / Glossário
+  // Vocabulário e Flashcards Salvos
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
   removerTermoVocabulario: (termoId: string) => void;
   isTermoSalvo: (termoId: string) => boolean;

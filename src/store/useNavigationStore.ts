@@ -13,8 +13,7 @@ export type AppView =
   | 'discursiva'
   | 'design-system'
   | 'dev-rascunhos'
-  | 'edital'
-  | 'glossario';
+  | 'edital';
 
 interface NavigationState {
   activeView: AppView;
@@ -55,7 +54,13 @@ function getViewFromHash(): AppView {
   if (route.startsWith('design-system')) return 'design-system';
   if (route.startsWith('dev/rascunhos') || route.startsWith('dev-rascunhos')) return 'dev-rascunhos';
   if (route.startsWith('edital')) return 'edital';
-  if (route.startsWith('glossario') || route.startsWith('dicionario')) return 'glossario';
+  if (route.startsWith('glossario') || route.startsWith('dicionario')) {
+    // Redirecionamento de rotas legadas para evitar 404 em bookmarks (W2)
+    if (typeof window !== 'undefined' && window.location.hash) {
+      window.location.hash = '#/painel';
+    }
+    return 'painel';
+  }
   if (route.startsWith('painel')) return 'painel';
   return 'painel';
 }
@@ -119,6 +124,10 @@ export const useNavigationStore = create<NavigationState>((set) => {
     selectedSubmodule: getInitialSubmodule(),
     sidebarCollapsed: false,
     setActiveView: (view: AppView) => {
+      let targetView = view;
+      if ((targetView as string) === 'glossario' || (targetView as string) === 'dicionario') {
+        targetView = 'painel';
+      }
       if (typeof window !== 'undefined') {
         try {
           window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -126,13 +135,17 @@ export const useNavigationStore = create<NavigationState>((set) => {
           window.scrollTo(0, 0);
         }
         const currentHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
-        if (currentHash !== view) {
-          window.location.hash = `#${view}`;
+        if (currentHash !== targetView) {
+          window.location.hash = `#${targetView}`;
         }
       }
-      set({ activeView: view, currentRoute: view });
+      set({ activeView: targetView, currentRoute: targetView });
     },
     setCurrentRoute: (view: AppView) => {
+      let targetView = view;
+      if ((targetView as string) === 'glossario' || (targetView as string) === 'dicionario') {
+        targetView = 'painel';
+      }
       if (typeof window !== 'undefined') {
         try {
           window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -140,11 +153,11 @@ export const useNavigationStore = create<NavigationState>((set) => {
           window.scrollTo(0, 0);
         }
         const currentHash = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
-        if (currentHash !== view) {
-          window.location.hash = `#${view}`;
+        if (currentHash !== targetView) {
+          window.location.hash = `#${targetView}`;
         }
       }
-      set({ activeView: view, currentRoute: view });
+      set({ activeView: targetView, currentRoute: targetView });
     },
     setActiveSubmoduleIndex: (index: number) => {
       set({ activeSubmoduleIndex: index });

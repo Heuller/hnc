@@ -130,7 +130,7 @@ O **VCB** é o tesauro estruturado oficial da **Rede Virtual de Bibliotecas (RVB
 A Ciência da Informação contemporânea estendeu o estudo dos tesauros para os Sistemas de Organização do Conhecimento (SOC / KOS) na Web Semântica:
 
 \`\`\`timeline
-L | 1. Lista de Termos / Glossário | Nível Básico | Relações não estruturadas: definições textuais sem controle de hierarquia ou rede de equivalência
+L | 1. Lista de Termos / Vocabulário Simples | Nível Básico | Relações não estruturadas: definições textuais sem controle de hierarquia ou rede de equivalência
 ---> Introdução de Relações de Subordinação
 T | 2. Taxonomia Hierárquica | Estrutura em Árvore | Organização formal por classes e subclasses (relação todo-parte e gênero-espécie)
 ---> Controle Terminológico e Equivalência

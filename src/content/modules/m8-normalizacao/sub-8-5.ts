@@ -71,7 +71,7 @@ O Cebraspe frequentemente explora o confronto conceitual e estrutural entre os i
 
 #### A. A Definição de Índice segundo a ABNT NBR 6034:2004
 * **Conceito Normativo:** "Relação de palavras ou frases, ordenadas segundo determinado critério, que localiza e remete para informações contidas em um texto ou em documentos".
-* **Posicionamento Estrutural:** É um **elemento PÓS-TEXTUAL OPCIONAL**. Localiza-se no final da publicação (após os elementos textuais e após referências, glossário, apêndices e anexos).
+* **Posicionamento Estrutural:** É um **elemento PÓS-TEXTUAL OPCIONAL**. Localiza-se no final da publicação (após os elementos textuais e após referências, vocabulário de termos, apêndices e anexos).
 * **Tipologia de Índices:**
   1. *Índice Geral / Remissivo:* Reúne autores, assuntos e títulos em sequência alfabética única;
   2. *Índice Especial:* Dedicado a uma única categoria de informação (ex.: índice onomástico/de autores, índice cronológico de leis, índice geográfico, índice sistemático de assuntos);

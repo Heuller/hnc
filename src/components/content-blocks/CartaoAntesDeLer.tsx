@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import { Lightbulb, CheckCircle2, ChevronDown, ChevronUp, RotateCcw, Building2 } from 'lucide-react';
 import type { TermoAntesDeLer } from '../../domain/types';
-import { useGlossarioStore } from '../../store/useGlossarioStore';
 
 interface CartaoAntesDeLerProps {
   termos?: TermoAntesDeLer[];
 }
 
 export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) => {
-  const { isTermoSilenciado, alternarJaSei } = useGlossarioStore();
+  const [termosDominados, setTermosDominados] = useState<Record<string, boolean>>({});
   const [expandido, setExpandido] = useState(true);
+
+  const alternarJaSei = (id: string) => {
+    setTermosDominados((prev) => ({ ...prev, [id]: !prev[id] }));
+  };
+  const isTermoSilenciado = (id: string) => !!termosDominados[id];
 
   if (!termos || termos.length === 0) return null;
 

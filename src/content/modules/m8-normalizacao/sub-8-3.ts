@@ -31,7 +31,7 @@ export const submodulo83: ModuloFilho = {
       ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225:2023)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
       ['Elementos Pré-Textuais', 'Folha de rosto, Folha de aprovação, Resumo em português, Resumo em língua estrangeira, Sumário (NBR 6027:2012)', 'Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, tabelas, siglas e símbolos', 'Contados a partir da folha de rosto, mas NÃO exibem número de página impresso', 'Afirmar que o sumário é pós-textual ou opcional (FALSO: é pré-textual obrigatório).'],
       ['Elementos Textuais', 'Introdução, Desenvolvimento (seções e subseções numeradas - NBR 6024:2012) e Conclusão', 'Nenhum (todos os elementos textuais são de redação compulsória)', 'Inicia a impressão física do número da página no canto superior direito (algarismos arábicos)', 'Dizer que a introdução não é numerada (FALSO: é a primeira página impressa).'],
-      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Glossário, Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
+      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Vocabulário de termos (NBR 14724), Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
     ],
   },
   teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2011
@@ -53,7 +53,7 @@ TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2011)
     - Conclusão | Considerações finais, resposta aos objetivos e recomendações
   - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão
     - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023
-    - Pós-Textuais Opcionais | Glossário, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
+    - Pós-Textuais Opcionais | Vocabulário de termos, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
 \`\`\`
 
 #### A Divisão Tripartite Padronizada:
@@ -80,7 +80,7 @@ O Cebraspe constrói com frequência assertivas exigindo distinguir quais elemen
 * **Pós-Textuais Obrigatórios:**
   * **Referências:** O único elemento pós-textual obrigatório da norma (elaborado segundo a NBR 6023).
 * **Pós-Textuais Opcionais:**
-  * **Glossário:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições.
+  * **Vocabulário de Termos Técnicos:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições (NBR 14724).
   * **Apêndices:** Documentos elaborados pelo próprio autor.
   * **Anexos:** Documentos de autoria de terceiros.
   * **Índices:** Relações sistemáticas ou alfabéticas de assuntos e autores (NBR 6034).

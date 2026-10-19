@@ -29,8 +29,6 @@ import {
 } from 'lucide-react';
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
-import { GlossarioDoModulo } from '../components/content-blocks/GlossarioDoModulo';
-import { dicionarioService } from '../domain/dicionario/dicionarioService';
 import { TeoriaStickyBar } from '../components/layout/TeoriaStickyBar';
 import { calculateSubmoduleStatus, getRequiredSectionsForSubmodule } from '../domain/learningEngine';
 import { ActiveRetrievalExercises } from '../components/content-blocks/ActiveRetrievalExercises';
@@ -42,8 +40,6 @@ import {
 } from '../domain/portaoSimuladoEngine';
 import { ExLibrisCamaraIllustration } from '../components/common/Illustrations';
 import { CartaoAntesDeLer } from '../components/content-blocks/CartaoAntesDeLer';
-import { GavetaCurtaDefinicao } from '../components/glossario/GavetaCurtaDefinicao';
-import { useGlossarioStore } from '../store/useGlossarioStore';
 
 export const TeoriaPage: React.FC = () => {
   const { selectedSubmodule, setSelectedSubmodule, navigateToSimulado } =
@@ -58,7 +54,6 @@ export const TeoriaPage: React.FC = () => {
     getProgressoGlobal,
     historicoSimulados,
   } = useProgressStore();
-  const { termoAtivoDrawer, isDrawerOpen, fecharDrawer } = useGlossarioStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isReaderPrefsOpen, setIsReaderPrefsOpen] = useState(false);
@@ -119,9 +114,6 @@ export const TeoriaPage: React.FC = () => {
     secoesVistas,
     checkpointsRespondidos || {}
   );
-  const totalTermosModulo = React.useMemo(() => {
-    return dicionarioService.obterTermosPorModulo(currentMacro.id).length;
-  }, [currentMacro.id]);
   const moduleTheme = getModuleTheme(currentMacro.id);
 
   const [activeSectionId, setActiveSectionId] = useState<string>('sec-teoria');
@@ -142,9 +134,8 @@ export const TeoriaPage: React.FC = () => {
       { id: 'sec-teoria', numero: '5', titulo: 'Fundamentação Teórica' },
       { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
       { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
-      { id: 'sec-glossario-modulo', numero: '8', titulo: `Glossário (${totalTermosModulo})` },
     ],
-    [currentSub, totalTermosModulo]
+    [currentSub]
   );
 
   useEffect(() => {
@@ -500,13 +491,6 @@ export const TeoriaPage: React.FC = () => {
                   Matriz Comparativa
                 </button>
               )}
-              <button
-                type="button"
-                onClick={() => scrollToAnchor('sec-glossario-modulo')}
-                className="hover:text-accent px-1.5 py-0.5 rounded hover:bg-surface transition-colors cursor-pointer text-accent font-semibold ml-auto"
-              >
-                Glossário do Bloco ({totalTermosModulo})
-              </button>
             </div>
           </nav>
         );
@@ -677,15 +661,6 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />
-          </section>
-
-          {/* Bloco 7: Glossário Canônico do Módulo */}
-          <section id="sec-glossario-modulo" className="border-t border-border pt-8 my-8">
-            <GlossarioDoModulo
-              moduloId={currentMacro.id}
-              moduloCodigo={currentMacro.codigo}
-              moduloTitulo={currentMacro.titulo_curto || currentMacro.titulo}
-            />
           </section>
 
           {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q ou 30Q) */}
@@ -932,13 +907,6 @@ export const TeoriaPage: React.FC = () => {
       <ReaderPreferencesModal
         isOpen={isReaderPrefsOpen}
         onClose={() => setIsReaderPrefsOpen(false)}
-      />
-
-      {/* Gaveta Curta de Definição ao Tocar em Termo Destacado (U3.12 / U3.5) */}
-      <GavetaCurtaDefinicao
-        verbete={termoAtivoDrawer}
-        isOpen={isDrawerOpen}
-        onClose={fecharDrawer}
       />
     </div>
   );

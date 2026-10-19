@@ -16,7 +16,7 @@ export const submodulo124: ModuloFilho = {
     'Paráfrase com alteração sutil de quantificador: O texto diz que "several studies suggest...". A assertiva do Cebraspe reescreve dizendo que "all scientific research proves...". ITEM ERRADO por generalização indevida (troca de "vários" por "todos" e "sugere" por "prova").',
   ],
   quadroComparativo: {
-    titulo: 'Glossário Crítico de Falsos Cognatos Perigosos no Padrão Cebraspe',
+    titulo: 'Guia Crítico de Falsos Cognatos Perigosos no Padrão Cebraspe',
     colunas: ['Termo em Inglês', 'Significado Real em Português', 'Falsa Tradução Intuitiva (Erro Comum)', 'Como se diz o Falso Sentido'],
     linhas: [
       ['Actually', 'Na verdade, de fato, realmente', 'Atualmente (ERRADO!)', 'Currently, nowadays, at present'],

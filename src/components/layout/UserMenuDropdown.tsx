@@ -7,7 +7,6 @@ import {
   Download,
   Unlock,
   ChevronDown,
-  Book,
   BarChart3,
   Bookmark,
   PenTool,
@@ -224,22 +223,6 @@ export const UserMenuDropdown: React.FC = () => {
                 <span>Edital Oficial 2026</span>
               </div>
               <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
-            </button>
-
-            <button
-              type="button"
-              role="menuitem"
-              onClick={() => {
-                setActiveView('glossario');
-                setIsOpen(false);
-              }}
-              className="w-full text-left px-3 py-1.5 rounded-lg flex items-center justify-between hover:bg-surface-2 text-ink transition-colors cursor-pointer"
-            >
-              <div className="flex items-center gap-2.5">
-                <Book className="w-4 h-4 text-accent" />
-                <span>Glossário do Concurso</span>
-              </div>
-              <span className="text-[10px] font-mono text-ink-2 bg-surface-2 px-1.5 py-0.5 rounded border border-border">12k+</span>
             </button>
           </div>
 

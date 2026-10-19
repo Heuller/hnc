@@ -65,9 +65,6 @@ const EditalPage = lazyWithRetry(() =>
 const FolhaVesperaPage = lazyWithRetry(() =>
   import('./pages/FolhaVesperaPage').then((m) => ({ default: m.FolhaVesperaPage }))
 );
-const GlossarioPage = lazyWithRetry(() =>
-  import('./pages/GlossarioPage').then((m) => ({ default: m.GlossarioPage }))
-);
 
 const PageSkeletonLoader = () => (
   <div className="max-w-4xl mx-auto space-y-6 py-6 animate-pulse" aria-live="polite">
@@ -126,8 +123,6 @@ export function App() {
     switch (activeView) {
       case 'edital':
         return <EditalPage />;
-      case 'glossario':
-        return <GlossarioPage />;
       case 'painel':
         return <PainelPage />;
       case 'jornada':

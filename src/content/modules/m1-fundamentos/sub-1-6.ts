@@ -56,7 +56,7 @@ export const submodulo16: ModuloFilho = {
       [
         'Decisões Típicas',
         'Autoriza concessão de acessos críticos, define classificação de sigilo/privacidade e aprova políticas do domínio.',
-        'Define termos de glossários de dados, resolve divergências de significado, audita qualidade e especifica requisitos de metadados.',
+        'Define termos de vocabulários e dicionários de dados, resolve divergências de significado, audita qualidade e especifica requisitos de metadados.',
         'Executa rotinas de backup, otimiza consultas no SGBD, aplica patches de segurança e implementa arquitetura de armazenamento.',
       ],
       [
@@ -113,7 +113,7 @@ O edital nº 1/2026 exige explicitamente os papéis e políticas de governança 
 
 #### B. Data Steward (Curador / Zelador do Dado)
 * **Definição:** É o profissional (ou comitê) que atua na interface direta entre as necessidades de negócio e as capacidades técnicas de TI, zelando diariamente pela integridade semântica, qualidade e conformidade dos dados.
-* **Responsabilidades Primordiais:** Elaborar e manter o glossário corporativo de termos (*business glossary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.
+* **Responsabilidades Primordiais:** Elaborar e manter o vocabulário corporativo de termos (*business vocabulary / data dictionary*); garantir que os metadados estejam completos e atualizados; mapear regras de negócio e de integridade; identificar e sanear inconsistências e duplicidades; promover a alfabetização em dados (*data literacy*) entre os usuários.
 * **O Papel do Bibliotecário:** O bibliotecário contemporâneo exerce com naturalidade as atribuições de *data steward*, dada sua expertise secular em organização do conhecimento, controle de vocabulário, ontologias, catalogação e padrões de metadados.
 
 #### C. Data Custodian (Custodiante Técnico)

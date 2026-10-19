@@ -4,6 +4,31 @@ Este documento registra todas as alterações estruturais, correções normativa
 
 ---
 
+## [Missão v2 — Fase 2: W2] — Remoção e Arquivamento do Glossário & Dicionário (19/10/2026)
+
+### W2.1 — Arquivamento Canônico de Dados Fora do Bundle
+- **Arquivos criados:**
+  - `archive/glossario-v1.json` (8.15 MB): preservação canônica dos 19 termos técnicos do acervo e dos 12.431 verbetes de Cunha & Cavalcanti com índice de ocorrências.
+  - `archive/baseTermos.ts` e `archive/termosEnriquecimentoFase5.ts`: preservação do acervo de 333 verbetes doutrinários e conceituais do Dicionário Cebraspe.
+  - `archive/scripts/`: movimentação dos scripts de extração e cruzamento (`compararAcervos.ts`, `extrairDicionarioCompleto.py`, `gerarIndiceOcorrenciasGlossario.ts`).
+- **Racional:** Atendimento estrito ao Pedido nº 2 do aluno Richard (*"Remover o glossário (não ficou bom)"*), aliviando a carga cognitiva e removendo dados volumosos fora do bundle final de produção da plataforma.
+
+### W2.2 — Desacoplamento Completo da UI e Redirecionamento de Rotas
+- **Rotas e Redirecionamentos:**
+  - Rota `/glossario` e `/dicionario` interceptadas e redirecionadas automaticamente para `/painel` (evitando erro 404 em bookmarks antigos).
+- **Remoção de Componentes e Dependências:**
+  - Excluídos: `src/pages/GlossarioPage.tsx`, `src/components/content-blocks/GlossarioDoModulo.tsx`, pastas `src/components/dicionario/`, `src/components/glossario/`, `src/domain/glossario/`, `src/domain/dicionario/`, `src/content/glossario/`, stores `useGlossarioStore.ts` e `useDicionarioStore.ts`.
+  - Limpos elementos de navegação: Sidebar, Header, UserMenuDropdown, MobileMoreMenu, TeoriaPage, CartaoAntesDeLer, ConteudoMarkdown e PainelPage (onde o atalho foi reconvertido para o "Radar Cebraspe").
+- **Tratamento de Menções Textuais:**
+  - Convertidas 9 menções textuais na teoria (`sub-1-6`, `sub-3-4`, `sub-6-1`, `sub-8-3`, `sub-8-5`, `sub-12-4`) para linguagem direta da norma bibliográfica (*"vocabulário de termos"*, *"lista de termos"*).
+- **Validação e Regressão:**
+  - Suíte `src/tests/w2RemocaoGlossario.test.tsx` criada e aprovada.
+  - Suíte `src/tests/rodada5bParte4.test.ts` atualizada para validar os termos no arquivo canônico preservado em `archive/`.
+  - 80 arquivos de teste aprovados (685 testes passando, 100% verde).
+  - Orçamento de bundle respeitado no build de produção.
+
+---
+
 ## [Fase 0] — Integridade e Contenção de Risco (13/10/2026)
 
 ### P0.1 — Procedência dos Alertas "Câmara 2026"

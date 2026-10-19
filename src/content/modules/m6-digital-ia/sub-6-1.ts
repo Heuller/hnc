@@ -95,7 +95,7 @@ TITLE: Quatro Sistemas da Arquitetura da Informação (Rosenfeld & Morville)
 #### A. Sistemas de Organização (*Organization Systems*)
 Definem como o conteúdo informacional é categorizado e agrupado:
 * **Esquemas de Organização Exatos:** Não comportam ambiguidade cognitiva. A informação possui uma única chave de localização:
-  * *Alfabético:* Índices de autores, dicionários e glossários legislativos.
+  * *Alfabético:* Índices de autores, dicionários e vocabulários controlados legislativos.
   * *Cronológico:* Diários Oficiais, datas de promulgação e históricos de votação.
   * *Geográfico:* Estados da federação, municípios ou regiões geopolíticas.
 * **Esquemas de Organização Ambíguos / Subjetivos:** Exigem interpretação intelectual, pois o usuário pode não saber exatamente o termo técnico procurado:
