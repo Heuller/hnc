@@ -279,9 +279,9 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M11",
     "submoduloId": "11.2",
     "contexto": "Acerca da tipologia e classificação dos atos administrativos, julgue o item a seguir.",
-    "item": "Os atos administrativos compostos resultam da manifestação de dois ou mais órgãos distintos e independentes cujas vontades se fundem para formar um único ato, ao passo que os atos complexos consubstanciam a manifestação de um único órgão cuja aprovação final é submetida à ratificação acessória de outro órgão.",
+    "item": "Os atos administrativos compostos resultam da manifestação de dois oumais órgãos distintos e independentes cujas vontades se fundem para formar um único ato, ao passo que os atos complexos consubstanciam a manifestação de um único órgão cuja aprovação final é submetida à ratificação acessória de outro órgão.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Cebraspe inverteu exatamente os conceitos! Ato COMPLEXO resulta da conjugação da vontade de dois ou mais órgãos distintos que se unem para formar um ato único (ex.: investidura de Ministro do STF: indicação do Presidente + sabatina do Senado). Ato COMPOSTO é praticado por um único órgão principal, dependendo de ato acessório de outro órgão (ex.: aprovação, homologação ou visto).",
+    "justificativa": "Gabarito ERRADO. O Cebraspe inverteu exatamente os conceitos! Ato COMPLEXO resulta da conjugação da vontade de dois oumais órgãos distintos que se unem para formar um ato único (ex.: investidura de Ministro do STF: indicação do Presidente + sabatina do Senado). Ato COMPOSTO é praticado por um único órgão principal, dependendo de ato acessório de outro órgão (ex.: aprovação, homologação ou visto).",
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter atos complexos com atos compostos (pegadinha clássica Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1369,7 +1369,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das modalidades licitatórias e seus critérios de julgamento, julgue o item a seguir.",
     "item": "O diálogo competitivo é modalidade de licitação destinada a contratações que envolvam inovação tecnológica ou complexidade técnica, podendo a administração julgar a proposta vencedora com base no critério de maior desconto linear sobre a tabela Sinapi.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 32 da Lei nº 14.133/2021, o Diálogo Competitivo só pode ser julgado pelo critério de MELHOR TÉCNICA ou TÉCNICA E PREÇO. É vedado o critério de maior desconto ou menor preço isolado.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 32 da Lei nº 14.133/2021, o Diálogo Competitivo só pode ser julgado pelo critério de MELHOR TÉCNICA ou TÉCNICA E PREÇO. É vedado o critério de maior desconto oumenor preço isolado.",
     "armadilhaBanca": "Critérios de julgamento exclusivos do diálogo competitivo.",
     "dificuldade": "media",
     "fonteOriginal": {

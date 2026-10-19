@@ -4,6 +4,24 @@ Este documento registra todas as alterações estruturais, correções normativa
 
 ---
 
+## [Missão v2 — Fase 3: W3 e W4] — Auditoria Editalícia, Higienização de OCR e Injeção Massiva de Questões Reais Cebraspe (19/10/2026)
+
+### W3.1 — Higienização de OCR e Erradicação de Anacronismos
+- **Erradicação dos 15 itens "Câmara 2026":** 14 itens em `m10-legislativo-100q.ts` corrigidos para sua fonte oficial histórica (*Câmara dos Deputados / 2014 Cespe*); item `m7-q-96` (Maslow) substituído por questão real Cebraspe sobre OAIS (ISO 14721) do concurso *IPHAN / 2018 (Cebraspe)* com gabarito ERRADO.
+- **Higienização de 94 Quebras de OCR:** reparo sistemático de palavras cindidas com hífen/espaço nos arquivos de questões (`classificações`, `ramos`, `consultas`, `científica`, `estabelecidos`, `especificidade`, `enumerativa`, `deliberações`, `considerados`, `disponíveis`, etc.).
+- **Enriquecimento de M13:** texto-base integral sobre Linguagem Simples inserido no campo `contexto` dos itens 1 a 10 de `m13-portugues-100q.ts`.
+- **Matriz Viva do Edital nº 1/2026:** 100% de cobertura nos 64 tópicos oficiais (`docs/matriz_edital_cargo5.md`).
+
+### W4.1 — Mineração e Injeção de 5.239 Questões Reais Cebraspe
+- **Corpus Extraído:** 5.239 itens reais catalogados com gabarito oficial em `archive/corpus_questoes_reais_cebraspe.json`.
+- **Descoberta Empírica sobre Quantificadores Absolutos:** no mundo real Cebraspe, 47.1% dos itens com termos absolutos (*apenas, sempre, exclusivamente, todos*) possuem gabarito CERTO, desmistificando atalhos ingênuos.
+- **Mega Simulado 120Q (`mega-simulado-camara-120q.ts`):** 100% reconstruído com questões reais Cebraspe (60 C / 60 E), 40 itens de Conhecimentos Básicos e 80 de Conhecimentos Específicos (8 itens em cada um dos 10 módulos).
+- **Simulado de Língua Inglesa (`m12-ingles-100q.ts`):** 100% reconstruído com questões reais Cebraspe (50 C / 50 E), incluindo itens oficiais da Câmara dos Deputados.
+- **Simulado de Preservação (`m7-preservacao-100q.ts`):** injeção de 60 novas questões reais Cebraspe, elevando a proporção de itens reais de 12% para 72%.
+- **Censo de Questões Reais:** total de itens reais vivos na plataforma elevado de 487 (31.4%) para 767 (49.5%).
+
+---
+
 ## [Missão v2 — Fase 2: W2] — Remoção e Arquivamento do Glossário & Dicionário (19/10/2026)
 
 ### W2.1 — Arquivamento Canônico de Dados Fora do Bundle

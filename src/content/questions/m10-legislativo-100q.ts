@@ -179,12 +179,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
     "item": "É admissível que uma proposta de emenda constitucional seja apresentada por mais da metade das assembleias legislativas das unidades da Federação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -213,12 +213,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
     "item": "É constitucional a atribuição, por lei complementar estadual, do status de secretário de Estado aos cargos de defensor público-geral e de subdefensor público-geral do estado.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -434,12 +434,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Praticaria conduta atentatória ao decoro o deputado que relatasse matéria submetida à apreciação da Câmara dos Deputados, de interesse específico de pessoa física ou jurídica que tivesse contribuído para o financiamento de sua campanha eleitoral.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -604,7 +604,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A Comissão de Constituição e Justiça e de Cidadania (CCJC) é órgão técnico permanente da Câmara dos Deputados ao qual compete manifestar-se terminantemente sobre a constitucionalidade, juridicidade e técnica legislativa de todas as proposições submetidas à Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência privativa máxima da CCJC na Câmara dos Deputados: se a CCJC considerar a matéria inconstitucional ou injurídica por unanimidade ou maioria, a proposição é arquivada, ressalvado recurso.",
+    "justificativa": "Gabarito CERTO. Competência privativa máxima da CCJC na Câmara dos Deputados: se a CCJC considerar a matéria inconstitucional ou injurídica por unanimidade oumaioria, a proposição é arquivada, ressalvado recurso.",
     "armadilhaBanca": "Competência privativa da CCJC.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -621,12 +621,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Os atos de aposentadorias de servidores da Câmara dos Deputados são submetidos à apreciação, para registro, do TCU, sendo a concessão, todavia, eficaz desde a publicação do ato.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -638,12 +638,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada. Com base nas normas do Código de Ética e Decoro Parlamentar da Câmara dos Deputados, julgue os itens seguintes, no que se refere à disciplina do decoro parlamentar.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -655,12 +655,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Caso um deputado se desligue do partido que forma um bloco parlamentar e seu desligamento reduza a quantidade de membros do bloco a um número inferior ao mínimo necessário para a sua constituição, tal bloco permanecerá existindo somente até o final da legislatura.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -672,12 +672,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "É atribuição exclusiva da mesa da Câmara convidar a se retirar do plenário deputado que esteja perturbando a ordem dos trabalhos durante uma sessão.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -689,12 +689,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Cabe a comissão parlamentar de inquérito instaurada na Câmara dos Deputados convocar, e não apenas convidar, governador de estado para prestar depoimento ou esclarecimentos sobre a aplicação de recursos federais pelo respectivo ente federativo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -706,12 +706,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Cabe ao presidente da Câmara designar a ordem do dia das sessões, segundo a agenda mensal, ressalvadas as alterações permitidas pelo Regimento Interno da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -740,12 +740,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Uma comissão permanente não dispõe da atribuição de propor a sustação dos atos normativos do Poder Executivo federal que exorbitem do poder regulamentar ou dos limites de delegação legislativa. Acerca do Regimento Comum do Congresso Nacional, julgue os itens a seguir.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -757,12 +757,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Uma comissão permanente tem o poder de convocar ministros de Estado e de encaminhar a eles, através da mesa, pedidos escritos de informação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -774,12 +774,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Se dois partidos se coligarem para a formação de um bloco parlamentar, suas lideranças perdem suas atribuições, mas não suas prerrogativas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -842,12 +842,12 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Constitui atribuição do presidente da Câmara organizar, ouvido o colégio de líderes, a agenda com a previsão das proposições a serem apreciadas no mês subsequente, para distribuição aos deputados. No que se refere às comissões, julgue os itens que se seguem.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -857,14 +857,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.3",
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.3, julgue o item a seguir.",
-    "item": "A lógica de formação das coalizões governamentais no Brasil possui um eixo duplo: o partidário -parlamentar e o regional - estadual, o que impacta, por exemplo, a composição dos ministérios, que nem sempre corresponde estritamente ao peso numérico dos partidos aliados no Congresso Nacional.",
+    "item": "A lógica de formação das coalizões governamentais no Brasil possui um eixo duplo: o partidário-parlamentar e o regional - estadual, o que impacta, por exemplo, a composição dos ministérios, que nem sempre corresponde estritamente ao peso numérico dos partidos aliados no Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados/2026 (Analista Legislativo), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados/2026 (Analista Legislativo).",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados/2026 (Analista Legislativo)",
+      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
       "verificado": true
     }
   },
@@ -993,7 +993,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.3",
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
-    "item": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L e- gislativo e Judiciário em suas esferas municipais, estaduais e na federal, o portal LexML faz uso do protocolo de coleta de metadados Z39.50.",
+    "item": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L legislativo e Judiciário em suas esferas municipais, estaduais e na federal, o portal LexML faz uso do protocolo de coleta de metadados Z39.50.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
@@ -1316,7 +1316,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
-    "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é de acesso público e reúne inform a- ções sobre as col eções de publicações seriadas nacionais e estrangeiras disponíveis nas bibliot e- cas brasileiras.",
+    "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é de acesso público e reúne informações sobre as col eções de publicações seriadas nacionais e estrangeiras disponíveis nas bibliot bibliotecas brasileiras.",
     "gabarito": "C",
     "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
@@ -1350,7 +1350,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "A respeito de fontes de informação, julgue os itens que se seguem.",
-    "item": "As obras de referência permitem leituras consecutivas de informações e são utilizadas para con- sultas de informação imediata, também conhecida como consulta de localização de fato.",
+    "item": "As obras de referência permitem leituras consecutivas de informações e são utilizadas para consultas de informação imediata, também conhecida como consulta de localização de fato.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
@@ -1401,7 +1401,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "Julgue os itens seguintes, relativos às fontes jurídicas de informação.",
-    "item": "Na condição específica de documento, o acórdão enquadra -se no âmbito dos atos normativos — também denominados atos deliberativo-normativos —, que consistem nos atos oriundos de del i- berações de órgãos da administração pública, geralmente colegiados, nos quais constam regras e normas de cumprimento.",
+    "item": "Na condição específica de documento, o acórdão enquadra-se no âmbito dos atos normativos — também denominados atos deliberativo-normativos —, que consistem nos atos oriundos de del deliberações de órgãos da administração pública, geralmente colegiados, nos quais constam regras e normas de cumprimento.",
     "gabarito": "C",
     "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
@@ -1554,7 +1554,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
-    "item": "O Portal de Periódicos da CAPES é uma iniciativa brasileira de acesso aberto à infor mação cientí- fica que reúne a produção cientifica internacional de qualidade, disponibilizando -a a instituições de ensino e pesquisa no Brasil.",
+    "item": "O Portal de Periódicos da CAPES é uma iniciativa brasileira de acesso aberto à infor mação científica que reúne a produção cientifica internacional de qualidade, disponibilizando -a a instituições de ensino e pesquisa no Brasil.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
@@ -1571,7 +1571,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
-    "item": "O Diário Oficial da União, os diários oficiais dos estados e o do Distrito Federal podem ser cons i- derados fontes secundárias de informação jurídica.",
+    "item": "O Diário Oficial da União, os diários oficiais dos estados e o do Distrito Federal podem ser cons considerados fontes secundárias de informação jurídica.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
@@ -1588,7 +1588,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "A respeito das fontes de informação, do desenvolvimento de bibliografias e da di s-",
-    "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é um sistema de acesso público que reúne informações sobre as coleções de publicações seriadas exclusivamente nacionais e disp o- níveis apenas em bibliotecas brasileiras.",
+    "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é um sistema de acesso público que reúne informações sobre as coleções de publicações seriadas exclusivamente nacionais e disp disponíveis apenas em bibliotecas brasileiras.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
@@ -1690,7 +1690,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.4",
     "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
-    "item": "Os principais eventos científicos em informação jurídica no Brasil são o Encontro Nacional de I n- formação e Documentação Jurídica, o Seminário de Documentação e Informação Jurídica do Rio de Janeiro e o Encontro dos Documentalistas dos Tribunais de Justiça.",
+    "item": "Os principais eventos científicos em informação jurídica no Brasil são o Encontro Nacional de I informação e Documentação Jurídica, o Seminário de Documentação e Informação Jurídica do Rio de Janeiro e o Encontro dos Documentalistas dos Tribunais de Justiça.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",

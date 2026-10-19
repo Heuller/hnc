@@ -94,7 +94,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "macroModuloId": "M1",
     "submoduloId": "1.1",
     "contexto": "Acerca das relações disciplinares da Ciência da Informação, julgue o item a seguir.",
-    "item": "A ciência da informação caracteriza-se por sua estrita autonomia unidisciplinar, não estabelecendo diálogos teóricos ou metodológicos com a linguística ou com a ciência da computação.",
+    "item": "A ciência da informação caracteriza-se por sua estrita autonomia unidisciplinar, não estabelecendo diálogos teóricos oumetodológicos com a linguística ou com a ciência da computação.",
     "gabarito": "E",
     "justificativa": "Completamente falso. A Ciência da Informação é notoriamente reconhecida por sua natureza interdisciplinar (Saracevic, Pinheiro, Borko), articulando-se com diversas disciplinas.",
     "armadilhaBanca": "Generalização restritiva clássica da banca ('estrita autonomia unidisciplinar').",
@@ -114,7 +114,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à evolução histórica dos suportes e instituições de memória, julgue o item.",
     "item": "A invenção da imprensa de tipos móveis no século XV revolucionou precipuamente a representação temática da informação, mantendo inalterada a sua velocidade e capacidade de difusão social.",
     "gabarito": "E",
-    "justificativa": "Errado. A prensa de Gutenberg impactou radicalmente a multiplicação e circulação dos textos. A representação temática continuou manual por séculos.",
+    "justificativa": "Errado. A prensa de Gutenberg impactou radicalmente a multiplicação e circulação dos textos. A representação temática continuoumanual por séculos.",
     "armadilhaBanca": "Inversão dos efeitos históricos da prensa.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1022,7 +1022,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos suportes documentais, julgue o item a seguir.",
     "item": "A documentação considera perfurações em cartão, sinais magnéticos em fitas, signos visuais e registros digitais em bancos de dados como documentos do tipo suporte de dados.",
     "gabarito": "C",
-    "justificativa": "Certo. Independentemente da tecnologia de gravação, qualquer elemento físico ou magnético portador de signos fixados constitui documento.",
+    "justificativa": "Certo. Independentemente da tecnologia de gravação, qualquer elemento físico oumagnético portador de signos fixados constitui documento.",
     "armadilhaBanca": "Item correto cobrado textualmente pela banca.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1179,7 +1179,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o próximo item, no que tange à materialidade do documento.",
     "item": "No ambiente digital, a desmaterialização do suporte físico significa que os documentos em rede deixam de possuir qualquer materialidade física ou registro em hardware.",
     "gabarito": "E",
-    "justificativa": "Falso. O documento digital possui materialidade física sim: ele reside fisicamente em circuitos de memória, discos ópticos, servidores e cabos sob a forma de pulsos elétricos ou magnéticos.",
+    "justificativa": "Falso. O documento digital possui materialidade física sim: ele reside fisicamente em circuitos de memória, discos ópticos, servidores e cabos sob a forma de pulsos elétricos oumagnéticos.",
     "armadilhaBanca": "Confusão comum entre intangibilidade do software e ausência de base material física.",
     "dificuldade": "media",
     "fonteOriginal": {

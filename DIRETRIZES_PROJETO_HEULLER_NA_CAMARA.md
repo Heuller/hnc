@@ -611,7 +611,16 @@ Em estrita consonância com as cláusulas editalícias oficiais do Concurso da C
 * **Escopo da Rodada:** Varredura exaustiva de informativos, teses de repercussão geral do STF e acórdãos do TCU aplicáveis à Administração Pública, Biblioteconomia, Ciência da Informação e Processo Legislativo da Câmara dos Deputados.
 
 ---
-*Documento atualizado em 13 de Outubro de 2026 — Fase 4 (Conhecimentos Básicos: RCCN, Constitucional, Português e Atualização Normativa).*  
+
+## 21. DIRETRIZ ESTRATÉGICA DA MISSÃO v2: MODELO TEÓRICO DUAL (CANÔNICO vs. DIDÁTICO/CASOS PRÁTICOS)
+
+Em cumprimento à determinação estratégica do aluno para as Fases 4 e 5 da **Missão v2**:
+* **NÃO substituir** a teoria atual exclusivamente pelo novo formato em bloco.
+* **Adicionar um dispositivo (toggle/seletor) por módulo/submódulo**, permitindo que o usuário escolha dinamicamente se deseja estudar pela **Teoria Canônica (formato institucional denso atual)** ou pelo **Novo Formato Didático / Vida Real** (focado em casos práticos do dia a dia, menor sobrecarga cognitiva, exemplos e aplicação prática imediata).
+* Essa escolha deve ser memorizada no estado do usuário (`useProgressStore` / `localStorage`) para cada módulo/submódulo, garantindo máxima flexibilidade cognitiva para o aluno Richard.
+
+---
+*Documento atualizado em 19 de Outubro de 2026 — Missão v2 (Fases 2 e 3: Auditoria, Cobertura Edital e Injeção de Questões Reais).*  
 *Projeto Heuller na Câmara — Plataforma Pessoal de Domínio Cebraspe.*
 
 

@@ -1250,7 +1250,7 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à Inteligência Artificial Generativa, arquiteturas neurais Transformer, modelos de linguagem (LLMs), engenharia de prompt e ética no setor público, julgue o item a seguir.",
     "item": "Um token em um modelo de linguagem equivale sempre e invariavelmente a exatamente uma palavra completa do dicionário de língua portuguesa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Tokens são fragmentos sub-palavras (subwords); uma palavra pode corresponder a 1, 2 ou mais tokens dependendo da tokenização (Byte-Pair Encoding).",
+    "justificativa": "Gabarito ERRADO. Tokens são fragmentos sub-palavras (subwords); uma palavra pode corresponder a 1, 2 oumais tokens dependendo da tokenização (Byte-Pair Encoding).",
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1452,7 +1452,7 @@ export const simuladoTecnologiaDados100Q: CebraspeQuestion[] = [
     "macroModuloId": "M14",
     "submoduloId": "14.4",
     "contexto": "No tocante a fundamentos de ciência de dados, pipelines de ETL/ELT, modelagem relacional e dimensional, Business Intelligence (Power BI) e Storytelling com dados, julgue o item a seguir.",
-    "item": "Na linguagem DAX (Data Analysis Expressions) do Power BI, a função CALCULATE avalia uma expressão sob um contexto de filtro modificado por um ou mais filtros explícitos, constituindo a função mais poderosa para manipulação de regras de negócio em modelos analíticos.",
+    "item": "Na linguagem DAX (Data Analysis Expressions) do Power BI, a função CALCULATE avalia uma expressão sob um contexto de filtro modificado por um oumais filtros explícitos, constituindo a função mais poderosa para manipulação de regras de negócio em modelos analíticos.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. CALCULATE é a única função capaz de realizar transição de contexto e modificar o contexto de filtro.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
