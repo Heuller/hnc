@@ -194,6 +194,60 @@ O servidor público federal responde em três esferas distintas e independentes:
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Administração da Câmara dos Deputados (sub-10-1):** Regime funcional dos servidores legislativos e requisição de pessoal.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Regime Jurídico Único dos Servidores Públicos Civis da União (Lei Federal nº 8.112/1990)** estabelece o estatuto aplicável ao Analista Legislativo da Câmara dos Deputados:
+1. **Formas de Provimento de Cargo Público (Art. 8º):**
+   - **Nomeação:** A **única forma originária** de provimento (em caráter efetivo mediante concurso público ou em comissão para cargos de confiança).
+   - **Formas Derivadas Canônicas (Mnemônico 4R + PAA):**
+     - **Promoção:** Elevação funcional na mesma carreira.
+     - **Readaptação:** Investidura em cargo de atribuições compatíveis com limitação física ou mental sofrida pelo servidor.
+     - **Reversão:** Retorno do aposentado ao serviço ativo (de ofício no interesse da administração ou a pedido se cessada a invalidez).
+     - **Reintegração:** Retorno do servidor estável demitido ilegalmente, com **ressarcimento integral** de todas as vantagens salariais, após anulação da demissão em decisão judicial ou administrativa.
+     - **Recondução:** Retorno do servidor estável ao cargo anteriormente ocupado em decorrência de: a) inabilitação em estágio probatório em outro cargo; ou b) reintegração do ocupante anterior.
+     - **Aproveitamento:** Retorno do servidor em disponibilidade em cargo compatível.
+2. **Posse e Exercício (Prazos Críticos):**
+   - **Nomeação $\to$ Posse:** Prazo de **30 dias** contados da publicação oficial. A posse pode se dar por procuração específica. Se não tomar posse: a nomeação é tornada sem efeito!
+   - **Posse $\to$ Exercício:** Prazo de **15 dias** contados da posse. O exercício exige presença física. Se não entrar em exercício no prazo: o servidor é **exonerado**!
+3. **Estágio Probatório e Estabilidade:**
+   - Duração de **3 anos (36 meses)** de efetivo exercício (Súmula Vinculante nº 21 do STF e CF art. 41). Fatores de avaliação: Assiduidade, Disciplina, Capacidade de iniciativa, Produtividade e Responsabilidade.
+4. **Vencimento vs. Remuneração:**
+   - *Vencimento:* Retribuição pecuniária básica fixada em lei.
+   - *Remuneração:* Vencimento do cargo efetivo acrescido das vantagens pecuniárias permanentes. Irredutibilidade de vencimentos ressalvado o teto constitucional (subsídio dos Ministros do STF).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Posse e Entrada em Exercício do Concursado na Câmara):** Richard é nomeado Analista Legislativo - Biblioteconomia no Diário Oficial. Ele tem até **30 dias** para apresentar seus documentos e tomar posse perante o Diretor do Departamento de Recursos Humanos. Após assinar o termo de posse, tem o prazo de **15 dias** para se apresentar fisicamente na Biblioteca Pedro Aleixo e iniciar o exercício de suas atividades técnicas.
+- **Cenário 2 (Recondução após Estágio Probatório em Outro Cargo):** Um bibliotecário estável da Câmara é aprovado no concurso de Auditor Fiscal e pede vacância por posse em cargo inacumulável. Durante o estágio probatório no novo órgão, desiste ou é inabilitado na avaliação: ele tem o direito constitucional garantido de ser **reconduzido** ao seu antigo cargo de Analista na Câmara dos Deputados, reassumindo sua estabilidade.
+- **Cenário 3 (Readaptação de Servidor com LER/DORT):** Um bibliotecário com 15 anos de catalogação manual intensa desenvolve lesão por esforço repetitivo grave comprovada por junta médica pericial oficial. A Câmara opera a **readaptação**, transferindo o servidor para o serviço de planejamento bibliográfico ou curadoria cultural, em cargo com atribuições e vencimentos compatíveis.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Instituto da Lei 8.112 | O que Acontece Exatamente | Requisito Principal | Consequência Pecuniária |
+| :--- | :--- | :--- | :--- |
+| **Reintegração** | Retorno de demitido ilegalmente | Decisão judicial ou administrativa | **Ressarcimento de todos os salários** |
+| **Recondução** | Retorno de servidor estável ao cargo anterior | Inabilitação em estágio ou reintegração | Volta ao cargo sem indenização retroativa |
+| **Reversão** | Retorno de aposentado à ativa | Junta médica (invalidez) ou interesse público | Volta a receber remuneração da ativa |
+| **Readaptação** | Investidura em cargo compatível | Limitação física ou mental | Mantém vencimentos do cargo |
+| **Não Tomar Posse (30 d)** | Não compareceu para assinar | Prazo de 30 dias expirou | Nomeação tornada **sem efeito** |
+| **Não Entrar em Exercício (15 d)** | Tomou posse, mas não foi trabalhar | Prazo de 15 dias expirou | Servidor é **exonerado** |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Consequência do Não Comparecimento:** A banca afirma que quem toma posse e não entra em exercício tem a nomeação tornada sem efeito. **Gabarito: ERRADO.** Se tomou posse e não foi trabalhar em 15 dias, ele já é servidor público formal e, portanto, é **exonerado**! A nomeação só é tornada sem efeito se o candidato sequer tomar posse no prazo de 30 dias.
+- **Duração do Estágio Probatório:** O texto original da Lei 8.112 dizia 24 meses, mas a Emenda Constitucional nº 19/98 elevou a estabilidade para 3 anos. O STF pacificou na Súmula Vinculante 21 que o estágio probatório dura obrigatoriamente **3 anos (36 meses)**.
+- **Ascensão e Transferência como Formas de Provimento:** O Cebraspe coloca "ascensão" ou "transferência" como formas legítimas de provimento derivado. **Gabarito: ERRADO.** Ambas foram declaradas **inconstitucionais pelo STF (Súmula Vinculante nº 43)** por violarem a exigência de concurso público!
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 8.112, de 11 de dezembro de 1990*. Dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais.
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Capítulo de Servidores Públicos).
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Súmula Vinculante nº 21: É constitucional a exigência de 3 anos de efetivo exercício para a aquisição da estabilidade*.
+- **SUPREMO TRIBUNAL FEDERAL (STF).** *Súmula Vinculante nº 43: É inconstitucional toda modalidade de provimento que propicie ao servidor investir-se, sem prévia aprovação em concurso público...*`,
   checkpoints: [
     {
       id: 'cp-11-3-1',

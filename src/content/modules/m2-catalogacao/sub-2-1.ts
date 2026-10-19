@@ -299,7 +299,15 @@ A catalogação descritiva moderna baseia-se em dois pilares fundamentais cobrad
 
 ### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
 - *Qual o princípio soberano que rege o ICP da IFLA?* (Conveniência do Usuário).
-- *Como é a pontuação entre áreas na ISBD/AACR2r?* (Ponto-espaço-travessão-espaço: \` . — \`).`,
+- *Como é a pontuação entre áreas na ISBD/AACR2r?* (Ponto-espaço-travessão-espaço: \` . — \`).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **IFLA.** *Declaração de Princípios Internacionais de Catalogação (ICP)*. Tradução de Antonia Memória. Haia/Brasília: IFLA/FEBAB, 2016. (Princípio da Conveniência do Usuário e princípios gerais de catalogação).
+* **CÓDIGO de Catalogação Anglo-Americano (AACR2r).** 2. ed. rev. São Paulo: FEBAB/Imprensa Oficial, 2004. (Regras descritivas, pontuação ISBD e pontos de acesso).
+* **MEY, Eliane Serrão Alves; SILVEIRA, Naira Christofoletti.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009. (Tratamento descritivo da informação e evolução dos instrumentos).
+* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.`,
   checkpoints: [
     {
       id: 'cp-2-1-1',

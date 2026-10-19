@@ -215,6 +215,57 @@ No ambiente do Poder Legislativo, onde convivem bancadas partidárias com visõe
 * **Avaliação, Desbastamento e Métricas (sub-5-3):** Critérios quantitativos e qualitativos de descarte e remanejamento.
 * **Direito Autoral e Acesso Aberto (sub-9-3):** Liberdade intelectual versus censura segundo IFLA e CF/88.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Planejamento de Bibliotecas** e a **Avaliação de Serviços por Indicadores (ISO 11620)** constituem a base gerencial moderna das unidades de informação:
+1. **Níveis de Planejamento (Almeida e Maciel & Mendonça):**
+   - **Estratégico (Longo Prazo / Alta Administração):** Define missão, visão, valores, objetivos institucionais e diretrizes gerais. Envolve análise de cenários (Matriz SWOT / FOFA: Forças, Oportunidades, Fraquezas e Ameaças).
+   - **Tático (Médio Prazo / Gerência Departamental):** Desdobra as diretrizes estratégicas em planos setoriais (ex.: plano de desenvolvimento de coleções, plano de modernização tecnológica do CEDI). Aloca recursos financeiros e humanos.
+   - **Operacional (Curto Prazo / Execução Cotidiana):** Planos de ação detalhados, cronogramas, rotinas, procedimentos operacionais padrão (POP) e atribuições diárias dos bibliotecários.
+2. **Avaliação e Indicadores de Desempenho (Norma ISO 11620):**
+   - Um indicador de desempenho é uma expressão numérica (taxa, proporção ou índice) que mede a eficácia, eficiência e adequação dos serviços.
+   - **Critérios de Qualidade de um Indicador:** Validade, confiabilidade, relevância, comparabilidade e custo-benefício da coleta.
+   - Indicadores canônicos da ISO 11620: Custo por uso da coleção, Taxa de rotatividade do acervo, Tempo médio de resposta a consultas de referência, Satisfação do usuário e Percentual de empréstimos por usuário ativo.
+3. **Ferramentas Gerenciais Canônicas:**
+   - **Ciclo PDCA (Deming):** *Plan* (Planejar), *Do* (Executar), *Check* (Verificar), *Act* (Agir corretivamente).
+   - **5W2H:** *What, Why, Where, When, Who, How, How much*.
+   - **Matriz GUT:** Gravidade, Urgência e Tendência (para priorização de problemas operacionais).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Planejamento Estratégico no CEDI):** A Diretoria-Geral da Câmara publica o Plano Estratégico 2024–2027. O CEDI elabora seu planejamento tático definindo como meta a digitalização de 100% dos anais legislativos do século XIX e a redução do tempo de atendimento a consultas de deputados para no máximo 4 horas.
+- **Cenário 2 (Aplicação da ISO 11620 na Biblioteca Pedro Aleixo):** O coordenador da biblioteca audita o serviço de empréstimo entre bibliotecas da RVBI e calcula o indicador:
+  $\text{Taxa de Sucesso no Atendimento} = \frac{\text{Consultas Respondidas no Prazo}}{\text{Total de Consultas Recebidas}} \times 100$.
+  Ao verificar um índice de 96%, comprova a eficácia operacional do serviço no relatório de gestão anual apresentado ao Presidente da Câmara.
+- **Cenário 3 (Matriz SWOT na Expansão da BDCam):** Antes de migrar o software DSpace para a versão mais recente em nuvem, a equipe de bibliotecários realiza uma análise FOFA: Força (equipe técnica qualificada), Fraqueza (servidores locais legados), Oportunidade (integração ao portal do Governo Digital), Ameaça (restrições orçamentárias na LOA).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Nível de Planejamento | Horizonte Temporal | Responsável Típico | Foco da Decisão |
+| :--- | :--- | :--- | :--- |
+| **Estratégico** | Longo prazo (3 a 5 anos) | Diretoria-Geral / CEDI | Missão, Visão e Relação com o Ambiente |
+| **Tático** | Médio prazo (1 a 2 anos) | Chefia de Seção da Biblioteca | Alocação de Recursos e Planos Setoriais |
+| **Operacional** | Curto prazo (dias/meses) | Bibliotecários e Analistas | Rotinas, Tarefas e Metas Imediatas |
+| **ISO 11620** | Avaliação contínua | Auditoria da Biblioteca | Indicadores quantitativos de desempenho |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão dos Níveis de Planejamento:** Dizer que a elaboração de Procedimentos Operacionais Padrão (POPs) para tombamento de livros é atividade típica do planejamento estratégico. **Gabarito: ERRADO.** Trata-se de planejamento operacional.
+- **Eficácia vs. Eficiência:**
+  - *Eficiência:* Fazer as coisas com o menor consumo de recursos possível (relação custo-benefício / meios).
+  - *Eficácia:* Atingir o objetivo e o resultado esperado, independentemente do custo (fins). O Cebraspe troca sistematicamente esses dois termos.
+- **ISO 11620 como Norma de Catalogação:** Afirmar que a ISO 11620 estabelece regras de descrição física de livros. **Gabarito: ERRADO.** A ISO 11620 é estritamente uma norma de **indicadores de desempenho e avaliação de bibliotecas**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ALMEIDA, Maria Christina Barbosa de.** *Planejamento de bibliotecas e serviços de informação*. 2. ed. Brasília: Briquet de Lemos, 2005. (A referência clássica sobre planejamento em unidades de informação).
+- **MACIEL, Alba Costa; MENDONÇA, Marília Alvarenga Rocha.** *Bibliotecas como organizações*. Rio de Janeiro: Interciência, 2000.
+- **ISO 11620:2014.** *Information and documentation — Library performance indicators*. Genebra: ISO, 2014.
+- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996.
+- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.`,
   checkpoints: [
     {
       id: 'cp-5-1-1',

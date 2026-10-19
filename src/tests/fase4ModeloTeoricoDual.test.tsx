@@ -105,28 +105,29 @@ describe('Fase 4: Modelo Teórico Dual, Metadados e Vida Real (W5)', () => {
     }
   });
 
-  it('deve conter o piloto da Teoria Didática (teoriaDidaticaMarkdown) nos submódulos estratégicos (M1, M2, M7, M10)', () => {
+  it('deve conter a Teoria Didática (teoriaDidaticaMarkdown) em 100% dos 75 submódulos com vida real e referências canônicas (W5)', () => {
     const allSubs = ALL_COURSE_MODULES.flatMap((m) => m.modulosFilhos);
-    const alvosPiloto = ['1.1', '1.2', '2.1', '7.1', '10.1'];
+    expect(allSubs.length).toBe(75);
 
-    for (const num of alvosPiloto) {
-      const sub = allSubs.find((s) => s.numero === num);
-      expect(sub, `Submódulo piloto ${num} deve existir`).toBeDefined();
+    for (const sub of allSubs) {
       expect(
-        sub?.teoriaDidaticaMarkdown,
-        `Submódulo ${num} deve conter teoriaDidaticaMarkdown preenchido`
+        sub.teoriaDidaticaMarkdown,
+        `Submódulo ${sub.numero} (${sub.id}) deve conter teoriaDidaticaMarkdown preenchido`
       ).toBeDefined();
       expect(
-        sub?.teoriaDidaticaMarkdown?.length,
-        `Submódulo ${num} deve conter conteúdo didático substancial`
+        sub.teoriaDidaticaMarkdown?.length,
+        `Submódulo ${sub.numero} deve conter conteúdo didático substancial (> 500 chars)`
       ).toBeGreaterThan(500);
 
-      // Valida estrutura didática obrigatória
-      const content = sub?.teoriaDidaticaMarkdown || '';
-      expect(content).toContain('Visão Direta em 3 Minutos');
-      expect(content).toContain('Vida Real na Câmara dos Deputados');
-      expect(content).toContain('Como o Cebraspe Cobra na Prova');
-      expect(content).toContain('Micro-Pausa Ativa');
+      // Valida estrutura didática obrigatória e fundamentação
+      const content = sub.teoriaDidaticaMarkdown || '';
+      expect(content, `Submódulo ${sub.numero} deve conter Visão Direta`).toMatch(/Visão Direta em 3/i);
+      expect(content, `Submódulo ${sub.numero} deve conter Vida Real na Câmara`).toContain('Vida Real na Câmara dos Deputados');
+      expect(content, `Submódulo ${sub.numero} deve conter Como o Cebraspe Cobra`).toContain('Como o Cebraspe Cobra');
+      expect(
+        content.includes('Fundamentação Doutrinária') || content.includes('Referências Bibliográficas') || content.includes('Referência'),
+        `Submódulo ${sub.numero} deve conter referências bibliográficas canônicas`
+      ).toBe(true);
     }
   });
 

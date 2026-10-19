@@ -224,6 +224,57 @@ Para consolidar a teoria em nível de prova Cebraspe, analise o desdobramento do
 * **Sistemas Informacionais e Bancos de Dados (sub-6-5):** Distinção crucial entre modelagem de domínio bibliográfico (LRM) e modelagem de dados (MER).
 * **BIBFRAME 2.0 e Linked Data (sub-2-7):** Mapeamento WEMI para as classes centrais do BIBFRAME (Work, Instance, Item).
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os modelos conceituais da IFLA revolucionaram a representação bibliográfica, transpondo a catalogação da era tipográfica para a modelagem entidade-relacionamento:
+1. **A Família FRBR Original:**
+   - **FRBR (1998):** Requisitos Funcionais para Registros Bibliográficos (foco nos dados bibliográficos de produtos e materiais).
+   - **FRAD (2009):** Requisitos Funcionais para Dados de Autoridade (foco em nomes de pessoas, famílias e entidades coletivas).
+   - **FRSAD (2010):** Requisitos Funcionais para Dados de Assunto (entidades *Thema* e *Nomen*).
+2. **As Entidades do Grupo 1 do FRBR (A Tríade WEMI):**
+   - **Obra (*Work*):** Criação intelectual ou artística abstrata (ex.: o conceito da *Constituição Brasileira de 1988*).
+   - **Expressão (*Expression*):** A realização intelectual ou artística da obra em signos, texto, idioma, som ou imagem (ex.: o texto original em português da Constituição, ou sua tradução para o inglês).
+   - **Manifestação (*Manifestation*):** A corporificação física ou digital da expressão da obra em um suporte (ex.: a edição impressa pela Edições Câmara em 2023, brochura, ISBN X).
+   - **Item (*Item*):** O exemplar físico ou arquivo digital individual e único pertencente a uma coleção (ex.: o exemplar físico com código de barras 0012398 localizado na estante da Biblioteca Pedro Aleixo).
+3. **O IFLA LRM (*Library Reference Model* - 2017):**
+   - Modelo conceitual único de alto nível que consolidou e unificou FRBR, FRAD e FRSAD em um único modelo consistente.
+   - Criado com modelagem formal orientada a objetos (classes e subclasses) para viabilizar a Web Semântica.
+   - Entidade topo de hierarquia: **Res** (qualquer coisa que possa ser objeto de discurso no universo bibliográfico).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (WEMI em uma Lei Federal):**
+  - **Obra:** A *Lei Maria da Penha (Lei nº 11.340/2006)* como entidade abstrata do direito.
+  - **Expressão:** O texto normativo consolidado com as alterações legais de 2023.
+  - **Manifestação:** O livreto em formato de bolso publicado pelas Edições Câmara em 2024.
+  - **Item:** O exemplar tombado na Biblioteca Pedro Aleixo com dedicatória autografada ao Presidente da Câmara.
+- **Cenário 2 (O IFLA LRM e a Entidade *Res* na Busca Temática):** Na modelagem de ontologias legislativas na Câmara, qualquer entidade do processo parlamentar (um deputado, uma comissão, um parecer, uma sessão plenária) herda as propriedades de **Res**, permitindo que o sistema de busca responda a perguntas complexas como: *"Quais expressões de discursos de autoria do Deputado X sobre Direito Ambiental foram manifestadas em formato de vídeo em 2022?"*.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Nível FRBR (WEMI) | Natureza | Pergunta-Chave | Exemplo na Câmara |
+| :--- | :--- | :--- | :--- |
+| **Obra (Work)** | Abstrata / Conceitual | O que foi concebido idealmente? | O *Regimento Interno da Câmara* |
+| **Expressão** | Linguística / Semiótica | Em que forma e idioma se realizou? | O texto consolidado em língua portuguesa |
+| **Manifestação** | Comercial / Produção | Como foi corporificado e publicado? | A edição impressa da Edições Câmara de 2024 |
+| **Item** | Tangível / Exemplar | Qual é a cópia física individual? | O livro carimbado com o tombo nº 55.432 na estante |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão Obra vs. Expressão:** A banca afirma que *"a tradução de uma obra literária para o espanhol constitui uma nova Obra dentro do modelo FRBR"*. **Gabarito: ERRADO.** A tradução é uma nova **Expressão** da mesma Obra original! Uma nova Obra surge apenas quando há modificação substancial de conteúdo (ex.: uma adaptação ou paródia autônoma).
+- **Mudança de Manifestação sem Mudar Expressão:** A reimpressão idêntica de um livro mudando apenas o tipo de papel e a capa gera uma nova Manifestação, mas mantém a mesma Expressão. **Gabarito: CERTO.**
+- **Unificação no LRM:** Dizer que o LRM descartou o WEMI. **Gabarito: ERRADO.** O LRM preservou a cadeia WEMI como subclasses diretas da entidade *Res*.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **IFLA Study Group on the Functional Requirements for Bibliographic Records.** *Functional Requirements for Bibliographic Records: Final Report*. München: K. G. Saur, 1998. (Relatório canônico do FRBR).
+- **IFLA Working Group on Functional Requirements and Numbering of Authority Records (FRANAR).** *Functional Requirements for Authority Data (FRAD)*. München: K. G. Saur, 2009.
+- **RIVA, Pat; LE BŒUF, Patrick; ŽUMER, Maja.** *IFLA Library Reference Model (LRM): A Conceptual Model for Bibliographic Information*. The Hague: IFLA, 2017.
+- **MORENO, Fernanda Paula; MEY, Eliane Serrão Alves.** A família dos modelos conceituais FRBR: origens, estrutura e desdobramentos. *Perspectivas em Ciência da Informação*, v. 23, n. 4, p. 110-132, 2018.
+- **ZINS, Chaim.** Conceptual approaches for defining data, information, and knowledge. *Journal of the American Society for Information Science and Technology*, v. 58, n. 4, p. 479-493, 2007.`,
   checkpoints: [
     {
       id: 'cp-2-3-1',

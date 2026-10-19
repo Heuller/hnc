@@ -162,6 +162,55 @@ Em acervos híbridos como o da Câmara dos Deputados (Biblioteca Pedro Aleixo e 
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Preservação Digital (OAIS e PREMIS) (sub-6-3):** Preservação de matrizes digitalizadas e suporte de longo prazo.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Conservação Preventiva** estabelece as rotinas sistemáticas de higienização, acondicionamento e manuseio que retardam a degradação física dos suportes:
+1. **Higienização de Acervos:**
+   - Remoção mecânica de poeira e sujidades superficiais acumuladas (a poeira é higroscópica e ácida, absorvendo umidade e nutrindo fungos).
+   - **Técnicas e Equipamentos Canônicos:**
+     - *Trincha de cerdas macias:* Varredura suave da borda superior (corte superior) para fora do livro.
+     - *Aspirador de pó com filtro HEPA e controle de sucção:* Bocal protegido com gaze/filtro para não aspirar fragmentos de papel soltos.
+     - *Borracha em pó (ou pó de borracha macia):* Utilizada com movimentos circulares para limpar sujidades resistentes em margens sem texto (nunca sobre tintas frágeis ou manuscritos).
+   - **Proibições Absolutas:** Uso de água, álcool, fita crepe, fita adesiva comum (Durex) e grampos metálicos oxidáveis.
+2. **Acondicionamento e Embalagens:**
+   - Embalagens de proteção primária funcionam como barreira contra luz, poluentes atmosféricos e oscilações bruscas de umidade.
+   - **Materiais Recomendados:** Papel alcalino (*acid-free*) com reserva alcalina de carbonato de cálcio ($pH \ge 7,5$); cartão triplex alcalino; caixas de polipropileno corrugado (Polionda neutro); envelopes de poliéster virgem (Mylar/Melinex para manuscritos e fotos).
+3. **Manuseio e Acomodação nas Estantes:**
+   - Apoio firme nas estantes sem compressão excessiva (que deforma a encadernação) e sem folga exagerada (que tomba e empena o volume).
+   - Retirar o livro da estante empurrando os volumes laterais e segurando pelo meio da lombada (NUNCA puxar pela coifa superior da lombada!).
+   - Uso de luvas: luvas de algodão ou nitrílicas para fotos, metais e obras raras; para papel comum encadernado, as mãos limpas e secas são preferíveis para não perder a sensibilidade tátil e rasgar folhas frágeis.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Rotina de Higienização de Cortes de Livros no Acervo):** A equipe de conservação da Biblioteca Pedro Aleixo realiza a higienização mecânica semestral: cada volume é retirado da estante, mantido firmemente fechado e escovado com trincha macia a partir da lombada em direção à borda aberta do corte, impedindo que a poeira caia entre as páginas do miolo.
+- **Cenário 2 (Substituição de Prendedores Metálicos Oxidados em Processos Históricos):** Ao higienizar maços de discursos manuscritos de deputados do Império, o bibliotecário remove todos os clipes e alfinetes de ferro enferrujados que estavam manchando o papel. Para manter os maços unidos, utiliza tiras de papel alcalino dobrado ou clipes plásticos inertes.
+- **Cenário 3 (Confecção de Caixas Sob Medida para Obras Raras):** Uma edição original de 1827 dos *Anais do Parlamento Brasileiro* apresenta lombada solta. Em vez de colar fita adesiva, o técnico confecciona uma caixa de quatro abas sob medida em cartão alcalino neutro (*Four-Flap Enclosure*), protegendo a obra contra poeira e luz até que passe pelo laboratório de restauro.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Ação / Material | Conduta Correta Canônica | Conduta Proibida / Erro Grave | Motivo Técnico |
+| :--- | :--- | :--- | :--- |
+| **Retirada da Estante** | Empurrar vizinhos e puxar pelo corpo da lombada | Puxar pela coifa superior | Rasga a cabeça da encadernação |
+| **Material da Embalagem** | Papel ou cartão alcalino ($pH \ge 7,5$) | Papel jornal, papelão comum pardo | Migração ácida de lignina |
+| **Reparo de Rasgos** | Papel japonês e cola de metilcelulose | Fita durex, fita crepe, fita adesiva | Oxidação irreversível da cola sintética |
+| **Uso de Luvas** | Mãos limpas para livros; luvas para fotos | Luvas grossas para virar folhas frágeis | Falta de tato rasga papel antigo |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O Uso de Fitas Adesivas Comerciais:** A banca afirma que rasgos em folhas de livros podem ser reparados com fita adesiva transparente comum do tipo *Magic Tape*. **Gabarito: ERRADO.** Qualquer fita adesiva comercial comum é terminantemente proibida em conservação de acervos, pois seus adesivos oxidam, mancham o papel de amarelo escuro e tornam-se irreversíveis.
+- **Higienização Úmida do Papel:** Afirmar que a poeira das páginas deve ser retirada com pano levemente umedecido em álcool 70%. **Gabarito: ERRADO.** A higienização rotineira é puramente a seco mecânica; água e álcool solubilizam tintas e aceleram a hidrólise ácida.
+- **Puxar o Livro pela Coifa:** A banca descreve como técnica padrão puxar o livro pelo topo da lombada com o dedo indicador. **Gabarito: ERRADO.** É a principal causa mecânica de destruição de lombadas em bibliotecas.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CASSARES, Norma Cristina; MOI, Cláudia.** *Preservação de acervos bibliográficos: princípios e práticas*. São Paulo: Imprensa Oficial; Arquivo Público do Estado, 2008. (A referência mais cobrada em conservação preventiva).
+- **SPINELLI JÚNIOR, Jayme.** *A conservação de acervos bibliográficos e documentais*. Rio de Janeiro: FBN, 1995.
+- **OGDEN, Sherelyn (Org.).** *Manual de preservação de documentos*. Rio de Janeiro: Projeto CPBA; Arquivo Nacional, 2001.
+- **LIBRARY OF CONGRESS.** *Care, Handling, and Storage of Books*. Washington: Preservation Directorate, Library of Congress, 2021.
+- **IFLA.** *Principles for the Care and Handling of Library Material*. Haia: IFLA Core Programme on Preservation and Conservation (PAC), 2010.`,
   checkpoints: [
     {
       id: 'cp-7-3-1',

@@ -196,6 +196,62 @@ Para a ordenação de fichas ou de documentos nas estantes, a CDU preconiza a re
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Classificação Decimal Universal (CDU) (sub-3-2):** Contraste entre o modelo enumerativo hierárquico da CDD e o modelo analítico-sintético da CDU.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Classificação Decimal Universal (CDU)** e a **Classificação Decimal de Dewey (CDD)** são os dois maiores sistemas bibliográficos decimais do mundo e figuram entre os tópicos mais cobrados pelo Cebraspe:
+1. **CDD (Melvil Dewey, 1876 / 23ª ed.):**
+   - Sistema puramente hierárquico e predominantemente enumerativo, estruturado em 10 classes principais (000 a 900), com princípio da notação decimal e três resumos (*summaries*).
+   - Uso de 6 tabelas auxiliares padronizadas (T1: Subdivisões Padrão, T2: Áreas Geográficas, T3: Subdivisões para Literaturas, T4: Subdivisões para Línguas, T5: Grupos Étnicos e Nacionais, T6: Línguas).
+2. **CDU (Paul Otlet e Henri La Fontaine, 1895 / Edição-Padrão Internacional):**
+   - Sistema analítico-sintético e facetado, derivado da CDD, mas infinitamente mais flexível para relacionar conceitos compostos.
+   - **Tabela Principal (10 Classes):** 0 (Generalidades/Ciência e Conhecimento), 1 (Filosofia e Psicologia), 2 (Religião e Teologia), 3 (Ciências Sociais/Direito/Política), 4 (Vaga/Livre para futuras expansões), 5 (Ciências Exatas e Naturais), 6 (Ciências Aplicadas/Medicina/Tecnologia), 7 (Arte/Música/Esporte), 8 (Linguagem/Linguística/Literatura), 9 (Geografia/Biografia/História). A classe 4 está **vaga desde 1961**!
+   - **Símbolos e Sinais de Ligação Canônicos da CDU:**
+     - \`+\` (Adição): Liga assuntos independentes não consecutivos (ex.: \`53+54\` Física e Química).
+     - \`/\` (Extensão Consecutiva): Abrange uma sequência contínua de classes (ex.: \`53/54\` De Física a Química inclusive).
+     - \`:\` (Relação Simples): Conecta dois ou mais assuntos com influência mútua reversível (ex.: \`17:7\` Ética em relação à Arte).
+     - \`::\` (Relação Fixa / Ordem Irreversível): Relação subordinada inflexível de ordenação mecânica.
+     - \`[ ]\` (Subagrupamento / Colchetes): Agrupamento algébrico auxiliar para evitar ambiguidade (ex.: \`31:[622+669]\`).
+     - \`*\` (Notação Não CDU): Introduz códigos externos (fórmulas químicas, normas).
+     - \`A/Z\` (Especificação Alfabética): Complemento de nome próprio por extenso.
+   - **Auxiliares Comuns Independentes:** \`(0...)\` Forma do documento; \`(1/9)\` Lugar/Geografia; \`(=...)\` Raça/Povo; \`"..."\` Tempo/Data.
+   - **Auxiliares Comuns Dependentes:** \`-02\` Propriedades; \`-03\` Materiais; \`-05\` Pessoas e Características Pessoais.
+   - **Auxiliares Especiais:** \`-1/-9\` (Hífen: analíticos de detalhe); \`.01/.09\` (Ponto zero: processos e operações); \`'1/'9\` (Apóstrofo: síntese integradora e composição).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Classificação de Parecer sobre Reforma Tributária na Biblioteca Pedro Aleixo):** Ao classificar um livro sobre o impacto social da reforma tributária nos estados brasileiros, o classificador da Câmara constrói a síntese CDU facetada: \`336.22(81)(094.5)\` onde \`336.22\` é Direito Tributário/Impostos, \`(81)\` é auxiliar comum de lugar (Brasil) e \`(094.5)\` é auxiliar de forma para estatutos e leis.
+- **Cenário 2 (Uso de Auxiliar de Pessoas na Comissão de Defesa dos Direitos da Mulher):** Ao organizar a bibliografia temática para a Bancada Feminina sobre liderança política das mulheres parlamentares no Brasil, utiliza-se a classe \`328(81)-055.2\`, onde \`328\` representa parlamentos, \`(81)\` Brasil e \`-055.2\` é o auxiliar comum dependente para o gênero feminino.
+- **Cenário 3 (A Classe 4 Vaga na Ordenação das Estantes):** Ao orientar novos analistas e estagiários da Câmara na organização física das estantes do acervo aberto, lembra-se que após a classe 3 (Ciências Sociais e Direito) os livros saltam diretamente para a classe 5 (Ciências Exatas), pois a classe 4 está intencionalmente desocupada.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Símbolo CDU | Nome Oficial | Significado / Comportamento | Exemplo Cebraspe |
+| :--- | :--- | :--- | :--- |
+| \`+\` | Adição | Conceitos independentes (A e B) | \`622+669\` (Mineração e Metalurgia) |
+| \`/\` | Extensão consecutiva | Sequência contínua de classes (de A até B) | \`592/599\` (Zoologia sistemática) |
+| \`:\` | Relação simples | Conexão recíproca/reversível | \`34:681.3\` (Direito e Informática) |
+| \`::\` | Relação fixa | Relação irreversível (ordem fixa) | \`77.044::355\` (Fotografia militar) |
+| \`(0...)\` | Auxiliar de forma | Tipo/suporte documental | \`(035)\` (Manuais e guias) |
+| \`(1/9)\` | Auxiliar de lugar | Localização espacial/geográfica | \`(81)\` (Brasil) / \`(4)\` (Europa) |
+| \`"..."\` | Auxiliar de tempo | Datas, anos, séculos entre aspas | \`"2024"\` (Ano de 2024) |
+| \`-05\` | Auxiliar de pessoas | Características pessoais e grupos | \`-053.2\` (Crianças) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Classe 4 na CDU:** A banca afirma com frequência que *"a classe 4 da CDU destina-se atualmente à Linguística e Filologia"*. **Gabarito: ERRADO.** A classe 4 está **VAGA** desde 1961. A Linguística foi transferida para a classe 8 juntamente com a Literatura!
+- **Diferença entre \`+\` e \`/\`:** A banca troca a barra pela adição, dizendo que \`53/54\` representa apenas a física e a química isoladas. **Gabarito: ERRADO.** A barra \`/\` indica extensão contínua de todos os números entre 53 e 54 inclusive.
+- **Aspas na CDU:** Afirmar que as aspas \`"..."\` introduzem nomes próprios alfabéticos. **Gabarito: ERRADO.** As aspas indicam exclusivamente o **auxiliar comum de tempo**; nomes próprios entram com o operador alfabético \`A/Z\`.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **UDC CONSORTIUM.** *Classificação Decimal Universal: edição-padrão internacional em língua portuguesa*. Brasília: IBICT, 2020. 3 v. (Norma e tabela canônica da CDU no Brasil).
+- **DEWEY, Melvil.** *Dewey Decimal Classification and Relative Index*. 23. ed. Dublin, Ohio: OCLC, 2011. 4 v.
+- **PIEDADE, Maria Antonieta Requião.** *Introdução à teoria da classificação*. 2. ed. rev. e aum. Rio de Janeiro: Interciência, 1983. (Clássico didático obrigatório).
+- **SOUZA, Sebastião de.** *CDU: guia para utilização da edição padrão internacional em língua portuguesa*. Brasília: Thesaurus, 2009.
+- **POMBO, Olga.** Da classificação dos seres à classificação dos saberes. *Revista da Faculdade de Ciências da Universidade de Lisboa*, v. 14, p. 19-33, 2006.`,
   checkpoints: [
     {
       id: 'cp-3-1-1',

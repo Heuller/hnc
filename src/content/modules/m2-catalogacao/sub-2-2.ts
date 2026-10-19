@@ -176,6 +176,49 @@ Toda a arquitetura do RDA é orientada ao atendimento das **cinco tarefas do usu
 * **Modelos Conceituais: FRBR e IFLA LRM (sub-2-3):** Fundamentação teórica do RDA centrada nas entidades e relacionamentos LRM.
 * **BIBFRAME 2.0 e Linked Data (sub-2-7):** Adoção de URIs e entidades para integração na Web Semântica.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **RDA (*Resource Description and Access*)** e o **Projeto 3R (*RDA Steering Committee Restructure and Redesign*)** representam o estado da arte na representação catalográfica mundial:
+1. **O que é o RDA:**
+   - Sucessor direto do AACR2r, construído com foco na catalogação para a Web Semântica e Dados Conectados (*Linked Data*).
+   - Deixa de ser um código prescritivo rígido baseado em fichas e formatos físicos para ser um conjunto flexível de diretrizes e instruções orientadas a **entidades, atributos e relacionamentos**.
+   - Alinhado formalmente aos modelos conceituais da IFLA: originalmente à família FRBR e, a partir do Projeto 3R, integralmente fundado no **IFLA LRM (*Library Reference Model*)**.
+2. **O Projeto 3R e as Novidades Estruturais do RDA Toolkit:**
+   - Redesenho do RDA para implementar os quatro níveis de descrição e a entidade mais ampla **Res** (qualquer entidade do universo LRM).
+   - Introdução dos **Elementos Núcleo (*Core Elements*)** e das quatro abordagens de implementação: Não estruturada, Estruturada, Identificadores e URIs (Linked Data).
+   - O conceito de transcrição muda: flexibilização do princípio *"take what you see"* (registre o que você vê), reduzindo drasticamente o uso de abreviaturas latinas artificiais (como "s.l.", "s.n.", "[et al.]"), favorecendo a linguagem clara e os identificadores persistentes.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Eliminação de Abreviaturas Latinas na RVBI):** Ao catalogar um relatório governamental publicado sem indicação explícita de editora comercial, o catalogador da Câmara, sob o AACR2r, era obrigado a preencher \`[s.n.]\` (*sine nomine*). No RDA, registra-se explicitamente *"publicador não identificado"* ou utiliza-se o identificador do órgão, tornando o catálogo perfeitamente inteligível para o cidadão e para sistemas computacionais.
+- **Cenário 2 (Transição AACR2r para RDA no SIGB Aleph/Koha):** A Rede Virtual de Bibliotecas (RVBI) adota perfil de catalogação compatível com o MARC 21 atualizado para acomodar os novos campos gerados pelo RDA (campos 336, 337 e 338 para tipo de conteúdo, mídia e suporte).
+- **Cenário 3 (Relacionamentos de Manifestação de Proposições na BDCam):** Um anteprojeto de lei de 1988 gerou uma lei ordinária em 1990 que foi revisada em 2005. No RDA, em vez de notas textuais soltas, cada versão conecta-se por relacionamentos entidade-relacionamento estruturados no padrão LRM, permitindo ao usuário navegar visualmente pela evolução da norma.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Critério de Catalogação | Código AACR2r | Padrão RDA (Pós-3R) |
+| :--- | :--- | :--- |
+| **Base Teórica** | Prática descritiva em fichas / ISBD | Modelos conceituais IFLA LRM e FRBR |
+| **Abreviaturas Latinas** | Uso intensivo (s.l., s.n., et al., ca.) | Fortemente desencorajadas ou eliminadas |
+| **Mídia e Suporte** | Designação Geral do Material - DGM (campo 245 $h) | Campos 336 (Conteúdo), 337 (Mídia), 338 (Suporte) |
+| **Formato e Destino** | Ambientes de catálogo isolados e bibliográficos | Web Semântica, Linked Data, RDF e URIs |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Extinção da DGM no RDA:** O Cebraspe testa exaustivamente a eliminação da Designação Geral do Material (DGM) em colchetes após o título próprio (\`[livro]\`, \`[recurso eletrônico]\`). No RDA, a DGM é **completamente substituída** pelo trio de campos MARC 336/337/338. **Gabarito: CERTO.**
+- **RDA como Formato de Comunicação:** Dizer que o RDA substitui o MARC 21 como formato de intercâmbio de dados de computador. **Gabarito: ERRADO.** O RDA é um código de diretrizes de conteúdo; o MARC 21 (e futuramente o BIBFRAME) são formatos de codificação/comunicação. O RDA é expresso em MARC 21, MODS ou RDF.
+- **RDA Baseado Exclusivamente no Suporte Papel:** Afirmar que o RDA privilegia o livro impresso. **Gabarito: ERRADO.** O RDA foi projetado nativamente para recursos digitais e ambientes em rede.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **RDA STEERING COMMITTEE (RSC).** *RDA: Resource Description and Access Toolkit*. Chicago: ALA; Ottawa: CILIP; London: Facet, 2020. (Norma internacional de catalogação).
+- **OLIVER, Chris.** *Introdução à RDA: um guia básico sobre os fundamentos do Resource Description and Access*. Brasília: Briquet de Lemos, 2011. (Livro de referência obrigatória de concursos).
+- **DOURADO, Stella.** *RDA: Resource Description and Access: guia prático de catalogação*. Salvador: Ed. da Autora, 2020.
+- **IFLA.** *IFLA Library Reference Model (LRM): A Conceptual Model for Bibliographic Information*. Haia: IFLA, 2017.
+- **MORENO, Fernanda Paula.** A transição do AACR2 para o RDA: princípios e perspectivas no Brasil. *Revista Ibero-Americana de Ciência da Informação*, v. 10, n. 2, p. 533-550, 2017.`,
   checkpoints: [
     {
       id: 'cp-2-2-1',

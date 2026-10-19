@@ -254,6 +254,55 @@ export const submodulo25: ModuloFilho = {
       },
     ],
   },
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A catalogação governamental e o conhecimento sobre a **Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo)** constituem temas obrigatórios e com forte peso na prova:
+1. **Regras Canônicas de Catalogação de Órgãos Públicos (AACR2r Cap. 24 e RDA Cap. 11):**
+   - **Regra Geral de Subordinação à Jurisdição (AACR2 24.18):** Entram subordinados diretamente à jurisdição territorial (País, Estado ou Município) os órgãos que integram o núcleo de autoridade política do Estado: ministérios, secretarias, órgãos legislativos, órgãos judiciários e forças armadas.
+     - *Exemplo:* \`Brasil. Congresso Nacional. Câmara dos Deputados.\`
+     - *Exemplo:* \`Brasil. Supremo Tribunal Federal.\`
+   - **Exceção Fundamental (Entidades com Entrada Direta - AACR2 24.17):** Entidades da administração pública indireta com personalidade jurídica própria e nomes distintivos — universidades públicas, hospitais estatais, empresas públicas, sociedades de economia mista e institutos de pesquisa — entram **diretamente sob o seu próprio nome**, sem a jurisdição!
+     - *Exemplo:* \`Universidade de Brasília.\` (E NUNCA \`Brasil. Universidade de Brasília.\`).
+     - *Exemplo:* \`Empresa Brasileira de Correios e Telégrafos.\`
+2. **História e Estrutura da Biblioteca da Câmara dos Deputados:**
+   - **Criação Secular:** Criada em **1826**, junto à instalação da primeira Assembleia Geral Constituinte e Legislativa do Império do Brasil, no Palácio Pedro Ernesto (Rio de Janeiro).
+   - **Transferência para Brasília:** Transferida em 1960 com a fundação da nova Capital Federal.
+   - **Patrono:** Denominada formalmente **Biblioteca Pedro Aleixo** pela Resolução da Câmara nº 25/1984.
+   - **Vinculação Institucional:** Integra a estrutura do **Centro de Documentação e Informação (CEDI)**, que por sua vez se subordina à Diretoria-Geral da Câmara.
+   - **Rede Virtual de Bibliotecas (RVBI):** Rede cooperativa coordenada pela Secretaria de Biblioteca e Arquivo do **Senado Federal**, da qual a Câmara é membro cofundador e usuário central.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Catalogação de Publicação de Comissão Parlamentar):** Ao dar entrada no livro técnico da *Comissão de Constituição e Justiça e de Cidadania (CCJC)*, o bibliotecário da Câmara aplica a regra de subordinação hierárquica sucessiva no MARC 21:
+  - \`110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados. $b Comissão de Constituição e Justiça e de Cidadania.\`
+- **Cenário 2 (Catalogação de Livro da Fiocruz ou Ipea):** A Fundação Oswaldo Cruz (Fiocruz) e o Instituto de Pesquisa Econômica Aplicada (Ipea) publicam um estudo sobre saúde pública para subsídio aos deputados. Como são fundações públicas da administração indireta com nomes distintivos (AACR2 24.17), a entrada principal é **direta**: \`110 2# $a Fundação Oswaldo Cruz.\` e \`110 2# $a Instituto de Pesquisa Econômica Aplicada.\`.
+- **Cenário 3 (Gestão de Obras Raras no Acervo Histórico):** A Seção de Obras Raras da Biblioteca Pedro Aleixo custodia os anais originais manuscritos do Império e as primeiras constituições do Brasil. O bibliotecário aplica políticas rigorosas de preservação física combinadas à digitalização e disponibilização na Biblioteca Digital da Câmara (BDCam / DSpace).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Órgão Público | Regra Canônica de Entrada | Indicador MARC 110 | Exemplo Correto Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Órgão Central de Poder (Exec./Leg./Jud.)** | Subordinado à Jurisdição territorial | 1 (Jurisdição) | \`Brasil. Ministério da Educação.\` |
+| **Entidade da Adm. Indireta (Universidade/Empresa)** | Ordem Direta pelo próprio nome | 2 (Ordem direta) | \`Universidade Federal do Rio de Janeiro.\` |
+| **Tribunal de Contas (TCU / TCEs)** | Órgão Constitucional Autônomo (não é do Judiciário!) | 1 (Jurisdição) | \`Brasil. Tribunal de Contas da União.\` |
+| **Coordenação da RVBI** | Órgão Gestor: **Senado Federal** | - | Não é a Câmara que coordena a RVBI! |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Jurisdição Forçada em Universidades:** A banca formula itens afirmando que, por ser federal, a universidade pública deve entrar precedida por "Brasil" (\`Brasil. Universidade Federal do Ceará\`). **Gabarito: ERRADO.** Entidades universitárias entram diretamente pelo seu nome oficial.
+- **Natureza Jurídica do TCU:** Dizer que o TCU entra subordinado ao Poder Legislativo ou que faz parte do Poder Judiciário. **Gabarito: ERRADO.** O rol do art. 92 da CF/88 é taxativo e não inclui o TCU no Judiciário; o TCU é órgão constitucional autônomo e entra como \`Brasil. Tribunal de Contas da União.\`.
+- **Quem Coordena a RVBI:** Afirmar que a gestão tecnológica da RVBI é de competência da Biblioteca da Câmara. **Gabarito: ERRADO.** A coordenação executiva e tecnológica da RVBI pertence ao **Senado Federal**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. Brasília: Congresso Nacional, 1988. (Art. 44 a 75 sobre o Poder Legislativo e órgãos federais).
+- **ANGLO-AMERICAN CATALOGUING RULES (AACR2r).** 2. ed. rev. São Paulo: FEBAB, 2002. (Capítulo 24: Cabeçalhos para Entidades Coletivas, regras 24.17 e 24.18).
+- **CÂMARA DOS DEPUTADOS.** *Regulamento Administrativo da Câmara dos Deputados*. Resolução nº 20/1971 e atualizações. (Estrutura do Centro de Documentação e Informação - CEDI).
+- **REDE VIRTUAL DE BIBLIOTECAS (RVBI).** *Manual de Catalogação da RVBI*. Brasília: Senado Federal / Câmara dos Deputados, 2021.
+- **MEY, Eliane Serrão Alves.** *Introdução à catalogação*. Brasília: Briquet de Lemos, 1995.`,
   checkpoints: [
     {
       id: 'cp-2-5-1',

@@ -217,6 +217,54 @@ O edital nº 1/2026 exige explicitamente os metadados aplicados a **imagem e som
 * **Protocolos de Interoperabilidade e SIGB (sub-6-2):** Uso do Dublin Core na colheita OAI-PMH e em repositórios digitais.
 * **Fontes Jurídicas e LexML Brasil (sub-4-3):** Crosswalk de metadados MARC e Dublin Core para o esquema XML do LexML.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+No ambiente de bibliotecas digitais, portais governamentais e acervos multimídia, os **metadados** são dados estruturados sobre dados que sustentam toda a arquitetura de busca:
+1. **Tipologia dos Metadados (NISO - National Information Standards Organization):**
+   - **Descritivos:** Identificam e descrevem recursos para fins de busca, identificação e seleção (ex.: título, autor, assunto, data de publicação, resumo).
+   - **Estruturais:** Indicam como objetos compostos se articulam internamente (ex.: como as páginas de um livro digitalizado se ordenam para formar capítulos; como faixas de áudio compõem uma sessão plenária).
+   - **Administrativos:** Apoiam a gestão técnica e operacional do objeto no ciclo de vida. Subdividem-se em:
+     - *Metadados Técnicos:* Resolução de escaneamento, formato de compressão (TIFF, MP4), taxa de amostragem.
+     - *Metadados de Preservação:* Checksums (MD5, SHA-256), migração de formato, histórico de integridade (PREMIS).
+     - *Metadados de Direitos (*Rights*):* Licença de uso, direitos autorais, restrições de confidencialidade (Creative Commons).
+2. **Perfis de Aplicação (*Application Profiles*) e Crosswalks:**
+   - **Perfil de Aplicação:** Customização de um ou mais esquemas de metadados padrão para atender às necessidades específicas de uma instituição, sem violar os esquemas originais (ex.: o Perfil de Aplicação BDCam baseado em Dublin Core).
+   - **Crosswalk (Mapeamento Semântico):** Tabela de correspondência formal que converte atributos entre esquemas distintos (ex.: MARC 21 para Dublin Core, ou Dublin Core para MODS).
+3. **Padrões Específicos para Recursos Audiovisuais:**
+   - Recursos sonoros e visuais exigem granularidade para suporte, codec, taxa de bits e duração (ID3 para áudio, MPEG-7 e EXIF para fotografia e vídeo).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Metadados Estruturais nos Discursos Parlamentares Gravados):** O serviço de audiovisual da Câmara grava em vídeo as sessões do Plenário Ulysses Guimarães. Para que o cidadão possa clicar diretamente no capítulo referente ao discurso de um deputado específico, o bibliotecário modela **metadados estruturais** (METS) que amarram os marcadores de tempo aos dados descritivos do parlamentar.
+- **Cenário 2 (Metadados de Preservação com PREMIS na BDCam):** Ao arquivar documentos históricos digitalizados na BDCam, o sistema gera automaticamente um hash SHA-256 e armazena metadados administrativos de preservação conforme o padrão PREMIS, permitindo auditar periodicamente se algum bit foi corrompido nos discos de armazenamento.
+- **Cenário 3 (Crosswalk de Metadados na Interoperabilidade com o LexML):** A Câmara dos Deputados compartilha seus projetos de lei e notas técnicas com o Portal LexML Brasil. Como a Câmara usa internamente sistemas legados e MARC 21, um *crosswalk* converte automaticamente os campos para a ontologia XML do LexML.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Categoria de Metadados | Pergunta Atendida | Exemplos Canônicos de Elementos |
+| :--- | :--- | :--- |
+| **Descritivo** | Quem criou? Sobre o que fala? Onde achar? | Título, Criador, Assunto, Ano, Resumo |
+| **Estrutural** | Como as partes se articulam no todo? | Ordem de páginas, sequência de faixas, hierarquia de XML |
+| **Administrativo (Técnico)** | Que características de hardware/software possui? | Resolução (300 dpi), codec (H.264), extensão (.pdf) |
+| **Administrativo (Preservação)** | O arquivo se mantém íntegro e autêntico? | Hash SHA-256, histórico de eventos PREMIS, formato |
+| **Administrativo (Direitos)** | Quem pode acessar e sob que licença? | Domínio público, CC BY-NC 4.0, sigilo regimental |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Confusão entre Metadado Estrutural e Técnico:** O Cebraspe adora afirmar que *"a indicação da resolução em pixels e do perfil de cores de uma fotografia digital constitui metadado estrutural"*. **Gabarito: ERRADO.** Resolução e cor são metadados **administrativos do tipo técnico**. O metadado estrutural cuida do relacionamento entre partes (ex.: relacionamento página $\to$ tomo).
+- **Criação de Novos Elementos no Perfil de Aplicação:** Dizer que um perfil de aplicação cria novas regras universais incompatíveis com os padrões internacionais. **Gabarito: ERRADO.** Perfis de aplicação apenas combinam e restringem esquemas existentes para um contexto local.
+- **Checksum como Metadado Descritivo:** Afirmar que o hash MD5 de um arquivo é metadado descritivo de assunto. **Gabarito: ERRADO.** É metadado administrativo de preservação e fixidez.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **NISO (National Information Standards Organization).** *Understanding Metadata: What is Metadata, and What is it For?* Baltimore: NISO Press, 2017. (Manual de referência mundial sobre os tipos de metadados).
+- **ALVES, Rachel Cristina Vesu.** *Metadados como elementos do processo de representação da informação digital*. 2010. Tese (Doutorado em Ciência da Informação) – Universidade Estadual Paulista (UNESP), Marília, 2010.
+- **BACA, Murtha (Ed.).** *Introduction to Metadata*. 3. ed. Los Angeles: Getty Publications, 2016.
+- **PREMIS EDITORIAL COMMITTEE.** *PREMIS Data Dictionary for Preservation Metadata*. Version 3.0. Washington: Library of Congress, 2015.
+- **ISO 15836-1:2017.** *Information and documentation — The Dublin Core metadata element set — Part 1: Core elements*. Genebra: ISO, 2017.`,
   checkpoints: [
     {
       id: 'cp-2-6-1',

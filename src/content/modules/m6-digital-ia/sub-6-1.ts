@@ -213,6 +213,56 @@ A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiênci
 * **Protocolos de Interoperabilidade e SIGB (sub-6-2):** Integração entre bibliotecas digitais, SIGB e discovery services.
 * **Acessibilidade de Produtos Informacionais (sub-8-5):** Diretrizes WCAG 2.2 e eMAG aplicadas a portais de bibliotecas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As **Bibliotecas Digitais**, a **Arquitetura da Informação** e a **Usabilidade** formam a tríade da interface dos sistemas de informação modernos:
+1. **Diferenças Conceituais Canônicas (Cunha, 2008):**
+   - **Biblioteca Tradicional:** Coleção predominantemente impressa em espaço físico tangível, processos manuais ou semiautomatizados.
+   - **Biblioteca Eletrônica:** Utiliza sistemas de computadores para automatizar processos internos (catalogação, circulação, empréstimo), mas a coleção principal ainda pode ser física em papel.
+   - **Biblioteca Virtual:** Não possui espaço físico e nem acervo próprio; é uma rede lógica que interliga acervos remotos distribuídos via internet.
+   - **Biblioteca Digital:** Possui acervo nativamente digital ou digitalizado, com tratamento técnico padronizado (metadados), armazenamento digital seguro, preservação a longo prazo e serviços acessíveis online de ponta a ponta.
+2. **Arquitetura da Informação (Rosenfeld, Morville e Arango):**
+   - A arte e a ciência de organizar, estruturar e rotular sistemas de informação digitais para apoiar a usabilidade e a encontrabilidade (*findability*).
+   - **Os 4 Sistemas Fundamentais da AI:**
+     - *Sistema de Organização:* Como a informação é estruturada (hierárquica, cronológica, alfabética, facetada).
+     - *Sistema de Rotulagem:* Como os botões, links e categorias são nomeados (evitar jargões técnicos incompreensíveis ao usuário comum).
+     - *Sistema de Navegação:* Como o usuário se movimenta na interface (global, local, contextual, migalhas de pão / *breadcrumbs*).
+     - *Sistema de Busca:* Mecanismos de busca, filtros, facetas e ordenação de resultados.
+3. **Usabilidade e Heurísticas de Jakob Nielsen (1994):**
+   - Medida da facilidade, eficácia e satisfação com que um usuário opera um sistema.
+   - **10 Heurísticas de Nielsen:** 1. Visibilidade do estado do sistema; 2. Correspondência entre o sistema e o mundo real; 3. Controle e liberdade do usuário (botão desfazer); 4. Consistência e padrões; 5. Prevenção de erros; 6. Reconhecimento em vez de memorização; 7. Flexibilidade e eficiência de uso (atalhos); 8. Design estético e minimalista; 9. Auxílio aos usuários para reconhecer, diagnosticar e recuperar-se de erros; 10. Ajuda e documentação.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (A BDCam como Biblioteca Digital por Excelência):** A Biblioteca Digital da Câmara dos Deputados (BDCam) opera sobre DSpace. Os documentos nascem digitais (ou foram digitalizados com OCR), recebem metadados Dublin Core, possuem URNs e identificadores persistentes (Handle/DOI), e o usuário pesquisa, visualiza e baixa em PDF/A sem precisar ir ao prédio da Câmara. Trata-se de uma **biblioteca digital pura** (Cunha).
+- **Cenário 2 (Arquitetura da Informação no Portal da Câmara):** Ao redesenhar a página de Proposições Legislativas, os bibliotecários aplicam o **Sistema de Navegação por Facetas**: o cidadão filtra por "Ano", "Tipo de Proposição (PL, PEC, MPV)" e "Situação da Tramitação", navegando com o suporte de *breadcrumbs* (migalhas de pão) no topo da página.
+- **Cenário 3 (Heurística de Prevenção de Erros no Formulário de Pesquisa):** O sistema de busca do portal avisa preventivamente quando o usuário digita termos booleanos com sintaxe errada ou caracteres inválidos, impedindo que a busca retorne uma página de erro genérica. Isso aplica diretamente a **Heurística nº 5 de Nielsen (Prevenção de Erros)**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Biblioteca | Suporte da Coleção | Automação de Processos | Espaço Físico |
+| :--- | :--- | :--- | :--- |
+| **Tradicional** | Físico (papel) | Mínima / Manual | Obrigatório |
+| **Eletrônica** | Misto (físico preponderante) | Alta (softwares de gestão) | Obrigatório |
+| **Digital** | Digital (bits/arquivos com metadados) | Completa no ciclo digital | Pode ou não ter sede física |
+| **Virtual** | Disperso em redes remotas | Baseada em links e hipertextos | Sem espaço físico próprio |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Biblioteca Digital vs. Virtual:** A banca afirma que *"a biblioteca virtual é aquela que possui um acervo próprio digitalizado armazenado em seus próprios servidores locais"*. **Gabarito: ERRADO.** A biblioteca que possui acervo digital próprio com metadados é a **Biblioteca Digital**; a biblioteca virtual é uma metáfora de rede que aponta para acervos alheios.
+- **Heurística de Reconhecimento vs. Memorização:** O Cebraspe troca os termos dizendo que o usuário deve ser estimulado a memorizar comandos complexos. **Gabarito: ERRADO.** A heurística de Nielsen preconiza **reconhecimento em vez de memorização** (elementos visíveis e autoexplicativos).
+- **Arquitetura da Informação Limitada ao Design Visual:** Dizer que AI cuida apenas das cores e estética do site. **Gabarito: ERRADO.** AI cuida da estrutura lógica, taxonomia, rotulagem e navegação.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CUNHA, Murilo Bastos da.** Das bibliotecas convencionais às digitais: diferenças e convergências. *Perspectivas em Ciência da Informação*, v. 13, n. 1, p. 2-17, 2008. (O artigo mais citado sobre a evolução das tipologias de biblioteca).
+- **ROSENFELD, Louis; MORVILLE, Peter; ARANGO, Jorge.** *Information Architecture: For the Web and Beyond*. 4. ed. Sebastopol: O'Reilly Media, 2015. (A bíblia mundial de Arquitetura da Informação).
+- **NIELSEN, Jakob.** *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994. (A fonte canônica das 10 heurísticas de usabilidade).
+- **ROWLEY, Jennifer.** *A biblioteca eletrônica*. Brasília: Briquet de Lemos, 2002.
+- **KRUG, Steve.** *Não me faça pensar: uma abordagem de bom senso à usabilidade na web*. 2. ed. Rio de Janeiro: Alta Books, 2008.`,
   checkpoints: [
     {
       id: 'cp-6-1-1',

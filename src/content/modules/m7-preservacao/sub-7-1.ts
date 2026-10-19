@@ -195,7 +195,16 @@ A preservação do papel baseia-se na compreensão físico-química da sua estru
 
 ### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
 - *Qual a faixa de temperatura e umidade relativa padrão para acervos bibliográficos?* (18 °C a 22 °C e 45% a 55%).
-- *Por que oscilações são piores que valores constantes levemente fora da faixa?* (Porque a fibra incha e retrai ciclicamente, quebrando a estrutura física do papel).`,
+- *Por que oscilações são piores que valores constantes levemente fora da faixa?* (Porque a fibra incha e retrai ciclicamente, quebrando a estrutura física do papel).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **CASSARES, Norma.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Arquivo do Estado, 2000. (Controle ambiental, parâmetros de temperatura/UR e intervenção mínima).
+* **BECK, Ingrid.** *Manual de conservação preventiva de documentos*. Rio de Janeiro: Arquivo Nacional, 1995. (Estabilidade climática ininterrupta e preservação em clima tropical).
+* **SPINELLI, Antônio Celso Ramos.** *Preservação de acervos bibliográficos*. Brasília: Senac-DF, 2003. (Degradação por hidrólise ácida e fotoxidação da celulose).
+* **IFLA.** *Princípios para o cuidado e manejo de material de bibliotecas*. Haia: IFLA, 2000.
+* **CONARQ.** *Recomendações para a construção de arquivos*. Rio de Janeiro: Conselho Nacional de Arquivos, 2000.`,
   checkpoints: [
     {
       id: 'cp-7-1-1',

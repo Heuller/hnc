@@ -149,6 +149,55 @@ Formulados em 2016 por **Mark D. Wilkinson e Barend Mons** no periódico *Nature
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Bibliotecas Digitais e DSpace (sub-6-1):** Plataformas de repositório e políticas de autoarquivamento.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Acesso Aberto (*Open Access* - OA)** e os **Princípios FAIR** redefiniram a circulação do conhecimento científico global e das políticas públicas de informação:
+1. **As Declarações Fundacionais do Acesso Aberto (O Trio BBB):**
+   - **Budapest Open Access Initiative (BOAI, 2002):** Marco inaugural que definiu formalmente o acesso aberto: disponibilidade gratuita na internet pública, permitindo a qualquer usuário ler, baixar, copiar, distribuir, imprimir e vincular ao texto completo sem barreiras financeiras, legais ou técnicas, preservando apenas o direito do autor à integridade da obra e ao devido reconhecimento de citação.
+   - **Declaração de Bethesda (2003):** Foco nas ciências biomédicas e depósito imediato em repositórios abertos.
+   - **Declaração de Berlim (2003):** Expansão internacional do compromisso institucional com o acesso aberto.
+2. **As Vias Canônicas do Acesso Aberto:**
+   - **Via Dourada (*Gold Open Access*):** Publicação em periódicos de acesso aberto pleno. O artigo fica imediatamente gratuito na página da revista no momento da publicação (pode ou não envolver taxas de processamento de artigos - APCs).
+   - **Via Verde (*Green Open Access* - Autoarquivamento):** O autor publica em qualquer periódico (mesmo tradicional por assinatura) e deposita uma cópia do manuscrito aceito (*post-print* / *preprint*) em um **Repositório Institucional ou Temático**.
+   - **Via Diamante / Platina (*Diamond OA*):** Periódicos de acesso aberto financiados integralmente por universidades e órgãos públicos onde **nem os leitores pagam para ler, nem os autores pagam APCs para publicar** (ex.: a imensa maioria das revistas do SciELO e da Câmara dos Deputados).
+   - **Via Híbrida:** Periódico comercial por assinatura que cobra taxa extra do autor para liberar acesso aberto individual a um artigo específico (prática duramente criticada pelo duplo pagamento - *double dipping*).
+3. **Princípios FAIR para Gestão de Dados de Pesquisa:**
+   - **Findable (Localizável):** Metadados ricos e identificadores persistentes e universais (DOI, Handle).
+   - **Accessible (Acessível):** Recuperáveis por protocolos de comunicação abertos e padronizados (HTTPS).
+   - **Interoperable (Interoperável):** Vocabulários controlados e esquemas que se comunicam entre sistemas.
+   - **Reusable (Reutilizável):** Licenças de uso claras (Creative Commons) e documentação de proveniência dos dados.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (A BDCam como Expoente da Via Verde de Acesso Aberto):** A Câmara dos Deputados adota política mandatória de acesso aberto: todos os servidores e consultores que publicam artigos em revistas externas autorizam o depósito de uma cópia no repositório institucional da Câmara (BDCam), operando a **Via Verde** para dar retorno imediato ao cidadão que financiou a pesquisa pública.
+- **Cenário 2 (Publicação na Via Diamante pela Revista da Câmara):** A revista técnica editada pela Câmara dos Deputados opera no modelo **Acesso Aberto Diamante**: nenhum cidadão paga assinatura e nenhum pesquisador paga taxa de submissão (APC). Todo o custeio é institucional pelo orçamento público da Casa.
+- **Cenário 3 (Implementação de Princípios FAIR nos Dados das Votações Nominais):** O portal de transparência da Câmara disponibiliza os dados de votação nominal de cada deputado em formato CSV/JSON com documentação de metadados, schemas abertos e licença CC BY, cumprindo integralmente os 4 pilares **FAIR** para reuso por jornalistas de dados e cidadãos.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Via do Acesso Aberto | Onde o Documento é Publicado/Guardado | Quem Paga o Custo Editorial | Taxa de Publicação (APC) |
+| :--- | :--- | :--- | :--- |
+| **Via Dourada (Gold)** | Periódico científico de acesso aberto | Autor, agência ou instituição | Frequente (quando há APC) |
+| **Via Verde (Green)** | Repositório Institucional (Autoarquivamento) | Custeado pelo repositório | **Zero para o autor** |
+| **Via Diamante** | Periódico de acesso aberto institucional | Universidade / Órgão público | **Zero para autor e leitor** |
+| **Via Híbrida** | Periódico comercial fechado | Modelo duplo (*double dipping*) | Altas taxas cobradas do autor |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Via Verde Exige Pagamento de Taxa:** A banca afirma que a via verde de acesso aberto exige o pagamento de elevadas APCs pelo autor. **Gabarito: ERRADO.** A Via Verde baseia-se no **autoarquivamento gratuito** do manuscrito em repositórios institucionais (como o DSpace).
+- **Princípios FAIR como Sinônimo de Acesso 100% Aberto:** O Cebraspe afirma que dados FAIR precisam ser obrigatoriamente abertos a qualquer pessoa sem qualquer restrição de sigilo. **Gabarito: ERRADO.** O princípio internacional preconiza: *"tão aberto quanto possível, tão fechado quanto necessário"*. Dados que contenham segredo de Estado ou privacidade médica podem ser FAIR (ter metadados ricos e interoperáveis), mas com acesso restrito controlado.
+- **Eliminação dos Direitos Autorais no Acesso Aberto:** Afirmar que o Acesso Aberto extingue o direito moral de autor. **Gabarito: ERRADO.** O Acesso Aberto preserva rigorosamente a autoria moral e o direito à citação.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **SUBER, Peter.** *Open Access*. Cambridge, MA: MIT Press, 2012. (A obra de referência mundial sobre os fundamentos do acesso aberto).
+- **BUDAPEST OPEN ACCESS INITIATIVE (BOAI).** *Budapest Open Access Initiative: 20th Anniversary Recommendations*. Budapest: BOAI, 2022.
+- **WILKINSON, Mark D. et al.** The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, v. 3, n. 160018, 2016. (Artigo canônico dos princípios FAIR).
+- **KURAMOTO, Hélio.** Acesso livre à informação científica: rumo à consolidação da ciência aberta. *Liinc em Revista*, v. 4, n. 2, 2008.
+- **BRASIL. CÂMARA DOS DEPUTADOS.** *Política de Acesso Aberto à Produção Intelectual da Câmara dos Deputados*. Ato da Mesa nº 123/2019.`,
   checkpoints: [
     {
       id: 'cp-9-2-1',

@@ -247,6 +247,55 @@ A governança responsável de IA na administração pública exige a compreensã
 * **Governança da Informação e de Dados (sub-1-6):** Datasheets for Datasets, viés algorítmico e proveniência.
 * **Transparência, LAI e LGPD (sub-11-12):** Uso ético de dados e privacidade em sistemas inteligentes.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Curadoria de Corpora, o Processamento de Linguagem Natural (PLN) e a Ética Algorítmica** são temas de fronteira exigidos no edital do Cebraspe:
+1. **Curadoria de Dados e Corpora Textuais:**
+   - Processo ativo e contínuo de seleção, higienização, anonimização, padronização e documentação de coleções de textos (*corpora*) para treino e teste de modelos computacionais.
+   - **Princípios FAIR:** *Findable* (Localizável), *Accessible* (Acessível), *Interoperable* (Interoperável) e *Reusable* (Reutilizável).
+2. **Processamento de Linguagem Natural (PLN) e OCR/HTR:**
+   - **Pipeline de Pré-processamento Clássico:**
+     - *Tokenização:* Quebra do texto em palavras, símbolos ou termos individuais (*tokens*).
+     - *Remoção de Stopwords:* Exclusão de palavras gramaticais de alto vácuo semântico (artigos, preposições, conjunções: "de", "a", "o").
+     - *Stemming (Troncamento):* Redução morfológica da palavra ao seu radical mecânico (ex.: "livraria", "livros" $\to$ "livr").
+     - *Lematização:* Redução da palavra à sua forma canônica dicionarizada com base na morfossintaxe (ex.: "foram" $\to$ verbo "ir" ou "ser").
+   - **OCR (*Optical Character Recognition*) e HTR (*Handwritten Text Recognition*):** Tecnologias de visão computacional que convertem imagens de documentos impressos ou manuscritos em texto digital codificado em UTF-8.
+3. **Vieses Algorítmicos e Ética da IA na Gestão Pública:**
+   - Algoritmos não são neutros; eles reproduzem e amplificam preconceitos históricos, de gênero, raciais e regionais presentes nos dados de treino.
+   - **Auditoria de Vieses:** Exigência de avaliação independente da acurácia balanceada entre subpopulações e garantia da Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Curadoria de Corpus Textual das Proposições da Câmara):** O CEDI organiza o *Corpus Legislativo Brasileiro* com 1 milhão de discursos e projetos desde 1946. O bibliotecário higieniza os metadados, remove caracteres de controle corrompidos, anonimiza dados pessoais sensíveis conforme a LGPD e disponibiliza o dataset no padrão FAIR para que universidades treinem modelos de PLN.
+- **Cenário 2 (Lematização no Mecanismo de Busca do Sileg):** Ao pesquisar por *"regulamentando as concessões públicas"*, o motor de busca do portal parlamentar aplica a **lematização**, recuperando documentos que contenham "regulamentar", "regulamenta" e "regulamentação", garantindo que a inflexão verbal não impeça o deputado de encontrar a norma.
+- **Cenário 3 (Prevenção de Viés Algorítmico em Ferramenta de Seleção de Textos):** A equipe de IA testa um modelo de classificação para sugerir temas prioritários de tramitação. O bibliotecário identifica um viés de sub-representação histórica nos projetos da bancada feminina e ajusta o peso das classes para reequilibrar o aprendizado do algoritmo.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Etapa de PLN / Conceito | O que Faz | Exemplo de Saída | Vantagem / Risco |
+| :--- | :--- | :--- | :--- |
+| **Tokenização** | Quebra a frase em unidades mínimas | \`["Câmara", "dos", "Deputados"]\` | Base para qualquer processamento |
+| **Stopwords** | Palavras vazias eliminadas | Remove: \`"de"\`, \`"em"\`, \`"para"\` | Reduz ruído e volume de dados |
+| **Stemming** | Corta a palavra no radical bruto | \`"constitucional"\` $\to$ \`"constituc"\` | Rápido, mas pode gerar palavras inexistentes |
+| **Lematização** | Retorna o lema dicionarizado | \`"foram"\` $\to$ \`"ir"\` (ou \`"ser"\`) | Gramaticalmente exato, mas exige mais CPU |
+| **Viés Algorítmico** | Distorção sistemática nos resultados | Discriminação histórica nos dados | Fere a ética e a imparcialidade pública |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Stemming vs. Lematização:** O Cebraspe inverte os conceitos dizendo que *"o stemming utiliza análises morfológicas complexas para retornar a forma canônica dicionarizada da palavra"*. **Gabarito: ERRADO.** Quem utiliza análise morfológica e gramatical completa para encontrar a forma dicionarizada é a **lematização**; o *stemming* aplica apenas cortes heurísticos de sufixos.
+- **Princípios FAIR como Padrão de Hardware:** Afirmar que os princípios FAIR são requisitos físicos de servidores e discos rígidos. **Gabarito: ERRADO.** Os princípios FAIR (*Findable, Accessible, Interoperable, Reusable*) são diretrizes de **gestão e governança de dados científicos e metadados**.
+- **Neutralidade Inata dos Algoritmos:** A banca propõe que *"sistemas baseados em aprendizado de máquina são por natureza imunes a preconceitos humanos por utilizarem equações matemáticas"*. **Gabarito: ERRADO.** A doutrina moderna (Cathy O'Neil e EBIA) comprova que os algoritmos reproduzem integralmente os vieses dos dados com os quais foram treinados.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **JURAFSKY, Daniel; MARTIN, James H.** *Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition*. 3. ed. draft. Stanford University, 2023. (O clássico absoluto de Processamento de Linguagem Natural).
+- **WILKINSON, Mark D. et al.** The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, v. 3, n. 160018, 2016. (O manifesto original dos princípios FAIR).
+- **O'NEIL, Cathy.** *Algoritmos de destruição em massa: como o big data aumenta a desigualdade e ameaça a democracia*. Santo André: Editora Rua do Sabão, 2020.
+- **BRASIL.** *Lei Federal nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD).
+- **BIRD, Steven; KLEIN, Ewan; LOPER, Edward.** *Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit (NLTK)*. Sebastopol: O'Reilly Media, 2009.`,
   checkpoints: [
     {
       id: 'cp-6-7-1',

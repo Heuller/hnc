@@ -293,6 +293,58 @@ A interoperabilidade é a capacidade de sistemas distintos e autônomos comunica
 * **Tesauros, Ontologias e SKOS (sub-3-4):** Modelagem semântica de vocabulários controlados em RDF e SPARQL.
 * **IA Aplicada à Informação (sub-6-7):** Conexão entre grafos de conhecimento, ontologias e recuperação vetorial/RAG.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A modernização dos catálogos exige o domínio sobre esquemas XML avançados, o modelo **BIBFRAME** e a integração da Biblioteconomia à **Web de Dados Conectados (*Linked Open Data*)**:
+1. **Esquemas XML Canônicos da Library of Congress:**
+   - **MODS (*Metadata Object Description Schema*):** Esquema baseado em XML para metadados bibliográficos descritivos; mais rico e flexível que o Dublin Core, porém mais simples e legível por humanos que o MARC 21. Usa tags textuais amigáveis (ex.: \`<titleInfo>\`, \`<name>\`, \`<originInfo>\`).
+   - **METS (*Metadata Encoding and Transmission Standard*):** Esquema XML padronizado para codificar metadados descritivos, administrativos e estruturais de objetos digitais complexos em repositórios e bibliotecas digitais. Composto por 7 seções: cabeçalho, metadados descritivos, metadados administrativos, grupo de arquivos, mapa estrutural (*structural map* — a espinha dorsal obrigatória do METS), links estruturais e comportamento.
+2. **O Padrão BIBFRAME (Bibliographic Framework):**
+   - Iniciativa da *Library of Congress* para substituir definitivamente o formato MARC 21 por uma modelagem nativa da Web Semântica.
+   - Baseia-se no framework **RDF (*Resource Description Framework*)** e utiliza URIs em vez de códigos textuais estáticos.
+   - **Classes Principais do BIBFRAME 2.0:**
+     - \`Work\` (Obra): Nível conceitual mais elevado.
+     - \`Instance\` (Instância): A publicação/manifestação física ou eletrônica.
+     - \`Item\` (Item): O exemplar individualizado.
+3. **Linked Open Data (LOD) e as 5 Estrelas de Tim Berners-Lee:**
+   - Dados publicados na web com licença aberta e conexões semânticas padronizadas (RDF, SPARQL, OWL).
+   - ⭐ Disponível na web sob licença aberta (qualquer formato, ex.: PDF).
+   - ⭐⭐ Estruturado de forma legível por máquina (ex.: planilha Excel).
+   - ⭐⭐⭐ Formato não proprietário aberto (ex.: CSV).
+   - ⭐⭐⭐⭐ Padrões W3C abertos (RDF e SPARQL com URIs de identificação).
+   - ⭐⭐⭐⭐⭐ Conectado a dados de terceiros (*Linked Data* para fornecer contexto).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (BIBFRAME na Biblioteca Pedro Aleixo):** Ao migrar os catálogos da Câmara para o ecossistema de Linked Data, o registro do livro *O Processo Legislativo Constitucional* deixa de ser um bloco de strings isoladas em MARC 21 e passa a usar URIs: o autor Ulysses Guimarães é vinculado ao identificador internacional VIAF/Wikidata (\`http://viaf.org/viaf/...\`) e a editora é vinculada ao Vocabulário Controlado do Congresso.
+- **Cenário 2 (Empacotamento METS de Obras Raras na BDCam):** Um livro raro do séc. XIX com 500 páginas digitalizadas é empacotado para preservação no padrão OAIS. O arquivo METS contém a seção obrigatória \`<structMap>\` que amarra a ordem exata das 500 imagens TIFF aos metadados descritivos MODS e aos hashes PREMIS.
+- **Cenário 3 (Dados Abertos 5 Estrelas no Portal da Câmara):** A Câmara publica a relação diária de deputados, votações e proposições legislativas. Ao fornecer endpoints SPARQL com triplas RDF conectadas à Wikidata e ao Senado, a Câmara atinge o **nível máximo de 5 Estrelas de Dados Conectados de Tim Berners-Lee**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Padrão / Tecnologia | Instituição Criadora | Papel Central no Ecossistema |
+| :--- | :--- | :--- |
+| **MODS** | Library of Congress | Descrição bibliográfica em XML (intermediário entre DC e MARC) |
+| **METS** | Library of Congress | Estrutura de empacotamento completo de objetos digitais em XML |
+| **BIBFRAME 2.0** | Library of Congress | Sucessor do MARC 21 baseado em triplas RDF (Work, Instance, Item) |
+| **SPARQL** | W3C | Linguagem de consulta e recuperação para bases de dados RDF/LOD |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Seção Obrigatória do METS:** O Cebraspe pergunta qual das seções do documento METS é absolutamente indispensável e obrigatória. **Gabarito: o Mapa Estrutural (*Structural Map / <structMap>*).** Todas as outras seções são opcionais conforme o perfil, mas o METS não existe sem o mapa estrutural.
+- **BIBFRAME como Substituto do RDA:** Dizer que o BIBFRAME foi criado para substituir o código RDA. **Gabarito: ERRADO.** O BIBFRAME substitui o **formato MARC 21**, não o RDA! O RDA fornece as regras de conteúdo que são codificadas em BIBFRAME.
+- **Níveis do BIBFRAME 2.0:** O Cebraspe cobra as classes centrais do BIBFRAME: \`Work\`, \`Instance\` e \`Item\` (além de \`Agent\`, \`Subject\` e \`Event\`).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **LIBRARY OF CONGRESS.** *BIBFRAME 2.0 Model*. Washington: Library of Congress, 2023. (Documentação canônica do modelo de transição do MARC para RDF).
+- **LIBRARY OF CONGRESS.** *METS: Metadata Encoding & Transmission Standard: Primer and Reference Manual*. Washington: Library of Congress, 2010.
+- **LIBRARY OF CONGRESS.** *MODS: Metadata Object Description Schema: User Guidelines*. Washington: Library of Congress, 2022.
+- **BERNERS-LEE, Tim.** *Linked Data: Design Issues*. W3C, 2006. (A definição canônica dos quatro princípios e do esquema de cinco estrelas de dados abertos).
+- **HEATH, Tom; BIZER, Christian.** *Linked Data: Evolving the Web into a Global Data Space*. San Rafael: Morgan & Claypool, 2011.`,
   checkpoints: [
     {
       id: 'cp-2-7-1',

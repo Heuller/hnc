@@ -236,7 +236,15 @@ Em 1931, o bibliotecário indiano **Shiyali Ramamrita Ranganathan** sintetizou t
 
 ### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
 - *Qual lei exige descarte e desbaste programado?* (5ª Lei: o organismo cresce e renova suas células!).
-- *Qual lei proíbe censura prévia na seleção?* (2ª Lei: a cada leitor o seu livro!).`,
+- *Qual lei proíbe censura prévia na seleção?* (2ª Lei: a cada leitor o seu livro!).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **RANGANATHAN, Shiyali Ramamrita.** *The Five Laws of Library Science*. London: Edward Goldston, 1931. (Tradução canônica: *As Cinco Leis da Biblioteconomia*. Brasília: Briquet de Lemos, 2009).
+* **TARAPANOFF, Kira.** *Ranganathan e as Cinco Leis da Biblioteconomia*. Revista de Biblioteconomia de Brasília, v. 13, n. 2, p. 195-207, 1985.
+* **FIGUEIREDO, Nice Menezes de.** *Metodologias para promoção do uso da informação*. São Paulo: Nobel, 1991.
+* **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Aplicação prática da 4ª Lei: poupar o tempo do leitor).`,
   checkpoints: [
     {
       id: 'cp-1-2-1',

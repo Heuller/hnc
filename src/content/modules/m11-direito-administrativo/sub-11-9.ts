@@ -103,6 +103,52 @@ Para mitigar falhas e fraudes na Administração Pública Federal, adota-se o mo
 3. **Terceira Linha (Auditoria Interna Governamental):**
    * Atua com independência funcional em relação à gestão executiva, reportando-se diretamente à alta administração e aos comitês de governança.
    * **Papel:** Presta avaliação (*assurance*) e consultoria imparcial e independente sobre a eficácia de toda a estrutura de governança, gestão de riscos e controles internos.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Governança no Setor Público Federal (Decreto nº 9.203/2017 e Referencial do TCU)** orienta as instâncias de liderança para assegurar resultados que atendam às necessidades da sociedade:
+1. **Governança vs. Gestão (A Diferença Crítica no Cebraspe!):**
+   - **Governança Pública:** Conjunto de mecanismos de **Liderança, Estratégia e Controle** postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade. A governança responde à pergunta: *"O que fazer e para onde ir?"*.
+   - **Gestão Pública:** É a ação executiva e operacional responsável por planejar, executar, gerenciar recursos, construir e entregar produtos e serviços de acordo com as diretrizes da governança. A gestão responde à pergunta: *"Como fazer no dia a dia?"*.
+2. **Princípios da Governança Pública (Decreto nº 9.203/2017, art. 3º):**
+   - Capacidade de resposta; Integridade; Confiabilidade; Melhoria regulatória; Prestação de contas e responsabilidade (*Accountability*); e Transparência.
+3. **As Diretrizes e os Mecanismos da Governança (TCU):**
+   - **Liderança:** Recursos humanos qualificados, integridade, competência técnica e ética dos altos dirigentes.
+   - **Estratégia:** Definição de objetivos de longo prazo, alinhamento institucional, planos táticos e escuta das partes interessadas (*stakeholders*).
+   - **Controle:** Gestão de riscos corporativos, controle interno e auditoria independente.
+4. **Gestão de Riscos (ISO 31000 e COSO-ERM):**
+   - Processo para identificar, analisar, avaliar e tratar incertezas que possam comprometer os objetivos estratégicos da organização pública.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Comitê de Governança Estratégica da Câmara dos Deputados):** A Mesa Diretora e a Diretoria-Geral instituem o Comitê de Governança da Câmara (órgão de governança pura). O comitê define que o plano quadrienal deve focar na digitalização total de processos e na transparência legislativa, transmitindo essas diretrizes estratégicas para o CEDI e para a biblioteca executarem (gestão).
+- **Cenário 2 (Gestão de Riscos Operacionais no Acervo Histórico):** A chefia da Biblioteca Pedro Aleixo elabora a matriz de riscos do acervo de acordo com o referencial do TCU: identifica o risco de alagamento por rompimento de ar-condicionado (Probabilidade Média / Impacto Alto) e estabelece controles preventivos imediatos (instalação de sensores de umidade com alerta no celular da brigada).
+- **Cenário 3 (Aplicação do Princípio da *Accountability* no Relatório de Gestão):** Anualmente, a Câmara dos Deputados publica em seu portal o Relatório Integrado de Gestão no formato preconizado pelo TCU, prestando contas de cada real do orçamento executado na compra de livros e assinaturas de bases de dados.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Dimensão | Governança Pública | Gestão Pública |
+| :--- | :--- | :--- |
+| **Instância** | Alta Administração / Comitês Estratégicos | Diretorias, Coordenações e Chefias Operacionais |
+| **Ações Chave** | **Avaliar, Direcionar e Monitorar** | **Planejar, Executar e Controlar** |
+| **Pergunta Central** | *"O que fazer?"* / *"Para onde vamos?"* | *"Como fazer?"* / *"Com quais recursos?"* |
+| **Mecanismos TCU** | Liderança, Estratégia e Controle | Pessoas, Processos e Tecnologia |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão entre Governança e Gestão:** A banca diz que a governança é responsável por executar diretamente as compras e rotinas de catalogação da biblioteca. **Gabarito: ERRADO.** Quem executa é a **Gestão**; a Governança apenas avalia, direciona e monitora a estratégia.
+- **Os Três Mecanismos do TCU:** O Cebraspe testa os três mecanismos canônicos de governança do TCU: **Liderança, Estratégia e Controle**.
+- **Gestão de Riscos Visa Eliminar 100% dos Riscos:** Afirmar que a gestão de riscos tem como meta eliminar completamente todo e qualquer risco da organização. **Gabarito: ERRADO.** O risco zero não existe; a gestão de riscos busca manter as incertezas dentro do nível aceitável de tolerância da instituição.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Decreto Federal nº 9.203, de 22 de novembro de 2017*. Dispõe sobre a política de governança da administração pública federal direta, autárquica e fundacional.
+- **TRIBUNAL DE CONTAS DA UNIÃO (TCU).** *Referencial Básico de Governança Aplicável a Órgãos e Entidades da Administração Pública*. 3. ed. Brasília: TCU, 2020.
+- **COSO (Committee of Sponsoring Organizations of the Treadway Commission).** *Gerenciamento de Riscos Corporativos: estrutura integrada (COSO-ERM)*. 2017.
+- **ABNT NBR ISO 31000:2018.** *Gestão de riscos — Diretrizes*. Rio de Janeiro: ABNT, 2018.
+- **MATIAS-PEREIRA, José.** *Governança no setor público*. São Paulo: Atlas, 2010.`,
   checkpoints: [
     {
       id: 'cp-11-9-1',

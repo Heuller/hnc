@@ -166,6 +166,52 @@ O **Vocabulário Controlado Básico (VCB)** é a ferramenta de controle terminol
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Poder Legislativo na CF/88 (sub-10-5):** Espécies normativas do art. 59 da Constituição Federal.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Processo Legislativo Constitucional (CF/88, arts. 59 a 69)** estabelece as espécies normativas primárias e suas regras formais de tramitação:
+1. **Rol das Espécies Normativas (Art. 59 da CF/88):**
+   - I – Emendas à Constituição (PEC); II – Leis Complementares (LC); III – Leis Ordinárias (LO); IV – Leis Delegadas; V – Medidas Provisórias (MPV); VI – Decretos Legislativos; VII – Resoluções.
+2. **Quóruns e Iniciativas Críticas no Cebraspe:**
+   - **PEC (Art. 60):** Proposta por 1/3 da Câmara, 1/3 do Senado, Presidente da República ou mais da metade das Assembleias Legislativas. Votada em **dois turnos em cada Casa** e aprovada por **3/5 dos votos** dos respectivos membros (308 na Câmara / 49 no Senado). **Não há sanção ou veto presidencial!** Promulgada pelas Mesas da Câmara e do Senado. Cláusulas pétreas intransponíveis (art. 60, § 4º).
+   - **Lei Complementar (LC):** Exige quórum de **maioria absoluta** para aprovação (257 deputados / 41 senadores). Destina-se a matérias expressamente reservadas pela CF.
+   - **Lei Ordinária (LO):** Exige quórum de **maioria simples** (maioria dos presentes, desde que presente a maioria absoluta da Casa).
+   - **Medida Provisória (MPV - Art. 62):** Editada pelo Presidente em caso de **relevância e urgência**. Vigência de 60 dias prorrogável uma vez por igual período (total 120 dias). Vedada sobre: direito penal, processo penal/civil, nacionalidade, cidadania, partidos, direito eleitoral e matérias reservadas a LC.
+3. **Fase Constitutiva: Sanção e Veto Presidencial:**
+   - O Presidente tem **15 dias úteis** para vetar (por inconstitucionalidade - veto jurídico, ou por contrariedade ao interesse público - veto político). O silêncio importa sanção tácita.
+   - O veto é apreciado em sessão conjunta do Congresso Nacional dentro de 30 dias e só pode ser rejeitado por **maioria absoluta** de deputados e senadores em votação nominal.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Indexação de PEC na Seção de Legislação da Biblioteca):** Ao registrar a tramitação de uma PEC de Reforma Tributária, o bibliotecário do CEDI anota nos metadados que a proposição exige quórum qualificado de 3/5 (308 votos) em dois turnos na Câmara e que, após aprovação no Senado, não irá à sanção presidencial, sendo promulgada em sessão solene pelas Mesas Diretoras conjuntas.
+- **Cenário 2 (Catalogação de Medida Provisória Trancando a Pauta):** O Plenário atinge o 45º dia de vigência de uma MPV sobre crédito extraordinário sem votação. O bibliotecário de referência informa ao gabinete parlamentar que a MPV entrou em regime de urgência constitucional e **tranca a pauta** de todas as demais deliberações legislativas ordinárias da Câmara até que seja votada.
+- **Cenário 3 (Controle de Eficácia de Decretos Legislativos e Resoluções):** Ao catalogar atos de aprovação de tratados internacionais (CF art. 49, I), o bibliotecário utiliza a espécie **Decreto Legislativo** (ato exclusivo do Congresso que não vai à sanção). Já ao catalogar a criação de uma nova comissão interna da Casa, utiliza a espécie **Resolução da Câmara** (competência privativa interna).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Espécie Normativa | Quórum de Aprovação | Sanção / Veto Presidencial? | Promulgação |
+| :--- | :--- | :--- | :--- |
+| **PEC** | 3/5 em 2 turnos (308 CD / 49 SF) | **NÃO** (Não vai ao Presidente) | Mesas da Câmara e do Senado |
+| **Lei Complementar** | Maioria Absoluta (257 CD / 41 SF) | SIM (15 dias úteis) | Presidente da República (ou CD/SF) |
+| **Lei Ordinária** | Maioria Simples dos presentes | SIM (15 dias úteis) | Presidente da República (ou CD/SF) |
+| **Decreto Legislativo** | Maioria Simples | **NÃO** (Matéria do Congresso) | Presidente do Senado Federal |
+| **Resolução da CD** | Maioria Simples | **NÃO** (Matéria privativa interna) | Presidente da Câmara dos Deputados |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Veto em PEC:** O Cebraspe adora afirmar que *"o Presidente da República vetou parcialmente uma Emenda Constitucional por contrariedade ao interesse público"*. **Gabarito: ERRADO.** Emenda Constitucional NÃO se submete a sanção ou veto presidencial em nenhuma hipótese!
+- **Prazo de Veto Presidencial:** Dizer que o Presidente tem 15 dias corridos para vetar. **Gabarito: ERRADO.** O art. 66, § 1º da CF/88 estabelece o prazo de 15 dias **úteis**.
+- **Quórum de Rejeição do Veto:** A banca diz que o veto presidencial pode ser derrubado por maioria simples. **Gabarito: ERRADO.** A derrubada do veto exige quórum qualificado de **maioria absoluta** de ambas as Casas do Congresso Nacional.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. arts. 59 a 69.
+- **SILVA, José Afonso da.** *Curso de Direito Constitucional Positivo*. 43. ed. São Paulo: Malheiros, 2020. (A maior autoridade de processo legislativo em bancas examinadoras).
+- **LENZA, Pedro.** *Direito Constitucional Esquematizado*. 27. ed. São Paulo: Saraiva, 2023.
+- **CÂMARA DOS DEPUTADOS.** *Manual de Redação e Técnica Legislativa da Câmara dos Deputados*. Brasília: Edições Câmara, 2021.
+- **MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet.** *Curso de Direito Constitucional*. 17. ed. São Paulo: Saraiva, 2022.`,
   checkpoints: [
     {
       id: 'cp-10-2-1',

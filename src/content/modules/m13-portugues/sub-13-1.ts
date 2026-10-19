@@ -224,6 +224,53 @@ No discurso formal, a distinção entre o que está linguisticamente marcado e o
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Ortografia, Gêneros Textuais e Morfossintaxe (sub-13-4):** Tipologias e gêneros textuais segundo Marcuschi.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Interpretação Textual, a Coesão e as Relações Semânticas no padrão Cebraspe** operam pela fidelidade estrita à materialidade do texto e aos nexos lógicos:
+1. **Compreensão vs. Interpretação no Cebraspe:**
+   - **Compreensão (Decodificação Factual):** O comando diz: *"Segundo o texto..."*, *"Conforme o autor..."*. A resposta está explícita nas linhas do texto; não extrapolar!
+   - **Interpretação (Inferência Válida):** O comando diz: *"Infere-se do texto que..."*, *"Conclui-se da leitura que..."*. Exige dedução lógica fundada estritamente nas premissas autorizadas pelo texto.
+   - **Os Três Erros Clássicos de Leitura:**
+     - *Extrapolação:* Acrescentar ideias alheias ou julgamentos pessoais que não constam do texto.
+     - *Redução:* Limitar o sentido geral a apenas uma parte isolada do texto.
+     - *Contradição:* Concluir exatamente o oposto do que o autor afirmou.
+2. **Coesão Referencial e Sequencial (Ingedore Koch):**
+   - **Referencial:** Substituições pronominais, elipses, sinônimos e hiperônimos que evitam repetições desnecessárias.
+   - **Sequencial:** Encadeamento temporal e lógico das ideias mediado por conjunções, conectivos e tempos verbais.
+3. **Relações Semânticas Canônicas:**
+   - Causa vs. Consequência; Condição; Concessão (quebra de expectativa sem anular a tese principal); Proporcionalidade; Conformidade.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Interpretação Estrita de Discurso Parlamentar nos Anais):** Ao indexar um discurso polêmico de um parlamentar para os anais da Câmara, o bibliotecário analisa estritamente a **compreensão literal** das palavras proferidas, evitando fazer inferências ideológicas extrapolativas que não tenham sido sustentadas pelo orador.
+- **Cenário 2 (Coesão Referencial por Hiperônimo na Redação de Parecer):** O redator técnico da Câmara escreve: *"O Supremo Tribunal Federal julgou a constitucionalidade da matéria. A **Corte Constitucional** entendeu que o princípio foi violado"*. O termo *Corte Constitucional* funciona como **hiperônimo coesivo anafórico**, mantendo a elegância estilística e a clareza do parecer.
+- **Cenário 3 (Diferenciação entre Causa e Consequência em Nota Técnica):** A Consultoria de Orçamento redige nota técnica: *"Em decorrência da queda de arrecadação fiscal, os investimentos em tecnologia foram suspensos"*. O bibliotecário identifica a relação causal: a queda de arrecadação é a **causa**; a suspensão dos investimentos é a **consequência**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Comando Cebraspe | Natureza da Busca | Regra de Ouro | Perigo Oculto |
+| :--- | :--- | :--- | :--- |
+| **"Depreende-se / Infere-se"** | Interpretação / Dedução lógica | A premissa deve estar no texto | Extrapolar para conhecimento de mundo |
+| **"Segundo o texto / O autor afirma"** | Compreensão / Dado explícito | Buscar a literalidade das linhas | Interpretar além do que foi dito |
+| **Coesão Referencial** | Retoma ou antecipa termos | Pronomes, sinônimos, hiperônimos | Perda do antecedente exato |
+| **Coesão Sequencial** | Articula o fluxo lógico do raciocínio | Conjunções subordinativas e coord. | Trocar causa por consequência |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Extrapolação com Afirmação Factual Verdadeira:** O Cebraspe coloca uma assertiva historicamente verdadeira no mundo real (ex.: *"A Constituição de 1988 consagrou direitos sociais fundamentais"*), mas que **não foi mencionada pelo autor no texto da prova**. Se o comando era *"De acordo com o texto..."*, o **Gabarito é ERRADO**. A verdade no Cebraspe é estritamente intra-textual!
+- **Concessão vs. Causa:** Afirmar que a conjunção *embora* ou a locução *conquanto* introduzem uma relação de causa. **Gabarito: ERRADO.** *Embora* e *conquanto* introduzem orações subordinadas **concessivas** (oposição suave / quebra de expectativa).
+- **Restrição vs. Explicação em Orações Adjetivas:** Dizer que a retirada das vírgulas em uma oração adjetiva explicativa mantém o sentido original. **Gabarito: ERRADO.** Sem vírgulas, a oração torna-se **restritiva**, alterando substancialmente o sentido do texto (passa a restringir um subgrupo!).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **KOCH, Ingedore Villaça; ELIAS, Vanda Maria.** *Ler e compreender: os sentidos do texto*. 3. ed. São Paulo: Contexto, 2010. (A maior referência em linguística textual nos concursos do Cebraspe).
+- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. rev. e ampl. Rio de Janeiro: Nova Fronteira, 2019. (A autoridade canônica da Academia Brasileira de Letras).
+- **GARCIA, Othon M.** *Comunicação em Prosa Moderna: aprenda a escrever, aprendendo a pensar*. 27. ed. Rio de Janeiro: FGV, 2010.
+- **CUNHA, Celso; CINTRA, Luís F. Lindley.** *Nova Gramática do Português Contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2017.
+- **CEBRASPE.** *Manual de Diretrizes Pedagógicas para Elaboração de Itens de Língua Portuguesa*. Brasília: Cebraspe, 2022.`,
   checkpoints: [
     {
       id: 'chk-13-1-1',

@@ -121,6 +121,53 @@ export const submodulo143: ModuloFilho = {
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Inteligência Artificial e Curadoria (sub-6-4):** Modelos Transformer, LLMs e prompting avançado.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Engenharia de Prompts, os Modelos de Linguagem de Larga Escala (LLMs) e a Ética Digital no Setor Público** representam a fronteira tecnológica contemporânea:
+1. **Modelos de Linguagem (LLMs) e Arquitetura Transformer:**
+   - Modelos probabilísticos pré-treinados em redes neurais de atenção profunda (*Self-Attention*) que calculam a probabilidade da próxima palavra (*token*) com base no contexto antecedente.
+   - **Limitações Estruturais:** Ausência de raciocínio lógico formal inato; alucinações factuais; defasagem de conhecimento temporal (*cutoff date*); e sensibilidade extrema à formulação da pergunta.
+2. **Engenharia de Prompts (Técnicas Canônicas de Comunicação com a IA):**
+   - **Zero-Shot Prompting:** Envio de comando direto sem fornecer exemplos prévios.
+   - **Few-Shot Prompting:** Fornecimento prévio de 2 a 5 exemplos estruturados de entrada e saída esperada para balizar o estilo e a formatação do modelo.
+   - **Chain-of-Thought (CoT / Cadeia de Pensamento):** Orientação para que o modelo decomponha um problema complexo em etapas intermediárias passo a passo (*"Pense passo a passo antes de responder"*), reduzindo drasticamente erros de raciocínio.
+   - **RAG (*Retrieval-Augmented Generation*):** Técnica em que a IA, antes de gerar o texto, consulta uma base de documentos verídicos do órgão (ex.: as leis da Câmara) e usa apenas esse contexto fático para produzir a resposta, eliminando alucinações.
+3. **Diretrizes Éticas e Governança da IA no Setor Público (TCU e EBIA):**
+   - **Transparência e Explicabilidade:** O cidadão tem o direito de saber quando interage com uma IA e quais critérios embasaram uma decisão automatizada.
+   - **Supervisão Humana (*Human-in-the-Loop*):** Decisões administrativas de efeito jurídico vinculante não podem ser 100% autônomas de máquinas.
+   - **Privacidade e Segurança:** Proibição de inserir dados pessoais sensíveis ou documentos sigilosos de Estado em ferramentas públicas abertas de IA na nuvem comercial (como ChatGPT aberto).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (RAG na Pesquisa da Legislação Histórica da Câmara):** A equipe do CEDI implementa um assistente de IA para responder a consultas de deputados sobre leis aprovadas desde 1826. Em vez de usar IA aberta que inventa artigos de leis inexistentes, o sistema aplica **RAG**: busca o texto autêntico no banco do LexML/BDCam e injeta o trecho literal no prompt, gerando respostas com citação exata de número e artigo da lei.
+- **Cenário 2 (Few-Shot Prompting na Sumarização de Emendas Parlamentares):** Ao automatizar a geração de resumos de 1.000 emendas apresentadas a uma PEC, o bibliotecário programa um prompt no padrão **Few-Shot**: apresenta 3 exemplos de emendas com seus respectivos resumos ideais. O modelo replica a mesma concisão e vocabulário técnico parlamentar em todas as demais.
+- **Cenário 3 (Proteção contra Violação de Sigilo Governamental):** A Diretoria-Geral da Câmara emite instrução normativa alertando os servidores de que é terminantemente proibido colar minutas confidenciais de CPIs em chats públicos de IA comercial na web, sob pena de infração disciplinar grave e quebra de segurança de Estado.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Técnica de Prompting | Como Opera no Sistema | Melhor Caso de Uso | Vantagem Crítica |
+| :--- | :--- | :--- | :--- |
+| **Zero-Shot** | Pergunta direta sem exemplos | Consultas simples e diretas | Rapidez e baixo custo |
+| **Few-Shot** | Apresenta 2 a 5 exemplos prévios | Padronização de formato e estilo | Reduz erros de formatação |
+| **Chain-of-Thought (CoT)** | Instrui raciocínio passo a passo | Problemas lógicos e deduções | Minimiza erros de cálculo e lógica |
+| **RAG** | Conecta o modelo à base documental | Recuperação fática jurídica | **Elimina alucinações em órgãos públicos** |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inserção de Dados Sigilosos em IAs Públicas:** O Cebraspe sugere que o servidor pode colar relatórios sigilosos de Estado em qualquer chatbot público gratuito para agilizar a redação de pareceres. **Gabarito: ERRADO.** A prática viola frontalmente a Lei nº 12.527/11, a LGPD e as diretrizes do TCU, expondo dados públicos ao treinamento comercial de terceiros.
+- **Chain-of-Thought e Criatividade:** Dizer que a técnica Chain-of-Thought serve para tornar a IA mais poética e artística. **Gabarito: ERRADO.** CoT serve para estruturar o raciocínio lógico em passos analíticos sequenciais para aumentar a exatidão.
+- **Alucinação como Sinônimo de Erro de Conexão:** A banca confunde alucinação da IA com instabilidade no servidor web. **Gabarito: ERRADO.** Alucinação é a produção probabilística de fatos, leis e fontes falsas geradas como se fossem verdadeiras.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **RUSSELL, Stuart; NORVIG, Peter.** *Inteligência Artificial: uma abordagem moderna*. 4. ed. Rio de Janeiro: GEN LTC, 2022.
+- **TRIBUNAL DE CONTAS DA UNIÃO (TCU).** *Orientações sobre o uso de soluções de Inteligência Artificial Generativa na Administração Pública Federal*. Brasília: TCU, 2023.
+- **BRASIL.** *Estratégia Brasileira de Inteligência Artificial (EBIA)*. Brasília: MCTI, 2021.
+- **LEWIS, Patrick et al.** Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *Advances in Neural Information Processing Systems (NeurIPS)*, v. 33, p. 9459-9474, 2020. (Artigo canônico que criou o padrão RAG).
+- **WEI, Jason et al.** Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. *NeurIPS*, 2022.`,
   checkpoints: [
     {
       id: 'cp-14-3-1',

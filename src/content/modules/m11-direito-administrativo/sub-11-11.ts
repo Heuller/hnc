@@ -120,6 +120,55 @@ Pela prática de infrações licitatórias e contratuais, aplicam-se quatro san�
 2. **Multa:** Cobrada nos percentuais previstos no edital (entre **0,5% e 30%** do valor contratual);
 3. **Impedimento de Licitar e Contratar (Inciso III):** Prazo máximo de até **3 anos**, impedindo o fornecedor de licitar e contratar com **toda a Administração Pública Direta e Indireta do mesmo ente federativo** que aplicou a sanção (ex.: se aplicada pela Câmara dos Deputados, impede de licitar em toda a União Federal);
 4. **Declaração de Inidoneidade para Licitar ou Contratar (Inciso IV):** Sanção mais gravosa da lei, com prazo de **3 a 6 anos**, impedindo o infrator de licitar e contratar perante **TODA a Administração Pública brasileira** (União, todos os Estados, DF e todos os Municípios). Exige competência exclusiva de Ministro de Estado ou autoridade máxima da Casa Legislativa.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018)** disciplina o tratamento de dados pessoais no setor público para proteger os direitos fundamentais de liberdade e privacidade:
+1. **Conceitos Fundamentais da LGPD:**
+   - **Dado Pessoal:** Informação relacionada a pessoa natural identificada ou identificável (ex.: nome, CPF, RG, endereço, e-mail).
+   - **Dado Pessoal Sensível:** Dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa, filosófica ou política, dado referente à saúde ou à vida sexual, dado genético ou biométrico.
+   - **Tratamento:** Toda operação realizada com dados pessoais (coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, processamento, arquivamento, armazenamento, eliminação ou modificação).
+   - **Agentes de Tratamento:**
+     - *Controlador:* A quem competem as decisões sobre o tratamento (a Câmara dos Deputados).
+     - *Operador:* Quem realiza o tratamento em nome do controlador (empresas de TI contratadas).
+     - *Encarregado (DPO - Data Protection Officer):* Canal de comunicação entre o controlador, os titulares e a Autoridade Nacional de Proteção de Dados (ANPD).
+2. **Princípios Canônicos da LGPD (Art. 6º):**
+   - Finalidade, Adequação, Necessidade (minimização de dados), Livre acesso, Qualidade dos dados, Transparência, Segurança, Prevenção, Não discriminação e Responsabilização/Prestação de contas.
+3. **Tratamento pelo Poder Público (Art. 23):**
+   - O tratamento de dados pessoais pelo poder público deve ser realizado para o atendimento de sua **finalidade pública**, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público.
+   - Dispensa de consentimento quando amparado em cumprimento de obrigação legal ou execução de políticas públicas previstas em lei.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Anonimização de Dados Sensíveis de Saúde em Petições Cidadãs):** Um cidadão encaminha uma denúncia à Comissão de Direitos Humanos anexando laudos médicos com dados genéticos e diagnósticos psiquiátricos. O bibliotecário do CEDI, ao cadastrar a petição no sistema público de tramitação, aplica **técnicas de pseudonimização e tarjamento de dados sensíveis** conforme a LGPD, impedindo que a intimidade médica do denunciante fique exposta no Google.
+- **Cenário 2 (Coleta de Dados de Usuários da Biblioteca Pedro Aleixo):** Ao cadastrar usuários para o serviço de empréstimo de livros, a biblioteca aplica o **princípio da necessidade (minimização)**: solicita apenas nome, matrícula e e-mail institucional, recusando-se a coletar dados biométricos ou partidários que não possuem qualquer relação com o serviço bibliotecário.
+- **Cenário 3 (A atuação do Encarregado de Dados - DPO na Câmara):** A Ouvidoria da Câmara é acionada por um cidadão que pede a exclusão de seu endereço residencial constante em anexo de uma CPI antiga. O Encarregado de Proteção de Dados (DPO) da Câmara analisa o pedido à luz da Lei nº 13.709/2018 e do dever de memória pública, orientando o CEDI a proteger o dado individual sem apagar o fato histórico do processo.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Conceito / Agente | Papel na LGPD | Exemplo Concreto na Câmara | Nível de Proteção |
+| :--- | :--- | :--- | :--- |
+| **Dado Pessoal Comum** | Identifica pessoa viva | Nome, CPF, cargo, salário | Proteção padrão |
+| **Dado Pessoal Sensível** | Saúde, biometria, religião, política | Laudo médico, exame de DNA, filiação partidária | **Proteção máxima e rigorosa** |
+| **Controlador** | Toma as decisões de tratamento | **Câmara dos Deputados** (Órgão) | Responde juridicamente |
+| **Operador** | Executa ordens do controlador | Empresa terceirizada de software em nuvem | Responde solidariamente se violar |
+| **Encarregado (DPO)** | Ponte entre titular, órgão e ANPD | Servidor designado formalmente em portaria | Orienta e fiscaliza internamente |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A LGPD Protege Dados de Pessoas Jurídicas:** O Cebraspe afirma que a LGPD protege dados de empresas e corporações jurídicas. **Gabarito: ERRADO.** A LGPD aplica-se exclusivamente a dados de **pessoas naturais (pessoas físicas vivas)**; dados empresariais de CNPJs não são dados pessoais sob a LGPD.
+- **Consentimento Obrigatório em Todas as Ações Públicas:** Dizer que o Estado só pode tratar dados de cidadãos se houver consentimento expresso assinado. **Gabarito: ERRADO.** O poder público pode tratar dados independentemente de consentimento para cumprimento de obrigação legal ou execução de políticas públicas previstas em leis e regulamentos (art. 7º, II e III).
+- **Dado Anonimizado é Dado Pessoal:** Afirmar que dados anonimizados irreversivelmente continuam sujeitos às regras da LGPD. **Gabarito: ERRADO.** O dado anonimizado (que não permite a identificação do indivíduo por meios técnicos razoáveis) **não é considerado dado pessoal** sob a égide da LGPD (art. 12).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 13.709, de 14 de agosto de 2018*. Lei Geral de Proteção de Dados Pessoais (LGPD).
+- **AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD).** *Guia Orientativo: Tratamento de Dados Pessoais pelo Poder Público*. Brasília: ANPD, 2022.
+- **DONEDA, Danilo.** *Da privacidade à proteção de dados pessoais: elementos da formação do direito à privacidade*. 2. ed. São Paulo: Thomson Reuters Brasil, 2020. (O livro pioneiro e mais respeitado sobre o tema no Brasil).
+- **BIONI, Bruno Ricardo.** *Proteção de dados pessoais: a função e os limites do consentimento*. 3. ed. Rio de Janeiro: Forense, 2021.
+- **CÂMARA DOS DEPUTADOS.** *Portaria de Política de Privacidade e Proteção de Dados da Câmara dos Deputados*. Brasília: Mesa Diretora, 2021.`,
   checkpoints: [
     {
       id: 'cp-11-11-1',

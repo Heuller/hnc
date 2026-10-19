@@ -284,6 +284,58 @@ A Intervenção Federal é medida de caráter excepcional e temporário que afas
 * **Regimento Interno da Câmara dos Deputados (sub-10-1):** Imunidades materiais e formais e prerrogativas regimentais.
 * **Regimento Comum do Congresso Nacional (sub-10-6):** Atribuições do Congresso em sessão conjunta.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Dinâmica das Sessões Plenárias, a Ordem do Dia, os Quóruns e os Processos de Votação** materializam o funcionamento deliberativo do Plenário (RICD, arts. 65 a 190):
+1. **Tipos de Sessões Plenárias:**
+   - **Deliberativas:** Destinadas à discussão e votação de proposições. Subdividem-se em *Ordinárias* (realizadas nos dias úteis, com Pequeno Expediente, Grande Expediente e Ordem do Dia) e *Extraordinárias* (convocadas para dias e horários diferentes para matérias exclusivas).
+   - **Não Deliberativas (Debates):** Destinadas a discursos parlamentares e comunicações de lideranças, sem votação de pauta.
+   - **Solenes:** Homenagens, comemorações e posses; públicas e sem votação.
+   - **Secretas:** Convocadas em situações excepcionais de segurança nacional ou decoro parlamentar (todas as demais são públicas por regra constitucional).
+2. **A Ordem do Dia:**
+   - A fase da sessão destinada especificamente à deliberação das matérias em pauta.
+   - Para iniciar a Ordem do Dia, exige-se quórum mínimo de presença de **maioria absoluta dos membros da Casa (257 deputados)**!
+3. **Regimes de Tramitação de Proposições:**
+   - **Ordinária:** Prazos regimentais normais de tramitação em comissões.
+   - **Prioridade:** Prazos reduzidos à metade; dispensam algumas formalidades.
+   - **Urgência:** Dispensa todas as exigências regimentais prévias para que a proposição seja imediatamente apreciada (requer aprovação de requerimento por maioria absoluta).
+   - **Urgência Urgentíssima (Art. 155 do RICD):** Requerimento aprovado pela maioria absoluta que permite a votação imediata da matéria em Plenário sem qualquer parecer de comissão!
+4. **Métodos e Quóruns de Votação:**
+   - **Simbólico:** Método regra; o Presidente solicita: *"Os deputados que aprovam permaneçam como se encontram"*.
+   - **Nominal:** Utiliza o painel eletrônico com registro público de voto (SIM, NÃO, ABSTENÇÃO). Obrigatório para matérias que exigem quórum qualificado (PEC, LC) ou a requerimento aprovado de bancada.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Abertura da Ordem do Dia e Verificação de Quórum):** O relógio do Plenário marca 16h. O Presidente aguarda o painel eletrônico acusar a presença de 257 deputados. Assim que o número 257 é atingido, o Presidente anuncia: *"Havendo quórum regimental de maioria absoluta, está aberta a Ordem do Dia"*. O bibliotecário de apoio sincroniza a gravação dos anais.
+- **Cenário 2 (Aplicação do Artigo 155 - Urgência Urgentíssima):** Diante de uma calamidade pública no Rio Grande do Sul, o plenário aprova requerimento de urgência do art. 155 para votar socorro financeiro. O bibliotecário localiza a redação final do texto no sistema em 5 minutos para que os líderes orientem o voto imediato das bancadas.
+- **Cenário 3 (Votação Simbólica vs. Verificação Nominal):** Uma votação simbólica aprova um projeto de lei controverso. O líder da oposição levanta a mão e requer a **verificação nominal da votação** com apoio de sua bancada. O Presidente abre o painel eletrônico para registro nominal de cada deputado, gerando os metadados abertos que serão indexados no portal da Câmara.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Espécie de Sessão / Tramitação | Quórum de Abertura / Requisito | Finalidade Específica | Publicidade |
+| :--- | :--- | :--- | :--- |
+| **Sessão Ordinária** | Início com 1/10 (52 deputados) | Expediente e Ordem do Dia de rotina | Pública |
+| **Abertura da Ordem do Dia** | **Maioria Absoluta (257 deputados)** | Votação e deliberação das matérias | Pública |
+| **Sessão Secreta** | Decisão por maioria qualificada | Casos excepcionais de segurança | Fechada e sigilosa |
+| **Urgência (Art. 155)** | Maioria Absoluta para aprovação | Dispensa prazos e pareceres | Imediata em Plenário |
+| **Votação Simbólica** | Maioria simples (regra geral) | Rapidez deliberativa sem painel | Voto não individualizado |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Quórum para Abrir a Sessão vs. Abrir a Ordem do Dia:** A banca confunde propositalmente: a sessão ordinária pode começar seus discursos de expediente com apenas 1/10 de deputados presentes (52 deputados), mas para **abrir a Ordem do Dia e iniciar as votações** é obrigatória a presença de **maioria absoluta (257 deputados)**!
+- **Votação de PEC pelo Método Simbólico:** Afirmar que uma Emenda Constitucional pode ser aprovada por votação simbólica se houver consenso. **Gabarito: ERRADO.** PEC exige categoricamente votação nominal pelo painel eletrônico em dois turnos.
+- **Aprovação de Requerimento de Urgência:** Dizer que a urgência urgentíssima do art. 155 do RICD pode ser concedida por decisão monocrática isolada do Presidente da Câmara. **Gabarito: ERRADO.** Exige requerimento assinado por líderes e **aprovação do Plenário por maioria absoluta**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CÂMARA DOS DEPUTADOS.** *Regimento Interno da Câmara dos Deputados (RICD)*. arts. 65 a 190.
+- **PACHECO, Luciana.** *Regimento Interno da Câmara dos Deputados Comentado*. Brasília: Edições Câmara, 2021.
+- **MORAES, Alexandre de.** *Direito Constitucional*. 38. ed. São Paulo: Atlas, 2022.
+- **SILVA, José Afonso da.** *Processo Constitucional de Formação das Leis*. 2. ed. São Paulo: Malheiros, 2007.
+- **CÂMARA DOS DEPUTADOS.** *Manual de Procedimentos de Plenário*. Brasília: Secretaria-Geral da Mesa (SGM), 2020.`,
   checkpoints: [
     {
       id: 'cp-10-5-1',

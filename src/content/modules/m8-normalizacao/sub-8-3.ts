@@ -171,6 +171,54 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **NBR 6028 (Resumos) (sub-8-4):** Estruturação de trabalhos acadêmicos e elementos pré-textuais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação formal de **Trabalhos Acadêmicos** (teses, dissertações, TCCs e estudos monográficos):
+1. **Estrutura Tripartite Canônica:**
+   - **Elementos Pré-Textuais:** Precedem o texto; auxiliam na identificação e localização das partes.
+     - *Obrigatórios:* Folha de rosto, Ficha catalográfica (no verso da folha de rosto), Folha de aprovação, Resumo na língua vernácula (com palavras-chave), Resumo em língua estrangeira (Abstract) e Sumário.
+     - *Opcionais:* Capa (externa), Lombada, Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos.
+   - **Elementos Textuais (Obrigatórios):** Introdução, Desenvolvimento e Conclusão.
+   - **Elementos Pós-Textuais:** Complementam e documentam o trabalho.
+     - *Obrigatório:* Referências.
+     - *Opcionais:* Glossário, Apêndice (texto/documento elaborado pelo próprio autor), Anexo (documento elaborado por terceiros/não elaborado pelo autor) e Índice.
+2. **Regras Gráficas de Formatação:**
+   - **Margens:** Esquerda e Superior de **3 cm**; Direita e Inferior de **2 cm** (para impressão em anverso/frente).
+   - **Espaçamento:** Texto em espaçamento **1,5** entre linhas. Citações longas, notas de rodapé, referências, legendas e ficha catalográfica em espaçamento simples.
+   - **Numeração de Páginas:** Todas as folhas contam a partir da folha de rosto, mas a numeração só é **impressa visualmente a partir da primeira folha da parte textual (Introdução)**, no canto superior direito!
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Ficha Catalográfica na Biblioteca Pedro Aleixo):** Um consultor da Câmara defende dissertação de mestrado pelo Centro de Formação, Treinamento e Aperfeiçoamento (CEFOR). A biblioteca confecciona a **ficha catalográfica CIP** que deve constar obrigatoriamente no verso da folha de rosto do trabalho impresso ou imediatamente após a folha de rosto no PDF da BDCam.
+- **Cenário 2 (Distinção entre Apêndice e Anexo em Estudo Legislativo):** Ao organizar um estudo monográfico sobre segurança pública, o consultor anexa a cópia do texto integral do Acórdão do STF (como não foi produzido por ele, é um **Anexo**) e acrescenta a tabela com cálculos estatísticos que ele próprio modelou no Excel (como foi elaborado pelo autor, é um **Apêndice**).
+- **Cenário 3 (Auditoria de Margens e Numeração pela Editora da Câmara):** Antes de enviar o livro técnico para a gráfica, o bibliotecário-editor confere: margem superior e esquerda de 3 cm, inferior e direita de 2 cm, e numeração visível iniciando na primeira página da Introdução.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Elemento Pré/Pós-Textual | Obrigatoriedade na NBR 14724 | Função Canônica | Distinção Crítica |
+| :--- | :--- | :--- | :--- |
+| **Folha de Rosto** | **Obrigatório** | Identifica título, autor e natureza | Conta página, mas não imprime número |
+| **Capa** | Opcional | Proteção externa | Não conta na paginação interna |
+| **Sumário** | **Obrigatório** | Enumera as divisões do trabalho | Pré-textual (o último antes do texto) |
+| **Apêndice** | Opcional | Texto/documento complementar | **Elaborado pelo próprio autor** |
+| **Anexo** | Opcional | Documento comprobatório externo | **Não elaborado pelo autor** (de terceiros) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Apêndice vs. Anexo:** A pegadinha mais frequente do Cebraspe em normalização: a banca inverte as autorias, afirmando que o anexo é produzido pelo autor e o apêndice por terceiros. **Gabarito: ERRADO.** Lembre-se: **Apêndice = Autor**; **Anexo = Alheio**.
+- **Onde Inicia a Impressão da Numeração de Páginas:** Dizer que a numeração começa a ser impressa no canto superior direito já na Folha de Rosto. **Gabarito: ERRADO.** A folha de rosto é contada, mas o número só aparece impresso na **Introdução** (primeira folha textual).
+- **Capa como Elemento Obrigatório:** Afirmar que a capa dura é elemento pré-textual obrigatório pela NBR 14724. **Gabarito: ERRADO.** A capa é elemento opcional; a folha de rosto é que é obrigatória.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 14724:2011: Informação e documentação — Trabalhos acadêmicos — Apresentação*. Rio de Janeiro: ABNT, 2011. (A norma oficial de estrutura monográfica).
+- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.
+- **REY, Luís.** *Planejar e redigir trabalhos científicos*. 2. ed. São Paulo: Edgard Blücher, 2003.
+- **CENTRO DE FORMAÇÃO, TREINAMENTO E APERFEIÇOAMENTO (CEFOR).** *Manual de TCC e Dissertações do CEFOR*. Brasília: Câmara dos Deputados, 2022.
+- **MEDEIROS, João Bosco.** *Redação científica*. 13. ed. São Paulo: Atlas, 2019.`,
   checkpoints: [
     {
       id: 'cp-8-3-1',

@@ -198,6 +198,53 @@ A articulação entre a preservação física desses acervos e a sua disponibili
 * **Preservação Digital e Repositórios Confiáveis (sub-6-3):** Fixidez, autenticidade e integridade da informação em longo prazo.
 * **Governança da Informação e de Dados (sub-1-6):** Gestão da qualidade e rastreabilidade ao longo do ciclo de vida dos dados.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Para o Cebraspe, a gestão da informação exige governança rigorosa do seu ciclo de vida, padrões internacionais de qualidade de dados e a salvaguarda da memória institucional:
+1. **O Ciclo de Vida da Informação e dos Documentos:**
+   - **Teoria das Três Idades (Arquivística/Gestão da Informação):**
+     - *Corrente (1ª Idade):* Documentos em tramitação, de uso frequente, valor primário (administrativo, legal, fiscal).
+     - *Intermediário (2ª Idade):* Aguardando destinação final (guarda temporária/expurgo), uso esporádico, ainda com valor primário.
+     - *Permanente/Histórico (3ª Idade):* Imprescritíveis e inalienáveis, valor secundário (histórico, probatório, cultural, de pesquisa). Nunca mais podem ser eliminados!
+   - **Fases do Ciclo da Informação:** Criação/Coleta $\to$ Armazenamento/Tratamento $\to$ Disseminação/Acesso $\to$ Uso $\to$ Preservação ou Descarte.
+2. **Dimensões da Qualidade de Dados (Wang & Strong, 1996 e DAMA-DMBOK2):**
+   - **Intrínseca:** Acurácia (exatidão), credibilidade, reputação.
+   - **Contextual:** Relevância, tempestividade (pontualidade/tempo hábil), completude, suficiência.
+   - **Representacional:** Interpretabilidade, facilidade de compreensão, consistência de formatos.
+   - **Acessibilidade:** Disponibilidade e segurança do acesso.
+3. **Memória Institucional:**
+   - Patrimônio intangível e tangível acumulado por uma organização. A biblioteca atua como âncora da memória técnica e política, impedindo o esquecimento organizacional e garantindo a continuidade das políticas públicas.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Teoria das Três Idades na Tramitação de Projetos de Lei):** Uma Proposta de Emenda à Constituição (PEC) em debate na Comissão de Constituição e Justiça (CCJ) está na sua **fase corrente**. Quando arquivada ao final da legislatura, aguarda na **fase intermediária**. Ao ser recolhida ao Arquivo Histórico e à Seção de Obras Raras e Memória da Biblioteca da Câmara, atinge a **fase permanente**, tornando-se fonte inalienável de pesquisa sobre a história da democracia brasileira.
+- **Cenário 2 (Tempestividade e Acurácia no Plenário):** Durante uma sessão de votação, o presidente da Casa solicita dados históricos sobre votações análogas em legislaturas passadas. Se a informação fornecida pelo CEDI for exata, mas entregue 30 minutos após o encerramento da votação, faltou a dimensão contextual da **tempestividade** (Wang & Strong), invalidando a utilidade da entrega.
+- **Cenário 3 (A Biblioteca Pedro Aleixo como Guardiã da Memória):** As coleções de discursos parlamentares, anais históricos do Império e da República e relatórios das Mesas Diretoras catalogados no CEDI compõem o corpus da **memória institucional** da Câmara, disponibilizado no portal aberto para pesquisadores e historiadores.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Idade Documental | Frequência de Uso | Valor Predominante | Destinação Possível |
+| :--- | :--- | :--- | :--- |
+| **Corrente (1ª Idade)** | Diária / Frequente | Primário (administrativo/legal) | Tramitação / Consulta ativa |
+| **Intermediária (2ª Idade)** | Baixa / Esporádica | Primário (aguardando prazo) | Expurgo ou Guarda Permanente |
+| **Permanente (3ª Idade)** | Cultural / Pesquisa | Secundário (histórico/probatório) | **Nunca pode ser eliminado!** |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Eliminação de Documentos da 3ª Idade:** A banca costuma sugerir que *"documentos históricos de terceira idade podem ser eliminados caso passem por microfilmagem ou digitalização para economia de espaço predial"*. **Gabarito: ERRADO.** Documentos de valor permanente são imprescritíveis e inalienáveis (art. 10 da Lei Federal nº 8.159/1991); digitalização não autoriza descarte de original permanente.
+- **Confusão entre Acurácia e Tempestividade:** Apresentar um dado factual perfeito, mas defasado no tempo, como exemplo de falha de acurácia. **Gabarito: ERRADO.** Trata-se de problema de tempestividade (*timeliness*).
+- **Valor Primário vs. Valor Secundário:** Inverter os valores: o valor primário é para a administração criadora; o secundário é para a sociedade e pesquisadores.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **WANG, Richard Y.; STRONG, Diane M.** Beyond accuracy: what data quality means to data consumers. *Journal of Management Information Systems*, v. 12, n. 4, p. 5-33, 1996. (Artigo clássico das 4 categorias de qualidade de dados).
+- **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge*. 2. ed. Basking Ridge: Technics Publications, 2017. (Padrão mundial de governança e qualidade de dados).
+- **BRASIL.** *Lei Federal nº 8.159, de 8 de janeiro de 1991*. Dispõe sobre a política nacional de arquivos públicos e privados. (Regime jurídico da Teoria das Três Idades e inalienabilidade do patrimônio permanente).
+- **ROUSSEAU, Jean-Yves; COUTURE, Carol.** *Os fundamentos da disciplina arquivística*. Lisboa: Dom Quixote, 1998. (Ciclo vital documental e valores primário e secundário).
+- **CHOI, Byounggu; LEE, Heeseok.** Knowledge management strategy and its link to knowledge creation process. *Expert Systems with Applications*, v. 23, n. 3, p. 173-187, 2002.`,
   checkpoints: [
     {
       id: 'cp-1-5-1',

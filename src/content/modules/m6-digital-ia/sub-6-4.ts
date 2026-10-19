@@ -171,6 +171,55 @@ RAG | 4. Busca Vetorial e Arquitetura RAG | Geração Aumentada por Recuperaçã
 * **IA Aplicada à Informação (sub-6-7):** Modelos fundacionais, prompting e curadoria profissional de corpora.
 * **Inteligência Artificial e Machine Learning (sub-14-3):** Conceitos básicos de aprendizado supervisionado e não supervisionado.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A aplicação da **Inteligência Artificial (IA)** na Biblioteconomia e nos Serviços de Informação Legislativa redefine a atuação do profissional da informação:
+1. **Conceitos Fundamentais de IA:**
+   - Capacidade de sistemas computacionais de simular capacidades humanas como aprendizado (*Machine Learning*), raciocínio, percepção, processamento de linguagem natural (PLN) e tomada de decisão.
+   - **IA Tradicional (Simbólica/Baseada em Regras):** Sistemas especialistas baseados em árvores lógicas "SE... ENTÃO".
+   - **Aprendizado de Máquina (*Machine Learning* - ML):** Algoritmos que aprendem padrões a partir de dados históricos sem serem explicitamente programados.
+     - *Supervisionado:* Treinado com dados rotulados (ex.: documentos já classificados por bibliotecários).
+     - *Não Supervisionado:* Algoritmos agrupam dados não rotulados por similaridade matemática (ex.: agrupamento/clusterização de textos).
+     - *Por Reforço:* O agente aprende por recompensas e penalidades ao interagir com um ambiente.
+2. **Modelos de Linguagem e IA Generativa (LLMs):**
+   - Modelos baseados na arquitetura *Transformer* treinados em corpora textuais massivos para geração, sumarização e tradução textual.
+   - Desafios críticos na informação pública: **Alucinação** (geração plausível de dados factualmente falsos ou inventados), **Opacidade / Caixa-Preta** e **Vieses Algorítmicos**.
+3. **Aplicações Canônicas em Bibliotecas:**
+   - Catalogação e indexação preditiva assistida; Reconhecimento Óptico de Caracteres (OCR) e Reconhecimento de Textos Manuscritos (HTR); Chatbots inteligentes de atendimento de referência; Sumarização de relatórios técnicos e detecção de duplicidades normativas.
+4. **Diretrizes Éticas da IFLA para IA:**
+   - Transparência, explicabilidade dos algoritmos, governança de dados, centralidade humana (*human-in-the-loop*), privacidade e combate à desinformação.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Classificação Automática Preliminar de Proposições):** Diariamente, chegam à Câmara centenas de novos projetos de lei. Um algoritmo de aprendizado supervisionado treinado com 20 anos de catálogo da biblioteca analisa a ementa do projeto e sugere 3 classes CDU e 5 descritores do vocabulário controlado. O bibliotecário valida ou corrige a sugestão (*human-in-the-loop*), reduzindo em 70% o tempo de processamento técnico.
+- **Cenário 2 (HTR na Digitalização de Manuscritos da Constituinte de 1823):** A Biblioteca Pedro Aleixo custodia manuscritos históricos com caligrafias cursivas antigas do Império. O bibliotecário aplica algoritmos de **HTR (*Handwritten Text Recognition*)**, convertendo manuscritos ilegíveis em texto digital plenamente pesquisável na BDCam.
+- **Cenário 3 (Prevenção de Alucinação em Resumos Legislativos):** A Câmara testa ferramentas de IA generativa para gerar resumos executivos de sessões de comissões. O bibliotecário atua na engenharia de prompts com técnicas de **RAG (*Retrieval-Augmented Generation*)**, forçando o modelo a citar estritamente trechos literais dos anais oficiais, eliminando alucinações e invenções factuais.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Modalidade de ML | Dados de Treinamento | Tarefa Típica em Bibliotecas | Exemplo Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Supervisionado** | Rotulados (com gabarito) | Classificação de assunto (CDU) | Classificar livros em categorias conhecidas |
+| **Não Supervisionado** | Não rotulados | Agrupamento de tópicos (Topic Modeling) | Identificar temas emergentes em discursos |
+| **Por Reforço** | Recompensas / Penalidades | Otimização de rotas de robôs de estante | Robô logístico em armazém de livros |
+| **RAG (Retrieval-Augmented)** | Consulta à base fática | Respostas embasadas sem alucinações | Chatbot legislativo que cita a lei exata |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Substituição Total do Bibliotecário pela IA:** O Cebraspe sugere que *"sistemas modernos de IA generativa tornam prescindível a intervenção humana na curadoria e catalogação"*. **Gabarito: ERRADO.** Todas as diretrizes éticas (IFLA, UNESCO e EBIA) exigem a supervisão humana ativa (*human-in-the-loop*) para mitigar vieses e erros.
+- **Alucinação como Falha de Conexão de Rede:** Definir alucinação em LLMs como queda de sinal de internet ou erro de hardware. **Gabarito: ERRADO.** Alucinação é a geração de respostas sintaticamente perfeitas, mas com dados factualmente incorretos ou fontes inventadas pelo modelo probabilístico.
+- **Supervisionado vs. Não Supervisionado:** Trocar os conceitos: afirmar que no aprendizado não supervisionado os dados são previamente etiquetados por especialistas humanos. **Gabarito: ERRADO.** Isso é aprendizado **supervisionado**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **RUSSELL, Stuart; NORVIG, Peter.** *Inteligência Artificial: uma abordagem moderna*. 4. ed. Rio de Janeiro: GEN LTC, 2022. (A bíblia mundial de IA adotada em concursos de TI e biblioteconomia).
+- **IFLA.** *IFLA Statement on Libraries and Artificial Intelligence*. Haia: IFLA, 2020. (Posicionamento oficial das bibliotecas sobre o uso ético da IA).
+- **BRASIL.** *Estratégia Brasileira de Inteligência Artificial (EBIA)*. Ministério da Ciência, Tecnologia e Inovações (MCTI), 2021.
+- **O'NEIL, Cathy.** *Algoritmos de destruição em massa: como o big data aumenta a desigualdade e ameaça a democracia*. Santo André: Editora Rua do Sabão, 2020.
+- **MITCHELL, Tom M.** *Machine Learning*. New York: McGraw-Hill, 1997.`,
   checkpoints: [
     {
       id: 'cp-6-4-1',

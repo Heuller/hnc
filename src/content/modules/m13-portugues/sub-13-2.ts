@@ -206,6 +206,51 @@ O Cebraspe explora minuciosamente as seguintes adulterações semânticas:
 3. **Inversão da Posição do Adjetivo em Relação ao Substantivo (Cunha & Cintra, p. 257):**
    - Na língua portuguesa, a anteposição do adjetivo tende a conferir valor afetivo, conotativo ou subjetivo, enquanto a posposição confere sentido denotativo, objetivo e classificador.
    - Exemplo: *"um **simples** deputado"* (insignificante, modesto) $\\neq$ *"um deputado **simples**"* (sem afetação, humilde). O Cebraspe testa se o candidato julga que essa inversão preserva sempre o sentido original.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Reescritura de Frases e Paráfrase** constitui a tipologia de itens mais densa e técnica das provas do Cebraspe:
+1. **O Comando de Reescritura:**
+   - A banca propõe uma redação alternativa para um trecho do texto original e pergunta se a alteração **mantém a correção gramatical e a coerência/sentido das ideias originais**.
+   - **Dois Filtros Obrigatórios e Independentes:**
+     1. *Filtro da Correção Gramatical:* A nova frase respeita a norma culta? (Concordância verbal/nominal, regência, crase, pontuação, tempos verbais e colocação pronominal). Se houver um único erro gramatical, o item é **ERRADO**.
+     2. *Filtro da Coerência e Sentido:* A nova frase diz exatamente a mesma coisa? Houve alteração no grau de certeza (de "pode ser" para "é"), no alcance semântico (de "alguns" para "todos") ou na hierarquia de ideias? Se mudou o sentido, o item é **ERRADO**.
+2. **Armadilhas Gramaticais Frequentes nas Reescrituras:**
+   - **Troca de Voz Passiva por Ativa com Erro de Concordância:** A voz passiva sintética com partícula apassivadora \`se\` exige que o verbo concorde com o sujeito paciente (*Discutiram-se os projetos*, e não *Discutiu-se os projetos*).
+   - **Deslocamento de Adjuntos Adnominais e Modificadores:** Mudar a posição da palavra *apenas* ou *somente* altera radicalmente o sentido da frase.
+   - **Alteração do Valor Modal:** Transformar uma possibilidade hipotética (*poderia ocorrer*) em uma certeza categórica (*ocorrerá*).
+   - **Supressão ou Inclusão Indevida de Preposição:** Na regência verbal (*assistir ao filme* $\ne$ *assistir o filme*).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Revisão da Redação Final de Projeto de Lei aprovado na CCJC):** O relator apresenta uma emenda de redação para simplificar o texto de um artigo de lei. O bibliotecário e o consultor legislativo analisam a reescritura: ao substituir a expressão arcaica, verificam se a nova oração preservou estritamente o alcance sancionatório da norma sem criar brechas de interpretação jurídica.
+- **Cenário 2 (Reescritura de Sumário Executivo para o Presidente da Câmara):** O diretor do CEDI precisa resumir um parecer técnico de 50 páginas em três parágrafos para o Presidente da Casa. Ele aplica técnicas de **paráfrase canônica**: substitui estruturas oracionais passivas prolixas por períodos diretos e claros, mantendo 100% da fidelidade aos dados fáticos do parecer.
+- **Cenário 3 (Auditoria de Pontuação e Sentido em Atas Plenárias):** Na transcrição taquigráfica de um discurso parlamentar, a inserção indevida de uma vírgula entre o sujeito e o predicado alteraria a imputação de responsabilidade de uma acusação política. O revisor elimina o vício pontual aplicando a gramática canônica de Bechara.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Critério do Cebraspe | O que Avalia | Condição para o Gabarito ser CERTO | Causa Típica de Anulação/Erro |
+| :--- | :--- | :--- | :--- |
+| **Correção Gramatical** | Cumprimento das regras formais | 100% conforme a gramática padrão | Erro sutil de crase ou regência |
+| **Coerência das Ideias** | Lógica interna e não contradição | A nova frase faz sentido no texto | Proposição ilógica ou contraditória |
+| **Sentido Original** | Preservação do significado exato | Não amplia, não restringe, não altera | Trocar "pode" por "deve" |
+| **Pontuação na Reescrita** | Uso de vírgulas e travessões | Respeita sintaxe de orações | Separar sujeito do verbo por vírgula |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Frase Gramaticalmente Perfeita que Altera o Sentido:** O Cebraspe redige uma frase sem nenhum erro gramatical aparente, mas troca o quantificador (ex.: o texto dizia *"grande parte dos deputados"* e a reescrita diz *"a totalidade dos deputados"*). **Gabarito: ERRADO.** A correção gramatical foi mantida, mas o sentido foi violado.
+- **A Partícula "Se" na Reescrita:** O texto original diz *"Os relatores analisaram os pareceres"*. A reescrita propõe: *"Analisou-se os pareceres"*. **Gabarito: ERRADO.** Na voz passiva com o pronome apassivador \`se\`, o verbo deve concordar obrigatoriamente no plural: *Analisaram-se os pareceres*.
+- **Substituição de Conjunções:** Trocar *posto que* (que é concessiva = embora) por *visto que* (que é causal = já que). **Gabarito: ERRADO.** Altera a relação semântica do período.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **GARCIA, Othon M.** *Comunicação em Prosa Moderna: aprenda a escrever, aprendendo a pensar*. 27. ed. Rio de Janeiro: FGV, 2010. (A obra seminal de paráfrase e reescritura no Brasil).
+- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. Rio de Janeiro: Nova Fronteira, 2019.
+- **CUNHA, Celso; CINTRA, Luís F. Lindley.** *Nova Gramática do Português Contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2017.
+- **KOCH, Ingedore Villaça.** *Desvendando os segredos do texto*. 8. ed. São Paulo: Cortez, 2014.
+- **CEBRASPE.** *Metodologia de Formulação de Itens de Reescritura e Paráfrase*. Brasília: Cebraspe, 2022.`,
   checkpoints: [
     {
       id: 'chk-13-2-1',

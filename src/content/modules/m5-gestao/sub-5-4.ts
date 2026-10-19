@@ -187,6 +187,54 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Governança da Informação e de Dados (sub-1-6):** Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Gestão da Informação (GI)** e a **Gestão do Conhecimento (GC)** integram pessoas, processos e tecnologia para gerar valor organizacional:
+1. **Diferença Conceitual Canônica:**
+   - **Gestão da Informação (GI):** Gerencia fluxos, suportes, estoques, dados e registros explícitos formais (estruturados e recuperáveis).
+   - **Gestão do Conhecimento (GC):** Gerencia o contexto social, o aprendizado humano, as competências e as condições organizacionais para que as pessoas criem, compartilhem e apliquem conhecimento.
+2. **Conhecimento Tácito vs. Explícito (Polanyi / Nonaka & Takeuchi):**
+   - **Tácito:** Pessoal, intuitivo, subjetivo, difícil de formalizar e comunicar verbalmente, enraizado na experiência e nos modelos mentais (*know-how*, intuição).
+   - **Explícito:** Codificado, formal, articulado em palavras, números, diagramas, manuais e bases de dados (*know-what*).
+3. **O Modelo SECI de Criação do Conhecimento (Espiral do Conhecimento de Nonaka & Takeuchi):**
+   - **Socialização (Tácito $\to$ Tácito):** Compartilhamento de experiências diretas, mentoria, observação e prática conjunta (sem uso de manuais).
+   - **Externalização (Tácito $\to$ Explícito):** Expressão do conhecimento tácito em conceitos explícitos, metáforas, modelos e documentos formais (é a chave da criação do conhecimento).
+   - **Combinação (Explícito $\to$ Explícito):** Recombinação, síntese e sistematização de diferentes corpos de conhecimento explícito (ex.: cruzar relatórios e bancos de dados para gerar um novo plano).
+   - **Internalização (Explícito $\to$ Tácito):** O indivíduo assimila o conhecimento explícito na prática diária (*learning by doing*), enriquecendo seu repertório tácito.
+4. **O Modelo dos Três Círculos de Choo (*The Knowing Organization*):**
+   - A organização usa a informação em três arenas estratégicas: **Construção de Sentido (*Sense Making*)**, **Criação de Conhecimento** e **Tomada de Decisão**.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Socialização e Mentoria na Consultoria e na Biblioteca):** Um analista legislativo veterano que domina as peculiaridades regimentais do plenário senta-se ao lado de um bibliotecário recém-empossado para orientá-lo sobre como antecipar demandas de votação. Esse processo de aprendizado direto sem manuais é a **Socialização (Tácito $\to$ Tácito)** de Nonaka & Takeuchi.
+- **Cenário 2 (Externalização na Produção de POPs do CEDI):** O bibliotecário mais experiente decide codificar seu método de restauração de livros raros em um *Procedimento Operacional Padrão (POP)* ricamente ilustrado. Ele operou a **Externalização (Tácito $\to$ Explícito)**, transformando sua intuição técnica em patrimônio formal da Câmara.
+- **Cenário 3 (Combinação na Produção de Relatórios Orçamentários):** A equipe do CEDI reúne os dados abertos de execução orçamentária da Câmara, cruza com as publicações do Senado e gera um *painel de business intelligence* comparativo. Isso é **Combinação (Explícito $\to$ Explícito)**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Modo de Conversão SECI | Origem $\to$ Destino | Ação Típica na Prática | Exemplo Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Socialização** | Tácito $\to$ Tácito | Mentoria, tutoria, diálogo direto | Mestre e aprendiz na bancada de conservação |
+| **Externalização** | Tácito $\to$ Explícito | Escrever manual, criar metáfora, diagramar | Registrar experiência prática em um manual |
+| **Combinação** | Explícito $\to$ Explícito | Cruzar bases de dados, compilar relatórios | Sintetizar dados de três pesquisas em um artigo |
+| **Internalização** | Explícito $\to$ Tácito | *Learning by doing*, prática profissional | Ler um manual e transformar em reflexo diário |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão dos Modos SECI:** A banca costuma dizer que *"a Socialização ocorre quando o profissional lê um manual técnico e assimila seu conteúdo"*. **Gabarito: ERRADO.** Ler manual e assimilar é **Internalização** (Explícito $\to$ Tácito). A Socialização é sempre Tácito $\to$ Tácito.
+- **Armazenamento de Conhecimento Tácito em Computadores:** Dizer que sistemas de TI armazenam conhecimento tácito. **Gabarito: ERRADO.** Computadores só armazenam dados e informações explícitas; conhecimento tácito reside exclusivamente no cérebro humano.
+- **Sinonímia entre GI e GC:** Tratar Gestão da Informação e Gestão do Conhecimento como sinônimos perfeitos. **Gabarito: ERRADO.** GI cuida de artefatos explícitos; GC cuida de pessoas, aprendizado e ambiente corporativo.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **NONAKA, Ikujiro; TAKEUCHI, Hirotaka.** *Criação de conhecimento na empresa: como as empresas japonesas geram a dinâmica da inovação*. Rio de Janeiro: Elsevier, 1997. (A teoria fundamental de conhecimento tácito/explícito e espiral SECI).
+- **CHOO, Chun Wei.** *A organização do conhecimento: como as organizações usam a informação para criar significado, construir conhecimento e tomar decisões*. São Paulo: Senac São Paulo, 2003.
+- **DAVENPORT, Thomas H.; PRUSAK, Laurence.** *Conhecimento empresarial: como as organizações gerenciam o seu capital intelectual*. Rio de Janeiro: Campus, 1998.
+- **POLANYI, Michael.** *The Tacit Dimension*. New York: Doubleday, 1966. (O autor pioneiro do conceito de conhecimento tácito).
+- **TARAPANOFF, Kira.** *Gestão da informação e do conhecimento*. Brasília: Thesaurus, 2001.`,
   checkpoints: [
     {
       id: 'cp-5-4-1',

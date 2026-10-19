@@ -288,7 +288,14 @@ O **Regimento Interno da Câmara dos Deputados (RICD)** disciplina a estrutura, 
 
 ### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
 - *Quantos membros titulares compõem a Mesa Diretora da Câmara?* (7 titulares: Presidente, 2 Vice-Presidentes e 4 Secretários).
-- *Qual a fase da sessão plenária destinada à votação das proposições?* (Ordem do Dia!).`,
+- *Qual a fase da sessão plenária destinada à votação das proposições?* (Ordem do Dia!).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **BRASIL. Congresso Nacional. Câmara dos Deputados.** *Regimento Interno da Câmara dos Deputados (RICD)*: Resolução nº 17, de 1989 e atualizações. Brasília: Edições Câmara, 2024.
+* **BRASIL.** *Constituição da República Federativa do Brasil de 1988*: arts. 51 a 58 (Do Poder Legislativo, competências da Câmara e comissões parlamentares).
+* **CÂMARA DOS DEPUTADOS.** *Estrutura e Competências do Centro de Documentação e Informação (CEDI)*. Ato da Mesa nº 53/2012 e regulamentos internos. Brasília: Coordenação Edições Câmara, 2023.`,
   checkpoints: [
     {
       id: 'cp-10-1-1',

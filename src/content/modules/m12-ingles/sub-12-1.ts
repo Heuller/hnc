@@ -126,6 +126,49 @@ O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **IA Aplicada à Informação (sub-6-7):** Terminologia contemporânea em inglês de inteligência artificial e RAG.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A leitura instrumental em Língua Inglesa no padrão Cebraspe opera pelo **Modelo Interativo-Compensatório (Stanovich)**, combinando técnicas estratégicas de leitura rápida:
+1. **O Modelo Interativo-Compensatório (Keith Stanovich):**
+   - A leitura eficiente não é puramente *Bottom-up* (decodificação mecânica de letra por letra e palavra por palavra) nem puramente *Top-down* (adivinhação baseada apenas no conhecimento de mundo).
+   - É um processo interativo: quando o leitor tem deficiência em um nível (ex.: não conhece o significado de um termo técnico isolado), ele compensa imediatamente utilizando pistas contextuais, morfológicas e conhecimento prévio do assunto.
+2. **Técnicas Canônicas de Leitura:**
+   - **Skimming (Varredura Panorâmica):** Leitura rápida dos títulos, subtítulos, primeira e última frase dos parágrafos (*topic sentences*) para captar a **ideia central** e o propósito comunicativo geral do texto em menos de 1 minuto.
+   - **Scanning (Busca Pontual Específica):** Movimento ocular em zigue-zague à procura de um dado factual isolado (número, data, nome próprio, sigla, termo técnico) sem ler o texto ao redor.
+3. **Pistas Tipográficas e Estruturais:**
+   - Palavras em negrito, itálico, números, travessões, parênteses e títulos orientam o foco de atenção e revelam a macroestrutura argumentativa.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Scanning em Relatório da OCDE para a Comissão de Finanças):** Um deputado relator precisa saber a alíquota média do IVA praticada nos países da OCDE em 2023. O bibliotecário recebe um relatório em inglês de 200 páginas e aplica o **Scanning**: localiza a tabela com o termo *"Value Added Tax (VAT)"* e a coluna *"Average 2023"*, extraindo o número exato em 30 segundos.
+- **Cenário 2 (Skimming em Artigo da IFLA sobre Preservação Digital):** Ao avaliar um artigo internacional recém-publicado pela *IFLA Journal*, o bibliotecário faz **Skimming** no *Abstract* e na *Conclusion*, identificando em 2 minutos que o texto trata da migração de formatos para PDF/A-4, selecionando-o para a base da RVBI.
+- **Cenário 3 (Modelo Compensatório em Tradução Jurídica):** Lendo um tratado da União Europeia, o analista depara-se com a expressão arcaica *"heretofore"*. Em vez de travar a leitura, aplica o modelo compensatório de Stanovich: a oração trata de atos anteriores à assinatura do acordo, inferindo perfeitamente o sentido de *"até o presente momento"*.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Técnica / Estratégia | Objetivo Primário | Velocidade | Quando Usar no Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Skimming** | Compreender a ideia geral / tese central | Muito rápida | Itens sobre o objetivo principal do autor |
+| **Scanning** | Localizar dado isolado (número/nome) | Instantânea | Itens sobre datas, porcentagens e fatos pontuais |
+| **Bottom-up** | Decodificação lexical palavra por palavra | Lenta | Itens sobre sinônimos ou regência de preposição |
+| **Top-down** | Uso de conhecimento prévio de mundo | Rápida | Inferências e intenções implícitas do autor |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Generalização Indevida da Ideia Central:** A banca pega um detalhe secundário mencionado em uma única linha do terceiro parágrafo e afirma que aquela é a ideia central (*main idea*) de todo o texto. **Gabarito: ERRADO.** A ideia central deve abranger a tese defendida pelo autor do início ao fim.
+- **Scanning em Questões de Inferência:** Tentar responder a itens de inferência global apenas buscando palavras idênticas com scanning. O Cebraspe usa paráfrases sinônimas para testar se o candidato realmente compreendeu o sentido.
+- **Tradução Palavra por Palavra:** Dizer que a leitura instrumental exige traduzir mentalmente cada palavra para o português antes de responder. **Gabarito: ERRADO.** A leitura instrumental busca a apreensão direta do significado no próprio inglês.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **NATION, I. S. P.** *Teaching ESL/EFL Reading and Writing*. New York: Routledge, 2009. (A principal autoridade em pedagogia e estratégias de leitura em língua inglesa).
+- **NUTTALL, Christine.** *Teaching Reading Skills in a Foreign Language*. Oxford: Macmillan, 2005. (A referência clássica das técnicas de skimming e scanning).
+- **STANOVICH, Keith E.** Toward an interactive-compensatory model of individual differences in the development of reading fluency. *Reading Research Quarterly*, v. 16, n. 1, p. 32-71, 1980.
+- **GRABE, William; STOLLER, Fredricka L.** *Teaching and Researching Reading*. 3. ed. New York: Routledge, 2019.
+- **CEBRASPE.** *Caderno de Provas Comentadas de Língua Inglesa — Concursos Públicos Federais*. Brasília: Cebraspe, 2023.`,
   checkpoints: [
     {
       id: 'chk-12-1-1',

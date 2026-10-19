@@ -143,6 +143,57 @@ $\\underbrace{10.1000}_{\\text{Prefixo}} \\; / \\; \\underbrace{182.v2n1.art5}_{
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Produtos e Serviços Informacionais (sub-5-2):** Elaboração de resumos indicativos, informativos e estados da arte.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As normas **ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)** regulam a condensação e a estruturação de publicações técnicas:
+1. **Resumos (ABNT NBR 6028:2021):**
+   - Apresentação concisa dos pontos relevantes de um documento. Deve ressaltar: objetivo, método, resultados e conclusões.
+   - **Tipologia Canônica:**
+     - *Indicativo:* Apenas aponta os tópicos tratados no documento; não apresenta resultados nem conclusões.
+     - *Informativo:* Suficientemente detalhado para dispensar a consulta ao original; relata objetivos, metodologia, principais resultados e conclusões.
+     - *Crítico (Recensão / Resenha):* Análise interpretativa e valorativa de um documento feita por um especialista.
+   - **Regras de Extensão da NBR 6028:**
+     - De **150 a 500 palavras** para trabalhos acadêmicos (teses, dissertações) e relatórios técnico-científicos.
+     - De **100 a 250 palavras** para artigos de periódicos.
+     - De **50 a 100 palavras** para documentos curtos.
+   - **Redação:** Composto por parágrafo único, em terceira pessoa do singular, com verbo na voz ativa, seguido das palavras-chave separadas por ponto e vírgula (ou ponto) e finalizadas por ponto.
+2. **Sumário (ABNT NBR 6027:2012):**
+   - Enumeração das divisões, seções e outras partes de um documento, **na mesma ordem e grafia em que a matéria nele se sucede**. É o último elemento pré-textual! Não se confunde com *Índice*!
+3. **Artigo Científico (ABNT NBR 6022:2018):**
+   - Publicação com autoria declarada que apresenta e discute ideias, métodos e resultados de pesquisa (artigo original) ou que resume o estado da arte de um tema (artigo de revisão).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Resumo Informativo para a Base SILEG):** Ao cadastrar uma tese defendida por um servidor no repositório da BDCam, o bibliotecário redige um **resumo informativo** de 300 palavras: expõe o objetivo da análise do processo legislativo, os métodos empíricos aplicados, a amostragem de votações e a conclusão de que o tempo de tramitação caiu 20% com o processo eletrônico, permitindo ao usuário decidir se precisa baixar o PDF de 400 páginas.
+- **Cenário 2 (Distinção entre Sumário e Índice nas Edições Câmara):** Na editoração de uma coletânea de discursos parlamentares com 1.000 páginas, o bibliotecário posiciona o **Sumário** no início (elemento pré-textual na ordem sequencial dos capítulos) e contrata a elaboração de um **Índice Onomástico e Remissivo** para o final do livro (elemento pós-textual em ordem alfabética de nomes e assuntos).
+- **Cenário 3 (Controle de Extensão de Resumo de Artigo na Revista de Informação Legislativa):** Ao avaliar um artigo submetido à revista técnica da casa, o bibliotecário verifica que o resumo possui 450 palavras. Ele solicita a redução para até 250 palavras para atender estritamente ao limite de artigos da NBR 6028.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Resumo / Elemento | Finalidade Principal | Extensão Canônica | Característica Crítica no Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Resumo Indicativo** | Apenas indica os tópicos tratados | Curto | Não traz dados qualitativos nem conclusão |
+| **Resumo Informativo** | Substitui a leitura do original | 150–500 pal. (Teses) / 100–250 (Artigos) | Informa objetivos, método, resultados e conclusões |
+| **Resumo Crítico (Resenha)** | Julgamento e avaliação de valor | Livre | Feito por terceiro com opinião analítica |
+| **Sumário (NBR 6027)** | Lista seções na ordem sequencial | Pré-textual | Ordem cronológica/exata do livro |
+| **Índice (NBR 6034)** | Lista detalhada alfabética ou sistemática | Pós-textual | Ordem alfabética remissiva |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Sumário vs. Índice:** A banca adora trocar os conceitos afirmando que o sumário é uma lista em ordem alfabética posicionada ao final do livro. **Gabarito: ERRADO.** Quem fica ao final em ordem alfabética é o **Índice** (NBR 6034); o **Sumário** fica no início e reproduz a ordem exata das seções do texto.
+- **Número de Parágrafos do Resumo:** O Cebraspe propõe que o resumo de uma tese acadêmica deve ser dividido em quatro parágrafos (introdução, método, resultado e conclusão). **Gabarito: ERRADO.** A NBR 6028 determina que o resumo deve ser redigido em **parágrafo único** contínuo!
+- **Verbo na Primeira Pessoa:** Afirmar que o resumo deve usar verbos na primeira pessoa ("concluímos que"). **Gabarito: ERRADO.** A norma prescreve o uso da terceira pessoa do singular com voz ativa.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6028:2021: Informação e documentação — Resumo, resenha e recensão — Apresentação*. Rio de Janeiro: ABNT, 2021.
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6027:2012: Informação e documentação — Sumário — Apresentação*. Rio de Janeiro: ABNT, 2012.
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6022:2018: Informação e documentação — Artigo em publicação periódica técnica e/ou científica — Apresentação*. Rio de Janeiro: ABNT, 2018.
+- **LANCASTER, F. Wilfrid.** *Indexação e resumos: teoria e prática*. 2. ed. Brasília: Briquet de Lemos, 2004. (Capítulos de elaboração e avaliação de resumos).
+- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.`,
   checkpoints: [
     {
       id: 'cp-8-4-1',

@@ -321,6 +321,62 @@ A gestão contemporânea de acervos transcende o empirismo subjetivo, estruturan
 * **Bibliometria e Altmetria (sub-9-4):** Leis bibliométricas e obsolescência da literatura de Burton & Kebler.
 * **Bibliotecas Digitais (sub-6-1):** Métricas de uso eletrônico COUNTER R5 e protocolo SUSHI.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Política de Desenvolvimento de Coleções (PDC)** é o instrumento normativo que orienta o crescimento planejado, harmônico e sustentável do acervo:
+1. **O Modelo Canônico de Waldomiro Vergueiro (6 Etapas Cíclicas):**
+   - O desenvolvimento de coleções é um processo ininterrupto e circular composto por:
+     1. **Estudo da Comunidade:** Diagnóstico das necessidades reais e potenciais dos usuários.
+     2. **Políticas de Seleção:** Definição formal dos critérios para inclusão de materiais no acervo.
+     3. **Aquisição:** Processos operacionais de compra, doação ou permuta.
+     4. **Desbaste (*Weeding* / Descarte / Remanejamento):** Retirada planejada de materiais obsoletos, danificados ou duplicados para depósito ou expurgo.
+     5. **Avaliação da Coleção:** Mensuração quantitativa e qualitativa do acervo (uso, cobertura e obsolescência).
+     6. **Preservação e Conservação:** Salvaguarda física e digital contínua da coleção.
+2. **Critérios Canônicos de Seleção (Vergueiro):**
+   - *Ligados ao assunto:* Adequação ao perfil institucional, profundidade, autoridade e atualidade.
+   - *Ligados aos usuários:* Demanda real, nível educacional e acessibilidade.
+   - *Ligados ao documento:* Custo financeiro, idioma, qualidade física/gráfica, facilidade de manuseio e formato.
+3. **Formas de Aquisição:**
+   - **Compra:** Exige processo licitatório no setor público (Lei Federal nº 14.133/2021).
+   - **Doação:** Exige triagem rigorosa com critérios prévios para não transformar a biblioteca em "depósito de descarte alheio". Política de doação deve prever o direito de recusa e de livre destinação.
+   - **Permuta:** Troca de publicações oficiais e institucionais entre bibliotecas parceiras (muito forte na Rede RVBI).
+4. **Desbaste vs. Descarte:**
+   - **Desbaste:** Ação genérica de retirar materiais do acervo principal de acesso direto. Pode resultar em:
+     - *Remanejamento:* Envio para depósito fechado de baixa circulação.
+     - *Descarte:* Eliminação física definitiva (doação a outras entidades, reciclagem ou destruição).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Comissão de Seleção e Política de Doação na Biblioteca Pedro Aleixo):** Um parlamentar doa à biblioteca 500 volumes de literatura geral de seu acervo particular. O bibliotecário aplica a **Política de Desenvolvimento de Coleções da Câmara**: como o foco temático da biblioteca é Ciências Sociais e Direito, os volumes de literatura são formalmente agradecidos e redirecionados para bibliotecas comunitárias escolares do DF, preservando o espaço das estantes para a coleção legislativa.
+- **Cenário 2 (Desbaste de Obras de Legislação Obsoleta):** Em Direito, a revogação de leis torna manuais desatualizados um risco grave se consultados por engano. O bibliotecário realiza o **desbaste sistemático**: exemplares de Códigos Civis comentados da década de 1970 são remanejados para o depósito de reserva técnica histórica, mantendo no acervo aberto apenas as edições atualizadas com jurisprudência vigente.
+- **Cenário 3 (Aquisição por Permuta na Rede RVBI):** A Biblioteca da Câmara edita 1.000 exemplares da *Constituição Anotada*. Utiliza 300 para o acervo próprio e envia os demais para o Senado Federal, STF, TCU e TST por meio do **programa cooperativo de permuta da RVBI**, recebendo em troca publicações oficiais dessas instituições com custo financeiro zero de aquisição.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Etapa / Modalidade | Finalidade Principal | Instrumento / Ação Chave | Regra de Ouro no Concurso |
+| :--- | :--- | :--- | :--- |
+| **Seleção** | Decidir o que deve entrar | Critérios formais da PDC escrita | Selecionar não é comprar; é decisão intelectual |
+| **Aquisição** | Obter material selecionado | Compra, Doação ou Permuta | Doação exige política escrita com direito de recusa |
+| **Desbaste** | Aliviar espaço e atualizar | Remanejar para depósito | Ação genérica; nem todo desbaste é destruição |
+| **Descarte** | Destinação definitiva | Expurgo, doação externa ou reciclagem | Bens permanentes históricos nunca são descartados |
+| **Avaliação** | Medir valor e uso da coleção | Métodos centrados na coleção vs. no usuário | Guia a revisão cíclica da PDC |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Aceitação Obrigatória de Doações:** O Cebraspe adora afirmar que *"por ser órgão público, a biblioteca da Câmara é obrigada a aceitar e incorporar ao acervo toda e qualquer doação recebida de deputados ou cidadãos"*. **Gabarito: ERRADO.** A aceitação incondicional fere as boas práticas de desenvolvimento de coleções; a biblioteca deve ter critérios rígidos de triagem e direito de destinação.
+- **Descarte de Obras Raras e Históricas:** Afirmar que livros raros de baixa circulação podem ser descartados e destruídos para abrir espaço. **Gabarito: ERRADO.** Obras raras, patrimoniais e documentos de valor permanente são protegidos por lei e inalienáveis.
+- **Natureza Cíclica do Desenvolvimento de Coleções:** Dizer que a PDC é um documento estático feito uma única vez. **Gabarito: ERRADO.** O modelo de Vergueiro é expressamente dinâmico, contínuo e cíclico.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **VERGUEIRO, Waldomiro.** *Desenvolvimento de coleções*. São Paulo: Polis; APB, 1989. (A obra seminal e mais cobrada sobre o tema em concursos brasileiros).
+- **WEITZEL, Simone da Rocha.** *Elaboração de uma política de desenvolvimento de coleções em bibliotecas universitárias*. 2. ed. Rio de Janeiro: Interciência, 2013.
+- **EVANS, G. Edward; SAPONARO, Margaret Zarnosky.** *Developing Library and Information Center Collections*. 6. ed. Englewood: Libraries Unlimited, 2012.
+- **CÂMARA DOS DEPUTADOS.** *Política de Desenvolvimento de Coleções da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2018.
+- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Capítulo sobre avaliação de coleções).`,
   checkpoints: [
     {
       id: 'cp-5-3-1',

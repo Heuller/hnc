@@ -226,6 +226,52 @@ A soberania popular é exercida pelo sufrágio universal e pelo voto direto e se
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Poder Legislativo na CF/88 (sub-10-5):** Organização dos Poderes a partir dos princípios fundamentais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As **Comissões Parlamentares** (Permanentes, Temporárias, Especiais e Parlamentares de Inquérito - CPIs) são os órgãos técnicos onde se opera o exame aprofundado das proposições (RICD, arts. 22 a 64):
+1. **Comissões Permanentes:**
+   - Vinculadas a campos temáticos específicos da atividade legislativa (ex.: CCJC, CFT, CDE, etc.).
+   - Exercem a **Competência Terminativa / Conclusiva (CF art. 58, § 2º, I):** A comissão discute e vota projetos de lei que dispensam a deliberação do Plenário, salvo se houver recurso assinado por **1/10 dos membros da Câmara** (52 deputados) para que a matéria seja levada ao Plenário.
+2. **Comissão de Constituição e Justiça e de Cidadania (CCJC):**
+   - A comissão mais poderosa da Casa: analisa a constitucionalidade, legalidade, juridicidade, regimentalidade e técnica legislativa de **todas** as proposições. Seu parecer terminativo contrário à constitucionalidade acarreta o **arquivamento imediato** do projeto!
+3. **Comissões Parlamentares de Inquérito (CPIs - CF art. 58, § 3º e Lei nº 1.579/1952):**
+   - Criadas a requerimento de **1/3 dos membros da Câmara** (171 deputados) ou do Senado, ou do Congresso (CPMI).
+   - Requisitos constitucionais cumulativos: **Fato determinado** e **Prazo certo**.
+   - **Poderes Próprios das Autoridades Judiciais:** Podem determinar quebra de sigilo bancário, fiscal e telefônico; ouvir testemunhas sob pena de falso testemunho; requisitar documentos oficiais e convocar ministros de Estado.
+   - **O que a CPI NÃO pode fazer (Reserva de Jurisdição do Judiciário):** Não pode determinar busca e apreensão domiciliar noturna, interceptação telefônica (escuta telefônica direta), prisão preventiva ou preventiva de bens (salvo flagrante delito!).
+   - **Relatório Final da CPI:** Não condena nem julga; é encaminhado ao **Ministério Público** para que promova a responsabilidade civil ou criminal dos infratores.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Recurso contra Parecer Terminativo de Comissão Permanente):** A Comissão de Educação aprova em caráter conclusivo um projeto de lei. Um grupo de 55 deputados (mais de 1/10 da Casa) protocola recurso regimental. O bibliotecário atualiza o status no SILEG: o projeto perde a condição de aprovado em definitivo e é remetido à pauta do Plenário Ulysses Guimarães.
+- **Cenário 2 (Suporte Documental à CPI das Apostas Esportivas):** O presidente de uma CPI requisita à Biblioteca Pedro Aleixo levantamento imediato de toda a legislação comparada europeia sobre manipulação de apostas. A equipe de bibliotecários entrega dossiê estruturado, amparando os interrogatórios dos parlamentares.
+- **Cenário 3 (Limites Constitucionais de uma CPI no Plenário):** Em debate acalorado, um deputado propõe que a CPI expeça mandado de prisão preventiva contra uma testemunha que mentiu em depoimento. O consultor legislativo esclarece que a CPI só pode prender em **flagrante delito** (por falso testemunho); a prisão preventiva cabe exclusivamente a um juiz togado de direito.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Comissão | Finalidade Central | Requisito de Criação | Poder Crítico no Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Permanente** | Matérias temáticas de rotina | Prevista no RICD | Poder conclusivo terminativo (dispensa plenário) |
+| **Especial** | Analisar PEC ou matérias complexas | Criada pelo Presidente | Emite parecer sobre PEC antes do plenário |
+| **CPI (Inquérito)** | Investigar fato determinado por prazo certo | Requerimento de 1/3 da Casa | Quebra de sigilo bancário, fiscal e telefônico |
+| **CPMI (Mista)** | Inquérito conjunto de deputados e senadores | 1/3 da CD + 1/3 do SF | Poderes judiciais investigativos conjuntos |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A CPI Pode Prender Preventivamente:** O Cebraspe afirma que a CPI tem competência para decretar prisão preventiva ou temporária de investigados. **Gabarito: ERRADO.** Prisão preventiva é reserva absoluta de jurisdição do Poder Judiciário. A CPI só pode prender em flagrante delito.
+- **A CPI Pode Interceptar Conversa Telefônica:** A banca confunde quebra de sigilo de registros telefônicos com interceptação telefônica (escuta). **Gabarito: ERRADO.** A CPI pode quebrar o sigilo dos registros de chamadas (extrato de ligações feitas), mas **NÃO pode autorizar escuta telefônica direta** (interceptação em tempo real), que é exclusiva de juiz.
+- **Destinação do Relatório Final da CPI:** Afirmar que a CPI condena criminalmente e remete sua sentença ao STF. **Gabarito: ERRADO.** A CPI não condena ninguém; seu relatório é enviado ao Ministério Público para oferecimento de denúncia se for o caso.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. art. 58.
+- **BRASIL.** *Lei Federal nº 1.579, de 18 de março de 1952*. Dispõe sobre as Comissões Parlamentares de Inquérito.
+- **CÂMARA DOS DEPUTADOS.** *Regimento Interno da Câmara dos Deputados (RICD)*. arts. 22 a 64.
+- **BARROSO, Luís Roberto.** *O controle de constitucionalidade no direito brasileiro*. 9. ed. São Paulo: Saraiva, 2022.
+- **MENDES, Gilmar Ferreira.** *Comissões Parlamentares de Inquérito: poderes e limites constitucionais*. Brasília: IDP, 2019.`,
   checkpoints: [
     {
       id: 'cp-10-4-1',

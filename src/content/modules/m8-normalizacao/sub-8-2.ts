@@ -163,6 +163,55 @@ São admitidas **exclusivamente em notas de rodapé de referência** no sistema 
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **NBR 6023 (Referências) (sub-8-1):** Chamadas no texto pelo sistema autor-data e numérico.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **ABNT NBR 10520 (Versão Atualizada em 2023)** regula a apresentação de citações em documentos acadêmicos e técnicos:
+1. **Tipologia das Citações:**
+   - **Citação Direta (Literal):** Transcrição textual exata das palavras do autor consultado.
+     - *Curta (até 3 linhas):* Inserida no fluxo normal do parágrafo, incorporada entre aspas duplas (\`"..."\`).
+     - *Longa (mais de 3 linhas):* Destacada em parágrafo isolado, com **recuo de 4 cm da margem esquerda**, tamanho de fonte menor (geralmente corpo 10), espaçamento entrelinhas simples e **sem aspas**!
+   - **Citação Indireta (Paráfrase):** Texto redigido com as próprias palavras do pesquisador, baseado na ideia do autor original. Dispensa aspas e recuo; exige indicação da autoria e ano.
+   - **Citação de Citação (*Apud*):** Citação de um texto ao qual o pesquisador não teve acesso direto à fonte original, utilizando a expressão latina *apud* (citado por). Ex.: \`(KUNH, 1962 apud POPPER, 1974)\`.
+2. **A Grande Mudança da NBR 10520:2023 (Atenção Máxima no Cebraspe!):**
+   - Na versão anterior (2002), chamadas entre parênteses exigiam caixa alta completa: \`(SILVA, 2020)\`.
+   - Na versão **NBR 10520:2023**, a ABNT aboliu a caixa alta obrigatória nos parênteses! Agora, tanto no fluxo do texto quanto entre parênteses, os nomes devem ser grafados em **letras maiúsculas e minúsculas**:
+     - *No texto:* Segundo Silva (2023, p. 15)...
+     - *Entre parênteses:* ...(Silva, 2023, p. 15).
+   - O uso de caixa alta total \`(SILVA, 2023)\` deixou de ser o padrão obrigatório!
+3. **Sistemas de Chamada:**
+   - Sistema Autor-Data vs. Sistema Numérico (deve-se adotar um único sistema em todo o documento).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Citação Direta Longa em Relatório de CPI):** O relator de uma CPI transcreve um parecer jurídico de 8 linhas de um jurista renomado. O bibliotecário formata o texto conforme a NBR 10520: recuo de 4 cm da margem esquerda, fonte tamanho 10, espaçamento entrelinhas simples, sem aspas, e ao final a chamada: \`(Bandeira de Mello, 2023, p. 142)\`.
+- **Cenário 2 (Uso Racional do Apud em Pesquisa Histórica):** Um consultor parlamentar cita uma frase célebre do Visconde de Uruguai de 1855 citada na biografia escrita por Afonso Arinos de 1970. O bibliotecário registra: \`(Uruguai, 1855 apud Arinos, 1970, p. 88)\` e assegura que nas referências finais constará a obra de Arinos (a obra efetivamente consultada).
+- **Cenário 3 (Atualização para a NBR 10520:2023 nas Edições Câmara):** A equipe editorial da Câmara dos Deputados revisa os modelos de teses e estudos legislativos para abolir a antiga caixa alta \`(SILVA, 2018)\`, aplicando o novo padrão uniforme \`(Silva, 2018)\` conforme a revisão 2023 da ABNT.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Tipo de Citação | Extensão / Formato | Recuo e Aspas | Exemplo Atualizado NBR 10520:2023 |
+| :--- | :--- | :--- | :--- |
+| **Direta Curta** | Até 3 linhas | No fluxo do texto / **Com aspas duplas** | Conforme Silva (2023, p. 12), "o parlamento debate..." |
+| **Direta Longa** | Mais de 3 linhas | **Recuo de 4 cm** / Fonte menor / **Sem aspas** | Parágrafo isolado com recuo de 4 cm (Silva, 2023, p. 45) |
+| **Indireta** | Qualquer extensão | No fluxo do texto / Sem aspas / Sem recuo | Para Silva (2023), o controle de legalidade é essencial. |
+| **Apud** | Citação de citação | Autor original *apud* autor consultado | (Weber, 1922 apud Bendix, 1986, p. 30) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Aspas em Citação Longa:** A banca coloca recuo de 4 cm com aspas duplas ao mesmo tempo. **Gabarito: ERRADO.** Citação longa com recuo de 4 cm não leva aspas em nenhuma hipótese!
+- **Obra que vai para as Referências no Apud:** A banca afirma que, ao usar \`(Kuhn, 1962 apud Popper, 1974)\`, a única obra obrigatória na lista de referências final é a de Kuhn. **Gabarito: ERRADO.** A obra que deve obrigatoriamente constar nas referências finais é a que foi **efetivamente lida e consultada** pelo autor (isto é, a obra de Popper). A citação de Kuhn entra apenas em nota de rodapé opcional.
+- **Indicação de Página em Citação Indireta:** Dizer que a indicação do número da página é estritamente obrigatória na citação indireta (paráfrase). **Gabarito: ERRADO.** Na citação indireta a página é opcional; ela é obrigatória apenas na citação direta!
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 10520:2023: Informação e documentação — Citações em documentos — Apresentação*. Rio de Janeiro: ABNT, 2023. (A nova versão da norma de citações).
+- **MEDEIROS, João Bosco.** *Redação científica*. 13. ed. São Paulo: Atlas, 2019.
+- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.
+- **CÂMARA DOS DEPUTADOS.** *Manual de Redação e Padronização Bibliográfica da Consultoria Legislativa*. Brasília: Edições Câmara, 2023.
+- **ECO, Umberto.** *Como se faz uma tese*. 25. ed. São Paulo: Perspectiva, 2014.`,
   checkpoints: [
     {
       id: 'cp-8-2-1',

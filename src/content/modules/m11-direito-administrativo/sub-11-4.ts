@@ -116,6 +116,53 @@ $$\\text{PAD} = \\text{Instauração} \\longrightarrow \\text{Inquérito (Instru
 
 * **Comissão Processante:** Composta por **3 servidores estáveis**, designados pela autoridade instauradora, devendo o presidente ocupar cargo de nível igual ou superior ao do indiciado ou ter escolaridade igual ou superior.
 * **Defesa Técnica e Súmula Vinculante 5 do STF:** O indiciado tem o direito de ser pessoalmente citado e intimado para todos os atos, podendo constituir advogado. Contudo, a ausência de advogado não anula o PAD nem viola a ampla defesa constitucional (Súmula Vinculante 5).`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Processo Administrativo Federal (Lei nº 9.784/1999)** e o **Direito Disciplinar (Lei nº 8.112/1990)** estabelecem o devido processo legal e o regime sancionatório no serviço público:
+1. **Princípios e Direitos no Processo Administrativo (Lei nº 9.784/1999):**
+   - Princípios canônicos: Devido processo legal, ampla defesa, contraditório, motivação, oficialidade, gratuidade e **verdade material** (o administrador busca a verdade fática real dos acontecimentos, e não apenas a verdade formal dos autos).
+   - **Dever de Motivação (Art. 50):** A motivação é obrigatória em atos que neguem, limitem ou afetem direitos, imponham deveres ou sanções, e revoguem ou anulem atos. A motivação pode ser *aliunde* (por remissão a pareceres anteriores).
+   - **Delegação e Avocação de Competência:**
+     - *Delegação:* É facultativa, revogável a qualquer tempo e não implica renúncia de competência. **NÃO podem ser delegados (Art. 11):** a edição de atos normativos; a decisão de recursos administrativos; e matérias de competência exclusiva.
+     - *Avocação:* Excepcional, temporária e exige motivos relevantes devidamente justificados.
+2. **Direito Disciplinar na Lei nº 8.112/1990:**
+   - **Penalidades Disciplinares:** Advertência $\to$ Suspensão (máximo de 90 dias) $\to$ Demissão $\to$ Cassação de aposentadoria/disponibilidade $\to$ Destituição de cargo em comissão $\to$ Destituição de função comissionada.
+   - **Infrações Puníveis com Demissão (Art. 132):** Crime contra a administração pública; abandono de cargo (ausência intencional por mais de **30 dias consecutivos**); inassiduidade habitual (falta injustificada por **60 dias interpolados** no período de 12 meses); improbidade administrativa; aplicação irregular de dinheiro público; lesão aos cofres públicos e corrupção.
+3. **O Processo Administrativo Disciplinar (PAD):**
+   - Composto por comissão de **3 servidores estáveis**. Fases: Instauração $\to$ Inquérito (instrução, defesa e relatório) $\to$ Julgamento pela autoridade competente.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Proibição de Delegação de Recurso na Diretoria-Geral):** Um candidato contesta o gabarito de uma prova interna do CEDI e protocola recurso administrativo perante a Diretoria-Geral. O Diretor-Geral não pode delegar a decisão desse recurso para a chefia imediata da biblioteca, pois o art. 11 da Lei nº 9.784/1999 veda terminantemente a delegação de **decisão de recursos administrativos**.
+- **Cenário 2 (Apuração de Abandono de Cargo na Biblioteca):** Um servidor deixa de comparecer ao trabalho na Biblioteca Pedro Aleixo por 32 dias consecutivos sem justificativa médica ou licença formal. A Mesa Diretora instaura PAD pelo rito sumário de **abandono de cargo** (art. 132, II da Lei 8.112), assegurando a ampla defesa antes da aplicação da penalidade de demissão.
+- **Cenário 3 (Verdade Material em Sindicância Interna):** Durante a apuração do extravio de um livro histórico de 1850, o servidor acusado junta cópias simples incompletas. O presidente da comissão de PAD, em busca da **verdade material** (art. 2º da Lei 9.784), requisita de ofício as filmagens das câmeras de segurança e ouve testemunhas que não haviam sido indicadas na petição inicial.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Ato / Situação Disciplinar | Regra Legal / Prazo | Característica Crítica | Erro Típico da Banca |
+| :--- | :--- | :--- | :--- |
+| **Abandono de Cargo** | Mais de **30 dias consecutivos** de falta injustificada | Intenção de faltar (animus abandonandi) | Confundir com inassiduidade habitual |
+| **Inassiduidade Habitual** | **60 dias interpolados** de falta em 12 meses | Faltas dispersas sem justificativa | Dizer que são 30 dias interpolados |
+| **Atos Não Delegáveis** | Edição de atos normativos, recursos e comp. exclusiva | Rol taxativo do art. 11 da Lei 9.784 | Dizer que recurso pode ser delegado |
+| **Suspensão Máxima** | Até 90 dias | Pode ser convertida em multa de 50% | Afirmar suspensão de 180 dias |
+| **Comissão de PAD** | 3 servidores estáveis | Designados pela autoridade instauradora | Permitir servidores em estágio probatório |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Comissão de PAD com Servidor Não Estável:** A banca afirma que a comissão de PAD pode ser composta por dois analistas estáveis e um servidor recém-empossado em estágio probatório. **Gabarito: ERRADO.** O art. 149 da Lei 8.112 exige expressamente que os **três membros sejam servidores estáveis**.
+- **Delegação de Ato Normativo:** Afirmar que o Diretor pode delegar a expedição de portarias normativas gerais a seus chefes de serviço. **Gabarito: ERRADO.** O art. 11 da Lei 9.784/99 proíbe a delegação de atos com caráter normativo.
+- **Verdade Formal vs. Verdade Material:** O Cebraspe propõe que o processo administrativo federal se rege pela verdade formal como no processo civil clássico. **Gabarito: ERRADO.** O processo administrativo rege-se pelo princípio da **verdade material**, podendo a Administração produzir provas de ofício além das alegadas pelas partes.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 9.784, de 29 de janeiro de 1999*. Regula o processo administrativo no âmbito da Administração Pública Federal.
+- **BRASIL.** *Lei Federal nº 8.112, de 11 de dezembro de 1990*. arts. 116 a 182 (Regime Disciplinar e PAD).
+- **MEDAUAR, Odete.** *Direito Administrativo Moderno*. 23. ed. Belo Horizonte: Fórum, 2021. (Referência canônica de processo administrativo).
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023.
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.`,
   checkpoints: [
     {
       id: 'cp-11-4-1',
