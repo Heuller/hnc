@@ -18,8 +18,30 @@ export const submodulo33: ModuloFilho = {
       }
   ],
   titulo: 'Análise Documentária e Processo de Indexação',
+  antesDeLer: [
+    {
+      termo: 'Análise Documentária',
+      definicao: 'Operação intelectual que compreende a leitura técnica, a identificação dos conceitos centrais e a síntese do conteúdo temático de um documento.',
+      exemploBiblioteca: 'Leitura de um projeto de lei de 200 páginas para extrair os 5 tópicos fundamentais que serão indexados no sistema.',
+    },
+    {
+      termo: 'Indexação',
+      definicao: 'Processo de representar o conteúdo substantivo de um documento por meio de termos padronizados ou descritores controlados.',
+      exemploBiblioteca: 'Atribuição de termos do Tesauro da Câmara para garantir que o projeto seja recuperado por \'Reforma Política\' e \'Voto Distrital\'.',
+    },
+    {
+      termo: 'Exaustividade vs. Revocação',
+      definicao: 'Exaustividade é o número de termos atribuídos a um documento; quanto maior a exaustividade, maior a revocação (recuperação de mais itens).',
+      exemploBiblioteca: 'Decidir indexar artigos de revistas parlamentares detalhadamente para recuperar pequenos trechos citados em plenário.',
+    },
+    {
+      termo: 'Especificidade vs. Precisão',
+      definicao: 'Especificidade é a correspondência estrita entre o termo e o conceito; quanto maior a especificidade, maior a precisão (menos lixo nos resultados).',
+      exemploBiblioteca: 'Indexar por \'Imposto sobre Bens e Serviços (IBS)\' em vez do termo genérico \'Tributo\' para evitar falsos positivos.',
+    },
+  ],
   descricaoCurta: 'Teoria da análise documentária (Kobashi e Cintra), as etapas da indexação segundo Lancaster e a ISO 5963, pré-coordenação vs pós-coordenação, sumarização vs indexação em profundidade, coerência de indexação e as métricas de avaliação de recuperação (revocação, precisão, ruído e silêncio).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['F. W. Lancaster', 'Jacques Chaumier', 'Nair Yumiko Kobashi', 'Anna Maria Marques Cintra', 'Cyril Cleverdon', 'Derek Austin', 'Mortimer Taube'],
   alertasCebraspe: [
     'As duas etapas clássicas da indexação segundo F. W. Lancaster: 1ª Análise Conceitual (leitura técnica documentária e identificação do que trata o documento, formulada em linguagem natural) e 2ª Tradução (conversão dos conceitos em termos de uma linguagem documentária controlada). A análise conceitual SEMPRE antecede a tradução!',
@@ -148,6 +170,52 @@ A relação entre revocação e precisão é fundamentalmente **inversamente pro
 * **Classificação Decimal Universal (CDU) (sub-3-2):** Classificação de acervos jurídicos especializados.
 * **Fontes Jurídicas e LexML Brasil (sub-4-3):** Organização temática da biblioteca jurídica parlamentar.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Análise Documentária** e a **Indexação** representam o núcleo intelectual do tratamento temático da informação:
+1. **Conceito e Etapas da Indexação (ISO 5963 / UNISIST):**
+   - Processo de representar o conteúdo temático de um documento por meio de termos padronizados de uma linguagem documentária ou texto livre.
+   - **Três Etapas Canônicas:**
+     1. *Exame do Documento e Leitura Técnica:* Leitura estratégica da estrutura (título, subtítulo, resumo, sumário, introdução, conclusões, cabeçalhos de seção). O indexador **não lê o livro integralmente** de ponta a ponta!
+     2. *Identificação dos Conceitos (Conceituação):* Extração das noções nucleares que respondem ao que o documento trata (o sobre/aboutness).
+     3. *Tradução dos Conceitos:* Transposição dos conceitos em linguagem natural para os termos autorizados da linguagem de indexação (tesauro, lista de cabeçalhos ou vocabulário controlado).
+2. **Exaustividade vs. Revocação e Precisão:**
+   - **Exaustividade:** Número de termos atribuídos a um documento para cobrir todos os seus tópicos (quanto maior a exaustividade, maior a **revocação** e menor a precisão).
+   - **Especificidade:** Grau de precisão com que um termo de indexação descreve exatamente o conceito do documento (quanto maior a especificidade, maior a **precisão** e menor a revocação).
+3. **Indexação Manual vs. Automática:**
+   - Manual (humana/intelectual), Semi-automática (humano valida sugestões algorítmicas) e Automática (algoritmos baseados em frequência TF-IDF, processamento de linguagem natural ou modelos de linguagem).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Leitura Técnica de Proposição Legislativa):** Ao receber um Projeto de Lei com 400 páginas sobre saneamento básico e concessões públicas, o bibliotecário legislativo aplica a **ISO 5963**: lê a ementa, a justificação do deputado autor, os artigos iniciais de definição e o relatório final da comissão, extraindo em 15 minutos os conceitos essenciais para indexação sem ler as 400 páginas.
+- **Cenário 2 (Trade-off Exaustividade vs. Precisão na Busca Parlamentar):** Um deputado pede ao serviço de referência: *"Quero apenas os projetos de lei que tratem especificamente de incentivo fiscal para microprodutores de cacau"*. O bibliotecário aplica busca de **alta especificidade** utilizando termos restritos do Vocabulário Controlado Básico (VCB), garantindo **alta precisão** (zero ruído de leis gerais sobre agricultura).
+- **Cenário 3 (Tradução para Termos Autorizados na RVBI):** O autor do projeto usa em sua justificativa a expressão popular "taxação das grandes fortunas". O catalogador traduz esse conceito para o descritor canônico autorizado da RVBI: \`IMPOSTO SOBRE GRANDES FORTUNAS (IGF)\`, mantendo a consistência do catálogo.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Conceito de Indexação | Definição Teórica | Efeito na Recuperação | Relação Direta |
+| :--- | :--- | :--- | :--- |
+| **Exaustividade** | Quantidade de assuntos indexados | Recupera mais documentos | Aumenta a **Revocação** (Recall) |
+| **Especificidade** | Exatidão e profundidade do termo | Recupera documentos mais pontuais | Aumenta a **Precisão** (Precision) |
+| **Leitura Técnica** | Inspeção sistemática de partes estratégicas | Otimiza o tempo do profissional | Não exige leitura integral |
+| **Tradução** | Passagem da linguagem natural para a controlada | Elimina sinonímias e ambiguidades | Uso obrigatório de Tesauro/VCB |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Leitura Integral do Documento:** O Cebraspe adora afirmar que *"na indexação profissional segundo a ISO 5963, o bibliotecário deve realizar a leitura linear completa de todas as páginas do documento antes de extrair conceitos"*. **Gabarito: ERRADO.** A norma orienta expressamente a leitura técnica seletiva de partes estruturantes.
+- **Inversão entre Revocação e Precisão:** Dizer que o aumento da exaustividade resulta em maior precisão. **Gabarito: ERRADO.** Alta exaustividade traz mais documentos periféricos (aumenta a revocação / recall e diminui a precisão).
+- **Indexação por Atribuição vs. Derivação:** Na indexação por **derivação** (ou extração), usam-se as próprias palavras literais do autor; na indexação por **atribuição**, termos padronizados de uma linguagem controlada são atribuídos mesmo que não constem no texto original.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **LANCASTER, F. Wilfrid.** *Indexação e resumos: teoria e prática*. 2. ed. Brasília: Briquet de Lemos, 2004. (A principal bíblia de indexação nos concursos do Cebraspe).
+- **KOBASHI, Nair Yumiko.** *A elaboração de informações documentárias: em busca de uma metodologia*. 1994. Tese (Doutorado) – Universidade de São Paulo, São Paulo, 1994.
+- **ISO 5963:1985.** *Documentation — Methods for examining documents, determining their subjects, and selecting indexing terms*. Genebra: ISO, 1985.
+- **CHAUMIER, Jacques.** *Indexação: conceitos, etapas e instrumentos*. Rio de Janeiro: Palas Athena, 1988.
+- **CINTRA, Anna Maria Marques et al.** *Para entender as linguagens documentárias*. 2. ed. São Paulo: Polis, 2002.`,
   checkpoints: [
     {
       id: 'cp-3-3-1',

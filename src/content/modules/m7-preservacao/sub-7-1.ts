@@ -13,8 +13,30 @@ export const submodulo71: ModuloFilho = {
       }
   ],
   titulo: 'Agentes Ambientais e Físico-Químicos de Degradação de Acervos',
+  antesDeLer: [
+    {
+      termo: 'Celulose e Hidrólise Ácida',
+      definicao: 'A celulose é o polímero básico do papel; a hidrólise ácida rompe suas cadeias moleculares, tornando o papel quebradiço e amarelado.',
+      exemploBiblioteca: 'Identificação de acervos parlamentares do início do século XX produzidos com papel ácido de pasta mecânica de madeira.',
+    },
+    {
+      termo: 'Parâmetros Ambientais de Acervos',
+      definicao: 'Condições ideais de conservação de papel: temperatura entre 18°C e 22°C e umidade relativa (UR) entre 45% e 55% com oscilações mínimas.',
+      exemploBiblioteca: 'Monitoramento termo-higrométrico 24h nas salas de guarda de obras raras da Biblioteca Pedro Aleixo.',
+    },
+    {
+      termo: 'Radiação Ultravioleta (UV)',
+      definicao: 'Fração energética da luz solar e de lâmpadas que catalisa a fotoxidação da celulose e da lignina, acelerando a perda de resistência do papel.',
+      exemploBiblioteca: 'Instalação de películas com filtro UV nas janelas e luminárias de LED na área de exposição da biblioteca.',
+    },
+    {
+      termo: 'Poluição Atmosférica e Particulados',
+      definicao: 'Gases ácidos (óxidos de enxofre e nitrogênio) e poeira que reagem com a umidade ambiental, formando ácidos e promovendo abrasão física.',
+      exemploBiblioteca: 'Sistemas de ar-condicionado central com filtros especiais de carvão ativado nos depósitos de livros da Câmara.',
+    },
+  ],
   descricaoCurta: 'A composição físico-química dos suportes documentais, acidez intrínseca do papel industrial, parâmetros de temperatura e umidade relativa (flutuações e estresse mecânico), radiação ultravioleta e poluição atmosférica.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 13,
   prioridade: 'normal',
   autoresChave: ['Norma Cassares', 'Ingrid Beck', 'Antônio Celso Ramos Spinelli', 'Garry Thomson', 'Library of Congress Preservation Directorate', 'Conarq'],
   alertasCebraspe: [
@@ -136,6 +158,53 @@ As condições físicas de guarda no depósito definem a longevidade dos acervos
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Suportes e Condições Ambientais (sub-7-3):** Controle de temperatura e umidade relativa no arquivo da Câmara.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A preservação do papel baseia-se na compreensão físico-química da sua estrutura e nos agentes ambientais que provocam sua deterioração:
+1. **Estrutura da Celulose e Hidrólise Ácida:** A celulose é uma longa cadeia polimérica de moléculas de glicose ligadas por pontes de oxigênio. A **hidrólise ácida** (reação química catalisada por água e calor) rompe essas cadeias, transformando o papel longo e flexível em fibras curtas, amareladas e quebradiças.
+2. **Parâmetros Ambientais de Ouro (Conservação Preventiva):**
+   - **Temperatura:** 18 °C a 22 °C (o calor acelera as reações químicas de degradação).
+   - **Umidade Relativa (UR):** 45% a 55% (UR > 65% deflagra esporos de fungos; UR < 35% resseca o papel tornando-o quebradiço).
+   - **Estabilidade:** Oscilações bruscas diárias de temperatura (> 3 °C) ou UR (> 5%) provocam dilatação e contração mecânica contínua nas fibras, descolando folhas e encadernações.
+3. **Luz e Radiação Ultravioleta (UV):** A luz solar e lâmpadas fluorescentes emitem radiação UV que rompe ligações moleculares por **fotoxidação**, oxidando a lignina e desbotando tintas.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cofre de Obras Raras da Biblioteca Pedro Aleixo:** A sala de guarda de manuscritos e obras dos séculos XVIII e XIX opera com sistema de ar-condicionado central redundante 24 horas por dia, 7 dias por semana. Termo-higrômetros com calibração RBC monitoram continuamente o ambiente.
+- **Iluminação Protegida:** As luminárias são 100% LED de luz fria (sem emissão de UV nem radiação infravermelha de calor) e as janelas recebem películas de controle solar com bloqueio de 99% dos raios UV.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido: Agentes Ambientais de Degradação
+| Agente Físico-Químico | Efeito Destrutivo no Acervo | Parâmetro Correto na Biblioteca |
+| :--- | :--- | :--- |
+| **Temperatura Alta** | Acelera cineticamente a hidrólise ácida | 18 °C a 22 °C (permanente) |
+| **Umidade Elevada (> 65%)** | Proliferação explosiva de mofo/fungos | 45% a 55% UR |
+| **Umidade Muito Baixa (< 35%)** | Desidratação, ressecamento e quebra | 45% a 55% UR |
+| **Radiação UV** | Fotoxidação, amarelamento e esfarelamento | Filtros UV / iluminação LED isenta |
+| **Poluição Atmosférica** | Gases ácidos (SO2, NOx) geram ácido sulfúrico | Filtros de ar mecânicos e de carvão ativado |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Armadilha do Ar-Condicionado Desligado à Noite:** A banca sugere que desligar o ar-condicionado durante a noite ou fins de semana para economizar energia é boa prática. **Gabarito: ERRADO.** As oscilações diárias de temperatura e umidade causam estresse mecânico severo no papel.
+- **Umidade Baixa como Vantagem:** Dizer que quanto menor a umidade, melhor a conservação porque afasta os fungos. **Gabarito: ERRADO** (papel desidratado quebra ao menor manuseio).
+- **Lignina:** Papéis produzidos com pasta mecânica de madeira contêm alta taxa de lignina (ex.: jornal), tornando-se escuros e ácidos rapidamente em contato com oxigênio e luz.
+
+---
+
+### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
+- *Qual a faixa de temperatura e umidade relativa padrão para acervos bibliográficos?* (18 °C a 22 °C e 45% a 55%).
+- *Por que oscilações são piores que valores constantes levemente fora da faixa?* (Porque a fibra incha e retrai ciclicamente, quebrando a estrutura física do papel).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **CASSARES, Norma.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Arquivo do Estado, 2000. (Controle ambiental, parâmetros de temperatura/UR e intervenção mínima).
+* **BECK, Ingrid.** *Manual de conservação preventiva de documentos*. Rio de Janeiro: Arquivo Nacional, 1995. (Estabilidade climática ininterrupta e preservação em clima tropical).
+* **SPINELLI, Antônio Celso Ramos.** *Preservação de acervos bibliográficos*. Brasília: Senac-DF, 2003. (Degradação por hidrólise ácida e fotoxidação da celulose).
+* **IFLA.** *Princípios para o cuidado e manejo de material de bibliotecas*. Haia: IFLA, 2000.
+* **CONARQ.** *Recomendações para a construção de arquivos*. Rio de Janeiro: Conselho Nacional de Arquivos, 2000.`,
   checkpoints: [
     {
       id: 'cp-7-1-1',

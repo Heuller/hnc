@@ -12,11 +12,8 @@ import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { progressSyncService } from '../../services/progressSyncService';
 import { ALL_COURSE_MODULES } from '../../content/registry';
-import { Keyboard, Search, BookOpen } from 'lucide-react';
+import { Keyboard, Search } from 'lucide-react';
 import { Kbd } from '../common/Kbd';
-import { TextSelectionListener } from '../dicionario/TextSelectionListener';
-import { GlossarioModal } from '../dicionario/GlossarioModal';
-import { useDicionarioStore } from '../../store/useDicionarioStore';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
 
 interface AppShellProps {
@@ -81,12 +78,6 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         return;
       }
 
-      // Alt+G -> Dicionário / Glossário Cebraspe (evita conflito com a barra de endereços Alt+D do navegador)
-      if (e.altKey && e.key.toLowerCase() === 'g') {
-        e.preventDefault();
-        useDicionarioStore.getState().abrirBuscaVazia();
-        return;
-      }
 
       // Se estiver digitando em campo de texto, ignora atalhos de caractere simples
       if (isInput) return;
@@ -209,16 +200,6 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
                 <span className="whitespace-nowrap">Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
               </button>
 
-              <span className="text-border hidden sm:inline">|</span>
-
-              <button
-                type="button"
-                onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
-              >
-                <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-                <span className="whitespace-nowrap">Glossário Cebraspe</span>
-              </button>
 
               <span className="text-border hidden sm:inline">|</span>
 
@@ -257,10 +238,6 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         isOpen={isAuthModalOpen}
         onClose={closeAuthModal}
       />
-
-      {/* Glossário Vivo Cebraspe (Dicionário Técnico Flutuante e Destaque de Texto) */}
-      <TextSelectionListener />
-      <GlossarioModal />
     </div>
   );
 };

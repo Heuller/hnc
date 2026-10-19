@@ -22,6 +22,7 @@ export const ItemAttemptSchema = z.object({
   correto: z.boolean(),
   tentativa_n: z.number().int().positive(), // 1 = 1ª tentativa oficial (portão); 2+ = prática
   criado_em: z.string(), // ISO 8601 UTC
+  review_prefilled: z.boolean().optional(),
 });
 
 export type ItemAttempt = z.infer<typeof ItemAttemptSchema>;
@@ -38,6 +39,7 @@ export interface CriarItemAttemptParams {
   certeza?: 'alta' | 'media' | 'baixa';
   tentativaN?: number;
   criadoEm?: string;
+  review_prefilled?: boolean;
 }
 
 /**
@@ -85,6 +87,7 @@ export function criarItemAttempt(
     correto,
     tentativa_n,
     criado_em: criadoEm,
+    ...(params.review_prefilled !== undefined ? { review_prefilled: params.review_prefilled } : {}),
   };
 
   return ItemAttemptSchema.parse(attempt);

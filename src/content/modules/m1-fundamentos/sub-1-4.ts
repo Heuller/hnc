@@ -19,8 +19,30 @@ export const submodulo14: ModuloFilho = {
   ],
   titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas',
   titulo_curto: 'Legislação e Código de Ética CFB',
+  antesDeLer: [
+    {
+      termo: 'CFB / CRB',
+      definicao: 'Conselho Federal e Conselhos Regionais de Biblioteconomia, autarquias federais dotadas de personalidade jurídica de direito público que fiscalizam o exercício profissional.',
+      exemploBiblioteca: 'Exigência de registro ativo no CRB-1 (Distrito Federal) para a posse no cargo de Analista Legislativo - Biblioteconomia.',
+    },
+    {
+      termo: 'Lei nº 4.084/1962',
+      definicao: 'Lei federal que dispõe sobre a profissão de bibliotecário e regula suas funções privativas em todo o território nacional.',
+      exemploBiblioteca: 'Fundamentação legal para que a direção e chefia da Biblioteca da Câmara sejam exercidas privativamente por bibliotecários de carreira.',
+    },
+    {
+      termo: 'Código de Ética do Bibliotecário',
+      definicao: 'Resolução do CFB que estabelece deveres, vedações, direitos e responsabilidades ético-profissionais em relação aos usuários e à sociedade.',
+      exemploBiblioteca: 'Preservação estrita do sigilo sobre temas e proposições sensíveis pesquisadas por gabinetes parlamentares.',
+    },
+    {
+      termo: 'Atribuições Privativas',
+      definicao: 'Atividades técnicas que a legislação brasileira reserva com exclusividade ao bacharel em Biblioteconomia registrado no respectivo conselho.',
+      exemploBiblioteca: 'Classificação, catalogação de acervos bibliográficos e emissão de pareceres técnicos sobre serviços de informação.',
+    },
+  ],
   descricaoCurta: 'A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.',
-  tempoEstimadoMinutos: 25,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['Conselho Federal de Biblioteconomia (CFB)', 'Lei 4.084/1962', 'Decreto 56.725/1965', 'Conselhos Regionais (CRB)'],
   alertasCebraspe: [
     'A Lei 4.084/1962 estipula atividades PRIVATIVAS de bacharéis em biblioteconomia (planejamento, organização e direção de serviços de bibliotecas; classificação e catalogação; ensino de disciplinas de biblioteconomia). Não confunda atribuições privativas com atividades concorrentes!',
@@ -150,6 +172,52 @@ As sanções aplicáveis em caso de cometimento de falta ética ou descumpriment
 * **Estudos de Usuários e Entrevista de Referência (sub-4-4):** Conduta ética e sigilo durante o atendimento de referência parlamentar.
 * **Transparência, LAI e LGPD (sub-11-12):** Responsabilidade legal do servidor público e deveres funcionais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Competência em Informação (*Information Literacy*)** e a **Mediação da Informação** são temas de altíssima incidência nas provas do Cebraspe para o Legislativo:
+1. **Conceito de Competência em Informação:**
+   - Habilidade integrada de reconhecer quando uma informação é necessária, identificar fontes adequadas, acessar com eficiência, avaliar criticamente a veracidade/autoridade e utilizar a informação ética e legalmente (Declarações de Praga/2003 e Alexandria/2005).
+   - Não se confunde com mero "letramento digital" ou domínio de computadores: trata-se de uma metacompetência crítica, cognitiva e reflexiva.
+2. **Modelos Canônicos de Competência Informacional:**
+   - **The Big6 (Eisenberg & Berkowitz, 1990):** Seis etapas lógicas: Definição da tarefa $\to$ Estratégias de busca $\to$ Localização e acesso $\to$ Uso da informação $\to$ Síntese $\to$ Avaliação.
+   - **Seven Faces of Information Literacy (Christine Bruce, 1997):** Modelo relacional que categoriza como as pessoas vivenciam a informação (desde o uso de TI até a sabedoria).
+   - **Modelo de Kuhlthau (Information Search Process - ISP):** Seis estágios que integram sentimentos (afetivo), pensamentos (cognitivo) e ações (físico): Iniciação (incerteza) $\to$ Seleção (otimismo) $\to$ Exploração (confusão/frustração) $\to$ Formulação (clareza) $\to$ Coleta (confiança) $\to$ Apresentação (alívio).
+3. **Mediação da Informação (Oswaldo Francisco de Almeida Júnior):**
+   - *"Toda ação de interferência — realizada pelo profissional da informação — direta ou indireta, consciente ou inconsciente, singular ou plural, individual ou coletiva, que propicia a apropriação da informação"*.
+   - A mediação nunca é neutra; o bibliotecário intervém ativamente na cadeia de comunicação.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Kuhlthau no Suporte a uma Comissão Parlamentar de Inquérito - CPI):** O relator de uma CPI designa um assessor para investigar fraudes fiscais complexas. Na fase inicial de **Exploração**, o assessor relata sentimentos de ansiedade e frustração diante do excesso de dados contraditórios. O bibliotecário legislativo identifica o estágio do ISP de Kuhlthau e oferece filtros conceituais para conduzir o usuário à fase de **Formulação** (foco claro de pesquisa).
+- **Cenário 2 (Letramento Informacional no Treinamento de Gabinetes):** A Biblioteca Pedro Aleixo oferece oficinas aos secretários parlamentares ensinando a distinguir notícias falsas (*fake news*) de pareceres técnicos canônicos da Consultoria Legislativa e a utilizar operadores booleanos no LexML e no Portal da Câmara. Isso é a aplicação pura dos pilares da UNESCO para *Information Literacy*.
+- **Cenário 3 (Mediação Implícita na Arquitetura do Portal):** Quando a equipe de bibliotecários da Câmara estrutura as facetas de busca por deputado, tema e ano no catálogo online, ocorre **mediação indireta/implícita** (Almeida Júnior), facilitando a apropriação da informação pelo cidadão antes mesmo de qualquer interação presencial.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Modelo / Teoria | Autor Central | Enfoque Principal | Sentimento Crítico na Prova |
+| :--- | :--- | :--- | :--- |
+| **Big6** | Eisenberg & Berkowitz | 6 etapas pragmáticas de resolução de problemas | Metodológico / Linear |
+| **ISP (Search Process)** | Carol Kuhlthau | Relação entre sentimentos, pensamentos e ações | Ansiedade/dúvida na Exploração |
+| **Seven Faces** | Christine Bruce | Maneiras experienciais de vivenciar a informação | Relacional / Fenomenográfico |
+| **Mediação da Informação** | Almeida Júnior | Interferência consciente/inconsciente do mediador | Rejeição ao mito da neutralidade |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O Mito da Neutralidade do Bibliotecário:** O Cebraspe propõe que *"na mediação da informação, o bibliotecário deve atuar de forma absolutamente neutra, funcionando como mero repassador mecânico sem interferir no processo"*. **Gabarito: ERRADO.** A teoria da mediação (Almeida Júnior) postula que a neutralidade é uma ilusão positivista; toda mediação é uma interferência ativa.
+- **Estágio de Maior Incerteza em Kuhlthau:** A banca costuma inverter o sentimento de frustração, dizendo que *"a formulação é o momento de maior incerteza e pessimismo"*. **Gabarito: ERRADO.** O ponto de maior dúvida, confusão e frustração é a **Exploração**; na **Formulação**, surge a clareza e o otimismo.
+- **Redução à Alfabetização Digital:** Afirmar que a competência em informação esgota-se na capacidade técnica de operar softwares e navegadores web. **Gabarito: ERRADO.** Trata-se de competência crítica de avaliação e uso ético.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ALMEIDA JÚNIOR, Oswaldo Francisco de.** Mediação da informação e múltiplas linguagens. *Tendências da Pesquisa Brasileira em Ciência da Informação*, v. 2, n. 1, p. 89-103, 2009. (Conceito canônico de mediação da informação).
+- **CAMPELLO, Bernadete.** O letramento informacional no Brasil: práticas e reflexões. *Perspectivas em Ciência da Informação*, v. 8, n. 1, p. 40-55, 2003.
+- **DUDZIAK, Elisabeth Adriana.** Information literacy: princípios, filosofia e prática. *Ciência da Informação*, v. 32, n. 1, p. 23-35, 2003. (Marcos conceituais e manifestos de Praga e Alexandria).
+- **GASQUE, Kelley Cristine G. D.** *Letramento informacional: pesquisa, comunicação e aprendizagem*. Brasília: FCI/UnB, 2012.
+- **KUHLTHAU, Carol C.** *Seeking Meaning: A Process Approach to Library and Information Services*. 2. ed. Westport: Libraries Unlimited, 2004. (Modelo ISP de seis estágios).
+- **EISENBERG, Michael B.; BERKOWITZ, Robert E.** *Information Problem Solving: The Big Six Skills Approach to Library & Information Skills Instruction*. Norwood: Ablex, 1990.`,
   checkpoints: [
     {
       id: 'cp-1-4-1',

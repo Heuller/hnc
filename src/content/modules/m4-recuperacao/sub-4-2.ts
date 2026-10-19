@@ -18,8 +18,30 @@ export const submodulo42: ModuloFilho = {
       }
   ],
   titulo: 'Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação',
+  antesDeLer: [
+    {
+      termo: 'Fontes Primárias',
+      definicao: 'Documentos originais que contêm informações inéditas de primeira mão, não filtradas ou interpretadas por terceiros.',
+      exemploBiblioteca: 'Texto oficial de um projeto de lei publicado no Diário da Câmara dos Deputados e notas taquigráficas.',
+    },
+    {
+      termo: 'Fontes Secundárias',
+      definicao: 'Documentos que compilam, organizam, referenciam ou analisam informações extraídas de fontes primárias.',
+      exemploBiblioteca: 'Bases de dados bibliográficas da RVBI, índices de jurisprudência e enciclopédias jurídicas.',
+    },
+    {
+      termo: 'Fontes Terciárias',
+      definicao: 'Instrumentos que sinalizam a localização de fontes secundárias e primárias, funcionando como guias da literatura.',
+      exemploBiblioteca: 'Diretório de bibliotecas parlamentares, bibliografias de bibliografias e guias de fontes do direito legislativo.',
+    },
+    {
+      termo: 'Literatura Cinzenta (Grey Literature)',
+      definicao: 'Documentos não convencionais publicados fora dos canais comerciais tradicionais de editoração (relatórios técnicos, teses, atas).',
+      exemploBiblioteca: 'Notas técnicas e pareceres emitidos pela Consultoria Legislativa e Consultoria de Orçamento da Câmara.',
+    },
+  ],
   descricaoCurta: 'Tipologia das fontes de informação (Cunha, Grogan): fontes primárias, secundárias e terciárias, literatura cinzenta, bases de dados especializadas e critérios de avaliação de fontes analógicas e digitais.',
-  tempoEstimadoMinutos: 30,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Murilo Bastos da Cunha', 'Denis Grogan', 'Bernadete Campello', 'Nice Menezes de Figueiredo'],
   alertasCebraspe: [
     'A classificação tripartite das fontes de informação segundo Murilo Bastos da Cunha: Primárias (conhecimento original e novo), Secundárias (informação organizada que remete às primárias) e Terciárias (guias que apontam para as primárias e secundárias).',
@@ -155,6 +177,50 @@ Os experimentos de Cranfield demonstraram uma lei empírica universal da Ciênci
 * **Fontes Jurídicas e LexML Brasil (sub-4-3):** Pesquisa avançada em diários oficiais e bases governamentais.
 * **Transparência, LAI e LGPD (sub-11-12):** Acesso a informações públicas e sigilo.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A identificação, categorização e avaliação crítica de **fontes de informação** é indispensável para a prática de referência legislativa:
+1. **Tipologia Tradicional das Fontes de Informação (Grogan e Campello):**
+   - **Fontes Primárias:** Contêm informações originais, inéditas, publicadas pela primeira vez pelos próprios autores/pesquisadores (ex.: artigos de periódicos científicos, teses e dissertações, anais de congressos, relatórios técnicos de pesquisa, patentes, normas técnicas, diários oficiais e legislações originais).
+   - **Fontes Secundárias:** Facilitam a localização, organização e acesso às fontes primárias; contêm informações compiladas, retrabalhadas ou organizadas sobre fontes primárias (ex.: catálogos de bibliotecas, bases de dados bibliográficas, enciclopédias, dicionários, manuais, tratados, bibliografias e periódicos de indexação/resumos).
+   - **Fontes Terciárias:** Guiam o usuário até as fontes secundárias e primárias; organizam o universo informacional em nível superior (ex.: bibliografias de bibliografias, diretórios de bibliotecas e instituições, guias de literatura, catálogos coletivos de redes).
+2. **Literatura Cinzenta (*Grey Literature*):**
+   - Documentos produzidos em todos os níveis governamentais, acadêmicos e empresariais, em formato impresso ou eletrônico, **não controlados por editoras comerciais** e cuja distribuição não segue os canais tradicionais de venda (ex.: relatórios técnicos de consultorias legislativas, notas informativas ministeriais, atas de audiências públicas, *preprints*, traduções internas e apostilas).
+   - Desafios: controle bibliográfico complexo, tiragens restritas, volatilidade na web e ausência frequente de ISBN/ISSN.
+3. **Critérios de Avaliação de Fontes de Informação:**
+   - Autoridade (reputação do autor e da instituição publicadora), Precisão/Acurácia, Atualidade/Tempestividade, Cobertura/Exaustividade, Usabilidade e Objetividade (ausência de viés tendencioso).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Classificação de Documentos no Acervo da Consultoria Legislativa):** Ao receber os relatórios de pesquisa produzidos pelos consultores da Conle sobre o impacto orçamentário de uma emenda constitucional, o bibliotecário os identifica como **literatura cinzenta** de alto valor primário. Ele os cataloga na BDCam para garantir a recuperação permanente antes que se percam em pastas departamentais.
+- **Cenário 2 (Distinção entre Fonte Primária e Secundária no Processo Legislativo):** Um assessor parlamentar precisa embasar um recurso perante o STF. O bibliotecário alerta: a publicação do texto da lei no *Diário Oficial da União* é uma **fonte primária** com fé pública; já o comentário doutrinário em um manual de direito constitucional é uma **fonte secundária**, fundamental para a interpretação, mas que não substitui a norma oficial.
+- **Cenário 3 (Uso de Fonte Terciária para Pesquisa Histórica):** Um pesquisador estrangeiro busca mapear todos os centros de documentação e bibliotecas que guardam acervos parlamentares na América Latina. O bibliotecário consulta o *Guia Mundial de Bibliotecas Parlamentares da IFLA*, utilizando uma **fonte terciária** por excelência.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Nível da Fonte | Função Essencial | Exemplos Canônicos no Cebraspe | Armadilha Clássica da Banca |
+| :--- | :--- | :--- | :--- |
+| **Primária** | Apresenta dado inédito / criação original | Artigos, patentes, anais, diários oficiais, leis | Dizer que enciclopédia é fonte primária |
+| **Secundária** | Reorganiza, sintetiza ou referencia primárias | Enciclopédias, dicionários, catálogos, manuais | Confundir bibliografia temática com terciária |
+| **Terciária** | Guia sobre fontes primárias e secundárias | Bibliografia de bibliografias, guias, diretórios | Dizer que periódico científico é terciário |
+| **Literatura Cinzenta** | Publicação fora do mercado comercial editorial | Relatórios técnicos, *preprints*, teses, atas | Afirmar que livro publicado por editora é literatura cinzenta |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Teses e Dissertações:** A banca insiste em dizer que teses acadêmicas são fontes secundárias porque foram orientadas por professores. **Gabarito: ERRADO.** Teses e dissertações relatam pesquisas científicas originais inéditas e são categorizadas como **fontes primárias** (e classicamente como literatura cinzenta acadêmica).
+- **Periódicos de Indexação e Resumos (*Abstracting and Indexing*):** Afirmar que uma base de dados que apenas indexa artigos de outras revistas é fonte primária. **Gabarito: ERRADO.** Trata-se de **fonte secundária** para localização.
+- **Literatura Cinzenta sem Valor Científico:** O Cebraspe sugere que documentos de literatura cinzenta não possuem validade técnica ou jurídica por não terem ISBN comercial. **Gabarito: ERRADO.** Relatórios de órgãos governamentais e agências reguladoras constituem literatura cinzenta de altíssimo rigor e relevância pública.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CAMPELLO, Bernadete de Souza; CENDÓN, Beatriz Valadares; KREMER, Jeannette Marguerite (Org.).** *Fontes de informação para pesquisadores e profissionais*. Belo Horizonte: Ed. UFMG, 2000. (Livro adotado formalmente em concursos de Biblioteconomia no Brasil).
+- **CUNHA, Murilo Bastos da; CAVALCANTI, Cordélia Robalinho de Oliveira.** *Dicionário de Biblioteconomia e Arquivologia*. Brasília: Briquet de Lemos, 2008.
+- **GROGAN, Denis.** *Science and technology: an introduction to the literature*. 4. ed. London: Clive Bingley, 1982. (A formulação canônica da divisão primária/secundária/terciária).
+- **ROWLEY, Jennifer.** *A biblioteca eletrônica*. Brasília: Briquet de Lemos, 2002.
+- **ALBERANI, Vilma; CASTRO PANGELOS, Paola de.** The use of grey literature in government and public institutions. *Interlending & Document Supply*, v. 23, n. 2, p. 24-29, 1995.`,
   checkpoints: [
     {
       id: 'cp-4-2-1',

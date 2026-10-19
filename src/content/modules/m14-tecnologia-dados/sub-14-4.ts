@@ -18,9 +18,31 @@ export const submodulo144: ModuloFilho = {
       }
   ],
   titulo: 'Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling',
+  antesDeLer: [
+    {
+      termo: 'Ciência de Dados e Ciclo de Vida dos Dados',
+      definicao: 'Campo multidisciplinar que engloba coleta, limpeza, exploração, modelagem estatística e comunicação de insights baseados em dados.',
+      exemploBiblioteca: 'Análise da série histórica de 10 anos de empréstimos da biblioteca para prever demanda por novas aquisições.',
+    },
+    {
+      termo: 'Mineração de Texto (Text Mining)',
+      definicao: 'Extração de padrões, tendências e relações relevantes a partir de grandes volumes de texto não estruturado.',
+      exemploBiblioteca: 'Agrupamento temático automático de discursos proferidos no Plenário da Câmara por análise de frequência de tópicos.',
+    },
+    {
+      termo: 'Visualização de Dados e Storytelling',
+      definicao: 'Comunicação de conclusões analíticas complexas por meio de gráficos eficazes (barras, box plots, mapas de calor) e narrativa lógica.',
+      exemploBiblioteca: 'Painel em Power BI demonstrando aos diretores o crescimento no uso do repositório digital BDCam por estado brasileiro.',
+    },
+    {
+      termo: 'Box Plot e Histograma',
+      definicao: 'Gráficos estatísticos: box plot exibe mediana, quartis e outliers; histograma mostra a distribuição de frequência de variáveis contínuas.',
+      exemploBiblioteca: 'Análise da distribuição do tempo de atendimento de solicitações parlamentares com detecção de valores discrepantes (outliers).',
+    },
+  ],
   descricaoCurta:
     'Tipologia de dados; estatística descritiva e EDA (Tukey); mineração de dados (metodologia CRISP-DM, tarefas descritivas e preditivas); mineração de textos (pipeline de PLN, tokenização, stopwords, stemming vs lematização, TF-IDF e Lei de Zipf/Luhn); pipeline de ETL/ELT; gramática dos gráficos; ferramentas analíticas corporativas (Power BI, Tableau, Looker Studio) e storytelling com dados.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 24,
   autoresChave: [
     'Edward Tufte (Data-Ink Ratio, 1983)',
     'Cole Nussbaumer Knaflic (Storytelling with Data, 2015)',
@@ -240,6 +262,59 @@ A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwo
 * **Sistemas Informacionais e Bancos de Dados (sub-6-5):** Modelagem relacional (MER) e extração de dados.
 * **SQL, Regex e APIs (sub-6-6):** Consultas SQL e filtros de pré-processamento de dados.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Ciência de Dados, a Mineração de Textos (*Text Mining*), a Visualização de Dados e o *Storytelling*** transformam acervos e dados brutos em inteligência acionável:
+1. **O Ciclo KDD (*Knowledge Discovery in Databases* - Fayyad et al., 1996):**
+   - Processo não trivial de identificação de padrões válidos, novos, potencialmente úteis e compreensíveis em grandes volumes de dados.
+   - **As 5 Etapas do KDD:**
+     1. *Seleção:* Amostragem e isolamento dos dados relevantes.
+     2. *Pré-processamento:* Limpeza de ruídos, tratamento de dados ausentes e inconsistentes.
+     3. *Transformação:* Redução de dimensionalidade, normalização e agregação de atributos.
+     4. *Mineração de Dados (Data Mining):* Aplicação de algoritmos para extrair padrões (classificação, regressão, agrupamento/clusterização e associação).
+     5. *Interpretação e Avaliação:* Análise crítica dos padrões descobertos para tomada de decisão.
+2. **Mineração de Textos (*Text Mining*):**
+   - Descoberta de conhecimento em dados textuais não estruturados (discursos parlamentares, pareceres, ementas).
+   - Técnicas: Reconhecimento de Entidades Nomeadas (NER: identifica pessoas, órgãos e locais); Análise de Sentimento; e Modelagem de Tópicos (*Topic Modeling* - ex.: LDA - Latent Dirichlet Allocation).
+3. **Visualização de Dados e Storytelling (Cole Nussbaumer Knaflic):**
+   - Comunicação eficaz de dados por meio de gráficos adequados e narrativa visual envolvente.
+   - **Princípios do Storytelling com Dados:**
+     - Eliminar poluição visual (*clutter*): retirar grades pesadas, bordas 3D e efeitos ornamentais inúteis.
+     - Focar a atenção do público utilizando atributos pré-atencionais (cor destacada em um elemento-chave, contraste e tamanho).
+     - Escolha correta do gráfico: barras/colunas para comparações categóricas; linhas para séries temporais contínuas; dispersão para correlações. **Gráficos de pizza com muitas fatias são desaconselhados!**
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Modelagem de Tópicos nos Discursos em Plenário):** A equipe do CEDI aplica o algoritmo LDA (*Latent Dirichlet Allocation*) sobre 50.000 discursos proferidos no Plenário Ulysses Guimarães ao longo da legislatura. O modelo agrupa automaticamente os discursos em 10 temas emergentes principais (ex.: transição energética, marco temporal, reforma tributária), permitindo à biblioteca mapear a evolução das preocupações parlamentares ao longo do tempo.
+- **Cenário 2 (Storytelling em Painel do Orçamento da União):** Para apresentar a execução das emendas parlamentares aos líderes partidários, o bibliotecário projeta um *dashboard* interativo no Power BI aplicando os princípios de Knaflic: elimina o excesso de linhas de grade, destaca em vermelho apenas as emendas com risco de cancelamento por perda de prazo e utiliza gráfico de barras horizontais ordenadas para visualização instantânea em 5 segundos.
+- **Cenário 3 (Reconhecimento de Entidades Nomeadas - NER na Indexação Automática):** Ao receber o texto integral de uma lei ordinária de 100 páginas, um algoritmo de NER varre o documento e extrai automaticamente todas as menções a ministérios, autarquias e municípios, gerando sugestões prontas de pontos de acesso no formato MARC 21 para o catalogador validar.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Etapa KDD / Tipo de Gráfico | Objetivo Prático | Aplicação Recomendada | Conduta Desaconselhada |
+| :--- | :--- | :--- | :--- |
+| **Pré-processamento** | Limpar ruídos e nulos | Antes da mineração algorítmica | Aplicar algoritmo em dado corrompido |
+| **Data Mining** | Extrair padrões matemáticos | Fase 4 do KDD (o núcleo do processo) | Confundir Data Mining com o KDD inteiro |
+| **Gráfico de Linhas** | Mostrar evolução contínua no tempo | Séries temporais de votações anuais | Usar linha para variáveis categóricas |
+| **Gráfico de Barras** | Comparar grandezas entre categorias | Gastos por comissão parlamentar | Usar 3D com sombras e poluição visual |
+| **Gráfico de Pizza** | Mostrar proporção de um todo simples | Máximo de 2 a 3 fatias bem contrastadas | Usar com dezenas de fatias semelhantes |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Data Mining é Sinônimo do Processo KDD Inteiro:** O Cebraspe afirma que Mineração de Dados (Data Mining) e KDD são termos rigorosamente idênticos. **Gabarito: ERRADO.** O KDD é o processo metodológico completo de 5 etapas; o Data Mining é apenas **uma das etapas (a etapa 4)** do ciclo KDD.
+- **Uso de Gráficos 3D em Storytelling:** Dizer que gráficos tridimensionais (3D) aumentam a precisão da leitura de dados pelo público. **Gabarito: ERRADO.** Em visualização de dados (Knaflic e Tufte), gráficos em 3D distorcem as proporções visuais e são considerados poluição visual grave (*chartjunk*).
+- **Tratamento de Dados Ausentes:** O Cebraspe propõe que na etapa de pré-processamento todos os dados ausentes devem ser obrigatoriamente apagados do banco. **Gabarito: ERRADO.** Dados ausentes podem ser imputados por média, mediana ou modelagem estatística, avaliando-se o impacto no conjunto.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **FAYYAD, Usama; PIATETSKY-SHAPIRO, Gregory; SMYTH, Padhraic.** From data mining to knowledge discovery in databases. *AI Magazine*, v. 17, n. 3, p. 37-54, 1996. (O artigo seminal que definiu as etapas do processo KDD).
+- **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios*. Rio de Janeiro: Alta Books, 2019. (A principal referência em comunicação e design de dados).
+- **PROVOST, Foster; FAWCETT, Tom.** *Data Science para Negócios: o que você precisa saber sobre mineração de dados e pensamento analítico de dados*. Rio de Janeiro: Alta Books, 2016.
+- **TUFTE, Edward R.** *The Visual Display of Quantitative Information*. 2. ed. Cheshire: Graphics Press, 2001. (O clássico pioneiro da teoria da visualização de dados).
+- **MANNING, Christopher D. et al.** *Foundations of Statistical Natural Language Processing*. Cambridge: MIT Press, 1999.`,
   checkpoints: [
     {
       id: 'cp-14-4-1',

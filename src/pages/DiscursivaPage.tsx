@@ -11,12 +11,17 @@ import {
   Award,
   AlertTriangle,
   RefreshCw,
+  Printer,
+  UserCheck,
 } from 'lucide-react';
 import { Button } from '../components/common/Button';
 import type { TemaDiscursiva, AvaliacaoCebraspe, VersaoTextoComAvaliacao } from '../domain/discursiva/types';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../domain/discursiva/temasOficiais';
 import { discursivaService } from '../domain/discursiva/discursivaService';
 import { EspelhoCorrecaoCebraspe } from '../components/discursiva/EspelhoCorrecaoCebraspe';
+import { FolhaRespostaManuscritaModal } from '../components/discursiva/FolhaRespostaManuscritaModal';
+import { CronometroDiscursiva } from '../components/discursiva/CronometroDiscursiva';
+import { PainelCalibracaoHumana } from '../components/discursiva/PainelCalibracaoHumana';
 
 const CARACTERES_POR_LINHA_ESTIMATIVA = 70;
 
@@ -29,6 +34,13 @@ interface DadosEnunciadoArmazenado {
   historico: VersaoTextoComAvaliacao[];
   devolutiva: string;
   avaliacaoAtiva?: AvaliacaoCebraspe;
+  tempoGastoSegundos?: number;
+  autoavaliacaoHumana?: {
+    notaHumana: number;
+    notaConteudoHumana: number;
+    errosHumanos: number;
+    conceitosQuesitos: Record<number, number>;
+  };
 }
 
 export const DiscursivaPage: React.FC = () => {
@@ -72,6 +84,9 @@ export const DiscursivaPage: React.FC = () => {
   const [erroAvaliacao, setErroAvaliacao] = useState<string | null>(null);
   const [copiado, setCopiado] = useState(false);
   const [isPadraoAberto, setIsPadraoAberto] = useState(true);
+  const [isFolhaModalOpen, setIsFolhaModalOpen] = useState(false);
+  const [abaAtiva, setAbaAtiva] = useState<'ia' | 'calibracao_humana'>('ia');
+  const [tempoGastoCronometro, setTempoGastoCronometro] = useState<number>(0);
 
   // Novo enunciado form
   const [isNovoEnunciadoOpen, setIsNovoEnunciadoOpen] = useState(false);
@@ -125,10 +140,32 @@ export const DiscursivaPage: React.FC = () => {
       linhasEstimadas,
       avaliacao: dadosAtuais.avaliacaoAtiva,
       devolutiva: dadosAtuais.devolutiva,
+      tempoGastoSegundos: tempoGastoCronometro,
+      autoavaliacaoHumana: dadosAtuais.autoavaliacaoHumana,
     };
     setDadosEnunciados((prev) => {
       const atual = prev[enunciadoAtivo.id] || { texto: '', historico: [], devolutiva: '' };
       const updated = { ...atual, historico: [novaVersao, ...(atual.historico || [])] };
+      try {
+        localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivo.id}`, JSON.stringify(updated));
+      } catch {}
+      return { ...prev, [enunciadoAtivo.id]: updated };
+    });
+  };
+
+  const handleSalvarCalibracaoHumana = (dados: {
+    notaHumana: number;
+    notaConteudoHumana: number;
+    errosHumanos: number;
+    conceitosQuesitos: Record<number, number>;
+  }) => {
+    if (!enunciadoAtivo) return;
+    setDadosEnunciados((prev) => {
+      const atual = prev[enunciadoAtivo.id] || { texto: '', historico: [], devolutiva: '' };
+      const updated: DadosEnunciadoArmazenado = {
+        ...atual,
+        autoavaliacaoHumana: dados,
+      };
       try {
         localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivo.id}`, JSON.stringify(updated));
       } catch {}
@@ -292,12 +329,23 @@ export const DiscursivaPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2 self-start sm:self-auto">
+          <div className="flex items-center gap-2 self-start sm:self-auto flex-wrap">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setIsFolhaModalOpen(true)}
+              className="flex items-center gap-1.5 text-xs font-semibold text-purple-700 dark:text-purple-300 border-purple-500/30 bg-purple-500/10 hover:bg-purple-500/20 cursor-pointer"
+              title="Visualizar e Imprimir Folha de Resposta Padrão Cebraspe para treino manuscrito"
+            >
+              <Printer className="w-3.5 h-3.5" />
+              <span>Folha Pautada (Manuscrita)</span>
+            </Button>
+
             <Button
               variant="outline"
               size="sm"
               onClick={handleRestaurarTemasPadrao}
-              className="flex items-center gap-1.5 text-xs"
+              className="flex items-center gap-1.5 text-xs cursor-pointer"
               title="Restaurar banco de temas oficiais da Câmara"
             >
               <RefreshCw className="w-3.5 h-3.5" />
@@ -308,7 +356,7 @@ export const DiscursivaPage: React.FC = () => {
               variant="outline"
               size="sm"
               onClick={() => setIsNovoEnunciadoOpen(true)}
-              className="flex items-center gap-1.5"
+              className="flex items-center gap-1.5 cursor-pointer"
             >
               <Plus className="w-4 h-4" />
               <span>Novo Tema</span>
@@ -342,8 +390,8 @@ export const DiscursivaPage: React.FC = () => {
                   onChange={(e) => setNovoTipo(e.target.value as 'questao_20' | 'peca_50')}
                   className="w-full px-3 py-2 rounded-xl bg-surface-2 border border-border text-sm text-ink focus:outline-hidden focus:ring-1 focus:ring-accent"
                 >
-                  <option value="questao_20">Questão Discursiva (até 20 linhas - 20 pts)</option>
-                  <option value="peca_50">Peça Técnica (até 50 linhas - 50 pts)</option>
+                  <option value="questao_20">Questão Discursiva (até 20 linhas - 15 pts)</option>
+                  <option value="peca_50">Peça Técnica (até 50 linhas - 30 pts)</option>
                 </select>
               </div>
             </div>
@@ -470,6 +518,12 @@ export const DiscursivaPage: React.FC = () => {
             </div>
           )}
 
+          {/* Cronômetro Oficial de Treino Cebraspe */}
+          <CronometroDiscursiva
+            tempoSugeridoMinutos={enunciadoAtivo?.tipo === 'peca_50' ? 75 : 35}
+            onTempoAtualizado={(seg) => setTempoGastoCronometro(seg)}
+          />
+
           {/* Editor de Redação com Contador de Linhas */}
           <div className="bg-surface border border-border rounded-2xl p-5 shadow-editorial-sm space-y-4">
             <div className="flex items-center justify-between flex-wrap gap-2">
@@ -508,7 +562,7 @@ export const DiscursivaPage: React.FC = () => {
                   variant="outline"
                   size="sm"
                   onClick={handleSalvarVersao}
-                  className="flex items-center gap-1.5"
+                  className="flex items-center gap-1.5 cursor-pointer"
                   title="Salvar rascunho manualmente"
                 >
                   <Save className="w-4 h-4" />
@@ -519,7 +573,7 @@ export const DiscursivaPage: React.FC = () => {
                   variant="outline"
                   size="sm"
                   onClick={handleCopiarParaIA}
-                  className="flex items-center gap-1.5 text-ink-2 hover:text-ink text-xs"
+                  className="flex items-center gap-1.5 text-ink-2 hover:text-ink text-xs cursor-pointer"
                   title="Copiar prompt completo para uso externo"
                 >
                   {copiado ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
@@ -549,44 +603,88 @@ export const DiscursivaPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Estado de Carregamento da IA */}
-          {isAvaliando && (
-            <div className="p-8 rounded-2xl bg-surface border border-purple-200 dark:border-purple-900 shadow-editorial-sm flex flex-col items-center justify-center text-center space-y-3 animate-in fade-in duration-200">
-              <div className="w-10 h-10 border-3 border-purple-200 border-t-purple-600 rounded-full animate-spin" />
-              <div className="space-y-1">
-                <h4 className="text-sm font-bold text-ink">
-                  A Banca Examinadora Cebraspe está corrigindo sua prova...
-                </h4>
-                <p className="text-xs text-ink-2 max-w-md">
-                  Calculando pontuação de conteúdo (NC), identificando desvios gramaticais (NE), aplicando as fórmulas
-                  oficiais do Edital nº 1/2026 (NQi = NCi − 3×(NE/TL) e NPT = NC − 6×(NE/TL)) e confrontando com o padrão preliminar.
-                </p>
-              </div>
-            </div>
-          )}
+          {/* Seletor de Abas de Correção: IA vs Autoavaliação Humana */}
+          <div className="flex border-b border-border gap-1 flex-wrap">
+            <button
+              type="button"
+              onClick={() => setAbaAtiva('ia')}
+              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+                abaAtiva === 'ia'
+                  ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
+                  : 'border-transparent text-ink-2 hover:text-ink'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Correção com a Banca Cebraspe (IA)</span>
+            </button>
 
-          {/* Erro de Avaliação */}
-          {erroAvaliacao && !isAvaliando && (
-            <div className="p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs flex items-center justify-between gap-3">
-              <div className="flex items-center gap-2">
-                <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
-                <span>{erroAvaliacao}</span>
-              </div>
-              <Button variant="outline" size="sm" onClick={handleAvaliarComBanca}>
-                Tentar Novamente
-              </Button>
-            </div>
-          )}
+            <button
+              type="button"
+              onClick={() => setAbaAtiva('calibracao_humana')}
+              className={`flex items-center gap-2 px-4 py-2.5 text-xs font-mono font-bold border-b-2 transition-all cursor-pointer ${
+                abaAtiva === 'calibracao_humana'
+                  ? 'border-purple-600 text-purple-700 dark:text-purple-300 bg-purple-500/5'
+                  : 'border-transparent text-ink-2 hover:text-ink'
+              }`}
+            >
+              <UserCheck className="w-3.5 h-3.5" />
+              <span>Autoavaliação e Calibração Humana (Régua Cebraspe)</span>
+            </button>
+          </div>
 
-          {/* ESPELHO OFICIAL DE CORREÇÃO (QUANDO AVALIADO) */}
-          {dadosAtuais.avaliacaoAtiva && !isAvaliando && (
-            <EspelhoCorrecaoCebraspe
-              avaliacao={dadosAtuais.avaliacaoAtiva}
-              onNovaCorrecao={() => {
-                const el = document.querySelector('textarea');
-                el?.focus();
-              }}
+          {/* Modo Autoavaliação e Calibração Humana */}
+          {abaAtiva === 'calibracao_humana' && enunciadoAtivo && (
+            <PainelCalibracaoHumana
+              tema={enunciadoAtivo}
+              totalLinhas={linhasEstimadas}
+              avaliacaoIA={dadosAtuais.avaliacaoAtiva}
+              onSalvarCalibracao={handleSalvarCalibracaoHumana}
             />
+          )}
+
+          {/* Modo Correção IA Oficial Cebraspe */}
+          {abaAtiva === 'ia' && (
+            <>
+              {/* Estado de Carregamento da IA */}
+              {isAvaliando && (
+                <div className="p-8 rounded-2xl bg-surface border border-purple-200 dark:border-purple-900 shadow-editorial-sm flex flex-col items-center justify-center text-center space-y-3 animate-in fade-in duration-200">
+                  <div className="w-10 h-10 border-3 border-purple-200 border-t-purple-600 rounded-full animate-spin" />
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-ink">
+                      A Banca Examinadora Cebraspe está corrigindo sua prova...
+                    </h4>
+                    <p className="text-xs text-ink-2 max-w-md">
+                      Calculando pontuação de conteúdo (NC), identificando desvios gramaticais (NE), aplicando as fórmulas
+                      oficiais do Edital nº 1/2026 (NQi = NCi − 3×(NE/TL) e NPT = NC − 6×(NE/TL)) e confrontando com o padrão preliminar.
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* Erro de Avaliação */}
+              {erroAvaliacao && !isAvaliando && (
+                <div className="p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-2">
+                    <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
+                    <span>{erroAvaliacao}</span>
+                  </div>
+                  <Button variant="outline" size="sm" onClick={handleAvaliarComBanca}>
+                    Tentar Novamente
+                  </Button>
+                </div>
+              )}
+
+              {/* ESPELHO OFICIAL DE CORREÇÃO (QUANDO AVALIADO) */}
+              {dadosAtuais.avaliacaoAtiva && !isAvaliando && (
+                <EspelhoCorrecaoCebraspe
+                  avaliacao={dadosAtuais.avaliacaoAtiva}
+                  onNovaCorrecao={() => {
+                    const el = document.querySelector('textarea');
+                    el?.focus();
+                  }}
+                />
+              )}
+            </>
           )}
 
           {/* Histórico de Versões Salvas */}
@@ -655,6 +753,16 @@ export const DiscursivaPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Modal da Folha de Resposta Manuscrita Cebraspe */}
+      {enunciadoAtivo && (
+        <FolhaRespostaManuscritaModal
+          tema={enunciadoAtivo}
+          textoCandidato={textoCandidato}
+          isOpen={isFolhaModalOpen}
+          onClose={() => setIsFolhaModalOpen(false)}
+        />
+      )}
     </div>
   );
 };

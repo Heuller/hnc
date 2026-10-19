@@ -51,7 +51,7 @@ export const submodulo101: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Organização regimental da Câmara dos Deputados: Mesa Diretora e Lideranças (arts. 1-24), Sessões Plenárias e suas quatro fases (arts. 65-94), Estatuto dos Deputados, prerrogativas e deveres (arts. 226-251), e Administração, Polícia e Centro de Documentação Cedi (arts. 262-273).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'Câmara dos Deputados (Resolução nº 17/1989)',
     'Mesa Diretora da Câmara dos Deputados',
@@ -247,6 +247,55 @@ A organização interna da Câmara dos Deputados equilibra a autonomia política
 * **Regimento Comum do Congresso Nacional (sub-10-6):** Articulação entre a Câmara e as sessões conjuntas do Congresso.
 * **Fontes Jurídicas e LexML (sub-4-3):** Tramitação regimental de proposições na Câmara.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Regimento Interno da Câmara dos Deputados (RICD)** disciplina a estrutura, o funcionamento e a tomada de decisões no Parlamento:
+1. **Mesa Diretora (Arts. 1 a 24):**
+   - Composta por **7 titulares** (Presidente, dois Vice-Presidentes e quatro Secretários) e **4 suplentes de Secretários**.
+   - Mandato de **2 anos**, vedada a recondução para o mesmo cargo na eleição imediatamente subsequente dentro da mesma legislatura.
+2. **Sessões Plenárias (Arts. 65 a 94):**
+   - Estrutura formal em **4 fases**:
+     1. *Pequeno Expediente:* Comunicações breves e correspondências.
+     2. *Grande Expediente:* Discursos aprofundados dos parlamentares inscritos.
+     3. *Ordem do Dia:* Discussão e **votação** das proposições da pauta aprovada (fase deliberativa central).
+     4. *Comunicações Parlamentares:* Pronunciamentos finais dos deputados e lideranças.
+3. **CEDI e Biblioteca (Arts. 268 a 273):**
+   - O **Centro de Documentação e Informação (CEDI)** é órgão técnico da Diretoria-Geral responsável pela coordenação da Biblioteca Pedro Aleixo, do Arquivo Histórico e da Coordenação de Edições e Publicações.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Lotação Direta do Analista Bibliotecário:** O Cargo 5 (Biblioteconomia) tem sua lotação precípua na estrutura do **CEDI**. Suas atribuições envolvem alimentar a base de dados do Sistema de Informações Legislativas (Sileg), zelar pelo acervo da Biblioteca Pedro Aleixo e fornecer subsídios técnicos às Comissões Permanentes.
+- **O Plantão na Ordem do Dia:** Durante a realização da *Ordem do Dia*, o Plenário delibera sobre matérias cruciais. A equipe da biblioteca e do arquivo mantém canal prioritário de atendimento à Mesa Diretora e às Lideranças Partidárias para esclarecimento instantâneo sobre precedentes regimentais e histórico de votações anteriores.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido: Fases da Sessão Deliberativa Ordinária
+| Fase da Sessão | Duração / Objetivo Principal | Papel do CEDI / Biblioteca |
+| :--- | :--- | :--- |
+| **1. Pequeno Expediente** | Leitura de atas, expedientes e discursos curtos | Conferência da ata e registro de despachos |
+| **2. Grande Expediente** | Pronunciamentos de deputados inscritos | Pesquisa de dados temáticos citados nos discursos |
+| **3. Ordem do Dia** | **Discussão e deliberação (votação)** de matérias | Plantão de apoio regimental e fornecimento de textos |
+| **4. Comunicações Parlamentares** | Encerramento com falas de lideranças | Arquivamento das notas taquigráficas da sessão |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Recondução da Mesa:** O Cebraspe adora afirmar que é permitida a recondução ilimitada dos membros da Mesa Diretora para os mesmos cargos dentro da mesma legislatura. **Gabarito: ERRADO** (vedada expressamente na mesma legislatura, permitida apenas de uma legislatura para outra).
+- **Composição da Mesa:** Dizer que a Mesa possui 5 secretários ou que os suplentes participam com direito a voto em todas as sessões. **Gabarito: ERRADO** (são 7 titulares e 4 suplentes).
+- **Lotação do CEDI:** Afirmar que a Biblioteca Pedro Aleixo é um órgão autônomo diretamente subordinado à Presidência da República ou ao Senado Federal. **Gabarito: ERRADO** (integra o CEDI na estrutura da Câmara dos Deputados).
+
+---
+
+### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
+- *Quantos membros titulares compõem a Mesa Diretora da Câmara?* (7 titulares: Presidente, 2 Vice-Presidentes e 4 Secretários).
+- *Qual a fase da sessão plenária destinada à votação das proposições?* (Ordem do Dia!).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+* **BRASIL. Congresso Nacional. Câmara dos Deputados.** *Regimento Interno da Câmara dos Deputados (RICD)*: Resolução nº 17, de 1989 e atualizações. Brasília: Edições Câmara, 2024.
+* **BRASIL.** *Constituição da República Federativa do Brasil de 1988*: arts. 51 a 58 (Do Poder Legislativo, competências da Câmara e comissões parlamentares).
+* **CÂMARA DOS DEPUTADOS.** *Estrutura e Competências do Centro de Documentação e Informação (CEDI)*. Ato da Mesa nº 53/2012 e regulamentos internos. Brasília: Coordenação Edições Câmara, 2023.`,
   checkpoints: [
     {
       id: 'cp-10-1-1',

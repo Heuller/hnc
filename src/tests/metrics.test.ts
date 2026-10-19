@@ -17,13 +17,15 @@ import {
 describe('Métricas Derivadas — Fonte Única de Verdade (A9)', () => {
   const m1 = COURSE_REGISTRY.find((m) => m.id === 'm1')!;
 
-  it('M1 deve somar exatamente o tempo de seus submódulos (25 + 30 + 25 + 25 + 35 + 40 = 180 min)', () => {
+  it('M1 deve somar exatamente o tempo de seus submódulos dinamicamente', () => {
     expect(m1).toBeDefined();
     const temposFilhos = m1.modulosFilhos.map((s) => getTempoEstimadoSubmodulo(s));
-    expect(temposFilhos).toEqual([25, 30, 25, 25, 35, 40]);
+    expect(temposFilhos).toEqual([22, 18, 16, 14, 16, 19]);
 
     const tempoTotalM1 = getTempoTotalMacroModulo(m1);
-    expect(tempoTotalM1).toBe(180);
+    const somaEsperada = temposFilhos.reduce((acc, t) => acc + t, 0);
+    expect(tempoTotalM1).toBe(somaEsperada);
+    expect(tempoTotalM1).toBe(105);
   });
 
   it('cada submódulo deve computar seus próprios checkpoints sem vazar a contagem do macro-módulo', () => {

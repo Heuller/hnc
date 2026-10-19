@@ -164,10 +164,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'Em relação à organização dos poderes e à competência dos órgãos constitucionais no Brasil, julgue o item a seguir.',
     item:
-      'As decisões do Tribunal de Contas da União (TCU) e dos Tribunais de Contas dos Estados (TCEs) de que resulte imputação de débito ou multa possuem eficácia de título executivo extrajudicial.',
+      'As decisões do Tribunal de Contas da União (TCU) e dos Tribunais de Contas dos Estados (TCEs) de que resulte imputação de débito oumulta possuem eficácia de título executivo extrajudicial.',
     gabarito: 'C',
     justificativa:
-      'CERTO. Nos termos do art. 71, § 3º da Constituição Federal de 1988 (aplicável aos TCEs por simetria conforme art. 75), as decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo. Por serem emitidas por órgão administrativo/constitucional de controle, constituem títulos executivos extrajudiciais executáveis perante o Poder Judiciário.',
+      'CERTO. Nos termos do art. 71, § 3º da Constituição Federal de 1988 (aplicável aos TCEs por simetria conforme art. 75), as decisões do Tribunal de que resulte imputação de débito oumulta terão eficácia de título executivo. Por serem emitidas por órgão administrativo/constitucional de controle, constituem títulos executivos extrajudiciais executáveis perante o Poder Judiciário.',
     dificuldade: 'media',
     fonteOriginal: {
       tipo: 'inedita',

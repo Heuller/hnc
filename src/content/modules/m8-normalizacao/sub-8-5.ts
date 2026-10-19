@@ -18,8 +18,30 @@ export const submodulo85: ModuloFilho = {
       }
   ],
   titulo: 'Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade',
+  antesDeLer: [
+    {
+      termo: 'Ficha Catalográfica (CIP)',
+      definicao: 'Catalogação na Publicação impressa no verso da folha de rosto de livros conforme padrão do AACR2 e regras da NBR 14724.',
+      exemploBiblioteca: 'Elaboração pelo bibliotecário da Câmara da ficha catalográfica para as publicações da Edições Câmara com número de chamada e ISBN.',
+    },
+    {
+      termo: 'ISBN e ISSN',
+      definicao: 'Padrões numéricos internacionais de identificação unívoca de publicações: ISBN para monografias/livros e ISSN para publicações seriadas.',
+      exemploBiblioteca: 'Gestão e solicitação de novos prefixos ISBN junto à Câmara Brasileira do Livro (CBL) para relatórios parlamentares.',
+    },
+    {
+      termo: 'ABNT NBR 6034:2004 (Índice)',
+      definicao: 'Norma que estabelece os requisitos para apresentação de índices remissivos, onomásticos e temáticos em publicações.',
+      exemploBiblioteca: 'Criação do índice remissivo analítico ao final da edição anotada do Regimento Interno da Câmara dos Deputados.',
+    },
+    {
+      termo: 'Acessibilidade Editorial',
+      definicao: 'Práticas de design e diagramação que garantem o acesso a pessoas com deficiência (descrição de imagens, contraste, fontes legíveis).',
+      exemploBiblioteca: 'Adaptação das publicações institucionais da Câmara para formatos acessíveis em áudio e ePub compatíveis com leitores de tela.',
+    },
+  ],
   descricaoCurta: 'Elaboração da ficha catalográfica (ABNT NBR 14724:2011 e CIP); índices e instrumentos auxiliares (ABNT NBR 6034:2004); formatos digitais de editoração (EPUB, PDF/A); infografia funcional (Alberto Cairo, Edward Tufte) e acessibilidade de produtos informacionais.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Alberto Cairo', 'Edward Tufte', 'ABNT', 'W3C'],
   alertasCebraspe: [
     'Posição Canônica da Ficha Catalográfica (ABNT NBR 14724:2011, item 4.1.5): Em trabalhos acadêmicos e monografias, a ficha catalográfica é elemento PRÉ-TEXTUAL OBRIGATÓRIO e deve constar impreterivelmente no VERSO da folha de rosto, na sua metade inferior. O Cebraspe adora afirmar que ela fica no anverso da folha de rosto, no verso da capa ou que é elemento textual: ERRADO!',
@@ -71,7 +93,7 @@ O Cebraspe frequentemente explora o confronto conceitual e estrutural entre os i
 
 #### A. A Definição de Índice segundo a ABNT NBR 6034:2004
 * **Conceito Normativo:** "Relação de palavras ou frases, ordenadas segundo determinado critério, que localiza e remete para informações contidas em um texto ou em documentos".
-* **Posicionamento Estrutural:** É um **elemento PÓS-TEXTUAL OPCIONAL**. Localiza-se no final da publicação (após os elementos textuais e após referências, glossário, apêndices e anexos).
+* **Posicionamento Estrutural:** É um **elemento PÓS-TEXTUAL OPCIONAL**. Localiza-se no final da publicação (após os elementos textuais e após referências, vocabulário de termos, apêndices e anexos).
 * **Tipologia de Índices:**
   1. *Índice Geral / Remissivo:* Reúne autores, assuntos e títulos em sequência alfabética única;
   2. *Índice Especial:* Dedicado a uma única categoria de informação (ex.: índice onomástico/de autores, índice cronológico de leis, índice geográfico, índice sistemático de assuntos);
@@ -164,6 +186,55 @@ O padrão internacional **PDF/UA (ISO 14289-1)** define os requisitos técnicos 
 * **AACR2r e Fichas Catalográficas (sub-2-1):** Elaboração técnica de fichas no verso da folha de rosto.
 * **Acessibilidade Digital (sub-6-1):** Diretrizes WCAG 2.2 e formatos acessíveis (EPUB, PDF/A).
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Editoração, a Catalogação na Publicação (CIP), os Índices (NBR 6034) e a Acessibilidade Documental** completam a cadeia de produção editorial técnica:
+1. **Catalogação na Publicação (Ficha Catalográfica / CIP):**
+   - Elaborada exclusivamente por **bibliotecário habilitado e registrado no CRB** (Lei nº 4.084/62 e Lei nº 10.753/2003 - Lei do Livro).
+   - Deve ser impressa no verso da folha de rosto das publicações monográficas, na metade inferior da página.
+   - Contém: Cabeçalho de autor, título, subtítulo, edição, local, editora, ano, paginação, série, notas, pontos de acesso de assunto (CDU/CDD) e número de registro CIP.
+2. **Índices (ABNT NBR 6034:2004):**
+   - Relação de palavras ou frases ordenadas alfabética, cronológica ou sistematicamente, localizadas ao final do documento (**elemento pós-textual**), que remete com precisão às páginas onde o assunto ou autor é tratado no texto.
+   - Tipos: Onomástico (nomes de pessoas), Topográfico (geográfico), Cronológico, Temático/Assunto e Remissivo.
+   - Remissivas obrigatórias: *Ver* (exclusiva/preferencial) e *Ver também* (associativa/complementar).
+3. **Infografia e Design Editorial:**
+   - Representação visual e sintética de dados complexos (gráficos, esquemas, mapas e diagramas) para otimizar a velocidade de absorção do leitor.
+4. **Acessibilidade Documental (Lei nº 13.146/2015 e WCAG 2.1):**
+   - O dever do poder público de garantir formatos acessíveis (DAISY, Braille, audiolivros, texto com descrição de imagens *alt-text*, fontes legíveis e contraste adequado) para cidadãos com deficiência visual ou motora.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Ficha CIP para as Edições Câmara):** A Coordenação de Edições Câmara vai publicar uma obra histórica sobre Rui Barbosa. A Seção de Catalogação da Biblioteca Pedro Aleixo elabora a ficha CIP oficial contendo: classificação CDDir, CDU e CDD, pontos de acesso autorizados da RVBI e código de registro no CRB-1.
+- **Cenário 2 (Elaboração de Índice Onomástico para a História dos Deputados):** Em um livro biográfico de 600 páginas que cita 3.000 parlamentares, o bibliotecário aplica a NBR 6034 e cria o **Índice Onomástico** ao final da publicação, permitindo ao leitor encontrar instantaneamente em quais páginas cada deputado é mencionado.
+- **Cenário 3 (Acessibilidade Digital no Portal da BDCam conforme WCAG 2.1):** Ao disponibilizar os relatórios parlamentares em PDF na internet, os bibliotecários garantem que o PDF/A contenha a camada de texto selecionável (OCR de alta acurácia), *tags* de leitura estruturadas e texto alternativo (*alt-text*) em todas as tabelas e gráficos, permitindo que deputados e cidadãos com deficiência visual utilizem leitores de tela como NVDA e JAWS.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Elemento Editorial | Localização Canônica | Responsável Técnico | Norma ou Base Legal |
+| :--- | :--- | :--- | :--- |
+| **Ficha CIP** | Verso da Folha de Rosto | Bibliotecário com CRB ativo | Lei do Livro (Lei nº 10.753/2003) |
+| **Índice (NBR 6034)** | Final do livro (Pós-textual) | Bibliotecário / Indexador | ABNT NBR 6034:2004 |
+| **Sumário (NBR 6027)** | Início do livro (Pré-textual) | Autor / Editor | ABNT NBR 6027:2012 |
+| **Acessibilidade Digital** | Em todo o código e arquivo | Equipe Editorial / TI | Lei nº 13.146/2015 / WCAG 2.1 |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Quem pode Assinar Ficha Catalográfica CIP:** O Cebraspe sugere que qualquer profissional de letras ou editor gráfico pode confeccionar e assinar a ficha catalográfica. **Gabarito: ERRADO.** A elaboração da ficha CIP é ato privativo do profissional Bibliotecário devidamente registrado no Conselho Regional (Leis 4.084/62 e 10.753/2003).
+- **Remissivas em Índices (Ver vs. Ver Também):**
+  - *Ver:* Remete de um termo não adotado/sinônimo para o termo adotado (exclusão).
+  - *Ver também:* Conecta termos afins correlatos que também possuem ocorrências no texto. A banca adora inverter essas duas remissivas.
+- **Posicionamento da Ficha CIP:** Afirmar que a ficha catalográfica deve ser impressa na contracapa do livro. **Gabarito: ERRADO.** Deve figurar no **verso da folha de rosto**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 6034:2004: Informação e documentação — Índice — Apresentação*. Rio de Janeiro: ABNT, 2004.
+- **BRASIL.** *Lei Federal nº 10.753, de 30 de outubro de 2003*. Institui a Política Nacional do Livro. (Obrigatoriedade da Ficha CIP com indicação de bibliotecário registrado).
+- **BRASIL.** *Lei Federal nº 13.146, de 6 de julho de 2015*. Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).
+- **W3C.** *Web Content Accessibility Guidelines (WCAG) 2.1*. W3C Recommendation, 2018.
+- **ARAÚJO, Emanuel.** *A construção do livro: princípios da técnica de editoração*. Rio de Janeiro: Nova Fronteira; INL, 1986. (O clássico mais respeitado da história editorial brasileira).`,
   checkpoints: [
     {
       id: 'cp-8-5-1',

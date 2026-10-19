@@ -41,7 +41,7 @@ export const submodulo142: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Arquitetura TCP/IP, modelos de rede e navegação web; ameaças cibernéticas (malware, ransomware, phishing e pharming); mecanismos de proteção (firewall, antivírus, MFA); criptografia simétrica, assimétrica, hash, assinatura digital e ICP-Brasil (MP nº 2.200-2/2001); políticas de backup (regra 3-2-1) e gestão de riscos informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 26,
   autoresChave: [
     'Andrew Tanenbaum (2021)',
     'William Stallings (2018)',
@@ -295,6 +295,60 @@ A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos hist�
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Preservação Digital e Repositórios Confiáveis (sub-6-3):** Uso de criptografia hash para verificação de fixidez.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As **Redes de Computadores, a Internet/Intranet, a Criptografia e a Segurança da Informação (ISO 27001)** formam a barreira de defesa cibernética das instituições de Estado:
+1. **Pilares da Segurança da Informação (Mnemônico CIDAL):**
+   - **Confidencialidade:** A informação só pode ser acessada por pessoas e sistemas expressamente autorizados.
+   - **Integridade:** A informação é exata, completa e protegida contra modificações ou exclusões não autorizadas.
+   - **Disponibilidade:** A informação e os serviços estão acessíveis aos usuários autorizados sempre que necessário.
+   - **Autenticidade:** Garantia da autoria e identidade do emissor do documento.
+   - **Não Repúdio (Irretratabilidade):** O autor da ação ou assinatura não pode negar legitimamente que a praticou.
+2. **Criptografia Simétrica vs. Assimétrica e Certificação Digital (ICP-Brasil):**
+   - **Simétrica (Chave Secreta):** Uma única chave secreta é usada para criptografar e descriptografar (ex.: AES, DES). Muito rápida, porém vulnerável na distribuição da chave.
+   - **Assimétrica (Chaves Pública e Privada):** Usa um par de chaves matematicamente correlacionadas:
+     - *Criptografia de Conteúdo:* Criptografa com a **chave pública** do destinatário $\to$ Apenas o destinatário abre com sua **chave privada** secreta (garante **Confidencialidade**).
+     - *Assinatura Digital:* O autor cifra o hash do documento com sua própria **chave privada** secreta $\to$ Qualquer pessoa decodifica com a **chave pública** do autor (garante **Autenticidade, Integridade e Não Repúdio**!).
+3. **Ameaças e Códigos Maliciosos (*Malware*):**
+   - **Vírus:** Depende da execução de um programa hospedeiro para infectar e se propagar.
+   - **Worm (Verme):** Não depende de hospedeiro; propaga-se **automaticamente pelas redes** explorando vulnerabilidades.
+   - **Cavalo de Troia (*Trojan*):** Programa aparentemente inofensivo (jogo, utilitário) que, ao ser executado, abre portas para invasores (*backdoors*).
+   - **Ransomware:** Criptografa os arquivos da vítima e exige resgate financeiro em criptomoeda para fornecer a chave de desbloqueio.
+   - **Phishing:** Engenharia social via e-mail ou mensagens falsas que induzem o usuário a entregar senhas e dados bancários.
+   - **Pharming:** Ataque de envenenamento de DNS que redireciona o usuário de um site legítimo para uma página falsa mesmo que ele digite a URL correta no navegador!
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Assinatura Digital de Autógrafo de Lei pelo Presidente da Câmara):** O Presidente da Câmara assina digitalmente a redação final de um projeto de lei aprovado para envio à sanção presidencial. Ele utiliza seu certificado digital ICP-Brasil com sua **chave privada secreta**. A Presidência da República valida o documento com a **chave pública**, garantindo **integridade e não repúdio** com fé pública.
+- **Cenário 2 (Defesa contra Ataque de Ransomware nos Servidores da BDCam):** Um atacante envia e-mail com anexo malicioso tentando sequestrar os bancos de dados da biblioteca. O firewall de borda da Câmara e as ferramentas de EDR bloqueiam a execução do script e ativam a política de backup imutável isolado (*air-gap*), assegurando a **disponibilidade contínua** da memória legislativa.
+- **Cenário 3 (VPN e Conexão Segura na Intranet da Biblioteca):** Um analista legislativo em teletrabalho acessa o SIGB Aleph da Câmara a partir de casa. A conexão é encapsulada por um túnel criptografado **VPN (*Virtual Private Network*) com protocolo IPsec/TLS**, garantindo a **confidencialidade** do tráfego através da internet pública.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Mecanismo / Tipo de Malware | Como Funciona Exatamente | Propriedade Garantida / Dano | Pegadinha Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Criptografia com Chave Pública** | Cifra com a pública do receptor | **Confidencialidade** | Dizer que garante assinatura digital |
+| **Assinatura com Chave Privada** | Cifra o hash com a privada do autor | **Autenticidade e Não Repúdio** | Dizer que garante confidencialidade |
+| **Worm (Verme)** | Auto-replicação pela rede sem hospedeiro | Consome banda e recursos de rede | Confundir com vírus comum |
+| **Pharming** | Envenenamento de cache DNS | Redireciona o navegador para site falso | Confundir com phishing por e-mail |
+| **Ransomware** | Cifra os discos e pede resgate | Viola a Disponibilidade dos dados | Chamar de mero spyware |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Assinatura Digital Garante Confidencialidade:** O Cebraspe afirma categoricamente que a assinatura digital serve para manter o documento em segredo/confidencial. **Gabarito: ERRADO.** A assinatura digital garante **Autenticidade, Integridade e Não Repúdio**; o documento assinado pode ser perfeitamente público e legível por qualquer cidadão!
+- **Worm Precisa de Hospedeiro:** Dizer que o worm precisa infectar arquivos executáveis para se espalhar. **Gabarito: ERRADO.** Quem precisa de hospedeiro é o **vírus**; o worm é um programa independente e autorreplicante pelas redes.
+- **Criptografia Simétrica com Duas Chaves:** Afirmar que a criptografia simétrica usa uma chave para codificar e outra diferente para decodificar. **Gabarito: ERRADO.** A criptografia simétrica utiliza **uma única e mesma chave secreta** para ambas as operações.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **TANENBAUM, Andrew S.; WETHERALL, David J.** *Redes de Computadores*. 6. ed. São Paulo: Pearson, 2021. (A obra canônica mundial de redes de dados).
+- **ABNT NBR ISO/IEC 27001:2022.** *Segurança da informação, segurança cibernética e proteção da privacidade — Sistemas de gestão da segurança da informação — Requisitos*. Rio de Janeiro: ABNT, 2022.
+- **STALLINGS, William.** *Criptografia e Segurança de Redes: princípios e práticas*. 6. ed. São Paulo: Pearson, 2014.
+- **CERT.BR.** *Cartilha de Segurança para a Internet*. São Paulo: Comitê Gestor da Internet no Brasil (CGI.br), 2021.
+- **INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).** *Padrões da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)*. Brasília: ITI, 2022.`,
   checkpoints: [
     {
       id: 'cp-14-2-1',

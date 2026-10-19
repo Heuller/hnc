@@ -7,8 +7,30 @@ export const submodulo118: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública',
   titulo_curto: 'Modelos de Gestão e NPG',
+  antesDeLer: [
+    {
+      termo: 'Modelos de Administração Pública',
+      definicao: 'Evolução histórica da gestão pública: Patrimonialismo (confusão público-privado), Burocracia (regras e impessoalidade) e Gerencialismo (resultados).',
+      exemploBiblioteca: 'Transição da gestão de acervos focada em carimbos e fichários burocráticos para sistemas ágeis orientados à satisfação do usuário.',
+    },
+    {
+      termo: 'Burocracia Weberiana',
+      definicao: 'Modelo organizacional racional-legal baseado na hierarquia formal, divisão rigorosa do trabalho, regras escritas e meritocracia.',
+      exemploBiblioteca: 'O concurso público para bibliotecário como expressão pura do princípio weberiano da competência técnica comprovada.',
+    },
+    {
+      termo: 'Nova Gestão Pública (NPM)',
+      definicao: 'Movimento de reforma da década de 1990 que introduziu conceitos de gestão privada: foco no cidadão-cliente, eficiência e contratualização.',
+      exemploBiblioteca: 'Adoção de metas de satisfação e acordos de nível de serviço (SLA) para entrega de pesquisas legislativas aos deputados.',
+    },
+    {
+      termo: 'Nova Governança Pública (NPG)',
+      definicao: 'Paradigma contemporâneo baseado em redes de cooperação, coprodução de serviços públicos, transparência ativa e participação social.',
+      exemploBiblioteca: 'Projetos de ciência cidadã e transcrição colaborativa de acervos históricos com a participação da sociedade civil no portal da Câmara.',
+    },
+  ],
   descricaoCurta: 'A transição histórica: Patrimonialismo (prebendas), Burocracia Weberiana (formalismo e disfunções) e Nova Gestão Pública (NPM e gerencialismo). Nova Governança Pública (NPG): ação em redes, coprodução do bem público e transparência ativa. O Valor Público de Mark Moore e a Cadeia de Valor.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Max Weber (Burocracia)',
     'Luiz Carlos Bresser-Pereira (PDRAE 1995)',
@@ -102,6 +124,56 @@ $$\\text{Insumos (Inputs)} \\longrightarrow \\text{Processos (Activities)} \\lon
 * **Produtos (*Outputs*):** O número exato de obras indexadas e disponibilizadas para consulta imediata no portal LexML.
 * **Resultados (*Outcomes*):** O aumento na celeridade e na precisão técnica dos pareceres emitidos pelas comissões legislativas em virtude do acervo acessível.
 * **Impacto (*Impacts*):** Leis de melhor qualidade para o país e fortalecimento da confiança democrática da sociedade no Parlamento.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Evolução da Administração Pública** compreende três modelos paradigmáticos sucessivos que moldaram o Estado moderno:
+1. **Modelo Patrimonialista (Monarquias / Estado Pré-Moderno):**
+   - Não há distinção entre a *res publica* (coisa pública) e a *res principis* (bens pessoais do soberano).
+   - O patrimônio do Estado é gerido como extensão da propriedade privada do governante.
+   - Cargos públicos são preenchidos por apadrinhamento, laços de sangue e nepotismo; corrupção e prebendas endêmicas.
+2. **Modelo Burocrático / Burocracia Weberiana (Max Weber - Início do Séc. XX):**
+   - Surge com a industrialização e a consolidação do Estado de Direito para combater a corrupção e o nepotismo patrimonialista.
+   - **Princípios Canônicos:** Formalismo rígido, legalidade estrita, impessoalidade absoluta, hierarquia verticalizada inflexível, controle prévio dos processos e profissionalização (concurso público e mérito).
+   - **Disfunções da Burocracia (Robert K. Merton):** O apego exagerado às regras e aos procedimentos burocráticos transforma os meios em fins; lentidão, rigidez decisória, aversão à mudança e perda de foco nas necessidades do cidadão.
+3. **Modelo Gerencial / Nova Gestão Pública (*New Public Management* - NPM):**
+   - Surge nas décadas de 1980 e 1990 (Governos Thatcher, Reagan e Plano Diretor da Reforma do Estado de Bresser-Pereira em 1995 no Brasil).
+   - Foco na **eficiência, resultados, flexibilidade gerencial e satisfação do cidadão-usuário**.
+   - Substituição do controle prévio de processos (*a priori*) pelo **controle de resultados a posteriori**.
+   - Descentralização, terceirização de serviços de apoio e contratualização de metas (Contratos de Gestão).
+4. **Nova Governança Pública (Pós-NPM / Governança Colaborativa):**
+   - Integração em rede entre Estado, mercado e sociedade civil, valorizando a coprodução do bem público, transparência, integridade e sustentabilidade democrática.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (A Burocracia Weberiana no Ingresso do Bibliotecário):** O concurso público de provas e títulos com critérios objetivos cego, pelo qual Richard é selecionado para o cargo de Analista Legislativo, representa a consagração do **modelo burocrático weberiano** profissional baseado estritamente na competência técnica e na impessoalidade.
+- **Cenário 2 (Administração Gerencial na Contratualização de Metas do CEDI):** O Centro de Documentação e Informação celebra um acordo de metas de desempenho com a Diretoria-Geral da Câmara (NPM / Modelo Gerencial): em troca de autonomia para gerir seus horários e recursos de digitalização, o CEDI compromete-se a entregar 100% dos relatórios solicitados pelas comissões no prazo de 48 horas, sendo avaliado pelos **resultados alcançados**.
+- **Cenário 3 (Governança Pública Colaborativa nos Hackathons da Câmara):** A Câmara abre seus dados orçamentários e de tramitação via API e promove hackathons com a sociedade civil e universidades para criar aplicativos de transparência cidadã, aplicando o modelo contemporâneo de **Nova Governança Pública**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Modelo de Gestão | Foco Principal | Mecanismo de Controle | Relação com o Cidadão |
+| :--- | :--- | :--- | :--- |
+| **Patrimonialista** | Manutenção do poder e bens do soberano | Inexistente / Favoritismo | Súdito dependente de favor |
+| **Burocrático** | Combate à corrupção e nepotismo | Controle rígido de processos *a priori* | Administrado submetido à regra formal |
+| **Gerencial (NPM)** | Eficiência, eficácia e custos | Controle de resultados *a posteriori* | Cidadão-cliente de serviços públicos |
+| **Governança Pública** | Redes colaborativas e legitimidade | Transparência, integridade e *accountability* | Cidadão participante e cocriador |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O Modelo Gerencial Elimina a Burocracia:** O Cebraspe afirma que o advento da administração gerencial aboliu por completo todos os princípios da burocracia no serviço público. **Gabarito: ERRADO.** O modelo gerencial apoia-se sobre as bases da burocracia (concurso público, carreira profissional e impessoalidade), flexibilizando apenas as rotinas de processos para focar em resultados.
+- **Controle no Modelo Burocrático vs. Gerencial:** Inverter os momentos de controle: a burocracia faz controle **a priori** (preventivo nos processos e carimbos); o modelo gerencial privilegia o controle **a posteriori** (nos resultados e metas).
+- **Disfunções de Merton:** Dizer que a rigidez burocrática é uma virtude desejada por Max Weber. **Gabarito: ERRADO.** O formalismo excessivo e a lentidão são **disfunções patológicas** da burocracia mapeadas por Robert Merton.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRESSER-PEREIRA, Luiz Carlos.** *Reforma do Estado para a Cidadania: a reforma gerencial brasileira na perspectiva internacional*. São Paulo: Editora 34; Brasília: ENAP, 1998. (O texto fundamental sobre a reforma gerencial no Brasil).
+- **WEBER, Max.** *Economia e Sociedade: fundamentos da sociologia compreensiva*. Brasília: Ed. UnB, 1999. v. 1 e 2. (A formulação clássica da Burocracia).
+- **OSBORNE, David; GAEBLER, Ted.** *Reinventando o Governo: como o espírito empreendedor está transformando o setor público*. 7. ed. Brasília: MH Comunicação, 1994.
+- **SECCHI, Leonardo.** Modelos organizacionais e reformas da administração pública. *Revista de Administração Pública (RAP)*, v. 43, n. 2, p. 347-369, 2009.
+- **BRASIL. MINISTÉRIO DA ADMINISTRAÇÃO FEDERAL E REFORMA DO ESTADO (MARE).** *Plano Diretor da Reforma do Aparelho do Estado*. Brasília: Presidência da República, 1995.`,
   checkpoints: [
     {
       id: 'cp-11-8-1',

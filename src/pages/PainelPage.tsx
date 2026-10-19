@@ -19,14 +19,13 @@ import {
   Zap,
   Compass,
   PenTool,
-  BookOpen,
+  Target,
   HelpCircle,
 } from 'lucide-react';
 
 import { getModuleTheme } from '../domain/moduleThemes';
 import { ModuleBadge } from '../components/common/ModuleBadge';
 import { getItensCadernoErros } from '../domain/cadernoErros';
-import { useDicionarioStore } from '../store/useDicionarioStore';
 import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
 import { CupulaCongressoIllustration } from '../components/common/Illustrations';
 import { JORNADA_CONFIG } from '../config/jornada.config';
@@ -463,19 +462,19 @@ export const PainelPage: React.FC = () => {
             </div>
           </button>
 
-          {/* Atalho 4: Dicionário Técnico Cebraspe */}
+          {/* Atalho 4: Radar Cebraspe */}
           <button
             type="button"
-            onClick={() => useDicionarioStore.getState().abrirBuscaVazia()}
+            onClick={() => setCurrentRoute('radar')}
             className="p-3.5 rounded-xl bg-surface hover:bg-surface-2/60 border border-border hover:border-accent/40 transition-all text-left flex items-center gap-3 cursor-pointer group shadow-2xs"
           >
             <div className="w-9 h-9 rounded-lg bg-surface-2 text-ink border border-border flex items-center justify-center shrink-0">
-              <BookOpen className="w-4 h-4 text-accent" />
+              <Target className="w-4 h-4 text-accent" />
             </div>
             <div className="min-w-0 flex-1">
-              <span className="font-sans font-bold text-ink text-xs block truncate">Dicionário</span>
+              <span className="font-sans font-bold text-ink text-xs block truncate">Radar Cebraspe</span>
               <span className="text-[11px] text-ink-2 font-serif truncate block">
-                Terminologia & Doutrina
+                Armadilhas da banca
               </span>
             </div>
           </button>

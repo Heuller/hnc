@@ -13,8 +13,30 @@ export const submodulo72: ModuloFilho = {
       }
   ],
   titulo: 'Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)',
+  antesDeLer: [
+    {
+      termo: 'Controle Integrado de Pragas (CIP)',
+      definicao: 'Estratégia holística e sustentável de monitoramento, prevenção física e controle ambiental de agentes biológicos sem uso indiscriminado de químicos.',
+      exemploBiblioteca: 'Armadilhas adesivas não tóxicas instaladas estrategicamente nos rodapés das estantes para detecção precoce de insetos.',
+    },
+    {
+      termo: 'Insetos Bibliófagos',
+      definicao: 'Espécies que atacam materiais celulósicos e colas: brocas (Anobiidae), traças de livros (Thysanura), cupins e baratas.',
+      exemploBiblioteca: 'Identificação de orifícios de broca em encadernações históricas em couro tratadas no laboratório de restauração.',
+    },
+    {
+      termo: 'Fungos e Mofo',
+      definicao: 'Microrganismos cujos esporos proliferam rapidamente quando a umidade relativa ultrapassa 65%, causando manchas e biodegradação estrutural.',
+      exemploBiblioteca: 'Ação imediata de isolamento e higienização a seco quando há falha no sistema de climatização no período de chuvas em Brasília.',
+    },
+    {
+      termo: 'Quarentena de Acervos',
+      definicao: 'Isolamento preventivo temporário de livros recém-adquiridos ou doados em sala especial antes de sua integração ao acervo geral.',
+      exemploBiblioteca: 'Inspeção minuciosa de caixas de doações de arquivos pessoais de ex-deputados federais.',
+    },
+  ],
   descricaoCurta: 'Insetos bibliófagos (traças, brocas, cupins e baratas), fungos filamentosos (mofo e foxing), roedores, superação da fumigação química e as técnicas ecológicas modernas: Anóxia (gás inerte) e Congelamento.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 13,
   prioridade: 'baixa',
   autoresChave: ['Ingrid Beck', 'Norma Cassares', 'José Luiz Pedersoli Jr.', 'IFLA-PAC', 'Getty Conservation Institute'],
   alertasCebraspe: [
@@ -133,6 +155,53 @@ Quando uma infestação ativa é detectada, o tratamento deve ser 100% ecológic
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Restauração e Planos de Contingência (sub-7-4):** Manejo integrado de pragas e intervenções curativas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Agentes Biológicos de Degradação** e o **Controle Integrado de Pragas (CIP)** são temas críticos de conservação preventiva cobrados pelo Cebraspe:
+1. **Principais Agentes Biológicos:**
+   - **Micro-organismos (Fungos / Bolor):** Desenvolvem-se em ambientes com umidade relativa superior a 65% e temperaturas elevadas (> 22 °C). Provocam manchas ácidas e coloridas no papel (*foxing*), digerem o adesivo de amido e quebram as fibras de celulose.
+   - **Insetos Bibliófagos:**
+     - *Brocas (Anóbios):* Larvas de besouros que perfuram galerias sinuosas e contínuas no interior de livros e encadernações, deixando resíduo em pó fino (*frass*).
+     - *Traças (Tisanuros / Lepisma saccharina):* Insetos ágeis e prateados que consomem amido, cola, papel acetinado e tecidos, causando bordas rendilhadas e erosões superficiais.
+     - *Baratas (Blattodea) e Cupins (Térmitas):* Insetos mastigadores altamente destrutivos; os cupins subterrâneos podem devorar estantes de madeira e acervos inteiros de dentro para fora em semanas.
+   - **Roedores (Ratos e Camundongos):** Destroem papel e couro para construção de ninhos e roem fios elétricos (risco grave de incêndio).
+2. **Controle Integrado de Pragas (CIP / IPM - Integrated Pest Management):**
+   - Abordagem holística, preventiva e ecologicamente sustentável que substitui a aplicação indiscriminada e periódica de inseticidas químicos agressivos.
+   - **Os 4 Pilares do CIP:** Inspeção e monitoramento contínuo (armadilhas adesivas de chão com feromônio) $\to$ Higiene e saneamento rigoroso $\to$ Bloqueio mecânico de entrada (vedação de frestas, telas milimétricas em janelas) $\to$ Métodos de controle não tóxicos.
+   - **Tratamento Não Tóxico Canônico:** **Anoxia** (expurgos em câmaras herméticas sem oxigênio, com nitrogênio ou argônio) e congelamento controlado (*freezing* a -20 °C).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Monitoramento por Armadilhas no Cofre de Obras Raras):** Na Seção de Obras Raras da Biblioteca Pedro Aleixo, o bibliotecário-conservador instala armadilhas adesivas de solo com atrativo feromônico a cada 5 metros. Semanalmente, ele inspeciona as armadilhas: a captura de uma única traça ativa um protocolo de vistoria minuciosa das prateleiras adjacentes antes que ocorra infestação.
+- **Cenário 2 (Tratamento de Livro Raro Infestado por Anóbia):** Um exemplar de 1830 doado ao CEDI chega com orifícios de broca e pó fresco. Em vez de usar brometo de metila (químico tóxico proibido que danifica o papel e envenena o servidor), a equipe encaminha o volume para uma câmara de **anoxia** com gás nitrogênio por 21 dias, eliminando ovos, larvas e insetos adultos por asfixia sem química.
+- **Cenário 3 (Bloqueio Físico contra Roedores nas Áreas Subterrâneas):** Os depósitos de anais legislativos situados no subsolo do Palácio do Congresso Nacional passam por vistoria de vedação mecânica: soleiras com escovas de vedação de aço, ralos com telas pesadas e proibição terminante de lanches e copos de café nas áreas de guarda de livros.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Praga / Inseto | Tipo de Dano Típico | Vestígio Característico | Preferência Alimentar |
+| :--- | :--- | :--- | :--- |
+| **Fungos (Bolor)** | Manchas coloridas (*foxing*) e enfraquecimento | Cheiro de mofo, pó pulverulento | Celulose, amido e gelatina sob UR > 65% |
+| **Brocas (Anóbios)** | Perfurações profundas e túneis | Pó de broca fino (*frass*) nas prateleiras | Encadernações de couro, madeira e papel |
+| **Traças (Lepisma)** | Erosão superficial e bordas rendilhadas | Excrementos escuros microscópicos | Cola de amido, cola de encadernação, fotos |
+| **Cupins (Térmitas)** | Destruição oca massiva | Túneis de terra nas paredes | Celulose em geral e estruturas de madeira |
+| **Controle Químico vs. CIP** | CIP prioriza prevenção mecânica | Monitoramento com armadilhas | Químico tóxico é o último recurso |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Dedetização Química Periódica Obrigatória:** A banca formula itens afirmando que *"a biblioteca deve realizar dedetizações químicas preventivas com inseticidas em spray a cada 6 meses sobre os livros"*. **Gabarito: ERRADO.** A aplicação química direta nos livros degrada o papel, acelera a hidrólise ácida e é expressamente vedada pelo CIP; o foco é o controle do ambiente e monitoramento não tóxico.
+- **Foxing Causado por Calor:** Afirmar que o *foxing* (manchas ferruginosas) decorre exclusivamente do calor da luz solar. **Gabarito: ERRADO.** O *foxing* tem origem biológica (micro-organismos e fungos) combinada a impurezas metálicas (ferro) presentes na massa de fabricação do papel.
+- **Armadilhas de Luz UV para Traças de Chão:** Traças (*Lepisma*) são fotofóbicas (fogem da luz); armadilhas de luz não são eficazes para elas, exigindo-se armadilhas adesivas de chão.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **CASSARES, Norma Cristina.** *Como fazer conservação preventiva em arquivos e bibliotecas*. São Paulo: Arquivo do Estado; Imprensa Oficial, 2000. (O manual de conservação mais adotado no Brasil).
+- **SPINELLI JÚNIOR, Jayme.** *A conservação de acervos bibliográficos e documentais*. Rio de Janeiro: Fundação Biblioteca Nacional, 1995.
+- **BECK, Ingrid.** *Manual de conservação de documentos*. Rio de Janeiro: Arquivo Nacional, 1995.
+- **PINNIGER, David.** *Pest management in museums, archives and historic houses*. London: Archetype Publications, 2001. (Referência mundial sobre CIP em instituições de memória).
+- **OGDEN, Sherelyn (Org.).** *Manual de preservação de documentos*. Rio de Janeiro: Projeto Conservação Preventiva em Bibliotecas e Arquivos (CPBA); Arquivo Nacional, 2001.`,
   checkpoints: [
     {
       id: 'cp-7-2-1',

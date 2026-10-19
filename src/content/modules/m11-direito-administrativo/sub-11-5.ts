@@ -7,8 +7,30 @@ export const submodulo115: ModuloFilho = {
   preRequisitos: ["sub-11-4"],
   titulo: 'Poderes Administrativos, Ciclo de Polícia e Abuso de Poder',
   titulo_curto: 'Poderes Administrativos e Abuso',
+  antesDeLer: [
+    {
+      termo: 'Poder de Polícia',
+      definicao: 'Atividade estatal discricionária que limita ou disciplina direitos, interesses ou liberdades em benefício do interesse público.',
+      exemploBiblioteca: 'Atuação da Polícia Legislativa da Câmara controlando crachás, bagagens e acesso aos recintos da biblioteca.',
+    },
+    {
+      termo: 'Poder Hierárquico e Disciplinar',
+      definicao: 'Hierárquico organiza, fiscaliza e delega atribuições internamente; disciplinar pune internamente servidores que cometem faltas.',
+      exemploBiblioteca: 'A chefia imediata da biblioteca delegando atribuições de supervisão de turno aos analistas seniores.',
+    },
+    {
+      termo: 'Poder Regulamentar',
+      definicao: 'Prerrogativa conferida aos chefes do Executivo e Mesas Diretoras de expedir decretos e portarias para fiel execução das leis.',
+      exemploBiblioteca: 'Ato da Mesa da Câmara regulamentando o empréstimo interinstitucional de obras entre bibliotecas públicas.',
+    },
+    {
+      termo: 'Abuso de Poder (Excesso vs. Desvio)',
+      definicao: 'Excesso de poder ocorre quando o agente atua fora de sua competência legal; desvio de finalidade ocorre quando busca fim alheio ao interesse público.',
+      exemploBiblioteca: 'Proibição expressa de usar recursos da biblioteca para fins de autopromoção partidária de qualquer parlamentar.',
+    },
+  ],
   descricaoCurta: 'Poder vinculado e discricionário. Poder hierárquico, disciplinar e regulamentar (decretos regulamentares e autônomos). Poder de polícia: conceito (art. 78 do CTN), atributos, ciclo de polícia e delegabilidade a estatais (STF Tema 532). Uso e abuso de poder: excesso de poder vs. desvio de finalidade.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Hely Lopes Meirelles',
     'Maria Sylvia Zanella Di Pietro',
@@ -101,6 +123,54 @@ $$\\text{Abuso de Poder} = \\begin{cases} \\text{Excesso de Poder} & \\longright
 
 * **Excesso de Poder:** A autoridade extrapola os limites das atribuições que a lei lhe conferiu. Ex.: autoridade sem competência legal que impõe demissão a um servidor.
 * **Desvio de Finalidade (Desvio de Poder):** A autoridade atua formalmente dentro de sua competência legal, mas pratica o ato com finalidade diversa daquela prevista pela lei ou contrária ao interesse público. Ex.: chefe de setor que remove compulsoriamente um bibliotecário para arquivo distante apenas por inimizade pessoal decorrente de divergência política.`,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Poderes Administrativos** constituem prerrogativas públicas instrumentais conferidas ao Estado para assegurar o interesse coletivo:
+1. **Tipologia dos Poderes Administrativos:**
+   - **Poder Vinculado:** A lei estabelece todos os elementos e requisitos do ato, sem deixar margem de escolha ao administrador (ex.: concessão de licença-maternidade ou aposentadoria compulsória aos 75 anos).
+   - **Poder Discricionário:** A lei confere margem de liberdade e valoração ao administrador para escolher a melhor conduta com base na **conveniência e oportunidade** (mérito administrativo). Limites: a discricionariedade nunca é ilimitada; submete-se à razoabilidade e proporcionalidade.
+   - **Poder Hierárquico:** Distribuição e escalonamento de funções dentro da mesma pessoa jurídica; autoriza dar ordens, fiscalizar, delegar e avocar competências. Não existe hierarquia entre o Executivo e o Legislativo, nem entre a Administração e os cidadãos!
+   - **Poder Disciplinar:** Poder-dever de apurar infrações e aplicar sanções a agentes públicos internos e a particulares com vínculo específico com o Estado (ex.: empresa concessionária ou contratada que descumpriu contrato).
+   - **Poder Regulamentar / Normativo:** Prerrogativa de expedir decretos e normas gerais para fiel execução de leis (não pode inovar na ordem jurídica nem criar obrigações sem base legal!).
+2. **Poder de Polícia:**
+   - Prerrogativa estatal de **restringir, limitar ou condicionar o exercício de direitos e liberdades individuais e o uso de propriedades** em prol do bem-estar social, da segurança, da saúde e da ordem pública.
+   - **Atributos do Poder de Polícia (Mnemônico DAC):** Discricionariedade, Autoexecutoriedade (o Estado age diretamente sem autorização judicial prévia) e Coercibilidade (uso legítimo da força física se houver resistência).
+   - **O Ciclo de Polícia (4 Fases):** Ordem de Polícia (a lei) $\to$ Consentimento (licença/autorização) $\to$ Fiscalização $\to$ Sanção de Polícia.
+3. **Abuso de Poder (Excesso de Poder vs. Desvio de Finalidade):**
+   - **Excesso de Poder:** O agente atua fora dos limites de sua competência legal (vício de competência).
+   - **Desvio de Poder / Desvio de Finalidade:** O agente atua dentro de sua competência formal, mas busca uma finalidade alheia ao interesse público (ex.: remover servidor por perseguição política ou favorecer amigo). Vício de finalidade.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Poder de Polícia da Polícia Legislativa da Câmara):** Ao vistoriar cidadãos no detector de metais na portaria do Palácio do Congresso e reter objetos perfurocortantes, os policiais legislativos exercem o **Poder de Polícia com autoexecutoriedade e coercibilidade**, protegendo a segurança física dos deputados e servidores sem necessidade de autorização judicial prévia.
+- **Cenário 2 (Desvio de Finalidade em Remoção de Bibliotecário):** Uma chefia de seção fica irritada com um bibliotecário que apontou irregularidades em uma licitação de livros e remove o servidor para um arquivo distante e insalubre alegando "necessidade do serviço". O ato padece de **desvio de poder/finalidade**, devendo ser anulado por violação ao princípio da impessoalidade e moralidade.
+- **Cenário 3 (Poder Disciplinar Aplicado a Empresa Terceirizada):** A empresa contratada para encadernação do acervo da biblioteca descumpre o prazo contratual reiteradamente. A Câmara aplica multa e suspensão temporária de licitar fundamentada no **Poder Disciplinar** (relação contratual com vínculo específico).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Espécie de Abuso / Poder | Vício Constitutivo | O que Ocorre na Prática | Exemplo Cebraspe |
+| :--- | :--- | :--- | :--- |
+| **Excesso de Poder** | Vício de **Competência** | O agente invade esfera que a lei não lhe deu | Policial aplica sanção tributária |
+| **Desvio de Finalidade** | Vício de **Finalidade** | O agente age no interesse privado/vingança | Remover servidor para puni-lo |
+| **Poder de Polícia** | Restrição de liberdade e bens | Vínculo geral com a coletividade | Vigilância sanitária, trânsito |
+| **Poder Disciplinar** | Punição de faltas funcionais | Vínculo interno especial com o Estado | PAD contra servidor ou multa em contratada |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Multa em Cidadão Comum é Poder Disciplinar:** O Cebraspe diz que a multa de trânsito aplicada a um motorista na rua decorre do poder disciplinar. **Gabarito: ERRADO.** O poder disciplinar exige **vínculo especial** (servidores ou contratados); sanção a cidadãos em geral decorre do **Poder de Polícia**.
+- **Autoexecutoriedade da Multa:** Afirmar que a cobrança de multa de trânsito ou administrativa é autoexecutória (o Estado penhora a conta do cidadão diretamente sem ir ao juiz). **Gabarito: ERRADO.** A cobrança forçada de valores exige ação judicial de execução fiscal perante o Judiciário; a autoexecutoriedade não se aplica à cobrança de multas pecuniárias.
+- **Excesso de Poder vs. Desvio de Finalidade:** Inverter os vícios: dizer que o desvio de poder decorre da falta de competência do agente. **Gabarito: ERRADO.** Falta de competência é **excesso de poder**; desvio de poder decorre de vício na finalidade do ato.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **MEIRELLES, Hely Lopes.** *Direito Administrativo Brasileiro*. 42. ed. São Paulo: Malheiros, 2016. (Capítulo de Poderes Administrativos).
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023.
+- **BRASIL.** *Lei Federal nº 13.869, de 5 de setembro de 2019*. Dispõe sobre os crimes de abuso de autoridade.
+- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
+- **SUNDFELD, Carlos Ari.** *Direito Administrativo Ordenador*. São Paulo: Malheiros, 2003.`,
   checkpoints: [
     {
       id: 'cp-11-5-1',

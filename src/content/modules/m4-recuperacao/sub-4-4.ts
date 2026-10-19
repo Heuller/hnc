@@ -18,8 +18,30 @@ export const submodulo44: ModuloFilho = {
       }
   ],
   titulo: 'Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional',
+  antesDeLer: [
+    {
+      termo: 'Processo de Referência (Denis Grogan)',
+      definicao: 'Sequência de etapas intelectuais e comunicacionais de atendimento: do problema inicial, negociação da questão, estratégia até a resposta final.',
+      exemploBiblioteca: 'Entrevista com assessor parlamentar para filtrar se a demanda por \'impostos\' se refere especificamente à Reforma Tributária de 2023.',
+    },
+    {
+      termo: 'Disseminação Seletiva da Informação (DSI)',
+      definicao: 'Serviço que envia alertas periódicos e personalizados de novas publicações a usuários cadastrados com base em seus perfis de interesse.',
+      exemploBiblioteca: 'Envio automático aos membros da Comissão de Educação de novas teses e normas sobre financiamento escolar.',
+    },
+    {
+      termo: 'Estudo de Usuários',
+      definicao: 'Investigação sistemática sobre o comportamento, as necessidades, os padrões de busca e a satisfação da comunidade atendida.',
+      exemploBiblioteca: 'Pesquisa de opinião com deputados federais sobre o uso do acervo digital no aplicativo da Câmara.',
+    },
+    {
+      termo: 'Competência Informacional (Information Literacy)',
+      definicao: 'Habilidade dos usuários em identificar, acessar, avaliar e utilizar criticamente a informação no contexto da sociedade do conhecimento.',
+      exemploBiblioteca: 'Treinamento oferecido pelo CEDI aos novos servidores sobre como verificar a vigência de leis no portal da Câmara.',
+    },
+  ],
   descricaoCurta: 'O processo de referência de Denis Grogan (8 etapas), entrevista e mediação, Disseminação Seletiva da Informação (DSI de Luhn), modelos teóricos de comportamento informacional (Wilson, Dervin - Sense Making, Belkin - ASK) e Competência em Informação (Information Literacy).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 24,
   autoresChave: ['Denis Grogan', 'Hans Peter Luhn', 'Tom D. Wilson', 'Brenda Dervin', 'Nicholas Belkin', 'Carol Kuhlthau', 'Maurice Line', 'Nice Menezes de Figueiredo', 'Javier Calzada Prado', 'Tibor Koltay'],
   alertasCebraspe: [
     'A sequência lógica de 8 etapas do processo de referência de Denis Grogan é cobrada literal e repetidamente pelo Cebraspe: 1. O Problema -> 2. A Necessidade de Informação -> 3. A Questão Inicial -> 4. A Questão Negociada -> 5. A Estratégia de Busca -> 6. O Processo de Busca -> 7. A Resposta -> 8. A Solução. Memorize essa ordem exata!',
@@ -237,6 +259,57 @@ Com a proliferação da ciência orientada a dados (*data science*), do governo 
 * **Ética Profissional e Legislação (sub-1-4):** Conduta e sigilo na entrevista de referência.
 * **Produtos e Serviços Informacionais (sub-5-2):** Conversão da necessidade do usuário em relatórios temáticos e notas informacionais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+O **Serviço de Referência**, a **Disseminação Seletiva da Informação (DSI)** e os **Estudos de Usuários** corporificam a missão mediadora da biblioteca pública e parlamentar:
+1. **O Serviço de Referência (Denis Grogan e Jean-Philippe Accart):**
+   - Processo de assistência direta, pessoal e personalizada aos usuários em busca de informação.
+   - **Etapas Canônicas da Entrevista de Referência (Grogan):**
+     1. Mensagem inicial recebida do usuário (pergunta expressa).
+     2. Esclarecimento da necessidade real (diagnóstico da dúvida latente).
+     3. Seleção da estratégia de busca e das fontes adequadas.
+     4. Execução da busca no sistema.
+     5. Avaliação da resposta e validação com o usuário.
+   - **Tipologia de Questões de Referência (Grogan):** Administrativas (onde fica?), Pergunta de resposta rápida (*Ready Reference* / fato específico), Busca temática ampla e Questão de pesquisa profunda (*Research*).
+2. **Disseminação Seletiva da Informação (DSI / SDI):**
+   - Serviço proativo e personalizado no qual a biblioteca antecipa o envio de informações novas de acordo com o **perfil de interesses cadastrado do usuário** (*User Profile*).
+   - Componentes: Perfil do usuário $\to$ Base de novas publicações $\to$ Mecanismo de cruzamento (*Matching*) $\to$ Notificação periódica $\to$ Mecanismo de retroalimentação (*Feedback* para calibrar o perfil).
+3. **Estudos de Usuários e Comportamento Informacional:**
+   - Investigação sistemática de quem são os usuários, quais suas necessidades reais e sentidas, como buscam informação e quais barreiras enfrentam.
+   - **Abordagem Tradicional (Orientada ao Sistema):** Foco em estatísticas quantitativas de empréstimo, circulação e ocupação das mesas.
+   - **Abordagem Alternativa (Orientada ao Usuário / Cognitiva-Sense Making de Dervin):** Foco nas lacunas de sentido, na experiência subjetiva e no contexto de uso da informação.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (DSI Parlamentar Customizada na Biblioteca Pedro Aleixo):** Um deputado recém-empossado assume a presidência da Comissão de Ciência e Tecnologia. O bibliotecário cria um perfil de DSI no sistema da biblioteca com os descritores: *inteligência artificial, regulação de algoritmos, proteção de dados*. Semanalmente, o gabinete do deputado recebe um boletim automatizado com as novas doutrinas, teses e artigos indexados sobre esses temas.
+- **Cenário 2 (Entrevista de Referência com a Consultoria Legislativa):** Um consultor legislativo pergunta: *"Vocês têm livros sobre saúde pública?"*. O bibliotecário de referência aplica as técnicas de Grogan e descobre que a real necessidade é saber se a vacinação obrigatória foi tema de controle de constitucionalidade no STF após a pandemia de COVID-19, refinando a estratégia de busca para o repositório LexML e jurisprudência constitucional.
+- **Cenário 3 (Estudo de Usuários para Modernização do Portal da BDCam):** O CEDI conduz um estudo qualitativo com assessores parlamentares de diferentes partidos para identificar por que a busca avançada era pouco utilizada. O diagnóstico revela que a linguagem dos operadores booleanos assustava os usuários, motivando a criação de filtros por facetas amigáveis de clique único.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Serviço / Abordagem | Papel do Bibliotecário | Mecanismo Central | Foco de Avaliação |
+| :--- | :--- | :--- | :--- |
+| **Referência Reativa** | Aguarda o usuário procurar o balcão | Entrevista de referência | Resolução de dúvida imediata |
+| **DSI (Proativa)** | Antecipa o envio de informações novas | Cruzamento de perfis (*matching*) | Relevância e feedback contínuo |
+| **Estudo Tradicional** | Mede o uso dos recursos da biblioteca | Estatísticas de circulação e empréstimos | Eficiência operacional do prédio |
+| **Estudo Alternativo** | Compreende a cognição e o comportamento | Métodos qualitativos e *Sense-Making* | Satisfação de necessidades humanas |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Pergunta Inicial como Expressão Perfeita da Dúvida:** O Cebraspe propõe que *"o bibliotecário deve iniciar a busca imediatamente a partir dos exatos termos proferidos pelo usuário em sua primeira pergunta no balcão"*. **Gabarito: ERRADO.** A doutrina de Denis Grogan ensina que a primeira pergunta raramente reflete a real necessidade de informação; a entrevista de referência é indispensável para esclarecer a demanda oculta.
+- **DSI sem Mecanismo de Retroalimentação:** Dizer que a DSI funciona em fluxo unidirecional sem necessidade de feedback. **Gabarito: ERRADO.** O mecanismo de *feedback* do usuário é elemento obrigatório da DSI para refinar ou atualizar o perfil.
+- **Confusão entre Questão de Resposta Rápida e Pesquisa:** Afirmar que levantar toda a legislação comparada de cinco países é uma questão de referência rápida (*Ready Reference*). **Gabarito: ERRADO.** Trata-se de busca de pesquisa aprofundada (*Research Query*).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **GROGAN, Denis.** *A prática do serviço de referência*. Brasília: Briquet de Lemos, 1995. (A principal referência clássica cobrada em provas de concurso).
+- **ACCART, Jean-Philippe.** *Serviço de referência: do presencial ao virtual*. Brasília: Briquet de Lemos, 2012.
+- **FIGUEIREDO, Nice Menezes de.** *Estudos de uso e usuários da informação*. Brasília: IBICT, 1994. (Texto fundacional dos estudos de usuários no Brasil).
+- **DERVIN, Brenda.** From the mind's eye of the user: the sense-making qualitative-quantitative methodology. *Qualitative Research in Information Management*, p. 61-84, 1992.
+- **CÂMARA DOS DEPUTADOS.** *Diretrizes de Atendimento do Serviço de Referência da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2020.`,
   checkpoints: [
     {
       id: 'cp-4-4-1',

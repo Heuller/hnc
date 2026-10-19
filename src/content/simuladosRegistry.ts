@@ -263,9 +263,9 @@ export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
     numero: 16,
     titulo: 'Simulado Geral Oficial: Prova Integral da Câmara dos Deputados (180 Itens)',
     tituloCurto: 'Simulado Geral 180Q',
-    subtitulo: '180 Itens C/E na Proporção Oficial do Edital: Básicos (50Q) + Específicos (70Q) + Especializados (60Q)',
+    subtitulo: '180 Itens C/E no Formato Real do Edital: P1 Básicos (70Q) + P2 Específicos (110Q) | 5h00 de Duração',
     descricao:
-      'A prova definitiva para o cargo de Analista Legislativo - Bibliotecário da Câmara dos Deputados. Integração dos Casos Integradores CI-1 a CI-5 como questões analíticas de nível 4, abrangendo 100% dos tópicos do edital.',
+      'Simulação fidedigna da Prova Objetiva Oficial da Câmara dos Deputados (Edital nº 1/2026): 70 itens de Conhecimentos Básicos (P1) e 110 itens de Conhecimentos Específicos (P2), com tempo de prova de 5h00 no padrão Cebraspe (1 errada anula 1 certa). Inclui os Casos Integradores CI-1 a CI-5 e calibração contra a meta de corte recalibrada (118,00 pontos líquidos).',
     questoes: simuladoGeral180Q,
     submodulosIds: [
       '13.1', '13.2', '13.3', '13.4', '12.1', '12.2', '12.3', '12.4', '11.1', '11.2', '11.3', '11.4', '14.1', '14.2', '14.3', '14.4',

@@ -23,8 +23,30 @@ export const submodulo34: ModuloFilho = {
       }
   ],
   titulo: 'Linguagens Documentárias, Tesauros, Ontologias e SKOS',
+  antesDeLer: [
+    {
+      termo: 'Linguagem Documentária',
+      definicao: 'Sistema de signos e vocabulário controlado construído artificialmente para a representação e recuperação de informações.',
+      exemploBiblioteca: 'Vocabulário controlado da RVBI que unifica termos para busca entre Câmara, Senado e tribunais superiores.',
+    },
+    {
+      termo: 'Tesauro',
+      definicao: 'Vocabulário controlado estruturado por relações semânticas formais: hierárquicas (TG/TE), associativas (TA) e de equivalência (USE/UP).',
+      exemploBiblioteca: 'Consulta ao Tesauro do Congresso Nacional para verificar que \'Parlamentar\' tem como Termo Específico \'Deputado Federal\' e \'Senador\'.',
+    },
+    {
+      termo: 'SKOS (Simple Knowledge Organization System)',
+      definicao: 'Modelo de dados W3C baseado em RDF para expressar tesauros, taxonomias e esquemas de classificação como Linked Data na web.',
+      exemploBiblioteca: 'Publicação do Tesauro da Câmara dos Deputados em formato SKOS para interoperabilidade com o portal de dados abertos.',
+    },
+    {
+      termo: 'Ontologia',
+      definicao: 'Especificação formal e explícita de uma conceitualização compartilhada que define classes, propriedades, restrições e axiomas lógicos.',
+      exemploBiblioteca: 'Modelagem de ontologia legislativa para inferir automaticamente relações de dependência entre leis ordinárias e a CF/88.',
+    },
+  ],
   descricaoCurta: 'Tipologia das linguagens documentárias (Cintra, Lara), a Teoria do Conceito de Ingetraut Dahlberg, arquitetura e normas de tesauros (ISO 25964), forma gramatical dos descritores, o Vocabulário Controlado Básico (VCB da RVBI), Ontologias e o padrão SKOS do W3C.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['Ingetraut Dahlberg', 'Estevão de Meneses', 'Emilia Currás', 'Thomas Gruber', 'Anna Maria Marques Cintra', 'Marilda Lopes Ginez de Lara', 'E. Wyndham Hulme'],
   alertasCebraspe: [
     'Relações semânticas canônicas de um tesauro segundo a ISO 25964: (1) Equivalência (USE / UP para sinônimos, variantes ortográficas e quase-sinônimos); (2) Hierárquica (TG / TE para relações de gênero-espécie, todo-parte ou instancial); e (3) Associativa (TR para conexões laterais simétricas que não são hierárquicas nem sinônimas, como causa-efeito, processo-agente ou matéria-produto).',
@@ -130,7 +152,7 @@ O **VCB** é o tesauro estruturado oficial da **Rede Virtual de Bibliotecas (RVB
 A Ciência da Informação contemporânea estendeu o estudo dos tesauros para os Sistemas de Organização do Conhecimento (SOC / KOS) na Web Semântica:
 
 \`\`\`timeline
-L | 1. Lista de Termos / Glossário | Nível Básico | Relações não estruturadas: definições textuais sem controle de hierarquia ou rede de equivalência
+L | 1. Lista de Termos / Vocabulário Simples | Nível Básico | Relações não estruturadas: definições textuais sem controle de hierarquia ou rede de equivalência
 ---> Introdução de Relações de Subordinação
 T | 2. Taxonomia Hierárquica | Estrutura em Árvore | Organização formal por classes e subclasses (relação todo-parte e gênero-espécie)
 ---> Controle Terminológico e Equivalência
@@ -197,6 +219,57 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 * **IA Aplicada à Informação (sub-6-7):** Uso de taxonomias e ontologias para extração semântica e controle de alucinações em RAG.
 * **Fontes Jurídicas e LexML (sub-4-3):** Vocabulário Controlado da RVBI aplicado a proposições legislativas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+As **Linguagens Documentárias**, com destaque para os **Tesauros**, estruturam o vocabulário e a interoperabilidade semântica nos sistemas de informação:
+1. **O que é um Tesauro (ISO 25964 e ANSI/NISO Z39.19):**
+   - Vocabulário controlado e dinâmico de termos relacionados formal e semanticamente, cobrindo de modo exaustivo um domínio específico do conhecimento.
+   - **Relações Semânticas Canônicas:**
+     - **Equivalência (Sinonímia):** \`USE\` (Termo Autorizado) e \`UP\` (*Usado Para* / Não autorizado). Controla sinônimos, variantes ortográficas e siglas.
+     - **Hierárquica (Gênero-Espécie e Todo-Parte):** \`TG\` (*Termo Geral* / *Broader Term* - BT) e \`TE\` (*Termo Específico* / *Narrower Term* - NT).
+     - **Associativa (Afinidade Conceitual):** \`TA\` (*Termo Associado* / *Related Term* - RT). Liga termos que não são sinônimos nem pertencem à mesma hierarquia, mas compartilham relação de causa-efeito, processo-produto ou instrumento.
+     - **Notas de Escopo (\`NE\` / *Scope Note*):** Definem a acepção precisa em que o termo é utilizado naquele sistema e orientam o indexador.
+2. **Estrutura de Apresentação:**
+   - Alfabética (ordem A-Z de termos e referências cruzadas), Sistemática (agrupamentos temáticos hierárquicos) e Gráfica (árvores conceituais).
+3. **SKOS (*Simple Knowledge Organization System* - W3C):**
+   - Padrão da Web Semântica baseado em RDF para representar tesauros, taxonomias e esquemas de classificação no ambiente de Dados Conectados (*Linked Data*). Propriedades canônicas: \`skos:prefLabel\` (termo preferido), \`skos:altLabel\` (sinônimo/termo alternativo), \`skos:broader\` (TG), \`skos:narrower\` (TE) e \`skos:related\` (TA).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Relação de Equivalência no VCB da RVBI):** O usuário busca no catálogo da Câmara por *"Direito Cibernético"*. O tesauro da Rede RVBI contém a relação de equivalência:
+  \`DIREITO CIBERNÉTICO\`
+  \`USE DIREITO DA INFORMÁTICA\`
+  O sistema redireciona automaticamente a busca para o termo autorizado \`DIREITO DA INFORMÁTICA\`, onde estão reunidas todas as leis e doutrinas.
+- **Cenário 2 (Relação Hierárquica na Tramitação de Projetos):** Ao indexar a regulamentação do trabalho intermitente, o bibliotecário utiliza o termo específico \`TRABALHO INTERMITENTE\`. No tesauro, ele verifica que \`TG DIREITO DO TRABALHO\`. Caso um parlamentar busque genericamente por Direito do Trabalho com expansão hierárquica ativada, a busca recupera também todos os termos específicos vinculados.
+- **Cenário 3 (Exportação de Tesauro em SKOS para o Portal de Dados Abertos):** O CEDI disponibiliza o Vocabulário Controlado da Câmara dos Deputados em formato \`SKOS/RDF\`, permitindo que pesquisadores universitários de IA importem toda a hierarquia jurídica para treinar algoritmos semânticos de análise legislativa.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Relação no Tesauro | Sigla em Português | Sigla em Inglês | Função Exata na Indexação |
+| :--- | :--- | :--- | :--- |
+| **Equivalência (Preferido)** | \`USE\` | \`USE\` | Remete do termo proibido/sinônimo para o termo adotado |
+| **Equivalência (Recíproca)** | \`UP\` (Usado Para) | \`UF\` (Used For) | Indica os termos sinônimos que o termo autorizado substitui |
+| **Hierárquica (Geral)** | \`TG\` (Termo Geral) | \`BT\` (Broader Term) | Conceito mais amplo na taxonomia (gênero/todo) |
+| **Hierárquica (Específico)** | \`TE\` (Termo Específico) | \`NT\` (Narrower Term) | Conceito subordinado mais detalhado (espécie/parte) |
+| **Associativa** | \`TA\` (Termo Associado) | \`RT\` (Related Term) | Relação de proximidade semântica não hierárquica |
+| **Nota de Escopo** | \`NE\` | \`SN\` (Scope Note) | Esclarece o sentido, restrição ou histórico do termo |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Troca de Relações Hierárquicas por Associativas:** A banca diz que *"a relação entre Doença e Medicamento é hierárquica do tipo TG/TE"*. **Gabarito: ERRADO.** Medicamento não é uma espécie de doença; a relação entre ambos é puramente **associativa (TA)**.
+- **Bidirecionalidade Obrigatória:** Toda relação em um tesauro deve ser estritamente recíproca. Se o termo A tem \`TG B\`, obrigatoriamente o termo B deve ter \`TE A\`. Se A tem \`USE B\`, B deve ter \`UP A\`. A ausência de reciprocidade é erro estrutural do vocabulário.
+- **Equivalência no SKOS:** O Cebraspe testa as propriedades SKOS: \`skos:prefLabel\` corresponde ao termo autorizado e \`skos:altLabel\` corresponde ao termo não autorizado (\`UP\`).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ISO 25964-1:2011.** *Information and documentation — Thesauri and interoperability with other vocabularies — Part 1: Thesauri for information retrieval*. Genebra: ISO, 2011.
+- **ANSI/NISO Z39.19-2005 (R2010).** *Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies*. Baltimore: NISO, 2010.
+- **GOMES, Hagar Espanha (Coord.).** *Manual de elaboração de tesauros monolíngues*. Brasília: Programa Nacional de Bibliotecas das Instituições de Ensino Superior, 1990.
+- **W3C.** *SKOS Simple Knowledge Organization System Reference*. W3C Recommendation, 2009.
+- **MOREIRO GONZÁLEZ, José Antonio.** *Linguagens documentárias e vocabulários controlados para indexação e recuperação da informação*. São Paulo: Ed. Senac São Paulo, 2011.`,
   checkpoints: [
     {
       id: 'cp-3-4-1',

@@ -18,9 +18,31 @@ export const submodulo65: ModuloFilho = {
       }
   ],
   titulo: 'Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL',
+  antesDeLer: [
+    {
+      termo: 'Banco de Dados Relacional (SQL)',
+      definicao: 'Sistema de gestão de banco de dados baseado em tabelas com chaves primárias e estrangeiras que cumprem propriedades ACID.',
+      exemploBiblioteca: 'Tabelas interligadas de \'Usuários\', \'Empréstimos\' e \'Exemplares\' no sistema integrado de gestão da biblioteca (SIGB).',
+    },
+    {
+      termo: 'Banco de Dados Não Relacional (NoSQL)',
+      definicao: 'Sistemas de armazenamento flexíveis projetados para dados não estruturados ou semiestruturados (orientados a documentos, grafos ou chave-valor).',
+      exemploBiblioteca: 'Armazenamento de registros JSON de documentos legislativos dinâmicos em bancos orientados a documentos como MongoDB.',
+    },
+    {
+      termo: 'Chave Primária e Chave Estrangeira',
+      definicao: 'Chave primária identifica unicamente uma linha em uma tabela; chave estrangeira estabelece a relação e integridade referencial com outra tabela.',
+      exemploBiblioteca: 'O ID único do parlamentar como chave estrangeira na tabela de autoria de proposições.',
+    },
+    {
+      termo: 'Modelagem Conceitual (DER)',
+      definicao: 'Diagrama Entidade-Relacionamento que mapeia as entidades do negócio, seus atributos e as cardinalidades de relacionamento (1:1, 1:N, N:M).',
+      exemploBiblioteca: 'Modelagem de que um \'Deputado\' pode subscrever N \'Proposições\' e uma \'Proposição\' pode ter N \'Autores\'.',
+    },
+  ],
   descricaoCurta:
     'Levantamento de requisitos funcionais e não funcionais; Modelo Entidade-Relacionamento (MER de Chen) e cardinalidades; modelo relacional, chaves (PK/FK) e formas normais (1FN, 2FN, 3FN); bancos NoSQL (documento, chave-valor, coluna, grafo) e grafos de conhecimento.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'Peter Chen (1976)',
     'Edgar F. Codd (1970)',
@@ -241,6 +263,65 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 * **Modelos Conceituais (LRM) (sub-2-3):** Distinção entre modelagem relacional computacional (MER) e LRM.
 * **Ciência de Dados e Text Mining (sub-14-4):** Estruturação de dados relacionais e não relacionais para análise.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A modelagem de dados e a arquitetura de **Bancos de Dados Relacionais e Não Relacionais (NoSQL)** constituem a espinha dorsal tecnológica dos catálogos modernos:
+1. **Modelagem Conceitual (Modelo Entidade-Relacionamento - MER):**
+   - Proposto por Peter Chen (1976). Representa o minimundo em:
+     - **Entidades:** Objetos do mundo real (ex.: Livro, Autor, Usuário).
+     - **Atributos:** Propriedades das entidades (ex.: ISBN, Nome, Matrícula).
+     - **Relacionamentos e Cardinalidade:** Associações entre entidades: $1:1$ (um para um), $1:N$ (um para muitos), $N:M$ (muitos para muitos).
+2. **Modelo Relacional (Edgar F. Codd, 1970):**
+   - Dados organizados em tabelas bidimensionais (**relações**), compostas por linhas (**tuplas**) e colunas (**atributos**).
+   - **Chave Primária (*Primary Key* - PK):** Atributo único e não nulo que identifica exclusivamente cada tupla na tabela.
+   - **Chave Estrangeira (*Foreign Key* - FK):** Atributo que estabelece a integridade referencial apontando para a chave primária de outra tabela.
+   - **Normalização (1FN, 2FN, 3FN):** Técnica sistemática para eliminar redundâncias e evitar anomalias de inserção, alteração e exclusão.
+3. **Propriedades ACID nos Bancos Relacionais:**
+   - **Atomicidade:** A transação executa tudo ou nada; se falhar no meio, é desfeita (*rollback*).
+   - **Consistência:** Mantém as regras de integridade do banco válidas antes e após a transação.
+   - **Isolamento:** Transações simultâneas não interferem umas nas outras.
+   - **Durabilidade:** Os dados confirmados (*commit*) são persistidos e nunca se perdem por falha de energia.
+4. **Bancos Não Relacionais (NoSQL - *Not Only SQL*):**
+   - Criados para lidar com grandes volumes de dados não estruturados (*Big Data*), alta velocidade e escalabilidade horizontal.
+   - **Quatro Famílias Canônicas de NoSQL:**
+     1. *Chave-Valor (*Key-Value*):* Altíssimo desempenho e simplicidade (ex.: Redis, DynamoDB).
+     2. *Documentos:* Armazena documentos semiestruturados em JSON/BSON (ex.: MongoDB, CouchDB). Muito usado em repositórios digitais modernos.
+     3. *Família de Colunas (*Column-Family*):* Otimizado para consultas analíticas em petabytes (ex.: Apache Cassandra, HBase).
+     4. *Grafos:* Modela nós e arestas com relacionamentos complexos e interconectados (ex.: Neo4j). Ideal para Web Semântica, ontologias e *Linked Data*.
+   - **Teorema CAP (Eric Brewer):** Um sistema distribuído só pode garantir simultaneamente duas das três propriedades: Consistência (*Consistency*), Disponibilidade (*Availability*) e Tolerância a Partições (*Partition Tolerance*).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Modelagem Relacional de Empréstimos no SIGB da Câmara):** O sistema de circulação da Biblioteca Pedro Aleixo modela uma tabela \`USUARIOS\` (com PK \`id_usuario\`), uma tabela \`LIVROS\` (com PK \`id_livro\`) e uma tabela associativa \`EMPRESTIMOS\` de cardinalidade $N:M$ (com FKs apontando para usuário e livro, além da data de devolução). Isso garante que o sistema nunca registre um empréstimo para um livro ou usuário inexistente (integridade referencial).
+- **Cenário 2 (Banco NoSQL de Documentos na BDCam):** O repositório DSpace armazena os metadados das proposições em estruturas flexíveis baseadas em JSON/BSON no MongoDB/PostgreSQL, permitindo que cada tipo documental tenha campos dinâmicos específicos sem exigir a alteração rígida do esquema do banco de dados.
+- **Cenário 3 (Banco em Grafo para Rastreamento de Influência Parlamentar):** O setor de ciência de dados da Câmara implementa um banco em grafo (Neo4j) onde cada deputado é um nó e as coautorias em projetos de lei são arestas. Os bibliotecários e analistas executam consultas para identificar visualmente quais deputados formam redes de liderança temática em matérias de educação e meio ambiente.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Critério | Bancos Relacionais (SQL) | Bancos NoSQL (Não Relacionais) |
+| :--- | :--- | :--- |
+| **Estrutura** | Tabelas estritas, linhas e colunas | Chave-valor, Documentos, Colunas, Grafos |
+| **Garantia Central** | Transações ACID rígidas | Teorema CAP / Modelo BASE (consistência eventual) |
+| **Esquema (*Schema*)** | Rígido, definido previamente (*Schema-on-write*) | Flexível ou dinâmico (*Schema-on-read*) |
+| **Escalabilidade** | Predominantemente vertical (hardware maior) | Horizontal (distribuição em múltiplos nós) |
+| **Exemplo de Software** | PostgreSQL, MySQL, Oracle, SQL Server | MongoDB, Redis, Cassandra, Neo4j |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **A Chave Primária pode ser Nula:** O Cebraspe adora afirmar que *"uma tupla em uma tabela relacional pode conter valor nulo (NULL) em sua chave primária caso o registro seja provisório"*. **Gabarito: ERRADO.** A integridade de entidade proíbe terminantemente valores nulos em chaves primárias.
+- **Bancos em Grafo para Dados Tabulares Simples:** A banca sugere que bancos em grafo são recomendados para armazenar cadastros alfanuméricos planos sem conexões. **Gabarito: ERRADO.** Bancos em grafo são desenhados especificamente para entidades com redes densas de inter-relacionamentos.
+- **Normalização e Desempenho:** Afirmar que normalizar tabelas até a 3FN sempre aumenta a velocidade de leitura das consultas. **Gabarito: ERRADO.** A normalização reduz redundâncias e elimina anomalias, mas pode exigir múltiplas junções (*JOINs*), o que por vezes torna consultas analíticas mais lentas (motivo pelo qual se faz *desnormalização* em Data Warehouses).
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ELMASRI, Ramez; NAVATHE, Shamkant B.** *Sistemas de Banco de Dados*. 6. ed. São Paulo: Pearson, 2011. (O livro-texto definitivo de bancos de dados em concursos).
+- **SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S.** *Sistema de Banco de Dados*. 7. ed. Rio de Janeiro: Elsevier, 2020.
+- **SADALAGE, Pramod J.; FOWLER, Martin.** *NoSQL Essencial: um guia conciso para o mundo emergente da persistência poliglota*. São Paulo: Novatec, 2013.
+- **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*, v. 13, n. 6, p. 377-387, 1970. (Artigo de criação do modelo relacional).
+- **CHEN, Peter Pin-Shan.** The entity-relationship model: toward a unified view of data. *ACM Transactions on Database Systems*, v. 1, n. 1, p. 9-36, 1976.`,
   checkpoints: [
     {
       id: 'cp-6-5-1',

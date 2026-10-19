@@ -19,8 +19,30 @@ export const submodulo13: ModuloFilho = {
   ],
   titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
   titulo_curto: 'Informação, Conhecimento e Documento',
+  antesDeLer: [
+    {
+      termo: 'Dado',
+      definicao: 'Registro bruto de um evento ou símbolo desprovido de contexto, interpretação ou significação direta.',
+      exemploBiblioteca: 'O número \'PL 2630\' isolado em uma planilha de controle de tramitação.',
+    },
+    {
+      termo: 'Informação',
+      definicao: 'Conjunto de dados contextualizados, dotados de significado e organizados para alterar o estado de conhecimento de um indivíduo.',
+      exemploBiblioteca: 'O texto completo do relatório com parecer favorável da Comissão de Constituição e Justiça.',
+    },
+    {
+      termo: 'Conhecimento',
+      definicao: 'Informação internalizada, compreendida e integrada à estrutura cognitiva e à experiência prática do sujeito.',
+      exemploBiblioteca: 'A compreensão dos impactos jurídicos de uma emenda regimental pelo bibliotecário ao elaborar uma pesquisa legislativa.',
+    },
+    {
+      termo: 'Documento (Ontologia de Briet)',
+      definicao: 'Qualquer suporte material preservado ou registrado para fins de prova, consulta ou demonstração de um fenômeno, segundo Suzanne Briet.',
+      exemploBiblioteca: 'Um áudio taquigráfico gravado durante sessão da CPI arquivado digitalmente no CEDI.',
+    },
+  ],
   descricaoCurta: 'A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.',
-  tempoEstimadoMinutos: 25,
+  tempoEstimadoMinutos: 16,
   autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Rafael Capurro', 'Birger Hjørland', 'Russell Ackoff', 'Claude Shannon'],
   alertasCebraspe: [
     'Michael Buckland classifica a informação em: (1) Informação como Processo; (2) Informação como Conhecimento; (3) Informação como Coisa. O Cebraspe tenta restringir "informação como coisa" a papéis e livros, quando abrange QUALQUER entidade tangível (incluindo fósseis, esculturas, gravações).',
@@ -154,6 +176,54 @@ No contexto legislativo da Câmara dos Deputados:
 * **Ciclo de Vida, Qualidade e Memória (sub-1-5):** Analisa a estruturação dos dados e o modelo de qualidade de Wang & Strong.
 * **Ciência de Dados e Text Mining (sub-14-4):** Tratamento de dados não estruturados de proposições legislativas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Para o **Cebraspe**, a compreensão de *dado, informação, conhecimento e inteligência* e a evolução paradigmática da Ciência da Informação estruturam-se em marcos conceituais rigorosos:
+1. **A Pirâmide DIKW (Dado, Informação, Conhecimento, Sabedoria):**
+   - **Dado:** Símbolo bruto, sem contexto, não articulado (ex.: "1824", "PL 2630").
+   - **Informação:** Dado dotado de significado, relevância e propósito em determinado contexto (ex.: "O PL 2630 regula a transparência de redes sociais").
+   - **Conhecimento:** Informação interiorizada, processada e integrada às estruturas cognitivas de um indivíduo, capacitando-o para a ação (ex.: saber como aplicar o PL 2630 na prática jurídica).
+   - **Sabedoria/Inteligência:** Julgamento ético e estratégico de longo prazo sobre o uso do conhecimento.
+2. **A Tipologia Tripartite de Michael Buckland (1991):**
+   - **Informação como Coisa (*Information-as-thing*):** Dados materiais, documentos tangíveis, bits, microfilmes. É a **única forma** que sistemas de computadores e bibliotecas podem fisicamente armazenar, processar e recuperar.
+   - **Informação como Processo (*Information-as-process*):** O ato subjetivo de ser informado; a dinâmica em que uma mensagem altera o estado mental do receptor.
+   - **Informação como Conhecimento (*Information-as-knowledge*):** O conteúdo intangível, a crença justificada presente na mente do indivíduo.
+3. **Os Três Paradigmas da CI (Capurro, 2003):**
+   - **Físico (Shannon & Weaver, 1949):** A informação tratada como sinal físico objetivo em um canal mecânico; foco na redução de ruído e na capacidade de transmissão.
+   - **Cognitivo (Brookes, 1980; Belkin, 1980):** A informação como incremento capaz de modificar estruturas mentais. Equação fundamental de Brookes: $K[S] + \Delta I = K[S + \Delta S]$. Modelo ASK (*Anomalous State of Knowledge*) de Belkin.
+   - **Social/Hermenêutico (Hjørland, 1995; Frohmann):** A informação é situada contextualmente em comunidades de prática discursiva (Análise de Domínio). A relevância não é matemática, mas intersubjetiva e cultural.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Informação como Coisa na BDCam):** Quando o bibliotecário da Câmara faz o upload de um arquivo PDF/A da *Constituição Histórica de 1988* no DSpace, ele manipula estritamente **informação como coisa** (Buckland). O arquivo digital e seus metadados Dublin Core são artefatos físicos/digitais mensuráveis.
+- **Cenário 2 (Estado Anômalo de Conhecimento no Atendimento ao Parlamentar):** Um deputado novo procura o Serviço de Referência da Biblioteca Pedro Aleixo dizendo: *"Preciso de algo sobre inteligência artificial, mas não sei exatamente o quê"*. O bibliotecário diagnostica um **Estado Anômalo de Conhecimento (ASK de Nicholas Belkin)** e atua como mediador para transformar essa incerteza em uma estratégia de busca refinada.
+- **Cenário 3 (Análise de Domínio no Vocabulário Legislativo):** Na Rede Virtual de Bibliotecas (RVBI), os termos do vocabulário controlado não refletem um padrão abstrato genérico, mas o **domínio discursivo do Congresso Nacional** (Hjørland), onde "Mesa Diretora", "Ordem do Dia" e "Urgência Urgentíssima" possuem semântica jurídica e regimental própria.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Conceito / Paradigma | Objeto Primário | Foco Central no Cebraspe | Armadilha Típica da Banca |
+| :--- | :--- | :--- | :--- |
+| **Informação como Coisa** | Documentos, registros, mídias | Única manipulável por máquinas e acervos | Afirmar que sistemas processam conhecimento puro |
+| **Paradigma Físico** | Sinais em canal de comunicação | Transmissão mecânica semântica zero | Confundir teoria matemática de Shannon com psicologia |
+| **Paradigma Cognitivo** | Estruturas mentais do receptor | Equação de Brookes e ASK de Belkin | Atribuir Brookes ao paradigma físico |
+| **Paradigma Social** | Comunidades discursivas de prática | Análise de domínio de Birger Hjørland | Afirmar que a relevância é universal e atemporal |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Armadilha da Informação como Processo em Banco de Dados:** A banca adora afirmar que *"um repositório digital como o DSpace armazena tanto informação como coisa quanto informação como processo"*. **Gabarito: ERRADO.** Sistemas armazenam apenas coisas (registros físicos ou digitais). O processo ocorre na mente humana.
+- **Inversão da Equação de Brookes:** Dizer que a equação $K[S] + \Delta I = K[S + \Delta S]$ pertence a Shannon e Weaver. **Gabarito: ERRADO.** Pertence a Bertram Brookes e funda o paradigma cognitivo.
+- **Relevância no Paradigma Social:** O Cebraspe adora assertivas dizendo que *"a relevância documental é invariável no tempo e no espaço sob a ótica social"*. **Gabarito: ERRADO.** No paradigma social, a relevância depende do contexto do grupo e da comunidade de prática.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BUCKLAND, Michael.** *Information and Information Systems*. New York: Greenwood Press, 1991. (Obra canônica da distinção: informação como coisa, processo e conhecimento).
+- **BROOKES, Bertram C.** The foundations of information science: part I: philosophical aspects. *Journal of Information Science*, v. 2, n. 3-4, p. 125-133, 1980. (Formulação da equação fundamental da CI).
+- **CAPURRO, Rafael; HJØRLAND, Birger.** The concept of information. *Annual Review of Information Science and Technology (ARIST)*, v. 37, p. 343-411, 2003. (Mapeamento dos paradigmas físico, cognitivo e social).
+- **BELKIN, Nicholas J.** Anomalous states of knowledge as a basis for information retrieval. *Canadian Journal of Information Science*, v. 5, p. 133-143, 1980. (O conceito de ASK na busca da informação).
+- **SHANNON, Claude E.; WEAVER, Warren.** *The Mathematical Theory of Communication*. Urbana: University of Illinois Press, 1949.`,
   checkpoints: [
     {
       id: 'cp-1-3-1',

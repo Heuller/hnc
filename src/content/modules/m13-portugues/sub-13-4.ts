@@ -13,9 +13,31 @@ export const submodulo134: ModuloFilho = {
       }
   ],
   titulo: 'Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal',
+  antesDeLer: [
+    {
+      termo: 'Manual de Redação da Presidência da República (MRPR)',
+      definicao: 'Documento normativo que padroniza a redação dos atos e comunicações oficiais do Poder Executivo e do serviço público federal.',
+      exemploBiblioteca: 'Redação de memorandos, ofícios e notas técnicas da biblioteca de acordo com os atributos da redação oficial.',
+    },
+    {
+      termo: 'Atributos da Redação Oficial',
+      definicao: 'Clareza, precisão, concisão, impessoalidade, formalidade e padronização, e uso do padrão culto da língua.',
+      exemploBiblioteca: 'Eliminação de jargões desnecessários e adjetivações emocionais em relatórios dirigidos à Mesa Diretora.',
+    },
+    {
+      termo: 'Pronomes de Tratamento no MRPR (3ª Edição)',
+      definicao: 'Simplificação oficial: \'Vossa Excelência\' reservada aos chefes de poder, parlamentares e ministros; \'Vossa Senhoria\' para as demais autoridades e cidadãos.',
+      exemploBiblioteca: 'Endereçamento correto em ofício: \'A Sua Excelência o Senhor Deputado Federal...\'.',
+    },
+    {
+      termo: 'Colocação Pronominal (Próclise, Mesóclise e Ênclise)',
+      definicao: 'Regras de posicionamento do pronome átono: atrativos de próclise (palavras negativas, advérbios, pronomes relativos) e proibição de iniciar frase com pronome.',
+      exemploBiblioteca: 'Emprego mesoclítico em tempos de futuro: \'Apresentar-se-á o novo relatório em plenário\' quando não houver termo atrativo.',
+    },
+  ],
   descricaoCurta:
     'Acordo Ortográfico (acentuação e hífen), a distinção teórico-empírica entre tipos e gêneros textuais segundo Marcuschi, semântica e correlação dos tempos e modos verbais, e sintaxe rigorosa de colocação pronominal (próclise, mesóclise e ênclise).',
-  tempoEstimadoMinutos: 50,
+  tempoEstimadoMinutos: 19,
   autoresChave: [
     'Luiz Antônio Marcuschi (Da Fala para a Escrita / Gêneros Textuais e Ensino)',
     'Ingedore Villaça Koch (A Coesão Textual / Desvendando os Segredos do Texto)',
@@ -256,6 +278,65 @@ A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriament
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Compreensão e Interpretação Textual (sub-13-1):** Classificação de gêneros em correspondências e normas legislativas.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Ortografia Oficial, o Acordo Ortográfico, a Colocação Pronominal e o Manual de Redação da Presidência da República (3ª ed. 2018)** regulam a produção textual na administração pública:
+1. **O Novo Acordo Ortográfico (Vigência Obrigatória):**
+   - **Acentuação Gráfica:**
+     - Caiu o acento dos ditongos abertos \`ei\` e \`oi\` nas palavras **paroxítonas** (*ideia, assembleia, heroico, jiboia*). Atenção: nas oxítonas e monossílabos o acento permanece (*herói, papéis, constrói*)!
+     - Caiu o acento circunflexo nos hiatos \`ee\` e \`oo\` (*leem, veem, creem, voo, enjoo*).
+     - Permanece o acento diferencial obrigatório em: \`pôde\` (passado) vs. \`pode\` (presente); e \`pôr\` (verbo) vs. \`por\` (preposição); além de \`tem/têm\` e \`vem/vêm\` (singular/plural).
+   - **Uso do Hífen:**
+     - Letras iguais se separam com hífen (*micro-ondas, anti-inflamatório, sub-bibliotecário*).
+     - Letras diferentes se unem sem hífen (*autoescola, infraestrutura, semicírculo*).
+     - Se o segundo elemento começar com \`r\` ou \`s\`, dobra-se a consoante sem hífen (*antissocial, microrregião, ultrassom*).
+2. **Colocação Pronominal (Próclise, Ênclise e Mesóclise):**
+   - **Próclise Obrigatória (Palavras Atrativas):** Palavras de sentido negativo (*não, nunca, jamais*); advérbios sem vírgula (*aqui se estuda*); pronomes relativos (*o livro que me deste*); pronomes indefinidos (*alguém me disse*); conjunções subordinativas (*embora se saiba*).
+   - **Ênclise Obrigatória:** No início de frases e períodos (*Fizeram-me a consulta*, e NUNCA *Me fizeram a consulta*!); após vírgula ou pausa.
+   - **Mesóclise:** Exclusiva com verbos no Futuro do Presente ou Futuro do Pretérito, desde que não haja palavra atrativa (*Far-se-á a votação* / *Realizar-se-ia a posse*).
+3. **Manual de Redação da Presidência da República (3ª Edição / 2018):**
+   - **Princípios da Redação Oficial:** Clareza, Precisão, Objetividade, Concisão, Coesão/Coerência, Impessoalidade e Formalidade.
+   - **Padronização dos Documentos:** O MRPR unificou Aviso e Memorando sob o formato único de **Ofício**!
+   - **Estrutura do Ofício:** Cabeçalho com brasão $\to$ Identificação do expediente (tipo, número, ano, sigla do órgão) $\to$ Local e data $\to$ Endereçamento $\to$ Assunto (resumo em negrito) $\to$ Texto (introdução, desenvolvimento, conclusão) $\to$ Fecho $\to$ Assinatura.
+   - **Fechos Canônicos para Comunicações Oficiais (Apenas Dois!):**
+     - *Respeitosamente:* Para autoridades superiores (inclusive o Presidente da República).
+     - *Atenciosamente:* Para autoridades de mesma hierarquia ou de hierarquia inferior.
+     - Foram completamente abolidas fórmulas rebuscadas como *"Tenho a honra de"*, *"Digno Magistrado"*, *"MD"* e *"DD"*.
+   - **Pronomes de Tratamento:** O Decreto Federal nº 9.758/2019 estabeleceu que o único pronome de tratamento formal para a comunicação direta com agentes públicos federais é **"Você"** ou **"Senhor / Senhora"**, abolindo o uso obrigatório de *"Vossa Excelência"* nas comunicações administrativas ordinárias internas.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Ofício da Biblioteca Pedro Aleixo ao Senado Federal):** A biblioteca expede expediente formal solicitando o empréstimo de uma coleção de livros raros. O bibliotecário formata no padrão **Ofício do MRPR 2018**: cabeçalho oficial, campo assunto em negrito, parágrafos numerados a partir do segundo e o fecho **"Atenciosamente"** (endereçado a autoridade de mesma hierarquia funcional).
+- **Cenário 2 (Aplicação do Novo Acordo Ortográfico nas Edições Câmara):** Na revisão editorial de uma tese sobre parlamentos, o revisor remove os acentos das palavras *"assembleia"* e *"ideia"* e une sem hífen a palavra *"antirreflexo"* (dobrando a letra r), garantindo 100% de conformidade com o VOLP e o Acordo Ortográfico.
+- **Cenário 3 (Próclise Obrigatória em Parecer Legislativo):** Na redação de uma nota técnica legislativa, o consultor escreve: *"O parlamentar que se ausentou..."*. O bibliotecário constata a correção da **próclise obrigatória** imposta pela presença do pronome relativo *"que"*.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Regra / Norma Oficial | Aplicação Correta | Exemplo Canônico | Erro Típico da Banca |
+| :--- | :--- | :--- | :--- |
+| **Paroxítonas com EI/OI** | Perdem o acento gráfico | *Assembleia, ideia, jiboia* | Acentuar paroxítona (*assembléia*) |
+| **Hífen com Letras Iguais** | Usa hífen | *Anti-inflamatório, micro-ondas* | Escrever junto sem hífen |
+| **Hífen com Letras Diferentes** | Junta sem hífen | *Autoescola, infraestrutura* | Colocar hífen indevido |
+| **Fecho: Respeitosamente** | Exclusivo para **autoridade superior** | Ao Presidente da Câmara | Usar para mesma hierarquia |
+| **Fecho: Atenciosamente** | Para **mesma hierarquia ou inferior** | De Diretor para Diretor | Usar fórmulas arcaicas (*Saudações*) |
+| **Próclise com Pronome Relativo** | Atração obrigatória | *O projeto que se votou* | Colocar ênclise (*que votou-se*) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Fechos em Documentos Oficiais:** O Cebraspe propõe fechos rebuscados como *"Cordialmente"*, *"Com votos de estima e consideração"* ou *"Saudações Parlamentares"*. **Gabarito: ERRADO.** O Manual de Redação da Presidência da República admite exclusivamente **dois fechos padronizados**: *Respeitosamente* (para autoridades superiores) e *Atenciosamente* (para mesma hierarquia ou inferior).
+- **Início de Frase com Pronome Oblíquo:** A banca afirma que a frase *"Me informaram sobre a votação"* está plenamente correta segundo a norma culta. **Gabarito: ERRADO.** A norma culta veda terminantemente iniciar períodos com pronome oblíquo átono; o correto é a ênclise: *"Informaram-me sobre a votação"*.
+- **Extinção do Memorando no MRPR:** Dizer que o memorando continua sendo a modalidade padrão de comunicação interna entre secretarias. **Gabarito: ERRADO.** A 3ª edição do MRPR (2018) **aboliu formalmente o memorando e o aviso**, unificando toda a correspondência oficial sob a denominação única de **Ofício**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL. PRESIDÊNCIA DA REPÚBLICA.** *Manual de Redação da Presidência da República*. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (O texto normativo canônico mais cobrado em concursos federais).
+- **ACADEMIA BRASILEIRA DE LETRAS (ABL).** *Vocabulário Ortográfico da Língua Portuguesa (VOLP)*. 5. ed. São Paulo: Global, 2009.
+- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. Rio de Janeiro: Nova Fronteira, 2019.
+- **BRASIL.** *Decreto Federal nº 9.758, de 11 de abril de 2019*. Dispõe sobre a forma de tratamento empregada na comunicação oral e escrita com agentes públicos da administração pública federal.
+- **CEAG/CÂMARA DOS DEPUTADOS.** *Manual de Redação Oficial da Câmara dos Deputados*. Brasília: Edições Câmara, 2021.`,
   checkpoints: [
     {
       id: 'cp-13-4-1',

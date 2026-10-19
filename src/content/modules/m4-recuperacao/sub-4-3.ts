@@ -18,8 +18,30 @@ export const submodulo43: ModuloFilho = {
       }
   ],
   titulo: 'Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil',
+  antesDeLer: [
+    {
+      termo: 'Portal LexML Brasil',
+      definicao: 'Rede de informação legislativa e jurídica que unifica a busca de legislação, jurisprudência e doutrina de órgãos federais, estaduais e municipais.',
+      exemploBiblioteca: 'O bibliotecário da Câmara utilizando o LexML para localizar uma lei estadual correlata a uma PEC em tramitação federal.',
+    },
+    {
+      termo: 'Diário Oficial da União (DOU)',
+      definicao: 'Jornal oficial da Imprensa Nacional dividido em seções que publica leis, atos normativos, decretos e atos de pessoal da administração federal.',
+      exemploBiblioteca: 'Monitoramento diário da Seção 1 do DOU para catalogar promulgações e vetos presidenciais que impactam a biblioteca.',
+    },
+    {
+      termo: 'Jurisprudência',
+      definicao: 'Conjunto reiterado de decisões, acórdãos e súmulas dos tribunais judiciais que consubstanciam a interpretação das normas jurídicas.',
+      exemploBiblioteca: 'Pesquisa de decisões do STF sobre constitucionalidade de matérias regimentais da Câmara dos Deputados.',
+    },
+    {
+      termo: 'URN Lex (Uniform Resource Name)',
+      definicao: 'Identificador persistente e padronizado utilizado pelo LexML para nomear univocamente cada ato normativo no tempo e espaço.',
+      exemploBiblioteca: 'Link permanente atribuído à Lei nº 14.133/2021 que garante que referências em pareceres legislativos nunca quebrem.',
+    },
+  ],
   descricaoCurta: 'O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 19,
   autoresChave: ['Edilenice Jovelina de Miranda Passos', 'João Alberto de Oliveira Lima (idealizador da URN LexML)', 'Ana Cláudia Carvalho de Miranda', 'LexML Brasil (Comitê Gestor)', 'Imprensa Nacional'],
   alertasCebraspe: [
     'O tripé canônico da informação jurídica: Legislação (atos normativos estatais), Doutrina (estudos, livros e teses de juristas) e Jurisprudência (conjunto de decisões reiteradas dos tribunais). O Cebraspe adora trocar as funções (ex.: dizer que doutrina são as decisões judiciais: ERRADO!).',
@@ -187,6 +209,60 @@ Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Métod
 * **Regimento Interno da Câmara dos Deputados (sub-10-1):** Classificação de proposições e atos do processo legislativo.
 * **Metadados, Dublin Core e Crosswalks (sub-2-6):** Esquema XML LexML e interoperabilidade com catálogos MARC 21.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A gestão das **Fontes de Informação Jurídica** e o domínio sobre o ecossistema do **LexML Brasil** constituem competências centrais para o Analista Legislativo:
+1. **Tipologia Tridimensional da Informação Jurídica:**
+   - **Legislação (Normas):** Atos normativos primários e secundários (Constituição, Leis Complementares, Leis Ordinárias, Decretos, Medidas Provisórias, Resoluções, Portarias).
+   - **Jurisprudência:** Conjunto de decisões, acórdãos e súmulas reiteradas dos órgãos do Poder Judiciário (STF, STJ, TST, TSE, STM, TRFs, TJs) e tribunais administrativos de contas (TCU).
+   - **Doutrina:** Produção intelectual dos juristas e cientistas do direito (artigos, tratados, comentários a códigos, pareceres jurídicos e monografias).
+2. **Publicações Oficiais e Diários Oficiais:**
+   - **Diário Oficial da União (DOU):** Publicação oficial gerida pela Imprensa Nacional dividida em 3 seções:
+     - *Seção 1:* Leis, decretos, resoluções, portarias e atos normativos gerais.
+     - *Seção 2:* Atos relativos a pessoal da administração pública federal (nomeações, exonerações, aposentadorias).
+     - *Seção 3:* Contratos, editais de licitação, concursos públicos e avisos.
+   - **Diário da Câmara dos Deputados (DCD) e Diário do Congresso Nacional (DCN):** Registro oficial dos trabalhos legislativos, pautas, discursos em plenário, proposições apresentadas e atas das comissões.
+3. **O Portal LexML Brasil (Rede de Informação Legislativa e Jurídica):**
+   - Iniciativa governamental brasileira inspirada no padrão internacional *Akoma Ntoso* e nos princípios de Dados Abertos e Web Semântica.
+   - Utiliza identificadores persistentes e universais baseados no padrão **URN (*Uniform Resource Name*) LexML**.
+   - **Estrutura Canônica da URN LexML:**
+     \`urn:lex:br:federal:lei:2006-08-07;11340\`
+     (Hierarquia: jurisdição territorial $\to$ autoridade $\to$ tipo de norma $\to$ data de promulgação $\to$ número).
+   - Permite a referenciação precisa de versões consolidadas de normas e a conexão direta entre leis e suas decisões judiciais correlatas.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Identificação de URN LexML em Emendas Parlamentares):** Ao elaborar a ficha de metadados de uma emenda substitutiva ao Código Civil na Comissão de Constituição e Justiça, o bibliotecário vincula a proposição à URN canônica: \`urn:lex:br:federal:lei:2002-01-10;10406\`, permitindo que os sistemas de automação legislativa processem automaticamente a árvore de alterações da norma.
+- **Cenário 2 (Diferenciação de Seções do DOU no Apoio Parlamentar):** Um deputado pede verificação urgente sobre se a nomeação de um novo ministro foi publicada. O bibliotecário consulta imediatamente a **Seção 2 do DOU**; caso o deputado solicitasse o texto do decreto assinado, a busca seria feita na **Seção 1**.
+- **Cenário 3 (Integração SILEG e LexML):** Os registros de proposições legislativas cadastrados no Sistema de Informações Legislativas da Câmara (SILEG) são convertidos em XML e indexados no repositório nacional do LexML, tornando as leis da Câmara recuperáveis simultaneamente com a jurisprudência do STF.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Vertente Jurídica / Seção DOU | Conteúdo e Definição | Exemplo de Aplicação | Fonte Canônica |
+| :--- | :--- | :--- | :--- |
+| **Legislação** | Normas escritas editadas pelo Estado | Leis, Decretos, Medidas Provisórias | DOU Seção 1 / LexML |
+| **Jurisprudência** | Decisões reiteradas de tribunais | Súmulas vinculantes, Acórdãos do STF | Diário de Justiça / STF |
+| **Doutrina** | Estudos teóricos de juristas | Livros de direito, teses, pareceres | Biblioteca Pedro Aleixo / RVBI |
+| **DOU - Seção 1** | Atos normativos de efeito geral | Promulgação de Lei Federal | Imprensa Nacional |
+| **DOU - Seção 2** | Atos de pessoal do serviço público | Nomeação de servidor concursado | Imprensa Nacional |
+| **DOU - Seção 3** | Licitações, contratos e editais | Edital de concurso da Câmara | Imprensa Nacional |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Estrutura da URN LexML:** A banca altera a sintaxe da URN, trocando \`urn:lex:...\` por URLs HTTP frágeis (\`http://leis.gov.br/...\`) ou invertendo a ordem hierárquica (colocando o número antes da autoridade). **Gabarito: a URN é persistente e obedece à hierarquia espacial e cronológica rigorosa.**
+- **Seções do DOU:** O Cebraspe afirma que a publicação de um edital de licitação para reforma predial da Câmara é feita na Seção 1 do DOU. **Gabarito: ERRADO.** Editais, contratos e avisos de licitação são publicados exclusivamente na **Seção 3**.
+- **Doutrina como Fonte Formal Primária do Direito:** Afirmar que a doutrina jurídica possui força vinculante obrigatória e eficácia de lei geral. **Gabarito: ERRADO.** A doutrina é fonte secundária e subsidiária de interpretação; não vincula os juízes nem o parlamento.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **PASSOS, Edilenice; BARROS, Luciana Peixoto de.** *Informação jurídica: teoria e prática*. Brasília: Thesaurus, 2014. (Livro clássico indispensável para bibliotecas jurídicas e parlamentares).
+- **BRASIL. SENADO FEDERAL.** *Portal LexML Brasil: Documentação Técnica da Rede de Informação Legislativa e Jurídica*. Brasília: Senado Federal / Coordenação do LexML, 2023.
+- **BRASIL. IMPRENSA NACIONAL.** *Portaria que estabelece as normas para publicação no Diário Oficial da União*. Brasília: Imprensa Nacional, 2022.
+- **CÂMARA DOS DEPUTADOS.** *Guia do Processo Legislativo e Fontes de Informação da Câmara*. Brasília: Edições Câmara, 2021.
+- **MEZZAROBA, Orides; MONTEIRO, Cláudia Servilha.** *Manual de metodologia da pesquisa no direito*. 7. ed. São Paulo: Saraiva, 2019.`,
   checkpoints: [
     {
       id: 'cp-4-3-1',

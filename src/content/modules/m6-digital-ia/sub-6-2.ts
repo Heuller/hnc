@@ -46,7 +46,7 @@ export const submodulo62: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Arquitetura e gestão de repositórios digitais, o software DSpace e SEER/OJS, SIGBs livres (Koha) e comerciais (Pergamum, Aleph), o protocolo OAI-PMH (seis verbos e colheita de metadados), Z39.50, SRU/SRW e Discovery Services Web-Scale.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Herbert Van de Sompel', 'Carl Lagoze', 'Clifford Lynch', 'IBICT', 'Satbir Chauhan', 'Luciana Viana'],
   alertasCebraspe: [
     'O software DSpace é um SOFTWARE LIVRE (open source), e NÃO software proprietário. Desenvolvido pelo MIT e HP Labs, é o padrão hegemônico nos repositórios institucionais brasileiros e na BDTD (fomentado pelo IBICT). O Cebraspe já tentou classificá-lo falsamente como software comercial fechado!',
@@ -172,6 +172,61 @@ Para a gestão de tecnologia e interoperabilidade na Biblioteca da Câmara dos D
 * **MARC 21 Bibliográfico e Autoridades (sub-2-4):** Protocolo Z39.50 e catalogação cooperativa.
 * **Preservação Digital e Repositórios Confiáveis (sub-6-3):** Colheita OAI-PMH de pacotes de metadados em repositórios digitais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Repositórios Institucionais (RI)**, os softwares de automação de bibliotecas (SIGB) e os protocolos de comunicação garantem o Acesso Aberto e a interoperabilidade global:
+1. **O que é um Repositório Institucional (RI):**
+   - Sistema de informação digital que reúne, organiza, preserva e dissemina a produção intelectual, técnica e científica de uma instituição em regime de **Acesso Aberto (*Open Access*)**.
+   - Promove a visibilidade da produção da casa, estimula o reuso e assegura a custódia a longo prazo da memória institucional.
+2. **Softwares Canônicos de Bibliotecas:**
+   - **DSpace:** Software livre de código aberto líder mundial para repositórios digitais e institucionais, mantido pela DuraSpace/Lyrasis. Suporta Dublin Core, OAI-PMH, identificadores persistentes e modelo OAIS.
+   - **Koha / Aleph / Alma:** Sistemas Integrados de Gestão de Bibliotecas (SIGB) para circulação, catalogação MARC 21, aquisição e OPAC.
+3. **Protocolo OAI-PMH (*Open Archives Initiative Protocol for Metadata Harvesting* v2.0):**
+   - Protocolo baseado em HTTP e XML para **coleta automatizada de metadados** entre repositórios na web.
+   - **Papéis:**
+     - *Data Provider (Provedor de Dados):* O repositório institucional que expõe seus metadados para o mundo.
+     - *Service Provider (Provedor de Serviços):* O agregador que coleta (*harvesting*) os metadados de múltiplos repositórios para criar portais de busca unificados (ex.: Oasisbr do IBICT).
+   - **Os 6 Verbos Canônicos do OAI-PMH:**
+     1. \`Identify\` (Retorna dados gerais do repositório).
+     2. \`ListMetadataFormats\` (Lista formatos suportados; **o Dublin Core Simples é obrigatório**!).
+     3. \`ListSets\` (Lista as coleções/conjuntos temáticos).
+     4. \`ListIdentifiers\` (Lista os cabeçalhos de identificadores dos registros).
+     5. \`ListRecords\` (Coleta em lote os metadados completos dos registros).
+     6. \`GetRecord\` (Recupera os metadados completos de um único registro específico).
+4. **Protocolo Z39.50 e SRU/SRW:**
+   - Protocolo cliente-servidor para busca federada e intercâmbio de registros bibliográficos completos (MARC 21) diretamente entre catálogos de bibliotecas.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (A BDCam como Data Provider OAI-PMH):** A Biblioteca Digital da Câmara opera o DSpace. Periodicamente, o portal *Oasisbr* do IBICT executa o verbo OAI-PMH \`ListRecords\` no endpoint da BDCam, coletando os metadados de todas as teses e estudos técnicos produzidos por servidores da Câmara para exibi-los no portal nacional de ciência aberta.
+- **Cenário 2 (Catalogação Cooperativa via Protocolo Z39.50 na RVBI):** O catalogador da Biblioteca Pedro Aleixo precisa registrar uma obra estrangeira recém-chegada. Ele abre o módulo de catalogação e dispara uma consulta Z39.50 aos servidores da *Library of Congress* (EUA). Em dois segundos, o registro MARC 21 completo é importado para o catálogo da Câmara sem necessidade de digitação manual.
+- **Cenário 3 (Organização de Comunidades e Coleções no DSpace da Câmara):** No DSpace da BDCam, o bibliotecário estrutura a hierarquia: Comunidade *Processo Legislativo* $\to$ Subcomunidade *Comissões Permanentes* $\to$ Coleção *Relatórios Finais de CPI*. O verbo OAI-PMH \`ListSets\` reflete exatamente essa árvore para os sistemas coletores.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Protocolo / Padrão | Função Principal | Tecnologia Base | Formato Obrigatório |
+| :--- | :--- | :--- | :--- |
+| **OAI-PMH** | Coleta automatizada de metadados | HTTP + XML | **Dublin Core Simples (oai_dc)** |
+| **Z39.50** | Busca remota e cópia de registros bibliográficos | TCP/IP (Cliente-Servidor) | Registros MARC 21 / UNIMARC |
+| **SRU / SRW** | Evolução web moderna do Z39.50 | HTTP / REST / SOAP | XML (MODS, Dublin Core) |
+| **DSpace** | Software de Repositório Institucional | Java, PostgreSQL, Solr | Dublin Core qualificado / OAI-PMH |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **O Formato Obrigatório no OAI-PMH:** O Cebraspe pergunta se um repositório OAI-PMH pode optar por não disponibilizar o Dublin Core Simples. **Gabarito: ERRADO.** O esquema \`oai_dc\` (Dublin Core Simples) é **mandatório e obrigatório** em qualquer implementação OAI-PMH no mundo. Outros formatos (MODS, MARCXML) são opcionais.
+- **OAI-PMH Coleta os Arquivos em PDF:** A banca afirma que o OAI-PMH serve para baixar em lote os arquivos em PDF dos livros. **Gabarito: ERRADO.** O OAI-PMH é um protocolo estritamente para **coleta de metadados** (*metadata harvesting*); o download dos arquivos em texto completo é feito via HTTP comum.
+- **Os 6 Verbos do OAI-PMH:** A banca inventa verbos falsos como \`DeleteRecord\` ou \`UpdateRecord\`. **Gabarito: ERRADO.** Os únicos 6 verbos válidos são: *Identify, ListMetadataFormats, ListSets, ListIdentifiers, ListRecords e GetRecord*.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **OPEN ARCHIVES INITIATIVE.** *The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) — Version 2.0*. OAI, 2015. (A especificação técnica canônica do protocolo).
+- **LEITE, Fernando César Lima.** *Como gerenciar e ampliar a visibilidade da informação científica brasileira: repositórios institucionais de acesso aberto*. Brasília: IBICT, 2009. (Obra fundamental sobre repositórios no Brasil).
+- **ANSI/NISO Z39.50-2003.** *Information Retrieval (Z39.50): Application Service Definition & Protocol Specification*. Bethesda: NISO Press, 2003.
+- **SMITH, MacKenzie et al.** DSpace: an open source dynamic digital repository. *D-Lib Magazine*, v. 9, n. 1, 2003. (Artigo clássico de fundação da arquitetura DSpace).
+- **KURAMOTO, Hélio.** Informação científica: proposta de um novo modelo para o Brasil. *Ciência da Informação*, v. 35, n. 2, p. 91-102, 2006.`,
   checkpoints: [
     {
       id: 'cp-6-2-1',

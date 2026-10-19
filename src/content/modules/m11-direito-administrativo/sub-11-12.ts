@@ -19,8 +19,30 @@ export const submodulo1112: ModuloFilho = {
   ],
   titulo: 'Transparência e Privacidade: Lei de Acesso à Informação e LGPD',
   titulo_curto: 'LAI e LGPD no Setor Público',
+  antesDeLer: [
+    {
+      termo: 'Transparência Ativa vs. Passiva (LAI)',
+      definicao: 'Ativa é a disponibilização espontânea de dados de interesse coletivo em sítios oficiais; passiva é o fornecimento de informação em resposta a pedido formal do cidadão.',
+      exemploBiblioteca: 'Publicação proativa do catálogo da biblioteca e gastos de aquisição no portal da Câmara como transparência ativa.',
+    },
+    {
+      termo: 'Prazos de Resposta da LAI (Lei nº 12.527/2011)',
+      definicao: 'Acesso imediato se disponível; caso contrário, prazo de até 20 dias, prorrogável justificadamente por mais 10 dias.',
+      exemploBiblioteca: 'Atendimento a pedido formulado via e-SIC sobre relatórios de consulta pública realizados pela biblioteca.',
+    },
+    {
+      termo: 'Graus de Sigilo e Prazos Máximos',
+      definicao: 'Três categorias legais de classificação da informação: Ultrassecreta (máximo 25 anos), Secreta (15 anos) e Reservada (5 anos).',
+      exemploBiblioteca: 'Identificação de notas técnicas ministeriais desclassificadas após expiração do prazo de 15 anos para livre consulta na biblioteca.',
+    },
+    {
+      termo: 'LGPD na Administração Pública (Lei nº 13.709/2018)',
+      definicao: 'Tratamento de dados pessoais pelo poder público para o cumprimento de finalidades públicas e execução de competências legais com transparência.',
+      exemploBiblioteca: 'Anonimização de CPFs e telefones de pesquisadores no cadastro aberto de empréstimos entre bibliotecas.',
+    },
+  ],
   descricaoCurta: 'A Lei de Acesso à Informação (Lei nº 12.527/2011): transparência ativa vs. passiva, prazos de resposta e graus de sigilo (ultrassecreto, secreto e reservado). A LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais sensíveis, bases legais, Encarregado (DPO) e harmonização com a LAI.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Lei de Acesso à Informação (Lei nº 12.527/2011)',
     'Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)',
@@ -109,6 +131,53 @@ A jurisprudência do STF (Tema 483 da Repercussão Geral) e as diretrizes conjun
 * **Governança da Informação e de Dados (sub-1-6):** Diretrizes de transparência ativa, dados abertos e tutela de privacidade.
 * **IA Aplicada à Informação (sub-6-7):** Conformidade com a LGPD no uso de modelos de linguagem e prompts.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **Nova Lei de Licitações e Contratos Administrativos (Lei Federal nº 14.133/2021)** é a base obrigatória para contratações de bens e serviços na Câmara dos Deputados:
+1. **Modalidades de Licitação na Lei nº 14.133/2021:**
+   - **Pregão:** Obrigatório para aquisição de **bens e serviços comuns** (cujos padrões de desempenho e qualidade possam ser objetivamente definidos pelo edital por meio de especificações usuais de mercado). O critério de julgamento é menor preço ou maior desconto.
+   - **Concorrência:** Para contratação de bens e serviços especiais e de obras e serviços comuns e especiais de engenharia.
+   - **Concurso:** Escolha de trabalho técnico, científico ou artístico (prêmio ou remuneração).
+   - **Leilão:** Alienação de bens públicos móveis ou imóveis inservíveis.
+   - **Diálogo Competitivo (Nova Modalidade!):** Utilizado para contratações complexas e inovações tecnológicas onde a administração não sabe previamente qual solução de mercado atende melhor às suas necessidades.
+   - **ATENÇÃO:** A Lei nº 14.133/2021 **EXTINGUIU a Tomada de Preços e o Convite**!
+2. **Contratação Direta (Sem Licitação):**
+   - **Inexigibilidade de Licitação (Art. 74):** Quando há **inviabilidade de competição** (rol exemplificativo). Casos canônicos: fornecedor exclusivo; profissional de notória especialização de natureza singular; aquisição ou restauração de **obras de arte e objetos históricos de autenticidade certificada** (art. 74, IV).
+   - **Dispensa de Licitação (Art. 75):** A competição é viável, mas a lei autoriza não licitar por razões de custo-benefício ou emergência (rol taxativo). Casos canônicos: dispensa por valor (pequenas compras) e emergência.
+3. **Instrumentos Auxiliares da Licitação:**
+   - Credenciamento; Pré-qualificação; Procedimento de Manifestação de Interesse (PMI); Sistema de Registro de Preços (SRP); e Catálogo eletrônico de padronização.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Pregão Eletrônico para Compra de Computadores e Mobiliário da Biblioteca):** Para comprar 50 mesas padronizadas e 40 computadores para o salão de leitura da Biblioteca Pedro Aleixo, a Câmara realiza **Pregão Eletrônico** pelo critério de menor preço, pois são bens comuns com especificações consolidadas de mercado.
+- **Cenário 2 (Inexigibilidade na Aquisição de Livro Raro de 1824):** A biblioteca deseja adquirir um exemplar original raríssimo da *Constituição do Império de 1824* pertencente a um colecionador particular. O bibliotecário fundamenta a contratação direta por **Inexigibilidade de Licitação com base no art. 74, IV da Lei nº 14.133/2021**, em virtude da notoriedade histórica e impossibilidade de competição com outro fornecedor.
+- **Cenário 3 (Assinatura de Bases de Dados Estrangeiras Especializadas):** Para assinar a base de dados jurídica internacional *HeinOnline* com representação exclusiva no Brasil, a Câmara formaliza processo de inexigibilidade por fornecedor exclusivo (art. 74, I).
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Hipótese de Contratação | Fundamento Legal | Natureza da Competição | Exemplo Concreto na Câmara |
+| :--- | :--- | :--- | :--- |
+| **Pregão** | Lei 14.133, art. 6º, XLI | Bens e serviços comuns | Compra de papel A4 e estantes de aço |
+| **Inexigibilidade** | Lei 14.133, art. 74 | **Inviabilidade fática de competição** | Livro raro de antiquário / Base exclusiva |
+| **Dispensa de Licitação** | Lei 14.133, art. 75 | Competição viável, mas dispensada por lei | Compra de emergência ou baixo valor |
+| **Diálogo Competitivo** | Lei 14.133, art. 32 | Solução tecnológica complexa desconhecida | Novo sistema de IA legislativa sob medida |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Modalidades Extintas na Prova:** A banca coloca "Tomada de Preços" ou "Convite" como opção de resposta correta. **Gabarito: ERRADO.** A Lei nº 14.133/2021 extinguiu formalmente essas duas modalidades do ordenamento brasileiro.
+- **Inexigibilidade vs. Dispensa:** O Cebraspe inverte: diz que comprar obra de arte rara é caso de dispensa de licitação. **Gabarito: ERRADO.** Aquisição ou restauração de obra de arte e objeto histórico de autenticidade certificada é caso expresso de **Inexigibilidade** de licitação (art. 74, IV).
+- **Critério de Julgamento no Pregão:** Dizer que o pregão pode adotar o critério de julgamento de "melhor técnica" ou "técnica e preço". **Gabarito: ERRADO.** O pregão admite exclusivamente os critérios de **menor preço** ou **maior desconto**.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BRASIL.** *Lei Federal nº 14.133, de 1º de abril de 2021*. Lei de Licitações e Contratos Administrativos.
+- **JUSTEN FILHO, Marçal.** *Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021*. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (A bíblia de licitações no direito brasileiro).
+- **NIEBUHR, Joel de Menezes.** *Licitação Pública e Contrato Administrativo*. 5. ed. Belo Horizonte: Fórum, 2022.
+- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Capítulo de Licitações e Contratos).
+- **CÂMARA DOS DEPUTADOS.** *Regulamento de Licitações e Contratos da Câmara dos Deputados segundo a Lei 14.133/2021*. Brasília: Diretoria-Geral, 2023.`,
   checkpoints: [
     {
       id: 'cp-11-12-1',

@@ -574,7 +574,6 @@ function gerarDocumentoIntegral(): DocumentoMachineReadableHNC {
         caderno_erros: 'Hipercorreção de falhas com reteste direcionado e ponderado',
         radar: 'Análise de armadilhas autorais Cebraspe e mapeamento de riscos',
         folha_vespera: 'Revisão intensiva de 48h com pegadinhas capitais em 5 blocos',
-        glossario: 'Dicionário técnico com 333 verbetes especializados',
         progresso: 'Diagnóstico analítico, curva de retenção e projeção para 17/01/2027',
         edital: 'Matriz viva de correspondência entre edital e submódulos',
       },

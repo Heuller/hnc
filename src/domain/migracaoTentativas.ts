@@ -223,3 +223,45 @@ export function migrarTentativasPortaisParaRevisao(
   };
 }
 
+export const HNC_MIGRACAO_REVIEW_PREFILLED_KEY = 'hnc_migracao_review_prefilled_v1_done';
+
+export interface ResultadoMigracaoReviewPrefilled {
+  migrado: boolean;
+  totalMarcados: number;
+  attemptsAtualizadas: ItemAttempt[];
+}
+
+/**
+ * Marca tentativas pré-existentes como review_prefilled preservando o histórico de estudo do aluno.
+ */
+export function migrarReviewPrefilledAttempts(
+  attempts: ItemAttempt[]
+): ResultadoMigracaoReviewPrefilled {
+  let totalMarcados = 0;
+  const attemptsAtualizadas = attempts.map((a) => {
+    if (
+      (a.contexto === 'revisao' || a.contexto === 'portal' || a.contexto === 'teoria') &&
+      a.review_prefilled === undefined
+    ) {
+      totalMarcados++;
+      return { ...a, review_prefilled: true };
+    }
+    return a;
+  });
+
+  if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
+    try {
+      localStorage.setItem(HNC_MIGRACAO_REVIEW_PREFILLED_KEY, 'true');
+    } catch {
+      // ignore
+    }
+  }
+
+  return {
+    migrado: true,
+    totalMarcados,
+    attemptsAtualizadas,
+  };
+}
+
+

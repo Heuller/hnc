@@ -19,7 +19,7 @@ import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
 import { deriveJornadaState, type JornadaState } from '../domain/jornadaEngine';
 import { tentativasSyncService } from '../services/tentativasSyncService';
-import type { TermoSalvo } from '../domain/dicionario/types';
+import type { TermoSalvo } from '../domain/types';
 import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 import type { ItemAttempt, CriarItemAttemptParams } from '../domain/itemAttempts';
 import {
@@ -35,6 +35,7 @@ import {
 import {
   executarMigracaoHistorico,
   migrarTentativasPortaisParaRevisao,
+  migrarReviewPrefilledAttempts,
 } from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
@@ -48,10 +49,13 @@ interface ProgressStoreState extends UserProgress {
   obterPrimeiraTentativa: (itemId: string) => ItemAttempt | undefined;
   obterUltimaTentativa: (itemId: string) => ItemAttempt | undefined;
   getProgressoGlobal: () => ProgressoGlobalDerivado;
-  // Dicionário / Glossário
+  // Vocabulário e Flashcards Salvos
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
   removerTermoVocabulario: (termoId: string) => void;
   isTermoSalvo: (termoId: string) => boolean;
+  // Modo Teórico Dual (Canônica vs Didática / Vida Real)
+  setModoTeoria: (id: string, modo: 'canonica' | 'didatica') => void;
+  obterModoTeoria: (id: string) => 'canonica' | 'didatica';
   // Ações
   registrarAcessoHoje: () => void;
   marcarModuloConcluido: (moduloId: string) => void;
@@ -127,6 +131,7 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   tentativas: [],
   itemAttempts: [],
   termosSalvos: [],
+  preferenciaModoTeoria: {},
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -162,6 +167,15 @@ if (typeof window !== 'undefined') {
               fullObj.state.tentativas = migPortais.tentativasAtualizadas;
               localStorage.setItem('hnc_progress_storage', JSON.stringify(fullObj));
             } catch {}
+          }
+        }
+
+        // Migração de histórico W1: marca attempts registradas durante o bug sem apagar histórico
+        const attemptsLocais = itemAttemptsSyncService.carregarLocais();
+        if (attemptsLocais.length > 0) {
+          const migPrefilled = migrarReviewPrefilledAttempts(attemptsLocais);
+          if (migPrefilled.totalMarcados > 0) {
+            itemAttemptsSyncService.salvarLocais(migPrefilled.attemptsAtualizadas);
           }
         }
       }
@@ -331,6 +345,16 @@ export const useProgressStore = create<ProgressStoreState>()(
       isTermoSalvo: (termoId: string) => {
         const atuais = get().termosSalvos || [];
         return atuais.some((t) => t.id === termoId);
+      },
+
+      setModoTeoria: (id: string, modo: 'canonica' | 'didatica') => {
+        const mapa = { ...(get().preferenciaModoTeoria || {}) };
+        mapa[id] = modo;
+        set({ preferenciaModoTeoria: mapa });
+      },
+
+      obterModoTeoria: (id: string) => {
+        return get().preferenciaModoTeoria?.[id] || 'canonica';
       },
 
       adicionarTentativa: async (tentativa: TentativaRegistro) => {

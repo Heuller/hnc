@@ -57,6 +57,7 @@ export const UserProgressSchema = z.object({
   tentativas: z.array(z.any()).default([]),
   itemAttempts: z.array(z.any()).default([]),
   termosSalvos: z.array(z.any()).default([]),
+  preferenciaModoTeoria: z.record(z.string(), z.enum(['canonica', 'didatica'])).default({}),
   constancia: z.object({
     ultimoAcessoData: z.string(),
     diasConsecutivos: z.number(),

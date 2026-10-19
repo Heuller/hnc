@@ -18,8 +18,30 @@ export const submodulo41: ModuloFilho = {
       }
   ],
   titulo: 'Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca',
+  antesDeLer: [
+    {
+      termo: 'Álgebra Booleana',
+      definicao: 'Lógica formal baseada nos operadores AND, OR e NOT utilizada para combinar termos em buscas e filtros informacionais.',
+      exemploBiblioteca: 'Estratégia de busca: \'Processo Legislativo\' AND \'Quórum\' NOT \'Medida Provisória\' no catálogo da biblioteca.',
+    },
+    {
+      termo: 'Revocação (Recall)',
+      definicao: 'Proporção de documentos relevantes recuperados pelo sistema em relação ao total de documentos relevantes existentes no acervo.',
+      exemploBiblioteca: 'Garantir alta revocação em pesquisa para subsidiar CPI, onde nenhuma nota técnica pertinente pode ficar de fora.',
+    },
+    {
+      termo: 'Precisão (Precision)',
+      definicao: 'Proporção de documentos relevantes entre todos os documentos efetivamente retornados na resposta de uma busca.',
+      exemploBiblioteca: 'Garantir alta precisão ao fornecer uma resposta imediata de 3 artigos fundamentais para um parlamentar discursar no Plenário.',
+    },
+    {
+      termo: 'Truncagem e Máscara',
+      definicao: 'Recursos de busca que utilizam símbolos (*, ?, $) para recuperar variações de gênero, número ou radicais de palavras.',
+      exemploBiblioteca: 'Busca por \'parlament*\' para retornar simultaneamente parlamento, parlamentar, parlamentarismo e parlamentares.',
+    },
+  ],
   descricaoCurta: 'Fundamentos de Information Retrieval (Mooers, Salton), álgebra booleana (AND, OR, NOT), operadores de proximidade e truncagem, modelos de recuperação (booleano, vetorial e probabilístico), arquivo invertido, motores de busca e metabuscadores.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 16,
   autoresChave: ['Calvin Mooers', 'Gerard Salton', 'George Boole', 'Ricardo Baeza-Yates', 'Cyril Cleverdon'],
   alertasCebraspe: [
     'Operadores Booleanos e seus impactos em Revocação e Precisão: o operador AND (interseção) restringe a busca e AUMENTA A PRECISÃO; o operador OR (união) amplia a busca e AUMENTA A REVOCAÇÃO; o operador NOT (exclusão) restringe a busca e aumenta a precisão (mas com risco de eliminar documentos relevantes que abordem o termo secundariamente).',
@@ -162,6 +184,64 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
 * **Ciência de Dados e Text Mining (sub-14-4):** Algoritmos de ponderação vetorial TF-IDF e métricas de precisão e revocação.
 * **IA Aplicada à Informação (sub-6-7):** Avaliação de relevância e busca semântica vetorial.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Os **Sistemas de Recuperação da Informação (SRI)**, a **Álgebra Booleana** e os modelos computacionais de busca determinam a eficácia da recuperação de acervos digitais:
+1. **Álgebra Booleana e Operadores de Busca:**
+   - **AND (Interseção / Restritivo):** Recupera documentos que contêm cumulativamente ambos os termos ($A \cap B$). Reduz o conjunto recuperado, aumentando a precisão.
+   - **OR (União / Expansivo):** Recupera documentos que contêm pelo menos um dos termos ($A \cup B$). Ideal para agrupar sinônimos e variantes linguísticas. Aumenta a revocação.
+   - **NOT / AND NOT (Diferença / Exclusão):** Exclui documentos que contenham determinado termo ($A - B$). Cuidado: pode excluir documentos relevantes se o termo indesejado for citado secundariamente.
+2. **Operadores Auxiliares Avançados:**
+   - **Truncagem / Curinga (\`*\`, \`?\`, \`$\`);** Recupera variações de desinência (ex.: \`bibliot*\` recupera biblioteca, bibliotecário, biblioteconomia).
+   - **Proximidade / Adjacência (\`NEAR\`, \`ADJ\`, \`WITH\`, \`SAME\`):** Exige que os termos estejam a uma distância máxima de palavras um do outro, garantindo coesão sintática.
+   - **Busca por Frase Exata (Aspas \`"..."\`):** Preserva a ordem e a contiguidade estrita das palavras.
+3. **Modelos de Recuperação:**
+   - **Booleano Padrão:** Correspondência exata (*exact match*); sem ordenação por relevância; documentos satisfazem ou não satisfazem a expressão lógica.
+   - **Modelo Vetorial (Salton, 1975):** Documentos e consultas são vetores em um espaço multidimensional. Avalia o cosseno do ângulo entre os vetores e pondera termos por **TF-IDF** (*Term Frequency - Inverse Document Frequency*), permitindo ordenação gradual por relevância (*ranked retrieval*).
+   - **Modelo Probabilístico (Robertson & Spärck Jones - BM25):** Calcula a probabilidade de um documento ser relevante para uma consulta com base em distribuições estatísticas.
+4. **Métricas Clássicas de Avaliação de SRI (Cranfield):**
+   - **Revocação (*Recall*):** Razão entre documentos relevantes recuperados e o total de documentos relevantes existentes na base: $R = \frac{\text{Relevantes Recuperados}}{\text{Total de Relevantes}}$.
+   - **Precisão (*Precision*):** Razão entre documentos relevantes recuperados e o total de documentos recuperados pelo sistema: $P = \frac{\text{Relevantes Recuperados}}{\text{Total de Recuperados}}$.
+   - **Trade-off Histórico:** Revocação e Precisão são grandezas inversamente proporcionais; aumentar uma geralmente penaliza a outra.
+   - **F-Measure (F1-Score):** Média harmônica balanceada entre precisão e revocação: $F_1 = 2 \times \frac{P \times R}{P + R}$.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Busca Booleana Estruturada na Consultoria Legislativa):** Um consultor parlamentar precisa redigir uma emenda sobre responsabilidade penal ambiental. O bibliotecário formula a expressão lógica no sistema:
+  \`("direito penal" OR "crimes ambientais") AND (poluição OR desmatamento) NOT mineração\`
+  O uso correto de parênteses evita ambiguidade e isola exatamente a jurisprudência desejada.
+- **Cenário 2 (TF-IDF e BM25 no Mecanismo de Busca do Portal da Câmara):** Quando um cidadão digita na barra de pesquisa do portal da Câmara *"orçamento da união saúde"*, o algoritmo não faz mera checagem booleana. Ele aplica **BM25**, atribuindo peso elevado à palavra "saúde" e peso menor a termos hiperfrequentes no corpus legislativo, apresentando os projetos mais relevantes no topo da primeira página.
+- **Cenário 3 (Auditoria de Precisão e Revocação na BDCam):** A equipe do CEDI audita o desempenho do mecanismo de busca do DSpace após uma atualização: realizam 100 buscas padrão e calculam a taxa de revocação e precisão para garantir que documentos históricos de discursos de posse não estejam ocultos por ruído informacional.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Métrica / Operador | Fórmula / Função | Objetivo Primário | Efeito Típico |
+| :--- | :--- | :--- | :--- |
+| **Operador AND** | Interseção ($A \cap B$) | Restringir a busca | Aumenta Precisão / Reduz Revocação |
+| **Operador OR** | União ($A \cup B$) | Expandir busca (sinônimos) | Aumenta Revocação / Reduz Precisão |
+| **Operador NOT** | Exclusão ($A - B$) | Eliminar ruído específico | Cuidado: risco de silêncio indesejado |
+| **Revocação (Recall)** | Relevantes Recuperados / Total Relevantes | Não deixar nada relevante de fora | Maximiza abrangência |
+| **Precisão (Precision)** | Relevantes Recuperados / Total Recuperados | Evitar documentos irrelevantes (ruído) | Maximiza acerto |
+| **F-Measure ($F_1$)** | Média harmônica de P e R | Equilibrar acurácia e cobertura | Mede a eficácia global do SRI |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Ruído vs. Silêncio Informacional:**
+  - **Ruído:** Ocorrência de documentos irrelevantes no conjunto recuperado (baixa precisão).
+  - **Silêncio:** Ocorrência de documentos relevantes que o sistema **deixou de recuperar** (baixa revocação). O Cebraspe inverte com frequência esses dois conceitos!
+- **Média Aritmética no F-Measure:** A banca afirma que o F-Measure é a média aritmética simples entre revocação e precisão. **Gabarito: ERRADO.** O F-Measure é categoricamente a **média harmônica**, que penaliza discrepâncias acentuadas entre os dois valores.
+- **Modelo Booleano e Relevância:** Afirmar que o modelo booleano padrão ordena os documentos em ordem decrescente de probabilidade de relevância. **Gabarito: ERRADO.** O modelo booleano padrão apenas classifica como "corresponde" ou "não corresponde", sem graduação de relevância.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **BAEZA-YATES, Ricardo; RIBEIRO-NETO, Berthier.** *Recuperação de Informação: conceitos e tecnologia das máquinas de busca*. 2. ed. Porto Alegre: Bookman, 2013. (Texto canônico mundial de Information Retrieval).
+- **MANNING, Christopher D.; RAGHAVAN, Prabhakar; SCHÜTZE, Hinrich.** *Introduction to Information Retrieval*. Cambridge: Cambridge University Press, 2008.
+- **ROBREDO, Jaime.** *Da ciência da informação revisitada aos sistemas humanos de informação*. Brasília: Thesaurus; SSRR Informações, 2005.
+- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Capítulo sobre avaliação de desempenho de recuperação).
+- **SALTON, Gerard; WONG, Anita; YANG, Chung-Shu.** A vector space model for automatic indexing. *Communications of the ACM*, v. 18, n. 11, p. 613-620, 1975.`,
   checkpoints: [
     {
       id: 'cp-4-1-1',

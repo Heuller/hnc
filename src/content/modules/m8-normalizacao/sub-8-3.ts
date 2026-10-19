@@ -13,8 +13,30 @@ export const submodulo83: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 14724:2011',
+      definicao: 'Norma que especifica os princípios gerais para a apresentação formal de trabalhos acadêmicos (teses, dissertações e TCCs).',
+      exemploBiblioteca: 'Revisão formal das monografias produzidas pelos alunos dos cursos de pós-graduação do Centro de Formação (Cefor) da Câmara.',
+    },
+    {
+      termo: 'Estrutura do Trabalho Acadêmico',
+      definicao: 'Divisão formal tripartite: elementos pré-textuais, elementos textuais (introdução, desenvolvimento, conclusão) e elementos pós-textuais.',
+      exemploBiblioteca: 'Verificação da correta paginação, onde a contagem inicia na folha de rosto, mas a numeração só aparece na primeira folha textual.',
+    },
+    {
+      termo: 'Elementos Pré-Textuais Obrigatórios',
+      definicao: 'Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário.',
+      exemploBiblioteca: 'Checklist de conferência de teses depositadas na Biblioteca Pedro Aleixo para publicação institucional.',
+    },
+    {
+      termo: 'Anexo vs. Apêndice',
+      definicao: 'Apêndice é documento elaborado pelo próprio autor do trabalho para complementar sua argumentação; Anexo é texto de terceiros não elaborado pelo autor.',
+      exemploBiblioteca: 'Questionário aplicado aos parlamentares entra como Apêndice; cópia do texto do Regimento Interno entra como Anexo.',
+    },
+  ],
   descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2011 (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 12,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Instituto Brasileiro de Geografia e Estatística (IBGE)', 'Júnia Lessa França'],
   alertasCebraspe: [
     'A MAIOR PEGADINHA DA NBR 14724:2011: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). O Cebraspe inverte essas definições sistematicamente!',
@@ -31,7 +53,7 @@ export const submodulo83: ModuloFilho = {
       ['Parte Externa', 'Capa (com instituição, autor, título, subtítulo, local e ano)', 'Lombada (conforme NBR 12225:2023)', 'Não é contada nem numerada na paginação do miolo', 'Considerar a capa como a primeira folha contada na paginação (FALSO: conta da folha de rosto).'],
       ['Elementos Pré-Textuais', 'Folha de rosto, Folha de aprovação, Resumo em português, Resumo em língua estrangeira, Sumário (NBR 6027:2012)', 'Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, tabelas, siglas e símbolos', 'Contados a partir da folha de rosto, mas NÃO exibem número de página impresso', 'Afirmar que o sumário é pós-textual ou opcional (FALSO: é pré-textual obrigatório).'],
       ['Elementos Textuais', 'Introdução, Desenvolvimento (seções e subseções numeradas - NBR 6024:2012) e Conclusão', 'Nenhum (todos os elementos textuais são de redação compulsória)', 'Inicia a impressão física do número da página no canto superior direito (algarismos arábicos)', 'Dizer que a introdução não é numerada (FALSO: é a primeira página impressa).'],
-      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Glossário, Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
+      ['Elementos Pós-Textuais', 'Referências (conforme NBR 6023:2018)', 'Vocabulário de termos (NBR 14724), Apêndice (próprio autor), Anexo (terceiros) e Índice (NBR 6034:2004)', 'Continuam a numeração arábica sequencial do texto principal', 'Inverter apêndice (próprio autor) e anexo (terceiros), ou achar que anexo é obrigatório.'],
     ],
   },
   teoriaDensaMarkdown: `### 1. A Estrutura Formal da ABNT NBR 14724:2011
@@ -53,7 +75,7 @@ TITLE: Estrutura do Trabalho Acadêmico (ABNT NBR 14724:2011)
     - Conclusão | Considerações finais, resposta aos objetivos e recomendações
   - Elementos Pós-Textuais | Complementam e enriquecem o texto após a conclusão
     - Pós-Textual Obrigatório | Referências elaboradas estritamente segundo a ABNT NBR 6023
-    - Pós-Textuais Opcionais | Glossário, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
+    - Pós-Textuais Opcionais | Vocabulário de termos, apêndice(s) (autoria própria), anexo(s) (autoria de terceiros) e índice(s) remissivo(s) (NBR 6034)
 \`\`\`
 
 #### A Divisão Tripartite Padronizada:
@@ -80,7 +102,7 @@ O Cebraspe constrói com frequência assertivas exigindo distinguir quais elemen
 * **Pós-Textuais Obrigatórios:**
   * **Referências:** O único elemento pós-textual obrigatório da norma (elaborado segundo a NBR 6023).
 * **Pós-Textuais Opcionais:**
-  * **Glossário:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições.
+  * **Vocabulário de Termos Técnicos:** Lista em ordem alfabética de termos técnicos pouco conhecidos com suas respectivas definições (NBR 14724).
   * **Apêndices:** Documentos elaborados pelo próprio autor.
   * **Anexos:** Documentos de autoria de terceiros.
   * **Índices:** Relações sistemáticas ou alfabéticas de assuntos e autores (NBR 6034).
@@ -149,6 +171,54 @@ Esta é a distinção mais reiteradamente cobrada pela banca Cebraspe em provas 
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **NBR 6028 (Resumos) (sub-8-4):** Estruturação de trabalhos acadêmicos e elementos pré-textuais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A **ABNT NBR 14724:2011** padroniza a estrutura, formatação e apresentação formal de **Trabalhos Acadêmicos** (teses, dissertações, TCCs e estudos monográficos):
+1. **Estrutura Tripartite Canônica:**
+   - **Elementos Pré-Textuais:** Precedem o texto; auxiliam na identificação e localização das partes.
+     - *Obrigatórios:* Folha de rosto, Ficha catalográfica (no verso da folha de rosto), Folha de aprovação, Resumo na língua vernácula (com palavras-chave), Resumo em língua estrangeira (Abstract) e Sumário.
+     - *Opcionais:* Capa (externa), Lombada, Errata, Dedicatória, Agradecimentos, Epígrafe, Lista de ilustrações, Lista de tabelas, Lista de abreviaturas e siglas, e Lista de símbolos.
+   - **Elementos Textuais (Obrigatórios):** Introdução, Desenvolvimento e Conclusão.
+   - **Elementos Pós-Textuais:** Complementam e documentam o trabalho.
+     - *Obrigatório:* Referências.
+     - *Opcionais:* Glossário, Apêndice (texto/documento elaborado pelo próprio autor), Anexo (documento elaborado por terceiros/não elaborado pelo autor) e Índice.
+2. **Regras Gráficas de Formatação:**
+   - **Margens:** Esquerda e Superior de **3 cm**; Direita e Inferior de **2 cm** (para impressão em anverso/frente).
+   - **Espaçamento:** Texto em espaçamento **1,5** entre linhas. Citações longas, notas de rodapé, referências, legendas e ficha catalográfica em espaçamento simples.
+   - **Numeração de Páginas:** Todas as folhas contam a partir da folha de rosto, mas a numeração só é **impressa visualmente a partir da primeira folha da parte textual (Introdução)**, no canto superior direito!
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Cenário 1 (Elaboração de Ficha Catalográfica na Biblioteca Pedro Aleixo):** Um consultor da Câmara defende dissertação de mestrado pelo Centro de Formação, Treinamento e Aperfeiçoamento (CEFOR). A biblioteca confecciona a **ficha catalográfica CIP** que deve constar obrigatoriamente no verso da folha de rosto do trabalho impresso ou imediatamente após a folha de rosto no PDF da BDCam.
+- **Cenário 2 (Distinção entre Apêndice e Anexo em Estudo Legislativo):** Ao organizar um estudo monográfico sobre segurança pública, o consultor anexa a cópia do texto integral do Acórdão do STF (como não foi produzido por ele, é um **Anexo**) e acrescenta a tabela com cálculos estatísticos que ele próprio modelou no Excel (como foi elaborado pelo autor, é um **Apêndice**).
+- **Cenário 3 (Auditoria de Margens e Numeração pela Editora da Câmara):** Antes de enviar o livro técnico para a gráfica, o bibliotecário-editor confere: margem superior e esquerda de 3 cm, inferior e direita de 2 cm, e numeração visível iniciando na primeira página da Introdução.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Elemento Pré/Pós-Textual | Obrigatoriedade na NBR 14724 | Função Canônica | Distinção Crítica |
+| :--- | :--- | :--- | :--- |
+| **Folha de Rosto** | **Obrigatório** | Identifica título, autor e natureza | Conta página, mas não imprime número |
+| **Capa** | Opcional | Proteção externa | Não conta na paginação interna |
+| **Sumário** | **Obrigatório** | Enumera as divisões do trabalho | Pré-textual (o último antes do texto) |
+| **Apêndice** | Opcional | Texto/documento complementar | **Elaborado pelo próprio autor** |
+| **Anexo** | Opcional | Documento comprobatório externo | **Não elaborado pelo autor** (de terceiros) |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Apêndice vs. Anexo:** A pegadinha mais frequente do Cebraspe em normalização: a banca inverte as autorias, afirmando que o anexo é produzido pelo autor e o apêndice por terceiros. **Gabarito: ERRADO.** Lembre-se: **Apêndice = Autor**; **Anexo = Alheio**.
+- **Onde Inicia a Impressão da Numeração de Páginas:** Dizer que a numeração começa a ser impressa no canto superior direito já na Folha de Rosto. **Gabarito: ERRADO.** A folha de rosto é contada, mas o número só aparece impresso na **Introdução** (primeira folha textual).
+- **Capa como Elemento Obrigatório:** Afirmar que a capa dura é elemento pré-textual obrigatório pela NBR 14724. **Gabarito: ERRADO.** A capa é elemento opcional; a folha de rosto é que é obrigatória.
+
+---
+
+### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT).** *ABNT NBR 14724:2011: Informação e documentação — Trabalhos acadêmicos — Apresentação*. Rio de Janeiro: ABNT, 2011. (A norma oficial de estrutura monográfica).
+- **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019.
+- **REY, Luís.** *Planejar e redigir trabalhos científicos*. 2. ed. São Paulo: Edgard Blücher, 2003.
+- **CENTRO DE FORMAÇÃO, TREINAMENTO E APERFEIÇOAMENTO (CEFOR).** *Manual de TCC e Dissertações do CEFOR*. Brasília: Câmara dos Deputados, 2022.
+- **MEDEIROS, João Bosco.** *Redação científica*. 13. ed. São Paulo: Atlas, 2019.`,
   checkpoints: [
     {
       id: 'cp-8-3-1',
