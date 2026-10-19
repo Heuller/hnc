@@ -397,5 +397,30 @@ export const TEMAS_OFICIAIS_DISCURSIVA: TemaDiscursiva[] = [
       },
     ],
   },
+  {
+    id: 'tema-pcdf-2025-indexacao-metadados',
+    tipo: 'questao_20',
+    titulo: 'Indexação, Metadados e Encontrabilidade da Informação na Web (Cebraspe / PCDF 2025 - Bibliotecário [PROVA REAL])',
+    enunciado:
+      'No mundo digital, tempo e quantidade são grandezas diretamente afetadas pela qualidade da descrição e organização da informação. Redija um texto dissertativo, de até 20 linhas, atendendo necessariamente ao que se pede:\n1. Explique a função e a relevância das atividades de indexação e da atribuição de metadados na representação e na descrição de conteúdos digitais;\n2. Discorra sobre como a existência e a padronização de metadados interagem com os buscadores de conteúdo na Internet para aprimorar a encontrabilidade da informação e viabilizar a interoperabilidade entre sistemas.',
+    limiteLinhas: 20,
+    padraoRespostaPreliminar:
+      'Padrão Oficial Cebraspe (PCDF/2025): No mundo digital, tempo e quantidade são grandezas relevantes, mas que são diretamente afetadas pela qualidade da descrição da informação. Para que haja de fato uma correta recuperação, é necessária uma adequada organização da informação. Um dos processos diretamente ligados à organização e à recuperação da informação é a categorização de conteúdos por meio das atividades de indexação, ou seja, representação de itens a partir de descritores, palavras-chave que representem, de maneira concreta e organizada, grandes conjuntos de dados. Além disso, há a atribuição de metadados para aumentar o grau de representação dos conteúdos. Os metadados conferem maior especificidade e granularidade aos dados e aos seus rótulos. Esses dois itens, indexação e metadados, são atividades poderosas no processo de descrição de um conjunto enorme de informações arquivadas e circulantes no ambiente web. Perante a grandeza de informações existentes, a atividade humana é dependente de buscadores de conteúdos que fazem a filtragem, a seleção e a hierarquização dos resultados, tornando mais inteligente a encontrabilidade da informação na Internet. No entanto, a qualidade dos resultados dos buscadores está intrinsecamente ligada à capacidade dos mecanismos de busca de categorizar e obter informações completas e organizadas sobre os conteúdos pesquisados. A existência de metadados descritores das informações e a rotulagem de seus campos e de sua localização nos conteúdos digitais contribui para uma melhor e mais completa página de resultados em buscadores de conteúdo na Internet. Os metadados são capazes de representar ideias e conceitos que estão embutidos nos conteúdos da Internet, conferindo aos buscadores índices de classificação e relacionamento entre temas, conteúdos e endereços eletrônicos. Além disso, a adoção de padrões de metadados de descrição de conteúdos permite a interoperabilidade entre sistemas diferentes de consulta para que haja uma maior integridade nos resultados de pesquisa.',
+    criteriosPontuacao: [
+      {
+        item: 'Quesito 2.1: Função da indexação e dos metadados na descrição dos conteúdos digitais (Cebraspe)',
+        pontuacaoMaxima: 7.5,
+        descricaoEsperada:
+          'Abordou de forma adequada e consistente (Conceito 3 do Cebraspe) a indexação como processo de representação categorial por descritores e a atribuição de metadados para conferir especificidade, granularidade e rotulagem aos dados no ambiente web.',
+      },
+      {
+        item: 'Quesito 2.2: Interação dos metadados com buscadores de conteúdo na Internet e interoperabilidade (Cebraspe)',
+        pontuacaoMaxima: 7.5,
+        descricaoEsperada:
+          'Abordou de forma adequada e consistente (Conceito 3 do Cebraspe) a interação de metadados estruturados com índices e algoritmos de buscadores para encontrabilidade da informação, além de demonstrar que a padronização viabiliza a interoperabilidade entre sistemas.',
+      },
+    ],
+  },
 ];
+
 

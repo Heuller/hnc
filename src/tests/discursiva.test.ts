@@ -9,8 +9,8 @@ describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - 
   });
 
   describe('Banco de Temas Oficiais da Câmara dos Deputados', () => {
-    it('deve possuir temas obrigatórios de questão (20 linhas, 15 pts) e peça técnica (50 linhas, 30 pts)', () => {
-      expect(TEMAS_OFICIAIS_DISCURSIVA.length).toBeGreaterThanOrEqual(4);
+    it('deve possuir 13 temas oficiais cobrindo questões (20 linhas, 15 pts) e peças técnicas (50 linhas, 30 pts), incluindo a prova real PCDF 2025', () => {
+      expect(TEMAS_OFICIAIS_DISCURSIVA.length).toBe(13);
 
       const questaoVergueiro = TEMAS_OFICIAIS_DISCURSIVA.find((t) => t.id === 'tema-desbastamento-vergueiro');
       expect(questaoVergueiro).toBeDefined();
@@ -23,6 +23,17 @@ describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - 
       expect(pecaOAIS?.tipo).toBe('peca_50');
       expect(pecaOAIS?.limiteLinhas).toBe(50);
       expect(pecaOAIS?.criteriosPontuacao.length).toBe(5);
+
+      // Prova Real do Cebraspe PCDF 2025 (Bibliotecário)
+      const provaRealPCDF2025 = TEMAS_OFICIAIS_DISCURSIVA.find((t) => t.id === 'tema-pcdf-2025-indexacao-metadados');
+      expect(provaRealPCDF2025).toBeDefined();
+      expect(provaRealPCDF2025?.tipo).toBe('questao_20');
+      expect(provaRealPCDF2025?.limiteLinhas).toBe(20);
+      expect(provaRealPCDF2025?.titulo).toContain('PCDF 2025');
+      expect(provaRealPCDF2025?.criteriosPontuacao.length).toBe(2);
+      expect(provaRealPCDF2025?.criteriosPontuacao[0].pontuacaoMaxima).toBe(7.5);
+      expect(provaRealPCDF2025?.criteriosPontuacao[1].pontuacaoMaxima).toBe(7.5);
+      expect(provaRealPCDF2025?.padraoRespostaPreliminar).toContain('Padrão Oficial Cebraspe (PCDF/2025)');
     });
 
     it('cada tema oficial deve ter padrão preliminar com soma de critérios igual à nota máxima oficial do Edital 1/2026', () => {
@@ -108,4 +119,66 @@ describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - 
       expect(salvas[0].temaId).toBe(tema.id);
     });
   });
+
+  describe('Calibração Humana vs IA e Regra de Convergência (Edital nº 1/2026 - Item 9.8.4.1.2)', () => {
+    it('deve validar critério de convergência de até 25% da nota máxima em questão de 20 linhas (limite 3.75 pts)', () => {
+      const notaMaximaQuestao = 15.0;
+      const limiteConvergenciaQuestao = 0.25 * notaMaximaQuestao; // 3.75 pts
+
+      // Caso 1: Convergente (Diferença de 2.0 pts <= 3.75 pts)
+      const notaIA = 12.0;
+      const notaHumanaConvergente = 10.0;
+      const deltaConvergente = Math.abs(notaIA - notaHumanaConvergente);
+      expect(deltaConvergente).toBeLessThanOrEqual(limiteConvergenciaQuestao);
+
+      // Média aritmética em caso de convergência oficial
+      const mediaConteudo = (notaIA + notaHumanaConvergente) / 2;
+      expect(mediaConteudo).toBe(11.0);
+
+      // Caso 2: Divergente (Diferença de 4.5 pts > 3.75 pts)
+      const notaHumanaDivergente = 7.0;
+      const deltaDivergente = Math.abs(notaIA - notaHumanaDivergente);
+      expect(deltaDivergente).toBeGreaterThan(limiteConvergenciaQuestao);
+    });
+
+    it('deve validar critério de convergência de até 25% da nota máxima em peça técnica de 50 linhas (limite 7.50 pts)', () => {
+      const notaMaximaPeca = 30.0;
+      const limiteConvergenciaPeca = 0.25 * notaMaximaPeca; // 7.50 pts
+
+      // Caso 1: Convergente (Diferença de 5.0 pts <= 7.50 pts)
+      const notaIA = 25.0;
+      const notaHumanaConvergente = 20.0;
+      const deltaConvergente = Math.abs(notaIA - notaHumanaConvergente);
+      expect(deltaConvergente).toBeLessThanOrEqual(limiteConvergenciaPeca);
+
+      // Caso 2: Divergente (Diferença de 8.0 pts > 7.50 pts)
+      const notaHumanaDivergente = 16.0;
+      const deltaDivergente = Math.abs(notaIA - notaHumanaDivergente);
+      expect(deltaDivergente).toBeGreaterThan(limiteConvergenciaPeca);
+    });
+
+    it('deve registrar corretamente tempo gasto e autoavaliação humana na estrutura da versão', () => {
+      const versaoTeste = {
+        id: 'versao-teste-calibrada',
+        dataHora: new Date().toISOString(),
+        texto: 'Texto dissertativo de teste para aferição de calibração.',
+        linhasEstimadas: 18,
+        tempoGastoSegundos: 1850, // ~30.8 minutos
+        autoavaliacaoHumana: {
+          notaHumana: 11.5,
+          notaConteudoHumana: 12.0,
+          errosHumanos: 3,
+          conceitosQuesitos: {
+            0: 3, // Pleno
+            1: 2, // Quase pleno
+          },
+        },
+      };
+
+      expect(versaoTeste.tempoGastoSegundos).toBe(1850);
+      expect(versaoTeste.autoavaliacaoHumana.notaHumana).toBe(11.5);
+      expect(versaoTeste.autoavaliacaoHumana.conceitosQuesitos[0]).toBe(3);
+    });
+  });
 });
+

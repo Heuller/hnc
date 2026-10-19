@@ -65,4 +65,11 @@ export interface VersaoTextoComAvaliacao {
   linhasEstimadas: number;
   avaliacao?: AvaliacaoCebraspe;
   devolutiva?: string;
+  tempoGastoSegundos?: number;
+  autoavaliacaoHumana?: {
+    notaHumana: number;
+    notaConteudoHumana: number;
+    errosHumanos: number;
+    conceitosQuesitos: Record<number, number>;
+  };
 }
