@@ -12,7 +12,7 @@ export const F5Associacao: React.FC<ExerciseFormatProps> = ({
 
   const pares = conceito.variantesFormatos?.f5_associacao?.associacao?.pares || [
     { ladoA: 'Princípio / Campo Técnico', ladoB: conceito.topico },
-    { ladoA: 'Gabarito Oficial Canônico', ladoB: conceito.gabaritoCanonic === 'C' ? 'CERTO' : 'ERRADO' },
+    { ladoA: 'Submódulo de Referência', ladoB: `Módulo ${conceito.moduloId.toUpperCase()} · Submódulo ${conceito.submoduloId}` },
   ];
 
   const handleConfirmar = (ladoB: string) => {

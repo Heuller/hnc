@@ -35,6 +35,7 @@ import {
 import {
   executarMigracaoHistorico,
   migrarTentativasPortaisParaRevisao,
+  migrarReviewPrefilledAttempts,
 } from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
@@ -162,6 +163,15 @@ if (typeof window !== 'undefined') {
               fullObj.state.tentativas = migPortais.tentativasAtualizadas;
               localStorage.setItem('hnc_progress_storage', JSON.stringify(fullObj));
             } catch {}
+          }
+        }
+
+        // Migração de histórico W1: marca attempts registradas durante o bug sem apagar histórico
+        const attemptsLocais = itemAttemptsSyncService.carregarLocais();
+        if (attemptsLocais.length > 0) {
+          const migPrefilled = migrarReviewPrefilledAttempts(attemptsLocais);
+          if (migPrefilled.totalMarcados > 0) {
+            itemAttemptsSyncService.salvarLocais(migPrefilled.attemptsAtualizadas);
           }
         }
       }

@@ -619,23 +619,27 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp, idx) => (
-                <ItemCE
-                  key={cp.id}
-                  item={{
-                    id: cp.id,
-                    numero: idx + 1,
-                    submoduloId: currentSub.numero,
-                    moduloId: currentMacro.id,
-                    enunciado: cp.item,
-                    gabarito: cp.gabarito,
-                    justificativa: cp.justificativa,
-                    versaoCorreta: (cp as any).versao_correta,
-                  }}
-                  contexto="teoria"
-                  contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}
-                />
-              ))}
+              {currentSub.checkpoints.map((cp, idx) => {
+                const isRevisaoDirigida = learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao';
+                return (
+                  <ItemCE
+                    key={cp.id}
+                    item={{
+                      id: cp.id,
+                      numero: idx + 1,
+                      submoduloId: currentSub.numero,
+                      moduloId: currentMacro.id,
+                      enunciado: cp.item,
+                      gabarito: cp.gabarito,
+                      justificativa: cp.justificativa,
+                      versaoCorreta: (cp as any).versao_correta,
+                    }}
+                    contexto="teoria"
+                    contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}
+                    forcarRetesteAtivo={isRevisaoDirigida}
+                  />
+                );
+              })}
             </div>
 
             {/* Treino de Recuperação Ativa (Associação, Cronologia e Caça-Armadilha - Parte G) */}

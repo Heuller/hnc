@@ -36,7 +36,7 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
   const [acertou, setAcertou] = useState<boolean | null>(null);
   const tempoInicioRef = useRef<number>(Date.now());
 
-  // Reinicia o cronômetro a cada novo conceito
+  // Reinicia o cronômetro e estados a cada novo conceito
   useEffect(() => {
     setResposta(null);
     setConfianca(null);
@@ -48,10 +48,13 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
     const isCorreto = resp.toUpperCase() === conceito.gabaritoCanonic.toUpperCase();
     setResposta(resp);
     setAcertou(isCorreto);
-    // Sugere "certeza" como default inicial caso o aluno avance direto
     if (!confianca) {
       setConfianca(isCorreto ? 'certeza' : 'duvida');
     }
+  };
+
+  const handleSelecionarConfianca = (c: ConfidenceLevel) => {
+    setConfianca(c);
   };
 
   const handleAvancar = () => {
@@ -115,13 +118,19 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
       {/* Renderização do Formato Cognitivo Específico */}
       {renderFormato()}
 
-      {/* Seção de Autoverificação de Confiança (Após Julgamento) */}
+      {/* Seção de Autoverificação de Confiança e Feedback (Após Julgamento - W1) */}
       {resposta !== null && (
         <div className="animate-fade-in space-y-4">
-          <ConfidenceSelector
-            valorSelecionado={confianca || undefined}
-            onSelecionar={(c) => setConfianca(c)}
-          />
+          <div className="p-3.5 rounded-xl bg-surface border border-accent/30 space-y-2">
+            <div className="text-xs font-sans font-semibold text-accent flex items-center justify-between">
+              <span>Aferição Metacognitiva de Confiança</span>
+              <span className="text-[11px] text-ink-3">Calibre seu nível de certeza no julgamento</span>
+            </div>
+            <ConfidenceSelector
+              valorSelecionado={confianca || undefined}
+              onSelecionar={handleSelecionarConfianca}
+            />
+          </div>
 
           <ExerciseFeedback
             conceito={conceito}
