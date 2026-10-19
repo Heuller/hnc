@@ -13,8 +13,30 @@ export const submodulo72: ModuloFilho = {
       }
   ],
   titulo: 'Agentes Biológicos de Degradação e Controle Integrado de Pragas (CIP)',
+  antesDeLer: [
+    {
+      termo: 'Controle Integrado de Pragas (CIP)',
+      definicao: 'Estratégia holística e sustentável de monitoramento, prevenção física e controle ambiental de agentes biológicos sem uso indiscriminado de químicos.',
+      exemploBiblioteca: 'Armadilhas adesivas não tóxicas instaladas estrategicamente nos rodapés das estantes para detecção precoce de insetos.',
+    },
+    {
+      termo: 'Insetos Bibliófagos',
+      definicao: 'Espécies que atacam materiais celulósicos e colas: brocas (Anobiidae), traças de livros (Thysanura), cupins e baratas.',
+      exemploBiblioteca: 'Identificação de orifícios de broca em encadernações históricas em couro tratadas no laboratório de restauração.',
+    },
+    {
+      termo: 'Fungos e Mofo',
+      definicao: 'Microrganismos cujos esporos proliferam rapidamente quando a umidade relativa ultrapassa 65%, causando manchas e biodegradação estrutural.',
+      exemploBiblioteca: 'Ação imediata de isolamento e higienização a seco quando há falha no sistema de climatização no período de chuvas em Brasília.',
+    },
+    {
+      termo: 'Quarentena de Acervos',
+      definicao: 'Isolamento preventivo temporário de livros recém-adquiridos ou doados em sala especial antes de sua integração ao acervo geral.',
+      exemploBiblioteca: 'Inspeção minuciosa de caixas de doações de arquivos pessoais de ex-deputados federais.',
+    },
+  ],
   descricaoCurta: 'Insetos bibliófagos (traças, brocas, cupins e baratas), fungos filamentosos (mofo e foxing), roedores, superação da fumigação química e as técnicas ecológicas modernas: Anóxia (gás inerte) e Congelamento.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 13,
   prioridade: 'baixa',
   autoresChave: ['Ingrid Beck', 'Norma Cassares', 'José Luiz Pedersoli Jr.', 'IFLA-PAC', 'Getty Conservation Institute'],
   alertasCebraspe: [

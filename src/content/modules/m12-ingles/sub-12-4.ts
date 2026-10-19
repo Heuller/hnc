@@ -6,8 +6,30 @@ export const submodulo124: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 3: Reescrita e Paráfrase Semântica)',
   preRequisitos: ["sub-12-3"],
   titulo: 'Vocabulário Contextual, Falsos Cognatos, Modalizadores e Paráfrase Cebraspe',
+  antesDeLer: [
+    {
+      termo: 'Falsos Cognatos (False Friends)',
+      definicao: 'Palavras com grafia ou som semelhantes em português e inglês, mas com significados completamente distintos.',
+      exemploBiblioteca: '\'Library\' é biblioteca (e não livraria, que é \'bookstore\'); \'Policy\' é política/diretriz (e não polícia, que é \'police\').',
+    },
+    {
+      termo: 'Modal Verbs (Verbos Modais)',
+      definicao: 'Verbos auxiliares que expressam graus de certeza, obrigação, permissão ou probabilidade: must, should, may, might, can, could.',
+      exemploBiblioteca: 'O Cebraspe explora a troca de \'may\' (possibilidade/permissão) por \'must\' (obrigação/certeza) para tornar o item errado.',
+    },
+    {
+      termo: 'Voz Passiva Acadêmica',
+      definicao: 'Estrutura (be + past participle) utilizada em textos formais para dar ênfase à ação ou ao objeto, mantendo a impessoalidade do autor.',
+      exemploBiblioteca: 'Tradução e julgamento de frases como \'The rare manuscripts were restored by the conservation team\'.',
+    },
+    {
+      termo: 'Paráfrase Cebraspe',
+      definicao: 'Item de prova que reescreve uma frase do texto em inglês com outras palavras mantendo o sentido original estrito.',
+      exemploBiblioteca: 'Avaliar se \'digital preservation ensures perennity\' expressa exatamente a mesma ideia de \'digital curation guarantees long-term survival\'.',
+    },
+  ],
   descricaoCurta: 'O arsenal de falsos amigos (actually, eventually, intend, pretend, comprehensive), a armadilha da alteração de grau nos verbos modais (may/might vs must/will), e o método para julgar itens de paráfrase e reescrita de sentenças no Cebraspe.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 9,
   autoresChave: ['Paul Nation (Teaching and Learning Vocabulary)', 'Batia Laufer (Lexical Threshold & Vocabulary Size)', 'Joan Bybee (Modality in Grammar)', 'F.R. Palmer (Mood and Modality)'],
   alertasCebraspe: [
     'A armadilha dos verbos modais (Possibilidade vs Certeza): O texto original diz que uma medida "MAY lead to economic growth" (pode levar, possibilidade). A assertiva do Cebraspe afirma que a medida "WILL lead" ou "MUST guarantee growth". ITEM ERRADO! O Cebraspe altera propositalmente a modalidade epistêmica de possibilidade para certeza absoluta.',

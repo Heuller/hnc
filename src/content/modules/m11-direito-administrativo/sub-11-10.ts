@@ -7,8 +7,30 @@ export const submodulo1110: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência',
   titulo_curto: 'Licitações na Lei 14.133/2021',
+  antesDeLer: [
+    {
+      termo: 'Modalidades de Licitação (Lei nº 14.133/2021)',
+      definicao: 'Rol taxativo de cinco modalidades: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo (Convite e Tomada de Preços foram extintos).',
+      exemploBiblioteca: 'Uso obrigatório do Pregão Eletrônico pela Câmara para a aquisição de assinaturas de bases de dados acadêmicas e serviços comuns.',
+    },
+    {
+      termo: 'Inversão de Fases',
+      definicao: 'Regra geral procedimental da nova lei em que a fase de julgamento de propostas antecede a fase de habilitação documental dos licitantes.',
+      exemploBiblioteca: 'Abertura apenas dos envelopes de documentos de habilitação da empresa vencedora na licitação de scanners planetários da biblioteca.',
+    },
+    {
+      termo: 'Inexigibilidade vs. Dispensa',
+      definicao: 'Inexigibilidade ocorre quando há inviabilidade de competição (exclusividade, notória especialização); dispensa ocorre quando a competição é viável, mas a lei desobriga o certame.',
+      exemploBiblioteca: 'Inexigibilidade na contratação de restaurador de renome internacional para recuperar exemplar único de 1823.',
+    },
+    {
+      termo: 'Estudo Técnico Preliminar (ETP)',
+      definicao: 'Documento constitutivo da fase preparatória que evidencia o problema público a ser resolvido e a melhor solução técnica disponível.',
+      exemploBiblioteca: 'Elaboração de ETP pela equipe da biblioteca para justificar a migração do software de gerenciamento de acervos para nuvem.',
+    },
+  ],
   descricaoCurta: 'Princípios e finalidades licitatórias na Lei nº 14.133/2021. Modalidades taxativas: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo. Critérios de julgamento. Contratação direta: Inexigibilidade vs. Dispensa. Fase preparatória: Estudo Técnico Preliminar (ETP) e Termo de Referência (TR).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Nova Lei de Licitações e Contratos (Lei nº 14.133/2021)',
     'Marçal Justen Filho',

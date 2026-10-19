@@ -18,8 +18,30 @@ export const submodulo93: ModuloFilho = {
       }
   ],
   titulo: 'Curadoria Digital, Gestão de Dados de Pesquisa, Direitos Autorais e Creative Commons',
+  antesDeLer: [
+    {
+      termo: 'Curadoria Digital',
+      definicao: 'Manutenção, preservação e agregação de valor a dados de pesquisa e acervos digitais ao longo de todo o seu ciclo de vida.',
+      exemploBiblioteca: 'Preservação e validação de metadados dos conjuntos de dados brutos que subsidiaram relatórios de comissões parlamentares de inquérito.',
+    },
+    {
+      termo: 'Plano de Gestão de Dados (PGD / DMP)',
+      definicao: 'Documento formal elaborado antes da pesquisa que descreve como os dados serão coletados, organizados, preservados e compartilhados.',
+      exemploBiblioteca: 'Orientação do bibliotecário aos consultores legislativos na elaboração de PGDs para grandes estudos amostrais.',
+    },
+    {
+      termo: 'Licenças Creative Commons (CC)',
+      definicao: 'Instrumentos jurídicos padronizados que autorizam o público a utilizar, compartilhar e reutilizar obras protegidas por direitos autorais.',
+      exemploBiblioteca: 'Adoção da licença CC BY 4.0 em todas as bases e publicações do portal da Câmara, permitindo livre reuso com citação da fonte.',
+    },
+    {
+      termo: 'Lei de Direitos Autorais (Lei nº 9.610/1998)',
+      definicao: 'Legislação brasileira que disciplina os direitos morais e patrimoniais de autores sobre criações do espírito expressas em qualquer suporte.',
+      exemploBiblioteca: 'Aplicação das exceções e limitações do direito autoral para cópia e consulta em bibliotecas públicas sem infração legal.',
+    },
+  ],
   descricaoCurta: 'Ciclo de vida dos dados de pesquisa e Planos de Gestão de Dados (PGD), curadoria digital (DCC), a Lei de Direitos Autorais brasileira (Lei 9.610/98: direitos morais vs. patrimoniais e limitações), o sistema Creative Commons e métricas de impacto editorial (JCR/Garfield).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 27,
   autoresChave: ['Digital Curation Centre (DCC)', 'Lawrence Lessig', 'Luís Fernando Sayão & Luana Sales', 'Eugene Garfield', 'Lei 9.610/1998', 'IBICT'],
   alertasCebraspe: [
     'Curadoria Digital: processo dinâmico, abrangente e contínuo que envolve a seleção, preservação, manutenção, agregação de valor e arquivamento de ativos digitais durante todo o seu ciclo de vida para viabilizar seu reúso futuro e confiável (questão literal do Cebraspe no STJ 2024 e EMBRAPA 2025).',

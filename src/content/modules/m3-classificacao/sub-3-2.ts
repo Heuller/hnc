@@ -18,8 +18,30 @@ export const submodulo32: ModuloFilho = {
       }
   ],
   titulo: 'Classificação Decimal de Direito (CDDir) e Notação de Autor (Cutter-Sanborn e PHA)',
+  antesDeLer: [
+    {
+      termo: 'Classificação Decimal de Direito (CDDir)',
+      definicao: 'Sistema brasileiro especializado desenvolvido por Doris de Queiroz Carvalho e adotado pelas bibliotecas jurídicas para o detalhamento da classe 340.',
+      exemploBiblioteca: 'Classificação temática específica dos tratados de direito tributário e processual na Rede Virtual de Bibliotecas (RVBI).',
+    },
+    {
+      termo: 'Tabela PHA (Paulo Homem de Albuquerque)',
+      definicao: 'Tabela de notação de autor desenvolvida especificamente para a língua portuguesa, concorrente da Cutter-Sanborn em bibliotecas brasileiras.',
+      exemploBiblioteca: 'Atribuição de código alfanumérico para autores nacionais com grafias compostas na Biblioteca da Câmara.',
+    },
+    {
+      termo: 'Número de Chamada',
+      definicao: 'Conjunto alfanumérico composto pela notação de classificação, notação de autor e elementos complementares (ano, volume, exemplar) que localiza a obra.',
+      exemploBiblioteca: 'Etiqueta na lombada: 342.53 C172p 2023 ex. 1, permitindo ao usuário ou atendente retirar o livro exato na estante.',
+    },
+    {
+      termo: 'Doutrina Jurídica',
+      definicao: 'Conjunto de estudos, pareceres e teorias formulados pelos juristas que interpretam as normas legais e orientam a aplicação do direito.',
+      exemploBiblioteca: 'Acervo central da Biblioteca Pedro Aleixo que subsidia pareceres das comissões temáticas da Câmara.',
+    },
+  ],
   descricaoCurta: 'A Classificação Decimal de Direito de Doris de Queiroz Carvalho (CDDir), classes jurídicas 340 a 349, divisões de forma, a espinha dorsal temática da RVBI e do LexML, e as regras avançadas de Notação de Autor (Cutter-Sanborn e Tabela PHA de Prado).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['Doris de Queiroz Carvalho', 'Comissão de Atualização da CDDir / RVBI (Arouck, Jaegger & Pinha)', 'Charles Ammi Cutter', 'Kate Emery Sanborn', 'Heloísa de Almeida Prado'],
   alertasCebraspe: [
     'A CDDir foi criada pela bibliotecária brasileira Doris de Queiroz Carvalho na década de 1940 para superar a inadequação das classificações gerais (CDD e CDU) ao ordenamento jurídico brasileiro. As tabelas universais foram desenhadas sob a tradição da Common Law anglo-americana, ao passo que o Brasil adota a tradição Romano-Germânica (Civil Law), com codificações e ramificações dogmáticas próprias.',

@@ -47,7 +47,7 @@ export const submodulo66: ModuloFilho = {
   ],
   descricaoCurta:
     'Pensamento computacional e estruturas de controle; ordem lógica de execução em SQL (WHERE vs. HAVING, JOINs e agregações); expressões regulares (metacaracteres e padrões bibliográficos); arquitetura REST, JSON e API de Dados Abertos da Câmara; web scraping, robots.txt e limites ético-jurídicos da LGPD.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 22,
   autoresChave: [
     'Jeanette Wing (Pensamento Computacional)',
     'Roy Fielding (Arquitetura REST, 2000)',

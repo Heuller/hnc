@@ -18,8 +18,30 @@ export const submodulo42: ModuloFilho = {
       }
   ],
   titulo: 'Fontes de Informação: Tipologia, Literatura Cinzenta e Avaliação',
+  antesDeLer: [
+    {
+      termo: 'Fontes Primárias',
+      definicao: 'Documentos originais que contêm informações inéditas de primeira mão, não filtradas ou interpretadas por terceiros.',
+      exemploBiblioteca: 'Texto oficial de um projeto de lei publicado no Diário da Câmara dos Deputados e notas taquigráficas.',
+    },
+    {
+      termo: 'Fontes Secundárias',
+      definicao: 'Documentos que compilam, organizam, referenciam ou analisam informações extraídas de fontes primárias.',
+      exemploBiblioteca: 'Bases de dados bibliográficas da RVBI, índices de jurisprudência e enciclopédias jurídicas.',
+    },
+    {
+      termo: 'Fontes Terciárias',
+      definicao: 'Instrumentos que sinalizam a localização de fontes secundárias e primárias, funcionando como guias da literatura.',
+      exemploBiblioteca: 'Diretório de bibliotecas parlamentares, bibliografias de bibliografias e guias de fontes do direito legislativo.',
+    },
+    {
+      termo: 'Literatura Cinzenta (Grey Literature)',
+      definicao: 'Documentos não convencionais publicados fora dos canais comerciais tradicionais de editoração (relatórios técnicos, teses, atas).',
+      exemploBiblioteca: 'Notas técnicas e pareceres emitidos pela Consultoria Legislativa e Consultoria de Orçamento da Câmara.',
+    },
+  ],
   descricaoCurta: 'Tipologia das fontes de informação (Cunha, Grogan): fontes primárias, secundárias e terciárias, literatura cinzenta, bases de dados especializadas e critérios de avaliação de fontes analógicas e digitais.',
-  tempoEstimadoMinutos: 30,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Murilo Bastos da Cunha', 'Denis Grogan', 'Bernadete Campello', 'Nice Menezes de Figueiredo'],
   alertasCebraspe: [
     'A classificação tripartite das fontes de informação segundo Murilo Bastos da Cunha: Primárias (conhecimento original e novo), Secundárias (informação organizada que remete às primárias) e Terciárias (guias que apontam para as primárias e secundárias).',

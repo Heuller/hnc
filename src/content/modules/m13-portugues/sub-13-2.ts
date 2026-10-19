@@ -6,9 +6,31 @@ export const submodulo132: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Portuguesa (Item 2: Coesão, Coerência e Reescrita)',
   preRequisitos: ["sub-13-1"],
   titulo: 'A Arte da Reescritura e Paráfrase no Padrão Cebraspe',
+  antesDeLer: [
+    {
+      termo: 'Reescritura e Paráfrase no Padrão Cebraspe',
+      definicao: 'Tipo de item que propõe alteração da ordem, vocabulário ou pontuação de um trecho exigindo avaliação de sentido e correção gramatical.',
+      exemploBiblioteca: 'Reescrever despachos legislativos garantindo clareza, concisão e estrita observância à norma culta.',
+    },
+    {
+      termo: 'Sentido Original vs. Correção Gramatical',
+      definicao: 'Distingo fundamental do Cebraspe: uma proposta de reescritura pode ser gramaticalmente impecável, mas alterar o sentido pretendido pelo autor.',
+      exemploBiblioteca: 'Trocar \'todos os livros que continham erros\' por \'todos os livros, que continham erros\' (restritiva vs. explicativa: altera o sentido).',
+    },
+    {
+      termo: 'Inversão de Termos da Oração',
+      definicao: 'Deslocamento de adjuntos adverbiais ou complementos para o início da frase com exigência de vírgulas obrigatórias ou facultativas.',
+      exemploBiblioteca: 'Avaliar se o deslocamento do adjunto adverbial de tempo para o início do período exige vírgula de isolamento.',
+    },
+    {
+      termo: 'Equivalência Semântica de Conjunções',
+      definicao: 'Substituição de conectivos mantendo a mesma classe lógica (ex.: \'conquanto\' por \'embora\'; \'porquanto\' por \'porque\').',
+      exemploBiblioteca: 'Cuidado com \'porquanto\' (explicativa/causal) vs. \'conquanto\' (concessiva), armadilha clássica da banca Cebraspe.',
+    },
+  ],
   descricaoCurta:
     'A metodologia dos três filtros (Correção Gramatical vs Sentido Original vs Coerência Textual), desdobramento de orações reduzidas, transposição rigorosa de vozes verbais e as sutis armadilhas de modalidade epistêmica.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Evanildo Bechara (Moderna Gramática Portuguesa)',
     'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',

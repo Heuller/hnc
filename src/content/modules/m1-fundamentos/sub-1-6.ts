@@ -29,8 +29,30 @@ export const submodulo16: ModuloFilho = {
   ],
   titulo: 'Governança da Informação e Governança de Dados',
   titulo_curto: 'Governança de Dados',
+  antesDeLer: [
+    {
+      termo: 'Governança de Dados (DAMA-DMBOK2)',
+      definicao: 'Exercício de autoridade, controle e planejamento sobre a gestão de ativos de dados dentro de uma organização.',
+      exemploBiblioteca: 'Definição de papéis de custódia e padrões de metadados para os documentos digitais no ecossistema da Câmara.',
+    },
+    {
+      termo: 'Dados Mestres (Master Data)',
+      definicao: 'Dados fundamentais e consistentes que fornecem o contexto central para transações de negócio através de toda a instituição.',
+      exemploBiblioteca: 'Tabela padronizada de autores corporativos governamentais e parlamentares utilizada conjuntamente pelo CEDI e pelo Plenário.',
+    },
+    {
+      termo: 'Data Stewardship',
+      definicao: 'Atividade operacional e tática de zelar pela qualidade, conformidade, segurança e integridade de conjuntos de dados sob sua responsabilidade.',
+      exemploBiblioteca: 'O bibliotecário atuando como curador responsável por validar metadados e metadados de preservação no repositório institucional.',
+    },
+    {
+      termo: 'Dicionário de Dados',
+      definicao: 'Repositório centralizado de metadados que descreve o significado, a estrutura, as relações e os formatos dos elementos de dados.',
+      exemploBiblioteca: 'Documento técnico que padroniza os campos de busca e filtros do Sistema de Informações Legislativas (Sileg).',
+    },
+  ],
   descricaoCurta: 'Princípios do DAMA-DMBOK 2ª ed., papéis de governança (Data Owner, Data Steward, Data Custodian), dimensões de qualidade, proveniência e linhagem (W3C PROV-O), catálogo vs inventário, dados mestres e dados abertos (8 princípios, 5 estrelas e LAI).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 19,
   autoresChave: [
     'DAMA International',
     'Tim Berners-Lee',

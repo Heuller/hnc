@@ -18,8 +18,30 @@ export const submodulo33: ModuloFilho = {
       }
   ],
   titulo: 'Análise Documentária e Processo de Indexação',
+  antesDeLer: [
+    {
+      termo: 'Análise Documentária',
+      definicao: 'Operação intelectual que compreende a leitura técnica, a identificação dos conceitos centrais e a síntese do conteúdo temático de um documento.',
+      exemploBiblioteca: 'Leitura de um projeto de lei de 200 páginas para extrair os 5 tópicos fundamentais que serão indexados no sistema.',
+    },
+    {
+      termo: 'Indexação',
+      definicao: 'Processo de representar o conteúdo substantivo de um documento por meio de termos padronizados ou descritores controlados.',
+      exemploBiblioteca: 'Atribuição de termos do Tesauro da Câmara para garantir que o projeto seja recuperado por \'Reforma Política\' e \'Voto Distrital\'.',
+    },
+    {
+      termo: 'Exaustividade vs. Revocação',
+      definicao: 'Exaustividade é o número de termos atribuídos a um documento; quanto maior a exaustividade, maior a revocação (recuperação de mais itens).',
+      exemploBiblioteca: 'Decidir indexar artigos de revistas parlamentares detalhadamente para recuperar pequenos trechos citados em plenário.',
+    },
+    {
+      termo: 'Especificidade vs. Precisão',
+      definicao: 'Especificidade é a correspondência estrita entre o termo e o conceito; quanto maior a especificidade, maior a precisão (menos lixo nos resultados).',
+      exemploBiblioteca: 'Indexar por \'Imposto sobre Bens e Serviços (IBS)\' em vez do termo genérico \'Tributo\' para evitar falsos positivos.',
+    },
+  ],
   descricaoCurta: 'Teoria da análise documentária (Kobashi e Cintra), as etapas da indexação segundo Lancaster e a ISO 5963, pré-coordenação vs pós-coordenação, sumarização vs indexação em profundidade, coerência de indexação e as métricas de avaliação de recuperação (revocação, precisão, ruído e silêncio).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['F. W. Lancaster', 'Jacques Chaumier', 'Nair Yumiko Kobashi', 'Anna Maria Marques Cintra', 'Cyril Cleverdon', 'Derek Austin', 'Mortimer Taube'],
   alertasCebraspe: [
     'As duas etapas clássicas da indexação segundo F. W. Lancaster: 1ª Análise Conceitual (leitura técnica documentária e identificação do que trata o documento, formulada em linguagem natural) e 2ª Tradução (conversão dos conceitos em termos de uma linguagem documentária controlada). A análise conceitual SEMPRE antecede a tradução!',

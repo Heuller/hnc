@@ -13,8 +13,30 @@ export const submodulo82: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 10520: Citações em Documentos (Versão 2023)',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 10520:2023',
+      definicao: 'Versão atualizada da norma de citações que aboliu a caixa alta nos sobrenomes dos autores no sistema autor-data no texto.',
+      exemploBiblioteca: 'Mudança crucial: a citação no texto agora é grafada \'(Silva, 2023, p. 10)\' e não mais \'(SILVA, 2023, p. 10)\'.',
+    },
+    {
+      termo: 'Citação Direta vs. Indireta',
+      definicao: 'Direta é a transcrição textual exata; indireta é a paráfrase livre das ideias do autor consultado sem transcrição literal.',
+      exemploBiblioteca: 'Uso de citação indireta em pareceres legislativos para resumir a posição de consagrados juristas constitucionais.',
+    },
+    {
+      termo: 'Citação Direta Longa',
+      definicao: 'Trecho com mais de três linhas que deve ser destacado em parágrafo próprio com recuo de 4 cm da margem esquerda e fonte menor.',
+      exemploBiblioteca: 'Formatação do voto do relator com recuo de 4 cm para transcrever dispositivo de tratado internacional.',
+    },
+    {
+      termo: 'Expressões Latinas em Notas',
+      definicao: 'Termos convencionais como \'Ibidem\' (na mesma obra), \'Op. cit.\' (na obra citada) e \'Apud\' (citado por) no sistema numérico.',
+      exemploBiblioteca: 'Uso correto de \'apud\' na citação de uma emenda histórica acessada apenas por meio de obra de terceiros.',
+    },
+  ],
   descricaoCurta: 'A histórica atualização da ABNT NBR 10520:2023, o fim da caixa alta obrigatória entre parênteses, citação direta curta (até 3 linhas entre aspas) vs. longa (recuo de 4 cm, sem aspas e entrelinha simples), citação indireta, citação de citação (apud) e expressões latinas.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Antônio Agenor Briquet de Lemos', 'Júnia Lessa França'],
   alertasCebraspe: [
     'A MAIOR MUDANÇA DA NBR 10520:2023: o nome do autor em chamadas autor-data agora é grafado em letras maiúsculas e minúsculas (caixa alta e baixa) TANTO FORA QUANTO DENTRO dos parênteses (ex.: "(Silva, 2023, p. 10)" e NÃO mais "(SILVA, 2023, p. 10)"). A antiga caixa alta obrigatória entre parênteses foi formalmente extinta pela norma!',

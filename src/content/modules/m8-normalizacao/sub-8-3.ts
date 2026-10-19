@@ -13,8 +13,30 @@ export const submodulo83: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 14724:2011: Apresentação de Trabalhos Acadêmicos',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 14724:2011',
+      definicao: 'Norma que especifica os princípios gerais para a apresentação formal de trabalhos acadêmicos (teses, dissertações e TCCs).',
+      exemploBiblioteca: 'Revisão formal das monografias produzidas pelos alunos dos cursos de pós-graduação do Centro de Formação (Cefor) da Câmara.',
+    },
+    {
+      termo: 'Estrutura do Trabalho Acadêmico',
+      definicao: 'Divisão formal tripartite: elementos pré-textuais, elementos textuais (introdução, desenvolvimento, conclusão) e elementos pós-textuais.',
+      exemploBiblioteca: 'Verificação da correta paginação, onde a contagem inicia na folha de rosto, mas a numeração só aparece na primeira folha textual.',
+    },
+    {
+      termo: 'Elementos Pré-Textuais Obrigatórios',
+      definicao: 'Folha de rosto, folha de aprovação, resumo na língua vernácula, resumo em língua estrangeira e sumário.',
+      exemploBiblioteca: 'Checklist de conferência de teses depositadas na Biblioteca Pedro Aleixo para publicação institucional.',
+    },
+    {
+      termo: 'Anexo vs. Apêndice',
+      definicao: 'Apêndice é documento elaborado pelo próprio autor do trabalho para complementar sua argumentação; Anexo é texto de terceiros não elaborado pelo autor.',
+      exemploBiblioteca: 'Questionário aplicado aos parlamentares entra como Apêndice; cópia do texto do Regimento Interno entra como Anexo.',
+    },
+  ],
   descricaoCurta: 'A estrutura formal de teses, dissertações e monografias segundo a ABNT NBR 14724:2011 (elementos pré-textuais, textuais e pós-textuais), a distinção canônica entre Apêndice (autoria própria) e Anexo (autoria de terceiros), numeração progressiva de seções (NBR 6024:2012), lombada (NBR 12225:2023), regras de margens, paginação e apresentação tabular (IBGE vs. ABNT).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 12,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro CB-014', 'Instituto Brasileiro de Geografia e Estatística (IBGE)', 'Júnia Lessa França'],
   alertasCebraspe: [
     'A MAIOR PEGADINHA DA NBR 14724:2011: Apêndice vs. Anexo. Apêndice é o texto ou documento elaborado PELO PRÓPRIO AUTOR do trabalho (ex.: questionário aplicado, formulário de pesquisa, roteiro de entrevista); Anexo é o documento pré-existente elaborado POR TERCEIROS (ex.: texto de lei, laudo pericial, regimento interno). O Cebraspe inverte essas definições sistematicamente!',

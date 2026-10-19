@@ -13,8 +13,30 @@ export const submodulo104: ModuloFilho = {
       }
   ],
   titulo: 'Noções de Direito Constitucional Aplicadas ao Processo Legislativo',
+  antesDeLer: [
+    {
+      termo: 'Espécies de Proposições Legislativas',
+      definicao: 'Tipologia regimental: Proposta de Emenda à Constituição (PEC), Projeto de Lei (PL), Projeto de Decreto Legislativo (PDC) e Requerimento.',
+      exemploBiblioteca: 'Indexação precisa de siglas e numerações regimentais que alimentam os filtros de busca do portal da Câmara.',
+    },
+    {
+      termo: 'Regime de Urgência',
+      definicao: 'Mecanismo regimental que dispensa exigências, prazos e formalidades para que a proposição seja imediatamente apreciada em Plenário.',
+      exemploBiblioteca: 'Alerta aos bibliotecários de referência para atendimento com prioridade máxima de solicitações ligadas a matérias com urgência aprovada.',
+    },
+    {
+      termo: 'Substitutivo',
+      definicao: 'Emenda global apresentada pelo relator ou comissão que substitui integralmente o texto do projeto original sob análise.',
+      exemploBiblioteca: 'Vinculação semântica no sistema entre o projeto original e seu substitutivo para que o usuário compreenda a evolução do texto.',
+    },
+    {
+      termo: 'Prejudicialidade e Arquivamento',
+      definicao: 'Extinção da tramitação de uma matéria por ter sido rejeitada, perdido o objeto ou por aprovação de outra proposição em sentido contrário.',
+      exemploBiblioteca: 'Atualização dos metadados de status para que documentos arquivados não apareçam como projetos vigentes.',
+    },
+  ],
   descricaoCurta: 'Constituição Federal de 1988: conceito, características, princípios fundamentais (arts. 1º a 4º), direitos e garantias fundamentais (art. 5º e remédios constitucionais), organização político-administrativa (arts. 18 a 36) e a Administração Pública na CF/88 (arts. 37 a 41).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 19,
   autoresChave: ['Constituição Federal de 1988', 'José Afonso da Silva', 'Gilmar Mendes & Paulo Gonet', 'Alexandre de Moraes', 'Pedro Lenza'],
   alertasCebraspe: [
     'Classificação Dogmática da CF/88: é Formal, Escrita, Dogmática, Promulgada (democrática/votada), Rígida (alterável somente por rito especial de 3/5 em 2 turnos nas duas Casas), Analítica (extensa e minuciosa) e Dirigente (programática, orientada a metas futuras).',

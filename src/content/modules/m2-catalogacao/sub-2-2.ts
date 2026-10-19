@@ -18,8 +18,30 @@ export const submodulo22: ModuloFilho = {
       }
   ],
   titulo: 'O Padrão RDA (Resource Description and Access) e o Projeto 3R',
+  antesDeLer: [
+    {
+      termo: 'RDA (Resource Description and Access)',
+      definicao: 'Padrão de catalogação concebido para o ambiente digital, estruturado com base nos modelos conceituais da IFLA (LRM/FRBR).',
+      exemploBiblioteca: 'Catalogação de relatórios técnicos digitais na Biblioteca da Câmara identificando claramente obra, expressão, manifestação e item.',
+    },
+    {
+      termo: 'Projeto 3R (RDA Steering Committee)',
+      definicao: 'Projeto de reestruturação do RDA Toolkit para alinhamento estrito ao IFLA LRM e adaptação às tecnologias de Linked Data.',
+      exemploBiblioteca: 'Transição dos manuais de catalogação da RVBI para contemplar entidades e relacionamentos orientados a grafos.',
+    },
+    {
+      termo: 'Entidades WEMI',
+      definicao: 'Work (Obra), Expression (Expressão), Manifestation (Manifestação) e Item: entidades centrais do modelo do Grupo 1 do FRBR mantidas no RDA.',
+      exemploBiblioteca: 'Diferenciar a Constituição de 1988 (Obra), sua tradução para o inglês (Expressão), a edição impressa da Edições Câmara (Manifestação) e o exemplar com dedicatória (Item).',
+    },
+    {
+      termo: 'WEMI na Prática',
+      definicao: 'Abordagem que separa a criação intelectual e artística de suas realizações físicas ou formatos de arquivo.',
+      exemploBiblioteca: 'Evitar duplicidade de registros ao ligar múltiplos arquivos PDF de uma mesma emenda constitucional a uma única entidade Obra.',
+    },
+  ],
   descricaoCurta: 'Gênese do RDA, superação do AACR2r para o ambiente de dados conectados (Linked Data), alinhamento com FRBR e IFLA LRM, o Projeto 3R (RDA Toolkit Oficial), eliminação radical da DGM e adoção do trio 336/337/338, fim das abreviaturas latinas ([S.l.] e [s.n.]), transcrição de autoria aberta e vocabulários controlados.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 16,
   autoresChave: ['Joint Steering Committee (JSC)', 'RDA Steering Committee (RSC)', 'Barbara Tillett', 'Tom Delsey', 'Gordon Dunsire', 'Eliane Mey'],
   alertasCebraspe: [
     'O RDA NÃO é um simples código de catalogação de fichas ou um sucessor linear do AACR2; é um PADRÃO DE CONTEÚDO estruturado em modelo entidade-relacionamento (IFLA LRM e FRBR), projetado especificamente para a Web Semântica e Linked Open Data.',

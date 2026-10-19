@@ -6,8 +6,30 @@ export const submodulo122: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Morfossintaxe e Coesão Textual)',
   preRequisitos: ["sub-12-1"],
   titulo: 'Marcadores Discursivos (Linking Words) e Conjunções de Transição Argumentativa',
+  antesDeLer: [
+    {
+      termo: 'Discourse Markers (Conectivos)',
+      definicao: 'Palavras e locuções que estabelecem relações lógicas entre orações: adição, contraste, causa, consequência, conclusão.',
+      exemploBiblioteca: 'Identificar a relação de contraste indicada pelo conectivo \'However\' em texto da IFLA sobre acesso aberto.',
+    },
+    {
+      termo: 'Conectivos de Oposição e Concessão',
+      definicao: 'Termos chave: Although, Even though, Despite, In spite of, However, Nevertheless, On the other hand, Whereas.',
+      exemploBiblioteca: 'O Cebraspe frequentemente pergunta se \'Although\' pode ser substituído por \'Despite\' sem alterar o sentido (atenção à estrutura gramatical seguinte).',
+    },
+    {
+      termo: 'Conectivos de Causa e Consequência',
+      definicao: 'Causa: Because, Since, As, Due to; Consequência: Therefore, Thus, Consequently, Hence, As a result.',
+      exemploBiblioteca: 'Identificar a relação causal em: \'Due to severe budget constraints, the digitisation project was delayed\'.',
+    },
+    {
+      termo: 'Conectivos de Adição e Ênfase',
+      definicao: 'Adição: Furthermore, Moreover, In addition, Besides; Ênfase: Indeed, Notably, In fact, Particularly.',
+      exemploBiblioteca: 'Reconhecer que \'Furthermore\' introduz um novo argumento convergente em texto sobre metadados Linked Data.',
+    },
+  ],
   descricaoCurta: 'As famílias funcionais de conectivos em inglês (contraste, concessão, causa, consequência, adição e condição), a distinção sintática entre Although e Despite, e as técnicas de substituição e equivalência semântica cobradas pelo Cebraspe.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 9,
   autoresChave: ['Ken Hyland (Discourse Analysis & Metadiscourse)', 'M.A.K. Halliday (Cohesion in English)', 'Ruqaiya Hasan', 'Prof. Gabriela Kruger'],
   alertasCebraspe: [
     'Substituição de Conectivos de Famílias Diferentes: O Cebraspe propõe trocar "however" por "therefore", ou "furthermore" por "although". O item é INVANCIVELMENTE ERRADO, pois altera a orientação argumentativa do parágrafo.',

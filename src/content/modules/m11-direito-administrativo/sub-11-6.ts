@@ -7,8 +7,30 @@ export const submodulo116: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso',
   titulo_curto: 'Responsabilidade Civil do Estado',
+  antesDeLer: [
+    {
+      termo: 'Responsabilidade Civil Objetiva do Estado',
+      definicao: 'Dever estatal de indenizar danos causados por seus agentes no exercício da função, independentemente de dolo ou culpa (art. 37, § 6º da CF/88).',
+      exemploBiblioteca: 'A União indenizando pesquisador cujo notebook foi danificado por queda de teto na biblioteca durante reforma da Casa.',
+    },
+    {
+      termo: 'Teoria do Risco Administrativo',
+      definicao: 'Doutrina que fundamenta a responsabilidade objetiva, admitindo excludentes: culpa exclusiva da vítima, caso fortuito e força maior.',
+      exemploBiblioteca: 'Isenção de responsabilidade do órgão se o visitante danificou voluntariamente seu próprio celular ao tropeçar desatento.',
+    },
+    {
+      termo: 'Direito de Regresso',
+      definicao: 'Ação regressiva pela qual o Estado cobra do servidor o valor da indenização paga a terceiros, nos casos de dolo ou culpa do servidor.',
+      exemploBiblioteca: 'Cobrança regressiva caso um servidor jogue intencionalmente água sobre material de um visitante credenciado.',
+    },
+    {
+      termo: 'Responsabilidade por Omissão',
+      definicao: 'Regra geral subjetiva (falha do serviço / faute du service), exigindo comprovação de que o Estado tinha o dever legal de agir e foi negligente.',
+      exemploBiblioteca: 'Análise de omissão caso o sistema de proteção contra incêndio estivesse inoperante sem manutenção programada.',
+    },
+  ],
   descricaoCurta: 'Evolução histórica e a Teoria do Risco Administrativo (art. 37, § 6º da CF/88). Responsabilidade por atos comissivos vs. omissivos (falta do serviço e dever de custódia). Excludentes e atenuantes do nexo causal. Teoria do Risco Integral. Ação de regresso e ilegitimidade do servidor (STF Tema 940).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Constituição Federal de 1988 (art. 37, § 6º)',
     'STF (Tema 940 - Dupla Garantia)',

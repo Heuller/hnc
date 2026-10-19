@@ -13,8 +13,30 @@ export const submodulo74: ModuloFilho = {
       }
   ],
   titulo: 'Intervenções Curativas, Restauração e Planos de Contingência contra Desastres',
+  antesDeLer: [
+    {
+      termo: 'Intervenção Curativa e Restauração',
+      definicao: 'Ações diretas sobre o objeto danificado para estabilizar sua deterioração e recuperar sua integridade física segundo princípios éticos.',
+      exemploBiblioteca: 'Enxerto mecânico de papel japonês com metilcelulose em páginas rasgadas de um exemplar de 1824 da Carta Outorgada.',
+    },
+    {
+      termo: 'Princípio da Reversibilidade',
+      definicao: 'Norma ética fundamental que determina que qualquer material ou técnica aplicada na restauração deve poder ser removida sem danificar o original.',
+      exemploBiblioteca: 'Proibição estrita do uso de fitas adesivas comerciais tipo \'durex\' ou colas plásticas sintéticas em livros raros.',
+    },
+    {
+      termo: 'Plano de Contingência contra Desastres',
+      definicao: 'Protocolo formal de emergência que estabelece rotinas e prioridades de resgate em caso de incêndio, inundação ou vandalismo.',
+      exemploBiblioteca: 'Lista de prioridade de evacuação que coloca as primeiras edições e manuscritos raros como itens número 1 a serem resgatados.',
+    },
+    {
+      termo: 'Liofilização (Secagem por Congelamento)',
+      definicao: 'Técnica de resgate de documentos molhados por inundação através de sublimação a vácuo, evitando proliferação de fungos e deformação.',
+      exemploBiblioteca: 'Congelamento imediato de caixas de documentos atingidas por vazamento acidental em depósito subterrâneo.',
+    },
+  ],
   descricaoCurta: 'Princípios éticos da restauração (Brandi: reversibilidade, mínima intervenção e distinguibilidade), testes de solubilidade de tintas, desacidificação, remendos com papel japonês, leafcasting, encadernação de conservação e protocolos de emergência e congelamento em sinistros.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   prioridade: 'baixa',
   autoresChave: ['Cesare Brandi', 'Paul Philippot', 'Antônio Celso Ramos Spinelli', 'Norma Cassares', 'Stefan Michalski', 'Robert Waller'],
   alertasCebraspe: [

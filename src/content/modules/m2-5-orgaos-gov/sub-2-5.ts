@@ -19,9 +19,31 @@ export const submodulo25: ModuloFilho = {
   ],
   titulo: 'Órgãos Públicos, Catalogação Governamental e Biblioteca da Câmara dos Deputados',
   titulo_curto: 'Órgãos Públicos & Bib. Câmara',
+  antesDeLer: [
+    {
+      termo: 'Entrada de Órgãos Governamentais',
+      definicao: 'Regra canônica do AACR2r e ICP que estabelece a jurisdição seguida pelo nome do órgão subordinado que não possua autonomia funcional.',
+      exemploBiblioteca: 'Entrada correta: \'BRASIL. Congresso Nacional. Câmara dos Deputados\' e não \'Câmara dos Deputados do Brasil\'.',
+    },
+    {
+      termo: 'RVBI (Rede Virtual de Bibliotecas)',
+      definicao: 'Rede cooperativa de bibliotecas do Distrito Federal coordenada pelo Senado Federal, integrada pela Câmara dos Deputados, TCU e STF.',
+      exemploBiblioteca: 'Compartilhamento cooperativo de catalogação para que um livro processado pela Câmara fique imediatamente visível para o Senado.',
+    },
+    {
+      termo: 'Biblioteca Pedro Aleixo',
+      definicao: 'Biblioteca oficial da Câmara dos Deputados, vinculada ao CEDI, depositária legal da memória legislativa e doutrinária da Casa.',
+      exemploBiblioteca: 'Atendimento presencial e digital a deputados, comissões técnicas e cidadãos com acervo focado em direito e ciências sociais.',
+    },
+    {
+      termo: 'Publicação Oficial',
+      definicao: 'Documento editado por autoridade ou órgão do poder público contendo leis, atos normativos, relatórios de gestão ou anais.',
+      exemploBiblioteca: 'Catalogação em série dos \'Anais da Câmara dos Deputados\' com indicação de periodicidade e notas de continuação.',
+    },
+  ],
   descricaoCurta:
     'Estrutura constitucional dos poderes e órgãos (STF, STJ, TJs, TCU, TCEs, MP, Câmara dos Deputados), catalogação sob jurisdição vs entrada direta (AACR2r 24.18/24.19 e RDA Cap. 11), campos MARC 21 (110/710) e a história e sistemas da Biblioteca Pedro Aleixo.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'Constituição da República Federativa do Brasil de 1988 (CF/88)',
     'AACR2r (Anglo-American Cataloguing Rules, 2nd ed. rev. - Cap. 24)',

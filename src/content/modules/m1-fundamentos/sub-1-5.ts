@@ -19,8 +19,30 @@ export const submodulo15: ModuloFilho = {
   ],
   titulo: 'Ciclo de Vida, Qualidade e Memória da Informação',
   titulo_curto: 'Ciclo de Vida e Memória',
+  antesDeLer: [
+    {
+      termo: 'Função Social da Biblioteca',
+      definicao: 'Papel das unidades de informação como instrumentos de emancipação cidadã, preservação da memória democrática e redução de desigualdades sociais.',
+      exemploBiblioteca: 'Abertura do acervo da Biblioteca Pedro Aleixo à consulta de cidadãos, pesquisadores acadêmicos e movimentos sociais.',
+    },
+    {
+      termo: 'Mediação Cultural',
+      definicao: 'Prática que promove a interação reflexiva e dialógica do usuário com as linguagens artísticas, literárias e informacionais no espaço da biblioteca.',
+      exemploBiblioteca: 'Exposições temáticas sobre os 200 anos do Parlamento Brasileiro integrando obras raras e documentos do arquivo histórico.',
+    },
+    {
+      termo: 'Letramento Informacional',
+      definicao: 'Processo de desenvolvimento de competências para reconhecer a necessidade de informação, localizá-la, avaliá-la criticamente e utilizá-la eticamente.',
+      exemploBiblioteca: 'Oficinas de capacitação para servidores e estagiários da Câmara sobre busca avançada em bases legislativas e acadêmicas.',
+    },
+    {
+      termo: 'Democratização do Acesso',
+      definicao: 'Garantia de que todo cidadão tenha acesso irrestrito às fontes de informação públicas sem barreiras físicas, econômicas ou tecnológicas.',
+      exemploBiblioteca: 'Disponibilização universal das publicações da Edições Câmara em formato digital aberto no portal institucional.',
+    },
+  ],
   descricaoCurta: 'Modelos de ciclo de vida da informação (McGee & Prusak, Choo), modelo de qualidade de Wang & Strong (1996), graus de estruturação do dado (estruturado, semiestruturado e não estruturado) e memória institucional parlamentar (Cedi e Biblioteca Pedro Aleixo).',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 16,
   autoresChave: [
     'James V. McGee',
     'Laurence Prusak',

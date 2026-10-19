@@ -19,8 +19,30 @@ export const submodulo26: ModuloFilho = {
   ],
   titulo: 'Metadados: Tipologia, Qualidade, Perfis de Aplicação, Crosswalks, Imagem e Som',
   titulo_curto: 'Tipologia e Governança de Metadados',
+  antesDeLer: [
+    {
+      termo: 'Metadados de Preservação (PREMIS)',
+      definicao: 'Dicionário internacional de dados focado em garantir a viabilidade, autenticidade, integridade e identificação de longo prazo de objetos digitais.',
+      exemploBiblioteca: 'Registro da assinatura digital e da cadeia de custódia de projetos de lei assinados eletronicamente no arquivo da Câmara.',
+    },
+    {
+      termo: 'Crosswalk (Mapeamento de Metadados)',
+      definicao: 'Tabela de conversão que mapeia semanticamente elementos de um esquema de metadados em outro (ex.: MARC 21 para Dublin Core).',
+      exemploBiblioteca: 'Exportação automática de registros do sistema de biblioteca (MARC tag 245) para o repositório DSpace (dc.title).',
+    },
+    {
+      termo: 'Perfil de Aplicação (Application Profile)',
+      definicao: 'Conjunto de termos e restrições de metadados customizados a partir de um ou mais esquemas para atender às necessidades de uma comunidade específica.',
+      exemploBiblioteca: 'Perfil de metadados Dublin Core da RVBI com qualificadores obrigatórios para tipos específicos de leis e decretos.',
+    },
+    {
+      termo: 'Metadados de Proveniência',
+      definicao: 'Informações que documentam a origem, história de custódia, alterações e contexto de produção de um registro informacional.',
+      exemploBiblioteca: 'Rastrear em que gabinete ou comissão determinado texto substitutivo foi gerado e quando foi protocolado.',
+    },
+  ],
   descricaoCurta: 'Tipologia NISO (descritivos, administrativos, técnicos, estruturais, direitos, preservação), qualidade e governança de metadados, perfis de aplicação (Heery & Patel 2000), crosswalks (perda e granularidade) e padrões para imagem (MIX/Z39.87) e som (PBCore).',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 15,
   autoresChave: [
     'National Information Standards Organization (NISO)',
     'Rachel Heery',

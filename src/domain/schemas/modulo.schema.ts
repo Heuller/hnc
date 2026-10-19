@@ -336,6 +336,7 @@ export const ModuloFilhoSchema = z.object({
   alertasCebraspe: z.array(z.string()),
   quadroComparativo: QuadroComparativoSchema.optional(),
   teoriaDensaMarkdown: z.string(), // Texto autoral com fundamentação em doutrina e normas
+  teoriaDidaticaMarkdown: z.string().optional(), // Novo modelo teórico: didático, enxuto e focado em exemplos da vida real / Câmara dos Deputados
   secoes: z.array(SecaoTeoriaSchema).optional(),
   antesDeLer: z.array(TermoAntesDeLerSchema).optional(),
   checkpoints: z.array(CheckpointSchema).min(3).max(8),

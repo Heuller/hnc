@@ -18,9 +18,31 @@ export const submodulo144: ModuloFilho = {
       }
   ],
   titulo: 'Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling',
+  antesDeLer: [
+    {
+      termo: 'Ciência de Dados e Ciclo de Vida dos Dados',
+      definicao: 'Campo multidisciplinar que engloba coleta, limpeza, exploração, modelagem estatística e comunicação de insights baseados em dados.',
+      exemploBiblioteca: 'Análise da série histórica de 10 anos de empréstimos da biblioteca para prever demanda por novas aquisições.',
+    },
+    {
+      termo: 'Mineração de Texto (Text Mining)',
+      definicao: 'Extração de padrões, tendências e relações relevantes a partir de grandes volumes de texto não estruturado.',
+      exemploBiblioteca: 'Agrupamento temático automático de discursos proferidos no Plenário da Câmara por análise de frequência de tópicos.',
+    },
+    {
+      termo: 'Visualização de Dados e Storytelling',
+      definicao: 'Comunicação de conclusões analíticas complexas por meio de gráficos eficazes (barras, box plots, mapas de calor) e narrativa lógica.',
+      exemploBiblioteca: 'Painel em Power BI demonstrando aos diretores o crescimento no uso do repositório digital BDCam por estado brasileiro.',
+    },
+    {
+      termo: 'Box Plot e Histograma',
+      definicao: 'Gráficos estatísticos: box plot exibe mediana, quartis e outliers; histograma mostra a distribuição de frequência de variáveis contínuas.',
+      exemploBiblioteca: 'Análise da distribuição do tempo de atendimento de solicitações parlamentares com detecção de valores discrepantes (outliers).',
+    },
+  ],
   descricaoCurta:
     'Tipologia de dados; estatística descritiva e EDA (Tukey); mineração de dados (metodologia CRISP-DM, tarefas descritivas e preditivas); mineração de textos (pipeline de PLN, tokenização, stopwords, stemming vs lematização, TF-IDF e Lei de Zipf/Luhn); pipeline de ETL/ELT; gramática dos gráficos; ferramentas analíticas corporativas (Power BI, Tableau, Looker Studio) e storytelling com dados.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 24,
   autoresChave: [
     'Edward Tufte (Data-Ink Ratio, 1983)',
     'Cole Nussbaumer Knaflic (Storytelling with Data, 2015)',

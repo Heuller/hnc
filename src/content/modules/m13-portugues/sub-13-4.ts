@@ -13,9 +13,31 @@ export const submodulo134: ModuloFilho = {
       }
   ],
   titulo: 'Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal',
+  antesDeLer: [
+    {
+      termo: 'Manual de Redação da Presidência da República (MRPR)',
+      definicao: 'Documento normativo que padroniza a redação dos atos e comunicações oficiais do Poder Executivo e do serviço público federal.',
+      exemploBiblioteca: 'Redação de memorandos, ofícios e notas técnicas da biblioteca de acordo com os atributos da redação oficial.',
+    },
+    {
+      termo: 'Atributos da Redação Oficial',
+      definicao: 'Clareza, precisão, concisão, impessoalidade, formalidade e padronização, e uso do padrão culto da língua.',
+      exemploBiblioteca: 'Eliminação de jargões desnecessários e adjetivações emocionais em relatórios dirigidos à Mesa Diretora.',
+    },
+    {
+      termo: 'Pronomes de Tratamento no MRPR (3ª Edição)',
+      definicao: 'Simplificação oficial: \'Vossa Excelência\' reservada aos chefes de poder, parlamentares e ministros; \'Vossa Senhoria\' para as demais autoridades e cidadãos.',
+      exemploBiblioteca: 'Endereçamento correto em ofício: \'A Sua Excelência o Senhor Deputado Federal...\'.',
+    },
+    {
+      termo: 'Colocação Pronominal (Próclise, Mesóclise e Ênclise)',
+      definicao: 'Regras de posicionamento do pronome átono: atrativos de próclise (palavras negativas, advérbios, pronomes relativos) e proibição de iniciar frase com pronome.',
+      exemploBiblioteca: 'Emprego mesoclítico em tempos de futuro: \'Apresentar-se-á o novo relatório em plenário\' quando não houver termo atrativo.',
+    },
+  ],
   descricaoCurta:
     'Acordo Ortográfico (acentuação e hífen), a distinção teórico-empírica entre tipos e gêneros textuais segundo Marcuschi, semântica e correlação dos tempos e modos verbais, e sintaxe rigorosa de colocação pronominal (próclise, mesóclise e ênclise).',
-  tempoEstimadoMinutos: 50,
+  tempoEstimadoMinutos: 19,
   autoresChave: [
     'Luiz Antônio Marcuschi (Da Fala para a Escrita / Gêneros Textuais e Ensino)',
     'Ingedore Villaça Koch (A Coesão Textual / Desvendando os Segredos do Texto)',

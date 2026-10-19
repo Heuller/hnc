@@ -13,8 +13,30 @@ export const submodulo121: ModuloFilho = {
       }
   ],
   titulo: 'Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)',
+  antesDeLer: [
+    {
+      termo: 'Skimming e Scanning',
+      definicao: 'Técnicas de leitura rápida: skimming identifica a ideia geral e o tom do texto; scanning localiza informações pontuais específicas (datas, nomes).',
+      exemploBiblioteca: 'Localizar rapidamente a data de publicação de uma diretriz da IFLA em inglês sem ler o manual inteiro.',
+    },
+    {
+      termo: 'Tópico Frasal (Topic Sentence)',
+      definicao: 'Primeira frase ou oração nuclear de um parágrafo que resume sua ideia central e orienta o desenvolvimento do argumento.',
+      exemploBiblioteca: 'Leitura focada dos tópicos frasais de um artigo sobre preservação digital para elaborar resumo executivo para a chefia.',
+    },
+    {
+      termo: 'Gênero Textual Acadêmico em Inglês',
+      definicao: 'Estrutura típica de artigos científicos (IMRAD: Introduction, Methods, Results, and Discussion) com linguagem impessoal.',
+      exemploBiblioteca: 'Identificação das seções de resultados de um artigo da Journal of the Association for Information Science and Technology (JASIST).',
+    },
+    {
+      termo: 'Inferência Contextual',
+      definicao: 'Habilidade de deduzir o significado de vocábulos desconhecidos a partir das pistas sintáticas e do contexto discursivo geral.',
+      exemploBiblioteca: 'Compreender o sentido da expressão \'data curation workflow\' em manual técnico da Library of Congress sem usar dicionário.',
+    },
+  ],
   descricaoCurta: 'O modelo psicocognitivo interativo-compensatório de Keith Stanovich, processamento top-down vs bottom-up, leitura rápida com Skimming e Scanning, e técnicas de apreensão da ideia central e do propósito comunicativo do autor no padrão Cebraspe.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 11,
   autoresChave: ['Keith Stanovich (Interactive-Compensatory Model)', 'David Rumelhart (Schema Theory in Reading)', 'Kenneth Goodman (Psycholinguistic Reading Model)', 'Prof. Gabriela Kruger'],
   alertasCebraspe: [
     'O Cebraspe cobra massivamente a apreensão do objetivo primordial do texto. Assertivas que destacam apenas um detalhe secundário ou um exemplo do 3º parágrafo como "o objetivo principal do autor" são invariavelmente ERRADAS (extrapolação ou redução indevida).',

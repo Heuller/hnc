@@ -14,8 +14,30 @@ export const submodulo113: ModuloFilho = {
   ],
   titulo: 'Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)',
   titulo_curto: 'Agentes Públicos e Lei 8.112/90',
+  antesDeLer: [
+    {
+      termo: 'Regime Jurídico Único (Lei nº 8.112/1990)',
+      definicao: 'Estatuto federal que disciplina os direitos, deveres, proibições e regime disciplinar dos servidores públicos civis da União.',
+      exemploBiblioteca: 'Regulação da posse, exercício, estágio probatório e estabilidade do Analista Legislativo - Biblioteconomia.',
+    },
+    {
+      termo: 'Estágio Probatório e Estabilidade',
+      definicao: 'Período de 3 anos de efetivo exercício com avaliação especial de desempenho exigido para aquisição da estabilidade no cargo público.',
+      exemploBiblioteca: 'Avaliação de desempenho do novo servidor bibliotecário por comissão instituída pela Diretoria-Geral da Câmara.',
+    },
+    {
+      termo: 'Formas de Provimento (Lei nº 8.112/90)',
+      definicao: 'Modalidades de investidura: nomeação (única originária), promoção, readaptação, reversão, aproveitamento, reintegração e recondução.',
+      exemploBiblioteca: 'Nomeação de candidatos aprovados no concurso público para posse em vaga desocupada por aposentadoria.',
+    },
+    {
+      termo: 'Deveres e Proibições do Servidor',
+      definicao: 'Obrigações funcionais (zelo, lealdade, sigilo) e vedações (valer-se do cargo para proveito próprio, exercer comércio em serviço).',
+      exemploBiblioteca: 'Manutenção rigorosa de conduta ética e apartidária no atendimento a todos os gabinetes parlamentares.',
+    },
+  ],
   descricaoCurta: 'Classificação de agentes públicos. Cargo, emprego e função pública. Provimento (4R + PAN) e vacância (PADRE PF). Estabilidade constitucional. Remoção vs. Redistribuição. Acumulação remunerada de cargos. Direitos, vantagens e independência das instâncias de responsabilização.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: [
     'Regime Jurídico Único (Lei nº 8.112/1990)',
     'Constituição Federal de 1988 (arts. 37 a 41)',

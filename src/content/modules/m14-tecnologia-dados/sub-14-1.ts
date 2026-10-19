@@ -6,8 +6,30 @@ export const submodulo141: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Tecnologia da Informação (Itens 1, 2 e 3: Suíte Microsoft 365, Redes e Colaboração)',
   preRequisitos: [],
   titulo: 'MSOffice 365 e Ferramentas de Comunicação e Colaboração',
+  antesDeLer: [
+    {
+      termo: 'Microsoft 365 e Nuvem Corporativa',
+      definicao: 'Suíte de produtividade e colaboração em nuvem (Teams, SharePoint, OneDrive, Word, Excel) adotada na administração pública.',
+      exemploBiblioteca: 'Armazenamento compartilhado de minutas e controle de versão de pareceres no SharePoint da biblioteca.',
+    },
+    {
+      termo: 'Controle de Versão Colaborativo',
+      definicao: 'Capacidade de múltiplos usuários editarem o mesmo documento simultaneamente com histórico de alterações auditável.',
+      exemploBiblioteca: 'Edição simultânea por bibliotecários e técnicos do relatório semestral de aquisições no Word Online.',
+    },
+    {
+      termo: 'SharePoint Online',
+      definicao: 'Plataforma de intranet e gerenciamento eletrônico de documentos com controle granular de permissões e listas estruturadas.',
+      exemploBiblioteca: 'Construção do portal interno da biblioteca para comunicação rápida com os gabinetes parlamentares.',
+    },
+    {
+      termo: 'Segurança e Permissões de Acesso (RBAC)',
+      definicao: 'Controle de acesso baseado em papéis (Role-Based Access Control) que restringe permissões a arquivos conforme a função do usuário.',
+      exemploBiblioteca: 'Configuração de pastas restritas a servidores comissionados da Mesa Diretora para matérias em elaboração.',
+    },
+  ],
   descricaoCurta: 'Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 10,
   autoresChave: ['Microsoft Corporation', 'João Antonio Carvalho', 'CERT.br', 'Câmara dos Deputados (Ditec)'],
   alertasCebraspe: [
     'Microsoft Excel 365: operadores aritméticos fundamentais (+, -, *, /, ^ para exponenciação e % para percentual); referências relativas (A1), absolutas ($A$1) e mistas ($A1 ou A$1); funções estatísticas e de busca (PROCV, PROCX, SOMA, MÉDIA, SE, SOMASE e CONT.SE); tabelas dinâmicas conectadas a modelos semânticos.',

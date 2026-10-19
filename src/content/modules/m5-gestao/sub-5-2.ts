@@ -18,8 +18,30 @@ export const submodulo52: ModuloFilho = {
       }
   ],
   titulo: 'CRM em Serviços de Informação, Curadoria e Produtos de Inteligência Informacional',
+  antesDeLer: [
+    {
+      termo: 'CRM (Customer Relationship Management)',
+      definicao: 'Estratégia e conjunto de ferramentas tecnológicas voltadas ao gerenciamento e estreitamento das relações com os usuários/clientes.',
+      exemploBiblioteca: 'Registro no sistema de referência das preferências temáticas e histórico de consultas de cada comissão parlamentar.',
+    },
+    {
+      termo: 'Curadoria de Conteúdo',
+      definicao: 'Processo contínuo de selecionar, organizar, enriquecer e contextualizar as informações mais relevantes sobre determinado domínio temático.',
+      exemploBiblioteca: 'Elaboração de dossiê temático curado sobre inteligência artificial no setor público para apoiar debate em comissão mista.',
+    },
+    {
+      termo: 'Produtos de Inteligência Informacional',
+      definicao: 'Relatórios sintetizados, informativos analíticos e resumos executivos que agregam valor e orientam a tomada de decisão estratégica.',
+      exemploBiblioteca: 'Boletim legislativo semanal distribuído pela biblioteca aos líderes partidários com panorama de matérias internacionais.',
+    },
+    {
+      termo: 'Segmentação de Usuários',
+      definicao: 'Divisão da comunidade de usuários em grupos homogêneos segundo suas necessidades de informação para oferta de serviços customizados.',
+      exemploBiblioteca: 'Criação de trilhas de serviços distintas para parlamentares, pesquisadores acadêmicos e cidadãos comuns.',
+    },
+  ],
   descricaoCurta: 'Gestão de Relacionamento (CRM de Paul Greenberg: operacional, analítico e colaborativo), Personalização e DSI (Eirão & Cunha), Curadoria de Informação (Bezerra) e elaboração de Dossiês, Estados da Arte e Panoramas (Candido).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 25,
   autoresChave: ['Paul Greenberg', 'Thiago Gomes Eirão', 'Murilo Bastos da Cunha', 'Arthur Bezerra', 'Renato Alexandre Candido', 'Sueli Angélica do Amaral', 'Alba Costa Maciel'],
   alertasCebraspe: [
     'CRM em Serviços de Informação (Paul Greenberg): divide-se na tríade canônica: 1. CRM Operacional (pontos de contato direto, automação de balcão, circulação e referência - front-office); 2. CRM Analítico (mineração de dados, identificação de padrões de busca, perfil de consumo e antecipação de demandas - back-office); e 3. CRM Colaborativo (interação multicanal e integração intersetorial para cocriação de serviços). O Cebraspe inverte sistematicamente CRM Analítico e Operacional!',

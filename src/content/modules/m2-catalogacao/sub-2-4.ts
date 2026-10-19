@@ -23,8 +23,30 @@ export const submodulo24: ModuloFilho = {
       }
   ],
   titulo: 'Notação de Autor, Formato MARC 21 e Padrão Dublin Core',
+  antesDeLer: [
+    {
+      termo: 'Formato MARC 21',
+      definicao: 'Padrão de metadados legível por máquina composto por campos numéricos de 3 dígitos (tags), indicadores e subcampos ($a, $b, etc.).',
+      exemploBiblioteca: 'Preenchimento do campo 245 com título da proposição e 100/110 com a autoria parlamentar ou governamental.',
+    },
+    {
+      termo: 'Tabela Cutter-Sanborn',
+      definicao: 'Tabela alfanumérica utilizada para gerar notação de autor associada ao sobrenome ou entrada principal, ordenando itens nas estantes.',
+      exemploBiblioteca: 'Criação do número de chamada combinando classificação e Cutter para um livro sobre processo legislativo.',
+    },
+    {
+      termo: 'Dublin Core (DC)',
+      definicao: 'Padrão simplificado e aberto de metadados composto por 15 elementos básicos projetado para facilitar a recuperação de recursos digitais na web.',
+      exemploBiblioteca: 'Esquema padrão utilizado na indexação de discursos parlamentares no repositório digital DSpace da Câmara.',
+    },
+    {
+      termo: 'Tags Fundamentais do MARC',
+      definicao: 'Campos essenciais: 020 (ISBN), 100 (Autor Pessoal), 110 (Autor Coletivo), 245 (Título), 260/264 (Imprenta) e 650 (Assunto).',
+      exemploBiblioteca: 'Catalogação de pareceres parlamentares no sistema integrado da biblioteca utilizando a tag 650 para tesauro legislativo.',
+    },
+  ],
   descricaoCurta: 'Composição do Número de Chamada, tabelas Cutter-Sanborn e PHA; arquitetura do MARC 21 (ISO 2709, Líder, Diretório, campo 008, campo 264 no RDA e autoridades) e padrão Dublin Core (15 elementos simples e qualificados).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 22,
   autoresChave: ['Henriette Avram', 'Charles Ammi Cutter', 'Kate E. Sanborn', 'Heloísa de Almeida Prado', 'Stuart Weibel', 'Library of Congress'],
   alertasCebraspe: [
     'Número de Chamada (Call Number): É o código alfanumérico que determina de forma inequívoca a localização física do item no acervo. Sua estrutura canônica compõe-se de quatro elementos sobrepostos na lombada: (1) Notação de Classificação (CDD, CDU ou LC); (2) Notação de Autor (Tabela Cutter-Sanborn ou PHA); (3) Marca de Obra (letra minúscula do título) e/ou ano/edição; (4) Notação de Volume e Exemplar (ex.: v. 1, ex. 2).',

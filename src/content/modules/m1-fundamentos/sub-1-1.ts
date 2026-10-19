@@ -19,8 +19,30 @@ export const submodulo11: ModuloFilho = {
   ],
   titulo: 'Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e evolução histórica',
   titulo_curto: 'Biblioteconomia, Documentação e CI',
+  antesDeLer: [
+    {
+      termo: 'Documentação',
+      definicao: 'Disciplina fundada por Paul Otlet e Henri La Fontaine voltada à reunião, organização e disseminação de informações registradas em qualquer suporte físico ou gráfico.',
+      exemploBiblioteca: 'Na Biblioteca da Câmara, o princípio monográfico de Otlet fundamenta a indexação granular de artigos de periódicos e capítulos de livros parlamentares.',
+    },
+    {
+      termo: 'Ciência da Informação',
+      definicao: 'Campo interdisciplinar que investiga as propriedades, o comportamento, as forças que regem o fluxo e os meios de processamento da informação para sua ótima acessibilidade.',
+      exemploBiblioteca: 'A modelagem dos fluxos de busca na base de dados legislativa do portal da Câmara reflete diretamente os princípios da Ciência da Informação.',
+    },
+    {
+      termo: 'Princípio Monográfico',
+      definicao: 'Metodologia preconizada por Paul Otlet consistente em fragmentar o conteúdo intelectual em fichas e unidades conceituais autônomas para facilitar a classificação e recombinação.',
+      exemploBiblioteca: 'Fichamento analítico de pareceres e notas técnicas da Consultoria Legislativa da Câmara.',
+    },
+    {
+      termo: 'IFLA',
+      definicao: 'Federação Internacional de Associações e Instituições Bibliotecárias; principal organismo não governamental global que define diretrizes para a prática profissional e manifestos de bibliotecas.',
+      exemploBiblioteca: 'Adoção das diretrizes do IFLA LRM e dos manifestos sobre bibliotecas digitais no catálogo unificado da Rede Virtual de Bibliotecas (RVBI).',
+    },
+  ],
   descricaoCurta: 'Gênese disciplinar, Paul Otlet e o Tratado de Documentação, Harold Borko e a emergência da CI pós-guerra, interdisciplinaridade e as divisões de Le Coadic.',
-  tempoEstimadoMinutos: 25,
+  tempoEstimadoMinutos: 22,
   autoresChave: ['Paul Otlet', 'Henri La Fontaine', 'Harold Borko', 'Yves-François Le Coadic', 'Tefko Saracevic', 'Vannevar Bush', 'IFLA / UNESCO'],
   alertasCebraspe: [
     'O Cebraspe frequentemente atribui a definição canônica de Ciência da Informação de Harold Borko (1968) à Biblioteconomia para induzir o candidato ao erro.',
@@ -195,6 +217,44 @@ Adotado em 2010 e chancelado pela UNESCO, este documento estabelece as diretrize
 * **Dado, Informação, Documento e Conhecimento (sub-1-3):** Aprofunda a ontologia documental de Briet e Buckland em relação ao ciclo DIKW.
 * **Governança da Informação e de Dados (sub-1-6):** Conecta a história da documentação à governança contemporânea de dados segundo o DAMA-DMBOK2.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Para o **Cebraspe**, o universo da informação organiza-se historicamente em três disciplinas complementares com marcos, objetos e focos distintos:
+1. **Biblioteconomia (Antiguidade ao séc. XIX):** Centrada na **instituição biblioteca** e no **livro impresso**. Sua missão histórica começou na custódia e preservação patrimonial e evoluiu (com Dewey e Ranganathan) para a democratização e o livre acesso social.
+2. **Documentação (Otlet e Briet, 1895/1934):** Rompe com o livro como suporte único. Seu objeto é o **documento em qualquer suporte físico** (artigos, relatórios, patentes, fotografias, microfilmes). Introduz o **princípio monográfico** (fracionamento e indexação analítica de partes).
+3. **Ciência da Informação - CI (Pós-Segunda Guerra, 1968):** Consolidada pela definição canônica de **Harold Borko (1968)**. Não tem como objeto uma instituição nem um suporte, mas **a informação em si**: suas propriedades, comportamento, fluxos, forças sociais e meios de processamento para ótima recuperação (*Information Retrieval*).
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+Como o Analista Legislativo - Bibliotecário vivencia essa tríade na rotina da Câmara:
+- **Cenário 1 (Biblioteconomia no Acervo Raro):** Ao salvaguardar um exemplar original da *Constituição de 1824* na Seção de Obras Raras da Biblioteca Pedro Aleixo, você aplica a tradição biblioteconômica de custódia, higienização e organização patrimonial.
+- **Cenário 2 (Documentação nas Comissões Temáticas):** Ao receber um projeto de lei de 300 páginas e extrair separadamente os pareceres das subcomissões, as notas técnicas de consultores e os votos em separado para indexação isolada no Sileg, você aplica rigorosamente o **princípio monográfico de Paul Otlet**.
+- **Cenário 3 (Ciência da Informação na Busca Legislativa):** Ao modelar os filtros semânticos e a busca por relevância na base de dados legislativa do portal da Câmara — garantindo que deputados encontrem normas correlatas em segundos durante uma votação em plenário —, você atua como um cientista da informação gerindo fluxos e recuperação da informação.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
+| Critério de Prova | Biblioteconomia | Documentação | Ciência da Informação |
+| :--- | :--- | :--- | :--- |
+| **Objeto Central** | O livro e a biblioteca física | O documento em qualquer suporte | A informação (fluxos e propriedades) |
+| **Marco Canônico** | Antiguidade / Melvil Dewey (1876) | Paul Otlet e Henri La Fontaine (1895) | Harold Borko (1968) / Saracevic |
+| **Público Primário** | Leitores gerais e comunidade social | Cientistas e pesquisadores especializados | Usuários de redes e sistemas digitais |
+| **Técnica Típica** | Catálogo em fichas / estantes abertas | Repertório Bibliográfico / fichas analíticas | Algoritmos de busca / tesauros / IA |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Armadilha do Autor Trocado:** A banca adora colocar o texto literal de Harold Borko (*"disciplina que investiga as propriedades e o comportamento da informação..."*) e afirmar que se trata da definição clássica de Biblioteconomia. **Gabarito: ERRADO.**
+- **Armadilha da Substituição Histórica:** Dizer que a Documentação ou a CI "tornaram obsoleta" ou "substituíram integralmente" a Biblioteconomia. **Gabarito: ERRADO.** As disciplinas convivem e complementam-se.
+- **Divisão de Le Coadic:** Lembre-se: *Biblioteconomia dos livros* = foco na gestão física e tratamento técnico do acervo; *Biblioteconomia dos leitores* = foco na mediação humana, necessidades e uso social da informação.
+
+---
+
+### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
+Antes de responder aos checkpoints, feche os olhos por 15 segundos e responda mentalmente:
+1. *Quem definiu a Ciência da Informação em 1968?* (Harold Borko).
+2. *Qual o marco e o princípio central da Documentação?* (1895 / Princípio Monográfico de Paul Otlet).
+3. *A Biblioteconomia cuida do quê?* (Do livro, da coleção e de sua função social na biblioteca).`,
   checkpoints: [
     {
       id: 'cp-1-1-1',

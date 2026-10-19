@@ -7,8 +7,30 @@ export const submodulo111: ModuloFilho = {
   preRequisitos: [],
   titulo: 'Estado, Governo, Princípios e Organização Administrativa',
   titulo_curto: 'Estado, Princípios e Organização',
+  antesDeLer: [
+    {
+      termo: 'Princípios Constitucionais (LIMPE)',
+      definicao: 'Princípios fundamentais do art. 37 da CF/88: Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência.',
+      exemploBiblioteca: 'Aplicação do princípio da publicidade no livre acesso às informações e gastos públicos na administração da biblioteca.',
+    },
+    {
+      termo: 'Administração Pública Direta vs. Indireta',
+      definicao: 'Direta compreende os órgãos integrantes das pessoas políticas (União, Estados, DF, Municípios); Indireta compreende autarquias, fundações e estatais.',
+      exemploBiblioteca: 'A Câmara dos Deputados atuando como órgão independente da Administração Direta da União.',
+    },
+    {
+      termo: 'Desconcentração vs. Descentralização',
+      definicao: 'Desconcentração é a partição de competências dentro de uma mesma pessoa jurídica (órgãos); descentralização cria nova pessoa jurídica.',
+      exemploBiblioteca: 'A criação do CEDI como órgão interno da Câmara por ato regimental constitui caso clássico de desconcentração administrativa.',
+    },
+    {
+      termo: 'Autotutela Administrativa',
+      definicao: 'Poder da administração de anular seus próprios atos quando eivados de vícios de legalidade, ou revogá-los por conveniência e oportunidade.',
+      exemploBiblioteca: 'Anulação de ato de descarte de acervo que não tenha observado o rito legal previsto em norma institucional.',
+    },
+  ],
   descricaoCurta: 'Conceito e elementos do Estado, separação de poderes e funções atípicas. Princípios constitucionais (LIMPE) e princípios implícitos da Administração Pública. Organização administrativa: centralização, descentralização, concentração, desconcentração, Administração Direta e Indireta.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 14,
   autoresChave: [
     'Maria Sylvia Zanella Di Pietro',
     'Hely Lopes Meirelles',

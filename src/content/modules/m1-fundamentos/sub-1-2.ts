@@ -19,8 +19,30 @@ export const submodulo12: ModuloFilho = {
   ],
   titulo: 'As Cinco Leis de Ranganathan e Releituras Contemporâneas',
   titulo_curto: 'Cinco Leis de Ranganathan',
+  antesDeLer: [
+    {
+      termo: 'Cinco Leis de Ranganathan',
+      definicao: 'Conjunto de enunciados normativos formulados por S. R. Ranganathan em 1931 que regem a filosofia, a organização e o serviço de referência das bibliotecas modernas.',
+      exemploBiblioteca: 'A 4ª lei (\'Poupe o tempo do leitor\') orienta a criação de alertas legislativos rápidos e dossiês sintéticos para os parlamentares em plenário.',
+    },
+    {
+      termo: 'Biblioteca como Organismo em Crescimento',
+      definicao: 'Quinta lei de Ranganathan que determina a necessidade de planejamento constante de espaço físico, sistemas digitais e expansão contínua da equipe e das coleções.',
+      exemploBiblioteca: 'A ampliação do repositório digital BDCam e a migração de servidores para nuvem refletem a adaptação contínua da biblioteca.',
+    },
+    {
+      termo: 'Livre Acesso às Estantes',
+      definicao: 'Prática introduzida na biblioteconomia moderna decorrente da 1ª lei (\'Os livros são para usar\'), superando o paradigma custodial de acervos trancados.',
+      exemploBiblioteca: 'Organização do acervo de livre consulta na sala de leitura da Biblioteca Pedro Aleixo.',
+    },
+    {
+      termo: 'Mediação da Informação',
+      definicao: 'Ação de interferência realizada pelo bibliotecário entre o usuário e os recursos informacionais para viabilizar a apropriação do conhecimento.',
+      exemploBiblioteca: 'Atendimento especializado aos assessores parlamentares na formulação de estratégias de busca sobre proposições legislativas.',
+    },
+  ],
   descricaoCurta: 'O tratado de Shiyali Ramamrita Ranganathan (1931), análise sistêmica de cada lei, implicações em bibliotecas legislativas e as formulações de Michael Gorman, Jim Thompson e Rettig.',
-  tempoEstimadoMinutos: 30,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['Shiyali Ramamrita Ranganathan', 'Michael Gorman', 'James Rettig', 'Jim Thompson', 'Alire'],
   alertasCebraspe: [
     'A 1ª Lei ("Livros são para usar") ataca a preservação estéril e exige políticas ativas de circulação, localização acessível e horários estendidos.',
@@ -180,6 +202,41 @@ Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavra
 * **Desenvolvimento e Gestão de Coleções (sub-5-1):** Aplica a 1ª, 2ª e 3ª leis de Ranganathan à política de seleção e censura.
 * **Bibliotecas Digitais e Discovery (sub-6-1):** Aplica a 4ª e 5ª leis à economia de tempo e evolução dos repositórios digitais.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+Em 1931, o bibliotecário indiano **Shiyali Ramamrita Ranganathan** sintetizou toda a filosofia dos serviços bibliotecários em **Cinco Leis Fundamentais**:
+1. **1ª Lei: Os livros são para usar (*Books are for use*):** Supera a custódia patrimonialista que trancava os livros. Exige localização acessível da biblioteca, horários ampliados de funcionamento, estantes abertas, mobiliário confortável e atitude acolhedora da equipe.
+2. **2ª Lei: A cada leitor o seu livro (*Every reader his/her book*):** Princípio da democratização radical e equidade informacional. Atender a todos os tipos de público (pesquisadores, crianças, pessoas com deficiência, minorias) sem censura nem discriminação.
+3. **3ª Lei: A cada livro o seu leitor (*Every book its reader*):** Encontrar um leitor para cada obra do acervo. Exige catalogação analítica profunda, divulgação ativa, vitrines temáticas, estantes de livre acesso e marketing de serviços.
+4. **4ª Lei: Poupe o tempo do leitor (*Save the time of the reader*):** Eficiência máxima no atendimento. Sistemas ágeis de busca e recuperação, sinalização visual clara nas estantes, catálogo automatizado, circulação rápida e eliminação de burocracias inúteis.
+5. **5ª Lei: A biblioteca é um organismo em crescimento (*A library is a growing organism*):** Planejamento contínuo e dinâmico. O acervo cresce fisicamente e digitalmente, o espaço requer expansão ou descarte/desbaste metódico, a equipe evolui e a tecnologia deve ser continuamente modernizada.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **A 4ª Lei no Plenário da Câmara:** Um consultor parlamentar corre à Biblioteca Pedro Aleixo precisando de precedentes sobre votação de Medida Provisória em 10 minutos. O bibliotecário de referência não o manda preencher um formulário em papel; busca na base jurídica, seleciona os 2 pareceres exatos e envia em PDF no WhatsApp do gabinete. Isso é a aplicação viva da **4ª Lei (poupar o tempo do leitor)**.
+- **A 5ª Lei na BDCam:** Com o esgotamento do espaço físico nos depósitos subterrâneos do Palácio do Congresso, o CEDI digitalizou milhares de anais históricos e expandiu a Biblioteca Digital da Câmara (BDCam), migrando a custódia para nuvem e aplicando política contínua de desbaste em duplicatas impressas. Isso é a **5ª Lei (organismo em crescimento)**.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido: 2ª Lei vs. 3ª Lei
+| Aspecto | 2ª Lei: A Cada Leitor o Seu Livro | 3ª Lei: A Cada Livro o Seu Leitor |
+| :--- | :--- | :--- |
+| **Ponto de Partida** | O **Usuário / Leitor** (suas carências e direitos) | O **Documento / Livro** (sua utilidade no acervo) |
+| **Foco de Ação** | Democratização, acessibilidade, equidade e inclusão | Divulgação ativa, marketing, indexação e vitrines |
+| **Pergunta-Guia** | *"Quem é este leitor e que informação ele precisa?"* | *"Para quem esta obra adormecida na estante pode ser útil?"* |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Troca entre 2ª e 3ª Leis:** A banca descreve uma ação de marketing cultural ou exposição temática de livros de economia e diz que decorre da 2ª Lei. **Gabarito: ERRADO** (decorre da 3ª Lei: encontrar leitores para as obras!).
+- **O Falso Conflito entre Conservação e Uso:** O Cebraspe afirma que manter estantes trancadas e limitar o acesso aos livros é a prática prioritária recomendada pela 1ª Lei para garantir a conservação perene. **Gabarito: ERRADO** (a 1ª Lei afirma categoricamente que o uso vem antes da guarda cega!).
+- **A 4ª Lei e o Bibliotecário:** Poupar o tempo do usuário também significa poupar o tempo dos profissionais por meio de padronização, cooperação e ferramentas eficientes.
+
+---
+
+### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
+- *Qual lei exige descarte e desbaste programado?* (5ª Lei: o organismo cresce e renova suas células!).
+- *Qual lei proíbe censura prévia na seleção?* (2ª Lei: a cada leitor o seu livro!).`,
   checkpoints: [
     {
       id: 'cp-1-2-1',

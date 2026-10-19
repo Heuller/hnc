@@ -18,8 +18,30 @@ export const submodulo23: ModuloFilho = {
       }
   ],
   titulo: 'Modelos Conceituais: A Família FRBR e o IFLA LRM',
+  antesDeLer: [
+    {
+      termo: 'IFLA LRM (Library Reference Model)',
+      definicao: 'Modelo conceitual unificado de alto nível desenvolvido pela IFLA que consolidou FRBR, FRAD e FRSAD em uma estrutura única entidade-relacionamento.',
+      exemploBiblioteca: 'Modelagem dos dados bibliográficos da Câmara dos Deputados para viabilizar buscas semânticas avançadas.',
+    },
+    {
+      termo: 'Res (Entidade Raiz)',
+      definicao: 'Entidade topo do IFLA LRM que abrange qualquer coisa que possa ser objeto de discurso ou interesse intelectual.',
+      exemploBiblioteca: 'Classificar tanto um projeto de lei quanto o conceito de \'Reforma Tributária\' como instâncias de Res.',
+    },
+    {
+      termo: 'Agente (Agent)',
+      definicao: 'Entidade do LRM que reúne Pessoas e Coletividades dotadas de capacidade de agir e assumir responsabilidade sobre criações.',
+      exemploBiblioteca: 'Tratamento unificado para Deputados (Pessoa) e Comissões Permanentes (Coletividade) como criadores de relatórios legislativos.',
+    },
+    {
+      termo: 'Tarefas do Usuário (User Tasks)',
+      definicao: 'Objetivos funcionais do usuário nos catálogos modernos: Encontrar (Find), Identificar (Identify), Selecionar (Select), Obter (Obtain) e Explorar (Explore).',
+      exemploBiblioteca: 'Avaliação da usabilidade do catálogo da biblioteca verificando se o usuário consegue \'Explorar\' relações temáticas entre leis correlatas.',
+    },
+  ],
   descricaoCurta: 'Modelagem Entidade-Relacionamento no universo bibliográfico: o quarteto WEMI, a evolução FRBR/FRAD/FRSAD e a consolidação no IFLA LRM (2017) com suas 11 entidades ontológicas e 5 tarefas do usuário.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['IFLA Study Group on FRBR', 'Pat Riva', 'Maja Žumer', 'Glenn Patton', 'Barbara Tillett', 'Peter Chen'],
   alertasCebraspe: [
     'O IFLA LRM (Library Reference Model, 2017) consolidou e substituiu integralmente os três modelos conceituais anteriores da família FR: o FRBR (1998, dados bibliográficos), o FRAD (2009, dados de autoridade) e o FRSAD (2010, dados de autoridade de assunto). A banca Cebraspe frequentemente tenta confundir o candidato afirmando que os três modelos ainda coexistem como padrões ativos e independentes.',

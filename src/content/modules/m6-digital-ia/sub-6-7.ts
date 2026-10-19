@@ -23,9 +23,31 @@ export const submodulo67: ModuloFilho = {
       }
   ],
   titulo: 'IA Aplicada à Informação: Classificação, OCR/HTR, Curadoria de Corpora, Avaliação e Vieses',
+  antesDeLer: [
+    {
+      termo: 'OCR (Optical Character Recognition)',
+      definicao: 'Tecnologia de conversão de imagens de texto impresso ou datilografado em caracteres de texto legíveis e pesquisáveis por máquina.',
+      exemploBiblioteca: 'Digitalização e OCR dos diários da Constituinte de 1987-1988 para permitir busca por palavras no texto integral.',
+    },
+    {
+      termo: 'HTR (Handwritten Text Recognition)',
+      definicao: 'Tecnologia de aprendizado profundo focada na transcrição automática de manuscritos históricos com grafias cursivas complexas.',
+      exemploBiblioteca: 'Transcrição assistida por IA de livros de atas e correspondências do Império arquivados na Biblioteca Pedro Aleixo.',
+    },
+    {
+      termo: 'Processamento de Linguagem Natural (PLN)',
+      definicao: 'Subcampo da IA que investiga a compreensão, análise, síntese e geração automática de linguagem humana por sistemas computacionais.',
+      exemploBiblioteca: 'Sumarização automática de justificativas de projetos de lei para gerar ementas prévias nos sistemas legislativos.',
+    },
+    {
+      termo: 'Vieses Algorítmicos (Bias)',
+      definicao: 'Desvios sistemáticos e preconceitos incorporados em modelos de IA decorrentes de distorções nos dados de treinamento ou nos algoritmos.',
+      exemploBiblioteca: 'Auditoria ética de algoritmos de busca para evitar que determinados temas sociais sejam silenciados nos resultados.',
+    },
+  ],
   descricaoCurta:
     'Aprendizado supervisionado vs. não supervisionado na organização informacional; sumarização extrativa vs. abstrativa; tecnologias de OCR e HTR (métricas CER e WER); curadoria e documentação de corpora (Datasheets for Datasets e Model Cards); avaliação em sistemas RAG (groundedness e alucinação); vieses algorítmicos e ética informacional.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 14,
   autoresChave: [
     'Timnit Gebru et al. (Datasheets for Datasets, 2018/2021)',
     'Margaret Mitchell et al. (Model Cards for Model Reporting, 2019)',

@@ -7,8 +7,30 @@ export const submodulo1111: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Contratos Administrativos, Gestão e Fiscalização Contratual',
   titulo_curto: 'Contratos e Fiscalização Contratual',
+  antesDeLer: [
+    {
+      termo: 'Cláusulas Exorbitantes',
+      definicao: 'Prerrogativas especiais conferidas à Administração Pública nos contratos administrativos (alteração unilateral, rescisão unilateral, fiscalização).',
+      exemploBiblioteca: 'Alteração unilateral de até 25% no contrato de encadernação para atender ao aumento inesperado de relatórios parlamentares.',
+    },
+    {
+      termo: 'Fiscal Técnico vs. Gestor do Contrato',
+      definicao: 'O fiscal acompanha diariamente a conformidade técnica da execução do objeto; o gestor coordena os aspectos administrativos gerais e termos aditivos.',
+      exemploBiblioteca: 'O bibliotecário designado como fiscal técnico conferindo se os livros entregues pela editora correspondem exatamente às edições solicitadas.',
+    },
+    {
+      termo: 'Serviços Contínuos (Prazo de até 10 Anos)',
+      definicao: 'Regra da Lei nº 14.133/2021 que permite contratos de serviços e fornecimentos contínuos com prazo inicial de até 5 anos, prorrogáveis até 10 anos.',
+      exemploBiblioteca: 'Contrato de suporte técnico e manutenção do sistema integrado de bibliotecas celebrado para vigência plurianual.',
+    },
+    {
+      termo: 'Sanções da Nova Lei de Licitações',
+      definicao: 'Advertência, multa, impedimento de licitar (atinge a Administração Direta/Indireta do ente por até 3 anos) e declaração de inidoneidade (atinge todos os entes por até 6 anos).',
+      exemploBiblioteca: 'Aplicação de multa à fornecedora de papel alcalino neutro que atrasar a entrega das caixas de acondicionamento para o acervo raro.',
+    },
+  ],
   descricaoCurta: 'Características do contrato administrativo e cláusulas exorbitantes (art. 104). Duração dos contratos (até 10 anos em contínuos). Gestão vs. Fiscalização técnica e administrativa. Recebimento provisório e definitivo. Alterações contratuais e equilíbrio econômico-financeiro. Sanções.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Nova Lei de Licitações e Contratos (Lei nº 14.133/2021)',
     'Tribunal de Contas da União (TCU)',

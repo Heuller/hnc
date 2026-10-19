@@ -7,8 +7,30 @@ export const submodulo112: ModuloFilho = {
   preRequisitos: ["sub-11-1"],
   titulo: 'Ato Administrativo, Invalidação e Responsabilidade por Pareceres',
   titulo_curto: 'Atos Administrativos e Pareceres',
+  antesDeLer: [
+    {
+      termo: 'Elementos do Ato Administrativo (COMFIFOR)',
+      definicao: 'Requisitos de validade: Competência, Finalidade, Forma, Motivo e Objeto.',
+      exemploBiblioteca: 'Elaboração de termo de doação de livros contendo motivo justificado, competência da chefia e forma escrita oficial.',
+    },
+    {
+      termo: 'Atributos do Ato (PATI)',
+      definicao: 'Características dos atos administrativos: Presunção de legitimidade, Autoexecutoriedade, Tipicidade e Imperatividade.',
+      exemploBiblioteca: 'Presunção de que certidões e relatórios emitidos pela Biblioteca Pedro Aleixo são verdadeiros e conformes à lei.',
+    },
+    {
+      termo: 'Atos Vinculados vs. Discricionários',
+      definicao: 'Vinculado é aquele em que a lei não deixa margem de escolha; discricionário permite juízo de conveniência e oportunidade nos limites da lei.',
+      exemploBiblioteca: 'A escolha dos temas das exposições culturais da biblioteca como ato discricionário da direção do CEDI.',
+    },
+    {
+      termo: 'Anulação vs. Revogação',
+      definicao: 'Anulação extingue ato ilegal com efeitos retroativos (ex tunc); revogação extingue ato legal inconveniente com efeitos prospectivos (ex nunc).',
+      exemploBiblioteca: 'Revogação de uma portaria interna sobre horários de empréstimo para atender ao novo expediente da Câmara.',
+    },
+  ],
   descricaoCurta: 'Conceito, requisitos de validade (COFIFOMOB) e atributos (PATI). Classificação e espécies de atos. Extinção: anulação, revogação, cassação, caducidade e convalidação (FO-CO). Teoria dos Motivos Determinantes. Espécies de parecer e responsabilidade do emissor (STF e LINDB).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: [
     'Maria Sylvia Zanella Di Pietro',
     'Hely Lopes Meirelles',

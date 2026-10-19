@@ -53,6 +53,8 @@ export const TeoriaPage: React.FC = () => {
     setUltimoModuloAcessado,
     getProgressoGlobal,
     historicoSimulados,
+    preferenciaModoTeoria,
+    setModoTeoria,
   } = useProgressStore();
 
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -119,6 +121,16 @@ export const TeoriaPage: React.FC = () => {
   const [activeSectionId, setActiveSectionId] = useState<string>('sec-teoria');
   const [lateralTab, setLateralTab] = useState<'sumario' | 'mnemonicos'>('sumario');
 
+  const modoTeoriaAtivo =
+    preferenciaModoTeoria?.[currentSub.id] ||
+    preferenciaModoTeoria?.[currentMacro.id] ||
+    'canonica';
+
+  const alternarModoTeoria = (modo: 'canonica' | 'didatica') => {
+    setModoTeoria(currentSub.id, modo);
+    setModoTeoria(currentMacro.id, modo);
+  };
+
   const readingSections = useMemo(
     () => [
       { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
@@ -131,11 +143,18 @@ export const TeoriaPage: React.FC = () => {
       ...(currentSub.antesDeLer && currentSub.antesDeLer.length > 0
         ? [{ id: 'sec-antes-de-ler', numero: '4', titulo: 'Pré-requisitos' }]
         : []),
-      { id: 'sec-teoria', numero: '5', titulo: 'Fundamentação Teórica' },
+      {
+        id: 'sec-teoria',
+        numero: '5',
+        titulo:
+          modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
+            ? 'Teoria Didática & Prática'
+            : 'Fundamentação Teórica',
+      },
       { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
       { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
     ],
-    [currentSub]
+    [currentSub, modoTeoriaAtivo]
   );
 
   useEffect(() => {
@@ -522,19 +541,88 @@ export const TeoriaPage: React.FC = () => {
             </div>
           )}
 
-          {/* Bloco 4: Teoria Editorial */}
+          {/* Bloco 4: Teoria Editorial (Dual: Canônica vs Prática / Vida Real) */}
           <article id="sec-teoria" className="border-t border-border pt-6">
-            <div className="mb-4">
-              <span className="font-mono text-xs uppercase tracking-wider text-ink-2 font-semibold">
-                Doutrina e Bibliografia Especializada
-              </span>
-              <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight mt-1">
-                Fundamentação Teórica
-              </h2>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+              <div>
+                <span className="font-mono text-xs uppercase tracking-wider text-ink-2 font-semibold">
+                  {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
+                    ? 'Modo Prático & Didático • Vida Real / Câmara dos Deputados'
+                    : 'Doutrina e Bibliografia Especializada'}
+                </span>
+                <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight mt-1">
+                  {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
+                    ? 'Teoria Didática & Aplicação Prática'
+                    : 'Fundamentação Teórica Canônica'}
+                </h2>
+              </div>
+
+              {/* Seletor Dual de Formato de Estudo (W5) */}
+              <div
+                className="inline-flex p-1 rounded-xl bg-surface-2 border border-border shrink-0 self-start sm:self-auto shadow-2xs"
+                role="group"
+                aria-label="Alternar formato de estudo da teoria"
+              >
+                <button
+                  type="button"
+                  data-testid="btn-modo-canonica"
+                  onClick={() => alternarModoTeoria('canonica')}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                    modoTeoriaAtivo === 'canonica'
+                      ? 'bg-surface text-ink shadow-xs border border-border font-bold'
+                      : 'text-ink-2 hover:text-ink'
+                  }`}
+                  aria-pressed={modoTeoriaAtivo === 'canonica'}
+                  title="Estudar pela teoria canônica e aprofundada institucional"
+                >
+                  <BookOpen className="w-3.5 h-3.5 text-accent" />
+                  <span>Teoria Canônica</span>
+                </button>
+
+                <button
+                  type="button"
+                  data-testid="btn-modo-didatica"
+                  onClick={() => alternarModoTeoria('didatica')}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                    modoTeoriaAtivo === 'didatica'
+                      ? 'bg-accent text-accent-contrast shadow-xs font-bold'
+                      : 'text-ink-2 hover:text-ink'
+                  }`}
+                  aria-pressed={modoTeoriaAtivo === 'didatica'}
+                  title="Estudar pelo formato didático com foco na vida real e rotina da Câmara"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Modo Prático & Vida Real</span>
+                  {currentSub.teoriaDidaticaMarkdown && (
+                    <span className="text-[10px] bg-accent-contrast/20 px-1 py-0.2 rounded font-mono">
+                      Piloto
+                    </span>
+                  )}
+                </button>
+              </div>
             </div>
 
+            {/* Aviso informativo quando Modo Prático é acionado mas ainda não há markdown piloto */}
+            {modoTeoriaAtivo === 'didatica' && !currentSub.teoriaDidaticaMarkdown && (
+              <div className="mb-6 p-4 rounded-xl border border-accent/30 bg-accent-soft/30 text-ink flex items-start gap-3 animate-fadeIn">
+                <Sparkles className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                <div className="text-xs space-y-1">
+                  <p className="font-bold text-ink">
+                    Modo Prático em Expansão Gradual
+                  </p>
+                  <p className="text-ink-2">
+                    A versão didática deste submódulo está em elaboração. Exibindo a Teoria Canônica Densa integral para manter a cobertura total do edital.
+                  </p>
+                </div>
+              </div>
+            )}
+
             <ConteudoMarkdown
-              content={currentSub.teoriaDensaMarkdown}
+              content={
+                modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
+                  ? currentSub.teoriaDidaticaMarkdown
+                  : currentSub.teoriaDensaMarkdown
+              }
               submoduloId={currentSub.id}
             />
 

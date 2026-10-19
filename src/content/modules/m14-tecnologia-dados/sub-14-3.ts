@@ -13,8 +13,30 @@ export const submodulo143: ModuloFilho = {
       }
   ],
   titulo: 'Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público',
+  antesDeLer: [
+    {
+      termo: 'Engenharia de Prompts (Prompt Engineering)',
+      definicao: 'Técnica de estruturar instruções precisas, contexto, formato de saída e restrições para orientar modelos de linguagem (LLMs).',
+      exemploBiblioteca: 'Criação de prompts padronizados para que a IA gere resumos estruturados de proposições orçamentárias no formato Cebraspe.',
+    },
+    {
+      termo: 'Modelos de Linguagem Grande (LLMs)',
+      definicao: 'Redes neurais treinadas em grandes volumes de texto baseadas na arquitetura Transformer capazes de gerar e analisar linguagem natural.',
+      exemploBiblioteca: 'Uso de LLMs institucionais homologadas pela Câmara para extração de entidades em discursos parlamentares.',
+    },
+    {
+      termo: 'Alucinação em IA (Hallucination)',
+      definicao: 'Fenômeno em que o modelo gerador produz afirmações factualmente incorretas com alta confiança e tom plausível.',
+      exemploBiblioteca: 'Necessidade indispensável de curadoria humana do bibliotecário para checar a veracidade de leis citadas por chatbots.',
+    },
+    {
+      termo: 'Human-in-the-Loop (HITL)',
+      definicao: 'Abordagem que integra a validação e supervisão humana em etapas críticas de tomada de decisão de sistemas de IA.',
+      exemploBiblioteca: 'O bibliotecário revisando e aprovando os termos de indexação sugeridos automaticamente pelo algoritmo antes de publicá-los no catálogo.',
+    },
+  ],
   descricaoCurta: 'Paradigmas de Machine Learning (supervisionado, não-supervisionado e por reforço/RLHF); arquitetura Transformer e LLMs; técnicas de engenharia de prompts (Zero-shot, Few-shot, Chain-of-Thought e RAG); governança ética, LGPD, explicabilidade e supervisão humana (human-in-the-loop).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: ['Stuart Russell & Peter Norvig', 'Ashish Vaswani et al. (2017)', 'Jason Wei et al. (2022)', 'Câmara dos Deputados (Ditec)', 'OCDE / UNESCO'],
   alertasCebraspe: [
     'Paradigmas de Aprendizado de Máquina: O Aprendizado Supervisionado exige dados rotulados (features e rótulos alvo) para tarefas de classificação e regressão; o Não-Supervisionado atua sobre dados sem rótulos, buscando agrupamentos (clustering com K-Means) ou redução de dimensionalidade (PCA); o Aprendizado por Reforço treina agentes por tentativa, erro e funções de recompensa (essencial no alinhamento humano via RLHF - Reinforcement Learning from Human Feedback).',

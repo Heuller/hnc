@@ -6,8 +6,30 @@ export const submodulo123: ModuloFilho = {
   editalRef: 'Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)',
   preRequisitos: ["sub-12-2"],
   titulo: 'Mecanismos de Coesão Textual e Referenciação (Anáfora, Catáfora e Pronomes)',
+  antesDeLer: [
+    {
+      termo: 'Anáfora e Catáfora em Inglês',
+      definicao: 'Anáfora retoma elemento textual anterior; catáfora antecipa elemento que será introduzido adiante no discurso.',
+      exemploBiblioteca: 'Questão clássica Cebraspe: identificar a que substantivo o pronome \'its\' ou \'they\' se refere no parágrafo 2.',
+    },
+    {
+      termo: 'Pronomes Relativos (Relative Pronouns)',
+      definicao: 'Who (pessoas), Which (coisas/animais), That (pessoas/coisas em restritivas) e Whose (posse).',
+      exemploBiblioteca: 'Analisar se a omissão do pronome relativo em orações adjetivas restritivas prejudica a correção gramatical da frase.',
+    },
+    {
+      termo: 'Elipse e Substituição',
+      definicao: 'Mecanismos de coesão que evitam repetições desnecessárias omitindo termos facilmente recuperáveis pelo contexto (\'one\', \'do so\').',
+      exemploBiblioteca: 'Compreender que \'the modern ones\' retoma \'the ancient libraries\' citado na linha anterior.',
+    },
+    {
+      termo: 'Cadeia Coesiva Lexical',
+      definicao: 'Uso de sinônimos, hiperônimos e termos derivados para manter o fluxo temático sem repetição vocabular excessiva.',
+      exemploBiblioteca: 'O autor alternando \'records\', \'documents\', \'archives\' e \'materials\' para se referir ao mesmo acervo histórico.',
+    },
+  ],
   descricaoCurta: 'Cadeias de referenciação anafórica e catafórica, o uso exato dos pronomes relativos (who, whom, which, that, whose), a distinção clássica entre "the former" e "the latter", e os itens de remissão pronominal mais cobrados pelo Cebraspe.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 8,
   autoresChave: ['M.A.K. Halliday (Cohesion in English)', 'Ruqaiya Hasan', 'Gillian Brown (Discourse Analysis)', 'George Yule'],
   alertasCebraspe: [
     'O pronome "which" retomando uma oração inteira: Em estruturas do tipo "... the parliament approved the reform, WHICH surprised the opposition", o Cebraspe afirma que "which" refere-se a "the opposition" ou a "the reform". ITEM ERRADO! O pronome "which" após vírgula refere-se a TODO O FATO expresso na oração anterior (o fato de o parlamento ter aprovado a reforma).',

@@ -18,9 +18,31 @@ export const submodulo106: ModuloFilho = {
       }
   ],
   titulo: 'Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN)',
+  antesDeLer: [
+    {
+      termo: 'Regimento Comum do Congresso Nacional (RCCN)',
+      definicao: 'Norma regulamentadora das sessões conjuntas da Câmara e do Senado, das comissões mistas e da deliberação sobre matérias orçamentárias e vetos.',
+      exemploBiblioteca: 'Catalogação de pareceres emitidos pela Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO).',
+    },
+    {
+      termo: 'Sessão Conjunta',
+      definicao: 'Reunião simultânea dos deputados federais e senadores no plenário da Câmara dos Deputados presidida pelo Presidente do Senado Federal.',
+      exemploBiblioteca: 'Catalogação das atas e diários do Congresso Nacional relativos à apreciação de vetos presidenciais.',
+    },
+    {
+      termo: 'Comissão Mista de Orçamento (CMO)',
+      definicao: 'Colegiado paritário composto por deputados e senadores encarregado de examinar e emitir parecer sobre o PPA, a LDO e a LOA.',
+      exemploBiblioteca: 'Atendimento técnico contínuo à Consultoria de Orçamento da Câmara na análise de emendas parlamentares.',
+    },
+    {
+      termo: 'Apreciação de Vetos em Sessão Conjunta',
+      definicao: 'Procedimento regimental em que o veto presidencial só é rejeitado pela maioria absoluta de votos de ambas as Casas legislativas.',
+      exemploBiblioteca: 'Registro da derrubada de vetos e a subsequente promulgação de trechos legais pelo Presidente do Congresso Nacional.',
+    },
+  ],
   descricaoCurta:
     'Mesa do Congresso Nacional, alternância institucional de cargos, sessões conjuntas, quóruns de deliberação, apreciação de vetos presidenciais em 30 dias e tramitação de leis e resoluções no Congresso Nacional.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'João Trindade Cavalcante Filho',
     'Paulo Modesto',

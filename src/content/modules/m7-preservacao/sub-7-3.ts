@@ -13,8 +13,30 @@ export const submodulo73: ModuloFilho = {
       }
   ],
   titulo: 'Conservação Preventiva: Higienização, Acondicionamento e Manuseio de Acervos',
+  antesDeLer: [
+    {
+      termo: 'Conservação Preventiva',
+      definicao: 'Conjunto de ações indiretas contínuas destinadas a mitigar a deterioração e prevenir danos ao acervo sem intervir fisicamente no documento.',
+      exemploBiblioteca: 'Higienização mecânica periódica das estantes e controle de manuseio com suportes de apoio para livros volumosos.',
+    },
+    {
+      termo: 'Acondicionamento e Embalagem',
+      definicao: 'Uso de invólucros, caixas, pastas e jaquetas confeccionadas com materiais inertes e de pH neutro para proteger documentos de agentes externos.',
+      exemploBiblioteca: 'Guarda de mapas e plantas históricas do Congresso Nacional em pastas de mylar e papel alcalino barrier.',
+    },
+    {
+      termo: 'Higienização Mecânica a Seco',
+      definicao: 'Remoção de sujidades superficiais utilizando trinchas macias, pó de borracha específico ou aspiradores com filtro HEPA.',
+      exemploBiblioteca: 'Limpeza folha a folha de anais do Senado e da Câmara antes de sua digitalização em scanner planetário.',
+    },
+    {
+      termo: 'Treinamento de Manuseio',
+      definicao: 'Capacitação de equipes e orientação a usuários sobre o correto transporte, abertura e retirada de volumes nas estantes.',
+      exemploBiblioteca: 'Orientação para nunca puxar o livro pela coifa (topo da lombada) para evitar rasgos no couro ou tecido.',
+    },
+  ],
   descricaoCurta: 'Diferenças entre preservação, conservação e restauração, técnicas de higienização mecânica a seco (trinchas, esponjas e aspiradores HEPA), materiais adequados de acondicionamento (papel alcalino/acid-free e poliéster vs. PVC), pequenos reparos com papel japonês e regras ergonômicas de manuseio e estantes.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 15,
   prioridade: 'normal',
   autoresChave: ['Norma Cassares', 'Ingrid Beck', 'Maria Luísa Soares', 'Paul N. Banks', 'Library of Congress', 'IFLA-PAC'],
   alertasCebraspe: [

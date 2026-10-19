@@ -4,6 +4,28 @@ Este documento registra todas as alterações estruturais, correções normativa
 
 ---
 
+## [Missão v2 — Fase 4: W5] — Modelo Teórico Dual, Metadados e Vida Real na Câmara (19/10/2026)
+
+### W5.1 — Dispositivo de Alternância Teórica Dual (Diretriz do Aluno)
+- **Alternador Editorial na Leitura:** Adicionado seletor visual Segmented Control no cabeçalho da teoria (`TeoriaPage.tsx`) permitindo ao aluno alternar instantaneamente entre a **Teoria Canônica (Doutrina Densa)** e o **Modo Prático & Vida Real (Câmara dos Deputados)**.
+- **Persistência de Preferência:** Campo `preferenciaModoTeoria` modelado no `UserProgressSchema` e gerenciado pelas ações `setModoTeoria` e `obterModoTeoria` no `useProgressStore.ts`, persistindo por módulo e por submódulo.
+- **Suporte no Schema de Módulos:** Campo opcional `teoriaDidaticaMarkdown` adicionado ao `ModuloFilhoSchema`.
+
+### W5.2 — Preenchimento Universal de `antesDeLer` nos 75 Submódulos
+- **Saneamento Total:** 69 submódulos que possuíam `antesDeLer` vazio ou ausente foram integralmente preenchidos com **3 a 5 conceitos essenciais**.
+- **Contextualização Prática:** Cada termo possui `termo`, `definicao` formal no padrão Cebraspe e `exemploBiblioteca` com aplicação na rotina da Câmara dos Deputados (CEDI, Biblioteca Pedro Aleixo, RVBI e processo legislativo).
+- **Cobertura:** 75 de 75 submódulos (100%) agora renderizam o componente `CartaoAntesDeLer` com opções de memorização ativa ("Já sei" / "Reabrir").
+
+### W5.3 — Recalibração Científica do Tempo Estimado de Leitura
+- **Fórmula Dinâmica:** $\text{tempoEstimadoMinutos} = \max\left(5, \operatorname{round}\left(\frac{\text{palavras}}{180}\right) + \text{checkpoints} \times 2\right)$.
+- **Erradicação de Valores Arbitrários:** Valores fixos legados (45/50 min) substituídos por estimativas realistas que variam entre 7 e 27 minutos conforme a extensão do conteúdo.
+
+### W5.4 — Piloto da Teoria Didática em 5 Submódulos Estratégicos
+- **Submódulos Pilotos:** Implementada a `teoriaDidaticaMarkdown` em `sub-1-1`, `sub-1-2`, `sub-2-1`, `sub-7-1` e `sub-10-1`.
+- **Estrutura Cognitiva Quíntupla:** Visão Direta em 3 Minutos, Casos Reais na Câmara dos Deputados, Quadro de Contraste Anticonfusão, Como o Cebraspe Cobra na Prova e Micro-Pausa Ativa.
+
+---
+
 ## [Missão v2 — Fase 3: W3 e W4] — Auditoria Editalícia, Higienização de OCR e Injeção Massiva de Questões Reais Cebraspe (19/10/2026)
 
 ### W3.1 — Higienização de OCR e Erradicação de Anacronismos

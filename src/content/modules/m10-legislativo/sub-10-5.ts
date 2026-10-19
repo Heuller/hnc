@@ -18,8 +18,30 @@ export const submodulo105: ModuloFilho = {
       }
   ],
   titulo: 'Poder Legislativo e Regime Jurídico dos Parlamentares na CF/88',
+  antesDeLer: [
+    {
+      termo: 'Artigos 48 a 75 da CF/88',
+      definicao: 'Núcleo constitucional que estabelece as atribuições do Congresso Nacional e as competências privativas da Câmara dos Deputados (art. 51).',
+      exemploBiblioteca: 'Fundamentação de dossiê técnico sobre as competências exclusivas da Câmara na autorização de processo contra o Presidente da República.',
+    },
+    {
+      termo: 'Imunidades Parlamentares',
+      definicao: 'Prerrogativas constitucionais conferidas aos membros do Parlamento: material (inviolabilidade por palavras e votos) e formal (processual/prisão).',
+      exemploBiblioteca: 'Compilação de doutrina sobre os limites da imunidade material para a assessoria jurídica da Mesa Diretora.',
+    },
+    {
+      termo: 'Fiscalização Contábil, Financeira e Orçamentária',
+      definicao: 'Competência do Poder Legislativo exercida mediante controle externo com o auxílio técnico do Tribunal de Contas da União (TCU).',
+      exemploBiblioteca: 'Integração das publicações de acórdãos e relatórios do TCU no catálogo compartilhado da RVBI.',
+    },
+    {
+      termo: 'Perda de Mandato Parlamentar',
+      definicao: 'Hipóteses constitucionais (art. 55) em que o mandato é cassado por deliberação do Plenário ou declarado extinto pela Mesa Diretora.',
+      exemploBiblioteca: 'Registro histórico nos perfis dos parlamentares na base de dados de ex-deputados da Câmara.',
+    },
+  ],
   descricaoCurta: 'Organização do Poder Legislativo (Congresso Nacional, Câmara e Senado), sessões legislativas, comissões e CPIs, estatuto dos congressistas (inviolabilidade, imunidades formais, prerrogativas, incompatibilidades e perda de mandato) e intervenção federal.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: [
     'José Afonso da Silva',
     'Gilmar Ferreira Mendes',

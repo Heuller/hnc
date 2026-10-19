@@ -18,8 +18,30 @@ export const submodulo61: ModuloFilho = {
       }
   ],
   titulo: 'Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade',
+  antesDeLer: [
+    {
+      termo: 'Biblioteca Digital vs. Virtual vs. Eletrônica',
+      definicao: 'Eletrônica usa computadores para gestão; Digital possui acervo nato-digital ou digitalizado em rede; Virtual é desprovida de espaço físico.',
+      exemploBiblioteca: 'A Biblioteca Digital da Câmara (BDCam) funcionando como o nó digital do acervo da Biblioteca Pedro Aleixo.',
+    },
+    {
+      termo: 'Arquitetura da Informação (AI)',
+      definicao: 'Arte e ciência de estruturar e organizar ecossistemas de informação para facilitar a usabilidade e a encontrabilidade pelo usuário.',
+      exemploBiblioteca: 'Desenho dos menus de navegação, taxonomia e hierarquia visual da nova interface do portal de pesquisa da Câmara.',
+    },
+    {
+      termo: 'Encontrabilidade (Findability)',
+      definicao: 'Grau de facilidade com que um objeto ou conteúdo pode ser descoberto e localizado em um ambiente informacional.',
+      exemploBiblioteca: 'Melhoria dos filtros por data de proposição e comissão para que o cidadão encontre imediatamente uma lei em vigor.',
+    },
+    {
+      termo: 'Heurísticas de Usabilidade de Nielsen',
+      definicao: 'Dez princípios gerais para design de interação: visibilidade do status, consistência, prevenção de erros e flexibilidade de uso.',
+      exemploBiblioteca: 'Inserção de breadcrumbs (trilhas de navegação) e mensagens de erro claras na página de busca da biblioteca.',
+    },
+  ],
   descricaoCurta: 'Diferenciação conceitual entre biblioteca tradicional, eletrônica, digital e virtual, os 4 sistemas da Arquitetura da Informação (Rosenfeld & Morville: organização, navegação, rotulagem e busca), heurísticas de usabilidade de Jakob Nielsen e acessibilidade digital (WCAG e e-MAG).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['Louis Rosenfeld', 'Peter Morville', 'Jakob Nielsen', 'F. W. Lancaster', 'W3C / e-MAG', 'Clifford Lynch'],
   alertasCebraspe: [
     'Diferenciação das tipologias de biblioteca: Biblioteca Eletrônica (automatiza processos internos de circulação e catálogos com computadores, mas seu acervo primário continua impresso); Biblioteca Digital (armazena e disponibiliza documentos integrais em texto completo em formato digital nativo ou digitalizado, com preservação de longo prazo e metadados estruturados); Biblioteca Virtual (acesso distribuído em rede transparente sem sede física única, uma "biblioteca sem paredes"). O Cebraspe adora afirmar que não há distinção conceitual entre digital e virtual: ERRADO!',

@@ -13,8 +13,30 @@ export const submodulo54: ModuloFilho = {
       }
   ],
   titulo: 'Gestão da Informação e Gestão do Conhecimento Organizacional',
+  antesDeLer: [
+    {
+      termo: 'Gestão do Conhecimento (GC)',
+      definicao: 'Abordagem sistemática para identificar, capturar, estruturar, compartilhar e alavancar o capital intelectual coletivo da organização.',
+      exemploBiblioteca: 'Criação de um repositório interno de notas técnicas e pareceres da Consultoria Legislativa da Câmara para evitar retrabalho.',
+    },
+    {
+      termo: 'Conhecimento Tácito vs. Explícito',
+      definicao: 'Tácito é o saber pessoal internalizado e prático (Nonaka & Takeuchi); explícito é o conhecimento formalizado em documentos e sistemas.',
+      exemploBiblioteca: 'Entrevistas de saída com bibliotecários aposentados para registrar em manuais seus métodos de busca de legislação histórica.',
+    },
+    {
+      termo: 'Espiral do Conhecimento (SECI)',
+      definicao: 'Modelo de conversão contínua de conhecimento: Socialização, Externalização, Combinação e Internalização.',
+      exemploBiblioteca: 'Grupos de trabalho onde consultores seniores debatem tramitações complexas (Socialização) e redigem guias práticos (Externalização).',
+    },
+    {
+      termo: 'Comunidades de Prática (CoPs)',
+      definicao: 'Grupos de servidores que compartilham paixão por um domínio técnico e interagem regularmente para aprofundar seu aprendizado.',
+      exemploBiblioteca: 'Rede cooperativa de catalogadores da RVBI que se reúne para deliberar sobre aplicações práticas de novos padrões de metadados.',
+    },
+  ],
   descricaoCurta: 'Distinção epistemológica entre Gestão da Informação e Gestão do Conhecimento, modelo da Organização do Conhecimento de Chun Wei Choo, Espiral do Conhecimento SECI de Nonaka e Takeuchi, e ecologia da informação de Davenport.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Chun Wei Choo', 'Ikujiro Nonaka', 'Hirotaka Takeuchi', 'Michael Polanyi', 'Thomas H. Davenport', 'Laurence Prusak', 'Etienne Wenger'],
   alertasCebraspe: [
     'O Cebraspe adora trocar os papéis da Gestão da Informação (GI) e da Gestão do Conhecimento (GC): a Gestão da Informação cuida dos fluxos formais, do conhecimento explícito e dos suportes documentais/tecnológicos; a Gestão do Conhecimento cuida do capital intelectual, dos fluxos informais e do conhecimento tácito residente nas pessoas.',

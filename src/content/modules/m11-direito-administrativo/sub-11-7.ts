@@ -7,8 +7,30 @@ export const submodulo117: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)',
   titulo_curto: 'Improbidade Administrativa',
+  antesDeLer: [
+    {
+      termo: 'Lei de Improbidade Administrativa (Lei nº 8.429/1992)',
+      definicao: 'Norma reformada pela Lei nº 14.230/2021 que pune atos que causam enriquecimento ilícito, dano ao erário ou violação de princípios.',
+      exemploBiblioteca: 'Tipificação rigorosa que exige comprovação de dolo específico para configuração do ato de improbidade.',
+    },
+    {
+      termo: 'Exigência de Dolo Específico (Reforma 2021)',
+      definicao: 'Não se admite mais a modalidade culposa em improbidade; exige-se a vontade livre e consciente de alcançar o resultado ilícito.',
+      exemploBiblioteca: 'Mero erro formal ou imperícia no inventário de livros não configura improbidade, exigindo apuração apenas disciplinar se cabível.',
+    },
+    {
+      termo: 'Sanções por Improbidade',
+      definicao: 'Penalidades cominadas judicialmente: perda da função pública, suspensão dos direitos políticos, ressarcimento ao erário e multa civil.',
+      exemploBiblioteca: 'Perda do cargo público de gestor que desviar verbas destinadas à aquisição de obras raras para benefício próprio.',
+    },
+    {
+      termo: 'Princípio da Intranscendência das Penas',
+      definicao: 'Regra que assegura que as sanções por ato de improbidade não podem passar da pessoa do agente condenado.',
+      exemploBiblioteca: 'A responsabilidade patrimonial atinge sucessores até o limite do valor da herança transferida.',
+    },
+  ],
   descricaoCurta: 'O novo regime da Lei nº 8.429/1992 após a Lei nº 14.230/2021. Extinção da modalidade culposa e exigência de dolo específico. Tipologias dos arts. 9º, 10 e taxatividade do art. 11. Sanções aplicáveis. Sujeito passivo e particular em coautoria. Prescrição de 8 anos e o ANPC.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021)',
     'STF (ADIs 7042 e 7043 - Legitimidade Concorrente)',

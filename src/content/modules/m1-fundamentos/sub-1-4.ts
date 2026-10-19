@@ -19,8 +19,30 @@ export const submodulo14: ModuloFilho = {
   ],
   titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições Privativas',
   titulo_curto: 'Legislação e Código de Ética CFB',
+  antesDeLer: [
+    {
+      termo: 'CFB / CRB',
+      definicao: 'Conselho Federal e Conselhos Regionais de Biblioteconomia, autarquias federais dotadas de personalidade jurídica de direito público que fiscalizam o exercício profissional.',
+      exemploBiblioteca: 'Exigência de registro ativo no CRB-1 (Distrito Federal) para a posse no cargo de Analista Legislativo - Biblioteconomia.',
+    },
+    {
+      termo: 'Lei nº 4.084/1962',
+      definicao: 'Lei federal que dispõe sobre a profissão de bibliotecário e regula suas funções privativas em todo o território nacional.',
+      exemploBiblioteca: 'Fundamentação legal para que a direção e chefia da Biblioteca da Câmara sejam exercidas privativamente por bibliotecários de carreira.',
+    },
+    {
+      termo: 'Código de Ética do Bibliotecário',
+      definicao: 'Resolução do CFB que estabelece deveres, vedações, direitos e responsabilidades ético-profissionais em relação aos usuários e à sociedade.',
+      exemploBiblioteca: 'Preservação estrita do sigilo sobre temas e proposições sensíveis pesquisadas por gabinetes parlamentares.',
+    },
+    {
+      termo: 'Atribuições Privativas',
+      definicao: 'Atividades técnicas que a legislação brasileira reserva com exclusividade ao bacharel em Biblioteconomia registrado no respectivo conselho.',
+      exemploBiblioteca: 'Classificação, catalogação de acervos bibliográficos e emissão de pareceres técnicos sobre serviços de informação.',
+    },
+  ],
   descricaoCurta: 'A Lei Federal nº 4.084/1962, o Decreto regulamentador nº 56.725/1965, a estrutura CFB/CRB, o Código de Ética Profissional do Bibliotecário (Resolução CFB) e as infrações disciplinares.',
-  tempoEstimadoMinutos: 25,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['Conselho Federal de Biblioteconomia (CFB)', 'Lei 4.084/1962', 'Decreto 56.725/1965', 'Conselhos Regionais (CRB)'],
   alertasCebraspe: [
     'A Lei 4.084/1962 estipula atividades PRIVATIVAS de bacharéis em biblioteconomia (planejamento, organização e direção de serviços de bibliotecas; classificação e catalogação; ensino de disciplinas de biblioteconomia). Não confunda atribuições privativas com atividades concorrentes!',

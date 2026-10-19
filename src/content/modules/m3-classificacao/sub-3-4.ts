@@ -23,8 +23,30 @@ export const submodulo34: ModuloFilho = {
       }
   ],
   titulo: 'Linguagens Documentárias, Tesauros, Ontologias e SKOS',
+  antesDeLer: [
+    {
+      termo: 'Linguagem Documentária',
+      definicao: 'Sistema de signos e vocabulário controlado construído artificialmente para a representação e recuperação de informações.',
+      exemploBiblioteca: 'Vocabulário controlado da RVBI que unifica termos para busca entre Câmara, Senado e tribunais superiores.',
+    },
+    {
+      termo: 'Tesauro',
+      definicao: 'Vocabulário controlado estruturado por relações semânticas formais: hierárquicas (TG/TE), associativas (TA) e de equivalência (USE/UP).',
+      exemploBiblioteca: 'Consulta ao Tesauro do Congresso Nacional para verificar que \'Parlamentar\' tem como Termo Específico \'Deputado Federal\' e \'Senador\'.',
+    },
+    {
+      termo: 'SKOS (Simple Knowledge Organization System)',
+      definicao: 'Modelo de dados W3C baseado em RDF para expressar tesauros, taxonomias e esquemas de classificação como Linked Data na web.',
+      exemploBiblioteca: 'Publicação do Tesauro da Câmara dos Deputados em formato SKOS para interoperabilidade com o portal de dados abertos.',
+    },
+    {
+      termo: 'Ontologia',
+      definicao: 'Especificação formal e explícita de uma conceitualização compartilhada que define classes, propriedades, restrições e axiomas lógicos.',
+      exemploBiblioteca: 'Modelagem de ontologia legislativa para inferir automaticamente relações de dependência entre leis ordinárias e a CF/88.',
+    },
+  ],
   descricaoCurta: 'Tipologia das linguagens documentárias (Cintra, Lara), a Teoria do Conceito de Ingetraut Dahlberg, arquitetura e normas de tesauros (ISO 25964), forma gramatical dos descritores, o Vocabulário Controlado Básico (VCB da RVBI), Ontologias e o padrão SKOS do W3C.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['Ingetraut Dahlberg', 'Estevão de Meneses', 'Emilia Currás', 'Thomas Gruber', 'Anna Maria Marques Cintra', 'Marilda Lopes Ginez de Lara', 'E. Wyndham Hulme'],
   alertasCebraspe: [
     'Relações semânticas canônicas de um tesauro segundo a ISO 25964: (1) Equivalência (USE / UP para sinônimos, variantes ortográficas e quase-sinônimos); (2) Hierárquica (TG / TE para relações de gênero-espécie, todo-parte ou instancial); e (3) Associativa (TR para conexões laterais simétricas que não são hierárquicas nem sinônimas, como causa-efeito, processo-agente ou matéria-produto).',

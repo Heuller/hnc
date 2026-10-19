@@ -18,8 +18,30 @@ export const submodulo21: ModuloFilho = {
       }
   ],
   titulo: 'Princípios Internacionais de Catalogação (ICP), Catálogos e o Código AACR2r',
+  antesDeLer: [
+    {
+      termo: 'Princípios Internacionais de Catalogação (ICP)',
+      definicao: 'Declaração emitida pela IFLA que orienta a formulação de códigos de catalogação globais baseados nos interesses primordiais dos usuários.',
+      exemploBiblioteca: 'Adesão aos ICP na definição de pontos de acesso de pessoas e órgãos públicos no catálogo da RVBI.',
+    },
+    {
+      termo: 'Ponto de Acesso Principal',
+      definicao: 'Nome, título ou termo formal escolhido de acordo com as regras de catalogação para encabeçar o registro de uma obra no catálogo.',
+      exemploBiblioteca: 'Determinar se um projeto de lei com múltiplos signatários deve ter como entrada principal o primeiro autor ou o título.',
+    },
+    {
+      termo: 'Controle de Autoridade',
+      definicao: 'Processo de padronização dos pontos de acesso para garantir que autores, títulos uniformes e assuntos tenham uma única forma autorizada.',
+      exemploBiblioteca: 'Registro de autoridade unificado para \'BRASIL. Congresso Nacional. Câmara dos Deputados\' com suas remissivas \'ver\' e \'ver também\'.',
+    },
+    {
+      termo: 'Áreas de Descrição do AACR2r',
+      definicao: 'Oito áreas padronizadas baseadas na ISBD (título, edição, publicação, descrição física, série, notas, etc.) com pontuação prescrita.',
+      exemploBiblioteca: 'Aplicação de espaço-travessão-espaço ( . — ) entre áreas na catalogação tradicional de monografias e relatórios parlamentares.',
+    },
+  ],
   descricaoCurta: 'Teoria e objetivos dos catálogos (Cutter), Catálogo Dicionário vs Sistemático, Declaração de Princípios da IFLA (ICP 2016), estrutura do AACR2r, as 8 áreas da ISBD, os 3 níveis de descrição bibliográfica (Regra 1.0D) e regras aprofundadas de escolha e forma de pontos de acesso (autoria pessoal, pseudônimos, entidades coletivas, eventos e atos legislativos).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 21,
   autoresChave: ['Eliane Serrão Alves Mey', 'Naira Christofoletti Silveira', 'Charles Ammi Cutter', 'Anthony Panizzi', 'Michael Gorman', 'Paul Winkler'],
   alertasCebraspe: [
     'O Catálogo Dicionário concebido por Cutter (1876) caracteriza-se pela interfilação em ordem alfabética ÚNICA e integrada de autores, títulos e assuntos. O Cebraspe frequentemente afirma falsamente que o catálogo dicionário exige a separação física estrita entre autores e assuntos para tornar o item errado.',
@@ -242,6 +264,42 @@ A entrada de nomes compostos ou com partículas obedece ao idioma do autor:
 * **Padrão RDA e Transição Catalográfica (sub-2-2):** Substituição das regras de pontos de acesso do AACR2r pelas diretrizes do RDA.
 * **Formato MARC 21 Bibliográfico e Autoridades (sub-2-4):** Codificação dos pontos de acesso e dados descritivos em campos padronizados.
 `,
+  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
+A catalogação descritiva moderna baseia-se em dois pilares fundamentais cobrados pelo **Cebraspe**:
+1. **Princípios Internacionais de Catalogação (ICP - IFLA):** Documento normativo global que coloca a **conveniência do usuário** (*user convenience*) como o princípio orientador supremo da catalogação.
+2. **Código de Catalogação Anglo-Americano (AACR2r):**
+   - **Estrutura ISBD:** 8 áreas padronizadas separadas por pontuação prescrita (ponto, espaço, travessão, espaço: \` . — \`).
+   - **Regra de Entrada de Autoria:** Autor pessoal único (entrada direta pelo sobrenome); até 3 autores (entrada pelo primeiro citado); mais de 3 autores (entrada direta pelo título, com entrada secundária para o primeiro autor).
+   - **Entrada de Órgãos Governamentais:** Jurisdição em primeiro lugar, seguida do órgão subordinado competente: \`BRASIL. Congresso Nacional. Câmara dos Deputados\`.
+
+---
+
+### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
+- **Caso 1: Catalogação Cooperativa na RVBI:** A Rede Virtual de Bibliotecas unifica o catálogo da Câmara, Senado e STF. Quando um bibliotecário da Câmara cataloga um livro de autoria de um deputado federal, ele cria um registro de autoridade com a forma canônica do nome e suas remissivas (apelidos, nomes parlamentares). Esse registro é instantaneamente aproveitado por todas as bibliotecas da rede.
+- **Caso 2: Relatório de CPI com Múltiplos Relatores:** Se uma Comissão Parlamentar de Inquérito publica relatório subscrito por 12 parlamentares, pela regra tradicional do AACR2r a entrada principal é feita pelo **Título** da publicação ou pelo órgão coletivo competente (\`BRASIL. Congresso Nacional. Câmara dos Deputados. Comissão Parlamentar de Inquérito...\`), fazendo-se entradas secundárias para os relatores.
+
+---
+
+### ⚖️ 3. Quadro de Contraste Rápido: Entradas Governamentais no AACR2r
+| Tipo de Órgão | Regra Canônica do AACR2r | Exemplo Correto na Câmara |
+| :--- | :--- | :--- |
+| **Órgão Central Legislativo** | Jurisdição + Nome do Órgão | \`BRASIL. Congresso Nacional. Câmara dos Deputados.\` |
+| **Comissão Subordinada** | Jurisdição + Órgão Maior + Comissão | \`BRASIL. Congresso Nacional. Câmara dos Deputados. Comissão de Constituição e Justiça e de Cidadania.\` |
+| **Órgão com Autonomia / Autarquia** | Entrada Direta pelo Próprio Nome | \`BANCO CENTRAL DO BRASIL.\` (e não BRASIL. Banco Central) |
+| **Poder Executivo / Chefia de Estado** | Jurisdição + Cargo Político | \`BRASIL. Presidente (2023- : Lula).\` |
+
+---
+
+### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
+- **Inversão da Jurisdição:** Propor entrada como \`CÂMARA DOS DEPUTADOS DO BRASIL.\` **Gabarito: ERRADO** (a jurisdição sempre encabeça o órgão governamental: \`BRASIL. Congresso Nacional...\`).
+- **O Princípio Supremo do ICP:** Dizer que a facilidade do catalogador ou o rigor do sistema interno de informática prevalecem sobre a conveniência do usuário. **Gabarito: ERRADO.**
+- **Pontuação Prescrita:** A banca afirma que a pontuação entre as áreas da descrição do AACR2r é facultativa ou livremente escolhida pela instituição. **Gabarito: ERRADO** (a pontuação é rígida e prescrita pela ISBD).
+
+---
+
+### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
+- *Qual o princípio soberano que rege o ICP da IFLA?* (Conveniência do Usuário).
+- *Como é a pontuação entre áreas na ISBD/AACR2r?* (Ponto-espaço-travessão-espaço: \` . — \`).`,
   checkpoints: [
     {
       id: 'cp-2-1-1',

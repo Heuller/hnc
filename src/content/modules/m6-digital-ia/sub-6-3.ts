@@ -18,8 +18,30 @@ export const submodulo63: ModuloFilho = {
       }
   ],
   titulo: 'Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas',
+  antesDeLer: [
+    {
+      termo: 'Modelo OAIS (ISO 14721)',
+      definicao: 'Open Archival Information System: modelo de referência internacional que padroniza os conceitos e funções de preservação digital perene.',
+      exemploBiblioteca: 'Estruturação dos pacotes de submissão (SIP), arquivamento (AIP) e disseminação (DIP) no repositório de memória da Câmara.',
+    },
+    {
+      termo: 'Fixidez e Checksum',
+      definicao: 'Mecanismo criptográfico (como SHA-256 ou MD5) que gera uma hash única para certificar que o arquivo digital não foi alterado ou corrompido.',
+      exemploBiblioteca: 'Auditoria periódica de checksums de arquivos PDF/A de decretos e discursos históricos para garantir sua autenticidade jurídica.',
+    },
+    {
+      termo: 'Formatos Abertos de Preservação',
+      definicao: 'Padrões com especificações públicas e sem royalties (PDF/A, TIFF, XML) indicados para garantir a longevidade da informação.',
+      exemploBiblioteca: 'Conversão mandatória de documentos textuais legados para PDF/A-1a na Biblioteca Digital da Câmara.',
+    },
+    {
+      termo: 'Estratégias de Preservação Digital',
+      definicao: 'Métodos operacionais para combater a obsolescência tecnológica: migração de formato, emulação, encapsulamento e preservação de tecnologia.',
+      exemploBiblioteca: 'Migração programada de acervos em disquetes e CD-ROMs antigos para storages seguros e replicados.',
+    },
+  ],
   descricaoCurta: 'Desafios da obsolescência digital, fixidez (checksums SHA-256), estratégias práticas (migração, normalização, emulação, encapsulamento), formatos abertos e normas ISO (PDF/A ISO 19005, TIFF ISO 12639, BWF ITU-R BS.1382, FFV1/MKV, WARC ISO 28500), arquitetura OAIS (ISO 14721), PREMIS 3.0, METS e Rede Cariniana (LOCKSS).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 18,
   autoresChave: ['CCSDS / ISO 14721', 'Miguel Ángel Márdero Arellano', 'Sônia Miguel', 'David Rosenthal', 'NDSA / Library of Congress', 'Luciana Duranti'],
   alertasCebraspe: [
     'O modelo OAIS (Open Archival Information System / ISO 14721) NÃO é um software nem uma ferramenta de computador: é um MODELO CONCEITUAL internacional de referência que define a arquitetura funcional e os requisitos de repositórios digitais confiáveis (RDC-Arq e ISO 16363).',

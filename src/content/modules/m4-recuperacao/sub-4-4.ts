@@ -18,8 +18,30 @@ export const submodulo44: ModuloFilho = {
       }
   ],
   titulo: 'Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional',
+  antesDeLer: [
+    {
+      termo: 'Processo de Referência (Denis Grogan)',
+      definicao: 'Sequência de etapas intelectuais e comunicacionais de atendimento: do problema inicial, negociação da questão, estratégia até a resposta final.',
+      exemploBiblioteca: 'Entrevista com assessor parlamentar para filtrar se a demanda por \'impostos\' se refere especificamente à Reforma Tributária de 2023.',
+    },
+    {
+      termo: 'Disseminação Seletiva da Informação (DSI)',
+      definicao: 'Serviço que envia alertas periódicos e personalizados de novas publicações a usuários cadastrados com base em seus perfis de interesse.',
+      exemploBiblioteca: 'Envio automático aos membros da Comissão de Educação de novas teses e normas sobre financiamento escolar.',
+    },
+    {
+      termo: 'Estudo de Usuários',
+      definicao: 'Investigação sistemática sobre o comportamento, as necessidades, os padrões de busca e a satisfação da comunidade atendida.',
+      exemploBiblioteca: 'Pesquisa de opinião com deputados federais sobre o uso do acervo digital no aplicativo da Câmara.',
+    },
+    {
+      termo: 'Competência Informacional (Information Literacy)',
+      definicao: 'Habilidade dos usuários em identificar, acessar, avaliar e utilizar criticamente a informação no contexto da sociedade do conhecimento.',
+      exemploBiblioteca: 'Treinamento oferecido pelo CEDI aos novos servidores sobre como verificar a vigência de leis no portal da Câmara.',
+    },
+  ],
   descricaoCurta: 'O processo de referência de Denis Grogan (8 etapas), entrevista e mediação, Disseminação Seletiva da Informação (DSI de Luhn), modelos teóricos de comportamento informacional (Wilson, Dervin - Sense Making, Belkin - ASK) e Competência em Informação (Information Literacy).',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 24,
   autoresChave: ['Denis Grogan', 'Hans Peter Luhn', 'Tom D. Wilson', 'Brenda Dervin', 'Nicholas Belkin', 'Carol Kuhlthau', 'Maurice Line', 'Nice Menezes de Figueiredo', 'Javier Calzada Prado', 'Tibor Koltay'],
   alertasCebraspe: [
     'A sequência lógica de 8 etapas do processo de referência de Denis Grogan é cobrada literal e repetidamente pelo Cebraspe: 1. O Problema -> 2. A Necessidade de Informação -> 3. A Questão Inicial -> 4. A Questão Negociada -> 5. A Estratégia de Busca -> 6. O Processo de Busca -> 7. A Resposta -> 8. A Solução. Memorize essa ordem exata!',

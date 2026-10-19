@@ -13,9 +13,31 @@ export const submodulo133: ModuloFilho = {
       }
   ],
   titulo: 'Sintaxe Avançada, Pontuação, Concordância, Regência e Crase',
+  antesDeLer: [
+    {
+      termo: 'Crase e Regência',
+      definicao: 'Fusão da preposição \'a\' exigida pelo termo regente com o artigo feminino \'a\' ou pronomes demonstrativos.',
+      exemploBiblioteca: 'Uso correto: \'Acesso à informação\' (regência de acesso exige preposição \'a\' + artigo \'a\').',
+    },
+    {
+      termo: 'Concordância Verbal e Nominal',
+      definicao: 'Harmonização de número e pessoa entre o verbo e seu sujeito, e de gênero e número entre o substantivo e seus modificadores.',
+      exemploBiblioteca: 'Atenção ao sujeito paciente posposto com a partícula \'se\': \'Catalogaram-se novos livros\' e não \'Catalogou-se novos livros\'.',
+    },
+    {
+      termo: 'Pontuação Sintática',
+      definicao: 'Emprego de vírgulas, ponto e vírgula e travessões para demarcar limites sintáticos; proibição absoluta de separar sujeito e predicado por vírgula.',
+      exemploBiblioteca: 'Isolamento de orações subordinadas adjetivas explicativas e termos intercalados em atas de sessões.',
+    },
+    {
+      termo: 'Partícula \'SE\': Apassivador vs. Indeterminação',
+      definicao: 'Pronome apassivador acompanha verbo transitivo direto com sujeito paciente; índice de indeterminação acompanha VTI, VI ou VL com verbo na 3ª pessoa do singular.',
+      exemploBiblioteca: 'Diferenciar \'Precisou-se de mais bibliotecários\' (VTI: índice, singular) de \'Contrataram-se mais bibliotecários\' (VTD: apassivador, plural).',
+    },
+  ],
   descricaoCurta:
     'A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar), o algoritmo decisório da crase e a sintaxe e semântica da pontuação (vírgula proibida, obrigatória e facultativa, e orações adjetivas explicativas vs restritivas).',
-  tempoEstimadoMinutos: 55,
+  tempoEstimadoMinutos: 13,
   autoresChave: [
     'Celso Pedro Luft (Dicionário Prático de Regência Verbal e Nominal)',
     'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',

@@ -13,8 +13,30 @@ export const submodulo31: ModuloFilho = {
       }
   ],
   titulo: 'Teoria da Classificação, CDD (23ª ed.) e CDU',
+  antesDeLer: [
+    {
+      termo: 'Classificação Decimal de Dewey (CDD)',
+      definicao: 'Sistema de classificação bibliográfica hierárquico e numérico criado por Melvil Dewey em 1876, baseado em 10 classes principais (000 a 900).',
+      exemploBiblioteca: 'Classificação na classe 328 (Processo legislativo) e 340 (Direito) para organização das estantes na biblioteca.',
+    },
+    {
+      termo: 'Classificação Decimal Universal (CDU)',
+      definicao: 'Sistema semianalítico-sintético desenvolvido por Otlet e La Fontaine que utiliza números principais e sinais auxiliares de relação e facetas.',
+      exemploBiblioteca: 'Uso do sinal de relação \':\' (dois pontos) e parênteses de lugar \'(81)\' para indicar direito constitucional brasileiro: 342(81).',
+    },
+    {
+      termo: 'Auxiliares Comuns e Especiais na CDU',
+      definicao: 'Símbolos convencionados que indicam tempo (\'...\'), lugar ((...)), forma ((0...)) e língua (=...) aplicáveis a qualquer classe principal.',
+      exemploBiblioteca: 'Representação de uma lei comentada de 2024: classe do assunto seguida pelo auxiliar de forma de leis e de data \'2024\'.',
+    },
+    {
+      termo: 'Notação e Ordem de Citação',
+      definicao: 'Sequência lógica em que os elementos de um conceito composto devem ser arranjados e codificados para compor o número de classificação.',
+      exemploBiblioteca: 'Padronização da sequência de auxiliares para que obras sobre o mesmo tema fiquem agrupadas no mesmo setor do acervo.',
+    },
+  ],
   descricaoCurta: 'Teoria da classificação bibliográfica (Piedade), estrutura hierárquica e enumerativa da CDD (23ª ed. e Tabelas T1 a T6), e arquitetura analítico-sintética da CDU (sinais de síntese, auxiliares comuns independentes e dependentes, e auxiliares especiais analíticas).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Melvil Dewey', 'Paul Otlet', 'Henri La Fontaine', 'Maria Antonieta Requião Piedade', 'Odilon Pereira da Silva', 'Antonio Miranda'],
   alertasCebraspe: [
     'A CDD é uma classificação predominantemente ENUMERATIVA e hierárquica (embora com recursos sintéticos limitados pelas tabelas auxiliares); a CDU é uma classificação ANALÍTICO-SINTÉTICA e FACETADA que permite a livre construção e síntese combinatória de assuntos compostos e complexos.',

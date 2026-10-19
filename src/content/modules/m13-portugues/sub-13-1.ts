@@ -41,7 +41,7 @@ export const submodulo131: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Diferenciação científica entre Compreensão e Interpretação, identificação de anáforas e elipses, operadores argumentativos e as armadilhas clássicas de extrapolação e inversão causal.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 12,
   autoresChave: [
     'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
     'Evanildo Bechara (Moderna Gramática Portuguesa)',

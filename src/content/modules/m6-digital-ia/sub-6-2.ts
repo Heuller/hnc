@@ -46,7 +46,7 @@ export const submodulo62: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Arquitetura e gestão de repositórios digitais, o software DSpace e SEER/OJS, SIGBs livres (Koha) e comerciais (Pergamum, Aleph), o protocolo OAI-PMH (seis verbos e colheita de metadados), Z39.50, SRU/SRW e Discovery Services Web-Scale.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Herbert Van de Sompel', 'Carl Lagoze', 'Clifford Lynch', 'IBICT', 'Satbir Chauhan', 'Luciana Viana'],
   alertasCebraspe: [
     'O software DSpace é um SOFTWARE LIVRE (open source), e NÃO software proprietário. Desenvolvido pelo MIT e HP Labs, é o padrão hegemônico nos repositórios institucionais brasileiros e na BDTD (fomentado pelo IBICT). O Cebraspe já tentou classificá-lo falsamente como software comercial fechado!',

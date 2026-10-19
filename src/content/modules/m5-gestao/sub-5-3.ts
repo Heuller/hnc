@@ -18,8 +18,30 @@ export const submodulo53: ModuloFilho = {
       }
   ],
   titulo: 'Política de Desenvolvimento de Coleções: Seleção, Aquisição, Desbaste e Avaliação',
+  antesDeLer: [
+    {
+      termo: 'Política de Desenvolvimento de Coleções (PDC)',
+      definicao: 'Documento formal que estabelece diretrizes, critérios e prioridades para seleção, aquisição, descarte e avaliação do acervo.',
+      exemploBiblioteca: 'Norma interna do CEDI que define que a compra de livros de direito constitucional tem prioridade orçamentária máxima.',
+    },
+    {
+      termo: 'Desbaste e Descarte (Weeding)',
+      definicao: 'Operações de remoção física ou remanejamento de itens obsoletos, danificados ou duplicados para manter a vitalidade do acervo.',
+      exemploBiblioteca: 'Descarte legal de edições desatualizadas de códigos comentados mediante termo de doação ou alienação.',
+    },
+    {
+      termo: 'Depósito Legal',
+      definicao: 'Exigência legal que determina o envio obrigatório de exemplares de todas as publicações produzidas no país a bibliotecas depositárias.',
+      exemploBiblioteca: 'A Biblioteca da Câmara recebendo compulsoriamente todas as publicações e relatórios oficiais editados pela Casa.',
+    },
+    {
+      termo: 'Critérios de Seleção',
+      definicao: 'Parâmetros qualitativos (autoridade do autor, atualidade, relevância temática, custo) que orientam a incorporação de novos itens.',
+      exemploBiblioteca: 'Avaliação de sugestões bibliográficas enviadas por gabinetes parlamentares à comissão de seleção da biblioteca.',
+    },
+  ],
   descricaoCurta: 'O modelo cíclico de Waldomiro Vergueiro, documento formal de política de seleção, critérios e agentes, modalidades de aquisição, desbastamento vs. descarte, política de crescimento zero e métodos de avaliação do acervo (Conspectus, Lancaster e Figueiredo).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 27,
   autoresChave: ['Waldomiro Vergueiro', 'Nice Menezes de Figueiredo', 'Simone da Rocha Weitzel', 'F. W. Lancaster', 'Daniel Gore', 'Peggy Johnson', 'Stanley J. Slote', 'R. E. Burton & R. W. Kebler'],
   alertasCebraspe: [
     'A política de desenvolvimento de coleções é um documento formal que possui tríplice caráter: administrativo, político e de relações públicas. O Cebraspe adora afirmar que seu caráter é "exclusivamente administrativo" ou "meramente operacional": ERRADO! O caráter político protege o bibliotecário contra censura e pressões externas arbitrarias.',

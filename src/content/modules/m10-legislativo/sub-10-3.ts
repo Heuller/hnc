@@ -13,8 +13,30 @@ export const submodulo103: ModuloFilho = {
       }
   ],
   titulo: 'Lei de Acesso à Informação (LAI) e LGPD na Gestão Documental Pública',
+  antesDeLer: [
+    {
+      termo: 'Comissões Parlamentares',
+      definicao: 'Órgãos colegiados integrados por deputados constituídos para debater matérias técnicas especializadas antes do Plenário.',
+      exemploBiblioteca: 'Fornecimento de pesquisas temáticas diretamente aos consultores da Comissão de Constituição e Justiça e de Cidadania (CCJC).',
+    },
+    {
+      termo: 'Poder Conclusivo das Comissões',
+      definicao: 'Competência conferida pelo Regimento para que a comissão vote definitivamente o projeto de lei sem necessidade de ir ao Plenário, salvo recurso.',
+      exemploBiblioteca: 'Identificação em catálogo do rito conclusivo da proposição para fins de histórico e publicação nos diários da Casa.',
+    },
+    {
+      termo: 'Comissão Parlamentar de Inquérito (CPI)',
+      definicao: 'Comissão temporária dotada de poderes de investigação próprios das autoridades judiciais para apurar fato determinado e por prazo certo.',
+      exemploBiblioteca: 'Tratamento confidencial de acervos documentais e depoimentos coletados por CPIs depositados no CEDI.',
+    },
+    {
+      termo: 'Relator e Parecer',
+      definicao: 'Deputado designado para analisar a matéria e emitir relatório e voto; uma vez aprovado pelo colegiado, passa a se chamar Parecer da Comissão.',
+      exemploBiblioteca: 'Catalogação analítica do parecer do relator, destacando o voto em separado e emendas acatadas.',
+    },
+  ],
   descricaoCurta: 'A Lei nº 12.527/2011 (LAI): princípio da publicidade máxima, transparência ativa vs. passiva, prazos do SIC, graus de sigilo (Reservada 5 anos, Secreta 15 anos, Ultrassecreta 25 anos), proteção de dados pessoais (100 anos), a LGPD (Lei 13.709/2018) e a neutralidade técnica na consultoria parlamentar.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['Controladoria-Geral da União (CGU)', 'Autoridade Nacional de Proteção de Dados (ANPD)', 'Lei nº 12.527/2011', 'Lei nº 13.709/2018', 'Câmara dos Deputados'],
   alertasCebraspe: [
     'A tríade dos graus de sigilo da LAI (Art. 24 da Lei nº 12.527/2011) e seus prazos MÁXIMOS exatos: 1. Reservada = até 5 anos; 2. Secreta = até 15 anos; 3. Ultrassecreta = até 25 anos (prorrogável uma única vez por mais 25 anos pela CMRI). O Cebraspe troca sistematicamente esses prazos e suas respectivas autoridades!',

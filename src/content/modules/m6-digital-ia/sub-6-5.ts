@@ -18,9 +18,31 @@ export const submodulo65: ModuloFilho = {
       }
   ],
   titulo: 'Sistemas Informacionais, Modelagem de Dados, Bancos Relacionais e NoSQL',
+  antesDeLer: [
+    {
+      termo: 'Banco de Dados Relacional (SQL)',
+      definicao: 'Sistema de gestão de banco de dados baseado em tabelas com chaves primárias e estrangeiras que cumprem propriedades ACID.',
+      exemploBiblioteca: 'Tabelas interligadas de \'Usuários\', \'Empréstimos\' e \'Exemplares\' no sistema integrado de gestão da biblioteca (SIGB).',
+    },
+    {
+      termo: 'Banco de Dados Não Relacional (NoSQL)',
+      definicao: 'Sistemas de armazenamento flexíveis projetados para dados não estruturados ou semiestruturados (orientados a documentos, grafos ou chave-valor).',
+      exemploBiblioteca: 'Armazenamento de registros JSON de documentos legislativos dinâmicos em bancos orientados a documentos como MongoDB.',
+    },
+    {
+      termo: 'Chave Primária e Chave Estrangeira',
+      definicao: 'Chave primária identifica unicamente uma linha em uma tabela; chave estrangeira estabelece a relação e integridade referencial com outra tabela.',
+      exemploBiblioteca: 'O ID único do parlamentar como chave estrangeira na tabela de autoria de proposições.',
+    },
+    {
+      termo: 'Modelagem Conceitual (DER)',
+      definicao: 'Diagrama Entidade-Relacionamento que mapeia as entidades do negócio, seus atributos e as cardinalidades de relacionamento (1:1, 1:N, N:M).',
+      exemploBiblioteca: 'Modelagem de que um \'Deputado\' pode subscrever N \'Proposições\' e uma \'Proposição\' pode ter N \'Autores\'.',
+    },
+  ],
   descricaoCurta:
     'Levantamento de requisitos funcionais e não funcionais; Modelo Entidade-Relacionamento (MER de Chen) e cardinalidades; modelo relacional, chaves (PK/FK) e formas normais (1FN, 2FN, 3FN); bancos NoSQL (documento, chave-valor, coluna, grafo) e grafos de conhecimento.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 17,
   autoresChave: [
     'Peter Chen (1976)',
     'Edgar F. Codd (1970)',

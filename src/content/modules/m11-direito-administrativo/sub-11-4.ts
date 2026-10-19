@@ -7,8 +7,30 @@ export const submodulo114: ModuloFilho = {
   preRequisitos: ["sub-11-2"],
   titulo: 'Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)',
   titulo_curto: 'Processo Administrativo e Disciplinar',
+  antesDeLer: [
+    {
+      termo: 'Processo Administrativo Federal (Lei nº 9.784/1999)',
+      definicao: 'Norma geral que regula o processo administrativo no âmbito da Administração Pública Federal para garantir direitos dos administrados.',
+      exemploBiblioteca: 'Rito seguido para apuração de extravio culposo de obra rara da biblioteca e cobrança de indenização.',
+    },
+    {
+      termo: 'Processo Administrativo Disciplinar (PAD)',
+      definicao: 'Instrumento destinado a apurar responsabilidade de servidor por infração praticada no exercício de suas atribuições que comine demissão ou suspensão.',
+      exemploBiblioteca: 'Comissão de três servidores estáveis designada para instruir autos com ampla defesa e contraditório.',
+    },
+    {
+      termo: 'Princípios do Processo Administrativo',
+      definicao: 'Contraditório, ampla defesa, oficialidade, informalismo moderado, verdade material e motivação das decisões.',
+      exemploBiblioteca: 'Necessidade de fundamentar formalmente qualquer indeferimento de acesso a documento arquivado.',
+    },
+    {
+      termo: 'Sindicância',
+      definicao: 'Procedimento investigativo sumário preparatório destinado a apurar autoria ou materialidade antes da instauração do PAD.',
+      exemploBiblioteca: 'Sindicância para identificar responsáveis por dano físico ocorrido em equipamentos da sala de leitura.',
+    },
+  ],
   descricaoCurta: 'Princípios do processo administrativo (verdade material, oficialidade, informalismo moderado). Lei nº 9.784/1999: impedimento e suspeição, prazos, delegação/avocação e recursos. Direito disciplinar: sindicância, rito do PAD ordinário e sumário, prescrição e Súmula Vinculante 5 do STF.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Lei Geral do Processo Administrativo Federal (Lei nº 9.784/1999)',
     'Regime Jurídico Único (Lei nº 8.112/1990 - Título V)',

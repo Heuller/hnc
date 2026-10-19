@@ -13,8 +13,30 @@ export const submodulo91: ModuloFilho = {
       }
   ],
   titulo: 'Ciclo da Comunicação Científica, Canais e Avaliação por Pares',
+  antesDeLer: [
+    {
+      termo: 'Comunicação Científica',
+      definicao: 'Processo social e formal pelo qual os cientistas comunicam, debatem, validam e disseminam seus resultados de pesquisa.',
+      exemploBiblioteca: 'Apoio a pesquisadores do Cefor na escolha de periódicos indexados para publicação de estudos sobre orçamento público.',
+    },
+    {
+      termo: 'Avaliação por Pares (Peer Review)',
+      definicao: 'Mecanismo clássico de controle de qualidade e validação em que manuscritos são avaliados anonimamente por especialistas da mesma área.',
+      exemploBiblioteca: 'Gestão do fluxo editorial da Revista de Informação Legislativa garantindo o sistema duplo-cego (double-blind review).',
+    },
+    {
+      termo: 'Canais Formais vs. Informais',
+      definicao: 'Formais são canais permanentes e públicos (artigos de periódicos, livros); informais são contatos diretos (congressos, e-mails, pré-prints).',
+      exemploBiblioteca: 'Disponibilização de servidor institucional de pré-prints para que notas técnicas sejam debatidas antes da publicação oficial.',
+    },
+    {
+      termo: 'Colégios Invisíveis (Derek de Solla Price)',
+      definicao: 'Redes informais de cooperação e intercâmbio de dados entre cientistas líderes de uma mesma especialidade ao redor do mundo.',
+      exemploBiblioteca: 'Mapeamento das redes de consultores legislativos de parlamentos mundiais que trocam minutas sobre regulamentação digital.',
+    },
+  ],
   descricaoCurta: 'O fluxo e ciclo da comunicação científica (A. J. Meadows e Garvey-Griffith), distinção entre canais formais e informais, os colégios invisíveis (Derek de Solla Price), as 4 normas mertonianas (CUDOS), preprints e modalidades de avaliação por pares.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['A. J. Meadows', 'Derek de Solla Price', 'Robert K. Merton', 'William Garvey & Belver Griffith', 'John Ziman'],
   alertasCebraspe: [
     'Diferenciação canônica entre canais formais e informais (A. J. Meadows / Garvey-Griffith): Canais Formais (periódicos científicos revisados, livros acadêmicos, patentes) têm validação institucional, registro público permanente, ampla acessibilidade e controle bibliográfico; Canais Informais (conversas de laboratório, e-mails, colégios invisíveis, reuniões científicas) são efêmeros, rápidos, não indexados e sem controle bibliográfico prévio.',

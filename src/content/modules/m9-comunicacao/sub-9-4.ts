@@ -18,8 +18,30 @@ export const submodulo94: ModuloFilho = {
       }
   ],
   titulo: 'Estudos Métricos da Informação: Leis Bibliométricas, Análise de Citação e Altmetria',
+  antesDeLer: [
+    {
+      termo: 'Lei de Bradford (Dispersão)',
+      definicao: 'Lei bibliométrica que estabelece que um núcleo reduzido de periódicos concentra a maior parte dos artigos relevantes sobre determinado tema.',
+      exemploBiblioteca: 'Otimização das assinaturas da biblioteca selecionando os periódicos de direito público que compõem o núcleo de Bradford.',
+    },
+    {
+      termo: 'Lei de Lotka (Produtividade dos Autores)',
+      definicao: 'Lei empírica que postula que um pequeno número de autores muito prolíficos produz a maioria das publicações em determinado campo.',
+      exemploBiblioteca: 'Identificação dos autores parlamentares e juristas mais citados na tramitação de matérias econômicas.',
+    },
+    {
+      termo: 'Lei de Zipf (Frequência de Palavras)',
+      definicao: 'Princípio do menor esforço que demonstra que poucas palavras têm frequência altíssima no texto, enquanto a maioria ocorre raramente.',
+      exemploBiblioteca: 'Ajuste de stop words em mecanismos de busca de discursos parlamentares para ignorar termos de frequência extrema sem valor semântico.',
+    },
+    {
+      termo: 'Altmetria (Métricas Alternativas)',
+      definicao: 'Medição do impacto de publicações acadêmicas em redes sociais, notícias, blogs, políticas públicas e gerenciadores de referências.',
+      exemploBiblioteca: 'Monitoramento de menções e downloads de relatórios da consultoria da Câmara no Twitter, portais de notícias e Wikipédia.',
+    },
+  ],
   descricaoCurta: 'Fronteiras entre Bibliometria, Cientometria, Informetria e Altmetria, as três leis clássicas (Bradford, Lotka e Zipf), indicadores de citação (Fator de Impacto, SJR, CiteScore, Índice h), acoplamento bibliográfico, cocitação, redes de coautoria, Qualis-CAPES, Declaração DORA e Manifesto de Leiden.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 25,
   autoresChave: [
     'Samuel C. Bradford',
     'Alfred J. Lotka',

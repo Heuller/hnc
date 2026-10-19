@@ -19,8 +19,30 @@ export const submodulo13: ModuloFilho = {
   ],
   titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
   titulo_curto: 'Informação, Conhecimento e Documento',
+  antesDeLer: [
+    {
+      termo: 'Dado',
+      definicao: 'Registro bruto de um evento ou símbolo desprovido de contexto, interpretação ou significação direta.',
+      exemploBiblioteca: 'O número \'PL 2630\' isolado em uma planilha de controle de tramitação.',
+    },
+    {
+      termo: 'Informação',
+      definicao: 'Conjunto de dados contextualizados, dotados de significado e organizados para alterar o estado de conhecimento de um indivíduo.',
+      exemploBiblioteca: 'O texto completo do relatório com parecer favorável da Comissão de Constituição e Justiça.',
+    },
+    {
+      termo: 'Conhecimento',
+      definicao: 'Informação internalizada, compreendida e integrada à estrutura cognitiva e à experiência prática do sujeito.',
+      exemploBiblioteca: 'A compreensão dos impactos jurídicos de uma emenda regimental pelo bibliotecário ao elaborar uma pesquisa legislativa.',
+    },
+    {
+      termo: 'Documento (Ontologia de Briet)',
+      definicao: 'Qualquer suporte material preservado ou registrado para fins de prova, consulta ou demonstração de um fenômeno, segundo Suzanne Briet.',
+      exemploBiblioteca: 'Um áudio taquigráfico gravado durante sessão da CPI arquivado digitalmente no CEDI.',
+    },
+  ],
   descricaoCurta: 'A pirâmide informacional (Dado, Informação, Conhecimento, Sabedoria), Michael Buckland e a Informação como Coisa, o conceito de documento segundo Briet, Mey e Le Coadic.',
-  tempoEstimadoMinutos: 25,
+  tempoEstimadoMinutos: 16,
   autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Rafael Capurro', 'Birger Hjørland', 'Russell Ackoff', 'Claude Shannon'],
   alertasCebraspe: [
     'Michael Buckland classifica a informação em: (1) Informação como Processo; (2) Informação como Conhecimento; (3) Informação como Coisa. O Cebraspe tenta restringir "informação como coisa" a papéis e livros, quando abrange QUALQUER entidade tangível (incluindo fósseis, esculturas, gravações).',

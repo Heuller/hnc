@@ -13,8 +13,30 @@ export const submodulo102: ModuloFilho = {
       }
   ],
   titulo: 'Processo Legislativo Constitucional e Espécies de Proposições',
+  antesDeLer: [
+    {
+      termo: 'Processo Legislativo Constitucional',
+      definicao: 'Conjunto de atos e procedimentos previstos na CF/88 (arts. 59 a 69) para elaboração de emendas, leis, medidas provisórias e decretos legislativos.',
+      exemploBiblioteca: 'Classificação jurídica das proposições em tramitação para correta catalogação de suas fases na base de dados.',
+    },
+    {
+      termo: 'Bicameralismo e Casa Iniciadora',
+      definicao: 'Sistema em que duas Casas compõem o Parlamento; a Casa iniciadora vota a matéria primeiro e a Casa revisora pode aprovar, emendar ou rejeitar.',
+      exemploBiblioteca: 'Acompanhamento da tramitação de projetos iniciados na Câmara dos Deputados e remetidos ao Senado Federal.',
+    },
+    {
+      termo: 'Quórum de Aprovação',
+      definicao: 'Número mínimo de votos exigido para aprovação: maioria simples para leis ordinárias e maioria absoluta para leis complementares.',
+      exemploBiblioteca: 'Registro fidedigno do tipo de matéria e quórum nas ementas documentárias para consulta da mesa da presidência.',
+    },
+    {
+      termo: 'Sanção e Veto Presidencial',
+      definicao: 'Ato privativo do Presidente da República de concordância (sanção) ou recusa parcial/total (veto) ao projeto aprovado pelo Congresso.',
+      exemploBiblioteca: 'Catalogação de mensagens presidenciais de veto e atualização imediata do status da lei na biblioteca.',
+    },
+  ],
   descricaoCurta: 'O Art. 59 da CF/88, as 7 espécies normativas primárias, o rito das Emendas Constitucionais (quórum de 3/5 em 2 turnos sem sanção presidencial), Leis Complementares vs. Ordinárias, Medidas Provisórias e o Vocabulário Controlado do Congresso (Sicon/VCB).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Constituição Federal de 1988', 'José Afonso da Silva', 'Manoel Gonçalves Ferreira Filho', 'Gilmar Mendes & Paulo Gonet', 'Sistema Sicon / VCB'],
   alertasCebraspe: [
     'Emendas Constitucionais (PECs - Art. 60 da CF/88): NÃO são sancionadas nem vetadas pelo Presidente da República! As emendas aprovadas são promulgadas exclusivamente pelas Mesas da Câmara dos Deputados e do Senado Federal conjuntamente, com o respectivo número de ordem.',

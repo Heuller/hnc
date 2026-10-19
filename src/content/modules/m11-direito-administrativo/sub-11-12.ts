@@ -19,8 +19,30 @@ export const submodulo1112: ModuloFilho = {
   ],
   titulo: 'Transparência e Privacidade: Lei de Acesso à Informação e LGPD',
   titulo_curto: 'LAI e LGPD no Setor Público',
+  antesDeLer: [
+    {
+      termo: 'Transparência Ativa vs. Passiva (LAI)',
+      definicao: 'Ativa é a disponibilização espontânea de dados de interesse coletivo em sítios oficiais; passiva é o fornecimento de informação em resposta a pedido formal do cidadão.',
+      exemploBiblioteca: 'Publicação proativa do catálogo da biblioteca e gastos de aquisição no portal da Câmara como transparência ativa.',
+    },
+    {
+      termo: 'Prazos de Resposta da LAI (Lei nº 12.527/2011)',
+      definicao: 'Acesso imediato se disponível; caso contrário, prazo de até 20 dias, prorrogável justificadamente por mais 10 dias.',
+      exemploBiblioteca: 'Atendimento a pedido formulado via e-SIC sobre relatórios de consulta pública realizados pela biblioteca.',
+    },
+    {
+      termo: 'Graus de Sigilo e Prazos Máximos',
+      definicao: 'Três categorias legais de classificação da informação: Ultrassecreta (máximo 25 anos), Secreta (15 anos) e Reservada (5 anos).',
+      exemploBiblioteca: 'Identificação de notas técnicas ministeriais desclassificadas após expiração do prazo de 15 anos para livre consulta na biblioteca.',
+    },
+    {
+      termo: 'LGPD na Administração Pública (Lei nº 13.709/2018)',
+      definicao: 'Tratamento de dados pessoais pelo poder público para o cumprimento de finalidades públicas e execução de competências legais com transparência.',
+      exemploBiblioteca: 'Anonimização de CPFs e telefones de pesquisadores no cadastro aberto de empréstimos entre bibliotecas.',
+    },
+  ],
   descricaoCurta: 'A Lei de Acesso à Informação (Lei nº 12.527/2011): transparência ativa vs. passiva, prazos de resposta e graus de sigilo (ultrassecreto, secreto e reservado). A LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais sensíveis, bases legais, Encarregado (DPO) e harmonização com a LAI.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Lei de Acesso à Informação (Lei nº 12.527/2011)',
     'Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)',

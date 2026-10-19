@@ -13,8 +13,30 @@ export const submodulo84: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 6028:2021 (Resumos), NBR 6027:2012 (Sumários) e NBR 6022:2018 (Artigos)',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 6028:2021',
+      definicao: 'Norma que estabelece os requisitos para redação e apresentação de resumos informativos, indicativos e críticos (resenhas).',
+      exemploBiblioteca: 'Elaboração de resumos informativos de 100 a 250 palavras para acompanhar artigos da Revista de Informação Legislativa.',
+    },
+    {
+      termo: 'Resumo Informativo',
+      definicao: 'Tipo de resumo que informa ao leitor finalidades, metodologia, resultados e conclusões do documento original, dispensando a leitura integral.',
+      exemploBiblioteca: 'Resumo analítico publicado no início de cada dossiê da Consultoria da Câmara para rápida leitura dos deputados.',
+    },
+    {
+      termo: 'ABNT NBR 6027:2012 (Sumário)',
+      definicao: 'Norma que define sumário como a enumeração das divisões, seções e outras partes de uma publicação na mesma ordem em que a matéria se sucede.',
+      exemploBiblioteca: 'Garantia de que a grafia dos títulos e subtítulos no sumário seja rigorosamente idêntica à grafia no corpo do texto.',
+    },
+    {
+      termo: 'Palavras-Chave (Keywords)',
+      definicao: 'Termos representativos do conteúdo do documento que devem figurar logo abaixo do resumo precedidos da expressão \'Palavras-chave:\'.',
+      exemploBiblioteca: 'Atribuição de 3 a 5 palavras-chave separadas entre si por ponto e finalizadas por ponto, conforme preconizado pela NBR 6028.',
+    },
+  ],
   descricaoCurta: 'Tipologia de resumos (indicativo, informativo e crítico/resenha), regras de redação da NBR 6028:2021 (parágrafo único, voz ativa e contagem de palavras), diferença entre Sumário (NBR 6027:2012) e Índice (NBR 6034:2004), estrutura de artigos (NBR 6022:2018) e a sintaxe do DOI.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 12,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'F. W. Lancaster', 'Comitê Brasileiro CB-014', 'International DOI Foundation (IDF)'],
   alertasCebraspe: [
     'Tipos de Resumos na NBR 6028:2021: Resumo Informativo (informa finalidades, metodologia, resultados e conclusões, DISPENSANDO a consulta ao original); Resumo Indicativo (aponta os temas principais SEM detalhar dados ou conclusões, NÃO dispensando a leitura do original); Resumo Crítico / Resenha / Recensão (análise crítica valorativa elaborada por especialista). O Cebraspe inverte sistematicamente informativo e indicativo!',

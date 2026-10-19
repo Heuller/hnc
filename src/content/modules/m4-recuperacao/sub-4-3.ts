@@ -18,8 +18,30 @@ export const submodulo43: ModuloFilho = {
       }
   ],
   titulo: 'Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil',
+  antesDeLer: [
+    {
+      termo: 'Portal LexML Brasil',
+      definicao: 'Rede de informação legislativa e jurídica que unifica a busca de legislação, jurisprudência e doutrina de órgãos federais, estaduais e municipais.',
+      exemploBiblioteca: 'O bibliotecário da Câmara utilizando o LexML para localizar uma lei estadual correlata a uma PEC em tramitação federal.',
+    },
+    {
+      termo: 'Diário Oficial da União (DOU)',
+      definicao: 'Jornal oficial da Imprensa Nacional dividido em seções que publica leis, atos normativos, decretos e atos de pessoal da administração federal.',
+      exemploBiblioteca: 'Monitoramento diário da Seção 1 do DOU para catalogar promulgações e vetos presidenciais que impactam a biblioteca.',
+    },
+    {
+      termo: 'Jurisprudência',
+      definicao: 'Conjunto reiterado de decisões, acórdãos e súmulas dos tribunais judiciais que consubstanciam a interpretação das normas jurídicas.',
+      exemploBiblioteca: 'Pesquisa de decisões do STF sobre constitucionalidade de matérias regimentais da Câmara dos Deputados.',
+    },
+    {
+      termo: 'URN Lex (Uniform Resource Name)',
+      definicao: 'Identificador persistente e padronizado utilizado pelo LexML para nomear univocamente cada ato normativo no tempo e espaço.',
+      exemploBiblioteca: 'Link permanente atribuído à Lei nº 14.133/2021 que garante que referências em pareceres legislativos nunca quebrem.',
+    },
+  ],
   descricaoCurta: 'O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 19,
   autoresChave: ['Edilenice Jovelina de Miranda Passos', 'João Alberto de Oliveira Lima (idealizador da URN LexML)', 'Ana Cláudia Carvalho de Miranda', 'LexML Brasil (Comitê Gestor)', 'Imprensa Nacional'],
   alertasCebraspe: [
     'O tripé canônico da informação jurídica: Legislação (atos normativos estatais), Doutrina (estudos, livros e teses de juristas) e Jurisprudência (conjunto de decisões reiteradas dos tribunais). O Cebraspe adora trocar as funções (ex.: dizer que doutrina são as decisões judiciais: ERRADO!).',

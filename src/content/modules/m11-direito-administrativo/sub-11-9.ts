@@ -7,8 +7,30 @@ export const submodulo119: ModuloFilho = {
   preRequisitos: ["sub-11-8"],
   titulo: 'Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)',
   titulo_curto: 'Governança Pública Federal',
+  antesDeLer: [
+    {
+      termo: 'Governança Pública (Decreto nº 9.203/2017)',
+      definicao: 'Conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão pública.',
+      exemploBiblioteca: 'Atuação do Comitê de Governança Digital da Câmara para homologar novos projetos de modernização da biblioteca.',
+    },
+    {
+      termo: 'Princípios da Governança (Decreto nº 9.203)',
+      definicao: 'Capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas (accountability) e transparência.',
+      exemploBiblioteca: 'Publicação anual de relatórios de gestão da biblioteca demonstrando custos e volumes de consultas atendidas.',
+    },
+    {
+      termo: 'Mecanismos de Governança',
+      definicao: 'Três pilares fundamentais: Liderança (pessoas e competências), Estratégia (diretrizes e metas) e Controle (gestão de riscos e auditoria).',
+      exemploBiblioteca: 'Elaboração da Matriz de Riscos de TI da Biblioteca Pedro Aleixo para mitigar falhas de backup no repositório digital.',
+    },
+    {
+      termo: 'Accountability',
+      definicao: 'Dever legal e ético de prestar contas, assumir responsabilidade pelos atos e resultados e submeter-se ao escrutínio público.',
+      exemploBiblioteca: 'Disponibilização do catálogo patrimonial de obras raras para auditoria regular do TCU e dos órgãos de controle interno.',
+    },
+  ],
   descricaoCurta: 'Conceito e distinção: Governança vs. Gestão vs. Governabilidade. A tríade de mecanismos: Liderança, Estratégia e Controle. Princípios e diretrizes do Decreto nº 9.203/2017. Gestão de riscos, programas de integridade e o modelo das Três Linhas de Defesa no serviço público federal.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 10,
   autoresChave: [
     'Decreto Federal nº 9.203/2017',
     'Tribunal de Contas da União (TCU - Referencial Básico de Governança)',

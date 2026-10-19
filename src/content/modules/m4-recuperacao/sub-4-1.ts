@@ -18,8 +18,30 @@ export const submodulo41: ModuloFilho = {
       }
   ],
   titulo: 'Recuperação da Informação, Álgebra Booleana e Mecanismos de Busca',
+  antesDeLer: [
+    {
+      termo: 'Álgebra Booleana',
+      definicao: 'Lógica formal baseada nos operadores AND, OR e NOT utilizada para combinar termos em buscas e filtros informacionais.',
+      exemploBiblioteca: 'Estratégia de busca: \'Processo Legislativo\' AND \'Quórum\' NOT \'Medida Provisória\' no catálogo da biblioteca.',
+    },
+    {
+      termo: 'Revocação (Recall)',
+      definicao: 'Proporção de documentos relevantes recuperados pelo sistema em relação ao total de documentos relevantes existentes no acervo.',
+      exemploBiblioteca: 'Garantir alta revocação em pesquisa para subsidiar CPI, onde nenhuma nota técnica pertinente pode ficar de fora.',
+    },
+    {
+      termo: 'Precisão (Precision)',
+      definicao: 'Proporção de documentos relevantes entre todos os documentos efetivamente retornados na resposta de uma busca.',
+      exemploBiblioteca: 'Garantir alta precisão ao fornecer uma resposta imediata de 3 artigos fundamentais para um parlamentar discursar no Plenário.',
+    },
+    {
+      termo: 'Truncagem e Máscara',
+      definicao: 'Recursos de busca que utilizam símbolos (*, ?, $) para recuperar variações de gênero, número ou radicais de palavras.',
+      exemploBiblioteca: 'Busca por \'parlament*\' para retornar simultaneamente parlamento, parlamentar, parlamentarismo e parlamentares.',
+    },
+  ],
   descricaoCurta: 'Fundamentos de Information Retrieval (Mooers, Salton), álgebra booleana (AND, OR, NOT), operadores de proximidade e truncagem, modelos de recuperação (booleano, vetorial e probabilístico), arquivo invertido, motores de busca e metabuscadores.',
-  tempoEstimadoMinutos: 35,
+  tempoEstimadoMinutos: 16,
   autoresChave: ['Calvin Mooers', 'Gerard Salton', 'George Boole', 'Ricardo Baeza-Yates', 'Cyril Cleverdon'],
   alertasCebraspe: [
     'Operadores Booleanos e seus impactos em Revocação e Precisão: o operador AND (interseção) restringe a busca e AUMENTA A PRECISÃO; o operador OR (união) amplia a busca e AUMENTA A REVOCAÇÃO; o operador NOT (exclusão) restringe a busca e aumenta a precisão (mas com risco de eliminar documentos relevantes que abordem o termo secundariamente).',

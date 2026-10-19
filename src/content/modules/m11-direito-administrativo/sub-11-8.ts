@@ -7,8 +7,30 @@ export const submodulo118: ModuloFilho = {
   preRequisitos: ["sub-11-5"],
   titulo: 'Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública',
   titulo_curto: 'Modelos de Gestão e NPG',
+  antesDeLer: [
+    {
+      termo: 'Modelos de Administração Pública',
+      definicao: 'Evolução histórica da gestão pública: Patrimonialismo (confusão público-privado), Burocracia (regras e impessoalidade) e Gerencialismo (resultados).',
+      exemploBiblioteca: 'Transição da gestão de acervos focada em carimbos e fichários burocráticos para sistemas ágeis orientados à satisfação do usuário.',
+    },
+    {
+      termo: 'Burocracia Weberiana',
+      definicao: 'Modelo organizacional racional-legal baseado na hierarquia formal, divisão rigorosa do trabalho, regras escritas e meritocracia.',
+      exemploBiblioteca: 'O concurso público para bibliotecário como expressão pura do princípio weberiano da competência técnica comprovada.',
+    },
+    {
+      termo: 'Nova Gestão Pública (NPM)',
+      definicao: 'Movimento de reforma da década de 1990 que introduziu conceitos de gestão privada: foco no cidadão-cliente, eficiência e contratualização.',
+      exemploBiblioteca: 'Adoção de metas de satisfação e acordos de nível de serviço (SLA) para entrega de pesquisas legislativas aos deputados.',
+    },
+    {
+      termo: 'Nova Governança Pública (NPG)',
+      definicao: 'Paradigma contemporâneo baseado em redes de cooperação, coprodução de serviços públicos, transparência ativa e participação social.',
+      exemploBiblioteca: 'Projetos de ciência cidadã e transcrição colaborativa de acervos históricos com a participação da sociedade civil no portal da Câmara.',
+    },
+  ],
   descricaoCurta: 'A transição histórica: Patrimonialismo (prebendas), Burocracia Weberiana (formalismo e disfunções) e Nova Gestão Pública (NPM e gerencialismo). Nova Governança Pública (NPG): ação em redes, coprodução do bem público e transparência ativa. O Valor Público de Mark Moore e a Cadeia de Valor.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Max Weber (Burocracia)',
     'Luiz Carlos Bresser-Pereira (PDRAE 1995)',

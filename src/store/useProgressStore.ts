@@ -53,6 +53,9 @@ interface ProgressStoreState extends UserProgress {
   salvarTermoVocabulario: (termo: TermoSalvo) => void;
   removerTermoVocabulario: (termoId: string) => void;
   isTermoSalvo: (termoId: string) => boolean;
+  // Modo Teórico Dual (Canônica vs Didática / Vida Real)
+  setModoTeoria: (id: string, modo: 'canonica' | 'didatica') => void;
+  obterModoTeoria: (id: string) => 'canonica' | 'didatica';
   // Ações
   registrarAcessoHoje: () => void;
   marcarModuloConcluido: (moduloId: string) => void;
@@ -128,6 +131,7 @@ const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
   tentativas: [],
   itemAttempts: [],
   termosSalvos: [],
+  preferenciaModoTeoria: {},
   constancia: {
     ultimoAcessoData: getTodayString(),
     diasConsecutivos: 1,
@@ -341,6 +345,16 @@ export const useProgressStore = create<ProgressStoreState>()(
       isTermoSalvo: (termoId: string) => {
         const atuais = get().termosSalvos || [];
         return atuais.some((t) => t.id === termoId);
+      },
+
+      setModoTeoria: (id: string, modo: 'canonica' | 'didatica') => {
+        const mapa = { ...(get().preferenciaModoTeoria || {}) };
+        mapa[id] = modo;
+        set({ preferenciaModoTeoria: mapa });
+      },
+
+      obterModoTeoria: (id: string) => {
+        return get().preferenciaModoTeoria?.[id] || 'canonica';
       },
 
       adicionarTentativa: async (tentativa: TentativaRegistro) => {

@@ -13,8 +13,30 @@ export const submodulo81: ModuloFilho = {
       }
   ],
   titulo: 'ABNT NBR 6023:2025 (3ª Edição): Referências Bibliográficas',
+  antesDeLer: [
+    {
+      termo: 'ABNT NBR 6023:2025',
+      definicao: 'Norma brasileira que estabelece os elementos a serem incluídos em referências bibliográficas e fixa padrões de apresentação.',
+      exemploBiblioteca: 'Orientação aos pesquisadores sobre a inclusão obrigatória do DOI e formatação de links de documentos legislativos.',
+    },
+    {
+      termo: 'Elementos Essenciais vs. Complementares',
+      definicao: 'Essenciais são indispensáveis à identificação do documento (autor, título, local, editora, data); complementares detalham a descrição física.',
+      exemploBiblioteca: 'Elaboração de lista de referências em notas técnicas contendo rigorosamente todos os elementos essenciais da NBR 6023.',
+    },
+    {
+      termo: 'Destaque Tipográfico na NBR 6023',
+      definicao: 'Uso uniforme de itálico, negrito ou sublinhado para o título da publicação em toda a obra, não se aplicando a obras sem autoria.',
+      exemploBiblioteca: 'Padronização pelo uso de itálico no título dos livros referenciados nas publicações institucionais da Câmara.',
+    },
+    {
+      termo: 'Referência de Documentos Legislativos',
+      definicao: 'Regra que determina entrada pela jurisdição em caixa alta, seguida do título oficial do ato, data de promulgação e dados da publicação oficial.',
+      exemploBiblioteca: 'BRASIL. Lei nº 14.133, de 1º de abril de 2021. Diário Oficial da União: seção 1, Brasília, DF, ano 159, n. 61-E, p. 1-43, 1 abr. 2021.',
+    },
+  ],
   descricaoCurta: 'Norma ABNT NBR 6023:2025 (3ª edição de 21.05.2025), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 13,
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
   alertasCebraspe: [
     'O destaque tipográfico na NBR 6023:2025: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',

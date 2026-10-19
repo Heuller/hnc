@@ -18,8 +18,30 @@ export const submodulo85: ModuloFilho = {
       }
   ],
   titulo: 'Editoração, Fichas Catalográficas, Índices, Infografia e Acessibilidade',
+  antesDeLer: [
+    {
+      termo: 'Ficha Catalográfica (CIP)',
+      definicao: 'Catalogação na Publicação impressa no verso da folha de rosto de livros conforme padrão do AACR2 e regras da NBR 14724.',
+      exemploBiblioteca: 'Elaboração pelo bibliotecário da Câmara da ficha catalográfica para as publicações da Edições Câmara com número de chamada e ISBN.',
+    },
+    {
+      termo: 'ISBN e ISSN',
+      definicao: 'Padrões numéricos internacionais de identificação unívoca de publicações: ISBN para monografias/livros e ISSN para publicações seriadas.',
+      exemploBiblioteca: 'Gestão e solicitação de novos prefixos ISBN junto à Câmara Brasileira do Livro (CBL) para relatórios parlamentares.',
+    },
+    {
+      termo: 'ABNT NBR 6034:2004 (Índice)',
+      definicao: 'Norma que estabelece os requisitos para apresentação de índices remissivos, onomásticos e temáticos em publicações.',
+      exemploBiblioteca: 'Criação do índice remissivo analítico ao final da edição anotada do Regimento Interno da Câmara dos Deputados.',
+    },
+    {
+      termo: 'Acessibilidade Editorial',
+      definicao: 'Práticas de design e diagramação que garantem o acesso a pessoas com deficiência (descrição de imagens, contraste, fontes legíveis).',
+      exemploBiblioteca: 'Adaptação das publicações institucionais da Câmara para formatos acessíveis em áudio e ePub compatíveis com leitores de tela.',
+    },
+  ],
   descricaoCurta: 'Elaboração da ficha catalográfica (ABNT NBR 14724:2011 e CIP); índices e instrumentos auxiliares (ABNT NBR 6034:2004); formatos digitais de editoração (EPUB, PDF/A); infografia funcional (Alberto Cairo, Edward Tufte) e acessibilidade de produtos informacionais.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 15,
   autoresChave: ['Alberto Cairo', 'Edward Tufte', 'ABNT', 'W3C'],
   alertasCebraspe: [
     'Posição Canônica da Ficha Catalográfica (ABNT NBR 14724:2011, item 4.1.5): Em trabalhos acadêmicos e monografias, a ficha catalográfica é elemento PRÉ-TEXTUAL OBRIGATÓRIO e deve constar impreterivelmente no VERSO da folha de rosto, na sua metade inferior. O Cebraspe adora afirmar que ela fica no anverso da folha de rosto, no verso da capa ou que é elemento textual: ERRADO!',

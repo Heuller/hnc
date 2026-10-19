@@ -41,7 +41,7 @@ export const submodulo142: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Arquitetura TCP/IP, modelos de rede e navegação web; ameaças cibernéticas (malware, ransomware, phishing e pharming); mecanismos de proteção (firewall, antivírus, MFA); criptografia simétrica, assimétrica, hash, assinatura digital e ICP-Brasil (MP nº 2.200-2/2001); políticas de backup (regra 3-2-1) e gestão de riscos informacionais (ABNT NBR ISO 31000:2018 e ISO/IEC 27005:2023).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 26,
   autoresChave: [
     'Andrew Tanenbaum (2021)',
     'William Stallings (2018)',

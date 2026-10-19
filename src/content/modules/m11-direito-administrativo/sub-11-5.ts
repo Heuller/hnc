@@ -7,8 +7,30 @@ export const submodulo115: ModuloFilho = {
   preRequisitos: ["sub-11-4"],
   titulo: 'Poderes Administrativos, Ciclo de Polícia e Abuso de Poder',
   titulo_curto: 'Poderes Administrativos e Abuso',
+  antesDeLer: [
+    {
+      termo: 'Poder de Polícia',
+      definicao: 'Atividade estatal discricionária que limita ou disciplina direitos, interesses ou liberdades em benefício do interesse público.',
+      exemploBiblioteca: 'Atuação da Polícia Legislativa da Câmara controlando crachás, bagagens e acesso aos recintos da biblioteca.',
+    },
+    {
+      termo: 'Poder Hierárquico e Disciplinar',
+      definicao: 'Hierárquico organiza, fiscaliza e delega atribuições internamente; disciplinar pune internamente servidores que cometem faltas.',
+      exemploBiblioteca: 'A chefia imediata da biblioteca delegando atribuições de supervisão de turno aos analistas seniores.',
+    },
+    {
+      termo: 'Poder Regulamentar',
+      definicao: 'Prerrogativa conferida aos chefes do Executivo e Mesas Diretoras de expedir decretos e portarias para fiel execução das leis.',
+      exemploBiblioteca: 'Ato da Mesa da Câmara regulamentando o empréstimo interinstitucional de obras entre bibliotecas públicas.',
+    },
+    {
+      termo: 'Abuso de Poder (Excesso vs. Desvio)',
+      definicao: 'Excesso de poder ocorre quando o agente atua fora de sua competência legal; desvio de finalidade ocorre quando busca fim alheio ao interesse público.',
+      exemploBiblioteca: 'Proibição expressa de usar recursos da biblioteca para fins de autopromoção partidária de qualquer parlamentar.',
+    },
+  ],
   descricaoCurta: 'Poder vinculado e discricionário. Poder hierárquico, disciplinar e regulamentar (decretos regulamentares e autônomos). Poder de polícia: conceito (art. 78 do CTN), atributos, ciclo de polícia e delegabilidade a estatais (STF Tema 532). Uso e abuso de poder: excesso de poder vs. desvio de finalidade.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 11,
   autoresChave: [
     'Hely Lopes Meirelles',
     'Maria Sylvia Zanella Di Pietro',

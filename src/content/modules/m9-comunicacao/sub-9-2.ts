@@ -13,8 +13,30 @@ export const submodulo92: ModuloFilho = {
       }
   ],
   titulo: 'Acesso Aberto (Vias Verde, Dourada e Diamante) e Princípios FAIR',
+  antesDeLer: [
+    {
+      termo: 'Acesso Aberto (Open Access)',
+      definicao: 'Movimento global que defende o acesso digital gratuito, público e sem barreiras de licenciamento a publicações científicas financiadas com fundos públicos.',
+      exemploBiblioteca: 'A política de acesso aberto da Câmara que disponibiliza 100% da produção bibliográfica institucional sem custos para a sociedade.',
+    },
+    {
+      termo: 'Vias Verde, Dourada e Diamante',
+      definicao: 'Verde: autoarquivamento em repositórios; Dourada: periódicos com taxas (APCs); Diamante: periódicos gratuitos para autores e leitores.',
+      exemploBiblioteca: 'A revista acadêmica da Câmara operando estritamente na Via Diamante, sem cobrança de taxa de processamento de artigos.',
+    },
+    {
+      termo: 'Princípios FAIR',
+      definicao: 'Diretrizes para que dados e metadados científicos sejam Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable).',
+      exemploBiblioteca: 'Adesão aos princípios FAIR no repositório de dados de votações e emendas orçamentárias da Câmara.',
+    },
+    {
+      termo: 'Declarações de Budapeste, Bethesda e Berlim',
+      definicao: 'Marcos históricos fundacionais do movimento mundial de acesso aberto que definiram seus pilares e diretrizes.',
+      exemploBiblioteca: 'Fundamentação teórica do ato da Mesa Diretora que instituiu o Repositório Digital BDCam em consonância com as declarações internacionais.',
+    },
+  ],
   descricaoCurta: 'A crise dos periódicos, as 3 declarações fundacionais (Budapest, Bethesda, Berlin), as vias do Acesso Aberto (Dourada, Verde, Diamante, Híbrida e Bronze), licenças Creative Commons e os Princípios FAIR (Findable, Accessible, Interoperable, Reusable).',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['Peter Suber', 'Stevan Harnad', 'Barend Mons', 'Mark D. Wilkinson', 'John Willinsky', 'Abel Packer (SciELO)'],
   alertasCebraspe: [
     'A tríade dos "Três B\'s" do Acesso Aberto: 1. Declaração de Budapeste (BOAI, 2002); 2. Declaração de Bethesda (2003); e 3. Declaração de Berlim (2003). A Declaração de Budapeste inaugurou o movimento formal e estabeleceu as duas vias complementares da abertura: autoarquivamento em repositórios (Via Verde) e periódicos de acesso aberto (Via Dourada).',

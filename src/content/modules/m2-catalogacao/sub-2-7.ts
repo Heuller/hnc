@@ -24,8 +24,30 @@ export const submodulo27: ModuloFilho = {
   ],
   titulo: 'MODS, METS, BIBFRAME, Linked Data e Interoperabilidade',
   titulo_curto: 'BIBFRAME, METS e Linked Data',
+  antesDeLer: [
+    {
+      termo: 'MODS e METS',
+      definicao: 'Padrões XML da Library of Congress: MODS para descrição bibliográfica rica e METS para empacotamento estrutural de objetos digitais complexos.',
+      exemploBiblioteca: 'Empacotamento de livros raros digitalizados contendo imagens em alta resolução e texto transcrito na Biblioteca Digital da Câmara.',
+    },
+    {
+      termo: 'BIBFRAME',
+      definicao: 'Modelo de dados bibliográficos baseado em Linked Data desenvolvido pela Library of Congress para substituir o padrão MARC 21.',
+      exemploBiblioteca: 'Conexão de autores e assuntos do catálogo da Câmara com identidades de dados abertos como Wikidata e VIAF.',
+    },
+    {
+      termo: 'Linked Data e RDF',
+      definicao: 'Prática de publicar dados estruturados na web utilizando triplas RDF (Sujeito - Predicado - Objeto) com URIs para conectar informações.',
+      exemploBiblioteca: 'Disponibilizar a relação entre um Deputado e a autoria de uma Proposição em formato RDF no portal de Dados Abertos da Câmara.',
+    },
+    {
+      termo: 'Interoperabilidade Semântica',
+      definicao: 'Capacidade de diferentes sistemas trocarem informações mantendo o significado preciso e inequívoco dos dados transmitidos.',
+      exemploBiblioteca: 'Intercâmbio automático de legislação entre os portais da Câmara dos Deputados, Senado Federal e Presidência da República.',
+    },
+  ],
   descricaoCurta: 'Padrões XML da Library of Congress (MODS e METS), o modelo BIBFRAME 2.0 (Work, Instance, Item e conversão MARC-BIBFRAME), regras de Linked Data (Berners-Lee 2006), identificadores persistentes e os quatro níveis de interoperabilidade.',
-  tempoEstimadoMinutos: 40,
+  tempoEstimadoMinutos: 21,
   autoresChave: [
     'Library of Congress',
     'Tim Berners-Lee',

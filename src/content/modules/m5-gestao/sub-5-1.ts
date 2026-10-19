@@ -18,8 +18,30 @@ export const submodulo51: ModuloFilho = {
       }
   ],
   titulo: 'Planejamento de Bibliotecas, Avaliação de Serviços e Indicadores de Desempenho',
+  antesDeLer: [
+    {
+      termo: 'Planejamento Estratégico em Bibliotecas',
+      definicao: 'Processo gerencial de formulação de objetivos, estratégias e metas com base na análise de cenários internos e externos (Matriz SWOT).',
+      exemploBiblioteca: 'Alinhamento do Plano de Ação da Biblioteca Pedro Aleixo ao Plano Estratégico Institucional da Câmara 2024-2035.',
+    },
+    {
+      termo: 'Indicadores de Desempenho',
+      definicao: 'Métricas quantitativas e qualitativas (KPIs) utilizadas para monitorar a eficiência, eficácia e impacto dos serviços bibliotecários.',
+      exemploBiblioteca: 'Acompanhamento mensal da taxa de atendimento de consultas parlamentares dentro do prazo de 24 horas.',
+    },
+    {
+      termo: 'Matriz SWOT / FOFA',
+      definicao: 'Ferramenta de gestão que mapeia Forças, Oportunidades, Fraquezas e Ameaças que afetam a organização e seus projetos.',
+      exemploBiblioteca: 'Identificar como força o acervo histórico único e como fraqueza a necessidade de migração de sistemas legados.',
+    },
+    {
+      termo: 'Benchmarking',
+      definicao: 'Processo contínuo de comparação de processos e serviços com as melhores bibliotecas do mundo para identificar oportunidades de melhoria.',
+      exemploBiblioteca: 'Estudo comparativo entre os serviços de referência da Biblioteca da Câmara e da Library of Congress (EUA).',
+    },
+  ],
   descricaoCurta: 'Planejamento estratégico, tático e operacional em unidades de informação, diagnóstico organizacional, matriz SWOT, avaliação de insumos, processos e produtos, e indicadores de desempenho (Lancaster, Almeida, Maciel).',
-  tempoEstimadoMinutos: 30,
+  tempoEstimadoMinutos: 20,
   autoresChave: ['Maria Christina Barbosa de Almeida', 'F. W. Lancaster', 'Alba Costa Maciel', 'Amélia Silveira', 'Peter Drucker', 'IFLA (1999)', 'CF/88'],
   alertasCebraspe: [
     'O Cebraspe adora afirmar que o planejamento estratégico é de competência exclusiva da alta administração da instituição mantenedora e que o bibliotecário cuida apenas do nível operacional: ERRADO! O bibliotecário lidera o planejamento da unidade em todos os níveis.',

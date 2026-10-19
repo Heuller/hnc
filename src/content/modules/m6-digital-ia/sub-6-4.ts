@@ -46,7 +46,7 @@ export const submodulo64: ModuloFilho = {
     },
   ],
   descricaoCurta: 'Fundamentos de IA na Biblioteconomia, Grandes Modelos de Linguagem (LLMs), Embeddings vetoriais e busca semântica, catalogação assistida, RAG, Declaração da IFLA sobre Bibliotecas e IA, e as Diretrizes de Uso Responsável de IA da Câmara dos Deputados.',
-  tempoEstimadoMinutos: 45,
+  tempoEstimadoMinutos: 14,
   autoresChave: ['IFLA Advisory Committee', 'Câmara dos Deputados (Ditec/Cedi)', 'Ashish Vaswani', 'Cole Nussbaumer Knaflic', 'Stuart Russell', 'Edward Tufte'],
   alertasCebraspe: [
     'A IA não substitui o bibliotecário nem torna dispensáveis as técnicas de representação temática e descritiva (classificação e indexação): pelo contrário, a acurácia dos sistemas de IA depende diretamente de bases bem estruturadas, ontologias, grafos de conhecimento e metadados de alta qualidade gerados com curadoria humana.',
