@@ -17,16 +17,80 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'HNC',
+        name: 'Heuller na Câmara',
         short_name: 'HNC',
-        description: 'Heuller na Camara - Plataforma de Alta Performance CEBRASPE',
+        description: 'Ambiente integrado de estudos, retenção de conhecimento e alto rendimento pedagógico.',
+        lang: 'pt-BR',
         theme_color: '#16244A',
         background_color: '#FAF7F0',
         display: 'standalone',
-        start_url: './',
+        start_url: '/',
+        scope: '/',
+        icons: [
+          {
+            src: '/icons/icon-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: '/icons/icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: '/icons/icon-512-maskable.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,ttf}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
+        globIgnores: [
+          '**/content-questions-*.js',
+          '**/registry-*.js',
+          '**/*registry*.js',
+          '**/elk-*.js',
+          '**/dicionario*.js',
+          '**/*Diagram-*.js',
+          '**/diagram-*.js',
+          '**/cytoscape*.js',
+          '**/cose-bilkent-*.js',
+          '**/swimlanes-*.js',
+          '**/chunk-NGNAAXSQ-*.js',
+          '**/*.ttf',
+          '**/*vietnamese*.woff2',
+          '**/*greek*.woff2',
+          '**/*cyrillic*.woff2',
+        ],
+        runtimeCaching: [
+          {
+            urlPattern: ({ url, sameOrigin }) =>
+              sameOrigin &&
+              (url.pathname.includes('content-questions') ||
+                url.pathname.includes('registry') ||
+                url.pathname.includes('elk') ||
+                url.pathname.includes('dicionario') ||
+                url.pathname.includes('Diagram') ||
+                url.pathname.includes('cytoscape') ||
+                url.pathname.includes('chunk-NGNAAXSQ') ||
+                url.pathname.endsWith('.ttf') ||
+                url.pathname.includes('vietnamese') ||
+                url.pathname.includes('greek') ||
+                url.pathname.includes('cyrillic')),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'hnc-runtime-on-demand',
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 dias
+              },
+            },
+          },
+        ],
         skipWaiting: true,
         clientsClaim: true,
         cleanupOutdatedCaches: true,
@@ -41,6 +105,9 @@ export default defineConfig({
         manualChunks(id) {
           if (id.includes('content/questions') || id.includes('content\\questions')) {
             return 'content-questions';
+          }
+          if (id.includes('content/simuladosRegistry') || id.includes('content\\simuladosRegistry')) {
+            return 'registry';
           }
           if (id.includes('node_modules')) {
             if (
