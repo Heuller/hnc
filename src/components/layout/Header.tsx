@@ -1,28 +1,37 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BookOpen, LayoutDashboard, PanelLeftClose, PanelLeftOpen, TrendingUp, Search, Compass, Dumbbell, Palette } from 'lucide-react';
+import {
+  BookOpen,
+  PanelLeftClose,
+  PanelLeftOpen,
+  Search,
+  Palette,
+  Layers,
+} from 'lucide-react';
 import { CONCURSO_CONFIG } from '../../config/concurso.config';
-import { useNavigationStore, type AppView } from '../../store/useNavigationStore';
+import { useNavigationStore } from '../../store/useNavigationStore';
 import { ThemeToggle } from './ThemeToggle';
 import { MobileModulesDrawer } from './MobileModulesDrawer';
 import { MobileMoreMenu } from './MobileMoreMenu';
+import { ReferenceMenuDropdown } from './ReferenceMenuDropdown';
+import { Breadcrumb } from './Breadcrumb';
 import { getSearchShortcutLabel } from '../../utils/platform';
 import { UserMenuDropdown } from './UserMenuDropdown';
+import {
+  ABAS_PRINCIPAIS,
+  isDestinoAtivo,
+  getDesktopHeaderTitle,
+  getMobileHeaderTitle,
+} from '../../config/rotas';
 
 interface HeaderProps {
   onOpenSearch?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
-  const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } = useNavigationStore();
+  const { activeView, setActiveView, sidebarCollapsed, toggleSidebar, selectedSubmodule } =
+    useNavigationStore();
   const [isModulesDrawerOpen, setIsModulesDrawerOpen] = useState(false);
-
-  const navItems: { view: AppView; label: string; icon: React.ReactNode }[] = [
-    { view: 'painel', label: 'Painel', icon: <LayoutDashboard className="w-4 h-4 shrink-0" /> },
-    { view: 'jornada', label: 'Jornada', icon: <Compass className="w-4 h-4 shrink-0" /> },
-    { view: 'treinos', label: 'Treinos', icon: <Dumbbell className="w-4 h-4 shrink-0" /> },
-    { view: 'progresso', label: 'Progresso', icon: <TrendingUp className="w-4 h-4 shrink-0" /> },
-  ];
 
   return (
     <>
@@ -42,32 +51,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
             <div className="text-center truncate px-2 flex-1 min-w-0">
               <span className="font-bold text-xs text-ink truncate block">
-                HNC ·{' '}
-                {activeView === 'jornada'
-                  ? 'Jornada'
-                  : activeView === 'treinos'
-                  ? 'Treinos'
-                  : activeView === 'teoria'
-                  ? `Submódulo ${selectedSubmodule}`
-                  : activeView === 'simulado'
-                  ? 'Simulado'
-                  : activeView === 'radar'
-                  ? 'Radar'
-                  : activeView === 'progresso'
-                  ? 'Progresso'
-                  : activeView === 'caderno-erros'
-                  ? 'Caderno Erros'
-                  : activeView === 'folha-vespera'
-                  ? 'Folha Véspera'
-                  : activeView === 'discursiva'
-                  ? 'Discursiva'
-                  : activeView === 'edital'
-                  ? 'Edital'
-                  : activeView === 'dev-rascunhos'
-                  ? 'Dev Lab'
-                  : 'Painel'}
+                HNC · {getMobileHeaderTitle(activeView, selectedSubmodule)}
               </span>
             </div>
+
             <div className="flex items-center gap-0.5 sm:gap-1 shrink-0">
               <button
                 type="button"
@@ -80,14 +67,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
               <ThemeToggle compact={true} />
               <MobileMoreMenu />
             </div>
-
           </div>
 
-          {/* DESKTOP HEADER (Brand & Sidebar Toggle) */}
+          {/* DESKTOP HEADER: Identidade Visual e Alternador de Barra Lateral */}
           <div className="hidden md:flex items-center gap-2 lg:gap-3 shrink-0">
             <button
+              type="button"
               onClick={toggleSidebar}
-              className="hidden lg:flex touch-target p-2 rounded-md hover:bg-surface-2 text-ink transition-colors border border-transparent hover:border-border"
+              className="hidden lg:flex touch-target p-2 rounded-md hover:bg-surface-2 text-ink transition-colors border border-transparent hover:border-border cursor-pointer"
               aria-label={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
               title={sidebarCollapsed ? 'Expandir barra lateral' : 'Recolher barra lateral'}
             >
@@ -99,10 +86,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             </button>
 
             <button
+              type="button"
               onClick={() => setActiveView('painel')}
               className="flex items-center gap-2.5 text-left group cursor-pointer shrink-0 whitespace-nowrap"
             >
-              {/* Símbolo editorial nobre da plataforma com gravura sutil de Brasília */}
               <div className="w-9 h-9 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs select-none shadow-editorial-sm border border-primary/20 shrink-0">
                 <span className="font-serif tracking-widest text-[13px] font-bold">CD</span>
               </div>
@@ -114,29 +101,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                   </span>
                   <span className="text-ink-2/60 text-xs hidden lg:inline">/</span>
                   <span className="text-xs font-semibold text-accent capitalize whitespace-nowrap hidden lg:inline">
-                    {activeView === 'teoria'
-                      ? `Teoria (${selectedSubmodule})`
-                      : activeView === 'simulado'
-                      ? 'Simulado 100Q'
-                      : activeView === 'radar'
-                      ? 'Radar Cebraspe'
-                      : activeView === 'progresso'
-                      ? 'Progresso'
-                      : activeView === 'jornada'
-                      ? 'Jornada R3'
-                      : activeView === 'treinos'
-                      ? 'Cadernos de Treino'
-                      : activeView === 'caderno-erros'
-                      ? 'Caderno de Erros'
-                      : activeView === 'folha-vespera'
-                      ? 'Folha de Véspera'
-                      : activeView === 'discursiva'
-                      ? 'Oficina Discursiva'
-                      : activeView === 'edital'
-                      ? 'Edital Verticalizado'
-                      : activeView === 'dev-rascunhos'
-                      ? 'Laboratório Dev'
-                      : 'Painel'}
+                    {getDesktopHeaderTitle(activeView, selectedSubmodule)}
                   </span>
                   <span className="text-xs uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden 2xl:inline-block ml-1">
                     {CONCURSO_CONFIG.instituicao.sigla} · {CONCURSO_CONFIG.banca.nome}
@@ -149,90 +114,102 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             </button>
           </div>
 
-        {/* Center: Desktop Navigation Tabs */}
-        <nav
-          className="hidden md:flex items-center gap-0.5 lg:gap-1 p-1 rounded-md bg-surface-2 border border-border relative shrink-0"
-          aria-label="Navegação principal"
-        >
-          {navItems.map((item) => {
-            const isActive = activeView === item.view;
-            return (
-              <button
-                key={item.view}
-                onClick={() => setActiveView(item.view)}
-                className={`relative px-2 sm:px-2.5 xl:px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
-                  isActive
-                    ? 'text-ink font-bold'
-                    : 'text-ink-2 hover:text-ink'
-                }`}
-              >
-                {isActive && (
-                  <motion.span
-                    layoutId="activeNavPill"
-                    className="absolute inset-0 rounded bg-surface shadow-editorial-sm border border-border z-0"
-                    transition={{ type: 'spring', stiffness: 400, damping: 30 }}
-                  />
-                )}
-                <span className="relative z-10 flex items-center gap-1.5 whitespace-nowrap shrink-0">
-                  {item.icon}
-                  <span>{item.label}</span>
-                </span>
-              </button>
-            );
-          })}
-        </nav>
-
-        {/* Right: Search, DEV tools, Theme Toggle & User Menu */}
-        <div className="hidden md:flex items-center gap-1.5 sm:gap-2 shrink-0">
-          <button
-            type="button"
-            onClick={onOpenSearch}
-            className="flex items-center gap-1.5 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0 min-h-[38px]"
-            title={`Busca Global (${getSearchShortcutLabel()})`}
-            aria-label="Abrir busca global"
+          {/* Centro: 5 Abas de Navegação Principal Unificadas (P8 / U-01, U-05, U-06) */}
+          <nav
+            className="hidden md:flex items-center gap-0.5 lg:gap-1 p-1 rounded-md bg-surface-2 border border-border relative shrink-0"
+            aria-label="Navegação principal"
           >
-            <Search className="w-3.5 h-3.5 text-accent shrink-0" />
-            <span className="font-sans text-xs hidden lg:inline">Buscar</span>
-            <span className="text-xs px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
-              {getSearchShortcutLabel()}
-            </span>
-          </button>
-          {import.meta.env.DEV && (
-            <>
-              <button
-                onClick={() => setActiveView('dev-rascunhos')}
-                className={`touch-target p-2 rounded-md transition-colors border ${
-                  activeView === 'dev-rascunhos'
-                    ? 'bg-accent text-accent-text border-border'
-                    : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
-                }`}
-                title="Rascunho de Itens Cebraspe (Homologação R4)"
-                aria-label="Página de Homologação de Rascunhos Cebraspe"
-              >
-                <BookOpen className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setActiveView('design-system')}
-                className={`touch-target p-2 rounded-md transition-colors border ${
-                  activeView === 'design-system'
-                    ? 'bg-primary text-primary-text border-border'
-                    : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
-                }`}
-                title="Design System (somente em desenvolvimento)"
-                aria-label="Página de Design System DEV"
-              >
-                <Palette className="w-4 h-4" />
-              </button>
-            </>
-          )}
+            {ABAS_PRINCIPAIS.map((aba) => {
+              const isActive = isDestinoAtivo(aba.id, activeView);
+              const Icon = aba.icone;
 
-          <ThemeToggle compact={true} />
+              return (
+                <button
+                  key={aba.id}
+                  type="button"
+                  onClick={() => setActiveView(aba.rotaPadrao)}
+                  aria-current={isActive ? 'page' : undefined}
+                  aria-label={aba.rotulo}
+                  className={`relative px-2 sm:px-2.5 xl:px-3 py-1.5 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer select-none ${
+                    isActive ? 'text-ink font-bold' : 'text-ink-2 hover:text-ink'
+                  }`}
+                >
+                  {isActive && (
+                    <motion.span
+                      layoutId="activeNavPill"
+                      className="absolute inset-0 rounded bg-surface shadow-editorial-sm border border-border z-0"
+                      transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                    />
+                  )}
+                  <span className="relative z-10 flex items-center gap-1.5 whitespace-nowrap shrink-0">
+                    <Icon className="w-4 h-4 shrink-0" />
+                    <span>{aba.rotulo}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </nav>
 
-          {/* Menu do Usuário com Logout, Preferências e Modo Livre (Regra C11) */}
-          <UserMenuDropdown />
+          {/* Direita: Menu de Referência, Busca, DEV, Tema e Conta */}
+          <div className="hidden md:flex items-center gap-1.5 sm:gap-2 shrink-0">
+            {/* Menu Suspenso de Referência (Oficina Discursiva, Folha de Véspera, Edital Oficial) */}
+            <ReferenceMenuDropdown />
+
+            <button
+              type="button"
+              onClick={onOpenSearch}
+              className="flex items-center gap-1.5 py-1.5 px-2.5 rounded-lg bg-surface-2 border border-border text-ink-2 hover:text-ink hover:border-accent text-xs font-mono transition-colors cursor-pointer shrink-0 min-h-[38px]"
+              title={`Busca Global (${getSearchShortcutLabel()})`}
+              aria-label="Abrir busca global"
+            >
+              <Search className="w-3.5 h-3.5 text-accent shrink-0" />
+              <span className="font-sans text-xs hidden lg:inline">Buscar</span>
+              <span className="text-xs px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
+                {getSearchShortcutLabel()}
+              </span>
+            </button>
+
+            {import.meta.env.DEV && (
+              <>
+                <button
+                  type="button"
+                  onClick={() => setActiveView('dev-rascunhos')}
+                  className={`touch-target p-2 rounded-md transition-colors border ${
+                    activeView === 'dev-rascunhos'
+                      ? 'bg-accent text-accent-text border-border'
+                      : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
+                  }`}
+                  title="Rascunho de Itens Cebraspe (Homologação R4)"
+                  aria-label="Página de Homologação de Rascunhos Cebraspe"
+                >
+                  <Layers className="w-4 h-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setActiveView('design-system')}
+                  className={`touch-target p-2 rounded-md transition-colors border ${
+                    activeView === 'design-system'
+                      ? 'bg-primary text-primary-text border-border'
+                      : 'text-ink-2 hover:text-ink hover:bg-surface-2 border-transparent'
+                  }`}
+                  title="Design System (somente em desenvolvimento)"
+                  aria-label="Página de Design System DEV"
+                >
+                  <Palette className="w-4 h-4" />
+                </button>
+              </>
+            )}
+
+            <ThemeToggle compact={true} />
+
+            {/* Menu do Usuário com Logout e Preferências */}
+            <UserMenuDropdown />
+          </div>
         </div>
-      </div>
-    </header>
+
+        {/* Trilha de Navegação (Breadcrumb) logo abaixo da barra do cabeçalho */}
+        <Breadcrumb />
+      </header>
 
       <MobileModulesDrawer
         isOpen={isModulesDrawerOpen}
