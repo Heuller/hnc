@@ -5,8 +5,8 @@ import {
   fetchWithTimeout,
   sendApiError,
   dictionarySchema,
-} from './_lib/guard';
-import { getGeminiGenerateContentUrl } from './_lib/model';
+} from './_lib/guard.js';
+import { getGeminiGenerateContentUrl } from './_lib/model.js';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
@@ -110,7 +110,7 @@ Defina com rigor conceitual o termo técnico delimitado. Retorne ESTRITAMENTE um
       throw new Error(`Serviço de IA respondeu com status ${response.status}`);
     }
 
-    const data = await response.json();
+    const data: any = await response.json();
     const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
 
     if (!rawText) {
