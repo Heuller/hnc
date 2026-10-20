@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **SUPERADO por [DIRETRIZES_PROJETO_HEULLER_NA_CAMARA.md](../../DIRETRIZES_PROJETO_HEULLER_NA_CAMARA.md)**
+
 # 🏛️ DIRETRIZES E MANUAL DE EXECUÇÃO: HEULLER NA CÂMARA
 **Plataforma de Alta Performance para o Concurso da Câmara dos Deputados**
 *Cargo: Analista Legislativo — Área: Bibliotecário | Banca Examinadora: CEBRASPE / CESPE*

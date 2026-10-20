@@ -108,6 +108,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
       adicionarItemAttempt,
       contexto,
       onAnswered,
+      deveIniciarLimpo,
     ]
   );
 
