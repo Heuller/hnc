@@ -60,5 +60,17 @@ export const useAuthStore = create<AuthState>((set) => ({
       await supabase.auth.signOut();
     }
     set({ user: null, session: null });
+
+    // F-04: No signOut, zere e reidrate os stores em memória
+    try {
+      const { useProgressStore } = await import('./useProgressStore');
+      const { useConceptStore } = await import('./useConceptStore');
+      useProgressStore.getState().limparTodoProgresso();
+      useConceptStore.getState().reset();
+      await useProgressStore.persist?.rehydrate?.();
+      await useConceptStore.persist?.rehydrate?.();
+    } catch (e) {
+      console.warn('[useAuthStore] Erro ao reidratar stores no signOut:', e);
+    }
   },
 }));

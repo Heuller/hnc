@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import { createUserScopedStorage } from '../lib/userScopedStorage';
 import type { Concept, ConceptState, ConfidenceLevel, DominioEstado } from '../domain/concepts/types';
 import { conceptRepository } from '../domain/concepts/conceptRepository';
 import {
@@ -299,6 +300,7 @@ export const useConceptStore = create<ConceptStoreState>()(
     }),
     {
       name: 'hnc_concept_state_v1',
+      storage: createJSONStorage(() => createUserScopedStorage('hnc_concept_state_v1')),
     }
   )
 );

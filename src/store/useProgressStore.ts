@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import { createUserScopedStorage } from '../lib/userScopedStorage';
 import type {
   UserProgress,
   SimuladoFinalizado,
@@ -1049,6 +1050,7 @@ export const useProgressStore = create<ProgressStoreState>()(
     {
       name: 'heuller_camara_v2_progress',
       version: 4,
+      storage: createJSONStorage(() => createUserScopedStorage('heuller_camara_v2_progress')),
       migrate: (persistedState: unknown, version: number) => {
         const old = (persistedState as Record<string, unknown>) || {};
         if (version < 4 || !version) {
