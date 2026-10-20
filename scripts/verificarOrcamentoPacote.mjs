@@ -2,20 +2,23 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 /**
- * U9.2: Verificador de Orçamento de Pacote e Build para CI
- * Atende às diretrizes de qualidade do Plano v3:
+ * U9.2 / Fase P5: Verificador de Orçamento de Pacote e Build para CI
+ * Atende às diretrizes de qualidade do Plano v3 e P5:
  * - Limites rígidos de tamanho de pacote para evitar degradação de performance
- * - Validação da geração de assets essenciais para PWA offline
+ * - Precache inicial do PWA otimizado (< 5 MB) para instalação ágil
+ * - Chunks pesados isolados sob demanda via runtimeCaching (StaleWhileRevalidate)
  * - Falha com código de saída 1 caso qualquer orçamento seja violado
  */
 
 export const ORCAMENTO = {
-  maxTotalJSBytes: 26 * 1024 * 1024, // 26 MB (inclui dicionário offline de 10.000 verbetes e acervo completo)
+  maxTotalJSBytes: 26 * 1024 * 1024, // 26 MB (inclui acervo total sob demanda)
   maxTotalCSSBytes: 1 * 1024 * 1024, // 1 MB
   maxEntryChunkBytes: 350 * 1024, // 350 kB (index-*.js)
   maxVendorCoreBytes: 350 * 1024, // 350 kB (vendor-core-*.js)
   maxVendorUiBytes: 150 * 1024, // 150 kB (vendor-ui-primitives-*.js)
-  minPrecacheAssets: 200, // Mínimo de 200 arquivos precacheados pelo ServiceWorker
+  maxSingleChunkBytes: 2.5 * 1024 * 1024, // 2.5 MB (limite para maior chunk individual, ex.: registry ou content-questions)
+  maxPrecacheBytes: 5 * 1024 * 1024, // 5 MB (meta Fase P5: precache inicial < 5 MB)
+  minPrecacheAssets: 50, // Mínimo de 50 assets essenciais precacheados (shell, fontes pt-br, ícones, CSS)
 };
 
 export function verificarOrcamento(distPath = path.resolve('dist')) {
@@ -57,6 +60,8 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
   let entryChunkBytes = 0;
   let vendorCoreBytes = 0;
   let vendorUiBytes = 0;
+  let maxSingleChunkBytes = 0;
+  let maxSingleChunkName = '';
 
   for (const nome of arquivos) {
     const caminho = path.join(assetsDir, nome);
@@ -65,6 +70,11 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
 
     if (nome.endsWith('.js')) {
       totalJSBytes += bytes;
+
+      if (bytes > maxSingleChunkBytes) {
+        maxSingleChunkBytes = bytes;
+        maxSingleChunkName = nome;
+      }
 
       if (nome.startsWith('index-') && !entryChunkBytes) {
         entryChunkBytes = bytes;
@@ -80,14 +90,19 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
     }
   }
 
-  // 3. Verificação do ServiceWorker e contagem de precache
+  // 3. Verificação do ServiceWorker e contagem/tamanho real de precache
   let precacheCount = 0;
+  let precacheBytes = 0;
   const swPath = path.join(distPath, 'sw.js');
   if (fs.existsSync(swPath)) {
-    // Workbox precache manifest costuma ser embutido em sw.js ou importScripts workbox-*.js
-    const workboxFiles = fs.readdirSync(distPath).filter((f) => f.startsWith('workbox-') && f.endsWith('.js'));
-    if (workboxFiles.length > 0) {
-      precacheCount = arquivos.length; // Estimativa com base nos assets gerados
+    const swContent = fs.readFileSync(swPath, 'utf-8');
+    const urls = [...swContent.matchAll(/url:"([^"]+)"/g)].map((m) => m[1]);
+    precacheCount = urls.length;
+    for (const relUrl of urls) {
+      const filePath = path.join(distPath, relUrl);
+      if (fs.existsSync(filePath)) {
+        precacheBytes += fs.statSync(filePath).size;
+      }
     }
   }
 
@@ -133,6 +148,22 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
     );
   }
 
+  if (maxSingleChunkBytes > ORCAMENTO.maxSingleChunkBytes) {
+    erros.push(
+      `Maior chunk individual (${maxSingleChunkName}) excedeu o limite: ${(maxSingleChunkBytes / (1024 * 1024)).toFixed(2)} MB (limite: ${(
+        ORCAMENTO.maxSingleChunkBytes / (1024 * 1024)
+      ).toFixed(2)} MB)`
+    );
+  }
+
+  if (precacheBytes > ORCAMENTO.maxPrecacheBytes) {
+    erros.push(
+      `Precache inicial do PWA excedeu o limite de 5 MB: ${(precacheBytes / (1024 * 1024)).toFixed(2)} MB (limite: ${(
+        ORCAMENTO.maxPrecacheBytes / (1024 * 1024)
+      ).toFixed(2)} MB)`
+    );
+  }
+
   if (precacheCount < ORCAMENTO.minPrecacheAssets) {
     avisos.push(
       `Total de assets precacheados (${precacheCount}) está abaixo da meta recomendada (${ORCAMENTO.minPrecacheAssets})`
@@ -149,6 +180,8 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
       entryChunkKB: Number((entryChunkBytes / 1024).toFixed(2)),
       vendorCoreKB: Number((vendorCoreBytes / 1024).toFixed(2)),
       vendorUiKB: Number((vendorUiBytes / 1024).toFixed(2)),
+      maxChunkMB: Number((maxSingleChunkBytes / (1024 * 1024)).toFixed(2)),
+      precacheMB: Number((precacheBytes / (1024 * 1024)).toFixed(2)),
       totalAssetsCount: arquivos.length,
       precacheCount,
     },
@@ -157,7 +190,7 @@ export function verificarOrcamento(distPath = path.resolve('dist')) {
 
 // Execução direta via CLI
 if (process.argv[1] && process.argv[1].endsWith('verificarOrcamentoPacote.mjs')) {
-  console.log('🔍 Executando verificação de orçamento do pacote (U9.2)...');
+  console.log('🔍 Executando verificação de orçamento do pacote (U9.2 / Fase P5)...');
   const resultado = verificarOrcamento();
 
   if (!resultado.sucesso) {
