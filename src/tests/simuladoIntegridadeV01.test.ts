@@ -108,7 +108,6 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
   it('(5) Sequência C, B, E no item 1 resulta na pontuação da primeira resposta (nunca manipulada para +1)', () => {
     const store = useProgressStore.getState();
     const simId = 'm1-fundamentos';
-    const q1Gabarito = 'E'; // Gabarito real é E
 
     // 1. Usuário responde C (erra: -1)
     store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', false);
