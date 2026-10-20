@@ -4,6 +4,31 @@
  * Itens 9.1, 9.4 a 9.6, 9.8.4 e 9.8.5
  */
 
+/**
+ * Fatores Canônicos da Prova Discursiva - Cargo 5 (Edital nº 1/2026, subitem 9.8.5)
+ * Centralização mandatória (Regra F-11)
+ */
+export const DISCURSIVA_FATORES = {
+  QUESTAO: {
+    FATOR_DESCONTO: 3 as const,
+    NOTA_MAXIMA: 15.0,
+    MAX_LINHAS: 20,
+    DESCRICAO: 'NQ = NC − 3 × (NE ÷ TL)',
+  },
+  PECA_TECNICA: {
+    FATOR_DESCONTO: 6 as const,
+    NOTA_MAXIMA: 30.0,
+    MAX_LINHAS: 50,
+    DESCRICAO: 'NPT = NC − 6 × (NE ÷ TL)',
+  },
+  PROVA: {
+    TOTAL_QUESTOES: 2,
+    NOTA_MAXIMA_TOTAL: 60.0,
+    NOTA_MINIMA_APROVACAO: 30.0,
+    FORMULA_TOTAL: 'NFPD = NQ1 + NQ2 + NPT',
+  },
+} as const;
+
 export interface DetalheCalculoDiscursiva {
   tipo: 'questao' | 'peca_tecnica';
   notaConteudo: number;
