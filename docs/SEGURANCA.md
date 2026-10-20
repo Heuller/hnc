@@ -30,3 +30,28 @@ Caso seja necessário restringir o acesso ao conteúdo textual das questões e d
 * **Rate Limiting:** Limite por usuário (20 chamadas/10 min, 200/dia), com resposta HTTP 429 e cabeçalho `Retry-After`.
 * **Validação de Entrada:** Validação de schemas Zod com limites explícitos de tamanho no payload.
 * **Resiliência e Timeout:** Timeout de 20s com `AbortController` em chamadas externas a modelos de IA.
+
+
+---
+
+## 4. Diretrizes de Deployment e Prevenção de Erros de CI/CD
+
+Para impedir falhas de deployment no GitHub Actions e no Vercel:
+
+1. **Auto-suficiência das Funções Serverless (`api/*.ts`):**
+   * Cada endpoint em `api/*.ts` deve ser **estritamente auto-suficiente**, sem imports relativos a outros arquivos TypeScript locais (`./_lib/*`).
+   * A resolução ESM nativa do Vercel (`@vercel/node`) executa cada arquivo de forma isolada; imports relativos a código não-transpilado causam falhas instantâneas de intake.
+   * Dependências de pacotes npm externos declarados no `package.json` (`@supabase/supabase-js`, `zod`) são resolvidas normalmente.
+
+2. **Integridade de Configuração do Vercel (`vercel.json`):**
+   * O arquivo `vercel.json` deve manter a estrutura estrita de `headers` e `rewrites` testada e validada.
+   * Políticas de segurança (como cabeçalhos HTTP e rotas de SPA) não devem conter sintaxes experimentais não validadas.
+
+3. **Protocolo Obrigatório de Pré-Push (`npm run verify`):**
+   * Antes de qualquer commit ou push para `ux/*`, `main` ou `master`, é mandatório executar `npm run verify`.
+   * O script executa:
+     1. `npm run lint` (oxlint: zero erros).
+     2. `vitest run` (100% dos testes unitários e de integração verdes).
+     3. `tsc -b` (zero erros de TypeScript, incluindo variáveis não utilizadas com `noUnusedLocals`).
+     4. `vite build` (compilação completa dos assets e precache do ServiceWorker).
+     5. `verificarOrcamentoPacote.mjs` (validação dos orçamentos de bundle e assets mandatórios).
