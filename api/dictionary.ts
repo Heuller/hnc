@@ -1,12 +1,165 @@
 // Vercel Serverless Function: /api/dictionary
-import {
-  validateAuth,
-  checkRateLimit,
-  fetchWithTimeout,
-  sendApiError,
-  dictionarySchema,
-} from './_lib/guard.js';
-import { getGeminiGenerateContentUrl } from './_lib/model.js';
+import { createClient } from '@supabase/supabase-js';
+import { z } from 'zod';
+
+const rateLimitCache = new Map<string, number[]>();
+const RATE_LIMIT_10M_MAX = 20;
+const RATE_LIMIT_10M_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_24H_MAX = 200;
+const RATE_LIMIT_24H_WINDOW_MS = 24 * 60 * 60 * 1000;
+
+interface AuthValidationResult {
+  userId: string;
+  userEmail?: string;
+}
+
+async function validateAuth(req: any): Promise<{ auth?: AuthValidationResult; error?: { status: number; message: string; code: string } }> {
+  const authHeader = req.headers?.authorization || req.headers?.Authorization;
+
+  if (!authHeader || typeof authHeader !== 'string' || !authHeader.startsWith('Bearer ')) {
+    return {
+      error: {
+        status: 401,
+        message: 'Acesso não autorizado. Token de sessão ausente ou inválido.',
+        code: 'UNAUTHORIZED',
+      },
+    };
+  }
+
+  const token = authHeader.replace(/^Bearer\s+/i, '').trim();
+  if (!token) {
+    return {
+      error: {
+        status: 401,
+        message: 'Token de autenticação vazio.',
+        code: 'UNAUTHORIZED',
+      },
+    };
+  }
+
+  if (process.env.NODE_ENV === 'test' && token === 'mock-valid-token') {
+    return {
+      auth: {
+        userId: 'test-user-id',
+        userEmail: 'test@hnc.internal',
+      },
+    };
+  }
+
+  const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
+  const serviceKey =
+    process.env.SUPABASE_SERVICE_ROLE_KEY ||
+    process.env.SUPABASE_ANON_KEY ||
+    process.env.VITE_SUPABASE_ANON_KEY;
+
+  if (!supabaseUrl || !serviceKey) {
+    if (process.env.NODE_ENV === 'development') {
+      return {
+        auth: {
+          userId: 'dev-local-user',
+          userEmail: 'dev@hnc.internal',
+        },
+      };
+    }
+    return {
+      error: {
+        status: 401,
+        message: 'Serviço de autenticação do backend não configurado.',
+        code: 'AUTH_NOT_CONFIGURED',
+      },
+    };
+  }
+
+  try {
+    const supabase = createClient(supabaseUrl, serviceKey);
+    const { data, error } = await supabase.auth.getUser(token);
+
+    if (error || !data?.user) {
+      return {
+        error: {
+          status: 401,
+          message: 'Sessão inválida ou expirada. Faça login novamente.',
+          code: 'INVALID_SESSION',
+        },
+      };
+    }
+
+    return {
+      auth: {
+        userId: data.user.id,
+        userEmail: data.user.email,
+      },
+    };
+  } catch {
+    return {
+      error: {
+        status: 401,
+        message: 'Falha ao validar credenciais da sessão.',
+        code: 'AUTH_VALIDATION_FAILED',
+      },
+    };
+  }
+}
+
+async function checkRateLimit(
+  userId: string,
+  endpoint: string
+): Promise<{ allowed: boolean; retryAfterSeconds?: number }> {
+  const now = Date.now();
+  const key = `${userId}:${endpoint}`;
+
+  const timestamps = rateLimitCache.get(key) || [];
+  const active24h = timestamps.filter((t) => now - t < RATE_LIMIT_24H_WINDOW_MS);
+
+  if (active24h.length >= RATE_LIMIT_24H_MAX) {
+    const oldest = active24h[0];
+    const retryAfter = Math.ceil((oldest + RATE_LIMIT_24H_WINDOW_MS - now) / 1000);
+    return { allowed: false, retryAfterSeconds: Math.max(1, retryAfter) };
+  }
+
+  const active10m = active24h.filter((t) => now - t < RATE_LIMIT_10M_WINDOW_MS);
+  if (active10m.length >= RATE_LIMIT_10M_MAX) {
+    const oldest = active10m[0];
+    const retryAfter = Math.ceil((oldest + RATE_LIMIT_10M_WINDOW_MS - now) / 1000);
+    return { allowed: false, retryAfterSeconds: Math.max(1, retryAfter) };
+  }
+
+  active24h.push(now);
+  rateLimitCache.set(key, active24h);
+  return { allowed: true };
+}
+
+async function fetchWithTimeout(url: string, options: RequestInit, timeoutMs = 20000): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(url, {
+      ...options,
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function sendApiError(res: any, status: number, message: string, code: string) {
+  return res.status(status).json({
+    error: message,
+    code,
+    timestamp: new Date().toISOString(),
+  });
+}
+
+function getGeminiGenerateContentUrl(): string {
+  const model = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+  return `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
+}
+
+const dictionarySchema = z.object({
+  termo: z.string().min(1, 'Termo não pode ser vazio.').max(100, 'Termo muito longo.'),
+  contexto: z.string().max(500, 'Contexto muito longo.').optional(),
+});
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
