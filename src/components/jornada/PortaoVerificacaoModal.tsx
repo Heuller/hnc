@@ -549,28 +549,64 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                 </button>
               </div>
 
-              {/* Tarefa B: Feedback durante o Quiz no padrão Prova Cebraspe (Apenas Confirmação de Registro) */}
+              {/* Feedback Imediato com Estudo Reverso */}
               {respostas[currentItem.id] && (
                 <div
-                  className="p-3.5 rounded-xl border border-border bg-surface-2/40 flex items-center justify-between gap-3 text-xs animate-fadeIn"
+                  className="p-4 rounded-xl border border-border bg-surface-2/40 space-y-3 animate-fadeIn text-xs"
                   aria-live="polite"
                 >
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-accent shrink-0" />
-                    <span className="font-medium text-ink">
-                      Resposta registrada:{' '}
-                      <strong className="font-mono">
-                        {respostas[currentItem.id] === 'BRANCO'
-                          ? 'EM BRANCO'
-                          : respostas[currentItem.id] === 'C'
-                          ? 'CERTO'
-                          : 'ERRADO'}
-                      </strong>
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <div className="flex items-center gap-2">
+                      {respostas[currentItem.id] === 'BRANCO' ? (
+                        <>
+                          <HelpCircle className="w-4 h-4 text-ink-2" />
+                          <span className="font-bold text-ink">Item deixado em branco (0 pontos)</span>
+                        </>
+                      ) : respostas[currentItem.id] === currentItem.gabarito ? (
+                        <>
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                          <span className="font-bold text-emerald-700 dark:text-emerald-300">
+                            Você acertou! (+1 ponto líquido Cebraspe)
+                          </span>
+                        </>
+                      ) : (
+                        <>
+                          <XCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                          <span className="font-bold text-rose-700 dark:text-rose-300">
+                            Você errou! (-1 ponto líquido: anula uma questão certa)
+                          </span>
+                        </>
+                      )}
+                    </div>
+                    <span
+                      className={`px-2 py-0.5 rounded font-mono font-bold text-[11px] ${
+                        currentItem.gabarito === 'C'
+                          ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
+                          : 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
+                      }`}
+                    >
+                      Gabarito: {currentItem.gabarito === 'C' ? 'CERTO' : 'ERRADO'}
                     </span>
                   </div>
-                  <span className="text-[11px] font-mono text-ink-2 shrink-0">
-                    Gabarito e justificativas ao final
-                  </span>
+
+                  {/* Armadilha da Banca */}
+                  {currentItem.armadilhaBanca && (
+                    <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/25 space-y-1 text-amber-800 dark:text-amber-200">
+                      <div className="flex items-center gap-1.5 font-bold text-[11px] uppercase tracking-wide text-amber-600 dark:text-amber-400">
+                        <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                        <span>Armadilha Cebraspe Identificada</span>
+                      </div>
+                      <p className="leading-relaxed font-sans">{currentItem.armadilhaBanca}</p>
+                    </div>
+                  )}
+
+                  {/* Justificativa Técnica */}
+                  <div className="p-3 rounded-lg bg-surface border border-border/80 space-y-1 text-ink">
+                    <span className="font-bold text-[11px] uppercase tracking-wide text-ink-2 block">
+                      Justificativa e Fundamentação Técnica
+                    </span>
+                    <p className="font-serif leading-relaxed text-xs sm:text-[13px]">{currentItem.justificativa}</p>
+                  </div>
                 </div>
               )}
             </div>
