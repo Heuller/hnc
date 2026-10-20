@@ -1,5 +1,5 @@
 # Auditoria de Cobertura por Habilidade Cognitiva e Tipo de Exercício (Fase T9.1)
-**Data da Auditoria:** 17/10/2026  
+**Data da Auditoria:** 20/10/2026  
 **Referência:** Edital nº 1/2026 da Câmara dos Deputados (Item 14.1.1)  
 **Metas Pedagógicas:**
 - **Aplicação + Análise:** Mínimo de **30,0%** dos exercícios de cada módulo.
