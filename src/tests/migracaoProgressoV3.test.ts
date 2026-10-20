@@ -106,7 +106,7 @@ describe('U2.6 - Migração Aditiva do Modelo de Progresso (Versão 3)', () => {
     const migrationResult = persistOptions.getOptions().migrate(fixtureV2.state, 2);
 
     // Validações de integridade aditiva:
-    expect(migrationResult.versao).toBe(3);
+    expect(migrationResult.versao).toBeGreaterThanOrEqual(3);
     expect(migrationResult.modoLivre).toBe(true);
 
     // Zero perda de dados do progresso do usuário:

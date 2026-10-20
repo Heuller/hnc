@@ -36,6 +36,7 @@ import {
   executarMigracaoHistorico,
   migrarTentativasPortaisParaRevisao,
   migrarReviewPrefilledAttempts,
+  migrarTentativasPortaoForaDaTrilha,
 } from '../domain/migracaoTentativas';
 import { JORNADA_CONFIG } from '../config/jornada.config';
 
@@ -111,7 +112,7 @@ const getRecent7Days = (): string[] => {
 };
 
 const INITIAL_STATE: UserProgress & { ultimoModuloAcessado: string } = {
-  versao: 3,
+  versao: 4,
   ultimoModuloAcessado: '1.1',
   modulosLidosIds: [],
   checkpointsRespondidos: {},
@@ -1047,17 +1048,20 @@ export const useProgressStore = create<ProgressStoreState>()(
     }),
     {
       name: 'heuller_camara_v2_progress',
-      version: 3,
+      version: 4,
       migrate: (persistedState: unknown, version: number) => {
         const old = (persistedState as Record<string, unknown>) || {};
-        if (version < 3 || !version) {
+        if (version < 4 || !version) {
           // Fase U2 (U2.6 / Regra A2): Migração aditiva sem perda de dados
           // Mantém todas as chaves persistidas legadas intactas, garante modoLivre: true e versao: 3
           return {
             ...INITIAL_STATE,
             ...old,
             modoLivre: true,
-            versao: 3,
+            versao: 4,
+            tentativas: Array.isArray((old as any).tentativas)
+              ? migrarTentativasPortaoForaDaTrilha((old as any).tentativas)
+              : [],
           };
         }
         return persistedState as ProgressStoreState;

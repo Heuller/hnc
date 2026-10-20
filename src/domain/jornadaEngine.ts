@@ -366,7 +366,9 @@ export function deriveJornadaState(params: {
       const temTentativaAprovada = tentativasSub.some((t) => t.aprovado) || temCheckpointsAprovados;
       const todosCheckpointsRespondidos =
         checkpointsCount === 0 || respondidosCheckpoints >= checkpointsCount;
-      const isConcluida = todasSecoesLidas && (todosCheckpointsRespondidos || tentativasSub.length > 0);
+      // Fase P14 (J-03): Separação clara entre leitura e domínio
+      // Status 'concluida' = domínio comprovado (aprovado) OU (todas as seções lidas E checkpoints respondidos)
+      const isConcluida = temTentativaAprovada || (todasSecoesLidas && todosCheckpointsRespondidos);
 
       // Status (Fase U2: modo livre permanente, todas as etapas são desbloqueadas)
       const isDesbloqueada = true;

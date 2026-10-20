@@ -457,7 +457,7 @@ export const TeoriaPage: React.FC = () => {
                     Jornada do Submódulo (Ciclo de Domínio)
                   </span>
                   <span className="text-[11px] font-mono text-ink-2">
-                    {etapasBarra.length} Etapas Obrigatórias
+                    {etapasBarra.length} Etapas Recomendadas
                   </span>
                 </div>
 
