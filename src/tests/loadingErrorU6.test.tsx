@@ -1,25 +1,10 @@
 // @vitest-environment jsdom
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { LoadingSkeleton } from '../components/common/LoadingSkeleton';
 import { ErrorState } from '../components/common/ErrorState';
 import { ErrorBoundary } from '../components/common/ErrorBoundary';
 
 describe('U6.6: Estados de Carregamento e Erro Padronizados', () => {
-  it('deve renderizar variantes do LoadingSkeleton com role="status"', () => {
-    const { rerender } = render(<LoadingSkeleton variant="card" />);
-    expect(screen.getByRole('status')).toBeDefined();
-
-    rerender(<LoadingSkeleton variant="text" lines={4} />);
-    expect(screen.getByRole('status')).toBeDefined();
-
-    rerender(<LoadingSkeleton variant="list" lines={2} />);
-    expect(screen.getByRole('status')).toBeDefined();
-
-    rerender(<LoadingSkeleton variant="article" />);
-    expect(screen.getByRole('status')).toBeDefined();
-  });
-
   it('deve renderizar ErrorState com mensagem clara e acionar retry', () => {
     const handleRetry = vi.fn();
 

@@ -26,7 +26,6 @@ async function run() {
     // @ts-ignore
     window.location.hash = '#teoria';
     // Modifica o store diretamente
-    const navStore = window.__NAV_STORE__ || null;
   });
 
   // Clica no drawer de módulos ou seleciona 2.5 via evaluate

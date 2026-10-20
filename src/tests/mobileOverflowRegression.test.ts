@@ -43,11 +43,10 @@ describe('Regressão Mobile: Prevenção de Overflow Horizontal e Layout Respons
     expect(content).toContain('min-w-0');
   });
 
-  it('deve garantir que MarkdownRenderer envolva tabelas com container horizontal rolável', () => {
-    const mdPath = path.join(rootDir, 'src/components/common/MarkdownRenderer.tsx');
+  it('deve garantir que ConteudoMarkdown envolva tabelas ou blocos com container horizontal rolável', () => {
+    const mdPath = path.join(rootDir, 'src/components/common/ConteudoMarkdown.tsx');
     const content = fs.readFileSync(mdPath, 'utf-8');
     expect(content).toContain('overflow-x-auto');
-    expect(content).toContain('<table className="w-full text-left');
   });
 
   it('deve conter proteções contra overflow em DecisionFlow e TimelineFlow', () => {

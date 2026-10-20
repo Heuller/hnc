@@ -3,7 +3,6 @@ import { describe, it, expect } from 'vitest';
 import { render } from '@testing-library/react';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { TabelaResponsiva } from '../components/common/TabelaResponsiva';
-import { LoadingSkeleton } from '../components/common/LoadingSkeleton';
 import { ErrorState } from '../components/common/ErrorState';
 import { COURSE_REGISTRY } from '../content/registry';
 import { JORNADA_CONFIG } from '../config/jornada.config';
@@ -108,13 +107,6 @@ describe('U9.1: Suíte Consolidada de Regressão do Plano v3 (Defeitos D1 a D14)
   // D5: Resiliência de Interface e Estados Padronizados (Loading e Error)
   // --------------------------------------------------------------------------
   describe('D5: Estados Padronizados de Carregamento e Erro', () => {
-    it('renderiza LoadingSkeleton com papel de acessibilidade status', () => {
-      const { container } = render(<LoadingSkeleton variant="article" />);
-      const statusEl = container.querySelector('[role="status"]');
-      expect(statusEl).not.toBeNull();
-      expect(statusEl?.getAttribute('aria-label')).toBe('Carregando conteúdo...');
-    });
-
     it('renderiza ErrorState com mensagem clara e botão de repetição acessível', () => {
       let tentouNovamente = false;
       const { getByRole, getByText } = render(

@@ -182,7 +182,7 @@ export function gerarRelatorioMarkdown(resultado: VarreduraKatexResultado): stri
   md += `| Fórmulas compiladas com sucesso no KaTeX | **${resultado.formulasValidas}** | ✅ 100% |\n`;
   md += `| Fórmulas com erro de compilação KaTeX | **${resultado.formulasInvalidas}** | ${resultado.formulasInvalidas === 0 ? '✅ 0' : '❌ Falha'} |\n`;
   md += `| Cifrões soltos ($) sem fechamento | **${resultado.totalCifroesSoltos}** | ${resultado.totalCifroesSoltos === 0 ? '✅ 0' : '⚠️ Atenção'} |\n`;
-  md += `| Ocorrências de alertas estilo GitHub ([!NOTE\|TIP\|...]) | **${resultado.totalAlertasGithub}** | ✅ Mapeadas para callouts semânticos |\n\n`;
+  md += `| Ocorrências de alertas estilo GitHub ([!NOTE|TIP|...]) | **${resultado.totalAlertasGithub}** | ✅ Mapeadas para callouts semânticos |\n\n`;
 
   md += `## 2. Alertas Estilo GitHub Encontrados\n\n`;
   if (resultado.alertas.length === 0) {

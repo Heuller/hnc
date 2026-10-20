@@ -26,7 +26,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
   const { estados, getFilaRevisaoHoje, registrarRespostaConceito } = useConceptStore();
   const { adicionarItemAttempt } = useProgressStore();
 
-  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [estados]);
+  const filaHoje = useMemo(() => getFilaRevisaoHoje(), [getFilaRevisaoHoje]);
   const itens = filaHoje.itensNaFila;
   const totalItens = itens.length;
 
