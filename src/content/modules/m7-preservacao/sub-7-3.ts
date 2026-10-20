@@ -173,7 +173,7 @@ A **Conservação Preventiva** estabelece as rotinas sistemáticas de higieniza�
    - **Proibições Absolutas:** Uso de água, álcool, fita crepe, fita adesiva comum (Durex) e grampos metálicos oxidáveis.
 2. **Acondicionamento e Embalagens:**
    - Embalagens de proteção primária funcionam como barreira contra luz, poluentes atmosféricos e oscilações bruscas de umidade.
-   - **Materiais Recomendados:** Papel alcalino (*acid-free*) com reserva alcalina de carbonato de cálcio ($pH \ge 7,5$); cartão triplex alcalino; caixas de polipropileno corrugado (Polionda neutro); envelopes de poliéster virgem (Mylar/Melinex para manuscritos e fotos).
+   - **Materiais Recomendados:** Papel alcalino (*acid-free*) com reserva alcalina de carbonato de cálcio ($pH \\ge 7,5$); cartão triplex alcalino; caixas de polipropileno corrugado (Polionda neutro); envelopes de poliéster virgem (Mylar/Melinex para manuscritos e fotos).
 3. **Manuseio e Acomodação nas Estantes:**
    - Apoio firme nas estantes sem compressão excessiva (que deforma a encadernação) e sem folga exagerada (que tomba e empena o volume).
    - Retirar o livro da estante empurrando os volumes laterais e segurando pelo meio da lombada (NUNCA puxar pela coifa superior da lombada!).
@@ -192,7 +192,7 @@ A **Conservação Preventiva** estabelece as rotinas sistemáticas de higieniza�
 | Ação / Material | Conduta Correta Canônica | Conduta Proibida / Erro Grave | Motivo Técnico |
 | :--- | :--- | :--- | :--- |
 | **Retirada da Estante** | Empurrar vizinhos e puxar pelo corpo da lombada | Puxar pela coifa superior | Rasga a cabeça da encadernação |
-| **Material da Embalagem** | Papel ou cartão alcalino ($pH \ge 7,5$) | Papel jornal, papelão comum pardo | Migração ácida de lignina |
+| **Material da Embalagem** | Papel ou cartão alcalino ($pH \\ge 7,5$) | Papel jornal, papelão comum pardo | Migração ácida de lignina |
 | **Reparo de Rasgos** | Papel japonês e cola de metilcelulose | Fita durex, fita crepe, fita adesiva | Oxidação irreversível da cola sintética |
 | **Uso de Luvas** | Mãos limpas para livros; luvas para fotos | Luvas grossas para virar folhas frágeis | Falta de tato rasga papel antigo |
 

@@ -279,7 +279,7 @@ O processo é dinâmico, iterativo e compõe-se das seguintes etapas interligada
 5. **Monitoramento e Análise Crítica:** Acompanhamento permanente da evolução das ameaças, eficácia dos controles e reavaliação periódica dos riscos residuais.
 6. **Registro e Relato:** Documentação formal de todo o processo para auditoria, governança e prestação de contas.
 
-#### C. Matriz de Probabilidade $\times$ Impacto Aplicada à Biblioteca Pedro Aleixo (Caso Concreto)
+#### C. Matriz de Probabilidade $\\times$ Impacto Aplicada à Biblioteca Pedro Aleixo (Caso Concreto)
 
 A Biblioteca Pedro Aleixo custodia tanto obras raras físicas e documentos históricos do Império e da República quanto o Repositório Institucional da Câmara (depósito legal e produção legislativa digital). A tabela a seguir ilustra a aplicação prática da matriz de riscos $3 \\times 3$:
 

@@ -187,8 +187,8 @@ O CEBRASPE cobra com insistência a distinção arquitetural entre os motores de
   teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
 Os **Sistemas de Recuperação da Informação (SRI)**, a **Álgebra Booleana** e os modelos computacionais de busca determinam a eficácia da recuperação de acervos digitais:
 1. **Álgebra Booleana e Operadores de Busca:**
-   - **AND (Interseção / Restritivo):** Recupera documentos que contêm cumulativamente ambos os termos ($A \cap B$). Reduz o conjunto recuperado, aumentando a precisão.
-   - **OR (União / Expansivo):** Recupera documentos que contêm pelo menos um dos termos ($A \cup B$). Ideal para agrupar sinônimos e variantes linguísticas. Aumenta a revocação.
+   - **AND (Interseção / Restritivo):** Recupera documentos que contêm cumulativamente ambos os termos ($A \\cap B$). Reduz o conjunto recuperado, aumentando a precisão.
+   - **OR (União / Expansivo):** Recupera documentos que contêm pelo menos um dos termos ($A \\cup B$). Ideal para agrupar sinônimos e variantes linguísticas. Aumenta a revocação.
    - **NOT / AND NOT (Diferença / Exclusão):** Exclui documentos que contenham determinado termo ($A - B$). Cuidado: pode excluir documentos relevantes se o termo indesejado for citado secundariamente.
 2. **Operadores Auxiliares Avançados:**
    - **Truncagem / Curinga (\`*\`, \`?\`, \`$\`);** Recupera variações de desinência (ex.: \`bibliot*\` recupera biblioteca, bibliotecário, biblioteconomia).
@@ -199,10 +199,10 @@ Os **Sistemas de Recuperação da Informação (SRI)**, a **Álgebra Booleana** 
    - **Modelo Vetorial (Salton, 1975):** Documentos e consultas são vetores em um espaço multidimensional. Avalia o cosseno do ângulo entre os vetores e pondera termos por **TF-IDF** (*Term Frequency - Inverse Document Frequency*), permitindo ordenação gradual por relevância (*ranked retrieval*).
    - **Modelo Probabilístico (Robertson & Spärck Jones - BM25):** Calcula a probabilidade de um documento ser relevante para uma consulta com base em distribuições estatísticas.
 4. **Métricas Clássicas de Avaliação de SRI (Cranfield):**
-   - **Revocação (*Recall*):** Razão entre documentos relevantes recuperados e o total de documentos relevantes existentes na base: $R = \frac{\text{Relevantes Recuperados}}{\text{Total de Relevantes}}$.
-   - **Precisão (*Precision*):** Razão entre documentos relevantes recuperados e o total de documentos recuperados pelo sistema: $P = \frac{\text{Relevantes Recuperados}}{\text{Total de Recuperados}}$.
+   - **Revocação (*Recall*):** Razão entre documentos relevantes recuperados e o total de documentos relevantes existentes na base: $R = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Relevantes}}$.
+   - **Precisão (*Precision*):** Razão entre documentos relevantes recuperados e o total de documentos recuperados pelo sistema: $P = \\frac{\\text{Relevantes Recuperados}}{\\text{Total de Recuperados}}$.
    - **Trade-off Histórico:** Revocação e Precisão são grandezas inversamente proporcionais; aumentar uma geralmente penaliza a outra.
-   - **F-Measure (F1-Score):** Média harmônica balanceada entre precisão e revocação: $F_1 = 2 \times \frac{P \times R}{P + R}$.
+   - **F-Measure (F1-Score):** Média harmônica balanceada entre precisão e revocação: $F_1 = 2 \\times \\frac{P \\times R}{P + R}$.
 
 ---
 
@@ -218,8 +218,8 @@ Os **Sistemas de Recuperação da Informação (SRI)**, a **Álgebra Booleana** 
 ### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
 | Métrica / Operador | Fórmula / Função | Objetivo Primário | Efeito Típico |
 | :--- | :--- | :--- | :--- |
-| **Operador AND** | Interseção ($A \cap B$) | Restringir a busca | Aumenta Precisão / Reduz Revocação |
-| **Operador OR** | União ($A \cup B$) | Expandir busca (sinônimos) | Aumenta Revocação / Reduz Precisão |
+| **Operador AND** | Interseção ($A \\cap B$) | Restringir a busca | Aumenta Precisão / Reduz Revocação |
+| **Operador OR** | União ($A \\cup B$) | Expandir busca (sinônimos) | Aumenta Revocação / Reduz Precisão |
 | **Operador NOT** | Exclusão ($A - B$) | Eliminar ruído específico | Cuidado: risco de silêncio indesejado |
 | **Revocação (Recall)** | Relevantes Recuperados / Total Relevantes | Não deixar nada relevante de fora | Maximiza abrangência |
 | **Precisão (Precision)** | Relevantes Recuperados / Total Recuperados | Evitar documentos irrelevantes (ruído) | Maximiza acerto |

@@ -235,7 +235,7 @@ O **Planejamento de Bibliotecas** e a **Avaliação de Serviços por Indicadores
 ### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
 - **Cenário 1 (Planejamento Estratégico no CEDI):** A Diretoria-Geral da Câmara publica o Plano Estratégico 2024–2027. O CEDI elabora seu planejamento tático definindo como meta a digitalização de 100% dos anais legislativos do século XIX e a redução do tempo de atendimento a consultas de deputados para no máximo 4 horas.
 - **Cenário 2 (Aplicação da ISO 11620 na Biblioteca Pedro Aleixo):** O coordenador da biblioteca audita o serviço de empréstimo entre bibliotecas da RVBI e calcula o indicador:
-  $\text{Taxa de Sucesso no Atendimento} = \frac{\text{Consultas Respondidas no Prazo}}{\text{Total de Consultas Recebidas}} \times 100$.
+  $\\text{Taxa de Sucesso no Atendimento} = \\frac{\\text{Consultas Respondidas no Prazo}}{\\text{Total de Consultas Recebidas}} \\times 100$.
   Ao verificar um índice de 96%, comprova a eficácia operacional do serviço no relatório de gestão anual apresentado ao Presidente da Câmara.
 - **Cenário 3 (Matriz SWOT na Expansão da BDCam):** Antes de migrar o software DSpace para a versão mais recente em nuvem, a equipe de bibliotecários realiza uma análise FOFA: Força (equipe técnica qualificada), Fraqueza (servidores locais legados), Oportunidade (integração ao portal do Governo Digital), Ameaça (restrições orçamentárias na LOA).
 
