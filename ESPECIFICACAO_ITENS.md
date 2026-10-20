@@ -8,9 +8,11 @@
 
 A concepção dos itens de avaliação da plataforma segue rigorosamente a modelagem de assertivas do **Cebraspe (Certo / Errado)**, respeitando a premissa de que cada item errado anula a pontuação de um item certo ($	ext{Nota Líquida} = C - E$).
 
-### 1.1. Métricas Canônicas do Modelo Cebraspe
-* **Extensão Padrão do Item:** Entre 25 e 48 palavras (assertiva concisa, objetiva e afirmativa).
-* **Paridade Simétrica:** 50% de itens Certos e 50% de itens Errados por bloco de 100 questões ($Delta = 0$).
+### 1.1. Métricas Canônicas do Modelo Cebraspe (Calibradas pós-Auditoria C-05)
+* **Extensão Padrão da Assertiva (Item Direto):** Faixa canônica entre 18 e 48 palavras para assertivas diretas, concisas e afirmativas.
+* **Assertivas Jurídicas Compostas / Normativas:** Até 60 palavras para assertivas que demandam contextualização de ressalvas expressas, prazos regimentais ou hipóteses legais cumulativas (padrão frequente em Direito Administrativo e Processo Legislativo).
+* **Itens com Texto de Apoio (Língua Inglesa e Língua Portuguesa):** A assertiva de julgamento mantém concisão estrutural (15 a 45 palavras), associada a texto-base de suporte autêntico de 80 a 350 palavras, refletindo a prática oficial do Cebraspe em provas de nível superior.
+* **Paridade Simétrica Rigorosa:** 50% de itens Certos e 50% de itens Errados por bloco de 100/120/180 questões ($Delta = 0$).
 * **Fidelidade às Fontes:** Nenhum item é gerado a partir de alucinações ou paráfrases frouxas. Toda questão é estritamente ancorada em textos legais consolidados (CF/88, RICD, LAI, LGPD, Leis Administrativas) ou na literatura canônica da área (RDA, IFLA LRM, MARC 21, ABNT, Lancaster, Vergueiro, Otlet, Briet, Borko, Le Coadic).
 * **Ausência de Pistas Gramaticais:** Os itens errados não devem conter absurdos óbvios que permitam acerto por mero bom senso; o erro deve residir na precisão técnica ou normativa.
 
