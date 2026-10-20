@@ -30,6 +30,7 @@ import {
   Keyboard,
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
+import { calcularMediaTempoPorItem } from '../domain/progressoEngine';
 
 const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
   '1.1': {
@@ -708,7 +709,11 @@ export const SimuladoPage: React.FC = () => {
               </div>
               <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">
                 média: ~
-                {Math.round(relatorioFinal.tempoGastoSegundos / 100)}s/item
+                {calcularMediaTempoPorItem(
+                  relatorioFinal.tempoGastoSegundos,
+                  relatorioFinal.certos + relatorioFinal.errados + relatorioFinal.emBranco
+                )}
+                s/item ({relatorioFinal.certos + relatorioFinal.errados + relatorioFinal.emBranco} itens)
               </span>
             </div>
           </div>
