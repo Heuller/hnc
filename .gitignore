@@ -43,3 +43,6 @@ acervo-estudos/
 scratch/
 __pycache__/
 *.pyc
+
+docs/dossie/*.pdf
+docs/dossie/*.html
