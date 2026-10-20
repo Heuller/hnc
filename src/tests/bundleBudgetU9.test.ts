@@ -4,14 +4,16 @@ import path from 'node:path';
 // @ts-ignore
 import { ORCAMENTO, verificarOrcamento } from '../../scripts/verificarOrcamentoPacote.mjs';
 
-describe('U9.2: Verificação de Orçamento de Pacote e Build em CI', () => {
-  it('define limites canônicos de orçamento para JavaScript, CSS e Chunks de Entrada', () => {
+describe('U9.2: Verificação de Orçamento de Pacote e Build em CI (Fase P5)', () => {
+  it('define limites canônicos de orçamento para JavaScript, CSS, Chunks de Entrada e Precache P5', () => {
     expect(ORCAMENTO.maxTotalJSBytes).toBe(26 * 1024 * 1024);
     expect(ORCAMENTO.maxTotalCSSBytes).toBe(1 * 1024 * 1024);
     expect(ORCAMENTO.maxEntryChunkBytes).toBe(350 * 1024);
     expect(ORCAMENTO.maxVendorCoreBytes).toBe(350 * 1024);
     expect(ORCAMENTO.maxVendorUiBytes).toBe(150 * 1024);
-    expect(ORCAMENTO.minPrecacheAssets).toBe(200);
+    expect(ORCAMENTO.maxSingleChunkBytes).toBe(2.5 * 1024 * 1024);
+    expect(ORCAMENTO.maxPrecacheBytes).toBe(5 * 1024 * 1024);
+    expect(ORCAMENTO.minPrecacheAssets).toBe(50);
   });
 
   it('valida os artefatos de build caso o diretório dist exista', () => {
@@ -31,7 +33,9 @@ describe('U9.2: Verificação de Orçamento de Pacote e Build em CI', () => {
       expect(resultado.metricas.entryChunkKB).toBeLessThanOrEqual(350);
       expect(resultado.metricas.vendorCoreKB).toBeLessThanOrEqual(350);
       expect(resultado.metricas.vendorUiKB).toBeLessThanOrEqual(150);
-      expect(resultado.metricas.precacheCount).toBeGreaterThanOrEqual(200);
+      expect(resultado.metricas.maxChunkMB).toBeLessThanOrEqual(2.5);
+      expect(resultado.metricas.precacheMB).toBeLessThanOrEqual(5.0);
+      expect(resultado.metricas.precacheCount).toBeGreaterThanOrEqual(50);
     }
   });
 

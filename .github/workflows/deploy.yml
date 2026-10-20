@@ -34,6 +34,8 @@ jobs:
       - name: Lint (Oxlint)
         run: npm run lint
         
-      - name: Tests, Typecheck & Build
+      - name: Testes Unitários (Vitest)
+        run: npm test
+        
+      - name: Typecheck, Build e Orçamento
         run: npm run build
-
