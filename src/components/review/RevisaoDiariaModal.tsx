@@ -23,7 +23,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
   isOpen,
   onClose,
 }) => {
-  const { estados, getFilaRevisaoHoje, registrarRespostaConceito } = useConceptStore();
+  const { getFilaRevisaoHoje, registrarRespostaConceito } = useConceptStore();
   const { adicionarItemAttempt } = useProgressStore();
 
   const filaHoje = useMemo(() => getFilaRevisaoHoje(), [getFilaRevisaoHoje]);
