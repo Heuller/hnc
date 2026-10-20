@@ -437,7 +437,7 @@ html.dark {
     margin: 0;
     padding: 0;
     letter-spacing: 0;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding-bottom: env(safe-area-inset-bottom, 0px);
     padding-top: env(safe-area-inset-top, 0px);
   }
@@ -471,12 +471,49 @@ html.dark {
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
+    .animate-fadeIn {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
   }
 }
 
 /* -------------------------------------------------------------
  * CLASSES UTILITÁRIAS DO DESIGN SYSTEM
  * ------------------------------------------------------------- */
+/* Utilitario de Foco Acessivel WCAG 2.2 AAA (D-02) */
+.foco {
+  outline: none;
+}
+.foco:focus-visible,
+:focus-visible.foco {
+  outline: 2px solid var(--accent) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent) !important;
+}
+
+/* Animacao Sincronizada fadeIn com Respeito a Movimento Reduzido (D-05) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Escala semantica tipografica minima (D-01) */
+:root {
+  --text-xs: 0.75rem;
+}
+
 .font-serif-reading {
   font-family: var(--font-serif);
 }

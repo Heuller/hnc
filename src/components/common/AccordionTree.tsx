@@ -181,7 +181,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         {node.description && (
           <span
             className={`
-              hidden sm:inline-block shrink-0 text-[10px] font-medium
+              hidden sm:inline-block shrink-0 text-xs font-medium
               px-2 py-0.5 rounded-full max-w-[140px] truncate
               ${level === 0
                 ? 'bg-white/20 text-white/90'
@@ -195,7 +195,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         {/* Children count */}
         {hasChildren && !isOpen && (
           <span
-            className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-black/10 dark:bg-white/10"
+            className="shrink-0 text-xs font-bold px-1.5 py-0.5 rounded-full bg-black/10 dark:bg-white/10"
             aria-label={`${node.children.length} subitens`}
           >
             +{node.children.length}
@@ -205,7 +205,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
 
       {/* Mobile description (shown below button) */}
       {node.description && (
-        <p className="sm:hidden text-[10px] text-slate-400 dark:text-slate-500 px-2 pt-1 pb-0.5 break-words">
+        <p className="sm:hidden text-xs text-slate-400 dark:text-slate-500 px-2 pt-1 pb-0.5 break-words">
           {node.description}
         </p>
       )}
@@ -271,7 +271,7 @@ export const AccordionTree: React.FC<AccordionTreeProps> = ({ code, className = 
           <span className="text-xs text-slate-400">{totalNodes} nós</span>
           <button
             onClick={() => setAllExpanded((v) => !v)}
-            className="text-[10px] text-indigo-500 dark:text-indigo-400 hover:underline font-medium cursor-pointer"
+            className="text-xs text-indigo-500 dark:text-indigo-400 hover:underline font-medium cursor-pointer"
             aria-label={allExpanded ? 'Recolher todos' : 'Expandir todos'}
           >
             {allExpanded ? 'Recolher todos' : 'Expandir todos'}

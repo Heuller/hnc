@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { DESIGN_TOKENS } from '../../config/designTokens';
 import mermaid from 'mermaid';
 import {
   Workflow,
@@ -218,46 +219,46 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
           ? {
               darkMode: true,
               background: 'transparent',
-              mainBkg: '#1B2440',
-              nodeBorder: '#3B4B75',
-              textColor: '#E9ECF5',
-              lineColor: '#94A3B8',
-              primaryColor: '#1B2440',
-              primaryTextColor: '#E9ECF5',
-              primaryBorderColor: '#3B4B75',
-              secondaryColor: '#141B2E',
-              secondaryTextColor: '#A9B2C7',
-              secondaryBorderColor: '#2A3555',
-              tertiaryColor: '#202942',
-              tertiaryTextColor: '#E9ECF5',
-              tertiaryBorderColor: '#3B4B75',
-              edgeLabelBackground: '#141B2E',
-              clusterBkg: '#141B2E',
-              clusterBorder: '#2A3555',
-              titleColor: '#FBBF24',
+              mainBkg: DESIGN_TOKENS.superficies.escuro.nivel3.hex,
+              nodeBorder: DESIGN_TOKENS.cores.escuro.border,
+              textColor: DESIGN_TOKENS.cores.escuro.ink,
+              lineColor: DESIGN_TOKENS.cores.escuro.ink2,
+              primaryColor: DESIGN_TOKENS.superficies.escuro.nivel3.hex,
+              primaryTextColor: DESIGN_TOKENS.cores.escuro.ink,
+              primaryBorderColor: DESIGN_TOKENS.cores.escuro.border,
+              secondaryColor: DESIGN_TOKENS.superficies.escuro.nivel2.hex,
+              secondaryTextColor: DESIGN_TOKENS.cores.escuro.ink2,
+              secondaryBorderColor: DESIGN_TOKENS.cores.escuro.border,
+              tertiaryColor: DESIGN_TOKENS.superficies.escuro.nivel1.hex,
+              tertiaryTextColor: DESIGN_TOKENS.cores.escuro.ink,
+              tertiaryBorderColor: DESIGN_TOKENS.cores.escuro.border,
+              edgeLabelBackground: DESIGN_TOKENS.superficies.escuro.nivel2.hex,
+              clusterBkg: DESIGN_TOKENS.superficies.escuro.nivel2.hex,
+              clusterBorder: DESIGN_TOKENS.cores.escuro.border,
+              titleColor: DESIGN_TOKENS.cores.escuro.accent,
               fontFamily: "'Inter', -apple-system, sans-serif",
               fontSize: '13px',
             }
           : {
               darkMode: false,
               background: 'transparent',
-              mainBkg: '#FFFFFF',
-              nodeBorder: '#D8D1C2',
-              textColor: '#1A2238',
-              lineColor: '#64748B',
-              primaryColor: '#FFFFFF',
-              primaryTextColor: '#1A2238',
-              primaryBorderColor: '#D8D1C2',
-              secondaryColor: '#F2EEE4',
-              secondaryTextColor: '#4A5468',
-              secondaryBorderColor: '#E4DED0',
-              tertiaryColor: '#FAF7F0',
-              tertiaryTextColor: '#1A2238',
-              tertiaryBorderColor: '#D8D1C2',
-              edgeLabelBackground: '#F2EEE4',
-              clusterBkg: '#FAF7F0',
-              clusterBorder: '#E4DED0',
-              titleColor: '#16244A',
+              mainBkg: DESIGN_TOKENS.superficies.claro.nivel2.hex,
+              nodeBorder: DESIGN_TOKENS.cores.claro.border,
+              textColor: DESIGN_TOKENS.cores.claro.ink,
+              lineColor: DESIGN_TOKENS.cores.claro.ink2,
+              primaryColor: DESIGN_TOKENS.superficies.claro.nivel2.hex,
+              primaryTextColor: DESIGN_TOKENS.cores.claro.ink,
+              primaryBorderColor: DESIGN_TOKENS.cores.claro.border,
+              secondaryColor: DESIGN_TOKENS.superficies.claro.nivel3.hex,
+              secondaryTextColor: DESIGN_TOKENS.cores.claro.ink2,
+              secondaryBorderColor: DESIGN_TOKENS.cores.claro.border,
+              tertiaryColor: DESIGN_TOKENS.superficies.claro.nivel1.hex,
+              tertiaryTextColor: DESIGN_TOKENS.cores.claro.ink,
+              tertiaryBorderColor: DESIGN_TOKENS.cores.claro.border,
+              edgeLabelBackground: DESIGN_TOKENS.superficies.claro.nivel3.hex,
+              clusterBkg: DESIGN_TOKENS.superficies.claro.nivel1.hex,
+              clusterBorder: DESIGN_TOKENS.cores.claro.border,
+              titleColor: DESIGN_TOKENS.cores.claro.primary,
               fontFamily: "'Inter', -apple-system, sans-serif",
               fontSize: '13px',
             };
@@ -373,11 +374,11 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
                 <h4 className="font-serif font-bold text-sm sm:text-[15px] text-ink truncate">
                   {parsed.title}
                 </h4>
-                <span className="hidden sm:inline-flex px-2 py-0.5 rounded-md text-[10px] font-mono font-bold uppercase tracking-wider bg-surface text-ink-2 border border-border shrink-0">
+                <span className="hidden sm:inline-flex px-2 py-0.5 rounded-md text-xs font-mono font-bold uppercase tracking-wider bg-surface text-ink-2 border border-border shrink-0">
                   Infográfico Cebraspe
                 </span>
               </div>
-              <p className="text-[11px] text-ink-2 truncate">
+              <p className="text-xs text-ink-2 truncate">
                 {parsed.nodes.length > 0 ? `${parsed.nodes.length} conceitos mapeados` : 'Esquema Conceitual'} • Representação Canônica
               </p>
             </div>
@@ -458,7 +459,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
             <div className="space-y-3 min-w-0">
               {/* Barra de Controles de Zoom Flutuante Discreta */}
               <div className="flex items-center justify-between text-xs text-ink-2 pb-2 border-b border-border/50">
-                <span className="text-[11px] font-mono text-ink-2 flex items-center gap-1">
+                <span className="text-xs font-mono text-ink-2 flex items-center gap-1">
                   <span>💡</span>
                   <span className="hidden sm:inline">Arraste para navegar ou use o zoom</span>
                   <span className="sm:hidden">Deslize para ver detalhes</span>
@@ -474,7 +475,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
                   >
                     <ZoomOut className="w-3.5 h-3.5" />
                   </button>
-                  <span className="font-mono text-[11px] w-12 text-center select-none font-semibold text-ink">
+                  <span className="font-mono text-xs w-12 text-center select-none font-semibold text-ink">
                     {Math.round(zoom * 100)}%
                   </span>
                   <button
@@ -571,7 +572,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
                                   <span className="text-accent shrink-0">↳</span>
                                   <span className="min-w-0 break-words">{child.title}</span>
                                   {e.label && (
-                                    <span className={`text-[10px] px-2 py-0.5 rounded-full border font-mono font-bold shrink-0 ${
+                                    <span className={`text-xs px-2 py-0.5 rounded-full border font-mono font-bold shrink-0 ${
                                       e.isPositive
                                         ? 'bg-ok-soft text-ok border-ok/30'
                                         : e.isNegative
@@ -603,7 +604,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
                                             {gChild.title}
                                           </span>
                                           {ge.label && (
-                                            <span className="text-[9px] px-1.5 py-0.2 rounded border font-mono bg-surface-2 text-ink-2 border-border shrink-0">
+                                            <span className="text-xs px-1.5 py-0.2 rounded border font-mono bg-surface-2 text-ink-2 border-border shrink-0">
                                               {ge.label}
                                             </span>
                                           )}
@@ -637,7 +638,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
       {/* Modal em Tela Cheia Imersivo com Zoom Avançado */}
       {isFullscreen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/60 backdrop-blur-md animate-fadeIn">
-          <div className="relative w-full max-w-6xl max-h-[92vh] bg-surface rounded-2xl border border-border shadow-2xl flex flex-col overflow-hidden">
+          <div className="relative w-full max-w-6xl max-h-[92dvh] bg-surface rounded-2xl border border-border shadow-2xl flex flex-col overflow-hidden">
             {/* Modal Header */}
             <div className="px-5 py-4 border-b border-border bg-surface-2 flex items-center justify-between gap-4">
               <div className="flex items-center gap-2.5 min-w-0">
@@ -646,7 +647,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
                   <h3 className="font-serif font-bold text-base text-ink truncate">
                     {parsed.title}
                   </h3>
-                  <span className="text-[11px] text-ink-2 font-mono">
+                  <span className="text-xs text-ink-2 font-mono">
                     Visualização Ampliada de Alta Retenção
                   </span>
                 </div>

@@ -65,7 +65,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-amber-600 dark:text-amber-400">
               Caça ao Erro no Parágrafo
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Detecção de armadilha Cebraspe · Toque na frase que contém o erro doutrinário
             </span>
           </div>
@@ -90,7 +90,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
 
       {/* Frases Clicáveis que formam o parágrafo */}
       <div className="p-4 rounded-xl bg-surface-2/60 border border-border space-y-2">
-        <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
+        <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
           Toque na frase com a incorreção da banca:
         </span>
         <div className="space-y-2" role="group" aria-label="Frases do parágrafo">
@@ -169,7 +169,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
             )}
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Fundamentação Canônica:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -177,7 +177,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

@@ -76,7 +76,7 @@ export const MobileMoreMenu: React.FC = () => {
           aria-label="Opções e preferências"
           className="absolute right-0 top-12 z-50 w-60 rounded-xl bg-surface border border-border shadow-lg p-2 space-y-1 text-xs font-sans text-ink animate-fadeIn"
         >
-          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-border/50">
+          <div className="px-2.5 py-1.5 text-xs font-bold text-ink-2 uppercase tracking-wider border-b border-border/50">
             Aparência
           </div>
 
@@ -92,7 +92,7 @@ export const MobileMoreMenu: React.FC = () => {
               <Sun className="w-4 h-4 text-amber-500" />
               <span>Tema Claro</span>
             </div>
-            {currentTheme === 'light' && <span className="text-[10px] font-mono">✓</span>}
+            {currentTheme === 'light' && <span className="text-xs font-mono">✓</span>}
           </button>
 
           <button
@@ -107,7 +107,7 @@ export const MobileMoreMenu: React.FC = () => {
               <Moon className="w-4 h-4 text-blue-400" />
               <span>Tema Escuro</span>
             </div>
-            {currentTheme === 'dark' && <span className="text-[10px] font-mono">✓</span>}
+            {currentTheme === 'dark' && <span className="text-xs font-mono">✓</span>}
           </button>
 
           <button
@@ -122,10 +122,10 @@ export const MobileMoreMenu: React.FC = () => {
               <Laptop className="w-4 h-4 text-slate-400" />
               <span>Automático (Aparelho)</span>
             </div>
-            {currentTheme === 'auto' && <span className="text-[10px] font-mono">✓</span>}
+            {currentTheme === 'auto' && <span className="text-xs font-mono">✓</span>}
           </button>
 
-          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
+          <div className="px-2.5 py-1.5 text-xs font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
             Estudo e Revisão
           </div>
 
@@ -142,7 +142,7 @@ export const MobileMoreMenu: React.FC = () => {
               <BarChart3 className="w-4 h-4 text-accent" />
               <span>Radar Cebraspe</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2">Banca</span>
+            <span className="text-xs font-mono text-ink-2">Banca</span>
           </button>
 
           <button
@@ -158,7 +158,7 @@ export const MobileMoreMenu: React.FC = () => {
               <BookMarked className="w-4 h-4 text-rose-500" />
               <span>Caderno de Erros</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2">Hipercorreção</span>
+            <span className="text-xs font-mono text-ink-2">Hipercorreção</span>
           </button>
 
           <button
@@ -174,7 +174,7 @@ export const MobileMoreMenu: React.FC = () => {
               <PenTool className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
               <span>Oficina Discursiva</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2">Item 9</span>
+            <span className="text-xs font-mono text-ink-2">Item 9</span>
           </button>
 
           <button
@@ -190,7 +190,7 @@ export const MobileMoreMenu: React.FC = () => {
               <Flame className="w-4 h-4 text-amber-500" />
               <span>Folha de Véspera (48h)</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2">Express</span>
+            <span className="text-xs font-mono text-ink-2">Express</span>
           </button>
 
           <button
@@ -206,10 +206,10 @@ export const MobileMoreMenu: React.FC = () => {
               <FileText className="w-4 h-4 text-indigo-500" />
               <span>Edital Oficial 2026</span>
             </div>
-            <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
+            <span className="text-xs font-mono text-ink-2">Cargo 5</span>
           </button>
 
-          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
+          <div className="px-2.5 py-1.5 text-xs font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
             Dados e Progresso
           </div>
 
@@ -226,7 +226,7 @@ export const MobileMoreMenu: React.FC = () => {
             <span>Exportar / Importar Dados</span>
           </button>
 
-          <div className="px-2.5 py-1.5 text-[10px] font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
+          <div className="px-2.5 py-1.5 text-xs font-bold text-ink-2 uppercase tracking-wider border-b border-t border-border/50 mt-1">
             Nuvem & Conta
           </div>
 
@@ -259,7 +259,7 @@ export const MobileMoreMenu: React.FC = () => {
               <span>Modo Livre</span>
             </div>
             <span
-              className={`text-[10px] font-mono font-bold px-1.5 py-0.5 rounded ${
+              className={`text-xs font-mono font-bold px-1.5 py-0.5 rounded ${
                 modoLivre
                   ? 'bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30'
                   : 'bg-surface-2 text-ink-2 border border-border'

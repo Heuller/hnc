@@ -61,7 +61,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-sky-600 dark:text-sky-400">
               Itens-Suporte com Texto-Base
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Transferência para formato Cebraspe · {totalItens} itens vinculados à situação-problema
             </span>
           </div>
@@ -81,7 +81,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
 
       {/* Texto-Base Contextual */}
       <div className="p-4 rounded-xl bg-surface-2/70 border border-border space-y-2">
-        <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
+        <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
           Texto-Base de Suporte:
         </span>
         <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0 italic">
@@ -118,7 +118,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
                 </span>
                 {isItemRespondido && (
                   <span
-                    className={`text-[11px] font-sans font-bold flex items-center gap-1 ${
+                    className={`text-xs font-sans font-bold flex items-center gap-1 ${
                       isItemCorreto ? 'text-ok' : 'text-err'
                     }`}
                   >
@@ -171,7 +171,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
               </div>
 
               {isItemRespondido && (
-                <div className="p-2.5 rounded-lg bg-surface border border-border text-[11px] font-serif text-ink leading-relaxed">
+                <div className="p-2.5 rounded-lg bg-surface border border-border text-xs font-serif text-ink leading-relaxed">
                   <strong>Justificativa ({item.gabarito === 'C' ? 'Certo' : 'Errado'}):</strong> {item.justificativa}
                 </div>
               )}
@@ -201,7 +201,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Comentário Geral e Doutrina de Suporte:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -209,7 +209,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

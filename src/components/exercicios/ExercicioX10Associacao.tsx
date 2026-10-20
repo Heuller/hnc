@@ -155,7 +155,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-teal-600 dark:text-teal-400">
               Associação Conceitual
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Recuperação ativa por pares · Toque no termo e na sua respectiva definição
             </span>
           </div>
@@ -235,7 +235,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
         {/* Coluna 1: Termos */}
         <div className="space-y-2">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
+          <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold">
             Termos / Autores
           </span>
           <div className="space-y-2" role="group" aria-label="Termos para associar">
@@ -259,7 +259,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
                   }}
                   aria-pressed={isSelected}
                   aria-label={isMatched ? `${item.nome}, associado ao Par ${match?.pairNumber}` : `Termo: ${item.nome}`}
-                  className={`w-full min-h-[56px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                  className={`w-full min-h-[56px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
                     isMatched
                       ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-bold`
                       : isShaking
@@ -271,7 +271,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
                 >
                   <span className="leading-snug">{item.nome}</span>
                   {isMatched && (
-                    <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                    <span className={`text-xs font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
                       <span>✓ Par {match.pairNumber}</span>
                     </span>
                   )}
@@ -283,7 +283,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
 
         {/* Coluna 2: Definições */}
         <div className="space-y-2">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
+          <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold">
             Definições / Conceitos
           </span>
           <div className="space-y-2" role="group" aria-label="Definições para associar">
@@ -307,7 +307,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
                   }}
                   aria-pressed={isSelected}
                   aria-label={isMatched ? `${item.conceito}, associado ao Par ${match?.pairNumber}` : `Definição: ${item.conceito}`}
-                  className={`w-full min-h-[56px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                  className={`w-full min-h-[56px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
                     isMatched
                       ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-medium`
                       : isShaking
@@ -319,7 +319,7 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
                 >
                   <span className="leading-snug pr-2">{item.conceito}</span>
                   {isMatched && (
-                    <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                    <span className={`text-xs font-mono px-2 py-0.5 rounded-full font-bold shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
                       <span>✓ Par {match.pairNumber}</span>
                     </span>
                   )}
@@ -341,13 +341,13 @@ export const ExercicioX10Associacao: React.FC<ExercicioProps<ExercicioX10>> = ({
             className="p-4 rounded-xl border border-border bg-surface-2/60 space-y-2 mt-4"
             aria-live="polite"
           >
-            <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+            <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
               Fundamentação Canônica da Associação:
             </span>
             <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
               {exercicio.justificativa}
             </p>
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

@@ -76,7 +76,7 @@ export const ConfidenceSelector: React.FC<ConfidenceSelectorProps> = ({
         <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2">
           Autoverificação de Confiança (Pashler Metacognition):
         </span>
-        <span className="text-[11px] text-ink-3 hidden sm:inline">Use as teclas 1, 2 ou 3</span>
+        <span className="text-xs text-ink-3 hidden sm:inline">Use as teclas 1, 2 ou 3</span>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -100,12 +100,12 @@ export const ConfidenceSelector: React.FC<ConfidenceSelectorProps> = ({
                   <div className="text-xs sm:text-sm font-sans font-semibold text-ink leading-tight truncate">
                     {op.label}
                   </div>
-                  <div className="text-[10px] text-ink-3 leading-tight truncate">
+                  <div className="text-xs text-ink-3 leading-tight truncate">
                     {op.sublabel}
                   </div>
                 </div>
               </div>
-              <span className="text-[10px] font-mono text-ink-3 ml-1 shrink-0">{op.atalho}</span>
+              <span className="text-xs font-mono text-ink-3 ml-1 shrink-0">{op.atalho}</span>
             </button>
           );
         })}

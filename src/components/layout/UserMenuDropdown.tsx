@@ -126,10 +126,10 @@ export const UserMenuDropdown: React.FC = () => {
           {/* Cabeçalho do Usuário */}
           <div className="px-3 py-2 border-b border-border/60">
             <div className="flex items-center justify-between">
-              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-2">
+              <span className="text-xs font-mono font-bold uppercase tracking-wider text-ink-2">
                 Conta Conectada
               </span>
-              <span className="inline-flex items-center gap-1 text-[10px] text-emerald-600 dark:text-emerald-400 font-medium">
+              <span className="inline-flex items-center gap-1 text-xs text-emerald-600 dark:text-emerald-400 font-medium">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                 Nuvem
               </span>
@@ -141,7 +141,7 @@ export const UserMenuDropdown: React.FC = () => {
 
           {/* Ferramentas Especializadas de Estudo (U6.2) */}
           <div className="py-1 space-y-0.5 border-b border-border/60">
-            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
+            <span className="text-xs font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
               Ferramentas de Estudo
             </span>
 
@@ -158,7 +158,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <BarChart3 className="w-4 h-4 text-accent" />
                 <span>Radar Cebraspe</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Banca</span>
+              <span className="text-xs font-mono text-ink-2">Banca</span>
             </button>
 
             <button
@@ -174,7 +174,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <Bookmark className="w-4 h-4 text-rose-500" />
                 <span>Caderno de Erros</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Hipercorreção</span>
+              <span className="text-xs font-mono text-ink-2">Hipercorreção</span>
             </button>
 
             <button
@@ -190,7 +190,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <PenTool className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
                 <span>Oficina Discursiva</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Item 9</span>
+              <span className="text-xs font-mono text-ink-2">Item 9</span>
             </button>
 
             <button
@@ -206,7 +206,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <Sparkles className="w-4 h-4 text-amber-500" />
                 <span>Folha de Véspera</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Revisão Express</span>
+              <span className="text-xs font-mono text-ink-2">Revisão Express</span>
             </button>
 
             <button
@@ -222,13 +222,13 @@ export const UserMenuDropdown: React.FC = () => {
                 <FileText className="w-4 h-4 text-indigo-500" />
                 <span>Edital Oficial 2026</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Cargo 5</span>
+              <span className="text-xs font-mono text-ink-2">Cargo 5</span>
             </button>
           </div>
 
           {/* Opções de Estudo e Preferências */}
           <div className="py-1 space-y-0.5">
-            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
+            <span className="text-xs font-mono font-bold uppercase tracking-wider text-ink-2 px-3 py-1 block">
               Configurações & Progresso
             </span>
 
@@ -245,7 +245,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <Sliders className="w-4 h-4 text-accent" />
                 <span>Preferências de Leitura</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Visual</span>
+              <span className="text-xs font-mono text-ink-2">Visual</span>
             </button>
 
             <button
@@ -258,7 +258,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <Download className="w-4 h-4 text-accent" />
                 <span>Exportar Progresso (MD)</span>
               </div>
-              <span className="text-[10px] font-mono text-ink-2">Backup</span>
+              <span className="text-xs font-mono text-ink-2">Backup</span>
             </button>
 
             <button
@@ -272,7 +272,7 @@ export const UserMenuDropdown: React.FC = () => {
                 <span>Modo Livre</span>
               </div>
               <span
-                className={`text-[10px] font-mono font-bold px-1.5 py-0.5 rounded ${
+                className={`text-xs font-mono font-bold px-1.5 py-0.5 rounded ${
                   modoLivre
                     ? 'bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30'
                     : 'bg-surface-2 text-ink-2 border border-border'

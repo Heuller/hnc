@@ -59,7 +59,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-rose-600 dark:text-rose-400">
               Corrija a Assertiva Incorreta
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               A assertiva abaixo contém um vício da banca. Escolha a versão corrigida:
             </span>
           </div>
@@ -87,7 +87,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
           "{exercicio.enunciado}"
         </p>
         {exercicio.trechoIncorreto && (
-          <div className="text-[11px] font-sans text-err font-medium pt-1">
+          <div className="text-xs font-sans text-err font-medium pt-1">
             ⚠️ Ponto crítico: <u>{exercicio.trechoIncorreto}</u>
           </div>
         )}
@@ -166,7 +166,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Por que a assertiva original é falsa:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -174,7 +174,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

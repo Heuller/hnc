@@ -91,11 +91,11 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
 
           <div className="space-y-1">
             <div className="flex items-center gap-2 flex-wrap">
-              <span className="font-mono text-[11px] font-bold px-2 py-0.5 rounded uppercase tracking-wider bg-surface border border-border text-ink-2">
+              <span className="font-mono text-xs font-bold px-2 py-0.5 rounded uppercase tracking-wider bg-surface border border-border text-ink-2">
                 Portão do Simulado · Módulo {moduloNumero}
               </span>
               <span
-                className={`font-mono text-[11px] font-bold px-2 py-0.5 rounded uppercase ${
+                className={`font-mono text-xs font-bold px-2 py-0.5 rounded uppercase ${
                   isAprovado
                     ? 'bg-ok text-white'
                     : 'bg-surface-2 text-ink-2 border border-border'
@@ -123,15 +123,15 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
       {/* Régua de Notas: 1ª Tentativa e Consolidada (Regra 2.4) */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 p-4 bg-surface rounded-xl border border-border">
         <div>
-          <span className="text-[11px] font-sans text-ink-2 block">1ª Tentativa</span>
+          <span className="text-xs font-sans text-ink-2 block">1ª Tentativa</span>
           <span className="text-xl sm:text-2xl font-mono font-bold text-ink">
             {consolidada.primeiraTentativaPercent}%
           </span>
-          <span className="text-[10px] text-ink-2 font-mono block">nota oficial do portão</span>
+          <span className="text-xs text-ink-2 font-mono block">nota oficial do portão</span>
         </div>
 
         <div>
-          <span className="text-[11px] font-sans text-ink-2 block">Nota Consolidada</span>
+          <span className="text-xs font-sans text-ink-2 block">Nota Consolidada</span>
           <span
             className={`text-xl sm:text-2xl font-mono font-bold ${
               isAprovado ? 'text-ok' : 'text-accent'
@@ -139,17 +139,17 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
           >
             {consolidada.notaConsolidadaPercent}%
           </span>
-          <span className="text-[10px] text-ink-2 font-mono block">
+          <span className="text-xs text-ink-2 font-mono block">
             mínimo: {minimoExigido}%
           </span>
         </div>
 
         <div className="col-span-2 sm:col-span-1">
-          <span className="text-[11px] font-sans text-ink-2 block">Nota Líquida (C − E)</span>
+          <span className="text-xs font-sans text-ink-2 block">Nota Líquida (C − E)</span>
           <span className="text-xl sm:text-2xl font-mono font-bold text-ink">
             {relatorioFinal.notaLiquida > 0 ? `+${relatorioFinal.notaLiquida}` : relatorioFinal.notaLiquida}
           </span>
-          <span className="text-[10px] text-ink-2 font-mono block">fator Cebraspe</span>
+          <span className="text-xs text-ink-2 font-mono block">fator Cebraspe</span>
         </div>
       </div>
 
@@ -183,7 +183,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
                 <BookOpen className="w-4 h-4 text-accent" />
                 <span className="font-sans font-bold text-xs sm:text-sm">A) Revisão Dirigida</span>
               </div>
-              <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
+              <p className="text-xs text-ink-2 font-serif leading-relaxed">
                 Abre as seções da teoria dos tópicos com maior número de erros para consolidação.
               </p>
             </button>
@@ -200,7 +200,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
                   B) Refazer só os erros ({itensErradosIds.length} itens)
                 </span>
               </div>
-              <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
+              <p className="text-xs text-ink-2 font-serif leading-relaxed">
                 Simulado exclusivo com os itens errados em ordem embaralhada e estudo reverso.
               </p>
             </button>
@@ -215,7 +215,7 @@ export const PainelDecisaoPortaoSimulado: React.FC<PainelDecisaoPortaoSimuladoPr
                 <RefreshCw className="w-4 h-4 text-accent" />
                 <span className="font-sans font-bold text-xs sm:text-sm">C) Novo Simulado (100Q)</span>
               </div>
-              <p className="text-[11px] text-ink-2 font-serif leading-relaxed">
+              <p className="text-xs text-ink-2 font-serif leading-relaxed">
                 Nova tentativa completa de 100 itens no padrão oficial Cebraspe.
               </p>
             </button>

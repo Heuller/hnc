@@ -72,9 +72,9 @@ export const ThemeToggle: React.FC<{ compact?: boolean }> = ({ compact = false }
         <div
           role="menu"
           aria-orientation="vertical"
-          className="absolute right-0 mt-2 w-64 rounded-xl border border-border bg-surface p-1.5 shadow-xl z-50 animate-fadeIn focus:outline-none"
+          className="absolute right-0 mt-2 w-64 rounded-xl border border-border bg-surface p-1.5 shadow-xl z-50 animate-fadeIn foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
         >
-          <div className="px-2.5 py-1.5 text-[11px] font-sans font-bold text-ink-2 uppercase tracking-wider border-b border-border mb-1">
+          <div className="px-2.5 py-1.5 text-xs font-sans font-bold text-ink-2 uppercase tracking-wider border-b border-border mb-1">
             Aparência da Plataforma
           </div>
           <div className="space-y-0.5">
@@ -99,7 +99,7 @@ export const ThemeToggle: React.FC<{ compact?: boolean }> = ({ compact = false }
                     <span className="shrink-0">{opt.icon}</span>
                     <div className="min-w-0">
                       <div className="leading-tight font-semibold">{opt.label}</div>
-                      <div className="text-[10px] text-ink-2 truncate">{opt.desc}</div>
+                      <div className="text-xs text-ink-2 truncate">{opt.desc}</div>
                     </div>
                   </div>
                   {isSelected && <Check className="w-4 h-4 text-accent shrink-0 ml-2" />}

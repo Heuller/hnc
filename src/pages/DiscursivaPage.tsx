@@ -319,7 +319,7 @@ export const DiscursivaPage: React.FC = () => {
                 <h1 className="text-xl sm:text-2xl font-serif font-bold text-ink">
                   Avaliador Cebraspe de Discursivas
                 </h1>
-                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-purple-500/15 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase">
                   Fórmulas Oficiais: NQ = NC - 3×(NE/TL) · NPT = NC - 6×(NE/TL) · Edital 1/2026 (Item 9)
                 </span>
               </div>
@@ -441,7 +441,7 @@ export const DiscursivaPage: React.FC = () => {
                       : 'bg-surface hover:bg-surface-2 border-border text-ink-2'
                   }`}
                 >
-                  <div className="flex items-center justify-between font-mono text-[10px] text-ink-2 mb-1">
+                  <div className="flex items-center justify-between font-mono text-xs text-ink-2 mb-1">
                     <span className="font-bold text-purple-700 dark:text-purple-400">
                       {item.tipo === 'questao_20' ? 'Questão (20L)' : 'Peça Técnica (50L)'}
                     </span>
@@ -464,7 +464,7 @@ export const DiscursivaPage: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setIsPadraoAberto(!isPadraoAberto)}
-                  className="text-[11px] text-accent hover:underline cursor-pointer"
+                  className="text-xs text-accent hover:underline cursor-pointer"
                 >
                   {isPadraoAberto ? 'Ocultar' : 'Exibir'}
                 </button>
@@ -478,13 +478,13 @@ export const DiscursivaPage: React.FC = () => {
 
                   {enunciadoAtivo.criteriosPontuacao && enunciadoAtivo.criteriosPontuacao.length > 0 && (
                     <div className="space-y-1.5 pt-1">
-                      <span className="text-[11px] font-mono font-bold uppercase text-ink block">
+                      <span className="text-xs font-mono font-bold uppercase text-ink block">
                         Distribuição de Pontos (NCP):
                       </span>
                       {enunciadoAtivo.criteriosPontuacao.map((crit, idx) => (
                         <div
                           key={idx}
-                          className="flex items-start justify-between gap-2 p-2 rounded-lg bg-surface-2 text-[11px]"
+                          className="flex items-start justify-between gap-2 p-2 rounded-lg bg-surface-2 text-xs"
                         >
                           <span className="text-ink">{crit.item}</span>
                           <span className="font-mono font-bold text-purple-700 dark:text-purple-400 shrink-0">
@@ -508,7 +508,7 @@ export const DiscursivaPage: React.FC = () => {
                 <span className="font-bold text-ink text-sm sm:text-base font-serif">
                   {enunciadoAtivo.titulo}
                 </span>
-                <span className="px-2 py-0.5 rounded bg-surface-2 border border-border text-[11px]">
+                <span className="px-2 py-0.5 rounded bg-surface-2 border border-border text-xs">
                   Limite: {limiteLinhas} linhas
                 </span>
               </div>
@@ -532,7 +532,7 @@ export const DiscursivaPage: React.FC = () => {
                   Folha de Resposta do Candidato
                 </span>
                 <span
-                  className={`px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold border ${
+                  className={`px-2.5 py-0.5 rounded-full text-xs font-mono font-bold border ${
                     linhasEstimadas > limiteLinhas
                       ? 'bg-rose-500/10 border-rose-500/30 text-rose-600'
                       : 'bg-surface-2 border-border text-ink'
@@ -542,7 +542,7 @@ export const DiscursivaPage: React.FC = () => {
                 </span>
               </div>
 
-              <span className="text-[10px] font-mono text-ink-2 italic">
+              <span className="text-xs font-mono text-ink-2 italic">
                 *Fórmulas do Edital nº 1/2026 (itens 9.8.4 e 9.8.5): penalização proporcional às linhas escritas (fator 3× para questões de 20L e 6× para peças de 50L)
               </span>
             </div>
@@ -696,7 +696,7 @@ export const DiscursivaPage: React.FC = () => {
                   Histórico de Versões Salvas ({historico.length})
                 </span>
               </div>
-              <span className="text-[10px] text-ink-2">
+              <span className="text-xs text-ink-2">
                 Arquivamento local com espelhos de nota
               </span>
             </div>
@@ -717,12 +717,12 @@ export const DiscursivaPage: React.FC = () => {
                         <span className="font-mono font-semibold text-ink">
                           {new Date(v.dataHora).toLocaleString('pt-BR')}
                         </span>
-                        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-surface border border-border text-ink-2">
+                        <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-surface border border-border text-ink-2">
                           {v.linhasEstimadas} linhas
                         </span>
                         {v.avaliacao && (
                           <span
-                            className={`text-[10px] font-mono px-1.5 py-0.5 rounded font-bold border ${
+                            className={`text-xs font-mono px-1.5 py-0.5 rounded font-bold border ${
                               v.avaliacao.situacao === 'HABILITADO'
                                 ? 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20'
                                 : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
@@ -732,7 +732,7 @@ export const DiscursivaPage: React.FC = () => {
                           </span>
                         )}
                       </div>
-                      <p className="text-[11px] text-ink-2 truncate max-w-md font-serif">
+                      <p className="text-xs text-ink-2 truncate max-w-md font-serif">
                         {v.texto.slice(0, 110)}...
                       </p>
                     </div>
@@ -740,7 +740,7 @@ export const DiscursivaPage: React.FC = () => {
                       variant="outline"
                       size="sm"
                       onClick={() => handleRestaurarVersao(v)}
-                      className="flex items-center gap-1 text-[11px] shrink-0"
+                      className="flex items-center gap-1 text-xs shrink-0"
                       title="Restaurar versão no editor"
                     >
                       <RotateCcw className="w-3.5 h-3.5" />

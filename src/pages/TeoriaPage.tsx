@@ -255,7 +255,7 @@ export const TeoriaPage: React.FC = () => {
         <div className="sticky top-2 z-40 bg-surface/95 backdrop-blur-md border border-border py-2 px-4 mb-4 flex items-center justify-between shadow-editorial-sm rounded-xl max-w-4xl mx-auto animate-fadeIn">
           <div className="flex items-center gap-2 min-w-0">
             <span
-              className="px-2 py-0.5 rounded text-[11px] font-mono font-bold shrink-0 shadow-2xs"
+              className="px-2 py-0.5 rounded text-xs font-mono font-bold shrink-0 shadow-2xs"
               style={{
                 backgroundColor: moduleTheme.solidVar,
                 color: moduleTheme.textVar,
@@ -269,7 +269,7 @@ export const TeoriaPage: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
-            <span className="font-mono text-[10px] text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border">
+            <span className="font-mono text-xs text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border">
               {scrollProgress}% lido
             </span>
 
@@ -290,7 +290,7 @@ export const TeoriaPage: React.FC = () => {
             >
               <EyeOff className="w-3.5 h-3.5" />
               <span>Sair do Foco</span>
-              <span className="px-1 py-0.2 rounded text-[10px] font-mono bg-black/20 text-white ml-0.5">
+              <span className="px-1 py-0.2 rounded text-xs font-mono bg-black/20 text-white ml-0.5">
                 Esc
               </span>
             </button>
@@ -305,13 +305,13 @@ export const TeoriaPage: React.FC = () => {
           <div className="block lg:hidden space-y-1.5 mb-2.5">
             <label
               htmlFor="mobile-submodule-selector"
-              className="text-[11px] font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
+              className="text-xs font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
             >
               <span className="flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5 text-accent" />
                 Submódulo Ativo
               </span>
-              <span className="text-[10px] text-accent font-sans font-semibold">
+              <span className="text-xs text-accent font-sans font-semibold">
                 {currentMacro.codigo} • {currentSub.numero}
               </span>
             </label>
@@ -323,7 +323,7 @@ export const TeoriaPage: React.FC = () => {
                   setSelectedSubmodule(e.target.value);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="w-full py-2 pl-3 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium focus:outline-none focus:ring-2 focus:ring-accent appearance-none cursor-pointer shadow-editorial-xs"
+                className="w-full py-2 pl-3 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 appearance-none cursor-pointer shadow-editorial-xs"
               >
                 {ALL_COURSE_MODULES.map((macro) => (
                   <optgroup
@@ -350,12 +350,12 @@ export const TeoriaPage: React.FC = () => {
             <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={currentMacro.id} size="sm" />
-                <span className="font-mono text-[11px] sm:text-xs text-ink font-semibold uppercase tracking-wider">
+                <span className="font-mono text-xs text-ink font-semibold uppercase tracking-wider">
                   {currentMacro.titulo_curto || currentMacro.titulo} • Submódulo {currentSub.numero}
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-mono text-[11px] sm:text-xs text-ink-2 hidden sm:flex items-center gap-1">
+                <span className="font-mono text-xs text-ink-2 hidden sm:flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5" />
                   ~{currentSub.tempoEstimadoMinutos} min
                 </span>
@@ -368,7 +368,7 @@ export const TeoriaPage: React.FC = () => {
                 >
                   <Eye className="w-3.5 h-3.5 text-accent" />
                   <span className="hidden xs:inline">Foco</span>
-                  <span className="hidden sm:inline-block px-1 py-0.2 rounded text-[10px] font-mono bg-black/10 dark:bg-white/10 ml-0.5">
+                  <span className="hidden sm:inline-block px-1 py-0.2 rounded text-xs font-mono bg-black/10 dark:bg-white/10 ml-0.5">
                     F
                   </span>
                 </button>
@@ -392,7 +392,7 @@ export const TeoriaPage: React.FC = () => {
             />
 
             <div className="flex items-start justify-between gap-4 mb-2.5 sm:mb-3">
-              <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-tight flex-1 leading-tight">
+              <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-normal flex-1 leading-tight">
                 {currentSub.titulo}
               </h1>
               <div className="hidden lg:block shrink-0 opacity-80 hover:opacity-100 transition-opacity" title="Biblioteca da Câmara dos Deputados · Acervo Canônico">
@@ -453,10 +453,10 @@ export const TeoriaPage: React.FC = () => {
                 className="hidden md:block bg-surface-2/70 border border-border rounded-xl p-3 shadow-2xs"
               >
                 <div className="flex items-center justify-between mb-2 px-1">
-                  <span className="font-mono text-[11px] font-bold uppercase tracking-wider text-ink-2">
+                  <span className="font-mono text-xs font-bold uppercase tracking-wider text-ink-2">
                     Jornada do Submódulo (Ciclo de Domínio)
                   </span>
-                  <span className="text-[11px] font-mono text-ink-2">
+                  <span className="text-xs font-mono text-ink-2">
                     {etapasBarra.length} Etapas Recomendadas
                   </span>
                 </div>
@@ -476,7 +476,7 @@ export const TeoriaPage: React.FC = () => {
                         <span className="block font-bold text-xs text-ink group-hover:text-accent leading-none">
                           {etapa.rotulo}
                         </span>
-                        <span className="text-[10px] text-ink-2 truncate block mt-1">
+                        <span className="text-xs text-ink-2 truncate block mt-1">
                           {etapa.desc}
                         </span>
                       </div>
@@ -485,7 +485,7 @@ export const TeoriaPage: React.FC = () => {
                 </div>
 
             {/* Acesso rápido às seções complementares sem separadores soltos */}
-            <div className="flex flex-wrap items-center gap-2 pt-2.5 mt-2.5 border-t border-border/60 text-[11px] text-ink-2">
+            <div className="flex flex-wrap items-center gap-2 pt-2.5 mt-2.5 border-t border-border/60 text-xs text-ink-2">
               <span className="font-semibold text-ink">Seções:</span>
               <button
                 type="button"
@@ -550,7 +550,7 @@ export const TeoriaPage: React.FC = () => {
                     ? 'Modo Prático & Didático • Vida Real / Câmara dos Deputados'
                     : 'Doutrina e Bibliografia Especializada'}
                 </span>
-                <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight mt-1">
+                <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-1">
                   {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
                     ? 'Teoria Didática & Aplicação Prática'
                     : 'Fundamentação Teórica Canônica'}
@@ -594,7 +594,7 @@ export const TeoriaPage: React.FC = () => {
                   <Sparkles className="w-3.5 h-3.5" />
                   <span>Modo Prático & Vida Real</span>
                   {currentSub.teoriaDidaticaMarkdown && (
-                    <span className="text-[10px] bg-accent-contrast/20 px-1 py-0.2 rounded font-mono">
+                    <span className="text-xs bg-accent-contrast/20 px-1 py-0.2 rounded font-mono">
                       Piloto
                     </span>
                   )}
@@ -681,7 +681,7 @@ export const TeoriaPage: React.FC = () => {
               </div>
               <h2
                 id="checkpoints-title"
-                className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight"
+                className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal"
               >
                 Micro-Checkpoints de Fixação
               </h2>
@@ -739,7 +739,7 @@ export const TeoriaPage: React.FC = () => {
               </div>
               <h2
                 id="mnemonicos-title"
-                className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight"
+                className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal"
               >
                 Resumo Rápido e Armadilhas
               </h2>
@@ -900,7 +900,7 @@ export const TeoriaPage: React.FC = () => {
         {/* Coluna Lateral Direita no Desktop (>= 1280px / telas xl+) */}
         <aside
           aria-label="Índice da Leitura e Resumo"
-          className="hidden xl:flex flex-col w-80 shrink-0 sticky top-20 bg-surface rounded-2xl border border-border p-4 shadow-editorial-xs max-h-[calc(100vh-6rem)] overflow-hidden"
+          className="hidden xl:flex flex-col w-80 shrink-0 sticky top-20 bg-surface rounded-2xl border border-border p-4 shadow-editorial-xs max-h-[calc(100dvh-6rem)] overflow-hidden"
         >
           {/* Alternador de Abas: Índice vs. Mnemônicos */}
           <div className="flex items-center p-1 rounded-xl bg-surface-2 border border-border/80 mb-3 shrink-0">
@@ -932,7 +932,7 @@ export const TeoriaPage: React.FC = () => {
 
           {/* Barra de Progresso do Submódulo */}
           <div className="pb-3 mb-3 border-b border-border/70 shrink-0">
-            <div className="flex items-center justify-between text-[11px] font-mono text-ink-2 mb-1.5">
+            <div className="flex items-center justify-between text-xs font-mono text-ink-2 mb-1.5">
               <span>Progresso da Leitura</span>
               <span className="font-bold text-accent">{scrollProgress}%</span>
             </div>
@@ -967,7 +967,7 @@ export const TeoriaPage: React.FC = () => {
                       }`}
                     >
                       <div className="flex items-center gap-2 min-w-0">
-                        <span className="font-mono text-[10px] w-4 text-center shrink-0">
+                        <span className="font-mono text-xs w-4 text-center shrink-0">
                           {sec.numero}
                         </span>
                         <span className="truncate">{sec.titulo}</span>

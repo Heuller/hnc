@@ -60,7 +60,7 @@ export const F4PreenchimentoLacunas: React.FC<ExerciseFormatProps> = ({
             className="p-3 rounded-xl border border-border bg-surface hover:border-accent hover:bg-accent/5 text-left text-xs sm:text-sm font-sans font-medium transition-all cursor-pointer text-ink flex items-center justify-between"
           >
             <span>{opcao}</span>
-            <span className="text-[11px] font-mono text-ink-3">[{idx + 1}]</span>
+            <span className="text-xs font-mono text-ink-3">[{idx + 1}]</span>
           </button>
         ))}
       </div>

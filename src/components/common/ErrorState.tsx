@@ -50,14 +50,14 @@ export const ErrorState: React.FC<ErrorStateProps> = ({
           <button
             type="button"
             onClick={() => setShowDetails((prev) => !prev)}
-            className="text-[11px] font-mono text-ink-2 hover:text-ink flex items-center gap-1 mx-auto cursor-pointer"
+            className="text-xs font-mono text-ink-2 hover:text-ink flex items-center gap-1 mx-auto cursor-pointer"
           >
             <span>{showDetails ? 'Ocultar detalhes técnicos' : 'Ver detalhes técnicos'}</span>
             {showDetails ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
           </button>
 
           {showDetails && (
-            <pre className="mt-2 p-3 rounded-xl bg-surface border border-border text-[11px] font-mono text-ink-2 overflow-x-auto max-h-40 whitespace-pre-wrap break-all">
+            <pre className="mt-2 p-3 rounded-xl bg-surface border border-border text-xs font-mono text-ink-2 overflow-x-auto max-h-40 whitespace-pre-wrap break-all">
               {detalhes}
             </pre>
           )}

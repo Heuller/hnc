@@ -61,11 +61,11 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
           </div>
 
           {/* Content */}
-          <div className="p-5 sm:p-6 space-y-4 max-h-[70vh] overflow-y-auto text-sm text-ink-2 scrollbar-thin">
+          <div className="p-5 sm:p-6 space-y-4 max-h-[70dvh] overflow-y-auto text-sm text-ink-2 scrollbar-thin">
             {/* Vinheta Editorial da Jornada */}
             <div className="flex flex-col items-center justify-center py-2 text-accent border-b border-border/60 pb-4">
               <IllustrationPortal width={140} height={90} ariaLabel="Portal de Verificação da Jornada" />
-              <p className="text-[11px] font-sans text-ink-2 text-center mt-2 max-w-sm">
+              <p className="text-xs font-sans text-ink-2 text-center mt-2 max-w-sm">
                 Diretriz pedagógica: Estudo livre e irrestrito com recomendação inteligente e selos de consolidação.
               </p>
             </div>
