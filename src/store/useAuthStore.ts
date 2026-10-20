@@ -14,6 +14,20 @@ interface AuthState {
   signOut: () => Promise<void>;
 }
 
+type SignOutListener = () => Promise<void> | void;
+const signOutListeners = new Set<SignOutListener>();
+
+/**
+ * Registra ouvintes para o evento de signOut (ex.: reset e reidratação de stores).
+ * Evita acoplamento circular ou importação de dependências pesadas no useAuthStore.
+ */
+export function registerSignOutListener(fn: SignOutListener): () => void {
+  signOutListeners.add(fn);
+  return () => {
+    signOutListeners.delete(fn);
+  };
+}
+
 export const useAuthStore = create<AuthState>((set) => ({
   user: null,
   session: null,
@@ -61,16 +75,13 @@ export const useAuthStore = create<AuthState>((set) => ({
     }
     set({ user: null, session: null });
 
-    // F-04: No signOut, zere e reidrate os stores em memória
-    try {
-      const { useProgressStore } = await import('./useProgressStore');
-      const { useConceptStore } = await import('./useConceptStore');
-      useProgressStore.getState().limparTodoProgresso();
-      useConceptStore.getState().reset();
-      await useProgressStore.persist?.rehydrate?.();
-      await useConceptStore.persist?.rehydrate?.();
-    } catch (e) {
-      console.warn('[useAuthStore] Erro ao reidratar stores no signOut:', e);
+    // F-04: Notifica ouvintes registrados (ex: zerar e reidratar stores isolados)
+    for (const listener of signOutListeners) {
+      try {
+        await listener();
+      } catch (e) {
+        console.warn('[useAuthStore] Erro ao executar signOut listener:', e);
+      }
     }
   },
 }));

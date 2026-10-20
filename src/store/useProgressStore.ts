@@ -14,7 +14,7 @@ import {
   criarItemLeitner,
 } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
-import { useAuthStore } from './useAuthStore';
+import { useAuthStore, registerSignOutListener } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
@@ -1071,3 +1071,9 @@ export const useProgressStore = create<ProgressStoreState>()(
     }
   )
 );
+
+// F-04: Ao fazer signOut, zera o progresso em memória e reidrata para o estado anônimo
+registerSignOutListener(async () => {
+  useProgressStore.getState().limparTodoProgresso();
+  await useProgressStore.persist?.rehydrate?.();
+});

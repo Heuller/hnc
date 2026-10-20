@@ -12,7 +12,7 @@ import {
 } from '../domain/scheduler/unifiedScheduler';
 import type { ExerciseFormatId } from '../config/reviewConfig';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { useAuthStore } from './useAuthStore';
+import { useAuthStore, registerSignOutListener } from './useAuthStore';
 
 export interface EstatisticasDominio {
   totalConceitos: number;
@@ -304,3 +304,9 @@ export const useConceptStore = create<ConceptStoreState>()(
     }
   )
 );
+
+// F-04: Ao fazer signOut, zera os estados de conceitos em memória e reidrata para o estado anônimo
+registerSignOutListener(async () => {
+  useConceptStore.getState().reset();
+  await useConceptStore.persist?.rehydrate?.();
+});
