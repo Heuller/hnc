@@ -4,6 +4,7 @@ import { ErrorBoundary } from './components/common/ErrorBoundary';
 import { useNavigationStore } from './store/useNavigationStore';
 import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
+import { AvisoNovaVersaoSW } from './components/common/AvisoNovaVersaoSW';
 
 import { PainelPage } from './pages/PainelPage';
 
@@ -165,6 +166,7 @@ export function App() {
           </Suspense>
         </div>
       </ErrorBoundary>
+      <AvisoNovaVersaoSW />
     </AppShell>
   );
 }
