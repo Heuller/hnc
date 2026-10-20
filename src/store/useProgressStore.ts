@@ -680,6 +680,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          // V-01: Resposta única por item (Fator Cebraspe estrito)
+          // Impede sobrescrita ou troca de resposta após o primeiro julgamento
+          if (sessaoAtual.respostas[questionId]?.resposta !== undefined) {
+            return state;
+          }
+
           const novasRespostas = {
             ...sessaoAtual.respostas,
             [questionId]: {

@@ -224,12 +224,11 @@ export const SimuladoPage: React.FC = () => {
         : respostaAtual?.certeza)
     : undefined;
 
+  const isItemRespondido = respostaAtual?.resposta !== undefined;
+
   const setCertezaSelecionada = (nivel: 'certeza' | 'provavel' | 'chute' | undefined) => {
-    if (currentQuestion) {
+    if (currentQuestion && !isItemRespondido) {
       setCertezaManualMap((prev) => ({ ...prev, [currentQuestion.id]: nivel }));
-      if (respostaAtual?.resposta && nivel) {
-        salvarRespostaSimulado(selectedSimuladoId, currentQuestion.id, respostaAtual.resposta, nivel, respostaAtual.acertou);
-      }
     }
   };
 
@@ -255,11 +254,13 @@ export const SimuladoPage: React.FC = () => {
   const handleJulgar = useCallback(
     (resposta: 'C' | 'E' | 'BRANCO') => {
       if (!currentQId || !currentQGabarito) return;
+      // V-01: Resposta única por item (blindagem estrita do Fator Cebraspe)
+      if (isItemRespondido) return;
 
       const acertou = resposta === 'BRANCO' ? undefined : resposta === currentQGabarito;
       salvarRespostaSimulado(selectedSimuladoId, currentQId, resposta, certezaSelecionada, acertou);
     },
-    [selectedSimuladoId, currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado]
+    [selectedSimuladoId, currentQId, currentQGabarito, certezaSelecionada, salvarRespostaSimulado, isItemRespondido]
   );
 
   const handleNext = useCallback(() => {
@@ -1202,8 +1203,12 @@ export const SimuladoPage: React.FC = () => {
             <div className="grid grid-cols-3 gap-2">
               <button
                 type="button"
+                disabled={isItemRespondido}
+                aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('certeza')}
                 className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                  isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
+                } ${
                   certezaSelecionada === 'certeza'
                     ? 'bg-ok-soft border-ok text-ok font-semibold shadow-2xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -1213,8 +1218,12 @@ export const SimuladoPage: React.FC = () => {
               </button>
               <button
                 type="button"
+                disabled={isItemRespondido}
+                aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('provavel')}
                 className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                  isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
+                } ${
                   certezaSelecionada === 'provavel'
                     ? 'bg-accent-soft border-accent text-accent font-semibold shadow-2xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -1224,8 +1233,12 @@ export const SimuladoPage: React.FC = () => {
               </button>
               <button
                 type="button"
+                disabled={isItemRespondido}
+                aria-disabled={isItemRespondido}
                 onClick={() => setCertezaSelecionada('chute')}
                 className={`py-2 px-3 rounded-lg text-xs font-sans font-medium border transition-all ${
+                  isItemRespondido ? 'cursor-not-allowed opacity-80' : ''
+                } ${
                   certezaSelecionada === 'chute'
                     ? 'bg-alerta-soft border-alerta-cebraspe text-alerta-cebraspe font-semibold shadow-2xs'
                     : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
@@ -1240,45 +1253,72 @@ export const SimuladoPage: React.FC = () => {
           <div className="pt-4 border-t border-border grid grid-cols-1 sm:grid-cols-3 gap-3">
             <button
               type="button"
+              disabled={isItemRespondido}
+              aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('C')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all active:scale-98 ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+                isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
+              } ${
                 respostaAtual?.resposta === 'C'
-                  ? 'bg-ok-soft border-ok text-ok shadow-xs'
-                  : 'bg-surface border-border text-ink hover:border-ok/60'
+                  ? 'bg-ok-soft border-ok text-ok shadow-xs ring-2 ring-ok/30'
+                  : isItemRespondido
+                    ? 'bg-surface/50 border-border/50 text-ink-2/50'
+                    : 'bg-surface border-border text-ink hover:border-ok/60'
               }`}
             >
-              <CheckCircle2 className="w-5 h-5 text-ok" />
+              <CheckCircle2 className={`w-5 h-5 ${respostaAtual?.resposta === 'C' ? 'text-ok' : isItemRespondido ? 'text-ink-2/40' : 'text-ok'}`} />
               <span>CERTO</span>
               <Kbd>C</Kbd>
             </button>
 
             <button
               type="button"
+              disabled={isItemRespondido}
+              aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('E')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all active:scale-98 ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-bold text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+                isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
+              } ${
                 respostaAtual?.resposta === 'E'
-                  ? 'bg-err-soft border-err text-err shadow-xs'
-                  : 'bg-surface border-border text-ink hover:border-err/60'
+                  ? 'bg-err-soft border-err text-err shadow-xs ring-2 ring-err/30'
+                  : isItemRespondido
+                    ? 'bg-surface/50 border-border/50 text-ink-2/50'
+                    : 'bg-surface border-border text-ink hover:border-err/60'
               }`}
             >
-              <XCircle className="w-5 h-5 text-err" />
+              <XCircle className={`w-5 h-5 ${respostaAtual?.resposta === 'E' ? 'text-err' : isItemRespondido ? 'text-ink-2/40' : 'text-err'}`} />
               <span>ERRADO</span>
               <Kbd>E</Kbd>
             </button>
 
             <button
               type="button"
+              disabled={isItemRespondido}
+              aria-disabled={isItemRespondido}
               onClick={() => handleJulgar('BRANCO')}
-              className={`py-3.5 px-4 rounded-xl font-sans font-medium text-sm flex items-center justify-center gap-2 border-2 transition-all active:scale-98 ${
+              className={`py-3.5 px-4 rounded-xl font-sans font-medium text-sm flex items-center justify-center gap-2 border-2 transition-all ${
+                isItemRespondido ? 'cursor-not-allowed opacity-90' : 'active:scale-98'
+              } ${
                 respostaAtual?.resposta === 'BRANCO'
-                  ? 'bg-surface-2 border-accent text-ink shadow-xs font-bold'
-                  : 'bg-surface border-border text-ink-2 hover:border-border/80'
+                  ? 'bg-surface-2 border-accent text-ink shadow-xs font-bold ring-2 ring-accent/30'
+                  : isItemRespondido
+                    ? 'bg-surface/50 border-border/50 text-ink-2/50'
+                    : 'bg-surface border-border text-ink-2 hover:border-border/80'
               }`}
             >
-              <HelpCircle className="w-5 h-5 text-ink-2" />
+              <HelpCircle className={`w-5 h-5 ${respostaAtual?.resposta === 'BRANCO' ? 'text-ink' : 'text-ink-2'}`} />
               <span>EM BRANCO</span>
               <Kbd>B</Kbd>
             </button>
+
+            {isItemRespondido && (
+              <div className="col-span-1 sm:col-span-3 py-2 px-3.5 rounded-lg bg-surface-2 border border-border flex items-center justify-between text-xs text-ink-2">
+                <span className="font-sans">Resposta registrada; use as setas ou o rodapé para avançar.</span>
+                <span className="font-mono text-[11px] text-accent font-semibold flex items-center gap-1">
+                  Item travado 🔒
+                </span>
+              </div>
+            )}
           </div>
 
           {/* Se for Mega Simulado da Câmara (120Q): Modo Prova Real (justificativas somente no relatório pós-prova) */}
