@@ -5,8 +5,8 @@ import {
   fetchWithTimeout,
   sendApiError,
   generateAdaptiveQuizSchema,
-} from './_lib/guard';
-import { getGeminiGenerateContentUrl } from './_lib/model';
+} from './_lib/guard.js';
+import { getGeminiGenerateContentUrl } from './_lib/model.js';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
@@ -107,7 +107,7 @@ DIRETRIZES DA BANCA:
 - Modo de Foco: ${modoFoco}
 - Módulos Alvo: ${modulosAlvo.join(', ')}
 - Vulnerabilidades / Pontos Cegos diagnosticados:
-${vulnerabilidades.length > 0 ? vulnerabilidades.map((v) => `  * ${v}`).join('\n') : '  * Conceitos fundamentais e distinções canônicas de Biblioteconomia'}
+${vulnerabilidades.length > 0 ? vulnerabilidades.map((v: string) => `  * ${v}`).join('\n') : '  * Conceitos fundamentais e distinções canônicas de Biblioteconomia'}
 
 ESTILO CEBRASPE:
 - Redação concisa, objetiva, acadêmica, com 25 a 45 palavras por assertiva.
@@ -155,7 +155,7 @@ Retorne ESTRITAMENTE um objeto JSON com a seguinte estrutura:
       throw new Error(`Gemini status ${response.status}`);
     }
 
-    const data = await response.json();
+    const data: any = await response.json();
     const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
     if (!rawText) throw new Error('Resposta vazia');
 
