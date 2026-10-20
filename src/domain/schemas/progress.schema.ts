@@ -38,7 +38,7 @@ export const SessaoSimuladoStateSchema = z.object({
 });
 
 export const UserProgressSchema = z.object({
-  versao: z.union([z.literal(2), z.literal(3)]).default(3),
+  versao: z.union([z.literal(2), z.literal(3), z.literal(4)]).default(4),
   modulosLidosIds: z.array(z.string()),
   checkpointsRespondidos: z.record(z.string(), z.enum(['C', 'E'])).default({}),
   secoesVisualizadas: z.record(z.string(), z.array(z.string())).default({}),

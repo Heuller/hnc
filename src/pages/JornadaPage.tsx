@@ -12,6 +12,7 @@ import {
   ShieldCheck,
   ArrowRight,
   Unlock,
+  Award,
 } from 'lucide-react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useNavigationStore } from '../store/useNavigationStore';
@@ -413,7 +414,12 @@ export const JornadaPage: React.FC = () => {
                             </span>
 
                             {/* Badge de status */}
-                            {isConcluida ? (
+                            {etapaSub?.aprovado && !etapaSub?.todasSecoesLidas ? (
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-[10px] font-semibold">
+                                <Award className="w-3 h-3" />
+                                <span>Domínio comprovado · leitura pendente</span>
+                              </span>
+                            ) : isConcluida ? (
                               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-[10px] font-semibold">
                                 <CheckCircle2 className="w-3 h-3" />
                                 <span>Concluída</span>
@@ -447,14 +453,14 @@ export const JornadaPage: React.FC = () => {
                             className="px-2 py-1.5 rounded-lg border border-border text-[11px] font-medium text-ink hover:bg-surface-2 transition-colors flex items-center justify-center gap-1 cursor-pointer"
                           >
                             <BookOpen className="w-3 h-3 text-ink-2" />
-                            <span>Teoria</span>
+                            <span>{etapaSub?.aprovado && !etapaSub?.todasSecoesLidas ? 'Ler seções' : 'Teoria'}</span>
                           </button>
 
                           <button
                             type="button"
                             onClick={() => handleOpenPortao(sub.numero)}
                             className={`px-2 py-1.5 rounded-lg text-[11px] font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer ${
-                              isConcluida
+                              etapaSub?.aprovado
                                 ? 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
                                 : isRevisaoDirigida
                                 ? 'bg-amber-500 hover:bg-amber-600 text-white'
@@ -462,7 +468,7 @@ export const JornadaPage: React.FC = () => {
                             }`}
                           >
                             <ShieldCheck className="w-3 h-3" />
-                            <span>{isConcluida ? 'Refazer' : 'Verificar'}</span>
+                            <span>{etapaSub?.aprovado ? 'Refazer' : 'Verificar'}</span>
                           </button>
                         </div>
                       </div>

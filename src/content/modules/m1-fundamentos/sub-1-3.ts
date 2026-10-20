@@ -189,7 +189,7 @@ Para o **Cebraspe**, a compreensão de *dado, informação, conhecimento e intel
    - **Informação como Conhecimento (*Information-as-knowledge*):** O conteúdo intangível, a crença justificada presente na mente do indivíduo.
 3. **Os Três Paradigmas da CI (Capurro, 2003):**
    - **Físico (Shannon & Weaver, 1949):** A informação tratada como sinal físico objetivo em um canal mecânico; foco na redução de ruído e na capacidade de transmissão.
-   - **Cognitivo (Brookes, 1980; Belkin, 1980):** A informação como incremento capaz de modificar estruturas mentais. Equação fundamental de Brookes: $K[S] + \Delta I = K[S + \Delta S]$. Modelo ASK (*Anomalous State of Knowledge*) de Belkin.
+   - **Cognitivo (Brookes, 1980; Belkin, 1980):** A informação como incremento capaz de modificar estruturas mentais. Equação fundamental de Brookes: $K[S] + \\Delta I = K[S + \\Delta S]$. Modelo ASK (*Anomalous State of Knowledge*) de Belkin.
    - **Social/Hermenêutico (Hjørland, 1995; Frohmann):** A informação é situada contextualmente em comunidades de prática discursiva (Análise de Domínio). A relevância não é matemática, mas intersubjetiva e cultural.
 
 ---
@@ -213,7 +213,7 @@ Para o **Cebraspe**, a compreensão de *dado, informação, conhecimento e intel
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
 - **Armadilha da Informação como Processo em Banco de Dados:** A banca adora afirmar que *"um repositório digital como o DSpace armazena tanto informação como coisa quanto informação como processo"*. **Gabarito: ERRADO.** Sistemas armazenam apenas coisas (registros físicos ou digitais). O processo ocorre na mente humana.
-- **Inversão da Equação de Brookes:** Dizer que a equação $K[S] + \Delta I = K[S + \Delta S]$ pertence a Shannon e Weaver. **Gabarito: ERRADO.** Pertence a Bertram Brookes e funda o paradigma cognitivo.
+- **Inversão da Equação de Brookes:** Dizer que a equação $K[S] + \\Delta I = K[S + \\Delta S]$ pertence a Shannon e Weaver. **Gabarito: ERRADO.** Pertence a Bertram Brookes e funda o paradigma cognitivo.
 - **Relevância no Paradigma Social:** O Cebraspe adora assertivas dizendo que *"a relevância documental é invariável no tempo e no espaço sob a ótica social"*. **Gabarito: ERRADO.** No paradigma social, a relevância depende do contexto do grupo e da comunidade de prática.
 
 ---
