@@ -18,7 +18,7 @@ A **Fase 9 (REVISADA) — Consolidação pós-correções** coroa e encerra com 
 4. **Regeneração Integral do Dossiê Teórico Completo (T9.4):** Atualização do gerador `scripts/generateTheoreticalPdf.ts` com enriquecimento dos 75 submódulos, incluindo seções *"Antes de ler: conceitos e termos essenciais"*, selos de domínio de habilidades, ausência total do termo *"verbatim"* e equações KaTeX limpas. Dossiê compilado em Markdown (13.797 linhas), HTML estilizado (3,44 MB) e PDF editorial via Puppeteer (14,47 MB).
 5. **Verificações Finais de Integridade Normativa e Doutrinária (T9.5):** Criação de suíte de testes `src/tests/verificacoesFinaisConteudoT9.test.ts` certificando **zero** marcadores `[VERIFICAR]`, conformidade de todas as normas técnicas com o ano de vigência (ex.: ABNT NBR 6023:2018/2025 e NBR 10520:2023 sem caixa alta em parênteses), checagem de citações contra obras e confirmação das fórmulas oficiais da discursiva ($NQ = NC - 3 \times \frac{NE}{TL}$ e $NPT = NC - 6 \times \frac{NE}{TL}$).
 6. **Relatório Oficial de Prontidão Final (T9.6):** Elaboração de `docs/prontidao_final.md`, contendo diagnóstico dos tópicos críticos do edital, quantificação das 227,5 horas líquidas de estudo disponíveis (65 dias úteis a 3,5h/dia) e cronograma estruturado em 13 semanas com rodada cumulativa de choque nas últimas 3 semanas antes de 17/01/2027.
-7. **Robustez dos Testes:** A suíte de testes automatizados avançou de 535 testes em 51 suítes (início do Plano v3) e 711 testes em 79 suítes (fim da Fase U9) para **726 testes em 83 suítes**, todos com 100% de aprovação.
+7. **Robustez dos Testes:** A suíte de testes automatizados avançou de 535 testes em 51 suítes (início do Plano v3) e 711 testes em 79 suítes (fim da Fase U9) para **751 testes em 93 suítes** (+ 17 asserções Puppeteer E2E), todos com 100% de aprovação.
 
 ---
 
@@ -103,7 +103,8 @@ O relatório `docs/prontidao_final.md` estruturou o plano de ação até 17/01/2
 | **Linha de Base Inicial (Plano v3)** | 535 testes | 51 suítes | ✅ Verde |
 | **Conclusão da Fase U8** | 682 testes | 77 suítes | ✅ Verde |
 | **Conclusão da Fase U9** | 711 testes | 79 suítes | ✅ Verde |
-| **Conclusão da Fase 9 (REVISADA)** | **726 testes** | **83 suítes** | ✅ **100% Verde** |
+| **Fase P8 (Navegação & Menus)** | 751 testes + 17 E2E | 93 suítes | ✅ Verde |
+| **Fase P9 (Consolidação Final)** | **751 testes + 17 E2E** | **93 suítes** | ✅ **100% Verde** |
 
 ---
 

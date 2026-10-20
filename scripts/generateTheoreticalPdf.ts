@@ -152,7 +152,7 @@ async function main() {
     <div class="capa-metadata">
       <div><strong>Plataforma:</strong> Heuller na Câmara (HNC) · Edição Canônica 2026/2027</div>
       <div><strong>Data da Prova:</strong> 17 de Janeiro de 2027</div>
-      <div><strong>Estrutura:</strong> 15 Macro-Módulos · 74 Submódulos Teóricos · ${BASE_TERMOS_DICIONARIO.length} Verbetes Canônicos · 5 Casos Integradores (25 Itens C/E)</div>
+      <div><strong>Estrutura:</strong> 15 Macro-Módulos · 74 Submódulos Teóricos · 5 Casos Integradores (25 Itens C/E)</div>
       <div><strong>Fator de Avaliação Cebraspe:</strong> 1 Erro anula 1 Acerto (C − E) · Limiar de Retenção: ≥ 85%</div>
     </div>
   </div>
@@ -207,9 +207,8 @@ async function main() {
       <h3>PARTE III — APÊNDICES TEÓRICOS COMPLEMENTARES</h3>
       <ul class="sumario-lista">
         <li><a href="#apendice-a" class="sumario-link"><strong>Apêndice A:</strong> Temas Discursivos Oficiais, Enunciados e Espelhos Cebraspe</a></li>
-        <li><a href="#apendice-b" class="sumario-link"><strong>Apêndice B:</strong> Dicionário Técnico Canônico Cebraspe (${BASE_TERMOS_DICIONARIO.length} Verbetes)</a></li>
-        <li><a href="#apendice-c" class="sumario-link"><strong>Apêndice C:</strong> Folha de Véspera Consolidada (Matriz de Síntese 48h)</a></li>
-        <li><a href="#apendice-d" class="sumario-link"><strong>Apêndice D:</strong> Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens C/E)</a></li>
+        <li><a href="#apendice-b" class="sumario-link"><strong>Apêndice B:</strong> Folha de Véspera Consolidada (Matriz de 5 Blocos do Edital 2026 — 60 Pegadinhas Capitais)</a></li>
+        <li><a href="#apendice-c" class="sumario-link"><strong>Apêndice C:</strong> Casos Integradores Intermódulos Cebraspe (5 Casos Transversais · 25 Itens C/E)</a></li>
       </ul>
     </div>
   </div>
