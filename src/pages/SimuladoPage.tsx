@@ -155,16 +155,15 @@ export const SimuladoPage: React.FC = () => {
     return 'm1-fundamentos';
   };
   const [selectedSimuladoId, setSelectedSimuladoId] = useState<string>(initialSimuladoId);
+
+  // F-13/F-16: Sincroniza navegação externa para o simulado alvo durante render
+  if (targetSimuladoId && targetSimuladoId !== selectedSimuladoId) {
+    setSelectedSimuladoId(targetSimuladoId);
+    setTargetSimuladoId(undefined);
+  }
+
   const simuladoAtivo = getSimuladoById(selectedSimuladoId);
   const isMegaSimulado = selectedSimuladoId === 'mega-simulado-camara';
-
-  // Sincroniza navegação externa para o simulado alvo
-  useEffect(() => {
-    if (targetSimuladoId && targetSimuladoId !== selectedSimuladoId) {
-      setSelectedSimuladoId(targetSimuladoId);
-      setTargetSimuladoId(undefined);
-    }
-  }, [targetSimuladoId, selectedSimuladoId, setTargetSimuladoId]);
 
   // Registra e retoma a sessão do simulado atual
   useEffect(() => {
@@ -194,12 +193,14 @@ export const SimuladoPage: React.FC = () => {
   const currentQuestion = questoesExibidas[currentIndex];
   const respostaAtual = respostas[currentQuestion?.id];
 
-  // Controle de tempo persistente por simulado (nunca perde ao recarregar a página)
+  // Controle de tempo persistente por simulado (F-13: sincronizado sem efeito em cascata)
+  const [prevSimuladoId, setPrevSimuladoId] = useState(selectedSimuladoId);
   const [tempoGasto, setTempoGasto] = useState<number>(() => sessaoAtual.tempoGastoSegundos || 0);
 
-  useEffect(() => {
+  if (selectedSimuladoId !== prevSimuladoId) {
+    setPrevSimuladoId(selectedSimuladoId);
     setTempoGasto(sessaoAtual.tempoGastoSegundos || 0);
-  }, [selectedSimuladoId, sessaoAtual.tempoGastoSegundos]);
+  }
 
   useEffect(() => {
     const timer = setInterval(() => {

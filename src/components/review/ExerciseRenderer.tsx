@@ -31,16 +31,23 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
   onConcluirItem,
   avancarLabel,
 }) => {
+  const [prevConceitoId, setPrevConceitoId] = useState(conceito.id);
   const [resposta, setResposta] = useState<string | null>(null);
   const [confianca, setConfianca] = useState<ConfidenceLevel | null>(null);
   const [acertou, setAcertou] = useState<boolean | null>(null);
-  const tempoInicioRef = useRef<number>(Date.now());
 
-  // Reinicia o cronômetro e estados a cada novo conceito
-  useEffect(() => {
+  // F-13/F-16: Reseta estados na troca de conceito durante o render (padrão React 19)
+  if (conceito.id !== prevConceitoId) {
+    setPrevConceitoId(conceito.id);
     setResposta(null);
     setConfianca(null);
     setAcertou(null);
+  }
+
+  // Pureza: inicializa ref com 0 e obtém timestamp real dentro do efeito
+  const tempoInicioRef = useRef<number>(0);
+
+  useEffect(() => {
     tempoInicioRef.current = Date.now();
   }, [conceito.id]);
 

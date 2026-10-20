@@ -197,15 +197,18 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
     return [];
   }, [etapa, leitnerDeck]);
 
-  // Tarefa A: Respostas do Portão são SEMPRE da sessão atual. Cada abertura inicia limpa sem seed
-  useEffect(() => {
+  // F-13/F-16: Respostas do Portão são SEMPRE da sessão atual. Cada abertura inicia limpa sem seed
+  const [prevEtapaKey, setPrevEtapaKey] = useState<string | null>(null);
+  const currentEtapaKey = isOpen ? `${etapaId}_open` : 'closed';
+  if (currentEtapaKey !== prevEtapaKey) {
+    setPrevEtapaKey(currentEtapaKey);
     if (isOpen) {
       setRespostas({});
       setCurrentIndex(0);
       setTentativaRecente(null);
       setFase('intro');
     }
-  }, [isOpen, etapaId]);
+  }
 
   if (!isOpen || !etapa) return null;
 
