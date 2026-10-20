@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import { createUserScopedStorage } from '../lib/userScopedStorage';
 import type { Concept, ConceptState, ConfidenceLevel, DominioEstado } from '../domain/concepts/types';
 import { conceptRepository } from '../domain/concepts/conceptRepository';
 import {
@@ -11,7 +12,7 @@ import {
 } from '../domain/scheduler/unifiedScheduler';
 import type { ExerciseFormatId } from '../config/reviewConfig';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { useAuthStore } from './useAuthStore';
+import { useAuthStore, registerSignOutListener } from './useAuthStore';
 
 export interface EstatisticasDominio {
   totalConceitos: number;
@@ -299,6 +300,13 @@ export const useConceptStore = create<ConceptStoreState>()(
     }),
     {
       name: 'hnc_concept_state_v1',
+      storage: createJSONStorage(() => createUserScopedStorage('hnc_concept_state_v1')),
     }
   )
 );
+
+// F-04: Ao fazer signOut, zera os estados de conceitos em memória e reidrata para o estado anônimo
+registerSignOutListener(async () => {
+  useConceptStore.getState().reset();
+  await useConceptStore.persist?.rehydrate?.();
+});

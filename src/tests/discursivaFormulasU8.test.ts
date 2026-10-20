@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import {
+  DISCURSIVA_FATORES,
   notaQuestao,
   notaPeca,
   notaFinalDiscursiva,
@@ -8,6 +9,20 @@ import {
 } from '../domain/discursiva/formulas';
 
 describe('U8.4 - Fórmulas Oficiais da Prova Discursiva (Edital nº 1/2026)', () => {
+  describe('DISCURSIVA_FATORES (Constantes Centralizadas F-11)', () => {
+    it('deve conter os fatores canônicos definidos no subitem 9.8.5 do edital', () => {
+      expect(DISCURSIVA_FATORES.QUESTAO.FATOR_DESCONTO).toBe(3);
+      expect(DISCURSIVA_FATORES.QUESTAO.NOTA_MAXIMA).toBe(15.0);
+      expect(DISCURSIVA_FATORES.QUESTAO.MAX_LINHAS).toBe(20);
+
+      expect(DISCURSIVA_FATORES.PECA_TECNICA.FATOR_DESCONTO).toBe(6);
+      expect(DISCURSIVA_FATORES.PECA_TECNICA.NOTA_MAXIMA).toBe(30.0);
+      expect(DISCURSIVA_FATORES.PECA_TECNICA.MAX_LINHAS).toBe(50);
+
+      expect(DISCURSIVA_FATORES.PROVA.NOTA_MAXIMA_TOTAL).toBe(60.0);
+      expect(DISCURSIVA_FATORES.PROVA.NOTA_MINIMA_APROVACAO).toBe(30.0);
+    });
+  });
   describe('notaQuestao (NQi = NCi − 3 × NEi ÷ TLi)', () => {
     it('deve calcular corretamente o caso de teste canônico: NC=12, NE=6, TL=20 → NQ=11.1', () => {
       // 12 - (3 * 6 / 20) = 12 - 0.9 = 11.1

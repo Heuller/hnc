@@ -1,27 +1,56 @@
 // Vercel Serverless Function: /api/dictionary
-// Integrates with Google Gemini API to define terms in the context of Cebraspe & Biblioteconomia
+import {
+  validateAuth,
+  checkRateLimit,
+  fetchWithTimeout,
+  sendApiError,
+  dictionarySchema,
+} from './_lib/guard';
+import { getGeminiGenerateContentUrl } from './_lib/model';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return sendApiError(res, 405, 'Método não permitido.', 'METHOD_NOT_ALLOWED');
   }
 
   res.setHeader('Cache-Control', 'no-store, max-age=0');
   res.setHeader('X-Content-Type-Options', 'nosniff');
 
-  const { termo, contexto } = req.body || {};
-
-  if (!termo || typeof termo !== 'string' || termo.trim().length === 0) {
-    return res.status(400).json({ error: 'Parâmetro "termo" é obrigatório' });
+  // 1. Validação de Autenticação (F-01.a)
+  const { auth, error: authError } = await validateAuth(req);
+  if (authError || !auth) {
+    return sendApiError(res, authError?.status || 401, authError?.message || 'Não autorizado.', authError?.code || 'UNAUTHORIZED');
   }
 
-  const termoLimpo = termo.trim().slice(0, 100);
-  const contextoLimpo = typeof contexto === 'string' ? contexto.trim().slice(0, 500) : '';
+  // 2. Limite de Taxa (F-01.b)
+  const rateLimit = await checkRateLimit(auth.userId, 'dictionary');
+  if (!rateLimit.allowed) {
+    if (rateLimit.retryAfterSeconds) {
+      res.setHeader('Retry-After', String(rateLimit.retryAfterSeconds));
+    }
+    return sendApiError(
+      res,
+      429,
+      'Limite de requisições excedido (20 consultas a cada 10 min). Aguarde antes de tentar novamente.',
+      'RATE_LIMIT_EXCEEDED'
+    );
+  }
+
+  // 3. Validação do Corpo com Zod (F-01.c)
+  const parseResult = dictionarySchema.safeParse(req.body);
+  if (!parseResult.success) {
+    const errorMsg = parseResult.error.issues[0]?.message || 'Dados inválidos.';
+    return sendApiError(res, 400, errorMsg, 'VALIDATION_ERROR');
+  }
+
+  const { termo, contexto } = parseResult.data;
+  const termoLimpo = termo.trim();
+  const contextoLimpo = contexto ? contexto.trim() : '';
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
   if (!apiKey) {
-    // Retorna resposta de fallback estruturada se a chave não estiver configurada no ambiente Vercel
+    // Retorno de fallback determinístico sinalizado (F-01 e F-06)
     return res.status(200).json({
       termo: termoLimpo,
       area: 'Biblioteconomia e Documentação',
@@ -30,6 +59,7 @@ export default async function handler(req: any, res: any) {
       aplicacaoCamara: `Na Câmara dos Deputados, aplica-se no tratamento dos recursos da Biblioteca Pedro Aleixo e na assessoria técnica ao processo legislativo.`,
       fonteReferencia: 'Dicionário de Biblioteconomia e Arquivologia (Cunha & Lemos) / Padrão Cebraspe.',
       modoDeterministico: true,
+      modo: 'offline',
     });
   }
 
@@ -55,9 +85,9 @@ Defina com rigor conceitual o termo técnico delimitado. Retorne ESTRITAMENTE um
 `;
 
   try {
-    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
+    const geminiUrl = getGeminiGenerateContentUrl();
 
-    const response = await fetch(geminiUrl, {
+    const response = await fetchWithTimeout(geminiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -74,19 +104,17 @@ Defina com rigor conceitual o termo técnico delimitado. Retorne ESTRITAMENTE um
           responseMimeType: 'application/json',
         },
       }),
-    });
+    }, 20000);
 
     if (!response.ok) {
-      const errText = await response.text();
-      console.error('[Gemini API Error]', errText);
-      throw new Error(`Gemini API returned status ${response.status}`);
+      throw new Error(`Serviço de IA respondeu com status ${response.status}`);
     }
 
     const data = await response.json();
     const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
 
     if (!rawText) {
-      throw new Error('Resposta vazia do modelo Gemini');
+      throw new Error('Resposta vazia do modelo de IA.');
     }
 
     const parsed = JSON.parse(rawText);
@@ -94,12 +122,14 @@ Defina com rigor conceitual o termo técnico delimitado. Retorne ESTRITAMENTE um
   } catch (error: any) {
     console.error('[Serverless Dictionary Error]', error?.message);
     return res.status(200).json({
-      termo,
+      termo: termoLimpo,
       area: 'Biblioteconomia e Ciência da Informação',
-      conceitoCanonico: `Termo técnico: "${termo}". Refere-se a elemento essencial do patrimônio bibliográfico, documental ou da teoria da informação para concursos públicos.`,
-      armadilhaCebraspe: `Em assertivas de Certo ou Errado do Cebraspe, fique atento a inversões entre o conceito de "${termo}" e seus correlatos.`,
-      aplicacaoCamara: `Subsidia a atividade parlamentar e o processamento técnico da Biblioteca da Câmara dos Deputados.`,
-      fonteReferencia: 'Dicionário de Biblioteconomia e Arquivologia / Padrão Cebraspe.',
+      conceitoCanonico: `Termo técnico: "${termoLimpo}". Refere-se a elemento essencial do patrimônio bibliográfico, documental ou da teoria da informação para concursos públicos.`,
+      armadilhaCebraspe: `Em assertivas de Certo ou Errado do Cebraspe, fique atento a inversões conceituais com termos correlatos.`,
+      aplicacaoCamara: `Aplicável na rotina dos setores de informação legislativa, indexação e atendimento ao cidadão.`,
+      fonteReferencia: 'Dicionário de Biblioteconomia e Arquivologia (Cunha & Lemos).',
+      modoDeterministico: true,
+      modo: 'offline',
     });
   }
 }

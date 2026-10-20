@@ -1,5 +1,6 @@
 import type { TemaDiscursiva, AvaliacaoCebraspe } from './types';
 import { notaQuestao, notaPeca } from './formulas';
+import { useAuthStore } from '../../store/useAuthStore';
 
 const STORAGE_AVALIACOES_KEY = 'hnc_discursiva_avaliacoes_v1';
 
@@ -48,9 +49,15 @@ export class DiscursivaService {
     const fatorDesconto = isPeca ? 6 : 3;
 
     try {
+      const session = useAuthStore.getState().session;
+      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+      if (session?.access_token) {
+        headers['Authorization'] = `Bearer ${session.access_token}`;
+      }
+
       const response = await fetch('/api/evaluate-discursiva', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers,
         body: JSON.stringify({
           titulo: tema.titulo,
           tipo: tema.tipo,

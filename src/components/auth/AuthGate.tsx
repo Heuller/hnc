@@ -12,7 +12,6 @@ import {
   ShieldCheck,
   Eye,
   EyeOff,
-  BookOpen,
 } from 'lucide-react';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
@@ -20,7 +19,6 @@ import { progressSyncService } from '../../services/progressSyncService';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { ThemeToggle } from '../layout/ThemeToggle';
-import { IllustrationLogin } from '../illustrations/ContextualIllustrations';
 
 export const AuthGate: React.FC = () => {
   const [tab, setTab] = useState<'login' | 'reset'>('login');
@@ -48,13 +46,33 @@ export const AuthGate: React.FC = () => {
     try {
       if (tab === 'login') {
         if (!isSupabaseConfigured) {
-          // Ambiente sem Supabase (offline / GitHub Pages sem secrets): login local imediato
+          // Regra V-06: Em produção sem variáveis do Supabase, recusa acesso a menos que VITE_ALLOW_LOCAL_MODE=true
+          const isDev = import.meta.env.DEV;
+          const allowLocal = import.meta.env.VITE_ALLOW_LOCAL_MODE === 'true';
+
+          if (!isDev && !allowLocal) {
+            console.error('[AuthGate] Supabase não configurado em ambiente de produção. Acesso negado.');
+            setErrorMsg('Serviço indisponível.');
+            setLoading(false);
+            return;
+          }
+
+          // Ambiente DEV ou com flag explícita VITE_ALLOW_LOCAL_MODE: gera ID único por navegador
           setSuccessMsg('Acesso autorizado (Modo Local)! Carregando dados...');
           const userEmail = resolveEmail(email);
           const userName = userEmail.split('@')[0];
+
+          let localUserId = localStorage.getItem('hnc_local_user_id');
+          if (!localUserId) {
+            localUserId = typeof crypto !== 'undefined' && crypto.randomUUID
+              ? crypto.randomUUID()
+              : `local-${Date.now()}`;
+            localStorage.setItem('hnc_local_user_id', localUserId);
+          }
+
           useAuthStore.setState({
             user: {
-              id: '00000000-0000-0000-0000-000000000001',
+              id: localUserId,
               email: userEmail,
               app_metadata: {},
               user_metadata: { name: userName },
@@ -113,237 +131,193 @@ export const AuthGate: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-theme-bg text-theme-ink flex flex-col justify-between font-sans selection:bg-accent/20 transition-colors">
-      {/* Barra Superior Discreta */}
-      <header className="w-full max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs shadow-editorial-sm select-none">
+    <div className="min-h-dvh bg-theme-bg text-theme-ink flex flex-col justify-between font-sans selection:bg-accent/20 transition-colors">
+      {/* Barra Superior Discreta e Neutra (Regra V-03) */}
+      <header className="w-full max-w-sm sm:max-w-md mx-auto px-4 h-14 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="w-7 h-7 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs shadow-editorial-sm select-none">
             HNC
           </div>
-          <div className="flex flex-col">
-            <span className="font-bold text-sm tracking-tight text-ink">
-              Heuller na Câmara
-            </span>
-            <span className="text-[10px] text-ink-2 font-mono leading-none">
-              Plataforma de Domínio Cebraspe
-            </span>
-          </div>
+          <span className="font-bold text-sm tracking-tight text-ink">
+            HNC
+          </span>
         </div>
 
         <ThemeToggle />
       </header>
 
-      {/* Conteúdo Central em 2 Colunas no Desktop */}
-      <main className="flex-1 flex items-center justify-center px-4 sm:px-6 py-6 md:py-10">
-        <div className="w-full max-w-5xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          
-          {/* Coluna Esquerda: Apresentação e Gravura Editorial */}
-          <motion.div
-            initial={{ opacity: 0, x: -16 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.4, ease: 'easeOut' }}
-            className="lg:col-span-6 flex flex-col items-center lg:items-start text-center lg:text-left space-y-4"
-          >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-2 border border-border text-[11px] font-mono font-medium text-ink-2">
-              <BookOpen className="w-3.5 h-3.5 text-accent" />
-              <span>Câmara dos Deputados · Bibliotecário</span>
+      {/* Conteúdo Central Neutro - Otimizado para caber sem rolagem em 360x740 (Regra V-03) */}
+      <main className="flex-1 flex items-center justify-center px-4 py-2 sm:py-6">
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, ease: 'easeOut' }}
+          className="w-full max-w-sm mx-auto"
+        >
+          <div className="rounded-2xl bg-surface border border-border shadow-editorial-lg p-5 sm:p-7 space-y-5">
+            {/* Cabeçalho do Cartão */}
+            <div className="text-center space-y-1.5">
+              <div className="w-10 h-10 rounded-xl bg-surface-2 border border-border text-accent flex items-center justify-center mx-auto shadow-editorial-sm">
+                <Lock className="w-4 h-4" />
+              </div>
+              <h1 className="text-lg sm:text-xl font-bold font-serif text-ink tracking-tight">
+                {tab === 'login' ? 'Acesso' : 'Recuperação de Acesso'}
+              </h1>
+              <p className="text-xs text-ink-2 leading-relaxed">
+                {tab === 'login'
+                  ? 'Identifique-se para continuar'
+                  : 'Digite seu e-mail para redefinir a chave de acesso'}
+              </p>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-ink tracking-tight leading-tight">
-              Plataforma de Preparação e Domínio Teórico
-            </h1>
+            {/* Alertas de Feedback Acessíveis */}
+            <AnimatePresence mode="wait">
+              {errorMsg && (
+                <motion.div
+                  role="alert"
+                  initial={{ opacity: 0, y: -4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  className="p-3 rounded-xl bg-err-soft border border-err/30 text-err text-xs flex items-start gap-2.5"
+                >
+                  <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+                  <span className="leading-snug">{errorMsg}</span>
+                </motion.div>
+              )}
 
-            <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-lg">
-              Estudo estruturado por domínio de conhecimento, portais de retenção cumulativa e fator de correção Cebraspe (uma errada anula uma certa).
-            </p>
+              {successMsg && (
+                <motion.div
+                  role="status"
+                  initial={{ opacity: 0, y: -4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  className="p-3 rounded-xl bg-ok-soft border border-ok/30 text-ok text-xs flex items-start gap-2.5"
+                >
+                  <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
+                  <span className="leading-snug">{successMsg}</span>
+                </motion.div>
+              )}
+            </AnimatePresence>
 
-            {/* Ilustração Ex-Libris */}
-            <div className="w-full max-w-xs sm:max-w-sm lg:max-w-md pt-2 text-accent/80 dark:text-accent/70">
-              <IllustrationLogin className="w-full h-auto drop-shadow-sm" />
-            </div>
-
-            <p className="text-[11px] font-sans text-ink-2/70 hidden sm:block">
-              Lema: O domínio do método supera a armadilha do examinador.
-            </p>
-          </motion.div>
-
-          {/* Coluna Direita: Cartão de Autenticação */}
-          <motion.div
-            initial={{ opacity: 0, x: 16 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.4, ease: 'easeOut', delay: 0.1 }}
-            className="lg:col-span-6 w-full max-w-md mx-auto"
-          >
-            <div className="rounded-2xl bg-surface border border-border shadow-editorial-lg p-6 sm:p-8 space-y-6">
-              {/* Cabeçalho do Cartão */}
-              <div className="text-center space-y-2">
-                <div className="w-12 h-12 rounded-xl bg-surface-2 border border-border text-accent flex items-center justify-center mx-auto shadow-editorial-sm">
-                  <Lock className="w-5 h-5" />
+            {/* Formulário de Login / Reset com Placeholders Genéricos (Regra V-04) */}
+            <form onSubmit={handleSubmit} className="space-y-3.5">
+              <div>
+                <label htmlFor="auth-identifier" className="block text-xs font-semibold text-ink-2 mb-1">
+                  {tab === 'login' ? 'Usuário ou e-mail' : 'E-mail cadastrado'}
+                </label>
+                <div className="relative">
+                  <User className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5 pointer-events-none" />
+                  <input
+                    id="auth-identifier"
+                    type={tab === 'login' ? 'text' : 'email'}
+                    required
+                    autoComplete={tab === 'login' ? 'username' : 'email'}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Usuário ou e-mail"
+                    className="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                  />
                 </div>
-                <h2 className="text-xl font-bold font-serif text-ink tracking-tight">
-                  {tab === 'login' ? 'Acesso à Plataforma de Estudos' : 'Recuperação de Acesso'}
-                </h2>
-                <p className="text-xs text-ink-2 leading-relaxed max-w-xs mx-auto">
-                  {tab === 'login'
-                    ? 'Identifique-se com suas credenciais autorizadas'
-                    : 'Digite seu e-mail cadastrado para redefinir a chave de acesso'}
-                </p>
               </div>
 
-              {/* Alertas de Feedback Acessíveis */}
-              <AnimatePresence mode="wait">
-                {errorMsg && (
-                  <motion.div
-                    role="alert"
-                    initial={{ opacity: 0, y: -6 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -6 }}
-                    className="p-3.5 rounded-xl bg-err-soft border border-err/30 text-err text-xs flex items-start gap-2.5"
-                  >
-                    <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-                    <span className="leading-snug">{errorMsg}</span>
-                  </motion.div>
-                )}
-
-                {successMsg && (
-                  <motion.div
-                    role="status"
-                    initial={{ opacity: 0, y: -6 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -6 }}
-                    className="p-3.5 rounded-xl bg-ok-soft border border-ok/30 text-ok text-xs flex items-start gap-2.5"
-                  >
-                    <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
-                    <span className="leading-snug">{successMsg}</span>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-
-              {/* Formulário de Login / Reset */}
-              <form onSubmit={handleSubmit} className="space-y-4">
+              {tab === 'login' && (
                 <div>
-                  <label htmlFor="auth-identifier" className="block text-xs font-semibold text-ink-2 mb-1.5">
-                    {tab === 'login' ? 'Usuário ou E-mail' : 'E-mail cadastrado'}
-                  </label>
-                  <div className="relative">
-                    <User className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3 pointer-events-none" />
-                    <input
-                      id="auth-identifier"
-                      type={tab === 'login' ? 'text' : 'email'}
-                      required
-                      autoComplete={tab === 'login' ? 'username' : 'email'}
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder={tab === 'login' ? 'teste ou seu-email@exemplo.com' : 'seu-email@exemplo.com'}
-                      className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
-                    />
-                  </div>
-                </div>
-
-                {tab === 'login' && (
-                  <div>
-                    <div className="flex items-center justify-between mb-1.5">
-                      <label htmlFor="auth-password" className="text-xs font-semibold text-ink-2">
-                        Senha
-                      </label>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setTab('reset');
-                          setErrorMsg(null);
-                          setSuccessMsg(null);
-                        }}
-                        className="text-[11px] text-accent hover:underline cursor-pointer focus:outline-hidden focus:underline"
-                      >
-                        Esqueceu a senha?
-                      </button>
-                    </div>
-                    <div className="relative">
-                      <KeyRound className="w-4 h-4 text-ink-2/60 absolute left-3.5 top-3 pointer-events-none" />
-                      <input
-                        id="auth-password"
-                        type={showPassword ? 'text' : 'password'}
-                        required
-                        autoComplete="current-password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        placeholder="Sua senha"
-                        className="w-full pl-10 pr-10 py-2.5 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowPassword(!showPassword)}
-                        aria-label={showPassword ? 'Ocultar senha' : 'Exibir senha'}
-                        className="absolute right-3 top-2.5 p-0.5 text-ink-2 hover:text-ink cursor-pointer focus:outline-hidden"
-                      >
-                        {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                      </button>
-                    </div>
-                  </div>
-                )}
-
-                <div className="pt-2">
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="w-full py-3 rounded-xl bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-all disabled:opacity-50 cursor-pointer shadow-editorial-md focus:outline-hidden focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                  >
-                    {loading ? (
-                      <>
-                        <Loader2 className="w-4 h-4 animate-spin" />
-                        <span>Verificando credenciais...</span>
-                      </>
-                    ) : tab === 'login' ? (
-                      <>
-                        <LogIn className="w-4 h-4" />
-                        <span>Entrar na Plataforma</span>
-                      </>
-                    ) : (
-                      <>
-                        <Mail className="w-4 h-4" />
-                        <span>Enviar Link de Recuperação</span>
-                      </>
-                    )}
-                  </button>
-                </div>
-
-                {tab === 'reset' && (
-                  <div className="text-center pt-1">
+                  <div className="flex items-center justify-between mb-1">
+                    <label htmlFor="auth-password" className="text-xs font-semibold text-ink-2">
+                      Senha
+                    </label>
                     <button
                       type="button"
                       onClick={() => {
-                        setTab('login');
+                        setTab('reset');
                         setErrorMsg(null);
                         setSuccessMsg(null);
                       }}
-                      className="text-xs text-ink-2 hover:text-ink underline cursor-pointer"
+                      className="text-[11px] text-accent hover:underline cursor-pointer focus:outline-hidden focus:underline"
                     >
-                      Voltar para o Login
+                      Esqueceu a senha?
                     </button>
                   </div>
-                )}
-              </form>
-
-              {/* Destaque de Segurança */}
-              <div className="pt-4 border-t border-border/60">
-                <div className="flex items-center gap-2.5 text-[11px] text-ink-2 bg-surface-2 p-3 rounded-xl border border-border">
-                  <ShieldCheck className="w-4 h-4 text-accent shrink-0" />
-                  <span>
-                    Acesso exclusivo · Sessão criptografada e autenticada
-                  </span>
+                  <div className="relative">
+                    <KeyRound className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5 pointer-events-none" />
+                    <input
+                      id="auth-password"
+                      type={showPassword ? 'text' : 'password'}
+                      required
+                      autoComplete="current-password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="Sua senha"
+                      className="w-full pl-9 pr-9 py-2 text-xs rounded-xl bg-surface border border-border text-ink placeholder:text-ink-2/40 focus:border-accent focus:ring-1 focus:ring-accent focus:outline-hidden transition-all"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      aria-label={showPassword ? 'Ocultar senha' : 'Exibir senha'}
+                      className="absolute right-2.5 top-2 p-0.5 text-ink-2 hover:text-ink cursor-pointer focus:outline-hidden"
+                    >
+                      {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                    </button>
+                  </div>
                 </div>
+              )}
+
+              <div className="pt-1.5">
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full py-2.5 rounded-xl bg-primary hover:opacity-95 text-primary-text font-bold text-xs flex items-center justify-center gap-2 transition-all disabled:opacity-50 cursor-pointer shadow-editorial-md focus:outline-hidden focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                >
+                  {loading ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      <span>Verificando...</span>
+                    </>
+                  ) : tab === 'login' ? (
+                    <>
+                      <LogIn className="w-4 h-4" />
+                      <span>Entrar</span>
+                    </>
+                  ) : (
+                    <>
+                      <Mail className="w-4 h-4" />
+                      <span>Recuperar Acesso</span>
+                    </>
+                  )}
+                </button>
+              </div>
+
+              {tab === 'reset' && (
+                <div className="text-center pt-1">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setTab('login');
+                      setErrorMsg(null);
+                      setSuccessMsg(null);
+                    }}
+                    className="text-xs text-ink-2 hover:text-ink underline cursor-pointer"
+                  >
+                    Voltar para o Login
+                  </button>
+                </div>
+              )}
+            </form>
+
+            {/* Destaque de Segurança Neutro */}
+            <div className="pt-2.5 border-t border-border/60">
+              <div className="flex items-center gap-2 text-[11px] text-ink-2 justify-center">
+                <ShieldCheck className="w-3.5 h-3.5 text-accent shrink-0" />
+                <span>Sessão autenticada e protegida</span>
               </div>
             </div>
-          </motion.div>
-
-        </div>
+          </div>
+        </motion.div>
       </main>
 
-      {/* Rodapé Editorial */}
-      <footer className="w-full max-w-6xl mx-auto px-4 py-4 text-center text-[11px] text-ink-2/70 border-t border-border/40">
-        <p>
-          Heuller na Câmara · Plataforma Pessoal de Alta Performance · Metodologia Cebraspe
-        </p>
+      {/* Rodapé Discreto e Neutro */}
+      <footer className="w-full max-w-sm sm:max-w-md mx-auto px-4 py-2.5 text-center text-[11px] text-ink-2/60">
+        <p>HNC</p>
       </footer>
     </div>
   );

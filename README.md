@@ -99,7 +99,7 @@ npm test
 - `leitner.test.ts`: Repetição espaçada e caixas de retenção.
 - `cadernoErros.test.ts`: Catalogação e diagnóstico de falhas.
 - `contentIntegrity.test.ts`: Integridade de todos os 10 módulos de Biblioteconomia.
-- `discursiva.test.ts`: Fórmula oficial Cebraspe ($NC = NC_P - 2 \times \frac{NE}{TL}$).
+- `discursiva.test.ts`: Fórmulas oficiais Cebraspe do Edital nº 1/2026 ($NQ_i = NC_i - 3 \times \frac{NE_i}{TL_i}$ para questões e $NPT = NC - 6 \times \frac{NE}{TL}$ para a peça técnica).
 - `socratic.test.ts`: Parecer canônico e réplicas da banca Cebraspe.
 - `adaptiveQuiz.test.ts`: Diagnóstico de fraquezas e fórmula líquida ($Nota = C - E$).
 - `dicionario.test.ts`: Busca sem acentos, base Cunha & Lemos e Meu Baralho.

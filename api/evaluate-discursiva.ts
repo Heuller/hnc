@@ -1,34 +1,59 @@
 // Vercel Serverless Function: /api/evaluate-discursiva
-// Evaluates discursiva essays strictly using Cebraspe formula: NC = NCP - 2 * (NE / TL)
+import {
+  validateAuth,
+  checkRateLimit,
+  fetchWithTimeout,
+  sendApiError,
+  evaluateDiscursivaSchema,
+} from './_lib/guard';
+import { getGeminiGenerateContentUrl } from './_lib/model';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return sendApiError(res, 405, 'Método não permitido.', 'METHOD_NOT_ALLOWED');
   }
 
   res.setHeader('Cache-Control', 'no-store, max-age=0');
   res.setHeader('X-Content-Type-Options', 'nosniff');
 
+  // 1. Validação de Autenticação (F-01.a)
+  const { auth, error: authError } = await validateAuth(req);
+  if (authError || !auth) {
+    return sendApiError(res, authError?.status || 401, authError?.message || 'Não autorizado.', authError?.code || 'UNAUTHORIZED');
+  }
+
+  // 2. Limite de Taxa (F-01.b)
+  const rateLimit = await checkRateLimit(auth.userId, 'evaluate-discursiva');
+  if (!rateLimit.allowed) {
+    if (rateLimit.retryAfterSeconds) {
+      res.setHeader('Retry-After', String(rateLimit.retryAfterSeconds));
+    }
+    return sendApiError(
+      res,
+      429,
+      'Limite de requisições excedido. Aguarde antes de submeter uma nova correção.',
+      'RATE_LIMIT_EXCEEDED'
+    );
+  }
+
+  // 3. Validação do Corpo com Zod (F-01.c)
+  const parseResult = evaluateDiscursivaSchema.safeParse(req.body);
+  if (!parseResult.success) {
+    const errorMsg = parseResult.error.issues[0]?.message || 'Parâmetros inválidos.';
+    return sendApiError(res, 400, errorMsg, 'VALIDATION_ERROR');
+  }
+
   const {
     titulo,
     tipo,
     enunciado,
-    limiteLinhas,
     padraoResposta,
     criteriosPontuacao,
     textoCandidato,
     linhasEstimadas,
-  } = req.body || {};
+  } = parseResult.data;
 
-  if (!textoCandidato || typeof textoCandidato !== 'string' || textoCandidato.trim().length < 50) {
-    return res.status(400).json({ error: 'Texto da redação insuficiente para correção (mínimo 50 caracteres).' });
-  }
-
-  if (textoCandidato.length > 6000) {
-    return res.status(400).json({ error: 'Texto da redação excede o limite máximo permitido (6.000 caracteres).' });
-  }
-
-  const totalLinhas = Math.min(60, Math.max(1, Number(linhasEstimadas) || Math.ceil(textoCandidato.length / 70)));
+  const totalLinhas = Math.min(60, Math.max(10, Number(linhasEstimadas) || Math.ceil(textoCandidato.length / 70)));
   const isPeca = tipo === 'peca_50';
   const notaMaximaGeral = isPeca ? 30.0 : 15.0;
   const fatorDesconto = isPeca ? 6 : 3;
@@ -36,7 +61,7 @@ export default async function handler(req: any, res: any) {
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
   if (!apiKey) {
-    // Retorno de fallback consistente caso a chave não esteja configurada no ambiente
+    // Retorno de fallback determinístico quando sem chave configurada (F-01)
     const notaConteudoBase = Number((notaMaximaGeral * 0.78).toFixed(2));
     const neFallback = 2;
     const desconto = Number((fatorDesconto * (neFallback / totalLinhas)).toFixed(2));
@@ -58,121 +83,100 @@ export default async function handler(req: any, res: any) {
       descontoGramatical: desconto,
       notaFinal,
       formulaAplicada,
-      situacao: notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO',
-      criterios: [
+      parecerMacroestrutural:
+        'Avaliação local em modo determinístico: o texto demonstra estrutura formal adequada e atende aos elementos solicitados no padrão preliminar.',
+      itensConteudoAvaliados: (criteriosPontuacao || []).map((crit: any, idx: number) => ({
+        criterioId: crit.criterioId || `crit-${idx + 1}`,
+        descricao: crit.descricao || 'Atendimento ao aspecto teórico do tema',
+        notaAtribuida: Number(((crit.notaMaxima || 5) * 0.8).toFixed(2)),
+        notaMaxima: crit.notaMaxima || 5,
+        justificativa:
+          'Abordagem satisfatória dos preceitos fundamentais da questão discursiva com encadeamento lógico adequado.',
+      })),
+      errosGramaticaisIdentificados: [
         {
-          item: 'Domínio Técnico do Tema e Adequação ao Padrão',
-          notaObtida: Number((notaConteudoBase * 0.55).toFixed(2)),
-          notaMaxima: Number((notaMaximaGeral * 0.55).toFixed(2)),
-          parecer: 'O texto demonstra compreensão adequada dos conceitos centrais requeridos no padrão preliminar.',
-        },
-        {
-          item: 'Estruturação Lógica e Progressão Textual',
-          notaObtida: Number((notaConteudoBase * 0.45).toFixed(2)),
-          notaMaxima: Number((notaMaximaGeral * 0.45).toFixed(2)),
-          parecer: 'Paragrafação organizada com transição harmônica entre os tópicos.',
-        },
-      ],
-      errosGramaticais: [
-        {
-          linha: 3,
-          trecho: 'observa-se no entanto que',
-          correcao: 'observa-se, no entanto, que',
-          explicacao: 'Conjunção adversativa intercalada deve vir isolada por vírgulas.',
           tipo: 'pontuacao',
+          trecho: 'no entanto o bibliotecário',
+          sugestao: 'no entanto, o bibliotecário',
+          explicacao: 'Conjunção adversativa deslocada exige isolamento por vírgulas.',
+          linhaAproximada: 5,
         },
       ],
       pontosFortes: [
-        'Vocabulário formal e assertivo compatível com o padrão culto exigido pela banca.',
-        'Respeito aos limites espaciais da folha de resposta.',
+        'Vocabulário técnico apropriado aos padrões da Ciência da Informação.',
+        'Divisão parágrafo a parágrafo correspondente aos quesitos solicitados pela banca.',
       ],
-      lacunasIdentificadas: [
-        'Aprofundar a citação dos marcos normativos e autores canônicos para atingir a nota máxima de conteúdo.',
+      pontosMelhoria: [
+        'Aprofundar a fundamentação com citação de normas canônicas vigentes (ABNT/RDA).',
+        'Atenção ao rigor na pontuação de orações subordinadas e conectivos.',
       ],
-      parecerGeralExaminador:
-        'Texto com boa densidade técnica e clareza argumentativa. Recomenda-se maior rigor na pontuação de orações intercaladas e explicitação de referências normativas específicas da Câmara dos Deputados.',
+      modoDeterministico: true,
+      modo: 'offline',
     });
   }
 
   const prompt = `
-Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) responsável pela correção da Prova Discursiva do Concurso da Câmara dos Deputados para o cargo de Analista Legislativo - Área Biblioteconomia.
-Seu perfil é estritamente técnico, rigoroso, focado no padrão de resposta preliminar e na aplicação exata dos critérios de correção da banca.
+Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) responsável pela correção da Prova Discursiva (P3) do Concurso Público da Câmara dos Deputados para o cargo de Analista Legislativo - Bibliotecário (Edital nº 1/2026).
 
-CRITÉRIOS OFICIAIS CEBRASPE (EDITAL Nº 1/2026, ITENS 9.8.5.1 E 9.8.5.2):
-1. NOTA DE CONTEÚDO (NCP): Atribuída exclusivamente com base nos tópicos do Padrão de Resposta Preliminar e critérios fornecidos. A soma máxima dos quesitos de conteúdo é ${notaMaximaGeral} pontos (${isPeca ? 'até 30,00 pontos para Peça Técnica' : 'até 15,00 pontos para Questão Discursiva'}).
-2. NÚMERO DE ERROS (NE): Erros de Língua Portuguesa (ortografia, acentuação, pontuação, concordância verbal/nominal, regência verbal/nominal, propriedade vocabular e estrutura morfossintática). Cada desvio deve ser contabilizado individualmente.
-3. TOTAL DE LINHAS ESCRITAS (TL): Considerar o valor informado de ${totalLinhas} linhas (ou a contagem efetiva de linhas do texto).
-4. FÓRMULA OFICIAL CEBRASPE DA NOTA (Edital nº 1/2026, subitens 9.8.5.1 e 9.8.5.2):
-   ${isPeca ? 'NPT = NC - 6 × (NE / TL)' : 'NQ = NC - 3 × (NE / TL)'}
-   Se o resultado for inferior a 0, a nota final será 0.
-   Nota de corte de aprovação na questão: 50% da nota máxima (mínimo de ${(notaMaximaGeral * 0.5).toFixed(1)} pontos).
+SUA MISSÃO: Corrigir a resposta discursiva do candidato com o máximo rigor técnico, acadêmico e gramatical característico do Cebraspe.
 
 DADOS DA QUESTÃO:
-- TÍTULO: ${titulo}
-- TIPO: ${isPeca ? 'Peça Técnica (até 50 linhas - 30 pts)' : 'Questão Discursiva (até 20 linhas - 15 pts)'}
-- LIMITE DE LINHAS: ${limiteLinhas}
-- ENUNCIADO:
-${enunciado}
+- Tema / Título: "${titulo || 'Tema Técnico da Biblioteconomia'}"
+- Modalidade: ${isPeca ? 'Estudo de Caso / Peça Técnica (máximo 50 linhas, valor 30,00 pontos)' : 'Questão Discursiva Específica (máximo 20 linhas, valor 15,00 pontos)'}
+- Enunciado da Prova:
+"""
+${enunciado || 'Desenvolva o tema conforme os padrões da literatura canônica de Biblioteconomia.'}
+"""
 
-- PADRÃO DE RESPOSTA PRELIMINAR DA BANCA:
-${padraoResposta || 'Avaliar exatidão conceitual, citação de marcos canônicos de Biblioteconomia e normas pertinentes.'}
+- Padrão de Resposta Esperado da Banca (Espelho):
+"""
+${padraoResposta || 'Apresentação fundamentada dos conceitos essenciais do tema.'}
+"""
 
-- QUESITOS DE PONTUAÇÃO ESPERADOS:
+- Critérios de Pontuação Macroestrutural:
 ${JSON.stringify(criteriosPontuacao || [], null, 2)}
 
-- TEXTO EFETIVAMENTE ESCRITO PELO CANDIDATO:
+RESPOSTA DO CANDIDATO PARA AVALIAÇÃO:
 """
 ${textoCandidato}
 """
+- Linhas Estimadas: ${totalLinhas} linhas (limite máximo de ${isPeca ? 50 : 20} linhas).
 
-INSTRUÇÕES DE RESPOSTA:
-Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo fora do JSON) com o seguinte esquema:
+FORMULAÇÃO DE NOTA DO EDITAL Nº 1/2026:
+- Nota de Conteúdo (NC): soma das notas atribuídas em cada critério de conteúdo, até o limite de ${notaMaximaGeral.toFixed(2)} pontos.
+- Desconto Gramatical: ${isPeca ? '6 × (NE / TL)' : '3 × (NE / TL)'}, em que NE = número de erros gramaticais e TL = total de linhas efetivamente escritas (${totalLinhas}).
+- Nota Final: NC - Desconto Gramatical (mínimo 0,00).
+
+Retorne ESTRITAMENTE um objeto JSON válido com a seguinte estrutura:
 {
-  "totalLinhas": ${totalLinhas},
-  "notaConteudo": number (soma das notas de cada critério do padrão preliminar, máx ${notaMaximaGeral}),
-  "notaConteudoMaxima": ${notaMaximaGeral},
-  "numErrosGramaticais": number (quantidade exata de erros de língua portuguesa identificados),
-  "descontoGramatical": number (valor calculado de ${fatorDesconto} * (NE / TL), arredondado para 2 casas decimais),
-  "notaFinal": number (NCP - descontoGramatical, mínimo 0, arredondado para 2 casas decimais),
-  "formulaAplicada": "${isPeca ? 'NPT = NC - 6 × (NE / TL)' : 'NQ = NC - 3 × (NE / TL)'} = ...",
-  "situacao": "HABILITADO" ou "ELIMINADO",
-  "criterios": [
+  "parecerMacroestrutural": "Parecer geral formal e detalhado da banca sobre a resposta do candidato.",
+  "itensConteudoAvaliados": [
     {
-      "item": "Nome do critério/quesito avaliado",
-      "notaObtida": number,
-      "notaMaxima": number,
-      "parecer": "Justificativa analítica fundamentada no texto do candidato e no padrão de resposta."
+      "criterioId": "string identificadora",
+      "descricao": "descrição do aspecto avaliado",
+      "notaAtribuida": 0.00,
+      "notaMaxima": 0.00,
+      "justificativa": "justificativa detalhada da nota neste critério"
     }
   ],
-  "errosGramaticais": [
+  "errosGramaticaisIdentificados": [
     {
-      "linha": number (número aproximado da linha onde ocorreu o erro, 1 a ${totalLinhas}),
+      "tipo": "grafia|concordancia|regencia|pontuacao|clareza",
       "trecho": "trecho exato com erro",
-      "correcao": "como deveria ter sido escrito",
+      "sugestao": "forma corrigida",
       "explicacao": "regra gramatical violada",
-      "tipo": "concordancia" | "regencia" | "pontuacao" | "ortografia" | "morfossintaxe" | "outro"
+      "linhaAproximada": 1
     }
   ],
-  "pontosFortes": [
-    "Ponto forte 1",
-    "Ponto forte 2"
-  ],
-  "lacunasIdentificadas": [
-    "Lacuna de conceito canônico ou dispositivo legal não mencionado que custou pontos"
-  ],
-  "sugestaoReescritaParagrafo": {
-    "original": "Parágrafo do candidato que teve maior perda de pontos ou problemas de clareza",
-    "sugerido": "Reescrita modelo padrão ouro Cebraspe no padrão formal da Câmara dos Deputados",
-    "justificativa": "Por que esta reescrita atende com excelência à banca"
-  },
-  "parecerGeralExaminador": "Parecer geral conclusivo da banca sobre a maturidade e prontidão do candidato para o cargo."
+  "pontosFortes": ["ponto 1", "ponto 2"],
+  "pontosMelhoria": ["ponto 1", "ponto 2"]
 }
 `;
 
   try {
-    const geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+    const geminiUrl = getGeminiGenerateContentUrl();
 
-    const response = await fetch(geminiUrl, {
+    const response = await fetchWithTimeout(geminiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -181,90 +185,57 @@ Retorne ESTRITAMENTE um objeto JSON válido (sem tags adicionais, sem preâmbulo
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
         generationConfig: {
-          temperature: 0.15,
+          temperature: 0.1,
           responseMimeType: 'application/json',
         },
       }),
-    });
+    }, 20000);
 
     if (!response.ok) {
-      const errText = await response.text();
-      console.error('[Gemini Discursiva Error]', errText);
-      throw new Error(`Gemini API returned status ${response.status}`);
+      throw new Error(`Gemini status ${response.status}`);
     }
 
     const data = await response.json();
     const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-
-    if (!rawText) {
-      throw new Error('Resposta vazia da IA de correção discursiva');
-    }
+    if (!rawText) throw new Error('Resposta vazia');
 
     const parsed = JSON.parse(rawText);
-    parsed.id = `eval-${Date.now()}`;
-    parsed.dataAvaliacao = new Date().toISOString();
-    parsed.temaId = titulo;
-    parsed.tipo = tipo;
 
-    return res.status(200).json(parsed);
-  } catch (error: any) {
-    console.error('[Serverless Discursiva Error]', error?.message);
+    // Calcula notas oficiais com fórmulas do edital
+    const itens = parsed.itensConteudoAvaliados || [];
+    const notaConteudoCalculada = itens.reduce((acc: number, it: any) => acc + (Number(it.notaAtribuida) || 0), 0);
+    const notaConteudoFinal = Math.min(notaMaximaGeral, Math.max(0, Number(notaConteudoCalculada.toFixed(2))));
 
-    // Fallback gracioso com cálculo da fórmula
-    const notaConteudoFallback = Number((notaMaximaGeral * 0.75).toFixed(2));
-    const neFallback = 3;
-    const desconto = Number((fatorDesconto * (neFallback / totalLinhas)).toFixed(2));
-    const notaFinal = Math.max(0, Number((notaConteudoFallback - desconto).toFixed(2)));
+    const erros = parsed.errosGramaticaisIdentificados || [];
+    const numErros = erros.length;
+    const descontoGramatical = Number((fatorDesconto * (numErros / totalLinhas)).toFixed(2));
+    const notaFinalCalculada = Math.max(0, Number((notaConteudoFinal - descontoGramatical).toFixed(2)));
 
-    const formulaFallback = isPeca
-      ? `NPT = NC - 6 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.2)`
-      : `NQ = NC - 3 × (${neFallback} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.1)`;
+    const formulaAplicada = isPeca
+      ? `NPT = NC - 6 × (${numErros} / ${totalLinhas}) = ${notaFinalCalculada} (Edital nº 1/2026, item 9.8.5.2)`
+      : `NQ = NC - 3 × (${numErros} / ${totalLinhas}) = ${notaFinalCalculada} (Edital nº 1/2026, item 9.8.5.1)`;
 
     return res.status(200).json({
       id: `eval-${Date.now()}`,
       dataAvaliacao: new Date().toISOString(),
-      temaId: titulo,
-      tipo: tipo || 'questao_20',
+      temaId: titulo || 'avaliacao-oficial',
+      tipo,
       totalLinhas,
-      notaConteudo: notaConteudoFallback,
+      notaConteudo: notaConteudoFinal,
       notaConteudoMaxima: notaMaximaGeral,
-      numErrosGramaticais: neFallback,
-      descontoGramatical: desconto,
-      notaFinal,
-      formulaAplicada: formulaFallback,
-      situacao: notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO',
-      criterios: [
-        {
-          item: 'Adequação ao Padrão de Resposta Preliminar',
-          notaObtida: Number((notaConteudoFallback * 0.6).toFixed(2)),
-          notaMaxima: Number((notaMaximaGeral * 0.6).toFixed(2)),
-          parecer: 'O candidato abordou os tópicos centrais com terminologia adequada.',
-        },
-        {
-          item: 'Clareza, Coesão e Progressão Temática',
-          notaObtida: Number((notaConteudoFallback * 0.4).toFixed(2)),
-          notaMaxima: Number((notaMaximaGeral * 0.4).toFixed(2)),
-          parecer: 'Estruturação coerente das ideias e parágrafos bem delimitados.',
-        },
-      ],
-      errosGramaticais: [
-        {
-          linha: 2,
-          trecho: 'de acordo com o que se observa',
-          correcao: 'conforme se observa',
-          explicacao: 'Construção concisa recomendada pelo Manual de Redação da Presidência da República.',
-          tipo: 'morfossintaxe',
-        },
-      ],
-      pontosFortes: [
-        'Boa fluidez e aderência à norma culta da Língua Portuguesa.',
-        'Respeito aos limites formais de extensão de linhas.',
-      ],
-      lacunasIdentificadas: [
-        'Articular com maior ênfase as implicações práticas para a biblioteca parlamentar da Câmara.',
-      ],
-      parecerGeralExaminador:
-        'Texto consistente e promissor. Para alcançar a faixa dos 90% da nota, explicite os marcos regulatórios e a literatura canônica pertinente.',
+      numErrosGramaticais: numErros,
+      descontoGramatical,
+      notaFinal: notaFinalCalculada,
+      formulaAplicada,
+      parecerMacroestrutural: parsed.parecerMacroestrutural,
+      itensConteudoAvaliados: itens,
+      errosGramaticaisIdentificados: erros,
+      pontosFortes: parsed.pontosFortes || [],
+      pontosMelhoria: parsed.pontosMelhoria || [],
+      modo: 'online',
     });
+  } catch (error: any) {
+    console.error('[Evaluate Discursiva Error]', error?.message);
+    return sendApiError(res, 500, 'Falha ao processar avaliação discursiva.', 'EVALUATION_FAILED');
   }
 }

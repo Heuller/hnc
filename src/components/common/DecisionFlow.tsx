@@ -37,7 +37,7 @@ function parseDecisionCode(raw: string): DecisionNode[] {
     const colonIdx = line.indexOf(':');
     if (colonIdx === -1) continue;
 
-    const typeStr = line.slice(0, colonIdx).trim().toUpperCase();
+    const typeStr = line.slice(0, colonIdx).trim().toLowerCase();
     const rest = line.slice(colonIdx + 1).trim();
     const parts = rest.split('|').map((p) => p.trim());
 
@@ -95,6 +95,61 @@ const LABEL_COLORS: Record<DecisionNode['type'], string> = {
   end: 'bg-indigo-500 text-white',
 };
 
+// F-14: Subcomponentes extraídos para o escopo do módulo para evitar re-montagens
+interface NodeBoxProps {
+  node: DecisionNode;
+  isQuestion?: boolean;
+}
+
+export const NodeBox: React.FC<NodeBoxProps> = ({ node, isQuestion = false }) => (
+  <div className={`relative px-2.5 sm:px-4 py-2.5 sm:py-3 rounded-xl shadow-sm text-center w-full min-w-0 break-words ${NODE_STYLES[node.type]}`}>
+    <span
+      className={`
+        absolute -top-2.5 left-1/2 -translate-x-1/2
+        text-[9px] font-bold uppercase tracking-widest
+        px-2 py-0.5 rounded-full whitespace-nowrap
+        ${LABEL_COLORS[node.type]}
+      `}
+    >
+      {LABEL_MAP[node.type]}
+    </span>
+    <p
+      className={`text-xs ${isQuestion ? 'font-bold' : 'font-medium'} leading-snug mt-1 break-words`}
+      style={{ overflowWrap: 'anywhere' }}
+    >
+      {node.label}
+    </p>
+    {node.detail && (
+      <p
+        className="text-[10px] opacity-70 mt-1 leading-snug break-words"
+        style={{ overflowWrap: 'anywhere' }}
+      >
+        {node.detail}
+      </p>
+    )}
+  </div>
+);
+
+interface ArrowProps {
+  label?: string;
+  color?: string;
+}
+
+export const Arrow: React.FC<ArrowProps> = ({
+  label,
+  color = 'text-slate-400 dark:text-slate-500',
+}) => (
+  <div className={`flex flex-col items-center py-1 ${color}`}>
+    <div className="w-px h-4 bg-current opacity-40" />
+    {label && (
+      <span className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-current/10">
+        {label}
+      </span>
+    )}
+    <ArrowDown className="w-4 h-4 mt-0.5" />
+  </div>
+);
+
 export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = '' }) => {
   const nodes = useMemo(() => parseDecisionCode(code), [code]);
 
@@ -108,53 +163,6 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
   const noNode = nodes.find((n) => n.type === 'no');
   const yesResultNode = nodes.find((n) => n.type === 'yes_result');
   const noResultNode = nodes.find((n) => n.type === 'no_result');
-
-  const NodeBox: React.FC<{ node: DecisionNode; isQuestion?: boolean }> = ({
-    node,
-    isQuestion = false,
-  }) => (
-    <div className={`relative px-2.5 sm:px-4 py-2.5 sm:py-3 rounded-xl shadow-sm text-center w-full min-w-0 break-words ${NODE_STYLES[node.type]}`}>
-      <span
-        className={`
-          absolute -top-2.5 left-1/2 -translate-x-1/2
-          text-[9px] font-bold uppercase tracking-widest
-          px-2 py-0.5 rounded-full whitespace-nowrap
-          ${LABEL_COLORS[node.type]}
-        `}
-      >
-        {LABEL_MAP[node.type]}
-      </span>
-      <p
-        className={`text-xs ${isQuestion ? 'font-bold' : 'font-medium'} leading-snug mt-1 break-words`}
-        style={{ overflowWrap: 'anywhere' }}
-      >
-        {node.label}
-      </p>
-      {node.detail && (
-        <p
-          className="text-[10px] opacity-70 mt-1 leading-snug break-words"
-          style={{ overflowWrap: 'anywhere' }}
-        >
-          {node.detail}
-        </p>
-      )}
-    </div>
-  );
-
-  const Arrow: React.FC<{ label?: string; color?: string }> = ({
-    label,
-    color = 'text-slate-400 dark:text-slate-500',
-  }) => (
-    <div className={`flex flex-col items-center py-1 ${color}`}>
-      <div className="w-px h-4 bg-current opacity-40" />
-      {label && (
-        <span className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-current/10">
-          {label}
-        </span>
-      )}
-      <ArrowDown className="w-4 h-4 mt-0.5" />
-    </div>
-  );
 
   if (hasBranching) {
     return (
