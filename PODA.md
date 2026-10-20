@@ -33,7 +33,7 @@ A plataforma *Heuller na Câmara* foi concebida e desenvolvida com alto rigor pe
 Conforme a **Regra Permanente nº 2**:
 1. Nenhum registro foi renumerado ou excluído da base de dados.
 2. Os dados de módulos podados foram marcados com a flag `status: 'arquivado'` no registro do curso.
-3. Os simulados oficiais (1.000 questões 50C/50E) foram recompostos utilizando exclusivamente questões ancoradas nos tópicos ativos do Edital nº 1/2026.
+3. Os simulados oficiais (1.930 questões em 19 cadernos com paridade estrita 50C/50E: M1 a M14 com 100 itens cada, M10-A com 100 itens, M10-B com 100 itens, Mega Simulado com 120 itens, Mini Módulo Órgãos 2.5 com 30 itens e Simulado Geral com 180 itens, além de 69 itens de fixação nos submódulos teóricos, totalizando 1.999 questões) foram recompostos utilizando exclusivamente questões ancoradas nos tópicos ativos do Edital nº 1/2026.
 4. Foi criada a tag Git de segurança `pre-poda-20261004` para restauração integral de estado caso requisitado.
 
 ---

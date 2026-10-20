@@ -41,6 +41,7 @@ acervo-estudos/
 
 # Scratch & Dev temporary tests
 scratch/
+.vitest/
 __pycache__/
 *.pyc
 

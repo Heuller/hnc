@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
 import { simuladoCatalogacao100Q } from '../content/questions/m2-catalogacao-100q';
 import { COURSE_REGISTRY } from '../content/registry';
+import { ALL_SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { CONCURSO_CONFIG } from '../config/concurso.config';
 import { CebraspeQuestionSchema } from '../domain/schemas/question.schema';
 import { MacroModuloSchema } from '../domain/schemas/modulo.schema';
@@ -233,4 +234,58 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       expect(CONCURSO_CONFIG.banca.fatorCorrecao.brancoPontos).toBe(0);
     });
   });
+  describe('Integridade Global de Todos os Bancos de Simulados (P6 / ALL_SIMULADOS_REGISTRY)', () => {
+    it('não deve possuir nenhum ID de questão duplicado entre todos os simulados registrados', () => {
+      const idsSet = new Set<string>();
+      const duplicados: { id: string; simulado: string }[] = [];
+
+      for (const sim of ALL_SIMULADOS_REGISTRY) {
+        for (const q of sim.questoes) {
+          if (idsSet.has(q.id)) {
+            duplicados.push({ id: q.id, simulado: sim.id });
+          }
+          idsSet.add(q.id);
+        }
+      }
+
+      expect(duplicados).toHaveLength(0);
+      expect(idsSet.size).toBe(1930);
+    });
+
+    it('todos os itens de todos os simulados devem possuir justificativa, dificuldade e fonte válidas', () => {
+      const itensComProblema: { id: string; erro: string }[] = [];
+
+      for (const sim of ALL_SIMULADOS_REGISTRY) {
+        for (const q of sim.questoes) {
+          if (!q.justificativa || q.justificativa.trim().length < 5) {
+            itensComProblema.push({ id: q.id, erro: 'justificativa ausente ou muito curta' });
+          }
+          if (!q.dificuldade || !['facil', 'media', 'dificil'].includes(q.dificuldade)) {
+            itensComProblema.push({ id: q.id, erro: `dificuldade inválida (${q.dificuldade})` });
+          }
+          if (!q.fonteOriginal || !q.fonteOriginal.tipo || !q.fonteOriginal.descricao) {
+            itensComProblema.push({ id: q.id, erro: 'fonteOriginal incompleta' });
+          }
+        }
+      }
+
+      expect(itensComProblema).toHaveLength(0);
+    });
+
+    it('todos os simulados de 100, 120 e 180 itens devem manter estritamente simetria 50/50 entre Certos e Errados', () => {
+      const simuladosPadrao = ALL_SIMULADOS_REGISTRY.filter((s) =>
+        [100, 120, 180].includes(s.questoes.length)
+      );
+
+      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(18);
+
+      for (const sim of simuladosPadrao) {
+        const certos = sim.questoes.filter((q) => q.gabarito === 'C').length;
+        const errados = sim.questoes.filter((q) => q.gabarito === 'E').length;
+        expect(certos, `Simulado ${sim.id} com total ${sim.questoes.length} não está 50/50`).toBe(errados);
+        expect(certos + errados).toBe(sim.questoes.length);
+      }
+    });
+  });
+
 });
