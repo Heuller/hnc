@@ -50,12 +50,16 @@ const RadarPage = lazyWithRetry(() =>
 const ProgressoPage = lazyWithRetry(() =>
   import('./pages/ProgressoPage').then((m) => ({ default: m.ProgressoPage }))
 );
-const DesignSystemPage = lazyWithRetry(() =>
-  import('./pages/DesignSystemPage').then((m) => ({ default: m.DesignSystemPage }))
-);
-const DevRascunhosPage = lazyWithRetry(() =>
-  import('./pages/DevRascunhosPage').then((m) => ({ default: m.DevRascunhosPage }))
-);
+const DesignSystemPage = import.meta.env.DEV
+  ? lazyWithRetry(() =>
+      import('./pages/DesignSystemPage').then((m) => ({ default: m.DesignSystemPage }))
+    )
+  : () => null;
+const DevRascunhosPage = import.meta.env.DEV
+  ? lazyWithRetry(() =>
+      import('./pages/DevRascunhosPage').then((m) => ({ default: m.DevRascunhosPage }))
+    )
+  : () => null;
 const CadernoErrosPage = lazyWithRetry(() =>
   import('./pages/CadernoErrosPage').then((m) => ({ default: m.CadernoErrosPage }))
 );
@@ -146,7 +150,7 @@ export function App() {
       case 'design-system':
         return import.meta.env.DEV ? <DesignSystemPage /> : <PainelPage />;
       case 'dev-rascunhos':
-        return <DevRascunhosPage />;
+        return import.meta.env.DEV ? <DevRascunhosPage /> : <PainelPage />;
       default:
         return <PainelPage />;
     }

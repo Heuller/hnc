@@ -11,7 +11,7 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { useNavigationStore } from '../store/useNavigationStore';
-import rascunhosData from '../content/drafts/rascunho_itens_verificacao.json';
+import rascunhosData from '../../dev-drafts/rascunho_itens_verificacao.json';
 
 interface DraftItem {
   id: string;
