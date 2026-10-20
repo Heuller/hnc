@@ -1,68 +1,99 @@
 // Vercel Serverless Function: /api/socratic-challenge
-// Embodying the Senior Cebraspe Examiner in a Socratic dialogue over incorrect items
+import {
+  validateAuth,
+  checkRateLimit,
+  fetchWithTimeout,
+  sendApiError,
+  socraticChallengeSchema,
+} from './_lib/guard';
+import { getGeminiGenerateContentUrl } from './_lib/model';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return sendApiError(res, 405, 'Método não permitido.', 'METHOD_NOT_ALLOWED');
   }
 
   res.setHeader('Cache-Control', 'no-store, max-age=0');
   res.setHeader('X-Content-Type-Options', 'nosniff');
 
+  // 1. Validação de Autenticação (F-01.a)
+  const { auth, error: authError } = await validateAuth(req);
+  if (authError || !auth) {
+    return sendApiError(res, authError?.status || 401, authError?.message || 'Não autorizado.', authError?.code || 'UNAUTHORIZED');
+  }
+
+  // 2. Limite de Taxa (F-01.b)
+  const rateLimit = await checkRateLimit(auth.userId, 'socratic-challenge');
+  if (!rateLimit.allowed) {
+    if (rateLimit.retryAfterSeconds) {
+      res.setHeader('Retry-After', String(rateLimit.retryAfterSeconds));
+    }
+    return sendApiError(
+      res,
+      429,
+      'Limite de requisições excedido (20 consultas a cada 10 min). Aguarde antes de tentar novamente.',
+      'RATE_LIMIT_EXCEEDED'
+    );
+  }
+
+  // 3. Validação do Corpo com Zod (F-01.c)
+  const parseResult = socraticChallengeSchema.safeParse(req.body);
+  if (!parseResult.success) {
+    const errorMsg = parseResult.error.issues[0]?.message || 'Parâmetros inválidos.';
+    return sendApiError(res, 400, errorMsg, 'VALIDATION_ERROR');
+  }
+
   const {
     acao,
     assertiva,
     gabarito,
-    respostaUsuario,
+    escolhaCandidato,
+    argumentoCandidato,
+    macroModuloTitulo,
     justificativa,
     armadilhaBanca,
-    macroModuloTitulo,
-    historicoMensagens,
-    argumentoCandidato,
-  } = req.body || {};
+  } = parseResult.data;
 
-  if (!assertiva || !gabarito) {
-    return res.status(400).json({ error: 'Assertiva e gabarito são obrigatórios.' });
-  }
-
-  const assertivaLimpa = String(assertiva).slice(0, 1000);
-  const argumentoLimpo = typeof argumentoCandidato === 'string' ? argumentoCandidato.slice(0, 2000) : '';
+  const gabaritoExtenso = gabarito === 'C' ? 'CERTO' : 'ERRADO';
+  const escolhaExtensa = escolhaCandidato === 'C' ? 'CERTO' : escolhaCandidato === 'E' ? 'ERRADO' : 'EM BRANCO';
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
-  const gabaritoExtenso = gabarito === 'C' ? 'CERTO' : 'ERRADO';
-  const escolhaExtensa = respostaUsuario === 'C' ? 'CERTO' : 'ERRADO';
-
-  // Fallback caso a chave não esteja disponível no ambiente
+  // Fallback Neutro (Regra F-06): sem chave ou quando IA offline
   if (!apiKey) {
     if (acao === 'iniciar') {
       return res.status(200).json({
+        modo: 'offline',
         parecer: {
-          tesePrincipal: `A banca examinadora do Cebraspe ratifica a correção do gabarito oficial como ${gabaritoExtenso}. O item foi redigido com precisão doutrinária para testar o domínio estrito dos conceitos biblioteconômicos consagrados para a Câmara dos Deputados.`,
+          tesePrincipal: `Modo offline: O gabarito registrado no acervo é ${gabaritoExtenso}. Analise os termos estruturantes da assertiva com base nos manuais de referência do edital.`,
           pontoCegoIdentificado: armadilhaBanca
-            ? `Ponto cego identificado: ${armadilhaBanca}`
-            : `O candidato optou por ${escolhaExtensa} ao deixar-se levar por generalização excessiva ou ignorar a restrição conceitual posta no enunciado.`,
+            ? `Ponto cego registrado: ${armadilhaBanca}`
+            : `A escolha ${escolhaExtensa} deve ser confrontada com as distinções canônicas de doutrina.`,
           fundamentacao: {
             autor: 'Doutrina Clássica e Normas Oficiais de Biblioteconomia',
-            obraOuNorma: 'Manuais Canônicos (Cunha & Cavalcanti, Lancaster, Vergueiro, ABNT)',
+            obraOuNorma: 'Manuais Canônicos (Cunha & Lemos, Lancaster, Vergueiro, ABNT)',
             citacao: justificativa || 'A doutrina hegemônica adota critério estrito na diferenciação dos termos.',
           },
           perguntaDesafio: `À luz do gabarito oficial (${gabaritoExtenso}), qual termo específico do texto da assertiva desautoriza qualquer interpretação em sentido contrário?`,
           sugestaoBaralho: {
             frente: `[Cebraspe] ${assertiva.slice(0, 100)}... (C/E?)`,
-            verso: `GABARITO: ${gabaritoExtenso}\n\n${justificativa}`,
+            verso: `GABARITO: ${gabaritoExtenso}\n\n${justificativa || ''}`,
           },
         },
       });
     } else {
+      // Regra F-06: Texto neutro sem veredito "NÃO PROSPERA", marcando modo: offline
       return res.status(200).json({
-        respostaBanca: `**Despacho da Banca Examinadora:**\n\nO argumento do candidato ("${argumentoCandidato?.slice(0, 120)}...") foi apreciado. O recurso administrativo **NÃO PROSPERA**.\n\nNa jurisprudência do Cebraspe, a assertiva deve ser tomada em seu sentido estrito e canônico. Exceções teóricas periféricas não infirmam a regra geral exigida no padrão oficial. Mantenha o foco na literatura hegemônica para não incorrer no mesmo desvio na prova oficial.`,
+        modo: 'offline',
+        respostaBanca: `A IA está indisponível; este é um roteiro de autoanálise.\n\nSeu argumento ("${argumentoCandidato?.slice(0, 120) || ''}...") foi registrado localmente para revisão. Para autoavaliação, consulte a literatura canônica e compare se os termos usados na assertiva representam regra geral ou exceção periférica.`,
       });
     }
   }
 
   // Chamada ao modelo Gemini
   try {
+    const geminiUrl = getGeminiGenerateContentUrl();
+
     if (acao === 'iniciar') {
       const prompt = `
 Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
@@ -71,7 +102,7 @@ Seu estilo é rigoroso, acadêmico, formal, polido e profundamente fundamentado 
 Um candidato errou um item do concurso e solicita o Parecer Técnico e Desafio Socrático da Banca.
 
 DADOS DO ITEM:
-- Assertiva da Questão: "${assertivaLimpa}"
+- Assertiva da Questão: "${assertiva}"
 - Gabarito Oficial Cebraspe: ${gabaritoExtenso}
 - Resposta Assinalada pelo Candidato: ${escolhaExtensa}
 - Módulo / Disciplina: ${macroModuloTitulo || 'Biblioteconomia'}
@@ -89,109 +120,97 @@ Gere uma análise no formato JSON estrito contendo:
 Retorne EXCLUSIVAMENTE um objeto JSON válido.
 `;
 
-      const response = await fetch(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey,
+      const response = await fetchWithTimeout(geminiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey,
+        },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.2,
+            responseMimeType: 'application/json',
           },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: prompt }] }],
-            generationConfig: {
-              temperature: 0.2,
-              responseMimeType: 'application/json',
-            },
-          }),
-        }
-      );
+        }),
+      }, 20000);
 
       if (!response.ok) {
-        throw new Error(`Gemini API error: ${response.statusText}`);
+        throw new Error(`Gemini status ${response.status}`);
       }
 
-      const json = await response.json();
-      const textOutput = json.candidates?.[0]?.content?.parts?.[0]?.text;
-      const parsed = JSON.parse(textOutput);
+      const data = await response.json();
+      const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!rawText) throw new Error('Resposta vazia');
 
-      return res.status(200).json({ parecer: parsed });
+      const parsed = JSON.parse(rawText);
+      return res.status(200).json({ parecer: parsed, modo: 'online' });
     } else {
-      // Replicar ao argumento do candidato
-      const historicoFormatado = (historicoMensagens || []).slice(-8);
+      // Réplica socrática
+      const prompt = `
+Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso da Câmara dos Deputados.
+O candidato respondeu ao seu desafio socrático anterior com o seguinte argumento de recurso:
+"${argumentoCandidato || ''}"
 
-      const promptSistema = `
-Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia (Câmara dos Deputados).
-O candidato está dialogando com você, tentando recorrer ou justificar sua resposta para a seguinte assertiva:
-"${assertivaLimpa}" (Gabarito Oficial: ${gabaritoExtenso}).
+CONTEXTO DO ITEM:
+- Assertiva: "${assertiva}"
+- Gabarito Definitivo: ${gabaritoExtenso}
+- Fundamentação: "${justificativa || ''}"
 
-Instruções:
-- Responda formalmente, na primeira pessoa do plural da banca ("A banca examinadora...", "Registramos que...", "O pleito não se sustenta porque...").
-- Discuta criticamente o argumento apresentado pelo candidato ("${argumentoLimpo}").
-- Se o candidato estiver correto na refutação conceitual, elogie a percepção, mas aponte por que o Cebraspe mantém a chave oficial (pegadinha formal da palavra/advérbio no item).
-- Cite os autores de referência (Cunha, Lancaster, Vergueiro, Briet, Mey, etc.) com precisão cirúrgica.
-- Mantenha tom socrático, polido e focado em alta performance.
-- Responda em no máximo 3 ou 4 parágrafos objetivos com marcações em Markdown.
+INSTRUÇÕES:
+Avalie a resposta do candidato com rigor e didática socrática (máximo 2 a 3 parágrafos curtos).
+- Se o candidato demonstrou ter compreendido a distinção doutrinária do Cebraspe, elogie a metacognição e aponte como fixar esse conceito.
+- Se o candidato insistiu em falácias ou distorções, desmonte cordialmente a premissa errada com uma citação de autoridade biblioteconômica.
+Retorne texto em markdown fluente e cortês.
 `;
 
-      const contents = [
-        ...historicoFormatado,
-        {
-          role: 'user',
-          parts: [{ text: `${promptSistema}\n\nArgumento recente do candidato: "${argumentoLimpo}"` }],
+      const response = await fetchWithTimeout(geminiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-goog-api-key': apiKey,
         },
-      ];
-
-      const response = await fetch(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey,
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.3,
           },
-          body: JSON.stringify({
-            contents,
-            generationConfig: {
-              temperature: 0.3,
-            },
-          }),
-        }
-      );
+        }),
+      }, 20000);
 
       if (!response.ok) {
-        throw new Error(`Gemini API error: ${response.statusText}`);
+        throw new Error(`Gemini status ${response.status}`);
       }
 
-      const json = await response.json();
-      const textOutput = json.candidates?.[0]?.content?.parts?.[0]?.text;
+      const data = await response.json();
+      const respostaBanca = data?.candidates?.[0]?.content?.parts?.[0]?.text;
 
-      return res.status(200).json({ respostaBanca: textOutput });
+      return res.status(200).json({ respostaBanca, modo: 'online' });
     }
   } catch (error: any) {
-    console.error('Erro na função socratic-challenge:', error);
-
-    // Fallback defensivo garantido
+    console.error('[Socratic Challenge Error]', error?.message);
     if (acao === 'iniciar') {
       return res.status(200).json({
+        modo: 'offline',
         parecer: {
-          tesePrincipal: `A banca examinadora ratifica o gabarito oficial como ${gabaritoExtenso}. A formulação do item observa estritamente os termos consagrados pela doutrina biblioteconômica predominante.`,
-          pontoCegoIdentificado: armadilhaBanca || `A marcação ${escolhaExtensa} decorre frequentemente da desatenção a termos restritivos no texto da assertiva.`,
+          tesePrincipal: `Modo offline: O gabarito é ${gabaritoExtenso}. Analise a literatura canônica e as restrições da assertiva.`,
+          pontoCegoIdentificado: armadilhaBanca || 'Verifique distinções conceituais no enunciado.',
           fundamentacao: {
-            autor: 'Doutrina Biblioteconômica Canônica',
-            obraOuNorma: 'Bibliografia de Referência do Edital',
-            citacao: justificativa || 'A conceituação padrão não admite a sinonímia implícita assumida pelo candidato.',
+            autor: 'Doutrina Canônica de Biblioteconomia',
+            obraOuNorma: 'Manuais Oficiais',
+            citacao: justificativa || 'A doutrina hegemônica sustenta a assertiva.',
           },
-          perguntaDesafio: `Qual elemento textual do enunciado impede que a assertiva seja considerada ${escolhaExtensa}?`,
+          perguntaDesafio: `Qual termo exato no enunciado delimita a resposta como ${gabaritoExtenso}?`,
           sugestaoBaralho: {
-            frente: `[Cebraspe] ${assertiva.slice(0, 90)}...`,
-            verso: `Gabarito: ${gabaritoExtenso}\n${justificativa}`,
+            frente: `[Cebraspe] ${assertiva.slice(0, 100)}...`,
+            verso: `GABARITO: ${gabaritoExtenso}`,
           },
         },
       });
     } else {
       return res.status(200).json({
-        respostaBanca: `**Despacho da Banca Cebraspe:**\n\nO argumento apresentado foi ponderado. No entanto, na jurisprudência do Cebraspe para a Câmara dos Deputados, a interpretação literal e sistemática do edital prevalece sobre concepções heterodoxas. O gabarito oficial (${gabaritoExtenso}) permanece fundamentado e inalterado.`,
+        modo: 'offline',
+        respostaBanca: `A IA está indisponível; este é um roteiro de autoanálise.\n\nSeu argumento ("${argumentoCandidato?.slice(0, 120) || ''}...") foi registrado localmente. Confronte suas justificativas com os manuais de referência do edital.`,
       });
     }
   }

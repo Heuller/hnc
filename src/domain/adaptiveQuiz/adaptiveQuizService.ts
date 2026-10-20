@@ -10,6 +10,7 @@ import { getItensCadernoErros } from '../cadernoErros';
 import type { SimuladoFinalizado } from '../schemas/progress.schema';
 
 import { filtrarItensSegurosIA } from '../antiHallucinationGuard';
+import { useAuthStore } from '../../store/useAuthStore';
 
 /**
  * Gera um simulado adaptativo equilibrando o diagnóstico de fraquezas
@@ -32,9 +33,15 @@ export async function gerarSimuladoAdaptativo(
 
   // 1. Tenta gerar via IA no backend
   try {
+    const session = useAuthStore.getState().session;
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    if (session?.access_token) {
+      headers['Authorization'] = `Bearer ${session.access_token}`;
+    }
+
     const res = await fetch('/api/generate-adaptive-quiz', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       body: JSON.stringify({
         quantidadeItens: config.quantidadeItens,
         modoFoco: config.modoFoco,
@@ -42,6 +49,12 @@ export async function gerarSimuladoAdaptativo(
         vulnerabilidades: vulnerabilidades.slice(0, 4),
       }),
     });
+
+    if (res.status === 429) {
+      console.warn('[Simulado Adaptativo] Limite de requisições excedido. Utilizando motor offline.');
+    } else if (res.status === 401) {
+      console.warn('[Simulado Adaptativo] Não autorizado no servidor. Utilizando motor offline.');
+    }
 
     if (res.ok) {
       const data = await res.json();

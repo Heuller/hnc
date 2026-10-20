@@ -2,6 +2,8 @@ import React from 'react';
 import { PenTool } from 'lucide-react';
 import type { ExerciseFormatProps } from '../types';
 
+const DISTRATORES_PADRAO = ['exclusivo', 'facultativo', 'anacrônico'];
+
 export const F4PreenchimentoLacunas: React.FC<ExerciseFormatProps> = ({
   conceito,
   respondido,
@@ -11,9 +13,23 @@ export const F4PreenchimentoLacunas: React.FC<ExerciseFormatProps> = ({
   const variante = conceito.variantesFormatos?.f4_preenchimento_lacunas;
   const textoLacuna = variante?.lacunas?.textoComLacuna || conceito.enunciadoCanonic;
   const respostaCorreta = variante?.lacunas?.respostaCorreta || 'correto';
-  const distratores = variante?.lacunas?.distratores || ['exclusivo', 'facultativo', 'anacrônico'];
+  const distratores = variante?.lacunas?.distratores || DISTRATORES_PADRAO;
 
-  const opcoes = [respostaCorreta, ...distratores].sort(() => 0.5 - Math.random());
+  // F-13: Embaralhamento determinístico usando useMemo derivado do ID para pureza de render
+  const opcoes = React.useMemo(() => {
+    const raw = [respostaCorreta, ...distratores];
+    let seed = 0;
+    for (let i = 0; i < conceito.id.length; i++) {
+      seed = (seed * 31 + conceito.id.charCodeAt(i)) >>> 0;
+    }
+    const arr = [...raw];
+    for (let i = arr.length - 1; i > 0; i--) {
+      seed = (seed * 1664525 + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, [conceito.id, respostaCorreta, distratores]);
 
   return (
     <div className="space-y-4">

@@ -34,4 +34,5 @@ export interface SessaoSocratica {
   superado: boolean;
   criadoEm: string;
   atualizadoEm: string;
+  modo?: 'online' | 'offline';
 }

@@ -66,3 +66,10 @@ Criados originalmente sob medida para o projeto, inspirados na literatura canôn
   * **JetBrains Mono:** Códigos, identificadores, contadores de tempo, fórmulas e metadados.
 * **Ícones de Ação:**
   * Biblioteca **Lucide React** com espessura uniforme calibrada em `strokeWidth={1.75}`, preservando coerência visual com as gravuras ex-libris.
+
+
+---
+
+## 5. Acervo Privado e Não Distribuído
+
+* **Acervo de Livros e Provas Digitalizadas:** Materiais didáticos complementares, livros de referência, tesauros e provas históricas mantidos localmente na pasta cervo-estudos/ são de uso e consulta estritamente privada do estudante. Estes arquivos **não são distribuídos** no repositório de código aberto e encontram-se devidamente desindexados e ignorados via .gitignore.

@@ -311,4 +311,53 @@ export function detectSimuladoIdFromQuestionId(questionId: string): string {
   return 'm1-fundamentos';
 }
 
+/**
+ * F-12: Seleção Estratificada 50/50 com semente determinística.
+ * Garante paridade rigorosa de gabaritos (50% Certos e 50% Errados)
+ * mesmo quando o banco de origem possui distribuição desbalanceada (ex.: 44 C / 25 E).
+ */
+export function selecionarQuestoesEstratificadas5050(
+  questoes: CebraspeQuestion[],
+  totalDesejado: number,
+  semente: number = 42
+): CebraspeQuestion[] {
+  if (!questoes || questoes.length === 0 || totalDesejado <= 0) {
+    return [];
+  }
+
+  const certas = questoes.filter((q) => q.gabarito === 'C');
+  const erradas = questoes.filter((q) => q.gabarito === 'E');
+
+  const metaCertas = Math.floor(totalDesejado / 2);
+  const metaErradas = totalDesejado - metaCertas;
+
+  // Embaralhador determinístico com LCG
+  const pseudoSort = <T>(arr: T[], seedInit: number): T[] => {
+    let seed = seedInit;
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      seed = (seed * 1664525 + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  };
+
+  const certasEmbaralhadas = pseudoSort(certas, semente);
+  const erradasEmbaralhadas = pseudoSort(erradas, semente + 1);
+
+  const selecionadasCertas = certasEmbaralhadas.slice(0, Math.min(metaCertas, certas.length));
+  const selecionadasErradas = erradasEmbaralhadas.slice(0, Math.min(metaErradas, erradas.length));
+
+  // Intercala para distribuição uniforme
+  const resultado: CebraspeQuestion[] = [];
+  const maxLen = Math.max(selecionadasCertas.length, selecionadasErradas.length);
+  for (let i = 0; i < maxLen; i++) {
+    if (i < selecionadasCertas.length) resultado.push(selecionadasCertas[i]);
+    if (i < selecionadasErradas.length) resultado.push(selecionadasErradas[i]);
+  }
+
+  return resultado.slice(0, totalDesejado);
+}
+
 

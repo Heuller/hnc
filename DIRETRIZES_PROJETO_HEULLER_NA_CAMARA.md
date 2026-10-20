@@ -371,9 +371,11 @@ Com a incorporação do backend serverless (Vercel Functions + Gemini API) e arq
 * **Meu Baralho de Vocabulário:** Aba dedicada no modal (`GlossarioModal.tsx`) para salvar termos e gerenciar cartões pessoais de vocabulário com sincronização no store de progresso.
 
 ### 16.2. Avaliador Cebraspe de Discursivas (com IA)
-* **Fórmula Oficial de Correção:** Implementação rigorosa do cálculo estatístico adotado pelo Cebraspe nos concursos federais:
-  $$\text{NC} = \text{NC}_P - 2 \times \frac{\text{NE}}{\text{TL}}$$
-  Onde $\text{NC}$ é a Nota da Prova Discursiva, $\text{NC}_P$ é a soma das notas dos quesitos de conteúdo, $\text{NE}$ é o número de erros gramaticais e $\text{TL}$ é o total de linhas escritas.
+* **Fórmula Oficial de Correção (Edital nº 1/2026, subitem 9.8.5):** Implementação rigorosa do cálculo estatístico canônico do Cebraspe para o Cargo 5 (Analista Legislativo - Bibliotecário):
+  - **Questões Discursivas (9.8.5.1(d)):** $\text{NQ}_i = \text{NC}_i - 3 \times \frac{\text{NE}_i}{\text{TL}_i}$ (duas questões de até 20 linhas, valendo 15,00 pontos cada, total 30,00 pontos).
+  - **Peça Técnica (9.8.5.2(d)):** $\text{NPT} = \text{NC} - 6 \times \frac{\text{NE}}{\text{TL}}$ (uma peça de até 50 linhas, valendo 30,00 pontos).
+  - **Nota Final e Aprovação (9.8.5.3 e 9.8.5.4):** $\text{NFPD} = \text{NQ}_1 + \text{NQ}_2 + \text{NPT}$ (total 60,00 pontos, exigindo $\text{NFPD} \ge 30,00$ pontos para aprovação).
+  Onde $\text{NC}$ é a Nota de Conteúdo, $\text{NE}$ é o número de erros gramaticais e $\text{TL}$ é o total de linhas efetivamente escritas.
 * **Penalidade de Linha Menor:** Se o candidato redige poucas linhas, a penalidade por erro de língua portuguesa é amplificada proporcionalmente pelo divisor $\text{TL}$.
 * **Auditoria Gramatical por Linha:** Devolutiva estruturada apontando o número da linha, trecho com desvio, forma corrigida e fundamentação sintático-morfológica (ortografia, concordância, regência, crase, pontuação).
 * **Temas Oficiais com Padrão Preliminar:**

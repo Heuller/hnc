@@ -369,3 +369,14 @@ export function derivarProgresso(
     progressoPercent,
   };
 }
+
+/**
+ * F-10: Calcula a média de tempo por item em segundos com base no número real de itens do simulado.
+ * Trata divisão por zero ou tempos inválidos retornando 0.
+ */
+export function calcularMediaTempoPorItem(tempoGastoSegundos: number, totalItens: number): number {
+  if (!totalItens || totalItens <= 0 || !tempoGastoSegundos || tempoGastoSegundos <= 0) {
+    return 0;
+  }
+  return Math.round(tempoGastoSegundos / totalItens);
+}

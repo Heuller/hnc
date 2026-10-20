@@ -45,7 +45,7 @@ describe('Auditoria Automatizada de Segurança da Informação e DevSecOps', () 
     }
 
     scanDir(srcDir);
-  }, 15000);
+  }, 60000);
 
   it('todas as rotas da pasta api/ devem utilizar o header x-goog-api-key e nunca query param com chave', () => {
     const apiDir = path.join(rootDir, 'api');

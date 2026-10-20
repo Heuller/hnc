@@ -176,6 +176,11 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
           </div>
 
           <div className="flex items-center gap-2">
+            {sessao?.modo === 'offline' && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-2 border border-border text-ink-2 text-xs font-mono">
+                <span>Modo offline: sem parecer da banca</span>
+              </span>
+            )}
             {sessao?.superado && (
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-xs font-bold">
                 <CheckCircle2 className="w-3.5 h-3.5" />

@@ -25,14 +25,11 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>,
 );
 
-// Auto-reload quando novo Service Worker assumir o controle (skipWaiting)
+// Gerenciamento seguro de atualizações do Service Worker (Regras V-02 e F-15)
+// Remove o reload automático intempestivo em controllerchange para não interromper simulados nem a primeira visita.
 if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
-  let refreshing = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (!refreshing) {
-      refreshing = true;
-      window.location.reload();
-    }
+    window.dispatchEvent(new CustomEvent('hnc-sw-updated'));
   });
 
   // Força verificação ativa de atualizações ao abrir e ao retornar ao app no celular

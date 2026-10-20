@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { persist, createJSONStorage } from 'zustand/middleware';
+import { createUserScopedStorage } from '../lib/userScopedStorage';
 import type {
   UserProgress,
   SimuladoFinalizado,
@@ -13,7 +14,7 @@ import {
   criarItemLeitner,
 } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
-import { useAuthStore } from './useAuthStore';
+import { useAuthStore, registerSignOutListener } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
@@ -679,6 +680,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          // V-01: Resposta única por item (Fator Cebraspe estrito)
+          // Impede sobrescrita ou troca de resposta após o primeiro julgamento
+          if (sessaoAtual.respostas[questionId]?.resposta !== undefined) {
+            return state;
+          }
+
           const novasRespostas = {
             ...sessaoAtual.respostas,
             [questionId]: {
@@ -1049,6 +1056,7 @@ export const useProgressStore = create<ProgressStoreState>()(
     {
       name: 'heuller_camara_v2_progress',
       version: 4,
+      storage: createJSONStorage(() => createUserScopedStorage('heuller_camara_v2_progress')),
       migrate: (persistedState: unknown, version: number) => {
         const old = (persistedState as Record<string, unknown>) || {};
         if (version < 4 || !version) {
@@ -1069,3 +1077,9 @@ export const useProgressStore = create<ProgressStoreState>()(
     }
   )
 );
+
+// F-04: Ao fazer signOut, zera o progresso em memória e reidrata para o estado anônimo
+registerSignOutListener(async () => {
+  useProgressStore.getState().limparTodoProgresso();
+  await useProgressStore.persist?.rehydrate?.();
+});
