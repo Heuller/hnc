@@ -95,7 +95,7 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
                   2. Conclusão e Selos de Domínio
                 </h3>
                 <p className="text-xs leading-relaxed">
-                  A leitura das seções e a resposta aos checkpoints concluem a etapa sem nota mínima de corte. O seu aproveitamento é atestado por Selos de Proficiência: <em>Em Andamento</em>, <em>Consolidado</em> (&ge; 85% de acertos) e <em>Dominado</em> (&ge; 85% com retenção espaçada após 7 dias).
+                  A etapa é concluída por <strong>Domínio Comprovado</strong> no Portão de Verificação (&ge; 85% de acertos) OU pela <strong>Leitura Integral</strong> de todas as seções e micro-checkpoints da Teoria. Caso aprove no Portão antes de ler as seções, o submódulo é reconhecido com o selo <em>Domínio comprovado · leitura pendente</em>. O aproveitamento é atestado por Selos de Proficiência: <em>Em Andamento</em>, <em>Consolidado</em> (&ge; 85% de acertos) e <em>Dominado</em> (&ge; 85% com retenção espaçada após 7 dias).
                 </p>
               </div>
             </div>

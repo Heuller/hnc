@@ -265,3 +265,22 @@ export function migrarReviewPrefilledAttempts(
 }
 
 
+
+/**
+ * Reclassifica tentativas antigas do Portão com foraDaTrilha=true para foraDaTrilha=false (P14 / J-02).
+ */
+export function migrarTentativasPortaoForaDaTrilha(
+  tentativas: TentativaRegistro[]
+): TentativaRegistro[] {
+  return tentativas.map((t) => {
+    if (
+      (t.tipo === 'verificacao_submodulo' ||
+        t.tipo === 'desafio_modulo' ||
+        t.tipo === 'portal_revisao') &&
+      t.foraDaTrilha === true
+    ) {
+      return { ...t, foraDaTrilha: false };
+    }
+    return t;
+  });
+}

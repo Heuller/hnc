@@ -136,7 +136,7 @@ export const ProgressoPage: React.FC = () => {
           Evolução Histórica e Diagnóstico de Estudos
         </h1>
         <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
-          Acompanhe o ganho líquido de pontos sob o fator Cebraspe ($C - E$), a calibração da sua
+          Acompanhe o ganho líquido de pontos sob o fator Cebraspe (C − E), a calibração da sua
           tomada de decisão sob risco e a persistência local dos seus simulados.
         </p>
       </section>
@@ -203,7 +203,7 @@ export const ProgressoPage: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <h2 className="text-base sm:text-lg font-sans font-bold text-ink">
-              Evolução da Nota Líquida ($C - E$)
+              Evolução da Nota Líquida (C − E)
             </h2>
             <p className="text-xs text-ink-2 font-serif">
               Progressão do saldo líquido de pontos ao longo das sessões de simulado.

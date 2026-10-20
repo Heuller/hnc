@@ -314,13 +314,13 @@ Os **Estudos Métricos da Informação (Bibliometria, Cientometria, Infometria e
      - *Zona 1 (Núcleo / Core):* Pequeno número de periódicos altamente especializados que concentram a maior parte dos artigos seminais.
      - *Zonas 2 e 3:* Número crescente e exponencial de periódicos generalistas com artigos dispersos.
    - **Lei do Quadrado Inverso de Lotka (1926 - Autores/Produtividade):**
-     - Modela a produtividade dos autores em um campo: $A_n = \frac{A_1}{n^2}$.
+     - Modela a produtividade dos autores em um campo: $A_n = \\frac{A_1}{n^2}$.
      - Um número muito pequeno de autores de elite produz a maior parte das publicações (grandes produtores), enquanto a imensa maioria dos autores produz apenas um ou dois artigos ao longo da vida.
    - **Lei do Menor Esforço de Zipf (1949 - Palavras/Linguística):**
-     - Modela a frequência de palavras em um texto: $r \times f = C$ (o produto da ordem de classificação $r$ pela frequência $f$ é constante).
+     - Modela a frequência de palavras em um texto: $r \\times f = C$ (o produto da ordem de classificação $r$ pela frequência $f$ é constante).
      - Pouquíssimas palavras são extremamente frequentes (*stopwords*), e um volume enorme de palavras raras ocorre uma única vez (*hapax legomena*).
 2. **Análise de Citação e Indicadores Tradicionais:**
-   - **Fator de Impacto (JCR / Clarivate):** Razão entre as citações recebidas no ano corrente por artigos publicados nos dois anos anteriores e o total de artigos publicáveis nesses dois anos: $\text{FI} = \frac{\text{Citações nos anos } t-1 \text{ e } t-2}{\text{Artigos publicados em } t-1 \text{ e } t-2}$.
+   - **Fator de Impacto (JCR / Clarivate):** Razão entre as citações recebidas no ano corrente por artigos publicados nos dois anos anteriores e o total de artigos publicáveis nesses dois anos: $\\text{FI} = \\frac{\\text{Citações nos anos } t-1 \\text{ e } t-2}{\\text{Artigos publicados em } t-1 \\text{ e } t-2}$.
    - **Índice H (Jorge Hirsch, 2005):** Um autor possui índice $h$ se tiver $h$ artigos publicados com pelo menos $h$ citações cada um. Combina produtividade quantitativa com relevância citacional.
    - **Meia-Vida (*Half-Life*):** Tempo necessário para que metade das citações de uma literatura ocorra, medindo a obsolescência da área.
 3. **Altmetria (*Altmetrics* / Métricas Alternativas):**
@@ -339,10 +339,10 @@ Os **Estudos Métricos da Informação (Bibliometria, Cientometria, Infometria e
 | Lei / Indicador | Criador / Origem | O que Mede Exatamente | Fórmula / Princípio |
 | :--- | :--- | :--- | :--- |
 | **Lei de Bradford** | Samuel C. Bradford (1934) | Produtividade de **periódicos** (dispersão) | Zonas concêntricas $1 : n : n^2$ |
-| **Lei de Lotka** | Alfred J. Lotka (1926) | Produtividade de **autores** | Quadrado inverso: $A_n = \frac{A_1}{n^2}$ |
-| **Lei de Zipf** | George K. Zipf (1949) | Frequência de **palavras** no texto | $r \times f = C$ |
+| **Lei de Lotka** | Alfred J. Lotka (1926) | Produtividade de **autores** | Quadrado inverso: $A_n = \\frac{A_1}{n^2}$ |
+| **Lei de Zipf** | George K. Zipf (1949) | Frequência de **palavras** no texto | $r \\times f = C$ |
 | **Fator de Impacto** | Eugene Garfield (1955) | Prestígio de um **periódico** específico | Citações em 2 anos / Artigos publicados |
-| **Índice H** | Jorge Hirsch (2005) | Impacto citacional de um **pesquisador** | $h$ artigos com $\ge h$ citações |
+| **Índice H** | Jorge Hirsch (2005) | Impacto citacional de um **pesquisador** | $h$ artigos com $\\ge h$ citações |
 | **Altmetria** | Jason Priem et al. (2010) | Impacto social da ciência na web | Menções em redes, blogs, Wikipédia e políticas |
 
 ---

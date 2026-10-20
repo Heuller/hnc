@@ -134,7 +134,7 @@ A maior potência da CDU reside em seus operadores sintáticos, que transformam 
 | **:** | **Relação Simples** | Conecta dois assuntos independentes que interagem. É uma relação **perfeitamente reversível** na busca. | \`34:681.3\` (Direito e Informática) = \`681.3:34\` (Informática e Direito) |
 | **::** | **Relação Fixa / Ordem Fixa** | Conecta dois assuntos estabelecendo **ordem fixa e irreversível**, travando o primeiro número para arquivamento no catálogo. | \`537::621.3\` (Eletricidade relacionada à Engenharia Elétrica, arquivado sob 537) |
 | **[ ]** | **Subagrupamento Algébrico** | Funciona como parênteses matemáticos para delimitar e agrupar relações complexas. | \`31:[622+669]\` (Estatística de Mineração e Metalurgia) |
-| **\*** | **Notação Não CDU** | Introduz códigos externos alheios à CDU (fórmulas químicas, normas, etc.). | \`546.47*Zn\` (Zinco) |
+| **\\*** | **Notação Não CDU** | Introduz códigos externos alheios à CDU (fórmulas químicas, normas, etc.). | \`546.47*Zn\` (Zinco) |
 | **A/Z** | **Especificação Alfabética** | Complementa o número da CDU com o nome próprio por extenso. | \`821.134.3(81)-31MACHADO\` (Romance brasileiro de Machado de Assis) |
 
 ---

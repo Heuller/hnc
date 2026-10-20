@@ -446,7 +446,7 @@ Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões reg
      - \`^\`: Início da linha | \`$\`: Fim da linha.
      - \`.\`: Qualquer caractere (exceto nova linha).
      - \`*\`: Zero ou mais ocorrências | \`+\`: Uma ou mais ocorrências | \`?\`: Zero ou uma ocorrência.
-     - \`\d\`: Qualquer dígito numérico \`[0-9]\` | \`\w\`: Qualquer caractere alfanumérico.
+     - \`\\d\`: Qualquer dígito numérico \`[0-9]\` | \`\\w\`: Qualquer caractere alfanumérico.
      - \`[A-Z]\`: Qualquer letra maiúscula | \`( )\`: Grupo de captura.
 3. **APIs e Arquitetura REST:**
    - **API (*Application Programming Interface*):** Conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado em requisições e respostas.
@@ -469,7 +469,7 @@ Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões reg
   ORDER BY valor_aquisicao DESC;
   \`\`\`
   O relatório é exportado em CSV e entregue em segundos.
-- **Cenário 2 (Expressão Regular para Limpeza de ISBN e CPF no Catálogo):** Ao higienizar uma base de dados legada com 50.000 registros, o bibliotecário utiliza uma regex no editor de texto para validar e padronizar ISBNs de 13 dígitos: \`^97[89]-\d{1,5}-\d{1,7}-\d{1,7}-\d$\`.
+- **Cenário 2 (Expressão Regular para Limpeza de ISBN e CPF no Catálogo):** Ao higienizar uma base de dados legada com 50.000 registros, o bibliotecário utiliza uma regex no editor de texto para validar e padronizar ISBNs de 13 dígitos: \`^97[89]-\\d{1,5}-\\d{1,7}-\\d{1,7}-\\d$\`.
 - **Cenário 3 (Consumo de Dados Abertos via API REST da Câmara):** O bibliotecário programa um script em Python que consome o endpoint REST oficial da Câmara (\`GET https://dadosabertos.camara.leg.br/api/v2/proposicoes?ano=2024\`) para baixar automaticamente todas as ementas em JSON e integrá-las aos novos sumários temáticos da Biblioteca Pedro Aleixo.
 
 ---
@@ -482,7 +482,7 @@ Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões reg
 | **DROP** | SQL DDL | Destrói a estrutura da tabela inteira | Elimina a tabela do banco |
 | **GET (HTTP)** | Método REST | Leitura segura de recursos | Não altera o estado no servidor |
 | **POST (HTTP)** | Método REST | Envio de novos dados | Cria um novo registro |
-| **Regex \`+\` vs \`*\`** | Metacaracteres | \`+\` exige $\ge 1$ | \`*\` aceita $\ge 0$ (inclusive vazio) |
+| **Regex \`+\` vs \`*\`** | Metacaracteres | \`+\` exige $\\ge 1$ | \`*\` aceita $\\ge 0$ (inclusive vazio) |
 
 ---
 

@@ -261,7 +261,7 @@ Antes de responder aos checkpoints, feche os olhos por 15 segundos e responda me
 ### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
 * **BORKO, Harold.** *Information science: what is it?* American Documentation, v. 19, n. 1, p. 3-5, 1968. (Artigo canônico que consagrou a interdisciplinaridade da Ciência da Informação).
 * **OTLET, Paul.** *Traité de documentation: le livre sur le livre, théorie et pratique*. Bruxelles: Editiones Mundaneum, 1934. (Fundação da Documentação e Princípio Monográfico).
-* **BRIET, Suzanne.** *Qu\'est-ce que la documentation?* Paris: EDIT, 1951. (Conceito de documento e o célebre exemplo do antílope).
+* **BRIET, Suzanne.** *Qu'est-ce que la documentation?* Paris: EDIT, 1951. (Conceito de documento e o célebre exemplo do antílope).
 * **LE COADIC, Yves-François.** *A Ciência da Informação*. 2. ed. Brasília: Briquet de Lemos, 2004. (Evolução histórica, ciclo e ecologia da informação).
 * **PINHEIRO, Lena Vania Ribeiro; LOUREIRO, José Maria Jardim.** *Traçados e limites da Ciência da Informação*. Ciência da Informação, Brasília, v. 24, n. 1, 1995.`,
   checkpoints: [
