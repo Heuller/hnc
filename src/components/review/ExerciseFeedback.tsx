@@ -85,7 +85,7 @@ export const ExerciseFeedback: React.FC<ExerciseFeedbackProps> = ({
 
         {/* Fonte Canônica */}
         {conceito.fonteCanonica && (
-          <div className="text-[11px] text-ink-3 pt-1 border-t border-border/40">
+          <div className="text-xs text-ink-3 pt-1 border-t border-border/40">
             Fonte / Referência Oficial: {conceito.fonteCanonica}
           </div>
         )}

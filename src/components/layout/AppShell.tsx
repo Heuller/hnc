@@ -154,7 +154,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
           <button
             type="button"
             onClick={() => setFocusMode(false)}
-            className="text-[11px] font-mono text-theme-ink-2 hover:text-theme-ink hover:underline cursor-pointer flex items-center gap-1 ml-1"
+            className="text-xs font-mono text-theme-ink-2 hover:text-theme-ink hover:underline cursor-pointer flex items-center gap-1 ml-1"
             title="Sair do Modo Foco (Pressione Esc ou F)"
           >
             <span>Sair (<Kbd>Esc</Kbd>)</span>
@@ -169,7 +169,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
         <main
           id="main-content"
           tabIndex={-1}
-          className={`flex-1 w-full min-w-0 focus:outline-none ${
+          className={`flex-1 w-full min-w-0 foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
             emModoFoco
               ? 'p-3 sm:p-6 pb-12'
               : 'p-4 sm:p-6 lg:p-8 pb-24 md:pb-12'
@@ -194,7 +194,7 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
               <button
                 type="button"
                 onClick={() => setIsSearchOpen(true)}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
+                className="inline-flex items-center gap-1.5 text-xs text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
               >
                 <Search className="w-3.5 h-3.5 text-accent shrink-0" />
                 <span className="whitespace-nowrap">Busca (<Kbd>Ctrl</Kbd>+<Kbd>K</Kbd>)</span>
@@ -206,14 +206,14 @@ export const AppShell: React.FC<AppShellProps> = ({ children }) => {
               <button
                 type="button"
                 onClick={() => setIsShortcutsOpen(true)}
-                className="inline-flex items-center gap-1.5 text-[11px] text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
+                className="inline-flex items-center gap-1.5 text-xs text-theme-ink-2 hover:text-theme-ink cursor-pointer whitespace-nowrap shrink-0"
               >
                 <Keyboard className="w-3.5 h-3.5 text-accent shrink-0" />
                 <span className="whitespace-nowrap">Atalhos (<Kbd>?</Kbd>)</span>
               </button>
             </div>
 
-            <p className="text-[11px] text-theme-ink-2 m-0">
+            <p className="text-xs text-theme-ink-2 m-0">
               Metodologia Cebraspe: 1 Erro Anula 1 Certo • Plataforma Editorial
             </p>
           </div>

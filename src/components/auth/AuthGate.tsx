@@ -138,7 +138,7 @@ export const AuthGate: React.FC = () => {
           <div className="w-7 h-7 rounded-lg bg-primary text-primary-text flex items-center justify-center font-bold text-xs shadow-editorial-sm select-none">
             HNC
           </div>
-          <span className="font-bold text-sm tracking-tight text-ink">
+          <span className="font-bold text-sm tracking-normal text-ink">
             HNC
           </span>
         </div>
@@ -160,7 +160,7 @@ export const AuthGate: React.FC = () => {
               <div className="w-10 h-10 rounded-xl bg-surface-2 border border-border text-accent flex items-center justify-center mx-auto shadow-editorial-sm">
                 <Lock className="w-4 h-4" />
               </div>
-              <h1 className="text-lg sm:text-xl font-bold font-serif text-ink tracking-tight">
+              <h1 className="text-lg sm:text-xl font-bold font-serif text-ink tracking-normal">
                 {tab === 'login' ? 'Acesso' : 'Recuperação de Acesso'}
               </h1>
               <p className="text-xs text-ink-2 leading-relaxed">
@@ -233,7 +233,7 @@ export const AuthGate: React.FC = () => {
                         setErrorMsg(null);
                         setSuccessMsg(null);
                       }}
-                      className="text-[11px] text-accent hover:underline cursor-pointer focus:outline-hidden focus:underline"
+                      className="text-xs text-accent hover:underline cursor-pointer focus:outline-hidden focus:underline"
                     >
                       Esqueceu a senha?
                     </button>
@@ -306,7 +306,7 @@ export const AuthGate: React.FC = () => {
 
             {/* Destaque de Segurança Neutro */}
             <div className="pt-2.5 border-t border-border/60">
-              <div className="flex items-center gap-2 text-[11px] text-ink-2 justify-center">
+              <div className="flex items-center gap-2 text-xs text-ink-2 justify-center">
                 <ShieldCheck className="w-3.5 h-3.5 text-accent shrink-0" />
                 <span>Sessão autenticada e protegida</span>
               </div>
@@ -316,7 +316,7 @@ export const AuthGate: React.FC = () => {
       </main>
 
       {/* Rodapé Discreto e Neutro */}
-      <footer className="w-full max-w-sm sm:max-w-md mx-auto px-4 py-2.5 text-center text-[11px] text-ink-2/60">
+      <footer className="w-full max-w-sm sm:max-w-md mx-auto px-4 py-2.5 text-center text-xs text-ink-2/60">
         <p>HNC</p>
       </footer>
     </div>

@@ -71,7 +71,7 @@ export const TreinosPage: React.FC = () => {
       {/* Grade de Cartões de Treino (Regra F.1) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {/* CARD DOS SIMULADOS OFICIAIS CEBRASPE (100Q) */}
-        <div className="bg-surface border border-accent/30 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden bg-gradient-to-br from-surface to-accent/5">
+        <div className="bg-surface border border-accent/30 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden ">
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 text-accent flex items-center justify-center">
@@ -199,7 +199,7 @@ export const TreinosPage: React.FC = () => {
                 </div>
                 <IllustrationDiscursiva width={38} height={30} className="text-purple-600/70 dark:text-purple-400/70 hidden sm:block" />
               </div>
-              <span className="px-2.5 py-1 rounded-full text-[10px] font-mono font-bold bg-purple-500/10 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase tracking-wider">
+              <span className="px-2.5 py-1 rounded-full text-xs font-mono font-bold bg-purple-500/10 border border-purple-500/30 text-purple-700 dark:text-purple-300 uppercase tracking-wider">
                 Banca Cebraspe IA
               </span>
             </div>
@@ -211,7 +211,7 @@ export const TreinosPage: React.FC = () => {
               </p>
             </div>
 
-            <div className="p-3 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200/60 dark:border-purple-900/40 text-[11px] text-purple-900 dark:text-purple-300">
+            <div className="p-3 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200/60 dark:border-purple-900/40 text-xs text-purple-900 dark:text-purple-300">
               <span className="font-semibold">Temas oficiais disponíveis: </span>
               <span>Desbastamento (Vergueiro), RDA/IFLA LRM, LAI e Peça Técnica OAIS (50L).</span>
             </div>
@@ -268,7 +268,7 @@ export const TreinosPage: React.FC = () => {
         </div>
 
         {/* 5. SIMULADO ADAPTATIVO DE FRAQUEZAS (IA) */}
-        <div className="bg-surface border border-accent/40 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden md:col-span-2 bg-gradient-to-br from-surface via-surface to-accent/5">
+        <div className="bg-surface border border-accent/40 rounded-2xl p-6 shadow-editorial-sm flex flex-col justify-between gap-5 relative overflow-hidden md:col-span-2 ">
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2.5">

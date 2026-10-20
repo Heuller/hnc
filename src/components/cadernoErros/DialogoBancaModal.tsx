@@ -150,7 +150,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
       aria-labelledby="dialogo-banca-titulo"
       className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
     >
-      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92vh] flex flex-col shadow-editorial-xl overflow-hidden">
+      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92dvh] flex flex-col shadow-editorial-xl overflow-hidden">
         {/* CABEÇALHO EDITORIAL DO TRIBUNAL DA BANCA */}
         <header className="p-4 sm:p-5 border-b border-border bg-surface-2 flex items-center justify-between gap-3 shrink-0">
           <div className="flex items-center gap-3">
@@ -159,7 +159,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/15 text-amber-800 dark:text-amber-300 font-bold border border-amber-500/30">
+                <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/15 text-amber-800 dark:text-amber-300 font-bold border border-amber-500/30">
                   Tribunal da Banca Cebraspe
                 </span>
                 <span className="text-xs font-mono text-ink-2 hidden sm:inline">
@@ -168,7 +168,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
               </div>
               <h2
                 id="dialogo-banca-titulo"
-                className="text-base sm:text-lg font-serif font-bold text-ink tracking-tight m-0"
+                className="text-base sm:text-lg font-serif font-bold text-ink tracking-normal m-0"
               >
                 Parecer Técnico & Diálogo Socrático com o Examinador
               </h2>
@@ -204,10 +204,10 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
           <div className="card-editorial p-4 border border-border/90 bg-surface space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <span className="text-[11px] font-mono font-bold text-ink-2 uppercase">
+                <span className="text-xs font-mono font-bold text-ink-2 uppercase">
                   Assertiva em Julgamento:
                 </span>
-                <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-surface-2 border border-border text-ink">
+                <span className="text-xs font-mono px-2 py-0.5 rounded bg-surface-2 border border-border text-ink">
                   {item.tituloContexto}
                 </span>
               </div>
@@ -294,7 +294,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
                           : 'bg-primary text-primary-text border border-primary/20'
                       }`}
                     >
-                      <div className="flex items-center justify-between gap-3 text-[11px] font-mono opacity-75 border-b border-border/40 pb-1.5 mb-2">
+                      <div className="flex items-center justify-between gap-3 text-xs font-mono opacity-75 border-b border-border/40 pb-1.5 mb-2">
                         <span className="font-bold">
                           {ehBanca ? 'Examinador Titular Cebraspe' : 'Recurso / Argumento do Candidato'}
                         </span>
@@ -323,7 +323,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
           {/* SUGESTÕES RÁPIDAS DE ARGUMENTO / RECURSO */}
           {sessao && !enviandoArgumento && (
             <div className="space-y-1.5 pt-2">
-              <span className="text-[11px] font-mono text-ink-2 flex items-center gap-1">
+              <span className="text-xs font-mono text-ink-2 flex items-center gap-1">
                 <Sparkles className="w-3.5 h-3.5 text-accent" />
                 <span>Provocações sugeridas para aprofundar:</span>
               </span>
@@ -338,7 +338,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
                     key={i}
                     type="button"
                     onClick={() => handleEnviar(sugestao)}
-                    className="px-2.5 py-1 rounded-lg bg-surface-2 hover:bg-surface border border-border text-[11px] text-ink hover:text-accent transition-colors cursor-pointer text-left"
+                    className="px-2.5 py-1 rounded-lg bg-surface-2 hover:bg-surface border border-border text-xs text-ink hover:text-accent transition-colors cursor-pointer text-left"
                   >
                     "{sugestao}"
                   </button>
@@ -370,7 +370,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
               }}
               placeholder="Digite seu recurso, contra-argumento ou responda ao desafio da banca (Enter para enviar)..."
               disabled={enviandoArgumento || carregandoInicial}
-              className="flex-1 p-2.5 text-xs sm:text-sm rounded-xl bg-surface border border-border text-ink focus:outline-none focus:border-accent resize-none transition-colors"
+              className="flex-1 p-2.5 text-xs sm:text-sm rounded-xl bg-surface border border-border text-ink foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 resize-none transition-colors"
             />
 
             <button
@@ -421,7 +421,7 @@ export const DialogoBancaModal: React.FC<DialogoBancaModalProps> = ({
               </button>
             </div>
 
-            <div className="text-[11px] text-ink-2 font-mono flex items-center gap-1.5">
+            <div className="text-xs text-ink-2 font-mono flex items-center gap-1.5">
               <HelpCircle className="w-3.5 h-3.5" />
               <span>Fundamentado em normas técnicas e doutrina de referência</span>
             </div>

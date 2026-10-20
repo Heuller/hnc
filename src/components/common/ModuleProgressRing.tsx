@@ -124,7 +124,7 @@ export const ModuleProgressRing: React.FC<ModuleProgressRingProps> = ({
       </svg>
 
       {showPercentText && (
-        <span className="absolute font-mono text-[9px] font-bold text-ink">
+        <span className="absolute font-mono text-xs font-bold text-ink">
           {Math.round(progressPercent)}%
         </span>
       )}

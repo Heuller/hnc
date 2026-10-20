@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   extractNodeText,
   extractTableDataFromChildren,
 } from '../../utils/tableProcessors';
+import { Table as TableIcon, Layers, SlidersHorizontal } from 'lucide-react';
+
+export interface QuadroComparativoData {
+  titulo: string;
+  colunas: string[];
+  linhas: string[][];
+}
 
 export interface TabelaResponsivaProps {
+  /** Dados estruturados no formato QuadroComparativoData (F-18 unificação) */
+  quadro?: QuadroComparativoData;
   /** Rótulos de cabeçalho das colunas (modo estruturado) */
   headers?: React.ReactNode[];
   /** Alias em português para headers */
@@ -24,15 +33,15 @@ export interface TabelaResponsivaProps {
 }
 
 /**
- * Renderiza o valor do Gabarito/Diagnóstico com destaque visual adequado
+ * Renderiza o valor do Gabarito/Diagnóstico com destaque visual adequado e contraste acessível
  */
 function renderGabaritoBadge(content: React.ReactNode): React.ReactNode {
   const text = extractNodeText(content).trim().toUpperCase();
 
   if (text.includes('ERRADO')) {
     return (
-      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-amber-500/15 text-amber-800 dark:text-amber-300 border border-amber-500/30">
-        <span className="w-1.5 h-1.5 rounded-full bg-amber-600 dark:bg-amber-400" />
+      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-err-soft text-err border border-err/30">
+        <span className="w-1.5 h-1.5 rounded-full bg-err" />
         ERRADO
       </span>
     );
@@ -40,8 +49,8 @@ function renderGabaritoBadge(content: React.ReactNode): React.ReactNode {
 
   if (text.includes('CERTO') || text.includes('CORRETO')) {
     return (
-      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30">
-        <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 dark:bg-emerald-400" />
+      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md font-mono text-xs font-bold bg-ok-soft text-ok border border-ok/30">
+        <span className="w-1.5 h-1.5 rounded-full bg-ok" />
         CERTO
       </span>
     );
@@ -51,43 +60,49 @@ function renderGabaritoBadge(content: React.ReactNode): React.ReactNode {
 }
 
 /**
- * Componente TabelaResponsiva
+ * Componente Unificado TabelaResponsiva / TabelaComparativa (F-18)
  *
- * Implementa a diretriz D6 do Plano v3:
- * - Em telas >= 640px (Desktop/Tablet): Tabela tabular completa com cabeçalhos nowrap,
- *   espaçamento generoso e sem quebra feia de palavras (ex: 'GABARITO').
- * - Em telas < 640px (Mobile): Converte cada linha em um Cartão Empilhado (Key-Value Card),
- *   eliminando 100% da rolagem horizontal da página e prevenindo truncamentos.
+ * Implementa as diretrizes D6 e F-18 do Plano v3:
+ * - Em telas >= 768px (Desktop/Tablet): Tabela tabular semântica completa com cabeçalho fixo (sticky),
+ *   colunas balanceadas, sem corte de palavras.
+ * - Em telas < 768px (Mobile): Converte cada linha em Cartões Empilhados ou Seletor de Facetas,
+ *   eliminando 100% da rolagem horizontal da página mesmo em viewports de 320px.
  */
 export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
+  quadro,
   headers: propsHeaders,
-  colunas,
+  colunas: propsColunas,
   rows: propsRows,
-  linhas,
-  titulo,
+  linhas: propsLinhas,
+  titulo: propsTitulo,
   descricao,
   children,
   className = '',
   ...restProps
 }) => {
-  // Determina dados finais
-  let finalHeaders: React.ReactNode[] = propsHeaders || colunas || [];
-  let finalRows: (string | React.ReactNode)[][] = propsRows || linhas || [];
+  // Mobile: Seletor por coluna ou empilhado
+  const [selectedColumnIndex, setSelectedColumnIndex] = useState(1);
+  const [mobileMode, setMobileMode] = useState<'facetas' | 'empilhado'>('empilhado');
 
-  // Se não foi fornecido via props, tenta extrair de children
+  // Determina dados finais a partir de quadro ou props diretas
+  const finalTitulo = propsTitulo || quadro?.titulo;
+  let finalHeaders: React.ReactNode[] = propsHeaders || propsColunas || quadro?.colunas || [];
+  let finalRows: (string | React.ReactNode)[][] = propsRows || propsLinhas || quadro?.linhas || [];
+
+  // Se não foi fornecido via props, tenta extrair de children (ex: react-markdown)
   if (finalHeaders.length === 0 && finalRows.length === 0 && children) {
     const extracted = extractTableDataFromChildren(children);
     finalHeaders = extracted.headers;
     finalRows = extracted.rows;
   }
 
-  // Se mesmo assim não houver linhas estruturadas, cai no renderizador tradicional com scroll seguro
+  // Fallback caso não haja linhas estruturadas
   if (finalHeaders.length === 0 || finalRows.length === 0) {
     return (
       <div className={`my-5 w-full max-w-full ${className}`}>
-        {titulo && (
+        {finalTitulo && (
           <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink mb-2">
-            {titulo}
+            {finalTitulo}
           </h4>
         )}
         <div className="overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
@@ -102,26 +117,65 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
     );
   }
 
+    const dataColumns = finalHeaders.slice(1);
+  const hasMultipleDataColumns = dataColumns.length >= 2;
+
   return (
-    <div className={`my-5 w-full max-w-full space-y-3 ${className}`}>
-      {titulo && (
-        <div className="border-b border-border pb-1.5 mb-2">
-          <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink">
-            {titulo}
-          </h4>
-          {descricao && (
-            <p className="text-xs text-ink-2 font-serif mt-0.5">{descricao}</p>
-          )}
+    <div className={`card-editorial p-3.5 sm:p-5 space-y-3.5 my-5 w-full max-w-full @container ${className}`}>
+      {/* Cabeçalho da Tabela */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
+        <div className="flex items-center gap-2">
+          <TableIcon className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
+          <div>
+            {finalTitulo && (
+              <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink m-0">
+                {finalTitulo}
+              </h4>
+            )}
+            {descricao && (
+              <p className="text-xs text-ink-2 font-serif m-0 mt-0.5">{descricao}</p>
+            )}
+          </div>
         </div>
-      )}
+
+        {/* Alternador de Modo Mobile (< 768px): Facetas vs Empilhado (quando há 2+ colunas de dados) */}
+        {hasMultipleDataColumns && (
+          <div className="md:hidden flex items-center gap-1 bg-surface-2 p-1 rounded-md border border-border">
+            <button
+              type="button"
+              onClick={() => setMobileMode('facetas')}
+              className={`px-2 py-1 rounded text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
+                mobileMode === 'facetas'
+                  ? 'bg-surface text-ink font-bold shadow-2xs border border-border'
+                  : 'text-ink-2 hover:text-ink'
+              }`}
+            >
+              <SlidersHorizontal className="w-3 h-3" />
+              <span>Por Coluna</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setMobileMode('empilhado')}
+              className={`px-2 py-1 rounded text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
+                mobileMode === 'empilhado'
+                  ? 'bg-surface text-ink font-bold shadow-2xs border border-border'
+                  : 'text-ink-2 hover:text-ink'
+              }`}
+            >
+              <Layers className="w-3 h-3" />
+              <span>Empilhado</span>
+            </button>
+          </div>
+        )}
+      </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO AMPLA (>= 640px): Tabela Semântica Tradicional
-       * Cabeçalhos com whitespace-nowrap para impedir quebra como 'GABARI TO'
+       * VISUALIZAÇÃO AMPLA (>= 768px): TABELA SEMÂNTICA TRADICIONAL COM CABEÇALHO FIXO
+       * Cabeçalhos com whitespace-nowrap para impedir quebra feia de termos
        * ------------------------------------------------------------- */}
-      <div className="hidden sm:block overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
+      <div className="hidden sm:block md:block overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
         <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
-          <thead className="bg-surface-2 text-ink font-bold border-b border-border">
+          <thead className="bg-surface-2 text-ink font-bold border-b border-border sticky top-0 z-10">
             <tr>
               {finalHeaders.map((head, idx) => {
                 const headText = extractNodeText(head).trim();
@@ -157,7 +211,9 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                     return (
                       <td
                         key={cIdx}
-                        className="p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words"
+                        className={`p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words ${
+                          cIdx === 0 ? 'font-semibold' : 'font-serif'
+                        }`}
                       >
                         {isGabarito ? renderGabaritoBadge(cell) : cell}
                       </td>
@@ -171,57 +227,105 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
       </div>
 
       {/* -------------------------------------------------------------
-       * VISUALIZAÇÃO ESTREITA (< 640px): CARTÕES EMPILHADOS
-       * Elimina 100% da rolagem horizontal e quebra de palavras estreitas
+       * VISUALIZAÇÃO ESTREITA (< 768px): CARTÕES EMPILHADOS OU FACETAS
+       * 100% livre de rolagem horizontal em telas compactas (320px–360px)
        * ------------------------------------------------------------- */}
       <div
-        className="sm:hidden space-y-3.5 w-full max-w-full"
+        className="sm:hidden md:hidden space-y-3 w-full max-w-full"
         data-testid="tabela-responsiva-cards"
       >
-        {finalRows.map((row, rIdx) => {
-          const primaryHeader = finalHeaders[0];
-          const primaryValue = row[0];
-          const otherCells = row.slice(1);
+        {mobileMode === 'facetas' && hasMultipleDataColumns ? (
+          /* Modo Seletor por Coluna (Facetas) */
+          <>
+            <div className="flex flex-wrap gap-1.5 p-1 rounded-lg bg-surface-2 border border-border">
+              {dataColumns.map((colNode, idx) => {
+                const colIndex = idx + 1;
+                const colName = extractNodeText(colNode);
+                const isSelected = selectedColumnIndex === colIndex;
+                return (
+                  <button
+                    key={colIndex}
+                    type="button"
+                    onClick={() => setSelectedColumnIndex(colIndex)}
+                    className={`flex-1 min-w-[100px] text-center px-2.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-primary text-primary-text shadow-2xs'
+                        : 'bg-transparent text-ink-2 hover:text-ink'
+                    }`}
+                  >
+                    {colName}
+                  </button>
+                );
+              })}
+            </div>
 
-          return (
-            <div
-              key={rIdx}
-              className="rounded-xl border border-border bg-surface p-4 space-y-3 shadow-2xs transition-shadow hover:shadow-xs"
-            >
-              {/* Campo primário em destaque no topo do cartão */}
-              <div className="border-b border-border/80 pb-2.5">
-                <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-accent block mb-1">
-                  {primaryHeader}
-                </span>
-                <div className="text-xs sm:text-sm font-sans font-semibold text-ink leading-relaxed">
-                  {primaryValue}
+            <div className="space-y-2.5">
+              {finalRows.map((row, rIdx) => {
+                const criterio = row[0];
+                const valor = row[selectedColumnIndex];
+                return (
+                  <div
+                    key={rIdx}
+                    className="p-3 rounded-xl border border-border bg-surface space-y-1 shadow-2xs"
+                  >
+                    <span className="text-xs font-bold uppercase tracking-wider text-accent block font-sans">
+                      {criterio}
+                    </span>
+                    <div className="text-xs sm:text-sm font-serif text-ink leading-relaxed">
+                      {valor}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        ) : (
+          /* Modo Empilhado (Padrão) */
+          finalRows.map((row, rIdx) => {
+            const primaryHeader = finalHeaders[0];
+            const primaryValue = row[0];
+            const otherCells = row.slice(1);
+
+            return (
+              <div
+                key={rIdx}
+                className="rounded-xl border border-border bg-surface p-3.5 space-y-2.5 shadow-2xs transition-shadow"
+              >
+                {/* Campo primário em destaque no topo do cartão */}
+                <div className="border-b border-border/80 pb-2">
+                  <span className="text-xs font-sans font-bold uppercase tracking-wider text-accent block mb-0.5">
+                    {primaryHeader}
+                  </span>
+                  <div className="text-xs sm:text-sm font-sans font-semibold text-ink leading-relaxed">
+                    {primaryValue}
+                  </div>
+                </div>
+
+                {/* Demais campos rotulados por coluna */}
+                <div className="space-y-2 pt-0.5">
+                  {otherCells.map((cell, idx) => {
+                    const colIdx = idx + 1;
+                    const headerName = finalHeaders[colIdx] || `Item ${colIdx + 1}`;
+                    const headerText = extractNodeText(headerName).toLowerCase();
+                    const isGabarito =
+                      headerText.includes('gabarito') || headerText.includes('diagnóstico');
+
+                    return (
+                      <div key={colIdx} className="space-y-0.5">
+                        <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
+                          {headerName}
+                        </span>
+                        <div className="text-xs sm:text-sm text-ink leading-relaxed font-serif">
+                          {isGabarito ? renderGabaritoBadge(cell) : cell}
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
-
-              {/* Demais campos rotulados por coluna */}
-              <div className="space-y-2.5 pt-0.5">
-                {otherCells.map((cell, idx) => {
-                  const colIdx = idx + 1;
-                  const headerName = finalHeaders[colIdx] || `Item ${colIdx + 1}`;
-                  const headerText = extractNodeText(headerName).toLowerCase();
-                  const isGabarito =
-                    headerText.includes('gabarito') || headerText.includes('diagnóstico');
-
-                  return (
-                    <div key={colIdx} className="space-y-1">
-                      <span className="text-[10.5px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
-                        {headerName}
-                      </span>
-                      <div className="text-xs sm:text-sm text-ink leading-relaxed font-serif">
-                        {isGabarito ? renderGabaritoBadge(cell) : cell}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+            );
+          })
+        )}
       </div>
     </div>
   );

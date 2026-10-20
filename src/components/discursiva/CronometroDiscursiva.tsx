@@ -91,11 +91,11 @@ export const CronometroDiscursiva: React.FC<CronometroDiscursivaProps> = ({
               <span className="text-xs font-mono font-bold uppercase text-ink">
                 Cronômetro de Treino Real
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-surface-2 border border-border text-ink-2">
+              <span className="text-xs font-mono px-1.5 py-0.2 rounded bg-surface-2 border border-border text-ink-2">
                 Meta: {tempoSugeridoMinutos} min
               </span>
             </div>
-            <p className="text-[11px] text-ink-2 font-mono">
+            <p className="text-xs text-ink-2 font-mono">
               Tempo decorrido: {minutosGastos} min {segundosGastos % 60} s
             </p>
           </div>

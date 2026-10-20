@@ -89,7 +89,7 @@ export const DevRascunhosPage: React.FC = () => {
           <span>Voltar ao Painel</span>
         </button>
 
-        <span className="text-[11px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 font-bold">
+        <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 font-bold">
           Ambiente de Homologação DEV
         </span>
       </div>
@@ -101,7 +101,7 @@ export const DevRascunhosPage: React.FC = () => {
           <span>Rascunho de Itens de Verificação • Fase R4</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-tight m-0">
+        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-normal m-0">
           Homologação de Itens Inéditos Cebraspe
         </h1>
 
@@ -122,19 +122,19 @@ export const DevRascunhosPage: React.FC = () => {
         {/* Métricas dos Rascunhos */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Total Itens</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Total Itens</span>
             <span className="text-2xl font-black text-ink">{stats.total}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Gabarito CERTO</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Gabarito CERTO</span>
             <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400">{stats.certos}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Gabarito ERRADO</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Gabarito ERRADO</span>
             <span className="text-2xl font-black text-amber-600 dark:text-amber-400">{stats.errados}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Submódulos</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Submódulos</span>
             <span className="text-2xl font-black text-ink">{stats.submodulos}/40</span>
           </div>
         </div>
@@ -150,7 +150,7 @@ export const DevRascunhosPage: React.FC = () => {
               placeholder="Buscar por termo, autor, norma..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-3 py-2 text-xs rounded-md bg-surface-2 border border-border text-ink focus:outline-none focus:border-accent transition-colors"
+              className="w-full pl-9 pr-3 py-2 text-xs rounded-md bg-surface-2 border border-border text-ink foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 transition-colors"
             />
           </div>
 
@@ -244,7 +244,7 @@ export const DevRascunhosPage: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => handleGoToSubmodule(draft.submoduloId)}
-                      className="inline-flex items-center gap-1 text-[11px] font-semibold text-accent hover:underline cursor-pointer"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-accent hover:underline cursor-pointer"
                       title={`Ir para a teoria do submódulo ${draft.submoduloId}`}
                     >
                       <BookOpen className="w-3.5 h-3.5" />
@@ -289,7 +289,7 @@ export const DevRascunhosPage: React.FC = () => {
                 {/* Justificativa e Doutrina */}
                 <div className="space-y-2 text-xs pt-1">
                   <div className="p-3 rounded-lg bg-surface border border-border space-y-1">
-                    <span className="font-bold text-ink uppercase tracking-wider text-[11px] block">
+                    <span className="font-bold text-ink uppercase tracking-wider text-xs block">
                       Justificativa Técnica:
                     </span>
                     <p className="text-ink-2 font-serif-reading text-sm leading-relaxed m-0">
@@ -297,7 +297,7 @@ export const DevRascunhosPage: React.FC = () => {
                     </p>
                   </div>
 
-                  <div className="flex items-center gap-1.5 text-ink-2 font-mono text-[11px]">
+                  <div className="flex items-center gap-1.5 text-ink-2 font-mono text-xs">
                     <span className="font-semibold text-accent">Doutrina / Norma de Referência:</span>
                     <span>{draft.doutrinaReferencia}</span>
                   </div>

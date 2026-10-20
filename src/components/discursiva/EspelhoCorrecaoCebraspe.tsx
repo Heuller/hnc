@@ -79,7 +79,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {/* Nota Final */}
         <div className="p-4 rounded-xl bg-purple-50/60 dark:bg-purple-950/20 border border-purple-200/80 dark:border-purple-900/40 space-y-1">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-purple-700 dark:text-purple-300 font-bold block">
+          <span className="text-xs font-mono uppercase tracking-wider text-purple-700 dark:text-purple-300 font-bold block">
             Nota Final (NC)
           </span>
           <div className="flex items-baseline gap-1.5">
@@ -94,7 +94,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
         {/* Nota de Conteúdo (NCP) */}
         <div className="p-4 rounded-xl bg-surface-2/60 border border-border space-y-1">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-bold block">
+          <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-bold block">
             Conteúdo (NCP)
           </span>
           <div className="flex items-baseline gap-1.5">
@@ -109,7 +109,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
         {/* Desconto Gramatical */}
         <div className="p-4 rounded-xl bg-rose-50/60 dark:bg-rose-950/20 border border-rose-200/80 dark:border-rose-900/40 space-y-1">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-rose-700 dark:text-rose-300 font-bold block">
+          <span className="text-xs font-mono uppercase tracking-wider text-rose-700 dark:text-rose-300 font-bold block">
             Desconto Língua ({avaliacao.tipo === 'peca_50' ? '6' : '3'}×NE/TL)
           </span>
           <div className="flex items-baseline gap-1.5">
@@ -124,7 +124,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
         {/* Extensão de Linhas */}
         <div className="p-4 rounded-xl bg-surface-2/60 border border-border space-y-1">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-bold block">
+          <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-bold block">
             Linhas Efetivas (TL)
           </span>
           <div className="flex items-baseline gap-1.5">
@@ -143,7 +143,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
           <span className="font-bold">Fórmula Oficial:</span>
           <span>{avaliacao.formulaAplicada}</span>
         </div>
-        <span className="text-[11px] text-ink-2">
+        <span className="text-xs text-ink-2">
           1 Erro Gramatical subtrai proporcionalmente à extensão escrita
         </span>
       </div>
@@ -231,7 +231,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
                 key={idx}
                 className="p-3 rounded-xl border border-rose-200 dark:border-rose-900/60 bg-rose-50/40 dark:bg-rose-950/20 text-xs space-y-1.5"
               >
-                <div className="flex items-center justify-between text-[11px] font-mono">
+                <div className="flex items-center justify-between text-xs font-mono">
                   <span className="font-bold text-rose-800 dark:text-rose-300">
                     Linha {erro.linha} · {erro.tipo.toUpperCase()}
                   </span>
@@ -244,7 +244,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
                     <span>→ Sugestão: </span>
                     <span>"{erro.correcao}"</span>
                   </div>
-                  <p className="text-[11px] text-ink-2 font-sans pt-0.5">{erro.explicacao}</p>
+                  <p className="text-xs text-ink-2 font-sans pt-0.5">{erro.explicacao}</p>
                 </div>
               </div>
             ))}
@@ -295,7 +295,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 text-xs">
             <div className="p-3 rounded-lg bg-surface border border-border space-y-1">
-              <span className="text-[10px] font-mono uppercase text-ink-2 font-bold block">
+              <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                 Trecho Original do Candidato
               </span>
               <p className="font-serif italic text-ink-2 leading-relaxed">
@@ -304,7 +304,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
             </div>
 
             <div className="p-3 rounded-lg bg-surface border border-purple-300 dark:border-purple-800 space-y-1">
-              <span className="text-[10px] font-mono uppercase text-purple-700 dark:text-purple-400 font-bold block">
+              <span className="text-xs font-mono uppercase text-purple-700 dark:text-purple-400 font-bold block">
                 Reescrita Sugerida pela Banca
               </span>
               <p className="font-serif text-ink leading-relaxed">
@@ -313,7 +313,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
             </div>
           </div>
 
-          <p className="text-[11px] text-ink-2 font-sans italic">
+          <p className="text-xs text-ink-2 font-sans italic">
             Justificativa: {avaliacao.sugestaoReescritaParagrafo.justificativa}
           </p>
         </div>

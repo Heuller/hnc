@@ -81,10 +81,10 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
           </div>
 
           {/* Conteúdo */}
-          <div className="p-5 space-y-5 overflow-y-auto max-h-[70vh]">
+          <div className="p-5 space-y-5 overflow-y-auto max-h-[70dvh]">
             {shortcuts.map((cat) => (
               <div key={cat.categoria} className="space-y-2.5">
-                <span className="text-[11px] font-mono uppercase tracking-wider font-bold text-accent block">
+                <span className="text-xs font-mono uppercase tracking-wider font-bold text-accent block">
                   {cat.categoria}
                 </span>
                 <div className="space-y-2">
@@ -107,7 +107,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
           </div>
 
           {/* Footer */}
-          <div className="px-5 py-3 bg-surface-2/40 border-t border-border text-[11px] text-ink-2 font-serif text-center">
+          <div className="px-5 py-3 bg-surface-2/40 border-t border-border text-xs text-ink-2 font-serif text-center">
             Pressione <Kbd>ESC</Kbd> para fechar este guia
           </div>
         </motion.div>

@@ -213,7 +213,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.96, y: -8 }}
           transition={{ duration: 0.15 }}
-          className="relative w-full max-w-2xl bg-surface rounded-2xl border border-border shadow-2xl overflow-hidden flex flex-col max-h-[80vh] z-10"
+          className="relative w-full max-w-2xl bg-surface rounded-2xl border border-border shadow-2xl overflow-hidden flex flex-col max-h-[80dvh] z-10"
         >
           {/* Campo de Entrada de Busca */}
           <div className="flex items-center gap-3 px-4 py-3.5 border-b border-border bg-surface-2/40">
@@ -228,7 +228,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
                 setSelectedIndex(0);
               }}
               onKeyDown={handleKeyDown}
-              className="w-full bg-transparent text-ink text-sm sm:text-base placeholder:text-ink-2/60 focus:outline-none"
+              className="w-full bg-transparent text-ink text-sm sm:text-base placeholder:text-ink-2/60 foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
             />
             {query && (
               <button
@@ -258,7 +258,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
                       key={tag}
                       type="button"
                       onClick={() => setQuery(tag)}
-                      className="px-2 py-0.5 rounded-full bg-surface-2 border border-border text-[11px] font-mono text-ink-2 hover:text-ink hover:border-accent cursor-pointer transition-colors"
+                      className="px-2 py-0.5 rounded-full bg-surface-2 border border-border text-xs font-mono text-ink-2 hover:text-ink hover:border-accent cursor-pointer transition-colors"
                     >
                       {tag}
                     </button>
@@ -300,12 +300,12 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
                           <span className="font-bold text-xs sm:text-sm text-ink truncate">
                             {item.titulo}
                           </span>
-                          <span className="text-[10px] font-mono uppercase px-1.5 py-0.2 rounded bg-surface-2 text-ink-2 shrink-0">
+                          <span className="text-xs font-mono uppercase px-1.5 py-0.2 rounded bg-surface-2 text-ink-2 shrink-0">
                             {item.tipo}
                           </span>
                         </div>
 
-                        <p className="text-[11px] text-ink-2/80 truncate font-mono m-0">
+                        <p className="text-xs text-ink-2/80 truncate font-mono m-0">
                           {item.subtitulo}
                         </p>
 
@@ -323,7 +323,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
           </div>
 
           {/* Rodapé do Modal com Atalhos */}
-          <div className="px-4 py-2 bg-surface-2/60 border-t border-border flex items-center justify-between text-[11px] text-ink-2 font-mono">
+          <div className="px-4 py-2 bg-surface-2/60 border-t border-border flex items-center justify-between text-xs text-ink-2 font-mono">
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1">
                 <Kbd>↑</Kbd> <Kbd>↓</Kbd> Navegar

@@ -94,7 +94,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-amber-600 dark:text-amber-400">
               Brain Dump · Recuperação Livre
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Evocação ativa sem consulta · Escreva tudo o que lembrar
             </span>
           </div>
@@ -158,13 +158,13 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
               }}
               placeholder="Digite aqui livremente tudo o que você lembra sobre o tema: conceitos, autores, regras, marcos, diferenças..."
               rows={4}
-              className="w-full p-3 rounded-xl border border-border bg-surface-2/40 text-ink text-xs sm:text-sm font-sans focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent placeholder:text-ink-3 transition-all resize-y"
+              className="w-full p-3 rounded-xl border border-border bg-surface-2/40 text-ink text-xs sm:text-sm font-sans foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 placeholder:text-ink-3 transition-all resize-y"
               aria-label="Área de escrita livre do Brain Dump"
             />
           </div>
 
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <span className="text-[11px] text-ink-2 font-mono">
+            <span className="text-xs text-ink-2 font-mono">
               {textoLivre.trim().split(/\s+/).filter(Boolean).length} palavras escritas
             </span>
 
@@ -192,7 +192,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
           >
             {textoLivre && (
               <div className="p-3 rounded-lg bg-surface border border-border/80 space-y-1">
-                <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
+                <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
                   Sua recuperação livre digitada:
                 </span>
                 <p className="font-serif text-xs text-ink leading-relaxed whitespace-pre-wrap m-0">
@@ -211,7 +211,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
                 </span>
               </div>
 
-              <p className="text-[11px] text-ink-2 font-sans">
+              <p className="text-xs text-ink-2 font-sans">
                 Marque abaixo os conceitos e detalhes que você conseguiu evocar na sua recuperação:
               </p>
 
@@ -260,7 +260,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Fundamentação Canônica:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -268,7 +268,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

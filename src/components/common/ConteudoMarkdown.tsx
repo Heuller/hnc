@@ -81,7 +81,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
         components={{
           h1: ({ children, ...props }) => (
             <h1
-              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight mt-8 mb-4 border-b border-border pb-2 break-words"
+              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mt-8 mb-4 border-b border-border pb-2 break-words"
               {...props}
             >
               {children}
@@ -89,7 +89,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           h2: ({ children, ...props }) => (
             <h2
-              className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-tight mt-7 mb-3.5 flex items-center gap-2.5 break-words"
+              className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-7 mb-3.5 flex items-center gap-2.5 break-words"
               {...props}
             >
               <span className="w-2 h-6 rounded-full inline-block shrink-0 bg-accent shadow-xs" />
@@ -98,7 +98,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           h3: ({ children, ...props }) => (
             <h3
-              className="text-base sm:text-lg font-sans font-extrabold tracking-tight mt-6 mb-3 flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl border border-border bg-surface-2 break-words"
+              className="text-base sm:text-lg font-sans font-extrabold tracking-normal mt-6 mb-3 flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl border border-border bg-surface-2 break-words"
               {...props}
             >
               <Bookmark className="w-4 h-4 shrink-0 text-accent" />

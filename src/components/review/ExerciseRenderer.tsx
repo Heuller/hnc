@@ -131,7 +131,7 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
           <div className="p-3.5 rounded-xl bg-surface border border-accent/30 space-y-2">
             <div className="text-xs font-sans font-semibold text-accent flex items-center justify-between">
               <span>Aferição Metacognitiva de Confiança</span>
-              <span className="text-[11px] text-ink-3">Calibre seu nível de certeza no julgamento</span>
+              <span className="text-xs text-ink-3">Calibre seu nível de certeza no julgamento</span>
             </div>
             <ConfidenceSelector
               valorSelecionado={confianca || undefined}

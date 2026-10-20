@@ -45,7 +45,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
           <header className="h-14 px-4 border-b border-border flex items-center justify-between shrink-0 bg-surface/95 backdrop-blur-md">
             <div className="flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-accent" />
-              <h2 id="mobile-modules-title" className="text-sm font-bold tracking-tight text-ink">
+              <h2 id="mobile-modules-title" className="text-sm font-bold tracking-normal text-ink">
                 Grade Curricular (M1–M14)
               </h2>
             </div>
@@ -96,7 +96,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
                         <h3 className="text-xs font-bold text-ink truncate">
                           {modulo.titulo}
                         </h3>
-                        <span className="text-[10px] text-ink-2 font-mono">
+                        <span className="text-xs text-ink-2 font-mono">
                           {subsLidos}/{totalSubs} concluídos ({moduloPercent}%)
                         </span>
                       </div>

@@ -72,7 +72,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
               Par Confundível · Contraste e Intercalação
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Diferencie conceitos que a banca confunde intencionalmente
             </span>
           </div>
@@ -102,7 +102,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
 
       {/* Afirmação a Ser Julgada */}
       <div className="p-4 rounded-xl bg-surface-2/60 border border-border space-y-1">
-        <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
+        <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
           A afirmação a seguir refere-se a qual dos dois conceitos?
         </span>
         <p className="font-serif text-sm sm:text-base text-ink leading-relaxed m-0 font-normal">
@@ -132,7 +132,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
             <span className="font-bold text-xs block mb-0.5 opacity-80">[A]</span>
             <span className="leading-tight block font-semibold">{exercicio.conceitoA}</span>
           </div>
-          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 shrink-0">
+          <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 shrink-0">
             A
           </span>
         </button>
@@ -157,7 +157,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
             <span className="font-bold text-xs block mb-0.5 opacity-80">[B]</span>
             <span className="leading-tight block font-semibold">{exercicio.conceitoB}</span>
           </div>
-          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 shrink-0">
+          <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 shrink-0">
             B
           </span>
         </button>
@@ -203,7 +203,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
             )}
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Fundamentação Detalhada:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -211,7 +211,7 @@ export const ExercicioX5ParConfundivel: React.FC<ExercicioProps<ExercicioX5>> = 
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

@@ -116,7 +116,7 @@ export const ExLibrisCamaraIllustration: React.FC<IllustrationProps> = ({
  * Simboliza o julgamento rigoroso de assertivas (C) e (E).
  */
 export const BalancaCebraspeIllustration: React.FC<IllustrationProps> = ({
-  className = 'w-16 h-16 text-amber-600',
+  className = 'w-16 h-16 text-accent',
 }) => (
   <svg
     viewBox="0 0 100 100"
@@ -170,7 +170,7 @@ export const FichaOtletIllustration: React.FC<IllustrationProps> = ({
     <rect x="6" y="6" width="108" height="68" rx="4" stroke="currentColor" strokeWidth="1.5" fill="currentColor" fillOpacity="0.04" />
     
     {/* Furo central inferior padrão catálogo fichário */}
-    <circle cx="60" cy="62" r="3.5" stroke="currentColor" strokeWidth="1.5" fill="var(--surface, #fff)" />
+    <circle cx="60" cy="62" r="3.5" stroke="currentColor" strokeWidth="1.5" fill="var(--surface)" />
 
     {/* Cabeçalho da ficha (Notação de Autor / CDU) */}
     <rect x="14" y="14" width="22" height="6" rx="1" fill="currentColor" fillOpacity="0.3" />

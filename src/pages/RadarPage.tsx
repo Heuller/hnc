@@ -120,7 +120,7 @@ export const RadarPage: React.FC = () => {
               Mapeamento Doutrinário e Jurisprudência da Banca
             </span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal">
             Radar Cebraspe: Padrões e Armadilhas
           </h1>
           <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed">
@@ -146,7 +146,7 @@ export const RadarPage: React.FC = () => {
           <div className="space-y-1">
             <h2 className="text-xs font-sans font-bold text-ink uppercase tracking-wider flex items-center gap-2 flex-wrap">
               <span>Marco Temporal Normativo do Edital nº 1/2026 (Itens 13.33 a 13.34.1)</span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-accent/15 text-accent font-semibold">
+              <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent/15 text-accent font-semibold">
                 Auditado Cebraspe
               </span>
             </h2>
@@ -156,10 +156,10 @@ export const RadarPage: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-row md:flex-col gap-2 shrink-0 w-full md:w-auto justify-between md:items-end">
-          <Badge variant="accent" className="font-mono text-[11px] shrink-0">
+          <Badge variant="accent" className="font-mono text-xs shrink-0">
             Corte: 17/12/2026 (-30d)
           </Badge>
-          <span className="text-[11px] font-mono text-ink-3">
+          <span className="text-xs font-mono text-ink-3">
             Prova: 17/01/2027
           </span>
         </div>
@@ -175,7 +175,7 @@ export const RadarPage: React.FC = () => {
             <Filter className="w-4 h-4 text-accent" />
             <span>Filtros Curriculares & Editalícios</span>
           </div>
-          <span className="font-mono text-[11px] text-ink-3 font-normal">
+          <span className="font-mono text-xs text-ink-3 font-normal">
             {selectedBloco === 'todos' ? 'Edital nº 1/2026 Integral' : blocoAtivo?.label} •{' '}
             {selectedMacro === 'todos' ? `M1-M${COURSE_REGISTRY.length}` : `Módulo ${selectedMacro}`}
           </span>
@@ -183,11 +183,11 @@ export const RadarPage: React.FC = () => {
 
         {/* Filtro por Bloco Oficial do Edital 2026 */}
         <div className="space-y-1.5">
-          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
-            <span className="font-semibold text-accent uppercase tracking-wider text-[10px]">
+          <div className="flex items-center justify-between text-xs font-sans font-medium text-ink-2">
+            <span className="font-semibold text-accent uppercase tracking-wider text-xs">
               Bloco Oficial do Edital nº 1/2026:
             </span>
-            <span className="text-[10px] text-ink-3 hidden sm:inline">
+            <span className="text-xs text-ink-3 hidden sm:inline">
               {blocoAtivo?.desc}
             </span>
           </div>
@@ -216,10 +216,10 @@ export const RadarPage: React.FC = () => {
 
         {/* Filtro por Macro-Módulo didático */}
         <div className="space-y-1.5 pt-1.5 border-t border-border/40">
-          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
+          <div className="flex items-center justify-between text-xs font-sans font-medium text-ink-2">
             <span>Macro-Módulo Didático:</span>
             {selectedBloco !== 'todos' && (
-              <span className="text-[10px] text-accent font-mono">
+              <span className="text-xs text-accent font-mono">
                 {macrosDisponiveis.length} módulos no {blocoAtivo?.label}
               </span>
             )}
@@ -262,10 +262,10 @@ export const RadarPage: React.FC = () => {
 
         {/* Filtro por Submódulo (Contextual e Sanfonado) */}
         <div className="space-y-1.5 pt-1.5 border-t border-border/40">
-          <div className="flex items-center justify-between text-[11px] font-sans font-medium text-ink-2">
+          <div className="flex items-center justify-between text-xs font-sans font-medium text-ink-2">
             <span>Submódulo Contextual:</span>
             {selectedMacro === 'todos' && (
-              <span className="text-[10px] text-ink-3 italic">
+              <span className="text-xs text-ink-3 italic">
                 (Selecione um macro-módulo acima para detalhar submódulos específicos)
               </span>
             )}
@@ -478,7 +478,7 @@ export const RadarPage: React.FC = () => {
                       <span className="font-mono text-xs font-bold text-ink-2">
                         Item {q.numero} • Submódulo {q.subId}
                       </span>
-                      <span className="font-mono text-[11px] text-ink-2 truncate max-w-[200px]">
+                      <span className="font-mono text-xs text-ink-2 truncate max-w-[200px]">
                         {q.fonte}
                       </span>
                     </div>

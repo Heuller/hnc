@@ -61,7 +61,7 @@ export const BottomNav: React.FC = () => {
                 />
               </div>
 
-              <span className="text-[10px] leading-tight tracking-tight truncate max-w-full">
+              <span className="text-xs leading-tight tracking-normal truncate max-w-full">
                 {tab.label}
               </span>
             </button>

@@ -168,7 +168,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
       aria-labelledby="simulado-adaptativo-titulo"
       className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
     >
-      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92vh] flex flex-col shadow-editorial-xl overflow-hidden">
+      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92dvh] flex flex-col shadow-editorial-xl overflow-hidden">
         {/* CABEÇALHO DO SIMULADO ADAPTATIVO */}
         <header className="p-4 sm:p-5 border-b border-border bg-surface-2 flex items-center justify-between gap-3 shrink-0">
           <div className="flex items-center gap-3">
@@ -177,7 +177,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/15 text-accent font-bold border border-accent/30">
+                <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/15 text-accent font-bold border border-accent/30">
                   Simulado Adaptativo IA
                 </span>
                 <span className="text-xs font-mono text-ink-2 hidden sm:inline">
@@ -186,7 +186,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
               </div>
               <h2
                 id="simulado-adaptativo-titulo"
-                className="text-base sm:text-lg font-serif font-bold text-ink tracking-tight m-0"
+                className="text-base sm:text-lg font-serif font-bold text-ink tracking-normal m-0"
               >
                 {etapa === 'config' && 'Configuração do Treino Personalizado de Fraquezas'}
                 {etapa === 'executando' && `Simulado em Andamento · Item ${itemAtualIndex + 1} de ${itensSimulado.length}`}
@@ -253,7 +253,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                             {v.titulo}
                           </span>
                           <span
-                            className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold ${
+                            className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                               v.nivelGravidade === 'CRITICA'
                                 ? 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
                                 : 'bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30'
@@ -263,7 +263,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                           </span>
                         </div>
                         {v.pontosCegosIdentificados[0] && (
-                          <p className="text-[11px] text-ink-2 italic m-0 line-clamp-1">
+                          <p className="text-xs text-ink-2 italic m-0 line-clamp-1">
                             "{v.pontosCegosIdentificados[0]}"
                           </p>
                         )}
@@ -313,7 +313,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         <Target className="w-3.5 h-3.5 text-accent" />
                         <span>Fraquezas Críticas</span>
                       </div>
-                      <p className="text-[11px] leading-relaxed m-0">
+                      <p className="text-xs leading-relaxed m-0">
                         Concentra 80% das assertivas nos submódulos onde você mais errou.
                       </p>
                     </button>
@@ -331,7 +331,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         <RotateCcw className="w-3.5 h-3.5 text-accent" />
                         <span>Erradicação do Caderno</span>
                       </div>
-                      <p className="text-[11px] leading-relaxed m-0">
+                      <p className="text-xs leading-relaxed m-0">
                         Retesta e aprofunda os itens exatos do seu Caderno de Erros.
                       </p>
                     </button>
@@ -394,7 +394,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     }`}
                   >
                     <span>CERTO</span>
-                    <span className="text-[10px] font-mono opacity-60 hidden sm:inline">(C)</span>
+                    <span className="text-xs font-mono opacity-60 hidden sm:inline">(C)</span>
                   </button>
 
                   <button
@@ -407,7 +407,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     }`}
                   >
                     <span>ERRADO</span>
-                    <span className="text-[10px] font-mono opacity-60 hidden sm:inline">(E)</span>
+                    <span className="text-xs font-mono opacity-60 hidden sm:inline">(E)</span>
                   </button>
 
                   <button
@@ -420,7 +420,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     }`}
                   >
                     <span>EM BRANCO</span>
-                    <span className="text-[10px] font-mono opacity-60 hidden sm:inline">(B)</span>
+                    <span className="text-xs font-mono opacity-60 hidden sm:inline">(B)</span>
                   </button>
                 </div>
               </div>
@@ -448,7 +448,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         key={it.id}
                         type="button"
                         onClick={() => setItemAtualIndex(idx)}
-                        className={`w-7 h-7 rounded-lg text-[11px] font-mono font-bold shrink-0 cursor-pointer border transition-colors ${
+                        className={`w-7 h-7 rounded-lg text-xs font-mono font-bold shrink-0 cursor-pointer border transition-colors ${
                           ehAtual
                             ? 'border-accent bg-accent text-accent-text'
                             : resp
@@ -503,7 +503,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   <div className="p-3.5 rounded-xl bg-surface-2 border border-border text-center">
-                    <span className="text-[10px] font-mono uppercase text-ink-2 font-bold block">
+                    <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Nota Líquida (C - E)
                     </span>
                     <span
@@ -518,7 +518,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-surface-2 border border-border text-center">
-                    <span className="text-[10px] font-mono uppercase text-ink-2 font-bold block">
+                    <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Certos (C)
                     </span>
                     <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400">
@@ -527,7 +527,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-surface-2 border border-border text-center">
-                    <span className="text-[10px] font-mono uppercase text-ink-2 font-bold block">
+                    <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Errados (E)
                     </span>
                     <span className="text-2xl font-black text-rose-600 dark:text-rose-400">
@@ -536,7 +536,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-surface-2 border border-border text-center">
-                    <span className="text-[10px] font-mono uppercase text-ink-2 font-bold block">
+                    <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Em Branco
                     </span>
                     <span className="text-2xl font-black text-ink-2">
@@ -554,7 +554,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         ? 'Excelente aproveitamento líquido! Domínio firme das armadilhas da banca.'
                         : 'Treino diagnóstico concluído. Revise as assertivas que geraram penalidade abaixo.'}
                     </span>
-                    <p className="text-[11px] text-ink-2 m-0">
+                    <p className="text-xs text-ink-2 m-0">
                       Aproveitamento líquido: {resultadoFinal.aproveitamentoLiquidoPercentual}% da pontuação máxima.
                     </p>
                   </div>
@@ -600,19 +600,19 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
 
                         <div className="flex items-center gap-2">
                           {acertou === true && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600">
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600">
                               <CheckCircle2 className="w-3.5 h-3.5" />
                               <span>Acertou (+1)</span>
                             </span>
                           )}
                           {acertou === false && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-rose-600">
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-rose-600">
                               <XCircle className="w-3.5 h-3.5" />
                               <span>Errou (-1)</span>
                             </span>
                           )}
                           {escolha === 'BRANCO' && (
-                            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-ink-2">
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-ink-2">
                               <HelpCircle className="w-3.5 h-3.5" />
                               <span>Em Branco (0)</span>
                             </span>
@@ -636,7 +636,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                       </div>
 
                       <div className="p-3 rounded-lg bg-surface-2 border border-border space-y-1 text-xs">
-                        <span className="font-bold text-ink block text-[11px] uppercase">
+                        <span className="font-bold text-ink block text-xs uppercase">
                           Fundamento Canônico:
                         </span>
                         <p className="text-ink-2 font-serif-reading m-0">

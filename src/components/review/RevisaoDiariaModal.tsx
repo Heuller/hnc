@@ -97,7 +97,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
         initial={{ opacity: 0, scale: 0.96 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.96 }}
-        className="w-full max-w-2xl bg-surface border border-border rounded-2xl shadow-editorial-lg overflow-hidden flex flex-col my-auto max-h-[92vh]"
+        className="w-full max-w-2xl bg-surface border border-border rounded-2xl shadow-editorial-lg overflow-hidden flex flex-col my-auto max-h-[92dvh]"
       >
         {/* Cabeçalho */}
         <div className="p-4 sm:p-5 border-b border-border bg-surface-2/40 flex items-center justify-between shrink-0">
@@ -163,7 +163,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
                 <span className="font-semibold text-accent font-sans">
                   {itemAtual.conceito.topico}
                 </span>
-                <span className="font-mono text-[11px] bg-surface-2 px-2 py-0.5 rounded border border-border">
+                <span className="font-mono text-xs bg-surface-2 px-2 py-0.5 rounded border border-border">
                   Submódulo {itemAtual.conceito.submoduloId}
                 </span>
               </div>
@@ -197,7 +197,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
               {/* Grade de Estatísticas */}
               <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto">
                 <div className="p-3.5 rounded-xl bg-surface-2/60 border border-border text-center">
-                  <span className="text-[10px] font-sans text-ink-2 uppercase tracking-wider block">
+                  <span className="text-xs font-sans text-ink-2 uppercase tracking-wider block">
                     Aproveitamento
                   </span>
                   <span className="text-2xl font-serif font-bold text-ink">
@@ -205,7 +205,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
                   </span>
                 </div>
                 <div className="p-3.5 rounded-xl bg-surface-2/60 border border-border text-center">
-                  <span className="text-[10px] font-sans text-ink-2 uppercase tracking-wider block">
+                  <span className="text-xs font-sans text-ink-2 uppercase tracking-wider block">
                     Acertos / Total
                   </span>
                   <span className="text-2xl font-serif font-bold text-ink">
@@ -219,7 +219,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
                   <Sparkles className="w-4 h-4 shrink-0" />
                   <span>Consolidação de Memória</span>
                 </div>
-                <p className="text-[11px] leading-relaxed">
+                <p className="text-xs leading-relaxed">
                   Os conceitos acertados avançaram na escala de Leitner em dias úteis. Conceitos com erro foram retornados à Caixa 1 com prioridade aumentada para fixação sólida.
                 </p>
               </div>

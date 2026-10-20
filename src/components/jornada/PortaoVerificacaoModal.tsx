@@ -317,7 +317,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.97, y: 10 }}
         transition={{ duration: 0.2, ease: 'easeOut' }}
-        className="w-full max-w-2xl bg-surface border border-border rounded-2xl shadow-editorial-lg overflow-hidden my-auto flex flex-col max-h-[90vh]"
+        className="w-full max-w-2xl bg-surface border border-border rounded-2xl shadow-editorial-lg overflow-hidden my-auto flex flex-col max-h-[90dvh]"
       >
         {/* Top bar com badge do módulo e botão fechar */}
         <div className="p-4 sm:p-5 border-b border-border flex items-center justify-between gap-3 bg-surface-2/40 shrink-0">
@@ -336,7 +336,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
               <h2 id="portao-modal-title" className="text-sm sm:text-base font-serif font-bold text-ink leading-snug break-words">
                 {etapa.titulo}
               </h2>
-              <p className="text-[11px] text-ink-2 font-mono">
+              <p className="text-xs text-ink-2 font-mono">
                 {etapa.tipo === 'submodulo'
                   ? 'Verificação de Domínio'
                   : etapa.tipo === 'desafio_modulo'
@@ -501,7 +501,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
               {/* Enunciado do Item */}
               <div className="p-4 sm:p-5 rounded-xl bg-surface-2/30 border border-border space-y-2">
                 {currentItem.pergunta && (
-                  <span className="text-[11px] font-mono text-accent font-semibold tracking-wider uppercase block">
+                  <span className="text-xs font-mono text-accent font-semibold tracking-wider uppercase block">
                     {currentItem.pergunta}
                   </span>
                 )}
@@ -582,7 +582,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                       )}
                     </div>
                     <span
-                      className={`px-2 py-0.5 rounded font-mono font-bold text-[11px] ${
+                      className={`px-2 py-0.5 rounded font-mono font-bold text-xs ${
                         currentItem.gabarito === 'C'
                           ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
                           : 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
@@ -595,7 +595,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                   {/* Armadilha da Banca */}
                   {currentItem.armadilhaBanca && (
                     <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/25 space-y-1 text-amber-800 dark:text-amber-200">
-                      <div className="flex items-center gap-1.5 font-bold text-[11px] uppercase tracking-wide text-amber-600 dark:text-amber-400">
+                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-amber-600 dark:text-amber-400">
                         <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
                         <span>Armadilha Cebraspe Identificada</span>
                       </div>
@@ -605,7 +605,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
 
                   {/* Justificativa Técnica */}
                   <div className="p-3 rounded-lg bg-surface border border-border/80 space-y-1 text-ink">
-                    <span className="font-bold text-[11px] uppercase tracking-wide text-ink-2 block">
+                    <span className="font-bold text-xs uppercase tracking-wide text-ink-2 block">
                       Justificativa e Fundamentação Técnica
                     </span>
                     <p className="font-serif leading-relaxed text-xs sm:text-[13px]">{currentItem.justificativa}</p>
@@ -684,19 +684,19 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
             {/* Painel de Métricas */}
             <div className="grid grid-cols-3 gap-3 text-center">
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-                <span className="text-[11px] font-mono text-ink-2 uppercase block">Acertos</span>
+                <span className="text-xs font-mono text-ink-2 uppercase block">Acertos</span>
                 <span className="text-lg font-bold text-emerald-600 dark:text-emerald-400">
                   {ultimaTentativa.acertos} / {ultimaTentativa.totalItens}
                 </span>
               </div>
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-                <span className="text-[11px] font-mono text-ink-2 uppercase block">Aproveitamento</span>
+                <span className="text-xs font-mono text-ink-2 uppercase block">Aproveitamento</span>
                 <span className="text-lg font-bold text-ink">
                   {Math.round(ultimaTentativa.aproveitamento * 100)}%
                 </span>
               </div>
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
-                <span className="text-[11px] font-mono text-ink-2 uppercase block">Nota Líquida (C - E)</span>
+                <span className="text-xs font-mono text-ink-2 uppercase block">Nota Líquida (C - E)</span>
                 <span className="text-lg font-bold text-accent">
                   {ultimaTentativa.notaLiquida} pts
                 </span>
@@ -722,7 +722,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                           : 'bg-rose-500/5 border-rose-500/30'
                       }`}
                     >
-                      <div className="flex items-center justify-between font-mono text-[10px] flex-wrap gap-2">
+                      <div className="flex items-center justify-between font-mono text-xs flex-wrap gap-2">
                         <span
                           className={`font-semibold ${
                             item.acertou
@@ -743,7 +743,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                       {item.texto && <p className="text-ink font-serif leading-relaxed">{item.texto}</p>}
 
                       {quizItem?.armadilhaBanca && (
-                        <div className="p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-800 dark:text-amber-200 text-[11px] space-y-0.5">
+                        <div className="p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-800 dark:text-amber-200 text-xs space-y-0.5">
                           <span className="font-bold uppercase tracking-wider block text-amber-700 dark:text-amber-300">
                             Armadilha Cebraspe
                           </span>
@@ -752,7 +752,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                       )}
 
                       {quizItem?.justificativa && (
-                        <div className="p-2.5 rounded-lg bg-surface border border-border/80 text-ink text-[11px] space-y-0.5">
+                        <div className="p-2.5 rounded-lg bg-surface border border-border/80 text-ink text-xs space-y-0.5">
                           <span className="font-bold uppercase tracking-wider text-ink-2 block">
                             Justificativa Técnica
                           </span>

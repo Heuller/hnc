@@ -142,21 +142,21 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
             {/* Nota Humana */}
             <div className="p-3 rounded-xl bg-surface border border-border">
-              <span className="text-[10px] font-mono uppercase text-ink-2 block">Sua Autoavaliação</span>
+              <span className="text-xs font-mono uppercase text-ink-2 block">Sua Autoavaliação</span>
               <span className="text-2xl font-serif font-black text-ink">{notaHumanaFinal.toFixed(2)} pts</span>
-              <span className="text-[10px] text-ink-2 block">NC: {notaConteudoHumana} | NE: {errosGramaticais}</span>
+              <span className="text-xs text-ink-2 block">NC: {notaConteudoHumana} | NE: {errosGramaticais}</span>
             </div>
 
             {/* Nota IA */}
             <div className="p-3 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-900">
-              <span className="text-[10px] font-mono uppercase text-purple-700 dark:text-purple-300 block">Correção IA (Cebraspe)</span>
+              <span className="text-xs font-mono uppercase text-purple-700 dark:text-purple-300 block">Correção IA (Cebraspe)</span>
               <span className="text-2xl font-serif font-black text-purple-900 dark:text-purple-100">{avaliacaoIA.notaFinal.toFixed(2)} pts</span>
-              <span className="text-[10px] text-purple-600 dark:text-purple-400 block">NC: {avaliacaoIA.notaConteudo} | NE: {avaliacaoIA.numErrosGramaticais}</span>
+              <span className="text-xs text-purple-600 dark:text-purple-400 block">NC: {avaliacaoIA.notaConteudo} | NE: {avaliacaoIA.numErrosGramaticais}</span>
             </div>
 
             {/* Delta */}
             <div className="p-3 rounded-xl bg-surface border border-border">
-              <span className="text-[10px] font-mono uppercase text-ink-2 block">Diferença (Δ = Humano - IA)</span>
+              <span className="text-xs font-mono uppercase text-ink-2 block">Diferença (Δ = Humano - IA)</span>
               <span
                 className={`text-2xl font-serif font-black ${
                   deltaCalibracao! > 0 ? 'text-amber-600' : deltaCalibracao! < 0 ? 'text-blue-600' : 'text-emerald-600'
@@ -164,7 +164,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
               >
                 {deltaCalibracao! > 0 ? `+${deltaCalibracao}` : deltaCalibracao} pts
               </span>
-              <span className="text-[10px] text-ink-2 block">
+              <span className="text-xs text-ink-2 block">
                 {deltaCalibracao! > 2.0
                   ? 'Você foi mais generoso que a banca'
                   : deltaCalibracao! < -2.0
@@ -174,7 +174,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             </div>
           </div>
 
-          <p className="text-[11px] text-ink-2 font-serif italic">
+          <p className="text-xs text-ink-2 font-serif italic">
             *Regra do Edital nº 1/2026 (item 9.8.4.1.2): Duas correções são convergentes se a diferença for de até 25% da nota máxima ({limiteConvergenciaCebraspe} pts). Caso divirjam em mais de 25%, uma terceira correção é acionada.
           </p>
         </div>
@@ -204,7 +204,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
                 <div className="flex items-start justify-between gap-3">
                   <div className="space-y-0.5">
                     <h4 className="text-xs font-bold text-ink font-serif">{crit.item}</h4>
-                    <p className="text-[11px] text-ink-2 leading-relaxed">{crit.descricaoEsperada}</p>
+                    <p className="text-xs text-ink-2 leading-relaxed">{crit.descricaoEsperada}</p>
                   </div>
                   <div className="text-right shrink-0">
                     <span className="text-sm font-mono font-bold text-purple-700 dark:text-purple-400">
@@ -214,7 +214,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
                 </div>
 
                 {/* Opções de Conceito Cebraspe (0 a 3) */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-mono text-[11px]">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-mono text-xs">
                   {[
                     { valor: 0, label: '0 (Não abordou / 0%)' },
                     { valor: 1, label: '1 (Superficial / 33%)' },
@@ -248,7 +248,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
             <span className="text-xs font-mono font-bold uppercase text-ink block">
               Erros de Língua Portuguesa Identificados na Sua Leitura (NE)
             </span>
-            <span className="text-[11px] text-ink-2">
+            <span className="text-xs text-ink-2">
               Ortografia, acentuação, pontuação, crase, concordância ou regência
             </span>
           </div>
@@ -269,7 +269,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           </div>
         </div>
 
-        <div className="text-[11px] font-mono text-ink-2 flex items-center justify-between border-t border-border/60 pt-2">
+        <div className="text-xs font-mono text-ink-2 flex items-center justify-between border-t border-border/60 pt-2">
           <span>
             Fórmula: {isPeca ? 'NPT = NC - 6 × (NE/TL)' : 'NQ = NC - 3 × (NE/TL)'} = {notaConteudoHumana.toFixed(2)} - {descontoHumano.toFixed(2)} = <strong className="text-ink">{notaHumanaFinal.toFixed(2)} pts</strong>
           </span>

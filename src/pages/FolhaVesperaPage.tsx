@@ -111,7 +111,7 @@ export const FolhaVesperaPage: React.FC = () => {
         </button>
 
         <div className="flex items-center gap-2">
-          <span className="text-[11px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
+          <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
             Revisão de Véspera (48h) • Edital nº 1/2026
           </span>
           <button
@@ -133,7 +133,7 @@ export const FolhaVesperaPage: React.FC = () => {
           <span>Folha de Véspera • Matriz de Choque & Síntese</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-ink tracking-tight m-0">
+        <h1 className="text-2xl sm:text-3xl font-black text-ink tracking-normal m-0">
           Folha de Véspera: Matriz dos 5 Blocos do Edital 2026
         </h1>
 
@@ -175,14 +175,14 @@ export const FolhaVesperaPage: React.FC = () => {
       <div className="hidden print:block border-b-2 border-black pb-3 mb-6">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-xl font-black uppercase tracking-tight text-black m-0">
+            <h1 className="text-xl font-black uppercase tracking-normal text-black m-0">
               Heuller na Câmara · Folha de Véspera (48 Horas)
             </h1>
             <p className="text-xs text-gray-700 m-0">
               Concurso Câmara dos Deputados · Analista Legislativo — Bibliotecário · Banca Cebraspe
             </p>
           </div>
-          <div className="text-right text-[10px] font-mono text-gray-600">
+          <div className="text-right text-xs font-mono text-gray-600">
             <span>Matriz dos 5 Blocos ({totalPegadinhasBlocos} Pegadinhas)</span>
             <br />
             <span>Documento de Revisão de Véspera</span>
@@ -233,11 +233,11 @@ export const FolhaVesperaPage: React.FC = () => {
                 <span className="px-2 py-0.5 rounded bg-accent text-white text-xs font-black font-mono">
                   {bloco.sigla}
                 </span>
-                <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-tight">
+                <h2 className="text-base sm:text-lg font-black text-ink print:text-black m-0 tracking-normal">
                   {bloco.titulo}
                 </h2>
               </div>
-              <span className="text-[11px] font-mono text-ink-2 font-medium">
+              <span className="text-xs font-mono text-ink-2 font-medium">
                 Módulos: {bloco.modulosRelacionados.join(', ')} • {bloco.pegadinhas.length} Pegadinhas Capitais
               </span>
             </div>
@@ -252,7 +252,7 @@ export const FolhaVesperaPage: React.FC = () => {
                   key={item.id}
                   className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2 text-xs font-serif leading-relaxed text-ink print:text-black"
                 >
-                  <div className="flex items-center justify-between gap-2 font-mono text-[10px] border-b border-border/50 pb-1.5">
+                  <div className="flex items-center justify-between gap-2 font-mono text-xs border-b border-border/50 pb-1.5">
                     <span className="font-bold text-accent uppercase">
                       #{pIdx + 1} · {item.topico}
                     </span>
@@ -262,7 +262,7 @@ export const FolhaVesperaPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <span className="font-semibold text-ink-2 text-[11px] block mb-0.5">
+                    <span className="font-semibold text-ink-2 text-xs block mb-0.5">
                       Assertiva Típica Cebraspe:
                     </span>
                     <p className="font-medium italic m-0 text-ink bg-surface/60 p-2 rounded border border-border/60">
@@ -270,14 +270,14 @@ export const FolhaVesperaPage: React.FC = () => {
                     </p>
                   </div>
 
-                  <div className="text-[11px] space-y-1">
+                  <div className="text-xs space-y-1">
                     <p className="m-0 text-red-600 dark:text-red-400">
                       <strong>⚠️ Armadilha da Banca:</strong> {item.armadilhaCebraspe}
                     </p>
                     <p className="m-0 text-emerald-700 dark:text-emerald-400">
                       <strong>Fundamentação Canônica:</strong> {item.fundamentacaoCanonico}
                     </p>
-                    <p className="m-0 text-ink-2 font-mono text-[10px]">
+                    <p className="m-0 text-ink-2 font-mono text-xs">
                       <strong>Fonte Primária:</strong> {item.fontePrimaria} (Ref: §{item.submoduloRef})
                     </p>
                   </div>
@@ -336,11 +336,11 @@ export const FolhaVesperaPage: React.FC = () => {
                         <span className="font-bold text-ink print:text-black block text-xs">
                           {item.nome}
                         </span>
-                        <span className="text-[10px] font-mono text-accent print:text-gray-700">
+                        <span className="text-xs font-mono text-accent print:text-gray-700">
                           §{item.subNumero}
                         </span>
                       </div>
-                      <p className="text-[11px] text-ink-2 print:text-black leading-snug font-serif m-0">
+                      <p className="text-xs text-ink-2 print:text-black leading-snug font-serif m-0">
                         {item.ideia}
                       </p>
                     </div>
@@ -388,7 +388,7 @@ export const FolhaVesperaPage: React.FC = () => {
                       key={`alerta-${idx}`}
                       className="p-3 rounded-xl bg-amber-500/10 border-l-4 border-l-amber-500 border-y border-r border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
                     >
-                      <div className="flex items-center gap-1.5 text-[10px] font-mono text-amber-600 dark:text-amber-400 uppercase font-bold mb-1">
+                      <div className="flex items-center gap-1.5 text-xs font-mono text-amber-600 dark:text-amber-400 uppercase font-bold mb-1">
                         <span>Alerta Cebraspe • Submódulo {alerta.subNumero}</span>
                       </div>
                       {alerta.texto}
@@ -400,12 +400,12 @@ export const FolhaVesperaPage: React.FC = () => {
                       key={`peg-${idx}`}
                       className="p-3 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 text-xs font-serif leading-relaxed text-ink print:text-black"
                     >
-                      <div className="flex items-center justify-between text-[10px] font-mono text-ink-2 font-bold mb-1">
+                      <div className="flex items-center justify-between text-xs font-mono text-ink-2 font-bold mb-1">
                         <span>Pegadinha Recorrente • Submódulo {pegadinha.subNumero}</span>
                       </div>
                       <p className="font-semibold m-0 text-ink print:text-black">"{pegadinha.afirmacao}"</p>
                       {pegadinha.armadilha && (
-                        <p className="text-[11px] text-accent print:text-black mt-1 m-0">
+                        <p className="text-xs text-accent print:text-black mt-1 m-0">
                           <strong>Armadilha da banca:</strong> {pegadinha.armadilha}
                         </p>
                       )}
@@ -435,12 +435,12 @@ export const FolhaVesperaPage: React.FC = () => {
                         <span className="font-bold text-accent print:text-black font-sans">
                           {item.periodo}
                         </span>
-                        <span className="text-[10px] font-mono text-ink-2">
+                        <span className="text-xs font-mono text-ink-2">
                           Submódulo {item.subNumero}
                         </span>
                       </div>
                       <div className="font-bold text-ink print:text-black">{item.disciplina}</div>
-                      <div className="text-[11px] text-ink-2 print:text-black font-serif">
+                      <div className="text-xs text-ink-2 print:text-black font-serif">
                         {item.focoPrincipal}
                       </div>
                     </div>
@@ -453,7 +453,7 @@ export const FolhaVesperaPage: React.FC = () => {
       </div>
 
       {/* RODAPÉ DE IMPRESSÃO */}
-      <div className="hidden print:block text-center text-[10px] text-gray-500 pt-4 border-t border-gray-300">
+      <div className="hidden print:block text-center text-xs text-gray-500 pt-4 border-t border-gray-300">
         Plataforma Heuller na Câmara · Analista Legislativo — Bibliotecário · Preparação Editorial e Soberba
       </div>
     </div>

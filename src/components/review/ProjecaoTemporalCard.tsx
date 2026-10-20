@@ -65,7 +65,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
           <div className="text-2xl sm:text-3xl font-mono font-bold text-ink">
             {projecao.diasUteisRestantes}
           </div>
-          <div className="text-[11px] text-ink-3 mt-0.5">
+          <div className="text-xs text-ink-3 mt-0.5">
             {projecao.diasCorridosRestantes} dias corridos
           </div>
         </div>
@@ -79,7 +79,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
           <div className="text-2xl sm:text-3xl font-mono font-bold text-emerald-700 dark:text-emerald-400">
             {projecao.capacidadeTotalRevisoes}
           </div>
-          <div className="text-[11px] text-ink-3 mt-0.5">
+          <div className="text-xs text-ink-3 mt-0.5">
             Teto: {projecao.tetoDiarioConfortavel} itens/dia
           </div>
         </div>
@@ -93,7 +93,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
           <div className="text-2xl sm:text-3xl font-mono font-bold text-purple-700 dark:text-purple-400">
             {Math.round(projecao.retencaoProjetadaDataProva * 100)}%
           </div>
-          <div className="text-[11px] text-ink-3 mt-0.5">
+          <div className="text-xs text-ink-3 mt-0.5">
             Meta Cebraspe: ≥ 85%
           </div>
         </div>
@@ -107,7 +107,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
           <div className="text-2xl sm:text-3xl font-mono font-bold text-ink">
             {projecao.ritmoDiarioRecomendado} <span className="text-xs text-ink-3 font-normal">itens/dia</span>
           </div>
-          <div className="text-[11px] text-ink-3 mt-0.5">
+          <div className="text-xs text-ink-3 mt-0.5">
             100% dias úteis
           </div>
         </div>
@@ -165,7 +165,7 @@ export const ProjecaoTemporalCard: React.FC = () => {
         </div>
 
         {/* Legenda */}
-        <div className="flex flex-wrap items-center gap-4 text-[11px] text-ink-3 pt-1">
+        <div className="flex flex-wrap items-center gap-4 text-xs text-ink-3 pt-1">
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
             <span>Dominados (Caixas 4-5)</span>
@@ -203,12 +203,12 @@ export const ProjecaoTemporalCard: React.FC = () => {
                     {marco.titulo}
                   </h4>
                   {marco.concluido ? (
-                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-600">
+                    <span className="inline-flex items-center gap-1 text-xs font-semibold text-emerald-600">
                       <CheckCircle2 className="w-3.5 h-3.5" />
                       Dominado
                     </span>
                   ) : (
-                    <span className="text-[11px] font-mono text-ink-3">
+                    <span className="text-xs font-mono text-ink-3">
                       {marco.conceitosDominados}/{marco.totalConceitos}
                     </span>
                   )}

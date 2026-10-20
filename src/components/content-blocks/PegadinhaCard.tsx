@@ -49,7 +49,7 @@ export const PegadinhaCardList: React.FC<PegadinhaCardProps> = ({
               <button
                 type="button"
                 onClick={() => toggleRevelar(idx)}
-                className="text-xs font-sans font-medium text-accent hover:text-ink flex items-center gap-1 py-1 focus:outline-none focus:underline"
+                className="text-xs font-sans font-medium text-accent hover:text-ink flex items-center gap-1 py-1 foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded"
               >
                 {revelado ? (
                   <>

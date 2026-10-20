@@ -79,7 +79,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
         {/* Identificador Módulo · Submódulo na cor do módulo */}
         <div className="flex items-center gap-2 min-w-0">
           <span
-            className="px-2 py-0.5 rounded text-[11px] font-mono font-bold shrink-0 shadow-2xs"
+            className="px-2 py-0.5 rounded text-xs font-mono font-bold shrink-0 shadow-2xs"
             style={{
               backgroundColor: theme.solidVar,
               color: theme.textVar,
@@ -106,7 +106,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
             mnemonicos={submodulo.mnemonicos}
             tituloModulo={`Submódulo ${submodulo.numero}: ${submodulo.titulo}`}
           />
-          <span className="font-mono text-[10px] text-ink-2 bg-surface-2 px-1.5 py-1 rounded border border-border shrink-0">
+          <span className="font-mono text-xs text-ink-2 bg-surface-2 px-1.5 py-1 rounded border border-border shrink-0">
             {scrollProgress}%
           </span>
         </div>
@@ -177,7 +177,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
                     >
                       <div className="flex items-center gap-2.5">
                         <span
-                          className="w-5 h-5 rounded-md flex items-center justify-center font-mono text-[10px] font-bold"
+                          className="w-5 h-5 rounded-md flex items-center justify-center font-mono text-xs font-bold"
                           style={{
                             backgroundColor: isCurrent ? theme.solidVar : 'var(--surface-2)',
                             color: isCurrent ? theme.textVar : 'var(--ink-2)',
