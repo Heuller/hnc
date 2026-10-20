@@ -52,6 +52,14 @@ describe('P14 — Consertar o Portão de Verificação e o estado da Jornada (J-
     // Botão Próximo deve estar desabilitado porque nenhuma resposta foi selecionada nesta sessão
     const btnProximo = screen.getByRole('button', { name: /Próximo/i });
     expect(btnProximo.hasAttribute('disabled')).toBe(true);
+
+    // Ao responder, o feedback imediato com gabarito e estudo reverso é exibido na hora:
+    const btnCerto = screen.getByRole('button', { name: /CERTO/i });
+    fireEvent.click(btnCerto);
+
+    expect(screen.getByText(/Gabarito:/i)).not.toBeNull();
+    expect(screen.getByText(/Justificativa e Fundamentação Técnica/i)).not.toBeNull();
+    expect(screen.getByRole('button', { name: /Próximo/i }).hasAttribute('disabled')).toBe(false);
   });
 
   it('2. 3/3 na primeira tentativa com modoLivre:true -> getJornadaState devolve aprovado:true, status "concluida", tentativasCount 1', async () => {
