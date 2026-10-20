@@ -159,7 +159,7 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
                 {conn.label && (
                   <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 max-w-full">
                     <ArrowDown className="w-3 h-3 text-slate-400 shrink-0" />
-                    <span className="text-[11px] font-medium text-slate-500 dark:text-slate-400 italic break-words" style={{ overflowWrap: 'anywhere' }}>
+                    <span className="text-xs font-medium text-slate-500 dark:text-slate-400 italic break-words" style={{ overflowWrap: 'anywhere' }}>
                       {conn.label}
                     </span>
                   </div>
@@ -201,12 +201,12 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
                   {step.title}
                 </h4>
                 {step.subtitle && (
-                  <p className="text-[11px] sm:text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5 break-words" style={{ overflowWrap: 'anywhere' }}>
+                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5 break-words" style={{ overflowWrap: 'anywhere' }}>
                     {step.subtitle}
                   </p>
                 )}
                 {step.description && (
-                  <p className="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed break-words" style={{ overflowWrap: 'anywhere' }}>
+                  <p className="text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed break-words" style={{ overflowWrap: 'anywhere' }}>
                     {step.description}
                   </p>
                 )}

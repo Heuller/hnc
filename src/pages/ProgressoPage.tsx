@@ -132,7 +132,7 @@ export const ProgressoPage: React.FC = () => {
             Painel Analítico de Desempenho e Metacognição
           </span>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight mb-2">
+        <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mb-2">
           Evolução Histórica e Diagnóstico de Estudos
         </h1>
         <p className="text-ink-2 font-serif text-sm sm:text-base leading-relaxed max-w-3xl">
@@ -290,7 +290,7 @@ export const ProgressoPage: React.FC = () => {
                 </div>
 
                 <div className="mt-3 pt-2 border-t border-border/60">
-                  <div className="flex items-center justify-between text-[11px] font-mono text-ink-2 mb-1">
+                  <div className="flex items-center justify-between text-xs font-mono text-ink-2 mb-1">
                     <span>Incidência de Erro</span>
                     <span className={taxaErro > 40 ? 'text-err font-bold' : 'text-ink'}>
                       {taxaErro}%

@@ -50,7 +50,7 @@ export const DesignSystemPage: React.FC = () => {
           <span>Design System Editorial • {DESIGN_TOKENS.identidade.nome} v{DESIGN_TOKENS.identidade.versao}</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-black text-ink tracking-tight m-0">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-black text-ink tracking-normal m-0">
           Conceito "Papel e Tinta" (Mobile-First)
         </h1>
 
@@ -80,7 +80,7 @@ export const DesignSystemPage: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div className="p-4 rounded-xl border border-border bg-bg space-y-1.5">
-            <span className="text-[10px] font-mono uppercase font-bold tracking-wider text-ink-2 block">
+            <span className="text-xs font-mono uppercase font-bold tracking-wider text-ink-2 block">
               Nível 1 · Fundo Base
             </span>
             <span className="font-bold text-sm text-ink block">--surface-1 / --bg</span>
@@ -91,7 +91,7 @@ export const DesignSystemPage: React.FC = () => {
           </div>
 
           <div className="p-4 rounded-xl border border-border bg-surface space-y-1.5 shadow-xs">
-            <span className="text-[10px] font-mono uppercase font-bold tracking-wider text-accent block">
+            <span className="text-xs font-mono uppercase font-bold tracking-wider text-accent block">
               Nível 2 · Cartão / Leitura
             </span>
             <span className="font-bold text-sm text-ink block">--surface-2 / --surface</span>
@@ -102,7 +102,7 @@ export const DesignSystemPage: React.FC = () => {
           </div>
 
           <div className="p-4 rounded-xl border border-border bg-surface-2 space-y-1.5 shadow-sm">
-            <span className="text-[10px] font-mono uppercase font-bold tracking-wider text-ink-2 block">
+            <span className="text-xs font-mono uppercase font-bold tracking-wider text-ink-2 block">
               Nível 3 · Elevado / Gaveta
             </span>
             <span className="font-bold text-sm text-ink block">--surface-3 / --surface-2</span>
@@ -161,7 +161,7 @@ export const DesignSystemPage: React.FC = () => {
 
         <div className="p-5 sm:p-6 rounded-2xl bg-surface border border-border space-y-4">
           <div>
-            <span className="text-[11px] font-mono font-bold uppercase tracking-wider text-accent block mb-1">
+            <span className="text-xs font-mono font-bold uppercase tracking-wider text-accent block mb-1">
               Fonte de Leitura Longa: Source Serif 4 (≥ 16px no Mobile)
             </span>
             <p className="font-serif text-base sm:text-lg text-ink leading-relaxed m-0 max-w-[70ch]">
@@ -171,7 +171,7 @@ export const DesignSystemPage: React.FC = () => {
 
           <div className="pt-4 border-t border-border flex flex-wrap items-center gap-4">
             <div>
-              <span className="text-[11px] font-mono font-bold uppercase text-ink-2 block">
+              <span className="text-xs font-mono font-bold uppercase text-ink-2 block">
                 Interface (Inter)
               </span>
               <span className="font-sans font-bold text-sm text-ink">
@@ -180,7 +180,7 @@ export const DesignSystemPage: React.FC = () => {
             </div>
 
             <div>
-              <span className="text-[11px] font-mono font-bold uppercase text-ink-2 block">
+              <span className="text-xs font-mono font-bold uppercase text-ink-2 block">
                 Atalhos e Código (JetBrains Mono)
               </span>
               <div className="flex items-center gap-1.5 pt-0.5">

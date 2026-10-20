@@ -384,7 +384,7 @@ export const PainelOQueFunciona: React.FC = () => {
             <Activity className="w-3.5 h-3.5" />
             <span>Diagnóstico Metacognitivo (Seção 3.4)</span>
           </div>
-          <h2 className="text-xl sm:text-2xl font-black text-theme-ink tracking-tight m-0">
+          <h2 className="text-xl sm:text-2xl font-black text-theme-ink tracking-normal m-0">
             O que Funciona para Você
           </h2>
           <p className="font-serif-reading text-sm text-theme-ink-2 mt-1 mb-0 leading-relaxed max-w-2xl">
@@ -405,7 +405,7 @@ export const PainelOQueFunciona: React.FC = () => {
         aria-label="Ressalva estatística e metodológica"
         className="p-4 sm:p-5 rounded-xl bg-surface-2 border border-border space-y-2 text-xs text-theme-ink-2"
       >
-        <div className="flex items-center gap-2 text-accent font-bold uppercase tracking-wider text-[11px]">
+        <div className="flex items-center gap-2 text-accent font-bold uppercase tracking-wider text-xs">
           <AlertCircle className="w-4 h-4 shrink-0" />
           <span>Ressalva Estatística e Metodológica (N = 1)</span>
         </div>
@@ -544,7 +544,7 @@ export const PainelOQueFunciona: React.FC = () => {
                   </div>
 
                   <span
-                    className={`text-[10px] font-mono px-2 py-0.5 rounded border uppercase font-bold ${
+                    className={`text-xs font-mono px-2 py-0.5 rounded border uppercase font-bold ${
                       item.statusAmostra === 'tendencia'
                         ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-500/20'
                         : item.statusAmostra === 'observacao'
@@ -564,7 +564,7 @@ export const PainelOQueFunciona: React.FC = () => {
                   {item.fundamentoCientifico}
                 </p>
 
-                <div className="text-[11px] font-mono text-accent">
+                <div className="text-xs font-mono text-accent">
                   Fonte: {item.referencia}
                 </div>
               </div>
@@ -594,7 +594,7 @@ export const PainelOQueFunciona: React.FC = () => {
                   />
                 </div>
 
-                <div className="flex items-center justify-between text-[11px] text-ink-2 pt-1 font-mono">
+                <div className="flex items-center justify-between text-xs text-ink-2 pt-1 font-mono">
                   <span>Dificuldade Desejável: <strong>{item.dificuldadeDesejavel}</strong></span>
                   {item.errosHipercorrecao > 0 && (
                     <span className="text-rose-600 dark:text-rose-400 font-bold">

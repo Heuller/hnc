@@ -199,7 +199,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
         <div>
           <div className="flex items-center gap-2 mb-1">
             {/* Regra B5: Apenas Caça-Armadilha cita o estilo/método Cebraspe */}
-            <span className="font-mono text-[11px] font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
+            <span className="font-mono text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
               {activeTab === 'armadilha' ? 'MÉTODO CEBRASPE' : 'RECUPERAÇÃO ATIVA'}
             </span>
             <span className="text-xs text-ink-2 font-mono">Submódulo {submoduloNumero}</span>
@@ -318,7 +318,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {/* Coluna 1: Autores */}
             <div className="space-y-2">
-              <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
+              <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold">
                 Autores Canônicos
               </span>
               <div className="space-y-2">
@@ -342,7 +342,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                       }}
                       aria-pressed={isSelected}
                       aria-label={isMatched ? `${a.nome}, associado ao Par ${match?.pairNumber}` : `Autor ${a.nome}`}
-                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans font-semibold transition-all flex items-center justify-between cursor-pointer foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
                         isMatched
                           ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-bold`
                           : isShaking
@@ -354,7 +354,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                     >
                       <span className="leading-snug">{a.nome}</span>
                       {isMatched && (
-                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                        <span className={`text-xs font-mono px-2 py-0.5 rounded-full font-bold ml-2 shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
                           <span>✓ Par {match.pairNumber}</span>
                         </span>
                       )}
@@ -366,7 +366,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
 
             {/* Coluna 2: Conceitos (ordem embaralhada via semente, altura uniforme - D14) */}
             <div className="space-y-2">
-              <span className="text-[11px] font-mono uppercase tracking-wider text-ink-2 font-semibold">
+              <span className="text-xs font-mono uppercase tracking-wider text-ink-2 font-semibold">
                 Conceito / Obra Principal
               </span>
               <div className="space-y-2">
@@ -390,7 +390,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                       }}
                       aria-pressed={isSelected}
                       aria-label={isMatched ? `${item.conceito}, associado ao Par ${match?.pairNumber}` : `Conceito: ${item.conceito}`}
-                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                      className={`w-full min-h-[68px] p-3 rounded-xl border text-left text-xs font-sans transition-all flex items-center justify-between cursor-pointer foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${
                         isMatched
                           ? `${match.colorStyle.bg} ${match.colorStyle.border} opacity-95 cursor-default font-medium`
                           : isShaking
@@ -402,7 +402,7 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                     >
                       <span className="leading-snug pr-2">{item.conceito}</span>
                       {isMatched && (
-                        <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full font-bold shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
+                        <span className={`text-xs font-mono px-2 py-0.5 rounded-full font-bold shrink-0 flex items-center gap-1 ${match.colorStyle.badge}`}>
                           <span>✓ Par {match.pairNumber}</span>
                         </span>
                       )}
@@ -440,14 +440,14 @@ export const ActiveRetrievalExercises: React.FC<ActiveRetrievalProps> = ({
                   }`}
                 >
                   <div className="flex items-center gap-2.5 min-w-0">
-                    <span className="w-6 h-6 rounded-full bg-surface border border-border text-[11px] font-mono font-bold flex items-center justify-center shrink-0">
+                    <span className="w-6 h-6 rounded-full bg-surface border border-border text-xs font-mono font-bold flex items-center justify-center shrink-0">
                       {visualIndex + 1}
                     </span>
                     <div className="min-w-0">
                       <div className="text-xs font-bold text-ink font-sans truncate">
                         {item.disciplina} ({item.periodo})
                       </div>
-                      <div className="text-[11px] text-ink-2 font-serif truncate">
+                      <div className="text-xs text-ink-2 font-serif truncate">
                         {item.focoPrincipal}
                       </div>
                     </div>

@@ -106,7 +106,7 @@ export const NodeBox: React.FC<NodeBoxProps> = ({ node, isQuestion = false }) =>
     <span
       className={`
         absolute -top-2.5 left-1/2 -translate-x-1/2
-        text-[9px] font-bold uppercase tracking-widest
+        text-xs font-bold uppercase tracking-widest
         px-2 py-0.5 rounded-full whitespace-nowrap
         ${LABEL_COLORS[node.type]}
       `}
@@ -121,7 +121,7 @@ export const NodeBox: React.FC<NodeBoxProps> = ({ node, isQuestion = false }) =>
     </p>
     {node.detail && (
       <p
-        className="text-[10px] opacity-70 mt-1 leading-snug break-words"
+        className="text-xs opacity-70 mt-1 leading-snug break-words"
         style={{ overflowWrap: 'anywhere' }}
       >
         {node.detail}
@@ -142,7 +142,7 @@ export const Arrow: React.FC<ArrowProps> = ({
   <div className={`flex flex-col items-center py-1 ${color}`}>
     <div className="w-px h-4 bg-current opacity-40" />
     {label && (
-      <span className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-current/10">
+      <span className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-current/10">
         {label}
       </span>
     )}

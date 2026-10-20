@@ -101,7 +101,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 <h3 className="text-base font-bold font-serif leading-tight">
                   {user ? 'Minha Conta · HNC' : 'Acesso'}
                 </h3>
-                <p className="text-[11px] text-ink-2">
+                <p className="text-xs text-ink-2">
                   {user ? 'Sincronização em nuvem ativa' : 'Acesse sua conta para continuar'}
                 </p>
               </div>
@@ -180,7 +180,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="Seu usuário ou e-mail"
-                      className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink focus:border-accent focus:outline-none"
+                      className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                     />
                   </div>
                 </div>
@@ -198,7 +198,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       placeholder="Mínimo 6 caracteres"
-                      className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink focus:border-accent focus:outline-none"
+                      className="w-full pl-9 pr-3 py-2 text-xs rounded-lg bg-surface border border-border text-ink foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                     />
                   </div>
                 </div>

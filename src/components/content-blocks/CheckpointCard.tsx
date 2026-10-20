@@ -61,7 +61,7 @@ export const CheckpointCard: React.FC<CheckpointCardProps> = ({
             </Badge>
             <button
               onClick={handleRedo}
-              className="text-[11px] font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer transition-colors"
+              className="text-xs font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer transition-colors"
               title="Praticar novamente (a 1ª tentativa permanece para a nota do portão)"
             >
               <RotateCcw className="w-3 h-3" />

@@ -116,7 +116,7 @@ export const CadernoErrosPage: React.FC = () => {
           <span>Voltar ao Painel</span>
         </button>
 
-        <span className="text-[11px] font-mono uppercase tracking-wider px-2.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border font-bold">
+        <span className="text-xs font-mono uppercase tracking-wider px-2.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border font-bold">
           Caderno de Erros Ativo
         </span>
       </div>
@@ -128,7 +128,7 @@ export const CadernoErrosPage: React.FC = () => {
           <span>Superação de Lacunas & Pegadinhas</span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-tight m-0">
+        <h1 className="text-2xl sm:text-3xl font-black text-theme-ink tracking-normal m-0">
           Caderno de Erros Cebraspe
         </h1>
 
@@ -139,23 +139,23 @@ export const CadernoErrosPage: React.FC = () => {
         {/* Métricas do Caderno */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2">
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Total de Erros</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Total de Erros</span>
             <span className="text-2xl font-black text-ink">{stats.total}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Micro-Checkpoints</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Micro-Checkpoints</span>
             <span className="text-2xl font-black text-amber-600 dark:text-amber-400">{stats.checkpointsCount}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Simulado 100Q</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Simulado 100Q</span>
             <span className="text-2xl font-black text-indigo-600 dark:text-indigo-400">{stats.simuladoCount}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-rose-500/30 bg-rose-500/5 text-center">
-            <span className="text-[11px] uppercase tracking-wider text-rose-700 dark:text-rose-400 font-semibold block">Hipercorreção</span>
+            <span className="text-xs uppercase tracking-wider text-rose-700 dark:text-rose-400 font-semibold block">Hipercorreção</span>
             <span className="text-2xl font-black text-rose-600 dark:text-rose-400">{stats.hipercorrecaoCount}</span>
           </div>
           <div className="p-3 rounded-lg bg-surface-2 border border-border text-center">
-            <span className="text-[11px] uppercase tracking-wider text-ink-2 font-semibold block">Módulo Crítico</span>
+            <span className="text-xs uppercase tracking-wider text-ink-2 font-semibold block">Módulo Crítico</span>
             <span className="text-2xl font-black text-accent">{stats.moduloMaisCritico}</span>
           </div>
         </div>
@@ -185,7 +185,7 @@ export const CadernoErrosPage: React.FC = () => {
               placeholder="Buscar no texto ou justificativa..."
               value={busca}
               onChange={(e) => setBusca(e.target.value)}
-              className="w-full pl-9 pr-3 py-2 text-xs rounded-md bg-surface-2 border border-border text-ink focus:outline-none focus:border-accent transition-colors"
+              className="w-full pl-9 pr-3 py-2 text-xs rounded-md bg-surface-2 border border-border text-ink foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 transition-colors"
             />
           </div>
 
@@ -320,7 +320,7 @@ export const CadernoErrosPage: React.FC = () => {
                       {item.origem === 'simulado' ? 'Simulado 100Q' : 'Micro-Checkpoint'}
                     </span>
                     {item.prioridadeHipercorrecao && (
-                      <span className="font-mono text-[11px] font-bold px-2 py-0.5 rounded border bg-rose-500/10 text-rose-700 dark:text-rose-400 border-rose-500/30 flex items-center gap-1">
+                      <span className="font-mono text-xs font-bold px-2 py-0.5 rounded border bg-rose-500/10 text-rose-700 dark:text-rose-400 border-rose-500/30 flex items-center gap-1">
                         🔥 Hipercorreção (Peso 2x)
                       </span>
                     )}
@@ -333,7 +333,7 @@ export const CadernoErrosPage: React.FC = () => {
                     {item.submoduloId && (
                       <button
                         onClick={() => handleIrParaTeoria(item.submoduloId)}
-                        className="inline-flex items-center gap-1 text-[11px] font-semibold text-accent hover:underline cursor-pointer"
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-accent hover:underline cursor-pointer"
                       >
                         <BookOpen className="w-3.5 h-3.5" />
                         <span>Revisar Submódulo {item.submoduloNumero}</span>
@@ -341,7 +341,7 @@ export const CadernoErrosPage: React.FC = () => {
                       </button>
                     )}
 
-                    <div className="text-[11px] font-mono flex items-center gap-1.5">
+                    <div className="text-xs font-mono flex items-center gap-1.5">
                       <span className="text-ink-2">Você marcou:</span>
                       <span className="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-600 font-bold">
                         {item.respostaUsuario === 'C' ? 'CERTO' : 'ERRADO'}
@@ -360,7 +360,7 @@ export const CadernoErrosPage: React.FC = () => {
                   <div className="p-3 rounded-lg bg-rose-500/10 border border-rose-500/25 text-rose-900 dark:text-rose-300 text-xs flex items-start gap-2">
                     <span className="text-base shrink-0">🔥</span>
                     <div className="space-y-0.5">
-                      <span className="font-bold block uppercase tracking-wider text-[10px]">
+                      <span className="font-bold block uppercase tracking-wider text-xs">
                         Efeito da Hipercorreção (Butterfield &amp; Metcalfe, 2001):
                       </span>
                       <p className="m-0 leading-relaxed">
@@ -440,7 +440,7 @@ export const CadernoErrosPage: React.FC = () => {
                 <div className="space-y-2 text-xs pt-1">
                   <div className="p-3 rounded-lg bg-surface-2 border border-border space-y-1">
                     <div className="flex items-center justify-between">
-                      <span className="font-bold text-ink uppercase tracking-wider text-[10px]">
+                      <span className="font-bold text-ink uppercase tracking-wider text-xs">
                         Gabarito no Padrão Cebraspe:
                       </span>
                       <span className="font-bold font-mono text-accent">
@@ -456,7 +456,7 @@ export const CadernoErrosPage: React.FC = () => {
                     <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-900 dark:text-amber-300 flex items-start gap-2">
                       <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
                       <div className="space-y-0.5">
-                        <span className="font-bold text-[11px] block uppercase tracking-wider">
+                        <span className="font-bold text-xs block uppercase tracking-wider">
                           Armadilha da Banca:
                         </span>
                         <p className="m-0 leading-relaxed text-xs">
@@ -479,12 +479,12 @@ export const CadernoErrosPage: React.FC = () => {
                       </div>
 
                       {sessoesStorage[item.id]?.superado ? (
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 font-bold flex items-center gap-1">
+                        <span className="text-xs font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 font-bold flex items-center gap-1">
                           <CheckCircle2 className="w-3 h-3" />
                           <span>Lacuna Superada</span>
                         </span>
                       ) : (
-                        <span className="text-[10px] font-mono opacity-80 flex items-center gap-1 text-amber-800 dark:text-amber-300">
+                        <span className="text-xs font-mono opacity-80 flex items-center gap-1 text-amber-800 dark:text-amber-300">
                           <span>Parecer &amp; Desafio</span>
                           <span>&rarr;</span>
                         </span>

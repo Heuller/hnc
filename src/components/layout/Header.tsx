@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
 
               <div className="whitespace-nowrap">
                 <div className="flex items-center gap-1.5 whitespace-nowrap">
-                  <span className="font-serif font-bold text-sm sm:text-base text-ink leading-tight tracking-tight whitespace-nowrap">
+                  <span className="font-serif font-bold text-sm sm:text-base text-ink leading-tight tracking-normal whitespace-nowrap">
                     {CONCURSO_CONFIG.plataforma.nome}
                   </span>
                   <span className="text-ink-2/60 text-xs hidden lg:inline">/</span>
@@ -138,11 +138,11 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
                       ? 'Laboratório Dev'
                       : 'Painel'}
                   </span>
-                  <span className="text-[9px] uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden 2xl:inline-block ml-1">
+                  <span className="text-xs uppercase font-mono font-bold tracking-wider px-1.5 py-0.5 rounded bg-surface-2 text-ink-2 border border-border hidden 2xl:inline-block ml-1">
                     {CONCURSO_CONFIG.instituicao.sigla} · {CONCURSO_CONFIG.banca.nome}
                   </span>
                 </div>
-                <p className="text-[11px] text-ink-2 hidden 2xl:block leading-tight font-sans whitespace-nowrap">
+                <p className="text-xs text-ink-2 hidden 2xl:block leading-tight font-sans whitespace-nowrap">
                   {CONCURSO_CONFIG.cargo.titulo} • {CONCURSO_CONFIG.cargo.atribuicao}
                 </p>
               </div>
@@ -193,7 +193,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           >
             <Search className="w-3.5 h-3.5 text-accent shrink-0" />
             <span className="font-sans text-xs hidden lg:inline">Buscar</span>
-            <span className="text-[10px] px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
+            <span className="text-xs px-1 py-0.5 rounded bg-surface border border-border font-bold text-ink-2 whitespace-nowrap">
               {getSearchShortcutLabel()}
             </span>
           </button>

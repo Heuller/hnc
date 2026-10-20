@@ -35,7 +35,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
       aria-label="Folha de Resposta Manuscrita Cebraspe"
       className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4 print:p-0 print:bg-white print:fixed print:inset-0"
     >
-      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden print:max-h-none print:max-w-none print:border-none print:shadow-none print:rounded-none">
+      <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92dvh] flex flex-col shadow-2xl overflow-hidden print:max-h-none print:max-w-none print:border-none print:shadow-none print:rounded-none">
         {/* Barra Superior (Oculta na impressão) */}
         <div className="flex items-center justify-between px-5 py-3.5 border-b border-border bg-surface-2/60 print:hidden">
           <div className="flex items-center gap-2.5">
@@ -46,7 +46,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
               <h3 className="text-sm font-bold text-ink font-serif">
                 Folha Oficial de Texto Definitivo (Padrão Cebraspe)
               </h3>
-              <p className="text-[11px] text-ink-2 font-mono">
+              <p className="text-xs text-ink-2 font-mono">
                 {isPeca ? 'Peça Técnica (até 50 linhas - 30 pts)' : 'Questão Discursiva (até 20 linhas - 15 pts)'} · Edital nº 1/2026
               </p>
             </div>
@@ -94,7 +94,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
             {/* Cabeçalho Oficial */}
             <div className="border-b-2 border-zinc-900 pb-3 mb-4 space-y-2">
               <div className="flex justify-between items-center text-center">
-                <div className="text-left font-mono font-bold text-[10px] uppercase tracking-wider">
+                <div className="text-left font-mono font-bold text-xs uppercase tracking-wider">
                   CEBRASPE / CÂMARA DOS DEPUTADOS
                   <div className="font-normal text-zinc-600">Edital nº 1 – Analista Legislativo</div>
                 </div>
@@ -102,18 +102,18 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
                   <div className="font-serif font-black text-sm uppercase tracking-wide">
                     PROVA DISCURSIVA (P3)
                   </div>
-                  <div className="font-mono text-[11px] font-bold">
+                  <div className="font-mono text-xs font-bold">
                     FOLHA DE TEXTO DEFINITIVO
                   </div>
                 </div>
-                <div className="text-right font-mono font-bold text-[10px]">
+                <div className="text-right font-mono font-bold text-xs">
                   CARGO 5: BIBLIOTECÁRIO
                   <div className="font-normal text-zinc-600">{isPeca ? 'PEÇA TÉCNICA' : 'QUESTÃO DISCURSIVA'}</div>
                 </div>
               </div>
 
               {/* Campos de Identificação Simulados */}
-              <div className="grid grid-cols-3 gap-2 pt-2 border-t border-zinc-300 font-mono text-[10px]">
+              <div className="grid grid-cols-3 gap-2 pt-2 border-t border-zinc-300 font-mono text-xs">
                 <div className="border border-zinc-400 p-1 rounded">
                   <span className="text-zinc-500 block">NOME DO CANDIDATO:</span>
                   <span className="font-bold">RICHARD (SIMULAÇÃO OFICIAL HNC)</span>
@@ -130,8 +130,8 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
             </div>
 
             {/* Caixa do Enunciado Resumido */}
-            <div className="bg-zinc-50 border border-zinc-300 p-2.5 rounded mb-4 font-serif text-[11px] leading-snug">
-              <span className="font-bold font-sans uppercase text-[10px] text-zinc-600 block mb-0.5">
+            <div className="bg-zinc-50 border border-zinc-300 p-2.5 rounded mb-4 font-serif text-xs leading-snug">
+              <span className="font-bold font-sans uppercase text-xs text-zinc-600 block mb-0.5">
                 Tema Proposto: {tema.titulo}
               </span>
               <p className="italic text-zinc-800">
@@ -140,7 +140,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
             </div>
 
             {/* Pauta Regulamentar Numerada */}
-            <div className="space-y-0 border-y border-zinc-900 font-mono text-[11px]">
+            <div className="space-y-0 border-y border-zinc-900 font-mono text-xs">
               {Array.from({ length: totalLinhas }, (_, i) => {
                 const numLinha = i + 1;
                 const textoLinha = linhasDigitadas[i] || '';
@@ -167,7 +167,7 @@ export const FolhaRespostaManuscritaModal: React.FC<FolhaRespostaManuscritaModal
             </div>
 
             {/* Instruções Regulamentares de Rodapé (Itens 9.4 e 9.8.5.1 do Edital) */}
-            <div className="mt-4 pt-3 border-t border-zinc-400 text-[9px] text-zinc-600 leading-tight space-y-1">
+            <div className="mt-4 pt-3 border-t border-zinc-400 text-xs text-zinc-600 leading-tight space-y-1">
               <p className="font-bold uppercase text-zinc-800">
                 Instruções Obrigatórias ao Candidato (Edital nº 1/2026, itens 9.4 a 9.8.5):
               </p>

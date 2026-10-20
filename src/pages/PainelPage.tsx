@@ -121,7 +121,7 @@ export const PainelPage: React.FC = () => {
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
             Hoje · Sessão de Estudos
           </h1>
 
@@ -147,11 +147,11 @@ export const PainelPage: React.FC = () => {
             <div className="space-y-3 max-w-xl">
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={targetTheme.id} size="sm" />
-                <span className="text-[11px] font-sans font-semibold uppercase tracking-wider text-ink-2">
+                <span className="text-xs font-sans font-semibold uppercase tracking-wider text-ink-2">
                   Hoje · Próxima Ação Recomendada
                 </span>
                 <span
-                  className="text-[10px] font-sans font-bold px-2 py-0.5 rounded"
+                  className="text-xs font-sans font-bold px-2 py-0.5 rounded"
                   style={{
                     backgroundColor: `${targetTheme.solidVar}15`,
                     color: targetTheme.solidVar,
@@ -161,7 +161,7 @@ export const PainelPage: React.FC = () => {
                 </span>
                 {proximoPasso?.motivo && (
                   <span
-                    className="text-[10px] font-sans font-semibold px-2 py-0.5 rounded border"
+                    className="text-xs font-sans font-semibold px-2 py-0.5 rounded border"
                     style={{
                       backgroundColor:
                         proximoPasso.motivo === 'revisao_vencida'
@@ -208,7 +208,7 @@ export const PainelPage: React.FC = () => {
               </p>
 
               {proximoPasso?.explicacaoMotivo && (
-                <div className="text-[11px] font-sans text-ink-3 italic bg-surface-2/60 px-2.5 py-1.5 rounded-lg border border-border/50">
+                <div className="text-xs font-sans text-ink-3 italic bg-surface-2/60 px-2.5 py-1.5 rounded-lg border border-border/50">
                   <span className="font-semibold not-italic text-ink-2">Por que esta ação: </span>
                   {proximoPasso.explicacaoMotivo}
                 </div>
@@ -277,7 +277,7 @@ export const PainelPage: React.FC = () => {
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
-              <span className="font-semibold uppercase tracking-wider text-[10px]">Revisão do Dia</span>
+              <span className="font-semibold uppercase tracking-wider text-xs">Revisão do Dia</span>
               <Calendar className="w-4 h-4 text-accent" />
             </div>
 
@@ -318,7 +318,7 @@ export const PainelPage: React.FC = () => {
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
-              <span className="font-semibold uppercase tracking-wider text-[10px]">Constância</span>
+              <span className="font-semibold uppercase tracking-wider text-xs">Constância</span>
               <span className="text-xs font-sans font-bold tabular-nums text-accent">
                 {constancia.diasConsecutivos} {constancia.diasConsecutivos === 1 ? 'dia ativo' : 'dias ativos'}
               </span>
@@ -331,7 +331,7 @@ export const PainelPage: React.FC = () => {
             <div className="grid grid-cols-7 gap-1.5 pt-2 border-t border-border">
               {ultimos7DiasArray.map((dia, idx) => (
                 <div key={idx} className="flex flex-col items-center gap-1">
-                  <span className="text-[10px] font-sans text-ink-2">{dia.label}</span>
+                  <span className="text-xs font-sans text-ink-2">{dia.label}</span>
                   <div
                     className={`w-7 h-7 rounded-md flex items-center justify-center border transition-colors ${
                       dia.ativo
@@ -351,7 +351,7 @@ export const PainelPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="text-[11px] text-ink-2 font-sans pt-2 text-center">
+          <div className="text-xs text-ink-2 font-sans pt-2 text-center">
             Meta diária: ao menos 1 sessão curta concluída
           </div>
         </div>
@@ -360,8 +360,8 @@ export const PainelPage: React.FC = () => {
         <div className="bg-surface rounded-xl border border-border p-5 shadow-xs flex flex-col justify-between hover:border-accent/40 transition-colors">
           <div className="space-y-2">
             <div className="flex items-center justify-between text-xs font-sans text-ink-2">
-              <span className="font-semibold uppercase tracking-wider text-[10px]">Trilha da Jornada</span>
-              <span className="px-2 py-0.5 rounded text-[10px] font-sans font-bold bg-ok-soft text-ok border border-ok/30">
+              <span className="font-semibold uppercase tracking-wider text-xs">Trilha da Jornada</span>
+              <span className="px-2 py-0.5 rounded text-xs font-sans font-bold bg-ok-soft text-ok border border-ok/30">
                 {metricas.taxaDominioPercent}% Domínio
               </span>
             </div>
@@ -418,11 +418,11 @@ export const PainelPage: React.FC = () => {
             <div className="min-w-0 flex-1">
               <div className="flex items-center justify-between">
                 <span className="font-sans font-bold text-ink text-xs truncate">Caderno de Erros</span>
-                <span className="text-[10px] font-sans font-semibold text-err tabular-nums">
+                <span className="text-xs font-sans font-semibold text-err tabular-nums">
                   {totalErrosAtivos}
                 </span>
               </div>
-              <span className="text-[11px] text-ink-2 font-serif truncate block">
+              <span className="text-xs text-ink-2 font-serif truncate block">
                 Itens errados para refazer
               </span>
             </div>
@@ -439,7 +439,7 @@ export const PainelPage: React.FC = () => {
             </div>
             <div className="min-w-0 flex-1">
               <span className="font-sans font-bold text-ink text-xs block truncate">Folha de Véspera</span>
-              <span className="text-[11px] text-ink-2 font-serif truncate block">
+              <span className="text-xs text-ink-2 font-serif truncate block">
                 Síntese esquemática 48h
               </span>
             </div>
@@ -456,7 +456,7 @@ export const PainelPage: React.FC = () => {
             </div>
             <div className="min-w-0 flex-1">
               <span className="font-sans font-bold text-ink text-xs block truncate">Discursiva</span>
-              <span className="text-[11px] text-ink-2 font-serif truncate block">
+              <span className="text-xs text-ink-2 font-serif truncate block">
                 Padrão espelho Cebraspe
               </span>
             </div>
@@ -473,7 +473,7 @@ export const PainelPage: React.FC = () => {
             </div>
             <div className="min-w-0 flex-1">
               <span className="font-sans font-bold text-ink text-xs block truncate">Radar Cebraspe</span>
-              <span className="text-[11px] text-ink-2 font-serif truncate block">
+              <span className="text-xs text-ink-2 font-serif truncate block">
                 Armadilhas da banca
               </span>
             </div>
@@ -485,7 +485,7 @@ export const PainelPage: React.FC = () => {
       <section aria-labelledby="progresso-geral-title" className="bg-surface rounded-xl border border-border p-5 shadow-xs space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <span className="font-sans text-[10px] font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20 uppercase tracking-wider">
+            <span className="font-sans text-xs font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20 uppercase tracking-wider">
               Progresso Geral
             </span>
             <h3 id="progresso-geral-title" className="text-base sm:text-lg font-serif font-bold text-ink mt-1">

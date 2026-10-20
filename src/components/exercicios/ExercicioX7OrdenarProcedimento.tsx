@@ -92,7 +92,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-teal-600 dark:text-teal-400">
               Ordenar o Procedimento
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Recuperação de estrutura e processos · Ajuste as etapas na ordem correta
             </span>
           </div>
@@ -210,7 +210,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
             </div>
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Fluxo Sequencial Normativo:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -218,7 +218,7 @@ export const ExercicioX7OrdenarProcedimento: React.FC<ExercicioProps<ExercicioX7
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

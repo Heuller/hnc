@@ -454,7 +454,7 @@ export const SimuladoPage: React.FC = () => {
             >
               <span>{isMini ? '⭐ ' : ''}{sim.tituloCurto}</span>
               <span
-                className={`font-mono text-[10px] px-1.5 py-0.2 rounded ${
+                className={`font-mono text-xs px-1.5 py-0.2 rounded ${
                   isSelected ? 'bg-white/20 text-white' : 'bg-surface-2 text-ink-2 border border-border/40'
                 }`}
               >
@@ -510,7 +510,7 @@ export const SimuladoPage: React.FC = () => {
                   </span>
                   <span className="text-xs font-mono text-ink-2">Metodologia Cebraspe</span>
                 </div>
-                <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-tight">
+                <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal">
                   Simulado de {simuladoAtivo.questoes.length} Questões Bloqueado
                 </h1>
                 <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed max-w-xl">
@@ -533,7 +533,7 @@ export const SimuladoPage: React.FC = () => {
                   style={{ width: `${accessControl.percentualLiberacao}%` }}
                 />
               </div>
-              <p className="text-[11px] text-ink-2 font-serif">
+              <p className="text-xs text-ink-2 font-serif">
                 Critério: 100% das seções lidas E taxa de acerto &ge; 70% nos checkpoints de cada submódulo.
               </p>
             </div>
@@ -565,7 +565,7 @@ export const SimuladoPage: React.FC = () => {
                           <div className="text-xs sm:text-sm font-sans font-bold text-ink truncate">
                             {sub.titulo}
                           </div>
-                          <div className="text-[11px] text-ink-2 flex items-center gap-1.5 mt-0.5">
+                          <div className="text-xs text-ink-2 flex items-center gap-1.5 mt-0.5">
                             {isConcluidoSub ? (
                               <span className="text-ok font-semibold flex items-center gap-1">
                                 <CheckCircle2 className="w-3.5 h-3.5" />
@@ -601,7 +601,7 @@ export const SimuladoPage: React.FC = () => {
 
             {/* Bypass Modo Desenvolvedor / Avaliação Local */}
             <div className="pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-              <span className="text-ink-2 font-mono text-[11px]">
+              <span className="text-ink-2 font-mono text-xs">
                 Ambiente de Avaliação & Testes Locais
               </span>
               <button
@@ -655,7 +655,7 @@ export const SimuladoPage: React.FC = () => {
                   Relatório de Desempenho no Modelo Cebraspe (Fator 1:1)
                 </span>
               </div>
-              <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-tight">
+              <h1 className="text-2xl sm:text-3xl font-sans font-bold text-ink print:text-black tracking-normal">
                 {simuladoAtivo.titulo}
               </h1>
             </div>
@@ -680,7 +680,7 @@ export const SimuladoPage: React.FC = () => {
                   ? `+${relatorioFinal.notaLiquida}`
                   : relatorioFinal.notaLiquida}
               </div>
-              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">máx: 100 pts</span>
+              <span className="text-xs font-mono text-ink-2 print:text-gray-600">máx: 100 pts</span>
             </div>
 
             <div>
@@ -688,7 +688,7 @@ export const SimuladoPage: React.FC = () => {
               <div className="text-3xl font-mono font-bold text-accent print:text-black">
                 {relatorioFinal.aproveitamentoPercent}%
               </div>
-              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">fator C - E</span>
+              <span className="text-xs font-mono text-ink-2 print:text-gray-600">fator C - E</span>
             </div>
 
             <div>
@@ -697,7 +697,7 @@ export const SimuladoPage: React.FC = () => {
                 <span className="text-ok">✓ {relatorioFinal.certos}</span>
                 <span className="text-err">✗ {relatorioFinal.errados}</span>
               </div>
-              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">
+              <span className="text-xs font-mono text-ink-2 print:text-gray-600">
                 ⚪ {relatorioFinal.emBranco} em branco
               </span>
             </div>
@@ -708,7 +708,7 @@ export const SimuladoPage: React.FC = () => {
                 {Math.floor(relatorioFinal.tempoGastoSegundos / 60)}m{' '}
                 {relatorioFinal.tempoGastoSegundos % 60}s
               </div>
-              <span className="text-[11px] font-mono text-ink-2 print:text-gray-600">
+              <span className="text-xs font-mono text-ink-2 print:text-gray-600">
                 média: ~
                 {calcularMediaTempoPorItem(
                   relatorioFinal.tempoGastoSegundos,
@@ -748,7 +748,7 @@ export const SimuladoPage: React.FC = () => {
                 <div className="text-2xl font-mono font-bold text-ok mt-1">
                   {relatorioFinal.calibracao.acertoCertezaPercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
+                <span className="text-xs text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
 
               <div className="bg-surface print:bg-white p-3 rounded-lg border border-border print:border-gray-300">
@@ -758,7 +758,7 @@ export const SimuladoPage: React.FC = () => {
                 <div className="text-2xl font-mono font-bold text-accent print:text-black mt-1">
                   {relatorioFinal.calibracao.acertoProvavelPercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
+                <span className="text-xs text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
 
               <div className="bg-surface print:bg-white p-3 rounded-lg border border-border print:border-gray-300">
@@ -768,7 +768,7 @@ export const SimuladoPage: React.FC = () => {
                 <div className="text-2xl font-mono font-bold text-err mt-1">
                   {relatorioFinal.calibracao.acertoChutePercent}%
                 </div>
-                <span className="text-[11px] text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
+                <span className="text-xs text-ink-2 print:text-gray-600 font-sans">taxa de acerto real</span>
               </div>
             </div>
 
@@ -825,7 +825,7 @@ export const SimuladoPage: React.FC = () => {
                           <span className="font-mono text-sm font-bold text-ink print:text-black">
                             {subNota > 0 ? `+${subNota}` : subNota} pts
                           </span>
-                          <span className="text-[11px] font-mono text-ink-2 print:text-gray-600 ml-1">
+                          <span className="text-xs font-mono text-ink-2 print:text-gray-600 ml-1">
                             ({subPercent}%)
                           </span>
                         </div>
@@ -833,7 +833,7 @@ export const SimuladoPage: React.FC = () => {
                       <div className="text-xs font-medium text-ink print:text-black mt-0.5">
                         {temaInfo?.titulo || `Módulo ${subId}`}
                       </div>
-                      <div className="text-[11px] font-mono text-ink-2 print:text-gray-600 mt-1">
+                      <div className="text-xs font-mono text-ink-2 print:text-gray-600 mt-1">
                         <span className="text-ok font-semibold">{dados.certos} C</span> •{' '}
                         <span className="text-err font-semibold">{dados.errados} E</span> •{' '}
                         <span className="text-ink-2">{dados.brancos} Branco</span>
@@ -877,7 +877,7 @@ export const SimuladoPage: React.FC = () => {
                     {tema.cobrado.map((topico, idx) => (
                       <li
                         key={idx}
-                        className="text-[11px] sm:text-xs text-ink-2 print:text-gray-800 font-serif leading-relaxed flex items-start gap-1.5"
+                        className="text-xs text-ink-2 print:text-gray-800 font-serif leading-relaxed flex items-start gap-1.5"
                       >
                         <span className="text-accent print:text-black font-bold shrink-0">•</span>
                         <span>{topico}</span>
@@ -905,7 +905,7 @@ export const SimuladoPage: React.FC = () => {
                 </p>
               </div>
 
-              <div className="flex items-center gap-2 font-mono text-[11px] text-ink-2 print:hidden">
+              <div className="flex items-center gap-2 font-mono text-xs text-ink-2 print:hidden">
                 <span className="px-2 py-0.5 rounded bg-err-soft text-err font-bold">1º Erros</span>
                 <span>→</span>
                 <span className="px-2 py-0.5 rounded bg-alerta-soft text-alerta-cebraspe font-bold">2º Branco</span>
@@ -988,19 +988,19 @@ export const SimuladoPage: React.FC = () => {
 
                               {/* Status Badge */}
                               {isErro && (
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-err text-white">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-err text-white">
                                   <XCircle className="w-3 h-3" />
                                   <span>ERRO (-1 pt líquido)</span>
                                 </span>
                               )}
                               {isBranco && (
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-alerta-soft text-alerta-cebraspe border border-alerta-cebraspe/30">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-alerta-soft text-alerta-cebraspe border border-alerta-cebraspe/30">
                                   <HelpCircle className="w-3 h-3" />
                                   <span>EM BRANCO (0 pts)</span>
                                 </span>
                               )}
                               {isAcerto && (
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-ok text-white">
+                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-mono font-bold bg-ok text-white">
                                   <CheckCircle2 className="w-3 h-3" />
                                   <span>ACERTO (+1 pt líquido)</span>
                                 </span>
@@ -1029,7 +1029,7 @@ export const SimuladoPage: React.FC = () => {
                                 </strong>
                               </span>
                               {q.fonteOriginal?.descricao && (
-                                <span className="text-[10px] text-ink-2 print:text-gray-500 hidden sm:inline">
+                                <span className="text-xs text-ink-2 print:text-gray-500 hidden sm:inline">
                                   ({q.fonteOriginal.descricao})
                                 </span>
                               )}
@@ -1049,7 +1049,7 @@ export const SimuladoPage: React.FC = () => {
                           {/* Pegadinha Cebraspe (se houver) */}
                           {q.armadilhaBanca && (
                             <div className="mt-3.5 p-3 rounded-lg bg-amber-500/10 border-l-4 border-l-amber-500 border border-border/50 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1 print:border-gray-400">
-                              <div className="flex items-center gap-1.5 font-sans font-bold text-amber-700 dark:text-amber-400 print:text-black text-[11px] uppercase tracking-wide">
+                              <div className="flex items-center gap-1.5 font-sans font-bold text-amber-700 dark:text-amber-400 print:text-black text-xs uppercase tracking-wide">
                                 <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
                                 <span>Padrão de armadilha (autoral)</span>
                               </div>
@@ -1061,7 +1061,7 @@ export const SimuladoPage: React.FC = () => {
 
                           {/* Justificativa e Fundamentação Técnica */}
                           <div className="mt-2.5 p-3 rounded-lg bg-surface-2 print:bg-gray-50 border border-border/80 print:border-gray-300 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1">
-                            <div className="flex items-center gap-1.5 font-sans font-bold text-ink-2 print:text-gray-700 text-[11px] uppercase tracking-wide">
+                            <div className="flex items-center gap-1.5 font-sans font-bold text-ink-2 print:text-gray-700 text-xs uppercase tracking-wide">
                               <BookOpen className="w-3.5 h-3.5 text-accent print:text-black shrink-0" />
                               <span>Justificativa e Fundamentação Técnica</span>
                             </div>
@@ -1143,7 +1143,7 @@ export const SimuladoPage: React.FC = () => {
               setItensFiltradosReteste(null);
               mudarQuestaoSimulado(0, selectedSimuladoId);
             }}
-            className="font-mono text-[11px] underline text-ink-2 hover:text-ink cursor-pointer"
+            className="font-mono text-xs underline text-ink-2 hover:text-ink cursor-pointer"
           >
             Voltar ao simulado completo
           </button>
@@ -1201,7 +1201,7 @@ export const SimuladoPage: React.FC = () => {
                 <Sparkles className="w-3.5 h-3.5 text-accent" />
                 Nível de Confiança Metacognitiva
               </span>
-              <span className="text-[11px] font-sans text-ink-2">
+              <span className="text-xs font-sans text-ink-2">
                 (opcional, para calibrar risco)
               </span>
             </div>
@@ -1320,7 +1320,7 @@ export const SimuladoPage: React.FC = () => {
             {isItemRespondido && (
               <div className="col-span-1 sm:col-span-3 py-2 px-3.5 rounded-lg bg-surface-2 border border-border flex items-center justify-between text-xs text-ink-2">
                 <span className="font-sans">Resposta registrada; use as setas ou o rodapé para avançar.</span>
-                <span className="font-mono text-[11px] text-accent font-semibold flex items-center gap-1">
+                <span className="font-mono text-xs text-accent font-semibold flex items-center gap-1">
                   Item travado 🔒
                 </span>
               </div>
@@ -1345,10 +1345,10 @@ export const SimuladoPage: React.FC = () => {
             <div className="pt-6 border-t border-border space-y-4 animate-fadeIn" aria-live="polite">
               {/* Badge de cabeçalho do Estudo Reverso */}
               <div className="flex items-center justify-between gap-2 pb-1 border-b border-border/60 flex-wrap">
-                <span className="font-mono text-[11px] font-bold text-accent px-2.5 py-0.5 rounded bg-accent-soft border border-accent/25 uppercase tracking-wider">
+                <span className="font-mono text-xs font-bold text-accent px-2.5 py-0.5 rounded bg-accent-soft border border-accent/25 uppercase tracking-wider">
                   ESTUDO REVERSO IMEDIATO
                 </span>
-                <span className="text-[11px] font-mono text-ink-2">
+                <span className="text-xs font-mono text-ink-2">
                   Regra Cebraspe: Uma errada anula uma certa
                 </span>
               </div>
@@ -1426,7 +1426,7 @@ export const SimuladoPage: React.FC = () => {
                     : 'Questão Inédita no Padrão Cebraspe'}
                 </span>
                 {!currentQuestion.fonteOriginal.verificado && (
-                  <span className="text-alerta-cebraspe font-sans text-[11px]">
+                  <span className="text-alerta-cebraspe font-sans text-xs">
                     (fonte não verificada)
                   </span>
                 )}
@@ -1487,7 +1487,7 @@ export const SimuladoPage: React.FC = () => {
         </nav>
 
         {/* Barra de Auxílio Visual: Atalhos de Teclado no Desktop */}
-        <div className="hidden md:flex items-center justify-between px-3.5 py-2 rounded-xl bg-surface-2/60 border border-border text-[11px] font-sans text-ink-2">
+        <div className="hidden md:flex items-center justify-between px-3.5 py-2 rounded-xl bg-surface-2/60 border border-border text-xs font-sans text-ink-2">
           <span className="font-semibold text-ink flex items-center gap-1.5">
             <Keyboard className="w-3.5 h-3.5 text-accent" />
             <span>Atalhos Rápidos de Teclado:</span>
@@ -1513,7 +1513,7 @@ export const SimuladoPage: React.FC = () => {
       {/* Coluna Lateral da Folha de Respostas no Desktop */}
       <aside
         aria-label={`Folha de respostas das ${questoesExibidas.length} questões`}
-        className="hidden lg:block w-80 shrink-0 bg-surface rounded-2xl border border-border p-4.5 shadow-xs sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto"
+        className="hidden lg:block w-80 shrink-0 bg-surface rounded-2xl border border-border p-4.5 shadow-xs sticky top-20 max-h-[calc(100dvh-6rem)] overflow-y-auto"
       >
         <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
           <div className="flex items-center gap-2">
@@ -1538,8 +1538,8 @@ export const SimuladoPage: React.FC = () => {
       >
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 bg-black/60 z-50 backdrop-blur-xs" />
-          <Drawer.Content className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88vh] fixed bottom-0 left-0 right-0 z-50 focus:outline-none">
-            <div className="p-4 bg-surface rounded-t-2xl flex flex-col max-h-[88vh]">
+          <Drawer.Content className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88dvh] fixed bottom-0 left-0 right-0 z-50 foco focus-visible:ring-2 focus-visible:ring-accent">
+            <div className="p-4 bg-surface rounded-t-2xl flex flex-col max-h-[88dvh]">
               <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-border mb-3" />
               <div className="flex items-center justify-between pb-3 border-b border-border">
                 <Drawer.Title className="font-sans font-bold text-ink text-base">

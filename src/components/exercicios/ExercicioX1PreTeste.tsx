@@ -55,7 +55,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
             <span className="text-xs font-bold font-sans uppercase tracking-wider text-accent">
               Pré-teste de Ativação
             </span>
-            <span className="block text-[11px] text-ink-2">
+            <span className="block text-xs text-ink-2">
               Responda antes de ler a teoria · Sem nota nem penalidade
             </span>
           </div>
@@ -146,7 +146,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
                   aria-pressed={isSelected}
                 >
                   <span className="leading-snug">{opStr}</span>
-                  <span className="text-[10px] font-mono font-bold text-ink-3">[{idx + 1}]</span>
+                  <span className="text-xs font-mono font-bold text-ink-3">[{idx + 1}]</span>
                 </button>
               );
             })}
@@ -180,7 +180,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
             </div>
 
             <div className="text-xs sm:text-sm font-serif text-ink leading-relaxed">
-              <span className="font-sans font-bold text-ink-2 block text-[11px] uppercase tracking-wider mb-1">
+              <span className="font-sans font-bold text-ink-2 block text-xs uppercase tracking-wider mb-1">
                 Fundamentação Canônica:
               </span>
               {exercicio.justificativa}
@@ -195,7 +195,7 @@ export const ExercicioX1PreTeste: React.FC<ExercicioProps<ExercicioX1>> = ({
               </div>
             )}
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/50 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/50 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

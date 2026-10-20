@@ -81,7 +81,7 @@ export const CartaoAutorGrid: React.FC<CartaoAutorProps> = ({ autores, className
             {autor.chipPegadinha && (
               <div className="mt-3 pt-2.5 border-t border-border flex items-start gap-1.5 bg-alerta-soft/40 p-2 rounded-lg border-l-2 border-alerta-cebraspe">
                 <AlertTriangle className="w-3.5 h-3.5 text-alerta-cebraspe shrink-0 mt-0.5" />
-                <span className="text-[11px] sm:text-xs font-sans text-alerta-cebraspe font-medium leading-tight">
+                <span className="text-xs font-sans text-alerta-cebraspe font-medium leading-tight">
                   <strong className="font-semibold">Pegadinha:</strong> {autor.chipPegadinha}
                 </span>
               </div>

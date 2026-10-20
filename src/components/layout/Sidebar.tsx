@@ -64,7 +64,7 @@ export const Sidebar: React.FC = () => {
   if (sidebarCollapsed) {
     return (
       <aside
-        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] py-4 transition-all scrollbar-thin space-y-3 select-none print:hidden"
+        className="w-[72px] shrink-0 hidden lg:flex flex-col items-center bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] py-4 transition-all scrollbar-thin space-y-3 select-none print:hidden"
         aria-label="Trilha de Módulos (Recolhida)"
       >
         <button
@@ -132,7 +132,7 @@ export const Sidebar: React.FC = () => {
                       <ModuleBadge moduleId={modulo.id} size="sm" />
                       <span className="font-bold">{modulo.titulo}</span>
                     </div>
-                    <div className="text-[11px] text-ink-2 font-mono">
+                    <div className="text-xs text-ink-2 font-mono">
                       {completedSubs} de {totalSubs} submódulos concluídos ({moduloPercent}%)
                     </div>
                   </div>
@@ -188,12 +188,12 @@ export const Sidebar: React.FC = () => {
                   {modulo.titulo_curto || modulo.titulo}
                 </h3>
                 {modulo.id === 'm2-5' && (
-                  <span className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
+                  <span className="text-xs font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25 uppercase tracking-wider">
                     Mini
                   </span>
                 )}
               </div>
-              <div className="text-[10px] text-ink-2 font-mono mt-0.5">
+              <div className="text-xs text-ink-2 font-mono mt-0.5">
                 {completedSubs}/{totalSubs} concluídos
               </div>
             </div>
@@ -285,7 +285,7 @@ export const Sidebar: React.FC = () => {
 
   return (
     <aside
-      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100vh-4rem)] p-3.5 transition-all scrollbar-thin select-none print:hidden"
+      className="w-[280px] shrink-0 hidden lg:block bg-surface border-r border-border overflow-y-auto sticky top-16 h-[calc(100dvh-4rem)] p-3.5 transition-all scrollbar-thin select-none print:hidden"
       aria-label="Trilha de Módulos do Curso"
     >
       <div className="space-y-5">
@@ -298,7 +298,7 @@ export const Sidebar: React.FC = () => {
             </h2>
           </div>
           <span
-            className="text-[11px] font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
+            className="text-xs font-mono font-semibold text-ink-2 bg-surface-2 px-2 py-0.5 rounded border border-border"
             title="Trilha Específica (M1 a M10) + Acervo Complementar (M11 a M14)"
           >
             M1–M10 · M11–M14
@@ -307,9 +307,9 @@ export const Sidebar: React.FC = () => {
 
         {/* Grupo 1: Em Estudo */}
         <div className="space-y-2.5">
-          <div className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 flex items-center justify-between px-1">
+          <div className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 flex items-center justify-between px-1">
             <span>Em Estudo</span>
-            <span className="font-mono text-[10px] text-accent font-semibold">
+            <span className="font-mono text-xs text-accent font-semibold">
               {modulosEmEstudo.length} bloco{modulosEmEstudo.length > 1 ? 's' : ''}
             </span>
           </div>
@@ -322,9 +322,9 @@ export const Sidebar: React.FC = () => {
         {/* Grupo 2: Próximos Blocos */}
         {modulosPlanejados.length > 0 && (
           <div className="space-y-2.5 pt-2 border-t border-border">
-            <div className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 flex items-center justify-between px-1">
+            <div className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 flex items-center justify-between px-1">
               <span>Próximos Blocos</span>
-              <span className="font-mono text-[10px] text-ink-2">
+              <span className="font-mono text-xs text-ink-2">
                 {modulosPlanejados.length}
               </span>
             </div>

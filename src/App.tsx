@@ -5,6 +5,7 @@ import { useNavigationStore } from './store/useNavigationStore';
 import { useAuthStore } from './store/useAuthStore';
 import { AuthGate } from './components/auth/AuthGate';
 import { AvisoNovaVersaoSW } from './components/common/AvisoNovaVersaoSW';
+import { MotionConfig } from 'framer-motion';
 
 import { PainelPage } from './pages/PainelPage';
 
@@ -109,7 +110,7 @@ export function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-theme-bg flex flex-col items-center justify-center p-4">
+      <div className="min-h-dvh bg-theme-bg flex flex-col items-center justify-center p-4">
         <div className="flex flex-col items-center gap-3 animate-pulse">
           <div className="w-12 h-12 rounded-xl bg-primary text-primary-text flex items-center justify-center font-bold text-sm shadow-editorial-sm">
             HNC
@@ -158,7 +159,8 @@ export function App() {
   };
 
   return (
-    <AppShell>
+    <MotionConfig reducedMotion="user">
+      <AppShell>
       <ErrorBoundary>
         <div key={activeView} className="w-full animate-fadeIn">
           <Suspense fallback={<PageSkeletonLoader />}>
@@ -168,6 +170,7 @@ export function App() {
       </ErrorBoundary>
       <AvisoNovaVersaoSW />
     </AppShell>
+    </MotionConfig>
   );
 }
 

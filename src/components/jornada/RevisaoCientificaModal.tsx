@@ -143,7 +143,7 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.96 }}
-          className="relative w-full max-w-4xl max-h-[92vh] flex flex-col bg-bg border border-border rounded-2xl shadow-editorial-lg overflow-hidden"
+          className="relative w-full max-w-4xl max-h-[92dvh] flex flex-col bg-bg border border-border rounded-2xl shadow-editorial-lg overflow-hidden"
         >
           {/* Header do Modal */}
           <div className="p-4 sm:p-5 border-b border-border bg-surface flex items-center justify-between gap-3">

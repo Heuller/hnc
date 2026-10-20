@@ -90,7 +90,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
           <span className="text-xs font-mono font-bold text-accent px-2 py-0.5 rounded bg-accent-soft border border-accent/20">
             {contadorTexto || 'CERTO / ERRADO'}
           </span>
-          <span className="text-[11px] font-mono text-ink-2">Padrão Cebraspe</span>
+          <span className="text-xs font-mono text-ink-2">Padrão Cebraspe</span>
         </div>
 
         {isRespondido && (
@@ -130,7 +130,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
         >
           <CheckCircle2 className="w-4 h-4 shrink-0" />
           <span>CERTO</span>
-          <span className="hidden sm:inline-block px-1 py-0.2 rounded text-[10px] font-mono bg-black/10 dark:bg-white/10 ml-0.5">
+          <span className="hidden sm:inline-block px-1 py-0.2 rounded text-xs font-mono bg-black/10 dark:bg-white/10 ml-0.5">
             C
           </span>
         </button>
@@ -153,7 +153,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
         >
           <XCircle className="w-4 h-4 shrink-0" />
           <span>ERRADO</span>
-          <span className="hidden sm:inline-block px-1 py-0.2 rounded text-[10px] font-mono bg-black/10 dark:bg-white/10 ml-0.5">
+          <span className="hidden sm:inline-block px-1 py-0.2 rounded text-xs font-mono bg-black/10 dark:bg-white/10 ml-0.5">
             E
           </span>
         </button>
@@ -191,7 +191,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
             </div>
 
             <div className="space-y-1">
-              <span className="text-[11px] font-sans font-bold uppercase tracking-wide text-ink-2 block">
+              <span className="text-xs font-sans font-bold uppercase tracking-wide text-ink-2 block">
                 Por que é {exercicio.gabarito === 'C' ? 'CERTO' : 'ERRADO'}:
               </span>
               <p className="font-serif text-xs sm:text-sm text-ink leading-relaxed m-0">
@@ -215,7 +215,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
             {/* Armadilha da Banca */}
             {exercicio.armadilhaBanca && (
               <div className="p-3 rounded-lg bg-alerta-soft border border-alerta/30 text-xs text-ink space-y-1">
-                <span className="font-bold text-alerta flex items-center gap-1 uppercase tracking-wide text-[11px]">
+                <span className="font-bold text-alerta flex items-center gap-1 uppercase tracking-wide text-xs">
                   <AlertTriangle className="w-3.5 h-3.5" />
                   <span>Armadilha da Banca:</span>
                 </span>
@@ -225,7 +225,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
               </div>
             )}
 
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-[11px] text-ink-2 font-mono">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/40 text-xs text-ink-2 font-mono">
               <span>Fonte: {exercicio.fonte}</span>
               <span>Edital: {exercicio.editalRef}</span>
             </div>

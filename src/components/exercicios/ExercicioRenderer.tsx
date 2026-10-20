@@ -59,7 +59,7 @@ export const ExercicioRenderer: React.FC<ExercicioRendererProps> = ({
       aria-labelledby={`exercicio-meta-${exercicio.id}`}
     >
       {/* Badge Pedagógico Superior */}
-      <div className="flex items-center justify-between text-[11px] font-sans text-ink-2 px-1">
+      <div className="flex items-center justify-between text-xs font-sans text-ink-2 px-1">
         <div className="flex items-center gap-1.5">
           <span
             id={`exercicio-meta-${exercicio.id}`}

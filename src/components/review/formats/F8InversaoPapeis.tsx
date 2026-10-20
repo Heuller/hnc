@@ -59,7 +59,7 @@ export const F8InversaoPapeis: React.FC<ExerciseFormatProps> = ({
             className="w-full p-3.5 rounded-xl border border-border bg-surface hover:border-accent hover:bg-accent/5 text-left text-xs sm:text-sm font-sans transition-all cursor-pointer flex items-center justify-between text-ink"
           >
             <span className="font-medium">{arm.label}</span>
-            <span className="text-[11px] font-mono text-ink-3">[{idx + 1}]</span>
+            <span className="text-xs font-mono text-ink-3">[{idx + 1}]</span>
           </button>
         ))}
       </div>

@@ -82,9 +82,9 @@ export const F1CeSimples: React.FC<ExerciseFormatProps> = ({
               <div className="flex items-center gap-2">
                 {op.icone}
                 <span className="font-sans font-bold text-base sm:text-lg">{op.label}</span>
-                <span className="text-[11px] font-mono opacity-60 hidden sm:inline">[{op.id}]</span>
+                <span className="text-xs font-mono opacity-60 hidden sm:inline">[{op.id}]</span>
               </div>
-              <span className="text-[11px] text-ink-3 text-center hidden sm:block">
+              <span className="text-xs text-ink-3 text-center hidden sm:block">
                 {op.sublabel}
               </span>
             </button>

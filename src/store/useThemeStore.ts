@@ -34,6 +34,10 @@ function applyThemeToDOM(resolved: 'light' | 'dark') {
   root.classList.remove('light', 'dark');
   root.classList.add(resolved);
   root.style.colorScheme = resolved;
+  const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeColorMeta) {
+    themeColorMeta.setAttribute('content', resolved === 'dark' ? '#0D1220' : '#16244A');
+  }
 }
 
 export const useThemeStore = create<ThemeState>((set, get) => {

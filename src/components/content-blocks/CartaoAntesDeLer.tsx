@@ -66,7 +66,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
                   <h3 className="font-serif font-bold text-sm text-ink flex items-center gap-1.5">
                     <span>{item.termo}</span>
                     {jaSei && (
-                      <span className="text-[10px] font-mono text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded border border-emerald-500/20 font-bold">
+                      <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded border border-emerald-500/20 font-bold">
                         Já sei
                       </span>
                     )}
@@ -75,7 +75,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
                   <button
                     type="button"
                     onClick={() => alternarJaSei(termoId)}
-                    className="text-[11px] font-mono text-ink-2 hover:text-ink hover:underline cursor-pointer flex items-center gap-1 shrink-0"
+                    className="text-xs font-mono text-ink-2 hover:text-ink hover:underline cursor-pointer flex items-center gap-1 shrink-0"
                     title={jaSei ? 'Reabrir definição' : 'Marcar que já conhece este conceito'}
                   >
                     {jaSei ? (
@@ -97,7 +97,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
                     <p className="text-ink">{item.definicao}</p>
 
                     {item.exemploBiblioteca && (
-                      <div className="p-2 rounded-lg bg-surface-2 border border-border/70 text-[11px] text-ink flex items-start gap-1.5">
+                      <div className="p-2 rounded-lg bg-surface-2 border border-border/70 text-xs text-ink flex items-start gap-1.5">
                         <Building2 className="w-3.5 h-3.5 text-amber-500 shrink-0 mt-0.5" />
                         <span>
                           <strong>Na biblioteca:</strong> {item.exemploBiblioteca}

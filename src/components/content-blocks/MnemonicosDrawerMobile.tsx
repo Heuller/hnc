@@ -50,11 +50,11 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 bg-black/70 z-50 backdrop-blur-xs" />
           <Drawer.Content
-            className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88vh] fixed bottom-0 left-0 right-0 z-50 focus:outline-none shadow-2xl"
+            className="bg-surface border-t border-border flex flex-col rounded-t-2xl max-h-[88dvh] fixed bottom-0 left-0 right-0 z-50 foco focus-visible:ring-2 focus-visible:ring-accent shadow-2xl"
             style={{ backgroundColor: 'var(--surface)' }}
           >
             <div
-              className="p-4 rounded-t-2xl flex flex-col max-h-[88vh] bg-surface"
+              className="p-4 rounded-t-2xl flex flex-col max-h-[88dvh] bg-surface"
               style={{ backgroundColor: 'var(--surface)' }}
             >
               {/* Puxador da gaveta (alça de arraste) */}
@@ -75,7 +75,7 @@ export const MnemonicosDrawerMobile: React.FC<MnemonicosDrawerMobileProps> = ({
                 <Drawer.Close asChild>
                   <button
                     type="button"
-                    className="p-2 text-ink-2 hover:text-ink rounded-lg focus:outline-none cursor-pointer"
+                    className="p-2 text-ink-2 hover:text-ink rounded-lg foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 cursor-pointer"
                     aria-label="Fechar resumo"
                   >
                     <X className="w-5 h-5" />

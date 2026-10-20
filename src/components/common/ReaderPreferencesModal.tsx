@@ -65,7 +65,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
           <div className="p-5 space-y-5 text-xs">
             {/* Família Tipográfica */}
             <div className="space-y-2">
-              <span className="font-bold text-ink uppercase tracking-wider text-[11px] block">
+              <span className="font-bold text-ink uppercase tracking-wider text-xs block">
                 Tipografia do Texto Doutrinário
               </span>
               <div className="grid grid-cols-2 gap-2">
@@ -79,7 +79,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                   }`}
                 >
                   <span className="font-serif text-base block mb-0.5">Aa Serifada</span>
-                  <span className="text-[10px] text-ink-2 font-mono">Source Serif 4 (Padrão)</span>
+                  <span className="text-xs text-ink-2 font-mono">Source Serif 4 (Padrão)</span>
                 </button>
 
                 <button
@@ -92,14 +92,14 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                   }`}
                 >
                   <span className="font-sans text-base block mb-0.5">Aa Sem Serifa</span>
-                  <span className="text-[10px] text-ink-2 font-mono">Inter (Técnica)</span>
+                  <span className="text-xs text-ink-2 font-mono">Inter (Técnica)</span>
                 </button>
               </div>
             </div>
 
             {/* Tamanho da Fonte */}
             <div className="space-y-2">
-              <span className="font-bold text-ink uppercase tracking-wider text-[11px] block">
+              <span className="font-bold text-ink uppercase tracking-wider text-xs block">
                 Tamanho da Fonte
               </span>
               <div className="grid grid-cols-3 gap-2">
@@ -121,7 +121,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                     }`}
                   >
                     <span className="block font-bold">{opt.label}</span>
-                    <span className="text-[10px] text-ink-2 font-mono">{opt.size}</span>
+                    <span className="text-xs text-ink-2 font-mono">{opt.size}</span>
                   </button>
                 ))}
               </div>
@@ -129,7 +129,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
 
             {/* Largura da Coluna */}
             <div className="space-y-2">
-              <span className="font-bold text-ink uppercase tracking-wider text-[11px] block">
+              <span className="font-bold text-ink uppercase tracking-wider text-xs block">
                 Largura da Área de Leitura
               </span>
               <div className="grid grid-cols-3 gap-2">
@@ -151,7 +151,7 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
                     }`}
                   >
                     <span className="block font-bold">{opt.label}</span>
-                    <span className="text-[10px] text-ink-2 font-mono">{opt.width}</span>
+                    <span className="text-xs text-ink-2 font-mono">{opt.width}</span>
                   </button>
                 ))}
               </div>
