@@ -97,7 +97,7 @@ export async function validateAuth(req: any): Promise<{ auth?: AuthValidationRes
         userEmail: data.user.email,
       },
     };
-  } catch (_err: any) {
+  } catch {
     return {
       error: {
         status: 401,
