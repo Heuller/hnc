@@ -1,7 +1,7 @@
 /** @vitest-environment jsdom */
 import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DecisionFlow, NodeBox, Arrow } from '../components/common/DecisionFlow';
 
 // Componente pai interativo para testar se re-renders preservam estado e não recriam componentes

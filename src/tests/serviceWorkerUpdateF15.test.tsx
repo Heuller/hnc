@@ -1,22 +1,24 @@
 /** @vitest-environment jsdom */
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { render, screen, fireEvent, act } from '@testing-library/react';
-import React from 'react';
 import { AvisoNovaVersaoSW } from '../components/common/AvisoNovaVersaoSW';
 import { useProgressStore } from '../store/useProgressStore';
 
 describe('F-15: Gerenciamento seguro de atualizações do Service Worker', () => {
-  const originalLocation = window.location;
+  const reloadMock = vi.fn();
 
   beforeEach(() => {
     useProgressStore.getState().limparTodoProgresso();
-    // Mock window.location.reload
-    delete (window as any).location;
-    window.location = { ...originalLocation, reload: vi.fn() } as any;
+    reloadMock.mockClear();
+    Object.defineProperty(window, 'location', {
+      writable: true,
+      configurable: true,
+      value: { reload: reloadMock },
+    });
   });
 
   afterEach(() => {
-    window.location = originalLocation;
+    vi.restoreAllMocks();
   });
 
   it('não exibe o aviso quando não há evento de atualização do SW', () => {

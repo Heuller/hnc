@@ -111,13 +111,13 @@ describe('V-01: Integridade do Simulado e Blindagem da Nota Líquida Cebraspe', 
     const q1Gabarito = 'E'; // Gabarito real é E
 
     // 1. Usuário responde C (erra: -1)
-    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', 'C' === q1Gabarito); // acertou: false
+    store.salvarRespostaSimulado(simId, 'q1', 'C', 'certeza', false);
 
     // 2. Usuário tenta mudar para B (0)
     store.salvarRespostaSimulado(simId, 'q1', 'BRANCO', undefined, undefined);
 
     // 3. Usuário tenta mudar para E (+1) após ver o gabarito
-    store.salvarRespostaSimulado(simId, 'q1', 'E', 'certeza', 'E' === q1Gabarito);
+    store.salvarRespostaSimulado(simId, 'q1', 'E', 'certeza', true);
 
     const sessao = useProgressStore.getState().obterSessaoSimulado(simId);
     expect(sessao.respostas['q1']?.resposta).toBe('C');
