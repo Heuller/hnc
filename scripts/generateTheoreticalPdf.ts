@@ -7,7 +7,6 @@ import { ALL_COURSE_MODULES } from '../src/content/registry';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../src/domain/discursiva/temasOficiais';
 import { MATRIZ_BLOCOS_EDITAL_VESPERA } from '../src/domain/folhaVespera/pegadinhasBlocos';
 import { CASOS_INTEGRADORES } from '../src/domain/casosIntegradores/casosIntegradores';
-import type { ModuloFilho, MacroModulo } from '../src/domain/types';
 
 // Configura marked para GFM
 marked.setOptions({
@@ -29,7 +28,7 @@ function renderMath(text: string): string {
     }
   });
   // Expressões em linha: $ ... $
-  res = res.replace(/\$([^\$\n]+?)\$/g, (_, math) => {
+  res = res.replace(/\$([^$\n]+?)\$/g, (_, math) => {
     try {
       return katex.renderToString(math.trim(), { displayMode: false, throwOnError: false });
     } catch {
