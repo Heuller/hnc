@@ -1,29 +1,63 @@
 // Vercel Serverless Function: /api/generate-adaptive-quiz
-// Generates an adaptive Cebraspe C/E quiz targeting candidate's diagnosed weaknesses
+import {
+  validateAuth,
+  checkRateLimit,
+  fetchWithTimeout,
+  sendApiError,
+  generateAdaptiveQuizSchema,
+} from './_lib/guard';
+import { getGeminiGenerateContentUrl } from './_lib/model';
 
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return sendApiError(res, 405, 'Método não permitido.', 'METHOD_NOT_ALLOWED');
   }
 
   res.setHeader('Cache-Control', 'no-store, max-age=0');
   res.setHeader('X-Content-Type-Options', 'nosniff');
+
+  // 1. Validação de Autenticação (F-01.a)
+  const { auth, error: authError } = await validateAuth(req);
+  if (authError || !auth) {
+    return sendApiError(res, authError?.status || 401, authError?.message || 'Não autorizado.', authError?.code || 'UNAUTHORIZED');
+  }
+
+  // 2. Limite de Taxa (F-01.b)
+  const rateLimit = await checkRateLimit(auth.userId, 'generate-adaptive-quiz');
+  if (!rateLimit.allowed) {
+    if (rateLimit.retryAfterSeconds) {
+      res.setHeader('Retry-After', String(rateLimit.retryAfterSeconds));
+    }
+    return sendApiError(
+      res,
+      429,
+      'Limite de requisições excedido. Aguarde antes de gerar um novo simulado adaptativo.',
+      'RATE_LIMIT_EXCEEDED'
+    );
+  }
+
+  // 3. Validação do Corpo com Zod (F-01.c)
+  const parseResult = generateAdaptiveQuizSchema.safeParse(req.body);
+  if (!parseResult.success) {
+    const errorMsg = parseResult.error.issues[0]?.message || 'Parâmetros inválidos.';
+    return sendApiError(res, 400, errorMsg, 'VALIDATION_ERROR');
+  }
 
   const {
     quantidadeItens = 10,
     modoFoco = 'fraquezas_criticas',
     modulosAlvo = ['m1', 'm2', 'm4', 'm5', 'm8'],
     vulnerabilidades = [],
-  } = req.body || {};
+  } = parseResult.data;
 
-  // Limite estrito de segurança contra DoS / esgotamento de quota
-  const qtdClamped = Math.min(20, Math.max(5, Number(quantidadeItens) || 10));
+  const qtdClamped = Math.min(20, Math.max(5, quantidadeItens));
 
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
 
   if (!apiKey) {
-    // Retorno fallback quando a chave não estiver configurada no ambiente
+    // Retorno fallback quando sem chave (F-01 e F-06)
     return res.status(200).json({
+      modo: 'offline',
       itens: [
         {
           id: 'ia-adp-1',
@@ -58,127 +92,77 @@ export default async function handler(req: any, res: any) {
           gabarito: 'E',
           justificativa:
             'Termos abrangentes elevam a revocação (trazem muitos documentos), mas reduzem a precisão ao introduzir ruído documental.',
-          armadilhaBanca: 'Inverter os efeitos de termos genéricos entre revocação e precisão.',
-          autorOuNormaReferencia: 'F. W. Lancaster (2004) - Indexação e Resumos',
+          armadilhaBanca: 'Inverter a relação inversamente proporcional entre revocação e precisão postulada por Lancaster.',
+          autorOuNormaReferencia: 'F. W. Lancaster - Indexação e Resumos',
         },
-        {
-          id: 'ia-adp-4',
-          macroModuloId: 'm5',
-          submoduloId: '5.1',
-          topicoNome: 'Desenvolvimento de Coleções (Vergueiro)',
-          item: 'Segundo Waldomiro Vergueiro, o estudo de comunidade é etapa dispensável na elaboração de uma política de desenvolvimento de coleções para bibliotecas legislativas.',
-          gabarito: 'E',
-          justificativa:
-            'O estudo de comunidade e a identificação do perfil de usuários constituem a base indispensável para nortear todas as fases da formação e desenvolvimento de coleções.',
-          armadilhaBanca: 'Qualificar o estudo de comunidade como dispensável ou secundário.',
-          autorOuNormaReferencia: 'Waldomiro Vergueiro (1989) - Desenvolvimento de Coleções',
-        },
-        {
-          id: 'ia-adp-5',
-          macroModuloId: 'm8',
-          submoduloId: '8.1',
-          topicoNome: 'Lei de Acesso à Informação (Lei 12.527/2011)',
-          item: 'Informações que possam colocar em risco a segurança do Presidente da República e de seu cônjuge são classificadas como reservadas e seu sigilo perdura até o término do mandato em exercício.',
-          gabarito: 'C',
-          justificativa:
-            'Conforme o art. 24, § 2º, da LAI, tais informações são reservadas e seu sigilo é mantido até o término do mandato.',
-          armadilhaBanca: 'Afirmar que essas informações seriam obrigatoriamente ultrassecretas com prazo fixo de 25 anos.',
-          autorOuNormaReferencia: 'Lei nº 12.527/2011, art. 24, § 2º',
-        },
-      ].slice(0, Math.min(qtdClamped, 5)),
+      ],
     });
   }
 
-  try {
-    const prompt = `
-Você é a BANCA EXAMINADORA OFICIAL DO CEBRASPE (CESPE/UnB) para o Concurso da Câmara dos Deputados (Analista Legislativo), atuando com máximo rigor técnico em Conhecimentos Específicos (Biblioteconomia, Documentação, Gestão da Informação, Legislação) e Conhecimentos Gerais (Língua Portuguesa, Raciocínio Lógico-Matemático, Língua Inglesa).
-Sua missão é formular um SIMULADO ADAPTATIVO DE FRAQUEZAS com exatamente ${qtdClamped} itens no formato CERTO/ERRADO, focando nos módulos solicitados (${modulosAlvo.join(', ')}).
+  const prompt = `
+Você é a BANCA EXAMINADORA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
+Sua missão é redigir exatamente ${qtdClamped} assertivas INÉDITAS de julgamento CERTO ou ERRADO (C/E) personalizadas para diagnosticar e sanar as vulnerabilidades do candidato.
 
-DIAGNÓSTICO DAS VULNERABILIDADES DO CANDIDATO:
-- Módulos prioritários: ${modulosAlvo.join(', ')}
-- Pontos cegos diagnosticados: ${JSON.stringify(vulnerabilidades)}
-- Modo de foco: ${modoFoco}
+DIRETRIZES DA BANCA:
+- Modo de Foco: ${modoFoco}
+- Módulos Alvo: ${modulosAlvo.join(', ')}
+- Vulnerabilidades / Pontos Cegos diagnosticados:
+${vulnerabilidades.length > 0 ? vulnerabilidades.map((v) => `  * ${v}`).join('\n') : '  * Conceitos fundamentais e distinções canônicas de Biblioteconomia'}
 
-DIRETRIZES DA BANCA CEBRASPE:
-1. Formulação de itens rigorosos, elegantes e de nível superior (padrão concurso da Câmara dos Deputados). Cada item deve ser uma assertiva puramente DECLARATIVA para julgamento Certo ou Errado (sem perguntas interrogativas e sem alternativas A-E).
-2. Equilíbrio estatístico saudável entre assertivas Certas (C) e Erradas (E).
-3. Distratores sofisticados da banca Cebraspe para itens ERRADOS:
-   - Inversão causal/sintática ou de conceitos correlatos (desbastamento x descarte, revocação x precisão, oração concessiva x adversativa, causa x consequência).
-   - Paráfrase infiel: reescrita gramaticalmente correta, porém com alteração do sentido original.
-   - Generalização indevida: uso de termos absolutos ("sempre", "todos", "em qualquer hipótese", "invariavelmente") em regras que comportam exceções.
-   - Restrição indevida: uso de termos limitantes ("apenas", "somente", "exclusivamente", "limita-se a") em conceitos de escopo abrangente.
-   - Adulteração de dispositivos normativos, prazos legais ou regras gramaticais estritas.
-4. REGRA ANTI-ALUCINAÇÃO INEGOCIÁVEL (BLOQUEIO SISTÊMICO):
-   - Todo item DEVE obrigatoriamente referenciar uma fonte primária canônica verificável:
-     * Língua Portuguesa: Celso Cunha & Lindley Cintra (2008), Evanildo Bechara (2009), Celso Pedro Luft, Domingos Paschoal Cegalla, Manual de Redação da Presidência da República (3ª ed. 2018), VOLP/ABL.
-     * Biblioteconomia e Ciência da Informação: Paul Otlet (1934), Suzanne Briet (1951), Waldomiro Vergueiro (1989), F. W. Lancaster (2004), S. R. Ranganathan, IFLA LRM, RDA, AACR2, ABNT NBR (com número).
-     * Legislação: CF/88 (com artigo), Lei nº 12.527/2011 (LAI com artigo), Lei nº 9.610/1998, Regimento Interno da Câmara (com artigo).
-     * Raciocínio Lógico: George Boole (1854), Philip Johnson-Laird (1983), Augustus De Morgan.
-     * Língua Inglesa: Raymond Murphy, Michael Swan, Randolph Quirk.
-   - NUNCA use termos genéricos como "jurisprudência Cebraspe", "edital da Câmara", "internet", "doutrina geral" ou "vários autores". Itens sem fonte primária canônica serão sumariamente rejeitados.
-5. Retorne EXCLUSIVAMENTE um objeto JSON válido com a seguinte estrutura:
+ESTILO CEBRASPE:
+- Redação concisa, objetiva, acadêmica, com 25 a 45 palavras por assertiva.
+- Equilíbrio rigoroso: aproximadamente 50% CERTO e 50% ERRADO.
+- Assertivas ERRADAS devem conter sutis distratores doutrinários ('cascas de banana' típicas do Cebraspe: generalização indevida, inversão conceitual, anacronismo ou restrição absoluta).
+- Justificativa técnica irrefutável citando autor canônico (Otlet, Briet, Borko, Lancaster, Vergueiro, Mey, Cunha & Lemos, RDA, IFLA LRM, ABNT ou LAI).
 
+Retorne ESTRITAMENTE um objeto JSON com a seguinte estrutura:
 {
   "itens": [
     {
       "id": "ia-adp-1",
-      "macroModuloId": "m13",
-      "submoduloId": "13.1",
-      "topicoNome": "Título do Tópico",
-      "item": "Texto da assertiva declarativa para julgamento...",
+      "macroModuloId": "m1",
+      "submoduloId": "1.1",
+      "topicoNome": "Nome do Tópico",
+      "item": "Texto da assertiva para julgamento Certo ou Errado...",
       "gabarito": "C",
-      "justificativa": "Justificativa analítica com citação da regra/autor...",
-      "armadilhaBanca": "Distrator ou técnica Cebraspe aplicada...",
-      "autorOuNormaReferencia": "Autor clássico com obra/ano ou dispositivo de lei/gramática"
+      "justificativa": "Justificativa detalhada com a fundamentação doutrinária...",
+      "armadilhaBanca": "Qual o distrator ou ponto cego explorado...",
+      "autorOuNormaReferencia": "Autor ou norma de referência"
     }
   ]
 }
 `;
 
-    const response = await fetch(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-goog-api-key': apiKey,
+  try {
+    const geminiUrl = getGeminiGenerateContentUrl();
+
+    const response = await fetchWithTimeout(geminiUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': apiKey,
+      },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: {
+          temperature: 0.3,
+          responseMimeType: 'application/json',
         },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            temperature: 0.3,
-            responseMimeType: 'application/json',
-          },
-        }),
-      }
-    );
+      }),
+    }, 20000);
 
     if (!response.ok) {
-      throw new Error(`Gemini API error: ${response.statusText}`);
+      throw new Error(`Gemini status ${response.status}`);
     }
 
-    const json = await response.json();
-    const textOutput = json.candidates?.[0]?.content?.parts?.[0]?.text;
-    const parsed = JSON.parse(textOutput);
+    const data = await response.json();
+    const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!rawText) throw new Error('Resposta vazia');
 
-    return res.status(200).json(parsed);
-  } catch (err: any) {
-    console.error('Erro na função generate-adaptive-quiz:', err);
-    return res.status(200).json({
-      itens: [
-        {
-          id: 'ia-adp-fallback-1',
-          macroModuloId: 'm1',
-          submoduloId: '1.1',
-          topicoNome: 'Conceito de Documento (Suzanne Briet)',
-          item: 'Na doutrina de Suzanne Briet, o antílope selvagem livre na savana já constitui um documento primário independentemente de qualquer ação humana.',
-          gabarito: 'E',
-          justificativa:
-            'Para Briet, o animal só se torna documento quando capturado, descrito e exposto sob a ação documentária.',
-          armadilhaBanca: 'Confundir o ser da natureza com o objeto documental processado.',
-          autorOuNormaReferencia: "Suzanne Briet (1951) - Qu'est-ce que la documentation?",
-        },
-      ],
-    });
+    const parsed = JSON.parse(rawText);
+    return res.status(200).json({ ...parsed, modo: 'online' });
+  } catch (error: any) {
+    console.error('[Generate Adaptive Quiz Error]', error?.message);
+    return sendApiError(res, 500, 'Falha ao gerar simulado adaptativo.', 'GENERATION_FAILED');
   }
 }

@@ -1,4 +1,5 @@
 import type { ItemCadernoErro } from '../cadernoErros';
+import { useAuthStore } from '../../store/useAuthStore';
 import type {
   SessaoSocratica,
   MensagemSocratica,
@@ -165,17 +166,22 @@ export async function iniciarSessaoSocratica(item: ItemCadernoErro): Promise<Ses
   let parecer: ParecerTecnicoBanca;
 
   try {
+    const session = useAuthStore.getState().session;
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    if (session?.access_token) {
+      headers['Authorization'] = `Bearer ${session.access_token}`;
+    }
+
     const res = await fetch('/api/socratic-challenge', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       body: JSON.stringify({
         acao: 'iniciar',
         assertiva: item.assertiva,
         gabarito: item.gabarito,
-        respostaUsuario: item.respostaUsuario || (item.gabarito === 'C' ? 'E' : 'C'),
+        escolhaCandidato: item.respostaUsuario || (item.gabarito === 'C' ? 'E' : 'C'),
         justificativa: item.justificativa,
         armadilhaBanca: item.armadilhaBanca,
-        tituloContexto: item.tituloContexto,
         macroModuloTitulo: item.macroModuloTitulo,
       }),
     });
@@ -211,6 +217,7 @@ export async function iniciarSessaoSocratica(item: ItemCadernoErro): Promise<Ses
     parecerInicial: parecer,
     mensagens: [primeiraMensagemBanca],
     superado: false,
+    modo: 'offline',
     criadoEm: new Date().toISOString(),
     atualizadoEm: new Date().toISOString(),
   };
@@ -241,20 +248,23 @@ export async function enviarArgumentoBanca(
   let respostaTextoBanca = '';
 
   try {
+    const session = useAuthStore.getState().session;
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    if (session?.access_token) {
+      headers['Authorization'] = `Bearer ${session.access_token}`;
+    }
+
     const res = await fetch('/api/socratic-challenge', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       body: JSON.stringify({
-        acao: 'replicar',
+        acao: 'responder',
         assertiva: sessao.assertiva,
         gabarito: sessao.gabarito,
-        respostaUsuario: sessao.respostaUsuario,
+        escolhaCandidato: sessao.respostaUsuario,
         macroModuloTitulo: sessao.macroModuloTitulo,
-        parecerInicial: sessao.parecerInicial,
-        historicoMensagens: mensagensAtualizadas.map((m) => ({
-          role: m.remetente === 'banca' ? 'model' : 'user',
-          parts: [{ text: m.conteudo }],
-        })),
+        justificativa: sessao.parecerInicial?.fundamentacao?.citacao,
+        armadilhaBanca: sessao.parecerInicial?.pontoCegoIdentificado,
         argumentoCandidato: argumentoUsuario,
       }),
     });

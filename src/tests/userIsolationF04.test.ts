@@ -29,7 +29,7 @@ describe('F-04: Isolamento de Dados por Usuário e Migração de Chaves', () => 
     // 2. Usuário A realiza atividade
     useProgressStore.setState({
       checkpointsRespondidos: { 'cp-1-1-1': 'C' },
-      secoesVisualizadas: { 'sec-1-1-1': true },
+      secoesVisualizadas: { '1.1': ['sec-1-1-1'] },
     });
 
     // Garante que os dados foram persistidos na chave isolada de A
@@ -59,7 +59,7 @@ describe('F-04: Isolamento de Dados por Usuário e Migração de Chaves', () => 
 
     // 5. Usuário B NÃO deve ver os dados de A
     expect(useProgressStore.getState().checkpointsRespondidos['cp-1-1-1']).toBeUndefined();
-    expect(useProgressStore.getState().secoesVisualizadas['sec-1-1-1']).toBeUndefined();
+    expect(useProgressStore.getState().secoesVisualizadas['1.1']).toBeUndefined();
     const rawB = localStorage.getItem('heuller_camara_v2_progress:user-B');
     if (rawB) {
       const parsedB = JSON.parse(rawB);
@@ -80,7 +80,7 @@ describe('F-04: Isolamento de Dados por Usuário e Migração de Chaves', () => 
     await useProgressStore.persist.rehydrate();
 
     expect(useProgressStore.getState().checkpointsRespondidos['cp-1-1-1']).toBe('C');
-    expect(useProgressStore.getState().secoesVisualizadas['sec-1-1-1']).toBe(true);
+    expect(useProgressStore.getState().secoesVisualizadas['1.1']).toEqual(['sec-1-1-1']);
   });
 
   it('Migra a chave legada (sem uid) para o primeiro usuário logado que tiver dados', async () => {
