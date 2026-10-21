@@ -516,33 +516,33 @@ export const TeoriaPage: React.FC = () => {
       })()}
 
           {/* Bloco 1: Autores Canônicos */}
-          <div id="sec-autores">
+          <div id="sec-autores" className="scroll-mt-28">
             <AutoresCanonicos autores={currentSub.mnemonicos.autores} />
           </div>
 
           {/* Bloco 2: Alertas Cebraspe da Banca */}
           {currentSub.alertasCebraspe.length > 0 && (
-            <div id="sec-alertas" className="my-6">
+            <div id="sec-alertas" className="my-6 scroll-mt-28">
               <AlertaCebraspe alertas={currentSub.alertasCebraspe} />
             </div>
           )}
 
           {/* Bloco 3: Matriz Comparativa (Zero Rolagem Horizontal) */}
           {currentSub.quadroComparativo && (
-            <div id="sec-quadro" className="my-8">
+            <div id="sec-quadro" className="my-8 scroll-mt-28">
               <TabelaComparativa quadro={currentSub.quadroComparativo} />
             </div>
           )}
 
           {/* Bloco Antes de Ler: Pré-requisitos Conceituais (U3.4 / U3.1) */}
           {currentSub.antesDeLer && currentSub.antesDeLer.length > 0 && (
-            <div id="sec-antes-de-ler">
+            <div id="sec-antes-de-ler" className="scroll-mt-28">
               <CartaoAntesDeLer termos={currentSub.antesDeLer} />
             </div>
           )}
 
           {/* Bloco 4: Teoria Editorial (Dual: Canônica vs Prática / Vida Real) */}
-          <article id="sec-teoria" className="border-t border-border pt-6">
+          <article id="sec-teoria" className="border-t border-border pt-6 scroll-mt-28">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
               <div>
                 <span className="font-mono text-xs uppercase tracking-wider text-ink-2 font-semibold">
@@ -559,7 +559,7 @@ export const TeoriaPage: React.FC = () => {
 
               {/* Seletor Dual de Formato de Estudo (W5) */}
               <div
-                className="inline-flex p-1 rounded-xl bg-surface-2 border border-border shrink-0 self-start sm:self-auto shadow-2xs"
+                className="inline-flex p-1 rounded-xl bg-surface-2 border border-border shrink-0 self-start sm:self-auto shadow-2xs overflow-x-auto max-w-full"
                 role="group"
                 aria-label="Alternar formato de estudo da teoria"
               >
@@ -567,7 +567,7 @@ export const TeoriaPage: React.FC = () => {
                   type="button"
                   data-testid="btn-modo-canonica"
                   onClick={() => alternarModoTeoria('canonica')}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'canonica'
                       ? 'bg-surface text-ink shadow-xs border border-border font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -575,15 +575,15 @@ export const TeoriaPage: React.FC = () => {
                   aria-pressed={modoTeoriaAtivo === 'canonica'}
                   title="Estudar pela teoria canônica e aprofundada institucional"
                 >
-                  <BookOpen className="w-3.5 h-3.5 text-accent" />
-                  <span>Teoria Canônica</span>
+                  <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
+                  <span className="whitespace-nowrap">Teoria Canônica</span>
                 </button>
 
                 <button
                   type="button"
                   data-testid="btn-modo-didatica"
                   onClick={() => alternarModoTeoria('didatica')}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'didatica'
                       ? 'bg-accent text-accent-contrast shadow-xs font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -591,10 +591,10 @@ export const TeoriaPage: React.FC = () => {
                   aria-pressed={modoTeoriaAtivo === 'didatica'}
                   title="Estudar pelo formato didático com foco na vida real e rotina da Câmara"
                 >
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Modo Prático & Vida Real</span>
+                  <Sparkles className="w-3.5 h-3.5 shrink-0" />
+                  <span className="whitespace-nowrap">Modo Prático & Vida Real</span>
                   {currentSub.teoriaDidaticaMarkdown && (
-                    <span className="text-xs bg-accent-contrast/20 px-1 py-0.2 rounded font-mono">
+                    <span className="text-xs bg-accent-contrast/20 px-1 py-0.2 rounded font-mono whitespace-nowrap shrink-0">
                       Piloto
                     </span>
                   )}
@@ -668,7 +668,7 @@ export const TeoriaPage: React.FC = () => {
           <section
             id="sec-checkpoints"
             aria-labelledby="checkpoints-title"
-            className="border-t border-border pt-8 my-8 space-y-6"
+            className="border-t border-border pt-8 my-8 space-y-6 scroll-mt-28"
           >
             <div>
               <div className="flex items-center gap-2 mb-1">
@@ -729,7 +729,7 @@ export const TeoriaPage: React.FC = () => {
           <section
             id="sec-mnemonicos"
             aria-labelledby="mnemonicos-title"
-            className="border-t border-border pt-8 my-8 space-y-6"
+            className="border-t border-border pt-8 my-8 space-y-6 scroll-mt-28"
           >
             <div>
               <div className="flex items-center gap-2 mb-1">
