@@ -11,43 +11,43 @@ export const EVIDENCIA_CIENTIFICA_FORMATOS: Record<
 > = {
   f1_ce_simples: {
     evidencia: 'Julgamento factual direto simulando a pressão de prova da banca Cebraspe (sem pistas adicionais).',
-    referencia: 'Roediger & Karpicke (2006) - Test-enhanced learning in classroom contexts.',
+    referencia: 'Roediger & Karpicke (2006); Dunlosky et al. (2013) - Practice testing has high utility.',
     utilidade: 'alta',
   },
   f2_com_justificativa: {
     evidencia: 'Interrogação elaborativa com justificação explícita do porquê o item é verdadeiro ou falso.',
-    referencia: 'Dunlosky et al. (2013) - Elaborative interrogation has high utility for factual integration.',
-    utilidade: 'alta',
+    referencia: 'Dunlosky et al. (2013) - Elaborative interrogation has moderate utility for factual integration.',
+    utilidade: 'moderada',
   },
   f3_identificacao_erro: {
     evidencia: 'Discriminação de contraste cirúrgico para suprimir falsas ilusões de competência e identificar armadilhas.',
-    referencia: 'Kornell & Bjork (2008) - Category induction via interleaved contrast.',
-    utilidade: 'alta',
+    referencia: 'Kornell & Bjork (2008); Dunlosky et al. (2013) - Category induction and interleaved contrast have moderate utility.',
+    utilidade: 'moderada',
   },
   f4_preenchimento_lacunas: {
     evidencia: 'Recordação com pistas (cued recall / Cloze): força a recuperação ativa da terminologia normativa exata.',
-    referencia: 'Taylor (1953); Roediger & Butler (2011) - Critical benefits of retrieval practice with cues.',
+    referencia: 'Taylor (1953); Roediger & Butler (2011); Dunlosky et al. (2013) - Practice testing via cued recall has high utility.',
     utilidade: 'alta',
   },
   f5_associacao: {
     evidencia: 'Mapeamento relacional de esquemas e padrões de metadados para consolidação de estruturas conceituais.',
-    referencia: 'Dunlosky et al. (2013) - Organizing information into conceptual schemas enhances transfer.',
-    utilidade: 'alta',
+    referencia: 'Dunlosky et al. (2013) - Organizing information into conceptual schemas has moderate utility.',
+    utilidade: 'moderada',
   },
   f6_caso_pratico: {
     evidencia: 'Aprendizagem contextual e aplicação transferencial a cenários práticos da Câmara dos Deputados.',
-    referencia: 'Pashler et al. (2007) - Applying knowledge to novel real-world contexts promotes durable retention.',
-    utilidade: 'alta',
+    referencia: 'Pashler et al. (2007); Dunlosky et al. (2013) - Transfer to novel contexts has moderate utility.',
+    utilidade: 'moderada',
   },
   f7_flashcard_ativo: {
     evidencia: 'Recordação livre com elaborative retrieval (recuperar mentalmente antes de ler o gabarito).',
-    referencia: 'Pressley et al. (1987); Roediger & Karpicke (2006) - Pure active retrieval testing effect.',
+    referencia: 'Pressley et al. (1987); Roediger & Karpicke (2006); Dunlosky et al. (2013) - Active retrieval practice testing has high utility.',
     utilidade: 'alta',
   },
   f8_inversao_papeis: {
     evidencia: 'Metacognição crítica e análise da ótica do examinador: desmascara os 4 padrões de armadilha Cebraspe.',
-    referencia: 'Dunlosky et al. (2013); Flavell (1979) - Metacognitive monitoring and test-maker modeling.',
-    utilidade: 'alta',
+    referencia: 'Dunlosky et al. (2013); Flavell (1979) - Metacognitive monitoring has moderate utility.',
+    utilidade: 'moderada',
   },
 };
 

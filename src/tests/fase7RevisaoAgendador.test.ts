@@ -377,8 +377,17 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
         expect(info).toBeDefined();
         expect(info.evidencia.length).toBeGreaterThan(15);
         expect(info.referencia.length).toBeGreaterThan(10);
-        expect(info.utilidade).toBe('alta');
+        expect(['alta', 'moderada']).toContain(info.utilidade);
       });
+      // Verificação específica conforme taxonomia Dunlosky et al. (2013)
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f1_ce_simples.utilidade).toBe('alta');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f4_preenchimento_lacunas.utilidade).toBe('alta');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f7_flashcard_ativo.utilidade).toBe('alta');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f2_com_justificativa.utilidade).toBe('moderada');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f3_identificacao_erro.utilidade).toBe('moderada');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f5_associacao.utilidade).toBe('moderada');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f6_caso_pratico.utilidade).toBe('moderada');
+      expect(EVIDENCIA_CIENTIFICA_FORMATOS.f8_inversao_papeis.utilidade).toBe('moderada');
     });
   });
 
