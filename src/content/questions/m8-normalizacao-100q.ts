@@ -30,11 +30,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "FUB/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1876"
+      }
   },
   {
     "id": "m8-q-3",
@@ -48,11 +52,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ABIN/2017"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2017 / 2017",
+        "verificado": true,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1813"
+      }
   },
   {
     "id": "m8-q-4",
@@ -105,11 +113,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRT21/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1819"
+      }
   },
   {
     "id": "m8-q-7",
@@ -123,11 +135,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "MPU/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1911"
+      }
   },
   {
     "id": "m8-q-8",
@@ -411,11 +427,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "MPU/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "MPU/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1915"
+      }
   },
   {
     "id": "m8-q-24",
@@ -429,11 +449,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "SEDUC-AM/2011"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2011 / 2011",
+        "verificado": true,
+        "provaId": "SEDUC-AM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1905"
+      }
   },
   {
     "id": "m8-q-25",
@@ -566,11 +590,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2024 (Biblioteconomia).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2024 (Biblioteconomia)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Biblioteconomia / 2024",
+        "verificado": true,
+        "provaId": "STJ/2024 (Biblioteconomia)",
+        "ano": 2024,
+        "orgao": "Biblioteconomia",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2287"
+      }
   },
   {
     "id": "m8-q-33",
@@ -618,11 +646,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso PC-DF/2025 (Bibliotecário): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "PC-DF/2025 (Bibliotecário)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Bibliotecário / 2025",
+        "verificado": true,
+        "provaId": "PC-DF/2025 (Bibliotecário)",
+        "ano": 2025,
+        "orgao": "Bibliotecário",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-pc_df_2025-1987"
+      }
   },
   {
     "id": "m8-q-36",
@@ -891,11 +923,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "CAPES/2012"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2012 / 2012",
+        "verificado": true,
+        "provaId": "CAPES/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1885"
+      }
   },
   {
     "id": "m8-q-52",
@@ -909,11 +945,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MS/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "MS/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "MS/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1864"
+      }
   },
   {
     "id": "m8-q-53",
@@ -927,11 +967,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "SERPRO/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "SERPRO/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1845"
+      }
   },
   {
     "id": "m8-q-54",
@@ -962,11 +1006,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "FUB/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1875"
+      }
   },
   {
     "id": "m8-q-56",
@@ -1070,11 +1118,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ANTT/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "ANTT/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1847"
+      }
   },
   {
     "id": "m8-q-62",
@@ -1105,11 +1157,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MS/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "MS/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "MS/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1865"
+      }
   },
   {
     "id": "m8-q-64",
@@ -1174,11 +1230,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ECT/2011"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2011 / 2011",
+        "verificado": true,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1822"
+      }
   },
   {
     "id": "m8-q-68",
@@ -1226,11 +1286,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CPRM/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "CPRM/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "CPRM/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1858"
+      }
   },
   {
     "id": "m8-q-71",
@@ -1300,11 +1364,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STM/2011"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2011 / 2011",
+        "verificado": true,
+        "provaId": "STM/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1852"
+      }
   },
   {
     "id": "m8-q-75",
@@ -1340,11 +1408,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ABIN/2017"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2017 / 2017",
+        "verificado": true,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1816"
+      }
   },
   {
     "id": "m8-q-77",
@@ -1397,11 +1469,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ABIN/2017"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2017 / 2017",
+        "verificado": true,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1815"
+      }
   },
   {
     "id": "m8-q-80",
@@ -1415,11 +1491,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRT21/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1821"
+      }
   },
   {
     "id": "m8-q-81",
@@ -1433,11 +1513,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "FUB/2015"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / ABNT / 2024",
+        "verificado": true,
+        "provaId": "ABNT",
+        "ano": 2024,
+        "orgao": "ABNT",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1827"
+      }
   },
   {
     "id": "m8-q-82",
@@ -1541,11 +1625,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRT21/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1817"
+      }
   },
   {
     "id": "m8-q-88",
@@ -1581,11 +1669,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ABIN/2017"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2017 / 2017",
+        "verificado": true,
+        "provaId": "ABIN/2017",
+        "ano": 2017,
+        "orgao": "2017",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1814"
+      }
   },
   {
     "id": "m8-q-90",
@@ -1667,11 +1759,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRT21/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1818"
+      }
   },
   {
     "id": "m8-q-95",
@@ -1736,11 +1832,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ECT/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ECT/2011"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2011 / 2011",
+        "verificado": true,
+        "provaId": "ECT/2011",
+        "ano": 2011,
+        "orgao": "2011",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1825"
+      }
   },
   {
     "id": "m8-q-99",
@@ -1771,10 +1871,14 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRT21/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRT21/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1820"
+      }
   }
 ];

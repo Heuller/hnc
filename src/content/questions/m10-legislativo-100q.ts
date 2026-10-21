@@ -187,11 +187,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2063"
+      }
   },
   {
     "id": "m10-q-12",
@@ -222,11 +226,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2061"
+      }
   },
   {
     "id": "m10-q-14",
@@ -444,11 +452,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2052"
+      }
   },
   {
     "id": "m10-q-27",
@@ -564,11 +576,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRE-BA/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-685"
+      }
   },
   {
     "id": "m10-q-34",
@@ -633,11 +649,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2069"
+      }
   },
   {
     "id": "m10-q-38",
@@ -651,11 +671,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2051"
+      }
   },
   {
     "id": "m10-q-39",
@@ -669,11 +693,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2041"
+      }
   },
   {
     "id": "m10-q-40",
@@ -687,11 +715,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2045"
+      }
   },
   {
     "id": "m10-q-41",
@@ -705,11 +737,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2057"
+      }
   },
   {
     "id": "m10-q-42",
@@ -723,11 +759,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2043"
+      }
   },
   {
     "id": "m10-q-43",
@@ -758,11 +798,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2049"
+      }
   },
   {
     "id": "m10-q-45",
@@ -776,11 +820,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2048"
+      }
   },
   {
     "id": "m10-q-46",
@@ -794,11 +842,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2042"
+      }
   },
   {
     "id": "m10-q-47",
@@ -863,11 +915,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2046"
+      }
   },
   {
     "id": "m10-q-51",
@@ -881,11 +937,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "real-prova_recente-2076"
+      }
   },
   {
     "id": "m10-q-52",
@@ -963,8 +1023,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "Para ingressar no cargo de Analista Legislativo — Bibliotecário da Câmara dos Deputados, o candidato não precisa prestar concurso público, bastando indicação de parentesco com um ministro estrangeiro.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O ingresso em cargo efetivo de Analista Legislativo da Câmara dos Deputados exige aprovação prévia em rigoroso CONCURSO PÚBLICO de provas ou de provas e títulos, em cumprimento ao art. 37, II da Constituição Federal.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar concurso público para cargo efetivo da Câmara.",
+    "justificativa": "Gabarito ERRADO. O ingresso em cargo efetivo de Analista Legislativo da Câmara dos Deputados exige aprovação prévia em rigoroso ÚBLICO de provas ou de provas e títulos, em cumprimento ao art. 37, II da Constituição Federal.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar úblico para cargo efetivo da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
           "tipo": "inedita",
@@ -1028,11 +1088,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TRE-BA/2010"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2010 / 2010",
+        "verificado": true,
+        "provaId": "TRE-BA/2010",
+        "ano": 2010,
+        "orgao": "2010",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-682"
+      }
   },
   {
     "id": "m10-q-60",
@@ -1451,11 +1515,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2012"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2012 / 2012",
+        "verificado": true,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-601"
+      }
   },
   {
     "id": "m10-q-84",
@@ -1575,11 +1643,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2012"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2012 / 2012",
+        "verificado": true,
+        "provaId": "STJ/2012",
+        "ano": 2012,
+        "orgao": "2012",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-604"
+      }
   },
   {
     "id": "m10-q-91",
@@ -1610,11 +1682,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "CADE/2014"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2014 / 2014",
+        "verificado": true,
+        "provaId": "CADE/2014",
+        "ano": 2014,
+        "orgao": "2014",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-589"
+      }
   },
   {
     "id": "m10-q-93",
@@ -1628,11 +1704,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "CNJ/2013"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "CNJ/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-599"
+      }
   },
   {
     "id": "m10-q-94",
