@@ -75,7 +75,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
   return (
     <>
       {/* Barra de contexto fixa no mobile (md:hidden) */}
-      <div className="sticky top-14 z-30 md:hidden bg-surface/95 backdrop-blur-md border-b border-border px-3 py-2 flex items-center justify-between shadow-2xs mb-4 sm:mb-6">
+      <div className="sticky top-14 z-30 md:hidden bg-surface border-b border-border px-3 py-2 flex items-center justify-between shadow-2xs mb-4 sm:mb-6">
         {/* Identificador Módulo · Submódulo na cor do módulo */}
         <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 flex-1 mr-2">
           <span

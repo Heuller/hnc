@@ -20,7 +20,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ className = '' }) => {
   return (
     <nav
       aria-label="Trilha de navegação"
-      className={`w-full bg-surface-2/30 border-b border-border/40 px-3 sm:px-6 py-1 text-xs font-sans text-ink-2 select-none print:hidden ${className}`}
+      className={`w-full bg-surface border-b border-border/60 px-3 sm:px-6 py-1 text-xs font-sans text-ink-2 select-none print:hidden ${className}`}
     >
       <div className="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto scrollbar-none text-xs">
         {items.map((item, idx) => {
