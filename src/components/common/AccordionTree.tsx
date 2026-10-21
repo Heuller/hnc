@@ -95,35 +95,35 @@ function parseTreeCode(raw: string): { title: string; roots: TreeNode[] } {
   return { title, roots };
 }
 
-// Level-based colors
+// Level-based colors usando tokens semânticos do Design System Papel e Tinta
 const LEVEL_STYLES = [
   // Level 0 — Raiz
   {
-    container: 'bg-indigo-600 dark:bg-indigo-700 text-white',
-    icon: 'text-indigo-200',
-    connector: 'border-indigo-400 dark:border-indigo-600',
-    badge: 'bg-indigo-500',
+    container: 'bg-primary text-primary-text border border-primary shadow-xs font-bold',
+    icon: 'text-accent',
+    connector: 'border-border',
+    badge: 'bg-surface/20 text-primary-text',
   },
   // Level 1
   {
-    container: 'bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 border border-slate-200 dark:border-slate-700',
-    icon: 'text-slate-400',
-    connector: 'border-slate-300 dark:border-slate-600',
-    badge: 'bg-slate-400',
+    container: 'bg-surface text-ink border border-border shadow-2xs',
+    icon: 'text-accent',
+    connector: 'border-border',
+    badge: 'bg-surface-2 text-ink-2 border border-border',
   },
   // Level 2
   {
-    container: 'bg-white dark:bg-slate-800/60 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700/60',
-    icon: 'text-slate-300',
-    connector: 'border-slate-200 dark:border-slate-700',
-    badge: 'bg-slate-300',
+    container: 'bg-surface-2/60 text-ink border border-border/80',
+    icon: 'text-ink-2',
+    connector: 'border-border',
+    badge: 'bg-surface text-ink-2 border border-border',
   },
   // Level 3+
   {
-    container: 'bg-slate-50 dark:bg-slate-900/40 text-slate-600 dark:text-slate-300 border border-dashed border-slate-200 dark:border-slate-700/50',
-    icon: 'text-slate-300',
-    connector: 'border-slate-200 dark:border-slate-700',
-    badge: 'bg-slate-200',
+    container: 'bg-surface-2/30 text-ink-2 border border-dashed border-border',
+    icon: 'text-ink-2',
+    connector: 'border-border',
+    badge: 'bg-surface-2 text-ink-2 border border-border',
   },
 ];
 
@@ -153,8 +153,8 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
           flex items-center gap-2 w-full text-left px-2.5 sm:px-3 py-2 sm:py-2.5 rounded-lg
           transition-all duration-150 min-w-0 max-w-full
           ${style.container}
-          ${hasChildren ? 'cursor-pointer hover:opacity-90 active:scale-[0.99]' : 'cursor-default'}
-          ${level === 0 ? 'shadow-md' : 'shadow-sm'}
+          ${hasChildren ? 'cursor-pointer hover:opacity-95 active:scale-[0.99]' : 'cursor-default'}
+          ${level === 0 ? 'shadow-md' : 'shadow-2xs'}
         `}
       >
         {/* Expand icon */}
@@ -183,9 +183,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
             className={`
               hidden sm:inline-block shrink-0 text-xs font-medium
               px-2 py-0.5 rounded-full max-w-[140px] truncate
-              ${level === 0
-                ? 'bg-white/20 text-white/90'
-                : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400'}
+              ${style.badge}
             `}
           >
             {node.description}
@@ -195,7 +193,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
         {/* Children count */}
         {hasChildren && !isOpen && (
           <span
-            className="shrink-0 text-xs font-bold px-1.5 py-0.5 rounded-full bg-black/10 dark:bg-white/10"
+            className="shrink-0 text-xs font-bold px-1.5 py-0.5 rounded-full bg-surface-2 text-ink-2 border border-border"
             aria-label={`${node.children.length} subitens`}
           >
             +{node.children.length}
@@ -205,7 +203,7 @@ const TreeNodeItem: React.FC<TreeNodeItemProps> = ({ node, level, defaultOpen = 
 
       {/* Mobile description (shown below button) */}
       {node.description && (
-        <p className="sm:hidden text-xs text-slate-400 dark:text-slate-500 px-2 pt-1 pb-0.5 break-words">
+        <p className="sm:hidden text-xs text-ink-2 px-2 pt-1 pb-0.5 break-words font-serif-reading">
           {node.description}
         </p>
       )}
@@ -262,16 +260,16 @@ export const AccordionTree: React.FC<AccordionTreeProps> = ({ code, className = 
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-2 mb-3 max-w-full">
         <div className="flex items-center gap-1.5 min-w-0 flex-1">
-          <Network className="w-4 h-4 text-slate-400 shrink-0" />
-          <span className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 truncate">
+          <Network className="w-4 h-4 text-accent shrink-0" />
+          <span className="text-xs font-bold uppercase tracking-wider text-ink-2 truncate">
             {title}
           </span>
         </div>
         <div className="flex items-center gap-2 shrink-0">
-          <span className="text-xs text-slate-400">{totalNodes} nós</span>
+          <span className="text-xs font-mono font-medium text-ink-2">{totalNodes} nós</span>
           <button
             onClick={() => setAllExpanded((v) => !v)}
-            className="text-xs text-indigo-500 dark:text-indigo-400 hover:underline font-medium cursor-pointer"
+            className="text-xs text-accent hover:underline font-semibold cursor-pointer"
             aria-label={allExpanded ? 'Recolher todos' : 'Expandir todos'}
           >
             {allExpanded ? 'Recolher todos' : 'Expandir todos'}
