@@ -559,7 +559,7 @@ export const TeoriaPage: React.FC = () => {
 
               {/* Seletor Dual de Formato de Estudo (W5) */}
               <div
-                className="inline-flex p-1 rounded-xl bg-surface-2 border border-border shrink-0 self-start sm:self-auto shadow-2xs overflow-x-auto max-w-full"
+                className="flex items-center p-1 rounded-xl bg-surface-2 border border-border shadow-2xs w-full sm:w-auto"
                 role="group"
                 aria-label="Alternar formato de estudo da teoria"
               >
@@ -567,7 +567,7 @@ export const TeoriaPage: React.FC = () => {
                   type="button"
                   data-testid="btn-modo-canonica"
                   onClick={() => alternarModoTeoria('canonica')}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'canonica'
                       ? 'bg-surface text-ink shadow-xs border border-border font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -583,7 +583,7 @@ export const TeoriaPage: React.FC = () => {
                   type="button"
                   data-testid="btn-modo-didatica"
                   onClick={() => alternarModoTeoria('didatica')}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                  className={`flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap ${
                     modoTeoriaAtivo === 'didatica'
                       ? 'bg-accent text-accent-contrast shadow-xs font-bold'
                       : 'text-ink-2 hover:text-ink'
@@ -592,17 +592,14 @@ export const TeoriaPage: React.FC = () => {
                   title="Estudar pelo formato didático com foco na vida real e rotina da Câmara"
                 >
                   <Sparkles className="w-3.5 h-3.5 shrink-0" />
-                  <span className="whitespace-nowrap">Modo Prático & Vida Real</span>
-                  {currentSub.teoriaDidaticaMarkdown && (
-                    <span className="text-xs bg-accent-contrast/20 px-1 py-0.2 rounded font-mono whitespace-nowrap shrink-0">
-                      Piloto
-                    </span>
-                  )}
+                  <span className="whitespace-nowrap">
+                    Modo Prático<span className="hidden sm:inline"> & Vida Real</span>
+                  </span>
                 </button>
               </div>
             </div>
 
-            {/* Aviso informativo quando Modo Prático é acionado mas ainda não há markdown piloto */}
+            {/* Aviso informativo quando Modo Prático é acionado mas ainda não há markdown didático */}
             {modoTeoriaAtivo === 'didatica' && !currentSub.teoriaDidaticaMarkdown && (
               <div className="mb-6 p-4 rounded-xl border border-accent/30 bg-accent-soft/30 text-ink flex items-start gap-3 animate-fadeIn">
                 <Sparkles className="w-5 h-5 text-accent shrink-0 mt-0.5" />
