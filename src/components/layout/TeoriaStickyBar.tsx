@@ -75,9 +75,9 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
   return (
     <>
       {/* Barra de contexto fixa no mobile (md:hidden) */}
-      <div className="sticky top-14 z-30 md:hidden bg-surface/95 backdrop-blur-md border-b border-border px-3 py-2 flex items-center justify-between shadow-2xs">
+      <div className="sticky top-14 z-30 md:hidden bg-surface/95 backdrop-blur-md border-b border-border px-3 py-2 flex items-center justify-between shadow-2xs mb-4 sm:mb-6">
         {/* Identificador Módulo · Submódulo na cor do módulo */}
-        <div className="flex items-center gap-2 min-w-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 flex-1 mr-2">
           <span
             className="px-2 py-0.5 rounded text-xs font-mono font-bold shrink-0 shadow-2xs"
             style={{
@@ -92,7 +92,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
           <button
             type="button"
             onClick={() => setIsTocOpen(true)}
-            className="flex items-center gap-1 text-xs font-sans text-ink font-semibold truncate hover:text-accent cursor-pointer min-h-[36px] py-1 px-1.5 rounded hover:bg-surface-2 transition-colors"
+            className="flex items-center gap-1 text-xs font-sans text-ink font-semibold min-w-0 flex-1 truncate hover:text-accent cursor-pointer min-h-[36px] py-1 px-1.5 rounded hover:bg-surface-2 transition-colors"
             aria-label="Abrir sumário de seções"
           >
             <span className="truncate">{activeSection.titulo}</span>
@@ -101,7 +101,7 @@ export const TeoriaStickyBar: React.FC<TeoriaStickyBarProps> = ({
         </div>
 
         {/* Ações contextuais de leitura: Mnemônicos e Progresso */}
-        <div className="flex items-center gap-1.5 shrink-0 ml-2">
+        <div className="flex items-center gap-1.5 shrink-0">
           <MnemonicosDrawerMobile
             mnemonicos={submodulo.mnemonicos}
             tituloModulo={`Submódulo ${submodulo.numero}: ${submodulo.titulo}`}
