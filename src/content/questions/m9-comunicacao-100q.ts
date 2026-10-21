@@ -13,9 +13,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRT21/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRT21/2010"
     }
   },
   {
@@ -30,9 +31,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2018"
     }
   },
   {
@@ -47,9 +49,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o DOAJ com diretório de revistas predatórias.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -64,9 +66,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função da base Sherpa Romeo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -81,9 +83,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar o modelo Via Diamante/Platinum.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -98,9 +100,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter os objetivos do Plano S (cOAlition S).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -115,9 +117,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir licenças Creative Commons no Acesso Aberto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -132,9 +134,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição oficial de Acesso Aberto da BOAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -149,9 +151,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289219"
     }
   },
   {
@@ -166,9 +173,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Via Verde (autoarquivamento em repositórios) com Via Dourada com APC.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -183,9 +190,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar avaliação cega como audiência ao vivo na TV.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -200,9 +207,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ECT/2011",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ECT/2011"
     }
   },
   {
@@ -217,9 +225,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289220"
     }
   },
   {
@@ -234,9 +247,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2011",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "FUB/2011"
     }
   },
   {
@@ -251,9 +265,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de revista híbrida e double dipping.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -268,9 +282,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STM/2011",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STM/2011"
     }
   },
   {
@@ -285,9 +300,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferenciação canônica entre preprint e postprint.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -302,9 +317,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de periódicos predatórios.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -319,9 +334,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CADE/2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CADE/2014"
     }
   },
   {
@@ -336,9 +352,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Open Peer Review.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -353,9 +369,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289222"
     }
   },
   {
@@ -370,9 +391,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2012",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "STJ",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-104079"
     }
   },
   {
@@ -387,9 +413,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "FUB/2013"
     }
   },
   {
@@ -404,9 +431,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito da Via Dourada do Acesso Aberto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -421,9 +448,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2018"
     }
   },
   {
@@ -438,9 +466,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter os termos da relação de Bradford (artigos constantes vs periódicos crescentes).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -455,9 +483,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Hapax Legomena.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -472,9 +500,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a ocorrência do Desvio de Groos (Groos droop) em Bradford.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -489,9 +517,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de meia-vida da literatura de Burton e Kebler.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -506,9 +534,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar Lei de Zipf como mosteiros medievais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -523,9 +551,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2018"
     }
   },
   {
@@ -540,9 +569,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2018"
     }
   },
   {
@@ -557,9 +587,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Declarar que a produtividade de autores na Lei de Lotka é homogênea.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -574,9 +604,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289216"
     }
   },
   {
@@ -591,9 +626,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Significado informacional dos postos de Zipf.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -608,9 +643,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cálculo matemático da Lei de Lotka.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -625,9 +660,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de acoplamento bibliográfico de Kessler.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -642,9 +677,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir cocitação dinâmica (Small) com acoplamento estático (Kessler).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -659,9 +694,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Análise de coocorrência de palavras (co-words).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -676,9 +711,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Enunciado canônico da Lei de Bradford.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -693,9 +728,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Posicionar Ponto de Goffman no posto 1 de Zipf.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -710,9 +745,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir o teste de Kolmogorov-Smirnov em estudos de Lotka.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -727,9 +762,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Lei do Elitismo de Solla Price (raiz quadrada de N).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -744,9 +779,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Exigir um milhão de zonas na Lei de Bradford.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -761,9 +796,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Webometria.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -778,9 +813,13 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / FUB / 2015",
+      "verificado": true,
+      "provaId": "TecConcursos-289218",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -795,9 +834,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar incompatibilidade absoluta entre métricas da informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -812,9 +851,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Segunda Lei de Zipf e termos raros.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -829,9 +868,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar a Lei de Price com duplicação em 24h e energia cósmica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -846,9 +885,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Aplicação da Lei de Bradford na gestão de coleções.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -863,9 +902,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Condicionar Índice h a aprovação papal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -880,9 +919,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir repercussão altmétrica em redes sociais com validação metodológica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -897,9 +936,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Índice de Imediatez.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -914,9 +953,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Metodologia do CiteScore da Scopus.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -931,9 +970,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar Altmetric Attention Score como física nuclear.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -948,9 +987,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Métrica normalizada SNIP de Henk Moed.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -965,9 +1004,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Sistema Qualis Periódicos da Capes.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -982,9 +1021,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito e escopo da Altmetria.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -999,9 +1038,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar cálculo do Fator de Impacto com prêmio Nobel e ano de 1800.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1016,9 +1055,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que o Índice g pune artigos altamente citados em vez de valorizá-los.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1033,9 +1072,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição oficial do Fator de Impacto JCR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1050,9 +1089,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter a hierarquia dos estratos do Qualis.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1067,9 +1106,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir contagem de leitores do Mendeley com lucro financeiro.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1084,9 +1123,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Redes de coautoria em cientometria.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1101,9 +1140,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Primeiro princípio do Manifesto de Leiden.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1118,9 +1157,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a incidência da Lei de Goodhart na avaliação científica.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1135,9 +1174,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289214"
     }
   },
   {
@@ -1152,9 +1196,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Valorização de múltiplos produtos da pesquisa segundo DORA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1169,9 +1213,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_METRICA: Erro no cálculo conceitual do Índice h de Hirsch.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1186,9 +1230,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que o SJR não pondera o prestígio das revistas citantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1203,9 +1247,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Propriedades do Índice h de Hirsch.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1220,9 +1264,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Considerar manipulação de autocitação prática nobre no JCR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1237,9 +1281,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CWTS Leiden Ranking.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1254,9 +1298,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito do Efeito Mateus de Robert Merton.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1271,9 +1315,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Comparar fatores de impacto brutos entre áreas díspares sem normalização.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1288,9 +1332,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito e função da retratação de artigos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1305,9 +1349,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Defender legitimidade do autoplágio e publicação redundante.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1322,9 +1366,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289173"
     }
   },
   {
@@ -1339,9 +1388,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Recursos Educacionais Abertos (REA).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1356,9 +1405,13 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / CNJ / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-103239",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1373,9 +1426,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-103194"
     }
   },
   {
@@ -1390,9 +1448,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "MPU/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MPU/2013"
     }
   },
   {
@@ -1407,9 +1466,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Permitir autoria de cortesia a chefes que não trabalharam na pesquisa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1424,9 +1483,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar orientações do COPE como punição medieval.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1441,9 +1500,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289215"
     }
   },
   {
@@ -1458,9 +1522,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2013",
+      "ano": 2013,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-346485"
     }
   },
   {
@@ -1475,9 +1544,10 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TCDF/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCDF/2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCDF/2014"
     }
   },
   {
@@ -1492,9 +1562,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição de falsificação de dados.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1509,9 +1579,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de salami slicing.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1526,9 +1596,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TCDF/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCDF/2014",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+      "ano": 2014,
+      "orgao": "TC DF",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-369882"
     }
   },
   {
@@ -1543,9 +1618,13 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SERPRO/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436562",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1560,9 +1639,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar fabricação de dados conduta exemplar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1577,9 +1656,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289223"
     }
   },
   {
@@ -1594,9 +1678,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de autoria fantasma.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1611,9 +1695,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter todos os pilares da Ciência Aberta da UNESCO.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1628,9 +1712,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "MPU/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-229007"
     }
   },
   {
@@ -1645,9 +1734,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição oficial de Ciência Aberta da UNESCO.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1662,9 +1751,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar declaração de conflitos de interesses.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1679,9 +1768,14 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJ-RR/2012",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-181047"
     }
   },
   {
@@ -1696,9 +1790,9 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito de Ciência Cidadã.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     }
   }
 ];

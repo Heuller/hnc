@@ -17,6 +17,7 @@ import { simuladoPortugues100Q } from './questions/m13-portugues-100q';
 import { simuladoTecnologiaDados100Q } from './questions/m14-tecnologia-dados-100q';
 import { megaSimuladoCamara120Q } from './questions/mega-simulado-camara-120q';
 import { simuladoGeral180Q } from './questions/simulado-geral-180q';
+import { simuladoOficialCamara180Q } from './questions/simulado-oficial-camara-180q';
 import { simuladoOrgaosGov30Q } from './questions/mini-modulo-orgaos-30q';
 
 export interface SimuladoManifest {
@@ -233,6 +234,7 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
 ];
 
 export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
+
   {
     id: 'm10a-legislativo-constituicao',
     macroModuloId: 'M10A',
@@ -276,7 +278,30 @@ export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
   },
 ];
 
+export const SIMULADOS_OFICIAIS_REGISTRY: SimuladoManifest[] = [
+  {
+    id: 'simulado-oficial-camara-2027',
+    macroModuloId: 'OFICIAL2027',
+    numero: 17,
+    titulo: 'Simulado Oficial Câmara 2027: Prova Objetiva Integral (180 Itens)',
+    tituloCurto: 'Simulado Oficial 90+90',
+    subtitulo: '180 Itens C/E: P1 Básicos (90Q) + P2 Específicos (90Q) | Pisos 18/27/54 | 5h00 de Prova',
+    descricao:
+      'Simulação oficial integral da Prova Objetiva da Câmara dos Deputados (Edital nº 1/2026, Cargo 5): 90 itens de Conhecimentos Básicos (P1) e 90 itens de Conhecimentos Específicos (P2), com duração de 5h00 (manhã) e avaliação dos 3 pisos eliminatórios do Cebraspe (P1 < 18, P2 < 27 e Total < 54 eliminam).',
+    questoes: simuladoOficialCamara180Q,
+    submodulosIds: [
+      '13.1', '13.2', '13.3', '13.4', '12.1', '12.2', '12.3', '12.4', '11.1', '11.2', '11.3', '11.4',
+      '10.1', '10.2', '10.5', '10.6', '14.1', '14.2', '14.3', '14.4',
+      '1.1', '1.2', '1.3', '1.4', '1.5', '1.6', '2.1', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7',
+      '3.1', '3.2', '3.3', '3.4', '4.1', '4.2', '4.3', '4.4', '5.1', '5.2', '5.3', '5.4',
+      '6.1', '6.2', '6.3', '6.4', '6.5', '6.6', '6.7', '7.1', '7.2', '7.3', '7.4',
+      '8.1', '8.2', '8.3', '8.4', '8.5', '9.1', '9.2', '9.3', '9.4', '10.3', '10.4', '10.7', '10.8'
+    ],
+  },
+];
+
 export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
+  ...SIMULADOS_OFICIAIS_REGISTRY,
   ...SIMULADOS_REGISTRY,
   ...MINI_SIMULADOS_REGISTRY,
   ...SIMULADOS_FASE8_REGISTRY,
@@ -290,6 +315,7 @@ export function getSimuladoById(id: string): SimuladoManifest {
 }
 
 export function detectSimuladoIdFromQuestionId(questionId: string): string {
+  if (questionId.startsWith('oficial-180q-') || questionId.startsWith('camara-2027-')) return 'simulado-oficial-camara-2027';
   if (questionId.startsWith('geral-180q-')) return 'simulado-geral-180q';
   if (questionId.startsWith('mega-q-')) return 'mega-simulado-camara';
   if (questionId.startsWith('orgaos-q-')) return 'mini-modulo-orgaos';

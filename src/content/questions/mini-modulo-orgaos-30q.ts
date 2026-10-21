@@ -18,9 +18,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A assertiva reflete com exatidão a repartição constitucional de competências: o STF é o guardião precípuo da Carta Magna (art. 102 da CF/88), julgando em sede recursal o Recurso Extraordinário e ações de controle concentrado de constitucionalidade. O STJ, por sua vez, é a corte de cúpula da jurisdição federal e estadual comum ordinária (art. 104 e 105 da CF/88), responsável pela uniformização da legislação federal infraconstitucional por meio do Recurso Especial.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -37,9 +37,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. O TCU NÃO integra o Poder Judiciário (o rol de órgãos judiciais é estritamente taxativo no art. 92 da CF/88). Trata-se de órgão constitucional autônomo que auxilia o Congresso Nacional no exercício do controle externo (arts. 70 e 71 da CF/88). Além disso, suas deliberações não fazem coisa julgada material judicial e podem ser revistas pelo Poder Judiciário em caso de ilegalidade ou lesão a direito.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -56,9 +56,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. Criado pela Emenda Constitucional nº 45/2004 e alocado no art. 103-B da CF/88, o CNJ integra o Poder Judiciário, mas sua competência é exclusivamente administrativa, disciplinar e financeira. O CNJ não possui jurisdição judicante ou contenciosa (jurisdição estrita para julgar litígios), não podendo apreciar o mérito de sentenças ou acórdãos judiciais.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -75,9 +75,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. O Ministério Público (art. 127 da CF/88) é instituição permanente e essencial à função jurisdicional do Estado, dotada de autonomia funcional, administrativa e orçamentária. Não é subordinado a nenhum ministério nem a nenhum dos três Poderes da República (Executivo, Legislativo ou Judiciário).',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -94,9 +94,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. Nos termos do art. 45 da CF/88, a Câmara dos Deputados compõe-se de representantes do povo (513 deputados federais), eleitos pelo sistema proporcional. O Senado Federal (art. 46 da CF/88) compõe-se de representantes dos Estados e do Distrito Federal (81 senadores, 3 por UF), eleitos segundo o princípio majoritário, com mandatos de oito anos.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -113,9 +113,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. Conforme prevê expressamente o art. 102, inciso I, alínea "d", da CF/88, compete originariamente ao Supremo Tribunal Federal (STF) processar e julgar o mandado de segurança e o habeas data contra atos do Presidente da República, das Mesas da Câmara dos Deputados e do Senado Federal, do TCU, do PGR e do próprio STF.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -132,9 +132,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A competência da Justiça Estadual (art. 125 da CF/88) é residual ou remanescente. Todas as matérias e lides que a Constituição Federal não outorgou expressamente à competência da Justiça Federal (art. 108/109) nem às especializadas (Trabalho, Eleitoral e Militar) recaem sob a jurisdição da Justiça Comum dos Estados federados.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -151,9 +151,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. O art. 31, § 4º da Constituição Federal de 1988 veda de forma terminante a criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais. Os únicos dois Tribunais de Contas do Município existentes no país (São Paulo e Rio de Janeiro) foram mantidos unicamente porque já haviam sido instalados antes da promulgação da Carta de 1988.',
     dificuldade: 'dificil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -170,9 +170,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. Nos termos do art. 71, § 3º da Constituição Federal de 1988 (aplicável aos TCEs por simetria conforme art. 75), as decisões do Tribunal de que resulte imputação de débito oumulta terão eficácia de título executivo. Por serem emitidas por órgão administrativo/constitucional de controle, constituem títulos executivos extrajudiciais executáveis perante o Poder Judiciário.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -189,9 +189,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. Nos termos do art. 21, inciso XIII, da Constituição Federal, compete privativamente à União organizar e manter o Poder Judiciário do Distrito Federal e dos Territórios (TJDFT), bem como o Ministério Público (MPDFT) e a Defensoria Pública (DPDFT). Seus magistrados e servidores são federais e sua remuneração provém do orçamento da União.',
     dificuldade: 'dificil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
 
@@ -212,9 +212,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A regra 24.17 e especialmente os 11 tipos da regra 24.18 do AACR2r prescrevem que entidades governamentais que exerçam funções constitucionais básicas de soberania (órgãos executivos de cúpula, legislativos, cortes judiciais, forças armadas) entram subordinadas ao nome do governo/jurisdição territorial (ex.: "Brasil. Congresso Nacional.", "Brasil. Supremo Tribunal Federal.").',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -231,9 +231,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), universidades públicas, institutos científicos, hospitais e empresas estatais com personalidades jurídicas próprias que não se enquadram nas categorias estritas da regra 24.18 entram DIRETAMENTE sob seu próprio nome institucional: "Universidade Federal de Santa Catarina." e "Petróleo Brasileiro.".',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -250,9 +250,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. Pelo AACR2r (Regra 24.18, Tipo 5 e Tipo 11), a Câmara dos Deputados é um órgão legislativo subordinado à cúpula do Poder Legislativo federal (o Congresso Nacional). A entrada correta sob a jurisdição é "Brasil. Congresso Nacional. Câmara dos Deputados."',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -269,9 +269,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. Pelo AACR2r (Regra 24.18, Tipo 6), tribunais e cortes judiciais entram subordinados à jurisdição territorial política. Para os estados federados, o cabeçalho autorizado correto é "São Paulo (Estado). Tribunal de Justiça." (com o termo "Estado" entre parênteses para distinguir da cidade homônima). A entrada em ordem direta "Tribunal de Justiça..." está incorreta.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -288,9 +288,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A regra AACR2 24.19 preceitua expressamente que se devem omitir os órgãos intermediários da cadeia hierárquica, a menos que o nome da unidade subordinada seja tão genérico que necessite do órgão superior para ser identificado ou para evitar homônimos.',
     dificuldade: 'dificil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -307,9 +307,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. A assertiva inverteu exatamente os valores dos indicadores do MARC 21! No campo 110 (e no 710), o primeiro indicador com valor "1" indica "Nome sob jurisdição" (governo/lugar, ex.: "110 1# $a Brasil."). Já o primeiro indicador com valor "2" indica "Nome em ordem direta" (ex.: "110 2# $a Fundação Oswaldo Cruz.").',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -326,9 +326,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. No MARC 21 (campos 110 e 710), $a armazena o cabeçalho principal (seja a jurisdição geográfica como "Brasil." ou o nome institucional direto) e o subcampo $b armazena as subdivisões subordinadas repetíveis (ex.: $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados.).',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -345,9 +345,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. O RDA (Capítulo 11) reestruturou conceitualmente as entidades sob o modelo IFLA LRM (Agente Coletivo), mas manteve a possibilidade de formulação de pontos de acesso autorizados que utilizam a jurisdição política como qualificador ou elemento superior de ancoragem para agentes governamentais que exercem soberania básica, harmonizando-se com as práticas consolidadas e o MARC 21.',
     dificuldade: 'dificil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -364,9 +364,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. Tribunais constituem o Poder Judiciário independente, não tendo nenhuma subordinação administrativa ao Ministério da Justiça (órgão do Executivo). Pelo Tipo 6 do AACR2 24.18, a entrada é diretamente sob a jurisdição territorial ("Brasil. Tribunal Superior do Trabalho." e "Bahia. Tribunal Regional Eleitoral.").',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -383,9 +383,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. Pelo Tipo 8 da regra AACR2 24.18, os chefes de Estado e de governo em suas funções oficiais têm ponto de acesso estabelecido sob o nome do governo seguido do título do cargo e, entre parênteses, dos anos de mandato e nome do titular. Exemplo: "Brasil. Presidente (2023- : Lula)." e não o nome puramente pessoal do indivíduo.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
 
@@ -406,9 +406,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A assertiva descreve perfeitamente o itinerário histórico da unidade de informação parlamentar: instituída em 1826 na sede imperial da Câmara (Palácio da Cadeia Velha) e posteriormente nomeada Biblioteca Pedro Aleixo pela Resolução nº 25/1984 da Mesa Diretora, homenageando o jurista e parlamentar Pedro Aleixo.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -425,9 +425,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. A Biblioteca Pedro Aleixo integra a estrutura do Centro de Documentação e Informação (CEDI), órgão técnico subordinado à Diretoria-Geral (DG) da Câmara dos Deputados, e não ao Gabinete político da Presidência da Casa.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -444,9 +444,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A missão primordial de uma biblioteca parlamentar é dar sustentáculo técnico e informacional de ponta à atividade-fim do Poder Legislativo. Na Câmara, os parlamentares, suas assessorias, comissões técnicas e os corpos consultivos de carreira (Conle e Conof) constituem o núcleo prioritário de usuários atendidos.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -463,9 +463,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. A BDCam é um repositório institucional digital de acesso público e aberto (Open Access) na internet. Disponibiliza para qualquer cidadão estudos da Consultoria Legislativa, discursos históricos, obras raras digitalizadas e publicações das Edições Câmara, cumprindo o princípio republicano da transparência ativa.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -482,9 +482,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. A BDCam foi construída e é mantida sobre o software livre DSpace, utilizando o padrão Dublin Core qualificado para descrição de metadados e o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) para disseminação interoperável de seu patrimônio digital.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -501,9 +501,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. A coordenação da Rede Virtual de Bibliotecas (RVBI) compete à Secretaria de Biblioteca e Arquivo do SENADO FEDERAL (e não à Câmara dos Deputados). A Câmara dos Deputados é participante cooperante de grande relevo na rede, mas a gestão do consórcio e da base central unificada cabe ao Senado Federal.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -520,9 +520,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. O VCB (Vocabulário Controlado Básico) é a linguagem documental e tesauro cooperativo utilizado pelas bibliotecas consorciadas à RVBI para a indexação unificada de monografias, artigos e normas jurídicas, assegurando consistência na recuperação da informação em toda a rede.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -539,9 +539,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. O selo Edições Câmara integra a estrutura do CEDI (ao lado da Biblioteca e do Arquivo) e tem como missão editar e difundir obras de valor cívico, histórico, parlamentar, literário e jurídico que resgatem a memória e a cultura brasileira, possuindo ricas coleções temáticas e não apenas leis em texto corrido.',
     dificuldade: 'media',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -558,9 +558,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'CERTO. O SILEG é o sistema corporativo da Câmara dos Deputados responsável pelo registro, catalogação da tramitação e controle das proposições legislativas e normas jurídicas, integrando-se aos serviços de documentação e informação legislativa.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
   {
@@ -577,9 +577,9 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
       'ERRADO. A Biblioteca Pedro Aleixo transferiu e preserva com extremo zelo sob sua guarda no Palácio do Congresso Nacional uma das mais importantes coleções de obras raras do país, incluindo documentos dos séculos XVI a XIX, anais do parlamento do Império e da Primeira República, cartas e incunábulos, os quais continuam no acervo próprio da Casa.',
     dificuldade: 'facil',
     fonteOriginal: {
-      tipo: 'inedita',
-      descricao: 'Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara',
-      verificado: true,
+          "tipo": "inedita",
+      "descricao": "Inédita Especial - Mini-Módulo Órgãos Públicos e Biblioteca da Câmara",
+      "verificado": false
     },
   },
 ];

@@ -59,7 +59,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
         expect(q.item.trim().length).toBeGreaterThan(10);
         expect(q.justificativa.trim().length).toBeGreaterThan(10);
         expect(q.dificuldade).toMatch(/^(facil|media|dificil)$/);
-        expect(q.fonteOriginal.tipo).toMatch(/^(cebraspe-real|inedita)$/);
+        expect(q.fonteOriginal.tipo).toMatch(/^(real-confirmada|adaptada|inedita)$/);
         expect(q.fonteOriginal.descricao.trim().length).toBeGreaterThan(3);
         expect(typeof q.fonteOriginal.verificado).toBe('boolean');
       });
@@ -116,7 +116,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
         expect(q.item.trim().length).toBeGreaterThan(10);
         expect(q.justificativa.trim().length).toBeGreaterThan(10);
         expect(q.dificuldade).toMatch(/^(facil|media|dificil)$/);
-        expect(q.fonteOriginal.tipo).toMatch(/^(cebraspe-real|inedita)$/);
+        expect(q.fonteOriginal.tipo).toMatch(/^(real-confirmada|adaptada|inedita)$/);
         expect(q.fonteOriginal.descricao.trim().length).toBeGreaterThan(3);
         expect(typeof q.fonteOriginal.verificado).toBe('boolean');
       });
@@ -249,7 +249,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       }
 
       expect(duplicados).toHaveLength(0);
-      expect(idsSet.size).toBe(1930);
+      expect(idsSet.size).toBe(2110);
     });
 
     it('todos os itens de todos os simulados devem possuir justificativa, dificuldade e fonte válidas', () => {

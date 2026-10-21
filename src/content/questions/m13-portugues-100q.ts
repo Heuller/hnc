@@ -13,9 +13,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -30,9 +30,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -47,9 +47,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -64,9 +64,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -81,9 +81,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -98,9 +98,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -115,9 +115,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -132,9 +132,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -149,9 +149,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -166,9 +166,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -183,9 +183,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -200,9 +200,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -217,9 +217,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -234,9 +234,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -251,9 +251,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -268,9 +268,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_SINTATICA: Trocar relação adversativa por causa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -285,9 +285,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -302,9 +302,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -319,9 +319,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -336,9 +336,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -353,9 +353,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -370,9 +370,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -387,9 +387,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de media: inversão normativa ou desvio conceitual.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -404,9 +404,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -421,9 +421,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Subordinar a técnica a interesses políticos imediatistas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -438,9 +438,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -455,9 +455,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -472,9 +472,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -489,9 +489,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -506,9 +506,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -523,9 +523,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -540,9 +540,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -557,9 +557,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -574,9 +574,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -591,9 +591,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -608,9 +608,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -625,9 +625,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -642,9 +642,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -659,9 +659,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -676,9 +676,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -693,9 +693,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -710,9 +710,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -727,9 +727,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -744,9 +744,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_SE: Confundir sujeito paciente com objeto direto em voz passiva sintética.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -761,9 +761,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -778,9 +778,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -795,9 +795,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -812,9 +812,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "TROCA_CONECTIVO: Confundir causa com finalidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -829,9 +829,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -846,9 +846,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -863,9 +863,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -880,9 +880,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -897,9 +897,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -914,9 +914,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -931,9 +931,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -948,9 +948,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -965,9 +965,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -982,9 +982,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -999,9 +999,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1016,9 +1016,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de media: inversão normativa ou desvio conceitual.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1033,9 +1033,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1050,9 +1050,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1067,9 +1067,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1084,9 +1084,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1101,9 +1101,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de media: inversão normativa ou desvio conceitual.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1118,9 +1118,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "REGRA_CONCORDANCIA: Inversão da regra do adjetivo anteposto.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1135,9 +1135,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1152,9 +1152,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1169,9 +1169,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1186,9 +1186,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1203,9 +1203,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1220,9 +1220,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1237,9 +1237,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1254,9 +1254,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1271,9 +1271,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1288,9 +1288,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1305,9 +1305,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1322,9 +1322,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1339,9 +1339,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1356,9 +1356,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1373,9 +1373,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1390,9 +1390,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1407,9 +1407,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1424,9 +1424,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de media: inversão normativa ou desvio conceitual.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1441,9 +1441,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: faculdade de isolamento de adjunto curto deslocado.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1458,9 +1458,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regência do verbo implicar sem preposição em.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1475,9 +1475,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: crase fixa em locuções femininas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1492,9 +1492,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Interdição absoluta de vírgula entre verbo e complemento imediato.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1509,9 +1509,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Crase proibida antes de pronomes que repelem artigo feminino.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1526,9 +1526,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: dupla concordância com expressões partitivas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1543,9 +1543,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Verbo com índice de indeterminação do sujeito bloqueado no singular.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1560,9 +1560,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1577,9 +1577,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1594,9 +1594,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1611,9 +1611,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1628,9 +1628,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1645,9 +1645,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1662,9 +1662,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "GRAFIA_PORQUES: Troca da regra do por quê final de frase.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1679,9 +1679,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1696,9 +1696,9 @@ export const simuladoPortugues100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Interdição de vírgula entre oração subjetiva e predicado.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     }
   }
 ];

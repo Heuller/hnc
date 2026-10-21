@@ -1,0 +1,3949 @@
+{
+  "stats": {
+    "total": 1999,
+    "realConfirmada": 86,
+    "adaptada": 173,
+    "inedita": 1740,
+    "legacyClaimBancaAno": 636,
+    "byFile": {
+      "m1-fundamentos-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 4,
+        "inedita": 96
+      },
+      "m10-legislativo-100q.ts": {
+        "total": 100,
+        "realConfirmada": 6,
+        "adaptada": 5,
+        "inedita": 89
+      },
+      "m10a-legislativo-constituicao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m10b-regimentos-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m11-administrativo-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m12-ingles-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 1,
+        "inedita": 99
+      },
+      "m13-portugues-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m14-tecnologia-dados-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m2-catalogacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 100
+      },
+      "m3-classificacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 4,
+        "adaptada": 18,
+        "inedita": 78
+      },
+      "m4-recuperacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 8,
+        "adaptada": 14,
+        "inedita": 78
+      },
+      "m5-gestao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 6,
+        "adaptada": 18,
+        "inedita": 76
+      },
+      "m6-digital-ia-100q.ts": {
+        "total": 100,
+        "realConfirmada": 2,
+        "adaptada": 23,
+        "inedita": 75
+      },
+      "m7-preservacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 49,
+        "adaptada": 16,
+        "inedita": 35
+      },
+      "m8-normalizacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 0,
+        "adaptada": 10,
+        "inedita": 90
+      },
+      "m9-comunicacao-100q.ts": {
+        "total": 100,
+        "realConfirmada": 3,
+        "adaptada": 14,
+        "inedita": 83
+      },
+      "mega-simulado-camara-120q.ts": {
+        "total": 120,
+        "realConfirmada": 7,
+        "adaptada": 41,
+        "inedita": 72
+      },
+      "mini-modulo-orgaos-30q.ts": {
+        "total": 30,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 30
+      },
+      "questoes-submodulos-ampliados.ts": {
+        "total": 69,
+        "realConfirmada": 0,
+        "adaptada": 0,
+        "inedita": 69
+      },
+      "simulado-geral-180q.ts": {
+        "total": 180,
+        "realConfirmada": 1,
+        "adaptada": 9,
+        "inedita": 170
+      }
+    }
+  },
+  "legacyClaimList": [
+    {
+      "id": "fund-q-2",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-3",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / ABIN / 2017"
+    },
+    {
+      "id": "fund-q-5",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / 2018"
+    },
+    {
+      "id": "fund-q-7",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-8",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPE-TO / 2024"
+    },
+    {
+      "id": "fund-q-9",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SUFRAMA / 2014"
+    },
+    {
+      "id": "fund-q-10",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SEE-PE / 2022"
+    },
+    {
+      "id": "fund-q-11",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SEE-PE / 2022"
+    },
+    {
+      "id": "fund-q-12",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / ABIN / 2017"
+    },
+    {
+      "id": "fund-q-14",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / FUB / 2022"
+    },
+    {
+      "id": "fund-q-15",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPE-CE / 2025"
+    },
+    {
+      "id": "fund-q-16",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / ABIN / 2017"
+    },
+    {
+      "id": "fund-q-17",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJ-RR / 2012"
+    },
+    {
+      "id": "fund-q-21",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Pref Cach Itapemirim / 2024"
+    },
+    {
+      "id": "fund-q-26",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCE-MG / 2026"
+    },
+    {
+      "id": "fund-q-28",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / IPHAN / 2018"
+    },
+    {
+      "id": "fund-q-29",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / 2015"
+    },
+    {
+      "id": "fund-q-30",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / 2018"
+    },
+    {
+      "id": "fund-q-31",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-33",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPU / 2010"
+    },
+    {
+      "id": "fund-q-34",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / 2015"
+    },
+    {
+      "id": "fund-q-35",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJ-PA / 2025"
+    },
+    {
+      "id": "fund-q-38",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / IPHAN / 2018 (Adaptada)"
+    },
+    {
+      "id": "fund-q-39",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / 2015"
+    },
+    {
+      "id": "fund-q-42",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPU / 2010"
+    },
+    {
+      "id": "fund-q-43",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCE-MG / 2026"
+    },
+    {
+      "id": "fund-q-46",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / 2015"
+    },
+    {
+      "id": "fund-q-48",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJ-PA / 2025"
+    },
+    {
+      "id": "fund-q-51",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-52",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-53",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / EBESERH / 2018"
+    },
+    {
+      "id": "fund-q-56",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJ-RR / 2012"
+    },
+    {
+      "id": "fund-q-58",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SUFRAMA / 2014"
+    },
+    {
+      "id": "fund-q-59",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / EBESERH / 2018"
+    },
+    {
+      "id": "fund-q-60",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / EBESERH / 2018"
+    },
+    {
+      "id": "fund-q-63",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SUFRAMA / 2014"
+    },
+    {
+      "id": "fund-q-72",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "fund-q-76",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STF / 2008"
+    },
+    {
+      "id": "fund-q-78",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCDF / 2014 (Adaptada)"
+    },
+    {
+      "id": "fund-q-79",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STF / 2008 (Adaptada)"
+    },
+    {
+      "id": "fund-q-81",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STF / 2008"
+    },
+    {
+      "id": "fund-q-82",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCDF / 2014"
+    },
+    {
+      "id": "fund-q-83",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCDF / 2014 (Adaptada)"
+    },
+    {
+      "id": "fund-q-85",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / IPHAN / 2018 (Adaptada)"
+    },
+    {
+      "id": "fund-q-91",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STF / 2008"
+    },
+    {
+      "id": "fund-q-96",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCDF / 2014"
+    },
+    {
+      "id": "fund-q-99",
+      "file": "m1-fundamentos-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCDF / 2014"
+    },
+    {
+      "id": "m10-q-11",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-13",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-26",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-33",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m10-q-37",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-38",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-39",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-40",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-41",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-42",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-44",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-45",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-46",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-50",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-51",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
+    },
+    {
+      "id": "m10-q-59",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m10-q-83",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m10-q-90",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m10-q-92",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m10-q-93",
+      "file": "m10-legislativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CNJ/2013"
+    },
+    {
+      "id": "m10a-q-76",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971"
+    },
+    {
+      "id": "m10a-q-81",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo"
+    },
+    {
+      "id": "m10a-q-82",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados"
+    },
+    {
+      "id": "m10a-q-83",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI"
+    },
+    {
+      "id": "m10a-q-84",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara"
+    },
+    {
+      "id": "m10a-q-85",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 12.527/2011, art. 8º"
+    },
+    {
+      "id": "m10a-q-86",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 12.527/2011, arts. 23 e 24"
+    },
+    {
+      "id": "m10a-q-87",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Edições Câmara / Estrutura do CEDI"
+    },
+    {
+      "id": "m10a-q-90",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Especificação do LexML Schema / LC 95/1998"
+    },
+    {
+      "id": "m10a-q-92",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil"
+    },
+    {
+      "id": "m10a-q-93",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Portal da Câmara dos Deputados / Legislação Compilada"
+    },
+    {
+      "id": "m10a-q-94",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "CF/88, art. 37 / Lei 13.709/2018, art. 7º"
+    },
+    {
+      "id": "m10a-q-96",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara"
+    },
+    {
+      "id": "m10a-q-98",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Diretrizes Técnicas da RVBI / Câmara dos Deputados"
+    },
+    {
+      "id": "m10a-q-100",
+      "file": "m10a-legislativo-constituicao-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Estrutura Administrativa da Câmara dos Deputados"
+    },
+    {
+      "id": "m10b-q-14",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "RICD, Ouvidoria Parlamentar / Resolução da Câmara"
+    },
+    {
+      "id": "m10b-q-15",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Código de Ética da Câmara dos Deputados / RICD"
+    },
+    {
+      "id": "m10b-q-22",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Resolução da Câmara nº 1/2013 / RICD"
+    },
+    {
+      "id": "m10b-q-88",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN"
+    },
+    {
+      "id": "m10b-q-94",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Resolução nº 1/2002-CN, art. 2º"
+    },
+    {
+      "id": "m10b-q-99",
+      "file": "m10b-regimentos-100q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Resolução nº 1/2006-CN"
+    },
+    {
+      "id": "m11-q-1",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista Legislativo - Adaptada"
+    },
+    {
+      "id": "m11-q-2",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-3",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista Judiciário - Cebraspe"
+    },
+    {
+      "id": "m11-q-4",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-5",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe - Analista Administrativo"
+    },
+    {
+      "id": "m11-q-6",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-7",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-8",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-9",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-10",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-11",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-12",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-13",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-14",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-15",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-16",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-17",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TJ-PA / Cebraspe"
+    },
+    {
+      "id": "m11-q-18",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-19",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-20",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-21",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-22",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-23",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-24",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-25",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-26",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEMA-AM / Cebraspe"
+    },
+    {
+      "id": "m11-q-27",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-28",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-29",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-30",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-31",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe - Adaptada"
+    },
+    {
+      "id": "m11-q-32",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe"
+    },
+    {
+      "id": "m11-q-33",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-34",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-35",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-36",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-37",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-38",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-39",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-40",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-41",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-42",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-43",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-44",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-45",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-46",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-47",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-48",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-49",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe"
+    },
+    {
+      "id": "m11-q-50",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-51",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-52",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-53",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-54",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-55",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-56",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-57",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-58",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe"
+    },
+    {
+      "id": "m11-q-59",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-60",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "UnB / Administrador - Cebraspe 2025"
+    },
+    {
+      "id": "m11-q-61",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-62",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-63",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "UnB / Cebraspe 2025"
+    },
+    {
+      "id": "m11-q-64",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-65",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-66",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-67",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "UnB / Cebraspe 2025"
+    },
+    {
+      "id": "m11-q-68",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-69",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-70",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-71",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-72",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-73",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-74",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-75",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe"
+    },
+    {
+      "id": "m11-q-76",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-77",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-78",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "m11-q-79",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-80",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-81",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-82",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-83",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe"
+    },
+    {
+      "id": "m11-q-84",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-85",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-86",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-87",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-88",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-89",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-90",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-91",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-92",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-93",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-94",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "m11-q-95",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "m11-q-96",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "m11-q-97",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe 2026"
+    },
+    {
+      "id": "m11-q-98",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "m11-q-99",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "m11-q-100",
+      "file": "m11-administrativo-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Técnico - Cebraspe 2026"
+    },
+    {
+      "id": "m12-q-2",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TJDFT/2015 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-3",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-4",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-5",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-6",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-7",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-8",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-9",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-10",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-11",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-12",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-13",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-14",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-15",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-16",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-17",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-18",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-19",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-20",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-21",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-22",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-23",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-24",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-25",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-26",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-27",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-28",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-29",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-30",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-31",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-32",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-33",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-34",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-35",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-36",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-37",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-38",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-39",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-40",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-41",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-42",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-43",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-44",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-45",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-46",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-47",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-48",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-49",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-50",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-51",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-52",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-53",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-54",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-55",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-56",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-57",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-58",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-59",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-60",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-61",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-62",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-63",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-64",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-65",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-66",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-67",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-68",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-69",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-70",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-71",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-72",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-73",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-74",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-75",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-76",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-77",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-78",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-79",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-80",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-81",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-82",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-83",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-84",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-85",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-86",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-87",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-88",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-89",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-90",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-91",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-92",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-93",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-94",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-95",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-96",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-97",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-98",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-99",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "m12-q-100",
+      "file": "m12-ingles-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    },
+    {
+      "id": "cat-q-1",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-4",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-6",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / Bibliotecário"
+    },
+    {
+      "id": "cat-q-7",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-9",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TRE / Bibliotecário"
+    },
+    {
+      "id": "cat-q-11",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Câmara dos Deputados"
+    },
+    {
+      "id": "cat-q-12",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPU / Bibliotecário"
+    },
+    {
+      "id": "cat-q-13",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-14",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Senado Federal"
+    },
+    {
+      "id": "cat-q-17",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / UnB / Bibliotecário"
+    },
+    {
+      "id": "cat-q-18",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-19",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MRE / Diplomacia"
+    },
+    {
+      "id": "cat-q-20",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCE-PA"
+    },
+    {
+      "id": "cat-q-22",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / IPEA / 2024"
+    },
+    {
+      "id": "cat-q-24",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2023"
+    },
+    {
+      "id": "cat-q-26",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-27",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-29",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / Adaptada"
+    },
+    {
+      "id": "cat-q-31",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-32",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCE-MG / 2026"
+    },
+    {
+      "id": "cat-q-33",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-45",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-50",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-51",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCU / 2015"
+    },
+    {
+      "id": "cat-q-52",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / Adaptada"
+    },
+    {
+      "id": "cat-q-53",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-55",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-56",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-58",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-60",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TST / 2024"
+    },
+    {
+      "id": "cat-q-62",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2023"
+    },
+    {
+      "id": "cat-q-65",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-66",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-67",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-73",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-76",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-77",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-78",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / Bibliotecário"
+    },
+    {
+      "id": "cat-q-79",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / 2022"
+    },
+    {
+      "id": "cat-q-81",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2023"
+    },
+    {
+      "id": "cat-q-82",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Câmara dos Deputados"
+    },
+    {
+      "id": "cat-q-83",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Senado Federal"
+    },
+    {
+      "id": "cat-q-84",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TRE / Bibliotecário"
+    },
+    {
+      "id": "cat-q-86",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / Adaptada"
+    },
+    {
+      "id": "cat-q-87",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-89",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-91",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TCU / 2015"
+    },
+    {
+      "id": "cat-q-92",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "cat-q-94",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "cat-q-95",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "cat-q-98",
+      "file": "m2-catalogacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "m3-q-3",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m3-q-6",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CNJ/2013"
+    },
+    {
+      "id": "m3-q-7",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m3-q-8",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m3-q-11",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m3-q-13",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m3-q-17",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m3-q-19",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m3-q-22",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m3-q-24",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m3-q-28",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m3-q-29",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m3-q-43",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m3-q-45",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m3-q-47",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m3-q-49",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STM/2011"
+    },
+    {
+      "id": "m3-q-53",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m3-q-55",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m3-q-67",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m3-q-68",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m3-q-69",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m3-q-82",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m3-q-85",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m3-q-88",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m3-q-94",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m3-q-99",
+      "file": "m3-classificacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m4-q-6",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m4-q-35",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANEEL/2010"
+    },
+    {
+      "id": "m4-q-36",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TJDFT/2015"
+    },
+    {
+      "id": "m4-q-37",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "BASA/2012"
+    },
+    {
+      "id": "m4-q-40",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CNJ/2013"
+    },
+    {
+      "id": "m4-q-44",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m4-q-50",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m4-q-52",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m4-q-54",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m4-q-60",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m4-q-72",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m4-q-81",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m4-q-88",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012"
+    },
+    {
+      "id": "m4-q-97",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012"
+    },
+    {
+      "id": "m4-q-99",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012"
+    },
+    {
+      "id": "m4-q-100",
+      "file": "m4-recuperacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m5-q-3",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2012"
+    },
+    {
+      "id": "m5-q-8",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m5-q-12",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m5-q-17",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m5-q-18",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m5-q-19",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m5-q-22",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m5-q-26",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m5-q-32",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IPHAN/2018"
+    },
+    {
+      "id": "m5-q-34",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m5-q-38",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m5-q-44",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "m5-q-51",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m5-q-61",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m5-q-65",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEGER-ES/2011"
+    },
+    {
+      "id": "m5-q-73",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m5-q-74",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m5-q-76",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m5-q-80",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m5-q-81",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m5-q-87",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m5-q-91",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m5-q-94",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m5-q-96",
+      "file": "m5-gestao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m6-q-6",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m6-q-7",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m6-q-8",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m6-q-13",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "EBESERH/2018"
+    },
+    {
+      "id": "m6-q-17",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m6-q-23",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEGER-ES/2011"
+    },
+    {
+      "id": "m6-q-26",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m6-q-36",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2013"
+    },
+    {
+      "id": "m6-q-40",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2011"
+    },
+    {
+      "id": "m6-q-44",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2011"
+    },
+    {
+      "id": "m6-q-45",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEE-DF/2016"
+    },
+    {
+      "id": "m6-q-53",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m6-q-58",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "BASA/2012"
+    },
+    {
+      "id": "m6-q-67",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "m6-q-70",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STF/2008"
+    },
+    {
+      "id": "m6-q-71",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m6-q-75",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012"
+    },
+    {
+      "id": "m6-q-86",
+      "file": "m6-digital-ia-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012"
+    },
+    {
+      "id": "m7-q-2",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "m7-q-7",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "m7-q-24",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STF/2008 (Cebraspe)"
+    },
+    {
+      "id": "m7-q-26",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013 (Cebraspe)"
+    },
+    {
+      "id": "m7-q-81",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m7-q-86",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "m7-q-95",
+      "file": "m7-preservacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IPHAN/2018"
+    },
+    {
+      "id": "m8-q-2",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m8-q-3",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017"
+    },
+    {
+      "id": "m8-q-6",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m8-q-7",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m8-q-23",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "m8-q-24",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011"
+    },
+    {
+      "id": "m8-q-32",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2024 (Biblioteconomia)"
+    },
+    {
+      "id": "m8-q-35",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF/2025 (Bibliotecário)"
+    },
+    {
+      "id": "m8-q-51",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012"
+    },
+    {
+      "id": "m8-q-52",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MS/2013"
+    },
+    {
+      "id": "m8-q-53",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SERPRO/2013"
+    },
+    {
+      "id": "m8-q-55",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m8-q-61",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013"
+    },
+    {
+      "id": "m8-q-63",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MS/2013"
+    },
+    {
+      "id": "m8-q-67",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m8-q-70",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CPRM/2013"
+    },
+    {
+      "id": "m8-q-74",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STM/2011"
+    },
+    {
+      "id": "m8-q-76",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017"
+    },
+    {
+      "id": "m8-q-79",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017"
+    },
+    {
+      "id": "m8-q-80",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m8-q-81",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2015"
+    },
+    {
+      "id": "m8-q-87",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m8-q-89",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017"
+    },
+    {
+      "id": "m8-q-94",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m8-q-98",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m8-q-100",
+      "file": "m8-normalizacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m9-q-1",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "m9-q-2",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m9-q-12",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011"
+    },
+    {
+      "id": "m9-q-14",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2011"
+    },
+    {
+      "id": "m9-q-16",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STM/2011"
+    },
+    {
+      "id": "m9-q-19",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014"
+    },
+    {
+      "id": "m9-q-23",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "m9-q-25",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m9-q-31",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m9-q-32",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    },
+    {
+      "id": "m9-q-82",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2013"
+    },
+    {
+      "id": "m9-q-87",
+      "file": "m9-comunicacao-100q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCDF/2014"
+    },
+    {
+      "id": "mega-q-2",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-3",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-4",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STF/2008 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-5",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-7",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-8",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-9",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-10",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-11",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-12",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-13",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-14",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-15",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-16",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-17",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-18",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-19",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-20",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-21",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista Legislativo - Adaptada"
+    },
+    {
+      "id": "mega-q-22",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe - Adaptada"
+    },
+    {
+      "id": "mega-q-23",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista Judiciário - Cebraspe"
+    },
+    {
+      "id": "mega-q-24",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe - Adaptada"
+    },
+    {
+      "id": "mega-q-25",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe - Analista Administrativo"
+    },
+    {
+      "id": "mega-q-26",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe - Adaptada"
+    },
+    {
+      "id": "mega-q-27",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe - Adaptada"
+    },
+    {
+      "id": "mega-q-28",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Cebraspe - Adaptada"
+    },
+    {
+      "id": "mega-q-29",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "mega-q-30",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "mega-q-33",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SUFRAMA/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-34",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SUFRAMA/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-35",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CADE/2014 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-36",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-37",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-40",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "GAAPC (PC DF)/PC DF/Analista de Informática/Banco de Dados/2025 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-43",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CAPES/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-55",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "BASA/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-58",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-60",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-64",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-65",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TJ-RR/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-71",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-72",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-73",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-75",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-77",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-78",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-84",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEE-DF/2016 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-86",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANTT/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-87",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2012 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-89",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-92",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-93",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEDUC-AM/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-95",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-96",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-97",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-98",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-100",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STF/2008 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-101",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STM/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-102",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-103",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2011 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-104",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CNJ/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-105",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-110",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-112",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-113",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "mega-q-114",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2013 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-115",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "mega-q-116",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "mega-q-117",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010 (Cebraspe)"
+    },
+    {
+      "id": "mega-q-118",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "mega-q-119",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "mega-q-120",
+      "file": "mega-simulado-camara-120q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
+    },
+    {
+      "id": "fund-q-101",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "DCC Curation Lifecycle Model / Higgins (2008)"
+    },
+    {
+      "id": "fund-q-102",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Wilkinson et al. (2016) / Princípios FAIR"
+    },
+    {
+      "id": "fund-q-106",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Princípios FAIR (Wilkinson et al., 2016)"
+    },
+    {
+      "id": "fund-q-108",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Princípios FAIR (Wilkinson et al., 2016)"
+    },
+    {
+      "id": "fund-q-109",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Sayão e Sales (2012) / Curadoria Digital"
+    },
+    {
+      "id": "fund-q-111",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º"
+    },
+    {
+      "id": "fund-q-112",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018, art. 6º, III"
+    },
+    {
+      "id": "fund-q-113",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018, art. 6º e 11"
+    },
+    {
+      "id": "fund-q-114",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23"
+    },
+    {
+      "id": "fund-q-115",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018, art. 12"
+    },
+    {
+      "id": "fund-q-116",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei nº 13.709/2018, art. 41"
+    },
+    {
+      "id": "fund-q-117",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "ISO/IEC 27001 / DAMA DMBOK"
+    },
+    {
+      "id": "fund-q-118",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy"
+    },
+    {
+      "id": "cat-q-206",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "DCMI Metadata Terms / RFC 5013"
+    },
+    {
+      "id": "cat-q-210",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Tim Berners-Lee (2006) / Linked Data Design Issues"
+    },
+    {
+      "id": "m6-q-211",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    },
+    {
+      "id": "m6-q-214",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Vaswani et al. (2017) / Attention Is All You Need"
+    },
+    {
+      "id": "m8-q-201",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Edward Tufte (1983) / The Visual Display of Quantitative Information"
+    },
+    {
+      "id": "m8-q-208",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "ISO 14289-1 (PDF/UA)"
+    },
+    {
+      "id": "m8-q-210",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Cairo / The Functional Art / Comunicação Pública da Câmara"
+    },
+    {
+      "id": "m13-q-201",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)"
+    },
+    {
+      "id": "m13-q-202",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Decreto nº 9.758/2019 / MRPR (3ª ed.)"
+    },
+    {
+      "id": "m13-q-203",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 2.1.2"
+    },
+    {
+      "id": "m13-q-204",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 3.1"
+    },
+    {
+      "id": "m13-q-205",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 3.2"
+    },
+    {
+      "id": "m13-q-206",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 3.2"
+    },
+    {
+      "id": "m13-q-207",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 4.1"
+    },
+    {
+      "id": "m13-q-208",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei Complementar nº 95/1998, art. 10, I"
+    },
+    {
+      "id": "m13-q-209",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Lei Complementar nº 95/1998, art. 10, III"
+    },
+    {
+      "id": "m13-q-210",
+      "file": "questoes-submodulos-ampliados.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "MRPR (3ª ed., 2018), item 4.2"
+    },
+    {
+      "id": "geral-180q-26",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista Legislativo - Adaptada"
+    },
+    {
+      "id": "geral-180q-27",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista Judiciário - Cebraspe"
+    },
+    {
+      "id": "geral-180q-28",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe - Analista Administrativo"
+    },
+    {
+      "id": "geral-180q-29",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe - Adaptada"
+    },
+    {
+      "id": "geral-180q-30",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Analista - Cebraspe"
+    },
+    {
+      "id": "geral-180q-31",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANM / Cebraspe"
+    },
+    {
+      "id": "geral-180q-32",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Analista - Cebraspe"
+    },
+    {
+      "id": "geral-180q-33",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe - Adaptada"
+    },
+    {
+      "id": "geral-180q-34",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe - Adaptada"
+    },
+    {
+      "id": "geral-180q-35",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "SEFAZ-PR / Cebraspe - Adaptada"
+    },
+    {
+      "id": "geral-180q-36",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "Câmara dos Deputados / Cebraspe - Adaptada"
+    },
+    {
+      "id": "geral-180q-37",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TCE-MG / Cebraspe"
+    },
+    {
+      "id": "geral-180q-38",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "IBAMA / Cebraspe"
+    },
+    {
+      "id": "geral-180q-39",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "PC-DF / Cebraspe"
+    },
+    {
+      "id": "geral-180q-40",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ / Cebraspe"
+    },
+    {
+      "id": "geral-180q-51",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "geral-180q-52",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / ABIN / 2017"
+    },
+    {
+      "id": "geral-180q-53",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / 2018"
+    },
+    {
+      "id": "geral-180q-54",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPE-TO / 2024"
+    },
+    {
+      "id": "geral-180q-55",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SEE-PE / 2022"
+    },
+    {
+      "id": "geral-180q-56",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / ABIN / 2017"
+    },
+    {
+      "id": "geral-180q-57",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / FUB / 2022"
+    },
+    {
+      "id": "geral-180q-61",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "geral-180q-62",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SUFRAMA / 2014"
+    },
+    {
+      "id": "geral-180q-63",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / SEE-PE / 2022"
+    },
+    {
+      "id": "geral-180q-65",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / Bibliotecário / 2024"
+    },
+    {
+      "id": "geral-180q-67",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "geral-180q-68",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TJDFT / Bibliotecário"
+    },
+    {
+      "id": "geral-180q-69",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / TRE / Bibliotecário"
+    },
+    {
+      "id": "geral-180q-73",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / PC-DF / 2025"
+    },
+    {
+      "id": "geral-180q-75",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / MPU / Bibliotecário"
+    },
+    {
+      "id": "geral-180q-76",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CEBRASPE / STJ / Bibliotecário"
+    },
+    {
+      "id": "geral-180q-77",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-1 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-78",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-1 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-79",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-1 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-82",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "geral-180q-83",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "geral-180q-85",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "geral-180q-86",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRE-BA/2010"
+    },
+    {
+      "id": "geral-180q-89",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "CNJ/2013"
+    },
+    {
+      "id": "geral-180q-90",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "geral-180q-92",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-1 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-93",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-1 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-103",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "DPU/2016"
+    },
+    {
+      "id": "geral-180q-105",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-2 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-106",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-2 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-107",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-2 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-112",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "geral-180q-113",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ECT/2012"
+    },
+    {
+      "id": "geral-180q-116",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "geral-180q-118",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-4 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-119",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-4 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-120",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-4 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-122",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "geral-180q-123",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ANATEL/2009"
+    },
+    {
+      "id": "geral-180q-130",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-5 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-131",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-5 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-132",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-5 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-140",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-3 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-141",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-3 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-142",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "inedita",
+      "oldDesc": "Caso Integrador CI-3 — Câmara dos Deputados"
+    },
+    {
+      "id": "geral-180q-144",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "FUB/2013"
+    },
+    {
+      "id": "geral-180q-146",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "geral-180q-148",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "ABIN/2017"
+    },
+    {
+      "id": "geral-180q-150",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "MPU/2010"
+    },
+    {
+      "id": "geral-180q-153",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "TRT21/2010"
+    },
+    {
+      "id": "geral-180q-154",
+      "file": "simulado-geral-180q.ts",
+      "oldTipo": "cebraspe-real",
+      "oldDesc": "STJ/2018"
+    }
+  ]
+}
