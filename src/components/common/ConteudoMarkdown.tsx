@@ -21,7 +21,9 @@ import {
   stripCalloutMarker,
   type CalloutType,
 } from '../../utils/markdownProcessors';
-import { EditorialDiagram } from './EditorialDiagram';
+const EditorialDiagram = React.lazy(() =>
+  import('./EditorialDiagram').then((mod) => ({ default: mod.EditorialDiagram }))
+);
 import { TimelineFlow } from './TimelineFlow';
 import { AccordionTree } from './AccordionTree';
 import { DecisionFlow } from './DecisionFlow';
@@ -327,7 +329,24 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               rawContent.startsWith('subgraph ');
 
             if (isMermaid) {
-              return <EditorialDiagram code={rawContent} isDark={isDark} />;
+              return (
+                <React.Suspense
+                  fallback={
+                    <div
+                      role="status"
+                      aria-live="polite"
+                      className="my-6 p-6 rounded-2xl border border-border/70 bg-surface-2 animate-pulse flex flex-col items-center justify-center min-h-[140px] gap-2.5 text-center"
+                    >
+                      <div className="w-6 h-6 rounded-full border-2 border-accent border-t-transparent animate-spin" />
+                      <span className="text-xs font-mono text-ink-2">
+                        Renderizando diagrama didático...
+                      </span>
+                    </div>
+                  }
+                >
+                  <EditorialDiagram code={rawContent} isDark={isDark} />
+                </React.Suspense>
+              );
             }
 
             const isInline = !codeClass;
