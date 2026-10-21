@@ -1,32 +1,25 @@
 import React, { useMemo } from 'react';
-import { GitFork, ArrowDown } from 'lucide-react';
+import { ArrowDown, GitFork } from 'lucide-react';
 
 /**
- * DecisionFlow — Substitui `graph TD` com padrão de fluxo de decisão (Padrão C)
+ * DecisionFlow — Substitui `graph TD` com padrão de árvore de decisão (Padrão C)
  *
  * Sintaxe do bloco de código:
  * ```decision
- * START: Rótulo do nó inicial
- * QUESTION: Pergunta de decisão?
- * YES: Rótulo do ramo SIM | detalhe opcional
- * NO: Rótulo do ramo NÃO | detalhe opcional
- * YES_RESULT: Resultado final SIM | exemplo
- * NO_RESULT: Resultado final NÃO | exemplo
- * ```
- *
- * Para fluxos mais simples (lista de passos sem bifurcação), use:
- * ```decision
- * START: Início
- * STEP: Passo 1 | detalhe
- * STEP: Passo 2 | detalhe
- * END: Fim | resultado
+ * START: Descrição inicial
+ * QUESTION: Pergunta da decisão
+ * YES: Ramo afirmativo
+ * NO: Ramo negativo
+ * YES_RESULT: Conclusão afirmativa
+ * NO_RESULT: Conclusão negativa
+ * END: Fechamento
  * ```
  */
 
 interface DecisionNode {
   type: 'start' | 'question' | 'yes' | 'no' | 'yes_result' | 'no_result' | 'step' | 'end';
   label: string;
-  detail: string;
+  detail?: string;
 }
 
 function parseDecisionCode(raw: string): DecisionNode[] {
@@ -37,16 +30,21 @@ function parseDecisionCode(raw: string): DecisionNode[] {
     const colonIdx = line.indexOf(':');
     if (colonIdx === -1) continue;
 
-    const typeStr = line.slice(0, colonIdx).trim().toLowerCase();
+    const rawKey = line.slice(0, colonIdx).trim().toUpperCase();
     const rest = line.slice(colonIdx + 1).trim();
     const parts = rest.split('|').map((p) => p.trim());
 
-    const type = typeStr as DecisionNode['type'];
-    const validTypes: DecisionNode['type'][] = [
-      'start', 'question', 'yes', 'no', 'yes_result', 'no_result', 'step', 'end'
-    ];
+    let type: DecisionNode['type'] = 'step';
+    if (rawKey === 'START' || rawKey === 'INICIO') type = 'start';
+    else if (rawKey === 'QUESTION' || rawKey === 'DECISAO' || rawKey === 'PERGUNTA') type = 'question';
+    else if (rawKey === 'YES' || rawKey === 'SIM') type = 'yes';
+    else if (rawKey === 'NO' || rawKey === 'NAO') type = 'no';
+    else if (rawKey === 'YES_RESULT' || rawKey === 'RESULTADO_SIM') type = 'yes_result';
+    else if (rawKey === 'NO_RESULT' || rawKey === 'RESULTADO_NAO') type = 'no_result';
+    else if (rawKey === 'END' || rawKey === 'FIM') type = 'end';
+    else if (rawKey === 'STEP' || rawKey === 'PASSO') type = 'step';
 
-    if (validTypes.includes(type)) {
+    if (parts[0]) {
       nodes.push({ type, label: parts[0] || '', detail: parts[1] || '' });
     }
   }
@@ -60,17 +58,17 @@ interface DecisionFlowProps {
 }
 
 const NODE_STYLES = {
-  start: 'bg-slate-700 dark:bg-slate-600 text-white border-slate-700 dark:border-slate-500',
+  start: 'bg-primary text-primary-text border-2 border-primary font-bold shadow-xs',
   question:
-    'bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-100 border-2 border-amber-400 dark:border-amber-600 font-semibold',
-  yes: 'bg-emerald-50 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-200 border border-emerald-300 dark:border-emerald-700',
-  no: 'bg-rose-50 dark:bg-rose-950/30 text-rose-800 dark:text-rose-200 border border-rose-300 dark:border-rose-700',
+    'bg-accent-soft text-ink border-2 border-accent font-semibold shadow-xs',
+  yes: 'bg-ok-soft text-ok border border-ok/40 font-medium',
+  no: 'bg-err-soft text-err border border-err/40 font-medium',
   yes_result:
-    'bg-emerald-100 dark:bg-emerald-900/40 text-emerald-900 dark:text-emerald-100 border-2 border-emerald-400 dark:border-emerald-600 font-semibold',
+    'bg-ok-soft text-ok border-2 border-ok font-bold shadow-xs',
   no_result:
-    'bg-rose-100 dark:bg-rose-900/40 text-rose-900 dark:text-rose-100 border-2 border-rose-400 dark:border-rose-600 font-semibold',
-  step: 'bg-blue-50 dark:bg-blue-950/30 text-blue-800 dark:text-blue-200 border border-blue-300 dark:border-blue-700',
-  end: 'bg-indigo-600 dark:bg-indigo-700 text-white border-indigo-700 dark:border-indigo-600',
+    'bg-err-soft text-err border-2 border-err font-bold shadow-xs',
+  step: 'bg-info-soft text-info border border-info/40 font-medium',
+  end: 'bg-surface-2 text-ink border-2 border-border font-bold shadow-xs',
 };
 
 const LABEL_MAP: Record<DecisionNode['type'], string> = {
@@ -85,14 +83,14 @@ const LABEL_MAP: Record<DecisionNode['type'], string> = {
 };
 
 const LABEL_COLORS: Record<DecisionNode['type'], string> = {
-  start: 'bg-slate-500 text-white',
-  question: 'bg-amber-500 text-white',
-  yes: 'bg-emerald-500 text-white',
-  no: 'bg-rose-500 text-white',
-  yes_result: 'bg-emerald-600 text-white',
-  no_result: 'bg-rose-600 text-white',
-  step: 'bg-blue-500 text-white',
-  end: 'bg-indigo-500 text-white',
+  start: 'bg-primary text-primary-text',
+  question: 'bg-accent text-accent-text',
+  yes: 'bg-ok text-white',
+  no: 'bg-err text-white',
+  yes_result: 'bg-ok text-white',
+  no_result: 'bg-err text-white',
+  step: 'bg-info text-white',
+  end: 'bg-ink text-white dark:bg-ink-2',
 };
 
 // F-14: Subcomponentes extraídos para o escopo do módulo para evitar re-montagens
@@ -102,12 +100,12 @@ interface NodeBoxProps {
 }
 
 export const NodeBox: React.FC<NodeBoxProps> = ({ node, isQuestion = false }) => (
-  <div className={`relative px-2.5 sm:px-4 py-2.5 sm:py-3 rounded-xl shadow-sm text-center w-full min-w-0 break-words ${NODE_STYLES[node.type]}`}>
+  <div className={`relative px-2.5 sm:px-4 py-2.5 sm:py-3 rounded-xl shadow-2xs text-center w-full min-w-0 break-words ${NODE_STYLES[node.type]}`}>
     <span
       className={`
         absolute -top-2.5 left-1/2 -translate-x-1/2
         text-xs font-bold uppercase tracking-widest
-        px-2 py-0.5 rounded-full whitespace-nowrap
+        px-2 py-0.5 rounded-full whitespace-nowrap shadow-xs
         ${LABEL_COLORS[node.type]}
       `}
     >
@@ -121,7 +119,7 @@ export const NodeBox: React.FC<NodeBoxProps> = ({ node, isQuestion = false }) =>
     </p>
     {node.detail && (
       <p
-        className="text-xs opacity-70 mt-1 leading-snug break-words"
+        className="text-xs opacity-80 mt-1 font-serif-reading leading-normal break-words"
         style={{ overflowWrap: 'anywhere' }}
       >
         {node.detail}
@@ -137,16 +135,16 @@ interface ArrowProps {
 
 export const Arrow: React.FC<ArrowProps> = ({
   label,
-  color = 'text-slate-400 dark:text-slate-500',
+  color = 'text-ink-2',
 }) => (
-  <div className={`flex flex-col items-center py-1 ${color}`}>
-    <div className="w-px h-4 bg-current opacity-40" />
+  <div className="flex flex-col items-center py-1.5 shrink-0" aria-hidden="true">
+    <div className="w-px h-3 bg-border" />
     {label && (
-      <span className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-current/10">
+      <span className={`text-xs font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-surface-2 border border-border my-0.5 ${color}`}>
         {label}
       </span>
     )}
-    <ArrowDown className="w-4 h-4 mt-0.5" />
+    <ArrowDown className={`w-3.5 h-3.5 ${color}`} />
   </div>
 );
 
@@ -173,11 +171,11 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
       >
         {/* Header */}
         <div className="flex items-center gap-2 mb-4">
-          <GitFork className="w-4 h-4 text-slate-400" />
-          <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+          <GitFork className="w-4 h-4 text-accent" />
+          <span className="text-xs font-bold uppercase tracking-widest text-ink-2">
             Fluxo de Decisão
           </span>
-          <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700" />
+          <div className="flex-1 h-px bg-border" />
         </div>
 
         <div className="flex flex-col items-center w-full max-w-full">
@@ -206,7 +204,7 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
             <div className="flex-1 min-w-0 flex flex-col items-center">
               <Arrow
                 label="SIM"
-                color="text-emerald-500"
+                color="text-ok"
               />
               {yesNode && (
                 <div className="w-full min-w-0">
@@ -215,7 +213,7 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
               )}
               {yesResultNode && (
                 <>
-                  <Arrow color="text-emerald-400" />
+                  <Arrow color="text-ok" />
                   <div className="w-full min-w-0">
                     <NodeBox node={yesResultNode} />
                   </div>
@@ -224,13 +222,13 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
             </div>
 
             {/* Divider */}
-            <div className="self-stretch w-px bg-slate-200 dark:bg-slate-700 mt-2 shrink-0" />
+            <div className="self-stretch w-px bg-border mt-2 shrink-0" />
 
             {/* NO branch */}
             <div className="flex-1 min-w-0 flex flex-col items-center">
               <Arrow
                 label="NÃO"
-                color="text-rose-500"
+                color="text-err"
               />
               {noNode && (
                 <div className="w-full min-w-0">
@@ -239,7 +237,7 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
               )}
               {noResultNode && (
                 <>
-                  <Arrow color="text-rose-400" />
+                  <Arrow color="text-err" />
                   <div className="w-full min-w-0">
                     <NodeBox node={noResultNode} />
                   </div>
@@ -271,12 +269,12 @@ export const DecisionFlow: React.FC<DecisionFlowProps> = ({ code, className = ''
     >
       {/* Header */}
       <div className="flex items-center gap-2 mb-4">
-        <GitFork className="w-4 h-4 text-slate-400" />
-        <span className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+        <GitFork className="w-4 h-4 text-accent" />
+        <span className="text-xs font-bold uppercase tracking-widest text-ink-2">
           Fluxo de Processo
         </span>
-        <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700" />
-        <span className="text-xs text-slate-400">{nodes.length} etapas</span>
+        <div className="flex-1 h-px bg-border" />
+        <span className="text-xs font-mono font-medium text-ink-2">{nodes.length} etapas</span>
       </div>
 
       <div className="flex flex-col items-center gap-0">

@@ -43,7 +43,6 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
   const { fontSize, fontFamily } = useReaderPreferencesStore();
 
   const isDark = variant === 'dark';
-  const isLight = variant === 'light';
 
   // Pré-processa markdown (protegendo moedas R$ e normalizando [!ALERTAS])
   const processedContent = useMemo(() => prepararConteudoMarkdown(content), [content]);
@@ -64,11 +63,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
     : 'text-base leading-relaxed';
 
   // Classes de cor baseadas na variante ou no tema "Papel e Tinta"
-  const themeTextClass = isDark
-    ? 'text-slate-200'
-    : isLight
-    ? 'text-slate-900'
-    : 'text-ink';
+  const themeTextClass = 'text-ink';
 
   return (
     <div

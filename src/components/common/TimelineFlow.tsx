@@ -31,62 +31,71 @@ type TimelineItem =
 const COLORS = ['emerald', 'blue', 'violet', 'amber', 'rose', 'cyan', 'indigo', 'teal'] as const;
 type Color = typeof COLORS[number];
 
-const COLOR_MAP: Record<Color, { bg: string; border: string; badge: string; badgeText: string; dot: string }> = {
+const COLOR_MAP: Record<
+  Color,
+  {
+    cardBg: string;
+    border: string;
+    badge: string;
+    badgeText: string;
+    subtitle: string;
+  }
+> = {
   emerald: {
-    bg: 'bg-emerald-50 dark:bg-emerald-950/30',
-    border: 'border-emerald-400 dark:border-emerald-600',
-    badge: 'bg-emerald-500 dark:bg-emerald-600',
+    cardBg: 'bg-emerald-500/5 dark:bg-emerald-500/10',
+    border: 'border-l-emerald-600 dark:border-l-emerald-400',
+    badge: 'bg-emerald-600 dark:bg-emerald-500',
     badgeText: 'text-white',
-    dot: 'bg-emerald-400',
+    subtitle: 'text-emerald-800 dark:text-emerald-300',
   },
   blue: {
-    bg: 'bg-blue-50 dark:bg-blue-950/30',
-    border: 'border-blue-400 dark:border-blue-600',
-    badge: 'bg-blue-500 dark:bg-blue-600',
+    cardBg: 'bg-blue-500/5 dark:bg-blue-500/10',
+    border: 'border-l-blue-600 dark:border-l-blue-400',
+    badge: 'bg-blue-600 dark:bg-blue-500',
     badgeText: 'text-white',
-    dot: 'bg-blue-400',
+    subtitle: 'text-blue-800 dark:text-blue-300',
   },
   violet: {
-    bg: 'bg-violet-50 dark:bg-violet-950/30',
-    border: 'border-violet-400 dark:border-violet-600',
-    badge: 'bg-violet-500 dark:bg-violet-600',
+    cardBg: 'bg-violet-500/5 dark:bg-violet-500/10',
+    border: 'border-l-violet-600 dark:border-l-violet-400',
+    badge: 'bg-violet-600 dark:bg-violet-500',
     badgeText: 'text-white',
-    dot: 'bg-violet-400',
+    subtitle: 'text-violet-800 dark:text-violet-300',
   },
   amber: {
-    bg: 'bg-amber-50 dark:bg-amber-950/30',
-    border: 'border-amber-400 dark:border-amber-600',
-    badge: 'bg-amber-500 dark:bg-amber-600',
+    cardBg: 'bg-amber-500/5 dark:bg-amber-500/10',
+    border: 'border-l-amber-600 dark:border-l-amber-400',
+    badge: 'bg-amber-600 dark:bg-amber-500',
     badgeText: 'text-white',
-    dot: 'bg-amber-400',
+    subtitle: 'text-amber-800 dark:text-amber-300',
   },
   rose: {
-    bg: 'bg-rose-50 dark:bg-rose-950/30',
-    border: 'border-rose-400 dark:border-rose-600',
-    badge: 'bg-rose-500 dark:bg-rose-600',
+    cardBg: 'bg-rose-500/5 dark:bg-rose-500/10',
+    border: 'border-l-rose-600 dark:border-l-rose-400',
+    badge: 'bg-rose-600 dark:bg-rose-500',
     badgeText: 'text-white',
-    dot: 'bg-rose-400',
+    subtitle: 'text-rose-800 dark:text-rose-300',
   },
   cyan: {
-    bg: 'bg-cyan-50 dark:bg-cyan-950/30',
-    border: 'border-cyan-400 dark:border-cyan-600',
-    badge: 'bg-cyan-500 dark:bg-cyan-600',
+    cardBg: 'bg-cyan-500/5 dark:bg-cyan-500/10',
+    border: 'border-l-cyan-600 dark:border-l-cyan-400',
+    badge: 'bg-cyan-600 dark:bg-cyan-500',
     badgeText: 'text-white',
-    dot: 'bg-cyan-400',
+    subtitle: 'text-cyan-800 dark:text-cyan-300',
   },
   indigo: {
-    bg: 'bg-indigo-50 dark:bg-indigo-950/30',
-    border: 'border-indigo-400 dark:border-indigo-600',
-    badge: 'bg-indigo-500 dark:bg-indigo-600',
+    cardBg: 'bg-indigo-500/5 dark:bg-indigo-500/10',
+    border: 'border-l-indigo-600 dark:border-l-indigo-400',
+    badge: 'bg-indigo-600 dark:bg-indigo-500',
     badgeText: 'text-white',
-    dot: 'bg-indigo-400',
+    subtitle: 'text-indigo-800 dark:text-indigo-300',
   },
   teal: {
-    bg: 'bg-teal-50 dark:bg-teal-950/30',
-    border: 'border-teal-400 dark:border-teal-600',
-    badge: 'bg-teal-500 dark:bg-teal-600',
+    cardBg: 'bg-teal-500/5 dark:bg-teal-500/10',
+    border: 'border-l-teal-600 dark:border-l-teal-400',
+    badge: 'bg-teal-600 dark:bg-teal-500',
     badgeText: 'text-white',
-    dot: 'bg-teal-400',
+    subtitle: 'text-teal-800 dark:text-teal-300',
   },
 };
 
@@ -134,15 +143,15 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
       role="list"
       aria-label="Sequência cronológica"
     >
-      {/* Header label */}
-      <div className="flex flex-wrap items-center justify-between gap-2 mb-4 max-w-full">
+      {/* Header label com alto contraste editorial */}
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-3.5 max-w-full">
         <div className="flex items-center gap-1.5 min-w-0 flex-1">
-          <ChevronRight className="w-4 h-4 text-slate-400 shrink-0" />
-          <span className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 truncate">
+          <ChevronRight className="w-4 h-4 text-accent shrink-0" />
+          <span className="text-xs font-bold uppercase tracking-wider text-ink-2 truncate">
             Sequência Cronológica
           </span>
         </div>
-        <span className="text-xs text-slate-400 shrink-0">{steps.length} etapas</span>
+        <span className="text-xs font-mono font-medium text-ink-2 shrink-0">{steps.length} etapas</span>
       </div>
 
       <div className="flex flex-col gap-0 w-full max-w-full">
@@ -155,16 +164,16 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
                 className="flex flex-col items-center gap-1 py-1"
                 aria-hidden="true"
               >
-                <div className="w-px h-4 bg-slate-300 dark:bg-slate-600" />
+                <div className="w-px h-3.5 bg-border" />
                 {conn.label && (
-                  <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 max-w-full">
-                    <ArrowDown className="w-3 h-3 text-slate-400 shrink-0" />
-                    <span className="text-xs font-medium text-slate-500 dark:text-slate-400 italic break-words" style={{ overflowWrap: 'anywhere' }}>
+                  <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-2 border border-border shadow-2xs max-w-full">
+                    <ArrowDown className="w-3 h-3 text-accent shrink-0" />
+                    <span className="text-xs font-medium text-ink-2 italic break-words" style={{ overflowWrap: 'anywhere' }}>
                       {conn.label}
                     </span>
                   </div>
                 )}
-                <div className="w-px h-4 bg-slate-300 dark:bg-slate-600" />
+                <div className="w-px h-3.5 bg-border" />
               </div>
             );
           }
@@ -178,8 +187,8 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               key={step.id}
               role="listitem"
               className={`
-                relative flex gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl border-l-4 shadow-sm min-w-0 max-w-full
-                ${c.bg} ${c.border}
+                relative flex gap-3 sm:gap-4 p-3.5 sm:p-4 rounded-xl border border-border border-l-4 shadow-2xs min-w-0 max-w-full
+                bg-surface ${c.cardBg} ${c.border}
                 transition-all duration-200
               `}
             >
@@ -187,7 +196,7 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
               <div
                 className={`
                   shrink-0 w-8 sm:w-9 h-8 sm:h-9 rounded-full flex items-center justify-center
-                  text-xs sm:text-sm font-bold shadow-md
+                  text-xs sm:text-sm font-bold shadow-xs
                   ${c.badge} ${c.badgeText}
                 `}
                 aria-hidden="true"
@@ -195,18 +204,18 @@ export const TimelineFlow: React.FC<TimelineFlowProps> = ({ code, className = ''
                 {stepNum}
               </div>
 
-              {/* Content */}
+              {/* Content com tipografia legível e tokens semânticos */}
               <div className="flex-1 min-w-0 break-words">
-                <h4 className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 leading-tight break-words" style={{ overflowWrap: 'anywhere' }}>
+                <h4 className="text-xs sm:text-sm font-bold text-ink leading-tight break-words" style={{ overflowWrap: 'anywhere' }}>
                   {step.title}
                 </h4>
                 {step.subtitle && (
-                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5 break-words" style={{ overflowWrap: 'anywhere' }}>
+                  <p className={`text-xs font-semibold ${c.subtitle} mt-0.5 break-words`} style={{ overflowWrap: 'anywhere' }}>
                     {step.subtitle}
                   </p>
                 )}
                 {step.description && (
-                  <p className="text-xs text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed break-words" style={{ overflowWrap: 'anywhere' }}>
+                  <p className="text-xs sm:text-sm text-ink-2 mt-1.5 leading-relaxed break-words font-serif-reading" style={{ overflowWrap: 'anywhere' }}>
                     {step.description}
                   </p>
                 )}
