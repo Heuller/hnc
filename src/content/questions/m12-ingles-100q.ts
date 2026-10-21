@@ -35,11 +35,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TJDFT/2015 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2015 / 2015",
+        "verificado": true,
+        "provaId": "TJDFT/2015",
+        "ano": 2015,
+        "orgao": "2015",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1142"
+      }
   },
   {
     "id": "m12-q-3",
@@ -53,11 +57,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2356"
+      }
   },
   {
     "id": "m12-q-4",
@@ -71,11 +79,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2360"
+      }
   },
   {
     "id": "m12-q-5",
@@ -89,11 +101,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2357"
+      }
   },
   {
     "id": "m12-q-6",
@@ -107,11 +123,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2364"
+      }
   },
   {
     "id": "m12-q-7",
@@ -125,11 +145,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2361"
+      }
   },
   {
     "id": "m12-q-8",
@@ -143,11 +167,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2365"
+      }
   },
   {
     "id": "m12-q-9",
@@ -161,11 +189,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2370"
+      }
   },
   {
     "id": "m12-q-10",
@@ -179,11 +211,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2366"
+      }
   },
   {
     "id": "m12-q-11",
@@ -197,11 +233,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2371"
+      }
   },
   {
     "id": "m12-q-12",
@@ -215,11 +255,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2367"
+      }
   },
   {
     "id": "m12-q-13",
@@ -233,11 +277,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2373"
+      }
   },
   {
     "id": "m12-q-14",
@@ -251,11 +299,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2368"
+      }
   },
   {
     "id": "m12-q-15",
@@ -269,11 +321,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2374"
+      }
   },
   {
     "id": "m12-q-16",
@@ -287,11 +343,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2372"
+      }
   },
   {
     "id": "m12-q-17",
@@ -305,11 +365,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2384"
+      }
   },
   {
     "id": "m12-q-18",
@@ -323,11 +387,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2375"
+      }
   },
   {
     "id": "m12-q-19",
@@ -341,11 +409,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2386"
+      }
   },
   {
     "id": "m12-q-20",
@@ -359,11 +431,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2376"
+      }
   },
   {
     "id": "m12-q-21",
@@ -377,11 +453,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2387"
+      }
   },
   {
     "id": "m12-q-22",
@@ -395,11 +475,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2378"
+      }
   },
   {
     "id": "m12-q-23",
@@ -413,11 +497,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2388"
+      }
   },
   {
     "id": "m12-q-24",
@@ -431,11 +519,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2380"
+      }
   },
   {
     "id": "m12-q-25",
@@ -449,11 +541,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2390"
+      }
   },
   {
     "id": "m12-q-26",
@@ -467,11 +563,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2381"
+      }
   },
   {
     "id": "m12-q-27",
@@ -485,11 +585,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2391"
+      }
   },
   {
     "id": "m12-q-28",
@@ -503,11 +607,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2382"
+      }
   },
   {
     "id": "m12-q-29",
@@ -521,11 +629,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2371"
+      }
   },
   {
     "id": "m12-q-30",
@@ -539,11 +651,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2383"
+      }
   },
   {
     "id": "m12-q-31",
@@ -557,11 +673,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2395"
+      }
   },
   {
     "id": "m12-q-32",
@@ -575,11 +695,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2367"
+      }
   },
   {
     "id": "m12-q-33",
@@ -593,11 +717,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2397"
+      }
   },
   {
     "id": "m12-q-34",
@@ -611,11 +739,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2392"
+      }
   },
   {
     "id": "m12-q-35",
@@ -629,11 +761,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2398"
+      }
   },
   {
     "id": "m12-q-36",
@@ -647,11 +783,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2394"
+      }
   },
   {
     "id": "m12-q-37",
@@ -665,11 +805,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2402"
+      }
   },
   {
     "id": "m12-q-38",
@@ -683,11 +827,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Registro e Redação/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2396"
+      }
   },
   {
     "id": "m12-q-39",
@@ -697,14 +845,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 49) 61) 41) Based on the text above, judge the following item. The author believes his wife’s option to go home with the kids or stay in the car and help him find a spot is a difficult choice.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012.",
+    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ólogo/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
           "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
+    ,
+      "revisar": true
     }
   },
   {
@@ -719,11 +869,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2399"
+      }
   },
   {
     "id": "m12-q-41",
@@ -737,11 +891,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2409"
+      }
   },
   {
     "id": "m12-q-42",
@@ -755,11 +913,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2400"
+      }
   },
   {
     "id": "m12-q-43",
@@ -773,11 +935,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2410"
+      }
   },
   {
     "id": "m12-q-44",
@@ -791,11 +957,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Registro e Redação/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2401"
+      }
   },
   {
     "id": "m12-q-45",
@@ -809,11 +979,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2412"
+      }
   },
   {
     "id": "m12-q-46",
@@ -827,11 +1001,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2404"
+      }
   },
   {
     "id": "m12-q-47",
@@ -841,14 +1019,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 1) 93) 4) Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
+    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
           "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    ,
+      "revisar": true
     }
   },
   {
@@ -863,11 +1043,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2405"
+      }
   },
   {
     "id": "m12-q-49",
@@ -881,11 +1065,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2414"
+      }
   },
   {
     "id": "m12-q-50",
@@ -899,11 +1087,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2406"
+      }
   },
   {
     "id": "m12-q-51",
@@ -917,11 +1109,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2416"
+      }
   },
   {
     "id": "m12-q-52",
@@ -931,14 +1127,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
           "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
+    ,
+      "revisar": true
     }
   },
   {
@@ -953,11 +1151,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2417"
+      }
   },
   {
     "id": "m12-q-54",
@@ -971,11 +1173,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2411"
+      }
   },
   {
     "id": "m12-q-55",
@@ -989,11 +1195,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2418"
+      }
   },
   {
     "id": "m12-q-56",
@@ -1007,11 +1217,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2419"
+      }
   },
   {
     "id": "m12-q-57",
@@ -1025,11 +1239,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2420"
+      }
   },
   {
     "id": "m12-q-58",
@@ -1043,11 +1261,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2423"
+      }
   },
   {
     "id": "m12-q-59",
@@ -1061,11 +1283,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2424"
+      }
   },
   {
     "id": "m12-q-60",
@@ -1079,11 +1305,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2425"
+      }
   },
   {
     "id": "m12-q-61",
@@ -1093,14 +1323,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
+    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
           "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    ,
+      "revisar": true
     }
   },
   {
@@ -1115,11 +1347,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2427"
+      }
   },
   {
     "id": "m12-q-63",
@@ -1133,11 +1369,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2429"
+      }
   },
   {
     "id": "m12-q-64",
@@ -1151,11 +1391,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2433"
+      }
   },
   {
     "id": "m12-q-65",
@@ -1169,11 +1413,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2430"
+      }
   },
   {
     "id": "m12-q-66",
@@ -1183,14 +1431,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. 57) Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
           "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
+    ,
+      "revisar": true
     }
   },
   {
@@ -1205,11 +1455,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2431"
+      }
   },
   {
     "id": "m12-q-68",
@@ -1223,11 +1477,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2383"
+      }
   },
   {
     "id": "m12-q-69",
@@ -1241,11 +1499,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2432"
+      }
   },
   {
     "id": "m12-q-70",
@@ -1259,11 +1521,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2360"
+      }
   },
   {
     "id": "m12-q-71",
@@ -1277,11 +1543,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2384"
+      }
   },
   {
     "id": "m12-q-72",
@@ -1295,11 +1565,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2364"
+      }
   },
   {
     "id": "m12-q-73",
@@ -1313,11 +1587,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2356"
+      }
   },
   {
     "id": "m12-q-74",
@@ -1331,11 +1609,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2365"
+      }
   },
   {
     "id": "m12-q-75",
@@ -1349,11 +1631,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2357"
+      }
   },
   {
     "id": "m12-q-76",
@@ -1367,11 +1653,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2366"
+      }
   },
   {
     "id": "m12-q-77",
@@ -1385,11 +1675,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2361"
+      }
   },
   {
     "id": "m12-q-78",
@@ -1403,11 +1697,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2367"
+      }
   },
   {
     "id": "m12-q-79",
@@ -1421,11 +1719,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2370"
+      }
   },
   {
     "id": "m12-q-80",
@@ -1439,11 +1741,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2368"
+      }
   },
   {
     "id": "m12-q-81",
@@ -1457,11 +1763,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2371"
+      }
   },
   {
     "id": "m12-q-82",
@@ -1475,11 +1785,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2372"
+      }
   },
   {
     "id": "m12-q-83",
@@ -1493,11 +1807,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2373"
+      }
   },
   {
     "id": "m12-q-84",
@@ -1511,11 +1829,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2375"
+      }
   },
   {
     "id": "m12-q-85",
@@ -1529,11 +1851,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2374"
+      }
   },
   {
     "id": "m12-q-86",
@@ -1547,11 +1873,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2376"
+      }
   },
   {
     "id": "m12-q-87",
@@ -1565,11 +1895,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2384"
+      }
   },
   {
     "id": "m12-q-88",
@@ -1583,11 +1917,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2378"
+      }
   },
   {
     "id": "m12-q-89",
@@ -1601,11 +1939,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2386"
+      }
   },
   {
     "id": "m12-q-90",
@@ -1619,11 +1961,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2380"
+      }
   },
   {
     "id": "m12-q-91",
@@ -1637,11 +1983,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2387"
+      }
   },
   {
     "id": "m12-q-92",
@@ -1655,11 +2005,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2381"
+      }
   },
   {
     "id": "m12-q-93",
@@ -1673,11 +2027,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2388"
+      }
   },
   {
     "id": "m12-q-94",
@@ -1691,11 +2049,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2382"
+      }
   },
   {
     "id": "m12-q-95",
@@ -1709,11 +2071,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2390"
+      }
   },
   {
     "id": "m12-q-96",
@@ -1727,11 +2093,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2383"
+      }
   },
   {
     "id": "m12-q-97",
@@ -1745,11 +2115,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2391"
+      }
   },
   {
     "id": "m12-q-98",
@@ -1763,11 +2137,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2367"
+      }
   },
   {
     "id": "m12-q-99",
@@ -1781,11 +2159,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2371"
+      }
   },
   {
     "id": "m12-q-100",
@@ -1799,10 +2181,14 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "verificado": true,
+        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+        "ano": 2012,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-tec-2392"
+      }
   }
 ];

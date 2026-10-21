@@ -18,6 +18,7 @@ export const FonteOriginalSchema = z
     banca: z.string().optional(),
     questaoOriginalId: z.string().optional(),
     declaracaoLegada: z.string().optional(),
+    revisar: z.boolean().optional(),
   })
   .refine(
     (data) => {
