@@ -19,9 +19,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 14",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 14",
     "dataConferencia": "2026-10-14"
@@ -44,9 +44,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 5º / CF/88, art. 57, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 5º / CF/88, art. 57, § 4º",
     "dataConferencia": "2026-10-14"
@@ -69,9 +69,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 8º / CF/88, art. 58, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 8º / CF/88, art. 58, § 1º",
     "dataConferencia": "2026-10-14"
@@ -94,9 +94,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 17, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 17, § 1º",
     "dataConferencia": "2026-10-14"
@@ -119,9 +119,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 18",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 18",
     "dataConferencia": "2026-10-14"
@@ -144,9 +144,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 19",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 19",
     "dataConferencia": "2026-10-14"
@@ -169,9 +169,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 20",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 20",
     "dataConferencia": "2026-10-14"
@@ -194,9 +194,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 22",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 22",
     "dataConferencia": "2026-10-14"
@@ -219,9 +219,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 21",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 21",
     "dataConferencia": "2026-10-14"
@@ -244,9 +244,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 20-A",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 20-A",
     "dataConferencia": "2026-10-14"
@@ -269,9 +269,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 17, II c/c art. 20-A",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 17, II c/c art. 20-A",
     "dataConferencia": "2026-10-14"
@@ -294,9 +294,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 12",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 12",
     "dataConferencia": "2026-10-14"
@@ -319,9 +319,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 21-A",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 21-A",
     "dataConferencia": "2026-10-14"
@@ -344,9 +344,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "RICD, Ouvidoria Parlamentar / Resolução da Câmara",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "RICD, Ouvidoria Parlamentar / Resolução da Câmara"
     },
     "fonte": "RICD, Ouvidoria Parlamentar / Resolução da Câmara",
     "dataConferencia": "2026-10-14"
@@ -369,9 +370,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Código de Ética da Câmara dos Deputados / RICD",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Código de Ética da Câmara dos Deputados / RICD"
     },
     "fonte": "Código de Ética da Câmara dos Deputados / RICD",
     "dataConferencia": "2026-10-14"
@@ -394,9 +396,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 55, § 2º / RICD",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 55, § 2º / RICD",
     "dataConferencia": "2026-10-14"
@@ -419,9 +421,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 66",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 66",
     "dataConferencia": "2026-10-14"
@@ -444,9 +446,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, arts. 9º a 13",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, arts. 9º a 13",
     "dataConferencia": "2026-10-14"
@@ -469,9 +471,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 268 / CF/88, art. 51, IV",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 268 / CF/88, art. 51, IV",
     "dataConferencia": "2026-10-14"
@@ -494,9 +496,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, Rcl 25.537 / RICD, art. 270",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, Rcl 25.537 / RICD, art. 270",
     "dataConferencia": "2026-10-14"
@@ -519,9 +521,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 15",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 15",
     "dataConferencia": "2026-10-14"
@@ -544,9 +546,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Resolução da Câmara nº 1/2013 / RICD",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Resolução da Câmara nº 1/2013 / RICD"
     },
     "fonte": "Resolução da Câmara nº 1/2013 / RICD",
     "dataConferencia": "2026-10-14"
@@ -569,9 +572,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 7º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 7º",
     "dataConferencia": "2026-10-14"
@@ -594,9 +597,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 16",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 16",
     "dataConferencia": "2026-10-14"
@@ -619,9 +622,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 21-A",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 21-A",
     "dataConferencia": "2026-10-14"
@@ -644,9 +647,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 22",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 22",
     "dataConferencia": "2026-10-14"
@@ -669,9 +672,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 24, II / CF/88, art. 58, § 2º, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 24, II / CF/88, art. 58, § 2º, I",
     "dataConferencia": "2026-10-14"
@@ -694,9 +697,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
     "dataConferencia": "2026-10-14"
@@ -719,9 +722,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 32, IV",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 32, IV",
     "dataConferencia": "2026-10-14"
@@ -744,9 +747,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 54, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 54, I",
     "dataConferencia": "2026-10-14"
@@ -769,9 +772,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 32, X e art. 54, II",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 32, X e art. 54, II",
     "dataConferencia": "2026-10-14"
@@ -794,9 +797,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 25",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 25",
     "dataConferencia": "2026-10-14"
@@ -819,9 +822,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 39",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 39",
     "dataConferencia": "2026-10-14"
@@ -844,9 +847,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 42",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 42",
     "dataConferencia": "2026-10-14"
@@ -869,9 +872,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 34, II",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 34, II",
     "dataConferencia": "2026-10-14"
@@ -894,9 +897,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 57, § 6º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 57, § 6º",
     "dataConferencia": "2026-10-14"
@@ -919,9 +922,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 57, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 57, § 3º",
     "dataConferencia": "2026-10-14"
@@ -944,9 +947,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 57",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 57",
     "dataConferencia": "2026-10-14"
@@ -969,9 +972,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
     "dataConferencia": "2026-10-14"
@@ -994,9 +997,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 53",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 53",
     "dataConferencia": "2026-10-14"
@@ -1019,9 +1022,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 35",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 35",
     "dataConferencia": "2026-10-14"
@@ -1044,9 +1047,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, arts. 47 e 48",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, arts. 47 e 48",
     "dataConferencia": "2026-10-14"
@@ -1069,9 +1072,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 185",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 185",
     "dataConferencia": "2026-10-14"
@@ -1094,9 +1097,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 118, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 118, § 2º",
     "dataConferencia": "2026-10-14"
@@ -1119,9 +1122,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 118",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 118",
     "dataConferencia": "2026-10-14"
@@ -1144,9 +1147,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 118, § 6º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 118, § 6º",
     "dataConferencia": "2026-10-14"
@@ -1169,9 +1172,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 24, II c/c art. 252",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 24, II c/c art. 252",
     "dataConferencia": "2026-10-14"
@@ -1194,9 +1197,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 32, XI",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 32, XI",
     "dataConferencia": "2026-10-14"
@@ -1219,9 +1222,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 219 / CF/88, art. 50",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 219 / CF/88, art. 50",
     "dataConferencia": "2026-10-14"
@@ -1244,9 +1247,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 23.452 / CF/88, art. 50",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 23.452 / CF/88, art. 50",
     "dataConferencia": "2026-10-14"
@@ -1269,9 +1272,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 46",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 46",
     "dataConferencia": "2026-10-14"
@@ -1294,9 +1297,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 25",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 25",
     "dataConferencia": "2026-10-14"
@@ -1319,9 +1322,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 155",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 155",
     "dataConferencia": "2026-10-14"
@@ -1344,9 +1347,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 105",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 105",
     "dataConferencia": "2026-10-14"
@@ -1369,9 +1372,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 105, parágrafo único",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 105, parágrafo único",
     "dataConferencia": "2026-10-14"
@@ -1394,9 +1397,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 2º / CF/88, art. 57",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 2º / CF/88, art. 57",
     "dataConferencia": "2026-10-14"
@@ -1419,9 +1422,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 2º",
     "dataConferencia": "2026-10-14"
@@ -1444,9 +1447,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 7º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 7º",
     "dataConferencia": "2026-10-14"
@@ -1469,9 +1472,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, arts. 3º e 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, arts. 3º e 4º",
     "dataConferencia": "2026-10-14"
@@ -1494,9 +1497,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 64",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 64",
     "dataConferencia": "2026-10-14"
@@ -1519,9 +1522,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 68",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 68",
     "dataConferencia": "2026-10-14"
@@ -1544,9 +1547,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 82",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 82",
     "dataConferencia": "2026-10-14"
@@ -1569,9 +1572,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 65 e art. 83",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 65 e art. 83",
     "dataConferencia": "2026-10-14"
@@ -1594,9 +1597,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 155",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 155",
     "dataConferencia": "2026-10-14"
@@ -1619,9 +1622,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 155",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 155",
     "dataConferencia": "2026-10-14"
@@ -1644,9 +1647,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 180",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 180",
     "dataConferencia": "2026-10-14"
@@ -1669,9 +1672,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 185",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 185",
     "dataConferencia": "2026-10-14"
@@ -1694,9 +1697,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 186",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 186",
     "dataConferencia": "2026-10-14"
@@ -1719,9 +1722,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 187",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 187",
     "dataConferencia": "2026-10-14"
@@ -1744,9 +1747,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 7º / CF/88",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 7º / CF/88",
     "dataConferencia": "2026-10-14"
@@ -1769,9 +1772,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 95",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 95",
     "dataConferencia": "2026-10-14"
@@ -1794,9 +1797,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 95, § 8º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 95, § 8º",
     "dataConferencia": "2026-10-14"
@@ -1819,9 +1822,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 95, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 95, § 1º",
     "dataConferencia": "2026-10-14"
@@ -1844,9 +1847,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 185 e ss. / Doutrina Parlamentar",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 185 e ss. / Doutrina Parlamentar",
     "dataConferencia": "2026-10-14"
@@ -1869,9 +1872,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD / Atos da Mesa Diretora",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD / Atos da Mesa Diretora",
     "dataConferencia": "2026-10-14"
@@ -1894,9 +1897,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 202, § 2º / STF, MS 34.697",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 202, § 2º / STF, MS 34.697",
     "dataConferencia": "2026-10-14"
@@ -1919,9 +1922,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 195",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 195",
     "dataConferencia": "2026-10-14"
@@ -1944,9 +1947,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 272",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 272",
     "dataConferencia": "2026-10-14"
@@ -1969,9 +1972,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 176",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 176",
     "dataConferencia": "2026-10-14"
@@ -1994,9 +1997,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 177",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 177",
     "dataConferencia": "2026-10-14"
@@ -2019,9 +2022,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
     "dataConferencia": "2026-10-14"
@@ -2044,9 +2047,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
     "dataConferencia": "2026-10-14"
@@ -2069,9 +2072,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
     "dataConferencia": "2026-10-14"
@@ -2094,9 +2097,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 3º / RCCN, art. 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 3º / RCCN, art. 1º",
     "dataConferencia": "2026-10-14"
@@ -2119,9 +2122,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º / RCCN, art. 42",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º / RCCN, art. 42",
     "dataConferencia": "2026-10-14"
@@ -2144,9 +2147,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º",
     "dataConferencia": "2026-10-14"
@@ -2169,9 +2172,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 6º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 6º",
     "dataConferencia": "2026-10-14"
@@ -2194,9 +2197,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN"
     },
     "fonte": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN",
     "dataConferencia": "2026-10-14"
@@ -2219,9 +2223,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 166",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 166",
     "dataConferencia": "2026-10-14"
@@ -2244,9 +2248,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 166, § 3º, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 166, § 3º, I",
     "dataConferencia": "2026-10-14"
@@ -2269,9 +2273,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "CF/88, art. 166, § 3º, II, \"a\"",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "CF/88, art. 166, § 3º, II, \\",
+      "verificado": false
     },
     "fonte": "CF/88, art. 166, § 3º, II, \"a\"",
     "dataConferencia": "2026-10-14"
@@ -2294,9 +2298,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 4º / RCCN",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 58, § 4º / RCCN",
     "dataConferencia": "2026-10-14"
@@ -2319,9 +2323,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 58, § 4º",
     "dataConferencia": "2026-10-14"
@@ -2344,9 +2348,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Resolução nº 1/2002-CN, art. 2º",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Resolução nº 1/2002-CN, art. 2º"
     },
     "fonte": "Resolução nº 1/2002-CN, art. 2º",
     "dataConferencia": "2026-10-14"
@@ -2369,9 +2374,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 4.029 / CF/88, art. 62, § 9º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 4.029 / CF/88, art. 62, § 9º",
     "dataConferencia": "2026-10-14"
@@ -2394,9 +2399,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 3º, II",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 57, § 3º, II",
     "dataConferencia": "2026-10-14"
@@ -2419,9 +2424,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RCCN, art. 15",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RCCN, art. 15",
     "dataConferencia": "2026-10-14"
@@ -2444,9 +2449,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RCCN, arts. 4º a 8º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RCCN, arts. 4º a 8º",
     "dataConferencia": "2026-10-14"
@@ -2469,9 +2474,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Resolução nº 1/2006-CN",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Resolução nº 1/2006-CN"
     },
     "fonte": "Resolução nº 1/2006-CN",
     "dataConferencia": "2026-10-14"
@@ -2494,9 +2500,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 5º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 5º",
     "dataConferencia": "2026-10-14"

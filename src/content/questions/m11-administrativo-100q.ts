@@ -13,9 +13,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta explorando a distinção entre princípios expressos (LIMPE) e implícitos (supremacia, indisponibilidade, razoabilidade, proporcionalidade, autotutela).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista Legislativo - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista Legislativo - Adaptada"
     }
   },
   {
@@ -30,9 +31,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o princípio da legalidade privada (art. 5º, II da CF) com a legalidade administrativa estrita (art. 37, caput da CF).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
     }
   },
   {
@@ -47,9 +49,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença canônica entre descentralização por outorga e por delegação.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista Judiciário - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista Judiciário - Cebraspe"
     }
   },
   {
@@ -64,9 +67,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar desconcentração (órgãos, mesma PJ) por descentralização (entidades, nova PJ).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe - Adaptada"
     }
   },
   {
@@ -81,9 +85,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ausência de hierarquia entre a Administração Direta e as entidades da Administração Indireta (há apenas vinculação e tutela).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe - Analista Administrativo",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe - Analista Administrativo"
     }
   },
   {
@@ -98,9 +103,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter as regras de capital e de forma jurídica entre Empresas Públicas e Sociedades de Economia Mista.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe - Adaptada"
     }
   },
   {
@@ -115,9 +121,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato da autotutela consagrado nas Súmulas 346 e 473 do STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
     }
   },
   {
@@ -132,9 +139,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Restringir a Súmula Vinculante 13 a certos Poderes, excluindo o Legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Cebraspe - Adaptada"
     }
   },
   {
@@ -149,9 +157,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção técnica precisa entre motivo (elemento intrínseco) e motivação (formalização escrita).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -166,9 +175,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Incompatibilidade da alteração a posteriori de motivos com a Teoria dos Motivos Determinantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -183,9 +193,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificação de que a presunção de legitimidade é o único atributo universal presente em absolutamente todos os atos administrativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -200,9 +211,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar efeitos de anulação (ex tunc) com efeitos de revogação (ex nunc).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -217,9 +229,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra canônica da convalidação sanável (Forma e Competência relativa).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe"
     }
   },
   {
@@ -234,9 +247,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Tentar convalidar vícios materiais insanáveis de finalidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -251,9 +265,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal do art. 28 da LINDB e do precedente do MS 24.631 do STF.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -268,9 +283,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desfigurar a natureza do parecer vinculante.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -285,9 +301,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter atos complexos com atos compostos (pegadinha clássica Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJ-PA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TJ-PA / Cebraspe"
     }
   },
   {
@@ -302,9 +319,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico do provimento derivado: Reintegração (demissão ilegal).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -319,9 +337,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Inserir direito a indenização na recondução, o que é expressamente vedado pelo art. 29 da Lei 8.112/90.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -336,9 +355,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos literais da Lei 8.112/90 (30 dias para posse, 15 dias para exercício).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe - Adaptada"
     }
   },
   {
@@ -353,9 +373,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Utilizar o prazo revogado de 2 anos anterior à EC 19/98 e dispensar a avaliação obrigatória.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -370,9 +391,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferenciação precisa: remoção é do servidor; redistribuição é do cargo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -387,9 +409,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir redistribuição entre Poderes distintos da República.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe - Adaptada"
     }
   },
   {
@@ -404,9 +427,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Exceção vinculante da absolvição criminal por negativa de autoria ou inexistência do fato.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
     }
   },
   {
@@ -421,9 +445,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre absolvição por negativa de autoria (vincula) e por falta de provas (não vincula).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -438,9 +463,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Compatibilidade de horários é requisito inafastável.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEMA-AM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEMA-AM / Cebraspe"
     }
   },
   {
@@ -455,9 +481,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre verdade material (processo administrativo e penal) e verdade formal (processo civil tradicional).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -472,9 +499,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar hipótese de suspeição (art. 20) com hipótese objetiva de impedimento (art. 18).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -489,9 +517,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal do mnemônico CENORA do art. 13 da Lei 9.784/99.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe - Adaptada"
     }
   },
   {
@@ -506,9 +535,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Restringir a delegação a órgãos subordinados (o art. 12 autoriza delegação sem subordinação).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -523,9 +553,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre processo civil (onde a reformatio in pejus é vedada) e processo administrativo (onde é admitida com contraditório prévio).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
     }
   },
   {
@@ -540,9 +571,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmar proibição absoluta de reformatio in pejus no processo administrativo federal.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe"
     }
   },
   {
@@ -557,9 +589,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal da Súmula Vinculante 5 do STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -574,9 +607,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Inserir prazo fantasioso de 5 anos de interrupção prescricional no PAD.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -591,9 +625,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre supremacia geral (polícia) e supremacia especial (disciplinar).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -608,9 +643,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir delegabilidade da ordem de polícia a entidades privadas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -625,9 +661,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da tese vinculante do Tema 532 do STF sobre poder de polícia.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -642,9 +679,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter excesso de poder (competência) com desvio de finalidade (finalidade).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -659,9 +697,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da exceção da autoexecutoriedade: a multa não é autoexecutória quanto à cobrança forçada de valores.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -676,9 +715,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Permitir criação de órgãos e aumento de despesa por decreto autônomo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -693,9 +733,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre controle de legalidade/razoabilidade (permitido) e controle de mérito estrito (vedado).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -710,9 +751,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir margem de escolha discricionária ao poder vinculado.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -727,9 +769,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal do art. 37, § 6º da Constituição de 1988.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -744,9 +787,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tese vinculante do Tema 940 do STF e ilegitimidade passiva do servidor perante a vítima.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -761,9 +805,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção entre omissão genérica (subjetiva) e omissão específica com dever de custódia (objetiva - Tema 592 STF).",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -778,9 +823,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir culpa concorrente (atenua a indenização) com culpa exclusiva (exclui a responsabilidade).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -795,9 +841,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar a teoria do risco integral como regra geral da responsabilidade pública no Brasil.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -812,9 +859,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença: responsabilidade do Estado perante a vítima = OBJETIVA; responsabilidade do agente em regresso perante o Estado = SUBJETIVA.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -829,9 +877,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Exigência de pagamento prévio da indenização pelo Estado para nascimento da pretensão regressiva.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe"
     }
   },
   {
@@ -846,9 +895,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra geral de irresponsabilidade por atos legislativos e suas hipóteses de exceção.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -863,9 +913,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Extinção absoluta da culpa e consagração do dolo específico na nova LIA (Lei 14.230/21).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -880,9 +931,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Taxatividade do rol do art. 11 após a Lei 14.230/2021.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -897,9 +949,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir dano presumido in re ipsa no art. 10 após a Lei 14.230/2021.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -914,9 +967,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da tese do STF nas ADIs 7042 e 7043 sobre legitimidade concorrente.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -931,9 +985,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Revogação da perda da função e da suspensão de direitos políticos no art. 11 da LIA.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -948,9 +1003,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos literais da nova prescrição da LIA (8 anos e 4 anos de intercorrente).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -965,9 +1021,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Impossibilidade de o particular responder isoladamente por improbidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -982,9 +1039,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Instituição expressa do ANPC no art. 17-B da Lei 8.429/92.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe"
     }
   },
   {
@@ -999,9 +1057,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cláusula protetiva do art. 1º, § 8º contra criminalização da divergência hermenêutica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1016,9 +1075,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato do modelo patrimonialista.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "UnB / Administrador - Cebraspe 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "UnB / Administrador - Cebraspe 2025"
     }
   },
   {
@@ -1033,9 +1093,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Fundamentos canônicos da burocracia racional-legal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1050,9 +1111,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Teoria das disfunções burocráticas de Robert Merton.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -1067,9 +1129,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir à Nova Gestão Pública as características da burocracia rígida prévia.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "UnB / Cebraspe 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "UnB / Cebraspe 2025"
     }
   },
   {
@@ -1084,9 +1147,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico da Nova Governança Pública (NPG).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1101,9 +1165,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção do Triângulo Estratégico de Valor Público de Mark Moore.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -1118,9 +1183,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir produtos imediatos (outputs) com impactos sociais (impacts).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -1135,9 +1201,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Terceirizar atividades exclusivas de Estado no modelo gerencial brasileiro.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "UnB / Cebraspe 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "UnB / Cebraspe 2025"
     }
   },
   {
@@ -1152,9 +1219,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito legal literal do art. 2º do Decreto 9.203/17.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1169,9 +1237,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípios expressos do art. 3º do Decreto 9.203/2017.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -1186,9 +1255,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico do Modelo das Três Linhas do IIA.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -1203,9 +1273,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Subordinação indevida da auditoria interna aos gestores auditados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -1220,9 +1291,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Mnemônico LEC dos mecanismos de governança pública.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -1237,9 +1309,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Governança (direcionamento estratégico) com Gestão (execução operacional).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -1254,9 +1327,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Tornar facultativa a gestão de riscos e integridade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -1271,9 +1345,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Violação da garantia de proteção ao denunciante nos programas de integridade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe"
     }
   },
   {
@@ -1288,9 +1363,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Rol taxativo das cinco modalidades da Lei nº 14.133/2021.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1305,9 +1381,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Positivação e aplicação do princípio da segregação de funções na Lei 14.133/21.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -1322,9 +1399,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra geral da inversão de fases no procedimento licitatório moderno.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     }
   },
   {
@@ -1339,9 +1417,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito e função do ETP na fase preparatória da Lei 14.133/21.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -1356,9 +1435,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir pregão para obras de engenharia (expressamente vedado pelo art. 29).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -1373,9 +1453,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Critérios de julgamento exclusivos do diálogo competitivo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -1390,9 +1471,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Taxatividade da dispensa (art. 75) vs rol exemplificativo da inexigibilidade (art. 74).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -1407,9 +1489,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Exigência de atestado de exclusividade.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe"
     }
   },
   {
@@ -1424,9 +1507,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar contrato formal em qualquer hipótese mesmo com obrigações futuras.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1441,9 +1525,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Percentuais legais exatos de alteração unilateral: 25% e 50%.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1458,9 +1543,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Impossibilidade de alteração unilateral das cláusulas financeiras.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -1475,9 +1561,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos de vigência de contratos contínuos na Lei 14.133/21 (5 anos prorrogável até 10 anos).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -1492,9 +1579,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir suspensão contratual mesmo diante de inadimplemento prolongado do Estado.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -1509,9 +1597,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre Gestão do Contrato e Fiscalização Técnica.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   },
   {
@@ -1526,9 +1615,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confundir recebimento provisório com recebimento definitivo e afastar responsabilidade por vícios ocultos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -1543,9 +1633,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença de alcance territorial e prazos entre impedimento de licitar e declaração de inidoneidade.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -1560,9 +1651,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Autoridade competente para aplicar a declaração de inidoneidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -1577,9 +1669,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Postulado basilar da LAI: publicidade como preceito geral.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1594,9 +1687,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Vedação expressa de exigir motivação para pedidos de acesso na LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     }
   },
   {
@@ -1611,9 +1705,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos literais da LAI (20 dias prorrogável por mais 10 dias).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     }
   },
   {
@@ -1628,9 +1723,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos máximos dos 3 graus de sigilo da LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     }
   },
   {
@@ -1645,9 +1741,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Vedação absoluta de imposição de sigilo em casos de violação de direitos humanos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
     }
   },
   {
@@ -1662,9 +1759,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmar que informação pessoal depende de classificação em grau de sigilo (a proteção é automática e ex lege).",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     }
   },
   {
@@ -1679,9 +1777,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Dispensa de consentimento para o tratamento de dados pessoais pelo poder público no exercício de competências legais.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     }
   },
   {
@@ -1696,9 +1795,10 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar órgãos públicos da obrigatoriedade do Encarregado pelo Tratamento de Dados (DPO).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Técnico - Cebraspe 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
     }
   }
 ];

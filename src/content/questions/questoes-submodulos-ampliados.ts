@@ -24,9 +24,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "DCC Curation Lifecycle Model / Higgins (2008)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "DCC Curation Lifecycle Model / Higgins (2008)"
     },
     "fonte": "DCC Curation Lifecycle Model / Higgins (2008)",
     "dataConferencia": "2026-10-14"
@@ -49,9 +50,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Wilkinson et al. (2016) / Princípios FAIR",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Wilkinson et al. (2016) / Princípios FAIR"
     },
     "fonte": "Wilkinson et al. (2016) / Princípios FAIR",
     "dataConferencia": "2026-10-14"
@@ -74,9 +76,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Diretrizes de Gestão de Dados / FAPESP e CNPq",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Diretrizes de Gestão de Dados / FAPESP e CNPq",
     "dataConferencia": "2026-10-14"
@@ -99,9 +101,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Sayão e Sales / Curadoria Digital de Dados de Pesquisa",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Sayão e Sales / Curadoria Digital de Dados de Pesquisa",
     "dataConferencia": "2026-10-14"
@@ -124,9 +126,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Modelo OAIS / DCC Lifecycle Model",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Modelo OAIS / DCC Lifecycle Model",
     "dataConferencia": "2026-10-14"
@@ -149,9 +151,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Princípios FAIR (Wilkinson et al., 2016)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Princípios FAIR (Wilkinson et al., 2016)"
     },
     "fonte": "Princípios FAIR (Wilkinson et al., 2016)",
     "dataConferencia": "2026-10-14"
@@ -174,9 +177,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Diretrizes de Identificadores Persistentes / Crossref e Handle System",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Diretrizes de Identificadores Persistentes / Crossref e Handle System",
     "dataConferencia": "2026-10-14"
@@ -199,9 +202,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Princípios FAIR (Wilkinson et al., 2016)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Princípios FAIR (Wilkinson et al., 2016)"
     },
     "fonte": "Princípios FAIR (Wilkinson et al., 2016)",
     "dataConferencia": "2026-10-14"
@@ -224,9 +228,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Sayão e Sales (2012) / Curadoria Digital",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Sayão e Sales (2012) / Curadoria Digital"
     },
     "fonte": "Sayão e Sales (2012) / Curadoria Digital",
     "dataConferencia": "2026-10-14"
@@ -249,9 +254,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "European Commission / FAIR Data Guidelines",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "European Commission / FAIR Data Guidelines",
     "dataConferencia": "2026-10-14"
@@ -274,9 +279,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º"
     },
     "fonte": "Lei nº 13.709/2018 (LGPD), arts. 1º e 3º",
     "dataConferencia": "2026-10-14"
@@ -299,9 +305,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018, art. 6º, III",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018, art. 6º, III"
     },
     "fonte": "Lei nº 13.709/2018, art. 6º, III",
     "dataConferencia": "2026-10-14"
@@ -324,9 +331,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018, art. 6º e 11",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018, art. 6º e 11"
     },
     "fonte": "Lei nº 13.709/2018, art. 6º e 11",
     "dataConferencia": "2026-10-14"
@@ -349,9 +357,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23"
     },
     "fonte": "Lei nº 13.709/2018, art. 7º, II e III c/c art. 23",
     "dataConferencia": "2026-10-14"
@@ -374,9 +383,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018, art. 12",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018, art. 12"
     },
     "fonte": "Lei nº 13.709/2018, art. 12",
     "dataConferencia": "2026-10-14"
@@ -399,9 +409,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 13.709/2018, art. 41",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 13.709/2018, art. 41"
     },
     "fonte": "Lei nº 13.709/2018, art. 41",
     "dataConferencia": "2026-10-14"
@@ -424,9 +435,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "ISO/IEC 27001 / DAMA DMBOK",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ISO/IEC 27001 / DAMA DMBOK"
     },
     "fonte": "ISO/IEC 27001 / DAMA DMBOK",
     "dataConferencia": "2026-10-14"
@@ -449,9 +461,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy"
     },
     "fonte": "CF/88, art. 5º, X / Lei 13.709/2018 / IFLA Statement on Privacy",
     "dataConferencia": "2026-10-14"
@@ -474,9 +487,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Library of Congress / MODS Guidelines",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Library of Congress / MODS Guidelines",
     "dataConferencia": "2026-10-14"
@@ -499,9 +512,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Library of Congress / METS Schema",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Library of Congress / METS Schema",
     "dataConferencia": "2026-10-14"
@@ -524,9 +537,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "METS Primer / Library of Congress",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "METS Primer / Library of Congress",
     "dataConferencia": "2026-10-14"
@@ -549,9 +562,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "PREMIS Data Dictionary for Preservation Metadata, versão 3.0",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "PREMIS Data Dictionary for Preservation Metadata, versão 3.0",
     "dataConferencia": "2026-10-14"
@@ -574,9 +587,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "PREMIS Data Dictionary 3.0",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "PREMIS Data Dictionary 3.0",
     "dataConferencia": "2026-10-14"
@@ -599,9 +612,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "DCMI Metadata Terms / RFC 5013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "DCMI Metadata Terms / RFC 5013"
     },
     "fonte": "DCMI Metadata Terms / RFC 5013",
     "dataConferencia": "2026-10-14"
@@ -624,9 +638,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "METS / Library of Congress",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "METS / Library of Congress",
     "dataConferencia": "2026-10-14"
@@ -649,9 +663,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "PREMIS Data Dictionary 3.0",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "PREMIS Data Dictionary 3.0",
     "dataConferencia": "2026-10-14"
@@ -674,9 +688,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / RDF 1.1 Primer",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / RDF 1.1 Primer",
     "dataConferencia": "2026-10-14"
@@ -699,9 +713,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Tim Berners-Lee (2006) / Linked Data Design Issues",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Tim Berners-Lee (2006) / Linked Data Design Issues"
     },
     "fonte": "Tim Berners-Lee (2006) / Linked Data Design Issues",
     "dataConferencia": "2026-10-14"
@@ -724,9 +739,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Library of Congress / BIBFRAME 2.0 Model",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Library of Congress / BIBFRAME 2.0 Model",
     "dataConferencia": "2026-10-14"
@@ -749,9 +764,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "BIBFRAME 2.0 / Library of Congress",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "BIBFRAME 2.0 / Library of Congress",
     "dataConferencia": "2026-10-14"
@@ -774,9 +789,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Miller et al. / Library of Congress BIBFRAME Initiative",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Miller et al. / Library of Congress BIBFRAME Initiative",
     "dataConferencia": "2026-10-14"
@@ -799,9 +814,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / SPARQL 1.1 Query Language",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / SPARQL 1.1 Query Language",
     "dataConferencia": "2026-10-14"
@@ -824,9 +839,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / SKOS Simple Knowledge Organization System Primer",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / SKOS Simple Knowledge Organization System Primer",
     "dataConferencia": "2026-10-14"
@@ -849,9 +864,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / OWL 2 Web Ontology Language",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / OWL 2 Web Ontology Language",
     "dataConferencia": "2026-10-14"
@@ -874,9 +889,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Silberschatz, Korth e Sudarshan / Sistemas de Banco de Dados",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Silberschatz, Korth e Sudarshan / Sistemas de Banco de Dados",
     "dataConferencia": "2026-10-14"
@@ -899,9 +914,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Padrão ANSI/ISO SQL / Elmasri e Navathe",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Padrão ANSI/ISO SQL / Elmasri e Navathe",
     "dataConferencia": "2026-10-14"
@@ -924,9 +939,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Sadalage e Fowler / NoSQL Essencial",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Sadalage e Fowler / NoSQL Essencial",
     "dataConferencia": "2026-10-14"
@@ -949,9 +964,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Robinson, Webber e Eifrem / Graph Databases",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Robinson, Webber e Eifrem / Graph Databases",
     "dataConferencia": "2026-10-14"
@@ -974,9 +989,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Padrão SQL / Silberschatz",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Padrão SQL / Silberschatz",
     "dataConferencia": "2026-10-14"
@@ -999,9 +1014,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Friedl / Mastering Regular Expressions",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Friedl / Mastering Regular Expressions",
     "dataConferencia": "2026-10-14"
@@ -1024,9 +1039,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Goyvaerts e Levithan / Regular Expressions Cookbook",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Goyvaerts e Levithan / Regular Expressions Cookbook",
     "dataConferencia": "2026-10-14"
@@ -1049,9 +1064,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Friedl / Regular Expressions",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Friedl / Regular Expressions",
     "dataConferencia": "2026-10-14"
@@ -1074,9 +1089,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Verborgh e De Wilde / Using OpenRefine",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Verborgh e De Wilde / Using OpenRefine",
     "dataConferencia": "2026-10-14"
@@ -1099,9 +1114,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Friedl / Mastering Regular Expressions",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Friedl / Mastering Regular Expressions",
     "dataConferencia": "2026-10-14"
@@ -1124,9 +1139,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
     },
     "fonte": "Lewis et al. (2020) / Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
     "dataConferencia": "2026-10-14"
@@ -1149,9 +1165,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Jurafsky e Martin / Speech and Language Processing",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Jurafsky e Martin / Speech and Language Processing",
     "dataConferencia": "2026-10-14"
@@ -1174,9 +1190,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Bender et al. / On the Dangers of Stochastic Parrots",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Bender et al. / On the Dangers of Stochastic Parrots",
     "dataConferencia": "2026-10-14"
@@ -1199,9 +1215,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Vaswani et al. (2017) / Attention Is All You Need",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Vaswani et al. (2017) / Attention Is All You Need"
     },
     "fonte": "Vaswani et al. (2017) / Attention Is All You Need",
     "dataConferencia": "2026-10-14"
@@ -1224,9 +1241,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "IFLA Statement on Libraries and Artificial Intelligence / UNESCO Ethics of AI",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "IFLA Statement on Libraries and Artificial Intelligence / UNESCO Ethics of AI",
     "dataConferencia": "2026-10-14"
@@ -1249,9 +1266,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Edward Tufte (1983) / The Visual Display of Quantitative Information",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Edward Tufte (1983) / The Visual Display of Quantitative Information"
     },
     "fonte": "Edward Tufte (1983) / The Visual Display of Quantitative Information",
     "dataConferencia": "2026-10-14"
@@ -1274,9 +1292,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Cairo / The Functional Art / Few / Show Me the Numbers",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Cairo / The Functional Art / Few / Show Me the Numbers",
     "dataConferencia": "2026-10-14"
@@ -1299,9 +1317,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Stephen Few / Save the Pies for Dessert / Alberto Cairo",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Stephen Few / Save the Pies for Dessert / Alberto Cairo",
     "dataConferencia": "2026-10-14"
@@ -1324,9 +1342,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / Web Content Accessibility Guidelines (WCAG) 2.2",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / Web Content Accessibility Guidelines (WCAG) 2.2",
     "dataConferencia": "2026-10-14"
@@ -1349,9 +1367,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / WCAG 2.2 / Modelo de Acessibilidade em Governo Eletrônico (eMAG)",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / WCAG 2.2 / Modelo de Acessibilidade em Governo Eletrônico (eMAG)",
     "dataConferencia": "2026-10-14"
@@ -1374,9 +1392,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "W3C / WCAG 2.2, Critério 1.1.1",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "W3C / WCAG 2.2, Critério 1.1.1",
     "dataConferencia": "2026-10-14"
@@ -1399,9 +1417,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "WCAG 2.2, Critério 1.4.1 (Uso da Cor)",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "WCAG 2.2, Critério 1.4.1 (Uso da Cor)",
     "dataConferencia": "2026-10-14"
@@ -1424,9 +1442,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "ISO 14289-1 (PDF/UA)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ISO 14289-1 (PDF/UA)"
     },
     "fonte": "ISO 14289-1 (PDF/UA)",
     "dataConferencia": "2026-10-14"
@@ -1449,9 +1468,9 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "WCAG 2.2, Critério 1.3.1 (Informações e Relações)",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "WCAG 2.2, Critério 1.3.1 (Informações e Relações)",
     "dataConferencia": "2026-10-14"
@@ -1474,9 +1493,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Cairo / The Functional Art / Comunicação Pública da Câmara",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Cairo / The Functional Art / Comunicação Pública da Câmara"
     },
     "fonte": "Cairo / The Functional Art / Comunicação Pública da Câmara",
     "dataConferencia": "2026-10-14"
@@ -1499,9 +1519,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)"
     },
     "fonte": "Manual de Redação da Presidência da República (MRPR, 3ª ed., 2018)",
     "dataConferencia": "2026-10-14"
@@ -1524,9 +1545,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Decreto nº 9.758/2019 / MRPR (3ª ed.)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Decreto nº 9.758/2019 / MRPR (3ª ed.)"
     },
     "fonte": "Decreto nº 9.758/2019 / MRPR (3ª ed.)",
     "dataConferencia": "2026-10-14"
@@ -1549,9 +1571,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 2.1.2",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 2.1.2"
     },
     "fonte": "MRPR (3ª ed., 2018), item 2.1.2",
     "dataConferencia": "2026-10-14"
@@ -1574,9 +1597,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 3.1",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.1"
     },
     "fonte": "MRPR (3ª ed., 2018), item 3.1",
     "dataConferencia": "2026-10-14"
@@ -1599,9 +1623,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 3.2",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.2"
     },
     "fonte": "MRPR (3ª ed., 2018), item 3.2",
     "dataConferencia": "2026-10-14"
@@ -1624,9 +1649,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 3.2",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 3.2"
     },
     "fonte": "MRPR (3ª ed., 2018), item 3.2",
     "dataConferencia": "2026-10-14"
@@ -1649,9 +1675,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 4.1",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 4.1"
     },
     "fonte": "MRPR (3ª ed., 2018), item 4.1",
     "dataConferencia": "2026-10-14"
@@ -1674,9 +1701,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei Complementar nº 95/1998, art. 10, I",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei Complementar nº 95/1998, art. 10, I"
     },
     "fonte": "Lei Complementar nº 95/1998, art. 10, I",
     "dataConferencia": "2026-10-14"
@@ -1699,9 +1727,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei Complementar nº 95/1998, art. 10, III",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei Complementar nº 95/1998, art. 10, III"
     },
     "fonte": "Lei Complementar nº 95/1998, art. 10, III",
     "dataConferencia": "2026-10-14"
@@ -1724,9 +1753,10 @@ export const questoesSubmodulosAmpliados: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "MRPR (3ª ed., 2018), item 4.2",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MRPR (3ª ed., 2018), item 4.2"
     },
     "fonte": "MRPR (3ª ed., 2018), item 4.2",
     "dataConferencia": "2026-10-14"

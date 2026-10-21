@@ -19,9 +19,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 59",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 59",
     "dataConferencia": "2026-10-14"
@@ -44,9 +44,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, arts. 47 e 69",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, arts. 47 e 69",
     "dataConferencia": "2026-10-14"
@@ -69,9 +69,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 1.434 / CF/88, art. 69",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 1.434 / CF/88, art. 69",
     "dataConferencia": "2026-10-14"
@@ -94,9 +94,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
     "dataConferencia": "2026-10-14"
@@ -119,9 +119,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
     "dataConferencia": "2026-10-14"
@@ -144,9 +144,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 1º",
     "dataConferencia": "2026-10-14"
@@ -169,9 +169,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 63, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 63, I",
     "dataConferencia": "2026-10-14"
@@ -194,9 +194,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 2º",
     "dataConferencia": "2026-10-14"
@@ -219,9 +219,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º",
     "dataConferencia": "2026-10-14"
@@ -244,9 +244,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 7º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 7º",
     "dataConferencia": "2026-10-14"
@@ -269,9 +269,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 3º",
     "dataConferencia": "2026-10-14"
@@ -294,9 +294,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 64, caput",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 64, caput",
     "dataConferencia": "2026-10-14"
@@ -319,9 +319,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 65, parágrafo único",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 65, parágrafo único",
     "dataConferencia": "2026-10-14"
@@ -344,9 +344,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 67",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 67",
     "dataConferencia": "2026-10-14"
@@ -369,9 +369,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 68",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 68",
     "dataConferencia": "2026-10-14"
@@ -394,9 +394,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 68, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 68, § 1º",
     "dataConferencia": "2026-10-14"
@@ -419,9 +419,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 68, §§ 2º e 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 68, §§ 2º e 3º",
     "dataConferencia": "2026-10-14"
@@ -444,9 +444,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 64, §§ 1º e 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 64, §§ 1º e 2º",
     "dataConferencia": "2026-10-14"
@@ -469,9 +469,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 27.911 / CF/88, art. 64",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 27.911 / CF/88, art. 64",
     "dataConferencia": "2026-10-14"
@@ -494,9 +494,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66",
     "dataConferencia": "2026-10-14"
@@ -519,9 +519,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 1º",
     "dataConferencia": "2026-10-14"
@@ -544,9 +544,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 1º",
     "dataConferencia": "2026-10-14"
@@ -569,9 +569,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 65 e 67",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 65 e 67",
     "dataConferencia": "2026-10-14"
@@ -594,9 +594,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º / Doutrina Constitucional",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º / Doutrina Constitucional",
     "dataConferencia": "2026-10-14"
@@ -619,9 +619,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Doutrina Constitucional / LINDB, art. 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Doutrina Constitucional / LINDB, art. 1º",
     "dataConferencia": "2026-10-14"
@@ -644,9 +644,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, Súmula 5",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, Súmula 5",
     "dataConferencia": "2026-10-14"
@@ -669,9 +669,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, arts. 48 e 49",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, arts. 48 e 49",
     "dataConferencia": "2026-10-14"
@@ -694,9 +694,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 49, V",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 49, V",
     "dataConferencia": "2026-10-14"
@@ -719,9 +719,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 64",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 64",
     "dataConferencia": "2026-10-14"
@@ -744,9 +744,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 67",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 67",
     "dataConferencia": "2026-10-14"
@@ -769,9 +769,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, I a III",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, I a III",
     "dataConferencia": "2026-10-14"
@@ -794,9 +794,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60 / STF, ADI 825",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60 / STF, ADI 825",
     "dataConferencia": "2026-10-14"
@@ -819,9 +819,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 1º",
     "dataConferencia": "2026-10-14"
@@ -844,9 +844,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 2º",
     "dataConferencia": "2026-10-14"
@@ -869,9 +869,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 3º",
     "dataConferencia": "2026-10-14"
@@ -894,9 +894,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 4º",
     "dataConferencia": "2026-10-14"
@@ -919,9 +919,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 4º",
     "dataConferencia": "2026-10-14"
@@ -944,9 +944,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 5º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 60, § 5º",
     "dataConferencia": "2026-10-14"
@@ -969,9 +969,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, caput",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, caput",
     "dataConferencia": "2026-10-14"
@@ -994,9 +994,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º",
     "dataConferencia": "2026-10-14"
@@ -1019,9 +1019,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 1º, II",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º, II",
     "dataConferencia": "2026-10-14"
@@ -1044,9 +1044,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 8º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 8º",
     "dataConferencia": "2026-10-14"
@@ -1069,9 +1069,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, §§ 3º e 7º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, §§ 3º e 7º",
     "dataConferencia": "2026-10-14"
@@ -1094,9 +1094,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 6º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 6º",
     "dataConferencia": "2026-10-14"
@@ -1119,9 +1119,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 27.911",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 27.911",
     "dataConferencia": "2026-10-14"
@@ -1144,9 +1144,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 11",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 11",
     "dataConferencia": "2026-10-14"
@@ -1169,9 +1169,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 10",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 10",
     "dataConferencia": "2026-10-14"
@@ -1194,9 +1194,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 9º / STF, ADI 4.029",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 9º / STF, ADI 4.029",
     "dataConferencia": "2026-10-14"
@@ -1219,9 +1219,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 5.127",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 5.127",
     "dataConferencia": "2026-10-14"
@@ -1244,9 +1244,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 20.257 e MS 24.642",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 20.257 e MS 24.642",
     "dataConferencia": "2026-10-14"
@@ -1269,9 +1269,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 103",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 103",
     "dataConferencia": "2026-10-14"
@@ -1294,9 +1294,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 2.031 / CF/88, art. 60",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 2.031 / CF/88, art. 60",
     "dataConferencia": "2026-10-14"
@@ -1319,9 +1319,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 939 / CF/88, art. 60, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 939 / CF/88, art. 60, § 4º",
     "dataConferencia": "2026-10-14"
@@ -1344,9 +1344,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "CF/88, art. 62, § 1º, I, \"d\" c/c art. 167, § 3º",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "CF/88, art. 62, § 1º, I, \\",
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º, I, \"d\" c/c art. 167, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1369,9 +1369,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 7º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 62, § 7º",
     "dataConferencia": "2026-10-14"
@@ -1394,9 +1394,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 70",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 70",
     "dataConferencia": "2026-10-14"
@@ -1419,9 +1419,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 71, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 71, I",
     "dataConferencia": "2026-10-14"
@@ -1444,9 +1444,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 71 / STF",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 71 / STF",
     "dataConferencia": "2026-10-14"
@@ -1469,9 +1469,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 58, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1494,9 +1494,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 24.831 e MS 26.441",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 24.831 e MS 26.441",
     "dataConferencia": "2026-10-14"
@@ -1519,9 +1519,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 23.452 / CF/88, art. 58, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 23.452 / CF/88, art. 58, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1544,9 +1544,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, MS 23.452 e MS 23.639",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, MS 23.452 e MS 23.639",
     "dataConferencia": "2026-10-14"
@@ -1569,9 +1569,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, HC 71.039",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, HC 71.039",
     "dataConferencia": "2026-10-14"
@@ -1594,9 +1594,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 73",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 73",
     "dataConferencia": "2026-10-14"
@@ -1619,9 +1619,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 73, § 1º",
     "dataConferencia": "2026-10-14"
@@ -1644,9 +1644,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 73, § 2º",
     "dataConferencia": "2026-10-14"
@@ -1669,9 +1669,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 49, IX e art. 71, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 49, IX e art. 71, I",
     "dataConferencia": "2026-10-14"
@@ -1694,9 +1694,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 71, §§ 1º e 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 71, §§ 1º e 2º",
     "dataConferencia": "2026-10-14"
@@ -1719,9 +1719,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 70, parágrafo único",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 70, parágrafo único",
     "dataConferencia": "2026-10-14"
@@ -1744,9 +1744,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 74, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 74, § 1º",
     "dataConferencia": "2026-10-14"
@@ -1769,9 +1769,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 74, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 74, § 2º",
     "dataConferencia": "2026-10-14"
@@ -1794,9 +1794,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, Súmula 347",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, Súmula 347",
     "dataConferencia": "2026-10-14"
@@ -1819,9 +1819,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 71, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 71, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1844,9 +1844,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 73, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1869,9 +1869,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 3º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 58, § 3º",
     "dataConferencia": "2026-10-14"
@@ -1894,9 +1894,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971"
     },
     "fonte": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971",
     "dataConferencia": "2026-10-14"
@@ -1919,9 +1920,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "LexML Brasil: Projeto e Especificações Técnicas / XML Schema",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "LexML Brasil: Projeto e Especificações Técnicas / XML Schema",
     "dataConferencia": "2026-10-14"
@@ -1944,9 +1945,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Manual de Identificadores LexML Brasil",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Manual de Identificadores LexML Brasil",
     "dataConferencia": "2026-10-14"
@@ -1969,9 +1970,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Rede Virtual de Bibliotecas — RVBI / Acordo de Cooperação Técnica",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Rede Virtual de Bibliotecas — RVBI / Acordo de Cooperação Técnica",
     "dataConferencia": "2026-10-14"
@@ -1994,9 +1995,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Diretrizes Técnicas da RVBI",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Diretrizes Técnicas da RVBI",
     "dataConferencia": "2026-10-14"
@@ -2019,9 +2020,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo"
     },
     "fonte": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo",
     "dataConferencia": "2026-10-14"
@@ -2044,9 +2046,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados"
     },
     "fonte": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados",
     "dataConferencia": "2026-10-14"
@@ -2069,9 +2072,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI"
     },
     "fonte": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI",
     "dataConferencia": "2026-10-14"
@@ -2094,9 +2098,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara"
     },
     "fonte": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara",
     "dataConferencia": "2026-10-14"
@@ -2119,9 +2124,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 12.527/2011, art. 8º",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 12.527/2011, art. 8º"
     },
     "fonte": "Lei nº 12.527/2011, art. 8º",
     "dataConferencia": "2026-10-14"
@@ -2144,9 +2150,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Lei nº 12.527/2011, arts. 23 e 24",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Lei nº 12.527/2011, arts. 23 e 24"
     },
     "fonte": "Lei nº 12.527/2011, arts. 23 e 24",
     "dataConferencia": "2026-10-14"
@@ -2169,9 +2176,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Edições Câmara / Estrutura do CEDI",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Edições Câmara / Estrutura do CEDI"
     },
     "fonte": "Edições Câmara / Estrutura do CEDI",
     "dataConferencia": "2026-10-14"
@@ -2194,9 +2202,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Manual do Thesaurus do Congresso Nacional",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Manual do Thesaurus do Congresso Nacional",
     "dataConferencia": "2026-10-14"
@@ -2219,9 +2227,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Regulamento do CEDI / Biblioteconomia Legislativa",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Regulamento do CEDI / Biblioteconomia Legislativa",
     "dataConferencia": "2026-10-14"
@@ -2244,9 +2252,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Especificação do LexML Schema / LC 95/1998",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Especificação do LexML Schema / LC 95/1998"
     },
     "fonte": "Especificação do LexML Schema / LC 95/1998",
     "dataConferencia": "2026-10-14"
@@ -2269,9 +2278,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "LexML Brasil: Modelo Conceitual e Especificação de URNs",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "LexML Brasil: Modelo Conceitual e Especificação de URNs",
     "dataConferencia": "2026-10-14"
@@ -2294,9 +2303,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil"
     },
     "fonte": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil",
     "dataConferencia": "2026-10-14"
@@ -2319,9 +2329,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Portal da Câmara dos Deputados / Legislação Compilada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Portal da Câmara dos Deputados / Legislação Compilada"
     },
     "fonte": "Portal da Câmara dos Deputados / Legislação Compilada",
     "dataConferencia": "2026-10-14"
@@ -2344,9 +2355,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "CF/88, art. 37 / Lei 13.709/2018, art. 7º",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CF/88, art. 37 / Lei 13.709/2018, art. 7º"
     },
     "fonte": "CF/88, art. 37 / Lei 13.709/2018, art. 7º",
     "dataConferencia": "2026-10-14"
@@ -2369,9 +2381,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Regulamento da Biblioteca Pedro Aleixo",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Regulamento da Biblioteca Pedro Aleixo",
     "dataConferencia": "2026-10-14"
@@ -2394,9 +2406,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara"
     },
     "fonte": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara",
     "dataConferencia": "2026-10-14"
@@ -2419,9 +2432,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "AACR2, Regra 24.18 / MARC 21 Formato Bibliográfico",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "AACR2, Regra 24.18 / MARC 21 Formato Bibliográfico",
     "dataConferencia": "2026-10-14"
@@ -2444,9 +2457,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Diretrizes Técnicas da RVBI / Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Diretrizes Técnicas da RVBI / Câmara dos Deputados"
     },
     "fonte": "Diretrizes Técnicas da RVBI / Câmara dos Deputados",
     "dataConferencia": "2026-10-14"
@@ -2469,9 +2483,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Serviços de Referência da Biblioteca Pedro Aleixo / Cunha e Cavalcanti",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "Serviços de Referência da Biblioteca Pedro Aleixo / Cunha e Cavalcanti",
     "dataConferencia": "2026-10-14"
@@ -2494,9 +2508,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Estrutura Administrativa da Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Estrutura Administrativa da Câmara dos Deputados"
     },
     "fonte": "Estrutura Administrativa da Câmara dos Deputados",
     "dataConferencia": "2026-10-14"

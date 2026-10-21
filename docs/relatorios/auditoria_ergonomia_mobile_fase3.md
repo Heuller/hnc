@@ -1,6 +1,6 @@
 # Relatório de Auditoria Visual & Ergonomia Mobile (Fase 3)
 
-**Data**: 2026-10-21T16:45:00.549Z  
+**Data**: 2026-10-21T17:43:21.926Z  
 **Ambiente**: Headless Chromium via Puppeteer (CDP)  
 **Viewport**: 375 x 812 px (Mobile Standard)  
 **Origem**: Build de Produção Estático (`dist/`)

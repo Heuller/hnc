@@ -1,10 +1,35 @@
 import { z } from 'zod';
 
-export const FonteOriginalSchema = z.object({
-  tipo: z.enum(['cebraspe-real', 'inedita']),
-  descricao: z.string(),
-  verificado: z.boolean(),
-});
+export const TipoFonteOriginalSchema = z.enum([
+  'real-confirmada',
+  'adaptada',
+  'inedita',
+]);
+export type TipoFonteOriginal = z.infer<typeof TipoFonteOriginalSchema>;
+
+export const FonteOriginalSchema = z
+  .object({
+    tipo: TipoFonteOriginalSchema,
+    descricao: z.string(),
+    verificado: z.boolean().default(false),
+    provaId: z.string().optional(),
+    ano: z.number().optional(),
+    orgao: z.string().optional(),
+    banca: z.string().optional(),
+    questaoOriginalId: z.string().optional(),
+    declaracaoLegada: z.string().optional(),
+  })
+  .refine(
+    (data) => {
+      if (data.tipo === 'real-confirmada') {
+        return Boolean(data.provaId && data.ano);
+      }
+      return true;
+    },
+    {
+      message: "tipo 'real-confirmada' exige provaId e ano",
+    }
+  );
 
 export const NivelRPGSchema = z.union([
   z.literal(1), // Fixação
@@ -30,6 +55,7 @@ export const CebraspeQuestionSchema = z.object({
   submoduloId: z.string(), // ex: '1.1', '1.2'
   modulo: z.string().optional(), // alias canônico T8.1
   submodulo: z.string().optional(), // alias canônico T8.1
+  provaBloco: z.enum(['P1_BASICOS', 'P2_ESPECIFICOS']).optional(),
   editalRef: z.string().optional(),
   nivel: NivelRPGSchema.optional(),
   habilidade: HabilidadeCognitivaSchema.optional(),
@@ -86,4 +112,3 @@ export function validarRastreabilidadeItem(q: CebraspeQuestion): {
     camposFaltantes,
   };
 }
-

@@ -13,9 +13,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe já tentou afirmar que o princípio primordial era a conveniência da instituição depositária ou a padronização pura dos dados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -30,9 +31,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação precisa sobre o princípio do uso comum da IFLA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -47,9 +48,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão do conceito de fidedignidade: o catalogador não deve 'corrigir silenciosamente' o que está no recurso.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -64,9 +65,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item histórico literal e canônico frequentemente cobrado pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -81,9 +83,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção da própria definição de 'Catálogo Dicionário' (interfilação de autor, título e assunto em uma única ordem alfabética).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -98,9 +100,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva conceitual exata sobre a macroestrutura do código.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / Bibliotecário"
     }
   },
   {
@@ -115,9 +118,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Generalização indevida: livros comuns não possuem Área 3.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -132,9 +136,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão dos níveis: o nível 1 é o mais enxuto, e o nível 3 é o mais detalhado.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -149,9 +153,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva canônica irretocável sobre fontes de informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TRE / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TRE / Bibliotecário"
     }
   },
   {
@@ -166,9 +171,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A banca testa a atenção à pontuação com espaçamento prévio e posterior.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -183,9 +188,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva de ouro do AACR2r frequentemente cobrada em concursos de tribunais e legislativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Câmara dos Deputados"
     }
   },
   {
@@ -200,9 +206,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A maior casca de banana de catalogação do Cebraspe: afirmar que 4 autores entram pelo primeiro.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPU / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPU / Bibliotecário"
     }
   },
   {
@@ -217,9 +224,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe sempre tenta colocar organizadores na entrada principal. Organizador NUNCA recebe entrada principal no AACR2r!",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -234,9 +242,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra fundamental para concursos de assembleias e Congresso Nacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Senado Federal",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Senado Federal"
     }
   },
   {
@@ -251,9 +260,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão entre entrada direta e subordinada para tribunais públicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -268,9 +277,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição canônica precisa de título uniforme.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -285,9 +294,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito fundamental e claro de remissiva de exclusão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / UnB / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / UnB / Bibliotecário"
     }
   },
   {
@@ -302,9 +312,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Troca direta entre remissiva 'Ver' (não autorizado -> autorizado) e 'Ver também' (autorizado <-> autorizado).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -319,9 +330,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão cultural entre regras de sobrenome hispânico (entra pelo paterno/primeiro dos dois) e luso-brasileiro (entra pelo último).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MRE / Diplomacia",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MRE / Diplomacia"
     }
   },
   {
@@ -336,9 +348,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra clássica do AACR2r para língua portuguesa (prefixos ficam pospostos).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCE-PA",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCE-PA"
     }
   },
   {
@@ -353,9 +366,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Fórmula correta de catalogação de eventos com qualificadores canônicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -370,9 +383,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe tenta induzir que ministérios entram diretamente como se fossem entidades autônomas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / IPEA / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / IPEA / 2024"
     }
   },
   {
@@ -387,9 +401,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra clássica de transcrição com abreviatura normalizada no AACR2r (diferente da transcrição fidedigna do RDA).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -404,9 +418,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha de matemática/arredondamento: no AACR2r, qualquer milímetro fracionário arredonda SEMPRE para CIMA.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2023",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     }
   },
   {
@@ -421,9 +436,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Sintaxe exata de ISBD para material adicional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -438,9 +453,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito fundamental que resume a razão de ser histórica do padrão RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -455,9 +471,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva de ouro sobre a eliminação da DGM, cobrada em todos os concursos recentes do Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -472,9 +489,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição precisa do elemento Tipo de Conteúdo do RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -489,9 +506,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A banca inverte com frequência as definições de Tipo de Conteúdo (Content type) e Tipo de Mídia (Media type).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     }
   },
   {
@@ -506,9 +524,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição exata do elemento Tipo de Suporte.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -523,9 +541,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio fundamental da política de dados do RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -540,9 +559,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança clássica de concurso: o RDA acabou com [s.l.] e [s.n.]!",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCE-MG / 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
     }
   },
   {
@@ -557,9 +577,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de transferir uma restrição clássica do AACR2r para o RDA. O RDA aboliu o teto de 3 autores!",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -574,9 +595,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe induz o candidato a acreditar que o conceito de entrada principal continua central no RDA.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -591,9 +612,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item afirmativo direto sobre a rica semântica de papéis no RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -608,9 +629,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item institucional e informativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -625,9 +646,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva avançada sobre a história contemporânea do RDA Toolkit.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -642,9 +663,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmar que o RDA é incompatível com RDF ou que depende das 8 áreas da ISBD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -659,9 +680,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confundir dados com pontuação de apresentação.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -676,9 +697,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de apresentar o RDA como um código rígido e autoritário; o padrão se orienta por perfis de aplicação e flexibilidade institucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -693,9 +714,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão entre Obra (criação abstrata) e Manifestação/Item.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -710,9 +731,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão do princípio 'Take what you see': a grafia original do recurso não pode ser suprimida.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -727,9 +748,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva precisa sobre a relação entre agentes e entidades no RDA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -744,9 +765,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Característica moderna essencial do padrão RDA.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -761,9 +782,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restrição geográfica descabida: o RDA é global e já está no Congresso Nacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -778,9 +800,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Relação correta entre atributos e a entidade Manifestação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -795,9 +817,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Erro crasso de catalogação eletrônica: e-book não é 'volume', é recurso online com mídia de computador.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -812,9 +834,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva clara sobre atributos de pessoas físicas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -829,9 +851,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Proibição inexistente: o RDA apoia alfabetos originais (scripts nativos).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -846,9 +868,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Relação pragmática exata entre o modelo conceitual do RDA e a codificação do MARC 21.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -863,9 +886,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito clássico e basilar dos FRBR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCU / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCU / 2015"
     }
   },
   {
@@ -880,9 +904,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Substituição sutil de 'selecionar' e 'obter' por termos biblioteconômicos fictícios.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     }
   },
   {
@@ -897,9 +922,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição precisa do Grupo 1 dos FRBR (WEMI).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -914,9 +940,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição conceitual exata da entidade Obra.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -931,9 +957,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Clássica armadilha Cebraspe: afirmar que tradução, revisão ou arranjo musical geram nova Obra quando, na verdade, constituem novas Expressões da mesma Obra.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -948,9 +975,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito correto da entidade Manifestação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -965,9 +993,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição precisa da entidade Item nos FRBR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -982,9 +1010,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Casca de banana clássica: tradução é mudança de EXPRESSÃO, não de Item!",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -999,9 +1028,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confundir características e marcas exclusivas do Item com atributos da Manifestação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1016,9 +1045,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha de altíssimo calibre da banca: atribuir ao FRBR de 1998 a entidade 'Família', que só surgiu no FRAD em 2009.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TST / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TST / 2024"
     }
   },
   {
@@ -1033,9 +1063,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Quarteto de entidades temáticas do Grupo 3 dos FRBR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1050,9 +1080,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Novidades conceituais trazidas especificamente pelo FRAD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2023",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     }
   },
   {
@@ -1067,9 +1098,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação que nega a existência das entidades Thema e Nomen, núcleo central do FRSAD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1084,9 +1115,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restrição indevida: números de classificação também são Nomens no FRSAD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1101,9 +1132,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição histórica do propósito de criação do IFLA LRM.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -1118,9 +1150,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Termo técnico canônico supremo do IFLA LRM: a entidade Res.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -1135,9 +1168,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Invenção de tarefas espúrias para testar se o candidato conhece as 5 tarefas oficiais do LRM.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -1152,9 +1186,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato da nova tarefa Explorar do IFLA LRM.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1169,9 +1203,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de expandir a definição de Agente para além de seres humanos/entidades jurídicas no modelo IFLA LRM.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1186,9 +1220,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha de modernismo tecnológico: para o LRM, IA não é agente bibliográfico com personalidade jurídica.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1203,9 +1237,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação correta sobre as entidades espaciotemporais do LRM.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1220,9 +1254,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item técnico sobre a modelagem de agregados no IFLA LRM.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1237,9 +1271,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confundir modelo conceitual abstrato com formato de intercâmbio de dados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -1254,9 +1289,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão sutil dos predicados canônicos do modelo WEMI.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1271,9 +1306,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Troca do predicado relacional ('realiza' em vez de 'exemplifica') e absurdo lógico quanto ao exemplar físico pertencer a várias manifestações distintas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1288,9 +1323,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Composição física básica e indispensável do padrão MARC 21.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -1305,9 +1341,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe adora afirmar que o Líder tem tamanho variável. O Líder é RIGIDAMENTE FIXO em 24 bytes!",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -1322,9 +1359,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação de que o diretório é digitado manualmente pelo profissional bibliotecário.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / Bibliotecário"
     }
   },
   {
@@ -1339,9 +1377,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha recorrente: apenas os campos de dados variáveis (010 a 999) possuem indicadores e subcampos!",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / 2022"
     }
   },
   {
@@ -1356,9 +1395,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Estrutura e conteúdo clássico do campo 008 do MARC 21.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1373,9 +1412,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Correspondência correta entre tag e identificador.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2023",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2023"
     }
   },
   {
@@ -1390,9 +1430,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão clássica entre 020 (ISBN/Livros) e 022 (ISSN/Seriados).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Câmara dos Deputados"
     }
   },
   {
@@ -1407,9 +1448,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Mapeamento correto de tags de classificação bibliográfica decimal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Senado Federal",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Senado Federal"
     }
   },
   {
@@ -1424,9 +1466,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão entre campo 100 (Pessoa) e campo 110 (Entidade Coletiva).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TRE / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TRE / Bibliotecário"
     }
   },
   {
@@ -1441,9 +1484,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tag canônica de eventos científicos e parlamentares.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1458,9 +1501,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão tradicionalíssima da banca entre os subcampos $b (subtítulo) e $c (indicação de responsabilidade).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / Adaptada"
     }
   },
   {
@@ -1475,9 +1519,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função técnica crucial do 2º indicador do campo 245.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -1492,9 +1537,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificação correta do campo de edição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1509,9 +1554,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão dos subcampos: $a é o Lugar e $b é a Editora!",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -1526,9 +1572,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conhecimento avançado da evolução do MARC 21 em sintonia com o RDA.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1543,9 +1589,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão clássica de subcampos da colação: $a é paginação e $c são as dimensões.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCU / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCU / 2015"
     }
   },
   {
@@ -1560,9 +1607,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Mapeamento preciso do bloco 6XX do MARC 21.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -1577,9 +1625,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função correta do bloco 7XX.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1594,9 +1642,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuição esdrúxula para o famoso campo de link web 856 do MARC.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -1611,9 +1660,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Erro duplo de número e obrigatoriedade: são 15 elementos, todos opcionais e repetíveis.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     }
   },
   {
@@ -1628,9 +1678,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio basilar do Dublin Core para evitar confusão entre versões originais e derivadas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1645,9 +1695,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação falsa de que o DC Qualificado extingue a compatibilidade com o DC Simples, ignorando o princípio do Dumb-Down.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1662,9 +1712,10 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação falsa de obsolescência: o Dublin Core é o esteio do OAI-PMH e do DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     }
   },
   {
@@ -1679,9 +1730,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de restringir o Creator a pessoas físicas. Entidades e órgãos também são Creators no Dublin Core!",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1696,9 +1747,9 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição canônica completa do elemento Rights do Dublin Core.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     }
   }
 ];

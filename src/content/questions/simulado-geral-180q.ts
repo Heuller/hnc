@@ -13,9 +13,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -38,9 +38,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -63,9 +63,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -88,9 +88,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -113,9 +113,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -138,9 +138,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -163,9 +163,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -188,9 +188,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -213,9 +213,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -238,9 +238,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -263,9 +263,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -288,9 +288,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -313,9 +313,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -338,9 +338,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -363,9 +363,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M13",
     "submodulo": "13.1",
@@ -388,9 +388,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Propósito comunicativo global do autor.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -413,9 +413,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Localização factual direta via scanning.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -438,9 +438,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Compreensão de conceito técnico-institucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -463,9 +463,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Scanning factual de dados abertos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -488,9 +488,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Compreensão de causa identificada no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -513,9 +513,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Generalização indevida contrária ao texto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -538,9 +538,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Restrição indevida não mencionada no texto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -563,9 +563,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Distorcer a tese do parágrafo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -588,9 +588,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Opor-se à advertência textual do autor.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -613,9 +613,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desrespeito à ressalva de privacidade do texto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M12 (Língua Inglesa)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M12",
     "submodulo": "12.1",
@@ -638,9 +638,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta explorando a distinção entre princípios expressos (LIMPE) e implícitos (supremacia, indisponibilidade, razoabilidade, proporcionalidade, autotutela).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista Legislativo - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista Legislativo - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -663,9 +664,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença canônica entre descentralização por outorga e por delegação.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista Judiciário - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista Judiciário - Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -688,9 +690,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ausência de hierarquia entre a Administração Direta e as entidades da Administração Indireta (há apenas vinculação e tutela).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe - Analista Administrativo",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe - Analista Administrativo"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -713,9 +716,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato da autotutela consagrado nas Súmulas 346 e 473 do STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -738,9 +742,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção técnica precisa entre motivo (elemento intrínseco) e motivação (formalização escrita).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Analista - Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -763,9 +768,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificação de que a presunção de legitimidade é o único atributo universal presente em absolutamente todos os atos administrativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANM / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANM / Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -788,9 +794,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra canônica da convalidação sanável (Forma e Competência relativa).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Analista - Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -813,9 +820,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o princípio da legalidade privada (art. 5º, II da CF) com a legalidade administrativa estrita (art. 37, caput da CF).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -838,9 +846,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar desconcentração (órgãos, mesma PJ) por descentralização (entidades, nova PJ).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -863,9 +872,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter as regras de capital e de forma jurídica entre Empresas Públicas e Sociedades de Economia Mista.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SEFAZ-PR / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "SEFAZ-PR / Cebraspe - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -888,9 +898,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Restringir a Súmula Vinculante 13 a certos Poderes, excluindo o Legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / Cebraspe - Adaptada",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / Cebraspe - Adaptada"
     },
     "modulo": "M11",
     "submodulo": "11.1",
@@ -913,9 +924,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Incompatibilidade da alteração a posteriori de motivos com a Teoria dos Motivos Determinantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCE-MG / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TCE-MG / Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -938,9 +950,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar efeitos de anulação (ex tunc) com efeitos de revogação (ex nunc).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IBAMA / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "IBAMA / Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -963,9 +976,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Tentar convalidar vícios materiais insanáveis de finalidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "PC-DF / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "PC-DF / Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -988,9 +1002,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desfigurar a natureza do parecer vinculante.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ / Cebraspe",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ / Cebraspe"
     },
     "modulo": "M11",
     "submodulo": "11.2",
@@ -1013,9 +1028,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1038,9 +1053,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1063,9 +1078,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1088,9 +1103,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1113,9 +1128,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1138,9 +1153,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1163,9 +1178,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de media: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1188,9 +1203,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1213,9 +1228,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1238,9 +1253,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M14",
     "submodulo": "14.1",
@@ -1263,9 +1278,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item afirmativo direto e historicamente exato cobrado na PC-DF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1288,9 +1304,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva histórica irretocável sobre a obra de Otlet.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / ABIN / 2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1313,9 +1330,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item correto que explora o papel seminal de Vannevar Bush.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / 2018"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1338,9 +1356,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação conceitual sólida e sem armadilhas textuais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPE-TO / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPE-TO / 2024"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1363,9 +1382,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item afirmativo direto e verdadeiro.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SEE-PE / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1388,9 +1408,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item histórico preciso e irretocável.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / ABIN / 2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1413,9 +1434,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item analítico verdadeiro e consistente.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / FUB / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / FUB / 2022"
     },
     "modulo": "M1",
     "submodulo": "1.1",
@@ -1438,9 +1460,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Troca canônica de termos. O Cebraspe substitui 'Ciência da Informação' por 'Biblioteconomia'.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / CAPES / 2012 (Adaptada)",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-2711384"
     },
     "versao_correta": "Denomina-se Ciência da Informação a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso.",
     "modulo": "M1",
@@ -1464,9 +1491,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão conceitual simétrica entre as duas vertentes propostas por Le Coadic.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / UNEAL / 2026",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / UNEAL / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AAD (UNEAL)/UNEAL/Biblioteconomia/2026",
+      "ano": 2026,
+      "orgao": "UNEAL",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-4145121"
     },
     "versao_correta": "Segundo Yves-François Le Coadic, a biblioteconomia dos livros abrange o conjunto das questões vinculadas à organização administrativa, técnica, material e financeira das bibliotecas, ao passo que a biblioteconomia dos leitores estuda o uso e a mediação.",
     "modulo": "M1",
@@ -1490,9 +1522,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Generalização restritiva clássica da banca ('estrita autonomia unidisciplinar').",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A ciência da informação caracteriza-se por sua marcante natureza interdisciplinar, estabelecendo diálogos teóricos e metodológicos contínuos com a linguística, a ciência da computação e a comunicação.",
     "modulo": "M1",
@@ -1516,9 +1548,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão dos efeitos históricos da prensa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "versao_correta": "A invenção da imprensa de tipos móveis no século XV revolucionou a velocidade e a capacidade de difusão social dos textos, mantendo a representação temática como processo essencialmente manual.",
     "modulo": "M1",
@@ -1542,9 +1575,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Apresenta o conceito oposto ao preconizado pelo autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SUFRAMA / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     },
     "versao_correta": "O princípio monográfico defendido por Paul Otlet propunha o desmembramento analítico do conteúdo em fichas padronizadas e destacáveis, permitindo a recombinação temática independente do suporte encadernado.",
     "modulo": "M1",
@@ -1568,9 +1602,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Falácia da desnecessidade tecnológica gerada pela internet.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SEE-PE / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
     },
     "versao_correta": "O advento da Internet e dos catálogos em linha não eliminou a necessidade da Bibliografia Nacional, que permanece essencial para o controle bibliográfico e a preservação da memória editorial de um país.",
     "modulo": "M1",
@@ -1594,9 +1629,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reducionismo tecnológico radical do Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A ciência da informação abrange dimensões físicas, cognitivas e sociais, integrando o estudo das tecnologias com os processos humanos, culturais e políticos de apropriação da informação.",
     "modulo": "M1",
@@ -1620,9 +1655,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe já tentou afirmar que o princípio primordial era a conveniência da instituição depositária ou a padronização pura dos dados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Bibliotecário / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1645,9 +1681,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação precisa sobre o princípio do uso comum da IFLA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1670,9 +1706,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item histórico literal e canônico frequentemente cobrado pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1695,9 +1732,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva conceitual exata sobre a macroestrutura do código.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / Bibliotecário"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1720,9 +1758,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva canônica irretocável sobre fontes de informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TRE / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TRE / Bibliotecário"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1745,9 +1784,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A banca testa a atenção à pontuação com espaçamento prévio e posterior.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1770,9 +1809,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão do conceito de fidedignidade: o catalogador não deve 'corrigir silenciosamente' o que está no recurso.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1795,9 +1834,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção da própria definição de 'Catálogo Dicionário' (interfilação de autor, título e assunto em uma única ordem alfabética).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1820,9 +1859,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Generalização indevida: livros comuns não possuem Área 3.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1845,9 +1885,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão dos níveis: o nível 1 é o mais enxuto, e o nível 3 é o mais detalhado.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1870,9 +1910,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A maior casca de banana de catalogação do Cebraspe: afirmar que 4 autores entram pelo primeiro.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPU / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPU / Bibliotecário"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1895,9 +1936,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "O Cebraspe sempre tenta colocar organizadores na entrada principal. Organizador NUNCA recebe entrada principal no AACR2r!",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / Bibliotecário",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / Bibliotecário"
     },
     "modulo": "M2",
     "submodulo": "2.1",
@@ -1922,9 +1964,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-1 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-1 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-1 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-77",
@@ -1947,9 +1990,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-1 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-1 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-1 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-78",
@@ -1972,9 +2016,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-1 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-1 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-1 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-79",
@@ -1995,9 +2040,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Propriedade universal de aplicação da Tabela 1 da CDD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2020,9 +2065,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva conceitual correta sobre a notação pura da CDD.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2045,9 +2090,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "DPU/2016",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "DPU/2016"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2070,9 +2116,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANATEL/2009",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANATEL/2009"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2095,9 +2142,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Mapeamento correto das Ciências Sociais na classe 300 da CDD.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2120,9 +2167,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRE-BA/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRE-BA/2010"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2145,9 +2193,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRE-BA/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRE-BA/2010"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2170,9 +2219,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuição do modelo facetado puro de Ranganathan à CDD de Dewey.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2195,9 +2244,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor que a Tabela 2 pode ser adicionada livremente a qualquer classe sem instrução na tabela principal.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2220,9 +2269,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CNJ/2013"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2245,9 +2295,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "DPU/2016",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "DPU/2016"
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2270,9 +2321,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Deslocamento indevido de ramificações do Direito para a classe de Filosofia.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M3",
     "submodulo": "3.1",
@@ -2297,9 +2348,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-1 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-1 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-1 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-92",
@@ -2322,9 +2374,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-1 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-1 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-1 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-93",
@@ -2345,9 +2398,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANTT/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "ANTT",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-206252"
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2370,9 +2428,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Competência informacional e mediação pedagógica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2395,9 +2453,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prática canônica de serviço de alerta.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2420,9 +2478,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição fidedigna dos níveis de Taylor.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2445,9 +2503,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Fundamentação teórica de mediação da informação.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2470,9 +2528,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar que o DSI é um serviço passivo/reativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2495,9 +2553,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter a técnica de perguntas abertas no início e fechadas no refinamento.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2520,9 +2578,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter a curva de incerteza/ansiedade no modelo de Kuhlthau.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2545,9 +2603,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o nível Q3 (formalizado em linguagem natural) com Q4 (comprometido/adaptado ao sistema).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2570,9 +2628,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "DPU/2016",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "DPU/2016"
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2595,9 +2654,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Supor que o bibliotecário pode emitir posicionamento político partidário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M4",
     "submodulo": "4.1",
@@ -2622,9 +2681,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-2 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-2 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-2 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-105",
@@ -2647,9 +2707,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-2 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-2 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-2 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-106",
@@ -2672,9 +2733,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-2 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-2 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-2 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-107",
@@ -2695,9 +2757,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SERPRO/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-436553"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2720,9 +2787,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANTT/2013",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "ANTT",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-206236"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2745,9 +2817,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função da comissão de seleção.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2770,9 +2842,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Modalidade de permuta em bibliotecas públicas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2795,9 +2867,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANATEL/2009",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANATEL/2009"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2820,9 +2893,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ECT/2012",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ECT/2012"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2845,9 +2919,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar formalização escrita da política de coleções.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2870,9 +2944,13 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJ-RR/2012",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-181040",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2895,9 +2973,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRT21/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRT21/2010"
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2920,9 +2999,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter a ordem entre seleção e aquisição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M5",
     "submodulo": "5.1",
@@ -2947,9 +3026,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-4 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-4 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-4 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-118",
@@ -2972,9 +3052,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-4 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-4 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-4 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-119",
@@ -2997,9 +3078,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-4 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-4 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-4 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-120",
@@ -3020,9 +3102,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Evolução técnica do DSpace 7.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3045,9 +3127,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "FUB/2013"
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3070,9 +3153,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ANATEL/2009",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ANATEL/2009"
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3095,9 +3179,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJ-RR/2012",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-181022"
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3120,9 +3209,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Workflow de submissão no DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3145,9 +3234,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar repositórios institucionais como depósitos piratas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3170,9 +3259,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar que o DSpace cobra licença anual proprietária.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3195,9 +3284,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que o Koha rejeita código de barras e RFID.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3220,9 +3309,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar autoarquivamento como invasão cibernética.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M6",
     "submodulo": "6.1",
@@ -3247,9 +3336,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-5 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-5 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-5 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-130",
@@ -3272,9 +3362,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-5 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-5 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-5 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-131",
@@ -3297,9 +3388,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-5 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-5 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-5 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-132",
@@ -3320,9 +3412,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tratamento por anóxia na conservação de acervos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3345,9 +3437,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Corrosão por tinta ferrogálica em manuscritos.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3370,9 +3462,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Uso de luvas e boas práticas de manuseio.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3395,9 +3487,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Permitir iluminância destrutiva de 5.000 lux em obras raras.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3420,9 +3512,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmação biológica estapafúrdia sobre traças.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3445,9 +3537,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Considerar poeira como barreira protetora benéfica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3470,9 +3562,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Recomendar passar saliva nos dedos para folhear documentos raros.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M7)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M7",
     "submodulo": "7.1",
@@ -3497,9 +3589,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-3 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-3 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-3 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-140",
@@ -3522,9 +3615,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-3 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-3 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-3 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-141",
@@ -3547,9 +3641,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Caso Integrador CI-3 — Câmara dos Deputados",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Caso Integrador CI-3 — Câmara dos Deputados"
     },
     "fonte": "Caso Integrador CI-3 — Câmara dos Deputados (Fase 8)",
     "id": "geral-180q-142",
@@ -3570,9 +3665,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Requisitos da citação indireta.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3595,9 +3690,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "FUB/2013"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3620,9 +3716,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Citações múltiplas de diferentes autores entre parênteses.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3645,9 +3741,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRT21/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRT21/2010"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3670,9 +3767,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CAPES/2012",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-2711394"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3695,9 +3797,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "ABIN/2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "ABIN/2017"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3720,9 +3823,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CAPES/2012",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-2711393"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3745,9 +3853,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "MPU/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "MPU/2010"
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3770,9 +3879,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Exigir caixa alta da norma de 2002 já revogada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3795,9 +3904,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar apud como regra geral preferencial.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M8",
     "submodulo": "8.1",
@@ -3820,9 +3929,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRT21/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRT21/2010"
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3845,9 +3955,10 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2018"
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3870,9 +3981,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função da base Sherpa Romeo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3895,9 +4006,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição oficial de Acesso Aberto da BOAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3920,9 +4031,14 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "FUB/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio Doc (FUB)/FUB/2015",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-289219"
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3945,9 +4061,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o DOAJ com diretório de revistas predatórias.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3970,9 +4086,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar o modelo Via Diamante/Platinum.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -3995,9 +4111,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter os objetivos do Plano S (cOAlition S).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -4020,9 +4136,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir licenças Creative Commons no Acesso Aberto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -4045,9 +4161,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Via Verde (autoarquivamento em repositórios) com Via Dourada com APC.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
-      "verificado": true
+      "verificado": false
     },
     "modulo": "M9",
     "submodulo": "9.1",
@@ -4076,9 +4192,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 59",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 59",
     "dataConferencia": "2026-10-14"
@@ -4101,9 +4217,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, arts. 47 e 69",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, arts. 47 e 69",
     "dataConferencia": "2026-10-14"
@@ -4126,9 +4242,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
     "dataConferencia": "2026-10-14"
@@ -4151,9 +4267,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 1º",
     "dataConferencia": "2026-10-14"
@@ -4176,9 +4292,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 2º",
     "dataConferencia": "2026-10-14"
@@ -4201,9 +4317,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "STF, ADI 1.434 / CF/88, art. 69",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "STF, ADI 1.434 / CF/88, art. 69",
     "dataConferencia": "2026-10-14"
@@ -4226,9 +4342,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
     "dataConferencia": "2026-10-14"
@@ -4251,9 +4367,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 63, I",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 63, I",
     "dataConferencia": "2026-10-14"
@@ -4276,9 +4392,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º",
     "dataConferencia": "2026-10-14"
@@ -4301,9 +4417,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 14",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 14",
     "dataConferencia": "2026-10-14"
@@ -4326,9 +4442,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 8º / CF/88, art. 58, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 8º / CF/88, art. 58, § 1º",
     "dataConferencia": "2026-10-14"
@@ -4351,9 +4467,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 18",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 18",
     "dataConferencia": "2026-10-14"
@@ -4376,9 +4492,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 19",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 19",
     "dataConferencia": "2026-10-14"
@@ -4401,9 +4517,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 5º / CF/88, art. 57, § 4º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 5º / CF/88, art. 57, § 4º",
     "dataConferencia": "2026-10-14"
@@ -4426,9 +4542,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 17, § 1º",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 17, § 1º",
     "dataConferencia": "2026-10-14"
@@ -4451,9 +4567,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 21",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 21",
     "dataConferencia": "2026-10-14"
@@ -4476,9 +4592,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 17, II c/c art. 20-A",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 17, II c/c art. 20-A",
     "dataConferencia": "2026-10-14"
@@ -4501,9 +4617,9 @@ export const simuladoGeral180Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "RICD, art. 12",
-      "verificado": true
+      "verificado": false
     },
     "fonte": "RICD, art. 12",
     "dataConferencia": "2026-10-14"
