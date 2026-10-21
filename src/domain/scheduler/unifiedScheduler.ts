@@ -6,6 +6,7 @@ import {
 } from '../../config/reviewConfig';
 import type { Concept, ConceptState, ConfidenceLevel, DominioEstado, ConceptReviewLogEntry } from '../concepts/types';
 import { conceptRepository } from '../concepts/conceptRepository';
+import { DATA_LIMITE_REVISAO } from '../leitner';
 
 /**
  * Verifica se uma data ISO (YYYY-MM-DD) é dia útil (Segunda a Sexta).
@@ -66,7 +67,10 @@ export function criarEstadoInicialConceito(
   dataAtualIso: string
 ): ConceptState {
   const dataBase = ajustarParaDiaUtil(dataAtualIso);
-  const proximaRevisao = somarDiasUteis(dataBase, REVIEW_CONFIG.intervalsDaysByBox[1]);
+  let proximaRevisao = somarDiasUteis(dataBase, REVIEW_CONFIG.intervalsDaysByBox[1]);
+  if (proximaRevisao > DATA_LIMITE_REVISAO) {
+    proximaRevisao = DATA_LIMITE_REVISAO;
+  }
 
   return {
     conceptId,
@@ -176,17 +180,20 @@ export function processarRevisaoConceito(
       diasIntervalo = REVIEW_CONFIG.dynamicIntervalRules.diasAtivacaoConteudoNovo; // 2 dias úteis
       mensagem += ' (Revisão extra de ativação agendada para 2 dias úteis: conteúdo novo de alta densidade técnica).';
     } else {
-      // Regra T7.1: Aceleração (Pashler): se acertou com certeza em 2 revisões seguidas, dobra o intervalo
+      // Regra T7.1: Aceleração por desempenho sustentado (Pashler): se acertou com certeza em 2 revisões seguidas, dobra o intervalo
       const ultimosLogs = estadoAtual.historico || [];
       const logAnteriorAcertou = ultimosLogs.length > 0 && ultimosLogs[0].acertou;
       if (logAnteriorAcertou && acertou) {
         diasIntervalo = Math.round(diasIntervalo * REVIEW_CONFIG.dynamicIntervalRules.fatorMultiplicadorAceleracao);
-        mensagem += ' [Aceleração Pashler: Desempenho sustentado dobrou o intervalo de retenção].';
+        mensagem += ' [Aceleração Pashler (por desempenho sustentado): Desempenho sustentado dobrou o intervalo de retenção].';
       }
     }
   }
 
-  const proximaRevisao = somarDiasUteis(dataRef, diasIntervalo);
+  let proximaRevisao = somarDiasUteis(dataRef, diasIntervalo);
+  if (proximaRevisao > DATA_LIMITE_REVISAO) {
+    proximaRevisao = DATA_LIMITE_REVISAO;
+  }
 
   const logEntry: ConceptReviewLogEntry = {
     id: `log_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
