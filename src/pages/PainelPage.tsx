@@ -31,6 +31,7 @@ import { CupulaCongressoIllustration } from '../components/common/Illustrations'
 import { JORNADA_CONFIG } from '../config/jornada.config';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 import { METRICAS_ACERVO } from '../domain/metrics/acervoMetricas';
+import { CardHojeCronograma } from '../components/cronograma/CardHojeCronograma';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -133,6 +134,11 @@ export const PainelPage: React.FC = () => {
         <div className="hidden md:block w-36 shrink-0 text-accent opacity-85 hover:opacity-100 transition-opacity">
           <CupulaCongressoIllustration className="w-full h-auto" />
         </div>
+      </section>
+
+      {/* SEÇÃO DO CRONOGRAMA OFICIAL "HOJE" (Regra C6) */}
+      <section aria-labelledby="cronograma-hoje-title">
+        <CardHojeCronograma />
       </section>
 
       {/* BLOCO HERÓI: HOJE E CONTINUAR DE ONDE PAROU (U6.5) */}
