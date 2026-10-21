@@ -30,7 +30,8 @@ export const ItemCadernoErroSchedulerSchema = z.object({
   pesoRevisao: z.number().positive().default(1.0),
 });
 
-export type ItemCadernoErroScheduler = z.infer<typeof ItemCadernoErroSchedulerSchema>;
+export type ItemCadernoErroSchedulerOutput = z.infer<typeof ItemCadernoErroSchedulerSchema>;
+export type ItemCadernoErroScheduler = z.input<typeof ItemCadernoErroSchedulerSchema>;
 
 export interface ProcessarRevisaoCadernoErroParams {
   acertou: boolean;
