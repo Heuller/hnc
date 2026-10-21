@@ -302,17 +302,17 @@ export const TeoriaPage: React.FC = () => {
         {/* Coluna Central de Leitura com largura configurável */}
         <main className={`flex-1 min-w-0 ${columnWidthClass} mx-auto space-y-6 sm:space-y-8`}>
           {/* Regra B6: No desktop mantenha só a sidebar; no mobile, um único seletor limpo sem redundâncias */}
-          <div className="block lg:hidden space-y-1.5 mb-2.5">
+          <div className="block lg:hidden space-y-2 mb-6 sm:mb-8 p-3.5 rounded-2xl bg-surface-2/60 border border-border/80 shadow-2xs">
             <label
               htmlFor="mobile-submodule-selector"
-              className="text-xs font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between"
+              className="text-xs font-mono text-ink-2 font-semibold uppercase tracking-wider flex items-center justify-between px-0.5"
             >
               <span className="flex items-center gap-1.5">
-                <BookOpen className="w-3.5 h-3.5 text-accent" />
-                Submódulo Ativo
+                <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
+                Alternar Submódulo
               </span>
-              <span className="text-xs text-accent font-sans font-semibold">
-                {currentMacro.codigo} • {currentSub.numero}
+              <span className="text-xs text-ink-2 font-mono">
+                {currentMacro.codigo} · {currentMacro.modulosFilhos.length} tópicos
               </span>
             </label>
             <div className="relative">
@@ -323,7 +323,7 @@ export const TeoriaPage: React.FC = () => {
                   setSelectedSubmodule(e.target.value);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="w-full py-2 pl-3 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 appearance-none cursor-pointer shadow-editorial-xs"
+                className="w-full py-2.5 pl-3.5 pr-9 rounded-xl bg-surface border border-border text-ink text-xs font-sans font-medium foco focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 appearance-none cursor-pointer shadow-editorial-xs"
               >
                 {ALL_COURSE_MODULES.map((macro) => (
                   <optgroup
@@ -346,8 +346,8 @@ export const TeoriaPage: React.FC = () => {
           </div>
 
           {/* Cabeçalho do Submódulo */}
-          <header className="border-b border-border pb-4 sm:pb-6">
-            <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+          <header className="border-b border-border pb-5 sm:pb-7 mb-6 sm:mb-8 space-y-4">
+            <div className="flex flex-wrap items-center justify-between gap-2.5">
               <div className="flex items-center gap-2">
                 <ModuleBadge moduleId={currentMacro.id} size="sm" />
                 <span className="font-mono text-xs text-ink font-semibold uppercase tracking-wider">
@@ -387,12 +387,12 @@ export const TeoriaPage: React.FC = () => {
 
             {/* Faixa fina plana (4px, sem gradiente) do cabeçalho da Teoria (Parte C) */}
             <div
-              className="h-1 w-16 sm:w-20 rounded-full mb-2.5 sm:mb-3"
+              className="h-1 w-16 sm:w-20 rounded-full"
               style={{ backgroundColor: moduleTheme.solidVar }}
             />
 
-            <div className="flex items-start justify-between gap-4 mb-2.5 sm:mb-3">
-              <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-normal flex-1 leading-tight">
+            <div className="flex items-start justify-between gap-4">
+              <h1 className="text-xl sm:text-3xl md:text-4xl font-serif font-bold text-ink tracking-normal flex-1 leading-snug">
                 {currentSub.titulo}
               </h1>
               <div className="hidden lg:block shrink-0 opacity-80 hover:opacity-100 transition-opacity" title="Biblioteca da Câmara dos Deputados · Acervo Canônico">
@@ -401,7 +401,7 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             {/* Chip Unificado Soberano de Status (D13) */}
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
+            <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/50">
               {learningState.status === 'concluida' || (learningState.status as string) === 'concluido' ? (
                 <div className="py-1.5 px-3 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 bg-ok-soft border border-ok text-ok shadow-2xs">
                   <CheckCircle2 className="w-4 h-4 shrink-0" />
