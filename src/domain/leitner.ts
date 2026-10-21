@@ -24,6 +24,49 @@ export const LEITNER_INTERVALOS_DIAS: Record<LeitnerBox, number> = {
   5: 30,
 };
 
+export const LEITNER_INTERVALOS_DIAS_P20: Record<LeitnerBox, number> = {
+  1: 1,
+  2: 3,
+  3: 7,
+  4: 14,
+  5: 21,
+};
+
+export const EXAM_DATE_CAMARA = '2027-01-17';
+export const DATA_LIMITE_REVISAO = '2027-01-15'; // EXAM_DATE - 2 dias
+
+export type FaseEstudo = 'fase1_cobertura' | 'fase2_intercalacao' | 'fase3_consolidacao';
+
+export interface EtapaFilaErro {
+  itemId: string;
+  submoduloId: string;
+  etapa: 1 | 2 | 3;
+  diasOffset: number;
+  dataAgendada: string;
+  concluida: boolean;
+}
+
+export interface LeitnerItemP20 {
+  id: string;
+  submoduloId: string;
+  caixa: LeitnerBox;
+  ultimaRevisao: string;
+  proximaRevisao: string;
+  historicoAcertos: number;
+  historicoErros: number;
+  vezesExposto?: number;
+  taxaAcerto?: number;
+  ultimaConfianca?: 'certeza' | 'provavel' | 'duvida' | 'chute';
+  filaErros?: EtapaFilaErro[];
+}
+
+export interface ResultadoProcessamentoP20 {
+  item: LeitnerItemP20;
+  entrouFilaErros: boolean;
+  etapasFilaErro?: EtapaFilaErro[];
+  intervaloDias: number;
+}
+
 /**
  * Adiciona um número de dias a uma data no formato YYYY-MM-DD (UTC para evitar drift de fuso horário)
  */
@@ -35,7 +78,7 @@ export function somarDiasDataIso(dataIso: string, dias: number): string {
 }
 
 /**
- * Calcula a diferença em dias entre duas datas no formato YYYY-MM-DD
+ * Calcula a diferença em dias entre duas datas no formato YYYY-MM-DD (dataFim - dataInicio)
  */
 export function calcularDiferencaDias(dataInicioIso: string, dataFimIso: string): number {
   const [a1, m1, d1] = dataInicioIso.split('-').map(Number);
@@ -47,7 +90,260 @@ export function calcularDiferencaDias(dataInicioIso: string, dataFimIso: string)
 }
 
 /**
- * Cria ou inicializa um novo item no baralho Leitner
+ * P20: Encurta o intervalo caso a próxima revisão calculada ultrapasse o teto da prova (EXAM_DATE - 2 dias).
+ * Se a data atual já for a data limite ou posterior, não agenda mais revisões (retorna 0).
+ */
+export function calcularIntervaloComTetoProva(
+  dataAtualIso: string,
+  intervaloCalculado: number,
+  dataProvaIso: string = EXAM_DATE_CAMARA
+): number {
+  const dataLimiteIso = somarDiasDataIso(dataProvaIso, -2);
+  const diffDias = calcularDiferencaDias(dataAtualIso, dataLimiteIso);
+  if (diffDias <= 0) return 0;
+  return Math.max(0, Math.min(intervaloCalculado, diffDias));
+}
+
+/**
+ * P20: Soma dias corridos pulando apenas os dias de folga explicitamente configurados pelo estudante.
+ * Exemplo: se diasDeFolga = [0] (apenas Domingo), sábados contam e domingos são pulados.
+ */
+export function calcularProximaDataRevisaoCorridos(
+  dataAtualIso: string,
+  dias: number,
+  diasDeFolga: number[] = []
+): string {
+  if (dias <= 0) return dataAtualIso;
+  const [ano, mes, dia] = dataAtualIso.split('-').map(Number);
+  const data = new Date(Date.UTC(ano, mes - 1, dia, 12, 0, 0));
+  let adicionados = 0;
+  while (adicionados < dias) {
+    data.setUTCDate(data.getUTCDate() + 1);
+    const diaSemana = data.getUTCDay(); // 0 = Domingo, 1 = Segunda, ..., 6 = Sábado
+    if (!diasDeFolga.includes(diaSemana)) {
+      adicionados++;
+    }
+  }
+  return data.toISOString().split('T')[0];
+}
+
+/**
+ * P20: Gera a Fila de Erros com as 3 etapas de reexposição em +1, +3 e +7 dias corridos.
+ */
+export function gerarEtapasFilaErro(
+  itemId: string,
+  submoduloId: string,
+  dataErroIso: string,
+  diasDeFolga: number[] = []
+): EtapaFilaErro[] {
+  return [
+    {
+      itemId,
+      submoduloId,
+      etapa: 1,
+      diasOffset: 1,
+      dataAgendada: calcularProximaDataRevisaoCorridos(dataErroIso, 1, diasDeFolga),
+      concluida: false,
+    },
+    {
+      itemId,
+      submoduloId,
+      etapa: 2,
+      diasOffset: 3,
+      dataAgendada: calcularProximaDataRevisaoCorridos(dataErroIso, 3, diasDeFolga),
+      concluida: false,
+    },
+    {
+      itemId,
+      submoduloId,
+      etapa: 3,
+      diasOffset: 7,
+      dataAgendada: calcularProximaDataRevisaoCorridos(dataErroIso, 7, diasDeFolga),
+      concluida: false,
+    },
+  ];
+}
+
+/**
+ * P20: Processamento Leitner atualizado com:
+ * - Regressão de apenas 1 caixa em vez de rebaixamento cego total para Caixa 1.
+ * - Inserção imediata na Fila de Erros (+1, +3, +7 dias).
+ * - Intervalos de caixas calibrados com teto de 21 dias.
+ * - Teto absoluto de agendamento em EXAM_DATE - 2 dias (15/01/2027).
+ */
+export function processarRespostaLeitnerP20(
+  item: LeitnerItemP20,
+  acertou: boolean,
+  dataAtualIso: string,
+  confianca: 'certeza' | 'provavel' | 'duvida' | 'chute' = 'certeza',
+  dataProvaIso: string = EXAM_DATE_CAMARA,
+  diasDeFolga: number[] = []
+): ResultadoProcessamentoP20 {
+  const isVencido = dataAtualIso >= item.proximaRevisao;
+  const vezesExposto = (item.vezesExposto || 0) + 1;
+
+  if (!acertou) {
+    const novaCaixa = Math.max(1, item.caixa - 1) as LeitnerBox;
+    const etapas = gerarEtapasFilaErro(item.id, item.submoduloId, dataAtualIso, diasDeFolga);
+    const novoItem: LeitnerItemP20 = {
+      ...item,
+      caixa: novaCaixa,
+      ultimaRevisao: dataAtualIso,
+      proximaRevisao: etapas[0].dataAgendada,
+      historicoErros: item.historicoErros + 1,
+      vezesExposto,
+      ultimaConfianca: confianca,
+      filaErros: etapas,
+    };
+    return {
+      item: novoItem,
+      entrouFilaErros: true,
+      etapasFilaErro: etapas,
+      intervaloDias: 1,
+    };
+  }
+
+  // Acertou
+  let novaCaixa = item.caixa;
+  if (isVencido) {
+    novaCaixa = Math.min(5, item.caixa + 1) as LeitnerBox;
+  }
+
+  const intervaloBruto = LEITNER_INTERVALOS_DIAS_P20[novaCaixa];
+  const intervaloAjustado = calcularIntervaloComTetoProva(dataAtualIso, intervaloBruto, dataProvaIso);
+  const proximaRevisao = calcularProximaDataRevisaoCorridos(dataAtualIso, intervaloAjustado, diasDeFolga);
+
+  const novoItem: LeitnerItemP20 = {
+    ...item,
+    caixa: novaCaixa,
+    ultimaRevisao: dataAtualIso,
+    proximaRevisao,
+    historicoAcertos: item.historicoAcertos + 1,
+    vezesExposto,
+    ultimaConfianca: confianca,
+  };
+
+  return {
+    item: novoItem,
+    entrouFilaErros: false,
+    intervaloDias: intervaloAjustado,
+  };
+}
+
+/**
+ * P20: Proporções de intercalação por fase de estudo.
+ */
+export function obterProporcoesFase(fase: FaseEstudo): { atual: number; precedentes: number } {
+  switch (fase) {
+    case 'fase1_cobertura':
+      return { atual: 0.70, precedentes: 0.30 };
+    case 'fase2_intercalacao':
+      return { atual: 0.40, precedentes: 0.60 };
+    case 'fase3_consolidacao':
+      return { atual: 0.25, precedentes: 0.75 };
+    default:
+      return { atual: 0.40, precedentes: 0.60 };
+  }
+}
+
+/**
+ * P20: Score de prioridade por fragilidade mnemônica.
+ * Prioriza itens com menor taxa de acerto, mais reincidência de erros e chutes/dúvidas.
+ */
+export function calcularPrioridadeFragilidade(
+  taxaAcerto: number = 0.5,
+  historicoErros: number = 0,
+  ultimaConfianca?: 'certeza' | 'provavel' | 'duvida' | 'chute'
+): number {
+  const pesoErroTaxa = (1 - Math.max(0, Math.min(1, taxaAcerto))) * 100;
+  const pesoHistoricoErros = historicoErros * 15;
+  let pesoConfianca = 0;
+  if (ultimaConfianca === 'chute') pesoConfianca = 50;
+  else if (ultimaConfianca === 'duvida') pesoConfianca = 25;
+  else if (ultimaConfianca === 'provavel') pesoConfianca = 10;
+  return pesoErroTaxa + pesoHistoricoErros + pesoConfianca;
+}
+
+function criarPrng(seed: number) {
+  let s = seed >>> 0;
+  return function () {
+    s = (s + 0x6d2b79f5) | 0;
+    let t = Math.imul(s ^ (s >>> 15), 1 | s);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+export interface ParamsSelecaoIntercalada<
+  T extends {
+    id: string;
+    submoduloId: string;
+    taxaAcerto?: number;
+    historicoErros?: number;
+    ultimaConfianca?: 'certeza' | 'provavel' | 'duvida' | 'chute';
+  }
+> {
+  fase: FaseEstudo;
+  totalDesejado: number;
+  candidatosAtuais: T[];
+  candidatosPrecedentes: T[];
+  semente?: number;
+}
+
+/**
+ * P20: Seleção intercalada com proporções por fase e ordenação determinística por fragilidade.
+ */
+export function selecionarItensIntercaladosPorFase<
+  T extends {
+    id: string;
+    submoduloId: string;
+    taxaAcerto?: number;
+    historicoErros?: number;
+    ultimaConfianca?: 'certeza' | 'provavel' | 'duvida' | 'chute';
+  }
+>(params: ParamsSelecaoIntercalada<T>): T[] {
+  const { fase, totalDesejado, candidatosAtuais, candidatosPrecedentes, semente = 42 } = params;
+  const proporcoes = obterProporcoesFase(fase);
+  const prng = criarPrng(semente);
+
+  const ordenarPorFragilidade = (lista: T[]) => {
+    return [...lista].sort((a, b) => {
+      const scoreB = calcularPrioridadeFragilidade(b.taxaAcerto ?? 0.5, b.historicoErros ?? 0, b.ultimaConfianca);
+      const scoreA = calcularPrioridadeFragilidade(a.taxaAcerto ?? 0.5, a.historicoErros ?? 0, a.ultimaConfianca);
+      if (scoreB !== scoreA) return scoreB - scoreA;
+      return a.id.localeCompare(b.id);
+    });
+  };
+
+  const ordenadosAtuais = ordenarPorFragilidade(candidatosAtuais);
+  const ordenadosPrecedentes = ordenarPorFragilidade(candidatosPrecedentes);
+
+  let qtdAtual = Math.round(totalDesejado * proporcoes.atual);
+  let qtdPrec = totalDesejado - qtdAtual;
+
+  if (ordenadosAtuais.length < qtdAtual) {
+    qtdAtual = ordenadosAtuais.length;
+    qtdPrec = Math.min(ordenadosPrecedentes.length, totalDesejado - qtdAtual);
+  } else if (ordenadosPrecedentes.length < qtdPrec) {
+    qtdPrec = ordenadosPrecedentes.length;
+    qtdAtual = Math.min(ordenadosAtuais.length, totalDesejado - qtdPrec);
+  }
+
+  const selecionadosAtuais = ordenadosAtuais.slice(0, qtdAtual);
+  const selecionadosPrecedentes = ordenadosPrecedentes.slice(0, qtdPrec);
+
+  // Embaralha deterministicamente mantendo a reprodutibilidade da semente
+  const combinado = [...selecionadosAtuais, ...selecionadosPrecedentes];
+  for (let i = combinado.length - 1; i > 0; i--) {
+    const j = Math.floor(prng() * (i + 1));
+    [combinado[i], combinado[j]] = [combinado[j], combinado[i]];
+  }
+
+  return combinado;
+}
+
+/**
+ * Cria ou inicializa um novo item no baralho Leitner (Compatibilidade Legada)
  */
 export function criarItemLeitner(
   id: string,
@@ -67,12 +363,7 @@ export function criarItemLeitner(
 }
 
 /**
- * Calcula o intervalo de revisão (em dias) para a caixa especificada,
- * aplicando a heurística de dias restantes para a data da prova quando informada (Regra D.4).
- *
- * Referência bibliográfica: Cepeda et al. (2008), Spacing effects in learning: A temporal
- * ridgeline of optimal retention. As proporções representam aproximações empíricas para
- * retenção conceitual e não devem ser descritas como "ótimas" na interface.
+ * Calcula o intervalo de revisão (em dias) para a caixa especificada (Compatibilidade Legada)
  */
 export function calcularIntervaloRevisao(
   caixa: LeitnerBox,
@@ -83,7 +374,6 @@ export function calcularIntervaloRevisao(
     const diasRestantes = calcularDiferencaDias(dataAtualIso, dataProvaIso);
     if (diasRestantes > 0) {
       const lacunaBase = calcularIntervaloAlvo(diasRestantes);
-      // Os intervalos seguintes crescem x2 até o teto configurado de 30 dias
       const multiplicador = Math.pow(2, caixa - 1);
       const intervaloCalculado = Math.round(lacunaBase * multiplicador);
       return Math.min(
@@ -97,13 +387,7 @@ export function calcularIntervaloRevisao(
 }
 
 /**
- * Processa o resultado de um estudo no item Leitner (Regra D.4):
- * - Se errou: retorna imediatamente para a Caixa 1 e programa revisão para +1 dia.
- * - Se acertou E o item NÃO estava vencido (dataAtualIso < proximaRevisao):
- *   NÃO avança a caixa (mantém a caixa atual e sua data de revisão) para evitar
- *   falsa consolidação por repetição imediata (ex: portal feito no mesmo dia).
- * - Se acertou E o item ESTAVA vencido (dataAtualIso >= proximaRevisao):
- *   Avança para a próxima caixa (máx 5) e programa nova data pelo intervalo.
+ * Processa o resultado de um estudo no item Leitner (Compatibilidade Legada)
  */
 export function processarRespostaLeitner(
   item: LeitnerItem,
@@ -115,7 +399,6 @@ export function processarRespostaLeitner(
   const vezesExposto = (item.vezesExposto || 0) + 1;
 
   if (!acertou) {
-    // Errar sempre rebaixa para a Caixa 1
     const novaCaixa: LeitnerBox = 1;
     const proximaRevisao = somarDiasDataIso(dataAtualIso, 1);
 
@@ -130,19 +413,15 @@ export function processarRespostaLeitner(
     };
   }
 
-  // Acertou:
   if (!isVencido) {
-    // REGRA D.4: ACERTAR UM ITEM QUE NÃO ESTAVA VENCIDO NÃO AVANÇA A CAIXA
     return {
       ...item,
       ultimaRevisao: dataAtualIso,
       historicoAcertos: item.historicoAcertos + 1,
       vezesExposto,
-      // caixa e proximaRevisao são preservadas
     };
   }
 
-  // Acertou e estava vencido: avança de caixa
   const novaCaixa = Math.min(5, item.caixa + 1) as LeitnerBox;
   const intervalo = calcularIntervaloRevisao(novaCaixa, dataAtualIso, dataProvaIso);
   const proximaRevisao = somarDiasDataIso(dataAtualIso, intervalo);

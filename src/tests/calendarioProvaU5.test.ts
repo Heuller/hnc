@@ -147,7 +147,7 @@ describe('U5.4 - Calendário até a Prova (17/01/2027) e Rodada Cumulativa', () 
         // 2. Simula resposta dos itens da fila avançando caixas
         for (const item of fila.itensNaFila) {
           const resultado = processarRevisaoConceito(
-            estados[item.conceito.id],
+            estados[item.conceito.id] || item.estado,
             true, // Acertou
             'certeza',
             item.formatoDesignado,
