@@ -84,7 +84,7 @@ export interface ReviewConfig {
   };
 
   /**
-   * Orçamento de tempo diário dedicado a revisões (25% ≈ 45 min de 3 h/dia).
+   * Orçamento de tempo diário dedicado a revisões (20% a 25% ≈ 60 min de 4 a 5 h/dia, segunda a sexta).
    */
   readonly orcamentoTempoRevisaoPct: number;
 
@@ -128,9 +128,9 @@ export interface ReviewConfig {
     dataCorteNormativoIso: string; // '2026-12-17'
     totalItensSimuladoGeral: number; // 180
     distribuicaoQuestoes: {
-      conhecimentosBasicos: number; // 50
-      conhecimentosEspecificos: number; // 70
-      conhecimentosEspecializados: number; // 60
+      conhecimentosBasicos: number; // 90 (P1 - Conhecimentos Básicos)
+      conhecimentosEspecificos: number; // 90 (P2 - Conhecimentos Específicos)
+
     };
   };
 
@@ -287,7 +287,7 @@ export const REVIEW_CONFIG: ReviewConfig = {
   testCeilingPct: 0.20,
   minPassingRetention: 0.85,
   leitnerBoxesTotal: 5,
-  orcamentoTempoRevisaoPct: 0.25, // 25% do tempo de estudo (≈ 45 min de 3 h/dia)
+  orcamentoTempoRevisaoPct: 0.25, // 20% a 25% do tempo de estudo (≈ 60 min de 4 a 5 h/dia, segunda a sexta)
   alertaAcumuloDiasUteis: 2, // Aviso se pendências > 2 dias de capacidade
 
   submodulosAltaDensidadeTecnica: SUBMODULOS_ALTA_DENSIDADE_TECNICA,
@@ -323,9 +323,9 @@ export const REVIEW_CONFIG: ReviewConfig = {
     dataCorteNormativoIso: '2026-12-17', // Corte a 30 dias da prova
     totalItensSimuladoGeral: 180,
     distribuicaoQuestoes: {
-      conhecimentosBasicos: 50,
-      conhecimentosEspecificos: 70,
-      conhecimentosEspecializados: 60,
+      conhecimentosBasicos: 90,
+      conhecimentosEspecificos: 90,
+
     },
   },
 
