@@ -35,11 +35,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2018 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2018 / 2018",
+        "verificado": true,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1302"
+      }
   },
   {
     "id": "m7-q-3",
@@ -141,11 +145,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2018 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2018 / 2018",
+        "verificado": true,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1645"
+      }
   },
   {
     "id": "m7-q-8",
@@ -501,11 +509,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STF/2008.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STF/2008 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2008 / 2008",
+        "verificado": true,
+        "provaId": "STF/2008",
+        "ano": 2008,
+        "orgao": "2008",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1804"
+      }
   },
   {
     "id": "m7-q-25",
@@ -540,11 +552,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "FUB/2013 (Cebraspe)"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2013 / 2013",
+        "verificado": true,
+        "provaId": "FUB/2013",
+        "ano": 2013,
+        "orgao": "2013",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1872"
+      }
   },
   {
     "id": "m7-q-27",
@@ -1404,7 +1420,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "No modelo de referência OAIS (ISO 14721), a conversão rotineira de matrizes de alta resolução (TIFF sem compressão) em arquivos compactados JPEG com perdas de informação (lossy) constitui o método canônico de migração de preservação para guarda definitiva no pacote AIP.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. No arquivamento permanente (pacote AIP), a migração de preservação arquivística exige formatos abertos e sem perdas de integridade (lossless, ex.: TIFF não comprimido, PDF/A-1a). É terminantemente vedada a substituição do mestre de preservação por formatos com compressão destrutiva por perdas (lossy JPEG), os quais se destinam exclusivamente à visualização e ao pacote de disseminação (DIP).",
+    "justificativa": "No arquivamento permanente (pacote AIP), a migração de preservação arquivística exige formatos abertos e sem perdas de integridade (lossless, ex.: TIFF não comprimido, PDF/A-1a). É terminantemente vedada a substituição do mestre de preservação por formatos com compressão destrutiva por perdas (lossy JPEG), os quais se destinam exclusivamente à visualização e ao pacote de disseminação (DIP).",
     "armadilhaBanca": "Distrator sutil: confundir as exigências de fidelidade do pacote de preservação (AIP) com as facilidades de compactação permitidas apenas no pacote de difusão/acesso (DIP).",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1472,7 +1488,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No âmbito da preservação digital de longo prazo, do Modelo de Referência para um Sistema Aberto de Arquivamento de Informação (Open Archival Information System - OAIS / ISO 14721) e dos pacotes de informação, julgue o item a seguir.",
     "item": "O software livre Archivematica dispensa o alinhamento com a arquitetura funcional do modelo OAIS (ISO 14721), pois emprega uma estrutura proprietária própria para a ingestão e o empacotamento de objetos digitais em AIPs sem metadados METS ou PREMIS.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. O Archivematica é expressamente concebido e estruturado em conformidade estrita com o modelo conceitual OAIS (ISO 14721). Durante o processamento de ingestão, o Archivematica gera pacotes de arquivamento (AIP) plenamente interoperáveis e documentados com metadados estruturados e de preservação nos padrões abertos METS e PREMIS.",
+    "justificativa": "O Archivematica é expressamente concebido e estruturado em conformidade estrita com o modelo conceitual OAIS (ISO 14721). Durante o processamento de ingestão, o Archivematica gera pacotes de arquivamento (AIP) plenamente interoperáveis e documentados com metadados estruturados e de preservação nos padrões abertos METS e PREMIS.",
     "armadilhaBanca": "Afirmação que inverte a natureza aberta e aderente ao OAIS do Archivematica, qualificando-o erroneamente como proprietário e dispensador de METS/PREMIS.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1523,7 +1539,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "O algoritmo de dispersão criptográfica SHA-256 (Secure Hash Algorithm de 256 bits) tem a função de corrigir e restaurar automaticamente os bits deteriorados de arquivos corrompidos em repositórios digitais, dispensando rotinas manuais ou automatizadas de recuperação de réplicas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. As funções de dispersão criptográfica (como o algoritmo SHA-256) atuam unicamente na verificação de fixidez (fixity) e detecção de integridade (checksum), alertando se houve qualquer alteração ou corrupção no fluxo de bits. Elas não possuem nenhuma capacidade corretiva de restaurar bits danificados; a recuperação de dados corrompidos requer a substituição do arquivo danificado por uma cópia íntegra mantida em outro nó da rede (como no LOCKSS) ou em backups de segurança.",
+    "justificativa": "As funções de dispersão criptográfica (como o algoritmo SHA-256) atuam unicamente na verificação de fixidez (fixity) e detecção de integridade (checksum), alertando se houve qualquer alteração ou corrupção no fluxo de bits. Elas não possuem nenhuma capacidade corretiva de restaurar bits danificados; a recuperação de dados corrompidos requer a substituição do arquivo danificado por uma cópia íntegra mantida em outro nó da rede (como no LOCKSS) ou em backups de segurança.",
     "armadilhaBanca": "Atribuir à ferramenta de verificação/detecção criptográfica (hash) um papel corretivo/restaurador que ela tecnicamente não possui.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1621,11 +1637,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "STJ/2018"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2018 / 2018",
+        "verificado": true,
+        "provaId": "STJ/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1645"
+      }
   },
   {
     "id": "m7-q-82",
@@ -1674,7 +1694,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "O formato XML (eXtensible Markup Language) é considerado desaconselhável para a preservação de metadados a longo prazo em repositórios digitais confiáveis por se tratar de um formato binário fechado e sujeito a patentes industriais restritivas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. O XML (eXtensible Markup Language) é um padrão aberto internacional (W3C), não proprietário, baseado em texto puro (plain text) e estruturado hierarquicamente por tags legíveis tanto por humanos quanto por máquinas, sendo amplamente adotado e recomendado para a preservação de longo prazo de esquemas de metadados (como METS, PREMIS e Dublin Core).",
+    "justificativa": "O XML (eXtensible Markup Language) é um padrão aberto internacional (W3C), não proprietário, baseado em texto puro (plain text) e estruturado hierarquicamente por tags legíveis tanto por humanos quanto por máquinas, sendo amplamente adotado e recomendado para a preservação de longo prazo de esquemas de metadados (como METS, PREMIS e Dublin Core).",
     "armadilhaBanca": "Inversão da natureza técnica do XML: qualificá-lo falsamente como formato binário, fechado e patenteado.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1717,11 +1737,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "ANATEL/2009"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2009 / 2009",
+        "verificado": true,
+        "provaId": "ANATEL/2009",
+        "ano": 2009,
+        "orgao": "2009",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1563"
+      }
   },
   {
     "id": "m7-q-87",
@@ -1791,7 +1815,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No modelo conceitual PREMIS 3.0, a entidade 'Objeto' (Object) restringe-se exclusivamente aos suportes materiais físicos (discos ópticos, mídias magnéticas e discos rígidos), sendo vedada a sua aplicação para representar representações intelectuais, arquivos lógicos ou fluxos de bits.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. No PREMIS, a entidade 'Objeto' (Object) é a unidade de informação sob custódia do repositório digital e manifesta-se nos níveis de agregação lógica: Entidade Intelectual (Intellectual Entity), Representação (Representation), Arquivo (File) e Fluxo de Bits (Bitstream). Ela não se limita a suportes físicos de armazenamento.",
+    "justificativa": "No PREMIS, a entidade 'Objeto' (Object) é a unidade de informação sob custódia do repositório digital e manifesta-se nos níveis de agregação lógica: Entidade Intelectual (Intellectual Entity), Representação (Representation), Arquivo (File) e Fluxo de Bits (Bitstream). Ela não se limita a suportes físicos de armazenamento.",
     "armadilhaBanca": "Restringir indevidamente a entidade central da modelagem lógica do PREMIS (Objeto) à camada de hardware/mídia física.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1842,7 +1866,7 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No tocante ao Dicionário de Metadados de Preservação PREMIS 3.0, à Resolução CONARQ nº 43/2015 para RDC-Arq e aos formatos de arquivo de preservação digital, julgue o item a seguir.",
     "item": "No modelo PREMIS, a entidade 'Agente' (Agent) engloba exclusivamente pessoas físicas individuais detentoras de direitos intelectuais, vedando-se a caracterização de instituições, organizações ou programas de software como agentes associados aos eventos de preservação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. O dicionário de dados PREMIS define 'Agente' (Agent) de forma ampla como qualquer ator associado a eventos de preservação ou a direitos de um objeto, podendo ser expressamente: pessoas físicas (persons), organizações/pessoas jurídicas (organizations) e sistemas automatizados de software (software programs).",
+    "justificativa": "O dicionário de dados PREMIS define 'Agente' (Agent) de forma ampla como qualquer ator associado a eventos de preservação ou a direitos de um objeto, podendo ser expressamente: pessoas físicas (persons), organizações/pessoas jurídicas (organizations) e sistemas automatizados de software (software programs).",
     "armadilhaBanca": "Uso do distrator restritivo ('engloba exclusivamente pessoas físicas'), contrariando a definição explícita do PREMIS que inclui organizações e softwares.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1880,11 +1904,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
-      "verificado": false,
-      "declaracaoLegada": "IPHAN/2018"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / 2018 / 2018",
+        "verificado": true,
+        "provaId": "IPHAN/2018",
+        "ano": 2018,
+        "orgao": "2018",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "cespe-cad-1768"
+      }
   },
   {
     "id": "m7-q-96",

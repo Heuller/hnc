@@ -874,7 +874,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "item": "A assertiva 'A cada usuário sua informação e a cada informação seu usuário' corresponde à tradução das premissas da segunda e terceira leis de Ranganathan para a terminologia da Ciência da Informação.",
     "gabarito": "C",
     "justificativa": "Correto. Essa correlação é clássica na literatura (Rettig, Thompson, Kuronen) e foi cobrada em concursos recentes como o TJ-PA 2025.",
-    "armadilhaBanca": "Item atualizado cobrado pela banca.",
+    "armadilhaBanca": "Item atualizado cobrado .",
     "dificuldade": "facil",
     "fonteOriginal": {
           "tipo": "inedita",
@@ -1076,7 +1076,7 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "item": "A documentação considera perfurações em cartão, sinais magnéticos em fitas, signos visuais e registros digitais em bancos de dados como documentos do tipo suporte de dados.",
     "gabarito": "C",
     "justificativa": "Certo. Independentemente da tecnologia de gravação, qualquer elemento físico oumagnético portador de signos fixados constitui documento.",
-    "armadilhaBanca": "Item correto cobrado textualmente pela banca.",
+    "armadilhaBanca": "Item correto cobrado textualmente .",
     "dificuldade": "facil",
     "fonteOriginal": {
           "tipo": "inedita",
