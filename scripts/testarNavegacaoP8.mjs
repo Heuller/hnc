@@ -81,7 +81,12 @@ async function runNavigationAuditP8() {
     await page.evaluate(() => {
       window.location.hash = '#/teoria';
     });
-    await new Promise((r) => setTimeout(r, 2000));
+    try {
+      await page.waitForSelector('#sec-autores, #sec-teoria', { timeout: 15000 });
+    } catch {
+      await new Promise((r) => setTimeout(r, 3000));
+    }
+    await new Promise((r) => setTimeout(r, 1000));
 
     // 1.1 Sticky Header & Sidebar ao rolar scrollY = 900
     await page.evaluate(() => {
