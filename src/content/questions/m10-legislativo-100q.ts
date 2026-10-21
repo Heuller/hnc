@@ -13,9 +13,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar o veto presidencial absoluto e insuscetível de rejeição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -30,9 +30,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Sessão conjunta do Congresso Nacional.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -47,9 +47,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Urgência constitucional presidencial do art. 64 da CF.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -64,9 +64,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter os períodos de sessão legislativa ordinária e recesso parlamentar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -81,9 +81,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor revogação do RICD pelo Regimento Comum.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -98,9 +98,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio da Irrepetibilidade de projetos rejeitados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -115,9 +115,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazo de vigência das Medidas Provisórias.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -132,9 +132,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função do Decreto Legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -149,9 +149,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "MPU/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / MPU / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-228951",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -166,9 +170,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Papel da Casa iniciadora e revisora.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -183,9 +187,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -200,9 +205,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL / INVERSAO_CANONICA: Quórum de PEC (exige 3/5 em 2 turnos, e não maioria simples em turno único).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -217,9 +222,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -234,9 +240,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Requisitos constitucionais de iniciativa popular.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -251,9 +257,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir sanção tácita com veto tácito.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -268,9 +274,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir leis federais secretas no Brasil.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -285,9 +291,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Quórum e reserva de Lei Complementar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -302,9 +308,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra constitucional de veto parcial por dispositivo integral.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -319,9 +325,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Vedação constitucional expressa de MP sobre Direito Penal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -336,9 +342,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Permitir emenda oral de cidadão leigo em Plenário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -353,9 +359,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir iniciativa de cargos da Câmara ao Presidente da República.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -370,9 +376,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Resolução com lei penal delegada sancionada pelo STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -387,9 +393,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar ilegais as emendas orçamentárias impositivas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -404,9 +410,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Competência da CMO no ciclo orçamentário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -421,9 +427,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Requerimento de urgência do art. 155 do RICD.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -438,9 +444,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -455,9 +462,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuições das Secretarias da Mesa Diretora.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -472,9 +479,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Composição da Mesa Diretora da Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -489,9 +496,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Exigir maioria absoluta em votação nominal para perda de mandato.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -506,9 +513,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Substituir o princípio constitucional da representação proporcional por sorteio.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -523,9 +530,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir poder jurisdicional de condenação penal a CPIs.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -540,9 +547,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Voto do Presidente da Câmara.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -557,9 +564,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRE-BA/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRE-BA/2010"
     }
   },
   {
@@ -574,9 +582,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Avocação ao Plenário por mensagem em biblioteca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -591,9 +599,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Poder terminativo das comissões permanentes (art. 24, II do RICD).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -608,9 +616,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Competência privativa da CCJC.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -625,9 +633,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -642,9 +651,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -659,9 +669,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -676,9 +687,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -693,9 +705,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -710,9 +723,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -727,9 +741,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Caricaturar Colégio de Líderes como órgão de recreação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -744,9 +758,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -761,9 +776,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -778,9 +794,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -795,9 +812,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Função do Conselho de Ética e Decoro Parlamentar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -812,9 +829,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuições da Ouvidoria Parlamentar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -829,9 +846,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Requisitos para criação de CPI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -846,9 +863,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -863,9 +881,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe)"
     }
   },
   {
@@ -880,9 +899,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuições do Bibliotecário Legislativo da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -897,9 +916,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Produtos informacionais especializados da Biblioteca da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -914,9 +933,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Acervo de Obras Raras da Biblioteca Pedro Aleixo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -931,9 +950,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir livros de Direito e limitar a romances policiais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -948,9 +967,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar concurso público para cargo efetivo da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -965,9 +984,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJDFT/2015",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / TJDFT / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
+      "ano": 2015,
+      "orgao": "TJDFT",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-318030"
     }
   },
   {
@@ -982,9 +1006,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CADE/2014",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio (CADE)/CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-185319"
     }
   },
   {
@@ -999,9 +1028,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TRE-BA/2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "TRE-BA/2010"
     }
   },
   {
@@ -1016,9 +1046,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar recusa da Tabela de Temporalidade pela gestão documental.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1033,9 +1063,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir computadores e internet na biblioteca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1050,9 +1080,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar Edições Câmara como loteria clandestina.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1067,9 +1097,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir atendimento parlamentar na biblioteca da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1084,9 +1114,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Laboratório de conservação e restauro do CEDI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1101,9 +1131,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Perfil temático do acervo da Biblioteca Pedro Aleixo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1118,9 +1148,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Cobrar taxa horária de leitura em biblioteca pública.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1135,9 +1165,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a cooperação do CEDI na RVBI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1152,9 +1182,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Papel da Coordenação de Arquivo (COARQ).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1169,9 +1199,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Acesso público e cidadão à Biblioteca Pedro Aleixo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1186,9 +1216,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Subordinar a Biblioteca da Câmara a clube particular de futebol.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1203,9 +1233,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Queimar discursos da oposição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1220,9 +1250,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Posicionamento institucional do CEDI na Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1237,9 +1267,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Projetos de história oral e memória do CEDI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1254,9 +1284,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Biblioteca Digital da Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1271,9 +1301,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Automação de circulação na Biblioteca Pedro Aleixo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1288,9 +1318,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuições privativas do Bibliotecário na Lei 4.084/62.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1305,9 +1335,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição de dados pessoais sensíveis na LGPD.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1322,9 +1352,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CADE/2014",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio (CADE)/CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-185318"
     }
   },
   {
@@ -1339,9 +1374,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio da publicidade como regra na LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1356,9 +1391,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SERPRO/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436511",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1373,9 +1412,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TCDF/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TCDF/2014",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
+      "ano": 2014,
+      "orgao": "TC DF",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-369884"
     }
   },
   {
@@ -1390,9 +1434,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir prazo de ultrassecreta (25 anos) com proteção de dados pessoais (100 anos).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1407,9 +1451,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2012",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2012"
     }
   },
   {
@@ -1424,9 +1469,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar diploma e registro no CRB para exercício da profissão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1441,9 +1486,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Extinção de bibliotecas escolares em vez de universalização.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1458,9 +1503,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inviolabilidade do acesso a informações sobre violação de direitos humanos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1475,9 +1520,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos de resposta na Lei de Acesso à Informação (20 + 10 dias).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1492,9 +1537,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a hipótese de tratamento de dados pelo poder público na LGPD.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1509,9 +1554,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / CNJ / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-103212",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1526,9 +1575,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "STJ/2012",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "STJ/2012"
     }
   },
   {
@@ -1543,9 +1593,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir autarquias federais de fiscalização profissional com ONGs privadas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1560,9 +1610,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CADE/2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CADE/2014"
     }
   },
   {
@@ -1577,9 +1628,10 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CNJ/2013"
     }
   },
   {
@@ -1594,9 +1646,14 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "IPHAN/2018",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "Biblio (CADE)/CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-185318"
     }
   },
   {
@@ -1611,9 +1668,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Política Nacional do Livro (Lei 10.753/2003).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1628,9 +1685,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJDFT/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "TJDFT/2015",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJDFT / 2015",
+      "verificado": true,
+      "provaId": "TecConcursos-318032",
+      "ano": 2015,
+      "orgao": "TJDFT",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1645,9 +1706,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Código de Ética Profissional do Bibliotecário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1662,9 +1723,9 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Exigir justificativa de motivos em pedidos da LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1679,9 +1740,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "SUFRAMA/2014",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SUFRAMA / 2014",
+      "verificado": true,
+      "provaId": "TecConcursos-165485",
+      "ano": 2014,
+      "orgao": "SUFRAMA",
+      "banca": "Cebraspe"
     }
   },
   {
@@ -1696,9 +1761,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CNJ/2013",
-      "verificado": true
+          "tipo": "real-confirmada",
+      "descricao": "Cebraspe / CNJ / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-103213",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe"
     }
   }
 ];

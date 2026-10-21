@@ -3,6 +3,7 @@ export * from './schemas/question.schema';
 export * from './schemas/modulo.schema';
 export * from './schemas/mnemonico.schema';
 export * from './schemas/progress.schema';
+export * from './proveniencia';
 
 export interface TermoSalvo {
   id: string;
@@ -12,4 +13,3 @@ export interface TermoSalvo {
   definicaoCurta: string;
   armadilhaResumo: string;
 }
-

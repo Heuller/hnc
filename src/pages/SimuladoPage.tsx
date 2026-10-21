@@ -31,6 +31,8 @@ import {
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 import { calcularMediaTempoPorItem } from '../domain/progressoEngine';
+import { obterInfoProveniencia } from '../domain/proveniencia';
+import { avaliarDesempenhoSimuladoOficial180 } from '../domain/simuladoOficialEngine';
 
 const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
   '1.1': {
@@ -680,7 +682,7 @@ export const SimuladoPage: React.FC = () => {
                   ? `+${relatorioFinal.notaLiquida}`
                   : relatorioFinal.notaLiquida}
               </div>
-              <span className="text-xs font-mono text-ink-2 print:text-gray-600">máx: 100 pts</span>
+              <span className="text-xs font-mono text-ink-2 print:text-gray-600">máx: {relatorioFinal.certos + relatorioFinal.errados + relatorioFinal.emBranco} pts</span>
             </div>
 
             <div>
@@ -718,6 +720,125 @@ export const SimuladoPage: React.FC = () => {
               </span>
             </div>
           </div>
+
+                    {/* Painel Oficial de Pisos Eliminatórios Cebraspe (P22 / Edital 8.11.5) */}
+          {(() => {
+            const is180Q = simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || selectedSimuladoId.includes('oficial');
+            if (!is180Q) return null;
+
+            const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoAtivo.questoes, relatorioFinal.respostas);
+
+            return (
+              <div
+                className={`p-5 rounded-xl border my-6 space-y-4 print:break-inside-avoid ${
+                  avaliacao.eliminado
+                    ? 'bg-err-soft/30 border-err/40'
+                    : 'bg-emerald-500/10 border-emerald-500/30'
+                }`}
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <div className="flex items-center gap-2.5">
+                    {avaliacao.eliminado ? (
+                      <ShieldAlert className="w-6 h-6 text-err shrink-0" />
+                    ) : (
+                      <Award className="w-6 h-6 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                    )}
+                    <div>
+                      <h3 className="font-sans font-bold text-base text-ink">
+                        {avaliacao.statusTexto}
+                      </h3>
+                      <span className="text-xs text-ink-2 font-mono block">
+                        Critérios Oficiais do Edital nº 1/2026 (Itens 8.11.5 e 8.11.6)
+                      </span>
+                    </div>
+                  </div>
+                  <span
+                    className={`text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full border shrink-0 ${
+                      avaliacao.eliminado
+                        ? 'bg-err-soft text-err border-err/30'
+                        : 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-500/40'
+                    }`}
+                  >
+                    {avaliacao.eliminado ? 'Eliminado nos Pisos' : 'Apto para Discursiva (Top 22)'}
+                  </span>
+                </div>
+
+                {/* Grid dos 3 Pisos Eliminatórios */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+                  {/* P1 Básicos */}
+                  <div className="bg-surface p-3.5 rounded-lg border border-border space-y-1 text-left">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold font-sans text-ink">P1: Conhecimentos Básicos</span>
+                      <span className={`text-xs font-mono font-bold ${avaliacao.p1.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
+                        {avaliacao.p1.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                      </span>
+                    </div>
+                    <div className="text-2xl font-mono font-bold text-ink">
+                      {avaliacao.p1.notaLiquida > 0 ? `+${avaliacao.p1.notaLiquida}` : avaliacao.p1.notaLiquida}
+                      <span className="text-xs font-normal text-ink-2 font-sans ml-1">pts</span>
+                    </div>
+                    <div className="text-xs text-ink-2 flex justify-between font-mono">
+                      <span>Piso: &ge; {avaliacao.p1.pisoMinimo} pts</span>
+                      <span>({avaliacao.p1.certos}C / {avaliacao.p1.errados}E / {avaliacao.p1.emBranco}B)</span>
+                    </div>
+                  </div>
+
+                  {/* P2 Específicos */}
+                  <div className="bg-surface p-3.5 rounded-lg border border-border space-y-1 text-left">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold font-sans text-ink">P2: Conhecimentos Específicos</span>
+                      <span className={`text-xs font-mono font-bold ${avaliacao.p2.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
+                        {avaliacao.p2.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                      </span>
+                    </div>
+                    <div className="text-2xl font-mono font-bold text-ink">
+                      {avaliacao.p2.notaLiquida > 0 ? `+${avaliacao.p2.notaLiquida}` : avaliacao.p2.notaLiquida}
+                      <span className="text-xs font-normal text-ink-2 font-sans ml-1">pts</span>
+                    </div>
+                    <div className="text-xs text-ink-2 flex justify-between font-mono">
+                      <span>Piso: &ge; {avaliacao.p2.pisoMinimo} pts</span>
+                      <span>({avaliacao.p2.certos}C / {avaliacao.p2.errados}E / {avaliacao.p2.emBranco}B)</span>
+                    </div>
+                  </div>
+
+                  {/* Total Prova Objetiva */}
+                  <div className="bg-surface p-3.5 rounded-lg border border-border space-y-1 text-left">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold font-sans text-ink">Total Objetiva (P1 + P2)</span>
+                      <span className={`text-xs font-mono font-bold ${avaliacao.total.aprovadoPiso ? 'text-ok' : 'text-err'}`}>
+                        {avaliacao.total.aprovadoPiso ? '✓ Aprovado' : '✗ Eliminado'}
+                      </span>
+                    </div>
+                    <div className="text-2xl font-mono font-bold text-ink">
+                      {avaliacao.total.notaLiquida > 0 ? `+${avaliacao.total.notaLiquida}` : avaliacao.total.notaLiquida}
+                      <span className="text-xs font-normal text-ink-2 font-sans ml-1">pts</span>
+                    </div>
+                    <div className="text-xs text-ink-2 flex justify-between font-mono">
+                      <span>Piso: &ge; {avaliacao.total.pisoMinimo} pts</span>
+                      <span>({avaliacao.total.certos}C / {avaliacao.total.errados}E / {avaliacao.total.emBranco}B)</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Motivos ou Parabéns */}
+                {avaliacao.eliminado ? (
+                  <div className="bg-surface/80 p-3 rounded-lg border border-err/30 space-y-1 text-xs text-left">
+                    <strong className="text-err font-sans block">Motivos da eliminação segundo o edital:</strong>
+                    <ul className="list-disc list-inside space-y-0.5 text-ink-2 font-sans">
+                      {avaliacao.motivosEliminacao.map((m, i) => (
+                        <li key={i}>{m}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <p className="text-xs text-ink-2 font-sans text-left">
+                    Parabéns! Sua nota cumpriu simultaneamente os 3 pisos eliminatórios. No concurso real da Câmara dos Deputados,
+                    serão convocados para a correção da Prova Discursiva os <strong>{avaliacao.vagasDiscursivaAmpla} primeiros candidatos</strong> da ampla concorrência.
+                  </p>
+                )}
+              </div>
+            );
+          })()}
 
           {/* Portão do Simulado: Decisão de Aprovação/Reprovação (Regra 2.4) */}
           <PainelDecisaoPortaoSimulado
@@ -1028,11 +1149,14 @@ export const SimuladoPage: React.FC = () => {
                                   {q.gabarito}
                                 </strong>
                               </span>
-                              {q.fonteOriginal?.descricao && (
-                                <span className="text-xs text-ink-2 print:text-gray-500 hidden sm:inline">
-                                  ({q.fonteOriginal.descricao})
-                                </span>
-                              )}
+                              {q.fonteOriginal && (() => {
+                                const info = obterInfoProveniencia(q.fonteOriginal);
+                                return (
+                                  <span className={`text-xs px-1.5 py-0.5 rounded border hidden sm:inline ${info.badgeClass}`}>
+                                    {info.rotulo}
+                                  </span>
+                                );
+                              })()}
                             </div>
                           </div>
 
@@ -1417,20 +1541,32 @@ export const SimuladoPage: React.FC = () => {
                 </p>
               </div>
 
-              {/* Fonte Original Auditada */}
-              <div className="flex items-center justify-between text-xs text-ink-2 font-mono pt-1">
-                <span>
-                  Fonte:{' '}
-                  {currentQuestion.fonteOriginal.tipo === 'cebraspe-real'
-                    ? currentQuestion.fonteOriginal.descricao
-                    : 'Questão Inédita no Padrão Cebraspe'}
-                </span>
-                {!currentQuestion.fonteOriginal.verificado && (
-                  <span className="text-alerta-cebraspe font-sans text-xs">
-                    (fonte não verificada)
-                  </span>
-                )}
-              </div>
+              {/* Fonte Original Auditada (P18 - Proveniência Honesta) */}
+              {(() => {
+                const info = obterInfoProveniencia(currentQuestion.fonteOriginal);
+                return (
+                  <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono pt-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-ink-2">Proveniência:</span>
+                      <span className={`px-2 py-0.5 rounded text-xs font-semibold border ${info.badgeClass}`}>
+                        {info.rotulo}
+                      </span>
+                      {info.detalhe && (
+                        <span className="text-ink-2 text-xs font-normal">({info.detalhe})</span>
+                      )}
+                    </div>
+                    {info.verificado ? (
+                      <span className="text-ok font-sans text-xs flex items-center gap-1">
+                        ✓ conferida no acervo oficial
+                      </span>
+                    ) : (
+                      <span className="text-amber-600 dark:text-amber-400 font-sans text-xs">
+                        (inédita / não confirmada em prova real)
+                      </span>
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           )}
         </article>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { COURSE_REGISTRY } from '../content/registry';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+import { obterInfoProveniencia } from '../domain/proveniencia';
 import { Badge } from '../components/common/Badge';
 import {
   Radar,
@@ -78,7 +79,7 @@ export const RadarPage: React.FC = () => {
       gabarito: q.gabarito,
       armadilhaBanca: q.armadilhaBanca,
       justificativa: q.justificativa,
-      fonte: q.fonteOriginal?.descricao || 'HNC — Item autoral no estilo Cebraspe',
+      fonte: obterInfoProveniencia(q.fonteOriginal).rotulo,
     }));
 
   const blocoAtivo = BLOCOS_EDITAL.find((b) => b.id === selectedBloco);

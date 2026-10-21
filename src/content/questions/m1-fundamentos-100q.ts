@@ -13,9 +13,14 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Troca canônica de termos. O Cebraspe substitui 'Ciência da Informação' por 'Biblioteconomia'.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / CAPES / 2012 (Adaptada)",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-2711384"
     },
     "versao_correta": "Denomina-se Ciência da Informação a área do conhecimento que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para otimizar a sua acessibilidade e uso."
   },
@@ -31,9 +36,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item afirmativo direto e historicamente exato cobrado na PC-DF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -48,9 +54,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva histórica irretocável sobre a obra de Otlet.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / ABIN / 2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     }
   },
   {
@@ -65,9 +72,14 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão conceitual simétrica entre as duas vertentes propostas por Le Coadic.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / UNEAL / 2026",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / UNEAL / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AAD (UNEAL)/UNEAL/Biblioteconomia/2026",
+      "ano": 2026,
+      "orgao": "UNEAL",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-4145121"
     },
     "versao_correta": "Segundo Yves-François Le Coadic, a biblioteconomia dos livros abrange o conjunto das questões vinculadas à organização administrativa, técnica, material e financeira das bibliotecas, ao passo que a biblioteconomia dos leitores estuda o uso e a mediação."
   },
@@ -83,9 +95,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item correto que explora o papel seminal de Vannevar Bush.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / 2018"
     }
   },
   {
@@ -100,9 +113,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Generalização restritiva clássica da banca ('estrita autonomia unidisciplinar').",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A ciência da informação caracteriza-se por sua marcante natureza interdisciplinar, estabelecendo diálogos teóricos e metodológicos contínuos com a linguística, a ciência da computação e a comunicação."
   },
@@ -118,9 +131,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão dos efeitos históricos da prensa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "versao_correta": "A invenção da imprensa de tipos móveis no século XV revolucionou a velocidade e a capacidade de difusão social dos textos, mantendo a representação temática como processo essencialmente manual."
   },
@@ -136,9 +150,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação conceitual sólida e sem armadilhas textuais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPE-TO / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPE-TO / 2024"
     }
   },
   {
@@ -153,9 +168,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Apresenta o conceito oposto ao preconizado pelo autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SUFRAMA / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     },
     "versao_correta": "O princípio monográfico defendido por Paul Otlet propunha o desmembramento analítico do conteúdo em fichas padronizadas e destacáveis, permitindo a recombinação temática independente do suporte encadernado."
   },
@@ -171,9 +187,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item afirmativo direto e verdadeiro.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SEE-PE / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
     }
   },
   {
@@ -188,9 +205,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Falácia da desnecessidade tecnológica gerada pela internet.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SEE-PE / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SEE-PE / 2022"
     },
     "versao_correta": "O advento da Internet e dos catálogos em linha não eliminou a necessidade da Bibliografia Nacional, que permanece essencial para o controle bibliográfico e a preservação da memória editorial de um país."
   },
@@ -206,9 +224,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item histórico preciso e irretocável.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / ABIN / 2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     }
   },
   {
@@ -223,9 +242,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reducionismo tecnológico radical do Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A ciência da informação abrange dimensões físicas, cognitivas e sociais, integrando o estudo das tecnologias com os processos humanos, culturais e políticos de apropriação da informação."
   },
@@ -241,9 +260,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item analítico verdadeiro e consistente.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / FUB / 2022",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / FUB / 2022"
     }
   },
   {
@@ -258,9 +278,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item contemporâneo da banca sobre IA e Biblioteconomia.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPE-CE / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPE-CE / 2025"
     }
   },
   {
@@ -275,9 +296,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuição indevida da criação do termo a Briet.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / ABIN / 2017",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / ABIN / 2017"
     },
     "versao_correta": "O vocábulo documentação foi consolidado por Paul Otlet no final do século XIX, tendo Suzanne Briet ampliado e aprofundado o conceito em sua obra de 1951."
   },
@@ -293,9 +315,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito estrutural da documentação legislativa e jurídica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJ-RR / 2012",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJ-RR / 2012"
     }
   },
   {
@@ -310,9 +333,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão intencional entre poderes emissores de fontes jurídicas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "No âmbito dos sistemas de informação jurídica, a jurisprudência emana do Poder Judiciário (tribunais), cabendo ao Poder Legislativo a produção de normas legislativas."
   },
@@ -328,9 +351,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Uso falacioso do termo 'silêncio documental' como suposto objetivo benéfico.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A recuperação da informação visa equilibrar revocação e precisão, sendo o silêncio documental (omissão de itens relevantes) uma falha técnica a ser evitada."
   },
@@ -346,9 +369,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de apequenar as causas históricas do nascimento da CI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A ciência da informação originou-se no pós-Segunda Guerra Mundial impulsionada pela explosão bibliográfica e pelas demandas de pesquisa científica e militar, com foco em recuperação automatizada."
   },
@@ -364,9 +387,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item com enfoque histórico e humanista.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / Pref Cach Itapemirim / 2024",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / Pref Cach Itapemirim / 2024"
     }
   },
   {
@@ -381,9 +405,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item conceitual aprofundado e correto.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -398,9 +422,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão metodológica: diz que simplificou, quando na verdade complexificou com facetas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A Classificação Decimal Universal (CDU) foi desenvolvida por Otlet e La Fontaine como uma expansão analítico-sintética da CDD, introduzindo sinais de associação e ricas tabelas auxiliares."
   },
@@ -416,9 +440,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item que aborda diretamente os ensinamentos de Saracevic.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -433,9 +457,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação absurda ('imune a ambiguidades').",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Em uma biblioteca parlamentar, a informação legislativa exige rigoroso tratamento documentário e controle de vocabulário com tesauros especializados para superar ambiguidades da linguagem natural."
   },
@@ -451,9 +475,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva que define o cerne da Primeira Lei de Ranganathan.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCE-MG / 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
     }
   },
   {
@@ -468,9 +493,14 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item com aplicação prática da 1ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / PC DF / 2025 (Adaptada)",
+      "verificado": true,
+      "provaId": "GAAPC (PC DF)/PC DF/Bibliotecário/2025",
+      "ano": 2025,
+      "orgao": "PC DF",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-3240707"
     }
   },
   {
@@ -485,9 +515,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A banca misturou conceitos arcaicos com a identificação incorreta das leis.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / IPHAN / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / IPHAN / 2018"
     },
     "versao_correta": "Em atendimento às leis de Ranganathan, os livros existem para serem usados (1ª Lei), cabendo à segunda lei assegurar que a cada leitor seja garantido o livro adequado às suas necessidades."
   },
@@ -503,9 +534,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item irretocável que foca na dimensão inclusiva da 2ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
     }
   },
   {
@@ -520,9 +552,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção técnica e essencial entre a 2ª e a 3ª Lei.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STJ / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STJ / 2018"
     }
   },
   {
@@ -537,9 +570,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão do foco da 4ª Lei para o espaço (que pertence à 5ª Lei).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "versao_correta": "O princípio fundamental da quarta lei de Ranganathan ('Poupe o tempo do leitor') tem o tempo e a eficiência do usuário na recuperação da informação como seu elemento central."
   },
@@ -555,9 +589,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Aplicação contextualizada da 4ª Lei na Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -572,9 +606,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Negação direta da ideia de 'organismo em crescimento'.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPU / 2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPU / 2010"
     },
     "versao_correta": "Ranganathan formulou a quinta lei ('A biblioteca é um organismo em crescimento') para demonstrar que a instituição está em contínua evolução dinâmica de acervos, usuários, processos e instalações."
   },
@@ -590,9 +625,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item que relaciona desbaste acervístico à Quinta Lei.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
     }
   },
   {
@@ -607,9 +643,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva que reconhece a vitalidade dos axiomas na atualidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJ-PA / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJ-PA / 2025"
     }
   },
   {
@@ -624,9 +661,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção das ideias humanistas e integradoras de Michael Gorman.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Em sua releitura contemporânea (1995), Michael Gorman propôs honrar o passado e criar o futuro, valorizando o patrimônio bibliográfico impresso integrado aos novos serviços digitais."
   },
@@ -642,9 +679,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item que cita corretamente o núcleo da formulação de Gorman.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -659,9 +696,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Generalização restritiva indevida da banca ('apenas aos bibliotecários').",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / IPHAN / 2018 (Adaptada)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / IPHAN / 2018 (Adaptada)"
     },
     "versao_correta": "Segundo Ranganathan, a segunda lei impõe obrigações compartilhadas ao Estado (financiamento e legislação), aos bibliotecários (mediação acolhedora) e aos leitores (zelo e cooperação)."
   },
@@ -677,9 +715,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação que contraria frontalmente a orientação de estantes abertas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
     },
     "versao_correta": "A prática de estantes abertas (livre acesso) e exposição visível dos acervos é a medida preconizada para cumprir a terceira lei de Ranganathan ('A cada livro o seu leitor')."
   },
@@ -695,9 +734,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Excelente conexão prática entre DSI legislativa e 4ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -712,9 +751,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação que propõe o oposto da gestão e do planejamento.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Ao afirmar que a biblioteca é um organismo em crescimento, Ranganathan exige o planejamento flexível e preventivo da expansão espacial, dos desbastes e da equipe profissional."
   },
@@ -730,9 +769,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item com fundamentação epistemológica rigorosa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / MPU / 2010",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / MPU / 2010"
     }
   },
   {
@@ -747,9 +787,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restrição indevida das implicações físicas da 1ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCE-MG / 2026",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCE-MG / 2026"
     },
     "versao_correta": "Para Ranganathan, o conforto ergonômico, a boa iluminação e a ambiência acolhedora são condições materiais diretas para que os livros sejam efetivamente usados (1ª Lei)."
   },
@@ -765,9 +806,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Visão burocrática e arcaica repudiada por Thompson.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Jim Thompson sintetizou que a biblioteca contemporânea deve ser desenhada e operada para a conveniência do usuário, eliminando barreiras burocráticas de acesso."
   },
@@ -783,9 +824,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Interpretação moderna e precisa da 5ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -800,9 +841,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Negativa elitista que colide com a doutrina de Ranganathan.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJDFT / 2015",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJDFT / 2015"
     },
     "versao_correta": "A segunda lei da biblioteconomia ('A cada leitor o seu livro') consagra o princípio universal da democratização, garantindo o direito à leitura e à informação a todos os grupos sociais sem distinção."
   },
@@ -818,9 +860,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Relação de causa e efeito clara com a 1ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -835,9 +877,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item atualizado cobrado pela banca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJ-PA / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJ-PA / 2025"
     }
   },
   {
@@ -852,9 +895,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ideia absurda que contradiz a essência da 4ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Ranganathan defendeu que a catalogação e a indexação devem ser claras e intuitivas para poupar ao máximo o tempo do leitor (4ª Lei)."
   },
@@ -870,9 +913,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Excelente exemplo da aplicação contínua da 4ª Lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -887,9 +930,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição clássica da cadeia informacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -904,9 +948,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Falsa sinonímia entre informação (externa) e conhecimento (interno).",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
     "versao_correta": "Na ciência da informação, informação é o dado estruturado e comunicável em suporte externo, enquanto o conhecimento é a sua apropriação e internalização na mente humana."
   },
@@ -922,9 +967,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Apresentação correta da taxonomia seminal de Buckland.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / EBESERH / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
     }
   },
   {
@@ -939,9 +985,14 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha predileta do Cebraspe em Buckland: tentar excluir objetos físicos não bibliográficos.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / EBESERH / 2018",
-      "verificado": true
+          "tipo": "adaptada",
+      "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
+      "ano": 2018,
+      "orgao": "HU Brasil",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "TecConcursos-646317"
     },
     "versao_correta": "No pensamento de Buckland, a informação-como-coisa compreende qualquer entidade física ou objeto material (inclusive artefatos, fósseis e dados digitais) considerado informativo."
   },
@@ -957,9 +1008,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item conceitualmente preciso da tese de Buckland.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -974,9 +1025,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição clássica e precisa de Suzanne Briet.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TJ-RR / 2012",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TJ-RR / 2012"
     }
   },
   {
@@ -991,9 +1043,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Pegadinha clássica sobre as condições de documentaridade de Briet.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Conforme Suzanne Briet, um animal livre na natureza não é documento; ele torna-se documento ao ser capturado, classificado e colocado sob observação como indício científico."
   },
@@ -1009,9 +1061,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item que resume os requisitos da documentaridade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SUFRAMA / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     }
   },
   {
@@ -1026,9 +1079,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item correto cobrado textualmente pela banca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / EBESERH / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
     }
   },
   {
@@ -1043,9 +1097,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito estrutural da representação documentária.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / EBESERH / 2018",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / EBESERH / 2018"
     }
   },
   {
@@ -1060,9 +1115,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão da relação de contenção lógica entre eletrônico e digital.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Todo documento digital é eletrônico, mas nem todo documento eletrônico é digital, pois existem documentos eletrônicos analógicos (como fitas magnéticas VHS e cassete)."
   },
@@ -1078,9 +1133,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito da abordagem cognitiva da informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1095,9 +1150,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuição exclusiva e distorcida da intencionalidade documental.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / SUFRAMA / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / SUFRAMA / 2014"
     },
     "versao_correta": "Na teoria documental, a intencionalidade pode ser originária (no ato de produção com propósito informativo) ou derivada (pela seleção institucional para guarda como prova/evidência)."
   },
@@ -1113,9 +1169,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição canônica de Mey muito presente em concursos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1130,9 +1186,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão direta entre fonte primária e secundária.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A legislação positivada e os acórdãos judiciais originais constituem fontes primárias, enquanto os comentários doutrinários e compilações são fontes secundárias."
   },
@@ -1148,9 +1204,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão topológica da clássica pirâmide DIKW.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Na hierarquia DIKW, os dados situam-se na base da pirâmide, sucedidos pela informação e pelo conhecimento, com a sabedoria ocupando o ápice."
   },
@@ -1166,9 +1222,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item com aderência direta à realidade da Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1183,9 +1239,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão comum entre intangibilidade do software e ausência de base material física.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O documento digital mantém materialidade física através de estados eletrônicos e magnéticos armazenados em memórias, discos e servidores de rede."
   },
@@ -1201,9 +1257,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restrição indevida do conceito de documento à bidimensionalidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Objetos tridimensionais, como medalhas e maquetes preservadas para testemunho histórico, constituem documentos museológicos com pleno valor documental."
   },
@@ -1219,9 +1275,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição precisa de literatura cinzenta.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1236,9 +1292,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuição indevida de foco semântico à teoria de telecomunicações de Shannon.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A teoria matemática da comunicação de Shannon e Weaver foca na dimensão sintática da transmissão física de sinais por canais, abstraindo o significado semântico da mensagem."
   },
@@ -1254,9 +1310,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item conceitual cobrado recentemente na PC-DF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / PC-DF / 2025",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     }
   },
   {
@@ -1271,9 +1328,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Teoria clássica e verdadeira sobre valor de documentos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1288,9 +1345,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Simplificação abusiva da conversão tácito-explícito.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O conhecimento tácito é inerente à experiência individual e à ação prática, apresentando limitações e perdas ao ser codificado em formato explícito."
   },
@@ -1306,9 +1363,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição clássica de metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1323,9 +1380,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Texto literal da lei regulamentadora da profissão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STF / 2008",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STF / 2008"
     }
   },
   {
@@ -1340,9 +1398,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Usurpação de atribuição privativa fixada em lei.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A realização de perícias técnicas e a emissão de laudos sobre organização e serviços de bibliotecas constituem atribuições privativas dos bacharéis em Biblioteconomia (Lei 4.084/62, Art. 6º)."
   },
@@ -1358,9 +1416,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de rebaixar atribuição privativa fixada em lei federal a atividade meramente facultativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCDF / 2014 (Adaptada)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCDF / 2014 (Adaptada)"
     },
     "versao_correta": "O planejamento e a execução técnica da catalogação e classificação de documentos constituem atribuições privativas dos bacharéis em Biblioteconomia (Lei 4.084/62, Art. 6º, 'b')."
   },
@@ -1376,9 +1435,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Usurpação de prerrogativa privativa de magistério técnico.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STF / 2008 (Adaptada)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STF / 2008 (Adaptada)"
     },
     "versao_correta": "O magistério de disciplinas técnicas e privativas de Biblioteconomia é prerrogativa privativa de bibliotecários devidamente registrados no Conselho Regional (Lei 4.084/62, Art. 6º, 'd')."
   },
@@ -1394,9 +1454,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Inversão de competência punitiva entre CRB e CFB e violação do devido processo legal.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A penalidade disciplinar de cassação definitiva do registro profissional é de competência privativa do Conselho Federal de Biblioteconomia (CFB), mediante processo administrativo com contraditório e ampla defesa."
   },
@@ -1412,9 +1472,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item que trata de um dos principais deveres éticos da profissão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STF / 2008",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STF / 2008"
     }
   },
   {
@@ -1429,9 +1490,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de justificar infração ética grave com pagamento de taxa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCDF / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCDF / 2014"
     },
     "versao_correta": "É vedado ao bibliotecário assinar ou acobertar trabalhos técnicos de catalogação realizados por leigos ou pessoas não habilitadas perante a lei, configurando infração ética grave."
   },
@@ -1447,9 +1509,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tentativa de legitimar conduta vedada por motivo de cobrança.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCDF / 2014 (Adaptada)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCDF / 2014 (Adaptada)"
     },
     "versao_correta": "Constituem infrações éticas expressas a retenção abusiva de documentos de clientes e o aviltamento de honorários profissionais para captação desleal de clientela."
   },
@@ -1465,9 +1528,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Competência institucional correta do CFB.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1482,9 +1545,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmação antiética que viola o princípio de equidade do serviço bibliotecário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / IPHAN / 2018 (Adaptada)",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / IPHAN / 2018 (Adaptada)"
     },
     "versao_correta": "O Código de Ética impõe ao bibliotecário o dever de atender os usuários com equidade, respeito e imparcialidade, sendo expressamente vedada qualquer discriminação política, religiosa ou ideológica."
   },
@@ -1500,9 +1564,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Proposição escandalosa que viola a ética e a legislação de arquivos e patrimônio.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A destruição ou retenção indevida de documentos públicos é crime contra a administração pública e viola frontalmente os deveres éticos de transparência e preservação da memória documental."
   },
@@ -1518,9 +1582,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra do direito administrativo disciplinar corporativo.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1535,9 +1599,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Transforma um dever legal/ético em suposta faculdade de omissão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O Código de Ética institui o dever de representar e denunciar perante os órgãos de fiscalização do CRB qualquer hipótese de exercício ilegal da profissão de bibliotecário."
   },
@@ -1553,9 +1617,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Alcance da fiscalização do conselho de classe.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1570,9 +1634,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio geral da responsabilidade profissional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1587,9 +1651,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item fiel ao dever de constante atualização profissional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / STF / 2008",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / STF / 2008"
     }
   },
   {
@@ -1604,9 +1669,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Aberração jurídica que desfigura a profissão regulamentada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O exercício da profissão de bibliotecário exige a conclusão de bacharelado em Biblioteconomia em instituição oficial e o registro profissional ativo no respectivo CRB."
   },
@@ -1622,9 +1687,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prática de publicidade predatória e concorrência desleal vedada pelo CFB.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A publicidade profissional do bibliotecário deve ser sóbria e verídica, sendo proibido veicular promessas infundadas ou utilizar concorrência desleal com honorários aviltados."
   },
@@ -1640,9 +1705,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Criação de prazo extintivo bizarro para o sigilo ético.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O dever de sigilo profissional sobre informações e hábitos de pesquisa dos usuários é contínuo e perpétuo, mantendo-se mesmo após o encerramento do vínculo de atendimento."
   },
@@ -1658,9 +1723,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão deliberada entre censura pública e censura confidencial.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "A penalidade de censura pública tem como requisito essencial a sua publicação no Diário Oficial e nos canais de comunicação do conselho de classe."
   },
@@ -1676,9 +1741,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Harmonização entre ética biblioteconômica e direitos autorais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCDF / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCDF / 2014"
     }
   },
   {
@@ -1693,9 +1759,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conduta antiética repudiada pelo regramento corporativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "Constitui infração ética gravíssima denegrir a reputação profissional de colegas ou agir com deslealdade para obter vantagens funcionais ou comerciais."
   },
@@ -1711,9 +1777,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra eleitoral dos conselhos profissionais federais.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     }
   },
   {
@@ -1728,9 +1794,10 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Reafirmação do Art. 6º da Lei 4.084/62.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "cebraspe-real",
-      "descricao": "CEBRASPE / TCDF / 2014",
-      "verificado": true
+          "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "CEBRASPE / TCDF / 2014"
     }
   },
   {
@@ -1745,9 +1812,9 @@ export const simuladoFundamentos100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ilícito administrativo e penal evidente.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
+          "tipo": "inedita",
       "descricao": "Inédita Cebraspe / Especial Câmara",
-      "verificado": true
+      "verificado": false
     },
     "versao_correta": "O exercício de atribuições privativas de bibliotecário exige a manutenção contínua do registro profissional ativo no respectivo Conselho Regional de Biblioteconomia."
   }
