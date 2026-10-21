@@ -1,1301 +1,1701 @@
 import type { EditalOficial } from './types';
 
 export const EDITAL_CAMARA_2026: EditalOficial = {
-  concurso: 'Concurso Público para Provimento de Vagas no Cargo de Analista Legislativo',
-  orgao: 'Câmara dos Deputados',
-  cargo: 'Analista Legislativo — Atribuição: Bibliotecário',
-  banca: 'Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos (CEBRASPE)',
-  editalNumero: 'Edital nº 1/2026',
-  ano: 2026,
-  formatoItem: 'CERTO_ERRADO',
-  fatorCorrecao: '1 Erro Anula 1 Certo (Líquida = C - E)',
-  totalItensProvaObjetiva: 140,
-  distribuicaoItens: {
-    conhecimentosBasicos: 50,
-    conhecimentosEspecificos: 90,
+  "concurso": "Concurso Público para Provimento de Vagas no Cargo de Analista Legislativo",
+  "orgao": "Câmara dos Deputados",
+  "cargo": "Analista Legislativo — Atribuição: Bibliotecário",
+  "banca": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos (CEBRASPE)",
+  "editalNumero": "Edital nº 1/2026",
+  "ano": 2026,
+  "dataProvavelProva": "2027-01-17",
+  "formatoItem": "CERTO_ERRADO",
+  "fatorCorrecao": "1 Erro Anula 1 Certo (Líquida = C - E)",
+  "totalItensProvaObjetiva": 180,
+  "distribuicaoItens": {
+    "conhecimentosBasicos": 90,
+    "conhecimentosEspecificos": 90
   },
-  discursiva: {
-    formato: 'Questão Discursiva e/ou Estudo de Caso de Natureza Técnica (Conhecimentos Específicos)',
-    linhasMaximas: 30,
-    peso: 40,
+  "pisosEliminatorios": {
+    "p1Minimo": 18,
+    "p2Minimo": 27,
+    "totalMinimo": 54,
+    "vagasAmplaConvocadasDiscursiva": 22,
+    "notaCorteDiscursivaMin": 30
   },
-  eixos: [
-    // --- CONHECIMENTOS ESPECÍFICOS ---
-    {
-      id: 'eixo-1-fundamentos',
-      nome: 'Fundamentos da Biblioteconomia, Documentação e Ciência da Informação',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm1',
-      moduloHncNumero: 1,
-      descricaoOficial: 'Gênese disciplinar, evolução histórica, objetos de estudo e fronteiras interdisciplinares da Biblioteconomia, Documentação e Ciência da Informação. As Cinco Leis de Ranganathan. Teoria do Documento e da Informação. Legislação profissional e ética.',
-      pesoRelativo: 9.5,
-      topicos: [
-        {
-          id: 'FND-01',
-          codigoEdital: '1.1',
-          titulo: 'Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e história',
-          detalhamento: [
-            'Paul Otlet e Henri La Fontaine (IIB, Mundaneum, Tratado de Documentação de 1934)',
-            'Suzanne Briet e a teoria clássica do documento (1951)',
-            'Harold Borko e a emergência da Ciência da Informação pós-guerra (1968)',
-            'As divisões de Yves-François Le Coadic (Biblioteconomia dos livros vs leitores)',
-            'Interdisciplinaridade da Ciência da Informação (Saracevic, Pinheiro)',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 8.2,
-          moduloRef: 'M1',
-          submodulosRef: ['1.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'FND-02',
-          codigoEdital: '1.2',
-          titulo: 'As Cinco Leis de Ranganathan e Releituras Contemporâneas',
-          detalhamento: [
-            'O tratado de 1931 de Shiyali Ramamrita Ranganathan',
-            'Análise sistêmica das 5 leis clássicas e implicações em bibliotecas legislativas',
-            'Releituras contemporâneas: Michael Gorman, Jim Retting, Alireza Noruzi',
-            'A 5ª lei (a biblioteca é um organismo em crescimento) aplicada ao ambiente digital',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.5,
-          moduloRef: 'M1',
-          submodulosRef: ['1.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'FND-03',
-          codigoEdital: '1.3',
-          titulo: 'Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões',
-          detalhamento: [
-            'A pirâmide informacional DIKW (Dado, Informação, Conhecimento, Sabedoria)',
-            'Michael Buckland e a Informação como Coisa, Processo e Conhecimento (1991)',
-            'Os três paradigmas da Ciência da Informação de Rafael Capurro (Físico, Cognitivo e Social)',
-            'O conceito de documento e suas propriedades ontológicas',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 8.0,
-          moduloRef: 'M1',
-          submodulosRef: ['1.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'FND-04',
-          codigoEdital: '1.4',
-          titulo: 'Profissão: Legislação Federal, Código de Ética do CFB e Atribuições',
-          detalhamento: [
-            'Lei Federal nº 4.084/1962 (Regulamentação do exercício da profissão de Bibliotecário)',
-            'Decreto nº 56.725/1965 e atribuições privativas do bacharel',
-            'Estrutura do Sistema CFB/CRB e processo disciplinar',
-            'Código de Ética e Deontologia Profissional do Bibliotecário (Resolução CFB nº 207/2018)',
-            'Lei nº 12.244/2010 e Lei nº 14.837/2024 (Universalização das bibliotecas escolares / SNBE)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 10.5,
-          moduloRef: 'M1',
-          submodulosRef: ['1.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+  "discursiva": {
+    "formato": "2 Questões Discursivas (até 20 linhas / 15 pts cada) + 1 Peça Técnica (até 50 linhas / 30 pts)",
+    "pontosTotal": 60,
+    "questoes": {
+      "quantidade": 2,
+      "linhasMaximas": 20,
+      "pontosCada": 15,
+      "pontosTotal": 30
     },
+    "pecaTecnica": {
+      "quantidade": 1,
+      "linhasMaximas": 50,
+      "pontosTotal": 30
+    },
+    "pisoAprovacao": 30
+  },
+  "eixos": [
     {
-      id: 'eixo-2-catalogacao',
-      nome: 'Catalogação, Metadados e Modelos Conceituais',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm2',
-      moduloHncNumero: 2,
-      descricaoOficial: 'Representação descritiva de documentos. Princípios Internacionais de Catalogação (ICP). Código AACR2r. Padrão RDA (Resource Description and Access). Formato MARC 21 Bibliográfico e de Autoridades. Modelos conceituais FRBR, FRAD, FRSAD e IFLA LRM. Metadados Dublin Core. Notação de autor (Tabelas Cutter-Sanborn e PHA).',
-      pesoRelativo: 14.0,
-      topicos: [
+      "id": "eixo-1-fundamentos",
+      "nome": "Fundamentos da Biblioteconomia, Documentação e Ciência da Informação",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m1",
+      "moduloHncNumero": 1,
+      "descricaoOficial": "Gênese disciplinar, evolução histórica, objetos de estudo e fronteiras interdisciplinares da Biblioteconomia, Documentação e Ciência da Informação. As Cinco Leis de Ranganathan. Teoria do Documento e da Informação. Legislação profissional e ética.",
+      "pesoRelativo": 9.5,
+      "topicos": [
         {
-          id: 'CAT-01',
-          codigoEdital: '2.1',
-          titulo: 'Princípios Internacionais de Catalogação (ICP) e Código AACR2r',
-          detalhamento: [
-            'Declaração de Princípios Internacionais de Catalogação (Declaração de Paris de 1961 e ICP de 2016)',
-            'Estrutura e áreas de descrição da ISBD e do AACR2r (8 áreas)',
-            'Determinação e escolha dos pontos de acesso principais e secundários',
-            'Formas de cabeçalhos para pessoas físicas, entidades coletivas, conferências e títulos uniformes',
+          "id": "FND-01",
+          "codigoEdital": "1.1",
+          "titulo": "Biblioteconomia, Documentação e Ciência da Informação: objeto, fronteiras e história",
+          "detalhamento": [
+            "Paul Otlet e Henri La Fontaine (IIB, Mundaneum, Tratado de Documentação de 1934)",
+            "Suzanne Briet e a teoria clássica do documento (1951)",
+            "Harold Borko e a emergência da Ciência da Informação pós-guerra (1968)",
+            "As divisões de Yves-François Le Coadic (Biblioteconomia dos livros vs leitores)",
+            "Interdisciplinaridade da Ciência da Informação (Saracevic, Pinheiro)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 13.0,
-          moduloRef: 'M2',
-          submodulosRef: ['2.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M1",
+          "submodulosRef": [
+            "1.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 41,
+          "incidencia": {
+            "total": 49,
+            "recente2024a2026": 13,
+            "percentual": 2.23
+          }
         },
         {
-          id: 'CAT-02',
-          codigoEdital: '2.2',
-          titulo: 'RDA (Resource Description and Access) e Modelos Conceituais (Família FRBR e IFLA LRM)',
-          detalhamento: [
-            'A transição do AACR2 para o padrão RDA: princípios e estrutura',
-            'Modelos conceituais FRBR, FRAD e FRSAD',
-            'O modelo de consolidação IFLA LRM (Library Reference Model)',
-            'As entidades do Grupo 1 WEMI (Work, Expression, Manifestation, Item)',
-            'O fim da Designação Geral do Material (DGM) e a substituição pelos campos 336, 337 e 338',
+          "id": "FND-02",
+          "codigoEdital": "1.2",
+          "titulo": "As Cinco Leis de Ranganathan e Releituras Contemporâneas",
+          "detalhamento": [
+            "O tratado de 1931 de Shiyali Ramamrita Ranganathan",
+            "Análise sistêmica das 5 leis clássicas e implicações em bibliotecas legislativas",
+            "Releituras contemporâneas: Michael Gorman, Jim Retting, Alireza Noruzi",
+            "A 5ª lei (a biblioteca é um organismo em crescimento) aplicada ao ambiente digital"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 14.5,
-          moduloRef: 'M2',
-          submodulosRef: ['2.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M1",
+          "submodulosRef": [
+            "1.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 49,
+            "recente2024a2026": 13,
+            "percentual": 2.23
+          }
         },
         {
-          id: 'CAT-03',
-          codigoEdital: '2.3',
-          titulo: 'Formato MARC 21 (Bibliográfico, Autoridades e Holdings)',
-          detalhamento: [
-            'Estrutura física do registro MARC: Líder, Diretório e Campos Variáveis',
-            'Campos de controle (001 a 008) e campos de dados variáveis (01X a 9XX)',
-            'Indicadores e subcampos nos principais blocos (1XX, 2XX, 6XX, 7XX)',
-            'MARC 21 de Autoridades: campos 1XX (autoridade), 4XX (remissiva ver) e 5XX (remissiva ver também)',
-            'Catalogação cooperativa e Rede Virtual de Bibliotecas (RVBI)',
+          "id": "FND-03",
+          "codigoEdital": "1.3",
+          "titulo": "Conceitos de Informação, Conhecimento e Documento: Ontologia e Dimensões",
+          "detalhamento": [
+            "A pirâmide informacional DIKW (Dado, Informação, Conhecimento, Sabedoria)",
+            "Michael Buckland e a Informação como Coisa, Processo e Conhecimento (1991)",
+            "Os três paradigmas da Ciência da Informação de Rafael Capurro (Físico, Cognitivo e Social)",
+            "O conceito de documento e suas propriedades ontológicas"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 15.0,
-          moduloRef: 'M2',
-          submodulosRef: ['2.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M1",
+          "submodulosRef": [
+            "1.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 49,
+            "recente2024a2026": 13,
+            "percentual": 2.23
+          }
         },
         {
-          id: 'CAT-04',
-          codigoEdital: '2.4',
-          titulo: 'Padrão Dublin Core (DC) e Notação de Autor (Cutter-Sanborn e PHA)',
-          detalhamento: [
-            'Metadados Dublin Core Simples (15 elementos fundamentais) e Qualificado (termos de refinamento)',
-            'Interoperabilidade e metadados descritivos na Web',
-            'Notação de autor: Tabela Cutter-Sanborn de 3 algarismos',
-            'Tabela PHA (Pergaminho de Heloísa de Almeida Prado)',
-            'Regras práticas de ordenação na estante e montagem do número de chamada',
+          "id": "FND-04",
+          "codigoEdital": "1.4",
+          "titulo": "Profissão: Legislação Federal, Código de Ética do CFB e Atribuições",
+          "detalhamento": [
+            "Lei Federal nº 4.084/1962 (Regulamentação do exercício da profissão de Bibliotecário)",
+            "Decreto nº 56.725/1965 e atribuições privativas do bacharel",
+            "Estrutura do Sistema CFB/CRB e processo disciplinar",
+            "Código de Ética e Deontologia Profissional do Bibliotecário (Resolução CFB nº 207/2018)",
+            "Lei nº 12.244/2010 e Lei nº 14.837/2024 (Universalização das bibliotecas escolares / SNBE)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 10.0,
-          moduloRef: 'M2',
-          submodulosRef: ['2.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M1",
+          "submodulosRef": [
+            "1.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 49,
+            "recente2024a2026": 13,
+            "percentual": 2.23
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-3-classificacao',
-      nome: 'Classificação Documentária e Indexação',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm3',
-      moduloHncNumero: 3,
-      descricaoOficial: 'Representação temática de recursos informacionais. Teoria da Classificação. Classificação Decimal de Dewey (CDD). Classificação Decimal Universal (CDU). Classificação Decimal de Direito (CDDir). Linguagens documentárias, tesauros e vocabulários controlados. Indexação pré e pós-coordenada. NBR 12676.',
-      pesoRelativo: 13.0,
-      topicos: [
+      "id": "eixo-2-catalogacao",
+      "nome": "Catalogação, Metadados e Modelos Conceituais",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m2",
+      "moduloHncNumero": 2,
+      "descricaoOficial": "Representação descritiva de documentos. Princípios Internacionais de Catalogação (ICP). Código AACR2r. Padrão RDA (Resource Description and Access). Formato MARC 21 Bibliográfico e de Autoridades. Modelos conceituais FRBR, FRAD, FRSAD e IFLA LRM. Metadados Dublin Core. Notação de autor (Tabelas Cutter-Sanborn e PHA).",
+      "pesoRelativo": 14,
+      "topicos": [
         {
-          id: 'CLS-01',
-          codigoEdital: '3.1',
-          titulo: 'Teoria da Classificação e Classificação Decimal de Dewey (CDD)',
-          detalhamento: [
-            'Princípios e evolução da classificação bibliográfica',
-            'Estrutura hierárquica e notação pura da CDD',
-            'As 10 classes principais, divisões e seções',
-            'Tabelas auxiliares da CDD (Tabela 1: Subdivisões Padrão; Tabela 2: Áreas Geográficas)',
+          "id": "CAT-01",
+          "codigoEdital": "2.1",
+          "titulo": "Princípios Internacionais de Catalogação (ICP) e Código AACR2r",
+          "detalhamento": [
+            "Declaração de Princípios Internacionais de Catalogação (Declaração de Paris de 1961 e ICP de 2016)",
+            "Estrutura e áreas de descrição da ISBD e do AACR2r (8 áreas)",
+            "Determinação e escolha dos pontos de acesso principais e secundários",
+            "Formas de cabeçalhos para pessoas físicas, entidades coletivas, conferências e títulos uniformes"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 10.5,
-          moduloRef: 'M3',
-          submodulosRef: ['3.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M2",
+          "submodulosRef": [
+            "2.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 40,
+          "incidencia": {
+            "total": 96,
+            "recente2024a2026": 19,
+            "percentual": 4.35
+          }
         },
         {
-          id: 'CLS-02',
-          codigoEdital: '3.2',
-          titulo: 'Classificação Decimal Universal (CDU) e Classificação Decimal de Direito (CDDir)',
-          detalhamento: [
-            'Origem da CDU por Paul Otlet e Henri La Fontaine (IIB, 1905)',
-            'Notação facetada mista e tabelas auxiliares da CDU',
-            'Sinais de coordenação e relação (+, /, :, ::, []) e auxiliares comuns',
-            'A Classificação Decimal de Direito de Dóris de Carvalho (CDDir) e aplicação na Câmara',
+          "id": "CAT-02",
+          "codigoEdital": "2.2",
+          "titulo": "RDA (Resource Description and Access) e Modelos Conceituais (Família FRBR e IFLA LRM)",
+          "detalhamento": [
+            "A transição do AACR2 para o padrão RDA: princípios e estrutura",
+            "Modelos conceituais FRBR, FRAD e FRSAD",
+            "O modelo de consolidação IFLA LRM (Library Reference Model)",
+            "As entidades do Grupo 1 WEMI (Work, Expression, Manifestation, Item)",
+            "O fim da Designação Geral do Material (DGM) e a substituição pelos campos 336, 337 e 338"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 13.5,
-          moduloRef: 'M3',
-          submodulosRef: ['3.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M2",
+          "submodulosRef": [
+            "2.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 96,
+            "recente2024a2026": 19,
+            "percentual": 4.35
+          }
         },
         {
-          id: 'CLS-03',
-          codigoEdital: '3.3',
-          titulo: 'Linguagens Documentárias, Tesauros e Vocabulários Controlados',
-          detalhamento: [
-            'Conceito e tipologia das linguagens documentárias (estruturas pré e pós-coordenadas)',
-            'Estrutura de tesauros: termos preferidos e não preferidos',
-            'Relações semânticas: hierárquicas (TG/TE), associativas (TA) e de equivalência (USE/UP)',
-            'Normas ISO 25964 e diretrizes de construção de vocabulários controlados',
+          "id": "CAT-03",
+          "codigoEdital": "2.3",
+          "titulo": "Formato MARC 21 (Bibliográfico, Autoridades e Holdings)",
+          "detalhamento": [
+            "Estrutura física do registro MARC: Líder, Diretório e Campos Variáveis",
+            "Campos de controle (001 a 008) e campos de dados variáveis (01X a 9XX)",
+            "Indicadores e subcampos nos principais blocos (1XX, 2XX, 6XX, 7XX)",
+            "MARC 21 de Autoridades: campos 1XX (autoridade), 4XX (remissiva ver) e 5XX (remissiva ver também)",
+            "Catalogação cooperativa e Rede Virtual de Bibliotecas (RVBI)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.0,
-          moduloRef: 'M3',
-          submodulosRef: ['3.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M2",
+          "submodulosRef": [
+            "2.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 96,
+            "recente2024a2026": 19,
+            "percentual": 4.35
+          }
         },
         {
-          id: 'CLS-04',
-          codigoEdital: '3.4',
-          titulo: 'Processo de Indexação de Assuntos e NBR 12676',
-          detalhamento: [
-            'Etapas canônicas da indexação: exame do documento, identificação de conceitos e tradução',
-            'Exaustividade vs. Especificidade e seus impactos em revocação e precisão',
-            'Indexação pré-coordenada vs. pós-coordenada (Unitérmo de Mortimer Taube)',
-            'Diretrizes da ABNT NBR 12676 (Métodos para análise de documentos e determinação de assuntos)',
+          "id": "CAT-04",
+          "codigoEdital": "2.4",
+          "titulo": "Padrão Dublin Core (DC) e Notação de Autor (Cutter-Sanborn e PHA)",
+          "detalhamento": [
+            "Metadados Dublin Core Simples (15 elementos fundamentais) e Qualificado (termos de refinamento)",
+            "Interoperabilidade e metadados descritivos na Web",
+            "Notação de autor: Tabela Cutter-Sanborn de 3 algarismos",
+            "Tabela PHA (Pergaminho de Heloísa de Almeida Prado)",
+            "Regras práticas de ordenação na estante e montagem do número de chamada"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M3',
-          submodulosRef: ['3.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "ALTA",
+          "moduloRef": "M2",
+          "submodulosRef": [
+            "2.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 96,
+            "recente2024a2026": 19,
+            "percentual": 4.35
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-4-recuperacao',
-      nome: 'Recuperação da Informação, Fontes e Usuários',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm4',
-      moduloHncNumero: 4,
-      descricaoOficial: 'Sistemas de recuperação da informação (SRI). Estratégias de busca e operadores booleanos. Medidas de desempenho (Revocação e Precisão). Tipologia e avaliação de fontes de informação. Fontes de informação jurídica e legislativa. Serviço de referência (Grogan, Taylor). Disseminação Seletiva da Informação (DSI). Estudos de usuários e comportamento informacional.',
-      pesoRelativo: 12.0,
-      topicos: [
+      "id": "eixo-3-classificacao",
+      "nome": "Classificação Documentária e Indexação",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m3",
+      "moduloHncNumero": 3,
+      "descricaoOficial": "Representação temática de recursos informacionais. Teoria da Classificação. Classificação Decimal de Dewey (CDD). Classificação Decimal Universal (CDU). Classificação Decimal de Direito (CDDir). Linguagens documentárias, tesauros e vocabulários controlados. Indexação pré e pós-coordenada. NBR 12676.",
+      "pesoRelativo": 13,
+      "topicos": [
         {
-          id: 'REC-01',
-          codigoEdital: '4.1',
-          titulo: 'Sistemas de Recuperação da Informação, Álgebra Booleana e Métricas (Recall/Precision)',
-          detalhamento: [
-            'Modelos de recuperação: Booleano, Vetorial e Probabilístico',
-            'Operadores booleanos clássicos (AND, OR, NOT) e operadores de proximidade (NEAR, ADJ)',
-            'Cálculo de Revocação (Recall), Precisão (Precision) e F-measure',
-            'O trade-off clássico: por que a elevação da revocação derruba a precisão',
+          "id": "CLS-01",
+          "codigoEdital": "3.1",
+          "titulo": "Teoria da Classificação e Classificação Decimal de Dewey (CDD)",
+          "detalhamento": [
+            "Princípios e evolução da classificação bibliográfica",
+            "Estrutura hierárquica e notação pura da CDD",
+            "As 10 classes principais, divisões e seções",
+            "Tabelas auxiliares da CDD (Tabela 1: Subdivisões Padrão; Tabela 2: Áreas Geográficas)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.5,
-          moduloRef: 'M4',
-          submodulosRef: ['4.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M3",
+          "submodulosRef": [
+            "3.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 40,
+          "incidencia": {
+            "total": 68,
+            "recente2024a2026": 16,
+            "percentual": 3.1
+          }
         },
         {
-          id: 'REC-02',
-          codigoEdital: '4.2',
-          titulo: 'Fontes de Informação Gerais, Jurídicas e Legislativas',
-          detalhamento: [
-            'Tipologia de fontes: primárias, secundárias e terciárias',
-            'Critérios de avaliação de fontes de informação (autoridade, atualidade, precisão, cobertura)',
-            'Fontes de informação jurídica: legislação, jurisprudência e doutrina',
-            'Fontes legislativas federais: Diário Oficial da União (Seções 1, 2 e 3), Rede LexML e Portal da Câmara',
+          "id": "CLS-02",
+          "codigoEdital": "3.2",
+          "titulo": "Classificação Decimal Universal (CDU) e Classificação Decimal de Direito (CDDir)",
+          "detalhamento": [
+            "Origem da CDU por Paul Otlet e Henri La Fontaine (IIB, 1905)",
+            "Notação facetada mista e tabelas auxiliares da CDU",
+            "Sinais de coordenação e relação (+, /, :, ::, []) e auxiliares comuns",
+            "A Classificação Decimal de Direito de Dóris de Carvalho (CDDir) e aplicação na Câmara"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M4',
-          submodulosRef: ['4.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M3",
+          "submodulosRef": [
+            "3.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 68,
+            "recente2024a2026": 16,
+            "percentual": 3.1
+          }
         },
         {
-          id: 'REC-03',
-          codigoEdital: '4.3',
-          titulo: 'Serviço de Referência, Entrevista de Referência (Grogan) e DSI',
-          detalhamento: [
-            'Evolução conceitual do serviço de referência (teorias conservadora, liberal e moderada)',
-            'Os 8 passos do processo de referência de Denis Grogan',
-            'Os 4 níveis de necessidade de informação de Robert S. Taylor (visceral, consciente, formalizada e comprometida)',
-            'Disseminação Seletiva da Informação (DSI / SDI): perfis de interesse e alertas legislativos',
+          "id": "CLS-03",
+          "codigoEdital": "3.3",
+          "titulo": "Linguagens Documentárias, Tesauros e Vocabulários Controlados",
+          "detalhamento": [
+            "Conceito e tipologia das linguagens documentárias (estruturas pré e pós-coordenadas)",
+            "Estrutura de tesauros: termos preferidos e não preferidos",
+            "Relações semânticas: hierárquicas (TG/TE), associativas (TA) e de equivalência (USE/UP)",
+            "Normas ISO 25964 e diretrizes de construção de vocabulários controlados"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.0,
-          moduloRef: 'M4',
-          submodulosRef: ['4.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M3",
+          "submodulosRef": [
+            "3.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 68,
+            "recente2024a2026": 16,
+            "percentual": 3.1
+          }
         },
         {
-          id: 'REC-04',
-          codigoEdital: '4.4',
-          titulo: 'Estudos de Usuários, Comportamento Informacional e Competência em Informação',
-          detalhamento: [
-            'Metodologias quantitativas e qualitativas de estudos de usuários',
-            'Abordagem orientada ao sistema vs. abordagem alternativa orientada ao usuário (Dervin Sense-Making)',
-            'Modelos de busca de informação de Wilson, Ellis e Kuhlthau (Information Search Process - ISP)',
-            'Competência informacional (Information Literacy / Letramento Informacional)',
+          "id": "CLS-04",
+          "codigoEdital": "3.4",
+          "titulo": "Processo de Indexação de Assuntos e NBR 12676",
+          "detalhamento": [
+            "Etapas canônicas da indexação: exame do documento, identificação de conceitos e tradução",
+            "Exaustividade vs. Especificidade e seus impactos em revocação e precisão",
+            "Indexação pré-coordenada vs. pós-coordenada (Unitérmo de Mortimer Taube)",
+            "Diretrizes da ABNT NBR 12676 (Métodos para análise de documentos e determinação de assuntos)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 10.0,
-          moduloRef: 'M4',
-          submodulosRef: ['4.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "ALTA",
+          "moduloRef": "M3",
+          "submodulosRef": [
+            "3.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 68,
+            "recente2024a2026": 16,
+            "percentual": 3.1
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-5-gestao',
-      nome: 'Gestão de Unidades de Informação e Coleções',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm5',
-      moduloHncNumero: 5,
-      descricaoOficial: 'Planejamento estratégico, tático e operacional em unidades de informação. Avaliação de serviços e indicadores de desempenho. Marketing de serviços de informação. Política de desenvolvimento de coleções (Vergueiro): estudo da comunidade, seleção, aquisição, desbastamento, descarte e avaliação.',
-      pesoRelativo: 9.0,
-      topicos: [
+      "id": "eixo-4-recuperacao",
+      "nome": "Recuperação da Informação, Fontes e Usuários",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m4",
+      "moduloHncNumero": 4,
+      "descricaoOficial": "Sistemas de recuperação da informação (SRI). Estratégias de busca e operadores booleanos. Medidas de desempenho (Revocação e Precisão). Tipologia e avaliação de fontes de informação. Fontes de informação jurídica e legislativa. Serviço de referência (Grogan, Taylor). Disseminação Seletiva da Informação (DSI). Estudos de usuários e comportamento informacional.",
+      "pesoRelativo": 12,
+      "topicos": [
         {
-          id: 'GES-01',
-          codigoEdital: '5.1',
-          titulo: 'Planejamento Estratégico, Tático e Operacional em Unidades de Informação',
-          detalhamento: [
-            'Etapas do planejamento em bibliotecas (Almeida, Maciel)',
-            'Missão, visão, valores e análise de ambiente (Matriz SWOT/FOFA)',
-            'Gestão da qualidade e indicadores de desempenho (ISO 11620)',
+          "id": "REC-01",
+          "codigoEdital": "4.1",
+          "titulo": "Sistemas de Recuperação da Informação, Álgebra Booleana e Métricas (Recall/Precision)",
+          "detalhamento": [
+            "Modelos de recuperação: Booleano, Vetorial e Probabilístico",
+            "Operadores booleanos clássicos (AND, OR, NOT) e operadores de proximidade (NEAR, ADJ)",
+            "Cálculo de Revocação (Recall), Precisão (Precision) e F-measure",
+            "O trade-off clássico: por que a elevação da revocação derruba a precisão"
           ],
-          prioridade: 'MEDIA',
-          incidenciaHistoricaCebraspe: 7.5,
-          moduloRef: 'M5',
-          submodulosRef: ['5.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M4",
+          "submodulosRef": [
+            "4.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 38,
+          "incidencia": {
+            "total": 81,
+            "recente2024a2026": 19,
+            "percentual": 3.67
+          }
         },
         {
-          id: 'GES-02',
-          codigoEdital: '5.2',
-          titulo: 'Marketing e Gestão do Conhecimento em Serviços de Informação',
-          detalhamento: [
-            'Marketing de serviços e os 4 Ps em bibliotecas (Amaral)',
-            'Segmentação de público e posicionamento de serviços de informação parlamentar',
-            'Gestão da informação e do conhecimento: modelo SECI de Nonaka & Takeuchi',
+          "id": "REC-02",
+          "codigoEdital": "4.2",
+          "titulo": "Fontes de Informação Gerais, Jurídicas e Legislativas",
+          "detalhamento": [
+            "Tipologia de fontes: primárias, secundárias e terciárias",
+            "Critérios de avaliação de fontes de informação (autoridade, atualidade, precisão, cobertura)",
+            "Fontes de informação jurídica: legislação, jurisprudência e doutrina",
+            "Fontes legislativas federais: Diário Oficial da União (Seções 1, 2 e 3), Rede LexML e Portal da Câmara"
           ],
-          prioridade: 'MEDIA',
-          incidenciaHistoricaCebraspe: 7.0,
-          moduloRef: 'M5',
-          submodulosRef: ['5.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M4",
+          "submodulosRef": [
+            "4.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 81,
+            "recente2024a2026": 19,
+            "percentual": 3.67
+          }
         },
         {
-          id: 'GES-03',
-          codigoEdital: '5.3',
-          titulo: 'Política de Desenvolvimento de Coleções e Etapas de Vergueiro',
-          detalhamento: [
-            'Conceito e importância de uma política escrita de desenvolvimento de coleções',
-            'O ciclo de 6 etapas de Waldomiro Vergueiro',
-            'Estudo da comunidade vs. Seleção: critérios intrínsecos e extrínsecos',
-            'Modalidades de aquisição: compra, doação e permuta',
-            'Desbastamento (remanejamento para depósito) vs. Descarte (baixa patrimonial definitiva)',
+          "id": "REC-03",
+          "codigoEdital": "4.3",
+          "titulo": "Serviço de Referência, Entrevista de Referência (Grogan) e DSI",
+          "detalhamento": [
+            "Evolução conceitual do serviço de referência (teorias conservadora, liberal e moderada)",
+            "Os 8 passos do processo de referência de Denis Grogan",
+            "Os 4 níveis de necessidade de informação de Robert S. Taylor (visceral, consciente, formalizada e comprometida)",
+            "Disseminação Seletiva da Informação (DSI / SDI): perfis de interesse e alertas legislativos"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.5,
-          moduloRef: 'M5',
-          submodulosRef: ['5.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M4",
+          "submodulosRef": [
+            "4.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 81,
+            "recente2024a2026": 19,
+            "percentual": 3.67
+          }
         },
         {
-          id: 'GES-04',
-          codigoEdital: '5.4',
-          titulo: 'Avaliação de Coleções e Formação de Redes Cooperativas',
-          detalhamento: [
-            'Métodos de avaliação de coleções centrados na coleção (quantitativos e qualitativos) e centrados no usuário',
-            'Aquisição cooperativa e consórcios bibliotecários',
-            'Coleções especiais e gestão de documentos parlamentares',
+          "id": "REC-04",
+          "codigoEdital": "4.4",
+          "titulo": "Estudos de Usuários, Comportamento Informacional e Competência em Informação",
+          "detalhamento": [
+            "Metodologias quantitativas e qualitativas de estudos de usuários",
+            "Abordagem orientada ao sistema vs. abordagem alternativa orientada ao usuário (Dervin Sense-Making)",
+            "Modelos de busca de informação de Wilson, Ellis e Kuhlthau (Information Search Process - ISP)",
+            "Competência informacional (Information Literacy / Letramento Informacional)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 8.0,
-          moduloRef: 'M5',
-          submodulosRef: ['5.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "ALTA",
+          "moduloRef": "M4",
+          "submodulosRef": [
+            "4.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 81,
+            "recente2024a2026": 19,
+            "percentual": 3.67
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-6-digital-ia',
-      nome: 'Bibliotecas Digitais, Repositórios e Inteligência Artificial',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm6',
-      moduloHncNumero: 6,
-      descricaoOficial: 'Bibliotecas digitais, eletrônicas e virtuais. Arquitetura da informação e usabilidade. Repositórios institucionais (DSpace). Protocolo OAI-PMH e interoperabilidade. Inteligência Artificial e Modelos de Linguagem aplicados à Biblioteconomia e Gestão de Documentos.',
-      pesoRelativo: 10.5,
-      topicos: [
+      "id": "eixo-5-gestao",
+      "nome": "Gestão de Unidades de Informação e Coleções",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m5",
+      "moduloHncNumero": 5,
+      "descricaoOficial": "Planejamento estratégico, tático e operacional em unidades de informação. Avaliação de serviços e indicadores de desempenho. Marketing de serviços de informação. Política de desenvolvimento de coleções (Vergueiro): estudo da comunidade, seleção, aquisição, desbastamento, descarte e avaliação.",
+      "pesoRelativo": 9,
+      "topicos": [
         {
-          id: 'DIG-01',
-          codigoEdital: '6.1',
-          titulo: 'Conceituação de Biblioteca Digital, Eletrônica e Virtual e Arquitetura da Informação',
-          detalhamento: [
-            'Distinções conceituais canônicas (Rowley, Tammaro): tradicional, eletrônica, digital e virtual',
-            'Arquitetura da informação (Rosenfeld, Morville): sistemas de organização, rotulagem, navegação e busca',
-            'Usabilidade, acessibilidade na web (e-MAG, WCAG) e design centrado no usuário',
+          "id": "GES-01",
+          "codigoEdital": "5.1",
+          "titulo": "Planejamento Estratégico, Tático e Operacional em Unidades de Informação",
+          "detalhamento": [
+            "Etapas do planejamento em bibliotecas (Almeida, Maciel)",
+            "Missão, visão, valores e análise de ambiente (Matriz SWOT/FOFA)",
+            "Gestão da qualidade e indicadores de desempenho (ISO 11620)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.0,
-          moduloRef: 'M6',
-          submodulosRef: ['6.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "MEDIA",
+          "moduloRef": "M5",
+          "submodulosRef": [
+            "5.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 37,
+          "incidencia": {
+            "total": 73,
+            "recente2024a2026": 12,
+            "percentual": 3.3
+          }
         },
         {
-          id: 'DIG-02',
-          codigoEdital: '6.2',
-          titulo: 'Repositórios Institucionais, DSpace e Protocolo OAI-PMH',
-          detalhamento: [
-            'Repositórios digitais abertos e software DSpace (comunidades, coleções e itens)',
-            'Protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting)',
-            'Verbos OAI-PMH: Identify, ListMetadataFormats, ListSets, ListIdentifiers, ListRecords, GetRecord',
-            'Interoperabilidade sintática e semântica',
+          "id": "GES-02",
+          "codigoEdital": "5.2",
+          "titulo": "Marketing e Gestão do Conhecimento em Serviços de Informação",
+          "detalhamento": [
+            "Marketing de serviços e os 4 Ps em bibliotecas (Amaral)",
+            "Segmentação de público e posicionamento de serviços de informação parlamentar",
+            "Gestão da informação e do conhecimento: modelo SECI de Nonaka & Takeuchi"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M6',
-          submodulosRef: ['6.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "MEDIA",
+          "moduloRef": "M5",
+          "submodulosRef": [
+            "5.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 73,
+            "recente2024a2026": 12,
+            "percentual": 3.3
+          }
         },
         {
-          id: 'DIG-03',
-          codigoEdital: '6.3',
-          titulo: 'Sistemas Integrados de Gestão de Bibliotecas (SIGB) e Softwares Livres',
-          detalhamento: [
-            'Módulos de um SIGB: aquisição, catalogação, circulação, seriados e OPAC',
-            'Softwares livres para bibliotecas e arquivos: Koha, DSpace, AtoM (Access to Memory)',
-            'Padrões de exportação e migração de bases bibliográficas',
+          "id": "GES-03",
+          "codigoEdital": "5.3",
+          "titulo": "Política de Desenvolvimento de Coleções e Etapas de Vergueiro",
+          "detalhamento": [
+            "Conceito e importância de uma política escrita de desenvolvimento de coleções",
+            "O ciclo de 6 etapas de Waldomiro Vergueiro",
+            "Estudo da comunidade vs. Seleção: critérios intrínsecos e extrínsecos",
+            "Modalidades de aquisição: compra, doação e permuta",
+            "Desbastamento (remanejamento para depósito) vs. Descarte (baixa patrimonial definitiva)"
           ],
-          prioridade: 'MEDIA',
-          incidenciaHistoricaCebraspe: 7.0,
-          moduloRef: 'M6',
-          submodulosRef: ['6.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M5",
+          "submodulosRef": [
+            "5.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 73,
+            "recente2024a2026": 12,
+            "percentual": 3.3
+          }
         },
         {
-          id: 'DIG-04',
-          codigoEdital: '6.4',
-          titulo: 'Inteligência Artificial, Modelos de Linguagem (LLM) e RAG em Bibliotecas',
-          detalhamento: [
-            'Aplicações de IA em bibliotecas: catalogação assistida, indexação automática e recomendação',
-            'Modelos de Linguagem de Grande Porte (LLMs) e arquitetura RAG (Retrieval-Augmented Generation)',
-            'Dados abertos conectados (Linked Open Data), ontologias e governança ética da IA',
-            'O Guia de Uso Responsável de IA da Câmara dos Deputados',
+          "id": "GES-04",
+          "codigoEdital": "5.4",
+          "titulo": "Avaliação de Coleções e Formação de Redes Cooperativas",
+          "detalhamento": [
+            "Métodos de avaliação de coleções centrados na coleção (quantitativos e qualitativos) e centrados no usuário",
+            "Aquisição cooperativa e consórcios bibliotecários",
+            "Coleções especiais e gestão de documentos parlamentares"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.0,
-          moduloRef: 'M6',
-          submodulosRef: ['6.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "ALTA",
+          "moduloRef": "M5",
+          "submodulosRef": [
+            "5.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 73,
+            "recente2024a2026": 12,
+            "percentual": 3.3
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-7-preservacao',
-      nome: 'Preservação, Conservação e Memória Institucional',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm7',
-      moduloHncNumero: 7,
-      descricaoOficial: 'Preservação física, conservação preventiva e restauração de acervos documentais. Agentes de deterioração ambiental, biológica e antrópica. Princípio da reversibilidade. Preservação digital. Modelo de referência OAIS (ISO 14721). Metadados PREMIS e METS. Diretrizes RDC-Arq (Resolução CONARQ nº 43/2015).',
-      pesoRelativo: 9.0,
-      topicos: [
+      "id": "eixo-6-digital-ia",
+      "nome": "Bibliotecas Digitais, Repositórios e Inteligência Artificial",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m6",
+      "moduloHncNumero": 6,
+      "descricaoOficial": "Bibliotecas digitais, eletrônicas e virtuais. Arquitetura da informação e usabilidade. Repositórios institucionais (DSpace). Protocolo OAI-PMH e interoperabilidade. Inteligência Artificial e Modelos de Linguagem aplicados à Biblioteconomia e Gestão de Documentos.",
+      "pesoRelativo": 10.5,
+      "topicos": [
         {
-          id: 'PRE-01',
-          codigoEdital: '7.1',
-          titulo: 'Preservação Física e Conservação Preventiva de Documentos',
-          detalhamento: [
-            'Conceitos de preservação, conservação preventiva e restauração',
-            'Agentes ambientais de degradação: temperatura, umidade relativa, luz (radiação UV/visível) e poluentes',
-            'Agentes biológicos: insetos bibliófagos (brocas, traças, cupins), roedores e fungos/bolores',
-            'Composição do papel: fibras de celulose, lignina, acidez e hidrólise ácida',
+          "id": "DIG-01",
+          "codigoEdital": "6.1",
+          "titulo": "Conceituação de Biblioteca Digital, Eletrônica e Virtual e Arquitetura da Informação",
+          "detalhamento": [
+            "Distinções conceituais canônicas (Rowley, Tammaro): tradicional, eletrônica, digital e virtual",
+            "Arquitetura da informação (Rosenfeld, Morville): sistemas de organização, rotulagem, navegação e busca",
+            "Usabilidade, acessibilidade na web (e-MAG, WCAG) e design centrado no usuário"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.0,
-          moduloRef: 'M7',
-          submodulosRef: ['7.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M6",
+          "submodulosRef": [
+            "6.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 36,
+          "incidencia": {
+            "total": 47,
+            "recente2024a2026": 15,
+            "percentual": 2.13
+          }
         },
         {
-          id: 'PRE-02',
-          codigoEdital: '7.2',
-          titulo: 'Técnicas de Intervenção, Restauração e Princípio da Reversibilidade',
-          detalhamento: [
-            'Higienização mecânica e desinfestação (anoxia/atmosfera modificada vs. expurgo químico)',
-            'Pequenos reparos, enxertos e consolidação de suportes',
-            'O Princípio da Reversibilidade e a não descaracterização do documento histórico',
-            'Planos de contingência e prevenção de desastres (incêndios, inundações, infestações)',
+          "id": "DIG-02",
+          "codigoEdital": "6.2",
+          "titulo": "Repositórios Institucionais, DSpace e Protocolo OAI-PMH",
+          "detalhamento": [
+            "Repositórios digitais abertos e software DSpace (comunidades, coleções e itens)",
+            "Protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting)",
+            "Verbos OAI-PMH: Identify, ListMetadataFormats, ListSets, ListIdentifiers, ListRecords, GetRecord",
+            "Interoperabilidade sintática e semântica"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 8.5,
-          moduloRef: 'M7',
-          submodulosRef: ['7.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M6",
+          "submodulosRef": [
+            "6.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 47,
+            "recente2024a2026": 15,
+            "percentual": 2.13
+          }
         },
         {
-          id: 'PRE-03',
-          codigoEdital: '7.3',
-          titulo: 'Preservação Digital e Modelo de Referência OAIS (ISO 14721)',
-          detalhamento: [
-            'Estratégias de preservação digital: migração de formatos, emulação, encapsulamento e conservação de tecnologia',
-            'Modelo OAIS (Open Archival Information System / ISO 14721)',
-            'Os pacotes informacionais OAIS: SIP (Submissão), AIP (Arquivamento) e DIP (Disseminação)',
-            'Ambiente conceitual: Produtor, Consumidor e Gestão do Repositório',
+          "id": "DIG-03",
+          "codigoEdital": "6.3",
+          "titulo": "Sistemas Integrados de Gestão de Bibliotecas (SIGB) e Softwares Livres",
+          "detalhamento": [
+            "Módulos de um SIGB: aquisição, catalogação, circulação, seriados e OPAC",
+            "Softwares livres para bibliotecas e arquivos: Koha, DSpace, AtoM (Access to Memory)",
+            "Padrões de exportação e migração de bases bibliográficas"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.5,
-          moduloRef: 'M7',
-          submodulosRef: ['7.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "MEDIA",
+          "moduloRef": "M6",
+          "submodulosRef": [
+            "6.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 29,
+          "incidencia": {
+            "total": 47,
+            "recente2024a2026": 15,
+            "percentual": 2.13
+          }
         },
         {
-          id: 'PRE-04',
-          codigoEdital: '7.4',
-          titulo: 'Metadados de Preservação (PREMIS, METS) e Diretrizes RDC-Arq',
-          detalhamento: [
-            'Padrão de metadados PREMIS (Preservation Metadata: Implementation Strategies) e suas 5 entidades',
-            'Padrão METS (Metadata Encoding and Transmission Standard) e mapa estrutural',
-            'Níveis de preservação digital da NDSA (Levels of Digital Preservation)',
-            'Resolução CONARQ nº 43/2015 (RDC-Arq) e certificação de repositórios digitais confiáveis (ISO 16363)',
+          "id": "DIG-04",
+          "codigoEdital": "6.4",
+          "titulo": "Inteligência Artificial, Modelos de Linguagem (LLM) e RAG em Bibliotecas",
+          "detalhamento": [
+            "Aplicações de IA em bibliotecas: catalogação assistida, indexação automática e recomendação",
+            "Modelos de Linguagem de Grande Porte (LLMs) e arquitetura RAG (Retrieval-Augmented Generation)",
+            "Dados abertos conectados (Linked Open Data), ontologias e governança ética da IA",
+            "O Guia de Uso Responsável de IA da Câmara dos Deputados"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M7',
-          submodulosRef: ['7.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M6",
+          "submodulosRef": [
+            "6.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 47,
+            "recente2024a2026": 15,
+            "percentual": 2.13
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-8-normalizacao',
-      nome: 'Normalização Documental e ABNT',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm8',
-      moduloHncNumero: 8,
-      descricaoOficial: 'Normas técnicas da ABNT para informação e documentação: NBR 6023 (Referências), NBR 10520 (Citações - edição 2023), NBR 6028 (Resumos), NBR 6027 (Sumários), NBR 6034 (Índices), NBR 14724 (Trabalhos acadêmicos) e NBR 6022 (Artigos em publicação periódica).',
-      pesoRelativo: 10.0,
-      topicos: [
+      "id": "eixo-7-preservacao",
+      "nome": "Preservação, Conservação e Memória Institucional",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m7",
+      "moduloHncNumero": 7,
+      "descricaoOficial": "Preservação física, conservação preventiva e restauração de acervos documentais. Agentes de deterioração ambiental, biológica e antrópica. Princípio da reversibilidade. Preservação digital. Modelo de referência OAIS (ISO 14721). Metadados PREMIS e METS. Diretrizes RDC-Arq (Resolução CONARQ nº 43/2015).",
+      "pesoRelativo": 9,
+      "topicos": [
         {
-          id: 'NOR-01',
-          codigoEdital: '8.1',
-          titulo: 'ABNT NBR 6023:2025 (Referências — Elaboração)',
-          detalhamento: [
-            'Elementos essenciais e complementares de referências para monografias no todo e em parte',
-            'Publicações periódicas, artigos de revista e matérias de jornal',
-            'Documentos jurídicos (legislação, jurisprudência e atos administrativos normativos)',
-            'Documentos em meio eletrônico e ordenação da lista de referências (sistema alfabético e numérico)',
+          "id": "PRE-01",
+          "codigoEdital": "7.1",
+          "titulo": "Preservação Física e Conservação Preventiva de Documentos",
+          "detalhamento": [
+            "Conceitos de preservação, conservação preventiva e restauração",
+            "Agentes ambientais de degradação: temperatura, umidade relativa, luz (radiação UV/visível) e poluentes",
+            "Agentes biológicos: insetos bibliófagos (brocas, traças, cupins), roedores e fungos/bolores",
+            "Composição do papel: fibras de celulose, lignina, acidez e hidrólise ácida"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.0,
-          moduloRef: 'M8',
-          submodulosRef: ['8.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M7",
+          "submodulosRef": [
+            "7.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 34,
+          "incidencia": {
+            "total": 4,
+            "recente2024a2026": 1,
+            "percentual": 0.17
+          }
         },
         {
-          id: 'NOR-02',
-          codigoEdital: '8.2',
-          titulo: 'ABNT NBR 10520:2023 (Citações em Documentos — Nova Edição)',
-          detalhamento: [
-            'A revolução da NBR 10520:2023: fim da caixa alta obrigatória para autoria no texto corrido e entre parênteses',
-            'Citações diretas curtas (até 3 linhas, entre aspas duplas)',
-            'Citações diretas longas (mais de 3 linhas: recuo de 4 cm, fonte menor, espaçamento simples, sem aspas)',
-            'Citações indiretas (paráfrase) e citação de citação (apud)',
-            'Expressões latinas de citação: ibidem, idem, opus citatum, passim, loco citato, et al.',
+          "id": "PRE-02",
+          "codigoEdital": "7.2",
+          "titulo": "Técnicas de Intervenção, Restauração e Princípio da Reversibilidade",
+          "detalhamento": [
+            "Higienização mecânica e desinfestação (anoxia/atmosfera modificada vs. expurgo químico)",
+            "Pequenos reparos, enxertos e consolidação de suportes",
+            "O Princípio da Reversibilidade e a não descaracterização do documento histórico",
+            "Planos de contingência e prevenção de desastres (incêndios, inundações, infestações)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 14.0,
-          moduloRef: 'M8',
-          submodulosRef: ['8.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M7",
+          "submodulosRef": [
+            "7.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 4,
+            "recente2024a2026": 1,
+            "percentual": 0.17
+          }
         },
         {
-          id: 'NOR-03',
-          codigoEdital: '8.3',
-          titulo: 'ABNT NBR 6028:2021 (Resumos) e Distinções entre Sumário (NBR 6027) e Índice (NBR 6034)',
-          detalhamento: [
-            'Tipos de resumo: indicativo, informativo e crítico/recensão',
-            'Extensões recomendadas: 150-500 palavras (relatórios/teses), 100-250 palavras (artigos), 50-100 (notas)',
-            'Regra formal: parágrafo único e verbo na 3ª pessoa do singular',
-            'Sumário (NBR 6027): último elemento pré-textual na ordem sequencial da obra',
-            'Índice (NBR 6034): elemento pós-textual ordenado segundo critério alfabético ou temático',
+          "id": "PRE-03",
+          "codigoEdital": "7.3",
+          "titulo": "Preservação Digital e Modelo de Referência OAIS (ISO 14721)",
+          "detalhamento": [
+            "Estratégias de preservação digital: migração de formatos, emulação, encapsulamento e conservação de tecnologia",
+            "Modelo OAIS (Open Archival Information System / ISO 14721)",
+            "Os pacotes informacionais OAIS: SIP (Submissão), AIP (Arquivamento) e DIP (Disseminação)",
+            "Ambiente conceitual: Produtor, Consumidor e Gestão do Repositório"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.5,
-          moduloRef: 'M8',
-          submodulosRef: ['8.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M7",
+          "submodulosRef": [
+            "7.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 4,
+            "recente2024a2026": 1,
+            "percentual": 0.17
+          }
         },
         {
-          id: 'NOR-04',
-          codigoEdital: '8.4',
-          titulo: 'ABNT NBR 14724 (Trabalhos Acadêmicos) e NBR 6022 (Artigos de Periódicos)',
-          detalhamento: [
-            'Estrutura do documento: elementos pré-textuais, textuais e pós-textuais obrigatórios e opcionais',
-            'Formatação: margens (esquerda/superior 3cm, direita/inferior 2cm), paginação, espaçamento e títulos',
-            'Apresentação de artigos em publicações periódicas técnico-científicas (NBR 6022)',
+          "id": "PRE-04",
+          "codigoEdital": "7.4",
+          "titulo": "Metadados de Preservação (PREMIS, METS) e Diretrizes RDC-Arq",
+          "detalhamento": [
+            "Padrão de metadados PREMIS (Preservation Metadata: Implementation Strategies) e suas 5 entidades",
+            "Padrão METS (Metadata Encoding and Transmission Standard) e mapa estrutural",
+            "Níveis de preservação digital da NDSA (Levels of Digital Preservation)",
+            "Resolução CONARQ nº 43/2015 (RDC-Arq) e certificação de repositórios digitais confiáveis (ISO 16363)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.5,
-          moduloRef: 'M8',
-          submodulosRef: ['8.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M7",
+          "submodulosRef": [
+            "7.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 4,
+            "recente2024a2026": 1,
+            "percentual": 0.17
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-9-comunicacao-metricas',
-      nome: 'Comunicação Científica, Ciência Aberta e Métricas',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm9',
-      moduloHncNumero: 9,
-      descricaoOficial: 'O ciclo da comunicação científica e avaliação por pares. Ciência Aberta, Acesso Aberto (vias verde e dourada) e Princípios FAIR. Estudos métricos da informação: bibliometria, cientometria, informetria e webometria. As três leis clássicas: Bradford (dispersão de periódicos), Lotka (produtividade de autores) e Zipf (frequência de palavras). Indicadores de citação: fator de impacto, índice h e altmetria.',
-      pesoRelativo: 10.5,
-      topicos: [
+      "id": "eixo-8-normalizacao",
+      "nome": "Normalização Documental e ABNT",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m8",
+      "moduloHncNumero": 8,
+      "descricaoOficial": "Normas técnicas da ABNT para informação e documentação: NBR 6023 (Referências), NBR 10520 (Citações - edição 2023), NBR 6028 (Resumos), NBR 6027 (Sumários), NBR 6034 (Índices), NBR 14724 (Trabalhos acadêmicos) e NBR 6022 (Artigos em publicação periódica).",
+      "pesoRelativo": 10,
+      "topicos": [
         {
-          id: 'COM-01',
-          codigoEdital: '9.1',
-          titulo: 'Ciclo da Comunicação Científica, Revisão por Pares e Ciência Aberta',
-          detalhamento: [
-            'Modelos do ciclo de transferência da informação científica (Garvey & Griffith)',
-            'Modalidades de avaliação pelos pares: simples-cego, duplo-cego e avaliação por pares aberta (Open Peer Review)',
-            'Pilares da Ciência Aberta: acesso aberto, dados abertos, ciência cidadã e recursos educacionais abertos',
+          "id": "NOR-01",
+          "codigoEdital": "8.1",
+          "titulo": "ABNT NBR 6023:2025 (Referências — Elaboração)",
+          "detalhamento": [
+            "Elementos essenciais e complementares de referências para monografias no todo e em parte",
+            "Publicações periódicas, artigos de revista e matérias de jornal",
+            "Documentos jurídicos (legislação, jurisprudência e atos administrativos normativos)",
+            "Documentos em meio eletrônico e ordenação da lista de referências (sistema alfabético e numérico)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.0,
-          moduloRef: 'M9',
-          submodulosRef: ['9.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M8",
+          "submodulosRef": [
+            "8.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 37,
+          "incidencia": {
+            "total": 63,
+            "recente2024a2026": 11,
+            "percentual": 2.88
+          }
         },
         {
-          id: 'COM-02',
-          codigoEdital: '9.2',
-          titulo: 'Acesso Aberto, Princípios FAIR e Gestão de Dados de Pesquisa',
-          detalhamento: [
-            'Declarações de Budapeste (BOAI), Bethesda e Berlim',
-            'Vias de acesso aberto: Via Dourada (periódicos abertos), Via Verde (autoarquivamento em repositórios) e Via Diamante',
-            'Princípios FAIR para gestão de dados: Findable, Accessible, Interoperable e Reusable',
-            'Planos de Gestão de Dados (PGD) e curadoria digital de dados de pesquisa',
+          "id": "NOR-02",
+          "codigoEdital": "8.2",
+          "titulo": "ABNT NBR 10520:2023 (Citações em Documentos — Nova Edição)",
+          "detalhamento": [
+            "A revolução da NBR 10520:2023: fim da caixa alta obrigatória para autoria no texto corrido e entre parênteses",
+            "Citações diretas curtas (até 3 linhas, entre aspas duplas)",
+            "Citações diretas longas (mais de 3 linhas: recuo de 4 cm, fonte menor, espaçamento simples, sem aspas)",
+            "Citações indiretas (paráfrase) e citação de citação (apud)",
+            "Expressões latinas de citação: ibidem, idem, opus citatum, passim, loco citato, et al."
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 11.5,
-          moduloRef: 'M9',
-          submodulosRef: ['9.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M8",
+          "submodulosRef": [
+            "8.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 63,
+            "recente2024a2026": 11,
+            "percentual": 2.88
+          }
         },
         {
-          id: 'COM-03',
-          codigoEdital: '9.3',
-          titulo: 'Estudos Métricos da Informação e as Três Leis Bibliométricas Clássicas',
-          detalhamento: [
-            'Diferenças conceituais entre bibliometria, cientometria, informetria e webometria',
-            'Lei de Bradford (1934): lei da dispersão da literatura periódica em zonas concêntricas (1 : n : n²)',
-            'Lei de Lotka (1926): produtividade científica dos autores segundo a lei do quadrado inverso (1/n²)',
-            'Lei de Zipf (1949): frequência e ordem de palavras em textos (r × f = C) e ponto de transição de Goffman',
+          "id": "NOR-03",
+          "codigoEdital": "8.3",
+          "titulo": "ABNT NBR 6028:2021 (Resumos) e Distinções entre Sumário (NBR 6027) e Índice (NBR 6034)",
+          "detalhamento": [
+            "Tipos de resumo: indicativo, informativo e crítico/recensão",
+            "Extensões recomendadas: 150-500 palavras (relatórios/teses), 100-250 palavras (artigos), 50-100 (notas)",
+            "Regra formal: parágrafo único e verbo na 3ª pessoa do singular",
+            "Sumário (NBR 6027): último elemento pré-textual na ordem sequencial da obra",
+            "Índice (NBR 6034): elemento pós-textual ordenado segundo critério alfabético ou temático"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 13.5,
-          moduloRef: 'M9',
-          submodulosRef: ['9.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M8",
+          "submodulosRef": [
+            "8.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 63,
+            "recente2024a2026": 11,
+            "percentual": 2.88
+          }
         },
         {
-          id: 'COM-04',
-          codigoEdital: '9.4',
-          titulo: 'Indicadores Cientométricos (Fator de Impacto, Índice h) e Altmetria',
-          detalhamento: [
-            'Fator de Impacto (Journal Citation Reports - JCR) e cálculo no período de 2 anos',
-            'Índice h de Jorge Hirsch: definição, cálculo prático e propriedades matemáticas',
-            'Altmetria (Altmetrics): mensuração de circulação e atenção social em tempo real na web',
-            'Direitos autorais, licenças Creative Commons (BY, SA, NC, ND) e propriedade intelectual',
+          "id": "NOR-04",
+          "codigoEdital": "8.4",
+          "titulo": "ABNT NBR 14724 (Trabalhos Acadêmicos) e NBR 6022 (Artigos de Periódicos)",
+          "detalhamento": [
+            "Estrutura do documento: elementos pré-textuais, textuais e pós-textuais obrigatórios e opcionais",
+            "Formatação: margens (esquerda/superior 3cm, direita/inferior 2cm), paginação, espaçamento e títulos",
+            "Apresentação de artigos em publicações periódicas técnico-científicas (NBR 6022)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 10.0,
-          moduloRef: 'M9',
-          submodulosRef: ['9.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "ALTA",
+          "moduloRef": "M8",
+          "submodulosRef": [
+            "8.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 63,
+            "recente2024a2026": 11,
+            "percentual": 2.88
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-10-legislativo',
-      nome: 'Legislação Federal, Contexto Institucional e Regimento Interno',
-      bloco: 'CONHECIMENTOS_ESPECIFICOS',
-      moduloHncId: 'm10',
-      moduloHncNumero: 10,
-      descricaoOficial: 'Regimento Interno da Câmara dos Deputados (RICD). O Processo Legislativo Constitucional (arts. 59 a 69 da CF/88). Estrutura organizacional da Câmara dos Deputados e atribuições do Centro de Documentação e Informação (CEDI). Lei de Acesso à Informação (Lei nº 12.527/2011). Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Legislação de Depósito Legal.',
-      pesoRelativo: 12.0,
-      topicos: [
+      "id": "eixo-9-comunicacao-metricas",
+      "nome": "Comunicação Científica, Ciência Aberta e Métricas",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m9",
+      "moduloHncNumero": 9,
+      "descricaoOficial": "O ciclo da comunicação científica e avaliação por pares. Ciência Aberta, Acesso Aberto (vias verde e dourada) e Princípios FAIR. Estudos métricos da informação: bibliometria, cientometria, informetria e webometria. As três leis clássicas: Bradford (dispersão de periódicos), Lotka (produtividade de autores) e Zipf (frequência de palavras). Indicadores de citação: fator de impacto, índice h e altmetria.",
+      "pesoRelativo": 10.5,
+      "topicos": [
         {
-          id: 'LEG-01',
-          codigoEdital: '10.1',
-          titulo: 'Regimento Interno da Câmara dos Deputados (RICD) e Órgãos da Casa',
-          detalhamento: [
-            'Mesa Diretora, Colégio de Líderes e Comissões Permanentes e Temporárias',
-            'Atribuições específicas da Comissão de Constituição e Justiça e de Cidadania (CCJC)',
-            'Tipos de proposições legislativas: PEC, PLP, PL, PDC, PRC, MPV, Emendas e Requerimentos',
-            'Sessões deliberativas de Plenário e quóruns de votação (maioria simples, absoluta e qualificada)',
+          "id": "COM-01",
+          "codigoEdital": "9.1",
+          "titulo": "Ciclo da Comunicação Científica, Revisão por Pares e Ciência Aberta",
+          "detalhamento": [
+            "Modelos do ciclo de transferência da informação científica (Garvey & Griffith)",
+            "Modalidades de avaliação pelos pares: simples-cego, duplo-cego e avaliação por pares aberta (Open Peer Review)",
+            "Pilares da Ciência Aberta: acesso aberto, dados abertos, ciência cidadã e recursos educacionais abertos"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 13.0,
-          moduloRef: 'M10',
-          submodulosRef: ['10.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M9",
+          "submodulosRef": [
+            "9.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 37,
+          "incidencia": {
+            "total": 20,
+            "recente2024a2026": 7,
+            "percentual": 0.93
+          }
         },
         {
-          id: 'LEG-02',
-          codigoEdital: '10.2',
-          titulo: 'Processo Legislativo Constitucional e Tramitação de Normas Primárias',
-          detalhamento: [
-            'Fases do processo legislativo constitucional (CF/88, arts. 59 a 69): iniciativa, deliberação, revisão, sanção/veto, promulgação e publicação',
-            'Prazos constitucionais: prazo de veto presidencial de 15 dias úteis',
-            'Apreciação de Medidas Provisórias (art. 62 da CF/88) e comissão mista',
-            'Atuação do bibliotecário no controle da documentação legislativa em tramitação',
+          "id": "COM-02",
+          "codigoEdital": "9.2",
+          "titulo": "Acesso Aberto, Princípios FAIR e Gestão de Dados de Pesquisa",
+          "detalhamento": [
+            "Declarações de Budapeste (BOAI), Bethesda e Berlim",
+            "Vias de acesso aberto: Via Dourada (periódicos abertos), Via Verde (autoarquivamento em repositórios) e Via Diamante",
+            "Princípios FAIR para gestão de dados: Findable, Accessible, Interoperable e Reusable",
+            "Planos de Gestão de Dados (PGD) e curadoria digital de dados de pesquisa"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 14.0,
-          moduloRef: 'M10',
-          submodulosRef: ['10.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M9",
+          "submodulosRef": [
+            "9.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 20,
+            "recente2024a2026": 7,
+            "percentual": 0.93
+          }
         },
         {
-          id: 'LEG-03',
-          codigoEdital: '10.3',
-          titulo: 'Centro de Documentação e Informação (CEDI) e Rede Virtual de Bibliotecas (RVBI)',
-          detalhamento: [
-            'Estrutura organizacional do CEDI na Diretoria Legislativa da Câmara dos Deputados',
-            'Coordenação de Biblioteca (Biblioteca Pedro Aleixo) e Coordenação de Arquivo',
-            'Rede Virtual de Bibliotecas (RVBI): cooperação bibliográfica entre Senado e Câmara dos Deputados',
-            'Publicações oficiais e Edições Câmara',
+          "id": "COM-03",
+          "codigoEdital": "9.3",
+          "titulo": "Estudos Métricos da Informação e as Três Leis Bibliométricas Clássicas",
+          "detalhamento": [
+            "Diferenças conceituais entre bibliometria, cientometria, informetria e webometria",
+            "Lei de Bradford (1934): lei da dispersão da literatura periódica em zonas concêntricas (1 : n : n²)",
+            "Lei de Lotka (1926): produtividade científica dos autores segundo a lei do quadrado inverso (1/n²)",
+            "Lei de Zipf (1949): frequência e ordem de palavras em textos (r × f = C) e ponto de transição de Goffman"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 10.5,
-          moduloRef: 'M10',
-          submodulosRef: ['10.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M9",
+          "submodulosRef": [
+            "9.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 20,
+            "recente2024a2026": 7,
+            "percentual": 0.93
+          }
         },
         {
-          id: 'LEG-04',
-          codigoEdital: '10.4',
-          titulo: 'Lei de Acesso à Informação (Lei 12.527/11), LGPD (Lei 13.709/18) e Depósito Legal',
-          detalhamento: [
-            'Transparência ativa vs. transparência passiva e Serviço de Informação ao Cidadão (SIC)',
-            'Classificação de sigilo da LAI: Ultrassecreto (25 anos), Secreto (15 anos) e Reservado (5 anos)',
-            'LGPD (Lei nº 13.709/2018): dados pessoais comuns vs. dados pessoais sensíveis em acervos públicos',
-            'Legislação federal sobre Depósito Legal na Biblioteca Nacional (Lei nº 10.994/2004) e na Câmara',
+          "id": "COM-04",
+          "codigoEdital": "9.4",
+          "titulo": "Indicadores Cientométricos (Fator de Impacto, Índice h) e Altmetria",
+          "detalhamento": [
+            "Fator de Impacto (Journal Citation Reports - JCR) e cálculo no período de 2 anos",
+            "Índice h de Jorge Hirsch: definição, cálculo prático e propriedades matemáticas",
+            "Altmetria (Altmetrics): mensuração de circulação e atenção social em tempo real na web",
+            "Direitos autorais, licenças Creative Commons (BY, SA, NC, ND) e propriedade intelectual"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 12.5,
-          moduloRef: 'M10',
-          submodulosRef: ['10.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
-    },
-
-    // --- CONHECIMENTOS BÁSICOS ---
-    {
-      id: 'eixo-11-direito-administrativo',
-      nome: 'Noções de Direito Administrativo e Administração Pública',
-      bloco: 'CONHECIMENTOS_BASICOS',
-      moduloHncId: 'm11',
-      moduloHncNumero: 11,
-      descricaoOficial: 'Estado, governo e Administração Pública: conceito, elementos, poderes e organização. Princípios constitucionais e doutrinários. Organização administrativa: direta e indireta, centralização, descentralização, concentração e desconcentração. Atos administrativos e pareceres. Agentes públicos e Regime Jurídico Único (Lei 8.112/1990). Direito disciplinar e Processo Administrativo Federal (Lei 9.784/1999). Poderes administrativos e abuso de poder. Responsabilidade civil do Estado. Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021). Evolução dos modelos de gestão: patrimonialismo, burocracia, NPM e Nova Governança Pública (NPG). Governança na Administração Pública e Decreto nº 9.203/2017. Licitações e Contratos Administrativos (Lei 14.133/2021, ETP e TR). Lei de Acesso à Informação (Lei 12.527/2011) e LGPD (Lei 13.709/2018).',
-      pesoRelativo: 10.0,
-      topicos: [
-        {
-          id: 'ADM-01',
-          codigoEdital: '11.1',
-          titulo: 'Estado, Governo, Princípios e Organização Administrativa',
-          detalhamento: [
-            'Conceito e elementos do Estado (povo, território, governo soberano); funções típicas e atípicas dos Poderes',
-            'Princípios expressos no art. 37 da CF/88 (LIMPE) e princípios doutrinários implícitos (supremacia, indisponibilidade, autotutela, segurança jurídica)',
-            'Centralização vs Descentralização (por outorga vs por delegação)',
-            'Concentração vs Desconcentração (teoria do órgão de Otto Gierke)',
-            'Administração Direta e Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista)',
+          "prioridade": "ALTA",
+          "moduloRef": "M9",
+          "submodulosRef": [
+            "9.4"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.8,
-          moduloRef: 'M11',
-          submodulosRef: ['11.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-02',
-          codigoEdital: '11.2',
-          titulo: 'Ato Administrativo, Invalidação e Responsabilidade por Pareceres',
-          detalhamento: [
-            'Conceito e requisitos de validade (COFIFOMOB: competência, finalidade, forma, motivo e objeto)',
-            'Atributos do ato (PATI: presunção de legitimidade, autoexecutoriedade, tipicidade e imperatividade)',
-            'Espécies de atos: normativos, ordinatórios, negociais, enunciativos e punitivos',
-            'Extinção: anulação (ilegalidade, ex tunc), revogação (conveniência e oportunidade, ex nunc), cassação e caducidade',
-            'Convalidação de atos (regra do FO-CO: forma não essencial e competência não exclusiva)',
-            'Pareceres técnicos e jurídicos: espécies e responsabilidade do parecerista (STF MS 24.631 e art. 28 da LINDB)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.7,
-          moduloRef: 'M11',
-          submodulosRef: ['11.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-03',
-          codigoEdital: '11.3',
-          titulo: 'Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)',
-          detalhamento: [
-            'Disposições constitucionais aplicáveis (arts. 37 a 41 da CF/88); acessibilidade a cargos e estabilidade',
-            'Espécies de agentes públicos; cargo, emprego e função pública; requisição de servidores',
-            'Provimento derivado (4R + PAN: readaptação, reversão, reintegração, recondução, promoção e aproveitamento)',
-            'Vacância (PADRE PF: promoção, aposentadoria, demissão, readaptação, exoneração, posse em outro cargo, falecimento)',
-            'Remoção (deslocamento do servidor) vs. Redistribuição (deslocamento do cargo)',
-            'Acumulação remunerada de cargos públicos e responsabilidade civil, penal e administrativa (independência das instâncias)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.9,
-          moduloRef: 'M11',
-          submodulosRef: ['11.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-04',
-          codigoEdital: '11.4',
-          titulo: 'Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)',
-          detalhamento: [
-            'Princípios do processo administrativo (oficialidade, verdade material, informalismo moderado, gratuidade)',
-            'Impedimento (critério objetivo) e suspeição (critério subjetivo); dever funcional de comunicar o impedimento',
-            'Delegação e avocação de competência; vedações absolutas à delegação (atos normativos, recursos e competência exclusiva)',
-            'Prazos decisórios e recursos administrativos (efeito devolutivo e vedação à reformatio in pejus surpresa)',
-            'Ritos disciplinares da Lei 8.112/90: sindicância investigativa e punitiva, PAD ordinário e sumário; prazos prescricionais',
-            'Súmula Vinculante 5 do STF (dispensabilidade de advogado no PAD)',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.4,
-          moduloRef: 'M11',
-          submodulosRef: ['11.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-05',
-          codigoEdital: '11.5',
-          titulo: 'Poderes Administrativos, Ciclo de Polícia e Abuso de Poder',
-          detalhamento: [
-            'Poder vinculado e poder discricionário; controle judicial dos limites da discricionariedade e razoabilidade',
-            'Poder hierárquico e poder disciplinar (supremacia especial sobre servidores e particulares com vínculo contratual)',
-            'Poder regulamentar e decretos autônomos (art. 84, VI da CF/88)',
-            'Poder de polícia: conceito (art. 78 do CTN), atributos e ciclo de polícia (ordem, consentimento, fiscalização e sanção)',
-            'Delegação de sanção de polícia a estatais de capital público exclusivo (STF Tema 532)',
-            'Uso e abuso de poder: excesso de poder (competência) vs. desvio de finalidade (finalidade)',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.3,
-          moduloRef: 'M11',
-          submodulosRef: ['11.5'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-06',
-          codigoEdital: '11.6',
-          titulo: 'Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso',
-          detalhamento: [
-            'Evolução histórica: irresponsabilidade, culpa civilista, faute du service e risco administrativo',
-            'Art. 37, § 6º da CF/88: responsabilidade objetiva das pessoas de direito público e delegatárias de serviços',
-            'Responsabilidade por omissão estatal: omissão genérica (subjetiva) vs. omissão específica em dever de custódia (objetiva - STF Tema 592)',
-            'Causas excludentes (culpa exclusiva da vítima, caso fortuito, força maior) e atenuantes (culpa concorrente)',
-            'Ação de regresso contra o servidor e tese da dupla garantia / ilegitimidade passiva do agente (STF Tema 940)',
-            'Teoria do Risco Integral no ordenamento brasileiro (danos nucleares, terrorismo em aeronaves e dano ambiental)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.6,
-          moduloRef: 'M11',
-          submodulosRef: ['11.6'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-07',
-          codigoEdital: '11.7',
-          titulo: 'Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)',
-          detalhamento: [
-            'Extinção absoluta da modalidade culposa e exigência intransponível de dolo específico (art. 1º, §§ 1º e 2º)',
-            'Tipologias: Enriquecimento ilícito (art. 9º), Prejuízo ao erário (art. 10 com dano efetivo) e Atentado aos princípios (art. 11)',
-            'Taxatividade rigorosa do rol do art. 11 e revogação das sanções de perda da função pública e direitos políticos no art. 11',
-            'Sanções da LIA: perda de bens, perda da função pública, suspensão de direitos políticos, multa civil e proibição de contratar',
-            'Sujeito ativo (impossibilidade de ação isolada contra particular) e polo passivo',
-            'Legitimidade ativa concorrente entre MP e pessoa jurídica lesada (STF ADIs 7042/7043)',
-            'Acordo de Não Persecução Civil (ANPC) e prescrição unificada de 8 anos com prescrição intercorrente de 4 anos',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 10.0,
-          moduloRef: 'M11',
-          submodulosRef: ['11.7'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-08',
-          codigoEdital: '11.8',
-          titulo: 'Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública',
-          detalhamento: [
-            'Modelo Patrimonialista: confusão entre res publica e patrimônio privado, prebendas, clientelismo e nepotismo',
-            'Modelo Burocrático Weberiano: formalismo, impessoalidade, meritocracia, controle a priori e disfunções da burocracia (Merton)',
-            'Nova Gestão Pública (NPM / Gerencialismo): foco em resultados, controle a posteriori, quase-mercados e o cidadão-cliente',
-            'Nova Governança Pública (NPG / Stephen Osborne): ação pública em redes policêntricas de cooperação interinstitucional',
-            'Coprodução do bem público, cidadania ativa e transparência de dados abertos',
-            'O conceito de Valor Público de Mark Moore (o triângulo estratégico: valor substantivo, legitimidade política e capacidade operacional)',
-            'Cadeia de Valor Público: inputs, processes, outputs (produtos), outcomes (resultados) e impacts (impactos)',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.1,
-          moduloRef: 'M11',
-          submodulosRef: ['11.8'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-09',
-          codigoEdital: '11.9',
-          titulo: 'Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)',
-          detalhamento: [
-            'Conceito e distinção: Governança (avaliar, direcionar, monitorar) vs. Gestão (planejar, executar, controlar - PDCA) vs. Governabilidade (apoio político)',
-            'Mecanismos de Governança Pública: Liderança, Estratégia e Controle (tríade LEC)',
-            'Princípios da governança federal: capacidade de resposta (responsiveness), integridade, confiabilidade, melhoria regulatória, accountability e transparência',
-            'Diretrizes da governança e comitês de integridade; gestão de riscos e controles internos',
-            'O modelo das Três Linhas de Defesa (gestão operacional, conformidade/riscos e auditoria interna independente)',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 9.2,
-          moduloRef: 'M11',
-          submodulosRef: ['11.9'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-10',
-          codigoEdital: '11.10',
-          titulo: 'Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência',
-          detalhamento: [
-            'Princípios fundamentais (art. 5º) e princípio da segregação de funções',
-            'Finalidades do procedimento licitatório (proposta mais vantajosa e ciclo de vida, isonomia, inovação e sustentabilidade)',
-            'As cinco modalidades taxativas: Pregão (bens e serviços comuns), Concorrência, Concurso, Leilão e Diálogo Competitivo (extinção de convite e tomada de preços)',
-            'Critérios de julgamento: menor preço, maior desconto, melhor técnica, técnica e preço, maior lance e maior retorno econômico',
-            'Contratação Direta: Inexigibilidade (art. 74 - inviabilidade de competição) vs. Dispensa (art. 75 - pequeno valor, emergência, licitação deserta/fracassada)',
-            'Fase preparatória: Estudo Técnico Preliminar (ETP), Termo de Referência (TR) e a regra da inversão de fases (julgamento prévio à habilitação)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.9,
-          moduloRef: 'M11',
-          submodulosRef: ['11.10'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-11',
-          codigoEdital: '11.11',
-          titulo: 'Contratos Administrativos, Gestão e Fiscalização Contratual',
-          detalhamento: [
-            'Características do contrato administrativo e publicação no Portal Nacional de Contratações Públicas (PNCP)',
-            'Cláusulas exorbitantes (art. 104): modificação unilateral (até 25% em compras e 50% em reformas), rescisão unilateral, fiscalização e sanções',
-            'Mitigação da exceptio non adimpleti contractus (paralisação somente após 2 meses / 60 dias de atraso de pagamento)',
-            'Duração contratual: serviços e fornecimentos contínuos por até 5 anos, prorrogáveis até o teto de 10 anos',
-            'Gestão vs. Fiscalização Contratual: atribuições do Gestor do Contrato, Fiscal Técnico (bibliotecário) e Fiscal Administrativo',
-            'Recebimento provisório (pelo fiscal técnico) e recebimento definitivo (pelo gestor/comissão)',
-            'Sanções da Lei 14.133/2021: advertência, multa, impedimento de licitar (mesmo ente, até 3 anos) e declaração de inidoneidade (todos os entes, de 3 a 6 anos)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.8,
-          moduloRef: 'M11',
-          submodulosRef: ['11.11'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ADM-12',
-          codigoEdital: '11.12',
-          titulo: 'Transparência e Privacidade: Lei de Acesso à Informação e LGPD',
-          detalhamento: [
-            'Princípio da publicidade como preceito geral e do sigilo como exceção na Lei nº 12.527/2011 (LAI)',
-            'Transparência ativa (divulgação espontânea na web) vs. Transparência passiva (acesso mediante pedido sem exigência de motivação)',
-            'Prazos da LAI: acesso imediato ou resposta em 20 dias prorrogável por mais 10 dias',
-            'Classificação de sigilo: Ultrassecreto (até 25 anos com prorrogação única), Secreto (até 15 anos) e Reservado (até 5 anos); informações pessoais (até 100 anos)',
-            'Comissão Mista de Reavaliação de Informações (CMRI)',
-            'LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais vs. sensíveis; tratamento fundado no cumprimento de dever legal e execução de políticas públicas (dispensa de consentimento)',
-            'Figuras do Controlador, Operador e Encarregado (DPO); harmonização entre LAI (remuneração de servidores) e LGPD (proteção de dados sensíveis)',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 9.7,
-          moduloRef: 'M11',
-          submodulosRef: ['11.12'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
-    },
-{
-      id: 'eixo-12-ingles',
-      nome: 'Língua Inglesa Instrumental e Leitura Estratégica',
-      bloco: 'CONHECIMENTOS_BASICOS',
-      moduloHncId: 'm12',
-      moduloHncNumero: 12,
-      descricaoOficial: 'Compreensão de textos escritos em língua inglesa. Reconhecimento de vocabulário e terminologia técnica de bibliotecas, arquivos e documentação internacional. Mecanismos de coesão textual e marcadores discursivos. Falsos cognatos e modalizadores discursivos. Interpretação segundo a metodologia Cebraspe.',
-      pesoRelativo: 10.0,
-      topicos: [
-        {
-          id: 'ING-01',
-          codigoEdital: '12.1',
-          titulo: 'Modelo Interativo-Compensatório e Técnicas de Leitura Rápida (Skimming e Scanning)',
-          detalhamento: [
-            'Fundamentos de leitura em L2 (Stanovich & Rumelhart): processamento ascendente (bottom-up) e descendente (top-down)',
-            'Técnica de Skimming: apreensão veloz da ideia central, tipologia e tese do texto',
-            'Técnica de Scanning: varredura direcionada para localização de dados, datas e termos específicos',
-            'Desconstrução de itens do Cebraspe baseados em paráfrase lexical',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M12',
-          submodulosRef: ['12.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ING-02',
-          codigoEdital: '12.2',
-          titulo: 'Marcadores Discursivos (Linking Words) e Transições Argumentativas',
-          detalhamento: [
-            'Conectivos de contraste e concessão (however, nevertheless, although, even though, despite, whereas)',
-            'Conectivos de causa e efeito (because, since, due to, therefore, thus, hence, as a result)',
-            'Conectivos de adição e continuidade (furthermore, moreover, besides, in addition)',
-            'O impacto da inversão de conectivos na coerência textual cobrada pelo Cebraspe',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 13.5,
-          moduloRef: 'M12',
-          submodulosRef: ['12.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ING-03',
-          codigoEdital: '12.3',
-          titulo: 'Mecanismos de Coesão Textual, Referenciação Anafórica/Catafórica e Pronomes',
-          detalhamento: [
-            'Cadeias de referência pronominal: pronomes pessoais, demonstrativos e relativos (which, that, who, whose, where)',
-            'Referenciação anafórica (retomada) vs. catafórica (antecipação)',
-            'Elipse e substituição lexical',
-            'A pegadinha típica do Cebraspe: trocar o referente de pronomes como "it", "this" ou "the latter"',
-          ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 11.0,
-          moduloRef: 'M12',
-          submodulosRef: ['12.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-        {
-          id: 'ING-04',
-          codigoEdital: '12.4',
-          titulo: 'Vocabulário Contextual, Falsos Cognatos e Modalizadores Epistêmicos Cebraspe',
-          detalhamento: [
-            'Decomposição morfológica de prefixos e sufixos em inglês',
-            'Guia de falsos amigos críticos (false friends): library vs. bookshop, actually, eventually, comprehensive, notice',
-            'A semântica dos verbos modais e modalizadores epistêmicos (may, might, could, must, should, will)',
-            'A armadilha Cebraspe da extrapolação: transformar possibilidade textual em obrigação categórica',
-          ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 14.5,
-          moduloRef: 'M12',
-          submodulosRef: ['12.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 20,
+            "recente2024a2026": 7,
+            "percentual": 0.93
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-13-portugues',
-      nome: 'Língua Portuguesa Completo (Padrão Cebraspe)',
-      bloco: 'CONHECIMENTOS_BASICOS',
-      moduloHncId: 'm13',
-      moduloHncNumero: 13,
-      descricaoOficial: 'Compreensão e interpretação de textos de gêneros variados. Reconhecimento de tipos e gêneros textuais. Domínio da ortografia oficial. Mecanismos de coesão textual: referenciação, substituição, elipse e conectores. Sintaxe da oração e do período: termos essenciais, integrantes e acessórios. Relações de coordenação e subordinação. Emprego dos sinais de pontuação. Concordância verbal e nominal. Regência verbal e nominal. Emprego do sinal indicativo de crase. Colocação dos pronomes átonos. Reescrita de frases e parágrafos do texto (substituição, deslocamento e paralelismo sintático).',
-      pesoRelativo: 15.0,
-      topicos: [
+      "id": "eixo-10-legislativo",
+      "nome": "Legislação Federal, Contexto Institucional e Regimento Interno",
+      "bloco": "CONHECIMENTOS_ESPECIFICOS",
+      "moduloHncId": "m10",
+      "moduloHncNumero": 10,
+      "descricaoOficial": "Regimento Interno da Câmara dos Deputados (RICD). O Processo Legislativo Constitucional (arts. 59 a 69 da CF/88). Estrutura organizacional da Câmara dos Deputados e atribuições do Centro de Documentação e Informação (CEDI). Lei de Acesso à Informação (Lei nº 12.527/2011). Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Legislação de Depósito Legal.",
+      "pesoRelativo": 12,
+      "topicos": [
         {
-          id: 'LP-01',
-          codigoEdital: '13.1',
-          titulo: 'Interpretação e Compreensão Textual Cebraspe e Mecanismos de Coesão',
-          detalhamento: [
-            'Distinção entre compreensão (dados explícitos no texto) e interpretação (inferências legítimas / "depreende-se")',
-            'As 4 grandes falácias em itens Cebraspe: Extrapolação, Redução/Restrição, Contradição e Tangenciamento',
-            'Tipologia textual: dissertativo-argumentativo vs. dissertativo-expositivo vs. narrativo/instrucional',
-            'Coesão referencial por anáfora e catáfora e coesão sequencial por conectores',
+          "id": "LEG-01",
+          "codigoEdital": "10.1",
+          "titulo": "Regimento Interno da Câmara dos Deputados (RICD) e Órgãos da Casa",
+          "detalhamento": [
+            "Mesa Diretora, Colégio de Líderes e Comissões Permanentes e Temporárias",
+            "Atribuições específicas da Comissão de Constituição e Justiça e de Cidadania (CCJC)",
+            "Tipos de proposições legislativas: PEC, PLP, PL, PDC, PRC, MPV, Emendas e Requerimentos",
+            "Sessões deliberativas de Plenário e quóruns de votação (maioria simples, absoluta e qualificada)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 18.0,
-          moduloRef: 'M13',
-          submodulosRef: ['13.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M10",
+          "submodulosRef": [
+            "10.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 67,
+          "incidencia": {
+            "total": 41,
+            "recente2024a2026": 14,
+            "percentual": 1.88
+          }
         },
         {
-          id: 'LP-02',
-          codigoEdital: '13.2',
-          titulo: 'Morfossintaxe: Classes de Palavras, Funções Sintáticas e Valores do SE e do QUE',
-          detalhamento: [
-            'Termos da oração: sujeito (determinado, indeterminado e oracional), predicado e predicativos',
-            'Complementos verbais (OD e OI) vs. Complemento Nominal vs. Adjunto Adnominal (critérios definitivos de distinção)',
-            'Múltiplas funções da palavra SE: pronome apassivador (PA), índice de indeterminação (PIS), conjunção integrante e partícula de realce',
-            'Classificações da palavra QUE: pronome relativo, conjunção integrante, explicativa, consecutiva e expletiva',
+          "id": "LEG-02",
+          "codigoEdital": "10.2",
+          "titulo": "Processo Legislativo Constitucional e Tramitação de Normas Primárias",
+          "detalhamento": [
+            "Fases do processo legislativo constitucional (CF/88, arts. 59 a 69): iniciativa, deliberação, revisão, sanção/veto, promulgação e publicação",
+            "Prazos constitucionais: prazo de veto presidencial de 15 dias úteis",
+            "Apreciação de Medidas Provisórias (art. 62 da CF/88) e comissão mista",
+            "Atuação do bibliotecário no controle da documentação legislativa em tramitação"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 16.0,
-          moduloRef: 'M13',
-          submodulosRef: ['13.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M10",
+          "submodulosRef": [
+            "10.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 52,
+          "incidencia": {
+            "total": 41,
+            "recente2024a2026": 14,
+            "percentual": 1.88
+          }
         },
         {
-          id: 'LP-03',
-          codigoEdital: '13.3',
-          titulo: 'Sintaxe do Período, Concordância, Regência e Crase Cebraspe',
-          detalhamento: [
-            'Orações coordenadas sindéticas (aditivas, adversativas, alternativas, conclusivas e explicativas)',
-            'Orações subordinadas substantivas, adjetivas (explicativas entre vírgulas vs. restritivas sem vírgula) e adverbiais',
-            'Concordância verbal (sujeito composto, pós-posto, expressões partitivas e voz passiva sintética)',
-            'Regência verbal e nominal dos verbos mais cobrados pelo Cebraspe (visar, implicar, aspirar, assistir, obedecer)',
-            'Emprego do sinal indicativo de crase: casos proibidos, facultativos e a armadilha do paralelismo sintático ("de... a..." vs. "da... à...")',
+          "id": "LEG-03",
+          "codigoEdital": "10.3",
+          "titulo": "Centro de Documentação e Informação (CEDI) e Rede Virtual de Bibliotecas (RVBI)",
+          "detalhamento": [
+            "Estrutura organizacional do CEDI na Diretoria Legislativa da Câmara dos Deputados",
+            "Coordenação de Biblioteca (Biblioteca Pedro Aleixo) e Coordenação de Arquivo",
+            "Rede Virtual de Bibliotecas (RVBI): cooperação bibliográfica entre Senado e Câmara dos Deputados",
+            "Publicações oficiais e Edições Câmara"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 17.5,
-          moduloRef: 'M13',
-          submodulosRef: ['13.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M10",
+          "submodulosRef": [
+            "10.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 47,
+          "incidencia": {
+            "total": 41,
+            "recente2024a2026": 14,
+            "percentual": 1.88
+          }
         },
         {
-          id: 'LP-04',
-          codigoEdital: '13.4',
-          titulo: 'Pontuação Estilística e Reescrita de Frases com Paralelismo Sintático',
-          detalhamento: [
-            'Emprego da vírgula: orações intercaladas, adjuntos adverbiais deslocados e pontuação estilística antes da conjunção "e"',
-            'Ponto e vírgula na coordenação de períodos extensos e travessões explicativos',
-            'Técnicas de reescrita Cebraspe: transposição de voz ativa para passiva e alteração de regência mantendo a correção e o sentido',
-            'Manutenção do paralelismo sintático coordenativo em enumerações e estruturas correlatas',
+          "id": "LEG-04",
+          "codigoEdital": "10.4",
+          "titulo": "Lei de Acesso à Informação (Lei 12.527/11), LGPD (Lei 13.709/18) e Depósito Legal",
+          "detalhamento": [
+            "Transparência ativa vs. transparência passiva e Serviço de Informação ao Cidadão (SIC)",
+            "Classificação de sigilo da LAI: Ultrassecreto (25 anos), Secreto (15 anos) e Reservado (5 anos)",
+            "LGPD (Lei nº 13.709/2018): dados pessoais comuns vs. dados pessoais sensíveis em acervos públicos",
+            "Legislação federal sobre Depósito Legal na Biblioteca Nacional (Lei nº 10.994/2004) e na Câmara"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 15.5,
-          moduloRef: 'M13',
-          submodulosRef: ['13.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
-        },
-      ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M10",
+          "submodulosRef": [
+            "10.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 52,
+          "incidencia": {
+            "total": 41,
+            "recente2024a2026": 14,
+            "percentual": 1.88
+          }
+        }
+      ]
     },
     {
-      id: 'eixo-14-tecnologia-dados',
-      nome: 'Tecnologia da Informação e Dados',
-      bloco: 'CONHECIMENTOS_BASICOS',
-      moduloHncId: 'm14',
-      moduloHncNumero: 14,
-      descricaoOficial: 'Microsoft Office 365: funcionalidades fundamentais de Word, Excel, PowerPoint e OneDrive. Redes de computadores: conceitos básicos; internet e intranet; ferramentas e aplicativos de navegação e de correio eletrônico. Ferramentas de comunicação e de colaboração: Microsoft Teams e Google Meet. Segurança da informação: procedimentos de segurança; noções de vírus, worms e outras pragas virtuais; aplicativos para segurança (antivírus, firewall e antispyware); procedimentos de backup. Inteligência artificial: conceitos fundamentais; noções de engenharia de prompts. Ética digital no serviço público. Dados: conceitos fundamentais; atributos e métricas; transformação de dados. Visualização de dados: ferramentas para análise e visualização de dados; conceitos de visualização de dados; storytelling com dados.',
-      pesoRelativo: 10.0,
-      topicos: [
+      "id": "eixo-11-direito-administrativo",
+      "nome": "Noções de Direito Administrativo e Administração Pública",
+      "bloco": "CONHECIMENTOS_BASICOS",
+      "moduloHncId": "m11",
+      "moduloHncNumero": 11,
+      "descricaoOficial": "Estado, governo e Administração Pública: conceito, elementos, poderes e organização. Princípios constitucionais e doutrinários. Organização administrativa: direta e indireta, centralização, descentralização, concentração e desconcentração. Atos administrativos e pareceres. Agentes públicos e Regime Jurídico Único (Lei 8.112/1990). Direito disciplinar e Processo Administrativo Federal (Lei 9.784/1999). Poderes administrativos e abuso de poder. Responsabilidade civil do Estado. Improbidade Administrativa (Lei 8.429/1992 e Lei 14.230/2021). Evolução dos modelos de gestão: patrimonialismo, burocracia, NPM e Nova Governança Pública (NPG). Governança na Administração Pública e Decreto nº 9.203/2017. Licitações e Contratos Administrativos (Lei 14.133/2021, ETP e TR). Lei de Acesso à Informação (Lei 12.527/2011) e LGPD (Lei 13.709/2018).",
+      "pesoRelativo": 10,
+      "topicos": [
         {
-          id: 'TI-01',
-          codigoEdital: '14.1',
-          titulo: 'Microsoft Office 365 e Ferramentas de Comunicação/Colaboração',
-          detalhamento: [
-            'Microsoft Word 365: controle de alterações, quebras de seção vs página e estilos',
-            'Microsoft Excel 365: operadores aritméticos, referências relativas/absolutas ($), funções PROCV/PROCX, SE e tabelas dinâmicas',
-            'PowerPoint 365: slide mestre, exibição do apresentador e animações',
-            'OneDrive: arquivos sob demanda (Files On-Demand), sincronização e versionamento',
-            'Colaboração corporativa: Microsoft Teams, Google Meet e protocolos de correio (SMTP, IMAP, POP3)',
+          "id": "ADM-01",
+          "codigoEdital": "11.1",
+          "titulo": "Estado, Governo, Princípios e Organização Administrativa",
+          "detalhamento": [
+            "Conceito e elementos do Estado (povo, território, governo soberano); funções típicas e atípicas dos Poderes",
+            "Princípios expressos no art. 37 da CF/88 (LIMPE) e princípios doutrinários implícitos (supremacia, indisponibilidade, autotutela, segurança jurídica)",
+            "Centralização vs Descentralização (por outorga vs por delegação)",
+            "Concentração vs Desconcentração (teoria do órgão de Otto Gierke)",
+            "Administração Direta e Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 12.0,
-          moduloRef: 'M14',
-          submodulosRef: ['14.1'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 18,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
         },
         {
-          id: 'TI-02',
-          codigoEdital: '14.2',
-          titulo: 'Redes de Computadores, Internet/Intranet e Segurança da Informação',
-          detalhamento: [
-            'Arquitetura TCP/IP, portas padronizadas (DNS 53, HTTP 80, HTTPS 443, SSH 22) e intranet',
-            'Pragas virtuais (malware): vírus (exige hospedeiro), worms (autônomos), trojans, ransomware e spyware',
-            'Ataques e engenharia social: phishing vs pharming (envenenamento DNS/hosts)',
-            'Mecanismos de defesa: firewall stateful/NGFW, antivírus heurístico, MFA (saber, ter, ser)',
-            'Estratégias de backup: completo, diferencial, incremental, regra 3-2-1 e cópia air-gapped',
+          "id": "ADM-02",
+          "codigoEdital": "11.2",
+          "titulo": "Ato Administrativo, Invalidação e Responsabilidade por Pareceres",
+          "detalhamento": [
+            "Conceito e requisitos de validade (COFIFOMOB: competência, finalidade, forma, motivo e objeto)",
+            "Atributos do ato (PATI: presunção de legitimidade, autoexecutoriedade, tipicidade e imperatividade)",
+            "Espécies de atos: normativos, ordinatórios, negociais, enunciativos e punitivos",
+            "Extinção: anulação (ilegalidade, ex tunc), revogação (conveniência e oportunidade, ex nunc), cassação e caducidade",
+            "Convalidação de atos (regra do FO-CO: forma não essencial e competência não exclusiva)",
+            "Pareceres técnicos e jurídicos: espécies e responsabilidade do parecerista (STF MS 24.631 e art. 28 da LINDB)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 14.5,
-          moduloRef: 'M14',
-          submodulosRef: ['14.2'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 19,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
         },
         {
-          id: 'TI-03',
-          codigoEdital: '14.3',
-          titulo: 'Inteligência Artificial, Engenharia de Prompts e Ética Digital',
-          detalhamento: [
-            'Paradigmas de Machine Learning: supervisionado (classificação/regressão), não-supervisionado (clustering/PCA) e reforço (RLHF)',
-            'Arquitetura Transformer, mecanismos de Autoatenção (Self-Attention) e modelos LLM',
-            'Engenharia de prompts: Zero-shot, Few-shot in-context learning e Chain-of-Thought (CoT)',
-            'RAG (Retrieval-Augmented Generation): ancoragem contextual para mitigação de alucinações',
-            'Ética digital no serviço público, LGPD e princípio da supervisão humana (human-in-the-loop)',
+          "id": "ADM-03",
+          "codigoEdital": "11.3",
+          "titulo": "Agentes Públicos e Regime Jurídico Único (Lei nº 8.112/1990)",
+          "detalhamento": [
+            "Disposições constitucionais aplicáveis (arts. 37 a 41 da CF/88); acessibilidade a cargos e estabilidade",
+            "Espécies de agentes públicos; cargo, emprego e função pública; requisição de servidores",
+            "Provimento derivado (4R + PAN: readaptação, reversão, reintegração, recondução, promoção e aproveitamento)",
+            "Vacância (PADRE PF: promoção, aposentadoria, demissão, readaptação, exoneração, posse em outro cargo, falecimento)",
+            "Remoção (deslocamento do servidor) vs. Redistribuição (deslocamento do cargo)",
+            "Acumulação remunerada de cargos públicos e responsabilidade civil, penal e administrativa (independência das instâncias)"
           ],
-          prioridade: 'CRITICA',
-          incidenciaHistoricaCebraspe: 15.0,
-          moduloRef: 'M14',
-          submodulosRef: ['14.3'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.3"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 12,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
         },
         {
-          id: 'TI-04',
-          codigoEdital: '14.4',
-          titulo: 'Ciência de Dados, Transformação, Visualização e Storytelling',
-          detalhamento: [
-            'Tipologias: dados estruturados, semiestruturados (JSON/XML) e não estruturados',
-            'Atributos: qualitativos (nominais/ordinais) e quantitativos (discretos/contínuos); métricas descritivas (média, mediana, IQR)',
-            'Pipeline de transformação: ETL tradicional vs ELT moderno em data lakes',
-            'Gramática de gráficos: histograma (contínuo) vs barras (categórico), box plot (outliers) e dispersão',
-            'Ferramentas corporativas (Power BI, DAX, Power Query) e Storytelling de dados (Edward Tufte e Cole Knaflic)',
+          "id": "ADM-04",
+          "codigoEdital": "11.4",
+          "titulo": "Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)",
+          "detalhamento": [
+            "Princípios do processo administrativo (oficialidade, verdade material, informalismo moderado, gratuidade)",
+            "Impedimento (critério objetivo) e suspeição (critério subjetivo); dever funcional de comunicar o impedimento",
+            "Delegação e avocação de competência; vedações absolutas à delegação (atos normativos, recursos e competência exclusiva)",
+            "Prazos decisórios e recursos administrativos (efeito devolutivo e vedação à reformatio in pejus surpresa)",
+            "Ritos disciplinares da Lei 8.112/90: sindicância investigativa e punitiva, PAD ordinário e sumário; prazos prescricionais",
+            "Súmula Vinculante 5 do STF (dispensabilidade de advogado no PAD)"
           ],
-          prioridade: 'ALTA',
-          incidenciaHistoricaCebraspe: 13.5,
-          moduloRef: 'M14',
-          submodulosRef: ['14.4'],
-          statusCobertura: 'COBERTO',
-          questoesDisponiveis: 25,
+          "prioridade": "ALTA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.4"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 10,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
         },
-      ],
+        {
+          "id": "ADM-05",
+          "codigoEdital": "11.5",
+          "titulo": "Poderes Administrativos, Ciclo de Polícia e Abuso de Poder",
+          "detalhamento": [
+            "Poder vinculado e poder discricionário; controle judicial dos limites da discricionariedade e razoabilidade",
+            "Poder hierárquico e poder disciplinar (supremacia especial sobre servidores e particulares com vínculo contratual)",
+            "Poder regulamentar e decretos autônomos (art. 84, VI da CF/88)",
+            "Poder de polícia: conceito (art. 78 do CTN), atributos e ciclo de polícia (ordem, consentimento, fiscalização e sanção)",
+            "Delegação de sanção de polícia a estatais de capital público exclusivo (STF Tema 532)",
+            "Uso e abuso de poder: excesso de poder (competência) vs. desvio de finalidade (finalidade)"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.5"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 8,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-06",
+          "codigoEdital": "11.6",
+          "titulo": "Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso",
+          "detalhamento": [
+            "Evolução histórica: irresponsabilidade, culpa civilista, faute du service e risco administrativo",
+            "Art. 37, § 6º da CF/88: responsabilidade objetiva das pessoas de direito público e delegatárias de serviços",
+            "Responsabilidade por omissão estatal: omissão genérica (subjetiva) vs. omissão específica em dever de custódia (objetiva - STF Tema 592)",
+            "Causas excludentes (culpa exclusiva da vítima, caso fortuito, força maior) e atenuantes (culpa concorrente)",
+            "Ação de regresso contra o servidor e tese da dupla garantia / ilegitimidade passiva do agente (STF Tema 940)",
+            "Teoria do Risco Integral no ordenamento brasileiro (danos nucleares, terrorismo em aeronaves e dano ambiental)"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.6"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 8,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-07",
+          "codigoEdital": "11.7",
+          "titulo": "Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)",
+          "detalhamento": [
+            "Extinção absoluta da modalidade culposa e exigência intransponível de dolo específico (art. 1º, §§ 1º e 2º)",
+            "Tipologias: Enriquecimento ilícito (art. 9º), Prejuízo ao erário (art. 10 com dano efetivo) e Atentado aos princípios (art. 11)",
+            "Taxatividade rigorosa do rol do art. 11 e revogação das sanções de perda da função pública e direitos políticos no art. 11",
+            "Sanções da LIA: perda de bens, perda da função pública, suspensão de direitos políticos, multa civil e proibição de contratar",
+            "Sujeito ativo (impossibilidade de ação isolada contra particular) e polo passivo",
+            "Legitimidade ativa concorrente entre MP e pessoa jurídica lesada (STF ADIs 7042/7043)",
+            "Acordo de Não Persecução Civil (ANPC) e prescrição unificada de 8 anos com prescrição intercorrente de 4 anos"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.7"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 9,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-08",
+          "codigoEdital": "11.8",
+          "titulo": "Evolução da Gestão Pública: Patrimonialismo, Burocracia, NPM e Nova Governança Pública",
+          "detalhamento": [
+            "Modelo Patrimonialista: confusão entre res publica e patrimônio privado, prebendas, clientelismo e nepotismo",
+            "Modelo Burocrático Weberiano: formalismo, impessoalidade, meritocracia, controle a priori e disfunções da burocracia (Merton)",
+            "Nova Gestão Pública (NPM / Gerencialismo): foco em resultados, controle a posteriori, quase-mercados e o cidadão-cliente",
+            "Nova Governança Pública (NPG / Stephen Osborne): ação pública em redes policêntricas de cooperação interinstitucional",
+            "Coprodução do bem público, cidadania ativa e transparência de dados abertos",
+            "O conceito de Valor Público de Mark Moore (o triângulo estratégico: valor substantivo, legitimidade política e capacidade operacional)",
+            "Cadeia de Valor Público: inputs, processes, outputs (produtos), outcomes (resultados) e impacts (impactos)"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.8"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 8,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-09",
+          "codigoEdital": "11.9",
+          "titulo": "Governança no Setor Público Federal (Decreto Federal nº 9.203/2017)",
+          "detalhamento": [
+            "Conceito e distinção: Governança (avaliar, direcionar, monitorar) vs. Gestão (planejar, executar, controlar - PDCA) vs. Governabilidade (apoio político)",
+            "Mecanismos de Governança Pública: Liderança, Estratégia e Controle (tríade LEC)",
+            "Princípios da governança federal: capacidade de resposta (responsiveness), integridade, confiabilidade, melhoria regulatória, accountability e transparência",
+            "Diretrizes da governança e comitês de integridade; gestão de riscos e controles internos",
+            "O modelo das Três Linhas de Defesa (gestão operacional, conformidade/riscos e auditoria interna independente)"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.9"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 8,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-10",
+          "codigoEdital": "11.10",
+          "titulo": "Licitações Públicas: Nova Lei nº 14.133/2021, ETP e Termo de Referência",
+          "detalhamento": [
+            "Princípios fundamentais (art. 5º) e princípio da segregação de funções",
+            "Finalidades do procedimento licitatório (proposta mais vantajosa e ciclo de vida, isonomia, inovação e sustentabilidade)",
+            "As cinco modalidades taxativas: Pregão (bens e serviços comuns), Concorrência, Concurso, Leilão e Diálogo Competitivo (extinção de convite e tomada de preços)",
+            "Critérios de julgamento: menor preço, maior desconto, melhor técnica, técnica e preço, maior lance e maior retorno econômico",
+            "Contratação Direta: Inexigibilidade (art. 74 - inviabilidade de competição) vs. Dispensa (art. 75 - pequeno valor, emergência, licitação deserta/fracassada)",
+            "Fase preparatória: Estudo Técnico Preliminar (ETP), Termo de Referência (TR) e a regra da inversão de fases (julgamento prévio à habilitação)"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.10"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 9,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-11",
+          "codigoEdital": "11.11",
+          "titulo": "Contratos Administrativos, Gestão e Fiscalização Contratual",
+          "detalhamento": [
+            "Características do contrato administrativo e publicação no Portal Nacional de Contratações Públicas (PNCP)",
+            "Cláusulas exorbitantes (art. 104): modificação unilateral (até 25% em compras e 50% em reformas), rescisão unilateral, fiscalização e sanções",
+            "Mitigação da exceptio non adimpleti contractus (paralisação somente após 2 meses / 60 dias de atraso de pagamento)",
+            "Duração contratual: serviços e fornecimentos contínuos por até 5 anos, prorrogáveis até o teto de 10 anos",
+            "Gestão vs. Fiscalização Contratual: atribuições do Gestor do Contrato, Fiscal Técnico (bibliotecário) e Fiscal Administrativo",
+            "Recebimento provisório (pelo fiscal técnico) e recebimento definitivo (pelo gestor/comissão)",
+            "Sanções da Lei 14.133/2021: advertência, multa, impedimento de licitar (mesmo ente, até 3 anos) e declaração de inidoneidade (todos os entes, de 3 a 6 anos)"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.11"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 8,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        },
+        {
+          "id": "ADM-12",
+          "codigoEdital": "11.12",
+          "titulo": "Transparência e Privacidade: Lei de Acesso à Informação e LGPD",
+          "detalhamento": [
+            "Princípio da publicidade como preceito geral e do sigilo como exceção na Lei nº 12.527/2011 (LAI)",
+            "Transparência ativa (divulgação espontânea na web) vs. Transparência passiva (acesso mediante pedido sem exigência de motivação)",
+            "Prazos da LAI: acesso imediato ou resposta em 20 dias prorrogável por mais 10 dias",
+            "Classificação de sigilo: Ultrassecreto (até 25 anos com prorrogação única), Secreto (até 15 anos) e Reservado (até 5 anos); informações pessoais (até 100 anos)",
+            "Comissão Mista de Reavaliação de Informações (CMRI)",
+            "LGPD (Lei nº 13.709/2018) na Administração Pública: dados pessoais vs. sensíveis; tratamento fundado no cumprimento de dever legal e execução de políticas públicas (dispensa de consentimento)",
+            "Figuras do Controlador, Operador e Encarregado (DPO); harmonização entre LAI (remuneração de servidores) e LGPD (proteção de dados sensíveis)"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M11",
+          "submodulosRef": [
+            "11.12"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 9,
+          "incidencia": {
+            "total": 18,
+            "recente2024a2026": 4,
+            "percentual": 0.83
+          }
+        }
+      ]
     },
-  ],
+    {
+      "id": "eixo-12-ingles",
+      "nome": "Língua Inglesa Instrumental e Leitura Estratégica",
+      "bloco": "CONHECIMENTOS_BASICOS",
+      "moduloHncId": "m12",
+      "moduloHncNumero": 12,
+      "descricaoOficial": "Compreensão de textos escritos em língua inglesa. Reconhecimento de vocabulário e terminologia técnica de bibliotecas, arquivos e documentação internacional. Mecanismos de coesão textual e marcadores discursivos. Falsos cognatos e modalizadores discursivos. Interpretação segundo a metodologia Cebraspe.",
+      "pesoRelativo": 10,
+      "topicos": [
+        {
+          "id": "ING-01",
+          "codigoEdital": "12.1",
+          "titulo": "Modelo Interativo-Compensatório e Técnicas de Leitura Rápida (Skimming e Scanning)",
+          "detalhamento": [
+            "Fundamentos de leitura em L2 (Stanovich & Rumelhart): processamento ascendente (bottom-up) e descendente (top-down)",
+            "Técnica de Skimming: apreensão veloz da ideia central, tipologia e tese do texto",
+            "Técnica de Scanning: varredura direcionada para localização de dados, datas e termos específicos",
+            "Desconstrução de itens do Cebraspe baseados em paráfrase lexical"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M12",
+          "submodulosRef": [
+            "12.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 38,
+          "incidencia": {
+            "total": 21,
+            "recente2024a2026": 6,
+            "percentual": 0.97
+          }
+        },
+        {
+          "id": "ING-02",
+          "codigoEdital": "12.2",
+          "titulo": "Marcadores Discursivos (Linking Words) e Transições Argumentativas",
+          "detalhamento": [
+            "Conectivos de contraste e concessão (however, nevertheless, although, even though, despite, whereas)",
+            "Conectivos de causa e efeito (because, since, due to, therefore, thus, hence, as a result)",
+            "Conectivos de adição e continuidade (furthermore, moreover, besides, in addition)",
+            "O impacto da inversão de conectivos na coerência textual cobrada pelo Cebraspe"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M12",
+          "submodulosRef": [
+            "12.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 21,
+            "recente2024a2026": 6,
+            "percentual": 0.97
+          }
+        },
+        {
+          "id": "ING-03",
+          "codigoEdital": "12.3",
+          "titulo": "Mecanismos de Coesão Textual, Referenciação Anafórica/Catafórica e Pronomes",
+          "detalhamento": [
+            "Cadeias de referência pronominal: pronomes pessoais, demonstrativos e relativos (which, that, who, whose, where)",
+            "Referenciação anafórica (retomada) vs. catafórica (antecipação)",
+            "Elipse e substituição lexical",
+            "A pegadinha típica do Cebraspe: trocar o referente de pronomes como \"it\", \"this\" ou \"the latter\""
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M12",
+          "submodulosRef": [
+            "12.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 21,
+            "recente2024a2026": 6,
+            "percentual": 0.97
+          }
+        },
+        {
+          "id": "ING-04",
+          "codigoEdital": "12.4",
+          "titulo": "Vocabulário Contextual, Falsos Cognatos e Modalizadores Epistêmicos Cebraspe",
+          "detalhamento": [
+            "Decomposição morfológica de prefixos e sufixos em inglês",
+            "Guia de falsos amigos críticos (false friends): library vs. bookshop, actually, eventually, comprehensive, notice",
+            "A semântica dos verbos modais e modalizadores epistêmicos (may, might, could, must, should, will)",
+            "A armadilha Cebraspe da extrapolação: transformar possibilidade textual em obrigação categórica"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M12",
+          "submodulosRef": [
+            "12.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 21,
+            "recente2024a2026": 6,
+            "percentual": 0.97
+          }
+        }
+      ]
+    },
+    {
+      "id": "eixo-13-portugues",
+      "nome": "Língua Portuguesa Completo (Padrão Cebraspe)",
+      "bloco": "CONHECIMENTOS_BASICOS",
+      "moduloHncId": "m13",
+      "moduloHncNumero": 13,
+      "descricaoOficial": "Compreensão e interpretação de textos de gêneros variados. Reconhecimento de tipos e gêneros textuais. Domínio da ortografia oficial. Mecanismos de coesão textual: referenciação, substituição, elipse e conectores. Sintaxe da oração e do período: termos essenciais, integrantes e acessórios. Relações de coordenação e subordinação. Emprego dos sinais de pontuação. Concordância verbal e nominal. Regência verbal e nominal. Emprego do sinal indicativo de crase. Colocação dos pronomes átonos. Reescrita de frases e parágrafos do texto (substituição, deslocamento e paralelismo sintático).",
+      "pesoRelativo": 15,
+      "topicos": [
+        {
+          "id": "LP-01",
+          "codigoEdital": "13.1",
+          "titulo": "Interpretação e Compreensão Textual Cebraspe e Mecanismos de Coesão",
+          "detalhamento": [
+            "Distinção entre compreensão (dados explícitos no texto) e interpretação (inferências legítimas / \"depreende-se\")",
+            "As 4 grandes falácias em itens Cebraspe: Extrapolação, Redução/Restrição, Contradição e Tangenciamento",
+            "Tipologia textual: dissertativo-argumentativo vs. dissertativo-expositivo vs. narrativo/instrucional",
+            "Coesão referencial por anáfora e catáfora e coesão sequencial por conectores"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M13",
+          "submodulosRef": [
+            "13.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 42,
+          "incidencia": {
+            "total": 88,
+            "recente2024a2026": 21,
+            "percentual": 3.98
+          }
+        },
+        {
+          "id": "LP-02",
+          "codigoEdital": "13.2",
+          "titulo": "Morfossintaxe: Classes de Palavras, Funções Sintáticas e Valores do SE e do QUE",
+          "detalhamento": [
+            "Termos da oração: sujeito (determinado, indeterminado e oracional), predicado e predicativos",
+            "Complementos verbais (OD e OI) vs. Complemento Nominal vs. Adjunto Adnominal (critérios definitivos de distinção)",
+            "Múltiplas funções da palavra SE: pronome apassivador (PA), índice de indeterminação (PIS), conjunção integrante e partícula de realce",
+            "Classificações da palavra QUE: pronome relativo, conjunção integrante, explicativa, consecutiva e expletiva"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M13",
+          "submodulosRef": [
+            "13.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 88,
+            "recente2024a2026": 21,
+            "percentual": 3.98
+          }
+        },
+        {
+          "id": "LP-03",
+          "codigoEdital": "13.3",
+          "titulo": "Sintaxe do Período, Concordância, Regência e Crase Cebraspe",
+          "detalhamento": [
+            "Orações coordenadas sindéticas (aditivas, adversativas, alternativas, conclusivas e explicativas)",
+            "Orações subordinadas substantivas, adjetivas (explicativas entre vírgulas vs. restritivas sem vírgula) e adverbiais",
+            "Concordância verbal (sujeito composto, pós-posto, expressões partitivas e voz passiva sintética)",
+            "Regência verbal e nominal dos verbos mais cobrados pelo Cebraspe (visar, implicar, aspirar, assistir, obedecer)",
+            "Emprego do sinal indicativo de crase: casos proibidos, facultativos e a armadilha do paralelismo sintático (\"de... a...\" vs. \"da... à...\")"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M13",
+          "submodulosRef": [
+            "13.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 53,
+          "incidencia": {
+            "total": 88,
+            "recente2024a2026": 21,
+            "percentual": 3.98
+          }
+        },
+        {
+          "id": "LP-04",
+          "codigoEdital": "13.4",
+          "titulo": "Pontuação Estilística e Reescrita de Frases com Paralelismo Sintático",
+          "detalhamento": [
+            "Emprego da vírgula: orações intercaladas, adjuntos adverbiais deslocados e pontuação estilística antes da conjunção \"e\"",
+            "Ponto e vírgula na coordenação de períodos extensos e travessões explicativos",
+            "Técnicas de reescrita Cebraspe: transposição de voz ativa para passiva e alteração de regência mantendo a correção e o sentido",
+            "Manutenção do paralelismo sintático coordenativo em enumerações e estruturas correlatas"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M13",
+          "submodulosRef": [
+            "13.4"
+          ],
+          "statusCobertura": "PARCIAL",
+          "questoesDisponiveis": 12,
+          "incidencia": {
+            "total": 88,
+            "recente2024a2026": 21,
+            "percentual": 3.98
+          }
+        }
+      ]
+    },
+    {
+      "id": "eixo-14-tecnologia-dados",
+      "nome": "Tecnologia da Informação e Dados",
+      "bloco": "CONHECIMENTOS_BASICOS",
+      "moduloHncId": "m14",
+      "moduloHncNumero": 14,
+      "descricaoOficial": "Microsoft Office 365: funcionalidades fundamentais de Word, Excel, PowerPoint e OneDrive. Redes de computadores: conceitos básicos; internet e intranet; ferramentas e aplicativos de navegação e de correio eletrônico. Ferramentas de comunicação e de colaboração: Microsoft Teams e Google Meet. Segurança da informação: procedimentos de segurança; noções de vírus, worms e outras pragas virtuais; aplicativos para segurança (antivírus, firewall e antispyware); procedimentos de backup. Inteligência artificial: conceitos fundamentais; noções de engenharia de prompts. Ética digital no serviço público. Dados: conceitos fundamentais; atributos e métricas; transformação de dados. Visualização de dados: ferramentas para análise e visualização de dados; conceitos de visualização de dados; storytelling com dados.",
+      "pesoRelativo": 10,
+      "topicos": [
+        {
+          "id": "TI-01",
+          "codigoEdital": "14.1",
+          "titulo": "Microsoft Office 365 e Ferramentas de Comunicação/Colaboração",
+          "detalhamento": [
+            "Microsoft Word 365: controle de alterações, quebras de seção vs página e estilos",
+            "Microsoft Excel 365: operadores aritméticos, referências relativas/absolutas ($), funções PROCV/PROCX, SE e tabelas dinâmicas",
+            "PowerPoint 365: slide mestre, exibição do apresentador e animações",
+            "OneDrive: arquivos sob demanda (Files On-Demand), sincronização e versionamento",
+            "Colaboração corporativa: Microsoft Teams, Google Meet e protocolos de correio (SMTP, IMAP, POP3)"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M14",
+          "submodulosRef": [
+            "14.1"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 38,
+          "incidencia": {
+            "total": 30,
+            "recente2024a2026": 10,
+            "percentual": 1.38
+          }
+        },
+        {
+          "id": "TI-02",
+          "codigoEdital": "14.2",
+          "titulo": "Redes de Computadores, Internet/Intranet e Segurança da Informação",
+          "detalhamento": [
+            "Arquitetura TCP/IP, portas padronizadas (DNS 53, HTTP 80, HTTPS 443, SSH 22) e intranet",
+            "Pragas virtuais (malware): vírus (exige hospedeiro), worms (autônomos), trojans, ransomware e spyware",
+            "Ataques e engenharia social: phishing vs pharming (envenenamento DNS/hosts)",
+            "Mecanismos de defesa: firewall stateful/NGFW, antivírus heurístico, MFA (saber, ter, ser)",
+            "Estratégias de backup: completo, diferencial, incremental, regra 3-2-1 e cópia air-gapped"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M14",
+          "submodulosRef": [
+            "14.2"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 30,
+            "recente2024a2026": 10,
+            "percentual": 1.38
+          }
+        },
+        {
+          "id": "TI-03",
+          "codigoEdital": "14.3",
+          "titulo": "Inteligência Artificial, Engenharia de Prompts e Ética Digital",
+          "detalhamento": [
+            "Paradigmas de Machine Learning: supervisionado (classificação/regressão), não-supervisionado (clustering/PCA) e reforço (RLHF)",
+            "Arquitetura Transformer, mecanismos de Autoatenção (Self-Attention) e modelos LLM",
+            "Engenharia de prompts: Zero-shot, Few-shot in-context learning e Chain-of-Thought (CoT)",
+            "RAG (Retrieval-Augmented Generation): ancoragem contextual para mitigação de alucinações",
+            "Ética digital no serviço público, LGPD e princípio da supervisão humana (human-in-the-loop)"
+          ],
+          "prioridade": "CRITICA",
+          "moduloRef": "M14",
+          "submodulosRef": [
+            "14.3"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 27,
+          "incidencia": {
+            "total": 30,
+            "recente2024a2026": 10,
+            "percentual": 1.38
+          }
+        },
+        {
+          "id": "TI-04",
+          "codigoEdital": "14.4",
+          "titulo": "Ciência de Dados, Transformação, Visualização e Storytelling",
+          "detalhamento": [
+            "Tipologias: dados estruturados, semiestruturados (JSON/XML) e não estruturados",
+            "Atributos: qualitativos (nominais/ordinais) e quantitativos (discretos/contínuos); métricas descritivas (média, mediana, IQR)",
+            "Pipeline de transformação: ETL tradicional vs ELT moderno em data lakes",
+            "Gramática de gráficos: histograma (contínuo) vs barras (categórico), box plot (outliers) e dispersão",
+            "Ferramentas corporativas (Power BI, DAX, Power Query) e Storytelling de dados (Edward Tufte e Cole Knaflic)"
+          ],
+          "prioridade": "ALTA",
+          "moduloRef": "M14",
+          "submodulosRef": [
+            "14.4"
+          ],
+          "statusCobertura": "COBERTO",
+          "questoesDisponiveis": 28,
+          "incidencia": {
+            "total": 30,
+            "recente2024a2026": 10,
+            "percentual": 1.38
+          }
+        }
+      ]
+    }
+  ]
 };

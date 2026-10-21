@@ -270,15 +270,35 @@ export const EditalPage: React.FC = () => {
                   <div className="p-4 sm:p-5 pt-0 border-t border-border/50 bg-surface-2/30 space-y-3">
                     <div className="divide-y divide-border/40">
                       {eixo.topicos && eixo.topicos.map((topico) => (
-                        <div key={topico.id} className="py-2.5 first:pt-2 last:pb-0 text-xs font-serif space-y-1">
+                        <div key={topico.id} className="py-2.5 first:pt-2 last:pb-0 text-xs font-serif space-y-1.5">
                           <div className="flex items-start justify-between gap-3">
-                            <span className="text-ink leading-relaxed flex-1">
+                            <span className="text-ink leading-relaxed flex-1 font-medium">
                               {topico.titulo}
                             </span>
-                            <span className="shrink-0 text-xs font-mono px-2 py-0.5 rounded bg-surface border border-border text-ink-2">
-                              {topico.codigoEdital}
-                            </span>
+                            <div className="flex items-center gap-1.5 shrink-0">
+                              <span className={`text-[10px] font-mono font-bold px-1.5 py-0.5 rounded ${
+                                topico.statusCobertura === 'COBERTO'
+                                  ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20'
+                                  : topico.statusCobertura === 'PARCIAL'
+                                  ? 'bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20'
+                                  : 'bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-500/20'
+                              }`}>
+                                {topico.statusCobertura} ({topico.questoesDisponiveis}Q)
+                              </span>
+                              <span className="shrink-0 text-xs font-mono px-2 py-0.5 rounded bg-surface border border-border text-ink-2">
+                                {topico.codigoEdital}
+                              </span>
+                            </div>
                           </div>
+                          {topico.incidencia && (
+                            <div className="text-[11px] font-mono text-ink-2 flex flex-wrap items-center gap-x-2 gap-y-0.5">
+                              <span>Acervo Cebraspe: ~{topico.incidencia.total} itens</span>
+                              <span>·</span>
+                              <span>{topico.incidencia.recente2024a2026} recentes (2024–2026)</span>
+                              <span>·</span>
+                              <span>{topico.incidencia.percentual}% do bloco</span>
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>

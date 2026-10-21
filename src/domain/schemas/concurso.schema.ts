@@ -14,6 +14,41 @@ export const SimetriaGabaritoSchema = z.object({
   erradosMax: z.number(),
 });
 
+export const PisosEliminatoriosConfigSchema = z.object({
+  p1Minimo: z.number(),
+  p2Minimo: z.number(),
+  totalMinimo: z.number(),
+  vagasAmplaConvocadasDiscursiva: z.number(),
+  notaCorteDiscursivaMin: z.number(),
+});
+
+export const EstruturaDiscursivaConfigSchema = z.object({
+  pontosTotal: z.number(),
+  questoes: z.object({
+    quantidade: z.number(),
+    linhasMaximas: z.number(),
+    pontosCada: z.number(),
+    pontosTotal: z.number(),
+  }),
+  pecaTecnica: z.object({
+    quantidade: z.number(),
+    linhasMaximas: z.number(),
+    pontosTotal: z.number(),
+  }),
+  pisoAprovacao: z.number(),
+});
+
+export const EditalOficialConfigSchema = z.object({
+  dataProvavelProva: z.string(),
+  totalItensProvaObjetiva: z.number(),
+  distribuicao: z.object({
+    p1Basicos: z.number(),
+    p2Especificos: z.number(),
+  }),
+  pisosEliminatorios: PisosEliminatoriosConfigSchema,
+  discursiva: EstruturaDiscursivaConfigSchema,
+});
+
 export const ConcursoConfigSchema = z.object({
   plataforma: z.object({
     nome: z.string(),
@@ -50,4 +85,5 @@ export const ConcursoConfigSchema = z.object({
     notaCorteHistoricaMax: z.number(),
     diasConstanciaMeta: z.number(),
   }),
+  edital: EditalOficialConfigSchema.optional(),
 });
