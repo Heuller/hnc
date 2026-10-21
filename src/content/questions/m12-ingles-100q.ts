@@ -86,7 +86,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2360"
+        "questaoOriginalId": "cespe-tec-2360",
+      "revisar": true
       }
   },
   {
@@ -196,7 +197,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2370"
+        "questaoOriginalId": "cespe-tec-2370",
+      "revisar": true
       }
   },
   {
@@ -504,7 +506,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2388"
+        "questaoOriginalId": "cespe-tec-2388",
+      "revisar": true
       }
   },
   {
@@ -964,7 +967,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2401"
+        "questaoOriginalId": "cespe-tec-2401",
+      "revisar": true
       }
   },
   {
@@ -1094,7 +1098,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2406"
+        "questaoOriginalId": "cespe-tec-2406",
+      "revisar": true
       }
   },
   {
@@ -1180,7 +1185,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2411"
+        "questaoOriginalId": "cespe-tec-2411",
+      "revisar": true
       }
   },
   {
@@ -1290,7 +1296,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2424"
+        "questaoOriginalId": "cespe-tec-2424",
+      "revisar": true
       }
   },
   {
@@ -1528,7 +1535,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2360"
+        "questaoOriginalId": "cespe-tec-2360",
+      "revisar": true
       }
   },
   {
@@ -1726,7 +1734,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2370"
+        "questaoOriginalId": "cespe-tec-2370",
+      "revisar": true
       }
   },
   {
@@ -2034,7 +2043,8 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2388"
+        "questaoOriginalId": "cespe-tec-2388",
+      "revisar": true
       }
   },
   {
