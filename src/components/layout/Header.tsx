@@ -207,9 +207,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
           </div>
         </div>
 
-        {/* Trilha de Navegação (Breadcrumb) logo abaixo da barra do cabeçalho */}
-        <Breadcrumb />
       </header>
+
+      {/* Trilha de Navegação (Breadcrumb) logo abaixo da barra do cabeçalho */}
+      <Breadcrumb />
 
       <MobileModulesDrawer
         isOpen={isModulesDrawerOpen}
