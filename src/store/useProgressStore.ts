@@ -14,6 +14,7 @@ import {
   criarItemLeitner,
 } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
+import { calcularPontuacaoCebraspe } from '../domain/scoring/cebraspeScoring';
 import { useAuthStore, registerSignOutListener } from './useAuthStore';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
@@ -783,59 +784,17 @@ export const useProgressStore = create<ProgressStoreState>()(
         const questoes = manifest?.questoes || simuladoFundamentos100Q;
         const tituloSimulado = manifest?.titulo || 'Simulado no Modelo Cebraspe';
 
-        let certos = 0;
-        let errados = 0;
-        let emBranco = 0;
-
-        let certezaTotal = 0;
-        let certezaAcertos = 0;
-        let provavelTotal = 0;
-        let provavelAcertos = 0;
-        let chuteTotal = 0;
-        let chuteAcertos = 0;
-
-        questoes.forEach((q) => {
+        const itensCebraspe = questoes.map((q) => {
           const r = respostas[q.id];
-          if (!r || r.resposta === 'BRANCO') {
-            emBranco++;
-          } else if (r.resposta === q.gabarito) {
-            certos++;
-            if (r.certeza === 'certeza') {
-              certezaTotal++;
-              certezaAcertos++;
-            } else if (r.certeza === 'provavel') {
-              provavelTotal++;
-              provavelAcertos++;
-            } else if (r.certeza === 'chute') {
-              chuteTotal++;
-              chuteAcertos++;
-            }
-          } else {
-            errados++;
-            if (r.certeza === 'certeza') {
-              certezaTotal++;
-            } else if (r.certeza === 'provavel') {
-              provavelTotal++;
-            } else if (r.certeza === 'chute') {
-              chuteTotal++;
-            }
-          }
+          return {
+            id: q.id,
+            respostaUsuario: (r?.resposta || 'BRANCO') as 'C' | 'E' | 'BRANCO',
+            gabarito: q.gabarito as 'C' | 'E',
+            certeza: r?.certeza as 'certeza' | 'provavel' | 'chute' | undefined,
+          };
         });
 
-        const notaLiquida = certos - errados;
-        const totalQuestoes = Math.max(1, questoes.length);
-        const aproveitamentoPercent = Math.max(0, Math.round((notaLiquida / totalQuestoes) * 100));
-
-        const acertoCertezaPercent =
-          certezaTotal > 0 ? Math.round((certezaAcertos / certezaTotal) * 100) : 0;
-        const acertoProvavelPercent =
-          provavelTotal > 0 ? Math.round((provavelAcertos / provavelTotal) * 100) : 0;
-        const acertoChutePercent =
-          chuteTotal > 0 ? Math.round((chuteAcertos / chuteTotal) * 100) : 0;
-
-        const chuteErrados = chuteTotal - chuteAcertos;
-        const saldoChutes = chuteAcertos - chuteErrados;
-        const ganhoPotencialSeChuteBranco = saldoChutes < 0 ? Math.abs(saldoChutes) : 0;
+        const pontuacao = calcularPontuacaoCebraspe(itensCebraspe);
 
         const resultado: SimuladoFinalizado = {
           id: `simulado-${Date.now()}`,
@@ -843,17 +802,17 @@ export const useProgressStore = create<ProgressStoreState>()(
           tituloSimulado,
           dataHora: new Date().toISOString(),
           tempoGastoSegundos,
-          certos,
-          errados,
-          emBranco,
-          notaLiquida,
-          aproveitamentoPercent,
+          certos: pontuacao.certos,
+          errados: pontuacao.errados,
+          emBranco: pontuacao.emBranco,
+          notaLiquida: pontuacao.notaLiquida,
+          aproveitamentoPercent: pontuacao.aproveitamentoPercent,
           respostas,
           calibracao: {
-            acertoCertezaPercent,
-            acertoProvavelPercent,
-            acertoChutePercent,
-            ganhoPotencialSeChuteBranco,
+            acertoCertezaPercent: pontuacao.calibracao.acertoCertezaPercent,
+            acertoProvavelPercent: pontuacao.calibracao.acertoProvavelPercent,
+            acertoChutePercent: pontuacao.calibracao.acertoChutePercent,
+            ganhoPotencialSeChuteBranco: pontuacao.calibracao.ganhoPotencialSeChuteBranco,
           },
         };
 
