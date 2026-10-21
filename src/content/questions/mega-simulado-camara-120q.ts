@@ -283,7 +283,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2350"
+        "questaoOriginalId": "cespe-tec-2350",
+      "revisar": true
       }
   },
   {
@@ -305,7 +306,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2353"
+        "questaoOriginalId": "cespe-tec-2353",
+      "revisar": true
       }
   },
   {
