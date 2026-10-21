@@ -8,6 +8,8 @@ export interface CebraspeQuestion {
   gabarito: 'C' | 'E';
   justificativa: string; // Explicação canônica detalhada
   fonteOriginal?: string; // Ex: CEBRASPE / PC-DF / 2025 ou Inédita Cebraspe
+  origemModulo?: string;
+  questaoOrigemId?: string;
   submoduloId: string; // Relacionado ao módulo-filho (ex: '1.1')
   armadilhaBanca?: string; // Análise pedagógica da casca de banana Cebraspe
   dificuldade: 'facil' | 'media' | 'dificil';

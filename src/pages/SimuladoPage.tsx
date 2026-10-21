@@ -28,11 +28,12 @@ import {
   Printer,
   BookOpen,
   Keyboard,
+  Info,
 } from 'lucide-react';
 import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 import { calcularMediaTempoPorItem } from '../domain/progressoEngine';
 import { obterInfoProveniencia } from '../domain/proveniencia';
-import { avaliarDesempenhoSimuladoOficial180 } from '../domain/simuladoOficialEngine';
+import { avaliarDesempenhoSimuladoOficial180, contarItensJaVistosNosModulos } from '../domain/simuladoOficialEngine';
 
 const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
   '1.1': {
@@ -133,6 +134,7 @@ export const SimuladoPage: React.FC = () => {
     checkpointsRespondidos,
     devBypassSimuladoLock,
     setDevBypassSimuladoLock,
+    itemAttempts,
   } = useProgressStore();
 
   const {
@@ -645,6 +647,12 @@ export const SimuladoPage: React.FC = () => {
       }
     });
 
+    const itensVistosInfo = contarItensJaVistosNosModulos(
+      simuladoAtivo.questoes,
+      itemAttempts,
+      checkpointsRespondidos
+    );
+
     return (
       <div className="max-w-4xl mx-auto space-y-8 animate-fadeIn print:max-w-none print:p-0">
         {/* Cabeçalho do Relatório */}
@@ -721,7 +729,20 @@ export const SimuladoPage: React.FC = () => {
             </div>
           </div>
 
-                    {/* Painel Oficial de Pisos Eliminatórios Cebraspe (P22 / Edital 8.11.5) */}
+                    {/* Alerta Informativo C4: Itens Já Vistos nos Módulos e Não Impacto no Domínio */}
+          {(simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || itensVistosInfo.totalVistos > 0) && (
+            <div className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/10 text-ink space-y-1.5 my-6 print:border-gray-300 print:bg-gray-50 print:break-inside-avoid">
+              <div className="flex items-center gap-2 font-sans font-bold text-sm text-amber-700 dark:text-amber-400 print:text-black">
+                <Info className="w-4 h-4 shrink-0" />
+                <span>{itensVistosInfo.totalVistos} de {simuladoAtivo.questoes.length} itens já vistos nos módulos ({itensVistosInfo.porcentagemVistos}%)</span>
+              </div>
+              <p className="text-xs text-ink-2 print:text-gray-700">
+                Este simulado consolida itens do acervo para treinamento de ritmo de prova, gestão de tempo e aferição de pisos eliminatórios (18/27/54). Seu resultado não afeta os indicadores nem os portões de domínio da trilha de estudos.
+              </p>
+            </div>
+          )}
+
+          {/* Painel Oficial de Pisos Eliminatórios Cebraspe (P22 / Edital 8.11.5) */}
           {(() => {
             const is180Q = simuladoAtivo.questoes.length === 180 || selectedSimuladoId.includes('180') || selectedSimuladoId.includes('oficial');
             if (!is180Q) return null;
