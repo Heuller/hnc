@@ -185,8 +185,7 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
   const fullscreenSvgHostRef = useRef<HTMLDivElement>(null);
 
   // Detecção ativa de dark mode caso a prop não seja explicitamente informada
-  const [effectiveIsDark, setEffectiveIsDark] = useState<boolean>(() => {
-    if (typeof propIsDark === 'boolean') return propIsDark;
+  const [systemIsDark, setSystemIsDark] = useState<boolean>(() => {
     if (typeof document !== 'undefined') {
       return document.documentElement.classList.contains('dark');
     }
@@ -194,16 +193,15 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
   });
 
   useEffect(() => {
-    if (typeof propIsDark === 'boolean') {
-      setEffectiveIsDark(propIsDark);
-      return;
-    }
+    if (typeof propIsDark === 'boolean') return;
     const observer = new MutationObserver(() => {
-      setEffectiveIsDark(document.documentElement.classList.contains('dark'));
+      setSystemIsDark(document.documentElement.classList.contains('dark'));
     });
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
     return () => observer.disconnect();
   }, [propIsDark]);
+
+  const effectiveIsDark = typeof propIsDark === 'boolean' ? propIsDark : systemIsDark;
 
   const parsed = useMemo(() => parseMermaidText(code), [code]);
 
