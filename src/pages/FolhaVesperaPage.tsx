@@ -10,7 +10,13 @@ import {
   History,
   ShieldAlert,
   CheckCircle2,
+  Brain,
+  Eye,
+  RotateCcw,
+  Check,
+  X as XIcon,
 } from 'lucide-react';
+import { PainelMnemonicosLegislativo } from '../components/common/PainelMnemonicosLegislativo';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
 import { COURSE_REGISTRY } from '../content/registry';
@@ -20,7 +26,9 @@ import { MATRIZ_BLOCOS_EDITAL_VESPERA } from '../domain/folhaVespera/pegadinhasB
 export const FolhaVesperaPage: React.FC = () => {
   const { setActiveView } = useNavigationStore();
   const { modulosLidosIds } = useProgressStore();
-  const [activeTab, setActiveTab] = useState<'blocos' | 'progresso'>('blocos');
+  const [activeTab, setActiveTab] = useState<'blocos' | 'progresso' | 'mnemonicos'>('blocos');
+  const [modoTreinoAtivo, setModoTreinoAtivo] = useState<boolean>(false);
+  const [respostasTreino, setRespostasTreino] = useState<Record<string, 'C' | 'E'>>({});
   const [selectedBloco, setSelectedBloco] = useState<string>('todos');
 
   const handlePrint = () => {
@@ -168,6 +176,19 @@ export const FolhaVesperaPage: React.FC = () => {
             <CheckCircle2 className="w-3.5 h-3.5" />
             <span>Minha Síntese de Progresso ({completedSubmodules.length} Concluídos)</span>
           </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab('mnemonicos')}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+              activeTab === 'mnemonicos'
+                ? 'bg-accent text-white shadow-sm'
+                : 'bg-surface-2 text-ink-2 hover:text-ink border border-border'
+            }`}
+          >
+            <Brain className="w-3.5 h-3.5" />
+            <span>Fórmulas Mnemônicas (Teach)</span>
+          </button>
         </div>
       </div>
 
@@ -192,6 +213,52 @@ export const FolhaVesperaPage: React.FC = () => {
 
       {/* SEÇÃO 1: MATRIZ CEBRASPE DOS 5 BLOCOS DO EDITAL 2026 */}
       <div className={activeTab === 'blocos' ? 'space-y-6' : 'hidden print:block space-y-6'}>
+        {/* Controle do Modo Treino Ativo (Recall Ativo Teach) */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-surface border border-border shadow-2xs no-print">
+          <div className="flex items-center gap-2.5">
+            <div className="p-2 rounded-lg bg-accent/10 text-accent">
+              <Brain className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="font-sans font-bold text-ink text-xs block">
+                {modoTreinoAtivo ? 'Modo Treino Ativo Ligado (Recuperação Ativa)' : 'Modo Leitura Sintética'}
+              </span>
+              <p className="text-xs text-ink-2 font-serif m-0">
+                {modoTreinoAtivo
+                  ? 'Gabaritos e armadilhas estão ocultos. Julgue cada assertiva antes de conferir.'
+                  : 'Exibição completa com gabaritos oficiais e armadilhas da banca abertos.'}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            {modoTreinoAtivo && Object.keys(respostasTreino).length > 0 && (
+              <button
+                type="button"
+                onClick={() => setRespostasTreino({})}
+                className="px-2.5 py-1.5 rounded-lg bg-surface-2 border border-border text-xs font-semibold text-ink-2 hover:text-ink flex items-center gap-1 cursor-pointer"
+                title="Reiniciar treino ativo"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span>Reiniciar ({Object.keys(respostasTreino).length} respondidas)</span>
+              </button>
+            )}
+
+            <button
+              type="button"
+              onClick={() => setModoTreinoAtivo(!modoTreinoAtivo)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-sans font-bold flex items-center gap-1.5 transition-all cursor-pointer ${
+                modoTreinoAtivo
+                  ? 'bg-emerald-600 text-white shadow-xs'
+                  : 'bg-accent text-white shadow-xs'
+              }`}
+            >
+              <Eye className="w-3.5 h-3.5" />
+              <span>{modoTreinoAtivo ? 'Mudar para Leitura Sintética' : 'Ativar Treino de Véspera (Recall)'}</span>
+            </button>
+          </div>
+        </div>
+
         {/* Filtro por Bloco no topo (Oculto na Impressão) */}
         <div className="flex flex-wrap items-center gap-1.5 no-print">
           <span className="text-xs font-semibold text-ink-2 mr-1">Filtrar Bloco:</span>
@@ -247,45 +314,103 @@ export const FolhaVesperaPage: React.FC = () => {
             </p>
 
             <div className="space-y-3.5">
-              {bloco.pegadinhas.map((item, pIdx) => (
-                <div
-                  key={item.id}
-                  className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2 text-xs font-serif leading-relaxed text-ink print:text-black"
-                >
-                  <div className="flex items-center justify-between gap-2 font-mono text-xs border-b border-border/50 pb-1.5">
-                    <span className="font-bold text-accent uppercase">
-                      #{pIdx + 1} · {item.topico}
-                    </span>
-                    <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold">
-                      GABARITO: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
-                    </span>
-                  </div>
+              {bloco.pegadinhas.map((item, pIdx) => {
+                const respostaDada = respostasTreino[item.id];
+                const estaRespondido = typeof respostaDada === 'string';
+                const acertou = respostaDada === item.gabaritoOficial;
+                const revelarConteudo = !modoTreinoAtivo || estaRespondido;
 
-                  <div>
-                    <span className="font-semibold text-ink-2 text-xs block mb-0.5">
-                      Assertiva Típica Cebraspe:
-                    </span>
-                    <p className="font-medium italic m-0 text-ink bg-surface/60 p-2 rounded border border-border/60">
-                      "{item.afirmacaoFalsa}"
-                    </p>
-                  </div>
+                return (
+                  <div
+                    key={item.id}
+                    className="p-3.5 rounded-xl bg-surface-2/70 border border-border print:border-gray-400 space-y-2.5 text-xs font-serif leading-relaxed text-ink print:text-black shadow-2xs"
+                  >
+                    <div className="flex items-center justify-between gap-2 font-mono text-xs border-b border-border/50 pb-1.5">
+                      <span className="font-bold text-accent uppercase">
+                        #{pIdx + 1} · {item.topico}
+                      </span>
 
-                  <div className="text-xs space-y-1">
-                    <p className="m-0 text-red-600 dark:text-red-400">
-                      <strong>⚠️ Armadilha da Banca:</strong> {item.armadilhaCebraspe}
-                    </p>
-                    <p className="m-0 text-emerald-700 dark:text-emerald-400">
-                      <strong>Fundamentação Canônica:</strong> {item.fundamentacaoCanonico}
-                    </p>
-                    <p className="m-0 text-ink-2 font-mono text-xs">
-                      <strong>Fonte Primária:</strong> {item.fontePrimaria} (Ref: §{item.submoduloRef})
-                    </p>
+                      {/* Badge de Gabarito / Feedback */}
+                      {revelarConteudo ? (
+                        <div className="flex items-center gap-1.5">
+                          {modoTreinoAtivo && (
+                            <span
+                              className={`px-2 py-0.5 rounded text-xs font-mono font-bold flex items-center gap-1 ${
+                                acertou
+                                  ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30'
+                                  : 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
+                              }`}
+                            >
+                              {acertou ? <Check className="w-3 h-3" /> : <XIcon className="w-3 h-3" />}
+                              <span>{acertou ? 'ACERTOU' : 'CAIU NA PEGADINHA'}</span>
+                            </span>
+                          )}
+                          <span className="px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-bold">
+                            GABARITO: {item.gabaritoOficial === 'E' ? 'ERRADO' : 'CERTO'}
+                          </span>
+                        </div>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded bg-surface border border-border text-ink-2 font-mono text-xs">
+                          Pendente de Julgamento
+                        </span>
+                      )}
+                    </div>
+
+                    <div>
+                      <span className="font-semibold text-ink-2 text-xs block mb-0.5">
+                        Assertiva Típica Cebraspe:
+                      </span>
+                      <p className="font-medium italic m-0 text-ink bg-surface/60 p-2.5 rounded-lg border border-border/60">
+                        "{item.afirmacaoFalsa}"
+                      </p>
+                    </div>
+
+                    {/* Botões do Modo Treino Ativo (Visíveis apenas quando não respondido e modo ativo) */}
+                    {modoTreinoAtivo && !estaRespondido && (
+                      <div className="pt-1 flex items-center gap-2 no-print">
+                        <span className="text-xs font-sans font-bold text-ink mr-1">Seu Julgamento:</span>
+                        <button
+                          type="button"
+                          onClick={() => setRespostasTreino((prev) => ({ ...prev, [item.id]: 'C' }))}
+                          className="px-3 py-1.5 rounded-lg bg-surface border border-emerald-500/40 hover:bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 font-sans font-bold text-xs flex items-center gap-1 cursor-pointer transition-colors"
+                        >
+                          <Check className="w-3.5 h-3.5" />
+                          <span>CERTO (C)</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setRespostasTreino((prev) => ({ ...prev, [item.id]: 'E' }))}
+                          className="px-3 py-1.5 rounded-lg bg-surface border border-rose-500/40 hover:bg-rose-500/10 text-rose-700 dark:text-rose-300 font-sans font-bold text-xs flex items-center gap-1 cursor-pointer transition-colors"
+                        >
+                          <XIcon className="w-3.5 h-3.5" />
+                          <span>ERRADO (E)</span>
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Explicação e Fundamentação */}
+                    <div className={`text-xs space-y-1 ${revelarConteudo ? 'block' : 'hidden print:block'}`}>
+                      <p className="m-0 text-rose-700 dark:text-rose-400">
+                        <strong>⚠️ Armadilha da Banca:</strong> {item.armadilhaCebraspe}
+                      </p>
+                      <p className="m-0 text-emerald-700 dark:text-emerald-400">
+                        <strong>Fundamentação Canônica:</strong> {item.fundamentacaoCanonico}
+                      </p>
+                      <p className="m-0 text-ink-2 font-mono text-xs">
+                        <strong>Fonte Primária:</strong> {item.fontePrimaria} (Ref: §{item.submoduloRef})
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         ))}
+      </div>
+
+      {/* SEÇÃO 3: FÓRMULAS MNEMÔNICAS (METODOLOGIA TEACH) */}
+      <div className={activeTab === 'mnemonicos' ? 'space-y-6' : 'hidden print:block space-y-6'}>
+        <PainelMnemonicosLegislativo />
       </div>
 
       {/* SEÇÃO 2: MINHA SÍNTESE DE PROGRESSO (REGRA B9) */}

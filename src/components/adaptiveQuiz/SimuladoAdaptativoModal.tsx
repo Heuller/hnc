@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import {
-  Sparkles,
   X,
   Target,
   Clock,
-  ArrowRight,
   CheckCircle2,
   XCircle,
   HelpCircle,
@@ -28,6 +26,7 @@ import { diagnosticarVulnerabilidades } from '../../domain/adaptiveQuiz/diagnost
 import { useProgressStore } from '../../store/useProgressStore';
 import { DialogoBancaModal } from '../cadernoErros/DialogoBancaModal';
 import type { ItemCadernoErro } from '../../domain/cadernoErros';
+import { SimuladoWizard } from './SimuladoWizard';
 
 interface SimuladoAdaptativoModalProps {
   isOpen: boolean;
@@ -47,6 +46,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
   const [modoFoco, setModoFoco] = useState<'fraquezas_criticas' | 'erros_caderno' | 'geral_adaptativo'>(
     modoInicial
   );
+  const [modoFeedback, setModoFeedback] = useState<'cego' | 'imediato'>('cego');
 
   const [gerando, setGerando] = useState<boolean>(false);
   const [itensSimulado, setItensSimulado] = useState<ItemSimuladoAdaptativo[]>([]);
@@ -217,142 +217,20 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
         {/* CORPO PRINCIPAL COM CONTEÚDO DAS ETAPAS */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-surface/50">
           {/* ========================================================================= */}
-          {/* ETAPA 1: CONFIGURAÇÃO & MAPA DE VULNERABILIDADES */}
+          {/* ETAPA 1: CONFIGURAÇÃO GUIADA VIA WIZARD MULTIETAPAS */}
           {/* ========================================================================= */}
           {etapa === 'config' && (
-            <div className="max-w-2xl mx-auto space-y-6">
-              <div className="card-editorial p-5 border-l-4 border-l-accent space-y-2">
-                <h3 className="text-sm font-bold text-ink m-0 flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-accent" />
-                  <span>Diagnóstico Inteligente de Fraquezas</span>
-                </h3>
-                <p className="text-xs text-ink-2 font-serif-reading leading-relaxed m-0">
-                  O algoritmo analisa seus erros em micro-checkpoints e simulados para gerar assertivas inéditas estritamente concentradas nos tópicos onde você mais tem vulnerabilidade conceitual.
-                </p>
-              </div>
-
-              {/* LISTA DE VULNERABILIDADES DETECTADAS */}
-              <div className="space-y-2">
-                <span className="text-xs font-mono font-bold text-ink-2 uppercase tracking-wider block">
-                  Pontos Críticos Diagnosticados no Seu Histórico:
-                </span>
-
-                {vulnerabilidades.length === 0 ? (
-                  <div className="p-4 rounded-xl bg-surface-2 border border-border text-xs text-ink-2 text-center">
-                    Nenhum ponto fraco crítico registrado ainda. O simulado cobrirá os principais módulos do edital da Câmara com ênfase preventiva.
-                  </div>
-                ) : (
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {vulnerabilidades.slice(0, 4).map((v) => (
-                      <div
-                        key={v.macroModuloId}
-                        className="p-3 rounded-xl bg-surface border border-border space-y-1.5 shadow-editorial-sm"
-                      >
-                        <div className="flex items-center justify-between text-xs">
-                          <span className="font-bold text-ink truncate max-w-[170px]">
-                            {v.titulo}
-                          </span>
-                          <span
-                            className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
-                              v.nivelGravidade === 'CRITICA'
-                                ? 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
-                                : 'bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30'
-                            }`}
-                          >
-                            {v.totalErros} falha{v.totalErros !== 1 ? 's' : ''} ({v.taxaErro}%)
-                          </span>
-                        </div>
-                        {v.pontosCegosIdentificados[0] && (
-                          <p className="text-xs text-ink-2 italic m-0 line-clamp-1">
-                            "{v.pontosCegosIdentificados[0]}"
-                          </p>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              {/* OPÇÕES DE CONFIGURAÇÃO */}
-              <div className="space-y-4 pt-2 border-t border-border">
-                {/* Quantidade de Itens */}
-                <div className="space-y-2">
-                  <span className="text-xs font-bold text-ink">Quantidade de Itens no Treino:</span>
-                  <div className="grid grid-cols-3 gap-2">
-                    {[10, 15, 20].map((qtd) => (
-                      <button
-                        key={qtd}
-                        type="button"
-                        onClick={() => setQtdItens(qtd)}
-                        className={`p-2.5 rounded-xl border text-xs font-bold font-mono transition-colors cursor-pointer ${
-                          qtdItens === qtd
-                            ? 'bg-accent text-accent-text border-accent'
-                            : 'bg-surface-2 text-ink hover:border-accent border-border'
-                        }`}
-                      >
-                        {qtd} Itens
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Modo de Foco */}
-                <div className="space-y-2">
-                  <span className="text-xs font-bold text-ink">Estratégia Pedagógica do Treino:</span>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                    <button
-                      type="button"
-                      onClick={() => setModoFoco('fraquezas_criticas')}
-                      className={`p-3 rounded-xl border text-left transition-colors cursor-pointer space-y-1 ${
-                        modoFoco === 'fraquezas_criticas'
-                          ? 'bg-accent/10 border-accent text-ink'
-                          : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
-                      }`}
-                    >
-                      <div className="text-xs font-bold text-ink flex items-center gap-1.5">
-                        <Target className="w-3.5 h-3.5 text-accent" />
-                        <span>Fraquezas Críticas</span>
-                      </div>
-                      <p className="text-xs leading-relaxed m-0">
-                        Concentra 80% das assertivas nos submódulos onde você mais errou.
-                      </p>
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={() => setModoFoco('erros_caderno')}
-                      className={`p-3 rounded-xl border text-left transition-colors cursor-pointer space-y-1 ${
-                        modoFoco === 'erros_caderno'
-                          ? 'bg-accent/10 border-accent text-ink'
-                          : 'bg-surface-2 border-border text-ink-2 hover:text-ink'
-                      }`}
-                    >
-                      <div className="text-xs font-bold text-ink flex items-center gap-1.5">
-                        <RotateCcw className="w-3.5 h-3.5 text-accent" />
-                        <span>Erradicação do Caderno</span>
-                      </div>
-                      <p className="text-xs leading-relaxed m-0">
-                        Retesta e aprofunda os itens exatos do seu Caderno de Erros.
-                      </p>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              {/* BOTÃO GERAR */}
-              <div className="pt-2">
-                <button
-                  type="button"
-                  onClick={handleIniciarSimulado}
-                  disabled={gerando}
-                  className="w-full py-3 px-4 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-bold text-xs flex items-center justify-center gap-2 cursor-pointer transition-colors shadow-editorial-sm disabled:opacity-50"
-                >
-                  <Sparkles className="w-4 h-4" />
-                  <span>{gerando ? 'Gerando Itens Inéditos com a Banca IA...' : 'Iniciar Simulado Adaptativo'}</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
+            <SimuladoWizard
+              vulnerabilidades={vulnerabilidades}
+              qtdItens={qtdItens}
+              setQtdItens={setQtdItens}
+              modoFoco={modoFoco}
+              setModoFoco={setModoFoco}
+              modoFeedback={modoFeedback}
+              setModoFeedback={setModoFeedback}
+              onIniciar={handleIniciarSimulado}
+              gerando={gerando}
+            />
           )}
 
           {/* ========================================================================= */}
@@ -424,6 +302,38 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   </button>
                 </div>
               </div>
+
+              {/* Hipercorreção Imediata Pedagógica (Metodologia Teach) */}
+              {modoFeedback === 'imediato' && respostas[itemAtual.id] && (
+                <div className="p-4 rounded-xl border space-y-2 bg-surface border-border animate-in fade-in duration-200 shadow-xs">
+                  <div className="flex items-center justify-between text-xs font-mono font-bold">
+                    <span
+                      className={
+                        respostas[itemAtual.id].acertou
+                          ? 'text-emerald-600 dark:text-emerald-400'
+                          : respostas[itemAtual.id].resposta === 'BRANCO'
+                          ? 'text-amber-600 dark:text-amber-400'
+                          : 'text-rose-600 dark:text-rose-400'
+                      }
+                    >
+                      {respostas[itemAtual.id].acertou
+                        ? '✓ RESPOSTA CORRETA'
+                        : respostas[itemAtual.id].resposta === 'BRANCO'
+                        ? '○ ITEM DEIXADO EM BRANCO'
+                        : '✕ RESPOSTA INCORRETA'} (Gabarito: {itemAtual.gabarito})
+                    </span>
+                    <span className="text-ink-2 font-normal">Hipercorreção Imediata</span>
+                  </div>
+                  {itemAtual.armadilhaBanca && (
+                    <p className="text-xs text-rose-700 dark:text-rose-300 m-0 font-sans">
+                      <strong>⚠️ Armadilha Cebraspe:</strong> {itemAtual.armadilhaBanca}
+                    </p>
+                  )}
+                  <p className="text-xs text-ink m-0 leading-relaxed font-serif">
+                    <strong>Fundamentação:</strong> {itemAtual.justificativa}
+                  </p>
+                </div>
+              )}
 
               {/* Régua de Navegação dos Itens */}
               <div className="flex items-center justify-between pt-4 border-t border-border">
