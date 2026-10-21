@@ -174,3 +174,59 @@ export function avaliarDesempenhoSimuladoOficial180(
     },
   };
 }
+
+
+export interface ItensVistosModulosResultado {
+  totalVistos: number;
+  totalItens: number;
+  porcentagemVistos: number;
+  detalhes: Array<{
+    id: string;
+    origemModulo?: string;
+    questaoOrigemId?: string;
+    jaVisto: boolean;
+  }>;
+}
+
+/**
+ * Conta quantos itens do simulado já foram vistos e respondidos pelo aluno nos módulos de estudo (Prompt C4).
+ * Esse cálculo serve para informar a repetição ao estudante sem inflar artificialmente o domínio de novos tópicos.
+ */
+export function contarItensJaVistosNosModulos(
+  questoes: CebraspeQuestion[],
+  itemAttempts: Array<{ item_id: string; contexto?: string }> = [],
+  checkpoints: Record<string, any> = {}
+): ItensVistosModulosResultado {
+  const tentativasIds = new Set(
+    itemAttempts
+      .filter((a) => a.contexto !== 'simulado')
+      .map((a) => a.item_id)
+  );
+  const checkpointIds = new Set(Object.keys(checkpoints));
+
+  const detalhes = questoes.map((q) => {
+    const jaVisto =
+      tentativasIds.has(q.id) ||
+      Boolean(q.questaoOrigemId && tentativasIds.has(q.questaoOrigemId)) ||
+      checkpointIds.has(q.id) ||
+      Boolean(q.questaoOrigemId && checkpointIds.has(q.questaoOrigemId));
+
+    return {
+      id: q.id,
+      origemModulo: q.origemModulo,
+      questaoOrigemId: q.questaoOrigemId,
+      jaVisto,
+    };
+  });
+
+  const totalVistos = detalhes.filter((d) => d.jaVisto).length;
+  const totalItens = questoes.length;
+  const porcentagemVistos = totalItens > 0 ? Math.round((totalVistos / totalItens) * 100) : 0;
+
+  return {
+    totalVistos,
+    totalItens,
+    porcentagemVistos,
+    detalhes,
+  };
+}

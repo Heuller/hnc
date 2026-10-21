@@ -71,6 +71,8 @@ export const CebraspeQuestionSchema = z.object({
   revisar: z.boolean().optional(),
   dificuldade: z.enum(['facil', 'media', 'dificil']),
   fonteOriginal: FonteOriginalSchema,
+  origemModulo: z.string().optional(),
+  questaoOrigemId: z.string().optional(),
   fonte: z.string().optional(), // Fonte primária direta obrigatória
   dataConferencia: z.string().optional(),
 });
