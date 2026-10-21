@@ -49,6 +49,36 @@ export interface ConcursoConfig {
     notaCorteHistoricaMax: number; // Percentual líquido (ex: 75%)
     diasConstanciaMeta: number;
   };
+  edital: {
+    dataProvavelProva: string; // '2027-01-17' (Anexo I)
+    totalItensProvaObjetiva: number; // 180 itens (90 P1 + 90 P2)
+    distribuicao: {
+      p1Basicos: number; // 90 itens
+      p2Especificos: number; // 90 itens
+    };
+    pisosEliminatorios: {
+      p1Minimo: number; // 18.00 pts
+      p2Minimo: number; // 27.00 pts
+      totalMinimo: number; // 54.00 pts
+      vagasAmplaConvocadasDiscursiva: number; // 22 candidatos
+      notaCorteDiscursivaMin: number; // 30.00 pts
+    };
+    discursiva: {
+      pontosTotal: number; // 60.00 pts
+      questoes: {
+        quantidade: number; // 2
+        linhasMaximas: number; // 20 linhas
+        pontosCada: number; // 15.00 pts
+        pontosTotal: number; // 30.00 pts
+      };
+      pecaTecnica: {
+        quantidade: number; // 1
+        linhasMaximas: number; // 50 linhas
+        pontosTotal: number; // 30.00 pts
+      };
+      pisoAprovacao: number; // 30.00 pts
+    };
+  };
 }
 
 export const CONCURSO_CONFIG: ConcursoConfig = {
@@ -96,5 +126,35 @@ export const CONCURSO_CONFIG: ConcursoConfig = {
     notaCorteHistoricaMin: 65,
     notaCorteHistoricaMax: 75,
     diasConstanciaMeta: 7,
+  },
+  edital: {
+    dataProvavelProva: '2027-01-17',
+    totalItensProvaObjetiva: 180,
+    distribuicao: {
+      p1Basicos: 90,
+      p2Especificos: 90,
+    },
+    pisosEliminatorios: {
+      p1Minimo: 18,
+      p2Minimo: 27,
+      totalMinimo: 54,
+      vagasAmplaConvocadasDiscursiva: 22,
+      notaCorteDiscursivaMin: 30,
+    },
+    discursiva: {
+      pontosTotal: 60,
+      questoes: {
+        quantidade: 2,
+        linhasMaximas: 20,
+        pontosCada: 15,
+        pontosTotal: 30,
+      },
+      pecaTecnica: {
+        quantidade: 1,
+        linhasMaximas: 50,
+        pontosTotal: 30,
+      },
+      pisoAprovacao: 30,
+    },
   },
 };
