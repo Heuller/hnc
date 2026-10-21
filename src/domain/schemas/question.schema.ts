@@ -41,6 +41,7 @@ export const CebraspeQuestionSchema = z.object({
   secao_ref: z.string().optional(),
   armadilhaBanca: z.string().optional(),
   ehPegadinha: z.boolean().optional(),
+  revisar: z.boolean().optional(),
   dificuldade: z.enum(['facil', 'media', 'dificil']),
   fonteOriginal: FonteOriginalSchema,
   fonte: z.string().optional(), // Fonte primária direta obrigatória
