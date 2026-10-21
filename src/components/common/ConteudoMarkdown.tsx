@@ -76,7 +76,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
         components={{
           h1: ({ children, ...props }) => (
             <h1
-              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mt-8 mb-4 border-b border-border pb-2 break-words"
+              className="text-2xl sm:text-3xl font-sans font-bold text-ink tracking-normal mt-10 mb-5 border-b border-border pb-3 break-words"
               {...props}
             >
               {children}
@@ -84,7 +84,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           h2: ({ children, ...props }) => (
             <h2
-              className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-7 mb-3.5 flex items-center gap-2.5 break-words"
+              className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-10 mb-4 flex items-center gap-2.5 break-words"
               {...props}
             >
               <span className="w-2 h-6 rounded-full inline-block shrink-0 bg-accent shadow-xs" />
@@ -93,7 +93,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           h3: ({ children, ...props }) => (
             <h3
-              className="text-base sm:text-lg font-sans font-extrabold tracking-normal mt-6 mb-3 flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl border border-border bg-surface-2 break-words"
+              className="text-base sm:text-lg font-sans font-extrabold tracking-normal mt-8 mb-4 flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl border border-border bg-surface-2 dark:bg-surface-3/30 break-words"
               {...props}
             >
               <Bookmark className="w-4 h-4 shrink-0 text-accent" />
@@ -111,7 +111,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           ),
           p: ({ children, ...props }) => (
             <p
-              className="my-4 leading-[1.7] text-ink break-words"
+              className="my-5 leading-[1.8] text-ink break-words"
               style={{ textWrap: 'pretty', overflowWrap: 'anywhere' }}
               {...props}
             >
@@ -119,12 +119,12 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
             </p>
           ),
           ul: ({ children, ...props }) => (
-            <ul className="list-disc pl-6 my-4 space-y-2 text-ink" {...props}>
+            <ul className="list-disc pl-6 my-5 space-y-2.5 text-ink" {...props}>
               {children}
             </ul>
           ),
           ol: ({ children, ...props }) => (
-            <ol className="list-decimal pl-6 my-4 space-y-2 text-ink marker:font-bold marker:text-accent" {...props}>
+            <ol className="list-decimal pl-6 my-5 space-y-2.5 text-ink marker:font-bold marker:text-accent" {...props}>
               {children}
             </ol>
           ),
@@ -275,11 +275,15 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               </blockquote>
             );
           },
-          table: (props) => <TabelaResponsiva {...props} />,
+          table: (props) => (
+            <div className="overflow-x-auto my-6">
+              <TabelaResponsiva {...props} />
+            </div>
+          ),
           thead: ({ children, ...props }) => (
             <thead
               data-component="thead"
-              className="bg-surface-2 text-ink font-bold border-b border-border"
+              className="bg-surface-3 text-ink font-sans font-bold border-b-2 border-border shadow-2xs"
               {...props}
             >
               {children}
@@ -293,7 +297,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           th: ({ children, ...props }) => (
             <th
               data-component="th"
-              className="p-2.5 sm:p-3 text-ink font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider whitespace-nowrap"
+              className="p-3 text-ink font-sans font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider whitespace-nowrap"
               {...props}
             >
               {children}
@@ -302,7 +306,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
           td: ({ children, ...props }) => (
             <td
               data-component="td"
-              className="p-2.5 sm:p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words"
+              className="p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words"
               {...props}
             >
               {children}
@@ -344,7 +348,7 @@ export const ConteudoMarkdown: React.FC<ConteudoMarkdownProps> = ({
               </pre>
             );
           },
-          hr: () => <hr className="my-6 border-border" />,
+          hr: () => <div className="my-8" aria-hidden="true" />, // Proibição de barras horizontais (ADR-002)
           a: ({ children, ...props }) => (
             <a
               className="text-accent underline font-sans font-semibold hover:opacity-80 transition-opacity break-words"

@@ -60,13 +60,13 @@ function renderGabaritoBadge(content: React.ReactNode): React.ReactNode {
 }
 
 /**
- * Componente Unificado TabelaResponsiva / TabelaComparativa (F-18)
+ * Componente Unificado TabelaResponsiva / TabelaComparativa (F-18 & Fase 3)
  *
- * Implementa as diretrizes D6 e F-18 do Plano v3:
- * - Em telas >= 768px (Desktop/Tablet): Tabela tabular semântica completa com cabeçalho fixo (sticky),
- *   colunas balanceadas, sem corte de palavras.
+ * Alto Contraste & Ergonomia:
+ * - Em telas >= 768px (Desktop/Tablet): Tabela tabular semântica com cabeçalho fixo (sticky),
+ *   zebrado de alto contraste (bg-surface-3/50), coluna de critério destacada e bordas nítidas.
  * - Em telas < 768px (Mobile): Converte cada linha em Cartões Empilhados ou Seletor de Facetas,
- *   eliminando 100% da rolagem horizontal da página mesmo em viewports de 320px.
+ *   com campos em pills de alto contraste, eliminando 100% da rolagem horizontal da página.
  */
 export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
   quadro,
@@ -99,7 +99,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
   // Fallback caso não haja linhas estruturadas
   if (finalHeaders.length === 0 || finalRows.length === 0) {
     return (
-      <div className={`my-5 w-full max-w-full ${className}`}>
+      <div className={`my-6 w-full max-w-full ${className}`}>
         {finalTitulo && (
           <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink mb-2">
             {finalTitulo}
@@ -117,18 +117,20 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
     );
   }
 
-    const dataColumns = finalHeaders.slice(1);
+  const dataColumns = finalHeaders.slice(1);
   const hasMultipleDataColumns = dataColumns.length >= 2;
 
   return (
-    <div className={`card-editorial p-3.5 sm:p-5 space-y-3.5 my-5 w-full max-w-full @container ${className}`}>
-      {/* Cabeçalho da Tabela */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
-        <div className="flex items-center gap-2">
-          <TableIcon className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
+    <div className={`rounded-2xl border border-border bg-surface-3/30 dark:bg-surface-3/20 p-3.5 sm:p-5 space-y-4 my-6 w-full max-w-full @container ${className}`}>
+      {/* Cabeçalho do Quadro */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/80 pb-3">
+        <div className="flex items-center gap-2.5">
+          <div className="p-1.5 rounded-lg bg-surface-3 dark:bg-surface-2 text-accent border border-border/60">
+            <TableIcon className="w-4 h-4 shrink-0" aria-hidden="true" />
+          </div>
           <div>
             {finalTitulo && (
-              <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wider text-ink m-0">
+              <h4 className="text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-ink m-0">
                 {finalTitulo}
               </h4>
             )}
@@ -140,29 +142,29 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
 
         {/* Alternador de Modo Mobile (< 768px): Facetas vs Empilhado (quando há 2+ colunas de dados) */}
         {hasMultipleDataColumns && (
-          <div className="md:hidden flex items-center gap-1 bg-surface-2 p-1 rounded-md border border-border">
+          <div className="md:hidden flex items-center gap-1 bg-surface-3 dark:bg-surface-2 p-1 rounded-lg border border-border/80">
             <button
               type="button"
               onClick={() => setMobileMode('facetas')}
-              className={`px-2 py-1 rounded text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
+              className={`px-2.5 py-1 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer min-h-[32px] ${
                 mobileMode === 'facetas'
                   ? 'bg-surface text-ink font-bold shadow-2xs border border-border'
                   : 'text-ink-2 hover:text-ink'
               }`}
             >
-              <SlidersHorizontal className="w-3 h-3" />
+              <SlidersHorizontal className="w-3.5 h-3.5" />
               <span>Por Coluna</span>
             </button>
             <button
               type="button"
               onClick={() => setMobileMode('empilhado')}
-              className={`px-2 py-1 rounded text-xs font-semibold flex items-center gap-1 transition-colors cursor-pointer ${
+              className={`px-2.5 py-1 rounded text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer min-h-[32px] ${
                 mobileMode === 'empilhado'
                   ? 'bg-surface text-ink font-bold shadow-2xs border border-border'
                   : 'text-ink-2 hover:text-ink'
               }`}
             >
-              <Layers className="w-3 h-3" />
+              <Layers className="w-3.5 h-3.5" />
               <span>Empilhado</span>
             </button>
           </div>
@@ -172,10 +174,11 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
       {/* -------------------------------------------------------------
        * VISUALIZAÇÃO AMPLA (>= 768px): TABELA SEMÂNTICA TRADICIONAL COM CABEÇALHO FIXO
        * Cabeçalhos com whitespace-nowrap para impedir quebra feia de termos
+       * Zebrado nítido de alto contraste com bg-surface-3/50
        * ------------------------------------------------------------- */}
       <div className="hidden sm:block md:block overflow-x-auto rounded-xl border border-border bg-surface shadow-2xs scrollbar-thin">
         <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[500px]">
-          <thead className="bg-surface-2 text-ink font-bold border-b border-border sticky top-0 z-10">
+          <thead className="bg-surface-3 text-ink font-bold border-b-2 border-border sticky top-0 z-10 shadow-2xs">
             <tr>
               {finalHeaders.map((head, idx) => {
                 const headText = extractNodeText(head).trim();
@@ -183,7 +186,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                 return (
                   <th
                     key={idx}
-                    className={`p-3 text-ink font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider ${
+                    className={`p-3 text-ink font-sans font-bold border-r border-border last:border-r-0 text-xs sm:text-sm uppercase tracking-wider ${
                       isShort ? 'whitespace-nowrap' : ''
                     }`}
                   >
@@ -200,7 +203,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                 <tr
                   key={rIdx}
                   className={`transition-colors ${
-                    isEven ? 'bg-surface-2/30 hover:bg-surface-2/60' : 'hover:bg-surface-2/40'
+                    isEven ? 'bg-surface-3/50 dark:bg-surface-3/40 hover:bg-surface-3/70' : 'bg-surface hover:bg-surface-3/30'
                   }`}
                 >
                   {row.map((cell, cIdx) => {
@@ -212,7 +215,9 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                       <td
                         key={cIdx}
                         className={`p-3 text-ink border-b border-border border-r last:border-r-0 align-top leading-relaxed text-xs sm:text-sm break-words ${
-                          cIdx === 0 ? 'font-semibold' : 'font-serif'
+                          cIdx === 0
+                            ? 'font-sans font-bold text-ink bg-surface-3/20 dark:bg-surface-3/15'
+                            : 'font-serif text-ink'
                         }`}
                       >
                         {isGabarito ? renderGabaritoBadge(cell) : cell}
@@ -228,16 +233,17 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
 
       {/* -------------------------------------------------------------
        * VISUALIZAÇÃO ESTREITA (< 768px): CARTÕES EMPILHADOS OU FACETAS
-       * 100% livre de rolagem horizontal em telas compactas (320px–360px)
+       * 100% livre de rolagem horizontal em telas compactas (320px–390px)
+       * Cores com alto contraste em modo escuro e claro
        * ------------------------------------------------------------- */}
       <div
-        className="sm:hidden md:hidden space-y-3 w-full max-w-full"
+        className="sm:hidden md:hidden space-y-3.5 w-full max-w-full"
         data-testid="tabela-responsiva-cards"
       >
         {mobileMode === 'facetas' && hasMultipleDataColumns ? (
           /* Modo Seletor por Coluna (Facetas) */
           <>
-            <div className="flex flex-wrap gap-1.5 p-1 rounded-lg bg-surface-2 border border-border">
+            <div className="flex flex-wrap gap-1.5 p-1 rounded-xl bg-surface-3 dark:bg-surface-2 border border-border">
               {dataColumns.map((colNode, idx) => {
                 const colIndex = idx + 1;
                 const colName = extractNodeText(colNode);
@@ -247,7 +253,7 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                     key={colIndex}
                     type="button"
                     onClick={() => setSelectedColumnIndex(colIndex)}
-                    className={`flex-1 min-w-[100px] text-center px-2.5 py-1.5 rounded-md text-xs font-bold transition-all cursor-pointer ${
+                    className={`flex-1 min-w-[100px] text-center px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer min-h-[36px] ${
                       isSelected
                         ? 'bg-primary text-primary-text shadow-2xs'
                         : 'bg-transparent text-ink-2 hover:text-ink'
@@ -259,19 +265,19 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
               })}
             </div>
 
-            <div className="space-y-2.5">
+            <div className="space-y-3">
               {finalRows.map((row, rIdx) => {
                 const criterio = row[0];
                 const valor = row[selectedColumnIndex];
                 return (
                   <div
                     key={rIdx}
-                    className="p-3 rounded-xl border border-border bg-surface space-y-1 shadow-2xs"
+                    className="p-3.5 rounded-xl border border-border bg-surface space-y-2 shadow-2xs"
                   >
-                    <span className="text-xs font-bold uppercase tracking-wider text-accent block font-sans">
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-accent block font-sans">
                       {criterio}
                     </span>
-                    <div className="text-xs sm:text-sm font-serif text-ink leading-relaxed">
+                    <div className="text-xs sm:text-sm font-serif text-ink leading-relaxed p-2.5 rounded-lg bg-surface-3/40 dark:bg-surface-3/25 border border-border/70">
                       {valor}
                     </div>
                   </div>
@@ -289,20 +295,20 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
             return (
               <div
                 key={rIdx}
-                className="rounded-xl border border-border bg-surface p-3.5 space-y-2.5 shadow-2xs transition-shadow"
+                className="rounded-xl border border-border bg-surface p-4 space-y-3 shadow-2xs transition-shadow"
               >
                 {/* Campo primário em destaque no topo do cartão */}
-                <div className="border-b border-border/80 pb-2">
-                  <span className="text-xs font-sans font-bold uppercase tracking-wider text-accent block mb-0.5">
+                <div className="border-b border-border/80 pb-2.5">
+                  <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-accent block mb-1">
                     {primaryHeader}
                   </span>
-                  <div className="text-xs sm:text-sm font-sans font-semibold text-ink leading-relaxed">
+                  <div className="text-xs sm:text-sm font-sans font-bold text-ink leading-snug">
                     {primaryValue}
                   </div>
                 </div>
 
-                {/* Demais campos rotulados por coluna */}
-                <div className="space-y-2 pt-0.5">
+                {/* Demais campos rotulados por coluna em pills de alto contraste */}
+                <div className="space-y-2.5 pt-0.5">
                   {otherCells.map((cell, idx) => {
                     const colIdx = idx + 1;
                     const headerName = finalHeaders[colIdx] || `Item ${colIdx + 1}`;
@@ -311,8 +317,11 @@ export const TabelaResponsiva: React.FC<TabelaResponsivaProps> = ({
                       headerText.includes('gabarito') || headerText.includes('diagnóstico');
 
                     return (
-                      <div key={colIdx} className="space-y-0.5">
-                        <span className="text-xs font-sans font-bold uppercase tracking-wider text-ink-2 block">
+                      <div
+                        key={colIdx}
+                        className="p-2.5 rounded-lg bg-surface-3/45 dark:bg-surface-3/25 border border-border/70 space-y-1"
+                      >
+                        <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-ink-2 block">
                           {headerName}
                         </span>
                         <div className="text-xs sm:text-sm text-ink leading-relaxed font-serif">

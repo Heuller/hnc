@@ -12,7 +12,8 @@
     "generate:metrics": "tsx scripts/gerarMetricasReadme.ts",
     "generate:machine-doc": "tsx scripts/gerarDocumentoPlataformaLegivelPorMaquina.ts",
     "preview": "vite preview",
-    "verify": "npm run lint && npm test && npm run build"
+    "verify": "npm run lint && npm test && npm run build",
+    "audit:mobile": "node scripts/auditarLayoutMobile.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",
