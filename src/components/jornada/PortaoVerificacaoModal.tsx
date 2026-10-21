@@ -124,7 +124,9 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
       // Utiliza o caderno oficial de 100 itens Cebraspe do módulo se disponível (M1 a M10)
       const simulado = SIMULADOS_REGISTRY.find((s) => s.numero === etapa.moduloNumero);
       if (simulado && simulado.questoes.length > 0) {
-        return simulado.questoes.map((q) => ({
+        // Exclui do portão de verificação itens sob revisão/divergência (C2)
+        const questoesValidas = simulado.questoes.filter((q) => !q.fonteOriginal?.revisar);
+        return questoesValidas.map((q) => ({
           id: q.id,
           pergunta: `Item ${q.numero} · Submódulo ${q.submoduloId}`,
           assertiva: q.item,
