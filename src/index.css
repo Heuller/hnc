@@ -738,3 +738,20 @@ pre, table, .mermaid-svg-container {
 }
 
 
+
+/* -------------------------------------------------------------
+ * PROIBIÇÃO DE BARRAS HORIZONTAIS DE ROLAGEM NA PLATAFORMA
+ * Diretriz explícita: zero barras de rolagem horizontais
+ * ------------------------------------------------------------- */
+::-webkit-scrollbar:horizontal {
+  display: none !important;
+  height: 0px !important;
+}
+
+.scrollbar-none {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none !important;
+}
