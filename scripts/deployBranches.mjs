@@ -11,7 +11,7 @@ try {
   console.log('🚀 Iniciando pipeline de sincronização e deployment...');
 
   // 1. Commit na branch de trabalho ux/plano-v3
-  run('git add index.html package.json .github/ vite.config.ts public/icons/ scripts/ src/ supabase/ docs/');
+  run('git add index.html package.json .github/ vite.config.ts public/icons/ scripts/ src/ supabase/ docs/ *.md');
   
   // Verifica se há algo a comitar
   try {
