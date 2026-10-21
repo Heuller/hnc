@@ -1,14 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { useProgressStore } from '../store/useProgressStore';
-import {
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  CartesianGrid,
-} from 'recharts';
+const GraficoEvolucaoSimulados = React.lazy(() =>
+  import('../components/analytics/GraficoEvolucaoSimulados').then((mod) => ({
+    default: mod.GraficoEvolucaoSimulados,
+  }))
+);
 import {
   TrendingUp,
   Download,
@@ -217,37 +213,22 @@ export const ProgressoPage: React.FC = () => {
         </div>
 
         {dadosGrafico.length > 0 ? (
-          <div className="h-64 sm:h-72 w-full pt-4">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={dadosGrafico} margin={{ top: 10, right: 20, left: -10, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
-                <XAxis dataKey="data" stroke="var(--color-ink-2)" fontSize={12} />
-                <YAxis domain={[-20, 100]} stroke="var(--color-ink-2)" fontSize={12} />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: 'var(--color-surface)',
-                    borderColor: 'var(--color-border)',
-                    borderRadius: '8px',
-                    color: 'var(--color-ink)',
-                    fontSize: '12px',
-                    fontFamily: 'Inter, sans-serif',
-                  }}
-                  formatter={(value: unknown, name: unknown) => [
-                    `${value} ${name === 'notaLiquida' ? 'pontos' : ''}`,
-                    name === 'notaLiquida' ? 'Nota Líquida' : String(name),
-                  ]}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="notaLiquida"
-                  stroke="var(--color-primary)"
-                  strokeWidth={3}
-                  dot={{ r: 5, fill: 'var(--color-accent)' }}
-                  activeDot={{ r: 7 }}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
+          <React.Suspense
+            fallback={
+              <div
+                role="status"
+                aria-live="polite"
+                className="h-64 sm:h-72 w-full pt-4 flex flex-col items-center justify-center bg-surface-2/40 rounded-xl border border-dashed border-border/80 animate-pulse text-center gap-3"
+              >
+                <div className="w-7 h-7 rounded-full border-2 border-accent border-t-transparent animate-spin" />
+                <span className="text-xs font-mono text-ink-2">
+                  Carregando evolução de rendimento...
+                </span>
+              </div>
+            }
+          >
+            <GraficoEvolucaoSimulados dados={dadosGrafico} />
+          </React.Suspense>
         ) : (
           <div className="p-8 text-center bg-surface-2 rounded-xl border border-dashed border-border text-ink-2 text-xs sm:text-sm font-sans">
             Nenhum simulado finalizado para gerar a curva de evolução. Complete um simulado de 100
