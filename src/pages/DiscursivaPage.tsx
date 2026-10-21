@@ -17,6 +17,10 @@ import {
 import { Button } from '../components/common/Button';
 import type { TemaDiscursiva, AvaliacaoCebraspe, VersaoTextoComAvaliacao } from '../domain/discursiva/types';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../domain/discursiva/temasOficiais';
+import {
+  TRILHA_DISCURSIVA_D1_D9,
+  type SessaoDiscursivaTrilha,
+} from '../domain/discursiva/trilhaDiscursiva';
 import { discursivaService } from '../domain/discursiva/discursivaService';
 import { EspelhoCorrecaoCebraspe } from '../components/discursiva/EspelhoCorrecaoCebraspe';
 import { FolhaRespostaManuscritaModal } from '../components/discursiva/FolhaRespostaManuscritaModal';
@@ -86,6 +90,7 @@ export const DiscursivaPage: React.FC = () => {
   const [isPadraoAberto, setIsPadraoAberto] = useState(true);
   const [isFolhaModalOpen, setIsFolhaModalOpen] = useState(false);
   const [abaAtiva, setAbaAtiva] = useState<'ia' | 'calibracao_humana'>('ia');
+  const [abaListaTemas, setAbaListaTemas] = useState<'trilha' | 'banco'>('trilha');
   const [tempoGastoCronometro, setTempoGastoCronometro] = useState<number>(0);
 
   // Novo enunciado form
@@ -94,7 +99,27 @@ export const DiscursivaPage: React.FC = () => {
   const [novoEnunciado, setNovoEnunciado] = useState('');
   const [novoTipo, setNovoTipo] = useState<'questao_20' | 'peca_50'>('questao_20');
 
-  const enunciadoAtivo = enunciados.find((e) => e.id === enunciadoAtivoId) || enunciados[0];
+  const todosTemasDisponiveis = useMemo(() => {
+    const map = new Map<string, TemaDiscursiva>();
+    for (const d of TRILHA_DISCURSIVA_D1_D9) {
+      map.set(d.id, d);
+    }
+    for (const e of enunciados) {
+      if (!map.has(e.id)) {
+        map.set(e.id, e);
+      }
+    }
+    return Array.from(map.values());
+  }, [enunciados]);
+
+  const enunciadoAtivo =
+    todosTemasDisponiveis.find((e) => e.id === enunciadoAtivoId) ||
+    TRILHA_DISCURSIVA_D1_D9[0] ||
+    enunciados[0];
+
+  const sessaoTrilhaAtiva: SessaoDiscursivaTrilha | undefined = useMemo(() => {
+    return TRILHA_DISCURSIVA_D1_D9.find((s) => s.id === enunciadoAtivo?.id);
+  }, [enunciadoAtivo]);
   const dadosAtuais = dadosEnunciados[enunciadoAtivo?.id || ''] || {
     texto: '',
     historico: [],
@@ -424,33 +449,85 @@ export const DiscursivaPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-start">
         {/* COLUNA ESQUERDA: TEMAS E PADRÃO DE RESPOSTA */}
         <div className="space-y-5">
-          {/* Seletor de Temas */}
+          {/* Seletor de Temas e Trilha D1-D9 */}
           <div className="bg-surface border border-border rounded-2xl p-4 shadow-editorial-sm space-y-3">
-            <span className="text-xs font-mono font-bold uppercase text-ink-2 block">
-              Temas Oficiais Cebraspe ({enunciados.length})
-            </span>
-            <div className="space-y-2">
-              {enunciados.map((item) => (
-                <button
-                  key={item.id}
-                  type="button"
-                  onClick={() => setEnunciadoAtivoId(item.id)}
-                  className={`w-full text-left p-3 rounded-xl border text-xs transition-colors cursor-pointer ${
-                    item.id === enunciadoAtivo?.id
-                      ? 'bg-purple-500/10 border-purple-500/30 text-ink font-semibold shadow-xs'
-                      : 'bg-surface hover:bg-surface-2 border-border text-ink-2'
-                  }`}
-                >
-                  <div className="flex items-center justify-between font-mono text-xs text-ink-2 mb-1">
-                    <span className="font-bold text-purple-700 dark:text-purple-400">
-                      {item.tipo === 'questao_20' ? 'Questão (20L)' : 'Peça Técnica (50L)'}
-                    </span>
-                    <span>{item.limiteLinhas} linhas</span>
-                  </div>
-                  <p className="line-clamp-2 font-serif text-ink">{item.titulo}</p>
-                </button>
-              ))}
+            {/* Tabs de Seleção: Trilha D1-D9 vs Banco Geral */}
+            <div className="flex border-b border-border pb-1 gap-1">
+              <button
+                type="button"
+                onClick={() => setAbaListaTemas('trilha')}
+                className={`flex-1 py-1.5 px-2 text-xs font-mono font-bold rounded-lg transition-colors cursor-pointer text-center ${
+                  abaListaTemas === 'trilha'
+                    ? 'bg-purple-600 text-white shadow-xs'
+                    : 'text-ink-2 hover:bg-surface-2 hover:text-ink'
+                }`}
+              >
+                Trilha D1–D9 ({TRILHA_DISCURSIVA_D1_D9.length})
+              </button>
+              <button
+                type="button"
+                onClick={() => setAbaListaTemas('banco')}
+                className={`flex-1 py-1.5 px-2 text-xs font-mono font-bold rounded-lg transition-colors cursor-pointer text-center ${
+                  abaListaTemas === 'banco'
+                    ? 'bg-purple-600 text-white shadow-xs'
+                    : 'text-ink-2 hover:bg-surface-2 hover:text-ink'
+                }`}
+              >
+                Banco Geral ({enunciados.length})
+              </button>
             </div>
+
+            {/* Lista da Trilha Semanal D1-D9 */}
+            {abaListaTemas === 'trilha' ? (
+              <div className="space-y-2">
+                {TRILHA_DISCURSIVA_D1_D9.map((item) => (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => setEnunciadoAtivoId(item.id)}
+                    className={`w-full text-left p-3 rounded-xl border text-xs transition-colors cursor-pointer ${
+                      item.id === enunciadoAtivo?.id
+                        ? 'bg-purple-500/10 border-purple-500/30 text-ink font-semibold shadow-xs'
+                        : 'bg-surface hover:bg-surface-2 border-border text-ink-2'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between font-mono text-xs text-ink-2 mb-1">
+                      <span className="font-bold text-purple-700 dark:text-purple-400">
+                        {item.codigo} · {item.dataIso.split('-').slice(1).reverse().join('/')}
+                      </span>
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-surface-2 border border-border">
+                        {item.limiteLinhas === 0 ? 'Estudo' : `${item.limiteLinhas}L · ${item.tempoSugeridoMinutos}m`}
+                      </span>
+                    </div>
+                    <p className="line-clamp-2 font-serif text-ink">{item.titulo}</p>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              /* Lista do Banco Geral */
+              <div className="space-y-2">
+                {enunciados.map((item) => (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => setEnunciadoAtivoId(item.id)}
+                    className={`w-full text-left p-3 rounded-xl border text-xs transition-colors cursor-pointer ${
+                      item.id === enunciadoAtivo?.id
+                        ? 'bg-purple-500/10 border-purple-500/30 text-ink font-semibold shadow-xs'
+                        : 'bg-surface hover:bg-surface-2 border-border text-ink-2'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between font-mono text-xs text-ink-2 mb-1">
+                      <span className="font-bold text-purple-700 dark:text-purple-400">
+                        {item.tipo === 'questao_20' ? 'Questão (20L)' : 'Peça Técnica (50L)'}
+                      </span>
+                      <span>{item.limiteLinhas} linhas</span>
+                    </div>
+                    <p className="line-clamp-2 font-serif text-ink">{item.titulo}</p>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Padrão de Resposta Preliminar da Banca */}
@@ -502,6 +579,30 @@ export const DiscursivaPage: React.FC = () => {
 
         {/* COLUNA PRINCIPAL: ENUNCIADO, EDITOR, AVALIAÇÃO E HISTÓRICO */}
         <div className="lg:col-span-2 space-y-6">
+          {/* Alerta / Diretriz Pedagógica da Trilha D1-D9 */}
+          {sessaoTrilhaAtiva && (
+            <div className="p-4 rounded-2xl bg-purple-500/10 border border-purple-500/30 text-ink space-y-2.5">
+              <div className="flex items-center justify-between flex-wrap gap-2 font-mono text-xs">
+                <span className="font-bold text-purple-800 dark:text-purple-300">
+                  {sessaoTrilhaAtiva.codigo} · {sessaoTrilhaAtiva.diaSemana} ({sessaoTrilhaAtiva.dataIso.split('-').slice(1).reverse().join('/')})
+                </span>
+                <span className="px-2 py-0.5 rounded bg-purple-500/20 text-purple-900 dark:text-purple-200">
+                  {sessaoTrilhaAtiva.limiteLinhas === 0 ? 'Sessão de Dissecação de Padrões' : `${sessaoTrilhaAtiva.limiteLinhas} linhas · Sugerido: ${sessaoTrilhaAtiva.tempoSugeridoMinutos} min`}
+                </span>
+              </div>
+              <p className="text-xs sm:text-sm font-serif leading-relaxed text-ink">
+                <strong>Foco Pedagógico:</strong> {sessaoTrilhaAtiva.focoPedagogico}
+              </p>
+              {sessaoTrilhaAtiva.instrucoesMetodo.length > 0 && (
+                <ul className="text-xs text-ink-2 font-serif space-y-1 list-disc list-inside pt-1.5 border-t border-purple-500/20">
+                  {sessaoTrilhaAtiva.instrucoesMetodo.map((inst, i) => (
+                    <li key={i}>{inst}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
           {enunciadoAtivo && (
             <div className="bg-surface border border-border rounded-2xl p-5 shadow-editorial-sm space-y-3">
               <div className="flex items-center justify-between text-xs font-mono text-ink-2 border-b border-border pb-2 flex-wrap gap-2">
@@ -520,7 +621,13 @@ export const DiscursivaPage: React.FC = () => {
 
           {/* Cronômetro Oficial de Treino Cebraspe */}
           <CronometroDiscursiva
-            tempoSugeridoMinutos={enunciadoAtivo?.tipo === 'peca_50' ? 75 : 35}
+            tempoSugeridoMinutos={
+              sessaoTrilhaAtiva
+                ? sessaoTrilhaAtiva.tempoSugeridoMinutos || 35
+                : enunciadoAtivo?.tipo === 'peca_50'
+                ? 75
+                : 35
+            }
             onTempoAtualizado={(seg) => setTempoGastoCronometro(seg)}
           />
 
