@@ -17,7 +17,7 @@ export function elegivelParaEstudo(q: CebraspeQuestion | { fonteOriginal?: { rev
 /**
  * Filtra um array de questões retornando apenas as elegíveis para estudo.
  */
-export function filtrarQuestoesElegiveis<T extends { fonteOriginal?: any }>(questoes: T[]): T[] {
+export function filtrarQuestoesElegiveis<T extends { fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): T[] {
   if (!questoes || !Array.isArray(questoes)) return [];
   return questoes.filter(elegivelParaEstudo);
 }
@@ -25,7 +25,7 @@ export function filtrarQuestoesElegiveis<T extends { fonteOriginal?: any }>(ques
 /**
  * Conta quantos itens em conferência foram excluídos de um conjunto.
  */
-export function contarItensEmConferencia<T extends { fonteOriginal?: any }>(questoes: T[]): number {
+export function contarItensEmConferencia<T extends { fonteOriginal?: { revisar?: boolean; tipo?: string } }>(questoes: T[]): number {
   if (!questoes || !Array.isArray(questoes)) return 0;
   return questoes.filter((q) => !elegivelParaEstudo(q)).length;
 }

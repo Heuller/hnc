@@ -291,10 +291,10 @@ export const EditorialDiagram: React.FC<EditorialDiagramProps> = ({
           setSvgContent(cleanedSvg);
           setRenderError(null);
         }
-      } catch (err: any) {
+      } catch (err: unknown) {
         if (!isCancelled) {
           console.warn('[EditorialDiagram] Erro no renderizador vetorial:', err);
-          setRenderError(err?.message || 'Erro ao gerar o diagrama vetorial.');
+          setRenderError((err instanceof Error && err.message) || 'Erro ao gerar o diagrama vetorial.');
         }
       }
     }

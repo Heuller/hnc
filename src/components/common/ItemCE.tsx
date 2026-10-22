@@ -6,12 +6,12 @@ import {
   HelpCircle,
   RotateCcw,
   BookOpen,
-  AlertTriangle,
 } from 'lucide-react';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import type { ContextoTentativa, ItemAttempt } from '../../domain/itemAttempts';
 import { Badge } from './Badge';
+import { PainelEstudoReverso } from './PainelEstudoReverso';
 
 export interface ItemCEData {
   id: string;
@@ -22,6 +22,8 @@ export interface ItemCEData {
   gabarito: 'C' | 'E';
   justificativa: string;
   versaoCorreta?: string;
+  versaoErrada?: string;
+  gatilho?: string;
   fonte?: string;
   armadilha?: string;
   secaoRef?: string;
@@ -117,6 +119,10 @@ export const ItemCE: React.FC<ItemCEProps> = ({
     const handleKeyDown = (e: KeyboardEvent) => {
       const activeTag = document.activeElement?.tagName.toLowerCase();
       if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
+        return;
+      }
+      // Preserva atalhos do sistema (Ctrl/Cmd+C para copiar não pode julgar o item)
+      if (e.ctrlKey || e.metaKey || e.altKey) {
         return;
       }
 
@@ -327,43 +333,24 @@ export const ItemCE: React.FC<ItemCEProps> = ({
               </div>
             </div>
 
-            {/* Linha B: Fundamentação Dogmática (Por que é Certo/Errado) */}
-            <div className="space-y-1">
-              <h4 className="text-xs font-bold font-sans text-ink uppercase tracking-wide">
-                Por que é {item.gabarito === 'C' ? 'CERTO' : 'ERRADO'}:
-              </h4>
-              <p className="font-serif text-xs sm:text-sm leading-relaxed text-ink m-0">
-                {item.justificativa}
-              </p>
-            </div>
-
-            {/* Linha C: Como ficaria correto (Obrigatório para itens ERRADOS) */}
-            {item.gabarito === 'E' && item.versaoCorreta && (
-              <div className="p-3 rounded-lg bg-surface border border-border space-y-1">
-                <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400">
-                  <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>Como ficaria correto:</span>
-                </div>
-                <p className="font-serif text-xs leading-relaxed text-ink m-0 italic">
-                  "{item.versaoCorreta}"
-                </p>
-              </div>
-            )}
-
-            {/* Linha D: Armadilha da Banca (se houver) */}
-            {item.armadilha && (
-              <div className="flex items-start gap-2 text-xs text-amber-800 dark:text-amber-200 bg-amber-500/10 p-2.5 rounded-lg border border-amber-500/25">
-                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-amber-500" />
-                <div className="space-y-0.5">
-                  <span className="font-bold text-xs uppercase tracking-wide">
-                    Técnica / Armadilha Identificada:
-                  </span>
-                  <p className="font-sans text-xs leading-relaxed m-0">
-                    {item.armadilha}
-                  </p>
-                </div>
-              </div>
-            )}
+                        {/* Bloco de Estudo Reverso / Fundamentação */}
+            <PainelEstudoReverso
+              questao={{
+                id: item.id,
+                item: item.enunciado,
+                gabarito: item.gabarito,
+                justificativa: item.justificativa,
+                armadilhaBanca: item.armadilha,
+                versao_correta: item.versaoCorreta,
+                versao_errada: item.versaoErrada,
+                gatilho: item.gatilho,
+                submoduloId: item.submoduloId,
+              }}
+              resposta={respostaDada ?? undefined}
+              certeza={undefined}
+              autoexplicacao={false}
+              onReverTeoria={item.submoduloId ? handleReverNaTeoria : undefined}
+            />
 
             {/* Linha E: Fonte e Ação Rever na Teoria */}
             <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-xs font-sans text-ink-2">

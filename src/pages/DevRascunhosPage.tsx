@@ -146,6 +146,7 @@ export const DevRascunhosPage: React.FC = () => {
           <div className="relative w-full sm:w-80">
             <Search className="w-4 h-4 text-ink-2 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
+              aria-label="Buscar rascunhos"
               type="text"
               placeholder="Buscar por termo, autor, norma..."
               value={searchQuery}

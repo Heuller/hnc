@@ -168,12 +168,13 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
               <form onSubmit={handleSubmit} className="space-y-3">
                 <div>
-                  <label className="block text-xs font-semibold text-ink-2 mb-1">
+                  <label htmlFor="auth-usuario" className="block text-xs font-semibold text-ink-2 mb-1">
                     Usuário ou E-mail
                   </label>
                   <div className="relative">
                     <User className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5" />
                     <input
+                      id="auth-usuario"
                       type="text"
                       required
                       autoComplete="username"
@@ -186,12 +187,13 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-ink-2 mb-1">
+                  <label htmlFor="auth-senha" className="block text-xs font-semibold text-ink-2 mb-1">
                     Senha
                   </label>
                   <div className="relative">
                     <KeyRound className="w-4 h-4 text-ink-2/60 absolute left-3 top-2.5" />
                     <input
+                      id="auth-senha"
                       type="password"
                       required
                       autoComplete="current-password"

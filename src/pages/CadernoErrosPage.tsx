@@ -19,6 +19,7 @@ import { getItensCadernoErros, type ItemCadernoErro } from '../domain/cadernoErr
 import { DialogoBancaModal } from '../components/cadernoErros/DialogoBancaModal';
 import { carregarSessoesDoStorage } from '../domain/socratic/socraticService';
 import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdaptativoModal';
+import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
 
 export const CadernoErrosPage: React.FC = () => {
   const { checkpointsRespondidos, historicoSimulados, salvarCheckpoint, itemAttempts } = useProgressStore();
@@ -181,6 +182,7 @@ export const CadernoErrosPage: React.FC = () => {
           <div className="relative w-full sm:w-80">
             <Search className="w-4 h-4 text-ink-2 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
+              aria-label="Buscar no Caderno de Erros"
               type="text"
               placeholder="Buscar no texto ou justificativa..."
               value={busca}
@@ -256,9 +258,7 @@ export const CadernoErrosPage: React.FC = () => {
 
         {errosFiltrados.length === 0 ? (
           <div className="card-editorial p-12 text-center space-y-4">
-            <div className="w-12 h-12 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 mx-auto flex items-center justify-center">
-              <CheckCircle2 className="w-6 h-6" />
-            </div>
+            <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
             <div className="space-y-1">
               <h3 className="text-base font-bold text-ink m-0">Nenhum erro encontrado</h3>
               <p className="text-xs text-ink-2 font-serif max-w-md mx-auto m-0">

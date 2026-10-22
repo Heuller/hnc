@@ -5,7 +5,6 @@ import {
   Award,
   RotateCcw,
   Sparkles,
-  CheckCircle2,
   Calendar,
 } from 'lucide-react';
 import { useConceptStore } from '../../store/useConceptStore';
@@ -13,6 +12,7 @@ import { useProgressStore } from '../../store/useProgressStore';
 import { ExerciseRenderer } from './ExerciseRenderer';
 import type { ExerciseSubmission } from './types';
 import { Button } from '../common/Button';
+import { IllustrationVazio } from '../illustrations/ContextualIllustrations';
 
 interface RevisaoDiariaModalProps {
   isOpen: boolean;
@@ -141,9 +141,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
         <div className="p-4 sm:p-6 overflow-y-auto flex-1 space-y-4">
           {totalItens === 0 ? (
             <div className="py-12 text-center space-y-4">
-              <div className="w-14 h-14 mx-auto rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
-                <CheckCircle2 className="w-8 h-8" />
-              </div>
+              <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
               <div className="space-y-1">
                 <h3 className="text-lg font-serif font-bold text-ink">
                   Retenção em Dia!

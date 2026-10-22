@@ -15,6 +15,11 @@ export type AppView =
   | 'dev-rascunhos'
   | 'edital';
 
+export interface ContextoTeoria {
+  modulo: string;
+  submodulo: string;
+}
+
 interface NavigationState {
   activeView: AppView;
   currentRoute: AppView;
@@ -22,11 +27,14 @@ interface NavigationState {
   selectedSubmodule: string;
   sidebarCollapsed: boolean;
   targetSimuladoId?: string;
+  // Rótulos de módulo/submódulo publicados pela TeoriaPage para o breadcrumb do cabeçalho
+  contextoTeoria?: ContextoTeoria;
   setActiveView: (view: AppView) => void;
   setCurrentRoute: (view: AppView) => void;
   setActiveSubmoduleIndex: (index: number) => void;
   setSelectedSubmodule: (subId: string) => void;
   setTargetSimuladoId: (id?: string) => void;
+  setContextoTeoria: (contexto?: ContextoTeoria) => void;
   navigateToSimulado: (simuladoId?: string) => void;
   toggleSidebar: () => void;
   setSidebarCollapsed: (collapsed: boolean) => void;
@@ -175,6 +183,9 @@ export const useNavigationStore = create<NavigationState>((set) => {
     targetSimuladoId: initialTargetSimulado,
     setTargetSimuladoId: (id?: string) => {
       set({ targetSimuladoId: id });
+    },
+    setContextoTeoria: (contexto?: ContextoTeoria) => {
+      set({ contextoTeoria: contexto });
     },
     navigateToSimulado: (simuladoId?: string) => {
       if (typeof window !== 'undefined') {

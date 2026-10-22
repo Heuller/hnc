@@ -54,8 +54,10 @@ export const ReaderPreferencesModal: React.FC<ReaderPreferencesModalProps> = ({
               <h2 className="text-sm font-bold text-ink m-0">Preferências de Leitura</h2>
             </div>
             <button
+              type="button"
               onClick={onClose}
-              className="text-ink-2 hover:text-ink p-1 rounded-md cursor-pointer"
+              aria-label="Fechar"
+              className="text-ink-2 hover:text-ink p-1 rounded-md cursor-pointer min-h-[44px] min-w-[44px] inline-flex items-center justify-center foco"
             >
               <X className="w-4 h-4" />
             </button>

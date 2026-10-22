@@ -18,8 +18,11 @@ import { COURSE_REGISTRY } from '../content/registry';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 import { PainelOQueFunciona } from '../components/analytics/PainelOQueFunciona';
 import { PainelMedicaoContinuaW6 } from '../components/analytics/PainelMedicaoContinuaW6';
+import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
+import { useNavigationStore } from '../store/useNavigationStore';
 
 export const ProgressoPage: React.FC = () => {
+  const { navigateToSimulado } = useNavigationStore();
   const {
     historicoSimulados,
     modulosLidosIds,
@@ -230,9 +233,19 @@ export const ProgressoPage: React.FC = () => {
             <GraficoEvolucaoSimulados dados={dadosGrafico} />
           </React.Suspense>
         ) : (
-          <div className="p-8 text-center bg-surface-2 rounded-xl border border-dashed border-border text-ink-2 text-xs sm:text-sm font-sans">
-            Nenhum simulado finalizado para gerar a curva de evolução. Complete um simulado de 100
-            questões para visualizar o gráfico.
+          <div className="p-8 text-center bg-surface-2 rounded-xl border border-dashed border-border text-ink-2 text-xs sm:text-sm font-sans space-y-3">
+            <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
+            <p className="m-0 font-semibold text-ink">Sua curva de evolução começa no primeiro simulado</p>
+            <p className="m-0 max-w-md mx-auto">
+              Nenhum simulado finalizado ainda. Complete um simulado de 100 questões para visualizar o gráfico.
+            </p>
+            <button
+              type="button"
+              onClick={() => navigateToSimulado()}
+              className="min-h-[44px] px-4 py-2 rounded-xl bg-primary text-primary-text text-xs font-bold cursor-pointer hover:opacity-95 foco"
+            >
+              Fazer um simulado
+            </button>
           </div>
         )}
       </section>
@@ -345,6 +358,7 @@ export const ProgressoPage: React.FC = () => {
             <span>Importar Progresso (JSON)</span>
           </button>
           <input
+            aria-label="Arquivo JSON de progresso"
             type="file"
             ref={fileInputRef}
             onChange={handleImportFile}

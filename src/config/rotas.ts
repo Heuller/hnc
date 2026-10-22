@@ -14,7 +14,7 @@ import {
   Layers,
   type LucideIcon,
 } from 'lucide-react';
-import type { AppView } from '../store/useNavigationStore';
+import type { AppView, ContextoTeoria } from '../store/useNavigationStore';
 
 export type GrupoRota = 'estudo' | 'pratica' | 'referencia' | 'conta' | 'dev';
 
@@ -303,7 +303,11 @@ export interface BreadcrumbItem {
 /**
  * Gera a trilha de navegação (Breadcrumb) da tela ativa
  */
-export function getBreadcrumb(view: AppView, selectedSubmodule?: string): BreadcrumbItem[] {
+export function getBreadcrumb(
+  view: AppView,
+  selectedSubmodule?: string,
+  contextoTeoria?: ContextoTeoria
+): BreadcrumbItem[] {
   const base: BreadcrumbItem[] = [{ rotulo: 'Início', view: 'painel' }];
 
   if (view === 'painel') {
@@ -311,6 +315,14 @@ export function getBreadcrumb(view: AppView, selectedSubmodule?: string): Breadc
   }
 
   if (view === 'teoria') {
+    if (contextoTeoria) {
+      return [
+        ...base,
+        { rotulo: 'Teoria', view: 'teoria' },
+        { rotulo: contextoTeoria.modulo },
+        { rotulo: contextoTeoria.submodulo, isAtual: true },
+      ];
+    }
     return [
       ...base,
       { rotulo: 'Estudar', view: 'teoria' },
