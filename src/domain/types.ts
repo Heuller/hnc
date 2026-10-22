@@ -4,6 +4,7 @@ export * from './schemas/modulo.schema';
 export * from './schemas/mnemonico.schema';
 export * from './schemas/progress.schema';
 export * from './proveniencia';
+export * from './questoesElegiveis';
 
 export interface TermoSalvo {
   id: string;

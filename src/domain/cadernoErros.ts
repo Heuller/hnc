@@ -1,5 +1,6 @@
 import { COURSE_REGISTRY } from '../content/registry';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+import { elegivelParaEstudo } from './questoesElegiveis';
 import type { SimuladoFinalizado } from './schemas/progress.schema';
 import type { ItemAttempt } from './itemAttempts';
 import type { TipoExercicio } from './schemas/modulo.schema';
@@ -96,7 +97,7 @@ export function getItensCadernoErros(
               (q) => q.numero.toString() === respItem.questionId || q.id === respItem.questionId
             );
 
-          if (questao) {
+          if (questao && elegivelParaEstudo(questao)) {
             const itemKey = `sim-${questao.id}`;
             if (!erros.some((e) => e.id === itemKey)) {
               const attempt = attemptsPorItem.get(questao.id);

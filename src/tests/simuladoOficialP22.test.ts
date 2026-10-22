@@ -1,11 +1,12 @@
+// @vitest-environment jsdom
 import { describe, it, expect } from 'vitest';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
-import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 import {
   avaliarDesempenhoSimuladoOficial180,
   MACROS_P1_BASICOS,
   MACROS_P2_ESPECIFICOS,
 } from '../domain/simuladoOficialEngine';
+import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simuladosRegistry';
 import { CebraspeQuestionSchema } from '../domain/schemas/question.schema';
 
 describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos + 90 Específicos)', () => {
@@ -18,69 +19,56 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
         expect(q.numero).toBe(idx + 1);
         expect(ids.has(q.id)).toBe(false);
         ids.add(q.id);
-        expect(q.id).toBe(`oficial-180q-${String(idx + 1).padStart(3, '0')}`);
+        expect(q.id).toMatch(/^(oficial-180q-\d{3}|camara-2027-\d{3})$/);
       });
-      expect(ids.size).toBe(180);
     });
 
     it('deve ter simetria realista Cebraspe: faixa de 46% a 56% Certo no total da prova com alerta e não erro', () => {
       const certos = simuladoOficialCamara180Q.filter((q) => q.gabarito === 'C').length;
       const total = simuladoOficialCamara180Q.length;
-      const pctCertos = (certos / total) * 100;
+      const proporcao = (certos / total) * 100;
 
-      // Faixa aceitável Cebraspe: 46% a 56% Certo (Cebraspe histórico ~52% Certo)
-      expect(pctCertos).toBeGreaterThanOrEqual(46);
-      expect(pctCertos).toBeLessThanOrEqual(56);
-
-      if (pctCertos < 48 || pctCertos > 54) {
-        console.warn(`[ALERTA CEBRASPE] Proporção de Certos (${pctCertos.toFixed(1)}%) fora da zona ideal 48–54%.`);
-      }
+      // Relaxamento canônico C3: 46% a 56%
+      expect(proporcao).toBeGreaterThanOrEqual(46);
+      expect(proporcao).toBeLessThanOrEqual(56);
     });
 
     it('deve estruturar P1 (Conhecimentos Básicos) com exatamente 90 itens e proporção realista Cebraspe (alerta fora de 46–56%)', () => {
       const p1 = simuladoOficialCamara180Q.slice(0, 90);
       expect(p1).toHaveLength(90);
 
-      const p1Certos = p1.filter((q) => q.gabarito === 'C').length;
-      const pctP1 = (p1Certos / p1.length) * 100;
-
-      // Permite faixa de tolerância sem quebrar o teste (44% a 58%)
-      expect(pctP1).toBeGreaterThanOrEqual(44);
-      expect(pctP1).toBeLessThanOrEqual(58);
-
-      if (pctP1 < 46 || pctP1 > 56) {
-        console.warn(`[ALERTA CEBRASPE P1] Proporção de Certos em P1 (${pctP1.toFixed(1)}%) fora da faixa 46–56%.`);
-      }
-
       p1.forEach((q) => {
-        expect(MACROS_P1_BASICOS.has(q.macroModuloId)).toBe(true);
+        expect(q.provaBloco).toBe('P1_BASICOS');
+        const macro = q.origemModulo || q.macroModuloId;
+        expect(MACROS_P1_BASICOS.has(macro)).toBe(true);
       });
+
+      const certosP1 = p1.filter((q) => q.gabarito === 'C').length;
+      const proporcaoP1 = (certosP1 / 90) * 100;
+      expect(proporcaoP1).toBeGreaterThanOrEqual(46);
+      expect(proporcaoP1).toBeLessThanOrEqual(56);
     });
 
     it('deve estruturar P2 (Conhecimentos Específicos) com exatamente 90 itens e proporção realista Cebraspe (alerta fora de 46–56%)', () => {
       const p2 = simuladoOficialCamara180Q.slice(90, 180);
       expect(p2).toHaveLength(90);
 
-      const p2Certos = p2.filter((q) => q.gabarito === 'C').length;
-      const pctP2 = (p2Certos / p2.length) * 100;
-
-      // Permite faixa de tolerância sem quebrar o teste (44% a 58%)
-      expect(pctP2).toBeGreaterThanOrEqual(44);
-      expect(pctP2).toBeLessThanOrEqual(58);
-
-      if (pctP2 < 46 || pctP2 > 56) {
-        console.warn(`[ALERTA CEBRASPE P2] Proporção de Certos em P2 (${pctP2.toFixed(1)}%) fora da faixa 46–56%.`);
-      }
-
       p2.forEach((q) => {
-        expect(MACROS_P2_ESPECIFICOS.has(q.macroModuloId)).toBe(true);
+        expect(q.provaBloco).toBe('P2_ESPECIFICOS');
+        const macro = q.origemModulo || q.macroModuloId;
+        expect(MACROS_P2_ESPECIFICOS.has(macro)).toBe(true);
       });
+
+      const certosP2 = p2.filter((q) => q.gabarito === 'C').length;
+      const proporcaoP2 = (certosP2 / 90) * 100;
+      expect(proporcaoP2).toBeGreaterThanOrEqual(46);
+      expect(proporcaoP2).toBeLessThanOrEqual(56);
     });
 
     it('todas as 180 questões devem ser válidas contra o schema Zod estrito de questão Cebraspe', () => {
       simuladoOficialCamara180Q.forEach((q) => {
-        const parseResult = CebraspeQuestionSchema.safeParse(q);
-        expect(parseResult.success, `Falha no item #${q.numero} (${q.id})`).toBe(true);
+        const resultado = CebraspeQuestionSchema.safeParse(q);
+        expect(resultado.success, `Falha de validação Zod no item ${q.id}: ${JSON.stringify(resultado)}`).toBe(true);
       });
     });
   });
@@ -90,7 +78,9 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       const simulado = getSimuladoById('simulado-oficial-camara-2027');
       expect(simulado).toBeDefined();
       expect(simulado.id).toBe('simulado-oficial-camara-2027');
-      expect(simulado.questoes).toHaveLength(180);
+      expect(simulado.totalNominal).toBe(180);
+      expect(simulado.questoes).toHaveLength(179);
+      expect(simulado.itensForaConferencia).toBe(1);
       expect(simulado.titulo).toContain('Simulado Oficial Câmara 2027');
     });
 
@@ -103,11 +93,7 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
 
   describe('Motor de Avaliação e Pisos Eliminatórios Oficiais (Edital nº 1/2026, item 8.11.5)', () => {
     it('elimina candidato com P1 < 18 mesmo com P2 alto e Total > 54', () => {
-      // P1: 17 certos, 0 errados -> 17 pts (< 18)
-      // P2: 50 certos, 0 errados -> 50 pts (>= 27)
-      // Total: 67 pts (>= 54)
       const respostas: Record<string, { resposta: 'C' | 'E' | 'BRANCO' }> = {};
-
       simuladoOficialCamara180Q.slice(0, 17).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito };
       });
@@ -116,7 +102,7 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       });
 
       const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoOficialCamara180Q, respostas);
-
+      expect(avaliacao.isSimuladoOficial180).toBe(true);
       expect(avaliacao.p1.notaLiquida).toBe(17);
       expect(avaliacao.p1.aprovadoPiso).toBe(false);
       expect(avaliacao.p2.notaLiquida).toBe(50);
@@ -129,11 +115,7 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
     });
 
     it('elimina candidato com P2 < 27 mesmo com P1 alto e Total > 54', () => {
-      // P1: 40 certos, 0 errados -> 40 pts (>= 18)
-      // P2: 26 certos, 0 errados -> 26 pts (< 27)
-      // Total: 66 pts (>= 54)
       const respostas: Record<string, { resposta: 'C' | 'E' | 'BRANCO' }> = {};
-
       simuladoOficialCamara180Q.slice(0, 40).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito };
       });
@@ -142,7 +124,6 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       });
 
       const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoOficialCamara180Q, respostas);
-
       expect(avaliacao.p1.notaLiquida).toBe(40);
       expect(avaliacao.p1.aprovadoPiso).toBe(true);
       expect(avaliacao.p2.notaLiquida).toBe(26);
@@ -155,31 +136,22 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
     });
 
     it('elimina candidato com P1 >= 18 e P2 >= 27 mas Total < 54', () => {
-      // P1: 20 certos, 2 errados -> 18 pts (>= 18)
-      // P2: 30 certos, 3 errados -> 27 pts (>= 27)
-      // Total: 18 + 27 = 45 pts (< 54)
       const respostas: Record<string, { resposta: 'C' | 'E' | 'BRANCO' }> = {};
-
-      // P1: 20 certos
       simuladoOficialCamara180Q.slice(0, 20).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito };
       });
-      // P1: 2 errados
       simuladoOficialCamara180Q.slice(20, 22).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito === 'C' ? 'E' : 'C' };
       });
 
-      // P2: 30 certos
       simuladoOficialCamara180Q.slice(90, 120).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito };
       });
-      // P2: 3 errados
       simuladoOficialCamara180Q.slice(120, 123).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito === 'C' ? 'E' : 'C' };
       });
 
       const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoOficialCamara180Q, respostas);
-
       expect(avaliacao.p1.notaLiquida).toBe(18);
       expect(avaliacao.p1.aprovadoPiso).toBe(true);
       expect(avaliacao.p2.notaLiquida).toBe(27);
@@ -191,11 +163,7 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
     });
 
     it('aprova candidato que supera simultaneamente os 3 pisos eliminatórios', () => {
-      // P1: 30 certos, 5 errados -> 25 pts (>= 18)
-      // P2: 45 certos, 10 errados -> 35 pts (>= 27)
-      // Total: 25 + 35 = 60 pts (>= 54)
       const respostas: Record<string, { resposta: 'C' | 'E' | 'BRANCO' }> = {};
-
       simuladoOficialCamara180Q.slice(0, 30).forEach((q) => {
         respostas[q.id] = { resposta: q.gabarito };
       });
@@ -211,7 +179,6 @@ describe('P22 — Simulado Oficial Câmara dos Deputados 2027 (180Q: 90 Básicos
       });
 
       const avaliacao = avaliarDesempenhoSimuladoOficial180(simuladoOficialCamara180Q, respostas);
-
       expect(avaliacao.p1.notaLiquida).toBe(25);
       expect(avaliacao.p1.aprovadoPiso).toBe(true);
       expect(avaliacao.p2.notaLiquida).toBe(35);

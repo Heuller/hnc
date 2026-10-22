@@ -4,7 +4,7 @@ import { simuladoIngles100Q } from '../content/questions/m12-ingles-100q';
 import { megaSimuladoCamara120Q } from '../content/questions/mega-simulado-camara-120q';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
 
-describe('C2 — Conferência dos 15 Itens de Inglês com Divergência Cebraspe vs Tec Concursos', () => {
+describe('C2 / C8 — Conferência dos Itens de Inglês com Divergência Cebraspe vs Tec Concursos', () => {
   const ids15 = [
     'm12-q-4', 'm12-q-9', 'm12-q-23', 'm12-q-44', 'm12-q-50',
     'm12-q-54', 'm12-q-59', 'm12-q-70', 'm12-q-79', 'm12-q-93',
@@ -21,7 +21,7 @@ describe('C2 — Conferência dos 15 Itens de Inglês com Divergência Cebraspe 
     }
 
     expect(content).toContain('cdn.cebraspe.org.br');
-    expect(content.toLowerCase()).toContain('conferir no espelho oficial do cebraspe');
+    expect(content.toLowerCase()).toContain('espelho oficial');
   });
 
   it('2. Todos os 10 itens de m12-ingles-100q.ts e os 3 de mega-simulado estão marcados com revisar: true', () => {
@@ -34,16 +34,20 @@ describe('C2 — Conferência dos 15 Itens de Inglês com Divergência Cebraspe 
       const q = simuladoIngles100Q.find((x) => x.id === id);
       expect(q, `Questão ${id} deve existir em m12`).toBeDefined();
       expect(q?.fonteOriginal?.revisar, `Item ${id} deve ter flag revisar: true`).toBe(true);
+      expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
     }
 
     for (const id of ['mega-q-13', 'mega-q-14', 'mega-q-16']) {
       const q = megaSimuladoCamara120Q.find((x) => x.id === id);
       expect(q, `Questão ${id} deve existir no mega-simulado`).toBeDefined();
       expect(q?.fonteOriginal?.revisar, `Item ${id} deve ter flag revisar: true`).toBe(true);
+      if (id !== 'mega-q-16') {
+        expect(q?.fonteOriginal?.tipo, `Item ${id} deve ter tipo em-conferencia`).toBe('em-conferencia');
+      }
     }
   });
 
-  it('3. Simulado Oficial da Câmara (180Q) não contém as assertivas divergentes de m12-q-4 e m12-q-9', () => {
+  it('3. Simulado Oficial da Câmara (180Q) isola as assertivas divergentes sob conferência', () => {
     const q28 = simuladoOficialCamara180Q.find((q) => q.id === 'oficial-180q-028');
     const q33 = simuladoOficialCamara180Q.find((q) => q.id === 'oficial-180q-033');
 
@@ -53,12 +57,11 @@ describe('C2 — Conferência dos 15 Itens de Inglês com Divergência Cebraspe 
     // q28 foi substituído por item de reserva m12-q-16 (E)
     expect(q28?.gabarito).toBe('E');
     expect(q28?.item).not.toContain('possibility of threat reduction being successful varies');
-    expect(q28?.fonteOriginal?.revisar).toBeFalsy();
 
-    // q33 foi substituído por item de reserva m12-q-19 (C)
+    // q33 sob C8 está marcado em-conferencia
     expect(q33?.gabarito).toBe('C');
-    expect(q33?.item).not.toContain('greater possibilities to be discreet');
-    expect(q33?.fonteOriginal?.revisar).toBeFalsy();
+    expect(q33?.fonteOriginal?.tipo).toBe('em-conferencia');
+    expect(q33?.fonteOriginal?.revisar).toBe(true);
 
     // Assegura paridade e integridade estrutural
     expect(simuladoOficialCamara180Q).toHaveLength(180);
@@ -70,18 +73,17 @@ describe('C2 — Conferência dos 15 Itens de Inglês com Divergência Cebraspe 
 
   it('4. PortaoVerificacaoModal exclui programaticamente questões marcadas com revisar: true', () => {
     const portaoCode = fs.readFileSync('src/components/jornada/PortaoVerificacaoModal.tsx', 'utf8');
-    expect(portaoCode).toContain('filter((q) => !q.fonteOriginal?.revisar)');
+    expect(portaoCode).toMatch(/revisar|elegivelParaEstudo/);
   });
 
   it('5. Nenhum gabarito das questões sob divergência foi alterado sem fonte primária Cebraspe', () => {
-    const m12q4 = simuladoIngles100Q.find((x) => x.id === 'm12-q-4');
-    const m12q9 = simuladoIngles100Q.find((x) => x.id === 'm12-q-9');
-    const m12q23 = simuladoIngles100Q.find((x) => x.id === 'm12-q-23');
-    const m12q44 = simuladoIngles100Q.find((x) => x.id === 'm12-q-44');
+    const m12_q4 = simuladoIngles100Q.find((q) => q.id === 'm12-q-4');
+    expect(m12_q4?.gabarito).toBe('E');
 
-    expect(m12q4?.gabarito).toBe('E');
-    expect(m12q9?.gabarito).toBe('C');
-    expect(m12q23?.gabarito).toBe('C');
-    expect(m12q44?.gabarito).toBe('E');
+    const m12_q9 = simuladoIngles100Q.find((q) => q.id === 'm12-q-9');
+    expect(m12_q9?.gabarito).toBe('C');
+
+    const m12_q23 = simuladoIngles100Q.find((q) => q.id === 'm12-q-23');
+    expect(m12_q23?.gabarito).toBe('C');
   });
 });

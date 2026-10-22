@@ -31,6 +31,7 @@ import {
   IllustrationBloqueio,
 } from '../illustrations/ContextualIllustrations';
 import { obterItensVerificacaoSubmodulo } from '../../domain/progressoEngine';
+import { elegivelParaEstudo } from '../../domain/questoesElegiveis';
 
 interface PortaoVerificacaoModalProps {
   isOpen: boolean;
@@ -125,7 +126,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
       const simulado = SIMULADOS_REGISTRY.find((s) => s.numero === etapa.moduloNumero);
       if (simulado && simulado.questoes.length > 0) {
         // Exclui do portão de verificação itens sob revisão/divergência (C2)
-        const questoesValidas = simulado.questoes.filter((q) => !q.fonteOriginal?.revisar);
+        const questoesValidas = simulado.questoes.filter(elegivelParaEstudo);
         return questoesValidas.map((q) => ({
           id: q.id,
           pergunta: `Item ${q.numero} · Submódulo ${q.submoduloId}`,

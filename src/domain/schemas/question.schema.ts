@@ -4,6 +4,7 @@ export const TipoFonteOriginalSchema = z.enum([
   'real-confirmada',
   'adaptada',
   'inedita',
+  'em-conferencia',
 ]);
 export type TipoFonteOriginal = z.infer<typeof TipoFonteOriginalSchema>;
 
@@ -17,8 +18,10 @@ export const FonteOriginalSchema = z
     orgao: z.string().optional(),
     banca: z.string().optional(),
     questaoOriginalId: z.string().optional(),
+    origemAcervoLocal: z.string().optional(),
     declaracaoLegada: z.string().optional(),
     revisar: z.boolean().optional(),
+    statusConferencia: z.enum(['em-conferencia', 'confirmado', 'corrigido']).optional(),
   })
   .refine(
     (data) => {

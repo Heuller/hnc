@@ -289,7 +289,7 @@ export function gerarRelatorioLacunas(): RelatorioLacunasEdital {
     const simuladoManifest = SIMULADOS_REGISTRY.find(
       s => s.macroModuloId.toLowerCase() === modId || s.numero === modNumero
     );
-    const questoesSimulado = simuladoManifest ? simuladoManifest.questoes.length : 0;
+    const questoesSimulado = simuladoManifest ? (simuladoManifest.totalNominal ?? simuladoManifest.questoes.length) : 0;
     totalQuestoesSimuladoGeral += questoesSimulado;
 
     const isConcluido = questoesSimulado >= 100;
@@ -338,7 +338,7 @@ export function gerarRelatorioLacunas(): RelatorioLacunasEdital {
       modulosDiagnostico.length
   );
 
-  const totalQuestoesSimuladosTodos = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
+  const totalQuestoesSimuladosTodos = SIMULADOS_REGISTRY.reduce((acc, s) => acc + (s.totalNominal ?? s.questoes.length), 0);
 
   return {
     editalRef: `${EDITAL_CAMARA_2026.orgao} - ${EDITAL_CAMARA_2026.cargo} (${EDITAL_CAMARA_2026.editalNumero})`,

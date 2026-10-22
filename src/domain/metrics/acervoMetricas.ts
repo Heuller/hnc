@@ -45,12 +45,12 @@ export function calcularMetricasAcervo(): MetricasAcervo {
   );
 
   const totalItensSimuladosPadrao = SIMULADOS_REGISTRY.reduce(
-    (acc, sim) => acc + sim.questoes.length,
+    (acc, sim) => acc + (sim.totalNominal ?? sim.questoes.length),
     0
   );
 
   const totalItensMiniSimulados = MINI_SIMULADOS_REGISTRY.reduce(
-    (acc, sim) => acc + sim.questoes.length,
+    (acc, sim) => acc + (sim.totalNominal ?? sim.questoes.length),
     0
   );
 
