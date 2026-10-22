@@ -1,4 +1,4 @@
-import { filtrarQuestoesElegiveis } from '../domain/questoesElegiveis';
+import { filtrarQuestoesElegiveis } from '../domain/questoesElegiveis.ts';
 import type { CebraspeQuestion } from '../domain/types';
 import { simuladoFundamentos100Q } from './questions/m1-fundamentos-100q';
 import { simuladoCatalogacao100Q } from './questions/m2-catalogacao-100q';

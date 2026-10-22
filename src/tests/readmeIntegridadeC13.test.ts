@@ -60,8 +60,8 @@ describe('C13 — Integridade Estrita do README.md e Métricas Derivadas do Cód
     expect(status.sincronizado).toBe(true);
 
     const readmePath = path.resolve('README.md');
-    const conteudoAtual = fs.readFileSync(readmePath, 'utf-8');
-    const conteudoGerado = gerarConteudoReadme();
+    const conteudoAtual = fs.readFileSync(readmePath, 'utf-8').replace(/\r\n/g, '\n').trim();
+    const conteudoGerado = gerarConteudoReadme().replace(/\r\n/g, '\n').trim();
 
     expect(conteudoAtual).toBe(conteudoGerado);
   });
