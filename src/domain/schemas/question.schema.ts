@@ -67,7 +67,9 @@ export const CebraspeQuestionSchema = z.object({
   item: z.string().min(10), // assertiva
   gabarito: z.enum(['C', 'E']),
   justificativa: z.string().min(10),
-  versao_correta: z.string().optional(),
+  versao_correta: z.string().optional(), // itens E: reescrita mínima que torna a assertiva CERTA
+  versao_errada: z.string().optional(), // itens C: alteração típica da banca que tornaria a assertiva ERRADA
+  gatilho: z.string().optional(), // trecho literal do item que decide o julgamento (destacado no estudo reverso)
   secao_ref: z.string().optional(),
   armadilhaBanca: z.string().optional(),
   ehPegadinha: z.boolean().optional(),

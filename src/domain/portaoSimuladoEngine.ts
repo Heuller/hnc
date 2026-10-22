@@ -2,6 +2,18 @@ import { JORNADA_CONFIG } from '../config/jornada.config';
 import type { SimuladoFinalizado } from './schemas/progress.schema';
 import type { ProgressoGlobalDerivado } from './progressoEngine';
 import { COURSE_REGISTRY } from '../content/registry';
+import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
+
+/**
+ * Id do caderno de 100 itens do módulo (ex.: 2 → 'm2-catalogacao').
+ * Fallback 'mN' ainda casa com o histórico por prefixo em calcularNotaConsolidadaSimulado.
+ */
+export function obterSimuladoIdDoModulo(moduloNumero: number): string {
+  return (
+    SIMULADOS_REGISTRY.find((s) => s.macroModuloId.toUpperCase() === `M${moduloNumero}`)?.id ??
+    `m${moduloNumero}`
+  );
+}
 
 export interface NotaConsolidadaSimulado {
   simuladoId: string;
@@ -37,9 +49,18 @@ export function calcularNotaConsolidadaSimulado(
   historicoSimulados: SimuladoFinalizado[],
   retestesAcertosMap: Record<string, boolean> = {}
 ): NotaConsolidadaSimulado {
-  const tentativasDoSimulado = (historicoSimulados || []).filter(
-    (s) => s.simuladoId === simuladoId || s.id === simuladoId
-  );
+  // Aceita o id exato do caderno ('m2-catalogacao') ou o id do módulo ('m2'),
+  // que casa com qualquer caderno 'm2-*'. O histórico é gravado do mais recente
+  // para o mais antigo, então ordena cronologicamente: [0] é a 1ª tentativa.
+  const ehIdDeModulo = /^m\d+[a-z]?$/i.test(simuladoId);
+  const tentativasDoSimulado = (historicoSimulados || [])
+    .filter(
+      (s) =>
+        s.simuladoId === simuladoId ||
+        s.id === simuladoId ||
+        (ehIdDeModulo && (s.simuladoId ?? '').toLowerCase().startsWith(`${simuladoId.toLowerCase()}-`))
+    )
+    .sort((a, b) => Date.parse(a.dataHora) - Date.parse(b.dataHora));
 
   const modNumMatch = simuladoId.match(/m(\d+)/i);
   const moduloNumero = modNumMatch ? parseInt(modNumMatch[1], 10) : 1;
@@ -140,7 +161,7 @@ export function verificarAcessoModulo(
   const moduloNumero = modNumMatch ? parseInt(modNumMatch[1], 10) : 1;
 
   const moduloAnteriorNumero = Math.max(1, moduloNumero - 1);
-  const simuladoAnteriorId = `m${moduloAnteriorNumero}-fundamentos`;
+  const simuladoAnteriorId = obterSimuladoIdDoModulo(moduloAnteriorNumero);
 
   const consolidada = calcularNotaConsolidadaSimulado(
     simuladoAnteriorId,
@@ -229,7 +250,7 @@ export function verificarNavegacaoRodapeSubmodulo(
     (s) => progressoGlobal.submodulos[s.numero]?.concluido
   );
 
-  const simuladoModuloId = `m${modNum}-fundamentos`;
+  const simuladoModuloId = obterSimuladoIdDoModulo(modNum);
   const consolidada = calcularNotaConsolidadaSimulado(
     simuladoModuloId,
     historicoSimulados

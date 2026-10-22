@@ -123,13 +123,14 @@ Suporte nativo a Temas Claro e Escuro, sincronizados com `prefers-color-scheme` 
 
 * **Tema Claro:**
   * Fundo (`bg`): `#FAF7F0` (papel editorial levemente aquecido)
-  * Superfícies: `surface` `#FFFFFF`, `surface-2` `#F2EEE4`, `border` `#E4DED0`
+  * Superfícies: `surface` `#FFFFFF`, `surface-1` `#FAF7F0`, `surface-2` `#FFFFFF` (cartões e painéis), `surface-3` `#F2EEE4` (realce sutil), `border` `#E4DED0`
   * Textos: `ink` `#1A2238` (tinta profunda, contraste 15.8:1), `ink-2` `#4A5468`
   * Destaques: `primary` `#16244A` (azul marinho institucional, texto branco), `accent` `#B45309` (marca-texto), `accent-soft` `#FEF3C7`
   * Feedback Funcional: `ok` `#166534` / `ok-soft` `#DCFCE7`, `err` `#B91C1C` / `err-soft` `#FEE2E2`, `alerta-cebraspe` `#9F1239` / `alerta-soft` `#FFF1F2`, `info` `#1D4ED8`
 * **Tema Escuro:**
   * Fundo (`bg`): `#0D1220` (azul-noite profundo, reduz fadiga visual)
-  * Superfícies: `surface` `#141B2E`, `surface-2` `#1B2440`, `border` `#2A3555`
+  * Superfícies: `surface` `#141B2E`, `surface-2` `#141B2E` (cartões e painéis), `surface-3` `#1B2440` (realce sutil), `border` `#2A3555`
+  * *Nota (auditoria out/2026):* a escala foi renumerada em `surface-1/2/3` no código (`src/index.css`); o antigo `surface-2` das primeiras versões corresponde hoje a `surface-3`. Branco puro segue restrito a cartões, nunca ao fundo de leitura (`bg`).
   * Textos: `ink` `#E9ECF5` (papel iluminado), `ink-2` `#A9B2C7`
   * Destaques: `primary` `#FBBF24` (texto `#0D1220`), `accent` `#FBBF24`, `accent-soft` `#1B2440`
   * Feedback Funcional: `ok` `#4ADE80`, `err` `#F87171`, `alerta` `#FB7185`
