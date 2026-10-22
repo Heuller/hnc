@@ -4,6 +4,7 @@ export interface DraftItemReservaSimulado extends CebraspeQuestion {
   bloco: 'P1_BASICOS' | 'P2_ESPECIFICOS';
   fontePrimaria: string;
   localizador: string;
+  localizadorVerificado: boolean;
   statusHomologacao: 'pendente_homologacao' | 'homologado' | 'rejeitado';
   homologado: boolean;
 }
@@ -35,6 +36,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Manual de Redação da Presidência da República (3ª edição, 2018)',
     localizador: 'Capítulo I, Seção 1.2 (Impessoalidade), p. 18-19',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -57,6 +59,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Manual de Redação da Presidência da República (3ª edição, 2018)',
     localizador: 'Capítulo II, Seção 2.1 (Pronomes de Tratamento), p. 28-29',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -79,6 +82,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Moderna Gramática Portuguesa (Evanildo Bechara, 39ª edição)',
     localizador: 'Capítulo 26 (Sintaxe de Concordância), p. 552-554',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -101,6 +105,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Nova Gramática do Português Contemporâneo (Celso Cunha & Lindley Cintra, 7ª edição)',
     localizador: 'Capítulo 14 (Regência Verbal), p. 586-587',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -123,6 +128,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Moderna Gramática Portuguesa (Evanildo Bechara, 39ª edição)',
     localizador: 'Capítulo 24 (Das Orações Subordinadas Adverbiais), p. 508-510',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -145,6 +151,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Linguística Textual: Introdução (Ingedore Villaça Koch, 2ª edição)',
     localizador: 'Capítulo 3 (Coesão Referencial), p. 45-48',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -167,6 +174,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Gramática Houaiss da Língua Portuguesa (José Carlos de Azeredo, 4ª edição)',
     localizador: 'Capítulo 17 (Emprego do Acento Grave), p. 412-414',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -189,6 +197,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Moderna Gramática Portuguesa (Evanildo Bechara, 39ª edição)',
     localizador: 'Capítulo 20 (Do Uso do Acento Grave), p. 430-432',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -213,6 +222,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Longman Grammar of Spoken and Written English (Biber et al.)',
     localizador: 'Chapter 10 (Adverbial Clauses), p. 825-827',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -235,6 +245,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Oxford English Grammar (Sidney Greenbaum)',
     localizador: 'Section 4.12 (Connective Adverbs), p. 182-184',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -257,6 +268,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Digital Curation Centre (DCC) Curation Lifecycle Model',
     localizador: 'DCC Lifecycle Model Guide, Section 2 (Curation in Practice), p. 4-6',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -279,6 +291,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Wilkinson et al. The FAIR Guiding Principles for scientific data management (Scientific Data 3, 2016)',
     localizador: 'Article 160018, Box 2 (The FAIR Principles), p. 4',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -301,6 +314,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'IFLA Statement on Open Access to Scholarly Literature (2011/2021)',
     localizador: 'Section 1 (Core Values of Open Access), p. 1-2',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -323,6 +337,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Society of American Archivists (SAA) Dictionary of Archives Terminology',
     localizador: 'Entry: "dark archive" (Digital Records & Preservation Terminology)',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -347,6 +362,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Constituição da República Federativa do Brasil de 1988',
     localizador: 'Art. 37, § 6º',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -369,6 +385,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Constituição da República Federativa do Brasil de 1988',
     localizador: 'Art. 5º, inciso XXXIII c/c Art. 37, caput',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -391,6 +408,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Constituição Federal de 1988 c/c Lei Federal nº 8.112/1990',
     localizador: 'CF/88, Art. 41, caput e § 4º',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -413,6 +431,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Lei Federal nº 8.112/1990',
     localizador: 'Art. 33 c/c Art. 36',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -435,6 +454,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Lei Federal nº 9.784/1999 c/c Súmula 473 do STF',
     localizador: 'Art. 53 da Lei nº 9.784/1999',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -457,6 +477,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Lei Federal nº 9.784/1999',
     localizador: 'Art. 54, caput',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -479,6 +500,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Lei Federal nº 12.527/2011 (Lei de Acesso à Informação)',
     localizador: 'Art. 31, § 1º, inciso I',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -501,6 +523,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Lei Federal nº 12.527/2011 (Lei de Acesso à Informação)',
     localizador: 'Art. 24, § 1º, inciso III',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -525,6 +548,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais)',
     localizador: 'Art. 11, inciso II, alínea "a"',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -547,6 +571,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais)',
     localizador: 'Art. 12, caput',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -569,6 +594,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'The Data Warehouse Toolkit (Ralph Kimball & Margy Ross, 3rd edition)',
     localizador: 'Chapter 1 (Dimensional Modeling Basics), p. 7-10',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -591,6 +617,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Sistemas de Banco de Dados (Silberschatz, Korth & Sudarshan, 7ª edição)',
     localizador: 'Capítulo 3 (Introdução a SQL), p. 88-90',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -613,6 +640,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Constituição Federal de 1988 c/c Regimento Interno da Câmara dos Deputados (RICD)',
     localizador: 'CF/88, Art. 58, § 3º; RICD, Art. 35',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -635,6 +663,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Constituição da República Federativa do Brasil de 1988',
     localizador: 'Art. 69 c/c RICD, Art. 183',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -657,6 +686,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Constituição Federal de 1988 c/c Resolução nº 1/2006-CN (RCCN)',
     localizador: 'CF/88, Art. 166, § 1º; Resolução nº 1/2006-CN, Art. 2º',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -679,6 +709,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Constituição Federal de 1988 c/c Regimento Comum do Congresso Nacional',
     localizador: 'CF/88, Art. 66, § 4º; RCCN, Art. 104',
+    localizadorVerificado: true,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -707,6 +738,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Planejamento de Bibliotecas e Serviços de Informação (Maria Christina Barbosa de Almeida, 2ª ed.)',
     localizador: 'Capítulo 2 (Níveis e Etapas do Planejamento), p. 35-38',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -729,6 +761,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Administração de Unidades de Informação (Alba Costa Maciel & Marília Alvarenga Mendonça)',
     localizador: 'Capítulo 3 (Diagnóstico e Instrumentos de Análise), p. 54-56',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -751,6 +784,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Desenvolvimento de Coleções (Waldomiro Vergueiro, 2ª ed.)',
     localizador: 'Capítulo 1 (O Ciclo do Desenvolvimento de Coleções), p. 15-18',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -773,6 +807,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Desenvolvimento de Coleções (Waldomiro Vergueiro)',
     localizador: 'Capítulo 5 (Desbastamento e Descarte), p. 68-71',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -795,6 +830,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Desenvolvimento de Coleções (Simone da Rocha Weitzel)',
     localizador: 'Capítulo 4 (Metodologias de Avaliação de Coleções), p. 55-58',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -817,6 +853,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Métricas da Informação (Foresti & Vanz, orgs.)',
     localizador: 'Capítulo 1 (Leis Bibliométricas Fundamentais: Bradford, Lotka e Zipf), p. 22-25',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -841,6 +878,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Library of Congress MARC 21 Format for Bibliographic Data',
     localizador: 'Field 245 (Title Statement), Indicators & Subfields',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -863,6 +901,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Library of Congress MARC 21 Format for Bibliographic Data',
     localizador: 'Fields 502, 505 and 650 Specifications',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -885,6 +924,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'IFLA Library Reference Model (IFLA LRM, 2017)',
     localizador: 'Section 4.2 (Entity LRM-E3: Expression), p. 24-26',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -907,6 +947,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'IFLA Library Reference Model (IFLA LRM, 2017)',
     localizador: 'Section 4.2 (Entities LRM-E4: Manifestation and LRM-E5: Item), p. 27-30',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -929,6 +970,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Classificação Decimal Universal (CDU - Edição Padrão Internacional em Língua Portuguesa)',
     localizador: 'Tabelas Auxiliares Comuns (Sinais de Coordenação e Relação), p. 14-16',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -951,6 +993,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Classificação Decimal Universal (CDU - Edição Padrão Internacional)',
     localizador: 'Tabela Principal (Estrutura Geral das Classes 0 a 9)',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -975,6 +1018,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Indexação e Resumos: Teoria e Prática (F. W. Lancaster, 2ª ed.)',
     localizador: 'Capítulo 2 (Teoria da Indexação), p. 11-14',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -997,6 +1041,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Indexação e Resumos: Teoria e Prática (F. W. Lancaster)',
     localizador: 'Capítulo 3 (Exaustividade e Especificidade), p. 25-28',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1019,6 +1064,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'ISO 25964-1: Information and documentation - Thesauri and interoperability with other vocabularies',
     localizador: 'Clause 6 (Equivalence Relationships: USE and UF), p. 22-24',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1041,6 +1087,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'ISO 25964-1: Thesauri and interoperability with other vocabularies',
     localizador: 'Clause 7 (Hierarchical Relationships: Generic vs. Partitive), p. 26-29',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1063,6 +1110,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Recuperação da Informação: Teoria e Aplicações (Chowdhury, 3ª ed.)',
     localizador: 'Capítulo 6 (Operadores de Busca Booleana e Métricas), p. 110-113',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1085,6 +1133,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Modern Information Retrieval (Baeza-Yates & Ribeiro-Neto, 2nd ed.)',
     localizador: 'Chapter 4 (Evaluation of Retrieval Systems: Precision and Recall), p. 138-141',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1109,6 +1158,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'ISO 14721:2012 - Space data and information transfer systems — Open archival information system (OAIS)',
     localizador: 'Section 4.1.1.3 (Archival Storage Functional Entity), p. 4-4',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1131,6 +1181,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'ISO 14721:2012 - Open archival information system (OAIS)',
     localizador: 'Section 2.2 (Information Package Concepts: SIP, AIP, DIP), p. 2-6',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1153,6 +1204,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Resolução CONARQ nº 43/2015 (Diretrizes para Repositórios Arquivísticos Digitais Confiáveis - RDC-Arq)',
     localizador: 'Seção 2 (Princípios e Requisitos da Custódia Confiável), p. 3-5',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1175,6 +1227,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Preservação Digital: Teoria e Prática (Miguel Ángel Márdero Arellano)',
     localizador: 'Capítulo 4 (Estratégias de Preservação Digital: Migração e Emulação), p. 82-85',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1197,6 +1250,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'PREMIS Data Dictionary for Preservation Metadata (Version 3.0, Library of Congress)',
     localizador: 'Section 2.3 (Event Entity Data Model), p. 115-118',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1219,6 +1273,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'PREMIS Data Dictionary for Preservation Metadata (Version 3.0)',
     localizador: 'Section 2.1 (Object Entity: fixity element), p. 45-47',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1243,6 +1298,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Fontes de Informação para Pesquisadores e Profissionais (Beatriz Valadares Cordeiro Campello, 2ª ed.)',
     localizador: 'Capítulo 4 (Literatura Cinzenta e Relatórios Técnicos), p. 75-78',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1265,6 +1321,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Fontes de Informação para Pesquisadores e Profissionais (Beatriz Valadares Cordeiro Campello)',
     localizador: 'Capítulo 1 (Tipologia das Fontes de Informação), p. 18-21',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1287,6 +1344,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'dificil',
     fontePrimaria: 'Informação Jurídica: Teoria e Prática (Edilenice Passos & Maria Ângela Aquino)',
     localizador: 'Capítulo 2 (Fontes do Direito e Normatividade), p. 42-45',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1309,6 +1367,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'Informação Jurídica: Teoria e Prática (Edilenice Passos)',
     localizador: 'Capítulo 4 (Publicações Oficiais e Estrutura do DOU), p. 88-91',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1331,6 +1390,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'media',
     fontePrimaria: 'Library of Congress BIBFRAME 2.0 Model Overview',
     localizador: 'Overview Document, Section: Core Classes (Work, Instance, Item), p. 2-4',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {
@@ -1353,6 +1413,7 @@ export const simuladoOficialReserva60Q: DraftItemReservaSimulado[] = [
     dificuldade: 'facil',
     fontePrimaria: 'W3C RDF 1.1 Concepts and Abstract Syntax (W3C Recommendation)',
     localizador: 'Section 1.2 (Triples and Graphs), W3C Recommendation',
+    localizadorVerificado: false,
     statusHomologacao: 'pendente_homologacao',
     homologado: false,
     fonteOriginal: {

@@ -3,7 +3,8 @@ import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial
 import {
   contarItensJaVistosNosModulos,
   MACROS_P1_BASICOS,
-  MACROS_P2_ESPECIFICOS
+  MACROS_P2_ESPECIFICOS,
+  podeSerPromovidoSimuladoOficial
 } from '../domain/simuladoOficialEngine';
 import { simuladoOficialReserva60Q } from '../content/drafts/simuladoOficialReserva60Q';
 import { CebraspeQuestionSchema } from '../domain/schemas/question.schema';
@@ -150,4 +151,60 @@ describe('C4 — Simulado Oficial com Rastreabilidade de Origem e Reserva Fresca
       });
     });
   });
+
+  describe('4. Homologação da Reserva de 60Q e Critérios de Localizador (Prompt C11)', () => {
+    it('itens que citam página ou seção possuem localizadorVerificado = false', () => {
+      const itensComPaginaOuSecao = simuladoOficialReserva60Q.filter((q) =>
+        /(?:p\.|pág|página|seção|secao|section|capítulo|capitulo|chapter)/i.test(q.localizador)
+      );
+
+      expect(itensComPaginaOuSecao.length).toBeGreaterThanOrEqual(40);
+      itensComPaginaOuSecao.forEach((q) => {
+        expect(
+          q.localizadorVerificado,
+          `Item ${q.id} cita página/seção mas está como localizadorVerificado = true`
+        ).toBe(false);
+        expect(q.statusHomologacao).toBe('pendente_homologacao');
+        expect(q.homologado).toBe(false);
+      });
+    });
+
+    it('itens com número de artigo de lei/regimento possuem localizadorVerificado = true', () => {
+      const itensArtigo = simuladoOficialReserva60Q.filter((q) => q.localizadorVerificado === true);
+      expect(itensArtigo.length).toBe(14);
+      itensArtigo.forEach((q) => {
+        expect(q.localizador).toMatch(/art\.|artigo/i);
+      });
+    });
+
+    it('itens sem localizador verificável têm statusHomologacao = "pendente_homologacao" e não entram no simulado', () => {
+      const itensNaoVerificados = simuladoOficialReserva60Q.filter((q) => !q.localizadorVerificado);
+      expect(itensNaoVerificados.length).toBe(46);
+      itensNaoVerificados.forEach((q) => {
+        expect(q.statusHomologacao).toBe('pendente_homologacao');
+        expect(q.homologado).toBe(false);
+        expect(podeSerPromovidoSimuladoOficial(q)).toBe(false);
+      });
+    });
+
+    it('nenhum item sem localizadorVerificado = true pode ser promovido ao simulado oficial', () => {
+      simuladoOficialReserva60Q.forEach((q) => {
+        if (!q.localizadorVerificado) {
+          expect(podeSerPromovidoSimuladoOficial(q)).toBe(false);
+        }
+      });
+
+      // Verifica que nenhum item no simulado oficial de 180q é um item de reserva não homologado
+      const idsReservaNaoVerificados = new Set(
+        simuladoOficialReserva60Q.filter((q) => !q.localizadorVerificado).map((q) => q.id)
+      );
+      simuladoOficialCamara180Q.forEach((q) => {
+        expect(idsReservaNaoVerificados.has(q.id)).toBe(false);
+        if (q.questaoOrigemId) {
+          expect(idsReservaNaoVerificados.has(q.questaoOrigemId)).toBe(false);
+        }
+      });
+    });
+  });
+
 });
