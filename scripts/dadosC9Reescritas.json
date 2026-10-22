@@ -1,0 +1,754 @@
+{
+  "fund-q-9": {
+    "item": "O princípio monográfico formulado por Paul Otlet estabelece que a preservação e a catalogação dos documentos devem priorizar a integridade do suporte encadernado, de modo que cada tomo constitua a unidade indivisível de análise informacional.",
+    "justificativa": "Gabarito ERRADO. O princípio monográfico de Otlet preconizava exatamente o desmembramento analítico dos temas em fichas padronizadas independentes, separando ideias e dados para recombinação flexível no repertório universal."
+  },
+  "fund-q-18": {
+    "item": "No âmbito dos sistemas de informação legislativa, os acórdãos e súmulas dos tribunais superiores são classificados como fontes primárias de informação legislativa, ao lado das leis ordinárias e complementares.",
+    "justificativa": "Gabarito ERRADO. Jurisprudência é emanada pelos órgãos do Poder Judiciário (tribunais). Quem emana legislação no âmbito federal é o Congresso Nacional. Trata-se de informação jurídica e não legislativa estrita."
+  },
+  "fund-q-20": {
+    "item": "A Ciência da Informação surgiu na década de 1960 como uma evolução linear da biblioteconomia escolar, voltada a aprimorar as práticas pedagógicas de leitura nas redes de ensino fundamental.",
+    "justificativa": "Gabarito ERRADO. A Ciência da Informação emergiu fortemente impulsionada pelas demandas científico-tecnológicas e de inteligência estratégica da Segunda Guerra Mundial e da Guerra Fria, em diálogo com a computação e a recuperação automatizada."
+  },
+  "fund-q-25": {
+    "item": "Em bibliotecas parlamentares, a indexação de atos legislativos e pronunciamentos baseia-se na extração automática de palavras-chave da linguagem natural, dispensando vocabulários controlados devido à uniformidade conceitual intrínseca ao jargão jurídico.",
+    "justificativa": "Gabarito ERRADO. A linguagem jurídica e legislativa apresenta especificidades, polissemia e sinonímia expressivas que demandam tesauros especializados, controle terminológico e indexação analítica estruturada."
+  },
+  "fund-q-36": {
+    "item": "Em sua releitura contemporânea das leis da biblioteconomia, Michael Gorman sustentou que as bibliotecas modernas devem substituir integralmente os suportes físicos pelas coleções digitais em rede, em consonância com a dinâmica de desmaterialização dos acervos.",
+    "justificativa": "Gabarito ERRADO. Michael Gorman é um dos maiores defensores do equilíbrio entre a herança bibliográfica impressa e o meio digital, como sintetizado em sua quinta lei: \"Honre o passado e crie o futuro\"."
+  },
+  "fund-q-38": {
+    "item": "De acordo com a formulação original de Ranganathan, as exigências da segunda lei da biblioteconomia concentram-se no dever técnico de mediação do bibliotecário, cabendo aos leitores papel passivo na recepção dos acervos disponibilizados.",
+    "justificativa": "Gabarito ERRADO. Ranganathan dedica seções específicas detalhando as obrigações tripartite da 2ª Lei: obrigações do Estado (manutenção financeira e leis), do bibliotecário (dedicação e mediação) e dos próprios leitores (zelo e cooperação)."
+  },
+  "fund-q-41": {
+    "item": "Na formulação da quinta lei da biblioteconomia, Ranganathan concebe o crescimento do acervo como processo autônomo e cumulativo, dispensando diretrizes prévias de desbastamento e readequação de layout arquitetônico.",
+    "justificativa": "Gabarito ERRADO. A 5ª Lei (\"A biblioteca é um organismo em crescimento\") exige justamente planejamento flexível e dinâmico para prever o crescimento harmônico de coleções, leitores, edifícios e equipes."
+  },
+  "fund-q-43": {
+    "item": "Para Ranganathan, a iluminação adequada, a ventilação do ambiente e a ergonomia do mobiliário da biblioteca constituem fatores estéticos externos desvinculados dos preceitos teóricos da primeira lei da biblioteconomia.",
+    "justificativa": "Gabarito ERRADO. Ranganathan analisa que iluminação deficiente, assentos desconfortáveis e ambientes insalubres afastam os leitores e inviabilizam o uso dos livros, colidindo diretamente com a 1ª Lei (\"Os livros são para usar\")."
+  },
+  "fund-q-46": {
+    "item": "A formulação \"a cada leitor seu livro\" restringe o compromisso da biblioteca aos usuários formalmente alfabetizados e habilitados para a leitura acadêmica, direcionando públicos com deficiência ou baixa literacia para instituições assistenciais especializadas.",
+    "justificativa": "Gabarito ERRADO. A 2ª Lei é o grande marco da democratização e da inclusão: todo cidadão tem direito à informação compatível com sua condição, alcançando pessoas com deficiência, idosos e crianças."
+  },
+  "fund-q-52": {
+    "item": "Informação e conhecimento configuram termos equivalentes na Ciência da Informação, considerando-se o texto gravado no suporte idêntico ao processo cognitivo de compreensão pelo leitor.",
+    "justificativa": "Gabarito ERRADO. A informação é exteriorizada e registrável em suportes materiais, enquanto o conhecimento reside nas estruturas cognitivas internas do indivíduo, resultando da apropriação e interpretação da informação."
+  },
+  "fund-q-61": {
+    "item": "Na tipologia documental contemporânea, a categoria de documento eletrônico é sinônima e restrita à de documento digital, pois o registro codificado em impulsos elétricos estrutura-se em formato binário.",
+    "justificativa": "Gabarito ERRADO. O documento eletrônico engloba registros analógicos (ex.: fitas de videocassete VHS, fitas cassete de áudio) e digitais (código binário). Todo documento digital é eletrônico, mas nem todo eletrônico é digital."
+  },
+  "fund-q-63": {
+    "item": "Segundo a teoria da documentação contemporânea, a intencionalidade de um objeto cultural decorre do ato interpretativo do leitor no momento da consulta, afastando a influência dos propósitos de registro definidos pelo produtor original.",
+    "justificativa": "Gabarito ERRADO. A intencionalidade decorre prioritariamente do ato de criação/produção ou da seleção institucional para guarda com fins de comunicação e prova, articulando-se com a leitura posterior."
+  },
+  "fund-q-74": {
+    "item": "O conhecimento tácito, teorizado por Michael Polanyi e desenvolvido por Nonaka e Takeuchi, pode ser convertido de modo direto e linear em manuais formais sem retenção de intuições práticas ou experiência acumulada.",
+    "justificativa": "Gabarito ERRADO. O conhecimento tácito está enraizado na ação, nos modelos mentais e na experiência vivencial pessoal, apresentando forte resistência à codificação formal imediata."
+  },
+  "fund-q-77": {
+    "item": "A elaboração de perícias documentais e a emissão de laudos técnicos sobre avaliação de acervos bibliográficos constituem atividade aberta a graduados em ciências humanas com especialização em patrimônio histórico.",
+    "justificativa": "Gabarito ERRADO. Conforme a Lei nº 4.084/1962 (art. 6º), a emissão de laudos técnicos e a realização de perícias sobre organização de bibliotecas e centros de documentação são atribuições privativas do bacharel em Biblioteconomia."
+  },
+  "fund-q-79": {
+    "item": "O magistério de disciplinas teórico-metodológicas em cursos de graduação em Biblioteconomia pode ser atribuído a docentes portadores de títulos de pós-graduação em áreas correlatas, prescindindo de habilitação profissional específica no conselho de classe da categoria.",
+    "justificativa": "Gabarito ERRADO. O art. 6º, alínea \"d\", da Lei nº 4.084/1962 fixa expressamente que o magistério de disciplinas de Biblioteconomia é atribuição privativa de bibliotecários devidamente habilitados e registrados."
+  },
+  "fund-q-80": {
+    "item": "A penalidade disciplinar de cassação definitiva do registro profissional de bibliotecário pode ser aplicada de ofício por delegados regionais de biblioteconomia em procedimento sumário sem duplo grau de jurisdição.",
+    "justificativa": "Gabarito ERRADO. A cassação do registro é a sanção máxima e compete privativamente ao Conselho Federal de Biblioteconomia (CFB), exigindo processo administrativo disciplinar com contraditório e ampla defesa."
+  },
+  "fund-q-92": {
+    "item": "A legislação que regulamenta a profissão de bibliotecário autoriza a atuação provisória de bacharéis em áreas afins na gestão de bibliotecas especializadas enquanto tramita o registro profissional definitivo no conselho de classe.",
+    "justificativa": "Gabarito ERRADO. O exercício da profissão de bibliotecário sem diploma reconhecido e sem registro ativo no Conselho Regional de Biblioteconomia configura exercício ilegal de profissão regulamentada."
+  },
+  "m10-q-1": {
+    "item": "O veto do Presidente da República a um projeto de lei aprovado pelo Congresso Nacional é irretratável e terminativo, obstando nova deliberação parlamentar sobre o texto vetado.",
+    "justificativa": "Gabarito ERRADO. O veto presidencial tem caráter relativo. Conforme o art. 66, § 4º da CF/88, o veto será apreciado em sessão conjunta do Congresso Nacional dentro de trinta dias, só podendo ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores."
+  },
+  "m10-q-6": {
+    "item": "A matéria constante de projeto de lei rejeitado pelo Plenário da Câmara dos Deputados pode ser reapresentada no dia seguinte pelo autor da proposta original mediante simples requerimento avulso.",
+    "justificativa": "Gabarito ERRADO. Princípio da Irrepetibilidade (art. 67 da CF/88): matéria constante de projeto de lei rejeitado só pode ser objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."
+  },
+  "m10-q-23": {
+    "item": "Emendas parlamentares impositivas individuais ao projeto de Lei Orçamentária Anual dependem de prévia autorização judicial, sendo desprovidas de respaldo na ordem constitucional positiva.",
+    "justificativa": "Gabarito ERRADO. O orçamento impositivo para emendas parlamentares individuais foi expressamente introduzido no texto constitucional (art. 166, §§ 9º e 11 da CF/88), estabelecendo execução obrigatória em limites percentuais da receita corrente líquida."
+  },
+  "m10-q-32": {
+    "item": "O Presidente da Câmara dos Deputados exerce direito de voto em deliberações ordinárias do Plenário, inclusive em votações simbólicas de rotina legislativa sem ocorrência de empate.",
+    "justificativa": "Gabarito ERRADO. Conforme o RICD (art. 17, § 2º), o Presidente só vota em hipóteses expressas: escrutínio secreto, empate na votação ostensiva (voto de minerva) e em matérias que exijam quórum de maioria qualificada."
+  },
+  "m10-q-34": {
+    "item": "A interposição de recurso para submeter ao Plenário proposição sujeita à apreciação conclusiva pelas comissões constitui faculdade restrita a líderes de bancadas partidárias.",
+    "justificativa": "Gabarito ERRADO. O recurso para levar projeto conclusivo ao Plenário (art. 58, § 2º, I da CF/88 e RICD) exige a assinatura de um décimo dos membros da Casa, independentemente de exercerem função de liderança partidária."
+  },
+  "m10-q-39": {
+    "item": "Caso um deputado se desligue do partido que integra um bloco parlamentar e esse desligamento reduza a quantidade de membros do bloco a número inferior ao quórum mínimo para sua constituição, o bloco subsistirá até o encerramento da legislatura em curso.",
+    "justificativa": "Gabarito ERRADO. A diminuição do número de parlamentares abaixo do quórum mínimo legal ou regimental enseja a dissolução do bloco parlamentar, perdendo as prerrogativas de liderança proporcional."
+  },
+  "m10-q-41": {
+    "item": "Cabe a comissão parlamentar de inquérito instaurada na Câmara dos Deputados expedir intimação compulsória com força de convocação a governador de estado para prestar depoimento sobre a aplicação de verbas federais descentralizadas.",
+    "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal pacificou que comissões parlamentares de inquérito do Congresso Nacional não podem convocar governadores de estado, cabendo apenas o convite, em obséquio ao pacto federativo e à separação dos poderes."
+  },
+  "m10-q-43": {
+    "item": "O Colégio de Líderes constitui comissão temática de assessoramento legislativo, cabendo-lhe a redação prévia dos substitutivos das proposições antes de sua submissão ao Plenário.",
+    "justificativa": "Gabarito ERRADO. O Colégio de Líderes é órgão político de deliberação estratégica e construção de acordos de procedimento, auxiliando na definição prioritária da Ordem do Dia, não se confundindo com comissão técnica de mérito."
+  },
+  "m10-q-55": {
+    "item": "A política de desenvolvimento de coleções da Biblioteca Pedro Aleixo prioriza a aquisição de obras literárias e ficcionais recreativas, deixando a cargo da Consultoria Legislativa a formação de acervos de Direito Constitucional e Teoria do Parlamento.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo tem acervo técnico-especializado voltado prioritariamente às áreas de Direito, Legislação, Ciência Política, Administração Pública e Processo Legislativo."
+  },
+  "m10-q-61": {
+    "item": "O acesso aos terminais de pesquisa da Biblioteca da Câmara dos Deputados subordina-se à autorização expressa da Mesa Diretora, limitando-se o uso da rede aos servidores lotados no Centro de Informática.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca da Câmara disponibiliza terminais de acesso e rede sem fio para atendimento amplo a deputados, servidores, assessores e pesquisadores externos em suas dependências."
+  },
+  "m10-q-63": {
+    "item": "O serviço de referência da Biblioteca Pedro Aleixo direciona seu atendimento presencial aos cidadãos em geral, orientando os gabinetes parlamentares a recorrerem aos centros de documentação do Poder Executivo para consultas legislativas.",
+    "justificativa": "Gabarito ERRADO. O público prioritário da Biblioteca da Câmara inclui deputados federais, órgãos da Mesa, comissões técnicas, consultores legislativos e servidores da instituição."
+  },
+  "m10a-q-9": {
+    "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
+    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88)."
+  },
+  "m10a-q-20": {
+    "item": "A sanção do projeto de lei pelo Presidente da República pode ocorrer de forma expressa ou tácita, subordinando-se sua eficácia à manifestação favorável prévia do Conselho da República e do Conselho de Defesa Nacional.",
+    "justificativa": "Gabarito ERRADO. A sanção não depende de manifestação prévia do Conselho da República nem do Conselho de Defesa Nacional. Trata-se de ato privativo de aquiescência do Chefe do Poder Executivo."
+  },
+  "m10a-q-24": {
+    "item": "A apresentação de projeto de lei complementar por iniciativa popular conflita com a disciplina constitucional do processo legislativo, haja vista que o texto da Carta de 1988 limitou a atuação popular direta às leis ordinárias.",
+    "justificativa": "Gabarito ERRADO. A jurisprudência constitucional e a doutrina uníssona assentam que a iniciativa popular (art. 61, § 2º da CF) alcança tanto leis ordinárias quanto leis complementares, pois onde a Constituição não restringiu, não cabe ao intérprete distinguir."
+  },
+  "m10a-q-28": {
+    "item": "Compete ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa, formalizando referida deliberação por meio de resolução conjunta de iniciativa de bancada partidária.",
+    "justificativa": "Gabarito ERRADO. A sustação de atos do Executivo que exorbitem do poder regulamentar é veiculada formalmente mediante Decreto Legislativo (art. 49, V da CF/88), e não por resolução conjunta ou medida provisória."
+  },
+  "m10a-q-55": {
+    "item": "O prazo de prorrogação da vigência de medida provisória por período subsequente de sessenta dias prescinde de ato formal, operando-se ope legis com o início do recesso parlamentar.",
+    "justificativa": "Gabarito ERRADO. A prorrogação da vigência da medida provisória por mais sessenta dias exige a expedição de ato formal declaratório pelo Presidente da Mesa do Congresso Nacional (art. 62, § 7º da CF/88)."
+  },
+  "m10a-q-66": {
+    "item": "A totalidade dos nove ministros integrantes do Tribunal de Contas da União decorre de indicação originária do Presidente da República, exigindo-se referendo por maioria qualificada do Senado Federal.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 73, § 2º da CF/88, apenas um terço (3 ministros) é nomeado pelo Presidente da República com aprovação do Senado; dois terços (6 ministros) são escolhidos pelo Congresso Nacional."
+  },
+  "m10a-q-80": {
+    "item": "Na RVBI, cada biblioteca participante mantém registros catalográficos isolados para um mesmo título, desautorizando o aproveitamento cooperativo de metadados entre a Câmara dos Deputados e os tribunais federais.",
+    "justificativa": "Gabarito ERRADO. O princípio reitor da RVBI é exatamente a catalogação cooperativa em base unificada compartilhada, na qual um registro bibliográfico é gerado por uma unidade e reutilizado por todas as demais cooperadas."
+  },
+  "m10a-q-98": {
+    "item": "O catálogo em linha da Biblioteca Pedro Aleixo estrutura suas bases de dados em planilhas tabulares simplificadas, prescindindo do intercâmbio bibliográfico pelo formato MARC 21 para otimizar o tempo de resposta nas consultas.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo utiliza sistema automatizado de grande porte plenamente compatível com o formato MARC 21 Bibliográfico e de Autoridades, integrado à base da RVBI."
+  },
+  "m10b-q-11": {
+    "item": "As deliberações do Colégio de Líderes possuem natureza vinculante sobre os atos da Presidência da Casa, impedindo o Presidente de incluir na Ordem do Dia matéria objeto de desacordo majoritário entre as lideranças.",
+    "justificativa": "Gabarito ERRADO. A prerrogativa de organizar e designar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados (art. 17, II, \"a\" do RICD), ouvindo o Colégio de Líderes, sem subordinação hierárquica vinculante."
+  },
+  "m10b-q-47": {
+    "item": "Projetos de lei decorrentes de iniciativa popular submetem-se a rito solene e diferenciado, submetendo-se à apreciação direta do Plenário e afastando a tramitação terminativa no âmbito das comissões temáticas.",
+    "justificativa": "Gabarito ERRADO. Conforme as normas regimentais, proposições de iniciativa popular tramitam sob o rito geral das leis ordinárias, podendo ser apreciadas conclusivamente pelas comissões, ressalvada a interposição de recurso por um décimo dos deputados."
+  },
+  "m10b-q-68": {
+    "item": "O pedido de verificação de votação simbólica constitui prerrogativa individual e irrecusável atribuída ao parlamentar isolado presente na sessão, sem exigência de quórum de apoio de bancada partidária.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 186 do RICD, o requerimento de verificação de votação simbólica deve ser apoiado por pelo menos seis por cento dos deputados ou por líderes que representem esse contingente partidário."
+  },
+  "m10b-q-76": {
+    "item": "A supressão do interstício regimental entre o primeiro e o segundo turno de votação de proposta de emenda à Constituição insere-se na competência discricionária do Presidente da Câmara dos Deputados mediante despacho ordinatório.",
+    "justificativa": "Gabarito ERRADO. A quebra ou dispensa do interstício regimental de cinco dias entre os turnos de votação de PEC exige requerimento formal aprovado pelo Plenário por quórum qualificado, não cabendo decisão monocrática."
+  },
+  "m10b-q-90": {
+    "item": "As emendas parlamentares ao projeto de lei orçamentária anual prescindem de compatibilidade com o plano plurianual quando destinadas a ações prioritárias de infraestrutura regional.",
+    "justificativa": "Gabarito ERRADO. A compatibilidade com o Plano Plurianual (PPA) e com a Lei de Diretrizes Orçamentárias (LDO) é exigência material indeclinável imposta pelo art. 166, § 3º, I da Constituição Federal."
+  },
+  "m10b-q-97": {
+    "item": "As sessões conjuntas do Congresso Nacional são sediadas no Plenário do Senado Federal, em razão de sua Presidência caber ao Presidente daquela Casa legislativa.",
+    "justificativa": "Gabarito ERRADO. As sessões conjuntas do Congresso Nacional realizam-se tradicionalmente no Plenário Ulysses Guimarães da Câmara dos Deputados, por comportar a presença física conjunta dos 513 deputados federais e 81 senadores."
+  },
+  "m11-q-6": {
+    "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
+    "justificativa": "Gabarito ERRADO. O conceito está invertido! A Empresa Pública possui capital 100% público e admite qualquer formato societário admitido em direito. A Sociedade de Economia Mista possui capital misto (maioria votante pública e minoritário privado) e deve ser compulsoriamente constituída como Sociedade Anônima (S/A)."
+  },
+  "m11-q-8": {
+    "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
+    "justificativa": "Gabarito ERRADO. Conforme a Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre diretamente dos princípios da impessoalidade e moralidade (art. 37 da CF) e incide de forma cogente sobre todos os Poderes da República, alcançando plenamente o Poder Legislativo."
+  },
+  "m11-q-30": {
+    "item": "A delegação de competência administrativa subordina-se à existência de relação hierárquica direta entre o delegante e o delegado, mostrando-se incompatível com órgãos autônomos ou instâncias desprovidas de vínculo de subordinação funcional.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 12 da Lei nº 9.784/1999, a delegação pode ser feita para outros órgãos ou titulares \"ainda que estes não lhe sejam hierarquicamente subordinados\", quando conveniente por razões técnicas, sociais ou territoriais."
+  },
+  "m11-q-32": {
+    "item": "O recurso administrativo no âmbito federal independe de caução prévia, vedando-se à autoridade competente a reforma da decisão em prejuízo da situação jurídica do recorrente.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 64, parágrafo único da Lei nº 9.784/1999, o recurso administrativo admite a reformatio in pejus (agravamento da sanção), desde que dada oportunidade prévia de manifestação ao interessado."
+  },
+  "m11-q-57": {
+    "item": "Com base na Lei nº 14.230/2021, o particular que concorrer culposamente para a ocorrência de prejuízo ao erário pode figurar isoladamente no polo passivo da ação por improbidade administrativa instaurada pelo Ministério Público.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 3º da Lei nº 8.429/1992 e jurisprudência pacífica, o particular não pode figurar sozinho no polo passivo da ação de improbidade; é imprescindível a coautoria com um agente público, exigindo-se dolo comprovado."
+  },
+  "m11-q-65": {
+    "item": "Na abordagem do Valor Público desenvolvida por Mark Moore, o valor produzido pelas instituições estatais afere-se pela conformidade procedimental estrita aos ritos administrativos e normativos, considerando-se os impactos sociais decorrência reflexa do cumprimento da legalidade.",
+    "justificativa": "Gabarito ERRADO. Para Mark Moore, o Triângulo Estratégico exige três vértices integrados: 1) Valor Substantivo (resultados e impactos reais na sociedade); 2) Legitimidade e Apoio Político; e 3) Capacidade Operacional. A mera conformidade burocrática não gera valor público."
+  },
+  "m11-q-82": {
+    "item": "No regime da Lei nº 14.133/2021, as situações autorizadoras da contratação direta sem licitação previstas no rol do art. 75 ostentam natureza exemplificativa, cabendo ao gestor identificar hipóteses análogas de conveniência administrativa.",
+    "justificativa": "Gabarito ERRADO. O rol de hipóteses de dispensa de licitação do art. 75 da Lei nº 14.133/2021 é taxativo (numerus clausus). Apenas a inexigibilidade (art. 74) possui rol exemplificativo fundado na inviabilidade de competição."
+  },
+  "m11-q-84": {
+    "item": "Nas contratações diretas em razão do valor fundadas na Lei nº 14.133/2021, a substituição do instrumento contratual formal por nota de empenho é admitida inclusive quando o ajuste estipular obrigações futuras de assistência técnica e fornecimento continuado.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 95 da Lei nº 14.133/2021, havendo obrigações futuras (como garantia estendida ou fornecimento continuado), o instrumento de contrato escrito é de formalização indeclinável."
+  },
+  "m13-q-2": {
+    "item": "Segundo o Texto I, a adoção da Linguagem Simples nas casas legislativas promove a vulgarização do vernáculo culto e o empobrecimento formal das categorias dogmáticas do Direito.",
+    "justificativa": "Gabarito ERRADO. O texto sustenta expressamente o oposto: simplificar a linguagem não significa empobrecer a língua nem vulgarizar conceitos dogmáticos, mas conferir clareza à comunicação pública."
+  },
+  "m13-q-21": {
+    "item": "A assertiva de que a Linguagem Simples flexibiliza o respeito às normas gramaticais de concordância e regência em favor do imediatismo comunicativo alinha-se às teses sustentadas no Texto I.",
+    "justificativa": "Gabarito ERRADO. A Linguagem Simples preconiza a concisão e a clareza textual sem renunciar à correção gramatical e às regras cultas de regência e concordância."
+  },
+  "m13-q-47": {
+    "item": "A reescrita da oração \"Tanto elaborou o parecer técnico quanto revisou a minuta legislativa\" por \"Elaborou o parecer técnico embora tenha revisado a minuta legislativa\" preserva o sentido e a relação lógica originais entre as orações.",
+    "justificativa": "Gabarito ERRADO. A estrutura original é aditiva correlativa (\"tanto... quanto\"); a reescrita transformou o período em concessivo (\"embora\"), alterando profundamente a relação semântica."
+  },
+  "m13-q-66": {
+    "item": "O adjetivo anteposto a substantivos coordenados de gêneros diferentes flexiona-se preferencialmente no masculino plural, afastando-se a concordância atrativa com o termo imediatamente subsequente.",
+    "justificativa": "Gabarito ERRADO. Quando o adjetivo antecede substantivos de gêneros diferentes, a regra canônica prescreve a concordância atrativa com o substantivo mais próximo (ex.: \"conheci bela cidade e parque\")."
+  },
+  "m13-q-84": {
+    "item": "Na frase \"Dificilmente far-se-á concessão sem debate prévio\", a mesóclise foi empregada em estrita harmonia com as regras gramaticais de colocação pronominal.",
+    "justificativa": "Gabarito ERRADO. O advérbio \"dificilmente\" funciona como palavra atrativa, exigindo próclise (\"Dificilmente se fará\") e inviabilizando a mesóclise."
+  },
+  "m13-q-93": {
+    "item": "O vocábulo \"assembleia\" mantém acento agudo diferencial no padrão ortográfico vigente por designar instituição parlamentar de natureza constitucional.",
+    "justificativa": "Gabarito ERRADO. O Acordo Ortográfico vigente aboliu o acento agudo nos ditongos abertos \"ei\" e \"oi\" em palavras paroxítonas (assembleia, ideia, colmeia)."
+  },
+  "m14-q-10": {
+    "item": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema corporativo da Microsoft restringem-se ao tráfego de mensagens no Exchange Online, operando de modo desvinculado dos arquivos compartilhados no OneDrive ou das conversas realizadas no Teams.",
+    "justificativa": "Gabarito ERRADO. As políticas de DLP integram múltiplos serviços da plataforma: Exchange, SharePoint, OneDrive, Microsoft Teams e endpoints locais."
+  },
+  "m14-q-12": {
+    "item": "A funcionalidade de gravação de reuniões em plataformas colaborativas corporativas autoriza o organizador a realizar a captura audiovisual em segundo plano sem a exibição de indicativos visuais ou alertas aos participantes conectados.",
+    "justificativa": "Gabarito ERRADO. As plataformas corporativas (como o Teams) emitem notificação visual e sonora ostensiva a todos os participantes no momento em que a gravação é acionada."
+  },
+  "m14-q-31": {
+    "item": "O protocolo de comunicação HTTP em sua versão básica sem camada TLS cifra o corpo das requisições web por meio de chaves simétricas, inviabilizando a captura de senhas em trânsito por ferramentas de monitoramento de tráfego na rede local.",
+    "justificativa": "Gabarito ERRADO. O HTTP trafega dados em texto claro (clear text). Qualquer atacante munido de analisador de pacotes pode interceptar credenciais em trânsito."
+  },
+  "m14-q-35": {
+    "item": "No modelo da segurança da informação, o atributo da confidencialidade assegura o acesso tempestivo aos sistemas de informação e bancos de dados institucionais por parte dos colaboradores credenciados.",
+    "justificativa": "Gabarito ERRADO. O acesso tempestivo é garantido pela disponibilidade. A confidencialidade protege o sigilo da informação contra o conhecimento por pessoas não autorizadas."
+  },
+  "m14-q-41": {
+    "item": "No procedimento de backup incremental, a rotina diária copia as modificações ocorridas em relação ao último backup integral (full), permitindo que a restauração de desastre requeira o conjunto de fitas do backup full e o suporte referente ao dia mais recente.",
+    "justificativa": "Gabarito ERRADO. A definição apresentada corresponde ao backup diferencial. O backup incremental copia apenas o modificado desde a rotina anterior, exigindo o backup full mais a cadeia completa de incrementos."
+  },
+  "m14-q-47": {
+    "item": "A Lei Geral de Proteção de Dados Pessoais condiciona o tratamento de bases cadastrais da administração pública à guarda física em servidores locais instalados na sede do órgão, considerando ilícita a contratação de infraestrutura em nuvem pública.",
+    "justificativa": "Gabarito ERRADO. A LGPD autoriza expressamente a computação em nuvem e a transferência internacional de dados, desde que observados padrões adequados de segurança e governança."
+  },
+  "m14-q-54": {
+    "item": "No espaço vetorial de representação de linguagem natural (embeddings), a distância de cosseno entre vetores associados a vocábulos com forte oposição semântica converge para zero.",
+    "justificativa": "Gabarito ERRADO. Distância de cosseno próxima de zero ou similaridade igual a 1 indica proximidade ou identidade semântica. Conceitos antagônicos situam-se em coordenadas vetoriais distantes."
+  },
+  "m14-q-56": {
+    "item": "O pré-treinamento de grandes modelos de linguagem (LLMs) constitui a fase mais simplificada do ciclo de desenvolvimento, dependendo da inserção de exemplos curtos estruturados manualmente por anotadores humanos.",
+    "justificativa": "Gabarito ERRADO. O pré-treinamento é a fase computacionalmente mais intensiva e onerosa, exigindo o processamento de grandes volumes textuais em clusters de alta performance."
+  },
+  "m14-q-64": {
+    "item": "Os grandes modelos de linguagem contemporâneos operam com base em mecanismos lógicos estritamente determinísticos, o que impede a geração de respostas factualmente inconsistentes ou citações doutrinárias fictícias.",
+    "justificativa": "Gabarito ERRADO. LLMs são modelos probabilísticos generativos sujeitos a alucinações factuais e citações inventadas, exigindo validação humana e técnicas de ancoragem (RAG)."
+  },
+  "m14-q-72": {
+    "item": "A governança de soluções de inteligência artificial no setor público afasta avaliações de viés algorítmico e equidade quando os modelos fundacionais forem obtidos de fornecedores comerciais consolidados no mercado internacional.",
+    "justificativa": "Gabarito ERRADO. A responsabilidade institucional exige auditoria independente de modelos proprietários para mitigar discriminações algorítmicas antes do emprego no setor público."
+  },
+  "m14-q-74": {
+    "item": "No processo de tokenização de modelos de linguagem, a unidade de token corresponde à delimitação ortográfica de uma palavra individual presente no léxico gramatical.",
+    "justificativa": "Gabarito ERRADO. Tokens são fragmentos subvocabulares (subwords) gerados por algoritmos como Byte-Pair Encoding; uma única palavra pode ser fragmentada em múltiplos tokens."
+  },
+  "m14-q-81": {
+    "item": "Na modelagem multidimensional em estrela (star schema), a tabela fato reúne atributos descritivos e textuais do negócio, enquanto as tabelas de dimensão concentram medidas quantitativas numéricas sujeitas a operações de agregação.",
+    "justificativa": "Gabarito ERRADO. Houve inversão conceitual: a tabela fato abriga as métricas numéricas agregáveis e transações; as tabelas de dimensão guardam atributos textuais e descritivos."
+  },
+  "m14-q-100": {
+    "item": "Bancos de dados orientados a grafos armazenam registros sob a estrutura matricial de tabelas relacionais com esquemas rígidos, revelando-se inadequados para representar redes de interconexão entre entidades complexas.",
+    "justificativa": "Gabarito ERRADO. Bancos de dados de grafos estruturam-se em nós, arestas e propriedades, sendo desenhados exatamente para armazenar e consultar relações em redes complexas de entidades."
+  },
+  "cat-q-5": {
+    "item": "As regras para catálogo dicionário de Cutter preconizavam a separação física estrita entre os fichários de autor, título e assunto, organizando-os em móveis catalográficos independentes.",
+    "justificativa": "Gabarito ERRADO. O catálogo dicionário formulado por Cutter caracteriza-se precisamente pela reunião e interfilação de autores, títulos e assuntos em uma única sequência alfabética integrada."
+  },
+  "cat-q-18": {
+    "item": "A remissiva \"Ver também\" (see also reference) é utilizada na catalogação de autoridades para conduzir o usuário de uma forma não autorizada de nome pessoal para o cabeçalho oficial padronizado.",
+    "justificativa": "Gabarito ERRADO. A remissiva \"Ver também\" conecta cabeçalhos que são ambos autorizados, indicando assuntos correlatos ou pseudônimos; quem remete da forma não autorizada para a autorizada é a remissiva \"Ver\"."
+  },
+  "cat-q-38": {
+    "item": "A arquitetura de metadados do padrão RDA preserva as oito áreas prescritivas de pontuação da ISBD, mostrando-se inadequada para serialização de entidades em grafos de dados RDF.",
+    "justificativa": "Gabarito ERRADO. A arquitetura do RDA baseia-se em entidades, atributos e relacionamentos (modelo IFLA LRM / FRBR) e foi desenhada especificamente para a web semântica e Linked Data em tripletas RDF."
+  },
+  "cat-q-40": {
+    "item": "No padrão RDA, os elementos de núcleo (Core Elements) constituem relação fechada e estrita, impossibilitando que agências catalogadoras nacionais estabeleçam outros atributos como mandatórios em suas diretrizes de aplicação institucional.",
+    "justificativa": "Gabarito ERRADO. Os Core Elements do RDA definem uma linha de base mínima recomendada; cada instituição ou consórcio possui autonomia para estabelecer elementos complementares como obrigatórios em suas políticas de aplicação."
+  },
+  "cat-q-41": {
+    "item": "A reimpressão de uma monografia clássica que incorpore correções de erros tipográficos e ligeira diagramação editorial sem alteração no texto substantivo enseja a criação de uma nova Obra segundo o modelo RDA.",
+    "justificativa": "Gabarito ERRADO. Trata-se da mesma Obra e da mesma Expressão intelectual fundamental; a republicação enseja apenas a criação de uma nova Manifestação ou Item."
+  },
+  "cat-q-45": {
+    "item": "O código RDA destina-se ao emprego em bibliotecas nacionais de países anglo-saxões, mantendo-se restrito a acervos formulados em língua inglesa e sem tradução para redes cooperativas latino-americanas.",
+    "justificativa": "Gabarito ERRADO. O RDA é um padrão internacional multilíngue adotado pela Biblioteca Nacional do Brasil e pela Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional."
+  },
+  "cat-q-47": {
+    "item": "A descrição de um livro eletrônico acessível via web segundo as diretrizes do RDA restringe o preenchimento de suportes à categoria de volume impresso, em razão da compatibilidade com os acervos legados.",
+    "justificativa": "Gabarito ERRADO. Para recursos eletrônicos em rede, registram-se tipos de mídia \"computador\" e tipo de suporte \"recurso online\", sendo incorreto registrar como \"volume\"."
+  },
+  "cat-q-63": {
+    "item": "O modelo conceitual FRSAD incorporou as entidades do Grupo 1 dos FRBR para representar o universo temático, determinando que temas documentais sejam expressos por meio das entidades Obra, Expressão, Manifestação e Item.",
+    "justificativa": "Gabarito ERRADO. O modelo FRSAD formulou modelagem temática própria baseada em duas entidades universais: Thema (qualquer objeto de discurso ou assunto de uma Obra) e Nomen (qualquer signo pelo qual um Thema é conhecido)."
+  },
+  "cat-q-64": {
+    "item": "No modelo conceitual FRSAD, a entidade Nomen limita-se a termos textuais da linguagem natural alfabética, rejeitando notações numéricas e códigos alfanuméricos de esquemas de classificação.",
+    "justificativa": "Gabarito ERRADO. No FRSAD, Nomen abrange qualquer signo que represente um Thema, englobando palavras, números da CDD/CDU, símbolos e notações de tesauros."
+  },
+  "cat-q-79": {
+    "item": "Os campos de controle 001 a 008 do padrão MARC 21 Bibliográfico caracterizam-se pela presença de dois indicadores numéricos e pela subdivisão em subcampos alfanuméricos precedidos por delimitadores.",
+    "justificativa": "Gabarito ERRADO. Os campos de controle (001 a 008) não possuem indicadores nem delimitadores de subcampos; contêm dados dispostos em posições de caracteres fixas contínuas."
+  },
+  "cat-q-94": {
+    "item": "No formato MARC 21 Bibliográfico, o campo 856 destina-se ao registro de dados fiscais e preço comercial de aquisição de monografias e periódicos impressos.",
+    "justificativa": "Gabarito ERRADO. O campo 856 registra Localização e Acesso Eletrônico (Electronic Location and Access), informando endereços de rede (URLs) e protocolos de acesso a recursos eletrônicos."
+  },
+  "cat-q-99": {
+    "item": "No esquema Dublin Core Simples, o elemento Creator restringe-se a pessoas físicas individuais, determinando que obras produzidas por órgãos públicos sejam inseridas no elemento Contributor.",
+    "justificativa": "Gabarito ERRADO. No Dublin Core, o elemento Creator abrange pessoas físicas, organizações corporativas ou serviços primariamente responsáveis pela concepção intelectual do recurso."
+  },
+  "m3-q-12": {
+    "item": "Na CDD 23ª edição, a Tabela 2 é dedicada à divisão de subdivisões para artes e literaturas individuais, enquanto a Tabela 3 destina-se a áreas geográficas, períodos históricos e biografias.",
+    "justificativa": "Gabarito ERRADO. A banca inverteu as funções das tabelas: a Tabela 2 cuida de Áreas Geográficas, Períodos Históricos e Biografias; a Tabela 3 cuida de Subdivisões para Literaturas e Artes Individuais."
+  },
+  "m3-q-59": {
+    "item": "Em sistemas de recuperação da informação, o aumento da exaustividade na indexação de um acervo — caracterizado pela atribuição de um número elevado de termos a cada documento — eleva a precisão das buscas ao restringir a recuperação de registros marginais.",
+    "justificativa": "Gabarito ERRADO. A alta exaustividade faz com que mais termos sejam atribuídos aos documentos, aumentando a revocação e tendendo a reduzir a precisão em razão do ruído documentário."
+  },
+  "m3-q-69": {
+    "item": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, priorizando a avaliação crítica do indexador.",
+    "justificativa": "Gabarito ERRADO. Conforme a ABNT NBR 6028, o resumo acadêmico e técnico deve apresentar com fidelidade os pontos essenciais do documento, sem emitir juízos de valor pessoal do elaborador."
+  },
+  "m3-q-78": {
+    "item": "Nos tesauros documentários, a relação de equivalência entre descritores autorizados e formas não preferidas é formalizada pelo operador Termo Relacionado (TR), indicando correlação conceitual associativa entre as entradas.",
+    "justificativa": "Gabarito ERRADO. A relação de equivalência é expressa pelos operadores USE e UP (Usado Para). O operador TR formaliza a relação associativa entre conceitos afins."
+  },
+  "m3-q-84": {
+    "item": "As notas de escopo (NE) em tesauros documentários concentram-se na indicação da raiz etimológica e da evolução filológica dos termos, afastando orientações pragmáticas sobre o uso do descritor na indexação.",
+    "justificativa": "Gabarito ERRADO. A Nota de Escopo (NE) serve precisamente para delimitar e esclarecer o significado e o alcance de aplicação prática do descritor naquele sistema documentário."
+  },
+  "m4-q-4": {
+    "item": "No modelo de Processo de Busca de Informação (ISP) proposto por Carol Kuhlthau, os sentimentos de incerteza e ansiedade do usuário declinam linearmente no início da pesquisa, atingindo os níveis mais críticos durante a fase final de apresentação.",
+    "justificativa": "Gabarito ERRADO. O modelo de Kuhlthau comprova o inverso: a incerteza e a ansiedade são mais altas nas fases iniciais (iniciação, seleção e exploração), diminuindo sensivelmente a partir da formulação do foco temático."
+  },
+  "m4-q-8": {
+    "item": "Na tipologia de necessidades de Robert Taylor, a necessidade visceral (Q1) manifesta-se sob a forma de questionamento objetivo em linguagem natural, cabendo ao consulente convertê-la nos termos do catálogo da biblioteca.",
+    "justificativa": "Gabarito ERRADO. A necessidade visceral (Q1) é vaga, subconsciente e inarticulada na mente do usuário; perguntas articuladas em linguagem natural estruturada só surgem no nível formalizado (Q3)."
+  },
+  "m4-q-11": {
+    "item": "A entrevista de referência torna-se desnecessária diante da solicitação verbal de um título específico no balcão de atendimento, considerando-se a busca de item conhecido suficiente para atender à demanda de pesquisa.",
+    "justificativa": "Gabarito ERRADO. Mesmo quando o usuário solicita um título específico, o profissional de referência deve certificar-se de que aquele documento atende ao seu real objetivo informacional."
+  },
+  "m4-q-14": {
+    "item": "No modelo de serviço de referência de Denis Grogan, a formulação inicial apresentada pelo usuário no balcão de consulta coincide com a sua real necessidade de informação, tornando desnecessárias etapas de negociação contextual da pergunta.",
+    "justificativa": "Gabarito ERRADO. Grogan e Taylor apontam que a questão inicial expressa pelo consulente raramente coincide de pronto com a sua real necessidade de informação, demandando entrevista de referência para esclarecer o problema."
+  },
+  "m4-q-15": {
+    "item": "Na teoria do serviço de referência, a perspectiva conservadora orienta o bibliotecário a privilegiar a localização física nas estantes, transferindo ao usuário o domínio e a execução autônoma das ferramentas de pesquisa.",
+    "justificativa": "Gabarito ERRADO. A teoria conservadora (mínima) limita a mediação à indicação física, enquanto as práticas modernas e parlamentares adotam postura liberal ou educativa de mediação ativa e instrução ao usuário."
+  },
+  "m4-q-31": {
+    "item": "A denominação \"literatura cinzenta\" (grey literature) designa obras clássicas em domínio público cujos direitos autorais expiraram e que se encontram reproduzidas em bibliotecas digitais abertas.",
+    "justificativa": "Gabarito ERRADO. Literatura cinzenta compreende documentos não publicados pelos canais comerciais convencionais de edição (relatórios técnicos, teses, atas, normas internas e pré-prints)."
+  },
+  "m4-q-39": {
+    "item": "Os dicionários geográficos (gazetteers) desempenham o mesmo papel dos atlas tradicionais, priorizando pranchas cartográficas vetoriais e dispensando verbetes descritivos textuais de acidentes geográficos.",
+    "justificativa": "Gabarito ERRADO. Gazetteers são dicionários geográficos alfabéticos que descrevem topônimos, coordenadas, história e população em formato textual; atlas reúnem representações cartográficas e mapas."
+  },
+  "m4-q-77": {
+    "item": "O esquema de identificação persistente do portal LexML Brasil estrutura-se em endereços de rede (URLs) dinâmicos vinculados à arquitetura de servidores de cada tribunal, prescindindo do padrão de nomes uniformes de recursos (URNs).",
+    "justificativa": "Gabarito ERRADO. O LexML Brasil adota expressamente o padrão URN Lex (Uniform Resource Name Lex), garantindo identificadores persistentes e independentes da localização física de servidores."
+  },
+  "m4-q-93": {
+    "item": "Na arquitetura de metadados do LexML Brasil, os dispositivos de uma lei formam corpo textual monolítico, inviabilizando a referenciação granular de artigos e parágrafos por identificadores específicos.",
+    "justificativa": "Gabarito ERRADO. A URN Lex permite granularidade normativa minuciosa, possibilitando referenciar e endereçar de modo persistente artigos, parágrafos, incisos e alíneas individuais."
+  },
+  "m5-q-9": {
+    "item": "Na sistemática de desenvolvimento de coleções de Vergueiro, a etapa de aquisição antecede logicamente a definição da política de seleção, viabilizando compras de oportunidade no mercado editorial para moldar o perfil do acervo.",
+    "justificativa": "Gabarito ERRADO. As políticas de seleção e a seleção técnica antecedem a aquisição; adquire-se aquilo que já foi previamente avaliado e selecionado com base nas diretrizes institucionais."
+  },
+  "m5-q-11": {
+    "item": "O descarte e o desbastamento de materiais bibliográficos em órgãos públicos federais configuram infração administrativa ao princípio da indisponibilidade do patrimônio público, impondo a retenção indefinida de volumes deteriorados.",
+    "justificativa": "Gabarito ERRADO. O descarte de materiais obsoletos ou deteriorados é juridicamente legítimo e previsto nas normas de administração patrimonial (Decreto nº 9.373/2018), mediante processo formal de baixa."
+  },
+  "m5-q-14": {
+    "item": "Na avaliação de itens para aquisição, o critério de autoridade refere-se à volumetria e à qualidade gráfica do acabamento editorial da obra, desconsiderando a qualificação científica do autor.",
+    "justificativa": "Gabarito ERRADO. O critério de autoridade afere a reputação científica, formação acadêmica, qualificação técnica e histórico de publicações do autor e da editora."
+  },
+  "m5-q-16": {
+    "item": "O recebimento de materiais por doação de pessoas físicas ou entidades privadas impõe a incorporação direta dos volumes ao acervo patrimonial, afastando a aplicação dos critérios temáticos fixados na política de seleção.",
+    "justificativa": "Gabarito ERRADO. Doações submetem-se aos mesmos critérios de pertinência temática, demanda e estado de conservação definidos na política de seleção da biblioteca."
+  },
+  "m5-q-25": {
+    "item": "A contratação de bases de dados acadêmicas internacionais prescinde da análise de termos de licenciamento de uso, considerando-se os materiais acadêmicos indexados bens de fruição pública no ambiente web.",
+    "justificativa": "Gabarito ERRADO. A aquisição de recursos digitais exige exame minucioso de cláusulas contratuais de licenciamento, limites de acesso simultâneo e direitos de uso da informação."
+  },
+  "m5-q-45": {
+    "item": "A taxa de circulação de uma coleção constitui indicador centrado na coleção física, medindo as características intrínsecas dos itens bibliográficos desvinculadas das condutas efetivas de consulta e empréstimo.",
+    "justificativa": "Gabarito ERRADO. A taxa de circulação é o exemplo clássico de método centrado no uso e no usuário, pois mede o comportamento empírico de empréstimos em relação ao volume do acervo."
+  },
+  "m5-q-69": {
+    "item": "A metodologia do Balanced Scorecard (BSC) aplicada a instituições públicas estabelece o lucro operacional e a rentabilidade do capital investido como vetores orientadores das principais metas estratégicas setoriais.",
+    "justificativa": "Gabarito ERRADO. No setor público, a perspectiva do usuário e do cidadão e a geração de impacto social situam-se no topo do mapa estratégico, equilibrando-se com processos internos e aprendizado."
+  },
+  "m6-q-2": {
+    "item": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais.",
+    "justificativa": "Gabarito ERRADO. Bibliotecas digitais e repositórios institucionais destinam-se à guarda, organização, preservação perene e disseminação em acesso aberto da produção científica, intelectual e institucional."
+  },
+  "m6-q-10": {
+    "item": "A implantação de repositórios digitais em infraestrutura de computação em nuvem afasta a necessidade de protocolos de backup redundantes e testes de restauração de desastres, visto que a arquitetura em nuvem suprime os riscos de corrupção lógica de dados.",
+    "justificativa": "Gabarito ERRADO. Rotinas de backup redundante, auditoria de integridade e planos de contingência constituem requisitos elementares de governança de TI e preservação digital em qualquer repositório confiável."
+  },
+  "m6-q-15": {
+    "item": "Na arquitetura de objetos do DSpace, cada item depositado limita-se ao registro de metadados descritivos em Dublin Core, cabendo a servidores web externos a custódia e entrega dos arquivos digitais primários (bitstreams).",
+    "justificativa": "Gabarito ERRADO. O DSpace foi projetado especificamente para gerenciar tanto os metadados descritivos quanto os arquivos digitais de conteúdo (bitstreams organizados em bundles), como PDFs, áudios e vídeos."
+  },
+  "m6-q-18": {
+    "item": "O sistema DSpace rejeita a aplicação de embargos temporais sobre teses e dissertações, exigindo a disponibilização pública imediata dos arquivos de texto completo no momento da aprovação do depósito.",
+    "justificativa": "Gabarito ERRADO. O DSpace possui funcionalidades nativas flexíveis para gestão de embargos, permitindo liberar os metadados e resguardar o acesso ao arquivo integral até o decurso do prazo pactuado."
+  },
+  "m6-q-49": {
+    "item": "No esquema Dublin Core Simples, o elemento Creator é utilizado para identificar a empresa gráfica responsável pela impressão física e encadernação do suporte material.",
+    "justificativa": "Gabarito ERRADO. O elemento Creator identifica a entidade intelectual primariamente responsável pela criação do conteúdo da obra (autor pessoal ou institucional); a editora ou gráfica é descrita no elemento Publisher."
+  },
+  "m6-q-59": {
+    "item": "A observância dos princípios FAIR na gestão de dados de pesquisa impõe a disponibilização pública imediata dos conjuntos de dados custodiados, impedindo a instituição de salvaguardas de acesso para dados pessoais sensíveis ou segredos industriais.",
+    "justificativa": "Gabarito ERRADO. Os Princípios FAIR orientam-se pela máxima \"tão aberto quanto possível, tão fechado quanto necessário\", autorizando salvaguardas legítimas de acesso para dados sensíveis e segurança."
+  },
+  "m6-q-64": {
+    "item": "Em portais de dados abertos governamentais, a conversão de tabelas de execução orçamentária em imagens matriciais compactadas atende aos requisitos técnicos de abertura, pois assegura a integridade visual dos demonstrativos contábeis.",
+    "justificativa": "Gabarito ERRADO. Diretrizes de dados abertos (W3C e legislação federal) exigem formatos estruturados e legíveis por máquina (como CSV, JSON ou XML); arquivos de imagem não permitem processamento automatizado."
+  },
+  "m7-q-61": {
+    "item": "Na custódia arquivística de documentos digitais, a comprovação de autenticidade afasta a necessidade de cadeia de custódia contínua, autorizando períodos de guarda intermediária em sistemas não auditados sem registro de trilha de eventos.",
+    "justificativa": "Gabarito ERRADO. A cadeia de custódia contínua e a trilha de auditoria documentada constituem a garantia essencial de autenticidade e não adulteração do documento arquivístico desde a produção até a custódia permanente."
+  },
+  "m7-q-62": {
+    "item": "No modelo de referência OAIS, o pacote de informação de arquivamento (AIP) restringe-se ao arquivo binário de conteúdo, cabendo ao pacote de disseminação (DIP) a incorporação dos metadados contextuais de preservação.",
+    "justificativa": "Gabarito ERRADO. O AIP é o pacote mais completo do OAIS, contendo o objeto digital de conteúdo articulado com toda a Informação de Descrição da Preservação (PDI), metadados de representação e dados de empacotamento."
+  },
+  "m7-q-72": {
+    "item": "No modelo OAIS, os papéis de Produtor e de Consumidor convergem para a mesma entidade institucional produtora, cabendo ao arquivo preservar os pacotes para uso interno dos administradores do sistema.",
+    "justificativa": "Gabarito ERRADO. Produtor é o papel de quem submete o conteúdo; Consumidor representa a comunidade de usuários e cidadãos que consultam e recuperam o acervo. São papéis e entidades distintos no modelo."
+  },
+  "m7-q-83": {
+    "item": "No dicionário de dados PREMIS, a entidade Evento limita-se ao registro da cronologia de movimentação física dos servidores de dados, desconsiderando rotinas técnicas como migrações de formato e validações de checksum.",
+    "justificativa": "Gabarito ERRADO. A entidade Evento no PREMIS destina-se a registrar ações técnicas executadas sobre o objeto digital de preservação, tais como ingestão, validação de fixidez, normalização e migração de formatos."
+  },
+  "m7-q-92": {
+    "item": "Em um Repositório Arquivístico Digital Confiável (RDC-Arq), a autenticidade de documentos de valor probatório independe de algoritmos de hash e trilhas de auditoria, fundando-se no carimbo de tempo atribuído pelo sistema operacional no momento da cópia.",
+    "justificativa": "Gabarito ERRADO. A autenticidade no RDC-Arq exige evidências técnicas contínuas de integridade (hashes criptográficos) e de identidade (trilha de proveniência e cadeia de custódia ininterrupta)."
+  },
+  "m7-q-97": {
+    "item": "No modelo conceitual PREMIS 3.0, a entidade Entidade Intelectual corresponde a fluxos de bits elementares e bytes contíguos de um arquivo, diferenciando-se das obras bibliográficas completas como monografias e relatórios.",
+    "justificativa": "Gabarito ERRADO. No PREMIS, a Entidade Intelectual é uma unidade coerente de conteúdo tratada como um todo (como um livro, mapa ou banco de dados), a qual se materializa em Representações, Arquivos e Bitstreams."
+  },
+  "m8-q-8": {
+    "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
+    "justificativa": "Gabarito ERRADO. A ABNT NBR 10520:2023 aboliu o uso de caixa alta dentro dos parênteses. A forma preconizada é em maiúsculas e minúsculas: \"(Silva, 2024)\"."
+  },
+  "m8-q-18": {
+    "item": "Conforme a NBR 10520:2023, a indicação de autoria corporativa de órgãos públicos inserida entre parênteses é redigida em caixa alta integral, a exemplo de \"(MINISTÉRIO DA FAZENDA, 2024)\".",
+    "justificativa": "Gabarito ERRADO. A regra da NBR 10520:2023 aboliu a caixa alta em parênteses tanto para autores pessoais quanto para entidades coletivas governamentais: \"(Ministério da Fazenda, 2024)\"."
+  },
+  "m8-q-19": {
+    "item": "Em citações diretas, o destaque tipográfico de palavras inserido pelo autor do trabalho acadêmico prescinde de menção específica, presumindo-se a ênfase conferida pelo texto fonte original.",
+    "justificativa": "Gabarito ERRADO. Quando o destaque for de iniciativa do autor do trabalho, deve-se acrescentar expressamente a expressão \"grifo nosso\" ou \"grifo próprio\" após a paginação."
+  },
+  "m8-q-26": {
+    "item": "Na referência de uma publicação dotada de subtítulo elaborada conforme a NBR 6023:2018, o destaque tipográfico adotado estende-se simultaneamente ao título e ao subtítulo da obra.",
+    "justificativa": "Gabarito ERRADO. O destaque tipográfico (negrito, itálico ou sublinhado) aplica-se unicamente ao título principal; o subtítulo é grafado em tipo comum redondo."
+  },
+  "m8-q-28": {
+    "item": "Na referência bibliográfica de monografia impressa, quando o local de publicação não puder ser identificado na obra ou em fontes externas de pesquisa, registra-se a expressão \"[s.n.]\" entre colchetes.",
+    "justificativa": "Gabarito ERRADO. Para localidade não identificada utiliza-se \"[S.l.]\" (sine loco); a expressão \"[s.n.]\" (sine nomine) destina-se a editora desconhecida."
+  },
+  "m8-q-29": {
+    "item": "Na referência de capítulo de livro com autoria individual reunido em coletânea (in:), a ênfase tipográfica escolhida recai sobre o título do capítulo específico, mantendo-se o título da obra coletiva em tipo comum.",
+    "justificativa": "Gabarito ERRADO. A ênfase tipográfica escolhida recai sobre o título da obra no todo que sucede a expressão \"In:\", ficando o título do capítulo em texto redondo."
+  },
+  "m8-q-30": {
+    "item": "A ordenação dos elementos na lista de referências elaborada pelo sistema autor-data orienta-se pela data cronológica de lançamento das obras, agrupando as publicações pelo ano de edição.",
+    "justificativa": "Gabarito ERRADO. No sistema autor-data, a lista final de referências é estruturada em ordem alfabética unificada de autores e títulos."
+  },
+  "m8-q-33": {
+    "item": "Na referência de publicação impressa contendo três autores conforme a NBR 6023:2018, convenciona-se registrar o primeiro autor nominado seguido da expressão latina \"et al.\".",
+    "justificativa": "Gabarito ERRADO. Havendo até três autores, indicam-se os três autores nominados, separados por ponto e vírgula na referência; a supressão facultativa com \"et al.\" aplica-se a quatro ou mais autores."
+  },
+  "m8-q-38": {
+    "item": "Na padronização de meses em referências de periódicos segundo a ABNT NBR 6023, o mês de maio é abreviado grafando-se \"m.\" com ponto abreviativo.",
+    "justificativa": "Gabarito ERRADO. Conforme a ABNT, os meses abreviam-se com três letras e ponto (jan., fev., mar.), exceto maio, que se escreve por extenso (\"maio\") por possuir apenas quatro letras."
+  },
+  "m8-q-52": {
+    "item": "O resumo indicativo condensa as conclusões, metodologias e resultados substantivos de uma pesquisa, tornando dispensável a leitura do texto original completo.",
+    "justificativa": "Gabarito ERRADO. O resumo indicativo apenas aponta os tópicos principais tratados sem adentrar em dados e conclusões detalhadas, não substituindo a consulta ao documento original."
+  },
+  "m8-q-59": {
+    "item": "Na numeração progressiva de seções disciplinada pela NBR 6024:2012, o indicativo numérico de cada seção é sucedido por ponto gráfico antes do título, a exemplo de \"1.\", \"1.1.\" e \"1.1.1.\".",
+    "justificativa": "Gabarito ERRADO. Conforme a NBR 6024, não se utiliza ponto após o último algarismo da seção, deixando-se apenas um espaço entre o número e o título."
+  },
+  "m8-q-71": {
+    "item": "No projeto gráfico editorial segundo a ABNT, sumário e índice constituem elementos funcionais equivalentes, situando-se o sumário ao término da publicação estruturado em ordem alfabética de assuntos.",
+    "justificativa": "Gabarito ERRADO. O sumário é elemento pré-textual que reflete a ordem cronológica e linear dos capítulos; o índice (NBR 6034) é pós-textual e organiza termos remissivos em ordem alfabética ou sistemática."
+  },
+  "m8-q-72": {
+    "item": "A ABNT NBR 6028:2021 estabelece que o resumo de monografias e dissertações acadêmicas seja organizado em itens tópicos com marcadores (bullet points), segmentando cada conclusão metodológica.",
+    "justificativa": "Gabarito ERRADO. Conforme a NBR 6028, o resumo acadêmico deve ser redigido em parágrafo único contínuo, em texto corrido e conciso, na terceira pessoa do singular e com verbo na voz ativa."
+  },
+  "m9-q-3": {
+    "item": "O Diretório de Revistas de Acesso Aberto (DOAJ) é um repertório de acesso restrito mantido por editoras comerciais para indexar periódicos híbridos com cobrança de taxas de processamento.",
+    "justificativa": "Gabarito ERRADO. O DOAJ é a principal autoridade global em curadoria independente de periódicos legítimos de acesso aberto revisados por pares, pautado em critérios rigorosos de boas práticas editoriais."
+  },
+  "m9-q-6": {
+    "item": "As diretrizes do Plano S (Plan S) incentivam pesquisadores financiados por recursos públicos a priorizarem a publicação de artigos em periódicos sob modelo de assinatura tradicional fechada, resguardando o ineditismo comercial dos dados.",
+    "justificativa": "Gabarito ERRADO. O Plano S exige que as publicações científicas decorrentes de pesquisas financiadas por agências públicas participantes sejam publicadas em acesso aberto imediato sob licenças abertas."
+  },
+  "m9-q-30": {
+    "item": "A Primeira Lei de Zipf sustenta que o número de citações recebidas por um documento varia de modo inversamente proporcional à antiguidade da edição impressa.",
+    "justificativa": "Gabarito ERRADO. A Primeira Lei de Zipf (1949) relaciona o posto (r) e a frequência (f) de ocorrência de palavras em textos extensos (r × f = C), aplicando-se à linguística quantitativa e recuperação de informação."
+  },
+  "m9-q-38": {
+    "item": "O método de acoplamento bibliográfico e a análise de cocitação operam de forma equivalente, determinando que dois autores sejam considerados cocitados quando suas publicações compartilham a mesma lista de referências citadas.",
+    "justificativa": "Gabarito ERRADO. No acoplamento bibliográfico, a relação é estática (compartilham referências passadas); na cocitação, a relação é dinâmica (são citados conjuntamente por pesquisas posteriores)."
+  },
+  "m9-q-44": {
+    "item": "Na dispersão bibliográfica descrita pela Lei de Bradford, a divisão do corpus em zonas de produtividade decrescente exige a demarcação prévia de centenas de zonas concêntricas homogêneas.",
+    "justificativa": "Gabarito ERRADO. A aplicação prática da Lei de Bradford divide o acervo de periódicos em poucas zonas concêntricas (comumente 3 zonas: núcleo de alta produtividade, zona intermediária e zona periférica de dispersão)."
+  },
+  "m9-q-51": {
+    "item": "A atribuição e a validação do índice h de um pesquisador subordinam-se à homologação discricionária de comitês editoriais de periódicos da área temática.",
+    "justificativa": "Gabarito ERRADO. O índice h de Jorge Hirsch é uma métrica algorítmica objetiva calculada pelo cruzamento do número de artigos publicados com o quantitativo de citações obtidas em bases indexadas."
+  },
+  "m9-q-55": {
+    "item": "O escore métrico de atenção (Altmetric Attention Score) destina-se a quantificar o número acumulado de citações formais recebidas por um artigo em teses acadêmicas de universidades credenciadas.",
+    "justificativa": "Gabarito ERRADO. O Altmetric Attention Score afere a repercussão e as menções digitais de uma publicação em canais sociais na web (redes sociais, notícias, Wikipédia, documentos de políticas públicas e blogs)."
+  },
+  "m9-q-60": {
+    "item": "O índice g proposto por Leo Egghe foi formulado com o propósito de atenuar o impacto de artigos com alto volume de citações, atribuindo teto uniforme ao desempenho do pesquisador.",
+    "justificativa": "Gabarito ERRADO. O índice g foi criado exatamente para valorizar os artigos de alto impacto e citação expressiva que não alteram o índice h, considerando o maior número g de artigos que somam cumulativamente g² citações."
+  },
+  "m9-q-62": {
+    "item": "No sistema de estratificação Qualis Periódicos gerido pela CAPES, o estrato A1 congrega veículos de circulação regional inicial, reservando-se os estratos da classe B aos periódicos de circulação e impacto global.",
+    "justificativa": "Gabarito ERRADO. O estrato A1 representa o nível de excelência máxima internacional no Qualis Periódicos da CAPES."
+  },
+  "m9-q-70": {
+    "item": "O indicador SCImago Journal Rank (SJR) calcula o impacto de periódicos científicos tratando de forma equitativa as citações recebidas, sem diferenciar o prestígio das revistas que originaram a citação.",
+    "justificativa": "Gabarito ERRADO. O algoritmo do SJR fundamenta-se no conceito de transferência de prestígio (PageRank): uma citação oriunda de periódico de alto impacto possui peso expressivamente superior à citação de veículo periférico."
+  },
+  "m9-q-83": {
+    "item": "A atribuição de autoria honorária ou de cortesia ao titular da unidade administrativa configura prática aceita na redação científica caso haja autorização prévia dos pesquisadores que executaram os ensaios de campo.",
+    "justificativa": "Gabarito ERRADO. A autoria de cortesia ou honorária é conduta antiética rechaçada pelas diretrizes internacionais (COPE e ICMJE), exigindo-se contribuição intelectual substancial na concepção, coleta, análise ou redação do estudo."
+  },
+  "m9-q-92": {
+    "item": "A conduta classificada como fabricação de dados consiste em ajustar e arredondar parâmetros estatísticos reais de experimentos realizados para viabilizar sua publicação em revistas indexadas.",
+    "justificativa": "Gabarito ERRADO. Fabricação de dados consiste na criação ou invenção deliberada de dados e resultados fictícios; o arredondamento ou alteração de dados reais configura falsificação."
+  },
+  "m9-q-95": {
+    "item": "Na Recomendação sobre Ciência Aberta da UNESCO, a arquitetura de pilares institucionais contempla a retenção de dados proprietários brutos e o isolamento dos laboratórios universitários em relação a atores sociais e cidadãos.",
+    "justificativa": "Gabarito ERRADO. A Recomendação da UNESCO estrutura-se na abertura do conhecimento científico, infraestruturas abertas, engajamento com atores sociais (ciência cidadã) e diálogo com outros sistemas de conhecimento."
+  },
+  "orgaos-q-012": {
+    "item": "No código AACR2r, as instituições públicas de ensino superior e as empresas públicas estatais têm sua entrada principal subordinada à jurisdição territorial da União, adotando-se formas como \"Brasil. Universidade Federal de Santa Catarina.\" e \"Brasil. Petróleo Brasileiro.\".",
+    "justificativa": "Gabarito ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), universidades públicas, institutos científicos e empresas estatais com personalidades jurídicas próprias entram diretamente sob seu próprio nome institucional: \"Universidade Federal de Santa Catarina.\" e \"Petróleo Brasileiro.\"."
+  },
+  "orgaos-q-016": {
+    "item": "No formato MARC 21 Bibliográfico, o primeiro indicador com valor \"1\" no campo 110 é atribuído quando a entidade coletiva for cadastrada em ordem direta, reservando-se o indicador \"2\" para as entradas subordinadas a jurisdição governamental.",
+    "justificativa": "Gabarito ERRADO. O conceito está invertido: no campo 110 (e no 710), o primeiro indicador \"1\" indica \"Nome sob jurisdição\" (governo/lugar, ex.: \"110 1# $a Brasil.\"); o primeiro indicador \"2\" indica \"Nome em ordem direta\" (ex.: \"110 2# $a Fundação Oswaldo Cruz.\")."
+  },
+  "orgaos-q-018": {
+    "item": "Segundo as orientações do padrão RDA, a formulação de pontos de acesso autorizados para órgãos públicos extinguiu a combinação de jurisdição política com nomes de ministérios e secretarias.",
+    "justificativa": "Gabarito ERRADO. O RDA mantém a formulação de pontos de acesso autorizados que utilizam a jurisdição política como elemento superior de ancoragem para agentes governamentais que exercem funções básicas de soberania estatal."
+  },
+  "orgaos-q-020": {
+    "item": "A regra 24.18 (Tipo 8) do AACR2r preceitua que publicações oficiais que contenham manifestações privativas de Chefes de Estado ou de governo devem ter como cabeçalho autorizado o nome pessoal civil do titular sem indicação do cargo ou da jurisdição territorial.",
+    "justificativa": "Gabarito ERRADO. Pelo Tipo 8 da regra 24.18 do AACR2r, os chefes de Estado e de governo em suas funções oficiais têm ponto de acesso estabelecido sob o nome do governo seguido do título do cargo e dados do mandato. Exemplo: \"Brasil. Presidente (2023- : Lula).\""
+  },
+  "orgaos-q-024": {
+    "item": "A Biblioteca Digital da Câmara dos Deputados (BDCam) opera como intranet restrita a parlamentares e consultores legislativos, impondo barreira de autenticação institucional para consulta aos estudos técnicos e pareceres.",
+    "justificativa": "Gabarito ERRADO. A BDCam é um repositório institucional digital de acesso público e aberto na internet, disponibilizando estudos da Consultoria Legislativa, discursos e publicações institucionais para toda a sociedade."
+  },
+  "orgaos-q-026": {
+    "item": "A coordenação executiva e tecnológica da Rede Virtual de Bibliotecas (RVBI) é exercida pela Diretoria-Geral da Câmara dos Deputados, incumbindo ao Senado Federal a adesão como membro participante secundário.",
+    "justificativa": "Gabarito ERRADO. A coordenação da Rede Virtual de Bibliotecas (RVBI) compete à Secretaria de Biblioteca e Arquivo do Senado Federal; a Câmara dos Deputados é participante de grande relevo, mas a gestão do consórcio cabe ao Senado."
+  },
+  "orgaos-q-030": {
+    "item": "A Biblioteca da Câmara dos Deputados transferiu a custódia permanente de seus manuscritos e livros raros dos séculos XVI a XIX ao Arquivo Nacional, restringindo o acervo da Biblioteca Pedro Aleixo às publicações editadas após a promulgação da Constituição de 1988.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo preserva sob sua guarda no Palácio do Congresso Nacional expressivo acervo de obras raras, incunábulos e anais do Parlamento desde o Império até o período republicano."
+  },
+  "fund-q-103": {
+    "item": "Um Plano de Gestão de Dados (DMP) deve ser formulado após a conclusão e publicação final dos resultados da pesquisa científica, com vistas a registrar os arquivos remanescentes.",
+    "justificativa": "Gabarito ERRADO. O DMP é documento prospectivo que deve ser planejado e redigido antes ou no início do projeto de pesquisa, estabelecendo como os dados serão coletados, tratados, compartilhados e preservados."
+  },
+  "fund-q-115": {
+    "item": "A Lei Geral de Proteção de Dados Pessoais impede que bibliotecas públicas divulguem relatórios com dados estatísticos anonimizados referentes aos termos mais buscados em seus catálogos em linha.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 12 da LGPD, os dados anonimizados não são considerados dados pessoais para os fins da lei, sendo plenamente lícita a sua disponibilização em relatórios estatísticos e bases de dados abertos."
+  },
+  "cat-q-208": {
+    "item": "No dicionário de dados PREMIS, a entidade Direitos (Rights) destina-se ao recolhimento de tarifas aduaneiras e controle de notas fiscais de aquisição de suportes físicos.",
+    "justificativa": "Gabarito ERRADO. A entidade Rights no PREMIS disciplina permissões e restrições legais para a realização de ações técnicas de preservação digital e acesso a objetos digitais custodiados."
+  },
+  "cat-q-212": {
+    "item": "No vocabulário BIBFRAME, a entidade Instância (Instance) expressa a concepção intelectual ou artística pura de um recurso, desvinculada de corporificação editorial ou distribuição física.",
+    "justificativa": "Gabarito ERRADO. A concepção intelectual pura corresponde à entidade Obra (Work); a Instância (Instance) reflete uma corporificação material ou distribuição específica da Obra (como uma edição impressa ou eletrônica)."
+  },
+  "m6-q-208": {
+    "item": "O quantificador asterisco `*` em expressões regulares exige a ocorrência de uma oumais repetições do padrão precedente para que haja correspondência válida no texto analisado.",
+    "justificativa": "Gabarito ERRADO. O quantificador asterisco `*` significa zero oumais ocorrências; quem exige uma oumais ocorrências é o quantificador `+` (mais)."
+  },
+  "m13-q-209": {
+    "item": "A técnica legislativa prevista na Lei Complementar nº 95/1998 determina que a numeração de parágrafos normativos adote a forma ordinal até o décimo nono (§ 19º) e cardinal a partir do vigésimo (§ 20).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 10, III da LC 95/1998, os parágrafos adotam a numeração ordinal do primeiro ao nono (§ 1º ao § 9º) e cardinal a partir do dez (§ 10, § 11 etc.)."
+  },
+  "geral-180q-22": {
+    "item": "Segundo o Text I, os desafios da inteligência artificial concentram-se no consumo energético de servidores e data centers públicos.",
+    "justificativa": "Gabarito ERRADO. O texto aponta expressamente desafios de viés algorítmico, alucinações generativas e violações de direitos autorais (\"Algorithmic bias, generative hallucinations, and copyright infringement\"), sem focar no consumo de energia."
+  },
+  "geral-180q-23": {
+    "item": "O primeiro parágrafo do Text I assume viés crítico alarmista, recomendando o banimento cautelar de ferramentas de inteligência artificial em gabinetes parlamentares.",
+    "justificativa": "Gabarito ERRADO. O parágrafo de abertura ressalta oportunidades positivas de modernização, celeridade processual e recuperação automatizada de precedentes jurídicos."
+  },
+  "geral-180q-25": {
+    "item": "O Text II estabelece que o dever de transparência ativa autoriza a divulgação ampla de prontuários e dados cadastrais de cidadãos atendidos pelo serviço de ouvidoria parlamentar.",
+    "justificativa": "Gabarito ERRADO. O texto enfatiza expressamente que dados sensíveis de cidadãos que recorrem aos serviços de ouvidoria (ombudsman) devem permanecer resguardados contra divulgação desautorizada."
+  },
+  "geral-180q-136": {
+    "item": "Em áreas de exposição de obras raras e documentos gráficos sensíveis, os níveis de iluminância contínua podem situar-se em patamares próximos a 500 lux, prescindindo de filtros de radiação ultravioleta nas luminárias caso as lâmpadas sejam do tipo fluorescente.",
+    "justificativa": "Gabarito ERRADO. Para documentos históricos e tintas sensíveis, as normas internacionais de conservação limitam a iluminância a 50 lux, com bloqueio rigoroso de radiação ultravioleta."
+  },
+  "geral-180q-137": {
+    "item": "As traças dos livros (Lepisma saccharina) caracterizam-se por perfurar galerias cilíndricas profundas na estrutura interna do miolo dos volumes, dispensando a ingestão de amido ou adesivos proteicos de encadernação.",
+    "justificativa": "Gabarito ERRADO. As traças são insetos mastigadores superficiais que atacam colas de amido, dextrina e papéis acetinados, provocando erosões superficiais e bordas rendilhadas; quem cava galerias cilíndricas profundas são as brocas."
+  },
+  "mega-q-26": {
+    "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
+    "justificativa": "Gabarito ERRADO. O conceito está invertido! A Empresa Pública possui capital 100% público e admite qualquer formato societário admitido em direito. A Sociedade de Economia Mista possui capital misto (maioria votante pública e minoritário privado) e deve ser compulsoriamente constituída como Sociedade Anônima (S/A)."
+  },
+  "mega-q-28": {
+    "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
+    "justificativa": "Gabarito ERRADO. Conforme a Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre diretamente dos princípios da impessoalidade e moralidade (art. 37 da CF) e incide de forma cogente sobre todos os Poderes da República, alcançando plenamente o Poder Legislativo."
+  },
+  "geral-180q-9": {
+    "item": "Segundo o Texto I, a adoção da Linguagem Simples nas casas legislativas promove a vulgarização do vernáculo culto e o empobrecimento formal das categorias dogmáticas do Direito.",
+    "justificativa": "Gabarito ERRADO. O texto sustenta expressamente o oposto: simplificar a linguagem não significa empobrecer a língua nem vulgarizar conceitos dogmáticos, mas conferir clareza à comunicação pública."
+  },
+  "geral-180q-35": {
+    "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
+    "justificativa": "Gabarito ERRADO. O conceito está invertido! A Empresa Pública possui capital 100% público e admite qualquer formato societário admitido em direito. A Sociedade de Economia Mista possui capital misto (maioria votante pública e minoritário privado) e deve ser compulsoriamente constituída como Sociedade Anônima (S/A)."
+  },
+  "geral-180q-36": {
+    "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
+    "justificativa": "Gabarito ERRADO. Conforme a Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre diretamente dos princípios da impessoalidade e moralidade (art. 37 da CF) e incide de forma cogente sobre todos os Poderes da República, alcançando plenamente o Poder Legislativo."
+  },
+  "geral-180q-50": {
+    "item": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema corporativo da Microsoft restringem-se ao tráfego de mensagens no Exchange Online, operando de modo desvinculado dos arquivos compartilhados no OneDrive ou das conversas realizadas no Teams.",
+    "justificativa": "Gabarito ERRADO. As políticas de DLP integram múltiplos serviços da plataforma: Exchange, SharePoint, OneDrive, Microsoft Teams e endpoints locais."
+  },
+  "geral-180q-62": {
+    "item": "O princípio monográfico formulado por Paul Otlet estabelece que a preservação e a catalogação dos documentos devem priorizar a integridade do suporte encadernado, de modo que cada tomo constitua a unidade indivisível de análise informacional.",
+    "justificativa": "Gabarito ERRADO. O princípio monográfico de Otlet preconizava exatamente o desmembramento analítico dos temas em fichas padronizadas independentes, separando ideias e dados para recombinação flexível no repertório universal."
+  },
+  "geral-180q-72": {
+    "item": "As regras para catálogo dicionário de Cutter preconizavam a separação física estrita entre os fichários de autor, título e assunto, organizando-os em móveis catalográficos independentes.",
+    "justificativa": "Gabarito ERRADO. O catálogo dicionário formulado por Cutter caracteriza-se precisamente pela reunião e interfilação de autores, títulos e assuntos em uma única sequência alfabética integrada."
+  },
+  "geral-180q-101": {
+    "item": "No modelo de Processo de Busca de Informação (ISP) proposto por Carol Kuhlthau, os sentimentos de incerteza e ansiedade do usuário declinam linearmente no início da pesquisa, atingindo os níveis mais críticos durante a fase final de apresentação.",
+    "justificativa": "Gabarito ERRADO. O modelo de Kuhlthau comprova o inverso: a incerteza e a ansiedade são mais altas nas fases iniciais (iniciação, seleção e exploração), diminuindo sensivelmente a partir da formulação do foco temático."
+  },
+  "geral-180q-126": {
+    "item": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais.",
+    "justificativa": "Gabarito ERRADO. Bibliotecas digitais e repositórios institucionais destinam-se à guarda, organização, preservação perene e disseminação em acesso aberto da produção científica, intelectual e institucional."
+  },
+  "geral-180q-151": {
+    "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
+    "justificativa": "Gabarito ERRADO. A ABNT NBR 10520:2023 aboliu o uso de caixa alta dentro dos parênteses. A forma preconizada é em maiúsculas e minúsculas: \"(Silva, 2024)\"."
+  },
+  "geral-180q-158": {
+    "item": "O Diretório de Revistas de Acesso Aberto (DOAJ) é um repertório de acesso restrito mantido por editoras comerciais para indexar periódicos híbridos com cobrança de taxas de processamento.",
+    "justificativa": "Gabarito ERRADO. O DOAJ é a principal autoridade global em curadoria independente de periódicos legítimos de acesso aberto revisados por pares, pautado em critérios rigorosos de boas práticas editoriais."
+  },
+  "geral-180q-160": {
+    "item": "As diretrizes do Plano S (Plan S) incentivam pesquisadores financiados por recursos públicos a priorizarem a publicação de artigos em periódicos sob modelo de assinatura tradicional fechada, resguardando o ineditismo comercial dos dados.",
+    "justificativa": "Gabarito ERRADO. O Plano S exige que as publicações científicas decorrentes de pesquisas financiadas por agências públicas participantes sejam publicadas em acesso aberto imediato sob licenças abertas."
+  },
+  "geral-180q-171": {
+    "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
+    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88)."
+  },
+  "geral-180q-179": {
+    "item": "As deliberações do Colégio de Líderes possuem natureza vinculante sobre os atos da Presidência da Casa, impedindo o Presidente de incluir na Ordem do Dia matéria objeto de desacordo majoritário entre as lideranças.",
+    "justificativa": "Gabarito ERRADO. A prerrogativa de organizar e designar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados (art. 17, II, \"a\" do RICD), ouvindo o Colégio de Líderes, sem subordinação hierárquica vinculante."
+  },
+  "oficial-180q-002": {
+    "item": "Segundo o Texto I, a adoção da Linguagem Simples nas casas legislativas promove a vulgarização do vernáculo culto e o empobrecimento formal das categorias dogmáticas do Direito.",
+    "justificativa": "Gabarito ERRADO. O texto sustenta expressamente o oposto: simplificar a linguagem não significa empobrecer a língua nem vulgarizar conceitos dogmáticos, mas conferir clareza à comunicação pública."
+  },
+  "oficial-180q-022": {
+    "item": "A assertiva de que a Linguagem Simples flexibiliza o respeito às normas gramaticais de concordância e regência em favor do imediatismo comunicativo alinha-se às teses sustentadas no Texto I.",
+    "justificativa": "Gabarito ERRADO. A Linguagem Simples preconiza a concisão e a clareza textual sem renunciar à correção gramatical e às regras cultas de regência e concordância."
+  },
+  "oficial-180q-044": {
+    "item": "As empresas públicas e as sociedades de economia mista federais distinguem-se quanto ao regime de capital: enquanto a empresa pública admite participação acionária minoritária de entes privados sob a forma de sociedade limitada, a sociedade de economia mista mantém integralidade de capital público estatal estruturada como sociedade anônima.",
+    "justificativa": "Gabarito ERRADO. O conceito está invertido! A Empresa Pública possui capital 100% público e admite qualquer formato societário admitido em direito. A Sociedade de Economia Mista possui capital misto (maioria votante pública e minoritário privado) e deve ser compulsoriamente constituída como Sociedade Anônima (S/A)."
+  },
+  "oficial-180q-046": {
+    "item": "A nomeação para cargos em comissão de assessoramento parlamentar admite a indicação de cônjuge ou parentes consanguíneos até o terceiro grau da autoridade nomeante quando fundamentada na relação de estrita confiança política, haja vista que as vedações ao nepotismo da Súmula Vinculante nº 13 vinculam os órgãos do Poder Executivo.",
+    "justificativa": "Gabarito ERRADO. Conforme a Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre diretamente dos princípios da impessoalidade e moralidade (art. 37 da CF) e incide de forma cogente sobre todos os Poderes da República, alcançando plenamente o Poder Legislativo."
+  },
+  "oficial-180q-066": {
+    "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
+    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88)."
+  },
+  "oficial-180q-074": {
+    "item": "As deliberações do Colégio de Líderes possuem natureza vinculante sobre os atos da Presidência da Casa, impedindo o Presidente de incluir na Ordem do Dia matéria objeto de desacordo majoritário entre as lideranças.",
+    "justificativa": "Gabarito ERRADO. A prerrogativa de organizar e designar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados (art. 17, II, \"a\" do RICD), ouvindo o Colégio de Líderes, sem subordinação hierárquica vinculante."
+  },
+  "oficial-180q-084": {
+    "item": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema corporativo da Microsoft restringem-se ao tráfego de mensagens no Exchange Online, operando de modo desvinculado dos arquivos compartilhados no OneDrive ou das conversas realizadas no Teams.",
+    "justificativa": "Gabarito ERRADO. As políticas de DLP integram múltiplos serviços da plataforma: Exchange, SharePoint, OneDrive, Microsoft Teams e endpoints locais."
+  },
+  "oficial-180q-086": {
+    "item": "A funcionalidade de gravação de reuniões em plataformas colaborativas corporativas autoriza o organizador a realizar a captura audiovisual em segundo plano sem a exibição de indicativos visuais ou alertas aos participantes conectados.",
+    "justificativa": "Gabarito ERRADO. As plataformas corporativas (como o Teams) emitem notificação visual e sonora ostensiva a todos os participantes no momento em que a gravação é acionada."
+  },
+  "oficial-180q-102": {
+    "item": "As regras para catálogo dicionário de Cutter preconizavam a separação física estrita entre os fichários de autor, título e assunto, organizando-os em móveis catalográficos independentes.",
+    "justificativa": "Gabarito ERRADO. O catálogo dicionário formulado por Cutter caracteriza-se precisamente pela reunião e interfilação de autores, títulos e assuntos em uma única sequência alfabética integrada."
+  },
+  "oficial-180q-123": {
+    "item": "No modelo de Processo de Busca de Informação (ISP) proposto por Carol Kuhlthau, os sentimentos de incerteza e ansiedade do usuário declinam linearmente no início da pesquisa, atingindo os níveis mais críticos durante a fase final de apresentação.",
+    "justificativa": "Gabarito ERRADO. O modelo de Kuhlthau comprova o inverso: a incerteza e a ansiedade são mais altas nas fases iniciais (iniciação, seleção e exploração), diminuindo sensivelmente a partir da formulação do foco temático."
+  },
+  "oficial-180q-137": {
+    "item": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais.",
+    "justificativa": "Gabarito ERRADO. Bibliotecas digitais e repositórios institucionais destinam-se à guarda, organização, preservação perene e disseminação em acesso aberto da produção científica, intelectual e institucional."
+  },
+  "oficial-180q-160": {
+    "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
+    "justificativa": "Gabarito ERRADO. A ABNT NBR 10520:2023 aboliu o uso de caixa alta dentro dos parênteses. A forma preconizada é em maiúsculas e minúsculas: \"(Silva, 2024)\"."
+  },
+  "oficial-180q-164": {
+    "item": "O Diretório de Revistas de Acesso Aberto (DOAJ) é um repertório de acesso restrito mantido por editoras comerciais para indexar periódicos híbridos com cobrança de taxas de processamento.",
+    "justificativa": "Gabarito ERRADO. O DOAJ é a principal autoridade global em curadoria independente de periódicos legítimos de acesso aberto revisados por pares, pautado em critérios rigorosos de boas práticas editoriais."
+  },
+  "oficial-180q-168": {
+    "item": "As diretrizes do Plano S (Plan S) incentivam pesquisadores financiados por recursos públicos a priorizarem a publicação de artigos em periódicos sob modelo de assinatura tradicional fechada, resguardando o ineditismo comercial dos dados.",
+    "justificativa": "Gabarito ERRADO. O Plano S exige que as publicações científicas decorrentes de pesquisas financiadas por agências públicas participantes sejam publicadas em acesso aberto imediato sob licenças abertas."
+  }
+}

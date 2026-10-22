@@ -225,10 +225,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.',
     item:
-      'No código AACR2r, as instituições públicas de ensino superior e as empresas públicas estatais devem ter sua entrada principal subordinada obrigatoriamente à jurisdição territorial da União, resultando em formas como "Brasil. Universidade Federal de Santa Catarina." e "Brasil. Petróleo Brasileiro.".',
+      "No código AACR2r, as instituições públicas de ensino superior e as empresas públicas estatais têm sua entrada principal subordinada à jurisdição territorial da União, adotando-se formas como \"Brasil. Universidade Federal de Santa Catarina.\" e \"Brasil. Petróleo Brasileiro.\".",
     gabarito: 'E',
     justificativa:
-      'ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), universidades públicas, institutos científicos, hospitais e empresas estatais com personalidades jurídicas próprias que não se enquadram nas categorias estritas da regra 24.18 entram DIRETAMENTE sob seu próprio nome institucional: "Universidade Federal de Santa Catarina." e "Petróleo Brasileiro.".',
+      "Gabarito ERRADO. Pelo AACR2r (Regras 24.1 e 24.17), universidades públicas, institutos científicos e empresas estatais com personalidades jurídicas próprias entram diretamente sob seu próprio nome institucional: \"Universidade Federal de Santa Catarina.\" e \"Petróleo Brasileiro.\".",
     dificuldade: 'media',
     fonteOriginal: {
           "tipo": "inedita",
@@ -301,10 +301,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.',
     item:
-      'No formato MARC 21 Bibliográfico, o primeiro indicador com valor "1" no campo 110 é utilizado exclusivamente quando a entidade coletiva for cadastrada em ordem direta (como em fundações e empresas privadas), reservando-se o indicador "2" para as entradas sob jurisdição geográfica governamental.',
+      "No formato MARC 21 Bibliográfico, o primeiro indicador com valor \"1\" no campo 110 é atribuído quando a entidade coletiva for cadastrada em ordem direta, reservando-se o indicador \"2\" para as entradas subordinadas a jurisdição governamental.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. A assertiva inverteu exatamente os valores dos indicadores do MARC 21! No campo 110 (e no 710), o primeiro indicador com valor "1" indica "Nome sob jurisdição" (governo/lugar, ex.: "110 1# $a Brasil."). Já o primeiro indicador com valor "2" indica "Nome em ordem direta" (ex.: "110 2# $a Fundação Oswaldo Cruz.").',
+      "Gabarito ERRADO. O conceito está invertido: no campo 110 (e no 710), o primeiro indicador \"1\" indica \"Nome sob jurisdição\" (governo/lugar, ex.: \"110 1# $a Brasil.\"); o primeiro indicador \"2\" indica \"Nome em ordem direta\" (ex.: \"110 2# $a Fundação Oswaldo Cruz.\").",
     dificuldade: 'facil',
     fonteOriginal: {
           "tipo": "inedita",
@@ -339,10 +339,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.',
     item:
-      'Segundo as orientações do padrão RDA (Resource Description and Access), o conceito de cabeçalho principal de autoridade coletiva sob jurisdição foi completamente extinto, sendo vedada a criação de pontos de acesso de agentes coletivos que combinem a jurisdição territorial com o nome de uma agência governamental.',
+      "Segundo as orientações do padrão RDA, a formulação de pontos de acesso autorizados para órgãos públicos extinguiu a combinação de jurisdição política com nomes de ministérios e secretarias.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. O RDA (Capítulo 11) reestruturou conceitualmente as entidades sob o modelo IFLA LRM (Agente Coletivo), mas manteve a possibilidade de formulação de pontos de acesso autorizados que utilizam a jurisdição política como qualificador ou elemento superior de ancoragem para agentes governamentais que exercem soberania básica, harmonizando-se com as práticas consolidadas e o MARC 21.',
+      "Gabarito ERRADO. O RDA mantém a formulação de pontos de acesso autorizados que utilizam a jurisdição política como elemento superior de ancoragem para agentes governamentais que exercem funções básicas de soberania estatal.",
     dificuldade: 'dificil',
     fonteOriginal: {
           "tipo": "inedita",
@@ -377,10 +377,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'A respeito da catalogação de entidades governamentais segundo o AACR2r e o padrão RDA, julgue o item a seguir.',
     item:
-      'A regra 24.18 (Tipo 8) do AACR2r preceitua que publicações oficiais que contenham manifestações privativas de Chefes de Estado ou de governo devem ter como cabeçalho autorizado exclusivamente o nome pessoal do titular, sendo proibido incluir o título do cargo ou o nome da jurisdição territorial no ponto de acesso principal.',
+      "A regra 24.18 (Tipo 8) do AACR2r preceitua que publicações oficiais que contenham manifestações privativas de Chefes de Estado ou de governo devem ter como cabeçalho autorizado o nome pessoal civil do titular sem indicação do cargo ou da jurisdição territorial.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. Pelo Tipo 8 da regra AACR2 24.18, os chefes de Estado e de governo em suas funções oficiais têm ponto de acesso estabelecido sob o nome do governo seguido do título do cargo e, entre parênteses, dos anos de mandato e nome do titular. Exemplo: "Brasil. Presidente (2023- : Lula)." e não o nome puramente pessoal do indivíduo.',
+      "Gabarito ERRADO. Pelo Tipo 8 da regra 24.18 do AACR2r, os chefes de Estado e de governo em suas funções oficiais têm ponto de acesso estabelecido sob o nome do governo seguido do título do cargo e dados do mandato. Exemplo: \"Brasil. Presidente (2023- : Lula).\"",
     dificuldade: 'media',
     fonteOriginal: {
           "tipo": "inedita",
@@ -457,10 +457,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.',
     item:
-      'A Biblioteca Digital da Câmara dos Deputados (BDCam) opera exclusivamente como uma intranet restrita aos servidores e parlamentares da Casa, sendo vedado o acesso público pela internet por força de sigilo documental imposto pela Lei de Acesso à Informação.',
+      "A Biblioteca Digital da Câmara dos Deputados (BDCam) opera como intranet restrita a parlamentares e consultores legislativos, impondo barreira de autenticação institucional para consulta aos estudos técnicos e pareceres.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. A BDCam é um repositório institucional digital de acesso público e aberto (Open Access) na internet. Disponibiliza para qualquer cidadão estudos da Consultoria Legislativa, discursos históricos, obras raras digitalizadas e publicações das Edições Câmara, cumprindo o princípio republicano da transparência ativa.',
+      "Gabarito ERRADO. A BDCam é um repositório institucional digital de acesso público e aberto na internet, disponibilizando estudos da Consultoria Legislativa, discursos e publicações institucionais para toda a sociedade.",
     dificuldade: 'facil',
     fonteOriginal: {
           "tipo": "inedita",
@@ -495,10 +495,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.',
     item:
-      'A coordenação executiva e tecnológica da Rede Virtual de Bibliotecas (RVBI) é de responsabilidade institucional exclusiva da Diretoria-Geral da Câmara dos Deputados, cabendo ao Senado Federal atuar unicamente como usuário consultante da base.',
+      "A coordenação executiva e tecnológica da Rede Virtual de Bibliotecas (RVBI) é exercida pela Diretoria-Geral da Câmara dos Deputados, incumbindo ao Senado Federal a adesão como membro participante secundário.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. A coordenação da Rede Virtual de Bibliotecas (RVBI) compete à Secretaria de Biblioteca e Arquivo do SENADO FEDERAL (e não à Câmara dos Deputados). A Câmara dos Deputados é participante cooperante de grande relevo na rede, mas a gestão do consórcio e da base central unificada cabe ao Senado Federal.',
+      "Gabarito ERRADO. A coordenação da Rede Virtual de Bibliotecas (RVBI) compete à Secretaria de Biblioteca e Arquivo do Senado Federal; a Câmara dos Deputados é participante de grande relevo, mas a gestão do consórcio cabe ao Senado.",
     dificuldade: 'media',
     fonteOriginal: {
           "tipo": "inedita",
@@ -571,10 +571,10 @@ export const simuladoOrgaosGov30Q: CebraspeQuestion[] = [
     contexto:
       'Acerca da história, funções institucionais e sistemas de informação da Biblioteca da Câmara dos Deputados (Biblioteca Pedro Aleixo), julgue o item a seguir.',
     item:
-      'Por força de determinação regimental aprovada na mudança para Brasília em 1960, todo o acervo histórico de obras raras e documentos anteriores a 1930 da Biblioteca da Câmara foi permanentemente doado ao Arquivo Nacional, de modo que a Casa preserva exclusivamente publicações posteriores a 1988.',
+      "A Biblioteca da Câmara dos Deputados transferiu a custódia permanente de seus manuscritos e livros raros dos séculos XVI a XIX ao Arquivo Nacional, restringindo o acervo da Biblioteca Pedro Aleixo às publicações editadas após a promulgação da Constituição de 1988.",
     gabarito: 'E',
     justificativa:
-      'ERRADO. A Biblioteca Pedro Aleixo transferiu e preserva com extremo zelo sob sua guarda no Palácio do Congresso Nacional uma das mais importantes coleções de obras raras do país, incluindo documentos dos séculos XVI a XIX, anais do parlamento do Império e da Primeira República, cartas e incunábulos, os quais continuam no acervo próprio da Casa.',
+      "Gabarito ERRADO. A Biblioteca Pedro Aleixo preserva sob sua guarda no Palácio do Congresso Nacional expressivo acervo de obras raras, incunábulos e anais do Parlamento desde o Império até o período republicano.",
     dificuldade: 'facil',
     fonteOriginal: {
           "tipo": "inedita",

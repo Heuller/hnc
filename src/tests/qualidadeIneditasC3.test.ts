@@ -1,5 +1,12 @@
 import { describe, it, expect } from 'vitest';
-import { PALAVRAS_ABSOLUTAS, contemPalavraAbsoluta, extrairPalavrasAbsolutas } from '../config/palavrasAbsolutas';
+import {
+  PALAVRAS_ABSOLUTAS,
+  PALAVRAS_ABSOLUTAS_ESTRITAS,
+  PALAVRAS_ABSOLUTAS_AMBIGUAS,
+  calcularPesoItemAbsoluto,
+  contemPalavraAbsoluta,
+  extrairPalavrasAbsolutas,
+} from '../config/palavrasAbsolutas';
 import { simuladoPreservacao100Q } from '../content/questions/m7-preservacao-100q';
 import { simuladoOficialCamara180Q } from '../content/questions/simulado-oficial-camara-180q';
 
@@ -68,24 +75,29 @@ describe('C3 — Qualidade de Itens Inéditos e Eliminação de Distratores Cari
   const ineditas = todasQuestoes.filter((q) => q.tipo === 'inedita');
 
   describe('1. Controle de Palavras Absolutas nas Questões Inéditas', () => {
-    it('a lista de PALAVRAS_ABSOLUTAS está definida e cobre termos categóricos canônicos', () => {
+    it('a lista de PALAVRAS_ABSOLUTAS está definida com 24 termos completos e 3 termos ambíguos (C9)', () => {
       expect(PALAVRAS_ABSOLUTAS).toBeDefined();
-      expect(PALAVRAS_ABSOLUTAS.length).toBeGreaterThanOrEqual(10);
-      expect(PALAVRAS_ABSOLUTAS).toContain('apenas');
-      expect(PALAVRAS_ABSOLUTAS).toContain('somente');
+      expect(PALAVRAS_ABSOLUTAS.length).toBe(24);
+      expect(PALAVRAS_ABSOLUTAS_ESTRITAS.length).toBe(21);
+      expect(PALAVRAS_ABSOLUTAS_AMBIGUAS).toEqual(['qualquer', 'todos', 'todas']);
+      expect(PALAVRAS_ABSOLUTAS).toContain('exclusivamente');
+      expect(PALAVRAS_ABSOLUTAS).toContain('dispensa');
+      expect(PALAVRAS_ABSOLUTAS).toContain('vedada');
+
+
     });
 
-    it('o banco de questões inéditas deve conter no máximo 12% de itens com termos absolutos', () => {
+    it('o banco de questões inéditas deve conter no máximo 12% na taxa ponderada com a lista completa (C9)', () => {
       expect(ineditas.length).toBeGreaterThan(1000);
 
-      const comAbsoluto = ineditas.filter((q) => contemPalavraAbsoluta(q.item));
-      const pctAbsolutos = (comAbsoluto.length / ineditas.length) * 100;
+      const scorePonderado = ineditas.reduce((acc, q) => acc + calcularPesoItemAbsoluto(q.item), 0);
+      const taxaPonderada = (scorePonderado / ineditas.length) * 100;
 
       // Meta estipulada no C3: <= 12%
-      expect(pctAbsolutos).toBeLessThanOrEqual(12);
+      expect(taxaPonderada).toBeLessThanOrEqual(12);
     });
 
-    it('dos itens inéditos contendo palavras absolutas, no mínimo 40% devem possuir gabarito Certo', () => {
+    it('dos itens inéditos contendo palavras absolutas, no mínimo 40% devem possuir gabarito Certo (C9)', () => {
       const comAbsoluto = ineditas.filter((q) => contemPalavraAbsoluta(q.item));
       expect(comAbsoluto.length).toBeGreaterThan(0);
 

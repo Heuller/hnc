@@ -1,7 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import ts from 'typescript';
-import { PALAVRAS_ABSOLUTAS, REGEX_PALAVRAS_ABSOLUTAS } from '../src/config/palavrasAbsolutas.ts';
+import {
+  PALAVRAS_ABSOLUTAS_ESTRITAS,
+  PALAVRAS_ABSOLUTAS_AMBIGUAS,
+  PALAVRAS_ABSOLUTAS,
+  REGEX_PALAVRAS_ABSOLUTAS,
+  calcularPesoItemAbsoluto,
+  contemPalavraAbsoluta,
+  extrairPalavrasAbsolutas,
+} from '../src/config/palavrasAbsolutas.ts';
 
 function carregarQuestoes() {
   const dir = 'src/content/questions';
@@ -38,7 +46,7 @@ function carregarQuestoes() {
         }
 
         if (id && item && gabarito && !map.has(id)) {
-          map.set(id, { id, item, gabarito, tipo });
+          map.set(id, { id, file, item, gabarito, tipo });
         }
       }
       ts.forEachChild(node, visit);
@@ -52,33 +60,59 @@ function carregarQuestoes() {
 const questoes = carregarQuestoes();
 const ineditas = questoes.filter((q) => q.tipo === 'inedita');
 const reais = questoes.filter((q) => q.tipo === 'real-confirmada');
+const adaptadas = questoes.filter((q) => q.tipo === 'adaptada');
+const emConferencia = questoes.filter((q) => q.tipo === 'em-conferencia');
 
 console.log('========================================================================');
-console.log('RELATÓRIO DE AUDITORIA C3 — PALAVRAS ABSOLUTAS E DISTRATORES INÉDITOS');
+console.log('RELATÓRIO DE AUDITORIA C9 — MEDIÇÃO COM LISTA COMPLETA DE ABSOLUTOS');
 console.log('========================================================================');
 console.log(`Total de Questões Únicas no Banco: ${questoes.length}`);
-console.log(`Total de Questões Inéditas:        ${ineditas.length}`);
-console.log(`Total de Questões Reais:           ${reais.length}`);
+console.log(`• Inéditas:        ${ineditas.length}`);
+console.log(`• Adaptadas:       ${adaptadas.length}`);
+console.log(`• Reais Confirmadas: ${reais.length}`);
+console.log(`• Em Conferência:  ${emConferencia.length}`);
 console.log('------------------------------------------------------------------------');
-console.log('LISTA CANÔNICA EM src/config/palavrasAbsolutas.ts:');
-console.log(PALAVRAS_ABSOLUTAS.join(', '));
+console.log(`LISTA COMPLETA DE TERMOS (${PALAVRAS_ABSOLUTAS.length} termos):`);
+console.log(`- Estritos (peso 1.0, ${PALAVRAS_ABSOLUTAS_ESTRITAS.length} termos): ${PALAVRAS_ABSOLUTAS_ESTRITAS.join(', ')}`);
+console.log(`- Ambíguos (peso 0.5, ${PALAVRAS_ABSOLUTAS_AMBIGUAS.length} termos): ${PALAVRAS_ABSOLUTAS_AMBIGUAS.join(', ')}`);
 console.log('------------------------------------------------------------------------');
 
-const comAbsoluto = ineditas.filter((q) => REGEX_PALAVRAS_ABSOLUTAS.test(q.item));
-const certos = comAbsoluto.filter((q) => q.gabarito === 'C');
-const errados = comAbsoluto.filter((q) => q.gabarito === 'E');
+let totalScorePonderado = 0;
+const itensComAbsoluto = [];
 
-const pctTotal = ((comAbsoluto.length / ineditas.length) * 100).toFixed(2);
-const pctCertos = ((certos.length / comAbsoluto.length) * 100).toFixed(2);
-const pctErrados = ((errados.length / comAbsoluto.length) * 100).toFixed(2);
+for (const q of ineditas) {
+  const peso = calcularPesoItemAbsoluto(q.item);
+  if (peso > 0) {
+    totalScorePonderado += peso;
+    itensComAbsoluto.push({
+      ...q,
+      peso,
+      palavras: extrairPalavrasAbsolutas(q.item),
+    });
+  }
+}
 
-console.log('MÉTRICAS ATUAIS (PÓS-APLICAÇÃO C3):');
-console.log(`• Itens Inéditos com Termo Absoluto: ${comAbsoluto.length} de ${ineditas.length} (${pctTotal}%) [Limite C3: <= 12%]`);
-console.log(`• Gabarito Certo entre Absolutos:   ${certos.length} (${pctCertos}%) [Meta C3: >= 40%]`);
-console.log(`• Gabarito Errado entre Absolutos:  ${errados.length} (${pctErrados}%)`);
+const taxaPonderada = (totalScorePonderado / ineditas.length) * 100;
+const certos = itensComAbsoluto.filter((q) => q.gabarito === 'C');
+const errados = itensComAbsoluto.filter((q) => q.gabarito === 'E');
+const pctCertos = (certos.length / itensComAbsoluto.length) * 100;
+const pctErrados = (errados.length / itensComAbsoluto.length) * 100;
+
+console.log('MÉTRICAS MEDIDAS COM A LISTA COMPLETA (PÓS-APLICAÇÃO C9):');
+console.log(`• Taxa Ponderada de Absolutos:      ${taxaPonderada.toFixed(2)}% (Score: ${totalScorePonderado} / ${ineditas.length}) [Meta C9: <= 12%]`);
+console.log(`• Itens Inéditos com Termo Absoluto: ${itensComAbsoluto.length} de ${ineditas.length} (${((itensComAbsoluto.length / ineditas.length) * 100).toFixed(2)}% bruto)`);
+console.log(`• Gabarito Certo entre Absolutos:   ${certos.length} (${pctCertos.toFixed(2)}%) [Meta C9: >= 40%]`);
+console.log(`• Gabarito Errado entre Absolutos:  ${errados.length} (${pctErrados.toFixed(2)}%)`);
 console.log('------------------------------------------------------------------------');
-console.log('COMPARAÇÃO ANTES vs DEPOIS:');
-console.log('• Linha de base da Auditoria inicial: 21% de absolutos nas inéditas (com 77% Errado e 23% Certo)');
-console.log(`• Estado Atual (Pós C1 e C3):         ${pctTotal}% de absolutos nas inéditas (com ${pctCertos}% Certo e ${pctErrados}% Errado)`);
-console.log('• Distratores do M7 reescritos:      6 itens (m7-q-69, 73, 76, 84, 90, 93) convertidos de caricatos para substituição verossímil.');
+console.log('COMPARAÇÃO ANTES vs DEPOIS (PROMPT C9):');
+console.log('• Antes de C9:  Taxa ponderada = 18.67% (Score 312), Gabarito Certo = 22.75% (91 C / 309 E)');
+console.log(`• Depois de C9: Taxa ponderada = ${taxaPonderada.toFixed(2)}% (Score ${totalScorePonderado}), Gabarito Certo = ${pctCertos.toFixed(2)}% (${certos.length} C / ${errados.length} E)`);
+console.log('• Itens com "exclusivamente", "dispensa" e "vedada" reescritos para conceitos plausíveis.');
 console.log('========================================================================');
+
+if (taxaPonderada <= 12 && pctCertos >= 40) {
+  console.log('✅ AUDITORIA CONCLUÍDA: Todos os critérios de aceite do Prompt C9 foram cumpridos!');
+} else {
+  console.error('❌ FALHA: Metas do Prompt C9 não atingidas.');
+  process.exit(1);
+}
