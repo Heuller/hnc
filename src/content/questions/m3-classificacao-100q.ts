@@ -47,14 +47,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1204"
+        "origemAcervoLocal": "cespe-cad-1204"
       }
   },
   {
@@ -103,14 +103,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "CNJ/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1118"
+        "origemAcervoLocal": "cespe-cad-1118"
       }
   },
   {
@@ -125,14 +125,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1213"
+        "origemAcervoLocal": "cespe-cad-1213"
       }
   },
   {
@@ -147,14 +147,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1209"
+        "origemAcervoLocal": "cespe-cad-1209"
       }
   },
   {
@@ -203,14 +203,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1210"
+        "origemAcervoLocal": "cespe-cad-1210"
       }
   },
   {
@@ -242,14 +242,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1199"
+        "origemAcervoLocal": "cespe-cad-1199"
       }
   },
   {
@@ -315,14 +315,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1203"
+        "origemAcervoLocal": "cespe-cad-1203"
       }
   },
   {
@@ -354,14 +354,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1211"
+        "origemAcervoLocal": "cespe-cad-1211"
       }
   },
   {
@@ -415,14 +415,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1201"
+        "origemAcervoLocal": "cespe-cad-1201"
       }
   },
   {
@@ -459,14 +459,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1205"
+        "origemAcervoLocal": "cespe-cad-1205"
       }
   },
   {
@@ -537,14 +537,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1116"
+        "origemAcervoLocal": "cespe-cad-1116"
       }
   },
   {
@@ -559,14 +559,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1098"
+        "origemAcervoLocal": "cespe-cad-1098"
       }
   },
   {
@@ -620,14 +620,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436526",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436526",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436526"
+      }
   },
   {
     "id": "m3-q-33",
@@ -760,14 +761,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-180970",
-      "ano": 2012,
-      "orgao": "TJ RR",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / TJ RR / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-180970",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "180970"
+      }
   },
   {
     "id": "m3-q-41",
@@ -798,14 +800,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TCDF/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TC DF / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-369843",
-      "ano": 2014,
-      "orgao": "TC DF",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-369843",
+        "ano": 2014,
+        "orgao": "TC DF",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1077"
+      }
   },
   {
     "id": "m3-q-43",
@@ -819,14 +822,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1111"
+        "origemAcervoLocal": "cespe-cad-1111"
       }
   },
   {
@@ -858,14 +861,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1112"
+        "origemAcervoLocal": "cespe-cad-1112"
       }
   },
   {
@@ -897,14 +900,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1115"
+        "origemAcervoLocal": "cespe-cad-1115"
       }
   },
   {
@@ -941,14 +944,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "STM/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1107"
+        "origemAcervoLocal": "cespe-cad-1107"
       }
   },
   {
@@ -1019,14 +1022,14 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "SEDUC-AM/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-929"
+        "origemAcervoLocal": "cespe-cad-929"
       }
   },
   {
@@ -1054,18 +1057,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O resumo deve ser redigido utilizando-se o verbo na voz passiva.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-939"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-939",
+        "declaracaoLegada": "Cebraspe / 2014 / 2014"
       }
   },
   {
@@ -1283,18 +1283,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A linguagem de indexação é um tipo de linguagem documentária que permite a representação do conteúdo dos documentos e das consultas de forma analítica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-930"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-930",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -1305,18 +1302,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A análise conceitual e a tradução são as principais etapas da indexação de assuntos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-932"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-932",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -1327,18 +1321,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "O resumo consiste em uma representação sucinta, porém nem sempre exata, do conteúdo de um documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-925"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-925",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1573,18 +1564,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A prática do indexador, associada ao conhecimento das demandas e necessidades de informação dos usuários, é um procedimento utilizado para agiliza r o trabalho de análise document á- ria.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-933"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-933",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -1595,18 +1583,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "Por meio da ferramenta de mineração de textos é possível realizar a sumarização de um conjunto de documentos em agrupamentos e apresentá -los sob a forma de gráficos indicativos das relações semânticas dos termos que os compõem.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104044",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / STJ / 2012"
+      }
   },
   {
     "id": "m3-q-84",
@@ -1633,18 +1618,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A cobertura do índice deve abranger todo o documento, inclusive as notas, os apêndices e os anexos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-938"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-938",
+        "declaracaoLegada": "Cebraspe / 2014 / 2014"
       }
   },
   {
@@ -1694,18 +1676,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A indicação textual do índice deve ser específica, como, por exemplo, índice de assunt os ou índice onomástico.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-940"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-940",
+        "declaracaoLegada": "Cebraspe / 2014 / 2014"
       }
   },
   {
@@ -1811,18 +1790,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O índice pode complementar informações não expressas no documento",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-941"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-941",
+        "declaracaoLegada": "Cebraspe / 2014 / 2014"
       }
   },
   {
@@ -1906,18 +1882,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "Um indexador tem a capacidade de atribuir termos a um documento mesmo que estes não estejam previstos em um vocabulário controlado.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-931"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-931",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {

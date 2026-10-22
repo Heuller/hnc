@@ -13,14 +13,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / BASA / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-1303091",
-      "ano": 2012,
-      "orgao": "BASA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / BASA / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-1303091",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "1303091"
+      }
   },
   {
     "id": "mega-q-2",
@@ -34,14 +35,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-683"
+        "origemAcervoLocal": "cespe-cad-683"
       }
   },
   {
@@ -56,14 +57,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-837"
+        "origemAcervoLocal": "cespe-cad-837"
       }
   },
   {
@@ -78,14 +79,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STF/2008: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2008 / 2008",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
         "verificado": true,
         "provaId": "STF/2008",
         "ano": 2008,
         "orgao": "2008",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-697"
+        "origemAcervoLocal": "cespe-cad-697"
       }
   },
   {
@@ -100,14 +101,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2017 / 2017",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
         "verificado": true,
         "provaId": "ABIN/2017",
         "ano": 2017,
         "orgao": "2017",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1135"
+        "origemAcervoLocal": "cespe-cad-1135"
       }
   },
   {
@@ -144,14 +145,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2017 / 2017",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
         "verificado": true,
         "provaId": "ABIN/2017",
         "ano": 2017,
         "orgao": "2017",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1136"
+        "origemAcervoLocal": "cespe-cad-1136"
       }
   },
   {
@@ -166,14 +167,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2017 / 2017",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
         "verificado": true,
         "provaId": "ABIN/2017",
         "ano": 2017,
         "orgao": "2017",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1134"
+        "origemAcervoLocal": "cespe-cad-1134"
       }
   },
   {
@@ -188,14 +189,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2017 / 2017",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
         "verificado": true,
         "provaId": "ABIN/2017",
         "ano": 2017,
         "orgao": "2017",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1137"
+        "origemAcervoLocal": "cespe-cad-1137"
       }
   },
   {
@@ -210,14 +211,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1202"
+        "origemAcervoLocal": "cespe-cad-1202"
       }
   },
   {
@@ -235,13 +236,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / Câmara dos Deputados / 2014",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2348"
+        "origemAcervoLocal": "cespe-tec-2348",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -259,13 +260,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / Câmara dos Deputados / 2012",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2349"
+        "origemAcervoLocal": "cespe-tec-2349",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -287,9 +288,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2350",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
+        "origemAcervoLocal": "cespe-tec-2350",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -311,9 +312,9 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2353",
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
+        "origemAcervoLocal": "cespe-tec-2353",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -331,13 +332,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / Câmara dos Deputados / 2012",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2351"
+        "origemAcervoLocal": "cespe-tec-2351",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -372,14 +373,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2352"
+        "origemAcervoLocal": "cespe-tec-2352"
       }
   },
   {
@@ -397,13 +398,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / Câmara dos Deputados / 2014",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2358"
+        "origemAcervoLocal": "cespe-tec-2358",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -418,14 +419,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2354"
+        "origemAcervoLocal": "cespe-tec-2354"
       }
   },
   {
@@ -443,13 +444,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / Câmara dos Deputados / 2014",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2359"
+        "origemAcervoLocal": "cespe-tec-2359",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -688,14 +689,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
         "verificado": true,
         "provaId": "SUFRAMA/2014",
         "ano": 2014,
         "orgao": "2014",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-630"
+        "origemAcervoLocal": "cespe-cad-630"
       }
   },
   {
@@ -710,14 +711,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SUFRAMA/2014: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
         "verificado": true,
         "provaId": "SUFRAMA/2014",
         "ano": 2014,
         "orgao": "2014",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-628"
+        "origemAcervoLocal": "cespe-cad-628"
       }
   },
   {
@@ -732,14 +733,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CADE/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2014 / 2014",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
         "verificado": true,
         "provaId": "CADE/2014",
         "ano": 2014,
         "orgao": "2014",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1567"
+        "origemAcervoLocal": "cespe-cad-1567"
       }
   },
   {
@@ -754,14 +755,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "MPU/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1616"
+        "origemAcervoLocal": "cespe-cad-1616"
       }
   },
   {
@@ -772,18 +773,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "O GreenStone é uma ferramenta volt ada para a construção de bibliotecas digitais e seu uso depende da criação e manutenção de um banco de dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso MPU/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M14 (TI e Dados).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso MPU/2013.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
-        "verificado": true,
-        "provaId": "MPU/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1617"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-1617",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013"
       }
   },
   {
@@ -845,13 +843,13 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
         "tipo": "em-conferencia",
         "descricao": "Cebraspe / PC DF / 2025",
         "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
         "provaId": "GAAPC (PC DF)/PC DF/Analista de Informática/Banco de Dados/2025",
         "ano": 2025,
         "orgao": "PC DF",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2298"
+        "origemAcervoLocal": "cespe-tec-2298",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
       }
   },
   {
@@ -906,18 +904,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso CAPES/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Fundamentos da Biblioteconomia.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CAPES/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "CAPES/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-5"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-5",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1020,14 +1015,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-180933",
-      "ano": 2012,
-      "orgao": "TJ RR",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / TJ RR / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-180933",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "180933"
+      }
   },
   {
     "id": "mega-q-49",
@@ -1169,18 +1165,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos à biblioteconomia e à ciência da informação.",
     "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à catalogação e ao atendimento ao cliente, deve -se basear em so ftwares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso BASA/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Catalogação e Metadados.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "BASA/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-92"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-92",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1239,14 +1232,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-121"
+        "origemAcervoLocal": "cespe-cad-121"
       }
   },
   {
@@ -1283,14 +1276,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-155"
+        "origemAcervoLocal": "cespe-cad-155"
       }
   },
   {
@@ -1327,14 +1320,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436526",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436526",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436526"
+      }
   },
   {
     "id": "mega-q-63",
@@ -1366,18 +1360,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "As tabelas auxiliares da CDU são de uso obrigatório, são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc umento.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ANTT/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1116"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-1116",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013"
       }
   },
   {
@@ -1388,18 +1379,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "Os processos de indexação e de recuperação da informação demandam uso adequado da lingu agem documentária.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Recuperação da Informação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "TJ-RR/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-7"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-7",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1436,14 +1424,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-180935",
-      "ano": 2012,
-      "orgao": "TJ RR",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / TJ RR / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-180935",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "180935"
+      }
   },
   {
     "id": "mega-q-68",
@@ -1523,14 +1512,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-156"
+        "origemAcervoLocal": "cespe-cad-156"
       }
   },
   {
@@ -1545,14 +1534,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-150"
+        "origemAcervoLocal": "cespe-cad-150"
       }
   },
   {
@@ -1563,18 +1552,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Em relação às noções de bibliometria, julgue os itens subsequentes.",
     "item": "A lei de Bradford trata sobre a produtividade dos periódicos e auxilia no planejamento de desca rte.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso FUB/2013 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Gestão de Unidades e Coleções.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-137"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-137",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013"
       }
   },
   {
@@ -1611,14 +1597,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-226"
+        "origemAcervoLocal": "cespe-cad-226"
       }
   },
   {
@@ -1655,14 +1641,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-227"
+        "origemAcervoLocal": "cespe-cad-227"
       }
   },
   {
@@ -1677,14 +1663,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-230"
+        "origemAcervoLocal": "cespe-cad-230"
       }
   },
   {
@@ -1809,14 +1795,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEE-DF/2016: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "SEE-DF/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-699"
+        "origemAcervoLocal": "cespe-cad-699"
       }
   },
   {
@@ -1854,14 +1840,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-892"
+        "origemAcervoLocal": "cespe-cad-892"
       }
   },
   {
@@ -1876,14 +1862,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2012",
         "ano": 2012,
         "orgao": "2012",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-604"
+        "origemAcervoLocal": "cespe-cad-604"
       }
   },
   {
@@ -1916,18 +1902,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, relativos aos conceitos básicos e às finalidades",
     "item": "Priorizar a preservação das informações em detrimento do acesso a ela constitui uma das barre iras ao pleno desenvolvimento dos serviços de informação nas bibliotecas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SEDUC-AM/2011 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Preservação e Conservação.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEDUC-AM/2011.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-95"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-95",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -1964,14 +1947,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165484",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165484",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165484"
+      }
   },
   {
     "id": "mega-q-92",
@@ -1981,18 +1965,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Considerando os conceitos básicos e as finalidades da documentação, julgue",
     "item": "A doação de material bibliográfico pela comunida de constitui uma das formas mais comuns de captação de material para a formação de coleções que propiciam a preservação da herança cu ltural de um país.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso SEDUC-AM/2011 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-36"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-36",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -2007,14 +1988,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEDUC-AM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "SEDUC-AM/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-548"
+        "origemAcervoLocal": "cespe-cad-548"
       }
   },
   {
@@ -2051,14 +2032,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1563"
+        "origemAcervoLocal": "cespe-cad-1563"
       }
   },
   {
@@ -2073,14 +2054,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2011: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-492"
+        "origemAcervoLocal": "cespe-cad-492"
       }
   },
   {
@@ -2095,14 +2076,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ECT/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "ECT/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-490"
+        "origemAcervoLocal": "cespe-cad-490"
       }
   },
   {
@@ -2113,18 +2094,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos conceitos básicos da documentação, julgue os itens.",
     "item": "Os serviços de indexação e resumos definem o conjunto de títulos de periódicos a serem analis ados segundo a lei da dispersão da literatura, segundo a qual os artigos de interesse para determ inado assunto específico ocorrem em periódicos especializados nesse assunto ou em periódicos de áreas correlatas",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TRT21/2010 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-41"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-41",
+        "declaracaoLegada": "Cebraspe / 2010 / 2010"
       }
   },
   {
@@ -2161,14 +2139,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STF/2008: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2008 / 2008",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
         "verificado": true,
         "provaId": "STF/2008",
         "ano": 2008,
         "orgao": "2008",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-501"
+        "origemAcervoLocal": "cespe-cad-501"
       }
   },
   {
@@ -2183,14 +2161,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "STM/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-560"
+        "origemAcervoLocal": "cespe-cad-560"
       }
   },
   {
@@ -2201,18 +2179,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao uso dos suportes informacionais e das fontes de informação, julgue os",
     "item": "São consideradas fontes terciár ias, as que mostram a participação de outro autor ou produtor, tais como as bibliografias, os dicionários, as enciclopédias, as publicações ou periódicos de i ndexação e resumos, os artigos de revisão e os catálogos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-506"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-506",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018"
       }
   },
   {
@@ -2227,14 +2202,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso MPU/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
         "verificado": true,
         "provaId": "MPU/2011",
         "ano": 2011,
         "orgao": "2011",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-566"
+        "origemAcervoLocal": "cespe-cad-566"
       }
   },
   {
@@ -2249,14 +2224,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "CNJ/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-545"
+        "origemAcervoLocal": "cespe-cad-545"
       }
   },
   {
@@ -2271,14 +2246,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-113"
+        "origemAcervoLocal": "cespe-cad-113"
       }
   },
   {
@@ -2359,14 +2334,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436562",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436562",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436562"
+      }
   },
   {
     "id": "mega-q-110",
@@ -2376,18 +2352,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "As bibliotecas aplicam as leis bibliométricas como ferramentas de apoio a seus proces-",
     "item": "No processo de des envolvimento de coleções, a Lei de Zipf permite avaliar a produtividade de determinado autor e a sua importância para o acervo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-114"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-114",
+        "declaracaoLegada": "Cebraspe / 2018 / 2018"
       }
   },
   {
@@ -2402,14 +2375,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / FUB / 2015",
-      "verificado": true,
-      "provaId": "TecConcursos-289213",
-      "ano": 2015,
-      "orgao": "FUB",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / FUB / 2015",
+        "verificado": true,
+        "provaId": "TecConcursos-289213",
+        "ano": 2015,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "289213"
+      }
   },
   {
     "id": "mega-q-112",
@@ -2423,14 +2397,14 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-115"
+        "origemAcervoLocal": "cespe-cad-115"
       }
   },
   {
@@ -2549,18 +2523,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "Cabe ao presidente da Câmara designar a ordem do dia das sessões, segundo a agenda mensal, ressalvadas as alterações permitidas pelo Regimento Interno da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe).",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": true,
-        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "real-prova_recente-2043"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "real-prova_recente-2043",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
       }
   },
   {
@@ -2571,18 +2542,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada. Com base nas normas do Código de Ética e Decoro Parlamentar da Câmara dos Deputados, julgue os itens seguintes, no que se refere à disciplina do decoro parlamentar.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Câmara dos Deputados / 2014 (Cespe/Cebraspe): distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": true,
-        "provaId": "Câmara dos Deputados/2014 (Analista Legislativo)",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "real-prova_recente-2051"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "real-prova_recente-2051",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
       }
   }
 ];

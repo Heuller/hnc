@@ -26,12 +26,12 @@ export const FonteOriginalSchema = z
   .refine(
     (data) => {
       if (data.tipo === 'real-confirmada') {
-        return Boolean(data.provaId && data.ano);
+        return Boolean(data.provaId && data.ano && data.questaoOriginalId && /^\d+$/.test(data.questaoOriginalId));
       }
       return true;
     },
     {
-      message: "tipo 'real-confirmada' exige provaId e ano",
+      message: "tipo 'real-confirmada' exige provaId, ano e questaoOriginalId numérico real",
     }
   );
 

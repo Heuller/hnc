@@ -35,14 +35,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1302"
+        "origemAcervoLocal": "cespe-cad-1302"
       }
   },
   {
@@ -145,14 +145,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1645"
+        "origemAcervoLocal": "cespe-cad-1645"
       }
   },
   {
@@ -163,18 +163,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação de coleções digitais, julgue os próximos itens.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso IPHAN/2018 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / IPHAN / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-696608",
-      "ano": 2018,
-      "orgao": "IPHAN",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      }
   },
   {
     "id": "m7-q-9",
@@ -276,14 +273,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STJ/2012.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104075",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-104075",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1709"
+      }
   },
   {
     "id": "m7-q-14",
@@ -297,14 +295,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104076",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / STJ / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-104076",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "104076"
+      }
   },
   {
     "id": "m7-q-15",
@@ -318,14 +317,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva conceitualmente exata baseada na doutrina canônica de Nice Figueiredo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165484",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165484",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165484"
+      }
   },
   {
     "id": "m7-q-16",
@@ -339,14 +339,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE TO / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-2843047",
-      "ano": 2024,
-      "orgao": "MPE TO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / MPE TO / 2024 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-2843047",
+        "ano": 2024,
+        "orgao": "MPE TO",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2449"
+      }
   },
   {
     "id": "m7-q-17",
@@ -360,14 +361,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Tec Cien (BASA)/BASA/Biblioteconomia/2012: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / BASA / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-1303089",
-      "ano": 2012,
-      "orgao": "BASA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-1303089",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-11"
+      }
   },
   {
     "id": "m7-q-18",
@@ -381,14 +383,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436559",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436559",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436559"
+      }
   },
   {
     "id": "m7-q-19",
@@ -402,14 +405,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / DPU / 2016",
-      "verificado": true,
-      "provaId": "TecConcursos-324588",
-      "ano": 2016,
-      "orgao": "DPU",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / DPU / 2016",
+        "verificado": true,
+        "provaId": "TecConcursos-324588",
+        "ano": 2016,
+        "orgao": "DPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "324588"
+      }
   },
   {
     "id": "m7-q-20",
@@ -423,14 +427,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A assertiva adota uma acepção ampla e direta do conceito de preservação digital admitida pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SEE DF / 2017",
-      "verificado": true,
-      "provaId": "TecConcursos-464226",
-      "ano": 2017,
-      "orgao": "SEE DF",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SEE DF / 2017",
+        "verificado": true,
+        "provaId": "TecConcursos-464226",
+        "ano": 2017,
+        "orgao": "SEE DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "464226"
+      }
   },
   {
     "id": "m7-q-21",
@@ -467,14 +472,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Estrutura conceitual tripartida (física, lógica e intelectual) cobrada com rigor e exatidão pela banca examinadora.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104075",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-104075",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1709"
+      }
   },
   {
     "id": "m7-q-23",
@@ -484,18 +490,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à ciência aberta e à preservação digital de bibliotecas, julgue o item.",
     "item": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou de necessidade de autenticação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AAD (UNEAL)/UNEAL/Biblioteconomia/2026 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AAD (UNEAL)/UNEAL/Biblioteconomia/2026: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / UNEAL / 2026",
-      "verificado": true,
-      "provaId": "TecConcursos-4145303",
-      "ano": 2026,
-      "orgao": "UNEAL",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
   },
   {
     "id": "m7-q-24",
@@ -509,14 +512,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STF/2008.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2008 / 2008",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
         "verificado": true,
         "provaId": "STF/2008",
         "ano": 2008,
         "orgao": "2008",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1804"
+        "origemAcervoLocal": "cespe-cad-1804"
       }
   },
   {
@@ -527,18 +530,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à ciência aberta e à preservação digital de bibliotecas, julgue o item.",
     "item": "A estratégia de preservação digital denominada preservação tecnológica é criticada por não ser econômica a longo prazo devido à necessidade de se manterem fisicamente os hardwares e os softwares originais para possibilitar meios de acesso aos documentos, informações e materiais digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - UNEAL/2026). A estratégia de preservação de tecnologia (museu tecnológico) baseia-se na manutenção operacional de computadores, periféricos e sistemas originais. A literatura especializada critica unanimemente essa abordagem pelo custo proibitivo e inviabilidade econômica em larga escala a longo prazo.",
-    "armadilhaBanca": "O candidato pode hesitar quanto à nomenclatura \"preservação tecnológica\", mas a crítica doutrinária à inviabilidade de manter parques obsoletos de hardware/software é pacífica.",
+    "justificativa": "(Cebraspe - UNEAL/2026). A estratégia de preservação de tecnologia (museu tecnológico) baseia-se na manutenção operacional de computadores, periféricos e sistemas originais. A literatura especializada critica unanimemente essa abordagem pelo custo proibitivo e inviabilidade econômica em larga escala a longo prazo.",
+    "armadilhaBanca": "O candidato pode hesitar quanto à nomenclatura \\\"preservação tecnológica\\\", mas a crítica doutrinária à inviabilidade de manter parques obsoletos de hardware/software é pacífica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / UNEAL / 2026",
-      "verificado": true,
-      "provaId": "TecConcursos-4145306",
-      "ano": 2026,
-      "orgao": "UNEAL",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
   },
   {
     "id": "m7-q-26",
@@ -552,14 +552,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1872"
+        "origemAcervoLocal": "cespe-cad-1872"
       }
   },
   {
@@ -570,18 +570,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à curadoria digital e à gestão de dados de pesquisa, julgue o item a seguir.",
     "item": "Assegurar que uma documentação esteja em um formato estável, não proprietário e independente de software é suficiente para garantir que ela seja lida no futuro.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / EMBRAPA / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3425165",
-      "ano": 2025,
-      "orgao": "EMBRAPA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / EMBRAPA / 2025"
+      }
   },
   {
     "id": "m7-q-28",
@@ -591,18 +588,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "julgue o item subsequente.",
     "item": "A digitalização de acervos garante a preservação perene das coleções das bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE CE / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3373147",
-      "ano": 2025,
-      "orgao": "MPE CE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / MPE CE / 2025"
+      }
   },
   {
     "id": "m7-q-29",
@@ -612,18 +606,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à preservação digital e às bibliotecas digitais, julgue o item subsequente.",
     "item": "O LexML Brasil utiliza metadados proprietários desenvolvidos especificamente para a preservação de documentos legislativos e jurídicos, incompatíveis com padrões internacionais como o Dublin Core.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - STJ/2024). A rede LexML Brasil fundamenta-se estritamente em padrões abertos e interoperáveis de metadados. O esquema LexML é plenamente compatível com o Dublin Core (DC) e protocolos internacionais de interoperabilidade (como OAI-PMH), não utilizando formatos proprietários ou incompatíveis.",
+    "justificativa": "(Cebraspe - STJ/2024). A rede LexML Brasil fundamenta-se estritamente em padrões abertos e interoperáveis de metadados. O esquema LexML é plenamente compatível com o Dublin Core (DC) e protocolos internacionais de interoperabilidade (como OAI-PMH), não utilizando formatos proprietários ou incompatíveis.",
     "armadilhaBanca": "Armadilha clássica do Cebraspe no STJ/2024: qualificar falsamente a infraestrutura pública do LexML como adepta de metadados proprietários e incompatíveis com padrões internacionais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-3187374",
-      "ano": 2024,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / STJ / 2024"
+      }
   },
   {
     "id": "m7-q-30",
@@ -637,14 +628,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-624256",
-      "ano": 2018,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-624256",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1703"
+      }
   },
   {
     "id": "m7-q-31",
@@ -654,18 +646,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Considerando que a automação tem como principal objetivo dispor, ao alcance do usuário, uma base de dados com informações de documentos e materiais bibliográficos gerados ou adquiridos pela empresa, facilitando o acesso a esses dados, julgue o item a seguir, relativo aos serviços de referência e automação.",
     "item": "A automação compreende uma série de decisões anteriores à escolha do software, as quais devem ser tomadas a despeito de modismos, expectativas pessoais ou argumentos relativos a situações específicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ (TJ AC)/TJ AC/Bibliotecário/2012 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ (TJ AC)/TJ AC/Bibliotecário/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas ário/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ AC / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-551863",
-      "ano": 2012,
-      "orgao": "TJ AC",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / TJ AC / 2012"
+      }
   },
   {
     "id": "m7-q-32",
@@ -679,14 +668,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "A banca estabelece a relação necessária entre eficiência da preservação e a gestão integral do ciclo de vida do documento digital.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165431",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165431",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165431"
+      }
   },
   {
     "id": "m7-q-33",
@@ -700,14 +690,16 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica do Cebraspe no concurso TSE/2024: confundir requisitos operacionais de acesso e disseminação com requisitos estritos de preservação arquivística digital de longo prazo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TSE / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-3202811",
-      "ano": 2024,
-      "orgao": "TSE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / TSE / 2024 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-3202811",
+        "ano": 2024,
+        "orgao": "TSE",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2074",
+        "revisar": true
+      }
   },
   {
     "id": "m7-q-34",
@@ -721,14 +713,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso Biblio Doc (FUB)/FUB/2013.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / FUB / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-346424",
-      "ano": 2013,
-      "orgao": "FUB",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-346424",
+        "ano": 2013,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1872"
+      }
   },
   {
     "id": "m7-q-35",
@@ -738,18 +731,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de tecnologias para bibliotecas e indexação, julgue o item que se segue.",
     "item": "O processo de indexação é considerado uma prática complexa, que demanda cuidado e reflexão, porque, apesar de política de indexação estabelecer diretrizes para esse processo, fatores pessoais e profissionais, entre outros, podem influenciar na tomada de decisão.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas .",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE TO / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-2843071",
-      "ano": 2024,
-      "orgao": "MPE TO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / MPE TO / 2024"
+      }
   },
   {
     "id": "m7-q-36",
@@ -759,18 +749,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à curadoria digital e à mediação da informação, julgue o item a seguir.",
     "item": "A curadoria digital pode ser corretamente definida como o processo que compreende a seleção, a preservação, a manutenção, a coleção e o arquivamento de ativos digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - STJ/2024). A assertiva reflete com exatidão a definição canônica de curadoria digital estabelecida pelo Digital Curation Centre (DCC) e por Abbott, congregando seleção, preservação ativa, manutenção, agregação em coleções e arquivamento de ativos digitais com valor duradouro.",
+    "justificativa": "(Cebraspe - STJ/2024). A assertiva reflete com exatidão a definição canônica de curadoria digital estabelecida pelo Digital Curation Centre (DCC) e por Abbott, congregando seleção, preservação ativa, manutenção, agregação em coleções e arquivamento de ativos digitais com valor duradouro.",
     "armadilhaBanca": "Síntese doutrinária exata das etapas do ciclo de vida da curadoria digital cobrada pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-3187390",
-      "ano": 2024,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / STJ / 2024"
+      }
   },
   {
     "id": "m7-q-37",
@@ -784,14 +771,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-624255",
-      "ano": 2018,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / STJ / 2018",
+        "verificado": true,
+        "provaId": "TecConcursos-624255",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "624255"
+      }
   },
   {
     "id": "m7-q-38",
@@ -805,14 +793,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104076",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / STJ / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-104076",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "104076"
+      }
   },
   {
     "id": "m7-q-39",
@@ -822,18 +811,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação de coleções digitais, julgue o item.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro de gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - IPHAN/2018). O OAIS (Open Archival Information System) NÃO é um sistema brasileiro de gestão de propriedade intelectual. É um modelo conceitual de referência internacional para sistemas de arquivos abertos de preservação digital, padronizado internacionalmente pela ISO (norma ISO 14721:2012 / CCSDS 650.0-M-2).",
-    "armadilhaBanca": "Inversão grosseira do Cebraspe no IPHAN/2018: transformar uma norma conceitual internacional da ISO em um pretenso \"sistema brasileiro de propriedade intelectual\".",
+    "justificativa": "(Cebraspe - IPHAN/2018). O OAIS (Open Archival Information System) NÃO é um sistema brasileiro de gestão de propriedade intelectual. É um modelo conceitual de referência internacional para sistemas de arquivos abertos de preservação digital, padronizado internacionalmente pela ISO (norma ISO 14721:2012 / CCSDS 650.0-M-2).",
+    "armadilhaBanca": "Inversão grosseira do Cebraspe no IPHAN/2018: transformar uma norma conceitual internacional da ISO em um pretenso \\\"sistema brasileiro de propriedade intelectual\\\".",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / IPHAN / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-696608",
-      "ano": 2018,
-      "orgao": "IPHAN",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      }
   },
   {
     "id": "m7-q-40",
@@ -843,18 +829,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à preservação digital de acervos, julgue o item.",
     "item": "As cópias de segurança (backup) de arquivos digitais em discos rígidos externos garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias de preservação digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - UNEAL/2026). Cópias de segurança (backups) são essenciais para recuperação contra desastres imediatos, mas NÃO garantem a preservação digital de longo prazo e NÃO dispensam intervenções ativas (como migração de formatos obsoletos, validação criptográfica de fixidez e metadados PREMIS), sob pena de degradação física dos suportes e obsolescência lógica dos formatos.",
-    "armadilhaBanca": "Termo absolutista característico do Cebraspe (\"garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias\").",
+    "justificativa": "(Cebraspe - UNEAL/2026). Cópias de segurança (backups) são essenciais para recuperação contra desastres imediatos, mas NÃO garantem a preservação digital de longo prazo e NÃO dispensam intervenções ativas (como migração de formatos obsoletos, validação criptográfica de fixidez e metadados PREMIS), sob pena de degradação física dos suportes e obsolescência lógica dos formatos.",
+    "armadilhaBanca": "Termo absolutista característico do Cebraspe (\\\"garantem a preservação a longo prazo, dispensando a necessidade de outras estratégias\\\").",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / UNEAL / 2026",
-      "verificado": true,
-      "provaId": "TecConcursos-4145301",
-      "ano": 2026,
-      "orgao": "UNEAL",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
   },
   {
     "id": "m7-q-41",
@@ -868,14 +851,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso Biblio (DPU)/DPU/2016.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / DPU / 2016",
-      "verificado": true,
-      "provaId": "TecConcursos-324588",
-      "ano": 2016,
-      "orgao": "DPU",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / DPU / 2016",
+        "verificado": true,
+        "provaId": "TecConcursos-324588",
+        "ano": 2016,
+        "orgao": "DPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "324588"
+      }
   },
   {
     "id": "m7-q-42",
@@ -885,18 +869,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item, com relação à informática para bibliotecas.",
     "item": "A preservação de documentos abrange as técnicas de preservação tecnológica, que cuidam da preservação de hardware e software para suportar sistemas originais de acesso a informações.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - TRT 17/2013). A técnica de preservação tecnológica consiste especificamente em conservar os equipamentos de hardware e versões de sistemas operacionais e programas de software originais para garantir a operacionalidade dos sistemas originais.",
+    "justificativa": "(Cebraspe - TRT 17/2013). A técnica de preservação tecnológica consiste especificamente em conservar os equipamentos de hardware e versões de sistemas operacionais e programas de software originais para garantir a operacionalidade dos sistemas originais.",
     "armadilhaBanca": "A assertiva limita-se a conceituar a técnica de preservação tecnológica, estando perfeitamente de acordo com a literatura técnica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TRT 17 / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-204016",
-      "ano": 2013,
-      "orgao": "TRT 17",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / TRT 17 / 2013"
+      }
   },
   {
     "id": "m7-q-43",
@@ -910,14 +891,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta que reconhece o papel protagonista das unidades de informação no ecossistema de dados científicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436559",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436559",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436559"
+      }
   },
   {
     "id": "m7-q-44",
@@ -927,18 +909,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à bibliografia, julgue o item.",
     "item": "As bibliografias comerciais divulgam a produção bibliográfica em bibliotecas, distribuidores e livreiros, contribuindo para a preservação da herança cultural de um país.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO (Cebraspe - TRT 17/2013). As bibliografias comerciais têm finalidade estritamente mercadológica e comercial (informar disponibilidade e catálogo de editoras e livreiros). A preservação exaustiva da herança e memória cultural de um país é atribuição indelegável da Bibliografia Nacional (sustentada pelas bibliotecas nacionais mediante a lei do Depósito Legal), e não das bibliografias comerciais.",
+    "justificativa": "(Cebraspe - TRT 17/2013). As bibliografias comerciais têm finalidade estritamente mercadológica e comercial (informar disponibilidade e catálogo de editoras e livreiros). A preservação exaustiva da herança e memória cultural de um país é atribuição indelegável da Bibliografia Nacional (sustentada pelas bibliotecas nacionais mediante a lei do Depósito Legal), e não das bibliografias comerciais.",
     "armadilhaBanca": "Atribuição errônea da finalidade precípua da Bibliografia Nacional (patrimônio e memória cultural) a instrumentos de circulação comercial de mercado.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TRT 17 / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-204060",
-      "ano": 2013,
-      "orgao": "TRT 17",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / TRT 17 / 2013"
+      }
   },
   {
     "id": "m7-q-45",
@@ -952,14 +931,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Biblio (SUFRAMA)/SUFRAMA/2014: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165424",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165424",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165424"
+      }
   },
   {
     "id": "m7-q-46",
@@ -973,14 +953,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico cobrado de forma literal pela banca Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165484",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165484",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165484"
+      }
   },
   {
     "id": "m7-q-47",
@@ -994,14 +975,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE TO / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-2843047",
-      "ano": 2024,
-      "orgao": "MPE TO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / MPE TO / 2024 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-2843047",
+        "ano": 2024,
+        "orgao": "MPE TO",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2449"
+      }
   },
   {
     "id": "m7-q-48",
@@ -1015,14 +997,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Tec Cien (BASA)/BASA/Biblioteconomia/2012: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / BASA / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-1303089",
-      "ano": 2012,
-      "orgao": "BASA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-1303089",
+        "ano": 2012,
+        "orgao": "BASA",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-11"
+      }
   },
   {
     "id": "m7-q-49",
@@ -1036,14 +1019,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Apreensão exata da terminologia empregada pelo Cebraspe na prova de 2017.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SEE DF / 2017",
-      "verificado": true,
-      "provaId": "TecConcursos-464226",
-      "ano": 2017,
-      "orgao": "SEE DF",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SEE DF / 2017",
+        "verificado": true,
+        "provaId": "TecConcursos-464226",
+        "ano": 2017,
+        "orgao": "SEE DF",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "464226"
+      }
   },
   {
     "id": "m7-q-50",
@@ -1057,14 +1041,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tríade canônica cobrada com exatidão pela banca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104075",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-104075",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1709"
+      }
   },
   {
     "id": "m7-q-51",
@@ -1074,18 +1059,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à ciência aberta e à preservação digital de bibliotecas, julgue o item.",
     "item": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser aberto, gratuito e disponibilizado sem qualquer tipo de restrição de acesso ou de necessidade de autenticação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AAD (UNEAL)/UNEAL/Biblioteconomia/2026 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AAD (UNEAL)/UNEAL/Biblioteconomia/2026: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / UNEAL / 2026",
-      "verificado": true,
-      "provaId": "TecConcursos-4145303",
-      "ano": 2026,
-      "orgao": "UNEAL",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
   },
   {
     "id": "m7-q-52",
@@ -1095,18 +1077,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à ciência aberta e à preservação digital de bibliotecas, julgue o item.",
     "item": "A estratégia de preservação digital denominada preservação tecnológica é criticada por não ser econômica a longo prazo devido à necessidade de se manterem fisicamente os hardwares e os softwares originais para possibilitar meios de acesso aos documentos, informações e materiais digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO (Cebraspe - UNEAL/2026). Crítica doutrinária ao museu de tecnologia / retenção de hardwares obsoletos por seu alto custo de manutenção.",
-    "armadilhaBanca": "Assertiva tecnicamente correta da banca Cebraspe.",
+    "justificativa": "(Cebraspe - UNEAL/2026). Crítica doutrinária ao museu de tecnologia / retenção de hardwares obsoletos por seu alto custo de manutenção.",
+    "armadilhaBanca": "Assertiva tecnicamente correta .",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / UNEAL / 2026",
-      "verificado": true,
-      "provaId": "TecConcursos-4145306",
-      "ano": 2026,
-      "orgao": "UNEAL",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      }
   },
   {
     "id": "m7-q-53",
@@ -1120,14 +1099,16 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Atribuir à rede de metadados LexML competências institucionais de guarda patrimonial típicas de Biblioteca Nacional.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-3187374",
-      "ano": 2024,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2024 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-3187374",
+        "ano": 2024,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-1986",
+        "revisar": true
+      }
   },
   {
     "id": "m7-q-54",
@@ -1137,18 +1118,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à curadoria digital e à gestão de dados de pesquisa, julgue o item a seguir.",
     "item": "Assegurar que uma documentação esteja em um formato estável, não proprietário e independente de software é suficiente para garantir que ela seja lida no futuro.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / EMBRAPA / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3425165",
-      "ano": 2025,
-      "orgao": "EMBRAPA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / EMBRAPA / 2025"
+      }
   },
   {
     "id": "m7-q-55",
@@ -1162,14 +1140,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-624256",
-      "ano": 2018,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-624256",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1703"
+      }
   },
   {
     "id": "m7-q-56",
@@ -1179,18 +1158,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "julgue o item subsequente.",
     "item": "A digitalização de acervos garante a preservação perene das coleções das bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
+    "armadilhaBanca": "Inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE CE / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3373147",
-      "ano": 2025,
-      "orgao": "MPE CE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / MPE CE / 2025"
+      }
   },
   {
     "id": "m7-q-57",
@@ -1200,18 +1176,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "Considerando que a automação tem como principal objetivo dispor, ao alcance do usuário, uma base de dados com informações de documentos e materiais bibliográficos gerados ou adquiridos pela empresa, facilitando o acesso a esses dados, julgue o item a seguir, relativo aos serviços de referência e automação.",
     "item": "A automação compreende uma série de decisões anteriores à escolha do software, as quais devem ser tomadas a despeito de modismos, expectativas pessoais ou argumentos relativos a situações específicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AJ (TJ AC)/TJ AC/Bibliotecário/2012 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso AJ (TJ AC)/TJ AC/Bibliotecário/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas ário/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ AC / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-551863",
-      "ano": 2012,
-      "orgao": "TJ AC",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / TJ AC / 2012"
+      }
   },
   {
     "id": "m7-q-58",
@@ -1225,14 +1198,16 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confusão deliberada entre funcionalidades de plataforma de pesquisa/uso corrente e as exigências técnicas da preservação digital de longo prazo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TSE / 2024",
-      "verificado": true,
-      "provaId": "TecConcursos-3202811",
-      "ano": 2024,
-      "orgao": "TSE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / TSE / 2024 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-3202811",
+        "ano": 2024,
+        "orgao": "TSE",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2074",
+        "revisar": true
+      }
   },
   {
     "id": "m7-q-59",
@@ -1246,14 +1221,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico de governança da informação validado pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SUFRAMA / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-165431",
-      "ano": 2014,
-      "orgao": "SUFRAMA",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SUFRAMA / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-165431",
+        "ano": 2014,
+        "orgao": "SUFRAMA",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "165431"
+      }
   },
   {
     "id": "m7-q-60",
@@ -1267,14 +1243,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso Biblio Doc (FUB)/FUB/2013.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / FUB / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-346424",
-      "ano": 2013,
-      "orgao": "FUB",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-346424",
+        "ano": 2013,
+        "orgao": "FUB",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1872"
+      }
   },
   {
     "id": "m7-q-61",
@@ -1612,18 +1589,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação de coleções digitais, julgue os próximos itens.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / IPHAN / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-696608",
-      "ano": 2018,
-      "orgao": "IPHAN",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      }
   },
   {
     "id": "m7-q-81",
@@ -1637,14 +1611,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1645"
+        "origemAcervoLocal": "cespe-cad-1645"
       }
   },
   {
@@ -1737,14 +1711,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1563"
+        "origemAcervoLocal": "cespe-cad-1563"
       }
   },
   {
@@ -1759,14 +1733,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-624256",
-      "ano": 2018,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
+        "verificado": true,
+        "provaId": "TecConcursos-624256",
+        "ano": 2018,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-cad-1703"
+      }
   },
   {
     "id": "m7-q-88",
@@ -1904,14 +1879,14 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "IPHAN/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1768"
+        "origemAcervoLocal": "cespe-cad-1768"
       }
   },
   {
@@ -1922,18 +1897,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos modelos conceituais de preservação digital e repositórios digitais confiáveis, julgue o item a seguir.",
     "item": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da propriedade intelectual para a promoção da preservação digital.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. O modelo OAIS (normatizado pela ISO 14721) é um modelo conceitual internacional de referência para a arquitetura, ingestão, arquivamento e acesso em repositórios digitais de preservação a longo prazo, desenvolvido originalmente pelo CCSDS (Consultative Committee for Space Data Systems), e não um sistema brasileiro voltado à propriedade intelectual.",
+    "justificativa": "O modelo OAIS (normatizado pela ISO 14721) é um modelo conceitual internacional de referência para a arquitetura, ingestão, arquivamento e acesso em repositórios digitais de preservação a longo prazo, desenvolvido originalmente pelo CCSDS (Consultative Committee for Space Data Systems), e não um sistema brasileiro voltado à propriedade intelectual.",
     "armadilhaBanca": "INVERSAO_CONCEITUAL: Distorcer o propósito central do OAIS (ISO 14721) atribuindo-lhe a função de gestão de propriedade intelectual.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / IPHAN / 2018",
-      "verificado": true,
-      "provaId": "TecConcursos-696608",
-      "ano": 2018,
-      "orgao": "IPHAN",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      }
   },
   {
     "id": "m7-q-97",
