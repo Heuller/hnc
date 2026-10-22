@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-867%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-887%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -14,7 +14,7 @@
 
 **Heuller na Câmara** é um ambiente de aprendizagem deliberada e alta densidade técnica desenvolvido especificamente para a preparação ao concurso de **Analista Legislativo (Biblioteconomia)** da **Câmara dos Deputados**, sob as diretrizes rigorosas da banca examinadora **CEBRASPE**.
 
-A plataforma integra teoria canônica, banco exaustivo de questões inéditas, repetição espaçada (algoritmo Leitner), caderno de erros inteligente, avaliador de discursivas com inteligência artificial e simulados adaptativos de fraquezas.
+A plataforma integra teoria canônica, banco integral de questões inéditas, repetição espaçada (algoritmo Leitner), caderno de erros inteligente, avaliador de discursivas com inteligência artificial e simulados adaptativos de fraquezas.
 
 ---
 
@@ -96,46 +96,54 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **867 testes** | 100% aprovados em Vitest |
-| **Arquivos de Teste** | **109 arquivos** | Cobertura de domínio, páginas e regras de banca |
-| **Qualidade e Estilo (Oxlint)** | **41 avisos, 0 erros** | 0 erros impeditivos em 420+ arquivos |
-| **Bancos de Simulados Oficiais** | **20 cadernos** | Paridade estrita 50/50 em todos os cadernos |
-| **Questões de Simulado (C/E)** | **2.110 itens** | 100% calibrados com justificativa e fonte |
-| **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo |
-| **Total Global de Questões Cebraspe** | **2.179 itens** | Base exaustiva para o concurso |
+| **Suíte de Testes Automatizados** | **887 testes** | 100% aprovados em Vitest (113 arquivos de teste) |
+| **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
+| **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
+| **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo em teoria |
+| **Total Global de Questões Cebraspe** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
+| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa alvo 46–56%) |
 
-#### Distribuição dos Bancos de Simulados Cadastrados
-| Banco / ID | Título Curto | Total Itens | Gabaritos (C/E) | Paridade |
+#### Rastreabilidade de Proveniência dos Itens
+| Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
+| :--- | :---: | :---: | :--- |
+| **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria alinhada ao padrão e jurisprudência Cebraspe |
+| **Adaptadas (`adaptada`)** | **426** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
+| **Reais Confirmadas (`real-confirmada`)** | **49** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
+| **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
+| **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
+
+#### Distribuição dos Arquivos de Questões Cadastrados
+| Banco / Arquivo | Título / Descrição | Total Itens | Gabaritos (C/E) | Proporção Certo |
 | :--- | :--- | :---: | :---: | :---: |
-| `simulado-oficial-camara-2027` | Simulado Oficial 90+90 | **180** | 90C / 90E | 100% |
-| `m1-fundamentos` | M1 - Fundamentos | **100** | 50C / 50E | 100% |
-| `m2-catalogacao` | M2 - Catalogação | **100** | 50C / 50E | 100% |
-| `m3-classificacao` | M3 - Classificação & Tesauros | **100** | 50C / 50E | 100% |
-| `m4-recuperacao` | M4 - Recuperação & Fontes | **100** | 50C / 50E | 100% |
-| `m5-gestao` | M5 - Gestão de Unidades & Coleções | **100** | 50C / 50E | 100% |
-| `m6-digital-ia` | M6 - Repositórios & IA | **100** | 50C / 50E | 100% |
-| `m7-preservacao` | M7 - Preservação & OAIS | **100** | 50C / 50E | 100% |
-| `m8-normalizacao` | M8 - Normalização & ABNT | **100** | 50C / 50E | 100% |
-| `m9-comunicacao` | M9 - Comunicação & Bibliometria | **100** | 50C / 50E | 100% |
-| `m10-legislativo` | M10 - Regimento Interno & CEDI | **100** | 50C / 50E | 100% |
-| `m11-administrativo` | M11 - Direito Administrativo | **100** | 50C / 50E | 100% |
-| `m12-ingles` | M12 - Língua Inglesa | **100** | 50C / 50E | 100% |
-| `m13-portugues` | M13 - Língua Portuguesa | **100** | 50C / 50E | 100% |
-| `m14-tecnologia-dados` | M14 - TI & Dados | **100** | 50C / 50E | 100% |
-| `mega-simulado-camara` | Mega Simulado 120Q | **120** | 60C / 60E | 100% |
-| `mini-modulo-orgaos` | Mini 2.5 - Órgãos & Bib. Câmara | **30** | 15C / 15E | 100% |
-| `m10a-legislativo-constituicao` | M10-A - Constituição & CEDI | **100** | 50C / 50E | 100% |
-| `m10b-regimentos-camara-congresso` | M10-B - RICD & Regimento Comum | **100** | 50C / 50E | 100% |
-| `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 100% |
-| **Submódulos Teóricos** | Questões Ampliadas de Fixação | **69** | Variado | Teoria |
-| **TOTAL GERAL** | **19 Bancos + Submódulos** | **2.179** | **Equilibrado** | **Auditado** |
+| `m1-fundamentos-100q` | M1 - Fundamentos de Biblioteconomia | **100** | 50C / 50E | 50,0% |
+| `m10-legislativo-100q` | M10 - Informação Jurídica & CEDI | **100** | 50C / 50E | 50,0% |
+| `m10a-legislativo-constituicao-100q` | M10-A - Constituição & CEDI | **100** | 50C / 50E | 50,0% |
+| `m10b-regimentos-100q` | M10-B - RICD & Regimento Comum | **100** | 50C / 50E | 50,0% |
+| `m11-administrativo-100q` | M11 - Direito Administrativo | **100** | 50C / 50E | 50,0% |
+| `m12-ingles-100q` | M12 - Língua Inglesa | **100** | 50C / 50E | 50,0% |
+| `m13-portugues-100q` | M13 - Língua Portuguesa & Redação Oficial | **100** | 50C / 50E | 50,0% |
+| `m14-tecnologia-dados-100q` | M14 - TI & Ciência de Dados | **100** | 50C / 50E | 50,0% |
+| `m2-catalogacao-100q` | M2 - Catalogação & Metadados | **100** | 50C / 50E | 50,0% |
+| `m3-classificacao-100q` | M3 - Classificação & Tesauros | **100** | 50C / 50E | 50,0% |
+| `m4-recuperacao-100q` | M4 - Recuperação da Informação | **100** | 50C / 50E | 50,0% |
+| `m5-gestao-100q` | M5 - Gestão de Unidades & Coleções | **100** | 50C / 50E | 50,0% |
+| `m6-digital-ia-100q` | M6 - Bibliotecas Digitais & IA | **100** | 50C / 50E | 50,0% |
+| `m7-preservacao-100q` | M7 - Preservação Digital & OAIS | **100** | 50C / 50E | 50,0% |
+| `m8-normalizacao-100q` | M8 - Normalização Documentária & ABNT | **100** | 50C / 50E | 50,0% |
+| `m9-comunicacao-100q` | M9 - Comunicação Científica & Bibliometria | **100** | 50C / 50E | 50,0% |
+| `mega-simulado-camara-120q` | Mega Simulado Câmara 120Q | **120** | 60C / 60E | 50,0% |
+| `mini-modulo-orgaos-30q` | Mini 2.5 - Órgãos & Bib. Câmara | **30** | 15C / 15E | 50,0% |
+| `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 44C / 25E | 63,8% |
+| `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 50,0% |
+| `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 90C / 90E | 50,0% |
+| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1099C / 1080E** | **50,4% Certo (faixa alvo 46–56%)** |
 <!-- METRICAS:FIM -->
 
 ---
 
 ## 🧪 Suíte de Testes Automatizados
 
-A plataforma conta com suíte exaustiva de testes automatizados executados via Vitest:
+A plataforma conta com suíte de testes automatizados executados via Vitest:
 
 ```bash
 npm test
