@@ -230,3 +230,7 @@ export function contarItensJaVistosNosModulos(
     detalhes,
   };
 }
+
+export function podeSerPromovidoSimuladoOficial(item: { localizadorVerificado?: boolean; statusHomologacao?: string; homologado?: boolean }): boolean {
+  return item.localizadorVerificado === true && item.statusHomologacao === 'homologado' && item.homologado === true;
+}
