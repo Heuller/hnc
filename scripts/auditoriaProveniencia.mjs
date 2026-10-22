@@ -107,8 +107,8 @@ export function auditarProveniencia(options = {}) {
         let armadilha = null;
         let tipo = null;
         let questaoOriginalId = null;
-        let provaId = null;
-        let origemAcervoLocal = null;
+        let _provaId = null;
+        let _origemAcervoLocal = null;
         let hasFonteOriginal = false;
 
         for (const prop of node.properties) {
@@ -130,8 +130,8 @@ export function auditarProveniencia(options = {}) {
                   const fval = fprop.initializer.getText(sf).replace(/^['"`]|['"`]$/g, '');
                   if (fname === 'tipo') tipo = fval;
                   if (fname === 'questaoOriginalId') questaoOriginalId = fval;
-                  if (fname === 'provaId') provaId = fval;
-                  if (fname === 'origemAcervoLocal') origemAcervoLocal = fval;
+                  if (fname === 'provaId') _provaId = fval;
+                  if (fname === 'origemAcervoLocal') _origemAcervoLocal = fval;
                 }
               }
             }

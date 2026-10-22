@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { obterTimestampAtual, calcularTempoDecorridoSegundos } from '../../utils/tempo';
 import { motion, AnimatePresence } from 'motion/react';
 import { FileText, CheckCircle2, XCircle, RotateCcw } from 'lucide-react';
 import type { ExercicioX8 } from '../../domain/schemas/modulo.schema';
@@ -10,7 +11,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
   disabled = false,
 }) => {
   const [respostas, setRespostas] = useState<Record<string, 'C' | 'E'>>({});
-  const [tempoInicio] = useState<number>(() => Date.now());
+  const [tempoInicio] = useState<number>(obterTimestampAtual);
 
   const totalItens = exercicio.itensVinculados.length;
   const todosRespondidos = exercicio.itensVinculados.every((item) => respostas[item.id] !== undefined);
@@ -26,7 +27,7 @@ export const ExercicioX8ItensSuporte: React.FC<ExercicioProps<ExercicioX8>> = ({
         (item) => updated[item.id] === item.gabarito
       ).length;
       const taxa = acertos / totalItens;
-      const tempoSegundos = Math.max(1, Math.round((Date.now() - tempoInicio) / 1000));
+      const tempoSegundos = calcularTempoDecorridoSegundos(tempoInicio);
       onResponder?.({
         exercicioId: exercicio.id,
         tipo: 'X8',

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigationStore } from '../store/useNavigationStore';
 import { useProgressStore } from '../store/useProgressStore';
 import { ALL_COURSE_MODULES } from '../content/registry';
@@ -131,31 +131,28 @@ export const TeoriaPage: React.FC = () => {
     setModoTeoria(currentMacro.id, modo);
   };
 
-  const readingSections = useMemo(
-    () => [
-      { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
-      ...(currentSub.alertasCebraspe && currentSub.alertasCebraspe.length > 0
-        ? [{ id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' }]
-        : []),
-      ...(currentSub.quadroComparativo
-        ? [{ id: 'sec-quadro', numero: '3', titulo: 'Matriz Comparativa' }]
-        : []),
-      ...(currentSub.antesDeLer && currentSub.antesDeLer.length > 0
-        ? [{ id: 'sec-antes-de-ler', numero: '4', titulo: 'Pré-requisitos' }]
-        : []),
-      {
-        id: 'sec-teoria',
-        numero: '5',
-        titulo:
-          modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-            ? 'Teoria Didática & Prática'
-            : 'Fundamentação Teórica',
-      },
-      { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
-      { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
-    ],
-    [currentSub, modoTeoriaAtivo]
-  );
+  const readingSections = [
+    { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
+    ...(currentSub.alertasCebraspe && currentSub.alertasCebraspe.length > 0
+      ? [{ id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' }]
+      : []),
+    ...(currentSub.quadroComparativo
+      ? [{ id: 'sec-quadro', numero: '3', titulo: 'Matriz Comparativa' }]
+      : []),
+    ...(currentSub.antesDeLer && currentSub.antesDeLer.length > 0
+      ? [{ id: 'sec-antes-de-ler', numero: '4', titulo: 'Pré-requisitos' }]
+      : []),
+    {
+      id: 'sec-teoria',
+      numero: '5',
+      titulo:
+        modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
+          ? 'Teoria Didática & Prática'
+          : 'Fundamentação Teórica',
+    },
+    { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
+    { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
+  ];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -169,13 +166,23 @@ export const TeoriaPage: React.FC = () => {
       { rootMargin: '-80px 0px -50% 0px' }
     );
 
-    readingSections.forEach((sec) => {
-      const el = document.getElementById(sec.id);
+    const sectionIds = [
+      'sec-autores',
+      'sec-alertas',
+      'sec-quadro',
+      'sec-antes-de-ler',
+      'sec-teoria',
+      'sec-checkpoints',
+      'sec-mnemonicos',
+    ];
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
       if (el) observer.observe(el);
     });
 
     return () => observer.disconnect();
-  }, [currentSub.id, readingSections]);
+  }, [currentSub.id, modoTeoriaAtivo]);
 
   // Monitoramento de seções para conquista estrita de conclusão (Parte G)
   useEffect(() => {

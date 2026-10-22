@@ -4,5 +4,10 @@
   "rules": {
     "react/rules-of-hooks": "error",
     "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
+  },
+  // Scripts historicos de correcao pontual arquivados em archive/scripts-correcao
+  // conforme especificacao do Prompt C10 para manter foco nos fontes ativos.
+  "ignorePatterns": [
+    "archive/**"
+  ]
 }

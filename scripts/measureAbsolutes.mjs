@@ -5,9 +5,9 @@ import {
   PALAVRAS_ABSOLUTAS_ESTRITAS,
   PALAVRAS_ABSOLUTAS_AMBIGUAS,
   PALAVRAS_ABSOLUTAS,
-  REGEX_PALAVRAS_ABSOLUTAS,
+
   calcularPesoItemAbsoluto,
-  contemPalavraAbsoluta,
+
   extrairPalavrasAbsolutas,
 } from '../src/config/palavrasAbsolutas.ts';
 

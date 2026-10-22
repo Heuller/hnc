@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { obterTimestampAtual, calcularTempoDecorridoSegundos } from '../../utils/tempo';
 import { motion, AnimatePresence } from 'motion/react';
 import { PenTool, CheckCircle2, XCircle, RotateCcw, AlertTriangle } from 'lucide-react';
 import type { ExercicioX3 } from '../../domain/schemas/modulo.schema';
@@ -10,7 +11,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
   disabled = false,
 }) => {
   const [resposta, setResposta] = useState<string | null>(null);
-  const [tempoInicio] = useState<number>(() => Date.now());
+  const [tempoInicio] = useState<number>(obterTimestampAtual);
 
   const isRespondido = resposta !== null;
   const gabaritoNormalizado = exercicio.gabarito.trim().toLowerCase();
@@ -19,7 +20,7 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
   const handleSelect = (escolha: string) => {
     if (isRespondido || disabled) return;
     setResposta(escolha);
-    const tempoSegundos = Math.max(1, Math.round((Date.now() - tempoInicio) / 1000));
+    const tempoSegundos = calcularTempoDecorridoSegundos(tempoInicio);
     const correto = escolha.trim().toLowerCase() === gabaritoNormalizado;
     onResponder?.({
       exercicioId: exercicio.id,

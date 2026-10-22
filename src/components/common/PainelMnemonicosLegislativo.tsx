@@ -11,7 +11,7 @@ export interface MnemonicoItem {
   exemploCebraspe: string;
 }
 
-export const MNEMONICOS_LEGISLATIVO: MnemonicoItem[] = [
+const MNEMONICOS_LEGISLATIVO: MnemonicoItem[] = [
   {
     id: 'mnem-1',
     mnemonico: 'SO-CI-DI-VA-PLU',
