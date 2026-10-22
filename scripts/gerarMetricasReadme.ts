@@ -371,8 +371,11 @@ export function validarReadmeSincronizado(): { sincronizado: boolean; erros: str
 
   const erros: string[] = [];
 
+  const normAtual = conteudoAtual.replace(/\r\n/g, '\n').trim();
+  const normEsperado = conteudoEsperado.replace(/\r\n/g, '\n').trim();
+
   // 1. Verifica divergência de conteúdo
-  if (conteudoAtual !== conteudoEsperado) {
+  if (normAtual !== normEsperado) {
     erros.push('O conteúdo do README.md diverge do gerado por scripts/gerarMetricasReadme.ts. Execute npm run generate:metrics.');
   }
 
