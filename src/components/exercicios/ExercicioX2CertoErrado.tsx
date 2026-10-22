@@ -58,6 +58,7 @@ export const ExercicioX2CertoErrado: React.FC<ExercicioProps<ExercicioX2>> = ({
   useEffect(() => {
     if (disabled || isRespondido) return;
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       const tag = document.activeElement?.tagName.toLowerCase();
       if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
       if (e.key === 'c' || e.key === 'C') {

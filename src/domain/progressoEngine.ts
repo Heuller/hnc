@@ -1,5 +1,6 @@
 import type { MacroModulo, ModuloFilho } from './schemas/modulo.schema';
 import type { ItemAttempt } from './itemAttempts';
+import type { SimuladoFinalizado } from './schemas/progress.schema';
 import {
   JORNADA_CONFIG,
   SELO_CONFIG,
@@ -175,6 +176,20 @@ export function calcularSeloDominio(
 }
 
 /**
+ * Contrato estrutural lido por derivarProgresso para o simulado de módulo.
+ * Atenção: SimuladoFinalizado (historicoSimulados) não possui esses campos,
+ * logo hoje nenhuma tentativa casa com o módulo — inofensivo enquanto
+ * simuladoObrigatorioParaAvancar = false (ver RELATORIO_AUDITORIA_UX.md).
+ */
+export interface TentativaSimuladoModulo {
+  moduloId?: string;
+  targetId?: string;
+  moduloNumero?: number;
+  aproveitamento?: number;
+  notaConsolidada?: number;
+}
+
+/**
  * Função Pura Canônica (Regra 1.2 / Plano v3 Fase U2):
  * Deriva TODO o estado de progresso, conclusão e selos a partir
  * do registro append-only de tentativas de itens e leituras.
@@ -185,7 +200,7 @@ export function derivarProgresso(
   secoesVisualizadas: Record<string, string[]> = {},
   registry: MacroModulo[],
   config: JornadaConfig = JORNADA_CONFIG,
-  simuladoTentativas: any[] = []
+  simuladoTentativas: readonly (TentativaSimuladoModulo & Partial<SimuladoFinalizado>)[] = []
 ): ProgressoGlobalDerivado {
   const submodulosMap: Record<string, SubmoduloProgressoDerivado> = {};
   const modulosMap: Record<string, ModuloProgressoDerivado> = {};

@@ -12,6 +12,7 @@ export const F1CeSimples: React.FC<ExerciseFormatProps> = ({
   useEffect(() => {
     if (disabled || respondido) return;
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       const key = e.key.toUpperCase();
       if (key === 'C') onResponder('C');

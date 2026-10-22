@@ -219,6 +219,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
           <div className="flex items-center gap-3 px-4 py-3.5 border-b border-border bg-surface-2/40">
             <Search className="w-5 h-5 text-accent shrink-0" />
             <input
+              aria-label="Buscar conteúdo"
               ref={inputRef}
               type="text"
               placeholder="Buscar por conceito, autor (ex: Briet, Borko, MARC), alerta ou regra..."
@@ -234,7 +235,8 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
               <button
                 type="button"
                 onClick={() => setQuery('')}
-                className="text-ink-2 hover:text-ink p-1 cursor-pointer"
+                aria-label="Limpar busca"
+                className="text-ink-2 hover:text-ink p-1 cursor-pointer min-h-[44px] min-w-[44px] inline-flex items-center justify-center foco"
               >
                 <X className="w-4 h-4" />
               </button>

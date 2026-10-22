@@ -257,6 +257,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
               </span>
             </div>
             <input
+              aria-label="Cobertura de aspectos do comando (pontos)"
               type="range"
               min={0}
               max={pesos.ASPECTOS_MAX}
@@ -282,6 +283,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
               </span>
             </div>
             <input
+              aria-label="Profundidade conceitual (pontos)"
               type="range"
               min={0}
               max={pesos.PROFUNDIDADE_MAX}
@@ -307,6 +309,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
               </span>
             </div>
             <input
+              aria-label="Apresentação e estrutura (pontos)"
               type="range"
               min={0}
               max={pesos.APRESENTACAO_MAX}
@@ -399,6 +402,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
           <div className="flex items-center gap-2">
             <span className="text-xs font-mono text-ink-2">Desconto: -{descontoHumano.toFixed(2)} pts</span>
             <input
+              aria-label="Número de erros gramaticais"
               type="number"
               min={0}
               max={25}

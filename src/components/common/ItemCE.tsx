@@ -119,6 +119,10 @@ export const ItemCE: React.FC<ItemCEProps> = ({
       if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
         return;
       }
+      // Preserva atalhos do sistema (Ctrl/Cmd+C para copiar não pode julgar o item)
+      if (e.ctrlKey || e.metaKey || e.altKey) {
+        return;
+      }
 
       if (e.key === 'c' || e.key === 'C') {
         e.preventDefault();

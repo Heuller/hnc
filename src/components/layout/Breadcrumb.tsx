@@ -8,14 +8,14 @@ interface BreadcrumbProps {
 }
 
 export const Breadcrumb: React.FC<BreadcrumbProps> = ({ className = '' }) => {
-  const { activeView, selectedSubmodule, setActiveView } = useNavigationStore();
+  const { activeView, selectedSubmodule, contextoTeoria, setActiveView } = useNavigationStore();
 
   // Em painel inicial não é necessário exibir breadcrumb
   if (activeView === 'painel') {
     return null;
   }
 
-  const items = getBreadcrumb(activeView, selectedSubmodule);
+  const items = getBreadcrumb(activeView, selectedSubmodule, contextoTeoria);
 
   return (
     <nav

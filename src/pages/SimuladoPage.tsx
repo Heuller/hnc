@@ -284,7 +284,12 @@ export const SimuladoPage: React.FC = () => {
   // Atalhos de teclado no desktop
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) {
+      const alvo = e.target as HTMLElement;
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(alvo.tagName) || alvo.isContentEditable) {
+        return;
+      }
+      // Preserva atalhos do sistema (Ctrl/Cmd+C para copiar não pode julgar o item)
+      if (e.ctrlKey || e.metaKey || e.altKey) {
         return;
       }
 
@@ -323,7 +328,7 @@ export const SimuladoPage: React.FC = () => {
       return SUBMODULO_TEMAS[subId];
     }
     for (const macro of ALL_COURSE_MODULES) {
-      const filho = macro.modulosFilhos?.find((f: any) => f.numero === subId || f.id === subId);
+      const filho = macro.modulosFilhos?.find((f) => f.numero === subId || f.id === subId);
       if (filho) {
         const cobradoList = filho.alertasCebraspe && filho.alertasCebraspe.length > 0
           ? filho.alertasCebraspe.slice(0, 4)
@@ -568,7 +573,7 @@ export const SimuladoPage: React.FC = () => {
                 Submódulos da Disciplina {simuladoAtivo.macroModuloId} ({simuladoAtivo.tituloCurto})
               </span>
               <div className="grid grid-cols-1 gap-2.5">
-                {moduloAtualSubmodules.map((sub: any) => {
+                {moduloAtualSubmodules.map((sub) => {
                   const pendente = accessControl.submodulosPendentes.find((p) => p.id === sub.id);
                   const isConcluidoSub = !pendente;
 

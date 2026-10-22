@@ -92,6 +92,8 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
     if (etapa !== 'executando' || !itensSimulado[itemAtualIndex]) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
+
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       // Ignora se estiver digitando em input
       if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return;
 
