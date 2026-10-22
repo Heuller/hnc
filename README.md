@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-750%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-867%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -96,17 +96,18 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **750 testes** | 100% aprovados em Vitest |
-| **Arquivos de Teste** | **93 arquivos** | Cobertura de domínio, páginas e regras de banca |
-| **Qualidade e Estilo (Oxlint)** | **8 avisos, 0 erros** | 0 erros impeditivos em 420+ arquivos |
-| **Bancos de Simulados Oficiais** | **19 cadernos** | Paridade estrita 50/50 em todos os cadernos |
-| **Questões de Simulado (C/E)** | **1.930 itens** | 100% calibrados com justificativa e fonte |
+| **Suíte de Testes Automatizados** | **867 testes** | 100% aprovados em Vitest |
+| **Arquivos de Teste** | **109 arquivos** | Cobertura de domínio, páginas e regras de banca |
+| **Qualidade e Estilo (Oxlint)** | **41 avisos, 0 erros** | 0 erros impeditivos em 420+ arquivos |
+| **Bancos de Simulados Oficiais** | **20 cadernos** | Paridade estrita 50/50 em todos os cadernos |
+| **Questões de Simulado (C/E)** | **2.110 itens** | 100% calibrados com justificativa e fonte |
 | **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo |
-| **Total Global de Questões Cebraspe** | **1.999 itens** | Base exaustiva para o concurso |
+| **Total Global de Questões Cebraspe** | **2.179 itens** | Base exaustiva para o concurso |
 
 #### Distribuição dos Bancos de Simulados Cadastrados
 | Banco / ID | Título Curto | Total Itens | Gabaritos (C/E) | Paridade |
 | :--- | :--- | :---: | :---: | :---: |
+| `simulado-oficial-camara-2027` | Simulado Oficial 90+90 | **180** | 90C / 90E | 100% |
 | `m1-fundamentos` | M1 - Fundamentos | **100** | 50C / 50E | 100% |
 | `m2-catalogacao` | M2 - Catalogação | **100** | 50C / 50E | 100% |
 | `m3-classificacao` | M3 - Classificação & Tesauros | **100** | 50C / 50E | 100% |
@@ -127,7 +128,7 @@ npm run dev
 | `m10b-regimentos-camara-congresso` | M10-B - RICD & Regimento Comum | **100** | 50C / 50E | 100% |
 | `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 100% |
 | **Submódulos Teóricos** | Questões Ampliadas de Fixação | **69** | Variado | Teoria |
-| **TOTAL GERAL** | **19 Bancos + Submódulos** | **1.999** | **Equilibrado** | **Auditado** |
+| **TOTAL GERAL** | **19 Bancos + Submódulos** | **2.179** | **Equilibrado** | **Auditado** |
 <!-- METRICAS:FIM -->
 
 ---
