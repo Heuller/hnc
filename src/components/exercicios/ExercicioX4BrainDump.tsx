@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { obterTimestampAtual, calcularTempoDecorridoSegundos } from '../../utils/tempo';
 import { motion, AnimatePresence } from 'motion/react';
 import { Clock, Play, Pause, RotateCcw, CheckSquare, Square, Award } from 'lucide-react';
 import type { ExercicioX4 } from '../../domain/schemas/modulo.schema';
@@ -15,7 +16,11 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
   const [textoLivre, setTextoLivre] = useState<string>('');
   const [modoChecklist, setModoChecklist] = useState<boolean>(false);
   const [pontosMarcados, setPontosMarcados] = useState<Record<number, boolean>>({});
-  const tempoInicioRef = useRef<number>(Date.now());
+  const tempoInicioRef = useRef<number>(0);
+
+  useEffect(() => {
+    tempoInicioRef.current = obterTimestampAtual();
+  }, []);
 
   // Cronômetro regressivo
   useEffect(() => {
@@ -53,7 +58,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
       const totalMarcados = Object.values(updated).filter(Boolean).length;
       const taxa = totalMarcados / (exercicio.pontosChave.length || 1);
       const acertou = taxa >= 0.5;
-      const tempoDecorrido = Math.max(1, Math.round((Date.now() - tempoInicioRef.current) / 1000));
+      const tempoDecorrido = calcularTempoDecorridoSegundos(tempoInicioRef.current);
       onResponder?.({
         exercicioId: exercicio.id,
         tipo: 'X4',
@@ -71,7 +76,7 @@ export const ExercicioX4BrainDump: React.FC<ExercicioProps<ExercicioX4>> = ({
     setTextoLivre('');
     setModoChecklist(false);
     setPontosMarcados({});
-    tempoInicioRef.current = Date.now();
+    tempoInicioRef.current = obterTimestampAtual();
   };
 
   const totalMarcados = Object.values(pontosMarcados).filter(Boolean).length;

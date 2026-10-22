@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { obterTimestampAtual, calcularTempoDecorridoSegundos } from '../../utils/tempo';
 import { motion, AnimatePresence } from 'motion/react';
 import { AlertTriangle, CheckCircle2, XCircle, RotateCcw, Crosshair } from 'lucide-react';
 import type { ExercicioX9 } from '../../domain/schemas/modulo.schema';
@@ -10,7 +11,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
   disabled = false,
 }) => {
   const [indiceSelecionado, setIndiceSelecionado] = useState<number | null>(null);
-  const [tempoInicio] = useState<number>(() => Date.now());
+  const [tempoInicio] = useState<number>(obterTimestampAtual);
 
   const isRespondido = indiceSelecionado !== null;
 
@@ -35,7 +36,7 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
     if (isRespondido || disabled) return;
     setIndiceSelecionado(idx);
     const correto = idx === indiceCorreto;
-    const tempoSegundos = Math.max(1, Math.round((Date.now() - tempoInicio) / 1000));
+    const tempoSegundos = calcularTempoDecorridoSegundos(tempoInicio);
     onResponder?.({
       exercicioId: exercicio.id,
       tipo: 'X9',

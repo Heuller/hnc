@@ -1,6 +1,6 @@
 import ts from 'typescript';
 import fs from 'node:fs';
-import path from 'node:path';
+
 
 function extractQuestionsFromTsFile(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
