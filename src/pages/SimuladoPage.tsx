@@ -464,6 +464,14 @@ export const SimuladoPage: React.FC = () => {
               >
                 {sim.questoes.length}Q
               </span>
+              {Boolean(sim.itensForaConferencia) && (
+                <span
+                  title={`${sim.itensForaConferencia} itens em conferência fora desta prova`}
+                  className="font-mono text-[10px] px-1 py-0.2 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30"
+                >
+                  -{sim.itensForaConferencia} conf.
+                </span>
+              )}
             </button>
           );
         })}
@@ -502,6 +510,18 @@ export const SimuladoPage: React.FC = () => {
       return (
         <div className="max-w-3xl mx-auto py-8 sm:py-12 px-4 space-y-6 animate-fadeIn">
           {renderSimuladoSelector()}
+
+      {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
+      {Boolean(simuladoAtivo.itensForaConferencia) && (
+        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-amber-600 dark:text-amber-400">
+          <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+          <span className="font-sans">
+            <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
+            <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
+            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Nenhum item sob divergência é servido ao aluno.
+          </span>
+        </div>
+      )}
           <div className="bg-surface rounded-2xl border border-border p-6 sm:p-8 shadow-editorial-sm space-y-6 text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 pb-6 border-b border-border">
               <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 shrink-0">
@@ -1272,6 +1292,18 @@ export const SimuladoPage: React.FC = () => {
       </div>
 
       {renderSimuladoSelector()}
+
+      {/* Aviso de Itens em Conferência Fora do Simulado (C8 / C14) */}
+      {Boolean(simuladoAtivo.itensForaConferencia) && (
+        <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-2.5 text-xs text-amber-600 dark:text-amber-400">
+          <AlertTriangle className="w-4 h-4 shrink-0 text-amber-500" />
+          <span className="font-sans">
+            <strong>Itens em conferência isolados:</strong> Este caderno possui{" "}
+            <strong>{simuladoAtivo.itensForaConferencia} {simuladoAtivo.itensForaConferencia === 1 ? "item" : "itens"} em conferência fora desta prova</strong>{" "}
+            ({simuladoAtivo.questoes.length} itens ativos de {simuladoAtivo.totalNominal || 100} nominais). Nenhum item sob divergência é servido ao aluno.
+          </span>
+        </div>
+      )}
 
       {/* Banner de Modo Reteste de Erros */}
       {itensFiltradosReteste && (

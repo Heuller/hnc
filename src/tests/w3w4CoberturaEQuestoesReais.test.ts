@@ -47,7 +47,7 @@ describe('Missão v2 — Fase 3: W3 (Auditoria e Matriz de Cobertura) & W4/P18 (
         expect(q.fonteOriginal?.descricao.length).toBeGreaterThanOrEqual(5);
         expect(q.justificativa.length).toBeGreaterThanOrEqual(30);
         expect(q.armadilhaBanca).toBeDefined();
-        expect(['real-confirmada', 'adaptada', 'inedita']).toContain(q.fonteOriginal.tipo);
+        expect(['real-confirmada', 'adaptada', 'inedita', 'em-conferencia']).toContain(q.fonteOriginal.tipo);
       });
     });
 
@@ -63,7 +63,7 @@ describe('Missão v2 — Fase 3: W3 (Auditoria e Matriz de Cobertura) & W4/P18 (
         expect(q.contexto).toBeDefined();
         expect(q.contexto!.length).toBeGreaterThanOrEqual(20);
         expect(q.item.length).toBeGreaterThanOrEqual(25);
-        expect(['real-confirmada', 'adaptada', 'inedita']).toContain(q.fonteOriginal.tipo);
+        expect(['real-confirmada', 'adaptada', 'inedita', 'em-conferencia']).toContain(q.fonteOriginal.tipo);
       });
     });
 

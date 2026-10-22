@@ -39,8 +39,8 @@ describe('T9.3: Contagens e Rótulos Dinâmicos na Interface (Plano v3)', () => 
 
     // 1.850 questões de simulados
     const somaSimulados =
-      SIMULADOS_REGISTRY.reduce((acc, sim) => acc + sim.questoes.length, 0) +
-      MINI_SIMULADOS_REGISTRY.reduce((acc, sim) => acc + sim.questoes.length, 0) +
+      SIMULADOS_REGISTRY.reduce((acc, sim) => acc + (sim.totalNominal ?? sim.questoes.length), 0) +
+      MINI_SIMULADOS_REGISTRY.reduce((acc, sim) => acc + (sim.totalNominal ?? sim.questoes.length), 0) +
       megaSimuladoCamara120Q.length +
       simuladoGeral180Q.length;
     expect(metricas.totalItensSimulados).toBe(somaSimulados);

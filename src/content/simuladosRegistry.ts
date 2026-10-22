@@ -1,3 +1,4 @@
+import { filtrarQuestoesElegiveis } from '../domain/questoesElegiveis';
 import type { CebraspeQuestion } from '../domain/types';
 import { simuladoFundamentos100Q } from './questions/m1-fundamentos-100q';
 import { simuladoCatalogacao100Q } from './questions/m2-catalogacao-100q';
@@ -30,9 +31,24 @@ export interface SimuladoManifest {
   descricao: string;
   questoes: CebraspeQuestion[];
   submodulosIds: string[];
+  totalNominal?: number;
+  itensForaConferencia?: number;
+}
+
+function processarManifest(m: SimuladoManifest): SimuladoManifest {
+  const questoesBrutas = m.questoes;
+  const elegiveis = filtrarQuestoesElegiveis(questoesBrutas);
+  const fora = questoesBrutas.length - elegiveis.length;
+  return {
+    ...m,
+    questoes: elegiveis,
+    totalNominal: questoesBrutas.length,
+    itensForaConferencia: fora > 0 ? fora : undefined,
+  };
 }
 
 export const MINI_SIMULADOS_REGISTRY: SimuladoManifest[] = [
+
   {
     id: 'mini-modulo-orgaos',
     macroModuloId: 'm2-5',
@@ -45,9 +61,10 @@ export const MINI_SIMULADOS_REGISTRY: SimuladoManifest[] = [
     questoes: simuladoOrgaosGov30Q,
     submodulosIds: ['2.5'],
   },
-];
+].map(processarManifest);
 
 export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
+
   {
     id: 'm1-fundamentos',
     macroModuloId: 'M1',
@@ -231,9 +248,10 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
       '1.1', '2.1', '3.1', '4.1', '5.1', '6.1', '7.1', '8.1', '9.1', '10.1'
     ],
   },
-];
+].map(processarManifest);
 
 export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
+
 
   {
     id: 'm10a-legislativo-constituicao',
@@ -276,9 +294,10 @@ export const SIMULADOS_FASE8_REGISTRY: SimuladoManifest[] = [
       '8.1', '8.2', '8.3', '8.4', '8.5', '9.1', '9.2', '9.3', '9.4', '10.1', '10.2', '10.3', '10.4', '10.5', '10.6', '10.7', '10.8'
     ],
   },
-];
+].map(processarManifest);
 
 export const SIMULADOS_OFICIAIS_REGISTRY: SimuladoManifest[] = [
+
   {
     id: 'simulado-oficial-camara-2027',
     macroModuloId: 'OFICIAL2027',
@@ -298,7 +317,7 @@ export const SIMULADOS_OFICIAIS_REGISTRY: SimuladoManifest[] = [
       '8.1', '8.2', '8.3', '8.4', '8.5', '9.1', '9.2', '9.3', '9.4', '10.3', '10.4', '10.7', '10.8'
     ],
   },
-];
+].map(processarManifest);
 
 export const ALL_SIMULADOS_REGISTRY: SimuladoManifest[] = [
   ...SIMULADOS_OFICIAIS_REGISTRY,

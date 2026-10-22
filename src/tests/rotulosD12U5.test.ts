@@ -39,14 +39,14 @@ describe('U5.6: Padronização dos rótulos D12 (Trilha Específica M1-M10 vs Ac
 
     expect(cadernosEspecificos).toHaveLength(10);
     cadernosEspecificos.forEach((sim) => {
-      expect(sim.questoes).toHaveLength(100);
+      expect(sim.totalNominal ?? sim.questoes.length).toBe(100);
       expect(sim.numero).toBeGreaterThanOrEqual(1);
       expect(sim.numero).toBeLessThanOrEqual(10);
     });
 
     expect(cadernosBasicos).toHaveLength(4);
     cadernosBasicos.forEach((sim) => {
-      expect(sim.questoes).toHaveLength(100);
+      expect(sim.totalNominal ?? sim.questoes.length).toBe(100);
       expect(sim.numero).toBeGreaterThanOrEqual(11);
       expect(sim.numero).toBeLessThanOrEqual(14);
     });

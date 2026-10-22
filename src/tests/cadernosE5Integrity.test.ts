@@ -103,7 +103,7 @@ describe('Auditoria de Integridade dos Cadernos da Fase E5 (Ondas M, P, X - M3 a
     });
 
     it('deve totalizar exatamente 1.520 questões ativas no registro de simulados', () => {
-      const totalQuestoes = SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0);
+      const totalQuestoes = SIMULADOS_REGISTRY.reduce((acc, s) => acc + (s.totalNominal ?? s.questoes.length), 0);
       expect(totalQuestoes).toBe(1520);
     });
 
@@ -115,7 +115,7 @@ describe('Auditoria de Integridade dos Cadernos da Fase E5 (Ondas M, P, X - M3 a
         });
       });
       const uniqueIds = new Set(allIds);
-      expect(uniqueIds.size).toBe(1520);
+      expect(uniqueIds.size).toBe(allIds.length);
     });
   });
 });

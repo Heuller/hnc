@@ -7,6 +7,7 @@ export interface InfoProveniencia {
   isReal: boolean;
   isAdaptada: boolean;
   isInedita: boolean;
+  isEmConferencia?: boolean;
   verificado: boolean;
   textoRodape: string;
 }
@@ -21,6 +22,10 @@ export const REGEX_TERMOS_PROIBIDOS_INEDITA = /gabarito oficial|cobrado no concu
  * O campo declaracaoLegada é preservado internamente e NUNCA exibido aqui.
  */
 export function obterTextoRodapeProveniencia(fonteOriginal?: FonteOriginal): string {
+  if (fonteOriginal?.tipo === 'em-conferencia') {
+    return 'Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.';
+  }
+
   if (!fonteOriginal || fonteOriginal.tipo === 'inedita') {
     return 'Item inédito autoral para fixação doutrinária (sem concurso prévio associado).';
   }
@@ -81,6 +86,20 @@ export function obterInfoProveniencia(fonteOriginal?: FonteOriginal): InfoProven
       isAdaptada: true,
       isInedita: false,
       verificado: Boolean(fonteOriginal.verificado),
+      textoRodape,
+    };
+  }
+
+  if (fonteOriginal.tipo === 'em-conferencia') {
+    return {
+      rotulo: 'Em conferência',
+      detalhe: 'Divergência sob análise',
+      badgeClass: 'bg-rose-500/10 text-rose-700 dark:text-rose-300 border-rose-500/30',
+      isReal: false,
+      isAdaptada: false,
+      isInedita: false,
+      isEmConferencia: true,
+      verificado: false,
       textoRodape,
     };
   }

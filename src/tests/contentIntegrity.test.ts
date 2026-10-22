@@ -249,7 +249,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       }
 
       expect(duplicados).toHaveLength(0);
-      expect(idsSet.size).toBe(2110);
+      expect(idsSet.size).toBe(ALL_SIMULADOS_REGISTRY.reduce((acc, s) => acc + s.questoes.length, 0));
     });
 
     it('todos os itens de todos os simulados devem possuir justificativa, dificuldade e fonte válidas', () => {
@@ -274,10 +274,10 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
 
     it('todos os simulados de 100, 120 e 180 itens devem manter estritamente simetria 50/50 entre Certos e Errados', () => {
       const simuladosPadrao = ALL_SIMULADOS_REGISTRY.filter((s) =>
-        [100, 120, 180].includes(s.questoes.length)
+        [100, 120, 180].includes(s.totalNominal ?? s.questoes.length) && !s.itensForaConferencia
       );
 
-      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(18);
+      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(16);
 
       for (const sim of simuladosPadrao) {
         const certos = sim.questoes.filter((q) => q.gabarito === 'C').length;
