@@ -103,14 +103,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-523"
+        "origemAcervoLocal": "cespe-cad-523"
       }
   },
   {
@@ -465,14 +465,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / CNJ / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-103212",
-      "ano": 2013,
-      "orgao": "CNJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / CNJ / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-103212",
+        "ano": 2013,
+        "orgao": "CNJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "103212"
+      }
   },
   {
     "id": "m4-q-28",
@@ -620,14 +621,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANEEL/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "ANEEL/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-672"
+        "origemAcervoLocal": "cespe-cad-672"
       }
   },
   {
@@ -642,14 +643,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2015 / 2015",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
         "verificado": true,
         "provaId": "TJDFT/2015",
         "ano": 2015,
         "orgao": "2015",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-608"
+        "origemAcervoLocal": "cespe-cad-608"
       }
   },
   {
@@ -664,14 +665,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso BASA/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "BASA/2012",
         "ano": 2012,
         "orgao": "2012",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-645"
+        "origemAcervoLocal": "cespe-cad-645"
       }
   },
   {
@@ -720,14 +721,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "CNJ/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-599"
+        "origemAcervoLocal": "cespe-cad-599"
       }
   },
   {
@@ -793,14 +794,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-684"
+        "origemAcervoLocal": "cespe-cad-684"
       }
   },
   {
@@ -845,18 +846,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 4.2, julgue o item a seguir.",
     "item": "A RVBI é uma rede cooperativa que, coordenada pela Biblioteca do Senado Federal, é composta por bibliotecas dos Poderes Legislativo, Executivo e Judiciário que compartilham recursos bibliográficos e estruturam suas bases de dados de forma inter-relacionada, a fim de facilitar a recuperação da informação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPE-CE/2025 (Biblioteconomia), avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPE-CE/2025 (Biblioteconomia).",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPE CE / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3373069",
-      "ano": 2025,
-      "orgao": "MPE CE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / MPE CE / 2025"
+      }
   },
   {
     "id": "m4-q-48",
@@ -884,17 +882,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "item": "A Rede Virtual de Bibliotecas do Congresso Nacional (RVBI) é uma rede cooperativa de bibliotecas que agrega recursos bibliográficos, materiais e humanos de variadas bibliotecas da administração pública federal, do governo do Distrito Federal e dos Poderes Legislativo, Executivo e Judiciário.",
     "gabarito": "C",
     "justificativa": "A Rede Virtual de Bibliotecas (RVBI) é uma rede cooperativa de bibliotecas, coordenada pela Bib lioteca do Senado Federal, que agrega recursos bibliográficos, materiais e humanos de doze bibliotecas da administração pública federal e do governo do Distrito Federal, dos Poderes Legislativo, Executivo e Judiciário, com o objetivo de atender às demandas de informações bibliográficas de seus órgãos mantenedores.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso PC-DF/2025 (Bibliotecário).",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / PC DF / 2025",
-      "verificado": true,
-      "provaId": "TecConcursos-3240838",
-      "ano": 2025,
-      "orgao": "PC DF",
-      "banca": "Cebraspe"
-    }
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "declaracaoLegada": "Cebraspe / PC DF / 2025"
+      }
   },
   {
     "id": "m4-q-50",
@@ -908,14 +903,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-685"
+        "origemAcervoLocal": "cespe-cad-685"
       }
   },
   {
@@ -947,14 +942,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-227"
+        "origemAcervoLocal": "cespe-cad-227"
       }
   },
   {
@@ -991,14 +986,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-230"
+        "origemAcervoLocal": "cespe-cad-230"
       }
   },
   {
@@ -1103,14 +1098,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-225"
+        "origemAcervoLocal": "cespe-cad-225"
       }
   },
   {
@@ -1259,14 +1254,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436541",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436541",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436541"
+      }
   },
   {
     "id": "m4-q-69",
@@ -1331,14 +1327,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-218"
+        "origemAcervoLocal": "cespe-cad-218"
       }
   },
   {
@@ -1414,14 +1410,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / SERPRO / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-436542",
-      "ano": 2013,
-      "orgao": "SERPRO",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / SERPRO / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-436542",
+        "ano": 2013,
+        "orgao": "SERPRO",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "436542"
+      }
   },
   {
     "id": "m4-q-77",
@@ -1452,14 +1449,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / STJ / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-104037",
-      "ano": 2012,
-      "orgao": "STJ",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / STJ / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-104037",
+        "ano": 2012,
+        "orgao": "STJ",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "104037"
+      }
   },
   {
     "id": "m4-q-79",
@@ -1508,18 +1506,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de serviço de referência, julgue os itens seguintes.",
     "item": "O processo de referência, dada a sua natureza subjetiva, visto que envolve negociação entre usu á- rio e bibliotecário, é de difícil avaliação e mensuração.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ECT/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ECT/2011.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2011 / 2011",
-        "verificado": true,
-        "provaId": "ECT/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-273"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-273",
+        "declaracaoLegada": "Cebraspe / 2011 / 2011"
       }
   },
   {
@@ -1551,14 +1546,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / CADE / 2014",
-      "verificado": true,
-      "provaId": "TecConcursos-185311",
-      "ano": 2014,
-      "orgao": "CADE",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / CADE / 2014",
+        "verificado": true,
+        "provaId": "TecConcursos-185311",
+        "ano": 2014,
+        "orgao": "CADE",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "185311"
+      }
   },
   {
     "id": "m4-q-84",
@@ -1641,18 +1637,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens a seguir, que versam sobre os serviços de referência.",
     "item": "Por sua natureza, serviços de referência não podem constituir objeto de cooperação entre bibli o- tecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "CAPES/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-233"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-233",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1723,14 +1716,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-181034",
-      "ano": 2012,
-      "orgao": "TJ RR",
-      "banca": "Cebraspe"
-    }
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / TJ RR / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-181034",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "181034"
+      }
   },
   {
     "id": "m4-q-93",
@@ -1808,18 +1802,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens a seguir, que versam sobre os serviços de referência.",
     "item": "Na representação de um ciclo da informação, os serviço s de referência estão funcionalmente sit u- ados na fase de disseminação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "CAPES/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-232"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-232",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1847,18 +1838,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens a seguir, que versam sobre os serviços de referência.",
     "item": "O processo de referência é linear e abrange a totalidade de procedimentos adotados pelo bibliot e- cário ao responder as questões que lhe são apresentadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
-        "verificado": true,
-        "provaId": "CAPES/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-231"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-231",
+        "declaracaoLegada": "Cebraspe / 2012 / 2012"
       }
   },
   {
@@ -1873,14 +1861,14 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-226"
+        "origemAcervoLocal": "cespe-cad-226"
       }
   }
 ];

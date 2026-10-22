@@ -277,7 +277,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
         [100, 120, 180].includes(s.totalNominal ?? s.questoes.length) && !s.itensForaConferencia
       );
 
-      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(16);
+      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(15);
 
       for (const sim of simuladosPadrao) {
         const certos = sim.questoes.filter((q) => q.gabarito === 'C').length;

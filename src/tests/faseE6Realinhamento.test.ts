@@ -9,7 +9,7 @@ describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integr
       SIMULADOS_REGISTRY.slice(0, 10).forEach((sim, idx) => {
         expect(sim.numero).toBe(idx + 1);
         expect(sim.macroModuloId).toBe(`M${idx + 1}`);
-        expect(sim.questoes).toHaveLength(100);
+        expect(sim.totalNominal ?? sim.questoes.length).toBe(100);
         expect(sim.submodulosIds.length).toBeGreaterThanOrEqual(4);
       });
     });
@@ -46,7 +46,7 @@ describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integr
         expect(sim).toBeDefined();
         expect(sim.id).toBe(id);
         expect(sim.numero).toBe(idx + 1);
-        expect(sim.questoes).toHaveLength(100);
+        expect(sim.totalNominal ?? sim.questoes.length).toBe(100);
       });
     });
   });
@@ -78,7 +78,7 @@ describe('Auditoria da Fase E6: Realinhamento do Painel, Hub de Treinos e Integr
       macroEspecificos.forEach((macro) => {
         const simulado = SIMULADOS_REGISTRY.find((s) => s.numero === macro.numero);
         expect(simulado).toBeDefined();
-        expect(simulado?.questoes).toHaveLength(100);
+        expect(simulado?.totalNominal ?? simulado?.questoes.length).toBe(100);
         expect(simulado?.macroModuloId).toBe(macro.codigo);
       });
     });

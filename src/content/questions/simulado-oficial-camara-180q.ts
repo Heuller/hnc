@@ -532,14 +532,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2015 / 2015",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
         "verificado": true,
         "provaId": "TJDFT/2015",
         "ano": 2015,
         "orgao": "2015",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1142"
+        "origemAcervoLocal": "cespe-cad-1142"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -557,14 +557,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2356"
+        "origemAcervoLocal": "cespe-tec-2356"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -582,15 +582,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "real-confirmada",
-      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-      "verificado": true,
-      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-      "ano": 2026,
-      "orgao": "Câmara dos Deputados",
-      "banca": "Cebraspe",
-      "questaoOriginalId": "cespe-tec-2372"
-},
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+        "verificado": true,
+        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+        "ano": 2026,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2372"
+      },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -607,14 +607,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2357"
+        "origemAcervoLocal": "cespe-tec-2357"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -628,18 +628,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2364"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2364",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -657,14 +654,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
         "ano": 2014,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2361"
+        "origemAcervoLocal": "cespe-tec-2361"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -682,14 +679,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2365"
+        "origemAcervoLocal": "cespe-tec-2365"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -707,17 +704,17 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "em-conferencia",
-      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-      "verificado": false,
-      "revisar": true,
-      "statusConferencia": "em-conferencia",
-      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-      "ano": 2014,
-      "orgao": "Câmara dos Deputados",
-      "banca": "Cebraspe",
-      "questaoOriginalId": "cespe-tec-2386"
-},
+        "tipo": "em-conferencia",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+        "verificado": false,
+        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+        "ano": 2014,
+        "orgao": "Câmara dos Deputados",
+        "banca": "Cebraspe",
+        "origemAcervoLocal": "cespe-tec-2386",
+        "revisar": true,
+        "statusConferencia": "em-conferencia"
+      },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -734,14 +731,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
         "verificado": true,
         "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
         "ano": 2026,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2366"
+        "origemAcervoLocal": "cespe-tec-2366"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -755,18 +752,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2371"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2371",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -784,14 +778,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
         "ano": 2012,
         "orgao": "Câmara dos Deputados",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2367"
+        "origemAcervoLocal": "cespe-tec-2367"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -805,18 +799,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2373"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2373",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -830,18 +821,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. By using the expressions “‘advocacy’ role” (second sentence of the second paragraph) and “advocacy agenda” (forth sentence of the third paragraph), the author is referring specifically to people who have a degree in law and work in the legislative branch.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
+    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-tec-2368"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-tec-2368",
+        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
       },
     "provaBloco": "P1_BASICOS"
   },
@@ -2452,14 +2440,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRE-BA/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1204"
+        "origemAcervoLocal": "cespe-cad-1204"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2517,14 +2505,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1213"
+        "origemAcervoLocal": "cespe-cad-1213"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2562,14 +2550,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1199"
+        "origemAcervoLocal": "cespe-cad-1199"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2587,14 +2575,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "CNJ/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1118"
+        "origemAcervoLocal": "cespe-cad-1118"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2797,14 +2785,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2016 / 2016",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
         "verificado": true,
         "provaId": "DPU/2016",
         "ano": 2016,
         "orgao": "2016",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-523"
+        "origemAcervoLocal": "cespe-cad-523"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2847,14 +2835,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2012 / 2012",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
         "verificado": true,
         "provaId": "ECT/2012",
         "ano": 2012,
         "orgao": "2012",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-371"
+        "origemAcervoLocal": "cespe-cad-371"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -2937,14 +2925,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "real-confirmada",
-      "descricao": "Cebraspe / TJ RR / 2012",
-      "verificado": true,
-      "provaId": "TecConcursos-181040",
-      "ano": 2012,
-      "orgao": "TJ RR",
-      "banca": "Cebraspe"
-    },
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / TJ RR / 2012",
+        "verificado": true,
+        "provaId": "TecConcursos-181040",
+        "ano": 2012,
+        "orgao": "TJ RR",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "181040"
+      },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -2981,14 +2970,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRT21/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-440"
+        "origemAcervoLocal": "cespe-cad-440"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3006,14 +2995,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-244"
+        "origemAcervoLocal": "cespe-cad-244"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3071,14 +3060,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "FUB/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1596"
+        "origemAcervoLocal": "cespe-cad-1596"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3116,14 +3105,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2009 / 2009",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
         "verificado": true,
         "provaId": "ANATEL/2009",
         "ano": 2009,
         "orgao": "2009",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-244"
+        "origemAcervoLocal": "cespe-cad-244"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3206,14 +3195,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
         "verificado": true,
         "provaId": "ANTT/2013",
         "ano": 2013,
         "orgao": "2013",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-892"
+        "origemAcervoLocal": "cespe-cad-892"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3306,14 +3295,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1302"
+        "origemAcervoLocal": "cespe-cad-1302"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3406,14 +3395,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1645"
+        "origemAcervoLocal": "cespe-cad-1645"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3451,14 +3440,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2017 / 2017",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
         "verificado": true,
         "provaId": "ABIN/2017",
         "ano": 2017,
         "orgao": "2017",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1813"
+        "origemAcervoLocal": "cespe-cad-1813"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3472,18 +3461,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Várias normas editadas pela ABNT especificam os princípios gerais para a elaboração",
     "item": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresent a- ção do endereço eletrônico, que deve ser apresentado entre os sinais < >, precedido da e x- pressão “Disponível em:” e a data de aces so ao documento, precedida da expressão “Acesso em:”.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
+    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
+    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2013 / 2013",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1876"
+        "tipo": "inedita",
+        "descricao": "Inédita, sem prova de origem",
+        "verificado": false,
+        "origemAcervoLocal": "cespe-cad-1876",
+        "declaracaoLegada": "Cebraspe / 2013 / 2013"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3546,14 +3532,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "MPU/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1911"
+        "origemAcervoLocal": "cespe-cad-1911"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3571,14 +3557,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRT21/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-1819"
+        "origemAcervoLocal": "cespe-cad-1819"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3661,14 +3647,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2010 / 2010",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
         "verificado": true,
         "provaId": "TRT21/2010",
         "ano": 2010,
         "orgao": "2010",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-568"
+        "origemAcervoLocal": "cespe-cad-568"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3706,14 +3692,14 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / 2018 / 2018",
+        "tipo": "adaptada",
+        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
         "verificado": true,
         "provaId": "STJ/2018",
         "ano": 2018,
         "orgao": "2018",
         "banca": "Cebraspe",
-        "questaoOriginalId": "cespe-cad-113"
+        "origemAcervoLocal": "cespe-cad-113"
       },
     "provaBloco": "P2_ESPECIFICOS"
   },
@@ -3991,14 +3977,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "real-confirmada",
-      "descricao": "Cebraspe / MPU / 2013",
-      "verificado": true,
-      "provaId": "TecConcursos-228951",
-      "ano": 2013,
-      "orgao": "MPU",
-      "banca": "Cebraspe"
-    },
+        "tipo": "real-confirmada",
+        "descricao": "Cebraspe / MPU / 2013",
+        "verificado": true,
+        "provaId": "TecConcursos-228951",
+        "ano": 2013,
+        "orgao": "MPU",
+        "banca": "Cebraspe",
+        "questaoOriginalId": "228951"
+      },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
