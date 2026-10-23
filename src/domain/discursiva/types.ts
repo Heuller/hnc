@@ -16,6 +16,7 @@ export interface TemaDiscursiva {
   limiteLinhas: number;
   padraoRespostaPreliminar: string;
   criteriosPontuacao: CriterioPontuacao[];
+  textoModeloResposta?: string;
 }
 
 export interface ErroGramaticalCebraspe {

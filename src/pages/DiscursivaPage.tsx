@@ -539,7 +539,7 @@ export const DiscursivaPage: React.FC = () => {
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono font-bold uppercase text-ink flex items-center gap-1.5">
                   <Award className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
-                  <span>Padrão Preliminar Cebraspe</span>
+                  <span>Padrão de Resposta (Modelo do HNC, não é padrão do Cebraspe)</span>
                 </span>
                 <button
                   type="button"

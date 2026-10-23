@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 
 interface EspelhoCorrecaoCebraspeProps {
+  textoModeloResposta?: string;
   avaliacao: AvaliacaoCebraspe;
   onNovaCorrecao?: () => void;
 }
@@ -20,6 +21,7 @@ interface EspelhoCorrecaoCebraspeProps {
 export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = ({
   avaliacao,
   onNovaCorrecao,
+  textoModeloResposta,
 }) => {
   const [criterioExpandido, setCriterioExpandido] = useState<number | null>(null);
 
@@ -148,7 +150,25 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         </span>
       </div>
 
-      {/* Quesitos de Conteúdo Avaliados (Padrão de Resposta) */}
+            {/* Texto Modelo de Resposta HNC */}
+      {textoModeloResposta && (
+        <div className="p-4 sm:p-5 rounded-xl bg-purple-50/40 dark:bg-purple-950/20 border border-purple-200/70 dark:border-purple-800/60 space-y-3">
+          <div className="flex items-center justify-between gap-2 border-b border-purple-200/50 dark:border-purple-800/40 pb-2">
+            <span className="text-xs font-mono font-bold uppercase text-purple-900 dark:text-purple-300 flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
+              <span>Texto Modelo de Resposta (Modelo do HNC, não é padrão do Cebraspe)</span>
+            </span>
+            <span className="text-[11px] font-mono text-purple-700/80 dark:text-purple-300/70">
+              Gabarito Pedagógico Integral
+            </span>
+          </div>
+          <div className="text-xs font-serif leading-relaxed text-ink space-y-2 whitespace-pre-line">
+            {textoModeloResposta}
+          </div>
+        </div>
+      )}
+
+{/* Quesitos de Conteúdo Avaliados (Padrão de Resposta) */}
       <div className="space-y-3">
         <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-ink flex items-center gap-1.5">
           <Award className="w-4 h-4 text-purple-600 dark:text-purple-400" />
