@@ -1,6 +1,6 @@
 // Mede a cobertura dos campos de estudo reverso no banco de questões.
-import { ALL_SIMULADOS_REGISTRY, MINI_SIMULADOS_REGISTRY } from '../src/content/simuladosRegistry';
-import type { CebraspeQuestion } from '../src/domain/schemas/question.schema';
+import { ALL_SIMULADOS_REGISTRY, MINI_SIMULADOS_REGISTRY } from '../src/content/simuladosRegistry.ts';
+import type { CebraspeQuestion } from '../src/domain/schemas/question.schema.ts';
 
 const vistos = new Map<string, CebraspeQuestion>();
 for (const m of [...ALL_SIMULADOS_REGISTRY, ...MINI_SIMULADOS_REGISTRY]) for (const q of m.questoes) vistos.set(q.id, q);

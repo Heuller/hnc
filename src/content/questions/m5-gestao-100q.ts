@@ -9,11 +9,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos a estudo de usuários e necessidades de info r-",
     "item": "Entre as ações de planejamento de um sistema de informação devem constar os estudos de us a- bilidade, realizados com base no entendimento da interação com o usuário, a fim de identificar as melhorias necessárias ao sistema de informação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a- bilidade, realizados com base no entendimento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -21,7 +21,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436553"
-    }
+    },
+    "gatilho": "a- bilidade, realizados com base no entendimento",
+    "versao_errada": "Entre as ações de planejamento de um sistema de informação devem constar os estudos de us indevidamente a- bilidade, realizados com base no entendimento da interação com o usuário, a fim de identificar as melhorias necessárias ao sistema de informação."
   },
   {
     "id": "m5-q-2",
@@ -31,11 +33,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de estudo de u suário e técnicas de levantamento de dados, julgue os",
     "item": "A qualidade da técnica de entrevista como coleta de dados de usuários depende da elaboração das fases d o planejamento, que compreendem a escolha do entrevistado, a oportunidade da entrevista, as condições de confidencialidade e a preparação do roteiro.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"fases d o planejamento, que compreendem a\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
@@ -43,7 +45,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "ANTT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-206236"
-    }
+    },
+    "gatilho": "fases d o planejamento, que compreendem a",
+    "versao_errada": "A qualidade da técnica de entrevista como coleta de dados de usuários depende da elaboração das indevidamente fases d o planejamento, que compreendem a escolha do entrevistado, a oportunidade da entrevista, as condições de confidencialidade e a preparação do roteiro."
   },
   {
     "id": "m5-q-3",
@@ -53,19 +57,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários em bibliotecas universitárias, julgue os próximos",
     "item": "Os resultados dos estudos de usuários devem ser generalizáveis, visto que nortearão as ações de planejamento nas bibliotecas universitárias.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ECT/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"visto que nortearão as ações de planejamento nas bibliotecas universitárias\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "ECT/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-371"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "ECT/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-371"
+    },
+    "gatilho": "visto que nortearão as ações de planejamento nas bibliotecas universitárias",
+    "versao_correta": "Os resultados dos estudos de usuários devem ser generalizáveis, [corretamente formatado: visto que nortearão as ações de planejamento nas bibliotecas universitárias]."
   },
   {
     "id": "m5-q-4",
@@ -76,13 +82,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "Em bibliotecas públicas e legislativas, a política de desenvolvimento de coleções pode prescindir de documento escrito formalizado, bastando a tradição oral e a memória individual do bibliotecário mais antigo da seção.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A política de desenvolvimento de coleções deve ser expressa em documento formal, escrito, público e aprovado pela autoridade competente da instituição, a fim de garantir continuidade administrativa, transparência e impessoalidade.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar formalização escrita da política de coleções.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "bastando a tradição oral e a memória individual do bibliotecário mais antigo da seção",
+    "versao_correta": "Em bibliotecas públicas e legislativas, a política de desenvolvimento de coleções pode prescindir de documento escrito formalizado, [corretamente formatado: bastando a tradição oral e a memória individual do bibliotecário mais antigo da seção]."
   },
   {
     "id": "m5-q-5",
@@ -92,19 +100,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens referentes aos estudos de usuários.",
     "item": "A estrutura de uma entrevista elaborada no âmbito de uma pesquisa quantitativa apresenta as seguintes características: baixo grau de estruturas impositivas, preponderância de questões abertas e foco em situações específicas e sequências de ações do mundo do entrevistado.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"e sequências de ações do mundo do entrevistado\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-181040",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "181040"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-181040",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "181040"
+    },
+    "gatilho": "e sequências de ações do mundo do entrevistado",
+    "versao_correta": "A estrutura de uma entrevista elaborada no âmbito de uma pesquisa quantitativa apresenta as seguintes características: baixo grau de estruturas impositivas, preponderância de questões abertas e foco em situações específicas [corretamente formatado: e sequências de ações do mundo do entrevistado]."
   },
   {
     "id": "m5-q-6",
@@ -114,14 +124,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A comissão de seleção em uma biblioteca universitária ou parlamentar tem como atribuição assessorar a equipe de bibliotecários na tomada de decisão sobre novos títulos, garantindo a representatividade de diferentes áreas do conhecimento e correntes doutrinárias.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A comissão de seleção (composta por bibliotecários e representantes dos usuários/especialistas) democratiza as escolhas, equilibra demandas setoriais e previne direcionamentos tendenciosos.",
-    "armadilhaBanca": "Função da comissão de seleção.",
+    "justificativa": "Gabarito CERTO. A comissão de seleção (composta por bibliotecários e representantes dos usuários/especialistas) democratiza as escolhas, equilibra demandas setoriais e previne direcionamentos tendenciosos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "equipe de bibliotecários na tomada de decisão",
+    "versao_errada": "A comissão de seleção em uma biblioteca universitária ou parlamentar tem como atribuição assessorar a indevidamente equipe de bibliotecários na tomada de decisão sobre novos títulos, garantindo a representatividade de diferentes áreas do conhecimento e correntes doutrinárias."
   },
   {
     "id": "m5-q-7",
@@ -131,14 +143,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A permuta de publicações entre bibliotecas governamentais e instituições de ensino constitui modalidade de aquisição que valoriza a produção editorial própria do órgão (edições da Câmara dos Deputados) e economiza recursos orçamentários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A permuta baseia-se na troca recíproca de publicações oficiais e institucionais, ampliando o acervo histórico e técnico sem desembolso financeiro direto.",
-    "armadilhaBanca": "Modalidade de permuta em bibliotecas públicas.",
+    "justificativa": "Gabarito CERTO. A permuta baseia-se na troca recíproca de publicações oficiais e institucionais, ampliando o acervo histórico e técnico sem desembolso financeiro direto. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "de aquisição que valoriza a produção editorial",
+    "versao_errada": "A permuta de publicações entre bibliotecas governamentais e instituições de ensino constitui modalidade indevidamente de aquisição que valoriza a produção editorial própria do órgão (edições da Câmara dos Deputados) e economiza recursos orçamentários."
   },
   {
     "id": "m5-q-8",
@@ -148,19 +162,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos estudos de usuários, julgue os itens seguintes.",
     "item": "A entrevista — um dos métodos utilizados para a coleta de dados em estudos de usuários —, os questionários estruturados e a análise de log são os métodos m ais apropriados para estudos de abordagem qualitativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"m ais apropriados para estudos de abordagem qualitativa\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-440"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-440"
+    },
+    "gatilho": "m ais apropriados para estudos de abordagem qualitativa",
+    "versao_correta": "A entrevista — um dos métodos utilizados para a coleta de dados em estudos de usuários —, os questionários estruturados e a análise de log são os métodos [corretamente formatado: m ais apropriados para estudos de abordagem qualitativa]."
   },
   {
     "id": "m5-q-9",
@@ -170,14 +186,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "Na sistemática de desenvolvimento de coleções de Vergueiro, a etapa de aquisição antecede logicamente a definição da política de seleção, viabilizando compras de oportunidade no mercado editorial para moldar o perfil do acervo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As políticas de seleção e a seleção técnica antecedem a aquisição; adquire-se aquilo que já foi previamente avaliado e selecionado com base nas diretrizes institucionais.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter a ordem entre seleção e aquisição.",
+    "justificativa": "Gabarito ERRADO. As políticas de seleção e a seleção técnica antecedem a aquisição; adquire-se aquilo que já foi previamente avaliado e selecionado com base nas diretrizes institucionais. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "viabilizando compras de oportunidade no mercado editorial para moldar o perfil do acervo",
+    "versao_correta": "Na sistemática de desenvolvimento de coleções de Vergueiro, a etapa de aquisição antecede logicamente a definição da política de seleção, [corretamente formatado: viabilizando compras de oportunidade no mercado editorial para moldar o perfil do acervo]."
   },
   {
     "id": "m5-q-10",
@@ -188,13 +206,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "A seleção cooperativa entre bibliotecas de uma mesma rede geográfica (como a RVBI em Brasília) tem como consequência desfavorável o aumento descontrolado de compras duplicadas dos mesmos manuais de baixa demanda.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A seleção e aquisição cooperativas visam justamente EVITAR a duplicação desnecessária de materiais de alto custo e baixa demanda, permitindo que cada biblioteca se especialize em determinados nichos temáticos e compartilhe o acesso.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que a cooperação técnica aumenta compras redundantes.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "compras duplicadas dos mesmos manuais de baixa demanda",
+    "versao_correta": "A seleção cooperativa entre bibliotecas de uma mesma rede geográfica (como a RVBI em Brasília) tem como consequência desfavorável o aumento descontrolado de [corretamente formatado: compras duplicadas dos mesmos manuais de baixa demanda]."
   },
   {
     "id": "m5-q-11",
@@ -204,14 +224,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "O descarte e o desbastamento de materiais bibliográficos em órgãos públicos federais configuram infração administrativa ao princípio da indisponibilidade do patrimônio público, impondo a retenção indefinida de volumes deteriorados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O descarte de materiais obsoletos ou deteriorados é juridicamente legítimo e previsto nas normas de administração patrimonial (Decreto nº 9.373/2018), mediante processo formal de baixa.",
-    "armadilhaBanca": "Declarar que o poder público é proibido de realizar descarte.",
+    "justificativa": "Gabarito ERRADO. O descarte de materiais obsoletos ou deteriorados é juridicamente legítimo e previsto nas normas de administração patrimonial (Decreto nº 9.373/2018), mediante processo formal de baixa. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "impondo a retenção indefinida de volumes deteriorados",
+    "versao_correta": "O descarte e o desbastamento de materiais bibliográficos em órgãos públicos federais configuram infração administrativa ao princípio da indisponibilidade do patrimônio público, [corretamente formatado: impondo a retenção indefinida de volumes deteriorados]."
   },
   {
     "id": "m5-q-12",
@@ -221,19 +243,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, que tratam dos seguintes aspectos relacionados ao serv i-",
     "item": "O hipertexto é um recurso empregado em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"em enciclopédias eletrônicas para formar estruturas associadas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-244"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-244"
+    },
+    "gatilho": "em enciclopédias eletrônicas para formar estruturas associadas",
+    "versao_errada": "O hipertexto é um recurso empregado indevidamente em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas."
   },
   {
     "id": "m5-q-13",
@@ -244,13 +268,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "As diretrizes da IFLA e da UNESCO para desenvolvimento de coleções recomendam que bibliotecas parlamentares excluam sistematicamente de seus acervos quaisquer livros que defendam ideologias divergentes da maioria dos membros da Mesa Diretora da Casa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A IFLA e a UNESCO defendem categoricamente a liberdade intelectual, o pluralismo de ideias e a proibição da censura partidária ou ideológica. O acervo de uma biblioteca legislativa deve ser equilibrado e refletir as diversas correntes do pensamento político e jurídico.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Preconizar censura partidária no acervo parlamentar.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "maioria dos membros da Mesa Diretora da Casa",
+    "versao_correta": "As diretrizes da IFLA e da UNESCO para desenvolvimento de coleções recomendam que bibliotecas parlamentares excluam sistematicamente de seus acervos quaisquer livros que defendam ideologias divergentes da [corretamente formatado: maioria dos membros da mesa diretora da casa]."
   },
   {
     "id": "m5-q-14",
@@ -260,14 +286,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "Na avaliação de itens para aquisição, o critério de autoridade refere-se à volumetria e à qualidade gráfica do acabamento editorial da obra, desconsiderando a qualificação científica do autor.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O critério de autoridade afere a reputação científica, formação acadêmica, qualificação técnica e histórico de publicações do autor e da editora.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar o critério de autoridade na seleção.",
+    "justificativa": "Gabarito ERRADO. O critério de autoridade afere a reputação científica, formação acadêmica, qualificação técnica e histórico de publicações do autor e da editora. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "desconsiderando a qualificação científica do autor",
+    "versao_correta": "Na avaliação de itens para aquisição, o critério de autoridade refere-se à volumetria e à qualidade gráfica do acabamento editorial da obra, [corretamente formatado: desconsiderando a qualificação científica do autor]."
   },
   {
     "id": "m5-q-15",
@@ -277,19 +305,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, com relação ao estudo de usuários.",
     "item": "A realização do estudo de usuários possibil ita a utilização de técnicas de coleta de dados, tais como aplicação de questionários, observação sistemática in loco, entrevista estruturada e revisão de literatura.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJDFT/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"entrevista estruturada e revisão de literatura\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJDFT / 2015",
-        "verificado": true,
-        "provaId": "TecConcursos-318097",
-        "ano": 2015,
-        "orgao": "TJDFT",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "318097"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJDFT / 2015",
+      "verificado": true,
+      "provaId": "TecConcursos-318097",
+      "ano": 2015,
+      "orgao": "TJDFT",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "318097"
+    },
+    "gatilho": "entrevista estruturada e revisão de literatura",
+    "versao_correta": "A realização do estudo de usuários possibil ita a utilização de técnicas de coleta de dados, tais como aplicação de questionários, observação sistemática in loco, [corretamente formatado: entrevista estruturada e revisão de literatura]."
   },
   {
     "id": "m5-q-16",
@@ -299,14 +329,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "O recebimento de materiais por doação de pessoas físicas ou entidades privadas impõe a incorporação direta dos volumes ao acervo patrimonial, afastando a aplicação dos critérios temáticos fixados na política de seleção.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Doações submetem-se aos mesmos critérios de pertinência temática, demanda e estado de conservação definidos na política de seleção da biblioteca.",
-    "armadilhaBanca": "Impor aceitação obrigatória de toda doação sem triagem.",
+    "justificativa": "Gabarito ERRADO. Doações submetem-se aos mesmos critérios de pertinência temática, demanda e estado de conservação definidos na política de seleção da biblioteca. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "afastando a aplicação dos critérios temáticos fixados na política de seleção",
+    "versao_correta": "O recebimento de materiais por doação de pessoas físicas ou entidades privadas impõe a incorporação direta dos volumes ao acervo patrimonial, [corretamente formatado: afastando a aplicação dos critérios temáticos fixados na política de seleção]."
   },
   {
     "id": "m5-q-17",
@@ -316,16 +348,18 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Para suprir as necessidades de informação dos usuários, as atividades do setor de",
     "item": "Define-se informação como estrutura significante mediadora no processo de produção do conh e- cimento.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"significante mediadora no processo de produção do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-241",
-        "declaracaoLegada": "Cebraspe / 2010 / 2010"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-241",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+    },
+    "gatilho": "significante mediadora no processo de produção do",
+    "versao_errada": "Define-se informação como estrutura indevidamente significante mediadora no processo de produção do conh e- cimento."
   },
   {
     "id": "m5-q-18",
@@ -335,19 +369,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários, julgue os itens a seguir.",
     "item": "Após o questionário, a observação indireta é o método mais utilizado para a realização de estudos de usuários e pode ser do tipo não estruturada, semiestruturada e estruturada.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"semiestruturada e estruturada\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-437"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-437"
+    },
+    "gatilho": "semiestruturada e estruturada",
+    "versao_correta": "Após o questionário, a observação indireta é o método mais utilizado para a realização de estudos de usuários e pode ser do tipo não estruturada, [corretamente formatado: semiestruturada e estruturada]."
   },
   {
     "id": "m5-q-19",
@@ -357,16 +393,18 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Considerando o atendimento ao usuário e o marketing da informação, julgue os s e-",
     "item": "A medição da satisfação do usuário é uma ação de administração de marketing, além de impo r- tante indicador para definir funções, objetivos, produtos e s erviços no contexto do planejamento em centros de documentação.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de impo r- tante indicador para definir\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-339",
-        "declaracaoLegada": "Cebraspe / 2016 / 2016"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-339",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016"
+    },
+    "gatilho": "de impo r- tante indicador para definir",
+    "versao_errada": "A medição da satisfação do usuário é uma ação de administração de marketing, além indevidamente de impo r- tante indicador para definir funções, objetivos, produtos e s erviços no contexto do planejamento em centros de documentação."
   },
   {
     "id": "m5-q-20",
@@ -376,14 +414,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "No processo de aquisição por compra, as modalidades de compra direta, licitação pública e adesão a atas de registro de preços subordinam-se à legislação de licitações e contratos administrativos (Lei nº 14.133/2021).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Em órgãos públicos federais como a Câmara dos Deputados, a aquisição de acervo por compra obedece às regras estritas da Nova Lei de Licitações (Lei 14.133/21).",
-    "armadilhaBanca": "Normativa jurídica de aquisição pública.",
+    "justificativa": "Gabarito CERTO. Em órgãos públicos federais como a Câmara dos Deputados, a aquisição de acervo por compra obedece às regras estritas da Nova Lei de Licitações (Lei 14.133/21). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "e adesão a atas de registro de",
+    "versao_errada": "No processo de aquisição por compra, as modalidades de compra direta, licitação pública indevidamente e adesão a atas de registro de preços subordinam-se à legislação de licitações e contratos administrativos (Lei nº 14.133/2021)."
   },
   {
     "id": "m5-q-21",
@@ -393,19 +433,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos aos estudos de usuários.",
     "item": "Questionários estruturados, análise de log de eventos em sistemas de informação e entrevistas são métodos qualitativos apropriados para a condução de estudos de usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"apropriados para a condução de estudos de usuários\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / BASA / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-1303117",
-        "ano": 2012,
-        "orgao": "BASA",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "1303117"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / BASA / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-1303117",
+      "ano": 2012,
+      "orgao": "BASA",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "1303117"
+    },
+    "gatilho": "apropriados para a condução de estudos de usuários",
+    "versao_correta": "Questionários estruturados, análise de log de eventos em sistemas de informação e entrevistas são métodos qualitativos [corretamente formatado: apropriados para a condução de estudos de usuários]."
   },
   {
     "id": "m5-q-22",
@@ -415,19 +457,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos estudos de uso e de usuários da informação, julgue os itens.",
     "item": "O amplo conhecimento das necessidades de informação dos usuários constitui subsídio estratégico para o planejamento das atividades de uma unidade informacional pelo bibliotecário.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ECT/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ECT/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"usuários constitui subsídio estratégico para o planejamento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "ECT/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-380"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "ECT/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-380"
+    },
+    "gatilho": "usuários constitui subsídio estratégico para o planejamento",
+    "versao_errada": "O amplo conhecimento das necessidades de informação dos indevidamente usuários constitui subsídio estratégico para o planejamento das atividades de uma unidade informacional pelo bibliotecário."
   },
   {
     "id": "m5-q-23",
@@ -437,14 +481,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A política de desenvolvimento de coleções deve prever critérios explícitos para o descarte de materiais danificados além da possibilidade de restauração e para obras com conteúdo fático ou normativo flagrantemente superado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Ter diretrizes claras sobre obsolescência e deterioração física resguarda os gestores e garante que o acervo mantenha-se confiável e higienizado.",
-    "armadilhaBanca": "Critérios de descarte na política.",
+    "justificativa": "Gabarito CERTO. Ter diretrizes claras sobre obsolescência e deterioração física resguarda os gestores e garante que o acervo mantenha-se confiável e higienizado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "descarte de materiais danificados além da possibilidade",
+    "versao_errada": "A política de desenvolvimento de coleções deve prever critérios explícitos para o indevidamente descarte de materiais danificados além da possibilidade de restauração e para obras com conteúdo fático ou normativo flagrantemente superado."
   },
   {
     "id": "m5-q-24",
@@ -454,14 +500,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A distinção conceitual entre 'desbastamento' e 'descarte' reside no fato de que o desbastamento implica a transferência de itens de baixa circulação para depósitos secundários ou setores de acesso restrito (sem saída patrimonial), enquanto o descarte acarreta a exclusão definitiva do documento do acervo e a respectiva baixa patrimonial.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Distinção essencial de Vergueiro: desbastar (weeding/storage) altera a localização física do item dentro da biblioteca; descartar (discard/write-off) retira a obra do patrimônio e dos registros bibliográficos.",
-    "armadilhaBanca": "Diferença canônica entre desbaste e descarte.",
+    "justificativa": "Gabarito CERTO. Distinção essencial de Vergueiro: desbastar (weeding/storage) altera a localização física do item dentro da biblioteca; descartar (discard/write-off) retira a obra do patrimônio e dos registros bibliográficos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "circulação para depósitos secundários ou setores de",
+    "versao_errada": "A distinção conceitual entre 'desbastamento' e 'descarte' reside no fato de que o desbastamento implica a transferência de itens de baixa indevidamente circulação para depósitos secundários ou setores de acesso restrito (sem saída patrimonial), enquanto o descarte acarreta a exclusão definitiva do documento do acervo e a respectiva baixa patrimonial."
   },
   {
     "id": "m5-q-25",
@@ -471,14 +519,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A contratação de bases de dados acadêmicas internacionais prescinde da análise de termos de licenciamento de uso, considerando-se os materiais acadêmicos indexados bens de fruição pública no ambiente web.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A aquisição de recursos digitais exige exame minucioso de cláusulas contratuais de licenciamento, limites de acesso simultâneo e direitos de uso da informação.",
-    "armadilhaBanca": "Supor que bases digitais dispensam seleção e licenças contratuais.",
+    "justificativa": "Gabarito ERRADO. A aquisição de recursos digitais exige exame minucioso de cláusulas contratuais de licenciamento, limites de acesso simultâneo e direitos de uso da informação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "considerando-se os materiais acadêmicos indexados bens de fruição pública no ambiente web",
+    "versao_correta": "A contratação de bases de dados acadêmicas internacionais prescinde da análise de termos de licenciamento de uso, [corretamente formatado: considerando-se os materiais acadêmicos indexados bens de fruição pública no ambiente web]."
   },
   {
     "id": "m5-q-26",
@@ -488,19 +538,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação aos estudos de uso e de usuários da informação, julgue os itens.",
     "item": "Os resultados das análises dos estudos de usuários constituem insumos estratégicos para a m a- nutenção e a constante atualização da política de desenvolvimento de coleções de uma bibliot e- ca, razão por que devem ser considerados na formulação dessa política.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ECT/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ECT/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a constante atualização da política de desenvolvimento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "ECT/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-382"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "ECT/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-382"
+    },
+    "gatilho": "a constante atualização da política de desenvolvimento",
+    "versao_errada": "Os resultados das análises dos estudos de usuários constituem insumos estratégicos para a m a- nutenção e indevidamente a constante atualização da política de desenvolvimento de coleções de uma bibliot e- ca, razão por que devem ser considerados na formulação dessa política."
   },
   {
     "id": "m5-q-27",
@@ -510,14 +562,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "O estudo de obsolescência da literatura em bibliotecas avalia a taxa em que os documentos deixam de ser consultados ao longo do tempo, correlacionando a meia-vida (half-life) das publicações com a tomada de decisões sobre desbastamento de acervos retrospectivos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O conceito de meia-vida de Burton e Kebler demonstra que certas áreas (como Informática e Medicina) têm obsolescência rápida, enquanto História e Direito preservam obras de valor permanente.",
-    "armadilhaBanca": "Obsolescência e meia-vida da literatura.",
+    "justificativa": "Gabarito CERTO. O conceito de meia-vida de Burton e Kebler demonstra que certas áreas (como Informática e Medicina) têm obsolescência rápida, enquanto História e Direito preservam obras de valor permanente. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "de ser consultados ao longo do tempo",
+    "versao_errada": "O estudo de obsolescência da literatura em bibliotecas avalia a taxa em que os documentos deixam indevidamente de ser consultados ao longo do tempo, correlacionando a meia-vida (half-life) das publicações com a tomada de decisões sobre desbastamento de acervos retrospectivos."
   },
   {
     "id": "m5-q-28",
@@ -527,11 +581,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de organização, planejamento, administração e sistemas de bibliotecas, julgue",
     "item": "As seguintes atividades compõem a cadeia produti va dos sistemas de informação: seleção, aqu i- sição física e armazenagem de materiais; catalogação e indexação; provisão de documentos e transferência física da informação ao usuário final; instrução e orientação para o usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CNJ/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"e armazenagem de materiais; catalogação e indexação\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
@@ -539,7 +593,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103226"
-    }
+    },
+    "gatilho": "e armazenagem de materiais; catalogação e indexação",
+    "versao_errada": "As seguintes atividades compõem a cadeia produti va dos sistemas de informação: seleção, aqu i- sição física indevidamente e armazenagem de materiais; catalogação e indexação; provisão de documentos e transferência física da informação ao usuário final; instrução e orientação para o usuário."
   },
   {
     "id": "m5-q-29",
@@ -549,14 +605,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A regra 80/20 (Princípio de Pareto) aplicada a acervos de bibliotecas postula frequentemente que aproximadamente 80% dos empréstimos e consultas são gerados por apenas 20% dos títulos do acervo, evidenciando a concentração de demanda.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Descoberta empírica comprovada por estudos famosos (como o estudo da Universidade de Pittsburgh por Kent et al.): uma fração diminuta da coleção responde pela esmagadora maioria do uso.",
-    "armadilhaBanca": "Princípio de Pareto aplicado a bibliotecas.",
+    "justificativa": "Gabarito CERTO. Descoberta empírica comprovada por estudos famosos (como o estudo da Universidade de Pittsburgh por Kent et al.): uma fração diminuta da coleção responde pela esmagadora maioria do uso. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "aproximadamente 80% dos empréstimos e consultas são",
+    "versao_errada": "A regra 80/20 (Princípio de Pareto) aplicada a acervos de bibliotecas postula frequentemente que indevidamente aproximadamente 80% dos empréstimos e consultas são gerados por apenas 20% dos títulos do acervo, evidenciando a concentração de demanda."
   },
   {
     "id": "m5-q-30",
@@ -566,11 +624,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao atendimento ao usuário de biblioteca, julgue os itens seguintes.",
     "item": "No processo de referencia, o usuário participa das fases de seleção da mensagem, negociação, seleção da resposta e renegociação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso IPHAN/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"participa das fases de seleção da mensagem\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / IPHAN / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
@@ -578,7 +636,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "IPHAN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-696548"
-    }
+    },
+    "gatilho": "participa das fases de seleção da mensagem",
+    "versao_errada": "No processo de referencia, o usuário indevidamente participa das fases de seleção da mensagem, negociação, seleção da resposta e renegociação."
   },
   {
     "id": "m5-q-31",
@@ -589,13 +649,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "Segundo F. W. Lancaster, os métodos de avaliação de coleções subdividem-se primordialmente em duas grandes abordagens metodológicas: métodos centrados na coleção (collection-centered) e métodos centrados no uso ou no usuário (use-centered).",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Dicotomia metodológica clássica de Lancaster: focar nas propriedades intrínsecas do acervo (tamanho, idade, bibliografias-padrão) versus focar na utilização prática da coleção (empréstimos, disponibilidade, taxa de circulação).",
-    "armadilhaBanca": "Classificação canônica de métodos de avaliação de Lancaster.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "em duas grandes abordagens metodológicas: métodos centrados",
+    "versao_errada": "Segundo F. W. Lancaster, os métodos de avaliação de coleções subdividem-se primordialmente indevidamente em duas grandes abordagens metodológicas: métodos centrados na coleção (collection-centered) e métodos centrados no uso ou no usuário (use-centered)."
   },
   {
     "id": "m5-q-32",
@@ -605,19 +667,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "As funções administrativas se integram e são necessárias para o funcionamento",
     "item": "Os objetivos das bibliotecas e centros de documentação devem ser definidos a partir da política de desenvolvimento de coleções.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"a partir da política de desenvolvimento de coleções\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "IPHAN/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1231"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "IPHAN/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1231"
+    },
+    "gatilho": "a partir da política de desenvolvimento de coleções",
+    "versao_correta": "Os objetivos das bibliotecas e centros de documentação devem ser definidos [corretamente formatado: a partir da política de desenvolvimento de coleções]."
   },
   {
     "id": "m5-q-33",
@@ -627,14 +691,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "O método de avaliação centrado na análise de citações presentes em teses, dissertações e pareceres produzidos pela própria instituição permite mapear as fontes realmente utilizadas pela comunidade acadêmica ou técnica e confrontá-las com a cobertura do acervo local.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A análise de citações locais é um método centrado no uso de altíssima validade ecológica, revelando o que os pesquisadores da casa de fato leem e citam.",
-    "armadilhaBanca": "Análise de citação como método de avaliação.",
+    "justificativa": "Gabarito CERTO. A análise de citações locais é um método centrado no uso de altíssima validade ecológica, revelando o que os pesquisadores da casa de fato leem e citam. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "pela própria instituição permite mapear as fontes",
+    "versao_errada": "O método de avaliação centrado na análise de citações presentes em teses, dissertações e pareceres produzidos indevidamente pela própria instituição permite mapear as fontes realmente utilizadas pela comunidade acadêmica ou técnica e confrontá-las com a cobertura do acervo local."
   },
   {
     "id": "m5-q-34",
@@ -644,16 +710,18 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de planejamento de bibliotecas, julgue os itens seguintes.",
     "item": "Na elaboração da política de desenvolvimento de coleções, no qu e tange à assinatura de peri ó- dicos, deve-se preferir o formato tradicional ao digital, mesmo considerando -se o aumento si g- nificativo da área do acervo destinada a esse tipo de documento em formato tradicional.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"a esse tipo de documento em formato tradicional\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-1330",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-1330",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    },
+    "gatilho": "a esse tipo de documento em formato tradicional",
+    "versao_correta": "Na elaboração da política de desenvolvimento de coleções, no qu e tange à assinatura de peri ó- dicos, deve-se preferir o formato tradicional ao digital, mesmo considerando -se o aumento si g- nificativo da área do acervo destinada [corretamente formatado: a esse tipo de documento em formato tradicional]."
   },
   {
     "id": "m5-q-35",
@@ -663,11 +731,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da organização e administração de bibliotecas, julgue os itens subsecutivos.",
     "item": "O uso de um acervo (em número de itens emprestados) sempre aumenta proporcionalmente à taxa de crescimento das coleções.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"sempre aumenta proporcionalmente à taxa de crescimento das coleções\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Restrição Indevida com Termo Absoluto. O item introduz um limitador rígido que suprime as exceções e hipóteses facultativas previstas expressamente na regra técnica.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
@@ -675,7 +743,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "ANTT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-206211"
-    }
+    },
+    "gatilho": "sempre aumenta proporcionalmente à taxa de crescimento das coleções",
+    "versao_correta": "O uso de um acervo (em número de itens emprestados) [corretamente formatado: sempre aumenta proporcionalmente à taxa de crescimento das coleções]."
   },
   {
     "id": "m5-q-36",
@@ -685,11 +755,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de planejamento de bibliotecas, julgue os itens seguintes.",
     "item": "No processo de seleção da informação jurídic a, devem ser considerados fatores como a expl o- são informacional, a aceleração das mudanças nas leis e na jurisprudência e a variedade de formatos e suportes documentais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"expl o- são informacional, a aceleração das\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -697,7 +767,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104060"
-    }
+    },
+    "gatilho": "expl o- são informacional, a aceleração das",
+    "versao_errada": "No processo de seleção da informação jurídic a, devem ser considerados fatores como a indevidamente expl o- são informacional, a aceleração das mudanças nas leis e na jurisprudência e a variedade de formatos e suportes documentais."
   },
   {
     "id": "m5-q-37",
@@ -707,14 +779,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A técnica de simulação com 'usuários fictícios' (mystery shopping oumystery patrons) é considerada pela doutrina de Lancaster como ilegal e inaplicável para avaliar a exatidão das respostas do serviço de referência de uma biblioteca.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O uso de questões-teste e usuários disfarçados (unobtrusive testing) é metodologia clássica consagrada por Lancaster, Hernon e McClure para medir realisticamente a acurácia dos balcões de referência sem viés de observação.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Declarar ilegítima a metodologia de teste não ostensivo (unobtrusive testing).",
+    "justificativa": "Gabarito ERRADO. O uso de questões-teste e usuários disfarçados (unobtrusive testing) é metodologia clássica consagrada por Lancaster, Hernon e McClure para medir realisticamente a acurácia dos balcões de referência sem viés de observação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "respostas do serviço de referência de uma biblioteca",
+    "versao_correta": "A técnica de simulação com 'usuários fictícios' (mystery shopping oumystery patrons) é considerada pela doutrina de Lancaster como ilegal e inaplicável para avaliar a exatidão das [corretamente formatado: respostas do serviço de referência de uma biblioteca]."
   },
   {
     "id": "m5-q-38",
@@ -724,19 +798,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de planejamento de bibliotecas, julgue os itens seguintes.",
     "item": "A aquisição de materiais pode ocorrer por meio de três modalidades: compra, doação e permuta. Entre elas, a permuta é a modalidade que requer o trabalho mais criterioso por parte do bibliotecário.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"o trabalho mais criterioso por parte do bibliotecário\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1332"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1332"
+    },
+    "gatilho": "o trabalho mais criterioso por parte do bibliotecário",
+    "versao_correta": "A aquisição de materiais pode ocorrer por meio de três modalidades: compra, doação e permuta. Entre elas, a permuta é a modalidade que requer [corretamente formatado: o trabalho mais criterioso por parte do bibliotecário]."
   },
   {
     "id": "m5-q-39",
@@ -746,14 +822,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "Entre as limitações do método de avaliação por listas de verificação, destaca-se o fato de que a lista reflete o viés e os interesses dos seus compiladores originais, podendo não corresponder às necessidades específicas da clientela da biblioteca avaliada.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Crítica técnica consagrada por Lancaster: uma checklist excelente para uma universidade americana pode ser inadequada para uma biblioteca parlamentar brasileira.",
-    "armadilhaBanca": "Limitação do método de checklist.",
+    "justificativa": "Gabarito CERTO. Crítica técnica consagrada por Lancaster: uma checklist excelente para uma universidade americana pode ser inadequada para uma biblioteca parlamentar brasileira. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "a lista reflete o viés e os",
+    "versao_errada": "Entre as limitações do método de avaliação por listas de verificação, destaca-se o fato de que indevidamente a lista reflete o viés e os interesses dos seus compiladores originais, podendo não corresponder às necessidades específicas da clientela da biblioteca avaliada."
   },
   {
     "id": "m5-q-40",
@@ -763,11 +841,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens referentes aos estudos de usuários.",
     "item": "Na seleção dos participantes de uma pesquisa com usuários de uma biblioteca, é aconse lhável incluir os usuários que frequentam assiduamente a biblioteca, bem como os que participam de listas de discussão ou redes sociais relacionadas à biblioteca.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"os usuários que frequentam assiduamente a biblioteca\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -775,7 +853,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-181039"
-    }
+    },
+    "gatilho": "os usuários que frequentam assiduamente a biblioteca",
+    "versao_errada": "Na seleção dos participantes de uma pesquisa com usuários de uma biblioteca, é aconse lhável incluir indevidamente os usuários que frequentam assiduamente a biblioteca, bem como os que participam de listas de discussão ou redes sociais relacionadas à biblioteca."
   },
   {
     "id": "m5-q-41",
@@ -785,14 +865,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "O custo por uso (cost per use) é um indicador econômico-gerencial obtido pela divisão do valor total da assinatura de uma base de dados pelo número de downloads de artigos ou consultas realizadas no período, subsidiando decisões de renovação contratual.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Indicador fundamental de retorno sobre o investimento em bibliotecas digitais: se o custo por download for proibitivo, a biblioteca pode preferir aquisição comutativa avulsa.",
-    "armadilhaBanca": "Métrica de custo por uso.",
+    "justificativa": "Gabarito CERTO. Indicador fundamental de retorno sobre o investimento em bibliotecas digitais: se o custo por download for proibitivo, a biblioteca pode preferir aquisição comutativa avulsa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "da assinatura de uma base de dados",
+    "versao_errada": "O custo por uso (cost per use) é um indicador econômico-gerencial obtido pela divisão do valor total indevidamente da assinatura de uma base de dados pelo número de downloads de artigos ou consultas realizadas no período, subsidiando decisões de renovação contratual."
   },
   {
     "id": "m5-q-42",
@@ -802,14 +884,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A avaliação de uma biblioteca mediante o confronto do seu acervo com 'listas de verificação' (checklists) e bibliografias especializadas autorizadas é um exemplo típico de método centrado no uso.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O método da lista de verificação (checklist) é um método centrado NA COLEÇÃO: compara o que a biblioteca possui com uma lista padrão ideal, sem avaliar se os usuários locais efetivamente leem ou consultam tais obras.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir método centrado na coleção (checklist) com centrado no uso.",
+    "justificativa": "Gabarito ERRADO. O método da lista de verificação (checklist) é um método centrado NA COLEÇÃO: compara o que a biblioteca possui com uma lista padrão ideal, sem avaliar se os usuários locais efetivamente leem ou consultam tais obras. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "um exemplo típico de método centrado no uso",
+    "versao_correta": "A avaliação de uma biblioteca mediante o confronto do seu acervo com 'listas de verificação' (checklists) e bibliografias especializadas autorizadas é [corretamente formatado: um exemplo típico de método centrado no uso]."
   },
   {
     "id": "m5-q-43",
@@ -820,13 +904,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "O inventário físico periódico do acervo (verificação item a item) é um procedimento dispensável em órgãos públicos federais, já que os dados cadastrados no software de biblioteca possuem fé pública absoluta que substitui a existência física do livro.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O inventário físico anual ou periódico é obrigatório na administração pública federal (Lei 4.320/64 e regulamentos patrimoniais), permitindo identificar extravios, desordens na estante e fundamentar processos formais de baixa patrimonial.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar inventário físico do patrimônio público.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "absoluta que substitui a existência física do livro",
+    "versao_correta": "O inventário físico periódico do acervo (verificação item a item) é um procedimento dispensável em órgãos públicos federais, já que os dados cadastrados no software de biblioteca possuem fé pública [corretamente formatado: absoluta que substitui a existência física do livro]."
   },
   {
     "id": "m5-q-44",
@@ -836,19 +922,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Considerando o atendimento ao usuário e o marketing da informação, julgue os s e-",
     "item": "Uma das etapas da atividade de formação e desenvolvimento de coleções é o marketing.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"formação e desenvolvimento de coleções é o marketing\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-343"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-343"
+    },
+    "gatilho": "formação e desenvolvimento de coleções é o marketing",
+    "versao_correta": "Uma das etapas da atividade de [corretamente formatado: formação e desenvolvimento de coleções é o marketing]."
   },
   {
     "id": "m5-q-45",
@@ -858,14 +946,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A taxa de circulação de uma coleção constitui indicador centrado na coleção física, medindo as características intrínsecas dos itens bibliográficos desvinculadas das condutas efetivas de consulta e empréstimo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A taxa de circulação é o exemplo clássico de método centrado no uso e no usuário, pois mede o comportamento empírico de empréstimos em relação ao volume do acervo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Classificar taxa de circulação como método centrado na coleção.",
+    "justificativa": "Gabarito ERRADO. A taxa de circulação é o exemplo clássico de método centrado no uso e no usuário, pois mede o comportamento empírico de empréstimos em relação ao volume do acervo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "desvinculadas das condutas efetivas de consulta e empréstimo",
+    "versao_correta": "A taxa de circulação de uma coleção constitui indicador centrado na coleção física, medindo as características intrínsecas dos itens bibliográficos [corretamente formatado: desvinculadas das condutas efetivas de consulta e empréstimo]."
   },
   {
     "id": "m5-q-46",
@@ -875,14 +965,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A análise de idade do acervo (distribuição cronológica por ano de publicação) é suficiente para avaliar a qualidade integral de uma biblioteca, tornando irrelevante saber se os livros são efetivamente lidos pelos usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A idade do acervo é um indicador puramente quantitativo centrado na coleção; não mede a relevância pedagógica, a precisão do conteúdo nem a taxa real de consulta pelos usuários.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Julgar a idade do acervo como métrica autossuficiente.",
+    "justificativa": "Gabarito ERRADO. A idade do acervo é um indicador puramente quantitativo centrado na coleção; não mede a relevância pedagógica, a precisão do conteúdo nem a taxa real de consulta pelos usuários. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "tornando irrelevante saber se os livros são efetivamente lidos pelos usuários",
+    "versao_correta": "A análise de idade do acervo (distribuição cronológica por ano de publicação) é suficiente para avaliar a qualidade integral de uma biblioteca, [corretamente formatado: tornando irrelevante saber se os livros são efetivamente lidos pelos usuários]."
   },
   {
     "id": "m5-q-47",
@@ -892,14 +984,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos métodos de avaliação de coleções e serviços de informação sistematizados por F. W. Lancaster, aos indicadores quantitativos e qualitativos e ao gerenciamento patrimonial, julgue o item a seguir.",
     "item": "A taxa de disponibilidade na estante (shelf availability), proposta por Kantor e analisada por Lancaster, mede a probabilidade de um usuário encontrar imediatamente na estante um documento específico que consta como existente no catálogo da biblioteca.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estudo clássico de barreiras de Kantor: analisa perdas por erro de aquisição, erro de catalogação, livro emprestado ou livro desarrumado/deslocado na estante.",
-    "armadilhaBanca": "Taxa de disponibilidade de Kantor/Lancaster.",
+    "justificativa": "Gabarito CERTO. Estudo clássico de barreiras de Kantor: analisa perdas por erro de aquisição, erro de catalogação, livro emprestado ou livro desarrumado/deslocado na estante. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "mede a probabilidade de um usuário encontrar",
+    "versao_errada": "A taxa de disponibilidade na estante (shelf availability), proposta por Kantor e analisada por Lancaster, indevidamente mede a probabilidade de um usuário encontrar imediatamente na estante um documento específico que consta como existente no catálogo da biblioteca."
   },
   {
     "id": "m5-q-48",
@@ -909,19 +1003,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos centros de documentação e aos serviços de informação, julgue os",
     "item": "O relatório de uma biblioteca consiste em um conjunto de informações sobre acervo, serviços prestados, usuários e recursos humanos, físicos, materiais e financeiros que são ordenadas de modo a evidenciar a situação da biblioteca em dado período de tempo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"e recursos humanos, físicos, materiais e financeiros\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180999",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180999"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180999",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180999"
+    },
+    "gatilho": "e recursos humanos, físicos, materiais e financeiros",
+    "versao_errada": "O relatório de uma biblioteca consiste em um conjunto de informações sobre acervo, serviços prestados, usuários indevidamente e recursos humanos, físicos, materiais e financeiros que são ordenadas de modo a evidenciar a situação da biblioteca em dado período de tempo."
   },
   {
     "id": "m5-q-49",
@@ -932,13 +1028,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "A Lei de Bradford de dispersão da literatura não possui qualquer aplicabilidade no planejamento e avaliação de coleções de periódicos em bibliotecas especializadas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Lei de Bradford é a ferramenta bibliométrica mais aplicada no desenvolvimento de coleções: identifica o núcleo (zona nuclear) de periódicos que concentra a maioria dos artigos relevantes, otimizando os recursos de assinatura.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Negar a utilidade da Lei de Bradford na gestão de coleções.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "não possui",
+    "versao_correta": "A Lei de Bradford de dispersão da literatura possui qualquer aplicabilidade no planejamento e avaliação de coleções de periódicos em bibliotecas especializadas."
   },
   {
     "id": "m5-q-50",
@@ -948,11 +1046,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à circulação de recursos informacionais em bibliotecas, julgue os itens.",
     "item": "O empréstimo entre bibliotecas ocorre quando uma biblioteca, por intermédio de outra bibliot e- ca, cede a um usuário materiais originais de seu acervo, em vez de reproduções.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"em vez de reproduções\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / IPHAN / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
@@ -960,7 +1058,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "IPHAN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-696561"
-    }
+    },
+    "gatilho": "em vez de reproduções",
+    "versao_correta": "O empréstimo entre bibliotecas ocorre quando uma biblioteca, por intermédio de outra bibliot e- ca, cede a um usuário materiais originais de seu acervo, [corretamente formatado: em vez de reproduções]."
   },
   {
     "id": "m5-q-51",
@@ -970,19 +1070,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A re speito da organização e da administração de bibliotecas, julgue os itens",
     "item": "A avaliação dos produtos e serviços informacionais é um procedimento de interesse restrito das chefias das bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"procedimento de interesse restrito das chefias das bibliotecas\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1275"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1275"
+    },
+    "gatilho": "procedimento de interesse restrito das chefias das bibliotecas",
+    "versao_correta": "A avaliação dos produtos e serviços informacionais é um [corretamente formatado: procedimento de interesse restrito das chefias das bibliotecas]."
   },
   {
     "id": "m5-q-52",
@@ -992,14 +1094,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "No modelo de Liderança Situacional formulado por Hersey e Blanchard, o estilo do líder (direção, orientação, apoio ou delegação) deve ser adaptado dinamicamente ao nível de maturidade e prontidão da equipe para a realização da tarefa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na liderança situacional, não há um estilo único ideal: equipes com baixa competência exigem mais direção; equipes com alta competência e motivação demandam delegação.",
-    "armadilhaBanca": "Liderança Situacional de Hersey e Blanchard.",
+    "justificativa": "Gabarito CERTO. Na liderança situacional, não há um estilo único ideal: equipes com baixa competência exigem mais direção; equipes com alta competência e motivação demandam delegação. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "orientação, apoio ou delegação) deve ser adaptado",
+    "versao_errada": "No modelo de Liderança Situacional formulado por Hersey e Blanchard, o estilo do líder (direção, indevidamente orientação, apoio ou delegação) deve ser adaptado dinamicamente ao nível de maturidade e prontidão da equipe para a realização da tarefa."
   },
   {
     "id": "m5-q-53",
@@ -1009,11 +1113,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos centros de documentação e aos serviços de informação, julgue os",
     "item": "Os padrões quantitativos têm sido cada vez mais utilizados na avaliação dos serviços de unidades de informação, por ser em mais flexíveis e bem fundamentados do que os padrões qualitativos, podendo ser adaptados às necessidades específicas dos diversos serviços e produtos na área.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"podendo ser adaptados às necessidades específicas dos diversos serviços e produtos na área\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1021,7 +1125,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180998"
-    }
+    },
+    "gatilho": "podendo ser adaptados às necessidades específicas dos diversos serviços e produtos na área",
+    "versao_correta": "Os padrões quantitativos têm sido cada vez mais utilizados na avaliação dos serviços de unidades de informação, por ser em mais flexíveis e bem fundamentados do que os padrões qualitativos, [corretamente formatado: podendo ser adaptados às necessidades específicas dos diversos serviços e produtos na área]."
   },
   {
     "id": "m5-q-54",
@@ -1032,13 +1138,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "A Teoria dos Dois Fatores de Herzberg estabelece que os fatores higiênicos (como salário, condições físicas de trabalho e segurança no emprego) são os únicos responsáveis pela motivação intrínseca profunda e pelo entusiasmo no trabalho.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Herzberg demonstra que fatores higiênicos (extrínsecos) apenas PREVINEM a insatisfação, mas não geram motivação duradoura. A verdadeira motivação é gerada pelos fatores motivacionais (intrínsecos): realização pessoal, reconhecimento, responsabilidade e crescimento.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir fatores higiênicos com fatores motivacionais de Herzberg.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "motivação intrínseca profunda e pelo entusiasmo no trabalho",
+    "versao_correta": "A Teoria dos Dois Fatores de Herzberg estabelece que os fatores higiênicos (como salário, condições físicas de trabalho e segurança no emprego) são os únicos responsáveis pela [corretamente formatado: motivação intrínseca profunda e pelo entusiasmo no trabalho]."
   },
   {
     "id": "m5-q-55",
@@ -1048,14 +1156,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "Na matriz SWOT de uma biblioteca universitária, a redução orçamentária imposta pelo Ministério da Fazenda decorrente de crise econômica global é classificada tecnicamente como uma fraqueza interna do setor de processamento técnico.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Crises econômicas e cortes orçamentários macrogovernamentais são fenômenos externos e incontroláveis pela biblioteca, configurando AMEAÇAS externas, e não fraquezas internas da equipe.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir ameaça externa com fraqueza interna na SWOT.",
+    "justificativa": "Gabarito ERRADO. Crises econômicas e cortes orçamentários macrogovernamentais são fenômenos externos e incontroláveis pela biblioteca, configurando AMEAÇAS externas, e não fraquezas internas da equipe. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "uma fraqueza interna do setor de processamento técnico",
+    "versao_correta": "Na matriz SWOT de uma biblioteca universitária, a redução orçamentária imposta pelo Ministério da Fazenda decorrente de crise econômica global é classificada tecnicamente como [corretamente formatado: uma fraqueza interna do setor de processamento técnico]."
   },
   {
     "id": "m5-q-56",
@@ -1065,11 +1175,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de organização e administração de bibliotecas, julgue os próximos itens.",
     "item": "A avaliação diagnóstica deve demonstrar sob que condições a biblioteca tem um bom oumau desempenho, a fim de possibilitar a identificação dos melhores meios para garantir um desempenho mais eficiente. Seu elemento mais importante é o reconhecimento da ocorrência de falhas no sistema.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"possibilitar a identificação dos melhores meios para\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1077,7 +1187,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185295"
-    }
+    },
+    "gatilho": "possibilitar a identificação dos melhores meios para",
+    "versao_errada": "A avaliação diagnóstica deve demonstrar sob que condições a biblioteca tem um bom oumau desempenho, a fim de indevidamente possibilitar a identificação dos melhores meios para garantir um desempenho mais eficiente. Seu elemento mais importante é o reconhecimento da ocorrência de falhas no sistema."
   },
   {
     "id": "m5-q-57",
@@ -1087,11 +1199,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a aspectos diversos pertinentes ao atendimento a usuários, julgue os",
     "item": "A avaliação da qua lidade do atendimento em bibliotecas deve considerar aspectos tangíveis — por exemplo, sinalização do ambiente — e aspectos intangíveis — por exemplo, cordialidade dos funcionários —, ambos com seus respectivos indicadores de qualidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"exemplo, sinalização do ambiente — e aspectos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
@@ -1099,7 +1211,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624028"
-    }
+    },
+    "gatilho": "exemplo, sinalização do ambiente — e aspectos",
+    "versao_errada": "A avaliação da qua lidade do atendimento em bibliotecas deve considerar aspectos tangíveis — por indevidamente exemplo, sinalização do ambiente — e aspectos intangíveis — por exemplo, cordialidade dos funcionários —, ambos com seus respectivos indicadores de qualidade."
   },
   {
     "id": "m5-q-58",
@@ -1109,14 +1223,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "A ergonomia no ambiente de trabalho da biblioteca abrange tanto a adaptação do mobiliário e iluminação às características biomecânicas dos servidores quanto a organização dos processos para mitigar fadiga cognitiva e estresse ocupacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Alinhada à Norma Regulamentadora NR-17, a ergonomia previne distúrbios osteomusculares (LER/DORT) e promove bem-estar físico e psicológico.",
-    "armadilhaBanca": "Ergonomia em bibliotecas (NR-17).",
+    "justificativa": "Gabarito CERTO. Alinhada à Norma Regulamentadora NR-17, a ergonomia previne distúrbios osteomusculares (LER/DORT) e promove bem-estar físico e psicológico. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "mobiliário e iluminação às características biomecânicas dos",
+    "versao_errada": "A ergonomia no ambiente de trabalho da biblioteca abrange tanto a adaptação do indevidamente mobiliário e iluminação às características biomecânicas dos servidores quanto a organização dos processos para mitigar fadiga cognitiva e estresse ocupacional."
   },
   {
     "id": "m5-q-59",
@@ -1126,19 +1242,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de marketing, julgue os itens seguintes.",
     "item": "Na estratégia de marketing de bibliotecas, a efetividade de ferramentas da Web 2.0, como o Twitter e o Facebook, é comprometida devido ao maior custo gerado pelo uso dessas ferramentas, em comparação aos custos gerados pelas estratégias de marketing convencional.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"em comparação aos custos gerados pelas estratégias de marketing convencional\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SERPRO / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-436543",
-        "ano": 2013,
-        "orgao": "SERPRO",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "436543"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436543",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "436543"
+    },
+    "gatilho": "em comparação aos custos gerados pelas estratégias de marketing convencional",
+    "versao_correta": "Na estratégia de marketing de bibliotecas, a efetividade de ferramentas da Web 2.0, como o Twitter e o Facebook, é comprometida devido ao maior custo gerado pelo uso dessas ferramentas, [corretamente formatado: em comparação aos custos gerados pelas estratégias de marketing convencional]."
   },
   {
     "id": "m5-q-60",
@@ -1148,14 +1266,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "Segundo Maria Christina Barbosa de Almeida, o planejamento em unidades de informação estrutura-se em três níveis hierárquicos e complementares: estratégico (macro, de longo prazo e voltado à missão institucional), tático (intermediário, setorial e de médio prazo) e operacional (micro, rotinas práticas e planos de ação de curto prazo).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Divisão tridimensional clássica da administração e da biblioteconomia (estratégico, tático, operacional), detalhada com rigor na obra de Almeida.",
-    "armadilhaBanca": "Níveis de planejamento segundo Almeida.",
+    "justificativa": "Gabarito CERTO. Divisão tridimensional clássica da administração e da biblioteconomia (estratégico, tático, operacional), detalhada com rigor na obra de Almeida. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "de longo prazo e voltado à missão",
+    "versao_errada": "Segundo Maria Christina Barbosa de Almeida, o planejamento em unidades de informação estrutura-se em três níveis hierárquicos e complementares: estratégico (macro, indevidamente de longo prazo e voltado à missão institucional), tático (intermediário, setorial e de médio prazo) e operacional (micro, rotinas práticas e planos de ação de curto prazo)."
   },
   {
     "id": "m5-q-61",
@@ -1165,19 +1285,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A re speito da organização e da administração de bibliotecas, julgue os itens",
     "item": "No ambiente da biblioteca, os insumos (recursos informacionais) são tangíveis e facilmente quantificáveis, ao contrário dos resultados obtidos de um serviço informacional, que são intangíveis e de difícil avaliação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEDUC-AM/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"facilmente quantificáveis, ao contrário dos resultados obtidos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1276"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1276"
+    },
+    "gatilho": "facilmente quantificáveis, ao contrário dos resultados obtidos",
+    "versao_errada": "No ambiente da biblioteca, os insumos (recursos informacionais) são tangíveis e indevidamente facilmente quantificáveis, ao contrário dos resultados obtidos de um serviço informacional, que são intangíveis e de difícil avaliação."
   },
   {
     "id": "m5-q-62",
@@ -1187,14 +1309,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "O gráfico de Gantt é uma ferramenta clássica de controle e cronograma no planejamento operacional de bibliotecas, permitindo visualizar a duração, o encadeamento e a sobreposição das tarefas de um projeto ao longo do tempo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Ferramenta visual indispensável para gestão de projetos em biblioteconomia (ex: reforma de acervo ou implantação de novo software).",
-    "armadilhaBanca": "Gráfico de Gantt no planejamento operacional.",
+    "justificativa": "Gabarito CERTO. Ferramenta visual indispensável para gestão de projetos em biblioteconomia (ex: reforma de acervo ou implantação de novo software). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "operacional de bibliotecas, permitindo visualizar a duração",
+    "versao_errada": "O gráfico de Gantt é uma ferramenta clássica de controle e cronograma no planejamento indevidamente operacional de bibliotecas, permitindo visualizar a duração, o encadeamento e a sobreposição das tarefas de um projeto ao longo do tempo."
   },
   {
     "id": "m5-q-63",
@@ -1204,14 +1328,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "Na administração contemporânea de bibliotecas, o líder deve manter um estilo autocrático inflexível, proibindo qualquer tipo de comunicação horizontal entre os bibliotecários de diferentes setores.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As boas práticas de gestão de pessoas preconizam liderança participativa, colaborativa e comunicação fluida transversal, fundamentais para a inovação e o engajamento das equipes técnicas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Impor liderança autocrática e isolamento horizontal.",
+    "justificativa": "Gabarito ERRADO. As boas práticas de gestão de pessoas preconizam liderança participativa, colaborativa e comunicação fluida transversal, fundamentais para a inovação e o engajamento das equipes técnicas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "proibindo qualquer tipo de comunicação horizontal entre os bibliotecários de diferentes setores",
+    "versao_correta": "Na administração contemporânea de bibliotecas, o líder deve manter um estilo autocrático inflexível, [corretamente formatado: proibindo qualquer tipo de comunicação horizontal entre os bibliotecários de diferentes setores]."
   },
   {
     "id": "m5-q-64",
@@ -1221,14 +1347,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "A 'Visão' institucional no planejamento estratégico expressa o estado futuro desejado que a biblioteca pretende alcançar em um horizonte de tempo determinado (ex: 'ser reconhecida como centro de excelência em informação legislativa até 2030').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Diferença clássica: Missão é a razão de ser atual (o que fazemos e para quem); Visão é a aspiração futura (onde queremos chegar).",
-    "armadilhaBanca": "Conceito de Visão de futuro.",
+    "justificativa": "Gabarito CERTO. Diferença clássica: Missão é a razão de ser atual (o que fazemos e para quem); Visão é a aspiração futura (onde queremos chegar). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "pretende alcançar em um horizonte de tempo",
+    "versao_errada": "A 'Visão' institucional no planejamento estratégico expressa o estado futuro desejado que a biblioteca indevidamente pretende alcançar em um horizonte de tempo determinado (ex: 'ser reconhecida como centro de excelência em informação legislativa até 2030')."
   },
   {
     "id": "m5-q-65",
@@ -1238,19 +1366,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A administração de sistemas de informação e bibliotecas envolve atividades e",
     "item": "Do ponto de vista social, a natureza de uma biblioteca é determinada por suas relações ex ternas, e seu desempenho é influenciado pelas relações internas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEGER-ES/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEGER-ES/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"biblioteca é determinada por suas relações ex\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEGER-ES/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1284"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEGER-ES/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1284"
+    },
+    "gatilho": "biblioteca é determinada por suas relações ex",
+    "versao_errada": "Do ponto de vista social, a natureza de uma indevidamente biblioteca é determinada por suas relações ex ternas, e seu desempenho é influenciado pelas relações internas."
   },
   {
     "id": "m5-q-66",
@@ -1261,13 +1391,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "No planejamento de uma biblioteca, a definição de escalas diárias de revezamento no balcão de atendimento e a padronização do carimbo de tombamento são atribuições privativas do planejamento estratégico da instituição.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Escalas de serviço diárias, carimbagem e rotinas práticas imediatas constituem atribuições do planejamento OPERACIONAL (curto prazo). O planejamento estratégico ocupa-se das macro-diretrizes, visão e objetivos de longo prazo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir rotinas operacionais com planejamento estratégico.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "são atribuições privativas do planejamento estratégico da instituição",
+    "versao_correta": "No planejamento de uma biblioteca, a definição de escalas diárias de revezamento no balcão de atendimento e a padronização do carimbo de tombamento [corretamente formatado: são atribuições privativas do planejamento estratégico da instituição]."
   },
   {
     "id": "m5-q-67",
@@ -1277,11 +1409,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a organização e administração de bibliotecas, julgue os itens:",
     "item": "O domínio de aspectos financeiros, como cortes e incrementos de custos, é indispensável à ex e- cução do ato de administrar, tanto da instituição quanto de sua biblioteca.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"é indispensável à ex e- cução do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
@@ -1289,7 +1421,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624237"
-    }
+    },
+    "gatilho": "é indispensável à ex e- cução do",
+    "versao_errada": "O domínio de aspectos financeiros, como cortes e incrementos de custos, indevidamente é indispensável à ex e- cução do ato de administrar, tanto da instituição quanto de sua biblioteca."
   },
   {
     "id": "m5-q-68",
@@ -1299,14 +1433,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "A matriz SWOT (ou FOFA) é uma ferramenta de diagnóstico estratégico que permite cruzar variáveis do ambiente interno da biblioteca (Forças e Fraquezas) com variáveis do ambiente externo incontrolável (Oportunidades e Ameaças).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estrutura canônica da análise SWOT: F (Forças) e F (Fraquezas) são internas e controláveis; O (Oportunidades) e A (Ameaças) decorrem do contexto externo e não são diretamente controladas pelo órgão.",
-    "armadilhaBanca": "Matriz SWOT na gestão de bibliotecas.",
+    "justificativa": "Gabarito CERTO. Estrutura canônica da análise SWOT: F (Forças) e F (Fraquezas) são internas e controláveis; O (Oportunidades) e A (Ameaças) decorrem do contexto externo e não são diretamente controladas pelo órgão. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "cruzar variáveis do ambiente interno da biblioteca",
+    "versao_errada": "A matriz SWOT (ou FOFA) é uma ferramenta de diagnóstico estratégico que permite indevidamente cruzar variáveis do ambiente interno da biblioteca (Forças e Fraquezas) com variáveis do ambiente externo incontrolável (Oportunidades e Ameaças)."
   },
   {
     "id": "m5-q-69",
@@ -1316,14 +1452,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "A metodologia do Balanced Scorecard (BSC) aplicada a instituições públicas estabelece o lucro operacional e a rentabilidade do capital investido como vetores orientadores das principais metas estratégicas setoriais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. No setor público, a perspectiva do usuário e do cidadão e a geração de impacto social situam-se no topo do mapa estratégico, equilibrando-se com processos internos e aprendizado.",
-    "armadilhaBanca": "Reduzir o BSC a lucro e dividendos financeiros.",
+    "justificativa": "Gabarito ERRADO. No setor público, a perspectiva do usuário e do cidadão e a geração de impacto social situam-se no topo do mapa estratégico, equilibrando-se com processos internos e aprendizado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "como vetores orientadores das principais metas estratégicas setoriais",
+    "versao_correta": "A metodologia do Balanced Scorecard (BSC) aplicada a instituições públicas estabelece o lucro operacional e a rentabilidade do capital investido [corretamente formatado: como vetores orientadores das principais metas estratégicas setoriais]."
   },
   {
     "id": "m5-q-70",
@@ -1333,14 +1471,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "A gestão por competências em bibliotecas públicas orienta os processos de capacitação, avaliação funcional e alocação de servidores com base no tripé CHA: Conhecimentos (saber), Habilidades (saber fazer) e Atitudes (querer fazer).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O modelo CHA é a referência metodológica contemporânea para mapeamento e desenvolvimento de competências funcionais no setor público federal.",
-    "armadilhaBanca": "Modelo CHA na gestão por competências.",
+    "justificativa": "Gabarito CERTO. O modelo CHA é a referência metodológica contemporânea para mapeamento e desenvolvimento de competências funcionais no setor público federal. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "funcional e alocação de servidores com base",
+    "versao_errada": "A gestão por competências em bibliotecas públicas orienta os processos de capacitação, avaliação indevidamente funcional e alocação de servidores com base no tripé CHA: Conhecimentos (saber), Habilidades (saber fazer) e Atitudes (querer fazer)."
   },
   {
     "id": "m5-q-71",
@@ -1350,11 +1490,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários, julgue os seguintes itens.",
     "item": "Necessidade e demanda de informação são expressões que dizem respeito à solicitação de i informação necessária a pessoas ou instituições no desempenho de duas atividades.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"pessoas ou instituições no desempenho de duas atividades\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -1362,7 +1502,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289226"
-    }
+    },
+    "gatilho": "pessoas ou instituições no desempenho de duas atividades",
+    "versao_correta": "Necessidade e demanda de informação são expressões que dizem respeito à solicitação de i informação necessária a [corretamente formatado: pessoas ou instituições no desempenho de duas atividades]."
   },
   {
     "id": "m5-q-72",
@@ -1372,11 +1514,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do estudo de usuários, julgue os itens a seguir.",
     "item": "O customer relationship management auxilia o bibliotecário a tomar conhecimento das necess i- dades informacionais dos usuários e estabelece diretrizes para aperfeiçoar o relacionamento da biblioteca com os usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"aperfeiçoar o relacionamento da biblioteca com os usuários\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
@@ -1384,7 +1526,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103240"
-    }
+    },
+    "gatilho": "aperfeiçoar o relacionamento da biblioteca com os usuários",
+    "versao_correta": "O customer relationship management auxilia o bibliotecário a tomar conhecimento das necess i- dades informacionais dos usuários e estabelece diretrizes para [corretamente formatado: aperfeiçoar o relacionamento da biblioteca com os usuários]."
   },
   {
     "id": "m5-q-73",
@@ -1394,19 +1538,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Bibliotecas, assim como qualquer outro tipo de sistema de informação, precisam",
     "item": "De um modo geral, a direção e o controle, como funções administrativas aplicadas em bibliot bibliotecas e outros tipos de sistemas de informação, lidam, respectivamente, com pessoas e processos de avaliação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"aplicadas em bibliot bibliotecas e outros tipos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1288"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1288"
+    },
+    "gatilho": "aplicadas em bibliot bibliotecas e outros tipos",
+    "versao_errada": "De um modo geral, a direção e o controle, como funções administrativas indevidamente aplicadas em bibliot bibliotecas e outros tipos de sistemas de informação, lidam, respectivamente, com pessoas e processos de avaliação."
   },
   {
     "id": "m5-q-74",
@@ -1416,19 +1562,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à administração de bibliotecas, julgue os próximos itens.",
     "item": "Tornar possível a ocorrência de eventos que de outro modo não aconteceriam, reduzir riscos e aumentar o aproveitamento de oportunidades, compensar incertezas e mudanças e reduzir cu s- tos são vantagens da atividade de avaliação de serviços de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"da atividade de avaliação de serviços de informação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1320"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1320"
+    },
+    "gatilho": "da atividade de avaliação de serviços de informação",
+    "versao_correta": "Tornar possível a ocorrência de eventos que de outro modo não aconteceriam, reduzir riscos e aumentar o aproveitamento de oportunidades, compensar incertezas e mudanças e reduzir cu s- tos são vantagens [corretamente formatado: da atividade de avaliação de serviços de informação]."
   },
   {
     "id": "m5-q-75",
@@ -1438,14 +1586,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do planejamento de bibliotecas e serviços de informação segundo Maria Christina Barbosa de Almeida, dos níveis de planejamento, da análise SWOT, do Balanced Scorecard e da gestão de equipes, julgue o item a seguir.",
     "item": "O método 5W2H é uma técnica de planejamento operacional que tem por objetivo complicar a execução de projetos ao utilizar equações diferenciais para definir quem não pode trabalhar no setor.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O 5W2H é uma ferramenta prática de plano de ação simples e objetiva baseada em 7 perguntas-guia: What (o quê), Why (por quê), Where (onde), When (quando), Who (quem), How (como) e How much (quanto custa).",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar o método 5W2H com equações diferenciais.",
+    "justificativa": "Gabarito ERRADO. O 5W2H é uma ferramenta prática de plano de ação simples e objetiva baseada em 7 perguntas-guia: What (o quê), Why (por quê), Where (onde), When (quando), Who (quem), How (como) e How much (quanto custa). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "para definir quem não pode trabalhar no setor",
+    "versao_correta": "O método 5W2H é uma técnica de planejamento operacional que tem por objetivo complicar a execução de projetos ao utilizar equações diferenciais para definir quem pode trabalhar no setor."
   },
   {
     "id": "m5-q-76",
@@ -1455,19 +1605,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, que tratam dos seguintes aspectos relacionados ao serv i-",
     "item": "Distribuidores de bases de dados, como o Dialog e o STN Internacional, adaptam os dados dos fornecedores de bases de dados a seus padrões e fornecem acesso a essas bases de dados por meio de software interativos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"por meio de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-245"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-245"
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "Distribuidores de bases de dados, como o Dialog e o STN Internacional, adaptam os dados dos fornecedores de bases de dados a seus padrões e fornecem acesso a essas bases de dados indevidamente por meio de software interativos."
   },
   {
     "id": "m5-q-77",
@@ -1477,11 +1629,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da integração do usuário de biblioteca aos serviços de acesso à i n-",
     "item": "Um banco de dados é uma coleção de registros normalmente gerenciada por um sistema de bu s- ca. Os bancos de dados variam em seu conteúdo (páginas web, patentes, dados estatísticos, normas técnicas, periódicos científicos etc.).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"periódicos científicos etc.)\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -1489,7 +1641,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646355"
-    }
+    },
+    "gatilho": "periódicos científicos etc.)",
+    "versao_correta": "Um banco de dados é uma coleção de registros normalmente gerenciada por um sistema de bu s- ca. Os bancos de dados variam em seu conteúdo (páginas web, patentes, dados estatísticos, normas técnicas, [corretamente formatado: periódicos científicos etc.)]."
   },
   {
     "id": "m5-q-78",
@@ -1499,14 +1653,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "Em uma organização do conhecimento, as 'Comunidades de Prática' (Communities of Practice - CoPs) são grupos burocráticos formais criados por decreto com hierarquia militar e presença obrigatória monitorada por ponto eletrônico a cada dez minutos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Comunidades de Prática (teorizadas por Etienne Wenger) são grupos de adesão e engajamento informal baseados no interesse e paixão comuns por um domínio técnico, onde os pares trocam conhecimentos tácitos espontaneamente.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Definir Comunidades de Prática como unidades militares coercitivas.",
+    "justificativa": "Gabarito ERRADO. Comunidades de Prática (teorizadas por Etienne Wenger) são grupos de adesão e engajamento informal baseados no interesse e paixão comuns por um domínio técnico, onde os pares trocam conhecimentos tácitos espontaneamente. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatória",
+    "versao_correta": "Em uma organização do conhecimento, as 'Comunidades de Prática' (Communities of Practice - CoPs) são grupos burocráticos formais criados por decreto com hierarquia militar e presença [corretamente formatado: obrigatória] monitorada por ponto eletrônico a cada dez minutos."
   },
   {
     "id": "m5-q-79",
@@ -1517,13 +1673,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "O conceito de 'Ba' proposto por Nonaka refere-se a um software proprietário comercial em nuvem obrigatório para qualquer reunião em bibliotecas públicas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. 'Ba' é um conceito filosófico japonês (introduzido na administração por Kitaro Nishida e adaptado por Nonaka e Konno) que significa o 'lugar' compartilhado (físico, virtual oumental) propício para a interação e criação de conhecimento.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Reduzir o conceito de 'Ba' a um software proprietário.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatório",
+    "versao_correta": "O conceito de 'Ba' proposto por Nonaka refere-se a um software proprietário comercial em nuvem [corretamente formatado: obrigatório] para qualquer reunião em bibliotecas públicas."
   },
   {
     "id": "m5-q-80",
@@ -1533,19 +1691,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, que tratam dos seguintes aspectos relacionados ao serv i-",
     "item": "As diferentes concepções de competência informacional envolvem diferentes níveis de complexidade. A concepção ou nível de inteligência envolve mais que a apropriação tecnológica ou a mudança nos processos cognitivos e pressupõe um estado permanente de mudança, essencial em uma visão de aprendizado como fenômeno social.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"que a apropriação tecnológica ou a mudança\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-242"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-242"
+    },
+    "gatilho": "que a apropriação tecnológica ou a mudança",
+    "versao_errada": "As diferentes concepções de competência informacional envolvem diferentes níveis de complexidade. A concepção ou nível de inteligência envolve mais indevidamente que a apropriação tecnológica ou a mudança nos processos cognitivos e pressupõe um estado permanente de mudança, essencial em uma visão de aprendizado como fenômeno social."
   },
   {
     "id": "m5-q-81",
@@ -1555,19 +1715,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens relativos a estudos de usuários.",
     "item": "A disseminação seletiva da informação é considerada como não especializada, em virtude de não ser direcionada a perfis específicos de público usuário da informação ou de unidade de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"usuário da informação ou de unidade de informação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-349"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-349"
+    },
+    "gatilho": "usuário da informação ou de unidade de informação",
+    "versao_correta": "A disseminação seletiva da informação é considerada como não especializada, em virtude de não ser direcionada a perfis específicos de público [corretamente formatado: usuário da informação ou de unidade de informação]."
   },
   {
     "id": "m5-q-82",
@@ -1577,14 +1739,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "A perda de memória institucional em órgãos públicos federais decorre frequentemente da aposentadoria ou exoneração de servidores detentores de vasto conhecimento tácito que não foi formalizado em manuais de rotina ou sistemas documentais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fenômeno de 'amnésia corporativa': quando a memória do órgão reside unicamente na cabeça das pessoas, sua saída gera vácuo informacional e retrabalho crônico.",
-    "armadilhaBanca": "Preservação da memória institucional e retenção do saber.",
+    "justificativa": "Gabarito CERTO. Fenômeno de 'amnésia corporativa': quando a memória do órgão reside unicamente na cabeça das pessoas, sua saída gera vácuo informacional e retrabalho crônico. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "ou exoneração de servidores detentores de vasto",
+    "versao_errada": "A perda de memória institucional em órgãos públicos federais decorre frequentemente da aposentadoria indevidamente ou exoneração de servidores detentores de vasto conhecimento tácito que não foi formalizado em manuais de rotina ou sistemas documentais."
   },
   {
     "id": "m5-q-83",
@@ -1594,11 +1758,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da integração do usuário de biblioteca aos serviços de acesso à i n-",
     "item": "Se um usuário demandar o monitoramento de determi nada área de pesquisa científica, deverá ser oferecido a ele o serviço de disseminação seletiva da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"deverá ser oferecido a ele o serviço de disseminação seletiva da informação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -1606,7 +1770,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646357"
-    }
+    },
+    "gatilho": "deverá ser oferecido a ele o serviço de disseminação seletiva da informação",
+    "versao_correta": "Se um usuário demandar o monitoramento de determi nada área de pesquisa científica, [corretamente formatado: deverá ser oferecido a ele o serviço de disseminação seletiva da informação]."
   },
   {
     "id": "m5-q-84",
@@ -1616,19 +1782,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à circulação de recursos informacionais em bibliotecas, julgue os itens.",
     "item": "Embora a circulação seja responsável pelo controle da movimentação das coleções da bibliotec a, inclusive de empréstimos entre bibliotecas, a aplicação de penalidades em razão do atraso na devolução de obras emprestadas não faz parte de suas atribuições mas sim do serviço de ref e- rência, já que este estabelece o primeiro contato com o usuário que adentra a biblioteca.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"já que este estabelece o primeiro contato com o usuário que adentra a biblioteca\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / IPHAN / 2018",
-        "verificado": true,
-        "provaId": "TecConcursos-696559",
-        "ano": 2018,
-        "orgao": "IPHAN",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "696559"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / IPHAN / 2018",
+      "verificado": true,
+      "provaId": "TecConcursos-696559",
+      "ano": 2018,
+      "orgao": "IPHAN",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "696559"
+    },
+    "gatilho": "já que este estabelece o primeiro contato com o usuário que adentra a biblioteca",
+    "versao_correta": "Embora a circulação seja responsável pelo controle da movimentação das coleções da bibliotec a, inclusive de empréstimos entre bibliotecas, a aplicação de penalidades em razão do atraso na devolução de obras emprestadas não faz parte de suas atribuições mas sim do serviço de ref e- rência, [corretamente formatado: já que este estabelece o primeiro contato com o usuário que adentra a biblioteca]."
   },
   {
     "id": "m5-q-85",
@@ -1638,14 +1806,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "O modo de conversão 'Externalização' no modelo SECI é a passagem do conhecimento tácito para o conhecimento explícito, concretizada pela elaboração de conceitos, metáforas, hipóteses, manuais técnicos ou fluxogramas que tornam compreensível a terceiros o saber acumulado pelos indivíduos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Externalização é o momento-chave da codificação: transformar o 'know-how' intuitivo que está na cabeça do servidor em patrimônio documentado da biblioteca.",
-    "armadilhaBanca": "Conceito de Externalização no modelo SECI.",
+    "justificativa": "Gabarito CERTO. Externalização é o momento-chave da codificação: transformar o 'know-how' intuitivo que está na cabeça do servidor em patrimônio documentado da biblioteca. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "conhecimento explícito, concretizada pela elaboração de conceitos",
+    "versao_errada": "O modo de conversão 'Externalização' no modelo SECI é a passagem do conhecimento tácito para o indevidamente conhecimento explícito, concretizada pela elaboração de conceitos, metáforas, hipóteses, manuais técnicos ou fluxogramas que tornam compreensível a terceiros o saber acumulado pelos indivíduos."
   },
   {
     "id": "m5-q-86",
@@ -1656,13 +1826,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "A Gestão do Conhecimento substitui e torna completamente inútil a catalogação bibliográfica e os arquivos históricos da instituição, que devem ser eliminados das bibliotecas modernas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A GC apoia-se e complementa as disciplinas da Biblioteconomia e da Arquivologia; sem arquivos organizados, sem repositórios e sem controle de metadados, a gestão do conhecimento carece de sustentação fática e infraestrutura documental.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que a GC torna inútil o patrimônio arquivístico e bibliográfico.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "que devem ser eliminados das bibliotecas modernas",
+    "versao_correta": "A Gestão do Conhecimento substitui e torna completamente inútil a catalogação bibliográfica e os arquivos históricos da instituição, [corretamente formatado: que devem ser eliminados das bibliotecas modernas]."
   },
   {
     "id": "m5-q-87",
@@ -1672,16 +1844,18 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a aspectos diversos pertinentes ao atendimento a usuários, julgue os",
     "item": "A metodologia LibQUAL+ é utilizada pelos bibliotecários para a disseminação seletiva da info r- mação.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"para a disseminação seletiva da info r- mação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-319",
-        "declaracaoLegada": "Cebraspe / 2018 / 2018"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-319",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+    },
+    "gatilho": "para a disseminação seletiva da info r- mação",
+    "versao_correta": "A metodologia LibQUAL+ é utilizada pelos bibliotecários [corretamente formatado: para a disseminação seletiva da info r- mação]."
   },
   {
     "id": "m5-q-88",
@@ -1691,14 +1865,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "A 'Internalização' no modelo SECI corresponde à incorporação do conhecimento explícito em conhecimento tácito (o aprendizado prático pelo 'aprender fazendo'), no qual os indivíduos internalizam as diretrizes e manuais em seus modelos mentais e hábitos de trabalho.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Internalização fecha o ciclo e reinicia a espiral: ao ler os manuais e praticar as rotinas, o servidor internaliza o conhecimento em sua vivência tácita.",
-    "armadilhaBanca": "Conceito de Internalização no modelo SECI.",
+    "justificativa": "Gabarito CERTO. Internalização fecha o ciclo e reinicia a espiral: ao ler os manuais e praticar as rotinas, o servidor internaliza o conhecimento em sua vivência tácita. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "aprendizado prático pelo 'aprender fazendo'), no qual",
+    "versao_errada": "A 'Internalização' no modelo SECI corresponde à incorporação do conhecimento explícito em conhecimento tácito (o indevidamente aprendizado prático pelo 'aprender fazendo'), no qual os indivíduos internalizam as diretrizes e manuais em seus modelos mentais e hábitos de trabalho."
   },
   {
     "id": "m5-q-89",
@@ -1708,11 +1884,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a aspectos diversos pertinentes ao atendimento a usuários, julgue os",
     "item": "O plano de serviços a clientes de bibliotecas, que abrange o compromisso com a qualidade dos serviços prestados , deve ser precedido por diretrizes estabelecidas pelas gerências respons á- veis, por pesquisas de mercado e endomarketing® e por consultas a usuários que utilizem esses serviços.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"deve ser precedido por diretrizes estabelecidas pelas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
@@ -1720,7 +1896,9 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624023"
-    }
+    },
+    "gatilho": "deve ser precedido por diretrizes estabelecidas pelas",
+    "versao_errada": "O plano de serviços a clientes de bibliotecas, que abrange o compromisso com a qualidade dos serviços prestados , indevidamente deve ser precedido por diretrizes estabelecidas pelas gerências respons á- veis, por pesquisas de mercado e endomarketing® e por consultas a usuários que utilizem esses serviços."
   },
   {
     "id": "m5-q-90",
@@ -1730,14 +1908,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "O ciclo da Inteligência Competitiva (planejamento, coleta de dados, análise/síntese, disseminação e tomada de decisão) atua em órgãos legislativos fornecendo subsídios antecipados sobre tendências socioeconômicas, decisões do Judiciário e impactos de políticas públicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a aplicação contemporânea de inteligência estratégica na consultoria e nas bibliotecas parlamentares para assessorar os relatores de grandes matérias legislativas.",
-    "armadilhaBanca": "Ciclo de Inteligência Estratégica em órgãos públicos.",
+    "justificativa": "Gabarito CERTO. É a aplicação contemporânea de inteligência estratégica na consultoria e nas bibliotecas parlamentares para assessorar os relatores de grandes matérias legislativas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "de decisão) atua em órgãos legislativos fornecendo",
+    "versao_errada": "O ciclo da Inteligência Competitiva (planejamento, coleta de dados, análise/síntese, disseminação e tomada indevidamente de decisão) atua em órgãos legislativos fornecendo subsídios antecipados sobre tendências socioeconômicas, decisões do Judiciário e impactos de políticas públicas."
   },
   {
     "id": "m5-q-91",
@@ -1747,16 +1927,18 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Para suprir as necessidades de informação dos usuários, as atividades do setor de",
     "item": "O programa governamental GESAC, do Ministério das Comunicações, visa promover ou ampliar o processo de inclusão digital e acesso à Internet em instituições públicas de ensino, instituições públicas de saúde, unidades de serviço público locali zadas em áreas remotas, bem como em ent i- dades da sociedade civil sem fins lucrativos.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"instituições públicas de ensino, instituições públicas de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-238",
-        "declaracaoLegada": "Cebraspe / 2010 / 2010"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-238",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+    },
+    "gatilho": "instituições públicas de ensino, instituições públicas de",
+    "versao_errada": "O programa governamental GESAC, do Ministério das Comunicações, visa promover ou ampliar o processo de inclusão digital e acesso à Internet em indevidamente instituições públicas de ensino, instituições públicas de saúde, unidades de serviço público locali zadas em áreas remotas, bem como em ent i- dades da sociedade civil sem fins lucrativos."
   },
   {
     "id": "m5-q-92",
@@ -1767,13 +1949,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "A Inteligência Competitiva no setor público autoriza e estimula a interceptação telefônica clandestina e a invasão de domicílio contra partidos de oposição política.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Inteligência Competitiva é uma atividade rigorosamente ÉTICA e LEGAL, que opera exclusivamente com a coleta, análise e tratamento de dados de fontes abertas e legítimas (open source intelligence - OSINT), não se confundindo com espionagem ou condutas ilícitas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Confundir Inteligência Competitiva com espionagem criminosa.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "invasão de domicílio contra partidos de oposição política",
+    "versao_correta": "A Inteligência Competitiva no setor público autoriza e estimula a interceptação telefônica clandestina e a [corretamente formatado: invasão de domicílio contra partidos de oposição política]."
   },
   {
     "id": "m5-q-93",
@@ -1783,14 +1967,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "As 'Lições Aprendidas' (Lessons Learned) constituem técnica de Gestão do Conhecimento que registra formalmente os acertos, falhas e soluções encontradas na condução de um projeto concluído, evitando a repetição de erros em empreendimentos futuros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Prática fundamental de governança e pós-projeto: documentar o aprendizado para não reinventar a roda nem reiterar falhas conhecidas.",
-    "armadilhaBanca": "Técnica de Lições Aprendidas.",
+    "justificativa": "Gabarito CERTO. Prática fundamental de governança e pós-projeto: documentar o aprendizado para não reinventar a roda nem reiterar falhas conhecidas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "os acertos, falhas e soluções encontradas na",
+    "versao_errada": "As 'Lições Aprendidas' (Lessons Learned) constituem técnica de Gestão do Conhecimento que registra formalmente indevidamente os acertos, falhas e soluções encontradas na condução de um projeto concluído, evitando a repetição de erros em empreendimentos futuros."
   },
   {
     "id": "m5-q-94",
@@ -1800,19 +1986,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Para suprir as necessidades de informação dos usuários, as atividades do setor de",
     "item": "Constitui objetivo da abordagem denominada valor adicionado solucionar os problemas do sistema de informação com base na percepção do usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"solucionar os problemas do sistema de informação\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-239"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-239"
+    },
+    "gatilho": "solucionar os problemas do sistema de informação",
+    "versao_errada": "Constitui objetivo da abordagem denominada valor adicionado indevidamente solucionar os problemas do sistema de informação com base na percepção do usuário."
   },
   {
     "id": "m5-q-95",
@@ -1822,14 +2010,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "No modelo de criação do conhecimento organizacional desenvolvido por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o conhecimento manifesta-se em duas naturezas ontológicas: conhecimento tácito (pessoal, contextual, subjetivo e de difícil formalização) e conhecimento explícito (codificado, sistemático, transmissível em linguagem formal e registros documentais).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fundamento epistemológico de Nonaka e Takeuchi: a criação do conhecimento decorre da interação dinâmica e ininterrupta entre o tácito e o explícito.",
-    "armadilhaBanca": "Distinção canônica entre conhecimento tácito e explícito.",
+    "justificativa": "Gabarito CERTO. Fundamento epistemológico de Nonaka e Takeuchi: a criação do conhecimento decorre da interação dinâmica e ininterrupta entre o tácito e o explícito. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "em duas naturezas ontológicas: conhecimento tácito (pessoal",
+    "versao_errada": "No modelo de criação do conhecimento organizacional desenvolvido por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o conhecimento manifesta-se indevidamente em duas naturezas ontológicas: conhecimento tácito (pessoal, contextual, subjetivo e de difícil formalização) e conhecimento explícito (codificado, sistemático, transmissível em linguagem formal e registros documentais)."
   },
   {
     "id": "m5-q-96",
@@ -1839,19 +2029,21 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Para suprir as necessidades de informação dos usuários, as atividades do setor de",
     "item": "As bibliotecas que disp ensam localização física para disseminar informações, constituindo -se, simplesmente, em um conjunto de mecanismos eletrônicos que facilitam a localização da demanda informacional e que interligam recursos e usuários, denominam-se bibliotecas híbridas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"denominam-se bibliotecas híbridas\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-240"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-240"
+    },
+    "gatilho": "denominam-se bibliotecas híbridas",
+    "versao_correta": "As bibliotecas que disp ensam localização física para disseminar informações, constituindo -se, simplesmente, em um conjunto de mecanismos eletrônicos que facilitam a localização da demanda informacional e que interligam recursos e usuários, [corretamente formatado: denominam-se bibliotecas híbridas]."
   },
   {
     "id": "m5-q-97",
@@ -1861,14 +2053,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "O mapeamento de processos de trabalho (workflow) em bibliotecas viabiliza a identificação de gargalos de produção, padronização de procedimentos e transferência de conhecimento entre servidores mais experientes e novatos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Mapear o fluxo operacional (BPM) transforma conhecimento tácito disperso em rotinas explícitas auditáveis e contínuas.",
-    "armadilhaBanca": "Mapeamento de processos e GC.",
+    "justificativa": "Gabarito CERTO. Mapear o fluxo operacional (BPM) transforma conhecimento tácito disperso em rotinas explícitas auditáveis e contínuas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "identificação de gargalos de produção, padronização de",
+    "versao_errada": "O mapeamento de processos de trabalho (workflow) em bibliotecas viabiliza a indevidamente identificação de gargalos de produção, padronização de procedimentos e transferência de conhecimento entre servidores mais experientes e novatos."
   },
   {
     "id": "m5-q-98",
@@ -1879,13 +2073,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "item": "No modelo SECI, a 'Combinação' é o processo de transformação de conhecimento explícito em crenças místicas orais não articuladas mantidas em segredo absoluto pelos bibliotecários.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A Combinação é a conversão de conhecimento EXPLÍCITO em conhecimento EXPLÍCITO: reúne, organiza, sintetiza e reconfigura diferentes fontes de informação explícita (relatórios, bases de dados, gráficos) gerando novos documentos estruturados.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Desvirtuar a etapa de Combinação no modelo SECI.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "não articuladas mantidas em segredo absoluto pelos bibliotecários",
+    "versao_correta": "No modelo SECI, a 'Combinação' é o processo de transformação de conhecimento explícito em crenças místicas orais articuladas mantidas em segredo absoluto pelos bibliotecários."
   },
   {
     "id": "m5-q-99",
@@ -1895,14 +2091,16 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à Gestão do Conhecimento, ao modelo SECI de Nonaka e Takeuchi, à Inteligência Competitiva e à preservação da memória institucional em órgãos públicos, julgue o item a seguir.",
     "item": "Na espiral do conhecimento do modelo SECI, o modo de conversão denominado 'Socialização' consiste na transformação de conhecimento tácito em fórmulas matemáticas explícitas publicadas em manuais digitais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Socialização é a conversão de conhecimento TÁCITO em conhecimento TÁCITO, ocorrendo por meio de convivência, observação, imitação, mentorias e compartilhamento de experiências diretas sem necessidade de linguagem formal.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir Socialização (tácito para tácito) com Externalização (tácito para explícito).",
+    "justificativa": "Gabarito ERRADO. A Socialização é a conversão de conhecimento TÁCITO em conhecimento TÁCITO, ocorrendo por meio de convivência, observação, imitação, mentorias e compartilhamento de experiências diretas sem necessidade de linguagem formal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
-    }
+    },
+    "gatilho": "em fórmulas matemáticas explícitas publicadas em manuais digitais",
+    "versao_correta": "Na espiral do conhecimento do modelo SECI, o modo de conversão denominado 'Socialização' consiste na transformação de conhecimento tácito [corretamente formatado: em fórmulas matemáticas explícitas publicadas em manuais digitais]."
   },
   {
     "id": "m5-q-100",
@@ -1912,11 +2110,11 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a aspectos diversos pertinentes ao atendimento a usuários, julgue os",
     "item": "O não usuário ou usuário potencial que não utiliza os produtos e serviços da biblioteca repr e- senta importante item de caráter quantitativo a ser considerado no estudo de usuários.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"serviços da biblioteca repr e- senta importante\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
@@ -1924,6 +2122,8 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624026"
-    }
+    },
+    "gatilho": "serviços da biblioteca repr e- senta importante",
+    "versao_errada": "O não usuário ou usuário potencial que não utiliza os produtos e indevidamente serviços da biblioteca repr e- senta importante item de caráter quantitativo a ser considerado no estudo de usuários."
   }
 ];

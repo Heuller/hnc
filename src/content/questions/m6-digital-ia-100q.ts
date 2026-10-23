@@ -9,14 +9,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O DSpace 7 introduziu uma reformulação arquitetural profunda em sua camada de apresentação, adotando uma interface de usuário baseada em Angular e uma API REST desacoplada para comunicação com o backend em Java.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O DSpace 7 unificou as antigas interfaces (JSPUI e XMLUI) em uma moderna Single Page Application em Angular integrada via REST API.",
-    "armadilhaBanca": "Evolução técnica do DSpace 7.",
+    "justificativa": "Gabarito CERTO. O DSpace 7 unificou as antigas interfaces (JSPUI e XMLUI) em uma moderna Single Page Application em Angular integrada via REST API. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "adotando uma interface de usuário baseada em",
+    "versao_errada": "O DSpace 7 introduziu uma reformulação arquitetural profunda em sua camada de apresentação, indevidamente adotando uma interface de usuário baseada em Angular e uma API REST desacoplada para comunicação com o backend em Java."
   },
   {
     "id": "m6-q-2",
@@ -26,14 +28,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Bibliotecas digitais e repositórios institucionais destinam-se à guarda, organização, preservação perene e disseminação em acesso aberto da produção científica, intelectual e institucional.",
-    "armadilhaBanca": "Caricaturar repositórios institucionais como depósitos piratas.",
+    "justificativa": "Gabarito ERRADO. Bibliotecas digitais e repositórios institucionais destinam-se à guarda, organização, preservação perene e disseminação em acesso aberto da produção científica, intelectual e institucional. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais",
+    "versao_correta": "Uma biblioteca digital e um repositório institucional caracterizam-se por prescindir de políticas de preservação digital de longo prazo, [corretamente formatado: funcionando como repositórios temporários de arquivos digitais compartilhados por redes sociais]."
   },
   {
     "id": "m6-q-3",
@@ -43,14 +47,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O DSpace exige o pagamento anual compulsório de licença de uso à empresa proprietária do código-fonte para que órgãos públicos possam manter seus repositórios ativos na internet.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DSpace é distribuído sob licença livre (BSD Open Source License), sendo gratuito, sem custos de licenciamento e com código aberto mantido colaborativamente pela comunidade global liderada pela LYRASIS.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar que o DSpace cobra licença anual proprietária.",
+    "justificativa": "Gabarito ERRADO. O DSpace é distribuído sob licença livre (BSD Open Source License), sendo gratuito, sem custos de licenciamento e com código aberto mantido colaborativamente pela comunidade global liderada pela LYRASIS. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "públicos possam manter seus repositórios ativos na internet",
+    "versao_correta": "O DSpace exige o pagamento anual compulsório de licença de uso à empresa proprietária do código-fonte para que órgãos [corretamente formatado: públicos possam manter seus repositórios ativos na internet]."
   },
   {
     "id": "m6-q-4",
@@ -60,14 +66,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O Koha rejeita a utilização de leitores de código de barras ou etiquetas RFID para a circulação de livros, exigindo que os empréstimos sejam registrados em cadernos de capa dura manuscritos a pena.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Koha suporta amplamente leitores de código de barras, impressoras térmicas de recibos e protocolos de integração com equipamentos RFID e de autoempréstimo (como o protocolo SIP2).",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que o Koha rejeita código de barras e RFID.",
+    "justificativa": "Gabarito ERRADO. O Koha suporta amplamente leitores de código de barras, impressoras térmicas de recibos e protocolos de integração com equipamentos RFID e de autoempréstimo (como o protocolo SIP2). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "exigindo que os empréstimos sejam registrados em cadernos de capa dura manuscritos a pena",
+    "versao_correta": "O Koha rejeita a utilização de leitores de código de barras ou etiquetas RFID para a circulação de livros, [corretamente formatado: exigindo que os empréstimos sejam registrados em cadernos de capa dura manuscritos a pena]."
   },
   {
     "id": "m6-q-5",
@@ -77,14 +85,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "No DSpace, a autoarquivamento é o procedimento em que robôs de inteligência artificial autônomos invadem os computadores pessoais dos cidadãos e capturam seus diários íntimos sem autorização.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Autoarquivamento (self-archiving) é o ato legítimo e voluntário pelo qual o próprio autor (pesquisador/servidor) deposita a versão de seu trabalho intelectual no repositório institucional, em consonância com as políticas de acesso aberto.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar autoarquivamento como invasão cibernética.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"cidadãos e capturam seus diários íntimos sem autorização\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "cidadãos e capturam seus diários íntimos sem autorização",
+    "versao_correta": "No DSpace, a autoarquivamento é o procedimento em que robôs de inteligência artificial autônomos invadem os computadores pessoais dos [corretamente formatado: cidadãos e capturam seus diários íntimos sem autorização]."
   },
   {
     "id": "m6-q-6",
@@ -94,19 +104,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à automação de bibliotecas e sistemas informatizados, julgue os itens a",
     "item": "O sistema de editoração eletrônica se baseia no software OJS (Open Journal Systems).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"editoração eletrônica se baseia no software OJS\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1596"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1596"
+    },
+    "gatilho": "editoração eletrônica se baseia no software OJS",
+    "versao_errada": "O sistema de indevidamente editoração eletrônica se baseia no software ojs (Open Journal Systems)."
   },
   {
     "id": "m6-q-7",
@@ -116,19 +128,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, que tratam dos seguintes aspectos relacionados ao serv i-",
     "item": "O hipertexto é um recurso empregado em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"em enciclopédias eletrônicas para formar estruturas associadas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-244"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-244"
+    },
+    "gatilho": "em enciclopédias eletrônicas para formar estruturas associadas",
+    "versao_errada": "O hipertexto é um recurso empregado indevidamente em enciclopédias eletrônicas para formar estruturas associadas entre si mediante relações semânticas."
   },
   {
     "id": "m6-q-8",
@@ -138,19 +152,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O uso de software de editoração eletrônica, como, por exemplo, o Dspace, proporciona melhor gerenciamento dos repositórios institucionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"proporciona melhor gerenciamento dos repositórios institucionais\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-892"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-892"
+    },
+    "gatilho": "proporciona melhor gerenciamento dos repositórios institucionais",
+    "versao_correta": "O uso de software de editoração eletrônica, como, por exemplo, o Dspace, [corretamente formatado: proporciona melhor gerenciamento dos repositórios institucionais]."
   },
   {
     "id": "m6-q-9",
@@ -160,11 +176,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das publicações oficiais, julgue os próximos itens.",
     "item": "A publicação eletrônica do Diário de Justiça substi tui qualquer outro meio de publicação oficial, para quaisquer efeitos legais, à exceção dos casos em que se exige, por lei, a intimação ou a vista pessoal.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"oficial, para quaisquer efeitos legais, à exceção\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -172,7 +188,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-181022"
-    }
+    },
+    "gatilho": "oficial, para quaisquer efeitos legais, à exceção",
+    "versao_errada": "A publicação eletrônica do Diário de Justiça substi tui qualquer outro meio de publicação indevidamente oficial, para quaisquer efeitos legais, à exceção dos casos em que se exige, por lei, a intimação ou a vista pessoal."
   },
   {
     "id": "m6-q-10",
@@ -182,14 +200,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A implantação de repositórios digitais em infraestrutura de computação em nuvem afasta a necessidade de protocolos de backup redundantes e testes de restauração de desastres, visto que a arquitetura em nuvem suprime os riscos de corrupção lógica de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Rotinas de backup redundante, auditoria de integridade e planos de contingência constituem requisitos elementares de governança de TI e preservação digital em qualquer repositório confiável.",
-    "armadilhaBanca": "Dispensar backups em repositórios digitais.",
+    "justificativa": "Gabarito ERRADO. Rotinas de backup redundante, auditoria de integridade e planos de contingência constituem requisitos elementares de governança de TI e preservação digital em qualquer repositório confiável. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "visto que a arquitetura em nuvem suprime os riscos de corrupção lógica de dados",
+    "versao_correta": "A implantação de repositórios digitais em infraestrutura de computação em nuvem afasta a necessidade de protocolos de backup redundantes e testes de restauração de desastres, [corretamente formatado: visto que a arquitetura em nuvem suprime os riscos de corrupção lógica de dados]."
   },
   {
     "id": "m6-q-11",
@@ -200,13 +220,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "Nos repositórios digitais, a conversão de um arquivo proprietário em formato obsoleto para um formato aberto padronizado de longa duração é expressamente proibida, devendo o documento ficar corrompido para manter a autenticidade.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A migração de formatos (migration) é uma das estratégias mais consolidadas de preservação digital para evitar a obsolescência tecnológica, convertendo formatos proprietários em padrões abertos e sustentáveis (ex: DOC para PDF/A).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que a migração de formatos na preservação é proibida.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "devendo o documento ficar corrompido para manter a autenticidade",
+    "versao_correta": "Nos repositórios digitais, a conversão de um arquivo proprietário em formato obsoleto para um formato aberto padronizado de longa duração é expressamente proibida, [corretamente formatado: devendo o documento ficar corrompido para manter a autenticidade]."
   },
   {
     "id": "m6-q-12",
@@ -216,14 +238,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "No DSpace, o fluxo de submissão (workflow) pode ser parametrizado para exigir aprovação técnica por revisores e bibliotecários catalogadores antes que o item se torne visível ao público geral no repositório.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O DSpace permite configurar etapas customizadas de mediação editorial e controle de qualidade dos metadados antes da publicação definitiva do documento.",
-    "armadilhaBanca": "Workflow de submissão no DSpace.",
+    "justificativa": "Gabarito CERTO. O DSpace permite configurar etapas customizadas de mediação editorial e controle de qualidade dos metadados antes da publicação definitiva do documento. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "aprovação técnica por revisores e bibliotecários catalogadores",
+    "versao_errada": "No DSpace, o fluxo de submissão (workflow) pode ser parametrizado para exigir indevidamente aprovação técnica por revisores e bibliotecários catalogadores antes que o item se torne visível ao público geral no repositório."
   },
   {
     "id": "m6-q-13",
@@ -233,19 +257,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Tendo em vista que o bibliotecário deve estar preparado para enfrentar as dif i-",
     "item": "As fon tes de informação impressas geralmente são mais fáceis de descrever com precisão em uma bibliografia, por serem mais estáveis e sistemáticas do que as fontes eletrônicas ou digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso EBESERH/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"com precisão em uma bibliografia, por serem\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "EBESERH/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-612"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "EBESERH/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-612"
+    },
+    "gatilho": "com precisão em uma bibliografia, por serem",
+    "versao_errada": "As fon tes de informação impressas geralmente são mais fáceis de descrever indevidamente com precisão em uma bibliografia, por serem mais estáveis e sistemáticas do que as fontes eletrônicas ou digitais."
   },
   {
     "id": "m6-q-14",
@@ -255,14 +281,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O repositório digital da Câmara dos Deputados organiza e dissemina a memória legislativa e a produção técnico-científica de seus servidores e parlamentares, facilitando o acesso aberto às publicações institucionais da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Aplicação prática do repositório institucional na Câmara para transparência ativa e guarda da produção institucional.",
-    "armadilhaBanca": "Repositório institucional da Câmara dos Deputados.",
+    "justificativa": "Gabarito CERTO. Aplicação prática do repositório institucional na Câmara para transparência ativa e guarda da produção institucional. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "legislativa e a produção técnico-científica de seus",
+    "versao_errada": "O repositório digital da Câmara dos Deputados organiza e dissemina a memória indevidamente legislativa e a produção técnico-científica de seus servidores e parlamentares, facilitando o acesso aberto às publicações institucionais da Casa."
   },
   {
     "id": "m6-q-15",
@@ -272,14 +300,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "Na arquitetura de objetos do DSpace, cada item depositado limita-se ao registro de metadados descritivos em Dublin Core, cabendo a servidores web externos a custódia e entrega dos arquivos digitais primários (bitstreams).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DSpace foi projetado especificamente para gerenciar tanto os metadados descritivos quanto os arquivos digitais de conteúdo (bitstreams organizados em bundles), como PDFs, áudios e vídeos.",
-    "armadilhaBanca": "Proibir armazenamento de arquivos digitais no DSpace.",
+    "justificativa": "Gabarito ERRADO. O DSpace foi projetado especificamente para gerenciar tanto os metadados descritivos quanto os arquivos digitais de conteúdo (bitstreams organizados em bundles), como PDFs, áudios e vídeos. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "cabendo a servidores web externos a custódia e entrega dos arquivos digitais primários (bitstreams)",
+    "versao_correta": "Na arquitetura de objetos do DSpace, cada item depositado limita-se ao registro de metadados descritivos em Dublin Core, [corretamente formatado: cabendo a servidores web externos a custódia e entrega dos arquivos digitais primários (bitstreams)]."
   },
   {
     "id": "m6-q-16",
@@ -289,14 +319,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A indexação por texto completo em repositórios DSpace é tipicamente provida por motores de busca de alta performance integrados, como o Apache Solr, que indexam os termos contidos no interior dos arquivos PDF.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Solr é o motor de indexação e descoberta padrão embutido no DSpace para pesquisa facetada e busca em texto integral.",
-    "armadilhaBanca": "Motor Apache Solr no DSpace.",
+    "justificativa": "Gabarito CERTO. O Solr é o motor de indexação e descoberta padrão embutido no DSpace para pesquisa facetada e busca em texto integral. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "de busca de alta performance integrados, como",
+    "versao_errada": "A indexação por texto completo em repositórios DSpace é tipicamente provida por motores indevidamente de busca de alta performance integrados, como o Apache Solr, que indexam os termos contidos no interior dos arquivos PDF."
   },
   {
     "id": "m6-q-17",
@@ -306,19 +338,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da estrutura e das características do Diário Oficial da União (DOU),",
     "item": "A versão eletrônica do DOU é uma cópia digital que dispensa a assinatura eletrônica.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"dispensa a assinatura eletrônica\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-664"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-664"
+    },
+    "gatilho": "dispensa a assinatura eletrônica",
+    "versao_correta": "A versão eletrônica do DOU é uma cópia digital que [corretamente formatado: dispensa a assinatura eletrônica]."
   },
   {
     "id": "m6-q-18",
@@ -328,14 +362,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O sistema DSpace rejeita a aplicação de embargos temporais sobre teses e dissertações, exigindo a disponibilização pública imediata dos arquivos de texto completo no momento da aprovação do depósito.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O DSpace possui funcionalidades nativas flexíveis para gestão de embargos, permitindo liberar os metadados e resguardar o acesso ao arquivo integral até o decurso do prazo pactuado.",
-    "armadilhaBanca": "Negar capacidade de gestão de embargo no DSpace.",
+    "justificativa": "Gabarito ERRADO. O DSpace possui funcionalidades nativas flexíveis para gestão de embargos, permitindo liberar os metadados e resguardar o acesso ao arquivo integral até o decurso do prazo pactuado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "texto completo no momento da aprovação do depósito",
+    "versao_correta": "O sistema DSpace rejeita a aplicação de embargos temporais sobre teses e dissertações, exigindo a disponibilização pública imediata dos arquivos de [corretamente formatado: texto completo no momento da aprovação do depósito]."
   },
   {
     "id": "m6-q-19",
@@ -345,14 +381,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "No DSpace, a exclusão física de um arquivo acarreta automaticamente a exclusão de todos os registros catalográficos de todas as bibliotecas da federação vinculadas ao protocolo MARC.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A gestão de itens no DSpace afeta apenas a base local do repositório, não exercendo controle destrutivo automático sobre bases e catálogos independentes de outras instituições.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor efeito destrutivo nacional imediato ao excluir arquivo no DSpace.",
+    "justificativa": "Gabarito ERRADO. A gestão de itens no DSpace afeta apenas a base local do repositório, não exercendo controle destrutivo automático sobre bases e catálogos independentes de outras instituições. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "as bibliotecas da federação vinculadas ao protocolo MARC",
+    "versao_correta": "No DSpace, a exclusão física de um arquivo acarreta automaticamente a exclusão de todos os registros catalográficos de todas [corretamente formatado: as bibliotecas da federação vinculadas ao protocolo marc]."
   },
   {
     "id": "m6-q-20",
@@ -362,14 +400,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A plataforma AtoM (Access to Memory) é um software livre baseado na web concebido para a descrição arquivística em conformidade com as normas internacionais do Conselho Internacional de Arquivos (ICA), como a ISAD(G) e a ISAAR(CPF).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. AtoM é o padrão de software de código aberto para difusão e descrição de fundos e coleções arquivísticas.",
-    "armadilhaBanca": "Software arquivístico AtoM e ISAD(G).",
+    "justificativa": "Gabarito CERTO. AtoM é o padrão de software de código aberto para difusão e descrição de fundos e coleções arquivísticas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "a descrição arquivística em conformidade com as",
+    "versao_errada": "A plataforma AtoM (Access to Memory) é um software livre baseado na web concebido para indevidamente a descrição arquivística em conformidade com as normas internacionais do Conselho Internacional de Arquivos (ICA), como a ISAD(G) e a ISAAR(CPF)."
   },
   {
     "id": "m6-q-21",
@@ -380,13 +420,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "Em softwares livres como Koha e DSpace, é proibida a alteração do código-fonte pelos desenvolvedores da biblioteca, sob pena de bloqueio do acesso aos bancos de dados pelo consórcio internacional.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Uma das liberdades fundamentais do software livre (conforme a FSF e a Open Source Initiative) é justamente a liberdade de estudar, modificar e adaptar o código-fonte às necessidades da instituição sem qualquer restrição de uso.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir customização de código em software livre.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "sob pena de bloqueio do acesso aos bancos de dados pelo consórcio internacional",
+    "versao_correta": "Em softwares livres como Koha e DSpace, é proibida a alteração do código-fonte pelos desenvolvedores da biblioteca, [corretamente formatado: sob pena de bloqueio do acesso aos bancos de dados pelo consórcio internacional]."
   },
   {
     "id": "m6-q-22",
@@ -397,13 +439,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O software livre Biblivre é um sistema operacional completo que substitui o Linux e o Windows no hardware dos computadores da biblioteca.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Biblivre é uma aplicação web de automação de bibliotecas (voltada a bibliotecas escolares e comunitárias), funcionando sobre um servidor web (como Tomcat/PostgreSQL) em sistemas Linux ou Windows, e não um sistema operacional.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir software aplicativo de biblioteca com sistema operacional.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "o Windows no hardware dos computadores da biblioteca",
+    "versao_correta": "O software livre Biblivre é um sistema operacional completo que substitui o Linux e [corretamente formatado: o windows no hardware dos computadores da biblioteca]."
   },
   {
     "id": "m6-q-23",
@@ -413,16 +457,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "O serviço de referência digital procura transpor o serviço de referência tradici o-",
     "item": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço físico muito reduzido e podem ser atualizadas constant e- mente, sendo essas características consideradas uma vantagem em comparação às obras de ref e- rência tradicionas.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"físico muito reduzido e podem ser atualizadas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-298",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-298",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "gatilho": "físico muito reduzido e podem ser atualizadas",
+    "versao_errada": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço indevidamente físico muito reduzido e podem ser atualizadas constant e- mente, sendo essas características consideradas uma vantagem em comparação às obras de ref e- rência tradicionas."
   },
   {
     "id": "m6-q-24",
@@ -433,13 +479,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O Open Journal Systems (OJS), conhecido no Brasil como Sistema Eletrônico de Editoração de Revistas (SEER), é um sistema desenvolvido especificamente para a digitalização mecânica de microfilmes sem revisão editorial.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O OJS/SEER (desenvolvido pelo Public Knowledge Project - PKP e disseminado no Brasil pelo Ibict) é um sistema para gestão e publicação eletrônica de periódicos científicos, cobrindo todo o fluxo editorial (submissão, avaliação por pares cega, editoração e publicação).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir sistema de fluxo editorial (OJS) com digitalizador de microfilmes.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "é um sistema desenvolvido especificamente para a digitalização mecânica de microfilmes sem revisão editorial",
+    "versao_correta": "O Open Journal Systems (OJS), conhecido no Brasil como Sistema Eletrônico de Editoração de Revistas (SEER), [corretamente formatado: é um sistema desenvolvido especificamente para a digitalização mecânica de microfilmes sem revisão editorial]."
   },
   {
     "id": "m6-q-25",
@@ -449,14 +497,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A política institucional de informação de um repositório universitário ou parlamentar deve disciplinar os tipos de documentos aceitos, os direitos autorais e licenças de uso (como Creative Commons), as responsabilidades de depósito e a política de preservação digital.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O repositório necessita de governança formalizada para assegurar a idoneidade, legalidade e continuidade dos depósitos.",
-    "armadilhaBanca": "Políticas de repositório digital.",
+    "justificativa": "Gabarito CERTO. O repositório necessita de governança formalizada para assegurar a idoneidade, legalidade e continuidade dos depósitos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "documentos aceitos, os direitos autorais e licenças",
+    "versao_errada": "A política institucional de informação de um repositório universitário ou parlamentar deve disciplinar os tipos de indevidamente documentos aceitos, os direitos autorais e licenças de uso (como Creative Commons), as responsabilidades de depósito e a política de preservação digital."
   },
   {
     "id": "m6-q-26",
@@ -466,19 +516,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a conceitos, leis e modelos da ciência da informação, julgue os pr óxi-",
     "item": "Os estudos da comunicação científica que se fundamentam nas leis epidemiológicas propõem -se a explicar a difusão oral de informações em comunidades científicas de modo análogo ao proce s- so de propagação de epidemias.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"explicar a difusão oral de informações em\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-146"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-146"
+    },
+    "gatilho": "explicar a difusão oral de informações em",
+    "versao_errada": "Os estudos da comunicação científica que se fundamentam nas leis epidemiológicas propõem -se a indevidamente explicar a difusão oral de informações em comunidades científicas de modo análogo ao proce s- so de propagação de epidemias."
   },
   {
     "id": "m6-q-27",
@@ -488,11 +540,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "O BDJur — consórcio de bibliotecas digitais que integra repositórios na área do direito — permite o autoarquivamento de documentos digitais em um sistema central mantido pela BDJur do Sup e- rior Tribunal de Justiça.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJDFT/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"BDJur do Sup e- rior Tribunal de Justiça\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJDFT / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
@@ -500,7 +552,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJDFT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-318031"
-    }
+    },
+    "gatilho": "BDJur do Sup e- rior Tribunal de Justiça",
+    "versao_correta": "O BDJur — consórcio de bibliotecas digitais que integra repositórios na área do direito — permite o autoarquivamento de documentos digitais em um sistema central mantido pela [corretamente formatado: bdjur do sup e- rior tribunal de justiça]."
   },
   {
     "id": "m6-q-28",
@@ -510,14 +564,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é uma especificação técnica aberta baseada em HTTP e XML destinada à colheita automatizada e periódica de metadados entre repositórios digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a definição oficial do OAI-PMH: opera sobre a camada de transporte web (HTTP) com respostas encapsuladas em XML, permitindo colheitas incrementais.",
-    "armadilhaBanca": "Conceito fundamental do OAI-PMH.",
+    "justificativa": "Gabarito CERTO. É a definição oficial do OAI-PMH: opera sobre a camada de transporte web (HTTP) com respostas encapsuladas em XML, permitindo colheitas incrementais. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "especificação técnica aberta baseada em HTTP e",
+    "versao_errada": "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é uma indevidamente especificação técnica aberta baseada em http e XML destinada à colheita automatizada e periódica de metadados entre repositórios digitais."
   },
   {
     "id": "m6-q-29",
@@ -527,11 +583,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens em relação ao marketing em unidades de informação.",
     "item": "O relatório pode ser utilizado como instrumento não só de planejamento para fornecimento de subsídios no aprimoramento de serviços da biblioteca, mas também de marketing para divulg a- ção e prestação de conta aos dirigentes e à comunidade potencialmente atingida.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de serviços da biblioteca, mas também de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -539,7 +595,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "MPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-228980"
-    }
+    },
+    "gatilho": "de serviços da biblioteca, mas também de",
+    "versao_errada": "O relatório pode ser utilizado como instrumento não só de planejamento para fornecimento de subsídios no aprimoramento indevidamente de serviços da biblioteca, mas também de marketing para divulg a- ção e prestação de conta aos dirigentes e à comunidade potencialmente atingida."
   },
   {
     "id": "m6-q-30",
@@ -550,13 +608,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O protocolo Z39.50 opera com a mesma filosofia de colheita periódica de arquivos estáticos em lote do OAI-PMH, sendo incapaz de realizar buscas dinâmicas em tempo real em catálogos remotos.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Z39.50 é um protocolo cliente-servidor para busca federada e recuperação em TEMPO REAL (interrogação direta no catálogo remoto com retorno imediato dos registros). O OAI-PMH é que opera por colheita periódica assíncrona (harvesting).",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir o modelo de busca em tempo real do Z39.50 com o modelo de colheita em lote do OAI-PMH.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "sendo incapaz de realizar buscas dinâmicas em tempo real em catálogos remotos",
+    "versao_correta": "O protocolo Z39.50 opera com a mesma filosofia de colheita periódica de arquivos estáticos em lote do OAI-PMH, [corretamente formatado: sendo incapaz de realizar buscas dinâmicas em tempo real em catálogos remotos]."
   },
   {
     "id": "m6-q-31",
@@ -566,11 +626,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos a documentação e a biblioteconomia.",
     "item": "A interdisciplinaridade é fator crítico de sucesso para a biblioteconomia, como no caso da soci o- logia, que contribui para a discussão biblioteconômica sobre temas relacionados à comunidade científica, às redes de comunicação e ao uso dessas redes.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"logia, que contribui para a discussão biblioteconômica\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -578,7 +638,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436513"
-    }
+    },
+    "gatilho": "logia, que contribui para a discussão biblioteconômica",
+    "versao_errada": "A interdisciplinaridade é fator crítico de sucesso para a biblioteconomia, como no caso da soci o- indevidamente logia, que contribui para a discussão biblioteconômica sobre temas relacionados à comunidade científica, às redes de comunicação e ao uso dessas redes."
   },
   {
     "id": "m6-q-32",
@@ -588,14 +650,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O padrão SRU/SRW (Search/Retrieve via URL e Web Service) é a evolução moderna e simplificada do Z39.50 para o ambiente web, utilizando requisições HTTP RESTful ou SOAP e retornando resultados em formatos padronizados como XML e JSON.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. SRU (via URL) e SRW (via Web Services) adaptaram a robustez de busca do antigo Z39.50 para a arquitetura nativa da internet.",
-    "armadilhaBanca": "SRU/SRW como evolução web do Z39.50.",
+    "justificativa": "Gabarito CERTO. SRU (via URL) e SRW (via Web Services) adaptaram a robustez de busca do antigo Z39.50 para a arquitetura nativa da internet. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "do Z39.50 para o ambiente web, utilizando",
+    "versao_errada": "O padrão SRU/SRW (Search/Retrieve via URL e Web Service) é a evolução moderna e simplificada indevidamente do z39.50 para o ambiente web, utilizando requisições HTTP RESTful ou SOAP e retornando resultados em formatos padronizados como XML e JSON."
   },
   {
     "id": "m6-q-33",
@@ -605,11 +669,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca do desenvolvimento de coleções, julgue os itens a seguir.",
     "item": "Entre os repositórios de informações, para a composição da memória or ganizacional de empr e- sas, incluem-se manuais corporativos, bases de dados, sistemas de arquivamento e relatórios de diversos tipos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de empr e- sas, incluem-se manuais corporativos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -617,7 +681,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436504"
-    }
+    },
+    "gatilho": "de empr e- sas, incluem-se manuais corporativos",
+    "versao_errada": "Entre os repositórios de informações, para a composição da memória or ganizacional indevidamente de empr e- sas, incluem-se manuais corporativos, bases de dados, sistemas de arquivamento e relatórios de diversos tipos."
   },
   {
     "id": "m6-q-34",
@@ -627,14 +693,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O protocolo OAI-PMH prevê dezenas de milhares de comandos de requisição, não existindo qualquer padronização quanto aos verbos permitidos nas URLs de consulta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O OAI-PMH especifica exatamente SEIS VERBOS canônicos: `Identify`, `ListMetadataFormats`, `ListSets`, `ListIdentifiers`, `ListRecords` e `GetRecord`. Nenhum outro verbo é válido.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Negar a padronização dos 6 verbos do OAI-PMH.",
+    "justificativa": "Gabarito ERRADO. O OAI-PMH especifica exatamente SEIS VERBOS canônicos: `Identify`, `ListMetadataFormats`, `ListSets`, `ListIdentifiers`, `ListRecords` e `GetRecord`. Nenhum outro verbo é válido. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "não existindo qualquer padronização quanto aos verbos permitidos nas URLs de consulta",
+    "versao_correta": "O protocolo OAI-PMH prevê dezenas de milhares de comandos de requisição, existindo qualquer padronização quanto aos verbos permitidos nas URLs de consulta."
   },
   {
     "id": "m6-q-35",
@@ -644,14 +712,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "Na arquitetura do OAI-PMH, distinguem-se duas entidades operacionais fundamentais: o Provedor de Dados (Data Provider), que armazena e expõe os metadados para colheita, e o Provedor de Serviços (Service Provider), que colhe os metadados para oferecer serviços agregados de busca aos usuários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da dualidade básica de papéis no OAI-PMH (ex: o repositório da Câmara é um Provedor de Dados; o Oasisbr/Ibict é um Provedor de Serviços agregador).",
-    "armadilhaBanca": "Provedores de dados e de serviços no OAI-PMH.",
+    "justificativa": "Gabarito CERTO. Trata-se da dualidade básica de papéis no OAI-PMH (ex: o repositório da Câmara é um Provedor de Dados; o Oasisbr/Ibict é um Provedor de Serviços agregador). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "expõe os metadados para colheita, e o",
+    "versao_errada": "Na arquitetura do OAI-PMH, distinguem-se duas entidades operacionais fundamentais: o Provedor de Dados (Data Provider), que armazena e indevidamente expõe os metadados para colheita, e o Provedor de Serviços (Service Provider), que colhe os metadados para oferecer serviços agregados de busca aos usuários."
   },
   {
     "id": "m6-q-36",
@@ -661,19 +731,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de sistemas de informação automatizados, julgue os itens que se seguem.",
     "item": "MySQL, DSpace, PostgreSQL, Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1616"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1616"
+    },
+    "gatilho": "Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados",
+    "versao_correta": "MySQL, DSpace, PostgreSQL, [corretamente formatado: joomla e sql são exemplos de sistemas gerenciadores de bancos de dados]."
   },
   {
     "id": "m6-q-37",
@@ -683,14 +755,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No Dublin Core qualificado, utilizam-se refinamentos de elementos e esquemas de codificação controlada para aumentar a precisão semântica da descrição, a exemplo de especificar que uma data é de publicação (`date.issued`) ou de criação (`date.created`).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Dublin Core qualificado refina os 15 elementos básicos introduzindo qualificadores e vocabulários controlados.",
-    "armadilhaBanca": "Dublin Core qualificado e qualificadores.",
+    "justificativa": "Gabarito CERTO. O Dublin Core qualificado refina os 15 elementos básicos introduzindo qualificadores e vocabulários controlados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "aumentar a precisão semântica da descrição, a",
+    "versao_errada": "No Dublin Core qualificado, utilizam-se refinamentos de elementos e esquemas de codificação controlada para indevidamente aumentar a precisão semântica da descrição, a exemplo de especificar que uma data é de publicação (`date.issued`) ou de criação (`date.created`)."
   },
   {
     "id": "m6-q-38",
@@ -700,11 +774,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que se refere ao serviço de referência, ao estudo de usuário -entrevista e ao",
     "item": "A formação da coleção de biblioteca deve ser feita pela filtragem adequada das informações, obedecendo a padrões estabelecidos de seleção que garantam a disponibil idade de obras confiáveis nos diversos suportes informacionais; para isso, é imprescindível conhecer as necessidades da comunidade, a fim de permitir um planejamento com qualidade e eficácia no desenvolvime n- to e formação das coleções.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso EBESERH/2018.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"obras confiáveis nos diversos suportes informacionais; para\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -712,7 +786,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646361"
-    }
+    },
+    "gatilho": "obras confiáveis nos diversos suportes informacionais; para",
+    "versao_errada": "A formação da coleção de biblioteca deve ser feita pela filtragem adequada das informações, obedecendo a padrões estabelecidos de seleção que garantam a disponibil idade de indevidamente obras confiáveis nos diversos suportes informacionais; para isso, é imprescindível conhecer as necessidades da comunidade, a fim de permitir um planejamento com qualidade e eficácia no desenvolvime n- to e formação das coleções."
   },
   {
     "id": "m6-q-39",
@@ -722,14 +798,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O verbo `GetRecord` do OAI-PMH tem como finalidade listar todos os milhares de identificadores de um repositório simultaneamente em uma única resposta de texto simples sem XML.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. `GetRecord` recupera os metadados de UM ÚNICO registro específico, identificado obrigatoriamente por seu identificador único persistente (passado no parâmetro `identifier`) e pelo formato de metadados desejado.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir GetRecord (registro individual) com ListRecords (múltiplos registros).",
+    "justificativa": "Gabarito ERRADO. `GetRecord` recupera os metadados de UM ÚNICO registro específico, identificado obrigatoriamente por seu identificador único persistente (passado no parâmetro `identifier`) e pelo formato de metadados desejado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "uma única resposta de texto simples sem XML",
+    "versao_correta": "O verbo `GetRecord` do OAI-PMH tem como finalidade listar todos os milhares de identificadores de um repositório simultaneamente em [corretamente formatado: uma única resposta de texto simples sem xml]."
   },
   {
     "id": "m6-q-40",
@@ -739,19 +817,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de recursos e serviços de informação digitais, julgue os próximos itens.",
     "item": "O Bielefeld Academic Search Engine (BASE), uma iniciativa de acesso aberto à informação científica, constitui um provedor de serviços que, por meio de interface web, disponibiliza serviço de pesquisa que propicia busca simultânea de informações em metadados de bibliotecas digitais, periódicos científicos, repositórios institucionais e repositórios temáticos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2011.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"por meio de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-493"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-493"
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "O Bielefeld Academic Search Engine (BASE), uma iniciativa de acesso aberto à informação científica, constitui um provedor de serviços que, indevidamente por meio de interface web, disponibiliza serviço de pesquisa que propicia busca simultânea de informações em metadados de bibliotecas digitais, periódicos científicos, repositórios institucionais e repositórios temáticos."
   },
   {
     "id": "m6-q-41",
@@ -761,19 +841,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito aos estudos de usuários, julgue os itens subsequentes.",
     "item": "A escolha de um método para a realização de estudos de usuários depende, entre outros fatores, dos tipos de dados que se pretende obter. Nesse sentido, o método mais apropriado para se c o- nhecer o perfil socioeconômico de uma comunidade é a entrevista.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"perfil socioeconômico de uma comunidade é a entrevista\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / MPU / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-229001",
-        "ano": 2013,
-        "orgao": "MPU",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "229001"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / MPU / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-229001",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "229001"
+    },
+    "gatilho": "perfil socioeconômico de uma comunidade é a entrevista",
+    "versao_correta": "A escolha de um método para a realização de estudos de usuários depende, entre outros fatores, dos tipos de dados que se pretende obter. Nesse sentido, o método mais apropriado para se c o- nhecer o [corretamente formatado: perfil socioeconômico de uma comunidade é a entrevista]."
   },
   {
     "id": "m6-q-42",
@@ -784,13 +866,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O conjunto básico de metadados Dublin Core simples (DCMI Metadata Terms) é constituído por quinhentos elementos obrigatórios, dos quais nenhum admite repetição.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Dublin Core simples possui apenas 15 ELEMENTOS básicos (Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage, Rights). Além disso, todos os 15 elementos são OPCIONAIS e REPETÍVEIS.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que Dublin Core tem 500 elementos obrigatórios não repetíveis.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatório",
+    "versao_correta": "O conjunto básico de metadados Dublin Core simples (DCMI Metadata Terms) é constituído por quinhentos elementos [corretamente formatado: obrigatório]s, dos quais nenhum admite repetição."
   },
   {
     "id": "m6-q-43",
@@ -800,19 +884,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "O conhecimento empírico do bibliotecário indexador acerca da linguagem documentária a ser utilizada é requisito essencial para se garantir a fidelidade dos dados do repositório.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"se garantir a fidelidade dos dados do repositório\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180933",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180933"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180933",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180933"
+    },
+    "gatilho": "se garantir a fidelidade dos dados do repositório",
+    "versao_correta": "O conhecimento empírico do bibliotecário indexador acerca da linguagem documentária a ser utilizada é requisito essencial para [corretamente formatado: se garantir a fidelidade dos dados do repositório]."
   },
   {
     "id": "m6-q-44",
@@ -822,19 +908,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de recursos e serviços de informação digitais, julgue os próximos itens.",
     "item": "Repositórios institucionais e repositórios temáticos, em razão de exercerem a função de provedores de dados no modelo de arquivos abertos, não são indexados pelo Google Scholar, pois o protocolo de comunicação que utilizam, o OAI -PMH, é compatível com provedores de serviços, como o OAISTER.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"como o OAISTER\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-492"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-492"
+    },
+    "gatilho": "como o OAISTER",
+    "versao_correta": "Repositórios institucionais e repositórios temáticos, em razão de exercerem a função de provedores de dados no modelo de arquivos abertos, não são indexados pelo Google Scholar, pois o protocolo de comunicação que utilizam, o OAI -PMH, é compatível com provedores de serviços, [corretamente formatado: como o oaister]."
   },
   {
     "id": "m6-q-45",
@@ -844,19 +932,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de automação de bibliotecas, redes de bibliotecas e bibliotecas digitais,",
     "item": "O DSpace é um software livre amplamente utilizado para a automação de bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEE-DF/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEE-DF/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"livre amplamente utilizado para a automação de bibliotecas\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEE-DF/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-699"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEE-DF/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-699"
+    },
+    "gatilho": "livre amplamente utilizado para a automação de bibliotecas",
+    "versao_correta": "O DSpace é um software [corretamente formatado: livre amplamente utilizado para a automação de bibliotecas]."
   },
   {
     "id": "m6-q-46",
@@ -866,14 +956,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No OAI-PMH, a requisição que utiliza o verbo `Identify` retorna informações globais sobre o repositório, incluindo o nome institucional, a URL base, a versão do protocolo suportada, o e-mail do administrador e a política de exclusão de registros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a função primária do verbo `Identify`: fornecer a descrição formal e técnica do repositório colhido.",
-    "armadilhaBanca": "Verbo Identify no OAI-PMH.",
+    "justificativa": "Gabarito CERTO. É a função primária do verbo `Identify`: fornecer a descrição formal e técnica do repositório colhido. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "o nome institucional, a URL base, a",
+    "versao_errada": "No OAI-PMH, a requisição que utiliza o verbo `Identify` retorna informações globais sobre o repositório, incluindo indevidamente o nome institucional, a url base, a versão do protocolo suportada, o e-mail do administrador e a política de exclusão de registros."
   },
   {
     "id": "m6-q-47",
@@ -883,14 +975,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No protocolo OAI-PMH, o mecanismo de 'resumptionToken' é utilizado para paginar e particionar respostas volumosas que excedem o limite de registros configurado no servidor, permitindo que a colheita ocorra em sucessivas requisições controladas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O `resumptionToken` previne sobrecargas no servidor: se um conjunto tiver 10.000 itens, o servidor envia lotes de (ex: 100) com um token para o cliente pedir a próxima página.",
-    "armadilhaBanca": "Uso do resumptionToken no OAI-PMH.",
+    "justificativa": "Gabarito CERTO. O `resumptionToken` previne sobrecargas no servidor: se um conjunto tiver 10.000 itens, o servidor envia lotes de (ex: 100) com um token para o cliente pedir a próxima página. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "respostas volumosas que excedem o limite de",
+    "versao_errada": "No protocolo OAI-PMH, o mecanismo de 'resumptionToken' é utilizado para paginar e particionar indevidamente respostas volumosas que excedem o limite de registros configurado no servidor, permitindo que a colheita ocorra em sucessivas requisições controladas."
   },
   {
     "id": "m6-q-48",
@@ -900,14 +994,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "A especificação do OAI-PMH estabelece o suporte ao formato Dublin Core simples (oai_dc) codificado em XML como requisito mínimo obrigatório para qualquer repositório em conformidade com o protocolo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Para garantir interoperabilidade universal mínima, todo provedor de dados OAI-PMH DEVE ser capaz de entregar metadados no esquema `oai_dc`.",
-    "armadilhaBanca": "Obrigatoriedade do oai_dc no OAI-PMH.",
+    "justificativa": "Gabarito CERTO. Para garantir interoperabilidade universal mínima, todo provedor de dados OAI-PMH DEVE ser capaz de entregar metadados no esquema `oai_dc`. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "simples (oai_dc) codificado em XML como requisito",
+    "versao_errada": "A especificação do OAI-PMH estabelece o suporte ao formato Dublin Core indevidamente simples (oai_dc) codificado em xml como requisito mínimo obrigatório para qualquer repositório em conformidade com o protocolo."
   },
   {
     "id": "m6-q-49",
@@ -917,14 +1013,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No esquema Dublin Core Simples, o elemento Creator é utilizado para identificar a empresa gráfica responsável pela impressão física e encadernação do suporte material.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O elemento Creator identifica a entidade intelectual primariamente responsável pela criação do conteúdo da obra (autor pessoal ou institucional); a editora ou gráfica é descrita no elemento Publisher.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir Creator (autor) com Publisher ou gráfica.",
+    "justificativa": "Gabarito ERRADO. O elemento Creator identifica a entidade intelectual primariamente responsável pela criação do conteúdo da obra (autor pessoal ou institucional); a editora ou gráfica é descrita no elemento Publisher. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "pela impressão física e encadernação do suporte material",
+    "versao_correta": "No esquema Dublin Core Simples, o elemento Creator é utilizado para identificar a empresa gráfica responsável [corretamente formatado: pela impressão física e encadernação do suporte material]."
   },
   {
     "id": "m6-q-50",
@@ -934,14 +1032,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O protocolo OAI-PMH foi concebido para transferir em tempo real arquivos executáveis pesados de jogos eletrônicos, sendo inadequado para a troca de registros de metadados descritivos em XML.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O OAI-PMH é voltado estritamente à transferência de METADADOS estruturados (especialmente Dublin Core), não tendo sido desenhado para a transferência massiva direta de binários ou arquivos pesados de entretenimento.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Atribuir função espúria de transferência de jogos ao OAI-PMH.",
+    "justificativa": "Gabarito ERRADO. O OAI-PMH é voltado estritamente à transferência de METADADOS estruturados (especialmente Dublin Core), não tendo sido desenhado para a transferência massiva direta de binários ou arquivos pesados de entretenimento. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "sendo inadequado para a troca de registros de metadados descritivos em XML",
+    "versao_correta": "O protocolo OAI-PMH foi concebido para transferir em tempo real arquivos executáveis pesados de jogos eletrônicos, [corretamente formatado: sendo inadequado para a troca de registros de metadados descritivos em xml]."
   },
   {
     "id": "m6-q-51",
@@ -951,14 +1051,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "A proveniência dos dados (data provenance) registra a linhagem, a cadeia de custódia, os métodos experimentais e as transformações sofridas pelos dados desde sua geração original, sendo crucial para a validação da credibilidade científica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Proveniência assegura a rastreabilidade e a transparência metodológica, aspecto formal contemplado pelo requisito R1.2 do FAIR.",
-    "armadilhaBanca": "Proveniência e linhagem dos dados.",
+    "justificativa": "Gabarito CERTO. Proveniência assegura a rastreabilidade e a transparência metodológica, aspecto formal contemplado pelo requisito R1.2 do FAIR. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "métodos experimentais e as transformações sofridas pelos",
+    "versao_errada": "A proveniência dos dados (data provenance) registra a linhagem, a cadeia de custódia, os indevidamente métodos experimentais e as transformações sofridas pelos dados desde sua geração original, sendo crucial para a validação da credibilidade científica."
   },
   {
     "id": "m6-q-52",
@@ -968,11 +1070,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsecutivos, acerca da gestão do conhecimento na era das novas",
     "item": "Na arquitetura da Web, as ontologias fornecem suporte à evolução de vocabulários e integram as informações, de modo a evitar conflitos terminológicos. A função da ontologia é explicitar o v o- cabulário de um domínio de forma padronizada, viabilizando a interoperabilidade entre sistemas e o compartilhamento de informações.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SEE-DF/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEE-DF/2016.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"terminológicos. A função da ontologia é explicitar\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SEE DF / 2017 (Adaptada)",
       "verificado": true,
       "provaId": "GPPGE (SEE DF)/SEE DF/Biblioteconomia/2017",
@@ -980,7 +1082,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SEE DF",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-464246"
-    }
+    },
+    "gatilho": "terminológicos. A função da ontologia é explicitar",
+    "versao_errada": "Na arquitetura da Web, as ontologias fornecem suporte à evolução de vocabulários e integram as informações, de modo a evitar conflitos indevidamente terminológicos. a função da ontologia é explicitar o v o- cabulário de um domínio de forma padronizada, viabilizando a interoperabilidade entre sistemas e o compartilhamento de informações."
   },
   {
     "id": "m6-q-53",
@@ -990,19 +1094,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos processos de automação, julgue os itens subsequentes.",
     "item": "O protocolo de pesquisa e recuperação de informações Z39.50 é um padrão compatível com o formato MARC, que possibilita acessar, simultaneamente, da mesma interface, os catálogos da biblioteca local e os das maiores bibliotecas do mundo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"formato MARC, que possibilita acessar, simultaneamente, da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-913"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-913"
+    },
+    "gatilho": "formato MARC, que possibilita acessar, simultaneamente, da",
+    "versao_errada": "O protocolo de pesquisa e recuperação de informações Z39.50 é um padrão compatível com o indevidamente formato marc, que possibilita acessar, simultaneamente, da mesma interface, os catálogos da biblioteca local e os das maiores bibliotecas do mundo."
   },
   {
     "id": "m6-q-54",
@@ -1012,14 +1118,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Os Princípios FAIR, formulados em 2016 pela comunidade científica internacional, estabelecem que os dados e metadados de pesquisa devem ser Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), tanto por seres humanos quanto por sistemas computacionais automatizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os Princípios FAIR (Wilkinson et al., 2016) são o marco universal contemporâneo da gestão de dados de pesquisa e da Ciência Aberta.",
-    "armadilhaBanca": "Conceito e sigla dos Princípios FAIR.",
+    "justificativa": "Gabarito CERTO. Os Princípios FAIR (Wilkinson et al., 2016) são o marco universal contemporâneo da gestão de dados de pesquisa e da Ciência Aberta. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "de pesquisa devem ser Localizáveis (Findable), Acessíveis",
+    "versao_errada": "Os Princípios FAIR, formulados em 2016 pela comunidade científica internacional, estabelecem que os dados e metadados indevidamente de pesquisa devem ser localizáveis (findable), acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), tanto por seres humanos quanto por sistemas computacionais automatizados."
   },
   {
     "id": "m6-q-55",
@@ -1029,14 +1137,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "O princípio FAIR de dados 'Localizáveis' (Findable) é plenamente satisfeito quando os dados brutos são salvos em um pen-drive sem identificador, guardados na gaveta trancada do pesquisador e sem qualquer tipo de metadado cadastrado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O princípio Findable exige: identificador persistente globalmente único (como DOI), metadados ricos e estruturados, identificador explicitado nos metadados e registro em mecanismos de busca indexados.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar pen-drive em gaveta compatível com Findable.",
+    "justificativa": "Gabarito ERRADO. O princípio Findable exige: identificador persistente globalmente único (como DOI), metadados ricos e estruturados, identificador explicitado nos metadados e registro em mecanismos de busca indexados. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "guardados na gaveta trancada do pesquisador e sem qualquer tipo de metadado cadastrado",
+    "versao_correta": "O princípio FAIR de dados 'Localizáveis' (Findable) é plenamente satisfeito quando os dados brutos são salvos em um pen-drive sem identificador, [corretamente formatado: guardados na gaveta trancada do pesquisador e sem qualquer tipo de metadado cadastrado]."
   },
   {
     "id": "m6-q-56",
@@ -1046,11 +1156,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de informática para bibliotecas, julgue os itens subsequentes.",
     "item": "A tecnologia de voz sobre IP (VoIP) permite a transmissão de sinais de voz e de imagem org a- nizados em pacotes de dados IP em uma rede que utilize o protocolo TCP/IP.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"em uma rede que utilize o protocolo TCP/IP\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -1058,7 +1168,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "MPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-228956"
-    }
+    },
+    "gatilho": "em uma rede que utilize o protocolo TCP/IP",
+    "versao_correta": "A tecnologia de voz sobre IP (VoIP) permite a transmissão de sinais de voz e de imagem org a- nizados em pacotes de dados IP [corretamente formatado: em uma rede que utilize o protocolo tcp/ip]."
   },
   {
     "id": "m6-q-57",
@@ -1068,11 +1180,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de informática para bibliotecas, julgue os itens subsequentes.",
     "item": "O protocolo HTTP é utilizado para a transferência de hipertextos, enquanto o protocolo FTP é utilizado para transferência de arquivos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"transferência de hipertextos, enquanto o protocolo FTP\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -1080,7 +1192,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "MPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-228955"
-    }
+    },
+    "gatilho": "transferência de hipertextos, enquanto o protocolo FTP",
+    "versao_errada": "O protocolo HTTP é utilizado para a indevidamente transferência de hipertextos, enquanto o protocolo ftp é utilizado para transferência de arquivos."
   },
   {
     "id": "m6-q-58",
@@ -1090,16 +1204,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos à biblioteconomia e à ciência da informação.",
     "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à catalogação e ao atendimento ao cliente, deve -se basear em so f- twares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"catalogação e ao atendimento ao cliente, deve\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-92",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-92",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    },
+    "gatilho": "catalogação e ao atendimento ao cliente, deve",
+    "versao_errada": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à indevidamente catalogação e ao atendimento ao cliente, deve -se basear em so f- twares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50."
   },
   {
     "id": "m6-q-59",
@@ -1109,14 +1225,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "A observância dos princípios FAIR na gestão de dados de pesquisa impõe a disponibilização pública imediata dos conjuntos de dados custodiados, impedindo a instituição de salvaguardas de acesso para dados pessoais sensíveis ou segredos industriais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Os Princípios FAIR orientam-se pela máxima \"tão aberto quanto possível, tão fechado quanto necessário\", autorizando salvaguardas legítimas de acesso para dados sensíveis e segurança.",
-    "armadilhaBanca": "Impor abertura obrigatória de dados médicos e segredos de Estado no FAIR.",
+    "justificativa": "Gabarito ERRADO. Os Princípios FAIR orientam-se pela máxima \"tão aberto quanto possível, tão fechado quanto necessário\", autorizando salvaguardas legítimas de acesso para dados sensíveis e segurança. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "impedindo a instituição de salvaguardas de acesso para dados pessoais sensíveis ou segredos industriais",
+    "versao_correta": "A observância dos princípios FAIR na gestão de dados de pesquisa impõe a disponibilização pública imediata dos conjuntos de dados custodiados, [corretamente formatado: impedindo a instituição de salvaguardas de acesso para dados pessoais sensíveis ou segredos industriais]."
   },
   {
     "id": "m6-q-60",
@@ -1126,11 +1244,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O Protocolo Z39.19 é uma evolução do Z39.50, embora seja mais específico para bibliotecas digitais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"embora seja mais específico para bibliotecas digitais\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
@@ -1138,7 +1256,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "ANTT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-206246"
-    }
+    },
+    "gatilho": "embora seja mais específico para bibliotecas digitais",
+    "versao_correta": "O Protocolo Z39.19 é uma evolução do Z39.50, [corretamente formatado: embora seja mais específico para bibliotecas digitais]."
   },
   {
     "id": "m6-q-61",
@@ -1148,14 +1268,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Conforme os Princípios FAIR, para que os dados sejam 'Acessíveis' (Accessible), o protocolo de comunicação utilizado para recuperação dos metadados e dos dados deve ser aberto, livre e universalmente implementável, a exemplo do protocolo HTTP/HTTPS.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o requisito A1.1 dos Princípios FAIR: protocolos abertos e padronizados para garantir que ninguém fique impedido de acessar dados públicos por barreiras proprietárias de rede.",
-    "armadilhaBanca": "Requisito de acessibilidade FAIR (A1.1).",
+    "justificativa": "Gabarito CERTO. É o requisito A1.1 dos Princípios FAIR: protocolos abertos e padronizados para garantir que ninguém fique impedido de acessar dados públicos por barreiras proprietárias de rede. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "comunicação utilizado para recuperação dos metadados e",
+    "versao_errada": "Conforme os Princípios FAIR, para que os dados sejam 'Acessíveis' (Accessible), o protocolo de indevidamente comunicação utilizado para recuperação dos metadados e dos dados deve ser aberto, livre e universalmente implementável, a exemplo do protocolo HTTP/HTTPS."
   },
   {
     "id": "m6-q-62",
@@ -1165,14 +1287,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "O Dataverse é um software livre de repositório especializado na gestão, compartilhamento e citação de dados brutos de pesquisa (datasets), permitindo o versionamento de dados e a geração automática de citações formais com DOI.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Desenvolvido na Universidade de Harvard, o Dataverse é uma das plataformas livres mais adotadas mundialmente para repositórios de dados de pesquisa.",
-    "armadilhaBanca": "Software Dataverse para dados de pesquisa.",
+    "justificativa": "Gabarito CERTO. Desenvolvido na Universidade de Harvard, o Dataverse é uma das plataformas livres mais adotadas mundialmente para repositórios de dados de pesquisa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "de dados brutos de pesquisa (datasets), permitindo",
+    "versao_errada": "O Dataverse é um software livre de repositório especializado na gestão, compartilhamento e citação indevidamente de dados brutos de pesquisa (datasets), permitindo o versionamento de dados e a geração automática de citações formais com DOI."
   },
   {
     "id": "m6-q-63",
@@ -1183,13 +1307,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "A citação de dados (data citation) é uma prática repudiada pela comunidade científica internacional, devendo o autor que reutilizou dados alheios omitir a fonte para evitar redundância textual.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A citação formal de dados é um princípio ético e técnico essencial (Joint Declaration of Data Citation Principles), que confere crédito acadêmico aos criadores dos dados, possibilita a reprodutibilidade da pesquisa e a verificação empírica.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Repudiar e proibir citação de dados de pesquisa.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "devendo o autor que reutilizou dados alheios omitir a fonte para evitar redundância textual",
+    "versao_correta": "A citação de dados (data citation) é uma prática repudiada pela comunidade científica internacional, [corretamente formatado: devendo o autor que reutilizou dados alheios omitir a fonte para evitar redundância textual]."
   },
   {
     "id": "m6-q-64",
@@ -1199,14 +1325,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Em portais de dados abertos governamentais, a conversão de tabelas de execução orçamentária em imagens matriciais compactadas atende aos requisitos técnicos de abertura, pois assegura a integridade visual dos demonstrativos contábeis.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Diretrizes de dados abertos (W3C e legislação federal) exigem formatos estruturados e legíveis por máquina (como CSV, JSON ou XML); arquivos de imagem não permitem processamento automatizado.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Considerar imagem JPEG padrão ideal de dados abertos legíveis por máquina.",
+    "justificativa": "Gabarito ERRADO. Diretrizes de dados abertos (W3C e legislação federal) exigem formatos estruturados e legíveis por máquina (como CSV, JSON ou XML); arquivos de imagem não permitem processamento automatizado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "pois assegura a integridade visual dos demonstrativos contábeis",
+    "versao_correta": "Em portais de dados abertos governamentais, a conversão de tabelas de execução orçamentária em imagens matriciais compactadas atende aos requisitos técnicos de abertura, [corretamente formatado: pois assegura a integridade visual dos demonstrativos contábeis]."
   },
   {
     "id": "m6-q-65",
@@ -1217,13 +1345,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "Para que os dados sejam considerados 'Reutilizáveis' (Reusable), é proibido associar a eles qualquer tipo de licença de uso, devendo o usuário presumir que qualquer uso comercial ou não comercial gerará processo judicial criminal.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O requisito R1.1 do FAIR determina explicitamente que dados e metadados devem ser acompanhados de uma licença de uso clara, acessível e inequívoca (como as licenças Creative Commons CC-BY ou CC0), definindo exatamente como podem ser reutilizados.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Proibir licenças de uso em dados reutilizáveis.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "comercial ou não comercial gerará processo judicial criminal",
+    "versao_correta": "Para que os dados sejam considerados 'Reutilizáveis' (Reusable), é proibido associar a eles qualquer tipo de licença de uso, devendo o usuário presumir que qualquer uso comercial ou comercial gerará processo judicial criminal."
   },
   {
     "id": "m6-q-66",
@@ -1233,14 +1363,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Para atender ao princípio de 'Interoperabilidade' (Interoperable) do FAIR, os dados e metadados devem utilizar linguagens de representação do conhecimento formais, acessíveis e compartilhadas (como RDF, OWL, XML e JSON-LD) e vocabulários ontológicos controlados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o requisito I1 dos Princípios FAIR: a interoperabilidade requer padrões sintáticos e semânticos comuns de Web Semântica.",
-    "armadilhaBanca": "Interoperabilidade segundo os princípios FAIR.",
+    "justificativa": "Gabarito CERTO. É o requisito I1 dos Princípios FAIR: a interoperabilidade requer padrões sintáticos e semânticos comuns de Web Semântica. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "utilizar linguagens de representação do conhecimento formais",
+    "versao_errada": "Para atender ao princípio de 'Interoperabilidade' (Interoperable) do FAIR, os dados e metadados devem indevidamente utilizar linguagens de representação do conhecimento formais, acessíveis e compartilhadas (como RDF, OWL, XML e JSON-LD) e vocabulários ontológicos controlados."
   },
   {
     "id": "m6-q-67",
@@ -1250,19 +1382,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L legislativo e Judiciário em suas esferas municipais, estaduais e na federal, o portal LexML faz uso do protocolo de coleta de metadados Z39.50.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"o portal LexML faz uso do protocolo de coleta de metadados Z39.50\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-682"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-682"
+    },
+    "gatilho": "o portal LexML faz uso do protocolo de coleta de metadados Z39.50",
+    "versao_correta": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L legislativo e Judiciário em suas esferas municipais, estaduais e na federal, [corretamente formatado: o portal lexml faz uso do protocolo de coleta de metadados z39.50]."
   },
   {
     "id": "m6-q-68",
@@ -1273,13 +1407,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O esquema de classificação de dados abertos em 5 Estrelas proposto por Tim Berners-Lee estabelece que a 5ª estrela máxima é alcançada quando os dados estão disponíveis na web em padrão aberto estruturado (como RDF) e conectados a outros dados por meio de links (Linked Open Data).",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Modelo clássico das 5 Estrelas de Berners-Lee: 1★ (qualquer formato na web com licença aberta), 2★ (estruturado, ex: Excel), 3★ (formato não proprietário, ex: CSV), 4★ (usando URIs e padrões W3C/RDF), 5★ (Linked Data conectado a outras bases).",
-    "armadilhaBanca": "Modelo 5 Estrelas de Tim Berners-Lee.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "O esquema de classificação de dados abertos em 5 Estrelas proposto por Tim Berners-Lee estabelece que a 5ª estrela máxima é alcançada quando os dados estão disponíveis na web em padrão aberto estruturado (como RDF) e conectados a outros dados indevidamente por meio de links (Linked Open Data)."
   },
   {
     "id": "m6-q-69",
@@ -1289,11 +1425,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de novas tecnologias, julgue os itens a seguir.",
     "item": "A Internet funciona por meio do protocolo TCP/ IP, em que o TCP organiza a rota dos dados e o IP quebra os dados dos pacotes enviados e recebidos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"quebra os dados dos pacotes enviados e recebidos\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2013",
@@ -1301,7 +1437,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-346473"
-    }
+    },
+    "gatilho": "quebra os dados dos pacotes enviados e recebidos",
+    "versao_correta": "A Internet funciona por meio do protocolo TCP/ IP, em que o TCP organiza a rota dos dados e o IP [corretamente formatado: quebra os dados dos pacotes enviados e recebidos]."
   },
   {
     "id": "m6-q-70",
@@ -1311,19 +1449,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Considerando que as informações apresentadas acima estejam disponíveis somente na web e",
     "item": "O Aleph é um sistema de gerenciamento de bibliotecas que possui as seguinte s características: arquitetura cliente-servidor, registros bibliográficos adaptados ao padrão MARC, compatibilidade com os protocolos de comunicação da WWW e Z39.50.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STF/2008, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STF/2008.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"s características: arquitetura cliente-servidor, registros bibliográficos adaptados\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
-        "verificado": true,
-        "provaId": "STF/2008",
-        "ano": 2008,
-        "orgao": "2008",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-922"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
+      "verificado": true,
+      "provaId": "STF/2008",
+      "ano": 2008,
+      "orgao": "2008",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-922"
+    },
+    "gatilho": "s características: arquitetura cliente-servidor, registros bibliográficos adaptados",
+    "versao_errada": "O Aleph é um sistema de gerenciamento de bibliotecas que possui as seguinte indevidamente s características: arquitetura cliente-servidor, registros bibliográficos adaptados ao padrão MARC, compatibilidade com os protocolos de comunicação da WWW e Z39.50."
   },
   {
     "id": "m6-q-71",
@@ -1333,19 +1473,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de automação, de bibliotecas e de sistemas de informação em ambiente",
     "item": "O protocolo de comunicação para coletar metadados utilizado pelo LexML é o Z39.50.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"coletar metadados utilizado pelo LexML é o Z39.50\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-855"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-855"
+    },
+    "gatilho": "coletar metadados utilizado pelo LexML é o Z39.50",
+    "versao_correta": "O protocolo de comunicação para [corretamente formatado: coletar metadados utilizado pelo lexml é o z39.50]."
   },
   {
     "id": "m6-q-72",
@@ -1355,14 +1497,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Um Plano de Gestão de Dados (PGD) é um documento formal que descreve como os dados serão coletados, processados, organizados, documentados com metadados, armazenados com segurança, compartilhados e preservados ao longo do ciclo de vida de um projeto de pesquisa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Instrumento de governança de dados exigido por agências de fomento (como FAPESP e CNPq) e instituições internacionais de fomento.",
-    "armadilhaBanca": "Conceito e função do Plano de Gestão de Dados (PGD).",
+    "justificativa": "Gabarito CERTO. Instrumento de governança de dados exigido por agências de fomento (como FAPESP e CNPq) e instituições internacionais de fomento. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "coletados, processados, organizados, documentados com metadados, armazenados",
+    "versao_errada": "Um Plano de Gestão de Dados (PGD) é um documento formal que descreve como os dados serão indevidamente coletados, processados, organizados, documentados com metadados, armazenados com segurança, compartilhados e preservados ao longo do ciclo de vida de um projeto de pesquisa."
   },
   {
     "id": "m6-q-73",
@@ -1372,11 +1516,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à editoração de periódicos eletrônicos, julgue os itens a seguir.",
     "item": "Sistemas com protocolo Z39.50 propiciam a realização de pesquisa em um sistema de informação distribuído por meio de diversas interfaces de busca.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"distribuído por meio de diversas interfaces de busca\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1384,7 +1528,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104078"
-    }
+    },
+    "gatilho": "distribuído por meio de diversas interfaces de busca",
+    "versao_correta": "Sistemas com protocolo Z39.50 propiciam a realização de pesquisa em um sistema de informação [corretamente formatado: distribuído por meio de diversas interfaces de busca]."
   },
   {
     "id": "m6-q-74",
@@ -1395,13 +1541,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "A curadoria digital de dados de pesquisa cessa de forma imediata assim que o pesquisador clica no botão de submissão do formulário de upload, não exigindo qualquer preservação a longo prazo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Curadoria digital é a gestão ativa e contínua dos dados ao longo de todo o seu ciclo de vida e a longo prazo, garantindo integridade de bits, atualização de formatos contra obsolescência e enriquecimento de metadados ao longo do tempo.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Reduzir curadoria digital a ato momentâneo de upload.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "não exigindo qualquer preservação a longo prazo",
+    "versao_correta": "A curadoria digital de dados de pesquisa cessa de forma imediata assim que o pesquisador clica no botão de submissão do formulário de upload, exigindo qualquer preservação a longo prazo."
   },
   {
     "id": "m6-q-75",
@@ -1411,19 +1559,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Considerando a Resolução n.º 8/2007 do Superior Tribunal de Justiça (STJ), julgue os",
     "item": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em conco r- dância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"conco r- dância com os requisitos de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-604"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-604"
+    },
+    "gatilho": "conco r- dância com os requisitos de",
+    "versao_errada": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em indevidamente conco r- dância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)."
   },
   {
     "id": "m6-q-76",
@@ -1433,14 +1583,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A Inteligência Artificial torna desnecessária a preservação de arquivos históricos e livros originais da biblioteca, que devem ser triturados assim que uma imagem digital for capturada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A substituição do original físico por cópia digital não autoriza a destruição de documentos de valor histórico, probatório ou patrimonial permanente. O documento original mantém valor intrínseco de autenticidade primária.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Defender a trituração de originais históricos após digitalização.",
+    "justificativa": "Gabarito ERRADO. A substituição do original físico por cópia digital não autoriza a destruição de documentos de valor histórico, probatório ou patrimonial permanente. O documento original mantém valor intrínseco de autenticidade primária. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "que devem ser triturados assim que uma imagem digital for capturada",
+    "versao_correta": "A Inteligência Artificial torna desnecessária a preservação de arquivos históricos e livros originais da biblioteca, [corretamente formatado: que devem ser triturados assim que uma imagem digital for capturada]."
   },
   {
     "id": "m6-q-77",
@@ -1450,14 +1602,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "Na aplicação de IA em bibliotecas legislativas e jurídicas, a curadoria e a validação humana das fontes (Human-in-the-Loop) são indispensáveis para garantir que pareceres e subsídios técnicos apoiem-se estritamente na legislação em vigor e em jurisprudência autêntica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A responsabilidade técnica e a fé pública institucional exigem que a IA atue como ferramenta de apoio, permanecendo a validação e supervisão final sob responsabilidade de profissionais humanos qualificados.",
-    "armadilhaBanca": "Princípio Human-in-the-Loop em ambientes governamentais.",
+    "justificativa": "Gabarito CERTO. A responsabilidade técnica e a fé pública institucional exigem que a IA atue como ferramenta de apoio, permanecendo a validação e supervisão final sob responsabilidade de profissionais humanos qualificados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "das fontes (Human-in-the-Loop) são indispensáveis para garantir",
+    "versao_errada": "Na aplicação de IA em bibliotecas legislativas e jurídicas, a curadoria e a validação humana indevidamente das fontes (human-in-the-loop) são indispensáveis para garantir que pareceres e subsídios técnicos apoiem-se estritamente na legislação em vigor e em jurisprudência autêntica."
   },
   {
     "id": "m6-q-78",
@@ -1467,14 +1621,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A utilização de dados pessoais não anonimizados de leitores para o treinamento de modelos comerciais públicos de IA de terceiros é uma conduta incentivada e dispensada de qualquer conformidade com a LGPD.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O envio de dados pessoais ou sigilosos de usuários a modelos externos sem consentimento e sem base legal viola flagrantemente a LGPD e as normas éticas de sigilo e privacidade informacional.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Afirmar conformidade na violação de privacidade de leitores com IA.",
+    "justificativa": "Gabarito ERRADO. O envio de dados pessoais ou sigilosos de usuários a modelos externos sem consentimento e sem base legal viola flagrantemente a LGPD e as normas éticas de sigilo e privacidade informacional. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "dispensada de qualquer conformidade com a LGPD",
+    "versao_correta": "A utilização de dados pessoais não anonimizados de leitores para o treinamento de modelos comerciais públicos de IA de terceiros é uma conduta incentivada e [corretamente formatado: dispensada de qualquer conformidade com a lgpd]."
   },
   {
     "id": "m6-q-79",
@@ -1484,11 +1640,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação, julgue os itens a seguir.",
     "item": "Critérios como materialidade e organização são utilizados para que se identifique um objeto c o- mo documento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"são utilizados para que se identifique um\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1496,7 +1652,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165405"
-    }
+    },
+    "gatilho": "são utilizados para que se identifique um",
+    "versao_errada": "Critérios como materialidade e organização indevidamente são utilizados para que se identifique um objeto c o- mo documento."
   },
   {
     "id": "m6-q-80",
@@ -1506,14 +1664,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "O uso de técnicas de Reconhecimento Óptico de Caracteres (OCR) associadas a modelos de inteligência artificial de visão computacional permite transformar documentos históricos impressos ou datilografados da Câmara em textos digitais pesquisáveis em bases de dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O OCR moderno com redes neurais garante alta taxa de acerto no reconhecimento de caracteres em fontes históricas e manuscritos parlamentares.",
-    "armadilhaBanca": "OCR e visão computacional em arquivos históricos.",
+    "justificativa": "Gabarito CERTO. O OCR moderno com redes neurais garante alta taxa de acerto no reconhecimento de caracteres em fontes históricas e manuscritos parlamentares. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "artificial de visão computacional permite transformar documentos",
+    "versao_errada": "O uso de técnicas de Reconhecimento Óptico de Caracteres (OCR) associadas a modelos de inteligência indevidamente artificial de visão computacional permite transformar documentos históricos impressos ou datilografados da Câmara em textos digitais pesquisáveis em bases de dados."
   },
   {
     "id": "m6-q-81",
@@ -1523,11 +1683,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "Os processos de indexação e de recuperação da informação demandam uso adequado da lingu a- gem documentária.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de recuperação da informação demandam uso adequado\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1535,7 +1695,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180932"
-    }
+    },
+    "gatilho": "de recuperação da informação demandam uso adequado",
+    "versao_errada": "Os processos de indexação e indevidamente de recuperação da informação demandam uso adequado da lingu a- gem documentária."
   },
   {
     "id": "m6-q-82",
@@ -1546,13 +1708,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "O fenômeno da 'alucinação' em Grandes Modelos de Linguagem (LLMs) refere-se ao superaquecimento do processador de vídeo, não afetando a veracidade factual dos textos gerados pela IA.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. 'Alucinação' (hallucination) é a geração de textos que parecem perfeitamente plausíveis e gramaticalmente articulados, mas que contêm dados factualmente falsos, leis inexistentes, autores forjados ou citações fictícias inventadas pelo modelo probabilístico.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir alucinação textual com superaquecimento de hardware.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "não afetando a veracidade factual dos textos gerados pela IA",
+    "versao_correta": "O fenômeno da 'alucinação' em Grandes Modelos de Linguagem (LLMs) refere-se ao superaquecimento do processador de vídeo, afetando a veracidade factual dos textos gerados pela IA."
   },
   {
     "id": "m6-q-83",
@@ -1562,11 +1726,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação e ciência da informação, julgue os itens.",
     "item": "Na representação primária do documento, isto é, na identificação e hierarquização de conceitos presentes no item bibliográfico, aplica-se a epistemologia.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"aplica-se a epistemologia\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -1574,7 +1738,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646318"
-    }
+    },
+    "gatilho": "aplica-se a epistemologia",
+    "versao_correta": "Na representação primária do documento, isto é, na identificação e hierarquização de conceitos presentes no item bibliográfico, [corretamente formatado: aplica-se a epistemologia]."
   },
   {
     "id": "m6-q-84",
@@ -1585,13 +1751,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "A arquitetura RAG (Retrieval-Augmented Generation) em sistemas de inteligência artificial de bibliotecas combina a recuperação de informação por busca vetorial semântica em bases de documentos confiáveis com modelos geradores de linguagem (LLMs), reduzindo o risco de 'alucinações' e fornecendo respostas fundamentadas com referências canônicas.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Conceito canônico de RAG: o modelo não responde a partir de 'memória estocástica', mas busca os trechos reais dos documentos da biblioteca e os utiliza como contexto fundamentador para sintetizar a resposta com citações verificáveis.",
-    "armadilhaBanca": "Definição canônica de Retrieval-Augmented Generation (RAG).",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "vetorial semântica em bases de documentos confiáveis",
+    "versao_errada": "A arquitetura RAG (Retrieval-Augmented Generation) em sistemas de inteligência artificial de bibliotecas combina a recuperação de informação por busca indevidamente vetorial semântica em bases de documentos confiáveis com modelos geradores de linguagem (LLMs), reduzindo o risco de 'alucinações' e fornecendo respostas fundamentadas com referências canônicas."
   },
   {
     "id": "m6-q-85",
@@ -1601,14 +1769,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A incorporação de vetores semânticos (dense embeddings) permite que sistemas de busca em bibliotecas digitais realizem recuperação conceitual, agrupando documentos que compartilham o mesmo significado temático mesmo que utilizem vocabulários ou idiomas distintos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Embeddings projetam textos em um espaço vetorial contínuo onde a proximidade geométrica reflete proximidade semântica, superando as limitações da busca puramente léxica.",
-    "armadilhaBanca": "Embeddings semânticos em bibliotecas digitais.",
+    "justificativa": "Gabarito CERTO. Embeddings projetam textos em um espaço vetorial contínuo onde a proximidade geométrica reflete proximidade semântica, superando as limitações da busca puramente léxica. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "bibliotecas digitais realizem recuperação conceitual, agrupando documentos",
+    "versao_errada": "A incorporação de vetores semânticos (dense embeddings) permite que sistemas de busca em indevidamente bibliotecas digitais realizem recuperação conceitual, agrupando documentos que compartilham o mesmo significado temático mesmo que utilizem vocabulários ou idiomas distintos."
   },
   {
     "id": "m6-q-86",
@@ -1618,16 +1788,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"legislação, jurisprudência e d outrina, a qual\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-5",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-5",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    },
+    "gatilho": "legislação, jurisprudência e d outrina, a qual",
+    "versao_errada": "A informação jurídica pode ser subdividida em indevidamente legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva."
   },
   {
     "id": "m6-q-87",
@@ -1637,11 +1809,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A ciência da informação é um campo do saber dedicado às questões científicas, enquanto a biblioteconomia dedica-se à aplicação e às práticas profissionais.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"saber dedicado às questões científicas, enquanto a\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1649,7 +1821,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711386"
-    }
+    },
+    "gatilho": "saber dedicado às questões científicas, enquanto a",
+    "versao_errada": "A ciência da informação é um campo do indevidamente saber dedicado às questões científicas, enquanto a biblioteconomia dedica-se à aplicação e às práticas profissionais."
   },
   {
     "id": "m6-q-88",
@@ -1660,13 +1834,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "Em arquiteturas de busca vetorial, a distância euclidiana ou a similaridade por cosseno entre vetores de consulta e vetores de documentos é calculada por meio da contagem de folhas físicas impressas em cada prateleira.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Similaridade de cosseno e distância euclidiana são cálculos algébricos no espaço multidimensional dos vetores numéricos de embeddings gerados pelo modelo matemático, nada tendo a ver com contagem de folhas físicas em prateleiras.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir álgebra linear de vetores com contagem física de papel.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "contagem de folhas físicas impressas em cada prateleira",
+    "versao_correta": "Em arquiteturas de busca vetorial, a distância euclidiana ou a similaridade por cosseno entre vetores de consulta e vetores de documentos é calculada por meio da [corretamente formatado: contagem de folhas físicas impressas em cada prateleira]."
   },
   {
     "id": "m6-q-89",
@@ -1676,11 +1852,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A noção ampla do conceito de documento, adotada pela biblioteconomia desde seu surgimento, foi reafirmada com o surgimento da documentação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"foi reafirmada com o surgimento da documentação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1688,7 +1864,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711385"
-    }
+    },
+    "gatilho": "foi reafirmada com o surgimento da documentação",
+    "versao_correta": "A noção ampla do conceito de documento, adotada pela biblioteconomia desde seu surgimento, [corretamente formatado: foi reafirmada com o surgimento da documentação]."
   },
   {
     "id": "m6-q-90",
@@ -1698,14 +1876,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A engenharia de prompts (prompt engineering) em biblioteconomia consiste no conserto mecânico com solda elétrica de portas de aço quebradas no depósito de livros.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Engenharia de prompts é a técnica estruturada de formulação, refinamento e parametrização de instruções textuais submetidas a modelos de IA para obter respostas precisas, contextualizadas e sem vieses.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar engenharia de prompts como solda mecânica de portas.",
+    "justificativa": "Gabarito ERRADO. Engenharia de prompts é a técnica estruturada de formulação, refinamento e parametrização de instruções textuais submetidas a modelos de IA para obter respostas precisas, contextualizadas e sem vieses. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "portas de aço quebradas no depósito de livros",
+    "versao_correta": "A engenharia de prompts (prompt engineering) em biblioteconomia consiste no conserto mecânico com solda elétrica de [corretamente formatado: portas de aço quebradas no depósito de livros]."
   },
   {
     "id": "m6-q-91",
@@ -1715,14 +1895,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "O viés algorítmico (algorithmic bias) em sistemas de IA em unidades de informação pode reproduzir e amplificar preconceitos históricos presentes nos textos de treinamento, exigindo auditorias contínuas de equidade e representatividade dos dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Modelos treinados em corpora históricos sem filtragem crítica podem reforçar discriminações raciais, de gênero ou políticas, constituindo sério desafio ético para bibliotecários.",
-    "armadilhaBanca": "Viés algorítmico e ética em IA.",
+    "justificativa": "Gabarito CERTO. Modelos treinados em corpora históricos sem filtragem crítica podem reforçar discriminações raciais, de gênero ou políticas, constituindo sério desafio ético para bibliotecários. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "pode reproduzir e amplificar preconceitos históricos presentes",
+    "versao_errada": "O viés algorítmico (algorithmic bias) em sistemas de IA em unidades de informação indevidamente pode reproduzir e amplificar preconceitos históricos presentes nos textos de treinamento, exigindo auditorias contínuas de equidade e representatividade dos dados."
   },
   {
     "id": "m6-q-92",
@@ -1732,14 +1914,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A automação da catalogação e da extração de metadados auxiliada por IA pode acelerar o processamento técnico de acervos digitais volumosos, atuando na sugestão prévia de termos de tesauro e resumos para posterior homologação pelo bibliotecário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o modelo simbiótico de IA na catalogação: ganho de escala e produtividade na extração automatizada, mantendo a curadoria de autoridade do profissional.",
-    "armadilhaBanca": "Automação de catalogação com assistência de IA.",
+    "justificativa": "Gabarito CERTO. É o modelo simbiótico de IA na catalogação: ganho de escala e produtividade na extração automatizada, mantendo a curadoria de autoridade do profissional. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "processamento técnico de acervos digitais volumosos, atuando",
+    "versao_errada": "A automação da catalogação e da extração de metadados auxiliada por IA pode acelerar o indevidamente processamento técnico de acervos digitais volumosos, atuando na sugestão prévia de termos de tesauro e resumos para posterior homologação pelo bibliotecário."
   },
   {
     "id": "m6-q-93",
@@ -1749,11 +1933,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, relativos a documentação.",
     "item": "A produção de documentação restringe -se a contextos e categorias de profissionais específ icos de bibliotecas e centros de informação, uma vez que esses profissionais são os responsáveis por tratar de temas relacionados à informação e aos suportes informacionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"temas relacionados à informação e aos suportes informacionais\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -1761,7 +1945,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303090"
-    }
+    },
+    "gatilho": "temas relacionados à informação e aos suportes informacionais",
+    "versao_correta": "A produção de documentação restringe -se a contextos e categorias de profissionais específ icos de bibliotecas e centros de informação, uma vez que esses profissionais são os responsáveis por tratar de [corretamente formatado: temas relacionados à informação e aos suportes informacionais]."
   },
   {
     "id": "m6-q-94",
@@ -1771,11 +1957,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Denomina-se biblioteconomia a área do conhecimento que investiga a s propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"meios de processamento para acesso e uso otimizados\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1783,7 +1969,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711384"
-    }
+    },
+    "gatilho": "meios de processamento para acesso e uso otimizados",
+    "versao_correta": "Denomina-se biblioteconomia a área do conhecimento que investiga a s propriedades e o comportamento da informação, as forças que governam o seu fluxo e os [corretamente formatado: meios de processamento para acesso e uso otimizados]."
   },
   {
     "id": "m6-q-95",
@@ -1793,11 +1981,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "A linguagem documentária é considerada necessária somente na recuperação da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"somente na recuperação da informação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Restrição Indevida com Termo Absoluto. O item introduz um limitador rígido que suprime as exceções e hipóteses facultativas previstas expressamente na regra técnica.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1805,7 +1993,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180934"
-    }
+    },
+    "gatilho": "somente na recuperação da informação",
+    "versao_correta": "A linguagem documentária é considerada necessária prioritariamente na recuperação da informação."
   },
   {
     "id": "m6-q-96",
@@ -1815,11 +2005,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Embora a biblioteconomia, a documentação e a ciência da informação se jam áreas semelha ntes no que se refere a sua trajetória histórica e função social, elas diferem quanto à evolução do o b- jeto de interesse e ao grau de utilização das tecnologias.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"interesse e ao grau de utilização das tecnologias\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1827,7 +2017,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711387"
-    }
+    },
+    "gatilho": "interesse e ao grau de utilização das tecnologias",
+    "versao_correta": "Embora a biblioteconomia, a documentação e a ciência da informação se jam áreas semelha ntes no que se refere a sua trajetória histórica e função social, elas diferem quanto à evolução do o b- jeto de [corretamente formatado: interesse e ao grau de utilização das tecnologias]."
   },
   {
     "id": "m6-q-97",
@@ -1837,11 +2029,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação, julgue os itens a seguir.",
     "item": "No âmbito da documentação jurídica, jurisprudência é o conjunto de decisões judiciais acerca de determinado assunto.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"jurisprudência é o conjunto de decisões judiciais\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1849,7 +2041,9 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165404"
-    }
+    },
+    "gatilho": "jurisprudência é o conjunto de decisões judiciais",
+    "versao_errada": "No âmbito da documentação jurídica, indevidamente jurisprudência é o conjunto de decisões judiciais acerca de determinado assunto."
   },
   {
     "id": "m6-q-98",
@@ -1860,13 +2054,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "item": "Grandes Modelos de Linguagem (LLMs) são detentores de consciência própria, autoria moral e personalidade jurídica civil, devendo ser registrados no Conselho Regional de Biblioteconomia como bibliotecários chefes concursados.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. LLMs são modelos computacionais matemáticos e probabilísticos preditores de padrões de tokens, desprovidos de senciência, consciência moral ou capacidade jurídica civil. A autoria e a responsabilidade profissional permanecem exclusivas de seres humanos.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Atribuir consciência e personalidade jurídica de servidor a LLMs.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "devendo ser registrados no Conselho Regional de Biblioteconomia como bibliotecários chefes concursados",
+    "versao_correta": "Grandes Modelos de Linguagem (LLMs) são detentores de consciência própria, autoria moral e personalidade jurídica civil, [corretamente formatado: devendo ser registrados no conselho regional de biblioteconomia como bibliotecários chefes concursados]."
   },
   {
     "id": "m6-q-99",
@@ -1876,14 +2072,16 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "Na elaboração de prompts para síntese bibliográfica, a técnica de 'Few-Shot Prompting' consiste em fornecer ao modelo alguns exemplos prévios de entrada e saída esperadas para guiar o formato e a precisão da resposta gerada.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Few-Shot é a técnica comprovada em engenharia de prompts que condiciona o modelo a seguir um padrão específico mediante exemplos ilustrativos no próprio prompt.",
-    "armadilhaBanca": "Técnica de Few-Shot Prompting.",
+    "justificativa": "Gabarito CERTO. Few-Shot é a técnica comprovada em engenharia de prompts que condiciona o modelo a seguir um padrão específico mediante exemplos ilustrativos no próprio prompt. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "gatilho": "fornecer ao modelo alguns exemplos prévios de",
+    "versao_errada": "Na elaboração de prompts para síntese bibliográfica, a técnica de 'Few-Shot Prompting' consiste em indevidamente fornecer ao modelo alguns exemplos prévios de entrada e saída esperadas para guiar o formato e a precisão da resposta gerada."
   },
   {
     "id": "m6-q-100",
@@ -1893,11 +2091,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação, julgue os itens a seguir.",
     "item": "A ciência da informação é considerada uma ciência humana, pois ultrapassa o limite da ciência e tecnologia.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"considerada uma ciência humana, pois ultrapassa o\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1905,6 +2103,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165400"
-    }
+    },
+    "gatilho": "considerada uma ciência humana, pois ultrapassa o",
+    "versao_errada": "A ciência da informação é indevidamente considerada uma ciência humana, pois ultrapassa o limite da ciência e tecnologia."
   }
 ];

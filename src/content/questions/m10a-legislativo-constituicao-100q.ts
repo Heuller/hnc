@@ -14,17 +14,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O processo legislativo brasileiro compreende expressamente a elaboração de emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O rol taxativo das espécies normativas que integram o processo legislativo primário consta expressamente no art. 59, incisos I a VII, da CF/88.",
-    "armadilhaBanca": "Rol do art. 59 da CF/88.",
+    "justificativa": "Gabarito CERTO. O rol taxativo das espécies normativas que integram o processo legislativo primário consta expressamente no art. 59, incisos I a VII, da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 59",
       "verificado": false
     },
     "fonte": "CF/88, art. 59",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "emendas à Constituição, leis complementares, leis ordinárias",
+    "versao_errada": "O processo legislativo brasileiro compreende expressamente a elaboração de indevidamente emendas à constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções."
   },
   {
     "id": "m10a-q-2",
@@ -39,17 +41,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A lei complementar distingue-se formalmente da lei ordinária quanto ao quórum de aprovação, exigindo-se a maioria absoluta dos membros de cada Casa do Congresso Nacional para a aprovação da lei complementar, ao passo que a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 69 da CF/88, as leis complementares serão aprovadas por maioria absoluta. As leis ordinárias seguem a regra geral do art. 47 (maioria simples).",
-    "armadilhaBanca": "Quóruns do art. 69 vs art. 47 da CF/88.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 69 da CF/88, as leis complementares serão aprovadas por maioria absoluta. As leis ordinárias seguem a regra geral do art. 47 (maioria simples). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, arts. 47 e 69",
       "verificado": false
     },
     "fonte": "CF/88, arts. 47 e 69",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Casa do Congresso Nacional para a aprovação",
+    "versao_errada": "A lei complementar distingue-se formalmente da lei ordinária quanto ao quórum de aprovação, exigindo-se a maioria absoluta dos membros de cada indevidamente casa do congresso nacional para a aprovação da lei complementar, ao passo que a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros."
   },
   {
     "id": "m10a-q-3",
@@ -65,16 +69,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "Se uma lei ordinária veicular matéria reservada constitucionalmente a lei complementar, referida lei ordinária será considerada válida desde que tenha obtido votação correspondente à maioria absoluta dos parlamentares durante sua tramitação.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme pacífica jurisprudência do STF, lei ordinária que disciplina matéria reservada a lei complementar padece de inconstitucionalidade formal por usurpação de competência material, sendo nula mesmo que tenha obtido votação equivalente à maioria absoluta.",
-    "armadilhaBanca": "Inconstitucionalidade formal insanável por quórum acidental.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, ADI 1.434 / CF/88, art. 69",
       "verificado": false
     },
     "fonte": "STF, ADI 1.434 / CF/88, art. 69",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "à maioria absoluta dos parlamentares durante sua tramitação",
+    "versao_correta": "Se uma lei ordinária veicular matéria reservada constitucionalmente a lei complementar, referida lei ordinária será considerada válida desde que tenha obtido votação correspondente [corretamente formatado: à maioria absoluta dos parlamentares durante sua tramitação]."
   },
   {
     "id": "m10a-q-4",
@@ -89,17 +95,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A iniciativa popular de leis federais pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da transcrição literal do art. 61, § 2º da CF/88.",
-    "armadilhaBanca": "Percentuais do art. 61, § 2º da CF/88.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"do eleitorado nacional, distribuído por pelo menos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do eleitorado nacional, distribuído por pelo menos",
+    "versao_errada": "A iniciativa popular de leis federais pode ser exercida pela subscrição de, no mínimo, um por cento indevidamente do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles."
   },
   {
     "id": "m10a-q-5",
@@ -114,17 +122,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os projetos de lei de iniciativa popular devem ser apresentados perante o Senado Federal, haja vista ser esta a Casa representativa dos Estados da Federação e da soberania popular.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 61, § 2º da CF/88, a iniciativa popular deve ser exercida mediante a apresentação à Câmara dos Deputados de projeto de lei devidamente subscrito.",
-    "armadilhaBanca": "Troca da Câmara dos Deputados pelo Senado Federal.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 61, § 2º da CF/88, a iniciativa popular deve ser exercida mediante a apresentação à Câmara dos Deputados de projeto de lei devidamente subscrito. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "dos Estados da Federação e da soberania popular",
+    "versao_correta": "Os projetos de lei de iniciativa popular devem ser apresentados perante o Senado Federal, haja vista ser esta a Casa representativa [corretamente formatado: dos estados da federação e da soberania popular]."
   },
   {
     "id": "m10a-q-6",
@@ -139,17 +149,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "São de iniciativa privativa do Presidente da República as leis que disponham sobre a criação de cargos, funções ou empregos públicos na administração direta e autárquica ou aumento de sua remuneração, bem como sobre a fixação oumodificação do efetivo das Forças Armadas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 61, § 1º, II, \"a\" e inciso I da CF/88.",
-    "armadilhaBanca": "Iniciativa privativa do Chefe do Executivo.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ou empregos públicos na administração direta e\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 61, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou empregos públicos na administração direta e",
+    "versao_errada": "São de iniciativa privativa do Presidente da República as leis que disponham sobre a criação de cargos, funções indevidamente ou empregos públicos na administração direta e autárquica ou aumento de sua remuneração, bem como sobre a fixação oumodificação do efetivo das Forças Armadas."
   },
   {
     "id": "m10a-q-7",
@@ -164,17 +176,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Parlamentares federais possuem ampla legitimidade para propor emendas que importem aumento de despesa em projetos de lei de iniciativa privativa do Presidente da República, desde que a dotação orçamentária seja remanejada de outros programas governamentais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 63, I da CF/88 veda expressamente o aumento de despesa prevista nos projetos de iniciativa exclusiva do Presidente da República, ressalvado o disposto no art. 166, §§ 3º e 4º (orçamento).",
-    "armadilhaBanca": "Vedação do art. 63 da CF/88.",
+    "justificativa": "Gabarito ERRADO. O art. 63, I da CF/88 veda expressamente o aumento de despesa prevista nos projetos de iniciativa exclusiva do Presidente da República, ressalvado o disposto no art. 166, §§ 3º e 4º (orçamento). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 63, I",
       "verificado": false
     },
     "fonte": "CF/88, art. 63, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "desde que a dotação orçamentária seja remanejada de outros programas governamentais",
+    "versao_correta": "Parlamentares federais possuem ampla legitimidade para propor emendas que importem aumento de despesa em projetos de lei de iniciativa privativa do Presidente da República, [corretamente formatado: desde que a dotação orçamentária seja remanejada de outros programas governamentais]."
   },
   {
     "id": "m10a-q-8",
@@ -189,17 +203,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O veto do Presidente da República a projeto de lei aprovado pelo Congresso Nacional pode ser total ou parcial, sendo que o veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 66, § 2º da CF/88: o veto parcial somente abrangerá texto integral de artigo, parágrafo, inciso ou alínea, sendo vedado o veto de palavras ou expressões isoladas.",
-    "armadilhaBanca": "Veto de palavra isolada é vedado pela CF/88.",
+    "justificativa": "Gabarito CERTO. Art. 66, § 2º da CF/88: o veto parcial somente abrangerá texto integral de artigo, parágrafo, inciso ou alínea, sendo vedado o veto de palavras ou expressões isoladas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ser total ou parcial, sendo que o",
+    "versao_errada": "O veto do Presidente da República a projeto de lei aprovado pelo Congresso Nacional pode indevidamente ser total ou parcial, sendo que o veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea."
   },
   {
     "id": "m10a-q-9",
@@ -214,17 +230,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88).",
-    "armadilhaBanca": "Caráter relativo do veto.",
+    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "em razão do princípio da separação dos poderes",
+    "versao_correta": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição [corretamente formatado: em razão do princípio da separação dos poderes]."
   },
   {
     "id": "m10a-q-10",
@@ -239,17 +257,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto pelo Congresso Nacional, caberá ao Presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 66, § 7º da CF/88.",
-    "armadilhaBanca": "Ordem de substituição na promulgação após derrubada de veto.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"pelo Congresso Nacional, caberá ao Presidente do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 7º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "pelo Congresso Nacional, caberá ao Presidente do",
+    "versao_errada": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto indevidamente pelo congresso nacional, caberá ao presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo."
   },
   {
     "id": "m10a-q-11",
@@ -264,17 +284,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O silêncio do Presidente da República após decorridos quinze dias úteis do recebimento do projeto de lei importa em veto tácito da proposição legislativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 3º da CF/88, decorrido o prazo de 15 dias úteis, o silêncio do Presidente da República importará em SANÇÃO TÁCITA, e não veto.",
-    "armadilhaBanca": "Troca de sanção tácita por veto tácito (o ordenamento brasileiro não admite veto tácito).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 66, § 3º da CF/88, decorrido o prazo de 15 dias úteis, o silêncio do Presidente da República importará em SANÇÃO TÁCITA, e não veto. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "lei importa em veto tácito da proposição legislativa",
+    "versao_correta": "O silêncio do Presidente da República após decorridos quinze dias úteis do recebimento do projeto de [corretamente formatado: lei importa em veto tácito da proposição legislativa]."
   },
   {
     "id": "m10a-q-12",
@@ -289,17 +311,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A discussão e votação dos projetos de lei de iniciativa do Supremo Tribunal Federal, dos Tribunais Superiores e do Procurador-Geral da República terão início na Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 64, caput da CF/88: a discussão e votação dos projetos de lei de iniciativa do Presidente da República, do STF e dos Tribunais Superiores terão início na Câmara dos Deputados.",
-    "armadilhaBanca": "Casa iniciadora de projetos do Poder Judiciário e PGR.",
+    "justificativa": "Gabarito CERTO. Art. 64, caput da CF/88: a discussão e votação dos projetos de lei de iniciativa do Presidente da República, do STF e dos Tribunais Superiores terão início na Câmara dos Deputados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 64, caput",
       "verificado": false
     },
     "fonte": "CF/88, art. 64, caput",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Supremo Tribunal Federal, dos Tribunais Superiores e",
+    "versao_errada": "A discussão e votação dos projetos de lei de iniciativa do indevidamente supremo tribunal federal, dos tribunais superiores e do Procurador-Geral da República terão início na Câmara dos Deputados."
   },
   {
     "id": "m10a-q-13",
@@ -314,17 +338,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Caso o projeto de lei tenha sido iniciado no Senado Federal e seja posteriormente emendado pela Câmara dos Deputados, as emendas serão apreciadas soberanamente pela Câmara, sem necessidade de retorno ao Senado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 65, parágrafo único da CF/88, sendo o projeto emendado, voltará à Casa iniciadora (neste caso, o Senado Federal) para apreciação das emendas.",
-    "armadilhaBanca": "Regra de retorno à Casa iniciadora para deliberação final sobre emendas.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 65, parágrafo único da CF/88, sendo o projeto emendado, voltará à Casa iniciadora (neste caso, o Senado Federal) para apreciação das emendas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 65, parágrafo único",
       "verificado": false
     },
     "fonte": "CF/88, art. 65, parágrafo único",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sem necessidade de retorno ao Senado",
+    "versao_correta": "Caso o projeto de lei tenha sido iniciado no Senado Federal e seja posteriormente emendado pela Câmara dos Deputados, as emendas serão apreciadas soberanamente pela Câmara, [corretamente formatado: sem necessidade de retorno ao senado]."
   },
   {
     "id": "m10a-q-14",
@@ -339,17 +365,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A matéria constante de projeto de lei rejeitado somente poderá ser objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Princípio da irrepetibilidade relativa de projetos de lei, positivado no art. 67 da CF/88.",
-    "armadilhaBanca": "Princípio da irrepetibilidade relativa e quórum de maioria absoluta.",
+    "justificativa": "Gabarito CERTO. Princípio da irrepetibilidade relativa de projetos de lei, positivado no art. 67 da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 67",
       "verificado": false
     },
     "fonte": "CF/88, art. 67",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "novo projeto, na mesma sessão legislativa, mediante",
+    "versao_errada": "A matéria constante de projeto de lei rejeitado somente poderá ser objeto de indevidamente novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."
   },
   {
     "id": "m10a-q-15",
@@ -364,17 +392,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As leis delegadas serão elaboradas pelo Presidente da República, que deverá solicitar previamente autorização ao Supremo Tribunal Federal para exercer a prerrogativa legiferante.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A solicitação de delegação é feita ao CONGRESSO NACIONAL (art. 68, caput da CF/88), e não ao Poder Judiciário.",
-    "armadilhaBanca": "Autoridade que concede a delegação legislativa.",
+    "justificativa": "Gabarito ERRADO. A solicitação de delegação é feita ao CONGRESSO NACIONAL (art. 68, caput da CF/88), e não ao Poder Judiciário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 68",
       "verificado": false
     },
     "fonte": "CF/88, art. 68",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "que deverá solicitar previamente autorização ao Supremo Tribunal Federal para exercer a prerrogativa legiferante",
+    "versao_correta": "As leis delegadas serão elaboradas pelo Presidente da República, [corretamente formatado: que deverá solicitar previamente autorização ao supremo tribunal federal para exercer a prerrogativa legiferante]."
   },
   {
     "id": "m10a-q-16",
@@ -389,17 +419,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Não serão objeto de delegação os atos de competência exclusiva do Congresso Nacional, os de competência privativa da Câmara dos Deputados ou do Senado Federal, a matéria reservada à lei complementar e a legislação sobre planos plurianuais, diretrizes orçamentárias e orçamentos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Rol de vedações expressas à delegação legislativa previsto no art. 68, § 1º, incisos I a III da CF/88.",
-    "armadilhaBanca": "Limites materiais à edição de leis delegadas.",
+    "justificativa": "Gabarito CERTO. Rol de vedações expressas à delegação legislativa previsto no art. 68, § 1º, incisos I a III da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 68, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 68, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da Câmara dos Deputados ou do Senado",
+    "versao_errada": "Não serão objeto de delegação os atos de competência exclusiva do Congresso Nacional, os de competência privativa indevidamente da câmara dos deputados ou do senado Federal, a matéria reservada à lei complementar e a legislação sobre planos plurianuais, diretrizes orçamentárias e orçamentos."
   },
   {
     "id": "m10a-q-17",
@@ -415,16 +447,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A delegação legislativa ao Presidente da República terá a forma de decreto legislativo do Congresso Nacional, o qual não poderá, em qualquer hipótese, condicionar o projeto delegado à apreciação pelo Parlamento.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A delegação terá forma de RESOLUÇÃO do Congresso Nacional (e não decreto legislativo), e a resolução PODERÁ determinar a apreciação do projeto pelo Congresso Nacional, em votação única, vedada qualquer emenda (art. 68, §§ 2º e 3º da CF/88).",
-    "armadilhaBanca": "Forma da delegação (resolução) e possibilidade de reserva de apreciação.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 68, §§ 2º e 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 68, §§ 2º e 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "condicionar o projeto delegado à apreciação pelo Parlamento",
+    "versao_correta": "A delegação legislativa ao Presidente da República terá a forma de decreto legislativo do Congresso Nacional, o qual não poderá, em qualquer hipótese, [corretamente formatado: condicionar o projeto delegado à apreciação pelo parlamento]."
   },
   {
     "id": "m10a-q-18",
@@ -439,17 +473,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Presidente da República poderá solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara dos Deputados e o Senado Federal não se manifestem, cada qual, sucessivamente, em até quarenta e cinco dias, sobrestar-se-ão todas as demais deliberações legislativas da respectiva Casa, com exceção daquelas com prazo constitucional determinado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a regra expressa da urgência constitucional presidencial prevista no art. 64, §§ 1º e 2º da CF/88.",
-    "armadilhaBanca": "Prazo e efeito de trancamento da pauta na urgência constitucional.",
+    "justificativa": "Gabarito CERTO. É a regra expressa da urgência constitucional presidencial prevista no art. 64, §§ 1º e 2º da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 64, §§ 1º e 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 64, §§ 1º e 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Senado Federal não se manifestem, cada qual",
+    "versao_errada": "O Presidente da República poderá solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara dos Deputados e o indevidamente senado federal não se manifestem, cada qual, sucessivamente, em até quarenta e cinco dias, sobrestar-se-ão todas as demais deliberações legislativas da respectiva Casa, com exceção daquelas com prazo constitucional determinado."
   },
   {
     "id": "m10a-q-19",
@@ -464,17 +500,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O trancamento da pauta em razão do decurso do prazo de urgência constitucional impede a apreciação de emendas constitucionais pelas Casas do Congresso Nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme jurisprudência pacífica do STF, o trancamento decorrente do art. 64, § 2º não impede a deliberação de Propostas de Emenda à Constituição (PECs), pois estas possuem estatura constitucional e procedimento próprio.",
-    "armadilhaBanca": "Alcance do trancamento de pauta sobre emendas à constituição.",
+    "justificativa": "Gabarito ERRADO. Conforme jurisprudência pacífica do STF, o trancamento decorrente do art. 64, § 2º não impede a deliberação de Propostas de Emenda à Constituição (PECs), pois estas possuem estatura constitucional e procedimento próprio. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 27.911 / CF/88, art. 64",
       "verificado": false
     },
     "fonte": "STF, MS 27.911 / CF/88, art. 64",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de emendas constitucionais pelas Casas do Congresso Nacional",
+    "versao_correta": "O trancamento da pauta em razão do decurso do prazo de urgência constitucional impede a apreciação [corretamente formatado: de emendas constitucionais pelas casas do congresso nacional]."
   },
   {
     "id": "m10a-q-20",
@@ -489,17 +527,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A sanção do projeto de lei pelo Presidente da República pode ocorrer de forma expressa ou tácita, subordinando-se sua eficácia à manifestação favorável prévia do Conselho da República e do Conselho de Defesa Nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A sanção não depende de manifestação prévia do Conselho da República nem do Conselho de Defesa Nacional. Trata-se de ato privativo de aquiescência do Chefe do Poder Executivo.",
-    "armadilhaBanca": "Invenção de requisito inexistente para sanção presidencial.",
+    "justificativa": "Gabarito ERRADO. A sanção não depende de manifestação prévia do Conselho da República nem do Conselho de Defesa Nacional. Trata-se de ato privativo de aquiescência do Chefe do Poder Executivo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66",
       "verificado": false
     },
     "fonte": "CF/88, art. 66",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "da República e do Conselho de Defesa Nacional",
+    "versao_correta": "A sanção do projeto de lei pelo Presidente da República pode ocorrer de forma expressa ou tácita, subordinando-se sua eficácia à manifestação favorável prévia do Conselho [corretamente formatado: da república e do conselho de defesa nacional]."
   },
   {
     "id": "m10a-q-21",
@@ -514,17 +554,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Se o Presidente da República considerar o projeto de lei, no todo ou em parte, inconstitucional ou contrário ao interesse público, vetá-lo-á total ou parcialmente, no prazo de quinze dias úteis, contado da data do recebimento, e comunicará, dentro de quarenta e oito horas, ao Presidente do Senado Federal os motivos do veto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 66, § 1º da CF/88: o veto ocorre por inconstitucionalidade (veto jurídico) ou contrariedade ao interesse público (veto político), no prazo de 15 dias úteis, com comunicação em 48 horas ao Presidente do Senado Federal.",
-    "armadilhaBanca": "Prazos do art. 66, § 1º da CF/88.",
+    "justificativa": "Gabarito CERTO. Art. 66, § 1º da CF/88: o veto ocorre por inconstitucionalidade (veto jurídico) ou contrariedade ao interesse público (veto político), no prazo de 15 dias úteis, com comunicação em 48 horas ao Presidente do Senado Federal. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou parcialmente, no prazo de quinze dias",
+    "versao_errada": "Se o Presidente da República considerar o projeto de lei, no todo ou em parte, inconstitucional ou contrário ao interesse público, vetá-lo-á total indevidamente ou parcialmente, no prazo de quinze dias úteis, contado da data do recebimento, e comunicará, dentro de quarenta e oito horas, ao Presidente do Senado Federal os motivos do veto."
   },
   {
     "id": "m10a-q-22",
@@ -539,17 +581,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A motivação do veto presidencial é facultativa, de modo que o Presidente da República pode vetar artigos de projeto de lei sem a obrigatoriedade de esclarecer as razões jurídicas ou políticas que justificaram a oposição.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A motivação do veto é elemento essencial e obrigatório, impondo o art. 66, § 1º da CF/88 a comunicação detalhada dos motivos do veto ao Presidente do Senado Federal.",
-    "armadilhaBanca": "Obrigatoriedade de motivação do veto no ordenamento constitucional.",
+    "justificativa": "Gabarito ERRADO. A motivação do veto é elemento essencial e obrigatório, impondo o art. 66, § 1º da CF/88 a comunicação detalhada dos motivos do veto ao Presidente do Senado Federal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "facultativa",
+    "versao_correta": "A motivação do veto presidencial é [corretamente formatado: facultativa], de modo que o Presidente da República pode vetar artigos de projeto de lei sem a obrigatoriedade de esclarecer as razões jurídicas ou políticas que justificaram a oposição."
   },
   {
     "id": "m10a-q-23",
@@ -564,17 +608,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "No processo legislativo ordinário, o projeto de lei aprovado por uma Casa e rejeitado na outra será definitivamente arquivado, não havendo possibilidade de sua reapreciação com quórum qualificado na mesma sessão legislativa caso não haja a maioria absoluta exigida pelo art. 67 da CF/88.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Rejeitado o projeto na Casa revisora, o projeto arquiva-se, ressalvada unicamente a hipótese de reapresentação por proposta da maioria absoluta dos membros de qualquer das Casas (art. 67 da CF/88).",
-    "armadilhaBanca": "Efeitos da rejeição na Casa revisora.",
+    "justificativa": "Gabarito CERTO. Rejeitado o projeto na Casa revisora, o projeto arquiva-se, ressalvada unicamente a hipótese de reapresentação por proposta da maioria absoluta dos membros de qualquer das Casas (art. 67 da CF/88). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 65 e 67",
       "verificado": false
     },
     "fonte": "CF/88, art. 65 e 67",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "não havendo possibilidade de sua reapreciação com",
+    "versao_errada": "No processo legislativo ordinário, o projeto de lei aprovado por uma Casa e rejeitado na outra será definitivamente arquivado, indevidamente não havendo possibilidade de sua reapreciação com quórum qualificado na mesma sessão legislativa caso não haja a maioria absoluta exigida pelo art. 67 da CF/88."
   },
   {
     "id": "m10a-q-24",
@@ -590,16 +636,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A apresentação de projeto de lei complementar por iniciativa popular conflita com a disciplina constitucional do processo legislativo, haja vista que o texto da Carta de 1988 limitou a atuação popular direta às leis ordinárias.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A jurisprudência constitucional e a doutrina uníssona assentam que a iniciativa popular (art. 61, § 2º da CF) alcança tanto leis ordinárias quanto leis complementares, pois onde a Constituição não restringiu, não cabe ao intérprete distinguir.",
-    "armadilhaBanca": "Abrangência da iniciativa popular a projetos de lei complementar.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 61, § 2º / Doutrina Constitucional",
       "verificado": false
     },
     "fonte": "CF/88, art. 61, § 2º / Doutrina Constitucional",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "limitou a atuação popular direta às leis ordinárias",
+    "versao_correta": "A apresentação de projeto de lei complementar por iniciativa popular conflita com a disciplina constitucional do processo legislativo, haja vista que o texto da Carta de 1988 [corretamente formatado: limitou a atuação popular direta às leis ordinárias]."
   },
   {
     "id": "m10a-q-25",
@@ -614,17 +662,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A promulgação da lei atesta formalmente a sua existência jurídica e a sua integração ao ordenamento jurídico pátrio, enquanto a publicação confere-lhe eficácia geral e presunção de conhecimento por todos os cidadãos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Distinção clássica entre promulgação (atestado de existência e validade formal) e publicação (condição de eficácia e obrigatoriedade da norma).",
-    "armadilhaBanca": "Distinção ontológica entre promulgação e publicação.",
+    "justificativa": "Gabarito CERTO. Distinção clássica entre promulgação (atestado de existência e validade formal) e publicação (condição de eficácia e obrigatoriedade da norma). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Doutrina Constitucional / LINDB, art. 1º",
       "verificado": false
     },
     "fonte": "Doutrina Constitucional / LINDB, art. 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "integração ao ordenamento jurídico pátrio, enquanto a",
+    "versao_errada": "A promulgação da lei atesta formalmente a sua existência jurídica e a sua indevidamente integração ao ordenamento jurídico pátrio, enquanto a publicação confere-lhe eficácia geral e presunção de conhecimento por todos os cidadãos."
   },
   {
     "id": "m10a-q-26",
@@ -639,17 +689,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A sanção presidencial possui o condão de convalidar o vício de inconstitucionalidade formal decorrente da usurpação de iniciativa legislativa privativa de outro poder.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O STF pacificou na Súmula nº 5 que a sanção do projeto de lei não sana o vício de iniciativa (jurisprudência consolidada do STF: sanção não convalida vício formal de iniciativa reservada).",
-    "armadilhaBanca": "Súmula 5 do STF e nulidade formal insanável por sanção.",
+    "justificativa": "Gabarito ERRADO. O STF pacificou na Súmula nº 5 que a sanção do projeto de lei não sana o vício de iniciativa (jurisprudência consolidada do STF: sanção não convalida vício formal de iniciativa reservada). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, Súmula 5",
       "verificado": false
     },
     "fonte": "STF, Súmula 5",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "usurpação de iniciativa legislativa privativa de outro poder",
+    "versao_correta": "A sanção presidencial possui o condão de convalidar o vício de inconstitucionalidade formal decorrente da [corretamente formatado: usurpação de iniciativa legislativa privativa de outro poder]."
   },
   {
     "id": "m10a-q-27",
@@ -664,17 +716,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os decretos legislativos e as resoluções do Congresso Nacional ou de suas Casas não se submetem à sanção ou ao veto do Presidente da República, sendo promulgados diretamente pela Mesa da respectiva Casa ou do Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Decretos legislativos e resoluções são atos de competência exclusiva do Poder Legislativo e independem de manifestação aquiescente ou de veto do Executivo (art. 48 caput a contrario sensu e art. 49 da CF/88).",
-    "armadilhaBanca": "Atos normativos imunes à sanção e ao veto presidencial.",
+    "justificativa": "Gabarito CERTO. Decretos legislativos e resoluções são atos de competência exclusiva do Poder Legislativo e independem de manifestação aquiescente ou de veto do Executivo (art. 48 caput a contrario sensu e art. 49 da CF/88). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, arts. 48 e 49",
       "verificado": false
     },
     "fonte": "CF/88, arts. 48 e 49",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "submetem à sanção ou ao veto do",
+    "versao_errada": "Os decretos legislativos e as resoluções do Congresso Nacional ou de suas Casas não se indevidamente submetem à sanção ou ao veto do Presidente da República, sendo promulgados diretamente pela Mesa da respectiva Casa ou do Congresso Nacional."
   },
   {
     "id": "m10a-q-28",
@@ -689,17 +743,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Compete ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa, formalizando referida deliberação por meio de resolução conjunta de iniciativa de bancada partidária.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A sustação de atos do Executivo que exorbitem do poder regulamentar é veiculada formalmente mediante Decreto Legislativo (art. 49, V da CF/88), e não por resolução conjunta ou medida provisória.",
-    "armadilhaBanca": "Espécie normativa para sustação de atos regulamentares exorbitantes.",
+    "justificativa": "Gabarito ERRADO. A sustação de atos do Executivo que exorbitem do poder regulamentar é veiculada formalmente mediante Decreto Legislativo (art. 49, V da CF/88), e não por resolução conjunta ou medida provisória. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 49, V",
       "verificado": false
     },
     "fonte": "CF/88, art. 49, V",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "formalizando referida deliberação por meio de resolução conjunta de iniciativa de bancada partidária",
+    "versao_correta": "Compete ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites da delegação legislativa, [corretamente formatado: formalizando referida deliberação por meio de resolução conjunta de iniciativa de bancada partidária]."
   },
   {
     "id": "m10a-q-29",
@@ -714,17 +770,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O processo legislativo de projetos de lei de iniciativa de deputados federais inicia-se, em regra, na Câmara dos Deputados, que atuará como Casa iniciadora, cabendo ao Senado Federal o papel de Casa revisora.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 64, caput da CF/88, os projetos de lei iniciados por membros da Câmara tramitam primeiramente na Câmara e depois no Senado.",
-    "armadilhaBanca": "Papel da Câmara como Casa iniciadora em projetos de deputados.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 64, caput da CF/88, os projetos de lei iniciados por membros da Câmara tramitam primeiramente na Câmara e depois no Senado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 64",
       "verificado": false
     },
     "fonte": "CF/88, art. 64",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "em regra, na Câmara dos Deputados, que",
+    "versao_errada": "O processo legislativo de projetos de lei de iniciativa de deputados federais inicia-se, indevidamente em regra, na câmara dos deputados, que atuará como Casa iniciadora, cabendo ao Senado Federal o papel de Casa revisora."
   },
   {
     "id": "m10a-q-30",
@@ -739,17 +797,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Caso o projeto de lei tenha sido rejeitado na Câmara dos Deputados como Casa iniciadora, poderá o Presidente da República intervir diretamente e submeter o mesmo texto à apreciação do Senado Federal como apelação institucional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Não existe apelação institucional ou avocação pelo Presidente de projeto rejeitado na Casa iniciadora. O projeto rejeitado é sumariamente arquivado, nos termos do art. 67 da CF/88.",
-    "armadilhaBanca": "Invenção de recurso institucional ao Senado.",
+    "justificativa": "Gabarito ERRADO. Não existe apelação institucional ou avocação pelo Presidente de projeto rejeitado na Casa iniciadora. O projeto rejeitado é sumariamente arquivado, nos termos do art. 67 da CF/88. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 67",
       "verificado": false
     },
     "fonte": "CF/88, art. 67",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "à apreciação do Senado Federal como apelação institucional",
+    "versao_correta": "Caso o projeto de lei tenha sido rejeitado na Câmara dos Deputados como Casa iniciadora, poderá o Presidente da República intervir diretamente e submeter o mesmo texto [corretamente formatado: à apreciação do senado federal como apelação institucional]."
   },
   {
     "id": "m10a-q-31",
@@ -764,17 +824,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Constituição Federal de 1988 poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou do Senado Federal, do Presidente da República, ou de mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se, cada uma delas, pela maioria relativa de seus membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Rol taxativo de legitimados para propor PEC nos termos do art. 60, incisos I, II e III da CF/88.",
-    "armadilhaBanca": "Legitimados para propositura de PEC.",
+    "justificativa": "Gabarito CERTO. Rol taxativo de legitimados para propor PEC nos termos do art. 60, incisos I, II e III da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, I a III",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, I a III",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do Senado Federal, do Presidente da República",
+    "versao_errada": "A Constituição Federal de 1988 poderá ser emendada mediante proposta de um terço, no mínimo, dos membros da Câmara dos Deputados ou indevidamente do senado federal, do presidente da república, ou de mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se, cada uma delas, pela maioria relativa de seus membros."
   },
   {
     "id": "m10a-q-32",
@@ -789,17 +851,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Cidadãos brasileiros podem apresentar Proposta de Emenda à Constituição por iniciativa popular, desde que subscrita por pelo menos cinco por cento do eleitorado nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CF/88 NÃO previu iniciativa popular para Proposta de Emenda Constitucional (art. 60). A iniciativa popular é restrita a projetos de lei ordinária e complementar (art. 61, § 2º).",
-    "armadilhaBanca": "Inexistência de iniciativa popular de PEC na ordem federal.",
+    "justificativa": "Gabarito ERRADO. A CF/88 NÃO previu iniciativa popular para Proposta de Emenda Constitucional (art. 60). A iniciativa popular é restrita a projetos de lei ordinária e complementar (art. 61, § 2º). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60 / STF, ADI 825",
       "verificado": false
     },
     "fonte": "CF/88, art. 60 / STF, ADI 825",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "desde que subscrita por pelo menos cinco por cento do eleitorado nacional",
+    "versao_correta": "Cidadãos brasileiros podem apresentar Proposta de Emenda à Constituição por iniciativa popular, [corretamente formatado: desde que subscrita por pelo menos cinco por cento do eleitorado nacional]."
   },
   {
     "id": "m10a-q-33",
@@ -814,17 +878,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Constituição não poderá ser emendada na vigência de intervenção federal, de estado de defesa ou de estado de sítio, constituindo tais hipóteses limitações circunstanciais expressas ao poder constituinte derivado reformador.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Limitações circunstanciais expressas no art. 60, § 1º da CF/88.",
-    "armadilhaBanca": "Limitações circunstanciais do art. 60, § 1º da CF/88.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"estado de defesa ou de estado de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "estado de defesa ou de estado de",
+    "versao_errada": "A Constituição não poderá ser emendada na vigência de intervenção federal, de indevidamente estado de defesa ou de estado de sítio, constituindo tais hipóteses limitações circunstanciais expressas ao poder constituinte derivado reformador."
   },
   {
     "id": "m10a-q-34",
@@ -839,17 +905,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Proposta de Emenda à Constituição será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Procedimento solene e quórum qualificado de 3/5 em dois turnos em cada Casa, previsto no art. 60, § 2º da CF/88.",
-    "armadilhaBanca": "Quórum e turnos de aprovação de PEC.",
+    "justificativa": "Gabarito CERTO. Procedimento solene e quórum qualificado de 3/5 em dois turnos em cada Casa, previsto no art. 60, § 2º da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "do Congresso Nacional, em dois turnos, considerando-se",
+    "versao_errada": "A Proposta de Emenda à Constituição será discutida e votada em cada Casa indevidamente do congresso nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, três quintos dos votos dos respectivos membros."
   },
   {
     "id": "m10a-q-35",
@@ -864,17 +932,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A emenda à Constituição aprovada pelo Congresso Nacional será enviada ao Presidente da República para sanção ou veto no prazo improrrogável de quinze dias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 60, § 3º da CF/88, a emenda à Constituição será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal, com o respectivo número de ordem, NÃO havendo sanção ou veto presidencial em PEC.",
-    "armadilhaBanca": "Inexistência de sanção ou veto presidencial em Emendas Constitucionais.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 60, § 3º da CF/88, a emenda à Constituição será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal, com o respectivo número de ordem, NÃO havendo sanção ou veto presidencial em PEC. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou veto no prazo improrrogável de quinze dias",
+    "versao_correta": "A emenda à Constituição aprovada pelo Congresso Nacional será enviada ao Presidente da República para sanção [corretamente formatado: ou veto no prazo improrrogável de quinze dias]."
   },
   {
     "id": "m10a-q-36",
@@ -889,17 +959,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Não será objeto de deliberação a proposta de emenda tendente a abolir a forma federativa de Estado, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. São as cláusulas pétreas expressas (limitações materiais explícitas) insculpidas no art. 60, § 4º, incisos I a IV da CF/88.",
-    "armadilhaBanca": "Cláusulas pétreas expressas da CF/88.",
+    "justificativa": "Gabarito CERTO. São as cláusulas pétreas expressas (limitações materiais explícitas) insculpidas no art. 60, § 4º, incisos I a IV da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 4º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "federativa de Estado, o voto direto, secreto",
+    "versao_errada": "Não será objeto de deliberação a proposta de emenda tendente a abolir a forma indevidamente federativa de estado, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais."
   },
   {
     "id": "m10a-q-37",
@@ -915,16 +987,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A forma republicana de governo e o sistema presidencialista constituem cláusulas pétreas expressas no art. 60, § 4º da Constituição Federal de 1988.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O rol do art. 60, § 4º cita a forma FEDERATIVA, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais. República e presidencialismo não constam como cláusulas pétreas expressas (foram objeto de plebiscito em 1993, art. 2º do ADCT).",
-    "armadilhaBanca": "Pegadinha clássica: confundir forma republicana com forma federativa.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 4º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "§ 4º da Constituição Federal de 1988",
+    "versao_correta": "A forma republicana de governo e o sistema presidencialista constituem cláusulas pétreas expressas no art. 60, [corretamente formatado: § 4º da constituição federal de 1988]."
   },
   {
     "id": "m10a-q-38",
@@ -939,17 +1013,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa, operando-se o princípio da irrepetibilidade absoluta em matéria de emenda constitucional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 60, § 5º da CF/88, opera-se a irrepetibilidade ABSOLUTA: matéria de PEC rejeitada ou prejudicada NÃO pode ser reapresentada na mesma sessão legislativa nem mesmo pela maioria absoluta.",
-    "armadilhaBanca": "Irrepetibilidade absoluta (art. 60, § 5º) vs relativa em leis (art. 67).",
+    "justificativa": "Gabarito CERTO. Conforme o art. 60, § 5º da CF/88, opera-se a irrepetibilidade ABSOLUTA: matéria de PEC rejeitada ou prejudicada NÃO pode ser reapresentada na mesma sessão legislativa nem mesmo pela maioria absoluta. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 60, § 5º",
       "verificado": false
     },
     "fonte": "CF/88, art. 60, § 5º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ser objeto de nova proposta na mesma",
+    "versao_errada": "A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode indevidamente ser objeto de nova proposta na mesma sessão legislativa, operando-se o princípio da irrepetibilidade absoluta em matéria de emenda constitucional."
   },
   {
     "id": "m10a-q-39",
@@ -964,17 +1040,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Em caso de relevância e urgência, o Presidente da República poderá adotar medidas provisórias, com força de lei, devendo submetê-las de imediato ao Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra fundamental do art. 62, caput da CF/88.",
-    "armadilhaBanca": "Pressupostos constitucionais de relevância e urgência de MP.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"República poderá adotar medidas provisórias, com força\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, caput",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, caput",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "República poderá adotar medidas provisórias, com força",
+    "versao_errada": "Em caso de relevância e urgência, o Presidente da indevidamente república poderá adotar medidas provisórias, com força de lei, devendo submetê-las de imediato ao Congresso Nacional."
   },
   {
     "id": "m10a-q-40",
@@ -989,17 +1067,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "É vedada a edição de medidas provisórias sobre matéria relativa a nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral, bem como sobre direito penal, processual penal e processual civil.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Vedações materiais expressas do art. 62, § 1º, I, \"a\" e \"b\" da CF/88.",
-    "armadilhaBanca": "Limitações materiais à edição de Medida Provisória.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"cidadania, direitos políticos, partidos políticos e direito\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "cidadania, direitos políticos, partidos políticos e direito",
+    "versao_errada": "É vedada a edição de medidas provisórias sobre matéria relativa a nacionalidade, indevidamente cidadania, direitos políticos, partidos políticos e direito eleitoral, bem como sobre direito penal, processual penal e processual civil."
   },
   {
     "id": "m10a-q-41",
@@ -1014,17 +1094,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "É permitida a edição de medida provisória que vise à detenção ou ao sequestro de bens, de poupança popular ou de qualquer outro ativo financeiro, em casos graves de crise econômica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 62, § 1º, II da CF/88 VEDA expressamente a edição de MP que vise a detenção ou sequestro de bens, de poupança popular ou qualquer outro ativo financeiro.",
-    "armadilhaBanca": "Vedação expressa de confisco de poupança por MP.",
+    "justificativa": "Gabarito ERRADO. O art. 62, § 1º, II da CF/88 VEDA expressamente a edição de MP que vise a detenção ou sequestro de bens, de poupança popular ou qualquer outro ativo financeiro. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 1º, II",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º, II",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "em casos graves de crise econômica",
+    "versao_correta": "É permitida a edição de medida provisória que vise à detenção ou ao sequestro de bens, de poupança popular ou de qualquer outro ativo financeiro, [corretamente formatado: em casos graves de crise econômica]."
   },
   {
     "id": "m10a-q-42",
@@ -1039,17 +1121,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As medidas provisórias terão sua votação iniciada no Senado Federal, por se tratar da Casa revisora de maior antiguidade na República.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 62, § 8º da CF/88, a votação das medidas provisórias iniciará na CÂMARA DOS DEPUTADOS.",
-    "armadilhaBanca": "Casa iniciadora de Medidas Provisórias.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 62, § 8º da CF/88, a votação das medidas provisórias iniciará na CÂMARA DOS DEPUTADOS. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 8º",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 8º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "por se tratar da Casa revisora de maior antiguidade na República",
+    "versao_correta": "As medidas provisórias terão sua votação iniciada no Senado Federal, [corretamente formatado: por se tratar da casa revisora de maior antiguidade na república]."
   },
   {
     "id": "m10a-q-43",
@@ -1064,17 +1148,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As medidas provisórias perderão eficácia, desde a edição, se não forem convertidas em lei no prazo de sessenta dias, prorrogável uma vez por igual período pelo Presidente da Mesa do Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Prazos e efeitos da não conversão em lei constantes do art. 62, §§ 3º e 7º da CF/88.",
-    "armadilhaBanca": "Prazo de vigência e eficácia ex tunc na perda de eficácia de MP.",
+    "justificativa": "Gabarito CERTO. Prazos e efeitos da não conversão em lei constantes do art. 62, §§ 3º e 7º da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, §§ 3º e 7º",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, §§ 3º e 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "lei no prazo de sessenta dias, prorrogável",
+    "versao_errada": "As medidas provisórias perderão eficácia, desde a edição, se não forem convertidas em indevidamente lei no prazo de sessenta dias, prorrogável uma vez por igual período pelo Presidente da Mesa do Congresso Nacional."
   },
   {
     "id": "m10a-q-44",
@@ -1089,17 +1175,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Se a medida provisória não for apreciada em até quarenta e cinco dias contados de sua publicação, entrará em regime de urgência, ficando sobrestadas, até que se ultime a votação, todas as demais deliberações legislativas da Casa em que estiver tramitando.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da regra de trancamento de pauta por decurso de prazo de MP prevista no art. 62, § 6º da CF/88.",
-    "armadilhaBanca": "Trancamento de pauta no 45º dia de vigência da MP.",
+    "justificativa": "Gabarito CERTO. Trata-se da regra de trancamento de pauta por decurso de prazo de MP prevista no art. 62, § 6º da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 6º",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 6º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "entrará em regime de urgência, ficando sobrestadas",
+    "versao_errada": "Se a medida provisória não for apreciada em até quarenta e cinco dias contados de sua publicação, indevidamente entrará em regime de urgência, ficando sobrestadas, até que se ultime a votação, todas as demais deliberações legislativas da Casa em que estiver tramitando."
   },
   {
     "id": "m10a-q-45",
@@ -1115,16 +1203,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "O trancamento da pauta provocado por medida provisória pendente de votação sobresta a apreciação de projetos de lei com prazo constitucional determinado e de propostas de emenda à Constituição.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O trancamento da pauta por MP (art. 62, § 6º) NÃO atinge Propostas de Emenda à Constituição (PECs), nem projetos de lei com prazo constitucional determinado, nem matérias com tramitação privativa sem interferência recíproca.",
-    "armadilhaBanca": "Exceções jurisprudenciais e constitucionais ao trancamento por MP.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 27.911",
       "verificado": false
     },
     "fonte": "STF, MS 27.911",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "determinado e de propostas de emenda à Constituição",
+    "versao_correta": "O trancamento da pauta provocado por medida provisória pendente de votação sobresta a apreciação de projetos de lei com prazo constitucional [corretamente formatado: determinado e de propostas de emenda à constituição]."
   },
   {
     "id": "m10a-q-46",
@@ -1139,17 +1229,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Caso a medida provisória seja rejeitada pelo Congresso Nacional, caberá a este disciplinar, por decreto legislativo, as relações jurídicas dela decorrentes; não sendo editado referido decreto no prazo de sessenta dias após a rejeição, as relações jurídicas constituídas e decorrentes de atos praticados durante sua vigência conservar-se-ão por ela regidas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra expressa do art. 62, §§ 3º e 11 da CF/88.",
-    "armadilhaBanca": "Preservação das relações jurídicas na omissão do Congresso Nacional.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"sendo editado referido decreto no prazo de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 11",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 11",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sendo editado referido decreto no prazo de",
+    "versao_errada": "Caso a medida provisória seja rejeitada pelo Congresso Nacional, caberá a este disciplinar, por decreto legislativo, as relações jurídicas dela decorrentes; não indevidamente sendo editado referido decreto no prazo de sessenta dias após a rejeição, as relações jurídicas constituídas e decorrentes de atos praticados durante sua vigência conservar-se-ão por ela regidas."
   },
   {
     "id": "m10a-q-47",
@@ -1164,17 +1256,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "É constitucional a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada expressamente pelo Congresso Nacional ou que tenha perdido sua eficácia por decurso de prazo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 62, § 10 da CF/88, é expressamente VEDADA a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada ou que tenha perdido sua eficácia por decurso de prazo.",
-    "armadilhaBanca": "Vedação peremptória de reedição de MP na mesma sessão legislativa.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 62, § 10 da CF/88, é expressamente VEDADA a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada ou que tenha perdido sua eficácia por decurso de prazo. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 10",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 10",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "tenha perdido sua eficácia por decurso de prazo",
+    "versao_correta": "É constitucional a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada expressamente pelo Congresso Nacional ou que [corretamente formatado: tenha perdido sua eficácia por decurso de prazo]."
   },
   {
     "id": "m10a-q-48",
@@ -1189,17 +1283,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A deliberação de cada uma das Casas do Congresso Nacional sobre o mérito das medidas provisórias dependerá de prévio parecer sobre a sua admissibilidade formal e constitucionalidade por comissão mista de Deputados e Senadores.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 62, § 9º da CF/88: caberá a comissão mista de Deputados e Senadores examinar as medidas provisórias e sobre elas emitir parecer.",
-    "armadilhaBanca": "Obrigatoriedade de parecer da comissão mista em MP.",
+    "justificativa": "Gabarito CERTO. Art. 62, § 9º da CF/88: caberá a comissão mista de Deputados e Senadores examinar as medidas provisórias e sobre elas emitir parecer. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 9º / STF, ADI 4.029",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 9º / STF, ADI 4.029",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "medidas provisórias dependerá de prévio parecer sobre",
+    "versao_errada": "A deliberação de cada uma das Casas do Congresso Nacional sobre o mérito das indevidamente medidas provisórias dependerá de prévio parecer sobre a sua admissibilidade formal e constitucionalidade por comissão mista de Deputados e Senadores."
   },
   {
     "id": "m10a-q-49",
@@ -1215,16 +1311,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "O Supremo Tribunal Federal firmou o entendimento de que é legítimo incluir, mediante emenda parlamentar durante a conversão de medida provisória em lei, matérias que não guardem estrita pertinência temática com o objeto originário da MP (fenômeno conhecido como \"contrabando legislativo\" ou \"jabuti\").",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O Plenário do STF, no julgamento da ADI 5.127, fixou a inconstitucionalidade material e formal da prática do \"contrabando legislativo\", vedando a inserção de emendas sem relação de pertinência temática com a medida provisória.",
-    "armadilhaBanca": "Ilicitude de jabutis / contrabando legislativo segundo o STF.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, ADI 5.127",
       "verificado": false
     },
     "fonte": "STF, ADI 5.127",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "MP (fenômeno conhecido como \"contrabando legislativo\" ou \"jabuti\")",
+    "versao_correta": "O Supremo Tribunal Federal firmou o entendimento de que é legítimo incluir, mediante emenda parlamentar durante a conversão de medida provisória em lei, matérias que não guardem estrita pertinência temática com o objeto originário da [corretamente formatado: mp (fenômeno conhecido como \"contrabando legislativo\" ou \"jabuti\")]."
   },
   {
     "id": "m10a-q-50",
@@ -1240,16 +1338,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "O controle judicial preventivo de constitucionalidade sobre proposta de emenda à constituição que viole cláusula pétrea pode ser provocado exclusivamente por parlamentar da respectiva Casa legislativa, mediante mandado de segurança perante o STF.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Jurisprudência consolidada do STF: apenas o parlamentar tem legitimidade ativa ad causam para impetrar mandado de segurança contra processo legislativo em curso que fira cláusula pétrea (direito público subjetivo ao devido processo legislativo).",
-    "armadilhaBanca": "Legitimidade ativa exclusiva de parlamentar para controle preventivo.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 20.257 e MS 24.642",
       "verificado": false
     },
     "fonte": "STF, MS 20.257 e MS 24.642",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "viole cláusula pétrea pode ser provocado exclusivamente",
+    "versao_errada": "O controle judicial preventivo de constitucionalidade sobre proposta de emenda à constituição que indevidamente viole cláusula pétrea pode ser provocado exclusivamente por parlamentar da respectiva Casa legislativa, mediante mandado de segurança perante o STF."
   },
   {
     "id": "m10a-q-51",
@@ -1264,17 +1364,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Qualquer cidadão brasileiro possui legitimidade para ajuizar Ação Direta de Inconstitucionalidade (ADI) perante o Supremo Tribunal Federal contra Emenda Constitucional promulgada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O cidadão não é legitimado universal para o controle concentrado. O rol dos legitimados para propor ADI é taxativo no art. 103 da CF/88.",
-    "armadilhaBanca": "Legitimados do art. 103 da CF/88.",
+    "justificativa": "Gabarito ERRADO. O cidadão não é legitimado universal para o controle concentrado. O rol dos legitimados para propor ADI é taxativo no art. 103 da CF/88. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 103",
       "verificado": false
     },
     "fonte": "CF/88, art. 103",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "o Supremo Tribunal Federal contra Emenda Constitucional promulgada",
+    "versao_correta": "Qualquer cidadão brasileiro possui legitimidade para ajuizar Ação Direta de Inconstitucionalidade (ADI) perante [corretamente formatado: o supremo tribunal federal contra emenda constitucional promulgada]."
   },
   {
     "id": "m10a-q-52",
@@ -1289,17 +1391,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Se uma emenda à Constituição aprovada pelo Congresso Nacional alterar substancialmente o sentido original da proposta na Casa revisora, o texto emendado deverá retornar à Casa iniciadora para nova apreciação dos pontos alterados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Princípio da bicameralidade e conformidade procedimental do art. 60, § 2º da CF/88: modificação de mérito exige reexame pela outra Casa legislativa.",
-    "armadilhaBanca": "Bicameralidade e necessidade de reexame de alterações substanciais em PEC.",
+    "justificativa": "Gabarito CERTO. Princípio da bicameralidade e conformidade procedimental do art. 60, § 2º da CF/88: modificação de mérito exige reexame pela outra Casa legislativa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, ADI 2.031 / CF/88, art. 60",
       "verificado": false
     },
     "fonte": "STF, ADI 2.031 / CF/88, art. 60",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "original da proposta na Casa revisora, o",
+    "versao_errada": "Se uma emenda à Constituição aprovada pelo Congresso Nacional alterar substancialmente o sentido indevidamente original da proposta na casa revisora, o texto emendado deverá retornar à Casa iniciadora para nova apreciação dos pontos alterados."
   },
   {
     "id": "m10a-q-53",
@@ -1315,16 +1419,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A promulgação de uma Emenda Constitucional confere a ela o mesmo patamar hierárquico das normas constitucionais originárias, não podendo, em qualquer hipótese, ser declarada inconstitucional pelo Supremo Tribunal Federal.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. As emendas constitucionais são obra do poder constituinte derivado reformador e subordinam-se aos limites formais, circunstanciais e materiais (cláusulas pétreas) da CF/88, sujeitando-se ao controle concentrado de constitucionalidade perante o STF.",
-    "armadilhaBanca": "Subordinação de emendas ao controle de constitucionalidade.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, ADI 939 / CF/88, art. 60, § 4º",
       "verificado": false
     },
     "fonte": "STF, ADI 939 / CF/88, art. 60, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ser declarada inconstitucional pelo Supremo Tribunal Federal",
+    "versao_correta": "A promulgação de uma Emenda Constitucional confere a ela o mesmo patamar hierárquico das normas constitucionais originárias, não podendo, em qualquer hipótese, [corretamente formatado: ser declarada inconstitucional pelo supremo tribunal federal]."
   },
   {
     "id": "m10a-q-54",
@@ -1339,17 +1445,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Medida provisória pode abrir crédito extraordinário para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Exceção expressa do art. 62, § 1º, I, \"d\" e art. 167, § 3º da CF/88.",
-    "armadilhaBanca": "Crédito extraordinário por MP.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a despesas imprevisíveis e urgentes, como as\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 1º, I, \\",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 1º, I, \"d\" c/c art. 167, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a despesas imprevisíveis e urgentes, como as",
+    "versao_errada": "Medida provisória pode abrir crédito extraordinário para atender indevidamente a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública."
   },
   {
     "id": "m10a-q-55",
@@ -1364,17 +1472,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O prazo de prorrogação da vigência de medida provisória por período subsequente de sessenta dias prescinde de ato formal, operando-se ope legis com o início do recesso parlamentar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A prorrogação da vigência da medida provisória por mais sessenta dias exige a expedição de ato formal declaratório pelo Presidente da Mesa do Congresso Nacional (art. 62, § 7º da CF/88).",
-    "armadilhaBanca": "Necessidade de ato da Mesa do Congresso para prorrogação de MP.",
+    "justificativa": "Gabarito ERRADO. A prorrogação da vigência da medida provisória por mais sessenta dias exige a expedição de ato formal declaratório pelo Presidente da Mesa do Congresso Nacional (art. 62, § 7º da CF/88). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 62, § 7º",
       "verificado": false
     },
     "fonte": "CF/88, art. 62, § 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "prescinde de",
+    "versao_correta": "O prazo de prorrogação da vigência de medida provisória por período subsequente de sessenta dias [corretamente formatado: prescinde de] ato formal, operando-se ope legis com o início do recesso parlamentar."
   },
   {
     "id": "m10a-q-56",
@@ -1389,17 +1499,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da administração direta e indireta será exercida pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Transcrição exata do art. 70, caput da CF/88.",
-    "armadilhaBanca": "Abrangência do controle contábil, financeiro e orçamentário.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"administração direta e indireta será exercida pelo\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 70",
       "verificado": false
     },
     "fonte": "CF/88, art. 70",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "administração direta e indireta será exercida pelo",
+    "versao_errada": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União e das entidades da indevidamente administração direta e indireta será exercida pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder."
   },
   {
     "id": "m10a-q-57",
@@ -1414,17 +1526,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O controle externo, a cargo do Congresso Nacional, será exercido com o auxílio do Tribunal de Contas da União, ao qual compete apreciar as contas prestadas anualmente pelo Presidente da República, mediante parecer prévio, que deverá ser elaborado em sessenta dias a contar de seu recebimento.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 71, I da CF/88.",
-    "armadilhaBanca": "Competência opinativa do TCU sobre contas do Presidente da República.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"qual compete apreciar as contas prestadas anualmente\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 71, I",
       "verificado": false
     },
     "fonte": "CF/88, art. 71, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "qual compete apreciar as contas prestadas anualmente",
+    "versao_errada": "O controle externo, a cargo do Congresso Nacional, será exercido com o auxílio do Tribunal de Contas da União, ao indevidamente qual compete apreciar as contas prestadas anualmente pelo Presidente da República, mediante parecer prévio, que deverá ser elaborado em sessenta dias a contar de seu recebimento."
   },
   {
     "id": "m10a-q-58",
@@ -1440,16 +1554,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "Compete ao Tribunal de Contas da União julgar e condenar criminalmente gestores públicos que cometerem atos de improbidade administrativa dolosa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O TCU não possui competência penal nem jurisdicional judicial; suas decisões têm eficácia de título executivo na esfera administrativa e financeira (art. 71, § 3º da CF/88), cabendo a condenação criminal privativamente ao Poder Judiciário.",
-    "armadilhaBanca": "Atribuição penal indevidamente imputada ao TCU.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 71 / STF",
       "verificado": false
     },
     "fonte": "CF/88, art. 71 / STF",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "públicos que cometerem atos de improbidade administrativa dolosa",
+    "versao_correta": "Compete ao Tribunal de Contas da União julgar e condenar criminalmente gestores [corretamente formatado: públicos que cometerem atos de improbidade administrativa dolosa]."
   },
   {
     "id": "m10a-q-59",
@@ -1464,17 +1580,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As comissões parlamentares de inquérito, que terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas, serão criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, mediante requerimento de um terço de seus membros, para a apuração de fato determinado e por prazo certo, sendo suas conclusões, se for o caso, encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Transcrição fiel do art. 58, § 3º da CF/88.",
-    "armadilhaBanca": "Requisitos constitucionais da CPI.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ou separadamente, mediante requerimento de um terço\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 58, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "ou separadamente, mediante requerimento de um terço",
+    "versao_errada": "As comissões parlamentares de inquérito, que terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas, serão criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto indevidamente ou separadamente, mediante requerimento de um terço de seus membros, para a apuração de fato determinado e por prazo certo, sendo suas conclusões, se for o caso, encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores."
   },
   {
     "id": "m10a-q-60",
@@ -1490,16 +1608,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A criação de CPI no âmbito da Câmara dos Deputados submete-se à aprovação soberana da maioria absoluta dos membros do Plenário, podendo a Mesa indeferir a instalação caso considere a investigação inconveniente para o governo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme jurisprudência pacífica do STF, preenchidos os requisitos constitucionais (requerimento de 1/3, fato determinado e prazo certo), a instalação da CPI é direito público subjetivo das minorias parlamentares, sendo vedado à Mesa ou à maioria do Plenário obstaculizar sua criação.",
-    "armadilhaBanca": "Direito subjetivo das minorias à instalação de CPI segundo o STF.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 24.831 e MS 26.441",
       "verificado": false
     },
     "fonte": "STF, MS 24.831 e MS 26.441",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "podendo a Mesa indeferir a instalação caso considere a investigação inconveniente para o governo",
+    "versao_correta": "A criação de CPI no âmbito da Câmara dos Deputados submete-se à aprovação soberana da maioria absoluta dos membros do Plenário, [corretamente formatado: podendo a mesa indeferir a instalação caso considere a investigação inconveniente para o governo]."
   },
   {
     "id": "m10a-q-61",
@@ -1514,17 +1634,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Com base em seus poderes instrutórios próprios de autoridades judiciais, as comissões parlamentares de inquérito podem determinar diretamente a quebra de sigilo bancário, fiscal e telefônico dos investigados, desde que por decisão fundamentada e aprovada pela maioria de seus membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O STF reconhece à CPI a prerrogativa de quebra de sigilo bancário, fiscal e telefônico (dados cadastrais e registros de ligações), desde que mediante fundamentação formal e voto colegiado.",
-    "armadilhaBanca": "Poderes instrutórios da CPI admitidos pelo STF.",
+    "justificativa": "Gabarito CERTO. O STF reconhece à CPI a prerrogativa de quebra de sigilo bancário, fiscal e telefônico (dados cadastrais e registros de ligações), desde que mediante fundamentação formal e voto colegiado. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 23.452 / CF/88, art. 58, § 3º",
       "verificado": false
     },
     "fonte": "STF, MS 23.452 / CF/88, art. 58, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "diretamente a quebra de sigilo bancário, fiscal",
+    "versao_errada": "Com base em seus poderes instrutórios próprios de autoridades judiciais, as comissões parlamentares de inquérito podem determinar indevidamente diretamente a quebra de sigilo bancário, fiscal e telefônico dos investigados, desde que por decisão fundamentada e aprovada pela maioria de seus membros."
   },
   {
     "id": "m10a-q-62",
@@ -1539,17 +1661,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As comissões parlamentares de inquérito possuem poder para decretar a interceptação telefônica (escuta telefônica do teor das conversas) e a busca e apreensão domiciliar sem necessidade de autorização judicial.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme assentado pelo STF, a interceptação da comunicação telefônica (art. 5º, XII) e a busca domiciliar (art. 5º, XI) estão sob cláusula de reserva de jurisdição, sendo vedadas à CPI e exclusivas de juiz togado.",
-    "armadilhaBanca": "Reserva de jurisdição: interceptação e busca domiciliar não podem ser ordenadas por CPI.",
+    "justificativa": "Gabarito ERRADO. Conforme assentado pelo STF, a interceptação da comunicação telefônica (art. 5º, XII) e a busca domiciliar (art. 5º, XI) estão sob cláusula de reserva de jurisdição, sendo vedadas à CPI e exclusivas de juiz togado. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 23.452 e MS 23.639",
       "verificado": false
     },
     "fonte": "STF, MS 23.452 e MS 23.639",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "e apreensão domiciliar sem necessidade de autorização judicial",
+    "versao_correta": "As comissões parlamentares de inquérito possuem poder para decretar a interceptação telefônica (escuta telefônica do teor das conversas) e a busca [corretamente formatado: e apreensão domiciliar sem necessidade de autorização judicial]."
   },
   {
     "id": "m10a-q-63",
@@ -1564,17 +1688,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As CPIs podem determinar a prisão cautelar preventiva dos investigados para assegurar a instrução dos trabalhos apuratórios parlamentares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A CPI NÃO pode decretar prisão preventiva ou temporária. A única hipótese de prisão admitida perante a CPI é a prisão em flagrante delito (como em caso de falso testemunho cometido durante a oitiva).",
-    "armadilhaBanca": "Impossibilidade de decretação de prisão cautelar por CPI.",
+    "justificativa": "Gabarito ERRADO. A CPI NÃO pode decretar prisão preventiva ou temporária. A única hipótese de prisão admitida perante a CPI é a prisão em flagrante delito (como em caso de falso testemunho cometido durante a oitiva). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, HC 71.039",
       "verificado": false
     },
     "fonte": "STF, HC 71.039",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "para assegurar a instrução dos trabalhos apuratórios parlamentares",
+    "versao_correta": "As CPIs podem determinar a prisão cautelar preventiva dos investigados [corretamente formatado: para assegurar a instrução dos trabalhos apuratórios parlamentares]."
   },
   {
     "id": "m10a-q-64",
@@ -1589,17 +1715,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Tribunal de Contas da União é integrado por nove Ministros, possuindo sede na Capital Federal, quadro próprio de pessoal e jurisdição em todo o território nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 73, caput da CF/88.",
-    "armadilhaBanca": "Composição de nove Ministros do TCU.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"Ministros, possuindo sede na Capital Federal, quadro\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 73",
       "verificado": false
     },
     "fonte": "CF/88, art. 73",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Ministros, possuindo sede na Capital Federal, quadro",
+    "versao_errada": "O Tribunal de Contas da União é integrado por nove indevidamente ministros, possuindo sede na capital federal, quadro próprio de pessoal e jurisdição em todo o território nacional."
   },
   {
     "id": "m10a-q-65",
@@ -1614,17 +1742,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os Ministros do Tribunal de Contas da União serão nomeados dentre brasileiros com mais de trinta e cinco e menos de setenta anos de idade, idoneidade moral, notórios conhecimentos e mais de dez anos de exercício de função ou de efetiva atividade profissional que exija os conhecimentos mencionados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Requisitos constitucionais do art. 73, § 1º da CF/88 (com a idade máxima de 70 anos atualizada pela EC 122/2022).",
-    "armadilhaBanca": "Requisitos etários e técnicos dos Ministros do TCU pós-EC 122/2022.",
+    "justificativa": "Gabarito CERTO. Requisitos constitucionais do art. 73, § 1º da CF/88 (com a idade máxima de 70 anos atualizada pela EC 122/2022). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 73, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "setenta anos de idade, idoneidade moral, notórios",
+    "versao_errada": "Os Ministros do Tribunal de Contas da União serão nomeados dentre brasileiros com mais de trinta e cinco e menos de indevidamente setenta anos de idade, idoneidade moral, notórios conhecimentos e mais de dez anos de exercício de função ou de efetiva atividade profissional que exija os conhecimentos mencionados."
   },
   {
     "id": "m10a-q-66",
@@ -1639,17 +1769,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A totalidade dos nove ministros integrantes do Tribunal de Contas da União decorre de indicação originária do Presidente da República, exigindo-se referendo por maioria qualificada do Senado Federal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 73, § 2º da CF/88, apenas um terço (3 ministros) é nomeado pelo Presidente da República com aprovação do Senado; dois terços (6 ministros) são escolhidos pelo Congresso Nacional.",
-    "armadilhaBanca": "Divisão de competências na escolha dos Ministros do TCU (1/3 Presidente, 2/3 Congresso).",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 73, § 2º da CF/88, apenas um terço (3 ministros) é nomeado pelo Presidente da República com aprovação do Senado; dois terços (6 ministros) são escolhidos pelo Congresso Nacional. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 73, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "exigindo-se referendo por maioria qualificada do Senado Federal",
+    "versao_correta": "A totalidade dos nove ministros integrantes do Tribunal de Contas da União decorre de indicação originária do Presidente da República, [corretamente formatado: exigindo-se referendo por maioria qualificada do senado federal]."
   },
   {
     "id": "m10a-q-67",
@@ -1664,17 +1796,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O parecer prévio emitido pelo Tribunal de Contas da União sobre as contas do Presidente da República tem caráter vinculante para o Congresso Nacional, de sorte que, opinando o TCU pela rejeição, as contas serão automaticamente desaprovadas sem necessidade de votação parlamentar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O parecer do TCU sobre as contas de governo do Presidente é meramente opinativo e de cunho técnico-político. O julgamento definitivo é ato privativo e político do Congresso Nacional (art. 49, IX e art. 71, I da CF/88).",
-    "armadilhaBanca": "Caráter não vinculante do parecer prévio do TCU.",
+    "justificativa": "Gabarito ERRADO. O parecer do TCU sobre as contas de governo do Presidente é meramente opinativo e de cunho técnico-político. O julgamento definitivo é ato privativo e político do Congresso Nacional (art. 49, IX e art. 71, I da CF/88). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 49, IX e art. 71, I",
       "verificado": false
     },
     "fonte": "CF/88, art. 49, IX e art. 71, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "as contas serão automaticamente desaprovadas sem necessidade de votação parlamentar",
+    "versao_correta": "O parecer prévio emitido pelo Tribunal de Contas da União sobre as contas do Presidente da República tem caráter vinculante para o Congresso Nacional, de sorte que, opinando o TCU pela rejeição, [corretamente formatado: as contas serão automaticamente desaprovadas sem necessidade de votação parlamentar]."
   },
   {
     "id": "m10a-q-68",
@@ -1690,16 +1824,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "No exercício do controle externo, caso o TCU verifique ilegalidade em contrato administrativo, cabe-lhe sustar diretamente a execução do contrato, sem qualquer dependência de deliberação do Congresso Nacional ou do Poder Executivo.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme o art. 71, § 1º da CF/88, no caso de contrato, o ato de sustação será adotado diretamente pelo CONGRESSO NACIONAL, que solicitará, de imediato, ao Poder Executivo as medidas cabíveis. Se o Congresso Nacional ou o Executivo não deliberar em 90 dias, aí sim o Tribunal decidirá a respeito (§ 2º).",
-    "armadilhaBanca": "Distinção entre sustação de ato (pelo TCU) e sustação de contrato (pelo Congresso Nacional).",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 71, §§ 1º e 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 71, §§ 1º e 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sem qualquer dependência de deliberação do Congresso Nacional ou do Poder Executivo",
+    "versao_correta": "No exercício do controle externo, caso o TCU verifique ilegalidade em contrato administrativo, cabe-lhe sustar diretamente a execução do contrato, [corretamente formatado: sem qualquer dependência de deliberação do congresso nacional ou do poder executivo]."
   },
   {
     "id": "m10a-q-69",
@@ -1714,17 +1850,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Transcrição literal do art. 70, parágrafo único da CF/88 (princípio republicano da prestação de contas).",
-    "armadilhaBanca": "Dever universal de prestar contas públicas.",
+    "justificativa": "Gabarito CERTO. Transcrição literal do art. 70, parágrafo único da CF/88 (princípio republicano da prestação de contas). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 70, parágrafo único",
       "verificado": false
     },
     "fonte": "CF/88, art. 70, parágrafo único",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "administre dinheiros, bens e valores públicos ou",
+    "versao_errada": "Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou indevidamente administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária."
   },
   {
     "id": "m10a-q-70",
@@ -1739,17 +1877,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra imperativa de responsabilidade solidária contida no art. 74, § 1º da CF/88.",
-    "armadilhaBanca": "Dever de comunicação e responsabilidade solidária do controle interno.",
+    "justificativa": "Gabarito CERTO. Regra imperativa de responsabilidade solidária contida no art. 74, § 1º da CF/88. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 74, § 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 74, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "irregularidade ou ilegalidade, dela darão ciência ao",
+    "versao_errada": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer indevidamente irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária."
   },
   {
     "id": "m10a-q-71",
@@ -1764,17 +1904,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante o Tribunal de Contas da União.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Garantia de controle social expressa no art. 74, § 2º da CF/88.",
-    "armadilhaBanca": "Legitimidade para denúncia perante o TCU.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"para, na forma da lei, denunciar irregularidades\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 74, § 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 74, § 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "para, na forma da lei, denunciar irregularidades",
+    "versao_errada": "Qualquer cidadão, partido político, associação ou sindicato é parte legítima indevidamente para, na forma da lei, denunciar irregularidades ou ilegalidades perante o Tribunal de Contas da União."
   },
   {
     "id": "m10a-q-72",
@@ -1789,17 +1931,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O TCU possui competência constitucional para apreciar a constitucionalidade de leis e atos do Poder Público no exercício de suas atribuições, aplicando-se a Súmula 347 do STF.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a Súmula 347 do STF: \"O Tribunal de Contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do Poder Público\".",
-    "armadilhaBanca": "Súmula 347 do STF e controle incidental de constitucionalidade pelo TCU.",
+    "justificativa": "Gabarito CERTO. Conforme a Súmula 347 do STF: \"O Tribunal de Contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do Poder Público\". Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, Súmula 347",
       "verificado": false
     },
     "fonte": "STF, Súmula 347",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "leis e atos do Poder Público no",
+    "versao_errada": "O TCU possui competência constitucional para apreciar a constitucionalidade de indevidamente leis e atos do poder público no exercício de suas atribuições, aplicando-se a Súmula 347 do STF."
   },
   {
     "id": "m10a-q-73",
@@ -1815,16 +1959,18 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "As decisões do Tribunal de Contas da União de que resulte imputação de débito oumulta terão eficácia de título executivo judicial, podendo ser executadas diretamente pelo próprio Tribunal.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. As decisões têm eficácia de título executivo EXTRAJUDICIAL (e não judicial), e a execução compete à Advocacia-Geral da União (AGU) ou entidade lesada perante o Poder Judiciário, pois o TCU não tem poder de execução judicial direta.",
-    "armadilhaBanca": "Eficácia de título executivo e impossibilidade de execução direta pelo TCU.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 71, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 71, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "podendo ser executadas diretamente pelo próprio Tribunal",
+    "versao_correta": "As decisões do Tribunal de Contas da União de que resulte imputação de débito oumulta terão eficácia de título executivo judicial, [corretamente formatado: podendo ser executadas diretamente pelo próprio tribunal]."
   },
   {
     "id": "m10a-q-74",
@@ -1839,17 +1985,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os Ministros do TCU terão as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Ministros do Superior Tribunal de Justiça.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Equiparação expressa insculpida no art. 73, § 3º da CF/88 aos Ministros do STJ.",
-    "armadilhaBanca": "Equiparação dos Ministros do TCU aos do STJ.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"garantias, prerrogativas, impedimentos, vencimentos e vantagens dos\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 73, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 73, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "garantias, prerrogativas, impedimentos, vencimentos e vantagens dos",
+    "versao_errada": "Os Ministros do TCU terão as mesmas indevidamente garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Ministros do Superior Tribunal de Justiça."
   },
   {
     "id": "m10a-q-75",
@@ -1864,17 +2012,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "As conclusões dos relatórios finais de CPIs possuem eficácia condenatória imediata e operam a suspensão automática dos direitos políticos dos parlamentares indiciados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 58, § 3º da CF/88, o relatório final da CPI não condena ninguém; ele é encaminhado ao Ministério Público ou aos órgãos competentes para que promovam a apuração da responsabilidade civil ou criminal.",
-    "armadilhaBanca": "Natureza jurídica e efeitos do relatório de CPI.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 58, § 3º da CF/88, o relatório final da CPI não condena ninguém; ele é encaminhado ao Ministério Público ou aos órgãos competentes para que promovam a apuração da responsabilidade civil ou criminal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 3º",
       "verificado": false
     },
     "fonte": "CF/88, art. 58, § 3º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "suspensão automática dos direitos políticos dos parlamentares indiciados",
+    "versao_correta": "As conclusões dos relatórios finais de CPIs possuem eficácia condenatória imediata e operam a [corretamente formatado: suspensão automática dos direitos políticos dos parlamentares indiciados]."
   },
   {
     "id": "m10a-q-76",
@@ -1889,18 +2039,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Centro de Documentação e Informação (CEDI) da Câmara dos Deputados é o órgão responsável pelo planejamento, coordenação e execução das atividades de editoração, gestão de arquivos, memória institucional e serviços bibliotecários da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estrutura regimental e administrativa da Câmara dos Deputados: o CEDI integra a Diretoria-Geral e congrega as coordenações de Arquivo, Biblioteca, Publicações e Gestão de Documentos.",
-    "armadilhaBanca": "Competências institucionais do CEDI.",
+    "justificativa": "Gabarito CERTO. Estrutura regimental e administrativa da Câmara dos Deputados: o CEDI integra a Diretoria-Geral e congrega as coordenações de Arquivo, Biblioteca, Publicações e Gestão de Documentos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971"
     },
     "fonte": "Regulamento Administrativo da Câmara dos Deputados / Resolução nº 20/1971",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "responsável pelo planejamento, coordenação e execução das",
+    "versao_errada": "O Centro de Documentação e Informação (CEDI) da Câmara dos Deputados é o órgão indevidamente responsável pelo planejamento, coordenação e execução das atividades de editoração, gestão de arquivos, memória institucional e serviços bibliotecários da Casa."
   },
   {
     "id": "m10a-q-77",
@@ -1915,17 +2067,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Portal LexML Brasil adota identificadores persistentes baseados no padrão URN (Uniform Resource Name) para estruturar a identificação inequívoca de normas jurídicas, atos regulamentares e proposições legislativas nas esferas federal, estadual e municipal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O LexML Brasil utiliza URNs LexML (conforme RFCs e padrões da IETF) para identificar documentos jurídicos de forma unívoca, persistente e independente de localização física na web.",
-    "armadilhaBanca": "Padrão URN do LexML Brasil.",
+    "justificativa": "Gabarito CERTO. O LexML Brasil utiliza URNs LexML (conforme RFCs e padrões da IETF) para identificar documentos jurídicos de forma unívoca, persistente e independente de localização física na web. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "LexML Brasil: Projeto e Especificações Técnicas / XML Schema",
       "verificado": false
     },
     "fonte": "LexML Brasil: Projeto e Especificações Técnicas / XML Schema",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Name) para estruturar a identificação inequívoca de",
+    "versao_errada": "O Portal LexML Brasil adota identificadores persistentes baseados no padrão URN (Uniform Resource indevidamente name) para estruturar a identificação inequívoca de normas jurídicas, atos regulamentares e proposições legislativas nas esferas federal, estadual e municipal."
   },
   {
     "id": "m10a-q-78",
@@ -1940,17 +2094,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "No LexML Brasil, a URN de uma lei federal expressa a data de sua aprovação em Plenário e não a data de sua promulgação oficial no Diário Oficial da União.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a sintaxe da URN LexML, a data do documento normativo é a sua data oficial de promulgação/publicação e não a data de aprovação de mérito em Plenário.",
-    "armadilhaBanca": "Regra de datação na sintaxe da URN LexML.",
+    "justificativa": "Gabarito ERRADO. Conforme a sintaxe da URN LexML, a data do documento normativo é a sua data oficial de promulgação/publicação e não a data de aprovação de mérito em Plenário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Manual de Identificadores LexML Brasil",
       "verificado": false
     },
     "fonte": "Manual de Identificadores LexML Brasil",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sua promulgação oficial no Diário Oficial da União",
+    "versao_correta": "No LexML Brasil, a URN de uma lei federal expressa a data de sua aprovação em Plenário e não a data de [corretamente formatado: sua promulgação oficial no diário oficial da união]."
   },
   {
     "id": "m10a-q-79",
@@ -1965,17 +2121,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Rede Virtual de Bibliotecas (RVBI), coordenada tecnicamente pela Biblioteca do Senado Federal com participação da Biblioteca Pedro Aleixo da Câmara dos Deputados, opera sob uma base de dados bibliográficos cooperativa e unificada.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A RVBI é uma rede de cooperação interinstitucional integrada por bibliotecas dos Poderes Legislativo, Executivo e Judiciário da esfera federal, compartilhando catalogação e acervo.",
-    "armadilhaBanca": "Estrutura cooperativa da RVBI.",
+    "justificativa": "Gabarito CERTO. A RVBI é uma rede de cooperação interinstitucional integrada por bibliotecas dos Poderes Legislativo, Executivo e Judiciário da esfera federal, compartilhando catalogação e acervo. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Rede Virtual de Bibliotecas — RVBI / Acordo de Cooperação Técnica",
       "verificado": false
     },
     "fonte": "Rede Virtual de Bibliotecas — RVBI / Acordo de Cooperação Técnica",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "com participação da Biblioteca Pedro Aleixo da",
+    "versao_errada": "A Rede Virtual de Bibliotecas (RVBI), coordenada tecnicamente pela Biblioteca do Senado Federal indevidamente com participação da biblioteca pedro aleixo da Câmara dos Deputados, opera sob uma base de dados bibliográficos cooperativa e unificada."
   },
   {
     "id": "m10a-q-80",
@@ -1990,17 +2148,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Na RVBI, cada biblioteca participante mantém registros catalográficos isolados para um mesmo título, desautorizando o aproveitamento cooperativo de metadados entre a Câmara dos Deputados e os tribunais federais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O princípio reitor da RVBI é exatamente a catalogação cooperativa em base unificada compartilhada, na qual um registro bibliográfico é gerado por uma unidade e reutilizado por todas as demais cooperadas.",
-    "armadilhaBanca": "Princípio da catalogação cooperativa em base única.",
+    "justificativa": "Gabarito ERRADO. O princípio reitor da RVBI é exatamente a catalogação cooperativa em base unificada compartilhada, na qual um registro bibliográfico é gerado por uma unidade e reutilizado por todas as demais cooperadas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Diretrizes Técnicas da RVBI",
       "verificado": false
     },
     "fonte": "Diretrizes Técnicas da RVBI",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a Câmara dos Deputados e os tribunais federais",
+    "versao_correta": "Na RVBI, cada biblioteca participante mantém registros catalográficos isolados para um mesmo título, desautorizando o aproveitamento cooperativo de metadados entre [corretamente formatado: a câmara dos deputados e os tribunais federais]."
   },
   {
     "id": "m10a-q-81",
@@ -2015,18 +2175,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca Pedro Aleixo da Câmara dos Deputados atua como biblioteca especializada na área de ciências sociais e humanas, com ênfase primordial em Direito, Ciência Política, Administração Pública e Economia.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Perfil temático oficial do acervo da Biblioteca Pedro Aleixo voltado ao suporte técnico e informacional da atividade parlamentar.",
-    "armadilhaBanca": "Vocação e escopo temático da Biblioteca da Câmara.",
+    "justificativa": "Gabarito CERTO. Perfil temático oficial do acervo da Biblioteca Pedro Aleixo voltado ao suporte técnico e informacional da atividade parlamentar. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo"
     },
     "fonte": "Portal da Câmara dos Deputados / Biblioteca Pedro Aleixo",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "na área de ciências sociais e humanas",
+    "versao_errada": "A Biblioteca Pedro Aleixo da Câmara dos Deputados atua como biblioteca especializada indevidamente na área de ciências sociais e humanas, com ênfase primordial em Direito, Ciência Política, Administração Pública e Economia."
   },
   {
     "id": "m10a-q-82",
@@ -2041,18 +2203,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O serviço de atendimento ao cidadão prestado pela Biblioteca da Câmara dos Deputados é restrito a servidores e parlamentares, sendo proibido o acesso do público externo às dependências e ao acervo da instituição.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo é aberta ao público em geral, disponibilizando serviços de consulta presencial, pesquisa legislativa e acesso a obras raras sob normas de preservação.",
-    "armadilhaBanca": "Acesso público da Biblioteca Pedro Aleixo.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo é aberta ao público em geral, disponibilizando serviços de consulta presencial, pesquisa legislativa e acesso a obras raras sob normas de preservação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados"
     },
     "fonte": "Regulamento da Biblioteca Pedro Aleixo / Câmara dos Deputados",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sendo proibido o acesso do público externo às dependências e ao acervo da instituição",
+    "versao_correta": "O serviço de atendimento ao cidadão prestado pela Biblioteca da Câmara dos Deputados é restrito a servidores e parlamentares, [corretamente formatado: sendo proibido o acesso do público externo às dependências e ao acervo da instituição]."
   },
   {
     "id": "m10a-q-83",
@@ -2067,18 +2231,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Coordenação de Arquivo da Câmara dos Deputados guarda os documentos originais das proposições legislativas, autógrafos e relatórios das comissões, cumprindo prazos de guarda e tabelas de temporalidade aprovadas institucionalmente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência arquivística do CEDI/Coordenação de Arquivo na preservação da memória documental legislativa.",
-    "armadilhaBanca": "Função de custódia e temporalidade arquivística da Câmara.",
+    "justificativa": "Gabarito CERTO. Competência arquivística do CEDI/Coordenação de Arquivo na preservação da memória documental legislativa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI"
     },
     "fonte": "Resolução da Câmara dos Deputados nº 20/1971 / CEDI",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "das proposições legislativas, autógrafos e relatórios das",
+    "versao_errada": "A Coordenação de Arquivo da Câmara dos Deputados guarda os documentos originais indevidamente das proposições legislativas, autógrafos e relatórios das comissões, cumprindo prazos de guarda e tabelas de temporalidade aprovadas institucionalmente."
   },
   {
     "id": "m10a-q-84",
@@ -2093,18 +2259,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Documentos legislativos originais que tramitaram e foram convertidos em leis federais podem ser desbastados e eliminados sumariamente pelo CEDI após decorridos cinco anos de sua vigência.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Documentos de valor histórico e probatório do processo legislativo federal são de guarda PERMANENTE, sendo inalienáveis e imprescritíveis conforme a Lei de Arquivos (Lei nº 8.159/1991).",
-    "armadilhaBanca": "Inalienabilidade e guarda permanente de documentos do processo legislativo.",
+    "justificativa": "Gabarito ERRADO. Documentos de valor histórico e probatório do processo legislativo federal são de guarda PERMANENTE, sendo inalienáveis e imprescritíveis conforme a Lei de Arquivos (Lei nº 8.159/1991). A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara"
     },
     "fonte": "Lei nº 8.159/1991 / Tabela de Temporalidade da Câmara",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "CEDI após decorridos cinco anos de sua vigência",
+    "versao_correta": "Documentos legislativos originais que tramitaram e foram convertidos em leis federais podem ser desbastados e eliminados sumariamente pelo [corretamente formatado: cedi após decorridos cinco anos de sua vigência]."
   },
   {
     "id": "m10a-q-85",
@@ -2119,18 +2287,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Lei de Acesso à Informação (Lei nº 12.527/2011) impõe à Câmara dos Deputados a divulgação ativa de dados sobre a tramitação de proposições legislativas, votações em plenário e despesas dos gabinetes parlamentares em formato aberto e legível por máquina.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Obrigações de transparência ativa do art. 8º da Lei nº 12.527/2011 c/c as políticas de dados abertos governamentais.",
-    "armadilhaBanca": "Transparência ativa e dados abertos legislativos.",
+    "justificativa": "Gabarito CERTO. Obrigações de transparência ativa do art. 8º da Lei nº 12.527/2011 c/c as políticas de dados abertos governamentais. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Lei nº 12.527/2011, art. 8º"
     },
     "fonte": "Lei nº 12.527/2011, art. 8º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de dados sobre a tramitação de proposições",
+    "versao_errada": "A Lei de Acesso à Informação (Lei nº 12.527/2011) impõe à Câmara dos Deputados a divulgação ativa indevidamente de dados sobre a tramitação de proposições legislativas, votações em plenário e despesas dos gabinetes parlamentares em formato aberto e legível por máquina."
   },
   {
     "id": "m10a-q-86",
@@ -2146,17 +2316,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "De acordo com a LAI, proposições legislativas em curso no Congresso Nacional podem ser classificadas como ultrasecretas pelos relatores com o fim de impedir o acompanhamento por organizações da sociedade civil.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A atividade legislativa rege-se pelo princípio da publicidade máxima. A classificação de sigilo na LAI é restrita a informações sensíveis à segurança do Estado e da sociedade (art. 23) e não a deliberações parlamentares ordinárias.",
-    "armadilhaBanca": "Impossibilidade de sigilo genérico em proposições legislativas.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Lei nº 12.527/2011, arts. 23 e 24"
     },
     "fonte": "Lei nº 12.527/2011, arts. 23 e 24",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "impedir o acompanhamento por organizações da sociedade civil",
+    "versao_correta": "De acordo com a LAI, proposições legislativas em curso no Congresso Nacional podem ser classificadas como ultrasecretas pelos relatores com o fim de [corretamente formatado: impedir o acompanhamento por organizações da sociedade civil]."
   },
   {
     "id": "m10a-q-87",
@@ -2171,18 +2343,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A Coordenação de Publicações da Câmara dos Deputados (Edições Câmara) é encarregada de publicar obras de interesse parlamentar, cultural, histórico e institucional, atuando de acordo com linha editorial definida por conselho específico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Estrutura e papel editorial do CEDI na difusão de literatura legislativa e clássicos da formação política e institucional do Brasil.",
-    "armadilhaBanca": "Atribuições editoriais das Edições Câmara.",
+    "justificativa": "Gabarito CERTO. Estrutura e papel editorial do CEDI na difusão de literatura legislativa e clássicos da formação política e institucional do Brasil. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Edições Câmara / Estrutura do CEDI"
     },
     "fonte": "Edições Câmara / Estrutura do CEDI",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de acordo com",
+    "versao_errada": "A Coordenação de Publicações da Câmara dos Deputados (Edições Câmara) é encarregada de publicar obras de interesse parlamentar, cultural, histórico e institucional, atuando indevidamente de acordo com linha editorial definida por conselho específico."
   },
   {
     "id": "m10a-q-88",
@@ -2197,17 +2371,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Thesaurus do Congresso Nacional (TCN) é um vocabulário controlado pós-coordenado que padroniza os termos de indexação de proposições e textos doutrinários na Câmara e no Senado, sendo incompatível com sistemas que utilizem a norma ISO 25964.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O Thesaurus do Congresso Nacional é rigorosamente estruturado de acordo com as normas internacionais de tesauros (ISO 25964 e predecessora ISO 2788), com relações de equivalência, hierarquia e associação.",
-    "armadilhaBanca": "Falsa afirmação de incompatibilidade com a norma ISO 25964.",
+    "justificativa": "Gabarito ERRADO. O Thesaurus do Congresso Nacional é rigorosamente estruturado de acordo com as normas internacionais de tesauros (ISO 25964 e predecessora ISO 2788), com relações de equivalência, hierarquia e associação. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Manual do Thesaurus do Congresso Nacional",
       "verificado": false
     },
     "fonte": "Manual do Thesaurus do Congresso Nacional",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "sendo incompatível com sistemas que utilizem a norma ISO 25964",
+    "versao_correta": "O Thesaurus do Congresso Nacional (TCN) é um vocabulário controlado pós-coordenado que padroniza os termos de indexação de proposições e textos doutrinários na Câmara e no Senado, [corretamente formatado: sendo incompatível com sistemas que utilizem a norma iso 25964]."
   },
   {
     "id": "m10a-q-89",
@@ -2222,17 +2398,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "No ecossistema de dados da Câmara dos Deputados, a indexação temática das proposições legislativas é atividade privativa de assessores políticos de bancada, dispensando a aplicação de tesauros e linguagens documentárias padronizadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A indexação é processo técnico biblioteconômico e documental exercido por analistas legislativos especializados do CEDI, utilizando vocabulários controlados estruturados para garantir a recuperação precisa das matérias.",
-    "armadilhaBanca": "Desprofissionalização indevida da indexação técnica legislativa.",
+    "justificativa": "Gabarito ERRADO. A indexação é processo técnico biblioteconômico e documental exercido por analistas legislativos especializados do CEDI, utilizando vocabulários controlados estruturados para garantir a recuperação precisa das matérias. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Regulamento do CEDI / Biblioteconomia Legislativa",
       "verificado": false
     },
     "fonte": "Regulamento do CEDI / Biblioteconomia Legislativa",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "dispensando a aplicação de tesauros e linguagens documentárias padronizadas",
+    "versao_correta": "No ecossistema de dados da Câmara dos Deputados, a indexação temática das proposições legislativas é atividade privativa de assessores políticos de bancada, [corretamente formatado: dispensando a aplicação de tesauros e linguagens documentárias padronizadas]."
   },
   {
     "id": "m10a-q-90",
@@ -2247,18 +2425,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O esquema XML de documentos do LexML Brasil estrutura o corpo dos textos legais em elementos hierárquicos como artigos, parágrafos, incisos, alíneas e itens, permitindo a identificação semântica e granular de cada dispositivo da norma.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O schema XML do LexML espelha a técnica legislativa da Lei Complementar nº 95/1998, permitindo apontamentos e citações hipertextuais em nível de parágrafo, inciso ou alínea.",
-    "armadilhaBanca": "Estruturação granular XML no padrão LexML.",
+    "justificativa": "Gabarito CERTO. O schema XML do LexML espelha a técnica legislativa da Lei Complementar nº 95/1998, permitindo apontamentos e citações hipertextuais em nível de parágrafo, inciso ou alínea. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Especificação do LexML Schema / LC 95/1998"
     },
     "fonte": "Especificação do LexML Schema / LC 95/1998",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "em elementos hierárquicos como artigos, parágrafos, incisos",
+    "versao_errada": "O esquema XML de documentos do LexML Brasil estrutura o corpo dos textos legais indevidamente em elementos hierárquicos como artigos, parágrafos, incisos, alíneas e itens, permitindo a identificação semântica e granular de cada dispositivo da norma."
   },
   {
     "id": "m10a-q-91",
@@ -2273,17 +2453,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A URN LexML de um projeto de lei em tramitação na Câmara dos Deputados permanece estática e idêntica mesmo que sejam aprovadas subemendas substitutivas que alterem integralmente o texto na comissão temática.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As especificações de URN LexML contemplam versões temporais e de estado (evento/versão), distinguindo o projeto original, substitutivos e redações finais para garantir a rastreabilidade do ciclo de vida da proposição.",
-    "armadilhaBanca": "Versionamento semântico de documentos na sintaxe URN LexML.",
+    "justificativa": "Gabarito ERRADO. As especificações de URN LexML contemplam versões temporais e de estado (evento/versão), distinguindo o projeto original, substitutivos e redações finais para garantir a rastreabilidade do ciclo de vida da proposição. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "LexML Brasil: Modelo Conceitual e Especificação de URNs",
       "verificado": false
     },
     "fonte": "LexML Brasil: Modelo Conceitual e Especificação de URNs",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "que alterem integralmente o texto na comissão temática",
+    "versao_correta": "A URN LexML de um projeto de lei em tramitação na Câmara dos Deputados permanece estática e idêntica mesmo que sejam aprovadas subemendas substitutivas [corretamente formatado: que alterem integralmente o texto na comissão temática]."
   },
   {
     "id": "m10a-q-92",
@@ -2298,18 +2480,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Diário da Câmara dos Deputados (DCD) é o veículo oficial de publicação dos atos legislativos e administrativos da Casa, cuja integridade digital e autenticidade jurídica são garantidas por assinatura digital no padrão ICP-Brasil.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Publicação oficial com fé pública e validade jurídica plena nos termos da MP 2.200-2/2001 e normas da Mesa Diretora.",
-    "armadilhaBanca": "Validade e fé pública do Diário Oficial digital com ICP-Brasil.",
+    "justificativa": "Gabarito CERTO. Publicação oficial com fé pública e validade jurídica plena nos termos da MP 2.200-2/2001 e normas da Mesa Diretora. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil"
     },
     "fonte": "Ato da Mesa da Câmara dos Deputados / ICP-Brasil",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "atos legislativos e administrativos da Casa, cuja",
+    "versao_errada": "O Diário da Câmara dos Deputados (DCD) é o veículo oficial de publicação dos indevidamente atos legislativos e administrativos da casa, cuja integridade digital e autenticidade jurídica são garantidas por assinatura digital no padrão ICP-Brasil."
   },
   {
     "id": "m10a-q-93",
@@ -2324,18 +2508,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O Sistema de Informações Legislativas da Câmara (SILEG / Portal da Legislação) permite a recuperação da legislação federal consolidada e anotada com as revogações e alterações expressas ocorridas ao longo do tempo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Serviços essenciais de consolidação e compilação textual mantidos pelo CEDI e pela Secretaria-Geral da Mesa.",
-    "armadilhaBanca": "Sistemas de compilação da legislação na Câmara.",
+    "justificativa": "Gabarito CERTO. Serviços essenciais de consolidação e compilação textual mantidos pelo CEDI e pela Secretaria-Geral da Mesa. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Portal da Câmara dos Deputados / Legislação Compilada"
     },
     "fonte": "Portal da Câmara dos Deputados / Legislação Compilada",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "a recuperação da legislação federal consolidada e",
+    "versao_errada": "O Sistema de Informações Legislativas da Câmara (SILEG / Portal da Legislação) permite indevidamente a recuperação da legislação federal consolidada e anotada com as revogações e alterações expressas ocorridas ao longo do tempo."
   },
   {
     "id": "m10a-q-94",
@@ -2351,17 +2537,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "A Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD) impede totalmente que a Câmara dos Deputados publique os nomes de deputados votantes em painel eletrônico de sessões deliberativas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Conforme a CF/88 (art. 37) e a própria LGPD (art. 4º, III e art. 7º, II e III), o princípio da publicidade e a transparência pública no exercício das funções estatais e do mandato parlamentar legitimam a divulgação das votações nominais.",
-    "armadilhaBanca": "Conflito aparente entre publicidade de mandatos públicos e LGPD.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CF/88, art. 37 / Lei 13.709/2018, art. 7º"
     },
     "fonte": "CF/88, art. 37 / Lei 13.709/2018, art. 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "deputados votantes em painel eletrônico de sessões deliberativas",
+    "versao_correta": "A Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD) impede totalmente que a Câmara dos Deputados publique os nomes de [corretamente formatado: deputados votantes em painel eletrônico de sessões deliberativas]."
   },
   {
     "id": "m10a-q-95",
@@ -2376,17 +2564,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O depósito legal na Biblioteca da Câmara dos Deputados é restrito a obras literárias de ficção escritas por autores de nacionalidade estrangeira.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O acervo da Biblioteca é constituído principalmente por publicações oficiais, periódicos legislativos, obras jurídicas, políticas e econômicas, e acervo histórico nacional.",
-    "armadilhaBanca": "Conceito absurdo de depósito legal na Biblioteca da Câmara.",
+    "justificativa": "Gabarito ERRADO. O acervo da Biblioteca é constituído principalmente por publicações oficiais, periódicos legislativos, obras jurídicas, políticas e econômicas, e acervo histórico nacional. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Regulamento da Biblioteca Pedro Aleixo",
       "verificado": false
     },
     "fonte": "Regulamento da Biblioteca Pedro Aleixo",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "de ficção escritas por autores de nacionalidade estrangeira",
+    "versao_correta": "O depósito legal na Biblioteca da Câmara dos Deputados é restrito a obras literárias [corretamente formatado: de ficção escritas por autores de nacionalidade estrangeira]."
   },
   {
     "id": "m10a-q-96",
@@ -2402,17 +2592,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "item": "É incorreto afirmar que o CEDI adota práticas de digitalização e preservação digital de seus acervos históricos em conformidade com as diretrizes do Conselho Nacional de Arquivos (CONARQ) e o Modelo de Referência OAIS (Open Archival Information System).",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Alinhamento institucional do CEDI com os padrões nacionais e internacionais de custódia e preservação digital confiável (RDC-Arq e OAIS).",
-    "armadilhaBanca": "Alinhamento arquivístico ao CONARQ e modelo OAIS.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara"
     },
     "fonte": "Resoluções do CONARQ / Diretrizes de Digitalização da Câmara",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "Modelo de Referência OAIS (Open Archival Information System)",
+    "versao_correta": "É incorreto afirmar que o CEDI adota práticas de digitalização e preservação digital de seus acervos históricos em conformidade com as diretrizes do Conselho Nacional de Arquivos (CONARQ) e o [corretamente formatado: modelo de referência oais (open archival information system)]."
   },
   {
     "id": "m10a-q-97",
@@ -2427,17 +2619,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "É incorreto afirmar que a catalogação de publicações oficiais emanadas da Mesa da Câmara dos Deputados obedece à regra de entrada principal sob o nome da jurisdição geográfica: \"BRASIL. Congresso Nacional. Câmara dos Deputados. Mesa Diretora\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Regra de catalogação governamental do AACR2 (Capítulo 24) e MARC 21 (campo 110/710) para órgãos legislativos sob jurisdição.",
-    "armadilhaBanca": "Entrada sob jurisdição para órgãos do Poder Legislativo.",
+    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Regra de catalogação governamental do AACR2 (Capítulo 24) e MARC 21 (campo 110/710) para órgãos legislativos sob jurisdição. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "AACR2, Regra 24.18 / MARC 21 Formato Bibliográfico",
       "verificado": false
     },
     "fonte": "AACR2, Regra 24.18 / MARC 21 Formato Bibliográfico",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "\"BRASIL. Congresso Nacional. Câmara dos Deputados. Mesa Diretora\"",
+    "versao_correta": "É incorreto afirmar que a catalogação de publicações oficiais emanadas da Mesa da Câmara dos Deputados obedece à regra de entrada principal sob o nome da jurisdição geográfica: [corretamente formatado: \"brasil. congresso nacional. câmara dos deputados. mesa diretora\"]."
   },
   {
     "id": "m10a-q-98",
@@ -2452,18 +2646,20 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O catálogo em linha da Biblioteca Pedro Aleixo estrutura suas bases de dados em planilhas tabulares simplificadas, prescindindo do intercâmbio bibliográfico pelo formato MARC 21 para otimizar o tempo de resposta nas consultas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo utiliza sistema automatizado de grande porte plenamente compatível com o formato MARC 21 Bibliográfico e de Autoridades, integrado à base da RVBI.",
-    "armadilhaBanca": "Inverdade sobre infraestrutura bibliográfica da Câmara.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo utiliza sistema automatizado de grande porte plenamente compatível com o formato MARC 21 Bibliográfico e de Autoridades, integrado à base da RVBI. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Diretrizes Técnicas da RVBI / Câmara dos Deputados"
     },
     "fonte": "Diretrizes Técnicas da RVBI / Câmara dos Deputados",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "para otimizar o tempo de resposta nas consultas",
+    "versao_correta": "O catálogo em linha da Biblioteca Pedro Aleixo estrutura suas bases de dados em planilhas tabulares simplificadas, prescindindo do intercâmbio bibliográfico pelo formato MARC 21 [corretamente formatado: para otimizar o tempo de resposta nas consultas]."
   },
   {
     "id": "m10a-q-99",
@@ -2478,17 +2674,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "É incorreto afirmar que o serviço de Disseminação Seletiva da Informação (DSI) oferecido aos parlamentares e suas assessorias consiste no envio automatizado e personalizado de alertas com novas proposições, atos legais, artigos de periódicos e notícias temáticas conforme perfil de interesse cadastrado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conceito e aplicação moderna do serviço de DSI prestado pela Biblioteca e pelo CEDI no contexto parlamentar.",
-    "armadilhaBanca": "Conceito e função da DSI em bibliotecas parlamentares.",
+    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conceito e aplicação moderna do serviço de DSI prestado pela Biblioteca e pelo CEDI no contexto parlamentar. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Serviços de Referência da Biblioteca Pedro Aleixo / Cunha e Cavalcanti",
       "verificado": false
     },
     "fonte": "Serviços de Referência da Biblioteca Pedro Aleixo / Cunha e Cavalcanti",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "artigos de periódicos e notícias temáticas conforme perfil de interesse cadastrado",
+    "versao_correta": "É incorreto afirmar que o serviço de Disseminação Seletiva da Informação (DSI) oferecido aos parlamentares e suas assessorias consiste no envio automatizado e personalizado de alertas com novas proposições, atos legais, [corretamente formatado: artigos de periódicos e notícias temáticas conforme perfil de interesse cadastrado]."
   },
   {
     "id": "m10a-q-100",
@@ -2503,17 +2701,19 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O CEDI é subordinado hierarquicamente ao Supremo Tribunal Federal em todas as suas deliberações sobre desbaste de documentos legislativos e organização do acervo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O CEDI é órgão interno da estrutura da Câmara dos Deputados, vinculado administrativamente à Diretoria-Geral da Câmara, integrando o Poder Legislativo e independente do Poder Judiciário.",
-    "armadilhaBanca": "Falsa subordinação interpoderes.",
+    "justificativa": "Gabarito ERRADO. O CEDI é órgão interno da estrutura da Câmara dos Deputados, vinculado administrativamente à Diretoria-Geral da Câmara, integrando o Poder Legislativo e independente do Poder Judiciário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Estrutura Administrativa da Câmara dos Deputados"
     },
     "fonte": "Estrutura Administrativa da Câmara dos Deputados",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "gatilho": "desbaste de documentos legislativos e organização do acervo",
+    "versao_correta": "O CEDI é subordinado hierarquicamente ao Supremo Tribunal Federal em todas as suas deliberações sobre [corretamente formatado: desbaste de documentos legislativos e organização do acervo]."
   }
 ];

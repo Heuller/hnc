@@ -10,13 +10,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A Tabela 1 da CDD (Subdivisões Padrão) tem a propriedade de poder ser aplicada a qualquer número das tabelas principais, a menos que haja instrução expressa em contrário no esquema.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. A Tabela 1 (Standard Subdivisions) é a única que possui aplicação universal permissiva, podendo ser adicionada a qualquer número das tabelas principais para indicar forma ou abordagem (ex.: dicionários, periódicos, métodos de pesquisa), salvo instrução proibitiva expressa.",
-    "armadilhaBanca": "Propriedade universal de aplicação da Tabela 1 da CDD.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "ser aplicada a qualquer número das tabelas",
+    "versao_errada": "A Tabela 1 da CDD (Subdivisões Padrão) tem a propriedade de poder indevidamente ser aplicada a qualquer número das tabelas principais, a menos que haja instrução expressa em contrário no esquema."
   },
   {
     "id": "m3-q-2",
@@ -26,14 +28,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A Classificação Decimal de Dewey (CDD) estrutura o conhecimento humano em dez classes principais (000 a 900) e adota o princípio da notação decimal pura composta exclusivamente por algarismos arábicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A CDD emprega notação decimal pura (algarismos arábicos de 0 a 9) e estrutura hierárquica por subordinação lógica (Dewey, 23ª ed.). Quanto mais específica a matéria, mais dígitos são adicionados após o ponto decimal.",
-    "armadilhaBanca": "Assertiva conceitual correta sobre a notação pura da CDD.",
+    "justificativa": "Gabarito CERTO. A CDD emprega notação decimal pura (algarismos arábicos de 0 a 9) e estrutura hierárquica por subordinação lógica (Dewey, 23ª ed.). Quanto mais específica a matéria, mais dígitos são adicionados após o ponto decimal. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "classes principais (000 a 900) e adota",
+    "versao_errada": "A Classificação Decimal de Dewey (CDD) estrutura o conhecimento humano em dez indevidamente classes principais (000 a 900) e adota o princípio da notação decimal pura composta exclusivamente por algarismos arábicos."
   },
   {
     "id": "m3-q-3",
@@ -43,19 +47,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
     "item": "A última edição da CDD apresenta sete tabelas auxiliares e, à exceção da primeira, que possui instruções em cada divisão de assunto, todas as notações presentes nas demais auxiliares podem ser adicionadas a qualquer notação da tabela principal.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"ser adicionadas a qualquer notação da tabela principal\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1204"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1204"
+    },
+    "gatilho": "ser adicionadas a qualquer notação da tabela principal",
+    "versao_correta": "A última edição da CDD apresenta sete tabelas auxiliares e, à exceção da primeira, que possui instruções em cada divisão de assunto, todas as notações presentes nas demais auxiliares podem [corretamente formatado: ser adicionadas a qualquer notação da tabela principal]."
   },
   {
     "id": "m3-q-4",
@@ -66,13 +72,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A CDD adota o princípio de classificação facetada pura criado por Ranganathan, prescindindo de esquemas pré-coordenados e tabelas enumerativas para compor seus números de classe.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Modelo Teórico]: A CDD é essencialmente uma classificação ENUMERATIVA e hierárquica pré-coordenada (embora apresente elementos de síntese por meio de tabelas auxiliares). A classificação facetada pura é característica da Colon Classification de Ranganathan.",
-    "armadilhaBanca": "Atribuição do modelo facetado puro de Ranganathan à CDD de Dewey.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "prescindindo de esquemas pré-coordenados e tabelas enumerativas para compor seus números de classe",
+    "versao_correta": "A CDD adota o princípio de classificação facetada pura criado por Ranganathan, [corretamente formatado: prescindindo de esquemas pré-coordenados e tabelas enumerativas para compor seus números de classe]."
   },
   {
     "id": "m3-q-5",
@@ -83,13 +91,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "O princípio mnemônico na CDD assegura que uma notação geográfica da Tabela 2 possa ser apensada diretamente a qualquer classe principal, sem necessidade de autorização expressa ou regra de derivação prévia no esquema básico.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Na CDD, a aplicação das tabelas auxiliares (com exceção parcial de subdivisões padrão da Tabela 1 sob regras estritas) NÃO é livre nem indiscriminada. As tabelas 2 a 6 só podem ser adicionadas quando houver instrução explícita de 'adicionar de' ('add from') nas tabelas principais ou em outras tabelas auxiliares autorizadas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor que a Tabela 2 pode ser adicionada livremente a qualquer classe sem instrução na tabela principal.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "sem necessidade de autorização expressa ou regra de derivação prévia no esquema básico",
+    "versao_correta": "O princípio mnemônico na CDD assegura que uma notação geográfica da Tabela 2 possa ser apensada diretamente a qualquer classe principal, [corretamente formatado: sem necessidade de autorização expressa ou regra de derivação prévia no esquema básico]."
   },
   {
     "id": "m3-q-6",
@@ -99,19 +109,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à Classificação Decimal Universal (CDU), julgue os itens subsequentes.",
     "item": "A CDU, utilizada em bibliotecas especializadas por abranger todos os ramos do conhecimento, foi proposta pelos bibliotecários Paul Otlet, Henri La Fontaine e Melvil Dewey.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"Henri La Fontaine e Melvil Dewey\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "CNJ/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1118"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "CNJ/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1118"
+    },
+    "gatilho": "Henri La Fontaine e Melvil Dewey",
+    "versao_correta": "A CDU, utilizada em bibliotecas especializadas por abranger todos os ramos do conhecimento, foi proposta pelos bibliotecários Paul Otlet, [corretamente formatado: henri la fontaine e melvil dewey]."
   },
   {
     "id": "m3-q-7",
@@ -121,19 +133,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
     "item": "Na CDD, Melvil Dewey dividiu o conhecimento em nove classes e, por julgar importante ter uma classe na qual pudessem ser inseridas as obras que tratam de todos os assuntos, como encicl enciclopédias e dicionários, ele acrescentou uma décima categoria.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"na qual pudessem ser inseridas as obras\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1213"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1213"
+    },
+    "gatilho": "na qual pudessem ser inseridas as obras",
+    "versao_errada": "Na CDD, Melvil Dewey dividiu o conhecimento em nove classes e, por julgar importante ter uma classe indevidamente na qual pudessem ser inseridas as obras que tratam de todos os assuntos, como encicl enciclopédias e dicionários, ele acrescentou uma décima categoria."
   },
   {
     "id": "m3-q-8",
@@ -143,19 +157,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
     "item": "Na CDD, entre as tabelas auxiliares comuns, a relação simples ( : ) liga dois oumais números e indica relação mútua; as relações A:B e B:A têm o mesmo valor.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"relações A:B e B:A têm o mesmo valor\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1209"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1209"
+    },
+    "gatilho": "relações A:B e B:A têm o mesmo valor",
+    "versao_correta": "Na CDD, entre as tabelas auxiliares comuns, a relação simples ( : ) liga dois oumais números e indica relação mútua; as [corretamente formatado: relações a:b e b:a têm o mesmo valor]."
   },
   {
     "id": "m3-q-9",
@@ -166,13 +182,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDD, a representação da matéria Direito Processual Penal é alocada originalmente na classe principal 100, em virtude de sua fundamentação ético-filosófica.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Classe]: O Direito e todas as suas ramificações processuais estão alocados na classe 300 (Ciências Sociais), especificamente na subclasse 340 (Direito). A classe 100 é dedicada à Filosofia e Psicologia.",
-    "armadilhaBanca": "Deslocamento indevido de ramificações do Direito para a classe de Filosofia.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "em virtude de sua fundamentação ético-filosófica",
+    "versao_correta": "Na CDD, a representação da matéria Direito Processual Penal é alocada originalmente na classe principal 100, [corretamente formatado: em virtude de sua fundamentação ético-filosófica]."
   },
   {
     "id": "m3-q-10",
@@ -183,13 +201,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Ao classificar uma obra pela CDD, havendo dúvida entre alocar o documento no assunto geral ou na aplicação específica, a regra de ouro estabelece a preferência pelo assunto geral para garantir a recuperação ampla.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Regra]: A regra de preferência na CDD estabelece que se deve classificar no assunto mais ESPECÍFICO que cubra a totalidade do documento. Se um documento trata de um assunto aplicado em uma disciplina específica, classifica-se na disciplina aplicada, e não no geral.",
-    "armadilhaBanca": "Inversão da regra canônica de especificidade da CDD.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "pelo assunto geral para garantir a recuperação ampla",
+    "versao_correta": "Ao classificar uma obra pela CDD, havendo dúvida entre alocar o documento no assunto geral ou na aplicação específica, a regra de ouro estabelece a preferência [corretamente formatado: pelo assunto geral para garantir a recuperação ampla]."
   },
   {
     "id": "m3-q-11",
@@ -199,19 +219,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
     "item": "A classificação decimal de direito (CDDir) está em sua quarta edição, mas surgiu nacionalmente em 1948, no Ministério da Fazenda, e já era utilizada em outros países.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"e já era utilizada em outros países\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1210"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1210"
+    },
+    "gatilho": "e já era utilizada em outros países",
+    "versao_correta": "A classificação decimal de direito (CDDir) está em sua quarta edição, mas surgiu nacionalmente em 1948, no Ministério da Fazenda, [corretamente formatado: e já era utilizada em outros países]."
   },
   {
     "id": "m3-q-12",
@@ -221,14 +243,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD 23ª edição, a Tabela 2 é dedicada à divisão de subdivisões para artes e literaturas individuais, enquanto a Tabela 3 destina-se a áreas geográficas, períodos históricos e biografias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A banca inverteu as funções das tabelas: a Tabela 2 cuida de Áreas Geográficas, Períodos Históricos e Biografias; a Tabela 3 cuida de Subdivisões para Literaturas e Artes Individuais.",
-    "armadilhaBanca": "Inversão deliberada entre a Tabela 2 (Geográfica) e a Tabela 3 (Literaturas).",
+    "justificativa": "Gabarito ERRADO. A banca inverteu as funções das tabelas: a Tabela 2 cuida de Áreas Geográficas, Períodos Históricos e Biografias; a Tabela 3 cuida de Subdivisões para Literaturas e Artes Individuais. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "períodos históricos e biografias",
+    "versao_correta": "Na CDD 23ª edição, a Tabela 2 é dedicada à divisão de subdivisões para artes e literaturas individuais, enquanto a Tabela 3 destina-se a áreas geográficas, [corretamente formatado: períodos históricos e biografias]."
   },
   {
     "id": "m3-q-13",
@@ -238,19 +262,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é ordenar, organizar e reunir segundo características comuns. Quanto à",
     "item": "A Classificação Decimal de Direito possui uma tabela de divisão de países baseada nas classificações de 930 a 990 CDD.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"tabela de divisão de países baseada nas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1199"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1199"
+    },
+    "gatilho": "tabela de divisão de países baseada nas",
+    "versao_errada": "A Classificação Decimal de Direito possui uma indevidamente tabela de divisão de países baseada nas classificações de 930 a 990 CDD."
   },
   {
     "id": "m3-q-14",
@@ -260,14 +286,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na CDD, a classe principal 300 é reservada para as Ciências Sociais, agrupando áreas como Sociologia, Estatística, Ciência Política, Economia, Direito e Administração Pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A classe 300 abriga as Ciências Sociais na CDD: 310 (Estatística), 320 (Ciência Política), 330 (Economia), 340 (Direito), 350 (Administração Pública), entre outras.",
-    "armadilhaBanca": "Mapeamento correto das Ciências Sociais na classe 300 da CDD.",
+    "justificativa": "Gabarito CERTO. A classe 300 abriga as Ciências Sociais na CDD: 310 (Estatística), 320 (Ciência Política), 330 (Economia), 340 (Direito), 350 (Administração Pública), entre outras. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "as Ciências Sociais, agrupando áreas como Sociologia",
+    "versao_errada": "Na CDD, a classe principal 300 é reservada para indevidamente as ciências sociais, agrupando áreas como sociologia, Estatística, Ciência Política, Economia, Direito e Administração Pública."
   },
   {
     "id": "m3-q-15",
@@ -278,13 +306,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDD, a regra do zero determina que notações que contenham o dígito zero em suas subdivisões possuem precedência analítica e preferência de escolha obrigatória sobre subdivisões iniciadas por dígitos de 1 a 9 ao classificar um assunto interdisciplinar.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Na CDD, a Regra do Zero (Rule of Zero) prescreve o inverso: subdivisões iniciadas por 1 a 9 têm preferência sobre subdivisões iniciadas por 0, a menos que haja instrução em contrário. O dígito zero introduz aspectos gerais ou subdivisões padrão, ao passo que 1 a 9 trazem aspectos específicos do assunto.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter a prioridade da Regra do Zero na CDD.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatória",
+    "versao_correta": "Na CDD, a regra do zero determina que notações que contenham o dígito zero em suas subdivisões possuem precedência analítica e preferência de escolha [corretamente formatado: obrigatória] sobre subdivisões iniciadas por dígitos de 1 a 9 ao classificar um assunto interdisciplinar."
   },
   {
     "id": "m3-q-16",
@@ -295,13 +325,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Conforme a metodologia da CDD 23ª edição, as notações das Tabelas Auxiliares (T1 a T6) podem ser utilizadas de forma isolada e autônoma na classificação de documentos.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Categórico Absoluto / Regra de Aplicação]: Na CDD, os números das Tabelas Auxiliares (T1 a T6) NUNCA podem ser utilizados isoladamente como números de classificação autônomos. Eles obrigatoriamente exigem um número-base extraído das tabelas principais ao qual serão agregados.",
-    "armadilhaBanca": "Afirmação de que tabelas auxiliares da CDD podem ser usadas isoladamente.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "forma isolada e autônoma na classificação de documentos",
+    "versao_correta": "Conforme a metodologia da CDD 23ª edição, as notações das Tabelas Auxiliares (T1 a T6) podem ser utilizadas de [corretamente formatado: forma isolada e autônoma na classificação de documentos]."
   },
   {
     "id": "m3-q-17",
@@ -311,19 +343,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
     "item": "A publicação de diversas edições da CDD ocasionou uma significativa mudança em sua estrutura, sendo que a atual em quatro volumes foi publicada pela primeira vez na vigésima edição, mas que difere quanto à organização interna na edição mais recente.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"atual em quatro volumes foi publicada pela\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1203"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1203"
+    },
+    "gatilho": "atual em quatro volumes foi publicada pela",
+    "versao_errada": "A publicação de diversas edições da CDD ocasionou uma significativa mudança em sua estrutura, sendo que a indevidamente atual em quatro volumes foi publicada pela primeira vez na vigésima edição, mas que difere quanto à organização interna na edição mais recente."
   },
   {
     "id": "m3-q-18",
@@ -334,13 +368,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A CDD 23ª edição transferiu integralmente o estudo de Ciência da Computação da classe 000 para a classe 500, a fim de unificar o tema com a Matemática Pura.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Anacronismo / Falsa Realocação]: A Ciência da Computação permanece firmemente alocada na classe 000 (004 a 006), na subclasse de Generalidades e Sistemas de Computação, refletindo seu caráter transversal interdisciplinar.",
-    "armadilhaBanca": "Falsa afirmação de migração da Ciência da Computação para a classe 500 na CDD.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "a fim de unificar o tema com a Matemática Pura",
+    "versao_correta": "A CDD 23ª edição transferiu integralmente o estudo de Ciência da Computação da classe 000 para a classe 500, [corretamente formatado: a fim de unificar o tema com a matemática pura]."
   },
   {
     "id": "m3-q-19",
@@ -350,19 +386,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
     "item": "Na atual classificação decimal de direito (CDDir), o direito do trabalho foi transferido para a cat categoria de direito privado, utilizando-se o número 342.6. O número 341.6 foi utilizado para o direito previdenciário.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"para a cat categoria de direito privado\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1211"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1211"
+    },
+    "gatilho": "para a cat categoria de direito privado",
+    "versao_errada": "Na atual classificação decimal de direito (CDDir), o direito do trabalho foi transferido indevidamente para a cat categoria de direito privado, utilizando-se o número 342.6. O número 341.6 foi utilizado para o direito previdenciário."
   },
   {
     "id": "m3-q-20",
@@ -372,14 +410,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A Tabela 5 da CDD é empregada para expressar grupos étnicos, raciais e nacionais quando o documento aborda determinado tema sob a perspectiva de uma comunidade específica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A Tabela 5 (Ethnic and National Groups) é utilizada exatamente para qualificar o assunto com a notação do grupo étnico ou nacional enfocado (ex.: negros, indígenas, imigrantes italianos).",
-    "armadilhaBanca": "Identificação correta do escopo temático da Tabela 5 da CDD.",
+    "justificativa": "Gabarito CERTO. A Tabela 5 (Ethnic and National Groups) é utilizada exatamente para qualificar o assunto com a notação do grupo étnico ou nacional enfocado (ex.: negros, indígenas, imigrantes italianos). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "étnicos, raciais e nacionais quando o documento",
+    "versao_errada": "A Tabela 5 da CDD é empregada para expressar grupos indevidamente étnicos, raciais e nacionais quando o documento aborda determinado tema sob a perspectiva de uma comunidade específica."
   },
   {
     "id": "m3-q-21",
@@ -389,11 +429,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à classificação decimal universal (CDU), julgue os itens a seguir.",
     "item": "Diferentemente da notação da classificação decimal de Dewey, a da CDU utiliza números dec decimais puros.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"a da CDU utiliza números dec decimais puros\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -401,7 +441,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303082"
-    }
+    },
+    "gatilho": "a da CDU utiliza números dec decimais puros",
+    "versao_correta": "Diferentemente da notação da classificação decimal de Dewey, [corretamente formatado: a da cdu utiliza números dec decimais puros]."
   },
   {
     "id": "m3-q-22",
@@ -411,19 +453,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é ordenar, organizar e reunir segundo características comuns. Quanto à",
     "item": "A CDD, derivada da CDU, buscou simplificar a complexidade desta, ao usar a notação numérica em vez da alfanumérica oumista.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANATEL/2009, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"ao usar a notação numérica em vez da alfanumérica oumista\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1201"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1201"
+    },
+    "gatilho": "ao usar a notação numérica em vez da alfanumérica oumista",
+    "versao_correta": "A CDD, derivada da CDU, buscou simplificar a complexidade desta, [corretamente formatado: ao usar a notação numérica em vez da alfanumérica oumista]."
   },
   {
     "id": "m3-q-23",
@@ -433,11 +477,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à classificação decimal universal (CDU), julgue os itens a seguir.",
     "item": "A estrutura de classe principal da CDU é análoga à classificação decimal de Dewey.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso BASA/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"principal da CDU é análoga à classificação\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -445,7 +489,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303079"
-    }
+    },
+    "gatilho": "principal da CDU é análoga à classificação",
+    "versao_errada": "A estrutura de classe principal da CDD é análoga à classificação decimal de Dewey."
   },
   {
     "id": "m3-q-24",
@@ -455,19 +501,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
     "item": "Entre as notas do sistema que explicam mudanças ou irregularidades nos esquemas e tabelas estão aquelas de revisões, qu e geralmente são seguidas de explicações sobre revisões completas e extensivas, não sendo este o caso na última edição da CDD.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"revisões, qu e geralmente são seguidas de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1205"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1205"
+    },
+    "gatilho": "revisões, qu e geralmente são seguidas de",
+    "versao_errada": "Entre as notas do sistema que explicam mudanças ou irregularidades nos esquemas e tabelas estão aquelas de indevidamente revisões, qu e geralmente são seguidas de explicações sobre revisões completas e extensivas, não sendo este o caso na última edição da CDD."
   },
   {
     "id": "m3-q-25",
@@ -477,14 +525,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "Na notação da CDD, um número básico completo deve ter no mínimo três dígitos; quando a notação tiver menos de três algarismos significativos, completam-se as posições vazias com zeros à direita.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Essa é a regra fundamental dos três dígitos da CDD: toda notação tem pelo menos 3 dígitos (ex.: 500 para Ciências Naturais, 510 para Matemática e 512 para Álgebra). Não existem números com menos de três cifras no esquema.",
-    "armadilhaBanca": "Regra dos três dígitos e uso do zero à direita na CDD.",
+    "justificativa": "Gabarito CERTO. Essa é a regra fundamental dos três dígitos da CDD: toda notação tem pelo menos 3 dígitos (ex.: 500 para Ciências Naturais, 510 para Matemática e 512 para Álgebra). Não existem números com menos de três cifras no esquema. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "três dígitos; quando a notação tiver menos",
+    "versao_errada": "Na notação da CDD, um número básico completo deve ter no mínimo indevidamente três dígitos; quando a notação tiver menos de três algarismos significativos, completam-se as posições vazias com zeros à direita."
   },
   {
     "id": "m3-q-26",
@@ -494,11 +544,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a linguagens documentárias, resumos e índices, julgue os itens.",
     "item": "Resumos modulares são descrições completas de conteúdos de documentos e são compostos de cinco partes: citação, anotação, resumo indicativo, resumo informativo e resumo crítico.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CNJ/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"e são compostos de cinco partes: citação\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
@@ -506,7 +556,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103207"
-    }
+    },
+    "gatilho": "e são compostos de cinco partes: citação",
+    "versao_errada": "Resumos modulares são descrições completas de conteúdos de documentos indevidamente e são compostos de cinco partes: citação, anotação, resumo indicativo, resumo informativo e resumo crítico."
   },
   {
     "id": "m3-q-27",
@@ -516,14 +568,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para expressar a relação coordenada reversível entre dois oumais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O sinal de dois pontos simples (:) na CDU indica relação simples reversível, permitindo que a ordem das notações seja invertida para gerar pontos de acesso secundários no catálogo.",
-    "armadilhaBanca": "Uso canônico do sinal de relação simples na CDU.",
+    "justificativa": "Gabarito CERTO. O sinal de dois pontos simples (:) na CDU indica relação simples reversível, permitindo que a ordem das notações seja invertida para gerar pontos de acesso secundários no catálogo. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "expressar a relação coordenada reversível entre dois",
+    "versao_errada": "Na Classificação Decimal Universal (CDU), o sinal de dois pontos simples (:) é empregado para indevidamente expressar a relação coordenada reversível entre dois oumais assuntos independentes, permitindo a inversão da ordem dos elementos na busca e na catalogação."
   },
   {
     "id": "m3-q-28",
@@ -533,19 +587,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "As tabelas auxiliares da CDU são de uso obrigatório, são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"obrigatório\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1116"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1116"
+    },
+    "gatilho": "obrigatório",
+    "versao_correta": "As tabelas auxiliares da CDU são de uso [corretamente formatado: obrigatório], são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc documento."
   },
   {
     "id": "m3-q-29",
@@ -555,19 +611,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de tesauro, julgue os itens que se seguem.",
     "item": "Quando utiliza relações conceituais distintas da relação de equivalência, o tesauro é facetado.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"o tesauro é facetado\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1098"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1098"
+    },
+    "gatilho": "o tesauro é facetado",
+    "versao_correta": "Quando utiliza relações conceituais distintas da relação de equivalência, [corretamente formatado: o tesauro é facetado]."
   },
   {
     "id": "m3-q-30",
@@ -578,13 +636,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDU, o auxiliar comum de lugar é indicado por parênteses contendo número iniciado por zero, como no formato (0...).",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Confusão de Sinais Auxiliares]: O parênteses iniciado por zero (0...) representa o AUXILIAR COMUM DE FORMA (ex.: (038) para dicionários). O auxiliar comum de LUGAR utiliza parênteses SEM zero inicial (1/9), como em (81) para Brasil.",
-    "armadilhaBanca": "Confusão clássica entre auxiliar de forma (0...) e auxiliar de lugar (...) na CDU.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "como no formato (0...)",
+    "versao_correta": "Na CDU, o auxiliar comum de lugar é indicado por parênteses contendo número iniciado por zero, [corretamente formatado: como no formato (0...)]."
   },
   {
     "id": "m3-q-31",
@@ -594,11 +654,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
     "item": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois oumais tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f i- siologia botânica, patologia botânica, ecologia botânica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"tipos de conceitos distintos (ou facetas) dentro\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -606,7 +666,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "SERPRO",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-436525"
-    }
+    },
+    "gatilho": "tipos de conceitos distintos (ou facetas) dentro",
+    "versao_errada": "Na Classificação Decimal Universal (CDU), uma classe composta é formada pela interseção de dois oumais indevidamente tipos de conceitos distintos (ou facetas) dentro da mesma classe, como, por exemplo, f i- siologia botânica, patologia botânica, ecologia botânica."
   },
   {
     "id": "m3-q-32",
@@ -616,19 +678,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
     "item": "A extensão consecutiva, cujo símbolo é uma barra oblíqua (/), une dois oumais números da CDU separados (não consecutivos) para indicar um assunto composto para o qual não existe um núm número simples. Nesse sentido, a partir da classificação abaixo mostrada, é correto afirmar que o código 643/645 corresponde à especificação A casa e equipamento doméstico. 64 Economia doméstica. Ciência doméstica 640 Tipos de lares 643 A casa 645 Mobiliário e equipamento doméstico",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"643 A casa 645 Mobiliário e equipamento doméstico\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SERPRO / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-436526",
-        "ano": 2013,
-        "orgao": "SERPRO",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "436526"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436526",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "436526"
+    },
+    "gatilho": "643 A casa 645 Mobiliário e equipamento doméstico",
+    "versao_correta": "A extensão consecutiva, cujo símbolo é uma barra oblíqua (/), une dois oumais números da CDU separados (não consecutivos) para indicar um assunto composto para o qual não existe um núm número simples. Nesse sentido, a partir da classificação abaixo mostrada, é correto afirmar que o código 643/645 corresponde à especificação A casa e equipamento doméstico. 64 Economia doméstica. Ciência doméstica 640 Tipos de lares [corretamente formatado: 643 a casa 645 mobiliário e equipamento doméstico]"
   },
   {
     "id": "m3-q-33",
@@ -638,14 +702,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na Classificação Decimal de Direito de Doris de Queiroz Carvalho, a legislação tributária brasileira e o processo tributário encontram-se estruturados no interior da subclasse 342, vinculados ao Direito Financeiro e Administrativo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na CDDir, o Direito Tributário e o Direito Financeiro são alocados no âmbito do Direito Público (subclasse 342), especificamente em subdivisões decimais dedicadas às finanças públicas e tributos.",
-    "armadilhaBanca": "Alocação do Direito Tributário na subclasse 342 da CDDir.",
+    "justificativa": "Gabarito CERTO. Na CDDir, o Direito Tributário e o Direito Financeiro são alocados no âmbito do Direito Público (subclasse 342), especificamente em subdivisões decimais dedicadas às finanças públicas e tributos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "tributária brasileira e o processo tributário encontram-se",
+    "versao_errada": "Na Classificação Decimal de Direito de Doris de Queiroz Carvalho, a legislação indevidamente tributária brasileira e o processo tributário encontram-se estruturados no interior da subclasse 342, vinculados ao Direito Financeiro e Administrativo."
   },
   {
     "id": "m3-q-34",
@@ -656,13 +722,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDU, o sinal de barra (/) é utilizado para representar a adição de dois tópicos não consecutivos, enquanto o sinal de mais (+) é empregado para indicar a extensão consecutiva de classes vizinhas.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Sinais]: A assertiva inverteu as funções! O sinal de mais (+) indica ADIÇÃO de assuntos não consecutivos; o sinal de barra (/) indica EXTENSÃO CONSECUTIVA de números contíguos (ex.: 592/599 para Zoologia sistemática).",
-    "armadilhaBanca": "Inversão das funções dos sinais de adição (+) e extensão consecutiva (/) na CDU.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "para indicar a extensão consecutiva de classes vizinhas",
+    "versao_correta": "Na CDU, o sinal de barra (/) é utilizado para representar a adição de dois tópicos não consecutivos, enquanto o sinal de mais (+) é empregado [corretamente formatado: para indicar a extensão consecutiva de classes vizinhas]."
   },
   {
     "id": "m3-q-35",
@@ -672,14 +740,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Por ter sido desenvolvida no Brasil na década de 1970, a Classificação Decimal de Direito de Doris de Queiroz Carvalho adota notação mista alfanumérica obrigatória em todas as suas classes, sendo incompatível com a notação decimal tradicional da CDD.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. [Armadilha de Falsidade Notacional]: A CDDir é DECIMAL e baseia-se exatamente na classe 340 da CDD e da CDU, preservando a notação puramente numérica decimal.",
-    "armadilhaBanca": "Afirmação de notação alfanumérica obrigatória na CDDir.",
+    "justificativa": "Gabarito ERRADO. [Armadilha de Falsidade Notacional]: A CDDir é DECIMAL e baseia-se exatamente na classe 340 da CDD e da CDU, preservando a notação puramente numérica decimal. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatória",
+    "versao_correta": "Por ter sido desenvolvida no Brasil na década de 1970, a Classificação Decimal de Direito de Doris de Queiroz Carvalho adota notação mista alfanumérica [corretamente formatado: obrigatória] em todas as suas classes, sendo incompatível com a notação decimal tradicional da CDD."
   },
   {
     "id": "m3-q-36",
@@ -690,13 +760,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDU, o apóstrofo (') atua como um auxiliar comum independente com capacidade de expressar a nacionalidade de pessoas jurídicas de direito público.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Função do Sinal]: O apóstrofo (') na CDU é um AUXILIAR ESPECIAL que desempenha função de síntese integrativa ou contração de notações afins em classes específicas (como na Química e Metalurgia). A nacionalidade ou raça é expressa pelo auxiliar comum (=...).",
-    "armadilhaBanca": "Atribuição da função de nacionalidade ao apóstrofo na CDU.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "a nacionalidade de pessoas jurídicas de direito público",
+    "versao_correta": "Na CDU, o apóstrofo (') atua como um auxiliar comum independente com capacidade de expressar [corretamente formatado: a nacionalidade de pessoas jurídicas de direito público]."
   },
   {
     "id": "m3-q-37",
@@ -706,14 +778,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O auxiliar de tempo da CDU é delimitado por aspas (\"...\"), podendo expressar datas pontuais, intervalos temporais ou períodos geológicos (ex.: \"19\" para o século XX, \"2024\" para o ano de 2024).",
-    "armadilhaBanca": "Notação de tempo delimitada por aspas na CDU.",
+    "justificativa": "Gabarito CERTO. O auxiliar de tempo da CDU é delimitado por aspas (\"...\"), podendo expressar datas pontuais, intervalos temporais ou períodos geológicos (ex.: \"19\" para o século XX, \"2024\" para o ano de 2024). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "expressar séculos, anos, meses, dias e até",
+    "versao_errada": "Na CDU, o auxiliar comum de tempo utiliza aspas duplas (\"...\"), permitindo indevidamente expressar séculos, anos, meses, dias e até estações do ano, a exemplo de \"2024\" para o ano de 2024."
   },
   {
     "id": "m3-q-38",
@@ -723,14 +797,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, consideram-se auxiliares comuns independentes aqueles que podem ser utilizados isoladamente ou no início da notação, categoria que inclui os auxiliares de lugar (1/9), tempo (\"...\"), língua (=...) e pessoas/características (-05).",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O auxiliar comum de pessoas (-05) é um auxiliar comum DEPENDENTE, que não pode figurar no início de uma notação nem ser utilizado isoladamente, devendo estar sempre afixado a um número principal da CDU.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO / INVERSAO_CANONICA: Confundir auxiliar dependente (-05) com independente.",
+    "justificativa": "Gabarito ERRADO. O auxiliar comum de pessoas (-05) é um auxiliar comum DEPENDENTE, que não pode figurar no início de uma notação nem ser utilizado isoladamente, devendo estar sempre afixado a um número principal da CDU. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "língua (=...) e pessoas/características (-05)",
+    "versao_correta": "Na CDU, consideram-se auxiliares comuns independentes aqueles que podem ser utilizados isoladamente ou no início da notação, categoria que inclui os auxiliares de lugar (1/9), tempo (\"...\"), [corretamente formatado: língua (=...) e pessoas/características (-05)]."
   },
   {
     "id": "m3-q-39",
@@ -740,14 +816,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, constitui uma adaptação sistemática do Direito Positivo Brasileiro e dos sistemas jurídicos romano-germânicos, alocando o Direito Público Constitucional e Administrativo na subclasse 342 e o Direito Processual Civil na subclasse 345.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A CDDir adapta com rigor o Direito brasileiro: 341 (Internacional), 342 (Público/Constitucional/Administrativo), 343 (Penal), 344 (Trabalho/Previdência), 345 (Processual Civil), 346 (Civil) e 347 (Comercial).",
-    "armadilhaBanca": "Estrutura precisa da CDDir de Doris de Queiroz Carvalho.",
+    "justificativa": "Gabarito CERTO. A CDDir adapta com rigor o Direito brasileiro: 341 (Internacional), 342 (Público/Constitucional/Administrativo), 343 (Penal), 344 (Trabalho/Previdência), 345 (Processual Civil), 346 (Civil) e 347 (Comercial). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "Positivo Brasileiro e dos sistemas jurídicos romano-germânicos",
+    "versao_errada": "A Classificação Decimal de Direito (CDDir), concebida por Doris de Queiroz Carvalho, constitui uma adaptação sistemática do Direito indevidamente positivo brasileiro e dos sistemas jurídicos romano-germânicos, alocando o Direito Público Constitucional e Administrativo na subclasse 342 e o Direito Processual Civil na subclasse 345."
   },
   {
     "id": "m3-q-40",
@@ -757,19 +835,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de indexação, julgue os próximos itens.",
     "item": "Quanto maior o consenso em relação aos termos utilizados para representar um documento, maior será a coerência da indexação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"aos termos utilizados para representar um documento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180970",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180970"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180970",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180970"
+    },
+    "gatilho": "aos termos utilizados para representar um documento",
+    "versao_errada": "Quanto maior o consenso em relação indevidamente aos termos utilizados para representar um documento, maior será a coerência da indexação."
   },
   {
     "id": "m3-q-41",
@@ -780,13 +860,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A classe principal 4 da CDU foi esvaziada em edições anteriores e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Uma das grandes transformações históricas da CDU foi o esvaziamento da classe 4 (antiga Filologia e Linguística), unificando esses estudos com a Literatura na classe 8 e deixando a classe 4 vaga para expansões futuras do conhecimento.",
-    "armadilhaBanca": "Fato histórico clássico sobre a classe 4 vaga da CDU.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "e seus assuntos foram transferidos para a",
+    "versao_errada": "A classe principal 4 da CDU foi esvaziada em edições anteriores indevidamente e seus assuntos foram transferidos para a classe 8 (Linguística e Literatura), encontrando-se atualmente vaga no esquema."
   },
   {
     "id": "m3-q-42",
@@ -796,19 +878,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas documentários de uma biblioteca, julgue os itens a seguir.",
     "item": "Existem padrões universalmente aceitos para a estruturação ou arquitetura de dados e informações nos registros documentais, entre eles incluem -se o padrão MARC e seus derivados, USMARC, UNIMARC, MARC 21, MARC Authoririty e OCLC.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TCDF/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TCDF/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"MARC Authoririty e OCLC\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Extrapolação de Escopo de Metadados. A banca confunde campos, formatos ou níveis de descrição bibliográfica entre padrões concorrentes de catalogação e metadados.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "TecConcursos-369843",
-        "ano": 2014,
-        "orgao": "TC DF",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1077"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "TecConcursos-369843",
+      "ano": 2014,
+      "orgao": "TC DF",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1077"
+    },
+    "gatilho": "MARC Authoririty e OCLC",
+    "versao_correta": "Existem padrões universalmente aceitos para a estruturação ou arquitetura de dados e informações nos registros documentais, entre eles incluem -se o padrão MARC e seus derivados, USMARC, UNIMARC, MARC 21, [corretamente formatado: marc authoririty e oclc]."
   },
   {
     "id": "m3-q-43",
@@ -818,19 +902,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "São dezesseis os sinais ou subdivisões auxiliares comuns da CDU, os quais se dividem em nove t tabelas — referenciadas de 1a a 1k, desconsiderando-se as tabelas 1j e 1i, que foram canceladas.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"dividem em nove t tabelas — referenciadas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1111"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1111"
+    },
+    "gatilho": "dividem em nove t tabelas — referenciadas",
+    "versao_errada": "São dezesseis os sinais ou subdivisões auxiliares comuns da CDU, os quais se indevidamente dividem em nove t tabelas — referenciadas de 1a a 1k, desconsiderando-se as tabelas 1j e 1i, que foram canceladas."
   },
   {
     "id": "m3-q-44",
@@ -841,13 +927,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. A notação da CDU é mista por excelência: algarismos arábicos, sinais matemáticos e relacionais, letras (A/Z para especificações diretas de nomes) e asterisco (*) para introduzir códigos externos (ex.: códigos ISO ou notações locais).",
-    "armadilhaBanca": "Características fundamentais da notação mista da CDU.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "latino e sinais gráficos tipográficos, além de",
+    "versao_errada": "A CDU adota notação mista porque combina algarismos arábicos com letras do alfabeto indevidamente latino e sinais gráficos tipográficos, além de admitir o uso do asterisco (*) para introduzir notações não autorizadas pelo esquema."
   },
   {
     "id": "m3-q-45",
@@ -857,19 +945,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "A atual estrutura interna da CDU a está transformando em uma verdadeira classificação enumerativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"a está transformando em uma verdadeira classificação enumerativa\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1112"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1112"
+    },
+    "gatilho": "a está transformando em uma verdadeira classificação enumerativa",
+    "versao_correta": "A atual estrutura interna da CDU [corretamente formatado: a está transformando em uma verdadeira classificação enumerativa]."
   },
   {
     "id": "m3-q-46",
@@ -880,13 +970,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na CDU, o sinal de dois pontos duplos (::) possui a mesma função semântica do sinal de adição (+), sendo empregado para unir dois conceitos independentes e indicar que o documento deve ser classificado em ambos os lugares com possibilidade de intercalação reversível.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão Relacional]: Na CDU, o sinal de dois pontos duplos (::) representa uma relação de ORDENAÇÃO FIXA e NÃO REVERSÍVEL, determinando que o segundo número qualifica o primeiro sem permissão de inversão de ordem.",
-    "armadilhaBanca": "Confusão entre relação reversível e relação de ordenação fixa (::) na CDU.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "ambos os lugares com possibilidade de intercalação reversível",
+    "versao_correta": "Na CDU, o sinal de dois pontos duplos (::) possui a mesma função semântica do sinal de adição (+), sendo empregado para unir dois conceitos independentes e indicar que o documento deve ser classificado em [corretamente formatado: ambos os lugares com possibilidade de intercalação reversível]."
   },
   {
     "id": "m3-q-47",
@@ -896,19 +988,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "A CDU é uma linguagem de indexação e de recuperação da informação registrada na qual cada assunto é simbolizado por um código que se fundamenta nos números arábicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANTT/2013.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"informação registrada na qual cada assunto é\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1115"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1115"
+    },
+    "gatilho": "informação registrada na qual cada assunto é",
+    "versao_errada": "A CDU é uma linguagem de indexação e de recuperação da indevidamente informação registrada na qual cada assunto é simbolizado por um código que se fundamenta nos números arábicos."
   },
   {
     "id": "m3-q-48",
@@ -918,11 +1012,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação às linguagens documentárias e à indexação, julgue os itens seguintes.",
     "item": "O cálculo da relação entre a capacidade de recuperar documentos úteis e a capa cidade de evitar documentos inúteis indica a medida de revocação e precisão para avaliar a qualidade da política de indexação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2015.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"cidade de evitar documentos inúteis indica a\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -930,7 +1024,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289186"
-    }
+    },
+    "gatilho": "cidade de evitar documentos inúteis indica a",
+    "versao_errada": "O cálculo da relação entre a capacidade de recuperar documentos úteis e a capa indevidamente cidade de evitar documentos inúteis indica a medida de revocação e precisão para avaliar a qualidade da política de indexação."
   },
   {
     "id": "m3-q-49",
@@ -940,19 +1036,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos aos tesauros.",
     "item": "Na criação e na manutenção de um tesauro, os diversos fenômenos da linguagem natural devem ser controlados, tais como a polissemia, em que diferentes termos representam um único conce i- to, e a homografia, em que um único termo representa mais de um conceito, sem que seja estabelecida relação semântica entre esses conceitos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"sem que seja estabelecida relação semântica entre esses conceitos\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "STM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1107"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "STM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1107"
+    },
+    "gatilho": "sem que seja estabelecida relação semântica entre esses conceitos",
+    "versao_correta": "Na criação e na manutenção de um tesauro, os diversos fenômenos da linguagem natural devem ser controlados, tais como a polissemia, em que diferentes termos representam um único conce i- to, e a homografia, em que um único termo representa mais de um conceito, [corretamente formatado: sem que seja estabelecida relação semântica entre esses conceitos]."
   },
   {
     "id": "m3-q-50",
@@ -962,14 +1060,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Classificação Decimal Universal (CDU) e da Classificação Decimal de Direito (CDDir) de Doris de Queiroz Carvalho, julgue o item subsequente.",
     "item": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme as normas da CDU, os colchetes [ ] operam como delimitadores algébricos de agrupamento complexo, indicando que a expressão interior deve ser tratada como uma unidade lógica.",
-    "armadilhaBanca": "Uso correto de colchetes algébricos na CDU.",
+    "justificativa": "Gabarito CERTO. Conforme as normas da CDU, os colchetes [ ] operam como delimitadores algébricos de agrupamento complexo, indicando que a expressão interior deve ser tratada como uma unidade lógica. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "tem por objetivo agrupar termos compostos com",
+    "versao_errada": "Na CDU, o sinal de subagrupamento representado por colchetes [ ] indevidamente tem por objetivo agrupar termos compostos com fins de ordenação ou clareza semântica, funcionando como parênteses matemáticos."
   },
   {
     "id": "m3-q-51",
@@ -980,13 +1080,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A taxa de revocação (recall) pode ser calculada dividindo-se o número de documentos pertinentes recuperados pelo número total de documentos recuperados na pesquisa.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Fórmula]: Essa é a fórmula da PRECISÃO! A Revocação é calculada dividindo-se os documentos pertinentes recuperados pelo número total de documentos pertinentes EXISTENTES NO ACERVO (recuperados ou não).",
-    "armadilhaBanca": "Inversão da fórmula de Revocação pela fórmula de Precisão.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "pelo número total de documentos recuperados na pesquisa",
+    "versao_correta": "A taxa de revocação (recall) pode ser calculada dividindo-se o número de documentos pertinentes recuperados [corretamente formatado: pelo número total de documentos recuperados na pesquisa]."
   },
   {
     "id": "m3-q-52",
@@ -996,11 +1098,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "A segunda dimensão do documento, do ponto de vista da indexação, denomina-se especificidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"do documento, do ponto de vista da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1008,7 +1110,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104032"
-    }
+    },
+    "gatilho": "do documento, do ponto de vista da",
+    "versao_errada": "A segunda dimensão indevidamente do documento, do ponto de vista da indexação, denomina-se especificidade."
   },
   {
     "id": "m3-q-53",
@@ -1018,19 +1122,21 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A coerência da indexação é dissociada da coerência intraindexadores.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"A coerência da indexação é dissociada da coerência intraindexadores.\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-929"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-929"
+    },
+    "gatilho": "A coerência da indexação é dissociada da coerência intraindexadores.",
+    "versao_correta": "[corretamente formatado: a coerência da indexação é dissociada da coerência intraindexadores.]"
   },
   {
     "id": "m3-q-54",
@@ -1040,14 +1146,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "A política de indexação de uma biblioteca deve formalizar o nível de exaustividade, o grau de especificidade dos termos, a escolha da linguagem documentária e as diretrizes de atualização de vocabulário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A política de indexação é o documento institucional que orienta as decisões dos catalogadores e indexadores, assegurando a padronização e a continuidade do tratamento temático do acervo.",
-    "armadilhaBanca": "Elementos componentes de uma política de indexação.",
+    "justificativa": "Gabarito CERTO. A política de indexação é o documento institucional que orienta as decisões dos catalogadores e indexadores, assegurando a padronização e a continuidade do tratamento temático do acervo. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "exaustividade, o grau de especificidade dos termos",
+    "versao_errada": "A política de indexação de uma biblioteca deve formalizar o nível de indevidamente exaustividade, o grau de especificidade dos termos, a escolha da linguagem documentária e as diretrizes de atualização de vocabulário."
   },
   {
     "id": "m3-q-55",
@@ -1057,16 +1165,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O resumo deve ser redigido utilizando-se o verbo na voz passiva.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"ser redigido utilizando-se o verbo na voz passiva\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-939",
-        "declaracaoLegada": "Cebraspe / 2014 / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-939",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+    },
+    "gatilho": "ser redigido utilizando-se o verbo na voz passiva",
+    "versao_correta": "O resumo deve [corretamente formatado: ser redigido utilizando-se o verbo na voz passiva]."
   },
   {
     "id": "m3-q-56",
@@ -1077,13 +1187,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A pré-coordenação na indexação consiste na combinação dos termos pelo usuário no momento da consulta por meio de operadores booleanos, sem intervenção prévia do catalogador.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Coordenação]: A combinação de termos pelo usuário na busca é PÓS-COORDENAÇÃO. Na pré-coordenação, os termos já são associados e encadeados previamente pelo indexador no momento da representação (como em cabeçalhos de assunto complexos).",
-    "armadilhaBanca": "Inversão conceitual entre pré-coordenação e pós-coordenação.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "sem intervenção prévia do catalogador",
+    "versao_correta": "A pré-coordenação na indexação consiste na combinação dos termos pelo usuário no momento da consulta por meio de operadores booleanos, [corretamente formatado: sem intervenção prévia do catalogador]."
   },
   {
     "id": "m3-q-57",
@@ -1093,11 +1205,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a resumos e índices, julgue os próximos itens.",
     "item": "No que se refere a livros, o resumo cr ítico que analisa apenas uma das edições desse tipo de obra denomina-se recensão.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"cr ítico que analisa apenas uma das\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1105,7 +1217,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165458"
-    }
+    },
+    "gatilho": "cr ítico que analisa apenas uma das",
+    "versao_errada": "No que se refere a livros, o resumo indevidamente cr ítico que analisa apenas uma das edições desse tipo de obra denomina-se recensão."
   },
   {
     "id": "m3-q-58",
@@ -1116,13 +1230,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A revogação da ABNT NBR 12676 retirou do bibliotecário brasileiro a obrigação de realizar a leitura técnica das partes componentes do documento durante a análise de assunto.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Falsa Desobrigação Técnica]: Embora a NBR 12676 tenha sido cancelada pela ABNT sem substituição formal imediata, as etapas da análise documentária (leitura de título, resumo, introdução, conclusões e cabeçalhos de seção) permanecem consagradas como boa prática profissional indiscutível na literatura internacional (Lancaster, Chaumier, Guimarães).",
-    "armadilhaBanca": "Afirmação de que o cancelamento de norma ABNT extingue princípios metodológicos da Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "componentes do documento durante a análise de assunto",
+    "versao_correta": "A revogação da ABNT NBR 12676 retirou do bibliotecário brasileiro a obrigação de realizar a leitura técnica das partes [corretamente formatado: componentes do documento durante a análise de assunto]."
   },
   {
     "id": "m3-q-59",
@@ -1132,14 +1248,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "Em sistemas de recuperação da informação, o aumento da exaustividade na indexação de um acervo — caracterizado pela atribuição de um número elevado de termos a cada documento — eleva a precisão das buscas ao restringir a recuperação de registros marginais.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A alta exaustividade faz com que mais termos sejam atribuídos aos documentos, aumentando a revocação e tendendo a reduzir a precisão em razão do ruído documentário.",
-    "armadilhaBanca": "Inversão clássica do Cebraspe entre exaustividade e precisão.",
+    "justificativa": "Gabarito ERRADO. A alta exaustividade faz com que mais termos sejam atribuídos aos documentos, aumentando a revocação e tendendo a reduzir a precisão em razão do ruído documentário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "buscas ao restringir a recuperação de registros marginais",
+    "versao_correta": "Em sistemas de recuperação da informação, o aumento da exaustividade na indexação de um acervo — caracterizado pela atribuição de um número elevado de termos a cada documento — eleva a precisão das [corretamente formatado: buscas ao restringir a recuperação de registros marginais]."
   },
   {
     "id": "m3-q-60",
@@ -1149,14 +1267,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "Em uma busca em base de dados parlamentar, caso sejam recuperados 100 documentos, dos quais 80 são pertinentes ao tema pesquisado, a taxa de precisão da estratégia de busca foi de 80%.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A fórmula da Precisão é: Documentos Pertinentes Recuperados / Total de Documentos Recuperados = 80 / 100 = 0,80 ou 80%.",
-    "armadilhaBanca": "Cálculo matemático correto da taxa de precisão.",
+    "justificativa": "Gabarito CERTO. A fórmula da Precisão é: Documentos Pertinentes Recuperados / Total de Documentos Recuperados = 80 / 100 = 0,80 ou 80%. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "dos quais 80 são pertinentes ao tema",
+    "versao_errada": "Em uma busca em base de dados parlamentar, caso sejam recuperados 100 documentos, indevidamente dos quais 80 são pertinentes ao tema pesquisado, a taxa de precisão da estratégia de busca foi de 80%."
   },
   {
     "id": "m3-q-61",
@@ -1167,13 +1287,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A especificidade na indexação refere-se à extensão com que o vocabulário controlado permite identificar exatamente o conceito abordado, sem recorrer a classes mais amplas ou termos genéricos.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Especificidade é o grau de precisão do descritor: quanto mais específico for o termo de indexação em relação ao assunto do documento, maior será a precisão na recuperação, evitando que buscas por conceitos específicos tragam documentos gerais.",
-    "armadilhaBanca": "Definição precisa do conceito de especificidade na indexação.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "vocabulário controlado permite identificar exatamente o conceito",
+    "versao_errada": "A especificidade na indexação refere-se à extensão com que o indevidamente vocabulário controlado permite identificar exatamente o conceito abordado, sem recorrer a classes mais amplas ou termos genéricos."
   },
   {
     "id": "m3-q-62",
@@ -1183,11 +1305,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "A previsibilidade da relevância e a ausência de erros estão entre os critérios utilizados para avaliação de um resumo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ausência de erros estão entre os critérios\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Paráfrase Fidedigna da Regra Técnica. O item apresenta com exatidão a formulação regulamentar, exigindo do candidato o reconhecimento dos preceitos canônicos da disciplina.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1195,7 +1317,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185266"
-    }
+    },
+    "gatilho": "ausência de erros estão entre os critérios",
+    "versao_errada": "A previsibilidade da relevância e a indevidamente ausência de erros estão entre os critérios utilizados para avaliação de um resumo."
   },
   {
     "id": "m3-q-63",
@@ -1206,13 +1330,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "A indexação por atribuição diferencia-se da indexação por extração porque, na primeira, o indexador atribui conceitos e descritores padronizados que podem não figurar literalmente nas palavras do texto original.",
     "gabarito": "C",
     "justificativa": "Gabarito CERTO. Na indexação por extração (linguagem natural), os termos são copiados literalmente do texto; na indexação por atribuição, utilizam-se termos autorizados de uma linguagem documentária, mesmo que o vocábulo exato não esteja no texto.",
-    "armadilhaBanca": "Diferença clássica entre indexação por atribuição e por extração.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "primeira, o indexador atribui conceitos e descritores",
+    "versao_errada": "A indexação por atribuição diferencia-se da indexação por extração porque, na indevidamente primeira, o indexador atribui conceitos e descritores padronizados que podem não figurar literalmente nas palavras do texto original."
   },
   {
     "id": "m3-q-64",
@@ -1222,11 +1348,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a resumos e índices, julgue os próximos itens.",
     "item": "O índice de assunto, ou índice analítico, é produto da indexação temática.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"assunto, ou índice analítico, é produto da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1234,7 +1360,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "SUFRAMA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165455"
-    }
+    },
+    "gatilho": "assunto, ou índice analítico, é produto da",
+    "versao_errada": "O índice de indevidamente assunto, ou índice analítico, é produto da indexação temática."
   },
   {
     "id": "m3-q-65",
@@ -1244,14 +1372,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O processo de indexação documentária preconizado por Lancaster é constituído fundamentalmente por duas etapas sequenciais: a análise conceitual, na qual se examina o documento e identificam-se os conceitos temáticos, e a tradução, na qual os conceitos identificados são convertidos para termos de uma linguagem documentária ou vocabulário controlado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme Lancaster (1993) e a NBR 12676, a indexação desdobra-se em: 1) Análise conceitual (determinação do assunto principal e conceitos centrais); 2) Tradução terminológica para descritores autorizados.",
-    "armadilhaBanca": "As duas etapas clássicas da indexação segundo Lancaster.",
+    "justificativa": "Gabarito CERTO. Conforme Lancaster (1993) e a NBR 12676, a indexação desdobra-se em: 1) Análise conceitual (determinação do assunto principal e conceitos centrais); 2) Tradução terminológica para descritores autorizados. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "examina o documento e identificam-se os conceitos",
+    "versao_errada": "O processo de indexação documentária preconizado por Lancaster é constituído fundamentalmente por duas etapas sequenciais: a análise conceitual, na qual se indevidamente examina o documento e identificam-se os conceitos temáticos, e a tradução, na qual os conceitos identificados são convertidos para termos de uma linguagem documentária ou vocabulário controlado."
   },
   {
     "id": "m3-q-66",
@@ -1261,11 +1391,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "A precisão consiste em requisito específico dos sistemas de busca e recuperação de informações que independe do conhecimento das necessidades e exigências dos usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"do conhecimento das necessidades e exigências dos usuários\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1273,7 +1403,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104045"
-    }
+    },
+    "gatilho": "do conhecimento das necessidades e exigências dos usuários",
+    "versao_correta": "A precisão consiste em requisito específico dos sistemas de busca e recuperação de informações que independe [corretamente formatado: do conhecimento das necessidades e exigências dos usuários]."
   },
   {
     "id": "m3-q-67",
@@ -1283,16 +1415,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A linguagem de indexação é um tipo de linguagem documentária que permite a representação do conteúdo dos documentos e das consultas de forma analítica.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"documentária que permite a representação do conteúdo\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-930",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-930",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "gatilho": "documentária que permite a representação do conteúdo",
+    "versao_errada": "A linguagem de indexação é um tipo de linguagem indevidamente documentária que permite a representação do conteúdo dos documentos e das consultas de forma analítica."
   },
   {
     "id": "m3-q-68",
@@ -1302,16 +1436,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A análise conceitual e a tradução são as principais etapas da indexação de assuntos.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"a tradução são as principais etapas da\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-932",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-932",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "gatilho": "a tradução são as principais etapas da",
+    "versao_errada": "A análise conceitual e indevidamente a tradução são as principais etapas da indexação de assuntos."
   },
   {
     "id": "m3-q-69",
@@ -1321,16 +1457,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, priorizando a avaliação crítica do indexador.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme a ABNT NBR 6028, o resumo acadêmico e técnico deve apresentar com fidelidade os pontos essenciais do documento, sem emitir juízos de valor pessoal do elaborador.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Conforme a ABNT NBR 6028, o resumo acadêmico e técnico deve apresentar com fidelidade os pontos essenciais do documento, sem emitir juízos de valor pessoal do elaborador. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-925",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-925",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    },
+    "gatilho": "priorizando a avaliação crítica do indexador",
+    "versao_correta": "O resumo documental caracteriza-se como síntese panorâmica que desconsidera correspondência fidedigna com os argumentos centrais do texto original, [corretamente formatado: priorizando a avaliação crítica do indexador]."
   },
   {
     "id": "m3-q-70",
@@ -1341,13 +1479,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Segundo Lancaster, a introdução de vocabulários controlados com estrutura hierárquica elimina integralmente o erro humano e garante 100% de consistência entre diferentes indexadores.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Categórico Absoluto]: Nenhum vocabulário controlado garante 100% de consistência. Diversos estudos experimentais de Lancaster demonstraram que a consistência média entre indexadores humanos em bibliotecas e bases de dados raramente ultrapassa 50% a 60%.",
-    "armadilhaBanca": "Afirmação de eliminação integral de inconsistências por vocabulário controlado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "e garante 100% de consistência entre diferentes indexadores",
+    "versao_correta": "Segundo Lancaster, a introdução de vocabulários controlados com estrutura hierárquica elimina integralmente o erro humano [corretamente formatado: e garante 100% de consistência entre diferentes indexadores]."
   },
   {
     "id": "m3-q-71",
@@ -1357,11 +1497,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "Todos os resumos críticos redigidos por especialistas são chamados de recensão.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"críticos redigidos por especialistas são chamados de recensão\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1369,7 +1509,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185274"
-    }
+    },
+    "gatilho": "críticos redigidos por especialistas são chamados de recensão",
+    "versao_correta": "Todos os resumos [corretamente formatado: críticos redigidos por especialistas são chamados de recensão]."
   },
   {
     "id": "m3-q-72",
@@ -1379,14 +1521,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O ruído na recuperação da informação é caracterizado pela presença de documentos irrelevantes no conjunto de respostas fornecido pelo sistema a uma determinada consulta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Ruído (Noise) é a recuperação de itens irrelevantes em relação à necessidade de informação do usuário, sendo o inverso da precisão.",
-    "armadilhaBanca": "Conceito oficial de ruído em sistemas de recuperação.",
+    "justificativa": "Gabarito CERTO. Ruído (Noise) é a recuperação de itens irrelevantes em relação à necessidade de informação do usuário, sendo o inverso da precisão. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "presença de documentos irrelevantes no conjunto de",
+    "versao_errada": "O ruído na recuperação da informação é caracterizado pela indevidamente presença de documentos irrelevantes no conjunto de respostas fornecido pelo sistema a uma determinada consulta."
   },
   {
     "id": "m3-q-73",
@@ -1396,14 +1540,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da análise documentária, dos processos de indexação e das métricas de recuperação segundo Lancaster e a ABNT NBR 12676, julgue o item subsequente.",
     "item": "O silêncio na recuperação da informação ocorre quando o sistema não recupera documentos relevantes existentes no acervo que atenderiam à necessidade do usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Silêncio (Silence) decorre da perda de documentos pertinentes que estavam na base mas não foram recuperados pela estratégia de busca, afetando a taxa de revocação.",
-    "armadilhaBanca": "Conceito oficial de silêncio na recuperação de informações.",
+    "justificativa": "Gabarito CERTO. Silêncio (Silence) decorre da perda de documentos pertinentes que estavam na base mas não foram recuperados pela estratégia de busca, afetando a taxa de revocação. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "o sistema não recupera documentos relevantes existentes",
+    "versao_errada": "O silêncio na recuperação da informação ocorre quando indevidamente o sistema não recupera documentos relevantes existentes no acervo que atenderiam à necessidade do usuário."
   },
   {
     "id": "m3-q-74",
@@ -1413,11 +1559,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "Ao recuperar três itens que correspondem à pesquisa de um total de oito itens úteis, chega -se ao índice denominado coeficiente de precisão.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"chega -se ao índice denominado coeficiente de precisão\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1425,7 +1571,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185267"
-    }
+    },
+    "gatilho": "chega -se ao índice denominado coeficiente de precisão",
+    "versao_correta": "Ao recuperar três itens que correspondem à pesquisa de um total de oito itens úteis, [corretamente formatado: chega -se ao índice denominado coeficiente de precisão]."
   },
   {
     "id": "m3-q-75",
@@ -1436,13 +1584,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "De acordo com a teoria clássica da indexação de Lancaster, uma alta consistência entre indexadores é garantia necessária e suficiente de alta qualidade intrínseca e exatidão da representação temática do documento.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Lancaster adverte categoricamente que consistência NÃO se confunde com qualidade nem com exatidão da indexação. Dois oumais indexadores podem ser altamente consistentes ao escolherem exatamente o mesmo termo incorreto ou inadequado. A consistência mede apenas o nível de concordância, não a qualidade.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Confundir consistência com qualidade ou exatidão na indexação documentária.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "intrínseca e exatidão da representação temática do documento",
+    "versao_correta": "De acordo com a teoria clássica da indexação de Lancaster, uma alta consistência entre indexadores é garantia necessária e suficiente de alta qualidade [corretamente formatado: intrínseca e exatidão da representação temática do documento]."
   },
   {
     "id": "m3-q-76",
@@ -1452,14 +1602,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Em um tesauro documentário estruturado conforme as normas internacionais, a relação hierárquica entre um Termo Geral (TG) e um Termo Específico (TE) reflete uma relação intrínseca do tipo gênero-espécie ou todo-parte, devendo ser simétrica e recíproca.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme a ISO 25964 e Gomes & Campos, a relação hierárquica (TG/TE) é estritamente simétrica e recíproca: se o conceito A é Termo Geral (TG) de B, obrigatoriamente o conceito B deve figurar como Termo Específico (TE) de A.",
-    "armadilhaBanca": "Reciprocidade estrutural das relações em tesauros.",
+    "justificativa": "Gabarito CERTO. Conforme a ISO 25964 e Gomes & Campos, a relação hierárquica (TG/TE) é estritamente simétrica e recíproca: se o conceito A é Termo Geral (TG) de B, obrigatoriamente o conceito B deve figurar como Termo Específico (TE) de A. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "Geral (TG) e um Termo Específico (TE)",
+    "versao_errada": "Em um tesauro documentário estruturado conforme as normas internacionais, a relação hierárquica entre um Termo indevidamente geral (tg) e um termo específico (te) reflete uma relação intrínseca do tipo gênero-espécie ou todo-parte, devendo ser simétrica e recíproca."
   },
   {
     "id": "m3-q-77",
@@ -1469,11 +1621,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os seguintes itens, relativos a representação temática de recursos infor -",
     "item": "A representação temática permite a individualização do documento por meio da padronização dos pontos de acesso.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"por meio da padronização dos pontos de acesso\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2018",
@@ -1481,7 +1633,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-624214"
-    }
+    },
+    "gatilho": "por meio da padronização dos pontos de acesso",
+    "versao_correta": "A representação temática permite a individualização do documento [corretamente formatado: por meio da padronização dos pontos de acesso]."
   },
   {
     "id": "m3-q-78",
@@ -1491,14 +1645,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Nos tesauros documentários, a relação de equivalência entre descritores autorizados e formas não preferidas é formalizada pelo operador Termo Relacionado (TR), indicando correlação conceitual associativa entre as entradas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A relação de equivalência é expressa pelos operadores USE e UP (Usado Para). O operador TR formaliza a relação associativa entre conceitos afins.",
-    "armadilhaBanca": "Confusão deliberada entre relação de equivalência (USE/UP) e associativa (TR).",
+    "justificativa": "Gabarito ERRADO. A relação de equivalência é expressa pelos operadores USE e UP (Usado Para). O operador TR formaliza a relação associativa entre conceitos afins. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "indicando correlação conceitual associativa entre as entradas",
+    "versao_correta": "Nos tesauros documentários, a relação de equivalência entre descritores autorizados e formas não preferidas é formalizada pelo operador Termo Relacionado (TR), [corretamente formatado: indicando correlação conceitual associativa entre as entradas]."
   },
   {
     "id": "m3-q-79",
@@ -1508,11 +1664,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "Cobertura, intencionalidade, recuperabilidade e confidenciabilidade são os critérios utilizados para avaliação de uma base de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"recuperabilidade e confidenciabilidade são os critérios utilizados para avaliação de uma base de dados\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1520,7 +1676,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185269"
-    }
+    },
+    "gatilho": "recuperabilidade e confidenciabilidade são os critérios utilizados para avaliação de uma base de dados",
+    "versao_correta": "Cobertura, intencionalidade, [corretamente formatado: recuperabilidade e confidenciabilidade são os critérios utilizados para avaliação de uma base de dados]."
   },
   {
     "id": "m3-q-80",
@@ -1530,14 +1688,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "O formato SKOS (Simple Knowledge Organization System), baseado nos padrões do W3C, é incompatível com a representação de tesauros e vocabulários controlados na Web Semântica.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. [Armadilha de Falsidade Tecnológica]: O SKOS é EXATAMENTE o padrão internacional do W3C projetado especificamente para expressar tesauros, esquemas de classificação e cabeçalhos de assunto em RDF na Web Semântica.",
-    "armadilhaBanca": "Afirmação de incompatibilidade do formato SKOS com tesauros na Web Semântica.",
+    "justificativa": "Gabarito ERRADO. [Armadilha de Falsidade Tecnológica]: O SKOS é EXATAMENTE o padrão internacional do W3C projetado especificamente para expressar tesauros, esquemas de classificação e cabeçalhos de assunto em RDF na Web Semântica. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "é incompatível com a representação de tesauros e vocabulários controlados na Web Semântica",
+    "versao_correta": "O formato SKOS (Simple Knowledge Organization System), baseado nos padrões do W3C, [corretamente formatado: é incompatível com a representação de tesauros e vocabulários controlados na web semântica]."
   },
   {
     "id": "m3-q-81",
@@ -1547,14 +1707,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "A relação associativa em um tesauro, expressa pelo operador Termo Relacionado (TR), é simétrica e estabelece conexões entre termos que não mantêm relação hierárquica nem de equivalência, mas compartilham proximidade conceitual ou pragmática.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Se o termo A tem relação associativa com o termo B (A TR B), reciprocamente B deve apresentar A como termo relacionado (B TR A), sinalizando afinidade de contexto (ex.: Enfermagem TR Hospital).",
-    "armadilhaBanca": "Definição canônica e simetria da relação associativa (TR).",
+    "justificativa": "Gabarito CERTO. Se o termo A tem relação associativa com o termo B (A TR B), reciprocamente B deve apresentar A como termo relacionado (B TR A), sinalizando afinidade de contexto (ex.: Enfermagem TR Hospital). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "simétrica e estabelece conexões entre termos que",
+    "versao_errada": "A relação associativa em um tesauro, expressa pelo operador Termo Relacionado (TR), é indevidamente simétrica e estabelece conexões entre termos que não mantêm relação hierárquica nem de equivalência, mas compartilham proximidade conceitual ou pragmática."
   },
   {
     "id": "m3-q-82",
@@ -1564,16 +1726,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "A prática do indexador, associada ao conhecimento das demandas e necessidades de informação dos usuários, é um procedimento utilizado para agiliza r o trabalho de análise document á- ria.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"de informação dos usuários, é um procedimento\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-933",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-933",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "gatilho": "de informação dos usuários, é um procedimento",
+    "versao_errada": "A prática do indexador, associada ao conhecimento das demandas e necessidades indevidamente de informação dos usuários, é um procedimento utilizado para agiliza r o trabalho de análise document á- ria."
   },
   {
     "id": "m3-q-83",
@@ -1583,15 +1747,17 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "Por meio da ferramenta de mineração de textos é possível realizar a sumarização de um conjunto de documentos em agrupamentos e apresentá -los sob a forma de gráficos indicativos das relações semânticas dos termos que os compõem.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"conjunto de documentos em agrupamentos e apresentá\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "declaracaoLegada": "Cebraspe / STJ / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "declaracaoLegada": "Cebraspe / STJ / 2012"
+    },
+    "gatilho": "conjunto de documentos em agrupamentos e apresentá",
+    "versao_errada": "Por meio da ferramenta de mineração de textos é possível realizar a sumarização de um indevidamente conjunto de documentos em agrupamentos e apresentá -los sob a forma de gráficos indicativos das relações semânticas dos termos que os compõem."
   },
   {
     "id": "m3-q-84",
@@ -1601,14 +1767,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "As notas de escopo (NE) em tesauros documentários concentram-se na indicação da raiz etimológica e da evolução filológica dos termos, afastando orientações pragmáticas sobre o uso do descritor na indexação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Nota de Escopo (NE) serve precisamente para delimitar e esclarecer o significado e o alcance de aplicação prática do descritor naquele sistema documentário.",
-    "armadilhaBanca": "Falsa restrição da nota de escopo à etimologia de palavras.",
+    "justificativa": "Gabarito ERRADO. A Nota de Escopo (NE) serve precisamente para delimitar e esclarecer o significado e o alcance de aplicação prática do descritor naquele sistema documentário. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "afastando orientações pragmáticas sobre o uso do descritor na indexação",
+    "versao_correta": "As notas de escopo (NE) em tesauros documentários concentram-se na indicação da raiz etimológica e da evolução filológica dos termos, [corretamente formatado: afastando orientações pragmáticas sobre o uso do descritor na indexação]."
   },
   {
     "id": "m3-q-85",
@@ -1618,16 +1786,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A cobertura do índice deve abranger todo o documento, inclusive as notas, os apêndices e os anexos.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"abranger todo o documento, inclusive as notas\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Apreensão Fidedigna de Autoria. O candidato pode hesitar quanto à distinção entre autor e alheio, mas a assertiva reproduz a definição correta da norma.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-938",
-        "declaracaoLegada": "Cebraspe / 2014 / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-938",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+    },
+    "gatilho": "abranger todo o documento, inclusive as notas",
+    "versao_errada": "A cobertura do índice deve indevidamente abranger todo o documento, inclusive as notas, os apêndices e os anexos."
   },
   {
     "id": "m3-q-86",
@@ -1637,14 +1807,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "A linguagem documentária artificial da CDU é classificada como uma linguagem pós-coordenada pura, pois não prevê classes prontas ou tabelas enumerativas para indexação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. [Armadilha de Classificação Teórica]: A CDU é pré-coordenada e analítico-sintética, contendo tabelas principais com milhares de classes conceituais já enumeradas e estruturadas.",
-    "armadilhaBanca": "Classificação errônea da CDU como pós-coordenada pura.",
+    "justificativa": "Gabarito ERRADO. [Armadilha de Classificação Teórica]: A CDU é pré-coordenada e analítico-sintética, contendo tabelas principais com milhares de classes conceituais já enumeradas e estruturadas. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
+    "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "pois não prevê classes prontas ou tabelas enumerativas para indexação",
+    "versao_correta": "A linguagem documentária artificial da CDU é classificada como uma linguagem pós-coordenada pura, pois prevê classes prontas ou tabelas enumerativas para indexação."
   },
   {
     "id": "m3-q-87",
@@ -1654,11 +1826,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos à indexação.",
     "item": "A leitura documentária diferencia -se da leitura comum quanto ao contexto sociocognitivo do indexador, o qual não é relevante naquele tipo de leitura, dada a sua natureza.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"dada a sua natureza\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -1666,7 +1838,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "MPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-228966"
-    }
+    },
+    "gatilho": "dada a sua natureza",
+    "versao_correta": "A leitura documentária diferencia -se da leitura comum quanto ao contexto sociocognitivo do indexador, o qual não é relevante naquele tipo de leitura, [corretamente formatado: dada a sua natureza]."
   },
   {
     "id": "m3-q-88",
@@ -1676,16 +1850,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "A indicação textual do índice deve ser específica, como, por exemplo, índice de assunt os ou índice onomástico.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"ser específica, como, por exemplo, índice de\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-940",
-        "declaracaoLegada": "Cebraspe / 2014 / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-940",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+    },
+    "gatilho": "ser específica, como, por exemplo, índice de",
+    "versao_errada": "A indicação textual do índice deve indevidamente ser específica, como, por exemplo, índice de assunt os ou índice onomástico."
   },
   {
     "id": "m3-q-89",
@@ -1695,11 +1871,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "Coerência intraindexador refere-se à concordância entre diferentes indexadores, e a coerência interindexadores refere -se à extensão com que determinado indexador é coer ente consigo mesmo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"que determinado indexador é coer ente consigo mesmo\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1707,7 +1883,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104031"
-    }
+    },
+    "gatilho": "que determinado indexador é coer ente consigo mesmo",
+    "versao_correta": "Coerência intraindexador refere-se à concordância entre diferentes indexadores, e a coerência interindexadores refere -se à extensão com [corretamente formatado: que determinado indexador é coer ente consigo mesmo]."
   },
   {
     "id": "m3-q-90",
@@ -1717,14 +1895,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "A estrutura de um tesauro funcional para a área jurídica e legislativa deve prever controle de homógrafos por meio de qualificadores entre parênteses, a exemplo de \"Mandato (Direito Político)\" e \"Mandato (Direito Civil)\".",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os qualificadores entre parênteses são elementos de desambiguação semântica indispensáveis em linguagens documentárias para diferenciar homógrafos e homônimos em domínios correlatos.",
-    "armadilhaBanca": "Desambiguação de homógrafos via qualificadores em tesauros.",
+    "justificativa": "Gabarito CERTO. Os qualificadores entre parênteses são elementos de desambiguação semântica indispensáveis em linguagens documentárias para diferenciar homógrafos e homônimos em domínios correlatos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "por meio de",
+    "versao_errada": "A estrutura de um tesauro funcional para a área jurídica e legislativa deve prever controle de homógrafos indevidamente por meio de qualificadores entre parênteses, a exemplo de \"Mandato (Direito Político)\" e \"Mandato (Direito Civil)\"."
   },
   {
     "id": "m3-q-91",
@@ -1734,14 +1914,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Em um tesauro documentário, admite-se que um único descritor seja vinculado como Termo Específico (TE) de dois oumais Termos Gerais distintos, fenômeno técnico denominado poli-hierarquia.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A poli-hierarquia ocorre quando um conceito pertence legitimamente a mais de uma categoria lógica simultaneamente (ex.: \"Óptica\" como TE de \"Física\" e TE de \"Oftalmologia\").",
-    "armadilhaBanca": "Conceito e admissibilidade de poli-hierarquia em tesauros.",
+    "justificativa": "Gabarito CERTO. A poli-hierarquia ocorre quando um conceito pertence legitimamente a mais de uma categoria lógica simultaneamente (ex.: \"Óptica\" como TE de \"Física\" e TE de \"Oftalmologia\"). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "seja vinculado como Termo Específico (TE) de",
+    "versao_errada": "Em um tesauro documentário, admite-se que um único descritor indevidamente seja vinculado como termo específico (te) de dois oumais Termos Gerais distintos, fenômeno técnico denominado poli-hierarquia."
   },
   {
     "id": "m3-q-92",
@@ -1751,11 +1933,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de indexação de documentos, julgue os próximos itens.",
     "item": "O descritor, por ser um elemento da linguagem natural, pode ser empregado para se representar um texto em sistemas de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"pode ser empregado para se representar um texto em sistemas de informação\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1763,7 +1945,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104043"
-    }
+    },
+    "gatilho": "pode ser empregado para se representar um texto em sistemas de informação",
+    "versao_correta": "O descritor, por ser um elemento da linguagem natural, [corretamente formatado: pode ser empregado para se representar um texto em sistemas de informação]."
   },
   {
     "id": "m3-q-93",
@@ -1773,14 +1957,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Uma lista de cabeçalhos de assunto tradicional caracteriza-se por adotar termos compostos pré-coordenados estruturados com subdivisões de forma, assunto, geográfica e cronológica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Cabeçalhos de assunto (como os da Library of Congress) operam sob forte pré-coordenação com subdivisões sintáticas canônicas (ex.: Brasil - História - Império, 1822-1889 - Dicionários).",
-    "armadilhaBanca": "Estrutura pré-coordenada clássica das listas de cabeçalhos de assunto.",
+    "justificativa": "Gabarito CERTO. Cabeçalhos de assunto (como os da Library of Congress) operam sob forte pré-coordenação com subdivisões sintáticas canônicas (ex.: Brasil - História - Império, 1822-1889 - Dicionários). Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "por adotar termos compostos pré-coordenados estruturados com",
+    "versao_errada": "Uma lista de cabeçalhos de assunto tradicional caracteriza-se indevidamente por adotar termos compostos pré-coordenados estruturados com subdivisões de forma, assunto, geográfica e cronológica."
   },
   {
     "id": "m3-q-94",
@@ -1790,16 +1976,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos conceitos de índices e resumos, julgue os próximos itens.",
     "item": "O índice pode complementar informações não expressas no documento",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"índice pode complementar informações não expressas no\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-941",
-        "declaracaoLegada": "Cebraspe / 2014 / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-941",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+    },
+    "gatilho": "índice pode complementar informações não expressas no",
+    "versao_errada": "O indevidamente índice pode complementar informações não expressas no documento"
   },
   {
     "id": "m3-q-95",
@@ -1809,11 +1997,11 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à indexação, julgue os itens subsecutivos.",
     "item": "O vocabulário controlado, que é uma lista de termos autorizados para o indexador, possui estrutura semântica para diferenciar homógrafos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"lista de termos autorizados para o indexador\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no concurso da Câmara dos Deputados para a área de Biblioteconomia.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1821,7 +2009,9 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185268"
-    }
+    },
+    "gatilho": "lista de termos autorizados para o indexador",
+    "versao_errada": "O vocabulário controlado, que é uma indevidamente lista de termos autorizados para o indexador, possui estrutura semântica para diferenciar homógrafos."
   },
   {
     "id": "m3-q-96",
@@ -1832,13 +2022,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Na elaboração de tesauros documentários, os descritores compostos (termos polipalavrais) devem ser evitados em qualquer circunstância, sendo obrigatório decompor todo conceito em termos unipalavrais isolados.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. [Armadilha de Categórico Absoluto]: Termos polipalavrais (compostos) são amplamente admitidos e necessários quando representam um conceito unitário estabelecido na literatura (ex.: \"Processo Legislativo\", \"Direito Constitucional\", \"Inteligência Artificial\"), evitando ambiguidades da decomposição forçada.",
-    "armadilhaBanca": "Afirmação de proibição absoluta de termos compostos em tesauros.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "obrigatório",
+    "versao_correta": "Na elaboração de tesauros documentários, os descritores compostos (termos polipalavrais) devem ser evitados em qualquer circunstância, sendo [corretamente formatado: obrigatório] decompor todo conceito em termos unipalavrais isolados."
   },
   {
     "id": "m3-q-97",
@@ -1849,13 +2041,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "item": "Nos tesauros documentários, a relação de equivalência expressa pelos operadores USE e UP (Usado Para) constitui uma relação puramente simétrica, de modo que ambos os termos possuem o mesmo status de autorização no momento da indexação temática.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. A relação entre USE e UP é recíproca, porém estritamente ASSIMÉTRICA: o termo que recebe USE é uma forma não autorizada (remissiva negativa), ao passo que o termo que recebe UP é o descritor autorizado para indexação. Apenas o termo preferido pode ser atribuído aos documentos.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Declarar que USE e UP possuem simetria e igualdade de status autoritativo na indexação.",
+    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "status de autorização no momento da indexação temática",
+    "versao_correta": "Nos tesauros documentários, a relação de equivalência expressa pelos operadores USE e UP (Usado Para) constitui uma relação puramente simétrica, de modo que ambos os termos possuem o mesmo [corretamente formatado: status de autorização no momento da indexação temática]."
   },
   {
     "id": "m3-q-98",
@@ -1865,14 +2059,16 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "Diferentemente dos tesauros documentários, as ontologias formais da Ciência da Informação permitem definir axiomas lógicos, propriedades de objetos e inferências automatizadas por máquinas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. As ontologias vão além das relações padronizadas de tesauros (TG/TE/TR), permitindo especificar restrições semânticas ricas e regras de inferência lógica computacional processáveis por algoritmos.",
-    "armadilhaBanca": "Diferenciação precisa entre tesauros e ontologias formais.",
+    "justificativa": "Gabarito CERTO. As ontologias vão além das relações padronizadas de tesauros (TG/TE/TR), permitindo especificar restrições semânticas ricas e regras de inferência lógica computacional processáveis por algoritmos. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "Ciência da Informação permitem definir axiomas lógicos",
+    "versao_errada": "Diferentemente dos tesauros documentários, as ontologias formais da indevidamente ciência da informação permitem definir axiomas lógicos, propriedades de objetos e inferências automatizadas por máquinas."
   },
   {
     "id": "m3-q-99",
@@ -1882,16 +2078,18 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, a respeito do processo de indexação.",
     "item": "Um indexador tem a capacidade de atribuir termos a um documento mesmo que estes não estejam previstos em um vocabulário controlado.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O item está incorreto porque distorce os fundamentos técnicos do tema ao afirmar \"estes não estejam previstos em um vocabulário controlado\". Nos termos da literatura especializada e das normas vigentes de Biblioteconomia e Ciência da Informação, o tratamento adequado exige a correta correlação entre os conceitos, sendo vedada a generalização ou inversão pretendida pelo enunciado.",
+    "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-931",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-931",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "gatilho": "estes não estejam previstos em um vocabulário controlado",
+    "versao_correta": "Um indexador tem a capacidade de atribuir termos a um documento mesmo que estes estejam previstos em um vocabulário controlado."
   },
   {
     "id": "m3-q-100",
@@ -1901,13 +2099,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "contexto": "No que tange às linguagens documentárias, aos tesauros e aos vocabulários controlados segundo as diretrizes das normas ISO 25964 e literatura especializada, julgue o item a seguir.",
     "item": "O vocabulário controlado desempenha papel de normalização terminológica, controlando sinônimos, diferenciando homônimos e estabelecendo relações semânticas para facilitar a busca do usuário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Essa é a função nuclear dos vocabulários controlados: agir como ponte intermediária padronizada entre a linguagem natural do autor e a linguagem de consulta do usuário.",
-    "armadilhaBanca": "Funções precípuas de um vocabulário controlado.",
+    "justificativa": "Gabarito CERTO. Essa é a função nuclear dos vocabulários controlados: agir como ponte intermediária padronizada entre a linguagem natural do autor e a linguagem de consulta do usuário. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
+    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
-    }
+    },
+    "gatilho": "controlando sinônimos, diferenciando homônimos e estabelecendo relações",
+    "versao_errada": "O vocabulário controlado desempenha papel de normalização terminológica, indevidamente controlando sinônimos, diferenciando homônimos e estabelecendo relações semânticas para facilitar a busca do usuário."
   }
 ];
