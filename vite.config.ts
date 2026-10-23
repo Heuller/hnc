@@ -103,8 +103,14 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('content/questions') || id.includes('content\\questions')) {
-            return 'content-questions';
+                    if (id.includes('content/questions') || id.includes('content\\questions')) {
+            if (/m[1-7]-/.test(id)) {
+              return 'content-questions-a';
+            }
+            if (/m([89]|1[0-4])-/.test(id)) {
+              return 'content-questions-b';
+            }
+            return 'content-questions-simulados';
           }
           if (id.includes('content/simuladosRegistry') || id.includes('content\\simuladosRegistry')) {
             return 'registry';
