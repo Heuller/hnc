@@ -360,7 +360,13 @@ Os **Estudos Métricos da Informação (Bibliometria, Cientometria, Infometria e
 - **LOTKA, Alfred J.** The frequency distribution of scientific productivity. *Journal of the Washington Academy of Sciences*, v. 16, n. 12, p. 317-323, 1926.
 - **ZIPF, George K.** *Human Behavior and the Principle of Least Effort*. Cambridge: Addison-Wesley, 1949.
 - **PRIEM, Jason et al.** *Altmetrics: a manifesto*. Altmetrics.org, 2010.
-- **HIRSCH, Jorge E.** An index to quantify an individual's scientific research output. *Proceedings of the National Academy of Sciences (PNAS)*, v. 102, n. 46, p. 16569-16572, 2005.`,
+- **HIRSCH, Jorge E.** An index to quantify an individual's scientific research output. *Proceedings of the National Academy of Sciences (PNAS)*, v. 102, n. 46, p. 16569-16572, 2005.
+
+### Pausa de Recuperação Ativa: Leis de Bradford, Lotka e Zipf
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Relacione cada lei clássica ao seu objeto de medição: Lei de Bradford (dispersão de artigos em periódicos: 1:n:n²), Lei de Lotka (produtividade de autores: 1/n²) e Lei de Zipf (frequência de palavras em textos: r x f = constante).
+`,
   checkpoints: [
     {
       id: 'cp-9-4-1',

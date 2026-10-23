@@ -498,7 +498,13 @@ Os **Fundamentos Computacionais** — algoritmos, consultas SQL, expressões reg
 - **FRIEDL, Jeffrey E. F.** *Mastering Regular Expressions*. 3. ed. Sebastopol: O'Reilly Media, 2006. (A obra de referência absoluta em expressões regulares).
 - **FIELDING, Roy Thomas.** *Architectural Styles and the Design of Network-based Software Architectures*. 2000. Tese (Doutorado em Ciência da Computação) – University of California, Irvine, 2000. (A tese seminal que definiu o padrão REST).
 - **DATE, C. J.** *Introdução a sistemas de bancos de dados*. 8. ed. Rio de Janeiro: Campus, 2004.
-- **BRASIL. CÂMARA DOS DEPUTADOS.** *Portal de Dados Abertos da Câmara dos Deputados: Documentação das APIs REST v2*. Brasília: Diretoria de Inovação e TI (DITEC), 2023.`,
+- **BRASIL. CÂMARA DOS DEPUTADOS.** *Portal de Dados Abertos da Câmara dos Deputados: Documentação das APIs REST v2*. Brasília: Diretoria de Inovação e TI (DITEC), 2023.
+
+### Pausa de Recuperação Ativa: Prompt Engineering e RAG em Bibliotecas
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a função da técnica de RAG (Retrieval-Augmented Generation) ao integrar modelos de linguagem com bases de dados documentais? Como ela mitiga alucinações e assegura ancoragem factual aos acervos catalogados?
+`,
   checkpoints: [
     {
       id: 'cp-6-6-1',

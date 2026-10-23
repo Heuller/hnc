@@ -251,7 +251,13 @@ A **Classificação Decimal Universal (CDU)** e a **Classificação Decimal de D
 - **DEWEY, Melvil.** *Dewey Decimal Classification and Relative Index*. 23. ed. Dublin, Ohio: OCLC, 2011. 4 v.
 - **PIEDADE, Maria Antonieta Requião.** *Introdução à teoria da classificação*. 2. ed. rev. e aum. Rio de Janeiro: Interciência, 1983. (Clássico didático obrigatório).
 - **SOUZA, Sebastião de.** *CDU: guia para utilização da edição padrão internacional em língua portuguesa*. Brasília: Thesaurus, 2009.
-- **POMBO, Olga.** Da classificação dos seres à classificação dos saberes. *Revista da Faculdade de Ciências da Universidade de Lisboa*, v. 14, p. 19-33, 2006.`,
+- **POMBO, Olga.** Da classificação dos seres à classificação dos saberes. *Revista da Faculdade de Ciências da Universidade de Lisboa*, v. 14, p. 19-33, 2006.
+
+### Pausa de Recuperação Ativa: Tabelas Auxiliares da CDD
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Sem olhar a tabela, cite qual é a função das Tabelas 1 (Subdivisões Padrão) e 2 (Áreas Geográficas) da CDD 23. Por que a Tabela 1 pode ser aplicada a qualquer número da classificação sem instrução explícita nas tabelas principais?
+`,
   checkpoints: [
     {
       id: 'cp-3-1-1',

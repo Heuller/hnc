@@ -233,7 +233,13 @@ A **ABNT NBR 6023 (Versões 2018 e 2025)** estabelece as regras de elaboração 
 - **FRANÇA, Júnia Lessa et al.** *Manual de normalização de publicações técnico-científicas*. 10. ed. Belo Horizonte: Ed. UFMG, 2019. (O guia mais utilizado por universidades e bancas).
 - **MEDEIROS, João Bosco.** *Redação científica: a prática de fichamentos, resumos, resenhas*. 13. ed. São Paulo: Atlas, 2019.
 - **IBICT.** *Manual de Normalização de Documentos Científicos*. Brasília: IBICT, 2021.
-- **CÂMARA DOS DEPUTADOS.** *Manual de Editoração das Edições Câmara*. Brasília: Coordenação Edições Câmara, 2022.`,
+- **CÂMARA DOS DEPUTADOS.** *Manual de Editoração das Edições Câmara*. Brasília: Coordenação Edições Câmara, 2022.
+
+### Pausa de Recuperação Ativa: Elementos Essenciais da Referência
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Para uma monografia no todo segundo a NBR 6023, quais são os elementos estritamente essenciais e qual o destaque tipográfico obrigatório do título? Lembre-se: Autor, Título (em destaque: negrito, itálico ou sublinhado), Edição, Local, Editora e Ano.
+`,
   checkpoints: [
     {
       id: 'cp-8-1-1',

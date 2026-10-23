@@ -376,7 +376,13 @@ A **Política de Desenvolvimento de Coleções (PDC)** é o instrumento normativ
 - **WEITZEL, Simone da Rocha.** *Elaboração de uma política de desenvolvimento de coleções em bibliotecas universitárias*. 2. ed. Rio de Janeiro: Interciência, 2013.
 - **EVANS, G. Edward; SAPONARO, Margaret Zarnosky.** *Developing Library and Information Center Collections*. 6. ed. Englewood: Libraries Unlimited, 2012.
 - **CÂMARA DOS DEPUTADOS.** *Política de Desenvolvimento de Coleções da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2018.
-- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Capítulo sobre avaliação de coleções).`,
+- **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Capítulo sobre avaliação de coleções).
+
+### Pausa de Recuperação Ativa: Critérios de Desbastamento (CREW / MUSTIE)
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** O que significa a sigla mnemônica MUSTIE no método CREW de desbastamento? (Misleading, Ugly, Superseded, Trivial, Irrelevant, Elsewhere). Como distinguir desbastamento (afastamento físico para depósito) de descarte (baixa patrimonial definitiva)?
+`,
   checkpoints: [
     {
       id: 'cp-5-3-1',

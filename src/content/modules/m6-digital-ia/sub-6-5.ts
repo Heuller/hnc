@@ -341,7 +341,13 @@ A modelagem de dados e a arquitetura de **Bancos de Dados Relacionais e Não Rel
 - **SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S.** *Sistema de Banco de Dados*. 7. ed. Rio de Janeiro: Elsevier, 2020.
 - **SADALAGE, Pramod J.; FOWLER, Martin.** *NoSQL Essencial: um guia conciso para o mundo emergente da persistência poliglota*. São Paulo: Novatec, 2013.
 - **CODD, Edgar F.** A relational model of data for large shared data banks. *Communications of the ACM*, v. 13, n. 6, p. 377-387, 1970. (Artigo de criação do modelo relacional).
-- **CHEN, Peter Pin-Shan.** The entity-relationship model: toward a unified view of data. *ACM Transactions on Database Systems*, v. 1, n. 1, p. 9-36, 1976.`,
+- **CHEN, Peter Pin-Shan.** The entity-relationship model: toward a unified view of data. *ACM Transactions on Database Systems*, v. 1, n. 1, p. 9-36, 1976.
+
+### Pausa de Recuperação Ativa: Os 4 Princípios de Linked Data
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Quais são os 4 princípios estabelecidos por Tim Berners-Lee (2006) para os Linked Data? (1. Usar URIs como nomes; 2. Usar URIs HTTP; 3. Fornecer dados úteis com RDF e SPARQL; 4. Incluir links para outras URIs).
+`,
   checkpoints: [
     {
       id: 'cp-6-5-1',

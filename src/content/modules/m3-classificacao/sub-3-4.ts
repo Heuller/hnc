@@ -284,7 +284,13 @@ As **Linguagens Documentárias**, com destaque para os **Tesauros**, estruturam 
 - **ANSI/NISO Z39.19-2005 (R2010).** *Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies*. Baltimore: NISO, 2010.
 - **GOMES, Hagar Espanha (Coord.).** *Manual de elaboração de tesauros monolíngues*. Brasília: Programa Nacional de Bibliotecas das Instituições de Ensino Superior, 1990.
 - **W3C.** *SKOS Simple Knowledge Organization System Reference*. W3C Recommendation, 2009.
-- **MOREIRO GONZÁLEZ, José Antonio.** *Linguagens documentárias e vocabulários controlados para indexação e recuperação da informação*. São Paulo: Ed. Senac São Paulo, 2011.`,
+- **MOREIRO GONZÁLEZ, José Antonio.** *Linguagens documentárias e vocabulários controlados para indexação e recuperação da informação*. São Paulo: Ed. Senac São Paulo, 2011.
+
+### Pausa de Recuperação Ativa: Relações Conceituais em Tesauros
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a diferença estrita entre relação hierárquica (TG/TE), relação de equivalência (USE/UP) e relação associativa (TA)? Em que circunstância dois termos devem ser ligados por TA e não por TG/TE em um vocabulário controlado?
+`,
   checkpoints: [
     {
       id: 'cp-3-4-1',

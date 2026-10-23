@@ -314,7 +314,13 @@ A **Ciência de Dados, a Mineração de Textos (*Text Mining*), a Visualização
 - **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios*. Rio de Janeiro: Alta Books, 2019. (A principal referência em comunicação e design de dados).
 - **PROVOST, Foster; FAWCETT, Tom.** *Data Science para Negócios: o que você precisa saber sobre mineração de dados e pensamento analítico de dados*. Rio de Janeiro: Alta Books, 2016.
 - **TUFTE, Edward R.** *The Visual Display of Quantitative Information*. 2. ed. Cheshire: Graphics Press, 2001. (O clássico pioneiro da teoria da visualização de dados).
-- **MANNING, Christopher D. et al.** *Foundations of Statistical Natural Language Processing*. Cambridge: MIT Press, 1999.`,
+- **MANNING, Christopher D. et al.** *Foundations of Statistical Natural Language Processing*. Cambridge: MIT Press, 1999.
+
+### Pausa de Recuperação Ativa: Tríade CID e Bases Legais da LGPD
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Defina a Tríade CID da segurança da informação (Confidencialidade, Integridade e Disponibilidade). Na LGPD (Lei 13.709/2018), cite pelo menos três bases legais para tratamento de dados pessoais além do consentimento do titular.
+`,
   checkpoints: [
     {
       id: 'cp-14-4-1',

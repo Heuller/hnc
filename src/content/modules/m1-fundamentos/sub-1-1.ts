@@ -263,7 +263,13 @@ Antes de responder aos checkpoints, feche os olhos por 15 segundos e responda me
 * **OTLET, Paul.** *Traité de documentation: le livre sur le livre, théorie et pratique*. Bruxelles: Editiones Mundaneum, 1934. (Fundação da Documentação e Princípio Monográfico).
 * **BRIET, Suzanne.** *Qu'est-ce que la documentation?* Paris: EDIT, 1951. (Conceito de documento e o célebre exemplo do antílope).
 * **LE COADIC, Yves-François.** *A Ciência da Informação*. 2. ed. Brasília: Briquet de Lemos, 2004. (Evolução histórica, ciclo e ecologia da informação).
-* **PINHEIRO, Lena Vania Ribeiro; LOUREIRO, José Maria Jardim.** *Traçados e limites da Ciência da Informação*. Ciência da Informação, Brasília, v. 24, n. 1, 1995.`,
+* **PINHEIRO, Lena Vania Ribeiro; LOUREIRO, José Maria Jardim.** *Traçados e limites da Ciência da Informação*. Ciência da Informação, Brasília, v. 24, n. 1, 1995.
+
+### Pausa de Recuperação Ativa: Ranganathan e Borko
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Tente fechar os olhos e enunciar mentalmente, na ordem exata, as Cinco Leis de Ranganathan (1931). Em seguida, recorde a distinção conceitual formulada por Harold Borko (1968) entre as finalidades operacionais da Biblioteconomia e a natureza interdisciplinar e teórica da Ciência da Informação.
+`,
   checkpoints: [
     {
       id: 'cp-1-1-1',

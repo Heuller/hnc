@@ -265,7 +265,13 @@ O **Planejamento de Bibliotecas** e a **Avaliação de Serviços por Indicadores
 - **MACIEL, Alba Costa; MENDONÇA, Marília Alvarenga Rocha.** *Bibliotecas como organizações*. Rio de Janeiro: Interciência, 2000.
 - **ISO 11620:2014.** *Information and documentation — Library performance indicators*. Genebra: ISO, 2014.
 - **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996.
-- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.`,
+- **CHIAVENATO, Idalberto.** *Administração geral e pública*. 5. ed. Rio de Janeiro: Elsevier, 2018.
+
+### Pausa de Recuperação Ativa: Tipos de Planejamento Organizacional
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Diferencie em termos de horizonte temporal, nível hierárquico e amplitude de impacto os planejamentos Estratégico, Tático e Operacional em uma biblioteca legislativa.
+`,
   checkpoints: [
     {
       id: 'cp-5-1-1',

@@ -204,7 +204,13 @@ A preservação do papel baseia-se na compreensão físico-química da sua estru
 * **BECK, Ingrid.** *Manual de conservação preventiva de documentos*. Rio de Janeiro: Arquivo Nacional, 1995. (Estabilidade climática ininterrupta e preservação em clima tropical).
 * **SPINELLI, Antônio Celso Ramos.** *Preservação de acervos bibliográficos*. Brasília: Senac-DF, 2003. (Degradação por hidrólise ácida e fotoxidação da celulose).
 * **IFLA.** *Princípios para o cuidado e manejo de material de bibliotecas*. Haia: IFLA, 2000.
-* **CONARQ.** *Recomendações para a construção de arquivos*. Rio de Janeiro: Conselho Nacional de Arquivos, 2000.`,
+* **CONARQ.** *Recomendações para a construção de arquivos*. Rio de Janeiro: Conselho Nacional de Arquivos, 2000.
+
+### Pausa de Recuperação Ativa: Parâmetros Ambientais de Preservação
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Quais são os valores ideais de temperatura e umidade relativa recomendados para guarda de acervos bibliográficos em papel? Por que a oscilação brusca (ciclos térmicos e higrométricos) é mais danosa que pequenas variações graduais?
+`,
   checkpoints: [
     {
       id: 'cp-7-1-1',

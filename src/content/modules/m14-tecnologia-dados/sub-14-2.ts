@@ -348,7 +348,13 @@ As **Redes de Computadores, a Internet/Intranet, a Criptografia e a Segurança d
 - **ABNT NBR ISO/IEC 27001:2022.** *Segurança da informação, segurança cibernética e proteção da privacidade — Sistemas de gestão da segurança da informação — Requisitos*. Rio de Janeiro: ABNT, 2022.
 - **STALLINGS, William.** *Criptografia e Segurança de Redes: princípios e práticas*. 6. ed. São Paulo: Pearson, 2014.
 - **CERT.BR.** *Cartilha de Segurança para a Internet*. São Paulo: Comitê Gestor da Internet no Brasil (CGI.br), 2021.
-- **INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).** *Padrões da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)*. Brasília: ITI, 2022.`,
+- **INSTITUTO NACIONAL DE TECNOLOGIA DA INFORMAÇÃO (ITI).** *Padrões da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)*. Brasília: ITI, 2022.
+
+### Pausa de Recuperação Ativa: Propriedades ACID vs. Teorema CAP
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Relembre as quatro propriedades ACID dos bancos relacionais (Atomicidade, Consistência, Isolamento e Durabilidade) e os três pilares do Teorema CAP para sistemas distribuídos (Consistência, Disponibilidade e Tolerância ao Particionamento).
+`,
   checkpoints: [
     {
       id: 'cp-14-2-1',

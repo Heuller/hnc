@@ -337,7 +337,13 @@ A **Curadoria Digital**, a **Gestão de Dados de Pesquisa (GDP)** e as licenças
 - **DIGITAL CURATION CENTRE (DCC).** *DCC Curation Lifecycle Model*. Edinburgh: DCC, 2008. (O modelo canônico internacional de curadoria digital).
 - **SAYÃO, Luís Fernando; SALES, Luana Farias.** Dados de pesquisa: um novo desafio para os bibliotecários. *Biblios: Journal of Librarianship and Information Science*, n. 48, p. 1-14, 2012.
 - **LESSIG, Lawrence.** *Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity*. New York: Penguin Press, 2004. (A base conceitual das licenças Creative Commons).
-- **BITTAR, Carlos Alberto.** *Direito de autor*. 6. ed. Rio de Janeiro: Forense Universitária, 2015.`,
+- **BITTAR, Carlos Alberto.** *Direito de autor*. 6. ed. Rio de Janeiro: Forense Universitária, 2015.
+
+### Pausa de Recuperação Ativa: Vias Dourada, Verde e Diamante
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Qual a diferença entre Via Dourada (periódico em acesso aberto, com ou sem APC), Via Verde (autoarquivamento em repositório institucional de preprint/postprint) e Via Diamante/Platina (acesso aberto sem cobrança para autores nem para leitores)?
+`,
   checkpoints: [
     {
       id: 'cp-9-3-1',

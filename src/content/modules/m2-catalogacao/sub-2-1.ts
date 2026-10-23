@@ -307,7 +307,13 @@ A catalogação descritiva moderna baseia-se em dois pilares fundamentais cobrad
 * **IFLA.** *Declaração de Princípios Internacionais de Catalogação (ICP)*. Tradução de Antonia Memória. Haia/Brasília: IFLA/FEBAB, 2016. (Princípio da Conveniência do Usuário e princípios gerais de catalogação).
 * **CÓDIGO de Catalogação Anglo-Americano (AACR2r).** 2. ed. rev. São Paulo: FEBAB/Imprensa Oficial, 2004. (Regras descritivas, pontuação ISBD e pontos de acesso).
 * **MEY, Eliane Serrão Alves; SILVEIRA, Naira Christofoletti.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009. (Tratamento descritivo da informação e evolução dos instrumentos).
-* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.`,
+* **OLIVER, Chris.** *Introdução ao RDA: um guia básico*. Brasília: Briquet de Lemos, 2011.
+
+### Pausa de Recuperação Ativa: Escolha da Entrada Principal no AACR2
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Como opera a regra de três no AACR2 quando há mais de três autores com a mesma função intelectual? Quem recebe a entrada principal e quais autores recebem entradas secundárias? Relembre a regra do primeiro mencionado e a entrada pelo título.
+`,
   checkpoints: [
     {
       id: 'cp-2-1-1',

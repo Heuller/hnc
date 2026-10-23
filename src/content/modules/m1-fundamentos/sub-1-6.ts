@@ -294,7 +294,13 @@ A atuação do Bibliotecário na Câmara dos Deputados está submetida a um regi
 - **BRASIL.** *Lei Federal nº 9.674, de 25 de junho de 1998*. Dispõe sobre o exercício da profissão de Bibliotecário e determina outras providências.
 - **CONSELHO FEDERAL DE BIBLIOTECONOMIA (CFB).** *Resolução CFB nº 207, de 9 de novembro de 2018*. Aprova o Código de Ética e Deontologia do Profissional Bibliotecário brasileiro.
 - **IFLA.** *IFLA Code of Ethics for Librarians and other Information Workers*. Haia: IFLA, 2012.
-- **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge*. 2. ed. Technics Publications, 2017. (Capítulo de Governança da Informação e Dados).`,
+- **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge*. 2. ed. Technics Publications, 2017. (Capítulo de Governança da Informação e Dados).
+
+### Pausa de Recuperação Ativa: Limitações aos Direitos Autorais
+
+> [!TIP]
+> **Pausa de Recuperação Ativa (Active Recall):** Sem consultar o texto, quais são as principais hipóteses do art. 46 da Lei 9.610/1998 aplicáveis às bibliotecas e à pesquisa acadêmica? Lembre-se da regra dos pequenos trechos, da cópia para uso privado do copista e da acessibilidade para pessoas com deficiência visual.
+`,
   checkpoints: [
     {
       id: 'cp-1-6-1',
