@@ -194,7 +194,7 @@ O Título VII do RICD regulamenta a condição jurídica do parlamentar no exerc
 * **O Instituto do Aparte (Art. 230):**
   * É a interrupção breve do discurso, solicitada pelo parlamentar e concedida expressamente pelo orador que está na tribuna;
   * O tempo do aparte é debitado do tempo total do orador principal;
-  * **Hipóteses em que o Aparte é EXPRESSAMENTE PROIBIDO pelo Regimento (*⚠️ Pegadinha Clássica Cebraspe*):**
+  * **Hipóteses em que o Aparte é EXPRESSAMENTE PROIBIDO pelo Regimento (*⚠️ técnica de distrator recorrente*):**
     1. A discurso proferido na posse do Presidente da República ou Mesa;
     2. A comunicação inadiável feita por Líder de bancada;
     3. Em manifestação suscitada por **questão de ordem**;
@@ -280,7 +280,7 @@ O **Regimento Interno da Câmara dos Deputados (RICD)** disciplina a estrutura, 
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Recondução da Mesa:** O Cebraspe adora afirmar que é permitida a recondução ilimitada dos membros da Mesa Diretora para os mesmos cargos dentro da mesma legislatura. **Gabarito: ERRADO** (vedada expressamente na mesma legislatura, permitida apenas de uma legislatura para outra).
+- **Recondução da Mesa:** A técnica de distrator recorrente consiste em afirmar que é permitida a recondução ilimitada dos membros da Mesa Diretora para os mesmos cargos dentro da mesma legislatura. **Gabarito: ERRADO** (vedada expressamente na mesma legislatura, permitida apenas de uma legislatura para outra).
 - **Composição da Mesa:** Dizer que a Mesa possui 5 secretários ou que os suplentes participam com direito a voto em todas as sessões. **Gabarito: ERRADO** (são 7 titulares e 4 suplentes).
 - **Lotação do CEDI:** Afirmar que a Biblioteca Pedro Aleixo é um órgão autônomo diretamente subordinado à Presidência da República ou ao Senado Federal. **Gabarito: ERRADO** (integra o CEDI na estrutura da Câmara dos Deputados).
 

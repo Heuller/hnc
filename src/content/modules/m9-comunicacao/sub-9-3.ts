@@ -153,7 +153,7 @@ A legislação autoral brasileira insere-se no ramo do **Direito da Propriedade 
 
 #### A. O que É e o que NÃO É Objeto de Proteção Autoral
 * **Obras Protegidas (Art. 7º):** As criações do espírito, expressas por qualquer meio ou fixadas em qualquer suporte, tangível ou intangível, conhecido ou que se invente no futuro (textos literários, científicos, obras dramáticas, composições musicais, ilustrações, cartas geográficas, projetos de arquitetura, coletâneas, antologias e bases de dados que constituam criação intelectual).
-* **O que NÃO É Protegido (Art. 8º — Pegadinha Clássica do Cebraspe!):**
+* **O que NÃO É Protegido (Art. 8º — distrator típico de concurso!):**
   * As ideias, procedimentos normativos, sistemas, métodos, projetos ou conceitos matemáticos como tais;
   * Os esquemas, planos ou regras para realizar atos mentais, jogos ou negócios;
   * Os formulários em branco para serem preenchidos por qualquer tipo de informação;

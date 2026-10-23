@@ -204,7 +204,7 @@ A **Análise Documentária** e a **Indexação** representam o núcleo intelectu
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **A Leitura Integral do Documento:** O Cebraspe adora afirmar que *"na indexação profissional segundo a ISO 5963, o bibliotecário deve realizar a leitura linear completa de todas as páginas do documento antes de extrair conceitos"*. **Gabarito: ERRADO.** A norma orienta expressamente a leitura técnica seletiva de partes estruturantes.
+- **A Leitura Integral do Documento:** A técnica de distrator recorrente consiste em afirmar que *"na indexação profissional segundo a ISO 5963, o bibliotecário deve realizar a leitura linear completa de todas as páginas do documento antes de extrair conceitos"*. **Gabarito: ERRADO.** A norma orienta expressamente a leitura técnica seletiva de partes estruturantes.
 - **Inversão entre Revocação e Precisão:** Dizer que o aumento da exaustividade resulta em maior precisão. **Gabarito: ERRADO.** Alta exaustividade traz mais documentos periféricos (aumenta a revocação / recall e diminui a precisão).
 - **Indexação por Atribuição vs. Derivação:** Na indexação por **derivação** (ou extração), usam-se as próprias palavras literais do autor; na indexação por **atribuição**, termos padronizados de uma linguagem controlada são atribuídos mesmo que não constem no texto original.
 

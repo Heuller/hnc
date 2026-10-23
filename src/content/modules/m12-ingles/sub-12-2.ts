@@ -90,7 +90,7 @@ Usados pelo autor para demonstrar que seu ponto de vista possui múltiplos pilar
 
 ### 4. A Família da Causa e da Consequência: Quem Gera Quem?
 
-O Cebraspe adora redigir assertivas invertendo a relação de causalidade. Guarde com precisão:
+A técnica de distrator recorrente consiste em redigir assertivas invertendo a relação de causalidade. Guarde com precisão:
 
 #### A. Indicadores de Causa (A Origem / O Porquê)
 * **Because / Since / As:** Introduzem a justificativa.

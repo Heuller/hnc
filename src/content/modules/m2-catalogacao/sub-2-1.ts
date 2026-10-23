@@ -102,7 +102,7 @@ Aprovada originalmente na Conferência de Paris de 1961 e atualizada pela IFLA e
 
 1. **Conveniência do Usuário (*Princípio Supremo e Inegociável*):**
    * Todas as decisões relativas à escolha de pontos de acesso, descrições bibliográficas e terminologia devem ser tomadas tendo em vista o esforço mínimo e a máxima facilidade de recuperação pelo usuário da unidade de informação.
-   * *Alerta Cebraspe:* A banca costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a "conveniência dos bibliotecários" ou a "economia da instituição".
+   * *Alerta Cebraspe:* A técnica de elaboração de itens costuma tentar induzir o candidato ao erro afirmando que a regra prioriza a "conveniência dos bibliotecários" ou a "economia da instituição".
 2. **Uso Comum (*Common Usage*):** O vocabulário empregado nas descrições e nos pontos de acesso autorizados deve refletir a linguagem natural e predominante utilizada pela maioria dos usuários do acervo.
 3. **Representação Fidedigna (*Representation*):**
    * O recurso informacional deve ser descrito **exatamente como se apresenta** em sua fonte principal de informação.

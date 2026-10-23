@@ -81,7 +81,7 @@ TITLE: Espécies Normativas no Processo Legislativo (Art. 59 da CF/88)
 #### A. Emendas à Constituição (PECs - Art. 60 da CF/88)
 As Emendas Constitucionais são fruto do **Poder Constituinte Derivado Reformador**, submetendo-se a limitações estritas impostas pelo Constituinte Originário:
 * **Limitações Circunstanciais (Art. 60, § 1º):** A Constituição não pode ser emendada na vigência de **intervenção federal**, de **estado de defesa** ou de **estado de sítio**.
-* **Limitações Materiais / Cláusulas Pétreas (Art. 60, § 4º — Pegadinha Clássica Cebraspe):** Não será objeto de deliberação a proposta de emenda tendente a abolir:
+* **Limitações Materiais / Cláusulas Pétreas (Art. 60, § 4º — técnica de distrator recorrente):** Não será objeto de deliberação a proposta de emenda tendente a abolir:
   1. A forma federativa de Estado;
   2. O voto direto, secreto, universal e periódico;
   3. A separação dos Poderes;
@@ -200,7 +200,7 @@ O **Processo Legislativo Constitucional (CF/88, arts. 59 a 69)** estabelece as e
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Veto em PEC:** O Cebraspe adora afirmar que *"o Presidente da República vetou parcialmente uma Emenda Constitucional por contrariedade ao interesse público"*. **Gabarito: ERRADO.** Emenda Constitucional NÃO se submete a sanção ou veto presidencial em nenhuma hipótese!
+- **Veto em PEC:** A técnica de distrator recorrente consiste em afirmar que *"o Presidente da República vetou parcialmente uma Emenda Constitucional por contrariedade ao interesse público"*. **Gabarito: ERRADO.** Emenda Constitucional NÃO se submete a sanção ou veto presidencial em nenhuma hipótese!
 - **Prazo de Veto Presidencial:** Dizer que o Presidente tem 15 dias corridos para vetar. **Gabarito: ERRADO.** O art. 66, § 1º da CF/88 estabelece o prazo de 15 dias **úteis**.
 - **Quórum de Rejeição do Veto:** A banca diz que o veto presidencial pode ser derrubado por maioria simples. **Gabarito: ERRADO.** A derrubada do veto exige quórum qualificado de **maioria absoluta** de ambas as Casas do Congresso Nacional.
 

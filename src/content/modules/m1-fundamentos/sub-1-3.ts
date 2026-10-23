@@ -46,7 +46,7 @@ export const submodulo13: ModuloFilho = {
   autoresChave: ['Michael Buckland', 'Suzanne Briet', 'Rafael Capurro', 'Birger Hjørland', 'Russell Ackoff', 'Claude Shannon'],
   alertasCebraspe: [
     'Michael Buckland classifica a informação em: (1) Informação como Processo; (2) Informação como Conhecimento; (3) Informação como Coisa. O Cebraspe tenta restringir "informação como coisa" a papéis e livros, quando abrange QUALQUER entidade tangível (incluindo fósseis, esculturas, gravações).',
-    'Segundo Rafael Capurro, a Ciência da Informação evoluiu por três paradigmas epistemológicos: (1) Físico (sinal e transmissão neutra); (2) Cognitivo (estruturas mentais do indivíduo, Brookes e Belkin); (3) Social (informação situada em comunidades de prática e análise de domínio de Hjørland). O Cebraspe adora inverter o paradigma cognitivo com o social.',
+    'Segundo Rafael Capurro, a Ciência da Informação evoluiu por três paradigmas epistemológicos: (1) Físico (sinal e transmissão neutra); (2) Cognitivo (estruturas mentais do indivíduo, Brookes e Belkin); (3) Social (informação situada em comunidades de prática e análise de domínio de Hjørland). A técnica de distrator recorrente consiste em inverter o paradigma cognitivo com o social.',
     'Suzanne Briet definiu documento a partir de quatro condições necessárias: materialidade, intencionalidade, tratamento e capacidade de servir de prova/indício.',
     'Dado é um registro bruto desprovido de contexto; Informação é o dado dotado de significado e relevância; Conhecimento é a apropriação cognitiva pelo ser humano.',
   ],
@@ -212,9 +212,9 @@ Para o **Cebraspe**, a compreensão de *dado, informação, conhecimento e intel
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Armadilha da Informação como Processo em Banco de Dados:** A banca adora afirmar que *"um repositório digital como o DSpace armazena tanto informação como coisa quanto informação como processo"*. **Gabarito: ERRADO.** Sistemas armazenam apenas coisas (registros físicos ou digitais). O processo ocorre na mente humana.
+- **Armadilha da Informação como Processo em Banco de Dados:** Assertiva típica de distrator afirma que *"um repositório digital como o DSpace armazena tanto informação como coisa quanto informação como processo"*. **Gabarito: ERRADO.** Sistemas armazenam apenas coisas (registros físicos ou digitais). O processo ocorre na mente humana.
 - **Inversão da Equação de Brookes:** Dizer que a equação $K[S] + \\Delta I = K[S + \\Delta S]$ pertence a Shannon e Weaver. **Gabarito: ERRADO.** Pertence a Bertram Brookes e funda o paradigma cognitivo.
-- **Relevância no Paradigma Social:** O Cebraspe adora assertivas dizendo que *"a relevância documental é invariável no tempo e no espaço sob a ótica social"*. **Gabarito: ERRADO.** No paradigma social, a relevância depende do contexto do grupo e da comunidade de prática.
+- **Relevância no Paradigma Social:** A técnica de distrator recorrente consiste em assertivas dizendo que *"a relevância documental é invariável no tempo e no espaço sob a ótica social"*. **Gabarito: ERRADO.** No paradigma social, a relevância depende do contexto do grupo e da comunidade de prática.
 
 ---
 

@@ -267,7 +267,7 @@ A atuação do Bibliotecário na Câmara dos Deputados está submetida a um regi
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Assinatura de Responsabilidade Técnica por Outrem:** O Cebraspe adora colocar como assertiva que *"é lícito ao bibliotecário assumir a responsabilidade técnica e assinar catálogos e bases de dados organizados inteiramente por estagiários ou técnicos administrativos sem sua supervisão direta"*. **Gabarito: ERRADO.** Constitui infração ética grave capitulada no Código de Ética do CFB.
+- **Assinatura de Responsabilidade Técnica por Outrem:** A técnica de distrator recorrente consiste em colocar como assertiva que *"é lícito ao bibliotecário assumir a responsabilidade técnica e assinar catálogos e bases de dados organizados inteiramente por estagiários ou técnicos administrativos sem sua supervisão direta"*. **Gabarito: ERRADO.** Constitui infração ética grave capitulada no Código de Ética do CFB.
 - **Inversão das Competências CFB vs. CRB:** A banca diz que compete aos CRBs editar o Código de Ética e julgar em grau final as infrações. **Gabarito: ERRADO.** Quem edita o Código e julga recursos finais é o CFB.
 - **Dispensa de Registro para Servidores Públicos:** Afirmar que a aprovação em concurso público de órgão federal dispensa o registro no Conselho Regional. **Gabarito: ERRADO.** O exercício profissional, mesmo no setor público estatutário, exige inscrição regular no CRB da jurisdição.
 

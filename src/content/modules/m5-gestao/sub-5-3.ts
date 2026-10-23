@@ -44,7 +44,7 @@ export const submodulo53: ModuloFilho = {
   tempoEstimadoMinutos: 27,
   autoresChave: ['Waldomiro Vergueiro', 'Nice Menezes de Figueiredo', 'Simone da Rocha Weitzel', 'F. W. Lancaster', 'Daniel Gore', 'Peggy Johnson', 'Stanley J. Slote', 'R. E. Burton & R. W. Kebler'],
   alertasCebraspe: [
-    'A política de desenvolvimento de coleções é um documento formal que possui tríplice caráter: administrativo, político e de relações públicas. O Cebraspe adora afirmar que seu caráter é "exclusivamente administrativo" ou "meramente operacional": ERRADO! O caráter político protege o bibliotecário contra censura e pressões externas arbitrarias.',
+    'A política de desenvolvimento de coleções é um documento formal que possui tríplice caráter: administrativo, político e de relações públicas. A técnica de distrator recorrente consiste em afirmar que seu caráter é "exclusivamente administrativo" ou "meramente operacional": ERRADO! O caráter político protege o bibliotecário contra censura e pressões externas arbitrarias.',
     'No modelo cíclico de Vergueiro, o estudo da comunidade de usuários é insumo e subsídio obrigatório para TODAS as seis fases do ciclo, sem exceção (não apenas para a seleção).',
     'Não confunda desbastamento (relocação/remanejamento de itens de baixa circulação para depósitos secundários mantendo o item no patrimônio) com descarte (eliminação física e baixa patrimonial definitiva). O desbastamento precede e nem sempre culmina em descarte!',
     'A política de "crescimento zero" (zero growth), proposta por Daniel Gore, determina que o acervo físico deve se estabilizar em um teto quantitativo: a cada novo volume incorporado, outro deve ser retirado para desbaste ou descarte. O Cebraspe tenta ligar isso falsamente à falta de orçamento ou escassez de compras.',
@@ -365,7 +365,7 @@ A **Política de Desenvolvimento de Coleções (PDC)** é o instrumento normativ
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Aceitação Obrigatória de Doações:** O Cebraspe adora afirmar que *"por ser órgão público, a biblioteca da Câmara é obrigada a aceitar e incorporar ao acervo toda e qualquer doação recebida de deputados ou cidadãos"*. **Gabarito: ERRADO.** A aceitação incondicional fere as boas práticas de desenvolvimento de coleções; a biblioteca deve ter critérios rígidos de triagem e direito de destinação.
+- **Aceitação Obrigatória de Doações:** A técnica de distrator recorrente consiste em afirmar que *"por ser órgão público, a biblioteca da Câmara é obrigada a aceitar e incorporar ao acervo toda e qualquer doação recebida de deputados ou cidadãos"*. **Gabarito: ERRADO.** A aceitação incondicional fere as boas práticas de desenvolvimento de coleções; a biblioteca deve ter critérios rígidos de triagem e direito de destinação.
 - **Descarte de Obras Raras e Históricas:** Afirmar que livros raros de baixa circulação podem ser descartados e destruídos para abrir espaço. **Gabarito: ERRADO.** Obras raras, patrimoniais e documentos de valor permanente são protegidos por lei e inalienáveis.
 - **Natureza Cíclica do Desenvolvimento de Coleções:** Dizer que a PDC é um documento estático feito uma única vez. **Gabarito: ERRADO.** O modelo de Vergueiro é expressamente dinâmico, contínuo e cíclico.
 

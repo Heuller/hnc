@@ -86,7 +86,7 @@ O epistemólogo francês Yves-François Le Coadic (*A Ciência da Informação*)
 * **Biblioteconomia dos Leitores:** Centrada na dimensão humana, social e comunicativa. Ocupa-se do usuário, do estudo de comunidades, dos hábitos e práticas de leitura, dos serviços de referência, da mediação pedagógica e da inclusão sociocultural.
 
 > [!CAUTION]
-> **Casca de Banana Cebraspe nº 1:** A banca costuma inverter maliciosamente esses dois conceitos, afirmando que *"a biblioteconomia dos livros foca nas necessidades dos leitores e nos serviços de referência"*, ou que *"a biblioteconomia dos leitores restringe-se aos procedimentos de conservação predial e inventário de volumes"*. O item é categoricamente **ERRADO**.
+> **Casca de Banana Cebraspe nº 1:** A técnica de distrator consiste em inverter esses dois conceitos, afirmando que *"a biblioteconomia dos livros foca nas necessidades dos leitores e nos serviços de referência"*, ou que *"a biblioteconomia dos leitores restringe-se aos procedimentos de conservação predial e inventário de volumes"*. O item é categoricamente **ERRADO**.
 
 ---
 
@@ -244,7 +244,7 @@ Como o Analista Legislativo - Bibliotecário vivencia essa tríade na rotina da 
 ---
 
 ### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Armadilha do Autor Trocado:** A banca adora colocar o texto literal de Harold Borko (*"disciplina que investiga as propriedades e o comportamento da informação..."*) e afirmar que se trata da definição clássica de Biblioteconomia. **Gabarito: ERRADO.**
+- **Armadilha do Autor Trocado:** Técnica de distrator: substituição de autor para colocar o texto literal de Harold Borko (*"disciplina que investiga as propriedades e o comportamento da informação..."*) e afirmar que se trata da definição clássica de Biblioteconomia. **Gabarito: ERRADO.**
 - **Armadilha da Substituição Histórica:** Dizer que a Documentação ou a CI "tornaram obsoleta" ou "substituíram integralmente" a Biblioteconomia. **Gabarito: ERRADO.** As disciplinas convivem e complementam-se.
 - **Divisão de Le Coadic:** Lembre-se: *Biblioteconomia dos livros* = foco na gestão física e tratamento técnico do acervo; *Biblioteconomia dos leitores* = foco na mediação humana, necessidades e uso social da informação.
 

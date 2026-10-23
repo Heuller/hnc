@@ -40,7 +40,7 @@ export const submodulo31: ModuloFilho = {
   autoresChave: ['Melvil Dewey', 'Paul Otlet', 'Henri La Fontaine', 'Maria Antonieta Requião Piedade', 'Odilon Pereira da Silva', 'Antonio Miranda'],
   alertasCebraspe: [
     'A CDD é uma classificação predominantemente ENUMERATIVA e hierárquica (embora com recursos sintéticos limitados pelas tabelas auxiliares); a CDU é uma classificação ANALÍTICO-SINTÉTICA e FACETADA que permite a livre construção e síntese combinatória de assuntos compostos e complexos.',
-    'A CDU não possui 10 classes ativas hoje: a classe 4 encontra-se VAGA (esvaziada na década de 1960 para expansões futuras do conhecimento; seus conteúdos de linguística foram fundidos com a literatura na classe 8). O Cebraspe adora afirmar que a CDU possui 10 classes ativas ou que possui 12 classes principais: ERRADO!',
+    'A CDU não possui 10 classes ativas hoje: a classe 4 encontra-se VAGA (esvaziada na década de 1960 para expansões futuras do conhecimento; seus conteúdos de linguística foram fundidos com a literatura na classe 8). A técnica de distrator recorrente consiste em afirmar que a CDU possui 10 classes ativas ou que possui 12 classes principais: ERRADO!',
     'Atenção estrita aos sinais de relação da CDU: "+" é Adição/Coordenação (une assuntos não consecutivos); "/" é Extensão Consecutiva (abrange classes contíguas de uma sequência, ex.: 53/55); ":" é Relação Simples (reversível, ex.: 32:94 = 94:32); "::" é Relação Fixa ou Ordem Fixa (irreversível, trava o primeiro número para arquivamento no catálogo).',
     'Tabelas Auxiliares Comuns Independentes da CDU: Língua (=...), Forma (0...), Lugar (1/9), Raça/Etnia (=...), Tempo "...". Característica suprema em provas: possuem significado universal e podem figurar no início, meio ou fim de uma notação composta, assumindo inclusive a posição de entrada.',
     'Tabelas Auxiliares Especiais (Analíticas) da CDU: têm aplicação restrita e localizada apenas nas seções da tabela principal para as quais foram criadas. Dividem-se em analíticas de traço (-1/-9: processos e operações), de ponto zero (.01/.09: aspectos teóricos e metodológicos) e de apóstrofo (\'1/\'9: síntese integrativa e componentes).',
@@ -258,7 +258,7 @@ A **Classificação Decimal Universal (CDU)** e a **Classificação Decimal de D
       pergunta: 'Micro-Checkpoint 1: Estrutura Atual das Classes da CDU',
       item: 'Na Classificação Decimal Universal (CDU), a classe 4 encontra-se atualmente vaga, tendo seus conteúdos de linguística sido transferidos e agrupados com a literatura na classe 8.',
       gabarito: 'C',
-      justificativa: 'Correto! Essa é uma clássica questão do Cebraspe. A classe 4 foi esvaziada pela FID para futura expansão do conhecimento, restando exatamente 9 classes principais ativas.',
+      justificativa: 'Correto! Essa é uma item formulado com técnica típica de C/E. A classe 4 foi esvaziada pela FID para futura expansão do conhecimento, restando exatamente 9 classes principais ativas.',
     },
     {
       id: 'cp-3-1-2',

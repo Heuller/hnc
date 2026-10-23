@@ -157,7 +157,7 @@ export const SIMULADOS_REGISTRY: SimuladoManifest[] = [
     tituloCurto: 'M8 - Normalização & ABNT',
     subtitulo: '100 Itens C/E Inéditos e Cebraspe Reais (Submódulos 8.1 a 8.5)',
     descricao:
-      'Simulado com foco em pegadinhas normativas: NBR 10520:2023 (abolição da caixa alta em parênteses), NBR 6023:2018 (referências), NBR 6028:2021 (resumos), NBR 6027:2012 (sumários), NBR 6024:2012 (numeração progressiva), NBR 14724:2011 (trabalhos acadêmicos e fichas catalográficas), NBR 6034:2004 (índices), infografia funcional e acessibilidade.',
+      'Simulado com foco em pegadinhas normativas: NBR 10520:2023 (abolição da caixa alta em parênteses), NBR 6023:2018 (referências), NBR 6028:2021 (resumos), NBR 6027:2012 (sumários), NBR 6024:2012 (numeração progressiva), NBR 14724:2024 (trabalhos acadêmicos e fichas catalográficas), NBR 6034:2004 (índices), infografia funcional e acessibilidade.',
     questoes: simuladoNormalizacao100Q,
     submodulosIds: ['8.1', '8.2', '8.3', '8.4', '8.5'],
   },

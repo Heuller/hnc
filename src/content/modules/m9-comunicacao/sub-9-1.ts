@@ -40,7 +40,7 @@ export const submodulo91: ModuloFilho = {
   autoresChave: ['A. J. Meadows', 'Derek de Solla Price', 'Robert K. Merton', 'William Garvey & Belver Griffith', 'John Ziman'],
   alertasCebraspe: [
     'Diferenciação canônica entre canais formais e informais (A. J. Meadows / Garvey-Griffith): Canais Formais (periódicos científicos revisados, livros acadêmicos, patentes) têm validação institucional, registro público permanente, ampla acessibilidade e controle bibliográfico; Canais Informais (conversas de laboratório, e-mails, colégios invisíveis, reuniões científicas) são efêmeros, rápidos, não indexados e sem controle bibliográfico prévio.',
-    'Colégios Invisíveis (Derek de Solla Price): redes informais de cooperação ativa e ágil entre pesquisadores de ponta que compartilham dados, manuscritos preliminares e impressões muito antes da publicação formal. O Cebraspe adora afirmar que nos colégios invisíveis os cientistas "são isolados e não se comunicam": ERRADO!',
+    'Colégios Invisíveis (Derek de Solla Price): redes informais de cooperação ativa e ágil entre pesquisadores de ponta que compartilham dados, manuscritos preliminares e impressões muito antes da publicação formal. A técnica de distrator recorrente consiste em afirmar que nos colégios invisíveis os cientistas "são isolados e não se comunicam": ERRADO!',
     'As Quatro Normas Institucionais de Merton (Ethos Científico - CUDOS): Comunismo/Comunalismo (conhecimento como herança pública comum), Universalismo (critérios de validade independentes da pessoa do cientista), Desinteresse (motivação pela verdade, e não por ganho pessoal escuso) e Ceticismo Organizado (escrutínio crítico e suspensão de juízo até provas empíricas).',
     'Avaliação por Pares (Peer Review): simples-cega (o autor não sabe quem é o avaliador, mas o avaliador sabe quem é o autor); duplo-cega / double-blind (nem autor nem avaliador sabem a identidade recíproca - anonimização tradicional); aberta / open peer review (as identidades de autor e avaliador são públicas e os pareceres podem ser divulgados com o artigo).',
     'Preprints: manuscritos científicos completos disponibilizados publicamente em servidores abertos (arXiv, SciELO Preprints, bioRxiv) ANTES de passarem pela avaliação formal por pares, garantindo prioridade de descoberta e disseminação em tempo real.',
@@ -108,7 +108,7 @@ CONS | 6. Saber Consolidado | Livros Didáticos e Tratados | O conhecimento test
   * Conceito cunhado pelo historiador da ciência **Derek de Solla Price** (*Little Science, Big Science*, 1963):
   * Descreve as redes informais de cooperação e interlocução ágil mantidas pelos principais pesquisadores situados na vanguarda de determinada especialidade científica.
   * *Mecanismo Operacional:* Troca contínua de impressões, dados brutos, manuscritos não publicados e comentários críticos por canais diretos (antigamente por cartas e encontros pessoais; hoje por e-mail, redes sociais acadêmicas e aplicativos de mensagens).
-  * *⚠️ Atenção Cebraspe:* A banca adora afirmar que os cientistas dos colégios invisíveis trabalham isolados ou não dialogam entre si. **ERRADO!** Os colégios invisíveis são justamente os canais informais mais intensos, velozes e influentes de cooperação científica internacional.
+  * *⚠️ Atenção Cebraspe:* Assertiva típica de distrator afirma que os cientistas dos colégios invisíveis trabalham isolados ou não dialogam entre si. **ERRADO!** Os colégios invisíveis são justamente os canais informais mais intensos, velozes e influentes de cooperação científica internacional.
 
 ---
 
@@ -189,7 +189,7 @@ O **Ciclo da Comunicação Científica**, seus canais formais e informais e os m
       pergunta: 'Micro-Checkpoint 1: Os Colégios Invisíveis de Solla Price',
       item: 'No âmbito da comunicação científica, a teoria dos colégios invisíveis descreve redes de trabalho científico compostas por pesquisadores que se isolam institucionalmente e que não se comunicam entre si.',
       gabarito: 'E',
-      justificativa: 'Errado! Essa é uma casca de banana clássica do Cebraspe (SUFRAMA). Os colégios invisíveis são exatamente o OPOSTO: redes intensas e ágeis de comunicação informal direta e compartilhamento entre cientistas.',
+      justificativa: 'Errado! Técnica de distrator com inversão conceitual (SUFRAMA). Os colégios invisíveis são exatamente o OPOSTO: redes intensas e ágeis de comunicação informal direta e compartilhamento entre cientistas.',
     },
     {
       id: 'cp-9-1-2',

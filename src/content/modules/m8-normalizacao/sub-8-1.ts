@@ -40,7 +40,7 @@ export const submodulo81: ModuloFilho = {
   autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
   alertasCebraspe: [
     'O destaque tipográfico na NBR 6023:2025: o título da obra deve ser destacado com itálico, negrito OU sublinhado (aplicado uniformemente a todas as referências do trabalho). O subtítulo NUNCA recebe destaque tipográfico! Além disso, é TERMINANTEMENTE PROIBIDO usar aspas para destacar o título de um livro referenciado.',
-    'Regras de Autoria na NBR 6023:2025: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". O Cebraspe adora inventar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2025), é uma FACULDADE!',
+    'Regras de Autoria na NBR 6023:2025: para obras com até três autores, indicam-se todos, separados por ponto e vírgula seguidos de espaço. Para obras com quatro ou mais autores, a regra geral é indicar todos os autores; permite-se, facultativamente, indicar apenas o primeiro seguido da expressão "et al.". A técnica de distrator consiste em afirmar que o uso de "et al." é obrigatório: na edição vigente (ABNT NBR 6023:2025), é uma FACULDADE!',
     'Em artigos de periódicos (revistas científicas), quem recebe o destaque tipográfico (negrito/itálico) é o TÍTULO DO PERIÓDICO, e JAMAIS o título do artigo!',
     'Documentos Eletrônicos em Linha: a indicação da disponibilidade e da data de acesso é elemento essencial, registrada no formato: "Disponível em: URL. Acesso em: dia mês abreviado ano" (ex.: "Disponível em: https://www.camara.leg.br. Acesso em: 15 mar. 2026."). Todos os meses do ano são abreviados nas três primeiras letras com ponto, COM A EXCEÇÃO ABSOLUTA DO MÊS DE MAIO, que se grafa por extenso!',
     'Indicação de Edição: indica-se a partir da segunda edição, utilizando números arábicos seguidos de ponto e da abreviatura da palavra edição na língua do texto (ex.: "2. ed.", "3. ed. rev. e ampl."). A primeira edição NUNCA se indica.',
@@ -150,6 +150,18 @@ TITLE: Tipos de Autoria e Regras de Entrada (ABNT NBR 6023)
   * Na indicação de datas de fascículos periódicos ou datas de acesso a documentos eletrônicos na Web, **todos os meses são abreviados pelas suas três primeiras letras seguidas de ponto final**:
   * \`jan.\`, \`fev.\`, \`mar.\`, \`abr.\`, \`jun.\`, \`jul.\`, \`ago.\`, \`set.\`, \`out.\`, \`nov.\`, \`dez.\`.
   * **A Exceção Inegociável da Norma:** O mês de **MAIO** possui quatro letras e **NÃO se abrevia** (grafa-se integralmente por extenso: \`maio\`).
+
+---
+
+
+### 6. Atualizações Específicas da ABNT NBR 6023:2025 (3ª Edição)
+
+A leitura do texto técnico da 3ª edição da ABNT NBR 6023 (publicada em 21/05/2025) consolida cinco inovações cruciais para provas de concurso:
+1. **ISSN como Elemento Complementar (subseção 7.7.1):** O ISSN em publicações periódicas deixa de ser categorizado como elemento essencial e passa expressamente a elemento complementar.
+2. **Suplementos e Números Especiais (subseção 7.7.4):** A indicação de suplementos e números especiais, quando presentes no documento, passa a ser obrigatória logo após a data de publicação do fascículo.
+3. **Artigos Eletrônicos com DOI e e-localização (subseção 7.7.6):** A inclusão de identificador persistente (DOI) e da e-localização (*e-location ID*) passa a ser expressamente integrada na descrição de artigos eletrônicos.
+4. **Cidade do Evento Científico (subseção 7.8.1):** Em anais de eventos científicos, a indicação do local (cidade) de realização deixa de ser obrigatória quando essa informação não estiver disponível no documento consultado.
+5. **Data de Julgamento em Jurisprudência (subseção 7.11.3):** Para decisões judiciais, súmulas e acórdãos, a data de julgamento passa a ser elemento de indicação obrigatória na referência, sempre que disponível.
 
 ---
 

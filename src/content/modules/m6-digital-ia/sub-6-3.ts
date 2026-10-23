@@ -17,7 +17,7 @@ export const submodulo63: ModuloFilho = {
           "motivo": "Fixidez e hashes SHA-256 no dicionário PREMIS."
       }
   ],
-  titulo: 'Preservação Digital: OAIS (ISO 14721), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas',
+  titulo: 'Preservação Digital: OAIS (ISO 14721:2025), Fixidez, Formatos Abertos (ISO) e Estratégias Práticas',
   antesDeLer: [
     {
       termo: 'Modelo OAIS (ISO 14721)',
@@ -77,7 +77,7 @@ Preservar documentos digitais é um desafio radicalmente mais complexo e dinâmi
    * Assegura que o documento não sofreu adulterações fraudulentas ou corrupções acidentais, mantendo sua validade jurídica e probatória (projeto InterPARES / Luciana Duranti).
 
 > [!CAUTION]
-> **Pegadinha Clássica do Cebraspe:** A banca afirma que "a realização sistemática de rotinas de backup garante a preservação digital de longo prazo dos documentos de uma biblioteca". **ERRADO!** O backup é mera cópia física de segurança para recuperação de curto prazo em caso de desastre operacional. Ele não resolve a obsolescência de formatos nem registra metadados de proveniência e autenticidade.
+> **distrator típico de concurso:** A banca afirma que "a realização sistemática de rotinas de backup garante a preservação digital de longo prazo dos documentos de uma biblioteca". **ERRADO!** O backup é mera cópia física de segurança para recuperação de curto prazo em caso de desastre operacional. Ele não resolve a obsolescência de formatos nem registra metadados de proveniência e autenticidade.
 
 ---
 
@@ -261,7 +261,7 @@ A **Preservação Digital** visa garantir a integridade, confiabilidade e acessi
 ---
 
 ### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **ISO 14721:2012 (CCSDS 650.0-M-2).** *Space data and information transfer systems — Open archival information system (OAIS) — Reference model*. Genebra: ISO, 2012. (A norma mundial de preservação digital).
+- **ISO 14721:2025.** *Space data system practices — Open archival information system (OAIS) — Reference model*. Genebra: ISO, 2025. (Edição emitida em 10/03/2025 que sucede e atualiza a ISO 14721:2012 / CCSDS 650.0-M-2).
 - **CONSELHO NACIONAL DE ARQUIVOS (CONARQ).** *Diretrizes para a Presunção de Autenticidade de Documentos Arquivísticos Digitais*. Rio de Janeiro: CONARQ, 2015.
 - **ARELLANO, Miguel Ángel Mardero.** Critérios para a preservação digital da informação científica. *Ciência da Informação*, v. 33, n. 2, p. 15-27, 2004. (Artigo canônico do IBICT mais cobrado em provas).
 - **THOMAZ, Katia Pires; SOARES, Antônio José.** A preservação de documentos eletrônicos: uma visão contemporânea. *Ciência da Informação*, v. 33, n. 1, p. 86-92, 2004.
