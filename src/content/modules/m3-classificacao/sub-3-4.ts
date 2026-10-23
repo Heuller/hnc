@@ -214,6 +214,21 @@ O Edital nº 1/2026 (Cargo 5, Bloco D, item 3.13) elenca expressamente **cinco c
 
 ---
 
+### 6. Indexação Automática e Extração Terminológica sob o Princípio da Univocidade
+
+Com a proliferação exponencial de proposições legislativas em texto integral, diários oficiais e acervos digitais, a **indexação automática** consolidou-se como instrumento indispensável de apoio ao trabalho do catalogador humano:
+
+#### A. Modalidades de Indexação Automática
+1. **Indexação por Extração (*Derived Indexing*):** Os termos de indexação são extraídos diretamente do próprio texto analisado, selecionados com base em métricas estatísticas e morfológicas (frequência de ocorrência segundo a Lei de Zipf, corte de palavras funcionais/stopwords e cálculo ponderado de TF-IDF — *Term Frequency-Inverse Document Frequency*).
+2. **Indexação por Atribuição (*Assigned Indexing*):** O sistema computacional analisa o texto e atribui descritores padronizados oriundos de um vocabulário controlado externo (como o Vocabulário Controlado Básico da RVBI ou o Tesauro do Congresso Nacional). Exige mecanismos de processamento de linguagem natural (PLN), ontologias e aprendizado de máquina para mapear expressões em linguagem natural aos termos canônicos.
+
+#### B. A Preservação da Univocidade no Processamento Automatizado
+O maior desafio dos algoritmos de indexação automática reside na garantia da **univocidade** (relação biunívoca entre termo autorizado e conceito):
+* **Desambiguação Semântica:** O algoritmo deve desambiguar homógrafos (ex.: *pena* como sanção penal versus *pena* como pluma; *banco* como instituição financeira versus assento físico) por meio da análise de coocorrência léxica e contexto frasal (*word sense disambiguation*).
+* **Controle de Sinônimos:** Expressões variantes e jargões devem ser mapeados automaticamente para o descritor preferido (\`USE\`), assegurando que consultas posteriores pelo termo autorizado recuperem todos os documentos pertinentes, sem redundâncias nem dispersão semântica.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **BIBFRAME 2.0 e Linked Data (sub-2-7):** Modelagem de tesauros e vocabulários controlados em SKOS e RDF.
 * **IA Aplicada à Informação (sub-6-7):** Uso de taxonomias e ontologias para extração semântica e controle de alucinações em RAG.

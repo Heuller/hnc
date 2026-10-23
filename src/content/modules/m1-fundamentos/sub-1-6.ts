@@ -227,6 +227,22 @@ O criador da World Wide Web propôs uma escala progressiva de maturidade para a 
 
 ---
 
+### 4. Direito Autoral e Limitações Legais em Bibliotecas (Lei nº 9.610/1998)
+
+No contexto do serviço público, bibliotecas parlamentares e centros de documentação, o tratamento de obras intelectuais submete-se ao regime estrito da **Lei nº 9.610/1998 (Lei de Direitos Autorais - LDA)**:
+
+#### A. A Inaplicabilidade de Direito Autoral a Atos Oficiais (Art. 8º da LDA)
+Conforme o art. 8º, inciso IV, da Lei nº 9.610/1998, **não são objeto de proteção como direitos autorais** os textos de tratados ou convenções, leis, decretos, regulamentos, decisões judiciais e demais atos oficiais dos poderes públicos. Tais conteúdos encontram-se em permanente regime de livre reprodução e circulação, constituindo a matéria-prima dos portais legislativos, diários oficiais e do consórcio LexML Brasil.
+
+#### B. As Limitações e Exceções aos Direitos Autorais (Arts. 46 a 48 da LDA)
+O ordenamento jurídico brasileiro adota o sistema de **rol taxativo (*numerus clausus*)**, não admitindo a doutrina flexível do *fair use* norte-americano. As principais hipóteses autorizadas sem necessidade de prévia licença do titular nem pagamento de retribuição compreendem:
+1. **Cópia Privada de Pequenos Trechos (Art. 46, II):** A reprodução, em um só exemplar de pequenos trechos, para uso privado do copista, desde que feita por este e sem intuito de lucro. A reprodução da obra em sua integralidade é ilícita, mesmo sem intuito lucrativo (Súmula 522/STJ).
+2. **Acessibilidade para Pessoas com Deficiência (Art. 46, I, "d"):** A reprodução de obras em formatos acessíveis (como Braille, áudio ou suportes táteis) para uso exclusivo de deficientes visuais ou com outras limitações de leitura, desde que sem finalidade lucrativa.
+3. **Citação em Trabalhos Técnicos (Art. 46, III):** A citação em livros, jornais ou relatórios para fins de estudo ou crítica, indicando-se o nome do autor e a fonte.
+4. **Preservação de Acervos:** A preservação e segurança de acervos públicos não autorizam a distribuição irrestrita ou digitalização integral de obras protegidas para empréstimo digital desprovido de base contratual ou cessão patrimonial formal.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **BIBFRAME 2.0 e Linked Data (sub-2-7):** Interoperabilidade semântica e publicação de dados abertos interconectados.
 * **IA Aplicada à Informação (sub-6-7):** Governança ética, linhagem (W3C PROV) e curadoria de corpora (Datasheets).

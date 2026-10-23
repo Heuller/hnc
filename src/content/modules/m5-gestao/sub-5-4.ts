@@ -184,6 +184,20 @@ No âmbito de órgãos governamentais de cúpula e do Poder Legislativo, a gest�
 
 ---
 
+### 7. Competência em Dados (Data Literacy) na Gestão do Conhecimento Legislativo
+
+No paradigma contemporâneo da gestão pública fundamentada em evidências, a **Competência em Dados (*Data Literacy*)** consolida-se como habilidade nuclear para bibliotecários e gestores da informação (**Javier Calzada Prado & Miguel Ángel Marzal, 2013; Tibor Koltay, 2017**):
+
+* **Distinção Essencial:** Enquanto a competência informacional (*Information Literacy*) foca em textos, documentos e fontes bibliográficas, a competência em dados lida diretamente com **conjuntos de dados brutos e estruturados (*datasets* e matrizes)**, estatísticas oficiais e fluxos de APIs.
+* **As Cinco Dimensões Nucleares de Calzada Prado & Marzal (2013):**
+  1. *Acesso e Descoberta:* Localização de bases de dados abertos governamentais (Portal Brasileiro de Dados Abertos, repositórios parlamentares);
+  2. *Avaliação e Crítica de Dados:* Verificação de fidedignidade, integridade de amostragem, vieses de coleta e qualidade dos metadados (DAMA-DMBOK);
+  3. *Gestão e Curadoria de Dados:* Aplicação de planos de gestão de dados (PGD), princípios FAIR e formatos abertos (CSV, JSON, Parquet);
+  4. *Análise Quantitativa e Interpretação:* Extração de sentido estatístico, correlações e inferências válidas a partir de dados brutos;
+  5. *Visualização e Comunicação Ética:* Apresentação clara em painéis analíticos (*dashboards*), respeitando a privacidade (LGPD), a proveniência e a veracidade dos dados.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Governança da Informação e de Dados (sub-1-6):** Modelos de Gestão do Conhecimento (Nonaka & Takeuchi) e governança DAMA.
 `,

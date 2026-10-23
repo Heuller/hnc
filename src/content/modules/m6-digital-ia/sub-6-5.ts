@@ -259,6 +259,26 @@ Um **Grafo de Conhecimento (*Knowledge Graph*)** representa uma rede semântica 
 
 ---
 
+### 6. Sistemas de Recomendação em Bibliotecas Digitais e Serviços de Informação
+
+Os **Sistemas de Recomendação (*Recommender Systems*)** são algoritmos de recuperação da informação que auxiliam o usuário na descoberta proativa de itens relevantes em meio a grandes acervos digitais (**Francesco Ricci, Lior Rokach & Bracha Shapira, 2015**):
+
+#### A. As Três Abordagens Canônicas
+1. **Filtragem Baseada em Conteúdo (*Content-Based Filtering*):**
+   * Recomenda itens com propriedades, termos de indexação ou metadados similares aos itens previamente consultados ou avaliados pelo usuário.
+   * Em bibliotecas: baseia-se na proximidade vetorial de descritores de tesauro (VCB/RVBI), cabeçalhos de assunto, termos do resumo ou classificação temática (CDD/CDDir).
+2. **Filtragem Colaborativa (*Collaborative Filtering*):**
+   * Recomenda itens com base nos padrões de comportamento, empréstimo e avaliação coletiva de usuários com histórico de interesse análogo (*user-based* ou *item-based*).
+   * Não depende dos metadados descritivos da obra: baseia-se na máxima "usuários que emprestaram a obra A também emprestaram a obra B".
+3. **Sistemas Híbridos (*Hybrid Recommender Systems*):**
+   * Combinam filtragem colaborativa e filtragem baseada em conteúdo para maximizar a precisão e mitigar limitações intrínsecas de cada método.
+   * **Superação do Problema do Início a Frio (*Cold-Start Problem*):** Quando um novo livro é incorporado ao acervo (ou um novo parlamentar ingressa no sistema), a ausência de histórico de circulação inviabiliza a filtragem colaborativa; nesses casos, a filtragem baseada em conteúdo atua de imediato com base nos metadados catalográficos do item.
+
+#### B. Aplicação no Ambiente Legislativo
+Em portais parlamentares e bibliotecas digitais especializadas, os sistemas de recomendação analisam comissões de atuação, discursos e histórico de pesquisas dos assessores para sugerir notas técnicas, anteprojetos correlatos e doutrina jurídica pertinente em tramitação.
+
+---
+
 ### 🔗 Veja Também (Articulação Intermódulos)
 * **Modelos Conceituais (LRM) (sub-2-3):** Distinção entre modelagem relacional computacional (MER) e LRM.
 * **Ciência de Dados e Text Mining (sub-14-4):** Estruturação de dados relacionais e não relacionais para análise.
