@@ -4,6 +4,7 @@ import { conceptRepository } from './concepts/conceptRepository';
 import { CASOS_INTEGRADORES } from './casosIntegradores/casosIntegradores';
 import type { CasoIntegrador } from './casosIntegradores/types';
 import { somarDiasUteis, ajustarParaDiaUtil } from './scheduler/unifiedScheduler';
+import { hojeLocalIso } from '../utils/dataLocal';
 
 export const EVIDENCIA_CIENTIFICA_FORMATOS: Record<
   ExerciseFormatId,
@@ -143,7 +144,7 @@ export function comporSubmoduloRevisao(params: {
     moduloNumero,
     moduloId,
     estadosConceitos = {},
-    dataAtualIso = new Date().toISOString().split('T')[0],
+    dataAtualIso = hojeLocalIso(),
     itensExcluidosIds,
   } = params;
 

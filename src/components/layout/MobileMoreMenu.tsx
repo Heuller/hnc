@@ -22,6 +22,7 @@ import {
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
+import { hojeLocalIso } from '../../utils/dataLocal';
 
 export const MobileMoreMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,7 +63,7 @@ export const MobileMoreMenu: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `heuller-na-camara-progresso-${new Date().toISOString().split('T')[0]}.md`;
+    link.download = `heuller-na-camara-progresso-${hojeLocalIso()}.md`;
     link.click();
     URL.revokeObjectURL(url);
     setIsOpen(false);

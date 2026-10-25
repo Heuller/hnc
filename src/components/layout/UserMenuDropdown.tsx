@@ -10,6 +10,7 @@ import {
 import { useAuthStore } from '../../store/useAuthStore';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useReaderPreferencesStore } from '../../store/useReaderPreferencesStore';
+import { hojeLocalIso } from '../../utils/dataLocal';
 
 export const UserMenuDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +51,7 @@ export const UserMenuDropdown: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `heuller-na-camara-progresso-${new Date().toISOString().split('T')[0]}.md`;
+    link.download = `heuller-na-camara-progresso-${hojeLocalIso()}.md`;
     link.click();
     URL.revokeObjectURL(url);
     setIsOpen(false);

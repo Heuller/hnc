@@ -26,6 +26,7 @@ import { useNavigationStore } from '../../store/useNavigationStore';
 import { getModuleTheme } from '../../domain/moduleThemes';
 import { ModuleBadge } from '../common/ModuleBadge';
 import { getItensCadernoErros } from '../../domain/cadernoErros';
+import { hojeLocalIso } from '../../utils/dataLocal';
 
 interface CardHojeCronogramaProps {
   className?: string;
@@ -38,7 +39,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
 
   // Data atual real ou data inicial do cronograma se anterior
   const hojeRealIso = useMemo(() => {
-    return new Date().toISOString().split('T')[0];
+    return hojeLocalIso();
   }, []);
 
   const [dataSelecionadaIso, setDataSelecionadaIso] = useState<string>(() => {

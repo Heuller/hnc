@@ -1,5 +1,6 @@
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import type { UserProgress, SimuladoFinalizado } from '../domain/schemas/progress.schema';
+import { hojeLocalIso } from '../utils/dataLocal';
 
 export const progressSyncService = {
   /**
@@ -28,7 +29,7 @@ export const progressSyncService = {
         secoesVisualizadas: data.secoes_visualizadas || {},
         leitnerDeck: data.leitner_deck || {},
         constancia: data.constancia || {
-          ultimoAcessoData: new Date().toISOString().split('T')[0],
+          ultimoAcessoData: hojeLocalIso(),
           diasConsecutivos: 1,
           historicoUltimos7Dias: [],
         },

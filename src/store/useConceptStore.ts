@@ -13,6 +13,7 @@ import {
 import type { ExerciseFormatId } from '../config/reviewConfig';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import { useAuthStore, registerSignOutListener } from './useAuthStore';
+import { hojeLocalIso } from '../utils/dataLocal';
 
 export interface EstatisticasDominio {
   totalConceitos: number;
@@ -89,7 +90,7 @@ export const useConceptStore = create<ConceptStoreState>()(
         tempoSegundos,
         dataAtualIso,
       }) => {
-        const hojeIso = dataAtualIso || new Date().toISOString().split('T')[0];
+        const hojeIso = dataAtualIso || hojeLocalIso();
         const user = useAuthStore.getState().user;
         const userId = user?.id || 'offline_user';
 
@@ -149,7 +150,7 @@ export const useConceptStore = create<ConceptStoreState>()(
 
       getFilaRevisaoHoje: (submodulosLiberados, limiteDiario, itensExcluidosIds, dataHojeIso) => {
         const conceitos = conceptRepository.getMapaCompleto();
-        const hojeIso = dataHojeIso || new Date().toISOString().split('T')[0];
+        const hojeIso = dataHojeIso || hojeLocalIso();
         return selecionarFilaRevisaoDiaria({
           estados: get().estados,
           conceitos,
@@ -162,7 +163,7 @@ export const useConceptStore = create<ConceptStoreState>()(
 
       getItensAgendadosHoje: (dataHojeIso) => {
         const conceitos = conceptRepository.getMapaCompleto();
-        const hojeIso = dataHojeIso || new Date().toISOString().split('T')[0];
+        const hojeIso = dataHojeIso || hojeLocalIso();
         const fila = selecionarFilaRevisaoDiaria({
           estados: get().estados,
           conceitos,
@@ -174,7 +175,7 @@ export const useConceptStore = create<ConceptStoreState>()(
       getEstatisticasDominio: () => {
         const conceitos = conceptRepository.getMapaCompleto();
         const estados = get().estados;
-        const hojeIso = ajustarParaDiaUtil(new Date().toISOString().split('T')[0]);
+        const hojeIso = ajustarParaDiaUtil(hojeLocalIso());
 
         const totalConceitos = Object.keys(conceitos).length;
         let novos = 0;
@@ -224,7 +225,7 @@ export const useConceptStore = create<ConceptStoreState>()(
 
       inicializarSubmodulos: (submoduloIds: string[], dataAtualIso?: string) => {
         const userId = useAuthStore.getState().user?.id || 'offline_user';
-        const hojeIso = dataAtualIso || new Date().toISOString().split('T')[0];
+        const hojeIso = dataAtualIso || hojeLocalIso();
         const novosEstados: Record<string, ConceptState> = {};
 
         for (const subId of submoduloIds) {

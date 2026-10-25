@@ -32,6 +32,7 @@ import {
 } from '../illustrations/ContextualIllustrations';
 import { obterItensVerificacaoSubmodulo } from '../../domain/progressoEngine';
 import { elegivelParaEstudo } from '../../domain/questoesElegiveis';
+import { hojeLocalIso } from '../../utils/dataLocal';
 
 interface PortaoVerificacaoModalProps {
   isOpen: boolean;
@@ -183,7 +184,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         moduloAlvoNumero: etapa.moduloNumero,
         bancoItens: todosCandidatos,
         leitnerDeck: leitnerDeck || {},
-        dataAtualIso: new Date().toISOString().split('T')[0],
+        dataAtualIso: hojeLocalIso(),
       });
 
       return res.itens.map((it) => ({

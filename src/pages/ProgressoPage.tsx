@@ -20,6 +20,7 @@ import { PainelOQueFunciona } from '../components/analytics/PainelOQueFunciona';
 import { PainelMedicaoContinuaW6 } from '../components/analytics/PainelMedicaoContinuaW6';
 import { IllustrationVazio } from '../components/illustrations/ContextualIllustrations';
 import { useNavigationStore } from '../store/useNavigationStore';
+import { hojeLocalIso } from '../utils/dataLocal';
 
 export const ProgressoPage: React.FC = () => {
   const { navigateToSimulado } = useNavigationStore();
@@ -87,7 +88,7 @@ export const ProgressoPage: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `heuller-camara-progresso-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `heuller-camara-progresso-${hojeLocalIso()}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -98,7 +99,7 @@ export const ProgressoPage: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `heuller-camara-relatorio-${new Date().toISOString().split('T')[0]}.md`;
+    a.download = `heuller-camara-relatorio-${hojeLocalIso()}.md`;
     a.click();
     URL.revokeObjectURL(url);
   };

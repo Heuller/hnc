@@ -2,6 +2,7 @@ import { REVIEW_CONFIG } from '../config/reviewConfig';
 import { isDiaUtil } from './scheduler/unifiedScheduler';
 import type { ConceptState } from './concepts/types';
 import { conceptRepository } from './concepts/conceptRepository';
+import { hojeLocalIso } from '../utils/dataLocal';
 
 export interface MarcoDisciplinaInfo {
   id: string;
@@ -142,7 +143,7 @@ export function calcularProjecaoTemporal(params: {
 }): ProjecaoTemporalResultado {
   const {
     estadosConceitos = {},
-    dataAtualIso = new Date().toISOString().split('T')[0],
+    dataAtualIso = hojeLocalIso(),
     dataProvaIso = REVIEW_CONFIG.examDateIso, // '2027-01-17'
     tetoDiario = REVIEW_CONFIG.dailyReviewCap, // 30
   } = params;

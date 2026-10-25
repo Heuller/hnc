@@ -32,6 +32,7 @@ import { JORNADA_CONFIG } from '../config/jornada.config';
 import { ProjecaoTemporalCard } from '../components/review/ProjecaoTemporalCard';
 import { METRICAS_ACERVO } from '../domain/metrics/acervoMetricas';
 import { CardHojeCronograma } from '../components/cronograma/CardHojeCronograma';
+import { diasAtrasIso, diaDaSemanaIso } from '../utils/dataLocal';
 
 export const PainelPage: React.FC = () => {
   const {
@@ -80,10 +81,8 @@ export const PainelPage: React.FC = () => {
   const ultimos7DiasArray: { data: string; ativo: boolean; label: string }[] = [];
   const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
   for (let i = 6; i >= 0; i--) {
-    const d = new Date();
-    d.setDate(d.getDate() - i);
-    const dateStr = d.toISOString().split('T')[0];
-    const dayLabel = diasSemana[d.getDay()];
+    const dateStr = diasAtrasIso(i);
+    const dayLabel = diasSemana[diaDaSemanaIso(dateStr)];
     ultimos7DiasArray.push({
       data: dateStr,
       ativo: constancia.historicoUltimos7Dias.includes(dateStr),
