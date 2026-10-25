@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
-import { describe, it, expect, beforeEach } from 'vitest';
-import { discursivaService } from '../domain/discursiva/discursivaService';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+import { discursivaService, DiscursivaIndisponivelError } from '../domain/discursiva/discursivaService';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../domain/discursiva/temasOficiais';
 
 describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - Item 9)', () => {
@@ -49,74 +49,68 @@ describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - 
     });
   });
 
-  describe('discursivaService e Aplicação das Fórmulas Oficiais dos Itens 9.8.4 e 9.8.5', () => {
-    it('deve aplicar estritamente a fórmula da Questão: NQ = NC - 3 × (NE / TL) (Edital 1/2026, item 9.8.4)', async () => {
-      const tema = TEMAS_OFICIAIS_DISCURSIVA.find((t) => t.tipo === 'questao_20')!;
-      const texto =
-        'O desbastamento e o descarte constituem etapas essenciais da gestão de coleções em bibliotecas parlamentares. ' +
-        'O desbastamento consiste na transferência física temporária de documentos para depósitos secundários sem exclusão patrimonial. ' +
-        'Já o descarte implica a alienação definitiva do material bibliográfico, observadas as restrições de obras raras.';
+  describe('discursivaService: nunca fabrica nota', () => {
+    const tema = () => TEMAS_OFICIAIS_DISCURSIVA.find((t) => t.tipo === 'questao_20')!;
+    const texto =
+      'O desbastamento consiste na transferência física temporária de documentos para depósitos secundários sem exclusão patrimonial. ' +
+      'Já o descarte implica a alienação definitiva do material bibliográfico, observadas as restrições de obras raras.';
 
-      const avaliacao = await discursivaService.avaliarRedacao(tema, texto, 18);
-
-      expect(avaliacao).toBeDefined();
-      expect(avaliacao.totalLinhas).toBe(18);
-      expect(avaliacao.notaConteudo).toBeGreaterThan(0);
-      expect(avaliacao.notaConteudoMaxima).toBe(15.0);
-
-      // Verificação da fórmula oficial do item 9.8.4: desconto = 3 * (NE / TL)
-      const descontoCalculado = Number((3 * (avaliacao.numErrosGramaticais / avaliacao.totalLinhas)).toFixed(2));
-      expect(avaliacao.descontoGramatical).toBe(descontoCalculado);
-
-      const notaFinalCalculada = Math.max(0, Number((avaliacao.notaConteudo - descontoCalculado).toFixed(2)));
-      expect(avaliacao.notaFinal).toBe(notaFinalCalculada);
-
-      // Verificação da situação (aprovação se notaFinal >= 50% = 7.50)
-      if (avaliacao.notaFinal >= 7.5) {
-        expect(avaliacao.situacao).toBe('HABILITADO');
-      } else {
-        expect(avaliacao.situacao).toBe('ELIMINADO');
-      }
+    afterEach(() => {
+      vi.unstubAllGlobals();
     });
 
-    it('deve aplicar estritamente a fórmula da Peça Técnica: NPT = NC - 6 × (NE / TL) (Edital 1/2026, item 9.8.5)', async () => {
-      const tema = TEMAS_OFICIAIS_DISCURSIVA.find((t) => t.tipo === 'peca_50')!;
-      const texto =
-        'Trata-se de proposta técnica para modernização da memória documental da Câmara dos Deputados mediante implantação do modelo OAIS. ' +
-        'O fluxo contempla a ingestão dos pacotes SIP, a guarda permanente no padrão AIP com metadados PREMIS e a difusão no formato DIP via web...';
-
-      const avaliacao = await discursivaService.avaliarRedacao(tema, texto, 45);
-
-      expect(avaliacao).toBeDefined();
-      expect(avaliacao.totalLinhas).toBe(45);
-      expect(avaliacao.notaConteudo).toBeGreaterThan(0);
-      expect(avaliacao.notaConteudoMaxima).toBe(30.0);
-
-      // Verificação da fórmula oficial do item 9.8.5: desconto = 6 * (NE / TL)
-      const descontoCalculado = Number((6 * (avaliacao.numErrosGramaticais / avaliacao.totalLinhas)).toFixed(2));
-      expect(avaliacao.descontoGramatical).toBe(descontoCalculado);
-
-      const notaFinalCalculada = Math.max(0, Number((avaliacao.notaConteudo - descontoCalculado).toFixed(2)));
-      expect(avaliacao.notaFinal).toBe(notaFinalCalculada);
-
-      // Verificação da situação (aprovação se notaFinal >= 50% = 15.00)
-      if (avaliacao.notaFinal >= 15.0) {
-        expect(avaliacao.situacao).toBe('HABILITADO');
-      } else {
-        expect(avaliacao.situacao).toBe('ELIMINADO');
-      }
+    it('lança erro e NÃO salva nada quando a rede falha', async () => {
+      vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline')));
+      await expect(discursivaService.avaliarRedacao(tema(), texto, 18)).rejects.toBeInstanceOf(DiscursivaIndisponivelError);
+      expect(discursivaService.listarAvaliacoesLocais()).toHaveLength(0);
     });
 
-    it('deve salvar e listar avaliações no histórico local', async () => {
-      const tema = TEMAS_OFICIAIS_DISCURSIVA[1];
-      const texto = 'A evolução conceitual do AACR2 para o RDA e IFLA LRM ampliou a interoperabilidade...';
+    it('lança erro com a mensagem do servidor quando a IA não está configurada (503)', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn().mockResolvedValue({
+          ok: false,
+          status: 503,
+          json: async () => ({ error: 'Correção por IA indisponível no momento.', code: 'AI_NOT_CONFIGURED' }),
+        })
+      );
+      await expect(discursivaService.avaliarRedacao(tema(), texto, 18)).rejects.toThrow('Correção por IA indisponível');
+      expect(discursivaService.listarAvaliacoesLocais()).toHaveLength(0);
+    });
 
-      const avaliacao = await discursivaService.avaliarRedacao(tema, texto, 15);
-      const salvas = discursivaService.listarAvaliacoesLocais();
+    it('rejeita resposta incompleta do servidor sem registrar nota', async () => {
+      vi.stubGlobal(
+        'fetch',
+        vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({ notaFinal: 10 }) })
+      );
+      await expect(discursivaService.avaliarRedacao(tema(), texto, 18)).rejects.toBeInstanceOf(DiscursivaIndisponivelError);
+      expect(discursivaService.listarAvaliacoesLocais()).toHaveLength(0);
+    });
 
-      expect(salvas.length).toBeGreaterThan(0);
-      expect(salvas[0].id).toBe(avaliacao.id);
-      expect(salvas[0].temaId).toBe(tema.id);
+    it('salva e devolve a avaliação quando o servidor responde no formato esperado', async () => {
+      const resposta = {
+        id: 'eval-1',
+        dataAvaliacao: new Date().toISOString(),
+        temaId: 'x',
+        tipo: 'questao_20',
+        totalLinhas: 18,
+        notaConteudo: 12,
+        notaConteudoMaxima: 15,
+        numErrosGramaticais: 1,
+        descontoGramatical: 0.17,
+        notaFinal: 11.83,
+        formulaAplicada: 'NQ = ...',
+        situacao: 'HABILITADO',
+        criterios: [],
+        errosGramaticais: [],
+        pontosFortes: [],
+        lacunasIdentificadas: [],
+        parecerGeralExaminador: 'ok',
+      };
+      vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => resposta }));
+      const av = await discursivaService.avaliarRedacao(tema(), texto, 18);
+      expect(av.notaFinal).toBe(11.83);
+      expect(discursivaService.listarAvaliacoesLocais()[0].id).toBe('eval-1');
     });
   });
 

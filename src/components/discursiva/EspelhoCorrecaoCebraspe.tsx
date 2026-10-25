@@ -35,10 +35,10 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-700 dark:text-purple-400">
-              Espelho Oficial de Correção
+              Estimativa de correção por IA
             </span>
             <span className="text-xs text-ink-2">•</span>
-            <span className="text-xs text-ink-2 font-mono">Banca Cebraspe / Câmara dos Deputados</span>
+            <span className="text-xs text-ink-2 font-mono">Simulação do HNC, não é a banca</span>
           </div>
           <h2 className="text-lg sm:text-xl font-serif font-bold text-ink flex items-center gap-2">
             <span>Resultado da Prova Discursiva</span>
@@ -49,7 +49,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
                   : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
               }`}
             >
-              {isHabilitado ? 'HABILITADO (≥ 60%)' : 'ELIMINADO (< 60%)'}
+              {isHabilitado ? 'ACIMA DA REFERÊNCIA (≥ 2/3 da nota)' : 'ABAIXO DA REFERÊNCIA (< 2/3 da nota)'}
             </span>
           </h2>
         </div>

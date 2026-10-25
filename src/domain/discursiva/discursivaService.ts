@@ -1,8 +1,31 @@
 import type { TemaDiscursiva, AvaliacaoCebraspe } from './types';
-import { notaQuestao, notaPeca } from './formulas';
 import { useAuthStore } from '../../store/useAuthStore';
 
 const STORAGE_AVALIACOES_KEY = 'hnc_discursiva_avaliacoes_v1';
+
+export class DiscursivaIndisponivelError extends Error {
+  readonly status?: number;
+
+  constructor(message: string, status?: number) {
+    super(message);
+    this.name = 'DiscursivaIndisponivelError';
+    this.status = status;
+  }
+}
+
+function avaliacaoValida(d: unknown): d is AvaliacaoCebraspe {
+  const a = d as Partial<AvaliacaoCebraspe> | null;
+  return (
+    !!a &&
+    typeof a.notaFinal === 'number' &&
+    typeof a.notaConteudo === 'number' &&
+    Array.isArray(a.criterios) &&
+    Array.isArray(a.errosGramaticais) &&
+    Array.isArray(a.pontosFortes) &&
+    Array.isArray(a.lacunasIdentificadas) &&
+    (a.situacao === 'HABILITADO' || a.situacao === 'ELIMINADO')
+  );
+}
 
 export class DiscursivaService {
   /**
@@ -31,7 +54,7 @@ export class DiscursivaService {
   }
 
   /**
-   * Solicita a correção oficial Cebraspe conforme Itens 9.8.4 e 9.8.5 do Edital nº 1/2026
+   * Solicita uma estimativa de correção por IA (fórmulas dos itens 9.8.5.1 e 9.8.5.2 do Edital nº 1/2026, aplicadas no servidor). Nunca fabrica nota: se o servidor falhar, lança DiscursivaIndisponivelError e nada é salvo
    */
   public async avaliarRedacao(
     tema: TemaDiscursiva,
@@ -41,13 +64,7 @@ export class DiscursivaService {
     const textoLimpo = textoCandidato.trim();
     const totalLinhas = Math.max(1, linhasEstimadas || Math.ceil(textoLimpo.length / 70));
     
-    // Regra Oficial do Edital 1/2026 (Item 9):
-    // Questão (até 20 linhas): máx 15.00 pontos | Desconto: NQ = NC - 3 × (NE / TL) (item 9.8.4)
-    // Peça técnica (até 50 linhas): máx 30.00 pontos | Desconto: NPT = NC - 6 × (NE / TL) (item 9.8.5)
-    const isPeca = tema.tipo === 'peca_50';
-    const notaMaximaGeral = isPeca ? 30.0 : 15.0;
-    const fatorDesconto = isPeca ? 6 : 3;
-
+    let response: Response;
     try {
       const session = useAuthStore.getState().session;
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
@@ -55,87 +72,46 @@ export class DiscursivaService {
         headers['Authorization'] = `Bearer ${session.access_token}`;
       }
 
-      const response = await fetch('/api/evaluate-discursiva', {
+      response = await fetch('/api/evaluate-discursiva', {
         method: 'POST',
         headers,
         body: JSON.stringify({
           titulo: tema.titulo,
           tipo: tema.tipo,
           enunciado: tema.enunciado,
-          limiteLinhas: tema.limiteLinhas,
           padraoResposta: tema.padraoRespostaPreliminar,
-          criteriosPontuacao: tema.criteriosPontuacao,
+          criteriosPontuacao: tema.criteriosPontuacao.map((c) => ({
+            item: c.item,
+            pontuacaoMaxima: c.pontuacaoMaxima,
+            descricaoEsperada: c.descricaoEsperada,
+          })),
           textoCandidato: textoLimpo,
           linhasEstimadas: totalLinhas,
-          fatorDesconto,
-          notaMaxima: notaMaximaGeral,
         }),
       });
-
-      if (response.ok) {
-        const data = await response.json();
-        if (data && typeof data.notaFinal === 'number') {
-          this.salvarAvaliacaoLocal(data);
-          return data;
-        }
-      }
     } catch {
-      // Falha de rede ou offline -> prossegue para o fallback estrito local
+      throw new DiscursivaIndisponivelError(
+        'Sem conexão com o servidor de correção. Sua resposta não foi avaliada. Use a autocorreção por rubrica.'
+      );
     }
 
-    // Fallback Offline com aplicação da fórmula oficial do Edital nº 1/2026
-    const notaConteudo = Number((notaMaximaGeral * 0.78).toFixed(2));
-    const numErros = 2; // Erros simulados de grafia, morfossintaxe ou propriedade vocabular
-    const desconto = Number((fatorDesconto * (numErros / totalLinhas)).toFixed(2));
-    const notaFinal = isPeca
-      ? notaPeca(notaConteudo, numErros, totalLinhas)
-      : notaQuestao(notaConteudo, numErros, totalLinhas);
+    if (!response.ok) {
+      let mensagem = 'A correção por IA não está disponível agora. Use a autocorreção por rubrica.';
+      try {
+        const corpo = await response.json();
+        if (typeof corpo?.error === 'string') mensagem = corpo.error;
+      } catch {
+        // mantém a mensagem padrão
+      }
+      throw new DiscursivaIndisponivelError(mensagem, response.status);
+    }
 
-    const formulaIdentificador = isPeca
-      ? `NPT = NC - 6 × (NE / TL) = ${notaConteudo} - 6 × (${numErros} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5)`
-      : `NQ = NC - 3 × (NE / TL) = ${notaConteudo} - 3 × (${numErros} / ${totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.4)`;
-
-    const avaliacaoOffline: AvaliacaoCebraspe = {
-      id: `eval-offline-${Date.now()}`,
-      dataAvaliacao: new Date().toISOString(),
-      temaId: tema.id,
-      tipo: tema.tipo,
-      totalLinhas,
-      notaConteudo,
-      notaConteudoMaxima: notaMaximaGeral,
-      numErrosGramaticais: numErros,
-      descontoGramatical: desconto,
-      notaFinal,
-      formulaAplicada: formulaIdentificador,
-      situacao: notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO',
-      criterios: tema.criteriosPontuacao.map((c, idx) => ({
-        item: c.item,
-        notaObtida: Number((c.pontuacaoMaxima * (idx === 0 ? 0.8 : 0.76)).toFixed(2)),
-        notaMaxima: c.pontuacaoMaxima,
-        parecer: `Abordagem técnica consistente dos tópicos exigidos no padrão preliminar Cebraspe.`,
-      })),
-      errosGramaticais: [
-        {
-          linha: 2,
-          trecho: 'de acordo com o exposto',
-          correcao: 'conforme o exposto',
-          explicacao: 'Morfossintaxe e concisão: simplificação recomendada pela redação oficial parlamentar.',
-          tipo: 'morfossintaxe',
-        },
-      ],
-      pontosFortes: [
-        'Atendimento integral à delimitação temática proposta pela banca.',
-        'Extensão textual em conformidade com o limite de linhas do Edital nº 1/2026.',
-      ],
-      lacunasIdentificadas: [
-        'Reforçar a fundamentação técnica com citação literal de dispositivos ou padrões internacionais.',
-      ],
-      parecerGeralExaminador:
-        `Avaliação calculada conforme os critérios do Item 9 do Edital nº 1/2026 da Câmara dos Deputados (Cebraspe). O texto demonstrou domínio terminológico e estruturação adequada à modalidade escrita.`,
-    };
-
-    this.salvarAvaliacaoLocal(avaliacaoOffline);
-    return avaliacaoOffline;
+    const data = await response.json();
+    if (!avaliacaoValida(data)) {
+      throw new DiscursivaIndisponivelError('A resposta do servidor de correção veio incompleta. Nenhuma nota foi registrada.');
+    }
+    this.salvarAvaliacaoLocal(data);
+    return data;
   }
 }
 
