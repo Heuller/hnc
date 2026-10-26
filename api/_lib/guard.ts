@@ -121,7 +121,6 @@ export async function checkRateLimit(
   const key = `${userId}:${endpoint}`;
 
   const timestamps = rateLimitCache.get(key) || [];
-  // Filtra timestamps dentro da janela de 24 horas
   const active24h = timestamps.filter((t) => now - t < RATE_LIMIT_24H_WINDOW_MS);
 
   if (active24h.length >= RATE_LIMIT_24H_MAX) {
@@ -137,25 +136,37 @@ export async function checkRateLimit(
     return { allowed: false, retryAfterSeconds: Math.max(1, retryAfter) };
   }
 
-  active24h.push(now);
-  rateLimitCache.set(key, active24h);
-
-  // Opcional: Persistência na tabela api_rate_limit se Supabase service role estiver disponível
+  // Cada instância serverless tem o seu Map; o limite que vale entre instâncias está na tabela
+  // api_rate_limit (só service_role acessa). Se a tabela não responder, vale o limite em memória.
   const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (supabaseUrl && serviceKey) {
     try {
       const supabase = createClient(supabaseUrl, serviceKey);
+      const contar = (desdeMs: number) =>
+        supabase
+          .from('api_rate_limit')
+          .select('id', { count: 'exact', head: true })
+          .eq('user_id', userId)
+          .eq('endpoint', endpoint)
+          .gte('created_at', new Date(now - desdeMs).toISOString());
+      const [c24, c10] = await Promise.all([contar(RATE_LIMIT_24H_WINDOW_MS), contar(RATE_LIMIT_10M_WINDOW_MS)]);
+      if (!c24.error && !c10.error) {
+        if ((c24.count ?? 0) >= RATE_LIMIT_24H_MAX) return { allowed: false, retryAfterSeconds: 3600 };
+        if ((c10.count ?? 0) >= RATE_LIMIT_10M_MAX) return { allowed: false, retryAfterSeconds: 600 };
+      }
       await supabase.from('api_rate_limit').insert({
         user_id: userId,
         endpoint,
         created_at: new Date(now).toISOString(),
       });
     } catch {
-      // Ignora erro de inserção para não travar o fluxo caso tabela ainda não exista
+      // tabela indisponível: segue só com o limite em memória
     }
   }
 
+  active24h.push(now);
+  rateLimitCache.set(key, active24h);
   return { allowed: true };
 }
 
