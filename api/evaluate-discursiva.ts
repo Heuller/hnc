@@ -298,8 +298,9 @@ export function montarAvaliacao(parsed: any, ctx: ContextoAvaliacao) {
     ? `NPT = NC - 6 × (${numErros} / ${ctx.totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.2)`
     : `NQ = NC - 3 × (${numErros} / ${ctx.totalLinhas}) = ${notaFinal} (Edital nº 1/2026, item 9.8.5.1)`;
 
-  // O edital (9.8.5.4) exige NFPD >= 30 de 45 pontos (2/3). Referência proporcional por resposta.
-  const situacao = notaFinal >= notaMaximaGeral * (2 / 3) ? 'HABILITADO' : 'ELIMINADO';
+  // Edital 9.8.5.3/9.8.5.4: NFPD = NQ1 + NQ2 + NPT (máx. 60) e aprovação com NFPD >= 30, ou seja, 50%.
+  // Aqui é só uma referência proporcional por resposta; a aprovação real soma as três provas.
+  const situacao = notaFinal >= notaMaximaGeral * 0.5 ? 'HABILITADO' : 'ELIMINADO';
 
   return {
     id: `eval-${Date.now()}`,

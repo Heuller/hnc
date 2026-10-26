@@ -43,18 +43,18 @@ describe('api/evaluate-discursiva: montarAvaliacao', () => {
     expect(av.errosGramaticais[0].tipo).toBe('pontuacao');
   });
 
-  it('usa a fórmula da peça técnica (fator 6) e o corte de 2/3', () => {
+  it('usa a fórmula da peça técnica (fator 6) e a referência de 50% (NFPD >= 30 de 60)', () => {
     const av = montarAvaliacao(
       {
-        itensConteudoAvaliados: [{ notaAtribuida: 19 }],
+        itensConteudoAvaliados: [{ notaAtribuida: 14 }],
         errosGramaticaisIdentificados: [],
       },
       { tipo: 'peca_50', textoCandidato: texto, totalLinhas: 40, criterios: [{ item: 'Tudo', pontuacaoMaxima: 30 }] }
     );
-    expect(av.notaFinal).toBe(19);
+    expect(av.notaFinal).toBe(14);
     expect(av.situacao).toBe('ELIMINADO');
     const ok = montarAvaliacao(
-      { itensConteudoAvaliados: [{ notaAtribuida: 20 }], errosGramaticaisIdentificados: [] },
+      { itensConteudoAvaliados: [{ notaAtribuida: 15 }], errosGramaticaisIdentificados: [] },
       { tipo: 'peca_50', textoCandidato: texto, totalLinhas: 40, criterios: [{ item: 'Tudo', pontuacaoMaxima: 30 }] }
     );
     expect(ok.situacao).toBe('HABILITADO');

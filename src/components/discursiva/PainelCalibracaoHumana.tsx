@@ -441,7 +441,7 @@ export const PainelCalibracaoHumana: React.FC<PainelCalibracaoHumanaProps> = ({
                   : 'text-rose-600 font-bold'
               }
             >
-              {notaHumanaFinal >= (isPeca ? 20.0 : 10.0) ? 'ACIMA DA REFERÊNCIA (≥ 2/3)' : 'ABAIXO DA REFERÊNCIA (< 2/3)'}
+              {notaHumanaFinal >= (isPeca ? 15.0 : 7.5) ? 'ACIMA DA REFERÊNCIA (≥ 50%)' : 'ABAIXO DA REFERÊNCIA (< 50%)'}
             </span>
           </div>
         </div>

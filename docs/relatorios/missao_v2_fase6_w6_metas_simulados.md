@@ -1,5 +1,14 @@
 # Relatório de Execução — Missão v2 (Fase 6: W6 — Metas, Simulados e Medição Contínua)
 
+> **ERRATA (26/10/2026).** Este relatório descrevia a prova como "70 básicos + 110 específicos" e a discursiva como
+> "1 questão de até 30 linhas". O Edital nº 1/2026 diz outra coisa: **P1 = 90 itens (conhecimentos básicos) e P2 = 90 itens
+> (conhecimentos específicos)**, ambos de 5 h no turno da manhã (itens 7.1 e 7.2); a **P3 vale 60 pontos**: 2 questões de
+> 15 pontos + 1 peça técnica de 30 pontos, em 3 h à tarde (itens 7.3, 9.8.5.1 e 9.8.5.2), com aprovação em NFPD ≥ 30
+> (item 9.8.5.4). Os pisos eliminatórios são os do motor `simuladoOficialEngine` (P1 ≥ 18, P2 ≥ 27, total ≥ 54).
+> Todas as metas por prova abaixo (50 e 70 pontos líquidos, 108 e 118 no total) foram derivadas da divisão errada e do corte
+> estimado, que não tem fonte verificada: **trate-as como obsoletas** e recalcule com simulados independentes.
+
+
 **Data:** 19/10/2026  
 **Candidato:** Richard — Analista Legislativo: Biblioteconomia (Cargo 5, Edital nº 1/2026, Prova: 17/01/2027)  
 **Banca:** Cebraspe (Itens C/E com Fator de Correção 1:1, P1 + P2 = 180 itens em 5h + Discursiva P3 em 3h)  
@@ -35,7 +44,7 @@ A **Fase 6 (W6)** consolida a engenharia psicométrica, o planejamento de metas 
    - Critérios formais para manter ou abandonar mecanismos de estudo.
 
 6. **Planejamento dos 3 Simulados Oficiais 180Q:**  
-   Alinhamento da estrutura completa da Prova Matutina do Edital nº 1/2026 (70 Básicos + 110 Específicos em 5h00) com calendário de execução e ensaio com discursiva manuscrita.
+   Alinhamento da estrutura completa da Prova Matutina do Edital nº 1/2026 (90 Básicos + 90 Específicos em 5h00) com calendário de execução e ensaio com discursiva manuscrita.
 
 ---
 
@@ -56,7 +65,7 @@ Em outros concursos federais de Biblioteconomia organizados pelo Cebraspe com fa
 ### 2.2 Transposição para a Prova de 180 Itens da Câmara dos Deputados (Edital nº 1/2026)
 
 O Edital nº 1/2026 da Câmara dos Deputados estabelece:
-- **Prova Objetiva ($P_1 + P_2$):** 180 itens (70 Básicos + 110 Específicos), peso 1 por item, duração de 5 horas.
+- **Prova Objetiva ($P_1 + P_2$):** 180 itens (90 Básicos + 90 Específicos), peso 1 por item, duração de 5 horas.
 - **Nota Mínima do Edital:** Elimina quem obtiver $<14$ em $P_1$, $<33$ em $P_2$ ou $<54$ no total ($30\%$ da prova).
 - **Corte de Correção da Discursiva ($P_3$):** Serão corrigidas as provas discursivas dos **22 primeiros candidatos da Ampla Concorrência** (além de cotas de negros e PCDs).
 
@@ -99,16 +108,16 @@ Em percentual sobre o total de 180 itens: **65,56% líquido** (o que equivale a 
 
 ### 3.3 Decomposição das Metas Operacionais por Prova
 
-1. **Prova Objetiva de Conhecimentos Básicos ($P_1$ — 70 itens):**
+1. **Prova Objetiva de Conhecimentos Básicos ($P_1$ — 90 itens):**
    - **Meta:** $\ge \mathbf{50,00 \text{ pontos líquidos}}$ ($71,43\%$ de rendimento líquido).
    - Componentes: Língua Portuguesa (M13: 20Q), Língua Inglesa (M12: 10Q), Direito Administrativo (M11: 20Q), TI e Ciência de Dados (M14: 20Q).
-2. **Prova Objetiva de Conhecimentos Específicos ($P_2$ — 110 itens):**
+2. **Prova Objetiva de Conhecimentos Específicos ($P_2$ — 90 itens):**
    - **Meta:** $\ge \mathbf{70,00 \text{ pontos líquidos}}$ ($63,64\%$ de rendimento líquido).
    - **Atenção Estratégica:** O Edital nº 1/2026 estipula que a **maior nota na prova de Conhecimentos Específicos ($P_2$) é o 1º critério de desempate** entre candidatos empatados na nota total.
    - Componentes: Biblioteconomia e Ciência da Informação (M1 a M9) e Legislação do Processo Legislativo/RICD/CEDI (M10).
-3. **Prova Discursiva ($P_3$ — 60,00 pontos valendo 3h de tarde):**
-   - **Meta:** $\ge \mathbf{45,00 \text{ pontos}}$ ($75,00\%$ da pontuação máxima).
-   - Treinamento em 1 questão dissertativa de até 30 linhas com elaboração manuscrita cronometrada.
+3. **Prova Discursiva ($P_3$ — 60,00 pontos, 3h à tarde):**
+   - **Mínimo do edital:** NFPD $\ge 30{,}00$ (50% de 60). Meta interna de 45,00 é escolha do projeto, não exigência.
+   - Treinamento: 2 questões (15 pts cada) e 1 peça técnica (30 pts), manuscritas e cronometradas.
 
 ---
 
@@ -177,7 +186,7 @@ Criado o componente visual de alta densidade analítica e integrado diretamente 
 
 ## 6. Calendário Oficial dos Simulados Gerais 180Q
 
-Para simular com exatidão as condições físicas e cognitivas do dia 17/01/2027, foram programados 3 simulados gerais completos na proporção oficial do edital (70 Conhecimentos Básicos + 110 Conhecimentos Específicos em 5h00 matutinas + Discursiva manuscrita em 3h00 vespertinas):
+Para simular com exatidão as condições físicas e cognitivas do dia 17/01/2027, foram programados 3 simulados gerais completos na proporção oficial do edital (90 Conhecimentos Básicos + 90 Conhecimentos Específicos em 5h00 matutinas + Discursiva manuscrita em 3h00 vespertinas):
 
 | Simulado | Data | Objetivo Pedagógico | Horário Prova Objetiva (180Q) | Horário Discursiva (P3) |
 | :--- | :---: | :--- | :---: | :---: |
@@ -191,4 +200,4 @@ Para simular com exatidão as condições físicas e cognitivas do dia 17/01/202
 
 - **Testes Unitários:** Executados `src/tests/medicaoContinuaW6.test.ts` e `src/tests/fase8SimuladosIntegridade.test.ts` via Vitest: **21 testes aprovados em 2.00s**.
 - **Checagem de Tipos:** Executado `npx tsc -b` em todo o workspace: **0 erros de compilação**.
-- **Registro de Simulados:** Atualizado `src/content/simuladosRegistry.ts` com o formato oficial 70Q Básicos + 110Q Específicos e 5h de duração.
+- **Registro de Simulados:** Atualizado `src/content/simuladosRegistry.ts` com o formato 90Q Básicos + 90Q Específicos e 5h de duração.

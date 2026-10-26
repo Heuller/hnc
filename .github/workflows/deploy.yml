@@ -37,5 +37,8 @@ jobs:
       - name: Testes Unitários (Vitest)
         run: npm test
         
+      - name: Auditoria Independente (proveniência e integridade dos itens)
+        run: node scripts/auditoriaIndependente.mjs
+
       - name: Typecheck, Build e Orçamento
         run: npm run build

@@ -839,7 +839,7 @@ export const DiscursivaPage: React.FC = () => {
                                 : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
                             }`}
                           >
-                            Nota: {v.avaliacao.notaFinal.toFixed(2)} pts ({v.avaliacao.situacao === 'HABILITADO' ? 'acima da referência de 2/3' : 'abaixo da referência de 2/3'})
+                            Nota: {v.avaliacao.notaFinal.toFixed(2)} pts ({v.avaliacao.situacao === 'HABILITADO' ? 'acima da referência de 50%' : 'abaixo da referência de 50%'})
                           </span>
                         )}
                       </div>

@@ -49,7 +49,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
                   : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
               }`}
             >
-              {isHabilitado ? 'ACIMA DA REFERÊNCIA (≥ 2/3 da nota)' : 'ABAIXO DA REFERÊNCIA (< 2/3 da nota)'}
+              {isHabilitado ? 'ACIMA DA REFERÊNCIA (≥ 50% da nota)' : 'ABAIXO DA REFERÊNCIA (< 50% da nota)'}
             </span>
           </h2>
         </div>
