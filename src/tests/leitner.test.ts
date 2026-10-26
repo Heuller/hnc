@@ -53,16 +53,17 @@ describe('Motor de Repetição Espaçada - Sistema Leitner (leitner.ts)', () => 
     expect(item.proximaRevisao).toBe('2026-10-26');
     expect(item.historicoAcertos).toBe(3);
 
-    // 4º acerto: vai para caixa 5 (+30 dias)
+    // 4º acerto: vai para caixa 5. A tabela diz +30 dias, mas a 83 dias da prova o intervalo-alvo
+    // do horizonte (15% do tempo restante ≈ 12 dias) limita o salto.
     item = processarRespostaLeitner(item, true, '2026-10-26');
     expect(item.caixa).toBe(5);
-    expect(item.proximaRevisao).toBe('2026-11-25');
+    expect(item.proximaRevisao).toBe('2026-11-07');
     expect(item.historicoAcertos).toBe(4);
 
-    // 5º acerto na caixa 5: permanece na caixa 5 (+30 dias)
-    item = processarRespostaLeitner(item, true, '2026-11-25');
+    // 5º acerto na caixa 5: permanece na caixa 5; a 71 dias da prova o limite é 11 dias
+    item = processarRespostaLeitner(item, true, '2026-11-07');
     expect(item.caixa).toBe(5);
-    expect(item.proximaRevisao).toBe('2026-12-25');
+    expect(item.proximaRevisao).toBe('2026-11-18');
   });
 
   it('deve rebaixar imediatamente para a Caixa 1 caso o usuário erre o item em qualquer caixa', () => {
