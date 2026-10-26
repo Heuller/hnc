@@ -73,7 +73,7 @@ describe('U4.4 - Efeito da Hipercorreção (Butterfield & Metcalfe, 2001) e Cade
     expect(resultado.mensagemPedagogica).toContain('hipercorreção');
     expect(resultado.mensagemPedagogica).toContain('anula 1 acerto');
     expect(resultado.mensagemPedagogica).toContain('Butterfield & Metcalfe, 2001');
-    expect(resultado.mensagemPedagogica).toContain('duplo (2x)');
+    expect(resultado.mensagemPedagogica).toContain('prioridade alta');
     expect(resultado.novoEstado.prioridadeHipercorrecao).toBe(true);
     expect(resultado.novoEstado.pesoRevisao).toBe(2.0);
     expect(resultado.novoEstado.caixaLeitner).toBe(1);
