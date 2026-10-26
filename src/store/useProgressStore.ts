@@ -807,6 +807,8 @@ export const useProgressStore = create<ProgressStoreState>()(
             acertoProvavelPercent: pontuacao.calibracao.acertoProvavelPercent,
             acertoChutePercent: pontuacao.calibracao.acertoChutePercent,
             ganhoPotencialSeChuteBranco: pontuacao.calibracao.ganhoPotencialSeChuteBranco,
+            chuteTotal: pontuacao.calibracao.chuteTotal,
+            chuteAcertos: pontuacao.calibracao.chuteAcertos,
           },
         };
 

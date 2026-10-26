@@ -26,7 +26,7 @@ export const AutoresCanonicos: React.FC<AutoresCanonicosProps> = ({
           id="autores-canonicos-title"
           className="text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-ink"
         >
-          Autores Canônicos Exigidos pela Banca
+          Autores frequentes na literatura da área
         </h3>
       </div>
 

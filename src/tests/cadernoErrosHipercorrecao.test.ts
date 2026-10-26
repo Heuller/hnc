@@ -70,7 +70,8 @@ describe('U4.4 - Efeito da Hipercorreção (Butterfield & Metcalfe, 2001) e Cade
       '2026-10-15'
     );
 
-    expect(resultado.mensagemPedagogica).toContain('Efeito da Hipercorreção');
+    expect(resultado.mensagemPedagogica).toContain('hipercorreção');
+    expect(resultado.mensagemPedagogica).toContain('anula 1 acerto');
     expect(resultado.mensagemPedagogica).toContain('Butterfield & Metcalfe, 2001');
     expect(resultado.mensagemPedagogica).toContain('duplo (2x)');
     expect(resultado.novoEstado.prioridadeHipercorrecao).toBe(true);

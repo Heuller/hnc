@@ -193,19 +193,43 @@ export function calcularPontuacaoCebraspe(
 export function gerarDiagnosticoEstrategiaCebraspe(
   calibracao: CebraspeCalibracaoMetacognitiva
 ): string {
-  if (calibracao.chuteTotal === 0) {
-    return 'Excelente controle: você não realizou chutes aleatórios, preservando sua pontuação líquida.';
+  return gerarDiagnosticoChute(calibracao.chuteTotal, calibracao.chuteAcertos);
+}
+
+/**
+ * Diagnóstico de chutes por valor esperado. Com +1/−1, o resultado de poucos itens não
+ * prova nada: a decisão certa depende da chance de acerto estimada, não do saldo passado.
+ * `chuteAcertos` ausente (progresso salvo antes desta versão) mostra só a regra.
+ */
+export function gerarDiagnosticoChute(chuteTotal?: number, chuteAcertos?: number): string {
+  const regra =
+    'Com +1 por acerto e −1 por erro, marcar um item vale a pena quando sua chance de acertar é maior que 50%; abaixo disso, deixar em branco é melhor.';
+
+  if (chuteTotal === undefined) {
+    return regra;
+  }
+  if (chuteTotal === 0) {
+    return `Você não marcou nenhum item como chute. ${regra}`;
+  }
+  if (chuteAcertos === undefined) {
+    return regra;
   }
 
-  if (calibracao.saldoChutes < 0) {
-    return `Atenção: seus chutes resultaram em saldo negativo de ${calibracao.saldoChutes} pontos. Deixar essas ${calibracao.chuteTotal} questões em branco teria aumentado sua nota líquida em +${calibracao.ganhoPotencialSeChuteBranco} ponto(s).`;
-  }
+  const erros = chuteTotal - chuteAcertos;
+  const saldo = chuteAcertos - erros;
+  const percent = Math.round((chuteAcertos / chuteTotal) * 100);
+  const resumo = `Nos ${chuteTotal} chutes você acertou ${chuteAcertos} e errou ${erros} (${percent}%, saldo ${saldo >= 0 ? '+' : ''}${saldo}).`;
 
-  if (calibracao.saldoChutes === 0) {
-    return 'Seus chutes empataram (acertos igualaram erros). Em provas de alto risco, avalie deixar em branco assertivas de baixa convicção.';
+  if (chuteTotal < 20) {
+    return `${resumo} Com tão poucos itens o saldo é ruído, não prova de que chutar compensa ou não. ${regra} Acumule mais simulados antes de concluir.`;
   }
-
-  return `Seus palpites controlados foram positivos (+${calibracao.saldoChutes} pontos líquidos). Mantenha essa calibração apenas quando identificar armadilhas evidentes.`;
+  if (percent > 50) {
+    return `${resumo} Sua taxa nos chutes está acima de 50%: nesses casos, marcar tem valor esperado positivo. ${regra}`;
+  }
+  if (percent < 50) {
+    return `${resumo} Sua taxa nos chutes está abaixo de 50%: nesse nível de confiança, deixar em branco teria rendido mais pontos. ${regra}`;
+  }
+  return `${resumo} Taxa de 50%: marcar e deixar em branco rendem o mesmo em média. ${regra}`;
 }
 
 /**

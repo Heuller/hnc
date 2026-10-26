@@ -361,10 +361,10 @@ export const CadernoErrosPage: React.FC = () => {
                     <span className="text-base shrink-0">🔥</span>
                     <div className="space-y-0.5">
                       <span className="font-bold block uppercase tracking-wider text-xs">
-                        Efeito da Hipercorreção (Butterfield &amp; Metcalfe, 2001):
+                        Hipercorreção (Butterfield &amp; Metcalfe, 2001):
                       </span>
                       <p className="m-0 leading-relaxed">
-                        Este erro foi cometido com alta certeza. Equívocos conceituais sustentados com convicção geram a maior retenção duradoura quando corrigidos imediatamente com justificativa factual (prioridade máxima e peso 2.0x).
+                        Este erro foi cometido com alta certeza. Na prova, cada erro anula um acerto, então uma crença falsa firme custa caro; por isso o item tem prioridade alta. A pesquisa sobre hipercorreção indica que erros confiantes costumam ser corrigidos com facilidade quando você lê a explicação com atenção: faça isso agora.
                       </p>
                     </div>
                   </div>

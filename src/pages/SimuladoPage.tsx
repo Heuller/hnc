@@ -35,6 +35,7 @@ import type { SimuladoFinalizado } from '../domain/schemas/progress.schema';
 import { calcularMediaTempoPorItem } from '../domain/progressoEngine';
 import { obterInfoProveniencia } from '../domain/proveniencia';
 import { avaliarDesempenhoSimuladoOficial180, contarItensJaVistosNosModulos } from '../domain/simuladoOficialEngine';
+import { gerarDiagnosticoChute } from '../domain/scoring/cebraspeScoring';
 
 const SUBMODULO_TEMAS: Record<string, { titulo: string; cobrado: string[] }> = {
   '1.1': {
@@ -940,32 +941,13 @@ export const SimuladoPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Impacto da Abstenção Estratégica */}
-            {relatorioFinal.calibracao.ganhoPotencialSeChuteBranco > 0 ? (
-              <div className="p-3.5 bg-alerta-soft rounded-lg border border-alerta-cebraspe/30 flex items-start gap-2.5 print:bg-gray-100 print:border-black">
-                <ShieldAlert className="w-5 h-5 text-alerta-cebraspe print:text-black shrink-0 mt-0.5" />
-                <div className="text-xs sm:text-sm text-alerta-cebraspe print:text-black font-sans leading-relaxed">
-                  <strong>Diagnóstico de Chutes Prejudiciais:</strong> Se todos os itens marcados
-                  como "Chute" tivessem sido deixados em branco, sua Nota Líquida teria sido{' '}
-                  <strong className="underline">
-                    {relatorioFinal.notaLiquida +
-                      relatorioFinal.calibracao.ganhoPotencialSeChuteBranco}{' '}
-                    pontos
-                  </strong>{' '}
-                  (+{relatorioFinal.calibracao.ganhoPotencialSeChuteBranco} pontos ganhos por
-                  abstenção). No Cebraspe, não saber e deixar em branco é uma habilidade de
-                  pontuação.
-                </div>
+            {/* Diagnóstico de chutes: julga pelo valor esperado, não pelo resultado de uma amostra pequena */}
+            <div className="p-3.5 bg-surface-2 rounded-lg border border-border flex items-start gap-2.5 print:bg-gray-100 print:border-black">
+              <ShieldAlert className="w-5 h-5 text-ink-2 print:text-black shrink-0 mt-0.5" />
+              <div className="text-xs sm:text-sm text-ink print:text-black font-sans leading-relaxed">
+                <strong>Estratégia de chutes:</strong> {gerarDiagnosticoChute(relatorioFinal.calibracao.chuteTotal, relatorioFinal.calibracao.chuteAcertos)}
               </div>
-            ) : (
-              <div className="p-3.5 bg-ok-soft rounded-lg border border-ok/30 flex items-start gap-2.5 print:bg-gray-100 print:border-black">
-                <CheckCircle2 className="w-5 h-5 text-ok print:text-black shrink-0 mt-0.5" />
-                <div className="text-xs sm:text-sm text-ok print:text-black font-sans leading-relaxed">
-                  <strong>Gestão de Risco Eficiente:</strong> Seus palpites tiveram saldo positivo ou
-                  neutro em relação à pontuação líquida. Mantenha essa calibração apurada.
-                </div>
-              </div>
-            )}
+            </div>
           </div>
 
           {/* Desempenho por Módulo-Filho */}

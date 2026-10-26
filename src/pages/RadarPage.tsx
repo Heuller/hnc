@@ -148,7 +148,7 @@ export const RadarPage: React.FC = () => {
             <h2 className="text-xs font-sans font-bold text-ink uppercase tracking-wider flex items-center gap-2 flex-wrap">
               <span>Marco Temporal Normativo do Edital nº 1/2026 (Itens 13.33 a 13.34.1)</span>
               <span className="text-xs font-mono px-2 py-0.5 rounded bg-accent/15 text-accent font-semibold">
-                Auditado Cebraspe
+                Revisado pelo HNC
               </span>
             </h2>
             <p className="text-xs text-ink-2 font-serif leading-relaxed">

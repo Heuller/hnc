@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import {
   calcularPontuacaoCebraspe,
   calcularCorteCebraspe,
+  gerarDiagnosticoChute,
   type RespostaQuestaoCebraspe,
 } from '../domain/scoring/cebraspeScoring';
 
@@ -125,7 +126,9 @@ describe('CebraspeScoringEngine (Fase 2 - Deep Module TDD)', () => {
     expect(cal.acertoChutePercent).toBe(25);
     expect(cal.saldoChutes).toBe(-2);
     expect(cal.ganhoPotencialSeChuteBranco).toBe(2);
-    expect(resultado.estrategiaChuteRecomendada).toContain('em branco');
+    // amostra pequena (4 chutes): o texto deve avisar que o saldo é ruído e citar a regra de 50%
+    expect(resultado.estrategiaChuteRecomendada).toContain('ruído');
+    expect(resultado.estrategiaChuteRecomendada).toContain('50%');
   });
 
   it('deve avaliar critérios de nota de corte Cebraspe com precisão', () => {
@@ -144,5 +147,22 @@ describe('CebraspeScoringEngine (Fase 2 - Deep Module TDD)', () => {
     });
     expect(corteReprovado.atingiuCorte).toBe(false);
     expect(corteReprovado.margem).toBe(-10);
+  });
+});
+
+describe('gerarDiagnosticoChute (valor esperado, não resultado de amostra)', () => {
+  it('amostra pequena: avisa que o saldo é ruído', () => {
+    expect(gerarDiagnosticoChute(6, 2)).toContain('ruído');
+  });
+  it('amostra grande com taxa acima de 50%: marcar compensa', () => {
+    expect(gerarDiagnosticoChute(40, 26)).toContain('valor esperado positivo');
+  });
+  it('amostra grande com taxa abaixo de 50%: em branco rende mais', () => {
+    expect(gerarDiagnosticoChute(40, 14)).toContain('em branco teria rendido mais');
+  });
+  it('sem dados de chute (progresso antigo): só a regra, sem afirmar que não houve chutes', () => {
+    const t = gerarDiagnosticoChute(undefined, undefined);
+    expect(t).toContain('50%');
+    expect(t).not.toContain('nenhum item como chute');
   });
 });

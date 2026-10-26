@@ -149,7 +149,7 @@ export function processarRevisaoConceito(
 
     const isErroComCerteza = !acertou && confianca === 'certeza';
     mensagem = isErroComCerteza
-      ? 'A banca Cebraspe anula 1 acerto por erro. Efeito da Hipercorreção (Butterfield & Metcalfe, 2001): Erro cometido com certeza absoluta. O agendador atribuiu peso duplo (2x) e prioridade máxima de revisão para desconstruir o equívoco factual.'
+      ? 'Erro cometido com certeza. Na prova, cada erro anula 1 acerto (edital), então uma crença falsa firme custa caro. Pesquisas sobre hipercorreção (Butterfield & Metcalfe, 2001) mostram que erros confiantes tendem a ser corrigidos com facilidade quando recebem o feedback certo: leia a explicação agora. O agendador deu prioridade alta a este item por esse custo, não porque a memória o exija.'
       : !acertou
       ? 'A banca Cebraspe anula 1 acerto por erro. Conceito retornado à Caixa 1 para re-consolidação ativa.'
       : 'Julgamento classificado como "chute". Para consolidação duradoura, o item foi agendado para o próximo dia útil.';

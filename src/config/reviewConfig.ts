@@ -4,7 +4,8 @@
  * Heurísticas Pedagógicas e Neurocognitivas:
  * - Ebbinghaus (1885): Curva do esquecimento e recuperação ativa.
  * - Pashler, Rohrer, Cepeda et al. (2007, 2008): Espaçamento ótimo de retenção para horizontes longos.
- * - Metodologia CEBRASPE: Simetria estrita 50% C / 50% E e limiar de 85% de retenção factual líquida.
+ * - Parâmetros do projeto (não vêm do edital nem do Cebraspe): simetria 50% C / 50% E nos cadernos
+ *   e limiar de 85% de retenção factual líquida para considerar um item consolidado.
  * 
  * Regra: TODAS as heurísticas de revisão residem exclusivamente neste arquivo.
  */
@@ -175,7 +176,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'Crosswalk estabelece equivalência semântica e sintática entre esquemas distintos sem alterar fisicamente a base de origem; Conversão executa a transformação e gera novos registros fisicamente em outro padrão.',
     pegadinhaCebraspe: 'Afirmar que a aplicação de um crosswalk altera os metadados nativos gravados na base original.',
-    baseCientifica: 'Kornell & Bjork (2008) - Intercalação e discriminação de conceitos análogos.',
+    baseCientifica: 'Par confundível escolhido pelo HNC. Intercalação de categorias: Kornell & Bjork (2008), citada aqui uma única vez.',
   },
   {
     id: 'par-owner-steward',
@@ -188,7 +189,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'Data Owner detém autoridade decisória e orçamentária sobre o ciclo de vida e classificação de acesso; Data Steward é o guardião técnico-operacional da qualidade, conformidade com metadados e integridade.',
     pegadinhaCebraspe: 'Atribuir a responsabilidade decisória de classificação e descarte dos dados ao Data Steward.',
-    baseCientifica: 'DAMA-DMBOK v2 e Kornell & Bjork (2008).',
+    baseCientifica: 'DAMA-DMBOK v2 (distinção conceitual); par escolhido pelo HNC.',
   },
   {
     id: 'par-acoplamento-cocitacao',
@@ -201,7 +202,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'Acoplamento bibliográfico é fixo e imutável (dois artigos citam a mesma referência na data da publicação); Co-citação é dinâmica e prospectiva (dois artigos são citados conjuntamente por publicações posteriores).',
     pegadinhaCebraspe: 'Sustentar que a intensidade de acoplamento bibliográfico se altera dinamicamente com citações futuras.',
-    baseCientifica: 'Kornell & Bjork (2008) - Discriminação de categorias bibliométricas.',
+    baseCientifica: 'Par confundível escolhido pelo HNC (categorias bibliométricas).',
   },
   {
     id: 'par-aacr2r-rda',
@@ -212,7 +213,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'AACR2r estrutura classes de materiais e Designação Geral de Material (DGM) atrelada ao suporte físico; RDA organiza dados com base em Entidades (WEMI), Atributos e Relacionamentos independentes de mídia (campos 336/337/338).',
     pegadinhaCebraspe: 'Tratar os campos RDA 336/337/338 como mera substituição textual do DGM colcheteado do AACR2r.',
-    baseCientifica: 'Kornell & Bjork (2008).',
+    baseCientifica: 'Par confundível escolhido pelo HNC (critério editorial).',
   },
   {
     id: 'par-mods-mets-dublin-core',
@@ -225,7 +226,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'MODS provê semântica descritiva bibliográfica rica derivada do MARC em XML; METS provê um invólucro estrutural que organiza arquivos digitais, mapas estruturais e metadados administrativos/técnicos.',
     pegadinhaCebraspe: 'Classificar o METS como vocabulário de catalogação temática ou bibliográfica descritiva primária.',
-    baseCientifica: 'Kornell & Bjork (2008).',
+    baseCientifica: 'Par confundível escolhido pelo HNC (critério editorial).',
   },
   {
     id: 'par-precisao-revocacao',
@@ -236,7 +237,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'Precisão mede a pureza da busca minimizando ruído; Revocação mede a completude da busca minimizando silêncio documental. Tendem a uma relação de compromisso inverso.',
     pegadinhaCebraspe: 'Inverter os denominadores do cálculo ou afirmar que o operador booleano OR eleva a precisão do resultado.',
-    baseCientifica: 'Kornell & Bjork (2008).',
+    baseCientifica: 'Par confundível escolhido pelo HNC (critério editorial).',
   },
   {
     id: 'par-proveniencia-linhagem',
@@ -249,7 +250,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'Proveniência arquivística exige manter reunidos e indivisos os fundos da entidade geradora; Linhagem de dados rastreia o fluxo de ponta a ponta (ETL, transformações, pipelines e consumo) em ambientes informacionais.',
     pegadinhaCebraspe: 'Tratar a linhagem técnica de dados como mero sinônimo de proveniência arquivística sem considerar a rastreabilidade algorítmica de pipelines.',
-    baseCientifica: 'Kornell & Bjork (2008).',
+    baseCientifica: 'Par confundível escolhido pelo HNC (critério editorial).',
   },
   {
     id: 'par-cdd-cdu',
@@ -260,7 +261,7 @@ export const PARES_CONCEITUAIS_CONFUNDIVEIS: readonly ParConceitualConfundivel[]
     diferencaChave:
       'CDD baseia-se em notação decimal pura (000-990) com tabelas auxiliares restritas (T1 a T6); CDU é uma linguagem sintético-analítica com tabelas de auxiliares comuns e ricos símbolos de relação e coordenação (: + / :: [ ]).',
     pegadinhaCebraspe: 'Atribuir operadores sintéticos da CDU (dois-pontos ou apóstrofo) à notação padrão pura da CDD.',
-    baseCientifica: 'Kornell & Bjork (2008).',
+    baseCientifica: 'Par confundível escolhido pelo HNC (critério editorial).',
   },
 ];
 

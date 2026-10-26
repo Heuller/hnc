@@ -25,6 +25,8 @@ export const SimuladoFinalizadoSchema = z.object({
     acertoProvavelPercent: z.number(),
     acertoChutePercent: z.number(),
     ganhoPotencialSeChuteBranco: z.number(),
+    chuteTotal: z.number().optional(),
+    chuteAcertos: z.number().optional(),
   }),
 });
 
