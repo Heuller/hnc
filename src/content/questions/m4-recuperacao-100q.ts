@@ -1670,11 +1670,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (ECT/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-273",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-273",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "ECT/2011",
+      "ano": 2011,
+      "orgao": "ECT",
+      "banca": "Cebraspe"
     },
     "gatilho": "visto que envolve negociação entre usu á-",
     "versao_errada": "O processo de referência, dada a sua natureza subjetiva, indevidamente visto que envolve negociação entre usu á- rio e bibliotecário, é de difícil avaliação e mensuração."
@@ -1815,11 +1819,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CAPES/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-233",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-233",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "CAPES/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe"
     },
     "gatilho": "serviços de referência não podem constituir objeto de cooperação entre bibli o- tecas",
     "versao_correta": "Por sua natureza, serviços de referência podem constituir objeto de cooperação entre bibli o- tecas."
@@ -1998,11 +2006,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CAPES/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-232",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-232",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "CAPES/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe"
     },
     "gatilho": "os serviço s de referência estão funcionalmente",
     "versao_errada": "Na representação de um ciclo da informação, indevidamente os serviço s de referência estão funcionalmente sit u- ados na fase de disseminação."
@@ -2038,11 +2050,15 @@ export const simuladoRecuperacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CAPES/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-231",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-231",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "CAPES/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe"
     },
     "gatilho": "ao responder as questões que lhe são apresentadas",
     "versao_correta": "O processo de referência é linear e abrange a totalidade de procedimentos adotados pelo bibliot e- cário [corretamente formatado: ao responder as questões que lhe são apresentadas]."

@@ -352,11 +352,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (MPU/2010); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-241",
-      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-241",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010",
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "MPU",
+      "banca": "Cebraspe"
     },
     "gatilho": "significante mediadora no processo de produção do",
     "versao_errada": "Define-se informação como estrutura indevidamente significante mediadora no processo de produção do conh e- cimento."
@@ -397,11 +401,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (DPU/2016); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-339",
-      "declaracaoLegada": "Cebraspe / 2016 / 2016"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-339",
+      "declaracaoLegada": "Cebraspe / 2016 / 2016",
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "DPU",
+      "banca": "Cebraspe"
     },
     "gatilho": "de impo r- tante indicador para definir",
     "versao_errada": "A medição da satisfação do usuário é uma ação de administração de marketing, além indevidamente de impo r- tante indicador para definir funções, objetivos, produtos e s erviços no contexto do planejamento em centros de documentação."
@@ -714,11 +722,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (STJ/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1330",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1330",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "STJ",
+      "banca": "Cebraspe"
     },
     "gatilho": "a esse tipo de documento em formato tradicional",
     "versao_correta": "Na elaboração da política de desenvolvimento de coleções, no qu e tange à assinatura de peri ó- dicos, deve-se preferir o formato tradicional ao digital, mesmo considerando -se o aumento si g- nificativo da área do acervo destinada [corretamente formatado: a esse tipo de documento em formato tradicional]."
@@ -1848,11 +1860,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (STJ/2018); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-319",
-      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-319",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018",
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "STJ",
+      "banca": "Cebraspe"
     },
     "gatilho": "para a disseminação seletiva da info r- mação",
     "versao_correta": "A metodologia LibQUAL+ é utilizada pelos bibliotecários [corretamente formatado: para a disseminação seletiva da info r- mação]."
@@ -1931,11 +1947,15 @@ export const simuladoGestao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (MPU/2010); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-238",
-      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-238",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010",
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "MPU",
+      "banca": "Cebraspe"
     },
     "gatilho": "instituições públicas de ensino, instituições públicas de",
     "versao_errada": "O programa governamental GESAC, do Ministério das Comunicações, visa promover ou ampliar o processo de inclusão digital e acesso à Internet em indevidamente instituições públicas de ensino, instituições públicas de saúde, unidades de serviço público locali zadas em áreas remotas, bem como em ent i- dades da sociedade civil sem fins lucrativos."

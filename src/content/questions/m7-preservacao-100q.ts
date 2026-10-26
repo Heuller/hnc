@@ -181,10 +181,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (IPHAN/2018); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      "declaracaoLegada": "Cebraspe / IPHAN / 2018",
+      "provaId": "IPHAN/2018",
+      "ano": 2018,
+      "orgao": "IPHAN",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1704"
     },
     "gatilho": "propriedade intelectual para a promoção da preservação digital",
     "versao_correta": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro da gestão da [corretamente formatado: propriedade intelectual para a promoção da preservação digital]."
@@ -304,7 +309,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "ano": 2012,
       "orgao": "STJ",
       "banca": "Cebraspe",
-      "origemAcervoLocal": "cespe-cad-1709"
+      "origemAcervoLocal": "cespe-cad-1709",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "relacionada aos novos formatos para inserção e",
     "versao_errada": "A preservação digital abrange três aspectos: a preservação física, relacionada aos conteúdos armazenados em suportes e mídias; a preservação lógica, indevidamente relacionada aos novos formatos para inserção e conversão de dados, devido à obsolescência; e a preservação intelectual, referente aos mecanismos garantidores da integridade e da autenticidade."
@@ -538,10 +545,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AAD (UNEAL)/UNEAL/Biblioteconomia/2026); casamento por similaridade textual 0.86, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      "declaracaoLegada": "Cebraspe / UNEAL / 2026",
+      "provaId": "AAD (UNEAL)/UNEAL/Biblioteconomia/2026",
+      "ano": 2026,
+      "orgao": "UNEAL",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3424"
     },
     "gatilho": "restrição de acesso ou de necessidade de autenticação",
     "versao_correta": "Os princípios FAIR determinam que, para um dado de pesquisa ser considerado científico, ele deve ser aberto, gratuito e disponibilizado sem qualquer tipo de [corretamente formatado: restrição de acesso ou de necessidade de autenticação]."
@@ -582,10 +594,17 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AAD (UNEAL)/UNEAL/Biblioteconomia/2026); casamento por similaridade textual 0.831, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / UNEAL / 2026"
+      "declaracaoLegada": "Cebraspe / UNEAL / 2026",
+      "provaId": "AAD (UNEAL)/UNEAL/Biblioteconomia/2026",
+      "ano": 2026,
+      "orgao": "UNEAL",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3429",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "devido à necessidade de se manterem fisicamente",
     "versao_errada": "A estratégia de preservação digital denominada preservação tecnológica é criticada por não ser econômica a longo prazo indevidamente devido à necessidade de se manterem fisicamente os hardwares e os softwares originais para possibilitar meios de acesso aos documentos, informações e materiais digitais."
@@ -626,10 +645,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025); casamento por similaridade textual 0.818, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / EMBRAPA / 2025"
+      "declaracaoLegada": "Cebraspe / EMBRAPA / 2025",
+      "provaId": "Ana (EMBRAPA)/EMBRAPA/Gestão da Informação/Gestão da Informação Bibliográﬁca/2025",
+      "ano": 2025,
+      "orgao": "EMBRAPA",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3435"
     },
     "gatilho": "para garantir que ela seja lida no futuro",
     "versao_correta": "Assegurar que uma documentação esteja em um formato estável, não proprietário e independente de software é suficiente [corretamente formatado: para garantir que ela seja lida no futuro]."
@@ -646,10 +670,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025); casamento por similaridade textual 0.809, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / MPE CE / 2025"
+      "declaracaoLegada": "Cebraspe / MPE CE / 2025",
+      "provaId": "Ana Min (MPE CE)/MPE CE/Biblioteconomia/2025",
+      "ano": 2025,
+      "orgao": "MPE CE",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3480"
     },
     "gatilho": "garante a preservação perene das coleções das bibliotecas",
     "versao_correta": "A digitalização de acervos [corretamente formatado: garante a preservação perene das coleções das bibliotecas]."
@@ -762,7 +791,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "TSE",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-2074",
-      "revisar": true
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "essenciais para a preservação do material bibliográfico digital",
     "versao_correta": "A estabilidade do sistema com capacidade para múltiplos acessos e a possibilidade de exportação para software de gestão bibliográfica são requisitos [corretamente formatado: essenciais para a preservação do material bibliográfico digital]."
@@ -803,10 +833,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024); casamento por similaridade textual 0.905, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / MPE TO / 2024"
+      "declaracaoLegada": "Cebraspe / MPE TO / 2024",
+      "provaId": "Ana Min (MPE TO)/MPE TO/Especializado/Biblioteconomia/2024",
+      "ano": 2024,
+      "orgao": "MPE TO",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2993"
     },
     "gatilho": "apesar de política de indexação estabelecer diretrizes",
     "versao_errada": "O processo de indexação é considerado uma prática complexa, que demanda cuidado e reflexão, porque, indevidamente apesar de política de indexação estabelecer diretrizes para esse processo, fatores pessoais e profissionais, entre outros, podem influenciar na tomada de decisão."
@@ -826,7 +861,9 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / STJ / 2024"
+      "declaracaoLegada": "Cebraspe / STJ / 2024",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "que compreende a seleção, a preservação, a",
     "versao_errada": "A curadoria digital pode ser corretamente definida como o processo indevidamente que compreende a seleção, a preservação, a manutenção, a coleção e o arquivamento de ativos digitais."
@@ -891,10 +928,15 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (IPHAN/2018); casamento por similaridade textual 0.943, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / IPHAN / 2018"
+      "declaracaoLegada": "Cebraspe / IPHAN / 2018",
+      "provaId": "IPHAN/2018",
+      "ano": 2018,
+      "orgao": "IPHAN",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1704"
     },
     "gatilho": "propriedade intelectual para a promoção da preservação digital",
     "versao_correta": "O modelo de referência OAIS (Open Archival Information System Reference Model) é o sistema brasileiro de gestão da [corretamente formatado: propriedade intelectual para a promoção da preservação digital]."
@@ -955,10 +997,17 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AJ TRT17/TRT 17/Apoio Especializado/Biblioteconomia/2013); casamento por similaridade textual 0.87, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / TRT 17 / 2013"
+      "declaracaoLegada": "Cebraspe / TRT 17 / 2013",
+      "provaId": "AJ TRT17/TRT 17/Apoio Especializado/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "TRT 17",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3502",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "que cuidam da preservação de hardware e",
     "versao_errada": "A preservação de documentos abrange as técnicas de preservação tecnológica, indevidamente que cuidam da preservação de hardware e software para suportar sistemas originais de acesso a informações."
@@ -999,10 +1048,17 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AJ TRT17/TRT 17/Apoio Especializado/Biblioteconomia/2013); casamento por similaridade textual 0.85, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / TRT 17 / 2013"
+      "declaracaoLegada": "Cebraspe / TRT 17 / 2013",
+      "provaId": "AJ TRT17/TRT 17/Apoio Especializado/Biblioteconomia/2013",
+      "ano": 2013,
+      "orgao": "TRT 17",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-3513",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "contribuindo para a preservação da herança cultural de um país",
     "versao_correta": "As bibliografias comerciais divulgam a produção bibliográfica em bibliotecas, distribuidores e livreiros, [corretamente formatado: contribuindo para a preservação da herança cultural de um país]."
@@ -1211,7 +1267,8 @@ export const simuladoPreservacao100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "origemAcervoLocal": "cespe-tec-1986",
-      "revisar": true
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "gatilho": "preservação e difusão da produção intelectual brasileira na área do direito",
     "versao_correta": "A rede LexML funciona como depositária do patrimônio bibliográfico e documental, sendo responsável pela execução da política governamental de captação, [corretamente formatado: preservação e difusão da produção intelectual brasileira na área do direito]."

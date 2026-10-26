@@ -383,11 +383,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Arquiteto/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe)",
-      "revisar": true
+      "revisar": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Arquiteto/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2355"
     },
     "gatilho": "be said that \"fray\" is synonymous with fighting",
     "versao_correta": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) Privacy groups and lawmakers are calling for a new and broader investigation into Google and its privacy practices after the U.S. Federal Communications Commission (FCC) announced that it found no evidence that the company broke eavesdropping laws. Late last week, the FCC reported that there was no legal precedent to find fault with Google collecting unprotected home Wi-Fi data, such as personal email, passwords and search histories, with its roaming Street View cars between 2007 and 2010. However, the FCC did fine Google $ 25,000 for obstructing its investigation. The Electronic Privacy Information Center (EPIC), a national privacy watchdog, disagreed with the FCC findings. In a letter sent to U.S. Attorney General Eric Holder today, EPIC asked that the Department of Justice investigate Google's surreptitious collecting of Wi-Fi data from residential networks. U.S. Rep. Edward J. Markey, a senior member of the U.S. House Energy and Commerce Committee, has also stepped into the fray. 54) 68) 6) \"The circumstances surrounding Google's siphoning of personal information leave many unanswered questions,\" Markey said today in an email to Computerworld. \"I believe Congress should immediately hold a hearing to get to the bottom of this serious situation.\" Internet: <www.computerworld.com> (adapted). Based on the text above it can [corretamente formatado: be said that \"fray\" is synonymous with fighting]."
@@ -848,11 +853,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (MPU/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1617",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1617",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "MPU/2013",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe"
     },
     "gatilho": "de bibliotecas digitais e seu uso depende",
     "versao_errada": "O GreenStone é uma ferramenta volt ada para a construção indevidamente de bibliotecas digitais e seu uso depende da criação e manutenção de um banco de dados."
@@ -1489,11 +1498,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Troca de Sistemas de Classificação. A assertiva atribui características, tabelas auxiliares ou sinais de pontuação de um sistema de classificação a outro distinto.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (ANTT/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1116",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1116",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "ANTT",
+      "banca": "Cebraspe"
     },
     "gatilho": "obrigatório",
     "versao_correta": "As tabelas auxiliares da CDU são de uso [corretamente formatado: obrigatório], são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc umento."
@@ -2081,11 +2094,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-95",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-95",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "a ela constitui uma das barre iras",
     "versao_errada": "Priorizar a preservação das informações em detrimento do acesso indevidamente a ela constitui uma das barre iras ao pleno desenvolvimento dos serviços de informação nas bibliotecas."
@@ -2150,11 +2167,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-36",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-36",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "preservação da herança cu ltural de um país",
     "versao_correta": "A doação de material bibliográfico pela comunida de constitui uma das formas mais comuns de captação de material para a formação de coleções que propiciam a [corretamente formatado: preservação da herança cu ltural de um país]."
@@ -2291,11 +2312,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (TRT21/2010); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-41",
-      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-41",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010",
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "TRT21",
+      "banca": "Cebraspe"
     },
     "gatilho": "nesse assunto ou em periódicos de áreas correlatas",
     "versao_correta": "Os serviços de indexação e resumos definem o conjunto de títulos de periódicos a serem analis ados segundo a lei da dispersão da literatura, segundo a qual os artigos de interesse para determ inado assunto específico ocorrem em periódicos especializados [corretamente formatado: nesse assunto ou em periódicos de áreas correlatas]"

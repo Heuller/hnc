@@ -46,7 +46,10 @@ describe('P18 — Auditoria e Trava de Regressão da Proveniência Honesta das Q
     adaptadas.forEach((q) => {
       const temIdOriginal = Boolean(q.fonteOriginal.provaId || q.fonteOriginal.questaoOriginalId);
       expect(temIdOriginal).toBe(true);
-      expect(q.fonteOriginal.verificado).toBe(true);
+      // Adaptada só pode ficar "não verificada" se declarar de onde veio (acervo local) e nunca se passar por confirmada
+      if (!q.fonteOriginal.verificado) {
+        expect(q.fonteOriginal.origemAcervoLocal, `${q.id}: adaptada não verificada precisa de origemAcervoLocal`).toBeTruthy();
+      }
     });
   });
 

@@ -1482,7 +1482,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 105, parágrafo único",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 105, parágrafo único",
     "dataConferencia": "2026-10-14",

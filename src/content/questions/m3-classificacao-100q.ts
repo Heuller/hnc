@@ -1169,11 +1169,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CADE/2014); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-939",
-      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-939",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014",
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe"
     },
     "gatilho": "ser redigido utilizando-se o verbo na voz passiva",
     "versao_correta": "O resumo deve [corretamente formatado: ser redigido utilizando-se o verbo na voz passiva]."
@@ -1419,11 +1423,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-930",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-930",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "documentária que permite a representação do conteúdo",
     "versao_errada": "A linguagem de indexação é um tipo de linguagem indevidamente documentária que permite a representação do conteúdo dos documentos e das consultas de forma analítica."
@@ -1440,11 +1448,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-932",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-932",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "a tradução são as principais etapas da",
     "versao_errada": "A análise conceitual e indevidamente a tradução são as principais etapas da indexação de assuntos."
@@ -1730,11 +1742,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 0.922, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-933",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-933",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "de informação dos usuários, é um procedimento",
     "versao_errada": "A prática do indexador, associada ao conhecimento das demandas e necessidades indevidamente de informação dos usuários, é um procedimento utilizado para agiliza r o trabalho de análise document á- ria."
@@ -1751,10 +1767,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012); casamento por similaridade textual 0.807, não conferido contra o gabarito oficial",
       "verificado": false,
-      "declaracaoLegada": "Cebraspe / STJ / 2012"
+      "declaracaoLegada": "Cebraspe / STJ / 2012",
+      "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
+      "ano": 2012,
+      "orgao": "STJ",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2982"
     },
     "gatilho": "conjunto de documentos em agrupamentos e apresentá",
     "versao_errada": "Por meio da ferramenta de mineração de textos é possível realizar a sumarização de um indevidamente conjunto de documentos em agrupamentos e apresentá -los sob a forma de gráficos indicativos das relações semânticas dos termos que os compõem."
@@ -1790,11 +1811,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Apreensão Fidedigna de Autoria. O candidato pode hesitar quanto à distinção entre autor e alheio, mas a assertiva reproduz a definição correta da norma.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CADE/2014); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-938",
-      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-938",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014",
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe"
     },
     "gatilho": "abranger todo o documento, inclusive as notas",
     "versao_errada": "A cobertura do índice deve indevidamente abranger todo o documento, inclusive as notas, os apêndices e os anexos."
@@ -1854,11 +1879,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CADE/2014); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-940",
-      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-940",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014",
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe"
     },
     "gatilho": "ser específica, como, por exemplo, índice de",
     "versao_errada": "A indicação textual do índice deve indevidamente ser específica, como, por exemplo, índice de assunt os ou índice onomástico."
@@ -1980,11 +2009,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CADE/2014); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-941",
-      "declaracaoLegada": "Cebraspe / 2014 / 2014"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-941",
+      "declaracaoLegada": "Cebraspe / 2014 / 2014",
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "CADE",
+      "banca": "Cebraspe"
     },
     "gatilho": "índice pode complementar informações não expressas no",
     "versao_errada": "O indevidamente índice pode complementar informações não expressas no documento"
@@ -2082,11 +2115,15 @@ export const simuladoClassificacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão de Regras de Estrutura e Paginação. O distrator explora a diferença entre contagem de folhas (iniciada na folha de rosto) e impressão da numeração (iniciada na parte textual).",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEDUC-AM/2011); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-931",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-931",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "SEDUC-AM",
+      "banca": "Cebraspe"
     },
     "gatilho": "estes não estejam previstos em um vocabulário controlado",
     "versao_correta": "Um indexador tem a capacidade de atribuir termos a um documento mesmo que estes estejam previstos em um vocabulário controlado."

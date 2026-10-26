@@ -119,7 +119,9 @@ describe('Auditoria da Fase 8: Expansão do Banco de Questões, Rastreabilidade 
       const m10b = getSimuladoById('m10b-regimentos-camara-congresso');
       expect(m10b).toBeDefined();
       expect(m10b.macroModuloId).toBe('M10B');
-      expect(m10b.questoes).toHaveLength(100);
+      // m10b-q-55 está em conferência (RICD art. 105 alterado pela Res. 33/2022) e sai do simulado
+      expect(m10b.totalNominal).toBe(100);
+      expect(m10b.questoes.length + (m10b.itensForaConferencia ?? 0)).toBe(100);
     });
   });
 

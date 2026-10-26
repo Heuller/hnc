@@ -135,11 +135,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Museólogo/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2364",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2364",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "judge the following item. The author mocks his wife’s driving skills",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, [corretamente formatado: judge the following item. the author mocks his wife’s driving skills]."
@@ -254,11 +258,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "M. He would need to be woken",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. indevidamente m. he would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car."
@@ -299,11 +307,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2373",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2373",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "rates among public school students, and he’s",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy indevidamente rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy."
@@ -320,11 +332,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2368",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2368",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026",
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "in law and work in the legislative branch",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. By using the expressions “‘advocacy’ role” (second sentence of the second paragraph) and “advocacy agenda” (forth sentence of the third paragraph), the author is referring specifically to people who have a degree [corretamente formatado: in law and work in the legislative branch]."
@@ -341,11 +357,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2374",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2374",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "among public school students, and he’s proposing",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates indevidamente among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA."
@@ -410,11 +430,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2375",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2375",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "be considered traditional since it is relatively new",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The institute that conducted the research cannot [corretamente formatado: be considered traditional since it is relatively new]."
@@ -481,11 +505,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2387",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2387",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "truancy rates among public school students, and",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high indevidamente truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes."
@@ -502,11 +530,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Museólogo/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2378",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2378",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "is somewhat similar to parking in New York",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life [corretamente formatado: is somewhat similar to parking in new york]."
@@ -649,11 +681,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2382",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2382",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014",
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "a verb and it means reduce or ease",
     "versao_correta": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The word “allay” is used as [corretamente formatado: a verb and it means reduce or ease]."
@@ -670,11 +706,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Museólogo/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2393",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "would need to be woken and bathed",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He indevidamente would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car."
@@ -765,11 +805,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Contratação e Logística/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2397",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2397",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "\"A lot of the measures required to",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Technology Legislation Technology-related legislation can have a huge impact on growing businesses, and some interesting issues are likely to pop up with the new Congress of the United States this year. Of great interest to growing businesses are the topics of data protection and net neutrality. Laws that lay out more stringent requirements for retaining and protecting employee and customer data could be on the horizon. \"The laws that apply to big business are going to trickle down to small business,\" says Ann Westerheim, founder and president of technology consulting firm Ekaru. \"Businesses need to have that on their radar. You don't want to get hit with a fine because you're not complying.\" She suggests looking at laws like Sarbanes-Oxley to get an idea of where new tech laws could be heading. The good news is that proper data protection is something businesses should be doing anyway. indevidamente \"a lot of the measures required to protect employee and customer data are just good business practices,\" says Westerheim. Growing businesses can head off potential compliance costs by gradually shoring up their IT security and data protection now. Net neutrality is likely to be a hot issue again after stalling in the Senate last year. Net neutrality proponents want regulations to prevent network providers from prioritizing certain Internet traffic. \"Net neutrality is a big issue for small businesses,\" says Westerheim. A net neutrality law stands a better chance of passing with strong Democratic backing this year, but it figures to be a hard-fought battle. Digital copyright issues could also come to the fore in Congress. With the changes brought about by the last election, it will be an interesting year for entrepreneurs to keep an eye on the goings-on in Washington. Internet: <www.microsoft.com>. Judge the following item according to the text above. The Senate has voted to retain net neutrality regulations."
@@ -786,11 +830,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Museólogo/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2392",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2392",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "be sent to prison if they skipped classes",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because itssuperintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could [corretamente formatado: be sent to prison if they skipped classes]."
@@ -883,11 +931,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Registro e Redação/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2396",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2396",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "$ 250 for each day he skips classes",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. A student in Los Angeles may be fined [corretamente formatado: $ 250 for each day he skips classes]."
@@ -904,11 +956,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Museólogo/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)",
-      "revisar": true
+      "revisar": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2407"
     },
     "gatilho": "question was if Evangeline — five years",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only indevidamente question was if evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 49) 61) 41) Based on the text above, judge the following item. The author believes his wife’s option to go home with the kids or stay in the car and help him find a spot is a difficult choice."
@@ -925,11 +982,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2399",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2399",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "fined if they skip classes more than twice",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Nowadays in LA students may be [corretamente formatado: fined if they skip classes more than twice]."
@@ -1092,11 +1153,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
-      "revisar": true
+      "revisar": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2413"
     },
     "gatilho": "He would need to be woken and",
     "versao_errada": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. indevidamente he would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 1) 93) 4) Based on the text above, judge the following item. The author mocks his wife’s driving skills."
@@ -1311,11 +1377,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2419",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2419",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "the conclusion that alignment is not always desirable",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. The text leads to [corretamente formatado: the conclusion that alignment is not always desirable]."
@@ -1406,11 +1476,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-tec-2425",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2425",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe"
     },
     "gatilho": "\"outperform\" is synonymous with surpass",
     "versao_correta": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. In the text, [corretamente formatado: \"outperform\" is synonymous with surpass]."
@@ -1545,11 +1619,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
       "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
-      "revisar": true
+      "revisar": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "CAM DEP",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-tec-2436"
     },
     "gatilho": "is shocking to most people in the USA",
     "versao_correta": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. 57) Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant [corretamente formatado: is shocking to most people in the usa]."

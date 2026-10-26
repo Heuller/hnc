@@ -32,11 +32,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (FUB/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1876",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1876",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "FUB",
+      "banca": "Cebraspe"
     },
     "gatilho": "ser apresentado entre os sinais < >",
     "versao_errada": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresent a- ção do endereço eletrônico, que deve indevidamente ser apresentado entre os sinais < >, precedido da e x- pressão “Disponível em:” e a data de aces so ao documento, precedida da expressão “Acesso em:”."
@@ -468,11 +472,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (MPU/2010); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1915",
-      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1915",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010",
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "MPU",
+      "banca": "Cebraspe"
     },
     "gatilho": "no idioma original da p ublicação e de forma abrevi a- da",
     "versao_correta": "Na referência bibliográfica de artigos, a indicação da periodicidade é feita tanto em meses quanto em estações ou divisões do ano, [corretamente formatado: no idioma original da p ublicação e de forma abrevi a- da]."
@@ -1055,11 +1063,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SERPRO/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1845",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1845",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "SERPRO/2013",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe"
     },
     "gatilho": "cabeçalho e indicativo de sua localização no texto",
     "versao_correta": "Cabeçalho composto é a unidade do índice que consiste em [corretamente formatado: cabeçalho e indicativo de sua localização no texto]."
@@ -1095,11 +1107,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (FUB/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1875",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1875",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "FUB",
+      "banca": "Cebraspe"
     },
     "gatilho": "indicativo da seção primária a que pertence",
     "versao_errada": "Na numeração progressiva em um documento, o indicativo de uma seção secundária é const i- tuído pelo indevidamente indicativo da seção primária a que pertence, seguido do número que lhe for atribu í- do na sequência do assunto e separado por ponto."
@@ -1259,11 +1275,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (MS/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1865",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1865",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "MS/2013",
+      "ano": 2013,
+      "orgao": "MS",
+      "banca": "Cebraspe"
     },
     "gatilho": "informar ao leitor finalidades, metodologia, result a-",
     "versao_errada": "O resumo informativo tem como objetivo indevidamente informar ao leitor finalidades, metodologia, result a- dos e conclusões do documento."
@@ -2044,11 +2064,15 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (TRT21/2010); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-1820",
-      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-1820",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010",
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "TRT21",
+      "banca": "Cebraspe"
     },
     "gatilho": "apresentação de índice, aplica-se aos índices impressos",
     "versao_errada": "A NBR 6034:2004, para indevidamente apresentação de índice, aplica-se aos índices impressos e automatiz a- dos."

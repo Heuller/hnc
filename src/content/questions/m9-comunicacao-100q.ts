@@ -481,11 +481,15 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (FUB/2013); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-137",
-      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-137",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013",
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "FUB",
+      "banca": "Cebraspe"
     },
     "gatilho": "a produtividade dos periódicos e auxilia no",
     "versao_errada": "A lei de Bradford trata sobre indevidamente a produtividade dos periódicos e auxilia no planejamento de desca r- te."
@@ -521,11 +525,15 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (STJ/2018); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-506",
-      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-506",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018",
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "STJ",
+      "banca": "Cebraspe"
     },
     "gatilho": "os artigos de revisão e os catálogos",
     "versao_correta": "São consideradas fontes terciár ias, as que mostram a participação de outro autor ou produtor, tais como as bibliografias, os dicionários, as enciclopédias, as publicações ou periódicos de i n- dexação e resumos, [corretamente formatado: os artigos de revisão e os catálogos]."
@@ -661,11 +669,15 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (STJ/2018); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-114",
-      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-114",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018",
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "STJ",
+      "banca": "Cebraspe"
     },
     "gatilho": "autor e a sua importância para o acervo",
     "versao_correta": "No processo de des envolvimento de coleções, a Lei de Zipf permite avaliar a produtividade de determinado [corretamente formatado: autor e a sua importância para o acervo]."

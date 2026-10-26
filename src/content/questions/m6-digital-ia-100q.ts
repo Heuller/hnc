@@ -461,11 +461,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (SEGER-ES/2011); casamento por similaridade textual 0.925, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-298",
-      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-298",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011",
+      "provaId": "SEGER-ES/2011",
+      "ano": 2011,
+      "orgao": "SEGER-ES",
+      "banca": "Cebraspe"
     },
     "gatilho": "físico muito reduzido e podem ser atualizadas",
     "versao_errada": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço indevidamente físico muito reduzido e podem ser atualizadas constant e- mente, sendo essas características consideradas uma vantagem em comparação às obras de ref e- rência tradicionas."
@@ -1208,11 +1212,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (BASA/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-92",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-92",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "BASA/2012",
+      "ano": 2012,
+      "orgao": "BASA",
+      "banca": "Cebraspe"
     },
     "gatilho": "catalogação e ao atendimento ao cliente, deve",
     "versao_errada": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à indevidamente catalogação e ao atendimento ao cliente, deve -se basear em so f- twares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50."
@@ -1792,11 +1800,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
     "dificuldade": "media",
     "fonteOriginal": {
-      "tipo": "inedita",
-      "descricao": "Inédita, sem prova de origem",
+      "tipo": "adaptada",
+      "descricao": "Adaptada de item do acervo local Cebraspe (CAPES/2012); casamento por similaridade textual 1, não conferido contra o gabarito oficial",
       "verificado": false,
-      "origemAcervoLocal": "cespe-cad-5",
-      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+      "origemAcervoLocal": "archive/corpus_questoes_reais_cebraspe.json#cespe-cad-5",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012",
+      "provaId": "CAPES/2012",
+      "ano": 2012,
+      "orgao": "CAPES",
+      "banca": "Cebraspe"
     },
     "gatilho": "legislação, jurisprudência e d outrina, a qual",
     "versao_errada": "A informação jurídica pode ser subdividida em indevidamente legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva."

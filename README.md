@@ -107,8 +107,8 @@ npm run dev
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
 | :--- | :---: | :---: | :--- |
-| **Inéditas (`inedita`)** | **1.671** | **76,7%** | Elaboração própria alinhada ao padrão e jurisprudência Cebraspe |
-| **Adaptadas (`adaptada`)** | **426** | **19,6%** | Itens de provas anteriores com ajuste factual de assertiva |
+| **Inéditas (`inedita`)** | **1.607** | **73,7%** | Elaboração própria alinhada ao padrão e jurisprudência Cebraspe |
+| **Adaptadas (`adaptada`)** | **490** | **22,5%** | Itens de provas anteriores com ajuste factual de assertiva |
 | **Reais Confirmadas (`real-confirmada`)** | **49** | **2,2%** | Itens literais de provas anteriores com gabarito oficial e prova identificada |
 | **Em Conferência (`em-conferencia`)** | **33** | **1,5%** | Itens de Língua Inglesa isolados para batimento com espelho de prova |
 | **SOMA TOTAL DE PROVENIÊNCIA** | **2.179** | **100%** | Validação estrita: soma dos tipos == soma dos arquivos |
