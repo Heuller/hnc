@@ -58,7 +58,7 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
       expect(resultado.novoEstado.proximaRevisao).toBe('2026-10-16');
     });
 
-    it('deve aplicar aceleração Pashler (dobrar intervalo) quando acerto for sustentado com certeza', () => {
+    it('deve acelerar (dobrar intervalo, limitado ao horizonte) quando houver dois acertos confiantes seguidos', () => {
       const conceptId = 'c_1.1_epist';
       const estadoBase: ConceptState = {
         conceptId,
@@ -98,9 +98,10 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
         'sub-1-1'
       );
 
-      // Caixa 3 padrão tem 7 dias úteis. Com a aceleração (dobro), vai para 14 dias úteis
-      expect(resultado.diasAteProximaRevisao).toBe(14);
-      expect(resultado.mensagemPedagogica).toContain('Aceleração Pashler');
+      // Caixa 3 padrão tem 7 dias úteis; a aceleração (dobro) iria a 14, mas a 95 dias da prova o
+      // limite do horizonte (14 dias corridos ≈ 10 úteis) manda.
+      expect(resultado.diasAteProximaRevisao).toBe(10);
+      expect(resultado.mensagemPedagogica).toContain('dois acertos confiantes');
     });
 
     it('deve rebaixar para Caixa 1 e agendar para o próximo dia útil em caso de erro ou chute', () => {
@@ -132,7 +133,7 @@ describe('FASE 7 — Revisões Espaçadas Adaptadas aos Conteúdos Novos', () =>
       expect(resultadoErro.novoEstado.caixaLeitner).toBe(1);
       expect(resultadoErro.diasAteProximaRevisao).toBe(1);
       expect(resultadoErro.novoEstado.proximaRevisao).toBe('2026-10-15');
-      expect(resultadoErro.mensagemPedagogica).toContain('Cebraspe anula 1 acerto por erro');
+      expect(resultadoErro.mensagemPedagogica).toContain('anula 1 acerto');
     });
 
     it('deve atenuar prioridade de M7 (P0.5) pela metade e bonificar módulos de alto risco editalício', () => {

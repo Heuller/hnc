@@ -12,6 +12,7 @@ export interface MetricasProveniencia {
 
 export interface MetricasQuestoes {
   totalQuestoes: number;
+  itensUnicos: number;
   totalCertos: number;
   totalErrados: number;
   pctCerto: string;
@@ -67,6 +68,7 @@ export function coletarMetricasQuestoes(): MetricasQuestoes {
   const files = fs.readdirSync(qDir).filter((f) => f.endsWith('.ts')).sort();
 
   let totalQuestoes = 0;
+  const textosUnicos = new Set<string>();
   let totalCertos = 0;
   let totalErrados = 0;
 
@@ -93,6 +95,7 @@ export function coletarMetricasQuestoes(): MetricasQuestoes {
       if (ts.isObjectLiteralExpression(node)) {
         let hasId = false;
         let hasItem = false;
+        let textoItem = '';
         let gab: string | null = null;
         let tipo: string | null = null;
 
@@ -100,7 +103,12 @@ export function coletarMetricasQuestoes(): MetricasQuestoes {
           if (ts.isPropertyAssignment(prop)) {
             const name = prop.name.getText(sf).replace(/['"]/g, '');
             if (name === 'id') hasId = true;
-            if (name === 'item') hasItem = true;
+            if (name === 'item') {
+              hasItem = true;
+              if (ts.isStringLiteralLike(prop.initializer)) {
+                textoItem = prop.initializer.text.replace(/\s+/g, ' ').trim();
+              }
+            }
             if (name === 'gabarito') {
               gab = prop.initializer.getText(sf).replace(/^['"`]|['"`]$/g, '');
             }
@@ -120,6 +128,7 @@ export function coletarMetricasQuestoes(): MetricasQuestoes {
         if (hasId && hasItem && gab) {
           fileTotal++;
           totalQuestoes++;
+          if (textoItem) textosUnicos.add(textoItem);
           if (gab === 'C') {
             fileCertos++;
             totalCertos++;
@@ -186,6 +195,7 @@ export function coletarMetricasQuestoes(): MetricasQuestoes {
 
   return {
     totalQuestoes,
+    itensUnicos: textosUnicos.size,
     totalCertos,
     totalErrados,
     pctCerto,
@@ -270,7 +280,8 @@ export function gerarBlocoMetricasMarkdown(): string {
 | **Qualidade e Estilo (Oxlint)** | **${avisos} avisos, ${erros} erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **${metricasQ.cadernosSimuladosCount} cadernos** | ${metricasQ.totalQuestoesSimulados.toLocaleString('pt-BR')} itens em cadernos de prova |
 | **Questões nos Submódulos Teóricos** | **${metricasQ.questoesAmpliadas} itens** | Checkpoints e fixação de conteúdo em teoria |
-| **Total Global de Questões Cebraspe** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma exata de todos os ${metricasQ.arquivosCount} arquivos em \`src/content/questions\` |
+| **Itens contados nos cadernos** | **${metricasQ.totalQuestoes.toLocaleString('pt-BR')} itens** | Soma dos ${metricasQ.arquivosCount} arquivos em \`src/content/questions\`; o mesmo item aparece em mais de um caderno |
+| **Itens únicos (texto distinto)** | **${metricasQ.itensUnicos.toLocaleString('pt-BR')} itens** | O que o aluno realmente tem para estudar, sem repetição entre cadernos |
 | **Distribuição Global de Gabaritos** | **${metricasQ.pctCerto}% Certo** | ${metricasQ.totalCertos.toLocaleString('pt-BR')} C / ${metricasQ.totalErrados.toLocaleString('pt-BR')} E (faixa alvo 46–56%) |
 
 #### Rastreabilidade de Proveniência dos Itens

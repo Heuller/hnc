@@ -7,6 +7,7 @@ import {
 import type { Concept, ConceptState, ConfidenceLevel, DominioEstado, ConceptReviewLogEntry } from '../concepts/types';
 import { conceptRepository } from '../concepts/conceptRepository';
 import { DATA_LIMITE_REVISAO } from '../leitner';
+import { limitarIntervaloUteisPeloHorizonte, distribuirNoTeto } from './horizonte';
 
 /**
  * Verifica se uma data ISO (YYYY-MM-DD) é dia útil (Segunda a Sexta).
@@ -69,7 +70,7 @@ export function criarEstadoInicialConceito(
   const dataBase = ajustarParaDiaUtil(dataAtualIso);
   let proximaRevisao = somarDiasUteis(dataBase, REVIEW_CONFIG.intervalsDaysByBox[1]);
   if (proximaRevisao > DATA_LIMITE_REVISAO) {
-    proximaRevisao = DATA_LIMITE_REVISAO;
+    proximaRevisao = distribuirNoTeto(conceptId, DATA_LIMITE_REVISAO);
   }
 
   return {
@@ -100,7 +101,8 @@ export interface ResultadoProcessamentoRevisao {
  * 2. Roediger & Karpicke (2006): Prática de recuperação ativa (efeito do teste).
  * 3. Ativação Precoce (T7.1): Submódulos novos e de alta densidade técnica (SQL, regex, DAMA, BIBFRAME)
  *    recebem revisão extra de ativação em 2 dias úteis após a 1ª revisão.
- * 4. Aceleração Pashler (T7.1): Acerto >= 85% em duas revisões consecutivas dobra o intervalo.
+ * 4. Aceleração (T7.1): dois acertos confiantes (certeza) consecutivos dobram o intervalo, sempre limitado
+ *    a uma fração do tempo restante até a prova (ver horizonte.ts).
  * 5. Retrocesso Dinâmico (T7.1): Queda abaixo de 70% retrocede ao intervalo anterior para reconsolidação.
  */
 export function processarRevisaoConceito(
@@ -182,17 +184,22 @@ export function processarRevisaoConceito(
     } else {
       // Regra T7.1: Aceleração por desempenho sustentado (Pashler): se acertou com certeza em 2 revisões seguidas, dobra o intervalo
       const ultimosLogs = estadoAtual.historico || [];
-      const logAnteriorAcertou = ultimosLogs.length > 0 && ultimosLogs[0].acertou;
-      if (logAnteriorAcertou && acertou) {
+      // Só acelera com dois acertos CONFIANTES seguidos (a revisão anterior também foi certa e com certeza).
+      const logAnteriorConfiante = ultimosLogs.length > 0 && ultimosLogs[0].acertou && ultimosLogs[0].confianca === 'certeza';
+      if (logAnteriorConfiante && acertou) {
         diasIntervalo = Math.round(diasIntervalo * REVIEW_CONFIG.dynamicIntervalRules.fatorMultiplicadorAceleracao);
-        mensagem += ' [Aceleração Pashler (por desempenho sustentado): Desempenho sustentado dobrou o intervalo de retenção].';
+        mensagem += ' [Aceleração: dois acertos confiantes seguidos ampliaram o intervalo, dentro do limite do tempo que resta até a prova].';
       }
     }
   }
 
+  // O intervalo nunca passa de uma fração do tempo que resta até a prova (horizonte de ~85 dias).
+  diasIntervalo = limitarIntervaloUteisPeloHorizonte(diasIntervalo, dataRef);
+
   let proximaRevisao = somarDiasUteis(dataRef, diasIntervalo);
   if (proximaRevisao > DATA_LIMITE_REVISAO) {
-    proximaRevisao = DATA_LIMITE_REVISAO;
+    // Em vez de empilhar tudo em 15/01, espalha pelos últimos dias úteis antes do teto.
+    proximaRevisao = distribuirNoTeto(estadoAtual.conceptId, DATA_LIMITE_REVISAO);
   }
 
   const logEntry: ConceptReviewLogEntry = {

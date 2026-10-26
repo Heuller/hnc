@@ -99,15 +99,25 @@ export function getDescricaoLimiar(totalItens: number, aproveitamentoMin = JORNA
 export function calcularIntervaloAlvo(diasRestantes: number): number {
   if (diasRestantes <= 0) return JORNADA_CONFIG.limiteMinimoIntervaloDias;
 
-  let fracao = JORNADA_CONFIG.heuristicaDiasRestantes[JORNADA_CONFIG.heuristicaDiasRestantes.length - 1].fracao;
-  for (const faixa of JORNADA_CONFIG.heuristicaDiasRestantes) {
-    if (diasRestantes <= faixa.ate_dias) {
-      fracao = faixa.fracao;
+  const faixas = JORNADA_CONFIG.heuristicaDiasRestantes;
+  let fracao = faixas[faixas.length - 1].fracao;
+  let indiceFaixa = faixas.length - 1;
+  for (let i = 0; i < faixas.length; i++) {
+    if (diasRestantes <= faixas[i].ate_dias) {
+      fracao = faixas[i].fracao;
+      indiceFaixa = i;
       break;
     }
   }
 
-  const lacuna = Math.round(fracao * diasRestantes);
+  let lacuna = Math.round(fracao * diasRestantes);
+  // A fração cai por faixa, mas o intervalo absoluto não pode diminuir quando a prova está mais longe
+  // (ex.: com 91 dias restantes o intervalo não pode ser menor que com 90).
+  if (indiceFaixa > 0) {
+    const anterior = faixas[indiceFaixa - 1];
+    lacuna = Math.max(lacuna, Math.round(anterior.fracao * anterior.ate_dias));
+  }
+
   return Math.min(
     JORNADA_CONFIG.limiteMaximoIntervaloDias,
     Math.max(JORNADA_CONFIG.limiteMinimoIntervaloDias, lacuna)

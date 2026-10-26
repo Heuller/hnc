@@ -96,11 +96,12 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **887 testes** | 100% aprovados em Vitest (119 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **887 testes** | 100% aprovados em Vitest (120 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo em teoria |
-| **Total Global de Questões Cebraspe** | **2.179 itens** | Soma exata de todos os 21 arquivos em `src/content/questions` |
+| **Itens contados nos cadernos** | **2.179 itens** | Soma dos 21 arquivos em `src/content/questions`; o mesmo item aparece em mais de um caderno |
+| **Itens únicos (texto distinto)** | **1.747 itens** | O que o aluno realmente tem para estudar, sem repetição entre cadernos |
 | **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa alvo 46–56%) |
 
 #### Rastreabilidade de Proveniência dos Itens
