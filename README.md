@@ -102,7 +102,7 @@ npm run dev
 | **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo em teoria |
 | **Itens contados nos cadernos** | **2.179 itens** | Soma dos 21 arquivos em `src/content/questions`; o mesmo item aparece em mais de um caderno |
 | **Itens únicos (texto distinto)** | **1.747 itens** | O que o aluno realmente tem para estudar, sem repetição entre cadernos |
-| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.099 C / 1.080 E (faixa alvo 46–56%) |
+| **Distribuição Global de Gabaritos** | **50,4% Certo** | 1.098 C / 1.081 E (faixa alvo 46–56%) |
 
 #### Rastreabilidade de Proveniência dos Itens
 | Tipo de Proveniência | Quantidade de Itens | Percentual | Definição Canônica |
@@ -118,7 +118,7 @@ npm run dev
 | :--- | :--- | :---: | :---: | :---: |
 | `m1-fundamentos-100q` | M1 - Fundamentos de Biblioteconomia | **100** | 50C / 50E | 50,0% |
 | `m10-legislativo-100q` | M10 - Informação Jurídica & CEDI | **100** | 50C / 50E | 50,0% |
-| `m10a-legislativo-constituicao-100q` | M10-A - Constituição & CEDI | **100** | 50C / 50E | 50,0% |
+| `m10a-legislativo-constituicao-100q` | M10-A - Constituição & CEDI | **100** | 49C / 51E | 49,0% |
 | `m10b-regimentos-100q` | M10-B - RICD & Regimento Comum | **100** | 50C / 50E | 50,0% |
 | `m11-administrativo-100q` | M11 - Direito Administrativo | **100** | 50C / 50E | 50,0% |
 | `m12-ingles-100q` | M12 - Língua Inglesa | **100** | 50C / 50E | 50,0% |
@@ -137,7 +137,7 @@ npm run dev
 | `questoes-submodulos-ampliados` | Submódulos Teóricos - Fixação | **69** | 44C / 25E | 63,8% |
 | `simulado-geral-180q` | Simulado Geral 180Q | **180** | 90C / 90E | 50,0% |
 | `simulado-oficial-camara-180q` | Simulado Oficial Câmara 90+90 (180Q) | **180** | 90C / 90E | 50,0% |
-| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1099C / 1080E** | **50,4% Certo (faixa alvo 46–56%)** |
+| **TOTAL GERAL** | **20 Cadernos + Submódulos** | **2.179** | **1098C / 1081E** | **50,4% Certo (faixa alvo 46–56%)** |
 <!-- METRICAS:FIM -->
 
 ---

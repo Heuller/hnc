@@ -256,9 +256,9 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "habilidade": "compreender",
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto pelo Congresso Nacional, caberá ao Presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O item está correto ao enunciar com exatidão que \"pelo Congresso Nacional, caberá ao Presidente do\" expressa o preceito técnico aplicável à matéria. O conteúdo encontra-se plenamente alinhado às diretrizes regulamentares e aos manuais de referência adotados no exame da Câmara dos Deputados para a área de Biblioteconomia.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "Gabarito ERRADO. CF/88, art. 66, §§ 5º e 7º: rejeitado o veto, a lei vai ao Presidente da República para promulgação em 48 horas; se ele não a promulgar, o Presidente do Senado Federal o fará em igual prazo e, se este também não o fizer, caberá ao Vice-Presidente do Senado. O Presidente da Câmara dos Deputados não integra essa sucessão; o erro está no trecho final do item.",
+    "armadilhaBanca": "Troca do sucessor na promulgação: o item mantém corretos o prazo de 48 horas e o Presidente do Senado, e substitui o Vice-Presidente do Senado pelo Presidente da Câmara, que é a autoridade que o candidato associa por simetria ao Congresso.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -267,9 +267,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 7º",
-    "dataConferencia": "2026-10-14",
-    "gatilho": "pelo Congresso Nacional, caberá ao Presidente do",
-    "versao_errada": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto indevidamente pelo congresso nacional, caberá ao presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo."
+    "dataConferencia": "2026-10-27",
+    "gatilho": "caberá ao Presidente da Câmara dos Deputados fazê-lo",
+    "versao_errada": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto pelo Congresso Nacional, caberá ao Presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Presidente da Câmara dos Deputados fazê-lo.",
+    "versao_correta": "Se o Presidente da República não promulgar a lei no prazo de quarenta e oito horas após a rejeição do veto pelo Congresso Nacional, caberá ao Presidente do Senado Federal promulgá-la, e, se este não o fizer em igual prazo, caberá ao Vice-Presidente do Senado Federal fazê-lo."
   },
   {
     "id": "m10a-q-11",
@@ -318,10 +319,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "CF/88, art. 64, caput",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "CF/88, art. 64, caput",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "Supremo Tribunal Federal, dos Tribunais Superiores e",
     "versao_errada": "A discussão e votação dos projetos de lei de iniciativa do indevidamente supremo tribunal federal, dos tribunais superiores e do Procurador-Geral da República terão início na Câmara dos Deputados."
   },
@@ -507,10 +510,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "STF, MS 27.911 / CF/88, art. 64",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "STF, MS 27.911 / CF/88, art. 64",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "de emendas constitucionais pelas Casas do Congresso Nacional",
     "versao_correta": "O trancamento da pauta em razão do decurso do prazo de urgência constitucional impede a apreciação [corretamente formatado: de emendas constitucionais pelas casas do congresso nacional]."
   },
@@ -615,10 +620,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "CF/88, art. 65 e 67",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "CF/88, art. 65 e 67",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "não havendo possibilidade de sua reapreciação com",
     "versao_errada": "No processo legislativo ordinário, o projeto de lei aprovado por uma Casa e rejeitado na outra será definitivamente arquivado, indevidamente não havendo possibilidade de sua reapreciação com quórum qualificado na mesma sessão legislativa caso não haja a maioria absoluta exigida pelo art. 67 da CF/88."
   },
@@ -723,10 +730,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "CF/88, arts. 48 e 49",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "CF/88, arts. 48 e 49",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "submetem à sanção ou ao veto do",
     "versao_errada": "Os decretos legislativos e as resoluções do Congresso Nacional ou de suas Casas não se indevidamente submetem à sanção ou ao veto do Presidente da República, sendo promulgados diretamente pela Mesa da respectiva Casa ou do Congresso Nacional."
   },

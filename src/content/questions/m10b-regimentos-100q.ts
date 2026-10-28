@@ -183,10 +183,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 20",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 20",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "de passagens aéreas e verbas indenizatórias de",
     "versao_errada": "A expedição de passaportes diplomáticos e a fiscalização indevidamente de passagens aéreas e verbas indenizatórias de gabinetes parlamentares competem regimentarmente ao Segundo-Secretário da Mesa."
   },
@@ -210,10 +212,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 22",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 22",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "distribuição e concessão dos apartamentos funcionais e",
     "versao_errada": "Compete privativamente ao Quarto-Secretário a indevidamente distribuição e concessão dos apartamentos funcionais e do auxílio-moradia aos deputados federais."
   },
@@ -264,10 +268,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 20-A",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 20-A",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "Câmara dos Deputados, composto pelos Líderes da",
     "versao_errada": "O Colégio de Líderes é órgão consultivo e deliberativo de coordenação política da indevidamente câmara dos deputados, composto pelos líderes da Maioria, da Minoria, dos partidos políticos, dos blocos parlamentares e do Governo."
   },
@@ -455,10 +461,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 66",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 66",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "da sessão, mediante o instituto da \"comunicação",
     "versao_errada": "As lideranças parlamentares têm direito ao uso da palavra em qualquer fase indevidamente da sessão, mediante o instituto da \"comunicação de liderança\", observados os tempos e limites regimentais fixados pelo RICD."
   },
@@ -509,10 +517,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 268 / CF/88, art. 51, IV",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 268 / CF/88, art. 51, IV",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "do Departamento de Polícia Legislativa (DEPOL), sob",
     "versao_errada": "A polícia da Câmara dos Deputados é exercida privativamente por seus servidores efetivos indevidamente do departamento de polícia legislativa (depol), sob a direção da Mesa e a supervisão direta do Presidente da Câmara."
   },
@@ -536,10 +546,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "STF, Rcl 25.537 / RICD, art. 270",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "STF, Rcl 25.537 / RICD, art. 270",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "ciência e acompanhamento da Polícia Legislativa da Casa",
     "versao_correta": "Autoridades judiciais e policiais do Poder Executivo podem ingressar livremente e cumprir mandados judiciais de busca e apreensão em dependências reservadas da Câmara sem prévia [corretamente formatado: ciência e acompanhamento da polícia legislativa da casa]."
   },
@@ -563,10 +575,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 15",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 15",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "sem necessidade de renúncia ao cargo na Mesa",
     "versao_correta": "O mandato de membro da Mesa da Câmara dos Deputados é compatível com o exercício do cargo de Ministro de Estado, [corretamente formatado: sem necessidade de renúncia ao cargo na mesa]."
   },
@@ -591,10 +605,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "Resolução da Câmara nº 1/2013 / RICD"
+      "declaracaoLegada": "Resolução da Câmara nº 1/2013 / RICD",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "Resolução da Câmara nº 1/2013 / RICD",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "Diretora da Câmara dos Deputados, integrada pela",
     "versao_errada": "A Secretaria da Mulher é uma estrutura autônoma vinculada à Mesa indevidamente diretora da câmara dos deputados, integrada pela Procuradoria da Mulher e pela Coordenadoria dos Direitos da Mulher."
   },
@@ -753,10 +769,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "no mínimo, um décimo dos membros da",
     "versao_errada": "O recurso contra a aprovação conclusiva de projeto de lei pelas comissões permanentes deve ser subscrito por, indevidamente no mínimo, um décimo dos membros da Câmara dos Deputados, no prazo regimental de cinco sessões, para que a matéria seja submetida ao Plenário."
   },
@@ -780,10 +798,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 32, IV",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 32, IV",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "a constitucionalidade, juridicidade e técnica legislativa de",
     "versao_errada": "Compete à Comissão de Constituição e Justiça e de Cidadania (CCJC) pronunciar-se sobre indevidamente a constitucionalidade, juridicidade e técnica legislativa de todas as proposições sujeitas à apreciação da Câmara ou de suas Comissões."
   },
@@ -807,10 +827,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 54, I",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 54, I",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "de lei, a proposição será arquivada definitivamente",
     "versao_errada": "Se a CCJC emitir parecer unânime pela inconstitucionalidade e injuridicidade de um projeto indevidamente de lei, a proposição será arquivada definitivamente pelo Presidente da Câmara, salvo se interposto recurso ao Plenário na forma regimental."
   },
@@ -834,10 +856,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 32, X e art. 54, II",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 32, X e art. 54, II",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "a admissibilidade orçamentária e financeira das proposições",
     "versao_errada": "A Comissão de Finanças e Tributação (CFT) possui competência privativa para examinar indevidamente a admissibilidade orçamentária e financeira das proposições, sendo terminativo o seu parecer que concluir pela incompatibilidade ou inadequação orçamentária."
   },
@@ -888,10 +912,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 39",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 39",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "da respectiva Comissão, para mandato de um",
     "versao_errada": "Os Presidentes e Vice-Presidentes das Comissões Permanentes da Câmara são eleitos pelos membros indevidamente da respectiva comissão, para mandato de um ano, sendo vedada a reeleição para o mesmo cargo na mesma legislatura."
   },
@@ -915,10 +941,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 42",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 42",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "proferir o voto de desempate (voto de minerva)",
     "versao_correta": "O Presidente de uma Comissão Permanente tem direito a proferir o voto ordinário de bancada e, persistindo o empate, [corretamente formatado: proferir o voto de desempate (voto de minerva)]."
   },
@@ -969,10 +997,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 57, § 6º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 57, § 6º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "e a proposição legislativa será extinta sumariamente",
     "versao_correta": "O parecer do relator em comissão permanente que for rejeitado pela maioria dos membros será imediatamente arquivado, [corretamente formatado: e a proposição legislativa será extinta sumariamente]."
   },
@@ -996,10 +1026,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 57, § 3º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 57, § 3º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "a leitura do parecer do relator, sendo",
     "versao_errada": "Qualquer membro de comissão pode solicitar \"vista\" do processo legislativo após indevidamente a leitura do parecer do relator, sendo a vista concedida conjuntamente pelo prazo improrrogável de duas sessões."
   },
@@ -1050,10 +1082,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "ou debater assuntos de interesse público relevante",
     "versao_errada": "As audiências públicas realizadas pelas comissões permanentes destinam-se a instruir matéria legislativa em trâmite indevidamente ou debater assuntos de interesse público relevante, podendo contar com a presença de especialistas, autoridades e representantes da sociedade civil."
   },
@@ -1104,10 +1138,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 35",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 35",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "da sessão legislativa ordinária em que foram criadas",
     "versao_correta": "As Comissões Parlamentares de Inquérito constituídas no âmbito da Câmara dos Deputados extinguem-se com o término do prazo deliberado pelo Plenário ou no encerramento [corretamente formatado: da sessão legislativa ordinária em que foram criadas]."
   },
@@ -1131,10 +1167,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, arts. 47 e 48",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, arts. 47 e 48",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "metade mais um de seus membros, e",
     "versao_errada": "O quórum para abertura dos trabalhos de reunião de Comissão Permanente é de indevidamente metade mais um de seus membros, e para votação de proposições exige-se a presença da maioria absoluta de seus integrantes."
   },
@@ -1158,10 +1196,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 185",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 185",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "por voto nominal através de chamada alfabética de todos os deputados titulares",
     "versao_correta": "Nas comissões, as deliberações são tomadas, em regra, [corretamente formatado: por voto nominal através de chamada alfabética de todos os deputados titulares]."
   },
@@ -1185,10 +1225,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 118, § 2º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 118, § 2º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "de lei em comissão é aquela que",
     "versao_errada": "A emenda substitutiva apresentada por deputado a um projeto indevidamente de lei em comissão é aquela que visa a substituir integralmente o texto da proposição original."
   },
@@ -1239,10 +1281,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 118, § 6º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 118, § 6º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "outra emenda, podendo ser aprovada pela comissão",
     "versao_errada": "Subemenda é a emenda apresentada a indevidamente outra emenda, podendo ser aprovada pela comissão competente como parte do parecer final."
   },
@@ -1266,10 +1310,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 24, II c/c art. 252",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 24, II c/c art. 252",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "a tramitação terminativa no âmbito das comissões temáticas",
     "versao_correta": "Projetos de lei decorrentes de iniciativa popular submetem-se a rito solene e diferenciado, submetendo-se à apreciação direta do Plenário e afastando [corretamente formatado: a tramitação terminativa no âmbito das comissões temáticas]."
   },
@@ -1293,10 +1339,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 32, XI",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 32, XI",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "os atos do Poder Executivo, incluídos os",
     "versao_errada": "A Comissão de Fiscalização Financeira e Controle (CFFC) possui competência para fiscalizar indevidamente os atos do poder executivo, incluídos os da administração indireta, em cooperação com o Tribunal de Contas da União."
   },
@@ -1428,10 +1476,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 155",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 155",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "comissão ocorre se o Plenário aprovar requerimento",
     "versao_errada": "A perda de eficácia de um parecer aprovado em indevidamente comissão ocorre se o plenário aprovar requerimento de urgência que avoque a matéria para votação imediata."
   },
@@ -1455,10 +1505,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 105",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 105",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "proposições em tramitação nas comissões, exceto as",
     "versao_errada": "O encerramento da legislatura acarreta o arquivamento automático de todas as indevidamente proposições em tramitação nas comissões, exceto as originárias do Senado Federal ou já aprovadas por uma Casa legislativa."
   },
@@ -1487,7 +1539,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 105, parágrafo único",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "arquivado por término de legislatura pode ser",
     "versao_errada": "Um projeto de lei de iniciativa de deputado que tenha sido indevidamente arquivado por término de legislatura pode ser desarquivado na legislatura subsequente mediante requerimento subscrito pelo autor reeleito."
   },
@@ -1592,10 +1644,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, arts. 3º e 4º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, arts. 3º e 4º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "trabalhos da legislatura e destinam-se exclusivamente à",
     "versao_errada": "As sessões preparatórias da Câmara dos Deputados precedem a inauguração dos indevidamente trabalhos da legislatura e destinam-se exclusivamente à posse dos Deputados diplomados e à eleição da Mesa Diretora."
   },
@@ -1619,10 +1673,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 64",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 64",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "Câmara dos Deputados classificam-se em preparatórias, ordinárias",
     "versao_errada": "As sessões da indevidamente câmara dos deputados classificam-se em preparatórias, ordinárias, extraordinárias e solenes."
   },
@@ -1719,9 +1775,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "habilidade": "analisar",
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros da Câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação.",
-    "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 155 do RICD: requerimento aprovado pela maioria absoluta do Plenário dispensa exigências regimentais e acelera a votação imediata da matéria. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
+    "gabarito": "E",
+    "justificativa": "Gabarito ERRADO. RICD, art. 155, caput: a urgência para inclusão imediata na Ordem do Dia de matéria de relevante e inadiável interesse nacional depende de requerimento da maioria absoluta da composição da Câmara (257 deputados), ou de líderes que representem esse número, e o requerimento só é aprovado também por maioria absoluta. O quórum de \"um terço\" do enunciado não é o do art. 155.",
+    "armadilhaBanca": "Troca de quórum: o item descreve corretamente o efeito (votação imediata na mesma sessão) e altera o número de signatários do requerimento, de maioria absoluta para um terço.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1730,9 +1786,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "RICD, art. 155",
-    "dataConferencia": "2026-10-14",
-    "gatilho": "da Câmara ou por líderes que representem",
-    "versao_errada": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros indevidamente da câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação."
+    "dataConferencia": "2026-10-27",
+    "gatilho": "por um terço dos membros da Câmara",
+    "versao_errada": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros da Câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação.",
+    "versao_correta": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida pela maioria absoluta dos membros da Câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação."
   },
   {
     "id": "m10b-q-65",
@@ -1781,10 +1838,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 180",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 180",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "Deputados processam-se por dois métodos fundamentais: ostensivo",
     "versao_errada": "As votações na Câmara dos indevidamente deputados processam-se por dois métodos fundamentais: ostensivo (simbólico ou nominal) e secreto."
   },
@@ -1835,10 +1894,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 186",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 186",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "sem exigência de quórum de apoio de bancada partidária",
     "versao_correta": "O pedido de verificação de votação simbólica constitui prerrogativa individual e irrecusável atribuída ao parlamentar isolado presente na sessão, [corretamente formatado: sem exigência de quórum de apoio de bancada partidária]."
   },
@@ -1943,10 +2004,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD, art. 95, § 8º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD, art. 95, § 8º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "sobre questão de ordem, desde que interposto",
     "versao_errada": "Cabe recurso ao Plenário da Câmara das decisões do Presidente indevidamente sobre questão de ordem, desde que interposto com apoio de um décimo dos membros da Casa."
   },
@@ -2024,10 +2087,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RICD / Atos da Mesa Diretora",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RICD / Atos da Mesa Diretora",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "deputados recebam faltas disciplinares, porém seus membros",
     "versao_errada": "O registro formal de obstrução de uma bancada no sistema eletrônico impede que seus indevidamente deputados recebam faltas disciplinares, porém seus membros presentes em plenário não contam para efeito de quórum de abertura de votação."
   },
@@ -2205,9 +2270,9 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "habilidade": "analisar",
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados, ao passo que a Segunda-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente do Senado.",
-    "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 57, § 5º da CF/88 e art. 2º do RCCN, a Primeira-Vice-Presidência do Congresso cabe ao PRIMEIRO-VICE-PRESIDENTE DA CÂMARA DOS DEPUTADOS (e não ao seu Presidente). O Presidente da Câmara não integra a Mesa do Congresso.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
+    "gabarito": "C",
+    "justificativa": "Gabarito CERTO. CF/88, art. 57, § 5º: a Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal e os demais cargos são exercidos alternadamente pelos ocupantes de cargos equivalentes na Câmara e no Senado. Na composição consolidada, o Presidente da Câmara dos Deputados é o Primeiro-Vice-Presidente do Congresso e o Primeiro-Vice-Presidente do Senado é o Segundo-Vice-Presidente. A justificativa anterior (item errado, com a afirmação de que o Presidente da Câmara não integra a Mesa do Congresso) estava incorreta.",
+    "armadilhaBanca": "Cargos equivalentes: o candidato tende a achar que o Presidente da Câmara fica de fora da Mesa do Congresso, ou que ocupa cargo inferior ao do Primeiro-Vice da Câmara.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2216,9 +2281,10 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-    "dataConferencia": "2026-10-14",
-    "gatilho": "ao passo que a Segunda-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente do Senado",
-    "versao_correta": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados, [corretamente formatado: ao passo que a segunda-vice-presidência é exercida pelo primeiro-vice-presidente do senado]."
+    "dataConferencia": "2026-10-27",
+    "gatilho": "a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados",
+    "versao_correta": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Presidente da Câmara dos Deputados, ao passo que a Segunda-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente do Senado.",
+    "versao_errada": "Na Mesa do Congresso Nacional, a Primeira-Vice-Presidência cabe ao Primeiro-Vice-Presidente da Câmara dos Deputados, ao passo que a Segunda-Vice-Presidência é exercida pelo Presidente do Senado Federal."
   },
   {
     "id": "m10b-q-83",
@@ -2647,10 +2713,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "RCCN, arts. 4º a 8º",
-      "verificado": false
+      "verificado": false,
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "RCCN, arts. 4º a 8º",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "cabendo a coordenação geral dos trabalhos à Secretaria Especial do Congresso Nacional",
     "versao_correta": "É incorreto afirmar que o Presidente do Senado Federal, no exercício da Presidência do Congresso Nacional, é assessorado tecnicamente pelos órgãos da Câmara e do Senado, [corretamente formatado: cabendo a coordenação geral dos trabalhos à secretaria especial do congresso nacional]."
   },
@@ -2675,10 +2743,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "Resolução nº 1/2006-CN"
+      "declaracaoLegada": "Resolução nº 1/2006-CN",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
     "fonte": "Resolução nº 1/2006-CN",
-    "dataConferencia": "2026-10-14",
+    "dataConferencia": "2026-10-27",
     "gatilho": "os pareceres setoriais aprovados não podem ser alterados pelo relator-geral da proposta orçamentária",
     "versao_correta": "Nas votações de matérias orçamentárias na CMO, os pareceres setoriais aprovados podem ser alterados pelo relator-geral da proposta orçamentária."
   },

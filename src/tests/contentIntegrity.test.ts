@@ -278,7 +278,7 @@ describe('Testes de Integridade de Conteúdo e Metodologia Cebraspe (Seção 5)'
       );
 
       // Simulados com itens em conferência (revisar: true) ficam fora desta trava até o item ser corrigido
-      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(14);
+      expect(simuladosPadrao.length).toBeGreaterThanOrEqual(12);
 
       for (const sim of simuladosPadrao) {
         const certos = sim.questoes.filter((q) => q.gabarito === 'C').length;

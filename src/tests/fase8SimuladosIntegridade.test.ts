@@ -88,8 +88,10 @@ describe('Auditoria da Fase 8: Expansão do Banco de Questões, Rastreabilidade 
       expect(simuladoLegislativoConstituicao100Q).toHaveLength(100);
       const c = simuladoLegislativoConstituicao100Q.filter((q) => q.gabarito === 'C').length;
       const e = simuladoLegislativoConstituicao100Q.filter((q) => q.gabarito === 'E').length;
-      expect(c).toBe(50);
-      expect(e).toBe(50);
+      // Gabaritos corrigidos pela auditoria de 2026-10 podem tirar a simetria exata; tolerância de 45 a 55
+      expect(c).toBeGreaterThanOrEqual(45);
+      expect(c).toBeLessThanOrEqual(55);
+      expect(c + e).toBe(100);
 
       // IDs únicos e sequenciais
       const ids = new Set(simuladoLegislativoConstituicao100Q.map((q) => q.id));
@@ -100,8 +102,10 @@ describe('Auditoria da Fase 8: Expansão do Banco de Questões, Rastreabilidade 
       expect(simuladoRegimentosCamaraCongresso100Q).toHaveLength(100);
       const c = simuladoRegimentosCamaraCongresso100Q.filter((q) => q.gabarito === 'C').length;
       const e = simuladoRegimentosCamaraCongresso100Q.filter((q) => q.gabarito === 'E').length;
-      expect(c).toBe(50);
-      expect(e).toBe(50);
+      // Gabaritos corrigidos pela auditoria de 2026-10 podem tirar a simetria exata; tolerância de 45 a 55
+      expect(c).toBeGreaterThanOrEqual(45);
+      expect(c).toBeLessThanOrEqual(55);
+      expect(c + e).toBe(100);
 
       const ids = new Set(simuladoRegimentosCamaraCongresso100Q.map((q) => q.id));
       expect(ids.size).toBe(100);
@@ -114,7 +118,8 @@ describe('Auditoria da Fase 8: Expansão do Banco de Questões, Rastreabilidade 
       const m10a = getSimuladoById('m10a-legislativo-constituicao');
       expect(m10a).toBeDefined();
       expect(m10a.macroModuloId).toBe('M10A');
-      expect(m10a.questoes).toHaveLength(100);
+      expect(m10a.totalNominal).toBe(100);
+      expect(m10a.questoes.length + (m10a.itensForaConferencia ?? 0)).toBe(100);
 
       const m10b = getSimuladoById('m10b-regimentos-camara-congresso');
       expect(m10b).toBeDefined();
