@@ -6,12 +6,12 @@ import {
   HelpCircle,
   RotateCcw,
   BookOpen,
+  AlertTriangle,
 } from 'lucide-react';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import type { ContextoTentativa, ItemAttempt } from '../../domain/itemAttempts';
 import { Badge } from './Badge';
-import { PainelEstudoReverso } from './PainelEstudoReverso';
 
 export interface ItemCEData {
   id: string;
