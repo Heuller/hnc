@@ -46,6 +46,7 @@ interface ItemQuiz {
   gabarito: 'C' | 'E';
   justificativa: string;
   armadilhaBanca?: string;
+  versao_correta?: string;
   secaoId?: string;
 }
 
@@ -134,6 +135,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
           gabarito: q.gabarito,
           justificativa: q.justificativa,
           armadilhaBanca: q.armadilhaBanca,
+          versao_correta: q.versao_correta,
           secaoId: 'sec-teoria',
         }));
       }
@@ -150,6 +152,8 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
               assertiva: cp.item,
               gabarito: cp.gabarito,
               justificativa: cp.justificativa,
+              armadilhaBanca: cp.armadilhaBanca,
+              versao_correta: cp.versao_correta,
               secaoId: 'sec-checkpoints',
             });
           }
@@ -173,6 +177,8 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
               assertiva: cp.item,
               gabarito: cp.gabarito,
               justificativa: cp.justificativa,
+              armadilhaBanca: cp.armadilhaBanca,
+              versao_correta: cp.versao_correta,
               secaoId: 'sec-checkpoints',
             });
           }
@@ -193,6 +199,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
         gabarito: it.gabarito,
         justificativa: it.justificativa,
         armadilhaBanca: it.armadilhaBanca,
+        versao_correta: it.versao_correta,
         secaoId: it.secaoId,
       }));
     }
@@ -613,6 +620,19 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                     </span>
                     <p className="font-serif leading-relaxed text-xs sm:text-[13px]">{currentItem.justificativa}</p>
                   </div>
+
+                  {/* Como ficaria correto (para itens com gabarito ERRADO) */}
+                  {currentItem.gabarito === 'E' && currentItem.versao_correta && (
+                    <div className="p-3 rounded-lg bg-surface border border-emerald-500/30 space-y-1 text-ink">
+                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
+                        <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                        <span>Como ficaria correto (Fixação Canônica)</span>
+                      </div>
+                      <p className="font-serif leading-relaxed text-xs sm:text-[13px] italic m-0">
+                        "{currentItem.versao_correta}"
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

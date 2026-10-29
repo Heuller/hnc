@@ -14,12 +14,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Mesa Diretora da Câmara dos Deputados compõe-se do Presidente, de dois Vice-Presidentes e de quatro Secretários, além de quatro Suplentes de Secretário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 14, caput e § 1º do RICD, a Mesa compõe-se de 7 membros titulares (Presidente, 2 Vices e 4 Secretários) e 4 Suplentes.",
-    "armadilhaBanca": "Composição numérica exata da Mesa da Câmara.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 14, caput e § 1º do Regimento Interno da Câmara dos Deputados (RICD), a Mesa Diretora compõe-se de 7 membros titulares: o Presidente, 2 Vice-Presidentes (1º e 2º) e 4 Secretários (1º, 2º, 3º e 4º). Há também 4 Suplentes de Secretário destinados exclusivamente a substituir os Secretários em suas faltas ou impedimentos. Não há previsão de suplentes para os cargos de Presidente e Vice-Presidentes.",
+    "armadilhaBanca": "Assertiva correta: atente-se à estrutura exata (7 titulares + 4 suplentes de secretários). A banca costuma tentar induzir o candidato ao erro afirmando que haveria suplência para a Presidência ou três Vice-Presidências.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 14",
       "verificado": false
     },
@@ -44,12 +44,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 5º / CF/88, art. 57, § 4º",
       "verificado": false
     },
     "fonte": "RICD, art. 5º / CF/88, art. 57, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Os membros da Mesa Diretora da Câmara dos Deputados são eleitos para mandato de dois anos, sendo vedada a recondução para o mesmo cargo na eleição imediatamente subsequente na mesma legislatura (art. 57, § 4º da CF/88 e art. 5º do RICD)."
   },
   {
     "id": "m10b-q-3",
@@ -64,12 +65,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Na constituição da Mesa e de cada Comissão, é assegurada, tanto quanto possível, a representação proporcional dos partidos ou dos blocos parlamentares que participam da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Princípio da proporcionalidade partidária positivado no art. 58, § 1º da CF/88 e no art. 8º do RICD.",
-    "armadilhaBanca": "Princípio da proporcionalidade partidária na Mesa e Comissões.",
+    "justificativa": "Gabarito CERTO. Trata-se da consagração do princípio da proporcionalidade partidária, positivado tanto no art. 58, § 1º da CF/88 quanto no art. 8º do RICD. A distribuição dos cargos da Mesa e das vagas de membros titulares e suplentes em cada Comissão deve espelhar, tanto quanto possível, a correlação de forças e o peso numérico de cada bancada partidária ou bloco parlamentar na data da fixação da representação.",
+    "armadilhaBanca": "Assertiva correta: o princípio da proporcionalidade partidária é mandamento constitucional e regimental de observância obrigatória para a Mesa e todas as Comissões.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 8º / CF/88, art. 58, § 1º",
       "verificado": false
     },
@@ -94,12 +95,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 17, § 1º",
       "verificado": false
     },
     "fonte": "RICD, art. 17, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nos termos do art. 17, § 1º do RICD, o Presidente da Câmara dos Deputados não vota nas votações ostensivas do Plenário, ressalvadas as hipóteses de empate (voto de minerva), escrutínio secreto ou matérias de quórum qualificado."
   },
   {
     "id": "m10b-q-5",
@@ -114,12 +116,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Substitui o Presidente da Câmara dos Deputados em suas faltas ou impedimentos o Primeiro-Vice-Presidente e, na ausência deste, o Segundo-Vice-Presidente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 18 do RICD.",
-    "armadilhaBanca": "Linha de substituição do Presidente pelos Vice-Presidentes.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 18 do RICD, a linha formal de substituição do Presidente da Câmara dos Deputados recai, sucessivamente, sobre o Primeiro-Vice-Presidente e, nas faltas ou ausências deste, sobre o Segundo-Vice-Presidente. Caso ambos os vices estejam ausentes ou impedidos, a presidência interina passa a ser exercida pelos Secretários, na ordem de precedência numeral (1º, 2º, 3º e 4º Secretários).",
+    "armadilhaBanca": "Assertiva correta: a linha sucessória imediata é estritamente numeral e privativa dos Vice-Presidentes; a banca costuma inventar que o Líder da Maioria ou o deputado mais idoso assumiria na ausência do Presidente.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 18",
       "verificado": false
     },
@@ -139,12 +141,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Compete ao Primeiro-Secretário da Mesa Diretora da Câmara dos Deputados superintender os serviços administrativos da Casa e assinar a correspondência oficial da Câmara.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 19 do RICD: o Primeiro-Secretário atua como uma espécie de \"prefeito/administrador\" da Câmara, gerindo os serviços da Secretaria e ordenando despesas.",
-    "armadilhaBanca": "Competência administrativa do Primeiro-Secretário.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 19 do RICD, o Primeiro-Secretário atua como a autoridade administrativa central da Casa ('prefeito/administrador' da Câmara). Cabe-lhe superintender os serviços administrativos da Diretoria-Geral (DG) e da Secretaria-Geral da Mesa (SGM), autorizar despesas, assinar certidões e expedir a correspondência externa oficial da Câmara dos Deputados.",
+    "armadilhaBanca": "Assertiva correta: o 1º Secretário detém a gestão administrativa e ordenação de despesas, enquanto a representação política e deliberação da pauta são prerrogativas do Presidente.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 19",
       "verificado": false
     },
@@ -164,12 +166,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A expedição de passaportes diplomáticos e a fiscalização de passagens aéreas e verbas indenizatórias de gabinetes parlamentares competem regimentarmente ao Segundo-Secretário da Mesa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 20 do RICD, cabe ao Segundo-Secretário cuidar das relações internacionais parlamentares e expedição de passaportes diplomáticos.",
-    "armadilhaBanca": "Atribuições específicas do Segundo-Secretário da Mesa.",
+    "justificativa": "Gabarito CERTO. O art. 20 do RICD confere ao Segundo-Secretário o papel de coordenador de relações exteriores e institucionais da Câmara. Compete-lhe cuidar da expedição e cancelamento de passaportes diplomáticos e oficiais para deputados e cônjuges, supervisionar programas de estágio parlamentar e gerenciar a concessão de medalhas e prêmios institucionais da Casa.",
+    "armadilhaBanca": "Assertiva correta: competência específica do 2º Secretário (relações exteriores e passaportes diplomáticos); a banca tenta confundi-lo com o 4º Secretário (habitação) ou 1º Secretário (administração geral).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 20",
       "verificado": false
     },
@@ -189,12 +191,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Compete privativamente ao Quarto-Secretário a distribuição e concessão dos apartamentos funcionais e do auxílio-moradia aos deputados federais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 22 do RICD: ao Quarto-Secretário compete a administração do parque habitacional da Câmara dos Deputados.",
-    "armadilhaBanca": "Atribuição habitacional do Quarto-Secretário.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 22 do RICD, o Quarto-Secretário é o responsável pela administração habitacional da Câmara dos Deputados. É de sua alçada exclusiva supervisionar o parque de apartamentos funcionais da Câmara (em Brasília), promover a distribuição, sorteio e desocupação de imóveis residenciais, bem como deliberar sobre os pedidos de auxílio-moradia concedidos aos parlamentares.",
+    "armadilhaBanca": "Assertiva correta: competência privativa do 4º Secretário (gestão habitacional). Já o controle de licenças e faltas médicas dos deputados é atribuição do 3º Secretário.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 22",
       "verificado": false
     },
@@ -219,12 +221,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 21",
       "verificado": false
     },
     "fonte": "RICD, art. 21",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Compete ao Terceiro-Secretário da Mesa Diretora da Câmara dos Deputados examinar requerimentos de licença de deputados, atestados e justificações de faltas, prestando apoio ao funcionamento das sessões (art. 21 do RICD)."
   },
   {
     "id": "m10b-q-10",
@@ -239,12 +242,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Colégio de Líderes é órgão consultivo e deliberativo de coordenação política da Câmara dos Deputados, composto pelos Líderes da Maioria, da Minoria, dos partidos políticos, dos blocos parlamentares e do Governo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 20-A do RICD, o Colégio de Líderes atua na concertação da pauta e na deliberação das matérias submetidas ao Plenário.",
-    "armadilhaBanca": "Composição e função do Colégio de Líderes.",
+    "justificativa": "Gabarito CERTO. O Colégio de Líderes, disciplinado no art. 20-A do RICD, é a instância máxima de concertação e articulação política da Câmara dos Deputados. É integrado pelos Líderes das bancadas partidárias, dos blocos parlamentares constituídos, da Maioria, da Minoria e do Governo. Possui natureza deliberativa na pactuação da Ordem do Dia e aprovação de requerimentos de urgência regimental.",
+    "armadilhaBanca": "Assertiva correta: o Colégio de Líderes reúne a representação de todas as forças políticas organizadas na Casa, operando sob critério de voto ponderado pelo tamanho de cada bancada.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 20-A",
       "verificado": false
     },
@@ -269,12 +272,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 17, II c/c art. 20-A",
       "verificado": false
     },
     "fonte": "RICD, art. 17, II c/c art. 20-A",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A prerrogativa de organizar e fixar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados, que atua ouvindo o Colégio de Líderes sem subordinação vinculante a suas deliberações (art. 17 do RICD)."
   },
   {
     "id": "m10b-q-12",
@@ -294,12 +298,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 12",
       "verificado": false
     },
     "fonte": "RICD, art. 12",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Conforme o art. 12 do Regimento Interno da Câmara dos Deputados, os blocos parlamentares podem ser dissolvidos ou sofrer desvinculação partidária nas hipóteses regimentais admitidas, não possuindo vinculação perpétua."
   },
   {
     "id": "m10b-q-13",
@@ -314,12 +319,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Procuradoria Parlamentar da Câmara dos Deputados tem por finalidade institucional a defesa da Câmara, de seus órgãos e de seus membros quando atingidos em sua honra ou na sua imagem pública em razão do exercício do mandato ou das funções institucionais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 21-A do RICD e Resoluções da Casa.",
-    "armadilhaBanca": "Finalidade da Procuradoria Parlamentar da Câmara.",
+    "justificativa": "Gabarito CERTO. A Procuradoria Parlamentar da Câmara dos Deputados, disciplinada no art. 21-A do RICD, tem por missão privativa a defesa judicial e extrajudicial da Câmara, de seus órgãos fracionários e de seus parlamentares quando atingidos em sua honra, imagem ou prerrogativas constitucionais no exercício das funções institucionais ou em decorrência do mandato legislativo.",
+    "armadilhaBanca": "Assertiva correta: a Procuradoria Parlamentar atua na defesa das prerrogativas corporativas e institucionais da Casa e dos deputados, não se confundindo com a Advocacia-Geral da União (AGU).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 21-A",
       "verificado": false
     },
@@ -344,13 +349,14 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "RICD, Ouvidoria Parlamentar / Resolução da Câmara"
     },
     "fonte": "RICD, Ouvidoria Parlamentar / Resolução da Câmara",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Ouvidoria Parlamentar da Câmara dos Deputados é o órgão institucional de interlocução com a sociedade, responsável por receber críticas, sugestões e reclamações dos cidadãos para o aprimoramento das atividades da Casa."
   },
   {
     "id": "m10b-q-15",
@@ -365,12 +371,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados é o órgão encarregado da instauração e instrução de processos disciplinares contra deputados federais por quebra de decoro parlamentar.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o Código de Ética e Decoro Parlamentar e o RICD.",
-    "armadilhaBanca": "Competência do Conselho de Ética e Decoro Parlamentar.",
+    "justificativa": "Gabarito CERTO. O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados (CEDP), regido pelo art. 21-B do RICD e pelo Código de Ética e Decoro Parlamentar (Resolução nº 25/2001), é o órgão disciplinar permanente encarregado de instruir processos contra deputados acusados de infração disciplinar ou quebra de decoro. O Conselho realiza a instrução probatória e emite parecer conclusivo, mas a aplicação da penalidade máxima de perda de mandato é privativa do Plenário da Câmara.",
+    "armadilhaBanca": "Assertiva correta: o Conselho de Ética instrui e opina; a cassação efetiva do mandato exige deliberação final e soberana do Plenário por maioria absoluta dos votos.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Código de Ética da Câmara dos Deputados / RICD"
@@ -396,12 +402,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 55, § 2º / RICD",
       "verificado": false
     },
     "fonte": "CF/88, art. 55, § 2º / RICD",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A perda de mandato de Deputado Federal por quebra de decoro parlamentar exige deliberação e voto soberano do Plenário da Câmara dos Deputados por maioria absoluta dos seus membros (art. 55, II e § 2º da CF/88)."
   },
   {
     "id": "m10b-q-17",
@@ -416,12 +423,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As lideranças parlamentares têm direito ao uso da palavra em qualquer fase da sessão, mediante o instituto da \"comunicação de liderança\", observados os tempos e limites regimentais fixados pelo RICD.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 66 do RICD: prerrogativa clássica de comunicação de liderança para pronunciamento sobre assuntos de relevância nacional ou orientação de bancada.",
-    "armadilhaBanca": "Prerrogativa da comunicação de liderança.",
+    "justificativa": "Gabarito CERTO. A prerrogativa regimental da 'comunicação de liderança', positivada no art. 66 do RICD, faculta aos Líderes partidários ou de blocos o uso da palavra em qualquer momento da sessão plenária (salvo quando em curso processo de votação durante a Ordem do Dia), com tempo assegurado e proporcional à bancada, para pronunciamentos urgentes sobre assuntos de relevância nacional ou orientação política.",
+    "armadilhaBanca": "Assertiva correta: os líderes têm prerrogativa de falar a qualquer tempo mediante comunicação de liderança, sem se submeter à fila regular de oradores inscritos no Pequeno ou Grande Expediente.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 66",
       "verificado": false
     },
@@ -446,12 +453,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, arts. 9º a 13",
       "verificado": false
     },
     "fonte": "RICD, arts. 9º a 13",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A distribuição de prerrogativas de liderança, tempo de fala e verbas de representação na Câmara dos Deputados submete-se estritamente à proporcionalidade partidária e às bancadas formalmente organizadas no RICD."
   },
   {
     "id": "m10b-q-19",
@@ -466,12 +474,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A polícia da Câmara dos Deputados é exercida privativamente por seus servidores efetivos do Departamento de Polícia Legislativa (DEPOL), sob a direção da Mesa e a supervisão direta do Presidente da Câmara.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 268 do RICD e art. 51, IV da CF/88: a polícia interna da Casa é de competência privativa da Câmara.",
-    "armadilhaBanca": "Polícia legislativa e autonomia institucional.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 268 do RICD e o art. 51, IV da CF/88, o policiamento interno da Câmara dos Deputados compete privativamente à própria Casa, sendo exercido por servidores efetivos do seu Departamento de Polícia Legislativa (DEPOL) sob a direção soberana da Mesa Diretora e do Presidente. A Súmula 397 do STF consagra que o poder de polícia da Câmara nos seus edifícios é pleno e independe de autorização ou intervenção das forças policiais comuns externas.",
+    "armadilhaBanca": "Assertiva correta: a segurança das dependências parlamentares é exercida com exclusividade pela Polícia Legislativa da Câmara; órgãos policiais externos não podem atuar no recinto sem requisição formal da Presidência da Casa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 268 / CF/88, art. 51, IV",
       "verificado": false
     },
@@ -496,12 +504,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, Rcl 25.537 / RICD, art. 270",
       "verificado": false
     },
     "fonte": "STF, Rcl 25.537 / RICD, art. 270",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O cumprimento de mandados judiciais de busca e apreensão em dependências parlamentares da Câmara dos Deputados exige prévia autorização do Supremo Tribunal Federal e o acompanhamento obrigatório da Polícia Legislativa da Casa (arts. 268 e 270 do RICD)."
   },
   {
     "id": "m10b-q-21",
@@ -516,17 +525,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O mandato de membro da Mesa da Câmara dos Deputados é compatível com o exercício do cargo de Ministro de Estado, sem necessidade de renúncia ao cargo na Mesa.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 15 do RICD, o membro da Mesa que assumir cargo de Ministro de Estado perde automaticamente o lugar que ocupa na Mesa Diretora.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 15, § 1º do RICD, o membro da Mesa Diretora que se licenciar para assumir o cargo de Ministro de Estado, Secretário de Estado ou chefe de missão diplomática temporária perderá automaticamente o seu cargo na Mesa, procedendo-se a nova eleição para o preenchimento da vaga caso reste mais de um ano de mandato, ou assumindo o substituto legal nos demais casos.",
     "armadilhaBanca": "Incompatibilidade entre cargo na Mesa e titularidade de Ministério.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 15",
       "verificado": false
     },
     "fonte": "RICD, art. 15",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O exercício de cargo de membro da Mesa da Câmara dos Deputados é incompatível com o cargo de Ministro de Estado, acarretando a perda automática do lugar na Mesa Diretora."
   },
   {
     "id": "m10b-q-22",
@@ -541,12 +551,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Secretaria da Mulher é uma estrutura autônoma vinculada à Mesa Diretora da Câmara dos Deputados, integrada pela Procuradoria da Mulher e pela Coordenadoria dos Direitos da Mulher.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Criada por resolução regimental, a Secretaria da Mulher representa a bancada feminina e fortalece a atuação das parlamentares.",
-    "armadilhaBanca": "Estrutura da Secretaria da Mulher no RICD.",
+    "justificativa": "Gabarito CERTO. A Secretaria da Mulher, estruturada pelo art. 21-C do RICD e resoluções correlatas, unifica a Procuradoria da Mulher e a Coordenadoria dos Direitos da Mulher. Funciona como órgão de representação política e defesa institucional da bancada feminina, com assento assegurado nas reuniões do Colégio de Líderes para influir diretamente na pauta legislativa e na fiscalização de políticas públicas voltadas às mulheres.",
+    "armadilhaBanca": "Assertiva correta: a Secretaria da Mulher possui status institucional e representatividade reconhecida formalmente na dinâmica de coordenação das pautas do Plenário.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Resolução da Câmara nº 1/2013 / RICD"
@@ -567,12 +577,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A eleição dos membros da Mesa da Câmara dos Deputados realiza-se em votação secreta, exigindo-se maioria absoluta de votos no primeiro escrutínio para a eleição do Presidente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 7º do RICD, a eleição é realizada em escrutínio secreto, exigindo maioria absoluta em primeiro turno e maioria simples em segundo turno.",
-    "armadilhaBanca": "Quórum e votação secreta na eleição da Mesa da Câmara.",
+    "justificativa": "Gabarito CERTO. A eleição dos membros da Mesa Diretora, regida pelo art. 7º do RICD, ocorre em votação secreta (por escrutínio eletrônico individual). Para a vitória em primeiro escrutínio, exige-se quórum de maioria absoluta de votos dos deputados. Se nenhum concorrente atingir a maioria absoluta, concorre-se em segundo escrutínio entre os dois mais votados, elegendo-se o mais votado por maioria simples.",
+    "armadilhaBanca": "Assertiva correta: a eleição da Mesa é uma das raras exceções regimentais que ainda mantém o escrutínio secreto; a regra de quórum é maioria absoluta em 1º turno e maioria simples em 2º turno.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 7º",
       "verificado": false
     },
@@ -597,12 +607,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 16",
       "verificado": false
     },
     "fonte": "RICD, art. 16",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Ocorrendo vaga na Mesa da Câmara a menos de noventa dias do término do biênio do mandato, o preenchimento será feito por designação do Presidente entre os deputados da bancada correspondente, sem nova eleição (art. 16 do RICD)."
   },
   {
     "id": "m10b-q-25",
@@ -622,12 +633,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 21-A",
       "verificado": false
     },
     "fonte": "RICD, art. 21-A",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Procuradoria Parlamentar da Câmara dos Deputados tem sua atuação vinculada exclusivamente à representação judicial e extrajudicial da Casa e à defesa de parlamentares no exercício estrito de suas funções e prerrogativas públicas."
   },
   {
     "id": "m10b-q-26",
@@ -642,12 +654,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As Comissões da Câmara dos Deputados são Permanentes (aquelas que subsistem através das legislaturas) e Temporárias (as que se extinguem com o término da legislatura ou antes dele, se alcançado o fim para que foram criadas).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Classificação clássica e regimental prevista no art. 22 do RICD.",
-    "armadilhaBanca": "Classificação regimental das comissões.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 22 do RICD, as Comissões da Câmara são formalmente divididas em: Permanentes (estruturas temáticas essenciais com atribuições fixadas no Regimento que subsistem através das legislaturas, como CCJC e CFT) e Temporárias (órgãos constituídos com finalidade específica e prazo determinado, extinguindo-se ao cumprir sua missão ou ao findar a legislatura, compreendendo as Comissões Especiais, CPIs e Comissões Externas).",
+    "armadilhaBanca": "Assertiva correta: distinção ontológica clássica do direito regimental (permanentes subsistem no tempo; temporárias extinguem-se com o cumprimento do encargo ou término da legislatura).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 22",
       "verificado": false
     },
@@ -672,12 +684,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 24, II / CF/88, art. 58, § 2º, I",
       "verificado": false
     },
     "fonte": "RICD, art. 24, II / CF/88, art. 58, § 2º, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "As comissões temáticas da Câmara dos Deputados dispõem de competência conclusiva (terminativa) para aprovar projetos de lei dispensando a deliberação do Plenário, salvo se houver recurso de um décimo dos membros da Casa (art. 58, § 2º, I da CF/88 e art. 24, II do RICD)."
   },
   {
     "id": "m10b-q-28",
@@ -692,12 +705,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O recurso contra a aprovação conclusiva de projeto de lei pelas comissões permanentes deve ser subscrito por, no mínimo, um décimo dos membros da Câmara dos Deputados, no prazo regimental de cinco sessões, para que a matéria seja submetida ao Plenário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 58, § 2º, I da CF/88 e art. 132, § 2º do RICD: recurso de 1/10 dos membros (52 deputados) interposto no prazo de cinco sessões.",
-    "armadilhaBanca": "Quórum e prazo de interposição de recurso ao Plenário contra decisão terminativa.",
+    "justificativa": "Gabarito CERTO. Conforme preceitua o art. 58, § 2º, I da CF/88 e o art. 132, § 2º do RICD, nos projetos apreciados com poder conclusivo pelas comissões permanentes, a deliberação substitui o Plenário. Contudo, para preservar o princípio da soberania da Casa, a matéria será levada à deliberação do Plenário se houver recurso formal subscrito por, no mínimo, um décimo dos membros da Câmara (52 deputados), apresentado no prazo preclusivo de 5 sessões ordinárias.",
+    "armadilhaBanca": "Assertiva correta: o quórum de recurso contra decisão terminativa/conclusiva de comissão é de 1/10 da composição da Câmara (52 deputados), com prazo de 5 sessões.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 132, § 2º / CF/88, art. 58, § 2º, I",
       "verificado": false
     },
@@ -717,12 +730,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Compete à Comissão de Constituição e Justiça e de Cidadania (CCJC) pronunciar-se sobre a constitucionalidade, juridicidade e técnica legislativa de todas as proposições sujeitas à apreciação da Câmara ou de suas Comissões.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência nobre e universal da CCJC inscrita no art. 32, IV, \"a\" do RICD.",
-    "armadilhaBanca": "Atribuição privativa da CCJC no controle preventivo de constitucionalidade.",
+    "justificativa": "Gabarito CERTO. A Comissão de Constituição e Justiça e de Cidadania (CCJC), prevista no art. 32, IV do RICD, é a comissão central e de maior envergadura jurídica da Câmara. Possui competência material para avaliar privativamente a admissibilidade jurídica de todas as proposições submetidas à Casa quanto à constitucionalidade, juridicidade, regimentalidade e técnica legislativa (LC nº 95/1998).",
+    "armadilhaBanca": "Assertiva correta: o juízo da CCJC é prévio e prejudicial; um vício insanável de constitucionalidade ou técnica legislativa obsta a análise do mérito e pode encerrar a tramitação do projeto.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 32, IV",
       "verificado": false
     },
@@ -742,12 +755,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Se a CCJC emitir parecer unânime pela inconstitucionalidade e injuridicidade de um projeto de lei, a proposição será arquivada definitivamente pelo Presidente da Câmara, salvo se interposto recurso ao Plenário na forma regimental.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 54, I do RICD, o parecer terminativo terminantemente contrário da CCJC acarreta o arquivamento do projeto, cabendo recurso ao Plenário firmado por um décimo dos membros da Câmara.",
-    "armadilhaBanca": "Efeito terminativo do parecer de inconstitucionalidade da CCJC.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 54, I do RICD, o parecer da CCJC que concluir por unanimidade pela inconstitucionalidade ou injuridicidade de uma proposição possui eficácia terminativa, determinando o seu arquivamento definitivo pela Mesa da Câmara. Essa decisão terminativa somente pode ser sobrestada se for interposto recurso ao Plenário com a assinatura de 1/10 dos deputados (52 membros) no prazo regimental.",
+    "armadilhaBanca": "Assertiva correta: parecer terminativo unânime da CCJC pela inconstitucionalidade arquiva a matéria sumariamente, resguardado apenas o direito de recurso a 1/10 do Plenário.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 54, I",
       "verificado": false
     },
@@ -767,12 +780,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Comissão de Finanças e Tributação (CFT) possui competência privativa para examinar a admissibilidade orçamentária e financeira das proposições, sendo terminativo o seu parecer que concluir pela incompatibilidade ou inadequação orçamentária.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 32, X e art. 54, II do RICD, o parecer da CFT sobre inadequação orçamentária e financeira é terminativo e acarreta o arquivamento da proposição.",
-    "armadilhaBanca": "Poder terminativo do parecer da CFT por inadequação orçamentária.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 32, X e art. 54, II do RICD, cabe à Comissão de Finanças e Tributação (CFT) emitir juízo terminativo sobre a compatibilidade e adequação orçamentária e financeira de projetos que acarretem aumento de despesa ou renúncia de receita, confrontando-os com o PPA, a LDO, a LOA e a Lei de Responsabilidade Fiscal (LC nº 101/2000). Parecer pela inadequação financeira também acarreta o arquivamento da proposição.",
+    "armadilhaBanca": "Assertiva correta: CFT e CCJC são as duas comissões da Câmara com competência terminativa de admissibilidade (financeira e constitucional, respectivamente), cujos pareceres negativos barram o prosseguimento do projeto.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 32, X e art. 54, II",
       "verificado": false
     },
@@ -797,12 +810,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 25",
       "verificado": false
     },
     "fonte": "RICD, art. 25",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A composição numérica de cada uma das Comissões Permanentes da Câmara dos Deputados é variável, sendo fixada bienalmente por Ato da Mesa Diretora com observância da representação proporcional partidária (art. 25 do RICD)."
   },
   {
     "id": "m10b-q-33",
@@ -817,12 +831,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Os Presidentes e Vice-Presidentes das Comissões Permanentes da Câmara são eleitos pelos membros da respectiva Comissão, para mandato de um ano, sendo vedada a reeleição para o mesmo cargo na mesma legislatura.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 39 do RICD: mandato de um ano para a Mesa da Comissão, vedada a reeleição imediata na mesma legislatura.",
-    "armadilhaBanca": "Duração do mandato da presidência de comissões permanentes (1 ano).",
+    "justificativa": "Gabarito CERTO. Conforme o art. 39 do RICD, a Mesa de cada Comissão Permanente é eleita por seus membros titulares no início de cada sessão legislativa anual, sendo composta por 1 Presidente e 3 Vice-Presidentes. O mandato desses dirigentes é de apenas 1 ano, sendo vedada a reeleição para o mesmo cargo na mesma legislatura, de modo a garantir a rotatividade partidária no comando dos trabalhos.",
+    "armadilhaBanca": "Assertiva correta: o mandato da Mesa das Comissões é de 1 ano (anual), ao contrário do mandato da Mesa Diretora da Câmara, que é de 2 anos (bienal).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 39",
       "verificado": false
     },
@@ -847,12 +861,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 42",
       "verificado": false
     },
     "fonte": "RICD, art. 42",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nos termos do art. 42 do Regimento Interno da Câmara dos Deputados, o Presidente de Comissão Permanente vota apenas em caso de empate (voto de minerva), ressalvada a votação em escrutínio secreto."
   },
   {
     "id": "m10b-q-35",
@@ -867,12 +882,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As Comissões Especiais são constituídas pelo Presidente da Câmara para dar parecer sobre propostas de emenda à Constituição, projetos de código oumatérias que envolvam a competência de mais de três comissões de mérito.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 34, II do RICD: as comissões especiais são criadas especificamente para PECs, códigos oumatérias de competência concorrente de mais de 3 comissões temáticas.",
-    "armadilhaBanca": "Hipóteses de constituição de Comissões Especiais no RICD.",
+    "justificativa": "Gabarito CERTO. O art. 34, II do RICD determina a constituição obrigatória de Comissões Especiais pelo Presidente da Câmara para proferir parecer sobre propostas de emenda à Constituição (PECs), projetos de código e matérias que versem sobre a competência material de mais de 3 comissões temáticas de mérito. O objetivo é unificar o debate em um único colegiado e acelerar a instrução legislativa.",
+    "armadilhaBanca": "Assertiva correta: quando uma matéria envolve 4 ou mais comissões de mérito (mais de três), o Regimento proíbe a peregrinação sucessiva por todas elas, impondo a criação de comissão especial única.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 34, II",
       "verificado": false
     },
@@ -897,12 +912,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 57, § 6º",
       "verificado": false
     },
     "fonte": "RICD, art. 57, § 6º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Rejeitado o parecer do relator em comissão permanente da Câmara dos Deputados, o voto em separado vencedor passa a constituir o parecer oficial da comissão, sendo seu autor designado para a redação do parecer (art. 57, § 6º do RICD)."
   },
   {
     "id": "m10b-q-37",
@@ -917,12 +933,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Qualquer membro de comissão pode solicitar \"vista\" do processo legislativo após a leitura do parecer do relator, sendo a vista concedida conjuntamente pelo prazo improrrogável de duas sessões.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 57, § 3º do RICD, o prazo de vista em comissão é conjunto de duas sessões.",
-    "armadilhaBanca": "Prazo conjunto de vista em comissões do RICD.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 57, § 3º do RICD, o pedido de vista de proposição após a leitura do parecer do relator em comissão é concedido de forma coletiva e conjunta pelo prazo improrrogável de duas sessões ordinárias do Plenário. A concessão coletiva assegura que todos os deputados interessados tenham acesso aos autos simultaneamente, evitando sucessivos pedidos individuais de postergação.",
+    "armadilhaBanca": "Assertiva correta: o prazo de vista em comissão é conjunto de 2 sessões; a banca adora afirmar falsamente que a vista é individual e sucessiva para cada partido.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 57, § 3º",
       "verificado": false
     },
@@ -947,12 +963,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 57",
       "verificado": false
     },
     "fonte": "RICD, art. 57",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O prazo de vista de processo concedido a membro de comissão na Câmara dos Deputados é de duas sessões do colegiado, sendo vedada a concessão de vista por tempo indeterminado que paralise a tramitação legislativa (art. 57 do RICD)."
   },
   {
     "id": "m10b-q-39",
@@ -967,12 +984,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As audiências públicas realizadas pelas comissões permanentes destinam-se a instruir matéria legislativa em trâmite ou debater assuntos de interesse público relevante, podendo contar com a presença de especialistas, autoridades e representantes da sociedade civil.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 58, § 2º, II da CF/88 e art. 255 do RICD.",
-    "armadilhaBanca": "Finalidade das audiências públicas parlamentares.",
+    "justificativa": "Gabarito CERTO. As audiências públicas nas comissões, autorizadas pelo art. 58, § 2º, II da CF/88 e disciplinadas no art. 255 do RICD, são instrumentos institucionais de instrução legislativa e participação democrática. Permitem que entidades da sociedade civil, especialistas acadêmicos, cidadãos e autoridades públicas prestem subsídios técnicos e científicos sobre matérias em deliberação ou debatam assuntos de relevante interesse social.",
+    "armadilhaBanca": "Assertiva correta: qualquer comissão pode aprovar requerimento de audiência pública para subsidiar o relatório do relator com dados técnicos de especialistas.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 255 / CF/88, art. 58, § 2º, II",
       "verificado": false
     },
@@ -992,17 +1009,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Cidadãos que participam de audiência pública em comissão da Câmara dos Deputados adquirem imunidade penal absoluta e prerrogativa de foro por prerrogativa de função perante o STF.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Cidadãos e expositores em audiências públicas não possuem imunidade parlamentar nem prerrogativa de foro (arts. 53 e 102 da CF/88), sujeitando-se às leis comuns.",
+    "justificativa": "Gabarito ERRADO. As imunidades parlamentares formais e materiais (art. 53 da CF/88) e a prerrogativa de foro perante o STF (art. 102, I, 'b' da CF/88) são privilégios funcionais intuitu personae outorgados exclusivamente aos membros titulares do Congresso Nacional (Deputados e Senadores). Cidadãos, peritos e convidados em audiências públicas não adquirem qualquer imunidade criminal ou prerrogativa de foro, sujeitando-se à responsabilidade civil e penal comum.",
     "armadilhaBanca": "Imunidade parlamentar é restrita a parlamentares.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 53",
       "verificado": false
     },
     "fonte": "CF/88, art. 53",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Cidadãos e especialistas que participam de audiências públicas em comissões do Parlamento não adquirem imunidade penal ou prerrogativa de foro perante o STF, mantendo o regime jurídico penal comum."
   },
   {
     "id": "m10b-q-41",
@@ -1022,12 +1040,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 35",
       "verificado": false
     },
     "fonte": "RICD, art. 35",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "As Comissões Parlamentares de Inquérito (CPIs) da Câmara dos Deputados extinguem-se com o exaurimento de seu prazo ou com o término da legislatura (quadriênio), não se extinguindo pelo mero encerramento da sessão legislativa anual ordinária (art. 35 do RICD)."
   },
   {
     "id": "m10b-q-42",
@@ -1042,12 +1061,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O quórum para abertura dos trabalhos de reunião de Comissão Permanente é de metade mais um de seus membros, e para votação de proposições exige-se a presença da maioria absoluta de seus integrantes.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra regimental expressa de quórum de reunião e quórum de deliberação nas comissões (arts. 47 e 48 do RICD).",
-    "armadilhaBanca": "Quórum de abertura vs quórum de deliberação em comissões.",
+    "justificativa": "Gabarito CERTO. Conforme preceituam os arts. 47 e 48 do RICD, os trabalhos de reunião de Comissão Permanente só podem ser instalados com a presença de, no mínimo, metade mais um de seus membros titulares (maioria absoluta de quórum de abertura). Para a votação e aprovação de pareceres ou proposições, exige-se a presença da maioria absoluta da comissão e a maioria simples dos votos favoráveis dos presentes.",
+    "armadilhaBanca": "Assertiva correta: quórum de abertura (instalação) e quórum de deliberação (presença mínima) exigem maioria absoluta dos membros da comissão; a aprovação das matérias ordinárias dá-se por maioria simples dos votantes.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, arts. 47 e 48",
       "verificado": false
     },
@@ -1067,17 +1086,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Nas comissões, as deliberações são tomadas, em regra, por voto nominal através de chamada alfabética de todos os deputados titulares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A regra geral das votações em comissão é o processo SIMBÓLICO (art. 185 do RICD). A votação nominal é excepcional e depende de requerimento aprovado.",
+    "justificativa": "Gabarito ERRADO. Conforme os arts. 48 e 185 do RICD, a regra geral de votação nas comissões permanentes e temporárias da Câmara é o processo SIMBÓLICO (em que os parlamentares favoráveis permanecem como estão). A votação nominal é excepcionalíssima em comissões, dependendo imperativamente de requerimento formal de verificação aprovado pela maioria do colegiado.",
     "armadilhaBanca": "Regra geral de votação em comissões: processo simbólico.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 185",
       "verificado": false
     },
     "fonte": "RICD, art. 185",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nas comissões da Câmara dos Deputados, as deliberações ordinárias são tomadas, em regra, pelo processo simbólico de votação, sendo a votação nominal uma exceção que exige requerimento formal."
   },
   {
     "id": "m10b-q-44",
@@ -1092,12 +1112,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A emenda substitutiva apresentada por deputado a um projeto de lei em comissão é aquela que visa a substituir integralmente o texto da proposição original.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Definição regimental de substitutivo / emenda substitutiva prevista no art. 118, § 2º do RICD.",
-    "armadilhaBanca": "Definição de emenda substitutiva no processo legislativo.",
+    "justificativa": "Gabarito CERTO. Conforme a classificação formal do art. 118, § 2º do RICD, o 'substitutivo' (ou emenda substitutiva) é a emenda proposta por deputado ou adotada pelo relator em seu parecer com a finalidade de substituir integralmente o texto do projeto original, preservando a ideia central mas reformulando integralmente a redação de seus artigos e parágrafos.",
+    "armadilhaBanca": "Assertiva correta: o substitutivo substitui o corpo principal do projeto; aprovado o substitutivo, a proposição original resta prejudicada naquilo em que for conflitante.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 118, § 2º",
       "verificado": false
     },
@@ -1117,17 +1137,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A emenda aditiva é aquela que retira expressamente dispositivos do texto da proposição original para enxugar o texto da futura lei.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A emenda que retira texto é a emenda SUPRESSIVA (art. 118, § 1º do RICD). A emenda aditiva é aquela que acrescenta novos dispositivos ao texto original.",
+    "justificativa": "Gabarito ERRADO. Conforme a classificação canônica do art. 118 do RICD: a emenda que visa a eliminar parte do texto de uma proposição é a emenda SUPRESSIVA (art. 118, § 1º). A emenda ADITIVA (art. 118, § 3º) é exatamente o oposto: aquela que visa a acrescentar novos dispositivos, termos ou parágrafos ao projeto de lei original.",
     "armadilhaBanca": "Troca conceitual entre emenda aditiva e emenda supressiva.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 118",
       "verificado": false
     },
     "fonte": "RICD, art. 118",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A emenda aditiva é aquela que acrescenta novos dispositivos ao texto original de uma proposição, enquanto a emenda supressiva é aquela destinada a retirar dispositivos do projeto."
   },
   {
     "id": "m10b-q-46",
@@ -1142,12 +1163,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Subemenda é a emenda apresentada a outra emenda, podendo ser aprovada pela comissão competente como parte do parecer final.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conceito regimental estrito de subemenda previsto no art. 118, § 6º do RICD.",
-    "armadilhaBanca": "Definição de subemenda.",
+    "justificativa": "Gabarito CERTO. O art. 118, § 6º do RICD define a 'subemenda' como a espécie de emenda apresentada a outra emenda já formulada (ordinariamente apresentada ao substitutivo do relator no âmbito da comissão competente). A subemenda permite fazer ajustes pontuais aditivos, supressivos ou modificativos em emendas sem precisar rejeitar o parecer como um todo.",
+    "armadilhaBanca": "Assertiva correta: subemenda é formalmente a emenda da emenda, permitida no âmbito das comissões para aperfeiçoar os pareceres e textos substitutivos.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 118, § 6º",
       "verificado": false
     },
@@ -1172,12 +1193,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 24, II c/c art. 252",
       "verificado": false
     },
     "fonte": "RICD, art. 24, II c/c art. 252",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Projetos de lei de iniciativa popular tramitam sob o rito geral das leis ordinárias na Câmara dos Deputados, podendo ser apreciados conclusivamente pelas comissões temáticas competentes, observada a faculdade recursal ao Plenário."
   },
   {
     "id": "m10b-q-48",
@@ -1192,12 +1214,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Comissão de Fiscalização Financeira e Controle (CFFC) possui competência para fiscalizar os atos do Poder Executivo, incluídos os da administração indireta, em cooperação com o Tribunal de Contas da União.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 32, XI do RICD.",
-    "armadilhaBanca": "Competência da CFFC.",
+    "justificativa": "Gabarito CERTO. A Comissão de Fiscalização Financeira e Controle (CFFC), disciplinada no art. 32, XI do RICD e no art. 70 da CF/88, atua como órgão fiscalizatório por excelência da Câmara. Exerce o controle contábil, financeiro, orçamentário, operacional e patrimonial sobre todos os órgãos dos Poderes Executivo, Legislativo e Judiciário e da administração indireta federal, requisitando auditorias e relatórios ao Tribunal de Contas da União (TCU).",
+    "armadilhaBanca": "Assertiva correta: a CFFC é o principal canal parlamentar de acionamento do TCU para auditorias e inspeções externas na administração pública federal.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 32, XI",
       "verificado": false
     },
@@ -1217,12 +1239,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As comissões permanentes da Câmara podem convocar Ministros de Estado para prestar pessoalmente informações sobre assunto previamente determinado, importando crime de responsabilidade a ausência injustificada.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 50 da CF/88 e art. 219 do RICD: convocação de Ministro de Estado por comissão ou Mesa.",
-    "armadilhaBanca": "Convocação ministerial por comissões da Câmara.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 50, caput da CF/88 e o art. 219 do RICD, a Câmara dos Deputados ou qualquer de suas comissões pode convocar Ministro de Estado ou qualquer titular de órgão diretamente subordinado à Presidência da República para prestar pessoalmente informações sobre assunto previamente determinado. O não comparecimento injustificado do Ministro no prazo legal configura crime de responsabilidade.",
+    "armadilhaBanca": "Assertiva correta: a convocação é vinculante e obrigatória sob pena de crime de responsabilidade; não se confunde com o mero 'convite', que não possui caráter coercitivo.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 219 / CF/88, art. 50",
       "verificado": false
     },
@@ -1247,12 +1269,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, MS 23.452 / CF/88, art. 50",
       "verificado": false
     },
     "fonte": "STF, MS 23.452 / CF/88, art. 50",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Magistrados e membros do Poder Judiciário não podem ser convocados coercitivamente por comissões da Câmara dos Deputados para justificar o teor de suas decisões e votos jurisdicionais, sob pena de violação ao princípio da separação dos poderes."
   },
   {
     "id": "m10b-q-51",
@@ -1267,12 +1290,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As reuniões das comissões são públicas, mas podem ser realizadas secretamente por deliberação da maioria de seus membros quando a preservação do sigilo for imprescindível à segurança da sociedade e do Estado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra do art. 46 do RICD.",
-    "armadilhaBanca": "Excepcionalidade das reuniões secretas de comissão.",
+    "justificativa": "Gabarito CERTO. Em respeito ao princípio da publicidade (art. 37 da CF/88 e art. 46 do RICD), as reuniões de comissões são públicas em sua regra ordinária. Todavia, o próprio art. 46 autoriza excepcionalmente a realização de reuniões secretas mediante aprovação da maioria dos membros da comissão quando a matéria versar sobre assunto que exija preservação imprescindível de sigilo de segurança nacional ou decoro.",
+    "armadilhaBanca": "Assertiva correta: a publicidade é a regra geral democrática, admitindo o segredo apenas em situações excepcionais deliberadas pela maioria do colegiado.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 46",
       "verificado": false
     },
@@ -1292,17 +1315,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Deputados suplentes de uma Comissão Permanente podem votar e ser eleitos Presidente da referida Comissão mesmo na presença dos titulares.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O suplente substitui o titular apenas na ausência deste e não pode exercer a Presidência da Comissão como titular permanente (art. 25 do RICD).",
+    "justificativa": "Gabarito ERRADO. Conforme os arts. 25 e 39 do RICD, os deputados suplentes somente participam com direito a voz em reuniões ordinárias e só adquirem direito a voto quando estão substituindo formalmente um membro titular ausente da mesma bancada ou bloco partidário. Além disso, a Presidência e as Vice-Presidências da Comissão são cargos privativos de membros titulares, sendo juridicamente impossível a um suplente ser eleito Presidente da Comissão.",
     "armadilhaBanca": "Função do suplente em comissão permanente.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 25",
       "verificado": false
     },
     "fonte": "RICD, art. 25",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Deputados suplentes em comissão permanente votam apenas na ausência comprovada de membros titulares e não podem ser eleitos para a Presidência ou Mesa da Comissão."
   },
   {
     "id": "m10b-q-53",
@@ -1322,7 +1346,7 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 155",
       "verificado": false
     },
@@ -1342,12 +1366,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O encerramento da legislatura acarreta o arquivamento automático de todas as proposições em tramitação nas comissões, exceto as originárias do Senado Federal ou já aprovadas por uma Casa legislativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra clássica do art. 105 do RICD sobre o arquivamento ao término da legislatura e suas exceções.",
-    "armadilhaBanca": "Arquivamento ao fim de legislatura e proposições imunes.",
+    "justificativa": "Gabarito CERTO. O art. 105 do RICD positiva o princípio da descontinuidade dos trabalhos parlamentares: ao findar a legislatura (mandato de 4 anos), dá-se o arquivamento automático de todas as proposições em tramitação nas comissões e no plenário. O regimento excepciona desse arquivamento: projetos de códigos, tratados internacionais pendentes de ratificação, matérias com pareceres favoráveis em todas as comissões e matérias originárias do Senado Federal.",
+    "armadilhaBanca": "Assertiva correta: regra clássica de transição de legislaturas; o arquivamento é a regra, resguardadas apenas as exceções canônicas taxativamente elencadas no art. 105 do RICD.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 105",
       "verificado": false
     },
@@ -1367,12 +1391,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Um projeto de lei de iniciativa de deputado que tenha sido arquivado por término de legislatura pode ser desarquivado na legislatura subsequente mediante requerimento subscrito pelo autor reeleito.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 105, parágrafo único do RICD, o desarquivamento pode ser solicitado por deputado reeleito nos primeiros cento e oitenta dias da nova legislatura.",
-    "armadilhaBanca": "Regras regimentais de desarquivamento de proposições.",
+    "justificativa": "Gabarito CERTO. O parágrafo único do art. 105 do RICD faculta ao deputado reeleito (ou a qualquer parlamentar mediante apoio) requerer formalmente o desarquivamento de projeto de lei arquivado em virtude do término da legislatura. O pedido deve ser formulado dentro dos primeiros 180 dias da nova legislatura, permitindo que a proposição retome a tramitação a partir do estado em que se encontrava.",
+    "armadilhaBanca": "Assertiva correta: o prazo de desarquivamento é de 180 dias a contar do início da nova legislatura; decorrido esse prazo, o arquivamento consolida-se e a matéria só renasce por nova iniciativa legislativa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 105, parágrafo único",
       "verificado": false
     },
@@ -1392,12 +1416,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Câmara dos Deputados reúne-se anualmente em sua sede, em Brasília, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, dividindo-se o ano legislativo em dois períodos ordinários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Calendário solene da sessão legislativa ordinária fixado no art. 57, caput da CF/88 e no art. 2º do RICD.",
-    "armadilhaBanca": "Datas da sessão legislativa ordinária anual.",
+    "justificativa": "Gabarito CERTO. A sessão legislativa ordinária (SLO) corresponde ao período de trabalho parlamentar anual fixado solenemente no art. 57 da CF/88 e no art. 2º do RICD, compreendendo dois períodos legislativos: o primeiro vai de 2 de fevereiro a 17 de julho e o segundo de 1º de agosto a 22 de dezembro. Os períodos entre 18 e 31 de julho e entre 23 de dezembro e 1º de fevereiro constituem o recesso parlamentar constitucional.",
+    "armadilhaBanca": "Assertiva correta: atente-se às datas constitucionais exatas da sessão legislativa ordinária (2 de fevereiro a 17 de julho / 1º de agosto a 22 de dezembro).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 2º / CF/88, art. 57",
       "verificado": false
     },
@@ -1417,12 +1441,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A sessão legislativa não será interrompida em 17 de julho sem a aprovação prévia do projeto de lei de diretrizes orçamentárias (LDO).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra constitucional expressa do art. 57, § 2º da CF/88.",
-    "armadilhaBanca": "Condição indispensável para o recesso parlamentar de julho.",
+    "justificativa": "Gabarito CERTO. O art. 57, § 2º da Constituição Federal impõe uma cláusula de barreira orçamentária: a sessão legislativa ordinária do primeiro semestre não poderá ser interrompida em 17 de julho sem a aprovação final do projeto de Lei de Diretrizes Orçamentárias (LDO). O objetivo do constituinte foi impedir que o Congresso entre em recesso sem definir as balizas orçamentárias e metas fiscais do ano subsequente.",
+    "armadilhaBanca": "Assertiva correta: o projeto de lei que tranca o recesso parlamentar de julho é expressamente a LDO (art. 57, § 2º da CF/88), e não a LOA ou o PPA (que devem ser votados até o encerramento do ano, em 22 de dezembro).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 2º",
       "verificado": false
     },
@@ -1447,12 +1471,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 7º",
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 7º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Conforme o art. 57, § 7º da Constituição Federal (com a redação dada pela Emenda Constitucional nº 50/2006), é expressamente vedado o pagamento de parcela indenizatória aos parlamentares em virtude de convocação extraordinária."
   },
   {
     "id": "m10b-q-59",
@@ -1467,12 +1492,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As sessões preparatórias da Câmara dos Deputados precedem a inauguração dos trabalhos da legislatura e destinam-se exclusivamente à posse dos Deputados diplomados e à eleição da Mesa Diretora.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme os arts. 3º e 4º do RICD.",
-    "armadilhaBanca": "Finalidade restrita das sessões preparatórias.",
+    "justificativa": "Gabarito CERTO. As sessões preparatórias, reguladas nos arts. 3º e 4º do RICD, ocorrem na abertura da legislatura a partir de 1º de fevereiro. Sua finalidade é estritamente procedimental e fundacional: posse solene dos 513 deputados diplomados perante o Plenário e a subsequente eleição da Mesa Diretora da Câmara dos Deputados para o primeiro biênio legislativo.",
+    "armadilhaBanca": "Assertiva correta: nas sessões preparatórias não se aprecia qualquer proposição ou projeto de lei; sua competência é vinculada unicamente à posse e eleição dos órgãos diretivos da Casa.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, arts. 3º e 4º",
       "verificado": false
     },
@@ -1492,12 +1517,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As sessões da Câmara dos Deputados classificam-se em preparatórias, ordinárias, extraordinárias e solenes.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Classificação oficial das sessões plenárias no art. 64 do RICD.",
-    "armadilhaBanca": "Tipologia das sessões da Câmara.",
+    "justificativa": "Gabarito CERTO. O art. 64 do RICD classifica formalmente as sessões da Câmara dos Deputados em quatro espécies: Preparatórias (posse e instalação de Mesa), Ordinárias (sessões de rotina legislativa realizadas de terça a quinta-feira com pauta regular), Extraordinárias (convocadas para horário distinto para deliberação de pautas urgentes ou específicas) e Solenes (destinadas a comemorações ou atos protocolares de honra).",
+    "armadilhaBanca": "Assertiva correta: taxonomia oficial e regimental das sessões plenárias da Câmara (Preparatórias, Ordinárias, Extraordinárias e Solenes).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 64",
       "verificado": false
     },
@@ -1517,12 +1542,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As sessões solenes destinam-se a comemorações cívicas, homenagens especiais ou recepção de chefes de Estado, não havendo nelas deliberação nem votação de proposições legislativas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 68 do RICD: sessões solenes não comportam votação de matérias legislativas.",
-    "armadilhaBanca": "Natureza não deliberativa das sessões solenes.",
+    "justificativa": "Gabarito CERTO. Conforme preceitua o art. 68 do RICD, as sessões solenes destinam-se exclusivamente a homenagens comemorativas, celebração de fatos cívicos ou recepção oficial de autoridades e chefes de Estado estrangeiros. Em virtude de sua natureza eminentemente protocolar e honorífica, nas sessões solenes é terminantemente vedada a deliberação de matérias legislativas, discussão de projetos ou votação.",
+    "armadilhaBanca": "Assertiva correta: sessões solenes têm escopo estritamente celebrativo; não admitem votação, quórum de deliberação ou questões de ordem política.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 68",
       "verificado": false
     },
@@ -1542,12 +1567,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Ordem do Dia é a fase da sessão plenária em que se realiza a discussão e a deliberação das matérias constantes da pauta previamente organizada pela Presidência da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Definição regimental da Ordem do Dia no art. 82 do RICD.",
-    "armadilhaBanca": "Conceito e função da Ordem do Dia.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 82 do RICD, a Ordem do Dia é a fase deliberativa central da sessão plenária da Câmara dos Deputados. É nessa etapa que o Plenário discute e vota as proposições legislativas que foram previamente organizadas pelo Presidente da Casa e publicadas na pauta. Para início da discussão na Ordem do Dia, exige-se a presença de pelo menos 1/10 dos deputados (52 parlamentares); para votação, exige-se a presença da maioria absoluta da Casa (257 parlamentares).",
+    "armadilhaBanca": "Assertiva correta: a Ordem do Dia é o momento em que a produção de leis de fato se consolida, submetendo-se a exigências rigorosas de quórum de discussão e deliberação.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 82",
       "verificado": false
     },
@@ -1572,12 +1597,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 65 e art. 83",
       "verificado": false
     },
     "fonte": "RICD, art. 65 e art. 83",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A abertura da sessão ordinária e o início do Pequeno Expediente na Câmara dos Deputados exigem a presença de pelo menos um décimo da composição da Casa (52 deputados), reservando-se o quórum de maioria absoluta para a Ordem do Dia (art. 65 do RICD)."
   },
   {
     "id": "m10b-q-64",
@@ -1592,12 +1618,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A urgência urgentíssima (ou urgência regimental do art. 155 do RICD) pode ser requerida por um terço dos membros da Câmara ou por líderes que representem esse número, permitindo que a proposição seja incluída de imediato na Ordem do Dia da mesma sessão para votação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 155 do RICD: requerimento aprovado pela maioria absoluta do Plenário dispensa exigências regimentais e acelera a votação imediata da matéria.",
-    "armadilhaBanca": "Requisitos e quórum do art. 155 do RICD.",
+    "justificativa": "Gabarito CERTO. O requerimento de urgência regimental do art. 155 do RICD (comumente chamado de 'urgência urgentíssima') é o mais poderoso acelerador procedimental da Câmara. Pode ser apresentado por 1/3 da composição da Câmara (171 deputados) ou por Líderes que representem esse quantitativo. Uma vez aprovado pelo Plenário por maioria absoluta (257 votos), a proposição pula toda a tramitação em comissões e vai direto à deliberação na Ordem do Dia da sessão subsequente.",
+    "armadilhaBanca": "Assertiva correta: a aprovação da urgência do art. 155 dispensa a instrução nas comissões permanentes e coloca o projeto diretamente no Plenário, exigindo o apoio de 1/3 para propositura e maioria absoluta para aprovação.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 155",
       "verificado": false
     },
@@ -1622,12 +1648,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 155",
       "verificado": false
     },
     "fonte": "RICD, art. 155",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A concessão do regime de urgência com base no art. 155 do Regimento Interno da Câmara dos Deputados subordina-se à aprovação plenária pelo quórum qualificado de maioria absoluta dos membros da Casa (pelo menos 257 votos)."
   },
   {
     "id": "m10b-q-66",
@@ -1642,12 +1669,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "As votações na Câmara dos Deputados processam-se por dois métodos fundamentais: ostensivo (simbólico ou nominal) e secreto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Classificação dos processos de votação nos arts. 180 a 188 do RICD.",
-    "armadilhaBanca": "Processos de votação no RICD.",
+    "justificativa": "Gabarito CERTO. O Regimento Interno da Câmara (arts. 180 a 188) estrutura os métodos de deliberação em dois processos basilares: o Processo Ostensivo (em que os votos são abertos e públicos, dividindo-se em Simbólico e Nominal) e o Processo Secreto (reservado a casos estritos e excepcionais previstos expressamente na Constituição e no Regimento, como as eleições de Mesa).",
+    "armadilhaBanca": "Assertiva correta: o processo ostensivo é a regra máxima republicana de transparência (simbólico ou nominal), sendo o escrutínio secreto medida residual e de interpretação restritiva.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 180",
       "verificado": false
     },
@@ -1667,12 +1694,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "No processo simbólico de votação, o Presidente da Câmara convida os deputados que forem favoráveis à matéria a permanecerem sentados, manifestando-se contrários aqueles que se levantarem.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o procedimento tradicional de votação simbólica previsto no art. 185 do RICD.",
-    "armadilhaBanca": "Rito procedimental da votação simbólica.",
+    "justificativa": "Gabarito CERTO. O processo simbólico, regido pelo art. 185 do RICD, é a regra geral de votação para matérias ordinárias. O Presidente profere a fórmula ritual canônica: 'Os senhores Deputados que aprovam permaneçam como se encontram'. O resultado é proclamado visualmente pela verificação dos deputados sentados e em pé, sem registro nominal individual nos painéis, resguardado o direito de pedido de verificação formal de votação.",
+    "armadilhaBanca": "Assertiva correta: procedimento ritual histórico das casas legislativas brasileiras; na votação simbólica a manifestação é coletiva e silenciosa (permanecer como está).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 185",
       "verificado": false
     },
@@ -1697,12 +1724,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 186",
       "verificado": false
     },
     "fonte": "RICD, art. 186",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O requerimento de verificação de votação simbólica em Plenário deve ser apoiado por pelo menos seis por cento dos deputados ou por líderes partidários que representem esse quantitativo (art. 186 do RICD)."
   },
   {
     "id": "m10b-q-69",
@@ -1717,12 +1745,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A votação nominal na Câmara dos Deputados realiza-se prioritariamente por meio de sistema eletrônico de votação, registrando-se individualmente os votos SIM, NÃO e ABSTENÇÃO no painel e nos anais da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 187 do RICD.",
-    "armadilhaBanca": "Sistema eletrônico de votação nominal.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 187 do RICD, a votação nominal realiza-se pelo sistema eletrônico de votação no Plenário da Câmara (ou, excepcionalmente por cédula ou chamada nominal caso o sistema esteja inoperante). O sistema capta e registra instantaneamente o voto público de cada deputado (SIM, NÃO ou ABSTENÇÃO), divulgando os nomes nos painéis do plenário e nos anais oficiais para transparência pública.",
+    "armadilhaBanca": "Assertiva correta: o processo nominal assegura a publicidade individual do voto e é obrigatório para matérias de quórum qualificado (como Emendas à Constituição e Leis Complementares).",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 187",
       "verificado": false
     },
@@ -1747,12 +1775,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 7º / CF/88",
       "verificado": false
     },
     "fonte": "RICD, art. 7º / CF/88",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A eleição dos membros da Mesa Diretora da Câmara dos Deputados permanece realizada mediante votação em escrutínio secreto (art. 7º do RICD), não tendo a Emenda Constitucional nº 76/2013 abolido o sigilo nesse pleito interno."
   },
   {
     "id": "m10b-q-71",
@@ -1767,12 +1796,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A questão de ordem é o instrumento regimental que qualquer deputado pode suscitar perante o Presidente dos trabalhos para reclamar contra a inobservância de norma expressa do Regimento Interno ou da Constituição Federal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Definição de questão de ordem do art. 95 do RICD.",
-    "armadilhaBanca": "Conceito e pressupostos da questão de ordem.",
+    "justificativa": "Gabarito CERTO. A questão de ordem, inscrita no art. 95 do RICD, é a prerrogativa regimental atribuída ao parlamentar para suscitar em plenário dúvida legítima quanto à interpretação do Regimento Interno ou da Constituição da República ou reclamar contra a inobservância expressa de rito procedimental. O parlamentar deve fundamentar sua fala indicando expressamente o dispositivo regimental que entende desrespeitado.",
+    "armadilhaBanca": "Assertiva correta: a questão de ordem tem finalidade estritamente procedimental e interpretativa; o Presidente não deve admitir questões de ordem utilizadas para debate de mérito político.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 95",
       "verificado": false
     },
@@ -1792,12 +1821,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Cabe recurso ao Plenário da Câmara das decisões do Presidente sobre questão de ordem, desde que interposto com apoio de um décimo dos membros da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 95, § 8º do RICD.",
-    "armadilhaBanca": "Recurso ao Plenário contra decisão de questão de ordem.",
+    "justificativa": "Gabarito CERTO. Conforme preceitua o art. 95, § 8º do RICD, da decisão monocrática do Presidente da Câmara sobre questão de ordem cabe recurso ao Plenário da Casa. Para ter seguimento, o recurso deve ser interposto formalmente com a subscrição de pelo menos um décimo dos membros da Câmara (52 deputados) e ouvir previamente a Comissão de Constituição e Justiça e de Cidadania (CCJC).",
+    "armadilhaBanca": "Assertiva correta: o recurso contra decisão do Presidente em questão de ordem exige apoio de 1/10 dos membros da Câmara (52 deputados) e parecer da CCJC antes da votação plenária.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 95, § 8º",
       "verificado": false
     },
@@ -1822,12 +1851,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 95, § 1º",
       "verificado": false
     },
     "fonte": "RICD, art. 95, § 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A formulação de questão de ordem em sessão plenária da Câmara dos Deputados deve ser concisa e fundamentada na indicação precisa do artigo constitucional ou regimental em debate, dispondo o orador de até três minutos para sua exposição (art. 95 do RICD)."
   },
   {
     "id": "m10b-q-74",
@@ -1842,12 +1872,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A obstrução parlamentar é uma estratégia legítima de atuação regimental pela qual bancadas e partidos contrários a uma matéria utilizam prazos, debates, pedidos de verificação e retirada de quórum para impedir a votação ou forçar negociações políticas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Reconhecimento regimental e doutrinário da obstrução parlamentar como instrumento de minoria no RICD.",
-    "armadilhaBanca": "Legitimidade regimental da obstrução parlamentar.",
+    "justificativa": "Gabarito CERTO. A obstrução parlamentar, disciplinada no art. 186-A do RICD, é um instrumento procedimental legítimo assegurado às minorias parlamentares e agremiações de oposição para conter a aprovação célere de proposições governistas. Consiste no uso estratégico de requerimentos procedimentais, adiamento de discussão, verificação de quórum e debates com o objetivo de esgotar o tempo regulamentar da sessão.",
+    "armadilhaBanca": "Assertiva correta: a obstrução é reconhecida pelo direito regimental comparado como garantia democrática fundamental do contraditório e do direito das minorias.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 185 e ss. / Doutrina Parlamentar",
       "verificado": false
     },
@@ -1867,12 +1897,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O registro formal de obstrução de uma bancada no sistema eletrônico impede que seus deputados recebam faltas disciplinares, porém seus membros presentes em plenário não contam para efeito de quórum de abertura de votação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Mecânica regimental da declaração de obstrução no painel da Câmara dos Deputados.",
-    "armadilhaBanca": "Efeitos jurídicos e práticos da obstrução em painel.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 186-A do RICD, a bancada que registra formalmente declaração de obstrução no painel eletrônico protege seus deputados contra o cômputo de faltas injustificadas à sessão; contudo, os votos desses parlamentares não são computados para a formação do quórum de deliberação da matéria, diminuindo a base de votantes para fins de aferição da maioria absoluta necessária.",
+    "armadilhaBanca": "Assertiva correta: o deputado em obstrução não sofre penalidade pecuniária de falta, mas sua abstenção estratégica não colabora para o quórum de votação.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD / Atos da Mesa Diretora",
       "verificado": false
     },
@@ -1897,12 +1927,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 202, § 2º / STF, MS 34.697",
       "verificado": false
     },
     "fonte": "RICD, art. 202, § 2º / STF, MS 34.697",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A dispensa do interstício regimental de cinco sessões entre o primeiro e o segundo turno de votação de Proposta de Emenda à Constituição (PEC) depende de requerimento formal apreciado e aprovado pelo Plenário da Câmara."
   },
   {
     "id": "m10b-q-77",
@@ -1917,12 +1948,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A redação final de um projeto de lei aprovado com emendas em Plenário é elaborada pela Comissão de Constituição e Justiça e de Cidadania (CCJC) antes do envio da matéria à Casa revisora ou à sanção presidencial.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 195 do RICD, cabe à CCJC a elaboração da redação final para compatibilização do texto.",
-    "armadilhaBanca": "Competência da CCJC para redação final.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 195 do RICD, após a conclusão das votações de um projeto de lei em Plenário com a aprovação de emendas, o texto é remetido à Comissão de Constituição e Justiça e de Cidadania (CCJC) para a elaboração do parecer de Redação Final. A CCJC harmoniza o vocabulário, expurga antinomias e garante o estrito cumprimento da técnica legislativa (LC nº 95/1998) antes da remessa ao Senado Federal ou sanção presidencial.",
+    "armadilhaBanca": "Assertiva correta: a CCJC é o órgão técnico responsável pela redação final de proposições aprovadas com modificações em plenário para assegurar coerência textual.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 195",
       "verificado": false
     },
@@ -1947,12 +1978,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 272",
       "verificado": false
     },
     "fonte": "RICD, art. 272",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O público presente nas galerias do Plenário Ulysses Guimarães deve manter estrito silêncio durante os trabalhos deliberativos, sendo vedadas manifestações de aplauso, reprovação, apartes ou tumulto sob pena de evacuação do recinto (art. 272 do RICD)."
   },
   {
     "id": "m10b-q-79",
@@ -1967,12 +1999,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O aparte é a interrupção consentida do orador pelo tempo máximo regimental para indagação ou esclarecimento sobre a matéria em debate.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 176 do RICD: o aparte só é permitido com aquiescência do orador e submete-se ao controle do Presidente.",
-    "armadilhaBanca": "Conceito e consentimento prévio no aparte.",
+    "justificativa": "Gabarito CERTO. O aparte, disciplinado no art. 176 do RICD, é a interrupção breve e consentida do discurso do orador que ocupa a tribuna, destinada a solicitar esclarecimento pontual ou fazer indagação sobre o tema exposto. O aparte não pode ultrapassar o limite regimental de tempo e submete-se à autorização prévia e discricionária do orador, que pode recusá-lo soberanamente.",
+    "armadilhaBanca": "Assertiva correta: o aparte depende obrigatoriamente da aquiescência do orador detentor da palavra; o Presidente corta o microfone do aparteante caso este persista sem consentimento.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 176",
       "verificado": false
     },
@@ -1992,12 +2024,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Não é permitido aparte a pronunciamento em comunicação de liderança, questão de ordem ou declaração de voto.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Proibições expressas de aparte elencadas no art. 177 do RICD.",
-    "armadilhaBanca": "Vedações ao aparte no RICD.",
+    "justificativa": "Gabarito CERTO. O art. 177 do RICD elenca as vedações expressas ao aparte parlamentar, proibindo-o quando o parlamentar estiver discursando no uso da prerrogativa de Comunicação de Liderança, suscitando Questão de Ordem, encaminhando votação, declarando voto na tribuna, discursando na condição de Presidente ou intervindo em sessões solenes.",
+    "armadilhaBanca": "Assertiva correta: as hipóteses de vedação ao aparte buscam garantir a celeridade e a estabilidade das deliberações em momentos processuais críticos.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RICD, art. 177",
       "verificado": false
     },
@@ -2017,12 +2049,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Congresso Nacional é dirigido pela Mesa do Congresso Nacional, cuja presidência é exercida privativamente pelo Presidente do Senado Federal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 57, § 5º da CF/88 e art. 2º do Regimento Comum do Congresso Nacional (Resolução nº 1/1970-CN).",
-    "armadilhaBanca": "Presidência do Congresso Nacional pelo Presidente do Senado.",
+    "justificativa": "Gabarito CERTO. Conforme estabelece expressamente o art. 57, § 5º da Constituição Federal de 1988 e o art. 2º do Regimento Comum do Congresso Nacional (Resolução nº 1/1970-CN), a Mesa do Congresso Nacional é dirigida pela Mesa do Senado Federal, sendo sua Presidência exercida privativamente pelo Presidente do Senado Federal, atuando o Presidente da Câmara dos Deputados como Primeiro-Vice-Presidente do Congresso.",
+    "armadilhaBanca": "Assertiva correta: a presidência do Congresso Nacional é prerrogativa institucional privativa do Presidente do Senado Federal, enquanto o Presidente da Câmara ocupa a primeira vice-presidência.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
       "verificado": false
     },
@@ -2047,12 +2079,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 5º / RCCN, art. 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nos termos do art. 57, § 5º da CF/88 e do art. 2º do RCCN, a Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal e sua Primeira-Vice-Presidência é exercida pelo Primeiro-Vice-Presidente da Câmara dos Deputados."
   },
   {
     "id": "m10b-q-83",
@@ -2067,12 +2100,12 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Os demais cargos da Mesa do Congresso Nacional (secretarias) são ocupados alternadamente pelos membros das Mesas da Câmara dos Deputados e do Senado Federal.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 57, § 5º da CF/88 e art. 2º do RCCN.",
-    "armadilhaBanca": "Alternância dos cargos de secretários na Mesa do Congresso Nacional.",
+    "justificativa": "Gabarito CERTO. O art. 57, § 5º da CF/88 e o art. 2º do RCCN consagram o princípio da alternância paritária dos cargos da Mesa do Congresso Nacional: ressalvada a Presidência (exercida pelo Presidente do Senado) e a 1ª Vice-Presidência (exercida pelo Presidente da Câmara), os demais cargos de secretários e vices são preenchidos alternadamente entre senadores e deputados federais, garantindo o equilíbrio federativo no parlamento bicameral.",
+    "armadilhaBanca": "Assertiva correta: a alternância paritária entre deputados e senadores nos cargos da Mesa Comum garante o equilíbrio entre o princípio representativo da população e o princípio federativo dos Estados.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 5º / RCCN, art. 2º",
       "verificado": false
     },
@@ -2092,17 +2125,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que a Câmara dos Deputados e o Senado Federal reúnem-se em sessão conjunta para inaugurar a sessão legislativa, elaborar o regimento comum e regular a criação de serviços comuns às duas Casas, receber o compromisso do Presidente e do Vice-Presidente da República e conhecer do veto e sobre ele deliberar.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Rol de matérias de sessão conjunta previsto no art. 57, § 3º da CF/88 e art. 1º do RCCN.",
-    "armadilhaBanca": "Hipóteses constitucionais de sessão conjunta do Congresso Nacional.",
+    "justificativa": "Gabarito ERRADO. As matérias descritas no item (inauguração da sessão legislativa anual, elaboração do regimento comum, posse do Presidente e Vice da República e apreciação de vetos) constituem precisamente o rol de hipóteses constitucionais e regimentais de convocação de sessão conjunta do Congresso Nacional.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Uso de \"É incorreto afirmar que...\" para negar o rol exato de atribuições em sessão conjunta do Congresso Nacional (art. 57, § 3º da CF).",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 3º / RCCN, art. 1º",
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 3º / RCCN, art. 1º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Câmara dos Deputados e o Senado Federal reúnem-se em sessão conjunta bicameral para inaugurar a sessão legislativa, elaborar o regimento comum, receber o compromisso do Presidente da República e apreciar vetos (art. 57, § 3º da CF/88 e art. 1º do RCCN)."
   },
   {
     "id": "m10b-q-85",
@@ -2122,12 +2156,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º / RCCN, art. 42",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º / RCCN, art. 42",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nas sessões conjuntas do Congresso Nacional, a apuração dos votos de deputados e senadores é realizada de forma separada por Casa legislativa, exigindo-se a anuência majoritária em ambas as Casas para a aprovação da matéria (art. 42 do RCCN)."
   },
   {
     "id": "m10b-q-86",
@@ -2142,17 +2177,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que a apreciação de veto presidencial em sessão conjunta do Congresso Nacional ocorre em escrutínio aberto e nominal, exigindo-se a maioria absoluta dos deputados e senadores para a sua rejeição.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Art. 66, § 4º da CF/88 (com redação dada pela EC nº 76/2013, que extinguiu o voto secreto na derrubada de veto).",
-    "armadilhaBanca": "Votação ostensiva e quórum de maioria absoluta na apreciação de veto.",
+    "justificativa": "Gabarito ERRADO. Desde a promulgação da Emenda Constitucional nº 76/2013, o exame do veto presidencial em sessão conjunta do Congresso Nacional é realizado por escrutínio ostensivo (aberto e nominal), sendo indispensável o quórum qualificado de maioria absoluta nas duas Casas para derrubada do veto.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Falsa contestação da regra de votação aberta e maioria absoluta na apreciação do veto.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 4º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A apreciação de veto presidencial em sessão conjunta do Congresso Nacional processa-se por votação aberta e ostensiva, exigindo-se a maioria absoluta dos votos de deputados e senadores para sua rejeição (art. 66, § 4º da CF/88)."
   },
   {
     "id": "m10b-q-87",
@@ -2172,12 +2208,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 6º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 6º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Esgotado o prazo de trinta dias sem que o Congresso Nacional delibere sobre o veto presidencial, a matéria será incluída na ordem do dia da sessão imediata, sobrestando-se as demais proposições até sua votação final (art. 66, § 6º da CF/88)."
   },
   {
     "id": "m10b-q-88",
@@ -2192,18 +2229,19 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) é comissão mista permanente do Congresso Nacional encarregada de examinar e emitir parecer sobre os projetos de lei do PPA, da LDO e da LOA, bem como sobre as emendas parlamentares a eles apresentadas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Art. 166, § 1º da CF/88 e Resolução nº 1/2006-CN.",
-    "armadilhaBanca": "Competência da Comissão Mista de Orçamento (CMO).",
+    "justificativa": "Gabarito ERRADO. A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) detém competência constitucional expressa (art. 166, § 1º da Carta Magna) para analisar todas as matérias orçamentárias federais e as emendas parlamentares antes de sua votação pelo plenário conjunto.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Uso da fórmula \"É incorreto afirmar que...\" para negar a atribuição constitucional da CMO.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN"
     },
     "fonte": "CF/88, art. 166, § 1º / Resolução nº 1/2006-CN",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) é comissão permanente mista incumbida de examinar e emitir parecer sobre os projetos de lei do PPA, da LDO e da LOA e suas emendas (art. 166, § 1º da CF/88)."
   },
   {
     "id": "m10b-q-89",
@@ -2223,12 +2261,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 166",
       "verificado": false
     },
     "fonte": "CF/88, art. 166",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Os projetos de lei orçamentária anual, diretrizes orçamentárias e plano plurianual são apreciados e votados pelas duas Casas do Congresso Nacional reunidas em sessão conjunta (art. 166, caput e § 2º da CF/88)."
   },
   {
     "id": "m10b-q-90",
@@ -2248,12 +2287,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 166, § 3º, I",
       "verificado": false
     },
     "fonte": "CF/88, art. 166, § 3º, I",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "As emendas parlamentares apresentadas ao projeto de Lei Orçamentária Anual devem ser formal e materialmente compatíveis com as diretrizes do Plano Plurianual (PPA) e da LDO (art. 166, § 3º, I da CF/88)."
   },
   {
     "id": "m10b-q-91",
@@ -2268,17 +2308,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "São admitidas emendas parlamentares ao projeto de lei orçamentária anual que indiquem como fonte de recursos a anulação de despesas com pessoal e seus encargos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O art. 166, § 3º, II, \"a\" da CF/88 veda expressamente a anulação de dotações para pessoal e encargos, serviço da dívida e transferências constitucionais.",
+    "justificativa": "Gabarito ERRADO. O art. 166, § 3º, II, alínea 'a' da Constituição Federal veda expressamente a admissão de emendas individuais, de bancada ou de comissão à LOA que indiquem como fonte de custeio a anulação de dotações destinadas a despesas com pessoal e encargos sociais, serviço da dívida pública consolidada e transferências tributárias constitucionais para Estados e Municípios (tríade intocável do orçamento).",
     "armadilhaBanca": "Vedações constitucionais a fontes de anulação orçamentária.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 166, § 3º, II, \\",
       "verificado": false
     },
     "fonte": "CF/88, art. 166, § 3º, II, \"a\"",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "É terminantemente vedada pela Constituição Federal a apresentação de emendas parlamentares à lei orçamentária que indiquem a anulação de despesas com pessoal e encargos como fonte de recursos compensatória."
   },
   {
     "id": "m10b-q-92",
@@ -2293,17 +2334,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que a Comissão Representativa do Congresso Nacional funciona nos períodos de recesso parlamentar, sendo eleita na última sessão ordinária do período legislativo, com atribuições de zelar pelas prerrogativas do Congresso e fiscalizar os atos do Executivo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conforme o art. 58, § 4º da CF/88 e normas do Regimento Comum.",
-    "armadilhaBanca": "Competência da Comissão Representativa no recesso parlamentar.",
+    "justificativa": "Gabarito ERRADO. Conforme expressamente previsto no art. 58, § 4º da Constituição Federal e no Regimento Comum, a Comissão Representativa é o órgão bicameral encarregado da guarda institucional durante os períodos de recesso parlamentar de janeiro e julho.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Negar a competência constitucional e o funcionamento da Comissão Representativa no recesso.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 4º / RCCN",
       "verificado": false
     },
     "fonte": "CF/88, art. 58, § 4º / RCCN",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Comissão Representativa do Congresso Nacional atua durante o recesso parlamentar, sendo eleita na última sessão ordinária do ano legislativo para zelar pelas prerrogativas do Parlamento e fiscalizar atos urgentes do Executivo (art. 58, § 4º da CF/88)."
   },
   {
     "id": "m10b-q-93",
@@ -2323,12 +2365,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 58, § 4º",
       "verificado": false
     },
     "fonte": "CF/88, art. 58, § 4º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Comissão Representativa do Congresso Nacional não possui atribuição legiferante para aprovar projetos de lei ou propostas de emenda à Constituição durante o recesso parlamentar, exercendo funções de vigilância e fiscalização."
   },
   {
     "id": "m10b-q-94",
@@ -2343,18 +2386,19 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que nos termos da Resolução nº 1/2002-CN, a Medida Provisória encaminhada ao Congresso Nacional deve ser submetida a uma Comissão Mista composta por doze Senadores e doze Deputados titulares e igual número de suplentes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conforme o art. 2º da Resolução nº 1/2002-CN (disciplina a tramitação de MPs no Congresso Nacional).",
-    "armadilhaBanca": "Composição paritária da Comissão Mista de Medida Provisória.",
+    "justificativa": "Gabarito ERRADO. A composição paritária de doze senadores e doze deputados para análise preliminar de medidas provisórias decorre diretamente do art. 2º da Resolução nº 1/2002-CN e do art. 62, § 9º da Constituição Federal.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Utilizar \"É incorreto afirmar que...\" para desqualificar a composição da comissão mista de medidas provisórias.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Resolução nº 1/2002-CN, art. 2º"
     },
     "fonte": "Resolução nº 1/2002-CN, art. 2º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Nos termos da Resolução nº 1/2002-CN, a Medida Provisória editada pelo Executivo é submetida a uma Comissão Mista paritária composta por doze deputados e doze senadores titulares e igual número de suplentes."
   },
   {
     "id": "m10b-q-95",
@@ -2374,12 +2418,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "STF, ADI 4.029 / CF/88, art. 62, § 9º",
       "verificado": false
     },
     "fonte": "STF, ADI 4.029 / CF/88, art. 62, § 9º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "Conforme fixado pelo Supremo Tribunal Federal na ADI 4.029, a emissão prévia de parecer por comissão mista de parlamentares é fase constitucional obrigatória e indeclinável para a tramitação de medidas provisórias."
   },
   {
     "id": "m10b-q-96",
@@ -2394,17 +2439,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "O Regimento Comum do Congresso Nacional não pode ser alterado por resolução conjunta das duas Casas legislativas aprovada por maioria simples dos votos em sessão conjunta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conforme o art. 57, § 3º, II e art. 47 da CF/88.",
-    "armadilhaBanca": "Forma e quórum de alteração do Regimento Comum.",
+    "justificativa": "Gabarito ERRADO. As alterações no Regimento Comum do Congresso Nacional (RCCN) são deliberadas e veiculadas mediante Resolução do Congresso Nacional, aprovada em sessão conjunta por maioria de votos nos termos do art. 57, § 3º, II da Constituição.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Afirmar incorretamente que o Regimento Comum não é passível de alteração por resolução conjunta.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 57, § 3º, II",
       "verificado": false
     },
     "fonte": "CF/88, art. 57, § 3º, II",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O Regimento Comum do Congresso Nacional pode ser modificado por resolução conjunta aprovada pela maioria simples dos votos em sessão conjunta do Congresso Nacional (art. 57, § 3º, II e art. 47 da CF/88)."
   },
   {
     "id": "m10b-q-97",
@@ -2424,12 +2470,13 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RCCN, art. 15",
       "verificado": false
     },
     "fonte": "RCCN, art. 15",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "As sessões conjuntas do Congresso Nacional são realizadas no Plenário Ulysses Guimarães da Câmara dos Deputados, em razão de sua capacidade física para acomodar a totalidade dos 513 deputados e 81 senadores."
   },
   {
     "id": "m10b-q-98",
@@ -2444,17 +2491,18 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que o Presidente do Senado Federal, no exercício da Presidência do Congresso Nacional, é assessorado tecnicamente pelos órgãos da Câmara e do Senado, cabendo a coordenação geral dos trabalhos à Secretaria Especial do Congresso Nacional.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Estrutura de apoio administrativo e legislativo ao funcionamento das sessões conjuntas bicamerais.",
-    "armadilhaBanca": "Estrutura técnica de apoio ao Congresso Nacional.",
+    "justificativa": "Gabarito ERRADO. A Mesa do Congresso Nacional é assessorada e suprida tecnicamente pelas secretarias legislativas e órgãos de apoio das duas Casas bicamerais para viabilizar as sessões conjuntas e reuniões de comissões mistas.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Rejeitar a estrutura de apoio legislativo bicameral que atende ao Congresso Nacional.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "RCCN, arts. 4º a 8º",
       "verificado": false
     },
     "fonte": "RCCN, arts. 4º a 8º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A Presidência do Congresso Nacional conta com o apoio técnico e administrativo dos órgãos do Senado Federal e da Câmara dos Deputados, sob a coordenação executiva da Secretaria de Apoio ao Congresso Nacional."
   },
   {
     "id": "m10b-q-99",
@@ -2474,13 +2522,14 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Resolução nº 1/2006-CN"
     },
     "fonte": "Resolução nº 1/2006-CN",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "O relator-geral da proposta orçamentária na CMO possui atribuição integradora para consolidar as dotações e promover ajustes necessários nos pareceres setoriais para harmonizar o projeto com a receita estimada."
   },
   {
     "id": "m10b-q-100",
@@ -2495,16 +2544,19 @@ export const simuladoRegimentosCamaraCongresso100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "É incorreto afirmar que a rejeição de um veto presidencial pelo Congresso Nacional impõe que o texto original aprovado pelos parlamentares seja promulgado e passe a viger como lei em sua integridade.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A assertiva torna-se incorreta ao negar ou inverter a regra constitucional/regimental: Conforme o art. 66, § 5º da CF/88, rejeitado o veto, será o projeto enviado, para promulgação, ao Presidente da República, que tem 48 horas para fazê-lo.",
-    "armadilhaBanca": "Eficácia da rejeição do veto presidencial.",
+    "justificativa": "Gabarito ERRADO. A rejeição do veto restabelece a vontade do Parlamento, impondo o envio dos dispositivos ao Presidente da República para promulgação em quarenta e oito horas e, se este não o fizer, ao Presidente do Senado Federal.",
+    "armadilhaBanca": "NEGACAO_INDEVIDA: Negar a eficácia jurídica da derrubada do veto presidencial em sessão conjunta.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "CF/88, art. 66, § 5º",
       "verificado": false
     },
     "fonte": "CF/88, art. 66, § 5º",
-    "dataConferencia": "2026-10-14"
+    "dataConferencia": "2026-10-14",
+    "versao_correta": "A rejeição de um veto presidencial pelo Congresso Nacional acarreta o envio do projeto de lei ao Presidente da República para que este o promulgue em até 48 horas (art. 66, § 5º da CF/88)."
   }
 ];
+
+export const questoesM10B = simuladoRegimentosCamaraCongresso100Q;

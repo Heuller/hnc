@@ -26,6 +26,7 @@ export interface ItemSimuladoAdaptativo {
   justificativa: string;
   armadilhaBanca: string;
   autorOuNormaReferencia: string;
+  versao_correta?: string;
 }
 
 export interface RespostaItemAdaptativo {

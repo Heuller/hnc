@@ -1,17 +1,5 @@
 import type { CebraspeQuestion } from '../../domain/types';
 
-/**
- * Simulado Oficial Câmara dos Deputados 2027 (P22)
- *
- * Estrutura Oficial do Edital nº 1/2026:
- * - 180 Itens no formato Certo/Errado (+1 / -1 / 0)
- * - P1: 90 itens de Conhecimentos Básicos (Língua Portuguesa, Língua Inglesa,
- *       Direito Administrativo, Direito Constitucional/RICD/RCCN, TI e Dados)
- * - P2: 90 itens de Conhecimentos Específicos (5 Blocos do Cargo 5 de Biblioteconomia)
- * - Pisos Eliminatórios: P1 < 18, P2 < 27, Total < 54 eliminam
- * - Duração: 5 horas (300 minutos)
- * - Simetria Cebraspe Rigorosa: 90 Certos e 90 Errados (45C/45E em P1 e 45C/45E em P2)
- */
 export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
   {
     "id": "oficial-180q-001",
@@ -23,7 +11,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "Infere-se do Texto I que a Linguagem Simples constitui ferramenta de eficácia democrática orientada a assegurar que o cidadão comum compreenda e exerça os direitos decorrentes da produção legislativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Compreensão global da tese do Texto I.",
+    "justificativa": "Gabarito CERTO. No segundo período do Texto I, o autor afirma expressamente que a emergência do movimento pela Linguagem Simples visa 'assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material'. A inferência proposta pelo item é perfeita e reflete com fidelidade a tese do autor, que vincula a clareza textual da legislação diretamente ao exercício efetivo da cidadania e à concretização do princípio republicano da publicidade material (e não meramente formal).",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -43,15 +31,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "Segundo o Texto I, a adoção da Linguagem Simples nas casas legislativas promove a vulgarização do vernáculo culto e o empobrecimento formal das categorias dogmáticas do Direito.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto sustenta expressamente o oposto: simplificar a linguagem não significa empobrecer a língua nem vulgarizar conceitos dogmáticos, mas conferir clareza à comunicação pública.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. Conforme as diretrizes republicanas de comunicação pública e o movimento da Linguagem Simples (Plain Language), a simplificação visa eliminar o jargão hermético e aproximar o cidadão do texto legal, assegurando transparência e efetividade democrática, sem comprometer o rigor terminológico e a correção gramatical da norma.",
+    "armadilhaBanca": "Inversão conceitual Cebraspe: associar indevidamente a busca por clareza comunicativa à vulgarização linguística ou perda de precisão técnica do Direito.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A adoção da Linguagem Simples no âmbito legislativo busca conferir clareza, concisão e acessibilidade à comunicação pública e aos atos normativos, sem implicar vulgarização do vernáculo culto ou renúncia à precisão técnica dos conceitos jurídicos."
   },
   {
     "id": "oficial-180q-003",
@@ -63,7 +52,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "De acordo com o Texto I, o hermetismo formal que historicamente caracterizou a comunicação parlamentar funcionava como barreira comunicativa que distanciava os cidadãos dos debates públicos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fiel ao primeiro parágrafo do texto.",
+    "justificativa": "Gabarito CERTO. O primeiro período do Texto I é categórico ao assinalar que a tradição comunicativa das casas legislativas brasileiras 'esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos'. O item realiza paráfrase fidedigna da passagem, confirmando que a sofisticação vocabular excessiva operava historicamente como obstáculo ao controle social democrático.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -83,15 +72,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "Depreende-se do Texto I que o autor defende a extinção completa de pareceres jurídicos formais no processo de elaboração de leis ordinárias.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Extrapolação indevida: o texto defende clareza na redação, não a extinção de pareceres técnicos.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. Trata-se de clássica extrapolação textual: em nenhum momento o texto advoga a extinção de pareceres técnicos ou jurídicos — instrumentos essenciais de controle de constitucionalidade e legalidade (CF/88, art. 58 e RICD) —, mas sim a transparência e a inteligibilidade dos documentos produzidos.",
+    "armadilhaBanca": "Extrapolação indevida Cebraspe: expandir a crítica ao hermetismo para a extinção de peças técnicas essenciais do processo legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O autor defende o aperfeiçoamento da clareza redacional e comunicativa na tramitação legislativa, mantendo plenamente a necessidade de pareceres técnicos e jurídicos substanciais no processo de elaboração de leis ordinárias."
   },
   {
     "id": "oficial-180q-005",
@@ -103,7 +93,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, o conectivo 'Entretanto' (início do segundo parágrafo) introduz uma relação de contraposição e adversidade em relação à prática histórica mencionada no parágrafo anterior.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Valor adversativo canônico de 'Entretanto'.",
+    "justificativa": "Gabarito CERTO. O operador discursivo 'Entretanto' atua como conjunção coordenativa adversativa canônica (conforme lição de Celso Cunha e Lindley Cintra). No plano argumentativo, contrapõe o cenário pretérito de hermetismo e distanciamento elitista à nova postura institucional inaugurada pelo movimento da Linguagem Simples, introduzindo uma quebra de expectativa e direcionando a argumentação para a defesa da acessibilidade comunicativa.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -123,15 +113,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, a conjunção 'Entretanto' poderia ser substituída por 'Porquanto' sem alteração dos sentidos e da correção gramatical do texto.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. 'Porquanto' é causal/explicativo; 'Entretanto' é adversativo. A substituição altera a relação lógica e incorre em erro semântico.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. Conforme Cunha & Cintra (Nova Gramática do Português Contemporâneo), \"entretanto\" é conjunção coordenativa adversativa (estabelece contraste, ressalva, oposição), equivalendo a \"contudo\", \"todavia\", \"no entanto\". Já \"porquanto\" é conjunção causal ou explicativa (equivale a \"visto que\", \"já que\", \"porque\"). A substituição altera radicalmente a relação lógica entre as orações.",
+    "armadilhaBanca": "Falso cognato conectivo Cebraspe: confundir \"porquanto\" (causal/explicativo) com \"conquanto\" (concessivo) ou \"portanto\" / \"entretanto\" (conclusivo/adversativo).",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "No período, a conjunção adversativa \"Entretanto\" introduz uma relação de contraste/oposição, ao passo que \"Porquanto\" é uma conjunção causal/explicativa; logo, a substituição causaria grave incoerência semântica e alteração lógica."
   },
   {
     "id": "oficial-180q-007",
@@ -143,7 +134,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "A locução conjuntiva 'de modo que' (Texto I, último período) introduz uma oração subordinada adverbial com valor semântico de consequência.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. 'De modo que' exprime valor consecutivo.",
+    "justificativa": "Gabarito CERTO. A locução 'de modo que' introduz uma oração subordinada adverbial consecutiva, exprimindo o efeito, resultado ou consequência lógica do fato enunciado na oração principal ('assegurar que o cidadão compreenda... de modo que a publicidade republicana alcance sua plena eficácia material'). Gramáticos canônicos como Evanildo Bechara e Rocha Lima confirmam 'de modo que', 'de maneira que' e 'de sorte que' no rol das locuções conjuntivas essencialmente consecutivas.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -163,15 +154,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, o vocábulo 'plasmada' no primeiro parágrafo foi empregado com o sentido estrito de 'destruída / fragmentada'.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. 'Plasmada' significa moldada, formada, configurada.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. O particípio \"plasmada\" deriva do grego plasma / plassein (dar forma, modelar, esculpir). No contexto do primeiro parágrafo, indica que a identidade institucional foi forjada, modelada ou constituída, significado antagônico à ideia de destruição ou fragmentação.",
+    "armadilhaBanca": "Antônimo disfarçado: a banca atribui a um vocábulo de formação/estruturação um sentido destrutivo ou fragmentário.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "No contexto, o vocábulo \"plasmada\" foi empregado com o sentido de moldada, conformada, constituída ou delineada harmonicamente."
   },
   {
     "id": "oficial-180q-009",
@@ -183,7 +175,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "Infere-se do Texto II que a conservação dos registros documentais do parlamento constitui pressuposto essencial para o exercício do controle social e da fiscalização pelos cidadãos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Compreensão da tese central do Texto II.",
+    "justificativa": "Gabarito CERTO. A tese central do Texto II sustenta a memória e a documentação arquivística legislativa não como acervos estáticos, mas como esteio vivo da transparência pública e da prestação de contas (accountability). Sem a preservação fidedigna dos anais, diários e proposições, inviabiliza-se a fiscalização retrospectiva dos atos dos parlamentares, tornando o arquivo um instrumento indispensável do controle social republicano.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -203,15 +195,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Texto I: \"A tradição comunicativa das casas legislativas brasileiras esteve longamente plasmada em um hermetismo formal que, a pretexto de preservar a precisão técnica, erigia intransponíveis barreiras comunicativas entre os representantes eleitos e os cidadãos. Entretanto, a emergência do movimento pela Linguagem Simples não significa empobrecer a língua nem vulgarizar os conceitos dogmáticos do Direito, mas assegurar que o cidadão compreenda e exerça os direitos decorrentes da produção legislativa, de modo que a publicidade republicana alcance sua plena eficácia material.\" Com base no Texto I e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "De acordo com o Texto II, a missão primordial das bibliotecas parlamentares esgota-se na custódia e no armazenamento estático de volumes e códices históricos em depósitos refrigerados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto afirma categoricamente que as funções 'transcendem a mera custódia física'.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. O texto ressalta categoricamente que as bibliotecas legislativas modernas não são depósitos estáticos de papel, mas instrumentos vivos de memória pública, assessoria informacional aos parlamentares e canal de transparência e prestação de contas à sociedade.",
+    "armadilhaBanca": "Reducionismo funcional: restringir o papel estratégico e dinâmico da biblioteca institucional à mera guarda física e custódia passiva de documentos.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A missão das bibliotecas parlamentares transcende amplamente a custódia física de acervos, atuando como centro dinâmico de inteligência legislativa, recuperação estratégica da informação, subsídio qualificado à tomada de decisão e promoção da cidadania."
   },
   {
     "id": "oficial-180q-011",
@@ -223,7 +216,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto II, a conjunção concessiva 'Malgrado' (início do segundo parágrafo) introduz uma ressalva que não impede o cumprimento do dever de gestão técnica da memória.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. 'Malgrado' = 'a despeito de / não obstante / embora' (concessão).",
+    "justificativa": "Gabarito CERTO. A conjunção 'Malgrado' é classificada pela gramática normativa (Cunha & Cintra, Bechara) como subordinativa concessiva, funcionando como sinônimo estrito de 'a despeito de', 'embora', 'conquanto' e 'não obstante'. A oração concessiva introduz um obstáculo ou objeção que, embora reconhecido na argumentação, mostra-se insuficiente para anular ou impedir a realização do fato expresso na oração principal (o dever indeclinável de custódia e preservação).",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -243,15 +236,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "A conjunção 'Malgrado' no Texto II poderia ser substituída por 'Consoante' preservando-se a relação semântica original do período.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. 'Consoante' é conformativa; 'Malgrado' é concessiva. A troca compromete o sentido.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. \"Malgrado\" é conectivo concessivo (introduz fato que poderia impedir a oração principal, mas não impede). \"Consoante\" é conjunção subordinativa conformativa (expressa concordância, modelo ou conformidade de pensamento). São valores sintático-semânticos incompatíveis.",
+    "armadilhaBanca": "Troca de valor conectivo: substituir conjunção concessiva por conformativa sob pretexto de formalidade estílica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A locução/conjunção concessiva \"Malgrado\" (equivalente a \"embora\", \"não obstante\", \"a despeito de\") expressa quebra de expectativa, ao passo que \"Consoante\" é conformativa (equivalente a \"conforme\", \"segundo\"); sua troca desfiguraria a relação lógica do enunciado."
   },
   {
     "id": "oficial-180q-013",
@@ -263,7 +257,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto II, o pronome demonstrativo 'ele' na expressão 'por ele eleitos' funciona como anáfora que retoma o termo antecedente 'o cidadão'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Referenciação anafórica correta: o cidadão -> ele.",
+    "justificativa": "Gabarito CERTO. O pronome pessoal reto 'ele' opera como mecanismo de coesão referencial anafórica, retomando estritamente o sintagma nominal antecedente 'o cidadão' expresso anteriormente na oração. Essa retomada pronominal evita a repetição desnecessária do vocábulo e mantém a cadeia de correferência textual viva e límpida para o leitor.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -283,15 +277,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "O Texto II pertence predominantemente à tipologia textual narrativa, na qual se relatam episódios fictícios em ordem cronológica estrita.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O texto é eminentemente DISSERTATIVO-ARGUMENTATIVO (defende uma tese com base em argumentos conceituais).",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. A tipologia narrativa caracteriza-se por sucessão temporal de eventos, personagens, enredo e narrador em ordem cronológica. O Texto II apresenta reflexão crítica, conceitos e argumentos abstratos em defesa de um posicionamento institucional, configurando tipologia dissertativa-argumentativa.",
+    "armadilhaBanca": "Confusão tipológica Cebraspe: qualificar texto eminentemente reflexivo e argumentativo como narrativa ficcional cronológica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O Texto II estrutura-se predominantemente no tipo dissertativo-argumentativo, articulando premissas conceituais, justificativas técnicas e dados funcionais para sustentar uma tese acerca da função republicana da biblioteca."
   },
   {
     "id": "oficial-180q-015",
@@ -303,7 +298,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, o segmento 'consiste, antes, em arquitetar períodos sintaticamente diretos' emprega o advérbio 'antes' com valor semântico de preferência ou retificação ('pelo contrário / em vez disso').",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. 'Antes' com valor retificativo/adversativo atenuado.",
+    "justificativa": "Gabarito CERTO. Empregado entre vírgulas em contextos de negação prévia ('não significa empobrecer a língua... consiste, antes, em...'), o vocábulo 'antes' assume valor semântico de operador de retificação e contraposição atenuada, equivalendo a 'ao contrário', 'em vez disso' ou 'preferencialmente'. Trata-se de recurso estilístico e argumentativo consagrado na prosa culta que o Cebraspe explora com frequência para testar a sensibilidade semântica do candidato.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -323,15 +318,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto II, a oração 'mas um mecanismo vivo de prestação de contas' introduz circunstância causal subordinada que justifica a realização do 'tributo fúnebre' aludido no período anterior.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Gabarito ERRADO. Não se trata de oração causal, mas sim de oração coordenada sindética adversativa que expressa contraste e refuta enfaticamente a ideia de tributo fúnebre.",
-    "armadilhaBanca": "PEGADINHA_SINTATICA: Trocar relação adversativa por causa.",
+    "justificativa": "Gabarito ERRADO. Iniciada pelo conectivo coordenativo \"mas\", a oração introduz um valor adversativo (contraste/oposição), refutando a tese de \"tributo fúnebre\" em prol do conceito afirmativo de vitalidade republicana. Não há nenhuma relação de subordinação causal com o período anterior.",
+    "armadilhaBanca": "Classificação sintática truncada: converter oração coordenada adversativa em subordinada adverbial causal.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A oração \"mas um mecanismo vivo de prestação de contas\" classifica-se sintaticamente como oração coordenada sindética adversativa, introduzindo contraposição enfática à tese rejeitada no segmento antecedente."
   },
   {
     "id": "oficial-180q-017",
@@ -343,7 +339,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "Depreende-se do Texto II que a digitalização acelerada de acervos, caso seja conduzida sem rigor técnico e sem observância de padrões arquivísticos, pode acarretar perda de integridade documental.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Inferência legítima a partir do alerta formulado no 2º parágrafo.",
+    "justificativa": "Gabarito CERTO. No segundo parágrafo do Texto II, o autor alerta expressamente para o risco de uma 'digitalização desregrada ou meramente utilitarista', desprovida de metadados robustos e esquemas de preservação digital de longo prazo (como o modelo OAIS). A depreensão do item é exata e mantém estrita fidelidade semântica aos limites prudenciais traçados no texto pela advertência arquivística.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -363,15 +359,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "A expressão 'códices e anais históricos' no Texto II exemplifica figuras retóricas de pleonasmo vicioso condenado pela norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. São termos técnicos legítimos da biblioteconomia e história documental, sem qualquer vício de linguagem.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. Pleonasmo vicioso consiste na repetição inútil e tautológica de um mesmo conceito (ex.: subir para cima, elo de ligação). Códice (manuscrito antigo encadernado) e anais (registros históricos ordenados ano a ano) referem-se a categorias arquivísticas e bibliográficas distintas, de uso perfeitamente técnico e abonado pela norma culta.",
+    "armadilhaBanca": "Patrulha gramatical artificial: classificar terminologia técnica específica como figura de vício estilístico condenável.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A locução \"códices e anais históricos\" constitui vocabulário técnico documental e historiográfico legítimo na língua padrão, isento de qualquer vício pleonástico ou redundância reprovável."
   },
   {
     "id": "oficial-180q-019",
@@ -383,7 +380,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, o vocábulo 'límpida' qualifica a hierarquia lógica dos conteúdos, conferindo sentido de clareza, transparência e nitidez estrutural.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Significação contextual do adjetivo.",
+    "justificativa": "Gabarito CERTO. No contexto do Texto I, o adjetivo 'límpida' foi empregado em sentido figurado/estilístico para caracterizar uma disposição textual cristalina, desprovida de ambiguidades, labirintos sintáticos ou obscuridades terminológicas. A qualificação valoriza a transparência e a inteligibilidade direta que devem presidir a redação de atos oficiais democráticos.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -403,15 +400,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, a substituição de 'pressupõe a decodificação clara' por 'pressupõe na decodificação clara' mantém a regência verbal preconizada pela norma culta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O verbo 'pressupor' é transitivo direto (pressupõe algo), sendo errônea a inserção da preposição 'em'.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. O verbo \"pressupor\" é transitivo direto (VTD): quem pressupõe, pressupõe algo. A inserção da preposição \"em\" gera o desvio \"pressupor em\", reprovado pelas gramáticas normativas de referência (Celso Pedro Luft, Dicionário Prático de Regência Verbal).",
+    "armadilhaBanca": "Inserção espúria de preposição: induzir o candidato ao erro inserindo preposição desnecessária em verbo transitivo direto consagrado.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A regência canônica do verbo \"pressupor\" na norma culta é transitiva direta (rege objeto direto sem preposição): \"pressupõe a decodificação clara\", sendo ilegítimo o acréscimo da preposição \"em\"."
   },
   {
     "id": "oficial-180q-021",
@@ -423,7 +421,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto II, o termo 'accountability' é empregado como empréstimo linguístico consagrado na ciência política para designar a obrigação de prestar contas e a responsabilização pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conceito institucional de accountability.",
+    "justificativa": "Gabarito CERTO. O vocábulo estrangeiro 'accountability' é largamente aceito e adotado na literatura técnico-jurídica brasileira em razão da inexistência de um único termo vernáculo correspondente que sintetize, a um só tempo, a obrigação de transparência, a prestação de contas, a responsabilidade ética do gestor público e a sujeição a penalidades pelo descumprimento de mandatos republicanos.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -443,15 +441,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "A assertiva de que a Linguagem Simples flexibiliza o respeito às normas gramaticais de concordância e regência em favor do imediatismo comunicativo alinha-se às teses sustentadas no Texto I.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Linguagem Simples preconiza a concisão e a clareza textual sem renunciar à correção gramatical e às regras cultas de regência e concordância.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. É preceito fundamental da Linguagem Simples (ISO 24495-1 e Manual de Redação da Presidência da República) que simplicidade não autoriza desvios da norma padrão da língua portuguesa. A clareza textual e a estrita correção sintática são elementos complementares e indissociáveis na redação oficial.",
+    "armadilhaBanca": "Falácia do desleixo culto: sugerir que comunicação acessível legitima violação às regras gramaticais de regência e concordância.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "As diretrizes de Linguagem Simples exigem rigorosa observância às normas gramaticais de concordância, regência e ortografia da norma culta, aliando correção idiomática a clareza, concisão e acessibilidade informacional."
   },
   {
     "id": "oficial-180q-023",
@@ -463,7 +462,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto II, a expressão 'fúnebre' carrega conotação metafórica para contrapor a preservação meramente passiva da memória à sua dimensão ativa e democrática.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Semântica estilística e metafórica do vocábulo.",
+    "justificativa": "Gabarito CERTO. Ao qualificar o arquivo tradicional como algo potencialmente 'fúnebre' se reduzido a um depósito inerte de papéis empoeirados, o autor utiliza uma metáfora crítica expressiva para rejeitar a visão necrofilílica da memória e propor, em antítese, uma preservação dinâmica, aberta, digitalizada e orientada ao escrutínio dos cidadãos.",
     "armadilhaBanca": "Assertiva correta: leitura analítica rigorosa exigida pelo padrão Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -483,15 +482,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base na compreensão e interpretação dos textos fornecidos e na mecânica dos operadores argumentativos, julgue o item a seguir.",
     "item": "No Texto I, os termos 'proposições legislativas' e 'comunicações institucionais' exercem sintaticamente a função de sujeitos pacientes da oração.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Exercem a função de COMPLEMENTOS VERBAIS (objetos diretos) da forma nominal 'Redigir'.",
-    "armadilhaBanca": "Pegadinha Cebraspe de media: inversão normativa ou desvio conceitual.",
+    "justificativa": "Gabarito ERRADO. Na estrutura oracional de infinitivo transitivo direto (\"Redigir proposições legislativas e comunicações institucionais...\"), quem redige, redige algo: os termos complementam o verbo sem preposição, exercendo papel sintático de objetos diretos, e não de sujeitos pacientes.",
+    "armadilhaBanca": "Confusão sintática entre complemento verbal e sujeito: tomar os objetos diretos de um infinitivo transitivo por sujeitos pacientes.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M13 (Língua Portuguesa)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Sintaticamente, as expressões \"proposições legislativas\" e \"comunicações institucionais\" desempenham o papel de complementos verbais diretos (objetos diretos) da forma verbal transitiva direta \"Redigir\"."
   },
   {
     "id": "oficial-180q-025",
@@ -528,20 +528,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a CDU e a notação Cutter-Sanborn, julgue os itens a seguir.",
     "item": "A notação mais apropriada para representar obras da área de direito em língua inglesa é 34(=20).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TJDFT/2015 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Na Classificação Decimal Universal (CDU), a língua inglesa é representada pelo auxiliar comum de língua =111 (portanto, Direito em língua inglesa seria 34=111). A notação (=20) representa o auxiliar comum de raça/povos de origem anglo-saxônica, e não a língua inglesa.",
+    "armadilhaBanca": "TROCA_DE_TABELA_AUXILIAR: Confundir a tabela de línguas (=...) com a tabela de raça, etnia e nacionalidade (=(...)).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
-        "verificado": true,
-        "provaId": "TJDFT/2015",
-        "ano": 2015,
-        "orgao": "2015",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1142"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "TJDFT/2015",
+      "ano": 2015,
+      "orgao": "2015",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1142"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Na CDU, a especificação de língua de um documento é representada pelo auxiliar comum de língua com sinal de igual, sendo a língua inglesa designada por =111 (34=111), ao passo que os parênteses com igual (=...) indicam auxiliares comuns de raça, ascendência étnica e nacionalidade."
   },
   {
     "id": "oficial-180q-027",
@@ -553,20 +554,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The antigen test some of the participants had checks the blood levels of a cancer-associated protein.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo M12 (Língua Inglesa).",
+    "justificativa": "Gabarito oficial ERRADO. A assertiva comete extrapolação factual sem respaldo no texto. O excerto refere-se a 'a 10-year National Cancer Institute study involving more than 76,000 men' sem emitir qualquer juízo ou menção de que o instituto seja recente ('relatively new') ou desprovido de tradição. No modelo Cebraspe de interpretação textual em língua inglesa, qualquer inferência que introduza atributos temporais ou qualitativos alheios ao texto viola a fidedignidade hermenêutica estrita.",
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2356"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2356"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "The National Cancer Institute is a long-standing, historic scientific institution, and the text provides no statement claiming that it is relatively new or non-traditional."
   },
   {
     "id": "oficial-180q-028",
@@ -579,19 +581,20 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. In the excerpt “threat actors differ enormously in their intentions and capabilities, which also change over time”, “which” refers to “threat actors”.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "armadilhaBanca": "REFERENCIA_PRONOMINAL_INCORRETA: Atribuir o pronome \"which\" a agentes/pessoas em vez de atributos abstratos antecedentes.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2372"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2372"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "In the cited sentence, the relative pronoun \"which\" refers back to \"their intentions and capabilities\", whereas referring to the persons or entities (\"threat actors\") would require a personal relative pronoun such as \"who\"."
   },
   {
     "id": "oficial-180q-029",
@@ -607,15 +610,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2357"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2357"
+    },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -628,17 +631,18 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A presença frequente de êxito e alegria (\"Most of the time it is joyous\") afasta categoricamente a tese de que estacionar seja invariavelmente uma vivência terrível.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: A palavra \"always\" desconsidera os momentos alegres de sucesso descritos pelo narrador.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2364",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2364",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "oficial-180q-031",
@@ -654,15 +658,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2361"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2361"
+    },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -675,20 +679,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. One group of volunteers was subjected to manual examination while the other had an antigen test.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A assertiva comete extrapolação factual sem respaldo no texto. O excerto refere-se a 'a 10-year National Cancer Institute study involving more than 76,000 men' sem emitir qualquer juízo ou menção de que o instituto seja recente ('relatively new') ou desprovido de tradição. No modelo Cebraspe de interpretação textual em língua inglesa, qualquer inferência que introduza atributos temporais ou qualitativos alheios ao texto viola a fidedignidade hermenêutica estrita.",
+    "armadilhaBanca": "INFORMACAO_EXTRITEXTUAL: Inserir assertiva depreciativa sobre a antiguidade do instituto sem respaldo no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2365"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2365"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "The National Cancer Institute is a long-standing, historic scientific institution, and the text provides no statement claiming that it is relatively new or non-traditional."
   },
   {
     "id": "oficial-180q-033",
@@ -698,23 +703,23 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "questaoOrigemId": "m12-q-19",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The author points to a discontinuity in the history of financial bookkeeping from the end of the 15th century to the 18th century.",
+    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. According to the text, the historical development of auditing and bookkeeping can be traced through European history, including the emergence of double-entry bookkeeping in the late 15th century and prominent fraud cases in the 18th century.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto apresenta uma perspectiva histórica contínua da evolução das práticas de controle e contabilidade, citando a formalização das partidas dobradas por volta de 1494 d.C. e os casos célebres de fraude financeira do século XVIII na Europa (como o escândalo dos mares do Sul e a crise das tulipas) como motivadores do controle interno.",
+    "armadilhaBanca": "Assertiva correta: compreensão da linha do tempo evolutiva da auditoria e escrituração contábil europeia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      },
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2386",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -728,19 +733,20 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. According to the text, the limitations imposed on police work in democratic societies are motivated by the fact that the use of arms almost never happens.",
     "gabarito": "E",
     "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "armadilhaBanca": "FALSA_CAUSALIDADE: Estabelecer uma relação de causa e efeito inexistente no texto entre a raridade do uso de armas e a limitação do papel policial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2366"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2366"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "In democratic societies, police roles are circumscribed to protect citizen rights and foster trust and positive community relationships, rather than being motivated by the infrequency of armed engagement."
   },
   {
     "id": "oficial-180q-035",
@@ -752,16 +758,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (expressão idiomática: despedaça o coração / causa angústia).",
+    "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2371",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      },
+      "tipo": "inedita",
+      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -774,20 +780,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. For the author, parking in New York is an occasion of great suspense because it is always a terrible experience.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial CERTO (conforme acervo Cebraspe/simulado). Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: A palavra \"always\" desconsidera os momentos alegres de sucesso descritos pelo narrador.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2367"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2367"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "oficial-180q-037",
@@ -799,16 +806,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2373",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      },
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Moneyland (adaptado) / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2373",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
     "provaBloco": "P1_BASICOS"
   },
   {
@@ -821,17 +828,18 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. By using the expressions “‘advocacy’ role” (second sentence of the second paragraph) and “advocacy agenda” (forth sentence of the third paragraph), the author is referring specifically to people who have a degree in law and work in the legislative branch.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A expressão \"at times frightening\" reflete uma constatação irônica das deficiências de modernização da instituição, tendo os servidores reagido com humor (\"laughed\"), sem pavor ou medo pessoal.",
+    "armadilhaBanca": "INTERPRETACAO_LITERAL_EXAGERADA: Converter a expressão retórica \"at times frightening\" em medo pessoal real do autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2368",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
-      },
-    "provaBloco": "P1_BASICOS"
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2368",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
+    },
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "The author describes the legislators' awkward approach to technology as \"at times comical―at times frightening\" in its institutional implications, while noting that he and his colleagues reacted primarily with amusement and laughter (\"watched on―and laughed\")."
   },
   {
     "id": "oficial-180q-039",
@@ -873,7 +881,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Em virtude do princípio da legalidade administrativa estrita (art. 37, caput da CF/88), o agente público só pode agir quando houver expressa autorização ou imposição legal, ao passo que aos particulares aplica-se o princípio da autonomia da vontade (art. 5º, II da CF/88)."
   },
   {
     "id": "oficial-180q-041",
@@ -915,7 +924,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe - Adaptada"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A criação de uma nova diretoria ou coordenação técnica no âmbito da Câmara dos Deputados constitui desconcentração administrativa, caracterizada pela distribuição interna de competências no âmbito da mesma pessoa jurídica."
   },
   {
     "id": "oficial-180q-043",
@@ -957,7 +967,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe - Adaptada"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A empresa pública é constituída com 100% de capital público sob qualquer forma jurídica admitida em direito, enquanto a sociedade de economia mista conjuga capital público majoritário com capital privado sob a forma obrigatória de sociedade anônima (S/A)."
   },
   {
     "id": "oficial-180q-045",
@@ -999,7 +1010,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Cebraspe - Adaptada"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Conforme a Súmula Vinculante nº 13 do Supremo Tribunal Federal, a vedação ao nepotismo incide sobre os poderes Executivo, Legislativo e Judiciário da União, estados e municípios, proibindo a nomeação de cônjuge ou parentes até terceiro grau para cargos em comissão."
   },
   {
     "id": "oficial-180q-047",
@@ -1041,7 +1053,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Conforme a Teoria dos Motivos Determinantes, a validade do ato administrativo vincula-se indissociavelmente aos motivos fáticos e jurídicos alegados para a sua edição, sendo vedada a substituição a posteriori de motivos falsos por novos fundamentos."
   },
   {
     "id": "oficial-180q-049",
@@ -1083,7 +1096,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A revogação de um ato administrativo discricionário produz efeitos prospectivos e não retroativos (ex nunc), respeitando-se as consequências jurídicas pretéritas geradas durante sua vigência."
   },
   {
     "id": "oficial-180q-051",
@@ -1125,7 +1139,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O vício de finalidade (desvio de poder ou desvio de finalidade) consubstancia defeito material insanável, acarretando a nulidade absoluta do ato administrativo e impedindo qualquer convalidação pela administração."
   },
   {
     "id": "oficial-180q-053",
@@ -1167,7 +1182,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O parecer vinculante obriga a autoridade administrativa competente a decidir em estrita consonância com suas conclusões técnicas, não dispondo o gestor de discricionariedade para deliberar em sentido diametralmente oposto."
   },
   {
     "id": "oficial-180q-055",
@@ -1209,7 +1225,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "TJ-PA / Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O ato complexo resulta da manifestação conjugada de dois ou mais órgãos distintos que se unem para formar um único ato, enquanto o ato composto emana de um órgão principal mas depende da aprovação ou ratificação de outro órgão acessório."
   },
   {
     "id": "oficial-180q-057",
@@ -1251,7 +1268,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Conforme o art. 29 da Lei nº 8.112/1990, a recondução é o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório ou reintegração do anterior ocupante, sempre sem direito a indenização."
   },
   {
     "id": "oficial-180q-059",
@@ -1268,7 +1286,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O processo legislativo brasileiro compreende expressamente a elaboração de emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O rol taxativo das espécies normativas que integram o processo legislativo primário consta expressamente no art. 59, incisos I a VII, da CF/88.",
+    "justificativa": "Gabarito CERTO. O processo legislativo primário compreende expressamente a elaboração de: emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções, consoante o rol taxativo do art. 59, incisos I a VII da Constituição Federal de 1988. Atos administrativos normativos (como portarias e decretos executivos) integram o poder regulamentar infralegal e não o processo legislativo primário.",
     "armadilhaBanca": "Rol do art. 59 da CF/88.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1307,7 +1325,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "STF, ADI 1.434 / CF/88, art. 69",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Matéria reservada pela Constituição a lei complementar não pode ser validamente disciplinada por lei ordinária, padecendo esta de inconstitucionalidade formal insanável por usurpação de competência, mesmo que tenha obtido maioria absoluta dos votos."
   },
   {
     "id": "oficial-180q-061",
@@ -1324,7 +1343,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A lei complementar distingue-se formalmente da lei ordinária quanto ao quórum de aprovação, exigindo-se a maioria absoluta dos membros de cada Casa do Congresso Nacional para a aprovação da lei complementar, ao passo que a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 69 da CF/88, as leis complementares serão aprovadas por maioria absoluta. As leis ordinárias seguem a regra geral do art. 47 (maioria simples).",
+    "justificativa": "Gabarito CERTO. O critério de distinção formal entre lei complementar e lei ordinária é o quórum de aprovação: as leis complementares exigem a maioria absoluta dos votos dos membros de cada Casa (art. 69 da CF/88 — 257 deputados na Câmara e 41 senadores no Senado), ao passo que as leis ordinárias são aprovadas por maioria simples dos presentes, exigida a presença da maioria absoluta da Casa (art. 47 da CF/88). Não há hierarquia normativa entre ambas, mas repartição material constitucional de matérias.",
     "armadilhaBanca": "Quóruns do art. 69 vs art. 47 da CF/88.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1352,7 +1371,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "Os projetos de lei de iniciativa popular devem ser apresentados perante o Senado Federal, haja vista ser esta a Casa representativa dos Estados da Federação e da soberania popular.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 61, § 2º da CF/88, a iniciativa popular deve ser exercida mediante a apresentação à Câmara dos Deputados de projeto de lei devidamente subscrito.",
+    "justificativa": "Gabarito ERRADO. Conforme expressamente preceitua o art. 61, § 2º da CF/88, a iniciativa popular de leis federais deve ser exercida mediante a apresentação de projeto de lei à CÂMARA DOS DEPUTADOS (órgão de representação popular direta dos cidadãos), e não ao Senado Federal (órgão de representação dos Estados e do DF).",
     "armadilhaBanca": "Troca da Câmara dos Deputados pelo Senado Federal.",
     "ehPegadinha": true,
     "dificuldade": "media",
@@ -1363,7 +1382,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "CF/88, art. 61, § 2º",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Os projetos de lei de iniciativa popular devem ser apresentados perante a Câmara dos Deputados, consoante o art. 61, § 2º da Constituição Federal."
   },
   {
     "id": "oficial-180q-063",
@@ -1380,7 +1400,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "A iniciativa popular de leis federais pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da transcrição literal do art. 61, § 2º da CF/88.",
+    "justificativa": "Gabarito CERTO. A iniciativa popular de leis federais no Brasil é disciplinada no art. 61, § 2º da CF/88 e exige o cumprimento cumulativo de uma tríplice exigência: (1) subscrição de, no mínimo, 1% do eleitorado nacional; (2) distribuído por pelo menos 5 Estados da Federação; (3) com não menos de 0,3% dos eleitores de cada um deles. O projeto deve ser protocolado perante a Câmara dos Deputados (ex.: Lei da Ficha Limpa - LC 135/2010).",
     "armadilhaBanca": "Percentuais do art. 61, § 2º da CF/88.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1419,7 +1439,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "CF/88, art. 63, I",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Não é admitido aumento de despesa prevista nos projetos de iniciativa exclusiva do Presidente da República por meio de emendas parlamentares, ressalvadas as emendas ao projeto de lei do orçamento anual e suas diretrizes (art. 63 da CF/88)."
   },
   {
     "id": "oficial-180q-065",
@@ -1436,7 +1457,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "São de iniciativa privativa do Presidente da República as leis que disponham sobre a criação de cargos, funções ou empregos públicos na administração direta e autárquica ou aumento de sua remuneração, bem como sobre a fixação oumodificação do efetivo das Forças Armadas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 61, § 1º, II, \"a\" e inciso I da CF/88.",
+    "justificativa": "Gabarito CERTO. O art. 61, § 1º, II, alínea 'a' e o inciso I da CF/88 conferem competência privativa ao Presidente da República para a iniciativa de leis que disponham sobre a criação de cargos, funções ou empregos públicos na administração direta e autárquica da União, bem como a fixação ou aumento de sua remuneração. Projeto parlamentar que verse sobre tais temas padece de vício formal de iniciativa insanável.",
     "armadilhaBanca": "Iniciativa privativa do Chefe do Executivo.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1464,7 +1485,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
     "item": "O veto presidencial a projeto de lei ostenta caráter terminativo e insuscetível de reexame pelos parlamentares, cabendo ao Congresso Nacional dar ciência aos líderes partidários e arquivar a proposição em razão do princípio da separação dos poderes.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O veto é relativo. O Congresso Nacional pode rejeitar o veto em sessão conjunta, por maioria absoluta dos votos de Deputados e Senadores (art. 66, § 4º da CF/88).",
+    "justificativa": "Gabarito ERRADO. No direito constitucional brasileiro, o veto presidencial ostenta eficácia meramente relativa (superável). O Congresso Nacional, reunido em sessão conjunta de Deputados e Senadores no prazo de 30 dias, pode rejeitar o veto mediante o voto da MAIORIA ABSOLUTA de seus membros (art. 66, § 4º da CF/88), momento em que o projeto é enviado para promulgação.",
     "armadilhaBanca": "Caráter relativo do veto.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1475,7 +1496,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "CF/88, art. 66, § 4º",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O veto presidencial a projeto de lei possui caráter relativo, podendo ser rejeitado em sessão conjunta do Congresso Nacional pelo voto da maioria absoluta dos deputados e senadores (art. 66, § 4º da CF/88)."
   },
   {
     "id": "oficial-180q-067",
@@ -1492,7 +1514,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "A Mesa Diretora da Câmara dos Deputados compõe-se do Presidente, de dois Vice-Presidentes e de quatro Secretários, além de quatro Suplentes de Secretário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 14, caput e § 1º do RICD, a Mesa compõe-se de 7 membros titulares (Presidente, 2 Vices e 4 Secretários) e 4 Suplentes.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 14, caput e § 1º do Regimento Interno da Câmara dos Deputados (RICD), a Mesa Diretora compõe-se de 7 membros titulares: o Presidente, 2 Vice-Presidentes (1º e 2º) e 4 Secretários (1º, 2º, 3º e 4º). Há também 4 Suplentes de Secretário destinados exclusivamente a substituir os Secretários em suas faltas ou impedimentos. Não há previsão de suplentes para os cargos de Presidente e Vice-Presidentes.",
     "armadilhaBanca": "Composição numérica exata da Mesa da Câmara.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1531,7 +1553,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "RICD, art. 5º / CF/88, art. 57, § 4º",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Os membros da Mesa Diretora da Câmara dos Deputados são eleitos para mandato de dois anos, sendo vedada a recondução para o mesmo cargo na eleição imediatamente subsequente na mesma legislatura (art. 57, § 4º da CF/88 e art. 5º do RICD)."
   },
   {
     "id": "oficial-180q-069",
@@ -1548,7 +1571,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Na constituição da Mesa e de cada Comissão, é assegurada, tanto quanto possível, a representação proporcional dos partidos ou dos blocos parlamentares que participam da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Princípio da proporcionalidade partidária positivado no art. 58, § 1º da CF/88 e no art. 8º do RICD.",
+    "justificativa": "Gabarito CERTO. Trata-se da consagração do princípio da proporcionalidade partidária, positivado tanto no art. 58, § 1º da CF/88 quanto no art. 8º do RICD. A distribuição dos cargos da Mesa e das vagas de membros titulares e suplentes em cada Comissão deve espelhar, tanto quanto possível, a correlação de forças e o peso numérico de cada bancada partidária ou bloco parlamentar na data da fixação da representação.",
     "armadilhaBanca": "Princípio da proporcionalidade partidária na Mesa e Comissões.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1587,7 +1610,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "RICD, art. 17, § 1º",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Nos termos do art. 17, § 1º do RICD, o Presidente da Câmara dos Deputados não vota nas votações ostensivas do Plenário, ressalvadas as hipóteses de empate (voto de minerva), escrutínio secreto ou matérias de quórum qualificado."
   },
   {
     "id": "oficial-180q-071",
@@ -1604,7 +1628,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Substitui o Presidente da Câmara dos Deputados em suas faltas ou impedimentos o Primeiro-Vice-Presidente e, na ausência deste, o Segundo-Vice-Presidente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 18 do RICD.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 18 do RICD, a linha formal de substituição do Presidente da Câmara dos Deputados recai, sucessivamente, sobre o Primeiro-Vice-Presidente e, nas faltas ou ausências deste, sobre o Segundo-Vice-Presidente. Caso ambos os vices estejam ausentes ou impedidos, a presidência interina passa a ser exercida pelos Secretários, na ordem de precedência numeral (1º, 2º, 3º e 4º Secretários).",
     "armadilhaBanca": "Linha de substituição do Presidente pelos Vice-Presidentes.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1643,7 +1667,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "RICD, art. 21",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Compete ao Terceiro-Secretário da Mesa Diretora da Câmara dos Deputados examinar requerimentos de licença de deputados, atestados e justificações de faltas, prestando apoio ao funcionamento das sessões (art. 21 do RICD)."
   },
   {
     "id": "oficial-180q-073",
@@ -1660,7 +1685,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989) e no Regimento Comum do Congresso Nacional (RCCN — Resolução nº 1/1970-CN), julgue o item a seguir.",
     "item": "Compete ao Primeiro-Secretário da Mesa Diretora da Câmara dos Deputados superintender os serviços administrativos da Casa e assinar a correspondência oficial da Câmara.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 19 do RICD: o Primeiro-Secretário atua como uma espécie de \"prefeito/administrador\" da Câmara, gerindo os serviços da Secretaria e ordenando despesas.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 19 do RICD, o Primeiro-Secretário atua como a autoridade administrativa central da Casa ('prefeito/administrador' da Câmara). Cabe-lhe superintender os serviços administrativos da Diretoria-Geral (DG) e da Secretaria-Geral da Mesa (SGM), autorizar despesas, assinar certidões e expedir a correspondência externa oficial da Câmara dos Deputados.",
     "armadilhaBanca": "Competência administrativa do Primeiro-Secretário.",
     "ehPegadinha": false,
     "dificuldade": "media",
@@ -1699,7 +1724,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     },
     "fonte": "RICD, art. 17, II c/c art. 20-A",
     "dataConferencia": "2026-10-14",
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A prerrogativa de organizar e fixar a Ordem do Dia das sessões plenárias é privativa do Presidente da Câmara dos Deputados, que atua ouvindo o Colégio de Líderes sem subordinação vinculante a suas deliberações (art. 17 do RICD)."
   },
   {
     "id": "oficial-180q-075",
@@ -1711,7 +1737,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No ambiente Microsoft 365, a funcionalidade de coautoria em tempo real no Word e no Excel permite que múltiplos usuários editem o mesmo documento simultaneamente, registrando a presença de cada colaborador e salvando as alterações automaticamente no OneDrive ou SharePoint.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A coautoria simultânea do M365 sincroniza alterações via nuvem (SharePoint/OneDrive) com salvamento automático.",
+    "justificativa": "Gabarito CERTO. No ecossistema Microsoft 365, a coautoria simultânea em tempo real apoia-se nos serviços em nuvem do SharePoint Online e OneDrive for Business. As alterações são sincronizadas continuamente por meio de algoritmos de resolução de conflitos em nível de parágrafo, sinalizando visualmente os cursores e a presença dos demais editores ativos e gravando versões automaticamente no histórico de revisões sem risco de sobrescrita de arquivos.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1731,15 +1757,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Microsoft Excel para a Web, o recurso de coautoria simultânea exige o bloqueio exclusivo de todo o arquivo pelo primeiro usuário que o abrir, impedindo a visualização ou inserção de dados por outros membros da equipe até que a sessão seja encerrada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A coautoria foi desenhada exatamente para permitir edição concorrente e transparente, sem bloqueio exclusivo do arquivo.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. O recurso de coautoria (co-authoring) em nuvem do ecossistema Microsoft 365 foi concebido especificamente para eliminar o bloqueio exclusivo de arquivos, permitindo que vários colaboradores editem simultaneamente a mesma pasta de trabalho, com sincronização automática e controle de alterações concorrentes.",
+    "armadilhaBanca": "Inversão do princípio de colaboração em nuvem: atribuir comportamento arcaico de bloqueio de arquivo (file locking da rede local) à coautoria moderna em nuvem.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "No Microsoft Excel para a Web, o recurso de coautoria em tempo real permite a edição simultânea e concorrente por múltiplos usuários autorizados, exibindo cursores coloridos de presença sem bloquear o arquivo de modo exclusivo."
   },
   {
     "id": "oficial-180q-077",
@@ -1751,7 +1778,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Google Workspace (Google Docs e Google Sheets), o histórico de versões armazena todas as revisões realizadas em um documento, possibilitando aos usuários com permissão de edição restaurar versões anteriores ou nomear marcos específicos de alteração.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Version History no Google Workspace permite inspecionar alterações por usuário, restaurar versões e rotular versões com nomes personalizados.",
+    "justificativa": "Gabarito CERTO. No Google Workspace (Docs, Sheets e Slides), o Histórico de Versões armazena cronologicamente cada modificação realizada pelos usuários com identificação individualizada por cores e carimbos de data/hora. A plataforma permite a auditabilidade integral das alterações, a restauração direta de qualquer versão pregressa sem perda de dados e a atribuição de rótulos personalizados ('Nomear versão atual') para marcar marcos formais de redação legislativa.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1771,15 +1798,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "Ao restaurar uma versão anterior de um arquivo compartilhado no Microsoft SharePoint, o sistema exclui permanentemente todo o histórico de versões subsequentes, impossibilitando qualquer reversão futura à versão mais recente.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O SharePoint não deleta as versões posteriores; a restauração simplesmente cria uma nova versão com o conteúdo antigo, mantendo a integridade de todo o histórico.",
-    "armadilhaBanca": "Pegadinha Cebraspe de media: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. O mecanismo de versionamento do SharePoint e do OneDrive é não destrutivo: a restauração de uma versão histórica copia o conteúdo correspondente para o topo da pilha de versões como um novo número de versão, mantendo todas as versões intermediárias e posteriores intactas no log.",
+    "armadilhaBanca": "Suposição de comportamento destrutivo no versionamento de arquivos em nuvem corporativa.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Ao restaurar uma versão anterior de um arquivo no Microsoft SharePoint ou OneDrive, o sistema preserva integralmente todo o histórico prévio e registra o documento restaurado como uma nova versão mais recente, assegurando reversibilidade total."
   },
   {
     "id": "oficial-180q-079",
@@ -1791,7 +1819,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Microsoft Teams, os canais privados permitem delimitar a colaboração e o acesso a arquivos e conversas a um subconjunto restrito de membros da equipe, criando automaticamente uma coleção de sites dedicada no SharePoint para armazenar seus documentos com isolamento de permissões.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Cada canal privado no Teams gera um site collection próprio no SharePoint para garantir isolamento rígido de permissões.",
+    "justificativa": "Gabarito CERTO. No Microsoft Teams, a criação de um 'canal privado' isola o conteúdo e as conversas de modo que apenas membros especificamente convidados tenham acesso. Do ponto de vista da infraestrutura técnica, o Teams provisiona automaticamente uma nova coleção de sites (site collection) independente no SharePoint Online, garantindo que as permissões de acesso aos arquivos fiquem totalmente segregadas da equipe principal e dos canais públicos.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1811,15 +1839,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "Ao criar um canal compartilhado no Microsoft Teams, qualquer participante externo pertencente a outra organização adquire automaticamente permissões de administrador global sobre a equipe proprietária.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Canais compartilhados (Teams Connect) concedem acesso estrito ao canal em questão, jamais privilégios administrativos globais sobre a organização ou equipe.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. O Teams Connect e os canais compartilhados aplicam o princípio do menor privilégio (least privilege): o convidado externo acessa unicamente as conversas e arquivos daquele canal compartilhado pontual, sem acesso a outros canais e sem qualquer privilégio administrativo corporativo.",
+    "armadilhaBanca": "Extrapolação de privilégios de acesso: equiparar colaboração em canal compartilhado pontual a concessão de perfil de administrador global.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "Ao ingressar em um canal compartilhado (Teams Connect) no Microsoft Teams, participantes externos de outras organizações recebem permissão estrita de membro do canal específico, sem jamais adquirir poderes administrativos globais sobre a organização hospedeira."
   },
   {
     "id": "oficial-180q-081",
@@ -1831,7 +1860,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Google Drive e no Microsoft OneDrive, links de compartilhamento podem ser configurados com data de expiração e senha de acesso, constituindo boas práticas de governança e segurança da informação no tratamento de dados institucionais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Configurações de compartilhamento seguro incluem controle temporal de expiração e proteção por senha.",
+    "justificativa": "Gabarito CERTO. Nas plataformas corporativas de armazenamento em nuvem (Google Drive e Microsoft OneDrive/SharePoint), a concessão de links de compartilhamento conta com controles refinados de segurança da informação: prazos de expiração compulsórios (após os quais o link torna-se inoperante), proteção por senha alfanumérica e bloqueio de download, mecanismos essenciais de governança para atender aos princípios de segurança e minimização da LGPD.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1851,15 +1880,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Google Docs, a permissão de 'Comentador' confere ao usuário poderes irrestritos para excluir parágrafos do texto definitivo sem que a exclusão passe por aprovação prévia do proprietário do arquivo.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O 'Comentador' apenas sugere alterações e insere comentários; as sugestões dependem de aprovação ou rejeição do proprietário/editor.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. No modelo de permissões do Google Workspace, o perfil \"Comentador\" não tem permissão para alterar diretamente o conteúdo consolidado. Quaisquer edições sugeridas figuram como marcas de revisão pendentes de homologação por usuários com perfil de \"Editor\" ou \"Proprietário\".",
+    "armadilhaBanca": "Confusão de papéis no controle de acesso: atribuir prerrogativa de edição destrutiva ao nível de comentador/revisor.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "No Google Docs, a permissão de \"Comentador\" autoriza apenas a inserção de anotações marginais e a proposição de alterações no modo de sugestão, dependendo qualquer exclusão definitiva de aprovação explícita do proprietário ou editor."
   },
   {
     "id": "oficial-180q-083",
@@ -1871,7 +1901,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "Políticas de Prevenção contra Perda de Dados (DLP - Data Loss Prevention) no Microsoft Purview permitem identificar automaticamente números de CPF ou dados sensíveis em mensagens do Teams ou arquivos do OneDrive, bloqueando o envio não autorizado para domínios externos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. DLP inspeciona conteúdos contra regras e expressões regulares para evitar vazamento de dados confidenciais e conformidade com a LGPD.",
+    "justificativa": "Gabarito CERTO. O Microsoft Purview Data Loss Prevention (DLP) realiza a inspeção profunda de conteúdo e pacotes em tempo real no Teams, Exchange, OneDrive e SharePoint, utilizando classificadores baseados em expressões regulares, dicionários de palavras-chave e impressões digitais de documentos (document fingerprinting) para detectar dados sensíveis (como números de CPF, dados bancários ou prontuários), bloqueando transferências indevidas para o exterior ou domínios não autorizados.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1891,15 +1921,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema corporativo da Microsoft restringem-se ao tráfego de mensagens no Exchange Online, operando de modo desvinculado dos arquivos compartilhados no OneDrive ou das conversas realizadas no Teams.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As políticas de DLP integram múltiplos serviços da plataforma: Exchange, SharePoint, OneDrive, Microsoft Teams e endpoints locais.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. O DLP corporativo opera como uma camada transversal de conformidade e segurança da informação: ele identifica e bloqueia o vazamento de dados sensíveis (como números de CPF, cartões e dados protegidos pela LGPD) em chats do Teams, sites do SharePoint, bibliotecas do OneDrive e mensagens de e-mail.",
+    "armadilhaBanca": "Reducionismo de escopo de segurança: confinar solução integrada de DLP corporativo a um único protocolo legado de correio eletrônico.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "As políticas de Prevenção contra Perda de Dados (DLP) no ecossistema Microsoft 365 aplicam-se de forma integrada a múltiplos repositórios e serviços, abrangendo Exchange Online, SharePoint, OneDrive, Microsoft Teams e endpoints Windows."
   },
   {
     "id": "oficial-180q-085",
@@ -1911,7 +1942,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Microsoft Teams e no Google Meet, a gravação de reuniões na nuvem gera automaticamente transcrições textuais que podem ser pesquisadas e integradas a fluxos de trabalho institucionais, respeitadas as diretrizes de consentimento e privacidade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Gravação em nuvem com transcrição em tempo real (Speech-to-Text) é recurso padrão de governança e produtividade corporativa.",
+    "justificativa": "Gabarito CERTO. As plataformas corporativas Microsoft Teams e Google Meet contam com recursos nativos de inteligência artificial que realizam o reconhecimento de fala em tempo real (Speech-to-Text), transcrevendo e indexando os diálogos das reuniões gravadas na nuvem. A funcionalidade viabiliza a pesquisa semântica dos temas discutidos, gera atas automatizadas e amplia a acessibilidade, exigindo aviso prévio aos participantes para conformidade ética e legal.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -1931,15 +1962,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "A funcionalidade de gravação de reuniões em plataformas colaborativas corporativas autoriza o organizador a realizar a captura audiovisual em segundo plano sem a exibição de indicativos visuais ou alertas aos participantes conectados.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. As plataformas corporativas (como o Teams) emitem notificação visual e sonora ostensiva a todos os participantes no momento em que a gravação é acionada.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. Por diretrizes universais de segurança, conformidade e privacidade (LGPD e GDPR), as ferramentas corporativas de videoconferência impedem gravações secretas ou em segundo plano: no momento do acionamento, uma faixa de notificação é exibida a todos os participantes e um alerta sonoro pode ser emitido.",
+    "armadilhaBanca": "Desrespeito à governança e conformidade: alegar permissão de captura oculta em ferramentas corporativas auditáveis.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "A gravação de reuniões em plataformas corporativas como Microsoft Teams e Google Meet dispara notificações visuais e avisos automáticos ostensivos a todos os presentes, em cumprimento aos requisitos legais de privacidade e consentimento."
   },
   {
     "id": "oficial-180q-087",
@@ -1951,7 +1983,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "O Microsoft OneDrive e o Google Drive oferecem clientes de sincronização que suportam a funcionalidade de 'Arquivos sob Demanda' (Files On-Demand / Drive para Computador), permitindo que os arquivos sejam visualizados no explorador local do sistema operacional sem ocupar espaço em disco até que sejam abertos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Files On-Demand sincroniza apenas metadados inicialmente, baixando o arquivo completo apenas no momento da abertura ou quando marcado para manter no dispositivo.",
+    "justificativa": "Gabarito CERTO. A tecnologia de Arquivos sob Demanda (Files On-Demand no OneDrive e Drive para Computador no Google Workspace) sincroniza inicialmente apenas os ponteiros e metadados lógicos dos arquivos no explorador de arquivos local (Windows Explorer ou macOS Finder). O conteúdo binário só é baixado sob demanda quando o usuário abre o documento ou o marca para acesso offline permanente, liberando gigabytes de espaço em disco nas estações de trabalho.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -1971,15 +2003,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "O recurso de sincronização de arquivos sob demanda no OneDrive requer que todos os gigabytes armazenados na nuvem sejam integralmente clonados na unidade de disco rígido local antes que qualquer busca de arquivos possa ser iniciada.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A tecnologia baixa apenas ponteiros/stubs de arquivos leves; a busca e navegação ocorrem sem download prévio do conteúdo pesado.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. A funcionalidade Arquivos sob Demanda visa economizar espaço em disco: os itens figuram no explorador de arquivos local com ícone de nuvem (indicando presença exclusiva online) e são transferidos para o disco rígido sob demanda quando solicitados pelo usuário, sem exigir download preliminar do acervo integral.",
+    "armadilhaBanca": "Inversão do propósito tecnológico: transformar uma funcionalidade de economia de armazenamento em exigência de download integral mandatório.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "O recurso de arquivos sob demanda (Files On-Demand) do OneDrive permite visualizar e pesquisar a estrutura completa de pastas na nuvem baixando apenas metadados e ponteiros leves, realizando o download do conteúdo pesado somente quando o arquivo for aberto."
   },
   {
     "id": "oficial-180q-089",
@@ -1991,7 +2024,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Microsoft Excel, a funcionalidade 'Power Query' permite extrair dados de diversas fontes externas (bancos de dados, arquivos CSV, páginas web), transformar esses dados por meio de etapas sequenciais gravadas e carregá-los em planilhas ou no modelo de dados interno.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Power Query é a ferramenta canônica de ETL self-service no Excel e Power BI, gerando código na linguagem M.",
+    "justificativa": "Gabarito CERTO. O Power Query é o motor canônico de ETL (Extração, Transformação e Carga) self-service integrado ao Microsoft Excel e ao Power BI. Ele extrai dados de fontes heterogêneas (bancos relacionais, APIs Web, arquivos JSON, pastas locais) e aplica etapas lineares e gravadas de higienização, tipagem e mesclagem codificadas na linguagem funcional 'M', permitindo a repetição automática do fluxo de transformação a cada atualização.",
     "armadilhaBanca": "Assertiva correta: exige domínio aprofundado dos conceitos técnicos e normativos.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2011,15 +2044,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às ferramentas de produtividade, colaboração em nuvem, trabalho remoto e governança documental, julgue o item a seguir.",
     "item": "No Microsoft Excel, uma fórmula que contenha uma referência circular (uma célula que depende direta ou indiretamente de seu próprio valor) é processada normalmente sem qualquer alerta ou limitação matemática pelo software.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Referências circulares não intencionais geram alertas de erro de cálculo, exigindo resolução ou habilitação de cálculo iterativo controlado.",
-    "armadilhaBanca": "Pegadinha Cebraspe de facil: inversão conceitual ou desvio de protocolo.",
+    "justificativa": "Gabarito ERRADO. Uma referência circular ocorre quando uma fórmula faz referência à sua própria célula direta ou indiretamente. O Excel detecta a inconsistência, emite uma mensagem de aviso e interrompe o cálculo automático da cadeia, exigindo correção ou configuração voluntária do cálculo iterativo nas opções.",
+    "armadilhaBanca": "Omissão de erro sistêmico: alegar processamento transparente e silencioso para falha matemática de dependência cíclica.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Simulado Cebraspe M14 (Tecnologia da Informação e Dados)",
       "verificado": false
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "versao_correta": "No Microsoft Excel, a ocorrência não planejada de uma referência circular gera um alerta explícito de erro de cálculo, pois o programa não consegue resolver computacionalmente a dependência cíclica a menos que a iteração seja expressamente ativada."
   },
   {
     "id": "oficial-180q-091",
@@ -2031,7 +2065,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à trajetória histórica e aos fundamentos epistemológicos da biblioteconomia, da documentação e da ciência da informação, julgue o item subsequente.",
     "item": "O conceito de recuperação da informação (information retrieval), cunhado na década de 1950 por Calvin Mooers, foi um dos sustentáculos conceituais e tecnológicos para o surgimento da ciência da informação.",
     "gabarito": "C",
-    "justificativa": "Perfeito. Calvin Mooers formulou o termo 'information retrieval' em 1950, delimitando os processos intelectuais e computacionais de busca, sendo esteio fundacional da CI.",
+    "justificativa": "Gabarito CERTO. O termo 'information retrieval' foi cunhado pelo cientista da computação Calvin Mooers em 1950 para designar as operações intelectuais e computacionais de representação, armazenamento e busca de documentos. Mooers demonstrou que a recuperação transcende a mera localização física de volumes, constituindo o problema central da Ciência da Informação, ao lado da Lei de Mooers (segundo a qual um sistema de informação só será utilizado se for mais fácil usá-lo do que não usá-lo).",
     "armadilhaBanca": "Item afirmativo direto e historicamente exato cobrado na PC-DF.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2125,7 +2159,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Considerando os conceitos básicos e a história da Ciência da Informação, julgue o próximo item.",
     "item": "O ensaio As We May Think, publicado por Vannevar Bush em 1945, antecipou conceitualmente a navegação hipertextual e os sistemas de recuperação por meio da idealização do dispositivo Memex.",
     "gabarito": "C",
-    "justificativa": "Certo. Vannevar Bush descreveu o Memex como um equipamento eletromecânico capaz de criar trilhas de associação entre documentos, precursor do hipertexto.",
+    "justificativa": "Gabarito CERTO. No célebre ensaio 'As We May Think' (The Atlantic Monthly, 1945), Vannevar Bush idealizou o Memex (Memory Extender), um dispositivo eletromecânico baseado em microfilmes capaz de criar trilhas associativas de consulta direta entre diferentes documentos. Essa visão antecipou com precisão os conceitos de hipertexto, redes de informação conectadas e a própria arquitetura da World Wide Web formulada décadas depois por Ted Nelson e Tim Berners-Lee.",
     "armadilhaBanca": "Item correto que explora o papel seminal de Vannevar Bush.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2146,7 +2180,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca das relações disciplinares da Ciência da Informação, julgue o item a seguir.",
     "item": "A ciência da informação caracteriza-se por sua estrita autonomia unidisciplinar, não estabelecendo diálogos teóricos oumetodológicos com a linguística ou com a ciência da computação.",
     "gabarito": "E",
-    "justificativa": "Completamente falso. A Ciência da Informação é notoriamente reconhecida por sua natureza interdisciplinar (Saracevic, Pinheiro, Borko), articulando-se com diversas disciplinas.",
+    "justificativa": "Gabarito ERRADO. Conforme a literatura epistemológica canônica da Ciência da Informação (Tefko Saracevic, Harold Borko, Lena Vania Pinheiro), a CI nasceu sob o signo da interdisciplinaridade e da transdisciplinaridade. Seu objeto central — a gênese, organização, transferência e uso da informação — exige diálogo permanente com a Ciência da Computação, Linguística, Semiótica, Biblioteconomia, Psicologia Cognitiva, Sociologia e Comunicação.",
     "armadilhaBanca": "Generalização restritiva clássica da banca ('estrita autonomia unidisciplinar').",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2167,7 +2201,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Julgue o item que se segue, a respeito da função social da biblioteca.",
     "item": "A perspectiva funcionalista conferiu às bibliotecas um caráter social, educativo e democrático, contrapondo-se à postura histórica puramente patrimonialista e custodial.",
     "gabarito": "C",
-    "justificativa": "Exato. A biblioteca moderna redefine seu papel a partir da utilidade social da informação e do livre acesso aos cidadãos.",
+    "justificativa": "Gabarito CERTO. A abordagem funcionalista (desenvolvida a partir das reflexões de autores como Jesse Shera e Pierce Butler) redefiniu a missão das bibliotecas: em vez de meros depósitos patrimoniais voltados à custódia e preservação passiva de relíquias bibliográficas (paradigma custodial), a biblioteca contemporânea afirma-se como agência social viva, educacional e democratizante, cuja função primordial é viabilizar o livre fluxo da informação e a cidadania ativa.",
     "armadilhaBanca": "Afirmação conceitual sólida e sem armadilhas textuais.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2188,7 +2222,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com relação à evolução histórica dos suportes e instituições de memória, julgue o item.",
     "item": "A invenção da imprensa de tipos móveis no século XV revolucionou precipuamente a representação temática da informação, mantendo inalterada a sua velocidade e capacidade de difusão social.",
     "gabarito": "E",
-    "justificativa": "Errado. A prensa de Gutenberg impactou radicalmente a multiplicação e circulação dos textos. A representação temática continuoumanual por séculos.",
+    "justificativa": "Gabarito ERRADO. A prensa mecânica de tipos móveis desenvolvida por Johannes Gutenberg em meados do século XV provocou uma revolução nas dimensões física, quantitativa e social da circulação textual, permitindo a reprodução em massa de livros. No entanto, a representação temática da informação (catalogação por assunto, indexação e classificação conceitual) permaneceu como um processo eminentemente manual e artesanal até o século XX.",
     "armadilhaBanca": "Inversão dos efeitos históricos da prensa.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2239,7 +2273,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O princípio da representação fidedigna (ICP 2.3) impõe que o recurso bibliográfico seja descrito tal como ele próprio se apresenta, sendo vedado ao catalogador alterar silenciosamente títulos que contenham grafias arcaicas ou erros evidentes sem indicação expressa."
   },
   {
     "id": "oficial-180q-101",
@@ -2251,7 +2286,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos princípios internacionais de catalogação e de suas repercussões na construção de catálogos bibliográficos, julgue o item a seguir.",
     "item": "O princípio do uso comum estabelece que o vocabulário empregado nas descrições e nos pontos de acesso deve ser compatível com a linguagem corrente e esperada pelo público-alvo a que o catálogo se destina.",
     "gabarito": "C",
-    "justificativa": "Certo. Conforme o princípio 2.2 da ICP 2016 (Uso comum), o vocabulário deve estar de acordo com o uso da maioria dos usuários.",
+    "justificativa": "Gabarito CERTO. Conforme o Princípio 2.2 da Declaração de Princípios Internacionais de Catalogação (ICP 2016 da IFLA), o princípio do 'Uso comum' prescreve que o vocabulário empregado nas descrições bibliográficas e na padronização de pontos de acesso deve estar em estrita consonância com a linguagem habitual e corrente da maioria dos usuários a que o catálogo se destina, evitando tecnicismos herméticos que criem barreiras à recuperação.",
     "armadilhaBanca": "Afirmação precisa sobre o princípio do uso comum da IFLA.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2279,7 +2314,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "As regras para catálogo dicionário de Charles Ammi Cutter preconizavam a reunião e interfilação de entradas de autor, título e assunto em uma única ordem alfabética integrada (semelhante aos verbetes de um dicionário), e não sua separação física em móveis independentes."
   },
   {
     "id": "oficial-180q-103",
@@ -2291,7 +2327,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que se refere à teoria da catalogação descritiva e aos objetivos clássicos do catálogo, julgue o item subsequente.",
     "item": "Charles Ammi Cutter, em suas clássicas regras de 1876, formulou os três objetivos fundamentais do catálogo bibliográfico: permitir a localização de um livro, mostrar o que a biblioteca possui e auxiliar na escolha de uma obra.",
     "gabarito": "C",
-    "justificativa": "Correto. Os três objetivos de Cutter (1876) tornaram-se a base de toda a moderna teoria da catalogação descritiva e da formulação das tarefas do usuário dos FRBR e IFLA LRM.",
+    "justificativa": "Gabarito CERTO. Charles Ammi Cutter, em suas históricas 'Rules for a Printed Dictionary Catalogue' (1876), definiu os três objetivos seminais que moldaram a catalogação moderna: 1) Permitir a localização de um livro por autor, título ou assunto; 2) Mostrar o que a biblioteca possui de determinado autor, sobre dado assunto ou em determinado gênero literário; e 3) Auxiliar na escolha de um livro quanto à sua edição e quanto ao seu caráter literário ou material.",
     "armadilhaBanca": "Item histórico literal e canônico frequentemente cobrado pelo Cebraspe.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2321,7 +2357,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A Área 3 da ISBD/AACR2r (Área de Detalhes Específicos do Material) é reservada exclusivamente a tipos documentais específicos (materiais cartográficos, música impressa, publicações seriadas e recursos eletrônicos), não devendo ser preenchida na catalogação de livros e monografias comuns (que passam direto da Área 2 para a Área 4)."
   },
   {
     "id": "oficial-180q-105",
@@ -2333,7 +2370,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Em relação à estrutura geral do Código de Catalogação Anglo-Americano (AACR2r), julgue o item a seguir.",
     "item": "O AACR2r divide-se estruturalmente em duas partes principais: a Parte I, dedicada à descrição bibliográfica baseada nas áreas da ISBD, e a Parte II, dedicada à determinação e forma dos pontos de acesso e títulos uniformes.",
     "gabarito": "C",
-    "justificativa": "Certo. A Parte I (capítulos 1 a 13) trata da descrição bibliográfica padronizada por suportes; a Parte II (capítulos 21 a 26) rege a escolha e padronização dos pontos de acesso.",
+    "justificativa": "Gabarito CERTO. O AACR2r possui divisão macro bipartida: a Parte I (Capítulos 1 a 13) estabelece as regras de descrição bibliográfica estruturadas com base no padrão ISBD da IFLA em oito áreas padronizadas organizadas por tipos de suporte; e a Parte II (Capítulos 21 a 26) rege a determinação e escolha dos pontos de acesso (autoria principal e secundária), a forma autorizada dos cabeçalhos de nomes e entidades, títulos uniformes e remissivas.",
     "armadilhaBanca": "Assertiva conceitual exata sobre a macroestrutura do código.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2362,7 +2399,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O primeiro nível de catalogação do AACR2r (regra 1.0D1) prescreve a descrição mínima indispensável (título próprio, primeira indicação de responsabilidade, menção de edição, publicação/distribuição, extensão e número normalizado), reservando o registro de notas e dimensões físicas para os níveis mais detalhados 2 e 3."
   },
   {
     "id": "oficial-180q-107",
@@ -2374,7 +2412,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos níveis de descrição bibliográfica previstos no AACR2r, julgue o item subsequente.",
     "item": "Na catalogação de livros e monografias impressas segundo o AACR2r, a página de rosto (ou seu substituto) constitui a fonte principal de informação prioritária para a transcrição do título próprio e da menção de responsabilidade.",
     "gabarito": "C",
-    "justificativa": "Certo. Conforme a regra 2.0B1 do AACR2r, a página de rosto é a fonte principal de informação para monografias impressas.",
+    "justificativa": "Gabarito CERTO. Conforme a regra 2.0B1 do Capítulo 2 do AACR2r (Livros, Folhetos e Folhas Impressas), a página de rosto (ou folha de rosto) é a fonte principal de informação prioritária e soberana para a transcrição do título próprio, título equivalente, outras informações sobre o título (subtítulo) e as menções de responsabilidade intelectual.",
     "armadilhaBanca": "Assertiva canônica irretocável sobre fontes de informação.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2404,7 +2442,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / MPU / Bibliotecário"
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Caso uma obra seja elaborada em colaboração por quatro ou mais autores sem destaque tipográfico para nenhum deles, a entrada principal é obrigatoriamente efetuada sob o título, fazendo-se entrada secundária apenas para o primeiro autor mencionado (AACR2r, regra 21.6C2)."
   },
   {
     "id": "oficial-180q-109",
@@ -2436,20 +2475,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Quanto à Classificação Decimal de Dewey (CDD), julgue os itens que se seguem.",
     "item": "A última edição da CDD apresenta sete tabelas auxiliares e, à exceção da primeira, que possui instruções em cada divisão de assunto, todas as notações presentes nas demais auxiliares podem ser adicionadas a qualquer notação da tabela principal.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Duplo erro na assertiva: 1) A CDD (em sua 23ª edição) possui 6 tabelas auxiliares (a Tabela 7 foi descontinuada); 2) As notações das tabelas auxiliares (com exceção parcial de subdivisões da Tabela 1 sob regras estritas) NÃO podem ser adicionadas livremente a qualquer classe principal, exigindo instrução explícita de adição (\"add from...\") no esquema básico.",
+    "armadilhaBanca": "CATEGÓRICO ABSOLUTO: Supor que tabelas auxiliares da CDD podem ser adicionadas livremente e sem instrução prévia da tabela principal.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1204"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1204"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A 23ª edição da CDD apresenta seis tabelas auxiliares (T1 a T6), e as notações das tabelas auxiliares T2 a T6 só podem ser adicionadas a uma notação da tabela principal quando houver instrução expressa no esquema (\"adicionar de...\")."
   },
   {
     "id": "oficial-180q-111",
@@ -2481,15 +2521,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange à teoria da classificação documentária e aos princípios estruturantes da Classificação Decimal de Dewey (CDD 23ª ed.), julgue o item a seguir.",
     "item": "A CDD adota o princípio de classificação facetada pura criado por Ranganathan, prescindindo de esquemas pré-coordenados e tabelas enumerativas para compor seus números de classe.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. [Armadilha de Inversão de Modelo Teórico]: A CDD é essencialmente uma classificação ENUMERATIVA e hierárquica pré-coordenada (embora apresente elementos de síntese por meio de tabelas auxiliares). A classificação facetada pura é característica da Colon Classification de Ranganathan.",
-    "armadilhaBanca": "Atribuição do modelo facetado puro de Ranganathan à CDD de Dewey.",
+    "justificativa": "Gabarito ERRADO. A Classificação Decimal de Dewey (CDD) é historicamente uma classificação enumerativa e hierárquica baseada em classes preconcebidas e pré-coordenadas. A classificação facetada pura (analítico-sintética) foi desenvolvida por S. R. Ranganathan em sua Colon Classification, na qual os assuntos são construídos livremente pela combinação de facetas fundamentais (PMEST).",
+    "armadilhaBanca": "INVERSÃO DE MODELO TEÓRICO: Atribuição do modelo facetado puro de Ranganathan à estrutura enumerativa da CDD de Melvil Dewey.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A CDD é uma classificação predominantemente enumerativa e hierárquica pré-coordenada (com elementos sintéticos de tabelas auxiliares), ao passo que a classificação facetada pura é o modelo analítico-sintético formulado por Ranganathan (Colon Classification)."
   },
   {
     "id": "oficial-180q-113",
@@ -2501,19 +2542,19 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Tendo como referência o texto apresentado, julgue os itens a seguir:",
     "item": "Na CDD, Melvil Dewey dividiu o conhecimento em nove classes e, por julgar importante ter uma classe na qual pudessem ser inseridas as obras que tratam de todos os assuntos, como encicl enciclopédias e dicionários, ele acrescentou uma décima categoria.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Ao conceber a Classificação Decimal de Dewey (CDD) em 1876, Melvil Dewey estruturou inicialmente o conhecimento humano em nove classes principais disciplinadas (100 a 900). Reconhecendo, contudo, a necessidade epistemológica de acomodar obras de caráter enciclopédico, polimatas, bibliografias universais e dicionários que abarcam múltiplos campos do saber simultaneamente, Dewey instituiu a classe 000 (Generalidades / Ciência da Computação, Informação e Obras Gerais) como a décima categoria do sistema.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso DPU/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1213"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1213"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -2527,14 +2568,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "item": "O princípio mnemônico na CDD assegura que uma notação geográfica da Tabela 2 possa ser apensada diretamente a qualquer classe principal, sem necessidade de autorização expressa ou regra de derivação prévia no esquema básico.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. Na CDD, a aplicação das tabelas auxiliares (com exceção parcial de subdivisões padrão da Tabela 1 sob regras estritas) NÃO é livre nem indiscriminada. As tabelas 2 a 6 só podem ser adicionadas quando houver instrução explícita de 'adicionar de' ('add from') nas tabelas principais ou em outras tabelas auxiliares autorizadas.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor que a Tabela 2 pode ser adicionada livremente a qualquer classe sem instrução na tabela principal.",
+    "armadilhaBanca": "PERMISSIVIDADE NOTACIONAL INEXISTENTE: Afirmar a dispensa de instrução expressa para o apensamento da Tabela 2 na CDD.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M3)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Na CDD, uma notação geográfica da Tabela 2 só pode ser adicionada a uma notação da tabela principal quando houver instrução expressa de adição autorizada no esquema (\"adicionar de...\")."
   },
   {
     "id": "oficial-180q-115",
@@ -2550,15 +2592,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1199"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1199"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -2571,20 +2613,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Em relação à Classificação Decimal Universal (CDU), julgue os itens subsequentes.",
     "item": "A CDU, utilizada em bibliotecas especializadas por abranger todos os ramos do conhecimento, foi proposta pelos bibliotecários Paul Otlet, Henri La Fontaine e Melvil Dewey.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. A CDU foi criada exclusivamente por Paul Otlet e Henri La Fontaine no âmbito do Instituto Internacional de Bibliografia (IIB), com o objetivo de compilar o Repertório Bibliográfico Universal. Melvil Dewey foi o criador da CDD (1876), da qual a CDU se originou como expansão, mas Dewey não participou da criação ou proposição da CDU.",
+    "armadilhaBanca": "INSERÇÃO INDEVIDA DE AUTOR: Incluir Melvil Dewey entre os proponentes da CDU.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "CNJ/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1118"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "CNJ/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1118"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A Classificação Decimal Universal (CDU) foi concebida e desenvolvida pelos juristas e bibliógrafos belgas Paul Otlet e Henri La Fontaine no final do século XIX, adaptando e expandindo a Classificação Decimal de Melvil Dewey (CDD)."
   },
   {
     "id": "oficial-180q-117",
@@ -2641,15 +2684,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "A Disseminação Seletiva da Informação (DSI) é um serviço estritamente reativo, no qual a biblioteca só fornece informações aos pesquisadores mediante preenchimento prévio e presencial de formulário a cada consulta.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A DSI é um serviço tipicamente PROATIVO: baseia-se na criação de perfis de interesse contínuos dos usuários e na distribuição automatizada e periódica de novos documentos relevantes que ingressam no acervo ou em bases de dados.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar que o DSI é um serviço passivo/reativo.",
+    "justificativa": "Gabarito ERRADO. A DSI é a expressão máxima do serviço PROATIVO da biblioteca moderna. Não depende de solicitações presenciais ou preenchimento de formulários a cada busca; opera pela correspondência automática (matching) entre o perfil de interesse permanente cadastrado pelo pesquisador e os novos registros incorporados ao sistema.",
+    "armadilhaBanca": "CATEGÓRICO ABSOLUTO: Classificar o serviço de DSI como puramente reativo e burocrático.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A Disseminação Seletiva da Informação (DSI) é um serviço proativo e automatizado, baseado na elaboração contínua de perfis de interesse dos usuários para o envio periódico de alertas sobre novos documentos inseridos no acervo ou em bases de dados."
   },
   {
     "id": "oficial-180q-120",
@@ -2661,7 +2705,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "A competência informacional (Information Literacy) promovida pelo serviço de referência busca capacitar o usuário a reconhecer quando uma informação é necessária, bem como a localizá-la, avaliá-la criticamente e utilizá-la eticamente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Definição consagrada pelas diretrizes da ALA/ACRL e da UNESCO para a educação de usuários e desenvolvimento de competências em informação.",
+    "justificativa": "Gabarito CERTO. Conforme as diretrizes consagradas da American Library Association (ALA/ACRL) e a Declaração de Alexandria da UNESCO (2005), a Competência em Informação (Information Literacy) promovida pelo serviço de referência e educação de usuários abrange um conjunto integrado de capacidades intelectuais: determinar a extensão da necessidade informacional, acessar a informação com eficácia, avaliar criticamente as fontes e incorporar a informação selecionada à sua base de conhecimento de forma ética e legal.",
     "armadilhaBanca": "Competência informacional e mediação pedagógica.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2681,15 +2725,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "Na condução da entrevista de referência em bibliotecas especializadas, o bibliotecário deve priorizar perguntas fechadas de resposta binária (sim/não) desde o primeiro contato, a fim de acelerar o atendimento e reduzir o tempo de interação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O início da entrevista deve priorizar perguntas abertas. O uso precoce e exclusivo de perguntas fechadas bloqueia a expressão da necessidade latente do consulente e induz erros na definição da estratégia de busca.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter a técnica de perguntas abertas no início e fechadas no refinamento.",
+    "justificativa": "Gabarito ERRADO. Conforme a técnica da entrevista de referência (Denis Grogan; Robert Taylor), perguntas fechadas no início constrangem o consulente e geram respostas monossilábicas que mascaram a real necessidade informacional. A boa prática prescreve perguntas abertas no início e perguntas fechadas apenas ao final, para confirmar parâmetros específicos (como recorte temporal, idioma ou formato).",
+    "armadilhaBanca": "INVERSÃO DE TÉCNICA DE ENTREVISTA: Propor perguntas fechadas no início da negociação da questão de referência.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Na condução da entrevista de referência, o bibliotecário deve iniciar o diálogo com perguntas abertas (que estimulam o usuário a relatar livremente sua necessidade contextual), reservando perguntas fechadas de afunilamento para a fase posterior de refinamento da estratégia de busca."
   },
   {
     "id": "oficial-180q-122",
@@ -2701,7 +2746,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "O serviço de alerta antecipado em bibliotecas especializadas consiste no envio regular de sumários correntes de periódicos, pautas de tramitação de proposições ou clipping temático de notícias antes que o usuário precise solicitar expressamente.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os serviços de alerta e disseminação corrente antecipam-se às demandas rotineiras, municiando tomadores de decisão com informações pertinentes em tempo hábil.",
+    "justificativa": "Gabarito CERTO. Os serviços de alerta e Disseminação Seletiva da Informação (DSI) diferenciam-se do atendimento de referência passivo por sua natureza proativa e antecipada: monitoram continuamente o ambiente normativo, editorial e de proposições, municiando consultores legislativos e tomadores de decisão com sumários correntes, clippings temáticos e alertas de tramitação parlamentar antes que a necessidade pontual seja formalmente demandada no balcão.",
     "armadilhaBanca": "Prática canônica de serviço de alerta.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2721,15 +2766,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "No modelo de Processo de Busca de Informação (ISP) proposto por Carol Kuhlthau, os sentimentos de incerteza e ansiedade do usuário declinam linearmente no início da pesquisa, atingindo os níveis mais críticos durante a fase final de apresentação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O modelo de Kuhlthau comprova o inverso: a incerteza e a ansiedade são mais altas nas fases iniciais (iniciação, seleção e exploração), diminuindo sensivelmente a partir da formulação do foco temático.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Inverter a curva de incerteza/ansiedade no modelo de Kuhlthau.",
+    "justificativa": "Gabarito ERRADO. O modelo ISP de Carol Kuhlthau demonstra a dimensão afetiva da busca de informação: a incerteza e a ansiedade atingem o ápice no início do processo (quando o problema ainda é difuso), dando lugar a sentimentos de clareza, confiança e alívio à medida que o foco temático é formulado e a informação pertinente é coletada.",
+    "armadilhaBanca": "INVERSÃO DA CURVA AFETIVA: Inverter a evolução dos sentimentos de ansiedade e incerteza no modelo ISP de Kuhlthau.",
     "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "No modelo do Processo de Busca de Informação (ISP) de Carol Kuhlthau, os sentimentos de incerteza, dúvida e ansiedade são mais elevados nas fases iniciais da pesquisa (iniciação, seleção e exploração), diminuindo sensivelmente a partir da formulação do foco e coleta."
   },
   {
     "id": "oficial-180q-124",
@@ -2741,7 +2787,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "No modelo de Taylor, a passagem do nível consciente (Q2) para o nível formalizado (Q3) envolve a estruturação mental da dúvida em uma declaração concreta em linguagem natural inteligível para terceiros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Em Q2 a necessidade já é percebida conscientemente na mente do usuário, e em Q3 ela é codificada em linguagem verbal para ser transmitida a outro ser humano.",
+    "justificativa": "Gabarito CERTO. No clássico modelo cognitivo de Robert S. Taylor (1968) sobre os quatro níveis de formulação das necessidades de informação no processo de referência: o nível Q1 (visceral) é vago e inconsciente; o nível Q2 (consciente) é percebido nitidamente na mente do indivíduo; o nível Q3 (formalizado) traduz essa percepção em uma declaração concreta em linguagem natural coerente para um interlocutor; e o nível Q4 (comprometido) é a pergunta codificada na linguagem do sistema de recuperação.",
     "armadilhaBanca": "Definição fidedigna dos níveis de Taylor.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -2761,15 +2807,16 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da teoria e prática do serviço de referência em bibliotecas, dos modelos de negociação da questão de Robert S. Taylor e das oito etapas do processo de referência de Denis Grogan, julgue o item a seguir.",
     "item": "Conforme a formulação de Robert S. Taylor, o nível de necessidade comprometida (Q4) é aquele em que o usuário formula oralmente a pergunta ao bibliotecário utilizando termos coloquiais em linguagem natural.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O nível em que o usuário expressa a pergunta em linguagem natural para outra pessoa é o nível formalizado (Q3). No nível comprometido (Q4), a pergunta já foi traduzida e adaptada às restrições, termos e sintaxe do sistema de recuperação da informação.",
-    "armadilhaBanca": "INVERSAO_CANONICA: Confundir o nível Q3 (formalizado em linguagem natural) com Q4 (comprometido/adaptado ao sistema).",
+    "justificativa": "Gabarito ERRADO. Robert Taylor (1968) categorizou a evolução da necessidade de informação em quatro níveis: Q1 (Visceral: vaga e inarticulada), Q2 (Consciente: percebida mentalmente), Q3 (Formalizada: expressa em discurso coerente de linguagem natural) e Q4 (Comprometida: adaptada à linguagem documentária e aos limites do sistema de busca).",
+    "armadilhaBanca": "INVERSÃO ENTRE NÍVEIS DE TAYLOR: Troca entre a questão formalizada (Q3) e a questão comprometida (Q4).",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M4)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Conforme a formulação de Robert S. Taylor, o nível em que o usuário formula oralmente a pergunta em linguagem natural para outra pessoa é o nível formalizado (Q3); o nível comprometido (Q4) é aquele em que a pergunta já foi traduzida para a sintaxe e os termos aceitos pelo sistema de recuperação da informação."
   },
   {
     "id": "oficial-180q-126",
@@ -2781,20 +2828,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito das características dos recursos informacionais e das fontes de infor -",
     "item": "As enciclopédias e os dicionários são obras de referência, por isso não figuram como fontes de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso DPU/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso DPU/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Obras de referência (dicionários, enciclopédias, guias, manuais) SÃO fontes de informação secundárias por excelência. Dizer que não figuram como fontes de informação é um contrassenso epistemológico na biblioteconomia.",
+    "armadilhaBanca": "NEGAÇÃO DA NATUREZA INFORMATIVA: Afirmar falsamente que obras de referência não seriam fontes de informação.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "DPU/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-523"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "DPU/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-523"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Dicionários e enciclopédias são obras de referência que constituem fontes de informação secundárias fundamentais, oferecendo definições, conceitos e sínteses consolidadas do conhecimento."
   },
   {
     "id": "oficial-180q-127",
@@ -2831,20 +2879,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários em bibliotecas universitárias, julgue os próximos",
     "item": "Os resultados dos estudos de usuários devem ser generalizáveis, visto que nortearão as ações de planejamento nas bibliotecas universitárias.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ECT/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ECT/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Estudos de usuários em bibliotecas universitárias e especializadas refletem realidades locais e contextos situacionais específicos de suas próprias comunidades. Seus resultados possuem alta validade ecológica interna e norteiam o planejamento daquela unidade em particular, não se prestando à generalização universal compulsória para instituições com demandas e perfis discentes diversos.",
+    "armadilhaBanca": "GENERALIZACAO_INDEVIDA: Supor que dados empíricos de comportamento informacional local são compulsoriamente generalizáveis para qualquer biblioteca.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "ECT/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-371"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "ECT/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-371"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Os resultados dos estudos de usuários destinam-se precipuamente ao diagnóstico e ao planejamento da própria unidade de informação ou comunidade estudada, não sendo compulsória nem viável a sua generalização para bibliotecas de realidades, perfis e contextos institucionais distintos."
   },
   {
     "id": "oficial-180q-129",
@@ -2889,7 +2938,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M5)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Em bibliotecas públicas e legislativas, a política de desenvolvimento de coleções deve ser formalizada em documento escrito, aprovado formalmente e publicizado, assegurando a continuidade institucional, a impessoalidade e a coerência técnica da gestão do acervo."
   },
   {
     "id": "oficial-180q-131",
@@ -2921,20 +2971,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens referentes aos estudos de usuários.",
     "item": "A estrutura de uma entrevista elaborada no âmbito de uma pesquisa quantitativa apresenta as seguintes características: baixo grau de estruturas impositivas, preponderância de questões abertas e foco em situações específicas e sequências de ações do mundo do entrevistado.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O baixo grau de estruturas impositivas, o predomínio de perguntas abertas e a focalização nas sequências e significados do mundo vivido do entrevistado caracterizam a abordagem QUALITATIVA (entrevista em profundidade / semiestruturada). A pesquisa quantitativa exige instrumentos estruturados e perguntas fechadas para mensuração estatística.",
+    "armadilhaBanca": "INVERSAO_CONCEITUAL: Atribuir à pesquisa quantitativa os atributos típicos da pesquisa qualitativa (questões abertas e baixa imposição estrutural).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-181040",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "181040"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-181040",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "181040"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A estrutura de uma entrevista elaborada no âmbito de uma pesquisa qualitativa apresenta baixo grau de estruturas impositivas, preponderância de questões abertas e foco na compreensão profunda das experiências e percepções do entrevistado."
   },
   {
     "id": "oficial-180q-133",
@@ -2946,7 +2997,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à teoria e prática de formação e desenvolvimento de coleções, às etapas do processo formuladas por Waldomiro Vergueiro e às políticas de seleção e aquisição, julgue o item a seguir.",
     "item": "A permuta de publicações entre bibliotecas governamentais e instituições de ensino constitui modalidade de aquisição que valoriza a produção editorial própria do órgão (edições da Câmara dos Deputados) e economiza recursos orçamentários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A permuta baseia-se na troca recíproca de publicações oficiais e institucionais, ampliando o acervo histórico e técnico sem desembolso financeiro direto.",
+    "justificativa": "Gabarito CERTO. Na sistematização de Waldomiro Vergueiro ('Desenvolvimento de Coleções', 1989), a permuta institucional é um dos instrumentos mais estratégicos de aquisição para bibliotecas governamentais e parlamentares: aproveita excedentes e tiragens de publicações institucionais próprias (como as Edições Câmara) para trocá-las formalmente por acervos técnicos e científicos de outros órgãos públicos e universidades, sem desembolso orçamentário financeiro direto.",
     "armadilhaBanca": "Modalidade de permuta em bibliotecas públicas.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -2966,20 +3017,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que se refere aos estudos de usuários, julgue os itens seguintes.",
     "item": "A entrevista — um dos métodos utilizados para a coleta de dados em estudos de usuários —, os questionários estruturados e a análise de log são os métodos m ais apropriados para estudos de abordagem qualitativa.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Questionários estruturados com opções fechadas e análise estatística de logs de transação em sistemas são métodos tipicamente QUANTITATIVOS (métricas, volumes numéricos de acessos). A abordagem qualitativa privilegia entrevistas abertas, observação participante e grupos focais para captar percepções subjetivas.",
+    "armadilhaBanca": "MISTURA_DE_CATEGORIAS: Agrupar instrumentos quantitativos rígidos (logs e questionários estruturados) como sendo métodos de abordagem qualitativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-440"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-440"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A entrevista não estruturada ou semiestruturada, os grupos focais e a observação participante são métodos apropriados para estudos de abordagem qualitativa, ao passo que questionários estruturados de perguntas fechadas e a análise de logs computacionais constituem métodos eminentemente quantitativos."
   },
   {
     "id": "oficial-180q-135",
@@ -2995,15 +3047,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-244"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-244"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3016,7 +3068,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O DSpace 7 introduziu uma reformulação arquitetural profunda em sua camada de apresentação, adotando uma interface de usuário baseada em Angular e uma API REST desacoplada para comunicação com o backend em Java.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O DSpace 7 unificou as antigas interfaces (JSPUI e XMLUI) em uma moderna Single Page Application em Angular integrada via REST API.",
+    "justificativa": "Gabarito CERTO. Lançado com profunda reformulação tecnológica, o DSpace 7 descontinuou integralmente as antigas interfaces legadas baseadas em JavaServer Pages (JSPUI) e Cocoon/Apache (XMLUI), unificando a apresentação em uma aplicação moderna de página única (Single Page Application - SPA) desenvolvida em framework Angular, comunicando-se com o motor de backend por meio de uma API RESTful completa e desacoplada.",
     "armadilhaBanca": "Evolução técnica do DSpace 7.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -3044,7 +3096,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Uma biblioteca digital e um repositório institucional dependem de políticas ativas de preservação digital de longo prazo para assegurar o acesso perene, a integridade e a autenticidade de seus objetos digitais."
   },
   {
     "id": "oficial-180q-138",
@@ -3056,19 +3109,19 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com relação à automação de bibliotecas e sistemas informatizados, julgue os itens a",
     "item": "O sistema de editoração eletrônica se baseia no software OJS (Open Journal Systems).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. O Open Journal Systems (OJS), desenvolvido e mantido pelo Public Knowledge Project (PKP), é a plataforma livre e de código aberto hegemônica em escala mundial para a gestão e editoração eletrônica de periódicos científicos. Ele gerencia integralmente o ciclo editorial, desde a submissão de artigos pelos autores, o fluxo de avaliação cega por pares (peer review), a edição de texto e diagramação até a publicação final com atribuição de DOI.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1596"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1596"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3089,7 +3142,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O DSpace é um software livre e de código aberto distribuído sob licença BSD, sendo gratuito e isento de taxas anuais compulsórias de licenciamento proprietário."
   },
   {
     "id": "oficial-180q-140",
@@ -3105,15 +3159,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-244"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-244"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3134,7 +3188,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O software Koha oferece suporte nativo e padronizado a leitores de código de barras e tecnologias RFID (como o protocolo SIP2) para a automação da circulação e do autoempréstimo."
   },
   {
     "id": "oficial-180q-142",
@@ -3179,7 +3234,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "No DSpace, o autoarquivamento é a prática voluntária pela qual o próprio autor ou pesquisador submete seus trabalhos intelectuais ao repositório institucional em consonância com as diretrizes de acesso aberto."
   },
   {
     "id": "oficial-180q-144",
@@ -3191,20 +3247,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O uso de software de editoração eletrônica, como, por exemplo, o Dspace, proporciona melhor gerenciamento dos repositórios institucionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O DSpace é uma plataforma de repositório digital institucional para armazenamento, gestão e preservação em acesso aberto. Softwares de editoração eletrônica são programas como Adobe InDesign, Scribus ou plataformas de gestão de fluxo editorial de periódicos como o OJS/SEER.",
+    "armadilhaBanca": "CLASSIFICACAO_INDEVIDA: Classificar o DSpace como \"software de editoração eletrônica\" em vez de software de repositório institucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-892"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-892"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O DSpace é um software livre de repositório digital voltado à custódia, organização, preservação e disseminação da produção científica e institucional, não se classificando como software de editoração eletrônica."
   },
   {
     "id": "oficial-180q-145",
@@ -3216,7 +3273,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue os itens subsequentes.",
     "item": "Para que seja eficiente, a preservação de objetos digitais deve requerer uma política de cultura informacional que leve em consideração sua produção e seu descarte.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -3241,8 +3298,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas documentários de uma biblioteca, julgue os itens a seguir.",
     "item": "A criação dos tesauros e dos vocabulários controlados constitui um esforço adicional na racionalização (categorização) da produção de informação, tendo por finalidade a preservação do documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TCDF/2014 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TCDF/2014: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "Gabarito oficial ERRADO. Tesauros e vocabulários controlados são linguagens documentárias desenvolvidas para a padronização terminológica, controle de sinônimos e categorização conceitual com a finalidade de otimizar a RECUPERAÇÃO DA INFORMAÇÃO na busca temática. Sua função não é a preservação física ou digital do documento.",
+    "armadilhaBanca": "DESVIO_DE_FINALIDADE: Atribuir a linguagens de indexação (tesauros) a função de preservação documental em vez de recuperação.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -3254,7 +3311,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-369842"
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A criação de tesauros e de vocabulários controlados tem por finalidade precípua padronizar a indexação e otimizar a recuperação temática da informação, e não a preservação física ou lógica do suporte do documento."
   },
   {
     "id": "oficial-180q-147",
@@ -3266,7 +3324,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação digital de documentos eletrônicos, julgue os itens:",
     "item": "A preservação de documentos raros a partir da microfilmagem fotográfica surgiu no início da década de 1970, antes do surgimento da digitalização eletrônica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
+    "justificativa": "Gabarito CERTO. Historicamente, a microfilmagem fotográfica em filme de prata sobre base de poliéster consolidou-se como a principal tecnologia de reprodução de segurança e preservação de acervos raros a partir dos anos 1970, precedendo os sistemas de captura e digitalização ótica eletrônica em várias décadas e mantendo plena validade legal probatória perante a legislação federal brasileira.",
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STJ/2018.",
     "dificuldade": "dificil",
     "fonteOriginal": {
@@ -3291,20 +3349,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com relação a organização e administração de bibliotecas, julgue os itens:",
     "item": "A biblioteca universitária deve funcionar como um serviço de documentação, pois a sua função instituto-social é de conservação. Um exemplo desse tipo de serviço é o acesso a periódicos de abstracting",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "Gabarito oficial ERRADO. A biblioteca universitária tem como missão precípua o acesso dinâmico e a disseminação da informação para subsidiar o ensino, a pesquisa e a extensão da comunidade acadêmica. A preservação e conservação exaustiva da herança bibliográfica patrimonial é função primordial das Bibliotecas Nacionais e arquivos de custódia permanente.",
+    "armadilhaBanca": "INVERSAO_DE_MISSAO: Caracterizar a função primordial da biblioteca universitária como a conservação passiva em vez do acesso e disseminação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1302"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1302"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A função institucional precípua da biblioteca universitária é apoiar as atividades de ensino, pesquisa e extensão por meio da disseminação ativa e do acesso à informação técnico-científica, cabendo a função preponderante de conservação patrimonial às bibliotecas nacionais e arquivos históricos."
   },
   {
     "id": "oficial-180q-149",
@@ -3316,7 +3375,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação digital de documentos eletrônicos, julgue os itens:",
     "item": "A preservação digital envolve os documentos provenientes do meio digital e os digitalizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
+    "justificativa": "Gabarito CERTO. O campo de atuação da preservação digital abrange tanto os documentos nato-digitais (nascidos originalmente em sistemas computacionais e que nunca transitaram por suportes materiais analógicos) quanto os documentos digitalizados (matrizes digitais geradas a partir da conversão por escaneamento de originais impressos, manuscritos, sonoros ou iconográficos).",
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STJ/2018.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3341,8 +3400,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da informática para bibliotecas, julgue os itens subsequentes.",
     "item": "Os projetos de preservação digital requerem padronização de metadados, os quais são estabelecidos anteriormente por outros projetos, com a finalidade de manter as mesmas tecnologias por muito tempo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SUFRAMA/2014: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "Gabarito oficial ERRADO. A padronização de metadados em projetos de preservação visa a promover interoperabilidade duradoura e permitir a extração e migração transparente dos dados entre diferentes tecnologias ao longo dos ciclos de obsolescência de hardware e software.",
+    "armadilhaBanca": "PREMISSA_TECNICA_FALSA: Atribuir à padronização de metadados a finalidade de congelar e perpetuar tecnologias antigas.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -3354,7 +3413,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-165424"
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A padronização de metadados em preservação digital busca garantir a interoperabilidade e a independência de plataformas, assegurando a sobrevida dos objetos digitais frente à obsolescência inevitável dos sistemas legados."
   },
   {
     "id": "oficial-180q-151",
@@ -3366,7 +3426,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito da preservação digital de documentos eletrônicos, julgue os itens:",
     "item": "A estratégia de digitalização denominada LOCKSS (lots of copies keep stuff safe) é uma infraestrutura de preservação digital caracterizada pela descentralização, open source e peer-to-peer.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em conformidade com as fontes técnicas de conservação e restauração de documentos.",
+    "justificativa": "Gabarito CERTO. O sistema LOCKSS (Lots of Copies Keep Stuff Safe) baseia-se em infraestrutura de rede paritária (P2P), descentralizada e de código aberto: cada nó da rede custodia réplicas integrais dos periódicos e documentos depositados e comunica-se continuamente com os demais nós para verificar e reparar eventuais danos em arquivos de forma automatizada e autônoma.",
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão exata das normas de conservação cobradas no concurso STJ/2018.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3391,20 +3451,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A escolha de um sistema de automação de biblioteca requer a atenção para alguns",
     "item": "Nas licenças dos sistemas de automação do tipo livre, não se exige o pagamento de um valor, mas, como condição básica, exige-se a preservação do código de fonte do sistema.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao contrariar as boas práticas normativas de conservação documental.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou prescrição técnica inadequada.",
+    "justificativa": "Gabarito oficial ERRADO. Uma premissa fundamental das licenças de software livre (como a GNU GPL) é a faculdade de customizar e aprimorar livremente o código-fonte. Exigir que o código permaneça inalterado (\"preservação do código-fonte\") anula a essência do software livre.",
+    "armadilhaBanca": "VIOLACAO_CONCEITUAL: Considerar a proibição de alterar o código como requisito do software livre.",
     "dificuldade": "facil",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1645"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1645"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Nas licenças de software livre, assegura-se expressamente o direito de modificar e customizar o código-fonte do sistema para adequá-lo às rotinas da biblioteca, não havendo obrigação de preservá-lo imutável."
   },
   {
     "id": "oficial-180q-153",
@@ -3416,7 +3477,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "A citação indireta consiste na reprodução livre de ideias ou conceitos de um autor mediante paráfrase elaborada pelo redator do trabalho, sendo obrigatória a indicação da autoria e do ano, ao passo que a indicação da página é facultativa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Na citação indireta, a página é facultativa (embora recomendada pela norma quando viável), sendo indispensáveis a autoria e a data.",
+    "justificativa": "Gabarito CERTO. Conforme as prescrições da ABNT NBR 10520:2023 (Citações em documentos), a citação indireta consiste na reprodução livre das ideias do autor por meio da paráfrase do redator. São elementos compulsórios a indicação do sobrenome do autor e do ano de publicação do documento fonte. A indicação de página, volume ou localização específica é facultativa pela norma, embora seja recomendada pelos cânones acadêmicos quando viabilizar a rastreabilidade imediata do conceito pelo leitor.",
     "armadilhaBanca": "Requisitos da citação indireta.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3436,20 +3497,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "A respeito das normas brasileiras (NBR) estabelecidas pela Associação Brasileira de",
     "item": "A ABNT NBR 6023 refere-se a procedimentos de resumos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ABIN/2017, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A ABNT NBR 6023 estabelece os elementos a serem incluídos em referências e padroniza a sua elaboração. A norma responsável pela apresentação de resumos é a ABNT NBR 6028.",
+    "armadilhaBanca": "TROCA_DE_NORMA: Atribuir à NBR 6023 (referências) o objeto temático da NBR 6028 (resumos).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
-        "verificado": true,
-        "provaId": "ABIN/2017",
-        "ano": 2017,
-        "orgao": "2017",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1813"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
+      "verificado": true,
+      "provaId": "ABIN/2017",
+      "ano": 2017,
+      "orgao": "2017",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1813"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A ABNT NBR 6023 estabelece os elementos e os procedimentos para a elaboração de referências documentais, cabendo à ABNT NBR 6028 o regramento para a apresentação de resumos."
   },
   {
     "id": "oficial-180q-155",
@@ -3459,18 +3521,18 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "questaoOrigemId": "m8-q-2",
     "submoduloId": "8.1",
     "contexto": "Várias normas editadas pela ABNT especificam os princípios gerais para a elaboração",
-    "item": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresent a- ção do endereço eletrônico, que deve ser apresentado entre os sinais < >, precedido da e x- pressão “Disponível em:” e a data de aces so ao documento, precedida da expressão “Acesso em:”.",
+    "item": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresentação do endereço eletrônico, que deve ser apresentado entre os sinais < >, precedido da expressão “Disponível em:” e a data de acesso ao documento, precedida da expressão “Acesso em:”.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO sob a vigência histórica da ABNT NBR 6023:2002. A redação da NBR 6023:2002 determinava o uso obrigatório dos sinais angulares < > delimitando a URL (\"Disponível em: <http://...>. Acesso em: 10 out. 2012.\"). Nota de atualização para o estudo reverso: na revisão vigente ABNT NBR 6023:2018 (item 7.6.1), os sinais < > foram suprimidos, grafando-se: \"Disponível em: http://... Acesso em: 10 out. 2024.\".",
+    "armadilhaBanca": "EVOLUÇÃO NORMATIVA DA NBR 6023: Saber que os sinais < > eram obrigatórios na edição de 2002 e foram eliminados na edição de 2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-1876",
-        "declaracaoLegada": "Cebraspe / 2013 / 2013"
-      },
+      "tipo": "inedita",
+      "descricao": "ABNT NBR 6023:2002 vs. ABNT NBR 6023:2018, item 7.6.1",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-1876",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3483,8 +3545,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base nas normas técnicas para a área de documentação, ju lgue os itens su b-",
     "item": "Monografia, segundo a NBR -6023:2002, é qualquer tipo de suporte, editado em unidades fís i- cas sucessivas, com designações numéricas ou cronológicas, destinado a ser continuado ind e- finidamente.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A assertiva descreveu o conceito de PUBLICAÇÃO SERIADA/PERIÓDICO (\"editado em unidades físicas sucessivas, com designações numéricas ou cronológicas, destinado a ser continuado indefinidamente\"). Monografia é o item não seriado completo em um só volume ou em número finito de volumes.",
+    "armadilhaBanca": "INVERSAO_CONCEITUAL: Atribuir a definição canônica de publicação seriada ao conceito de monografia.",
     "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "adaptada",
@@ -3496,7 +3558,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711393"
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Monografia é um item não seriado constituído por um só volume ou por um número prefixado de volumes, correspondendo a definição de itens sucessivos com designação numérica continuados indefinidamente ao conceito de publicação seriada."
   },
   {
     "id": "oficial-180q-157",
@@ -3508,7 +3571,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "Quando a chamada de citação contiver vários documentos de autores diferentes entre parênteses para embasar uma mesma afirmação, os autores devem ser separados por ponto e vírgula, preferencialmente em ordem alfabética de seus sobrenomes, a exemplo de '(Almeida, 2020; Castro, 2022; Silva, 2024)'.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Padrão formal da NBR 10520 para citações múltiplas: separação por ponto e vírgula e ordenação alfabética (ou cronológica, desde que consistente).",
+    "justificativa": "Gabarito CERTO. De acordo com o item 5.2.2 da ABNT NBR 10520:2023, quando múltiplos documentos de autores distintos forem citados simultaneamente para fundamentar a mesma assertiva no interior dos mesmos parênteses, os autores devem ser separados entre si por ponto e vírgula, adotando-se preferencialmente a ordenação alfabética dos sobrenomes (ou ordenação cronológica estrita, desde que aplicada com uniformidade em todo o trabalho).",
     "armadilhaBanca": "Citações múltiplas de diferentes autores entre parênteses.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -3528,20 +3591,21 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca da padronização de publicações seriadas elaboradas segundo as normas té c-",
     "item": "Na referência bibliográfica de artigos, o nome da editora do periódico deve ser indicado como figura no documento, abreviando-se os prenomes e suprimindo-se as palavras que designem a sua natureza jurídica ou comercial.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Na referência de artigo ou matéria de periódico (conforme a NBR 6023), o nome da editora da revista NÃO é informado. Os elementos essenciais da publicação são: autor(es) do artigo, título do artigo, título do periódico, local, volume, fascículo, páginas inicial-final e data.",
+    "armadilhaBanca": "ELEMENTO_INEXISTENTE: Inserir a editora do periódico como elemento a ser registrado na referência de artigos da NBR 6023.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1911"
-      },
-    "provaBloco": "P2_ESPECIFICOS"
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1911"
+    },
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "Na referência bibliográfica de artigo de periódico elaborada conforme a ABNT NBR 6023, o nome da editora do periódico não constitui elemento da referência, figurando o título do periódico, local de publicação, volume, fascículo, paginação e período de publicação."
   },
   {
     "id": "oficial-180q-159",
@@ -3557,15 +3621,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1819"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1819"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3578,7 +3642,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Com base nas disposições vigentes da ABNT NBR 10520:2023 (Informação e documentação — Citações em documentos — Apresentação), julgue o item a seguir.",
     "item": "De acordo com a ABNT NBR 10520:2023, quando a chamada de citação de autoria pessoal estiver entre parênteses ao final da frase, o sobrenome do autor deve figurar em letras maiúsculas integrais (caixa alta), a exemplo de \"(SILVA, 2024)\".",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A ABNT NBR 10520:2023 aboliu o uso de caixa alta dentro dos parênteses. A forma preconizada é em maiúsculas e minúsculas: \"(Silva, 2024)\".",
+    "justificativa": "Gabarito ERRADO. Uma das alterações mais profundas introduzidas pela ABNT NBR 10520:2023 foi a abolição definitiva do uso de letras maiúsculas integrais (caixa alta) nas chamadas de citação em sistema autor-data entre parênteses. Sob a norma vigente de 2023, todas as chamadas de citação — dentro ou fora de parênteses — devem ser grafadas em letras maiúsculas e minúsculas (ex.: '(Silva, 2024)' e não mais '(SILVA, 2024)').",
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Exigir caixa alta da norma de 2002 já revogada.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3586,7 +3650,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "De acordo com a ABNT NBR 10520:2023, as chamadas de citação no sistema autor-data devem figurar em letras maiúsculas e minúsculas, inclusive entre parênteses, a exemplo de \"(Silva, 2024)\"."
   },
   {
     "id": "oficial-180q-161",
@@ -3631,7 +3696,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M8)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A citação de citação (apud) é um recurso metodológico de exceção, que só deve ser empregado quando o documento primário original for comprovadamente inacessível."
   },
   {
     "id": "oficial-180q-163",
@@ -3647,15 +3713,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRT21/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-568"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-568"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3676,7 +3742,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O Diretório de Revistas de Acesso Aberto (DOAJ) é uma base de indexação independente que reúne e audita periódicos científicos de acesso aberto de qualidade, baseados em avaliação por pares rigorosa e boas práticas de publicação."
   },
   {
     "id": "oficial-180q-165",
@@ -3688,19 +3755,19 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "As bibliotecas aplicam as leis bibliométricas como ferramentas de apoio a seus proces-",
     "item": "A Lei de Bradford permite avaliar o grau de relevância de periódicos em uma área específica do conhecimento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito oficial CERTO. Item cobrado no concurso STJ/2018 pela banca Cebraspe, em consonância estrita com a doutrina canônica e as normas vigentes aplicáveis ao módulo Comunicação Científica.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-113"
-      },
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-113"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -3721,7 +3788,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A Via Diamante (ou Platina) de Acesso Aberto caracteriza-se pela gratuidade integral tanto para os leitores acessarem o conteúdo quanto para os autores submeterem e publicarem seus artigos, sendo sustentada por instituições de ensino e fomento público."
   },
   {
     "id": "oficial-180q-167",
@@ -3761,7 +3829,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O Plano S (Plan S) determina que pesquisas apoiadas por recursos públicos de agências signatárias devem ser publicadas em acesso aberto imediato em periódicos ou plataformas aderentes, com licenciamento aberto e sem períodos de embargo."
   },
   {
     "id": "oficial-180q-169",
@@ -3773,7 +3842,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
     "item": "A Iniciativa de Acesso Aberto de Budapeste (BOAI — Budapest Open Access Initiative, 2002) definiu o acesso aberto à literatura científica como a disponibilização gratuita, pública e irrestrita na internet, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos integrais sem barreiras financeiras, legais ou técnicas além daquelas inseparáveis do acesso à própria internet.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a definição fundadora e canônica do Acesso Aberto da BOAI (2002), complementada pelas declarações de Bethesda e Berlim (2003).",
+    "justificativa": "Gabarito CERTO. A Declaração da Budapest Open Access Initiative (BOAI, 2002) constitui o marco histórico fundador do Acesso Aberto (Open Access). Ela preconiza a eliminação de quaisquer pedágios financeiros ou barreiras de licenciamento para a leitura e reuso de artigos revisados por pares, mantendo-se como único direito moral do autor o controle sobre a integridade de sua obra e o direito a ser devidamente creditado e citado.",
     "armadilhaBanca": "Definição oficial de Acesso Aberto da BOAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3801,7 +3870,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "As licenças Creative Commons (notadamente a CC-BY) são a principal ferramenta jurídica do Acesso Aberto, permitindo ao autor reter a titularidade de sua obra enquanto autoriza a reutilização e a distribuição ampla com o devido crédito autoral."
   },
   {
     "id": "oficial-180q-171",
@@ -3834,14 +3904,15 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "item": "O veto do Presidente da República a um projeto de lei aprovado pelo Congresso Nacional é irretratável e absoluto, não podendo ser apreciado nem rejeitado pelos parlamentares sob qualquer hipótese.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O veto é relativo. Conforme o art. 66, § 4º da CF/88, o veto será apreciado em sessão conjunta do Congresso Nacional dentro de trinta dias a contar de seu recebimento, só podendo ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar o veto presidencial absoluto e insuscetível de rejeição.",
+    "armadilhaBanca": "Considerar o veto presidencial absoluto e insuscetível de rejeição.",
     "dificuldade": "facil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O veto do Presidente da República possui eficácia relativa, devendo ser submetido à apreciação do Congresso Nacional em sessão conjunta, que poderá rejeitá-lo pelo voto da maioria absoluta dos deputados e senadores (art. 66, § 4º da CF/88)."
   },
   {
     "id": "oficial-180q-173",
@@ -3853,7 +3924,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara e o Senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Urgência constitucional do art. 64, §§ 1º e 2º da CF/88: prazo de 45 dias na Câmara e 45 dias no Senado com efeito de trancamento da pauta da Ordem do Dia.",
+    "justificativa": "Gabarito CERTO. O art. 64, §§ 1º e 2º da CF/88 consagra a urgência constitucional solicitada pelo Presidente da República para projetos de lei de sua autoria. A Câmara e o Senado têm o prazo sucessivo de 45 dias cada uma para deliberar sobre a matéria. Esgotado esse prazo sem votação, a pauta da respectiva Casa fica trancada (sobrestamento de todas as demais deliberações da Ordem do Dia até que se ultime a votação).",
     "armadilhaBanca": "Urgência constitucional presidencial do art. 64 da CF.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -3881,7 +3952,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A sessão legislativa ordinária do Congresso Nacional realiza-se de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, correspondendo janeiro e a segunda quinzena de julho aos períodos de recesso parlamentar (art. 57, caput da CF/88)."
   },
   {
     "id": "oficial-180q-175",
@@ -3893,7 +3965,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "As Medidas Provisórias (MPs), adotadas pelo Presidente da República em casos de relevância e urgência, perdem a eficácia desde a edição se não forem convertidas em lei no prazo de sessenta dias, prorrogável uma vez por igual período pelo Presidente do Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra canônica do art. 62, §§ 3º e 7º da CF/88: prazo de 60 dias prorrogável por mais 60 dias, totalizando até 120 dias de vigência temporária.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 62, §§ 3º e 7º da CF/88, as Medidas Provisórias perdem integralmente a eficácia desde a sua edição (efeito retroativo ex tunc) se não forem convertidas em lei pelo Congresso Nacional no prazo de sessenta dias, prorrogável automaticamente uma vez por igual período (total máximo de 120 dias) mediante ato do Presidente da Mesa do Congresso.",
     "armadilhaBanca": "Prazo de vigência das Medidas Provisórias.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3921,7 +3993,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "O Regimento Comum do Congresso Nacional regula exclusivamente as matérias e sessões conjuntas de deputados e senadores, mantendo a Câmara dos Deputados seu Regimento Interno autônomo (RICD) para suas deliberações privativas."
   },
   {
     "id": "oficial-180q-177",
@@ -3933,7 +4006,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "No processo legislativo, o Decretos Legislativo destina-se a regular matéria de competência exclusiva do Congresso Nacional que não depende de sanção do Presidente da República, como a aprovação de tratados internacionais e o julgamento das contas presidenciais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Espécie normativa privativa do Congresso Nacional (art. 49 da CF/88), promulgada pelo Presidente do Senado Federal.",
+    "justificativa": "Gabarito CERTO. O Decreto Legislativo é a espécie normativa primária (art. 59, VI da CF/88) privativa do Congresso Nacional destinada a regular matérias de sua competência exclusiva (art. 49 da CF/88), tais como aprovação de tratados internacionais, autorização para o Presidente declarar guerra ou ausentar-se do país e sustação de atos normativos do Executivo. É promulgado pelo Presidente do Senado e independe de sanção ou veto presidencial.",
     "armadilhaBanca": "Função do Decreto Legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
@@ -3961,7 +4034,8 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A matéria constante de projeto de lei rejeitado só pode ser reapresentada na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional (art. 67 da CF/88)."
   },
   {
     "id": "oficial-180q-179",
@@ -3973,19 +4047,19 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação jurídica, julgue os itens seguintes.",
     "item": "No âmbito federal, constituem documentação jurídica os seguintes diplomas legais: Constituição Federal, emenda constitucional e lei complementar.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Na clássica tripartição da documentação jurídica formulada por Edilenice Passos, os diplomas legais federais (Constituição Federal, emendas constitucionais, leis complementares, leis ordinárias, medidas provisórias e decretos legislativos) constituem a fonte documental primária da Legislação, diferenciando-se da Doutrina (estudos acadêmicos) e da Jurisprudência (decisões judiciais dos tribunais).",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / MPU / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-228951",
-        "ano": 2013,
-        "orgao": "MPU",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "228951"
-      },
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / MPU / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-228951",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "228951"
+    },
     "provaBloco": "P2_ESPECIFICOS"
   },
   {
@@ -4006,6 +4080,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     },
-    "provaBloco": "P2_ESPECIFICOS"
+    "provaBloco": "P2_ESPECIFICOS",
+    "versao_correta": "A Proposta de Emenda à Constituição (PEC) deve ser discutida e votada em cada Casa do Congresso Nacional em dois turnos, considerando-se aprovada se obtiver três quintos dos votos dos respectivos membros em ambos os turnos (art. 60, § 2º da CF/88)."
   }
 ];

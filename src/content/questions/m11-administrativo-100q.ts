@@ -13,7 +13,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta explorando a distinção entre princípios expressos (LIMPE) e implícitos (supremacia, indisponibilidade, razoabilidade, proporcionalidade, autotutela).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista Legislativo - Adaptada"
@@ -31,11 +31,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o princípio da legalidade privada (art. 5º, II da CF) com a legalidade administrativa estrita (art. 37, caput da CF).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "Em virtude do princípio da legalidade administrativa estrita (art. 37, caput da CF/88), o agente público só pode agir quando houver expressa autorização ou imposição legal, ao passo que aos particulares aplica-se o princípio da autonomia da vontade (art. 5º, II da CF/88)."
   },
   {
     "id": "m11-q-3",
@@ -49,7 +50,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença canônica entre descentralização por outorga e por delegação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista Judiciário - Cebraspe"
@@ -67,11 +68,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar desconcentração (órgãos, mesma PJ) por descentralização (entidades, nova PJ).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "A criação de uma nova diretoria ou coordenação técnica no âmbito da Câmara dos Deputados constitui desconcentração administrativa, caracterizada pela distribuição interna de competências no âmbito da mesma pessoa jurídica."
   },
   {
     "id": "m11-q-5",
@@ -85,7 +87,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ausência de hierarquia entre a Administração Direta e as entidades da Administração Indireta (há apenas vinculação e tutela).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe - Analista Administrativo"
@@ -103,11 +105,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter as regras de capital e de forma jurídica entre Empresas Públicas e Sociedades de Economia Mista.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "A empresa pública é constituída com 100% de capital público sob qualquer forma jurídica admitida em direito, enquanto a sociedade de economia mista conjuga capital público majoritário com capital privado sob a forma obrigatória de sociedade anônima (S/A)."
   },
   {
     "id": "m11-q-7",
@@ -121,7 +124,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato da autotutela consagrado nas Súmulas 346 e 473 do STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
@@ -139,11 +142,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restringir a Súmula Vinculante 13 a certos Poderes, excluindo o Legislativo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "Conforme a Súmula Vinculante nº 13 do Supremo Tribunal Federal, a vedação ao nepotismo incide sobre os poderes Executivo, Legislativo e Judiciário da União, estados e municípios, proibindo a nomeação de cônjuge ou parentes até terceiro grau para cargos em comissão."
   },
   {
     "id": "m11-q-9",
@@ -157,7 +161,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção técnica precisa entre motivo (elemento intrínseco) e motivação (formalização escrita).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
@@ -175,11 +179,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Incompatibilidade da alteração a posteriori de motivos com a Teoria dos Motivos Determinantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
-    }
+    },
+    "versao_correta": "Conforme a Teoria dos Motivos Determinantes, a validade do ato administrativo vincula-se indissociavelmente aos motivos fáticos e jurídicos alegados para a sua edição, sendo vedada a substituição a posteriori de motivos falsos por novos fundamentos."
   },
   {
     "id": "m11-q-11",
@@ -193,7 +198,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Identificação de que a presunção de legitimidade é o único atributo universal presente em absolutamente todos os atos administrativos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
@@ -211,11 +216,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar efeitos de anulação (ex tunc) com efeitos de revogação (ex nunc).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "A revogação de um ato administrativo discricionário produz efeitos prospectivos e não retroativos (ex nunc), respeitando-se as consequências jurídicas pretéritas geradas durante sua vigência."
   },
   {
     "id": "m11-q-13",
@@ -225,11 +231,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que tange à convalidação dos atos administrativos e seus requisitos legais, julgue o item a seguir.",
     "item": "A convalidação é ato privativo da Administração pelo qual é suprido o vício existente em ato administrativo ilegal dotado de defeito sanável, sendo admitida prioritariamente quando o defeito recair sobre a competência em razão da pessoa (desde que não privativa) ou sobre a forma (desde que a lei não a declare indispensável à sua validade), e desde que não cause prejuízo a terceiros nem lesão ao interesse público.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da aplicação exata do art. 55 da Lei nº 9.784/1999 e da fórmula doutrinária do FO-CO (vícios de Forma não essencial e Competência não exclusiva são passíveis de convalidação).",
-    "armadilhaBanca": "Regra canônica da convalidação sanável (Forma e Competência relativa).",
+    "justificativa": "Gabarito CERTO. Conforme o art. 55 da Lei nº 9.784/1999 e a doutrina clássica de Direito Administrativo, a convalidação é o ato pelo qual a Administração supre o defeito de ato ilegal sanável com eficácia retroativa (ex tunc). Pela regra mnemônica FO-CO, apenas os vícios de Forma (desde que não seja solenidade essencial à validade) e de Competência (quanto à pessoa do agente, desde que não seja competência exclusiva em razão da matéria) são passíveis de convalidação. Vícios de motivo, objeto e finalidade são insanáveis.",
+    "armadilhaBanca": "Assertiva correta: vícios de competência não privativa e de forma não essencial admitem convalidação retroativa, desde que não acarretem lesão ao interesse público nem a terceiros.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe"
@@ -247,11 +253,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Tentar convalidar vícios materiais insanáveis de finalidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "O vício de finalidade (desvio de poder ou desvio de finalidade) consubstancia defeito material insanável, acarretando a nulidade absoluta do ato administrativo e impedindo qualquer convalidação pela administração."
   },
   {
     "id": "m11-q-15",
@@ -265,7 +272,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal do art. 28 da LINDB e do precedente do MS 24.631 do STF.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
@@ -283,11 +290,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Desfigurar a natureza do parecer vinculante.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
-    }
+    },
+    "versao_correta": "O parecer vinculante obriga a autoridade administrativa competente a decidir em estrita consonância com suas conclusões técnicas, não dispondo o gestor de discricionariedade para deliberar em sentido diametralmente oposto."
   },
   {
     "id": "m11-q-17",
@@ -301,11 +309,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter atos complexos com atos compostos (pegadinha clássica Cebraspe).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TJ-PA / Cebraspe"
-    }
+    },
+    "versao_correta": "O ato complexo resulta da manifestação conjugada de dois ou mais órgãos distintos que se unem para formar um único ato, enquanto o ato composto emana de um órgão principal mas depende da aprovação ou ratificação de outro órgão acessório."
   },
   {
     "id": "m11-q-18",
@@ -319,7 +328,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico do provimento derivado: Reintegração (demissão ilegal).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
@@ -333,15 +342,16 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no regime jurídico único dos servidores públicos civis da União (Lei nº 8.112/1990), julgue o item a seguir.",
     "item": "A recondução é o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório relativo a outro cargo público ou da reintegração do anterior ocupante, assegurado em ambas as hipóteses o direito a indenização compensatória pelos prejuízos funcionais sofridos.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 29, parágrafo único da Lei nº 8.112/1990, a recondução ocorre SEM DIREITO A INDENIZAÇÃO. A assertiva inventa o pagamento de indenização para induzir ao erro.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 29, parágrafo único da Lei nº 8.112/1990, a recondução é o retorno do servidor estável ao cargo anteriormente ocupado decorrente de inabilitação em estágio probatório ou reintegração do anterior ocupante, e opera-se SEM DIREITO A QUALQUER INDENIZAÇÃO pecuniária. A assertiva induz ao erro ao inventar pagamento indenizatório para a recondução.",
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Inserir direito a indenização na recondução, o que é expressamente vedado pelo art. 29 da Lei 8.112/90.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
-    }
+    },
+    "versao_correta": "A recondução do servidor estável ao cargo que ocupava anteriormente em decorrência de inabilitação em estágio probatório ocorre sem direito a qualquer indenização."
   },
   {
     "id": "m11-q-20",
@@ -355,7 +365,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Prazos literais da Lei 8.112/90 (30 dias para posse, 15 dias para exercício).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe - Adaptada"
@@ -373,11 +383,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Utilizar o prazo revogado de 2 anos anterior à EC 19/98 e dispensar a avaliação obrigatória.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "Conforme o art. 41 da Constituição Federal (com redação da EC nº 19/1998), o servidor adquire estabilidade após três anos de efetivo exercício, sendo obrigatória a aprovação em avaliação especial de desempenho realizada por comissão instituída para esse fim."
   },
   {
     "id": "m11-q-22",
@@ -387,11 +398,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "Quanto ao deslocamento de pessoal e cargos na Administração Pública Federal, julgue o item a seguir.",
     "item": "A remoção é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede, ao passo que a redistribuição é o deslocamento do cargo de provimento efetivo (ocupado ou vago) para outro órgão ou entidade do mesmo Poder, no estrito interesse da administração.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Distinção essencial da Lei nº 8.112/1990: Remoção desloca o SERVIDOR (art. 36). Redistribuição desloca o CARGO (art. 37).",
-    "armadilhaBanca": "Diferenciação precisa: remoção é do servidor; redistribuição é do cargo.",
+    "justificativa": "Gabarito CERTO. Distinção ontológica fundamental no regime da Lei nº 8.112/1990: a Remoção (art. 36) é o deslocamento do SERVIDOR, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede; já a Redistribuição (art. 37) é o deslocamento do CARGO de provimento efetivo (ocupado ou vago) para outro órgão ou entidade do mesmo Poder, fundamentado estritamente no interesse da administração pública e ajuste de lotação.",
+    "armadilhaBanca": "Assertiva correta: na remoção desloca-se a pessoa física do servidor; na redistribuição desloca-se a vaga do cargo na estrutura administrativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -409,11 +420,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir redistribuição entre Poderes distintos da República.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "Nos termos do art. 37 da Lei nº 8.112/1990, a redistribuição é o deslocamento de cargo de provimento efetivo restrito a órgãos do mesmo Poder, sendo vedada a redistribuição entre Poderes distintos da República."
   },
   {
     "id": "m11-q-24",
@@ -427,7 +439,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Exceção vinculante da absolvição criminal por negativa de autoria ou inexistência do fato.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
@@ -445,11 +457,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre absolvição por negativa de autoria (vincula) e por falta de provas (não vincula).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
-    }
+    },
+    "versao_correta": "A absolvição criminal fundada em insuficiência de provas não vincula a esfera administrativa (Súmula nº 18 do STF), remanescendo íntegra a responsabilidade disciplinar do servidor público por falta residual autônoma."
   },
   {
     "id": "m11-q-26",
@@ -463,11 +476,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Compatibilidade de horários é requisito inafastável.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEMA-AM / Cebraspe"
-    }
+    },
+    "versao_correta": "A acumulação remunerada de cargos públicos, nas hipóteses constitucionais admitidas pelo art. 37, XVI da CF/88, tem como requisito material indeclinável a compatibilidade de horários, sendo terminantemente vedada a sobreposição concomitante de jornadas."
   },
   {
     "id": "m11-q-27",
@@ -481,7 +495,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre verdade material (processo administrativo e penal) e verdade formal (processo civil tradicional).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -499,11 +513,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar hipótese de suspeição (art. 20) com hipótese objetiva de impedimento (art. 18).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
-    }
+    },
+    "versao_correta": "A existência de amizade íntima ou inimizade notória com interessado no processo administrativo configura caso de suspeição (art. 20 da Lei nº 9.784/1999), diferenciando-se dos casos de impedimento objetivo do art. 18."
   },
   {
     "id": "m11-q-29",
@@ -517,7 +532,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança literal do mnemônico CENORA do art. 13 da Lei 9.784/99.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe - Adaptada"
@@ -535,11 +550,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restringir a delegação a órgãos subordinados (o art. 12 autoriza delegação sem subordinação).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "Nos termos do art. 12 da Lei nº 9.784/1999, um órgão administrativo e seu titular podem delegar parte de sua competência a outros órgãos ou titulares ainda que estes não lhe sejam hierarquicamente subordinados, por motivos técnicos, sociais ou territoriais."
   },
   {
     "id": "m11-q-31",
@@ -553,7 +569,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre processo civil (onde a reformatio in pejus é vedada) e processo administrativo (onde é admitida com contraditório prévio).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
@@ -571,11 +587,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmar proibição absoluta de reformatio in pejus no processo administrativo federal.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe"
-    }
+    },
+    "versao_correta": "No âmbito do processo administrativo federal, é admitida a reforma da decisão em prejuízo do recorrente (reformatio in pejus), devendo a autoridade cientificar previamente o interessado para que apresente alegações antes da decisão final (art. 64 da Lei nº 9.784/1999)."
   },
   {
     "id": "m11-q-33",
@@ -585,11 +602,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do processo disciplinar (PAD) regulado pela Lei nº 8.112/1990 e das garantias constitucionais da ampla defesa, julgue o item a seguir.",
     "item": "Conforme entendimento vinculante do Supremo Tribunal Federal materializado na Súmula Vinculante 5, a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição Federal de 1988.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se do teor literal da Súmula Vinculante 5 do STF. A presença de advogado é facultativa no PAD, bastando que o servidor seja intimado e possa exercer pessoalmente a sua defesa ou nomear defensor dativo se for revel.",
-    "armadilhaBanca": "Cobrança literal da Súmula Vinculante 5 do STF.",
+    "justificativa": "Gabarito CERTO. Conforme o enunciado vinculante da Súmula Vinculante nº 5 do Supremo Tribunal Federal: 'A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição'. No âmbito do processo disciplinar federal (Lei nº 8.112/1990 e Lei nº 9.784/1999), o servidor pode exercer a sua autodefesa pessoalmente, sendo a contratação de advogado uma faculdade e não uma imposição de nulidade processual.",
+    "armadilhaBanca": "Assertiva correta: a Súmula Vinculante 5 do STF afasta a obrigatoriedade de advogado no PAD, exigindo apenas que seja assegurado o contraditório e a ampla defesa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
@@ -607,11 +624,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "ANACRONISMO_NORMATIVO: Inserir prazo fantasioso de 5 anos de interrupção prescricional no PAD.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "A instauração de processo disciplinar ou de sindicância punitiva interrompe a prescrição da ação disciplinar pelo prazo legal máximo de 140 dias, reiniciando-se a contagem do prazo prescricional por inteiro após esse período (art. 142 da Lei nº 8.112/1990 e Súmula 380 do STJ)."
   },
   {
     "id": "m11-q-35",
@@ -625,7 +643,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre supremacia geral (polícia) e supremacia especial (disciplinar).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
@@ -643,11 +661,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir delegabilidade da ordem de polícia a entidades privadas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
-    }
+    },
+    "versao_correta": "A fase da ordem de polícia (normatização primária) consubstancia manifestação indelegável do poder de império estatal, admitindo-se a delegação a pessoas jurídicas de direito privado da administração indireta unicamente dos atos materiais de fiscalização e aplicação de sanções em regime não concorrencial (STF, Tema 532)."
   },
   {
     "id": "m11-q-37",
@@ -661,7 +680,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da tese vinculante do Tema 532 do STF sobre poder de polícia.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -679,11 +698,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter excesso de poder (competência) com desvio de finalidade (finalidade).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "O excesso de poder configura vício de competência no qual o agente público extrapola os limites legais de suas atribuições, enquanto o desvio de finalidade (desvio de poder) ocorre quando o ato é praticado visando a fim diverso do interesse público ou da lei."
   },
   {
     "id": "m11-q-39",
@@ -697,7 +717,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da exceção da autoexecutoriedade: a multa não é autoexecutória quanto à cobrança forçada de valores.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -715,11 +735,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Permitir criação de órgãos e aumento de despesa por decreto autônomo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "Conforme o art. 84, VI, alínea \"a\" da Constituição Federal, o decreto autônomo presidencial destina-se à organização e funcionamento da administração federal unicamente quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos."
   },
   {
     "id": "m11-q-41",
@@ -733,7 +754,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre controle de legalidade/razoabilidade (permitido) e controle de mérito estrito (vedado).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
@@ -751,11 +772,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir margem de escolha discricionária ao poder vinculado.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "No poder vinculado, a lei estabelece de forma rígida todos os elementos e requisitos do ato administrativo, impondo à autoridade administrativa a prática de uma única conduta sem qualquer margem de conveniência ou discricionariedade."
   },
   {
     "id": "m11-q-43",
@@ -765,11 +787,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do regime constitucional da responsabilidade civil extracontratual do Estado (art. 37, § 6º da CF/88), julgue o item a seguir.",
     "item": "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem objetivamente pelos danos que seus agentes, nessa qualidade, causarem a terceiros, sob a modalidade do risco administrativo, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o teor literal do art. 37, § 6º da CF/88, consagrando a responsabilidade objetiva do Estado (independente de culpa) sob a teoria do risco administrativo e a responsabilidade subjetiva em regresso contra o servidor faltoso.",
-    "armadilhaBanca": "Cobrança literal do art. 37, § 6º da Constituição de 1988.",
+    "justificativa": "Gabarito CERTO. O art. 37, § 6º da Constituição Federal de 1988 positiva a responsabilidade civil objetiva do Estado com base na Teoria do Risco Administrativo: as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes causarem a terceiros, bastando à vítima provar a conduta, o dano e o nexo de causalidade. A apuração de dolo ou culpa é restrita à posterior ação de regresso contra o servidor.",
+    "armadilhaBanca": "Assertiva correta: a responsabilidade do Estado perante a vítima é objetiva (independe de culpa); a responsabilidade do servidor em regresso perante o Estado é subjetiva.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -787,7 +809,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Tese vinculante do Tema 940 do STF e ilegitimidade passiva do servidor perante a vítima.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
@@ -805,7 +827,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção entre omissão genérica (subjetiva) e omissão específica com dever de custódia (objetiva - Tema 592 STF).",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
@@ -819,15 +841,16 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à responsabilidade estatal por omissão e hipóteses excludentes, julgue o item a seguir.",
     "item": "A culpa concorrente da vítima do evento danoso exclui integralmente o dever de indenizar do Estado, afastando qualquer obrigação patrimonial compensatória.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A culpa CONCORRENTE não exclui, apenas ATENUA (reduz) proporcionalmente o montante da indenização a ser paga pelo Estado. A exclusão total só ocorre na hipótese de CULPA EXCLUSIVA da vítima.",
+    "justificativa": "Gabarito ERRADO. Na teoria do risco administrativo, a culpa CONCORRENTE da vítima não exclui o nexo causal nem anula a responsabilidade estatal: ela apenas atenua (reduz) proporcionalmente o valor da indenização a ser paga pela Fazenda Pública. A exclusão integral do dever de indenizar do Estado ocorre exclusivamente na hipótese de CULPA EXCLUSIVA da vítima ou de força maior absoluta.",
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir culpa concorrente (atenua a indenização) com culpa exclusiva (exclui a responsabilidade).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
-    }
+    },
+    "versao_correta": "A culpa concorrente da vítima do evento danoso não exclui a responsabilidade civil do Estado, apenas atenua proporcionalmente o valor da indenização devida."
   },
   {
     "id": "m11-q-47",
@@ -841,11 +864,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar a teoria do risco integral como regra geral da responsabilidade pública no Brasil.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "A regra geral adotada pela Constituição Federal de 1988 para a responsabilidade extracontratual do Estado é a Teoria do Risco Administrativo (art. 37, § 6º da CF/88), a qual admite a exclusão ou atenuação da responsabilidade estatal por caso fortuito, força maior ou culpa da vítima."
   },
   {
     "id": "m11-q-48",
@@ -855,11 +879,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da ação regressiva movida pelo Estado contra o agente público causador do dano, julgue o item a seguir.",
     "item": "Para que o Estado obtenha êxito na ação de regresso contra o servidor que causou dano a terceiro, a responsabilidade estatal em regresso é de natureza estritamente subjetiva, dependendo da prova incontroversa de que o agente atuou com dolo ou com culpa em sentido estrito (imprudência, imperícia ou negligência).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 37, § 6º, in fine, da CF/88 e a doutrina unânime, a responsabilidade do agente perante o Estado é SUBJETIVA, exigindo comprovação cabal de dolo ou culpa.",
-    "armadilhaBanca": "Diferença: responsabilidade do Estado perante a vítima = OBJETIVA; responsabilidade do agente em regresso perante o Estado = SUBJETIVA.",
+    "justificativa": "Gabarito CERTO. Conforme preceitua o art. 37, § 6º in fine da CF/88 e a doutrina unânime, na ação regressiva proposta pelo Estado contra o servidor que causou o prejuízo a terceiro, a responsabilidade do agente público é de natureza SUBJETIVA. Para obter o ressarcimento patrimonial, o Poder Público tem o ônus processual de comprovar que o servidor agiu com dolo (intenção manifesta) ou com culpa em sentido estrito (negligência, imprudência ou imperícia).",
+    "armadilhaBanca": "Assertiva correta: enquanto a vítima processa o Estado sob o prisma objetivo, o Estado só pode reaver o valor do servidor demonstrando dolo ou culpa cabal.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -877,11 +901,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Exigência de pagamento prévio da indenização pelo Estado para nascimento da pretensão regressiva.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe"
-    }
+    },
+    "versao_correta": "A ação de regresso da administração pública contra o servidor público causador do dano exige a demonstração de culpa ou dolo e pressupõe o prévio e efetivo pagamento da indenização estatal à vítima lesionada."
   },
   {
     "id": "m11-q-50",
@@ -895,7 +920,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra geral de irresponsabilidade por atos legislativos e suas hipóteses de exceção.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -913,7 +938,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Extinção absoluta da culpa e consagração do dolo específico na nova LIA (Lei 14.230/21).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -931,7 +956,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Taxatividade do rol do art. 11 após a Lei 14.230/2021.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
@@ -949,11 +974,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir dano presumido in re ipsa no art. 10 após a Lei 14.230/2021.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
-    }
+    },
+    "versao_correta": "Com as alterações da Lei nº 14.230/2021, a tipificação de ato de improbidade causador de lesão ao erário (art. 10 da Lei nº 8.429/1992) exige a comprovação cabal de dolo e de efetiva e real perda patrimonial suportada pelos cofres públicos, sendo vedada a presunção de dano in re ipsa."
   },
   {
     "id": "m11-q-54",
@@ -967,7 +993,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cobrança da tese do STF nas ADIs 7042 e 7043 sobre legitimidade concorrente.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
@@ -985,11 +1011,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Revogação da perda da função e da suspensão de direitos políticos no art. 11 da LIA.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
-    }
+    },
+    "versao_correta": "A Lei nº 14.230/2021 revogou as penalidades de perda da função pública e de suspensão de direitos políticos para os atos de improbidade que atentam contra os princípios da administração pública (art. 11), cominando apenas pagamento de multa civil e proibição de contratar."
   },
   {
     "id": "m11-q-56",
@@ -999,11 +1026,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos prazos prescricionais na Lei de Improbidade Administrativa, julgue o item a seguir.",
     "item": "A ação para aplicação das sanções previstas na Lei de Improbidade Administrativa prescreve em oito anos, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que tiver cessado a permanência, incidindo a prescrição intercorrente de quatro anos caso o processo fique paralisado entre os marcos interruptivos legais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a disciplina exata do art. 23 e seus parágrafos da Lei nº 8.429/1992, com redação da Lei nº 14.230/2021: prazo prescricional geral unificado de 8 anos e prescrição intercorrente de 4 anos.",
-    "armadilhaBanca": "Prazos literais da nova prescrição da LIA (8 anos e 4 anos de intercorrente).",
+    "justificativa": "Gabarito CERTO. Com a promulgação da Lei nº 14.230/2021 (que reformou profundamente a Lei de Improbidade Administrativa - Lei nº 8.429/1992), o art. 23 unificou o regime prescricional: a ação para aplicação das sanções por ato de improbidade prescreve no prazo geral de 8 anos a contar da data de ocorrência do fato. A lei instituiu ainda a prescrição intercorrente de 4 anos entre os marcos interruptivos do processo.",
+    "armadilhaBanca": "Assertiva correta: o prazo geral de prescrição da improbidade na redação atual é de 8 anos da data do fato, superando os antigos prazos atrelados ao término de mandato.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
@@ -1021,11 +1048,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Impossibilidade de o particular responder isoladamente por improbidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "Conforme a Lei nº 8.429/1992 (com as alterações da Lei nº 14.230/2021), o particular somente pode figurar no polo passivo da ação de improbidade administrativa quando houver agido dolosamente em coautoria ou benefício direto com agente público estatal."
   },
   {
     "id": "m11-q-58",
@@ -1035,11 +1063,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito do Acordo de Não Persecução Civil (ANPC) na Lei de Improbidade, julgue o item a seguir.",
     "item": "A celebração do Acordo de Não Persecução Civil (ANPC) é expressamente autorizada pela Lei nº 14.230/2021 (art. 17-B), podendo ser firmado entre o Ministério Público e o investigado ou réu para abreviar o litígio, desde que contemple a reparação integral do dano patrimonial ao erário e a reversão à pessoa jurídica lesada da vantagem indevida obtida.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o teor literal do art. 17-B da Lei nº 8.429/1992 introduzido pela reforma, consagrando a consensualidade e a justiça negociada na improbidade administrativa.",
-    "armadilhaBanca": "Instituição expressa do ANPC no art. 17-B da Lei 8.429/92.",
+    "justificativa": "Gabarito CERTO. O art. 17-B da Lei nº 8.429/1992 (incluído pela reforma da Lei nº 14.230/2021) autoriza expressamente a celebração de Acordo de Não Persecução Civil (ANPC) na improbidade administrativa. O acordo consagra a justiça consensual e exige, cumulativamente: (1) o integral ressarcimento do dano patrimonial efetivo causado ao erário e (2) a reversão/perdimento integral da vantagem patrimonial indevida obtida pelo investigado.",
+    "armadilhaBanca": "Assertiva correta: o ANPC é admitido pelo regime reformado da Lei 14.230/2021, impondo a reparação integral do dano e perda dos bens acrescidos ilicitamente.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe"
@@ -1057,11 +1085,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Cláusula protetiva do art. 1º, § 8º contra criminalização da divergência hermenêutica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "Não configura ato de improbidade administrativa a conduta fundada em divergência interpretativa da lei baseada em jurisprudência razoável ou doutrina jurídica consistente, consoante o art. 1º, § 8º da Lei nº 8.429/1992."
   },
   {
     "id": "m11-q-60",
@@ -1071,11 +1100,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne aos modelos teóricos de administração pública (patrimonialista, burocrático e gerencial), julgue o item a seguir.",
     "item": "O modelo patrimonialista de administração pública caracteriza-se pela indistinção conceitual e prática entre a esfera do patrimônio público (res publica) e o patrimônio particular do soberano, propiciando práticas de clientelismo, nepotismo, prebendas e corrupção estrutural.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a definição clássica maxweberiana do patrimonialismo: o aparato estatal é visto como extensão do patrimônio privado do governante, sem separação entre patrimônio público e particular.",
-    "armadilhaBanca": "Conceito exato do modelo patrimonialista.",
+    "justificativa": "Gabarito CERTO. Na clássica sociologia da dominação de Max Weber, o modelo patrimonialista de administração caracteriza-se pela ausência de diferenciação conceitual e prática entre a esfera do patrimônio público (res publica) e a esfera dos interesses privados do governante ou soberano. Os cargos públicos e o tesouro estatal são explorados como prebendas pessoais, vigorando o clientelismo e o compadrio.",
+    "armadilhaBanca": "Assertiva correta: a fusão entre público e privado e a apropriação dos cargos para fins particulares são a essência definidora do patrimonialismo histórico.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "UnB / Administrador - Cebraspe 2025"
@@ -1089,11 +1118,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne aos modelos teóricos de administração pública (patrimonialista, burocrático e gerencial), julgue o item a seguir.",
     "item": "A administração pública burocrática emergiu historicamente como instrumento de superação do patrimonialismo, estruturando-se a partir de princípios weberianos como a impessoalidade, a hierarquia funcional bem definida, o mérito profissional aferido documentalmente e o controle de legalidade a priori (processos e procedimentos formais).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O modelo burocrático racional-legal de Max Weber teve como objetivo primordial combater o nepotismo e a corrupção patrimonialista através da impessoalidade e do formalismo estrito.",
-    "armadilhaBanca": "Fundamentos canônicos da burocracia racional-legal.",
+    "justificativa": "Gabarito CERTO. O modelo burocrático racional-legal teorizado por Max Weber emergiu no processo de racionalização ocidental com o objetivo expresso de combater os abusos e a corrupção do patrimonialismo. Apoia-se na autoridade racional da lei escrita, na impessoalidade estrita no tratamento aos cidadãos, na separação absoluta entre o cargo público e a pessoa do servidor e na seleção técnica meritocrática mediante certame público de provas e títulos.",
+    "armadilhaBanca": "Assertiva correta: a burocracia racional-legal weberiana nasceu historicamente como instrumento de contenção das práticas nepotistas do modelo patrimonialista.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1107,11 +1136,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às disfunções da burocracia e aos paradigmas gerenciais, julgue o item a seguir.",
     "item": "As chamadas disfunções da burocracia descritas por Robert Merton decorrem da exacerbação dos próprios princípios burocráticos, manifestando-se por meio do apego rígido e ritualístico às normas formais, perda da visão dos objetivos finais da organização e resistência sistêmica a inovações.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Robert Merton e outros teóricos demonstraram que a valorização excessiva das regras transforma o meio (procedimento formal) em fim em si mesmo, gerando ineficiência e incapacidade de adaptação.",
-    "armadilhaBanca": "Teoria das disfunções burocráticas de Robert Merton.",
+    "justificativa": "Gabarito CERTO. As chamadas 'disfunções da burocracia', identificadas pelo sociólogo funcionalista Robert K. Merton, derivam da aplicação exacerbada dos próprios preceitos do modelo weberiano. O apego excessivo às regras transforma os procedimentos formais (que deveriam ser instrumentos) em metas terminais em si mesmos (ritualismo), provocando lentidão, resistência sistemática a inovações e insensibilidade às necessidades do cidadão.",
+    "armadilhaBanca": "Assertiva correta: para Merton, as disfunções burocráticas surgem não pelo desrespeito às regras, mas pelo exagero na observância ritualística das normas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -1129,11 +1158,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir à Nova Gestão Pública as características da burocracia rígida prévia.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "UnB / Cebraspe 2025"
-    }
+    },
+    "versao_correta": "O paradigma da Nova Gestão Pública (New Public Management) enfatiza a descentralização decisória, a delegação de autonomia com foco em resultados sociais e a substituição do controle prévio cartorial pelo controle a posteriori do desempenho."
   },
   {
     "id": "m11-q-64",
@@ -1143,11 +1173,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Nova Governança Pública (NPG) e do conceito de Valor Público, julgue o item a seguir.",
     "item": "A Nova Governança Pública (New Public Governance - NPG) preconiza a atuação do Estado em redes policêntricas de cooperação interinstitucional, fomentando a coprodução de bens públicos pela sociedade civil e a tomada de decisões compartilhada entre múltiplos atores públicos e privados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A NPG (Stephen Osborne) avança além do gerencialismo de mercado do NPM, enfatizando a governança em redes colaborativas, coprodução e cidadania ativa.",
-    "armadilhaBanca": "Conceito canônico da Nova Governança Pública (NPG).",
+    "justificativa": "Gabarito CERTO. A Nova Governança Pública (New Public Governance - NPG), sistematizada por teóricos como Stephen Osborne, supera tanto a rigidez procedimental burocrática quanto o gerencialismo estritamente mercadológico da New Public Management (NPM). Enfatiza a governança relacional e policêntrica em redes cooperativas que integram Estado, organizações do terceiro setor e coletividades civis, destacando a coprodução de serviços públicos.",
+    "armadilhaBanca": "Assertiva correta: a NPG substitui a lógica de mercado da NPM pela lógica de redes integradas, coprodução democrática e colaboração interinstitucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1165,11 +1195,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção do Triângulo Estratégico de Valor Público de Mark Moore.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
-    }
+    },
+    "versao_correta": "Na abordagem de Mark Moore, a criação de Valor Público apoia-se no Triângulo Estratégico articulado em três vértices essenciais: valor substantivo à sociedade, legitimidade e sustentação política e capacidade operacional e administrativa."
   },
   {
     "id": "m11-q-66",
@@ -1183,11 +1214,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir produtos imediatos (outputs) com impactos sociais (impacts).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "Na Cadeia de Valor Público, a quantidade de serviços e documentos entregues (como livros catalogados) representa produtos imediatos (outputs), cabendo a classificação de impactos sociais (impacts) às transformações duradouras alcançadas na sociedade."
   },
   {
     "id": "m11-q-67",
@@ -1201,11 +1233,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Terceirizar atividades exclusivas de Estado no modelo gerencial brasileiro.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "UnB / Cebraspe 2025"
-    }
+    },
+    "versao_correta": "No Plano Diretor da Reforma do Aparelho do Estado de 1995, as atividades exclusivas de Estado (fiscalização, policiamento e regulação) permanecem restritas à execução direta pelo poder público, sendo vedada sua transferência para organizações sociais do terceiro setor."
   },
   {
     "id": "m11-q-68",
@@ -1215,11 +1248,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da política de governança da administração pública federal regulamentada pelo Decreto Federal nº 9.203/2017, julgue o item a seguir.",
     "item": "Conforme o Decreto nº 9.203/2017, governança pública consiste no conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o conceito legal literal consagrado no art. 2º, I do Decreto nº 9.203/2017, distinguindo com clareza os mecanismos (liderança, estratégia e controle) e as finalidades da governança pública.",
-    "armadilhaBanca": "Conceito legal literal do art. 2º do Decreto 9.203/17.",
+    "justificativa": "Gabarito CERTO. O Decreto federal nº 9.203/2017 (que dispõe sobre a política de governança da administração pública federal) define em seu art. 2º, I: 'governança pública: conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade'. A governança guia a estratégia e monitora a execução da gestão.",
+    "armadilhaBanca": "Assertiva correta: governança difere de gestão: a governança avalia, direciona e monitora a alta direção, enquanto a gestão operacionaliza o plano de ação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1233,11 +1266,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da política de governança da administração pública federal regulamentada pelo Decreto Federal nº 9.203/2017, julgue o item a seguir.",
     "item": "São princípios basilares da governança pública expressos no Decreto nº 9.203/2017: capacidade de resposta (responsiveness), integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade (accountability) e transparência.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Rol expresso do art. 3º do Decreto nº 9.203/2017: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, accountability e transparência.",
-    "armadilhaBanca": "Princípios expressos do art. 3º do Decreto 9.203/2017.",
+    "justificativa": "Gabarito CERTO. O art. 3º do Decreto nº 9.203/2017 elenca os princípios norteadores da governança pública na administração federal: I - capacidade de resposta (responsiveness); II - integridade; III - confiabilidade; IV - melhoria regulatória; V - prestação de contas e responsabilidade (accountability); e VI - transparência ativa, orientados à geração de valor e confiança social.",
+    "armadilhaBanca": "Assertiva correta: atente-se ao rol expresso de princípios do Decreto 9.203/2017 (capacidade de resposta, integridade, confiabilidade, melhoria regulatória, accountability e transparência).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -1255,7 +1288,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito canônico do Modelo das Três Linhas do IIA.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
@@ -1273,11 +1306,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Subordinação indevida da auditoria interna aos gestores auditados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
-    }
+    },
+    "versao_correta": "A terceira linha do modelo de governança do IIA (auditoria interna) atua com estrita independência funcional e reporte direto à alta administração colegiada, não se subordinando à gestão operacional da primeira linha."
   },
   {
     "id": "m11-q-72",
@@ -1287,11 +1321,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que tange aos mecanismos de governança do art. 5º do Decreto nº 9.203/2017, julgue o item a seguir.",
     "item": "Os três mecanismos fundamentais de governança pública federal desdobram-se na tríade Liderança, Estratégia e Controle (LEC), sendo a Liderança responsável pelas competências e integridade dos tomadores de decisão, a Estratégia pelo alinhamento das diretrizes institucionais aos objetivos públicos, e o Controle pela gestão de riscos e mitigação de desvios.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da fórmula clássica do art. 5º do Decreto nº 9.203/2017: mecanismos de Liderança, Estratégia e Controle (LEC).",
-    "armadilhaBanca": "Mnemônico LEC dos mecanismos de governança pública.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 5º do Decreto nº 9.203/2017, a governança pública desdobra-se nos três mecanismos fundamentais (mnemônico LEC): Liderança (práticas de gestão de pessoas e alta administração que asseguram integridade e competência funcional); Estratégia (definição de diretrizes, metas e planos de ação governamentais); e Controle (gestão de riscos e controle interno que asseguram conformidade e mitigação de falhas).",
+    "armadilhaBanca": "Assertiva correta: os três mecanismos operacionais basilares da governança federal são exatamente Liderança, Estratégia e Controle (tríade LEC).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
@@ -1309,11 +1343,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Governança (direcionamento estratégico) com Gestão (execução operacional).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "Governança e Gestão são funções distintas no setor público: a governança avalia, direciona e monitora a estratégia institucional, enquanto a gestão planeja, executa, controla e opera as diretrizes fixadas."
   },
   {
     "id": "m11-q-74",
@@ -1327,11 +1362,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Tornar facultativa a gestão de riscos e integridade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "A estruturação de programas de gestão de riscos e integridade é diretriz obrigatória de governança na administração pública federal (Decreto nº 9.203/2017), visando a mitigar fraudes e desvios de conduta."
   },
   {
     "id": "m11-q-75",
@@ -1345,11 +1381,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Violação da garantia de proteção ao denunciante nos programas de integridade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe"
-    }
+    },
+    "versao_correta": "Os programas de integridade e governança pública devem assegurar a existência de canais de ouvidoria seguros que admitam denúncias anônimas e garantam proteção contra retaliações ao denunciante de boa-fé (Lei nº 13.608/2018)."
   },
   {
     "id": "m11-q-76",
@@ -1363,7 +1400,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Rol taxativo das cinco modalidades da Lei nº 14.133/2021.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1381,7 +1418,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Positivação e aplicação do princípio da segregação de funções na Lei 14.133/21.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -1399,7 +1436,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Regra geral da inversão de fases no procedimento licitatório moderno.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
@@ -1413,11 +1450,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às fases da licitação na Lei nº 14.133/2021, julgue o item a seguir.",
     "item": "O Estudo Técnico Preliminar (ETP) é documento constitutivo da fase preparatória da licitação que evidencia o problema a ser resolvido e a sua melhor solução, servindo de base obrigatória para a elaboração do Termo de Referência ou Projeto Básico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a definição legal exata do art. 6º, XX da Lei nº 14.133/2021: o ETP analisa a viabilidade técnica e econômica e orienta o Termo de Referência.",
-    "armadilhaBanca": "Conceito e função do ETP na fase preparatória da Lei 14.133/21.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 6º, inciso XX e art. 18 da Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos), o Estudo Técnico Preliminar (ETP) é o documento fundacional da fase preparatória que caracteriza o interesse público e analisa a viabilidade técnica e econômico-financeira das diversas soluções mercadológicas disponíveis, fornecendo as diretrizes essenciais para a confecção do Termo de Referência ou Projeto Básico.",
+    "armadilhaBanca": "Assertiva correta: o ETP é peça obrigatória do planejamento prévio das contratações públicas, fundamentando a escolha da solução técnica mais eficiente.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
@@ -1435,11 +1472,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir pregão para obras de engenharia (expressamente vedado pelo art. 29).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "A modalidade pregão destina-se exclusivamente à aquisição de bens e contratação de serviços comuns (art. 29 da Lei nº 14.133/2021), sendo expressamente vedada sua utilização para a contratação de obras de engenharia."
   },
   {
     "id": "m11-q-81",
@@ -1453,11 +1491,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Critérios de julgamento exclusivos do diálogo competitivo.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "Na modalidade diálogo competitivo (art. 32 da Lei nº 14.133/2021), a proposta vencedora deve ser julgada obrigatoriamente pelos critérios de melhor técnica ou conteúdo artístico, ou pelo critério de técnica e preço, sendo vedado o critério de maior desconto."
   },
   {
     "id": "m11-q-82",
@@ -1471,11 +1510,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Taxatividade da dispensa (art. 75) vs rol exemplificativo da inexigibilidade (art. 74).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "As hipóteses de dispensa de licitação do art. 75 da Lei nº 14.133/2021 compõem rol taxativo (numerus clausus), reservando-se o rol exemplificativo para os casos de inexigibilidade fundados na inviabilidade de competição (art. 74)."
   },
   {
     "id": "m11-q-83",
@@ -1485,15 +1525,16 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das hipóteses de contratação direta (inexigibilidade e dispensa), julgue o item a seguir.",
     "item": "A contratação direta de serviços técnicos especializados de natureza predominantemente intelectual por inexigibilidade de licitação (art. 74, III) prescinde da comprovação de notória especialização do contratado, bastando que a comissão comprove que o serviço possui natureza singular.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 74, III da Lei nº 14.133/2021, a notória especialização do profissional ou da empresa é requisito CUMULATIVO e INDISPENSÁVEL à natureza especializada/singular do serviço.",
+    "justificativa": "Gabarito ERRADO. Conforme preceitua o art. 74, inciso III da Lei nº 14.133/2021, a contratação direta por inexigibilidade de licitação de serviços técnicos especializados de natureza predominantemente intelectual exige a presença CUMULATIVA e INDISSOCIÁVEL de três elementos: a natureza singular/especializada do serviço, a notória especialização do profissional ou da empresa e a inviabilidade de competição objetiva.",
     "armadilhaBanca": "Exigência de atestado de exclusividade.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe"
-    }
+    },
+    "versao_correta": "A contratação direta por inexigibilidade para serviços técnicos especializados de natureza intelectual exige a demonstração cumulativa de notória especialização do profissional e singularidade do objeto."
   },
   {
     "id": "m11-q-84",
@@ -1503,15 +1544,16 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das hipóteses de contratação direta (inexigibilidade e dispensa), julgue o item a seguir.",
     "item": "Nas contratações diretas em razão do valor fundadas na Lei nº 14.133/2021, a substituição do instrumento contratual formal por nota de empenho é admitida inclusive quando o ajuste estipular obrigações futuras de assistência técnica e fornecimento continuado.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 95 da Lei nº 14.133/2021, havendo obrigações futuras (como garantia estendida ou fornecimento continuado), o instrumento de contrato escrito é de formalização indeclinável.",
+    "justificativa": "Gabarito ERRADO. Conforme o art. 95 da Lei nº 14.133/2021, o instrumento formal de contrato escrito é OBRIGATÓRIO, salvo nos casos de pequenas compras de pronta entrega sem obrigações futuras relevantes. Havendo obrigações contratuais futuras (tais como garantia técnica estendida, fornecimento contínuo de materiais ou assistência pós-venda), a formalização do instrumento de contrato é indeclinável.",
     "armadilhaBanca": "Dispensar contrato formal em qualquer hipótese mesmo com obrigações futuras.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "A existência de obrigações futuras decorrentes do fornecimento de bens torna obrigatória a formalização de instrumento de contrato formal escrito."
   },
   {
     "id": "m11-q-85",
@@ -1521,11 +1563,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne às prerrogativas da Administração Pública nos contratos administrativos (cláusulas exorbitantes) sob a égide da Lei nº 14.133/2021, julgue o item a seguir.",
     "item": "O contratado fica obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial atualizado do contrato para compras e serviços, e, no caso de reforma de edifício ou de equipamento, o limite para os acréscimos é de até 50%.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o teor literal do art. 125 da Lei nº 14.133/2021, mantendo os percentuais tradicionais de 25% para compras/serviços e até 50% de acréscimo para reformas prediais.",
-    "armadilhaBanca": "Percentuais legais exatos de alteração unilateral: 25% e 50%.",
+    "justificativa": "Gabarito CERTO. O art. 125 da Lei nº 14.133/2021 reproduz a disciplina dos limites de alteração unilateral quantitativa dos contratos administrativos: o contratado fica legalmente obrigado a aceitar, nas mesmas condições pactuadas, os acréscimos ou supressões de até 25% do valor inicial atualizado do contrato para obras, serviços ou compras, e de até 50% exclusivamente para acréscimos no caso de reforma de edifício ou de equipamento.",
+    "armadilhaBanca": "Assertiva correta: os percentuais legais inalterados são de 25% (regra geral de compras e serviços) e até 50% para acréscimos em reformas prediais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1543,11 +1585,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Impossibilidade de alteração unilateral das cláusulas financeiras.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
-    }
+    },
+    "versao_correta": "A prerrogativa de alteração unilateral conferida à administração pública pela Lei nº 14.133/2021 restringe-se a modificações qualitativas e quantitativas do objeto, mantendo-se intangível o equilíbrio econômico-financeiro e a remuneração estipulada sem prévio acordo."
   },
   {
     "id": "m11-q-87",
@@ -1557,11 +1600,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da vigência dos contratos de serviços e fornecimentos contínuos e da exceção do contrato não cumprido, julgue o item a seguir.",
     "item": "Os contratos de serviços e fornecimentos contínuos podem ser celebrados pelo prazo inicial de até cinco anos, podendo ser prorrogados sucessivamente, respeitada a vigência máxima decenal (dez anos), desde que haja previsão editalícia e demonstração de vantajosisdade econômica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a regra inovadora do art. 106 e art. 107 da Lei nº 14.133/2021: prazo inicial de até 5 anos, com prorrogação sucessiva até o teto de 10 anos.",
-    "armadilhaBanca": "Prazos de vigência de contratos contínuos na Lei 14.133/21 (5 anos prorrogável até 10 anos).",
+    "justificativa": "Gabarito CERTO. Inovação de grande relevância prática trazida pelos arts. 106 e 107 da Lei nº 14.133/2021: os contratos da administração pública federal que versem sobre serviços e fornecimentos contínuos (como suporte a softwares de bibliotecas, serviços em nuvem, limpeza e vigilância) podem ser celebrados diretamente com prazo inicial de até 5 anos, admitindo prorrogações sucessivas até o teto máximo de 10 anos, se comprovada a vantajosidade.",
+    "armadilhaBanca": "Assertiva correta: a Nova Lei de Licitações autorizou contratos contínuos com prazo inicial de 5 anos e prorrogação até 10 anos, superando o antigo teto de 60 meses da Lei 8.666/93.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -1579,11 +1622,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir suspensão contratual mesmo diante de inadimplemento prolongado do Estado.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
-    }
+    },
+    "versao_correta": "Conforme o art. 137, § 2º, IV da Lei nº 14.133/2021, o contratado tem o direito legítimo de suspender a execução do contrato ou rescindir o ajuste caso a administração atrase os pagamentos devidos por período superior a 2 (dois) meses."
   },
   {
     "id": "m11-q-89",
@@ -1597,7 +1641,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença entre Gestão do Contrato e Fiscalização Técnica.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
@@ -1615,11 +1659,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Confundir recebimento provisório com recebimento definitivo e afastar responsabilidade por vícios ocultos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "O recebimento provisório é ato pelo qual o fiscal atesta a entrega do objeto para efeito de posterior verificação de conformidade, não substituindo o recebimento definitivo nem eximindo o contratado da responsabilidade civil por vícios ocultos (art. 140 da Lei nº 14.133/2021)."
   },
   {
     "id": "m11-q-91",
@@ -1633,7 +1678,7 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença de alcance territorial e prazos entre impedimento de licitar e declaração de inidoneidade.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
@@ -1651,11 +1696,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Autoridade competente para aplicar a declaração de inidoneidade.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
-    }
+    },
+    "versao_correta": "A aplicação da penalidade de declaração de inidoneidade para licitar ou contratar é de competência exclusiva de Ministro de Estado, Secretário estadual ou municipal, ou autoridade máxima de grau hierárquico equivalente, sendo indelegável a fiscais de contrato (art. 156 da Lei nº 14.133/2021)."
   },
   {
     "id": "m11-q-93",
@@ -1665,11 +1711,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à Lei de Acesso à Informação (Lei nº 12.527/2011 - LAI) e ao princípio da publicidade, julgue o item a seguir.",
     "item": "Na disciplina da Lei nº 12.527/2011, a publicidade é o preceito geral e o sigilo é a exceção na administração pública, devendo a divulgação de informações de interesse público ser promovida independentemente de solicitações da sociedade (transparência ativa).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a diretriz fundamental do art. 3º, I e II da LAI: publicidade como regra, sigilo como exceção, e fomento contínuo à transparência ativa.",
-    "armadilhaBanca": "Postulado basilar da LAI: publicidade como preceito geral.",
+    "justificativa": "Gabarito CERTO. A Lei de Acesso à Informação (Lei nº 12.527/2011, art. 3º, incisos I e II) positiva como preceitos basilares da ordem republicana a publicidade como regra geral e o sigilo como exceção rigorosamente fundamentada. Impõe a todos os órgãos dos Poderes Executivo, Legislativo e Judiciário da União o dever irrenunciável de transparência ativa mediante a divulgação proativa de dados e atos em portais eletrônicos acessíveis.",
+    "armadilhaBanca": "Assertiva correta: a publicidade é o preceito geral republicano; o sigilo só é admitido quando imprescindível à segurança do Estado ou à intimidade individual.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
@@ -1683,15 +1729,16 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à Lei de Acesso à Informação (Lei nº 12.527/2011 - LAI) e ao princípio da publicidade, julgue o item a seguir.",
     "item": "O cidadão que formula pedido de acesso à informação pelo Serviço de Informação ao Cidadão (SIC) fica obrigado a justificar perante a Administração o motivo pessoal de seu interesse pelo documento público sob pena de indeferimento liminar da solicitação.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme o art. 10, § 3º da LAI, 'são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público'. O acesso é livre e desmotivado.",
+    "justificativa": "Gabarito ERRADO. O art. 10, § 3º da Lei de Acesso à Informação (Lei nº 12.527/2011) veda expressamente 'quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público'. O exercício do direito fundamental de acesso à informação é plenamente desmotivado e livre, sendo ilegal exigir do cidadão justificativa sobre o porquê ou destinação da informação requerida.",
     "armadilhaBanca": "Vedação expressa de exigir motivação para pedidos de acesso na LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Cebraspe"
-    }
+    },
+    "versao_correta": "O cidadão que formula pedido de acesso à informação pelo SIC não é obrigado a justificar ou declarar os motivos determinantes de sua solicitação."
   },
   {
     "id": "m11-q-95",
@@ -1701,11 +1748,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos prazos de resposta e dos graus de sigilo da LAI, julgue o item a seguir.",
     "item": "Não sendo possível conceder o acesso imediato à informação solicitada via SIC, o órgão público dispõe do prazo de até vinte dias para fornecer a resposta, prorrogável justificadamente por mais dez dias.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Conforme o art. 11, §§ 1º e 2º da LAI, o prazo de resposta da transparência passiva é imediato ou de até 20 dias, prorrogável por mais 10 dias mediante justificativa formal.",
-    "armadilhaBanca": "Prazos literais da LAI (20 dias prorrogável por mais 10 dias).",
+    "justificativa": "Gabarito CERTO. Conforme preceitua o art. 11, §§ 1º e 2º da Lei nº 12.527/2011 (LAI), caso não seja viável a concessão de acesso imediato à informação requerida via transparência passiva pelo SIC, o órgão público dispõe do prazo regulamentar ordinário de até vinte dias para prestar as informações solicitadas, prorrogável justificadamente por mais dez dias mediante comunicação formal prévia ao solicitante.",
+    "armadilhaBanca": "Assertiva correta: prazos do SIC na LAI: acesso imediato (regra), 20 dias (regular) e prorrogação justificada de 10 dias (total máximo de 30 dias).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe"
@@ -1719,11 +1766,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos prazos de resposta e dos graus de sigilo da LAI, julgue o item a seguir.",
     "item": "São prazos máximos de restrição de acesso a informações sigilosas conforme a classificação da LAI: grau ultrassecreto (até 25 anos), grau secreto (até 15 anos) e grau reservado (até 5 anos).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da tríade exata do art. 24, § 1º da Lei nº 12.527/2011: Ultrassecreto = 25 anos; Secreto = 15 anos; Reservado = 5 anos.",
-    "armadilhaBanca": "Prazos máximos dos 3 graus de sigilo da LAI.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 24, § 1º da Lei nº 12.527/2011 (LAI), os prazos máximos de restrição de acesso a informações secretas obedecem à escala temporal estrita: Grau Ultrassecreto: prazo de restrição de até vinte e cinco anos; Grau Secreto: prazo de restrição de até quinze anos; e Grau Reservado: prazo de restrição de até cinco anos. Decorrido o prazo legal, a informação torna-se compulsoriamente pública.",
+    "armadilhaBanca": "Assertiva correta: a tríade de prazos de sigilo da LAI é rigorosamente 25 anos (ultrassecreto), 15 anos (secreto) e 5 anos (reservado).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
@@ -1741,11 +1788,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Vedação absoluta de imposição de sigilo em casos de violação de direitos humanos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "Conforme o art. 21, parágrafo único da Lei de Acesso à Informação, informações e documentos que versem sobre condutas que impliquem violação de direitos humanos praticada por agentes públicos não poderão ser objeto de restrição de acesso em nenhuma hipótese."
   },
   {
     "id": "m11-q-98",
@@ -1759,11 +1807,12 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Afirmar que informação pessoal depende de classificação em grau de sigilo (a proteção é automática e ex lege).",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe"
-    }
+    },
+    "versao_correta": "As informações pessoais relativas à intimidade, vida privada, honra e imagem têm restrição de acesso pelo prazo máximo de cem anos por expressa determinação legal (art. 31 da LAI), operando-se a proteção ex lege e independentemente de qualquer classificação em grau de sigilo."
   },
   {
     "id": "m11-q-99",
@@ -1773,11 +1822,11 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD) na Administração Pública, julgue o item a seguir.",
     "item": "O tratamento de dados pessoais por pessoas jurídicas de direito público deve ser realizado para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público, sendo dispensado o consentimento individual do titular nessas hipóteses.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o teor literal do art. 7º, III e art. 23 da LGPD: órgãos públicos tratam dados independentemente de consentimento individual do cidadão para cumprimento de obrigação legal e execução de políticas públicas.",
-    "armadilhaBanca": "Dispensa de consentimento para o tratamento de dados pessoais pelo poder público no exercício de competências legais.",
+    "justificativa": "Gabarito CERTO. Em consonância com o art. 7º, inciso III e art. 23 da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), as pessoas jurídicas de direito público podem realizar o tratamento de dados pessoais independentemente de consentimento individual do titular quando necessário para o cumprimento de obrigação legal ou para a execução de políticas públicas previstas em leis, regulamentos ou contratos administrativos.",
+    "armadilhaBanca": "Assertiva correta: a atuação estatal em políticas públicas legítimas prescinde do consentimento do titular de dados pessoais, desde que atenda à finalidade pública.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe"
@@ -1795,10 +1844,13 @@ export const simuladoAdministrativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar órgãos públicos da obrigatoriedade do Encarregado pelo Tratamento de Dados (DPO).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Técnico - Cebraspe 2026"
-    }
+    },
+    "versao_correta": "Conforme o art. 23, I e art. 41 da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018), os órgãos da administração pública direta de todos os Poderes têm a obrigação de indicar publicamente o Encarregado pelo Tratamento de Dados Pessoais (DPO)."
   }
 ];
+
+export const questoesM11 = simuladoAdministrativo100Q;

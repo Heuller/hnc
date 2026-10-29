@@ -466,6 +466,27 @@ export const CadernoErrosPage: React.FC = () => {
                     </div>
                   )}
 
+                  {/* Como ficaria correto (para itens com gabarito ERRADO) */}
+                  {item.gabarito === 'E' && item.versao_correta && (
+                    <div className="p-3 rounded-lg bg-surface border border-emerald-500/30 text-ink space-y-1">
+                      <div className="flex items-center gap-1.5 font-bold text-xs text-emerald-700 dark:text-emerald-400">
+                        <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                        <span className="uppercase tracking-wider">Como ficaria correto:</span>
+                      </div>
+                      <p className="font-serif-reading text-xs sm:text-sm leading-relaxed m-0 italic text-ink">
+                        "{item.versao_correta}"
+                      </p>
+                    </div>
+                  )}
+
+                  {/* Fonte / Referência Canônica */}
+                  {item.fonte && (
+                    <div className="text-xs text-ink-2 font-mono flex items-center gap-1 pt-0.5">
+                      <span className="font-semibold">Fonte:</span>
+                      <span>{item.fonte}</span>
+                    </div>
+                  )}
+
                   {/* Ação Socrática: Discutir com a Banca Cebraspe (IA) */}
                   <div className="pt-2">
                     <button

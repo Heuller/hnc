@@ -332,6 +332,11 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   <p className="text-xs text-ink m-0 leading-relaxed font-serif">
                     <strong>Fundamentação:</strong> {itemAtual.justificativa}
                   </p>
+                  {itemAtual.gabarito === 'E' && itemAtual.versao_correta && (
+                    <p className="text-xs text-emerald-700 dark:text-emerald-300 m-0 leading-relaxed font-serif italic">
+                      <strong>Como ficaria correto:</strong> "{itemAtual.versao_correta}"
+                    </p>
+                  )}
                 </div>
               )}
 
@@ -494,6 +499,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     respostaUsuario: escolha === 'BRANCO' ? null : (escolha as 'C' | 'E'),
                     justificativa: it.justificativa,
                     armadilhaBanca: it.armadilhaBanca,
+                    versao_correta: it.versao_correta,
                   };
 
                   return (
@@ -553,6 +559,17 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                           {it.justificativa}
                         </p>
                       </div>
+
+                      {it.gabarito === 'E' && it.versao_correta && (
+                        <div className="p-2.5 rounded-lg bg-surface border border-emerald-500/30 text-xs">
+                          <span className="font-bold text-emerald-700 dark:text-emerald-400 block text-xs uppercase mb-1">
+                            Como ficaria correto:
+                          </span>
+                          <p className="text-ink font-serif-reading m-0 italic">
+                            "{it.versao_correta}"
+                          </p>
+                        </div>
+                      )}
 
                       {/* Botão de Diálogo Socrático se o candidato errou */}
                       {acertou === false && (

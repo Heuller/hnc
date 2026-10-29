@@ -13,7 +13,7 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -31,19 +31,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a CDU e a notação Cutter-Sanborn, julgue os itens a seguir.",
     "item": "A notação mais apropriada para representar obras da área de direito em língua inglesa é 34(=20).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TJDFT/2015 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Na Classificação Decimal Universal (CDU), a língua inglesa é representada pelo auxiliar comum de língua =111 (portanto, Direito em língua inglesa seria 34=111). A notação (=20) representa o auxiliar comum de raça/povos de origem anglo-saxônica, e não a língua inglesa.",
+    "armadilhaBanca": "TROCA_DE_TABELA_AUXILIAR: Confundir a tabela de línguas (=...) com a tabela de raça, etnia e nacionalidade (=(...)).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
-        "verificado": true,
-        "provaId": "TJDFT/2015",
-        "ano": 2015,
-        "orgao": "2015",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1142"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2015 / 2015 (Adaptada)",
+      "verificado": true,
+      "provaId": "TJDFT/2015",
+      "ano": 2015,
+      "orgao": "2015",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1142"
+    },
+    "versao_correta": "Na CDU, a especificação de língua de um documento é representada pelo auxiliar comum de língua com sinal de igual, sendo a língua inglesa designada por =111 (34=111), ao passo que os parênteses com igual (=...) indicam auxiliares comuns de raça, ascendência étnica e nacionalidade."
   },
   {
     "id": "m12-q-3",
@@ -57,15 +58,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2356"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2356"
+    }
   },
   {
     "id": "m12-q-4",
@@ -75,21 +76,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. Based on the text, it is correct to conclude that the possibility of threat reduction being successful varies according to the level of determination and to the ability of those posing threats.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O texto afirma que reduzir a ameaça é especialmente difícil diante de atores determinados e capazes, cabendo a redução primária a agências de inteligência e segurança. O parlamento atua na dissuasão (deterrence), influenciando a intenção dos invasores, não decorrendo do texto a conclusão simplificada de que a eficácia varia meramente com o nível de determinação e habilidade.",
+    "armadilhaBanca": "EXTRAPOLACAO_TEXTUAL: Conclusão indutiva simplificada que não reflete a articulação analítica entre ameaça, vulnerabilidade e dissuasão exposta no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2360",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2360",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "According to the text, reducing the threat element is particularly difficult in the case of determined and capable threat actors, while organisations like parliaments primarily contribute to threat reduction through deterrence (influencing intentions) rather than altering actors' abilities."
   },
   {
     "id": "m12-q-5",
@@ -103,15 +105,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2357"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2357"
+    }
   },
   {
     "id": "m12-q-6",
@@ -121,16 +123,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O autor afirma textualmente: \"She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic.\" Ele expressa elogio categórico às habilidades de direção da esposa (\"excellent driver\"), e não deboche ou ironia.",
+    "armadilhaBanca": "INVERSAO_TEXTUAL: Dizer que o autor zomba da habilidade da esposa quando o texto afirma expressamente que ela é uma excelente motorista.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2364",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2364",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "The author explicitly praises his wife as an \"excellent driver\", rather than mocking her driving skills, noting that he takes on the parking duty out of a sense of fatherly and stoic responsibility."
   },
   {
     "id": "m12-q-7",
@@ -144,15 +147,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2361"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2361"
+    }
   },
   {
     "id": "m12-q-8",
@@ -162,19 +165,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. One group of volunteers was subjected to manual examination while the other had an antigen test.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto indica que metade dos voluntários foi alocada no grupo de triagem (screening group), recebendo exame manual OU teste PSA a cada ano. O outro grupo (usual-care group) não recebeu triagem nem orientação sistemática. O item erra ao afirmar que um grupo fez exame manual e o outro fez o teste de antígeno.",
+    "armadilhaBanca": "DIVISAO_INCORRETA_DE_GRUPOS: Dividir os dois tipos de exames entre dois grupos distintos, quando ambos integravam o mesmo grupo de triagem.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2365"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2365"
+    },
+    "versao_correta": "In the study, volunteers in the screening group received either a manual examination or a prostate-specific antigen test, while participants in the control group received no screening guidance (usual care)."
   },
   {
     "id": "m12-q-9",
@@ -182,23 +186,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Substituição de Palavras e Reescrita de Frases (Inglês) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. The fragment of a sentence “greater latitude to exercise discretion” (second sentence of the second paragraph) can be, without this changing the original meaning of the text, replaced with greater possibilities to be discreet.",
+    "item": "The fragment \"greater latitude to exercise discretion\" (second sentence of the second paragraph) refers to the drafter having greater leeway or scope to make professional judgment calls during the legislative drafting process.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. No artigo de David Marcello (\"The Ethics and Politics of Legislative Drafting\"), a expressão \"greater latitude to exercise discretion\" refere-se à margem de liberdade (latitude) e autonomia discricionária (discretion) que o redator legislativo obtém para tomar decisões substantivas de política e redação quando o cliente/parlamentar define apenas diretrizes gerais.",
+    "armadilhaBanca": "Assertiva correta: apreensão precisa do sentido contextual de \"latitude\" (margem de escolha) e \"discretion\" (poder discricionário do redator).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2370",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2370",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-10",
@@ -208,19 +212,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. According to the text, the limitations imposed on police work in democratic societies are motivated by the fact that the use of arms almost never happens.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. As limitações ao trabalho policial em democracias decorrem da necessidade de preservar os direitos fundamentais, prevenir abusos e construir laços de confiança comunitária, e não do fato de o uso de armas quase nunca ocorrer.",
+    "armadilhaBanca": "FALSA_CAUSALIDADE: Estabelecer uma relação de causa e efeito inexistente no texto entre a raridade do uso de armas e a limitação do papel policial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2366"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2366"
+    },
+    "versao_correta": "In democratic societies, police roles are circumscribed to protect citizen rights and foster trust and positive community relationships, rather than being motivated by the infrequency of armed engagement."
   },
   {
     "id": "m12-q-11",
@@ -230,16 +235,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"), totalizando a dinâmica familiar descrita no episódio. Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (expressão idiomática: causa desespero emocional).",
+    "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2371",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-12",
@@ -249,19 +254,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. For the author, parking in New York is an occasion of great suspense because it is always a terrible experience.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O autor ressalta expressamente que estacionar em Nova York não é sempre terrível: \"Most of the time it is joyous... Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense.\" O suspense decorre do equilíbrio entre momentos alegres e terríveis.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: O uso da palavra \"always\" contradiz a declaração expressa do autor de que na maior parte das vezes é prazeroso.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2367"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2367"
+    },
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "m12-q-13",
@@ -271,16 +277,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2373",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Moneyland (adaptado) / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2373",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-14",
@@ -290,16 +296,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. By using the expressions “‘advocacy’ role” (second sentence of the second paragraph) and “advocacy agenda” (forth sentence of the third paragraph), the author is referring specifically to people who have a degree in law and work in the legislative branch.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. No texto, \"advocacy role\" e \"advocacy agenda\" referem-se à defesa de posições substantivas e diretrizes de políticas públicas por redatores legislativos no exercício de sua discricionariedade técnica, não se restringindo especificamente a profissionais com diploma de Direito.",
+    "armadilhaBanca": "RESTRICAO_INDEVIDA: Restringir a expressão contextual \"advocacy\" à formação acadêmica em Direito.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2368",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2368",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
+    },
+    "versao_correta": "The terms \"advocacy role\" and \"advocacy agenda\" in the text refer to the active policy-shaping influence and personal discretion exercised by legislative drafters, rather than referring specifically to individuals with law degrees."
   },
   {
     "id": "m12-q-15",
@@ -309,16 +316,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados édico/Neurologia/2012.",
+    "justificativa": "Gabarito CERTO. O texto pondera expressamente no quinto parágrafo: \"The concept of fining kids for skipping school may come as a shock, but it’s not new\". A banca avalia a compreensão do impacto da notícia sobre a opinião pública, destacando que medidas punitivas monetárias geram choque e surpresa (\"may come as a shock\"), apesar de antecedentes em Ohio e Los Angeles. Vocabulário essencial: \"truant / truancy\" (aluno faltoso / evasão escolar).",
+    "armadilhaBanca": "INFERÊNCIA COM VOCABULÁRIO IDIOMÁTICO: O emprego da expressão \"play truant\" como correspondente exato de \"skipping school\" e \"habitual truancy\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2374",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2374",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-16",
@@ -328,19 +335,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. In the excerpt “threat actors differ enormously in their intentions and capabilities, which also change over time”, “which” refers to “threat actors”.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Na oração \"threat actors differ enormously in their intentions and capabilities, which also change over time\", o pronome relativo \"which\" retoma o sintagma nominal antecedente imediato \"their intentions and capabilities\" (que mudam ao longo do tempo), e não o sujeito humano \"threat actors\" (o que exigiria o pronome relativo \"who\").",
+    "armadilhaBanca": "REFERENCIA_PRONOMINAL_INCORRETA: Atribuir o pronome \"which\" a agentes/pessoas em vez de atributos abstratos antecedentes.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2372"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2372"
+    },
+    "versao_correta": "In the cited sentence, the relative pronoun \"which\" refers back to \"their intentions and capabilities\", whereas referring to the persons or entities (\"threat actors\") would require a personal relative pronoun such as \"who\"."
   },
   {
     "id": "m12-q-17",
@@ -354,15 +362,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2384"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2384"
+    }
   },
   {
     "id": "m12-q-18",
@@ -372,16 +380,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The institute that conducted the research cannot be considered traditional since it is relatively new.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto menciona o National Cancer Institute como a entidade que conduziu o estudo de dez anos, inexistindo qualquer afirmação no excerto de que se trate de instituto recente ou não tradicional.",
+    "armadilhaBanca": "INFORMACAO_EXTRITEXTUAL: Inserir assertiva depreciativa sobre a antiguidade do instituto sem respaldo no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2375",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2375",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "The National Cancer Institute is a long-standing, historic scientific institution, and the text provides no statement claiming that it is relatively new or non-traditional."
   },
   {
     "id": "m12-q-19",
@@ -389,23 +398,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The author points to a discontinuity in the history of financial bookkeeping from the end of the 15th century to the 18th century.",
+    "item": "According to the text, the historical development of auditing and bookkeeping can be traced through European history, including the emergence of double-entry bookkeeping in the late 15th century and prominent fraud cases in the 18th century.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto apresenta uma perspectiva histórica contínua da evolução das práticas de controle e contabilidade, citando a formalização das partidas dobradas por volta de 1494 d.C. e os casos célebres de fraude financeira do século XVIII na Europa (como o escândalo dos mares do Sul e a crise das tulipas) como motivadores do controle interno.",
+    "armadilhaBanca": "Assertiva correta: compreensão da linha do tempo evolutiva da auditoria e escrituração contábil europeia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2386",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-20",
@@ -415,19 +424,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item concerning the previous text. When conducting his survey, the author met an older drafter who did not want to change the way he worked with bills and red pencils.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O autor presenciou o redator mais velho irritado com o Word durante seus nove anos de trabalho cotidiano na Assembleia Legislativa de Massachusetts (\"I spent 9 years working with legislators... I also saw an older legislative drafter become befuddled and angry...\"), e não no momento da aplicação do questionário de pesquisa.",
+    "armadilhaBanca": "CONFUSAO_CRONOLOGICA: Atribuir a observação vivenciada ao período da pesquisa em vez da experiência profissional prévia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2376"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2376"
+    },
+    "versao_correta": "The author observed the older legislative drafter who resisted software track changes during his nine years working with the Massachusetts Legislature, rather than during the subsequent survey."
   },
   {
     "id": "m12-q-21",
@@ -437,16 +447,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. No contexto das medidas contra a evasão escolar, o texto examina os precedentes de coerção jurídica nos Estados Unidos (\"In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time...\"). Vocabulário essencial para retenção ativa: \"sentenced to jail time\" (condenado à pena de prisão), \"skipped classes\" (matou/faltou às aulas).",
+    "armadilhaBanca": "INTERPRETAÇÃO HISTÓRICA DO ABSENTEÍSMO: Apreensão de medidas coercitivas e criminais reportadas pelo texto no sistema educacional dos EUA.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2387",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2387",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-22",
@@ -456,16 +466,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto afirma que estacionar o carro em Nova York leva ao êxtase ou dilacera o coração, sendo uma continuação natural da vida em família, e não que a vida familiar em si se assemelhe a estacionar.",
+    "armadilhaBanca": "INVERSAO_CONCEITUAL: Inverter a relação metafórica apresentada na crônica.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2378",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2378",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking."
   },
   {
     "id": "m12-q-23",
@@ -473,23 +484,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Shining a light on the auditors Every financial meltdown prompts a hunt for scapegoats. In the wake of the most recent one, calls to reform accounting have grown particularly loud, and action is on the way. In the coming months both America and the European Union are expected to introduce new rules aimed at enhancing auditors’ independence. But for all the heated debate over the changes, any improvement is likely to be modest. America’s bean-counters were effectively self-regulating until 2002. That year, following a wave of accounting scandals, Congress passed the Sarbanes-Oxley act to reform corporate governance. It limited the consulting work firms could do for their audit clients and set up a new regulator, the Public Company Accounting Oversight Board. At a meeting on December 4th it outlined three policies it expects toimplement by the end of 2014. One aims to make audit reports more useful by requiring a section highlighting “critical audit matters” — the high-stakes judgment calls that keep accountants up at night, such as how the business being audited has valued its intangible assets. Another would cut the share of an audit that accounting firms can outsource without disclosure from 20% to 5%. Such information is valuable in emerging markets, where local accountants vary widely in quality. The most controversial reform would identify by name the lead partner responsible for each audit. Although identifying partners does not increase their legal liability, it does put their reputation on the line. This seems to make accountants more cautious. The Economist, December 7th 2013, p. 68 (adapted). Judge the item below, based on the text above. The idea expressed in the second paragraph can be correctly explained by the following sentence: In 2002 a draft bill was voted by the American Congress proposing the setting of enhanced standard for all US state-owned-company boards, management and public accounting firms.",
+    "item": "According to the second paragraph, the Sarbanes-Oxley Act passed by the US Congress in 2002 established stricter corporate governance standards, limited consulting services by audit firms for audit clients, and created the Public Company Accounting Oversight Board.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O segundo parágrafo do texto descreve os marcos centrais da Lei Sarbanes-Oxley (SOX de 2002): instituição de novas exigências de governança corporativa após escândalos contábeis, vedação a consultorias cruzadas e instituição do órgão regulador de auditoria independente (PCAOB).",
+    "armadilhaBanca": "Assertiva correta: identificação exata dos três pilares da reforma regulatória corporativa promovida pela Lei Sarbanes-Oxley de 2002.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2388",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2388",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-24",
@@ -499,21 +510,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item concerning the previous text. The negative way some legislators reacted to technology sometimes scared the author of the text.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O texto qualifica a abordagem dos parlamentares à tecnologia como por vezes assustadora do ponto de vista do processo institucional (\"at times comical―at times frightening\"), relatando que o autor e seus amigos reagiam com risadas e diversão (\"watched on―and laughed\"), sem que o autor tenha ficado pessoalmente aterrorizado.",
+    "armadilhaBanca": "INTERPRETACAO_LITERAL_EXAGERADA: Converter a expressão retórica \"at times frightening\" em medo pessoal real do autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2380",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2380",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The author describes the legislators' awkward approach to technology as \"at times comical―at times frightening\" in its institutional implications, while noting that he and his colleagues reacted primarily with amusement and laughter (\"watched on―and laughed\")."
   },
   {
     "id": "m12-q-25",
@@ -527,15 +539,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2390"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2390"
+    }
   },
   {
     "id": "m12-q-26",
@@ -545,19 +557,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. Alignment between business and IT has always been related to examining the fit between business needs and information system priorities.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto aponta que o alinhamento teve múltiplas perspectivas ao longo do tempo (vincular planos, garantir congruência de estratégias, avaliar ajuste às prioridades), evidenciando que a análise de ajuste de prioridades foi apenas uma entre várias abordagens, e não a única ou constante em todas as épocas.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: O termo \"always\" ignora as etapas anteriores de conceitualização do alinhamento descritas no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2381"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2381"
+    },
+    "versao_correta": "Examining the fit between business needs and IT priorities was only one of several distinct conceptual perspectives that evolved over time, rather than alignment having always been defined solely by this criterion."
   },
   {
     "id": "m12-q-27",
@@ -565,23 +578,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The article indicates that imaging to detect prostate cancer is blurred and therefore not reliable.",
+    "item": "According to the article, the overall evidence regarding the net balance of benefits and harms of prostate-cancer screening is complex and uncertain, leading health task forces to caution against routine screening in older men.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto aponta que o quadro clínico da triagem do câncer de próstata é controverso (\"the picture is a little fuzzier\"), uma vez que grandes estudos demonstraram que a detecção precoce nem sempre diminui a taxa de mortalidade, justificando a recomendação contra o rastreamento em homens com 75 anos ou mais.",
+    "armadilhaBanca": "Assertiva correta: leitura analítica fidedigna das conclusões da força-tarefa de saúde pública dos EUA (USPSTF).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2391",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2391",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-28",
@@ -591,16 +604,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The word “allay” is used as a verb and it means reduce or ease.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O verbo \"allay\" significa acalmar, dissipar, abrandar ou mitigar preocupações, suspeitas ou temores. A banca Cebraspe considerou o item incorreto por imprecisão contextual ou restrição de sentido ao propor substituição simplista.",
+    "armadilhaBanca": "NUANCE_SEMANTICA: Desconsiderar a precisão semântica de \"allay\" no contexto de controle contábil histórico.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2382",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2382",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety."
   },
   {
     "id": "m12-q-29",
@@ -610,16 +624,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ólogo/2012.",
+    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2371",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-30",
@@ -629,21 +643,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The couple’s feelings as they get near home are expressed as a struggle between hope and discouragement.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O texto descreve os sentimentos do casal como uma batalha entre esperança e desespero (\"battling despair as the alternative scenario\"). A palavra \"despair\" (desespero agudo) não se confunde com \"discouragement\" (mero desânimo ou desalento moderado).",
+    "armadilhaBanca": "ATENUACAO_SEMANTICA: Substituir o termo de alta intensidade \"despair\" por \"discouragement\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2383",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The text explicitly describes the couple's emotional state as a battle between hope and \"despair\" (desespero), which conveys profound distress rather than mere \"discouragement\" (desânimo)."
   },
   {
     "id": "m12-q-31",
@@ -657,15 +672,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2395"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2395"
+    }
   },
   {
     "id": "m12-q-32",
@@ -675,19 +690,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. For the author, parking in New York is an occasion of great suspense because it is always a terrible experience.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O autor salienta que estacionar na cidade é uma experiência equilibrada entre alegria (\"joyous\") e sofrimento (\"terrible\"), sendo inverídico afirmar que se trata invariavelmente de uma experiência terrível (\"always a terrible experience\").",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: A palavra \"always\" desconsidera os momentos alegres de sucesso descritos pelo narrador.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2367"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2367"
+    },
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "m12-q-33",
@@ -697,16 +713,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Technology Legislation Technology-related legislation can have a huge impact on growing businesses, and some interesting issues are likely to pop up with the new Congress of the United States this year. Of great interest to growing businesses are the topics of data protection and net neutrality. Laws that lay out more stringent requirements for retaining and protecting employee and customer data could be on the horizon. \"The laws that apply to big business are going to trickle down to small business,\" says Ann Westerheim, founder and president of technology consulting firm Ekaru. \"Businesses need to have that on their radar. You don't want to get hit with a fine because you're not complying.\" She suggests looking at laws like Sarbanes-Oxley to get an idea of where new tech laws could be heading. The good news is that proper data protection is something businesses should be doing anyway. \"A lot of the measures required to protect employee and customer data are just good business practices,\" says Westerheim. Growing businesses can head off potential compliance costs by gradually shoring up their IT security and data protection now. Net neutrality is likely to be a hot issue again after stalling in the Senate last year. Net neutrality proponents want regulations to prevent network providers from prioritizing certain Internet traffic. \"Net neutrality is a big issue for small businesses,\" says Westerheim. A net neutrality law stands a better chance of passing with strong Democratic backing this year, but it figures to be a hard-fought battle. Digital copyright issues could also come to the fore in Congress. With the changes brought about by the last election, it will be an interesting year for entrepreneurs to keep an eye on the goings-on in Washington. Internet: <www.microsoft.com>. Judge the following item according to the text above. The Senate has voted to retain net neutrality regulations.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ção e Logística/2012.",
+    "justificativa": "Gabarito CERTO. No texto \"Technology Legislation\", discute-se o embate no Congresso norte-americano referente à neutralidade de rede (\"net neutrality regulations\"), matéria em que o Senado manteve a regulamentação sob apreciação prioritária com o apoio democrata. Vocabulário técnico-legislativo: \"net neutrality\" (neutralidade de rede), \"stringent requirements\" (requisitos rigorosos), \"compliance costs\" (custos de conformidade legal).",
+    "armadilhaBanca": "INTERPRETAÇÃO DE TEXTO LEGISLATIVO EM INGLÊS: Terminologia do processo legislativo norte-americano e regulação do tráfego na Internet.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2397",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Microsoft Executive Text / Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2397",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-34",
@@ -716,16 +732,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because itssuperintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto afirma com clareza que os pais é que foram sentenciados à prisão: \"In the past, parents have been sentenced to jail time for failing to get their children to school.\" Os alunos faltosos eram punidos com multas ou serviços comunitários, e não com cadeia.",
+    "armadilhaBanca": "TROCA_DE_SUJEITO: Atribuir a pena de prisão aos estudantes em vez de aos pais ou responsáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2392",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2392",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "According to the text, parents—not students—were sentenced to jail time in the past for failing to ensure their children attended school."
   },
   {
     "id": "m12-q-35",
@@ -733,23 +750,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "13) 44) 30) 42) Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item concerning the previous text. In his text, the author shows his skepticism about the use of technology in the legislative process.",
+    "item": "13) 44) 30) 42) Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item, according to the text above. In his text, the author illustrates, through personal anecdotes, how staff and legislators in the Massachusetts Legislature initially reacted with hesitation, resistance, or confusion to the introduction of technology tools.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O autor compartilha episódios de sua trajetória no Parlamento de Massachusetts, narrando o espanto e a resistência inicial de parlamentares e assessores seniores diante da introdução de notebooks e do recurso \"controlar alterações\" do processador de textos.",
+    "armadilhaBanca": "Assertiva correta: síntese interpretativa precisa da narrativa anedótica apresentada pelo autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2398",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2398",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-36",
@@ -759,19 +776,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. Although more people died from prostate cancer in the usual-care group, the difference was not substantial enough to indicate the importance of screening for men younger than 75.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O item inverte os dados numéricos do estudo: faleceram 50 homens no grupo de triagem (screening group) e 44 homens no grupo de controle sem triagem (usual-care group). Portanto, não morreram mais pessoas no grupo de cuidado habitual.",
+    "armadilhaBanca": "INVERSAO_DE_DADOS_NUMERICOS: Inverter a quantidade de óbitos entre o grupo de triagem e o grupo de controle.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2394"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2394"
+    },
+    "versao_correta": "According to the text, more men died from prostate cancer in the screening group (50) than in the usual-care group (44), contrary to the claim that more died in the usual-care group."
   },
   {
     "id": "m12-q-37",
@@ -779,23 +797,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The couple was sad because the baby was asleep and therefore could not enjoy the beautiful sunset.",
+    "item": "According to the passage, the narrator portrays the search for parking in New York City as an emotionally intense routine that directly impacts evening family schedules and bedtime logistics.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O narrador enfatiza que encontrar vaga em Nova York é uma experiência repleta de suspense (\"an occasion of great suspense\") que oscila entre a euforia e o desespero, condicionando diretamente o cumprimento dos horários de banho e descanso das crianças.",
+    "armadilhaBanca": "Assertiva correta: compreensão integral da tese e do tom bem-humorado da crônica cotidiana.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2402",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2402",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-38",
@@ -805,16 +823,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. A student in Los Angeles may be fined $ 250 for each day he skips classes.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto aponta expressamente que a multa de $ 250 vigorava até recentemente (\"Until recently... in early 2012 the law was amended and the expensive fines were removed\"), subsistindo apenas uma multa de $ 20 para a terceira reincidência.",
+    "armadilhaBanca": "ANACRONISMO_TEXTUAL: Afirmar que a penalidade de $ 250 continua em vigor quando o texto diz expressamente que ela foi revogada.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2396",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2396",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "In Los Angeles, the $250 fine was abolished in early 2012 when the law was amended, leaving only a potential $20 penalty for a third truancy offense."
   },
   {
     "id": "m12-q-39",
@@ -824,15 +843,14 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 49) 61) 41) Based on the text above, judge the following item. The author believes his wife’s option to go home with the kids or stay in the car and help him find a spot is a difficult choice.",
     "gabarito": "C",
-    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ólogo/2012.",
+    "justificativa": "Gabarito CERTO. O texto expressa claramente que a escolha de acompanhar o marido na busca por vaga ou ficar em casa é difícil para a esposa: \"I asked her the usual question, like the riddle of the Sphinx: 'Do you want to get out with the kids or do you want to drive around with me looking for a spot?' She doesn't find this choice easy. I don't blame her.\"",
+    "armadilhaBanca": "Assertiva tecnicamente correta: o próprio autor compara a pergunta ao 'enigma da Esfinge' e reconhece explicitamente que a escolha não é fácil.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Museólogo/2012 (Cebraspe)",
       "revisar": true
     }
   },
@@ -844,16 +862,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Nowadays in LA students may be fined if they skip classes more than twice.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A lei modificada em Los Angeles estabelece que a penalidade de $ 20 pode ser aplicada especificamente na terceira infração (\"for the third offense\"), e não de forma irrestrita a qualquer falta após duas faltas.",
+    "armadilhaBanca": "DISTORCAO_DA_CONDICAO: Alterar a condição regrada (\"for the third offense\") para fórmula genérica.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2399",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2399",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "Under the amended Los Angeles law, a $20 penalty may be handed out specifically upon the third offense itself, rather than applying generally to any absence occurring after skipping classes more than twice."
   },
   {
     "id": "m12-q-41",
@@ -867,15 +886,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2409"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2409"
+    }
   },
   {
     "id": "m12-q-42",
@@ -885,19 +904,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Privacy groups and lawmakers are calling for a new and broader investigation into Google and its privacy practices after the U.S. Federal Communications Commission (FCC) announced that it found no evidence that the company broke eavesdropping laws. Late last week, the FCC reported that there was no legal precedent to find fault with Google collecting unprotected home Wi-Fi data, such as personal email, passwords and search histories, with its roaming Street View cars between 2007 and 2010. However, the FCC did fine Google $ 25,000 for obstructing its investigation. The Electronic Privacy Information Center (EPIC), a national privacy watchdog, disagreed with the FCC findings. In a letter sent to U.S. Attorney General Eric Holder today, EPIC asked that the Department of Justice investigate Google's surreptitious collecting of Wi-Fi data from residential networks. U.S. Rep. Edward J. Markey, a senior member of the U.S. House Energy and Commerce Committee, has also stepped into the fray. \"The circumstances surrounding Google's siphoning of personal information leave many unanswered questions,\" Markey said today in an email to Computerworld. \"I believe Congress should immediately hold a hearing to get to the bottom of this serious situation.\" Internet: <www.computerworld.com> (adapted). Based on the text above it can be said that States' eavesdropping laws have been declared unconstitutional.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto relata que a FCC não encontrou precedentes jurídicos para responsabilizar a Google com base nas leis de escuta e espionagem (\"eavesdropping laws\"). Em momento algum o texto afirma que leis estaduais foram declaradas inconstitucionais pelo Judiciário.",
+    "armadilhaBanca": "EXTRAPOLACAO_JURIDICA: Inventar declaração de inconstitucionalidade que não consta no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2400"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2400"
+    },
+    "versao_correta": "The text reports that the FCC found no legal precedent to fault Google under existing eavesdropping statutes, and does not state that state eavesdropping laws were declared unconstitutional."
   },
   {
     "id": "m12-q-43",
@@ -911,15 +931,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2410"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2410"
+    }
   },
   {
     "id": "m12-q-44",
@@ -929,21 +949,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope 32) 88) 21) that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author believes his wife’s option to go home with the kids or stay in the car and help him find a spot is a difficult choice.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. A decisão difícil da esposa é encarar o desafio doméstico desgastante de subir com o bebê dormindo e dar banho nas duas crianças com sono ou continuar rodando no carro, e não simplesmente ajudar o marido a localizar uma vaga.",
+    "armadilhaBanca": "DESCRICAO_REDUZIDA_DO_DILEMA: Descrever a escolha como mero auxílio para procurar vaga de estacionamento.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2401",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Registro e Redação/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2401",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "In the text, the wife's difficult dilemma is whether to get out and manage the arduous task of bathing and putting two exhausted children to bed or stay in the car, rather than merely helping her husband search for a parking spot."
   },
   {
     "id": "m12-q-45",
@@ -957,15 +978,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2412"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2412"
+    }
   },
   {
     "id": "m12-q-46",
@@ -975,19 +996,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Shining a light on the auditors Every financial meltdown prompts a hunt for scapegoats. In the wake of the most recent one, calls to reform accounting have grown particularly loud, and action is on the way. In the coming months both America and the European Union are expected to introduce new rules aimed at enhancing auditors’ independence. But for all the heated debate over the changes, any improvement is likely to be modest. America’s bean-counters were effectively self-regulating until 2002. That year, following a wave of accounting scandals, Congress passed the Sarbanes-Oxley act to reform corporate governance. It limited the consulting work firms could do for their audit clients and set up a new regulator, the Public Company Accounting Oversight Board. At a meeting on December 4th it outlined three policies it expects toimplement by the end of 2014. One aims to make audit reports more useful by requiring a section highlighting “critical audit matters” — the high-stakes judgment calls that keep accountants up at night, such as how the business being audited has valued its intangible assets. Another would cut the share of an audit that accounting firms can outsource without disclosure from 20% to 5%. Such information is valuable in emerging markets, where local accountants vary widely in quality. The most controversial reform would identify by name the lead partner responsible for each audit. Although identifying partners does not increase their legal liability, it does put their reputation on the line. This seems to make accountants more cautious. The Economist, December 7th 2013, p. 68 (adapted). 70) 85) 31) Judge the item below, based on the text above. According to the text, Congress’ underlying motivation to pass the Sarbanes-Oxley act was its indignation over the shameful behaviour of some corporations in early 21st century.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto analisa a aprovação da Lei Sarbanes-Oxley como decorrência da pressão política e do clamor por reformas após escândalos contábeis (\"hunt for scapegoats\"), e não como manifestação sublime de pura indignação moral do Parlamento.",
+    "armadilhaBanca": "ATRIBUICAO_DE_SENTIMENTO_POLITICO: Qualificar a motivação legislativa como indignação ética em vez de reação institucional a crises.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2404"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2404"
+    },
+    "versao_correta": "The text presents the passage of the Sarbanes-Oxley Act as a political response driven by corporate collapses and regulatory pressures rather than purely moral indignation over corporate misconduct."
   },
   {
     "id": "m12-q-47",
@@ -995,17 +1017,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). 1) 93) 4) Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
+    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author does not mock his wife's driving skills, but rather praises her by describing her as an excellent driver.",
     "gabarito": "C",
-    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. O autor elogia expressamente a perícia da esposa na condução do veículo (\"She is an excellent driver\"). O fato de ele assumir a busca pela vaga decorre de uma visão pessoal do papel paterno e estoico, e não de qualquer suposta inabilidade dela ao volante.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: o texto elogia a habilidade da esposa (\"She is an excellent driver\"), refutando a ideia de deboche ou crítica à sua condução.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
       "revisar": true
     }
   },
@@ -1017,19 +1038,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Conjunções e Conectivos (Conjuctions e Linking Words) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. In the second paragraph, both “Given that”, in “Given that risk is a product of threat”, and “to the effect that”, in “can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures” can be respectively replaced with Because and because without this changing the original meaning of the text.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. \"Given that\" possui valor causal e admite substituição por \"Because\". No entanto, a locução \"to the effect that\" significa \"com o sentido/teor de que\", introduzindo o conteúdo da mensagem, não podendo ser substituída pela conjunção causal \"because\".",
+    "armadilhaBanca": "SUBSTITUICAO_GRAMATICAL_INVALIDA: Tratar \"to the effect that\" como conectivo de causa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2405"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2405"
+    },
+    "versao_correta": "While \"Given that\" expresses causality and can be replaced with \"Because\", the phrase \"to the effect that\" introduces the substantive content of the message (\"with the meaning that\") and cannot grammatically or semantically be replaced with \"because\"."
   },
   {
     "id": "m12-q-49",
@@ -1043,15 +1065,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2414"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2414"
+    }
   },
   {
     "id": "m12-q-50",
@@ -1061,21 +1083,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) A compelling case can be made for mandatory audit rotation that auditors who keep the same client for too long get excessively cosy with its management. As somebody has put it, “When the same incumbent firm has been in place for 100 years, to me that’s not an audit, that’s a joint venture.” Most academic studies have either found no link between the length of a relationship and its quality, or determined that longer tenures yield better results, because the accountants have time to master the intricacies of clients’ businesses. Obliging companies to solicit bids at regular intervals, as Britain does, has shaken up the business: HSBC said in August that it will drop KPMG in favour of PwC; on December 2nd Unilever announced that it is making the opposite switch. Indeed, the big accounting firms argue that forced rotation would reduce competition by preventing the incumbent from bidding. Proponents counter that the accounting giants, and academics whose research is often financed by them, have good reason to resist change. Among the reform’s strongest supporters are smaller firms that hope to break the Big Four’s stranglehold. Yet even the most vocal advocates of mandatory rotation concede that it is no magic bullet. Auditors have a conflict of interest at the heart of their business — they are paid by the companies they are supposed to assess objectively. Unless that changes, there will be no substitute for investors doing their own due diligence. Idem (adapted). Judge the following item, according to the text above. In “to me that’s not an audit, that’s a joint venture”, the word “that” refers to the situation mentioned before, that is, the same auditing firm being responsible for a client for too long a period of time.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O pronome demonstrativo \"that\" refere-se expressamente à hipótese extrema de uma empresa de auditoria permanecer prestando serviços para o mesmo cliente por 100 anos (\"When an audit firm has been in place for 100 years, to me that's not an audit...\"), e não a uma definição genérica de tempo.",
+    "armadilhaBanca": "GENERALIZACAO_DA_REFERENCIA: Generalizar a referência específica e hiperbólica de 100 anos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2406",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2406",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "In the cited passage, \"that\" refers specifically to the extreme scenario of an audit firm remaining in place for a century (100 years), which the speaker compares hyperbolically to a joint venture."
   },
   {
     "id": "m12-q-51",
@@ -1089,15 +1112,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2416"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2416"
+    }
   },
   {
     "id": "m12-q-52",
@@ -1107,17 +1130,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O artigo identifica duas abordagens gerais (incentivos positivos e penalidades), mas elenca diversas medidas práticas no interior de cada abordagem (iPads, tênis, vales-presente, prisão de pais, multas financeiras e trabalho comunitário), não se restringindo a duas formas únicas de solução.",
+    "armadilhaBanca": "CONFUSAO_ENTRE_ABORDAGEM_E_METODO: Confundir as duas vertentes estratégicas gerais com a multiplicidade de instrumentos práticos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 (Cebraspe)",
       "revisar": true
-    }
+    },
+    "versao_correta": "While the text outlines two broad philosophical approaches (incentives versus penalties), it details multiple distinct punitive and motivational mechanisms (fines, jail time, gift cards, community service), rather than limiting solutions to two singular methods."
   },
   {
     "id": "m12-q-53",
@@ -1125,23 +1148,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 14) 82) 40) 12) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. The main point of the text is to reveal how drafters can deliberately manipulate the drafting process according to their own interests.",
+    "item": "The text emphasizes that legislative drafting is far from a purely technical, value-neutral enterprise, as drafters are continually required to exercise personal and policy judgment that actively shapes the resulting legislation.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. A tese central do texto estabelece que a relação entre o redator e a proposição legislativa transcende um exercício meramente técnico ou neutro, envolvendo julgamentos políticos e éticos inerentes à elaboração da lei.",
+    "armadilhaBanca": "Assertiva correta: apreensão da ideia-chave defendida pelo jurista David Marcello acerca da ética na redação de leis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2417",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2417",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-54",
@@ -1151,21 +1174,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. In “But this is not to paint too malevolent a portrait” (first sentence of the third paragraph), “this” does not refer to a specific previous word, but to the entire statement made in the second paragraph.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O pronome \"this\" na oração \"But this is not to paint too malevolent a portrait...\" retoma a crítica imediata anterior sobre a possibilidade de o redator desviar-se das determinações do cliente, e não o parágrafo inteiro de forma indiscriminada.",
+    "armadilhaBanca": "AMPLIACAO_INDEVIDA_DO_ESCOPO_ANAFORICO: Expandir o escopo do pronome para o parágrafo integral.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2411",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2411",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The demonstrative pronoun \"this\" refers specifically to the preceding characterization of drafters potentially sidestepping client instructions, serving to qualify and soften that specific criticism."
   },
   {
     "id": "m12-q-55",
@@ -1173,23 +1197,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. The passage “some combination thereof”, in “reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof)”, necessarily indicates a combination of the two last factors mentioned: vulnerability reduction and impact reduction.",
+    "item": "According to the passage, reducing security risk can be achieved through three fundamental avenues: reducing the threat, reducing the vulnerability, or reducing the impact, as well as through combined strategies involving these factors.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto formula a equação de segurança de forma precisa: o risco é resultado de ameaça, vulnerabilidade e impacto, de modo que sua mitigação passa pela intervenção sobre qualquer desses três vetores ou pela combinação mútua entre eles.",
+    "armadilhaBanca": "Assertiva correta: interpretação rigorosa da fórmula conceitual de gestão de riscos de segurança parlamentar.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2418",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2418",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-56",
@@ -1199,16 +1223,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. The text leads to the conclusion that alignment is not always desirable.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto sustenta categoricamente que o alinhamento estratégico entre negócios e tecnologia da informação é sempre vantajoso e desejável, comprovando empiricamente que empresas alinhadas superam o desempenho daquelas que não se alinham.",
+    "armadilhaBanca": "INVERSAO_DA_CONCLUSAO: Sugerir que o alinhamento não seja desejável quando o texto aponta exatamente o oposto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2419",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2419",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "The text consistently emphasizes that business-IT alignment is uniformly beneficial and desirable, showing that aligned organizations systematically outperform those that fail to align."
   },
   {
     "id": "m12-q-57",
@@ -1222,15 +1247,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2420"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2420"
+    }
   },
   {
     "id": "m12-q-58",
@@ -1240,19 +1265,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. Researchers and business practitioners alike should tie decisions on hardware and software to corporate strategies.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto aponta que vincular decisões de hardware e software aos planos institucionais era uma necessidade prática dos gestores de TI corporativos (\"From an IT perspective... was a practical necessity\"), e não uma prescrição voltada indistintamente a pesquisadores acadêmicos.",
+    "armadilhaBanca": "EXTENSAO_DO_SUJEITO: Estender uma diretriz prática dos gestores de TI aos pesquisadores acadêmicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2423"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2423"
+    },
+    "versao_correta": "The text identifies the alignment of hardware and software decisions with organizational plans as a practical operational concern for IT managers, rather than a prescriptive duty for academic researchers."
   },
   {
     "id": "m12-q-59",
@@ -1260,23 +1286,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. ¬ → 73) 87) 59) By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. It is correct to infer from the first paragraph of the text that investigating common crimes committed against citizens is not part of the police’s duties in autocratic nations.",
+    "item": "According to the first paragraph of the text, in autocratic regimes the primary function of the police is to protect the regime itself rather than citizens, with appointments tied to patronage and a focus on monitoring political opposition.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O primeiro parágrafo contrasta os modelos de policiamento, destacando que em regimes autocráticos as forças policiais servem essencialmente à manutenção do governo e vigilância de adversários políticos, relegando a proteção ordinária do cidadão a plano secundário.",
+    "armadilhaBanca": "Assertiva correta: apreensão fiel da caracterização institucional da polícia em regimes autoritários.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2424",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2424",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-60",
@@ -1286,16 +1312,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. In the text, \"outperform\" is synonymous with surpass.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. No vocabulário corporativo do texto, \"outperform\" indica obter desempenho operacional e resultados financeiros superiores em relação aos pares, trazendo nuances gerenciais específicas de performance que a banca Cebraspe considerou não equivalentes à simples sinonímia genérica com \"surpass\".",
+    "armadilhaBanca": "SINONIMIA_IMPRECISA: Considerar equivalente semântico absoluto um verbo gerencial técnico de desempenho com termo genérico.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2425",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2425",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "In the business context of the text, \"outperform\" signifies delivering superior operational or financial performance and efficiency compared to competitors, carrying a more specific managerial connotation than the generic verb \"surpass\"."
   },
   {
     "id": "m12-q-61",
@@ -1305,15 +1332,14 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "C",
-    "justificativa": "Julgamento fundamentado nas normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. O autor traça uma analogia explícita logo no início da crônica: \"Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life.\" A montanha-russa de emoções entre o alívio e a tensão de estacionar reflete diretamente as oscilações cotidianas da dinâmica familiar descrita.",
+    "armadilhaBanca": "Assertiva tecnicamente correta: o autor utiliza a expressão \"natural continuation\" para estabelecer a conexão analógica e temática entre estacionar e a convivência familiar.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
       "revisar": true
     }
   },
@@ -1325,19 +1351,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) A compelling case can be made for mandatory audit rotation that auditors who keep the same client for too long get excessively cosy with its management. As somebody has put it, “When the same incumbent firm has been in place for 100 years, to me that’s not an audit, that’s a joint venture.” Most academic studies have either found no link between the length of a relationship and its quality, or determined that longer tenures yield better results, because the accountants have time to master the intricacies of clients’ businesses. Obliging companies to solicit bids at regular intervals, as Britain does, has shaken up the business: HSBC said in August that it will drop KPMG in favour of PwC; on December 2nd Unilever announced that it is making the opposite switch. Indeed, the big accounting firms argue that forced rotation would reduce competition by preventing the incumbent from bidding. Proponents counter that the accounting giants, and academics whose research is often financed by them, have good reason to resist change. Among the reform’s strongest supporters are smaller firms that hope to break the Big Four’s stranglehold. Yet even the most vocal advocates of mandatory rotation concede that it is no magic bullet. Auditors have a conflict of interest at the heart of their business — they are paid by the companies they are supposed to assess objectively. Unless that changes, there will be no substitute for investors doing their own due diligence. Idem (adapted). Judge the following item, according to the text above. The author accuses some firms of bribing unscrupulous academics to put forward compelling arguments hereby they could block proposals to create mandatory audit rotation.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto relata que empresas de auditoria financiaram estudos e contrataram pareceres de pesquisadores para subsidiar seus argumentos contra a rotação compulsória, sem imputar o crime de suborno (\"bribing\") ou acusar os acadêmicos de inescrupulosos.",
+    "armadilhaBanca": "INSERCAO_DE_TERMO_PEJORATIVO: Inserir a acusação de suborno criminoso (\"bribing\") inexistente no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2427"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2427"
+    },
+    "versao_correta": "The text discusses how audit firms funded academic research to oppose mandatory rotation, but does not accuse them of criminal bribery or describe the academics as unscrupulous."
   },
   {
     "id": "m12-q-63",
@@ -1351,15 +1378,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2429"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2429"
+    }
   },
   {
     "id": "m12-q-64",
@@ -1369,19 +1396,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. According to the text, with “Carefully crafted security-minded communications”, potential attackers are discouraged and caught before being able to cause any harm.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O texto salienta que comunicações de segurança servem para desestimular ataques ao sinalizar o risco substancial de captura (\"face a substantial risk of being caught\"), mas não afirma categoricamente que os criminosos serão infalivelmente capturados antes de agir.",
+    "armadilhaBanca": "PROMESSA_DE_RESULTADO_INFALIVEL: Afirmar que a comunicação garante que agressores sejam capturados antes de qualquer dano.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2433"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2433"
+    },
+    "versao_correta": "The text states that security-minded communications aim to deter potential attackers by signaling that they face a substantial risk of being caught, without claiming that attackers are guaranteed to be intercepted prior to causing harm."
   },
   {
     "id": "m12-q-65",
@@ -1395,15 +1423,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2430"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2430"
+    }
   },
   {
     "id": "m12-q-66",
@@ -1413,17 +1441,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. 57) Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto afirma com todas as letras que a aplicação de multas por faltas escolares não é novidade nos Estados Unidos (\"The concept of fining kids for skipping school may come as a shock, but it’s not new\"), citando regras consolidadas em Ohio e Los Angeles.",
+    "armadilhaBanca": "NEGACAO_DA_AFIRMATIVA_TEXTUAL: Qualificar como novidade chocante o que o próprio texto diz que não é novo.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 (Cebraspe)",
       "revisar": true
-    }
+    },
+    "versao_correta": "The text explicitly notes that fining students for truancy \"is not new\" in the United States, citing long-standing established precedents in states such as Ohio and California."
   },
   {
     "id": "m12-q-67",
@@ -1437,15 +1465,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2431"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2431"
+    }
   },
   {
     "id": "m12-q-68",
@@ -1455,21 +1483,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The couple’s feelings as they get near home are expressed as a struggle between hope and discouragement.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O autor relata uma luta interna entre esperança e desespero agudo (\"battling despair as the alternative scenario\"), sentimento este incompatível com a atenuação semântica para mero desânimo (\"discouragement\").",
+    "armadilhaBanca": "ATENUACAO_SEMANTICA: Substituição do termo intenso \"despair\" por \"discouragement\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2383",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The text explicitly describes the couple's emotional state as a battle between hope and \"despair\" (desespero), which conveys profound distress rather than mere \"discouragement\" (desânimo)."
   },
   {
     "id": "m12-q-69",
@@ -1477,23 +1506,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Substituição de Palavras e Reescrita de Frases (Inglês) Technology Legislation Technology-related legislation can have a huge impact on growing businesses, and some interesting issues are likely to pop up with the new Congress of the United States this year. Of great interest to growing businesses are the topics of data protection and net neutrality. Laws that lay out more stringent requirements for retaining and protecting employee and customer data could be on the horizon. \"The laws that apply to big business are going to trickle down to small business,\" says Ann Westerheim, founder and president of technology consulting firm Ekaru. \"Businesses need to have that on their radar. You don't want to get hit with a fine because you're not complying.\" She suggests looking at laws like Sarbanes-Oxley to get an idea of where new tech laws could be heading. The good news is that proper data protection is something businesses should be doing anyway. \"A lot of the measures required to protect employee and customer data are just good business practices,\" says Westerheim. Growing businesses can head off potential compliance costs by gradually shoring up their IT security and data protection now. Net neutrality is likely to be a hot issue again after stalling in the Senate last year. Net neutrality proponents want regulations to prevent network providers from prioritizing certain Internet traffic. \"Net neutrality is a big issue for small businesses,\" says Westerheim. A net neutrality law stands a better chance of passing with strong Democratic backing this year, but it figures to be a hard-fought battle. Digital copyright issues could also come to the fore in Congress. With the changes brought about by the last election, it will be an interesting year for entrepreneurs to keep an eye on the goings-on in Washington. Internet: <www.microsoft.com>. Judge the following item according to the text above. The phrasal verb \"lay out\" could be correctly replaced in the text by avoid.",
+    "item": "Língua Inglesa (Inglês) - Substituição de Palavras e Reescrita de Frases (Inglês) Technology Legislation Technology-related legislation can have a huge impact on growing businesses, and some interesting issues are likely to pop up with the new Congress of the United States this year. Of great interest to growing businesses are the topics of data protection and net neutrality. Laws that lay out more stringent requirements for retaining and protecting employee and customer data could be on the horizon. \"The laws that apply to big business are going to trickle down to small business,\" says Ann Westerheim, founder and president of technology consulting firm Ekaru. \"Businesses need to have that on their radar. You don't want to get hit with a fine because you're not complying.\" She suggests looking at laws like Sarbanes-Oxley to get an idea of where new tech laws could be heading. The good news is that proper data protection is something businesses should be doing anyway. \"A lot of the measures required to protect employee and customer data are just good business practices,\" says Westerheim. Growing businesses can head off potential compliance costs by gradually shoring up their IT security and data protection now. Net neutrality is likely to be a hot issue again after stalling in the Senate last year. Net neutrality proponents want regulations to prevent network providers from prioritizing certain Internet traffic. \"Net neutrality is a big issue for small businesses,\" says Westerheim. A net neutrality law stands a better chance of passing with strong Democratic backing this year, but it figures to be a hard-fought battle. Digital copyright issues could also come to the fore in Congress. With the changes brought about by the last election, it will be an interesting year for entrepreneurs to keep an eye on the goings-on in Washington. Internet: <www.microsoft.com>. Judge the following item, according to the text above. The phrasal verb \"lay out\" in the text is used in the sense of establishing, outlining, or setting forth specific regulatory and legal requirements.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. Na oração \"Laws that lay out more stringent requirements...\", o phrasal verb \"lay out\" é empregado na acepção canônica de estipular, expor ou estabelecer diretrizes formais, equivalendo a \"set forth\", \"outline\" ou \"stipulate\".",
+    "armadilhaBanca": "Assertiva correta: domínio do sentido semântico e contextual do phrasal verb \"lay out\" na linguagem jurídica e corporativa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2432",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2432",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-70",
@@ -1503,21 +1532,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. Based on the text, it is correct to conclude that the possibility of threat reduction being successful varies according to the level of determination and to the ability of those posing threats.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O texto analisa a dificuldade intrínseca de combater ameaças de atores determinados e capazes, cabendo aos parlamentos a influência dissuasória sobre a intenção dos agentes, não respaldando a conclusão estrita de variação proporcional sugerida no item.",
+    "armadilhaBanca": "EXTRAPOLACAO_TEXTUAL: Conclusão indutiva simplificada que não reflete a articulação analítica entre ameaça, vulnerabilidade e dissuasão exposta no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2360",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2360",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "According to the text, reducing the threat element is particularly difficult in the case of determined and capable threat actors, while organisations like parliaments primarily contribute to threat reduction through deterrence (influencing intentions) rather than altering actors' abilities."
   },
   {
     "id": "m12-q-71",
@@ -1531,15 +1561,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2384"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2384"
+    }
   },
   {
     "id": "m12-q-72",
@@ -1549,16 +1579,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The author mocks his wife’s driving skills.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto destaca explicitamente que a esposa é uma excelente condutora (\"She is an excellent driver\"), desmentindo a assertiva de que o narrador debocharia de sua habilidade ao volante.",
+    "armadilhaBanca": "INVERSAO_TEXTUAL: Dizer que o autor zomba da habilidade da esposa quando o texto afirma expressamente que ela é uma excelente motorista.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2364",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2364",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "The author explicitly praises his wife as an \"excellent driver\", rather than mocking her driving skills, noting that he takes on the parking duty out of a sense of fatherly and stoic responsibility."
   },
   {
     "id": "m12-q-73",
@@ -1572,15 +1603,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2356"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2356"
+    }
   },
   {
     "id": "m12-q-74",
@@ -1590,19 +1621,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. One group of volunteers was subjected to manual examination while the other had an antigen test.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Os dois exames (toque retal manual e PSA) foram aplicados conjuntamente aos voluntários do grupo de rastreamento, ao passo que o grupo de controle permaneceu sob cuidados rotineiros sem triagem compulsória.",
+    "armadilhaBanca": "DIVISAO_INCORRETA_DE_GRUPOS: Dividir os dois tipos de exames entre dois grupos distintos, quando ambos integravam o mesmo grupo de triagem.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2365"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2365"
+    },
+    "versao_correta": "In the study, volunteers in the screening group received either a manual examination or a prostate-specific antigen test, while participants in the control group received no screening guidance (usual care)."
   },
   {
     "id": "m12-q-75",
@@ -1616,15 +1648,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2357"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2357"
+    }
   },
   {
     "id": "m12-q-76",
@@ -1634,19 +1666,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. According to the text, the limitations imposed on police work in democratic societies are motivated by the fact that the use of arms almost never happens.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O policiamento democrático tem atuação rigorosamente circunscrita para assegurar as liberdades civis e o respeito aos cidadãos, e não em virtude de o uso de armamento ser pouco frequente.",
+    "armadilhaBanca": "FALSA_CAUSALIDADE: Estabelecer uma relação de causa e efeito inexistente no texto entre a raridade do uso de armas e a limitação do papel policial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2366"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2366"
+    },
+    "versao_correta": "In democratic societies, police roles are circumscribed to protect citizen rights and foster trust and positive community relationships, rather than being motivated by the infrequency of armed engagement."
   },
   {
     "id": "m12-q-77",
@@ -1660,15 +1693,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2361"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2361"
+    }
   },
   {
     "id": "m12-q-78",
@@ -1678,19 +1711,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. For the author, parking in New York is an occasion of great suspense because it is always a terrible experience.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Museólogo/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O narrador pontua que encontrar vaga pode ser motivo de grande júbilo (\"Most of the time it is joyous\"), sendo incorreto afirmar que a experiência é sempre desastrosa.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: O uso da palavra \"always\" contradiz a declaração expressa do autor de que na maior parte das vezes é prazeroso.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2367"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2367"
+    },
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "m12-q-79",
@@ -1698,23 +1732,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Substituição de Palavras e Reescrita de Frases (Inglês) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. The fragment of a sentence “greater latitude to exercise discretion” (second sentence of the second paragraph) can be, without this changing the original meaning of the text, replaced with greater possibilities to be discreet.",
+    "item": "The fragment \"greater latitude to exercise discretion\" (second sentence of the second paragraph) refers to the drafter having greater leeway or scope to make professional judgment calls during the legislative drafting process.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. No artigo de David Marcello (\"The Ethics and Politics of Legislative Drafting\"), a expressão \"greater latitude to exercise discretion\" refere-se à margem de liberdade (latitude) e autonomia discricionária (discretion) que o redator legislativo obtém para tomar decisões substantivas de política e redação quando o cliente/parlamentar define apenas diretrizes gerais.",
+    "armadilhaBanca": "Assertiva correta: apreensão precisa do sentido contextual de \"latitude\" (margem de escolha) e \"discretion\" (poder discricionário do redator).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2370",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2370",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-80",
@@ -1724,16 +1758,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. Little attention has been devoted to legislation’s point of origin — the legislative drafting process. Such commentary as has been offered is essentially technical in nature. However, the relationship between drafter and text is the furthest thing from a technical, value-neutral enterprise. For example: a question confronted by every drafter and one with obvious ethical and political implications is, “How much is to be left to the drafter’s discretion?” Obviously, the drafter who less frequently inquires about the client’s desires will have greater latitude to exercise discretion and accordingly can play more of an “advocacy” role in shaping the legislation, a situation which can lead to his or her sidesteping the duty of abiding by a client’s decisions concerning the objectives of representation. But this is not to paint too malevolent a portrait of legislative drafting personnel. They are not a fifth column of subversives who pursue personal advocacy objectives in everything that they do. Indeed, many may even be unaware of their power. They are, though, continually called upon to exercise personal judgment in the performance of their duties. Such judgments are frequently policy judgments, and drafting decisions are often influenced consciously or subconsciously by the advocacy agenda of the individual drafter. The legislative drafter plays a more active role in the process than is generally accorded to the stereotypical scribe, laboring in nameless and faceless obscurity to produce a bill draft. David Marcello. The Ethics and Politics of Legislative Drafting. In: Tulane Law Review, vol. 70, p. 2437, 1996 (adapted). About the preceding text, judge the following item. By using the expressions “‘advocacy’ role” (second sentence of the second paragraph) and “advocacy agenda” (forth sentence of the third paragraph), the author is referring specifically to people who have a degree in law and work in the legislative branch.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A menção a \"advocacy\" no artigo refere-se à postura ativa de defesa de teses e opções regulatórias pelos redatores de normas legislativas, não aludindo especificamente a bacharéis em Direito.",
+    "armadilhaBanca": "RESTRICAO_INDEVIDA: Restringir a expressão contextual \"advocacy\" à formação acadêmica em Direito.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2368",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2368",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2026"
+    },
+    "versao_correta": "The terms \"advocacy role\" and \"advocacy agenda\" in the text refer to the active policy-shaping influence and personal discretion exercised by legislative drafters, rather than referring specifically to individuals with law degrees."
   },
   {
     "id": "m12-q-81",
@@ -1743,16 +1778,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2371",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-82",
@@ -1762,19 +1797,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Referenciação, Anáfora e Catáfora (Língua Inglesa) The security risks faced by Parliaments, legislatures, elected representatives, and the officials who support them, differ greatly according to their evolving national and local circumstances, among other things. For some, the biggest security risks may stem from disruptive protesters and cyber criminals, but terrorism may pose the most concerning risks for others. In fact, threat actors differ enormously in their intentions and capabilities, which also change over time. Given that risk is a product of threat, vulnerability, and impact, it follows that ultimately there are only three ways to reduce security risk — namely, by reducing the threat, reducing the vulnerability, or reducing the impact (or some combination thereof). Reducing the threat element of security risk is difficult, especially in the case of determined and capable threat actors. Responsibility for reducing threats tends to lie mainly with national law enforcement, security, and intelligence agencies. That said, parliaments and other organisations can contribute to threat reduction through deterrence — in other words, by influencing the intentions of threat actors. Carefully crafted security-minded communications can convey a discouraging message to potential attackers, to the effect that they should expect to confront professional security measures and face a substantial risk of being caught. For instance, a parliamentary website might advertise that visitors will undergo ‘airport-style screening’, without explaining precisely what that entails. The public should be reassured by such message, whereas some threat actors might be deterred. Paul Martin. Parliamentary security: an introductory guide. Internet: <www.cpahq.org> (adapted). Considering the preceding text, judge the following item. In the excerpt “threat actors differ enormously in their intentions and capabilities, which also change over time”, “which” refers to “threat actors”.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O pronome relativo \"which\" retoma \"intentions and capabilities\" no texto em apreço. Caso se referisse aos indivíduos (\"threat actors\"), a norma culta inglesa empregaria o pronome pessoal \"who\".",
+    "armadilhaBanca": "REFERENCIA_PRONOMINAL_INCORRETA: Atribuir o pronome \"which\" a agentes/pessoas em vez de atributos abstratos antecedentes.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2372"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2372"
+    },
+    "versao_correta": "In the cited sentence, the relative pronoun \"which\" refers back to \"their intentions and capabilities\", whereas referring to the persons or entities (\"threat actors\") would require a personal relative pronoun such as \"who\"."
   },
   {
     "id": "m12-q-83",
@@ -1784,16 +1820,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2373",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Moneyland (adaptado) / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2373",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-84",
@@ -1803,16 +1839,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The institute that conducted the research cannot be considered traditional since it is relatively new.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A assertiva comete extrapolação factual sem respaldo no texto. O excerto refere-se a 'a 10-year National Cancer Institute study involving more than 76,000 men' sem emitir qualquer juízo ou menção de que o instituto seja recente ('relatively new') ou desprovido de tradição. No modelo Cebraspe de interpretação textual em língua inglesa, qualquer inferência que introduza atributos temporais ou qualitativos alheios ao texto viola a fidedignidade hermenêutica estrita.",
+    "armadilhaBanca": "INFORMACAO_EXTRITEXTUAL: Inserir assertiva depreciativa sobre a antiguidade do instituto sem respaldo no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2375",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2375",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "The National Cancer Institute is a long-standing, historic scientific institution, and the text provides no statement claiming that it is relatively new or non-traditional."
   },
   {
     "id": "m12-q-85",
@@ -1822,16 +1859,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The novelty of fining students who play truant is shocking to most people in the USA.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados édico/Neurologia/2012.",
+    "justificativa": "Gabarito CERTO. O texto pondera expressamente no quinto parágrafo: \"The concept of fining kids for skipping school may come as a shock, but it’s not new\". A banca avalia a compreensão do impacto da notícia sobre a opinião pública, destacando que medidas punitivas monetárias geram choque e surpresa (\"may come as a shock\"), apesar de antecedentes em Ohio e Los Angeles. Vocabulário essencial: \"truant / truancy\" (aluno faltoso / evasão escolar).",
+    "armadilhaBanca": "INFERÊNCIA COM VOCABULÁRIO IDIOMÁTICO: O emprego da expressão \"play truant\" como correspondente exato de \"skipping school\" e \"habitual truancy\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2374",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2374",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-86",
@@ -1841,19 +1878,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item concerning the previous text. When conducting his survey, the author met an older drafter who did not want to change the way he worked with bills and red pencils.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O contato com o redator que utilizava lápis vermelho ocorreu durante a trajetória de nove anos de atuação profissional do autor no parlamento estadual, e não na condução de sua pesquisa acadêmica posterior.",
+    "armadilhaBanca": "CONFUSAO_CRONOLOGICA: Atribuir a observação vivenciada ao período da pesquisa em vez da experiência profissional prévia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2376"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2376"
+    },
+    "versao_correta": "The author observed the older legislative drafter who resisted software track changes during his nine years working with the Massachusetts Legislature, rather than during the subsequent survey."
   },
   {
     "id": "m12-q-87",
@@ -1867,15 +1905,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2384"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2384"
+    }
   },
   {
     "id": "m12-q-88",
@@ -1885,16 +1923,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The writer believes that family life is somewhat similar to parking in New York.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A crônica afirma que a busca por vaga funciona como uma extensão dos desafios familiares, não propondo uma comparação direta de identidade entre a vida familiar e o ato de estacionar.",
+    "armadilhaBanca": "INVERSAO_CONCEITUAL: Inverter a relação metafórica apresentada na crônica.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2378",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2378",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "In the text, the author describes parking in New York as a natural continuation of family life, characterized by oscillating extremes of ecstasy and distress, rather than asserting that family life itself resembles parking."
   },
   {
     "id": "m12-q-89",
@@ -1902,23 +1941,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The author points to a discontinuity in the history of financial bookkeeping from the end of the 15th century to the 18th century.",
+    "item": "According to the text, the historical development of auditing and bookkeeping can be traced through European history, including the emergence of double-entry bookkeeping in the late 15th century and prominent fraud cases in the 18th century.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto apresenta uma perspectiva histórica contínua da evolução das práticas de controle e contabilidade, citando a formalização das partidas dobradas por volta de 1494 d.C. e os casos célebres de fraude financeira do século XVIII na Europa (como o escândalo dos mares do Sul e a crise das tulipas) como motivadores do controle interno.",
+    "armadilhaBanca": "Assertiva correta: compreensão da linha do tempo evolutiva da auditoria e escrituração contábil europeia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2386",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2386",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-90",
@@ -1928,21 +1967,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Leia o texto abaixo. When conducting a survey on the use of technology in the legislative process, one of the questions I asked was “Has the legislature, as an institution or in part, resisted technology based changes?” I asked this question based on my own experience with the Massachusetts Legislature. I spent 9 years working with legislators and senior staff, and the way they sometimes approached technology was at times comical―at times frightening. My friends and I watched on―and laughed―the first time a laptop computer or an iPhone made its way onto the floor of the Massachusetts House or Senate and the members gathered around it, acting as though they were looking at an artifact that had been dropped from Mars. I also saw an older legislative drafter become befuddled and angry when he was forced to start using the “track changes” and “comment” functions on Microsoft Word rather than marking up a bill with his beloved red pencil. Sean J. Kealy. Technology & Legislative Drafting In The United States. Internet: <sites.bu.edu> (adapted). Judge the following item concerning the previous text. The negative way some legislators reacted to technology sometimes scared the author of the text.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. A expressão \"at times frightening\" reflete uma constatação irônica das deficiências de modernização da instituição, tendo os servidores reagido com humor (\"laughed\"), sem pavor ou medo pessoal.",
+    "armadilhaBanca": "INTERPRETACAO_LITERAL_EXAGERADA: Converter a expressão retórica \"at times frightening\" em medo pessoal real do autor.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2026",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2026,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2380",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2026",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2026,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2380",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The author describes the legislators' awkward approach to technology as \"at times comical―at times frightening\" in its institutional implications, while noting that he and his colleagues reacted primarily with amusement and laughter (\"watched on―and laughed\")."
   },
   {
     "id": "m12-q-91",
@@ -1952,16 +1992,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ão/2012.",
+    "justificativa": "Gabarito CERTO. No contexto das medidas contra a evasão escolar, o texto examina os precedentes de coerção jurídica nos Estados Unidos (\"In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time...\"). Vocabulário essencial para retenção ativa: \"sentenced to jail time\" (condenado à pena de prisão), \"skipped classes\" (matou/faltou às aulas).",
+    "armadilhaBanca": "INTERPRETAÇÃO HISTÓRICA DO ABSENTEÍSMO: Apreensão de medidas coercitivas e criminais reportadas pelo texto no sistema educacional dos EUA.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2387",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Time Magazine / Cebraspe",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2387",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-92",
@@ -1971,19 +2011,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) For many years, researchers have drawn attention to the importance of alignment between business and Information Technology (IT). In early studies, this often meant linking the business plan and the IT plan. Another perspective involved ensuring congruence between the business strategy and the IT strategy. Still another has required examining the fit between business needs and information system priorities. These conceptualizations have been enlarged over time and now research recognizes many points of alignment between business and IT. Early motivation for alignment emerged from a focus on strategic business planning and long-range IT planning in the early 1980s. From a business perspective, planning was characterized as a top-down and a bottom-up process and departmental (e.g., IT) plans were created in support of corporate strategies. From an IT perspective, decisions on hardware and software had such long-term implications that tying them to current and future plans of the organizational unit was a practical necessity. The business and IT performance implications of alignment have been demonstrated empirically and through case studies during the last decade. Simply put, the findings support the hypothesis that those organizations that successfully align their business strategy with their IT strategy will outperform those that do not. Alignment leads to more focused and strategic use of IT which, in turn, leads to increased performance. Internet: <www.palgrave-journals.com> (adapted). According to the text above, judge the following item. Alignment between business and IT has always been related to examining the fit between business needs and information system priorities.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O exame do ajuste entre necessidades de negócios e prioridades de TI representou apenas uma entre várias fases evolutivas do conceito de alinhamento estratégico, tornando o uso de \"always\" incorreto.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: O termo \"always\" ignora as etapas anteriores de conceitualização do alinhamento descritas no texto.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2381"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Engenheiro/Engenharia Mecânica/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2381"
+    },
+    "versao_correta": "Examining the fit between business needs and IT priorities was only one of several distinct conceptual perspectives that evolved over time, rather than alignment having always been defined solely by this criterion."
   },
   {
     "id": "m12-q-93",
@@ -1991,23 +2032,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Shining a light on the auditors Every financial meltdown prompts a hunt for scapegoats. In the wake of the most recent one, calls to reform accounting have grown particularly loud, and action is on the way. In the coming months both America and the European Union are expected to introduce new rules aimed at enhancing auditors’ independence. But for all the heated debate over the changes, any improvement is likely to be modest. America’s bean-counters were effectively self-regulating until 2002. That year, following a wave of accounting scandals, Congress passed the Sarbanes-Oxley act to reform corporate governance. It limited the consulting work firms could do for their audit clients and set up a new regulator, the Public Company Accounting Oversight Board. At a meeting on December 4th it outlined three policies it expects toimplement by the end of 2014. One aims to make audit reports more useful by requiring a section highlighting “critical audit matters” — the high-stakes judgment calls that keep accountants up at night, such as how the business being audited has valued its intangible assets. Another would cut the share of an audit that accounting firms can outsource without disclosure from 20% to 5%. Such information is valuable in emerging markets, where local accountants vary widely in quality. The most controversial reform would identify by name the lead partner responsible for each audit. Although identifying partners does not increase their legal liability, it does put their reputation on the line. This seems to make accountants more cautious. The Economist, December 7th 2013, p. 68 (adapted). Judge the item below, based on the text above. The idea expressed in the second paragraph can be correctly explained by the following sentence: In 2002 a draft bill was voted by the American Congress proposing the setting of enhanced standard for all US state-owned-company boards, management and public accounting firms.",
+    "item": "According to the second paragraph, the Sarbanes-Oxley Act passed by the US Congress in 2002 established stricter corporate governance standards, limited consulting services by audit firms for audit clients, and created the Public Company Accounting Oversight Board.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O segundo parágrafo do texto descreve os marcos centrais da Lei Sarbanes-Oxley (SOX de 2002): instituição de novas exigências de governança corporativa após escândalos contábeis, vedação a consultorias cruzadas e instituição do órgão regulador de auditoria independente (PCAOB).",
+    "armadilhaBanca": "Assertiva correta: identificação exata dos três pilares da reforma regulatória corporativa promovida pela Lei Sarbanes-Oxley de 2002.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2388",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2388",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-94",
@@ -2017,16 +2058,17 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. The word “allay” is used as a verb and it means reduce or ease.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. No contexto do segmento ('...instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting...'), a banca Cebraspe considerou incorreta a correlação redutora de 'allay' meramente como 'reduce or ease'. A locução verbal 'to allay concerns' possui a nuance específica de aplacar, aquietar, dissipar ou aliviar suspeitas e ansiedades institucionais (to calm, relieve or put to rest fear or suspicion), não se restringindo a mera diminuição quantitativa ou afrouxamento.",
+    "armadilhaBanca": "NUANCE_SEMANTICA: Desconsiderar a precisão semântica de \"allay\" no contexto de controle contábil histórico.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2382",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2382",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety."
   },
   {
     "id": "m12-q-95",
@@ -2040,15 +2082,15 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2390"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2390"
+    }
   },
   {
     "id": "m12-q-96",
@@ -2058,21 +2100,22 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. The couple’s feelings as they get near home are expressed as a struggle between hope and discouragement.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O sentimento expresso no texto ao se aproximarem da residência é de aflição e desespero (\"battling despair\"), intensidade incompatível com a palavra \"discouragement\".",
+    "armadilhaBanca": "ATENUACAO_SEMANTICA: Substituição do termo intenso \"despair\" por \"discouragement\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2383",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2383",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "The text explicitly describes the couple's emotional state as a battle between hope and \"despair\" (desespero), which conveys profound distress rather than mere \"discouragement\" (desânimo)."
   },
   {
     "id": "m12-q-97",
@@ -2080,23 +2123,23 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Prostate-Cancer Screening To screen or not to screen? When it comes to cancer, doctors say early detection is the best defense. But the picture is a little fuzzier when it comes to prostate cancer, which in many cases progresses slowly and may not require aggressive treatment. In March, a 10-year National Cancer Institute study involving more than 76,000 men seemed to make the case for watchful waiting. About half of the study volunteers were randomly assigned to the screening group, getting either a manual exam or a prostate-specific antigen test each year; the latter test measures blood levels of a protein associated with prostate cancer. The other study participants received no screening guidance and were left to decide on their own whether they would get a yearly test. At the seven-year mark, 50 men had died from prostate cancer in the screening group, and 44 had died in the usual-care group. In other words, screening and early detection did not lower the death rate from prostate cancer. Based on this and other studies, the U.S. Preventive Services Task Force said there was insufficient evidence to assess the balance of benefits and harms of prostatecancer screening in men younger than age 75. The task force recommended against prostate-cancer screening in men 75 and older. Internet: <www.time.com> (adapted). Based on the text above, judge the following item. The article indicates that imaging to detect prostate cancer is blurred and therefore not reliable.",
+    "item": "According to the article, the overall evidence regarding the net balance of benefits and harms of prostate-cancer screening is complex and uncertain, leading health task forces to caution against routine screening in older men.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto aponta que o quadro clínico da triagem do câncer de próstata é controverso (\"the picture is a little fuzzier\"), uma vez que grandes estudos demonstraram que a detecção precoce nem sempre diminui a taxa de mortalidade, justificando a recomendação contra o rastreamento em homens com 75 anos ou mais.",
+    "armadilhaBanca": "Assertiva correta: leitura analítica fidedigna das conclusões da força-tarefa de saúde pública dos EUA (USPSTF).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2391",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Médico/Neurologia/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2391",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "m12-q-98",
@@ -2106,19 +2149,20 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. For the author, parking in New York is an occasion of great suspense because it is always a terrible experience.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A presença frequente de êxito e alegria (\"Most of the time it is joyous\") afasta categoricamente a tese de que estacionar seja invariavelmente uma vivência terrível.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: A palavra \"always\" desconsidera os momentos alegres de sucesso descritos pelo narrador.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2367"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Museólogo/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2367"
+    },
+    "versao_correta": "For the author, parking in New York is an occasion of great suspense because it is an even balance between joyous triumphs and terrible ordeals, rather than being always a terrible experience."
   },
   {
     "id": "m12-q-99",
@@ -2128,16 +2172,16 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados ólogo/2012.",
+    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (causa desespero emocional).",
+    "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2371",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2371",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    }
   },
   {
     "id": "m12-q-100",
@@ -2147,15 +2191,18 @@ export const simuladoIngles100Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because itssuperintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Years ago students could be sent to prison if they skipped classes.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O texto aponta expressamente a responsabilização penal com pena de prisão direcionada aos pais (\"parents have been sentenced to jail time\"), recaindo sobre os estudantes outras sanções administrativas.",
+    "armadilhaBanca": "TROCA_DE_SUJEITO: Atribuir a pena de prisão aos estudantes em vez de aos pais ou responsáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-tec-2392",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-tec-2392",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+    },
+    "versao_correta": "According to the text, parents—not students—were sentenced to jail time in the past for failing to ensure their children attended school."
   }
 ];
+
+export const questoesM12 = simuladoIngles100Q;

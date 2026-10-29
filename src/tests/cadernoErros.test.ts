@@ -63,6 +63,8 @@ describe('Caderno de Erros (cadernoErros.ts - H1)', () => {
     expect(erros[0].chaveOriginal).toBe('fund-q-1');
     expect(erros[0].gabarito).toBe('E');
     expect(erros[0].respostaUsuario).toBe('C');
+    expect(erros[0].versao_correta).toBeDefined();
+    expect(erros[0].versao_correta!.length).toBeGreaterThan(15);
   });
 
   it('deve agrupar erros por módulo corretamente', () => {

@@ -1,5 +1,7 @@
 import { COURSE_REGISTRY } from '../content/registry';
+import { ALL_SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { simuladoFundamentos100Q } from '../content/questions/m1-fundamentos-100q';
+
 import { elegivelParaEstudo } from './questoesElegiveis';
 import type { SimuladoFinalizado } from './schemas/progress.schema';
 import type { ItemAttempt } from './itemAttempts';
@@ -20,6 +22,8 @@ export interface ItemCadernoErro {
   respostaUsuario: 'C' | 'E' | null;
   justificativa: string;
   armadilhaBanca?: string;
+  versao_correta?: string;
+  fonte?: string;
   dataErro?: string;
   certeza?: 'alta' | 'media' | 'baixa';
   prioridadeHipercorrecao?: boolean; // Efeito da Hipercorreção (Butterfield & Metcalfe, 2001)
@@ -74,6 +78,8 @@ export function getItensCadernoErros(
             respostaUsuario: resp,
             justificativa: cp.justificativa,
             armadilhaBanca: cp.armadilhaBanca,
+            versao_correta: cp.versao_correta,
+            fonte: cp.fonte,
             certeza: attempt?.certeza,
             prioridadeHipercorrecao: isAltaConfianca,
             pesoRevisao: isAltaConfianca ? 2.0 : 1.0,
@@ -85,15 +91,25 @@ export function getItensCadernoErros(
 
   // 2. Erros em Simulados (do histórico mais recente)
   if (historicoSimulados && historicoSimulados.length > 0) {
-    const questoesMap = new Map(simuladoFundamentos100Q.map((q) => [q.id, q]));
+    const todasQuestoesSimulados = ALL_SIMULADOS_REGISTRY.flatMap((s) => s.questoes);
+    const questoesMap = new Map(todasQuestoesSimulados.map((q) => [q.id, q]));
 
     for (const sim of historicoSimulados) {
+      const simuladoEspecifico = ALL_SIMULADOS_REGISTRY.find(
+        (s) => s.id === sim.id || s.macroModuloId?.toLowerCase() === sim.id?.toLowerCase()
+      );
       const respostasList = Object.values(sim.respostas || {});
       for (const respItem of respostasList) {
         if (respItem.acertou === false && (respItem.resposta === 'C' || respItem.resposta === 'E')) {
           const questao =
             questoesMap.get(respItem.questionId) ||
+            simuladoEspecifico?.questoes.find(
+              (q) => q.id === respItem.questionId || q.numero.toString() === respItem.questionId
+            ) ||
             simuladoFundamentos100Q.find(
+              (q) => q.id === respItem.questionId || q.numero.toString() === respItem.questionId
+            ) ||
+            todasQuestoesSimulados.find(
               (q) => q.numero.toString() === respItem.questionId || q.id === respItem.questionId
             );
 
@@ -109,7 +125,7 @@ export function getItensCadernoErros(
                 origem: 'simulado',
                 tipoExercicio: 'X2',
                 macroModuloId: questao.macroModuloId.toLowerCase(),
-                macroModuloTitulo: 'Fundamentos da Biblioteconomia (M1)',
+                macroModuloTitulo: questao.modulo || (questao.macroModuloId.toLowerCase() === 'm1' ? 'Fundamentos da Biblioteconomia (M1)' : `Módulo ${questao.macroModuloId.toUpperCase()}`),
                 submoduloId: questao.submoduloId,
                 submoduloNumero: questao.submoduloId,
                 tituloContexto: `Simulado 100Q · Questão ${questao.numero}`,
@@ -118,6 +134,8 @@ export function getItensCadernoErros(
                 respostaUsuario: respItem.resposta,
                 justificativa: questao.justificativa,
                 armadilhaBanca: questao.armadilhaBanca,
+                versao_correta: questao.versao_correta,
+                fonte: questao.fonte || questao.fonteOriginal?.descricao,
                 dataErro: sim.dataHora,
                 certeza: attempt?.certeza,
                 prioridadeHipercorrecao: isAltaConfianca,

@@ -22,8 +22,10 @@ export interface ItemCEData {
   gabarito: 'C' | 'E';
   justificativa: string;
   versaoCorreta?: string;
+  versao_correta?: string;
   fonte?: string;
   armadilha?: string;
+  armadilhaBanca?: string;
   secaoRef?: string;
 }
 
@@ -338,20 +340,20 @@ export const ItemCE: React.FC<ItemCEProps> = ({
             </div>
 
             {/* Linha C: Como ficaria correto (Obrigatório para itens ERRADOS) */}
-            {item.gabarito === 'E' && item.versaoCorreta && (
+            {item.gabarito === 'E' && (item.versaoCorreta || item.versao_correta) && (
               <div className="p-3 rounded-lg bg-surface border border-border space-y-1">
                 <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400">
                   <CheckCircle2 className="w-3.5 h-3.5" />
                   <span>Como ficaria correto:</span>
                 </div>
                 <p className="font-serif text-xs leading-relaxed text-ink m-0 italic">
-                  "{item.versaoCorreta}"
+                  "{item.versaoCorreta || item.versao_correta}"
                 </p>
               </div>
             )}
 
             {/* Linha D: Armadilha da Banca (se houver) */}
-            {item.armadilha && (
+            {(item.armadilha || item.armadilhaBanca) && (
               <div className="flex items-start gap-2 text-xs text-amber-800 dark:text-amber-200 bg-amber-500/10 p-2.5 rounded-lg border border-amber-500/25">
                 <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-amber-500" />
                 <div className="space-y-0.5">
@@ -359,7 +361,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
                     Técnica / Armadilha Identificada:
                   </span>
                   <p className="font-sans text-xs leading-relaxed m-0">
-                    {item.armadilha}
+                    {item.armadilha || item.armadilhaBanca}
                   </p>
                 </div>
               </div>

@@ -708,7 +708,9 @@ export const TeoriaPage: React.FC = () => {
                       enunciado: cp.item,
                       gabarito: cp.gabarito,
                       justificativa: cp.justificativa,
-                      versaoCorreta: (cp as any).versao_correta,
+                      versaoCorreta: cp.versao_correta,
+                      armadilha: cp.armadilhaBanca,
+                      fonte: cp.fonte,
                     }}
                     contexto="teoria"
                     contadorTexto={`Checkpoint ${idx + 1} de ${currentSub.checkpoints.length}`}

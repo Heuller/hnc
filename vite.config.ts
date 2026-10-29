@@ -104,7 +104,21 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (id.includes('content/questions') || id.includes('content\\questions')) {
-            return 'content-questions';
+            if (id.includes('simulado') || id.includes('mini-modulo') || id.includes('ampliados')) {
+              return 'content-questions-simulados';
+            }
+            if (
+              id.includes('m10-') ||
+              id.includes('m10a-') ||
+              id.includes('m10b-') ||
+              id.includes('m11-') ||
+              id.includes('m12-') ||
+              id.includes('m13-') ||
+              id.includes('m14-')
+            ) {
+              return 'content-questions-gerais';
+            }
+            return 'content-questions-especificos';
           }
           if (id.includes('content/simuladosRegistry') || id.includes('content\\simuladosRegistry')) {
             return 'registry';

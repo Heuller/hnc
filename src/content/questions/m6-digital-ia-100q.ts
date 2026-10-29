@@ -9,11 +9,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O DSpace 7 introduziu uma reformulação arquitetural profunda em sua camada de apresentação, adotando uma interface de usuário baseada em Angular e uma API REST desacoplada para comunicação com o backend em Java.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O DSpace 7 unificou as antigas interfaces (JSPUI e XMLUI) em uma moderna Single Page Application em Angular integrada via REST API.",
+    "justificativa": "Gabarito CERTO. Lançado com profunda reformulação tecnológica, o DSpace 7 descontinuou integralmente as antigas interfaces legadas baseadas em JavaServer Pages (JSPUI) e Cocoon/Apache (XMLUI), unificando a apresentação em uma aplicação moderna de página única (Single Page Application - SPA) desenvolvida em framework Angular, comunicando-se com o motor de backend por meio de uma API RESTful completa e desacoplada.",
     "armadilhaBanca": "Evolução técnica do DSpace 7.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -30,10 +30,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Caricaturar repositórios institucionais como depósitos piratas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Uma biblioteca digital e um repositório institucional dependem de políticas ativas de preservação digital de longo prazo para assegurar o acesso perene, a integridade e a autenticidade de seus objetos digitais."
   },
   {
     "id": "m6-q-3",
@@ -47,10 +48,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Declarar que o DSpace cobra licença anual proprietária.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O DSpace é um software livre e de código aberto distribuído sob licença BSD, sendo gratuito e isento de taxas anuais compulsórias de licenciamento proprietário."
   },
   {
     "id": "m6-q-4",
@@ -64,10 +66,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que o Koha rejeita código de barras e RFID.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O software Koha oferece suporte nativo e padronizado a leitores de código de barras e tecnologias RFID (como o protocolo SIP2) para a automação da circulação e do autoempréstimo."
   },
   {
     "id": "m6-q-5",
@@ -81,10 +84,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar autoarquivamento como invasão cibernética.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "No DSpace, o autoarquivamento é a prática voluntária pela qual o próprio autor ou pesquisador submete seus trabalhos intelectuais ao repositório institucional em consonância com as diretrizes de acesso aberto."
   },
   {
     "id": "m6-q-6",
@@ -94,19 +98,19 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à automação de bibliotecas e sistemas informatizados, julgue os itens a",
     "item": "O sistema de editoração eletrônica se baseia no software OJS (Open Journal Systems).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. O Open Journal Systems (OJS), desenvolvido e mantido pelo Public Knowledge Project (PKP), é a plataforma livre e de código aberto hegemônica em escala mundial para a gestão e editoração eletrônica de periódicos científicos. Ele gerencia integralmente o ciclo editorial, desde a submissão de artigos pelos autores, o fluxo de avaliação cega por pares (peer review), a edição de texto e diagramação até a publicação final com atribuição de DOI.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1596"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1596"
+    }
   },
   {
     "id": "m6-q-7",
@@ -120,15 +124,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-244"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-244"
+    }
   },
   {
     "id": "m6-q-8",
@@ -138,19 +142,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O uso de software de editoração eletrônica, como, por exemplo, o Dspace, proporciona melhor gerenciamento dos repositórios institucionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O DSpace é uma plataforma de repositório digital institucional para armazenamento, gestão e preservação em acesso aberto. Softwares de editoração eletrônica são programas como Adobe InDesign, Scribus ou plataformas de gestão de fluxo editorial de periódicos como o OJS/SEER.",
+    "armadilhaBanca": "CLASSIFICACAO_INDEVIDA: Classificar o DSpace como \"software de editoração eletrônica\" em vez de software de repositório institucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-892"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-892"
+    },
+    "versao_correta": "O DSpace é um software livre de repositório digital voltado à custódia, organização, preservação e disseminação da produção científica e institucional, não se classificando como software de editoração eletrônica."
   },
   {
     "id": "m6-q-9",
@@ -164,7 +169,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -186,10 +191,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Dispensar backups em repositórios digitais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A implantação de repositórios digitais em computação em nuvem não dispensa procedimentos sistemáticos de backup redundante, auditoria de integridade e planos de contingência contra corrupção lógica e perda de dados."
   },
   {
     "id": "m6-q-11",
@@ -203,10 +209,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar que a migração de formatos na preservação é proibida.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Nos repositórios digitais, a migração de formatos obsoletos ou proprietários para formatos abertos e padronizados de preservação (como o PDF/A) é uma das estratégias recomendadas para assegurar a perenidade do acesso aos documentos."
   },
   {
     "id": "m6-q-12",
@@ -216,11 +223,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "No DSpace, o fluxo de submissão (workflow) pode ser parametrizado para exigir aprovação técnica por revisores e bibliotecários catalogadores antes que o item se torne visível ao público geral no repositório.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O DSpace permite configurar etapas customizadas de mediação editorial e controle de qualidade dos metadados antes da publicação definitiva do documento.",
+    "justificativa": "Gabarito CERTO. Na arquitetura funcional do software DSpace, as coleções digitais permitem a configuração de fluxos de trabalho (workflows) de submissão em múltiplas etapas: o sistema pode ser parametrizado para encaminhar os depósitos realizados pelos autores para etapas de revisão técnica por bibliotecários catalogadores (para conferência e enriquecimento de metadados) antes que a publicação receba o handle permanente e fique pública.",
     "armadilhaBanca": "Workflow de submissão no DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -237,15 +244,15 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso EBESERH/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "EBESERH/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-612"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "EBESERH/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-612"
+    }
   },
   {
     "id": "m6-q-14",
@@ -255,11 +262,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "O repositório digital da Câmara dos Deputados organiza e dissemina a memória legislativa e a produção técnico-científica de seus servidores e parlamentares, facilitando o acesso aberto às publicações institucionais da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Aplicação prática do repositório institucional na Câmara para transparência ativa e guarda da produção institucional.",
+    "justificativa": "Gabarito CERTO. O Repositório Digital da Câmara dos Deputados opera como plataforma estratégica de transparência ativa e guarda da memória parlamentar: centraliza, preserva e difunde em acesso aberto artigos acadêmicos de servidores, relatórios e pareceres de consultores legislativos, discursos em plenário, publicações das Edições Câmara e documentos históricos, em cumprimento aos princípios republicanos de publicidade e democratização da informação.",
     "armadilhaBanca": "Repositório institucional da Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -276,10 +283,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Proibir armazenamento de arquivos digitais no DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Na arquitetura do DSpace, cada item abriga tanto os metadados descritivos quanto os arquivos de conteúdo digital (bitstreams organizados em bundles), armazenados e gerenciados diretamente pela própria plataforma."
   },
   {
     "id": "m6-q-16",
@@ -289,11 +297,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A indexação por texto completo em repositórios DSpace é tipicamente provida por motores de busca de alta performance integrados, como o Apache Solr, que indexam os termos contidos no interior dos arquivos PDF.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Solr é o motor de indexação e descoberta padrão embutido no DSpace para pesquisa facetada e busca em texto integral.",
+    "justificativa": "Gabarito CERTO. No DSpace, a capacidade de busca em texto completo (full-text search) e navegação por facetas dinâmicas (filtros por autor, assunto, ano de publicação) é provida pela integração nativa com o motor de busca empresarial de alto desempenho Apache Solr. O sistema extrai e indexa os fluxos de texto de arquivos anexos (PDFs, documentos do Word), garantindo consultas com alta velocidade e precisão de recuperação.",
     "armadilhaBanca": "Motor Apache Solr no DSpace.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -306,19 +314,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da estrutura e das características do Diário Oficial da União (DOU),",
     "item": "A versão eletrônica do DOU é uma cópia digital que dispensa a assinatura eletrônica.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEDUC-AM/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEDUC-AM/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A versão eletrônica do Diário Oficial da União (DOU) possui fé pública e validade jurídica originária asseguradas por assinatura e certificação digital emitidas no âmbito da ICP-Brasil, sendo inadmissível dispensar a assinatura eletrônica.",
+    "armadilhaBanca": "CATEGORICO_ABSOLUTO: O trecho \"dispensa a assinatura eletrônica\" nega o requisito indispensável de autenticidade jurídica da ICP-Brasil.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-664"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-664"
+    },
+    "versao_correta": "A versão eletrônica oficial do Diário Oficial da União (DOU) possui eficácia jurídica e autenticidade asseguradas por certificação digital no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)."
   },
   {
     "id": "m6-q-18",
@@ -332,10 +341,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Negar capacidade de gestão de embargo no DSpace.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O DSpace oferece funcionalidade nativa de gestão de embargos, permitindo disponibilizar os metadados descritivos enquanto restringe o acesso ao arquivo integral até o término do período de embargo determinado."
   },
   {
     "id": "m6-q-19",
@@ -349,10 +359,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor efeito destrutivo nacional imediato ao excluir arquivo no DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A exclusão de um item no DSpace restringe-se à base de dados local do repositório, não gerando qualquer comando de exclusão automática nos catálogos ou bases de dados de outras instituições parceiras."
   },
   {
     "id": "m6-q-20",
@@ -362,11 +373,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A plataforma AtoM (Access to Memory) é um software livre baseado na web concebido para a descrição arquivística em conformidade com as normas internacionais do Conselho Internacional de Arquivos (ICA), como a ISAD(G) e a ISAAR(CPF).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. AtoM é o padrão de software de código aberto para difusão e descrição de fundos e coleções arquivísticas.",
+    "justificativa": "Gabarito CERTO. O software livre AtoM (Access to Memory), desenvolvido sob a chancela técnica do Conselho Internacional de Arquivos (ICA), é a plataforma padrão de difusão arquivística na web: foi expressamente arquitetado para suportar as normas internacionais de descrição arquivística multinível ISAD(G), controle de autoridade arquivística ISAAR(CPF), descrição de funções ISDIAH e custodiadores ISDIAH.",
     "armadilhaBanca": "Software arquivístico AtoM e ISAD(G).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -383,10 +394,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Proibir customização de código em software livre.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Em softwares livres e de código aberto como Koha e DSpace, é plenamente assegurado aos usuários e desenvolvedores o direito de estudar, modificar e adaptar o código-fonte conforme as necessidades da instituição."
   },
   {
     "id": "m6-q-22",
@@ -400,10 +412,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir software aplicativo de biblioteca com sistema operacional.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O Biblivre é um aplicativo de automação e gestão de bibliotecas que opera sobre um servidor web (como Apache Tomcat e PostgreSQL), executando-se sob sistemas operacionais como Linux e Windows."
   },
   {
     "id": "m6-q-23",
@@ -411,18 +424,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.1",
     "contexto": "O serviço de referência digital procura transpor o serviço de referência tradici o-",
-    "item": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço físico muito reduzido e podem ser atualizadas constant e- mente, sendo essas características consideradas uma vantagem em comparação às obras de ref e- rência tradicionas.",
+    "item": "As obras eletrônicas disponíveis em linha, como, por exemplo, bases de dados, bibliografias, dicionários e enciclopédias, ocupam espaço físico muito reduzido e podem ser atualizadas constantemente, sendo essas características consideradas uma vantagem em comparação às obras de referência tradicionais.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme Murilo Bastos da Cunha (Construindo o futuro: a biblioteca universitária brasileira em 2010) e Jennifer Rowley, as fontes de referência eletrônicas online eliminam o gargalo de espaço físico nas estantes e possibilitam atualizações dinâmicas e imediatas em bancos de dados remotos, superando a lentidão e o alto custo inerentes à reimpressão de obras de referência tradicionais em papel.",
+    "armadilhaBanca": "VANTAGENS DO ACERVO DE REFERÊNCIA DIGITAL: Identificação precisa dos ganhos de espaço físico e maleabilidade de atualização contínua.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-298",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Cunha, Murilo Bastos da. (2000); Rowley, J. A biblioteca informatizada (1994)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-298",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    }
   },
   {
     "id": "m6-q-24",
@@ -436,10 +449,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir sistema de fluxo editorial (OJS) com digitalizador de microfilmes.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O Open Journal Systems (OJS/SEER) é um sistema para gestão e publicação eletrônica de periódicos científicos que gerencia todo o fluxo editorial, desde a submissão e avaliação por pares cega até a publicação final dos fascículos."
   },
   {
     "id": "m6-q-25",
@@ -449,11 +463,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à arquitetura de repositórios digitais, aos softwares livres de automação de bibliotecas (DSpace, Koha, OJS) e à gestão de documentos eletrônicos, julgue o item a seguir.",
     "item": "A política institucional de informação de um repositório universitário ou parlamentar deve disciplinar os tipos de documentos aceitos, os direitos autorais e licenças de uso (como Creative Commons), as responsabilidades de depósito e a política de preservação digital.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O repositório necessita de governança formalizada para assegurar a idoneidade, legalidade e continuidade dos depósitos.",
+    "justificativa": "Gabarito CERTO. A governança sustentável de repositórios institucionais exige a promulgação de uma Política Institucional de Informação formalizada por ato diretivo do órgão. Essa política estabelece de forma vinculante as diretrizes de submissão (tipologia documental elegível), o mandato de depósito obrigatório, os modelos de licenciamento aberto (Creative Commons), as regras de embargos editoriais e o plano de custódia e preservação digital a longo prazo.",
     "armadilhaBanca": "Políticas de repositório digital.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -464,21 +478,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.2",
     "contexto": "Com relação a conceitos, leis e modelos da ciência da informação, julgue os pr óxi-",
-    "item": "Os estudos da comunicação científica que se fundamentam nas leis epidemiológicas propõem -se a explicar a difusão oral de informações em comunidades científicas de modo análogo ao proce s- so de propagação de epidemias.",
+    "item": "Os estudos da comunicação científica que se fundamentam nas leis epidemiológicas propõem-se a explicar a difusão oral de informações em comunidades científicas de modo análogo ao processo de propagação de epidemias.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Na cientometria e sociologia da ciência (especialmente a partir da Teoria das Epidemias de William Goffman e Warren Newill, 1964), os modelos matemáticos e epidemiológicos de propagação de doenças infecciosas são transpostos para a comunicação científica, demonstrando como ideias inovadoras, teses e teorias se disseminam em cadeia entre pesquisadores de colégios invisíveis por contágio comunicativo.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-146"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-146"
+    }
   },
   {
     "id": "m6-q-27",
@@ -488,11 +502,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "O BDJur — consórcio de bibliotecas digitais que integra repositórios na área do direito — permite o autoarquivamento de documentos digitais em um sistema central mantido pela BDJur do Sup e- rior Tribunal de Justiça.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJDFT/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A Rede BDJur adota uma arquitetura de repositórios distribuídos e descentralizados. Cada tribunal ou instituição parceira mantém e gerencia seu próprio repositório institucional local (onde é feito o autoarquivamento/depósito), e o portal central do STJ atua como provedor de serviços agregador mediante coleta de metadados via OAI-PMH.",
+    "armadilhaBanca": "CENTRALIZACAO_EQUIVOCADA: Descrever a BDJur como sistema monolítico centralizado que recebe autoarquivamento direto em vez de rede federada.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJDFT / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
@@ -500,7 +514,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJDFT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-318031"
-    }
+    },
+    "versao_correta": "O consórcio BDJur opera em arquitetura descentralizada de repositórios institucionais consorciados integrados por colheita de metadados, realizando-se o depósito ou autoarquivamento nos repositórios dos respectivos órgãos de origem."
   },
   {
     "id": "m6-q-28",
@@ -510,11 +525,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é uma especificação técnica aberta baseada em HTTP e XML destinada à colheita automatizada e periódica de metadados entre repositórios digitais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a definição oficial do OAI-PMH: opera sobre a camada de transporte web (HTTP) com respostas encapsuladas em XML, permitindo colheitas incrementais.",
+    "justificativa": "Gabarito CERTO. O protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) é o padrão de interoperabilidade hegemônico para colheita automatizada de metadados em repositórios digitais: opera na camada de aplicação utilizando o protocolo HTTP (métodos GET e POST) e retorna respostas estruturadas exclusivamente em esquemas XML padronizados, permitindo colheitas completas ou incrementais baseadas em registros de data/hora.",
     "armadilhaBanca": "Conceito fundamental do OAI-PMH.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -525,13 +540,13 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.2",
     "contexto": "Julgue os próximos itens em relação ao marketing em unidades de informação.",
-    "item": "O relatório pode ser utilizado como instrumento não só de planejamento para fornecimento de subsídios no aprimoramento de serviços da biblioteca, mas também de marketing para divulg a- ção e prestação de conta aos dirigentes e à comunidade potencialmente atingida.",
+    "item": "O relatório pode ser utilizado como instrumento não só de planejamento para fornecimento de subsídios no aprimoramento de serviços da biblioteca, mas também de marketing para divulgação e prestação de conta aos dirigentes e à comunidade potencialmente atingida.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Na administração de unidades de informação (Almeida, Stueart & Moran), o relatório anual de atividades transcende a mera formalidade burocrática de registro estatístico: atua simultaneamente como instrumento diagnóstico de controle para reorientar o planejamento operacional e como peça de marketing e comunicação institucional (accountability) para prestar contas à sociedade sobre a relevância pública da biblioteca.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -553,10 +568,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o modelo de busca em tempo real do Z39.50 com o modelo de colheita em lote do OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O protocolo Z39.50 opera pelo modelo de consulta distribuída e recuperação em tempo real em catálogos remotos, diferindo fundamentalmente do OAI-PMH, cuja arquitetura baseia-se na colheita periódica assíncrona de metadados em lote (harvesting)."
   },
   {
     "id": "m6-q-31",
@@ -570,7 +586,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -588,11 +604,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "O padrão SRU/SRW (Search/Retrieve via URL e Web Service) é a evolução moderna e simplificada do Z39.50 para o ambiente web, utilizando requisições HTTP RESTful ou SOAP e retornando resultados em formatos padronizados como XML e JSON.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. SRU (via URL) e SRW (via Web Services) adaptaram a robustez de busca do antigo Z39.50 para a arquitetura nativa da internet.",
+    "justificativa": "Gabarito CERTO. Os padrões SRU (Search/Retrieve via URL) e SRW (Search/Retrieve via Web Service), desenvolvidos sob a tutela da Library of Congress, representam a evolução contemporânea do antigo e pesado protocolo Z39.50: transladam toda a riqueza expressiva de consultas catalográficas distribuídas para a arquitetura nativa da World Wide Web, utilizando requisições RESTful e respostas estruturadas em XML/JSON com o esquema CQL.",
     "armadilhaBanca": "SRU/SRW como evolução web do Z39.50.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -609,7 +625,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -631,10 +647,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Negar a padronização dos 6 verbos do OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O protocolo OAI-PMH define um padrão restrito e rigoroso de exatamente seis verbos de requisição: Identify, ListMetadataFormats, ListSets, ListIdentifiers, ListRecords e GetRecord."
   },
   {
     "id": "m6-q-35",
@@ -644,11 +661,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "Na arquitetura do OAI-PMH, distinguem-se duas entidades operacionais fundamentais: o Provedor de Dados (Data Provider), que armazena e expõe os metadados para colheita, e o Provedor de Serviços (Service Provider), que colhe os metadados para oferecer serviços agregados de busca aos usuários.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Trata-se da dualidade básica de papéis no OAI-PMH (ex: o repositório da Câmara é um Provedor de Dados; o Oasisbr/Ibict é um Provedor de Serviços agregador).",
+    "justificativa": "Gabarito CERTO. A arquitetura de funcionamento do OAI-PMH apoia-se na dicotomia funcional de papéis: o 'Provedor de Dados' (Data Provider / Repositório) hospeda os itens digitais e expõe seus metadados de forma aberta para harvesting na internet; enquanto o 'Provedor de Serviços' (Service Provider / Agregador, como o Oasisbr do Ibict) colhe periodicamente os metadados de múltiplos repositórios para construir portais unificados de busca federada.",
     "armadilhaBanca": "Provedores de dados e de serviços no OAI-PMH.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -661,19 +678,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de sistemas de informação automatizados, julgue os itens que se seguem.",
     "item": "MySQL, DSpace, PostgreSQL, Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O item mistura diferentes categorias de software e tecnologias da informação: MySQL e PostgreSQL são de fato SGBDs relacionais; DSpace é um software de repositório digital; Joomla é um CMS (sistema de gerenciamento de conteúdo para portais); e SQL é uma linguagem declarativa padronizada para manipulação de banco de dados, e não um SGBD.",
+    "armadilhaBanca": "MISTURA_DE_CATEGORIAS: Agrupar CMS, repositório digital e linguagem SQL na mesma definição de Sistemas Gerenciadores de Banco de Dados.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1616"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1616"
+    },
+    "versao_correta": "MySQL e PostgreSQL são sistemas gerenciadores de bancos de dados relacionais (SGBD), ao passo que DSpace é uma plataforma de repositório digital, Joomla é um sistema de gerenciamento de conteúdo (CMS) e SQL é uma linguagem padrão de consulta."
   },
   {
     "id": "m6-q-37",
@@ -683,11 +701,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No Dublin Core qualificado, utilizam-se refinamentos de elementos e esquemas de codificação controlada para aumentar a precisão semântica da descrição, a exemplo de especificar que uma data é de publicação (`date.issued`) ou de criação (`date.created`).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Dublin Core qualificado refina os 15 elementos básicos introduzindo qualificadores e vocabulários controlados.",
+    "justificativa": "Gabarito CERTO. O Dublin Core Qualificado (Qualified Dublin Core) expande o conjunto canônico dos 15 elementos básicos originais mediante a introdução de 'qualificadores de refinamento de elemento' (que tornam o significado mais específico, como `date.created` e `date.issued`) e 'esquemas de codificação controlada' (que vinculam o valor a vocabulários controlados formais ou regras estruturadas, como ISO 8601 ou LCSH).",
     "armadilhaBanca": "Dublin Core qualificado e qualificadores.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -704,7 +722,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso EBESERH/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -726,10 +744,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir GetRecord (registro individual) com ListRecords (múltiplos registros).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O verbo GetRecord do OAI-PMH destina-se a recuperar os metadados de um único registro específico indicado por seu identificador exclusivo, ao passo que a listagem de múltiplos identificadores é realizada pelo verbo ListIdentifiers."
   },
   {
     "id": "m6-q-40",
@@ -739,19 +758,19 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de recursos e serviços de informação digitais, julgue os próximos itens.",
     "item": "O Bielefeld Academic Search Engine (BASE), uma iniciativa de acesso aberto à informação científica, constitui um provedor de serviços que, por meio de interface web, disponibiliza serviço de pesquisa que propicia busca simultânea de informações em metadados de bibliotecas digitais, periódicos científicos, repositórios institucionais e repositórios temáticos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. O Bielefeld Academic Search Engine (BASE), operado pela Biblioteca da Universidade de Bielefeld, é um dos mais robustos provedores de serviços OAI-PMH do mundo: indexa metadados de dezenas de milhões de recursos científicos hospedados em milhares de repositórios institucionais e portais de periódicos acadêmicos globais, oferecendo busca simultânea e filtrada para literatura científica em acesso aberto.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso FUB/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-493"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-493"
+    }
   },
   {
     "id": "m6-q-41",
@@ -761,19 +780,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito aos estudos de usuários, julgue os itens subsequentes.",
     "item": "A escolha de um método para a realização de estudos de usuários depende, entre outros fatores, dos tipos de dados que se pretende obter. Nesse sentido, o método mais apropriado para se c o- nhecer o perfil socioeconômico de uma comunidade é a entrevista.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Para levantar o perfil socioeconômico e demográfico de uma comunidade inteira, o método mais adequado e eficiente é o questionário estruturado (técnica quantitativa com perguntas fechadas), viabilizando grande alcance amostral. A entrevista é um método qualitativo e custoso, indicado para aprofundar impressões e percepções individuais.",
+    "armadilhaBanca": "ESCOLHA_METODOLOGICA_INADEQUADA: Indicar a entrevista (qualitativa/profunda) em vez do questionário para apuração de perfil socioeconômico amplo.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / MPU / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-229001",
-        "ano": 2013,
-        "orgao": "MPU",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "229001"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / MPU / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-229001",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "229001"
+    },
+    "versao_correta": "O método mais apropriado para traçar o perfil socioeconômico de uma comunidade ampla é o questionário estruturado, dada sua eficácia na coleta de dados demográficos e estatísticos em larga escala com menor custo."
   },
   {
     "id": "m6-q-42",
@@ -787,10 +807,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Afirmar que Dublin Core tem 500 elementos obrigatórios não repetíveis.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O conjunto básico do Dublin Core Simples é composto por 15 elementos descritivos, sendo todos eles opcionais e repetíveis."
   },
   {
     "id": "m6-q-43",
@@ -800,19 +821,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "O conhecimento empírico do bibliotecário indexador acerca da linguagem documentária a ser utilizada é requisito essencial para se garantir a fidelidade dos dados do repositório.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A garantia da fidelidade e consistência dos dados indexados em repositórios decorre do conhecimento técnico, científico e normativo do profissional sobre linguagens documentárias, vocabulários controlados e padrões de metadados, e não de mero conhecimento \"empírico\" ou intuitivo.",
+    "armadilhaBanca": "QUALIFICADOR_INADEQUADO: O termo \"conhecimento empírico\" minimiza o rigor técnico e científico exigido na aplicação de linguagens documentárias.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180933",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180933"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180933",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180933"
+    },
+    "versao_correta": "O conhecimento técnico e especializado do bibliotecário acerca da linguagem documentária e dos padrões de metadados é indispensável para assegurar a consistência, a interoperabilidade e a recuperação precisa dos dados no repositório."
   },
   {
     "id": "m6-q-44",
@@ -822,19 +844,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de recursos e serviços de informação digitais, julgue os próximos itens.",
     "item": "Repositórios institucionais e repositórios temáticos, em razão de exercerem a função de provedores de dados no modelo de arquivos abertos, não são indexados pelo Google Scholar, pois o protocolo de comunicação que utilizam, o OAI -PMH, é compatível com provedores de serviços, como o OAISTER.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2011, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2011: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Repositórios institucionais e temáticos SÃO amplamente indexados pelo Google Acadêmico (Google Scholar). Os rastreadores do Google Scholar varrem as páginas HTML dos repositórios e extraem automaticamente os metadados bibliográficos estruturados (Dublin Core e Highwire Press) embutidos no código da página.",
+    "armadilhaBanca": "PREMISSA_FALSA: Afirmar categoricamente que repositórios digitais \"não são indexados pelo Google Scholar\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-492"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-492"
+    },
+    "versao_correta": "Repositórios institucionais e temáticos são amplamente indexados pelo Google Scholar e por outros motores de busca acadêmicos, os quais mapeiam as tags de metadados estruturados (como Dublin Core) contidas nas páginas dos itens."
   },
   {
     "id": "m6-q-45",
@@ -844,19 +867,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de automação de bibliotecas, redes de bibliotecas e bibliotecas digitais,",
     "item": "O DSpace é um software livre amplamente utilizado para a automação de bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SEE-DF/2016, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEE-DF/2016: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O DSpace é software de repositório institucional e biblioteca digital para guarda e acesso aberto da produção científica e intelectual. Softwares de automação de bibliotecas (SGB/ILS) são aqueles destinados ao controle de empréstimos, circulação, renovação e aquisição física (ex.: Koha, Biblivre, Pergamum).",
+    "armadilhaBanca": "CONFUSAO_DE_ESCOPO: Confundir software de repositório digital (DSpace) com software de automação de rotinas de biblioteca (Koha/Biblivre).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEE-DF/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-699"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEE-DF/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-699"
+    },
+    "versao_correta": "O DSpace é um software livre voltado ao gerenciamento de repositórios institucionais e bibliotecas digitais, ao passo que a automação dos serviços tradicionais de bibliotecas (empréstimo, circulação, inventário físico) é executada por sistemas integrados como Koha ou Biblivre."
   },
   {
     "id": "m6-q-46",
@@ -866,11 +890,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "No OAI-PMH, a requisição que utiliza o verbo `Identify` retorna informações globais sobre o repositório, incluindo o nome institucional, a URL base, a versão do protocolo suportada, o e-mail do administrador e a política de exclusão de registros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É a função primária do verbo `Identify`: fornecer a descrição formal e técnica do repositório colhido.",
+    "justificativa": "Gabarito CERTO. No protocolo OAI-PMH, a especificação técnica prescreve seis verbos de requisição: o verbo `Identify` é utilizado para recuperar metadados de alto nível sobre o próprio repositório (identificador institucional, nome do repositório, URL base, versão do protocolo OAI-PMH suportada, e-mail do mantenedor técnico e política de granularidade e exclusão de registros).",
     "armadilhaBanca": "Verbo Identify no OAI-PMH.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -887,7 +911,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Uso do resumptionToken no OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -900,11 +924,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da interoperabilidade de sistemas documentais, do protocolo OAI-PMH, do conjunto de elementos Dublin Core e dos padrões de troca de dados bibliográficos, julgue o item a seguir.",
     "item": "A especificação do OAI-PMH estabelece o suporte ao formato Dublin Core simples (oai_dc) codificado em XML como requisito mínimo obrigatório para qualquer repositório em conformidade com o protocolo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Para garantir interoperabilidade universal mínima, todo provedor de dados OAI-PMH DEVE ser capaz de entregar metadados no esquema `oai_dc`.",
+    "justificativa": "Gabarito CERTO. Como condição essencial e mandatória para assegurar a interoperabilidade universal mínima entre sistemas informáticos heterogêneos, a especificação do OAI-PMH determina que todo e qualquer Provedor de Dados compatível DEVE ser capaz de fornecer respostas codificadas no formato Dublin Core Simples (oai_dc) sem qualificadores, encapsulado no esquema XML correspondente.",
     "armadilhaBanca": "Obrigatoriedade do oai_dc no OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -921,10 +945,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Creator (autor) com Publisher ou gráfica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "No esquema Dublin Core Simples, o elemento Creator designa o criador intelectual primário do conteúdo da obra (como o autor pessoal ou institucional), enquanto a entidade publicadora ou produtora é descrita no elemento Publisher."
   },
   {
     "id": "m6-q-50",
@@ -938,10 +963,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Atribuir função espúria de transferência de jogos ao OAI-PMH.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O protocolo OAI-PMH foi desenvolvido especificamente para a colheita e intercâmbio de registros de metadados estruturados em XML (como Dublin Core), e não para a transmissão de arquivos executáveis de grande porte."
   },
   {
     "id": "m6-q-51",
@@ -951,11 +977,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "A proveniência dos dados (data provenance) registra a linhagem, a cadeia de custódia, os métodos experimentais e as transformações sofridas pelos dados desde sua geração original, sendo crucial para a validação da credibilidade científica.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Proveniência assegura a rastreabilidade e a transparência metodológica, aspecto formal contemplado pelo requisito R1.2 do FAIR.",
+    "justificativa": "Gabarito CERTO. A proveniência de dados (data provenance) é um elemento crítico da integridade e reprodutibilidade científica na Ciência Aberta: consiste no registro detalhado de metadados sobre a cadeia de custódia, autoria, condições ambientais de coleta, instrumentos laboratoriais utilizados e transformações analíticas aplicadas ao dado desde sua criação primária, atendendo aos requisitos de Reutilização (R1.2) dos Princípios FAIR.",
     "armadilhaBanca": "Proveniência e linhagem dos dados.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -972,7 +998,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SEE-DF/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SEE DF / 2017 (Adaptada)",
       "verificado": true,
       "provaId": "GPPGE (SEE DF)/SEE DF/Biblioteconomia/2017",
@@ -990,19 +1016,19 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos processos de automação, julgue os itens subsequentes.",
     "item": "O protocolo de pesquisa e recuperação de informações Z39.50 é um padrão compatível com o formato MARC, que possibilita acessar, simultaneamente, da mesma interface, os catálogos da biblioteca local e os das maiores bibliotecas do mundo.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. O protocolo Z39.50 (norma internacional ISO 23950 e ANSI/NISO Z39.50) é um padrão de comunicação na camada de aplicação em arquitetura cliente-servidor concebido para viabilizar consultas catalográficas distribuídas simultâneas em múltiplos acervos de bibliotecas mundiais, transacionando registros bibliográficos padronizados no formato MARC e suportando cooperação em rede.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-913"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-913"
+    }
   },
   {
     "id": "m6-q-54",
@@ -1012,11 +1038,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Os Princípios FAIR, formulados em 2016 pela comunidade científica internacional, estabelecem que os dados e metadados de pesquisa devem ser Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), tanto por seres humanos quanto por sistemas computacionais automatizados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Os Princípios FAIR (Wilkinson et al., 2016) são o marco universal contemporâneo da gestão de dados de pesquisa e da Ciência Aberta.",
+    "justificativa": "Gabarito CERTO. Publicados por Mark Wilkinson et al. na Nature Scientific Data em 2016, os Princípios FAIR fornecem o padrão internacional de governança de dados científicos: estabelecem que conjuntos de dados e seus respectivos metadados devem ser Localizáveis (Findable), Acessíveis (Accessible), Interoperáveis (Interoperable) e Reutilizáveis (Reusable), otimizando a descoberta tanto para pesquisadores humanos quanto para agentes autônomos de IA.",
     "armadilhaBanca": "Conceito e sigla dos Princípios FAIR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1033,10 +1059,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar pen-drive em gaveta compatível com Findable.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O princípio FAIR de Localizabilidade (Findable) exige a atribuição de identificadores persistentes e globalmente exclusivos (como DOI ou Handle), acompanhados de metadados ricos e indexados em plataformas de busca."
   },
   {
     "id": "m6-q-56",
@@ -1046,11 +1073,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de informática para bibliotecas, julgue os itens subsequentes.",
     "item": "A tecnologia de voz sobre IP (VoIP) permite a transmissão de sinais de voz e de imagem org a- nizados em pacotes de dados IP em uma rede que utilize o protocolo TCP/IP.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O conceito de VoIP (Voice over IP) restringe-se à transmissão de sinais de voz (áudio) sobre o protocolo de internet (IP). A transmissão coordenada de voz e vídeo constitui serviço multimídia de videoconferência ou telepresença, que utiliza padrões adicionais.",
+    "armadilhaBanca": "EXTENSAO_INDEVIDA: Ampliar a definição estrita de VoIP (apenas voz) para incluir sinais de imagem/vídeo.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -1058,7 +1085,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "MPU",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-228956"
-    }
+    },
+    "versao_correta": "A tecnologia de voz sobre IP (VoIP) converte e transmite especificamente sinais de áudio (voz) em pacotes de dados pela rede IP, ao passo que a transmissão simultânea de voz e imagem caracteriza as aplicações de videoconferência digital."
   },
   {
     "id": "m6-q-57",
@@ -1068,11 +1096,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de informática para bibliotecas, julgue os itens subsequentes.",
     "item": "O protocolo HTTP é utilizado para a transferência de hipertextos, enquanto o protocolo FTP é utilizado para transferência de arquivos.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Na arquitetura da suíte de protocolos TCP/IP: o HTTP (Hypertext Transfer Protocol, porta padrão 80 ou 443 em HTTPS) opera na camada de aplicação para a transferência e renderização de hipermídia e páginas web em navegadores; enquanto o FTP (File Transfer Protocol, portas de controle 21 e dados 20) destina-se especificamente à transferência confiável e manipulação de arquivos inteiros entre sistemas cliente e servidor.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MPU / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana MPU/MPU/Biblioteconomia/2013",
@@ -1088,18 +1116,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.3",
     "contexto": "Julgue os próximos itens, relativos à biblioteconomia e à ciência da informação.",
-    "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à catalogação e ao atendimento ao cliente, deve -se basear em so f- twares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
+    "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquisição, à catalogação e ao atendimento ao cliente, deve-se basear em softwares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Na automação bibliotecária (Rowley, Ribeiro), a cooperação em rede e o intercâmbio de registros bibliográficos exigem conformidade estrita com padrões internacionais: formatos de metadados legíveis por computador (MARC21, UNIMARC), regras descritivas de catalogação (AACR2/RDA) e protocolos abertos de comunicação cliente-servidor (ANSI/NISO Z39.50), viabilizando importação de registros e busca distribuída.",
+    "armadilhaBanca": "CONVERGÊNCIA DE PADRÕES BIBLIOGRÁFICOS: Articulação coerente entre formatos de intercâmbio (MARC/UNIMARC), código de catalogação (AACR2) e protocolo de busca (Z39.50).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-92",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Rowley, J. (1994); Furrie, D. O que é o MARC 21? (2000); Protocolo NISO Z39.50",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-92",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    }
   },
   {
     "id": "m6-q-59",
@@ -1113,10 +1141,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Impor abertura obrigatória de dados médicos e segredos de Estado no FAIR.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Os princípios FAIR orientam-se pelo preceito de que os dados devem ser tão abertos quanto possível e tão fechados quanto necessário, admitindo salvaguardas e restrições legítimas de acesso para resguardar a privacidade de dados pessoais sensíveis ou segredos industriais."
   },
   {
     "id": "m6-q-60",
@@ -1126,11 +1155,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O Protocolo Z39.19 é uma evolução do Z39.50, embora seja mais específico para bibliotecas digitais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso ANTT/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A norma ANSI/NISO Z39.19 não é uma evolução do protocolo Z39.50. A norma Z39.19 estabelece diretrizes e boas práticas para a construção, estruturação e manutenção de vocabulários controlados monolíngues (tesauros, listas de termos autorizados), enquanto o Z39.50 é um protocolo de comunicação para busca e recuperação de registros em redes.",
+    "armadilhaBanca": "FALSA_EVOLUCAO: Associar o padrão de tesauros Z39.19 como uma evolução do protocolo de busca federada Z39.50.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ANTT / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AA (ANTT)/ANTT/Biblioteconomia/2013",
@@ -1138,7 +1167,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "ANTT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-206246"
-    }
+    },
+    "versao_correta": "A norma ANSI/NISO Z39.19 trata de diretrizes para a elaboração, formato e gestão de vocabulários controlados monolíngues (tesauros e termos de indexação), não constituindo uma evolução do protocolo de busca e recuperação de registros Z39.50."
   },
   {
     "id": "m6-q-61",
@@ -1152,7 +1182,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Requisito de acessibilidade FAIR (A1.1).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1165,11 +1195,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "O Dataverse é um software livre de repositório especializado na gestão, compartilhamento e citação de dados brutos de pesquisa (datasets), permitindo o versionamento de dados e a geração automática de citações formais com DOI.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Desenvolvido na Universidade de Harvard, o Dataverse é uma das plataformas livres mais adotadas mundialmente para repositórios de dados de pesquisa.",
+    "justificativa": "Gabarito CERTO. Desenvolvido originalmente pelo Institute for Quantitative Social Science (IQSS) da Universidade de Harvard, o Dataverse é uma aplicação web de código aberto especializada na custódia e disseminação de dados brutos de pesquisa (research data repositories), permitindo aos pesquisadores publicar datasets estruturados, atribuir identificadores persistentes DOI e gerar citações bibliográficas padronizadas de dados.",
     "armadilhaBanca": "Software Dataverse para dados de pesquisa.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1186,10 +1216,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Repudiar e proibir citação de dados de pesquisa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A citação formal de conjuntos de dados de pesquisa é amplamente preconizada pela comunidade científica internacional, garantindo o devido crédito aos seus criadores e promovendo a reprodutibilidade dos estudos empíricos."
   },
   {
     "id": "m6-q-64",
@@ -1203,10 +1234,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Considerar imagem JPEG padrão ideal de dados abertos legíveis por máquina.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Os padrões técnicos de dados abertos governamentais exigem a disponibilização de informações em formatos estruturados e legíveis por máquina (como CSV, JSON ou XML), não sendo admitida a sua conversão em imagens não processáveis automaticamente."
   },
   {
     "id": "m6-q-65",
@@ -1220,10 +1252,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir licenças de uso em dados reutilizáveis.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Para atender ao princípio FAIR de Reutilização (Reusable), os dados e metadados devem dispor de licenças de uso claras, expressas e acessíveis (como as licenças Creative Commons ou Open Data Commons), estabelecendo as condições para sua reutilização."
   },
   {
     "id": "m6-q-66",
@@ -1233,11 +1266,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Para atender ao princípio de 'Interoperabilidade' (Interoperable) do FAIR, os dados e metadados devem utilizar linguagens de representação do conhecimento formais, acessíveis e compartilhadas (como RDF, OWL, XML e JSON-LD) e vocabulários ontológicos controlados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o requisito I1 dos Princípios FAIR: a interoperabilidade requer padrões sintáticos e semânticos comuns de Web Semântica.",
+    "justificativa": "Gabarito CERTO. O princípio da Interoperabilidade (I1) da matriz FAIR estabelece que, para viabilizar a troca e o cruzamento de dados sem atritos conceituais, tanto os dados quanto os metadados associados devem ser modelados formalmente em linguagens de representação do conhecimento internacionalmente compartilhadas (como RDF, OWL, Turtle, JSON-LD e XML) e fundamentados em vocabulários ontológicos controlados.",
     "armadilhaBanca": "Interoperabilidade segundo os princípios FAIR.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1250,19 +1283,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L legislativo e Judiciário em suas esferas municipais, estaduais e na federal, o portal LexML faz uso do protocolo de coleta de metadados Z39.50.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A arquitetura de interoperabilidade e agregação do portal LexML Brasil adota o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) para coletar periodicamente metadados em formato XML estruturado dos órgãos legislativos e do Poder Judiciário em âmbito nacional.",
+    "armadilhaBanca": "TROCA_DE_PROTOCOLO: Atribuir a colheita de metadados do LexML ao protocolo Z39.50 em vez do OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-682"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-682"
+    },
+    "versao_correta": "O portal LexML Brasil utiliza o protocolo OAI-PMH para a coleta periódica e centralização dos metadados de informações legislativas e jurídicas dos órgãos parceiros em XML, e não o protocolo Z39.50."
   },
   {
     "id": "m6-q-68",
@@ -1276,7 +1310,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Modelo 5 Estrelas de Tim Berners-Lee.",
     "dificuldade": "dificil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1289,11 +1323,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de novas tecnologias, julgue os itens a seguir.",
     "item": "A Internet funciona por meio do protocolo TCP/ IP, em que o TCP organiza a rota dos dados e o IP quebra os dados dos pacotes enviados e recebidos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso FUB/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O item inverteu as funções dos dois protocolos fundamentais: o TCP (camada de transporte) é responsável por segmentar os dados em pacotes, controlar erros, sequenciar e garantir a entrega íntegra da mensagem; o IP (camada de rede) é quem realiza o endereçamento lógico e o roteamento dos pacotes pelo melhor caminho.",
+    "armadilhaBanca": "INVERSAO_CONCEITUAL: Inverter os papéis entre TCP (divisão e integridade dos pacotes) e IP (roteamento e endereçamento).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2013",
@@ -1301,7 +1335,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-346473"
-    }
+    },
+    "versao_correta": "Na arquitetura TCP/IP, o TCP é responsável pela segmentação dos dados em pacotes, pelo controle de fluxo e pela garantia de integridade da entrega, enquanto o IP cuida do endereçamento lógico e do roteamento dos pacotes pela rede."
   },
   {
     "id": "m6-q-70",
@@ -1309,21 +1344,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.3",
     "contexto": "Considerando que as informações apresentadas acima estejam disponíveis somente na web e",
-    "item": "O Aleph é um sistema de gerenciamento de bibliotecas que possui as seguinte s características: arquitetura cliente-servidor, registros bibliográficos adaptados ao padrão MARC, compatibilidade com os protocolos de comunicação da WWW e Z39.50.",
+    "item": "O Aleph é um sistema de gerenciamento de bibliotecas que possui as seguintes características: arquitetura cliente-servidor, registros bibliográficos adaptados ao padrão MARC, compatibilidade com os protocolos de comunicação da WWW e Z39.50.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STF/2008, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. O Aleph (desenvolvido pela Ex Libris) é um dos sistemas integrados de gestão de bibliotecas (SIGB/ILS) mais utilizados por redes legislativas e judiciárias no Brasil (sendo a base histórica da Rede Virtual de Bibliotecas - RVBI do Congresso Nacional): opera em arquitetura cliente-servidor robusta, estruturado sobre o padrão de metadados MARC 21 e integrado nativamente aos protocolos WWW e Z39.50.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STF/2008.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
-        "verificado": true,
-        "provaId": "STF/2008",
-        "ano": 2008,
-        "orgao": "2008",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-922"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
+      "verificado": true,
+      "provaId": "STF/2008",
+      "ano": 2008,
+      "orgao": "2008",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-922"
+    }
   },
   {
     "id": "m6-q-71",
@@ -1333,19 +1368,20 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de automação, de bibliotecas e de sistemas de informação em ambiente",
     "item": "O protocolo de comunicação para coletar metadados utilizado pelo LexML é o Z39.50.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRT21/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRT21/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O LexML Brasil utiliza expressamente o protocolo OAI-PMH para realizar a colheita em lote (harvesting) dos esquemas de metadados Dublin Core e padrões legislativos XML junto aos provedores de dados da rede governamental.",
+    "armadilhaBanca": "TROCA_DE_PROTOCOLO: Indicar o protocolo de busca remota Z39.50 em vez do protocolo de colheita OAI-PMH.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRT21/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-855"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRT21/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-855"
+    },
+    "versao_correta": "O protocolo de comunicação adotado pelo LexML Brasil para realizar a colheita de metadados das bases de dados legislativas e jurídicas consorciadas é o OAI-PMH."
   },
   {
     "id": "m6-q-72",
@@ -1355,11 +1391,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à gestão e curadoria de dados de pesquisa, aos Princípios FAIR e aos repositórios de dados abertos científicos e governamentais, julgue o item a seguir.",
     "item": "Um Plano de Gestão de Dados (PGD) é um documento formal que descreve como os dados serão coletados, processados, organizados, documentados com metadados, armazenados com segurança, compartilhados e preservados ao longo do ciclo de vida de um projeto de pesquisa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Instrumento de governança de dados exigido por agências de fomento (como FAPESP e CNPq) e instituições internacionais de fomento.",
+    "justificativa": "Gabarito CERTO. O Plano de Gestão de Dados (PGD / Data Management Plan) é o instrumento formal e normativo que descreve todo o ciclo de vida dos dados em um projeto científico financiado: disciplina os formatos de arquivo abertos a serem utilizados, os padrões de metadados para catalogação, os procedimentos de custódia e backup seguro, as questões de privacidade e sigilo legal e o repositório institucional onde os dados serão preservados.",
     "armadilhaBanca": "Conceito e função do Plano de Gestão de Dados (PGD).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1372,11 +1408,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Em relação à editoração de periódicos eletrônicos, julgue os itens a seguir.",
     "item": "Sistemas com protocolo Z39.50 propiciam a realização de pesquisa em um sistema de informação distribuído por meio de diversas interfaces de busca.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A principal vantagem do protocolo de busca federada Z39.50 é permitir que o usuário consulte múltiplos catálogos e bases heterogêneas e distribuídas a partir de UMA ÚNICA interface de busca padronizada, eliminando a necessidade de acessar interfaces diversas para cada catálogo.",
+    "armadilhaBanca": "INVERSAO_DO_BENEFICIO: Afirmar que a pesquisa é feita por meio de \"diversas interfaces\", quando a meta é a interface única padronizada.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1384,7 +1420,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104078"
-    }
+    },
+    "versao_correta": "O protocolo Z39.50 propicia a realização de consultas integradas a múltiplos sistemas de informação distribuídos por meio de uma única interface de busca padronizada."
   },
   {
     "id": "m6-q-74",
@@ -1398,10 +1435,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Reduzir curadoria digital a ato momentâneo de upload.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A curadoria digital de dados de pesquisa é um processo contínuo e ativo que abrange todo o ciclo de vida dos dados, mantendo sua integridade, usabilidade e contextualização a longo prazo, mesmo após o depósito inicial."
   },
   {
     "id": "m6-q-75",
@@ -1409,21 +1447,21 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.3",
     "contexto": "Considerando a Resolução n.º 8/2007 do Superior Tribunal de Justiça (STJ), julgue os",
-    "item": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em conco r- dância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
+    "item": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em concordância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
+    "justificativa": "Gabarito CERTO. Conforme as disposições da Medida Provisória nº 2.200-2/2001 e a Lei nº 11.419/2006 (Informatização do Processo Judicial), as publicações oficiais em órgãos como o Diário da Justiça Eletrônico exigem assinatura digital com certificados emitidos pela cadeia ICP-Brasil, assegurando eficácia probatória em presunção legal absoluta de autenticidade, integridade do documento e não repúdio.",
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-604"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-604"
+    }
   },
   {
     "id": "m6-q-76",
@@ -1437,10 +1475,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Defender a trituração de originais históricos após digitalização.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A aplicação de soluções de Inteligência Artificial e a digitalização de documentos não autorizam a eliminação de acervos históricos e patrimoniais originais, cuja guarda e preservação física continuam respaldadas pela legislação de patrimônio cultural."
   },
   {
     "id": "m6-q-77",
@@ -1454,7 +1493,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio Human-in-the-Loop em ambientes governamentais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1471,10 +1510,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar conformidade na violação de privacidade de leitores com IA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O tratamento de dados pessoais de leitores para treinamento de sistemas de inteligência artificial submete-se estritamente à LGPD (Lei nº 13.709/2018), exigindo base legal válida, salvaguardas de anonimização e rigoroso respeito à privacidade."
   },
   {
     "id": "m6-q-79",
@@ -1488,7 +1528,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1506,11 +1546,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "O uso de técnicas de Reconhecimento Óptico de Caracteres (OCR) associadas a modelos de inteligência artificial de visão computacional permite transformar documentos históricos impressos ou datilografados da Câmara em textos digitais pesquisáveis em bases de dados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O OCR moderno com redes neurais garante alta taxa de acerto no reconhecimento de caracteres em fontes históricas e manuscritos parlamentares.",
+    "justificativa": "Gabarito CERTO. O emprego de tecnologias modernas de Reconhecimento Óptico de Caracteres (OCR) dotadas de redes neurais artificiais e modelos de visão computacional permite processar imagens de documentos históricos, jornais antigos e diários parlamentares microfilmados ou digitalizados, convertendo a imagem estática de pixels em camadas de texto digital pesquisáveis em texto integral pelos motores de busca.",
     "armadilhaBanca": "OCR e visão computacional em arquivos históricos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1527,7 +1567,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1549,10 +1589,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir alucinação textual com superaquecimento de hardware.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Em Grandes Modelos de Linguagem (LLMs), a alucinação consiste na geração de respostas plausíveis e sintaticamente corretas, porém dotadas de informações factualmente falsas, referências forjadas ou dados inexistentes."
   },
   {
     "id": "m6-q-83",
@@ -1562,11 +1603,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de documentação e ciência da informação, julgue os itens.",
     "item": "Na representação primária do documento, isto é, na identificação e hierarquização de conceitos presentes no item bibliográfico, aplica-se a epistemologia.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso EBESERH/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A representação temática/primária do documento na análise documental emprega princípios de análise de assunto, terminologia, linguística aplicada e linguagens documentárias (vocabulários controlados e tesauros). A epistemologia é o ramo filosófico que estuda a natureza e validade do conhecimento humano geral, não se constituindo na técnica aplicada de indexação.",
+    "armadilhaBanca": "CONFUSAO_DISCIPLINAR: Atribuir a técnica de análise de assunto da indexação documental à disciplina filosófica da epistemologia.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -1574,7 +1615,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646318"
-    }
+    },
+    "versao_correta": "Na representação temática e conceitual do documento, aplicam-se princípios da linguística documentária, da terminologia e dos métodos de indexação para a identificação e estruturação dos conceitos presentes no texto."
   },
   {
     "id": "m6-q-84",
@@ -1588,7 +1630,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Definição canônica de Retrieval-Augmented Generation (RAG).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1605,7 +1647,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Embeddings semânticos em bibliotecas digitais.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1616,18 +1658,18 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "macroModuloId": "M6",
     "submoduloId": "6.4",
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
-    "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva.",
+    "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e doutrina, a qual diz respeito à informação jurídica descritiva.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Segundo a clássica tipologia da informação jurídica estabelecida por Edilenice Passos (Informação Jurídica: teoria e prática), a área apoia-se em três pilares fundamentais: 1) Legislação — normas de cumprimento obrigatório expedidas pelo Estado; 2) Jurisprudência — decisões reiteradas emanadas dos tribunais do Judiciário; e 3) Doutrina — produção bibliográfica, ensaios e tratados teóricos produzidos por juristas e acadêmicos, categorizada funcionalmente como informação jurídica descritivo-interpretativa.",
+    "armadilhaBanca": "TRIPARTIÇÃO DA INFORMAÇÃO JURÍDICA: Classificação canônica da literatura jurídica e exata identificação da doutrina como categoria descritiva.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-5",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Passos, Edilenice. Informação jurídica: teoria e prática (2002); Macêdo, N. D. (1997)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-5",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    }
   },
   {
     "id": "m6-q-87",
@@ -1641,7 +1683,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CAPES/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1663,10 +1705,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir álgebra linear de vetores com contagem física de papel.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Em arquiteturas de busca vetorial, a similaridade por cosseno ou a distância euclidiana é calculada por operações algébricas sobre as coordenadas numéricas dos vetores densos (embeddings) no espaço semântico multidimensional."
   },
   {
     "id": "m6-q-89",
@@ -1676,11 +1719,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A noção ampla do conceito de documento, adotada pela biblioteconomia desde seu surgimento, foi reafirmada com o surgimento da documentação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A Biblioteconomia clássica tradicional possuía uma visão restrita e bibliocêntrica de documento, centrada primordialmente no livro impresso. Foi o surgimento da Documentação (Paul Otlet com o Tratado de Documentação e Suzanne Briet com a famosa conceituação do antílope) que ampliou radicalmente o conceito de documento para abranger qualquer suporte ou objeto informativo.",
+    "armadilhaBanca": "PREMISSA_HISTORICA_FALSA: Afirmar que a biblioteconomia clássica adotava uma noção ampla de documento desde o seu surgimento.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1688,7 +1731,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711385"
-    }
+    },
+    "versao_correta": "A ampliação do conceito de documento para além do livro impresso decorreu do surgimento da Documentação com Paul Otlet e Suzanne Briet, visto que a biblioteconomia clássica tradicionalmente adotava uma acepção restrita de documento."
   },
   {
     "id": "m6-q-90",
@@ -1702,10 +1746,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar engenharia de prompts como solda mecânica de portas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A engenharia de prompts consiste na elaboração, refinamento e estruturação de instruções textuais orientadas a modelos de inteligência artificial para otimizar a precisão e a pertinência das respostas geradas."
   },
   {
     "id": "m6-q-91",
@@ -1719,7 +1764,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Viés algorítmico e ética em IA.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1732,11 +1777,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "A automação da catalogação e da extração de metadados auxiliada por IA pode acelerar o processamento técnico de acervos digitais volumosos, atuando na sugestão prévia de termos de tesauro e resumos para posterior homologação pelo bibliotecário.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o modelo simbiótico de IA na catalogação: ganho de escala e produtividade na extração automatizada, mantendo a curadoria de autoridade do profissional.",
+    "justificativa": "Gabarito CERTO. A incorporação de algoritmos de inteligência artificial generativa e aprendizado de máquina no processamento técnico de bibliotecas promove o modelo 'Human-in-the-Loop': a IA atua na leitura automatizada de documentos volumosos para sugerir resumos, identificar entidades nomeadas e indicar cabeçalhos de tesauro prováveis, cabendo ao bibliotecário exercer o julgamento crítico e a homologação formal dos metadados.",
     "armadilhaBanca": "Automação de catalogação com assistência de IA.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1749,11 +1794,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, relativos a documentação.",
     "item": "A produção de documentação restringe -se a contextos e categorias de profissionais específ icos de bibliotecas e centros de informação, uma vez que esses profissionais são os responsáveis por tratar de temas relacionados à informação e aos suportes informacionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso BASA/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A produção documental é difusa e universal: qualquer pessoa, empresa, laboratório, tribunal ou governo gera documentos diariamente no exercício de suas atribuições rotineiras. A atuação de bibliotecários, arquivistas e documentalistas restringe-se à coleta, custódia, organização técnica e recuperação desses documentos, não à exclusividade de sua produção.",
+    "armadilhaBanca": "RESTRICAO_INDEVIDA: Restringir a produção universal de documentos a \"profissionais específicos de bibliotecas e centros de informação\".",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -1761,7 +1806,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303090"
-    }
+    },
+    "versao_correta": "A produção de documentação é inerente a qualquer atividade humana e organizacional, sendo gerada por indivíduos e instituições dos mais diversos setores, cabendo aos profissionais da informação o tratamento técnico, a custódia e a disseminação desses registros."
   },
   {
     "id": "m6-q-94",
@@ -1771,11 +1817,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Denomina-se biblioteconomia a área do conhecimento que investiga a s propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A definição transcrita no item (\"investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados\") é a clássica e canônica definição de CIÊNCIA DA INFORMAÇÃO formulada por Harold Borko em 1968, e não de Biblioteconomia.",
+    "armadilhaBanca": "ATRIBUICAO_EQUIVOCADA: Atribuir o conceito seminal de Harold Borko para Ciência da Informação à Biblioteconomia.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1783,7 +1829,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711384"
-    }
+    },
+    "versao_correta": "A disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados denomina-se Ciência da Informação (Borko, 1968), e não Biblioteconomia."
   },
   {
     "id": "m6-q-95",
@@ -1793,11 +1840,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "A linguagem documentária é considerada necessária somente na recuperação da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJ-RR/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. As linguagens documentárias (tesauros, tabelas de classificação, listas de cabeçalhos de assunto) são indispensáveis nas duas pontas do sistema de recuperação da informação: na ENTRADA (indexação dos documentos pelos bibliotecários) e na SAÍDA (formulação da estratégia de busca pelo usuário ou intermediário).",
+    "armadilhaBanca": "RESTRICAO_ABSOLUTA: O termo \"somente na recuperação\" ignora o papel central da linguagem documentária na indexação (entrada).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1805,7 +1852,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180934"
-    }
+    },
+    "versao_correta": "A linguagem documentária atua de forma indispensável tanto no processo de indexação (armazenamento e representação do documento) quanto no processo de recuperação da informação, promovendo a compatibilidade entre a terminologia do documento e a busca do usuário."
   },
   {
     "id": "m6-q-96",
@@ -1815,11 +1863,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Embora a biblioteconomia, a documentação e a ciência da informação se jam áreas semelha ntes no que se refere a sua trajetória histórica e função social, elas diferem quanto à evolução do o b- jeto de interesse e ao grau de utilização das tecnologias.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CAPES/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Na epistemologia da informação (Pinheiro e Loureiro), Biblioteconomia, Documentação e Ciência da Informação possuem origens históricas, motivações sociais e trajetórias distintas. A biblioteconomia surgiu milenarmente para guarda e preservação do acervo; a documentação emergiu no fim do século XIX com a explosão bibliográfica; e a ciência da informação surgiu no pós-Segunda Guerra Mundial impulsionada pelo paradigma cibernético e computacional.",
+    "armadilhaBanca": "HOMOGENEIZACAO_FALSA: Classificar áreas com origens e marcos históricos distintos como de \"trajetória histórica semelhante\".",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -1827,7 +1875,8 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711387"
-    }
+    },
+    "versao_correta": "A biblioteconomia, a documentação e a ciência da informação possuem trajetórias históricas distintas e contextos de emergência singulares, tendo evoluído sob diferentes conjunturas sociais, tecnológicas e paradigmas científicos."
   },
   {
     "id": "m6-q-97",
@@ -1841,7 +1890,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1863,10 +1912,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Atribuir consciência e personalidade jurídica de servidor a LLMs.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Grandes Modelos de Linguagem (LLMs) são ferramentas computacionais probabilísticas de processamento de linguagem natural, desprovidas de senciência, intenção moral ou personalidade jurídica no ordenamento legal."
   },
   {
     "id": "m6-q-99",
@@ -1876,11 +1926,11 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "contexto": "Com relação à aplicação de Inteligência Artificial generativa, Large Language Models (LLMs), arquitetura RAG (Retrieval-Augmented Generation) e curadoria de dados em unidades de informação, julgue o item a seguir.",
     "item": "Na elaboração de prompts para síntese bibliográfica, a técnica de 'Few-Shot Prompting' consiste em fornecer ao modelo alguns exemplos prévios de entrada e saída esperadas para guiar o formato e a precisão da resposta gerada.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Few-Shot é a técnica comprovada em engenharia de prompts que condiciona o modelo a seguir um padrão específico mediante exemplos ilustrativos no próprio prompt.",
+    "justificativa": "Gabarito CERTO. Na engenharia de prompts aplicada a sistemas documentais, o 'Few-Shot Prompting' condiciona o comportamento dos modelos de linguagem ao incluir no próprio texto de instrução alguns exemplos concretos de entrada e saída esperadas (ex.: pares de textos legislativos e suas respectivas fichas catalográficas ou resumos padronizados), guiando a IA por indução em contexto sem requerer retreinamento da rede neural.",
     "armadilhaBanca": "Técnica de Few-Shot Prompting.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M6)",
       "verificado": false
     }
@@ -1897,7 +1947,7 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1908,3 +1958,5 @@ export const simuladoDigitalIA100Q: CebraspeQuestion[] = [
     }
   }
 ];
+
+export const questoesM6 = simuladoDigitalIA100Q;

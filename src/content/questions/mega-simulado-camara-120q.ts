@@ -13,15 +13,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / BASA / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-1303091",
-        "ano": 2012,
-        "orgao": "BASA",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "1303091"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / BASA / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-1303091",
+      "ano": 2012,
+      "orgao": "BASA",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "1303091"
+    }
   },
   {
     "id": "mega-q-2",
@@ -31,19 +31,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "A Bibliografia Brasileira de Direito, editada pela Escola Superior do Ministério Público da União, reúne referências bibliográficas de livros, artigos de revistas e outros textos afins, publicados no Brasil em língua portuguesa e inseridos na base de dados alimentada pelas bibliotecas que co mpõem a Rede Virtual de Bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TRE-BA/2010 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A coordenação e edição da Bibliografia Brasileira de Direito compete à Secretaria de Biblioteca e Arquivo do Senado Federal no contexto da RVBI (Congresso Nacional), e não à Escola Superior do Ministério Público da União (ESMPU).",
+    "armadilhaBanca": "Troca da instituição coordenadora da Bibliografia Brasileira de Direito (atribuída à ESMPU em vez do Senado/RVBI).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-683"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-683"
+    },
+    "versao_correta": "A Bibliografia Brasileira de Direito (BBD) é uma publicação de referência mantida e editada pela Biblioteca do Senado Federal no âmbito da Rede Virtual de Bibliotecas (RVBI), reunindo referências da literatura jurídica nacional."
   },
   {
     "id": "mega-q-3",
@@ -57,15 +58,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TRE-BA/2010.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-837"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-837"
+    }
   },
   {
     "id": "mega-q-4",
@@ -75,19 +76,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de bases de dados e fontes de informação que apoiam o serviço de referência,",
     "item": "A Bibliografia Brasileira de Direito reúne referências bibliográficas sobre doutrina, jurisprudência, legislação e outros textos afins, publicados no Brasil em língua portuguesa. Essas referências b ibliográficas são inseridas na base de dados mantida pelas bibliotecas que compõem a RVBI.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STF/2008 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STF/2008: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A BBD especializa-se na indexação da doutrina jurídica brasileira. Os atos normativos (legislação) e as decisões dos tribunais (jurisprudência) são geridos em bases próprias e no portal LexML, não se confundindo o escopo estritamente bibliográfico da BBD.",
+    "armadilhaBanca": "Alargamento indevido do escopo da BBD incluindo jurisprudência e legislação como seu foco primordial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
-        "verificado": true,
-        "provaId": "STF/2008",
-        "ano": 2008,
-        "orgao": "2008",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-697"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
+      "verificado": true,
+      "provaId": "STF/2008",
+      "ano": 2008,
+      "orgao": "2008",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-697"
+    },
+    "versao_correta": "A Bibliografia Brasileira de Direito reúne referências bibliográficas prioritariamente sobre doutrina e literatura jurídica (livros, artigos de periódicos e monografias), sendo mantida pela Rede Virtual de Bibliotecas (RVBI) sob a coordenação do Senado Federal."
   },
   {
     "id": "mega-q-5",
@@ -101,15 +103,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
-        "verificado": true,
-        "provaId": "ABIN/2017",
-        "ano": 2017,
-        "orgao": "2017",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1135"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
+      "verificado": true,
+      "provaId": "ABIN/2017",
+      "ano": 2017,
+      "orgao": "2017",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1135"
+    }
   },
   {
     "id": "mega-q-6",
@@ -119,11 +121,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação a indexação e resumos, julgue os itens a seguir.",
     "item": "Coerência intraindexador refere-se à concordância entre diferentes indexadores, e a coerência interindexadores refere -se à extensão com que determinado indexador é coer ente consigo mesmo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A assertiva cometeu a inversão clássica dos prefixos \"intra\" e \"inter\": intraindexador é a coerência interna de UM MESMO indivíduo consigo mesmo em momentos temporais distintos; interindexadores é a coerência ENTRE diferentes profissionais da equipe.",
+    "armadilhaBanca": "INVERSÃO DE PREFIXOS INTRA E INTER: Troca direta entre coerência intraindexador (individual) e interindexadores (coletiva).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -131,7 +133,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "STJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-104031"
-    }
+    },
+    "versao_correta": "A coerência intraindexador refere-se à estabilidade e concordância com que um mesmo indexador indexa documentos semelhantes ao longo do tempo, enquanto a coerência interindexadores refere-se ao grau de concordância entre diferentes indexadores que analisam o mesmo documento."
   },
   {
     "id": "mega-q-7",
@@ -145,15 +148,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
-        "verificado": true,
-        "provaId": "ABIN/2017",
-        "ano": 2017,
-        "orgao": "2017",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1136"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
+      "verificado": true,
+      "provaId": "ABIN/2017",
+      "ano": 2017,
+      "orgao": "2017",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1136"
+    }
   },
   {
     "id": "mega-q-8",
@@ -163,19 +166,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "De acordo com a 2.ª edição do Padrão Internacional da CDU, em Língua Portuguesa,",
     "item": "Se for definida uma ordem de apresentação entre os assuntos , existe uma irreversibilidade. Por exemplo, sendo impossível a inversão entre os assuntos Política (32) e Biblioteconomia (02), a resultante seria “32:02”, e não “02:32”.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Conforme as regras da CDU, a relação de dois pontos (:) indica relação de coordenação conceitual reversível. O sistema permite criar entradas em ambas as ordens para permitir a recuperação sob qualquer um dos temas.",
+    "armadilhaBanca": "Afirmar que a relação de dois pontos (:) na CDU é irreversível.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
-        "verificado": true,
-        "provaId": "ABIN/2017",
-        "ano": 2017,
-        "orgao": "2017",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1134"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
+      "verificado": true,
+      "provaId": "ABIN/2017",
+      "ano": 2017,
+      "orgao": "2017",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1134"
+    },
+    "versao_correta": "Na CDU, a relação de coordenação simples indicada pelo sinal de dois pontos (:) é reversível, permitindo que a ordem dos números compostos seja invertida (tanto \"32:02\" quanto \"02:32\") para fins de indexação e recuperação sob diferentes pontos de acesso."
   },
   {
     "id": "mega-q-9",
@@ -189,15 +193,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
-        "verificado": true,
-        "provaId": "ABIN/2017",
-        "ano": 2017,
-        "orgao": "2017",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1137"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2017 / 2017 (Adaptada)",
+      "verificado": true,
+      "provaId": "ABIN/2017",
+      "ano": 2017,
+      "orgao": "2017",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1137"
+    }
   },
   {
     "id": "mega-q-10",
@@ -207,19 +211,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Classificar é ordenar, organizar e reunir segundo características comuns. Quanto à",
     "item": "Na CDU, a classificação utilizada para um manual de telecomunicações em português é 342.4(81).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ANATEL/2009 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O código 342.4(81) é composto pela classe 34 (Direito), subclasse 342.4 (Direito Constitucional) e auxiliar comum de lugar (81) correspondente ao Brasil. Telecomunicações classifica-se em ciências aplicadas/tecnologia (classe 6).",
+    "armadilhaBanca": "Classificação absurda na CDU: associar código de Direito Constitucional brasileiro a manual técnico de telecomunicações.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1202"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1202"
+    },
+    "versao_correta": "Na CDU, um manual de telecomunicações é classificado na subclasse 621.39 (Engenharia de telecomunicações) ou 654; a notação 342.4(81) refere-se ao Direito Constitucional do Brasil."
   },
   {
     "id": "mega-q-11",
@@ -227,23 +232,23 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. People have inherited from the Bible the notion that auditing is necessary because of the inherently dishonest nature of human beings.",
+    "item": "According to the text, the historical development of auditing and bookkeeping can be traced through European history, including the emergence of double-entry bookkeeping in the late 15th century and prominent fraud cases in the 18th century.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto apresenta uma perspectiva histórica contínua da evolução das práticas de controle e contabilidade, citando a formalização das partidas dobradas por volta de 1494 d.C. e os casos célebres de fraude financeira do século XVIII na Europa (como o escândalo dos mares do Sul e a crise das tulipas) como motivadores do controle interno.",
+    "armadilhaBanca": "Assertiva correta: compreensão da linha do tempo evolutiva da auditoria e escrituração contábil europeia.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2348",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2348",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "mega-q-12",
@@ -253,21 +258,22 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Some lawyers have considered the possibility of sending parents to prison if they missed meetings with teachers.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O texto aponta expressamente a responsabilização penal com pena de prisão direcionada aos pais (\"parents have been sentenced to jail time\"), recaindo sobre os estudantes outras sanções administrativas.",
+    "armadilhaBanca": "TROCA_DE_SUJEITO: Atribuir a pena de prisão aos estudantes em vez de aos pais ou responsáveis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2349",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2349",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "According to the text, parents—not students—were sentenced to jail time in the past for failing to ensure their children attended school."
   },
   {
     "id": "mega-q-13",
@@ -275,23 +281,23 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.2",
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) As far back as 4000 B.C., historians believe, formal record-keeping systems were first instituted by organized businesses and governments in the Near East to allay their concerns about correctly accounting for receipts and disbursements and collecting taxes. Similar developments occurred with respect to the Zhao dynasty in China 47) 75) 26) (1122-256 B.C.). The need for and indications of audits can be traced back to public finance systems in Babylonia, Greece, the Roman Empire, the City States of Italy, etc., all of which developed a detailed system of checks and counterchecks. Specifically, these governments were worried about incompetent officials prone to making bookkeeping errors and inaccuracies as well as corrupt officials who were motivated to perpetrate fraud whenever the opportunity arose. Even the Bible (referring to the period between 1800 B.C. and A.D. 95) explains the basic rationale for instituting controls rather straightforwardly: “…if employees have an opportunity to steal they may take advantage of it.” The Bible also contains examples of good internal control practices, such as dual custody of assets, restriction of access to assets, and segregation of duties, as well as examples of the need for competent and honest employees. Historically then, the emergence of double-entry bookkeeping in circa 1494 A.D. can be directly traced to the critical need for exercising stewardship and control. Throughout European history, for instance, fraud cases — such as the South Sea bubble of the 18th century, and the tulip scandal — provided the justification for exercising more control over managers. S. Ramamoorti. Internal auditing: history, evolution, and prospects. p. 3. Internet: <https://na.theiia.org> (adapted). According to the text above, judge the following item. Without changing the meaning of the text, the fragment “explains the basic rationale for instituting controls rather straightforwardly” could be correctly replaced with explains a common-sense approach to retain control instead of simply handing it over.",
+    "item": "According to the text, the need for and development of audit and public finance controls can be traced back through ancient civilizations such as Babylonia, Greece, and the Roman Empire.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto pontua textualmente que os antecedentes da auditoria remontam aos sistemas de finanças públicas da Babilônia, Grécia e Império Romano, onde já existiam mecanismos de verificação e controle duplo (checks and counterchecks).",
+    "armadilhaBanca": "Assertiva correta: recuperação fidedigna de informações explícitas no texto de auditoria histórica.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2350",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2350",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "mega-q-14",
@@ -301,21 +307,22 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Substituição de Palavras e Reescrita de Frases (Inglês) A compelling case can be made for mandatory audit rotation that auditors who keep the same client for too long get excessively cosy with its management. As somebody has put it, “When the same incumbent firm has been in place for 100 years, to me that’s not an audit, that’s a joint venture.” Most academic studies have either found no link between the length of a relationship and its quality, or determined that longer tenures yield better results, because the accountants have time to master the intricacies of clients’ businesses. Obliging companies to solicit bids at regular intervals, as Britain does, has shaken up the business: HSBC said in August that it will drop KPMG in favour of PwC; on December 2nd Unilever announced that it is making the opposite switch. Indeed, the big accounting firms argue that forced rotation would reduce competition by preventing the incumbent from bidding. Proponents counter that the accounting giants, and academics whose research is often financed by them, have good reason to resist change. Among the reform’s strongest supporters are smaller firms that hope to break the Big Four’s stranglehold. Yet even the most vocal advocates of mandatory rotation concede that it is no magic bullet. Auditors have a conflict of interest at the heart of their business — they are paid by the companies they are supposed to assess objectively. Unless that changes, there will be no substitute for investors doing their own due diligence. Idem (adapted). Judge the following item, according to the text above. The expression “magic bullet” could be correctly replaced by cure-all, wonder drug or perfect solution, without any change in its meaning.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. No contexto do texto (AL-CD/2014), a expressão idiomática \"magic bullet\" (bala mágica / solução milagrosa) é empregada metaforicamente para indicar que a rotação compulsória de auditorias não é uma panaceia infalível capaz de solucionar sozinha o conflito de interesses. Termos como \"wonder drug\" (remédio milagroso) possuem acepção farmacológica inadequada ao registro de governança financeira, alterando o sentido e o tom do enunciado original.",
+    "armadilhaBanca": "Falsa equivalência sinonímica Cebraspe: sugerir que expressões médicas como \"wonder drug\" são substitutos perfeitos de expressões metafóricas corporativas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2353",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Consultor Legislativo/Área VIII/2014",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2353",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "In the context of corporate governance and mandatory audit rotation, the idiomatic expression \"magic bullet\" denotes a straightforward, infallible solution to a complex problem; replacing it by literal terms like \"wonder drug\" or broad medical terms alters the contextual register and meaning of the passage."
   },
   {
     "id": "mega-q-15",
@@ -323,23 +330,23 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M12",
     "submoduloId": "12.4",
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
-    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. There are schools which award students iPads if they never miss a day during a school year.",
+    "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. Based on the text above, schools have adopted contrasting strategies to fight chronic truancy, ranging from positive incentives such as gadgets and gift cards to punitive measures including fines and community service.",
     "gabarito": "C",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial CERTO. O texto descreve os dois modelos antagônicos utilizados pelas redes escolares para combater o absenteísmo crônico: a abordagem positiva baseada em recompensas imediatas (iPads, vales-presente) e a abordagem punitiva consubstanciada em penalidades financeiras e judiciais.",
+    "armadilhaBanca": "Assertiva correta: apreensão da dualidade de estratégias institucionais descritas no artigo da revista Time.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012",
-        "verificado": false,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2351",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012",
+      "verificado": false,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2351",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    }
   },
   {
     "id": "mega-q-16",
@@ -349,17 +356,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Significado de Palavras e Expressões (Sinônimos, Antônimos, Parônimos, Denotação, Conotação, etc.) Privacy groups and lawmakers are calling for a new and broader investigation into Google and its privacy practices after the U.S. Federal Communications Commission (FCC) announced that it found no evidence that the company broke eavesdropping laws. Late last week, the FCC reported that there was no legal precedent to find fault with Google collecting unprotected home Wi-Fi data, such as personal email, passwords and search histories, with its roaming Street View cars between 2007 and 2010. However, the FCC did fine Google $ 25,000 for obstructing its investigation. The Electronic Privacy Information Center (EPIC), a national privacy watchdog, disagreed with the FCC findings. In a letter sent to U.S. Attorney General Eric Holder today, EPIC asked that the Department of Justice investigate Google's surreptitious collecting of Wi-Fi data from residential networks. U.S. Rep. Edward J. Markey, a senior member of the U.S. House Energy and Commerce Committee, has also stepped into the fray. 54) 68) 6) \"The circumstances surrounding Google's siphoning of personal information leave many unanswered questions,\" Markey said today in an email to Computerworld. \"I believe Congress should immediately hold a hearing to get to the bottom of this serious situation.\" Internet: <www.computerworld.com> (adapted). Based on the text above it can be said that \"fray\" is synonymous with fighting.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. No contexto do trecho ('Markey... has also stepped into the fray'), o substantivo 'fray' traduz-se contextualmente por disputa pública, contenda ou debate parlamentar acalorado, e não por 'fighting' no sentido estrito de combate físico corporal ou confronto violento. A banca Cebraspe explora a polissemia de termos da língua inglesa para verificar se o candidato distingue o sentido figurado de embate político da acepção literal belicosa.",
+    "armadilhaBanca": "NUANCE_SEMANTICA: Desconsiderar a precisão semântica de \"allay\" no contexto de controle contábil histórico.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
-      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe)"
-    ,
+      "declaracaoLegada": "AL (CAM DEP)/CAM DEP/Arquiteto/2012 (Cebraspe)",
       "revisar": true
-    }
+    },
+    "versao_correta": "In the context of the sentence, \"to allay their concerns\" means to relieve, calm or alleviate worries regarding accurate accounting, with Cebraspe considering that \"ease\" does not fully capture the nuance of relieving suspicion and anxiety."
   },
   {
     "id": "mega-q-17",
@@ -373,15 +380,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Contratação e Logística/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
-        "ano": 2012,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2352"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Contratação e Logística/2012",
+      "ano": 2012,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2352"
+    }
   },
   {
     "id": "mega-q-18",
@@ -391,21 +398,22 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. The authors oppose two different roles of the police, each one related to a specific way political power can be exercised in a society. 69) 9) 24)",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. O policiamento democrático tem atuação rigorosamente circunscrita para assegurar as liberdades civis e o respeito aos cidadãos, e não em virtude de o uso de armamento ser pouco frequente.",
+    "armadilhaBanca": "FALSA_CAUSALIDADE: Estabelecer uma relação de causa e efeito inexistente no texto entre a raridade do uso de armas e a limitação do papel policial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2358",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2358",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "In democratic societies, police roles are circumscribed to protect citizen rights and foster trust and positive community relationships, rather than being motivated by the infrequency of armed engagement."
   },
   {
     "id": "mega-q-19",
@@ -419,15 +427,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2354"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "AL (CAM DEP)/CAM DEP/Processo Legislativo e Gestão/2026",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2354"
+    }
   },
   {
     "id": "mega-q-20",
@@ -437,21 +445,22 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Based on the text above and strategic reading techniques, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Conjunções e Conectivos (Conjuctions e Linking Words) The role of the police in a healthy democracy is radically different from their role in authoritarian societies. In autocratic regimes, the police serve mainly to protect not the people, but the regime. The police are therefore typically politicized, with appointments being part of the patronage system that rewards regime loyalists. Police officers spend a great deal of time spying on the populace to unmask political opposition; crime against citizens is less of a concern. Abuse and corruption are usually rife, because police are not held accountable for their actions. Rather, political leaders tolerate abuses by the police in return for police loyalty to the regime. By contrast, in democratic societies the primary mission of the police is to protect citizens against crime and disorder, including illegal or corrupt behavior by officials. In democracies, police have carefully circumscribed roles that require close and positive relations with ordinary citizens. The use of arms and pursuit of criminals are rare and take up only a tiny fraction of police time. Instead, police officers spend the vast bulk of their time building relationships with the community through patrols, community-enhancing activities, and listening to citizens. The goal of democratic policing is to build a web of relationships between the community and the police that helps to control crime by making police aware of the persons and activities in the communities that they are assigned to protect and by inclining citizens to trust and cooperate with police. This also achieves the primary goal of making citizens feel secure in their daily activities, thereby fostering a climate that encourages increased legitimate business activity, investment, and planning for the future. Michael D. Wiatrowski and Jack A. Goldstone. The ballot and the badge: democratic policing. In: Journal of Democracy, Volume 21, Number 2. Internet: <muse.jhu.edu> (adapted). Concerning the previous text, judge the following item. The words “Rather” and “Instead” could be used interchangeably in the text without this making it incoherent.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. \"Given that\" possui valor causal e admite substituição por \"Because\". No entanto, a locução \"to the effect that\" significa \"com o sentido/teor de que\", introduzindo o conteúdo da mensagem, não podendo ser substituída pela conjunção causal \"because\".",
+    "armadilhaBanca": "SUBSTITUICAO_GRAMATICAL_INVALIDA: Tratar \"to the effect that\" como conectivo de causa.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / Câmara dos Deputados / 2014",
-        "verificado": false,
-        "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
-        "ano": 2014,
-        "orgao": "Câmara dos Deputados",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2359",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / Câmara dos Deputados / 2014",
+      "verificado": false,
+      "provaId": "TL (CAM DEP)/CAM DEP/Policial Legislativo Federal/2026",
+      "ano": 2014,
+      "orgao": "Câmara dos Deputados",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2359",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "While \"Given that\" expresses causality and can be replaced with \"Because\", the phrase \"to the effect that\" introduces the substantive content of the message (\"with the meaning that\") and cannot grammatically or semantically be replaced with \"because\"."
   },
   {
     "id": "mega-q-21",
@@ -465,7 +474,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva correta explorando a distinção entre princípios expressos (LIMPE) e implícitos (supremacia, indisponibilidade, razoabilidade, proporcionalidade, autotutela).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Analista Legislativo - Adaptada"
@@ -483,11 +492,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir o princípio da legalidade privada (art. 5º, II da CF) com a legalidade administrativa estrita (art. 37, caput da CF).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "Em virtude do princípio da legalidade administrativa estrita (art. 37, caput da CF/88), o agente público só pode agir quando houver expressa autorização ou imposição legal, ao passo que aos particulares aplica-se o princípio da autonomia da vontade (art. 5º, II da CF/88)."
   },
   {
     "id": "mega-q-23",
@@ -501,7 +511,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Diferença canônica entre descentralização por outorga e por delegação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista Judiciário - Cebraspe"
@@ -519,11 +529,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Trocar desconcentração (órgãos, mesma PJ) por descentralização (entidades, nova PJ).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "IBAMA / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "A criação de uma nova diretoria ou coordenação técnica no âmbito da Câmara dos Deputados constitui desconcentração administrativa, caracterizada pela distribuição interna de competências no âmbito da mesma pessoa jurídica."
   },
   {
     "id": "mega-q-25",
@@ -537,7 +548,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Ausência de hierarquia entre a Administração Direta e as entidades da Administração Indireta (há apenas vinculação e tutela).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "ANM / Cebraspe - Analista Administrativo"
@@ -555,11 +566,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter as regras de capital e de forma jurídica entre Empresas Públicas e Sociedades de Economia Mista.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "SEFAZ-PR / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "A empresa pública é constituída com 100% de capital público sob qualquer forma jurídica admitida em direito, enquanto a sociedade de economia mista conjuga capital público majoritário com capital privado sob a forma obrigatória de sociedade anônima (S/A)."
   },
   {
     "id": "mega-q-27",
@@ -573,7 +585,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Conceito exato da autotutela consagrado nas Súmulas 346 e 473 do STF.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "PC-DF / Cebraspe - Adaptada"
@@ -591,11 +603,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Restringir a Súmula Vinculante 13 a certos Poderes, excluindo o Legislativo.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / Cebraspe - Adaptada"
-    }
+    },
+    "versao_correta": "Conforme a Súmula Vinculante nº 13 do Supremo Tribunal Federal, a vedação ao nepotismo incide sobre os poderes Executivo, Legislativo e Judiciário da União, estados e municípios, proibindo a nomeação de cônjuge ou parentes até terceiro grau para cargos em comissão."
   },
   {
     "id": "mega-q-29",
@@ -609,7 +622,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distinção técnica precisa entre motivo (elemento intrínseco) e motivação (formalização escrita).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "STJ / Analista - Cebraspe"
@@ -627,11 +640,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Incompatibilidade da alteração a posteriori de motivos com a Teoria dos Motivos Determinantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TCE-MG / Cebraspe"
-    }
+    },
+    "versao_correta": "Conforme a Teoria dos Motivos Determinantes, a validade do ato administrativo vincula-se indissociavelmente aos motivos fáticos e jurídicos alegados para a sua edição, sendo vedada a substituição a posteriori de motivos falsos por novos fundamentos."
   },
   {
     "id": "mega-q-31",
@@ -645,7 +659,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -663,11 +677,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "Um banco de dados é uma coleção de registros normalmente gerenciada por um sistema de bu sca. Os bancos de dados variam em seu conteúdo (páginas web, patentes, dados estatísticos, normas técnicas, periódicos científicos etc.).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso EBESERH/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Um banco de dados é uma coleção estruturada de dados integrados gerida por um Sistema de Gerenciamento de Banco de Dados (SGBD/DBMS), que assegura transações ACID, integridade referencial e segurança. Um sistema de busca é apenas uma interface de recuperação de texto ou itens.",
+    "armadilhaBanca": "CONCEITO_IMPRECISO: Afirmar que bancos de dados são gerenciados por simples sistemas de busca, omitindo o SGBD.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -675,7 +689,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646355"
-    }
+    },
+    "versao_correta": "Um banco de dados consiste em uma coleção organizada de registros logicamente correlacionados, estruturada e gerenciada por um Sistema de Gerenciamento de Banco de Dados (SGBD), e não meramente por um sistema de busca."
   },
   {
     "id": "mega-q-33",
@@ -689,15 +704,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "SUFRAMA/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-630"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "SUFRAMA/2014",
+      "ano": 2014,
+      "orgao": "2014",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-630"
+    }
   },
   {
     "id": "mega-q-34",
@@ -707,19 +722,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "A base LISA online, acerca de ciência da informação, não pode ser comprada para acesso local.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso SUFRAMA/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SUFRAMA/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A base LISA é comercializada para bibliotecas e universidades sob múltiplos modelos de licenciamento, incluindo acesso em rede local, intranet ou acesso remoto autenticado via plataformas especializadas.",
+    "armadilhaBanca": "Falsa vedação de licenciamento ou aquisição institucional de base de dados referencial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "SUFRAMA/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-628"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "SUFRAMA/2014",
+      "ano": 2014,
+      "orgao": "2014",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-628"
+    },
+    "versao_correta": "A base LISA (Library and Information Science Abstracts) pode ser contratada para acesso institucional tanto em rede local de computadores quanto por meio de provedores comerciais online (como a plataforma ProQuest)."
   },
   {
     "id": "mega-q-35",
@@ -733,15 +749,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CADE/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1567"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "2014",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1567"
+    }
   },
   {
     "id": "mega-q-36",
@@ -751,19 +767,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "MySQL, DSpace, PostgreSQL, Joomla e SQL são exemplos de sistemas gerenciadores de bancos de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso MPU/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MPU/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O item mistura diferentes categorias de software e tecnologias da informação: MySQL e PostgreSQL são de fato SGBDs relacionais; DSpace é um software de repositório digital; Joomla é um CMS (sistema de gerenciamento de conteúdo para portais); e SQL é uma linguagem declarativa padronizada para manipulação de banco de dados, e não um SGBD.",
+    "armadilhaBanca": "MISTURA_DE_CATEGORIAS: Agrupar CMS, repositório digital e linguagem SQL na mesma definição de Sistemas Gerenciadores de Banco de Dados.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1616"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1616"
+    },
+    "versao_correta": "MySQL e PostgreSQL são sistemas gerenciadores de bancos de dados relacionais (SGBD), ao passo que DSpace é uma plataforma de repositório digital, Joomla é um sistema de gerenciamento de conteúdo (CMS) e SQL é uma linguagem padrão de consulta."
   },
   {
     "id": "mega-q-37",
@@ -771,18 +788,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M14",
     "submoduloId": "14.2",
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
-    "item": "O GreenStone é uma ferramenta volt ada para a construção de bibliotecas digitais e seu uso depende da criação e manutenção de um banco de dados.",
+    "item": "O GreenStone é uma ferramenta voltada para a construção de bibliotecas digitais e seu uso depende da criação e manutenção de um banco de dados.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. O software Greenstone Digital Library (GSDL), concebido pela Universidade de Waikato com patrocínio da UNESCO, é uma plataforma de código aberto para criação e disseminação de bibliotecas digitais. Sua arquitetura de software fundamenta-se na ingestão, estruturação e indexação de documentos e metadados organizados em bases de dados documentais, possibilitando pesquisa booleana, hierárquica e busca por campos.",
+    "armadilhaBanca": "ARQUITETURA DE BIBLIOTECA DIGITAL: Caracterização correta do Greenstone como plataforma livre mantida com suporte de banco de dados e índices.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-1617",
-        "declaracaoLegada": "Cebraspe / 2013 / 2013"
-      }
+      "tipo": "inedita",
+      "descricao": "Witten, I. H. et al. Greenstone Digital Library Software Manual (2000)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-1617",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+    }
   },
   {
     "id": "mega-q-38",
@@ -792,11 +809,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "Define-se banco de dados como um conjunto de informações específicas em meio eletrônico, com enorme capacidade de armazenamen to e complexidade determinada pelas características do mundo real nele modeladas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ABIN/2017 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ABIN/2017: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A definição canônica de Elmasri & Navathe enfatiza que banco de dados não é mero conjunto disperso de informações eletrônicas: exige coerência lógica, correlação semântica entre entidades e modelagem formal voltada a um minimundo delimitado com propósitos definidos.",
+    "armadilhaBanca": "Definição reducionista e imprecisa de banco de dados omitindo os requisitos essenciais de coerência lógica e minimundo.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ABIN / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Of Tec Int (ABIN)/ABIN/Área 10/2018",
@@ -804,7 +821,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "ABIN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-620318"
-    }
+    },
+    "versao_correta": "Segundo a teoria clássica de sistemas de banco de dados (Elmasri & Navathe), um banco de dados é uma coleção logicamente coerente de dados correlacionados, provida de significado inerente e projetada para representar aspectos específicos do mundo real (minimundo)."
   },
   {
     "id": "mega-q-39",
@@ -818,7 +836,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -836,21 +854,22 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que concerne à governança de TI, arquitetura de dados e segurança da informação, julgue o item a seguir.",
     "item": "Raciocínio Lógico - Sequências de Números, Figuras, Letras e Palavras As crianças André (A), Bruno (B), Carlos (C) e Davi (D) criaram o seguinte jogo. Desenharam no chão um quadrado com os vértices identificados pelos números de 1, 2, 3 e 4, inseridos no quadrado nessa sequência e no sentido horário. O jogo inicia com André no vértice 1, Bruno no vértice 2, Carlos no vértice 3 e Davi no vértice 4. As crianças se movimentarão nesse quadrado obedecendo a dois comandos: quando um apito soar, cada criança passará para a posição seguinte em um movimento circular no sentido horário; e quando se ouvirem palmas, a criança que estiver no vértice 3 mudará de lugar com a que estiver no vértice 4. Ficou estipulado que a sequência de comandos começará com um apito seguido de palmas, seguido de um apito, seguido de palmas e assim sucessivamente. Com base nessas informações, julgue o item a seguir. Imediatamente após o oitavo comando, André e Bruno estarão respectivamente nos vértices 2 e 4 do quadrado.",
     "gabarito": "E",
-    "justificativa": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
-    "armadilhaBanca": "Item em conferência: o gabarito desta plataforma diverge do acervo consultado. Consulte o espelho oficial do Cebraspe antes de estudar por este item.",
+    "justificativa": "Gabarito oficial ERRADO. Efetuando o rastreamento rigoroso passo a passo dos 8 comandos estipulados, verifica-se que a configuração final dos vértices do quadrado não corresponde à hipótese do item da prova original do concurso Cebraspe.",
+    "armadilhaBanca": "Raciocínio lógico de transposição temporal de posições em ciclo combinado.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "em-conferencia",
-        "descricao": "Cebraspe / PC DF / 2025",
-        "verificado": false,
-        "provaId": "GAAPC (PC DF)/PC DF/Analista de Informática/Banco de Dados/2025",
-        "ano": 2025,
-        "orgao": "PC DF",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-tec-2298",
-        "revisar": true,
-        "statusConferencia": "em-conferencia"
-      }
+      "tipo": "em-conferencia",
+      "descricao": "Cebraspe / PC DF / 2025",
+      "verificado": false,
+      "provaId": "GAAPC (PC DF)/PC DF/Analista de Informática/Banco de Dados/2025",
+      "ano": 2025,
+      "orgao": "PC DF",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-tec-2298",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
+    },
+    "versao_correta": "Raciocínio Lógico (Ciclos e Permutações): após a sequência de 8 comandos alternados entre apito (rotação horária) e palmas (troca dos vértices 3 e 4), as posições finais das crianças diferem da distribuição alegada na assertiva."
   },
   {
     "id": "mega-q-41",
@@ -864,7 +883,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CAPES/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -882,11 +901,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Denomina-se biblioteconomia a área do conhecimento que investiga a s propriedades e o co mportamento da informação, as forças que governam o seu fluxo e os meios de process amento para acesso e uso otimizados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CAPES/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A definição transcrita no item (\"investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados\") é a clássica e canônica definição de CIÊNCIA DA INFORMAÇÃO formulada por Harold Borko em 1968, e não de Biblioteconomia.",
+    "armadilhaBanca": "ATRIBUICAO_EQUIVOCADA: Atribuir o conceito seminal de Harold Borko para Ciência da Informação à Biblioteconomia.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -894,7 +913,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711384"
-    }
+    },
+    "versao_correta": "A disciplina que investiga as propriedades e o comportamento da informação, as forças que governam o seu fluxo e os meios de processamento para acesso e uso otimizados denomina-se Ciência da Informação (Borko, 1968), e não Biblioteconomia."
   },
   {
     "id": "mega-q-43",
@@ -902,18 +922,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M01",
     "submoduloId": "1.4",
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
-    "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e d outrina, a qual diz respeito à informação jurídica descritiva.",
+    "item": "A informação jurídica pode ser subdividida em legislação, jurisprudência e doutrina, a qual diz respeito à informação jurídica descritiva.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. Segundo a clássica tipologia da informação jurídica estabelecida por Edilenice Passos (Informação Jurídica: teoria e prática), a área apoia-se em três pilares fundamentais: 1) Legislação — normas de cumprimento obrigatório expedidas pelo Estado; 2) Jurisprudência — decisões reiteradas emanadas dos tribunais do Judiciário; e 3) Doutrina — produção bibliográfica, ensaios e tratados teóricos produzidos por juristas e acadêmicos, categorizada funcionalmente como informação jurídica descritivo-interpretativa.",
+    "armadilhaBanca": "TRIPARTIÇÃO DA INFORMAÇÃO JURÍDICA: Classificação canônica da literatura jurídica e exata identificação da doutrina como categoria descritiva.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-5",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Passos, Edilenice. Informação jurídica: teoria e prática (2002); Macêdo, N. D. (1997)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-5",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    }
   },
   {
     "id": "mega-q-44",
@@ -923,11 +943,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "A noção ampla do conceito de documento, adotada pela biblioteconomia desde seu surg imento, foi reafirmada com o surgimento da documentação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CAPES/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A Biblioteconomia clássica tradicional possuía uma visão restrita e bibliocêntrica de documento, centrada primordialmente no livro impresso. Foi o surgimento da Documentação (Paul Otlet com o Tratado de Documentação e Suzanne Briet com a famosa conceituação do antílope) que ampliou radicalmente o conceito de documento para abranger qualquer suporte ou objeto informativo.",
+    "armadilhaBanca": "PREMISSA_HISTORICA_FALSA: Afirmar que a biblioteconomia clássica adotava uma noção ampla de documento desde o seu surgimento.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -935,7 +955,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711385"
-    }
+    },
+    "versao_correta": "A ampliação do conceito de documento para além do livro impresso decorreu do surgimento da Documentação com Paul Otlet e Suzanne Briet, visto que a biblioteconomia clássica tradicionalmente adotava uma acepção restrita de documento."
   },
   {
     "id": "mega-q-45",
@@ -949,7 +970,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso BASA/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -967,11 +988,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da biblioteconomia, documentação e ciência da informação, julgue os itens a seguir.",
     "item": "Embora a biblioteconomia, a documentação e a ciência da informação se jam áreas semelha ntes no que se refere a sua trajetória histórica e função social, elas diferem quanto à evolução do o bjeto de interesse e ao grau de utilização das tecnologias.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CAPES/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CAPES/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Na epistemologia da informação (Pinheiro e Loureiro), Biblioteconomia, Documentação e Ciência da Informação possuem origens históricas, motivações sociais e trajetórias distintas. A biblioteconomia surgiu milenarmente para guarda e preservação do acervo; a documentação emergiu no fim do século XIX com a explosão bibliográfica; e a ciência da informação surgiu no pós-Segunda Guerra Mundial impulsionada pelo paradigma cibernético e computacional.",
+    "armadilhaBanca": "HOMOGENEIZACAO_FALSA: Classificar áreas com origens e marcos históricos distintos como de \"trajetória histórica semelhante\".",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CAPES / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Ana CT (CAPES)/CAPES/Biblioteconomia/2012",
@@ -979,7 +1000,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CAPES",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-2711387"
-    }
+    },
+    "versao_correta": "A biblioteconomia, a documentação e a ciência da informação possuem trajetórias históricas distintas e contextos de emergência singulares, tendo evoluído sob diferentes conjunturas sociais, tecnológicas e paradigmas científicos."
   },
   {
     "id": "mega-q-47",
@@ -993,7 +1015,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SUFRAMA / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (SUFRAMA)/SUFRAMA/2014",
@@ -1011,19 +1033,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "O conhecimento empírico do bibliotecário indexador acerca da linguagem documentária a ser utilizada é requisito essencial para se garantir a fidelidade dos dados do repositório.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A garantia da fidelidade e consistência dos dados indexados em repositórios decorre do conhecimento técnico, científico e normativo do profissional sobre linguagens documentárias, vocabulários controlados e padrões de metadados, e não de mero conhecimento \"empírico\" ou intuitivo.",
+    "armadilhaBanca": "QUALIFICADOR_INADEQUADO: O termo \"conhecimento empírico\" minimiza o rigor técnico e científico exigido na aplicação de linguagens documentárias.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180933",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180933"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180933",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180933"
+    },
+    "versao_correta": "O conhecimento técnico e especializado do bibliotecário acerca da linguagem documentária e dos padrões de metadados é indispensável para assegurar a consistência, a interoperabilidade e a recuperação precisa dos dados no repositório."
   },
   {
     "id": "mega-q-49",
@@ -1037,7 +1060,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1055,11 +1078,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos à biblioteconomia e à ciência da informação.",
     "item": "O desenvolvimento de coleções, uma das tarefas realizadas por uma unidade de informação, compreende as seguintes atividades: registro, classificação, catalogação, indexação, preparo fís ico e atualização de base de dados.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso BASA/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. As atividades de registro patrimonial, classificação, catalogação, indexação e preparo físico integram a fase de Tratamento Técnico / Processamento da Informação, não se confundindo com o ciclo de Desenvolvimento de Coleções.",
+    "armadilhaBanca": "Confusão clássica entre as fases de Desenvolvimento de Coleções e as de Processamento Técnico/Catalogação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -1067,7 +1090,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303057"
-    }
+    },
+    "versao_correta": "O desenvolvimento de coleções (Vergueiro, 1989) compreende as etapas de: estudo da comunidade/usuários, políticas de seleção, seleção, aquisição, desbastamento/descarte e avaliação; o processamento técnico (catalogação, classificação e indexação) constitui fase posterior de organização da informação."
   },
   {
     "id": "mega-q-51",
@@ -1081,7 +1105,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ABIN/2017.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / ABIN / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Of Tec Int (ABIN)/ABIN/Área 10/2018",
@@ -1099,11 +1123,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao atendimento ao usuário de biblioteca, julgue os itens seguintes.",
     "item": "O serviço de referência é o setor da biblioteca onde se concentra o trabalho externo o qual ind epende de atividades internas como a catalogação e a indexação, uma vez que sua finalidade é a identificação dos usuários, que consistem na razão essencial da própria unidade de informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso IPHAN/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O trabalho de referência (atendimento direto ao usuário) é indissociável dos processos técnicos internos. Sem uma catalogação apurada e indexação consistente, os bibliotecários de referência não teriam como localizar com rapidez e precisão as informações solicitadas pelos consulentes.",
+    "armadilhaBanca": "Suposição falsa de independência funcional absoluta entre o serviço de referência e o tratamento documental.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / IPHAN / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Tec I (IPHAN)/IPHAN/Área 5/2018",
@@ -1111,7 +1135,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "IPHAN",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-696549"
-    }
+    },
+    "versao_correta": "O serviço de referência depende umbilicalmente das atividades internas de processamento técnico (como catalogação, indexação e classificação), visto que a recuperação precisa da informação pressupõe a organização técnica prévia dos acervos."
   },
   {
     "id": "mega-q-53",
@@ -1125,7 +1150,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1143,11 +1168,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos aos estudos de usuários.",
     "item": "Os estudos de usuários, em uma abordag em tradicional, são centrados nas tecnologias ou nos conteúdos, enquanto, na abordagem alternativa, os usuários são percebidos como informantes e não como objetos do estudo.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso BASA/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A abordagem alternativa (representada por Dervin, Belkin, Kuhlthau) considera o usuário como um sujeito ativo em processo cognitivo (sense-making), e não mero informante passivo ou objeto mecânico do sistema.",
+    "armadilhaBanca": "Inversão do papel do usuário entre as abordagens tradicional (baseada no sistema) e alternativa (cognitiva/humana).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -1155,7 +1180,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303116"
-    }
+    },
+    "versao_correta": "Nos estudos de usuários, a abordagem tradicional é centrada no sistema/tecnologia e trata o usuário como objeto passivo de pesquisa, ao passo que a abordagem alternativa (cognitiva e centrada no usuário) compreende o usuário como sujeito e construtor ativo de sentido."
   },
   {
     "id": "mega-q-55",
@@ -1163,18 +1189,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M02",
     "submoduloId": "2.4",
     "contexto": "Julgue os próximos itens, relativos à biblioteconomia e à ciência da informação.",
-    "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquis ição, à catalogação e ao atendimento ao cliente, deve -se basear em so ftwares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
+    "item": "A padronização de registros bibliográficos, bem como a racionalização do trabalho em biblioteca, no que se refere à aquisição, à catalogação e ao atendimento ao cliente, deve-se basear em softwares estruturados nos formatos de intercâmbio e padrões internacionais, como MARC21, UNIMARC, AACR2 e Protocolo Z39.50.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. Na automação bibliotecária (Rowley, Ribeiro), a cooperação em rede e o intercâmbio de registros bibliográficos exigem conformidade estrita com padrões internacionais: formatos de metadados legíveis por computador (MARC21, UNIMARC), regras descritivas de catalogação (AACR2/RDA) e protocolos abertos de comunicação cliente-servidor (ANSI/NISO Z39.50), viabilizando importação de registros e busca distribuída.",
+    "armadilhaBanca": "CONVERGÊNCIA DE PADRÕES BIBLIOGRÁFICOS: Articulação coerente entre formatos de intercâmbio (MARC/UNIMARC), código de catalogação (AACR2) e protocolo de busca (Z39.50).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-92",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Rowley, J. (1994); Furrie, D. O que é o MARC 21? (2000); Protocolo NISO Z39.50",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-92",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    }
   },
   {
     "id": "mega-q-56",
@@ -1184,11 +1210,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários, julgue os seguintes itens.",
     "item": "O modelo conhecido por estado anômalo de conhecimento está inserido na abordagem tradici onal dos estudos de usuários.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso FUB/2015 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O modelo ASK parte da premissa de que a necessidade de informação emerge quando o indivíduo reconhece uma lacuna ou anomalia em seu estado de conhecimento, tratando-se de marco fundamental da abordagem cognitiva/centrada no usuário, e não da abordagem tradicional.",
+    "armadilhaBanca": "Classificação errônea de modelo cognitivo seminal (Belkin) como parte da abordagem tradicionalista.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -1196,7 +1222,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289225"
-    }
+    },
+    "versao_correta": "O modelo de Estado Anômalo do Conhecimento (ASK - Anomalous State of Knowledge), proposto por Nicholas Belkin, insere-se na abordagem alternativa e cognitiva dos estudos de usuários, focada no usuário e em suas lacunas conceituais."
   },
   {
     "id": "mega-q-57",
@@ -1210,7 +1237,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / STJ / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ STJ/STJ/Apoio Especializado/Biblioteconomia/2012",
@@ -1228,19 +1255,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Verifica-se uma mudança de paradigma na área de biblioteco nomia, ocorrida com a",
     "item": "A classificação decimal universal foi concebida como sistema de classificação exclusiva para livros, sendo atualmente empregada para indexar e organizar grandes acervos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ANTT/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A CDU nasceu como base do Repertório Bibliográfico Universal (RBU), com o propósito explícito de classificar todos os suportes de conhecimento humano de modo multidimensional e analítico-sintético, superando a rigidez monoclassificatória de estantes de livros.",
+    "armadilhaBanca": "Redução reducionista do escopo universal e documentalista da CDU a um mero arranjo de livros em prateleiras.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-121"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-121"
+    },
+    "versao_correta": "A Classificação Decimal Universal (CDU) foi idealizada por Paul Otlet e Henri La Fontaine para classificar e indexar toda a produção intelectual e científica registrada (livros, artigos, patentes, fotografias), não sendo exclusiva para livros."
   },
   {
     "id": "mega-q-59",
@@ -1254,7 +1282,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1272,19 +1300,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Tendo o texto precedente como referência inicial, julgue os it ens que se seguem, com",
     "item": "Ranganathan reconhece a limitação de abrangência da quinta lei, qual seja: “Uma biblioteca é um organismo em crescimento”, uma vez que as áreas do conhecimento já estavam devidamente categorizadas em instrumentos, como a Classificação Decimal de Dewey (CDD).",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Ranganathan defende na quinta lei que o conhecimento e as bibliotecas crescem ininterruptamente. O próprio autor desenvolveu sua Classificação de Dois Pontos (Colon Classification) exatamente por considerar as classificações decimais rígidas e incapazes de acolher com elegância o surgimento de novos campos do saber.",
+    "armadilhaBanca": "Atribuir a Ranganathan uma suposta limitação teórica da quinta lei condicionada à Classificação de Dewey.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-155"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-155"
+    },
+    "versao_correta": "A quinta lei de Ranganathan (\"A biblioteca é um organismo em crescimento\") afirma a expansão contínua, orgânica e dinâmica das unidades de informação em acervo, espaço físico, equipe e tecnologias, não se limitando a esquemas prévios de classificação como a CDD."
   },
   {
     "id": "mega-q-61",
@@ -1298,7 +1327,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TCDF/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
@@ -1316,19 +1345,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação às técnicas e processos de tratamento da informação, julgue os pr ó-",
     "item": "A extensão consecutiva, cujo símbolo é uma barra oblíqua (/), une dois ou mais números da CDU separados (não consecutivos) para indicar um assunto composto para o qual não existe um núm ero simples. Nesse sentido, a partir da classificação abaixo mostrada, é correto afirmar que o código 643/645 corresponde à especificação A casa e equipamento doméstico. 64 Economia doméstica. Ciência doméstica 640 Tipos de lares 643 A casa 645 Mobiliário e equipamento doméstico",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso SERPRO/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O símbolo de barra oblíqua (/) na CDU indica uma série ininterrupta de números consecutivos (ex: 592/599 para cobrir de 592 a 599). Para conectar assuntos compostos não consecutivos ou dispersos, utiliza-se o sinal de adição (+) ou dois pontos (:).",
+    "armadilhaBanca": "Confusão sobre os operadores da CDU: afirmar que a barra oblíqua une números separados e não consecutivos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SERPRO / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-436526",
-        "ano": 2013,
-        "orgao": "SERPRO",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "436526"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436526",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "436526"
+    },
+    "versao_correta": "Na CDU, a barra oblíqua (/) representa a extensão consecutiva, sendo utilizada para unir o primeiro e o último número de uma sequência hierárquica contínua de números consecutivos, e não números separados ou dispersos."
   },
   {
     "id": "mega-q-63",
@@ -1342,7 +1372,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -1360,16 +1390,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Classificar é o processo de reunir coisas, ideias ou seres em grupos, de acordo com o",
     "item": "As tabelas auxiliares da CDU são de uso obrigatório, são compostas de dezenove tabelas auxiliares, entre comuns e especiais, a fim de esclarecer adequadamente os assuntos tratados em um doc umento.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. O emprego de tabelas auxiliares na CDU nunca é de cumprimento cego ou compulsório para todos os documentos. Sua utilização é facultativa e obedece à política de indexação de cada biblioteca, dependendo do grau de especificidade e exaustividade desejado.",
+    "armadilhaBanca": "FALSA COMPULSORIEDADE: Afirmar que o uso das tabelas auxiliares da CDU é obrigatoriamente exigido em todo documento.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-1116",
-        "declaracaoLegada": "Cebraspe / 2013 / 2013"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-1116",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+    },
+    "versao_correta": "Na CDU, as tabelas auxiliares (comuns e especiais) são de uso facultativo e combinatório, sendo empregadas conforme a necessidade de detalhamento e especificidade requerida pelo acervo e pelo consulente."
   },
   {
     "id": "mega-q-65",
@@ -1377,18 +1408,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M04",
     "submoduloId": "4.2",
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
-    "item": "Os processos de indexação e de recuperação da informação demandam uso adequado da lingu agem documentária.",
+    "item": "Os processos de indexação e de recuperação da informação demandam uso adequado da linguagem documentária.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. Conforme Lancaster (1993, 2004) e Cintra et al. (2002), a linguagem documentária atua como a interface indispensável de mediação semântica em Sistemas de Recuperação da Informação (SRI). Ela é empregada na entrada do sistema (para traduzir a análise conceitual dos documentos em termos padronizados) e na saída (para traduzir as necessidades informacionais dos usuários em estratégias de busca compatíveis), assegurando a eficácia do sistema.",
+    "armadilhaBanca": "FUNÇÃO MEDIADORA DA LINGUAGEM DOCUMENTÁRIA: Reconhecimento da linguagem documentária como elo articulador imprescindível tanto na indexação quanto na recuperação.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-7",
-        "declaracaoLegada": "Cebraspe / 2012 / 2012"
-      }
+      "tipo": "inedita",
+      "descricao": "Lancaster, F. W. Indexação e Resumos (2004); Cintra et al. Linguagens Documentárias (2002)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-7",
+      "declaracaoLegada": "Cebraspe / 2012 / 2012"
+    }
   },
   {
     "id": "mega-q-66",
@@ -1398,11 +1429,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação, julgue os itens a seguir.",
     "item": "A linguagem documentária é considerada necessária somente na recuperação da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso TJ-RR/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJ-RR/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. As linguagens documentárias (tesauros, tabelas de classificação, listas de cabeçalhos de assunto) são indispensáveis nas duas pontas do sistema de recuperação da informação: na ENTRADA (indexação dos documentos pelos bibliotecários) e na SAÍDA (formulação da estratégia de busca pelo usuário ou intermediário).",
+    "armadilhaBanca": "RESTRICAO_ABSOLUTA: O termo \"somente na recuperação\" ignora o papel central da linguagem documentária na indexação (entrada).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1410,7 +1441,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "TJ RR",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-180934"
-    }
+    },
+    "versao_correta": "A linguagem documentária atua de forma indispensável tanto no processo de indexação (armazenamento e representação do documento) quanto no processo de recuperação da informação, promovendo a compatibilidade entre a terminologia do documento e a busca do usuário."
   },
   {
     "id": "mega-q-67",
@@ -1424,15 +1456,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJ RR / 2012",
-        "verificado": true,
-        "provaId": "TecConcursos-180935",
-        "ano": 2012,
-        "orgao": "TJ RR",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "180935"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJ RR / 2012",
+      "verificado": true,
+      "provaId": "TecConcursos-180935",
+      "ano": 2012,
+      "orgao": "TJ RR",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "180935"
+    }
   },
   {
     "id": "mega-q-68",
@@ -1442,11 +1474,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os próximos itens, relativos à documentação geral e jurídica.",
     "item": "A recuperação da informação é a finalidade do trabalho de documentação, cujo ciclo se inicia na fase de aquisição do documento.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CPRM/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CPRM/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Na teoria da documentação e da ciência da informação (Briet, Otlet, Le Coadic), o fluxo da informação engloba a identificação das fontes e a geração de conhecimento. A aquisição é apenas uma etapa operacional intermediária de entrada de suportes.",
+    "armadilhaBanca": "Reducionismo do ciclo documentário iniciando-o arbitrariamente na fase de aquisição de suportes.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CPRM / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Geo (CPRM)/CPRM/Biblioteconomia/2013",
@@ -1454,7 +1486,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CPRM",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-3602350"
-    }
+    },
+    "versao_correta": "O ciclo documental compreende as fases de produção/coleta, seleção, tratamento técnico (análise, indexação, catalogação), armazenamento, recuperação e disseminação da informação, iniciando-se antes da mera aquisição física."
   },
   {
     "id": "mega-q-69",
@@ -1468,7 +1501,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso TJ-RR/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJ RR / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJ RR)/TJ RR/Biblioteconomia/2012",
@@ -1486,11 +1519,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos conceitos de biblioteconomia e ciência da informação, julgue os",
     "item": "A teoria da informação, originariamente, teoria da recuperação da informação, se desenvolveu após a ciência da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CADE/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A teoria da informação de Shannon surgiu no final dos anos 1940 no contexto das telecomunicações e criptografia nos Laboratórios Bell. A Ciência da Informação emergiu posteriormente (conferências do Georgia Tech em 1961/1962 e Harold Borko em 1968), incorporando a teoria da informação como uma de suas raízes.",
+    "armadilhaBanca": "Anacronismo histórico: inverter a cronologia da Teoria da Informação (1948) e da Ciência da Informação (década de 1960).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1498,7 +1531,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185254"
-    }
+    },
+    "versao_correta": "A Teoria Matemática da Comunicação/Informação (desenvolvida por Claude Shannon e Warren Weaver em 1948) antecedeu historicamente o nascimento formal da Ciência da Informação, que se consolidou na década de 1960."
   },
   {
     "id": "mega-q-71",
@@ -1512,15 +1546,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-156"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-156"
+    }
   },
   {
     "id": "mega-q-72",
@@ -1530,19 +1564,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens que se seguem, acerca da ciência da informação e do conceito de",
     "item": "A ciência da informação dispõe de um conjunto de teoria s que permitem interpretar de forma científica e racional as leis e modelos empíricos empregados na recuperação da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ANATEL/2009 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANATEL/2009: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. As formulações bibliométricas são leis empíricas de base probabilística e descritiva. Como ressaltam Tefko Saracevic e diversos teóricos, a área caracteriza-se pela pluralidade de modelos e paradigmas (físico, cognitivo, social), carecendo de uma teoria geral unificada.",
+    "armadilhaBanca": "Superestimação epistemológica: afirmar a existência de corpo teórico dedutivo unificado para justificar leis empíricas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-150"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-150"
+    },
+    "versao_correta": "A Ciência da Informação utiliza leis e distribuições empíricas (como Bradford, Lotka e Zipf) para descrever regularidades nos fluxos documentais, sem possuir ainda uma teoria epistemológica única e integrada capaz de explicar dedutivamente todos os fenômenos da recuperação."
   },
   {
     "id": "mega-q-73",
@@ -1550,18 +1585,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M05",
     "submoduloId": "5.2",
     "contexto": "Em relação às noções de bibliometria, julgue os itens subsequentes.",
-    "item": "A lei de Bradford trata sobre a produtividade dos periódicos e auxilia no planejamento de desca rte.",
+    "item": "A lei de Bradford trata sobre a produtividade dos periódicos e auxilia no planejamento de descarte.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. Formulada em 1934 por Samuel C. Bradford, a Lei da Dispersão da Literatura Periódica estabelece que artigos sobre determinado assunto concentram-se em um núcleo pequeno de periódicos altamente produtivos, ao redor do qual se distribuem zonas de periódicos com produtividade decrescente (1 : n : n²). A identificação desses periódicos periféricos de baixo impacto fornece subsídio objetivo para decisões de cancelamento de assinaturas e desbaste/descarte de acervos.",
+    "armadilhaBanca": "APLICAÇÃO DA BIBLIOMETRIA NO DESCARTE: Reconhecer a utilidade da Lei de Bradford no redimensionamento físico e financeiro de coleções seriadas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-137",
-        "declaracaoLegada": "Cebraspe / 2013 / 2013"
-      }
+      "tipo": "inedita",
+      "descricao": "Bradford, S. C. Documentation (1948); Macias-Chapula, C. A. (1998)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-137",
+      "declaracaoLegada": "Cebraspe / 2013 / 2013"
+    }
   },
   {
     "id": "mega-q-74",
@@ -1571,11 +1606,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos conceitos de biblioteconomia e ciência da informação, julgue os",
     "item": "O acesso livre à literatura científica mundial é insuficiente para modificar o planejamento das publicações e suas avaliações.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CADE/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O Acesso Aberto (iniciado formalmente pelas iniciativas de Budapeste, Bethesda e Berlim) reconfigurou integralmente o planejamento de periódicos científicos, a disseminação em repositórios institucionais (via verde) e revistas abertas (via dourada), impactando decisivamente a avaliação de impacto acadêmico.",
+    "armadilhaBanca": "Subestimação do impacto do Open Access na comunicação científica e na gestão de periódicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1583,7 +1618,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185257"
-    }
+    },
+    "versao_correta": "O movimento do Acesso Aberto (Open Access) transformou profundamente o ecossistema de comunicação científica, modificando políticas de financiamento, planejamento editorial, modelos de avaliação de pesquisa e modalidades de publicação."
   },
   {
     "id": "mega-q-75",
@@ -1597,15 +1633,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-226"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-226"
+    }
   },
   {
     "id": "mega-q-76",
@@ -1615,11 +1651,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca da bibliometria, julgue os itens a seguir.",
     "item": "O índice h é útil como critério para avaliação de coleções de periódicos científicos",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso FUB/2015 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A métrica do índice h foi desenhada para autores (\"um cientista tem índice h se h dos seus N artigos têm pelo menos h citações cada\"). A avaliação de coleções e títulos de periódicos baseia-se em métricas consolidadas de revistas, como Fator de Impacto (JCR/Clarivate), CiteScore (Scopus) e Scimago Journal Rank (SJR).",
+    "armadilhaBanca": "Transposição indevida de métrica individual de autor (índice h) para a avaliação global de periódicos científicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -1627,7 +1663,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289221"
-    }
+    },
+    "versao_correta": "O índice h (h-index), formulado pelo físico Jorge Hirsch (2005), destina-se a quantificar a produtividade e o impacto cumulativo das citações de pesquisadores individuais, e não como critério de avaliação de coleções de periódicos (para o qual se usam Fator de Impacto e CiteScore)."
   },
   {
     "id": "mega-q-77",
@@ -1641,15 +1678,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-227"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-227"
+    }
   },
   {
     "id": "mega-q-78",
@@ -1659,19 +1696,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Ao elaborar o planejamento dos serviços de uma biblioteca universitária, algumas",
     "item": "A identificação da terminologia utilizada pelo usuário é uma tarefa a ser realizada no processo de busca.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso FUB/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. Conforme a doutrina do processo de referência (Grogan, Figueiredo), o entendimento da terminologia e das carências informacionais do consulente pertence à fase prévia da entrevista de referência. Entrar no processo de busca sem antes haver negociado a terminologia com o usuário compromete a eficácia da recuperação.",
+    "armadilhaBanca": "DESLOCAMENTO DE ETAPAS DO PROCESSO DE REFERÊNCIA: Transferir a identificação terminológica da entrevista prévia para o momento da busca.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-230"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-230"
+    },
+    "versao_correta": "A identificação da terminologia e da necessidade de informação do usuário é uma tarefa que deve ser realizada primordialmente na etapa de entrevista de referência e negociação da questão, antecedendo a execução do processo de busca."
   },
   {
     "id": "mega-q-79",
@@ -1685,7 +1723,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2013",
@@ -1703,11 +1741,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com referência aos centros de documentação e serviços de informação, julgue os",
     "item": "O planejamento das atividades de gestão em centros de documentação e sistemas informaci onais deve ser realizado em situações específicas durante um tempo predeterminado e finito.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso MS/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MS/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Segundo a literatura de gestão (Almeida, Maciel), o planejamento não é evento com termo final pré-estabelecido após o qual cessa a reflexão administrativa; trata-se de atividade gerencial contínua, cíclica e adaptativa às mutações do ambiente e das demandas informacionais.",
+    "armadilhaBanca": "Restrição do planejamento a episódios estanques e pontuais com prazo finito de cessação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MS / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Bib (MS)/MS/2013",
@@ -1715,7 +1753,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "MS",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1546801"
-    }
+    },
+    "versao_correta": "O planejamento estratégico e operacional em unidades de informação é um processo contínuo, dinâmico e permanente de tomada de decisão, exigindo monitoramento e revisões constantes, e não uma intervenção temporária e pontual."
   },
   {
     "id": "mega-q-81",
@@ -1729,7 +1768,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso CNJ/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
@@ -1747,11 +1786,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
     "item": "A Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) integra o acervo indexado pelo LexML.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CADE/2014 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) é gerenciada pelo Ibict para agregar a produção acadêmica nacional em todas as áreas do conhecimento, funcionando de maneira independente do portal LexML Brasil, que foca estritamente o ecossistema normativo e jurisprudencial brasileiro.",
+    "armadilhaBanca": "MISTURA_DE_REDES: Afirmar que a BDTD (sistema de pós-graduação acadêmica do Ibict) faz parte do acervo do LexML.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1759,7 +1798,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185319"
-    }
+    },
+    "versao_correta": "O portal LexML Brasil indexa metadados especializados de legislação, jurisprudência e doutrina jurídica de instituições parceiras, não integrando a Biblioteca Digital Brasileira de Teses e Dissertações (BDTD / Ibict) em seu acervo indexado."
   },
   {
     "id": "mega-q-83",
@@ -1773,7 +1813,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEE-DF/2016.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SEE DF / 2017 (Adaptada)",
       "verificado": true,
       "provaId": "GPPGE (SEE DF)/SEE DF/Biblioteconomia/2017",
@@ -1791,19 +1831,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito de automação de bibliotecas, redes de bibliotecas e bibliotecas digitais,",
     "item": "O DSpace é um software livre amplamente utilizado para a automação de bibliotecas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso SEE-DF/2016 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SEE-DF/2016: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O DSpace é software de repositório institucional e biblioteca digital para guarda e acesso aberto da produção científica e intelectual. Softwares de automação de bibliotecas (SGB/ILS) são aqueles destinados ao controle de empréstimos, circulação, renovação e aquisição física (ex.: Koha, Biblivre, Pergamum).",
+    "armadilhaBanca": "CONFUSAO_DE_ESCOPO: Confundir software de repositório digital (DSpace) com software de automação de rotinas de biblioteca (Koha/Biblivre).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEE-DF/2016",
-        "ano": 2016,
-        "orgao": "2016",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-699"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2016 / 2016 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEE-DF/2016",
+      "ano": 2016,
+      "orgao": "2016",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-699"
+    },
+    "versao_correta": "O DSpace é um software livre voltado ao gerenciamento de repositórios institucionais e bibliotecas digitais, ao passo que a automação dos serviços tradicionais de bibliotecas (empréstimo, circulação, inventário físico) é executada por sistemas integrados como Koha ou Biblivre."
   },
   {
     "id": "mega-q-85",
@@ -1818,7 +1859,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "dificuldade": "media",
     "revisar": true,
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / DPU / 2016 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (DPU)/DPU/2016",
@@ -1836,19 +1877,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "No que diz respeito à automação de bibliotecas, julgue os itens subsequentes.",
     "item": "O uso de software de editoração eletrônica, como, por exemplo, o Dspace, proporciona melhor gerenciamento dos repositórios institucionais.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso ANTT/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso ANTT/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O DSpace é uma plataforma de repositório digital institucional para armazenamento, gestão e preservação em acesso aberto. Softwares de editoração eletrônica são programas como Adobe InDesign, Scribus ou plataformas de gestão de fluxo editorial de periódicos como o OJS/SEER.",
+    "armadilhaBanca": "CLASSIFICACAO_INDEVIDA: Classificar o DSpace como \"software de editoração eletrônica\" em vez de software de repositório institucional.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANTT/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-892"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANTT/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-892"
+    },
+    "versao_correta": "O DSpace é um software livre de repositório digital voltado à custódia, organização, preservação e disseminação da produção científica e institucional, não se classificando como software de editoração eletrônica."
   },
   {
     "id": "mega-q-87",
@@ -1862,15 +1904,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2012.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-604"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-604"
+    }
   },
   {
     "id": "mega-q-88",
@@ -1880,11 +1922,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, acerca de informática em bibliotecas.",
     "item": "A interoperabilidade tem o objetivo de disponibilizar catálogos públicos de aces so em linha por meio da utilização de bases de dados em CD-ROM para pesquisa.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso EBESERH/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso EBESERH/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Bases de dados em CD-ROM constituem tecnologia de armazenamento estático local isolado. A interoperabilidade pressupõe conectividade em rede, metadados padronizados e protocolos de comunicação que permitam a cooperação e o compartilhamento simultâneo de dados entre diferentes instituições.",
+    "armadilhaBanca": "Anacronismo e distorção técnica: definir interoperabilidade sob a ótica de mídias ópticas locais estáticas (CD-ROM).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / HU Brasil / 2018 (Adaptada)",
       "verificado": true,
       "provaId": "Ana Adm (EBSERH)/HU Brasil/Biblioteconomia/2018",
@@ -1892,7 +1934,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "HU Brasil",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-646324"
-    }
+    },
+    "versao_correta": "A interoperabilidade em bibliotecas e sistemas de informação visa à comunicação contínua e intercâmbio de dados entre plataformas heterogêneas por meio de protocolos de rede e padrões abertos (como OAI-PMH, Z39.50 e SRU), e não pela leitura local de CD-ROMs."
   },
   {
     "id": "mega-q-89",
@@ -1900,18 +1943,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M07",
     "submoduloId": "7.2",
     "contexto": "Julgue os itens que se seguem, relativos aos conceitos básicos e às finalidades",
-    "item": "Priorizar a preservação das informações em detrimento do acesso a ela constitui uma das barre iras ao pleno desenvolvimento dos serviços de informação nas bibliotecas.",
+    "item": "Priorizar a preservação das informações em detrimento do acesso a ela constitui uma das barreiras ao pleno desenvolvimento dos serviços de informação nas bibliotecas.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados .",
+    "justificativa": "Gabarito CERTO. Fundamenta-se na 1ª Lei de Ranganathan (\"Os livros são para usar\") e nos preceitos éticos da preservação contemporânea (Paul Conway). A razão de ser da preservação documental é garantir e prolongar o acesso da sociedade ao conhecimento. Quando a instituição transforma a preservação em barreira e culto ao acervo físico trancafiado, descaracteriza a missão social primordial da biblioteca como polo de disseminação.",
+    "armadilhaBanca": "DIALÉTICA PRESERVAÇÃO VERSUS ACESSO: Apreensão do princípio teleológico de que a preservação existe para viabilizar e sustentar o acesso informacional.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-95",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Ranganathan, S. R. As Cinco Leis da Biblioteconomia (1931); Conway, P. Preservação no universo digital (2001)",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-95",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    }
   },
   {
     "id": "mega-q-90",
@@ -1921,11 +1964,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens a seguir, relativos a documentação.",
     "item": "Entre as mudanças ocorridas com o surgimento da documentação, destaca -se o fortalec imento do papel das bibliotecas como unidades voltadas à conservação e preservação de documentos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso BASA/2012 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso BASA/2012: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A grande revolução da documentação consistiu justamente em romper com o papel das bibliotecas como meros depósitos sagrados de guarda física de códices. Otlet preconizava o acesso direto à informação contida nos documentos e a cooperação internacional para sua disseminação e uso prático.",
+    "armadilhaBanca": "Inversão do vetor modernizador da documentação: atribuir-lhe o reforço da custódia passiva e conservação estática.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / BASA / 2012 (Adaptada)",
       "verificado": true,
       "provaId": "Tec Cien (BASA)/BASA/Biblioteconomia/2012",
@@ -1933,7 +1976,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "BASA",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1303089"
-    }
+    },
+    "versao_correta": "Com o advento da Documentação (Paul Otlet, 1934), as unidades de informação passaram a enfatizar a análise profunda do conteúdo, a recuperação temática microscópica e a disseminação ativa do conhecimento, superando a tradicional custódia estática e conservação física do livro."
   },
   {
     "id": "mega-q-91",
@@ -1947,15 +1991,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SUFRAMA/2014.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SUFRAMA / 2014",
-        "verificado": true,
-        "provaId": "TecConcursos-165484",
-        "ano": 2014,
-        "orgao": "SUFRAMA",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "165484"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SUFRAMA / 2014",
+      "verificado": true,
+      "provaId": "TecConcursos-165484",
+      "ano": 2014,
+      "orgao": "SUFRAMA",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "165484"
+    }
   },
   {
     "id": "mega-q-92",
@@ -1965,16 +2009,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Considerando os conceitos básicos e as finalidades da documentação, julgue",
     "item": "A doação de material bibliográfico pela comunida de constitui uma das formas mais comuns de captação de material para a formação de coleções que propiciam a preservação da herança cu ltural de um país.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A herança cultural e a memória bibliográfica nacional são asseguradas pelo instituto jurídico obrigatório do Depósito Legal, que impõe a impressores e editoras a entrega compulsória de exemplares de todas as publicações produzidas no país à Biblioteca Nacional. Doações da comunidade são aleatórias e não garantem completude.",
+    "armadilhaBanca": "Substituição do instrumento formal de preservação da memória nacional (Depósito Legal) pela prática informal e aleatória de doações.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-36",
-        "declaracaoLegada": "Cebraspe / 2011 / 2011"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-36",
+      "declaracaoLegada": "Cebraspe / 2011 / 2011"
+    },
+    "versao_correta": "O mecanismo formal e sistemático para a formação de coleções de salvaguarda da memória nacional e da herança cultural de um país é o Depósito Legal (regulado no Brasil pela Lei nº 10.994/2004), sendo a doação uma modalidade complementar facultativa."
   },
   {
     "id": "mega-q-93",
@@ -1988,15 +2033,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SEDUC-AM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "SEDUC-AM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-548"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "SEDUC-AM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-548"
+    }
   },
   {
     "id": "mega-q-94",
@@ -2006,11 +2051,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos estudos de usuários, julgue os seguintes itens.",
     "item": "Há necessidades de informação em função do conhecimento e em função da ação. As necessid ades em função do conhecimento resultam de demandas materiais exigidas para a realização de atividades humanas, profissionais e pessoais, ao passo que as necessidades em função da ação resultam do desejo de saber.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso FUB/2015 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2015: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O item inverteu as duas categorias fundamentais de necessidades de informação formuladas nos estudos de usuários: conhecimento visa preencher lacunas conceituais e intelectuais; ação visa subsidiar tomada de decisão e resolução prática de demandas materiais do dia a dia.",
+    "armadilhaBanca": "Inversão simétrica das definições de necessidades informacionais em função do conhecimento e da ação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / FUB / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio Doc (FUB)/FUB/2015",
@@ -2018,7 +2063,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "FUB",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-289230"
-    }
+    },
+    "versao_correta": "As necessidades de informação em função do conhecimento decorrem do desejo subjetivo e cognitivo de saber/compreender um tema, enquanto as necessidades em função da ação resultam de exigências operacionais e práticas para a execução de tarefas imediatas."
   },
   {
     "id": "mega-q-95",
@@ -2032,15 +2078,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ANATEL/2009.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
-        "verificado": true,
-        "provaId": "ANATEL/2009",
-        "ano": 2009,
-        "orgao": "2009",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-1563"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2009 / 2009 (Adaptada)",
+      "verificado": true,
+      "provaId": "ANATEL/2009",
+      "ano": 2009,
+      "orgao": "2009",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-1563"
+    }
   },
   {
     "id": "mega-q-96",
@@ -2050,19 +2096,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de recursos e serviços de informação digitais, julgue os próximos itens.",
     "item": "Repositórios institucionais e repositórios temáticos, em razão de exercerem a função de prov edores de dados no modelo de arquivos abertos, não são indexados pelo Google Scholar, pois o protocolo de comunicação que utilizam, o OAI -PMH, é compatível com provedores de serviços, como o OAISTER.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso FUB/2011 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso FUB/2011: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Repositórios institucionais e temáticos SÃO amplamente indexados pelo Google Acadêmico (Google Scholar). Os rastreadores do Google Scholar varrem as páginas HTML dos repositórios e extraem automaticamente os metadados bibliográficos estruturados (Dublin Core e Highwire Press) embutidos no código da página.",
+    "armadilhaBanca": "PREMISSA_FALSA: Afirmar categoricamente que repositórios digitais \"não são indexados pelo Google Scholar\".",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "FUB/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-492"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "FUB/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-492"
+    },
+    "versao_correta": "Repositórios institucionais e temáticos são amplamente indexados pelo Google Scholar e por outros motores de busca acadêmicos, os quais mapeiam as tags de metadados estruturados (como Dublin Core) contidas nas páginas dos itens."
   },
   {
     "id": "mega-q-97",
@@ -2076,15 +2123,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso ECT/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "ECT/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-490"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "ECT/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-490"
+    }
   },
   {
     "id": "mega-q-98",
@@ -2094,16 +2141,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação aos conceitos básicos da documentação, julgue os itens.",
     "item": "Os serviços de indexação e resumos definem o conjunto de títulos de periódicos a serem analis ados segundo a lei da dispersão da literatura, segundo a qual os artigos de interesse para determ inado assunto específico ocorrem em periódicos especializados nesse assunto ou em periódicos de áreas correlatas",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A Lei de Bradford não afirma que artigos específicos ocorrem uniformemente em periódicos especializados ou áreas correlatas: ela demonstra uma distribuição geométrica 1 : n : n^2, em que o rendimento decresce à medida que se afasta do núcleo focal da disciplina.",
+    "armadilhaBanca": "Deturpação da Lei de Bradford: apresentar uma distribuição geométrica desigual como se fosse divisão uniforme entre temas correlatos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-41",
-        "declaracaoLegada": "Cebraspe / 2010 / 2010"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-41",
+      "declaracaoLegada": "Cebraspe / 2010 / 2010"
+    },
+    "versao_correta": "A Lei de Dispersão de Bradford estabelece que a literatura científica sobre determinado tema divide-se em um núcleo central de poucos periódicos altamente produtivos e sucessivas zonas com número crescente de periódicos mais dispersos e de menor rendimento."
   },
   {
     "id": "mega-q-99",
@@ -2117,7 +2165,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -2135,19 +2183,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Na pesquisa científica, o pesquisador dispõe de diversas técnicas de investigação, que",
     "item": "A pesquisa documental caracteriza-se por explicar um problema a partir de referências teóricas publicadas em livros e periódicos e é utilizada em outros tipos de pesquisa para levantamento da situação estudada, fund amentação teórica e justificativa dos limites e das contribuições da pesquisa.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STF/2008 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STF/2008: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. O enunciado descreveu as características da pesquisa bibliográfica. A pesquisa documental diferencia-se justamente por investigar documentos em seu estado bruto de produção (leis, arquivos históricos, memorandos, registros paroquiais, pareceres), que ainda não receberam tratamento teórico publicado.",
+    "armadilhaBanca": "Confusão clássica entre pesquisa bibliográfica (material publicado) e pesquisa documental (fontes primárias brutas).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
-        "verificado": true,
-        "provaId": "STF/2008",
-        "ano": 2008,
-        "orgao": "2008",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-501"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2008 / 2008 (Adaptada)",
+      "verificado": true,
+      "provaId": "STF/2008",
+      "ano": 2008,
+      "orgao": "2008",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-501"
+    },
+    "versao_correta": "A pesquisa bibliográfica é a modalidade investigativa que analisa contribuições a partir de material publicado (livros, periódicos e artigos científicos), ao passo que a pesquisa documental baseia-se em documentos originais e fontes primárias sem tratamento analítico preliminar."
   },
   {
     "id": "mega-q-101",
@@ -2161,15 +2210,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STM/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "STM/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-560"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "STM/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-560"
+    }
   },
   {
     "id": "mega-q-102",
@@ -2179,16 +2228,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação ao uso dos suportes informacionais e das fontes de informação, julgue os",
     "item": "São consideradas fontes terciár ias, as que mostram a participação de outro autor ou produtor, tais como as bibliografias, os dicionários, as enciclopédias, as publicações ou periódicos de i ndexação e resumos, os artigos de revisão e os catálogos.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. Na tipologia clássica das fontes de informação (Grogan), fontes primárias contêm dados novos e inéditos (artigos originais, relatórios); fontes secundárias organizam ou sintetizam o conhecimento das fontes primárias (enciclopédias, dicionários, resumos); fontes terciárias funcionam como sinalizadoras e diretórios para localização das demais fontes.",
+    "armadilhaBanca": "Classificação incorreta de fontes secundárias (enciclopédias e resumos) rotulando-as falsamente como terciárias.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-506",
-        "declaracaoLegada": "Cebraspe / 2018 / 2018"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-506",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+    },
+    "versao_correta": "Dicionários, enciclopédias e artigos de revisão são classificados como fontes secundárias de informação, enquanto publicações de indexação e resumos são secundárias; fontes terciárias destinam-se a guiar o usuário até as fontes primárias e secundárias (como bibliografias de bibliografias e guias de literatura)."
   },
   {
     "id": "mega-q-103",
@@ -2202,15 +2252,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso MPU/2011.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
-        "verificado": true,
-        "provaId": "MPU/2011",
-        "ano": 2011,
-        "orgao": "2011",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-566"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2011 / 2011 (Adaptada)",
+      "verificado": true,
+      "provaId": "MPU/2011",
+      "ano": 2011,
+      "orgao": "2011",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-566"
+    }
   },
   {
     "id": "mega-q-104",
@@ -2220,19 +2270,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de bibliografias, julgue os itens subsequentes.",
     "item": "Nas bibliografias, as referências bibliográficas devem ser organizadas em cabeçalhos de assuntos, podendo, às vezes, conter subcabeçalhos e entradas repetidas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CNJ/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. Uma bibliografia técnica de referência adota critérios rigorosos de normalização e controle de vocabulário, visando conferir unicidade e precisão ao repertório e evitando a duplicação errática de entradas bibliográficas.",
+    "armadilhaBanca": "Admitir duplicidade e desordem como práticas legítimas na elaboração de repertórios bibliográficos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "CNJ/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-545"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "CNJ/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-545"
+    },
+    "versao_correta": "As bibliografias sistemáticas organizam seus registros de forma estruturada e padronizada (seja por autor, data, classificação ou assunto), aplicando controle de autoridade para eliminar duplicidades e entradas redundantes desnecessárias."
   },
   {
     "id": "mega-q-105",
@@ -2246,15 +2297,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso STJ/2018.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-113"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-113"
+    }
   },
   {
     "id": "mega-q-106",
@@ -2264,11 +2315,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Acerca de conceitos básicos de biblioteconomia, ciência da informação e documen -",
     "item": "A bibliometria, que estuda os aspectos quantitativos da produção bibliográfica em um determ inado campo do conhecimento, é considerada um segmento da sociologia da ciência aplicada no desenvolvimento de políticas científicas.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso CNJ/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A CIENTOMETRIA (Scientometrics) é a área concebida como segmento quantitativo da sociologia da ciência voltada à análise do desenvolvimento científico e subsídio a políticas públicas e fomento em C&T. A bibliometria, em sentido estrito, limita-se ao tratamento quantitativo de materiais bibliográficos e publicações.",
+    "armadilhaBanca": "CONFUSAO_CONCEITUAL: Confundir Bibliometria com Cientometria como braço da sociologia da ciência para políticas públicas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CNJ / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "AJ CNJ/CNJ/Apoio Especializado/Biblioteconomia/2013",
@@ -2276,7 +2327,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "CNJ",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-103194"
-    }
+    },
+    "versao_correta": "A disciplina aplicada ao desenvolvimento de políticas públicas e considerada o ramo quantitativo da sociologia da ciência é a Cientometria, ao passo que a Bibliometria concentra-se no estudo estatístico de registros bibliográficos e publicações."
   },
   {
     "id": "mega-q-107",
@@ -2290,7 +2342,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / SERPRO / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Ana (SERPRO)/SERPRO/Biblioteconomia/2013",
@@ -2308,11 +2360,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "Com relação à biblioteconomia e à ciência da informação, julgue os itens a seguir.",
     "item": "Os processos de comunicação científica, de modo geral, extrapolam o âmbito de estudo da ciê ncia da informação, pois são incompatíveis com as preocupações acerca do armazenamento e do uso da informação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso MS/2013 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso MS/2013: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A comunicação científica constitui objeto precípuo e interdisciplinar da Ciência da Informação. Compreender os canais formais (periódicos, livros) e informais (colégios invisíveis, redes de pesquisa) de fluxo informacional é essencial para o desenvolvimento de sistemas eficientes de recuperação e armazenamento.",
+    "armadilhaBanca": "Afirmar incompatibilidade temática entre a comunicação científica e o escopo de atuação da Ciência da Informação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / MS / 2013 (Adaptada)",
       "verificado": true,
       "provaId": "Bib (MS)/MS/2013",
@@ -2320,7 +2372,8 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
       "orgao": "MS",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-1546791"
-    }
+    },
+    "versao_correta": "O estudo dos processos de comunicação científica é um dos pilares fundacionais da Ciência da Informação, relacionando-se diretamente aos ciclos de criação, avaliação por pares, publicação, indexação e disseminação social do conhecimento."
   },
   {
     "id": "mega-q-109",
@@ -2334,15 +2387,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso SERPRO/2013.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SERPRO / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-436562",
-        "ano": 2013,
-        "orgao": "SERPRO",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "436562"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436562",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "436562"
+    }
   },
   {
     "id": "mega-q-110",
@@ -2352,16 +2405,17 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "As bibliotecas aplicam as leis bibliométricas como ferramentas de apoio a seus proces-",
     "item": "No processo de des envolvimento de coleções, a Lei de Zipf permite avaliar a produtividade de determinado autor e a sua importância para o acervo.",
     "gabarito": "E",
-    "justificativa": "A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito ERRADO. A Lei de Zipf mede a frequência de termos lexicais em corpora textuais. Quem quantifica e analisa a distribuição de produtividade dos autores em determinada disciplina é a Lei de Lotka.",
+    "armadilhaBanca": "Troca clássica de leis bibliométricas: atribuir à Lei de Zipf (frequência de palavras) a mensuração da produtividade de autores (Lei de Lotka).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "cespe-cad-114",
-        "declaracaoLegada": "Cebraspe / 2018 / 2018"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "cespe-cad-114",
+      "declaracaoLegada": "Cebraspe / 2018 / 2018"
+    },
+    "versao_correta": "Na bibliometria, a Lei de Lotka avalia a produtividade científica dos autores (distribuição do quadrado inverso), enquanto a Lei de Zipf relaciona o ranking e a frequência de ocorrência de palavras em textos na linguagem natural."
   },
   {
     "id": "mega-q-111",
@@ -2375,15 +2429,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Assertiva tecnicamente correta: apreensão precisa dos conceitos cobrados no concurso FUB/2015.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / FUB / 2015",
-        "verificado": true,
-        "provaId": "TecConcursos-289213",
-        "ano": 2015,
-        "orgao": "FUB",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "289213"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / FUB / 2015",
+      "verificado": true,
+      "provaId": "TecConcursos-289213",
+      "ano": 2015,
+      "orgao": "FUB",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "289213"
+    }
   },
   {
     "id": "mega-q-112",
@@ -2393,19 +2447,20 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "As bibliotecas aplicam as leis bibliométricas como ferramentas de apoio a seus proces-",
     "item": "Utiliza-se a Lei de Lotka na delimitação de zonas de ocorrência de palavras em índices e na identificação de conteúdo semântico em textos.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado no concurso STJ/2018 pela banca Cebraspe. A assertiva induz a erro ao distorcer os conceitos normativos canônicos aplicáveis à matéria.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso STJ/2018: inversão conceitual ou generalização indevida.",
+    "justificativa": "Gabarito oficial ERRADO. A aplicação bibliométrica que analisa a ocorrência e contagem de palavras em índices e documentos para extração semântica e indexação automática baseia-se na LEI DE ZIPF (linguística estatística). A LEI DE LOTKA tem como objeto único a distribuição da produtividade dos autores científicos.",
+    "armadilhaBanca": "TROCA_DE_LEI_BIBLIOMETRICA: Atribuir à Lei de Lotka (produtividade autoral) a função da Lei de Zipf (frequência vocabular).",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2018",
-        "ano": 2018,
-        "orgao": "2018",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-115"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2018 / 2018 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2018",
+      "ano": 2018,
+      "orgao": "2018",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-115"
+    },
+    "versao_correta": "A identificação da frequência e dispersão de palavras em textos e índices baseia-se na Lei de Zipf, aplicando-se a Lei de Lotka ao cálculo da produtividade dos autores científicos."
   },
   {
     "id": "mega-q-113",
@@ -2419,7 +2474,7 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Papel da Casa iniciadora e revisora.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
@@ -2434,14 +2489,15 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "item": "O veto do Presidente da República a um projeto de lei aprovado pelo Congresso Nacional é irretratável e absoluto, não podendo ser apreciado nem rejeitado pelos parlamentares sob qualquer hipótese.",
     "gabarito": "E",
     "justificativa": "Gabarito ERRADO. O veto é relativo. Conforme o art. 66, § 4º da CF/88, o veto será apreciado em sessão conjunta do Congresso Nacional dentro de trinta dias a contar de seu recebimento, só podendo ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Considerar o veto presidencial absoluto e insuscetível de rejeição.",
+    "armadilhaBanca": "Considerar o veto presidencial absoluto e insuscetível de rejeição.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "MPU/2013 (Cebraspe)"
-    }
+    },
+    "versao_correta": "O veto do Presidente da República possui eficácia relativa, devendo ser submetido à apreciação do Congresso Nacional em sessão conjunta, que poderá rejeitá-lo pelo voto da maioria absoluta dos deputados e senadores (art. 66, § 4º da CF/88)."
   },
   {
     "id": "mega-q-115",
@@ -2451,11 +2507,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "A iniciativa popular de leis federais perante a Câmara dos Deputados pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Requisitos constitucionais do art. 61, § 2º da CF/88 para iniciativa popular de lei federal (ex: Lei da Ficha Limpa).",
+    "justificativa": "Gabarito CERTO. O art. 61, § 2º da CF/88 estabelece o tríplice requisito cumulativo para a iniciativa popular de projetos de lei ordinária ou complementar perante a Câmara dos Deputados: 1) subscrição de, no mínimo, 1% do eleitorado nacional; 2) dispersão geográfica em pelo menos 5 Estados da Federação; 3) presença de não menos de 0,3% dos eleitores de cada um desses Estados. Trata-se de instrumento clássico de democracia semidireta (como ocorreu na Lei da Ficha Limpa - LC 135/2010 e na Lei contra a Compra de Votos - Lei 9.840/1999).",
     "armadilhaBanca": "Requisitos constitucionais de iniciativa popular.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
@@ -2473,11 +2529,12 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL / INVERSAO_CANONICA: Quórum de PEC (exige 3/5 em 2 turnos, e não maioria simples em turno único).",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
-    }
+    },
+    "versao_correta": "A Proposta de Emenda à Constituição (PEC) deve ser discutida e votada em cada Casa do Congresso Nacional em dois turnos, considerando-se aprovada se obtiver três quintos dos votos dos respectivos membros em ambos os turnos (art. 60, § 2º da CF/88)."
   },
   {
     "id": "mega-q-117",
@@ -2487,11 +2544,11 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência regimental específica do Quarto-Secretário no organograma da Mesa Diretora (art. 16 do RICD).",
+    "justificativa": "Gabarito CERTO. Conforme o art. 16 do Regimento Interno da Câmara dos Deputados (RICD), compete especificamente ao Quarto-Secretário supervisionar e administrar o sistema de concessão e distribuição de habitação funcional e auxílio-moradia dos Deputados, além de instruir, registrar e encaminhar os requerimentos de informação a Ministros de Estado ou titulares de órgãos subordinados à Presidência da República.",
     "armadilhaBanca": "Atribuições das Secretarias da Mesa Diretora.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "TRE-BA/2010 (Cebraspe)"
@@ -2505,15 +2562,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "Para avocar ao Plenário um projeto de lei submetido à tramitação conclusiva nas comissões, basta que qualquer cidadão envie uma mensagem no portal de atendimento ao cliente da biblioteca.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O recurso para levar o projeto conclusivo ao Plenário é ato parlamentar estrito, exigindo assinatura formal de no mínimo um décimo (1/10) dos membros da Câmara dos Deputados dentro do prazo regimental.",
-    "armadilhaBanca": "CATEGORICO_ABSOLUTO: Avocação ao Plenário por mensagem em biblioteca.",
+    "justificativa": "Gabarito ERRADO. O recurso para submeter matéria conclusiva das comissões ao Plenário da Câmara é ato parlamentar solene e indelegável, exigindo o quórum de 1/10 da composição da Casa (mínimo de 52 deputados) protocolado dentro do prazo regimental de 5 sessões, não sendo cabível solicitação por cidadãos em balcão de biblioteca.",
+    "armadilhaBanca": "Falsa equiparação entre petição administrativa informal em biblioteca e recurso parlamentar regimental de avocação.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "Câmara dos Deputados / 2014 (Cespe/Cebraspe) (Cebraspe)"
-    }
+    },
+    "versao_correta": "A avocação de projeto em tramitação conclusiva nas comissões para deliberação do Plenário exige a interposição de recurso formal subscrito por no mínimo um décimo (1/10) dos membros da Câmara dos Deputados (52 deputados), ato parlamentar estrito nos termos do art. 58, § 2º, I da CF/88 e art. 132 do RICD."
   },
   {
     "id": "mega-q-119",
@@ -2523,16 +2581,16 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
     "item": "Cabe ao presidente da Câmara designar a ordem do dia das sessões, segundo a agenda mensal, ressalvadas as alterações permitidas pelo Regimento Interno da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme o RICD (art. 17, inciso I, alínea \"t\" c/c art. 82), compete privativamente ao Presidente da Câmara dos Deputados designar e organizar a Ordem do Dia das sessões plenárias deliberativas, orientando-se pela pauta mensal acordada com o Colégio de Líderes, ressalvadas as urgências e preferências admitidas pelo Regimento.",
+    "armadilhaBanca": "ORGANIZAÇÃO DA ORDEM DO DIA: Competência privativa do Presidente da Câmara na gestão da pauta plenária.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2043",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Interno da Câmara dos Deputados (RICD), art. 17, I, \"t\" e art. 82",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2043",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "mega-q-120",
@@ -2540,17 +2598,18 @@ export const megaSimuladoCamara120Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.1",
     "contexto": "A respeito dos tópicos relativos a Legislação e Processo Legislativo, julgue o item a seguir.",
-    "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada. Com base nas normas do Código de Ética e Decoro Parlamentar da Câmara dos Deputados, julgue os itens seguintes, no que se refere à disciplina do decoro parlamentar.",
+    "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Conforme os arts. 22 e 30 do Regimento Comum do Congresso Nacional (RCCN), as sessões secretas são convocadas excepcionalmente para tratar de assuntos de segurança nacional ou temas sob segredo oficial. A proposta para realização da sessão secreta e os motivos que a fundamentam são apreciados sob sigilo prévio, sendo descabido exigir a divulgação pública prévia da finalidade sob pena de anular a natureza do sigilo.",
+    "armadilhaBanca": "CONTRADIÇÃO REGIMENTAL: Postular que a finalidade de uma sessão de natureza estritamente secreta deva ser antecipadamente divulgada ao público.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2051",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Comum do Congresso Nacional (RCCN), arts. 22 e 30",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2051",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "No Congresso Nacional, a proposta para a realização de sessão secreta e suas justificativas são deliberadas e votadas em reunião prévia e secreta, sem divulgação pública das razões que motivaram o sigilo (RCCN, arts. 22 e 30)."
   }
 ];

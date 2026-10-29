@@ -14,6 +14,7 @@ export interface ItemCandidatoPortal {
   gabarito: 'C' | 'E';
   justificativa: string;
   armadilhaBanca?: string;
+  versao_correta?: string;
   secaoId?: string;
 }
 

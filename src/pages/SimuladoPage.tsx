@@ -1234,6 +1234,19 @@ export const SimuladoPage: React.FC = () => {
                               {q.justificativa}
                             </p>
                           </div>
+
+                          {/* Como ficaria correto no relatório pós-simulado */}
+                          {q.gabarito === 'E' && q.versao_correta && (
+                            <div className="mt-2.5 p-3 rounded-lg bg-surface border border-emerald-500/30 print:border-gray-400 space-y-1">
+                              <div className="flex items-center gap-1.5 font-sans font-bold text-emerald-700 dark:text-emerald-400 print:text-black text-xs uppercase tracking-wide">
+                                <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                                <span>Como ficaria correto (Fixação Canônica):</span>
+                              </div>
+                              <p className="text-ink print:text-black m-0 leading-relaxed font-serif text-xs italic">
+                                "{q.versao_correta}"
+                              </p>
+                            </div>
+                          )}
                         </div>
                       );
                     })}
@@ -1593,6 +1606,19 @@ export const SimuladoPage: React.FC = () => {
                   {currentQuestion.justificativa}
                 </p>
               </div>
+
+              {/* Como ficaria correto (Fixação Canônica Cebraspe para itens ERRADOS) */}
+              {currentQuestion.gabarito === 'E' && currentQuestion.versao_correta && (
+                <div className="p-4 rounded-xl bg-surface border border-emerald-500/30 space-y-1.5 shadow-editorial-xs">
+                  <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
+                    <CheckCircle2 className="w-4 h-4 shrink-0 text-emerald-600 dark:text-emerald-400" />
+                    <span>Como ficaria correto (Fixação Canônica):</span>
+                  </div>
+                  <p className="text-xs sm:text-sm font-serif text-ink leading-relaxed italic m-0">
+                    "{currentQuestion.versao_correta}"
+                  </p>
+                </div>
+              )}
 
               {/* Fonte Original Auditada (P18 - Proveniência Honesta) */}
               {(() => {

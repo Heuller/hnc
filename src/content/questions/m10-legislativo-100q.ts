@@ -13,10 +13,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Considerar o veto presidencial absoluto e insuscetível de rejeição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O veto do Presidente da República possui eficácia relativa, devendo ser submetido à apreciação do Congresso Nacional em sessão conjunta, que poderá rejeitá-lo pelo voto da maioria absoluta dos deputados e senadores (art. 66, § 4º da CF/88)."
   },
   {
     "id": "m10-q-2",
@@ -30,7 +31,7 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Sessão conjunta do Congresso Nacional.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -43,11 +44,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O Presidente da República pode solicitar urgência para a apreciação de projetos de lei de sua iniciativa; caso a Câmara e o Senado não se manifestem em até quarenta e cinco dias cada, a proposição sobresta todas as demais deliberações legislativas da Casa, trancando a pauta.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Urgência constitucional do art. 64, §§ 1º e 2º da CF/88: prazo de 45 dias na Câmara e 45 dias no Senado com efeito de trancamento da pauta da Ordem do Dia.",
-    "armadilhaBanca": "Urgência constitucional presidencial do art. 64 da CF.",
+    "justificativa": "Gabarito CERTO. O art. 64, §§ 1º e 2º da CF/88 consagra a urgência constitucional solicitada pelo Presidente da República para projetos de lei de sua autoria. A Câmara e o Senado têm o prazo sucessivo de 45 dias cada uma para deliberar sobre a matéria. Esgotado esse prazo sem votação, a pauta da respectiva Casa fica trancada (sobrestamento de todas as demais deliberações da Ordem do Dia até que se ultime a votação).",
+    "armadilhaBanca": "Assertiva correta: o prazo da urgência constitucional é de 45 dias em cada Casa (e 10 dias para emendas), trancando a pauta deliberativa ordinária.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -64,10 +65,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Inverter os períodos de sessão legislativa ordinária e recesso parlamentar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A sessão legislativa ordinária do Congresso Nacional realiza-se de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro, correspondendo janeiro e a segunda quinzena de julho aos períodos de recesso parlamentar (art. 57, caput da CF/88)."
   },
   {
     "id": "m10-q-5",
@@ -81,10 +83,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Supor revogação do RICD pelo Regimento Comum.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O Regimento Comum do Congresso Nacional regula exclusivamente as matérias e sessões conjuntas de deputados e senadores, mantendo a Câmara dos Deputados seu Regimento Interno autônomo (RICD) para suas deliberações privativas."
   },
   {
     "id": "m10-q-6",
@@ -98,10 +101,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Princípio da Irrepetibilidade de projetos rejeitados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A matéria constante de projeto de lei rejeitado só pode ser reapresentada na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional (art. 67 da CF/88)."
   },
   {
     "id": "m10-q-7",
@@ -111,11 +115,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "As Medidas Provisórias (MPs), adotadas pelo Presidente da República em casos de relevância e urgência, perdem a eficácia desde a edição se não forem convertidas em lei no prazo de sessenta dias, prorrogável uma vez por igual período pelo Presidente do Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra canônica do art. 62, §§ 3º e 7º da CF/88: prazo de 60 dias prorrogável por mais 60 dias, totalizando até 120 dias de vigência temporária.",
-    "armadilhaBanca": "Prazo de vigência das Medidas Provisórias.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 62, §§ 3º e 7º da CF/88, as Medidas Provisórias perdem integralmente a eficácia desde a sua edição (efeito retroativo ex tunc) se não forem convertidas em lei pelo Congresso Nacional no prazo de sessenta dias, prorrogável automaticamente uma vez por igual período (total máximo de 120 dias) mediante ato do Presidente da Mesa do Congresso.",
+    "armadilhaBanca": "Assertiva correta: prazo de 60 + 60 dias; a consequência da não conversão em lei no prazo total é a perda de eficácia ex tunc (desde a edição).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -128,11 +132,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "No processo legislativo, o Decretos Legislativo destina-se a regular matéria de competência exclusiva do Congresso Nacional que não depende de sanção do Presidente da República, como a aprovação de tratados internacionais e o julgamento das contas presidenciais.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Espécie normativa privativa do Congresso Nacional (art. 49 da CF/88), promulgada pelo Presidente do Senado Federal.",
-    "armadilhaBanca": "Função do Decreto Legislativo.",
+    "justificativa": "Gabarito CERTO. O Decreto Legislativo é a espécie normativa primária (art. 59, VI da CF/88) privativa do Congresso Nacional destinada a regular matérias de sua competência exclusiva (art. 49 da CF/88), tais como aprovação de tratados internacionais, autorização para o Presidente declarar guerra ou ausentar-se do país e sustação de atos normativos do Executivo. É promulgado pelo Presidente do Senado e independe de sanção ou veto presidencial.",
+    "armadilhaBanca": "Assertiva correta: o decreto legislativo não se submete à sanção ou veto do Presidente da República, sendo promulgado diretamente pela chefia do Parlamento.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -145,19 +149,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca de documentação jurídica, julgue os itens seguintes.",
     "item": "No âmbito federal, constituem documentação jurídica os seguintes diplomas legais: Constituição Federal, emenda constitucional e lei complementar.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso MPU/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso MPU/2013.",
+    "justificativa": "Gabarito CERTO. Na clássica tripartição da documentação jurídica formulada por Edilenice Passos, os diplomas legais federais (Constituição Federal, emendas constitucionais, leis complementares, leis ordinárias, medidas provisórias e decretos legislativos) constituem a fonte documental primária da Legislação, diferenciando-se da Doutrina (estudos acadêmicos) e da Jurisprudência (decisões judiciais dos tribunais).",
+    "armadilhaBanca": "Assertiva correta: a documentação jurídica federal compõe-se precipuamente das espécies normativas primárias positivadas no art. 59 da CF/88.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / MPU / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-228951",
-        "ano": 2013,
-        "orgao": "MPU",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "228951"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / MPU / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-228951",
+      "ano": 2013,
+      "orgao": "MPU",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "228951"
+    }
   },
   {
     "id": "m10-q-10",
@@ -167,11 +171,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "No bicameralismo brasileiro, quando um projeto de lei de iniciativa de um Deputado Federal é aprovado com emendas pelo Senado Federal (Casa revisora), o projeto retorna à Câmara dos Deputados (Casa iniciadora) exclusivamente para que esta delibere sobre as emendas do Senado.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 65, parágrafo único da CF/88: se o projeto for emendado pela Casa revisora, voltará à Casa iniciadora, que apreciará exclusivamente as modificações introduzidas.",
-    "armadilhaBanca": "Papel da Casa iniciadora e revisora.",
+    "justificativa": "Gabarito CERTO. No sistema bicameral brasileiro (art. 65, parágrafo único da CF/88), quando um projeto de lei iniciado na Câmara dos Deputados (Casa iniciadora) é emendado pelo Senado Federal (Casa revisora), o texto retorna à Câmara exclusivamente para a apreciação das emendas. A Câmara detém a prerrogativa constitucional de aceitar ou rejeitar as modificações do Senado, mantendo a palavra final sobre o projeto original.",
+    "armadilhaBanca": "Assertiva correta: a Casa iniciadora tem sempre a palavra final sobre as emendas introduzidas pela Casa revisora, não cabendo novas emendas estranhas nessa fase.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -184,16 +188,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
     "item": "É admissível que uma proposta de emenda constitucional seja apresentada por mais da metade das assembleias legislativas das unidades da Federação.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme dispõe expressamente o art. 60, inciso III, da Constituição Federal de 1988, a Carta Magna pode ser emendada mediante proposta apresentada por \"mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se, cada uma delas, pela maioria relativa de seus membros\". É a expressão do princípio federativo na titularidade da iniciativa de PEC.",
+    "armadilhaBanca": "INICIATIVA FEDERATIVA EM PEC: Cobrança da regra constitucional estrita do art. 60, III da CF/88.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2063",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Constituição Federal de 1988, art. 60, III",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2063",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-12",
@@ -207,10 +211,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL / INVERSAO_CANONICA: Quórum de PEC (exige 3/5 em 2 turnos, e não maioria simples em turno único).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Proposta de Emenda à Constituição (PEC) deve ser discutida e votada em cada Casa do Congresso Nacional em dois turnos, considerando-se aprovada se obtiver três quintos dos votos dos respectivos membros em ambos os turnos (art. 60, § 2º da CF/88)."
   },
   {
     "id": "m10-q-13",
@@ -220,16 +225,17 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.1, julgue o item a seguir.",
     "item": "É constitucional a atribuição, por lei complementar estadual, do status de secretário de Estado aos cargos de defensor público-geral e de subdefensor público-geral do estado.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. O Supremo Tribunal Federal, no julgamento das ADIs 5.295 e 5.218, pacificou que é INCONSTITUCIONAL norma estadual que equipara os cargos de Defensor Público-Geral e Subdefensor ao status de Secretário de Estado. A Defensoria Pública é instituição permanente e essencial à jurisdição, dotada de autonomia funcional, administrativa e orçamentária (CF/88, art. 134, § 2º), sendo incompatível sua subordinação ou equiparação orgânica a cargos de primeiro escalão do Poder Executivo.",
+    "armadilhaBanca": "JURISPRUDÊNCIA VINCULANTE DO STF: Violação da autonomia constitucional da Defensoria Pública perante o Poder Executivo.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2061",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "STF - ADI 5.295 e ADI 5.218; CF/88, art. 134, § 2º",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2061",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "É inconstitucional a atribuição, por lei complementar estadual, do status ou prerrogativas de secretário de Estado aos cargos de defensor público-geral e de subdefensor público-geral, por violar a autonomia institucional e funcional da Defensoria Pública (CF/88, art. 134, § 2º; STF ADI 5.295)."
   },
   {
     "id": "m10-q-14",
@@ -239,11 +245,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "A iniciativa popular de leis federais perante a Câmara dos Deputados pode ser exercida pela subscrição de, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Requisitos constitucionais do art. 61, § 2º da CF/88 para iniciativa popular de lei federal (ex: Lei da Ficha Limpa).",
-    "armadilhaBanca": "Requisitos constitucionais de iniciativa popular.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 61, § 2º da CF/88, a iniciativa popular de leis federais no Brasil exige formalmente: (1) no mínimo 1% do eleitorado nacional subscritor; (2) distribuído por pelo menos 5 Estados da Federação; (3) com não menos de 0,3% dos eleitores de cada um deles. O projeto deve ser protocolado perante a Câmara dos Deputados (órgão representativo do povo).",
+    "armadilhaBanca": "Assertiva correta: os percentuais constitucionais da iniciativa popular são rigorosamente 1% do eleitorado nacional em 5 Estados com 0,3% em cada um.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -260,10 +266,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir sanção tácita com veto tácito.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Decorrido o prazo de quinze dias úteis sem manifestação do Presidente da República sobre o projeto de lei, seu silêncio importará em sanção tácita da proposição (art. 66, § 3º da CF/88)."
   },
   {
     "id": "m10-q-16",
@@ -277,10 +284,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Admitir leis federais secretas no Brasil.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Em observância ao princípio da publicidade (art. 37, caput da CF/88), os atos legislativos federais são necessariamente publicados nos veículos oficiais de imprensa, sendo vedada a existência de leis secretas no ordenamento jurídico brasileiro."
   },
   {
     "id": "m10-q-17",
@@ -290,11 +298,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "As leis complementares diferenciam-se das leis ordinárias pelo critério material (matérias reservadas expressamente pelo texto constitucional) e pelo critério formal de aprovação, exigindo o quórum qualificado de maioria absoluta de votos (257 deputados na Câmara).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Art. 69 da CF/88: leis complementares exigem maioria absoluta, enquanto leis ordinárias são aprovadas por maioria simples (art. 47 da CF/88).",
-    "armadilhaBanca": "Quórum e reserva de Lei Complementar.",
+    "justificativa": "Gabarito CERTO. As leis complementares distinguem-se das leis ordinárias por duplo critério: critério material (versam sobre matérias taxativamente reservadas pela Constituição Federal) e critério formal (aprovadas pela maioria absoluta dos membros de cada Casa legislativa, conforme art. 69 da CF/88, enquanto as leis ordinárias são aprovadas por maioria simples dos votantes, nos termos do art. 47).",
+    "armadilhaBanca": "Assertiva correta: o quórum qualificado de maioria absoluta é o traço formal distintivo da lei complementar frente à lei ordinária.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -307,11 +315,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "O veto presidencial pode ser total ou parcial, sendo que o veto parcial deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea, sendo vedado o veto a palavras isoladas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Regra constitucional expressa do art. 66, § 2º da CF/88: veda-se o veto sobre frações de texto ou palavras isoladas para evitar alteração do sentido da norma.",
-    "armadilhaBanca": "Regra constitucional de veto parcial por dispositivo integral.",
+    "justificativa": "Gabarito CERTO. Conforme estabelece o art. 66, § 2º da CF/88, o veto presidencial pode ser total ou parcial. Em respeito à higidez do texto legal, o constituinte impôs que o veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea. É expressamente vedado o veto sobre palavras ou locuções isoladas que desnature o sentido aprovado pelo Congresso.",
+    "armadilhaBanca": "Assertiva correta: o veto parcial é restrito a unidades normativas completas (artigo, parágrafo, inciso ou alínea), sendo proibido o veto fracionado de palavras.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -328,10 +336,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Vedação constitucional expressa de MP sobre Direito Penal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "É expressamente vedada a edição de medidas provisórias sobre matéria relativa a direito penal, processual penal e processual civil, consoante o art. 62, § 1º, inciso I, alínea \"b\" da CF/88."
   },
   {
     "id": "m10-q-20",
@@ -345,10 +354,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Permitir emenda oral de cidadão leigo em Plenário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Conforme o Regimento Interno da Câmara dos Deputados, emendas parlamentares em Plenário só podem ser apresentadas por deputados ou líderes partidários autorizados, observados os requisitos regimentais de subscrição e tempestividade."
   },
   {
     "id": "m10-q-21",
@@ -362,10 +372,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir iniciativa de cargos da Câmara ao Presidente da República.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Compete privativamente à Câmara dos Deputados a iniciativa de lei para a criação, transformação ou extinção de seus cargos e funções, bem como para a fixação de sua remuneração, por proposição de sua Mesa Diretora (art. 51, IV da CF/88)."
   },
   {
     "id": "m10-q-22",
@@ -379,10 +390,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir Resolução com lei penal delegada sancionada pelo STF.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "As resoluções da Câmara dos Deputados destinam-se a regular matérias de sua competência privativa interna (como organização de serviços e regimento interno), sendo promulgadas pela sua própria Mesa Diretora."
   },
   {
     "id": "m10-q-23",
@@ -396,10 +408,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Declarar ilegais as emendas orçamentárias impositivas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "As emendas parlamentares individuais e de bancada impositivas ao projeto de Lei Orçamentária Anual encontram respaldo expresso no art. 166, §§ 9º e seguintes da Constituição Federal, sendo de execução obrigatória pelo Executivo."
   },
   {
     "id": "m10-q-24",
@@ -409,11 +422,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) é órgão colegiado composto por Deputados e Senadores encarregado de examinar e emitir parecer sobre o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência constitucional expressa do art. 166, § 1º da CF/88.",
-    "armadilhaBanca": "Competência da CMO no ciclo orçamentário.",
+    "justificativa": "Gabarito CERTO. A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO), prevista no art. 166, § 1º da Constituição Federal, é órgão bicameral permanente integrado por Deputados e Senadores encarregado de examinar e emitir parecer sobre o Plano Plurianual (PPA), as Diretrizes Orçamentárias (LDO), o Orçamento Anual (LOA) e os créditos adicionais, além de exercer o acompanhamento fiscalizatório das contas federais.",
+    "armadilhaBanca": "Assertiva correta: a CMO é comissão mista permanente constitucional obrigatória para a instrução de todas as matérias orçamentárias antes do Plenário do Congresso.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -426,11 +439,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No que concerne ao processo legislativo previsto na Constituição Federal de 1988 e no Regimento Interno da Câmara dos Deputados (RICD — Resolução nº 17/1989), julgue o item a seguir.",
     "item": "A urgência urgentíssima (urgência regimental prevista no art. 155 do RICD) dispensa as exigências regimentais de prazos e pareceres formais de comissões para que a proposição seja imediatamente incluída na Ordem do Dia do Plenário, mediante requerimento aprovado pela maioria absoluta da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Mecanismo de aceleração do processo legislativo regimental do art. 155 do RICD.",
-    "armadilhaBanca": "Requerimento de urgência do art. 155 do RICD.",
+    "justificativa": "Gabarito CERTO. O requerimento de urgência regimental previsto no art. 155 do RICD (conhecido como urgência urgentíssima) dispensa prazos regimentais ordinários e pareceres formais prévios das comissões temáticas de mérito, permitindo que a proposição seja incluída imediatamente na Ordem do Dia da sessão deliberativa subsequente, desde que aprovado pela maioria absoluta do Plenário.",
+    "armadilhaBanca": "Assertiva correta: a urgência do art. 155 é o mecanismo de maior celeridade do regimento da Câmara, superando o rito regular das comissões.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -443,16 +456,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Praticaria conduta atentatória ao decoro o deputado que relatasse matéria submetida à apreciação da Câmara dos Deputados, de interesse específico de pessoa física ou jurídica que tivesse contribuído para o financiamento de sua campanha eleitoral.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme prescreve o Código de Ética e Decoro Parlamentar da Câmara dos Deputados (Resolução nº 25/2001, art. 4º, § 1º c/c art. 5º), configura violação das normas de decoro parlamentar a atuação em manifesto conflito de interesses. O Deputado tem o dever ético de abster-se e declarar impedimento na relatoria de matérias que beneficiem de modo individual e direto pessoas que tenham financiado sua campanha eleitoral.",
+    "armadilhaBanca": "IMPEDIMENTO ÉTICO NO PROCESSO LEGISLATIVO: Vedações éticas explícitas quanto a conflito de interesses financeiro-eleitorais na relatoria.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2052",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Código de Ética e Decoro Parlamentar da Câmara dos Deputados (Resolução nº 25/2001)",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2052",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-27",
@@ -462,11 +475,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados tem entre suas atribuições regimentais o encaminhamento de requerimentos de informação a Ministros de Estado e a gestão do sistema de habitação funcional dos parlamentares.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência regimental específica do Quarto-Secretário no organograma da Mesa Diretora (art. 16 do RICD).",
-    "armadilhaBanca": "Atribuições das Secretarias da Mesa Diretora.",
+    "justificativa": "Gabarito CERTO. O Quarto-Secretário da Mesa Diretora da Câmara dos Deputados, disciplinado no art. 22 do RICD, além de responder privativamente pela administração habitacional (concessão e fiscalização de apartamentos funcionais e auxílio-moradia), atua no encaminhamento e controle de requerimentos e processos regimentais delegados pela Mesa Diretora.",
+    "armadilhaBanca": "Assertiva correta: o organograma da Mesa da Câmara distribui competências executivas específicas aos quatro secretários titulares.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -479,11 +492,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A Mesa Diretora da Câmara dos Deputados compõe-se de sete membros titulares: o Presidente, o 1º e o 2º Vice-Presidentes e quatro Secretários, contando ainda com quatro Suplentes de Secretários para substituir os titulares em suas faltas ou impedimentos.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Composição regimental formal da Mesa da Câmara dos Deputados (art. 5º do RICD).",
-    "armadilhaBanca": "Composição da Mesa Diretora da Câmara dos Deputados.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 14, caput e § 1º do RICD, a Mesa Diretora da Câmara dos Deputados é composta por 7 membros titulares (o Presidente, o 1º e o 2º Vice-Presidentes e os 1º, 2º, 3º e 4º Secretários), além de 4 Suplentes de Secretário destinados a substituir exclusivamente os Secretários titulares em suas ausências ou impedimentos.",
+    "armadilhaBanca": "Assertiva correta: a estrutura exata da Mesa é 7 titulares + 4 suplentes de secretários; não há suplentes para o Presidente ou Vice-Presidentes.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -500,10 +513,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Exigir maioria absoluta em votação nominal para perda de mandato.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A perda de mandato de Deputado Federal por quebra de decoro parlamentar é decidida pelo Plenário da Câmara por voto ostensivo e maioria absoluta de seus membros, assegurada a ampla defesa (art. 55, II e § 2º da CF/88)."
   },
   {
     "id": "m10-q-30",
@@ -517,10 +531,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Substituir o princípio constitucional da representação proporcional por sorteio.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Na constituição das Comissões Permanentes da Câmara dos Deputados e de sua Mesa Diretora, é assegurada, tanto quanto possível, a representação proporcional dos partidos ou blocos parlamentares (art. 58, § 1º da CF/88)."
   },
   {
     "id": "m10-q-31",
@@ -534,10 +549,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Atribuir poder jurisdicional de condenação penal a CPIs.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "As Comissões Parlamentares de Inquérito (CPIs) detêm poderes de investigação próprios das autoridades judiciais, cabendo-lhes encaminhar suas conclusões ao Ministério Público para que promova a responsabilidade penal dos infratores (art. 58, § 3º da CF/88)."
   },
   {
     "id": "m10-q-32",
@@ -551,10 +567,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "PEGADINHA_REGIMENTAL: Voto do Presidente da Câmara.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Nos termos do Regimento Interno da Câmara dos Deputados (art. 17, § 2º), o Presidente da Casa somente vota em escrutínio secreto, para desempatar votações ostensivas (voto de minerva) ou em deliberações de quórum qualificado."
   },
   {
     "id": "m10-q-33",
@@ -564,19 +581,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Instituições públicas como a Câmara dos Deputados, o Superior Tribunal Militar e o Ministério da Saúde são consideradas fontes de informação jurídica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TRE-BA/2010.",
+    "justificativa": "Gabarito CERTO. Na classificação de fontes de informação jurídica, órgãos do Poder Legislativo (Câmara dos Deputados e Senado), do Judiciário (STM, STJ, STF) e do Executivo (Ministérios) são fontes primárias corporativas geradoras de documentos jurídicos autênticos: a Câmara produz normas legais, os tribunais produzem jurisprudência e os ministérios produzem atos administrativos normativos.",
+    "armadilhaBanca": "Assertiva correta: órgãos oficiais do Estado que exercem funções regulatórias, legislativas ou jurisdicionais configuram fontes primárias de informação jurídica.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-685"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-685"
+    }
   },
   {
     "id": "m10-q-34",
@@ -590,10 +607,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Avocação ao Plenário por mensagem em biblioteca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O recurso para submeter ao Plenário projeto de lei aprovado conclusivamente pelas comissões exige a assinatura de um décimo dos membros da Câmara dos Deputados (art. 58, § 2º, I da CF/88 e art. 132 do RICD)."
   },
   {
     "id": "m10-q-35",
@@ -603,11 +621,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A tramitação conclusiva nas comissões (poder terminativo previsto no art. 24, II do RICD) faculta às Comissões Permanentes discutir e votar projetos de lei dispensando a deliberação do Plenário soberano, exceto se houver recurso formal subscrito por pelo menos um décimo dos membros da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. É o mandamento constitucional (art. 58, § 2º, I) e regimental do poder terminativo das comissões permanentes. O recurso de 1/10 (52 deputados) avoca a matéria para o Plenário.",
-    "armadilhaBanca": "Poder terminativo das comissões permanentes (art. 24, II do RICD).",
+    "justificativa": "Gabarito CERTO. O poder conclusivo (ou terminativo) das comissões permanentes, autorizado pelo art. 58, § 2º, I da CF/88 e regulado no art. 24, II do RICD, permite que projetos de lei tramitem e sejam votados soberanamente nas comissões sem necessidade de deliberação pelo Plenário, SALVO se houver recurso de 1/10 dos membros da Câmara (52 deputados) interposto no prazo regimental de cinco sessões.",
+    "armadilhaBanca": "Assertiva correta: a regra constitucional é que o projeto aprovado conclusivamente segue direto ao Senado ou à sanção, cabendo recurso de 1/10 da Casa para avocar ao Plenário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -620,11 +638,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A Comissão de Constituição e Justiça e de Cidadania (CCJC) é órgão técnico permanente da Câmara dos Deputados ao qual compete manifestar-se terminantemente sobre a constitucionalidade, juridicidade e técnica legislativa de todas as proposições submetidas à Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência privativa máxima da CCJC na Câmara dos Deputados: se a CCJC considerar a matéria inconstitucional ou injurídica por unanimidade oumaioria, a proposição é arquivada, ressalvado recurso.",
-    "armadilhaBanca": "Competência privativa da CCJC.",
+    "justificativa": "Gabarito CERTO. A Comissão de Constituição e Justiça e de Cidadania (CCJC) da Câmara dos Deputados exerce competência de admissibilidade jurídica geral (art. 32, IV do RICD): se a CCJC considerar a proposição manifestamente inconstitucional, injurídica ou anti-regimental por votação unânime de seus membros, o parecer é terminativo e o projeto é sumariamente arquivado pela Mesa Diretora.",
+    "armadilhaBanca": "Assertiva correta: o parecer negativo unânime da CCJC quanto à constitucionalidade possui eficácia terminativa e barra o prosseguimento do projeto.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -637,16 +655,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Os atos de aposentadorias de servidores da Câmara dos Deputados são submetidos à apreciação, para registro, do TCU, sendo a concessão, todavia, eficaz desde a publicação do ato.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme o art. 71, inciso III, da Constituição Federal e a consolidada jurisprudência do Supremo Tribunal Federal (Súmula Vinculante nº 3), o ato de aposentadoria de servidor público é um ato administrativo complexo. Embora seu aperfeiçoamento definitivo dependa do registro homologatório pelo Tribunal de Contas da União (TCU), o ato produz efeitos imediatos (plena eficácia) a partir de sua publicação formal pela Câmara dos Deputados.",
+    "armadilhaBanca": "TEORIA DO ATO COMPLEXO: A aposentadoria é eficaz e exequível desde sua edição, sob condição resolutiva do julgamento posterior de legalidade pelo TCU.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2069",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Constituição Federal de 1988, art. 71, III; STF - Súmula Vinculante nº 3",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2069",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-38",
@@ -654,18 +672,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.2",
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
-    "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada. Com base nas normas do Código de Ética e Decoro Parlamentar da Câmara dos Deputados, julgue os itens seguintes, no que se refere à disciplina do decoro parlamentar.",
+    "item": "O Congresso Nacional poderá ter sessões secretas, desde que, na proposta de sua realização, esteja expressamente definida sua finalidade e que esta seja plenamente divulgada.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Conforme os arts. 22 e 30 do Regimento Comum do Congresso Nacional (RCCN), as sessões secretas são convocadas excepcionalmente para tratar de assuntos de segurança nacional ou temas sob segredo oficial. A proposta para realização da sessão secreta e os motivos que a fundamentam são apreciados sob sigilo prévio, sendo descabido exigir a divulgação pública prévia da finalidade sob pena de anular a natureza do sigilo.",
+    "armadilhaBanca": "CONTRADIÇÃO REGIMENTAL: Postular que a finalidade de uma sessão de natureza estritamente secreta deva ser antecipadamente divulgada ao público.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2051",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Comum do Congresso Nacional (RCCN), arts. 22 e 30",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2051",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "No Congresso Nacional, a proposta para a realização de sessão secreta e suas justificativas são deliberadas e votadas em reunião prévia e secreta, sem divulgação pública das razões que motivaram o sigilo (RCCN, arts. 22 e 30)."
   },
   {
     "id": "m10-q-39",
@@ -679,12 +698,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2041",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2041",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "A desfiliação ou desligamento que reduza o quantitativo de parlamentares de um bloco a número inferior ao quórum mínimo regimental acarreta a dissolução formal do bloco parlamentar."
   },
   {
     "id": "m10-q-40",
@@ -694,16 +714,17 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "É atribuição exclusiva da mesa da Câmara convidar a se retirar do plenário deputado que esteja perturbando a ordem dos trabalhos durante uma sessão.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Segundo o Regimento Interno da Câmara dos Deputados (RICD, art. 17, inciso II, alínea \"b\"), constitui atribuição privativa do PRESIDENTE da Câmara dos Deputados na direção das sessões plenárias \"manter a ordem, podendo convidar a se retirar do plenário o Deputado que a perturbar\". Trata-se de prerrogativa individual da presidência dos trabalhos, e não de decisão colegiada da Mesa.",
+    "armadilhaBanca": "DESVIO DE COMPETÊNCIA REGIMENTAL: Atribuir a competência de polícia imediata dos trabalhos à Mesa Diretora em vez do Presidente.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2045",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Interno da Câmara dos Deputados (RICD), art. 17, II, \"b\"",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2045",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "Compete privativamente ao Presidente da Câmara dos Deputados (e não à Mesa Diretora colegiadamente) convidar a se retirar do plenário o Deputado que perturbar a ordem durante as sessões (RICD, art. 17, II, \"b\")."
   },
   {
     "id": "m10-q-41",
@@ -717,12 +738,13 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2057",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Inédita, sem prova de origem",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2057",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "Segundo jurisprudência consolidada do Supremo Tribunal Federal, comissões parlamentares de inquérito do Congresso Nacional não possuem competência constitucional para convocar governadores de estado a depor, em respeito ao princípio federativo."
   },
   {
     "id": "m10-q-42",
@@ -732,16 +754,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Cabe ao presidente da Câmara designar a ordem do dia das sessões, segundo a agenda mensal, ressalvadas as alterações permitidas pelo Regimento Interno da Câmara dos Deputados.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme o RICD (art. 17, inciso I, alínea \"t\" c/c art. 82), compete privativamente ao Presidente da Câmara dos Deputados designar e organizar a Ordem do Dia das sessões plenárias deliberativas, orientando-se pela pauta mensal acordada com o Colégio de Líderes, ressalvadas as urgências e preferências admitidas pelo Regimento.",
+    "armadilhaBanca": "ORGANIZAÇÃO DA ORDEM DO DIA: Competência privativa do Presidente da Câmara na gestão da pauta plenária.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2043",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Interno da Câmara dos Deputados (RICD), art. 17, I, \"t\" e art. 82",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2043",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-43",
@@ -755,10 +777,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Caricaturar Colégio de Líderes como órgão de recreação.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O Colégio de Líderes é um colegiado político de articulação e deliberação estratégica de acordos de procedimento e priorização da Ordem do Dia, não atuando como comissão de mérito para redigir substitutivos."
   },
   {
     "id": "m10-q-44",
@@ -766,18 +789,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.2",
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
-    "item": "Uma comissão permanente não dispõe da atribuição de propor a sustação dos atos normativos do Poder Executivo federal que exorbitem do poder regulamentar ou dos limites de delegação legislativa. Acerca do Regimento Comum do Congresso Nacional, julgue os itens a seguir.",
+    "item": "Uma comissão permanente não dispõe da atribuição de propor a sustação dos atos normativos do Poder Executivo federal que exorbitem do poder regulamentar ou dos limites de delegação legislativa.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Conforme a Constituição Federal de 1988 (art. 49, inciso V c/c art. 58, § 2º) e o Regimento Interno da Câmara dos Deputados (RICD, art. 32), as comissões permanentes têm competência para fiscalizar o Executivo e propor formalmente a sustação de atos que exorbitem da delegação legislativa ou do poder regulamentar, materializada por meio de Projeto de Decreto Legislativo (PDC).",
+    "armadilhaBanca": "NEGAÇÃO DO CONTROLE DE CONSTITUCIONALIDADE PELO LEGISLATIVO: Afirmar que a comissão permanente não possui atribuição fiscalizatória de sustação de atos regulamentares exorbitantes.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2049",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Constituição Federal de 1988, art. 49, V e art. 58, § 2º; RICD, art. 32",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2049",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "Uma comissão permanente da Câmara dos Deputados dispõe da atribuição de propor a sustação dos atos normativos do Poder Executivo que exorbitem do poder regulamentar, mediante apresentação de Projeto de Decreto Legislativo (CF/88, art. 49, V; RICD, art. 32)."
   },
   {
     "id": "m10-q-45",
@@ -787,16 +811,16 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Uma comissão permanente tem o poder de convocar ministros de Estado e de encaminhar a eles, através da mesa, pedidos escritos de informação.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Conforme estabelece o art. 50, caput e § 2º da Constituição Federal de 1988, e o art. 32 do RICD, as comissões permanentes possuem o poder de: 1) convocar Ministros de Estado para prestar informações pessoalmente sobre matérias de sua pasta; e 2) encaminhar, por intermédio da Mesa Diretora da Câmara, pedidos escritos de informação, cuja recusa ou descumprimento no prazo de 30 dias acarreta crime de responsabilidade.",
+    "armadilhaBanca": "PODER FISCALIZATÓRIO CONSTITUCIONAL: Convocação presencial e pedidos de informação a Ministros expressamente previstos no art. 50 da CF/88.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2048",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Constituição Federal de 1988, art. 50, caput e § 2º; RICD, art. 32",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2048",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-46",
@@ -806,16 +830,17 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
     "item": "Se dois partidos se coligarem para a formação de um bloco parlamentar, suas lideranças perdem suas atribuições, mas não suas prerrogativas.",
     "gabarito": "E",
-    "justificativa": "Assertiva contraria as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito ERRADO. Conforme prescreve taxativamente o art. 12, § 2º, do Regimento Interno da Câmara dos Deputados (RICD): \"O Bloco Parlamentar tem liderança comum, perdendo os partidos que o compõem o direito a lideranças próprias\". Portanto, as bancadas individuais perdem TANTO suas atribuições QUANTO suas prerrogativas regimentais perante a Mesa e o Plenário (como tempo de liderança e indicação de comissões), as quais passam a ser exercidas privativamente pelo Líder do Bloco.",
+    "armadilhaBanca": "DISTINÇÃO ARTIFICIAL: Criação de falsa separação entre \"perda de atribuições\" e \"manutenção de prerrogativas\" para iludir o candidato.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2042",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Interno da Câmara dos Deputados (RICD), art. 12, § 2º",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2042",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    },
+    "versao_correta": "Ao se constituir um bloco parlamentar, os partidos que o integram perdem o direito a lideranças próprias, extinguindo-se tanto as atribuições quanto as prerrogativas regimentais das lideranças individuais em favor da liderança unificada do bloco (RICD, art. 12, § 2º)."
   },
   {
     "id": "m10-q-47",
@@ -825,11 +850,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados é o órgão encarregado de instruir processos disciplinares instaurados contra Deputados Federais por condutas incompatíveis com o decoro parlamentar, podendo propor sanções que vão de censura escrita à perda do mandato.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência institucional do Conselho de Ética conforme o Código de Ética e Decoro Parlamentar e o RICD.",
-    "armadilhaBanca": "Função do Conselho de Ética e Decoro Parlamentar.",
+    "justificativa": "Gabarito CERTO. O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados (CEDP), disciplinado no art. 21-B do RICD e no Código de Ética e Decoro Parlamentar (Resolução nº 25/2001), é o órgão disciplinar permanente encarregado de instruir processos contra deputados acusados de infração ética ou quebra de decoro, emitindo parecer conclusivo que propõe sanções disciplinares ou a perda do mandato.",
+    "armadilhaBanca": "Assertiva correta: o Conselho de Ética realiza a instrução probatória e emite parecer conclusivo, mas a perda definitiva de mandato compete exclusivamente ao Plenário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -842,11 +867,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A Ouvidoria Parlamentar da Câmara dos Deputados funciona como canal direto de comunicação e participação entre o cidadão e a instituição, recebendo reclamações, sugestões e pedidos de providências sobre as atividades dos órgãos da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Papel institucional da Ouvidoria Parlamentar na transparência e escuta cidadã.",
-    "armadilhaBanca": "Atribuições da Ouvidoria Parlamentar.",
+    "justificativa": "Gabarito CERTO. A Ouvidoria Parlamentar da Câmara dos Deputados funciona como instrumento institucional permanente de transparência pública e democracia participativa. Tem por missão acolher sugestões, críticas, reclamações e denúncias de cidadãos e entidades da sociedade civil sobre as atividades legislativas e administrativas da Casa, promovendo a responsabilização e o diálogo democrático.",
+    "armadilhaBanca": "Assertiva correta: a Ouvidoria é o canal direto de escuta social da Câmara, promovendo transparência e interlocução republicana com o cidadão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -859,11 +884,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com base no Regimento Interno da Câmara dos Deputados (RICD) no que tange à Mesa Diretora, ao Plenário, às Comissões Permanentes e Especiais e ao trâmite terminativo conclusivo, julgue o item a seguir.",
     "item": "A criação de uma CPI na Câmara dos Deputados depende de requerimento de pelo menos um terço dos deputados (171 deputados), para a apuração de fato determinado e por prazo certo.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Requisitos constitucionais do art. 58, § 3º da CF/88: 1/3 dos membros, fato determinado e prazo certo.",
-    "armadilhaBanca": "Requisitos para criação de CPI.",
+    "justificativa": "Gabarito CERTO. Conforme o art. 58, § 3º da Constituição Federal de 1988, a criação de Comissão Parlamentar de Inquérito (CPI) na Câmara dos Deputados submete-se a três requisitos constitucionais cumulativos: (1) subscrição de pelo menos um terço dos membros da Casa (171 deputados); (2) indicação de fato determinado a ser apurado; e (3) fixação de prazo certo de funcionamento.",
+    "armadilhaBanca": "Assertiva correta: preenchidos os requisitos constitucionais (1/3, fato determinado e prazo certo), a instalação da CPI é direito subjetivo da minoria parlamentar (jurisprudência consolidada do STF).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -874,18 +899,18 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.2",
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.2, julgue o item a seguir.",
-    "item": "Constitui atribuição do presidente da Câmara organizar, ouvido o colégio de líderes, a agenda com a previsão das proposições a serem apreciadas no mês subsequente, para distribuição aos deputados. No que se refere às comissões, julgue os itens que se seguem.",
+    "item": "Constitui atribuição do presidente da Câmara organizar, ouvido o colégio de líderes, a agenda com a previsão das proposições a serem apreciadas no mês subsequente, para distribuição aos deputados.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. De acordo com o art. 17, inciso I, alínea \"u\", do Regimento Interno da Câmara dos Deputados (RICD), é atribuição privativa do Presidente da Câmara \"organizar, ouvido o Colégio de Líderes, a pauta com a previsão das matérias que devam ser submetidas à deliberação do Plenário no mês subsequente, para distribuição aos Deputados\".",
+    "armadilhaBanca": "GESTÃO ESTRATÉGICA DA PAUTA: Cobrança da alínea \"u\" do inciso I do art. 17 do RICD sobre a elaboração da pauta mensal com o Colégio de Líderes.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2046",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Regimento Interno da Câmara dos Deputados (RICD), art. 17, I, \"u\"",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2046",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-51",
@@ -893,18 +918,18 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "macroModuloId": "M10",
     "submoduloId": "10.3",
     "contexto": "Em relação ao objeto de avaliação do submódulo 10.3, julgue o item a seguir.",
-    "item": "A lógica de formação das coalizões governamentais no Brasil possui um eixo duplo: o partidário-parlamentar e o regional - estadual, o que impacta, por exemplo, a composição dos ministérios, que nem sempre corresponde estritamente ao peso numérico dos partidos aliados no Congresso Nacional.",
+    "item": "A lógica de formação das coalizões governamentais no Brasil possui um eixo duplo: o partidário-parlamentar e o regional-estadual, o que impacta, por exemplo, a composição dos ministérios, que nem sempre corresponde estritamente ao peso numérico dos partidos aliados no Congresso Nacional.",
     "gabarito": "C",
-    "justificativa": "Assertiva em consonância com as normas e doutrina canônica da matéria.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita",
+    "justificativa": "Gabarito CERTO. Na ciência política e na análise do processo legislativo brasileiro (conceito de \"Presidencialismo de Coalizão\" fundado por Sérgio Abranches em 1988), a montagem da base de sustentação governamental opera sob dupla dimensão: partidário-parlamentar (peso das legendas na Câmara e no Senado) e regional-estadual (interesses de governadores e lideranças locais). Essa equação complexa faz com que a partilha ministerial incorpore pesos regionais estratégicos que vão além da mera contabilidade aritmética de cadeiras no Congresso.",
+    "armadilhaBanca": "EIXOS DO PRESIDENCIALISMO DE COALIZÃO: Apreensão da coexistência entre alianças partidárias e acomodações federativo-estaduais na governabilidade.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "inedita",
-        "descricao": "Inédita, sem prova de origem",
-        "verificado": false,
-        "origemAcervoLocal": "real-prova_recente-2076",
-        "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
-      }
+      "tipo": "inedita",
+      "descricao": "Abranches, Sérgio. O Presidencialismo de Coalizão (1988); Santos, F. (O Poder Legislativo no Brasil)",
+      "verificado": false,
+      "origemAcervoLocal": "real-prova_recente-2076",
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2014"
+    }
   },
   {
     "id": "m10-q-52",
@@ -914,11 +939,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "Na Biblioteca Pedro Aleixo, os Analistas Legislativos — atribuição Bibliotecário realizam o tratamento temático e descritivo de livros, artigos de periódicos e atos normativos utilizando sistemas integrados de biblioteca em conformidade com o formato MARC 21 e regras da RDA.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Atribuições técnicas formais dos bibliotecários da Câmara no processamento técnico de acervos da Casa.",
-    "armadilhaBanca": "Atribuições do Bibliotecário Legislativo da Câmara.",
+    "justificativa": "Gabarito CERTO. No organograma da Biblioteca Pedro Aleixo (vinculada ao CEDI da Câmara), os Analistas Legislativos — Bibliotecários desempenham funções técnicas especializadas de alta complexidade: indexação jurídica e legislativa, catalogação cooperativa no formato MARC 21, classificação em CDU/CDD e desenvolvimento de vocabulários controlados integrados à Rede Virtual de Bibliotecas (RVBI).",
+    "armadilhaBanca": "Assertiva correta: atribuições analíticas centrais do bibliotecário parlamentar voltadas ao tratamento descritivo e temático de informação legislativa e jurídica.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -931,11 +956,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A elaboração de produtos informacionais especializados (como dossiês temáticos, bibliografias anotadas e compêndios legislativos) pelo serviço de referência da Biblioteca Pedro Aleixo qualifica o trabalho técnico das Consultorias e Comissões da Casa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Atuação estratégica do bibliotecário parlamentar gerando inteligência legislativa condensada para subsidiar o debate parlamentar.",
-    "armadilhaBanca": "Produtos informacionais especializados da Biblioteca da Câmara.",
+    "justificativa": "Gabarito CERTO. O serviço de referência e pesquisa da Biblioteca Pedro Aleixo atua como centro de inteligência informacional parlamentar: elabora proativamente dossiês temáticos, bibliografias anotadas, levantamentos de legislação comparada e compêndios legislativos estruturados para subsidiar a atuação das Comissões Técnicas, da Consultoria Legislativa e dos Deputados Federais.",
+    "armadilhaBanca": "Assertiva correta: a elaboração de produtos de informação de valor agregado (dossiês e compêndios) é marca da biblioteca parlamentar moderna de apoio à decisão legislativa.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -948,11 +973,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Seção de Obras Raras da Biblioteca Pedro Aleixo abriga preciosidades bibliográficas e documentais da história do Brasil, incluindo impressos dos séculos XVI a XIX, primeiras edições constitucionais e anais do Parlamento do Império.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O acervo de obras raras da Câmara guarda patrimônio histórico inestimável da memória nacional e parlamentar sob rigorosas condições climáticas e de segurança.",
-    "armadilhaBanca": "Acervo de Obras Raras da Biblioteca Pedro Aleixo.",
+    "justificativa": "Gabarito CERTO. A Seção de Obras Raras da Biblioteca Pedro Aleixo da Câmara dos Deputados custodia tesouros bibliográficos e documentais fundamentais da memória nacional (incluindo obras raras dos séculos XVII a XIX, códices jurídicos do Império e primeiras edições da legislação brasileira), mantidos sob rigoroso controle de temperatura, umidade relativa e segurança física contra sinistros.",
+    "armadilhaBanca": "Assertiva correta: a guarda de obras raras e documentos fundacionais na Biblioteca da Câmara é atividade de conservação permanente da memória política do país.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -969,10 +994,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir livros de Direito e limitar a romances policiais.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O acervo da Biblioteca Pedro Aleixo da Câmara dos Deputados prioriza áreas temáticas diretamente vinculadas à atividade parlamentar, como Direito, Ciência Política, Administração Pública e Economia."
   },
   {
     "id": "m10-q-56",
@@ -986,10 +1012,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar úblico para cargo efetivo da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O provimento originário do cargo de Analista Legislativo da Câmara dos Deputados submete-se à aprovação prévia em concurso público de provas ou de provas e títulos, consoante o art. 37, II da Constituição Federal."
   },
   {
     "id": "m10-q-57",
@@ -999,11 +1026,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "As fontes de informação legislativa e jurídica incluem as seguintes bases de dados: Ar ca, ArXiv, Prodasen e LeXML.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TJDFT/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TJDFT/2015: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. As bases Prodasen e LexML são fontes especializadas de informação legislativa e jurídica. Contudo, a base Arca é o repositório institucional da Fiocruz (área de saúde pública e biomédica) e o arXiv é um repositório temático internacional de física, matemática e computação, não sendo bases jurídicas.",
+    "armadilhaBanca": "INCLUSAO_DE_FONTES_ESTRANHAS: Inserir repositórios de saúde (Arca) e exatas (arXiv) em um rol de fontes especializadas em direito.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TJDFT / 2015 (Adaptada)",
       "verificado": true,
       "provaId": "AJ (TJDFT)/TJDFT/Apoio Especializado/Biblioteconomia/2015",
@@ -1011,7 +1038,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "orgao": "TJDFT",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-318030"
-    }
+    },
+    "versao_correta": "As bases de dados Prodasen e LexML constituem fontes especializadas de informação legislativa e jurídica, ao passo que a Arca (Fiocruz) e o arXiv voltam-se respectivamente às ciências da saúde e às ciências exatas."
   },
   {
     "id": "m10-q-58",
@@ -1021,11 +1049,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
     "item": "A Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) integra o acervo indexado pelo LexML.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. A Biblioteca Digital Brasileira de Teses e Dissertações (BDTD) é gerenciada pelo Ibict para agregar a produção acadêmica nacional em todas as áreas do conhecimento, funcionando de maneira independente do portal LexML Brasil, que foca estritamente o ecossistema normativo e jurisprudencial brasileiro.",
+    "armadilhaBanca": "MISTURA_DE_REDES: Afirmar que a BDTD (sistema de pós-graduação acadêmica do Ibict) faz parte do acervo do LexML.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1033,7 +1061,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185319"
-    }
+    },
+    "versao_correta": "O portal LexML Brasil indexa metadados especializados de legislação, jurisprudência e doutrina jurídica de instituições parceiras, não integrando a Biblioteca Digital Brasileira de Teses e Dissertações (BDTD / Ibict) em seu acervo indexado."
   },
   {
     "id": "m10-q-59",
@@ -1043,19 +1072,20 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Quanto às fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Para organizar, integrar e dar acesso à informação jurídica e legislativa oriundas dos Poderes L legislativo e Judiciário em suas esferas municipais, estaduais e na federal, o portal LexML faz uso do protocolo de coleta de metadados Z39.50.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso TRE-BA/2010, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso TRE-BA/2010: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O LexML Brasil utiliza o protocolo OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) para realizar a colheita em lote e unificação dos registros legislativos e jurídicos em formato XML, não empregando o protocolo Z39.50 para essa finalidade.",
+    "armadilhaBanca": "TROCA_DE_PROTOCOLO: Apontar o Z39.50 (busca distribuída) em vez do OAI-PMH (colheita em lote) no LexML.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
-        "verificado": true,
-        "provaId": "TRE-BA/2010",
-        "ano": 2010,
-        "orgao": "2010",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-682"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2010 / 2010 (Adaptada)",
+      "verificado": true,
+      "provaId": "TRE-BA/2010",
+      "ano": 2010,
+      "orgao": "2010",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-682"
+    },
+    "versao_correta": "O portal LexML Brasil faz uso do protocolo OAI-PMH para a coleta periódica e integração dos metadados de informações legislativas e jurídicas dos órgãos consorciados, e não do protocolo Z39.50."
   },
   {
     "id": "m10-q-60",
@@ -1069,10 +1099,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Afirmar recusa da Tabela de Temporalidade pela gestão documental.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Coordenação de Gestão Documental da Câmara dos Deputados adota instrumentos formais de gestão arquivística, incluindo a Tabela de Temporalidade e Destinação de Documentos, em consonância com as diretrizes do CONARQ."
   },
   {
     "id": "m10-q-61",
@@ -1086,10 +1117,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "Proibir computadores e internet na biblioteca.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Biblioteca Pedro Aleixo oferece terminais de consulta e acesso à internet franqueados aos usuários internos e aos cidadãos em geral que pesquisam em suas dependências no Congresso Nacional."
   },
   {
     "id": "m10-q-62",
@@ -1103,10 +1135,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Caricaturar Edições Câmara como loteria clandestina.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Coordenação de Edições Câmara tem por missão publicar e divulgar obras de relevância histórica, parlamentar, cultural e institucional do país, editando livros de interesse público e acadêmico."
   },
   {
     "id": "m10-q-63",
@@ -1116,14 +1149,15 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O serviço de referência da Biblioteca Pedro Aleixo direciona seu atendimento presencial aos cidadãos em geral, orientando os gabinetes parlamentares a recorrerem aos centros de documentação do Poder Executivo para consultas legislativas.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. O público prioritário da Biblioteca da Câmara inclui deputados federais, órgãos da Mesa, comissões técnicas, consultores legislativos e servidores da instituição.",
+    "justificativa": "Gabarito ERRADO. A Biblioteca Pedro Aleixo tem por missão institucional primeira e prioritária dar suporte técnico, direto e presencial aos trabalhos do Parlamento (Deputados Federais, Comissões Técnicas, Mesa Diretora, Consultoria Legislativa e servidores da Casa). Embora atenda ao público externo e a pesquisadores em geral, os gabinetes parlamentares contam com atendimento preferencial, presencial ou remoto, inclusive com serviços personalizados de busca e entrega de obras nas dependências da Câmara.",
     "armadilhaBanca": "INVERSAO_CANONICA: Proibir atendimento parlamentar na biblioteca da Câmara.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O serviço de referência da Biblioteca Pedro Aleixo prioriza o atendimento presencial e remoto direto a deputados federais, comissões e consultores legislativos da Câmara dos Deputados."
   },
   {
     "id": "m10-q-64",
@@ -1133,11 +1167,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A preservação física e restauração de documentos e livros raros na Câmara dos Deputados é executada por laboratório técnico especializado do CEDI dotado de equipamentos para desacidificação, higienização mecânica e enxerto de fibras celulósicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Infraestrutura especializada de conservação e restauro do CEDI para garantir a longevidade dos acervos históricos.",
-    "armadilhaBanca": "Laboratório de conservação e restauro do CEDI.",
+    "justificativa": "Gabarito CERTO. O Laboratório de Conservação e Restauração de Documentos do CEDI conta com equipe técnica e equipamentos especializados para a aplicação de tratamentos de conservação preventiva e curativa em papéis históricos, desacidificação química, consolidação mecânica de suportes fragilizados com papel japonês e encadernação para salvaguarda de acervos parlamentares seculares.",
+    "armadilhaBanca": "Assertiva correta: a preservação física e restauro de acervos do Parlamento é atribuição de laboratório técnico especializado no CEDI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1150,11 +1184,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca Pedro Aleixo da Câmara dos Deputados é uma biblioteca parlamentar especializada em Ciências Humanas e Sociais Aplicadas, com ênfase primordial em Ciência Política, Direito Público, Processo Legislativo, Economia e Administração Pública.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Perfil temático e vocação institucional do acervo da Biblioteca Pedro Aleixo.",
-    "armadilhaBanca": "Perfil temático do acervo da Biblioteca Pedro Aleixo.",
+    "justificativa": "Gabarito CERTO. A Biblioteca Pedro Aleixo da Câmara dos Deputados é uma biblioteca parlamentar especializada nas áreas de Ciências Humanas e Sociais Aplicadas — com ênfase primordial em Direito Constitucional, Direito Administrativo, Processo Legislativo, Ciência Política, Economia e Finanças Públicas —, tendo como missão basilar dar suporte técnico e documental à atividade legislativa.",
+    "armadilhaBanca": "Assertiva correta: a especialização em ciências sociais aplicadas e direito reflete a vocação estrita de suporte ao parlamento federal.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1171,10 +1205,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Cobrar taxa horária de leitura em biblioteca pública.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A consulta ao acervo e o atendimento presencial na Biblioteca Pedro Aleixo da Câmara dos Deputados são serviços públicos franqueados gratuitamente a todos os cidadãos."
   },
   {
     "id": "m10-q-67",
@@ -1188,10 +1223,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a cooperação do CEDI na RVBI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Biblioteca da Câmara dos Deputados é unidade cooperante fundadora da Rede Virtual de Bibliotecas (RVBI), mantendo acervo e catálogo bibliográfico integrados com o Senado Federal e tribunais parceiros."
   },
   {
     "id": "m10-q-68",
@@ -1201,11 +1237,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Coordenação de Arquivo (COARQ) do CEDI é a unidade responsável pela gestão de documentos, protocolo geral e custódia do arquivo histórico e intermediário da Câmara dos Deputados, incluindo proposições legislativas originais, autógrafos e papéis parlamentares.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competência da COARQ na gestão do ciclo de vida dos documentos arquivísticos da instituição.",
-    "armadilhaBanca": "Papel da Coordenação de Arquivo (COARQ).",
+    "justificativa": "Gabarito CERTO. A Coordenação de Arquivo (COARQ) do CEDI é a unidade responsável pelo planejamento, execução e controle de todo o ciclo documental da Câmara dos Deputados, gerenciando os arquivos corrente, intermediário e permanente, o protocolo geral e a custódia das atas, projetos autógrafos e relatórios históricos de legislaturas pretéritas.",
+    "armadilhaBanca": "Assertiva correta: a COARQ centraliza a gestão dos arquivos em todas as fases do ciclo de vida documental da instituição parlamentar.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1218,11 +1254,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O programa de visitação institucional da Biblioteca Pedro Aleixo possibilita a cidadãos, estudantes universitários e pesquisadores o acesso às salas de leitura e à consulta do acervo parlamentar, promovendo a integração entre a sociedade e o Parlamento.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Papel público e cidadão da biblioteca parlamentar.",
-    "armadilhaBanca": "Acesso público e cidadão à Biblioteca Pedro Aleixo.",
+    "justificativa": "Gabarito CERTO. A Biblioteca Pedro Aleixo cumpre função republicana democrática: embora voltada prioritariamente ao atendimento dos deputados e da equipe legislativa, mantém programa contínuo de visitação e franqueia suas salas de leitura e terminais de pesquisa a cidadãos, pesquisadores acadêmicos e estudantes universitários em geral, difundindo a cultura e o conhecimento parlamentar.",
+    "armadilhaBanca": "Assertiva correta: a biblioteca da Câmara tem caráter público e transparente, facultando a consulta e pesquisa a qualquer cidadão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1239,10 +1275,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Subordinar a Biblioteca da Câmara a clube particular de futebol.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Biblioteca Pedro Aleixo integra a Coordenação de Biblioteca (COBIB) do Centro de Documentação e Informação (CEDI), órgão da estrutura administrativa direta da Câmara dos Deputados."
   },
   {
     "id": "m10-q-71",
@@ -1256,10 +1293,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Queimar discursos da oposição.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Os discursos e manifestações dos deputados federais de qualquer bancada partidária são integralmente documentados, transcritos e preservados na memória institucional dos Anais da Câmara dos Deputados."
   },
   {
     "id": "m10-q-72",
@@ -1269,11 +1307,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O Centro de Documentação e Informação (CEDI) é o órgão administrativo da Câmara dos Deputados diretamente subordinado à Diretoria-Geral (DG), responsável pela gestão, guarda, preservação, tratamento técnico e disseminação da memória histórica, bibliográfica, legislativa e arquivística do Parlamento brasileiro.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Missão e posicionamento institucional canônico do CEDI na estrutura da Câmara dos Deputados.",
-    "armadilhaBanca": "Posicionamento institucional do CEDI na Câmara.",
+    "justificativa": "Gabarito CERTO. O Centro de Documentação e Informação (CEDI) da Câmara dos Deputados é unidade administrativa especializada diretamente vinculada à Diretoria-Geral (DG). É o órgão responsável pela formulação e implementação das políticas integradas de documentação, gestão de arquivos, desenvolvimento de bibliotecas, publicações oficiais e difusão da memória legislativa da Câmara.",
+    "armadilhaBanca": "Assertiva correta: subordinação administrativa direta do CEDI à Diretoria-Geral da Câmara dos Deputados.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1286,11 +1324,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O CEDI promove projetos de história oral e exposições temáticas no corredor do Plenário para resgatar momentos marcantes da democracia brasileira e a trajetória de líderes parlamentares de destaque.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Atividade cultural e de memória permanente coordenada pelo CEDI em cooperação com o Centro Cultural da Câmara.",
-    "armadilhaBanca": "Projetos de história oral e memória do CEDI.",
+    "justificativa": "Gabarito CERTO. O CEDI, em articulação com as coordenações técnicas da Câmara, realiza projetos sistemáticos de História Oral (gravando depoimentos de parlamentares constituintes de 1988 e figuras públicas) e organiza mostras históricas e exposições documentais temporárias nos corredores e no Hall do Plenário Ulysses Guimarães, resgatando a memória democrática do Parlamento.",
+    "armadilhaBanca": "Assertiva correta: projetos de história oral e exposições documentais integram a difusão da memória histórica mantida pelo CEDI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1303,11 +1341,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "A Biblioteca Digital da Câmara dos Deputados disponibiliza em acesso aberto documentos textuais e multimídia produzidos pelo Parlamento, como relatórios de CPIs, pareceres históricos, biografias parlamentares e publicações institucionais das Edições Câmara.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Plataforma de transparência e acesso aberto baseada em DSpace mantida pelo CEDI.",
-    "armadilhaBanca": "Biblioteca Digital da Câmara dos Deputados.",
+    "justificativa": "Gabarito CERTO. A Biblioteca Digital da Câmara dos Deputados (BDCam) é o repositório digital institucional da Casa, construído sobre o software livre DSpace. Disponibiliza em acesso aberto e irrestrito milhares de documentos digitais e digitalizados produzidos no âmbito legislativo, como relatórios de comissões, obras raras históricas, discursos em plenário e publicações da Edições Câmara.",
+    "armadilhaBanca": "Assertiva correta: a Biblioteca Digital da Câmara opera em acesso aberto utilizando a plataforma padrão DSpace.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1320,11 +1358,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à estrutura administrativa do Centro de Documentação e Informação (CEDI) da Câmara dos Deputados, às atribuições da Biblioteca Pedro Aleixo e à atuação profissional do Bibliotecário Legislativo, julgue o item a seguir.",
     "item": "O Sistema de Informações da Biblioteca Pedro Aleixo permite a gestão automatizada de empréstimos, renovações e reservas para deputados e servidores por meio de interface web autenticada integrada à intranet da Câmara.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Funcionalidades integradas modernas de gestão de circulação de acervos na Casa.",
-    "armadilhaBanca": "Automação de circulação na Biblioteca Pedro Aleixo.",
+    "justificativa": "Gabarito CERTO. O sistema informatizado de gestão bibliotecária da Biblioteca Pedro Aleixo automatiza integralmente os módulos de catalogação cooperativa, pesquisa pública em linha (OPAC), empréstimo domiciliar, reserva e renovação de exemplares para deputados, servidores e assessores, com notificações automáticas via e-mail e integração às bases da RVBI.",
+    "armadilhaBanca": "Assertiva correta: a automação de circulação e controle de empréstimos agiliza o atendimento direto aos gabinetes parlamentares.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1337,11 +1375,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "São atribuições privativas dos bacharéis em Biblioteconomia, conforme o art. 6º da Lei nº 4.084/1962: a organização, direção e execução dos serviços técnicos de bibliotecas; a classificação e catalogação de manuscritos e livros; a organização de catálogos e a orientação aos leitores na busca de fontes bibliográficas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Competências privativas reservadas por lei federal aos bibliotecários diplomados.",
-    "armadilhaBanca": "Atribuições privativas do Bibliotecário na Lei 4.084/62.",
+    "justificativa": "Gabarito CERTO. A Lei Federal nº 4.084/1962 estabelece em seu art. 6º que a organização, direção e execução dos serviços técnicos de bibliotecas, documentação e centros de informação em todo o país — incluindo catalogação, classificação e indexação de documentos — são atribuições privativas dos bacharéis diplomados em Biblioteconomia, devidamente registrados no Conselho Regional de Biblioteconomia (CRB).",
+    "armadilhaBanca": "Assertiva correta: a Lei 4.084/1962 reserva as atividades técnicas de biblioteca e documentação exclusivamente aos bacharéis diplomados e registrados no CRB.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1354,11 +1392,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "Na LGPD, são considerados 'dados pessoais sensíveis' aqueles sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Rol taxativo de dados sensíveis estabelecido no art. 5º, II da LGPD.",
-    "armadilhaBanca": "Definição de dados pessoais sensíveis na LGPD.",
+    "justificativa": "Gabarito CERTO. O art. 5º, inciso II da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD) define como dado pessoal sensível aquele relativo a: origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.",
+    "armadilhaBanca": "Assertiva correta: rol taxativo do art. 5º, II da LGPD; dados sensíveis sujeitam-se a requisitos mais estritos de tratamento e consentimento.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1371,11 +1409,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
     "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é de acesso público e reúne informações sobre as col eções de publicações seriadas nacionais e estrangeiras disponíveis nas bibliot bibliotecas brasileiras.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso CADE/2014.",
+    "justificativa": "Gabarito CERTO. O Catálogo Coletivo Nacional de Publicações Seriadas (CCN), coordenado nacionalmente pelo IBICT (Instituto Brasileiro de Informação em Ciência e Tecnologia), é uma rede cooperativa pública de acesso aberto que reúne informações sobre as coleções de periódicos nacionais e estrangeiros custodiadas nas principais bibliotecas do Brasil, facilitando o intercâmbio e o comut (comutação bibliográfica).",
+    "armadilhaBanca": "Assertiva correta: o CCN/IBICT é o catálogo coletivo unificado de periódicos de referência nacional para a localização e empréstimo entre bibliotecas.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1393,11 +1431,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "Conforme a Lei de Acesso à Informação (Lei nº 12.527/2011), a publicidade dos atos estatais é o preceito geral, e o sigilo é a exceção estrita, devendo os órgãos públicos da administração direta e indireta promover, independentemente de requerimentos, a divulgação em local de fácil acesso de informações de interesse coletivo (transparência ativa).",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Diretriz basilar do art. 3º e 8º da LAI: a transparência ativa é imperativa para os Três Poderes da União, estados e municípios.",
-    "armadilhaBanca": "Princípio da publicidade como regra na LAI.",
+    "justificativa": "Gabarito CERTO. A Lei de Acesso à Informação (Lei nº 12.527/2011, arts. 3º e 8º) consolida a publicidade dos atos e dados do Poder Público como preceito geral republicano e o sigilo como exceção rigorosa e justificada. Impõe a todos os órgãos dos Poderes Executivo, Legislativo e Judiciário da União, estados e municípios o dever de transparência ativa mediante divulgação de dados na internet.",
+    "armadilhaBanca": "Assertiva correta: a transparência ativa e a publicidade ampla são mandamentos legais imperativos impostos pela LAI à administração pública.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1410,19 +1448,20 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito de fontes de informação, julgue os itens que se seguem.",
     "item": "As obras de referência permitem leituras consecutivas de informações e são utilizadas para consultas de informação imediata, também conhecida como consulta de localização de fato.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso SERPRO/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso SERPRO/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Obras de referência (dicionários, enciclopédias, repertórios biográficos) são projetadas para consultas imediatas, específicas e pontuais (\"consulta de localização de fato\"). Elas não são elaboradas para permitir leituras consecutivas ou contínuas de ponta a ponta como um texto ensaístico.",
+    "armadilhaBanca": "CONCEITO_CONTRADITORIO: Afirmar que obras de consulta pontual imediata permitem leituras consecutivas contínuas.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SERPRO / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-436511",
-        "ano": 2013,
-        "orgao": "SERPRO",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "436511"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SERPRO / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-436511",
+      "ano": 2013,
+      "orgao": "SERPRO",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "436511"
+    },
+    "versao_correta": "As obras de referência são estruturadas especificamente para consultas pontuais, descontinuadas e rápidas de localização de fatos específicos, não se prestando à leitura consecutiva ou linear contínua."
   },
   {
     "id": "m10-q-81",
@@ -1432,11 +1471,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito da editoração de periódicos, julgue os itens subsecutivos.",
     "item": "No processo editorial, cabe ao leitor de prova conferir as composições e erros de formatação.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TCDF/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TCDF/2014.",
+    "justificativa": "Gabarito CERTO. Na cadeia de produção e editoração gráfica (inclusive no âmbito editorial do Parlamento, como a Edições Câmara), o leitor de prova (proofreader) tem como atribuição técnica confrontar a composição tipográfica já diagramada com o texto original aprovado, identificando e corrigindo erros de paginação, hifenização, gralhas tipográficas e falhas de layout antes da impressão final.",
+    "armadilhaBanca": "Assertiva correta: o leitor de prova executa a conferência técnica final de diagramação e texto na fase pré-impressão.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / TC DF / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "ACE (TC DF)/TC DF/Especializada/Biblioteconomia/2014",
@@ -1458,10 +1497,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir prazo de ultrassecreta (25 anos) com proteção de dados pessoais (100 anos).",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Consoante a Lei nº 12.527/2011 (LAI), o prazo máximo de restrição de acesso à informação classificada como ultrassecreta é de 25 anos, reservando-se o prazo de até 100 anos para a proteção de informações pessoais relativas à intimidade e à vida privada."
   },
   {
     "id": "m10-q-83",
@@ -1471,19 +1511,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens seguintes, relativos às fontes jurídicas de informação.",
     "item": "Na condição específica de documento, o acórdão enquadra-se no âmbito dos atos normativos — também denominados atos deliberativo-normativos —, que consistem nos atos oriundos de del deliberações de órgãos da administração pública, geralmente colegiados, nos quais constam regras e normas de cumprimento.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. Na dogmática de documentação jurídica (elaborada por Edilenice Passos e Maria Helena Diniz), o acórdão judicial enquadra-se na categoria de ato deliberativo-jurisprudencial emitido por colegiado de tribunal. Constitui fonte primária formal da Jurisprudência, materializando a interpretação vinculante ou persuasiva do direito positivo aplicada aos casos concretos.",
+    "armadilhaBanca": "Assertiva correta: acórdãos integram o ramo documental da jurisprudência, registrando a deliberação colegiada formal dos tribunais.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-601"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-601"
+    }
   },
   {
     "id": "m10-q-84",
@@ -1497,10 +1537,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Dispensar diploma e registro no CRB para exercício da profissão.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O exercício da profissão de bibliotecário em órgãos públicos federais é privativo dos graduados em Biblioteconomia devidamente registrados no respectivo Conselho Regional de Biblioteconomia (Lei nº 4.084/1962 e Lei nº 9.674/1998)."
   },
   {
     "id": "m10-q-85",
@@ -1514,10 +1555,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Extinção de bibliotecas escolares em vez de universalização.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Lei nº 12.244/2010 estabelece a obrigatoriedade da universalização de bibliotecas em todas as instituições de ensino do país, públicas e privadas, visando a assegurar acervo mínimo proporcional ao corpo discente."
   },
   {
     "id": "m10-q-86",
@@ -1527,11 +1569,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "Nos termos da LAI, não pode ser negado acesso à informação necessária à tutela judicial ou administrativa de direitos fundamentais, nem àquelas que versem sobre condutas que impliquem violação dos direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Mandamento do art. 21, parágrafo único da LAI: informações sobre violação de direitos humanos NUNCA podem ser mantidas sob sigilo.",
-    "armadilhaBanca": "Inviolabilidade do acesso a informações sobre violação de direitos humanos.",
+    "justificativa": "Gabarito CERTO. O art. 21, parágrafo único da Lei de Acesso à Informação (Lei nº 12.527/2011) positiva cláusula inafastável de transparência em direitos humanos: as informações ou documentos que versem sobre condutas que impliquem violação dos direitos humanos praticadas por agentes públicos ou a mando de autoridades públicas não poderão ser objeto de restrição de acesso nem de classificação de sigilo sob pretexto algum.",
+    "armadilhaBanca": "Assertiva correta: a proteção aos direitos humanos tem primazia absoluta na LAI; documentos sobre violação de direitos humanos jamais podem ser classificados em sigilo.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1544,11 +1586,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "Pela Lei de Acesso à Informação, quando a informação solicitada pelo cidadão estiver disponível, o órgão público deve conceder o acesso imediato; caso não seja possível, a resposta deve ser fornecida em prazo não superior a vinte dias, prorrogável por mais dez dias mediante justificativa expressa.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Prazos expressos da LAI (art. 11, §§ 1º e 2º): regra geral imediata; prazo regular de até 20 dias; prorrogação excepcional motivada de até 10 dias.",
-    "armadilhaBanca": "Prazos de resposta na Lei de Acesso à Informação (20 + 10 dias).",
+    "justificativa": "Gabarito CERTO. Conforme o art. 11, §§ 1º e 2º da Lei de Acesso à Informação (Lei nº 12.527/2011), o órgão ou entidade pública deve autorizar ou conceder o acesso imediato à informação disponível. Não sendo possível o acesso imediato, o órgão tem o prazo de até 20 dias para atender ao pedido, admitida prorrogação justificada por mais 10 dias mediante comunicação formal ao requerente.",
+    "armadilhaBanca": "Assertiva correta: os prazos de resposta do Serviço de Informação ao Cidadão (SIC) na LAI são: imediato (regra), 20 dias (regular) e prorrogação de 10 dias.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1565,10 +1607,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Negar a hipótese de tratamento de dados pelo poder público na LGPD.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "A Lei Geral de Proteção de Dados Pessoais (art. 7º, III da Lei nº 13.709/2018) autoriza expressamente o tratamento e uso compartilhado de dados pessoais pela administração pública para a execução de políticas públicas legais."
   },
   {
     "id": "m10-q-89",
@@ -1578,19 +1621,20 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
     "item": "Vade-mécuns são as obras de referência que auxiliam o bibliotecário jurídico, os estudantes e os profissionais do direito em suas pesquisas. Nessas obras, de vido ao padrão nelas adotado, não pode constar jurisprudência, mas apenas a legislação.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O vade-mécum é uma compilação de consulta rápida que reúne não apenas a legislação vigente (Constituição, Códigos e Leis esparsas), mas também ampla seleção jurisprudencial sumulada dos tribunais superiores (súmulas do STF, STJ, TST, enunciados das jornadas de direito etc.).",
+    "armadilhaBanca": "RESTRICAO_INDEVIDA: Afirmar categoricamente que vade-mécuns não podem conter jurisprudência consolidada.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / CNJ / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-103212",
-        "ano": 2013,
-        "orgao": "CNJ",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "103212"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / CNJ / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-103212",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "103212"
+    },
+    "versao_correta": "Os vade-mécuns jurídicos contemplam tanto a legislação compilada quanto súmulas, enunciados e orientações jurisprudenciais consolidadas dos tribunais superiores, sendo falsa a alegação de que a jurisprudência é vedada nessas obras."
   },
   {
     "id": "m10-q-90",
@@ -1600,19 +1644,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Considerando a Resolução n.º 8/2007 do Superior Tribunal de Justiça (STJ), julgue os",
     "item": "As edições do Diário da Justiça Eletrônico do STJ devem ser assinadas digitalmente, em conco r- dância com os requisitos de autenticidade, integridade, validade jurídica e interoperabilidade da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso STJ/2012, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso STJ/2012.",
+    "justificativa": "Gabarito CERTO. A publicação de atos judiciais no Diário da Justiça Eletrônico dos tribunais superiores submete-se aos requisitos da Lei nº 11.419/2006 e da MP nº 2.200-2/2001 (ICP-Brasil). A assinatura digital com certificado digital qualificado confere autenticidade, integridade inalterável e validade jurídica plena às edições eletrônicas, substituindo com efeito oficial as antigas publicações em papel.",
+    "armadilhaBanca": "Assertiva correta: a assinatura digital no padrão ICP-Brasil confere autenticidade e fé pública incontestável aos diários judiciais e legislativos eletrônicos.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
-        "verificado": true,
-        "provaId": "STJ/2012",
-        "ano": 2012,
-        "orgao": "2012",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-604"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2012 / 2012 (Adaptada)",
+      "verificado": true,
+      "provaId": "STJ/2012",
+      "ano": 2012,
+      "orgao": "2012",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-604"
+    }
   },
   {
     "id": "m10-q-91",
@@ -1626,10 +1670,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "INVERSAO_CANONICA: Confundir autarquias federais de fiscalização profissional com ONGs privadas.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "O Conselho Federal de Biblioteconomia (CFB) e os Conselhos Regionais (CRBs) são autarquias federais com personalidade jurídica de direito público e poder de polícia estatal para a fiscalização da profissão (Lei nº 9.674/1998)."
   },
   {
     "id": "m10-q-92",
@@ -1639,19 +1684,20 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca dos sistemas de informação automatizados nacionais e internacionais, julgue",
     "item": "O Portal de Periódicos da CAPES é uma iniciativa brasileira de acesso aberto à infor mação científica que reúne a produção cientifica internacional de qualidade, disponibilizando -a a instituições de ensino e pesquisa no Brasil.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CADE/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CADE/2014: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O Portal da CAPES adota o modelo de licenciamento centralizado pago pelo Estado para franqueamento de conteúdo assinado à rede universitária credenciada. O movimento de Acesso Aberto (Open Access), por definição, prevê disponibilidade pública irrestrita e gratuita na web.",
+    "armadilhaBanca": "FALSO_ENQUADRAMENTO: Tratar o Portal de Periódicos assinado da CAPES como se fosse repositório de acesso aberto universal.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
-        "verificado": true,
-        "provaId": "CADE/2014",
-        "ano": 2014,
-        "orgao": "2014",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-589"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2014 / 2014 (Adaptada)",
+      "verificado": true,
+      "provaId": "CADE/2014",
+      "ano": 2014,
+      "orgao": "2014",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-589"
+    },
+    "versao_correta": "O Portal de Periódicos da CAPES é mantido mediante contratos de assinatura e licenciamento governamental pago com editoras comerciais, exigindo autenticação institucional e não constituindo iniciativa de acesso aberto irrestrito."
   },
   {
     "id": "m10-q-93",
@@ -1661,19 +1707,20 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
     "item": "O Diário Oficial da União, os diários oficiais dos estados e o do Distrito Federal podem ser cons considerados fontes secundárias de informação jurídica.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. Na teoria das fontes de informação jurídica, os diários oficiais são veículos oficiais que registram a promulgação originária das normas e atos estatais, constituindo FONTES PRIMÁRIAS. Fontes secundárias são manuais, tratados, doutrina e índices que comentam ou remetem às fontes primárias.",
+    "armadilhaBanca": "INVERSAO_DE_NIVEL_DOCUMENTAL: Classificar o Diário Oficial como fonte secundária em vez de fonte primária do direito.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "adaptada",
-        "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
-        "verificado": true,
-        "provaId": "CNJ/2013",
-        "ano": 2013,
-        "orgao": "2013",
-        "banca": "Cebraspe",
-        "origemAcervoLocal": "cespe-cad-599"
-      }
+      "tipo": "adaptada",
+      "descricao": "Cebraspe / 2013 / 2013 (Adaptada)",
+      "verificado": true,
+      "provaId": "CNJ/2013",
+      "ano": 2013,
+      "orgao": "2013",
+      "banca": "Cebraspe",
+      "origemAcervoLocal": "cespe-cad-599"
+    },
+    "versao_correta": "O Diário Oficial da União e os diários oficiais estaduais e distrital são classificados como fontes primárias de informação jurídica, pois publicam originalmente as leis, decretos e atos normativos oficiais do Estado."
   },
   {
     "id": "m10-q-94",
@@ -1683,11 +1730,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "A respeito das fontes de informação, do desenvolvimento de bibliografias e da disseminação da informação, julgue o item seguinte.",
     "item": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN) é um sistema de acesso público que reúne informações sobre as coleções de publicações seriadas exclusivamente nacionais e disponíveis apenas em bibliotecas brasileiras.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso IPHAN/2018, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso IPHAN/2018: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O Catálogo Coletivo Nacional (CCN/Ibict) contempla tanto publicações seriadas nacionais quanto coleções de revistas internacionais existentes nas bibliotecas cooperantes de todo o território brasileiro, viabilizando o intercâmbio e a comutação bibliográfica (COMUT).",
+    "armadilhaBanca": "RESTRICAO_INDEVIDA: Adicionar a palavra \"exclusivamente\" para restringir o catálogo às revistas nacionais.",
     "dificuldade": "media",
     "fonteOriginal": {
-          "tipo": "adaptada",
+      "tipo": "adaptada",
       "descricao": "Cebraspe / CADE / 2014 (Adaptada)",
       "verificado": true,
       "provaId": "Biblio (CADE)/CADE/2014",
@@ -1695,7 +1742,8 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
       "orgao": "CADE",
       "banca": "Cebraspe",
       "questaoOriginalId": "TecConcursos-185318"
-    }
+    },
+    "versao_correta": "O Catálogo Coletivo Nacional de Publicações Seriadas (CCN/Ibict) reúne e divulga dados sobre os acervos de periódicos científicos nacionais e internacionais custodiados pelas bibliotecas cooperantes da rede no Brasil."
   },
   {
     "id": "m10-q-95",
@@ -1705,11 +1753,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "A Lei nº 10.753/2003 (Política Nacional do Livro) estabelece diretrizes para a difusão da leitura no Brasil e define formalmente que a responsabilidade técnica pelas bibliotecas públicas municipais e estaduais cabe privativamente a bibliotecários habilitados.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Fortalecimento legal do papel da biblioteca e da profissionalização da gestão de acervos no Brasil.",
-    "armadilhaBanca": "Política Nacional do Livro (Lei 10.753/2003).",
+    "justificativa": "Gabarito CERTO. A Lei nº 10.753/2003 (Política Nacional do Livro) estabelece diretrizes para a universalização do livro e fomento à leitura no Brasil. Reconhece formalmente a biblioteca como instituição cultural estratégica e impõe que a gestão, organização e direção técnica de bibliotecas públicas e comunitárias sejam exercidas por profissionais com formação específica em Biblioteconomia.",
+    "armadilhaBanca": "Assertiva correta: a Política Nacional do Livro reforça o papel social da biblioteca e valoriza a formação técnica do bibliotecário no planejamento de acervos.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1722,19 +1770,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Acerca das fontes de informação jurídica, julgue os itens que se seguem.",
     "item": "Um sistema especialista jurídico é um conjunto de programas de computador associado a uma base de conhecimento que permite o diagnóstico, a extração de conclusões ou a apresentação de planos de ação no âmbito da área jurídica.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso TJDFT/2015, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso TJDFT/2015.",
+    "justificativa": "Gabarito CERTO. Na informática jurídica e na ciência da informação contemporânea, um sistema especialista jurídico é um software de inteligência artificial dotado de base de conhecimento codificada (ontologias jurídicas, regras normativas e precedentes) e mecanismo de inferência lógica capaz de automatizar diagnósticos, classificar petições e sugerir minutas de decisões a partir de fatos apresentados.",
+    "armadilhaBanca": "Assertiva correta: sistemas especialistas jurídicos representam a fusão entre engenharia do conhecimento, regras do direito e inteligência artificial.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / TJDFT / 2015",
-        "verificado": true,
-        "provaId": "TecConcursos-318032",
-        "ano": 2015,
-        "orgao": "TJDFT",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "318032"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / TJDFT / 2015",
+      "verificado": true,
+      "provaId": "TecConcursos-318032",
+      "ano": 2015,
+      "orgao": "TJDFT",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "318032"
+    }
   },
   {
     "id": "m10-q-97",
@@ -1744,11 +1792,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "No tocante à Lei de Acesso à Informação (Lei nº 12.527/2011), à Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), à regulamentação da profissão de Bibliotecário (Leis nº 4.084/1962 e 9.674/1998) e à RVBI, julgue o item a seguir.",
     "item": "O Código de Ética Profissional do Bibliotecário Brasileiro prescreve o dever de sigilo profissional quanto às informações e pesquisas confiadas pelos usuários, ressalvados os deveres legais de cooperação com a justiça.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O sigilo sobre a demanda e o histórico de leitura do consulente é dever deontológico expresso do bibliotecário.",
-    "armadilhaBanca": "Código de Ética Profissional do Bibliotecário.",
+    "justificativa": "Gabarito CERTO. O Código de Ética Profissional do Bibliotecário Brasileiro (aprovado pelo Conselho Federal de Biblioteconomia - Resolução CFB nº 207/2018) estabelece como dever deontológico inarredável guardar sigilo profissional absoluto acerca das informações, histórico de buscas, consultas e pesquisas que lhe forem confiadas no exercício de suas atribuições por seus usuários.",
+    "armadilhaBanca": "Assertiva correta: o sigilo sobre as preferências e consultas informacionais do usuário é dever ético e deontológico do bibliotecário.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
     }
@@ -1765,10 +1813,11 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "armadilhaBanca": "CATEGORICO_ABSOLUTO: Exigir justificativa de motivos em pedidos da LAI.",
     "dificuldade": "facil",
     "fonteOriginal": {
-          "tipo": "inedita",
+      "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M10)",
       "verificado": false
-    }
+    },
+    "versao_correta": "Nos termos do art. 10, § 3º da Lei de Acesso à Informação (Lei nº 12.527/2011), são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."
   },
   {
     "id": "m10-q-99",
@@ -1778,19 +1827,19 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Com relação a aspectos referentes à bibliografia, julgue os itens que se seguem.",
     "item": "Pelas normas do depósito legal, ao menos um exemplar de toda publicação editada e distribuída no país deve ser enviada à Biblioteca Nacional, que tem por finalidades o registro e a guarda da produção intelectual do país, bem como a elaboração da bibliografia brasileira.",
     "gabarito": "C",
-    "justificativa": "Gabarito oficial CERTO. Item cobrado pela banca examinadora Cebraspe no concurso SUFRAMA/2014, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Assertiva tecnicamente correta e semântica estrita conforme cobrado no concurso SUFRAMA/2014.",
+    "justificativa": "Gabarito CERTO. Conforme a Lei do Depósito Legal (Lei nº 10.994/2004), o impressor ou editor de qualquer publicação produzida no território nacional é obrigado a remeter à Fundação Biblioteca Nacional ao menos um exemplar da obra editada, no prazo máximo de 30 dias após a publicação, com a finalidade de assegurar o registro, a guarda permanente e a preservação da memória da produção intelectual brasileira.",
+    "armadilhaBanca": "Assertiva correta: o depósito legal na Biblioteca Nacional é obrigação legal do editor para salvaguarda da memória bibliográfica nacional.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / SUFRAMA / 2014",
-        "verificado": true,
-        "provaId": "TecConcursos-165485",
-        "ano": 2014,
-        "orgao": "SUFRAMA",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "165485"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / SUFRAMA / 2014",
+      "verificado": true,
+      "provaId": "TecConcursos-165485",
+      "ano": 2014,
+      "orgao": "SUFRAMA",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "165485"
+    }
   },
   {
     "id": "m10-q-100",
@@ -1800,18 +1849,21 @@ export const simuladoLegislativo100Q: CebraspeQuestion[] = [
     "contexto": "Julgue os itens subsequentes, relativos a documentação jurídica.",
     "item": "Os principais eventos científicos em informação jurídica no Brasil são o Encontro Nacional de I informação e Documentação Jurídica, o Seminário de Documentação e Informação Jurídica do Rio de Janeiro e o Encontro dos Documentalistas dos Tribunais de Justiça.",
     "gabarito": "E",
-    "justificativa": "Gabarito oficial ERRADO. Item cobrado pela banca examinadora Cebraspe no concurso CNJ/2013, avaliando o domínio da matéria em consonância com as fontes e normas canônicas vigentes.",
-    "armadilhaBanca": "Armadilha clássica da banca Cebraspe no concurso CNJ/2013: distorção conceitual deliberada da regra ou inversão de papéis.",
+    "justificativa": "Gabarito oficial ERRADO. O item induz o candidato a erro ao elencar eventos inexistentes ou fictícios no âmbito da documentação jurídica (como o pretenso \"Encontro dos Documentalistas dos Tribunais de Justiça\"). Os encontros consolidados historicamente são o ENIDJ (Encontro Nacional de Informação e Documentação Jurídica) e iniciativas das redes do Poder Judiciário.",
+    "armadilhaBanca": "CRIACAO_DE_EVENTO_FICTICIO: Inserir eventos inexistentes no rol histórico da informação jurídica brasileira.",
     "dificuldade": "media",
     "fonteOriginal": {
-        "tipo": "real-confirmada",
-        "descricao": "Cebraspe / CNJ / 2013",
-        "verificado": true,
-        "provaId": "TecConcursos-103213",
-        "ano": 2013,
-        "orgao": "CNJ",
-        "banca": "Cebraspe",
-        "questaoOriginalId": "103213"
-      }
+      "tipo": "real-confirmada",
+      "descricao": "Cebraspe / CNJ / 2013",
+      "verificado": true,
+      "provaId": "TecConcursos-103213",
+      "ano": 2013,
+      "orgao": "CNJ",
+      "banca": "Cebraspe",
+      "questaoOriginalId": "103213"
+    },
+    "versao_correta": "Os principais foros de informação jurídica no Brasil incluem o Encontro Nacional de Informação e Documentação Jurídica (ENIDJ) e eventos de comissões especializadas dos tribunais, não constando o fictício \"Encontro dos Documentalistas dos Tribunais de Justiça\" como evento canônico."
   }
 ];
+
+export const questoesM10 = simuladoLegislativo100Q;
