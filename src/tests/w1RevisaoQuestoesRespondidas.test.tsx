@@ -21,6 +21,7 @@ describe('W1 - Bug de Revisão com Questões Já Respondidas e Vazamento de Gaba
     armadilhaCebraspe: 'Inversão com Biblioteconomia tradicional.',
     nivelDificuldade: 'medio',
     formatosDisponiveis: ['f1_ce_simples', 'f5_associacao'],
+    variantesFormatos: { f5_associacao: {formatId:'f5_associacao',prompt:'Associe',respostaCorreta:'todos',associacao:{pares:[{ladoA:'Autor',ladoB:'Borko'},{ladoA:'Campo',ladoB:'Ciência da Informação'}]}} },
   };
 
   beforeEach(() => {
@@ -42,8 +43,8 @@ describe('W1 - Bug de Revisão com Questões Já Respondidas e Vazamento de Gaba
     expect(gabaritoVazado).toBeNull();
 
     // Deve exibir rótulos pedagógicos conceituais seguros
-    expect(screen.getByText(/Princípio \/ Campo Técnico/i)).toBeDefined();
-    expect(screen.getByText(/Submódulo de Referência/i)).toBeDefined();
+    expect(screen.getByRole('combobox',{name:'Associação 1: Autor'})).toBeDefined();
+    expect(screen.getByRole('combobox',{name:'Associação 2: Campo'})).toBeDefined();
   });
 
   it('Correção 2: ExerciseRenderer deve abrir SEM feedback ou resposta prévia e registrar confiança', () => {
@@ -64,18 +65,18 @@ describe('W1 - Bug de Revisão com Questões Já Respondidas e Vazamento de Gaba
     expect(screen.queryByText(/Definição clássica de Borko/i)).toBeNull();
     expect(screen.queryByText(/Aferição Metacognitiva de Confiança/i)).toBeNull();
 
+    fireEvent.click(screen.getByRole('button', {name:/Confiança: Certeza/i}));
     // 2. Aluno clica em CERTO
     const botaoCerto = screen.getByRole('button', { name: /CERTO/i });
     fireEvent.click(botaoCerto);
 
     // 3. Após responder, a autoverificação de confiança e o feedback são exibidos
-    expect(screen.getByText(/Aferição Metacognitiva de Confiança/i)).toBeDefined();
-    expect(screen.getByText(/Julgamento Correto!/i)).toBeDefined();
+    expect(screen.queryByRole('button',{name:/Confiança: Certeza/i})).toBeNull();
+    expect(screen.getByText(/Resposta correta!/i)).toBeDefined();
     expect(screen.getByText(/Definição clássica de Borko/i)).toBeDefined();
 
     // 4. Aluno calibra a confiança (ex: Certeza)
-    const botaoCerteza = screen.getByRole('button', { name: /Confiança: Certeza/i });
-    fireEvent.click(botaoCerteza);
+    // Confiança já registrada antes do resultado.
 
     // 5. Aluno avança para o próximo item
     const botaoAvancar = screen.getByRole('button', { name: /Próximo Item/i });

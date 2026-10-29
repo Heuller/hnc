@@ -5,7 +5,7 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://heuller.vercel.app/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61dafb.svg)](https://react.dev/)
-[![Tests](https://img.shields.io/badge/Tests-887%20passing-brightgreen.svg)]()
+[![Tests](https://img.shields.io/badge/Tests-959%20passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 ---
@@ -48,8 +48,15 @@ A plataforma integra teoria canônica, banco integral de questões inéditas, re
   $$\text{Nota Líquida} = \text{Certos} - \text{Errados}$$
 - **Sinergia:** Erros no simulado adaptativo podem ser enviados diretamente para o Modo Socrático.
 
-### 5. Arquitetura 100% *Offline-First*
-- Todos os recursos funcionam com zero atraso (0ms) mesmo sem internet ou sem chaves de API, através de geradores determinísticos canônicos locais.
+### 5. Estudo local e avaliação disponível
+- Teoria e questões usam o conteúdo local da plataforma, conforme a disponibilidade do cache.
+- A correção automática de discursivas exige serviço disponível. Na indisponibilidade, o texto permanece no editor e o aluno pode usar a rubrica de autoavaliação; não são geradas notas sintéticas.
+
+### 6. Estudo reverso por questões
+- Em Treinos, sessões de até seis itens de um lote de 12 questões autorais revisadas.
+- Julgamento, confiança opcional e explicação antes do feedback; passos de resolução, fonte e aplicação em outro cenário depois.
+- Sugestões de revisão pelo histórico e exportação das tentativas no backup de progresso.
+- [Pesquisa científica, análise de provas e limites da implementação](docs/PESQUISA_APRENDIZAGEM_E_RACIOCINIO_CEBRASPE.md).
 
 ---
 
@@ -96,7 +103,7 @@ npm run dev
 
 | Indicador | Quantidade | Observações |
 | :--- | :---: | :--- |
-| **Suíte de Testes Automatizados** | **887 testes** | 100% aprovados em Vitest (118 arquivos de teste) |
+| **Suíte de Testes Automatizados** | **959 testes** | 100% aprovados em Vitest (123 arquivos de teste) |
 | **Qualidade e Estilo (Oxlint)** | **0 avisos, 0 erros** | 0 erros impeditivos no código-fonte |
 | **Cadernos de Simulados Cadastrados** | **20 cadernos** | 2.110 itens em cadernos de prova |
 | **Questões nos Submódulos Teóricos** | **69 itens** | Checkpoints e fixação de conteúdo em teoria |

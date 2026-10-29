@@ -125,7 +125,7 @@ export interface ReviewConfig {
   readonly retaFinal: {
     dataInicioIso: string; // '2026-12-28'
     dataProvaIso: string; // '2027-01-17'
-    dataCorteNormativoIso: string; // '2026-12-17'
+    dataCorteNormativoIso: string; // Corte de jurisprudência (13.34.1), não de legislação
     totalItensSimuladoGeral: number; // 180
     distribuicaoQuestoes: {
       conhecimentosBasicos: number; // 90 (P1 - Conhecimentos Básicos)
@@ -320,7 +320,7 @@ export const REVIEW_CONFIG: ReviewConfig = {
   retaFinal: {
     dataInicioIso: '2026-12-28', // 3 semanas antes da prova (17/01/2027)
     dataProvaIso: '2027-01-17',
-    dataCorteNormativoIso: '2026-12-17', // Corte a 30 dias da prova
+    dataCorteNormativoIso: '2026-12-18', // Jurisprudência: 30 dias corridos antes da prova (13.34.1)
     totalItensSimuladoGeral: 180,
     distribuicaoQuestoes: {
       conhecimentosBasicos: 90,

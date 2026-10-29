@@ -9,6 +9,7 @@ interface AnswerSheetProps {
   currentIndex: number;
   onSelectQuestion: (index: number) => void;
   className?: string;
+  revelarResultados?: boolean;
 }
 
 type FilterType = 'todas' | 'erros' | 'acertos' | 'branco' | 'pendentes';
@@ -19,6 +20,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
   currentIndex,
   onSelectQuestion,
   className = '',
+  revelarResultados = true,
 }) => {
   const [filter, setFilter] = useState<FilterType>('todas');
 
@@ -37,6 +39,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
         >
           Todas ({questions.length})
         </button>
+        {revelarResultados && <>
         <button
           type="button"
           onClick={() => setFilter('erros')}
@@ -59,6 +62,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
         >
           Acertos
         </button>
+        </>}
         <button
           type="button"
           onClick={() => setFilter('branco')}
@@ -89,8 +93,8 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
           const r = respostas[q.id];
           const isCurrent = idx === currentIndex;
           const isAnswered = !!r;
-          const isCorrect = isAnswered && r.resposta === q.gabarito;
-          const isWrong = isAnswered && r.resposta !== 'BRANCO' && r.resposta !== q.gabarito;
+          const isCorrect = revelarResultados && isAnswered && r.resposta === q.gabarito;
+          const isWrong = revelarResultados && isAnswered && r.resposta !== 'BRANCO' && r.resposta !== q.gabarito;
           const isBlank = isAnswered && r.resposta === 'BRANCO';
 
           // Filtro de visibilidade
@@ -117,6 +121,8 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
             style = 'bg-ok-soft border-ok text-ok font-bold';
           } else if (isWrong) {
             style = 'bg-err-soft border-err text-err font-bold';
+          } else if (isAnswered && !revelarResultados) {
+            style = 'bg-surface-3 border-border text-ink font-semibold';
           } else if (isBlank) {
             style = 'bg-surface-2 border-border text-ink-2 font-medium';
           }
@@ -130,7 +136,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
                 isCurrent ? 'ring-2 ring-accent ring-offset-1 font-bold z-10' : ''
               }`}
               aria-label={`Item ${idx + 1}${
-                isCorrect ? ' - Acerto (+1)' : isWrong ? ' - Erro (-1)' : isBlank ? ' - Em Branco' : ' - Pendente'
+                isCorrect ? ' - Acerto (+1)' : isWrong ? ' - Erro (-1)' : isBlank ? ' - Em Branco' : isAnswered ? ' - Respondido' : ' - Pendente'
               }`}
               title={`Item ${idx + 1} (${q.submoduloId}): ${
                 isAnswered ? `Marcado: ${r.resposta}` : 'Pendente'
@@ -168,6 +174,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
 
       {/* Legenda Visual com Ícone + Rótulo + Cor (Acessibilidade WCAG 2.2) */}
       <div className="flex flex-wrap items-center gap-3 pt-3 border-t border-border text-xs font-sans text-ink-2">
+        {revelarResultados && <>
         <span className="flex items-center gap-1.5">
           <CheckCircle2 className="w-3.5 h-3.5 text-ok shrink-0" aria-hidden="true" />
           <span>Acerto (+1)</span>
@@ -176,6 +183,7 @@ export const AnswerSheet: React.FC<AnswerSheetProps> = ({
           <XCircle className="w-3.5 h-3.5 text-err shrink-0" aria-hidden="true" />
           <span>Erro (-1)</span>
         </span>
+        </>}
         <span className="flex items-center gap-1.5">
           <MinusCircle className="w-3.5 h-3.5 text-ink-2 shrink-0" aria-hidden="true" />
           <span>Em Branco (0)</span>

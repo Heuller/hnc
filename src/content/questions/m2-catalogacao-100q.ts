@@ -7,19 +7,22 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "Acerca dos princípios internacionais de catalogação e de suas repercussões na construção de catálogos bibliográficos, julgue o item a seguir.",
-    "item": "De acordo com a Declaração de Princípios Internacionais de Catalogação (ICP 2016) da IFLA, a conveniência do usuário constitui o princípio primordial que deve orientar todas as decisões de descrição e escolha de pontos de acesso.",
+    "item": "Ao escolher entre duas formas de apresentação de dados no catálogo, a equipe deve considerar a conveniência do usuário como princípio geral prioritário, conforme os ICP de 2016.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Correto. O princípio orientador supremo da Declaração da IFLA (ICP 2016) é a conveniência do usuário (item 2.1), superando antigas prerrogativas burocráticas ou de rotina das bibliotecas. Trata-se de diretriz técnica consolidada indispensável para a prática profissional do bibliotecário e analista da Câmara dos Deputados.",
-    "armadilhaBanca": "Técnica: Reconhecimento de Preceito Canônico. A assertiva mantém a fidelidade conceitual à teoria de referência, sem inserir modificadores abusivos ou restrições indevidas.",
-    "dificuldade": "facil",
+    "justificativa": "Gabarito CERTO. A conveniência do usuário orienta a escolha entre soluções de catalogação. Recupere o princípio geral dos ICP: conveniência do usuário. Verifique se a prioridade atribuída à equipe coincide com esse princípio.",
+    "armadilhaBanca": "Técnica: Aplicação de princípio. O cenário muda, mas a prioridade deve permanecer vinculada ao usuário do catálogo.",
+    "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / Bibliotecário / 2024"
     },
-    "gatilho": "De acordo com",
-    "versao_errada": "indevidamente de acordo com a Declaração de Princípios Internacionais de Catalogação (ICP 2016) da IFLA, a conveniência do usuário constitui o princípio primordial que deve orientar todas as decisões de descrição e escolha de pontos de acesso."
+    "gatilho": "conveniência do usuário como princípio geral prioritário",
+    "versao_errada": "O princípio geral prioritário deve ser a conveniência do catalogador, conforme os ICP de 2016.",
+    "fonte": "IFLA — Princípios Internacionais de Catalogação (2016, revisão 2017) — seção 2, princípios 2.1 e 2.3",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "aplicar"
   },
   {
     "id": "cat-q-2",
@@ -46,17 +49,21 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.1",
     "contexto": "Quanto aos princípios de catalogação da IFLA (ICP 2016), julgue o item seguinte.",
-    "item": "O princípio da representação fidedigna impõe que o recurso bibliográfico seja descrito de acordo com a forma idealizada pelo catalogador, facultando a alteração de títulos que contenham grafias arcaicas ou erros evidentes sem indicação expressa.",
+    "item": "Ao transcrever um título com grafia histórica, o catalogador pode substituí-lo silenciosamente pela grafia atual, pois o princípio da representação exige registrar a forma linguística mais moderna.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! O princípio da representação fidedigna (ICP 2.3) determina que o recurso deve ser descrito tal como se apresenta no próprio recurso. Alterações silenciosas ferem o princípio basilar da representação fidedigna. A constatação desse desvio conceitual é fundamental para a correta resolução do item pela jurisprudência técnica da banca.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
-    "dificuldade": "media",
+    "justificativa": "Gabarito ERRADO. Representar o recurso não equivale a reescrever livremente sua informação transcrita. Compare a mudança silenciosa com a representação do recurso. Não transfira para a transcrição uma liberdade própria de outros elementos do registro.",
+    "armadilhaBanca": "Técnica: Troca de finalidade. Uma possível conveniência de busca é apresentada como autorização para alterar a representação do recurso.",
+    "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "versao_correta": "O princípio da representação fidedigna (ICP 2.3) impõe que o recurso bibliográfico seja descrito tal como ele próprio se apresenta, sendo vedado ao catalogador alterar silenciosamente títulos que contenham grafias arcaicas ou erros evidentes sem indicação expressa."
+    "versao_correta": "A representação do recurso não autoriza substituir silenciosamente a grafia do título pela forma que o catalogador considera mais moderna.",
+    "gatilho": "substituí-lo silenciosamente pela grafia atual",
+    "fonte": "IFLA — Princípios Internacionais de Catalogação (2016, revisão 2017) — seção 2, princípios 2.1 e 2.3",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "analisar"
   },
   {
     "id": "cat-q-4",
@@ -1073,18 +1080,21 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Quanto às distinções ontológicas entre Manifestação e Item nos FRBR, julgue o item.",
-    "item": "O Item é um exemplar físico único de uma manifestação, sendo a entidade sobre a qual recaem atributos individualizados como número de tombo, código de barras, encadernação e notas de proveniência.",
+    "item": "Dois exemplares pertencem à mesma manifestação editorial. A anotação de proveniência de apenas um deles deve ser associada ao item correspondente, sem atribuí-la a todos os exemplares da manifestação.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O Item é a única entidade do Grupo 1 dos FRBR que possui existência física tangível e individualizada no mundo real (o exemplar concreto em uma estante ou arquivo digital específico). É sobre o Item que incidem dados de proveniência, número de tombo patrimonial, anotações marginais, autógrafos de posse, encadernações especiais e histórico de circulação.",
-    "armadilhaBanca": "Definição precisa da entidade Item nos FRBR.",
-    "dificuldade": "facil",
+    "justificativa": "Gabarito CERTO. O item é o exemplar individual; uma particularidade de sua história não se estende à manifestação. Associe a particularidade ao exemplar individual. Evite generalizar a proveniência para toda a edição. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
+    "armadilhaBanca": "Técnica: Discriminação de entidades. A informação se refere a um exemplar e não ao conjunto editorial.",
+    "dificuldade": "media",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita / Especial Câmara dos Deputados",
       "verificado": false
     },
-    "gatilho": "entidade sobre a qual recaem atributos individualizados",
-    "versao_errada": "O Item é um exemplar físico único de uma manifestação, sendo a indevidamente entidade sobre a qual recaem atributos individualizados como número de tombo, código de barras, encadernação e notas de proveniência."
+    "gatilho": "associada ao item correspondente",
+    "versao_errada": "A proveniência particular de um exemplar deve ser atribuída a todos os itens da mesma manifestação.",
+    "fonte": "IFLA Library Reference Model (2017, revisão dezembro) — seção 4.2, entidades LRM-E3, LRM-E4 e LRM-E5",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "aplicar"
   },
   {
     "id": "cat-q-58",
@@ -1092,18 +1102,22 @@ export const simuladoCatalogacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M2",
     "submoduloId": "2.3",
     "contexto": "Com base nas relações entre as entidades WEMI dos FRBR, julgue o item subsequente.",
-    "item": "Quando uma obra literária escrita em espanhol é traduzida para o português, a tradução resultante constitui um novo Item pertencente à mesma Manifestação original.",
+    "item": "Uma tradução de um romance do espanhol para o português deve ser tratada como simples mudança de exemplar, sem distinguir a expressão linguística do conteúdo traduzido.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Errado! A tradução para outro idioma altera a forma de realização linguística do texto, gerando uma NOVA EXPRESSÃO da mesma Obra (e consequentemente novas Manifestações comerciais). Jamais é um 'novo Item da mesma Manifestação'.",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
-    "dificuldade": "media",
+    "justificativa": "Gabarito ERRADO. A tradução do conteúdo distingue uma expressão; o exemplar individual pertence ao nível de item. Diferencie conteúdo expresso de exemplar individual. Julgue a atribuição da tradução ao nível de item. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
+    "armadilhaBanca": "Técnica: Confusão de níveis. A tradução é reduzida ao nível do exemplar em vez de distinguir a expressão.",
+    "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "Inédita, sem prova de origem",
       "verificado": false,
       "declaracaoLegada": "CEBRASPE / PC-DF / 2025"
     },
-    "versao_correta": "Quando uma obra literária escrita em espanhol é traduzida para o português, a tradução resultante constitui uma nova Expressão linguística da mesma Obra original, que será corporificada em uma nova Manifestação comercial (e não um simples item da manifestação anterior)."
+    "versao_correta": "Uma tradução distingue a expressão linguística do conteúdo; não é apenas uma troca de exemplar.",
+    "gatilho": "simples mudança de exemplar",
+    "fonte": "IFLA Library Reference Model (2017, revisão dezembro) — seção 4.2, entidades LRM-E3, LRM-E4 e LRM-E5",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "analisar"
   },
   {
     "id": "cat-q-59",

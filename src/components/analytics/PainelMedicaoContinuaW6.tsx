@@ -109,7 +109,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <span className="text-xs font-mono font-bold uppercase text-ink flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-emerald-600" />
+            <ShieldCheck className="w-4 h-4 text-ok" />
             <span>Desempenho Estritamente em Itens Inéditos (1ª Exposição)</span>
           </span>
           <span className="text-xs font-mono text-ink-2">
@@ -120,7 +120,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
           <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-center">
             <span className="text-xs font-mono uppercase text-ink-2 block">Acertos Brutos</span>
-            <span className="text-lg font-mono font-bold text-emerald-600">{itensIneditos.acertos}</span>
+            <span className="text-lg font-mono font-bold text-ok">{itensIneditos.acertos}</span>
             <span className="text-xs text-ink-2 block">
               {(itensIneditos.rawAccuracy * 100).toFixed(1)}% raw
             </span>
@@ -128,13 +128,13 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
 
           <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-center">
             <span className="text-xs font-mono uppercase text-ink-2 block">Erros (Penalizam)</span>
-            <span className="text-lg font-mono font-bold text-rose-600">{itensIneditos.erros}</span>
-            <span className="text-xs text-rose-500 block">-{itensIneditos.erros} pts</span>
+            <span className="text-lg font-mono font-bold text-err">{itensIneditos.erros}</span>
+            <span className="text-xs text-err block">-{itensIneditos.erros} pts</span>
           </div>
 
           <div className="p-3 rounded-xl bg-surface-2/40 border border-border text-center">
             <span className="text-xs font-mono uppercase text-ink-2 block">Em Branco</span>
-            <span className="text-lg font-mono font-bold text-amber-600">{itensIneditos.brancos}</span>
+            <span className="text-lg font-mono font-bold text-accent">{itensIneditos.brancos}</span>
             <span className="text-xs text-ink-2 block">Abstenção segura</span>
           </div>
 
@@ -178,10 +178,10 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
             <span
               className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                 calibracaoMetacognitiva.nivelCalibracao === 'excelente'
-                  ? 'bg-emerald-500/10 text-emerald-600 border border-emerald-500/20'
+                  ? 'bg-emerald-500/10 text-ok border border-emerald-500/20'
                   : calibracaoMetacognitiva.nivelCalibracao === 'adequado'
                   ? 'bg-blue-500/10 text-blue-600 border border-blue-500/20'
-                  : 'bg-rose-500/10 text-rose-600 border border-rose-500/20'
+                  : 'bg-rose-500/10 text-err border border-rose-500/20'
               }`}
             >
               Brier: {calibracaoMetacognitiva.brierScore.toFixed(3)} ({calibracaoMetacognitiva.nivelCalibracao})
@@ -191,7 +191,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
           <div className="space-y-1.5 text-xs font-mono">
             <div className="flex items-center justify-between p-2 rounded bg-surface border border-border">
               <span className="text-ink">Certeza (Esperado: ~100%)</span>
-              <span className="font-bold text-emerald-600">
+              <span className="font-bold text-ok">
                 {(calibracaoMetacognitiva.distribuicaoConfianca.certeza.taxaReal * 100).toFixed(1)}% real ({calibracaoMetacognitiva.distribuicaoConfianca.certeza.total} itens)
               </span>
             </div>
@@ -203,7 +203,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
             </div>
             <div className="flex items-center justify-between p-2 rounded bg-surface border border-border">
               <span className="text-ink">Chute / Dúvida (Esperado: ~50%)</span>
-              <span className="font-bold text-amber-600">
+              <span className="font-bold text-accent">
                 {(calibracaoMetacognitiva.distribuicaoConfianca.chute.taxaReal * 100).toFixed(1)}% real ({calibracaoMetacognitiva.distribuicaoConfianca.chute.total} itens)
               </span>
             </div>
@@ -217,7 +217,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
         <div className="p-4 rounded-xl bg-surface-2/40 border border-border space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs font-mono font-bold uppercase text-ink flex items-center gap-1.5">
-              <TrendingUp className="w-4 h-4 text-emerald-600" />
+              <TrendingUp className="w-4 h-4 text-ok" />
               <span>Retenção Espaçada Longitudinal</span>
             </span>
             <span className="text-xs font-mono text-ink-2">Curva de Ebbinghaus/Pashler</span>
@@ -226,7 +226,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
           <div className="grid grid-cols-2 gap-2 text-center">
             <div className="p-3 rounded bg-surface border border-border space-y-1">
               <span className="text-xs font-mono uppercase text-ink-2 block">Retenção a 7 Dias</span>
-              <span className="text-xl font-mono font-bold text-emerald-600">
+              <span className="text-xl font-mono font-bold text-ok">
                 {(retencaoLongitudinal.retencao7Dias.taxa * 100).toFixed(1)}%
               </span>
               <span className="text-xs text-ink-2 block">
@@ -269,8 +269,8 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
                   <span
                     className={`px-2 py-0.5 rounded text-xs font-mono font-bold uppercase ${
                       m.status === 'manter'
-                        ? 'bg-emerald-500/10 text-emerald-600 border border-emerald-500/20'
-                        : 'bg-amber-500/10 text-amber-600 border border-amber-500/20'
+                        ? 'bg-emerald-500/10 text-ok border border-emerald-500/20'
+                        : 'bg-amber-500/10 text-accent border border-amber-500/20'
                     }`}
                   >
                     {m.status === 'manter' ? 'Manter' : 'Atenção'}
@@ -309,7 +309,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
               <span className="font-bold text-purple-700 dark:text-purple-300">SIMULADO 1</span>
               <span>01/11/2026 (Dom)</span>
             </div>
-            <h4 className="text-xs font-bold font-serif text-ink">Marco Diagnóstico Inicial</h4>
+            <h3 className="text-xs font-bold font-serif text-ink">Marco Diagnóstico Inicial</h3>
             <p className="text-xs text-ink-2 leading-relaxed">
               Ensaio completo com 180 itens (90 P1 + 90 P2) e 2 questões + 1 peça técnica manuscritas. Aferição do baseline rigoroso pós-congelamento inicial.
             </p>
@@ -321,7 +321,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
               <span className="font-bold text-purple-700 dark:text-purple-300">SIMULADO 2</span>
               <span>22/11/2026 (Dom)</span>
             </div>
-            <h4 className="text-xs font-bold font-serif text-ink">Marco de Congelamento</h4>
+            <h3 className="text-xs font-bold font-serif text-ink">Marco de Congelamento</h3>
             <p className="text-xs text-ink-2 leading-relaxed">
               Realizado logo após o congelamento oficial da plataforma (18/11/2026). Medição do avanço do Pareto e calibração das estratégias de marcação em branco.
             </p>
@@ -333,7 +333,7 @@ export const PainelMedicaoContinuaW6: React.FC = () => {
               <span className="font-bold">SIMULADO 3</span>
               <span>03/01/2027 (Dom)</span>
             </div>
-            <h4 className="text-xs font-bold font-serif text-ink">Ensaio Geral Pré-Prova</h4>
+            <h3 className="text-xs font-bold font-serif text-ink">Ensaio Geral Pré-Prova</h3>
             <p className="text-xs text-ink-2 leading-relaxed">
               Exatamente duas semanas antes de 17/01/2027. Simulação estrita em tempo real: 5h matutinas (9h-14h) e 3h vespertinas (16h-19h) com caneta preta.
             </p>

@@ -42,7 +42,7 @@ describe('F-12: Paridade e Simetria de Gabaritos Cebraspe nos Simulados', () => 
     expect(e40).toBe(20);
   });
 
-  it('todos os simulados cadastrados no catálogo oficial respeitam a simetria de gabarito de CONCURSO_CONFIG', () => {
+  it('cadernos completos seguem a política editorial de proporção; quarentena não é desfeita para atingir uma quota', () => {
     expect(ALL_SIMULADOS_REGISTRY.length).toBeGreaterThan(15);
 
     const { certosMin, certosMax } = CONCURSO_CONFIG.banca.simetriaGabarito;
@@ -56,6 +56,11 @@ describe('F-12: Paridade e Simetria de Gabaritos Cebraspe nos Simulados', () => 
 
       expect(certas + erradas).toBe(total);
 
+      if (sim.itensForaConferencia) {
+        expect(sim.questoes.length + sim.itensForaConferencia).toBe(sim.totalNominal);
+        expect(sim.titulo).toContain('treino parcial');
+        continue;
+      }
       const percentCertas = (certas / total) * 100;
       // Para simulados de 100 ou 180 itens, a simetria é estrita (48% a 52%)
       // Para mini simulados (ex.: 30 itens), tolera-se proporção de no máximo 1 questão de desvio

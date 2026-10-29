@@ -784,7 +784,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) 28) 84) 56) 86) Parking in New York sends you to ecstasy or rips your heart out. Which is to say, it’s a natural continuation of family life. Most of the time it is joyous. Joy is an odd word to use in connection with parking, but some of my happiest moments have come in connection with finding a good parking space. Often enough, though, it is terrible — so it feels like an even balance, and for this reason, parking the car is always an occasion of great suspense. Take one recent evening, a Wednesday: we arrived in our neighborhood at the end of an ambitious expedition, our bedtime schedule long lost. There had been a truly fantastic sunset that we witnessed coming down the Henry Hudson Parkway, but our pleasure was diminished by the fact that the baby was asleep in the car. It was after 8 P. M. He would need to be woken and bathed. The only question was if Evangeline — five years old — might still get to bed at a somewhat reasonable hour. The answer lay with the fate of the parking. We approached our block, our building. A tremor of hope that a miracle would occur moved through my wife and me, battling despair as the alternative scenario. I asked her the usual question, like the riddle of the Sphinx: “Do you want to get out with the kids or do you want to drive around with me looking for a spot?” She doesn’t find this choice easy. I don’t blame her. In this sense I have it easy — I will park the car. It is a necessity. She is an excellent driver but this parking duty feels fatherly, hunter-gatherer, stoic. Internet: <www.newyorker.com> (adapted). Based on the text above, judge the following item. In the episode narrated, there were only three people in the car.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. Análise do texto: o narrador descreve o regresso de uma viagem noturna em família para tentar estacionar em Manhattan. Estavam no veículo o narrador (\"I will park the car\"), sua esposa (\"my wife and me\"), o bebê (\"the baby was asleep in the car\") e a filha de cinco anos (\"Evangeline — five years old\"). Vocabulário-chave: \"parking spot\" (vaga de estacionamento), \"stoic\" (estóico/resiliente), \"rips your heart out\" (expressão idiomática: despedaça o coração / causa angústia).",
+    "justificativa": "Item retirado do treino para conferência editorial. Leitura fundamentada proposta: ERRADO. Há quatro pessoas: narrador, esposa, bebê e Evangeline, de cinco anos. A enumeração do texto contradiz “only three”. O erro é de contagem e referente, não de vocabulário. O gabarito legado foi preservado até a conferência da origem; não use este item para avaliação.",
     "armadilhaBanca": "INTERPRETAÇÃO TEXTUAL DE CONTO CRÔNICA: Compreensão contextual de pronomes, elipses e expressões idiomáticas na crônica novaiorquina.",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -792,9 +792,12 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "descricao": "The New Yorker (adaptado) / Prova Cebraspe Língua Inglesa",
       "verificado": false,
       "origemAcervoLocal": "cespe-tec-2371",
-      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
+      "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012",
+      "revisar": true,
+      "statusConferencia": "em-conferencia"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "gatilho": "only three"
   },
   {
     "id": "oficial-180q-036",
@@ -832,7 +835,7 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "contexto": "Based on strategic reading and grammar analysis in English, judge the following item.",
     "item": "Língua Inglesa (Inglês) - Interpretação de Textos (Understanding) In order for young people to do better in school, it helps if they actually are in school. Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded with iPads, sneakers, gift cards, and other incentives merely for showing up at school. Then there’s the flip side, in which students and parents are penalized for unexcused absences. In the past, parents have been sentenced to jail time for failing to get their children to school. Prosecutors have also suggested jail time as a penalty for missing parent-teacher conferences. Now there’s a school system in the news because its superintendent plans on fining families $ 75 for each day a student skips school. In New Britain, Connecticut, a new superintendent of schools named Kelt Cooper wants to end high truancy rates among public school students, and he’s proposing monetary penalties to get the job done. A plan to fine students $ 75 per skipped school day is now being considered by New Britain council members. The concept of fining kids for skipping school may come as a shock, but it’s not new. In Ohio, the guardians responsible for a student guilty of habitual truancy can be fined up to $ 500 and/or be required to perform up to 70 hours of community service. Until recently, students in Los Angeles could be hit with a $ 250 penalty for each count of truancy; in early 2012 the law was amended and the expensive fines were removed, though a $ 20 penalty may still be handed out for the third offense. Internet: <http://moneyland.time.com> (adapted). Based on the text above, judge the following item. The article admits there are two ways of dealing with the problem of truancy.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O texto pontua explicitamente no segundo parágrafo: \"Schools basically have two options when it comes to fighting chronic truancy. There’s the positive approach, in which students are rewarded... Then there’s the flip side, in which students and parents are penalized for unexcused absences\". O artigo estrutura-se inteiramente sobre essas duas alternativas fundamentais: recompensas pedagógicas e materiais versus penalidades financeiras e jurídicas.",
+    "justificativa": "Leitura do texto-base: CERTO. O texto anuncia “Schools basically have two options”: recompensa à frequência e penalização das faltas. Localize as duas alternativas antes de julgar; “two ways” retoma essa estrutura explícita.",
     "armadilhaBanca": "IDENTIFICAÇÃO LITERAL DE TESE: A assertiva reproduz a frase-chave do texto (\"Schools basically have two options when it comes to fighting chronic truancy\").",
     "dificuldade": "media",
     "fonteOriginal": {
@@ -842,7 +845,9 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
       "origemAcervoLocal": "cespe-tec-2373",
       "declaracaoLegada": "Cebraspe / Câmara dos Deputados / 2012"
     },
-    "provaBloco": "P1_BASICOS"
+    "provaBloco": "P1_BASICOS",
+    "gatilho": "two ways",
+    "versao_errada": "The article states that schools have only one way of dealing with truancy."
   },
   {
     "id": "oficial-180q-038",
@@ -3656,10 +3661,10 @@ export const simuladoOficialCamara180Q: CebraspeQuestion[] = [
     "origemModulo": "M8",
     "questaoOrigemId": "m8-q-2",
     "submoduloId": "8.1",
-    "contexto": "Várias normas editadas pela ABNT especificam os princípios gerais para a elaboração",
+    "contexto": "Questão histórica: julgue exclusivamente segundo a ABNT NBR 6023:2002. Não aplique esta edição como regra atual.",
     "item": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresentação do endereço eletrônico, que deve ser apresentado entre os sinais < >, precedido da expressão “Disponível em:” e a data de acesso ao documento, precedida da expressão “Acesso em:”.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO sob a vigência histórica da ABNT NBR 6023:2002. A redação da NBR 6023:2002 determinava o uso obrigatório dos sinais angulares < > delimitando a URL (\"Disponível em: <http://...>. Acesso em: 10 out. 2012.\"). Nota de atualização para o estudo reverso: na revisão vigente ABNT NBR 6023:2018 (item 7.6.1), os sinais < > foram suprimidos, grafando-se: \"Disponível em: http://... Acesso em: 10 out. 2024.\".",
+    "justificativa": "CERTO no recorte histórico da NBR 6023:2002: o endereço eletrônico era delimitado por sinais angulares. Essa apresentação mudou em 2018. A NBR 6023:2025, prefácio, cancela e substitui a edição de 2018; portanto, a justificativa não deve chamar 2018 de vigente. Para a preparação atual, confira a edição exigida pelo edital. Não transporte o gabarito histórico para outra edição.",
     "armadilhaBanca": "EVOLUÇÃO NORMATIVA DA NBR 6023: Saber que os sinais < > eram obrigatórios na edição de 2002 e foram eliminados na edição de 2018.",
     "dificuldade": "media",
     "fonteOriginal": {

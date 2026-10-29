@@ -1,3 +1,5 @@
+import { PainelEstudoReverso } from '../common/PainelEstudoReverso';
+import { AccessibleModal } from '../common/AccessibleModal';
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import {
   X,
@@ -46,7 +48,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
   const [modoFoco, setModoFoco] = useState<'fraquezas_criticas' | 'erros_caderno' | 'geral_adaptativo'>(
     modoInicial
   );
-  const [modoFeedback, setModoFeedback] = useState<'cego' | 'imediato'>('cego');
+  const [modoFeedback, setModoFeedback] = useState<'cego' | 'imediato'>('imediato');
 
   const [gerando, setGerando] = useState<boolean>(false);
   const [itensSimulado, setItensSimulado] = useState<ItemSimuladoAdaptativo[]>([]);
@@ -135,6 +137,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
         checkpointsRespondidos || {},
         historicoSimulados || []
       );
+      if (!questoes.length) throw new Error('Não há itens disponíveis para esse escopo.');
       setItensSimulado(questoes);
       setItemAtualIndex(0);
       setRespostas({});
@@ -164,10 +167,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
   const itemAtual = itensSimulado[itemAtualIndex];
 
   return (
-    <div
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="simulado-adaptativo-titulo"
+    <AccessibleModal open={isOpen} onClose={onClose} title="Simulado adaptativo"
       className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
     >
       <div className="bg-surface border border-border rounded-2xl w-full max-w-4xl max-h-[92dvh] flex flex-col shadow-editorial-xl overflow-hidden">
@@ -180,7 +180,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-xs font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-accent/15 text-accent font-bold border border-accent/30">
-                  Simulado Adaptativo IA
+                  Treino Adaptativo
                 </span>
                 <span className="text-xs font-mono text-ink-2 hidden sm:inline">
                   Fórmula Cebraspe (1 errada anula 1 certa)
@@ -240,6 +240,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
           {/* ========================================================================= */}
           {etapa === 'executando' && itemAtual && (
             <div className="max-w-3xl mx-auto space-y-6">
+              {itensSimulado.length < qtdItens && <p role="status" className="p-3 rounded-xl border border-border text-ink">Há {itensSimulado.length} itens distintos disponíveis para os {qtdItens} solicitados. Este é um treino parcial.</p>}
               {/* Contexto do Item */}
               <div className="flex items-center justify-between text-xs font-mono text-ink-2 border-b border-border pb-2.5">
                 <span className="font-bold text-accent">
@@ -269,7 +270,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     onClick={() => handleMarcarResposta(itemAtual.id, 'C')}
                     className={`py-3 px-4 rounded-xl border text-xs sm:text-sm font-bold cursor-pointer transition-all flex items-center justify-center gap-2 ${
                       respostas[itemAtual.id]?.resposta === 'C'
-                        ? 'bg-emerald-600 text-white border-emerald-600 shadow-editorial-sm scale-[1.02]'
+                        ? 'bg-ok text-white border-emerald-600 shadow-editorial-sm scale-[1.02]'
                         : 'bg-surface-2 text-ink hover:border-emerald-500/50 border-border'
                     }`}
                   >
@@ -312,10 +313,10 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     <span
                       className={
                         respostas[itemAtual.id].acertou
-                          ? 'text-emerald-600 dark:text-emerald-400'
+                          ? 'text-ok dark:text-emerald-400'
                           : respostas[itemAtual.id].resposta === 'BRANCO'
-                          ? 'text-amber-600 dark:text-amber-400'
-                          : 'text-rose-600 dark:text-rose-400'
+                          ? 'text-accent dark:text-amber-400'
+                          : 'text-err dark:text-rose-400'
                       }
                     >
                       {respostas[itemAtual.id].acertou
@@ -326,19 +327,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     </span>
                     <span className="text-ink-2 font-normal">Hipercorreção Imediata</span>
                   </div>
-                  {itemAtual.armadilhaBanca && (
-                    <p className="text-xs text-rose-700 dark:text-rose-300 m-0 font-sans">
-                      <strong>⚠️ Armadilha Cebraspe:</strong> {itemAtual.armadilhaBanca}
-                    </p>
-                  )}
-                  <p className="text-xs text-ink m-0 leading-relaxed font-serif">
-                    <strong>Fundamentação:</strong> {itemAtual.justificativa}
-                  </p>
-                  {itemAtual.gabarito === 'E' && itemAtual.versao_correta && (
-                    <p className="text-xs text-emerald-700 dark:text-emerald-300 m-0 leading-relaxed font-serif italic">
-                      <strong>Como ficaria correto:</strong> "{itemAtual.versao_correta}"
-                    </p>
-                  )}
+                  <PainelEstudoReverso questao={itemAtual} resposta={respostas[itemAtual.id]?.resposta} autoexplicacao={false} />
                 </div>
               )}
 
@@ -426,8 +415,8 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     <span
                       className={`text-2xl font-black ${
                         resultadoFinal.notaLiquidaCebraspe > 0
-                          ? 'text-emerald-600 dark:text-emerald-400'
-                          : 'text-rose-600 dark:text-rose-400'
+                          ? 'text-ok dark:text-emerald-400'
+                          : 'text-err dark:text-rose-400'
                       }`}
                     >
                       {resultadoFinal.notaLiquidaCebraspe > 0 ? `+${resultadoFinal.notaLiquidaCebraspe}` : resultadoFinal.notaLiquidaCebraspe}
@@ -438,7 +427,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Certos (C)
                     </span>
-                    <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400">
+                    <span className="text-2xl font-black text-ok dark:text-emerald-400">
                       {resultadoFinal.certos}
                     </span>
                   </div>
@@ -447,7 +436,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                     <span className="text-xs font-mono uppercase text-ink-2 font-bold block">
                       Errados (E)
                     </span>
-                    <span className="text-2xl font-black text-rose-600 dark:text-rose-400">
+                    <span className="text-2xl font-black text-err dark:text-rose-400">
                       {resultadoFinal.errados}
                     </span>
                   </div>
@@ -468,7 +457,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                   <div className="space-y-0.5">
                     <span className="font-bold">
                       {resultadoFinal.aproveitamentoLiquidoPercentual >= 60
-                        ? 'Excelente aproveitamento líquido! Domínio firme das armadilhas da banca.'
+                        ? 'Bom resultado neste treino. Confira a fundamentação e pratique novamente em outro dia.'
                         : 'Treino diagnóstico concluído. Revise as assertivas que geraram penalidade abaixo.'}
                     </span>
                     <p className="text-xs text-ink-2 m-0">
@@ -518,13 +507,13 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
 
                         <div className="flex items-center gap-2">
                           {acertou === true && (
-                            <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600">
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-ok">
                               <CheckCircle2 className="w-3.5 h-3.5" />
                               <span>Acertou (+1)</span>
                             </span>
                           )}
                           {acertou === false && (
-                            <span className="inline-flex items-center gap-1 text-xs font-bold text-rose-600">
+                            <span className="inline-flex items-center gap-1 text-xs font-bold text-err">
                               <XCircle className="w-3.5 h-3.5" />
                               <span>Errou (-1)</span>
                             </span>
@@ -562,6 +551,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                         </p>
                       </div>
 
+                      <PainelEstudoReverso questao={it} resposta={resp?.resposta || 'BRANCO'} autoexplicacao={false} />
                       {it.gabarito === 'E' && it.versao_correta && (
                         <div className="p-2.5 rounded-lg bg-surface border border-emerald-500/30 text-xs">
                           <span className="font-bold text-emerald-700 dark:text-emerald-400 block text-xs uppercase mb-1">
@@ -580,7 +570,7 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
                           onClick={() => setItemSocraticoAtivo(itemParaSocratico)}
                           className="w-full py-2 px-3 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-950 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-2 cursor-pointer transition-colors"
                         >
-                          <Scale className="w-4 h-4 text-amber-700 dark:text-amber-400" />
+                          <Scale className="w-4 h-4 text-accent dark:text-amber-400" />
                           <span>Recorrer / Discutir este erro com a Banca (IA)</span>
                         </button>
                       )}
@@ -618,6 +608,6 @@ export const SimuladoAdaptativoModal: React.FC<SimuladoAdaptativoModalProps> = (
         isOpen={Boolean(itemSocraticoAtivo)}
         onClose={() => setItemSocraticoAtivo(null)}
       />
-    </div>
+    </AccessibleModal>
   );
 };

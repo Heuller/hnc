@@ -1,3 +1,4 @@
+import { PainelEstudoReverso } from './PainelEstudoReverso';
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
@@ -6,7 +7,6 @@ import {
   HelpCircle,
   RotateCcw,
   BookOpen,
-  AlertTriangle,
 } from 'lucide-react';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useNavigationStore } from '../../store/useNavigationStore';
@@ -333,43 +333,10 @@ export const ItemCE: React.FC<ItemCEProps> = ({
               </div>
             </div>
 
-            {/* Linha B: Fundamentação Dogmática (Por que é Certo/Errado) */}
-            <div className="space-y-1">
-              <h4 className="text-xs font-bold font-sans text-ink uppercase tracking-wide">
-                Por que é {item.gabarito === 'C' ? 'CERTO' : 'ERRADO'}:
-              </h4>
-              <p className="font-serif text-xs sm:text-sm leading-relaxed text-ink m-0">
-                {item.justificativa}
-              </p>
-            </div>
-
-            {/* Linha C: Como ficaria correto (Obrigatório para itens ERRADOS) */}
-            {item.gabarito === 'E' && (item.versaoCorreta || item.versao_correta) && (
-              <div className="p-3 rounded-lg bg-surface border border-border space-y-1">
-                <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400">
-                  <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>Como ficaria correto:</span>
-                </div>
-                <p className="font-serif text-xs leading-relaxed text-ink m-0 italic">
-                  "{item.versaoCorreta || item.versao_correta}"
-                </p>
-              </div>
-            )}
-
-            {/* Linha D: Armadilha da Banca (se houver) */}
-            {(item.armadilha || item.armadilhaBanca) && (
-              <div className="flex items-start gap-2 text-xs text-amber-800 dark:text-amber-200 bg-amber-500/10 p-2.5 rounded-lg border border-amber-500/25">
-                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-amber-500" />
-                <div className="space-y-0.5">
-                  <span className="font-bold text-xs uppercase tracking-wide">
-                    Técnica / Armadilha Identificada:
-                  </span>
-                  <p className="font-sans text-xs leading-relaxed m-0">
-                    {item.armadilha || item.armadilhaBanca}
-                  </p>
-                </div>
-              </div>
-            )}
+            <PainelEstudoReverso questao={{ id: item.id, item: item.enunciado, gabarito: item.gabarito,
+              justificativa: item.justificativa, versao_correta: item.versaoCorreta || item.versao_correta,
+              armadilhaBanca: item.armadilha || item.armadilhaBanca, submoduloId: item.submoduloId }}
+              resposta={respostaDada} autoexplicacao={false} />
 
             {/* Linha E: Fonte e Ação Rever na Teoria */}
             <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-xs font-sans text-ink-2">

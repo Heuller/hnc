@@ -1,3 +1,4 @@
+import { avaliarFormatoRevisao, descreverRespostaFormato, resolverFormatoRevisao, type RespostaFormato } from '../../domain/avaliarFormatoRevisao';
 import React, { useState, useEffect, useRef } from 'react';
 import type { Concept, ConfidenceLevel } from '../../domain/concepts/types';
 import type { ExerciseFormatId } from '../../config/reviewConfig';
@@ -32,7 +33,7 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
   avancarLabel,
 }) => {
   const [prevConceitoId, setPrevConceitoId] = useState(conceito.id);
-  const [resposta, setResposta] = useState<string | null>(null);
+  const [resposta, setResposta] = useState<RespostaFormato | null>(null);
   const [confianca, setConfianca] = useState<ConfidenceLevel | null>(null);
   const [acertou, setAcertou] = useState<boolean | null>(null);
 
@@ -51,13 +52,13 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
     tempoInicioRef.current = Date.now();
   }, [conceito.id]);
 
-  const handleResponder = (resp: string) => {
-    const isCorreto = resp.toUpperCase() === conceito.gabaritoCanonic.toUpperCase();
+  const formatoEfetivo = resolverFormatoRevisao(conceito, formato);
+  const handleResponder = (resp: RespostaFormato) => {
+    if (resposta !== null) return;
+    const isCorreto = avaliarFormatoRevisao(conceito, formatoEfetivo, resp);
     setResposta(resp);
     setAcertou(isCorreto);
-    if (!confianca) {
-      setConfianca(isCorreto ? 'certeza' : 'duvida');
-    }
+
   };
 
   const handleSelecionarConfianca = (c: ConfidenceLevel) => {
@@ -68,24 +69,24 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
     if (!resposta || acertou === null) return;
     const tempoSegundos = Math.max(1, Math.round((Date.now() - tempoInicioRef.current) / 1000));
     onConcluirItem({
-      respostaDada: resposta,
+      respostaDada: typeof resposta === 'string' ? resposta : JSON.stringify(resposta),
       acertou,
-      confianca: confianca || 'certeza',
+      confianca: confianca || undefined,
       tempoSegundos,
     });
   };
 
-  const metaFormato = REVIEW_CONFIG.exerciseFormats[formato];
+  const metaFormato = REVIEW_CONFIG.exerciseFormats[formatoEfetivo];
 
   const renderFormato = () => {
     const props = {
       conceito,
       respondido: resposta !== null,
-      respostaSelecionada: resposta || undefined,
+      respostaSelecionada: typeof resposta === 'string' ? resposta : undefined,
       onResponder: handleResponder,
     };
 
-    switch (formato) {
+    switch (formatoEfetivo) {
       case 'f1_ce_simples':
         return <F1CeSimples {...props} />;
       case 'f2_com_justificativa':
@@ -122,26 +123,19 @@ export const ExerciseRenderer: React.FC<ExerciseRendererProps> = ({
         </div>
       </div>
 
+      {resposta === null && <div className="p-3 rounded-xl border border-border space-y-2">
+        <p className="text-xs text-ink-2">Antes de responder: qual é a sua confiança? (opcional)</p>
+        <ConfidenceSelector valorSelecionado={confianca || undefined} onSelecionar={handleSelecionarConfianca} />
+      </div>}
       {/* Renderização do Formato Cognitivo Específico */}
-      {renderFormato()}
+      <div key={`${conceito.id}:${formatoEfetivo}`}>{renderFormato()}</div>
 
       {/* Seção de Autoverificação de Confiança e Feedback (Após Julgamento - W1) */}
       {resposta !== null && (
         <div className="animate-fade-in space-y-4">
-          <div className="p-3.5 rounded-xl bg-surface border border-accent/30 space-y-2">
-            <div className="text-xs font-sans font-semibold text-accent flex items-center justify-between">
-              <span>Aferição Metacognitiva de Confiança</span>
-              <span className="text-xs text-ink-3">Calibre seu nível de certeza no julgamento</span>
-            </div>
-            <ConfidenceSelector
-              valorSelecionado={confianca || undefined}
-              onSelecionar={handleSelecionarConfianca}
-            />
-          </div>
-
           <ExerciseFeedback
             conceito={conceito}
-            respostaDada={resposta}
+            respostaDada={descreverRespostaFormato(resposta)}
             acertou={acertou ?? false}
             onAvancar={handleAvancar}
             avancarLabel={avancarLabel || (indiceAtual === totalItens ? 'Finalizar Revisão' : 'Próximo Item')}

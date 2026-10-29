@@ -235,7 +235,7 @@ export function calcularCorteCebraspe(
     if (diff < 0) {
       atingiuCorte = false;
     }
-    margem = Math.min(margem, diff);
+    margem = notaMinimaLiquida === undefined ? diff : Math.min(margem, diff);
   }
 
   return { atingiuCorte, margem };

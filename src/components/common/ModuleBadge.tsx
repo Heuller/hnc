@@ -22,7 +22,7 @@ export const ModuleBadge: React.FC<ModuleBadgeProps> = ({
 
   return (
     <span
-      className={`inline-flex items-center justify-center font-mono tracking-normal shadow-xs select-none transition-colors ${theme.bgSolidClass} ${theme.textSolidClass} ${sizeClasses} ${className}`}
+      className={`inline-flex shrink-0 whitespace-nowrap items-center justify-center font-mono tracking-normal shadow-xs select-none transition-colors ${theme.bgSolidClass} ${theme.textSolidClass} ${sizeClasses} ${className}`}
       style={{
         backgroundColor: theme.solidVar,
         color: theme.textVar,

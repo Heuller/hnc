@@ -53,11 +53,11 @@ export const ExercicioX3Correcao: React.FC<ExercicioProps<ExercicioX3>> = ({
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-rose-500/10 text-rose-600 dark:text-rose-400">
+          <div className="p-1.5 rounded-lg bg-rose-500/10 text-err dark:text-rose-400">
             <PenTool className="w-4 h-4" />
           </div>
           <div>
-            <span className="text-xs font-bold font-sans uppercase tracking-wider text-rose-600 dark:text-rose-400">
+            <span className="text-xs font-bold font-sans uppercase tracking-wider text-err dark:text-rose-400">
               Corrija a Assertiva Incorreta
             </span>
             <span className="block text-xs text-ink-2">

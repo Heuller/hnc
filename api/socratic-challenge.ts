@@ -255,7 +255,7 @@ export default async function handler(req: any, res: any) {
 
     if (acao === 'iniciar') {
       const prompt = `
-Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
+Você é um tutor independente que analisa itens no estilo CEBRASPE de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
 Seu estilo é rigoroso, acadêmico, formal, polido e profundamente fundamentado na literatura clássica da área (Paul Otlet, Suzanne Briet, Harold Borko, Jesse Shera, S. R. Ranganathan, Waldomiro Vergueiro, F. W. Lancaster, Eliane Mey, Murilo Bastos da Cunha, Cordélia Cavalcanti, Michael Buckland, além da legislação federal como Lei 12.527/2011 LAI e normas da ABNT).
 
 Um candidato errou um item do concurso e solicita o Parecer Técnico e Desafio Socrático da Banca.
@@ -307,7 +307,7 @@ Retorne EXCLUSIVAMENTE um objeto JSON válido.
     } else {
       // Réplica socrática
       const prompt = `
-Você é o EXAMINADOR TITULAR DA BANCA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso da Câmara dos Deputados.
+Você é um tutor independente que analisa itens no estilo CEBRASPE de Biblioteconomia para o Concurso da Câmara dos Deputados.
 O candidato respondeu ao seu desafio socrático anterior com o seguinte argumento de recurso:
 "${argumentoCandidato || ''}"
 

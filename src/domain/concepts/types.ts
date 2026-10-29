@@ -46,7 +46,7 @@ export interface ConceptReviewLogEntry {
   formatoUsado: ExerciseFormatId;
   respostaDada: 'C' | 'E' | string;
   acertou: boolean;
-  confianca: ConfidenceLevel;
+  confianca?: ConfidenceLevel;
   tempoRespostaSegundos: number;
   caixaAnterior: number;
   caixaNova: number;

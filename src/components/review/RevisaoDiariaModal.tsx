@@ -1,3 +1,4 @@
+import { AccessibleModal } from '../common/AccessibleModal';
 import React, { useState, useMemo } from 'react';
 import { motion } from 'motion/react';
 import {
@@ -50,7 +51,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
     });
 
     // Registra na Fonte Única de Respostas (ItemAttempts)
-    await adicionarItemAttempt({
+    if (submissao.respostaDada === 'C' || submissao.respostaDada === 'E') await adicionarItemAttempt({
       itemId: itemAtual.conceito.id,
       submoduloId: itemAtual.conceito.submoduloId,
       moduloId: itemAtual.conceito.moduloId,
@@ -87,11 +88,8 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
   const taxaAcerto = totalItens > 0 ? Math.round((totalAcertos / totalItens) * 100) : 0;
 
   return (
-    <div
+    <AccessibleModal open={isOpen} onClose={onClose} title="Revisão do dia"
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink/60 backdrop-blur-xs overflow-y-auto"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="modal-revisao-diaria-title"
     >
       <motion.div
         initial={{ opacity: 0, scale: 0.96 }}
@@ -144,7 +142,7 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
               <IllustrationVazio width={120} height={86} className="mx-auto text-ink-2 opacity-70" aria-hidden="true" />
               <div className="space-y-1">
                 <h3 className="text-lg font-serif font-bold text-ink">
-                  Retenção em Dia!
+                  Nenhuma revisão vencida
                 </h3>
                 <p className="text-xs sm:text-sm text-ink-2 max-w-md mx-auto">
                   Você não possui nenhum conceito com revisão vencida para a data de hoje. Continue avançando na leitura da teoria ou realize um simulado.
@@ -230,6 +228,6 @@ export const RevisaoDiariaModal: React.FC<RevisaoDiariaModalProps> = ({
           )}
         </div>
       </motion.div>
-    </div>
+    </AccessibleModal>
   );
 };

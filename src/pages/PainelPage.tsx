@@ -1,3 +1,4 @@
+import { Disclosure } from '../components/common/Disclosure';
 import React, { useEffect, useMemo } from 'react';
 import { useProgressStore } from '../store/useProgressStore';
 import { useConceptStore } from '../store/useConceptStore';
@@ -108,7 +109,7 @@ export const PainelPage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-7 animate-fadeIn max-w-5xl mx-auto select-none">
+    <div className="space-y-7 animate-fadeIn max-w-5xl mx-auto">
       {/* CABEÇALHO DO PAINEL "HOJE" (Regras C5, C6 e U.3) */}
       <section className="border-b border-border pb-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="space-y-1.5 max-w-2xl">
@@ -123,7 +124,7 @@ export const PainelPage: React.FC = () => {
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-serif font-bold text-ink tracking-normal">
-            Hoje · Sessão de Estudos
+            Meu estudo de hoje
           </h1>
 
           <p className="text-xs sm:text-sm text-ink-2 font-serif leading-relaxed">
@@ -136,11 +137,6 @@ export const PainelPage: React.FC = () => {
         </div>
       </section>
 
-      {/* SEÇÃO DO CRONOGRAMA OFICIAL "HOJE" (Regra C6) */}
-      <section aria-labelledby="cronograma-hoje-title">
-        <CardHojeCronograma />
-      </section>
-
       {/* BLOCO HERÓI: HOJE E CONTINUAR DE ONDE PAROU (U6.5) */}
       <section aria-labelledby="heroi-continuar-title" data-testid="cartao-hoje">
         <div className="bg-surface rounded-2xl border border-border p-6 shadow-editorial-sm relative overflow-hidden">
@@ -151,7 +147,7 @@ export const PainelPage: React.FC = () => {
 
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="space-y-3 max-w-xl">
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <ModuleBadge moduleId={targetTheme.id} size="sm" />
                 <span className="text-xs font-sans font-semibold uppercase tracking-wider text-ink-2">
                   Hoje · Próxima Ação Recomendada
@@ -272,10 +268,14 @@ export const PainelPage: React.FC = () => {
         </div>
       </section>
       
+      <Disclosure id="cronograma" title="Planejar os próximos dias">
+        <CardHojeCronograma />
+      </Disclosure>
+
       {/* BLOCO DE PROJEÇÃO TEMPORAL E MARCOS DE DISCIPLINA (Marco R6) */}
-      <section aria-labelledby="projecao-temporal-title">
+      <Disclosure id="projecao-painel" title="Ver estimativas e marcos do planejamento">
         <ProjecaoTemporalCard />
-      </section>
+      </Disclosure>
 
       {/* GRID DE CARDS MENORES: REVISÃO DO DIA, CONSTÂNCIA E RESUMO DA JORNADA (Regra U.3) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -300,7 +300,7 @@ export const PainelPage: React.FC = () => {
               <div className="py-2 text-center">
                 <IllustrationVazio width={70} height={45} className="mx-auto text-ink-2 opacity-60" ariaLabel="Sem revisões pendentes hoje" />
                 <p className="text-xs text-ink-2 font-serif mt-1">
-                  Retenção em dia. Nenhum cartão venceu hoje.
+                  Nenhum cartão venceu hoje. Isso não mede o que você consegue recuperar sem consulta.
                 </p>
               </div>
             ) : (

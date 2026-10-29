@@ -1,3 +1,4 @@
+import { AccessibleModal } from './AccessibleModal';
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Keyboard, X } from 'lucide-react';
@@ -49,7 +50,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <AccessibleModal open={isOpen} onClose={onClose} title="Atalhos de teclado" className="fixed inset-0 z-50 flex items-center justify-center p-4">
         {/* Backdrop */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -113,7 +114,7 @@ export const KeyboardShortcutsModal: React.FC<KeyboardShortcutsModalProps> = ({
             Pressione <Kbd>ESC</Kbd> para fechar este guia
           </div>
         </motion.div>
-      </div>
+      </AccessibleModal>
     </AnimatePresence>
   );
 };

@@ -89,7 +89,7 @@ export const ReferenceMenuDropdown: React.FC = () => {
                   <span className="truncate">{rota.rotulo}</span>
                 </div>
                 {rota.tagDireita && (
-                  <span className="text-xs font-mono text-ink-2/80 bg-surface px-1.5 py-0.5 rounded border border-border shrink-0 ml-1">
+                  <span className="text-xs font-mono text-ink-2 bg-surface px-1.5 py-0.5 rounded border border-border shrink-0 ml-1">
                     {rota.tagDireita}
                   </span>
                 )}

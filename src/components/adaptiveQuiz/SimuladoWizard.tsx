@@ -122,7 +122,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                         className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                           v.nivelGravidade === 'CRITICA'
                             ? 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30'
-                            : 'bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30'
+                            : 'bg-amber-500/15 text-accent dark:text-amber-300 border border-amber-500/30'
                         }`}
                       >
                         {v.totalErros} erro{v.totalErros !== 1 ? 's' : ''} ({v.taxaErro}%)
@@ -260,7 +260,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
       {etapaAtual === 3 && (
         <div className="space-y-4 animate-in fade-in duration-200">
           <span className="text-xs font-sans font-bold text-ink block">
-            Como deseja receber as respostas da banca?
+            Quando deseja conferir as respostas?
           </span>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -306,7 +306,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
                 </span>
               </div>
               <p className="text-xs font-serif text-ink-2 leading-relaxed m-0">
-                A cada assertiva respondida, a plataforma valida imediatamente o acerto ou erro, revelando a armadilha do Cebraspe e o dispositivo regimental violado.
+                A cada assertiva respondida, a plataforma valida imediatamente o acerto ou erro, mostrando a fundamentação cadastrada e orientações para conferir seu raciocínio.
               </p>
             </button>
           </div>
@@ -320,7 +320,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
         <div className="space-y-4 animate-in fade-in duration-200">
           <div className="card-editorial p-5 bg-surface border border-border shadow-xs space-y-3">
             <div className="flex items-center gap-2 text-ink border-b border-border/80 pb-2.5">
-              <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+              <CheckCircle2 className="w-4 h-4 text-ok dark:text-emerald-400" />
               <h3 className="text-sm font-sans font-bold text-ink m-0">
                 Resumo da Configuração do Simulado
               </h3>
@@ -369,7 +369,7 @@ export const SimuladoWizard: React.FC<SimuladoWizardProps> = ({
               className="w-full py-3.5 px-4 rounded-xl bg-accent hover:bg-accent/90 text-accent-text font-sans font-bold text-xs sm:text-sm flex items-center justify-center gap-2 cursor-pointer transition-colors shadow-editorial-sm disabled:opacity-50"
             >
               <Sparkles className="w-4 h-4" />
-              <span>{gerando ? 'Gerando Itens Inéditos com a Banca IA...' : 'Iniciar Simulado Adaptativo'}</span>
+              <span>{gerando ? 'Selecionando itens do banco...' : 'Iniciar Simulado Adaptativo'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

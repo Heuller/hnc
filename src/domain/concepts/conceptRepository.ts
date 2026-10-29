@@ -33,23 +33,15 @@ function gerarVariantesParaConceito(
     ],
   };
 
-  // F3: Identificação de Erro (para itens 'E' ou itens com pegadinhas)
-  if (cp.gabarito === 'E') {
-    variantes.f3_identificacao_erro = {
-      formatId: 'f3_identificacao_erro',
-      prompt: `Na assertiva a seguir, identifique qual trecho torna o item ERRADO:\n"${cp.item}"`,
-      respostaCorreta: cp.justificativa,
-    };
-  }
-
   // F4: Preenchimento de Lacunas (Cloze)
   // Cria uma lacuna a partir de palavras-chave da justificativa ou assertiva
-  const palavras = cp.item.split(' ');
+  const textoVerdadeiro = cp.gabarito === 'C' ? cp.item : cp.versao_correta;
+  const palavras = (textoVerdadeiro || '').split(' ');
   const indiceLacuna = Math.min(palavras.length - 2, Math.max(2, Math.floor(palavras.length / 2)));
   const palavraOcultada = palavras[indiceLacuna] ? palavras[indiceLacuna].replace(/[.,;:()]/g, '') : 'norma';
   const textoLacuna = palavras.map((p, idx) => (idx === indiceLacuna ? '_____' : p)).join(' ');
 
-  variantes.f4_preenchimento_lacunas = {
+  if (textoVerdadeiro && palavras.length >= 5) variantes.f4_preenchimento_lacunas = {
     formatId: 'f4_preenchimento_lacunas',
     prompt: 'Preencha a lacuna para tornar a assertiva canônica verdadeira:',
     respostaCorreta: palavraOcultada,
@@ -88,21 +80,6 @@ function gerarVariantesParaConceito(
     respostaCorreta: cp.item,
   };
 
-  // F8: Inversão de Papéis
-  variantes.f8_inversao_papeis = {
-    formatId: 'f8_inversao_papeis',
-    prompt: `Qual técnica de elaboração da banca Cebraspe está refletida neste item?\n"${cp.item}"`,
-    opcoes: [
-      'Inversão de conceito ou atribuição de autor',
-      'Generalização restritiva indevida (apenas, sempre, exclusivamente)',
-      'Anacronismo normativo ou substituição de edição de código',
-      'Asserção factual direta estritamente alinhada ao padrão canônico',
-    ],
-    respostaCorreta: cp.gabarito === 'E'
-      ? 'Inversão de conceito ou atribuição de autor'
-      : 'Asserção factual direta estritamente alinhada ao padrão canônico',
-  };
-
   return variantes;
 }
 
@@ -127,21 +104,8 @@ class ConceptRepository {
         for (const cp of sub.checkpoints) {
           const conceptId = `c_${submoduloId}_${cp.id}`;
 
-          const formatosDisponiveis: ExerciseFormatId[] = [
-            'f1_ce_simples',
-            'f2_com_justificativa',
-            'f4_preenchimento_lacunas',
-            'f5_associacao',
-            'f6_caso_pratico',
-            'f7_flashcard_ativo',
-            'f8_inversao_papeis',
-          ];
-
-          if (cp.gabarito === 'E') {
-            formatosDisponiveis.push('f3_identificacao_erro');
-          }
-
           const variantes = gerarVariantesParaConceito(cp, sub, moduloId);
+          const formatosDisponiveis = Object.keys(variantes) as ExerciseFormatId[];
 
           const conceito: Concept = {
             id: conceptId,

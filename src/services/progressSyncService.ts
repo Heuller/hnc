@@ -1,3 +1,4 @@
+import { useSyncStatusStore } from '../store/useSyncStatusStore';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import type { UserProgress, SimuladoFinalizado, SessaoSimuladoState } from '../domain/schemas/progress.schema';
 
@@ -132,6 +133,7 @@ export const progressSyncService = {
   ): Promise<boolean> {
     if (!isSupabaseConfigured || !userId) return false;
 
+    const requestId = useSyncStatusStore.getState().begin(userId);
     try {
       const fullPayload: Record<string, any> = {
         user_id: userId,
@@ -170,13 +172,16 @@ export const progressSyncService = {
           .upsert(safePayload, { onConflict: 'user_id' });
 
         if (safeError) {
+          useSyncStatusStore.getState().complete(userId, requestId, false);
           console.error('[Supabase] Erro ao salvar progresso seguro na nuvem:', safeError);
           return false;
         }
       }
 
+      useSyncStatusStore.getState().complete(userId, requestId, true);
       return true;
     } catch (err) {
+      useSyncStatusStore.getState().complete(userId, requestId, false);
       console.error('[Supabase] Falha ao sincronizar progresso:', err);
       return false;
     }

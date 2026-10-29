@@ -1,51 +1,56 @@
-# Arquitetura e Engenharia de Conteúdo: Estudo Reverso (HNC)
+# Estudo reverso por questões no HNC
 
-O **Estudo Reverso** é a metodologia pedagógica central da plataforma **Heuller na Câmara (HNC)** para preparação de alta performance ao concurso de Analista Legislativo da Câmara dos Deputados (Cargo 5 — Biblioteconomia, banca Cebraspe, prova em 17/01/2027).
+O estudo reverso começa por uma tentativa e usa o erro ou a dúvida para orientar a leitura da teoria. A fundamentação e os limites científicos estão em [Pesquisa de aprendizagem e raciocínio Cebraspe](PESQUISA_APRENDIZAGEM_E_RACIOCINIO_CEBRASPE.md).
 
----
+## Ciclo implementado no treino de raciocínio
 
-## 1. O que é o Estudo Reverso?
+1. Julgar sem consultar a resposta, com opção “não sei”.
+2. Declarar confiança opcionalmente antes do feedback e tentar explicar a regra em uma frase.
+3. Conferir julgamento, trecho decisivo, fundamentação e versão contrastante.
+4. Comparar o raciocínio com três passos e a fonte técnica localizada.
+5. Aplicar a regra em outra situação, como exercício guiado após o feedback.
+6. Voltar em outro dia para nova recuperação. A agenda é política inicial testável, não intervalo ótimo universal.
 
-Diferente do método passivo tradicional (ler teoria e resolver questões apenas para aferir acertos), o Estudo Reverso inverte a dinâmica cognitiva de resolução:
-1. **Pausa de Autoexplicação:** Antes de expor a fundamentação, o candidato é convidado a responder mentalmente qual palavra ou trecho torna a assertiva Certa ou Errada (*efeito da geração e do teste*, Richland et al., 2009; Rowland, 2014).
-2. **Trecho Decisório (`gatilho`):** A plataforma destaca exatamente a expressão ou cláusula do item que determina o julgamento, ensinando o candidato a escanear a assertiva com precisão cirúrgica.
-3. **Fundamentação Técnica Substantiva (`justificativa`):** Uma explicação dogmática de 2 a 5 frases fundamentada diretamente na teoria do módulo, sem jargões ocos nem modelos genéricos.
-4. **Versão Contrastante (`versao_correta` / `versao_errada`):**
-   - Para itens **ERRADOS**, exibe a assertiva reescrita de forma a torná-la **CERTA**.
-   - Para itens **CERTOS**, exibe a modificação que a banca examinadora faria para torná-la **ERRADA**.
-   A comparação direta entre o original e a versão contrastante evidencia o núcleo normativo exigido.
-5. **Técnica da Banca (`armadilhaBanca`):** Classificação objetiva da técnica de elaboração de distratores utilizada pelo Cebraspe (`Técnica: <Nome>. <Como a assertiva opera>`), tais como inversão conceitual, restrição indevida, substituição de normas/autores ou paráfrase fidedigna.
-6. **Remissão à Teoria:** Atalho direto para o submódulo específico de teoria para aprofundamento imediato da lacuna identificada.
+O treino está em **Treinos → Estudo reverso por questões**. Usa 12 itens autorais revisados do banco existente e sessões de até seis, priorizando vencidos e novos. Os IDs e gabaritos do lote foram preservados. A dificuldade editorial precisa de calibração futura com alunos.
 
----
+## Conteúdo e manutenção
 
-## 2. Especificação dos Campos Canônicos
+- `src/content/estudoReverso/pilotoRaciocinio.ts`: objetivos, passos, fontes e aplicações do lote.
+- `src/domain/treinoReverso.ts`: elegibilidade, seleção e sugestão de revisão.
+- `src/components/estudoReverso/TreinoRaciocinioModal.tsx`: tentativa, confiança, explicação e feedback.
+- `PainelEstudoReverso`: correção comentada compartilhada com simulados.
 
-| Campo | Tipo | Obrigatoriedade | Regra de Engenharia |
-| :--- | :---: | :---: | :--- |
-| `gatilho` | `string` | **Obrigatório** | Substring exata e contígua do `item`, com no máximo 14 palavras. Identifica o ponto de virada decisório da assertiva. |
-| `justificativa` | `string` | **Obrigatório** | 220 a 700 caracteres. Inicia com `Gabarito CERTO.` ou `Gabarito ERRADO.`. Proibido uso de modelos genéricos ou ausência de fundamentação. |
-| `armadilhaBanca`| `string` | **Obrigatório** | Formato estrito: `Técnica: <Nome Curto>. <Explicação substantiva de 40+ caracteres sobre a mecânica do distrator>`. |
-| `versao_correta`| `string` | **Obrigatório (itens E)** | Assertiva original reescrita minimamente para se tornar verdadeira. |
-| `versao_errada` | `string` | **Obrigatório (itens C)** | Modificação verossímil da assertiva original para ilustrar como a banca a tornaria falsa. |
+O gatilho deve ser trecho literal do item. Justificativa e contraste precisam ser verdadeiros nas condições e na edição normativa dadas. Cumprir extensão e prefixo não certifica correção semântica. A técnica de elaboração é uma análise editorial, não instrução secreta da banca.
 
----
+## Cobertura conhecida
 
-## 3. Estado Atual de Implantação e Cobertura
+A auditoria do commit `c8c4bac` mediu 2.068 itens ativos nos 20 cadernos: 1.201 sem gatilho e 211 sem o contraste correspondente. Esses números descrevem aquela versão, não implantação completa. A revisão atual é um lote identificado de 12 itens; não estende homologação ao restante do acervo. Contagens brutas, itens elegíveis, checkpoints e inéditas devem indicar seu denominador.
 
-- **Data da Medição:** Outubro de 2026.
-- **Itens Analisados no Acervo:** 2.080 questões em 19 cadernos oficiais.
-- **Cobertura de `gatilho`:** **100,0%** (2.080 de 2.080 questões).
-- **Justificativas Fracas/Modelos:** **0** (0,0%).
-- **Armadilhas Fracas/Genéricas:** **0** (0,0%).
-- **Itens ERRADOS com `versao_correta`:** **100,0%** (1.040 de 1.040 itens).
-- **Itens CERTOS com `versao_errada`:** **100,0%** (1.040 de 1.040 itens).
+Os scripts históricos de exportação e verificação de lotes continuam em `scripts/estudoReverso`. Seu uso exige conferência editorial de fontes e julgamentos, além da validação sintática.
 
----
+## Como medir qualidade
 
-## 4. Pipeline de Manutenção
+- Julgamento anterior à ajuda, separado do exercício guiado.
+- Confiança declarada antes do resultado.
+- Recuperação tardia em sessões distintas e desempenho em reserva.
+- Validação semântica, contestações e rastreabilidade.
+- Carga, retomada e abandono, além do acerto.
 
-- `scripts/estudoReverso/comum.mjs`: Utilitários centrais de parsing, identificação de modelos e caminhos de arquivos.
-- `scripts/estudoReverso/exportarLotes.mjs`: Exportação do acervo em lotes JSON por módulo.
-- `scripts/estudoReverso/validarSaida.mjs`: Validador estrito de conformidade sintática e pedagógica.
-- `scripts/estudoReverso/aplicarLote.mjs`: Aplicação segura das saídas ao banco de questões sem tocar em gabaritos ou proveniência.
+Não converter leitura, clique de revelação ou acerto imediato em prova de domínio. Os formatos legados e as previsões existentes possuem limitações documentadas na auditoria e não são homologados por este lote.
+
+## Feedback em cada resposta dos simulados
+
+Nos simulados por módulo, cada resposta revela imediatamente a comparação entre o julgamento do aluno e o gabarito, a justificativa cadastrada, o trecho decisivo quando localizado literalmente, o contraste disponível e um roteiro para investigar a dificuldade. Acerto não é tratado como prova de domínio; branco tem orientação própria. O roteiro distingue desconhecimento da regra, interpretação das condições e possível troca na marcação, sem atribuir uma causa ao aluno automaticamente.
+
+O aluno pode voltar diretamente ao submódulo de teoria. Os 12 itens revisados também exibem regra, três passos e fonte localizada no próprio simulado. Os demais usam sua fundamentação existente; isso não representa revisão editorial integral do banco. O contraste redundante foi removido.
+
+Todos os cadernos, inclusive o Mega, iniciam em modo estudo com correção por resposta. O modo prova é uma escolha explícita antes da primeira resposta e mantém gabarito e comentários ao final. Seu relatório usa o mesmo painel pedagógico por item, sem antecipar respostas durante a prova.
+
+
+## Revisão de abrangência em 29/10/2026
+
+O protocolo foi estendido a ItemCE, exercícios X1–X10 pelo renderizador comum (e a cada item vinculado de X8), revisão F1–F8 pelo feedback comum, adaptativo, caderno de erros e treino de véspera. Radar é consulta, sem julgamento do aluno. Nos formatos sem C/E, o roteiro confere a resposta específica, sem simular pontuação de prova. Formatos F3/F8 só usam alternativas específicas cadastradas; sem elas, retorna-se a C/E.
+
+Isso estende a interface, **não homologa o conteúdo**. O censo reproduzível está em `scripts/auditarAcervo.mjs`, com status e hash por registro. As correções focais estão em `docs/relatorios/REVISAO_EDITORIAL_ITENS_2026-10-29.json`. Comentários genéricos recebem indicação de pendência; contrastes com inserção artificial de “indevidamente” não são apresentados como reescrita válida. Há pendências conceituais individuais, fontes sem localizador e necessidade de calibrar dificuldade com respostas de alunos.
+
+A referência adotada é o edital e a data de corte cadastrados no HNC, conforme orientação do responsável pela plataforma. Legislação (13.33–13.34) e jurisprudência (13.34.1) seguem regras distintas. Na data de prova cadastrada (17/01/2027), 30 dias corridos antes correspondem a 18/12/2026. Conferir retificações antes de publicação.

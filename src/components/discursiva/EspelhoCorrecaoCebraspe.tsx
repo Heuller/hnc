@@ -45,8 +45,8 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
             <span
               className={`px-2.5 py-0.5 rounded-full text-xs font-mono font-bold border ${
                 isHabilitado
-                  ? 'bg-emerald-500/10 text-emerald-600 border-emerald-500/20'
-                  : 'bg-rose-500/10 text-rose-600 border-rose-500/20'
+                  ? 'bg-emerald-500/10 text-ok border-emerald-500/20'
+                  : 'bg-rose-500/10 text-err border-rose-500/20'
               }`}
             >
               {isHabilitado ? 'HABILITADO (≥ 60%)' : 'ELIMINADO (< 60%)'}
@@ -68,7 +68,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
       {/* Banner de Honestidade e Transparência Pedagógica (Edital nº 1/2026, item 9.8.4.1) */}
       <div className="p-3.5 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/80 dark:border-amber-900/40 text-xs text-amber-900 dark:text-amber-200 flex items-start gap-2.5">
-        <Sparkles className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+        <Sparkles className="w-4 h-4 text-accent dark:text-amber-400 shrink-0 mt-0.5" />
         <div className="space-y-0.5 leading-relaxed">
           <span className="font-bold font-sans">Estimativa Pedagógica de IA:</span>{' '}
           <span className="font-serif">
@@ -118,7 +118,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
             <span className="text-2xl sm:text-3xl font-black text-rose-900 dark:text-rose-100 font-serif">
               -{avaliacao.descontoGramatical.toFixed(2)}
             </span>
-            <span className="text-xs text-rose-600 dark:text-rose-400 font-mono">
+            <span className="text-xs text-err dark:text-rose-400 font-mono">
               ({avaliacao.numErrosGramaticais} erros)
             </span>
           </div>
@@ -233,7 +233,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
       {/* Erros Gramaticais e Morfossintáticos */}
       <div className="space-y-3">
         <h3 className="text-xs font-mono font-bold uppercase tracking-wider text-rose-700 dark:text-rose-400 flex items-center gap-1.5">
-          <AlertTriangle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+          <AlertTriangle className="w-4 h-4 text-err dark:text-rose-400" />
           <span>
             Desvios de Norma Culta e Língua Portuguesa ({avaliacao.errosGramaticais.length} apontamentos)
           </span>
@@ -241,7 +241,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
 
         {avaliacao.errosGramaticais.length === 0 ? (
           <div className="p-4 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/20 border border-emerald-200/80 dark:border-emerald-900/40 text-xs text-emerald-800 dark:text-emerald-300 flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+            <CheckCircle2 className="w-4 h-4 text-ok shrink-0" />
             <span>Excelente! Nenhum erro gramatical identificado na redação examinada.</span>
           </div>
         ) : (
@@ -277,7 +277,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         {/* Pontos Fortes */}
         <div className="p-4 rounded-xl bg-emerald-50/40 dark:bg-emerald-950/10 border border-emerald-200/70 dark:border-emerald-900/30 space-y-2">
           <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+            <CheckCircle2 className="w-3.5 h-3.5 text-ok" />
             <span>Pontos Fortes Mapeados</span>
           </h4>
           <ul className="space-y-1.5 text-xs text-ink-2 font-serif list-disc list-inside">
@@ -292,7 +292,7 @@ export const EspelhoCorrecaoCebraspe: React.FC<EspelhoCorrecaoCebraspeProps> = (
         {/* Lacunas de Conteúdo / Autores Canônicos */}
         <div className="p-4 rounded-xl bg-amber-50/40 dark:bg-amber-950/10 border border-amber-200/70 dark:border-amber-900/30 space-y-2">
           <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 flex items-center gap-1.5">
-            <BookOpen className="w-3.5 h-3.5 text-amber-600" />
+            <BookOpen className="w-3.5 h-3.5 text-accent" />
             <span>Lacunas de Citação & Normas</span>
           </h4>
           <ul className="space-y-1.5 text-xs text-ink-2 font-serif list-disc list-inside">

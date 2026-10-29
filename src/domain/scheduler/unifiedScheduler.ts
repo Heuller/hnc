@@ -100,13 +100,13 @@ export interface ResultadoProcessamentoRevisao {
  * 2. Roediger & Karpicke (2006): Prática de recuperação ativa (efeito do teste).
  * 3. Ativação Precoce (T7.1): Submódulos novos e de alta densidade técnica (SQL, regex, DAMA, BIBFRAME)
  *    recebem revisão extra de ativação em 2 dias úteis após a 1ª revisão.
- * 4. Aceleração Pashler (T7.1): Acerto >= 85% em duas revisões consecutivas dobra o intervalo.
+ * 4. Heurística de aceleração do HNC: duas recuperações com certeza em dias distintos, na data devida.
  * 5. Retrocesso Dinâmico (T7.1): Queda abaixo de 70% retrocede ao intervalo anterior para reconsolidação.
  */
 export function processarRevisaoConceito(
   estadoAtual: ConceptState,
   acertou: boolean,
-  confianca: ConfidenceLevel,
+  confianca: ConfidenceLevel | undefined,
   formatoUsado: ExerciseFormatId,
   respostaDada: string,
   tempoSegundos: number,
@@ -124,7 +124,7 @@ export function processarRevisaoConceito(
   let mensagem = '';
 
   const totalAparicoes = estadoAtual.totalAparicoes + 1;
-  let totalAcertos = estadoAtual.totalAcertos;
+  const totalAcertos = estadoAtual.totalAcertos + (acertou ? 1 : 0);
   let totalErros = estadoAtual.totalErros;
   let totalChutes = estadoAtual.totalChutes;
 
@@ -153,16 +153,14 @@ export function processarRevisaoConceito(
       : !acertou
       ? 'A banca Cebraspe anula 1 acerto por erro. Conceito retornado à Caixa 1 para re-consolidação ativa.'
       : 'Julgamento classificado como "chute". Para consolidação duradoura, o item foi agendado para o próximo dia útil.';
-  } else if (confianca === 'duvida') {
+  } else if (confianca === 'duvida' || confianca === undefined) {
     // Regra 2: Acertou com Dúvida -> Consolidação parcial.
-    totalAcertos++;
     novaCaixa = caixaAntiga;
     diasIntervalo = Math.max(1, Math.floor(REVIEW_CONFIG.intervalsDaysByBox[caixaAntiga] / 2));
     novoDominio = 'em_aprendizado';
-    mensagem = 'Acerto com dúvida factual. Intervalo curto mantido para fixar a justificativa sem suposições.';
+    mensagem = confianca === undefined ? 'Confiança não informada. Intervalo conservador mantido, sem registrar certeza.' : 'Acerto com dúvida factual. Intervalo curto mantido para fixar a justificativa sem suposições.';
   } else {
     // Regra 3: Acertou com Certeza -> Consolidação plena
-    totalAcertos++;
     if (isVencido) {
       novaCaixa = Math.min(5, (caixaAntiga + 1)) as 1 | 2 | 3 | 4 | 5;
       avancouCaixa = novaCaixa > caixaAntiga;
@@ -180,12 +178,13 @@ export function processarRevisaoConceito(
       diasIntervalo = REVIEW_CONFIG.dynamicIntervalRules.diasAtivacaoConteudoNovo; // 2 dias úteis
       mensagem += ' (Revisão extra de ativação agendada para 2 dias úteis: conteúdo novo de alta densidade técnica).';
     } else {
-      // Regra T7.1: Aceleração por desempenho sustentado (Pashler): se acertou com certeza em 2 revisões seguidas, dobra o intervalo
+      // Regra T7.1: Heurística por desempenho sustentado: se acertou com certeza em 2 revisões seguidas, dobra o intervalo
       const ultimosLogs = estadoAtual.historico || [];
-      const logAnteriorAcertou = ultimosLogs.length > 0 && ultimosLogs[0].acertou;
+      const anterior = ultimosLogs[0];
+      const logAnteriorAcertou = anterior?.acertou && anterior.confianca === 'certeza' && anterior.dataIso < dataRef && isVencido;
       if (logAnteriorAcertou && acertou) {
         diasIntervalo = Math.round(diasIntervalo * REVIEW_CONFIG.dynamicIntervalRules.fatorMultiplicadorAceleracao);
-        mensagem += ' [Aceleração Pashler (por desempenho sustentado): Desempenho sustentado dobrou o intervalo de retenção].';
+        mensagem += ' [Heurística do HNC: duas recuperações com certeza em dias distintos ampliaram o intervalo].';
       }
     }
   }
@@ -426,7 +425,8 @@ export function selecionarFilaRevisaoDiaria(params: {
       const faltantes = todosSubmodulosDisponiveis.filter((s) => !submodulosJaPresentes.has(s));
       for (const subFaltante of faltantes) {
         if (submodulosJaPresentes.size >= 3) break;
-        const indexSubstituir = selecionados.length - 1;
+        const contagens = selecionados.reduce<Record<string, number>>((acc, c) => { const id = c.conceito.submoduloId; acc[id] = (acc[id] || 0) + 1; return acc; }, {});
+        const indexSubstituir = selecionados.findLastIndex(c => contagens[c.conceito.submoduloId] > 1);
         const substituto = candidatos.find(
           (c) => c.conceito.submoduloId === subFaltante && !selecionados.some((s) => s.conceito.id === c.conceito.id)
         );

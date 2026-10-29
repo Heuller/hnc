@@ -255,7 +255,7 @@ export default async function handler(req: any, res: any) {
   }
 
   const prompt = `
-Você é a BANCA EXAMINADORA CEBRASPE (CESPE/UnB) de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
+Você é um assistente educacional independente que elabora rascunhos inspirados em itens do CEBRASPE de Biblioteconomia para o Concurso de Analista Legislativo da Câmara dos Deputados.
 Sua missão é redigir exatamente ${qtdClamped} assertivas INÉDITAS de julgamento CERTO ou ERRADO (C/E) personalizadas para diagnosticar e sanar as vulnerabilidades do candidato.
 
 DIRETRIZES DA BANCA:

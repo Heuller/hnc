@@ -1,3 +1,4 @@
+import { AccessibleModal } from './AccessibleModal';
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
@@ -12,7 +13,7 @@ import {
 } from 'lucide-react';
 import { ALL_COURSE_MODULES } from '../../content/registry';
 import { EDITAL_CAMARA_2026 } from '../../domain/edital/matrizEdital2026';
-import { simuladoFundamentos100Q } from '../../content/questions/m1-fundamentos-100q';
+import { ALL_SIMULADOS_REGISTRY } from '../../content/simuladosRegistry';
 import { useNavigationStore } from '../../store/useNavigationStore';
 import { Kbd } from './Kbd';
 
@@ -24,6 +25,9 @@ interface SearchResultItem {
   trecho: string;
   submoduloId?: string;
   questaoNumero?: number;
+  questaoId?: string;
+  simuladoId?: string;
+  eixoId?: string;
 }
 
 interface GlobalSearchModalProps {
@@ -35,7 +39,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
   const [query, setQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  const { setActiveView, setSelectedSubmodule } = useNavigationStore();
+  const { setActiveView, setSelectedSubmodule, navigateToQuestao, navigateToEdital } = useNavigationStore();
 
   const handleClose = () => {
     setQuery('');
@@ -102,20 +106,19 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
       }
     }
 
-    // 2. Questões do Simulado 100Q
-    for (const q of simuladoFundamentos100Q) {
-      items.push({
-        id: `sim-${q.id}`,
-        tipo: 'simulado',
-        titulo: `Simulado 100Q · Questão ${q.numero}`,
-        subtitulo: `Submódulo ${q.submoduloId} · Gabarito: ${q.gabarito}`,
-        trecho: q.item,
-        questaoNumero: q.numero,
-        submoduloId: q.submoduloId,
-      });
+    // Indexa o acervo elegível e mantém o destino exato, sem revelar gabarito na busca.
+    const vistos = new Set<string>();
+    for (const simulado of ALL_SIMULADOS_REGISTRY) {
+      for (const q of simulado.questoes) {
+        if (vistos.has(q.id)) continue;
+        vistos.add(q.id);
+        items.push({ id: `sim-${q.id}`, tipo: 'simulado',
+          titulo: `${simulado.tituloCurto} · Questão ${q.numero}`,
+          subtitulo: `Submódulo ${q.submoduloId} · Abrir questão`, trecho: q.item,
+          questaoNumero: q.numero, questaoId: q.id, simuladoId: simulado.id });
+      }
     }
 
-    
     // 3. Edital Oficial nº 1/2026 e Tópicos
     items.push({
       id: 'edital-oficial-cd-2026',
@@ -127,7 +130,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
 
     for (const eixo of EDITAL_CAMARA_2026.eixos) {
       items.push({
-        id: `edital-eixo-${eixo.id}`,
+        id: `edital-eixo-${eixo.id}`, eixoId: eixo.id,
         tipo: 'edital',
         titulo: `${eixo.nome} (Edital 1/2026)`,
         subtitulo: eixo.bloco === 'CONHECIMENTOS_BASICOS' ? 'P1 · Conhecimentos Básicos' : 'P2 · Conhecimentos Específicos',
@@ -136,7 +139,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
 
       for (const t of eixo.topicos) {
         items.push({
-          id: `edital-topico-${t.id}`,
+          id: `edital-topico-${t.id}`, eixoId: eixo.id,
           tipo: 'edital',
           titulo: t.titulo,
           subtitulo: `Item ${t.codigoEdital} · ${eixo.nome}`,
@@ -150,15 +153,16 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
 
   // Filtragem
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const normalizar = (texto: string) => texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const q = normalizar(query.trim());
     if (!q) return [];
 
     return searchIndex
       .filter((item) => {
         return (
-          item.titulo.toLowerCase().includes(q) ||
-          item.subtitulo.toLowerCase().includes(q) ||
-          item.trecho.toLowerCase().includes(q)
+          normalizar(item.titulo).includes(q) ||
+          normalizar(item.subtitulo).includes(q) ||
+          normalizar(item.trecho).includes(q)
         );
       })
       .slice(0, 12); // Limita a 12 resultados para performance e ergonomia
@@ -166,6 +170,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
 
   // Teclas de navegação (Cima, Baixo, Enter, Escape)
   const handleKeyDown = (e: React.KeyboardEvent) => {
+    if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !results.length) return;
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       setSelectedIndex((prev) => (prev + 1 < results.length ? prev + 1 : 0));
@@ -184,8 +189,10 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
   };
 
   const handleSelectItem = (item: SearchResultItem) => {
-    if (item.tipo === 'simulado') {
-      setActiveView('simulado');
+    if (item.tipo === 'edital') {
+      navigateToEdital(item.eixoId);
+    } else if (item.tipo === 'simulado' && item.simuladoId && item.questaoId) {
+      navigateToQuestao(item.simuladoId, item.questaoId);
     } else if (item.submoduloId) {
       setSelectedSubmodule(item.submoduloId);
       setActiveView('teoria');
@@ -197,7 +204,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-3 sm:px-4">
+      <AccessibleModal open={isOpen} onClose={onClose} title="Buscar na plataforma" className="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-3 sm:px-4">
         {/* Backdrop escuro com blur */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -215,6 +222,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
           transition={{ duration: 0.15 }}
           className="relative w-full max-w-2xl bg-surface rounded-2xl border border-border shadow-2xl overflow-hidden flex flex-col max-h-[80dvh] z-10"
         >
+          <button type="button" onClick={handleClose} aria-label="Fechar busca" className="self-end m-2 min-h-[44px] min-w-[44px] rounded-lg text-ink-2 foco"><X className="w-5 h-5 mx-auto" /></button>
           {/* Campo de Entrada de Busca */}
           <div className="flex items-center gap-3 px-4 py-3.5 border-b border-border bg-surface-2/40">
             <Search className="w-5 h-5 text-accent shrink-0" />
@@ -293,7 +301,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
                       <div className="mt-0.5 shrink-0 text-accent">
                         {item.tipo === 'submodulo' && <BookOpen className="w-4 h-4" />}
                         {item.tipo === 'autor' && <User className="w-4 h-4" />}
-                        {item.tipo === 'alerta' && <AlertTriangle className="w-4 h-4 text-amber-500" />}
+                        {item.tipo === 'alerta' && <AlertTriangle className="w-4 h-4 text-accent" />}
                         {item.tipo === 'simulado' && <Award className="w-4 h-4 text-indigo-500" />}
                       </div>
 
@@ -307,7 +315,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
                           </span>
                         </div>
 
-                        <p className="text-xs text-ink-2/80 truncate font-mono m-0">
+                        <p className="text-xs text-ink-2 truncate font-mono m-0">
                           {item.subtitulo}
                         </p>
 
@@ -337,7 +345,7 @@ export const GlobalSearchModal: React.FC<GlobalSearchModalProps> = ({ isOpen, on
             <span>{results.length} resultados</span>
           </div>
         </motion.div>
-      </div>
+      </AccessibleModal>
     </AnimatePresence>
   );
 };

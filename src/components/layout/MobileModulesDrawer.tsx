@@ -1,5 +1,6 @@
+import { AccessibleModal } from '../common/AccessibleModal';
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { AnimatePresence } from 'motion/react';
 import { X, BookOpen, ChevronRight, CheckCircle2, Circle } from 'lucide-react';
 import { ALL_COURSE_MODULES } from '../../content/registry';
 import { getModuleTheme } from '../../domain/moduleThemes';
@@ -30,14 +31,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
   return (
     <AnimatePresence>
       {isOpen && (
-        <motion.div
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="mobile-modules-title"
-          initial={{ y: '100%' }}
-          animate={{ y: 0 }}
-          exit={{ y: '100%' }}
-          transition={{ type: 'spring', damping: 28, stiffness: 280 }}
+        <AccessibleModal open={isOpen} onClose={onClose} title="Grade curricular"
           className="fixed inset-0 z-50 flex flex-col bg-surface text-ink lg:hidden"
           style={{ height: '100dvh' }}
         >
@@ -165,7 +159,7 @@ export const MobileModulesDrawer: React.FC<MobileModulesDrawerProps> = ({
               );
             })}
           </div>
-        </motion.div>
+        </AccessibleModal>
       )}
     </AnimatePresence>
   );

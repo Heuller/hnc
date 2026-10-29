@@ -1,5 +1,6 @@
+import { AccessibleModal } from '../common/AccessibleModal';
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { AnimatePresence } from 'motion/react';
 import { X, CheckCircle2, ShieldCheck, DoorOpen, RotateCcw, Compass } from 'lucide-react';
 import { Button } from '../common/Button';
 import { IllustrationPortal } from '../illustrations/ContextualIllustrations';
@@ -22,17 +23,10 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
 
   return (
     <AnimatePresence>
-      <div
+      <AccessibleModal open={isOpen} onClose={onClose} title="Como funciona a Jornada"
         className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink/60 backdrop-blur-xs overflow-y-auto"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="jornada-modal-title"
       >
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96, y: 8 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.96, y: 8 }}
-          transition={{ duration: 0.2, ease: 'easeOut' }}
+        <div
           className="w-full max-w-xl bg-surface border border-border rounded-2xl shadow-editorial-lg overflow-hidden my-auto"
         >
           {/* Header */}
@@ -61,7 +55,7 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
           </div>
 
           {/* Content */}
-          <div className="p-5 sm:p-6 space-y-4 max-h-[70dvh] overflow-y-auto text-sm text-ink-2 scrollbar-thin">
+          <div tabIndex={0} aria-label="Orientações da jornada" className="p-5 sm:p-6 space-y-4 max-h-[70dvh] overflow-y-auto focus-visible:outline-2 text-sm text-ink-2 scrollbar-thin">
             {/* Vinheta Editorial da Jornada */}
             <div className="flex flex-col items-center justify-center py-2 text-accent border-b border-border/60 pb-4">
               <IllustrationPortal width={140} height={90} ariaLabel="Portal de Verificação da Jornada" />
@@ -72,7 +66,7 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
 
             {/* Regra 1 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
-              <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5">
+              <div className="p-1.5 rounded-lg bg-emerald-500/10 text-ok dark:text-emerald-400 shrink-0 mt-0.5">
                 <CheckCircle2 className="w-4 h-4" />
               </div>
               <div className="space-y-1">
@@ -117,7 +111,7 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
 
             {/* Regra 4 */}
             <div className="flex items-start gap-3 p-3.5 rounded-xl bg-surface-2/30 border border-border/60">
-              <div className="p-1.5 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5">
+              <div className="p-1.5 rounded-lg bg-amber-500/10 text-accent dark:text-amber-400 shrink-0 mt-0.5">
                 <RotateCcw className="w-4 h-4" />
               </div>
               <div className="space-y-1">
@@ -157,8 +151,8 @@ export const ComoFuncionaJornadaModal: React.FC<ComoFuncionaJornadaModalProps> =
               Entendi as Regras da Jornada
             </Button>
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </AccessibleModal>
     </AnimatePresence>
   );
 };

@@ -48,21 +48,21 @@ describe('Modo Socrático no Caderno de Erros (Discuta com a Banca)', () => {
     armadilhaBanca: 'Tratar desbastamento como sinônimo estrito de descarte físico.',
   };
 
-  it('deve identificar corretamente a autoridade canônica de Suzanne Briet no parecer offline', () => {
+  it('deve preservar a justificativa cadastrada sem inventar citação de Briet', () => {
     const parecer = gerarParecerOffline(mockItemBriet);
 
-    expect(parecer.fundamentacao.autor).toContain('Suzanne Briet');
-    expect(parecer.fundamentacao.obraOuNorma).toContain("Qu'est-ce que la documentation?");
+    expect(parecer.fundamentacao.autor).toBe('HNC — comentário cadastrado');
+    expect(parecer.fundamentacao.citacao).toBe(mockItemBriet.justificativa);
     expect(parecer.pontoCegoIdentificado).toContain('Confundir o ser natural');
     expect(parecer.perguntaDesafio).toBeDefined();
     expect(parecer.sugestaoBaralho).toBeDefined();
   });
 
-  it('deve identificar corretamente Waldomiro Vergueiro para itens de coleções', () => {
+  it('deve distinguir comentário cadastrado de transcrição de Vergueiro', () => {
     const parecer = gerarParecerOffline(mockItemVergueiro);
 
-    expect(parecer.fundamentacao.autor).toContain('Waldomiro Vergueiro');
-    expect(parecer.fundamentacao.obraOuNorma).toContain('Desenvolvimento de Coleções');
+    expect(parecer.fundamentacao.autor).toBe('HNC — comentário cadastrado');
+    expect(parecer.fundamentacao.citacao).toBe(mockItemVergueiro.justificativa);
     expect(parecer.tesePrincipal).toContain('ERRADO');
   });
 
@@ -80,7 +80,7 @@ describe('Modo Socrático no Caderno de Erros (Discuta com a Banca)', () => {
     expect(sessoesSalvas['cp-1-1-1']).toBeDefined();
   });
 
-  it('deve processar réplica do candidato e gerar despacho fundamentado da banca', async () => {
+  it('deve registrar réplica offline sem indeferir automaticamente o recurso', async () => {
     const sessaoInicial = await iniciarSessaoSocratica(mockItemVergueiro);
 
     const sessaoAtualizada = await enviarArgumentoBanca(
@@ -91,7 +91,8 @@ describe('Modo Socrático no Caderno de Erros (Discuta com a Banca)', () => {
     expect(sessaoAtualizada.mensagens.length).toBe(3); // [banca inicial, recurso candidato, réplica banca]
     expect(sessaoAtualizada.mensagens[1].remetente).toBe('candidato');
     expect(sessaoAtualizada.mensagens[2].remetente).toBe('banca');
-    expect(sessaoAtualizada.mensagens[2].conteudo).toContain('Banca');
+    expect(sessaoAtualizada.mensagens[2].conteudo).toContain('contestação não julgada');
+    expect(sessaoAtualizada.mensagens[2].conteudo).not.toContain('NÃO PROSPERA');
   });
 
   it('deve permitir marcar uma lacuna como superada e persistir o status', async () => {

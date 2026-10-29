@@ -149,8 +149,8 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
           className="p-4 sm:p-5 rounded-2xl bg-amber-500/10 border-2 border-amber-500/40 text-amber-950 dark:text-amber-100 shadow-editorial-sm space-y-2 animate-fadeIn"
         >
           <div className="flex items-start justify-between gap-3">
-            <div className="flex items-center gap-2 text-amber-700 dark:text-amber-300 font-bold text-sm">
-              <ShieldAlert className="w-5 h-5 shrink-0 text-amber-600" />
+            <div className="flex items-center gap-2 text-accent dark:text-amber-300 font-bold text-sm">
+              <ShieldAlert className="w-5 h-5 shrink-0 text-accent" />
               <span>Gatilho de Salvaguarda: Plano B Recomendado</span>
             </div>
             <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-amber-500/20 text-amber-800 dark:text-amber-200 border border-amber-500/30">
@@ -166,11 +166,11 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
             <button
               type="button"
               onClick={() => setMostrarModalPlanoB(true)}
-              className="py-1.5 px-3 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-sans text-xs font-bold transition-colors cursor-pointer shadow-xs"
+              className="py-1.5 px-3 rounded-lg bg-primary hover:opacity-95 text-white font-sans text-xs font-bold transition-colors cursor-pointer shadow-xs"
             >
               Ver Detalhes do Plano B (Comprimir M7)
             </button>
-            <span className="text-xs text-amber-800/80 dark:text-amber-300/80 font-sans">
+            <span className="text-xs text-accent dark:text-amber-300 font-sans">
               Base: M7 representa apenas 0,7% das questões Cebraspe
             </span>
           </div>
@@ -194,7 +194,7 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
                   <span>Em dia com o cronograma</span>
                 </span>
               ) : (
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-sans font-bold bg-amber-500/10 text-amber-700 dark:text-amber-300 border border-amber-500/20 flex items-center gap-1">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-sans font-bold bg-amber-500/10 text-accent dark:text-amber-300 border border-amber-500/20 flex items-center gap-1">
                   <AlertTriangle className="w-3.5 h-3.5" />
                   <span>{diagnostico.atrasoSubmodulos} {diagnostico.atrasoSubmodulos === 1 ? 'submódulo pendente' : 'submódulos pendentes'}</span>
                 </span>
@@ -411,8 +411,8 @@ export const CardHojeCronograma: React.FC<CardHojeCronogramaProps> = ({ classNam
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fadeIn">
           <div className="bg-surface border border-border rounded-2xl max-w-lg w-full p-6 shadow-2xl space-y-4">
             <div className="flex items-center justify-between pb-3 border-b border-border">
-              <div className="flex items-center gap-2 text-amber-700 dark:text-amber-300 font-bold font-serif">
-                <ShieldAlert className="w-5 h-5 text-amber-600" />
+              <div className="flex items-center gap-2 text-accent dark:text-amber-300 font-bold font-serif">
+                <ShieldAlert className="w-5 h-5 text-accent" />
                 <h3 className="text-base font-bold text-ink">Diretriz do Plano B (Seção 3.4)</h3>
               </div>
               <button

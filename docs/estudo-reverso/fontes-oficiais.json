@@ -1,0 +1,31 @@
+{
+  "consultadoEm": "2026-10-29",
+  "metodo": "Documentos primários; seleção qualitativa de exemplos, sem estimar incidência ou dificuldade psicométrica.",
+  "documentos": [
+    {
+      "arquivo": "947_CAPES_002_01.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/capes_23/arquivos/947_CAPES_002_01.PDF",
+      "sha256": "3593a67b83350dc974db6bb3306c1bde8b3252bd2ea47343a086a21cd47d4584"
+    },
+    {
+      "arquivo": "988_CPNUJE_005_01.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/988_CPNUJE_005_01.PDF",
+      "sha256": "0ffc44085a26827fd49defa42bf1ba10154a6dfb7cbac489203b85e9dbd952e2"
+    },
+    {
+      "arquivo": "CAPES_23_JUSTIFICATIVAS_DE_ALTERAES_DE_GABARITO.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/capes_23/arquivos/CAPES_23_JUSTIFICATIVAS_DE_ALTERAES_DE_GABARITO.PDF",
+      "sha256": "74ee2527d045f30043b80548b138673121c8d5bb2da81c283ea09c059a5e3b79"
+    },
+    {
+      "arquivo": "GAB_DEFINITIVO_947_CAPES_002_01.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/capes_23/arquivos/GAB_DEFINITIVO_947_CAPES_002_01.PDF",
+      "sha256": "0b18eac1fc19c9c6c71a25dddf3637bc6f88a8c23154d4365a376793e6054d11"
+    },
+    {
+      "arquivo": "GAB_DEFINITIVO_988_CPNUJE_005_01.PDF",
+      "url": "https://cdn.cebraspe.org.br/concursos/cpnuje_24/arquivos/GAB_DEFINITIVO_988_CPNUJE_005_01.PDF",
+      "sha256": "053e8c1cdbefd5daea36bb1cb73f7314284eaf9f1d63ee1a2907947d0883e107"
+    }
+  ]
+}

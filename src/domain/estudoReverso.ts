@@ -75,7 +75,7 @@ export function mensagemCalibracao(
       tom: 'alerta',
       titulo: 'Erro com certeza: o mais valioso para revisar',
       texto:
-        'Você tinha convicção e errou. Esse é o erro que mais se corrige quando a explicação é lida com atenção agora. Na prova, ele custaria um ponto líquido. Ele foi para o Caderno de Erros e vai voltar na revisão espaçada.',
+        'Você tinha convicção e errou. Compare sua regra com a fundamentação e identifique a condição que faltou. Em uma correção de +1/−1, este julgamento teria saldo de −1 ponto.',
     };
   }
   if (situacao === 'acerto' && certeza === 'chute') {
@@ -83,15 +83,15 @@ export function mensagemCalibracao(
       tom: 'atencao',
       titulo: 'Acerto no chute não é domínio',
       texto:
-        'Você acertou sem saber por quê. Leia a fundamentação como se tivesse errado: um acerto inseguro é esquecido rápido quando não é consolidado.',
+        'Você acertou com baixa confiança. Confira a regra e tente aplicá-la em outro contexto; o acerto isolado não demonstra domínio.',
     };
   }
   if (situacao === 'erro' && certeza === 'chute') {
     return {
       tom: 'neutro',
-      titulo: 'Chute errado: lacuna de conteúdo, não de atenção',
+      titulo: 'Chute errado: investigue a causa',
       texto:
-        'Na prova, deixar em branco valeria 0 em vez de −1. Use a fundamentação abaixo para fechar a lacuna e reconhecer este padrão da próxima vez.',
+        'Deixar em branco valeria 0 em vez de −1 nesta regra de pontuação. O resultado, sozinho, não distingue falta de conteúdo, interpretação e atenção; confira o raciocínio antes de concluir a causa.',
     };
   }
   if (situacao === 'branco') {

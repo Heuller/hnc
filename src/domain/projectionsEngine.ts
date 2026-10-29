@@ -300,7 +300,7 @@ export function calcularProjecaoTemporal(params: {
       dataCorteIso: dataCorteNormativoIso,
       diasAteCorte,
       isCorteAtingido,
-      descricao: 'Marco temporal de corte da legislação: a banca Cebraspe não cobra alterações normativas publicadas após 17/12/2026 (30 dias antes da prova).',
+      descricao: 'Jurisprudência dos tribunais superiores: publicação até 30 dias antes da prova (18/12/2026), conforme 13.34.1. Legislação: alterações em vigor até a publicação do edital cadastrado, de 02/10/2026 (13.33); legislação não vigente pode ser cobrada se explicitada no conteúdo (13.34). Retificações podem alterar essas regras (13.35).',
     },
     trilhaRetaFinalInfo: {
       dataInicioIso: dataInicioRetaFinalIso,

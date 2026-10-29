@@ -65,7 +65,7 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
     });
 
     // Registra na Fonte Única de Respostas
-    await adicionarItemAttempt({
+    if (submissao.respostaDada === 'C' || submissao.respostaDada === 'E') await adicionarItemAttempt({
       itemId: itemAtual.conceito.id,
       submoduloId: itemAtual.conceito.submoduloId,
       moduloId: etapa.moduloId,
@@ -186,7 +186,7 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
               <div className="max-w-2xl mx-auto space-y-6 text-center py-4 animate-fade-in">
                 {tentativaFinalizada.aprovado ? (
                   <div className="p-6 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-950 dark:text-emerald-100 space-y-3">
-                    <div className="w-14 h-14 rounded-full bg-emerald-600/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto">
+                    <div className="w-14 h-14 rounded-full bg-emerald-600/20 text-ok dark:text-emerald-400 flex items-center justify-center mx-auto">
                       <Award className="w-8 h-8" />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-sans font-bold">
@@ -198,7 +198,7 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
                   </div>
                 ) : (
                   <div className="p-6 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-3">
-                    <div className="w-14 h-14 rounded-full bg-amber-600/20 text-amber-600 dark:text-amber-400 flex items-center justify-center mx-auto">
+                    <div className="w-14 h-14 rounded-full bg-amber-600/20 text-accent dark:text-amber-400 flex items-center justify-center mx-auto">
                       <AlertTriangle className="w-8 h-8" />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-sans font-bold">
@@ -214,13 +214,13 @@ export const RevisaoCientificaModal: React.FC<RevisaoCientificaModalProps> = ({
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   <div className="p-3.5 rounded-xl bg-surface border border-border">
                     <div className="text-xs text-ink-3">Acertos</div>
-                    <div className="text-xl font-sans font-bold text-emerald-600">
+                    <div className="text-xl font-sans font-bold text-ok">
                       {tentativaFinalizada.acertos}
                     </div>
                   </div>
                   <div className="p-3.5 rounded-xl bg-surface border border-border">
                     <div className="text-xs text-ink-3">Erros</div>
-                    <div className="text-xl font-sans font-bold text-rose-600">
+                    <div className="text-xl font-sans font-bold text-err">
                       {tentativaFinalizada.erros}
                     </div>
                   </div>

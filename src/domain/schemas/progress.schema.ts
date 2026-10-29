@@ -30,6 +30,7 @@ export const SimuladoFinalizadoSchema = z.object({
 
 export const SessaoSimuladoStateSchema = z.object({
   simuladoId: z.string(),
+  modoProva: z.boolean().optional(),
   respostas: z.record(z.string(), RespostaItemSimuladoSchema).default({}),
   currentIndex: z.number().default(0),
   emAndamento: z.boolean().default(false),

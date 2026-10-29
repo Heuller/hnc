@@ -59,11 +59,11 @@ export const ExercicioX9CacaErro: React.FC<ExercicioProps<ExercicioX9>> = ({
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-border/60">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-amber-500/10 text-amber-600 dark:text-amber-400">
+          <div className="p-1.5 rounded-lg bg-amber-500/10 text-accent dark:text-amber-400">
             <Crosshair className="w-4 h-4" />
           </div>
           <div>
-            <span className="text-xs font-bold font-sans uppercase tracking-wider text-amber-600 dark:text-amber-400">
+            <span className="text-xs font-bold font-sans uppercase tracking-wider text-accent dark:text-amber-400">
               Caça ao Erro no Parágrafo
             </span>
             <span className="block text-xs text-ink-2">

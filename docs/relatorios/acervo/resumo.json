@@ -1,0 +1,27 @@
+{
+  "foraDoRegistro": 69,
+  "emConferencia": 59,
+  "exerciciosDerivadosDosCheckpoints": 225,
+  "data": "2026-10-29",
+  "limite": "Cobertura integral de inventário e triagem técnica; revisão conceitual integral PENDENTE. Ausência de sinal não equivale a aprovação editorial.",
+  "contagens": {
+    "banco": 2179,
+    "checkpoint": 225,
+    "exercicio": 0,
+    "vespera": 60,
+    "base-adaptativa-legada": 28
+  },
+  "ativosBanco": 2051,
+  "revisaoFocal": 26,
+  "homologadosNestaRodada": 0,
+  "gruposRepetidos": 255,
+  "sinais": {
+    "texto-repetido": 681,
+    "fonte-sem-localizador-especifico": 1957,
+    "contraste-artificial": 810,
+    "sem-trecho-decisivo-cadastrado": 1594,
+    "justificativa-generica": 152,
+    "gatilho-nao-literal": 4
+  },
+  "pendenciasConceituais": 2466
+}

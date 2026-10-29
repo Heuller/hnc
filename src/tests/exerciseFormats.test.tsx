@@ -11,6 +11,7 @@ import { F6CasoPratico } from '../components/review/formats/F6CasoPratico';
 import { F7FlashcardAtivo } from '../components/review/formats/F7FlashcardAtivo';
 import { F8InversaoPapeis } from '../components/review/formats/F8InversaoPapeis';
 import { ConfidenceSelector } from '../components/review/ConfidenceSelector';
+import { avaliarFormatoRevisao } from '../domain/avaliarFormatoRevisao';
 import { ExerciseRenderer } from '../components/review/ExerciseRenderer';
 
 const mockConceito: Concept = {
@@ -34,6 +35,7 @@ const mockConceito: Concept = {
     'f8_inversao_papeis',
   ],
   variantesFormatos: {
+    f5_associacao: { formatId: 'f5_associacao', prompt: 'Relacione campo e função', respostaCorreta: 'todos os pares', associacao: { pares: [{ ladoA: '245', ladoB: 'Título' }, { ladoA: '300', ladoB: 'Descrição física' }] } },
     f4_preenchimento_lacunas: {
       formatId: 'f4_preenchimento_lacunas',
       prompt: 'Complete a lacuna',
@@ -82,7 +84,7 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
     const btnJust = screen.getByText(/O campo 245 é canônico/i);
     fireEvent.click(btnJust);
 
-    expect(onResponder).toHaveBeenCalledWith('C');
+    expect(onResponder).toHaveBeenCalledWith({tipo: 'julgamento-justificativa', julgamento: 'C', justificativa: mockConceito.justificativaCanonic});
   });
 
   it('F3IdentificacaoErro deve renderizar caça ao erro', () => {
@@ -95,8 +97,8 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
       />
     );
 
-    expect(screen.getByText(/Caça ao Erro Cebraspe/i)).toBeTruthy();
-    const btn = screen.getByText(/A assertiva inverteu ou distorceu/i);
+    expect(screen.queryByText(/A assertiva inverteu ou distorceu/i)).toBeNull();
+    const btn = screen.getByRole('button', {name: /Julgar como CERTO/i});
     fireEvent.click(btn);
     expect(onResponder).toHaveBeenCalled();
   });
@@ -114,7 +116,7 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
     expect(screen.getByText(/o campo _____ abriga o título/i)).toBeTruthy();
     const btnCorreto = screen.getByText('245');
     fireEvent.click(btnCorreto);
-    expect(onResponder).toHaveBeenCalledWith('C');
+    expect(onResponder).toHaveBeenCalledWith('245');
   });
 
   it('F5Associacao deve renderizar opções de associação conceitual', () => {
@@ -128,9 +130,14 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
     );
 
     expect(screen.getByText(/Associação Conceitual/i)).toBeTruthy();
-    const btn = screen.getByText('MARC 21 e Catalogação');
+    const selects = screen.getAllByRole('combobox');
+    const btn = screen.getByRole('button', {name: 'Conferir associações'});
+    expect((btn as HTMLButtonElement).disabled).toBe(true);
+    fireEvent.change(selects[0], {target:{value:'Descrição física'}});
+    fireEvent.change(selects[1], {target:{value:'Título'}});
     fireEvent.click(btn);
-    expect(onResponder).toHaveBeenCalledWith('C');
+    const resposta = onResponder.mock.calls[0][0];
+    expect(avaliarFormatoRevisao(mockConceito, 'f5_associacao', resposta)).toBe(false);
   });
 
   it('F6CasoPratico deve contextualizar a Biblioteca da Câmara dos Deputados', () => {
@@ -182,8 +189,8 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
       />
     );
 
-    expect(screen.getByText(/Você é o Examinador Cebraspe/i)).toBeTruthy();
-    const btnFactual = screen.getByText(/Assertiva factual estritamente aderente/i);
+    expect(screen.queryByText(/Assertiva factual estritamente aderente/i)).toBeNull();
+    const btnFactual = screen.getByRole('button', {name:/Julgar como CERTO/i});
     fireEvent.click(btnFactual);
     expect(onResponder).toHaveBeenCalledWith('C');
   });
@@ -214,18 +221,18 @@ describe('Componentes dos 8 Formatos de Exercício F1 a F8 (Marco R3)', () => {
       />
     );
 
+    fireEvent.click(screen.getByRole('button', {name:/Confiança: Certeza/i}));
     // 1. Julgamento
     const btnC = screen.getByRole('button', { name: /Julgar como CERTO/i });
     fireEvent.click(btnC);
 
     // 2. Feedback deve ser exibido com fator de correção Cebraspe
-    expect(screen.getByText(/Julgamento Correto!/i)).toBeTruthy();
-    expect(screen.getByText(/\+1,00 pt líq\./i)).toBeTruthy();
-    expect(screen.getByText(/Justificativa Canônica/i)).toBeTruthy();
+    expect(screen.getByText(/Resposta correta!/i)).toBeTruthy();
+    expect(screen.getByText(/Revisão formativa · sem nota de prova/i)).toBeTruthy();
+    expect(screen.getByText(/Fundamentação cadastrada/i)).toBeTruthy();
 
     // 3. Autoverificação de Confiança
-    const btnChute = screen.getByRole('button', { name: /Confiança: Certeza/i });
-    fireEvent.click(btnChute);
+    expect(screen.queryByRole('button', {name:/Confiança: Certeza/i})).toBeNull();
 
     // 4. Conclusão / Avanço
     const btnAvancar = screen.getByRole('button', { name: /Próximo Item/i });

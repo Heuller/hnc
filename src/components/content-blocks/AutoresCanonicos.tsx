@@ -22,12 +22,12 @@ export const AutoresCanonicos: React.FC<AutoresCanonicosProps> = ({
     >
       <div className="flex items-center gap-2 mb-3">
         <UserCheck className="w-4 h-4 text-accent shrink-0" />
-        <h3
+        <h2
           id="autores-canonicos-title"
           className="text-xs sm:text-sm font-sans font-bold uppercase tracking-wider text-ink"
         >
           Autores Canônicos Exigidos pela Banca
-        </h3>
+        </h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">

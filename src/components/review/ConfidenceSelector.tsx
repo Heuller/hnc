@@ -41,7 +41,7 @@ export const ConfidenceSelector: React.FC<ConfidenceSelectorProps> = ({
       label: 'Certeza',
       sublabel: 'Consolidação factual',
       atalho: '[1]',
-      icone: <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />,
+      icone: <CheckCircle2 className="w-4 h-4 text-ok dark:text-emerald-400 shrink-0" />,
       activeClasses:
         'border-emerald-600 bg-emerald-50 text-emerald-950 dark:bg-emerald-950/40 dark:border-emerald-500 dark:text-emerald-100 ring-2 ring-emerald-500/20 shadow-xs',
       idleClasses:
@@ -52,7 +52,7 @@ export const ConfidenceSelector: React.FC<ConfidenceSelectorProps> = ({
       label: 'Dúvida',
       sublabel: 'Insegurança parcial',
       atalho: '[2]',
-      icone: <HelpCircle className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />,
+      icone: <HelpCircle className="w-4 h-4 text-accent dark:text-amber-400 shrink-0" />,
       activeClasses:
         'border-amber-600 bg-amber-50 text-amber-950 dark:bg-amber-950/40 dark:border-amber-500 dark:text-amber-100 ring-2 ring-amber-500/20 shadow-xs',
       idleClasses:

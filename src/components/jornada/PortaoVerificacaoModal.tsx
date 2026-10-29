@@ -1,3 +1,4 @@
+import { AccessibleModal } from '../common/AccessibleModal';
 import React, { useState, useMemo } from 'react';
 import { motion } from 'motion/react';
 import {
@@ -316,11 +317,8 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
   const isAprovado = ultimaTentativa?.aprovado ?? false;
 
   return (
-    <div
+    <AccessibleModal open={isOpen} onClose={onClose} title="Verificação de aprendizagem"
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink/65 backdrop-blur-xs overflow-y-auto"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="portao-modal-title"
     >
       <motion.div
         initial={{ opacity: 0, scale: 0.97, y: 10 }}
@@ -380,7 +378,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
             {/* Aviso de bloqueio por falta de itens aprovados (Regra D.2) */}
             {etapa.bloqueioPorFaltaDeItens?.bloqueado && (
               <div className="p-4 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-start gap-3 text-amber-800 dark:text-amber-200">
-                <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5 text-amber-500" />
+                <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5 text-accent" />
                 <div className="space-y-1">
                   <h3 className="font-semibold text-xs uppercase tracking-wide">
                     Itens Aprovados Insuficientes ({etapa.bloqueioPorFaltaDeItens.totalItensAprovados}/
@@ -531,7 +529,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                       : 'bg-surface hover:bg-surface-2 border-border text-ink'
                   }`}
                 >
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                  <CheckCircle2 className="w-4 h-4 text-ok dark:text-emerald-400" />
                   <span>CERTO</span>
                 </button>
 
@@ -544,7 +542,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                       : 'bg-surface hover:bg-surface-2 border-border text-ink'
                   }`}
                 >
-                  <XCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                  <XCircle className="w-4 h-4 text-err dark:text-rose-400" />
                   <span>ERRADO</span>
                 </button>
 
@@ -577,14 +575,14 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                         </>
                       ) : respostas[currentItem.id] === currentItem.gabarito ? (
                         <>
-                          <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                          <CheckCircle2 className="w-4 h-4 text-ok dark:text-emerald-400" />
                           <span className="font-bold text-emerald-700 dark:text-emerald-300">
                             Você acertou! (+1 ponto líquido Cebraspe)
                           </span>
                         </>
                       ) : (
                         <>
-                          <XCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
+                          <XCircle className="w-4 h-4 text-err dark:text-rose-400" />
                           <span className="font-bold text-rose-700 dark:text-rose-300">
                             Você errou! (-1 ponto líquido: anula uma questão certa)
                           </span>
@@ -605,7 +603,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                   {/* Armadilha da Banca */}
                   {currentItem.armadilhaBanca && (
                     <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/25 space-y-1 text-amber-800 dark:text-amber-200">
-                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-amber-600 dark:text-amber-400">
+                      <div className="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wide text-accent dark:text-amber-400">
                         <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
                         <span>Armadilha Cebraspe Identificada</span>
                       </div>
@@ -669,9 +667,9 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
             <div className="text-center space-y-3 py-2">
               <div className="flex justify-center mb-1">
                 {isAprovado ? (
-                  <IllustrationConclusao width={100} height={100} className="text-emerald-600 dark:text-emerald-400" />
+                  <IllustrationConclusao width={100} height={100} className="text-ok dark:text-emerald-400" />
                 ) : (
-                  <IllustrationBloqueio width={95} height={80} className="text-amber-600 dark:text-amber-400" />
+                  <IllustrationBloqueio width={95} height={80} className="text-accent dark:text-amber-400" />
                 )}
               </div>
               {isAprovado ? (
@@ -693,7 +691,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
                 </div>
               ) : (
                 <div className="inline-flex flex-col items-center gap-2">
-                  <div className="px-4 py-1.5 rounded-full border-2 border-amber-500 text-amber-700 dark:text-amber-300 bg-amber-500/10 text-xs font-bold font-mono tracking-widest uppercase flex items-center gap-2">
+                  <div className="px-4 py-1.5 rounded-full border-2 border-amber-500 text-accent dark:text-amber-300 bg-amber-500/10 text-xs font-bold font-mono tracking-widest uppercase flex items-center gap-2">
                     <RotateCcw className="w-4 h-4" />
                     <span>EM REVISÃO DIRIGIDA</span>
                   </div>
@@ -708,7 +706,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
             <div className="grid grid-cols-3 gap-3 text-center">
               <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
                 <span className="text-xs font-mono text-ink-2 uppercase block">Acertos</span>
-                <span className="text-lg font-bold text-emerald-600 dark:text-emerald-400">
+                <span className="text-lg font-bold text-ok dark:text-emerald-400">
                   {ultimaTentativa.acertos} / {ultimaTentativa.totalItens}
                 </span>
               </div>
@@ -767,7 +765,7 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
 
                       {quizItem?.armadilhaBanca && (
                         <div className="p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-800 dark:text-amber-200 text-xs space-y-0.5">
-                          <span className="font-bold uppercase tracking-wider block text-amber-700 dark:text-amber-300">
+                          <span className="font-bold uppercase tracking-wider block text-accent dark:text-amber-300">
                             Armadilha Cebraspe
                           </span>
                           <p>{quizItem.armadilhaBanca}</p>
@@ -814,6 +812,6 @@ export const PortaoVerificacaoModal: React.FC<PortaoVerificacaoModalProps> = ({
           </div>
         )}
       </motion.div>
-    </div>
+    </AccessibleModal>
   );
 };

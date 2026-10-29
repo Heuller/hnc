@@ -73,11 +73,11 @@ export const CronometroDiscursiva: React.FC<CronometroDiscursivaProps> = ({
   let barColor = 'bg-purple-600';
   if (segundosRestantes <= 300) {
     // Menos de 5 minutos
-    statusColor = 'text-rose-600 dark:text-rose-400 bg-rose-500/10 border-rose-500/30 animate-pulse';
+    statusColor = 'text-err dark:text-rose-400 bg-rose-500/10 border-rose-500/30 animate-pulse';
     barColor = 'bg-rose-600';
   } else if (segundosRestantes <= 600) {
     // Menos de 10 minutos
-    statusColor = 'text-amber-600 dark:text-amber-400 bg-amber-500/10 border-amber-500/30';
+    statusColor = 'text-accent dark:text-amber-400 bg-amber-500/10 border-amber-500/30';
     barColor = 'bg-amber-500';
   }
 

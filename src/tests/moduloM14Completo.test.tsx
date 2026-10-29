@@ -73,6 +73,8 @@ describe('Validação Completa do Módulo 14 (Tecnologia da Informação e Dados
     });
 
     render(<JornadaPage />);
+    const intro = screen.queryByRole('button', { name: 'Entendi as Regras da Jornada' });
+    if (intro) fireEvent.click(intro);
 
     // Clicar na aba Trilha Complementar
     const botaoAbaComplementar = screen.getByRole('tab', { name: /trilha complementar/i });
@@ -81,6 +83,10 @@ describe('Validação Completa do Módulo 14 (Tecnologia da Informação e Dados
     act(() => {
       fireEvent.click(botaoAbaComplementar);
     });
+
+    const summary = screen.getByText(/Módulo 14:/i).closest('summary');
+    const details = summary?.closest('details');
+    if (details) { details.open = true; fireEvent(details, new Event('toggle')); }
 
     // Deve exibir o card do Módulo M14
     expect(screen.getAllByText(/Tecnologia da Informação e Dados/i).length).toBeGreaterThanOrEqual(1);

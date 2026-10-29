@@ -34,7 +34,7 @@ export const F1CeSimples: React.FC<ExerciseFormatProps> = ({
       id: 'C',
       label: 'CERTO',
       sublabel: 'A assertiva é canonicamente correta',
-      icone: <Check className="w-5 h-5 text-emerald-600 dark:text-emerald-400 shrink-0" />,
+      icone: <Check className="w-5 h-5 text-ok dark:text-emerald-400 shrink-0" />,
       selectedClasses:
         'border-emerald-600 bg-emerald-500/10 text-emerald-950 dark:text-emerald-100 ring-2 ring-emerald-500/20',
       idleClasses:
@@ -44,7 +44,7 @@ export const F1CeSimples: React.FC<ExerciseFormatProps> = ({
       id: 'E',
       label: 'ERRADO',
       sublabel: 'A assertiva contém erro ou inversão',
-      icone: <X className="w-5 h-5 text-rose-600 dark:text-rose-400 shrink-0" />,
+      icone: <X className="w-5 h-5 text-err dark:text-rose-400 shrink-0" />,
       selectedClasses:
         'border-rose-600 bg-rose-500/10 text-rose-950 dark:text-rose-100 ring-2 ring-rose-500/20',
       idleClasses:

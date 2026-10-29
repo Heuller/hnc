@@ -25,10 +25,10 @@ export const simuladoNormalizacao100Q: CebraspeQuestion[] = [
     "numero": 2,
     "macroModuloId": "M8",
     "submoduloId": "8.1",
-    "contexto": "Várias normas editadas pela ABNT especificam os princípios gerais para a elaboração",
+    "contexto": "Questão histórica: julgue exclusivamente segundo a ABNT NBR 6023:2002. Não aplique esta edição como regra atual.",
     "item": "Para elaborar a referência bibliográfica de obras consultadas online, é essencial a apresentação do endereço eletrônico, que deve ser apresentado entre os sinais < >, precedido da expressão “Disponível em:” e a data de acesso ao documento, precedida da expressão “Acesso em:”.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO sob a vigência histórica da ABNT NBR 6023:2002. A redação da NBR 6023:2002 determinava o uso obrigatório dos sinais angulares < > delimitando a URL (\"Disponível em: <http://...>. Acesso em: 10 out. 2012.\"). Nota de atualização para o estudo reverso: na revisão vigente ABNT NBR 6023:2018 (item 7.6.1), os sinais < > foram suprimidos, grafando-se: \"Disponível em: http://... Acesso em: 10 out. 2024.\".",
+    "justificativa": "CERTO no recorte histórico da NBR 6023:2002: o endereço eletrônico era delimitado por sinais angulares. Essa apresentação mudou em 2018. A NBR 6023:2025, prefácio, cancela e substitui a edição de 2018; portanto, a justificativa não deve chamar 2018 de vigente. Para a preparação atual, confira a edição exigida pelo edital. Não transporte o gabarito histórico para outra edição.",
     "armadilhaBanca": "EVOLUÇÃO NORMATIVA DA NBR 6023: Saber que os sinais < > eram obrigatórios na edição de 2002 e foram eliminados na edição de 2018.",
     "dificuldade": "media",
     "fonteOriginal": {

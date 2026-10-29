@@ -24,7 +24,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
     >
       <header className="flex items-center justify-between gap-3 border-b border-amber-500/20 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-amber-500/15 border border-amber-500/30 text-amber-600 dark:text-amber-400 flex items-center justify-center shrink-0">
+          <div className="w-8 h-8 rounded-lg bg-amber-500/15 border border-amber-500/30 text-accent dark:text-amber-400 flex items-center justify-center shrink-0">
             <Lightbulb className="w-4 h-4" />
           </div>
           <div>
@@ -66,7 +66,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
                   <h3 className="font-serif font-bold text-sm text-ink flex items-center gap-1.5">
                     <span>{item.termo}</span>
                     {jaSei && (
-                      <span className="text-xs font-mono text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded border border-emerald-500/20 font-bold">
+                      <span className="text-xs font-mono text-ok dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded border border-emerald-500/20 font-bold">
                         Já sei
                       </span>
                     )}
@@ -85,7 +85,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
                       </>
                     ) : (
                       <>
-                        <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                        <CheckCircle2 className="w-3 h-3 text-ok" />
                         <span>Já sei</span>
                       </>
                     )}
@@ -98,7 +98,7 @@ export const CartaoAntesDeLer: React.FC<CartaoAntesDeLerProps> = ({ termos }) =>
 
                     {item.exemploBiblioteca && (
                       <div className="p-2 rounded-lg bg-surface-2 border border-border/70 text-xs text-ink flex items-start gap-1.5">
-                        <Building2 className="w-3.5 h-3.5 text-amber-500 shrink-0 mt-0.5" />
+                        <Building2 className="w-3.5 h-3.5 text-accent shrink-0 mt-0.5" />
                         <span>
                           <strong>Na biblioteca:</strong> {item.exemploBiblioteca}
                         </span>

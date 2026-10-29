@@ -1,3 +1,4 @@
+import { Disclosure } from '../components/common/Disclosure';
 import React, { useState } from 'react';
 import {
   Compass,
@@ -92,7 +93,7 @@ export const JornadaPage: React.FC = () => {
                   Trilha Sequencial
                 </span>
                 {modoLivre && (
-                  <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-semibold bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-300">
+                  <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-semibold bg-amber-500/15 border border-amber-500/30 text-accent dark:text-amber-300">
                     Modo Livre Ativo (Fora da Trilha)
                   </span>
                 )}
@@ -120,11 +121,11 @@ export const JornadaPage: React.FC = () => {
               onClick={handleToggleModoLivre}
               className={`flex items-center gap-1.5 text-xs transition-colors ${
                 modoLivre
-                  ? 'bg-amber-600 hover:bg-amber-700 text-white border-amber-600'
+                  ? 'bg-primary hover:opacity-95 text-white border-amber-600'
                   : 'text-ink-2 hover:text-ink'
               }`}
             >
-              <Unlock className={`w-3.5 h-3.5 ${modoLivre ? 'text-white' : 'text-amber-600 dark:text-amber-400'}`} />
+              <Unlock className={`w-3.5 h-3.5 ${modoLivre ? 'text-white' : 'text-accent dark:text-amber-400'}`} />
               <span>{modoLivre ? 'Desativar Modo Livre' : 'Modo Livre'}</span>
             </Button>
           </div>
@@ -161,7 +162,7 @@ export const JornadaPage: React.FC = () => {
             </div>
             <div className="p-3 rounded-xl bg-surface-2/40 border border-border">
               <span className="text-xs font-sans font-semibold uppercase tracking-wider text-ink-2 block">Etapas da Trilha</span>
-              <span className="text-base sm:text-lg font-bold text-emerald-600 dark:text-emerald-400 font-sans tabular-nums">
+              <span className="text-base sm:text-lg font-bold text-ok dark:text-emerald-400 font-sans tabular-nums">
                 {metricas.etapasConcluidas} / {metricas.totalEtapas}
               </span>
               <span className="text-xs text-ink-2 font-sans block mt-0.5">
@@ -347,9 +348,7 @@ export const JornadaPage: React.FC = () => {
 
             return (
               <React.Fragment key={macro.id}>
-                <div
-                  className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
-                >
+                <Disclosure id={`jornada-${macro.id}`} title={`Módulo ${k}: ${macro.titulo}`} defaultOpen={k === (proximoPasso?.moduloNumero || 1)} className="shadow-editorial-sm relative overflow-hidden">
                 {/* Barra lateral temática */}
                 <div
                   className="absolute top-0 left-0 bottom-0 w-1.5"
@@ -425,7 +424,7 @@ export const JornadaPage: React.FC = () => {
                                 <span>Concluída</span>
                               </span>
                             ) : isRevisaoDirigida ? (
-                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-300 text-xs font-semibold">
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-accent dark:text-amber-300 text-xs font-semibold">
                                 <RotateCcw className="w-3 h-3" />
                                 <span>Revisão Dirigida</span>
                               </span>
@@ -561,7 +560,7 @@ export const JornadaPage: React.FC = () => {
                     </Button>
                   </div>
                 )}
-              </div>
+              </Disclosure>
 
               {/* MINI-MÓDULO ESPECIAL INTERMEDIÁRIO 2.5 (Entre M2 e M3) */}
               {macro.id === 'm2' && (
@@ -571,7 +570,7 @@ export const JornadaPage: React.FC = () => {
                 >
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <div className="flex items-start sm:items-center gap-3.5">
-                      <div className="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
+                      <div className="w-12 h-12 rounded-xl bg-ok text-white flex items-center justify-center font-mono font-bold text-lg shrink-0 shadow-xs">
                         M2.5
                       </div>
                       <div className="space-y-1">
@@ -606,7 +605,7 @@ export const JornadaPage: React.FC = () => {
                         variant="primary"
                         size="sm"
                         onClick={() => navigateToSimulado('mini-modulo-orgaos')}
-                        className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white"
+                        className="flex items-center gap-1.5 bg-ok hover:opacity-95 text-white"
                       >
                         <span>Simulado 30Q</span>
                         <ArrowRight className="w-4 h-4" />
@@ -674,10 +673,7 @@ export const JornadaPage: React.FC = () => {
               const submodulos = macro.modulosFilhos || [];
 
               return (
-                <div
-                  key={macro.id}
-                  className="bg-surface border border-border rounded-2xl p-5 sm:p-7 shadow-editorial-sm space-y-6 relative overflow-hidden"
-                >
+                <Disclosure key={macro.id} id={`jornada-${macro.id}`} title={`Módulo ${k}: ${macro.titulo}`} className="shadow-editorial-sm relative overflow-hidden">
                   <div
                     className="absolute top-0 left-0 bottom-0 w-1.5"
                     style={{ backgroundColor: theme.primaryColor }}
@@ -749,7 +745,7 @@ export const JornadaPage: React.FC = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </Disclosure>
               );
             })}
           </div>
@@ -786,7 +782,7 @@ export const JornadaPage: React.FC = () => {
           aria-modal="true"
         >
           <div className="w-full max-w-md bg-surface border border-border rounded-2xl p-6 shadow-editorial-lg space-y-4">
-            <div className="flex items-center gap-3 text-amber-600 dark:text-amber-400">
+            <div className="flex items-center gap-3 text-accent dark:text-amber-400">
               <AlertTriangle className="w-6 h-6 shrink-0" />
               <h3 className="font-serif font-bold text-base text-ink">
                 Ativar Navegação em Modo Livre?
@@ -799,7 +795,7 @@ export const JornadaPage: React.FC = () => {
               <Button variant="ghost" size="sm" onClick={() => setShowModoLivreConfirm(false)}>
                 Cancelar
               </Button>
-              <Button variant="primary" size="sm" onClick={confirmarAtivacaoModoLivre} className="bg-amber-600 hover:bg-amber-700 text-white">
+              <Button variant="primary" size="sm" onClick={confirmarAtivacaoModoLivre} className="bg-primary hover:opacity-95 text-white">
                 Confirmar Ativação
               </Button>
             </div>

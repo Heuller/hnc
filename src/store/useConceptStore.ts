@@ -36,7 +36,7 @@ interface ConceptStoreState {
   registrarRespostaConceito: (params: {
     conceptId: string;
     acertou: boolean;
-    confianca: ConfidenceLevel;
+    confianca?: ConfidenceLevel;
     formatoUsado: ExerciseFormatId;
     respostaDada: string;
     tempoSegundos: number;
@@ -127,7 +127,7 @@ export const useConceptStore = create<ConceptStoreState>()(
                 total_acertos: resultado.novoEstado.totalAcertos,
                 total_erros: resultado.novoEstado.totalErros,
                 total_chutes: resultado.novoEstado.totalChutes,
-                ultima_confianca: resultado.novoEstado.ultimaConfianca,
+                ultima_confianca: resultado.novoEstado.ultimaConfianca ?? null,
                 ultimo_julgamento: resultado.novoEstado.ultimoJulgamento,
                 data_ultima_revisao: resultado.novoEstado.dataUltimaRevisao,
                 estado_dominio: resultado.novoEstado.estadoDominio,

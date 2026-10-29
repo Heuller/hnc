@@ -146,7 +146,7 @@ export const PainelMnemonicosLegislativo: React.FC = () => {
 
                   <div className="space-y-1 bg-emerald-500/10 p-2.5 rounded-lg border border-emerald-500/30 text-emerald-900 dark:text-emerald-200">
                     <span className="font-sans font-bold text-xs flex items-center gap-1.5">
-                      <Sparkles className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                      <Sparkles className="w-3.5 h-3.5 text-ok dark:text-emerald-400" />
                       Regra de Ouro da Memória:
                     </span>
                     <p className="font-serif m-0 leading-relaxed">
@@ -176,7 +176,7 @@ export const PainelMnemonicosLegislativo: React.FC = () => {
                     >
                       {copiadoId === item.id ? (
                         <>
-                          <Check className="w-3.5 h-3.5 text-emerald-600" />
+                          <Check className="w-3.5 h-3.5 text-ok" />
                           <span>Copiado!</span>
                         </>
                       ) : (
