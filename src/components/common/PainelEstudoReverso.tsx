@@ -84,7 +84,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
             : 'qual elemento garante que a assertiva está certa e o que a banca trocaria para torná-la errada?'}
         </p>
         <p className="m-0 text-xs text-ink-2 font-sans">
-          Tentar explicar antes de conferir fixa mais do que apenas ler a resposta.
+          Tente recuperar a regra antes de conferir. Se não souber, use a explicação para construir a resposta.
         </p>
         <button
           type="button"
@@ -157,7 +157,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
             <span className="italic">“{contraste}”</span>
           </p>
           <p className="m-0 text-xs text-ink-2 font-sans">
-            Compare com o item original: a diferença entre as duas versões é exatamente o que a banca cobra.
+            Compare as versões e identifique a regra ou condição alterada. Uma palavra isolada não determina o gabarito.
           </p>
         </div>
       )}

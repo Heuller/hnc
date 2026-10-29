@@ -88,17 +88,21 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M9",
     "submoduloId": "9.1",
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
-    "item": "A 'Via Diamante' (Diamond ou Platinum Open Access) caracteriza-se por cobrar taxas extorsivas dos leitores para baixar artigos e exigir que os autores paguem taxas de submissão em barras de ouro maciço.",
+    "item": "Um periódico permite leitura gratuita, mas exige dos autores uma taxa obrigatória de processamento de artigos. Essas condições bastam para classificá-lo no modelo de acesso aberto diamante.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. A Via Diamante é o modelo mais comunitário e equitativo de acesso aberto: NÃO COBRA taxas dos leitores para acessar (sem paywall) e NÃO COBRA taxas dos autores para publicar (sem APC). É financiada por universidades, sociedades científicas ou agências públicas (como a maioria das revistas do SciELO).",
-    "armadilhaBanca": "Técnica: Inversão Conceitual de Conceito Vizinho. O examinador altera o núcleo da assertiva no trecho decisivo demarcado pelo gatilho, atribuindo predicados incorretos à sistemática normativa.",
-    "dificuldade": "facil",
+    "justificativa": "Gabarito ERRADO. No acesso aberto diamante não são cobradas taxas dos leitores nem dos autores. Verifique as duas condições do modelo diamante. Não use gratuidade de leitura como condição suficiente. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
+    "armadilhaBanca": "Técnica: Condição insuficiente. Uma característica comum ao acesso aberto é tratada como suficiente para identificar o modelo diamante.",
+    "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "versao_correta": "A Via Diamante (ou Platina) de Acesso Aberto caracteriza-se pela gratuidade integral tanto para os leitores acessarem o conteúdo quanto para os autores submeterem e publicarem seus artigos, sendo sustentada por instituições de ensino e fomento público."
+    "versao_correta": "A leitura gratuita com taxa obrigatória ao autor não caracteriza o acesso aberto diamante.",
+    "gatilho": "bastam para classificá-lo no modelo de acesso aberto diamante",
+    "fonte": "UNESCO — Diamond Open Access — Key characteristics; Open Access pathways",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "analisar"
   },
   {
     "id": "m9-q-6",
@@ -142,18 +146,21 @@ export const simuladoComunicacao100Q: CebraspeQuestion[] = [
     "macroModuloId": "M9",
     "submoduloId": "9.1",
     "contexto": "No que tange à evolução da comunicação científica, ao movimento de Acesso Aberto (Open Access), às Declarações dos 3 Bs (Budapeste, Bethesda, Berlim) e aos modelos de publicação, julgue o item a seguir.",
-    "item": "A Iniciativa de Acesso Aberto de Budapeste (BOAI — Budapest Open Access Initiative, 2002) definiu o acesso aberto à literatura científica como a disponibilização gratuita, pública e irrestrita na internet, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos integrais sem barreiras financeiras, legais ou técnicas além daquelas inseparáveis do acesso à própria internet.",
+    "item": "Na definição de acesso aberto da Iniciativa de Budapeste, a remoção de barreiras ao uso da literatura é compatível com o reconhecimento e a citação da autoria, em vez de dispensá-los.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. A Declaração da Budapest Open Access Initiative (BOAI, 2002) constitui o marco histórico fundador do Acesso Aberto (Open Access). Ela preconiza a eliminação de quaisquer pedágios financeiros ou barreiras de licenciamento para a leitura e reuso de artigos revisados por pares, mantendo-se como único direito moral do autor o controle sobre a integridade de sua obra e o direito a ser devidamente creditado e citado.",
-    "armadilhaBanca": "Definição oficial de Acesso Aberto da BOAI.",
-    "dificuldade": "facil",
+    "justificativa": "Gabarito CERTO. O acesso aberto não apaga a autoria nem a atribuição de crédito. Verifique o papel da autoria na declaração. Não transforme abertura em ausência de reconhecimento do autor. A distinção deve ser aplicada aos dados e às condições do enunciado, sem decidir apenas pela presença de palavras específicas.",
+    "armadilhaBanca": "Técnica: Distinção de direitos. A possibilidade de uso não se confunde com a eliminação da atribuição.",
+    "dificuldade": "dificil",
     "fonteOriginal": {
       "tipo": "inedita",
       "descricao": "HNC — Inédita Cebraspe (Fase E5 / Simulado M9)",
       "verificado": false
     },
-    "gatilho": "irrestrita na internet, permitindo a qualquer usuário",
-    "versao_errada": "A Iniciativa de Acesso Aberto de Budapeste (BOAI — Budapest Open Access Initiative, 2002) definiu o acesso aberto à literatura científica como a disponibilização gratuita, pública e indevidamente irrestrita na internet, permitindo a qualquer usuário ler, descarregar, copiar, distribuir, imprimir, pesquisar ou criar links para os textos integrais sem barreiras financeiras, legais ou técnicas além daquelas inseparáveis do acesso à própria internet."
+    "gatilho": "compatível com o reconhecimento e a citação da autoria",
+    "versao_errada": "O acesso aberto dispensa reconhecer ou citar a autoria dos trabalhos utilizados.",
+    "fonte": "Budapest Open Access Initiative (2002) — definição de open access e papel do copyright",
+    "dataConferencia": "2026-10-29",
+    "habilidade": "analisar"
   },
   {
     "id": "m9-q-9",

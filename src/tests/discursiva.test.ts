@@ -1,12 +1,20 @@
 // @vitest-environment jsdom
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { discursivaService } from '../domain/discursiva/discursivaService';
+import { avaliacaoFixture } from './fixtures/avaliacaoDiscursiva';
 import { TEMAS_OFICIAIS_DISCURSIVA } from '../domain/discursiva/temasOficiais';
 
 describe('Laboratório e Avaliador de Discursivas Cebraspe (Edital nº 1/2026 - Item 9)', () => {
   beforeEach(() => {
     localStorage.clear();
+    vi.stubGlobal('fetch', vi.fn(async (_url: string, options: RequestInit) => {
+      const payload = JSON.parse(String(options.body));
+      const tema = TEMAS_OFICIAIS_DISCURSIVA.find(t => t.id === payload.temaId)!;
+      return { ok: true, json: async () => avaliacaoFixture(tema, payload.linhasEstimadas) };
+    }));
   });
+
+  afterEach(() => vi.unstubAllGlobals());
 
   describe('Banco de Temas Oficiais da Câmara dos Deputados', () => {
     it('deve possuir 13 temas oficiais cobrindo questões (20 linhas, 15 pts) e peças técnicas (50 linhas, 30 pts), incluindo a prova real PCDF 2025', () => {

@@ -21,6 +21,7 @@ import { SimuladoAdaptativoModal } from '../components/adaptiveQuiz/SimuladoAdap
 import { RevisaoDiariaModal } from '../components/review/RevisaoDiariaModal';
 import { SIMULADOS_REGISTRY } from '../content/simuladosRegistry';
 import { Award, Layers } from 'lucide-react';
+import { TreinoRaciocinioModal } from '../components/estudoReverso/TreinoRaciocinioModal';
 
 export const TreinosPage: React.FC = () => {
   const {
@@ -43,6 +44,7 @@ export const TreinosPage: React.FC = () => {
     historicoSimulados || []
   );
 
+  const [isTreinoReversoOpen, setIsTreinoReversoOpen] = useState(false);
   const [isModalAdaptativoOpen, setIsModalAdaptativoOpen] = useState(false);
   const [isModalRevisaoDiariaOpen, setIsModalRevisaoDiariaOpen] = useState(false);
   const totalSimuladosDisponiveis = SIMULADOS_REGISTRY.length;
@@ -67,6 +69,13 @@ export const TreinosPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <section className="rounded-2xl border border-accent/30 bg-surface p-5 sm:p-7 space-y-4 shadow-editorial-sm">
+        <h2 className="text-xl font-serif font-bold text-ink">Estudo reverso por questões</h2>
+        <p className="text-sm text-ink-2 leading-relaxed">Comece pela questão, tente explicar a regra e confira o raciocínio passo a passo. Depois, aplique o conceito em outro cenário e retome a teoria quando precisar.</p>
+        <p className="text-xs text-ink-2">Sessões de até 6 itens · 12 questões autorais revisadas · fontes para consulta · revisões sugeridas pelo seu histórico</p>
+        <Button onClick={() => setIsTreinoReversoOpen(true)}>Treinar raciocínio por questões <ArrowRight className="ml-2 w-4 h-4" /></Button>
+      </section>
 
       {/* Grade de Cartões de Treino (Regra F.1) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -291,7 +300,7 @@ export const TreinosPage: React.FC = () => {
 
             <div className="p-3 rounded-xl bg-accent/5 border border-accent/20 text-xs text-ink flex items-center justify-between">
               <span>Foco personalizado disponível:</span>
-              <span className="font-mono text-accent font-bold">100% calibrado ao seu perfil</span>
+              <span className="font-mono text-accent font-bold">Seleção por histórico de respostas</span>
             </div>
           </div>
 
@@ -307,6 +316,8 @@ export const TreinosPage: React.FC = () => {
           </Button>
         </div>
       </div>
+
+      {isTreinoReversoOpen && <TreinoRaciocinioModal onClose={() => setIsTreinoReversoOpen(false)} />}
 
       {/* Modal do Simulado Adaptativo */}
       <SimuladoAdaptativoModal

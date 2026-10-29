@@ -26,6 +26,7 @@ import { getSimuladoById, detectSimuladoIdFromQuestionId } from '../content/simu
 import type { ItemAttempt, CriarItemAttemptParams } from '../domain/itemAttempts';
 import {
   criarItemAttempt,
+  ItemAttemptSchema,
   obterPrimeiraTentativaItem,
   obterUltimaTentativaItem,
 } from '../domain/itemAttempts';
@@ -914,6 +915,7 @@ export const useProgressStore = create<ProgressStoreState>()(
         const exportData = {
           versao: state.versao,
           exportadoEm: new Date().toISOString(),
+          itemAttempts: state.itemAttempts,
           modulosLidosIds: state.modulosLidosIds,
           checkpointsRespondidos: state.checkpointsRespondidos,
           historicoSimulados: state.historicoSimulados,
@@ -974,6 +976,9 @@ export const useProgressStore = create<ProgressStoreState>()(
             return { success: false, error: 'Arquivo JSON inválido' };
           }
 
+          const tentativasImportadas = ItemAttemptSchema.array().safeParse(parsed.itemAttempts ?? get().itemAttempts);
+          if (!tentativasImportadas.success) return { success: false, error: 'Histórico de respostas inválido. Nenhum dado foi alterado.' };
+
           const modulosLidosIds = Array.isArray(parsed.modulosLidosIds)
             ? parsed.modulosLidosIds
             : [];
@@ -988,7 +993,8 @@ export const useProgressStore = create<ProgressStoreState>()(
           const ultimoModuloAcessado = parsed.ultimoModuloAcessado || '1.1';
 
           set({
-            versao: 2,
+            versao: 4,
+            itemAttempts: tentativasImportadas.data,
             modulosLidosIds,
             checkpointsRespondidos,
             historicoSimulados,
@@ -1001,6 +1007,7 @@ export const useProgressStore = create<ProgressStoreState>()(
             },
           });
 
+          itemAttemptsSyncService.salvarLocais(tentativasImportadas.data);
           return { success: true };
         } catch (err: unknown) {
           const msg = err instanceof Error ? err.message : 'Falha ao interpretar JSON';

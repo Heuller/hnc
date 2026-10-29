@@ -21,6 +21,7 @@ import {
   TRILHA_DISCURSIVA_D1_D9,
   type SessaoDiscursivaTrilha,
 } from '../domain/discursiva/trilhaDiscursiva';
+import { validarAvaliacaoDiscursiva } from '../domain/discursiva/validarAvaliacao';
 import { discursivaService } from '../domain/discursiva/discursivaService';
 import { EspelhoCorrecaoCebraspe } from '../components/discursiva/EspelhoCorrecaoCebraspe';
 import { FolhaRespostaManuscritaModal } from '../components/discursiva/FolhaRespostaManuscritaModal';
@@ -70,11 +71,12 @@ export const DiscursivaPage: React.FC = () => {
         const raw = localStorage.getItem(`hnc_discursiva_texto_${e.id}`);
         if (raw) {
           const parsed = JSON.parse(raw);
+          const validarSalva = (raw: unknown, texto: string) => { try { return validarAvaliacaoDiscursiva(raw, e, texto); } catch { return undefined; } };
           map[e.id] = {
             texto: parsed.texto || '',
-            historico: parsed.historico || [],
+            historico: Array.isArray(parsed.historico) ? parsed.historico.map((v: VersaoTextoComAvaliacao) => ({ ...v, avaliacao: validarSalva(v.avaliacao, v.texto || '') })) : [],
             devolutiva: parsed.devolutiva || '',
-            avaliacaoAtiva: parsed.avaliacaoAtiva,
+            avaliacaoAtiva: validarSalva(parsed.avaliacaoAtiva, parsed.texto || ''),
           };
         }
       } catch {
@@ -148,7 +150,7 @@ export const DiscursivaPage: React.FC = () => {
     if (!enunciadoAtivo) return;
     setDadosEnunciados((prev) => {
       const atual = prev[enunciadoAtivo.id] || { texto: '', historico: [], devolutiva: '' };
-      const updated = { ...atual, texto: novoTexto };
+      const updated = { ...atual, texto: novoTexto, avaliacaoAtiva: undefined, devolutiva: '' };
       try {
         localStorage.setItem(`hnc_discursiva_texto_${enunciadoAtivo.id}`, JSON.stringify(updated));
       } catch {}
@@ -254,7 +256,7 @@ export const DiscursivaPage: React.FC = () => {
         };
         const updated: DadosEnunciadoArmazenado = {
           ...atual,
-          avaliacaoAtiva: avaliacao,
+          avaliacaoAtiva: atual.texto.trim() === textoCandidato.trim() ? avaliacao : undefined,
           historico: [novaVersao, ...(atual.historico || [])],
         };
         try {
@@ -349,7 +351,7 @@ export const DiscursivaPage: React.FC = () => {
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-ink-2">
-                Simulação real de espelho de correção Cebraspe para o concurso da Câmara dos Deputados (Bibliotecário).
+                Escrita e avaliação formativa por rubrica para a preparação ao concurso da Câmara dos Deputados. A estimativa de IA não é uma correção oficial.
               </p>
             </div>
           </div>
@@ -702,12 +704,12 @@ export const DiscursivaPage: React.FC = () => {
                 {isAvaliando ? (
                   <>
                     <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                    <span>Corrigindo com a Banca Cebraspe...</span>
+                    <span>Analisando pela rubrica...</span>
                   </>
                 ) : (
                   <>
                     <Sparkles className="w-4 h-4 text-amber-300" />
-                    <span>Corrigir com a Banca Cebraspe (IA)</span>
+                    <span>Avaliar pela rubrica (IA)</span>
                   </>
                 )}
               </Button>
@@ -726,7 +728,7 @@ export const DiscursivaPage: React.FC = () => {
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Correção com a Banca Cebraspe (IA)</span>
+              <span>Avaliação formativa (IA)</span>
             </button>
 
             <button
@@ -762,7 +764,7 @@ export const DiscursivaPage: React.FC = () => {
                   <div className="w-10 h-10 border-3 border-purple-200 border-t-purple-600 rounded-full animate-spin" />
                   <div className="space-y-1">
                     <h4 className="text-sm font-bold text-ink">
-                      A Banca Examinadora Cebraspe está corrigindo sua prova...
+                      Analisando seu texto pela rubrica...
                     </h4>
                     <p className="text-xs text-ink-2 max-w-md">
                       Calculando pontuação de conteúdo (NC), identificando desvios gramaticais (NE), aplicando as fórmulas
@@ -774,7 +776,7 @@ export const DiscursivaPage: React.FC = () => {
 
               {/* Erro de Avaliação */}
               {erroAvaliacao && !isAvaliando && (
-                <div className="p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs flex items-center justify-between gap-3">
+                <div role="alert" className="p-4 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 text-xs flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
                     <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
                     <span>{erroAvaliacao}</span>
@@ -782,6 +784,7 @@ export const DiscursivaPage: React.FC = () => {
                   <Button variant="outline" size="sm" onClick={handleAvaliarComBanca}>
                     Tentar Novamente
                   </Button>
+                  <Button variant="outline" size="sm" onClick={() => setAbaAtiva('calibracao_humana')}>Usar rubrica de autoavaliação</Button>
                 </div>
               )}
 

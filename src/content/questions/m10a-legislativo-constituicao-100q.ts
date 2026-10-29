@@ -37,12 +37,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "submodulo": "10.1",
     "editalRef": "Conhecimentos Específicos / Processo Legislativo Constitucional e Gestão da Informação",
     "nivel": 2,
-    "habilidade": "compreender",
+    "habilidade": "aplicar",
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
-    "item": "A lei complementar distingue-se formalmente da lei ordinária quanto ao quórum de aprovação, exigindo-se a maioria absoluta dos membros de cada Casa do Congresso Nacional para a aprovação da lei complementar, ao passo que a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros.",
+    "item": "Em uma deliberação sobre lei ordinária, a presença da maioria absoluta dos membros da Casa não significa, por si só, que a aprovação exija votos favoráveis da maioria absoluta desses membros.",
     "gabarito": "C",
-    "justificativa": "Gabarito CERTO. O critério de distinção formal entre lei complementar e lei ordinária é o quórum de aprovação: as leis complementares exigem a maioria absoluta dos votos dos membros de cada Casa (art. 69 da CF/88 — 257 deputados na Câmara e 41 senadores no Senado), ao passo que as leis ordinárias são aprovadas por maioria simples dos presentes, exigida a presença da maioria absoluta da Casa (art. 47 da CF/88). Não há hierarquia normativa entre ambas, mas repartição material constitucional de matérias.",
-    "armadilhaBanca": "Assertiva correta: o quórum de maioria absoluta (art. 69) é o traço distintivo fundamental da lei complementar perante a lei ordinária.",
+    "justificativa": "Gabarito CERTO. A Constituição distingue o quórum de presença da regra de decisão, ressalvadas as exigências específicas. Recupere a regra do art. 47 para deliberações sem exigência especial. Compare-a com a exigência do art. 69 para lei complementar.",
+    "armadilhaBanca": "Técnica: Confusão de quóruns. Uma condição para deliberar é indevidamente tomada como o número de votos para aprovar.",
     "ehPegadinha": false,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -50,10 +50,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
       "descricao": "CF/88, arts. 47 e 69",
       "verificado": false
     },
-    "fonte": "CF/88, arts. 47 e 69",
-    "dataConferencia": "2026-10-14",
-    "gatilho": "Casa do Congresso Nacional para a aprovação",
-    "versao_errada": "A lei complementar distingue-se formalmente da lei ordinária quanto ao quórum de aprovação, exigindo-se a maioria absoluta dos membros de cada indevidamente casa do congresso nacional para a aprovação da lei complementar, ao passo que a lei ordinária é aprovada por maioria simples, presente a maioria absoluta de seus membros."
+    "fonte": "Constituição Federal de 1988 — Câmara dos Deputados — arts. 47, 61 § 2º e 69 (dispositivos aplicáveis ao item)",
+    "dataConferencia": "2026-10-29",
+    "gatilho": "não significa, por si só",
+    "versao_errada": "Em toda deliberação sobre lei ordinária, a aprovação exige votos favoráveis da maioria absoluta dos membros da Casa."
   },
   {
     "id": "m10a-q-3",
@@ -117,12 +117,12 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
     "submodulo": "10.1",
     "editalRef": "Conhecimentos Específicos / Processo Legislativo Constitucional e Gestão da Informação",
     "nivel": 2,
-    "habilidade": "compreender",
+    "habilidade": "aplicar",
     "contexto": "No que tange ao processo legislativo previsto na Constituição Federal de 1988 e à organização do Poder Legislativo, julgue o item a seguir.",
-    "item": "Os projetos de lei de iniciativa popular devem ser apresentados perante o Senado Federal, haja vista ser esta a Casa representativa dos Estados da Federação e da soberania popular.",
+    "item": "Atendidos os requisitos constitucionais de subscrição e distribuição do eleitorado, um projeto de lei de iniciativa popular federal deve ser apresentado ao Senado Federal.",
     "gabarito": "E",
-    "justificativa": "Gabarito ERRADO. Conforme expressamente preceitua o art. 61, § 2º da CF/88, a iniciativa popular de leis federais deve ser exercida mediante a apresentação de projeto de lei à CÂMARA DOS DEPUTADOS (órgão de representação popular direta dos cidadãos), e não ao Senado Federal (órgão de representação dos Estados e do DF).",
-    "armadilhaBanca": "Troca da Câmara dos Deputados pelo Senado Federal.",
+    "justificativa": "Gabarito ERRADO. O art. 61, § 2º, prevê a apresentação do projeto de iniciativa popular à Câmara dos Deputados. Separe os requisitos de subscrição do local de apresentação. Identifique a Casa indicada expressamente no art. 61, § 2º.",
+    "armadilhaBanca": "Técnica: Troca de competência. Requisitos de subscrição plausíveis acompanham a indicação da Casa incorreta.",
     "ehPegadinha": true,
     "dificuldade": "media",
     "fonteOriginal": {
@@ -130,9 +130,10 @@ export const simuladoLegislativoConstituicao100Q: CebraspeQuestion[] = [
       "descricao": "CF/88, art. 61, § 2º",
       "verificado": false
     },
-    "fonte": "CF/88, art. 61, § 2º",
-    "dataConferencia": "2026-10-14",
-    "versao_correta": "Os projetos de lei federal decorrentes de iniciativa popular devem ser apresentados perante a Câmara dos Deputados, órgão representativo direto do povo."
+    "fonte": "Constituição Federal de 1988 — Câmara dos Deputados — arts. 47, 61 § 2º e 69 (dispositivos aplicáveis ao item)",
+    "dataConferencia": "2026-10-29",
+    "versao_correta": "Atendidos os requisitos constitucionais, o projeto de lei de iniciativa popular federal é apresentado à Câmara dos Deputados.",
+    "gatilho": "apresentado ao Senado Federal"
   },
   {
     "id": "m10a-q-6",
