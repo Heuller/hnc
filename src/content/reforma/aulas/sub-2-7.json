@@ -213,7 +213,8 @@
   "descricaoCurta": "Distinguir MODS, MARCXML e conversão. Relacionar empacotamento e estrutura, explicitando versão METS. Mapear Work, Instance e Item sem equivalência perfeita forçada. Interpretar RDF, SPARQL e SKOS com limites de implementação. Separar identificar, autenticar e manter resolução. Diagnosticar dimensões de interoperabilidade.",
   "alertasCebraspe": [
     "Compartilhar sintaxe não elimina diferenças de esquema e granularidade.",
-    "A especificação deixa a descrição à implementação do serviço; não há promessa de completude universal."
+    "A especificação deixa a descrição à implementação do serviço; não há promessa de completude universal.",
+    "Versões maiores têm estruturas e regras próprias; não basta citar METS sem delimitação ao cobrar detalhes."
   ],
   "removerCampos": [
     "quadroComparativo"

@@ -5,7 +5,7 @@ import { useProgressStore } from '../../store/useProgressStore';
 import { getUnitReadingKey } from '../../domain/learningEngine';
 
 /** Os IDs de checkpoint são os mesmos na aula, no progresso e na revisão. */
-export function AulaEmBlocos({ submodulo, moduloId }: { submodulo: ModuloFilho; moduloId: string }) {
+export function AulaEmBlocos({ submodulo, moduloId, forcarRetesteAtivo = false }: { submodulo: ModuloFilho; moduloId: string; forcarRetesteAtivo?: boolean }) {
   const unidades = submodulo.unidadesAprendizagem || [];
   const lidas = useProgressStore(state => state.secoesVisualizadas?.[submodulo.id]);
   const registrarLeitura = useProgressStore(state => state.registrarSecaoVisualizada);
@@ -34,7 +34,7 @@ export function AulaEmBlocos({ submodulo, moduloId }: { submodulo: ModuloFilho; 
             {unidade.checkpointIds.map(id => {
               const cp = submodulo.checkpoints.find(item => item.id === id);
               if (!cp) return null;
-              return <ItemCE key={cp.id} contexto="teoria" contadorTexto="Microcheckpoint autoral" item={{ id: cp.id, moduloId, submoduloId: submodulo.numero, enunciado: cp.item, gabarito: cp.gabarito, justificativa: cp.justificativa, versaoCorreta: cp.versao_correta, fonte: cp.fonte, armadilha: cp.armadilhaBanca, secaoRef: unidade.id }} />;
+              return <ItemCE key={cp.id} contexto="teoria" forcarRetesteAtivo={forcarRetesteAtivo} contadorTexto="Microcheckpoint autoral" item={{ id: cp.id, moduloId, submoduloId: submodulo.numero, enunciado: cp.item, gabarito: cp.gabarito, justificativa: cp.justificativa, versaoCorreta: cp.versao_correta, fonte: cp.fonte, armadilha: cp.armadilhaBanca, secaoRef: unidade.id }} />;
             })}
           </div>}
           <button type="button" disabled={lidas?.includes(getUnitReadingKey(submodulo, unidade.id))} onClick={() => registrarLeitura(submodulo.id, getUnitReadingKey(submodulo, unidade.id))} className="rounded-lg border border-border px-4 py-2 text-sm text-ink hover:bg-surface-2 disabled:opacity-60 print:hidden">

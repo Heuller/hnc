@@ -19,328 +19,359 @@ export const submodulo43: ModuloFilho = {
   ],
   titulo: 'Fontes de Informação Jurídica, Diários Oficiais e o Portal LexML Brasil',
   antesDeLer: [
-    {
-      termo: 'Portal LexML Brasil',
-      definicao: 'Rede de informação legislativa e jurídica que unifica a busca de legislação, jurisprudência e doutrina de órgãos federais, estaduais e municipais.',
-      exemploBiblioteca: 'O bibliotecário da Câmara utilizando o LexML para localizar uma lei estadual correlata a uma PEC em tramitação federal.',
-    },
-    {
-      termo: 'Diário Oficial da União (DOU)',
-      definicao: 'Jornal oficial da Imprensa Nacional dividido em seções que publica leis, atos normativos, decretos e atos de pessoal da administração federal.',
-      exemploBiblioteca: 'Monitoramento diário da Seção 1 do DOU para catalogar promulgações e vetos presidenciais que impactam a biblioteca.',
-    },
-    {
-      termo: 'Jurisprudência',
-      definicao: 'Conjunto reiterado de decisões, acórdãos e súmulas dos tribunais judiciais que consubstanciam a interpretação das normas jurídicas.',
-      exemploBiblioteca: 'Pesquisa de decisões do STF sobre constitucionalidade de matérias regimentais da Câmara dos Deputados.',
-    },
-    {
-      termo: 'URN Lex (Uniform Resource Name)',
-      definicao: 'Identificador persistente e padronizado utilizado pelo LexML para nomear univocamente cada ato normativo no tempo e espaço.',
-      exemploBiblioteca: 'Link permanente atribuído à Lei nº 14.133/2021 que garante que referências em pareceres legislativos nunca quebrem.',
-    },
-  ],
-  descricaoCurta: 'O tripé da informação jurídica (Legislação, Doutrina e Jurisprudência), a estrutura tripartite do Diário Oficial da União (Seções 1, 2 e 3 da Imprensa Nacional), o Diário da Justiça Eletrônico (DJe) e a arquitetura do LexML Brasil (padrão URN Lex).',
-  tempoEstimadoMinutos: 19,
-  autoresChave: ['Edilenice Jovelina de Miranda Passos', 'João Alberto de Oliveira Lima (idealizador da URN LexML)', 'Ana Cláudia Carvalho de Miranda', 'LexML Brasil (Comitê Gestor)', 'Imprensa Nacional'],
+  {
+    "termo": "Identidade e localização",
+    "definicao": "Identificador persistente não é o endereço de um servidor.",
+    "exemploBiblioteca": "Mudança de URL exige manter a resolução; URN não torna o serviço infalível."
+  },
+  {
+    "termo": "Validação de esquema",
+    "definicao": "Conferência das restrições da representação XML.",
+    "exemploBiblioteca": "Passar no XSD não certifica constitucionalidade ou vigência."
+  }
+],
+  descricaoCurta: "Distinguir legislação, doutrina, decisão e orientação jurisprudencial. Separar gestão, documentação e apoio decisório sem atribuir julgamento autônomo à IA. Localizar publicação e distinguir veículo, versão e comunicação dirigida. Interpretar URN e restrições de esquema sem garantias jurídicas automáticas. Relacionar rede, coordenação, histórico e finalidade. Distinguir contagem de combinações e técnica de indexação. Conferir afirmações por fonte, competência e recorte.",
+  tempoEstimadoMinutos: 30,
+  autoresChave: [
+  "Constituição Federal — arts. 59 e 103-A",
+  "Decreto 9.215/2017 — publicação do DOU",
+  "CNJ — Comunicações Processuais",
+  "Projeto LexML — Parte 2: URN",
+  "Projeto LexML — Parte 3: XML Schema",
+  "Senado Federal — A RVBI",
+  "IBICT — Histórico da Bibliodata",
+  "Cunha e Cavalcanti — Dicionário (2008)"
+],
   alertasCebraspe: [
-    'O tripé canônico da informação jurídica: Legislação (atos normativos estatais), Doutrina (estudos, livros e teses de juristas) e Jurisprudência (conjunto de decisões reiteradas dos tribunais). A técnica de distrator recorrente consiste em trocar as funções (ex.: dizer que doutrina são as decisões judiciais: ERRADO!).',
-    'Estrutura estrita do Diário Oficial da União (DOU - Imprensa Nacional): Seção 1 (Leis, decretos e atos normativos gerais); Seção 2 (Atos de pessoal: nomeação, exoneração, aposentadoria); Seção 3 (Contratos, editais, licitações e ineditoriais). A pegadinha clássica é inverter as Seções 2 e 3!',
-    'A edição eletrônica do DOU assinada digitalmente com certificado ICP-Brasil possui a mesma validade jurídica oficial da antiga versão impressa (encerrada em 2017).',
-    'O Diário da Justiça (DJe): os atos judiciais e decisões dos tribunais NÃO saem no DOU, mas no Diário da Justiça Eletrônico de cada tribunal ou no Diário de Justiça Eletrônico Nacional (DJEN/CNJ).',
-    'LexML Brasil: portal unificado coordenado no âmbito do Senado Federal que reúne os três Poderes (Executivo, Legislativo e Judiciário) de todas as esferas federativas. Utiliza identificador unívoco persistente no formato URN Lex (Uniform Resource Name) com sintaxe: urn:lex:país:autoridade:tipo_documento:data;número.',
-    'Esquemas XML do LexML (MPE-CE 2025 / STJ 2024): o LexML opera com dois esquemas de metadados XML: o esquema XML RÍGIDO (utilizado para a publicação e validação formal de proposições legislativas e atos oficiais) e o esquema XML FLEXÍVEL (empregado para a ingestão distribuída e captura de metadados de acervos heterogêneos de colaboradores externos).',
-    'Coordenação das Redes Jurídicas (STJ 2024): a RVBI (Rede Virtual de Bibliotecas) é coordenada administrativamente pela Secretaria de Biblioteca e Arquivo do SENADO FEDERAL (e não pela Câmara dos Deputados nem pelo STF). A REJE é a rede da Justiça Eleitoral (liderada pelo TSE); a RBMPF é a rede do Ministério Público Federal (liderada pela PGR); e a Rede BIBLIODATA foi a rede cooperativa pioneira brasileira da FGV.',
-    'Indexação Pós-Coordenada e Método SLIC (MPE-CE 2025): o método SLIC (Selective Listing in Combination), desenvolvido por J. R. Sharp, seleciona combinações de descritores em ordem alfabética estrita para evitar a explosão combinatória desnecessária de termos compostos.',
-  ],
-  quadroComparativo: {
-    titulo: 'Estrutura Canônica das Três Seções do Diário Oficial da União (DOU)',
-    colunas: ['Seção do DOU', 'Conteúdo Oficial Obrigatório', 'Exemplos Práticos no Serviço Público', 'Armadilha Cebraspe Mapeada'],
-    linhas: [
-      ['Seção 1', 'Atos normativos de interesse geral dos Poderes Executivo, Legislativo e Judiciário', 'Leis ordinárias sancionadas, decretos presidenciais, medidas provisórias, resoluções', 'Afirmar que atos de nomeação e posse de servidores são publicados na Seção 1 (FALSO).'],
-      ['Seção 2', 'Atos de administração de recursos humanos e de pessoal da União', 'Nomeações, exonerações, aposentadorias, cessões, férias de ministros e dirigentes', 'Dizer que contratos de prestação de serviços ou licitações saem na Seção 2 (FALSO).'],
-      ['Seção 3', 'Contratos, convênios, avisos de licitação, editais de concursos e matérias ineditoriais', 'Extratos de contratos públicos, pregões eletrônicos, avisos de leilão, editais da Câmara', 'Afirmar que a Seção 3 é restrita a atos confidenciais de governo (FALSO).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Tripé Estruturante da Informação Jurídica no Parlamento
-A informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo da tomada de decisão e do controle de constitucionalidade no Congresso Nacional (**Edilenice Passos, 2014; Ana Cláudia Carvalho de Miranda, 2013**):
-
-\`\`\`tree
-TITLE: Tripé Estruturante da Informação Jurídica
-- Informação Jurídica Integrada | Sustentáculo da tomada de decisão e do controle de constitucionalidade
-  - 1. Legislação (Normativa / Prescritiva) | Atos estatais, normas gerais e processo legislativo (CF, leis, MPs, decretos)
-  - 2. Jurisprudência (Interpretativa / Casuística) | Decisões reiteradas dos tribunais, acórdãos e súmulas vinculantes do STF
-  - 3. Doutrina (Analítica / Científica) | Estudos teóricos, teses, tratados e artigos de juristas especializados
-\`\`\`
-
-#### A. O Tripé Informacional Canônico
-1. **Legislação (Informação Normativa):**
-   * O conjunto de atos e normas prescritivas emanadas das autoridades constituídas do Estado no exercício de sua competência legislativa e regulamentar.
-   * *Hierarquia Constitucional (Art. 59 da CF/88):* Emendas Constitucionais $\\rightarrow$ Leis Complementares $\\rightarrow$ Leis Ordinárias e Delegadas $\\rightarrow$ Medidas Provisórias $\\rightarrow$ Decretos Legislativos $\\rightarrow$ Resoluções $\\rightarrow$ Atos Infralegais (Decretos Regulamentares, Portarias, Instruções Normativas).
-2. **Doutrina (Informação Analítica / Científica):**
-   * Produção intelectual, científica e acadêmica de juristas, professores e pesquisadores que interpretam, criticam, contextualizam e sistematizam o ordenamento jurídico.
-   * *Veículos Típicos:* Tratados, manuais jurídicos, monografias, dissertações, teses e artigos em periódicos especializados (como a *Revista de Informação Legislativa do Senado* e a *Revista da EJE*).
-3. **Jurisprudência (Informação Interpretativa / Casuística):**
-   * O conjunto reiterado e uniforme de decisões, acórdãos e sentenças proferidas pelos órgãos jurisdicionais do Poder Judiciário ao aplicarem as leis a controvérsias concretas.
-   * *Espécies Principais:* Acórdãos dos Tribunais Superiores (STF, STJ, TST, TSE, STM), súmulas comuns, repercussão geral e **Súmulas Vinculantes do STF** (Art. 103-A da CF/88 — vinculam toda a Administração Pública e os demais órgãos do Judiciário).
-
----
-
-### 2. A Informática Jurídica: Dimensões Documentária, Decisória e de Gestão
-A literatura de Informática Jurídica (**Edilenice Passos & Celso Cândido**) classifica a aplicação da computação ao Direito em três ramos distintos intensamente cobrados pelo Cebraspe:
-
-1. **Informática Jurídica Documentária (ou Documental):**
-   * Foca na coleta, indexação, armazenamento e recuperação automatizada de documentos jurídicos (legislação, jurisprudência e doutrina). É a base do **Portal LexML Brasil** e dos sistemas de busca de jurisprudência dos tribunais.
-2. **Informática Jurídica Decisória (ou Metadocumentária / IA Aplicada):**
-   * Utiliza sistemas especialistas, ontologias formais e inteligência artificial para auxiliar o operador do direito na tomada de decisões ou sugerir minutas de sentenças com base em padrões precedentes (ex.: Projeto Victor no STF, Projeto Sócrates no STJ).
-3. **Informática Jurídica de Gestão (ou Operacional / Telemática):**
-   * Ocupa-se da automação dos fluxos de trabalho e da administração das unidades jurídicas e gabinetes parlamentares (processo judicial eletrônico - PJe, tramitação eletrônica de proposições e controle de prazos).
-
----
-
-### 3. O Diário Oficial da União (DOU) e Publicações Oficiais
-O Diário Oficial da União, gerido e editado pela **Imprensa Nacional** (órgão subordinado à Casa Civil da Presidência da República), é o veículo primordial de publicidade dos atos estatais federais para sua vigência e eficácia perante a sociedade:
-
-#### A. A Estrutura Rígida das Seções do DOU
-* **Seção 1 — Atos Normativos:** Destinada à publicação das normas de caráter abstrato e geral (leis sancionadas, promulgações do Congresso Nacional, atos do Presidente da República, portarias de ministérios, instruções normativas, acórdãos do TCU de interesse geral e tratados internacionais ratificados).
-* **Seção 2 — Atos de Pessoal:** Publicação obrigatória dos atos administrativos individuais que afetam os servidores públicos civis e militares federais (nomeações, exonerações, posses, promoções, aposentadorias, concessões de diárias e viagens oficiais).
-* **Seção 3 — Contratos, Editais e Ineditoriais:** Destinada à publicação de extratos de contratos e convênios públicos federais, avisos de licitações, leilões, **editais de concursos públicos** e matérias de particulares exigidas por lei (balanços de sociedades anônimas, atas de assembleias corporativas e editais de falência).
-
-#### B. A Descontinuidade da Versão Impressa e o Diário da Justiça (DJe)
-* Em **1º de dezembro de 2017**, a Imprensa Nacional encerrou definitivamente a circulação impressa em papel do DOU, passando a circular exclusivamente na versão digital na Internet, assinada digitalmente no padrão da **Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)**, conferindo-lhe plena fé pública e validade jurídica.
-* **O Diário da Justiça Eletrônico (DJe):** Desde 2010, os atos jurisdicionais (acórdãos, intimações e despachos) deixaram de sair no DOU. Cada tribunal mantém seu próprio DJe eletrônico, centralizado nacionalmente pelo Conselho Nacional de Justiça no **Diário de Justiça Eletrônico Nacional (DJEN)**.
-
----
-
-### 4. A Rede e o Portal LexML Brasil: Padrão URN Lex e Esquemas XML
-Criado em 2009 sob a coordenação técnica do Senado Federal (Interlegis) e da Câmara dos Deputados, o **Portal LexML Brasil** (\`https://www.lexml.gov.br\`) é a rede federada de informação legislativa e jurídica mais avançada do país:
-
-#### A. O Padrão URN Lex (Uniform Resource Name - RFC 2141 / IETF)
-Para evitar que alterações nos servidores ou arquiteturas de URL quebrem os links (*link rot*), o LexML adota identificadores persistentes e unívocos globais através da **URN Lex**:
-$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$
-* **Sintaxe Decomposta:**
-  * \`urn:lex\`: Prefixo identificador de namespace (*Namespace Identifier - NID*);
-  * \`br\`: Código de país segundo a norma internacional ISO 3166-1;
-  * \`federal\`: Esfera de autoridade governamental (federal, estadual, distrital ou municipal);
-  * \`lei\`: Espécie de documento jurídico (lei, decreto, medida.provisoria, acordao);
-  * \`1990-12-11;8112\`: Data de promulgação (ISO 8601) e número oficial do ato.
-* **Versionamento e Retificação:** A sintaxe permite expressar versões históricas consolidadas de um texto legal ou fragmentos pontuais (ex.: \`urn:lex:br:federal:lei:1990-12-11;8112@versao:2026-01-01~art5_par1\`).
-
-#### B. Os Dois Esquemas XML do LexML (*Questão MPE-CE 2025 / STJ 2024*)
-* **Esquema Rígido (*Strict Schema*):**
-  * Utilizado para a publicação, validação sintática e estruturação formal de textos da legislação e proposições em tramitação direta no Congresso Nacional.
-  * Exige conformidade semântica exaustiva para cada elemento da Lei Complementar nº 95/1998 (epígrafe, ementa, preâmbulo, artigos, parágrafos, incisos, alíneas e itens).
-* **Esquema Flexível (*Flexible Schema*):**
-  * Empregado para a colheita (*harvesting*) e interoperabilidade distribuída de acervos heterogêneos fornecidos por tribunais estaduais, câmaras municipais e bibliotecas parceiras que não possuem o nível de detalhamento do esquema rígido.
-
----
-
-### 5. Redes Cooperativas de Bibliotecas Jurídicas e Parlamentares no Brasil
-
-A cooperação técnica e o compartilhamento de recursos informacionais constituem diretrizes centrais no universo jurídico nacional, frequentemente cobradas pelo Cebraspe quanto à governança, finalidade e histórico:
-
-#### A. A Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional
-* **Órgão Coordenador:** Secretaria de Biblioteca e Arquivo do **SENADO FEDERAL**.
-* **Composição:** Congrega bibliotecas dos três Poderes da União e da Administração Pública Federal no Distrito Federal (Câmara dos Deputados, Senado Federal, Supremo Tribunal Federal, Superior Tribunal de Justiça, Tribunal Superior do Trabalho, Tribunal Superior Eleitoral, Tribunal de Contas da União, Ministério da Justiça, Advocacia-Geral da União, entre outras).
-* **Instrumentos Padronizados:**
-  * **Catálogo Coletivo Integrado:** Base bibliográfica compartilhada no formato MARC 21;
-  * **Vocabulário Controlado Básico (VCB):** Tesauro setorial coordenado pelo Senado Federal para indexação de doutrina, legislação e atos normativos;
-  * **Classificação Decimal de Direito (CDDir):** Tabela especializada desenvolvida pela bibliotecária Doris de Queiroz Carvalho;
-  * **Alimentação do LexML Brasil:** As bibliotecas da RVBI alimentam a base referencial e doutrinária que subsidia a URN Lex.
-
-#### B. A Rede de Bibliotecas da Justiça Eleitoral (REJE)
-* **Órgão Coordenador:** Biblioteca Professor Aliomar Baleeiro do **Tribunal Superior Eleitoral (TSE)**.
-* **Composição:** Bibliotecas do TSE e dos 27 Tribunais Regionais Eleitorais (TREs).
-* **Missão e Foco:** Especializada em Direito Eleitoral, Direito Partidário, Ciência Política e Jurisprudência Eleitoral.
-* **Serviços:** Catálogo unificado de doutrina eleitoral, empréstimo entre bibliotecas da rede e compartilhamento de artigos da Revista de Jurisprudência Eleitoral.
-
-#### C. A Rede de Bibliotecas do Ministério Público Federal (RBMPF)
-* **Órgão Coordenador:** Biblioteca da **Procuradoria-Geral da República (PGR)**.
-* **Composição Institucional:** Instituída por ato normativo da PGR/MPF, integra a Biblioteca Central da Procuradoria-Geral da República (em Brasília), as bibliotecas das cinco Procuradorias Regionais da República (PRRs nas 5 regiões) e os centros de documentação e bibliotecas das Procuradorias da República nos 26 Estados e no Distrito Federal (PRs/PRMs).
-* **Missão e Escopo Especializado:** Fornecer suporte bibliográfico e doutrinário intensivo à atuação dos Procuradores da República nas funções constitucionais do Ministério Público:
-  * Tutela coletiva e direitos difusos (direitos indígenas, meio ambiente, patrimônio histórico e cultural);
-  * Defesa da ordem jurídica, do regime democrático e da probidade administrativa (combate à corrupção);
-  * Ciências penais, processo penal e cooperação jurídica internacional.
-* **Serviços em Rede:** Catálogo bibliográfico compartilhado, padronização da catalogação em MARC 21, serviço unificado de comutação bibliográfica e circulação de acervos entre as unidades regionais do MPF em todo o território nacional.
-
-#### D. A Rede BIBLIODATA / CALCO (Marco Histórico Pioneiro no Brasil)
-* **Instituição Mantenedora e Origem:** Criada em 1976 sob a liderança técnica da **Fundação Getulio Vargas (FGV)** e do **IBICT (Instituto Brasileiro de Informação em Ciência e Tecnologia)**, no Rio de Janeiro, com papel pioneiro da bibliotecária **Alice Príncipe Barbosa**.
-* **Natureza Histórica:** Foi a **primeira e mais importante rede cooperativa de catalogação automatizada do Brasil**, precursora direta de todas as redes automatizadas contemporâneas no país, estabelecida décadas antes da difusão da Internet comercial.
-* **O Formato CALCO (*Catalogação Legível por Computador*):**
-  * Adaptação oficial brasileira do padrão MARC da Library of Congress;
-  * Desenvolvido para superar a incompatibilidade dos sistemas locais e viabilizar o intercâmbio de dados em fitas magnéticas.
-* **Dinâmica Operacional da Rede:** As bibliotecas cooperantes em todo o país (universidades federais, centros de pesquisa e órgãos públicos) alimentavam o banco central da FGV no Rio de Janeiro, que produzia e remetia às unidades participantes **fichas catalográficas impressas padronizadas** e matrizes de microfichas, evitando a catalogação redundante do mesmo livro em múltiplos estados.
-* **Legado para o Concurso:** A BIBLIODATA consolidou a cultura de cooperação técnica, precedendo a transição para o MARC 21 e para a RVBI.
-
----
-
-#### E. Quadro Sinóptico Comparativo das Redes de Bibliotecas Jurídicas e Parlamentares
-
-| Rede Cooperativa | Instituição Coordenadora | Marco Cronológico | Foco Temático Central | Padrões Tecnológicos / Vocabulário | Relação com a Câmara dos Deputados |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **RVBI** | **Senado Federal** (Sec. de Biblioteca e Arquivo) | Década de 1970 (antiga Rede Sabin) / 2000 (RVBI) | Direito, Processo Legislativo, Ciência Política e Administração Pública | Catálogo Coletivo MARC 21, Tesauro VCB e CDDir | A Câmara dos Deputados é membro cooperante cofundador de primeiro escalão. |
-| **REJE** | **Tribunal Superior Eleitoral (TSE)** | Anos 2000 (Consolidação em rede) | Direito Eleitoral, Partidário e Jurisprudência dos Tribunais Regionais | Base compartilhada de decisões eleitorais e periódicos jurídicos | Intercâmbio de doutrina eleitoral e projetos de reforma política. |
-| **RBMPF** | **Procuradoria-Geral da República (PGR)** | Portaria PGR/MPF | Tutela coletiva, Direitos Humanos, Meio Ambiente e Ciências Penais | Catálogo unificado MPF em MARC 21 e empréstimo entre sedes regionais | Cooperação e intercâmbio de pesquisas com as consultorias legislativas. |
-| **BIBLIODATA** | **Fundação Getulio Vargas (FGV)** / IBICT | 1976 (Pioneira nacional) | Ciências Sociais, Economia, Administração e Acervos Universitários | Formato **CALCO** (MARC brasileiro) e distribuição de fichas impressas | Marco precursor da catalogação cooperativa que estruturou as bibliotecas públicas brasileiras. |
-
----
-
-### 6. Indexação Pós-Coordenada e o Método SLIC (J. R. Sharp, 1965)
-Cobrado nas provas recentes de alto nível do Cebraspe (MPE-CE 2025), o **Método SLIC (*Selective Listing in Combination*)** foi concebido por J. R. Sharp para índices impressos e mecânicos pós-coordenados:
-* **Problema Resolvido:** Se um documento recebe 5 descritores ($A, B, C, D, E$), o número total de combinações possíveis é $2^n - 1 = 31$ permutações. Para 10 descritores, o índice explodiria para mais de 1.000 entradas redundantes.
-* **A Solução do SLIC:** O método estabelece uma **ordenação alfabética rígida dos termos** e gera apenas combinações que mantêm a ordem alfabética estrita, selecionando sequências que não repetem termos menores já cobertos.
-* **Resultado:** Reduz drasticamente o tamanho dos índices mantendo 100% da capacidade de recuperação de qualquer subconjunto conceitual.
-
----
-
-### 7. Quadro Sinóptico de Cascas de Banana do Cebraspe em Informação Jurídica
-
-| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
-| :--- | :--- | :--- |
-| *"No Diário Oficial da União, os editais de abertura de concursos públicos para a Câmara dos Deputados são veiculados na Seção 1."* | **ERRADO** | Editais de concursos saem na **Seção 3** (editais, contratos e licitações). A Seção 1 veicula atos normativos gerais. |
-| *"A coordenação administrativa e técnica da Rede Virtual de Bibliotecas (RVBI) é de responsabilidade da Câmara dos Deputados."* | **ERRADO** | A coordenação da RVBI é privativa da **Secretaria de Biblioteca e Arquivo do SENADO FEDERAL**. |
-| *"A Rede BIBLIODATA/CALCO foi instituída recentemente pela PGR para compartilhamento exclusivo de acórdãos judiciais em formato Dublin Core."* | **ERRADO** | A BIBLIODATA foi criada na década de 1970 pela **FGV/IBICT**, pioneira na catalogação cooperativa no Brasil com o formato **CALCO** (MARC brasileiro). |
-| *"A URN Lex empregada no LexML utiliza o endereço físico dos servidores web (IP) para garantir a localização do documento."* | **ERRADO** | A URN Lex é um identificador de **nome persistente abstrato**, completamente independente de servidores IP ou URLs físicas. |
-| *"No LexML, o esquema XML flexível é o exigido para a redação formal das proposições legislativas em tramitação no Congresso."* | **ERRADO** | A redação formal de proposições exige o **esquema XML RÍGIDO** (*Strict Schema*); o flexível serve para capturar dados externos. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Regimento Interno da Câmara dos Deputados (sub-10-1):** Classificação de proposições e atos do processo legislativo.
-* **Metadados, Dublin Core e Crosswalks (sub-2-6):** Esquema XML LexML e interoperabilidade com catálogos MARC 21.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A gestão das **Fontes de Informação Jurídica** e o domínio sobre o ecossistema do **LexML Brasil** constituem competências centrais para o Analista Legislativo:
-1. **Tipologia Tridimensional da Informação Jurídica:**
-   - **Legislação (Normas):** Atos normativos primários e secundários (Constituição, Leis Complementares, Leis Ordinárias, Decretos, Medidas Provisórias, Resoluções, Portarias).
-   - **Jurisprudência:** Conjunto de decisões, acórdãos e súmulas reiteradas dos órgãos do Poder Judiciário (STF, STJ, TST, TSE, STM, TRFs, TJs) e tribunais administrativos de contas (TCU).
-   - **Doutrina:** Produção intelectual dos juristas e cientistas do direito (artigos, tratados, comentários a códigos, pareceres jurídicos e monografias).
-2. **Publicações Oficiais e Diários Oficiais:**
-   - **Diário Oficial da União (DOU):** Publicação oficial gerida pela Imprensa Nacional dividida em 3 seções:
-     - *Seção 1:* Leis, decretos, resoluções, portarias e atos normativos gerais.
-     - *Seção 2:* Atos relativos a pessoal da administração pública federal (nomeações, exonerações, aposentadorias).
-     - *Seção 3:* Contratos, editais de licitação, concursos públicos e avisos.
-   - **Diário da Câmara dos Deputados (DCD) e Diário do Congresso Nacional (DCN):** Registro oficial dos trabalhos legislativos, pautas, discursos em plenário, proposições apresentadas e atas das comissões.
-3. **O Portal LexML Brasil (Rede de Informação Legislativa e Jurídica):**
-   - Iniciativa governamental brasileira inspirada no padrão internacional *Akoma Ntoso* e nos princípios de Dados Abertos e Web Semântica.
-   - Utiliza identificadores persistentes e universais baseados no padrão **URN (*Uniform Resource Name*) LexML**.
-   - **Estrutura Canônica da URN LexML:**
-     \`urn:lex:br:federal:lei:2006-08-07;11340\`
-     (Hierarquia: jurisdição territorial $\to$ autoridade $\to$ tipo de norma $\to$ data de promulgação $\to$ número).
-   - Permite a referenciação precisa de versões consolidadas de normas e a conexão direta entre leis e suas decisões judiciais correlatas.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Identificação de URN LexML em Emendas Parlamentares):** Ao elaborar a ficha de metadados de uma emenda substitutiva ao Código Civil na Comissão de Constituição e Justiça, o bibliotecário vincula a proposição à URN canônica: \`urn:lex:br:federal:lei:2002-01-10;10406\`, permitindo que os sistemas de automação legislativa processem automaticamente a árvore de alterações da norma.
-- **Cenário 2 (Diferenciação de Seções do DOU no Apoio Parlamentar):** Um deputado pede verificação urgente sobre se a nomeação de um novo ministro foi publicada. O bibliotecário consulta imediatamente a **Seção 2 do DOU**; caso o deputado solicitasse o texto do decreto assinado, a busca seria feita na **Seção 1**.
-- **Cenário 3 (Integração SILEG e LexML):** Os registros de proposições legislativas cadastrados no Sistema de Informações Legislativas da Câmara (SILEG) são convertidos em XML e indexados no repositório nacional do LexML, tornando as leis da Câmara recuperáveis simultaneamente com a jurisprudência do STF.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Vertente Jurídica / Seção DOU | Conteúdo e Definição | Exemplo de Aplicação | Fonte Canônica |
-| :--- | :--- | :--- | :--- |
-| **Legislação** | Normas escritas editadas pelo Estado | Leis, Decretos, Medidas Provisórias | DOU Seção 1 / LexML |
-| **Jurisprudência** | Decisões reiteradas de tribunais | Súmulas vinculantes, Acórdãos do STF | Diário de Justiça / STF |
-| **Doutrina** | Estudos teóricos de juristas | Livros de direito, teses, pareceres | Biblioteca Pedro Aleixo / RVBI |
-| **DOU - Seção 1** | Atos normativos de efeito geral | Promulgação de Lei Federal | Imprensa Nacional |
-| **DOU - Seção 2** | Atos de pessoal do serviço público | Nomeação de servidor concursado | Imprensa Nacional |
-| **DOU - Seção 3** | Licitações, contratos e editais | Edital de concurso da Câmara | Imprensa Nacional |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Estrutura da URN LexML:** A banca altera a sintaxe da URN, trocando \`urn:lex:...\` por URLs HTTP frágeis (\`http://leis.gov.br/...\`) ou invertendo a ordem hierárquica (colocando o número antes da autoridade). **Gabarito: a URN é persistente e obedece à hierarquia espacial e cronológica rigorosa.**
-- **Seções do DOU:** O Cebraspe afirma que a publicação de um edital de licitação para reforma predial da Câmara é feita na Seção 1 do DOU. **Gabarito: ERRADO.** Editais, contratos e avisos de licitação são publicados exclusivamente na **Seção 3**.
-- **Doutrina como Fonte Formal Primária do Direito:** Afirmar que a doutrina jurídica possui força vinculante obrigatória e eficácia de lei geral. **Gabarito: ERRADO.** A doutrina é fonte secundária e subsidiária de interpretação; não vincula os juízes nem o parlamento.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **PASSOS, Edilenice; BARROS, Luciana Peixoto de.** *Informação jurídica: teoria e prática*. Brasília: Thesaurus, 2014. (Livro clássico indispensável para bibliotecas jurídicas e parlamentares).
-- **BRASIL. SENADO FEDERAL.** *Portal LexML Brasil: Documentação Técnica da Rede de Informação Legislativa e Jurídica*. Brasília: Senado Federal / Coordenação do LexML, 2023.
-- **BRASIL. IMPRENSA NACIONAL.** *Portaria que estabelece as normas para publicação no Diário Oficial da União*. Brasília: Imprensa Nacional, 2022.
-- **CÂMARA DOS DEPUTADOS.** *Guia do Processo Legislativo e Fontes de Informação da Câmara*. Brasília: Edições Câmara, 2021.
-- **MEZZAROBA, Orides; MONTEIRO, Cláudia Servilha.** *Manual de metodologia da pesquisa no direito*. 7. ed. São Paulo: Saraiva, 2019.`,
+  "A enumeração não forma essa escada linear; competência e reserva material importam.",
+  "Classificação e decisão jurisdicional são funções diferentes.",
+  "O art. 3º prevê exemplar para guarda; publicação eletrônica não significa inexistência de toda impressão."
+],
+  teoriaDensaMarkdown: "### O Tripé Estruturante da Informação Jurídica no Parlamento\n\nA informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo da tomada de decisão e do controle de constitucionalidade no Congresso Nacional (**Edilenice Passos, 2014; Ana Cláudia Carvalho de Miranda, 2013**):\n\n```tree\nTITLE: Tripé Estruturante da Informação Jurídica\n- Informação Jurídica Integrada | Sustentáculo da tomada de decisão e do controle de constitucionalidade\n  - 1. Legislação (Normativa / Prescritiva) | Atos estatais, normas gerais e processo legislativo (CF, leis, MPs, decretos)\n  - 2. Jurisprudência (Interpretativa / Casuística) | Decisões reiteradas dos tribunais, acórdãos e súmulas vinculantes do STF\n  - 3. Doutrina (Analítica / Científica) | Estudos teóricos, teses, tratados e artigos de juristas especializados\n```\n\n#### A. O Tripé Informacional Canônico\n1. **Legislação (Informação Normativa):**\n   * O conjunto de atos e normas prescritivas emanadas das autoridades constituídas do Estado no exercício de sua competência legislativa e regulamentar.\n   * **Espécies do art. 59 da CF:** emendas, leis complementares, ordinárias, delegadas, medidas provisórias, decretos legislativos e resoluções. **A lista não estabelece uma escada linear de hierarquia entre todas elas.** Lei complementar e lei ordinária possuem campos e procedimentos próprios; não se presume superioridade universal apenas pelo nome. Decreto regulamentar é ato infralegal e não se confunde com decreto legislativo.\n\n2. **Doutrina (Informação Analítica / Científica):**\n   * Produção intelectual, científica e acadêmica de juristas, professores e pesquisadores que interpretam, criticam, contextualizam e sistematizam o ordenamento jurídico.\n   * *Veículos Típicos:* Tratados, manuais jurídicos, monografias, dissertações, teses e artigos em periódicos especializados (como a *Revista de Informação Legislativa do Senado* e a *Revista da EJE*).\n3. **Jurisprudência (Informação Interpretativa / Casuística):**\n   * A orientação extraída de decisões, considerada sua consistência, contexto e força no regime aplicável. Bases jurisprudenciais também recuperam decisões individuais, que não são automaticamente orientação pacificada. O conjunto de decisões, acórdãos e sentenças proferidas pelos órgãos jurisdicionais do Poder Judiciário ao aplicarem as leis a controvérsias concretas.\n   * *Espécies Principais:* Acórdãos dos Tribunais Superiores (STF, STJ, TST, TSE, STM), súmulas comuns, repercussão geral e **Súmulas Vinculantes do STF** (Art. 103-A da CF/88 — têm o âmbito definido no art. 103-A: demais órgãos do Judiciário e administração direta/indireta nas esferas federal, estadual e municipal. Não vinculam o próprio STF da mesma maneira nem impedem a função legislativa de produzir normas).\n\n**Aplicação e recuperação:** Uma medida provisória é relevante para a pesquisa normativa, mas sua existência não a torna hierarquicamente superior a uma lei ordinária. Para responder sobre vigência e efeitos, consulte o regime constitucional, as conversões e os atos pertinentes.\n\n### A Informática Jurídica: Dimensões Documentária, Decisória e de Gestão\n\nA literatura de Informática Jurídica (**Edilenice Passos & Celso Cândido**) classifica a aplicação da computação ao Direito em dimensões úteis para análise, sem medir frequência de prova nesta aula:\n\n1. **Informática Jurídica Documentária (ou Documental):**\n   * Foca na coleta, indexação, armazenamento e recuperação automatizada de documentos jurídicos (legislação, jurisprudência e doutrina). É a base do **Portal LexML Brasil** e dos sistemas de busca de jurisprudência dos tribunais.\n2. **Informática Jurídica Decisória (ou Metadocumentária / IA Aplicada):**\n   * Utiliza sistemas especialistas, ontologias formais e inteligência artificial para auxiliar o operador do direito na tomada de decisões ou sugerir minutas de sentenças com base em padrões precedentes (ex.: ferramentas de classificação e apoio à análise; reconhecer padrões processuais não é delegar decisão jurisdicional autônoma a uma máquina).\n3. **Informática Jurídica de Gestão (ou Operacional / Telemática):**\n   * Ocupa-se da automação dos fluxos de trabalho e da administração das unidades jurídicas e gabinetes parlamentares (processo judicial eletrônico - PJe, tramitação eletrônica de proposições e controle de prazos).\n\n**Aplicação e recuperação:** Um algoritmo separa processos por tema para facilitar a análise. Isso é apoio ao fluxo, não prova de que a máquina profere sentença. Nome de projeto não basta para afirmar uma capacidade decisória que a fonte não descreve.\n\n### Publicação oficial, versões e comunicação processual\n\nO Diário Oficial da União, gerido e editado pela **Imprensa Nacional** (órgão subordinado à Casa Civil da Presidência da República), é o veículo primordial de publicidade dos atos estatais federais para sua vigência e eficácia perante a sociedade:\n\n#### A. Seções do DOU: classificar pela matéria\n* **Seção 1 — Atos Normativos:** Destinada à publicação das normas de caráter abstrato e geral (leis sancionadas, promulgações do Congresso Nacional, atos do Presidente da República, portarias de ministérios, instruções normativas, acórdãos do TCU de interesse geral e tratados internacionais ratificados).\n* **Seção 2 — Atos de Pessoal:** Publicação obrigatória dos atos administrativos individuais que afetam os servidores públicos civis e militares federais (nomeações, exonerações, promoções e aposentadorias, conforme regras de publicação. Não se presume que todo evento de pessoal, posse, diária ou viagem tenha idêntica obrigatoriedade e seção sem consultar a disciplina específica).\n* **Seção 3 — Contratos, Editais e Ineditoriais:** Destinada à publicação de extratos de contratos e convênios públicos federais, avisos de licitações, leilões, **editais de concursos públicos** e matérias de particulares exigidas por lei (balanços de sociedades anônimas, atas de assembleias corporativas e editais de falência).\n\n#### B. A Descontinuidade da Versão Impressa e o Diário da Justiça (DJe)\n* Em **1º de dezembro de 2017**, a Imprensa Nacional adotou publicação exclusivamente eletrônica do DOU. O Decreto 9.215/2017 ainda determina impressão e guarda de ao menos um exemplar para arquivo; isso difere de circulação comercial impressa. A versão eletrônica passou, a atender aos requisitos da **Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)**, conferindo-lhe plena fé pública e validade jurídica.\n* **O Diário da Justiça Eletrônico (DJe):** Não se deve fixar uma migração universal em 2010. A publicação judicial e a comunicação processual têm regras próprias. O **DJEN** e o **Domicílio Judicial Eletrônico**, regulados pelo CNJ, não são sinônimos: o primeiro é diário de publicação; o segundo atende comunicações dirigidas nos casos previstos. Conferir ato, tribunal, data e regime aplicável evita contar prazo por mera página de notícia.\n\n**Aplicação e recuperação:** O usuário encontrou uma notícia sobre julgamento. Para comprovar o ato e seu conteúdo, busque a decisão/publicação oficial e verifique datas. Um extrato no portal não substitui automaticamente o documento integral ou a regra de intimação.\n\n### A Rede e o Portal LexML Brasil: Padrão URN Lex e Esquemas XML\n\nLançado em 2009 e desenvolvido por iniciativa cooperativa de instituições públicas, com atuação do Senado Federal, o **Portal LexML Brasil** (`https://www.lexml.gov.br`) integra acesso à informação legislativa e jurídica de diferentes fontes, sem que essa descrição constitua ranking de superioridade:\n\n#### A. URN Lex: identidade não é localização\nPara evitar que alterações nos servidores ou arquiteturas de URL quebrem os links (*link rot*), o LexML adota identificadores persistentes e unívocos globais através da **URN Lex**:\n$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$\n* **Sintaxe Decomposta:**\n  * `urn`: esquema; `lex`: identificador do namespace na construção usada;\n  * `br`: Código de país segundo a norma internacional ISO 3166-1;\n  * `federal`: componente de autoridade do exemplo; localidade e autoridade são componentes distintos na sintaxe completa;\n  * `lei`: Espécie de documento jurídico (lei, decreto, medida.provisoria, acordao);\n  * `1990-12-11;8112`: Data de identificação do ato no exemplo; não se generaliza toda data de toda espécie como data de promulgação e número oficial do ato.\n* **Resolução e versões:** identificação e localização são separadas, mas a disponibilidade exige manutenção do serviço e dos vínculos. A URN não garante que um servidor jamais falhe. O manual possui regras específicas para componentes, versões e fragmentos; não se deve inventar um sufixo e apresentá-lo como validado.\n\n#### B. Esquemas rígido e flexível não são formatos de colheita\n\nA Parte 3, seção 2, explica: o rígido brasileiro modela articulação conforme a LC 95/1998; o flexível admite combinações mais amplas, inclusive normas que não seguem aquela técnica. No modelo documentado, **válido no rígido implica válido no flexível**, mas a recíproca não é garantida. Flexível não significa exclusivamente “coleta de metadados externos”; há esquema próprio `oai_lexml`. Validação XML verifica restrições do esquema, **não legalidade, constitucionalidade ou verdade integral** do ato.\n\n**Aplicação e recuperação:** A URN da Lei 8.112 identifica o ato; um endereço pode levar ao texto em um servidor. Ao mudar a URL, a manutenção da resolução preserva a utilidade do identificador. Passar num XSD não prova vigência ou constitucionalidade.\n\n### Redes Cooperativas de Bibliotecas Jurídicas e Parlamentares no Brasil\n\nA cooperação técnica e o compartilhamento de recursos informacionais constituem diretrizes centrais no universo jurídico nacional, frequentemente cobradas pelo Cebraspe quanto à governança, finalidade e histórico:\n\n#### A. A Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional\n* **Órgão Coordenador:** Secretaria de Biblioteca e Arquivo do **SENADO FEDERAL**.\n* **Composição:** Congrega bibliotecas dos três Poderes da União e da Administração Pública Federal no Distrito Federal (Câmara dos Deputados, Senado Federal, Supremo Tribunal Federal, Superior Tribunal de Justiça, Tribunal Superior do Trabalho, Tribunal Superior Eleitoral, Tribunal de Contas da União, Ministério da Justiça, Advocacia-Geral da União, entre outras).\n* **Instrumentos Padronizados:**\n  * **Catálogo Coletivo Integrado:** Base bibliográfica compartilhada no formato MARC 21;\n  * **Vocabulário Controlado Básico (VCB):** Tesauro setorial coordenado pelo Senado Federal para indexação de doutrina, legislação e atos normativos;\n  * **Classificação Decimal de Direito (CDDir):** Tabela especializada desenvolvida pela bibliotecária Doris de Queiroz Carvalho;\n  * **Alimentação do LexML Brasil:** As bibliotecas da RVBI alimentam a base referencial e doutrinária que subsidia a URN Lex.\n\n#### B. A Rede de Bibliotecas da Justiça Eleitoral (REJE)\n* **Órgão Coordenador:** Biblioteca Professor Aliomar Baleeiro do **Tribunal Superior Eleitoral (TSE)**.\n* **Composição:** Bibliotecas do TSE e dos 27 Tribunais Regionais Eleitorais (TREs).\n* **Missão e Foco:** Especializada em Direito Eleitoral, Direito Partidário, Ciência Política e Jurisprudência Eleitoral.\n* **Serviços:** Catálogo unificado de doutrina eleitoral, empréstimo entre bibliotecas da rede e compartilhamento de artigos da Revista de Jurisprudência Eleitoral.\n\n#### C. A Rede de Bibliotecas do Ministério Público Federal (RBMPF)\n* **Órgão Coordenador:** Biblioteca da **Procuradoria-Geral da República (PGR)**.\n* **Composição Institucional:** Instituída por ato normativo da PGR/MPF, integra a Biblioteca Central da Procuradoria-Geral da República (em Brasília), as bibliotecas das unidades regionais pertinentes à organização vigente e os centros de documentação e bibliotecas das Procuradorias da República nos 26 Estados e no Distrito Federal (PRs/PRMs).\n* **Missão e Escopo Especializado:** Fornecer suporte bibliográfico e doutrinário intensivo à atuação dos Procuradores da República nas funções constitucionais do Ministério Público:\n  * Tutela coletiva e direitos difusos (direitos indígenas, meio ambiente, patrimônio histórico e cultural);\n  * Defesa da ordem jurídica, do regime democrático e da probidade administrativa (combate à corrupção);\n  * Ciências penais, processo penal e cooperação jurídica internacional.\n* **Serviços em Rede:** Catálogo bibliográfico compartilhado, padronização da catalogação em MARC 21, serviço unificado de comutação bibliográfica e circulação de acervos entre as unidades regionais do MPF em todo o território nacional.\n\n#### D. A Rede BIBLIODATA / CALCO (Marco Histórico Pioneiro no Brasil)\n* **Instituição Mantenedora e Origem:** Desenvolvida na **Fundação Getulio Vargas (FGV)** na década de 1970; o histórico do IBICT registra termo de cessão da Bibliodata para o instituto em **2009**. Não se confunde a origem com a responsabilidade atual, no Rio de Janeiro, com papel pioneiro da bibliotecária **Alice Príncipe Barbosa**.\n* **Natureza Histórica:** Foi **pioneira na catalogação cooperativa automatizada no Brasil**, sem demonstrar por isso ser origem direta de toda rede posterior, estabelecida décadas antes da difusão da Internet comercial.\n* **O Formato CALCO (*Catalogação Legível por Computador*):**\n  * Adaptação oficial brasileira do padrão MARC da Library of Congress;\n  * Desenvolvido para superar a incompatibilidade dos sistemas locais e viabilizar o intercâmbio de dados em fitas magnéticas.\n* **Dinâmica Operacional da Rede:** As bibliotecas cooperantes em todo o país (universidades federais, centros de pesquisa e órgãos públicos) alimentavam o banco central da FGV no Rio de Janeiro, que produzia e remetia às unidades participantes **fichas catalográficas impressas padronizadas** e matrizes de microfichas, evitando a catalogação redundante do mesmo livro em múltiplos estados.\n* **Legado para o Concurso:** A BIBLIODATA consolidou a cultura de cooperação técnica, precedendo a transição para o MARC 21 e para a RVBI.\n\n---\n\n#### E. Quadro Sinóptico Comparativo das Redes de Bibliotecas Jurídicas e Parlamentares\n\n| Rede Cooperativa | Instituição Coordenadora | Marco Cronológico | Foco Temático Central | Padrões Tecnológicos / Vocabulário | Relação com a Câmara dos Deputados |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **RVBI** | **Senado Federal** (Sec. de Biblioteca e Arquivo) | Década de 1970 (antiga Rede Sabin) / 2000 (RVBI) | Direito, Processo Legislativo, Ciência Política e Administração Pública | Catálogo Coletivo MARC 21, Tesauro VCB e CDDir | A Câmara dos Deputados integra a cooperação; não se cria categoria institucional de “primeiro escalão”. |\n| **REJE** | **Tribunal Superior Eleitoral (TSE)** | Anos 2000 (Consolidação em rede) | Direito Eleitoral, Partidário e Jurisprudência dos Tribunais Regionais | Base compartilhada de decisões eleitorais e periódicos jurídicos | Intercâmbio de doutrina eleitoral e projetos de reforma política. |\n| **RBMPF** | **Procuradoria-Geral da República (PGR)** | Portaria PGR/MPF | Tutela coletiva, Direitos Humanos, Meio Ambiente e Ciências Penais | Catálogo unificado MPF em MARC 21 e empréstimo entre sedes regionais | Cooperação e intercâmbio de pesquisas com as consultorias legislativas. |\n| **BIBLIODATA** | FGV na origem; IBICT após cessão | Década de 1970; cessão em 2009 | Ciências Sociais, Economia, Administração e Acervos Universitários | Formato **CALCO** (MARC brasileiro) e distribuição de fichas impressas | Marco precursor da catalogação cooperativa que estruturou as bibliotecas públicas brasileiras. |\n\n**Aplicação e recuperação:** Senado e Câmara cooperam, mas isso não torna a Câmara coordenadora da RVBI. Bibliodata ter origem na FGV também não permite congelar sua gestão em 1976. Separe origem, cessão, membros e serviços.\n\n### SLIC: combinação, permutação e recuperação não são sinônimos\n\nO **Selective Listing in Combination** é descrito por Cunha e Cavalcanti como listagem seletiva em combinação, que combina elementos em uma direção. O verbete ilustra ABC por **ABC, AC, BC, C**. Não se deve substituir a técnica por uma regra vaga de gerar “todas as combinações alfabéticas” ou prometer recuperação de 100% de qualquer necessidade.\n\nEm um conjunto com n elementos distintos, **2ⁿ−1** conta subconjuntos não vazios; não conta permutações. Para A, B e C, são sete subconjuntos não vazios. Permutações completas dos três elementos são **3!=6**. Confundir essas contagens impede entender o que um índice está selecionando.\n\nPré-coordenação reúne conceitos na representação; pós-coordenação os combina na busca, conforme o sistema. Um índice impresso que ordena entradas não deve ser classificado automaticamente apenas porque tem combinações no nome. É necessário explicitar operação, representação e modo de consulta. Compare também indexação e tesauros nas aulas 3.3–3.4.\n\n**Aplicação e recuperação:** Com cinco descritores há 31 subconjuntos não vazios; esse número não é de permutações completas, que são 120. A contagem combinatória não prova que determinado método gere todos os subconjuntos ou responda toda pergunta.\n\n### Enunciados autorais de aplicação: documento, identidade e responsabilidade\n\n| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"No Diário Oficial da União, os editais de abertura de concursos públicos para a Câmara dos Deputados são veiculados na Seção 1.\"* | **ERRADO** | Editais de concursos saem na **Seção 3** (editais, contratos e licitações). A Seção 1 veicula atos normativos gerais. |\n| *\"A coordenação administrativa e técnica da Rede Virtual de Bibliotecas (RVBI) é de responsabilidade da Câmara dos Deputados.\"* | **ERRADO** | A coordenação da RVBI é exercida pelo Senado, por meio da **Senado Federal**, por sua estrutura de biblioteca e arquivo. |\n| *\"A Rede BIBLIODATA/CALCO foi instituída recentemente pela PGR para compartilhamento exclusivo de acórdãos judiciais em formato Dublin Core.\"* | **ERRADO** | A BIBLIODATA foi criada na década de 1970 na **FGV**, com posterior cessão ao IBICT, pioneira na catalogação cooperativa no Brasil com o formato **CALCO** (MARC brasileiro). |\n| *\"A URN Lex empregada no LexML utiliza o endereço físico dos servidores web (IP) para garantir a localização do documento.\"* | **ERRADO** | A URN Lex é um identificador de **nome persistente abstrato**, completamente independente de servidores IP ou URLs físicas. |\n| *\"No LexML, o esquema XML flexível é o exigido para a redação formal das proposições legislativas em tramitação no Congresso.\"* | **ERRADO** | A distinção documentada é de restrições de articulação. Não se deduz que toda proposição usa o mesmo esquema nem que flexível seja apenas colheita externa. |\n\n**Aplicação e recuperação:** “Tem identificador persistente” não significa “nunca ficará indisponível”. “É válido no rígido” tem uma implicação específica no modelo de esquemas; não autoriza inverter a relação ou afirmar validade jurídica.",
+  teoriaDidaticaMarkdown: "Pesquise fonte oficial, espécie, versão e data. O art. 59 não é escada linear entre todas as espécies. DOU, DJEN e Domicílio Judicial Eletrônico têm funções distintas. URN separa identidade de localização; manutenção continua necessária. Esquema XML não certifica constitucionalidade. RVBI é coordenada pelo Senado; Bibliodata tem origem na FGV e cessão ao IBICT. Não confunda subconjuntos com permutações.",
   checkpoints: [
-    {
-      id: 'cp-4-3-1',
-      pergunta: 'Micro-Checkpoint 1: Seções do Diário Oficial da União (DOU)',
-      item: 'No Diário Oficial da União (DOU), a publicação de editais de concurso público e de extratos de contratos administrativos deve ser realizada obrigatoriamente na Seção 2.',
-      gabarito: 'E',
-      justificativa: 'Errado! Editais de concurso, licitações e contratos são publicados na Seção 3 do DOU. A Seção 2 é reservada exclusivamente aos atos de pessoal (servidores).',
-    },
-    {
-      id: 'cp-4-3-2',
-      pergunta: 'Micro-Checkpoint 2: Identificador Persistente do LexML Brasil',
-      item: 'O portal LexML Brasil adota a notação URN (Uniform Resource Name) para atribuir identificadores persistentes e independentes de localização aos documentos legislativos e jurídicos em sua base de dados.',
-      gabarito: 'C',
-      justificativa: 'Correto! A URN Lex assegura a persistência e a unicidade da referência documental jurídica no LexML.',
-    },
-    {
-      id: 'cp-4-3-3',
-      pergunta: 'Micro-Checkpoint 3: Redes Cooperativas Brasileiras (RVBI, RBMPF e BIBLIODATA)',
-      item: 'A Rede Virtual de Bibliotecas (RVBI) tem sua gestão técnica e coordenação centralizadas na Secretaria de Biblioteca e Arquivo do Senado Federal, ao passo que a Rede BIBLIODATA, criada na década de 1970 sob coordenação da FGV com apoio do IBICT, consolidou-se como o marco pioneiro da catalogação cooperativa automatizada no Brasil com o uso do formato CALCO.',
-      gabarito: 'C',
-      justificativa: 'Certo! O Cebraspe exige o domínio institucional e histórico das redes nacionais: a RVBI é liderada pelo Senado Federal (com participação da Câmara e tribunais), e a pioneira BIBLIODATA/CALCO foi liderada pela FGV/IBICT a partir de 1976 como primeira rede nacional de catalogação cooperativa.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-4-3-1',
-        periodo: '1862 / 1925',
-        disciplina: 'Publicações Oficiais no Brasil',
-        focoPrincipal: 'Criação do Diário Oficial e, posteriormente, do Diário da Justiça pela Imprensa Nacional',
-        figuraChave: 'Imprensa Nacional',
-      },
-      {
-        id: 'tl-4-3-2',
-        periodo: '1970 / 1980',
-        disciplina: 'Redes Cooperativas',
-        focoPrincipal: 'Desenvolvimento do formato CALCO e criação da Rede BIBLIODATA pela FGV',
-        figuraChave: 'Edson Nery da Fonseca / FGV',
-      },
-      {
-        id: 'tl-4-3-3',
-        periodo: '2009 / 2026',
-        disciplina: 'LexML Brasil',
-        focoPrincipal: 'Lançamento e consolidação do portal LexML Brasil com padrão URN Lex e esquemas XML rígido/flexível',
-        figuraChave: 'Comitê Gestor LexML / Senado Federal (Interlegis)',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-4-3-1',
-        nome: 'Edilenice Jovelina Passos',
-        ano: 2008,
-        obraPrincipal: 'Informação jurídica: teoria e prática em bibliotecas parlamentares',
-        ideiaChave: 'Sistematização do tripé legislação, doutrina e jurisprudência e rotinas de compilação normativa.',
-        chipPegadinha: 'Informação legislativa é subconjunto formal da informação jurídica voltado ao processo legislativo.',
-      },
-      {
-        id: 'aut-4-3-2',
-        nome: 'John R. Sharp',
-        ano: 1965,
-        obraPrincipal: 'Some Fundamentals of Information Retrieval (Método SLIC)',
-        ideiaChave: 'Método SLIC (Selective Listing in Combination) para indexação pós-coordenada sem redundância combinatória.',
-        chipPegadinha: 'O SLIC gera apenas combinações ordenadas seletivas alfabeticamente, e não todas as permutações possíveis.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-4-3-1',
-        afirmacao: 'A governança e a coordenação geral da Rede Virtual de Bibliotecas (RVBI) estão centralizadas na Mesa Diretora da Câmara dos Deputados.',
-        gabarito: 'E',
-        porQue: 'Cobrada no STJ 2024! A coordenação técnica da RVBI é de atribuição exclusiva da Secretaria de Biblioteca e Arquivo do SENADO FEDERAL.',
-      },
-      {
-        id: 'peg-4-3-2',
-        afirmacao: 'O padrão LexML de representação documental utiliza um esquema XML único e inflexível que impede a participação de acervos heterogêneos de órgãos externos.',
-        gabarito: 'E',
-        porQue: 'Cobrada no MPE-CE 2025! O LexML adota esquemas rígidos (para proposições oficiais) e esquemas flexíveis (para ingestão distribuída de dados heterogêneos).',
-      },
-    ],
+  {
+    "id": "cp-4-3-1",
+    "pergunta": "Micro-Checkpoint 1: Seções do Diário Oficial da União (DOU)",
+    "item": "No Diário Oficial da União (DOU), a publicação de editais de concurso público e de extratos de contratos administrativos deve ser realizada obrigatoriamente na Seção 2.",
+    "gabarito": "E",
+    "justificativa": "Editais de concurso e extratos contratuais são matérias da Seção 3, não da Seção 2, destinada a pessoal. Conferir a disciplina de publicação específica.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "versao_correta": "Essas matérias são publicadas na Seção 3, conforme as regras aplicáveis."
   },
+  {
+    "id": "cp-4-3-2",
+    "pergunta": "Micro-Checkpoint 2: Identificador Persistente do LexML Brasil",
+    "item": "O portal LexML Brasil adota a notação URN (Uniform Resource Name) para atribuir identificadores persistentes e independentes de localização aos documentos legislativos e jurídicos em sua base de dados.",
+    "gabarito": "C",
+    "justificativa": "O identificador separa identidade e localização. Persistência é objetivo apoiado em manutenção e resolução, não garantia automática de disponibilidade perpétua.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination."
+  },
+  {
+    "id": "cp-4-3-3",
+    "pergunta": "Micro-Checkpoint 3: Redes Cooperativas Brasileiras (RVBI, RBMPF e BIBLIODATA)",
+    "item": "A RVBI é coordenada pelo Senado Federal; a Bibliodata teve origem na FGV na década de 1970 e seu histórico registra cessão ao IBICT em 2009.",
+    "gabarito": "C",
+    "justificativa": "A afirmação distingue coordenação da RVBI, origem da Bibliodata e responsabilidade posterior; não as funde numa criação conjunta atemporal.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination."
+  },
+  {
+    "id": "rt-4-3-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O art. 59 estabelece superioridade hierárquica universal da lei complementar sobre toda lei ordinária, independentemente da matéria.",
+    "gabarito": "E",
+    "justificativa": "A enumeração não forma essa escada linear; competência e reserva material importam.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "É preciso examinar campo material e procedimento constitucional."
+  },
+  {
+    "id": "rt-4-3-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um sistema que classifica documentos processuais prova, por esse fato, que decide autonomamente o mérito de toda ação.",
+    "gabarito": "E",
+    "justificativa": "Classificação e decisão jurisdicional são funções diferentes.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "A capacidade do sistema deve ser verificada, sem inferir julgamento autônomo."
+  },
+  {
+    "id": "rt-4-3-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A publicação exclusivamente eletrônica do DOU exclui até a impressão de exemplar para arquivo prevista no decreto.",
+    "gabarito": "E",
+    "justificativa": "O art. 3º prevê exemplar para guarda; publicação eletrônica não significa inexistência de toda impressão.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Circulação eletrônica e impressão para arquivo são situações distintas."
+  },
+  {
+    "id": "rt-4-3-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No modelo LexML documentado, validade no esquema rígido implica validade no flexível, sem garantir a recíproca.",
+    "gabarito": "C",
+    "justificativa": "As restrições do rígido são mais estreitas no modelo descrito.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-3-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A origem da Bibliodata na FGV permite afirmar que sua gestão nunca foi objeto de cessão ao IBICT.",
+    "gabarito": "E",
+    "justificativa": "O histórico registra termo de cessão em 2009.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Origem e gestão posterior devem ser distinguidas."
+  },
+  {
+    "id": "rt-4-3-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Para cinco elementos distintos, 2⁵−1 conta subconjuntos não vazios, e não permutações completas.",
+    "gabarito": "C",
+    "justificativa": "Há 31 subconjuntos não vazios; permutações completas são 5!=120.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-3-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Validação XML de um texto legislativo certifica automaticamente sua constitucionalidade.",
+    "gabarito": "E",
+    "justificativa": "O esquema valida restrições formais de representação, não substitui controle jurídico.",
+    "fonte": "CF, arts. 59 e 103-A; Decreto 9.215/2017; CNJ, Resoluções 455/2022 e 569/2024; Projeto LexML, Partes 2 e 3; Senado, RVBI; IBICT, histórico Bibliodata; Cunha e Cavalcanti (2008), verbete Selective Listing in Combination.",
+    "editalRef": "Bloco E - Item 2.3 a 2.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Validade sintática e validade jurídica são dimensões distintas."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-4-3-fonte-cf",
+      "nome": "Constituição Federal — arts. 59 e 103-A",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Constituição Federal — arts. 59 e 103-A",
+      "ideiaChave": "Espécies normativas não são uma escada linear de hierarquia; âmbito de súmula vinculante.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-dou",
+      "nome": "Decreto 9.215/2017 — publicação do DOU",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto 9.215/2017 — publicação do DOU",
+      "ideiaChave": "Arts. 2º–4º; consultar texto vigente no corte. Há exemplar impresso para arquivo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-cnj",
+      "nome": "CNJ — Comunicações Processuais",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "CNJ — Comunicações Processuais",
+      "ideiaChave": "DJEN e Domicílio Judicial Eletrônico possuem funções distintas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-lex-urn",
+      "nome": "Projeto LexML — Parte 2: URN",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Projeto LexML — Parte 2: URN",
+      "ideiaChave": "Identificação, componentes, versões e resolução.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-lex-xml",
+      "nome": "Projeto LexML — Parte 3: XML Schema",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Projeto LexML — Parte 3: XML Schema",
+      "ideiaChave": "Seção 2: esquemas rígido e flexível; validação sintática não é certificação jurídica.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-rvbi",
+      "nome": "Senado Federal — A RVBI",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — A RVBI",
+      "ideiaChave": "Coordenação, cooperação e instrumentos compartilhados.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-bibliodata",
+      "nome": "IBICT — Histórico da Bibliodata",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IBICT — Histórico da Bibliodata",
+      "ideiaChave": "Origem na FGV e termo de cessão de 2009; não atribuir gestão atual exclusivamente à FGV.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-3-fonte-cunha",
+      "nome": "Cunha e Cavalcanti — Dicionário (2008)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha e Cavalcanti — Dicionário (2008)",
+      "ideiaChave": "PDF do projeto; verbete Selective Listing in Combination.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-4-3-5",
+      "afirmacao": "A origem da Bibliodata na FGV permite afirmar que sua gestão nunca foi objeto de cessão ao IBICT.",
+      "gabarito": "E",
+      "porQue": "O histórico registra termo de cessão em 2009."
+    },
+    {
+      "id": "memoria-rt-4-3-6",
+      "afirmacao": "Para cinco elementos distintos, 2⁵−1 conta subconjuntos não vazios, e não permutações completas.",
+      "gabarito": "C",
+      "porQue": "Há 31 subconjuntos não vazios; permutações completas são 5!=120."
+    },
+    {
+      "id": "memoria-rt-4-3-7",
+      "afirmacao": "Validação XML de um texto legislativo certifica automaticamente sua constitucionalidade.",
+      "gabarito": "E",
+      "porQue": "O esquema valida restrições formais de representação, não substitui controle jurídico."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-4-3-bloco-1",
+    "titulo": "O Tripé Estruturante da Informação Jurídica no Parlamento",
+    "objetivos": [
+      "Distinguir legislação, doutrina, decisão e orientação jurisprudencial."
+    ],
+    "conteudo": "A informação jurídica possui natureza formal, técnica e altamente especializada, constituindo-se no sustentáculo da tomada de decisão e do controle de constitucionalidade no Congresso Nacional (**Edilenice Passos, 2014; Ana Cláudia Carvalho de Miranda, 2013**):\n\n```tree\nTITLE: Tripé Estruturante da Informação Jurídica\n- Informação Jurídica Integrada | Sustentáculo da tomada de decisão e do controle de constitucionalidade\n  - 1. Legislação (Normativa / Prescritiva) | Atos estatais, normas gerais e processo legislativo (CF, leis, MPs, decretos)\n  - 2. Jurisprudência (Interpretativa / Casuística) | Decisões reiteradas dos tribunais, acórdãos e súmulas vinculantes do STF\n  - 3. Doutrina (Analítica / Científica) | Estudos teóricos, teses, tratados e artigos de juristas especializados\n```\n\n#### A. O Tripé Informacional Canônico\n1. **Legislação (Informação Normativa):**\n   * O conjunto de atos e normas prescritivas emanadas das autoridades constituídas do Estado no exercício de sua competência legislativa e regulamentar.\n   * **Espécies do art. 59 da CF:** emendas, leis complementares, ordinárias, delegadas, medidas provisórias, decretos legislativos e resoluções. **A lista não estabelece uma escada linear de hierarquia entre todas elas.** Lei complementar e lei ordinária possuem campos e procedimentos próprios; não se presume superioridade universal apenas pelo nome. Decreto regulamentar é ato infralegal e não se confunde com decreto legislativo.\n\n2. **Doutrina (Informação Analítica / Científica):**\n   * Produção intelectual, científica e acadêmica de juristas, professores e pesquisadores que interpretam, criticam, contextualizam e sistematizam o ordenamento jurídico.\n   * *Veículos Típicos:* Tratados, manuais jurídicos, monografias, dissertações, teses e artigos em periódicos especializados (como a *Revista de Informação Legislativa do Senado* e a *Revista da EJE*).\n3. **Jurisprudência (Informação Interpretativa / Casuística):**\n   * A orientação extraída de decisões, considerada sua consistência, contexto e força no regime aplicável. Bases jurisprudenciais também recuperam decisões individuais, que não são automaticamente orientação pacificada. O conjunto de decisões, acórdãos e sentenças proferidas pelos órgãos jurisdicionais do Poder Judiciário ao aplicarem as leis a controvérsias concretas.\n   * *Espécies Principais:* Acórdãos dos Tribunais Superiores (STF, STJ, TST, TSE, STM), súmulas comuns, repercussão geral e **Súmulas Vinculantes do STF** (Art. 103-A da CF/88 — têm o âmbito definido no art. 103-A: demais órgãos do Judiciário e administração direta/indireta nas esferas federal, estadual e municipal. Não vinculam o próprio STF da mesma maneira nem impedem a função legislativa de produzir normas).\n\n**Aplicação e recuperação:** Uma medida provisória é relevante para a pesquisa normativa, mas sua existência não a torna hierarquicamente superior a uma lei ordinária. Para responder sobre vigência e efeitos, consulte o regime constitucional, as conversões e os atos pertinentes.",
+    "checkpointIds": [
+      "rt-4-3-1"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-2",
+    "titulo": "A Informática Jurídica: Dimensões Documentária, Decisória e de Gestão",
+    "objetivos": [
+      "Separar gestão, documentação e apoio decisório sem atribuir julgamento autônomo à IA."
+    ],
+    "conteudo": "A literatura de Informática Jurídica (**Edilenice Passos & Celso Cândido**) classifica a aplicação da computação ao Direito em dimensões úteis para análise, sem medir frequência de prova nesta aula:\n\n1. **Informática Jurídica Documentária (ou Documental):**\n   * Foca na coleta, indexação, armazenamento e recuperação automatizada de documentos jurídicos (legislação, jurisprudência e doutrina). É a base do **Portal LexML Brasil** e dos sistemas de busca de jurisprudência dos tribunais.\n2. **Informática Jurídica Decisória (ou Metadocumentária / IA Aplicada):**\n   * Utiliza sistemas especialistas, ontologias formais e inteligência artificial para auxiliar o operador do direito na tomada de decisões ou sugerir minutas de sentenças com base em padrões precedentes (ex.: ferramentas de classificação e apoio à análise; reconhecer padrões processuais não é delegar decisão jurisdicional autônoma a uma máquina).\n3. **Informática Jurídica de Gestão (ou Operacional / Telemática):**\n   * Ocupa-se da automação dos fluxos de trabalho e da administração das unidades jurídicas e gabinetes parlamentares (processo judicial eletrônico - PJe, tramitação eletrônica de proposições e controle de prazos).\n\n**Aplicação e recuperação:** Um algoritmo separa processos por tema para facilitar a análise. Isso é apoio ao fluxo, não prova de que a máquina profere sentença. Nome de projeto não basta para afirmar uma capacidade decisória que a fonte não descreve.",
+    "checkpointIds": [
+      "rt-4-3-2"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-3",
+    "titulo": "Publicação oficial, versões e comunicação processual",
+    "objetivos": [
+      "Localizar publicação e distinguir veículo, versão e comunicação dirigida."
+    ],
+    "conteudo": "O Diário Oficial da União, gerido e editado pela **Imprensa Nacional** (órgão subordinado à Casa Civil da Presidência da República), é o veículo primordial de publicidade dos atos estatais federais para sua vigência e eficácia perante a sociedade:\n\n#### A. Seções do DOU: classificar pela matéria\n* **Seção 1 — Atos Normativos:** Destinada à publicação das normas de caráter abstrato e geral (leis sancionadas, promulgações do Congresso Nacional, atos do Presidente da República, portarias de ministérios, instruções normativas, acórdãos do TCU de interesse geral e tratados internacionais ratificados).\n* **Seção 2 — Atos de Pessoal:** Publicação obrigatória dos atos administrativos individuais que afetam os servidores públicos civis e militares federais (nomeações, exonerações, promoções e aposentadorias, conforme regras de publicação. Não se presume que todo evento de pessoal, posse, diária ou viagem tenha idêntica obrigatoriedade e seção sem consultar a disciplina específica).\n* **Seção 3 — Contratos, Editais e Ineditoriais:** Destinada à publicação de extratos de contratos e convênios públicos federais, avisos de licitações, leilões, **editais de concursos públicos** e matérias de particulares exigidas por lei (balanços de sociedades anônimas, atas de assembleias corporativas e editais de falência).\n\n#### B. A Descontinuidade da Versão Impressa e o Diário da Justiça (DJe)\n* Em **1º de dezembro de 2017**, a Imprensa Nacional adotou publicação exclusivamente eletrônica do DOU. O Decreto 9.215/2017 ainda determina impressão e guarda de ao menos um exemplar para arquivo; isso difere de circulação comercial impressa. A versão eletrônica passou, a atender aos requisitos da **Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)**, conferindo-lhe plena fé pública e validade jurídica.\n* **O Diário da Justiça Eletrônico (DJe):** Não se deve fixar uma migração universal em 2010. A publicação judicial e a comunicação processual têm regras próprias. O **DJEN** e o **Domicílio Judicial Eletrônico**, regulados pelo CNJ, não são sinônimos: o primeiro é diário de publicação; o segundo atende comunicações dirigidas nos casos previstos. Conferir ato, tribunal, data e regime aplicável evita contar prazo por mera página de notícia.\n\n**Aplicação e recuperação:** O usuário encontrou uma notícia sobre julgamento. Para comprovar o ato e seu conteúdo, busque a decisão/publicação oficial e verifique datas. Um extrato no portal não substitui automaticamente o documento integral ou a regra de intimação.",
+    "checkpointIds": [
+      "cp-4-3-1",
+      "rt-4-3-3"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-4",
+    "titulo": "A Rede e o Portal LexML Brasil: Padrão URN Lex e Esquemas XML",
+    "objetivos": [
+      "Interpretar URN e restrições de esquema sem garantias jurídicas automáticas."
+    ],
+    "conteudo": "Lançado em 2009 e desenvolvido por iniciativa cooperativa de instituições públicas, com atuação do Senado Federal, o **Portal LexML Brasil** (`https://www.lexml.gov.br`) integra acesso à informação legislativa e jurídica de diferentes fontes, sem que essa descrição constitua ranking de superioridade:\n\n#### A. URN Lex: identidade não é localização\nPara evitar que alterações nos servidores ou arquiteturas de URL quebrem os links (*link rot*), o LexML adota identificadores persistentes e unívocos globais através da **URN Lex**:\n$\\text{urn:lex:br:federal:lei:1990-12-11;8112}$\n* **Sintaxe Decomposta:**\n  * `urn`: esquema; `lex`: identificador do namespace na construção usada;\n  * `br`: Código de país segundo a norma internacional ISO 3166-1;\n  * `federal`: componente de autoridade do exemplo; localidade e autoridade são componentes distintos na sintaxe completa;\n  * `lei`: Espécie de documento jurídico (lei, decreto, medida.provisoria, acordao);\n  * `1990-12-11;8112`: Data de identificação do ato no exemplo; não se generaliza toda data de toda espécie como data de promulgação e número oficial do ato.\n* **Resolução e versões:** identificação e localização são separadas, mas a disponibilidade exige manutenção do serviço e dos vínculos. A URN não garante que um servidor jamais falhe. O manual possui regras específicas para componentes, versões e fragmentos; não se deve inventar um sufixo e apresentá-lo como validado.\n\n#### B. Esquemas rígido e flexível não são formatos de colheita\n\nA Parte 3, seção 2, explica: o rígido brasileiro modela articulação conforme a LC 95/1998; o flexível admite combinações mais amplas, inclusive normas que não seguem aquela técnica. No modelo documentado, **válido no rígido implica válido no flexível**, mas a recíproca não é garantida. Flexível não significa exclusivamente “coleta de metadados externos”; há esquema próprio `oai_lexml`. Validação XML verifica restrições do esquema, **não legalidade, constitucionalidade ou verdade integral** do ato.\n\n**Aplicação e recuperação:** A URN da Lei 8.112 identifica o ato; um endereço pode levar ao texto em um servidor. Ao mudar a URL, a manutenção da resolução preserva a utilidade do identificador. Passar num XSD não prova vigência ou constitucionalidade.",
+    "checkpointIds": [
+      "cp-4-3-2",
+      "rt-4-3-4"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-5",
+    "titulo": "Redes Cooperativas de Bibliotecas Jurídicas e Parlamentares no Brasil",
+    "objetivos": [
+      "Relacionar rede, coordenação, histórico e finalidade."
+    ],
+    "conteudo": "A cooperação técnica e o compartilhamento de recursos informacionais constituem diretrizes centrais no universo jurídico nacional, frequentemente cobradas pelo Cebraspe quanto à governança, finalidade e histórico:\n\n#### A. A Rede Virtual de Bibliotecas (RVBI) do Congresso Nacional\n* **Órgão Coordenador:** Secretaria de Biblioteca e Arquivo do **SENADO FEDERAL**.\n* **Composição:** Congrega bibliotecas dos três Poderes da União e da Administração Pública Federal no Distrito Federal (Câmara dos Deputados, Senado Federal, Supremo Tribunal Federal, Superior Tribunal de Justiça, Tribunal Superior do Trabalho, Tribunal Superior Eleitoral, Tribunal de Contas da União, Ministério da Justiça, Advocacia-Geral da União, entre outras).\n* **Instrumentos Padronizados:**\n  * **Catálogo Coletivo Integrado:** Base bibliográfica compartilhada no formato MARC 21;\n  * **Vocabulário Controlado Básico (VCB):** Tesauro setorial coordenado pelo Senado Federal para indexação de doutrina, legislação e atos normativos;\n  * **Classificação Decimal de Direito (CDDir):** Tabela especializada desenvolvida pela bibliotecária Doris de Queiroz Carvalho;\n  * **Alimentação do LexML Brasil:** As bibliotecas da RVBI alimentam a base referencial e doutrinária que subsidia a URN Lex.\n\n#### B. A Rede de Bibliotecas da Justiça Eleitoral (REJE)\n* **Órgão Coordenador:** Biblioteca Professor Aliomar Baleeiro do **Tribunal Superior Eleitoral (TSE)**.\n* **Composição:** Bibliotecas do TSE e dos 27 Tribunais Regionais Eleitorais (TREs).\n* **Missão e Foco:** Especializada em Direito Eleitoral, Direito Partidário, Ciência Política e Jurisprudência Eleitoral.\n* **Serviços:** Catálogo unificado de doutrina eleitoral, empréstimo entre bibliotecas da rede e compartilhamento de artigos da Revista de Jurisprudência Eleitoral.\n\n#### C. A Rede de Bibliotecas do Ministério Público Federal (RBMPF)\n* **Órgão Coordenador:** Biblioteca da **Procuradoria-Geral da República (PGR)**.\n* **Composição Institucional:** Instituída por ato normativo da PGR/MPF, integra a Biblioteca Central da Procuradoria-Geral da República (em Brasília), as bibliotecas das unidades regionais pertinentes à organização vigente e os centros de documentação e bibliotecas das Procuradorias da República nos 26 Estados e no Distrito Federal (PRs/PRMs).\n* **Missão e Escopo Especializado:** Fornecer suporte bibliográfico e doutrinário intensivo à atuação dos Procuradores da República nas funções constitucionais do Ministério Público:\n  * Tutela coletiva e direitos difusos (direitos indígenas, meio ambiente, patrimônio histórico e cultural);\n  * Defesa da ordem jurídica, do regime democrático e da probidade administrativa (combate à corrupção);\n  * Ciências penais, processo penal e cooperação jurídica internacional.\n* **Serviços em Rede:** Catálogo bibliográfico compartilhado, padronização da catalogação em MARC 21, serviço unificado de comutação bibliográfica e circulação de acervos entre as unidades regionais do MPF em todo o território nacional.\n\n#### D. A Rede BIBLIODATA / CALCO (Marco Histórico Pioneiro no Brasil)\n* **Instituição Mantenedora e Origem:** Desenvolvida na **Fundação Getulio Vargas (FGV)** na década de 1970; o histórico do IBICT registra termo de cessão da Bibliodata para o instituto em **2009**. Não se confunde a origem com a responsabilidade atual, no Rio de Janeiro, com papel pioneiro da bibliotecária **Alice Príncipe Barbosa**.\n* **Natureza Histórica:** Foi **pioneira na catalogação cooperativa automatizada no Brasil**, sem demonstrar por isso ser origem direta de toda rede posterior, estabelecida décadas antes da difusão da Internet comercial.\n* **O Formato CALCO (*Catalogação Legível por Computador*):**\n  * Adaptação oficial brasileira do padrão MARC da Library of Congress;\n  * Desenvolvido para superar a incompatibilidade dos sistemas locais e viabilizar o intercâmbio de dados em fitas magnéticas.\n* **Dinâmica Operacional da Rede:** As bibliotecas cooperantes em todo o país (universidades federais, centros de pesquisa e órgãos públicos) alimentavam o banco central da FGV no Rio de Janeiro, que produzia e remetia às unidades participantes **fichas catalográficas impressas padronizadas** e matrizes de microfichas, evitando a catalogação redundante do mesmo livro em múltiplos estados.\n* **Legado para o Concurso:** A BIBLIODATA consolidou a cultura de cooperação técnica, precedendo a transição para o MARC 21 e para a RVBI.\n\n---\n\n#### E. Quadro Sinóptico Comparativo das Redes de Bibliotecas Jurídicas e Parlamentares\n\n| Rede Cooperativa | Instituição Coordenadora | Marco Cronológico | Foco Temático Central | Padrões Tecnológicos / Vocabulário | Relação com a Câmara dos Deputados |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **RVBI** | **Senado Federal** (Sec. de Biblioteca e Arquivo) | Década de 1970 (antiga Rede Sabin) / 2000 (RVBI) | Direito, Processo Legislativo, Ciência Política e Administração Pública | Catálogo Coletivo MARC 21, Tesauro VCB e CDDir | A Câmara dos Deputados integra a cooperação; não se cria categoria institucional de “primeiro escalão”. |\n| **REJE** | **Tribunal Superior Eleitoral (TSE)** | Anos 2000 (Consolidação em rede) | Direito Eleitoral, Partidário e Jurisprudência dos Tribunais Regionais | Base compartilhada de decisões eleitorais e periódicos jurídicos | Intercâmbio de doutrina eleitoral e projetos de reforma política. |\n| **RBMPF** | **Procuradoria-Geral da República (PGR)** | Portaria PGR/MPF | Tutela coletiva, Direitos Humanos, Meio Ambiente e Ciências Penais | Catálogo unificado MPF em MARC 21 e empréstimo entre sedes regionais | Cooperação e intercâmbio de pesquisas com as consultorias legislativas. |\n| **BIBLIODATA** | FGV na origem; IBICT após cessão | Década de 1970; cessão em 2009 | Ciências Sociais, Economia, Administração e Acervos Universitários | Formato **CALCO** (MARC brasileiro) e distribuição de fichas impressas | Marco precursor da catalogação cooperativa que estruturou as bibliotecas públicas brasileiras. |\n\n**Aplicação e recuperação:** Senado e Câmara cooperam, mas isso não torna a Câmara coordenadora da RVBI. Bibliodata ter origem na FGV também não permite congelar sua gestão em 1976. Separe origem, cessão, membros e serviços.",
+    "checkpointIds": [
+      "cp-4-3-3",
+      "rt-4-3-5"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-6",
+    "titulo": "SLIC: combinação, permutação e recuperação não são sinônimos",
+    "objetivos": [
+      "Distinguir contagem de combinações e técnica de indexação."
+    ],
+    "conteudo": "O **Selective Listing in Combination** é descrito por Cunha e Cavalcanti como listagem seletiva em combinação, que combina elementos em uma direção. O verbete ilustra ABC por **ABC, AC, BC, C**. Não se deve substituir a técnica por uma regra vaga de gerar “todas as combinações alfabéticas” ou prometer recuperação de 100% de qualquer necessidade.\n\nEm um conjunto com n elementos distintos, **2ⁿ−1** conta subconjuntos não vazios; não conta permutações. Para A, B e C, são sete subconjuntos não vazios. Permutações completas dos três elementos são **3!=6**. Confundir essas contagens impede entender o que um índice está selecionando.\n\nPré-coordenação reúne conceitos na representação; pós-coordenação os combina na busca, conforme o sistema. Um índice impresso que ordena entradas não deve ser classificado automaticamente apenas porque tem combinações no nome. É necessário explicitar operação, representação e modo de consulta. Compare também indexação e tesauros nas aulas 3.3–3.4.\n\n**Aplicação e recuperação:** Com cinco descritores há 31 subconjuntos não vazios; esse número não é de permutações completas, que são 120. A contagem combinatória não prova que determinado método gere todos os subconjuntos ou responda toda pergunta.",
+    "checkpointIds": [
+      "rt-4-3-6"
+    ]
+  },
+  {
+    "id": "sub-4-3-bloco-7",
+    "titulo": "Enunciados autorais de aplicação: documento, identidade e responsabilidade",
+    "objetivos": [
+      "Conferir afirmações por fonte, competência e recorte."
+    ],
+    "conteudo": "| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"No Diário Oficial da União, os editais de abertura de concursos públicos para a Câmara dos Deputados são veiculados na Seção 1.\"* | **ERRADO** | Editais de concursos saem na **Seção 3** (editais, contratos e licitações). A Seção 1 veicula atos normativos gerais. |\n| *\"A coordenação administrativa e técnica da Rede Virtual de Bibliotecas (RVBI) é de responsabilidade da Câmara dos Deputados.\"* | **ERRADO** | A coordenação da RVBI é exercida pelo Senado, por meio da **Senado Federal**, por sua estrutura de biblioteca e arquivo. |\n| *\"A Rede BIBLIODATA/CALCO foi instituída recentemente pela PGR para compartilhamento exclusivo de acórdãos judiciais em formato Dublin Core.\"* | **ERRADO** | A BIBLIODATA foi criada na década de 1970 na **FGV**, com posterior cessão ao IBICT, pioneira na catalogação cooperativa no Brasil com o formato **CALCO** (MARC brasileiro). |\n| *\"A URN Lex empregada no LexML utiliza o endereço físico dos servidores web (IP) para garantir a localização do documento.\"* | **ERRADO** | A URN Lex é um identificador de **nome persistente abstrato**, completamente independente de servidores IP ou URLs físicas. |\n| *\"No LexML, o esquema XML flexível é o exigido para a redação formal das proposições legislativas em tramitação no Congresso.\"* | **ERRADO** | A distinção documentada é de restrições de articulação. Não se deduz que toda proposição usa o mesmo esquema nem que flexível seja apenas colheita externa. |\n\n**Aplicação e recuperação:** “Tem identificador persistente” não significa “nunca ficará indisponível”. “É válido no rígido” tem uma implicação específica no modelo de esquemas; não autoriza inverter a relação ou afirmar validade jurídica.",
+    "checkpointIds": [
+      "rt-4-3-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cf",
+    "titulo": "Constituição Federal — arts. 59 e 103-A",
+    "localizador": "Espécies normativas não são uma escada linear de hierarquia; âmbito de súmula vinculante.",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  {
+    "id": "dou",
+    "titulo": "Decreto 9.215/2017 — publicação do DOU",
+    "localizador": "Arts. 2º–4º; consultar texto vigente no corte. Há exemplar impresso para arquivo.",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9215-29-novembro-2017-785835-normaatualizada-pe.html"
+  },
+  {
+    "id": "cnj",
+    "titulo": "CNJ — Comunicações Processuais",
+    "localizador": "DJEN e Domicílio Judicial Eletrônico possuem funções distintas.",
+    "url": "https://www.cnj.jus.br/programas-e-acoes/processo-judicial-eletronico-pje/comunicacoes-processuais/"
+  },
+  {
+    "id": "lex-urn",
+    "titulo": "Projeto LexML — Parte 2: URN",
+    "localizador": "Identificação, componentes, versões e resolução.",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-2-LexML-URN.pdf"
+  },
+  {
+    "id": "lex-xml",
+    "titulo": "Projeto LexML — Parte 3: XML Schema",
+    "localizador": "Seção 2: esquemas rígido e flexível; validação sintática não é certificação jurídica.",
+    "url": "https://projeto.lexml.gov.br/documentacao/Parte-3-XML-Schema.pdf"
+  },
+  {
+    "id": "rvbi",
+    "titulo": "Senado Federal — A RVBI",
+    "localizador": "Coordenação, cooperação e instrumentos compartilhados.",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi"
+  },
+  {
+    "id": "bibliodata",
+    "titulo": "IBICT — Histórico da Bibliodata",
+    "localizador": "Origem na FGV e termo de cessão de 2009; não atribuir gestão atual exclusivamente à FGV.",
+    "url": "https://www.gov.br/ibict/pt-br/site-ibict-2025/assuntos/informacao-cientifica/bibliodata/historico"
+  },
+  {
+    "id": "cunha",
+    "titulo": "Cunha e Cavalcanti — Dicionário (2008)",
+    "localizador": "PDF do projeto; verbete Selective Listing in Combination.",
+    "url": "https://github.com/Heuller/hnc/tree/auditoria-2026-10/acervo-estudos"
+  }
+],
 };

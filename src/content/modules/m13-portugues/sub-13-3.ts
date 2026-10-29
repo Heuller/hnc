@@ -107,7 +107,7 @@ export const submodulo133: ModuloFilho = {
     "item": "No trecho \"O deputado prestou homenagem a sua bancada partidária\", a aposição do acento grave na palavra \"a\", resultando em \"à sua bancada partidária\", manteria a correção gramatical e os sentidos originais do texto.",
     "gabarito": "C",
     "justificativa": "Prestar homenagem a fornece a preposição. Diante de sua bancada partidária, o artigo pode ser usado ou omitido no contexto da frase. Com o artigo, a fusão resulta em à sua; sem ele, permanece a sua. A facultatividade do artigo não elimina a preposição.",
-    "fonte": "Gramática normativa: regência e artigo facultativo diante de possessivo feminino singular acompanhado de substantivo; análise da construção autoral."
+    "fonte": "Cunha e Cintra — Nova gramática do português contemporâneo, regência e artigo facultativo diante de possessivo feminino singular acompanhado de substantivo; análise da construção autoral, sem atribuição de página."
   },
   {
     "id": "rt-13-3-1",

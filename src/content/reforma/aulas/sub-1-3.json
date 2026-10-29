@@ -1,0 +1,203 @@
+{
+  "id": "sub-1-3",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-1-3-bloco-1",
+      "titulo": "A Hierarquia Conceitual Ontológica: Dado, Informação, Conhecimento e Sabedoria (DIKW)",
+      "objetivos": [
+        "Usar DIKW como modelo delimitado e distinguir a formulação de Ackoff."
+      ],
+      "conteudo": "Dado, informação, conhecimento e sabedoria podem ser usados em uma **síntese didática DIKW**, mas não são uma ontologia única aceita por toda a área. **Ackoff (1989) distingue também understanding (compreensão)** entre conhecimento e sabedoria. Não se atribui a ele uma figura original de pirâmide de quatro níveis como transcrição literal. O esquema a seguir é simplificado:\n\n```timeline\nD | 1. DADO (Data) | Nível Base | Registros interpretados em um contexto; não são necessariamente neutros ou sem significado\n---> Contextualização e Estruturação\nI | 2. INFORMAÇÃO (Information) | Nível Intermediário | Dados contextualizados, dotados de significado e redutores de incerteza\n---> Internalização e Compreensão\nK | 3. CONHECIMENTO (Knowledge) | Nível Avançado | Apropriação cognitiva, estruturas mentais, compreensão e \"saber-fazer\"\n---> Juízo Ético e Discernimento\nS | 4. SABEDORIA (Wisdom) | Nível Superior | Julgamento de valor humano, ação prudente e tomada de decisão de longo prazo\n```\n\n1. **Dado (*Data*):** Representação bruta, discreta e desprovida de contexto de um fato ou evento. A interpretação exige convenções e contexto; “bruto” é relativo ao tratamento considerado, não prova de neutralidade (ex.: o código fictício `ITEM-1`, sem dicionário de dados informado).\n2. **Informação (*Information*):** Conjunto estruturado, processado e contextualizado de dados dotado de relevância e propósito, pode ser útil e reduzir incerteza, mas também revelar complexidade e **aumentar incerteza**; ver o próprio Buckland (exemplo inteiramente fictício: `ITEM-1 identifica um empréstimo registrado em determinada data`; não é afirmação sobre proposição real).\n3. **Conhecimento (*Knowledge*):** Informação internalizada, interpretada, processada e integrada às estruturas mentais de um indivíduo ou de uma comunidade. O conhecimento envolve crença justificada, experiência prática (*know-how*), juízo de valor e capacidade analítica de resolver problemas.\n4. **Sabedoria (*Wisdom*):** O nível mais elevado da cognição humana. Envolve o discernimento moral, ético e teleológico sobre a aplicação do conhecimento para o bem comum e a tomada de decisões de longo prazo no Estado democrático de direito.\n\n**Aplicação e recuperação:** O mesmo número “42” pode ser código de setor ou idade, conforme dicionário e contexto. Acrescentar uma legenda ajuda a interpretar, mas pode revelar que a variável foi medida de forma ambígua. Mais informação não reduz toda incerteza automaticamente.",
+      "checkpointIds": [
+        "rt-1-3-1"
+      ]
+    },
+    {
+      "id": "sub-1-3-bloco-2",
+      "titulo": "A Teoria da Informação de Michael Buckland (1991): \"Information as Thing\"",
+      "objetivos": [
+        "Reconhecer os três usos de informação em Buckland sem negar representações computacionais."
+      ],
+      "conteudo": "No clássico ensaio *Information as Thing* (1991), o professor e pesquisador **Michael Buckland** (Universidade da Califórnia, Berkeley) desmistificou o uso polissêmico do vocábulo \"informação\", categorizando-o em três manifestações ontológicas fundamentais:\n\n| Manifestação de Buckland | Natureza Ontológica | Ocorrência / Localização | Pode ser Processada por Sistemas? | Exemplo Típico |\n| :--- | :--- | :--- | :--- | :--- |\n| **1. Informação como Processo** (*Information-as-process*) | Dinâmica comunicativa e psicológica; ato de transmitir e receber dados. | Evento interpessoal ou cognitivo transitório. | **NÃO** (é uma ação subjetiva). | O ato de um parlamentar ouvir a sustentação de um bibliotecário durante uma reunião. |\n| **2. Informação como Conhecimento** (*Information-as-knowledge*) | Intangível e imaterial; crença internalizada que altera a estrutura mental. | Conhecimento intangível no sentido distinguido pelo autor; sua representação documental é outra categoria. | Não se armazena diretamente o conhecimento intangível do sujeito; armazenam-se representações. Isso não resolve por definição o debate filosófico sobre cognição de máquinas. | O domínio que o analista legislativo adquire sobre a jurisprudência da Casa. |\n| **3. Informação como Coisa** (*Information-as-thing*) | **Tangível, física ou digitalmente inscrita**; suportes materiais e registros de dados. | Em documentos, bases de dados, livros, mídias e artefatos materiais. | É o sentido diretamente tratado por sistemas documentais na distinção do autor. | Arquivos digitais (PDF, XML), livros impressos, microfilmes e artefatos físicos. |\n\n#### O Conceito Fundamental para a Prática Documentária:\n* Buckland demonstra que sistemas lidam diretamente com **representações tangíveis**, não com o conhecimento intangível do sujeito como tal. Isso não proíbe o nome “base de conhecimento” para estruturas formalizadas nem impede sistemas de participar de processos comunicativos.\n* Na acepção de processamento direto de representações adotada no artigo, os sistemas lidam com **informação como coisa** (*Information-as-thing*): bits gravados em disco magnético, caracteres impressos em papel, códigos de barras, imagens e espécimes físicos.\n* **Ampliação para Objetos Tridimensionais:** Buckland defende que objetos físicos e naturais (como fósseis de dinossauro em um museu, sementes em bancos agronômicos ou peças de evidência criminal) são \"informação-como-coisa\" tão legítimos quanto relatórios em papel, desde que portadores de evidência informativa.\n\n**Aplicação e recuperação:** Uma base registra regras de catalogação e recebe o nome base de conhecimento. O sistema armazena representações dessas regras; isso não contradiz a distinção de Buckland sobre conhecimento intangível. Confundir nome de produto e acepção teórica produz uma falsa contradição.",
+      "checkpointIds": [
+        "cp-1-3-1",
+        "rt-1-3-2"
+      ]
+    },
+    {
+      "id": "sub-1-3-bloco-3",
+      "titulo": "O Estatuto Ontológico do Documento: De Otlet a Suzanne Briet",
+      "objetivos": [
+        "Analisar suporte, evidência e relações documentais sem prova infalível."
+      ],
+      "conteudo": "O que transforma uma entidade qualquer do universo em um **documento**? A resposta foi construída pioneiramente por Paul Otlet (1934) e desenvolvida por **Suzanne Briet (1951)** em *Qu'est-ce que la documentation?*:\n\n#### A. Relação documental, não checklist universal atribuído a Briet\n\nObjeto, seleção, representação e função de evidência ajudam a analisar o estatuto documental. Não se atribui a Briet, como texto literal, uma lista obrigatória de quatro requisitos cujo último seria “valor probatório”. **Tratamento institucional pode estabelecer relações documentais sem ser condição jurídica universal de existência de todo documento.**\n\n“Indício” não equivale a prova infalível: um registro pode ser informativo e conter erro, ter sido manipulado ou demandar interpretação. Tampouco se exige que todo documento seja criado originalmente com a mesma intenção de seu uso posterior. A análise considera práticas, contexto e relações entre objetos e registros.\n\n#### B. A Hermenêutica do \"Antílope de Briet\":\n* Um antílope correndo selvagem nas planícies africanas é apenas um ser vivo; **não** é documento.\n* Se esse mesmo animal for capturado por expedição científica, transportado para Paris, estudado por biólogos, receber uma placa identificadora no Jardim das Plantas e sua ficha for tombada no catálogo do Museu de História Natural, ele **torna-se um documento primário**.\n* Fotografias, artigos e laudos são registros derivados no exemplo. Isso não define automaticamente seu nível na tipologia de fontes primárias/secundárias de outro modelo.\n\n**Aplicação e recuperação:** Um laudo falsificado ainda pode ser documento para investigar a fraude. Ser evidência de uma prática não significa que todas as afirmações internas sejam verdadeiras. Um museu ou catálogo pode contextualizar o objeto, mas não cria uma regra legal única para todo documento.",
+      "checkpointIds": [
+        "cp-1-3-2",
+        "rt-1-3-3"
+      ]
+    },
+    {
+      "id": "sub-1-3-bloco-4",
+      "titulo": "Os Três Paradigmas Epistemológicos de Rafael Capurro (2003)",
+      "objetivos": [
+        "Comparar paradigmas sem cronologia de substituição obrigatória."
+      ],
+      "conteudo": "No seminal artigo *Epistemology and Information Science* (2003), o filósofo e cientista da informação teuto-uruguaio **Rafael Capurro** discute três paradigmas e adverte que **não formam sucessão histórica simples**: teorias se entrecruzam. As datas abaixo indicam contextos de destaque, não fronteiras em que uma abordagem desaparece:\n\n#### A. O Paradigma Físico (Décadas de 1940 a 1960)\n* **Raiz Teórica:** Teoria Matemática da Comunicação de Claude Shannon e Warren Weaver (1949).\n* **Conceito de Informação:** Shannon formaliza medidas de informação e transmissão; bit é unidade de medida, não peso ou volume físico do significado. A discussão de paradigma físico não se reduz a manutenção de cabos: também considera testes documentais e recuperação (*Conduit Metaphor* - metáfora do duto).\n* **Foco da Pesquisa:** A física do sinal, largura de banda, capacidade de canal, redução da entropia e eliminação de ruído técnico na transmissão mecânica.\n* **Limitação Epistemológica:** Na teoria matemática de transmissão, a semântica não é o objeto formal da medida. Isso delimita o modelo, não demonstra que toda pesquisa associada ao paradigma negue a existência de significado.\n\n#### B. Paradigma Cognitivo (Décadas de 1970 a 1980)\n* **Raiz Teórica:** Teoria do Conhecimento, Psicologia Cognitiva e Inteligência Artificial, liderado por Bertram Brookes, Nicholas Belkin e Peter Ingwersen.\n* **Conceito de Informação:** A informação é um **processo cognitivo que modifica estruturas mentais**. Não é o sinal físico em si, mas aquilo que transforma os estados de conhecimento do usuário.\n* **A Equação Fundamental da Ciência da Informação (Bertram Brookes, 1980):**\n  $K[S] + \\Delta I = K[S + \\Delta S]$\n  *Onde $K[S]$ representa a estrutura cognitiva inicial do sujeito, $\\Delta I$ é o incremento informacional assimilado, e $K[S + \\Delta S]$ é a estrutura de conhecimento alterada, sem garantir acerto ou ganho mensurável universal.*\n* **O Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):** O usuário não busca informação porque sabe exatamente o que deseja, mas porque vivencia um \"Estado Anômalo de Conhecimento\" — uma lacuna, incerteza ou dúvida que **pode** dificultar a formulação inicial; não se presume incapacidade igual de todo usuário.\n* **Brenda Dervin e o Modelo *Sense-Making*:** O usuário encontra uma \"brecha\" cognitiva (*gap*) e busca pontes informacionais para dar sentido ao seu mundo e continuar sua caminhada.\n\n#### C. Paradigma Social ou Hermenêutico-Pragmático (Década de 1990 em diante)\n* **Raiz Teórica:** Hermenêutica filosófica, semiótica social, sociologia do conhecimento e pragmatismo, liderado por Rafael Capurro, **Birger Hjørland** e Bernd Frohmann.\n* **Conceito de Informação:** A informação não reside nem no canal físico nem na mente isolada do sujeito; ela é **socialmente construída e situada historicamente** dentro de comunidades discursivas de prática.\n* **A Análise de Domínio (*Domain Analysis*) de Birger Hjørland (1995/2002):**\n  * O sentido, relevância e valor de qualquer documento são relacionados às práticas e critérios de **comunidades e domínios**, sem exigir que apenas especialistas possam usar ou avaliar documentos que o utiliza.\n  * A melhor maneira de compreender a informação é estudar as comunidades discursivas, suas linguagens técnicas, seus critérios de verdade e seus instrumentos de comunicação científica.\n* **Bernd Frohmann e a Materialidade da Informação:** A informação não é uma entidade etérea transcendental; é o produto concreto de práticas documentárias e institucionais reguladas por relações de poder social.\n\n**Aplicação e recuperação:** Um teste mede desempenho de recuperação; uma entrevista examina o entendimento da demanda; uma análise de domínio examina critérios da comunidade. Os enfoques podem coexistir no mesmo estudo. A equação de Brookes é representação conceitual de mudança, não conta aritmética de pontos de conhecimento.",
+      "checkpointIds": [
+        "cp-1-3-3",
+        "rt-1-3-4"
+      ]
+    },
+    {
+      "id": "sub-1-3-bloco-5",
+      "titulo": "Aplicação no Parlamento e na Câmara dos Deputados",
+      "objetivos": [
+        "Aplicar lentes de análise sem atribuir projetos reais não documentados."
+      ],
+      "conteudo": "Os exemplos seguintes são **analogias didáticas hipotéticas**, não descrição de projetos implantados nem enquadramento exclusivo de uma instituição num paradigma:\n* No **Paradigma Físico**, um projeto pode preocupar-se com a robustez dos servidores, APIs de dados abertos e a integridade da transmissão das votações eletrônicas sem corrupção de pacotes.\n* No **Paradigma Cognitivo**, o serviço de referência legislativa ajuda o assessor parlamentar a sair de um Estado Anômalo de Conhecimento (ASK), traduzindo uma demanda vaga de formulação de política pública em termos técnicos precisos.\n* No **Paradigma Social (Análise de Domínio)**, a representação do domínio pode considerar vocabulários especializados, como o VCB coordenado pelo Senado, e analisar como seus termos se relacionam às práticas discursivas do Direito Constitucional e do Processo Legislativo brasileiro.\n\n**Aplicação e recuperação:** Na busca de uma lei, há transmissão de dados, interpretação individual e práticas institucionais de nomear documentos. A presença de servidor não enquadra sozinha todo o serviço no paradigma físico; a pergunta de pesquisa e a concepção de informação precisam ser consideradas.",
+      "checkpointIds": [
+        "rt-1-3-5"
+      ]
+    },
+    {
+      "id": "sub-1-3-bloco-6",
+      "titulo": "Enunciados autorais: identificar acepção, modelo e limite",
+      "objetivos": [
+        "Distinguir crítica de um modelo e negação universal de outros fenômenos."
+      ],
+      "conteudo": "| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"Segundo Michael Buckland, os sistemas informatizados de bibliotecas são capazes de armazenar tanto informação como coisa quanto informação como processo.\"* | **ERRADO** | Na distinção do autor, o sistema armazena representações; gravar o vídeo de uma comunicação não equivale a guardar diretamente o processo subjetivo de tornar-se informado. |\n| *\"A equação fundamental de Bertram Brookes pertence epistemologicamente ao paradigma físico de Shannon e Weaver.\"* | **ERRADO** | A equação de Brookes pertence expressamente ao **paradigma cognitivo**, pois modela a transformação das estruturas mentais do sujeito ($K[S]$). |\n| *\"No paradigma social da Ciência da Informação, a relevância de um documento é uma medida matemática universal invariável no tempo e no espaço.\"* | **ERRADO** | No paradigma social (Hjørland), a relevância é **situada, contextual e relativa** à comunidade de domínio que avalia o documento. |\n| *\"Para Suzanne Briet, a intencionalidade de registro é irrelevante para que um objeto material seja elevado à categoria de documento.\"* | **ERRADO** | Seleção e uso como evidência são relevantes à discussão; não se justifica a análise por uma lista literal não demonstrada de quatro requisitos universais. |\n\n**Aplicação e recuperação:** Uma fotografia comunica algo a uma pessoa e é armazenada num sistema. O arquivo é representação; tornar-se informado é processo; a compreensão resultante não é o mesmo objeto que o arquivo. Identificar a acepção permite julgar sem equiparar palavras iguais a conceitos idênticos.",
+      "checkpointIds": [
+        "rt-1-3-6"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "DIKW é modelo didático; Ackoff inclui compreensão. Buckland distingue informação como processo, conhecimento e coisa, sem negar que sistemas armazenem representações formalizadas. Documento pode ser evidência sem conter apenas verdades. Não atribua a Briet checklist literal não demonstrado. Paradigmas físico, cognitivo e social podem coexistir; equipamento não define sozinho o enfoque.",
+  "fontesTeoria": [
+    {
+      "id": "buckland",
+      "titulo": "Michael Buckland — Informação como coisa (1991)",
+      "localizador": "PDF do projeto; usos processo/conhecimento/coisa, representações e evidência.",
+      "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Fundamentos/Informacao%20como%20Coisa%20%28thing%29.pdf"
+    },
+    {
+      "id": "ackoff",
+      "titulo": "Russell Ackoff — From Data to Wisdom (1989)",
+      "localizador": "Cinco categorias no artigo, incluindo understanding; DIKW de quatro é simplificação.",
+      "url": "https://faculty.ung.edu/kmelton/documents/datawisdom.pdf"
+    },
+    {
+      "id": "capurro",
+      "titulo": "Rafael Capurro — Epistemologia e ciência da informação (2003)",
+      "localizador": "Texto do autor: paradigmas físico, cognitivo e social; advertência contra sucessão linear.",
+      "url": "https://www.capurro.de/enancib_p.htm"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-1-3-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A síntese DIKW de quatro categorias é transcrição completa da proposta de Ackoff de 1989, sem omissões.",
+      "gabarito": "E",
+      "justificativa": "O artigo inclui understanding; a pirâmide de quatro é simplificação.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Distinguir a síntese DIKW e as cinco categorias do artigo."
+    },
+    {
+      "id": "rt-1-3-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Na distinção de Buckland, armazenar uma representação de regras não equivale a armazenar diretamente o conhecimento intangível de um sujeito.",
+      "gabarito": "C",
+      "justificativa": "Representação tangível e conhecimento não são a mesma acepção.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-1-3-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Ser usado como documento prova que todo conteúdo interno é verdadeiro.",
+      "gabarito": "E",
+      "justificativa": "Documento pode conter erro ou falsificação e ainda funcionar como evidência de uma prática.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "A verdade das afirmações requer avaliação independente."
+    },
+    {
+      "id": "rt-1-3-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Os paradigmas discutidos por Capurro constituem fases que obrigatoriamente se substituem, sem coexistência de teorias.",
+      "gabarito": "E",
+      "justificativa": "O autor alerta contra a leitura linear e admite entrecruzamento.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Os paradigmas podem coexistir e se entrecruzar."
+    },
+    {
+      "id": "rt-1-3-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A existência de um servidor basta para classificar toda investigação sobre um serviço como exclusivamente física.",
+      "gabarito": "E",
+      "justificativa": "O enquadramento depende do foco e dos pressupostos, não apenas do equipamento.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar",
+      "versao_correta": "Analisar pergunta e concepção de informação."
+    },
+    {
+      "id": "rt-1-3-6",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Gravar o vídeo de uma comunicação preserva uma representação do evento, sem armazenar diretamente a compreensão de quem o assistiu.",
+      "gabarito": "C",
+      "justificativa": "A distinção separa objeto registrado, processo de informar-se e conhecimento.",
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "editalRef": "Bloco A - Item 1.1 e 1.4",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-1-3-1": {
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "justificativa": "O conceito não se limita a papel. Objetos, dados e registros podem ser tratados como informativos; isso não certifica verdade do conteúdo ou uma qualidade essencial fixa fora de todo contexto."
+    },
+    "cp-1-3-2": {
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "justificativa": "A formulação expressa a ampliação para indícios conservados/registrados usados em relação documental. Não implica quatro condições universais literais nem verdade infalível."
+    },
+    "cp-1-3-3": {
+      "fonte": "Buckland, Informação como coisa (1991), tradução do acervo; Ackoff, From Data to Wisdom (1989), distinguir understanding; Capurro, Epistemologia e ciência da informação (2003), paradigmas entrecruzados; Le Coadic, capítulo 1, informação e comunicação.",
+      "justificativa": "O enfoque social considera práticas e contextos coletivos, sem exigir que desapareçam dimensões materiais ou individuais e sem obrigar cronologia linear."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Acepção",
+      "definicao": "Sentido de um termo no modelo e contexto usados.",
+      "exemploBiblioteca": "Base de conhecimento computacional armazena representações; isso não é o mesmo que conhecimento intangível em Buckland."
+    },
+    {
+      "termo": "Evidência",
+      "definicao": "Algo usado para sustentar uma inferência, sujeito a exame.",
+      "exemploBiblioteca": "Documento pode ser evidência de fraude sem que suas afirmações sejam verdadeiras."
+    }
+  ],
+  "autoresChave": [
+    "Michael Buckland — Informação como coisa (1991)",
+    "Russell Ackoff — From Data to Wisdom (1989)",
+    "Rafael Capurro — Epistemologia e ciência da informação (2003)"
+  ],
+  "descricaoCurta": "Usar DIKW como modelo delimitado e distinguir a formulação de Ackoff. Reconhecer os três usos de informação em Buckland sem negar representações computacionais. Analisar suporte, evidência e relações documentais sem prova infalível. Comparar paradigmas sem cronologia de substituição obrigatória. Aplicar lentes de análise sem atribuir projetos reais não documentados. Distinguir crítica de um modelo e negação universal de outros fenômenos.",
+  "alertasCebraspe": [
+    "O artigo inclui understanding; a pirâmide de quatro é simplificação.",
+    "Documento pode conter erro ou falsificação e ainda funcionar como evidência de uma prática.",
+    "O autor alerta contra a leitura linear e admite entrecruzamento."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 25
+}

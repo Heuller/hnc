@@ -46,18 +46,18 @@ describe('Validação Completa do Módulo 14 (Tecnologia da Informação e Dados
       expect(sub.autoresChave.length).toBeGreaterThanOrEqual(2);
       expect(sub.alertasCebraspe.length).toBeGreaterThanOrEqual(3);
       expect(sub.teoriaDensaMarkdown.length).toBeGreaterThan(1500);
-      expect(sub.checkpoints).toHaveLength(3);
+      expect(sub.checkpoints.length).toBeGreaterThanOrEqual(3);
     });
   });
 
-  it('todos os checkpoints de M14 devem ser 100% aprovados pelo guarda anti-alucinação', () => {
+  it('checkpoints de M14 devem passar no filtro estrutural de fonte e formato', () => {
     moduloM14TecnologiaDados.modulosFilhos.forEach((sub) => {
       sub.checkpoints.forEach((chk) => {
         const res = validarItemAntiAlucinacao({
           item: chk.item,
           gabarito: chk.gabarito,
           justificativa: chk.justificativa,
-          fontePrimaria: chk.justificativa,
+          fontePrimaria: chk.fonte,
         });
         expect(res.valido).toBe(true);
         expect(res.erros).toHaveLength(0);

@@ -205,12 +205,12 @@ describe('U4.1 - Esquema Unificado de Exercícios (ExercicioSchema X1 a X10)', (
     expect(parsed.success).toBe(false);
   });
 
-  it('deve relaxar checkpoints no ModuloFilhoSchema para 3 a 8 itens', () => {
+  it('deve exigir no mínimo 3 checkpoints e admitir expansão por unidades', () => {
     const submoduloMock = {
       id: 'sub-teste-u4',
       numero: '99.1',
       titulo: 'Submódulo de Teste U4',
-      descricaoCurta: 'Testando checkpoints relaxados de 3 a 8.',
+      descricaoCurta: 'Testando checkpoints distribuídos em unidades.',
       tempoEstimadoMinutos: 30,
       autoresChave: ['Otlet'],
       alertasCebraspe: ['Alerta 1'],
@@ -267,14 +267,14 @@ describe('U4.1 - Esquema Unificado de Exercícios (ExercicioSchema X1 a X10)', (
     };
     expect(ModuloFilhoSchema.safeParse(subCom2).success).toBe(false);
 
-    // Com mais de 8 checkpoints, deve falhar
+    // A aula ampliada pode conter mais de oito checkpoints.
     const subCom9 = {
       ...submoduloMock,
       checkpoints: [
         ...submoduloMock.checkpoints,
-        ...submoduloMock.checkpoints.slice(0, 4),
+        ...submoduloMock.checkpoints.slice(0, 4).map((cp, i) => ({...cp, id: `cp-extra-${i}`})),
       ], // total 9
     };
-    expect(ModuloFilhoSchema.safeParse(subCom9).success).toBe(false);
+    expect(ModuloFilhoSchema.safeParse(subCom9).success).toBe(true);
   });
 });

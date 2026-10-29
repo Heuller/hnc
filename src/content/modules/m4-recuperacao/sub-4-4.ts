@@ -19,405 +19,350 @@ export const submodulo44: ModuloFilho = {
   ],
   titulo: 'Serviço de Referência, DSI, Estudos de Usuários e Competência Informacional',
   antesDeLer: [
-    {
-      termo: 'Processo de Referência (Denis Grogan)',
-      definicao: 'Sequência de etapas intelectuais e comunicacionais de atendimento: do problema inicial, negociação da questão, estratégia até a resposta final.',
-      exemploBiblioteca: 'Entrevista com assessor parlamentar para filtrar se a demanda por \'impostos\' se refere especificamente à Reforma Tributária de 2023.',
-    },
-    {
-      termo: 'Disseminação Seletiva da Informação (DSI)',
-      definicao: 'Serviço que envia alertas periódicos e personalizados de novas publicações a usuários cadastrados com base em seus perfis de interesse.',
-      exemploBiblioteca: 'Envio automático aos membros da Comissão de Educação de novas teses e normas sobre financiamento escolar.',
-    },
-    {
-      termo: 'Estudo de Usuários',
-      definicao: 'Investigação sistemática sobre o comportamento, as necessidades, os padrões de busca e a satisfação da comunidade atendida.',
-      exemploBiblioteca: 'Pesquisa de opinião com deputados federais sobre o uso do acervo digital no aplicativo da Câmara.',
-    },
-    {
-      termo: 'Competência Informacional (Information Literacy)',
-      definicao: 'Habilidade dos usuários em identificar, acessar, avaliar e utilizar criticamente a informação no contexto da sociedade do conhecimento.',
-      exemploBiblioteca: 'Treinamento oferecido pelo CEDI aos novos servidores sobre como verificar a vigência de leis no portal da Câmara.',
-    },
-  ],
-  descricaoCurta: 'O processo de referência de Denis Grogan (8 etapas), entrevista e mediação, Disseminação Seletiva da Informação (DSI de Luhn), modelos teóricos de comportamento informacional (Wilson, Dervin - Sense Making, Belkin - ASK) e Competência em Informação (Information Literacy).',
-  tempoEstimadoMinutos: 24,
-  autoresChave: ['Denis Grogan', 'Hans Peter Luhn', 'Tom D. Wilson', 'Brenda Dervin', 'Nicholas Belkin', 'Carol Kuhlthau', 'Maurice Line', 'Nice Menezes de Figueiredo', 'Javier Calzada Prado', 'Tibor Koltay'],
+  {
+    "termo": "Resposta e solução",
+    "definicao": "Resultado de busca precisa ser avaliado quanto ao propósito.",
+    "exemploBiblioteca": "Grogan recomenda avaliação conjunta, sem declarar exclusividade unilateral."
+  },
+  {
+    "termo": "Demanda e uso",
+    "definicao": "Pedido expresso e uso efetivo podem divergir.",
+    "exemploBiblioteca": "Download não prova leitura; uso casual pode ocorrer sem pedido à biblioteca."
+  }
+],
+  descricaoCurta: "Reconhecer oito passos didáticos e participação conjunta na avaliação. Relacionar tipo de consulta e complexidade sem automatismos. Distinguir necessidade, desejo, demanda e uso na entrevista. Combinar métodos reconhecendo vieses e limites das evidências. Definir DSI como serviço orientado por perfil, sem exigir uma tecnologia única. Comparar modelos pelo seu foco e pelas hipóteses de comportamento. Aplicar competências em informação e dados sem uma fronteira artificial entre formatos. Julgar afirmações por contexto e referência, evitando exclusividades indevidas.",
+  tempoEstimadoMinutos: 37,
+  autoresChave: [
+  "Denis Grogan — A prática do serviço de referência (1995; reimpressão 2001)",
+  "Cunha, Amaral e Dantas — Manual de estudo de usuários da informação (2015)",
+  "Robert S. Taylor — Question-Negotiation and Information Seeking in Libraries (1968)",
+  "Carol Kuhlthau — Information Search Process",
+  "ACRL — Framework for Information Literacy for Higher Education",
+  "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)"
+],
   alertasCebraspe: [
-    'A sequência lógica de 8 etapas do processo de referência de Denis Grogan é cobrada literal e repetidamente pelo Cebraspe: 1. O Problema -> 2. A Necessidade de Informação -> 3. A Questão Inicial -> 4. A Questão Negociada -> 5. A Estratégia de Busca -> 6. O Processo de Busca -> 7. A Resposta -> 8. A Solução. Memorize essa ordem exata!',
-    'Quem é o ator principal nas primeiras etapas do processo de referência? O USUÁRIO (ele vivencia o problema, a necessidade e formula a questão inicial). A mediação do bibliotecário atua decisivamente a partir da Questão Negociada em diante.',
-    'A Disseminação Seletiva da Informação (DSI) é um serviço de NOTIFICAÇÃO CORRENTE ativo e personalizado, criado por Hans Peter Luhn, fundamentado no cruzamento automatizado entre o perfil do usuário e os novos documentos que entram no acervo.',
-    'Modelos de Estudos de Usuários: Abordagem Tradicional (centrada no sistema, acervo e métodos quantitativos) vs. Abordagem Alternativa/Moderna (centrada no usuário, fenomenológica, cognitiva e métodos qualitativos).',
-    'O modelo Sense-Making de Brenda Dervin estrutura-se na tríade: Situação (o contexto histórico) -> Lacuna / Gap (a incerteza cognitiva) -> Ponte (as estratégias e informações encontradas) -> Uso / Resultado (a superação do problema).',
-    'Competência em Informação (Information Literacy) e Competência em Dados (Data Literacy) não são sinônimos. Enquanto a competência informacional foca na busca, avaliação crítica e uso de documentos e fontes textuais, a competência em dados lida especificamente com a descoberta, interpretação quantitativa, análise, curadoria e comunicação ética de conjuntos de dados brutos e estruturados (datasets e tabelas).',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparação dos Modelos Seminais de Necessidades e Comportamento Informacional',
-    colunas: ['Teórico e Ano', 'Modelo Conceitual', 'Pressuposto Epistemológico Central', 'Conceito Chave Cobrado pelo Cebraspe'],
-    linhas: [
-      ['Tom D. Wilson (1981 / 1996)', 'Modelo de Comportamento Informacional', 'A necessidade de informação não é primária; decorre de necessidades fisiológicas, afetivas e cognitivas básicas do ser humano', 'Barreiras intervenientes (psicológicas, ambientais) e busca ativa vs. passiva'],
-      ['Brenda Dervin (1983 / 1992)', 'Abordagem do Sense-Making', 'A informação não existe isolada no vácuo; ela é construída pelo indivíduo para dar sentido ao seu mundo e transpor incertezas', 'Triângulo do Sense-Making: Situação -> Lacuna (Gap) -> Ponte -> Uso'],
-      ['Nicholas Belkin (1980)', 'ASK (Anomalous State of Knowledge)', 'O usuário busca informação precisamente porque seu conhecimento sobre o tema é imperfeito, vago ou incompleto', 'Dificuldade intrínseca do usuário de articular sua dúvida em termos precisos no início'],
-      ['Carol Kuhlthau (1991)', 'ISP (Information Search Process)', 'A busca de informação é um processo holístico que combina pensamentos (cognitivo), sentimentos (afetivo) e ações (físico)', 'A ansiedade e a dúvida diminuem à medida que a busca progride da incerteza para a clareza'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Processo de Referência segundo Denis Grogan (1995)
-Na obra clássica *A Prática do Serviço de Referência* (presente em nosso acervo em \`Recuperação, fontes, referência e usuários\`), **Denis Grogan** define o serviço de referência como o contato pessoal e a assistência direta prestada pelo bibliotecário ao leitor em busca de conhecimento.
-
-\`\`\`timeline
-E1 | 1. O Problema | Ator: Usuário | Usuário vivencia um impasse prático, acadêmico ou dilema de trabalho
----> Tomada de Consciência
-E2 | 2. A Necessidade de Informação | Ator: Usuário | Reconhecimento da lacuna cognitiva: percepção de que precisa de ajuda externa
----> Expressão Verbal
-E3 | 3. A Questão Inicial | Ator: Usuário | Pergunta verbalizada no balcão de referência — quase sempre vaga ou distorcida
----> Entrevista de Referência
-E4 | 4. A Questão Negociada | Atores: Bibliotecário & Usuário | Filtragem de ambiguidades e identificação técnica da real necessidade informacional
----> Formulação Estruturada
-E5 | 5. A Estratégia de Busca | Ator: Bibliotecário | Tradução na linguagem do sistema: termos, vocabulário controlado e operadores booleanos
----> Execução Técnica
-E6 | 6. O Processo de Busca | Ator: Bibliotecário | Navegação concreta em catálogos, acervos, bases de dados ou repositórios
----> Recuperação Documental
-E7 | 7. A Resposta | Ator: Bibliotecário | Entrega física ou digital dos documentos, referências ou dados pertinentes
----> Validação Pragmática
-E8 | 8. A Solução | Ator: Usuário | Julgamento exclusivo de valor pelo usuário: o problema foi resolvido?
-\`\`\`
-
-#### As Oito Etapas Decisórias e os Papéis dos Atores
-A banca **CEBRASPE** cobra a sequência exata e a atribuição de responsabilidades em cada etapa:
-1. **O Problema:** Situação fática ou dilema intelectual que o usuário precisa resolver em seu trabalho ou estudo. **Ator: Usuário**.
-2. **A Necessidade de Informação:** O reconhecimento interno de que o conhecimento acumulado é insuficiente e que dados externos são necessários. **Ator: Usuário**.
-3. **A Questão Inicial:** A verbalização da dúvida apresentada no balcão de referência, telefone ou chat. É quase invariavelmente **imperfeita, distorcida ou excessivamente genérica** em relação à necessidade real. **Ator: Usuário**.
-4. **A Questão Negociada:** O cerne da mediação do bibliotecário. Por meio da **entrevista de referência**, o profissional filtra ambiguidades e formula a verdadeira questão técnica a ser respondida. **Atores: Bibliotecário e Usuário em cooperação**.
-5. **A Estratégia de Busca:** A tradução da questão negociada na linguagem do sistema (seleção de vocabulários controlados, tesauros, campos e operadores booleanos). **Ator: Bibliotecário**.
-6. **O Processo de Busca:** A navegação concreta em catálogos, estantes, bases de dados comerciais ou repositórios digitais. **Ator: Bibliotecário**.
-7. **A Resposta:** O produto informativo entregue ao usuário (livros, artigos, relatórios ou referências). **Ator: Bibliotecário**.
-8. **A Solução:** A etapa final de validação pragmática. Somente o próprio usuário tem competência epistemológica para determinar se a resposta obtida efetivamente sanou seu problema original. **Ator: Usuário**.
-
----
-
-### 2. Tipologia das Questões de Referência segundo William Katz (2002)
-O autor norte-americano William Katz categorizou as consultas recebidas pelo serviço de referência em quatro classes fundamentais:
-
-| Categoria da Questão (Katz) | Complexidade | Fontes Utilizadas | Exemplo Prático na Câmara dos Deputados |
-| :--- | :--- | :--- | :--- |
-| **1. Questões de Direção / Administrativas** | Mínima (não bibliográfica). | Nenhuma fonte documental técnica; conhecimento do prédio e regulamento. | *"Onde fica o banheiro?", "Qual o horário de funcionamento da Seção de Raras?", "Onde tiro cópias?"* |
-| **2. Questões de Pronta-Referência (*Ready Reference*)** | Baixa / Factual pontual. | Obras de referência rápida (dicionários, anuários estatísticos, diretórios). | *"Qual é o número da Lei de Responsabilidade Fiscal?", "Quem é o atual Presidente da Câmara dos Deputados?"* |
-| **3. Questões de Pesquisa Específica (*Specific Search*)** | Média. | Catálogos em linha (OPAC), bibliografias especializadas e bases referenciais. | *"Quais monografias a biblioteca possui sobre a reforma tributária aprovada na Emenda Constitucional 132?"* |
-| **4. Questões de Pesquisa Ampla / Avançada (*Research / Extended*)** | Máxima. | Múltiplas bases heterogêneas, literatura cinzenta, comutação e consulta a especialistas. | *"Elaborar dossiê bibliográfico e jurisprudencial exaustivo sobre a evolução do controle de constitucionalidade de medidas provisórias nos últimos 20 anos."* |
-
----
-
-### 3. A Entrevista de Referência, Estudos de Usuários e a Tríade de Maurice Line (Edital Bloco E, itens 3.2 e 3.5)
-
-No serviço de referência moderno, a interação dialógica entre o bibliotecário e o consulente constitui o momento culminante da mediação humana da informação (**Denis Grogan, 1995; William Katz, 2002; Robert S. Taylor, 1968; Maurice Line, 1974; Nice Menezes de Figueiredo, 1994**).
-
-#### A. Os Quatro Níveis de Necessidade de Robert S. Taylor (1968)
-Em seu estudo seminal *Question-Negotiation and Information Seeking in Libraries*, Taylor demonstrou que a dúvida percorre quatro estados cognitivos na mente do usuário antes de alcançar o sistema:
-* **$Q_1$ — Necessidade Visceral:** A necessidade vaga, subconsciente e nebulosa de informação. O indivíduo sente que algo lhe falta, mas é totalmente incapaz de expressar isso em palavras (*informação intangível*).
-* **$Q_2$ — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.
-* **$Q_3$ — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. É quase sempre imperfeita, vaga ou distorcida (*a Questão Inicial de Grogan*).
-* **$Q_4$ — Necessidade Comprometida com o Sistema:** A questão traduzida e adaptada para os termos controlados, campos e operadores do sistema de recuperação da biblioteca (*a Questão Negociada / Estratégia de Busca*).
-
-#### B. As Cinco Fases Operacionais da Entrevista de Referência (Grogan & Katz)
-1. **Acolhimento Empático e Abertura:** Estabelecer clima de confiança e receptividade, quebrando a chamada *"ansiedade de biblioteca"* (*library anxiety*, Constance Mellon, 1986), vício psicológico que inibe o consulente de admitir o desconhecimento.
-2. **Negociação da Pergunta (Técnica do Funil):** O bibliotecário conduz a entrevista partindo de **perguntas abertas** (*"Conte-me sobre a finalidade da pesquisa no projeto de lei"*), passando por **perguntas exploratórias** (*"Quais correntes doutrinárias ou precedentes já foram mapeados?"*) e concluindo com **perguntas fechadas** (*"A busca deve se restringir às decisões do STF dos últimos 5 anos?"*).
-3. **Tradução e Formulação da Estratégia de Busca:** Conversão da questão negociada ($Q_4$) em descritores de tesauro (ex.: Tesauro do Congresso Nacional / MFN), operadores booleanos (AND, OR, NOT) e filtros de data e idioma.
-4. **Execução e Avaliação Preliminar Conjunta:** Apresentação de amostra dos primeiros registros recuperados para verificar a pertinência e calibrar a precisão antes do levantamento exaustivo.
-5. **Retroalimentação (Feedback) e Encerramento:** Confirmação de que o produto informativo atendeu à necessidade visceral ($Q_1$) e disponibilização de canais para desdobramentos adicionais.
-
-#### C. A Tríade Canônica: Necessidade vs. Demanda vs. Uso (Maurice Line, 1974; Nice Figueiredo, 1994)
-O Cebraspe explora sistematicamente a falsa equivalência entre esses três conceitos:
-
-$\\text{Necessidade (Need)} \\neq \\text{Demanda (Demand)} \\neq \\text{Uso (Use)}$
-
-* **Necessidade de Informação (*Information Need*):**
-  * Representa o estado real de carência informacional indispensável para que o indivíduo execute suas tarefas, tome decisões ou resolva impasses de pesquisa.
-  * Pode ser **consciente ou latente/inconsciente**. Muitas vezes o usuário desconhece que precisa de determinada norma ou dado estatístico até que um mediador o alerte.
-* **Demanda de Informação (*Information Demand / Want*):**
-  * É a parcela da necessidade que o usuário consegue efetivamente verbalizar e formalizar como solicitação ao bibliotecário ou ao sistema de busca.
-  * *Por que a demanda difere da necessidade?* Porque o usuário pode subestimar o acervo da biblioteca, sentir vergonha de expor suas dúvidas, usar termos errôneos ou pedir menos do que realmente precisa.
-* **Uso da Informação (*Information Use*):**
-  * É o consumo efetivo, a leitura assimilada e a aplicação prática das fontes recuperadas na tomada de decisão legislativa ou produção acadêmica.
-  * Nem tudo o que foi demandado é de fato usado (livros retirados que não chegam a ser lidos); e muito do que é usado advém de canais informais (conversas com pares em gabinetes) sem ter transitado pela biblioteca.
-
-### 4. Metodologias Diretas e Indiretas de Estudos de Usuários Revelam Necessidades Reais no Legislativo
-
-A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
-A investigação sistemática do comportamento informacional da comunidade classifica-se em dois grandes paradigmas metodológicos:
-
-| Modalidade | Metodologias Empregadas | Vantagens Principais | Limitações e Riscos Críticos |
-| :--- | :--- | :--- | :--- |
-| **Métodos Diretos**<br>*(Interação ativa com os usuários)* | • **Questionários padronizados** (estruturados ou semiestruturados);<br>• **Entrevistas em profundidade** individuais;<br>• **Grupos Focais (*Focus Groups*)** (6 a 12 participantes);<br>• **Técnica do Incidente Crítico (John C. Flanagan, 1954)**: relato de eventos reais e marcantes de sucesso ou fracasso recente de busca;<br>• **Observação participante / Etnografia**. | Capta motivações subjetivas, percepções de valor, expectativas e sentimentos afetivos (modelo ISP de Kuhlthau). | Baixa taxa de retorno em questionários; viés de complacência (o usuário responde o que acha que o bibliotecário gostaria de ouvir); alto custo e tempo. |
-| **Métodos Indiretos**<br>*(Análise de registros sem interferir nos sujeitos)* | • **Análise de Logs de Busca (*Transaction Log Analysis*)**: registros automáticos de cliques, termos sem recuperação (*zero hits*) e rotas no OPAC;<br>• **Análise de Citações / Bibliometria**: análise das referências citadas nos pareceres e relatórios técnicos das consultorias da Câmara;<br>• **Estatísticas de Circulação e Empréstimo**: taxas de rotação de acervo por classe decimal (CDD/CDU). | Dados estritamente objetivos, não reativos (não alteram o comportamento observado), baixo custo de coleta em sistemas automatizados. | Não revelam o porquê do comportamento; registram o documento baixado, mas não provam se ele foi efetivamente lido ou útil. |
-
-#### E. Casos Concretos Aplicados ao Universo Legislativo
-
-* **Caso 1: Balcão Presencial na Biblioteca Pedro Aleixo (Técnica do Funil)**
-  * *Situação:* Assessor parlamentar chega ao balcão de referência solicitando: *"Preciso urgentemente de tudo o que a biblioteca tiver sobre reforma tributária"*.
-  * *Intervenção do Bibliotecário:* O profissional percebe que a questão é excessivamente genérica ($Q_3$) e aplica o funil de perguntas. Pergunta aberta: *"Qual é o foco da emenda que o deputado apresentará?"*. O assessor esclarece que a discussão versa sobre a não cumulatividade plena do IBS e da CBS na aquisição de insumos de tecnologia. Pergunta fechada: *"A pesquisa deve focar a jurisprudência do STF ou doutrina de Direito Tributário comparado?"*.
-  * *Resultado:* A questão negociada ($Q_4$) é delimitada para *"precedentes do STF sobre creditamento de ICMS/IBS em insumos digitais"*, viabilizando a entrega de 3 acórdãos precisos em 30 minutos, evitando a entrega de dezenas de manuais irrelevantes.
-* **Caso 2: Atendimento Digital Remoto via Intranet / Chat Especializado**
-  * *Situação:* Consultor legislativo lotado em comissão parlamentar abre chamado eletrônico solicitando: *"Modelos de relatórios sobre inteligência artificial"*.
-  * *Intervenção do Bibliotecário:* Mediante contato síncrono via chat, o bibliotecário identifica que a demanda visa instruir a Comissão Especial sobre o Marco Regulatório da Inteligência Artificial (PL 2338/2023). O bibliotecário acessa o Portal LexML, recupera as proposições apensadas com identificadores URN LEX, cruza com a legislação da União Europeia (*EU AI Act*) e elabora uma **Linha do Tempo Normativa** acompanhada de **Mapa de Atores** dos setores ouvidos nas audiências públicas.
-
----
-
-### 5. A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)
-Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:
-
-\`\`\`timeline
-P | 1. Perfil de Interesse do Usuário | Mapeamento Temático | Cadastro formal de termos, descritores, operadores booleanos e áreas de pesquisa do leitor
----> Cruzamento com Novas Entradas
-D | 2. Perfil dos Novos Documentos | Ingestão no Acervo | Metadados e indexação das obras recém-adquiridas incorporadas ao catálogo
----> Algoritmo de Similaridade
-M | 3. Mecanismo de Casamento (Matching) | Filtro Automatizado | Interseção matemática entre os termos do perfil do usuário e as novas aquisições
----> Canal Proativo
-N | 4. Notificação Direcionada | Alerta Antecipado | Disparo de avisos eletrônicos (e-mail, RSS, app) com links diretos aos itens pertinentes
----> Calibração Algorítmica
-F | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertinência (útil vs. inútil), refinando continuamente o perfil cadastrado
-\`\`\`
-
-#### A. As Duas Gerações de DSI Cobradas pelo Cebraspe (*Prova STJ 2024*)
-* **DSI de 1ª Geração (Tradicional / Analógica / Em Lote):**
-  * Baseada em cartões perfurados ou perfis fixos de interesse preenchidos em formulários em papel;
-  * Cruzamentos periódicos manuais ou em lotes computacionais (*batch processing*);
-  * Alertas físicos encaminhados em fichas impressas ou boletins datilografados;
-  * Feedback lento e baixa flexibilidade de calibração.
-* **DSI de 2ª Geração (Digital / Automatizada / Semântica):**
-  * Perfis dinâmicos alimentados continuamente por algoritmos de aprendizado de máquina (*machine learning*) e rastreamento do histórico de consultas do usuário;
-  * Alertas instantâneos disparados em tempo real via feeds RSS, e-mails automatizados, APIs e notificações em aplicativos móveis;
-  * *Feedback* com um único clique (botão de "relevante/não relevante"), ajustando os pesos estatísticos do perfil do usuário em tempo de execução.
-
----
-
-### 6. Modelos Canônicos de Comportamento Informacional (*Information Behavior*)
-
-1. **Modelo de Tom D. Wilson (1981 / 1996):**
-   * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.
-   * Introduz as **variáveis intervenientes**: barreiras psicológicas, demográficas, ambientais e características da fonte que podem impedir ou desviar o comportamento de busca.
-2. **Abordagem do *Sense-Making* de Brenda Dervin (1983 / 1992):**
-   * O ser humano é visto como um viajante que se desloca no tempo e no espaço construindo sentido para sua vida.
-   * **O Triângulo do Sense-Making:**
-     * **Situação:** O contexto histórico e espaço-temporal onde o indivíduo está inserido;
-     * **Lacuna (*Gap*):** A barreira cognitiva, dúvida ou incerteza que interrompe a sua caminhada;
-     * **Ponte:** As informações, ideias e estratégias mobilizadas para superar a barreira;
-     * **Resultado / Uso:** A nova compreensão alcançada que permite continuar a caminhada.
-3. **Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):**
-   * O usuário busca informação em um sistema precisamente porque reconhece uma **anomalia ou lacuna em seu estado de conhecimento**. Por não dominar o tema, ele tem extrema dificuldade de formular a consulta exata em termos técnicos no início da interação.
-4. **Modelo ISP (*Information Search Process*) de Carol Kuhlthau (1991):**
-   * Integra três domínios do ser humano na busca: **Sentimentos (afetivo)**, **Pensamentos (cognitivo)** e **Ações (físico)**.
-   * Divide a pesquisa em 6 estágios: Iniciação $\\rightarrow$ Seleção $\\rightarrow$ Exploração $\\rightarrow$ Formulação $\\rightarrow$ Coleta $\\rightarrow$ Apresentação.
-   * Revela que os sentimentos de incerteza, confusão e frustração são máximos no início e na fase de exploração, convertendo-se em confiança e satisfação após a formulação do foco.
-
----
-
-### 6. Competência em Informação (*Information Literacy*) e Competência em Dados (*Data Literacy*)
-
-O edital nº 1/2026 exige explicitamente o domínio de **competência em informação e competência em dados** (item 1.5 do Bloco D). Ambas integram o arcabouço contemporâneo de mediação bibliotecária, mas possuem objetos, métodos e competências nucleares distintas.
-
-#### A. Competência em Informação (*Information Literacy*)
-* **Origem e Marcos Conceituais:** Termo cunhado por Paul Zurkowski em 1974 e consolidado pela *American Library Association* (ALA/ACRL, 1989), além das históricas Declarações de Praga (2003 - Rumo a uma Sociedade Letrada em Informação) e Alexandria (2005 - Farol da Sociedade da Informação).
-* **Definição:** É a capacidade holística de o indivíduo **reconhecer quando necessita de informação, saber localizá-la, avaliá-la criticamente em sua autoridade, exatidão e relevância, e utilizá-la de forma ética, legal e eficaz**.
-* **Aplicação Legislativa:** Na Câmara dos Deputados, manifesta-se nos programas de formação da Biblioteca Pedro Aleixo e do Cefor voltados a capacitar assessores parlamentares a identificar fontes doutrinárias fidedignas, avaliar jurisprudência e combater vieses informacionais.
-
-#### B. Competência em Dados (*Data Literacy*): A Nova Fronteira
-Com a proliferação da ciência orientada a dados (*data science*), do governo aberto e da inteligência artificial, emergiu a necessidade de competências especializadas para lidar com dados brutos e semiestruturados.
-* **Autores Canônicos de Referência:** **Javier Calzada Prado e Miguel Ángel Marzal (2013)** (*Incorporating Data Literacy into Information Literacy Programs: Core Competencies and Contents*) e **Tibor Koltay (2017)** (*Data literacy for researchers and data librarians*).
-* **Definição Canônica:** É o conjunto de conhecimentos, habilidades e atitudes que capacitam o cidadão ou profissional a **descobrir, acessar, interpretar criticamente, avaliar, gerenciar, analisar e comunicar dados de forma ética e responsável**, compreendendo o seu ciclo de vida e seu impacto social.
-
-#### C. As Cinco Dimensões da Competência em Dados (Calzada Prado & Marzal, 2013):
-1. **Descoberta e Acesso (*Finding & Accessing Data*):** Saber navegar em repositórios de dados abertos (ex.: Portal de Dados Abertos da Câmara, dados.gov.br), consultar APIs governamentais e recuperar datasets de pesquisas em formatos padronizados (CSV, JSON).
-2. **Avaliação Crítica de Dados (*Critical Data Evaluation*):** Capacidade de analisar a proveniência dos dados, a integridade da amostra, a representatividade estatística, a autoridade da agência coletora e eventuais vieses algorítmicos ou distorções metodológicas.
-3. **Gestão e Curadoria de Dados (*Data Management & Curation*):** Habilidades para organizar tabelas, aplicar metadados padronizados, elaborar Planos de Gestão de Dados (PGD), garantir a segurança e conformidade com a LGPD (Lei 13.709/2018) e assegurar a preservação perene.
-4. **Análise e Interpretação de Dados (*Data Analysis & Interpretation*):** Domínio de noções fundamentais de estatística descritiva (média, mediana, desvio-padrão), capacidade de ler e cruzar tabelas e habilidade de não confundir mera correlação com causalidade.
-5. **Visualização e Comunicação Ética (*Ethical Data Communication & Visualization*):** Capacidade de produzir gráficos honestos (evitando escalas truncadas e distorções gráficas manipuladoras), criar narrativas orientadas por dados (*data storytelling*) e citar formalmente datasets atribuindo identificadores persistentes (como DOIs).
-
-#### D. Matriz Comparativa: Information Literacy versus Data Literacy
-
-| Critério de Comparação | Competência em Informação (*Information Literacy*) | Competência em Dados (*Data Literacy*) |
-| :--- | :--- | :--- |
-| **Objeto Primordial** | Textos, artigos, livros, relatórios e documentos bibliográficos acabados. | Dados brutos, numéricos, tabulares, datasets, logs e fluxos de APIs. |
-| **Operação Cognitiva Central** | Interpretação textual, hermenêutica, síntese conceitual e julgamento de autoridade. | Raciocínio quantitativo, análise estatística, limpeza de dados e visualização gráfica. |
-| **Processamento Típico** | Leitura analítica humana de argumentos e ideias. | Processamento computacional por algoritmos, planilhas, scripts e consultas SQL. |
-| **Padrões de Referência** | Diretrizes da ACRL/ALA, Normas ABNT de citação textual (NBR 10520). | Padrões de metadados de dados (DDI, Frictionless Data), princípios FAIR e W3C CSV on the Web. |
-| **Papel do Bibliotecário** | Mediador da leitura, instrutor de busca bibliográfica e curador de acervos. | *Data Librarian* e *Data Steward*, curador de repositórios de dados de pesquisa e mediador de dados abertos. |
-
----
-
-### 7. Quadro Sinóptico de Cascas de Banana do Cebraspe em Referência e Usuários
-
-| Afirmação Típica da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
-| :--- | :--- | :--- |
-| *"Na oitava etapa do processo de referência de Denis Grogan (A Solução), o bibliotecário decide unilateralmente se a pesquisa foi concluída."* | **ERRADO** | A Solução é uma avaliação de competência **EXCLUSIVA DO USUÁRIO** (somente ele sabe se seu problema foi resolvido). |
-| *"No modelo de Denis Grogan, a formulação da estratégia de busca precede o processo de negociação da questão com o usuário."* | **ERRADO** | A Questão Negociada (etapa 4) **antecede** a Estratégia de Busca (etapa 5). Não se pode planejar a busca antes de negociar a dúvida. |
-| *"Segundo Brenda Dervin, a informação é um objeto físico estático independente do contexto existencial do indivíduo."* | **ERRADO** | No *Sense-Making*, a informação é **construída ativamente** pelo sujeito para transpor lacunas cognitivas situadas. |
-| *"A competência em dados resume-se à busca tradicional de livros em catálogos eletrônicos de bibliotecas."* | **ERRADO** | Competência em dados foca em **dados brutos e estruturados (datasets, tabelas, APIs)**, análise quantitativa e curadoria. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Ética Profissional e Legislação (sub-1-4):** Conduta e sigilo na entrevista de referência.
-* **Produtos e Serviços Informacionais (sub-5-2):** Conversão da necessidade do usuário em relatórios temáticos e notas informacionais.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-O **Serviço de Referência**, a **Disseminação Seletiva da Informação (DSI)** e os **Estudos de Usuários** corporificam a missão mediadora da biblioteca pública e parlamentar:
-1. **O Serviço de Referência (Denis Grogan e Jean-Philippe Accart):**
-   - Processo de assistência direta, pessoal e personalizada aos usuários em busca de informação.
-   - **Etapas Canônicas da Entrevista de Referência (Grogan):**
-     1. Mensagem inicial recebida do usuário (pergunta expressa).
-     2. Esclarecimento da necessidade real (diagnóstico da dúvida latente).
-     3. Seleção da estratégia de busca e das fontes adequadas.
-     4. Execução da busca no sistema.
-     5. Avaliação da resposta e validação com o usuário.
-   - **Tipologia de Questões de Referência (Grogan):** Administrativas (onde fica?), Pergunta de resposta rápida (*Ready Reference* / fato específico), Busca temática ampla e Questão de pesquisa profunda (*Research*).
-2. **Disseminação Seletiva da Informação (DSI / SDI):**
-   - Serviço proativo e personalizado no qual a biblioteca antecipa o envio de informações novas de acordo com o **perfil de interesses cadastrado do usuário** (*User Profile*).
-   - Componentes: Perfil do usuário $\to$ Base de novas publicações $\to$ Mecanismo de cruzamento (*Matching*) $\to$ Notificação periódica $\to$ Mecanismo de retroalimentação (*Feedback* para calibrar o perfil).
-3. **Estudos de Usuários e Comportamento Informacional:**
-   - Investigação sistemática de quem são os usuários, quais suas necessidades reais e sentidas, como buscam informação e quais barreiras enfrentam.
-   - **Abordagem Tradicional (Orientada ao Sistema):** Foco em estatísticas quantitativas de empréstimo, circulação e ocupação das mesas.
-   - **Abordagem Alternativa (Orientada ao Usuário / Cognitiva-Sense Making de Dervin):** Foco nas lacunas de sentido, na experiência subjetiva e no contexto de uso da informação.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (DSI Parlamentar Customizada na Biblioteca Pedro Aleixo):** Um deputado recém-empossado assume a presidência da Comissão de Ciência e Tecnologia. O bibliotecário cria um perfil de DSI no sistema da biblioteca com os descritores: *inteligência artificial, regulação de algoritmos, proteção de dados*. Semanalmente, o gabinete do deputado recebe um boletim automatizado com as novas doutrinas, teses e artigos indexados sobre esses temas.
-- **Cenário 2 (Entrevista de Referência com a Consultoria Legislativa):** Um consultor legislativo pergunta: *"Vocês têm livros sobre saúde pública?"*. O bibliotecário de referência aplica as técnicas de Grogan e descobre que a real necessidade é saber se a vacinação obrigatória foi tema de controle de constitucionalidade no STF após a pandemia de COVID-19, refinando a estratégia de busca para o repositório LexML e jurisprudência constitucional.
-- **Cenário 3 (Estudo de Usuários para Modernização do Portal da BDCam):** O CEDI conduz um estudo qualitativo com assessores parlamentares de diferentes partidos para identificar por que a busca avançada era pouco utilizada. O diagnóstico revela que a linguagem dos operadores booleanos assustava os usuários, motivando a criação de filtros por facetas amigáveis de clique único.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Serviço / Abordagem | Papel do Bibliotecário | Mecanismo Central | Foco de Avaliação |
-| :--- | :--- | :--- | :--- |
-| **Referência Reativa** | Aguarda o usuário procurar o balcão | Entrevista de referência | Resolução de dúvida imediata |
-| **DSI (Proativa)** | Antecipa o envio de informações novas | Cruzamento de perfis (*matching*) | Relevância e feedback contínuo |
-| **Estudo Tradicional** | Mede o uso dos recursos da biblioteca | Estatísticas de circulação e empréstimos | Eficiência operacional do prédio |
-| **Estudo Alternativo** | Compreende a cognição e o comportamento | Métodos qualitativos e *Sense-Making* | Satisfação de necessidades humanas |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **A Pergunta Inicial como Expressão Perfeita da Dúvida:** O Cebraspe propõe que *"o bibliotecário deve iniciar a busca imediatamente a partir dos exatos termos proferidos pelo usuário em sua primeira pergunta no balcão"*. **Gabarito: ERRADO.** A doutrina de Denis Grogan ensina que a primeira pergunta raramente reflete a real necessidade de informação; a entrevista de referência é indispensável para esclarecer a demanda oculta.
-- **DSI sem Mecanismo de Retroalimentação:** Dizer que a DSI funciona em fluxo unidirecional sem necessidade de feedback. **Gabarito: ERRADO.** O mecanismo de *feedback* do usuário é elemento obrigatório da DSI para refinar ou atualizar o perfil.
-- **Confusão entre Questão de Resposta Rápida e Pesquisa:** Afirmar que levantar toda a legislação comparada de cinco países é uma questão de referência rápida (*Ready Reference*). **Gabarito: ERRADO.** Trata-se de busca de pesquisa aprofundada (*Research Query*).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **GROGAN, Denis.** *A prática do serviço de referência*. Brasília: Briquet de Lemos, 1995. (A principal referência clássica cobrada em provas de concurso).
-- **ACCART, Jean-Philippe.** *Serviço de referência: do presencial ao virtual*. Brasília: Briquet de Lemos, 2012.
-- **FIGUEIREDO, Nice Menezes de.** *Estudos de uso e usuários da informação*. Brasília: IBICT, 1994. (Texto fundacional dos estudos de usuários no Brasil).
-- **DERVIN, Brenda.** From the mind's eye of the user: the sense-making qualitative-quantitative methodology. *Qualitative Research in Information Management*, p. 61-84, 1992.
-- **CÂMARA DOS DEPUTADOS.** *Diretrizes de Atendimento do Serviço de Referência da Biblioteca Pedro Aleixo*. Brasília: CEDI, 2020.
-
-### Pausa de Recuperação Ativa: Etapas da Entrevista de Referência
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Quais são os quatro níveis de necessidade informacional descritos por Robert S. Taylor (visceral, consciente, formalizada e comprometida)? Em qual estágio a questão é efetivamente negociada com o bibliotecário de referência?
-`,
+  "Brevidade não determina complexidade ou risco de erro.",
+  "Registro de acesso não comprova identidade, leitura ou utilidade.",
+  "A formação informacional possui escopo amplo e interseções com competência em dados."
+],
+  teoriaDensaMarkdown: "### O Processo de Referência segundo Denis Grogan (1995)\n\nNa obra clássica *A Prática do Serviço de Referência* (presente em nosso acervo em `Recuperação, fontes, referência e usuários`), **Denis Grogan**, ao discutir a assistência pessoal de referência em sentido estrito, retoma formulação de Samuel Rothstein sobre o contato pessoal e a assistência direta prestada pelo bibliotecário ao leitor em busca de conhecimento.\n\n```timeline\nE1 | 1. O Problema | Ator: Usuário | Usuário vivencia um impasse prático, acadêmico ou dilema de trabalho\n---> Tomada de Consciência\nE2 | 2. A Necessidade de Informação | Ator: Usuário | Reconhecimento da lacuna cognitiva: percepção de que precisa de ajuda externa\n---> Expressão Verbal\nE3 | 3. A Questão Inicial | Ator: Usuário | Pergunta verbalizada no balcão de referência — pode exigir esclarecimento, mas não é necessariamente vaga ou distorcida\n---> Entrevista de Referência\nE4 | 4. A Questão Negociada | Atores: Bibliotecário & Usuário | Filtragem de ambiguidades e identificação técnica da real necessidade informacional\n---> Formulação Estruturada\nE5 | 5. A Estratégia de Busca | Ator: Bibliotecário | Tradução na linguagem do sistema: termos, vocabulário controlado e operadores booleanos\n---> Execução Técnica\nE6 | 6. O Processo de Busca | Ator: Bibliotecário | Navegação concreta em catálogos, acervos, bases de dados ou repositórios\n---> Recuperação Documental\nE7 | 7. A Resposta | Ator: Bibliotecário | Entrega física ou digital dos documentos, referências ou dados pertinentes\n---> Validação Pragmática\nE8 | 8. A Solução | Ator: Usuário | Avaliação do produto com o consulente: a resposta atende ao propósito?\n```\n\n#### As Oito Etapas Decisórias e os Papéis dos Atores\nGrogan apresenta os oito passos **para fins didáticos**, advertindo que há retornos, fusões e variações. A descrição não prescreve um ritual linear para toda consulta:\n1. **O Problema:** Situação fática ou dilema intelectual que o usuário precisa resolver em seu trabalho ou estudo. **Ator: Usuário**.\n2. **A Necessidade de Informação:** O reconhecimento interno de que o conhecimento acumulado é insuficiente e que dados externos são necessários. **Ator: Usuário**.\n3. **A Questão Inicial:** A verbalização da dúvida apresentada no balcão de referência, telefone ou chat. Pode ser clara ou exigir esclarecimentos; não se deve presumir incompetência de todo consulente. **Ator: Usuário**.\n4. **A Questão Negociada:** O cerne da mediação do bibliotecário. Por meio da **entrevista de referência**, o profissional filtra ambiguidades e formula a verdadeira questão técnica a ser respondida. **Atores: Bibliotecário e Usuário em cooperação**.\n5. **A Estratégia de Busca:** A tradução da questão negociada na linguagem do sistema (seleção de vocabulários controlados, tesauros, campos e operadores booleanos). **Ator: Bibliotecário**.\n6. **O Processo de Busca:** A navegação concreta em catálogos, estantes, bases de dados comerciais ou repositórios digitais. **Ator: Bibliotecário**.\n7. **A Resposta:** O produto informativo entregue ao usuário (livros, artigos, relatórios ou referências). **Ator: Bibliotecário**.\n8. **A Solução:** A etapa final de validação pragmática. A resposta é solução potencial. Nas pp. 54–55, o autor recomenda que **bibliotecário e consulente avaliem juntos o produto** e cheguem de comum acordo ao encerramento. O uso posterior pelo usuário pode ocorrer fora do controle do profissional. **Não é correto atribuir a Grogan julgamento exclusivamente unilateral**, seja do bibliotecário, seja do usuário.\n\n**Aplicação e recuperação:** O usuário recebe referências tecnicamente corretas, mas explica que precisava de texto vigente em 2020. A resposta ainda não é solução adequada. Profissional e consulente reavaliam o produto e ajustam a busca. Essa volta não viola o modelo de Grogan, que admite retornos.\n\n### Tipologia de consultas: diferenciar tarefa e esforço necessário\n\nUma tipologia difundida na literatura de referência, associada a William Katz, distingue orientação/direção, pronta-referência, busca específica e pesquisa. Os exemplos a seguir são **hipotéticos**. Complexidade e fonte dependem da demanda concreta; uma pergunta aparentemente factual pode exigir verificação extensa:\n\n| Categoria da Questão (Katz) | Complexidade | Fontes Utilizadas | Exemplo Prático na Câmara dos Deputados |\n| :--- | :--- | :--- | :--- |\n| **1. Questões de Direção / Administrativas** | Mínima (não bibliográfica). | Pode exigir guia, mapa ou regulamento atualizado; não significa ausência necessária de documento. | *\"Onde fica o banheiro?\", \"Qual o horário de funcionamento da Seção de Raras?\", \"Onde tiro cópias?\"* |\n| **2. Questões de Pronta-Referência (*Ready Reference*)** | Baixa / Factual pontual. | Obras de referência rápida (dicionários, anuários estatísticos, diretórios). | *\"Qual é o número da Lei de Responsabilidade Fiscal?\", \"Quem é o atual Presidente da Câmara dos Deputados?\"* |\n| **3. Questões de Pesquisa Específica (*Specific Search*)** | Média. | Catálogos em linha (OPAC), bibliografias especializadas e bases referenciais. | *\"Quais monografias a biblioteca possui sobre a reforma tributária aprovada na Emenda Constitucional 132?\"* |\n| **4. Questões de Pesquisa Ampla / Avançada (*Research / Extended*)** | Máxima. | Múltiplas bases heterogêneas, literatura cinzenta, comutação e consulta a especialistas. | *\"Elaborar dossiê bibliográfico e jurisprudencial exaustivo sobre a evolução do controle de constitucionalidade de medidas provisórias nos últimos 20 anos.\"* |\n\n**Aplicação e recuperação:** “Quem ocupava a presidência em determinada sessão?” parece pronta-referência, mas homonímia de datas e substituições pode exigir atas e registros. A forma curta da pergunta não prova esforço mínimo.\n\n### A Entrevista de Referência, Estudos de Usuários e a Tríade de Maurice Line (Edital Bloco E, itens 3.2 e 3.5)\n\nNo serviço de referência moderno, a interação dialógica entre o bibliotecário e o consulente constitui o momento culminante da mediação humana da informação (**Denis Grogan, 1995; William Katz, 2002; Robert S. Taylor, 1968; Maurice Line, 1974; Nice Menezes de Figueiredo, 1994**).\n\n#### A. Os Quatro Níveis de Necessidade de Robert S. Taylor (1968)\nEm seu estudo seminal *Question-Negotiation and Information Seeking in Libraries*, Taylor demonstrou que a dúvida percorre quatro estados cognitivos na mente do usuário antes de alcançar o sistema:\n* **$Q_1$ — Necessidade Visceral:** Necessidade ainda não expressa, percebida como insatisfação ou lacuna; não se converte essa caracterização em diagnóstico psicológico universal de incapacidade total (*informação intangível*).\n* **$Q_2$ — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.\n* **$Q_3$ — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. É quase sempre imperfeita, vaga ou distorcida (há aproximação didática com a questão inicial, sem equivalência perfeita entre os modelos).\n* **$Q_4$ — Necessidade Comprometida com o Sistema:** A questão traduzida e adaptada para os termos controlados, campos e operadores do sistema de recuperação da biblioteca (adaptação ao que se acredita que o sistema pode responder; não é sinônimo necessário de uma consulta formal em descritores).\n\n#### B. Roteiro prático de entrevista: síntese didática, não cinco fases canônicas atribuídas a dois autores\n1. **Acolhimento Empático e Abertura:** Estabelecer clima de confiança e receptividade, quebrando a chamada *\"ansiedade de biblioteca\"* (*library anxiety*, Constance Mellon, 1986), fenômeno de ansiedade que pode afetar a interação; não se rotula o usuário como portador de um vício.\n2. **Negociação da Pergunta (Técnica do Funil):** O bibliotecário conduz a entrevista partindo de **perguntas abertas** (*\"Conte-me sobre a finalidade da pesquisa no projeto de lei\"*), passando por **perguntas exploratórias** (*\"Quais correntes doutrinárias ou precedentes já foram mapeados?\"*) e concluindo com **perguntas fechadas** (*\"A busca deve se restringir às decisões do STF dos últimos 5 anos?\"*).\n3. **Tradução e Formulação da Estratégia de Busca:** Conversão da questão negociada ($Q_4$) em descritores de tesauro (ex.: vocabulário controlado pertinente à base; MFN pode designar número de registro em sistemas e não é nome de tesauro), operadores booleanos (AND, OR, NOT) e filtros de data e idioma.\n4. **Execução e Avaliação Preliminar Conjunta:** Apresentação de amostra dos primeiros registros recuperados para verificar a pertinência e calibrar a precisão antes do levantamento exaustivo.\n5. **Retroalimentação (Feedback) e Encerramento:** Confirmação de que o produto informativo atendeu à necessidade visceral ($Q_1$) e disponibilização de canais para desdobramentos adicionais.\n\n#### C. A Tríade Canônica: Necessidade vs. Demanda vs. Uso (Maurice Line, 1974; Nice Figueiredo, 1994)\nO Cebraspe explora sistematicamente a falsa equivalência entre esses três conceitos:\n\n$\\text{Necessidade (Need)} \\neq \\text{Demanda (Demand)} \\neq \\text{Uso (Use)}$\n\n* **Necessidade de Informação (*Information Need*):**\n  * Representa o estado real de carência informacional indispensável para que o indivíduo execute suas tarefas, tome decisões ou resolva impasses de pesquisa.\n  * Pode ser **consciente ou latente/inconsciente**. Muitas vezes o usuário desconhece que precisa de determinada norma ou dado estatístico até que um mediador o alerte.\n* **Demanda de informação (*Demand*), distinta de desejo (*Want*):**\n  * É o que o indivíduo pede. Pode refletir desejo e/ou necessidade, mas também pode ser pedido algo desnecessário. **Desejo** é o que gostaria de ter, ainda que não peça. Demanda não é necessariamente subconjunto fiel de uma necessidade objetiva.\n  * *Por que a demanda difere da necessidade?* Porque o usuário pode subestimar o acervo da biblioteca, sentir vergonha de expor suas dúvidas, usar termos errôneos ou pedir menos do que realmente precisa.\n* **Uso da Informação (*Information Use*):**\n  * É o consumo efetivo, a leitura assimilada e a aplicação prática das fontes recuperadas na tomada de decisão legislativa ou produção acadêmica.\n  * Nem tudo o que foi demandado é de fato usado (livros retirados que não chegam a ser lidos); e muito do que é usado advém de canais informais (conversas com pares em gabinetes) sem ter transitado pela biblioteca.\n\n**Aplicação e recuperação:** Alguém deseja um livro, pede outro por achar que o primeiro não existe e usa uma nota técnica encontrada casualmente. Desejo, demanda, necessidade e uso não formam uma linha obrigatória. O profissional deve esclarecer sem pressupor que sabe unilateralmente toda necessidade.\n\n### Metodologias Diretas e Indiretas de Estudos de Usuários Revelam Necessidades Reais no Legislativo\n\nMétodos podem combinar contato com pessoas e análise de registros. A classificação direto/indireto varia conforme a referência; explicite procedimento, amostra e limites:\n\n| Modalidade | Metodologias Empregadas | Vantagens Principais | Limitações e Riscos Críticos |\n| :--- | :--- | :--- | :--- |\n| **Métodos Diretos**<br>*(Interação ativa com os usuários)* | • **Questionários padronizados** (estruturados ou semiestruturados);<br>• **Entrevistas em profundidade** individuais;<br>• **Grupos Focais (*Focus Groups*)** (6 a 12 participantes);<br>• **Técnica do Incidente Crítico (John C. Flanagan, 1954)**: relato de eventos reais e marcantes de sucesso ou fracasso recente de busca;<br>• **Observação participante / Etnografia**. | Capta motivações subjetivas, percepções de valor, expectativas e sentimentos afetivos (modelo ISP de Kuhlthau). | Baixa taxa de retorno em questionários; viés de complacência (o usuário responde o que acha que o bibliotecário gostaria de ouvir); alto custo e tempo. |\n| **Métodos Indiretos**<br>*(Análise de registros sem contato direto em certos desenhos; análise de logs ainda exige governança e cuidado com privacidade)* | • **Análise de Logs de Busca (*Transaction Log Analysis*)**: registros automáticos de cliques, termos sem recuperação (*zero hits*) e rotas no OPAC;<br>• **Análise de Citações / Bibliometria**: análise das referências citadas nos pareceres e relatórios técnicos das consultorias da Câmara;<br>• **Estatísticas de Circulação e Empréstimo**: taxas de rotação de acervo por classe decimal (CDD/CDU). | Registros de ações que reduzem certas limitações do autorrelato; seleção, instrumentação, bots e ciência do monitoramento podem afetá-los. Custo e objetividade absoluta não são garantidos. | Não revelam o porquê do comportamento; registram o documento baixado, mas não provam se ele foi efetivamente lido ou útil. |\n\n#### Casos hipotéticos de aplicação, sem atribuir atendimentos reais à Câmara\n\n* **Caso 1: Balcão Presencial na Biblioteca Pedro Aleixo (Técnica do Funil)**\n  * *Situação:* Assessor parlamentar chega ao balcão de referência solicitando: *\"Preciso urgentemente de tudo o que a biblioteca tiver sobre reforma tributária\"*.\n  * *Intervenção do Bibliotecário:* O profissional percebe que a questão é excessivamente genérica ($Q_3$) e aplica o funil de perguntas. Pergunta aberta: *\"Qual é o foco da emenda que o deputado apresentará?\"*. O assessor esclarece que a discussão versa sobre a não cumulatividade plena do IBS e da CBS na aquisição de insumos de tecnologia. Pergunta fechada: *\"A pesquisa deve focar a jurisprudência do STF ou doutrina de Direito Tributário comparado?\"*.\n  * *Resultado:* A questão negociada ($Q_4$) é delimitada para *\"precedentes do STF sobre creditamento de ICMS/IBS em insumos digitais\"*, orientando a busca e a verificação do que de fato existe. Não se inventa a existência de três acórdãos específicos nem prazo real de entrega; as competências tributárias e datas devem ser analisadas conforme a norma.\n* **Caso 2: Atendimento Digital Remoto via Intranet / Chat Especializado**\n  * *Situação:* Consultor legislativo lotado em comissão parlamentar abre chamado eletrônico solicitando: *\"Modelos de relatórios sobre inteligência artificial\"*.\n  * *Intervenção do Bibliotecário:* Mediante contato síncrono via chat, o bibliotecário identifica que a demanda visa instruir a Comissão Especial sobre o Marco Regulatório da Inteligência Artificial (PL 2338/2023). O bibliotecário poderia consultar tramitação e documentos oficiais, verificar relações e identificadores, compará-los com fontes europeias pertinentes e elaborar uma **Linha do Tempo Normativa** acompanhada de **Mapa de Atores** dos setores ouvidos nas audiências públicas.\n\n**Aplicação e recuperação:** Um portal registra cem downloads, mas não informa cem leitores satisfeitos. Logs e entrevistas respondem perguntas distintas; cruzá-los melhora interpretação. Participantes que não responderam ao questionário podem ter necessidades diferentes dos que responderam.\n\n### A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)\n\nCriada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:\n\n```timeline\nP | 1. Perfil de Interesse do Usuário | Mapeamento Temático | Cadastro formal de termos, descritores, operadores booleanos e áreas de pesquisa do leitor\n---> Cruzamento com Novas Entradas\nD | 2. Perfil dos Novos Documentos | Ingestão no Acervo | Metadados e indexação das obras recém-adquiridas incorporadas ao catálogo\n---> Algoritmo de Similaridade\nM | 3. Mecanismo de Casamento (Matching) | Filtro Automatizado | Interseção matemática entre os termos do perfil do usuário e as novas aquisições\n---> Canal Proativo\nN | 4. Notificação Direcionada | Alerta Antecipado | Disparo de avisos eletrônicos (e-mail, RSS, app) com links diretos aos itens pertinentes\n---> Calibração Algorítmica\nF | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertinência (útil vs. inútil), refinando continuamente o perfil cadastrado\n```\n\n#### A. Comparar tecnologias de DSI sem inventar fronteira rígida entre gerações\n* **DSI de 1ª Geração (Tradicional / Analógica / Em Lote):**\n  * Baseada em cartões perfurados ou perfis fixos de interesse preenchidos em formulários em papel;\n  * Cruzamentos periódicos manuais ou em lotes computacionais (*batch processing*);\n  * Alertas físicos encaminhados em fichas impressas ou boletins datilografados;\n  * Feedback lento e baixa flexibilidade de calibração.\n* **DSI de 2ª Geração (Digital / Automatizada / Semântica):**\n  * Perfis podem ser explicitamente declarados ou ajustados com sinais autorizados. DSI digital **não exige machine learning nem coleta irrestrita do histórico**;\n  * Alertas periódicos ou próximos do tempo real, conforme configuração, enviados via feeds RSS, e-mails automatizados, APIs e notificações em aplicativos móveis;\n  * *Feedback* com um único clique (botão de \"relevante/não relevante\"), ajustando os pesos estatísticos do perfil do usuário em tempo de execução.\n\n**Aplicação e recuperação:** Um perfil explícito sobre acessibilidade recebe alerta semanal de novas referências e permite marcar pertinência. Isso pode ser DSI sem IA e sem vigiar toda navegação. Um boletim geral idêntico a todos não ganha seletividade individual apenas por ser eletrônico.\n\n### Modelos Canônicos de Comportamento Informacional (*Information Behavior*)\n\n1. **Modelo de Tom D. Wilson (1981 / 1996):**\n   * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.\n   * Introduz as **variáveis intervenientes**: barreiras psicológicas, demográficas, ambientais e características da fonte que podem impedir ou desviar o comportamento de busca.\n2. **Abordagem do *Sense-Making* de Brenda Dervin (1983 / 1992):**\n   * O ser humano é visto como um viajante que se desloca no tempo e no espaço construindo sentido para sua vida.\n   * **Elementos para analisar a construção de sentido:** não chamar de triângulo uma enumeração de quatro componentes\n     * **Situação:** O contexto histórico e espaço-temporal onde o indivíduo está inserido;\n     * **Lacuna (*Gap*):** A barreira cognitiva, dúvida ou incerteza que interrompe a sua caminhada;\n     * **Ponte:** As informações, ideias e estratégias mobilizadas para superar a barreira;\n     * **Resultado / Uso:** A nova compreensão alcançada que permite continuar a caminhada.\n3. **Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):**\n   * O usuário busca informação em um sistema precisamente porque reconhece uma **anomalia ou lacuna em seu estado de conhecimento**. Por não dominar o tema, ele tem extrema dificuldade de formular a consulta exata em termos técnicos no início da interação.\n4. **Modelo ISP (*Information Search Process*) de Carol Kuhlthau (1991):**\n   * Integra três domínios do ser humano na busca: **Sentimentos (afetivo)**, **Pensamentos (cognitivo)** e **Ações (físico)**.\n   * Divide a pesquisa em 6 estágios: Iniciação $\\rightarrow$ Seleção $\\rightarrow$ Exploração $\\rightarrow$ Formulação $\\rightarrow$ Coleta $\\rightarrow$ Apresentação.\n   * Descreve padrões frequentes: exploração pode aumentar incerteza, enquanto formulação de foco pode favorecer confiança. Não prediz sentimentos idênticos nem satisfação obrigatória para toda pessoa.\n\n**Aplicação e recuperação:** Após ler fontes contraditórias, a pessoa fica mais incerta antes de formular foco. Isso é compatível com ISP e não demonstra necessariamente fracasso. ASK focaliza estado de conhecimento; Sense-Making, construção situada de sentido; não se tornam o mesmo modelo por falar em lacuna.\n\n### Competência em Informação (*Information Literacy*) e Competência em Dados (*Data Literacy*)\n\nO edital nº 1/2026 exige explicitamente o domínio de **competência em informação e competência em dados** (item 1.5 do Bloco D). Ambas integram o arcabouço contemporâneo de mediação bibliotecária, mas possuem objetos, métodos e competências nucleares distintas.\n\n#### A. Competência em Informação (*Information Literacy*)\n* **Origem e Marcos Conceituais:** Termo cunhado por Paul Zurkowski em 1974 e consolidado pela *American Library Association* (ALA/ACRL, 1989), além das históricas Declarações de Praga (2003 - Rumo a uma Sociedade Letrada em Informação) e Alexandria (2005 - Farol da Sociedade da Informação).\n* **Definição:** É a capacidade holística de o indivíduo **reconhecer quando necessita de informação, saber localizá-la, avaliá-la criticamente em sua autoridade, exatidão e relevância, e utilizá-la de forma ética, legal e eficaz**.\n* **Aplicação Legislativa:** Em um programa hipotético de formação parlamentar, pode capacitar assessores a identificar fontes doutrinárias fidedignas, avaliar jurisprudência e combater vieses informacionais.\n\n#### B. Competência em Dados (*Data Literacy*): A Nova Fronteira\nCom a proliferação da ciência orientada a dados (*data science*), do governo aberto e da inteligência artificial, emergiu a necessidade de competências especializadas para lidar com dados brutos e semiestruturados.\n* **Autores Canônicos de Referência:** **Javier Calzada Prado e Miguel Ángel Marzal (2013)** (*Incorporating Data Literacy into Information Literacy Programs: Core Competencies and Contents*) e **Tibor Koltay (2017)** (*Data literacy for researchers and data librarians*).\n* **Definição Canônica:** É o conjunto de conhecimentos, habilidades e atitudes que capacitam o cidadão ou profissional a **descobrir, acessar, interpretar criticamente, avaliar, gerenciar, analisar e comunicar dados de forma ética e responsável**, compreendendo o seu ciclo de vida e seu impacto social.\n\n#### C. Competências em dados: categorias e aplicações\n\nCalzada Prado e Marzal (2013) organizam o tema em compreensão dos dados; localização/obtenção; leitura, interpretação e avaliação; gestão; uso. Não se deve atribuir a eles, como transcrição exata, outra lista que omita compreensão e transforme visualização em categoria independente. Para estudar, aplique:\n\n1. **Compreender:** reconhecer tipo, geração, unidade e contexto do dado.\n2. **Obter:** localizar fontes, formatos, licenças e condições de acesso.\n3. **Interpretar e avaliar:** examinar proveniência, amostra, denominadores e limitações.\n4. **Gerenciar:** organizar, documentar, proteger e manter os dados segundo responsabilidades.\n5. **Usar:** analisar, sintetizar e comunicar com ética, incluindo atribuição e visualizações adequadas.\n\nSão exemplos didáticos das categorias, não lista fechada de ferramentas. Não é necessário programar todo tratamento nem supor que apenas dados numéricos sejam dados.\n\n#### D. Matriz Comparativa: Information Literacy versus Data Literacy\n\n| Critério de Comparação | Competência em Informação (*Information Literacy*) | Competência em Dados (*Data Literacy*) |\n| :--- | :--- | :--- |\n| **Escopo** | Informação em diferentes formas, incluindo dados e produção participativa; não se restringe a textos acabados. | Aprofunda compreensão e uso de dados em variados tipos e formas; há interseções com competência em informação. |\n| **Operação Cognitiva Central** | Interpretação textual, hermenêutica, síntese conceitual e julgamento de autoridade. | Raciocínio quantitativo, análise estatística, limpeza de dados e visualização gráfica. |\n| **Ferramentas possíveis** | Busca, leitura, análise e produção, também com recursos computacionais. | Raciocínio, documentação, planilhas ou programação conforme tarefa; uso de algoritmo não é condição exclusiva. |\n| **Padrões de Referência** | Diretrizes da ACRL/ALA, Normas ABNT de citação textual (NBR 10520). | Padrões de metadados de dados (DDI, Frictionless Data), princípios FAIR e W3C CSV on the Web. |\n| **Papel do Bibliotecário** | Mediador da leitura, instrutor de busca bibliográfica e curador de acervos. | *Data Librarian* e *Data Steward*, curador de repositórios de dados de pesquisa e mediador de dados abertos. |\n\n**Aplicação e recuperação:** Uma tabela traz taxa sem informar denominador. A formação deve ensinar a perguntar por população, período, método e licença, além de abrir o CSV. Informação e dados exigem avaliação crítica; um texto pode conter dados e um dataset pode exigir interpretação qualitativa.\n\n### Enunciados autorais: não substituir mediação por regras absolutas\n\n| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"Na oitava etapa do processo de referência de Denis Grogan (A Solução), o bibliotecário decide unilateralmente se a pesquisa foi concluída.\"* | **ERRADO** | Grogan recomenda avaliação conjunta do produto por bibliotecário e consulente; o uso posterior pode escapar ao controle do profissional. |\n| *\"No modelo de Denis Grogan, a formulação da estratégia de busca precede o processo de negociação da questão com o usuário.\"* | **ERRADO** | A Questão Negociada (etapa 4) **antecede** a Estratégia de Busca (etapa 5). A sequência didática coloca negociação antes da estratégia; na prática, pode haver busca exploratória, retornos e reformulação. |\n| *\"Segundo Brenda Dervin, a informação é um objeto físico estático independente do contexto existencial do indivíduo.\"* | **ERRADO** | No *Sense-Making*, a informação é **construída ativamente** pelo sujeito para transpor lacunas cognitivas situadas. |\n| *\"A competência em dados resume-se à busca tradicional de livros em catálogos eletrônicos de bibliotecas.\"* | **ERRADO** | Competência em dados foca em **dados brutos e estruturados (datasets, tabelas, APIs)**, análise quantitativa e curadoria. |\n\n**Aplicação e recuperação:** “Somente o usuário pode participar da avaliação” e “o bibliotecário decide sozinho” exageram em direções distintas. A página 54 de Grogan dá fundamento para rejeitar ambas como descrição fiel do autor.",
+  teoriaDidaticaMarkdown: "Grogan: oito passos didáticos, com retornos e avaliação conjunta do produto. Necessidade, desejo, demanda e uso diferem. Logs não provam satisfação; combine métodos e respeite privacidade. DSI depende de perfil e seleção, não necessariamente de IA. Modelos de comportamento têm focos distintos e não predizem toda pessoa. Informação e dados exigem análise crítica, ética e atenção ao contexto.",
   checkpoints: [
-    {
-      id: 'cp-4-4-1',
-      pergunta: 'Micro-Checkpoint 1: As Etapas do Processo de Referência de Grogan',
-      item: 'No processo de referência conceituado por Denis Grogan, a sequência lógica de etapas compreende: problema, necessidade de informação, questão inicial, questão negociada, estratégia de busca, processo de busca, resposta e solução.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é a exata ordenação de 8 passos formulada por Grogan e sistematicamente exigida pela banca Cebraspe.',
-    },
-    {
-      id: 'cp-4-4-2',
-      pergunta: 'Micro-Checkpoint 2: Necessidade, Demanda e Uso (Maurice Line e Nice Figueiredo)',
-      item: 'No âmbito dos estudos de usuários e do comportamento informacional, os conceitos de necessidade, demanda e uso de informação são perfeitamente sinônimos e equivalentes, uma vez que toda necessidade sentida pelo usuário é exteriorizada de forma fidedigna como demanda e se converte diretamente em uso do acervo.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme Maurice Line (1974) e Nice Menezes de Figueiredo (1994), necessidade, demanda e uso constituem categorias conceituais distintas: a necessidade é a carência cognitiva real (muitas vezes latente ou inconsciente); a demanda é o que o usuário efetivamente formaliza e solicita ao sistema ou bibliotecário; e o uso é a leitura, assimilação e aplicação prática real da informação recuperada.',
-    },
-    {
-      id: 'cp-4-4-3',
-      pergunta: 'Micro-Checkpoint 3: Competência em Informação versus Competência em Dados',
-      item: 'A competência em dados (data literacy) é sinônima da competência informacional tradicional (information literacy), circunscrevendo-se à habilidade de localizar artigos de periódicos científicos em catálogos eletrônicos de bibliotecas.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme a literatura especializada (Calzada Prado & Marzal; Koltay) e o edital Cebraspe (item 1.5 do Bloco D), a competência em dados (data literacy) diferencia-se da competência informacional: lida com a capacidade específica de descobrir, avaliar criticamente, gerenciar, analisar e comunicar conjuntos de dados brutos e estruturados (datasets, tabelas, dados abertos e APIs), demandando raciocínio quantitativo e curadoria que transcendem a busca de fontes textuais bibliográficas.',
-      versao_correta: 'A competência em dados difere da competência informacional por lidar com a descoberta, avaliação crítica, gestão, análise quantitativa e visualização ética de conjuntos de dados brutos e estruturados.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-4-4-1',
-        periodo: '1958',
-        disciplina: 'DSI (Disseminação Seletiva)',
-        focoPrincipal: 'Criação do conceito de Selective Dissemination of Information com cruzamento automatizado de perfis',
-        figuraChave: 'Hans Peter Luhn',
-      },
-      {
-        id: 'tl-4-4-2',
-        periodo: '1979 / 1995',
-        disciplina: 'Serviço de Referência',
-        focoPrincipal: 'Sistematização do processo de referência em 8 etapas e a prática da entrevista',
-        figuraChave: 'Denis Grogan',
-      },
-      {
-        id: 'tl-4-4-3',
-        periodo: '1981 / 1983',
-        disciplina: 'Comportamento Informacional',
-        focoPrincipal: 'Ruptura com o modelo tradicional: modelos de Wilson e teoria do Sense-Making de Dervin',
-        figuraChave: 'Tom Wilson e Brenda Dervin',
-      },
-      {
-        id: 'tl-4-4-4',
-        periodo: '2013 / 2017',
-        disciplina: 'Letramento em Dados (Data Literacy)',
-        focoPrincipal: 'Estruturação das 5 dimensões de competência em dados e formação de data librarians',
-        figuraChave: 'Javier Calzada Prado e Tibor Koltay',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-4-4-1',
-        nome: 'Denis Grogan',
-        ano: 1995,
-        obraPrincipal: 'A prática do serviço de referência',
-        ideiaChave: 'As 8 etapas do processo de referência, a dinâmica da entrevista e a mitigação da ansiedade informacional.',
-        chipPegadinha: 'A questão inicial quase nunca expressa a necessidade real do usuário; a questão negociada resulta da entrevista.',
-      },
-      {
-        id: 'aut-4-4-2',
-        nome: 'Brenda Dervin',
-        ano: 1983,
-        obraPrincipal: 'An overview of sense-making research: concepts, methods, and results',
-        ideiaChave: 'A abordagem do Sense-Making: o usuário construindo pontes para superar lacunas de incerteza no mundo.',
-        chipPegadinha: 'Sense-Making usa métodos qualitativos, não quantitativos.',
-      },
-      {
-        id: 'aut-4-4-3',
-        nome: 'Hans Peter Luhn',
-        ano: 1958,
-        obraPrincipal: 'A Business Intelligence System',
-        ideiaChave: 'Criador da DSI: perfil do usuário, perfil dos documentos, matching e feedback contínuo.',
-        chipPegadinha: 'DSI é serviço de alerta/notificação corrente personalizado, não mera lista geral de novidades.',
-      },
-      {
-        id: 'aut-4-4-4',
-        nome: 'Javier Calzada Prado e Miguel Ángel Marzal',
-        ano: 2013,
-        obraPrincipal: 'Incorporating Data Literacy into Information Literacy Programs',
-        ideiaChave: 'As 5 dimensões da competência em dados: acesso, avaliação, curadoria, análise e visualização ética.',
-        chipPegadinha: 'Data Literacy transcende textos; lida com datasets, tabelas e raciocínio estatístico.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-4-4-1',
-        afirmacao: 'O serviço de referência é considerado uma atividade meramente intermediária e de apoio administrativo em uma biblioteca, similar à encadernação e ao reparo físico de obras.',
-        gabarito: 'E',
-        porQue: 'O serviço de referência é a atividade-fim primordial da biblioteca, onde se concretiza a mediação humana direta entre o conhecimento e o usuário.',
-      },
-      {
-        id: 'peg-4-4-2',
-        afirmacao: 'A competência em dados exclui qualquer preocupação ética com privacidade ou transparência, concentrando-se exclusivamente em comandos matemáticos de software estatístico.',
-        gabarito: 'E',
-        porQue: 'A dimensão ética, a conformidade legal (LGPD), a proveniência e a responsabilidade social são pilares centrais da competência em dados.',
-      },
-    ],
+  {
+    "id": "cp-4-4-1",
+    "pergunta": "Micro-Checkpoint 1: As Etapas do Processo de Referência de Grogan",
+    "item": "No processo de referência conceituado por Denis Grogan, a sequência lógica de etapas compreende: problema, necessidade de informação, questão inicial, questão negociada, estratégia de busca, processo de busca, resposta e solução.",
+    "gabarito": "C",
+    "justificativa": "A ordem corresponde à sequência didática. O próprio autor admite vaivéns, fusões e variações; não se transforma a lista em ritual universal.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013)."
   },
+  {
+    "id": "cp-4-4-2",
+    "pergunta": "Micro-Checkpoint 2: Necessidade, Demanda e Uso (Maurice Line e Nice Figueiredo)",
+    "item": "No âmbito dos estudos de usuários e do comportamento informacional, os conceitos de necessidade, demanda e uso de informação são perfeitamente sinônimos e equivalentes, uma vez que toda necessidade sentida pelo usuário é exteriorizada de forma fidedigna como demanda e se converte diretamente em uso do acervo.",
+    "gabarito": "E",
+    "justificativa": "O pedido pode divergir da necessidade e do desejo; uso pode ocorrer casualmente, sem demanda à biblioteca. Consultar as distinções nas pp. 3–5 do manual do projeto.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "versao_correta": "Necessidade, desejo, demanda e uso são conceitos distintos e não se convertem obrigatoriamente uns nos outros."
+  },
+  {
+    "id": "cp-4-4-3",
+    "pergunta": "Micro-Checkpoint 3: Competência em Informação versus Competência em Dados",
+    "item": "A competência em dados (data literacy) é sinônima da competência informacional tradicional (information literacy), circunscrevendo-se à habilidade de localizar artigos de periódicos científicos em catálogos eletrônicos de bibliotecas.",
+    "gabarito": "E",
+    "justificativa": "Competência em dados inclui compreender, obter, interpretar/avaliar, gerir e usar dados. Tem interseções com competência em informação, que também não se limita a textos. Não se afirmam dois domínios sem sobreposição.",
+    "versao_correta": "Competência em dados aprofunda capacidades relativas a dados e se articula à competência em informação.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013)."
+  },
+  {
+    "id": "rt-4-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Grogan admite retornos e fusões entre passos do processo, embora apresente sequência para fins didáticos.",
+    "gabarito": "C",
+    "justificativa": "A sequência é instrumento de compreensão, não roteiro inflexível para toda interação.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma pergunta de uma frase garante consulta simples, sem necessidade de verificar contexto ou fonte.",
+    "gabarito": "E",
+    "justificativa": "Brevidade não determina complexidade ou risco de erro.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar",
+    "versao_correta": "A complexidade depende da necessidade e das evidências requeridas."
+  },
+  {
+    "id": "rt-4-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Demanda é o que a pessoa pede e pode divergir do que necessita ou deseja.",
+    "gabarito": "C",
+    "justificativa": "O manual de Cunha, Amaral e Dantas distingue os conceitos ao discutir Line e Figueiredo.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Cem downloads provam necessariamente cem pessoas que leram e utilizaram a informação.",
+    "gabarito": "E",
+    "justificativa": "Registro de acesso não comprova identidade, leitura ou utilidade.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Downloads são indicadores de eventos, com limites de interpretação."
+  },
+  {
+    "id": "rt-4-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um serviço com perfil explícito e alertas periódicos pode realizar DSI sem aprendizado de máquina.",
+    "gabarito": "C",
+    "justificativa": "Seletividade por perfil não exige tecnologia de IA.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No ISP, mais informação pode aumentar incerteza durante a exploração, sem indicar necessariamente fracasso da busca.",
+    "gabarito": "C",
+    "justificativa": "É padrão reconhecido pelo modelo, não regra afetiva universal.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-4-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Competência em informação exclui dados, pois se limita obrigatoriamente à leitura de documentos acabados.",
+    "gabarito": "E",
+    "justificativa": "A formação informacional possui escopo amplo e interseções com competência em dados.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Há interseções; competência em informação não se limita a textos acabados."
+  },
+  {
+    "id": "rt-4-4-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Para Grogan, avaliar a solução é atribuição exclusivamente do usuário, vedada a avaliação conjunta com o bibliotecário.",
+    "gabarito": "E",
+    "justificativa": "O texto recomenda avaliar juntos o produto e encerrar por entendimento comum.",
+    "fonte": "Grogan, A prática do serviço de referência, tradução da 2ª edição, primeira edição brasileira 1995, reimpressão 2001, pp. 50–56; Cunha, Amaral e Dantas, Manual de estudo de usuários (2015), pp. 3–5; Taylor (1968); Kuhlthau, ISP; ACRL Framework; Calzada Prado e Marzal (2013).",
+    "editalRef": "Bloco E - Item 3.1 a 3.5 e Bloco A - Item 1.5",
+    "habilidade": "aplicar",
+    "versao_correta": "Grogan recomenda avaliação conjunta; uso posterior pode ocorrer fora do controle profissional."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-4-4-fonte-grogan",
+      "nome": "Denis Grogan — A prática do serviço de referência (1995; reimpressão 2001)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Denis Grogan — A prática do serviço de referência (1995; reimpressão 2001)",
+      "ideiaChave": "PDF do projeto, pp. 50–56: oito passos didáticos, retornos e avaliação conjunta de bibliotecário e consulente.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-4-fonte-manual",
+      "nome": "Cunha, Amaral e Dantas — Manual de estudo de usuários da informação (2015)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha, Amaral e Dantas — Manual de estudo de usuários da informação (2015)",
+      "ideiaChave": "PDF do projeto, pp. 3–5: necessidade, desejo, demanda, uso e requisito, com Line e Figueiredo.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-4-fonte-taylor",
+      "nome": "Robert S. Taylor — Question-Negotiation and Information Seeking in Libraries (1968)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Robert S. Taylor — Question-Negotiation and Information Seeking in Libraries (1968)",
+      "ideiaChave": "Quatro níveis de necessidade; aproximações com Grogan não são identidade entre modelos.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-4-fonte-isp",
+      "nome": "Carol Kuhlthau — Information Search Process",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Carol Kuhlthau — Information Search Process",
+      "ideiaChave": "Dimensões, estágios e incerteza, sem universalizar trajetória afetiva.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-4-fonte-acrl",
+      "nome": "ACRL — Framework for Information Literacy for Higher Education",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ACRL — Framework for Information Literacy for Higher Education",
+      "ideiaChave": "Adotado em 2016, página registra revisão de setembro de 2026; conceitos articulados, sem lista rígida universal.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-4-4-fonte-data",
+      "nome": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+      "ideiaChave": "Competências em dados: compreensão, obtenção, interpretação/avaliação, gestão e uso; sínteses não são transcrições literais.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-4-4-6",
+      "afirmacao": "No ISP, mais informação pode aumentar incerteza durante a exploração, sem indicar necessariamente fracasso da busca.",
+      "gabarito": "C",
+      "porQue": "É padrão reconhecido pelo modelo, não regra afetiva universal."
+    },
+    {
+      "id": "memoria-rt-4-4-7",
+      "afirmacao": "Competência em informação exclui dados, pois se limita obrigatoriamente à leitura de documentos acabados.",
+      "gabarito": "E",
+      "porQue": "A formação informacional possui escopo amplo e interseções com competência em dados."
+    },
+    {
+      "id": "memoria-rt-4-4-8",
+      "afirmacao": "Para Grogan, avaliar a solução é atribuição exclusivamente do usuário, vedada a avaliação conjunta com o bibliotecário.",
+      "gabarito": "E",
+      "porQue": "O texto recomenda avaliar juntos o produto e encerrar por entendimento comum."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-4-4-bloco-1",
+    "titulo": "O Processo de Referência segundo Denis Grogan (1995)",
+    "objetivos": [
+      "Reconhecer oito passos didáticos e participação conjunta na avaliação."
+    ],
+    "conteudo": "Na obra clássica *A Prática do Serviço de Referência* (presente em nosso acervo em `Recuperação, fontes, referência e usuários`), **Denis Grogan**, ao discutir a assistência pessoal de referência em sentido estrito, retoma formulação de Samuel Rothstein sobre o contato pessoal e a assistência direta prestada pelo bibliotecário ao leitor em busca de conhecimento.\n\n```timeline\nE1 | 1. O Problema | Ator: Usuário | Usuário vivencia um impasse prático, acadêmico ou dilema de trabalho\n---> Tomada de Consciência\nE2 | 2. A Necessidade de Informação | Ator: Usuário | Reconhecimento da lacuna cognitiva: percepção de que precisa de ajuda externa\n---> Expressão Verbal\nE3 | 3. A Questão Inicial | Ator: Usuário | Pergunta verbalizada no balcão de referência — pode exigir esclarecimento, mas não é necessariamente vaga ou distorcida\n---> Entrevista de Referência\nE4 | 4. A Questão Negociada | Atores: Bibliotecário & Usuário | Filtragem de ambiguidades e identificação técnica da real necessidade informacional\n---> Formulação Estruturada\nE5 | 5. A Estratégia de Busca | Ator: Bibliotecário | Tradução na linguagem do sistema: termos, vocabulário controlado e operadores booleanos\n---> Execução Técnica\nE6 | 6. O Processo de Busca | Ator: Bibliotecário | Navegação concreta em catálogos, acervos, bases de dados ou repositórios\n---> Recuperação Documental\nE7 | 7. A Resposta | Ator: Bibliotecário | Entrega física ou digital dos documentos, referências ou dados pertinentes\n---> Validação Pragmática\nE8 | 8. A Solução | Ator: Usuário | Avaliação do produto com o consulente: a resposta atende ao propósito?\n```\n\n#### As Oito Etapas Decisórias e os Papéis dos Atores\nGrogan apresenta os oito passos **para fins didáticos**, advertindo que há retornos, fusões e variações. A descrição não prescreve um ritual linear para toda consulta:\n1. **O Problema:** Situação fática ou dilema intelectual que o usuário precisa resolver em seu trabalho ou estudo. **Ator: Usuário**.\n2. **A Necessidade de Informação:** O reconhecimento interno de que o conhecimento acumulado é insuficiente e que dados externos são necessários. **Ator: Usuário**.\n3. **A Questão Inicial:** A verbalização da dúvida apresentada no balcão de referência, telefone ou chat. Pode ser clara ou exigir esclarecimentos; não se deve presumir incompetência de todo consulente. **Ator: Usuário**.\n4. **A Questão Negociada:** O cerne da mediação do bibliotecário. Por meio da **entrevista de referência**, o profissional filtra ambiguidades e formula a verdadeira questão técnica a ser respondida. **Atores: Bibliotecário e Usuário em cooperação**.\n5. **A Estratégia de Busca:** A tradução da questão negociada na linguagem do sistema (seleção de vocabulários controlados, tesauros, campos e operadores booleanos). **Ator: Bibliotecário**.\n6. **O Processo de Busca:** A navegação concreta em catálogos, estantes, bases de dados comerciais ou repositórios digitais. **Ator: Bibliotecário**.\n7. **A Resposta:** O produto informativo entregue ao usuário (livros, artigos, relatórios ou referências). **Ator: Bibliotecário**.\n8. **A Solução:** A etapa final de validação pragmática. A resposta é solução potencial. Nas pp. 54–55, o autor recomenda que **bibliotecário e consulente avaliem juntos o produto** e cheguem de comum acordo ao encerramento. O uso posterior pelo usuário pode ocorrer fora do controle do profissional. **Não é correto atribuir a Grogan julgamento exclusivamente unilateral**, seja do bibliotecário, seja do usuário.\n\n**Aplicação e recuperação:** O usuário recebe referências tecnicamente corretas, mas explica que precisava de texto vigente em 2020. A resposta ainda não é solução adequada. Profissional e consulente reavaliam o produto e ajustam a busca. Essa volta não viola o modelo de Grogan, que admite retornos.",
+    "checkpointIds": [
+      "cp-4-4-1",
+      "rt-4-4-1"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-2",
+    "titulo": "Tipologia de consultas: diferenciar tarefa e esforço necessário",
+    "objetivos": [
+      "Relacionar tipo de consulta e complexidade sem automatismos."
+    ],
+    "conteudo": "Uma tipologia difundida na literatura de referência, associada a William Katz, distingue orientação/direção, pronta-referência, busca específica e pesquisa. Os exemplos a seguir são **hipotéticos**. Complexidade e fonte dependem da demanda concreta; uma pergunta aparentemente factual pode exigir verificação extensa:\n\n| Categoria da Questão (Katz) | Complexidade | Fontes Utilizadas | Exemplo Prático na Câmara dos Deputados |\n| :--- | :--- | :--- | :--- |\n| **1. Questões de Direção / Administrativas** | Mínima (não bibliográfica). | Pode exigir guia, mapa ou regulamento atualizado; não significa ausência necessária de documento. | *\"Onde fica o banheiro?\", \"Qual o horário de funcionamento da Seção de Raras?\", \"Onde tiro cópias?\"* |\n| **2. Questões de Pronta-Referência (*Ready Reference*)** | Baixa / Factual pontual. | Obras de referência rápida (dicionários, anuários estatísticos, diretórios). | *\"Qual é o número da Lei de Responsabilidade Fiscal?\", \"Quem é o atual Presidente da Câmara dos Deputados?\"* |\n| **3. Questões de Pesquisa Específica (*Specific Search*)** | Média. | Catálogos em linha (OPAC), bibliografias especializadas e bases referenciais. | *\"Quais monografias a biblioteca possui sobre a reforma tributária aprovada na Emenda Constitucional 132?\"* |\n| **4. Questões de Pesquisa Ampla / Avançada (*Research / Extended*)** | Máxima. | Múltiplas bases heterogêneas, literatura cinzenta, comutação e consulta a especialistas. | *\"Elaborar dossiê bibliográfico e jurisprudencial exaustivo sobre a evolução do controle de constitucionalidade de medidas provisórias nos últimos 20 anos.\"* |\n\n**Aplicação e recuperação:** “Quem ocupava a presidência em determinada sessão?” parece pronta-referência, mas homonímia de datas e substituições pode exigir atas e registros. A forma curta da pergunta não prova esforço mínimo.",
+    "checkpointIds": [
+      "rt-4-4-2"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-3",
+    "titulo": "A Entrevista de Referência, Estudos de Usuários e a Tríade de Maurice Line (Edital Bloco E, itens 3.2 e 3.5)",
+    "objetivos": [
+      "Distinguir necessidade, desejo, demanda e uso na entrevista."
+    ],
+    "conteudo": "No serviço de referência moderno, a interação dialógica entre o bibliotecário e o consulente constitui o momento culminante da mediação humana da informação (**Denis Grogan, 1995; William Katz, 2002; Robert S. Taylor, 1968; Maurice Line, 1974; Nice Menezes de Figueiredo, 1994**).\n\n#### A. Os Quatro Níveis de Necessidade de Robert S. Taylor (1968)\nEm seu estudo seminal *Question-Negotiation and Information Seeking in Libraries*, Taylor demonstrou que a dúvida percorre quatro estados cognitivos na mente do usuário antes de alcançar o sistema:\n* **$Q_1$ — Necessidade Visceral:** Necessidade ainda não expressa, percebida como insatisfação ou lacuna; não se converte essa caracterização em diagnóstico psicológico universal de incapacidade total (*informação intangível*).\n* **$Q_2$ — Necessidade Consciente:** A necessidade mentalmente reconhecida e articulada em pensamento interior. O usuário sabe o que quer para si, mas a ideia ainda carece de estruturação formal.\n* **$Q_3$ — Necessidade Formalizada:** A formulação linguística explícita da dúvida comunicada ao bibliotecário. É quase sempre imperfeita, vaga ou distorcida (há aproximação didática com a questão inicial, sem equivalência perfeita entre os modelos).\n* **$Q_4$ — Necessidade Comprometida com o Sistema:** A questão traduzida e adaptada para os termos controlados, campos e operadores do sistema de recuperação da biblioteca (adaptação ao que se acredita que o sistema pode responder; não é sinônimo necessário de uma consulta formal em descritores).\n\n#### B. Roteiro prático de entrevista: síntese didática, não cinco fases canônicas atribuídas a dois autores\n1. **Acolhimento Empático e Abertura:** Estabelecer clima de confiança e receptividade, quebrando a chamada *\"ansiedade de biblioteca\"* (*library anxiety*, Constance Mellon, 1986), fenômeno de ansiedade que pode afetar a interação; não se rotula o usuário como portador de um vício.\n2. **Negociação da Pergunta (Técnica do Funil):** O bibliotecário conduz a entrevista partindo de **perguntas abertas** (*\"Conte-me sobre a finalidade da pesquisa no projeto de lei\"*), passando por **perguntas exploratórias** (*\"Quais correntes doutrinárias ou precedentes já foram mapeados?\"*) e concluindo com **perguntas fechadas** (*\"A busca deve se restringir às decisões do STF dos últimos 5 anos?\"*).\n3. **Tradução e Formulação da Estratégia de Busca:** Conversão da questão negociada ($Q_4$) em descritores de tesauro (ex.: vocabulário controlado pertinente à base; MFN pode designar número de registro em sistemas e não é nome de tesauro), operadores booleanos (AND, OR, NOT) e filtros de data e idioma.\n4. **Execução e Avaliação Preliminar Conjunta:** Apresentação de amostra dos primeiros registros recuperados para verificar a pertinência e calibrar a precisão antes do levantamento exaustivo.\n5. **Retroalimentação (Feedback) e Encerramento:** Confirmação de que o produto informativo atendeu à necessidade visceral ($Q_1$) e disponibilização de canais para desdobramentos adicionais.\n\n#### C. A Tríade Canônica: Necessidade vs. Demanda vs. Uso (Maurice Line, 1974; Nice Figueiredo, 1994)\nO Cebraspe explora sistematicamente a falsa equivalência entre esses três conceitos:\n\n$\\text{Necessidade (Need)} \\neq \\text{Demanda (Demand)} \\neq \\text{Uso (Use)}$\n\n* **Necessidade de Informação (*Information Need*):**\n  * Representa o estado real de carência informacional indispensável para que o indivíduo execute suas tarefas, tome decisões ou resolva impasses de pesquisa.\n  * Pode ser **consciente ou latente/inconsciente**. Muitas vezes o usuário desconhece que precisa de determinada norma ou dado estatístico até que um mediador o alerte.\n* **Demanda de informação (*Demand*), distinta de desejo (*Want*):**\n  * É o que o indivíduo pede. Pode refletir desejo e/ou necessidade, mas também pode ser pedido algo desnecessário. **Desejo** é o que gostaria de ter, ainda que não peça. Demanda não é necessariamente subconjunto fiel de uma necessidade objetiva.\n  * *Por que a demanda difere da necessidade?* Porque o usuário pode subestimar o acervo da biblioteca, sentir vergonha de expor suas dúvidas, usar termos errôneos ou pedir menos do que realmente precisa.\n* **Uso da Informação (*Information Use*):**\n  * É o consumo efetivo, a leitura assimilada e a aplicação prática das fontes recuperadas na tomada de decisão legislativa ou produção acadêmica.\n  * Nem tudo o que foi demandado é de fato usado (livros retirados que não chegam a ser lidos); e muito do que é usado advém de canais informais (conversas com pares em gabinetes) sem ter transitado pela biblioteca.\n\n**Aplicação e recuperação:** Alguém deseja um livro, pede outro por achar que o primeiro não existe e usa uma nota técnica encontrada casualmente. Desejo, demanda, necessidade e uso não formam uma linha obrigatória. O profissional deve esclarecer sem pressupor que sabe unilateralmente toda necessidade.",
+    "checkpointIds": [
+      "cp-4-4-2",
+      "rt-4-4-3"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-4",
+    "titulo": "Metodologias Diretas e Indiretas de Estudos de Usuários Revelam Necessidades Reais no Legislativo",
+    "objetivos": [
+      "Combinar métodos reconhecendo vieses e limites das evidências."
+    ],
+    "conteudo": "Métodos podem combinar contato com pessoas e análise de registros. A classificação direto/indireto varia conforme a referência; explicite procedimento, amostra e limites:\n\n| Modalidade | Metodologias Empregadas | Vantagens Principais | Limitações e Riscos Críticos |\n| :--- | :--- | :--- | :--- |\n| **Métodos Diretos**<br>*(Interação ativa com os usuários)* | • **Questionários padronizados** (estruturados ou semiestruturados);<br>• **Entrevistas em profundidade** individuais;<br>• **Grupos Focais (*Focus Groups*)** (6 a 12 participantes);<br>• **Técnica do Incidente Crítico (John C. Flanagan, 1954)**: relato de eventos reais e marcantes de sucesso ou fracasso recente de busca;<br>• **Observação participante / Etnografia**. | Capta motivações subjetivas, percepções de valor, expectativas e sentimentos afetivos (modelo ISP de Kuhlthau). | Baixa taxa de retorno em questionários; viés de complacência (o usuário responde o que acha que o bibliotecário gostaria de ouvir); alto custo e tempo. |\n| **Métodos Indiretos**<br>*(Análise de registros sem contato direto em certos desenhos; análise de logs ainda exige governança e cuidado com privacidade)* | • **Análise de Logs de Busca (*Transaction Log Analysis*)**: registros automáticos de cliques, termos sem recuperação (*zero hits*) e rotas no OPAC;<br>• **Análise de Citações / Bibliometria**: análise das referências citadas nos pareceres e relatórios técnicos das consultorias da Câmara;<br>• **Estatísticas de Circulação e Empréstimo**: taxas de rotação de acervo por classe decimal (CDD/CDU). | Registros de ações que reduzem certas limitações do autorrelato; seleção, instrumentação, bots e ciência do monitoramento podem afetá-los. Custo e objetividade absoluta não são garantidos. | Não revelam o porquê do comportamento; registram o documento baixado, mas não provam se ele foi efetivamente lido ou útil. |\n\n#### Casos hipotéticos de aplicação, sem atribuir atendimentos reais à Câmara\n\n* **Caso 1: Balcão Presencial na Biblioteca Pedro Aleixo (Técnica do Funil)**\n  * *Situação:* Assessor parlamentar chega ao balcão de referência solicitando: *\"Preciso urgentemente de tudo o que a biblioteca tiver sobre reforma tributária\"*.\n  * *Intervenção do Bibliotecário:* O profissional percebe que a questão é excessivamente genérica ($Q_3$) e aplica o funil de perguntas. Pergunta aberta: *\"Qual é o foco da emenda que o deputado apresentará?\"*. O assessor esclarece que a discussão versa sobre a não cumulatividade plena do IBS e da CBS na aquisição de insumos de tecnologia. Pergunta fechada: *\"A pesquisa deve focar a jurisprudência do STF ou doutrina de Direito Tributário comparado?\"*.\n  * *Resultado:* A questão negociada ($Q_4$) é delimitada para *\"precedentes do STF sobre creditamento de ICMS/IBS em insumos digitais\"*, orientando a busca e a verificação do que de fato existe. Não se inventa a existência de três acórdãos específicos nem prazo real de entrega; as competências tributárias e datas devem ser analisadas conforme a norma.\n* **Caso 2: Atendimento Digital Remoto via Intranet / Chat Especializado**\n  * *Situação:* Consultor legislativo lotado em comissão parlamentar abre chamado eletrônico solicitando: *\"Modelos de relatórios sobre inteligência artificial\"*.\n  * *Intervenção do Bibliotecário:* Mediante contato síncrono via chat, o bibliotecário identifica que a demanda visa instruir a Comissão Especial sobre o Marco Regulatório da Inteligência Artificial (PL 2338/2023). O bibliotecário poderia consultar tramitação e documentos oficiais, verificar relações e identificadores, compará-los com fontes europeias pertinentes e elaborar uma **Linha do Tempo Normativa** acompanhada de **Mapa de Atores** dos setores ouvidos nas audiências públicas.\n\n**Aplicação e recuperação:** Um portal registra cem downloads, mas não informa cem leitores satisfeitos. Logs e entrevistas respondem perguntas distintas; cruzá-los melhora interpretação. Participantes que não responderam ao questionário podem ter necessidades diferentes dos que responderam.",
+    "checkpointIds": [
+      "rt-4-4-4"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-5",
+    "titulo": "A Disseminação Seletiva da Informação (DSI) de Hans Peter Luhn (1958)",
+    "objetivos": [
+      "Definir DSI como serviço orientado por perfil, sem exigir uma tecnologia única."
+    ],
+    "conteudo": "Criada pelo pesquisador da IBM **Hans Peter Luhn**, a DSI é o serviço proativo de alerta corrente no qual o sistema toma a iniciativa de informar o usuário:\n\n```timeline\nP | 1. Perfil de Interesse do Usuário | Mapeamento Temático | Cadastro formal de termos, descritores, operadores booleanos e áreas de pesquisa do leitor\n---> Cruzamento com Novas Entradas\nD | 2. Perfil dos Novos Documentos | Ingestão no Acervo | Metadados e indexação das obras recém-adquiridas incorporadas ao catálogo\n---> Algoritmo de Similaridade\nM | 3. Mecanismo de Casamento (Matching) | Filtro Automatizado | Interseção matemática entre os termos do perfil do usuário e as novas aquisições\n---> Canal Proativo\nN | 4. Notificação Direcionada | Alerta Antecipado | Disparo de avisos eletrônicos (e-mail, RSS, app) com links diretos aos itens pertinentes\n---> Calibração Algorítmica\nF | 5. Retroalimentação (Feedback) | Ajuste Dinâmico | Usuário avalia pertinência (útil vs. inútil), refinando continuamente o perfil cadastrado\n```\n\n#### A. Comparar tecnologias de DSI sem inventar fronteira rígida entre gerações\n* **DSI de 1ª Geração (Tradicional / Analógica / Em Lote):**\n  * Baseada em cartões perfurados ou perfis fixos de interesse preenchidos em formulários em papel;\n  * Cruzamentos periódicos manuais ou em lotes computacionais (*batch processing*);\n  * Alertas físicos encaminhados em fichas impressas ou boletins datilografados;\n  * Feedback lento e baixa flexibilidade de calibração.\n* **DSI de 2ª Geração (Digital / Automatizada / Semântica):**\n  * Perfis podem ser explicitamente declarados ou ajustados com sinais autorizados. DSI digital **não exige machine learning nem coleta irrestrita do histórico**;\n  * Alertas periódicos ou próximos do tempo real, conforme configuração, enviados via feeds RSS, e-mails automatizados, APIs e notificações em aplicativos móveis;\n  * *Feedback* com um único clique (botão de \"relevante/não relevante\"), ajustando os pesos estatísticos do perfil do usuário em tempo de execução.\n\n**Aplicação e recuperação:** Um perfil explícito sobre acessibilidade recebe alerta semanal de novas referências e permite marcar pertinência. Isso pode ser DSI sem IA e sem vigiar toda navegação. Um boletim geral idêntico a todos não ganha seletividade individual apenas por ser eletrônico.",
+    "checkpointIds": [
+      "rt-4-4-5"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-6",
+    "titulo": "Modelos Canônicos de Comportamento Informacional (*Information Behavior*)",
+    "objetivos": [
+      "Comparar modelos pelo seu foco e pelas hipóteses de comportamento."
+    ],
+    "conteudo": "1. **Modelo de Tom D. Wilson (1981 / 1996):**\n   * A necessidade de informação não nasce no vácuo; ela é uma **necessidade secundária** gerada por necessidades primárias (fisiológicas, afetivas ou cognitivas) no contexto de papéis sociais do indivíduo.\n   * Introduz as **variáveis intervenientes**: barreiras psicológicas, demográficas, ambientais e características da fonte que podem impedir ou desviar o comportamento de busca.\n2. **Abordagem do *Sense-Making* de Brenda Dervin (1983 / 1992):**\n   * O ser humano é visto como um viajante que se desloca no tempo e no espaço construindo sentido para sua vida.\n   * **Elementos para analisar a construção de sentido:** não chamar de triângulo uma enumeração de quatro componentes\n     * **Situação:** O contexto histórico e espaço-temporal onde o indivíduo está inserido;\n     * **Lacuna (*Gap*):** A barreira cognitiva, dúvida ou incerteza que interrompe a sua caminhada;\n     * **Ponte:** As informações, ideias e estratégias mobilizadas para superar a barreira;\n     * **Resultado / Uso:** A nova compreensão alcançada que permite continuar a caminhada.\n3. **Modelo ASK (*Anomalous State of Knowledge*) de Nicholas Belkin (1980):**\n   * O usuário busca informação em um sistema precisamente porque reconhece uma **anomalia ou lacuna em seu estado de conhecimento**. Por não dominar o tema, ele tem extrema dificuldade de formular a consulta exata em termos técnicos no início da interação.\n4. **Modelo ISP (*Information Search Process*) de Carol Kuhlthau (1991):**\n   * Integra três domínios do ser humano na busca: **Sentimentos (afetivo)**, **Pensamentos (cognitivo)** e **Ações (físico)**.\n   * Divide a pesquisa em 6 estágios: Iniciação $\\rightarrow$ Seleção $\\rightarrow$ Exploração $\\rightarrow$ Formulação $\\rightarrow$ Coleta $\\rightarrow$ Apresentação.\n   * Descreve padrões frequentes: exploração pode aumentar incerteza, enquanto formulação de foco pode favorecer confiança. Não prediz sentimentos idênticos nem satisfação obrigatória para toda pessoa.\n\n**Aplicação e recuperação:** Após ler fontes contraditórias, a pessoa fica mais incerta antes de formular foco. Isso é compatível com ISP e não demonstra necessariamente fracasso. ASK focaliza estado de conhecimento; Sense-Making, construção situada de sentido; não se tornam o mesmo modelo por falar em lacuna.",
+    "checkpointIds": [
+      "rt-4-4-6"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-7",
+    "titulo": "Competência em Informação (*Information Literacy*) e Competência em Dados (*Data Literacy*)",
+    "objetivos": [
+      "Aplicar competências em informação e dados sem uma fronteira artificial entre formatos."
+    ],
+    "conteudo": "O edital nº 1/2026 exige explicitamente o domínio de **competência em informação e competência em dados** (item 1.5 do Bloco D). Ambas integram o arcabouço contemporâneo de mediação bibliotecária, mas possuem objetos, métodos e competências nucleares distintas.\n\n#### A. Competência em Informação (*Information Literacy*)\n* **Origem e Marcos Conceituais:** Termo cunhado por Paul Zurkowski em 1974 e consolidado pela *American Library Association* (ALA/ACRL, 1989), além das históricas Declarações de Praga (2003 - Rumo a uma Sociedade Letrada em Informação) e Alexandria (2005 - Farol da Sociedade da Informação).\n* **Definição:** É a capacidade holística de o indivíduo **reconhecer quando necessita de informação, saber localizá-la, avaliá-la criticamente em sua autoridade, exatidão e relevância, e utilizá-la de forma ética, legal e eficaz**.\n* **Aplicação Legislativa:** Em um programa hipotético de formação parlamentar, pode capacitar assessores a identificar fontes doutrinárias fidedignas, avaliar jurisprudência e combater vieses informacionais.\n\n#### B. Competência em Dados (*Data Literacy*): A Nova Fronteira\nCom a proliferação da ciência orientada a dados (*data science*), do governo aberto e da inteligência artificial, emergiu a necessidade de competências especializadas para lidar com dados brutos e semiestruturados.\n* **Autores Canônicos de Referência:** **Javier Calzada Prado e Miguel Ángel Marzal (2013)** (*Incorporating Data Literacy into Information Literacy Programs: Core Competencies and Contents*) e **Tibor Koltay (2017)** (*Data literacy for researchers and data librarians*).\n* **Definição Canônica:** É o conjunto de conhecimentos, habilidades e atitudes que capacitam o cidadão ou profissional a **descobrir, acessar, interpretar criticamente, avaliar, gerenciar, analisar e comunicar dados de forma ética e responsável**, compreendendo o seu ciclo de vida e seu impacto social.\n\n#### C. Competências em dados: categorias e aplicações\n\nCalzada Prado e Marzal (2013) organizam o tema em compreensão dos dados; localização/obtenção; leitura, interpretação e avaliação; gestão; uso. Não se deve atribuir a eles, como transcrição exata, outra lista que omita compreensão e transforme visualização em categoria independente. Para estudar, aplique:\n\n1. **Compreender:** reconhecer tipo, geração, unidade e contexto do dado.\n2. **Obter:** localizar fontes, formatos, licenças e condições de acesso.\n3. **Interpretar e avaliar:** examinar proveniência, amostra, denominadores e limitações.\n4. **Gerenciar:** organizar, documentar, proteger e manter os dados segundo responsabilidades.\n5. **Usar:** analisar, sintetizar e comunicar com ética, incluindo atribuição e visualizações adequadas.\n\nSão exemplos didáticos das categorias, não lista fechada de ferramentas. Não é necessário programar todo tratamento nem supor que apenas dados numéricos sejam dados.\n\n#### D. Matriz Comparativa: Information Literacy versus Data Literacy\n\n| Critério de Comparação | Competência em Informação (*Information Literacy*) | Competência em Dados (*Data Literacy*) |\n| :--- | :--- | :--- |\n| **Escopo** | Informação em diferentes formas, incluindo dados e produção participativa; não se restringe a textos acabados. | Aprofunda compreensão e uso de dados em variados tipos e formas; há interseções com competência em informação. |\n| **Operação Cognitiva Central** | Interpretação textual, hermenêutica, síntese conceitual e julgamento de autoridade. | Raciocínio quantitativo, análise estatística, limpeza de dados e visualização gráfica. |\n| **Ferramentas possíveis** | Busca, leitura, análise e produção, também com recursos computacionais. | Raciocínio, documentação, planilhas ou programação conforme tarefa; uso de algoritmo não é condição exclusiva. |\n| **Padrões de Referência** | Diretrizes da ACRL/ALA, Normas ABNT de citação textual (NBR 10520). | Padrões de metadados de dados (DDI, Frictionless Data), princípios FAIR e W3C CSV on the Web. |\n| **Papel do Bibliotecário** | Mediador da leitura, instrutor de busca bibliográfica e curador de acervos. | *Data Librarian* e *Data Steward*, curador de repositórios de dados de pesquisa e mediador de dados abertos. |\n\n**Aplicação e recuperação:** Uma tabela traz taxa sem informar denominador. A formação deve ensinar a perguntar por população, período, método e licença, além de abrir o CSV. Informação e dados exigem avaliação crítica; um texto pode conter dados e um dataset pode exigir interpretação qualitativa.",
+    "checkpointIds": [
+      "cp-4-4-3",
+      "rt-4-4-7"
+    ]
+  },
+  {
+    "id": "sub-4-4-bloco-8",
+    "titulo": "Enunciados autorais: não substituir mediação por regras absolutas",
+    "objetivos": [
+      "Julgar afirmações por contexto e referência, evitando exclusividades indevidas."
+    ],
+    "conteudo": "| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"Na oitava etapa do processo de referência de Denis Grogan (A Solução), o bibliotecário decide unilateralmente se a pesquisa foi concluída.\"* | **ERRADO** | Grogan recomenda avaliação conjunta do produto por bibliotecário e consulente; o uso posterior pode escapar ao controle do profissional. |\n| *\"No modelo de Denis Grogan, a formulação da estratégia de busca precede o processo de negociação da questão com o usuário.\"* | **ERRADO** | A Questão Negociada (etapa 4) **antecede** a Estratégia de Busca (etapa 5). A sequência didática coloca negociação antes da estratégia; na prática, pode haver busca exploratória, retornos e reformulação. |\n| *\"Segundo Brenda Dervin, a informação é um objeto físico estático independente do contexto existencial do indivíduo.\"* | **ERRADO** | No *Sense-Making*, a informação é **construída ativamente** pelo sujeito para transpor lacunas cognitivas situadas. |\n| *\"A competência em dados resume-se à busca tradicional de livros em catálogos eletrônicos de bibliotecas.\"* | **ERRADO** | Competência em dados foca em **dados brutos e estruturados (datasets, tabelas, APIs)**, análise quantitativa e curadoria. |\n\n**Aplicação e recuperação:** “Somente o usuário pode participar da avaliação” e “o bibliotecário decide sozinho” exageram em direções distintas. A página 54 de Grogan dá fundamento para rejeitar ambas como descrição fiel do autor.",
+    "checkpointIds": [
+      "rt-4-4-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "grogan",
+    "titulo": "Denis Grogan — A prática do serviço de referência (1995; reimpressão 2001)",
+    "localizador": "PDF do projeto, pp. 50–56: oito passos didáticos, retornos e avaliação conjunta de bibliotecário e consulente.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Recupera%C3%A7%C3%A3o%2C%20fontes%2C%20refer%C3%AAncia%20e%20usu%C3%A1rios/a-pratica-do-servio-de-referencia-denis-grogan-p_compress.pdf"
+  },
+  {
+    "id": "manual",
+    "titulo": "Cunha, Amaral e Dantas — Manual de estudo de usuários da informação (2015)",
+    "localizador": "PDF do projeto, pp. 3–5: necessidade, desejo, demanda, uso e requisito, com Line e Figueiredo.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Livros%20Extras/CUNHA%2C%20Murilo%20Bastos%20da_%20AMARAL%2C%20Sueli%20Ang%C3%A9lica%20do_%20DANTAS%2C%20Edmundo%20Brand%C3%A3o.%20Manual%20de%20estudo%20de%20usu%C3%A1rios%20da%20informa%C3%A7%C3%A3o.%20S%C3%A3o%20Paulo%20Atlas%2C%202015..pdf"
+  },
+  {
+    "id": "taylor",
+    "titulo": "Robert S. Taylor — Question-Negotiation and Information Seeking in Libraries (1968)",
+    "localizador": "Quatro níveis de necessidade; aproximações com Grogan não são identidade entre modelos.",
+    "url": "https://www.ideals.illinois.edu/items/38316"
+  },
+  {
+    "id": "isp",
+    "titulo": "Carol Kuhlthau — Information Search Process",
+    "localizador": "Dimensões, estágios e incerteza, sem universalizar trajetória afetiva.",
+    "url": "https://wp.comminfo.rutgers.edu/ckuhlthau/information-search-process/"
+  },
+  {
+    "id": "acrl",
+    "titulo": "ACRL — Framework for Information Literacy for Higher Education",
+    "localizador": "Adotado em 2016, página registra revisão de setembro de 2026; conceitos articulados, sem lista rígida universal.",
+    "url": "https://www.ala.org/acrl/standards/ilframework"
+  },
+  {
+    "id": "data",
+    "titulo": "Calzada Prado e Marzal — Incorporating Data Literacy into Information Literacy Programs (2013)",
+    "localizador": "Competências em dados: compreensão, obtenção, interpretação/avaliação, gestão e uso; sínteses não são transcrições literais.",
+    "url": "https://doi.org/10.1515/libri-2013-0010"
+  }
+],
 };

@@ -20,319 +20,320 @@ export const submodulo12: ModuloFilho = {
   titulo: 'As Cinco Leis de Ranganathan e Releituras Contemporâneas',
   titulo_curto: 'Cinco Leis de Ranganathan',
   antesDeLer: [
-    {
-      termo: 'Cinco Leis de Ranganathan',
-      definicao: 'Conjunto de enunciados normativos formulados por S. R. Ranganathan em 1931 que regem a filosofia, a organização e o serviço de referência das bibliotecas modernas.',
-      exemploBiblioteca: 'A 4ª lei (\'Poupe o tempo do leitor\') orienta a criação de alertas legislativos rápidos e dossiês sintéticos para os parlamentares em plenário.',
-    },
-    {
-      termo: 'Biblioteca como Organismo em Crescimento',
-      definicao: 'Quinta lei de Ranganathan que determina a necessidade de planejamento constante de espaço físico, sistemas digitais e expansão contínua da equipe e das coleções.',
-      exemploBiblioteca: 'A ampliação do repositório digital BDCam e a migração de servidores para nuvem refletem a adaptação contínua da biblioteca.',
-    },
-    {
-      termo: 'Livre Acesso às Estantes',
-      definicao: 'Prática introduzida na biblioteconomia moderna decorrente da 1ª lei (\'Os livros são para usar\'), superando o paradigma custodial de acervos trancados.',
-      exemploBiblioteca: 'Organização do acervo de livre consulta na sala de leitura da Biblioteca Pedro Aleixo.',
-    },
-    {
-      termo: 'Mediação da Informação',
-      definicao: 'Ação de interferência realizada pelo bibliotecário entre o usuário e os recursos informacionais para viabilizar a apropriação do conhecimento.',
-      exemploBiblioteca: 'Atendimento especializado aos assessores parlamentares na formulação de estratégias de busca sobre proposições legislativas.',
-    },
-  ],
-  descricaoCurta: 'O tratado de Shiyali Ramamrita Ranganathan (1931), análise sistêmica de cada lei, implicações em bibliotecas legislativas e as formulações de Michael Gorman, Jim Thompson e Rettig.',
-  tempoEstimadoMinutos: 18,
-  autoresChave: ['Shiyali Ramamrita Ranganathan', 'Michael Gorman', 'James Rettig', 'Jim Thompson', 'Alire'],
+  {
+    "termo": "Lei normativa e modelo empírico",
+    "definicao": "Uma orienta conduta; outro descreve padrões sujeitos a dados e hipóteses.",
+    "exemploBiblioteca": "A quinta lei não é uma fórmula que calcula quantos livros adquirir."
+  },
+  {
+    "termo": "Serendipidade",
+    "definicao": "Encontro fortuito significativo, favorecido por certas condições de descoberta.",
+    "exemploBiblioteca": "Estante aberta pode ajudar, sem garantir encontrar todo recurso pertinente."
+  }
+],
+  descricaoCurta: "Relacionar uso e conservação sem declarar incompatibilidade automática. Partir das necessidades diversas dos leitores. Promover descoberta e encontro de recursos pertinentes. Poupar tempo com pertinência e organização. Planejar crescimento e mudança sem acumulação ilimitada. Distinguir formulação original e releituras com autoria identificada. Interpretar modelos bibliométricos com condições e denominadores definidos. Evitar converter heurísticas em ordens universais de descarte ou indexação.",
+  tempoEstimadoMinutos: 30,
+  autoresChave: [
+  "S. R. Ranganathan — As cinco leis da biblioteconomia",
+  "Crawford e Gorman — Future Libraries (1995)",
+  "Alireza Noruzi — Application of Ranganathan’s Laws to the Web (2004)",
+  "Cunha e Cavalcanti — Dicionário de biblioteconomia e arquivologia (2008)"
+],
   alertasCebraspe: [
-    'A 1ª Lei ("Livros são para usar") ataca a preservação estéril e exige políticas ativas de circulação, localização acessível e horários estendidos.',
-    'Atenção à 2ª Lei ("A cada leitor o seu livro") vs 3ª Lei ("A cada livro o seu leitor"): a 2ª parte do usuário e exige democratização/inclusão; a 3ª parte do item documental e exige técnicas de divulgação, estantes abertas e catalogação analítica.',
-    'A 4ª Lei ("Poupe o tempo do leitor") fundamenta a eficiência dos sistemas de busca, indexação precisa, sinalização predial e automação.',
-    'A 5ª Lei ("A biblioteca é um organismo em crescimento") rege o planejamento dinâmico do espaço físico, tecnológico, orçamentário e de pessoal.',
-  ],
-  quadroComparativo: {
-    titulo: 'Quadro Analítico das Cinco Leis e Releituras na Era Digital',
-    colunas: ['Lei Clássica (Ranganathan, 1931)', 'Foco Primário', 'Releitura Contemporânea (Gorman, 1995)', 'Impacto na Câmara dos Deputados'],
-    linhas: [
-      ['1ª: Os livros são para usar', 'Acesso e Usabilidade', 'As bibliotecas servem à humanidade em todas as mídias', 'Garantir que a documentação legislativa e doutrinária esteja imediatamente utilizável pelos parlamentares'],
-      ['2ª: A todo leitor seu livro', 'Democratização / Usuário', 'Respeite todas as formas pelas quais o conhecimento é comunicado', 'Atendimento personalizado aos assessores, comissões temáticas e cidadãos'],
-      ['3ª: A todo livro seu leitor', 'Disseminação / Documento', 'Use a tecnologia de modo inteligente para aprimorar o serviço', 'DSI (Disseminação Seletiva de Informações), portais temáticos e visibilidade da produção parlamentar'],
-      ['4ª: Poupe o tempo do leitor', 'Velocidade e Eficiência', 'Proteja o livre acesso ao conhecimento em tempo hábil', 'Bases de busca ultrarrápidas, tesauros legislativos consolidados e recuperação sem ruído'],
-      ['5ª: A biblioteca é um organismo em crescimento', 'Adaptação e Futuro', 'Honre o passado e crie o futuro continuamente', 'Expansão constante para repositórios digitais, IA aplicada e preservação digital contínua'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. A Filosofia Axiomática das Cinco Leis de Shiyali Ramamrita Ranganathan (1931)
-Publicada em 1931 na Índia, a obra *The Five Laws of Library Science* de **Shiyali Ramamrita Ranganathan** (matemático, filósofo e bibliotecário indiano) é considerada o mais perfeito modelo dedutivo normativo da Biblioteconomia. Ranganathan estruturou princípios axiológicos que regem o planejamento, a arquitetura predial, o processamento técnico e a interação humana em qualquer unidade de informação.
-
-\`\`\`timeline
-L1 | 1ª Lei: Os livros são para usar | Princípio de Acesso | Derrubada de barreiras físicas, burocracia e elitismo no acesso ao conhecimento
----> →
-L2 | 2ª Lei: A cada leitor, seu livro | Princípio do Leitor | Foco na democratização — o sistema se organiza em torno da necessidade do usuário
----> →
-L3 | 3ª Lei: A cada livro, seu leitor | Princípio do Documento | Disseminação ativa — o bibliotecário vai ao encontro do potencial leitor
----> →
-L4 | 4ª Lei: Poupe o tempo do leitor | Princípio da Eficiência | Catálogos, automação, indexação e sinalização adequada para buscas rápidas
----> →
-L5 | 5ª Lei: A biblioteca é um organismo em crescimento | Princípio da Adaptação | Desbaste, novos suportes, espaço flexível e evolução contínua dos serviços
-\`\`\`
-
----
-
-#### 1ª Lei: Os livros são para usar (*Books are for use*)
-* **Ruptura de Paradigma:** Rompe com a tradição milenar da preservação restritiva e do colecionismo aristocrático, na qual o livro ficava acorrentado à mesa (*catenati*) ou guardado sob chaves para não se desgastar.
-* **Preceito Teórico:** A preservação é meio, e não fim. Uma obra que não é lida nem consultada não cumpre sua função social.
-* **Desdobramentos Práticos:**
-  * Localização geográfica acessível do edifício da biblioteca no centro da comunidade;
-  * Horários amplos de atendimento, inclusive noturnos e finais de semana;
-  * Mobiliário confortável, ventilação e iluminação adequadas;
-  * Políticas de empréstimo desburocratizadas e eliminação de cauções financeiras excludentes.
-
-#### 2ª Lei: A cada leitor seu livro (*Every reader his or her book*)
-* **Foco Central no SUJEITO / USUÁRIO:** Representa a democratização universal do acesso ao saber, antecipando o princípio dos Direitos Humanos.
-* **Tríplice Responsabilidade:**
-  1. **Do Estado / Poder Público:** Financiar e manter redes de bibliotecas públicas, escolares e parlamentares com dotação orçamentária perene.
-  2. **Do Bibliotecário:** Conhecer profundamente sua comunidade real e potencial (estudos de usuários), selecionando materiais sem viés ideológico, religioso ou elitista.
-  3. **Do Usuário / Cidadão:** Zelar pela integridade dos documentos públicos para que outros possam usufruí-los.
-
-#### 3ª Lei: A cada livro seu leitor (*Every book its reader*)
-* **Foco Central no DOCUMENTO / OBJETO BIBLIOGRÁFICO:** Todo item incorporado ao acervo possui um leitor em potencial no mundo; a missão do bibliotecário é torná-lo visível e encontrável.
-* **Mecanismos de Concretização:**
-  * **Livre Acesso às Estantes (*Open Access / Open Shelves*):** Permitir que o usuário circule livremente entre as estantes, possibilitando a descoberta fortuita por serenidade (*serendipity*);
-  * **Catalogação e Indexação Analítica Exaustiva:** Elaboração de entradas secundárias para coordenadores, tradutores, títulos e múltiplos assuntos;
-  * **Disseminação Seletiva da Informação (DSI):** Envio proativo de novas aquisições diretamente aos parlamentares e pesquisadores interessados;
-  * Exposições bibliográficas, murais de lançamentos e boletins informativos.
-
-#### 4ª Lei: Poupe o tempo do leitor (*Save the time of the reader*)
-* **Foco na Eficiência Operacional e na Economia do Tempo:** O tempo do consulente é um recurso escasso e irreversível. Em ambientes de alta pressão decisória (como o plenário e comissões da Câmara dos Deputados), um atraso de minutos na recuperação de uma lei pode inviabilizar uma votação.
-* **Mecanismos de Concretização:**
-  * Arranjo lógico e intuitivo dos livros nas estantes por notação de classificação decimal;
-  * Catálogos em linha (OPAC) ultrarrápidos, com busca facetada e termos padronizados;
-  * Redução do ruído documental e do silêncio de busca mediante vocabulários controlados rigorosos;
-  * Sinalização predial autoexplicativa;
-  * Integração de serviços de referência rápida e comutação bibliográfica digital.
-* **Desdobramento Interno:** A 4ª Lei também abrange *"poupar o tempo da equipe técnica"*, justificando a catalogação cooperativa em rede e a adoção de padrões internacionais (MARC 21, RDA, Z39.50) para evitar retrabalho.
-
-#### 5ª Lei: A biblioteca é um organismo em crescimento (*A library is a growing organism*)
-* **Foco na Natureza Dinâmica e Biológica da Unidade:** A biblioteca nunca alcança um estado estático e final. Ela cresce simultaneamente em acervo, usuários, quadro funcional, área física e complexidade de serviços.
-* **Desdobramentos no Planejamento:**
-  * O projeto arquitetônico deve prever expansão modular futura;
-  * O crescimento físico contínuo exige políticas ativas de **Desbastamento (*Weeding*) e Descarte** para manter o acervo vitalizado e evitar colapso de espaço;
-  * Adoção de suportes digitais, repositórios institucionais e computação em nuvem para absorver o crescimento exponencial sem demandar novos edifícios indefinidamente.
-
----
-
-### 2. Releituras Modernas das Cinco Leis
-Teóricos contemporâneos atualizaram a formulação de Ranganathan para abarcar a era digital, a Web e os repositórios eletrônicos:
-
-* **Michael Gorman (1995) — *Our Singular Strengths: Five New Laws of Librarianship*:**
-  1. *As bibliotecas servem à humanidade* (compromisso ético e universal);
-  2. *Respeite todas as formas pelas quais o conhecimento é comunicado* (abrangência de todas as mídias e suportes);
-  3. *Use a tecnologia de modo inteligente para aprimorar os serviços* (tecnologia como instrumento, nunca como fim em si mesma);
-  4. *Proteja o livre acesso ao conhecimento* (combate à censura e barreiras proprietárias);
-  5. *Honre o passado e crie o futuro* (preservação da memória histórica combinada à inovação contínua).
-* **James Rettig (1992) e Jim Thompson (1999):** Realizaram a transposição terminológica direta:
-  * Livros $\\rightarrow$ **Informação**;
-  * Leitores $\\rightarrow$ **Usuários**;
-  * Bibliotecas $\\rightarrow$ **Sistemas de Informação e Redes Digitais**.
-* **Alire (2007) e Noruzi (2004 - Leis para a Web):**
-  1. *Recursos da Web são para usar*;
-  2. *A cada usuário seu recurso web*;
-  3. *A cada recurso web seu usuário*;
-  4. *Poupe o tempo do internauta*;
-  5. *A Web é um organismo em crescimento exponencial*.
-
----
-
-### 3. Estudos Métricos da Informação: As Leis Canônicas da Bibliometria
-O edital da Câmara dos Deputados cobra com destaque os **Estudos Métricos da Informação** (Bibliometria, Cientometria, Informetria e Webometria). O CEBRASPE exige o conhecimento das leis empíricas, suas fórmulas matemáticas, curvas de distribuição e aplicações práticas na gestão de coleções:
-
-| Lei Bibliométrica | Autor e Ano | Fenômeno Mensurado | Relação Matemática / Fórmula | Aplicação Prática na Biblioteca |
-| :--- | :--- | :--- | :--- | :--- |
-| **Lei de Bradford** | Samuel C. Bradford (1934) | **Dispersão da Literatura Periódica** em uma área do saber. | Relação geométrica entre zonas: $1 : n : n^2$. | Identificação do **núcleo de periódicos essenciais** (*core journals*) para assinaturas prioritárias. |
-| **Lei de Lotka** | Alfred J. Lotka (1926) | **Produtividade dos Autores** científicos (Lei do Quadrado Inverso). | $A_n = \\frac{A_1}{n^2}$ (a proporção de autores com $n$ artigos é $1/n^2$ dos que publicam 1). | Mapeamento da elite de pesquisadores e concentração de autoria científica. |
-| **Lei de Zipf** | George K. Zipf (1935) | **Frequência de Ocorrência de Palavras** em um texto. | $r \\times f = C$ (o produto do posto pela frequência é uma constante). | Indexação automática (H. P. Luhn), extração de termos e criação de *stop words*. |
-| **Lei de Derek de Solla Price** | Derek de Solla Price (1963) | **Crescimento Exponencial da Ciência** e Obsolescência. | Crescimento logarítmico: a literatura científica dobra a cada 10 a 15 anos. | Políticas de descarte/desbastamento e cálculo da **meia-vida** (*half-life*) de citações. |
-| **Teoria Epidêmica** | William Goffman (1966) | **Disseminação de Ideias e Informações** em redes de pesquisa. | Modelo matemático SIR (Suscetíveis, Infecciosos e Recuperados). | Análise do contágio informacional e surgimento de novos paradigmas científicos. |
-
-#### A. Detalhamento da Lei de Bradford (1934)
-Bradford investigou a publicação de artigos científicos sobre geofísica e lubrificação, descobrindo que, ao ordenar os periódicos em ordem decrescente de produtividade de artigos sobre um determinado tema:
-* Pode-se dividir o conjunto total de artigos em zonas que contêm aproximadamente o **mesmo número de artigos**;
-* O número de periódicos necessários para cobrir cada zona sucessiva cresce segundo uma proporção multiplicativa constante $n$:
-  * **Zona 1 (Núcleo Central - *Core*):** Pequeno número de periódicos ($T_1$) altamente produtivos e especializados.
-  * **Zona 2 (Periódicos de Assunto Correlato):** Exige $T_1 \\times n$ periódicos para produzir o mesmo número de artigos.
-  * **Zona 3 (Periódicos Periféricos / Gerais):** Exige $T_1 \\times n^2$ periódicos para produzir a mesma quantidade.
-* **Implicação para a Câmara dos Deputados:** Se o orçamento for reduzido, a biblioteca deve assinar exclusivamente os periódicos do **núcleo de Bradford**, obtendo o restante por comutação bibliográfica sob demanda.
-
-#### B. Detalhamento da Lei de Lotka (1926)
-Ao analisar o índice de resumos químicos (*Chemical Abstracts*) e de física, Lotka demonstrou a desigualdade extrema na produtividade acadêmica:
-* O número de pesquisadores que publicam $n$ artigos em um dado campo é inversamente proporcional a $n^2$ em relação àqueles que publicam apenas um artigo ($A_n = A_1 / n^2$).
-* **Exemplo Numérico:** Se 100 autores publicaram 1 artigo ($A_1 = 100$):
-  * Autores que publicaram 2 artigos: $100 / 2^2 = 100 / 4 = 25$ autores;
-  * Autores que publicaram 3 artigos: $100 / 3^2 = 100 / 9 \\approx 11$ autores;
-  * Autores que publicaram 10 artigos: $100 / 10^2 = 100 / 100 = 1$ autor!
-* Mais de 60% dos autores científicos de qualquer domínio publicam um único trabalho ao longo de toda a sua vida acadêmica.
-
-#### C. Detalhamento da Lei de Zipf (1935) e a Contribuição de H. P. Luhn (1958)
-Zipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavras de um texto por ordem decrescente de frequência:
-* A palavra mais comum ocorre aproximadamente com o dobro da frequência da 2ª mais comum, o triplo da 3ª, e assim sucessivamente.
-* A fórmula clássica é:
-  $r \\times f = C$
-  *(onde $r$ é a ordem de colocação ou posto, $f$ é a frequência absoluta e $C$ é uma constante).*
-* **O Princípio do Menor Esforço (*Principle of Least Effort*):** O ser humano tende a reutilizar um vocabulário restrito de palavras econômicas e polissêmicas.
-* **Aplicação em Ciência da Informação (H. P. Luhn, 1958):**
-  * **Palavras de Alta Frequência:** Artigos, preposições, pronomes (*stop words* como "de", "para", "o", "que"). Possuem altíssima ocorrência e **baixíssimo valor semântico** discriminatório (devem ser eliminadas na indexação).
-  * **Palavras de Baixa Frequência (*Hápax Legomena*):** Palavras que aparecem apenas 1 ou 2 vezes em todo o texto. Possuem alto valor específico, mas pouca representatividade estatística.
-  * **Palavras de Média Frequência:** Zona intermediária de Luhn. São as palavras que apresentam o **máximo valor para indexação automática e recuperação**, pois carregam o núcleo conceitual do texto.
-
----
-
-### 4. Quadro de Distratores Típicos do Cebraspe em Ranganathan e Bibliometria
-
-| Afirmação da Banca | Gabarito | Erro Crítico / Armadilha Oculta |
-| :--- | :--- | :--- |
-| *"A Segunda Lei de Ranganathan parte do documento e exige técnicas ativas de disseminação e estantes abertas."* | **ERRADO** | A 2ª Lei foca no **LEITOR** (inclusão). É a **3ª Lei** (*A cada livro seu leitor*) que parte do documento e exige estantes abertas e DSI. |
-| *"A Lei de Lotka trata da dispersão de artigos científicos em periódicos nucleares e periféricos."* | **ERRADO** | A dispersão de artigos em periódicos é a **Lei de Bradford**. Lotka trata da **produtividade dos autores** (quadrado inverso). |
-| *"Segundo a Lei de Zipf, as palavras com maior frequência absoluta em um texto são as ideais para atuar como descritores de indexação."* | **ERRADO** | Palavras de frequência máxima são *stop words* (artigos, preposições) e têm valor nulo de recuperação. Os descritores situam-se na **média frequência** (Luhn). |
-| *"A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') recomenda que os usuários não tenham acesso direto às estantes para não desorganizá-las."* | **ERRADO** | A 4ª Lei exige expressamente o **livre acesso às estantes** para agilizar a consulta e evitar esperas burocráticas no balcão. |
-| *"A 5ª Lei de Ranganathan impede o descarte de materiais em bibliotecas públicas, pois o acervo deve apenas crescer cumulativamente."* | **ERRADO** | Como organismo vivo, a biblioteca precisa tanto crescer quanto eliminar células mortas: a 5ª Lei **fundamenta e exige o desbastamento e o descarte** periódico. |
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Desenvolvimento e Gestão de Coleções (sub-5-1):** Aplica a 1ª, 2ª e 3ª leis de Ranganathan à política de seleção e censura.
-* **Bibliotecas Digitais e Discovery (sub-6-1):** Aplica a 4ª e 5ª leis à economia de tempo e evolução dos repositórios digitais.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-Em 1931, o bibliotecário indiano **Shiyali Ramamrita Ranganathan** sintetizou toda a filosofia dos serviços bibliotecários em **Cinco Leis Fundamentais**:
-1. **1ª Lei: Os livros são para usar (*Books are for use*):** Supera a custódia patrimonialista que trancava os livros. Exige localização acessível da biblioteca, horários ampliados de funcionamento, estantes abertas, mobiliário confortável e atitude acolhedora da equipe.
-2. **2ª Lei: A cada leitor o seu livro (*Every reader his/her book*):** Princípio da democratização radical e equidade informacional. Atender a todos os tipos de público (pesquisadores, crianças, pessoas com deficiência, minorias) sem censura nem discriminação.
-3. **3ª Lei: A cada livro o seu leitor (*Every book its reader*):** Encontrar um leitor para cada obra do acervo. Exige catalogação analítica profunda, divulgação ativa, vitrines temáticas, estantes de livre acesso e marketing de serviços.
-4. **4ª Lei: Poupe o tempo do leitor (*Save the time of the reader*):** Eficiência máxima no atendimento. Sistemas ágeis de busca e recuperação, sinalização visual clara nas estantes, catálogo automatizado, circulação rápida e eliminação de burocracias inúteis.
-5. **5ª Lei: A biblioteca é um organismo em crescimento (*A library is a growing organism*):** Planejamento contínuo e dinâmico. O acervo cresce fisicamente e digitalmente, o espaço requer expansão ou descarte/desbaste metódico, a equipe evolui e a tecnologia deve ser continuamente modernizada.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **A 4ª Lei no Plenário da Câmara:** Um consultor parlamentar corre à Biblioteca Pedro Aleixo precisando de precedentes sobre votação de Medida Provisória em 10 minutos. O bibliotecário de referência não o manda preencher um formulário em papel; busca na base jurídica, seleciona os 2 pareceres exatos e envia em PDF no WhatsApp do gabinete. Isso é a aplicação viva da **4ª Lei (poupar o tempo do leitor)**.
-- **A 5ª Lei na BDCam:** Com o esgotamento do espaço físico nos depósitos subterrâneos do Palácio do Congresso, o CEDI digitalizou milhares de anais históricos e expandiu a Biblioteca Digital da Câmara (BDCam), migrando a custódia para nuvem e aplicando política contínua de desbaste em duplicatas impressas. Isso é a **5ª Lei (organismo em crescimento)**.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido: 2ª Lei vs. 3ª Lei
-| Aspecto | 2ª Lei: A Cada Leitor o Seu Livro | 3ª Lei: A Cada Livro o Seu Leitor |
-| :--- | :--- | :--- |
-| **Ponto de Partida** | O **Usuário / Leitor** (suas carências e direitos) | O **Documento / Livro** (sua utilidade no acervo) |
-| **Foco de Ação** | Democratização, acessibilidade, equidade e inclusão | Divulgação ativa, marketing, indexação e vitrines |
-| **Pergunta-Guia** | *"Quem é este leitor e que informação ele precisa?"* | *"Para quem esta obra adormecida na estante pode ser útil?"* |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Troca entre 2ª e 3ª Leis:** A banca descreve uma ação de marketing cultural ou exposição temática de livros de economia e diz que decorre da 2ª Lei. **Gabarito: ERRADO** (decorre da 3ª Lei: encontrar leitores para as obras!).
-- **O Falso Conflito entre Conservação e Uso:** O Cebraspe afirma que manter estantes trancadas e limitar o acesso aos livros é a prática prioritária recomendada pela 1ª Lei para garantir a conservação perene. **Gabarito: ERRADO** (a 1ª Lei afirma categoricamente que o uso vem antes da guarda cega!).
-- **A 4ª Lei e o Bibliotecário:** Poupar o tempo do usuário também significa poupar o tempo dos profissionais por meio de padronização, cooperação e ferramentas eficientes.
-
----
-
-### 🧠 5. Micro-Pausa Ativa (Checklist Mental)
-- *Qual lei exige descarte e desbaste programado?* (5ª Lei: o organismo cresce e renova suas células!).
-- *Qual lei proíbe censura prévia na seleção?* (2ª Lei: a cada leitor o seu livro!).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-* **RANGANATHAN, Shiyali Ramamrita.** *The Five Laws of Library Science*. London: Edward Goldston, 1931. (Tradução canônica: *As Cinco Leis da Biblioteconomia*. Brasília: Briquet de Lemos, 2009).
-* **TARAPANOFF, Kira.** *Ranganathan e as Cinco Leis da Biblioteconomia*. Revista de Biblioteconomia de Brasília, v. 13, n. 2, p. 195-207, 1985.
-* **FIGUEIREDO, Nice Menezes de.** *Metodologias para promoção do uso da informação*. São Paulo: Nobel, 1991.
-* **LANCASTER, F. Wilfrid.** *Avaliação de serviços de bibliotecas*. Brasília: Briquet de Lemos, 1996. (Aplicação prática da 4ª Lei: poupar o tempo do leitor).`,
+  "É orientação de aproximação de recurso e leitor, não previsão de uso universal.",
+  "Eficiência de serviço não dispensa pertinência e correção.",
+  "A analogia envolve adaptação e mudança, não expansão infinita de toda dimensão."
+],
+  teoriaDensaMarkdown: "### 1ª Lei: Os livros são para usar (*Books are for use*)\n\nPublicada em 1931 na Índia, a obra *The Five Laws of Library Science* de **Shiyali Ramamrita Ranganathan** (matemático, filósofo e bibliotecário indiano) é referência normativa influente para pensar serviços bibliotecários; seu valor não exige afirmar perfeição ou superioridade absoluta. Ranganathan estruturou princípios axiológicos que regem o planejamento, a arquitetura predial, o processamento técnico e a interação humana em qualquer unidade de informação.\n\n\n\n---\n\n* **Ruptura de Paradigma:** Rompe com a tradição milenar da preservação restritiva e do colecionismo aristocrático, na qual o livro ficava acorrentado à mesa (*catenati*) ou guardado sob chaves para não se desgastar.\n* **Preceito Teórico:** O uso é orientação central; conservação, restrições justificadas e planejamento também podem ser necessários para o acesso presente e futuro. Ausência de empréstimo atual não prova inutilidade de uma obra patrimonial.\n* **Desdobramentos Práticos:**\n  * Localização geográfica acessível do edifício da biblioteca no centro da comunidade;\n  * Horários amplos de atendimento, inclusive noturnos e finais de semana;\n  * Mobiliário confortável, ventilação e iluminação adequadas;\n  * Políticas de empréstimo desburocratizadas e eliminação de cauções financeiras excludentes.\n\n\n\n**Caso resolvido.** Um exemplar raro pode exigir acesso mediado para que continue disponível. A primeira lei não autoriza manuseio que destrua o objeto. Justificar proteção e oferecer alternativas ajuda a articular acesso presente e futuro.\n\n### 2ª Lei: A cada leitor seu livro (*Every reader his or her book*)\n\n* **Foco Central no SUJEITO / USUÁRIO:** Representa a democratização universal do acesso ao saber, antecipando o princípio dos Direitos Humanos.\n* **Tríplice Responsabilidade:**\n  1. **Do Estado / Poder Público:** Financiar e manter redes de bibliotecas públicas, escolares e parlamentares com dotação orçamentária perene.\n  2. **Do Bibliotecário:** Conhecer profundamente sua comunidade real e potencial (estudos de usuários), reconhecendo necessidades diversas, critérios transparentes e riscos de censura; não se promete seleção humana isenta de todo viés.\n  3. **Do Usuário / Cidadão:** Zelar pela integridade dos documentos públicos para que outros possam usufruí-los.\n\n\n\n**Caso resolvido.** A comunidade inclui usuários potenciais que não aparecem nos logs atuais. A segunda lei orienta conhecer necessidades e barreiras, sem reduzir a política aos empréstimos já observados.\n\n### 3ª Lei: A cada livro seu leitor (*Every book its reader*)\n\n* **Foco Central no DOCUMENTO / OBJETO BIBLIOGRÁFICO:** A lei orienta aproximar cada recurso de leitores para quem seja pertinente; não é demonstração empírica de que todo item terá necessariamente uso observado; a missão do bibliotecário é torná-lo visível e encontrável.\n* **Mecanismos de Concretização:**\n  * **Livre Acesso às Estantes (*Open Access / Open Shelves*):** Permitir que o usuário circule livremente entre as estantes, possibilitando a descoberta fortuita por **serendipidade** (*serendipity*), isto é, encontro fortuito significativo;\n  * **Catalogação e indexação adequadas à finalidade:** exaustividade deve ser decidida pela política e pela necessidade, não maximizada sem limites. Elaboração de entradas secundárias para coordenadores, tradutores, títulos e múltiplos assuntos;\n  * **Disseminação Seletiva da Informação (DSI):** Envio proativo de novas aquisições diretamente aos parlamentares e pesquisadores interessados;\n  * Exposições bibliográficas, murais de lançamentos e boletins informativos.\n\n\n\n**Caso resolvido.** Um recurso pertinente está invisível por descrição inadequada. Melhorar metadados e divulgação pode aproximá-lo de leitores. A terceira lei não promete que todo recurso terá empréstimo em qualquer janela de tempo.\n\n### 4ª Lei: Poupe o tempo do leitor (*Save the time of the reader*)\n\n* **Foco na Eficiência Operacional e na Economia do Tempo:** O tempo do consulente é um recurso escasso e irreversível. Em ambientes de alta pressão decisória (como o plenário e comissões da Câmara dos Deputados), um atraso de minutos na recuperação de uma lei pode inviabilizar uma votação.\n* **Mecanismos de Concretização:**\n  * Arranjo lógico e intuitivo dos livros nas estantes por notação de classificação decimal;\n  * Catálogos em linha (OPAC) ultrarrápidos, com busca facetada e termos padronizados;\n  * Redução do ruído documental e do silêncio de busca mediante vocabulários controlados rigorosos;\n  * Sinalização predial autoexplicativa;\n  * Integração de serviços de referência rápida e comutação bibliográfica digital.\n* **Desdobramento Interno:** A 4ª Lei também abrange *\"poupar o tempo da equipe técnica\"*, justificando a catalogação cooperativa em rede e a adoção de padrões internacionais (MARC 21, RDA, Z39.50) para evitar retrabalho.\n\n\n\n**Caso resolvido.** Uma resposta rápida está na versão errada. O tempo poupado na entrega cria retrabalho e possível erro. A quarta lei favorece eficiência articulada à adequação, e a cooperação pode também poupar tempo da equipe.\n\n### 5ª Lei: A biblioteca é um organismo em crescimento (*A library is a growing organism*)\n\n* **Foco na Natureza dinâmica, por analogia com organismo da Unidade:** A biblioteca nunca alcança um estado estático e final. Pode crescer e mudar em coleções, usuários, pessoal, espaço e serviços. A analogia **não obriga crescimento simultâneo e ilimitado de todas essas dimensões**, nem garante crescimento exponencial.\n* **Desdobramentos no Planejamento:**\n  * O projeto arquitetônico deve prever expansão modular futura;\n  * O crescimento físico contínuo exige políticas ativas de **Desbastamento (*Weeding*) e Descarte** para manter o acervo vitalizado e evitar colapso de espaço;\n  * Adoção de suportes digitais, repositórios institucionais e computação em nuvem como opções de acesso e gestão, com custos, limites, preservação e infraestrutura próprios.\n\n**Aplicação e recuperação:** Um horário coincide com a jornada de trabalho da maior parte da comunidade. Rever o horário pode aproximar serviços e leitores. Porém, fechar uma sala com infiltração para proteger pessoas e acervo não viola automaticamente a primeira lei: a decisão precisa ser justificada e acompanhada de alternativas.\n\n### Releituras Modernas das Cinco Leis\n\nTeóricos contemporâneos atualizaram a formulação de Ranganathan para abarcar a era digital, a Web e os repositórios eletrônicos:\n\n* **Michael Gorman — “Five New Laws of Librarianship” (1995); também em Crawford e Gorman, *Future Libraries* (1995):** não confundir artigo e título de outro livro.\n  1. *As bibliotecas servem à humanidade* (compromisso ético e universal);\n  2. *Respeite todas as formas pelas quais o conhecimento é comunicado* (abrangência de todas as mídias e suportes);\n  3. *Use a tecnologia de modo inteligente para aprimorar os serviços* (tecnologia como instrumento, nunca como fim em si mesma);\n  4. *Proteja o livre acesso ao conhecimento* (combate à censura e barreiras proprietárias);\n  5. *Honre o passado e crie o futuro* (preservação da memória histórica combinada à inovação contínua).\n* **Transposição didática para serviços atuais:** “livro”, “leitor” e “biblioteca” podem ser discutidos em relação a recursos, usuários e sistemas. Essa síntese não substitui as formulações originais nem deve ser atribuída a autor/ano sem conferência da obra.\n\n* **Alireza Noruzi (2004) — aplicação à Web:** Alireza é prenome de Noruzi; não se inventa uma coautoria ou autor separado a partir dele.\n  1. *Recursos da Web são para usar*;\n  2. *A cada usuário seu recurso web*;\n  3. *A cada recurso web seu usuário*;\n  4. *Poupe o tempo do internauta*;\n  5. *A Web é um organismo em crescimento*. O qualificativo exponencial não integra automaticamente a formulação.\n\n**Aplicação e recuperação:** Uma interface digital existe, mas usuários dependentes de leitor de tela não conseguem operá-la. Trocar “livro” por “recurso web” mantém a pergunta sobre acesso e serviço. A inovação não vale apenas por ser recente ou usar IA.\n\n### Estudos Métricos da Informação: As Leis Canônicas da Bibliometria\n\nO edital da Câmara dos Deputados cobra com destaque os **Estudos Métricos da Informação** (Bibliometria, Cientometria, Informetria e Webometria). Diferencie leis normativas de serviço e regularidades empíricas de distribuição. As fórmulas abaixo são modelos para interpretação e cálculo, **não garantias exatas em todo corpus**. A aula 9.4 aprofunda as métricas:\n\n| Lei Bibliométrica | Autor e Ano | Fenômeno Mensurado | Relação Matemática / Fórmula | Aplicação Prática na Biblioteca |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lei de Bradford** | Samuel C. Bradford (1934) | **Dispersão da Literatura Periódica** em uma área do saber. | Relação geométrica entre zonas: $1 : n : n^2$. | Identificação do **núcleo de periódicos essenciais** (*core journals*) para assinaturas prioritárias. |\n| **Lei de Lotka** | Alfred J. Lotka (1926) | **Produtividade dos Autores** científicos (Lei do Quadrado Inverso). | $A_n = \\frac{A_1}{n^2}$ (a proporção de autores com $n$ artigos é $1/n^2$ dos que publicam 1). | Mapeamento da elite de pesquisadores e concentração de autoria científica. |\n| **Lei de Zipf** | George K. Zipf (1935) | **Frequência de Ocorrência de Palavras** em um texto. | $r \\times f = C$ (o produto do posto pela frequência é uma constante). | Indexação automática (H. P. Luhn), extração de termos e criação de *stop words*. |\n| **Lei de Derek de Solla Price** | Derek de Solla Price (1963) | **Crescimento Exponencial da Ciência** e Obsolescência. | Crescimento exponencial pode ser modelado em determinados períodos; tempo de duplicação não é constante universal nem se chama crescimento logarítmico. | Políticas de descarte/desbastamento e cálculo da **meia-vida** (*half-life*) de citações. |\n| **Teoria Epidêmica** | William Goffman (1966) | **Disseminação de Ideias e Informações** em redes de pesquisa. | Modelo matemático SIR (Suscetíveis, Infecciosos e Recuperados). | Análise do contágio informacional e surgimento de novos paradigmas científicos. |\n\n#### A. Detalhamento da Lei de Bradford (1934)\nBradford investigou a publicação de artigos científicos sobre geofísica e lubrificação, descobrindo que, ao ordenar os periódicos em ordem decrescente de produtividade de artigos sobre um determinado tema:\n* Pode-se dividir o conjunto total de artigos em zonas que contêm aproximadamente o **mesmo número de artigos**;\n* O número de periódicos necessários para cobrir cada zona sucessiva cresce segundo uma proporção multiplicativa constante $n$:\n  * **Zona 1 (Núcleo Central - *Core*):** Pequeno número de periódicos ($T_1$) altamente produtivos e especializados.\n  * **Zona 2 (Periódicos de Assunto Correlato):** Exige $T_1 \\times n$ periódicos para produzir o mesmo número de artigos.\n  * **Zona 3 (Periódicos Periféricos / Gerais):** Exige $T_1 \\times n^2$ periódicos para produzir a mesma quantidade.\n* **Implicação para a Câmara dos Deputados:** Se o orçamento for reduzido, a biblioteca pode usar a análise de concentração como um dos critérios, considerando missão, custo, licenças, diversidade e necessidades. Bradford não ordena assinar exclusivamente o núcleo.\n\n#### B. Detalhamento da Lei de Lotka (1926)\nAo analisar o índice de resumos químicos (*Chemical Abstracts*) e de física, Lotka demonstrou a desigualdade extrema na produtividade acadêmica:\n* O número de pesquisadores que publicam $n$ artigos em um dado campo é inversamente proporcional a $n^2$ em relação àqueles que publicam apenas um artigo ($A_n = A_1 / n^2$).\n* **Exemplo Numérico:** Se 100 autores publicaram 1 artigo ($A_1 = 100$):\n  * Autores que publicaram 2 artigos: $100 / 2^2 = 100 / 4 = 25$ autores;\n  * Autores que publicaram 3 artigos: $100 / 3^2 = 100 / 9 \\approx 11$ autores;\n  * Autores que publicaram 10 artigos: $100 / 10^2 = 100 / 100 = 1$ autor!\n* A proporção depende do corpus, período, campo e método de contagem. O valor próximo de 60% associado a uma formulação de Lotka não se generaliza a toda carreira de todo domínio.\n\n#### C. Detalhamento da Lei de Zipf (1935) e a Contribuição de H. P. Luhn (1958)\nZipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavras de um texto por ordem decrescente de frequência:\n* A palavra mais comum ocorre aproximadamente com o dobro da frequência da 2ª mais comum, o triplo da 3ª, e assim sucessivamente.\n* A fórmula clássica é:\n  $r \\times f = C$\n  *(onde $r$ é a ordem de colocação ou posto, $f$ é a frequência absoluta e $C$ é uma constante).*\n* **O Princípio do Menor Esforço (*Principle of Least Effort*):** O ser humano tende a reutilizar um vocabulário restrito de palavras econômicas e polissêmicas.\n* **Aplicação em Ciência da Informação (H. P. Luhn, 1958):**\n  * **Palavras de Alta Frequência:** Artigos, preposições, pronomes (*stop words* como \"de\", \"para\", \"o\", \"que\"). Possuem altíssima ocorrência e possivelmente baixo poder de discriminação lexical no corpus. **Não devem ser eliminadas automaticamente**: frases, nomes, negações e tarefas podem exigir sua preservação.\n  * **Palavras de Baixa Frequência (*Hápax Legomena*):** Hápax legomenon é ocorrência **uma única vez** no corpus definido; duas ocorrências não são hápax. Baixa frequência é categoria mais ampla. Possuem alto valor específico, mas pouca representatividade estatística.\n  * **Palavras de Média Frequência:** Zona intermediária de Luhn. Podem oferecer termos úteis segundo a heurística de Luhn, mas não garantem máximo valor nem excluem termos raros importantes. Frequência não é sinônimo de pertinência conceitual.\n\n**Aplicação e recuperação:** No modelo inverso quadrático, se A1=100, A2=25. Esse é resultado da fórmula sob o modelo, não contagem observada garantida. Um corpus com 30 autores de dois trabalhos não está “ilegal”; o ajuste empírico deve ser analisado.\n\n### Enunciados autorais: lei de serviço não é regra quantitativa universal\n\n| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"A Segunda Lei de Ranganathan parte do documento e exige técnicas ativas de disseminação e estantes abertas.\"* | **ERRADO** | A 2ª Lei foca no **LEITOR** (inclusão). É a **3ª Lei** (*A cada livro seu leitor*) que parte do documento e exige estantes abertas e DSI. |\n| *\"A Lei de Lotka trata da dispersão de artigos científicos em periódicos nucleares e periféricos.\"* | **ERRADO** | A dispersão de artigos em periódicos é a **Lei de Bradford**. Lotka trata da **produtividade dos autores** (quadrado inverso). |\n| *\"Segundo a Lei de Zipf, as palavras com maior frequência absoluta em um texto são as ideais para atuar como descritores de indexação.\"* | **ERRADO** | Frequência máxima não prova adequação como descritor. Nem toda palavra frequente tem valor nulo e a faixa intermediária não é regra universal suficiente. |\n| *\"A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') recomenda que os usuários não tenham acesso direto às estantes para não desorganizá-las.\"* | **ERRADO** | A economia de tempo orienta arranjo, catálogos e acesso; não fundamenta burocracia como objetivo. Estante aberta pode ajudar, mas obras especiais podem exigir mediação justificada. |\n| *\"A 5ª Lei de Ranganathan impede o descarte de materiais em bibliotecas públicas, pois o acervo deve apenas crescer cumulativamente.\"* | **ERRADO** | Como organismo vivo, a biblioteca precisa tanto crescer quanto eliminar células mortas: a 5ª Lei é compatível com mudança e desbastamento conforme política; não impõe descarte automático de todo material pouco usado. |\n\n**Aplicação e recuperação:** Um manuscrito raro não teve consulta no último ano. A quinta lei não obriga descartá-lo; política, memória, singularidade e estado entram na decisão. Da mesma forma, stopword não é sinônimo de palavra sem qualquer significado.",
+  teoriaDidaticaMarkdown: "As cinco leis orientam uso, leitor, recurso, tempo e adaptação. Não prometem empréstimo de cada item nem crescimento infinito. A quarta também se relaciona ao tempo da equipe. Releituras mantêm autoria e contexto próprios. Bibliometria descreve regularidades empíricas, sem impor seleção exclusiva, eliminar toda palavra frequente ou autorizar descarte automático.",
   checkpoints: [
-    {
-      id: 'cp-1-2-1',
-      pergunta: 'Micro-Checkpoint 1: Foco da Segunda vs Terceira Lei',
-      item: "A segunda lei de Ranganathan ('A cada leitor o seu livro') tem o documento bibliográfico como elemento central de sua formulação.",
-      gabarito: 'E',
-      justificativa: "Errado! A 2ª Lei parte do LEITOR (usuário) e exige democratização. A 3ª Lei ('A cada livro o seu leitor') é que parte do DOCUMENTO para garantir visibilidade.",
-      versao_correta: "A terceira lei de Ranganathan ('A cada livro o seu leitor') tem o documento bibliográfico como elemento central de sua formulação, enquanto a segunda lei foca no leitor.",
-    },
-    {
-      id: 'cp-1-2-2',
-      pergunta: 'Micro-Checkpoint 2: Releituras Contemporâneas',
-      item: "Na releitura das Cinco Leis para a era da informação, os termos clássicos 'livro' e 'leitor' foram reinterpretados respectivamente como 'informação' e 'usuário'.",
-      gabarito: 'C',
-      justificativa: "Certo! Formulações de teóricos contemporâneos como Rettig e Thompson realizaram essa transposição direta para o universo digital.",
-    },
-      {
-      id: 'cp-1-2-3',
-      pergunta: "Micro-Checkpoint 3: Implicações Práticas da Quarta Lei",
-      item: "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física.",
-      gabarito: 'E',
-      justificativa: "Errado! A 4ª Lei exige exatamente o oposto: a implantação do livre acesso às estantes (open access), catálogos eficientes e arranjo lógico com guias para minimizar o tempo despendido pelo usuário na busca.",
-      versao_correta: "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de livre acesso às estantes, catálogos eficientes e sinalização clara para agilizar a consulta.",
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-1-2-1',
-        periodo: '1931',
-        disciplina: 'Biblioteconomia Axiológica',
-        focoPrincipal: 'As Cinco Leis dedutivas: Uso, Leitor, Livro, Tempo e Organismo vivo',
-        figuraChave: 'Shiyali Ramamrita Ranganathan',
-      },
-      {
-        id: 'tl-1-2-2',
-        periodo: '1995',
-        disciplina: 'Releitura Humanista',
-        focoPrincipal: 'Our Singular Strengths: bibliotecas a serviço da humanidade e mídias plurais',
-        figuraChave: 'Michael Gorman',
-      },
-      {
-        id: 'tl-1-2-3',
-        periodo: 'Anos 1990 / 2000',
-        disciplina: 'Releitura Informacional Digital',
-        focoPrincipal: 'Transposição conceitual direta: Livro -> Informação / Leitor -> Usuário',
-        figuraChave: 'James Rettig e Jim Thompson',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-1-2-1',
-        nome: 'S. R. Ranganathan',
-        ano: 1931,
-        obraPrincipal: 'The Five Laws of Library Science',
-        ideiaChave: 'Teoria axiológica dedutiva que rege o ciclo de vida da biblioteca.',
-        chipPegadinha: '2ª Lei foca no LEITOR (inclusão); 3ª Lei foca no LIVRO (estantes abertas/DSI).',
-      },
-      {
-        id: 'aut-1-2-2',
-        nome: 'Michael Gorman',
-        ano: 1995,
-        obraPrincipal: 'Our Singular Strengths',
-        ideiaChave: 'Releitura das cinco leis sob a ótica dos novos suportes e da preservação contínua.',
-        chipPegadinha: 'Afirma que as bibliotecas servem à humanidade em todas as suas mídias.',
-      },
-      {
-        id: 'aut-1-2-3',
-        nome: 'James Rettig & Jim Thompson',
-        ano: 1992,
-        obraPrincipal: 'Releituras para Sistemas Digitais',
-        ideiaChave: 'Adaptação do vocabulário ranganathaniano para informação e usuário.',
-        chipPegadinha: 'Poupe o tempo do usuário e da equipe técnica.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-1-2-1',
-        afirmacao: 'A segunda lei de Ranganathan preconiza o livre acesso às estantes como técnica primordial para que o documento encontre leitores interessados.',
-        gabarito: 'E',
-        porQue: 'A técnica de livre acesso às estantes (open shelves) e a DSI decorrem diretamente da TERCEIRA LEI (A todo livro seu leitor). A 2ª Lei parte do usuário e da inclusão.',
-      },
-      {
-        id: 'peg-1-2-2',
-        afirmacao: 'O princípio de que a preservação física do acervo deve sobrepor-se ao seu uso imediato encontra esteio direto na primeira lei de Ranganathan.',
-        gabarito: 'E',
-        porQue: 'A 1ª Lei ("Livros são para usar") estabelece exatamente o oposto: a preservação só tem razão de ser para viabilizar o uso, rompendo com o paradigma patrimonialista puro.',
-      },
-    ],
+  {
+    "id": "cp-1-2-1",
+    "pergunta": "Micro-Checkpoint 1: Foco da Segunda vs Terceira Lei",
+    "item": "A segunda lei de Ranganathan ('A cada leitor o seu livro') tem o documento bibliográfico como elemento central de sua formulação.",
+    "gabarito": "E",
+    "justificativa": "A segunda parte do leitor; a terceira formula a aproximação de cada livro a seu leitor. As duas se articulam e não excluem reciprocamente recursos e pessoas.",
+    "versao_correta": "A terceira lei de Ranganathan ('A cada livro o seu leitor') tem o documento bibliográfico como elemento central de sua formulação, enquanto a segunda lei foca no leitor.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção."
   },
+  {
+    "id": "cp-1-2-2",
+    "pergunta": "Micro-Checkpoint 2: Releituras Contemporâneas",
+    "item": "Releituras contemporâneas podem discutir as cinco leis em termos de recursos informacionais e usuários, preservando a distinção entre o texto original e a aplicação proposta.",
+    "gabarito": "C",
+    "justificativa": "É uma transposição didática legítima quando identificada como tal; não exige atribuições não conferidas a Rettig ou Thompson.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção."
+  },
+  {
+    "id": "cp-1-2-3",
+    "pergunta": "Micro-Checkpoint 3: Implicações Práticas da Quarta Lei",
+    "item": "A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') fundamenta prioritariamente a adoção de sistemas de estantes fechadas e o controle burocrático de acesso aos livros para evitar desordem física.",
+    "gabarito": "E",
+    "justificativa": "A economia de tempo não tem burocracia como finalidade. Acesso e organização devem favorecer a tarefa, com mediação e restrições justificadas em casos específicos.",
+    "versao_correta": "A quarta lei orienta serviços e organização que poupem o tempo do leitor, sem eliminar avaliação e proteção justificadas.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção."
+  },
+  {
+    "id": "rt-1-2-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Promover uso pode exigir remover barreiras e, ao mesmo tempo, conservar materiais para acesso futuro.",
+    "gabarito": "C",
+    "justificativa": "Uso e conservação não são necessariamente finalidades incompatíveis.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-2-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A segunda lei parte das necessidades dos leitores; isso não dispensa conhecer recursos e serviços disponíveis.",
+    "gabarito": "C",
+    "justificativa": "As leis se articulam e não criam departamentos isolados.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-2-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A terceira lei garante que todo volume terá necessariamente empréstimo observado em qualquer período de avaliação.",
+    "gabarito": "E",
+    "justificativa": "É orientação de aproximação de recurso e leitor, não previsão de uso universal.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "Promover descoberta não garante uso medido de cada item."
+  },
+  {
+    "id": "rt-1-2-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Poupar tempo autoriza entregar imediatamente uma fonte inadequada, sem conferir a versão solicitada.",
+    "gabarito": "E",
+    "justificativa": "Eficiência de serviço não dispensa pertinência e correção.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "Rapidez deve ser articulada à adequação da resposta."
+  },
+  {
+    "id": "rt-1-2-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Organismo em crescimento obriga aumento simultâneo e ilimitado do acervo, do pessoal e da área construída.",
+    "gabarito": "E",
+    "justificativa": "A analogia envolve adaptação e mudança, não expansão infinita de toda dimensão.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "Crescimento e mudança devem ser planejados conforme missão e recursos."
+  },
+  {
+    "id": "rt-1-2-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Noruzi aplica as leis à Web; essa releitura não substitui automaticamente a autoria e a redação de 1931.",
+    "gabarito": "C",
+    "justificativa": "Aplicação contemporânea e texto original devem ser distinguidos.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-1-2-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A lei de Bradford determina, por si só, a obrigação de assinar exclusivamente o núcleo de periódicos.",
+    "gabarito": "E",
+    "justificativa": "A distribuição é subsídio, não ordem de seleção que dispense política e necessidades.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "A seleção combina evidências e critérios institucionais."
+  },
+  {
+    "id": "rt-1-2-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Hápax designa ocorrência única no corpus; uma palavra que ocorre duas vezes não é hápax nesse mesmo corpus.",
+    "gabarito": "C",
+    "justificativa": "O conceito depende do corpus e da unidade contada.",
+    "fonte": "Ranganathan, As cinco leis da biblioteconomia, PDF do projeto, capítulos das cinco leis e corolário da quarta; Gorman (1995), Five New Laws; Crawford e Gorman, Future Libraries (1995); Noruzi (2004), Application of Ranganathan’s Laws to the Web. Leis bibliométricas são modelos empíricos, não normas de seleção.",
+    "editalRef": "Bloco A - Item 1.1 e 1.6",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-1-2-fonte-ranganathan",
+      "nome": "S. R. Ranganathan — As cinco leis da biblioteconomia",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "S. R. Ranganathan — As cinco leis da biblioteconomia",
+      "ideiaChave": "PDF do projeto; obra original de 1931, edição/tradução posterior. Crescimento inclui mudanças de forma e descarte conforme política.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-2-fonte-gorman",
+      "nome": "Crawford e Gorman — Future Libraries (1995)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Crawford e Gorman — Future Libraries (1995)",
+      "ideiaChave": "Amostra oficial da ALA: cinco novas leis e tecnologia a serviço das pessoas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-2-fonte-noruzi",
+      "nome": "Alireza Noruzi — Application of Ranganathan’s Laws to the Web (2004)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Alireza Noruzi — Application of Ranganathan’s Laws to the Web (2004)",
+      "ideiaChave": "Webology 1(2); não confundir o prenome Alireza com outro autor chamado Alire.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-1-2-fonte-metricas",
+      "nome": "Cunha e Cavalcanti — Dicionário de biblioteconomia e arquivologia (2008)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha e Cavalcanti — Dicionário de biblioteconomia e arquivologia (2008)",
+      "ideiaChave": "PDF do projeto; conceitos de bibliometria. Esta ponte será aprofundada na aula 9.4.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-1-2-6",
+      "afirmacao": "Noruzi aplica as leis à Web; essa releitura não substitui automaticamente a autoria e a redação de 1931.",
+      "gabarito": "C",
+      "porQue": "Aplicação contemporânea e texto original devem ser distinguidos."
+    },
+    {
+      "id": "memoria-rt-1-2-7",
+      "afirmacao": "A lei de Bradford determina, por si só, a obrigação de assinar exclusivamente o núcleo de periódicos.",
+      "gabarito": "E",
+      "porQue": "A distribuição é subsídio, não ordem de seleção que dispense política e necessidades."
+    },
+    {
+      "id": "memoria-rt-1-2-8",
+      "afirmacao": "Hápax designa ocorrência única no corpus; uma palavra que ocorre duas vezes não é hápax nesse mesmo corpus.",
+      "gabarito": "C",
+      "porQue": "O conceito depende do corpus e da unidade contada."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-1-2-bloco-1",
+    "titulo": "1ª Lei: Os livros são para usar (*Books are for use*)",
+    "objetivos": [
+      "Relacionar uso e conservação sem declarar incompatibilidade automática."
+    ],
+    "conteudo": "Publicada em 1931 na Índia, a obra *The Five Laws of Library Science* de **Shiyali Ramamrita Ranganathan** (matemático, filósofo e bibliotecário indiano) é referência normativa influente para pensar serviços bibliotecários; seu valor não exige afirmar perfeição ou superioridade absoluta. Ranganathan estruturou princípios axiológicos que regem o planejamento, a arquitetura predial, o processamento técnico e a interação humana em qualquer unidade de informação.\n\n\n\n---\n\n* **Ruptura de Paradigma:** Rompe com a tradição milenar da preservação restritiva e do colecionismo aristocrático, na qual o livro ficava acorrentado à mesa (*catenati*) ou guardado sob chaves para não se desgastar.\n* **Preceito Teórico:** O uso é orientação central; conservação, restrições justificadas e planejamento também podem ser necessários para o acesso presente e futuro. Ausência de empréstimo atual não prova inutilidade de uma obra patrimonial.\n* **Desdobramentos Práticos:**\n  * Localização geográfica acessível do edifício da biblioteca no centro da comunidade;\n  * Horários amplos de atendimento, inclusive noturnos e finais de semana;\n  * Mobiliário confortável, ventilação e iluminação adequadas;\n  * Políticas de empréstimo desburocratizadas e eliminação de cauções financeiras excludentes.\n\n\n\n**Caso resolvido.** Um exemplar raro pode exigir acesso mediado para que continue disponível. A primeira lei não autoriza manuseio que destrua o objeto. Justificar proteção e oferecer alternativas ajuda a articular acesso presente e futuro.",
+    "checkpointIds": [
+      "rt-1-2-1"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-5",
+    "titulo": "2ª Lei: A cada leitor seu livro (*Every reader his or her book*)",
+    "objetivos": [
+      "Partir das necessidades diversas dos leitores."
+    ],
+    "conteudo": "* **Foco Central no SUJEITO / USUÁRIO:** Representa a democratização universal do acesso ao saber, antecipando o princípio dos Direitos Humanos.\n* **Tríplice Responsabilidade:**\n  1. **Do Estado / Poder Público:** Financiar e manter redes de bibliotecas públicas, escolares e parlamentares com dotação orçamentária perene.\n  2. **Do Bibliotecário:** Conhecer profundamente sua comunidade real e potencial (estudos de usuários), reconhecendo necessidades diversas, critérios transparentes e riscos de censura; não se promete seleção humana isenta de todo viés.\n  3. **Do Usuário / Cidadão:** Zelar pela integridade dos documentos públicos para que outros possam usufruí-los.\n\n\n\n**Caso resolvido.** A comunidade inclui usuários potenciais que não aparecem nos logs atuais. A segunda lei orienta conhecer necessidades e barreiras, sem reduzir a política aos empréstimos já observados.",
+    "checkpointIds": [
+      "cp-1-2-1",
+      "rt-1-2-2"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-6",
+    "titulo": "3ª Lei: A cada livro seu leitor (*Every book its reader*)",
+    "objetivos": [
+      "Promover descoberta e encontro de recursos pertinentes."
+    ],
+    "conteudo": "* **Foco Central no DOCUMENTO / OBJETO BIBLIOGRÁFICO:** A lei orienta aproximar cada recurso de leitores para quem seja pertinente; não é demonstração empírica de que todo item terá necessariamente uso observado; a missão do bibliotecário é torná-lo visível e encontrável.\n* **Mecanismos de Concretização:**\n  * **Livre Acesso às Estantes (*Open Access / Open Shelves*):** Permitir que o usuário circule livremente entre as estantes, possibilitando a descoberta fortuita por **serendipidade** (*serendipity*), isto é, encontro fortuito significativo;\n  * **Catalogação e indexação adequadas à finalidade:** exaustividade deve ser decidida pela política e pela necessidade, não maximizada sem limites. Elaboração de entradas secundárias para coordenadores, tradutores, títulos e múltiplos assuntos;\n  * **Disseminação Seletiva da Informação (DSI):** Envio proativo de novas aquisições diretamente aos parlamentares e pesquisadores interessados;\n  * Exposições bibliográficas, murais de lançamentos e boletins informativos.\n\n\n\n**Caso resolvido.** Um recurso pertinente está invisível por descrição inadequada. Melhorar metadados e divulgação pode aproximá-lo de leitores. A terceira lei não promete que todo recurso terá empréstimo em qualquer janela de tempo.",
+    "checkpointIds": [
+      "rt-1-2-3"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-7",
+    "titulo": "4ª Lei: Poupe o tempo do leitor (*Save the time of the reader*)",
+    "objetivos": [
+      "Poupar tempo com pertinência e organização."
+    ],
+    "conteudo": "* **Foco na Eficiência Operacional e na Economia do Tempo:** O tempo do consulente é um recurso escasso e irreversível. Em ambientes de alta pressão decisória (como o plenário e comissões da Câmara dos Deputados), um atraso de minutos na recuperação de uma lei pode inviabilizar uma votação.\n* **Mecanismos de Concretização:**\n  * Arranjo lógico e intuitivo dos livros nas estantes por notação de classificação decimal;\n  * Catálogos em linha (OPAC) ultrarrápidos, com busca facetada e termos padronizados;\n  * Redução do ruído documental e do silêncio de busca mediante vocabulários controlados rigorosos;\n  * Sinalização predial autoexplicativa;\n  * Integração de serviços de referência rápida e comutação bibliográfica digital.\n* **Desdobramento Interno:** A 4ª Lei também abrange *\"poupar o tempo da equipe técnica\"*, justificando a catalogação cooperativa em rede e a adoção de padrões internacionais (MARC 21, RDA, Z39.50) para evitar retrabalho.\n\n\n\n**Caso resolvido.** Uma resposta rápida está na versão errada. O tempo poupado na entrega cria retrabalho e possível erro. A quarta lei favorece eficiência articulada à adequação, e a cooperação pode também poupar tempo da equipe.",
+    "checkpointIds": [
+      "cp-1-2-3",
+      "rt-1-2-4"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-8",
+    "titulo": "5ª Lei: A biblioteca é um organismo em crescimento (*A library is a growing organism*)",
+    "objetivos": [
+      "Planejar crescimento e mudança sem acumulação ilimitada."
+    ],
+    "conteudo": "* **Foco na Natureza dinâmica, por analogia com organismo da Unidade:** A biblioteca nunca alcança um estado estático e final. Pode crescer e mudar em coleções, usuários, pessoal, espaço e serviços. A analogia **não obriga crescimento simultâneo e ilimitado de todas essas dimensões**, nem garante crescimento exponencial.\n* **Desdobramentos no Planejamento:**\n  * O projeto arquitetônico deve prever expansão modular futura;\n  * O crescimento físico contínuo exige políticas ativas de **Desbastamento (*Weeding*) e Descarte** para manter o acervo vitalizado e evitar colapso de espaço;\n  * Adoção de suportes digitais, repositórios institucionais e computação em nuvem como opções de acesso e gestão, com custos, limites, preservação e infraestrutura próprios.\n\n**Aplicação e recuperação:** Um horário coincide com a jornada de trabalho da maior parte da comunidade. Rever o horário pode aproximar serviços e leitores. Porém, fechar uma sala com infiltração para proteger pessoas e acervo não viola automaticamente a primeira lei: a decisão precisa ser justificada e acompanhada de alternativas.",
+    "checkpointIds": [
+      "rt-1-2-5"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-2",
+    "titulo": "Releituras Modernas das Cinco Leis",
+    "objetivos": [
+      "Distinguir formulação original e releituras com autoria identificada."
+    ],
+    "conteudo": "Teóricos contemporâneos atualizaram a formulação de Ranganathan para abarcar a era digital, a Web e os repositórios eletrônicos:\n\n* **Michael Gorman — “Five New Laws of Librarianship” (1995); também em Crawford e Gorman, *Future Libraries* (1995):** não confundir artigo e título de outro livro.\n  1. *As bibliotecas servem à humanidade* (compromisso ético e universal);\n  2. *Respeite todas as formas pelas quais o conhecimento é comunicado* (abrangência de todas as mídias e suportes);\n  3. *Use a tecnologia de modo inteligente para aprimorar os serviços* (tecnologia como instrumento, nunca como fim em si mesma);\n  4. *Proteja o livre acesso ao conhecimento* (combate à censura e barreiras proprietárias);\n  5. *Honre o passado e crie o futuro* (preservação da memória histórica combinada à inovação contínua).\n* **Transposição didática para serviços atuais:** “livro”, “leitor” e “biblioteca” podem ser discutidos em relação a recursos, usuários e sistemas. Essa síntese não substitui as formulações originais nem deve ser atribuída a autor/ano sem conferência da obra.\n\n* **Alireza Noruzi (2004) — aplicação à Web:** Alireza é prenome de Noruzi; não se inventa uma coautoria ou autor separado a partir dele.\n  1. *Recursos da Web são para usar*;\n  2. *A cada usuário seu recurso web*;\n  3. *A cada recurso web seu usuário*;\n  4. *Poupe o tempo do internauta*;\n  5. *A Web é um organismo em crescimento*. O qualificativo exponencial não integra automaticamente a formulação.\n\n**Aplicação e recuperação:** Uma interface digital existe, mas usuários dependentes de leitor de tela não conseguem operá-la. Trocar “livro” por “recurso web” mantém a pergunta sobre acesso e serviço. A inovação não vale apenas por ser recente ou usar IA.",
+    "checkpointIds": [
+      "cp-1-2-2",
+      "rt-1-2-6"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-3",
+    "titulo": "Estudos Métricos da Informação: As Leis Canônicas da Bibliometria",
+    "objetivos": [
+      "Interpretar modelos bibliométricos com condições e denominadores definidos."
+    ],
+    "conteudo": "O edital da Câmara dos Deputados cobra com destaque os **Estudos Métricos da Informação** (Bibliometria, Cientometria, Informetria e Webometria). Diferencie leis normativas de serviço e regularidades empíricas de distribuição. As fórmulas abaixo são modelos para interpretação e cálculo, **não garantias exatas em todo corpus**. A aula 9.4 aprofunda as métricas:\n\n| Lei Bibliométrica | Autor e Ano | Fenômeno Mensurado | Relação Matemática / Fórmula | Aplicação Prática na Biblioteca |\n| :--- | :--- | :--- | :--- | :--- |\n| **Lei de Bradford** | Samuel C. Bradford (1934) | **Dispersão da Literatura Periódica** em uma área do saber. | Relação geométrica entre zonas: $1 : n : n^2$. | Identificação do **núcleo de periódicos essenciais** (*core journals*) para assinaturas prioritárias. |\n| **Lei de Lotka** | Alfred J. Lotka (1926) | **Produtividade dos Autores** científicos (Lei do Quadrado Inverso). | $A_n = \\frac{A_1}{n^2}$ (a proporção de autores com $n$ artigos é $1/n^2$ dos que publicam 1). | Mapeamento da elite de pesquisadores e concentração de autoria científica. |\n| **Lei de Zipf** | George K. Zipf (1935) | **Frequência de Ocorrência de Palavras** em um texto. | $r \\times f = C$ (o produto do posto pela frequência é uma constante). | Indexação automática (H. P. Luhn), extração de termos e criação de *stop words*. |\n| **Lei de Derek de Solla Price** | Derek de Solla Price (1963) | **Crescimento Exponencial da Ciência** e Obsolescência. | Crescimento exponencial pode ser modelado em determinados períodos; tempo de duplicação não é constante universal nem se chama crescimento logarítmico. | Políticas de descarte/desbastamento e cálculo da **meia-vida** (*half-life*) de citações. |\n| **Teoria Epidêmica** | William Goffman (1966) | **Disseminação de Ideias e Informações** em redes de pesquisa. | Modelo matemático SIR (Suscetíveis, Infecciosos e Recuperados). | Análise do contágio informacional e surgimento de novos paradigmas científicos. |\n\n#### A. Detalhamento da Lei de Bradford (1934)\nBradford investigou a publicação de artigos científicos sobre geofísica e lubrificação, descobrindo que, ao ordenar os periódicos em ordem decrescente de produtividade de artigos sobre um determinado tema:\n* Pode-se dividir o conjunto total de artigos em zonas que contêm aproximadamente o **mesmo número de artigos**;\n* O número de periódicos necessários para cobrir cada zona sucessiva cresce segundo uma proporção multiplicativa constante $n$:\n  * **Zona 1 (Núcleo Central - *Core*):** Pequeno número de periódicos ($T_1$) altamente produtivos e especializados.\n  * **Zona 2 (Periódicos de Assunto Correlato):** Exige $T_1 \\times n$ periódicos para produzir o mesmo número de artigos.\n  * **Zona 3 (Periódicos Periféricos / Gerais):** Exige $T_1 \\times n^2$ periódicos para produzir a mesma quantidade.\n* **Implicação para a Câmara dos Deputados:** Se o orçamento for reduzido, a biblioteca pode usar a análise de concentração como um dos critérios, considerando missão, custo, licenças, diversidade e necessidades. Bradford não ordena assinar exclusivamente o núcleo.\n\n#### B. Detalhamento da Lei de Lotka (1926)\nAo analisar o índice de resumos químicos (*Chemical Abstracts*) e de física, Lotka demonstrou a desigualdade extrema na produtividade acadêmica:\n* O número de pesquisadores que publicam $n$ artigos em um dado campo é inversamente proporcional a $n^2$ em relação àqueles que publicam apenas um artigo ($A_n = A_1 / n^2$).\n* **Exemplo Numérico:** Se 100 autores publicaram 1 artigo ($A_1 = 100$):\n  * Autores que publicaram 2 artigos: $100 / 2^2 = 100 / 4 = 25$ autores;\n  * Autores que publicaram 3 artigos: $100 / 3^2 = 100 / 9 \\approx 11$ autores;\n  * Autores que publicaram 10 artigos: $100 / 10^2 = 100 / 100 = 1$ autor!\n* A proporção depende do corpus, período, campo e método de contagem. O valor próximo de 60% associado a uma formulação de Lotka não se generaliza a toda carreira de todo domínio.\n\n#### C. Detalhamento da Lei de Zipf (1935) e a Contribuição de H. P. Luhn (1958)\nZipf analisou a língua inglesa e estabeleceu que, se listarmos todas as palavras de um texto por ordem decrescente de frequência:\n* A palavra mais comum ocorre aproximadamente com o dobro da frequência da 2ª mais comum, o triplo da 3ª, e assim sucessivamente.\n* A fórmula clássica é:\n  $r \\times f = C$\n  *(onde $r$ é a ordem de colocação ou posto, $f$ é a frequência absoluta e $C$ é uma constante).*\n* **O Princípio do Menor Esforço (*Principle of Least Effort*):** O ser humano tende a reutilizar um vocabulário restrito de palavras econômicas e polissêmicas.\n* **Aplicação em Ciência da Informação (H. P. Luhn, 1958):**\n  * **Palavras de Alta Frequência:** Artigos, preposições, pronomes (*stop words* como \"de\", \"para\", \"o\", \"que\"). Possuem altíssima ocorrência e possivelmente baixo poder de discriminação lexical no corpus. **Não devem ser eliminadas automaticamente**: frases, nomes, negações e tarefas podem exigir sua preservação.\n  * **Palavras de Baixa Frequência (*Hápax Legomena*):** Hápax legomenon é ocorrência **uma única vez** no corpus definido; duas ocorrências não são hápax. Baixa frequência é categoria mais ampla. Possuem alto valor específico, mas pouca representatividade estatística.\n  * **Palavras de Média Frequência:** Zona intermediária de Luhn. Podem oferecer termos úteis segundo a heurística de Luhn, mas não garantem máximo valor nem excluem termos raros importantes. Frequência não é sinônimo de pertinência conceitual.\n\n**Aplicação e recuperação:** No modelo inverso quadrático, se A1=100, A2=25. Esse é resultado da fórmula sob o modelo, não contagem observada garantida. Um corpus com 30 autores de dois trabalhos não está “ilegal”; o ajuste empírico deve ser analisado.",
+    "checkpointIds": [
+      "rt-1-2-7"
+    ]
+  },
+  {
+    "id": "sub-1-2-bloco-4",
+    "titulo": "Enunciados autorais: lei de serviço não é regra quantitativa universal",
+    "objetivos": [
+      "Evitar converter heurísticas em ordens universais de descarte ou indexação."
+    ],
+    "conteudo": "| Afirmação autoral para análise | Gabarito | Erro Crítico / Armadilha Oculta |\n| :--- | :--- | :--- |\n| *\"A Segunda Lei de Ranganathan parte do documento e exige técnicas ativas de disseminação e estantes abertas.\"* | **ERRADO** | A 2ª Lei foca no **LEITOR** (inclusão). É a **3ª Lei** (*A cada livro seu leitor*) que parte do documento e exige estantes abertas e DSI. |\n| *\"A Lei de Lotka trata da dispersão de artigos científicos em periódicos nucleares e periféricos.\"* | **ERRADO** | A dispersão de artigos em periódicos é a **Lei de Bradford**. Lotka trata da **produtividade dos autores** (quadrado inverso). |\n| *\"Segundo a Lei de Zipf, as palavras com maior frequência absoluta em um texto são as ideais para atuar como descritores de indexação.\"* | **ERRADO** | Frequência máxima não prova adequação como descritor. Nem toda palavra frequente tem valor nulo e a faixa intermediária não é regra universal suficiente. |\n| *\"A Quarta Lei de Ranganathan ('Poupe o tempo do leitor') recomenda que os usuários não tenham acesso direto às estantes para não desorganizá-las.\"* | **ERRADO** | A economia de tempo orienta arranjo, catálogos e acesso; não fundamenta burocracia como objetivo. Estante aberta pode ajudar, mas obras especiais podem exigir mediação justificada. |\n| *\"A 5ª Lei de Ranganathan impede o descarte de materiais em bibliotecas públicas, pois o acervo deve apenas crescer cumulativamente.\"* | **ERRADO** | Como organismo vivo, a biblioteca precisa tanto crescer quanto eliminar células mortas: a 5ª Lei é compatível com mudança e desbastamento conforme política; não impõe descarte automático de todo material pouco usado. |\n\n**Aplicação e recuperação:** Um manuscrito raro não teve consulta no último ano. A quinta lei não obriga descartá-lo; política, memória, singularidade e estado entram na decisão. Da mesma forma, stopword não é sinônimo de palavra sem qualquer significado.",
+    "checkpointIds": [
+      "rt-1-2-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "ranganathan",
+    "titulo": "S. R. Ranganathan — As cinco leis da biblioteconomia",
+    "localizador": "PDF do projeto; obra original de 1931, edição/tradução posterior. Crescimento inclui mudanças de forma e descarte conforme política.",
+    "url": "https://github.com/Heuller/hnc/blob/auditoria-2026-10/acervo-estudos/Fundamentos/pdf-as-cinco-leis-da-biblioteconomi-ranganathanpdf_compress.pdf"
+  },
+  {
+    "id": "gorman",
+    "titulo": "Crawford e Gorman — Future Libraries (1995)",
+    "localizador": "Amostra oficial da ALA: cinco novas leis e tecnologia a serviço das pessoas.",
+    "url": "https://www.ala.org/aboutala/offices/publishing/editions/samplers/futurelibraries"
+  },
+  {
+    "id": "noruzi",
+    "titulo": "Alireza Noruzi — Application of Ranganathan’s Laws to the Web (2004)",
+    "localizador": "Webology 1(2); não confundir o prenome Alireza com outro autor chamado Alire.",
+    "url": "https://www.webology.org/2004/v1n2/a8.html"
+  },
+  {
+    "id": "metricas",
+    "titulo": "Cunha e Cavalcanti — Dicionário de biblioteconomia e arquivologia (2008)",
+    "localizador": "PDF do projeto; conceitos de bibliometria. Esta ponte será aprofundada na aula 9.4.",
+    "url": "https://github.com/Heuller/hnc/tree/auditoria-2026-10/acervo-estudos"
+  }
+],
 };

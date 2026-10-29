@@ -55,4 +55,24 @@ describe('Reforma teórica e microcheckpoints por bloco', () => {
       expect(useProgressStore.getState().itemAttempts.filter(a => a.contexto === 'teoria')).toHaveLength(1);
     });
   });
+  it('reteste nos blocos oculta resposta antiga, mostra novo feedback e permite outra rodada', async () => {
+    const id = sub.unidadesAprendizagem![0].checkpointIds[0];
+    const cp = sub.checkpoints.find(c => c.id === id)!;
+    await useProgressStore.getState().adicionarItemAttempt({
+      itemId: id, submoduloId: sub.numero, moduloId: 'm11', contexto: 'teoria',
+      resposta: cp.gabarito === 'C' ? 'E' : 'C', gabarito: cp.gabarito,
+    });
+    render(<AulaEmBlocos submodulo={sub} moduloId="m11" forcarRetesteAtivo />);
+    const secao = document.getElementById(sub.unidadesAprendizagem![0].id)!;
+    expect(within(secao).queryByText(cp.justificativa)).toBeNull();
+    fireEvent.click(within(secao).getByRole('button', {name: cp.gabarito === 'C'
+      ? 'Julgar assertiva como Certo (Atalho C)' : 'Julgar assertiva como Errado (Atalho E)'}));
+    await vi.waitFor(() => expect(within(secao).getByText(cp.justificativa)).toBeTruthy());
+    expect(useProgressStore.getState().itemAttempts.filter(a => a.item_id === id)).toHaveLength(2);
+    fireEvent.click(within(secao).getByRole('button', {name: 'Praticar'}));
+    await vi.waitFor(() => expect(within(secao).queryByText(cp.justificativa)).toBeNull());
+    fireEvent.click(within(secao).getByRole('button', {name: 'Julgar assertiva como Certo (Atalho C)'}));
+    await vi.waitFor(() => expect(within(secao).getByRole('button', {name: 'Praticar novamente'})).toBeTruthy());
+    expect(useProgressStore.getState().itemAttempts.filter(a => a.item_id === id)).toHaveLength(3);
+  });
 });

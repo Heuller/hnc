@@ -114,18 +114,15 @@ describe('Fase 4: Modelo Teórico Dual, Metadados e Vida Real (W5)', () => {
         sub.teoriaDidaticaMarkdown,
         `Submódulo ${sub.numero} (${sub.id}) deve conter teoriaDidaticaMarkdown preenchido`
       ).toBeDefined();
-      expect(
-        sub.teoriaDidaticaMarkdown?.length,
-        `Submódulo ${sub.numero} deve conter conteúdo didático substancial (> 500 chars)`
-      ).toBeGreaterThan(500);
-
-      // Valida estrutura didática obrigatória e fundamentação
+      // No leitor novo, a explicação e os casos estão nos blocos; este campo é a síntese.
       const content = sub.teoriaDidaticaMarkdown || '';
       if (sub.unidadesAprendizagem?.length) {
         expect(sub.fontesTeoria?.length).toBeGreaterThan(0);
-        expect(content).toMatch(/Recupere|Explique sem consultar|Revisão/i);
+        expect(content.trim().length).toBeGreaterThan(0);
+        expect(sub.unidadesAprendizagem.every(u => u.objetivos.length && u.conteudo.trim().length)).toBe(true);
         continue;
       }
+      expect(content.length).toBeGreaterThan(500);
       expect(content, `Submódulo ${sub.numero} deve conter Visão Direta`).toMatch(/Visão Direta em 3/i);
       expect(content, `Submódulo ${sub.numero} deve conter Vida Real na Câmara`).toContain('Vida Real na Câmara dos Deputados');
       expect(content, `Submódulo ${sub.numero} deve conter Como o Cebraspe Cobra`).toContain('Como o Cebraspe Cobra');

@@ -85,7 +85,7 @@ describe('P15 — Barras invertidas no LaTeX e integridade de fórmulas (N-01)',
 
   it('3. Teste de renderização: submódulo 4.1 exibe símbolos matemáticos ∩ e ∪ e não exibe "A cap B"', () => {
     const { container } = render(
-      <ConteudoMarkdown content={submodulo41.teoriaDidaticaMarkdown || ''} />
+      <ConteudoMarkdown content={submodulo41.teoriaDensaMarkdown} />
     );
 
     // Não deve conter a string crua deformada "A cap B" nem "A cup B"

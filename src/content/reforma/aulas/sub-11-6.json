@@ -157,7 +157,8 @@
   "descricaoCurta": "Distinguir risco administrativo e falta do serviço. Identificar as pessoas jurídicas abrangidas pelo art. 37, § 6º. Relacionar dano, conduta e nexo sem exigir culpa do agente no polo externo. Examinar dever específico e possibilidade de impedir o dano. Aplicar excludentes ao nexo, sem automatismo pelo nome do evento. Distinguir ação do terceiro, regresso e outras esferas.",
   "alertasCebraspe": [
     "Ela dispensa a culpa no regime pertinente, sem eliminar dano e causalidade.",
-    "O nome da causa não prova exclusividade nem rompe automaticamente o nexo."
+    "O nome da causa não prova exclusividade nem rompe automaticamente o nexo.",
+    "A primeira protege o terceiro sob as condições constitucionais; a segunda exige os pressupostos de regresso contra o responsável."
   ],
   "removerCampos": [
     "quadroComparativo"

@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { COURSE_REGISTRY } from '../content/registry';
 import {
   gerarRelatorioLacunas,
   DIRETRIZES_PODA_ESTRATEGICA,
@@ -48,33 +49,19 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       });
     });
 
-    it('deve contabilizar exatamente 3 checkpoints formativos C/E por submódulo (222 no total)', () => {
-      expect(relatorio.totalCheckpointsFormativos).toBe(222);
+    it('contabiliza todos os checkpoints e aceita ampliação sem perder o mínimo formativo', () => {
+      const total = COURSE_REGISTRY.flatMap(m => m.modulosFilhos).reduce((sum, sub) => sum + sub.checkpoints.length, 0);
+      expect(relatorio.totalCheckpointsFormativos).toBe(total);
       relatorio.eixos.forEach(eixo => {
-        if (eixo.moduloId === 'm1' || eixo.moduloId === 'm2' || eixo.moduloId === 'm10') {
-          expect(eixo.questoesCheckpoints).toBe(18);
-        } else if (eixo.moduloId === 'm6') {
-          expect(eixo.questoesCheckpoints).toBe(21);
-        } else if (eixo.moduloId === 'm8') {
-          expect(eixo.questoesCheckpoints).toBe(15);
-        } else if (eixo.moduloId === 'm11') {
-          expect(eixo.questoesCheckpoints).toBe(36);
-        } else if (eixo.moduloId === 'm13') {
-          expect(eixo.questoesCheckpoints).toBe(12);
-        } else {
-          expect(eixo.questoesCheckpoints).toBe(12);
-        }
-        eixo.submodulos.forEach(sub => {
-          expect(sub.totalCheckpoints).toBe(3);
-        });
+        expect(eixo.questoesCheckpoints).toBe(eixo.submodulos.reduce((sum, sub) => sum + sub.totalCheckpoints, 0));
+        eixo.submodulos.forEach(sub => expect(sub.totalCheckpoints).toBeGreaterThanOrEqual(3));
       });
     });
 
-    it('deve validar que 100% dos 64 submódulos possuem quadros comparativos e mnemônicos', () => {
+    it('deve reconhecer aulas estruturadas e os apoios das aulas legadas', () => {
       relatorio.eixos.forEach(eixo => {
         eixo.submodulos.forEach(sub => {
-          expect(sub.temQuadro).toBe(true);
-          expect(sub.temMnemonicos).toBe(true);
+          expect(sub.temAulaEstruturada || (sub.temQuadro && sub.temMnemonicos)).toBe(true);
         });
       });
       expect(relatorio.taxaProntidaoTeoricaGeral).toBe(100);
@@ -101,8 +88,8 @@ describe('Auditoria da Fase E1: Poda Estratégica e Mapa de Lacunas do Edital n�
       expect(relatorio.deficitTotalSimuladosE5).toBe(0);
     });
 
-    it('deve totalizar 1.742 questões atualmente ativas no sistema (222 checkpoints formativos + 1.520 de simulados)', () => {
-      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(1742);
+    it('deve somar checkpoints e itens dos simulados sem manter uma contagem obsoleta', () => {
+      expect(relatorio.totalGeralQuestoesDisponiveis).toBe(relatorio.totalCheckpointsFormativos + relatorio.totalQuestoesSimulados100Q);
     });
   });
 

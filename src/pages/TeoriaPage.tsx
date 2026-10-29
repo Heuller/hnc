@@ -648,7 +648,7 @@ export const TeoriaPage: React.FC = () => {
               </div>
             )}
 
-            {modoTeoriaAtivo !== 'didatica' && currentSub.unidadesAprendizagem?.length ? <AulaEmBlocos submodulo={currentSub} moduloId={currentMacro.id} /> : <ConteudoMarkdown
+            {modoTeoriaAtivo !== 'didatica' && currentSub.unidadesAprendizagem?.length ? <AulaEmBlocos submodulo={currentSub} moduloId={currentMacro.id} forcarRetesteAtivo={learningState.status === 'em_revisao_dirigida'} /> : <ConteudoMarkdown
               content={
                 modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
                   ? currentSub.teoriaDidaticaMarkdown

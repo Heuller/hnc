@@ -33,7 +33,8 @@ export const submodulo111: ModuloFilho = {
 ],
   alertasCebraspe: [
   "Autonomia administrativa não significa soberania nem liberdade de abandonar a finalidade legal. Especialização e vinculação à lei limitam a atuação. Eficiência opera dentro do ordenamento e não substitui competência ou finalidade.",
-  "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão."
+  "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão.",
+  "O critério é a distribuição interna de competências. Não é necessário criar uma entidade para organizar órgãos; a redistribuição interna permanece na pessoa jurídica União. Compare com a transferência da execução a sujeito distinto, que exige examinar a relação jurídica estabelecida."
 ],
   quadroComparativo: {
   "titulo": "Organização administrativa: critérios de decisão",
