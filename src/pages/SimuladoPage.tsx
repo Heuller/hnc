@@ -205,12 +205,43 @@ export const SimuladoPage: React.FC = () => {
   }, [itensFiltradosReteste, simuladoAtivo.questoes]);
 
   const sessaoAtual = obterSessaoSimulado(selectedSimuladoId);
-  const urlQIndex = getQuestionIndexFromHash();
-  const effectiveIndex = urlQIndex !== undefined && urlQIndex >= 0 ? urlQIndex : (sessaoAtual.currentIndex ?? 0);
   const currentIndex = Math.max(
     0,
-    Math.min((questoesExibidas.length || 1) - 1, effectiveIndex)
+    Math.min((questoesExibidas.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
   );
+
+  // Restaura questão inicial da URL hash apenas no carregamento da página / F5
+  const hasRestoredUrlQuestion = React.useRef(false);
+  useEffect(() => {
+    if (hasRestoredUrlQuestion.current) return;
+    hasRestoredUrlQuestion.current = true;
+    const hashSimuladoId = getSimuladoIdFromHash();
+    const urlQIndex = getQuestionIndexFromHash();
+    if (
+      urlQIndex !== undefined &&
+      urlQIndex >= 0 &&
+      (!hashSimuladoId || hashSimuladoId === selectedSimuladoId)
+    ) {
+      if (urlQIndex !== (sessaoAtual.currentIndex ?? 0)) {
+        mudarQuestaoSimulado(urlQIndex, selectedSimuladoId);
+      }
+    }
+  }, [selectedSimuladoId, mudarQuestaoSimulado, sessaoAtual.currentIndex]);
+
+  // Suporte a navegação por histórico do navegador (Back / Forward)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const handleHashChange = () => {
+      const hashSimuladoId = getSimuladoIdFromHash();
+      const urlQIndex = getQuestionIndexFromHash();
+      const activeId = hashSimuladoId || selectedSimuladoId;
+      if (urlQIndex !== undefined && urlQIndex >= 0) {
+        mudarQuestaoSimulado(urlQIndex, activeId);
+      }
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [selectedSimuladoId, mudarQuestaoSimulado]);
 
   // Sincroniza URL hash com simulado ativo e índice da questão (resiliência contra reload/F5)
   useEffect(() => {

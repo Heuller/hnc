@@ -111,4 +111,32 @@ describe('Resiliência de Simulado contra Atualização de Navegador (F5 / Reloa
     store.reiniciarSimulado(simId);
     expect(simuladoSessionService.obterSessaoLocal(simId)).toBeNull();
   });
+
+  it('(6) Navegação sequencial pós-restauração de hash: permite avançar e retroceder sem travar o índice', () => {
+    const simId = 'm3-classificacao';
+    const store = useProgressStore.getState();
+
+    // Simula restauração de questão a partir do hash #simulado?id=m3-classificacao&q=35
+    window.location.hash = '#simulado?id=m3-classificacao&q=35';
+    const initialIndex = getQuestionIndexFromHash();
+    expect(initialIndex).toBe(34); // Item 35
+
+    store.iniciarOuRetomarSimulado(simId);
+    if (initialIndex !== undefined) {
+      store.mudarQuestaoSimulado(initialIndex, simId);
+    }
+    expect(store.obterSessaoSimulado(simId).currentIndex).toBe(34);
+
+    // Avança para o próximo item (36 -> índice 35)
+    store.mudarQuestaoSimulado(35, simId);
+    expect(store.obterSessaoSimulado(simId).currentIndex).toBe(35);
+
+    // Retrocede para o item anterior (35 -> índice 34)
+    store.mudarQuestaoSimulado(34, simId);
+    expect(store.obterSessaoSimulado(simId).currentIndex).toBe(34);
+
+    // Retrocede mais um (34 -> índice 33)
+    store.mudarQuestaoSimulado(33, simId);
+    expect(store.obterSessaoSimulado(simId).currentIndex).toBe(33);
+  });
 });
