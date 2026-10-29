@@ -59,7 +59,10 @@ export function getRequiredSectionsForSubmodule(submodulo: ModuloFilho): string[
   if (submodulo.quadroComparativo) {
     sections.push('sec-quadro');
   }
-  sections.push('sec-teoria', 'sec-checkpoints', 'sec-mnemonicos');
+  // A leitura dos blocos substitui a observação do artigo inteiro: uma aula
+  // longa nunca atinge 20% de visibilidade em uma única janela.
+  if (!submodulo.unidadesAprendizagem?.length) sections.push('sec-teoria');
+  sections.push('sec-checkpoints', 'sec-mnemonicos');
   // Leitura antiga continua no histórico, mas não conclui uma edição ampliada.
   for (const unidade of submodulo.unidadesAprendizagem || []) {
     sections.push(getUnitReadingKey(submodulo, unidade.id));
@@ -144,10 +147,6 @@ export function calculateSubmoduleStatus(
     status = 'em_revisao_dirigida';
     badgeLabel = 'Em Revisão Dirigida';
     explicacaoStatus = `Aproveitamento de ${taxaAcertoPercent}% (${checkpointsAcertosCount}/${checkpointsTotal} acertos) abaixo do mínimo exigido de ${aproveitamentoMinimoPercent}% (${acertosNecessarios} acertos, máx. ${errosMaximos} erros). Releia os tópicos associados aos erros antes de nova tentativa.`;
-  } else if (todasSecoesLidas && (checkpointsRespondidosCount > 0 || checkpointsTotal === 0)) {
-    status = 'concluida';
-    badgeLabel = 'Concluída';
-    explicacaoStatus = `Submódulo concluído. Leitura e itens respondidos (${taxaAcertoPercent}% de acerto).`;
   } else {
     status = 'em_andamento';
     badgeLabel = 'Em Andamento';

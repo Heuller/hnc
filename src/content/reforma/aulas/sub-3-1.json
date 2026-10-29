@@ -1,0 +1,168 @@
+{
+  "id": "sub-3-1",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-3-1-bloco-1",
+      "titulo": "Teoria Geral da Classificação e Fundamentos Epistemológicos",
+      "objetivos": [
+        "Distinguir finalidade e critério de classificação."
+      ],
+      "conteudo": "A classificação é o processo mental e operativo de agrupar coisas, seres ou ideias com base em suas semelhanças e separá-los de acordo com suas diferenças, estabelecendo categorias segundo critérios e finalidades. A mútua exclusividade depende da divisão adotada, não é propriedade necessária de todo SOC ou toda classificação multifacetada (Piedade, 1983, *Introdução à Teoria da Classificação*).\n\n#### A. Classificação Filosófica / Científica vs. Classificação Documentária\n* **Classificação Filosófica e Científica:** Ordena o universo do conhecimento puro ou as espécies naturais em si (ex.: a taxonomia de Lineu na Biologia, as árvores do saber de Aristóteles, Francis Bacon e Auguste Comte). Seu objeto e finalidade diferem da organização de documentos; classificações científicas também têm usos práticos.\n* **Classificação Documentária / Bibliográfica:** Ordena o conhecimento registrado em suportes físicos ou digitais. Tem por finalidade precípua organizar o acervo nas estantes de forma relativa (*ordem útil*) e viabilizar a representação temática dos documentos nos catálogos para recuperação ágil e precisa.\n\n**Aplicação e recuperação:** Um mesmo tema pode ser estudado em direito, sociologia ou administração. Classificar não é escolher automaticamente o primeiro termo do título: determine disciplina e abordagem. Uma classificação bibliográfica não é retrato neutro e definitivo de toda realidade; revisões respondem a mudanças culturais e do conhecimento.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-3-1-bloco-2",
+      "titulo": "A Classificação Decimal de Dewey (CDD - 23ª Edição)",
+      "objetivos": [
+        "Aplicar disciplina, hierarquia e construção da CDD."
+      ],
+      "conteudo": "Criada pelo bibliotecário norte-americano **Melvil Dewey em 1876**, a CDD revolucionou a Biblioteconomia mundial ao introduzir o princípio da **localização relativa** (os livros são ordenados pelo assunto nas estantes, acompanhando o crescimento das coleções, em vez de ficarem presos a prateleiras e salas com numeração fixa).\n\n#### A. A Estrutura das Dez Classes Principais da CDD\nO universo do conhecimento é repartido em dez grandes classes decimais (000 a 900):\n* `000`: Ciência da Computação, Informação e Obras Gerais\n* `100`: Filosofia e Psicologia\n* `200`: Religião\n* `300`: Ciências Sociais *(onde se insere o Direito: 340 e Administração Pública: 350)*\n* `400`: Línguas / Linguística\n* `500`: Ciências Puras (Matemática, Física, Química, Biologia)\n* `600`: Tecnologia e Ciências Aplicadas (Engenharia, Medicina, Agricultura)\n* `700`: Artes e Recreação\n* `800`: Literatura\n* `900`: História, Geografia e Biografias\n\n#### B. Princípio Hierárquico e Decimalidade da CDD\n* **Divisão Decenal:** Cada classe reparte-se em 10 divisões (totalizando 100 divisões), e cada divisão desdobra-se em 10 seções (totalizando 1.000 seções).\n* **Regra do Ponto Fixo:** Na CDD, a notação é composta exclusivamente por algarismos arábicos. O ponto decimal é inserido **após o terceiro dígito quando houver continuação além dos três dígitos básicos** (ex.: `341` Direito internacional; `025.43` Classificação Decimal).\n* **Mnemônica:** Determinados números e dígitos repetem-se com o mesmo significado ao longo de várias classes (por exemplo, a forma periódica frequentemente envolve o dígito `05`).\n\n#### C. As Seis Tabelas Auxiliares da CDD (T1 a T6)\nA CDD complementa suas tabelas principais por meio de seis tabelas auxiliares:\n1. **Tabela 1 — Subdivisões Padrão (*Standard Subdivisions*):**\n   * Em regra pode ser adicionada **sem instrução expressa**, mas respeitando instruções contrárias e a cobertura do assunto: a obra deve abranger todo ou aproximadamente todo o número pertinente. Notas de inclusão, números-ganchos e restrições requerem atenção.\n   * Representa formas de apresentação ou pontos de vista (ex.: `-01` Filosofia e teoria; `-03` Dicionários e enciclopédias; `-05` Publicações seriadas; `-07` Estudo e ensino).\n   * *Atenção:* Não aplique uma fórmula universal de fusão de zeros. A quantidade de zeros e a construção dependem das instruções na tabela e no número-base; confira as seções 8.3–8.6 da Introdução da CDD.\n2. **Tabela 2 — Áreas Geográficas, Períodos Históricos, Pessoas:** Representa países, regiões e biografias (ex.: `-81` Brasil).\n3. **Tabela 3 — Subdivisões para as Artes e Literaturas Individuais:** Desdobrada em T3A (obras de autores individuais), T3B (obras de múltiplos autores) e T3C (notação a ser adicionada conforme instruído).\n4. **Tabela 4 — Subdivisões de Línguas Individuais:** Utilizada na classe 400 (gramática, dicionários, pronúncia).\n5. **Tabela 5 — Grupos Étnicos e Nacionais:** Representa povos e etnias (ex.: `-98` Povos indígenas sul-americanos).\n6. **Tabela 6 — Línguas:** Notação específica para línguas do documento (ex.: `-69` Língua portuguesa).\n\n**Aplicação e recuperação:** Antes de acrescentar -03, confira o número e as instruções. Uma obra sobre pequena parte apenas incluída numa classe não autoriza sempre a mesma construção de uma obra abrangente. A Tabela 1 tem regra diferente das demais tabelas, mas não é permissão sem exceção. O índice relativo aponta caminhos; a decisão é confirmada nas tabelas e notas.",
+      "checkpointIds": [
+        "cp-3-1-3",
+        "rt-3-1-2"
+      ]
+    },
+    {
+      "id": "sub-3-1-bloco-3",
+      "titulo": "A Classificação Decimal Universal (CDU)",
+      "objetivos": [
+        "Interpretar sinais e auxiliares da CDU."
+      ],
+      "conteudo": "Desenvolvida pelos juristas e bibliógrafos belgas **Paul Otlet e Henri La Fontaine em 1895**, no âmbito do Instituto Internacional de Bibliografia (IIB), a CDU derivou da CDD, mas foi construída com propósito distinto: indexar exaustivamente artigos de periódicos, patentes, leis e documentos avulsos para o *Repertório Bibliográfico Universal*.\n\nNo Brasil, a CDU é regulada e traduzida sob a coordenação do **IBICT** (*Instituto Brasileiro de Informação em Ciência e Tecnologia*), sem que sua existência autorize atribuir adoção oficial a cada biblioteca sem verificar a política. A RVBI usa também CDDir para documentos jurídicos.\n\n#### A. A Estrutura Atual das Classes da CDU e a Vacância da Classe 4\n* `0`: Ciência e Conhecimento. Organização. Informática. Documentação.\n* `1`: Filosofia. Psicologia.\n* `2`: Religião. Teologia.\n* `3`: Ciências Sociais. Direito (34). Administração Pública (35). Economia (33). Política (32).\n* `4`: **CLASSE VAGA** *(Na década de 1960, a FID esvaziou a classe 4 para abrir espaço a novas disciplinas emergentes; a linguística foi transferida para a classe 8, ficando 81 = Linguística e 82 = Literatura).*\n* `5`: Matemática. Ciências Naturais.\n* `6`: Ciências Aplicadas. Medicina. Tecnologia.\n* `7`: Arte. Recreação. Entretenimento. Desporto.\n* `8`: Linguagem. Linguística. Literatura.\n* `9`: Geografia. Biografia. História.\n\n---\n\n#### B. Sinais Gráficos de Coordenação e Relação (Sintaxe da CDU)\nA maior potência da CDU reside em seus operadores sintáticos, que transformam um sistema enumerativo em uma linguagem analítico-sintética:\n\n| Sinal Gráfico | Denominação Canônica | Função e Propriedade Lógica | Exemplo Notacional Prático |\n| :---: | :--- | :--- | :--- |\n| **+** | **Adição / Coordenação** | Une dois ou mais números de assuntos **não consecutivos**. Amplia a cobertura pela reunião de assuntos; não deve ser confundida com a relação fixa de ::. | `622 + 669` (Mineração e Metalurgia juntas no mesmo livro) |\n| **/** | **Extensão Consecutiva** | Une o primeiro e o último número de uma **sequência contínua/consecutiva** de classes. | `53/55` (Física, Química e Geociências: abrange 53, 54 e 55) |\n| **:** | **Relação Simples** | Conecta dois assuntos independentes que interagem. Admite inversão na representação conforme as regras; isso não garante que qualquer software recupere automaticamente todas as permutações. | `34:681.3` (Direito e Informática) = `681.3:34` (Informática e Direito) |\n| **::** | **Relação Fixa / Ordem Fixa** | Conecta dois assuntos estabelecendo **ordem fixa e irreversível**, travando o primeiro número para arquivamento no catálogo. | `537::621.3` (Eletricidade relacionada à Engenharia Elétrica, arquivado sob 537) |\n| **[ ]** | **Subagrupamento Algébrico** | Funciona como parênteses matemáticos para delimitar e agrupar relações complexas. | `31:[622+669]` (Estatística de Mineração e Metalurgia) |\n| **\\*** | **Notação Não CDU** | Introduz códigos externos alheios à CDU (fórmulas químicas, normas, etc.). | `546.47*Zn` (Zinco) |\n| **A/Z** | **Especificação Alfabética** | Complementa o número da CDU com o nome próprio por extenso. | `821.134.3(81)-31MACHADO` (Romance brasileiro de Machado de Assis) |\n\n---\n\n#### C. As Tabelas Auxiliares Comuns da CDU\n\nAs subdivisões auxiliares comuns dividem-se em duas categorias funcionais:\n\n##### 1. Auxiliares Comuns Independentes (Podem figurar no início ou meio da notação)\n* **Língua (`=...`):** Indica o idioma do documento (ex.: `=134.3` Português, `=111` Inglês).\n* **Forma (`(0...)`):** Indica a forma física ou de apresentação do documento (ex.: `(035)` Manual/Guia, `(05)` Publicação Periódica, `(094.4)` Código de Leis, `(043)` Dissertação/Tese).\n* **Lugar (`(1/9)`):** Indica a localização geográfica, administrativa ou política (ex.: `(81)` Brasil, `(815.3)` Rio de Janeiro, `(100)` Internacional/Mundial, `(1-04)` Fronteiras).\n* **Raça, Etnia e Nacionalidade (`(=...)`):** Indica povos e nacionalidades (ex.: `(=1-81)` Povos indígenas).\n* **Tempo (`\"...\"`):** Delimitado por aspas, indica datas e intervalos temporais (ex.: `\"2026\"` Ano de 2026, `\"19\"` Século XX, `\"321\"` Primavera, `\"+\"` Era Cristã, `\"-\"` Antes de Cristo).\n\n##### 2. Auxiliares Comuns Dependentes (Acoplados obrigatoriamente a um número principal)\n* **Propriedades (`-02...`):** Características materiais ou conceituais.\n* **Materiais (`-03...`):** Matéria-prima do objeto.\n* **Relações, Processos e Operações (`-04...`):** Ações técnicas.\n* **Pessoas e Características Pessoais (`-05...`):** Pessoas por gênero, idade ou ocupação (ex.: `-055.2` Mulheres, `-053.2` Crianças, `-057.11` Trabalhadores com carteira assinada).\n\n---\n\n#### D. Subdivisões Auxiliares Especiais (Analíticas da CDU)\nDiferenciam-se das comuns porque possuem significado estritamente **localizado e dependente da classe principal** à qual pertencem:\n1. **Analíticas de Traço (`-1/-9`):** Denotam processos, operações técnicas, estados, propriedades e máquinas específicas daquela área.\n2. **Analíticas de Ponto Zero (`.01/.09`):** Denotam aspectos teóricos, metodológicos, de gestão, estudos especiais e pontos de vista da disciplina.\n3. **Analíticas de Apóstrofo (`'1/'9`):** Realizam sínteses integrativas e indicam componentes químicos, produtos derivados ou ligas materiais.\n\n**Aplicação e recuperação:** Língua do texto e país tratado não são a mesma dimensão. Em CDU, =... indica língua; (1/9), lugar; (0...), forma. Uma obra em português sobre outro país não recebe automaticamente (81) pelo idioma. O sinal / exige extensão consecutiva; + coordena assuntos; : relaciona, sem ser sinônimo de soma.",
+      "checkpointIds": [
+        "cp-3-1-1",
+        "cp-3-1-2",
+        "rt-3-1-4"
+      ]
+    },
+    {
+      "id": "sub-3-1-bloco-4",
+      "titulo": "Ordem de Interpolação e Ordem de Arquivamento na CDU",
+      "objetivos": [
+        "Distinguir ordem de citação e arquivamento."
+      ],
+      "conteudo": "A **ordem de citação** decide como compor o número; a **ordem de arquivamento** decide onde ordenar números já compostos. Não são a mesma operação. No arquivamento, a lógica geral é do mais geral ao mais particular, respeitada a precedência dos sinais.\n\nO manual da BNB explicita, para o mesmo início: número seguido de **+**, depois número seguido de **/** e depois o **número simples**. Portanto, a ordem antes apresentada com número simples em primeiro e + depois de / estava incorreta. Para outras combinações, consulte a sequência completa de sinais da edição/manual adotado; não ordene por código ASCII do computador.\n\n**Exemplo limitado aos sinais comparados:** `34+35`, `34/35`, `34`. A relação fixa `::` não permite trocar livremente a ordem dos componentes da expressão. A preferência local de estante deve ser documentada, sem ser apresentada como mudança da semântica do sistema.text\n  Ordem Vertical Padrão na Estante:\n  1. Notação pura simples:               34\n  2. Notação com extensão consecutiva:  34/35\n  3. Notação com adição:                34+35\n  4. Notação com relação simples:       34:681.3\n  5. Notação com auxiliar especial:     34-05\n  6. Notação com auxiliar comum:        34(81)\n```\n\n**Aplicação e recuperação:** Dado um conjunto com o mesmo início, compare a precedência formal dos sinais, não só seu desenho. Construir uma notação e ordená-la são tarefas distintas. A demonstração de +, / e simples não deve ser extrapolada para afirmar uma lista completa de todos os auxiliares. Registre qual manual/edição regula a operação.",
+      "checkpointIds": [
+        "rt-3-1-1",
+        "rt-3-1-3"
+      ]
+    },
+    {
+      "id": "sub-3-1-bloco-5",
+      "titulo": "Contrastes autorais para julgar classificações",
+      "objetivos": [
+        "Julgar uma notação com edição e regra explícitas."
+      ],
+      "conteudo": "| Tema da Prova | Assertiva autoral em análise | Análise conceitual |\n| :--- | :--- | :--- |\n| **Vacância da Classe 4 da CDU** | *\"Na Classificação Decimal Universal, as 10 classes principais encontram-se plenamente ocupadas, estando a classe 4 reservada para as ciências da linguagem.\"* | **ERRADO.** A classe 4 está **vaga**. Os conteúdos de linguagem migraram para a classe 8 juntamente com a literatura. |\n| **Sinal de Relação Fixa (::)** | *\"O sinal de dois pontos duplos (::) na CDU indica que os dois conceitos indexados podem ser livremente invertidos na ordenação do catálogo coletivo.\"* | **ERRADO.** Quem admite inversão livre é a relação simples (**:**). Os dois pontos duplos (**::**) determinam **relação fixa / ordem irreversível**. |\n| **Extensão Consecutiva (/)** | *\"O sinal de barra (/) na CDU é utilizado para coordenar temas distantes e dispersos nas tabelas, como História e Química.\"* | **ERRADO.** A barra indica **extensão consecutiva** (classes vizinhas e contíguas, ex.: 53/55). Para temas não consecutivos utiliza-se o sinal de adição (**+**). |\n| **Tabela 1 da CDD** | *\"Para adicionar uma subdivisão padrão da Tabela 1 da CDD a um número de classificação, o catalogador necessita de autorização explícita na tabela principal.\"* | **ERRADO.** As subdivisões padrão da Tabela 1 da CDD podem ser adicionadas sem autorização expressa, **observadas cobertura do assunto e instruções/restrições aplicáveis**. |\n\n**Aplicação e recuperação:** A classe 4 da CDU está vaga no sumário, enquanto 400 da CDD trata língua. Trocar o sistema mantendo o número cria erro. Um número semelhante em duas classificações não garante assunto idêntico, nem uma tabela auxiliar pode ser copiada literalmente de uma para outra.",
+      "checkpointIds": []
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Revisão: consulte o sistema antes de sintetizar\n\nCDD organiza por disciplinas e combina hierarquia com síntese autorizada. São seis tabelas na edição 23; T1 admite uso geral com condições, as demais seguem instruções. Não funda zeros por fórmula universal. CDU tem classe 4 vaga e sinais com funções próprias. Língua, forma, lugar e tempo são eixos diferentes. Citação constrói; arquivamento ordena. No contraste verificado, + precede / e simples para o mesmo início. Edição, notas e políticas devem acompanhar a notação; aparência de número não prova significado.\n",
+  "fontesTeoria": [
+    {
+      "id": "ddc",
+      "titulo": "OCLC — Introduction to the Dewey Decimal Classification",
+      "localizador": "Princípios, tabelas e construção; a introdução antiga do acervo é da edição 21 e não foi tomada como edição 23.",
+      "url": "https://www.oclc.org/content/dam/oclc/dewey/versions/print/intro.pdf"
+    },
+    {
+      "id": "udc",
+      "titulo": "UDC Consortium — UDC Summary",
+      "localizador": "Classes e sinais; sumário não substitui tabelas completas da edição.",
+      "url": "https://udcsummary.info/php/index.php?lang=pt"
+    },
+    {
+      "id": "bnb",
+      "titulo": "Biblioteca Nacional de Brasília — Manual de Classificação em CDU",
+      "localizador": "3ª ed., 2020: sinais e arquivamento; distinguir política local e regra geral.",
+      "url": "https://bnbdigital.cultura.df.gov.br/wp-content/uploads/tainacan-items/7/1942/GGI-Manual-de-Classificacao-Normalizado-26.08.2020.pdf"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-3-1-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A ordem de citação para construir uma notação e a ordem de arquivamento de notações prontas são operações idênticas.",
+      "gabarito": "E",
+      "justificativa": "Uma organiza componentes na síntese; outra organiza entradas compostas.",
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "editalRef": "Bloco D - Item 3.1",
+      "habilidade": "aplicar",
+      "versao_correta": "Ordem de citação e arquivamento têm funções diferentes."
+    },
+    {
+      "id": "rt-3-1-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A Tabela 1 da CDD pode ser usada sem autorização expressa, mas isso dispensa verificar qualquer nota de restrição ou cobertura do assunto.",
+      "gabarito": "E",
+      "justificativa": "O permissivo geral conserva limites e instruções.",
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "editalRef": "Bloco D - Item 3.1",
+      "habilidade": "aplicar",
+      "versao_correta": "É preciso verificar restrições e a cobertura do assunto ao usar Tabela 1."
+    },
+    {
+      "id": "rt-3-1-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "No exemplo do manual da BNB com mesmo início, o número seguido de + precede o seguido de / e o número simples.",
+      "gabarito": "C",
+      "justificativa": "Esse contraste corrige a ordem invertida anterior, sem pretender listar todos os sinais.",
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "editalRef": "Bloco D - Item 3.1",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-3-1-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Na CDU, país tratado e língua do documento podem exigir auxiliares diferentes.",
+      "gabarito": "C",
+      "justificativa": "Lugar e língua são dimensões distintas; não se infere país do conteúdo apenas pelo idioma.",
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "editalRef": "Bloco D - Item 3.1",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-3-1-1": {
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "justificativa": "A classe 4 está vaga no sumário CDU, e língua/literatura estão em 8. Isso não pode ser transportado para a classe 400 da CDD."
+    },
+    "cp-3-1-2": {
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "justificativa": ":: fixa a ordem; : admite relação simples e inversão nas condições do sistema. Não confunda semântica notacional e garantia de busca em qualquer software.",
+      "versao_correta": ":: indica relação de ordem fixa, diferentemente da relação simples de :."
+    },
+    "cp-3-1-3": {
+      "fonte": "OCLC, Introduction to the DDC 23, seções 7–9; UDC Consortium, UDC Summary; Biblioteca Nacional de Brasília, Manual de Classificação em CDU (3ª ed., 2020).",
+      "justificativa": "A regra geral da T1 não exige autorização expressa, mas preserva condições de cobertura e instruções contrárias. Universalidade sem condições seria outra generalização incorreta.",
+      "versao_correta": "T1 admite adição sem autorização expressa, observadas as condições e restrições pertinentes."
+    }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Disciplina e assunto",
+      "definicao": "Um tema pode ser tratado sob diferentes perspectivas disciplinares.",
+      "exemploBiblioteca": "Direito e sociologia podem estudar o mesmo fenômeno com focos diferentes."
+    },
+    {
+      "termo": "Citação e arquivamento",
+      "definicao": "A primeira orienta construção; a segunda, ordenação de notações.",
+      "exemploBiblioteca": "Ordem visual de sinais não substitui a precedência do sistema."
+    }
+  ],
+  "autoresChave": [
+    "OCLC — Introduction to the Dewey Decimal Classification",
+    "UDC Consortium — UDC Summary",
+    "Biblioteca Nacional de Brasília — Manual de Classificação em CDU"
+  ],
+  "descricaoCurta": "Distinguir finalidade e critério de classificação. Aplicar disciplina, hierarquia e construção da CDD. Interpretar sinais e auxiliares da CDU. Distinguir ordem de citação e arquivamento. Julgar uma notação com edição e regra explícitas.",
+  "alertasCebraspe": [
+    "Uma organiza componentes na síntese; outra organiza entradas compostas.",
+    "O permissivo geral conserva limites e instruções."
+  ],
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 22
+}

@@ -172,9 +172,9 @@
   "titulo": "Leitura estratégica: ideia central, evidência e aplicação em textos",
   "titulo_curto": "Leitura e evidência textual",
   "alertasCebraspe": [
-    "Compare a proposição ao texto: uma verdade externa não basta numa tarefa de compreensão.",
-    "Quantificadores, modais e condições podem mudar a conclusão. Nenhuma palavra isolada determina o gabarito.",
-    "Tema, tese e exemplo têm papéis diferentes. Identifique a progressão do argumento."
+    "O aumento foi observado nas terças-feiras; nos demais dias, a média permaneceu estável. A recomendação foi manter a extensão de terça e coletar mais dados antes de ampliar. O erro combina generalização dos dias e alteração da recomendação.",
+    "A frase final diz que essa qualidade não foi avaliada. Um aumento de presença não demonstra automaticamente melhora do atendimento, e o texto ainda exclui expressamente essa avaliação. A causalidade foi acrescentada pela assertiva.",
+    "O prazo regula a submissão do pedido; fotografia depende das condições do material e das restrições autorais. A assertiva usa uma condição de acesso como se eliminasse outras condições. Também ignora o limite de usuários registrados."
   ],
   "mnemonicos": {
     "timeline": [
@@ -237,5 +237,14 @@
       "definicao": "Escolha de abordagem conforme o objetivo: panorama, localização ou exame detalhado.",
       "exemploBiblioteca": "Localizar uma data de solicitação e depois conferir as condições do regulamento."
     }
-  ]
+  ],
+  "autoresChave": [
+    "British Council — How to read the text",
+    "Stanovich (1980) — modelo interativo-compensatório"
+  ],
+  "descricaoCurta": "Separar informação textual, inferência sustentada e conhecimento externo. Selecionar a estratégia conforme o objetivo e voltar ao contexto para confirmar. Separar um achado, uma recomendação e uma variável que não foi avaliada. Reconhecer uma tese que admite condições e limites. Aplicar leitura de quantificadores e condições em texto novo.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 23
 }

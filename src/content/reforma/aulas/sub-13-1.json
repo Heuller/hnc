@@ -140,8 +140,28 @@
     }
   },
   "alertasCebraspe": [
-    "Relacione conclusão e evidência. Uma frase verdadeira fora do texto pode não responder ao comando.",
-    "Não atribua ao autor uma posição que ele apenas cita para criticar.",
-    "Verifique alcance, tempo e condição; a reprodução de palavras do texto não garante a mesma informação."
-  ]
+    "O texto informa que a variável não foi avaliada. Não medir não demonstra melhora nem piora. A assertiva transforma limite do estudo em resultado negativo.",
+    "A condição e o modal de possibilidade não afirmam realização passada. Já foi publicado acrescenta temporalidade e efetividade ausentes.",
+    "A falta de publicação é compatível com redação em curso ou com documento concluído que aguarda divulgação. A conclusão sobre redação acrescenta dado não fornecido."
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Inferência",
+      "definicao": "Conclusão sustentada por pistas e relações do texto.",
+      "exemploBiblioteca": "Ainda não publicou não prova sozinho que a redação está em andamento."
+    },
+    {
+      "termo": "Coesão",
+      "definicao": "Recursos que articulam referências e relações no texto.",
+      "exemploBiblioteca": "Um pronome pode retomar informação sem repetir o nome."
+    }
+  ],
+  "autoresChave": [
+    "Manual de Redação da Presidência da República, 3ª ed. (2018)"
+  ],
+  "descricaoCurta": "Separar o que foi dito, o que se pode concluir e uma hipótese acrescentada. Reconhecer quem assume cada posição e o papel de um trecho. Reconstruir referentes por compatibilidade e preservar relações de pertença. Distinguir oposição, concessão, causa, conclusão e condição. Reconhecer informação de fundo sem transformar todo implícito em certeza.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 19
 }

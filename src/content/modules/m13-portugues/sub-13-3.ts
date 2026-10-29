@@ -14,111 +14,29 @@ export const submodulo133: ModuloFilho = {
   ],
   titulo: 'Sintaxe Avançada, Pontuação, Concordância, Regência e Crase',
   antesDeLer: [
-    {
-      termo: 'Crase e Regência',
-      definicao: 'Fusão da preposição \'a\' exigida pelo termo regente com o artigo feminino \'a\' ou pronomes demonstrativos.',
-      exemploBiblioteca: 'Uso correto: \'Acesso à informação\' (regência de acesso exige preposição \'a\' + artigo \'a\').',
-    },
-    {
-      termo: 'Concordância Verbal e Nominal',
-      definicao: 'Harmonização de número e pessoa entre o verbo e seu sujeito, e de gênero e número entre o substantivo e seus modificadores.',
-      exemploBiblioteca: 'Atenção ao sujeito paciente posposto com a partícula \'se\': \'Catalogaram-se novos livros\' e não \'Catalogou-se novos livros\'.',
-    },
-    {
-      termo: 'Pontuação Sintática',
-      definicao: 'Emprego de vírgulas, ponto e vírgula e travessões para demarcar limites sintáticos; proibição absoluta de separar sujeito e predicado por vírgula.',
-      exemploBiblioteca: 'Isolamento de orações subordinadas adjetivas explicativas e termos intercalados em atas de sessões.',
-    },
-    {
-      termo: 'Partícula \'SE\': Apassivador vs. Indeterminação',
-      definicao: 'Pronome apassivador acompanha verbo transitivo direto com sujeito paciente; índice de indeterminação acompanha VTI, VI ou VL com verbo na 3ª pessoa do singular.',
-      exemploBiblioteca: 'Diferenciar \'Precisou-se de mais bibliotecários\' (VTI: índice, singular) de \'Contrataram-se mais bibliotecários\' (VTD: apassivador, plural).',
-    },
-  ],
-  descricaoCurta:
-    'A bipartição funcional da partícula "se" (apassivadora vs índice de indeterminação), concordância com sujeitos partitivos e percentuais, a regência dos verbos parlamentares (implicar, visar, obedecer, aspirar), o algoritmo decisório da crase e a sintaxe e semântica da pontuação (vírgula proibida, obrigatória e facultativa, e orações adjetivas explicativas vs restritivas).',
-  tempoEstimadoMinutos: 13,
-  autoresChave: [
-    'Celso Pedro Luft (Dicionário Prático de Regência Verbal e Nominal)',
-    'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',
-    'Evanildo Bechara (Moderna Gramática Portuguesa)',
-    'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
-    'Rocha Lima (Gramática Normativa da Língua Portuguesa)',
-  ],
-  alertasCebraspe: [
-  "Correção gramatical e preservação do sentido são critérios distintos. Confira o que o comando exige.",
-  "Analise a transitividade e a função de se; a posição do termo não determina sozinha se ele é sujeito.",
-  "A crase depende da construção. Macetes sem condições e exceções podem produzir conclusões falsas."
-],
-  quadroComparativo: {
-    titulo: 'Matriz Cebraspe de Sintaxe, Pontuação Semântica, Regência e Crase',
-    colunas: [
-      'Estrutura Sintática',
-      'Classificação / Regra',
-      'Função Sintática',
-      'Comportamento do Verbo / Pontuação',
-      'Exemplo Canônico Correto',
-      'Armadilha Típica da Banca',
-    ],
-    linhas: [
-      [
-        'VTD + SE',
-        'Partícula Apassivadora (PA)',
-        'Sujeito Paciente',
-        'Concorda em número com o sujeito (Singular ou Plural)',
-        'Divulgaram-se os relatórios da auditoria.',
-        'Manter o verbo no singular ("Divulgou-se os relatórios") afirmando ser sujeito indeterminado.',
-      ],
-      [
-        'VTI (com preposição) + SE',
-        'Índice de Indeterminação do Sujeito (IIS)',
-        'Objeto Indireto Preposicionado',
-        'Permanece estritamente na 3ª pessoa do SINGULAR',
-        'Tratou-se de questões orçamentárias urgentes.',
-        'Flexionar no plural concordando com o termo preposicionado ("Trataram-se de questões").',
-      ],
-      [
-        'Verbo Implicar (Acarretar)',
-        'Não aplicável (Regência VTD)',
-        'Objeto Direto (sem preposição)',
-        'Concorda com o sujeito agente',
-        'A sanção do projeto implicou novos custos.',
-        'Inserir indevidamente a preposição "em" ("implicou em novos custos").',
-      ],
-      [
-        'Verbo Visar (Almejar / Ter por objetivo)',
-        'Não aplicável (Regência VTI)',
-        'Objeto Indireto com preposição "a"',
-        'Concorda com o sujeito',
-        'O parecer visa à garantia da estabilidade.',
-        'Omitir a preposição "a" e a crase ("visa a garantia"), confundindo com visar de mirar/assinar.',
-      ],
-      [
-        'Pronome Possessivo Feminino Singular',
-        'Crase Facultativa (Mnemônico HAP)',
-        'Termo Regido antecedido de possessivo',
-        'Conforme regência da oração',
-        'O relator fez alusão a sua / à sua proposta.',
-        'Afirmar que a inserção ou retirada do acento grave alteraria o sentido ou violaria a norma.',
-      ],
-      [
-        'Oração Adjetiva Explicativa -> Restritiva',
-        'Supressão das vírgulas com pronome relativo',
-        'Oração Subordinada Adjetiva',
-        '✅ Correção mantida | ❌ Sentido alterado',
-        'Os parlamentares, que votaram favoravelmente, comemoraram.',
-        'Afirmar que os sentidos originais são preservados na supressão das vírgulas.',
-      ],
-      [
-        'Adjunto Adverbial Longo Deslocado',
-        'Anteposição de adjunto de 3 ou mais vocábulos',
-        'Adjunto Adverbial Deslocado',
-        'Presença de vírgula OBRIGATÓRIA',
-        'Durante a última sessão legislativa, os deputados deliberaram.',
-        'Afirmar que a vírgula após adjunto longo inicial seria mera faculdade estilística.',
-      ],
-    ],
+  {
+    "termo": "Concordância",
+    "definicao": "Relação de flexão que exige identificar núcleo e construção.",
+    "exemploBiblioteca": "O termo mais próximo do verbo não é necessariamente seu sujeito."
   },
+  {
+    "termo": "Regência",
+    "definicao": "Relação de complementação conforme sentido e construção.",
+    "exemploBiblioteca": "O uso da preposição precisa ser confirmado pelo termo regente."
+  }
+],
+  descricaoCurta:
+    "Reconhecer núcleo do sujeito, verbo e complementos em construções de prova. Aplicar a regra geral e distinguir haver de existir. Testar transitividade e construção antes de decidir a concordância. Justificar vírgulas por estrutura e distinguir pausas subjetivas de regra. Comparar duas frases gramaticais que não apresentam a mesma informação. Relacionar sentido e complemento, inclusive em reescritas. Explicar a presença ou ausência do acento grave pela construção. Conferir flexão e separar preservação do evento de identidade discursiva.",
+  tempoEstimadoMinutos: 30,
+  autoresChave: [
+  "Manual de Redação da Presidência da República, 3ª edição (2018)",
+  "Cunha e Cintra — Nova gramática do português contemporâneo"
+],
+  alertasCebraspe: [
+  "Haver com sentido de existir é impessoal e fica na terceira pessoa do singular. Documentos não é sujeito desse verbo na análise normativa. Com existir, a construção muda: Existiam documentos pendentes.",
+  "Precisar de é transitivo indireto nessa acepção; se indetermina o sujeito e o verbo fica no singular: Precisa-se de profissionais. Revisar é transitivo direto no exemplo, admite passiva sintética e concorda com documentos. A comparação erra ao igualar as funções de se.",
+  "A expressão a partir contém infinitivo e não recebe artigo feminino nessa construção. Não há os dois elementos necessários à fusão em à. O gênero de maio não produz essa exigência e sequer é o termo imediatamente regido."
+],
   secoes: [
     {
       id: 'sec-particula-se',
@@ -289,60 +207,40 @@ export const submodulo133: ModuloFilho = {
   "timeline": [],
   "autores": [
     {
-      "id": "aut-13-3-1",
-      "nome": "Celso Pedro Luft",
-      "ano": 1987,
-      "obraPrincipal": "Dicionário Prático de Regência Verbal",
-      "ideiaChave": "O verbo \"implicar\" no sentido de acarretar é transitivo direto (sem \"em\"); verbos de sentimento e aspiração exigem regência preposicionada rigorosa.",
-      "chipPegadinha": "Regência sem Preposição em Implicar"
+      "id": "sub-13-3-fonte-mrpr",
+      "nome": "Manual de Redação da Presidência da República, 3ª edição (2018)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Manual de Redação da Presidência da República, 3ª edição (2018)",
+      "ideiaChave": "Seções 11.7 (concordância), 11.8 (regência) e 11.9 (pontuação). Os exemplos desta aula são autorais.",
+      "chipPegadinha": "Fonte da aula"
     },
     {
-      "id": "aut-13-3-2",
-      "nome": "Domingos Paschoal Cegalla",
-      "ano": 2005,
-      "obraPrincipal": "Novíssima Gramática da Língua Portuguesa",
-      "ideiaChave": "A crase opera sob a regra da duplicidade: exigência de preposição pelo regente + presença de artigo no regido. Os três casos facultativos compõem a regra HAP.",
-      "chipPegadinha": "Mnemônico HAP da Crase"
-    },
-    {
-      "id": "aut-13-3-3",
-      "nome": "Celso Cunha & Lindley Cintra",
-      "ano": 2008,
-      "obraPrincipal": "Nova Gramática do Português Contemporâneo",
-      "ideiaChave": "A vírgula nas orações adjetivas define a fronteira semântica entre generalização explicativa e restrição partitiva.",
-      "chipPegadinha": "Vírgula Explicativa vs Restritiva"
+      "id": "sub-13-3-fonte-gramatica",
+      "nome": "Cunha e Cintra — Nova gramática do português contemporâneo",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha e Cintra — Nova gramática do português contemporâneo",
+      "ideiaChave": "Capítulos de sintaxe, regência e concordância; conferir edição ao consultar. Não se atribui página não verificada à explicação.",
+      "chipPegadinha": "Fonte da aula"
     }
   ],
   "pegadinhas": [
     {
-      "id": "peg-13-3-1",
-      "afirmacao": "Na frase \"Tratam-se de assuntos urgentes\", a concordância verbal no plural é legítima em virtude do núcleo \"assuntos\".",
+      "id": "memoria-rt-13-3-7",
+      "afirmacao": "Em “O trabalho começou a partir de maio”, a inserção de acento grave em a partir seria exigida porque maio é palavra masculina.",
       "gabarito": "E",
-      "porQue": "O verbo \"tratar-se\" é transitivo indireto (rege a preposição \"de\"). O \"se\" atua como Índice de Indeterminação do Sujeito, exigindo que o verbo permaneça OBRIGATORIAMENTE na 3ª pessoa do singular: \"Trata-se de assuntos\"."
+      "porQue": "A expressão a partir contém infinitivo e não recebe artigo feminino nessa construção. Não há os dois elementos necessários à fusão em à. O gênero de maio não produz essa exigência e sequer é o termo imediatamente regido."
     },
     {
-      "id": "peg-13-3-2",
-      "afirmacao": "A frase \"O parlamentar fez alusão a questões pertinentes\" exige o uso do acento grave indicativo de crase em virtude da regência nominal de \"alusão\".",
-      "gabarito": "E",
-      "porQue": "A palavra \"a\" está no singular diante de substantivo no plural (\"questões\"). Isso comprova que existe apenas a preposição \"a\", sem artigo definido feminino (\"as\"). Logo, a crase é gramaticalmente proibida."
-    },
-    {
-      "id": "peg-13-3-3",
-      "afirmacao": "Na oração \"A maioria dos servidores públicos compareceu à audiência\", a substituição de \"compareceu\" por \"compareceram\" preserva a correção gramatical.",
+      "id": "memoria-rt-13-3-8",
+      "afirmacao": "Em “As cópias seguem anexas”, anexas concorda com cópias; a expressão em anexo teria outra estrutura e não exigiria a mesma flexão.",
       "gabarito": "C",
-      "porQue": "Com expressões partitivas seguidas de determinante no plural, admite-se a concordância lógica no singular (com \"a maioria\") ou atrativa no plural (com \"servidores\")."
+      "porQue": "Como adjetivo, anexas acompanha o substantivo feminino plural. Em anexo funciona como locução, e não como o mesmo adjetivo flexionado. Não se deve transportar mecanicamente a flexão de uma construção para outra."
     },
     {
-      "id": "peg-13-3-4",
-      "afirmacao": "É legítima a inserção de vírgula entre o sujeito e o predicado quando o sujeito for composto por mais de dez vocábulos.",
-      "gabarito": "E",
-      "porQue": "A interdição de vírgula entre o sujeito e o verbo principal é uma regra absoluta na norma culta, independentemente da extensão do sujeito (Cunha & Cintra, p. 640)."
-    },
-    {
-      "id": "peg-13-3-5",
-      "afirmacao": "A frase \"Em conformidade com o regimento interno, a audiência foi iniciada às dez horas\" apresenta pontuação correta com adjunto adverbial longo anteposto isolado por vírgula.",
+      "id": "memoria-rt-13-3-9",
+      "afirmacao": "A substituição de uma oração ativa por passiva pode preservar o evento descrito, mas exige conferir concordância e pode alterar o foco informacional da frase.",
       "gabarito": "C",
-      "porQue": "Adjuntos adverbiais de longa extensão (três ou mais vocábulos) antepostos exigem obrigatoriamente a presença de vírgula para marcar o deslocamento sintático."
+      "porQue": "Converter “A equipe revisou os registros” em “Os registros foram revisados pela equipe” conserva participantes e relação principal. O sujeito passa a ser registros e a concordância muda. O destaque discursivo também pode mudar; preservar evento não significa identidade absoluta de todos os efeitos."
     }
   ]
 },

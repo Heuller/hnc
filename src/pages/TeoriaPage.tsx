@@ -141,7 +141,7 @@ export const TeoriaPage: React.FC = () => {
   };
 
   const readingSections = [
-    { id: 'sec-autores', numero: '1', titulo: 'Autores Canônicos' },
+    { id: 'sec-autores', numero: '1', titulo: 'Referências' },
     ...(currentSub.alertasCebraspe && currentSub.alertasCebraspe.length > 0
       ? [{ id: 'sec-alertas', numero: '2', titulo: 'Alertas Cebraspe' }]
       : []),
@@ -160,7 +160,7 @@ export const TeoriaPage: React.FC = () => {
           : 'Fundamentação Teórica',
     },
     { id: 'sec-checkpoints', numero: '6', titulo: `Checkpoints (${currentSub.checkpoints.length})` },
-    { id: 'sec-mnemonicos', numero: '7', titulo: 'Mnemônicos e Síntese' },
+    { id: 'sec-mnemonicos', numero: '7', titulo: 'Revisão e síntese' },
   ];
 
   useEffect(() => {
@@ -717,11 +717,12 @@ export const TeoriaPage: React.FC = () => {
                 Micro-Checkpoints de Fixação
               </h2>
               <p className="text-xs sm:text-sm text-ink-2 font-serif mt-1">
-                Responda antes de consultar a justificativa. Julgue como a banca julgaria.
+                Responda antes de consultar a justificativa. Confira o conceito, as condições e o alcance da afirmação.
               </p>
             </div>
 
             <div className="space-y-4">
+              {!!currentSub.unidadesAprendizagem?.length && modoTeoriaAtivo !== 'didatica' && <p className="text-sm text-ink-2">Os microcheckpoints estão distribuídos entre os blocos da aula. Suas respostas ficam registradas também na revisão essencial. Use o índice “Nesta aula” para voltar ao tópico que deseja praticar.</p>}
               {currentSub.checkpoints.filter(cp => modoTeoriaAtivo === 'didatica' || !currentSub.unidadesAprendizagem?.some(unidade => unidade.checkpointIds.includes(cp.id))).map((cp, idx) => {
                 const isRevisaoDirigida = learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao';
                 return (
@@ -748,14 +749,14 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             {/* Treino de Recuperação Ativa (Associação, Cronologia e Caça-Armadilha - Parte G) */}
-            <div className="mt-8">
+            {!currentSub.unidadesAprendizagem?.length && <div className="mt-8">
               <ActiveRetrievalExercises
                 submoduloNumero={currentSub.numero}
                 autores={currentSub.mnemonicos.autores}
                 timeline={currentSub.mnemonicos.timeline}
                 pegadinhas={currentSub.mnemonicos.pegadinhas}
               />
-            </div>
+            </div>}
           </section>
 
           {/* Bloco 6: Resumo e Mnemônicos Estruturados */}
@@ -777,11 +778,11 @@ export const TeoriaPage: React.FC = () => {
                 Resumo Rápido e Armadilhas
               </h2>
               <p className="text-xs sm:text-sm text-ink-2 font-serif mt-1">
-                Linha do tempo histórica, ficha dos autores canônicos e pegadinhas da banca.
+                {currentSub.unidadesAprendizagem?.length ? 'Retome as relações principais e tente explicá-las sem consultar.' : 'Linha do tempo histórica, referências e exercícios de contraste.'}
               </p>
             </div>
 
-            <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />
+            {currentSub.unidadesAprendizagem?.length ? <ConteudoMarkdown content={currentSub.teoriaDidaticaMarkdown || ''} /> : <MnemonicosTabs mnemonicos={currentSub.mnemonicos} />}
           </section>
 
           {/* Card Prominente no Final do Último Submódulo Filho (Atalho Direto para o Simulado 100Q ou 30Q) */}
@@ -1015,7 +1016,7 @@ export const TeoriaPage: React.FC = () => {
                 })}
               </nav>
             ) : (
-              <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
+              currentSub.unidadesAprendizagem?.length ? <ConteudoMarkdown content={currentSub.teoriaDidaticaMarkdown || ''} /> : <MnemonicosTabs mnemonicos={currentSub.mnemonicos} isCompact />
             )}
           </div>
         </aside>

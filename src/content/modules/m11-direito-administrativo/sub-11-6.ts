@@ -8,253 +8,224 @@ export const submodulo116: ModuloFilho = {
   titulo: 'Responsabilidade Civil do Estado: Ação, Omissão e Direito de Regresso',
   titulo_curto: 'Responsabilidade Civil do Estado',
   antesDeLer: [
-    {
-      termo: 'Responsabilidade Civil Objetiva do Estado',
-      definicao: 'Dever estatal de indenizar danos causados por seus agentes no exercício da função, independentemente de dolo ou culpa (art. 37, § 6º da CF/88).',
-      exemploBiblioteca: 'A União indenizando pesquisador cujo notebook foi danificado por queda de teto na biblioteca durante reforma da Casa.',
-    },
-    {
-      termo: 'Teoria do Risco Administrativo',
-      definicao: 'Doutrina que fundamenta a responsabilidade objetiva, admitindo excludentes: culpa exclusiva da vítima, caso fortuito e força maior.',
-      exemploBiblioteca: 'Isenção de responsabilidade do órgão se o visitante danificou voluntariamente seu próprio celular ao tropeçar desatento.',
-    },
-    {
-      termo: 'Direito de Regresso',
-      definicao: 'Ação regressiva pela qual o Estado cobra do servidor o valor da indenização paga a terceiros, nos casos de dolo ou culpa do servidor.',
-      exemploBiblioteca: 'Cobrança regressiva caso um servidor jogue intencionalmente água sobre material de um visitante credenciado.',
-    },
-    {
-      termo: 'Responsabilidade por Omissão',
-      definicao: 'Regra geral subjetiva (falha do serviço / faute du service), exigindo comprovação de que o Estado tinha o dever legal de agir e foi negligente.',
-      exemploBiblioteca: 'Análise de omissão caso o sistema de proteção contra incêndio estivesse inoperante sem manutenção programada.',
-    },
-  ],
-  descricaoCurta: 'Evolução histórica e a Teoria do Risco Administrativo (art. 37, § 6º da CF/88). Responsabilidade por atos comissivos vs. omissivos (falta do serviço e dever de custódia). Excludentes e atenuantes do nexo causal. Teoria do Risco Integral. Ação de regresso e ilegitimidade do servidor (STF Tema 940).',
-  tempoEstimadoMinutos: 11,
+  {
+    "termo": "Nexo causal",
+    "definicao": "Relação entre conduta imputável e dano, examinada no regime aplicável.",
+    "exemploBiblioteca": "Dano anterior ao transporte não é automaticamente causado pelo servidor que o transportou."
+  },
+  {
+    "termo": "Regresso",
+    "definicao": "Pretensão contra o responsável nas condições constitucionais e legais.",
+    "exemploBiblioteca": "Responsabilidade externa objetiva não dispensa dolo ou culpa exigidos para regresso."
+  }
+],
+  descricaoCurta: "Distinguir risco administrativo e falta do serviço. Identificar as pessoas jurídicas abrangidas pelo art. 37, § 6º. Relacionar dano, conduta e nexo sem exigir culpa do agente no polo externo. Examinar dever específico e possibilidade de impedir o dano. Aplicar excludentes ao nexo, sem automatismo pelo nome do evento. Distinguir ação do terceiro, regresso e outras esferas.",
+  tempoEstimadoMinutos: 16,
   autoresChave: [
-    'Constituição Federal de 1988 (art. 37, § 6º)',
-    'STF (Tema 940 - Dupla Garantia)',
-    'STF (Tema 592 - Omissão em Custódia)',
-    'Maria Sylvia Zanella Di Pietro',
-    'Celso Antônio Bandeira de Mello',
-  ],
+  "Constituição Federal",
+  "STF — Tema 940",
+  "STF — Tema 592"
+],
   alertasCebraspe: [
-    'TEMA 940 DO STF (PRINCÍPIO DA DUPLA GARANTIA): A ação indenizatória proposta por particular DEVE ser proposta EXCLUSIVAMENTE contra a pessoa jurídica estatal (ou prestadora de serviço público), sendo o agente público parte passiva manifestamente ilegítima. É terminantemente proibido ao particular processar diretamente o servidor ou incluí-lo em litisconsórcio passivo facultativo!',
-    'RESPONSABILIDADE POR ATOS COMISSIVOS VS. OMISSIVOS: Atos comissivos (ações diretas de agentes públicos) atraem responsabilidade OBJETIVA (prescinde de dolo ou culpa). Atos omissivos genéricos atraem a teoria da falta do serviço (faute du service - responsabilidade SUBJETIVA, exigindo prova de que o Estado tinha o dever de agir e não agiu). Omissões específicas (onde o Estado detinha dever de custódia/guarda direta, como em presídios e hospitais) atraem responsabilidade OBJETIVA!',
-    'DIREITO DE REGRESSO (ART. 37, § 6º, PARTE FINAL): O Estado responde perante o terceiro objetivamente; contudo, a ação de regresso do Estado contra o servidor causador do dano é estritamente SUBJETIVA, dependendo de demonstração cabal de DOLO ou CULPA do agente.',
-    'TEORIA DO RISCO INTEGRAL (SEM EXCLUDENTES): Modalidade excepcionalíssima no ordenamento brasileiro que não admite NENHUMA causa excludente (nem caso fortuito, força maior ou culpa da vítima). Aplica-se taxativamente a: 1) Danos nucleares (art. 21, XXIII, c, CF); 2) Atos terroristas contra aeronaves de matrícula brasileira; 3) Danos ao meio ambiente.',
-  ],
-  quadroComparativo: {
-    titulo: 'Modalidades de Responsabilidade Civil do Poder Público',
-    colunas: ['Modalidade / Teoria', 'Fundamento Dogmático', 'Exigência de Dolo ou Culpa', 'Admissão de Excludentes', 'Hipóteses Típicas no Brasil'],
-    linhas: [
-      ['Risco Administrativo (Regra Geral)', 'Art. 37, § 6º da CF/88 (ação comissiva)', 'Não (Responsabilidade Objetiva)', 'Sim (Culpa exclusiva da vítima, caso fortuito, força maior)', 'Atos de agentes públicos no exercício funcional'],
-      ['Culpa Administrativa (Faute du Service)', 'Omissão genérica da Administração Pública', 'Sim (Culpa anônima do serviço: não funcionou ou atrasou)', 'Sim (Comprovação de força maior insuperável)', 'Acidentes em vias públicas por falta de sinalização'],
-      ['Risco Suscitado (Custódia Específica)', 'Dever específico de proteção da pessoa sob guarda', 'Não (Responsabilidade Objetiva por omissão qualificada)', 'Sim (Apenas se demonstrado que o evento era inevitável)', 'Morte ou agressão a detentos, alunos ou internados'],
-      ['Risco Integral (Excepcionalíssima)', 'Perigo extremo intrínseco à atividade', 'Não (Responsabilidade Objetiva Pura)', 'NÃO admite nenhuma excludente (nem força maior)', 'Danos nucleares e atentados terroristas em aeronaves'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Evolução Histórica da Responsabilidade Civil do Estado
-
-A compreensão da responsabilidade patrimonial extracontratual do Estado passou por quatro fases históricas essenciais:
-
-1. **Teoria da Irresponsabilidade Estatal (*The King Can Do No Wrong*):** Típica dos Estados absolutistas, nos quais a soberania régia era inquestionável e o soberano não respondia civilmente por prejuízos causados aos súditos.
-2. **Teoria da Culpa Civilista (Responsabilidade com Culpa):** Com o advento do Estado Liberal, admitiu-se a responsabilidade estatal distinguindo os *atos de império* (praticados com supremacia soberana, irrecorríveis e isentos de indenização) dos *atos de gestão* (praticados em condições de igualdade com os particulares, nos quais o Estado respondia com base na culpa civil subjetiva do seu preposto).
-3. **Teoria da Culpa Administrativa (Falta do Serviço / *Faute du Service*):** Rompe com a culpa individual do funcionário. O dever de indenizar surge da falta do serviço público, demonstrada em três hipóteses: o serviço *não funcionou*, funcionou *mal* ou funcionou com *atraso*. É uma teoria de responsabilidade subjetiva, mas de culpa anônima do aparelho estatal.
-4. **Teoria do Risco Administrativo (Responsabilidade Objetiva):** Adotada como regra pela Constituição Federal de 1988 (art. 37, § 6º). Assenta-se no princípio da equidade e na repartição dos encargos públicos: a coletividade beneficia-se dos serviços públicos; logo, eventuais prejuízos causados a indivíduos pela atuação estatal devem ser reparados pelo erário, independentemente da demonstração de dolo ou culpa do servidor.
-
----
-
-### 2. O Regime Constitucional do Art. 37, § 6º da CF/88
-
-> *"As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
-
-* **Pessoas Jurídicas Vinculadas:** 
-  1. Todas as pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de Direito Público);
-  2. Pessoas jurídicas de direito privado **prestadoras de serviços públicos** (Empresas Públicas e Sociedades de Economia Mista prestadoras de serviços, bem como concessionárias e permissionárias privadas).
-* **Empresas Estatais Exploradoras de Atividade Econômica:** Não se submetem à responsabilidade objetiva do art. 37, § 6º, da CF/88, respondendo sob o regime de direito privado civil comum (art. 173, § 1º, II, CF), salvo em relações de consumo reguladas pelo CDC.
-
----
-
-### 3. Requisitos para a Configuração da Responsabilidade Objetiva
-
-Para que o particular faça jus à indenização pelo Estado, basta comprovar três elementos:
-1. **Conduta Estatal:** Comportamento ativo comissivo do agente público atuando nessa qualidade;
-2. **Dano Efetivo:** Lesão material, patrimonial, estética ou moral direta a direito de terceiro;
-3. **Nexo de Causalidade:** Relação de causa e efeito direta e imediata entre a conduta do agente público e o dano experimentado (Teoria do Dano Direto e Imediato - art. 403 do Código Civil).
-
----
-
-### 4. Responsabilidade por Omissão do Estado
-
-* **Omissão Genérica (Regra da Responsabilidade Subjetiva):** Ocorre quando o Estado descumpre um dever genérico de proteção da coletividade (ex.: furto de automóvel estacionado em rua pública, assalto na via comum, chuva torrencial que alaga avenida sem falha construtiva). A responsabilidade é **subjetiva**, exigindo a comprovação da *faute du service* (o particular deve demonstrar que o Estado tinha o dever de agir e foi negligente).
-* **Omissão Específica (Responsabilidade Objetiva por Dever de Custódia):** Ocorre quando o Estado detém o dever jurídico individualizado de evitar o dano sobre pessoas ou coisas postas sob sua custódia ou vigilância direta e imediata:
-  * Exemplo: Detento assassinado ou que comete suicídio no presídio (STF - Tema 592/RE 841.526); paciente que morre desatendido em hospital público; aluno agredido gravemente em sala de aula de escola pública; acervo raro entregue para restauração sob custódia direta do órgão. Nestes casos, o Estado responde de forma **objetiva**, devendo demonstrar causa de força maior absoluta para elidir o dever de indenizar.
-
----
-
-### 5. Causas Excludentes e Atenuantes da Responsabilidade
-
-Como a CF/88 adotou a Teoria do Risco Administrativo (e não a Teoria do Risco Integral), admite-se a exclusão ou a redução da responsabilidade estatal quando houver quebra do nexo causal:
-
-* **Causas Excludentes (Isentam o Estado Integralmente):**
-  1. **Culpa Exclusiva da Vítima:** O particular causa o evento lesivo por sua própria e exclusiva imprudência ou dolo (ex.: cidadão que se joga intencionalmente sob as rodas de viatura oficial em movimento regular).
-  2. **Caso Fortuito ou Força Maior:** Eventos imprevisíveis e inevitáveis da natureza (raio, terremoto, inundação extraordinária sem falha prévia de bueiros).
-  3. **Fato Exclusivo de Terceiro:** Evento danoso praticado por terceiro sem nenhuma participação ou negligência de agentes públicos.
-* **Causa Atenuante (Reduz a Indenização Proporcionalmente):**
-  * **Culpa Concorrente da Vítima:** A vítima e o agente público concorrem simultaneamente para o desfecho danoso (o valor da reparação fixado judicialmente é partilhado proporcionalmente).
-
----
-
-### 6. Ação Regressiva e a Tese do Tema 940 do STF (Princípio da Dupla Garantia)
-
-O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.027.633/SP)**, fixou tese vinculante:
-> *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o agente público, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*
-
-* **Princípio da Dupla Garantia:** Protege o cidadão (que terá a certeza de receber a indenização do erário solvente, sem risco de insolvência do agente) e protege o servidor público (que não poderá ser processado diretamente pela vítima, ficando a salvo de pressões ou vinganças pessoais e só respondendo perante o próprio Estado caso comprovado que agiu com dolo ou culpa em ação regressiva).`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Responsabilidade Civil do Estado** regula a obrigação jurídica de indenizar danos causados a terceiros por condutas estatais (CF/88, art. 37, § 6º):
-1. **A Teoria da Responsabilidade Objetiva (Teoria do Risco Administrativo):**
-   - As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, **assegurado o direito de regresso** contra o responsável nos casos de dolo ou culpa (art. 37, § 6º da CF).
-   - **Elementos da Responsabilidade Objetiva:**
-     1. Conduta estatal (lícita ou ilícita de agente público).
-     2. Dano material, moral ou estético comprovado.
-     3. Nexo de causalidade entre a conduta e o dano.
-     - **Dispensa a comprovação de dolo ou culpa do Estado!**
-   - **Causas Excludentes ou Atenuantes do Nexo Causal:**
-     - *Culpa Exclusiva da Vítima:* Exclui a responsabilidade do Estado.
-     - *Caso Fortuito ou Força Maior:* Exclui a responsabilidade do Estado (se não houver omissão/falha do serviço).
-     - *Fato Exclusivo de Terceiro:* Exclui a responsabilidade estatal.
-     - *Culpa Concorrente da Vítima:* Atenua o valor da indenização devida pelo Estado.
-2. **Responsabilidade por Omissão Estatal (Teoria da Falha do Serviço / *Faute du Service*):**
-   - Quando o Estado não causou o dano diretamente, mas **deixou de prestar um serviço que tinha o dever legal de prestar** (omissão genérica), a responsabilidade é em regra **subjetiva**, exigindo a prova de que o serviço não funcionou, funcionou mal ou funcionou com atraso culposo.
-3. **Direito de Regresso contra o Servidor:**
-   - O cidadão prejudicado processa **diretamente o Estado** (Pessoa Jurídica), e não o servidor (STF, Tema 940 de Repercussão Geral: dupla garantia).
-   - O Estado, após ser condenado e pagar a indenização, pode mover **ação regressiva contra o servidor público**, mas deve **comprovar que o servidor agiu com dolo ou com culpa** (a responsabilidade do servidor é subjetiva!).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Acidente com Prateleira Móvel no Acervo da Biblioteca):** Um pesquisador externo está consultando livros raros no arquivo deslizante da Biblioteca Pedro Aleixo quando uma prateleira com defeito se solta e atinge o usuário, causando fratura. A União Federal responde **objetivamente (sem necessidade de provar culpa do bibliotecário)** pelo dano sofrido pelo pesquisador, bastando provar o nexo de causalidade.
-- **Cenário 2 (Ação de Regresso por Dolo na Danificação de Livro Raro):** Se for comprovado em PAD que um servidor agiu com dolo ou negligência grosseira intencional ao despejar água sobre um códice raro de 1823, a Câmara dos Deputados indeniza o proprietário da obra e em seguida aciona a Advocacia-Geral da União (AGU) para cobrar judicialmente cada centavo do servidor causador do dano em **ação regressiva**.
-- **Cenário 3 (Tema 940 do STF no Atendimento ao Público):** Um cidadão alega ter sido ofendido por um servidor no balcão de atendimento e ingressa com ação de danos morais diretamente contra o servidor (pessoa física). O juiz extingue o processo sem julgamento de mérito com base no **Tema 940 do STF**: a ação indenizatória deve ser proposta obrigatoriamente em face da União Federal (ente estatal).
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Conduta / Ação | Modalidade de Responsabilidade | O que Deve Ser Provado | Cabimento de Direito de Regresso |
-| :--- | :--- | :--- | :--- |
-| **Ação Estatal (Comissiva)** | **Objetiva** (Risco Administrativo) | Conduta + Dano + Nexo causal (sem culpa) | Sim, se comprovado dolo ou culpa do servidor |
-| **Omissão Comum (Genérica)** | **Subjetiva** (Falha do serviço) | Conduta omissiva + Dano + Nexo + **Culpa do Estado** | Raro |
-| **Ação Regressiva do Estado** | **Subjetiva** | O Estado deve **provar dolo ou culpa do servidor** | - |
-| **Tema 940 do STF** | Princípio da Dupla Garantia | Ação proposta em face do Estado, não do servidor | O servidor só responde internamente em regresso |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Ação Direta do Cidadão contra o Servidor:** O Cebraspe formula itens dizendo que a vítima pode escolher entre processar o Estado ou processar diretamente o servidor causador do dano. **Gabarito: ERRADO.** O STF fixou a tese de que a ação deve ser movida **exclusivamente contra a pessoa jurídica de direito público**, sendo o servidor parte ilegítima na ação inicial.
-- **Responsabilidade do Servidor em Regresso é Objetiva:** Afirmar que na ação de regresso o servidor responde objetivamente independentemente de dolo ou culpa. **Gabarito: ERRADO.** A responsabilidade do servidor é puramente **subjetiva**; se ele não agiu com dolo nem com culpa, o Estado arca sozinho com a indenização.
-- **Teoria do Risco Integral no Brasil:** Afirmar que o Brasil adotou como regra geral a teoria do risco integral (onde o Estado indeniza mesmo se houver culpa exclusiva da vítima). **Gabarito: ERRADO.** A regra geral brasileira é a **Teoria do Risco Administrativo**, que admite excludentes como culpa exclusiva da vítima e força maior. O risco integral aplica-se apenas em situações extremas (danos nucleares, ambientais e ataques terroristas em aeronaves).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Constituição da República Federativa do Brasil de 1988*. art. 37, § 6º.
-- **CAVALIERI FILHO, Sergio.** *Programa de Responsabilidade Civil*. 15. ed. São Paulo: Atlas, 2021. (A principal obra de referência doutrinária em responsabilidade civil).
-- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023. (Capítulo de Responsabilidade Extracontratual do Estado).
-- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
-- **SUPREMO TRIBUNAL FEDERAL (STF).** *Tema 940 de Repercussão Geral (RE 1.027.633)*: A teor do disposto no art. 37, § 6º, da CF, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público...`,
+  "Ela dispensa a culpa no regime pertinente, sem eliminar dano e causalidade.",
+  "O nome da causa não prova exclusividade nem rompe automaticamente o nexo."
+],
+  teoriaDensaMarkdown: "### Evolução Histórica da Responsabilidade Civil do Estado\n\nA compreensão da responsabilidade patrimonial extracontratual do Estado passou por quatro formulações históricas frequentemente usadas para fins didáticos, sem presumir cronologia idêntica em todos os países:\n\n1. **Teoria da Irresponsabilidade Estatal (*The King Can Do No Wrong*):** Típica dos Estados absolutistas, nos quais a soberania régia era inquestionável e o soberano não respondia civilmente por prejuízos causados aos súditos.\n2. **Teoria da Culpa Civilista (Responsabilidade com Culpa):** Com o advento do Estado Liberal, admitiu-se a responsabilidade estatal distinguindo os *atos de império* (praticados com supremacia soberana, irrecorríveis e isentos de indenização) dos *atos de gestão* (praticados em condições de igualdade com os particulares, nos quais o Estado respondia com base na culpa civil subjetiva do seu preposto).\n3. **Teoria da Culpa Administrativa (Falta do Serviço / *Faute du Service*):** Rompe com a culpa individual do funcionário. O dever de indenizar surge da falta do serviço público, demonstrada em três hipóteses: o serviço *não funcionou*, funcionou *mal* ou funcionou com *atraso*. É uma teoria de responsabilidade subjetiva, mas de culpa anônima do aparelho estatal.\n4. **Teoria do Risco Administrativo (Responsabilidade Objetiva):** Adotada como regra pela Constituição Federal de 1988 (art. 37, § 6º). Assenta-se no princípio da equidade e na repartição dos encargos públicos: a coletividade beneficia-se dos serviços públicos; logo, eventuais prejuízos causados a indivíduos pela atuação estatal devem ser reparados pelo erário, independentemente da demonstração de dolo ou culpa do servidor.\n\n**Aplicação e recuperação:** Um serviço funcionou tarde e causou dano demonstrado. A falta do serviço não exige identificar qual funcionário errou para formular a teoria da culpa administrativa. Já o risco administrativo dispensa prova de culpa no regime objetivo, mas conserva os demais pressupostos.\n\n### O Regime Constitucional do Art. 37, § 6º da CF/88\n\n> *\"As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\"*\n\n* **Pessoas Jurídicas Vinculadas:** \n  1. Todas as pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de Direito Público);\n  2. Pessoas jurídicas de direito privado **prestadoras de serviços públicos** (Empresas Públicas e Sociedades de Economia Mista prestadoras de serviços, bem como concessionárias e permissionárias privadas).\n* **Empresas Estatais Exploradoras de Atividade Econômica:** Não se submetem à responsabilidade objetiva do art. 37, § 6º, da CF/88, respondendo sob o regime de direito privado civil comum (art. 173, § 1º, II, CF), sem afastar hipóteses de responsabilidade objetiva estabelecidas por outras normas, como o CDC quando aplicável.\n\n**Aplicação e recuperação:** Uma concessionária causa dano a terceiro não usuário durante a prestação do serviço. O Tema 130 do STF reconhece responsabilidade objetiva perante usuários e não usuários. Ser pessoa privada não afasta por si o art. 37, § 6º; a atividade e a qualidade da atuação importam.\n\n### Requisitos para a Configuração da Responsabilidade Objetiva\n\nPara que o particular faça jus à indenização pelo Estado, é necessário examinar, no cenário constitucional pertinente, três elementos, sem dispensar a análise de excludentes:\n1. **Conduta Estatal:** Conduta imputável ao Estado no regime pertinente; na atuação comissiva, o agente deve atuar nessa qualidade;\n2. **Dano Efetivo:** Lesão material, patrimonial, estética ou moral direta a direito de terceiro;\n3. **Nexo de Causalidade:** Relação de causa e efeito direta e imediata entre a conduta do agente público e o dano experimentado (Teoria do Dano Direto e Imediato - art. 403 do Código Civil).\n\n**Aplicação e recuperação:** Livro particular é danificado durante transporte oficial por agente nessa qualidade. Identifique o prejuízo e o vínculo causal. Se os mesmos danos já existiam antes do transporte, não podem ser integralmente atribuídos à conduta sem demonstração. Objetividade não dispensa prova de dano e causalidade.\n\n### Responsabilidade por Omissão do Estado\n\n* **Omissão Genérica (Regra da Responsabilidade Subjetiva):** Ocorre quando o Estado descumpre um dever genérico de proteção da coletividade (ex.: furto de automóvel estacionado em rua pública, assalto na via comum, chuva torrencial que alaga avenida sem falha construtiva). o tratamento doutrinário usual aponta responsabilidade **subjetiva** pela falha do serviço, exigindo verificar o dever concreto, possibilidade de atuação e causalidade; não basta chamar a situação de omissão para decidir todo caso (o particular deve demonstrar que o Estado tinha o dever de agir e foi negligente).\n* **Omissão Específica (Responsabilidade Objetiva por Dever de Custódia):** Ocorre quando o Estado detém o dever jurídico individualizado de evitar o dano sobre pessoas ou coisas postas sob sua custódia ou vigilância direta e imediata:\n  * Exemplo: O Tema 592 do STF examina morte de detento diante da inobservância do dever específico de proteção. É preciso demonstrar as condições da tese e o nexo. Não se conclui responsabilidade automática por toda morte, por todo evento em hospital/escola ou pela simples presença de um bem em prédio público. Cada hipótese demanda seu regime, dever e possibilidade de evitar o dano.\n\n**Aplicação e recuperação:** A narrativa informa apenas que ocorreu lesão dentro de prédio público. Ela ainda não descreve todo dever de proteção nem a possibilidade de prevenção. No caso de custódia do Tema 592, examine se houve inobservância do dever específico. Não transforme “dentro do prédio” em teste jurídico universal.\n\n### Causas Excludentes e Atenuantes da Responsabilidade\n\nComo a CF/88 adotou a Teoria do Risco Administrativo (e não a Teoria do Risco Integral), admite-se a exclusão ou a redução da responsabilidade estatal quando houver quebra do nexo causal:\n\n* **Causas Excludentes (Isentam o Estado Integralmente):**\n  1. **Culpa Exclusiva da Vítima:** O particular causa o evento lesivo por sua própria e exclusiva imprudência ou dolo (ex.: cidadão que se joga intencionalmente sob as rodas de viatura oficial em movimento regular).\n  2. **Caso Fortuito ou Força Maior:** Eventos cuja relação com a atuação e o dever estatal efetivamente rompa o nexo no cenário. Um evento natural não exclui responsabilidade se o dano também decorre de falha causalmente relevante do serviço.\n  3. **Fato Exclusivo de Terceiro:** Evento danoso praticado por terceiro sem nenhuma participação ou negligência de agentes públicos.\n* **Causa Atenuante (Reduz a Indenização Proporcionalmente):**\n  * **Culpa Concorrente da Vítima:** A vítima e o agente público concorrem simultaneamente para o desfecho danoso (o valor da reparação fixado judicialmente é partilhado proporcionalmente).\n\n**Aplicação e recuperação:** Chuva intensa danifica acervo após anos de vazamentos documentados e sem providência. Invocar natureza do evento não encerra o exame: a omissão pode ter relevância causal. Em cenário diferente, uma causa exclusiva realmente rompe o nexo. Explique qual fato mudaria a conclusão.\n\n### Ação Regressiva e a Tese do Tema 940 do STF (Princípio da Dupla Garantia)\n\nO Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.027.633/SP)**, fixou tese vinculante:\n> *\"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o agente público, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\"*\n\n* **Princípio da Dupla Garantia:** A tese direciona a ação indenizatória do terceiro contra a pessoa jurídica e preserva o regresso nos casos de dolo ou culpa. Não promete pagamento imediato nem elimina responsabilização penal ou disciplinar do agente.\n\n**Aplicação e recuperação:** No regime do Tema 940, a vítima processa a pessoa jurídica; eventual regresso examina dolo ou culpa do agente. Essas duas etapas não autorizam negar à vítima indenização só porque não demonstrou culpa pessoal. Tampouco autorizam cobrar regressivamente sem esse pressuposto.",
+  teoriaDidaticaMarkdown: "### Revisão: quem responde, por qual dano e em que relação?\n\nRisco administrativo não é risco integral. Objetividade dispensa culpa no regime aplicável, sem apagar dano, conduta e nexo. Prestadora privada de serviço público pode estar abrangida; empresa econômica pede outro exame. Omissões exigem identificar dever e causalidade; custódia não é responsabilidade automática por todo evento. Excludentes só funcionam quando efetivamente rompem o nexo. Tema 940 dirige a ação do terceiro contra a pessoa jurídica, preservando regresso por dolo ou culpa e outras esferas de responsabilização.\n",
   checkpoints: [
-    {
-      id: 'cp-11-6-1',
-      pergunta: 'Micro-Checkpoint 1: Polo Passivo da Ação Indenizatória (STF Tema 940)',
-      item: 'Cidadão que tiver bens pessoais destruídos por negligência comprovada de servidor bibliotecário durante transporte de acervo da Câmara pode ajuizar ação de reparação de danos incluindo o servidor e a União em litisconsórcio passivo facultativo.',
-      gabarito: 'E',
-      justificativa: 'Errado! De acordo com a tese de repercussão geral fixada pelo STF no Tema 940, o agente público é parte passiva manifestamente ilegítima em ações propostas por particulares. A ação deve ser ajuizada exclusivamente contra o Estado (União Federal), descabendo litisconsórcio passivo com o servidor.',
-    },
-    {
-      id: 'cp-11-6-2',
-      pergunta: 'Micro-Checkpoint 2: Responsabilidade Objetiva por Atos Comissivos e Regresso',
-      item: 'A responsabilidade civil da União perante terceiros pelos atos comissivos praticados por seus agentes públicos independe da comprovação de culpa ou dolo, ao passo que a ação de regresso movida pela União contra o servidor exige a prova indispensável de conduta dolosa ou culposa.',
-      gabarito: 'C',
-      justificativa: 'Correto! Perante o administrado lesado a responsabilidade é objetiva (Teoria do Risco Administrativo, dispensando dolo/culpa). Na esfera interna de regresso contra o servidor, a responsabilidade é subjetiva, exigindo dolo ou culpa (art. 37, § 6º da CF).',
-    },
-    {
-      id: 'cp-11-6-3',
-      pergunta: 'Micro-Checkpoint 3: Teoria do Risco Integral e Excludentes de Causalidade',
-      item: 'No ordenamento jurídico brasileiro, a teoria do risco integral aplica-se como regra geral a toda a Administração Pública direta e indireta, impedindo que o Estado se exima de indenizar mesmo diante de comprovada culpa exclusiva da vítima.',
-      gabarito: 'E',
-      justificativa: 'Errado! A regra geral é a Teoria do Risco ADMINISTRATIVO, que admite excludentes de nexo causal (como culpa exclusiva da vítima e força maior). A Teoria do Risco Integral é excepcionalíssima no Brasil, aplicando-se apenas a danos nucleares, atos terroristas em aeronaves e dano ambiental.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-6-1',
-        periodo: '1873',
-        disciplina: 'Direito Administrativo Comparado',
-        focoPrincipal: 'Julgamento do Caso Blanco (França): nascimento da responsabilidade pública autônoma do Estado',
-        figuraChave: 'Tribunal de Conflitos Francês',
-      },
-      {
-        id: 'tl-11-6-2',
-        periodo: '1988',
-        disciplina: 'Responsabilidade Constitucional',
-        focoPrincipal: 'Consagração do art. 37, § 6º da CF/88: responsabilidade objetiva no Brasil',
-        figuraChave: 'Assembleia Constituinte',
-      },
-      {
-        id: 'tl-11-6-3',
-        periodo: '2016',
-        disciplina: 'Jurisprudência / Custódia',
-        focoPrincipal: 'STF - Tema 592 (RE 841.526): responsabilidade objetiva do Estado por omissão em custódia direta',
-        figuraChave: 'Supremo Tribunal Federal',
-      },
-      {
-        id: 'tl-11-6-4',
-        periodo: '2019',
-        disciplina: 'Jurisprudência / Dupla Garantia',
-        focoPrincipal: 'STF - Tema 940 (RE 1.027.633): ilegitimidade do servidor público no polo passivo da ação indenizatória',
-        figuraChave: 'Supremo Tribunal Federal',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-6-1',
-        nome: 'Celso Antônio Bandeira de Mello',
-        ano: '2021',
-        obraPrincipal: 'Curso de Direito Administrativo',
-        ideiaChave: 'Distinção magistral entre responsabilidade por ato comissivo (objetiva) e responsabilidade por omissão estatal genérica (subjetiva fundada na falta do serviço).',
-        chipPegadinha: 'Afirmar que a omissão estatal pura e simples sempre atrai responsabilidade objetiva.',
-      },
-      {
-        id: 'aut-11-6-2',
-        nome: 'Maria Sylvia Zanella Di Pietro',
-        ano: '2023',
-        obraPrincipal: 'Direito Administrativo',
-        ideiaChave: 'Aplicação da teoria do risco administrativo e configuração da omissão específica em situações de custódia e guarda estatal.',
-        chipPegadinha: 'Confundir omissão genérica comum com omissão qualificada em dever de custódia.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-6-1',
-        afirmacao: 'Na hipótese de culpa concorrente da vítima com a conduta do agente público, o Estado fica inteiramente isento do dever de indenizar, por rompimento do nexo causal.',
-        gabarito: 'E',
-        porQue: 'A culpa concorrente é causa ATENUANTE (o Estado indeniza proporcionalmente à gravidade da sua conduta). Apenas a culpa EXCLUSIVA da vítima isenta totalmente o Estado.',
-      },
-      {
-        id: 'peg-11-6-2',
-        afirmacao: 'Concessionária privada de transporte que causa acidente com pedestre responde civilmente perante a vítima de forma objetiva, nos moldes do art. 37, § 6º, da CF/88.',
-        gabarito: 'C',
-        porQue: 'O art. 37, § 6º aplica-se expressamente às pessoas jurídicas de direito público E às pessoas jurídicas de direito privado prestadoras de serviços públicos (inclusive quanto a terceiros não usuários - STF RE 580.252).',
-      },
-      {
-        id: 'peg-11-6-3',
-        afirmacao: 'A condenação judicial transitada em julgado que obriga a União a indenizar particular gera a condenação automática do servidor causador do dano na mesma sentença.',
-        gabarito: 'E',
-        porQue: 'A condenação do servidor exige AÇÃO DE REGRESSO autônoma movida pelo Estado, na qual deverá ser comprovado cabalmente o dolo ou a culpa do agente público.',
-      },
-    ],
+  {
+    "id": "cp-11-6-1",
+    "pergunta": "Micro-Checkpoint 1: Polo Passivo da Ação Indenizatória (STF Tema 940)",
+    "item": "Cidadão que tiver bens pessoais destruídos por negligência comprovada de servidor bibliotecário durante transporte de acervo da Câmara pode ajuizar ação de reparação de danos incluindo o servidor e a União em litisconsórcio passivo facultativo.",
+    "gabarito": "E",
+    "justificativa": "No cenário de atuação do agente nessa qualidade, o Tema 940 dirige a ação contra a União e reconhece ilegitimidade passiva do agente, sem eliminar eventual regresso.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário.",
+    "versao_correta": "A vítima deve demandar a pessoa jurídica no regime do Tema 940; cabe regresso contra o agente nos casos de dolo ou culpa."
   },
+  {
+    "id": "cp-11-6-2",
+    "pergunta": "Micro-Checkpoint 2: Responsabilidade Objetiva por Atos Comissivos e Regresso",
+    "item": "A responsabilidade civil da União perante terceiros pelos atos comissivos praticados por seus agentes públicos independe da comprovação de culpa ou dolo, ao passo que a ação de regresso movida pela União contra o servidor exige a prova indispensável de conduta dolosa ou culposa.",
+    "gabarito": "C",
+    "justificativa": "O art. 37, § 6º, distingue responsabilidade perante terceiros e regresso. Ainda são necessários dano, conduta imputável e nexo; não se presume a responsabilidade só pelo vínculo do agente.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário."
+  },
+  {
+    "id": "cp-11-6-3",
+    "pergunta": "Micro-Checkpoint 3: Teoria do Risco Integral e Excludentes de Causalidade",
+    "item": "No ordenamento jurídico brasileiro, a teoria do risco integral aplica-se como regra geral a toda a Administração Pública direta e indireta, impedindo que o Estado se exima de indenizar mesmo diante de comprovada culpa exclusiva da vítima.",
+    "gabarito": "E",
+    "justificativa": "A regra constitucional é risco administrativo, com análise de excludentes de nexo. A frase generaliza indevidamente risco integral a toda Administração. Hipóteses especiais têm regimes próprios.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário.",
+    "versao_correta": "O art. 37, § 6º, adota risco administrativo como regra, sem excluir a análise de causalidade."
+  },
+  {
+    "id": "rt-11-6-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Responsabilidade objetiva elimina a necessidade de demonstrar nexo causal.",
+    "gabarito": "E",
+    "justificativa": "Ela dispensa a culpa no regime pertinente, sem eliminar dano e causalidade.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 6: Licitações e Contratos - Lei 14.133/2021)",
+    "habilidade": "aplicar",
+    "versao_correta": "Responsabilidade objetiva não dispensa dano e nexo causal."
+  },
+  {
+    "id": "rt-11-6-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma causa natural exclui necessariamente a responsabilidade mesmo se falha do serviço concorreu para o dano.",
+    "gabarito": "E",
+    "justificativa": "O nome da causa não prova exclusividade nem rompe automaticamente o nexo.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 6: Licitações e Contratos - Lei 14.133/2021)",
+    "habilidade": "aplicar",
+    "versao_correta": "É preciso verificar se a causa rompeu o nexo ou concorreu com falha estatal."
+  },
+  {
+    "id": "rt-11-6-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A responsabilidade externa objetiva e a ação regressiva subjetiva examinam relações jurídicas distintas.",
+    "gabarito": "C",
+    "justificativa": "A primeira protege o terceiro sob as condições constitucionais; a segunda exige os pressupostos de regresso contra o responsável.",
+    "fonte": "CF, art. 37, § 6º; STF, Temas 130, 592 e 940; responsabilidade extracontratual nos limites do cenário.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 6: Licitações e Contratos - Lei 14.133/2021)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-6-fonte-cf",
+      "nome": "Constituição Federal",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Constituição Federal",
+      "ideiaChave": "Arts. 37, 49, 70–75 e 84, conforme o assunto.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-6-fonte-tema940",
+      "nome": "STF — Tema 940",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Tema 940",
+      "ideiaChave": "Polo passivo da ação e direito de regresso.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-6-fonte-tema592",
+      "nome": "STF — Tema 592",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Tema 592",
+      "ideiaChave": "Dever específico de proteção da pessoa sob custódia.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-6-1",
+      "afirmacao": "Responsabilidade objetiva elimina a necessidade de demonstrar nexo causal.",
+      "gabarito": "E",
+      "porQue": "Ela dispensa a culpa no regime pertinente, sem eliminar dano e causalidade."
+    },
+    {
+      "id": "memoria-rt-11-6-2",
+      "afirmacao": "Uma causa natural exclui necessariamente a responsabilidade mesmo se falha do serviço concorreu para o dano.",
+      "gabarito": "E",
+      "porQue": "O nome da causa não prova exclusividade nem rompe automaticamente o nexo."
+    },
+    {
+      "id": "memoria-rt-11-6-3",
+      "afirmacao": "A responsabilidade externa objetiva e a ação regressiva subjetiva examinam relações jurídicas distintas.",
+      "gabarito": "C",
+      "porQue": "A primeira protege o terceiro sob as condições constitucionais; a segunda exige os pressupostos de regresso contra o responsável."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-11-6-bloco-1",
+    "titulo": "Evolução Histórica da Responsabilidade Civil do Estado",
+    "objetivos": [
+      "Distinguir risco administrativo e falta do serviço."
+    ],
+    "conteudo": "A compreensão da responsabilidade patrimonial extracontratual do Estado passou por quatro formulações históricas frequentemente usadas para fins didáticos, sem presumir cronologia idêntica em todos os países:\n\n1. **Teoria da Irresponsabilidade Estatal (*The King Can Do No Wrong*):** Típica dos Estados absolutistas, nos quais a soberania régia era inquestionável e o soberano não respondia civilmente por prejuízos causados aos súditos.\n2. **Teoria da Culpa Civilista (Responsabilidade com Culpa):** Com o advento do Estado Liberal, admitiu-se a responsabilidade estatal distinguindo os *atos de império* (praticados com supremacia soberana, irrecorríveis e isentos de indenização) dos *atos de gestão* (praticados em condições de igualdade com os particulares, nos quais o Estado respondia com base na culpa civil subjetiva do seu preposto).\n3. **Teoria da Culpa Administrativa (Falta do Serviço / *Faute du Service*):** Rompe com a culpa individual do funcionário. O dever de indenizar surge da falta do serviço público, demonstrada em três hipóteses: o serviço *não funcionou*, funcionou *mal* ou funcionou com *atraso*. É uma teoria de responsabilidade subjetiva, mas de culpa anônima do aparelho estatal.\n4. **Teoria do Risco Administrativo (Responsabilidade Objetiva):** Adotada como regra pela Constituição Federal de 1988 (art. 37, § 6º). Assenta-se no princípio da equidade e na repartição dos encargos públicos: a coletividade beneficia-se dos serviços públicos; logo, eventuais prejuízos causados a indivíduos pela atuação estatal devem ser reparados pelo erário, independentemente da demonstração de dolo ou culpa do servidor.\n\n**Aplicação e recuperação:** Um serviço funcionou tarde e causou dano demonstrado. A falta do serviço não exige identificar qual funcionário errou para formular a teoria da culpa administrativa. Já o risco administrativo dispensa prova de culpa no regime objetivo, mas conserva os demais pressupostos.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-11-6-bloco-2",
+    "titulo": "O Regime Constitucional do Art. 37, § 6º da CF/88",
+    "objetivos": [
+      "Identificar as pessoas jurídicas abrangidas pelo art. 37, § 6º."
+    ],
+    "conteudo": "> *\"As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\"*\n\n* **Pessoas Jurídicas Vinculadas:** \n  1. Todas as pessoas jurídicas de direito público (União, Estados, DF, Municípios, Autarquias e Fundações Públicas de Direito Público);\n  2. Pessoas jurídicas de direito privado **prestadoras de serviços públicos** (Empresas Públicas e Sociedades de Economia Mista prestadoras de serviços, bem como concessionárias e permissionárias privadas).\n* **Empresas Estatais Exploradoras de Atividade Econômica:** Não se submetem à responsabilidade objetiva do art. 37, § 6º, da CF/88, respondendo sob o regime de direito privado civil comum (art. 173, § 1º, II, CF), sem afastar hipóteses de responsabilidade objetiva estabelecidas por outras normas, como o CDC quando aplicável.\n\n**Aplicação e recuperação:** Uma concessionária causa dano a terceiro não usuário durante a prestação do serviço. O Tema 130 do STF reconhece responsabilidade objetiva perante usuários e não usuários. Ser pessoa privada não afasta por si o art. 37, § 6º; a atividade e a qualidade da atuação importam.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-11-6-bloco-3",
+    "titulo": "Requisitos para a Configuração da Responsabilidade Objetiva",
+    "objetivos": [
+      "Relacionar dano, conduta e nexo sem exigir culpa do agente no polo externo."
+    ],
+    "conteudo": "Para que o particular faça jus à indenização pelo Estado, é necessário examinar, no cenário constitucional pertinente, três elementos, sem dispensar a análise de excludentes:\n1. **Conduta Estatal:** Conduta imputável ao Estado no regime pertinente; na atuação comissiva, o agente deve atuar nessa qualidade;\n2. **Dano Efetivo:** Lesão material, patrimonial, estética ou moral direta a direito de terceiro;\n3. **Nexo de Causalidade:** Relação de causa e efeito direta e imediata entre a conduta do agente público e o dano experimentado (Teoria do Dano Direto e Imediato - art. 403 do Código Civil).\n\n**Aplicação e recuperação:** Livro particular é danificado durante transporte oficial por agente nessa qualidade. Identifique o prejuízo e o vínculo causal. Se os mesmos danos já existiam antes do transporte, não podem ser integralmente atribuídos à conduta sem demonstração. Objetividade não dispensa prova de dano e causalidade.",
+    "checkpointIds": [
+      "cp-11-6-2",
+      "rt-11-6-1"
+    ]
+  },
+  {
+    "id": "sub-11-6-bloco-4",
+    "titulo": "Responsabilidade por Omissão do Estado",
+    "objetivos": [
+      "Examinar dever específico e possibilidade de impedir o dano."
+    ],
+    "conteudo": "* **Omissão Genérica (Regra da Responsabilidade Subjetiva):** Ocorre quando o Estado descumpre um dever genérico de proteção da coletividade (ex.: furto de automóvel estacionado em rua pública, assalto na via comum, chuva torrencial que alaga avenida sem falha construtiva). o tratamento doutrinário usual aponta responsabilidade **subjetiva** pela falha do serviço, exigindo verificar o dever concreto, possibilidade de atuação e causalidade; não basta chamar a situação de omissão para decidir todo caso (o particular deve demonstrar que o Estado tinha o dever de agir e foi negligente).\n* **Omissão Específica (Responsabilidade Objetiva por Dever de Custódia):** Ocorre quando o Estado detém o dever jurídico individualizado de evitar o dano sobre pessoas ou coisas postas sob sua custódia ou vigilância direta e imediata:\n  * Exemplo: O Tema 592 do STF examina morte de detento diante da inobservância do dever específico de proteção. É preciso demonstrar as condições da tese e o nexo. Não se conclui responsabilidade automática por toda morte, por todo evento em hospital/escola ou pela simples presença de um bem em prédio público. Cada hipótese demanda seu regime, dever e possibilidade de evitar o dano.\n\n**Aplicação e recuperação:** A narrativa informa apenas que ocorreu lesão dentro de prédio público. Ela ainda não descreve todo dever de proteção nem a possibilidade de prevenção. No caso de custódia do Tema 592, examine se houve inobservância do dever específico. Não transforme “dentro do prédio” em teste jurídico universal.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-11-6-bloco-5",
+    "titulo": "Causas Excludentes e Atenuantes da Responsabilidade",
+    "objetivos": [
+      "Aplicar excludentes ao nexo, sem automatismo pelo nome do evento."
+    ],
+    "conteudo": "Como a CF/88 adotou a Teoria do Risco Administrativo (e não a Teoria do Risco Integral), admite-se a exclusão ou a redução da responsabilidade estatal quando houver quebra do nexo causal:\n\n* **Causas Excludentes (Isentam o Estado Integralmente):**\n  1. **Culpa Exclusiva da Vítima:** O particular causa o evento lesivo por sua própria e exclusiva imprudência ou dolo (ex.: cidadão que se joga intencionalmente sob as rodas de viatura oficial em movimento regular).\n  2. **Caso Fortuito ou Força Maior:** Eventos cuja relação com a atuação e o dever estatal efetivamente rompa o nexo no cenário. Um evento natural não exclui responsabilidade se o dano também decorre de falha causalmente relevante do serviço.\n  3. **Fato Exclusivo de Terceiro:** Evento danoso praticado por terceiro sem nenhuma participação ou negligência de agentes públicos.\n* **Causa Atenuante (Reduz a Indenização Proporcionalmente):**\n  * **Culpa Concorrente da Vítima:** A vítima e o agente público concorrem simultaneamente para o desfecho danoso (o valor da reparação fixado judicialmente é partilhado proporcionalmente).\n\n**Aplicação e recuperação:** Chuva intensa danifica acervo após anos de vazamentos documentados e sem providência. Invocar natureza do evento não encerra o exame: a omissão pode ter relevância causal. Em cenário diferente, uma causa exclusiva realmente rompe o nexo. Explique qual fato mudaria a conclusão.",
+    "checkpointIds": [
+      "cp-11-6-3",
+      "rt-11-6-2"
+    ]
+  },
+  {
+    "id": "sub-11-6-bloco-6",
+    "titulo": "Ação Regressiva e a Tese do Tema 940 do STF (Princípio da Dupla Garantia)",
+    "objetivos": [
+      "Distinguir ação do terceiro, regresso e outras esferas."
+    ],
+    "conteudo": "O Supremo Tribunal Federal, ao julgar o **Tema 940 da Repercussão Geral (RE 1.027.633/SP)**, fixou tese vinculante:\n> *\"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o agente público, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.\"*\n\n* **Princípio da Dupla Garantia:** A tese direciona a ação indenizatória do terceiro contra a pessoa jurídica e preserva o regresso nos casos de dolo ou culpa. Não promete pagamento imediato nem elimina responsabilização penal ou disciplinar do agente.\n\n**Aplicação e recuperação:** No regime do Tema 940, a vítima processa a pessoa jurídica; eventual regresso examina dolo ou culpa do agente. Essas duas etapas não autorizam negar à vítima indenização só porque não demonstrou culpa pessoal. Tampouco autorizam cobrar regressivamente sem esse pressuposto.",
+    "checkpointIds": [
+      "cp-11-6-1",
+      "rt-11-6-3"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cf",
+    "titulo": "Constituição Federal",
+    "localizador": "Arts. 37, 49, 70–75 e 84, conforme o assunto.",
+    "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+  },
+  {
+    "id": "tema940",
+    "titulo": "STF — Tema 940",
+    "localizador": "Polo passivo da ação e direito de regresso.",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=940"
+  },
+  {
+    "id": "tema592",
+    "titulo": "STF — Tema 592",
+    "localizador": "Dever específico de proteção da pessoa sob custódia.",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=592"
+  }
+],
 };

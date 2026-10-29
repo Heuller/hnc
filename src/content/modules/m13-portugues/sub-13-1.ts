@@ -14,86 +14,27 @@ export const submodulo131: ModuloFilho = {
   ],
   titulo: 'Mecânica da Interpretação, Coesão e Relações Semânticas no Padrão Cebraspe',
   antesDeLer: [
-    {
-      termo: 'Anáfora',
-      definicao: 'Mecanismo de coesão referencial pelo qual um termo retoma um elemento previamente introduzido no texto.',
-      exemploBiblioteca: 'Na frase "A biblioteca adquiriu novos periódicos; eles já estão catalogados", "eles" é anafórico.',
-    },
-    {
-      termo: 'Catáfora',
-      definicao: 'Mecanismo de coesão referencial pelo qual um termo antecipa uma informação que só virá adiante.',
-      exemploBiblioteca: 'Na frase "Apenas isto interessa: a data de promulgação da lei", o pronome "isto" é catafórico.',
-    },
-    {
-      termo: 'Elipse',
-      definicao: 'Omissão intencional de um termo facilmente identificável pelo contexto, evitando repetições.',
-      exemploBiblioteca: 'Na frase "A Seção de Atendimento abriu às 8h; a de Obras Raras, às 9h", o verbo abrir foi elidido.',
-    },
-    {
-      termo: 'Concessão',
-      definicao: 'Relação semântica em que se admite um fato que poderia ser obstáculo, mas não impede a ação principal.',
-      exemploBiblioteca: '"Embora o acervo estivesse sob higienização, a consulta às obras raras foi autorizada."',
-    },
-    {
-      termo: 'Extrapolação',
-      definicao: 'Erro clássico em que a assertiva da banca traz ideias externas verídicas, mas sem respaldo no texto.',
-      exemploBiblioteca: 'Afirmar que o autor defende uma teoria porque é famosa na área, sem que o texto a mencione.',
-    },
-  ],
-  descricaoCurta: 'Diferenciação científica entre Compreensão e Interpretação, identificação de anáforas e elipses, operadores argumentativos e as armadilhas clássicas de extrapolação e inversão causal.',
-  tempoEstimadoMinutos: 12,
-  autoresChave: [
-    'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
-    'Evanildo Bechara (Moderna Gramática Portuguesa)',
-    'Ingedore Villaça Koch (A Coesão Textual)',
-    'Luiz Antônio Marcuschi (Produção Textual, Análise de Gêneros e Compreensão)',
-  ],
-  alertasCebraspe: [
-  "Relacione conclusão e evidência. Uma frase verdadeira fora do texto pode não responder ao comando.",
-  "Não atribua ao autor uma posição que ele apenas cita para criticar.",
-  "Verifique alcance, tempo e condição; a reprodução de palavras do texto não garante a mesma informação."
-],
-  quadroComparativo: {
-    titulo: 'Matriz Cebraspe dos Operadores Argumentativos e Conectivos de Alta Incidência',
-    colunas: ['Relação Semântica', 'Conectivos Canônicos', 'Impacto Argumentativo', 'Armadilha Típica da Banca', 'Regra Mental de Reconhecimento'],
-    linhas: [
-      [
-        'Causalidade',
-        'Porque, visto que, já que, porquanto, como (início)',
-        'Apresenta o fato motivador / deflagrador que gerou a oração principal',
-        'Inverter a ordem, chamando a causa de consequência ou de conclusão',
-        'Pergunte: "O que aconteceu primeiro no tempo real?" O que aconteceu primeiro é a causa.',
-      ],
-      [
-        'Concessão',
-        'Embora, conquanto, ainda que, malgrado, a despeito de',
-        'Introduz ressalva fraca que não tem força para anular o fato principal',
-        'Substituir por "contudo" ou "mas" e afirmar que a estrutura oracional e modo verbal se mantêm intactos',
-        'Concessivas exigem verbo no MODO SUBJUNTIVO (embora faça, conquanto seja).',
-      ],
-      [
-        'Adversidade',
-        'Mas, porém, contudo, todavia, entretanto, no entanto',
-        'Introduz a ideia com maior peso argumentativo no parágrafo',
-        'Afirmar que a conjunção "mas" pode ser deslocada para o meio da oração (o "mas" é estritamente inicial)',
-        'Todas as adversativas aceitam deslocamento entre vírgulas, EXCETO o "mas".',
-      ],
-      [
-        'Conclusão',
-        'Portanto, por conseguinte, logo, destarte, dessarte, pois (posposto)',
-        'Encerra uma dedução lógica decorrente de premissas apresentadas',
-        'Confundir o "pois" explicativo (início da oração) com o "pois" conclusivo (entre vírgulas após o verbo)',
-        'Pois antes do verbo = Causa/Explicação. Pois depois do verbo (entre vírgulas) = Portanto (Conclusão).',
-      ],
-      [
-        'Condição',
-        'Se, caso, desde que, contanto que, a menos que',
-        'Subordina a eficácia de um ato a evento futuro e incerto',
-        'Trocar "se" por "caso" sem alterar o modo verbal (se fizer / caso faça)',
-        '"Se" rege Futuro do Subjuntivo; "Caso" rege Presente do Subjuntivo.',
-      ],
-    ],
+  {
+    "termo": "Inferência",
+    "definicao": "Conclusão sustentada por pistas e relações do texto.",
+    "exemploBiblioteca": "Ainda não publicou não prova sozinho que a redação está em andamento."
   },
+  {
+    "termo": "Coesão",
+    "definicao": "Recursos que articulam referências e relações no texto.",
+    "exemploBiblioteca": "Um pronome pode retomar informação sem repetir o nome."
+  }
+],
+  descricaoCurta: "Separar o que foi dito, o que se pode concluir e uma hipótese acrescentada. Reconhecer quem assume cada posição e o papel de um trecho. Reconstruir referentes por compatibilidade e preservar relações de pertença. Distinguir oposição, concessão, causa, conclusão e condição. Reconhecer informação de fundo sem transformar todo implícito em certeza.",
+  tempoEstimadoMinutos: 19,
+  autoresChave: [
+  "Manual de Redação da Presidência da República, 3ª ed. (2018)"
+],
+  alertasCebraspe: [
+  "O texto informa que a variável não foi avaliada. Não medir não demonstra melhora nem piora. A assertiva transforma limite do estudo em resultado negativo.",
+  "A condição e o modal de possibilidade não afirmam realização passada. Já foi publicado acrescenta temporalidade e efetividade ausentes.",
+  "A falta de publicação é compatível com redação em curso ou com documento concluído que aguarda divulgação. A conclusão sobre redação acrescenta dado não fornecido."
+],
   secoes: [
     {
       id: 'sec-compreensao-interpretacao',
@@ -202,69 +143,38 @@ export const submodulo131: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tm-13-1-1',
-        periodo: 'Linguística Moderna (2002)',
-        disciplina: 'Linguística Textual',
-        focoPrincipal: 'Conceito de Textualidade e Coesão como Fator de Eficácia Comunicativa',
-        figuraChave: 'Ingedore Koch',
-      },
-      {
-        id: 'tm-13-1-2',
-        periodo: 'Gramática Canônica (2008)',
-        disciplina: 'Morfossintaxe da Norma Culta',
-        focoPrincipal: 'Estruturação dos Conectivos, Regência e Concordância Oficial',
-        figuraChave: 'Celso Cunha & Lindley Cintra',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-13-1-1',
-        nome: 'Celso Cunha & Lindley Cintra',
-        ano: 2008,
-        obraPrincipal: 'Nova Gramática do Português Contemporâneo',
-        ideiaChave: 'Referência magna da norma culta para concursos federais: regência de pronomes relativos, proibições de artigos pós-cujo e emprego de demonstrativos.',
-        chipPegadinha: 'Pronome Cujo sem Artigo',
-      },
-      {
-        id: 'aut-13-1-2',
-        nome: 'Evanildo Bechara',
-        ano: 2009,
-        obraPrincipal: 'Moderna Gramática Portuguesa (37ª Ed.)',
-        ideiaChave: 'Sintaxe dos períodos compostos, orações coordenadas adversativas versus subordinadas concessivas e distinção funcional do conectivo "pois".',
-        chipPegadinha: 'Concessão vs Adversidade',
-      },
-      {
-        id: 'aut-13-1-3',
-        nome: 'Ingedore Villaça Koch',
-        ano: 2002,
-        obraPrincipal: 'A Coesão Textual',
-        ideiaChave: 'Mecanismos de progressão textual: anáfora, catáfora, elipse e cadeias de correferencialidade que sustentam o sentido do discurso.',
-        chipPegadinha: 'Rastreamento Anafórico',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-13-1-1',
-        afirmacao: 'Na frase "A comissão parlamentar, cuja a votação foi adiada, reunir-se-á amanhã", a inserção do artigo "a" após "cuja" confere maior formalidade e correção gramatical ao texto.',
-        gabarito: 'E',
-        porQue: 'É erro gramatical crasso pospor artigo definido ao pronome relativo "cujo" (e flexões). O pronome já incorpora valor determinante.',
-      },
-      {
-        id: 'peg-13-1-2',
-        afirmacao: 'O conectivo "pois", quando empregado no início da oração, possui valor conclusivo equivalente a "portanto".',
-        gabarito: 'E',
-        porQue: '"Pois" no início da oração é causal ou explicativo (equivale a "porque"). Para ser conclusivo, deve vir obrigatoriamente deslocado após o verbo e isolado entre vírgulas.',
-      },
-      {
-        id: 'peg-13-1-3',
-        afirmacao: 'A substituição de uma conjunção concessiva ("embora") por uma adversativa ("mas") altera a hierarquia argumentativa e a força ilocucionária do período.',
-        gabarito: 'C',
-        porQue: 'A adversativa introduz o argumento dominante (mais forte), enquanto a concessiva introduz uma ressalva atenuada que não impede a ação principal.',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-13-1-fonte-mrpr",
+      "nome": "Manual de Redação da Presidência da República, 3ª ed. (2018)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Manual de Redação da Presidência da República, 3ª ed. (2018)",
+      "ideiaChave": "Coesão/coerência, ambiguidade, sintaxe, regência e pontuação. Exemplos de aplicação autorais.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-13-1-3",
+      "afirmacao": "Na expressão “a norma a cujos dispositivos nos referimos”, a preposição antes de cujos pode ser exigida pela regência de referir-se.",
+      "gabarito": "C",
+      "porQue": "Referir-se a exige a preposição. Cujos continua concordando com dispositivos e não recebe artigo entre o relativo e esse nome. Preposição antes e artigo depois são situações diferentes."
+    },
+    {
+      "id": "memoria-rt-13-1-4",
+      "afirmacao": "“O registro poderá ser publicado se estiver completo” informa que todo registro completo já foi publicado.",
+      "gabarito": "E",
+      "porQue": "A condição e o modal de possibilidade não afirmam realização passada. Já foi publicado acrescenta temporalidade e efetividade ausentes."
+    },
+    {
+      "id": "memoria-rt-13-1-5",
+      "afirmacao": "A frase “A equipe ainda não publicou o relatório” garante que o relatório continua em redação.",
+      "gabarito": "E",
+      "porQue": "A falta de publicação é compatível com redação em curso ou com documento concluído que aguarda divulgação. A conclusão sobre redação acrescenta dado não fornecido."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

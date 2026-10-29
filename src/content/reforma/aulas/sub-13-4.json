@@ -212,9 +212,7 @@
     }
   ],
   "alertasCebraspe": [
-    "Classifique tonicidade e terminação antes de dizer que duas palavras seguem a mesma regra.",
-    "O gênero não impõe exclusividade de um tipo textual. Observe o segmento e a finalidade.",
-    "Futuro, indicativo e subjuntivo não devem ser tratados como etiquetas universais de certeza ou dúvida."
+    "A primeira construção enquadra a hipótese com imperfeito do subjuntivo e futuro do pretérito; a segunda projeta hipótese futura com futuro do subjuntivo e futuro do presente. A mudança de enquadramento deve ser avaliada no contexto."
   ],
   "mnemonicos": {
     "timeline": [],
@@ -250,5 +248,15 @@
         "porQue": "Parecer legislativo é GÊNERO TEXTUAL, e não tipo textual. O parecer mobiliza sequências tipológicas dissertativas, mas sua categoria pragmática é gênero."
       }
     ]
-  }
+  },
+  "autoresChave": [
+    "Acordo Ortográfico — Decreto 6.583/2008",
+    "Manual de Redação da Presidência, 3ª ed. (2018)",
+    "Marcuschi — Gêneros textuais: definição e funcionalidade"
+  ],
+  "descricaoCurta": "Classificar palavras corretamente antes de aplicar regra de acentuação. Distinguir ideias paroxítonas de herói oxítona e preservar acentos diferenciais pertinentes. Aplicar as condições mais frequentes e reconhecer quando consultar o registro. Reconhecer a heterogeneidade tipológica num gênero concreto. Interpretar o uso em contexto e explicar correlações condicionais. Distinguir próclise, ênclise e mesóclise sem aplicar o futuro isoladamente.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 25
 }

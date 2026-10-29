@@ -141,8 +141,28 @@
     }
   },
   "alertasCebraspe": [
-    "Leia o comando: preservar correção e preservar sentido são exigências distintas.",
-    "Tempo, aspecto e modalidade não devem ser trocados por semelhança lexical.",
-    "A reescrita deve conservar as ressalvas pertinentes; não introduza conclusão ou precisão ausentes."
-  ]
+    "Na primeira, somente incide sobre a equipe; na segunda, sobre os arquivos. A posição muda o escopo no contexto dado.",
+    "A sequência não fixa intervalo de precisão tão específico. Inserir imediatamente ou no mesmo segundo acrescenta uma condição temporal não assegurada.",
+    "Necessidade de avaliação e resultado negativo de uma avaliação são estados diferentes. A reprovação foi acrescentada pela assertiva."
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Reescrita",
+      "definicao": "Reformulação a avaliar quanto a sentido, correção e organização.",
+      "exemploBiblioteca": "Manter palavras parecidas não garante manter causa, tempo ou alcance."
+    },
+    {
+      "termo": "Voz e foco",
+      "definicao": "Construções podem alterar foco e organização informacional.",
+      "exemploBiblioteca": "Uma passiva pode conservar participantes e ainda mudar o destaque da oração."
+    }
+  ],
+  "autoresChave": [
+    "Manual de Redação da Presidência da República, 3ª ed. (2018)"
+  ],
+  "descricaoCurta": "Separar correção gramatical, sentido e adequação ao encadeamento. Converter ativa e passiva quando a estrutura admitir. Desenvolver infinitivo, gerúndio e particípio conforme o contexto. Examinar o alcance de termos e evitar regras universais sobre ordem. Validar propostas completas e justificar acerto e erro.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 19
 }

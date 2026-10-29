@@ -8,237 +8,234 @@ export const submodulo117: ModuloFilho = {
   titulo: 'Improbidade Administrativa (Lei nº 8.429/1992 e Reforma da Lei nº 14.230/2021)',
   titulo_curto: 'Improbidade Administrativa',
   antesDeLer: [
-    {
-      termo: 'Lei de Improbidade Administrativa (Lei nº 8.429/1992)',
-      definicao: 'Norma reformada pela Lei nº 14.230/2021 que pune atos que causam enriquecimento ilícito, dano ao erário ou violação de princípios.',
-      exemploBiblioteca: 'Tipificação rigorosa que exige comprovação de dolo específico para configuração do ato de improbidade.',
-    },
-    {
-      termo: 'Exigência de Dolo Específico (Reforma 2021)',
-      definicao: 'Não se admite mais a modalidade culposa em improbidade; exige-se a vontade livre e consciente de alcançar o resultado ilícito.',
-      exemploBiblioteca: 'Mero erro formal ou imperícia no inventário de livros não configura improbidade, exigindo apuração apenas disciplinar se cabível.',
-    },
-    {
-      termo: 'Sanções por Improbidade',
-      definicao: 'Penalidades cominadas judicialmente: perda da função pública, suspensão dos direitos políticos, ressarcimento ao erário e multa civil.',
-      exemploBiblioteca: 'Perda do cargo público de gestor que desviar verbas destinadas à aquisição de obras raras para benefício próprio.',
-    },
-    {
-      termo: 'Princípio da Intranscendência das Penas',
-      definicao: 'Regra que assegura que as sanções por ato de improbidade não podem passar da pessoa do agente condenado.',
-      exemploBiblioteca: 'A responsabilidade patrimonial atinge sucessores até o limite do valor da herança transferida.',
-    },
-  ],
-  descricaoCurta: 'O novo regime da Lei nº 8.429/1992 após a Lei nº 14.230/2021. Extinção da modalidade culposa e exigência de dolo específico. Tipologias dos arts. 9º, 10 e taxatividade do art. 11. Sanções aplicáveis. Sujeito passivo e particular em coautoria. Prescrição de 8 anos e o ANPC.',
-  tempoEstimadoMinutos: 11,
+  {
+    "termo": "Dolo na LIA",
+    "definicao": "Elemento subjetivo exigido nos tipos reformados; voluntariedade isolada não basta.",
+    "exemploBiblioteca": "Negligência pode gerar outra responsabilidade sem ser automaticamente improbidade."
+  },
+  {
+    "termo": "Transição normativa",
+    "definicao": "Aplicação de regras segundo vigência, coisa julgada e jurisprudência pertinente.",
+    "exemploBiblioteca": "Tema 1199 não torna toda alteração da lei retroativa."
+  }
+],
+  descricaoCurta: "Distinguir dolo, voluntariedade e regime de transição. Relacionar cada tipo aos seus elementos e sanções. Separar participação dolosa e simples vínculo contratual. Aplicar legitimidade, consensualidade e atualização prescricional.",
+  tempoEstimadoMinutos: 17,
   autoresChave: [
-    'Lei nº 8.429/1992 (com alterações da Lei nº 14.230/2021)',
-    'STF (ADIs 7042 e 7043 - Legitimidade Concorrente)',
-    'STF (Tema 1199 de Repercussão Geral - Irretroatividade)',
-    'Maria Sylvia Zanella Di Pietro',
-    'José dos Santos Carvalho Filho',
-  ],
+  "Lei 8.429/1992",
+  "STF — Informativo 1065/2022",
+  "STF — Informativo 1225/2026",
+  "STF — Informativo 1066/2022"
+],
   alertasCebraspe: [
-    'INEXISTÊNCIA DE IMPROBIDADE CULPOSA: A alteração mais cobrada pelo Cebraspe! Desde a Lei nº 14.230/2021, NÃO EXISTE MAIS IMPROBIDADE ADMINISTRATIVA CULPOSA no Brasil. A lesão ao erário (art. 10), que antes admitia culpa, hoje exige comprovado DOLO ESPECÍFICO (intenção consciente de auferir resultado ilícito). Condutas culposas (negligência, imperícia ou imprudência) podem gerar punição disciplinar ou ação civil comum de ressarcimento, mas JAMAIS improbidade.',
-    'TAXATIVIDADE DO ART. 11 (ATENTADO A PRINCÍPIOS): Antes da reforma de 2021, o rol do art. 11 era exemplificativo. Agora, o rol do art. 11 é RIGOROSAMENTE TAXATIVO (numerus clausus). Só há improbidade por violação a princípios se a conduta estiver expressamente prevista em um dos incisos do art. 11.',
-    'PUNIÇÕES DO ART. 11: No art. 11 (atentado contra princípios), a reforma de 2021 REVOGOU as sanções de perda da função pública e de suspensão dos direitos políticos. Hoje, quem comete improbidade do art. 11 sujeita-se unicamente a: 1) Multa civil de até 24 vezes a sua remuneração; 2) Proibição de contratar com o poder público por até 4 anos.',
-    'PARTICULAR NÃO RESPONDE SOZINHO: O particular (pessoa física ou jurídica) só pode figurar no polo passivo da ação de improbidade se comprovadamente induzir ou concorrer dolosamente em conjunto com um agente público. É impossível propor ação de improbidade exclusivamente contra particular!',
-  ],
-  quadroComparativo: {
-    titulo: 'Quadro Comparativo das Sanções por Improbidade Administrativa (Lei 14.230/2021)',
-    colunas: ['Espécie de Ato', 'Suspensão dos Direitos Políticos', 'Perda da Função Pública', 'Multa Civil Máxima', 'Proibição de Contratar / Benefícios Fiscais'],
-    linhas: [
-      ['Art. 9º - Enriquecimento Ilícito', 'Até 14 anos', 'Sim (atinge o vínculo do mesmo órgão/entidade)', 'Equivalente ao valor do acréscimo patrimonial ilícito', 'Até 14 anos'],
-      ['Art. 10 - Prejuízo ao Erário', 'Até 12 anos', 'Sim (atinge o vínculo do mesmo órgão/entidade)', 'Equivalente ao valor do dano patrimonial efetivo', 'Até 12 anos'],
-      ['Art. 11 - Atentado contra Princípios', 'NÃO SE APLICA (revogada pela Lei 14.230/2021)', 'NÃO SE APLICA (revogada pela Lei 14.230/2021)', 'Até 24 vezes o valor da remuneração do agente', 'Até 4 anos'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. O Marco Revolucionário da Lei nº 14.230/2021 na Improbidade Administrativa
-
-A Lei nº 14.230/2021 promoveu a mais profunda reformulação da Lei de Improbidade Administrativa (Lei nº 8.429/1992 - LIA) desde a sua promulgação, alinhando o direito sancionador administrativo às garantias materiais do direito penal:
-
-* **Exigência Inegociável de Dolo Específico (Art. 1º, §§ 1º e 2º):**
-  * Considera-se ato de improbidade administrativa apenas a conduta funcional eivada de **dolo**, definido como a *vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11 desta Lei, não bastando a voluntariedade do agente*.
-  * O mero exercício da função ou desempenho de competências sem comprovação cabal de ato doloso com fim ilícito afasta por completo a responsabilidade por ato de improbidade (art. 1º, § 3º).
-* **Extinção Definitiva da Improbidade Culposa:**
-  * O art. 10 da LIA (atos que causam prejuízo ao erário), que historicamente admitia a modalidade culposa (negligência, imprudência ou imperícia na arrecadação tributária ou na conservação do patrimônio), teve a expressão *"ou culposa"* expressamente extirpada.
-  * Hoje, sem exceção, **não existe improbidade culposa no direito brasileiro**.
-* **Tema 1199 do STF (Irretroatividade Parcial da Lei nº 14.230/2021):**
-  * O STF decidiu que a revogação da modalidade culposa da improbidade administrativa é irretroativa em relação às condenações transitadas em julgado antes da vigência da Lei 14.230/2021.
-  * Contudo, para os processos judiciais em curso (sem trânsito em julgado), a nova lei retroage para beneficiar o réu, extinguindo ações fundadas puramente em culpa.
-
----
-
-### 2. Espécies de Atos de Improbidade Administrativa
-
-#### 2.1 Enriquecimento Ilícito (Art. 9º)
-Conduta dolosa em que o agente público aufere qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade pública:
-* Exemplos: Receber propina ou comissão de fornecedor de sistema de biblioteca; utilizar veículos ou materiais da Câmara em obras particulares; incorporar ao patrimônio pessoal bens públicos ou verbas do erário.
-* **Elemento Subjetivo:** Dolo específico. Exige acréscimo patrimonial indevido e ilegítimo.
-
-#### 2.2 Prejuízo ao Erário (Art. 10)
-Qualquer ação ou omissão dolosa que enseje efetiva e comprovada perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres públicos:
-* **Exigência de Dano Efetivo:** Não há mais presunção de dano (*in re ipsa*). O dano ao erário deve ser real, quantificado e materialmente demonstrado.
-* Exemplos: Facilitar a alienação de obras do acervo histórico por valor manifestamente inferior ao de mercado; frustrar a licitude de processo licitatório com sobrepreço e dano efetivo; conceder benefício fiscal indevido.
-
-#### 2.3 Atentado aos Princípios da Administração Pública (Art. 11)
-Ação ou omissão dolosa que viola os deveres de honestidade, imparcialidade e legalidade:
-* **Taxatividade Rígida:** O rol dos incisos do art. 11 tornou-se **estritamente taxativo** (só há improbidade nos casos expressos dos incisos: revelar segredo de que tem ciência do cargo, frustrar a licitude de concurso público, deixar de prestar contas quando obrigado a fazê-lo, negar publicidade aos atos oficiais, praticar nepotismo nos termos da Súmula Vinculante 13 do STF).
-* **Sanções Abrandadas:** Foram extirpadas a perda da função pública e a suspensão de direitos políticos para os atos do art. 11. Restam apenas multa civil de até 24 remunerações e proibição de contratar por até 4 anos.
-
----
-
-### 3. Sujeitos do Ato de Improbidade
-
-* **Sujeito Ativo:** 
-  1. O agente público (servidor estatutário, empregado público, temporário, detentor de mandato político, ou quem atue transitoriamente e sem remuneração).
-  2. O particular (pessoa física ou jurídica): submete-se à LIA quando **induzir ou concorrer dolosamente** para a prática do ato de improbidade juntamente com o agente público. O particular nunca figura isoladamente no polo passivo da ação de improbidade.
-* **Sujeito Passivo:** A Administração Pública Direta e Indireta de todos os Poderes e esferas federativas, bem como entidades privadas que recebam subvenção, incentivo ou benefício fiscal/creditício do poder público.
-
----
-
-### 4. Aspectos Processuais Relevantes da LIA
-
-* **Legitimidade Ativa (STF - ADIs 7042 e 7043):**
-  * A Lei nº 14.230/2021 pretendeu conferir legitimidade privativa e exclusiva ao Ministério Público.
-  * O STF julgou parcialmente inconstitucional essa restrição, fixando a **legitimidade concorrente** entre o **Ministério Público** e a **pessoa jurídica de direito público interessada** (ex.: a União Federal representada pela Advocacia-Geral da União) para propor a ação de improbidade e para celebrar o acordo civil.
-* **Acordo de Não Persecução Civil (ANPC - Art. 17-B):**
-  * É admitida a solução consensual em improbidade administrativa mediante celebração de ANPC.
-  * Requisitos inafastáveis: 1) Ressarcimento integral do dano ao erário; 2) Reversão à pessoa jurídica lesada da vantagem indevida obtida; 3) Oitiva prévia do ente público lesado e homologação judicial obrigatória.
-* **Prescrição Unificada (Art. 23):**
-  * A ação de improbidade administrativa prescreve em **8 anos**, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.
-  * **Prescrição Intercorrente (Art. 23, § 5º):** Interrompida a prescrição (ex.: pelo ajuizamento da ação ou pela publicação da sentença condenatória), o prazo recomeça a correr pela **metade (4 anos)**. Se o processo ficar paralisado entre os marcos interruptivos por mais de 4 anos sem sentença/acórdão, pronuncia-se a prescrição intercorrente.`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Lei de Improbidade Administrativa (Lei nº 8.429/1992)** com a profunda reforma promovida pela **Lei Federal nº 14.230/2021** alterou os parâmetros da responsabilidade sancionatória:
-1. **A Grande Mudança: Exclusão Absoluta da Modalidade Culposa:**
-   - Com a reforma da Lei nº 14.230/2021, **NÃO existe mais ato de improbidade administrativa culposo no ordenamento jurídico brasileiro**!
-   - Todo e qualquer ato de improbidade administrativa exige agora a comprovação de **DOLO ESPECÍFICO** (vontade livre e consciente de alcançar o resultado ilícito tipificado em lei). A mera divergência interpretativa da lei não configura improbidade.
-2. **Os Três Grupos Canônicos de Atos de Improbidade:**
-   - **Art. 9º — Enriquecimento Ilícito:** Obtenção de qualquer vantagem patrimonial indevida em razão do cargo (ex.: receber propina, usar bens da biblioteca em obra particular).
-     - *Sanções:* Perda dos bens ilícitos, perda da função pública, suspensão dos direitos políticos **até 14 anos**, multa civil equivalente ao valor do acréscimo e proibição de contratar por até 14 anos.
-   - **Art. 10 — Lesão ao Erário:** Qualquer ação dolosa que cause perda patrimonial efetiva aos cofres públicos (ex.: permitir superfaturamento em compra de livros).
-     - *Sanções:* Ressarcimento integral do dano, perda dos bens, perda da função, suspensão dos direitos políticos **até 12 anos**, multa civil equivalente ao valor do dano e proibição de contratar por até 12 anos.
-   - **Art. 11 — Violação aos Princípios da Administração Pública:** Rol taxativo de condutas dolosas graves (ex.: fraudar concurso público, quebrar sigilo oficial).
-     - *Sanções:* Multa civil de até 24 vezes a remuneração e proibição de contratar por até 4 anos. **ATENÇÃO:** Para o art. 11, a Lei 14.230/2021 **revogou a perda da função pública e a suspensão dos direitos políticos**!
-3. **Prazo Prescricional Unificado:**
-   - Prescrição em **8 anos**, contados da data da ocorrência do fato (ou da cessação da permanência no caso de atos contínuos).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Recebimento de Vantagem Econômica Indevida em Licitação de Periódicos):** Um servidor do CEDI recebe R$ 20.000 de uma distribuidora de livros para favorecê-la em uma compra. Ele incorre no **Art. 9º da Lei nº 8.429/92 (Enriquecimento Ilícito com dolo específico)**, sujeito à perda do cargo, suspensão de direitos políticos de até 14 anos e ressarcimento integral.
-- **Cenário 2 (Superfaturamento Doloso em Contrato de Digitalização):** Gestores públicos da Câmara atestam a digitalização de 100.000 páginas de anais que nunca foram digitalizadas, liberando o pagamento à empresa parceira. Incorrem no **Art. 10 (Prejuízo ao Erário)**, exigindo ressarcimento do erário e multas severas.
-- **Cenário 3 (Erro Material sem Dolo em Parecer Técnico):** Um bibliotecário comete um equívoco de interpretação em uma nota técnica de aquisição de software, gerando descompasso sem qualquer proveito próprio ou má-fé. Sob a Lei nº 14.230/2021, esse fato pode ser apurado disciplinarmente, mas **NÃO constitui improbidade administrativa**, pois inexiste dolo específico.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Improbidade | Exigência Subjetiva | Sanção Máx. Direitos Políticos | Perda da Função Pública? |
-| :--- | :--- | :--- | :--- |
-| **Enriquecimento Ilícito (Art. 9º)** | **Dolo Específico** | Suspensão de **até 14 anos** | SIM |
-| **Prejuízo ao Erário (Art. 10)** | **Dolo Específico** (culpa foi revogada!) | Suspensão de **até 12 anos** | SIM |
-| **Atentado aos Princípios (Art. 11)** | **Dolo Específico** | **NÃO tem mais suspensão!** | **NÃO tem mais perda de função!** |
-| **Prazo Prescricional** | Regra Geral | **8 anos contados do fato** | Prescrição intercorrente de 4 anos |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Ato de Improbidade Culposo:** O Cebraspe coloca uma situação em que o agente público agiu com imprudência ou negligência causando prejuízo ao erário e pergunta se ele cometeu improbidade culposa. **Gabarito: ERRADO.** A reforma da Lei nº 14.230/2021 extirpou a culpa do sistema de improbidade; sem dolo específico demonstrado, o ato não é ímprobo.
-- **Suspensão de Direitos Políticos no Art. 11:** Afirmar que quem viola princípios da administração pública (art. 11) tem seus direitos políticos suspensos por 5 anos. **Gabarito: ERRADO.** A nova lei revogou expressamente a suspensão de direitos políticos para o art. 11!
-- **Legitimidade para Ação de Improbidade:** Dizer que qualquer cidadão ou a própria pessoa jurídica lesada pode propor a ação judicial de improbidade. **Gabarito: ERRADO.** A legitimidade ativa para propor a ação de improbidade administrativa é privativa e exclusiva do **Ministério Público** (art. 17).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Lei Federal nº 8.429, de 2 de junho de 1992*. Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa (com a redação da Lei Federal nº 14.230/2021).
-- **GARCIA, Emerson; ALVES, Rogério Pacheco.** *Improbidade Administrativa*. 11. ed. São Paulo: Saraiva, 2022. (A principal obra de referência sobre a nova lei de improbidade).
-- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023.
-- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.
-- **SUPREMO TRIBUNAL FEDERAL (STF).** *Tema 1.199 de Repercussão Geral (ARE 843.989)*: Todos os atos de improbidade administrativa exigem dolo, aplicando-se a nova lei aos casos sem trânsito em julgado...`,
+  "O Tema 1199 protege a coisa julgada e distingue processos sem trânsito, nos quais deve ser analisado eventual dolo.",
+  "O tipo exige perda efetiva e comprovada, além dos demais elementos. Ilegalidade isolada não prova todos eles."
+],
+  teoriaDensaMarkdown: "### O Marco Revolucionário da Lei nº 14.230/2021 na Improbidade Administrativa\n\nA Lei nº 14.230/2021 promoveu a mais profunda reformulação da Lei de Improbidade Administrativa (Lei nº 8.429/1992 - LIA) desde a sua promulgação, alinhando o direito sancionador administrativo às garantias materiais do direito penal:\n\n* **Exigência Inegociável de Dolo Específico (Art. 1º, §§ 1º e 2º):**\n  * Considera-se ato de improbidade administrativa apenas a conduta funcional eivada de **dolo**, definido como a *vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11 desta Lei, não bastando a voluntariedade do agente*.\n  * O mero exercício da função ou desempenho de competências sem comprovação cabal de ato doloso com fim ilícito afasta por completo a responsabilidade por ato de improbidade (art. 1º, § 3º).\n* **Extinção Definitiva da Improbidade Culposa:**\n  * O art. 10 da LIA (atos que causam prejuízo ao erário), que historicamente admitia a modalidade culposa (negligência, imprudência ou imperícia na arrecadação tributária ou na conservação do patrimônio), teve a expressão *\"ou culposa\"* expressamente extirpada.\n  * Na redação reformada, os tipos exigem dolo. Isso não apaga automaticamente condenações culposas transitadas em julgado sob o regime anterior, conforme o Tema 1199.\n* **Tema 1199 do STF (Irretroatividade Parcial da Lei nº 14.230/2021):**\n  * O STF decidiu que a revogação da modalidade culposa da improbidade administrativa é irretroativa em relação às condenações transitadas em julgado antes da vigência da Lei 14.230/2021.\n  * Contudo, para os processos judiciais em curso (sem trânsito em julgado), aplica-se a revogação da modalidade culposa, cabendo ao juízo analisar eventual dolo. Não se presume extinção de todo processo nem retroatividade integral de todas as regras novas.\n\n**Aplicação e recuperação:** Livros avariados são recebidos por negligência, sem descrição de vontade de alcançar resultado ilícito. Isso pode pedir reparação ou apuração disciplinar, mas não preenche automaticamente dolo de improbidade. Em processo anterior sem trânsito, o Tema 1199 exige examinar eventual dolo, não simplesmente trocar culpa pelo novo nome.\n\n### Espécies de Atos de Improbidade Administrativa\n\n#### 2.1 Enriquecimento Ilícito (Art. 9º)\nConduta dolosa em que o agente público aufere qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade pública:\n* Exemplos: Receber propina ou comissão de fornecedor de sistema de biblioteca; utilizar veículos ou materiais da Câmara em obras particulares; incorporar ao patrimônio pessoal bens públicos ou verbas do erário.\n* **Elemento Subjetivo:** Dolo específico. Exige acréscimo patrimonial indevido e ilegítimo.\n\n#### 2.2 Prejuízo ao Erário (Art. 10)\nQualquer ação ou omissão dolosa que enseje efetiva e comprovada perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres públicos:\n* **Exigência de Dano Efetivo:** Não há mais presunção de dano (*in re ipsa*). O dano ao erário deve ser real, quantificado e materialmente demonstrado.\n* Exemplos: Facilitar a alienação de obras do acervo histórico por valor manifestamente inferior ao de mercado; frustrar a licitude de processo licitatório com sobrepreço e dano efetivo; conceder benefício fiscal indevido.\n\n#### 2.3 Atentado aos Princípios da Administração Pública (Art. 11)\nAção ou omissão dolosa que viola os deveres de honestidade, imparcialidade e legalidade:\n* **Taxatividade Rígida:** O rol dos incisos do art. 11 tornou-se **estritamente taxativo** (só há improbidade nos casos expressos dos incisos: revelar segredo de que tem ciência do cargo, frustrar a licitude de concurso público, deixar de prestar contas quando obrigado a fazê-lo, negar publicidade aos atos oficiais, praticar nepotismo na hipótese legal própria, sem substituir a tipificação pelo mero rótulo de violação à súmula).\n* **Sanções Abrandadas:** Foram extirpadas a perda da função pública e a suspensão de direitos políticos para os atos do art. 11. Restam apenas multa civil de até 24 remunerações e proibição de contratar por até 4 anos.\n\n**Aplicação e recuperação:** Uma ilegalidade de procedimento não comprova automaticamente enriquecimento, dano ou tipo do art. 11. No art. 10, identifique dano efetivo e dolo. No art. 11, identifique conduta legalmente prevista e os requisitos adicionais. O rol taxativo não significa que qualquer erro de publicidade, sem os elementos do tipo, será improbidade.\n\n### Sujeitos do Ato de Improbidade\n\n* **Sujeito Ativo:** \n  1. O agente público (servidor estatutário, empregado público, temporário, detentor de mandato político, ou quem atue transitoriamente e sem remuneração).\n  2. O particular (pessoa física ou jurídica): submete-se à LIA quando **induzir ou concorrer dolosamente** para a prática do ato de improbidade juntamente com o agente público. É necessário demonstrar a participação dolosa na conduta ímproba. A configuração material de participação de agente público não deve ser confundida com exigência universal de sua presença formal no polo passivo: há situações processuais específicas. Não se presume improbidade por simples inadimplemento contratual.\n* **Sujeito Passivo:** A Administração Pública Direta e Indireta de todos os Poderes e esferas federativas, bem como entidades privadas que recebam subvenção, incentivo ou benefício fiscal/creditício do poder público.\n\n**Aplicação e recuperação:** O fornecedor entrega com atraso. Isso pode configurar infração contratual; para LIA é necessário demonstrar indução ou concurso doloso para ato ímprobo. O art. 3º não transforma todo parceiro privado em agente público nem responsabiliza sócios pelo simples fato de serem sócios. O STF afastou, no controle de 2026, a exigência adicional de benefício direto para a participação dolosa ali examinada.\n\n### Aspectos Processuais Relevantes da LIA\n\n* **Legitimidade Ativa (STF - ADIs 7042 e 7043):**\n  * A Lei nº 14.230/2021 pretendeu conferir legitimidade privativa e exclusiva ao Ministério Público.\n  * O STF julgou parcialmente inconstitucional essa restrição, fixando a **legitimidade concorrente** entre o **Ministério Público** e a **pessoa jurídica interessada** (ex.: a União Federal representada pela Advocacia-Geral da União) para propor a ação de improbidade e para celebrar o acordo civil.\n* **Acordo de Não Persecução Civil (ANPC - Art. 17-B):**\n  * É admitida a solução consensual em improbidade administrativa mediante celebração de ANPC.\n  * Requisitos inafastáveis: 1) Ressarcimento integral do dano ao erário; 2) Reversão à pessoa jurídica lesada da vantagem indevida obtida; 3) Oitiva prévia do ente público lesado e homologação judicial obrigatória.\n* **Prescrição Unificada (Art. 23):**\n  * A ação de improbidade administrativa prescreve em **8 anos**, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.\n  * **Prescrição Intercorrente (Art. 23, § 5º):** **Atualização de 2026:** o STF, nas ADIs 7156/7236, afastou a redução pela metade após interrupção, preservou os marcos interruptivos e fixou limite máximo de vinte anos, conforme o julgamento e seu alcance temporal. Portanto, a fórmula automática “interrompeu, volta por quatro anos” não descreve a orientação atual. É necessário distinguir pretensão sancionatória, ressarcimento e regras de transição; o Tema 1199 impede aplicação retroativa indiscriminada dos novos marcos.\n\n**Aplicação e recuperação:** Uma ficha antiga ensina oito anos e, após interrupção, quatro. A atualização do STF em 2026 exige revisar o segundo número e suas condições. Não use a ficha como se fosse lei incontestável. A mesma conferência deve alcançar limites de sanções, indisponibilidade e reflexos de absolvição penal examinados no Informativo 1225. A jurisprudência continua sujeita ao corte do edital, que ainda prevê rodada futura de atualização.",
+  teoriaDidaticaMarkdown: "### Revisão: improbidade exige tipificação e contexto temporal\n\nVoluntariedade e ilegalidade não bastam: os tipos reformados exigem dolo. Art. 9º: enriquecimento; art. 10: dano efetivo e comprovado; art. 11: rol taxativo e requisitos próprios. Culpa pode gerar outras responsabilidades. Tema 1199 não desfaz coisa julgada nem torna toda reforma retroativa. Legitimidade não é exclusiva do MP. Em 2026, as ADIs 7156/7236 afastaram, entre outros pontos, a redução pela metade do prazo após interrupção. Use lei com controle de constitucionalidade, não tabela antiga isolada.\n",
   checkpoints: [
-    {
-      id: 'cp-11-7-1',
-      pergunta: 'Micro-Checkpoint 1: Modalidade Culposa na Lei de Improbidade Reformada',
-      item: 'Servidor público da área de compras que, por manifesta negligência e falta de cautela profissional, assinar ateste de recebimento de livros didáticos com avarias graves comete ato de improbidade administrativa que causa prejuízo ao erário na modalidade culposa.',
-      gabarito: 'E',
-      justificativa: 'Errado! Desde a vigência da Lei nº 14.230/2021, foi EXTINTA a modalidade culposa na improbidade administrativa. O art. 10 exige indispensavelmente a comprovação de DOLO ESPECÍFICO. A negligência pode gerar punição disciplinar ou ação cível indenizatória comum, mas nunca improbidade.',
-    },
-    {
-      id: 'cp-11-7-2',
-      pergunta: 'Micro-Checkpoint 2: Sanções Aplicáveis aos Atos contra Princípios (Art. 11)',
-      item: 'Agente público condenado por ato de improbidade administrativa que atenta contra os princípios da administração pública (art. 11 da LIA) está sujeito à sanção de perda da função pública e à suspensão de seus direitos políticos por até cinco anos.',
-      gabarito: 'E',
-      justificativa: 'Errado! A reforma da Lei nº 14.230/2021 revogou as sanções de perda da função pública e de suspensão dos direitos políticos para os atos do art. 11 da LIA. O agente sujeita-se exclusivamente a pagamento de multa civil de até 24 vezes sua remuneração e proibição de contratar por até 4 anos.',
-    },
-    {
-      id: 'cp-11-7-3',
-      pergunta: 'Micro-Checkpoint 3: Polo Passivo e Responsabilidade do Particular',
-      item: 'Pessoa jurídica privada prestadora de serviços terceirizados à Câmara dos Deputados pode figurar individualmente no polo passivo de ação civil de improbidade administrativa proposta pelo Ministério Público, mesmo sem a presença concomitante de agente público na relação processual.',
-      gabarito: 'E',
-      justificativa: 'Errado! O particular (pessoa física ou jurídica) NÃO pode figurar isoladamente no polo passivo da ação de improbidade. A jurisprudência pacífica do STJ e o art. 3º da LIA exigem a necessária presença de agente público no polo passivo em litisconsórcio com o particular que induziu ou concorreu para o ilícito.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-7-1',
-        periodo: '1992',
-        disciplina: 'Direito Sancionador',
-        focoPrincipal: 'Promulgação da Lei nº 8.429/1992: marco originário da Improbidade Administrativa',
-        figuraChave: 'Congresso Nacional',
-      },
-      {
-        id: 'tl-11-7-2',
-        periodo: '2021',
-        disciplina: 'Reforma Estrutural',
-        focoPrincipal: 'Promulgação da Lei nº 14.230/2021: extinção da culpa, dolo específico, taxatividade do art. 11',
-        figuraChave: 'Reforma da LIA',
-      },
-      {
-        id: 'tl-11-7-3',
-        periodo: '2022',
-        disciplina: 'Jurisprudência Constitucional',
-        focoPrincipal: 'STF (Tema 1199 e ADIs 7042/7043): legitimidade concorrente do ente lesado e parâmetros de irretroatividade',
-        figuraChave: 'Supremo Tribunal Federal',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-7-1',
-        nome: 'Maria Sylvia Zanella Di Pietro',
-        ano: '2023',
-        obraPrincipal: 'Direito Administrativo',
-        ideiaChave: 'Análise crítica da Lei 14.230/2021 e a nova principiologia do direito administrativo sancionador com reflexos no dolo.',
-        chipPegadinha: 'Sustentar que a divergência de interpretação legal razoável pode fundamentar condenação por improbidade.',
-      },
-      {
-        id: 'aut-11-7-2',
-        nome: 'José dos Santos Carvalho Filho',
-        ano: '2023',
-        obraPrincipal: 'Manual de Direito Administrativo',
-        ideiaChave: 'Dolo específico como requisito constitucional intransponível para tipificação de qualquer ato de improbidade após a Lei 14.230/2021.',
-        chipPegadinha: 'Afirmar que a negligência grosseira com dano orçamentário caracteriza ato de improbidade culposo.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-7-1',
-        afirmacao: 'O mero exercício da função pública com interpretação jurídica questionável de uma cláusula contratual configura ato de improbidade administrativa por atentado aos princípios.',
-        gabarito: 'E',
-        porQue: 'Art. 1º, § 8º da Lei nº 8.429/1992: não configura improbidade a ação ou omissão decorrente de divergência interpretativa da lei, baseada em jurisprudência ou doutrina plausível.',
-      },
-      {
-        id: 'peg-11-7-2',
-        afirmacao: 'O prazo prescricional para o ajuizamento de ação de improbidade administrativa prescreve em 8 anos contados a partir da data de ocorrência do fato.',
-        gabarito: 'C',
-        porQue: 'Correto! A Lei nº 14.230/2021 unificou o prazo prescricional em 8 anos, contados da ocorrência do fato (art. 23).',
-      },
-      {
-        id: 'peg-11-7-3',
-        afirmacao: 'A legitimidade ativa para a propositura da ação de improbidade administrativa pertence privativamente ao Ministério Público, sendo vedada a atuação judicial da pessoa jurídica interessada.',
-        gabarito: 'E',
-        porQue: 'O STF, no julgamento das ADIs 7042 e 7043, declarou a LEGITIMIDADE CONCORRENTE entre o Ministério Público e o ente público lesado (União, Estados, Municípios) para propor a ação de improbidade.',
-      },
-    ],
+  {
+    "id": "cp-11-7-1",
+    "pergunta": "Micro-Checkpoint 1: Modalidade Culposa na Lei de Improbidade Reformada",
+    "item": "Servidor público da área de compras que, por manifesta negligência e falta de cautela profissional, assinar ateste de recebimento de livros didáticos com avarias graves comete ato de improbidade administrativa que causa prejuízo ao erário na modalidade culposa.",
+    "gabarito": "E",
+    "justificativa": "Negligência não demonstra dolo exigido pelos tipos reformados. Pode haver outras consequências legais; a análise histórica segue o Tema 1199.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "versao_correta": "O cenário de mera negligência não preenche automaticamente o dolo de improbidade exigido pela lei reformada."
   },
+  {
+    "id": "cp-11-7-2",
+    "pergunta": "Micro-Checkpoint 2: Sanções Aplicáveis aos Atos contra Princípios (Art. 11)",
+    "item": "Agente público condenado por ato de improbidade administrativa que atenta contra os princípios da administração pública (art. 11 da LIA) está sujeito à sanção de perda da função pública e à suspensão de seus direitos políticos por até cinco anos.",
+    "gabarito": "E",
+    "justificativa": "Para o art. 11, o art. 12, III, não prevê essas duas sanções. Não confunda com sanções dos arts. 9º e 10 nem afaste eventual outro regime de responsabilidade.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "versao_correta": "O art. 12, III, prevê multa civil e proibição de contratar/receber benefícios nos limites legais, sem as duas sanções indicadas."
+  },
+  {
+    "id": "cp-11-7-3",
+    "pergunta": "Micro-Checkpoint 3: Polo Passivo e Responsabilidade do Particular",
+    "item": "O simples atraso contratual de uma prestadora privada, sem demonstração de indução ou concurso doloso para ato ímprobo, basta para responsabilizá-la por improbidade administrativa.",
+    "gabarito": "E",
+    "justificativa": "O art. 3º exige participação dolosa. Inadimplemento não equivale automaticamente a improbidade. A exigência material não pode ser substituída por regra processual absoluta sobre o polo passivo.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "versao_correta": "A responsabilização da prestadora exige demonstrar os pressupostos da LIA, inclusive participação dolosa pertinente."
+  },
+  {
+    "id": "rt-11-7-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A revogação da modalidade culposa desconstitui automaticamente toda condenação transitada em julgado antes da reforma.",
+    "gabarito": "E",
+    "justificativa": "O Tema 1199 protege a coisa julgada e distingue processos sem trânsito, nos quais deve ser analisado eventual dolo.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 7: Serviços Públicos)",
+    "habilidade": "aplicar",
+    "versao_correta": "A revogação não desconstitui automaticamente a coisa julgada; o Tema 1199 delimita a transição."
+  },
+  {
+    "id": "rt-11-7-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Dano ao erário do art. 10 pode ser simplesmente presumido da irregularidade, sem demonstração de perda patrimonial efetiva.",
+    "gabarito": "E",
+    "justificativa": "O tipo exige perda efetiva e comprovada, além dos demais elementos. Ilegalidade isolada não prova todos eles.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 7: Serviços Públicos)",
+    "habilidade": "aplicar",
+    "versao_correta": "O art. 10 exige dano efetivo e comprovado e os demais elementos do tipo."
+  },
+  {
+    "id": "rt-11-7-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A legitimidade para propor ação de improbidade não é exclusiva do Ministério Público, segundo as ADIs 7042 e 7043.",
+    "gabarito": "C",
+    "justificativa": "O STF restabeleceu legitimidade concorrente e disjuntiva das pessoas jurídicas interessadas, também para acordos de não persecução civil.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 7: Serviços Públicos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-11-7-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Após o julgamento das ADIs 7156/7236 em 2026, a redução automática do prazo prescricional à metade após interrupção não pode ser ensinada como regra atual válida.",
+    "gabarito": "C",
+    "justificativa": "O STF afastou a redução e tratou dos marcos e limite máximo. Aplicação concreta exige conferir alcance temporal e natureza da pretensão.",
+    "fonte": "Lei 8.429/1992, com reforma da Lei 14.230/2021; STF, Tema 1199, ADIs 7042/7043 e ADIs 7156/7236 (Informativo 1225/2026).",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 7: Serviços Públicos)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-7-fonte-lia",
+      "nome": "Lei 8.429/1992",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 8.429/1992",
+      "ideiaChave": "Arts. 1º, 3º, 9º–12, 17-B e 23; confrontar dispositivos com controle de constitucionalidade.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-7-fonte-stf1199",
+      "nome": "STF — Informativo 1065/2022",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Informativo 1065/2022",
+      "ideiaChave": "Tema 1199: dolo, coisa julgada e marcos prescricionais.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-7-fonte-stf1225",
+      "nome": "STF — Informativo 1225/2026",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Informativo 1225/2026",
+      "ideiaChave": "ADIs 7156 e 7236: prescrição e demais dispositivos.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-7-fonte-stf1066",
+      "nome": "STF — Informativo 1066/2022",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Informativo 1066/2022",
+      "ideiaChave": "Legitimidade concorrente nas ADIs 7042 e 7043.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-7-2",
+      "afirmacao": "Dano ao erário do art. 10 pode ser simplesmente presumido da irregularidade, sem demonstração de perda patrimonial efetiva.",
+      "gabarito": "E",
+      "porQue": "O tipo exige perda efetiva e comprovada, além dos demais elementos. Ilegalidade isolada não prova todos eles."
+    },
+    {
+      "id": "memoria-rt-11-7-3",
+      "afirmacao": "A legitimidade para propor ação de improbidade não é exclusiva do Ministério Público, segundo as ADIs 7042 e 7043.",
+      "gabarito": "C",
+      "porQue": "O STF restabeleceu legitimidade concorrente e disjuntiva das pessoas jurídicas interessadas, também para acordos de não persecução civil."
+    },
+    {
+      "id": "memoria-rt-11-7-4",
+      "afirmacao": "Após o julgamento das ADIs 7156/7236 em 2026, a redução automática do prazo prescricional à metade após interrupção não pode ser ensinada como regra atual válida.",
+      "gabarito": "C",
+      "porQue": "O STF afastou a redução e tratou dos marcos e limite máximo. Aplicação concreta exige conferir alcance temporal e natureza da pretensão."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-11-7-bloco-1",
+    "titulo": "O Marco Revolucionário da Lei nº 14.230/2021 na Improbidade Administrativa",
+    "objetivos": [
+      "Distinguir dolo, voluntariedade e regime de transição."
+    ],
+    "conteudo": "A Lei nº 14.230/2021 promoveu a mais profunda reformulação da Lei de Improbidade Administrativa (Lei nº 8.429/1992 - LIA) desde a sua promulgação, alinhando o direito sancionador administrativo às garantias materiais do direito penal:\n\n* **Exigência Inegociável de Dolo Específico (Art. 1º, §§ 1º e 2º):**\n  * Considera-se ato de improbidade administrativa apenas a conduta funcional eivada de **dolo**, definido como a *vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11 desta Lei, não bastando a voluntariedade do agente*.\n  * O mero exercício da função ou desempenho de competências sem comprovação cabal de ato doloso com fim ilícito afasta por completo a responsabilidade por ato de improbidade (art. 1º, § 3º).\n* **Extinção Definitiva da Improbidade Culposa:**\n  * O art. 10 da LIA (atos que causam prejuízo ao erário), que historicamente admitia a modalidade culposa (negligência, imprudência ou imperícia na arrecadação tributária ou na conservação do patrimônio), teve a expressão *\"ou culposa\"* expressamente extirpada.\n  * Na redação reformada, os tipos exigem dolo. Isso não apaga automaticamente condenações culposas transitadas em julgado sob o regime anterior, conforme o Tema 1199.\n* **Tema 1199 do STF (Irretroatividade Parcial da Lei nº 14.230/2021):**\n  * O STF decidiu que a revogação da modalidade culposa da improbidade administrativa é irretroativa em relação às condenações transitadas em julgado antes da vigência da Lei 14.230/2021.\n  * Contudo, para os processos judiciais em curso (sem trânsito em julgado), aplica-se a revogação da modalidade culposa, cabendo ao juízo analisar eventual dolo. Não se presume extinção de todo processo nem retroatividade integral de todas as regras novas.\n\n**Aplicação e recuperação:** Livros avariados são recebidos por negligência, sem descrição de vontade de alcançar resultado ilícito. Isso pode pedir reparação ou apuração disciplinar, mas não preenche automaticamente dolo de improbidade. Em processo anterior sem trânsito, o Tema 1199 exige examinar eventual dolo, não simplesmente trocar culpa pelo novo nome.",
+    "checkpointIds": [
+      "cp-11-7-1",
+      "rt-11-7-1"
+    ]
+  },
+  {
+    "id": "sub-11-7-bloco-2",
+    "titulo": "Espécies de Atos de Improbidade Administrativa",
+    "objetivos": [
+      "Relacionar cada tipo aos seus elementos e sanções."
+    ],
+    "conteudo": "#### 2.1 Enriquecimento Ilícito (Art. 9º)\nConduta dolosa em que o agente público aufere qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade pública:\n* Exemplos: Receber propina ou comissão de fornecedor de sistema de biblioteca; utilizar veículos ou materiais da Câmara em obras particulares; incorporar ao patrimônio pessoal bens públicos ou verbas do erário.\n* **Elemento Subjetivo:** Dolo específico. Exige acréscimo patrimonial indevido e ilegítimo.\n\n#### 2.2 Prejuízo ao Erário (Art. 10)\nQualquer ação ou omissão dolosa que enseje efetiva e comprovada perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres públicos:\n* **Exigência de Dano Efetivo:** Não há mais presunção de dano (*in re ipsa*). O dano ao erário deve ser real, quantificado e materialmente demonstrado.\n* Exemplos: Facilitar a alienação de obras do acervo histórico por valor manifestamente inferior ao de mercado; frustrar a licitude de processo licitatório com sobrepreço e dano efetivo; conceder benefício fiscal indevido.\n\n#### 2.3 Atentado aos Princípios da Administração Pública (Art. 11)\nAção ou omissão dolosa que viola os deveres de honestidade, imparcialidade e legalidade:\n* **Taxatividade Rígida:** O rol dos incisos do art. 11 tornou-se **estritamente taxativo** (só há improbidade nos casos expressos dos incisos: revelar segredo de que tem ciência do cargo, frustrar a licitude de concurso público, deixar de prestar contas quando obrigado a fazê-lo, negar publicidade aos atos oficiais, praticar nepotismo na hipótese legal própria, sem substituir a tipificação pelo mero rótulo de violação à súmula).\n* **Sanções Abrandadas:** Foram extirpadas a perda da função pública e a suspensão de direitos políticos para os atos do art. 11. Restam apenas multa civil de até 24 remunerações e proibição de contratar por até 4 anos.\n\n**Aplicação e recuperação:** Uma ilegalidade de procedimento não comprova automaticamente enriquecimento, dano ou tipo do art. 11. No art. 10, identifique dano efetivo e dolo. No art. 11, identifique conduta legalmente prevista e os requisitos adicionais. O rol taxativo não significa que qualquer erro de publicidade, sem os elementos do tipo, será improbidade.",
+    "checkpointIds": [
+      "cp-11-7-2",
+      "rt-11-7-2"
+    ]
+  },
+  {
+    "id": "sub-11-7-bloco-3",
+    "titulo": "Sujeitos do Ato de Improbidade",
+    "objetivos": [
+      "Separar participação dolosa e simples vínculo contratual."
+    ],
+    "conteudo": "* **Sujeito Ativo:** \n  1. O agente público (servidor estatutário, empregado público, temporário, detentor de mandato político, ou quem atue transitoriamente e sem remuneração).\n  2. O particular (pessoa física ou jurídica): submete-se à LIA quando **induzir ou concorrer dolosamente** para a prática do ato de improbidade juntamente com o agente público. É necessário demonstrar a participação dolosa na conduta ímproba. A configuração material de participação de agente público não deve ser confundida com exigência universal de sua presença formal no polo passivo: há situações processuais específicas. Não se presume improbidade por simples inadimplemento contratual.\n* **Sujeito Passivo:** A Administração Pública Direta e Indireta de todos os Poderes e esferas federativas, bem como entidades privadas que recebam subvenção, incentivo ou benefício fiscal/creditício do poder público.\n\n**Aplicação e recuperação:** O fornecedor entrega com atraso. Isso pode configurar infração contratual; para LIA é necessário demonstrar indução ou concurso doloso para ato ímprobo. O art. 3º não transforma todo parceiro privado em agente público nem responsabiliza sócios pelo simples fato de serem sócios. O STF afastou, no controle de 2026, a exigência adicional de benefício direto para a participação dolosa ali examinada.",
+    "checkpointIds": [
+      "cp-11-7-3"
+    ]
+  },
+  {
+    "id": "sub-11-7-bloco-4",
+    "titulo": "Aspectos Processuais Relevantes da LIA",
+    "objetivos": [
+      "Aplicar legitimidade, consensualidade e atualização prescricional."
+    ],
+    "conteudo": "* **Legitimidade Ativa (STF - ADIs 7042 e 7043):**\n  * A Lei nº 14.230/2021 pretendeu conferir legitimidade privativa e exclusiva ao Ministério Público.\n  * O STF julgou parcialmente inconstitucional essa restrição, fixando a **legitimidade concorrente** entre o **Ministério Público** e a **pessoa jurídica interessada** (ex.: a União Federal representada pela Advocacia-Geral da União) para propor a ação de improbidade e para celebrar o acordo civil.\n* **Acordo de Não Persecução Civil (ANPC - Art. 17-B):**\n  * É admitida a solução consensual em improbidade administrativa mediante celebração de ANPC.\n  * Requisitos inafastáveis: 1) Ressarcimento integral do dano ao erário; 2) Reversão à pessoa jurídica lesada da vantagem indevida obtida; 3) Oitiva prévia do ente público lesado e homologação judicial obrigatória.\n* **Prescrição Unificada (Art. 23):**\n  * A ação de improbidade administrativa prescreve em **8 anos**, contados a partir da data da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.\n  * **Prescrição Intercorrente (Art. 23, § 5º):** **Atualização de 2026:** o STF, nas ADIs 7156/7236, afastou a redução pela metade após interrupção, preservou os marcos interruptivos e fixou limite máximo de vinte anos, conforme o julgamento e seu alcance temporal. Portanto, a fórmula automática “interrompeu, volta por quatro anos” não descreve a orientação atual. É necessário distinguir pretensão sancionatória, ressarcimento e regras de transição; o Tema 1199 impede aplicação retroativa indiscriminada dos novos marcos.\n\n**Aplicação e recuperação:** Uma ficha antiga ensina oito anos e, após interrupção, quatro. A atualização do STF em 2026 exige revisar o segundo número e suas condições. Não use a ficha como se fosse lei incontestável. A mesma conferência deve alcançar limites de sanções, indisponibilidade e reflexos de absolvição penal examinados no Informativo 1225. A jurisprudência continua sujeita ao corte do edital, que ainda prevê rodada futura de atualização.",
+    "checkpointIds": [
+      "rt-11-7-3",
+      "rt-11-7-4"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "lia",
+    "titulo": "Lei 8.429/1992",
+    "localizador": "Arts. 1º, 3º, 9º–12, 17-B e 23; confrontar dispositivos com controle de constitucionalidade.",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+  },
+  {
+    "id": "stf1199",
+    "titulo": "STF — Informativo 1065/2022",
+    "localizador": "Tema 1199: dolo, coisa julgada e marcos prescricionais.",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1065.htm"
+  },
+  {
+    "id": "stf1225",
+    "titulo": "STF — Informativo 1225/2026",
+    "localizador": "ADIs 7156 e 7236: prescrição e demais dispositivos.",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
+  },
+  {
+    "id": "stf1066",
+    "titulo": "STF — Informativo 1066/2022",
+    "localizador": "Legitimidade concorrente nas ADIs 7042 e 7043.",
+    "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1066.htm"
+  }
+],
 };

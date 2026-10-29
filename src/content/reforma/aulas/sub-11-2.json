@@ -1,0 +1,180 @@
+{
+  "id": "sub-11-2",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-11-2-bloco-1",
+      "titulo": "Ato, fato e contrato: identificar a operação",
+      "objetivos": [
+        "Separar manifestação jurídica de execução material."
+      ],
+      "conteudo": "O ato administrativo é estudado, em sentido estrito, como manifestação unilateral sob regime de direito público que produz efeitos jurídicos imediatos. Pode ser praticado por órgão administrativo de qualquer Poder e, nas hipóteses legais, por quem exerça função administrativa delegada. Nem tudo o que a Administração faz pertence a essa categoria: contratos têm formação bilateral; operações físicas executam decisões; eventos naturais podem produzir consequências jurídicas sem conter vontade administrativa.\n\n**Caso:** a portaria autoriza uma intervenção no depósito; a equipe desloca fisicamente as estantes. A primeira expressa uma decisão, a segunda é execução material. Uma infiltração que atinge livros é evento, não decisão administrativa. O enunciado deve ser lido pelo efeito que descreve, não só pela presença de um órgão público.\n\nA definição e certas classificações variam entre autores. Quando a questão indicar uma corrente, use seu recorte. Não transforme uma taxonomia didática em texto literal da lei. Atos de gestão privada, atos políticos e atos materiais demandam análise própria; o rótulo “ato da Administração” é mais amplo que o ato administrativo estrito.\n\n**Recupere:** explique por que um contrato assinado pela Administração não se torna unilateral e por que uma operação física pode gerar responsabilidade embora não seja ato administrativo em sentido estrito.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-11-2-bloco-2",
+      "titulo": "Elementos e competência: onde está o defeito?",
+      "objetivos": [
+        "Aplicar competência, finalidade, forma, motivo e objeto."
+      ],
+      "conteudo": "A análise usual trabalha com **competência, finalidade, forma, motivo e objeto**, tomando como referência também o art. 2º da Lei 4.717/1965. Competência identifica quem pode agir; finalidade, o objetivo legal; forma, a exteriorização; motivo, os pressupostos fáticos e jurídicos; objeto, o efeito jurídico produzido. Discricionariedade é margem legal de escolha, não liberdade contra a norma ou dispensa de fundamentação.\n\nA Lei 9.784 distingue competência irrenunciável e exercício delegável nas condições legais. O art. 12 admite delegação parcial inclusive sem subordinação hierárquica. O **art. 13** proíbe delegar edição de atos normativos, decisão de recursos e matéria de competência exclusiva. Ato de delegação e revogação devem ser publicados; a decisão deve mencionar a qualidade de delegado. Avocação é excepcional, temporária, justificada e relativa a órgão hierarquicamente inferior (art. 15).\n\n**Motivo não é motivação.** Motivo é, por exemplo, o fato que justifica determinada medida; motivação é a explicação das razões. Na teoria dos motivos determinantes, a validade vincula-se aos pressupostos declarados. Invocar um fato inexistente compromete a decisão, mesmo quando exista margem de escolha. Isso não autoriza dispensar exame do regime do ato e dos efeitos da invalidação.\n\n**Exemplo resolvido:** a autoridade competente remove servidor invocando uma necessidade de serviço inexistente para puni-lo informalmente. Não basta conferir a assinatura: devem ser examinados pressuposto fático e finalidade. O objeto aparentemente permitido não legitima perseguição. Para acertar, localize a razão do vício e não apenas memorize as cinco palavras.",
+      "checkpointIds": [
+        "rt-11-2-1",
+        "rt-11-2-3"
+      ]
+    },
+    {
+      "id": "sub-11-2-bloco-3",
+      "titulo": "Atributos e espécies: evitar a transferência indevida",
+      "objetivos": [
+        "Distinguir presunção, imposição e execução direta."
+      ],
+      "conteudo": "A **presunção de legitimidade/veracidade** é relativa: não imuniza o ato contra controle nem converte acusação em prova definitiva. Em especial, no processo sancionador, a Administração deve demonstrar os pressupostos da responsabilização; é errado ensinar que todo ônus de prova sempre recai sobre o administrado.\n\n**Imperatividade** é imposição de obrigações independentemente de concordância; não está em toda manifestação administrativa. Certidões e pareceres enunciativos não a adquirem só por serem públicos. **Autoexecutoriedade** permite execução direta nas condições legais ou de urgência reconhecidas pelo regime, sem autorização judicial prévia; não existe indistintamente. Aplicar multa e cobrar coercitivamente seu valor são operações diferentes. **Tipicidade**, no tratamento doutrinário, relaciona o ato a figuras previstas no ordenamento, limitando arbitrariedade.\n\nAs espécies usuais são normativas, ordinatórias, negociais, enunciativas e punitivas. Uma portaria pode ter conteúdo normativo ou concreto: o nome do instrumento não decide sozinho a classificação. Licença é usualmente apresentada como vinculada; autorização, como discricionária e precária, mas seu regime setorial precisa ser considerado. Precariedade não significa licença para agir sem interesse público, motivação ou respeito a todas as situações protegidas.\n\n**Teste de transferência:** uma certidão informa tempo de serviço; um ato aplica penalidade. Ambos podem estar submetidos à legalidade, mas só o segundo, no cenário, impõe uma sanção. Não copie atributos de um ato para toda a categoria “Administração”.",
+      "checkpointIds": [
+        "cp-11-2-1",
+        "rt-11-2-4"
+      ]
+    },
+    {
+      "id": "sub-11-2-bloco-4",
+      "titulo": "Desfazimento e convalidação: razão e efeitos",
+      "objetivos": [
+        "Separar ilegalidade, conveniência e saneamento."
+      ],
+      "conteudo": "**Anulação** enfrenta ilegalidade; **revogação**, conveniência e oportunidade de ato válido, respeitados os limites legais e direitos adquiridos (art. 53). O Judiciário, na função jurisdicional, controla legalidade e pode anular; não substitui a Administração para revogar ato de outro Poder por mera preferência de gestão. Isso não impede o próprio Judiciário de exercer autotutela em sua função administrativa.\n\nA anulação é tradicionalmente associada à retroatividade e a revogação a efeitos futuros. Essa síntese não dispensa discutir proteção da confiança, boa-fé, direitos e consequências. O art. 54 prevê decadência de cinco anos para anular atos favoráveis, salvo comprovada má-fé, com regras específicas de contagem e exercício do direito. Não aplique automaticamente esse número a todo tipo de ato ou pretensão.\n\n**Cassação** decorre do descumprimento de condições pelo beneficiário; **caducidade**, na terminologia doutrinária aqui usada para extinção de atos, de incompatibilidade com norma superveniente. Em concessões, a palavra caducidade tem regime próprio: não importe a definição sem verificar o assunto.\n\nPelo art. 55, convalidação exige defeito sanável, ausência de lesão ao interesse público e de prejuízo a terceiros. Competência não exclusiva e forma não essencial são exemplos didáticos usuais, mas a frase “qualquer vício de competência ou forma é sanável” é falsa. Defeito de finalidade não é corrigido só trocando a redação da justificativa.\n\n**Caso:** um ato foi assinado por agente sem atribuição, mas a competência é exclusiva de outro. A vontade posterior de aproveitar o ato não elimina a exclusividade. Já um defeito formal sanável pede exame dos demais requisitos. O raciocínio deve partir da natureza do vício e do regime, não de um acrônimo tomado como regra absoluta.",
+      "checkpointIds": [
+        "cp-11-2-2",
+        "rt-11-2-2",
+        "rt-11-2-5"
+      ]
+    },
+    {
+      "id": "sub-11-2-bloco-5",
+      "titulo": "Pareceres e responsabilidade: identificar o regime",
+      "objetivos": [
+        "Separar opinião, decisão e pressupostos de responsabilização."
+      ],
+      "conteudo": "Parecer é manifestação técnica ou jurídica que subsidia decisão. Pode ser facultativo, obrigatório ou vinculante conforme a norma. **Obrigatoriedade de solicitar** não equivale necessariamente à obrigação de adotar a conclusão. Se houver divergência, devem ser observados o regime e a fundamentação exigidos. O art. 50 da Lei 9.784 inclui situações em que a motivação deve ser explícita, clara e congruente; a motivação por remissão pode incorporar fundamentos identificados.\n\nA responsabilidade não se presume da assinatura de um parecer. É necessário identificar conduta, competência, regime aplicável, elemento subjetivo exigido, nexo e demais pressupostos. O art. 28 da LINDB trata de responsabilidade pessoal por decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. Não se deve extrapolar esse dispositivo para proclamar imunidade geral em qualquer esfera ou para substituir todas as regras disciplinares e de reparação.\n\nO Decreto 9.830/2019, que regulamenta dispositivos da LINDB no âmbito pertinente, distingue seu tratamento de responsabilização e a aplicação de sanções disciplinares (art. 17), inclusive quanto a atos culposos leves previstos nas normas disciplinares. A incidência de cada regra e a jurisprudência aplicável precisam ser separadas. Divergência interpretativa plausível não é automaticamente erro grosseiro; resultado desfavorável tampouco prova culpa.\n\n**Caso resolvido:** um bibliotecário fornece informação técnica documentada, e a autoridade toma decisão fora do alcance desse parecer. Não se pode concluir responsabilidade objetiva do parecerista. Também não se pode afirmar que ele jamais responderia por omissão ou conduta disciplinar só por ter emitido opinião técnica. A resposta depende do comportamento e do regime descritos.",
+      "checkpointIds": [
+        "cp-11-2-3"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Ato administrativo: roteiro de revisão\n\nIdentifique a operação, depois os elementos e atributos pertinentes. Competência admite exercício delegado nas condições legais; as vedações estão no art. 13, não no art. 11. Motivo é pressuposto; motivação é sua explicação. Presunção relativa não elimina dever de provar infração. Imperatividade e autoexecutoriedade não se estendem a todos os atos. Anulação trata de ilegalidade; revogação, de conveniência de ato válido; convalidação exige defeito sanável e os requisitos do art. 55. Examine consequências, boa-fé e decadência quando incidentes. Parecer e decisão têm funções diferentes; responsabilidade depende do regime, sem automatismo nem imunidade geral.\n\n**Sem consultar:** construa um exemplo de falta de competência, um de motivo inexistente e um de desvio de finalidade. Explique por que exigem análises distintas. Depois diferencie obrigatoriedade de parecer e vinculação à sua conclusão.\n",
+  "fontesTeoria": [
+    {
+      "id": "processo",
+      "titulo": "Lei 9.784/1999",
+      "localizador": "Arts. 11–15, 22, 50 e 53–55.",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+    },
+    {
+      "id": "lindb",
+      "titulo": "LINDB",
+      "localizador": "Arts. 20–24 e 28: decisão, segurança jurídica e responsabilidade.",
+      "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-4657-4-setembro-1942-414605-normaatualizada-pe.html"
+    },
+    {
+      "id": "decreto",
+      "titulo": "Decreto 9.830/2019",
+      "localizador": "Arts. 12 e 17; distinguir regimes de responsabilização.",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9830-10-junho-2019-788287-normaatualizada-pe.pdf"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-11-2-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A delegação de parte da competência, quando legalmente admitida, pode alcançar autoridade que não seja subordinada hierarquicamente ao delegante.",
+      "gabarito": "C",
+      "justificativa": "O art. 12 admite essa possibilidade. A delegação não se confunde com a avocação, que pressupõe órgão hierarquicamente inferior e é excepcional e temporária.",
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-2-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Como a Administração pode anular atos ilegais, toda invalidação dispensa examinar consequências e situações constituídas de boa-fé.",
+      "gabarito": "E",
+      "justificativa": "O poder-dever de controle não elimina motivação, devido processo e segurança jurídica. Os arts. 20–24 da LINDB e 54 da Lei 9.784 impõem análise das condições pertinentes.",
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)",
+      "habilidade": "aplicar",
+      "versao_correta": "A invalidação exige examinar o vício, o regime aplicável, as consequências e as situações juridicamente protegidas."
+    },
+    {
+      "id": "rt-11-2-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Motivo é o pressuposto fático e jurídico do ato; motivação é a exteriorização das razões que o fundamentam.",
+      "gabarito": "C",
+      "justificativa": "Um fato pode existir sem que a fundamentação tenha sido adequadamente exteriorizada. Confundir os conceitos impede identificar se o problema é a realidade do pressuposto ou a justificação do ato.",
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-2-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Uma certidão que apenas atesta fato é necessariamente dotada de imperatividade por ter sido emitida pela Administração.",
+      "gabarito": "E",
+      "justificativa": "Origem pública não torna toda manifestação uma imposição unilateral de obrigação. A certidão é exemplo de ato enunciativo na classificação doutrinária usual.",
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)",
+      "habilidade": "aplicar",
+      "versao_correta": "A certidão enunciativa não impõe obrigação apenas por sua origem pública."
+    },
+    {
+      "id": "rt-11-2-5",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Pelo art. 55 da Lei 9.784/1999, sanar um defeito exige que ele seja sanável e que não haja lesão ao interesse público nem prejuízo a terceiros.",
+      "gabarito": "C",
+      "justificativa": "A convalidação não resulta só do desejo de aproveitar o ato. Os requisitos materiais precisam ser examinados; a lei não oferece uma autorização para manter qualquer ilegalidade.",
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 2: Princípios Expressos e Implícitos)",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-11-2-1": {
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "justificativa": "O item generaliza imperatividade para todos os atos. Certidões e pareceres enunciativos, no recorte usual, não impõem obrigação apenas por serem administrativos.",
+      "versao_correta": "Imperatividade não é atributo presente em todos os atos administrativos."
+    },
+    "cp-11-2-2": {
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "justificativa": "Na função jurisdicional, o juiz pode invalidar por ilegalidade, mas não revogar ato de outro Poder por juízo próprio de conveniência. O Judiciário exerce autotutela sobre seus próprios atos administrativos."
+    },
+    "cp-11-2-3": {
+      "fonte": "Lei 9.784/1999, arts. 11–15, 22, 50 e 53–55; LINDB, arts. 20–24 e 28; síntese doutrinária explicitada na aula.",
+      "justificativa": "Não há responsabilidade pessoal objetiva automática do parecerista. É preciso identificar regime, conduta e elemento subjetivo. O art. 28 da LINDB não deve ser convertido em imunidade geral contra toda responsabilidade disciplinar; o Decreto 9.830 distingue essa matéria.",
+      "versao_correta": "A responsabilização pessoal exige exame dos pressupostos do regime aplicável; não decorre automaticamente de parecer técnico."
+    }
+  },
+  "alertasCebraspe": [
+    "O poder-dever de controle não elimina motivação, devido processo e segurança jurídica. Os arts. 20–24 da LINDB e 54 da Lei 9.784 impõem análise das condições pertinentes.",
+    "Origem pública não torna toda manifestação uma imposição unilateral de obrigação. A certidão é exemplo de ato enunciativo na classificação doutrinária usual."
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Motivo e motivação",
+      "definicao": "Motivo é pressuposto fático/jurídico; motivação exterioriza as razões do ato.",
+      "exemploBiblioteca": "Necessidade de serviço é fundamento a comprovar; o despacho explica por que a medida foi adotada."
+    },
+    {
+      "termo": "Convalidação",
+      "definicao": "Saneamento de defeito sanável, nas condições do art. 55 da Lei 9.784.",
+      "exemploBiblioteca": "Competência exclusiva não se torna delegável só para aproveitar um ato."
+    }
+  ],
+  "autoresChave": [
+    "Lei 9.784/1999",
+    "LINDB",
+    "Decreto 9.830/2019"
+  ],
+  "descricaoCurta": "Separar manifestação jurídica de execução material. Aplicar competência, finalidade, forma, motivo e objeto. Distinguir presunção, imposição e execução direta. Separar ilegalidade, conveniência e saneamento. Separar opinião, decisão e pressupostos de responsabilização.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 19
+}

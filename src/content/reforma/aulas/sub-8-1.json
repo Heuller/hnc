@@ -185,9 +185,9 @@
     }
   },
   "alertasCebraspe": [
-    "Escolha o modelo pelo documento, distinguindo parte e publicação hospedeira.",
-    "Convém, deve e permite-se têm forças diferentes; confira a regra específica.",
-    "Uma edição histórica da norma deve ser julgada em seu contexto, sem atualização retroativa silenciosa."
+    "Uniformidade é coerência de apresentação, não troca dos dados do documento. O artigo pertence ao periódico identificado, e sua referência precisa preservar essa relação. A identidade do autor não autoriza substituir a fonte.",
+    "Quando não há indicação de autoria ou responsabilidade, a entrada é feita pelo título, conforme o modelo aplicável. Não se deve inventar um nome de autor para preencher o campo.",
+    "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo."
   ],
   "quadroComparativo": {
     "titulo": "Referência: perguntas que orientam o modelo",
@@ -223,5 +223,10 @@
         "Não inventar Anônimo"
       ]
     ]
-  }
+  },
+  "autoresChave": [
+    "ABNT NBR 6023:2025 — Referências — Elaboração"
+  ],
+  "descricaoCurta": "Selecionar o modelo pelo documento consultado e distinguir elementos essenciais e complementares. Aplicar as regras de até três e de quatro ou mais autores. Escolher a entrada sem confundir órgão subordinado e entidade de denominação própria. Montar modelos com dados fictícios suficientes e identificar a publicação hospedeira. Distinguir data do documento, data de acesso e endereço de disponibilidade. Detectar erros por checklist e explicar a correção.",
+  "tempoEstimadoMinutos": 27
 }

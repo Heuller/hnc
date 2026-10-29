@@ -7,94 +7,28 @@ export const submodulo132: ModuloFilho = {
   preRequisitos: ["sub-13-1"],
   titulo: 'A Arte da Reescritura e Paráfrase no Padrão Cebraspe',
   antesDeLer: [
-    {
-      termo: 'Reescritura e Paráfrase no Padrão Cebraspe',
-      definicao: 'Tipo de item que propõe alteração da ordem, vocabulário ou pontuação de um trecho exigindo avaliação de sentido e correção gramatical.',
-      exemploBiblioteca: 'Reescrever despachos legislativos garantindo clareza, concisão e estrita observância à norma culta.',
-    },
-    {
-      termo: 'Sentido Original vs. Correção Gramatical',
-      definicao: 'Distingo fundamental do Cebraspe: uma proposta de reescritura pode ser gramaticalmente impecável, mas alterar o sentido pretendido pelo autor.',
-      exemploBiblioteca: 'Trocar \'todos os livros que continham erros\' por \'todos os livros, que continham erros\' (restritiva vs. explicativa: altera o sentido).',
-    },
-    {
-      termo: 'Inversão de Termos da Oração',
-      definicao: 'Deslocamento de adjuntos adverbiais ou complementos para o início da frase com exigência de vírgulas obrigatórias ou facultativas.',
-      exemploBiblioteca: 'Avaliar se o deslocamento do adjunto adverbial de tempo para o início do período exige vírgula de isolamento.',
-    },
-    {
-      termo: 'Equivalência Semântica de Conjunções',
-      definicao: 'Substituição de conectivos mantendo a mesma classe lógica (ex.: \'conquanto\' por \'embora\'; \'porquanto\' por \'porque\').',
-      exemploBiblioteca: 'Cuidado com \'porquanto\' (explicativa/causal) vs. \'conquanto\' (concessiva), armadilha clássica da banca Cebraspe.',
-    },
-  ],
-  descricaoCurta:
-    'A metodologia dos três filtros (Correção Gramatical vs Sentido Original vs Coerência Textual), desdobramento de orações reduzidas, transposição rigorosa de vozes verbais e as sutis armadilhas de modalidade epistêmica.',
-  tempoEstimadoMinutos: 11,
-  autoresChave: [
-    'Evanildo Bechara (Moderna Gramática Portuguesa)',
-    'Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo)',
-    'Othon Moacyr Garcia (Comunicação em Prosa Moderna)',
-    'Provas Oficiais Cebraspe - Câmara dos Deputados e Senado Federal',
-  ],
-  alertasCebraspe: [
-  "Leia o comando: preservar correção e preservar sentido são exigências distintas.",
-  "Tempo, aspecto e modalidade não devem ser trocados por semelhança lexical.",
-  "A reescrita deve conservar as ressalvas pertinentes; não introduza conclusão ou precisão ausentes."
-],
-  quadroComparativo: {
-    titulo: 'Matriz Cebraspe de Reescritura: O Teste dos Três Filtros Decisórios',
-    colunas: [
-      'Tipo de Reescritura',
-      'Estrutura Original',
-      'Proposta da Banca Cebraspe',
-      'Correção Gramatical',
-      'Sentidos Originais',
-      'Gabarito Oficial',
-    ],
-    linhas: [
-      [
-        'Transposição de Voz (Tempo Alterado)',
-        'A comissão analisou os documentos com presteza.',
-        'Os documentos eram analisados pela comissão com presteza.',
-        '✅ Mantida (Sintaxe correta)',
-        '❌ Alterado (Perfeito pontual vs Imperfeito contínuo)',
-        'ERRADO',
-      ],
-      [
-        'Transposição de Voz (Tempo Preservado)',
-        'O relator apresentou o parecer na sessão matutina.',
-        'O parecer foi apresentado pelo relator na sessão matutina.',
-        '✅ Mantida',
-        '✅ Mantido (Identidade semântica plena)',
-        'CERTO',
-      ],
-      [
-        'Modificação de Modalidade Epistêmica',
-        'A alteração legislativa pode suscitar controvérsias.',
-        'A alteração legislativa suscitará controvérsias.',
-        '✅ Mantida',
-        '❌ Alterado (Possibilidade convertida em certeza futura)',
-        'ERRADO',
-      ],
-      [
-        'Desdobramento de Oração Reduzida',
-        'Ao término dos debates, o presidente encerrou a sessão.',
-        'Logo que os debates terminaram, o presidente encerrou a sessão.',
-        '✅ Mantida',
-        '✅ Mantido (Equivalência temporal imediata preservada)',
-        'CERTO',
-      ],
-      [
-        'Supressão de Restritor / Quantificador',
-        'Grande parte dos servidores aderiu ao novo protocolo.',
-        'Os servidores aderiram ao novo protocolo.',
-        '✅ Mantida',
-        '❌ Alterado (Generalização indevida: de maioria para totalidade)',
-        'ERRADO',
-      ],
-    ],
+  {
+    "termo": "Reescrita",
+    "definicao": "Reformulação a avaliar quanto a sentido, correção e organização.",
+    "exemploBiblioteca": "Manter palavras parecidas não garante manter causa, tempo ou alcance."
   },
+  {
+    "termo": "Voz e foco",
+    "definicao": "Construções podem alterar foco e organização informacional.",
+    "exemploBiblioteca": "Uma passiva pode conservar participantes e ainda mudar o destaque da oração."
+  }
+],
+  descricaoCurta:
+    "Separar correção gramatical, sentido e adequação ao encadeamento. Converter ativa e passiva quando a estrutura admitir. Desenvolver infinitivo, gerúndio e particípio conforme o contexto. Examinar o alcance de termos e evitar regras universais sobre ordem. Validar propostas completas e justificar acerto e erro.",
+  tempoEstimadoMinutos: 19,
+  autoresChave: [
+  "Manual de Redação da Presidência da República, 3ª ed. (2018)"
+],
+  alertasCebraspe: [
+  "Na primeira, somente incide sobre a equipe; na segunda, sobre os arquivos. A posição muda o escopo no contexto dado.",
+  "A sequência não fixa intervalo de precisão tão específico. Inserir imediatamente ou no mesmo segundo acrescenta uma condição temporal não assegurada.",
+  "Necessidade de avaliação e resultado negativo de uma avaliação são estados diferentes. A reprovação foi acrescentada pela assertiva."
+],
   secoes: [
     {
       id: 'sec-tres-filtros',
@@ -207,69 +141,38 @@ export const submodulo132: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tm-13-2-1',
-        periodo: '1967',
-        disciplina: 'Comunicação e Estilística',
-        focoPrincipal: 'Estrutura da Frase e Paráfrase Analítica na Prosa Moderna',
-        figuraChave: 'Othon Moacyr Garcia',
-      },
-      {
-        id: 'tm-13-2-2',
-        periodo: '2008',
-        disciplina: 'Sintaxe Funcional',
-        focoPrincipal: 'Transposição de Vozes Verbais e Desdobramento de Orações Reduzidas',
-        figuraChave: 'Celso Cunha & Lindley Cintra',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-13-2-1',
-        nome: 'Othon Moacyr Garcia',
-        ano: 1967,
-        obraPrincipal: 'Comunicação em Prosa Moderna',
-        ideiaChave:
-          'A paráfrase fiel requer a preservação exata dos valores modais, da ênfase tópica e da hierarquia informativa entre ideias principais e secundárias.',
-        chipPegadinha: 'Modalidade Epistêmica',
-      },
-      {
-        id: 'aut-13-2-2',
-        nome: 'Evanildo Bechara',
-        ano: 2009,
-        obraPrincipal: 'Moderna Gramática Portuguesa (37ª Ed.)',
-        ideiaChave:
-          'O desdobramento de orações reduzidas exige compatibilização morfológica de tempo e modo verbal, preservando a relação subordinativa de origem.',
-        chipPegadinha: 'Desdobramento de Reduzidas',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-13-2-1',
-        afirmacao:
-          'A frase "O relatório foi lido com atenção pelo secretário" expressa a mesma relação temporal e aspectual que "O relatório era lido com atenção pelo secretário".',
-        gabarito: 'E',
-        porQue:
-          '"Foi lido" expressa pretérito perfeito (fato concluído e acabado), enquanto "era lido" expressa pretérito imperfeito (fato habitual ou em curso no passado). A troca altera o sentido.',
-      },
-      {
-        id: 'peg-13-2-2',
-        afirmacao:
-          'A substituição de "a maioria dos projetos" por "todos os projetos" mantém os sentidos originais quando o contexto tratar da atividade ordinária do plenário.',
-        gabarito: 'E',
-        porQue:
-          'Trata-se de generalização indevida. "A maioria" é quantificador partitivo (admite exceções), ao passo que "todos" é quantificador universal totalizador.',
-      },
-      {
-        id: 'peg-13-2-3',
-        afirmacao:
-          'Na transposição da voz ativa para a passiva analítica, o agente da passiva deve vir obrigatoriamente precedido da preposição "por" (ou de sua contração).',
-        gabarito: 'C',
-        porQue:
-          'Segundo Cunha & Cintra (p. 386), o agente da passiva é introduzido ordinariamente pela preposição "por" (por, pelo, pela) e, mais raramente em construções literárias arcaicas, pela preposição "de".',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-13-2-fonte-mrpr",
+      "nome": "Manual de Redação da Presidência da República, 3ª ed. (2018)",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Manual de Redação da Presidência da República, 3ª ed. (2018)",
+      "ideiaChave": "Coesão/coerência, ambiguidade, sintaxe, regência e pontuação. Exemplos de aplicação autorais.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-13-2-3",
+      "afirmacao": "De “Concluída a revisão, o relatório foi enviado” decorre obrigatoriamente que o envio ocorreu no mesmo segundo da conclusão.",
+      "gabarito": "E",
+      "porQue": "A sequência não fixa intervalo de precisão tão específico. Inserir imediatamente ou no mesmo segundo acrescenta uma condição temporal não assegurada."
+    },
+    {
+      "id": "memoria-rt-13-2-4",
+      "afirmacao": "Em um contexto usual, “um procedimento simples” e “um simples procedimento” podem apresentar sentidos diferentes, sem que isso estabeleça uma lei sobre todo adjetivo.",
+      "gabarito": "C",
+      "porQue": "A relação entre posição e sentido depende do adjetivo e da expressão. O exemplo admite diferença, mas não autoriza universalizar subjetividade e objetividade por posição."
+    },
+    {
+      "id": "memoria-rt-13-2-5",
+      "afirmacao": "No texto da oficina, dizer que a acessibilidade ainda precisa ser avaliada equivale a afirmar que ela já foi reprovada.",
+      "gabarito": "E",
+      "porQue": "Necessidade de avaliação e resultado negativo de uma avaliação são estados diferentes. A reprovação foi acrescentada pela assertiva."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

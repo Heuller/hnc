@@ -30,13 +30,19 @@ export const submodulo61: ModuloFilho = {
     "exemploBiblioteca": "Distinguir automação de circulação e fornecimento remoto do texto integral."
   }
 ],
-  descricaoCurta: 'Diferenciação conceitual entre biblioteca tradicional, eletrônica, digital e virtual, os 4 sistemas da Arquitetura da Informação (Rosenfeld & Morville: organização, navegação, rotulagem e busca), heurísticas de usabilidade de Jakob Nielsen e acessibilidade digital (WCAG e e-MAG).',
-  tempoEstimadoMinutos: 18,
-  autoresChave: ['Louis Rosenfeld', 'Peter Morville', 'Jakob Nielsen', 'F. W. Lancaster', 'W3C / e-MAG', 'Clifford Lynch'],
+  descricaoCurta: "Distinguir objeto digital, registro descritivo e serviço de acesso. Identificar critérios e limites de uma classificação sem impor consenso inexistente. Aplicar organização, navegação, rotulagem e busca a um portal. Avaliar uma interface a partir da tarefa e distinguir orientação de garantia. Identificar barreiras concretas e relacioná-las aos princípios da WCAG.",
+  tempoEstimadoMinutos: 22,
+  autoresChave: [
+  "Cunha e Cavalcanti (2008) — Dicionário de Biblioteconomia e Arquivologia",
+  "Cunha — Desafios na construção de uma biblioteca digital",
+  "Rosenfeld e Morville — Information Architecture for the World Wide Web",
+  "Nielsen — 10 Usability Heuristics",
+  "W3C/WAI — Accessibility Principles",
+  "Lei Brasileira de Inclusão"
+],
   alertasCebraspe: [
-  "Diferencie acesso ao registro e acesso ao documento; não suponha texto integral porque existe um OPAC.",
-  "Compare funções e o autor indicado. Tipologias de biblioteca não têm terminologia perfeitamente uniforme.",
-  "Acessibilidade e usabilidade exigem análise de tarefas e barreiras; a presença de uma funcionalidade não certifica todos os requisitos."
+  "O catálogo oferece representação e localização do item. Acesso ao registro não equivale a acesso ao documento. Um catálogo pode conter links para documentos, mas esse recurso adicional precisa existir e ser examinado; não decorre automaticamente da informatização.",
+  "Organização, navegação, rotulagem e busca se articulam. Uma busca útil pode depender de metadados e categorias coerentes, enquanto rótulos permitem interpretar resultados. A existência de um mecanismo não elimina os demais."
 ],
   quadroComparativo: {
   "titulo": "Funções de um serviço digital",
@@ -159,76 +165,78 @@ export const submodulo61: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-6-1-1',
-        periodo: '1994',
-        disciplina: 'Usabilidade na Web',
-        focoPrincipal: 'Formulação das 10 Heurísticas de Usabilidade para interfaces digitais',
-        figuraChave: 'Jakob Nielsen',
-      },
-      {
-        id: 'tl-6-1-2',
-        periodo: '1998 / 2006',
-        disciplina: 'Arquitetura da Informação',
-        focoPrincipal: 'Publicação de "Information Architecture for the World Wide Web" (sistemas de organização, navegação, rotulagem e busca)',
-        figuraChave: 'Louis Rosenfeld e Peter Morville',
-      },
-      {
-        id: 'tl-6-1-3',
-        periodo: '1999 / 2018',
-        disciplina: 'Acessibilidade na Web',
-        focoPrincipal: 'Consolidação das diretrizes internacionais WCAG pelo W3C e criação do e-MAG no Brasil',
-        figuraChave: 'W3C / Governo Federal do Brasil',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-6-1-1',
-        nome: 'Louis Rosenfeld e Peter Morville',
-        ano: 1998,
-        obraPrincipal: 'Information Architecture for the World Wide Web (o livro do urso polar)',
-        ideiaChave: 'Os 4 sistemas da AI: Organização, Navegação, Rotulagem e Busca.',
-        chipPegadinha: 'Rotulagem não é mero estilo visual, é a representação linguística coerente das opções.',
-      },
-      {
-        id: 'aut-6-1-2',
-        nome: 'Jakob Nielsen',
-        ano: 1994,
-        obraPrincipal: 'Usability Engineering',
-        ideiaChave: 'As 10 heurísticas de usabilidade e o teste empírico com usuários reais.',
-        chipPegadinha: 'A interface deve favorecer o reconhecimento visual em detrimento da memorização esforçada.',
-      },
-      {
-        id: 'aut-6-1-3',
-        nome: 'Murilo Bastos da Cunha',
-        ano: 2000,
-        obraPrincipal: 'Construindo o futuro: a biblioteca digital no Brasil',
-        ideiaChave: 'Conceituação das bibliotecas eletrônicas, digitais e virtuais e seus impactos na sociedade da informação.',
-        chipPegadinha: 'Biblioteca digital não é sinônimo de biblioteca sem paredes (que é a virtual).',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-6-1-1',
-        afirmacao: 'O sistema de rotulagem na arquitetura da informação de uma biblioteca digital restringe-se exclusivamente à definição de cores, fontes e estilo estético do website.',
-        gabarito: 'E',
-        porQue: 'Rotulagem é a definição verbal e semiótica dos termos e rótulos que representam categorias, links e botões na interface.',
-      },
-      {
-        id: 'peg-6-1-2',
-        afirmacao: 'Para que uma unidade de informação seja legitimamente considerada uma biblioteca digital, é indispensável que haja um equivalente físico impresso de salvaguarda de todo o seu acervo.',
-        gabarito: 'E',
-        porQue: 'Bibliotecas digitais podem ser constituídas integralmente por documentos natos digitais (born-digital) sem qualquer cópia física em papel.',
-      },
-      {
-        id: 'peg-6-1-3',
-        afirmacao: 'As heurísticas de usabilidade de Jakob Nielsen prescrevem que interfaces eficientes devem obrigar o usuário a memorizar códigos de comandos para navegar rapidamente.',
-        gabarito: 'E',
-        porQue: 'A 6ª heurística determina o "Reconhecimento em vez de memorização": a interface deve manter opções visíveis e acessíveis para poupar a memória de trabalho do usuário.',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-6-1-fonte-cunha-dicionario",
+      "nome": "Cunha e Cavalcanti (2008) — Dicionário de Biblioteconomia e Arquivologia",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha e Cavalcanti (2008) — Dicionário de Biblioteconomia e Arquivologia",
+      "ideiaChave": "Verbetes de biblioteca digital, eletrônica, híbrida e virtual; acervo do projeto, Fundamentos.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-1-fonte-cunha-digital",
+      "nome": "Cunha — Desafios na construção de uma biblioteca digital",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Cunha — Desafios na construção de uma biblioteca digital",
+      "ideiaChave": "Discussão conceitual e tecnológica; acervo do projeto, Digital, repositórios e IA.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-1-fonte-ia",
+      "nome": "Rosenfeld e Morville — Information Architecture for the World Wide Web",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Rosenfeld e Morville — Information Architecture for the World Wide Web",
+      "ideiaChave": "Sistemas de organização, rotulagem, navegação e busca.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-1-fonte-nielsen",
+      "nome": "Nielsen — 10 Usability Heuristics",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Nielsen — 10 Usability Heuristics",
+      "ideiaChave": "Critérios de inspeção; casos da aula são exemplos próprios.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-1-fonte-wai",
+      "nome": "W3C/WAI — Accessibility Principles",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "W3C/WAI — Accessibility Principles",
+      "ideiaChave": "Quatro princípios de acessibilidade.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-6-1-fonte-lbi",
+      "nome": "Lei Brasileira de Inclusão",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei Brasileira de Inclusão",
+      "ideiaChave": "Lei 13.146/2015, art. 63.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-6-1-4",
+      "afirmacao": "Um botão que apresenta mensagem clara de envio em andamento ajuda o usuário a perceber o estado da operação, mas não comprova, sozinho, que o processo será concluído com sucesso.",
+      "gabarito": "C",
+      "porQue": "Feedback de estado informa o que ocorre; confirmação de conclusão exige resultado efetivo. O exemplo distingue a heurística de visibilidade do estado de uma garantia operacional que a interface não pode inventar."
+    },
+    {
+      "id": "memoria-rt-6-1-5",
+      "afirmacao": "Oferecer descrição textual de uma imagem informativa e permitir operação por teclado trata de barreiras diferentes de acesso.",
+      "gabarito": "C",
+      "porQue": "A alternativa textual atende à percepção do conteúdo não textual; a operação por teclado enfrenta barreiras de interação. A acessibilidade reúne requisitos distintos, e uma solução isolada não cobre todas as necessidades."
+    },
+    {
+      "id": "memoria-rt-6-1-6",
+      "afirmacao": "Dois autores podem usar biblioteca eletrônica com alcances diferentes; para julgar uma afirmação explicitamente atribuída a um deles, é necessário conferir o recorte desse autor.",
+      "gabarito": "C",
+      "porQue": "O vocabulário da área tem variações históricas e autorais, documentadas nos verbetes e discussões conceituais. Uma tabela didática ajuda a comparar, mas não deve ser imposta como definição universal contra a fonte expressamente indicada."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

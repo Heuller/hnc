@@ -8,238 +8,253 @@ export const submodulo114: ModuloFilho = {
   titulo: 'Processo Administrativo Federal e Direito Disciplinar (Leis 9.784/99 e 8.112/90)',
   titulo_curto: 'Processo Administrativo e Disciplinar',
   antesDeLer: [
-    {
-      termo: 'Processo Administrativo Federal (Lei nº 9.784/1999)',
-      definicao: 'Norma geral que regula o processo administrativo no âmbito da Administração Pública Federal para garantir direitos dos administrados.',
-      exemploBiblioteca: 'Rito seguido para apuração de extravio culposo de obra rara da biblioteca e cobrança de indenização.',
-    },
-    {
-      termo: 'Processo Administrativo Disciplinar (PAD)',
-      definicao: 'Instrumento destinado a apurar responsabilidade de servidor por infração praticada no exercício de suas atribuições que comine demissão ou suspensão.',
-      exemploBiblioteca: 'Comissão de três servidores estáveis designada para instruir autos com ampla defesa e contraditório.',
-    },
-    {
-      termo: 'Princípios do Processo Administrativo',
-      definicao: 'Contraditório, ampla defesa, oficialidade, informalismo moderado, verdade material e motivação das decisões.',
-      exemploBiblioteca: 'Necessidade de fundamentar formalmente qualquer indeferimento de acesso a documento arquivado.',
-    },
-    {
-      termo: 'Sindicância',
-      definicao: 'Procedimento investigativo sumário preparatório destinado a apurar autoria ou materialidade antes da instauração do PAD.',
-      exemploBiblioteca: 'Sindicância para identificar responsáveis por dano físico ocorrido em equipamentos da sala de leitura.',
-    },
-  ],
-  descricaoCurta: 'Princípios do processo administrativo (verdade material, oficialidade, informalismo moderado). Lei nº 9.784/1999: impedimento e suspeição, prazos, delegação/avocação e recursos. Direito disciplinar: sindicância, rito do PAD ordinário e sumário, prescrição e Súmula Vinculante 5 do STF.',
-  tempoEstimadoMinutos: 11,
+  {
+    "termo": "Processo geral e PAD",
+    "definicao": "Lei 9.784 é geral/subsidiária; o PAD federal tem regras específicas da Lei 8.112.",
+    "exemploBiblioteca": "Parentesco da comissão é tratado no art. 149, § 2º, da Lei 8.112."
+  },
+  {
+    "termo": "Recurso e revisão",
+    "definicao": "Meios de reexame com pressupostos e limites próprios.",
+    "exemploBiblioteca": "Revisão sancionadora não permite agravar a sanção; não se aplica automaticamente a regra do recurso."
+  }
+],
+  descricaoCurta: "Reconhecer âmbito federal e subsidiariedade. Separar regimes gerais e regra da comissão disciplinar. Comparar prazo, efeitos e possibilidade de agravamento. Diferenciar prazo prescricional e cancelamento de registro. Reconhecer fases, comissão e alcance da SV 5.",
+  tempoEstimadoMinutos: 19,
   autoresChave: [
-    'Lei Geral do Processo Administrativo Federal (Lei nº 9.784/1999)',
-    'Regime Jurídico Único (Lei nº 8.112/1990 - Título V)',
-    'Maria Sylvia Zanella Di Pietro',
-    'Súmula Vinculante 5 do STF',
-  ],
+  "Lei 9.784/1999",
+  "Lei 8.112/1990",
+  "STJ — Súmulas",
+  "STF — Súmulas vinculantes"
+],
   alertasCebraspe: [
-    'SÚMULA VINCULANTE 5 DO STF: "A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição." O servidor pode defender-se pessoalmente ou constituir procurador; a presença de advogado não é condição de validade do PAD.',
-    'IMPEDIMENTO VS. SUSPEIÇÃO (LEI Nº 9.784/1999): O impedimento possui natureza objetiva, gerando presunção absoluta de parcialidade (ex.: ter atuado como perito ou testemunha no processo; estar litigando com o interessado). A omissão do dever de comunicar o impedimento constitui falta grave funcional. A suspeição possui natureza subjetiva e presunção relativa (amizade íntima ou inimizade notória).',
-    'PRAZOS PRESCRICIONAIS DO DIREITO DISCIPLINAR (ART. 142 DA LEI 8.112/90): 5 anos para infrações puníveis com demissão, cassação de aposentadoria/disponibilidade e destituição de comissão; 2 anos para suspensão; 180 dias para advertência. O termo inicial é a data em que o fato se tornou conhecido da autoridade competente para instaurar o processo, e NÃO a data em que a infração foi consumada!',
-    'INTERRUPÇÃO DA PRESCRIÇÃO DISCIPLINAR: A instauração de sindicância punitiva ou de PAD interrompe a prescrição disciplinar. Contudo, essa interrupção perdura por até 140 dias (prazo legal de 60 + 60 dias do PAD + 20 dias para julgamento). Findo o 140º dia sem conclusão, o prazo prescricional recomeça a correr por inteiro.',
-  ],
-  quadroComparativo: {
-    titulo: 'Procedimentos Disciplinares da Lei nº 8.112/1990',
-    colunas: ['Critério', 'Sindicância Investigativa', 'Sindicância Punitiva (Acusatória)', 'PAD Ordinário (Rito Geral)', 'PAD Sumário (Rito Especial)'],
-    linhas: [
-      ['Finalidade', 'Apurar autoria e materialidade de irregularidades desconhecidas', 'Apurar faltas leves/médias com autor já identificado', 'Apurar infrações graves com risco de demissão ou cassação', 'Apurar faltas específicas: abandono de cargo, inassiduidade habitual e acumulação ilegal'],
-      ['Penalidades Máximas', 'Nenhuma sanção direta (gera arquivamento ou PAD)', 'Advertência ou Suspensão por até 30 dias', 'Demissão, Cassação, Destituição ou Suspensão de 31 a 90 dias', 'Demissão, Cassação ou Destituição de cargo em comissão'],
-      ['Composição da Comissão', 'Comissão ou servidor designado', 'Comissão de 3 servidores estatutários', 'Comissão de 3 servidores estáveis (presidente com nível igual ou superior)', 'Comissão de 2 servidores estáveis'],
-      ['Prazo de Conclusão', '30 dias + prorrogação por igual período', '30 dias + prorrogação por igual período', '60 dias + prorrogação por igual período (60 dias)', '30 dias + prorrogação por até 15 dias'],
-      ['Contraditório / Ampla Defesa', 'Inexistente (procedimento meramente inquisitório)', 'Obrigatório (contraditório pleno)', 'Obrigatório e substancial (inquérito com fase de defesa formal)', 'Obrigatório (com rito de instrução acelerado)'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Princípios Fundamentais do Processo Administrativo Federal (Lei nº 9.784/1999)
-
-A Lei nº 9.784/1999 estabelece as normas básicas sobre o processo administrativo na Administração Pública Federal direta e indireta:
-
-* **Princípio da Oficialidade (Impulso de Ofício):** A Administração pode e deve impulsionar o processo de ofício, sem depender da provocação dos administrados, podendo ordenar a produção de diligências e provas para esclarecer a verdade dos fatos.
-* **Princípio da Verdade Material (Verdade Real):** Ao contrário do processo civil tradicional (que se atém à verdade formal constante nos autos), a Administração deve perquirir a verdade material, tendo o dever de acatar documentos e provas idôneas surgidas até a decisão final, ainda que apresentadas intempestivamente.
-* **Princípio do Formalismo Moderado (Informalismo):** Exige-se apenas o mínimo de formalidades indispensáveis à segurança jurídica, à certeza das situações e ao exercício pleno do contraditório e da ampla defesa. Formas não essenciais que não causem prejuízo a terceiros são convalidáveis.
-* **Gratuidade Processual:** Em regra, os processos administrativos federais não exigem pagamento de taxas ou despesas postais, salvo determinação legal expressa em contrário (art. 2º, parágrafo único, XI).
-
----
-
-### 2. Impedimento e Suspeição no Processo Administrativo (Arts. 18 a 21)
-
-A autoridade ou servidor público que incorrer em impedimento ou suspeição deve comunicar o fato e abster-se imediatamente de atuar:
-
-#### 2.1 Hipóteses de Impedimento (Critério Objetivo - Nulidade Absoluta)
-É **impedido** de atuar no processo administrativo o servidor ou autoridade que:
-1. Tenha interesse direto ou indireto na matéria;
-2. Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrerem quanto ao cônjuge, companheiro ou parente até o terceiro grau (consanguíneo ou afim);
-3. Esteja litigando judicial ou administrativamente com o interessado ou com o respectivo cônjuge ou companheiro.
-* **Alerta Cebraspe:** A omissão do dever de comunicar o impedimento constitui **falta grave funcional** para efeitos disciplinares (art. 19).
-
-#### 2.2 Hipóteses de Suspeição (Critério Subjetivo - Presunção Relativa)
-Pode ser arguida a **suspeição** de autoridade ou servidor que tenha **amizade íntima** ou **inimizade notória** com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau. O indeferimento da suspeição pelo julgador não admite recurso administrativo isolado com efeito suspensivo.
-
----
-
-### 3. Competência, Delegação e Avocação
-
-* **Regra Geral:** A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria.
-* **Delegação (Art. 12):** Um órgão administrativo e seu titular podem, se não houver impedimento legal, delegar parte de sua competência a outros órgãos ou titulares, ainda que estes **não lhe sejam hierarquicamente subordinados**, quando for conveniente em razão de circunstâncias técnicas, sociais ou jurídicas.
-* **Vedação Absoluta à Delegação (Mnemônico CENORA - Art. 13):**
-  1. A edição de atos de caráter **normativo**;
-  2. A decisão de **recursos administrativos**;
-  3. As matérias de **competência exclusiva** do órgão ou autoridade.
-* **Avocação (Art. 15):** É a atração excepcional e temporária de competência do subordinado pelo superior hierárquico, permitida apenas por motivos relevantes devidamente justificados.
-
----
-
-### 4. Prazos, Decisão e Recursos na Lei nº 9.784/1999
-
-* **Dever de Decidir (Art. 49):** Concluída a instrução processual, a Administração tem o prazo improrrogável de até **30 dias** para emitir a decisão final, prorrogável motivadamente por igual período.
-* **Recurso Administrativo (Arts. 56 a 65):**
-  * Prazo para interpor recurso: **10 dias**, contados da ciência ou divulgação oficial da decisão.
-  * O recurso tramita por no máximo **3 instâncias administrativas**, salvo disposição legal em contrário.
-  * **Efeito do Recurso:** Em regra, possui apenas **efeito devolutivo** (a decisão recorrida continua produzindo efeitos). A autoridade pode conceder efeito suspensivo de ofício ou a pedido se houver justo receio de prejuízo de difícil ou incerta reparação.
-  * **Vedação à Reformatio in Pejus Surpresa (Art. 64, Parágrafo Único):** O recurso administrativo permite a reforma da decisão para piorar a situação do recorrente (*reformatio in pejus*), MAS a autoridade julgadora é OBRIGADA a intimar previamente o recorrente para que este se manifeste em até 10 dias antes da decisão agravante.
-
----
-
-### 5. Regime Disciplinar e Procedimentos da Lei nº 8.112/1990
-
-O servidor que cometer ilícito funcional sujeita-se a três sanções principais:
-1. **Advertência:** Aplicada por escrito a faltas leves (ex.: ausentar-se do serviço sem autorização, retirar documento ou livro da biblioteca sem prévia anuência). Prescreve em 180 dias; registro cancelado após 3 anos.
-2. **Suspensão:** Aplicada em caso de reincidência em faltas punidas com advertência ou faltas médias (máximo de 90 dias). Pode ser convertida em multa de 50% por dia de vencimento, com obrigação de permanecer em serviço. Prescreve em 2 anos; registro cancelado após 5 anos.
-3. **Demissão:** Sanção máxima capital aplicada às faltas graves do art. 132 (improbidade administrativa, crime contra a administração pública, abandono de cargo [ausência intencional por mais de 30 dias consecutivos], inassiduidade habitual [falta sem causa justificada por 60 dias interpolados no período de 12 meses], corrupção, aplicação irregular de dinheiros públicos, revelação de segredo conhecido em razão do cargo). Prescreve em 5 anos.
-
-#### Fases do PAD Ordinário (Art. 151 da Lei 8.112/90)
-$$\\text{PAD} = \\text{Instauração} \\longrightarrow \\text{Inquérito (Instrução + Defesa + Relatório)} \\longrightarrow \\text{Julgamento}$$
-
-* **Comissão Processante:** Composta por **3 servidores estáveis**, designados pela autoridade instauradora, devendo o presidente ocupar cargo de nível igual ou superior ao do indiciado ou ter escolaridade igual ou superior.
-* **Defesa Técnica e Súmula Vinculante 5 do STF:** O indiciado tem o direito de ser pessoalmente citado e intimado para todos os atos, podendo constituir advogado. Contudo, a ausência de advogado não anula o PAD nem viola a ampla defesa constitucional (Súmula Vinculante 5).`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-O **Processo Administrativo Federal (Lei nº 9.784/1999)** e o **Direito Disciplinar (Lei nº 8.112/1990)** estabelecem o devido processo legal e o regime sancionatório no serviço público:
-1. **Princípios e Direitos no Processo Administrativo (Lei nº 9.784/1999):**
-   - Princípios canônicos: Devido processo legal, ampla defesa, contraditório, motivação, oficialidade, gratuidade e **verdade material** (o administrador busca a verdade fática real dos acontecimentos, e não apenas a verdade formal dos autos).
-   - **Dever de Motivação (Art. 50):** A motivação é obrigatória em atos que neguem, limitem ou afetem direitos, imponham deveres ou sanções, e revoguem ou anulem atos. A motivação pode ser *aliunde* (por remissão a pareceres anteriores).
-   - **Delegação e Avocação de Competência:**
-     - *Delegação:* É facultativa, revogável a qualquer tempo e não implica renúncia de competência. **NÃO podem ser delegados (Art. 11):** a edição de atos normativos; a decisão de recursos administrativos; e matérias de competência exclusiva.
-     - *Avocação:* Excepcional, temporária e exige motivos relevantes devidamente justificados.
-2. **Direito Disciplinar na Lei nº 8.112/1990:**
-   - **Penalidades Disciplinares:** Advertência $\to$ Suspensão (máximo de 90 dias) $\to$ Demissão $\to$ Cassação de aposentadoria/disponibilidade $\to$ Destituição de cargo em comissão $\to$ Destituição de função comissionada.
-   - **Infrações Puníveis com Demissão (Art. 132):** Crime contra a administração pública; abandono de cargo (ausência intencional por mais de **30 dias consecutivos**); inassiduidade habitual (falta injustificada por **60 dias interpolados** no período de 12 meses); improbidade administrativa; aplicação irregular de dinheiro público; lesão aos cofres públicos e corrupção.
-3. **O Processo Administrativo Disciplinar (PAD):**
-   - Composto por comissão de **3 servidores estáveis**. Fases: Instauração $\to$ Inquérito (instrução, defesa e relatório) $\to$ Julgamento pela autoridade competente.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Proibição de Delegação de Recurso na Diretoria-Geral):** Um candidato contesta o gabarito de uma prova interna do CEDI e protocola recurso administrativo perante a Diretoria-Geral. O Diretor-Geral não pode delegar a decisão desse recurso para a chefia imediata da biblioteca, pois o art. 11 da Lei nº 9.784/1999 veda terminantemente a delegação de **decisão de recursos administrativos**.
-- **Cenário 2 (Apuração de Abandono de Cargo na Biblioteca):** Um servidor deixa de comparecer ao trabalho na Biblioteca Pedro Aleixo por 32 dias consecutivos sem justificativa médica ou licença formal. A Mesa Diretora instaura PAD pelo rito sumário de **abandono de cargo** (art. 132, II da Lei 8.112), assegurando a ampla defesa antes da aplicação da penalidade de demissão.
-- **Cenário 3 (Verdade Material em Sindicância Interna):** Durante a apuração do extravio de um livro histórico de 1850, o servidor acusado junta cópias simples incompletas. O presidente da comissão de PAD, em busca da **verdade material** (art. 2º da Lei 9.784), requisita de ofício as filmagens das câmeras de segurança e ouve testemunhas que não haviam sido indicadas na petição inicial.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Ato / Situação Disciplinar | Regra Legal / Prazo | Característica Crítica | Erro Típico da Banca |
-| :--- | :--- | :--- | :--- |
-| **Abandono de Cargo** | Mais de **30 dias consecutivos** de falta injustificada | Intenção de faltar (animus abandonandi) | Confundir com inassiduidade habitual |
-| **Inassiduidade Habitual** | **60 dias interpolados** de falta em 12 meses | Faltas dispersas sem justificativa | Dizer que são 30 dias interpolados |
-| **Atos Não Delegáveis** | Edição de atos normativos, recursos e comp. exclusiva | Rol taxativo do art. 11 da Lei 9.784 | Dizer que recurso pode ser delegado |
-| **Suspensão Máxima** | Até 90 dias | Pode ser convertida em multa de 50% | Afirmar suspensão de 180 dias |
-| **Comissão de PAD** | 3 servidores estáveis | Designados pela autoridade instauradora | Permitir servidores em estágio probatório |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Comissão de PAD com Servidor Não Estável:** A banca afirma que a comissão de PAD pode ser composta por dois analistas estáveis e um servidor recém-empossado em estágio probatório. **Gabarito: ERRADO.** O art. 149 da Lei 8.112 exige expressamente que os **três membros sejam servidores estáveis**.
-- **Delegação de Ato Normativo:** Afirmar que o Diretor pode delegar a expedição de portarias normativas gerais a seus chefes de serviço. **Gabarito: ERRADO.** O art. 11 da Lei 9.784/99 proíbe a delegação de atos com caráter normativo.
-- **Verdade Formal vs. Verdade Material:** O Cebraspe propõe que o processo administrativo federal se rege pela verdade formal como no processo civil clássico. **Gabarito: ERRADO.** O processo administrativo rege-se pelo princípio da **verdade material**, podendo a Administração produzir provas de ofício além das alegadas pelas partes.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL.** *Lei Federal nº 9.784, de 29 de janeiro de 1999*. Regula o processo administrativo no âmbito da Administração Pública Federal.
-- **BRASIL.** *Lei Federal nº 8.112, de 11 de dezembro de 1990*. arts. 116 a 182 (Regime Disciplinar e PAD).
-- **MEDAUAR, Odete.** *Direito Administrativo Moderno*. 23. ed. Belo Horizonte: Fórum, 2021. (Referência canônica de processo administrativo).
-- **DI PIETRO, Maria Sylvia Zanella.** *Direito Administrativo*. 36. ed. Rio de Janeiro: Forense, 2023.
-- **CARVALHO FILHO, José dos Santos.** *Manual de Direito Administrativo*. 36. ed. São Paulo: Atlas, 2022.`,
+  "O art. 21 permite recurso, sem efeito suspensivo. Ausência de suspensão e ausência de recurso são conclusões diferentes.",
+  "O art. 66 prevê contagem contínua dos prazos em dias, com prorrogação do vencimento quando não houver expediente ou ele terminar antes da hora normal. Não se importa automaticamente a regra do CPC."
+],
+  teoriaDensaMarkdown: "### Processo administrativo e garantias\n\nA Lei 9.784 estabelece normas básicas do processo administrativo federal. Alcança órgãos dos Poderes Legislativo e Judiciário da União quando exercem função administrativa (art. 1º, § 1º). Processos com lei específica continuam sob essa disciplina, com aplicação subsidiária da lei geral (art. 69). Um PAD da Lei 8.112 não é regido exclusivamente pela Lei 9.784.\n\nLegalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência orientam o processo. Impulso oficial não apaga a participação do interessado. Formalismo moderado reduz exigências inúteis, mas preserva formalidades essenciais a direitos e segurança. Gratuidade tem ressalva de previsão legal, não de mera preferência do órgão.\n\nA busca de esclarecimento dos fatos não autoriza qualquer prova a qualquer tempo. O art. 38 permite juntar documentos, requerer diligências/perícias e apresentar alegações antes da decisão, com regras de apreciação e recusa fundamentada das provas ilícitas, impertinentes, desnecessárias ou protelatórias. Não é correto opor genericamente um processo civil que “só busca verdade formal” a uma Administração sem limites probatórios.\n\n**Caso:** pedido de perícia sem relação com o objeto pode ser recusado motivadamente; negar toda prova porque o gestor já tem convicção viola a finalidade da instrução. O problema é justificar pertinência e necessidade, assegurando participação efetiva, não maximizar o número de documentos.\n\n### Competência, impedimento e suspeição\n\nCompetência é irrenunciável, com delegação e avocação nos casos legais. Delegação parcial pode ocorrer sem subordinação; são indelegáveis atos normativos, decisão de recursos e competências exclusivas (art. 13). Avocação exige excepcionalidade, temporariedade, motivos relevantes e órgão inferior hierárquico.\n\nOs arts. 18–19 tratam de **impedimento**: interesse na matéria; participação como perito, testemunha ou representante, inclusive nas situações familiares descritas; e litígio com interessado ou seu cônjuge/companheiro. Deve haver comunicação e abstenção; a omissão constitui falta grave para efeitos disciplinares. **Suspeição**, art. 20, envolve amizade íntima ou inimizade notória nas relações delimitadas. O indeferimento admite recurso **sem efeito suspensivo** (art. 21).\n\nNo PAD, o art. 149, § 2º, da **Lei 8.112** proíbe cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral até terceiro grau, de participar da comissão de sindicância ou inquérito. Não atribua essa redação ao art. 18, II, da Lei 9.784, que descreve outra hipótese.\n\n**Exemplo resolvido:** um tio do acusado seria membro da comissão. O parentesco colateral de terceiro grau está dentro da proibição específica da Lei 8.112. Não é necessário inventar participação como testemunha para aplicar essa regra.\n\n### Decisão, recurso e revisão: três perguntas diferentes\n\nA Administração deve decidir matérias de sua competência. **Após concluída a instrução**, o art. 49 prevê até trinta dias, com prorrogação por igual período expressamente motivada. Esse prazo não é contado automaticamente do início de todo processo.\n\nDa decisão cabe recurso por razões de legalidade e mérito. É dirigido à autoridade que decidiu, que pode reconsiderar em cinco dias; se não o fizer, encaminha à superior. O prazo geral de interposição é dez dias da ciência/divulgação oficial, salvo disposição legal específica. Há até três instâncias, salvo regra diversa. Em regra o recurso não suspende o ato; pode ser concedido efeito suspensivo nas condições do art. 61.\n\nO art. 64 admite confirmar, modificar, anular ou revogar decisão, no âmbito da competência da autoridade. Se houver possibilidade de agravar a situação, o recorrente deve ser cientificado para alegações antes da decisão. O dispositivo **não fixa ali um prazo universal de dez dias** para essa manifestação: não transporte o prazo de interposição para essa etapa.\n\nA **revisão** do art. 65, relativa a sanções e fatos novos/circunstâncias relevantes, pode ocorrer a qualquer tempo, a pedido ou de ofício, e não permite agravar a sanção. No processo disciplinar, a revisão da Lei 8.112 possui regras próprias e também veda agravamento. Não confunda revisão com nova oportunidade para repetir alegação de injustiça sem elemento novo.\n\n**Contagem:** na Lei 9.784 os dias são contínuos; exclui-se o começo e inclui-se o vencimento, prorrogado ao primeiro dia útil seguinte quando o vencimento não tiver expediente nas condições do art. 66. Não copie automaticamente a contagem em dias úteis do CPC.\n\n### Sanções e prescrição: reconhecer fundamento e marco\n\nO art. 127 da Lei 8.112 prevê advertência, suspensão, demissão, cassação de aposentadoria/disponibilidade e destituições de cargo em comissão e função comissionada. Reduzir a lista a três sanções é incompleto. A escolha considera natureza e gravidade, danos, agravantes/atenuantes e antecedentes (art. 128), com tipificação e motivação.\n\nAdvertência é escrita. Suspensão tem limite de noventa dias e pode ser convertida em multa nas condições legais. Demissão exige hipótese do art. 132, não mera conveniência. Abandono envolve ausência **intencional por mais de trinta dias consecutivos**; inassiduidade habitual, sessenta dias interpolados sem causa justificada em doze meses. Não troque os elementos subjetivos e temporais.\n\nO art. 142 prevê cinco anos para infrações das sanções mais graves ali enumeradas, dois anos para suspensão e cento e oitenta dias para advertência. O § 1º usa o conhecimento do fato como marco; a jurisprudência do STJ especifica o conhecimento pela autoridade competente para instaurar a apuração, entre outros limites sobre interrupção. A Súmula 635 do STJ reúne essa orientação. Infrações também capituladas como crime têm regra do § 2º. Não conte sempre da consumação nem afirme suspensão/interrupção ilimitada sem examinar o regime.\n\nCancelamento do registro de advertência/suspensão após os períodos e condições do art. 131 é diferente de prescrição para exercer ação disciplinar. **Recupere:** compare prazo de apuração, prazo para decisão e prazo prescricional. Todos medem tempo, mas têm marcos e consequências distintos.\n\n### PAD: apurar com contraditório e decidir com fundamento\n\nA Lei 8.112 exige apuração de irregularidade com ampla defesa. Da sindicância podem resultar arquivamento, penalidade de advertência/suspensão de até trinta dias ou instauração de PAD. Sanções mais graves nas hipóteses do art. 146 exigem processo disciplinar; não se deve chamar de “investigação informal” uma punição aplicada sem as garantias próprias.\n\nO PAD ordinário tem **instauração, inquérito e julgamento**; o inquérito compreende instrução, defesa e relatório. A comissão tem três servidores estáveis, com requisitos para a presidência (art. 149). Deve atuar com independência e imparcialidade. O prazo de conclusão é de sessenta dias, admitida prorrogação por igual período nas condições legais. Julgamento fora do prazo não causa automaticamente nulidade, conforme art. 169, § 1º.\n\nA autoridade não está autorizada a decidir por preferência pessoal: o art. 168 disciplina acolhimento do relatório e divergência motivada quando contrário às provas. Afastamento preventivo do art. 147 é cautelar, sem perda da remuneração e dentro de seus limites; não é antecipação de pena.\n\nA **Súmula Vinculante 5** afirma que falta de defesa técnica por advogado não ofende, por si, a Constituição no PAD. Isso não dispensa defesa efetiva, ciência e acesso às provas. Não confunda essa regra com procedimentos nos quais exista exigência legal específica de representação ou com qualquer processo criminal.\n\n**Caso integrador:** uma comissão impedida conclui pela demissão; o gestor pretende sanar tudo dizendo que o acusado não contratou advogado. A SV 5 não resolve o impedimento nem substitui a análise de provas e garantias. Cada defeito tem fundamento próprio e precisa ser examinado separadamente.",
+  teoriaDidaticaMarkdown: "### Revisão: lei geral e processo disciplinar\n\nLei 9.784: aplica-se à função administrativa federal inclusive de outros Poderes; é subsidiária aos processos específicos. Delegação não alcança decisão de recursos; suspeição indeferida admite recurso sem efeito suspensivo. Decisão após instrução: até trinta dias, prorrogáveis motivadamente por igual período. Recurso e revisão têm regras diferentes de agravamento. Prazos em dias são contínuos, com regras de vencimento do art. 66.\n\nLei 8.112: comissão, impedimentos, sanções, fases e prescrição têm disciplina própria. Parentesco na comissão está no art. 149, § 2º. Não confunda prescrição com cancelamento de registro nem investigação com punição. A SV 5 não dispensa contraditório ou defesa efetiva. Identifique sempre a lei, o marco e a consequência.\n",
   checkpoints: [
-    {
-      id: 'cp-11-4-1',
-      pergunta: 'Micro-Checkpoint 1: Delegação de Competências e Limitações Legais',
-      item: 'Titular de órgão administrativo federal da Câmara dos Deputados pode delegar legitimamente a um subordinado hierárquico a competência decisória para julgar recurso administrativo interposto contra resultado de pregão eletrônico, desde que tal delegação seja formalmente publicada em veículo oficial.',
-      gabarito: 'E',
-      justificativa: 'Errado! O julgamento de recursos administrativos é matéria de competência INDELEGÁVEL nos termos expressos do art. 13, inciso II, da Lei nº 9.784/1999 (não se delegam atos normativos, decisões de recursos administrativos nem matérias de competência exclusiva).',
-    },
-    {
-      id: 'cp-11-4-2',
-      pergunta: 'Micro-Checkpoint 2: Impedimento Funcional e Dever de Comunicação',
-      item: 'O servidor que for designado para compor comissão de processo administrativo disciplinar instaurado contra parente consanguíneo em linha reta de até terceiro grau incorre em impedimento legal, ensejando a omissão do dever de abstenção falta grave para efeitos disciplinares.',
-      gabarito: 'C',
-      justificativa: 'Correto! Trata-se de hipótese objetiva de impedimento prevista no art. 18, II, da Lei nº 9.784/1999. O art. 19 expressamente comina falta grave disciplinar à autoridade ou servidor que deixar de comunicar o impedimento.',
-    },
-    {
-      id: 'cp-11-4-3',
-      pergunta: 'Micro-Checkpoint 3: Prescrição Disciplinar e Termo Inicial',
-      item: 'O prazo prescricional para a aplicação da penalidade de demissão a servidor federal prescreve em cinco anos, computando-se o termo inicial a partir da data em que o servidor efetivamente consumou a falta funcional.',
-      gabarito: 'E',
-      justificativa: 'Errado! Nos termos do art. 142, § 1º, da Lei nº 8.112/1990, o prazo de prescrição começa a correr da data em que o fato se tornou CONHECIDO da autoridade competente para instaurar o processo, e não da data de sua consumação material.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-4-1',
-        periodo: '1999',
-        disciplina: 'Processo Administrativo',
-        focoPrincipal: 'Promulgação da Lei nº 9.784/1999: marco geral da processualística administrativa federal',
-        figuraChave: 'Congresso Nacional',
-      },
-      {
-        id: 'tl-11-4-2',
-        periodo: '2008',
-        disciplina: 'Jurisprudência Vinculante',
-        focoPrincipal: 'Edição da Súmula Vinculante 5 do STF: desnecessidade de advogado no PAD',
-        figuraChave: 'Supremo Tribunal Federal',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-4-1',
-        nome: 'Maria Sylvia Zanella Di Pietro',
-        ano: '2023',
-        obraPrincipal: 'Direito Administrativo',
-        ideiaChave: 'Teoria da verdade material e distinção entre nulidade do processo por falta de intimação versus regularidade sem defesa técnica.',
-        chipPegadinha: 'Afirmar que a falta de intimação prévia do servidor não gera nulidade se não houver advogado constituído.',
-      },
-      {
-        id: 'aut-11-4-2',
-        nome: 'José dos Santos Carvalho Filho',
-        ano: '2023',
-        obraPrincipal: 'Manual de Direito Administrativo',
-        ideiaChave: 'A garantia do devido processo legal substantivo no direito disciplinar e a dosimetria proporcional das sanções.',
-        chipPegadinha: 'Afirmar que a autoridade julgadora é obrigada a aplicar sempre a penalidade máxima prevista em lei sem motivar a dosimetria.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-4-1',
-        afirmacao: 'Em homenagem ao princípio constitucional da ampla defesa, a ausência de advogado devidamente constituído no curso do processo administrativo disciplinar acarreta a nulidade absoluta do procedimento.',
-        gabarito: 'E',
-        porQue: 'Súmula Vinculante 5 do STF: "A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição."',
-      },
-      {
-        id: 'peg-11-4-2',
-        afirmacao: 'Na Lei nº 9.784/1999, a delegação de competência administrativa exige necessariamente a existência de subordinação hierárquica entre o delegante e o órgão delegado.',
-        gabarito: 'E',
-        porQue: 'Art. 12 da Lei 9.784/99: pode haver delegação para outros órgãos ou titulares "ainda que estes não lhe sejam hierarquicamente subordinados".',
-      },
-      {
-        id: 'peg-11-4-3',
-        afirmacao: 'O recurso administrativo no âmbito federal admite a reforma para pior da situação do recorrente (reformatio in pejus), desde que o interessado seja previamente cientificado para apresentar alegações.',
-        gabarito: 'C',
-        porQue: 'Art. 64, parágrafo único da Lei nº 9.784/99: permite a reformatio in pejus, exigindo a prévia audiência do recorrente no prazo de 10 dias.',
-      },
-    ],
+  {
+    "id": "cp-11-4-1",
+    "pergunta": "Micro-Checkpoint 1: Delegação de Competências e Limitações Legais",
+    "item": "Titular de órgão administrativo federal da Câmara dos Deputados pode delegar legitimamente a um subordinado hierárquico a competência decisória para julgar recurso administrativo interposto contra resultado de pregão eletrônico, desde que tal delegação seja formalmente publicada em veículo oficial.",
+    "gabarito": "E",
+    "justificativa": "A decisão de recursos administrativos é indelegável pelo art. 13, II. A possibilidade geral de delegar parte da competência não afasta essa vedação.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "versao_correta": "A decisão de recurso administrativo não pode ser delegada segundo o art. 13, II, da Lei 9.784."
   },
+  {
+    "id": "cp-11-4-2",
+    "pergunta": "Micro-Checkpoint 2: Impedimento Funcional e Dever de Comunicação",
+    "item": "Na Lei 8.112/1990, não pode participar de comissão de sindicância ou de inquérito parente do acusado, consanguíneo ou afim, em linha reta ou colateral, até o terceiro grau.",
+    "gabarito": "C",
+    "justificativa": "A proibição está no art. 149, § 2º, da Lei 8.112. Não é a mesma redação da hipótese geral do art. 18, II, da Lei 9.784, que trata de perito, testemunha ou representante.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5."
+  },
+  {
+    "id": "cp-11-4-3",
+    "pergunta": "Micro-Checkpoint 3: Prescrição Disciplinar e Termo Inicial",
+    "item": "O prazo prescricional para a aplicação da penalidade de demissão a servidor federal prescreve em cinco anos, computando-se o termo inicial a partir da data em que o servidor efetivamente consumou a falta funcional.",
+    "gabarito": "E",
+    "justificativa": "O prazo de cinco anos não se inicia necessariamente na consumação. O art. 142, § 1º, adota o conhecimento do fato, com delimitações jurisprudenciais, inclusive autoridade competente (STJ, Súmula 635).",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "versao_correta": "O marco prescricional deve observar o conhecimento do fato nos termos da lei e da jurisprudência aplicável."
+  },
+  {
+    "id": "rt-11-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Concluída a instrução, o prazo de até trinta dias para decidir previsto no art. 49 da Lei 9.784 admite prorrogação por igual período expressamente motivada.",
+    "gabarito": "C",
+    "justificativa": "O marco é a conclusão da instrução, não qualquer protocolo inicial. O próprio art. 49 prevê a prorrogação, de modo que chamá-lo de improrrogável contraria o dispositivo.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-11-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O indeferimento de alegação de suspeição não admite nenhum recurso administrativo, segundo o art. 21 da Lei 9.784.",
+    "gabarito": "E",
+    "justificativa": "O art. 21 permite recurso, sem efeito suspensivo. Ausência de suspensão e ausência de recurso são conclusões diferentes.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)",
+    "habilidade": "aplicar",
+    "versao_correta": "Cabe recurso do indeferimento de suspeição, sem efeito suspensivo."
+  },
+  {
+    "id": "rt-11-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No recurso da Lei 9.784, a possibilidade de agravar a situação do recorrente exige sua prévia ciência para manifestação; na revisão sancionadora do art. 65 não pode haver agravamento.",
+    "gabarito": "C",
+    "justificativa": "O art. 64 exige oportunidade anterior ao agravamento. O art. 65, relativo à revisão por fatos novos/circunstâncias relevantes, veda agravamento. Recurso e revisão têm regras distintas.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-11-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A Lei 9.784 determina, como regra geral, contar todos os prazos em dias úteis, tal como no processo civil.",
+    "gabarito": "E",
+    "justificativa": "O art. 66 prevê contagem contínua dos prazos em dias, com prorrogação do vencimento quando não houver expediente ou ele terminar antes da hora normal. Não se importa automaticamente a regra do CPC.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)",
+    "habilidade": "aplicar",
+    "versao_correta": "Na Lei 9.784, prazos em dias contam-se continuamente, observadas as regras do art. 66."
+  },
+  {
+    "id": "rt-11-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A falta de advogado no PAD não viola, por si, a Constituição, mas isso não dispensa a efetiva garantia de contraditório e ampla defesa.",
+    "gabarito": "C",
+    "justificativa": "A SV 5 afasta nulidade constitucional fundada apenas na ausência de defesa técnica por advogado. Ela não autoriza condenação sem citação, prova e oportunidade de defesa.",
+    "fonte": "Lei 9.784/1999, arts. 1º–3º, 11–22, 38, 48–49, 56–69; Lei 8.112/1990, arts. 127–182; STF, Súmula Vinculante 5.",
+    "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 4: Poderes Administrativos)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-4-fonte-geral",
+      "nome": "Lei 9.784/1999",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 9.784/1999",
+      "ideiaChave": "Competência, garantias, instrução, decisão e recursos.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-4-fonte-pad",
+      "nome": "Lei 8.112/1990",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 8.112/1990",
+      "ideiaChave": "Arts. 127–182: sanções, prescrição, PAD e revisão.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-4-fonte-stj",
+      "nome": "STJ — Súmulas",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STJ — Súmulas",
+      "ideiaChave": "Súmula 635: prescrição disciplinar e interrupção.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-4-fonte-sv5",
+      "nome": "STF — Súmulas vinculantes",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "STF — Súmulas vinculantes",
+      "ideiaChave": "Súmula Vinculante 5 e alcance da defesa técnica.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-4-3",
+      "afirmacao": "No recurso da Lei 9.784, a possibilidade de agravar a situação do recorrente exige sua prévia ciência para manifestação; na revisão sancionadora do art. 65 não pode haver agravamento.",
+      "gabarito": "C",
+      "porQue": "O art. 64 exige oportunidade anterior ao agravamento. O art. 65, relativo à revisão por fatos novos/circunstâncias relevantes, veda agravamento. Recurso e revisão têm regras distintas."
+    },
+    {
+      "id": "memoria-rt-11-4-4",
+      "afirmacao": "A Lei 9.784 determina, como regra geral, contar todos os prazos em dias úteis, tal como no processo civil.",
+      "gabarito": "E",
+      "porQue": "O art. 66 prevê contagem contínua dos prazos em dias, com prorrogação do vencimento quando não houver expediente ou ele terminar antes da hora normal. Não se importa automaticamente a regra do CPC."
+    },
+    {
+      "id": "memoria-rt-11-4-5",
+      "afirmacao": "A falta de advogado no PAD não viola, por si, a Constituição, mas isso não dispensa a efetiva garantia de contraditório e ampla defesa.",
+      "gabarito": "C",
+      "porQue": "A SV 5 afasta nulidade constitucional fundada apenas na ausência de defesa técnica por advogado. Ela não autoriza condenação sem citação, prova e oportunidade de defesa."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-11-4-bloco-1",
+    "titulo": "Processo administrativo e garantias",
+    "objetivos": [
+      "Reconhecer âmbito federal e subsidiariedade."
+    ],
+    "conteudo": "A Lei 9.784 estabelece normas básicas do processo administrativo federal. Alcança órgãos dos Poderes Legislativo e Judiciário da União quando exercem função administrativa (art. 1º, § 1º). Processos com lei específica continuam sob essa disciplina, com aplicação subsidiária da lei geral (art. 69). Um PAD da Lei 8.112 não é regido exclusivamente pela Lei 9.784.\n\nLegalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência orientam o processo. Impulso oficial não apaga a participação do interessado. Formalismo moderado reduz exigências inúteis, mas preserva formalidades essenciais a direitos e segurança. Gratuidade tem ressalva de previsão legal, não de mera preferência do órgão.\n\nA busca de esclarecimento dos fatos não autoriza qualquer prova a qualquer tempo. O art. 38 permite juntar documentos, requerer diligências/perícias e apresentar alegações antes da decisão, com regras de apreciação e recusa fundamentada das provas ilícitas, impertinentes, desnecessárias ou protelatórias. Não é correto opor genericamente um processo civil que “só busca verdade formal” a uma Administração sem limites probatórios.\n\n**Caso:** pedido de perícia sem relação com o objeto pode ser recusado motivadamente; negar toda prova porque o gestor já tem convicção viola a finalidade da instrução. O problema é justificar pertinência e necessidade, assegurando participação efetiva, não maximizar o número de documentos.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-11-4-bloco-2",
+    "titulo": "Competência, impedimento e suspeição",
+    "objetivos": [
+      "Separar regimes gerais e regra da comissão disciplinar."
+    ],
+    "conteudo": "Competência é irrenunciável, com delegação e avocação nos casos legais. Delegação parcial pode ocorrer sem subordinação; são indelegáveis atos normativos, decisão de recursos e competências exclusivas (art. 13). Avocação exige excepcionalidade, temporariedade, motivos relevantes e órgão inferior hierárquico.\n\nOs arts. 18–19 tratam de **impedimento**: interesse na matéria; participação como perito, testemunha ou representante, inclusive nas situações familiares descritas; e litígio com interessado ou seu cônjuge/companheiro. Deve haver comunicação e abstenção; a omissão constitui falta grave para efeitos disciplinares. **Suspeição**, art. 20, envolve amizade íntima ou inimizade notória nas relações delimitadas. O indeferimento admite recurso **sem efeito suspensivo** (art. 21).\n\nNo PAD, o art. 149, § 2º, da **Lei 8.112** proíbe cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral até terceiro grau, de participar da comissão de sindicância ou inquérito. Não atribua essa redação ao art. 18, II, da Lei 9.784, que descreve outra hipótese.\n\n**Exemplo resolvido:** um tio do acusado seria membro da comissão. O parentesco colateral de terceiro grau está dentro da proibição específica da Lei 8.112. Não é necessário inventar participação como testemunha para aplicar essa regra.",
+    "checkpointIds": [
+      "cp-11-4-1",
+      "cp-11-4-2",
+      "rt-11-4-2"
+    ]
+  },
+  {
+    "id": "sub-11-4-bloco-3",
+    "titulo": "Decisão, recurso e revisão: três perguntas diferentes",
+    "objetivos": [
+      "Comparar prazo, efeitos e possibilidade de agravamento."
+    ],
+    "conteudo": "A Administração deve decidir matérias de sua competência. **Após concluída a instrução**, o art. 49 prevê até trinta dias, com prorrogação por igual período expressamente motivada. Esse prazo não é contado automaticamente do início de todo processo.\n\nDa decisão cabe recurso por razões de legalidade e mérito. É dirigido à autoridade que decidiu, que pode reconsiderar em cinco dias; se não o fizer, encaminha à superior. O prazo geral de interposição é dez dias da ciência/divulgação oficial, salvo disposição legal específica. Há até três instâncias, salvo regra diversa. Em regra o recurso não suspende o ato; pode ser concedido efeito suspensivo nas condições do art. 61.\n\nO art. 64 admite confirmar, modificar, anular ou revogar decisão, no âmbito da competência da autoridade. Se houver possibilidade de agravar a situação, o recorrente deve ser cientificado para alegações antes da decisão. O dispositivo **não fixa ali um prazo universal de dez dias** para essa manifestação: não transporte o prazo de interposição para essa etapa.\n\nA **revisão** do art. 65, relativa a sanções e fatos novos/circunstâncias relevantes, pode ocorrer a qualquer tempo, a pedido ou de ofício, e não permite agravar a sanção. No processo disciplinar, a revisão da Lei 8.112 possui regras próprias e também veda agravamento. Não confunda revisão com nova oportunidade para repetir alegação de injustiça sem elemento novo.\n\n**Contagem:** na Lei 9.784 os dias são contínuos; exclui-se o começo e inclui-se o vencimento, prorrogado ao primeiro dia útil seguinte quando o vencimento não tiver expediente nas condições do art. 66. Não copie automaticamente a contagem em dias úteis do CPC.",
+    "checkpointIds": [
+      "rt-11-4-1",
+      "rt-11-4-3",
+      "rt-11-4-4"
+    ]
+  },
+  {
+    "id": "sub-11-4-bloco-4",
+    "titulo": "Sanções e prescrição: reconhecer fundamento e marco",
+    "objetivos": [
+      "Diferenciar prazo prescricional e cancelamento de registro."
+    ],
+    "conteudo": "O art. 127 da Lei 8.112 prevê advertência, suspensão, demissão, cassação de aposentadoria/disponibilidade e destituições de cargo em comissão e função comissionada. Reduzir a lista a três sanções é incompleto. A escolha considera natureza e gravidade, danos, agravantes/atenuantes e antecedentes (art. 128), com tipificação e motivação.\n\nAdvertência é escrita. Suspensão tem limite de noventa dias e pode ser convertida em multa nas condições legais. Demissão exige hipótese do art. 132, não mera conveniência. Abandono envolve ausência **intencional por mais de trinta dias consecutivos**; inassiduidade habitual, sessenta dias interpolados sem causa justificada em doze meses. Não troque os elementos subjetivos e temporais.\n\nO art. 142 prevê cinco anos para infrações das sanções mais graves ali enumeradas, dois anos para suspensão e cento e oitenta dias para advertência. O § 1º usa o conhecimento do fato como marco; a jurisprudência do STJ especifica o conhecimento pela autoridade competente para instaurar a apuração, entre outros limites sobre interrupção. A Súmula 635 do STJ reúne essa orientação. Infrações também capituladas como crime têm regra do § 2º. Não conte sempre da consumação nem afirme suspensão/interrupção ilimitada sem examinar o regime.\n\nCancelamento do registro de advertência/suspensão após os períodos e condições do art. 131 é diferente de prescrição para exercer ação disciplinar. **Recupere:** compare prazo de apuração, prazo para decisão e prazo prescricional. Todos medem tempo, mas têm marcos e consequências distintos.",
+    "checkpointIds": [
+      "cp-11-4-3"
+    ]
+  },
+  {
+    "id": "sub-11-4-bloco-5",
+    "titulo": "PAD: apurar com contraditório e decidir com fundamento",
+    "objetivos": [
+      "Reconhecer fases, comissão e alcance da SV 5."
+    ],
+    "conteudo": "A Lei 8.112 exige apuração de irregularidade com ampla defesa. Da sindicância podem resultar arquivamento, penalidade de advertência/suspensão de até trinta dias ou instauração de PAD. Sanções mais graves nas hipóteses do art. 146 exigem processo disciplinar; não se deve chamar de “investigação informal” uma punição aplicada sem as garantias próprias.\n\nO PAD ordinário tem **instauração, inquérito e julgamento**; o inquérito compreende instrução, defesa e relatório. A comissão tem três servidores estáveis, com requisitos para a presidência (art. 149). Deve atuar com independência e imparcialidade. O prazo de conclusão é de sessenta dias, admitida prorrogação por igual período nas condições legais. Julgamento fora do prazo não causa automaticamente nulidade, conforme art. 169, § 1º.\n\nA autoridade não está autorizada a decidir por preferência pessoal: o art. 168 disciplina acolhimento do relatório e divergência motivada quando contrário às provas. Afastamento preventivo do art. 147 é cautelar, sem perda da remuneração e dentro de seus limites; não é antecipação de pena.\n\nA **Súmula Vinculante 5** afirma que falta de defesa técnica por advogado não ofende, por si, a Constituição no PAD. Isso não dispensa defesa efetiva, ciência e acesso às provas. Não confunda essa regra com procedimentos nos quais exista exigência legal específica de representação ou com qualquer processo criminal.\n\n**Caso integrador:** uma comissão impedida conclui pela demissão; o gestor pretende sanar tudo dizendo que o acusado não contratou advogado. A SV 5 não resolve o impedimento nem substitui a análise de provas e garantias. Cada defeito tem fundamento próprio e precisa ser examinado separadamente.",
+    "checkpointIds": [
+      "rt-11-4-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "geral",
+    "titulo": "Lei 9.784/1999",
+    "localizador": "Competência, garantias, instrução, decisão e recursos.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+  },
+  {
+    "id": "pad",
+    "titulo": "Lei 8.112/1990",
+    "localizador": "Arts. 127–182: sanções, prescrição, PAD e revisão.",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+  },
+  {
+    "id": "stj",
+    "titulo": "STJ — Súmulas",
+    "localizador": "Súmula 635: prescrição disciplinar e interrupção.",
+    "url": "https://scon.stj.jus.br/SCON/sumstj/"
+  },
+  {
+    "id": "sv5",
+    "titulo": "STF — Súmulas vinculantes",
+    "localizador": "Súmula Vinculante 5 e alcance da defesa técnica.",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26"
+  }
+],
 };

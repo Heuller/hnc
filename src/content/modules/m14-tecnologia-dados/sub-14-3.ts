@@ -14,231 +14,328 @@ export const submodulo143: ModuloFilho = {
   ],
   titulo: 'Inteligência Artificial, Engenharia de Prompts e Ética Digital no Serviço Público',
   antesDeLer: [
-    {
-      termo: 'Engenharia de Prompts (Prompt Engineering)',
-      definicao: 'Técnica de estruturar instruções precisas, contexto, formato de saída e restrições para orientar modelos de linguagem (LLMs).',
-      exemploBiblioteca: 'Criação de prompts padronizados para que a IA gere resumos estruturados de proposições orçamentárias no formato Cebraspe.',
-    },
-    {
-      termo: 'Modelos de Linguagem Grande (LLMs)',
-      definicao: 'Redes neurais treinadas em grandes volumes de texto baseadas na arquitetura Transformer capazes de gerar e analisar linguagem natural.',
-      exemploBiblioteca: 'Uso de LLMs institucionais homologadas pela Câmara para extração de entidades em discursos parlamentares.',
-    },
-    {
-      termo: 'Alucinação em IA (Hallucination)',
-      definicao: 'Fenômeno em que o modelo gerador produz afirmações factualmente incorretas com alta confiança e tom plausível.',
-      exemploBiblioteca: 'Necessidade indispensável de curadoria humana do bibliotecário para checar a veracidade de leis citadas por chatbots.',
-    },
-    {
-      termo: 'Human-in-the-Loop (HITL)',
-      definicao: 'Abordagem que integra a validação e supervisão humana em etapas críticas de tomada de decisão de sistemas de IA.',
-      exemploBiblioteca: 'O bibliotecário revisando e aprovando os termos de indexação sugeridos automaticamente pelo algoritmo antes de publicá-los no catálogo.',
-    },
-  ],
-  descricaoCurta: 'Paradigmas de Machine Learning (supervisionado, não-supervisionado e por reforço/RLHF); arquitetura Transformer e LLMs; técnicas de engenharia de prompts (Zero-shot, Few-shot, Chain-of-Thought e RAG); governança ética, LGPD, explicabilidade e supervisão humana (human-in-the-loop).',
-  tempoEstimadoMinutos: 11,
-  autoresChave: ['Stuart Russell & Peter Norvig', 'Ashish Vaswani et al. (2017)', 'Jason Wei et al. (2022)', 'Câmara dos Deputados (Ditec)', 'OCDE / UNESCO'],
+  {
+    "termo": "Modelo de linguagem",
+    "definicao": "Sistema que modela sequências segundo treinamento e inferência definidos.",
+    "exemploBiblioteca": "Texto plausível pode conter informação factual errada."
+  },
+  {
+    "termo": "RAG",
+    "definicao": "Combinação de recuperação e geração, com desenho e fontes avaliáveis.",
+    "exemploBiblioteca": "Recuperar um trecho pertinente não garante que a resposta seja fiel a ele."
+  }
+],
+  descricaoCurta: "Distinguir regras explícitas e aprendizado e identificar o alvo de uma tarefa. Explicar o processamento sem atribuir garantia semântica aos termos técnicos. Construir instruções úteis sem confundir detalhamento com certificação. Distinguir recuperação de ajuste de pesos e reconhecer limites de fundamentação. Preservar o alcance das fontes e não delegar competência por simples adoção de software.",
+  tempoEstimadoMinutos: 23,
+  autoresChave: [
+  "Vaswani et al. (2017) — Attention Is All You Need",
+  "Lewis et al. (2020) — Retrieval-Augmented Generation",
+  "Wei et al. (2022) — Chain-of-Thought Prompting",
+  "Secom do Senado — Guia de Uso de IA",
+  "Lei 13.709/2018 — LGPD"
+],
   alertasCebraspe: [
-    'Paradigmas de Aprendizado de Máquina: O Aprendizado Supervisionado exige dados rotulados (features e rótulos alvo) para tarefas de classificação e regressão; o Não-Supervisionado atua sobre dados sem rótulos, buscando agrupamentos (clustering com K-Means) ou redução de dimensionalidade (PCA); o Aprendizado por Reforço treina agentes por tentativa, erro e funções de recompensa (essencial no alinhamento humano via RLHF - Reinforcement Learning from Human Feedback).',
-    'Arquitetura Transformer e Mecanismo de Atenção: Introduzida por Vaswani et al. (2017) no artigo "Attention Is All You Need", a arquitetura Transformer superou as redes neurais recorrentes (RNN/LSTM) ao viabilizar processamento paralelo maciço e capturar relações contextuais globais entre tokens por meio de mecanismos de Autoatenção (Self-Attention).',
-    'Técnicas de Engenharia de Prompts: Zero-shot (tarefa solicitada diretamente sem exemplos prévios); Few-shot In-Context Learning (apresentação de 2 a 5 exemplos no prompt demonstrando o padrão de entrada e saída esperado); Chain-of-Thought - CoT (instrução explícita para o modelo "pensar passo a passo", decompondo problemas lógicos complexos em premissas intermediárias encadeadas).',
-    'RAG (Retrieval-Augmented Generation): Técnica que combina recuperação de informações em bases de conhecimento corporativas/vetoriais com a geração de texto por LLMs. O RAG reduz drasticamente as alucinações factuais ao ancorar a resposta em documentos externos fidedignos e atualizados, sem exigir o retreinamento ou fine-tuning completo do modelo.',
-    'Ética Digital e Human-in-the-Loop no Serviço Público: No serviço público e na atividade legislativa, a IA atua estritamente como suporte técnico auxiliar à decisão. É vedada a delegação de atos decisórios soberanos à máquina; a responsabilidade administrativa e funcional é indelegável do agente público humano (supervisão human-in-the-loop). Exigem-se respeito irrestrito à LGPD (minimização e finalidade) e garantia de explicabilidade algorítmica.',
-  ],
+  "A tokenização pode produzir palavras, subpalavras, sinais ou outras unidades conforme o método. Unidade de processamento não equivale necessariamente a unidade semântica autônoma.",
+  "A temperatura influencia a amostragem conforme a implementação; não confere veracidade a documentos ou conclusões. A fonte citada precisa ser localizada e conferida.",
+  "Outros identificadores e combinações contextuais podem permitir reidentificação. Anonimização e envio permitido exigem análise dos dados, da finalidade, do ambiente e das regras aplicáveis, não apenas troca de nome."
+],
   quadroComparativo: {
-    titulo: 'Comparação de Estratégias de Prompting e Otimização de LLMs',
-    colunas: ['Técnica', 'Mecanismo Operacional', 'Quando Utilizar', 'Vantagem Crítica / Atenção Cebraspe'],
-    linhas: [
-      ['Zero-shot Prompting', 'Instrução direta sem fornecer nenhum exemplo demonstrativo no contexto', 'Tarefas canônicas de síntese, tradução ou classificação simples', 'Baixo consumo de tokens; pode falhar em tarefas de raciocínio abstrato ou formatações rígidas.'],
-      ['Few-shot Prompting', 'Inclusão de 2 ou mais pares de (Entrada $\\rightarrow$ Saída) no corpo do prompt', 'Padronização de formatos específicos de saída (JSON, tabelas ou ementas)', 'Ensina o padrão por indução em tempo de inferência (*in-context learning*) sem alterar pesos da rede.'],
-      ['Chain-of-Thought (CoT)', 'Estimulação de raciocínio passo a passo antes de emitir a conclusão final', 'Problemas matemáticos, inferências jurídicas e interpretação de regras lógicas', 'Reduz saltos ilógicos e erros de dedução ao exteriorizar a cadeia de premissas intermediárias.'],
-      ['RAG (Recuperação Aumentada)', 'Busca vetorial em base de documentos indexada + injeção de contexto no prompt', 'Consultas a bases normativas, acervos jurisprudenciais ou manuais internos da Câmara', 'Elimina alucinações ao ancorar a resposta em fatos comprovados; dispensa retreinamento oneroso.'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Fundamentos da Inteligência Artificial e Modelos de Machine Learning
-
-#### A. A Evolução Epistemológica: Da IA Simbólica ao Deep Learning
-* **IA Simbólica / Sistemas Especialistas (GOFAI - Good Old-Fashioned AI):** Baseada em lógica formal, regras determinísticas explícitas (*IF-THEN*) e ontologias estruturadas. Apresenta alta explicabilidade, mas extrema rigidez e fragilidade para lidar com ambiguidade, linguagem natural e incerteza.
-* **Aprendizado Estatístico / Conexionismo (Machine Learning & Deep Learning):** Os algoritmos não recebem regras prontas; aprendem padrões e representações latentes diretamente a partir de dados massivos através do ajuste de parâmetros numéricos (pesos sinápticos).
-
-#### B. Os Três Grandes Paradigmas de Aprendizado de Máquina
-1. **Aprendizado Supervisionado (*Supervised Learning*):**
-   * **Dados:** Conjuntos rotulados compostos por atributos preditores ($X$) e um rótulo-alvo verdadeiro ($y$).
-   * **Classificação:** O rótulo é discreto/categórico (ex.: classificar se uma petição é constitucional ou inconstitucional; detecção de spam/phishing).
-   * **Regressão:** O rótulo é contínuo/numérico (ex.: estimar o tempo de tramitação de uma proposição legislativa em dias).
-2. **Aprendizado Não-Supervisionado (*Unsupervised Learning*):**
-   * **Dados:** Conjuntos não rotulados. O algoritmo identifica padrões ocultos, estruturas intrínsecas e similaridades.
-   * **Agrupamento (*Clustering*):** Algoritmos como o **K-Means** e agrupamento hierárquico, que particionam observações em grupos com alta homogeneidade interna e máxima heterogeneidade mútua.
-   * **Redução de Dimensionalidade:** Técnicas como **PCA (Principal Component Analysis)** e **t-SNE**, que condensam centenas de variáveis mantendo a máxima variância da informação.
-3. **Aprendizado por Reforço (*Reinforcement Learning - RL*):**
-   * Um **Agente** interage dinamicamente com um **Ambiente**, tomando decisões sequenciais através de uma política com o objetivo de maximizar uma função de recompensa cumulativa (*reward*).
-   * **RLHF (Reinforcement Learning from Human Feedback):** Técnica crucial no alinhamento de Grandes Modelos de Linguagem (LLMs), na qual humanos avaliam respostas candidatas para treinar um modelo de recompensa (*Reward Model*), que posteriormente refina o comportamento da IA via otimização de política proximal (PPO), tornando as respostas úteis, verídicas e inofensivas.
-
----
-
-### 2. A Revolução dos Transformers, LLMs e Engenharia de Prompts
-
-#### A. Arquitetura Transformer e Mecanismos de Autoatenção
-* **A Ruptura de 2017 (Vaswani et al. - *Attention Is All You Need*):**
-  * As redes neurais tradicionais para linguagem (RNN e LSTM) processavam palavras sequencialmente, sofrendo com o esquecimento de contexto de longo alcance e impossibilidade de paralelização de hardware.
-  * O **Transformer** eliminou a recorrência temporal e implementou a **Autoatenção Multicabeça (Multi-Head Self-Attention)**: cada token calcula simultaneamente pesos de relevância em relação a todos os demais tokens da frase, ponderando o contexto bidirecional instantaneamente em placas gráficas (GPUs).
-* **Conceitos Operacionais Fundamentais:**
-  * **Tokenização:** Processo de fragmentação do texto de entrada em unidades mínimas de significado (caracteres, subpalavras ou palavras completas).
-  * **Embeddings:** Vetorização de palavras ou sentenças em espaços multidimensionais densos, nos quais termos semanticamente correlatos situam-se geometricamente próximos (medidos por *similaridade de cosseno*).
-  * **Janela de Contexto (*Context Window*):** Limite máximo de tokens que o modelo consegue reter na memória de trabalho durante uma única interação.
-  * **Temperatura (0 a 1):** Hiperparâmetro que calibra a distribuição de probabilidades do próximo token. Temperaturas próximas a 0 geram respostas determinísticas, precisas e lógicas (essenciais no direito); temperaturas elevadas (0.7 a 1.0) aumentam a diversidade e criatividade lexical.
-
-#### B. Engenharia de Prompts: Metodologias e Melhores Práticas
-* **Zero-shot Prompting:** O agente solicita a resposta informando apenas a tarefa, sem disponibilizar exemplos prévios.
-* **Few-shot Prompting:** O prompt fornece um cabeçalho com 2 a 5 exemplos resolvidos (*exemplars*), aproveitando a capacidade intrínseca do modelo de aprender o padrão em tempo de inferência (*in-context learning*).
-* **Chain-of-Thought Prompting (CoT - Wei et al., 2022):**
-  * Inclui a instrução explícita para o modelo "pensar passo a passo" antes de concluir. Ao externalizar o raciocínio em etapas lógicas sequenciais, a taxa de erros lógicos e saltos dedutivos precipitados reduz-se drasticamente.
-* **RAG (Retrieval-Augmented Generation):**
-  * Arquitetura em duas fases:
-    1. *Recuperação (Retrieval):* A consulta do usuário é convertida em embedding; um banco de dados vetorial localiza os fragmentos textuais oficiais mais relevantes do acervo (ex.: regimento interno, leis ou bases de dados parlamentares).
-    2. *Geração Aumentada (Generation):* O LLM recebe a pergunta do usuário associada aos fragmentos documentais autênticos como premissa factual obrigatória, formulando a resposta com citações verificáveis e mitigando alucinações.
-
----
-
-### 3. Ética Digital, LGPD e Diretrizes para o Serviço Público
-
-#### A. Riscos Éticos Sistêmicos em Modelos de Linguagem
-* **Alucinação (*Hallucination*):** Fenômeno em que o modelo prediz tokens linguisticamente fluentes e convincentes, mas que carecem de base na realidade objetiva (ex.: criação de precedentes judiciais inexistentes ou artigos de leis fictícios).
-* **Viés Algorítmico (*Algorithmic Bias*):** Reprodução sistemática de distorções históricas, discriminações de gênero, raça ou classe social presentes nos textos de treinamento recolhidos da internet.
-* **Vazamento de Dados e Quebra de Sigilo:** Risco crítico decorrente do envio de informações protegidas por sigilo funcional ou dados pessoais sensíveis para servidores públicos em nuvem de provedores de IA sem garantias contratuais de não utilização para retreinamento.
-
-#### B. Diretrizes Institucionais e Princípios de Governança
-* **Princípio da Supervisão Humana (*Human-in-the-Loop*):**
-  * A inteligência artificial é ferramenta de suporte informacional e automação operacional secundária.
-  * O julgamento técnico, a análise de mérito legislativo e a emissão de atos com efeitos jurídicos permanecem de responsabilidade exclusiva, pessoal e indelegável do agente público.
-* **Transparência e Explicabilidade (*Explainable AI - XAI*):**
-  * Qualquer parecer, relatório ou minuta elaborada com suporte de ferramentas de IA generativa deve registrar expressamente essa condição, garantindo o controle social, o contraditório e o direito à ampla defesa do cidadão interessado.
-* **Conformidade com a LGPD (Lei nº 13.709/2018):**
-  * Respeito rigoroso aos princípios da **Finalidade**, da **Necessidade** (minimização da coleta de dados pessoais ao estritamente essencial para o fim público) e da **Não Discriminação**, sendo vedado o uso de IA para traçar perfis comportamentais discriminatórios ilícitos.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Inteligência Artificial e Curadoria (sub-6-4):** Modelos Transformer, LLMs e prompting avançado.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Engenharia de Prompts, os Modelos de Linguagem de Larga Escala (LLMs) e a Ética Digital no Setor Público** representam a fronteira tecnológica contemporânea:
-1. **Modelos de Linguagem (LLMs) e Arquitetura Transformer:**
-   - Modelos probabilísticos pré-treinados em redes neurais de atenção profunda (*Self-Attention*) que calculam a probabilidade da próxima palavra (*token*) com base no contexto antecedente.
-   - **Limitações Estruturais:** Ausência de raciocínio lógico formal inato; alucinações factuais; defasagem de conhecimento temporal (*cutoff date*); e sensibilidade extrema à formulação da pergunta.
-2. **Engenharia de Prompts (Técnicas Canônicas de Comunicação com a IA):**
-   - **Zero-Shot Prompting:** Envio de comando direto sem fornecer exemplos prévios.
-   - **Few-Shot Prompting:** Fornecimento prévio de 2 a 5 exemplos estruturados de entrada e saída esperada para balizar o estilo e a formatação do modelo.
-   - **Chain-of-Thought (CoT / Cadeia de Pensamento):** Orientação para que o modelo decomponha um problema complexo em etapas intermediárias passo a passo (*"Pense passo a passo antes de responder"*), reduzindo drasticamente erros de raciocínio.
-   - **RAG (*Retrieval-Augmented Generation*):** Técnica em que a IA, antes de gerar o texto, consulta uma base de documentos verídicos do órgão (ex.: as leis da Câmara) e usa apenas esse contexto fático para produzir a resposta, eliminando alucinações.
-3. **Diretrizes Éticas e Governança da IA no Setor Público (TCU e EBIA):**
-   - **Transparência e Explicabilidade:** O cidadão tem o direito de saber quando interage com uma IA e quais critérios embasaram uma decisão automatizada.
-   - **Supervisão Humana (*Human-in-the-Loop*):** Decisões administrativas de efeito jurídico vinculante não podem ser 100% autônomas de máquinas.
-   - **Privacidade e Segurança:** Proibição de inserir dados pessoais sensíveis ou documentos sigilosos de Estado em ferramentas públicas abertas de IA na nuvem comercial (como ChatGPT aberto).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (RAG na Pesquisa da Legislação Histórica da Câmara):** A equipe do CEDI implementa um assistente de IA para responder a consultas de deputados sobre leis aprovadas desde 1826. Em vez de usar IA aberta que inventa artigos de leis inexistentes, o sistema aplica **RAG**: busca o texto autêntico no banco do LexML/BDCam e injeta o trecho literal no prompt, gerando respostas com citação exata de número e artigo da lei.
-- **Cenário 2 (Few-Shot Prompting na Sumarização de Emendas Parlamentares):** Ao automatizar a geração de resumos de 1.000 emendas apresentadas a uma PEC, o bibliotecário programa um prompt no padrão **Few-Shot**: apresenta 3 exemplos de emendas com seus respectivos resumos ideais. O modelo replica a mesma concisão e vocabulário técnico parlamentar em todas as demais.
-- **Cenário 3 (Proteção contra Violação de Sigilo Governamental):** A Diretoria-Geral da Câmara emite instrução normativa alertando os servidores de que é terminantemente proibido colar minutas confidenciais de CPIs em chats públicos de IA comercial na web, sob pena de infração disciplinar grave e quebra de segurança de Estado.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Técnica de Prompting | Como Opera no Sistema | Melhor Caso de Uso | Vantagem Crítica |
-| :--- | :--- | :--- | :--- |
-| **Zero-Shot** | Pergunta direta sem exemplos | Consultas simples e diretas | Rapidez e baixo custo |
-| **Few-Shot** | Apresenta 2 a 5 exemplos prévios | Padronização de formato e estilo | Reduz erros de formatação |
-| **Chain-of-Thought (CoT)** | Instrui raciocínio passo a passo | Problemas lógicos e deduções | Minimiza erros de cálculo e lógica |
-| **RAG** | Conecta o modelo à base documental | Recuperação fática jurídica | **Elimina alucinações em órgãos públicos** |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Inserção de Dados Sigilosos em IAs Públicas:** O Cebraspe sugere que o servidor pode colar relatórios sigilosos de Estado em qualquer chatbot público gratuito para agilizar a redação de pareceres. **Gabarito: ERRADO.** A prática viola frontalmente a Lei nº 12.527/11, a LGPD e as diretrizes do TCU, expondo dados públicos ao treinamento comercial de terceiros.
-- **Chain-of-Thought e Criatividade:** Dizer que a técnica Chain-of-Thought serve para tornar a IA mais poética e artística. **Gabarito: ERRADO.** CoT serve para estruturar o raciocínio lógico em passos analíticos sequenciais para aumentar a exatidão.
-- **Alucinação como Sinônimo de Erro de Conexão:** A banca confunde alucinação da IA com instabilidade no servidor web. **Gabarito: ERRADO.** Alucinação é a produção probabilística de fatos, leis e fontes falsas geradas como se fossem verdadeiras.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **RUSSELL, Stuart; NORVIG, Peter.** *Inteligência Artificial: uma abordagem moderna*. 4. ed. Rio de Janeiro: GEN LTC, 2022.
-- **TRIBUNAL DE CONTAS DA UNIÃO (TCU).** *Orientações sobre o uso de soluções de Inteligência Artificial Generativa na Administração Pública Federal*. Brasília: TCU, 2023.
-- **BRASIL.** *Estratégia Brasileira de Inteligência Artificial (EBIA)*. Brasília: MCTI, 2021.
-- **LEWIS, Patrick et al.** Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *Advances in Neural Information Processing Systems (NeurIPS)*, v. 33, p. 9459-9474, 2020. (Artigo canônico que criou o padrão RAG).
-- **WEI, Jason et al.** Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. *NeurIPS*, 2022.`,
-  checkpoints: [
-    {
-      id: 'cp-14-3-1',
-      pergunta: 'Micro-Checkpoint 1: Engenharia de Prompts - Chain-of-Thought (CoT)',
-      item: 'A técnica de engenharia de prompts denominada Chain-of-Thought (CoT) fundamenta-se na instrução para que o modelo de linguagem decomponha o raciocínio em etapas lógicas intermediárias antes de emitir a resposta definitiva, demonstrando eficácia sobretudo em problemas de inferência e cálculo.',
-      gabarito: 'C',
-      justificativa: 'Correto! O CoT (Wei et al., 2022) força a geração de premissas dedutivas sequenciais passo a passo, o que reduz substancialmente saltos lógicos e respostas incorretas em tarefas analíticas complexas.',
-    },
-    {
-      id: 'cp-14-3-2',
-      pergunta: 'Micro-Checkpoint 2: Recuperação de Informações - Arquitetura RAG',
-      item: 'A arquitetura RAG (Retrieval-Augmented Generation) atua exclusivamente por meio da alteração e do retreinamento profundo dos pesos da rede neural do LLM, dispensando a consulta a bancos de dados externos de documentos.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme demonstrado por Vaswani et al. (2017) e Lewis et al. (2020), o RAG combina a busca em bases de dados externas com a injeção do contexto recuperado no prompt em tempo de inferência, sem realizar retreinamento nem alterar os pesos sinápticos do modelo.',
-    },
-    {
-      id: 'cp-14-3-3',
-      pergunta: 'Micro-Checkpoint 3: Governança Pública de IA - Supervisão Humana',
-      item: 'No âmbito da administração pública e do Poder Legislativo, a incorporação de sistemas de inteligência artificial generativa autoriza a transferência da competência decisória final para os algoritmos em procedimentos administrativos rotineiros, dispensando a revisão por servidor público.',
-      gabarito: 'E',
-      justificativa: 'Errado! Conforme a Lei nº 13.709/2018 (LGPD) e as diretrizes éticas da UNESCO e OCDE, a responsabilidade administrativa e legal por decisões públicas é indelegável de agentes públicos humanos. Os sistemas de IA atuam exclusivamente como ferramentas de apoio e subsídio analítico com supervisão humana (human-in-the-loop).',
-    },
+  "titulo": "IA: mecanismo e limite",
+  "colunas": [
+    "Conceito",
+    "O que descreve",
+    "Não garante"
   ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-14-3-1',
-        periodo: '2017',
-        disciplina: 'Inteligência Artificial',
-        focoPrincipal: 'Publicação do artigo seminal "Attention Is All You Need" instituindo a arquitetura Transformer',
-        figuraChave: 'Vaswani et al. (Google Brain / Research)',
-      },
-      {
-        id: 'tl-14-3-2',
-        periodo: '2022 / 2023',
-        disciplina: 'IA Generativa e Governança',
-        focoPrincipal: 'Popularização dos LLMs com RLHF, formalização do CoT e publicação de marcos éticos globais',
-        figuraChave: 'Jason Wei / UNESCO / OCDE',
-      },
+  "linhas": [
+    [
+      "Supervisão",
+      "Uso de alvos no treino",
+      "Rótulos corretos"
     ],
-    autores: [
-      {
-        id: 'aut-14-3-1',
-        nome: 'Stuart Russell & Peter Norvig',
-        ano: 2022,
-        obraPrincipal: 'Inteligência Artificial: Uma Abordagem Moderna (4ª Ed.)',
-        ideiaChave: 'Classificação de paradigmas de aprendizado (supervisionado, não-supervisionado, reforço) e agentes inteligentes.',
-        chipPegadinha: 'Supervisionado usa dados rotulados; não supervisionado identifica agrupamentos sem rótulos.',
-      },
-      {
-        id: 'aut-14-3-2',
-        nome: 'Jason Wei et al.',
-        ano: 2022,
-        obraPrincipal: 'Chain-of-Thought Prompting Elicits Reasoning in Large Language Models',
-        ideiaChave: 'Formulação de prompts com encadeamento de raciocínio passo a passo para problemas complexos.',
-        chipPegadinha: 'CoT induz raciocínio intermediário sem retreinar o modelo.',
-      },
+    [
+      "Embedding",
+      "Representação numérica",
+      "Equivalência lógica"
     ],
-    pegadinhas: [
-      {
-        id: 'peg-14-3-1',
-        afirmacao: 'O aprendizado de máquina não-supervisionado baseia-se na apresentação prévia de dados rotulados para que o algoritmo aprenda a mapear entradas em saídas predeterminadas.',
-        gabarito: 'E',
-        porQue: 'Apresentar dados rotulados é a definição de aprendizado SUPERVISIONADO. O não-supervisionado opera com dados não rotulados para descobrir padrões intrínsecos e clusters.',
-      },
-      {
-        id: 'peg-14-3-2',
-        afirmacao: 'O mecanismo de RAG (Retrieval-Augmented Generation) exige que todos os documentos da base de conhecimento da organização sejam incorporados diretamente aos parâmetros internos da rede neural por meio de um processo obrigatório de fine-tuning.',
-        gabarito: 'E',
-        porQue: 'O RAG recupera os documentos externamente e os anexa dinamicamente ao contexto do prompt no momento da inferência, sem qualquer modificação nos parâmetros do modelo.',
-      },
+    [
+      "Temperatura",
+      "Amostragem conforme implementação",
+      "Verdade factual"
     ],
+    [
+      "RAG",
+      "Geração associada a recuperação",
+      "Ausência de alucinação"
+    ],
+    [
+      "Revisão humana",
+      "Conferência por responsável",
+      "Qualidade sem critérios e evidências"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### IA, aprendizado de máquina e o problema que se quer resolver\n\nIA reúne diferentes abordagens para realizar tarefas associadas a percepção, decisão, linguagem e resolução de problemas. Um sistema baseado em regras explícitas e um modelo que ajusta parâmetros a dados não funcionam do mesmo modo, embora possam ser combinados. A oposição não é entre um método sempre explicável e outro sempre incompreensível: complexidade e explicabilidade dependem do sistema.\n\nNo **aprendizado supervisionado**, há exemplos com variável-alvo. Classificar documentos por categorias fornecidas é um caso; estimar tempo de atendimento com valores numéricos é outro. **Classificação** trabalha com categorias; **regressão** estima valores numéricos no enquadramento usual. Isso não transforma o modelo em autoridade sobre a verdade jurídica do documento.\n\nNo **não supervisionado**, técnicas podem procurar agrupamentos e representações sem o mesmo alvo rotulado. Grupos semelhantes por vocabulário não recebem automaticamente significado institucional válido. Uma equipe deve interpretar os resultados. **Aprendizado por reforço** envolve decisões em interação com ambiente e sinais de recompensa; recompensa bem maximizada não é sinônimo automático de objetivo social bem atendido.\n\n**Caso:** um órgão quer classificar solicitações para encaminhamento. Primeiro define a tarefa, as classes e o custo de erros. Depois avalia dados e exemplos. Acurácia alta num conjunto muito desigual pode esconder falhas na categoria rara mais importante. O modelo precisa ser examinado na finalidade e na população em que será usado.\n\nAs bases devem distinguir treinamento, validação e avaliação de modo adequado. Uma resposta em exemplo já visto não comprova generalização. O detalhamento de métricas e dados é trabalhado em 14.4 e 6.7; aqui importa não confundir técnica, tarefa e resultado.\n\n### Modelos de linguagem: token, contexto, atenção e geração\n\nUm modelo de linguagem gera ou avalia sequências conforme sua arquitetura e treinamento. **Tokens** são unidades definidas pelo tokenizador: podem corresponder a palavras, partes, pontuação ou outros elementos. Não são necessariamente unidades mínimas de significado. Isso importa para limite de entrada, custo e análise do que cabe no contexto.\n\n**Embeddings** representam elementos em espaços numéricos. Proximidade pode apoiar tarefas de similaridade conforme o modelo e a métrica, mas não comprova identidade de sentido, relevância jurídica ou equivalência lógica. Dois trechos contraditórios sobre o mesmo assunto podem ser próximos semanticamente.\n\nO **Transformer**, apresentado por Vaswani e colaboradores, usa mecanismos de atenção em sua construção. A forma como posições se relacionam depende da arquitetura e das máscaras. Em geração autorregressiva, atenção causal impede olhar posições futuras no cálculo correspondente; portanto, “todo Transformer é bidirecional irrestrito” é generalização errada.\n\n**Janela de contexto** limita o material processado na interação conforme o sistema. Não deve ser descrita como memória humana que garante lembrança de tudo nem confundida com armazenamento persistente de toda conversa. A presença de uma passagem no contexto não prova que cada detalhe será usado corretamente.\n\n**Temperatura** pode ajustar a distribuição de amostragem na implementação. Faixa e efeito dependem do sistema; não há uma escala universal obrigatória de 0 a 1. Valor baixo não certifica determinismo integral, lógica ou verdade. Uma citação falsa pode continuar sendo produzida com pouca variação.\n\n**Exemplo resolvido:** o modelo recebe uma lei e cita um artigo inexistente com redação convincente. Fluência e baixa temperatura não validam a citação. A tarefa exige localizar o dispositivo real e conferir se ele sustenta a conclusão.\n\n### Prompts: especificar tarefa, dados e critérios de verificação\n\nUm prompt pode informar objetivo, público, material de referência, formato e restrições. **Zero-shot** não fornece exemplos resolvidos da tarefa; **few-shot** fornece alguns exemplos para orientar o padrão. Não existe número universal de dois a cinco: a seleção depende da tarefa, do espaço e da qualidade dos exemplos.\n\nWei e colaboradores estudaram prompting com etapas intermediárias em determinados problemas e modelos, com ganhos nos cenários avaliados. Isso não significa que pedir “pense passo a passo” force premissas verdadeiras ou reduza drasticamente todo erro. Uma explicação pode ser plausível e incorreta. Para o trabalho verificável, peça resultado, evidência, cálculos reproduzíveis e limites; não trate o relato do modelo como acesso certificado ao seu funcionamento interno.\n\n**Prompt próprio para resumo:** “Resuma a seção fornecida em cinco pontos. Preserve condições e exceções. Associe cada ponto ao trecho que o sustenta. Se uma informação não estiver presente, indique a ausência em vez de completar.” Depois confira os pontos na fonte. O formato ajuda a auditoria, mas a conformidade ainda precisa ser observada.\n\n**Contraexemplo:** “Você é o maior especialista; forneça com certeza o gabarito.” A atribuição de papel não cria fonte nem competência verificável. Pode aumentar o tom de confiança sem melhorar a resposta. O usuário deve preferir uma tarefa delimitada e critérios observáveis.\n\nDocumentos recuperados e mensagens de terceiros podem conter instruções indevidas. Um sistema precisa distinguir dado a analisar de comando autorizado. Ao resumir um PDF, uma frase nele que mande ignorar as regras do serviço não se torna automaticamente instrução válida do usuário. Essa separação é parte da governança do fluxo.\n\n### RAG: recuperar, fundamentar e avaliar são etapas diferentes\n\n**Retrieval-Augmented Generation** combina recuperação de informação com geração apoiada em contexto. Em aplicações correntes, uma consulta busca passagens em um acervo e fornece material à geração. A recuperação pode combinar métodos lexicais, vetoriais ou híbridos; não precisa ser sempre uma busca exclusivamente por embeddings.\n\nIsso é diferente de dizer que a única operação do sistema é retreinar profundamente o modelo. O trabalho de Lewis e colaboradores apresentou uma formulação de modelos com memórias paramétrica e não paramétrica, incluindo treinamento na pesquisa original. Portanto, também seria excessivo afirmar que nenhuma arquitetura RAG pode ter componentes treinados: o ponto conceitual é a associação com recuperação, não uma proibição universal de ajuste de parâmetros.\n\n**Caso:** uma pergunta sobre competência regimental recupera o artigo de outro órgão ou uma versão histórica. O documento pode ser autêntico e ainda assim não ser a evidência aplicável. Se o gerador ignora uma exceção, a resposta também pode falhar mesmo com o trecho correto disponível.\n\nA avaliação precisa separar **recuperação pertinente**, **fidelidade ao contexto**, **correção da conclusão** e **cobertura da pergunta**. Uma citação pode existir e não sustentar a frase. Não basta exigir que a resposta contenha um link. O sistema deve permitir examinar a passagem e a versão.\n\n**Exemplo resolvido:** “RAG elimina alucinação porque consulta documentos oficiais.” A conclusão não decorre da arquitetura. É possível reduzir certos erros com bom projeto e avaliação, mas permanecem falhas de busca, versões, instruções, interpretação e geração. O comentário deve nomear esses pontos, em vez de prometer imunidade.\n\n### Governança pública: finalidade, dados e responsabilidade\n\nUsar IA num órgão exige definir finalidade, ambiente autorizado, dados permitidos, responsabilidades e forma de conferência. O guia da Secom do Senado exige revisão e avaliação profissional dos resultados no seu contexto institucional. Essa é uma fonte específica de governança, não uma lei universal automaticamente aplicável a todo sistema de todo Poder.\n\nA adoção de uma ferramenta não cria, por si, competência decisória nem dispensa os deveres do agente ou da instituição. Por outro lado, não se deve atribuir à LGPD uma proibição absoluta de qualquer decisão automatizada em todo contexto. A lei contém direitos e condições próprios, inclusive relativos a decisões automatizadas, que precisam ser lidos com as demais normas aplicáveis. Apoio técnico, automação operacional e decisão com efeitos jurídicos não são categorias idênticas.\n\n**Proteção de dados:** observe finalidade, necessidade, segurança e o fundamento de tratamento pertinente. Remover o nome pode não anonimizar: cargo raro, datas e combinações de fatos podem reidentificar a pessoa. Enviar dados a um provedor depende de regras, configuração, contrato e autorização; não se presume ambiente seguro por ser “nuvem”.\n\n**Viés** pode aparecer nos dados, na tarefa, na avaliação e no uso. Explicação textual extensa não assegura ausência de discriminação. **Transparência** exige informar o que for cabível e cumprir a política aplicável; não invente uma obrigação geral de declaração idêntica em todo documento sem base normativa específica.\n\n**Recupere:** quais dados podem entrar? Quem confere a saída? Qual fonte sustenta a conclusão? Como contestar e corrigir? Como serão preservadas versões e registros? Essas perguntas transformam ética em um procedimento observável, em vez de um selo abstrato de IA responsável.",
+  teoriaDidaticaMarkdown: "### Revisão: distinguir mecanismo e garantia\n\nSupervisionado tem alvo; isso não certifica os rótulos. Não supervisionado encontra estruturas que precisam de interpretação. Reforço otimiza recompensa, que pode não representar bem a finalidade. Tokens não são sempre palavras; embeddings próximos não provam equivalência. Atenção pode ser causal; contexto não é memória infalível. Temperatura baixa não valida fatos. Prompt e exemplos orientam, mas precisam de avaliação. RAG associa recuperação e geração, pode usar busca lexical/vetorial/híbrida e não elimina erros. Governança exige finalidade, dados permitidos, conferência e responsabilidade conforme normas específicas.\n\n**Recupere:** por que um documento oficial pode ser uma fonte inaplicável? O que muda entre RAG e só ajustar pesos? Por que citar uma lei não demonstra que a conclusão é sustentada pelo artigo? Trocar o nome de uma pessoa sempre anonimiza seus dados?\n",
+  checkpoints: [
+  {
+    "id": "cp-14-3-1",
+    "pergunta": "Micro-Checkpoint 1: Engenharia de Prompts - Chain-of-Thought (CoT)",
+    "item": "Técnicas de prompting com exemplos de etapas intermediárias, estudadas sob a denominação Chain-of-Thought, apresentaram ganhos em certas tarefas de raciocínio nos modelos avaliados, sem constituir garantia geral de correção.",
+    "gabarito": "C",
+    "justificativa": "A evidência reporta resultados em tarefas e modelos específicos. O item preserva o limite e não afirma que a técnica force premissas verdadeiras ou sempre elimine erros.",
+    "fonte": "Wei et al. (2022), Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."
   },
+  {
+    "id": "cp-14-3-2",
+    "pergunta": "Micro-Checkpoint 2: Recuperação de Informações - Arquitetura RAG",
+    "item": "A arquitetura RAG (Retrieval-Augmented Generation) atua exclusivamente por meio da alteração e do retreinamento profundo dos pesos da rede neural do LLM, dispensando a consulta a bancos de dados externos de documentos.",
+    "gabarito": "E",
+    "justificativa": "RAG associa geração e recuperação de informação, em vez de dispensar documentos e atuar exclusivamente por alteração de pesos. A pesquisa original também usa treinamento; por isso não se deve substituí-la por outro absoluto, como afirmar que RAG nunca pode conter componentes ajustados.",
+    "fonte": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.",
+    "versao_correta": "RAG combina recuperação de informação com geração apoiada no material recuperado."
+  },
+  {
+    "id": "cp-14-3-3",
+    "pergunta": "Micro-Checkpoint 3: Governança Pública de IA - Supervisão Humana",
+    "item": "No âmbito da administração pública e do Poder Legislativo, a incorporação de sistemas de inteligência artificial generativa autoriza a transferência da competência decisória final para os algoritmos em procedimentos administrativos rotineiros, dispensando a revisão por servidor público.",
+    "gabarito": "E",
+    "justificativa": "A incorporação de software não autoriza automaticamente transferir competência ou dispensar revisão. O alcance da automação e a responsabilidade dependem das normas e políticas pertinentes. Não se atribui à LGPD uma proibição universal de toda decisão automatizada.",
+    "fonte": "Guia de Uso de IA da Secom do Senado; LGPD, arts. 6º, 20 e 46, conforme o contexto.",
+    "versao_correta": "O uso de IA deve respeitar competências, direitos, responsabilidades e controles previstos no regime aplicável."
+  },
+  {
+    "id": "rt-14-3-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um classificador treinado com documentos e categorias fornecidas pela equipe usa um cenário supervisionado, mas a existência de rótulos não garante que eles estejam corretos ou livres de viés.",
+    "gabarito": "C",
+    "justificativa": "Supervisão descreve a presença do alvo no treinamento. Qualidade e representatividade dos rótulos são questões adicionais, que precisam de validação.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-3-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Tokens correspondem necessariamente a palavras completas e cada token representa uma unidade autônoma de significado.",
+    "gabarito": "E",
+    "justificativa": "A tokenização pode produzir palavras, subpalavras, sinais ou outras unidades conforme o método. Unidade de processamento não equivale necessariamente a unidade semântica autônoma.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar",
+    "versao_correta": "Tokens são unidades de processamento definidas pelo tokenizador e podem corresponder a partes de palavras ou outros elementos."
+  },
+  {
+    "id": "rt-14-3-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um modelo autorregressivo pode usar máscara de atenção para não acessar posições futuras durante a predição; por isso, nem todo uso de Transformer é bidirecional irrestrito.",
+    "gabarito": "C",
+    "justificativa": "A arquitetura e a máscara definem quais posições podem participar. A atenção causal restringe acesso ao futuro, contrastando com a descrição de que qualquer Transformer sempre usa todos os tokens em ambas as direções.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-3-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Ajustar a temperatura para um valor baixo certifica a validade de artigos legais citados por um modelo.",
+    "gabarito": "E",
+    "justificativa": "A temperatura influencia a amostragem conforme a implementação; não confere veracidade a documentos ou conclusões. A fonte citada precisa ser localizada e conferida.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar",
+    "versao_correta": "Mesmo com temperatura baixa, as citações legais precisam de conferência nas fontes."
+  },
+  {
+    "id": "rt-14-3-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um sistema RAG pode recuperar o trecho errado ou gerar conclusão não sustentada, embora use documentos oficiais como base.",
+    "gabarito": "C",
+    "justificativa": "A qualidade depende de seleção, busca, contexto e geração. Fonte oficial não garante que o trecho pertinente foi recuperado nem que a resposta respeitou seu alcance.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-3-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No uso de um modelo para resumir documento restrito, trocar o nome de uma pessoa basta para garantir anonimização em qualquer cenário.",
+    "gabarito": "E",
+    "justificativa": "Outros identificadores e combinações contextuais podem permitir reidentificação. Anonimização e envio permitido exigem análise dos dados, da finalidade, do ambiente e das regras aplicáveis, não apenas troca de nome.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar",
+    "versao_correta": "A proteção exige avaliar outros identificadores, contexto, finalidade e regras do ambiente."
+  },
+  {
+    "id": "rt-14-3-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O guia de uso da IA da Secom do Senado é orientação institucional específica e não deve ser apresentado como se fosse, por si, lei geral de todos os usos de IA em todo órgão público.",
+    "gabarito": "C",
+    "justificativa": "A autoridade e o alcance da fonte precisam ser preservados. A orientação pode servir como exemplo de governança, sem criar competência normativa universal.",
+    "fonte": "Vaswani et al. (2017), Attention Is All You Need; Lewis et al. (2020), Retrieval-Augmented Generation; Wei et al. (2022), Chain-of-Thought Prompting; orientações institucionais de uso de IA do Senado e LGPD.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Itens 5, 6 e 7: Inteligência Artificial, Engenharia de Prompts e Ética)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-14-3-fonte-transformer",
+      "nome": "Vaswani et al. (2017) — Attention Is All You Need",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Vaswani et al. (2017) — Attention Is All You Need",
+      "ideiaChave": "Arquitetura Transformer; atenção e configuração de codificador/decodificador.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-3-fonte-rag",
+      "nome": "Lewis et al. (2020) — Retrieval-Augmented Generation",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lewis et al. (2020) — Retrieval-Augmented Generation",
+      "ideiaChave": "Associação de memória paramétrica e recuperação; formulação original.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-3-fonte-cot",
+      "nome": "Wei et al. (2022) — Chain-of-Thought Prompting",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Wei et al. (2022) — Chain-of-Thought Prompting",
+      "ideiaChave": "Resultados de prompting em tarefas e modelos delimitados.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-3-fonte-senado-ia",
+      "nome": "Secom do Senado — Guia de Uso de IA",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Secom do Senado — Guia de Uso de IA",
+      "ideiaChave": "Orientações institucionais: revisão, responsabilidade e dados.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-3-fonte-lgpd",
+      "nome": "Lei 13.709/2018 — LGPD",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 13.709/2018 — LGPD",
+      "ideiaChave": "Arts. 6º, 20 e 46, nos limites e contextos aplicáveis.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-14-3-5",
+      "afirmacao": "Um sistema RAG pode recuperar o trecho errado ou gerar conclusão não sustentada, embora use documentos oficiais como base.",
+      "gabarito": "C",
+      "porQue": "A qualidade depende de seleção, busca, contexto e geração. Fonte oficial não garante que o trecho pertinente foi recuperado nem que a resposta respeitou seu alcance."
+    },
+    {
+      "id": "memoria-rt-14-3-6",
+      "afirmacao": "No uso de um modelo para resumir documento restrito, trocar o nome de uma pessoa basta para garantir anonimização em qualquer cenário.",
+      "gabarito": "E",
+      "porQue": "Outros identificadores e combinações contextuais podem permitir reidentificação. Anonimização e envio permitido exigem análise dos dados, da finalidade, do ambiente e das regras aplicáveis, não apenas troca de nome."
+    },
+    {
+      "id": "memoria-rt-14-3-7",
+      "afirmacao": "O guia de uso da IA da Secom do Senado é orientação institucional específica e não deve ser apresentado como se fosse, por si, lei geral de todos os usos de IA em todo órgão público.",
+      "gabarito": "C",
+      "porQue": "A autoridade e o alcance da fonte precisam ser preservados. A orientação pode servir como exemplo de governança, sem criar competência normativa universal."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-14-3-bloco-1",
+    "titulo": "IA, aprendizado de máquina e o problema que se quer resolver",
+    "objetivos": [
+      "Distinguir regras explícitas e aprendizado e identificar o alvo de uma tarefa."
+    ],
+    "conteudo": "IA reúne diferentes abordagens para realizar tarefas associadas a percepção, decisão, linguagem e resolução de problemas. Um sistema baseado em regras explícitas e um modelo que ajusta parâmetros a dados não funcionam do mesmo modo, embora possam ser combinados. A oposição não é entre um método sempre explicável e outro sempre incompreensível: complexidade e explicabilidade dependem do sistema.\n\nNo **aprendizado supervisionado**, há exemplos com variável-alvo. Classificar documentos por categorias fornecidas é um caso; estimar tempo de atendimento com valores numéricos é outro. **Classificação** trabalha com categorias; **regressão** estima valores numéricos no enquadramento usual. Isso não transforma o modelo em autoridade sobre a verdade jurídica do documento.\n\nNo **não supervisionado**, técnicas podem procurar agrupamentos e representações sem o mesmo alvo rotulado. Grupos semelhantes por vocabulário não recebem automaticamente significado institucional válido. Uma equipe deve interpretar os resultados. **Aprendizado por reforço** envolve decisões em interação com ambiente e sinais de recompensa; recompensa bem maximizada não é sinônimo automático de objetivo social bem atendido.\n\n**Caso:** um órgão quer classificar solicitações para encaminhamento. Primeiro define a tarefa, as classes e o custo de erros. Depois avalia dados e exemplos. Acurácia alta num conjunto muito desigual pode esconder falhas na categoria rara mais importante. O modelo precisa ser examinado na finalidade e na população em que será usado.\n\nAs bases devem distinguir treinamento, validação e avaliação de modo adequado. Uma resposta em exemplo já visto não comprova generalização. O detalhamento de métricas e dados é trabalhado em 14.4 e 6.7; aqui importa não confundir técnica, tarefa e resultado.",
+    "checkpointIds": [
+      "rt-14-3-1"
+    ]
+  },
+  {
+    "id": "sub-14-3-bloco-2",
+    "titulo": "Modelos de linguagem: token, contexto, atenção e geração",
+    "objetivos": [
+      "Explicar o processamento sem atribuir garantia semântica aos termos técnicos."
+    ],
+    "conteudo": "Um modelo de linguagem gera ou avalia sequências conforme sua arquitetura e treinamento. **Tokens** são unidades definidas pelo tokenizador: podem corresponder a palavras, partes, pontuação ou outros elementos. Não são necessariamente unidades mínimas de significado. Isso importa para limite de entrada, custo e análise do que cabe no contexto.\n\n**Embeddings** representam elementos em espaços numéricos. Proximidade pode apoiar tarefas de similaridade conforme o modelo e a métrica, mas não comprova identidade de sentido, relevância jurídica ou equivalência lógica. Dois trechos contraditórios sobre o mesmo assunto podem ser próximos semanticamente.\n\nO **Transformer**, apresentado por Vaswani e colaboradores, usa mecanismos de atenção em sua construção. A forma como posições se relacionam depende da arquitetura e das máscaras. Em geração autorregressiva, atenção causal impede olhar posições futuras no cálculo correspondente; portanto, “todo Transformer é bidirecional irrestrito” é generalização errada.\n\n**Janela de contexto** limita o material processado na interação conforme o sistema. Não deve ser descrita como memória humana que garante lembrança de tudo nem confundida com armazenamento persistente de toda conversa. A presença de uma passagem no contexto não prova que cada detalhe será usado corretamente.\n\n**Temperatura** pode ajustar a distribuição de amostragem na implementação. Faixa e efeito dependem do sistema; não há uma escala universal obrigatória de 0 a 1. Valor baixo não certifica determinismo integral, lógica ou verdade. Uma citação falsa pode continuar sendo produzida com pouca variação.\n\n**Exemplo resolvido:** o modelo recebe uma lei e cita um artigo inexistente com redação convincente. Fluência e baixa temperatura não validam a citação. A tarefa exige localizar o dispositivo real e conferir se ele sustenta a conclusão.",
+    "checkpointIds": [
+      "rt-14-3-2",
+      "rt-14-3-3",
+      "rt-14-3-4"
+    ]
+  },
+  {
+    "id": "sub-14-3-bloco-3",
+    "titulo": "Prompts: especificar tarefa, dados e critérios de verificação",
+    "objetivos": [
+      "Construir instruções úteis sem confundir detalhamento com certificação."
+    ],
+    "conteudo": "Um prompt pode informar objetivo, público, material de referência, formato e restrições. **Zero-shot** não fornece exemplos resolvidos da tarefa; **few-shot** fornece alguns exemplos para orientar o padrão. Não existe número universal de dois a cinco: a seleção depende da tarefa, do espaço e da qualidade dos exemplos.\n\nWei e colaboradores estudaram prompting com etapas intermediárias em determinados problemas e modelos, com ganhos nos cenários avaliados. Isso não significa que pedir “pense passo a passo” force premissas verdadeiras ou reduza drasticamente todo erro. Uma explicação pode ser plausível e incorreta. Para o trabalho verificável, peça resultado, evidência, cálculos reproduzíveis e limites; não trate o relato do modelo como acesso certificado ao seu funcionamento interno.\n\n**Prompt próprio para resumo:** “Resuma a seção fornecida em cinco pontos. Preserve condições e exceções. Associe cada ponto ao trecho que o sustenta. Se uma informação não estiver presente, indique a ausência em vez de completar.” Depois confira os pontos na fonte. O formato ajuda a auditoria, mas a conformidade ainda precisa ser observada.\n\n**Contraexemplo:** “Você é o maior especialista; forneça com certeza o gabarito.” A atribuição de papel não cria fonte nem competência verificável. Pode aumentar o tom de confiança sem melhorar a resposta. O usuário deve preferir uma tarefa delimitada e critérios observáveis.\n\nDocumentos recuperados e mensagens de terceiros podem conter instruções indevidas. Um sistema precisa distinguir dado a analisar de comando autorizado. Ao resumir um PDF, uma frase nele que mande ignorar as regras do serviço não se torna automaticamente instrução válida do usuário. Essa separação é parte da governança do fluxo.",
+    "checkpointIds": [
+      "cp-14-3-1"
+    ]
+  },
+  {
+    "id": "sub-14-3-bloco-4",
+    "titulo": "RAG: recuperar, fundamentar e avaliar são etapas diferentes",
+    "objetivos": [
+      "Distinguir recuperação de ajuste de pesos e reconhecer limites de fundamentação."
+    ],
+    "conteudo": "**Retrieval-Augmented Generation** combina recuperação de informação com geração apoiada em contexto. Em aplicações correntes, uma consulta busca passagens em um acervo e fornece material à geração. A recuperação pode combinar métodos lexicais, vetoriais ou híbridos; não precisa ser sempre uma busca exclusivamente por embeddings.\n\nIsso é diferente de dizer que a única operação do sistema é retreinar profundamente o modelo. O trabalho de Lewis e colaboradores apresentou uma formulação de modelos com memórias paramétrica e não paramétrica, incluindo treinamento na pesquisa original. Portanto, também seria excessivo afirmar que nenhuma arquitetura RAG pode ter componentes treinados: o ponto conceitual é a associação com recuperação, não uma proibição universal de ajuste de parâmetros.\n\n**Caso:** uma pergunta sobre competência regimental recupera o artigo de outro órgão ou uma versão histórica. O documento pode ser autêntico e ainda assim não ser a evidência aplicável. Se o gerador ignora uma exceção, a resposta também pode falhar mesmo com o trecho correto disponível.\n\nA avaliação precisa separar **recuperação pertinente**, **fidelidade ao contexto**, **correção da conclusão** e **cobertura da pergunta**. Uma citação pode existir e não sustentar a frase. Não basta exigir que a resposta contenha um link. O sistema deve permitir examinar a passagem e a versão.\n\n**Exemplo resolvido:** “RAG elimina alucinação porque consulta documentos oficiais.” A conclusão não decorre da arquitetura. É possível reduzir certos erros com bom projeto e avaliação, mas permanecem falhas de busca, versões, instruções, interpretação e geração. O comentário deve nomear esses pontos, em vez de prometer imunidade.",
+    "checkpointIds": [
+      "cp-14-3-2",
+      "rt-14-3-5"
+    ]
+  },
+  {
+    "id": "sub-14-3-bloco-5",
+    "titulo": "Governança pública: finalidade, dados e responsabilidade",
+    "objetivos": [
+      "Preservar o alcance das fontes e não delegar competência por simples adoção de software."
+    ],
+    "conteudo": "Usar IA num órgão exige definir finalidade, ambiente autorizado, dados permitidos, responsabilidades e forma de conferência. O guia da Secom do Senado exige revisão e avaliação profissional dos resultados no seu contexto institucional. Essa é uma fonte específica de governança, não uma lei universal automaticamente aplicável a todo sistema de todo Poder.\n\nA adoção de uma ferramenta não cria, por si, competência decisória nem dispensa os deveres do agente ou da instituição. Por outro lado, não se deve atribuir à LGPD uma proibição absoluta de qualquer decisão automatizada em todo contexto. A lei contém direitos e condições próprios, inclusive relativos a decisões automatizadas, que precisam ser lidos com as demais normas aplicáveis. Apoio técnico, automação operacional e decisão com efeitos jurídicos não são categorias idênticas.\n\n**Proteção de dados:** observe finalidade, necessidade, segurança e o fundamento de tratamento pertinente. Remover o nome pode não anonimizar: cargo raro, datas e combinações de fatos podem reidentificar a pessoa. Enviar dados a um provedor depende de regras, configuração, contrato e autorização; não se presume ambiente seguro por ser “nuvem”.\n\n**Viés** pode aparecer nos dados, na tarefa, na avaliação e no uso. Explicação textual extensa não assegura ausência de discriminação. **Transparência** exige informar o que for cabível e cumprir a política aplicável; não invente uma obrigação geral de declaração idêntica em todo documento sem base normativa específica.\n\n**Recupere:** quais dados podem entrar? Quem confere a saída? Qual fonte sustenta a conclusão? Como contestar e corrigir? Como serão preservadas versões e registros? Essas perguntas transformam ética em um procedimento observável, em vez de um selo abstrato de IA responsável.",
+    "checkpointIds": [
+      "cp-14-3-3",
+      "rt-14-3-6",
+      "rt-14-3-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "transformer",
+    "titulo": "Vaswani et al. (2017) — Attention Is All You Need",
+    "localizador": "Arquitetura Transformer; atenção e configuração de codificador/decodificador.",
+    "url": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "id": "rag",
+    "titulo": "Lewis et al. (2020) — Retrieval-Augmented Generation",
+    "localizador": "Associação de memória paramétrica e recuperação; formulação original.",
+    "url": "https://arxiv.org/abs/2005.11401"
+  },
+  {
+    "id": "cot",
+    "titulo": "Wei et al. (2022) — Chain-of-Thought Prompting",
+    "localizador": "Resultados de prompting em tarefas e modelos delimitados.",
+    "url": "https://arxiv.org/abs/2201.11903"
+  },
+  {
+    "id": "senado-ia",
+    "titulo": "Secom do Senado — Guia de Uso de IA",
+    "localizador": "Orientações institucionais: revisão, responsabilidade e dados.",
+    "url": "https://www12.senado.leg.br/manualdecomunicacao/guia-de-uso-de-ia"
+  },
+  {
+    "id": "lgpd",
+    "titulo": "Lei 13.709/2018 — LGPD",
+    "localizador": "Arts. 6º, 20 e 46, nos limites e contextos aplicáveis.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+  }
+],
 };

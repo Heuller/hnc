@@ -1,0 +1,171 @@
+{
+  "id": "sub-11-11",
+  "versaoTeoria": "2026-10-29.1",
+  "unidadesAprendizagem": [
+    {
+      "id": "sub-11-11-bloco-1",
+      "titulo": "Natureza Jurídica e Características dos Contratos Administrativos",
+      "objetivos": [
+        "Distinguir formação, eficácia e execução do ajuste."
+      ],
+      "conteudo": "O contrato administrativo é o ajuste bilateral consensual celebrado entre a Administração Pública (agindo com supremacia de poder público) e um particular ou outra entidade, regulado substancialmente pelo direito administrativo:\n* **Características Canônicas:**\n  * **Consensual:** Aperfeiçoa-se com o acordo formal de vontades;\n  * **Formal:** Exige instrumento escrito e publicação oficial obrigatória no Portal Nacional de Contratações Públicas (PNCP - art. 94) como condição de eficácia nos termos e prazos legais; contratos urgentes têm regra do art. 94, § 1º, e há particularidades/transições legais;\n  * **Oneroso:** Envolve contraprestação pecuniária do poder público;\n  * **Comutativo:** Direitos e deveres equivalentes e previamente estabelecidos;\n  * *Intuitu Personae* (Personalíssimo): Celebrado em razão das qualificações específicas do licitante vencedor (a subcontratação de partes admite-se nos limites autorizados pela Administração, observados edital/regulamento e art. 122; não equivale à transferência irrestrita do objeto).\n\n**Aplicação e recuperação:** Contrato urgente tem eficácia desde assinatura nas condições do art. 94, § 1º, mas deve ser publicado no prazo, sob pena de nulidade. A existência da exceção não elimina o dever de divulgação. Não confunda eficácia com autorização para ignorar formalidades e controles.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-11-11-bloco-2",
+      "titulo": "As Cláusulas Exorbitantes (Art. 104 da Lei nº 14.133/2021)",
+      "objetivos": [
+        "Aplicar limites de alterações e hipóteses de extinção."
+      ],
+      "conteudo": "São prerrogativas especiais da Administração Pública que exorbitam do direito privado comum, justificadas pela supremacia do interesse público:\n\n1. **Modificação Unilateral do Contrato:** A Administração pode alterar unilateralmente o contrato para melhor adequação técnica aos fins de interesse público (**alteração qualitativa**) ou para acréscimo ou supressão de até **25%** do valor inicial atualizado (**alteração quantitativa**), limite que, em reformas de edifícios/equipamentos, se eleva a **50% apenas para acréscimos**, não para supressões. O particular é obrigado a aceitar essas alterações, mantendo-se o equilíbrio econômico-financeiro original.\n2. **Extinção Unilateral:** Possibilidade de a Administração extinguir o contrato sem necessidade de intervenção judicial em casos de inadimplemento grave da contratada ou por razões de interesse público justificadas pela autoridade competente e nas condições legais, com contraditório e ampla defesa.\n3. **Fiscalização Permanente:** O dever-poder de acompanhar pari passu a execução das obras e serviços por fiscais designados.\n4. **Aplicação Direta de Sanções:** Imposição de advertências, multas e impedimentos sem intervenção do Judiciário.\n5. **Ocupação Provisória e Retenção:** Direito de ocupar bens móveis, imóveis e utilizar pessoal da contratada para garantir a continuidade imediata de serviços públicos essenciais.\n6. **Mitigação da *Exceptio Non Adimpleti Contractus* (Art. 137, § 2º, IV):** O particular só pode suspender o cumprimento de suas obrigações se a Administração atrasar os pagamentos por prazo **superior a dois meses**, contado da emissão da nota fiscal e observados os §§ 2º–3º do art. 137; dois meses não devem ser convertidos automaticamente em sessenta dias, salvo em situações de calamidade ou grave perturbação da ordem.\n\n**Aplicação e recuperação:** Reforma no valor inicial atualizado de R$ 200 mil: o limite geral de 25% corresponde a R$ 50 mil; o limite especial de acréscimo de 50%, a R$ 100 mil. A exceção não autoriza supressão unilateral de 50%. Nem permite transfigurar o objeto ou dispensar equilíbrio econômico-financeiro.",
+      "checkpointIds": [
+        "cp-11-11-2",
+        "rt-11-11-1"
+      ]
+    },
+    {
+      "id": "sub-11-11-bloco-3",
+      "titulo": "Duração e Vigência dos Contratos na Nova Lei",
+      "objetivos": [
+        "Examinar duração por tipo contratual e condições."
+      ],
+      "conteudo": "* **Regra Geral:** O art. 105 determina duração prevista em edital, com disponibilidade de créditos na contratação e em cada exercício e previsão no PPA quando ultrapassar um exercício. Não mantém como regra universal o antigo limite anual de vigência.\n* **Serviços e Fornecimentos Contínuos (Art. 106 e 107):**\n  * Podem ser celebrados com prazo inicial de até **5 anos**;\n  * Podem ser prorrogados sucessivamente por termos aditivos até o limite improrrogável de **10 anos**, desde que demonstrada a vantajosa economicidade para a Administração.\n* **Contratos com Receita / Eficiência (Art. 110):** Podem ter prazo de até **10 anos** (sem investimento) ou até **35 anos** (com realização de benfeitorias e investimentos vultosos pelo contratado).\n\n**Aplicação e recuperação:** Uma assinatura contínua pode ter prorrogações nas condições dos arts. 106–107; dez anos não é direito automático do fornecedor. Previsão, vantagem, créditos e demais pressupostos continuam necessários. Contrato por escopo e serviço monopolizado têm regimes distintos; não aplique o mesmo teto a todo ajuste.",
+      "checkpointIds": [
+        "cp-11-11-1",
+        "rt-11-11-2"
+      ]
+    },
+    {
+      "id": "sub-11-11-bloco-4",
+      "titulo": "Gestão e Fiscalização Contratual (Arts. 117 e seguintes)",
+      "objetivos": [
+        "Separar fiscalização, gestão e responsabilidade trabalhista."
+      ],
+      "conteudo": "A execução do contrato deverá ser acompanhada e fiscalizada por **1 ou mais fiscais do contrato**, representantes da Administração especialmente designados:\n\n#### 4.1 O Papel do Fiscal Técnico (Bibliotecário)\n* Acompanha a execução técnica direta do objeto contratual (ex.: desenvolvimento do sistema Koha/FOLIO, assinatura de bases jurídicas, restauração de obras raras do acervo);\n* Registra todas as ocorrências em livro ou sistema digital oficial e determina à empresa a correção imediata de defeitos verificados;\n* Emite o **Termo de Recebimento Provisório** após atestar a conformidade física e técnica dos itens entregues.\n\n#### 4.2 O Papel do Fiscal Administrativo\n* Acompanha os aspectos legais e burocráticos do contrato, conferindo o recolhimento das guias de FGTS, INSS, salários e encargos trabalhistas de empresas que fornecem mão de obra terceirizada para acompanhar cumprimento e reduzir riscos. A responsabilidade não se presume automaticamente do inadimplemento: o Tema 1118 do STF exige exame de negligência/nexo e ônus da prova segundo a tese.\n\n#### 4.3 O Papel do Gestor do Contrato\n* Coordena as atividades de todos os fiscais, consolida as avaliações de desempenho, instrui a formalização de aditivos contratuais, pedidos de reequilíbrio econômico-financeiro (reajuste em sentido estrito, repactuação e revisão) e encaminha relatórios para instauração de processos sancionatórios quando houver infração.\n\n**Aplicação e recuperação:** O fiscal registra falha e comunica o que excede sua competência. O gestor articula providências, mas não pode ignorar provas de inadimplemento. No Tema 1118, mero atraso trabalhista não prova responsabilidade automática da Administração; a tese também descreve deveres e situações de negligência. Fiscalizar não é apenas guardar notas fiscais.",
+      "checkpointIds": []
+    },
+    {
+      "id": "sub-11-11-bloco-5",
+      "titulo": "Recebimento do Objeto Contratual (Art. 140)",
+      "objetivos": [
+        "Diferenciar recebimentos por objeto e agente designado."
+      ],
+      "conteudo": "O recebimento de compras e serviços desdobra-se em recebimentos provisório e definitivo com distinção entre obras/serviços e compras, na forma do art. 140:\n1. **Recebimento Provisório:** Em obras/serviços, cabe ao responsável por acompanhamento e fiscalização mediante termo detalhado, verificado cumprimento técnico; em compras, é sumário, com verificação posterior. Não imponha uma mesma forma e momento a todos os objetos.\n2. **Recebimento Definitivo:** Realizado por **servidor ou comissão designada pela autoridade competente**, não necessariamente pelo gestor, após a verificação da qualidade e do funcionamento dos produtos ou serviços, mediante termo detalhado que comprova a aceitação integral da entrega, liberando o processo para ateste e liquidação da despesa.\n\n**Aplicação e recuperação:** Caixas de livros chegam: o recebimento provisório de compra não equivale a declarar conferidos todos os exemplares. O definitivo exige verificação e agente designado. Já serviços têm termo e verificação técnica próprios. Recebimento não elimina todas as responsabilidades posteriores por defeito.",
+      "checkpointIds": [
+        "rt-11-11-3"
+      ]
+    },
+    {
+      "id": "sub-11-11-bloco-6",
+      "titulo": "Sistema Sancionatório da Lei nº 14.133/2021 (Art. 156)",
+      "objetivos": [
+        "Comparar alcance, duração e processo das sanções."
+      ],
+      "conteudo": "Pela prática de infrações licitatórias e contratuais, aplicam-se quatro sanções graduadas:\n1. **Advertência:** No art. 156, § 2º, vinculada à infração do art. 155, I, quando não justificada penalidade mais grave;\n2. **Multa:** Cobrada nos percentuais previstos no edital (entre **0,5% e 30%** do valor contratual);\n3. **Impedimento de Licitar e Contratar (Inciso III):** Prazo máximo de até **3 anos**, impedindo o fornecedor de licitar e contratar com **toda a Administração Pública Direta e Indireta do mesmo ente federativo** que aplicou a sanção (ex.: se aplicada pela Câmara dos Deputados, impede de licitar em toda a União Federal);\n4. **Declaração de Inidoneidade para Licitar ou Contratar (Inciso IV):** Sanção mais gravosa da lei, com prazo de **3 a 6 anos**, impedindo o infrator de licitar e contratar perante **TODA a Administração Pública brasileira** (União, todos os Estados, DF e todos os Municípios). Exige análise jurídica prévia e a competência prevista no art. 156, § 6º, inclusive distinções entre Poderes e entidades; não se atribui universalmente a uma única autoridade por analogia.\n\n**Aplicação e recuperação:** Impedimento alcança a Administração do ente sancionador, por até três anos; inidoneidade alcança os entes nos termos legais, por três a seis anos. Não troque ente federativo por órgão. As sanções exigem tipificação, competência, defesa e proporcionalidade; o nome da infração não autoriza punição imediata sem processo.",
+      "checkpointIds": [
+        "cp-11-11-3",
+        "rt-11-11-4"
+      ]
+    }
+  ],
+  "teoriaDidaticaMarkdown": "### Revisão: limites não são permissões automáticas\n\nContrato exige regime, formalização e publicidade pertinentes. Acréscimo em reforma tem limite especial de 50%; supressão não recebe essa ampliação. Vigência não se reduz universalmente ao exercício financeiro. Continuidade e prorrogação exigem condições. Dois meses não são necessariamente sessenta dias. Fiscal acompanha/registra e comunica; recebimento definitivo cabe a designado conforme art. 140. Inadimplemento trabalhista não basta para responsabilidade automática do poder público. Impedimento e inidoneidade têm alcance e duração diferentes, com defesa e competência próprias.\n",
+  "fontesTeoria": [
+    {
+      "id": "nllc",
+      "titulo": "Lei 14.133/2021 — texto atualizado na Câmara",
+      "localizador": "Licitações e contratos; observar o corte do edital e atualizações de valores.",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.pdf"
+    },
+    {
+      "id": "tema1118",
+      "titulo": "STF — Tema 1118",
+      "localizador": "Ônus da prova e negligência na fiscalização de terceirização.",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-decide-que-autor-da-acao-deve-comprovar-falha-na-fiscalizacao-de-contratos-de-terceirizacao/"
+    }
+  ],
+  "novosCheckpoints": [
+    {
+      "id": "rt-11-11-1",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Em reforma, a regra de até 50% do art. 125 autoriza tanto acréscimo quanto supressão unilateral de 50%.",
+      "gabarito": "E",
+      "justificativa": "A elevação especial vale para acréscimos. O limite de supressão unilateral não é ampliado por essa frase.",
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 11: Processo Administrativo Federal - Lei 9.784/1999)",
+      "habilidade": "aplicar",
+      "versao_correta": "Em reforma, o limite especial de 50% é para acréscimos."
+    },
+    {
+      "id": "rt-11-11-2",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "A duração prevista em edital e os créditos em cada exercício permitem contratos plurianuais nas hipóteses legais.",
+      "gabarito": "C",
+      "justificativa": "O art. 105 não impõe encerramento de todo contrato no fim do ano. Cada tipo tem requisitos próprios.",
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 11: Processo Administrativo Federal - Lei 9.784/1999)",
+      "habilidade": "aplicar"
+    },
+    {
+      "id": "rt-11-11-3",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "O recebimento definitivo de toda compra deve ser feito obrigatoriamente pelo gestor, independentemente de designação.",
+      "gabarito": "E",
+      "justificativa": "O art. 140 prevê servidor ou comissão designada pela autoridade competente; a função gerencial não substitui essa regra.",
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 11: Processo Administrativo Federal - Lei 9.784/1999)",
+      "habilidade": "aplicar",
+      "versao_correta": "O definitivo cabe a servidor ou comissão designada conforme art. 140."
+    },
+    {
+      "id": "rt-11-11-4",
+      "pergunta": "Julgue a situação apresentada.",
+      "item": "Impedimento e inidoneidade possuem alcance federativo e duração distintos na Lei 14.133.",
+      "gabarito": "C",
+      "justificativa": "Impedimento: mesmo ente, até três anos. Inidoneidade: todos os entes, de três a seis anos, observados processo e competência.",
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "editalRef": "Conhecimentos Básicos - Direito Administrativo (Item 11: Processo Administrativo Federal - Lei 9.784/1999)",
+      "habilidade": "aplicar"
+    }
+  ],
+  "checkpointEdits": {
+    "cp-11-11-1": {
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "justificativa": "O art. 107 admite vigência máxima decenal para serviços/fornecimentos contínuos, com previsão no edital e ateste de vantagem. Não se trata de prorrogação obrigatória ou automática."
+    },
+    "cp-11-11-2": {
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "justificativa": "Trinta dias não preenchem a hipótese de atraso superior a dois meses do art. 137, § 2º, IV. O marco e as ressalvas do § 3º devem ser observados; não converta o prazo automaticamente em sessenta dias.",
+      "versao_correta": "O direito previsto nos §§ 2º–3º do art. 137 depende do prazo, marco e condições legais, não de simples atraso de trinta dias."
+    },
+    "cp-11-11-3": {
+      "fonte": "Lei 14.133/2021, arts. 94, 104–125, 137–140 e 155–168; STF, Tema 1118, sobre terceirização.",
+      "justificativa": "A inidoneidade tem alcance sobre todos os entes, nos termos do art. 156. O impedimento se limita ao ente federativo sancionador, não só ao órgão.",
+      "versao_correta": "Inidoneidade alcança a Administração de todos os entes na forma legal; impedimento alcança o mesmo ente."
+    }
+  },
+  "alertasCebraspe": [
+    "A elevação especial vale para acréscimos. O limite de supressão unilateral não é ampliado por essa frase.",
+    "O art. 140 prevê servidor ou comissão designada pela autoridade competente; a função gerencial não substitui essa regra."
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Gestão e fiscalização",
+      "definicao": "Acompanhamento, registro e encaminhamento de decisões segundo competências.",
+      "exemploBiblioteca": "O fiscal comunica problema que ultrapassa sua competência."
+    },
+    {
+      "termo": "Alteração contratual",
+      "definicao": "Modificação sujeita a fundamento, limites e equilíbrio econômico-financeiro.",
+      "exemploBiblioteca": "O limite especial de 50% em reforma não amplia igualmente a supressão unilateral."
+    }
+  ],
+  "autoresChave": [
+    "Lei 14.133/2021 — texto atualizado na Câmara",
+    "STF — Tema 1118"
+  ],
+  "descricaoCurta": "Distinguir formação, eficácia e execução do ajuste. Aplicar limites de alterações e hipóteses de extinção. Examinar duração por tipo contratual e condições. Separar fiscalização, gestão e responsabilidade trabalhista. Diferenciar recebimentos por objeto e agente designado. Comparar alcance, duração e processo das sanções.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 18
+}

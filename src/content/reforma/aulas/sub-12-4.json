@@ -141,9 +141,8 @@
     }
   },
   "alertasCebraspe": [
-    "Não reduza modais a uma escala universal de certeza: examine sua função no contexto.",
-    "Uma substituição precisa preservar alcance e construção; sinônimos aproximados não se aplicam automaticamente a toda frase.",
-    "Compreensão lexical melhora com frases e conferência, não com proibição de consulta ou promessa de inferência infalível."
+    "Eventually aponta para um resultado ao final de um processo ou período. O item transporta um uso do português eventualmente que não corresponde ao advérbio nessa construção.",
+    "Must not apresenta proibição no contexto; do not have to indica que não é necessário copiar. Proibir e dispensar não são a mesma orientação."
   ],
   "mnemonicos": {
     "timeline": [],
@@ -160,6 +159,25 @@
     "pegadinhas": []
   },
   "autoresChave": [
-    "British Council — LearnEnglish"
-  ]
+    "British Council — Contrasting ideas",
+    "British Council — Relative pronouns and relative clauses",
+    "British Council — Modals: deductions about the present"
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Grupo nominal",
+      "definicao": "Núcleo e modificadores devem ser interpretados na relação sintática.",
+      "exemploBiblioteca": "Digital library policy tem policy como núcleo no exemplo."
+    },
+    {
+      "termo": "Paráfrase",
+      "definicao": "Reformulação que precisa preservar relações e alcance relevantes.",
+      "exemploBiblioteca": "Trocar some por all altera quantificação, mesmo mantendo o tema."
+    }
+  ],
+  "descricaoCurta": "Usar contexto e formação de palavras sem transformar pistas em garantia. Distinguir actually, currently, eventually, pretend e intend em frases. Distinguir funções de must, may, can, should e formas negativas. Validar equivalência contextual e aplicar a leitura a um texto novo.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 18
 }

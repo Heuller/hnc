@@ -133,9 +133,8 @@
     }
   },
   "alertasCebraspe": [
-    "Semelhança de tradução não garante equivalência sintática.",
-    "Compare a direção de causa e consequência e o alcance de condições.",
-    "Uma questão de substituição precisa apresentar o trecho pertinente. Não use referência a texto ausente."
+    "Despite não recebe diretamente essa oração finita; é possível usar Despite the incomplete files ou Despite the fact that the files were incomplete. O sentido concessivo semelhante não torna a sintaxe idêntica.",
+    "A condição apresentada não esgota todos os regimes possíveis. A conclusão acrescenta uma exclusividade que não foi fornecida. Esse é um problema de alcance lógico, não de tradução isolada de public."
   ],
   "mnemonicos": {
     "timeline": [],
@@ -152,6 +151,25 @@
     "pegadinhas": []
   },
   "autoresChave": [
-    "British Council — LearnEnglish"
-  ]
+    "British Council — Contrasting ideas",
+    "British Council — Relative pronouns and relative clauses",
+    "British Council — Modals: deductions about the present"
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Referente",
+      "definicao": "Elemento ao qual uma expressão remete no contexto.",
+      "exemploBiblioteca": "This pode retomar uma ideia anterior, não apenas o substantivo mais próximo."
+    },
+    {
+      "termo": "Conector",
+      "definicao": "Marca relação discursiva a confirmar pela oração e contexto.",
+      "exemploBiblioteca": "Although introduz concessão; não basta reconhecer a palavra sem comparar as proposições."
+    }
+  ],
+  "descricaoCurta": "Identificar adição, contraste, causa, consequência, condição e tempo. Reescrever although e despite sem apagar a estrutura exigida. Evitar transformar condição suficiente em necessária ou resultado em motivo. Julgar substituições e justificar o resultado em um texto completo.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 16
 }

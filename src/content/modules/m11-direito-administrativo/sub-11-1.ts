@@ -24,19 +24,16 @@ export const submodulo111: ModuloFilho = {
     "exemploBiblioteca": "Melhorar prazo de atendimento sem afastar direitos ou promover pessoalmente a autoridade."
   }
 ],
-  descricaoCurta: 'Conceito e elementos do Estado, separação de poderes e funções atípicas. Princípios constitucionais (LIMPE) e princípios implícitos da Administração Pública. Organização administrativa: centralização, descentralização, concentração, desconcentração, Administração Direta e Indireta.',
-  tempoEstimadoMinutos: 14,
+  descricaoCurta: "Distinguir a organização política, a direção governamental e a atividade administrativa. Identificar a pessoa jurídica à qual uma atuação é imputada. Diferenciar distribuição interna de transferência a outro sujeito. Distinguir autonomia administrativa de independência em relação à lei. Relacionar personalidade e forma de instituição sem tratar toda fundação como igual. Diferenciar empresa pública e sociedade de economia mista por critérios próprios. Aplicar LIMPE a casos em vez de usar a sigla como explicação.",
+  tempoEstimadoMinutos: 27,
   autoresChave: [
-    'Maria Sylvia Zanella Di Pietro',
-    'Hely Lopes Meirelles',
-    'José dos Santos Carvalho Filho',
-    'Otto Gierke (Teoria do Órgão)',
-  ],
+  "Constituição Federal de 1988",
+  "Decreto-Lei 200/1967",
+  "Lei 13.303/2016"
+],
   alertasCebraspe: [
-  "Identifique se a atividade se distribui dentro de uma pessoa jurídica ou envolve outro sujeito. Descentralização não exige criar pessoa nova em cada operação.",
-  "Compare separadamente personalidade, capital, forma societária e instituição. Uma oração verdadeira não valida automaticamente toda a afirmação.",
-  "Vinculação não cria hierarquia genérica; autonomia administrativa permanece limitada pela lei.",
-  "A publicidade institucional pode informar serviços; o art. 37, § 1º, veda elementos que caracterizem promoção pessoal."
+  "Autonomia administrativa não significa soberania nem liberdade de abandonar a finalidade legal. Especialização e vinculação à lei limitam a atuação. Eficiência opera dentro do ordenamento e não substitui competência ou finalidade.",
+  "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão."
 ],
   quadroComparativo: {
   "titulo": "Organização administrativa: critérios de decisão",
@@ -174,84 +171,54 @@ export const submodulo111: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-11-1-1',
-        periodo: '1887',
-        disciplina: 'Direito Administrativo / Teoria Geral',
-        focoPrincipal: 'Formulação da Teoria do Órgão (Imputação Volitiva)',
-        figuraChave: 'Otto Gierke',
-      },
-      {
-        id: 'tl-11-1-2',
-        periodo: '1967',
-        disciplina: 'Organização Administrativa',
-        focoPrincipal: 'Decreto-Lei nº 200/1967: estruturação da Administração Direta e Indireta no Brasil',
-        figuraChave: 'Reforma Administrativa Federal',
-      },
-      {
-        id: 'tl-11-1-3',
-        periodo: '1988',
-        disciplina: 'Direito Constitucional Administrativo',
-        focoPrincipal: 'Promulgação da CF/88: fixação do art. 37 (LIMPE) e autotutela vinculante',
-        figuraChave: 'Constituição Cidadã',
-      },
-      {
-        id: 'tl-11-1-4',
-        periodo: '1998',
-        disciplina: 'Reforma Gerencial',
-        focoPrincipal: 'EC nº 19/1998: inclusão do Princípio da Eficiência no caput do art. 37 da CF',
-        figuraChave: 'Bresser-Pereira / MARE',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-11-1-1',
-        nome: 'Maria Sylvia Zanella Di Pietro',
-        ano: '2023',
-        obraPrincipal: 'Direito Administrativo (36ª edição)',
-        ideiaChave: 'Regime jurídico-administrativo estruturado no binômio prerrogativas (supremacia) e restrições (indisponibilidade).',
-        chipPegadinha: 'Afirmar que a Administração Pública pode renunciar ao interesse público com base na autonomia da vontade.',
-        detalhesOpcionais: 'Referência predileta da banca Cebraspe para conceitos de regime público e autotutela.',
-      },
-      {
-        id: 'aut-11-1-2',
-        nome: 'Hely Lopes Meirelles',
-        ano: '2020',
-        obraPrincipal: 'Direito Administrativo Brasileiro (44ª edição)',
-        ideiaChave: 'Conceito clássico de poder de polícia, ato administrativo e distinção estrita entre atos de governo e atos administrativos de gestão.',
-        chipPegadinha: 'Confundir ato político discricionário com ato de mera gestão administrativa vinculada.',
-      },
-      {
-        id: 'aut-11-1-3',
-        nome: 'Otto Gierke',
-        ano: '1887',
-        obraPrincipal: 'Teoria da Imputação Volitiva (Teoria do Órgão)',
-        ideiaChave: 'A manifestação do agente é a própria manifestação da pessoa jurídica; não há representação nem mandato, mas imputação direta.',
-        chipPegadinha: 'Dizer que o servidor público é mandatário ou representante contratual do Estado.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-11-1-1',
-        afirmacao: 'A desconcentração administrativa implica a criação de uma nova pessoa jurídica dotada de autonomia funcional e patrimônio próprio.',
-        gabarito: 'E',
-        porQue: 'A desconcentração cria ÓRGÃOS despersonalizados dentro da mesma pessoa jurídica. Quem cria nova pessoa jurídica é a descentralização.',
-      },
-      {
-        id: 'peg-11-1-2',
-        afirmacao: 'O princípio da autotutela administrativa autoriza a Administração a revogar atos ilegais com efeitos retroativos à data de sua edição.',
-        gabarito: 'E',
-        porQue: 'Atos ilegais são ANULADOS (efeito ex tunc / retroativo). Atos inoportunos ou inconvenientes são REVOGADOS (efeito ex nunc / prospectivo). Súmula 473 do STF.',
-      },
-      {
-        id: 'peg-11-1-3',
-        afirmacao: 'As empresas públicas federais sujeitam-se à jurisdição da Justiça Federal de primeira instância, ao passo que as ações envolvendo sociedades de economia mista federais tramitam, como regra, perante a Justiça Estadual.',
-        gabarito: 'C',
-        porQue: 'Correto! A CF/88 (art. 109, I) prevê expressamente a competência da Justiça Federal para Empresas Públicas federais, silenciando quanto às Sociedades de Economia Mista (Súmulas 517 e 556 do STF).',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-11-1-fonte-cf37",
+      "nome": "Constituição Federal de 1988",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Constituição Federal de 1988",
+      "ideiaChave": "Arts. 2º e 37, caput, XIX, XX e § 1º.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-1-fonte-dl200",
+      "nome": "Decreto-Lei 200/1967",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Decreto-Lei 200/1967",
+      "ideiaChave": "Arts. 4º e 5º: organização federal e entidades.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-11-1-fonte-estatais",
+      "nome": "Lei 13.303/2016",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Lei 13.303/2016",
+      "ideiaChave": "Arts. 3º e 4º: critérios de empresa pública e sociedade de economia mista.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-11-1-5",
+      "afirmacao": "Uma empresa estatal de direito privado está dispensada dos princípios constitucionais da Administração porque seus contratos seguem exclusivamente a vontade dos administradores.",
+      "gabarito": "E",
+      "porQue": "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão."
+    },
+    {
+      "id": "memoria-rt-11-1-6",
+      "afirmacao": "Uma biblioteca pública pode buscar redução do tempo de atendimento sem eliminar os critérios legais de prioridade e de proteção de dados dos usuários. Essa decisão é compatível com a eficiência.",
+      "gabarito": "C",
+      "porQue": "Eficiência significa melhorar a utilização de recursos e os resultados, respeitando os demais deveres jurídicos. A situação preserva as condições legais e otimiza a execução; não usa rapidez como autorização para descumprir direitos."
+    },
+    {
+      "id": "memoria-rt-11-1-7",
+      "afirmacao": "O Legislativo exerce função administrativa ao gerir seus servidores e seu acervo, embora legislar e fiscalizar sejam funções típicas desse Poder.",
+      "gabarito": "C",
+      "porQue": "A divisão de Poderes não confina toda administração ao Executivo. A gestão interna da Câmara é atividade administrativa. É necessário distinguir o órgão/Poder que pratica o ato da natureza material da atividade."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

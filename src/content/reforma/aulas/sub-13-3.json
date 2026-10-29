@@ -219,9 +219,9 @@
     }
   },
   "alertasCebraspe": [
-    "Correção gramatical e preservação do sentido são critérios distintos. Confira o que o comando exige.",
-    "Analise a transitividade e a função de se; a posição do termo não determina sozinha se ele é sujeito.",
-    "A crase depende da construção. Macetes sem condições e exceções podem produzir conclusões falsas."
+    "Haver com sentido de existir é impessoal e fica na terceira pessoa do singular. Documentos não é sujeito desse verbo na análise normativa. Com existir, a construção muda: Existiam documentos pendentes.",
+    "Precisar de é transitivo indireto nessa acepção; se indetermina o sujeito e o verbo fica no singular: Precisa-se de profissionais. Revisar é transitivo direto no exemplo, admite passiva sintética e concorda com documentos. A comparação erra ao igualar as funções de se.",
+    "A expressão a partir contém infinitivo e não recebe artigo feminino nessa construção. Não há os dois elementos necessários à fusão em à. O gênero de maio não produz essa exigência e sequer é o termo imediatamente regido."
   ],
   "mnemonicos": {
     "timeline": [],
@@ -283,5 +283,26 @@
         "porQue": "Adjuntos adverbiais de longa extensão (três ou mais vocábulos) antepostos exigem obrigatoriamente a presença de vírgula para marcar o deslocamento sintático."
       }
     ]
-  }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Concordância",
+      "definicao": "Relação de flexão que exige identificar núcleo e construção.",
+      "exemploBiblioteca": "O termo mais próximo do verbo não é necessariamente seu sujeito."
+    },
+    {
+      "termo": "Regência",
+      "definicao": "Relação de complementação conforme sentido e construção.",
+      "exemploBiblioteca": "O uso da preposição precisa ser confirmado pelo termo regente."
+    }
+  ],
+  "autoresChave": [
+    "Manual de Redação da Presidência da República, 3ª edição (2018)",
+    "Cunha e Cintra — Nova gramática do português contemporâneo"
+  ],
+  "descricaoCurta": "Reconhecer núcleo do sujeito, verbo e complementos em construções de prova. Aplicar a regra geral e distinguir haver de existir. Testar transitividade e construção antes de decidir a concordância. Justificar vírgulas por estrutura e distinguir pausas subjetivas de regra. Comparar duas frases gramaticais que não apresentam a mesma informação. Relacionar sentido e complemento, inclusive em reescritas. Explicar a presença ou ausência do acento grave pela construção. Conferir flexão e separar preservação do evento de identidade discursiva.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 30
 }

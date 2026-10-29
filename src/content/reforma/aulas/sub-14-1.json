@@ -249,9 +249,9 @@
     }
   },
   "alertasCebraspe": [
-    "Considere produto, versão, operação e configuração antes de julgar o recurso.",
-    "Cópia de fórmula e transformação estrutural da planilha não são a mesma operação.",
-    "Sincronização, compartilhamento, histórico e backup têm finalidades e limites diferentes."
+    "O cifrão fixa somente a coluna A; a linha permanece relativa e passa a 2. A referência resultante é $A2. Para fixar ambos seria necessário $A$1.",
+    "A aparência manual não assegura a marcação estrutural usada pelo sumário. Aplicar o estilo/nível pertinente organiza o título; há também recursos de configuração de sumário que não se reduzem à formatação visual.",
+    "Aceitar alteração é uma operação editorial sobre a versão do documento. Não realiza, por si, conferência factual, jurídica ou de fontes. A revisão de conteúdo exige trabalho específico."
   ],
   "quadroComparativo": {
     "titulo": "Recursos de produtividade: o que cada um faz",
@@ -287,5 +287,26 @@
         "Qualidade e unicidade da base"
       ]
     ]
-  }
+  },
+  "antesDeLer": [
+    {
+      "termo": "Estilo e estrutura",
+      "definicao": "Formatação e marcação de função textual são dimensões relacionadas.",
+      "exemploBiblioteca": "Título visual pode ser feito manualmente, mas estilo facilita sumário e consistência."
+    },
+    {
+      "termo": "Sincronização e backup",
+      "definicao": "Sincronizar estados não equivale a manter recuperação independente.",
+      "exemploBiblioteca": "Uma exclusão pode ser propagada para outros dispositivos."
+    }
+  ],
+  "autoresChave": [
+    "Microsoft — Referências relativas, absolutas e mistas",
+    "Microsoft — Função PROCX",
+    "Microsoft — Inserir um sumário",
+    "Microsoft — Arquivos Sob Demanda",
+    "Microsoft — Coautoria no Excel"
+  ],
+  "descricaoCurta": "Distinguir função do aplicativo, armazenamento e direitos de acesso. Aplicar estilos e seções sem confundir aparência com estrutura. Distinguir comentários, alterações registradas e decisão editorial. Calcular resultados e explicar o deslocamento relativo, absoluto e misto. Interpretar argumentos, correspondência e resultados de funções. Separar herança visual, substituição local e informações privadas de apresentação. Distinguir arquivo listado, conteúdo local e cópia de segurança. Separar privacidade de destinatários, proteção do conteúdo e autorização de colaboração.",
+  "tempoEstimadoMinutos": 30
 }

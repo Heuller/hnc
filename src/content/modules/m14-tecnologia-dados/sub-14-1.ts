@@ -7,34 +7,30 @@ export const submodulo141: ModuloFilho = {
   preRequisitos: [],
   titulo: 'MSOffice 365 e Ferramentas de Comunicação e Colaboração',
   antesDeLer: [
-    {
-      termo: 'Microsoft 365 e Nuvem Corporativa',
-      definicao: 'Suíte de produtividade e colaboração em nuvem (Teams, SharePoint, OneDrive, Word, Excel) adotada na administração pública.',
-      exemploBiblioteca: 'Armazenamento compartilhado de minutas e controle de versão de pareceres no SharePoint da biblioteca.',
-    },
-    {
-      termo: 'Controle de Versão Colaborativo',
-      definicao: 'Capacidade de múltiplos usuários editarem o mesmo documento simultaneamente com histórico de alterações auditável.',
-      exemploBiblioteca: 'Edição simultânea por bibliotecários e técnicos do relatório semestral de aquisições no Word Online.',
-    },
-    {
-      termo: 'SharePoint Online',
-      definicao: 'Plataforma de intranet e gerenciamento eletrônico de documentos com controle granular de permissões e listas estruturadas.',
-      exemploBiblioteca: 'Construção do portal interno da biblioteca para comunicação rápida com os gabinetes parlamentares.',
-    },
-    {
-      termo: 'Segurança e Permissões de Acesso (RBAC)',
-      definicao: 'Controle de acesso baseado em papéis (Role-Based Access Control) que restringe permissões a arquivos conforme a função do usuário.',
-      exemploBiblioteca: 'Configuração de pastas restritas a servidores comissionados da Mesa Diretora para matérias em elaboração.',
-    },
-  ],
-  descricaoCurta: 'Suíte Microsoft 365 (Word, Excel, PowerPoint e OneDrive), sincronização na nuvem e versionamento; ferramentas colaborativas corporativas: Microsoft Teams, Google Meet, webmail e clientes de correio eletrônico.',
-  tempoEstimadoMinutos: 10,
-  autoresChave: ['Microsoft Corporation', 'João Antonio Carvalho', 'CERT.br', 'Câmara dos Deputados (Ditec)'],
+  {
+    "termo": "Estilo e estrutura",
+    "definicao": "Formatação e marcação de função textual são dimensões relacionadas.",
+    "exemploBiblioteca": "Título visual pode ser feito manualmente, mas estilo facilita sumário e consistência."
+  },
+  {
+    "termo": "Sincronização e backup",
+    "definicao": "Sincronizar estados não equivale a manter recuperação independente.",
+    "exemploBiblioteca": "Uma exclusão pode ser propagada para outros dispositivos."
+  }
+],
+  descricaoCurta: "Distinguir função do aplicativo, armazenamento e direitos de acesso. Aplicar estilos e seções sem confundir aparência com estrutura. Distinguir comentários, alterações registradas e decisão editorial. Calcular resultados e explicar o deslocamento relativo, absoluto e misto. Interpretar argumentos, correspondência e resultados de funções. Separar herança visual, substituição local e informações privadas de apresentação. Distinguir arquivo listado, conteúdo local e cópia de segurança. Separar privacidade de destinatários, proteção do conteúdo e autorização de colaboração.",
+  tempoEstimadoMinutos: 30,
+  autoresChave: [
+  "Microsoft — Referências relativas, absolutas e mistas",
+  "Microsoft — Função PROCX",
+  "Microsoft — Inserir um sumário",
+  "Microsoft — Arquivos Sob Demanda",
+  "Microsoft — Coautoria no Excel"
+],
   alertasCebraspe: [
-  "Considere produto, versão, operação e configuração antes de julgar o recurso.",
-  "Cópia de fórmula e transformação estrutural da planilha não são a mesma operação.",
-  "Sincronização, compartilhamento, histórico e backup têm finalidades e limites diferentes."
+  "O cifrão fixa somente a coluna A; a linha permanece relativa e passa a 2. A referência resultante é $A2. Para fixar ambos seria necessário $A$1.",
+  "A aparência manual não assegura a marcação estrutural usada pelo sumário. Aplicar o estilo/nível pertinente organiza o título; há também recursos de configuração de sumário que não se reduzem à formatação visual.",
+  "Aceitar alteração é uma operação editorial sobre a versão do documento. Não realiza, por si, conferência factual, jurídica ou de fontes. A revisão de conteúdo exige trabalho específico."
 ],
   quadroComparativo: {
   "titulo": "Recursos de produtividade: o que cada um faz",
@@ -204,55 +200,70 @@ export const submodulo141: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-14-1-1',
-        periodo: '1989 / 1995',
-        disciplina: 'Suíte Office',
-        focoPrincipal: 'Lançamento do pacote Microsoft Office integrando Word, Excel e PowerPoint',
-        figuraChave: 'Microsoft Corporation',
-      },
-      {
-        id: 'tl-14-1-2',
-        periodo: '2011 / 2020',
-        disciplina: 'Nuvem e Colaboração',
-        focoPrincipal: 'Evolução do Office para a nuvem (Office 365 / Microsoft 365) e consolidação do Microsoft Teams',
-        figuraChave: 'Satya Nadella / Microsoft',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-14-1-1',
-        nome: 'João Antonio Carvalho',
-        ano: 2022,
-        obraPrincipal: 'Informática para Concursos Públicos (Padrão Cebraspe)',
-        ideiaChave: 'Operadores, funções avançadas do Excel, quebras de seção do Word e protocolos de correio (SMTP/IMAP).',
-        chipPegadinha: 'SMTP envia; POP3 e IMAP recebem/sincronizam.',
-      },
-      {
-        id: 'aut-14-1-2',
-        nome: 'Satya Nadella & Microsoft Architecture Team',
-        ano: 2022,
-        obraPrincipal: 'Arquitetura e Recursos do Microsoft 365 Enterprise',
-        ideiaChave: 'Arquivos sob demanda no OneDrive, versionamento contínuo e sincronização de dados no Teams.',
-        chipPegadinha: 'Arquivos sob demanda mantêm o catálogo visível sem ocupar espaço local.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-14-1-1',
-        afirmacao: 'O protocolo SMTP é utilizado pelos clientes de correio eletrônico tanto para o envio de mensagens para servidores remotos quanto para a sincronização de pastas de mensagens recebidas na máquina do usuário.',
-        gabarito: 'E',
-        porQue: 'O SMTP atua exclusivamente no ENVIO (Simple Mail Transfer). O recebimento e sincronização cabem ao IMAP ou POP3.',
-      },
-      {
-        id: 'peg-14-1-2',
-        afirmacao: 'Ao inserir um endereço no campo Cco (Cópia Oculta) de uma mensagem de e-mail, os destinatários listados no campo Para conseguirão identificar quem recebeu a cópia caso utilizem o recurso Responder a Todos.',
-        gabarito: 'E',
-        porQue: 'Os endereços em Cco são estritamente ocultos; nenhum destinatário dos campos Para ou Cc tem conhecimento de sua existência.',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-14-1-fonte-microsoft-referencias",
+      "nome": "Microsoft — Referências relativas, absolutas e mistas",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Referências relativas, absolutas e mistas",
+      "ideiaChave": "Comportamento na cópia de fórmulas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-procx",
+      "nome": "Microsoft — Função PROCX",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Função PROCX",
+      "ideiaChave": "Matrizes de pesquisa/retorno e correspondência.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-word",
+      "nome": "Microsoft — Inserir um sumário",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Inserir um sumário",
+      "ideiaChave": "Títulos e atualização do sumário.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-onedrive",
+      "nome": "Microsoft — Arquivos Sob Demanda",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Arquivos Sob Demanda",
+      "ideiaChave": "Estados de disponibilidade no Windows; conferir versão e configuração.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-1-fonte-coautoria",
+      "nome": "Microsoft — Coautoria no Excel",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — Coautoria no Excel",
+      "ideiaChave": "Requisitos de localização, cliente e colaboração.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-14-1-8",
+      "afirmacao": "Um arquivo somente online pode ser listado sem que todo seu conteúdo esteja baixado; abri-lo sem conectividade pode falhar se não houver cópia local.",
+      "gabarito": "C",
+      "porQue": "Listagem usa informações de identificação e estado. Disponibilidade de todo o conteúdo offline é outra condição. O recurso Sob Demanda não elimina a necessidade de planejar arquivos locais para trabalho sem rede."
+    },
+    {
+      "id": "memoria-rt-14-1-9",
+      "afirmacao": "Compartilhar um link de edição e compartilhar um link de leitura são operações que podem conceder permissões diferentes, conforme a configuração.",
+      "gabarito": "C",
+      "porQue": "O link precisa ser interpretado junto de destinatário, permissão e política do serviço. A possibilidade de abrir um documento não implica autorização para alterá-lo."
+    },
+    {
+      "id": "memoria-rt-14-1-10",
+      "afirmacao": "Em uma mensagem, Cco oculta dos demais destinatários os endereços desse campo, mas não criptografa automaticamente o conteúdo do e-mail de ponta a ponta.",
+      "gabarito": "C",
+      "porQue": "Ocultar a lista de destinatários e proteger o conteúdo por criptografia são funções distintas. Não se deve inferir sigilo integral apenas pelo uso de Cco."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

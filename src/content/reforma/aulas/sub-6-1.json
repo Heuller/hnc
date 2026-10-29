@@ -179,9 +179,8 @@
     }
   },
   "alertasCebraspe": [
-    "Diferencie acesso ao registro e acesso ao documento; não suponha texto integral porque existe um OPAC.",
-    "Compare funções e o autor indicado. Tipologias de biblioteca não têm terminologia perfeitamente uniforme.",
-    "Acessibilidade e usabilidade exigem análise de tarefas e barreiras; a presença de uma funcionalidade não certifica todos os requisitos."
+    "O catálogo oferece representação e localização do item. Acesso ao registro não equivale a acesso ao documento. Um catálogo pode conter links para documentos, mas esse recurso adicional precisa existir e ser examinado; não decorre automaticamente da informatização.",
+    "Organização, navegação, rotulagem e busca se articulam. Uma busca útil pode depender de metadados e categorias coerentes, enquanto rótulos permitem interpretar resultados. A existência de um mecanismo não elimina os demais."
   ],
   "quadroComparativo": {
     "titulo": "Funções de um serviço digital",
@@ -224,5 +223,15 @@
       "definicao": "Aspecto usado para distinguir conceitos dentro de uma abordagem identificada.",
       "exemploBiblioteca": "Distinguir automação de circulação e fornecimento remoto do texto integral."
     }
-  ]
+  ],
+  "autoresChave": [
+    "Cunha e Cavalcanti (2008) — Dicionário de Biblioteconomia e Arquivologia",
+    "Cunha — Desafios na construção de uma biblioteca digital",
+    "Rosenfeld e Morville — Information Architecture for the World Wide Web",
+    "Nielsen — 10 Usability Heuristics",
+    "W3C/WAI — Accessibility Principles",
+    "Lei Brasileira de Inclusão"
+  ],
+  "descricaoCurta": "Distinguir objeto digital, registro descritivo e serviço de acesso. Identificar critérios e limites de uma classificação sem impor consenso inexistente. Aplicar organização, navegação, rotulagem e busca a um portal. Avaliar uma interface a partir da tarefa e distinguir orientação de garantia. Identificar barreiras concretas e relacioná-las aos princípios da WCAG.",
+  "tempoEstimadoMinutos": 22
 }

@@ -190,10 +190,8 @@
     }
   },
   "alertasCebraspe": [
-    "Identifique se a atividade se distribui dentro de uma pessoa jurídica ou envolve outro sujeito. Descentralização não exige criar pessoa nova em cada operação.",
-    "Compare separadamente personalidade, capital, forma societária e instituição. Uma oração verdadeira não valida automaticamente toda a afirmação.",
-    "Vinculação não cria hierarquia genérica; autonomia administrativa permanece limitada pela lei.",
-    "A publicidade institucional pode informar serviços; o art. 37, § 1º, veda elementos que caracterizem promoção pessoal."
+    "Autonomia administrativa não significa soberania nem liberdade de abandonar a finalidade legal. Especialização e vinculação à lei limitam a atuação. Eficiência opera dentro do ordenamento e não substitui competência ou finalidade.",
+    "As estatais integram a administração indireta. A personalidade privada não as retira do art. 37 nem dispensa seus deveres legais. O regime combina regras privadas e condicionamentos públicos; é preciso identificar qual aspecto está em discussão."
   ],
   "quadroComparativo": {
     "titulo": "Organização administrativa: critérios de decisão",
@@ -244,5 +242,12 @@
       "definicao": "Legalidade, impessoalidade, moralidade, publicidade e eficiência orientam a Administração.",
       "exemploBiblioteca": "Melhorar prazo de atendimento sem afastar direitos ou promover pessoalmente a autoridade."
     }
-  ]
+  ],
+  "autoresChave": [
+    "Constituição Federal de 1988",
+    "Decreto-Lei 200/1967",
+    "Lei 13.303/2016"
+  ],
+  "descricaoCurta": "Distinguir a organização política, a direção governamental e a atividade administrativa. Identificar a pessoa jurídica à qual uma atuação é imputada. Diferenciar distribuição interna de transferência a outro sujeito. Distinguir autonomia administrativa de independência em relação à lei. Relacionar personalidade e forma de instituição sem tratar toda fundação como igual. Diferenciar empresa pública e sociedade de economia mista por critérios próprios. Aplicar LIMPE a casos em vez de usar a sigla como explicação.",
+  "tempoEstimadoMinutos": 27
 }

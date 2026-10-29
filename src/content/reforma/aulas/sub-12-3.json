@@ -128,9 +128,8 @@
     }
   },
   "alertasCebraspe": [
-    "Determine o referente por compatibilidade sintática e semântica, não apenas por proximidade.",
-    "Which com vírgula pode recuperar nome ou evento: leia o predicado.",
-    "Uma reescrita de relativo exige preservar a relação, inclusive posse e restrição."
+    "Whose pode estabelecer relação de pertença com uma instituição. O exemplo não é invalidado pela natureza não humana do antecedente.",
+    "Report é o antecedente compatível com contains a map. A vírgula não obriga referência a toda oração. É preciso verificar o predicado da relativa."
   ],
   "mnemonicos": {
     "timeline": [],
@@ -147,6 +146,25 @@
     "pegadinhas": []
   },
   "autoresChave": [
-    "British Council — LearnEnglish"
-  ]
+    "British Council — Contrasting ideas",
+    "British Council — Relative pronouns and relative clauses",
+    "British Council — Modals: deductions about the present"
+  ],
+  "antesDeLer": [
+    {
+      "termo": "Modalidade",
+      "definicao": "Forma de expressar possibilidade, obrigação, capacidade ou inferência.",
+      "exemploBiblioteca": "May e must não têm o mesmo grau ou tipo de compromisso em todo contexto."
+    },
+    {
+      "termo": "Tempo e aspecto",
+      "definicao": "Organização temporal e modo de apresentar a situação.",
+      "exemploBiblioteca": "Uma ação em progresso difere de uma rotina, mesmo com o mesmo verbo lexical."
+    }
+  ],
+  "descricaoCurta": "Testar número, sentido e função em vez de escolher o nome mais próximo. Distinguir who, whom, which e whose em construções explícitas. Confrontar a interpretação do relativo com o predicado seguinte. Acompanhar a cadeia referencial e distinguir palavras lexicalmente próximas.",
+  "removerCampos": [
+    "quadroComparativo"
+  ],
+  "tempoEstimadoMinutos": 16
 }

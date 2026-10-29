@@ -24,421 +24,230 @@ export const submodulo24: ModuloFilho = {
   ],
   titulo: 'Notação de Autor, Formato MARC 21 e Padrão Dublin Core',
   antesDeLer: [
-    {
-      termo: 'Formato MARC 21',
-      definicao: 'Padrão de metadados legível por máquina composto por campos numéricos de 3 dígitos (tags), indicadores e subcampos ($a, $b, etc.).',
-      exemploBiblioteca: 'Preenchimento do campo 245 com título da proposição e 100/110 com a autoria parlamentar ou governamental.',
-    },
-    {
-      termo: 'Tabela Cutter-Sanborn',
-      definicao: 'Tabela alfanumérica utilizada para gerar notação de autor associada ao sobrenome ou entrada principal, ordenando itens nas estantes.',
-      exemploBiblioteca: 'Criação do número de chamada combinando classificação e Cutter para um livro sobre processo legislativo.',
-    },
-    {
-      termo: 'Dublin Core (DC)',
-      definicao: 'Padrão simplificado e aberto de metadados composto por 15 elementos básicos projetado para facilitar a recuperação de recursos digitais na web.',
-      exemploBiblioteca: 'Esquema padrão utilizado na indexação de discursos parlamentares no repositório digital DSpace da Câmara.',
-    },
-    {
-      termo: 'Tags Fundamentais do MARC',
-      definicao: 'Campos essenciais: 020 (ISBN), 100 (Autor Pessoal), 110 (Autor Coletivo), 245 (Título), 260/264 (Imprenta) e 650 (Assunto).',
-      exemploBiblioteca: 'Catalogação de pareceres parlamentares no sistema integrado da biblioteca utilizando a tag 650 para tesauro legislativo.',
-    },
-  ],
-  descricaoCurta: 'Composição do Número de Chamada, tabelas Cutter-Sanborn e PHA; arquitetura do MARC 21 (ISO 2709, Líder, Diretório, campo 008, campo 264 no RDA e autoridades) e padrão Dublin Core (15 elementos simples e qualificados).',
-  tempoEstimadoMinutos: 22,
-  autoresChave: ['Henriette Avram', 'Charles Ammi Cutter', 'Kate E. Sanborn', 'Heloísa de Almeida Prado', 'Stuart Weibel', 'Library of Congress'],
+  {
+    "termo": "Autoridade e holdings",
+    "definicao": "Autoridade controla acessos; holdings informa posse e localização.",
+    "exemploBiblioteca": "A rede compartilha descrição e mantém dados de exemplares locais."
+  },
+  {
+    "termo": "Indicador MARC",
+    "definicao": "Posição cujo significado depende do campo/formato.",
+    "exemploBiblioteca": "O segundo indicador de 245 não tem a mesma função do segundo de 264."
+  }
+],
+  descricaoCurta: "Aplicar número de chamada sem confundir classificação e notação. Interpretar estrutura e campos MARC, incluindo bytes e indicadores. Separar autoridade, holdings e cooperação. Distinguir elemento Dublin Core, perfil e mapeamento.",
+  tempoEstimadoMinutos: 27,
+  autoresChave: [
+  "Library of Congress — MARC 21",
+  "DCMI — Metadata Terms",
+  "Senado Federal — RVBI e histórico",
+  "IBICT — histórico da Bibliodata"
+],
   alertasCebraspe: [
-    'Número de Chamada (Call Number): É o código alfanumérico que determina de forma inequívoca a localização física do item no acervo. Sua estrutura canônica compõe-se de quatro elementos sobrepostos na lombada: (1) Notação de Classificação (CDD, CDU ou LC); (2) Notação de Autor (Tabela Cutter-Sanborn ou PHA); (3) Marca de Obra (letra minúscula do título) e/ou ano/edição; (4) Notação de Volume e Exemplar (ex.: v. 1, ex. 2).',
-    'Tabela Cutter-Sanborn vs Tabela PHA: A Cutter-Sanborn de 3 algarismos foi desenhada para a língua inglesa e utiliza a letra inicial maiúscula do sobrenome seguida de 2 ou 3 dígitos numéricos. A Tabela PHA, criada pela bibliotecária brasileira Heloísa de Almeida Prado, foi elaborada especificamente para sobrenomes da língua portuguesa, estruturando prefixos silábicos e fonéticos para evitar as saturações que a Cutter gera em nomes frequentes no Brasil (Silva, Santos, Oliveira).',
-    'Regras de Notação de Autor Cutter-Sanborn: Se o sobrenome inicia por consoante (exceto S), usa-se a primeira letra maiúscula + código numérico (ex.: Machado -> M149). Se inicia por vogal, usa-se a primeira letra maiúscula + segunda letra minúscula + código (ex.: Andrade -> An24). Se inicia pela letra S, usa-se "S" maiúsculo + segunda letra minúscula + código (ex.: Silva -> Si38). Para diferenciar títulos do mesmo autor, acrescenta-se a "marca de obra" (work mark): letra minúscula da primeira palavra do título que não seja artigo.',
-    'Campos de Controle 00X do MARC 21: Não possuem indicadores e não possuem subcampos delimitados por $. O campo 008 possui 40 posições fixas (00 a 39). Posições cruciais para concurso: 00-05 (data de entrada), 06 (tipo de data: s = data única, m = datas múltiplas), 07-10 (data principal), 15-17 (país de publicação em 3 caracteres), 35-37 (idioma do texto em 3 caracteres, ex.: por = português).',
-    'Campo 264 no RDA vs Campo 260 no AACR2: No RDA, a publicação/imprenta é registrada no campo 264, onde o 2º INDICADOR define a função da entidade: 0 = Produção, 1 = Publicação, 2 = Distribuição, 3 = Fabricação/Manufatura, 4 = Aviso de Direitos Autorais (Copyright notice).',
-    'Dublin Core Simples (ISO 15836): É composto por 15 elementos básicos universais. Regra absoluta da banca: TODOS os 15 elementos são estritamente OPCIONAIS e TODOS são REPETÍVEIS. Além disso, o Dublin Core é nativo da Web e perfeitamente compatível com sintaxes XML, HTML e representações em grafos RDF.',
-    'Os Três Formatos Nucleares do MARC 21: O formato Bibliográfico descreve os atributos intelectuais e físicos da manifestação/obra; o formato de Autoridades (tags 1XX autorizado, 4XX remissiva "ver" variante e 5XX remissiva "ver também") controla pontos de acesso padronizados; e o formato de Holdings (campo 852 para localização física e blocos 853-868 para enumeração e cronologia) gerencia exemplares, volumes e histórico de fundos de coleções.',
-  ],
-  quadroComparativo: {
-    titulo: 'Comparação Técnica: Notação de Autor e Padrões de Metadados',
-    colunas: ['Elemento / Padrão', 'Origem e Finalidade', 'Estrutura / Sintaxe Canônica', 'Casca de Banana Cebraspe'],
-    linhas: [
-      ['Tabela Cutter-Sanborn', 'Charles A. Cutter e Kate Sanborn (EUA)', '1 letra maiúscula + 2-3 algarismos + marca de obra minúscula (ex.: M149d)', 'A banca afirma que a letra da marca de obra deve ser maiúscula (Errado: é minúscula) ou que inclui artigos (Errado: despreza artigos).'],
-      ['Tabela PHA', 'Heloísa de Almeida Prado (Brasil)', 'Adaptada à fonética e morfologia dos sobrenomes em língua portuguesa', 'A banca afirma que a tabela PHA substitui a CDD na classificação (Errado: PHA é notação de autor, não sistema de classificação).'],
-      ['MARC 21 Bibliográfico', 'Henriette Avram / Library of Congress', 'ISO 2709: Líder (24 posições), Diretório (12 posições por campo) e Tags 001-8XX', 'Afirmar que campos 00X possuem subcampos $a ou indicadores (Errado: campos 00X são puramente caracteres fixos).'],
-      ['MARC 21 de Autoridades', 'Library of Congress', 'Tags 1XX (autorizado), 4XX (remissiva "ver" / variante), 5XX (remissiva "ver também")', 'Inverter 4XX e 5XX: 4XX é forma variante NÃO autorizada; 5XX é termo relacionado JÁ autorizado.'],
-      ['MARC 21 de Holdings (Fundos)', 'Library of Congress', 'Tags 852 (Localização institucional e exemplar), 853-855 (Legendas/Padrões) e 863-868 (Enumeração/Cronologia)', 'Confundir dados de exemplar/localização física (Holdings, campo 852) com a descrição bibliográfica da manifestação.'],
-      ['Dublin Core (15 Elementos)', 'Stuart Weibel / DCMI (ISO 15836)', 'Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage, Rights', 'Afirmar que o elemento "Title" ou "Identifier" é de preenchimento obrigatório pelo padrão (Errado: nenhum é obrigatório no padrão básico).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Notação de Autor e a Composição do Número de Chamada
-
-Nas bibliotecas organizadas de forma sistemática com livre acesso ou acervo fechado, cada documento necessita de uma marcação física que defina com precisão sua posição relativa nas estantes e permita sua rápida recuperação e rearquivamento. Essa marcação denomina-se **Número de Chamada (*Call Number*)** (Mey & Silveira, 2009).
-
-#### A. A Anatomia Canônica do Número de Chamada
-O número de chamada é habitualmente gravado na etiqueta colada na lombada do livro, estruturado em quatro linhas sobrepostas:
-1. **Notação de Classificação:** Notação obtida pelo sistema de classificação adotado pela biblioteca (Classificação Decimal de Dewey - CDD, Classificação Decimal Universal - CDU ou Classificação da Library of Congress - LC). Representa o **assunto** do documento.
-2. **Notação de Autor:** Código alfanumérico que representa o **autor** ou a entrada principal da obra, derivado de tabelas padronizadas (Cutter-Sanborn ou PHA).
-3. **Marca de Obra (*Work Mark*) e/ou Ano/Edição:** 
-   * A **marca de obra** é uma letra minúscula representativa do título, utilizada para diferenciar várias obras do mesmo autor com o mesmo assunto.
-   * O **ano de publicação** ou número da **edição** (ex.: \`2.ed.\`, \`2024\`) individualiza revisões e tiragens sucessivas.
-4. **Notação de Volume e Exemplar:** Indicação do volume físico (\`v.1\`, \`t.2\`) e do número do exemplar possuído pela biblioteca (\`ex.1\`, \`ex.2\`, \`c.1\`).
-
-*Exemplo de Etiqueta de Lombada:*
-\`\`\`text
-  341.2         <-- Classificação (CDU: Direito Internacional)
-  M149d         <-- Notação de Autor (Cutter-Sanborn: Machado) + Marca de Obra (d)
-  2.ed. 2024    <-- Edição e Ano
-  v. 1 ex. 2    <-- Volume 1, Exemplar 2
-\`\`\`
-
----
-
-#### B. A Tabela Cutter-Sanborn de Três Algarismos
-Criada pelo bibliotecário norte-americano Charles Ammi Cutter e posteriormente expandida pela bibliotecária Kate E. Sanborn, a **Cutter-Sanborn** organiza os sobrenomes alfabeticamente e atribui a cada agrupamento um número de dois ou três algarismos:
-* **Regra Geral para Consoantes (exceto S):** Primeira letra do sobrenome em maiúscula, seguida do número da tabela correspondente ao nome.  
-  *Exemplo:* Machado -> \`M149\`.
-* **Regra para Nomes Iniciados por Vogal:** Primeira letra em maiúscula, seguida da segunda letra em minúscula e do número da tabela.  
-  *Exemplo:* Andrade -> \`An24\`.
-* **Regra para Nomes Iniciados pela Letra 'S':** Letra 'S' maiúscula, seguida da segunda letra em minúscula e do número da tabela.  
-  *Exemplo:* Silva -> \`Si38\`; Santos -> \`Sa59\`.
-* **A Marca de Obra (*Work Mark*):**
-  * Consiste na primeira letra em **minúscula** da primeira palavra do título do documento, excluindo-se os artigos definidos e indefinidos no idioma da obra.
-  * *Exemplo:* Para a obra *Dom Casmurro* de Machado de Assis (\`M149\`), a notação de autor com marca de obra será: \`M149d\`.  
-  * *Exemplo:* Para a obra *A Semana* de Machado de Assis, despreza-se o artigo "A" e toma-se a letra inicial de "Semana": \`M149s\`.
-* **Casos Especiais de Notação de Autor:**
-  * **Biografias Individuais:** A notação de autor é atribuída ao **biografado** (para que todas as biografias sobre a mesma pessoa fiquem reunidas na estante), e a marca de obra é a inicial maiúscula ou minúscula do sobrenome do biógrafo.
-  * **Obras de Autoria Desconhecida / Anônimas / Entrada por Título:** A notação de autor é atribuída à primeira palavra do **título** (desprezando artigo inicial).
-
----
-
-#### C. A Tabela PHA (Heloísa de Almeida Prado)
-No Brasil, a utilização direta da tabela Cutter-Sanborn gera distorções sistemáticas devido à alta concentração de sobrenomes de origem ibérica (como *Silva*, *Santos*, *Souza*, *Oliveira*, *Pereira*), que na tabela norte-americana acabavam recebendo o mesmo número ou gerando longas extensões decimais de desempate.
-
-Para sanar esse problema, a bibliotecária brasileira **Heloísa de Almeida Prado** publicou em meados do século XX a **Tabela PHA (Tabela de Notação de Autor de Prado-Heloísa-Almeida)**:
-* É baseada nas combinações fonéticas e silábicas mais comuns da **língua portuguesa**.
-* Distribui equilibradamente os códigos alfanuméricos entre os sobrenomes brasileiros.
-* Sua regra básica combina a inicial maiúscula do sobrenome com os números atribuídos às sílabas subsequentes da tabela nacional.
-
----
-
-### 2. A Arquitetura Profunda do Formato MARC 21 (ISO 2709)
-
-Criado na década de 1960 por **Henriette Avram** na Library of Congress, o formato MARC (*Machine-Readable Cataloging*) baseia-se na norma técnica internacional **ISO 2709** (no Brasil, ABNT NBR 14599) para estruturação física de dados bibliográficos intercambiáveis em fita magnética e rede.
-
-#### A. Os Três Componentes Estruturais da ISO 2709
-1. **Líder (*Leader*):** 
-   * Exatamente **24 posições fixas** de caracteres (posições 00 a 23).
-   * Fornece parâmetros estruturais do processamento:
-     * \`Posições 00-04\`: Tamanho total lógico do registro em caracteres.
-     * \`Posição 05\`: Status do registro (\`n\` = novo, \`c\` = corrigido, \`d\` = deletado).
-     * \`Posição 06\`: Tipo de registro (\`a\` = material textual/livro, \`c\` = música notada, \`e\` = material cartográfico, \`m\` = arquivo de computador).
-     * \`Posição 07\`: Nível bibliográfico (\`m\` = monografia/item avulso, \`s\` = recurso contínuo/periódico, \`a\` = parte componente analítica).
-     * \`Posição 09\`: Esquema de codificação de caracteres (em branco = MARC-8; \`a\` = UTF-8 Unicode).
-2. **Diretório (*Directory*):**
-   * Tabela gerada automaticamente pelo sistema, imediatamente subsequente ao Líder.
-   * Não possui subcampos nem indicadores. É formado por uma sequência contínua de blocos fixos de **12 caracteres** para cada campo variável:
-     * **3 posições:** Tag do campo (ex.: \`245\`).
-     * **4 posições:** Comprimento total do campo em caracteres.
-     * **5 posições:** Posição inicial relativa do campo a partir da área de dados.
-3. **Campos Variáveis de Controle (001 a 008):**
-   * Campos sem indicadores e sem códigos de subcampo delimitados por \`$\`.
-   * **Campo 001:** Número de controle do registro no sistema local.
-   * **Campo 003:** Identificador da agência do número de controle.
-   * **Campo 005:** Data e hora da última transação (AAAAMMDDhhmmss.f).
-   * **Campo 008 — Elementos de Comprimento Fixo:** Possui exatamente **40 posições de caracteres (00 a 39)** com dados críticos de pesquisa e filtragem:
-     * \`00-05\`: Data em que o registro foi inserido no catálogo (formato AAMMDD).
-     * \`06\`: Tipo de data / status de publicação (\`s\` = data única conhecida; \`m\` = datas múltiplas; \`r\` = reimpressão; \`c\` = recurso contínuo corrente).
-     * \`07-10\`: Data 1 (ano de publicação principal, ex.: \`2024\`).
-     * \`11-14\`: Data 2 (data de término ou ano original da publicação).
-     * \`15-17\`: Código do local de publicação em 3 letras (ex.: \`bl \` para Brasil, \`alu\` para Alabama/EUA).
-     * \`35-37\`: Código do idioma do documento em 3 letras (ex.: \`por\` para português, \`eng\` para inglês, \`spa\` para espanhol).
-     * \`38\`: Código de registro modificado.
-     * \`39\`: Fonte de catalogação (agência nacional ou cooperativa).
-
----
-
-#### B. Campos Variáveis de Dados e seus Indicadores
-Possuem dois dígitos inaugurais denominados **indicadores** (posições 0 e 1 de cada campo de dados) e subcampos identificados pelo caractere delimitador \`$\` seguido de letra ou algarismo:
-
-* **Campo 245 (Título e Indicação de Responsabilidade):**
-  * **1º Indicador:** Entrada secundária de título:
-    * \`0\`: Não gera entrada secundária (quando a obra não tem autor principal no campo 1XX e entra diretamente por título).
-    * \`1\`: Gera entrada secundária de título (quando há autor pessoal ou entidade no campo 100/110/111).
-  * **2º Indicador:** Quantidade de caracteres a desprezar na ordenação/alfabetação em razão de **artigos iniciais**:
-    * \`0\`: Nenhum caractere a desprezar.
-    * \`2\`: Despreza 2 caracteres (ex.: artigo "A " ou "O ").
-    * \`3\`: Despreza 3 caracteres (ex.: artigo "As " ou "Os " ou "Um ").
-    * \`4\`: Despreza 4 caracteres (ex.: artigo em inglês "The ").
-  * **Subcampos:** \`$a\` Título propriamente dito; \`$b\` Restante do título / subtítulo; \`$c\` Indicação de responsabilidade.
-
-* **Campo 260 vs. Campo 264 no RDA:**
-  * O campo \`260\` era a imprenta tradicional do AACR2r (\`$a\` lugar, \`$b\` editora, \`$c\` data).
-  * No RDA, adota-se o **Campo 264**, onde o **2º Indicador** discrimina a função específica da menção:
-    * \`0\`: Produção (recursos inéditos, manuscritos, obras de arte).
-    * \`1\`: Publicação (recurso publicado comercialmente).
-    * \`2\`: Distribuição (distribuidor ou agente comercial).
-    * \`3\`: Fabricação / Manufatura (impressor, fundição, tipografia).
-    * \`4\`: Aviso de Direitos Autorais (*Copyright notice*, ex.: \`$c ©2024\`).
-
----
-
-### 3. A Família de Formatos MARC 21: Bibliográfico, Autoridades e Holdings (Edital Item 2.7)
-
-O ecossistema MARC 21 padronizado pela Library of Congress não se limita à catalogação de livros, mas desdobra-se em formatos especializados e integrados:
-
-#### A. MARC 21 para Dados de Autoridade (*Authority Data*)
-O formato de Autoridades estabelece o controle normativo de pontos de acesso para garantir a consistência e a desambiguação dos catálogos:
-* **Finalidade:** Fixar a forma autorizada e oficial de nomes de pessoas, entidades coletivas, eventos, títulos uniformes, termos de assunto e gênero/forma, criando a rede de remissivas.
-* **Bloco 1XX (Cabeçalho Autorizado):**
-  * \`100\`: Nome Pessoal autorizado (ex.: \`100 1# $a Assis, Machado de, $d 1839-1908\`).
-  * \`110\`: Nome Corporativo / Entidade Coletiva (ex.: \`110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados\`).
-  * \`111\`: Nome de Reunião / Conferência (ex.: \`111 2# $a Congresso Brasileiro de Biblioteconomia e Documentação\`).
-  * \`130\`: Título Uniforme (ex.: \`130 #0 $a Bíblia. $l Português\`).
-  * \`148\`: Termo Cronológico.
-  * \`150\`: Termo Tópico de Assunto (ex.: \`150 ## $a Controle de constitucionalidade\`).
-  * \`151\`: Nome Geográfico (ex.: \`151 ## $a Brasília (DF)\`).
-  * \`155\`: Termo de Gênero / Forma (ex.: \`155 ## $a Discursos parlamentares\`).
-* **Bloco 4XX (Remissivas "Ver" / *See From Tracing*):**
-  * Registra **formas variantes, não autorizadas ou sinônimas**, que remetem o usuário para o cabeçalho preferido do bloco 1XX (ex.: \`400 1# $a Machado de Assis, Joaquim Maria\` remete para o cabeçalho \`100 1# $a Assis, Machado de\`).
-* **Bloco 5XX (Remissivas "Ver Também" / *See Also From Tracing*):**
-  * Conecta o cabeçalho autorizado a **outros cabeçalhos igualmente autorizados** (termos relacionados, termos mais amplos ou nomes anteriores/posteriores de órgãos públicos no caso de cisão ou fusão institucional).
-* **Bloco 6XX (Notas de Fundamentação e Escopo da Autoridade):**
-  * \`670\`: Fontes Consultadas com Sucesso (*Sources Found*) — cita a obra de referência, certidão de nascimento ou catálogo biográfico em que o nome e datas foram comprovados.
-  * \`675\`: Fontes Consultadas sem Sucesso (*Sources Not Found*).
-  * \`680\`: Nota de Escopo (*Public General Note / Scope Note*) — define os limites semânticos da aplicação de um cabeçalho de assunto.
-* **Campo 008 de Autoridades:** 40 posições fixas com códigos essenciais: pos. 09 (tipo de registro), pos. 10 (regras de catalogação adotadas: AACR2, RDA) e pos. 14 (se a autoridade é apropriada para uso como cabeçalho principal/secundário).
-
-#### B. MARC 21 para Dados de Holdings / Fundos (*Holdings Data*)
-O formato de Holdings gerencia a informação sobre a posse física e a localização de itens pertencentes a uma instituição específica:
-* **Finalidade:** Registrar a localização física (biblioteca, edifício, sala, estante), os exemplares disponíveis, as políticas de empréstimo e a série cronológica de fascículos possuídos de um periódico (identificando lacunas no acervo).
-* **Relação com o Registro Bibliográfico:** Conecta-se ao registro bibliográfico correspondente mediante o campo \`004\` (que armazena o número de controle do registro bibliográfico ao qual o holding pertence).
-* **Campo 852 (Localização / *Location* — Mandatório):**
-  * \`$a\`: Código da agência mantenedora / instituição (código MARC).
-  * \`$b\`: Sub-biblioteca, unidade setorial ou coleção (ex.: \`$b Biblioteca Pedro Aleixo\`).
-  * \`$c\`: Localização específica na sala / estante (ex.: \`$c Obras Raras\` ou \`$c Reserva Técnica\`).
-  * \`$h\`: Notação de classificação (primeira parte do número de chamada, ex.: \`$h 341.2\`).
-  * \`$i\`: Notação de autor e marca de obra (segunda parte, ex.: \`$i M149d\`).
-  * \`$k\`: Prefixo do número de chamada (ex.: \`$k REF\` ou \`$k FOL\`).
-  * \`$t\`: Número da cópia ou exemplar (ex.: \`$t ex. 1\`).
-  * \`$p\`: Código de barras da peça (*piece barcode*).
-* **Campos 853-855 (Legendas e Padrões / *Captions and Pattern*):**
-  * \`853\` para fundos básicos, \`854\` para suplementos, \`855\` para índices.
-  * Descrevem a regularidade da publicação, designações de volume, número e periodicidade de recursos contínuos.
-* **Campos 863-865 (Enumeração e Cronologia / *Enumeration and Chronology*):**
-  * \`863\` fundos básicos, \`864\` suplementos, \`865\` índices.
-  * Registram os volumes, fascículos e anos específicos que a biblioteca detém (ex.: \`$a v. 1-12 $i 2010-2022\`).
-* **Campos 866-868 (Fundos Textuais / *Textual Holdings*):**
-  * Declarações em texto livre compreensíveis para o leitor final no OPAC (ex.: \`866 ## $a v. 1(1990) - v. 25(2015), com lacuna do v. 14\`).
-
-#### C. Controle de Autoridade na Catalogação Cooperativa e Redes Bibliográficas (Alvo E11)
-A catalogação cooperativa (*shared cataloging*) fundamenta-se no princípio de que uma obra deve ser catalogada com excelência uma única vez, sendo seu registro bibliográfico e de autoridade compartilhado com toda a rede de bibliotecas:
-* **Benefícios:** Eliminação de retrabalho, redução drástica de custos operacionais e garantia de consistência semântica e padronização na busca e recuperação da informação.
-* **O Papel Central do Controle de Autoridades Compartilhado:**
-  * O registro de autoridade funciona como âncora unívoca. Se a Biblioteca da Câmara adota \`Brasil. Congresso Nacional. Câmara dos Deputados\`, a rede cooperativa inteira adota o mesmo cabeçalho, evitando fragmentações de acervo no catálogo coletivo.
-* **As Três Grandes Redes de Referência para o Concurso da Câmara:**
-  1. **RVBI (Rede Virtual de Bibliotecas):** Coordenada pela Biblioteca do Senado Federal e pela Biblioteca Pedro Aleixo da Câmara dos Deputados, integra as bibliotecas do STF, STJ, TST, TSE, TCU, AGU e órgãos ministeriais. Compartilha uma base de dados unificada com registros bibliográficos, controle de autoridades e holdings integrados.
-  2. **BIBLIODATA:** Rede pioneira de catalogação cooperativa no Brasil, criada na década de 1970 pela Fundação Getulio Vargas (FGV) e transferida na década de 1990 para a Fundação Biblioteca Nacional (FBN). Foi o principal vetor de introdução e disseminação do formato MARC e do controle normativo de cabeçalhos de autoridade em território nacional.
-  3. **OCLC WorldCat:** A maior rede bibliográfica global, que articula registros bibliográficos, autoridade via VIAF (*Virtual International Authority File*) e localização de holdings em bibliotecas de mais de 100 países.
-
----
-
-### 4. O Padrão Dublin Core (DCMI / ISO 15836)
-
-Surgido em 1995 no simpósio de Dublin (Ohio), patrocinado pela OCLC e NCSA, o **Dublin Core Metadata Element Set** foi projetado para viabilizar a descrição de recursos na Web por criadores de conteúdo não bibliotecários e facilitar a interoperabilidade na Web Semântica.
-
-#### A. Os 15 Elementos Básicos Universais (Simple Dublin Core)
-Todos os elementos do Dublin Core Simples compartilham duas características fundamentais:
-* **Todos são opcionais:** O padrão não exige a obrigatoriedade estrita de nenhum elemento para validar a conformidade sintática.
-* **Todos são repetíveis:** Qualquer elemento pode ser invocado múltiplas vezes em um mesmo registro (por exemplo, múltiplos \`dc:creator\` ou múltiplos \`dc:subject\`).
-
-| Elemento DCMI | Definição Canônica | Mapeamento no MARC 21 |
-| :--- | :--- | :--- |
-| **Title** | O nome formal atribuído ao recurso. | Campo 245 \`$a\` |
-| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 \`$a\` |
-| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 \`$a\` (Assunto) |
-| **Description** | Um resumo explicativo, sumário ou descrição textual livre do recurso. | Campo 520 (Resumo) ou 500 (Nota) |
-| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 \`$b\` |
-| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 \`$a\` |
-| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 \`$c\` |
-| **Type** | A natureza ou gênero abstrato do conteúdo (ex.: \`dataset\`, \`image\`, \`text\`). | Líder pos. 06 / Campo 655 |
-| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: \`application/pdf\`). | Campo 856 \`$q\` / Campo 300 |
-| **Identifier** | Referência inequívoca ao recurso em um dado contexto (URI, DOI, ISBN). | Campo 020 (ISBN) / 024 (DOI) |
-| **Source** | Recurso original do qual o presente recurso é derivado. | Campo 786 (Fonte de dados) |
-| **Language** | O idioma ou código linguístico do conteúdo intelectual. | Campo 008 pos. 35-37 / Campo 041 |
-| **Relation** | Uma referência a um recurso correlato ou conectado. | Blocos 76X-78X de ligação |
-| **Coverage** | O escopo espacial (geográfico) ou temporal (cronológico) do conteúdo. | Campo 651 (Geográfico) / 648 (Tempo) |
-| **Rights** | Informações sobre direitos de propriedade intelectual, licenças ou Creative Commons. | Campo 540 (Termos de uso) |
-
-#### B. Dublin Core Qualificado (Qualified Dublin Core)
-O Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípio da compatibilidade descendente (*dumb-down principle*), utilizando:
-1. **Refinadores de Elemento (*Element Refinements*):** Tornam o significado do elemento mais restrito e específico (ex.: \`date.created\`, \`date.issued\`, \`title.alternative\`).
-2. **Esquemas de Codificação (*Encoding Schemes*):** Indicam esquemas formais, vocabulários controlados ou regras de sintaxe que disciplinam o valor do dado (ex.: \`date\` com esquema **W3CDTF** no padrão ISO 8601 \`AAAA-MM-DD\`; \`subject\` com esquema **LCSH** ou **VCB**).
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **BIBFRAME 2.0 e Linked Data (sub-2-7):** Transição dos campos legados MARC 21 para triplas RDF na Web Semântica.
-* **Protocolos de Interoperabilidade (Z39.50 e OAI-PMH) (sub-6-2):** Transporte e colheita de registros bibliográficos em rede cooperativa.
-* **Fontes de Informação Jurídica e LexML (sub-4-3):** Estruturação de metadados legislativos e catalogação cooperativa na RVBI.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A codificação da informação catalográfica exige o domínio articulado entre a **Notação de Autor**, o formato canônico **MARC 21** e o padrão de metadados web **Dublin Core**:
-1. **Notação de Autor (Cutter-Sanborn e PHA):**
-   - **Finalidade:** Ordenar alfabeticamente os livros com a mesma classificação temática nas estantes e compor o número de chamada (*Call Number* = Notação de Classe + Notação de Autor + Edição/Ano).
-   - **Tabela Cutter-Sanborn:** Composta pela letra inicial do sobrenome do autor seguida de dois ou três algarismos e, quando necessário, letra minúscula de desambiguação de título (*obra-marca* ou *workmark*).
-   - **Tabela PHA (Paula Hawkins de Azevedo):** Adaptação brasileira consagrada para nomes luso-brasileiros.
-2. **Formato MARC 21 (Estrutura e Campos Bibliográficos Principais):**
-   - **Estrutura:** Líder (24 posições fixas) $\to$ Diretório $\to$ Campos de Controle (00X) $\to$ Campos Variáveis de Dados (01X a 9XX, com 2 indicadores e subcampos antecedidos por \`$\`).
-   - **Blocos Canônicos de Campos:**
-     - \`020\`: ISBN | \`041\`: Código de idioma | \`080\`: Número da CDU | \`082\`: Número da CDD.
-     - \`100\`: Entrada principal — Nome pessoal (autor).
-     - \`110\`: Entrada principal — Entidade coletiva (órgãos públicos, empresas).
-     - \`111\`: Entrada principal — Evento/Congresso/Conferência.
-     - \`245\`: Título principal e indicação de responsabilidade (\`$a\` título, \`$b\` subtítulo, \`$c\` responsabilidade).
-     - \`250\`: Edição (\`$a\` ex.: "3. ed.").
-     - \`260\` / \`264\`: Dados de publicação/distribuição/fabricação (\`$a\` local, \`$b\` publicador/editora, \`$c\` data).
-     - \`300\`: Descrição física (\`$a\` extensão/páginas, \`$b\` detalhes ilustrativos, \`$c\` dimensões em cm).
-     - \`500\`: Nota geral | \`505\`: Nota de conteúdo formatada.
-     - \`650\`: Assunto — Tópico geral (com indicadores para tesauro/vocabulário).
-     - \`700\`: Entrada secundária — Nome pessoal (coautores, organizadores, ilustradores).
-     - \`856\`: Localização eletrônica e acesso (URI / Link web).
-3. **Dublin Core Metadata Element Set (ISO 15836):**
-   - Padrão internacional de 15 elementos básicos: *Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, Source, Language, Relation, Coverage, Rights*.
-   - Simples (15 elementos sem qualificadores) vs. Qualificado (com termos de refinamento e esquemas de codificação).
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Composição do Número de Chamada na Biblioteca Pedro Aleixo):** Um livro de Direito Constitucional escrito por Gilmar Ferreira Mendes recebe a classificação CDU \`342(81)\` e a notação Cutter-Sanborn \`M538d\` (onde \`M538\` representa o autor Mendes e \`d\` é a primeira letra significativa do título *Direito Constitucional* para desempatar de outras obras do mesmo autor). O número de chamada colado na lombada garante a ordenação exata nas estantes de livre acesso.
-- **Cenário 2 (Catalogação de Publicação Oficial no MARC 21):** Ao catalogar o relatório final da *Comissão Parlamentar Mista de Inquérito dos Atos de 8 de Janeiro*, o catalogador utiliza:
-  - \`110 1# $a Brasil. $b Congresso Nacional. $b Comissão Parlamentar Mista de Inquérito...\`
-  - \`245 10 $a Relatório final... $c Relatora: Senadora Eliziane Gama.\`
-  - \`264 #1 $a Brasília : $b Edições Câmara, $c 2023.\`
-- **Cenário 3 (Mapeamento MARC $\to$ Dublin Core na BDCam):** Quando o registro MARC 21 da biblioteca é exportado para o repositório digital DSpace (BDCam), o sistema executa um *crosswalk*: o campo MARC \`245$a\` mapeia para \`dc.title\`, o campo \`100$a\` mapeia para \`dc.creator\` e o campo \`650$a\` mapeia para \`dc.subject\`.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Campo MARC 21 | Descrição e Finalidade | Primeiro Indicador Crítico | Subcampos Chave |
-| :--- | :--- | :--- | :--- |
-| **100** | Autor Pessoal Principal | 0: Prenome / 1: Sobrenome / 3: Família | \`$a\` Nome, \`$d\` Datas (nasc.-morte) |
-| **110** | Autor Entidade Coletiva | 1: Jurisdição territorial / 2: Ordem direta | \`$a\` Jurisdição/Nome, \`$b\` Subordinado |
-| **245** | Título e Responsabilidade | 0: Não gera secundária / 1: Gera secundária | \`$a\` Título, \`$b\` Resto, \`$c\` Responsab. |
-| **264** | Publicação / Distribuição (RDA) | 2º indicador: 0=Produção, 1=Publicação | \`$a\` Local, \`$b\` Nome, \`$c\` Data |
-| **650** | Ponto de Acesso de Assunto | 2º ind.: 0=LCSH, 7=Vocab. Controlado em \`$2\` | \`$a\` Termo de assunto, \`$v\` Forma |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Primeiro Indicador do Campo 110:** A banca afirma que *"para catalogar a Petrobras como autor corporativo no campo 110, deve-se usar o primeiro indicador 1 (jurisdição)"*. **Gabarito: ERRADO.** Entidades de ordem direta levam o primeiro indicador 2 (\`110 2# $a Petróleo Brasileiro S.A.\`); o indicador 1 é reservado exclusivamente para órgãos sob jurisdição geográfica (\`110 1# $a Brasil. $b Ministério da Fazenda.\`).
-- **Segundo Indicador do Campo 245:** O segundo indicador do 245 representa o **número de caracteres a ignorar na ordenação** (artigos definidos e indefinidos). Para *"A Constituição do Brasil"*, o segundo indicador deve ser \`2\` (o "A" + o espaço contam 2 caracteres). Se for zero, a ordenação buscará na letra A.
-- **O Dublin Core Substitui o MARC 21 na Descrição Detalhada:** Dizer que o Dublin Core substitui o MARC 21 em catalogação detalhada de livros raros. **Gabarito: ERRADO.** O Dublin Core é um padrão simples de metadados para interoperabilidade geral, insuficiente para o nível de exaustividade e granularidade do MARC 21.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **LIBRARY OF CONGRESS.** *MARC 21 Format for Bibliographic Data*. Washington: Library of Congress, Network Development and MARC Standards Office, 2022. (Manual oficial canônico).
-- **DUBLIN CORE METADATA INITIATIVE (DCMI).** *DCMI Metadata Terms (ISO 15836-1:2017)*. DCMI, 2020.
-- **SILVEIRA, Amélia.** *A notação de autor e a tabela Cutter-Sanborn*. Florianópolis: Ed. da UFSC, 2002.
-- **MEY, Eliane Serrão Alves; SILVEIRA, Nair Kobashi.** *Catalogação no plural*. Brasília: Briquet de Lemos, 2009.
-- **FURRIE, Betty.** *O MARC bibliográfico: um guia introdutório*. Brasília: Thesaurus, 2000.
-
-### Pausa de Recuperação Ativa: Mapeamento de Campos MARC 21
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Relembre rapidamente os campos de três dígitos do MARC 21: qual campo armazena o título principal (245), os dados de publicação (260/264), a descrição física (300), o cabeçalho de assunto tópico (650) e os autores secundários (700)? Esse mapeamento mental é um dos mais cobrados em provas técnicas.
-`,
+  "Caracteres podem ocupar múltiplos bytes. A estrutura de intercâmbio usa comprimentos em octetos.",
+  "O perfil pode estabelecer requisitos próprios. Conjunto básico e aplicação são níveis diferentes."
+],
+  teoriaDensaMarkdown: "### Notação de Autor e a Composição do Número de Chamada\n\nNas bibliotecas organizadas de forma sistemática com livre acesso ou acervo fechado, um recurso físico pode receber uma marca de localização que defina com precisão sua posição relativa nas estantes e permita sua rápida recuperação e rearquivamento. Essa marcação denomina-se **Número de Chamada (*Call Number*)** (Mey & Silveira, 2009).\n\n#### A. A Anatomia Canônica do Número de Chamada\nO número de chamada é habitualmente gravado na etiqueta colada na lombada do livro, frequentemente distribuído em linhas, conforme a política local:\n1. **Notação de Classificação:** Notação obtida pelo sistema de classificação adotado pela biblioteca (Classificação Decimal de Dewey - CDD, Classificação Decimal Universal - CDU ou Classificação da Library of Congress - LC). Representa o **assunto** do documento.\n2. **Notação de Autor:** Código alfanumérico que representa o **autor** ou a entrada principal da obra, derivado de tabelas padronizadas (Cutter-Sanborn ou PHA).\n3. **Marca de Obra (*Work Mark*) e/ou Ano/Edição:** \n   * A **marca de obra** é uma letra minúscula representativa do título, utilizada para diferenciar várias obras do mesmo autor com o mesmo assunto.\n   * O **ano de publicação** ou número da **edição** (ex.: `2.ed.`, `2024`) individualiza revisões e tiragens sucessivas.\n4. **Notação de Volume e Exemplar:** Indicação do volume físico (`v.1`, `t.2`) e do número do exemplar possuído pela biblioteca (`ex.1`, `ex.2`, `c.1`).\n\n*Exemplo de Etiqueta de Lombada:*\n```text\n  341.2         <-- Classificação (exemplo de notação a conferir na edição do sistema adotado)\n  M149d         <-- Notação de Autor (exemplo ilustrativo; consultar a tabela antes de usar) + Marca de Obra (d)\n  2.ed. 2024    <-- Edição e Ano\n  v. 1 ex. 2    <-- Volume 1, Exemplar 2\n```\n\n---\n\n#### B. Notação de autor: tabela, edição e política\n\nCutter-Sanborn e PHA são instrumentos de notação para organizar entradas e distinguir recursos, não sistemas de classificação temática. A tabela PHA está associada a Heloísa de Almeida Prado e ao uso de nomes em português. A aplicação exige consultar a tabela e sua edição, respeitar ordenação e resolver colisões segundo política documentada.\n\nNão se deve importar para a Cutter-Sanborn de três algarismos um conjunto de regras de outra tabela e afirmar, por exemplo, que toda inicial S ou toda vogal exige sempre duas letras. Há diferentes tabelas e práticas de marcas de livro. O código deve ser conferido, não reconstruído por analogia. Nomes não encontrados podem exigir adaptação/interpolação segundo o instrumento e a política.\n\nA marca de obra costuma distinguir títulos sob a mesma entrada, frequentemente com inicial significativa do título; ano, edição, volume e exemplar podem completar o número de chamada. Essas decisões não tornam obrigatória uma etiqueta universal de quatro linhas. Biografias podem receber arranjos pelo biografado conforme a política, sem alterar automaticamente o autor do registro bibliográfico.\n\n**Exemplo autoral sem número de tabela inventado:** dois livros da mesma classe e do mesmo autor recebem a mesma base de notação, mas marcas de obra distintas. Dois exemplares da mesma edição podem ser distinguidos pelo número de cópia. Um item digital pode ter outra forma de localização e não precisa de etiqueta física na lombada.\n\n**Aplicação e recuperação:** O mesmo título pode ter duas cópias na estante. O identificador de registro bibliográfico não é necessariamente o patrimônio nem o número de chamada de cada cópia. Classificação aproxima assuntos; notação e marcas organizam entradas. No exemplo de etiqueta, confira tabela e classe antes de usar qualquer código real.\n\n### A Arquitetura Profunda do Formato MARC 21 (ISO 2709)\n\nCriado na década de 1960 por **Henriette Avram** na Library of Congress, o formato MARC (*Machine-Readable Cataloging*) baseia-se na norma técnica internacional **ISO 2709** (no Brasil, ABNT NBR 14599) para estruturação física de dados bibliográficos intercambiáveis em fita magnética e rede.\n\n#### A. Líder, diretório e campos: distinguir estrutura e conteúdo\n1. **Líder (*Leader*):** \n   * Exatamente **24 posições fixas** de caracteres (posições 00 a 23).\n   * Fornece parâmetros estruturais do processamento:\n     * `Posições 00-04`: Tamanho total lógico do registro em **octetos/bytes** na estrutura de intercâmbio.\n     * `Posição 05`: Status do registro (`n` = novo, `c` = corrigido, `d` = deletado).\n     * `Posição 06`: Tipo de registro (`a` = material textual/livro, `c` = música notada, `e` = material cartográfico, `m` = arquivo de computador).\n     * `Posição 07`: Nível bibliográfico (`m` = monografia/item avulso, `s` = recurso contínuo/periódico, `a` = parte componente analítica).\n     * `Posição 09`: Esquema de codificação de caracteres (em branco = MARC-8; `a` = UTF-8 Unicode).\n2. **Diretório (*Directory*):**\n   * Tabela gerada automaticamente pelo sistema, imediatamente subsequente ao Líder.\n   * Não possui subcampos nem indicadores. É formado por uma sequência contínua de blocos fixos de **12 caracteres** para cada campo variável:\n     * **3 posições:** Tag do campo (ex.: `245`).\n     * **4 posições:** Comprimento total do campo em **octetos/bytes**, incluindo terminador.\n     * **5 posições:** Posição inicial relativa do campo a partir da área de dados.\n3. **Campos Variáveis de Controle (00X):**\n   * Campos sem indicadores e sem códigos de subcampo delimitados por `$`.\n   * **Campo 001:** Número de controle do registro no sistema local.\n   * **Campo 003:** Identificador da agência do número de controle.\n   * **Campo 005:** Data e hora da última transação (AAAAMMDDhhmmss.f).\n   * **Campo 008 — Elementos de Comprimento Fixo:** Possui exatamente **40 posições de caracteres (00 a 39)** com dados críticos de pesquisa e filtragem:\n     * `00-05`: Data em que o registro foi inserido no catálogo (formato AAMMDD).\n     * `06`: Tipo de data / status de publicação (`s` = data única conhecida; `m` = datas múltiplas; `r` = reimpressão; `c` = recurso contínuo corrente).\n     * `07-10`: Data 1 (ano de publicação principal, ex.: `2024`).\n     * `11-14`: Data 2 (data de término ou ano original da publicação).\n     * `15-17`: Código do local de publicação em 3 letras (ex.: `bl ` para Brasil, `alu` para Alabama/EUA).\n     * `35-37`: Código do idioma do documento em 3 letras (ex.: `por` para português, `eng` para inglês, `spa` para espanhol).\n     * `38`: Código de registro modificado.\n     * `39`: Fonte de catalogação (agência nacional ou cooperativa).\n\n---\n\n#### B. Campos Variáveis de Dados e seus Indicadores\nPossuem duas posições iniciais denominados **indicadores** (posições 0 e 1 de cada campo de dados) e subcampos identificados pelo delimitador de subcampo, representado didaticamente por `$` (não é o byte delimitador real) seguido de letra ou algarismo:\n\n* **Campo 245 (Título e Indicação de Responsabilidade):**\n  * **1º Indicador:** Entrada secundária de título:\n    * `0`: Não gera entrada secundária (quando a obra não tem autor principal no campo 1XX e entra diretamente por título).\n    * `1`: Gera entrada secundária de título (quando há autor pessoal ou entidade no campo 100/110/111).\n  * **2º Indicador:** Quantidade de caracteres a desprezar na ordenação/alfabetação em razão de **artigos iniciais**:\n    * `0`: Nenhum caractere a desprezar.\n    * `2`: Despreza 2 caracteres (ex.: artigo \"A \" ou \"O \").\n    * `3`: Despreza 3 caracteres (ex.: artigo \"As \" ou \"Os \" ou \"Um \").\n    * `4`: Despreza 4 caracteres (ex.: artigo em inglês \"The \").\n  * **Subcampos:** `$a` Título propriamente dito; `$b` Restante do título / subtítulo; `$c` Indicação de responsabilidade.\n\n* **Campo 260 vs. Campo 264 no RDA:**\n  * O campo `260` era a imprenta tradicional do AACR2r (`$a` lugar, `$b` editora, `$c` data).\n  * No RDA, adota-se o **Campo 264**, onde o **2º Indicador** discrimina a função específica da menção:\n    * `0`: Produção (recursos inéditos, manuscritos, obras de arte).\n    * `1`: Publicação (recurso publicado comercialmente).\n    * `2`: Distribuição (distribuidor ou agente comercial).\n    * `3`: Fabricação / Manufatura (impressor, fundição, tipografia).\n    * `4`: Aviso de Direitos Autorais (*Copyright notice*, ex.: `$c ©2024`).\n\n**Aplicação e recuperação:** Em “The catalogue”, o segundo indicador de 245 pode desprezar quatro caracteres incluindo espaço, no cenário simples. Acentos, pontuação e artigo têm regras de contagem; não se limita a contar letras. Em UTF-8, número de caracteres e bytes pode diferir: tamanho de intercâmbio não pode ser calculado ingenuamente por letras visíveis.\n\n### A Família de Formatos MARC 21: Bibliográfico, Autoridades e Holdings (Edital Item 2.7)\n\nO ecossistema MARC 21 padronizado pela Library of Congress não se limita à catalogação de livros, mas desdobra-se em formatos especializados e integrados:\n\n#### A. MARC 21 para Dados de Autoridade (*Authority Data*)\nO formato de Autoridades estabelece o controle normativo de pontos de acesso para garantir a consistência e a desambiguação dos catálogos:\n* **Finalidade:** Fixar a forma autorizada e oficial de nomes de pessoas, entidades coletivas, eventos, títulos uniformes, termos de assunto e gênero/forma, criando a rede de remissivas.\n* **Bloco 1XX (Cabeçalho Autorizado):**\n  * `100`: Nome Pessoal autorizado (ex.: `100 1# $a Assis, Machado de, $d 1839-1908`).\n  * `110`: Nome Corporativo / Entidade Coletiva (ex.: `110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados`).\n  * `111`: Nome de Reunião / Conferência (ex.: `111 2# $a Congresso Brasileiro de Biblioteconomia e Documentação`).\n  * `130`: Título Uniforme (ex.: `130 #0 $a Bíblia. $l Português`).\n  * `148`: Termo Cronológico.\n  * `150`: Termo Tópico de Assunto (ex.: `150 ## $a Controle de constitucionalidade`).\n  * `151`: Nome Geográfico (ex.: `151 ## $a Brasília (DF)`).\n  * `155`: Termo de Gênero / Forma (ex.: `155 ## $a Discursos parlamentares`).\n* **Bloco 4XX (Remissivas \"Ver\" / *See From Tracing*):**\n  * Registra **formas variantes, não autorizadas ou sinônimas**, que remetem o usuário para o cabeçalho preferido do bloco 1XX (ex.: `400 1# $a Machado de Assis, Joaquim Maria` remete para o cabeçalho `100 1# $a Assis, Machado de`).\n* **Bloco 5XX (Remissivas \"Ver Também\" / *See Also From Tracing*):**\n  * Conecta o cabeçalho autorizado a **outros cabeçalhos igualmente autorizados** (termos relacionados, termos mais amplos ou nomes anteriores/posteriores de órgãos públicos no caso de cisão ou fusão institucional).\n* **Bloco 6XX (Notas de Fundamentação e Escopo da Autoridade):**\n  * `670`: Fontes Consultadas com Sucesso (*Sources Found*) — cita a obra de referência, certidão de nascimento ou catálogo biográfico em que o nome e datas foram comprovados.\n  * `675`: Fontes Consultadas sem Sucesso (*Sources Not Found*).\n  * `680`: Nota de Escopo (*Public General Note / Scope Note*) — define os limites semânticos da aplicação de um cabeçalho de assunto.\n* **Campo 008 de Autoridades:** 40 posições fixas com códigos essenciais: pos. 09 (tipo de registro), pos. 10 (regras de catalogação adotadas: AACR2, RDA) e pos. 14 (se a autoridade é apropriada para uso como cabeçalho principal/secundário).\n\n#### B. MARC 21 para Dados de Holdings / Fundos (*Holdings Data*)\nO formato de Holdings gerencia a informação sobre a posse física e a localização de itens pertencentes a uma instituição específica:\n* **Finalidade:** Registrar a localização física (biblioteca, edifício, sala, estante), os exemplares disponíveis, as políticas de empréstimo e a série cronológica de fascículos possuídos de um periódico (identificando lacunas no acervo).\n* **Relação com o Registro Bibliográfico:** Conecta-se ao registro bibliográfico correspondente mediante o campo `004` (que armazena o número de controle do registro bibliográfico ao qual o holding pertence).\n* **Campo 852 (Localização / *Location*):**\n  * `$a`: Código da agência mantenedora / instituição (código MARC).\n  * `$b`: Sub-biblioteca, unidade setorial ou coleção (ex.: `$b Biblioteca Pedro Aleixo`).\n  * `$c`: Localização específica na sala / estante (ex.: `$c Obras Raras` ou `$c Reserva Técnica`).\n  * `$h`: Notação de classificação (primeira parte do número de chamada, ex.: `$h 341.2`).\n  * `$i`: Notação de autor e marca de obra (segunda parte, ex.: `$i M149d`).\n  * `$k`: Prefixo do número de chamada (ex.: `$k REF` ou `$k FOL`).\n  * `$t`: Número da cópia ou exemplar (ex.: `$t ex. 1`).\n  * `$p`: Código de barras da peça (*piece barcode*).\n* **Campos 853-855 (Legendas e Padrões / *Captions and Pattern*):**\n  * `853` para fundos básicos, `854` para suplementos, `855` para índices.\n  * Descrevem a regularidade da publicação, designações de volume, número e periodicidade de recursos contínuos.\n* **Campos 863-865 (Enumeração e Cronologia / *Enumeration and Chronology*):**\n  * `863` fundos básicos, `864` suplementos, `865` índices.\n  * Registram os volumes, fascículos e anos específicos que a biblioteca detém (ex.: `$a v. 1-12 $i 2010-2022`).\n* **Campos 866-868 (Fundos Textuais / *Textual Holdings*):**\n  * Declarações em texto livre compreensíveis para o leitor final no OPAC (ex.: `866 ## $a v. 1(1990) - v. 25(2015), com lacuna do v. 14`).\n\n#### C. Controle de Autoridade na Catalogação Cooperativa e Redes Bibliográficas (Alvo E11)\nA catalogação cooperativa (*shared cataloging*) fundamenta-se no princípio de que uma obra deve ser catalogada com excelência uma única vez, sendo seu registro bibliográfico e de autoridade compartilhado com toda a rede de bibliotecas:\n* **Benefícios:** Eliminação de retrabalho, redução drástica de custos operacionais e apoio à consistência semântica e padronização, condicionado à qualidade e governança na busca e recuperação da informação.\n* **O Papel Central do Controle de Autoridades Compartilhado:**\n  * O registro de autoridade funciona como âncora unívoca. Se a Biblioteca da Câmara adota `Brasil. Congresso Nacional. Câmara dos Deputados`, a rede cooperativa inteira adota o mesmo cabeçalho, evitando fragmentações de acervo no catálogo coletivo.\n* **As Três Grandes Redes de Referência para o Concurso da Câmara:**\n  1. **RVBI (Rede Virtual de Bibliotecas):** Coordenada pela Biblioteca do Senado Federal, integra as bibliotecas do STF, STJ, TST, TSE, TCU, AGU e órgãos ministeriais. Compartilha uma base de dados unificada com registros bibliográficos, controle de autoridades e holdings integrados.\n  2. **BIBLIODATA:** Rede pioneira de catalogação cooperativa no Brasil, com história vinculada à FGV e à operação cooperativa Bibliodata/CALCO; o IBICT registra termo de 2009 visando à transferência da administração ao Instituto, não à FBN na década de 1990. Foi o principal vetor de introdução e disseminação do formato MARC e do controle normativo de cabeçalhos de autoridade em território nacional.\n  3. **OCLC WorldCat:** A maior rede bibliográfica global, que articula registros bibliográficos, autoridade via VIAF (*Virtual International Authority File*) e localização de holdings em bibliotecas de mais de 100 países.\n\n**Aplicação e recuperação:** No bibliográfico, 100 é entrada principal pessoal; em autoridades, 100 registra o cabeçalho autorizado. Mesmo número de tag não permite misturar os formatos. Holdings descreve posse/localização e pode apontar ao bibliográfico por 004. Catálogo coletivo compartilha registros, mas cada biblioteca tem seus exemplares e políticas de acesso.\n\n### O Padrão Dublin Core (DCMI / ISO 15836)\n\nSurgido em 1995 no simpósio de Dublin (Ohio), patrocinado pela OCLC e NCSA, o **Dublin Core Metadata Element Set** foi projetado para viabilizar a descrição de recursos na Web por criadores de conteúdo não bibliotecários e facilitar a interoperabilidade na Web Semântica.\n\n#### A. Os 15 Elementos Básicos Universais (Simple Dublin Core)\nTodos os elementos do Dublin Core Simples compartilham duas características fundamentais:\n* **Todos são opcionais no conjunto básico:** perfis e protocolos podem exigir elementos, cardinalidade e outras condições para um uso específico.\n* **Todos são repetíveis:** Qualquer elemento pode ser invocado múltiplas vezes em um mesmo registro (por exemplo, múltiplos `dc:creator` ou múltiplos `dc:subject`).\n\n| Elemento DCMI | Definição Canônica | Correspondência ilustrativa no MARC (não bijetiva) |\n| :--- | :--- | :--- |\n| **Title** | O nome formal atribuído ao recurso. | Campo 245 `$a` |\n| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 `$a` |\n| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 `$a` (Assunto) |\n| **Description** | Um resumo explicativo, sumário ou descrição textual livre do recurso. | Campo 520 (Resumo) ou 500 (Nota) |\n| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 `$b` |\n| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 `$a` |\n| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 `$c` |\n| **Type** | A natureza ou gênero abstrato do conteúdo (ex.: `dataset`, `image`, `text`). | Líder pos. 06 / Campo 655 |\n| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: `application/pdf`). | Campo 856 `$q` / Campo 300 |\n| **Identifier** | Referência inequívoca ao recurso em um dado contexto (URI, DOI, ISBN). | Campo 020 (ISBN) / 024 (DOI) |\n| **Source** | Recurso original do qual o presente recurso é derivado. | Campo 786 (Fonte de dados) |\n| **Language** | O idioma ou código linguístico do conteúdo intelectual. | Campo 008 pos. 35-37 / Campo 041 |\n| **Relation** | Uma referência a um recurso correlato ou conectado. | Blocos 76X-78X de ligação |\n| **Coverage** | O escopo espacial (geográfico) ou temporal (cronológico) do conteúdo. | Campo 651 (Geográfico) / 648 (Tempo) |\n| **Rights** | Informações sobre direitos de propriedade intelectual, licenças ou Creative Commons. | Campo 540 (Termos de uso) |\n\n#### B. Dublin Core Qualificado (Qualified Dublin Core)\nO Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípio da compatibilidade descendente (*dumb-down principle*), utilizando:\n1. **Refinadores de Elemento (*Element Refinements*):** Tornam o significado do elemento mais restrito e específico (ex.: propriedades `dcterms:created`, `dcterms:issued`, `dcterms:alternative`; a notação histórica de refinamentos não deve ser confundida com nome XML universal).\n2. **Esquemas de Codificação (*Encoding Schemes*):** Indicam esquemas formais, vocabulários controlados ou regras de sintaxe que disciplinam o valor do dado (ex.: `date` com esquema **W3CDTF** no padrão ISO 8601 `AAAA-MM-DD`; `subject` com esquema **LCSH** ou **VCB**).\n\n**Aplicação e recuperação:** Um perfil de repositório exige título e identificador embora o conjunto básico DC os declare opcionais. Não há contradição: perfil restringe uso. Converter vários campos de autoria para creator pode perder papel e tipo de agente. A tabela de correspondência é orientação, não demonstração de conversão reversível perfeita.",
+  teoriaDidaticaMarkdown: "### Revisão: três níveis que não devem ser misturados\n\nRegra de conteúdo define o que registrar; formato codifica; sistema implementa busca e intercâmbio. Número de chamada localiza e organiza, não substitui descrição ou patrimônio. Consulte tabela de notação, sem importar regras de outra. MARC: líder 24 posições, diretório, campos 00X sem indicadores/subcampos e campos de dados com posições pertinentes; comprimentos de intercâmbio são em bytes. Autoridades controlam acessos; holdings descrevem posse/localização. DC básico tem quinze elementos opcionais e repetíveis; perfis podem restringir. Mapeamento não garante reversibilidade.\n",
   checkpoints: [
-    {
-      id: 'cp-2-4-1',
-      pergunta: 'Micro-Checkpoint 1: Estrutura Física do MARC 21 e Campos 00X',
-      item: 'No formato MARC 21, o Líder é um campo de tamanho fixo com 24 posições de caracteres, e os campos variáveis de controle 00X não admitem o emprego de indicadores nem de códigos de subcampos delimitados por $.',
-      gabarito: 'C',
-      justificativa: 'Correto! Os campos 00X são estritamente de controle e posições fixas, sem os 2 indicadores e sem os códigos de subcampo ($a, $b) característicos dos campos de dados variáveis 010 a 8XX.',
-    },
-    {
-      id: 'cp-2-4-2',
-      pergunta: 'Micro-Checkpoint 2: Campo 264 no Padrão RDA',
-      item: 'Na catalogação em formato MARC 21 sob as diretrizes do RDA, o campo 264 utiliza o segundo indicador para definir a função da menção, sendo o indicador 4 reservado para registrar a data e o aviso de direitos autorais (copyright).',
-      gabarito: 'C',
-      justificativa: 'Certo! No campo 264 do RDA: 0 = Produção, 1 = Publicação, 2 = Distribuição, 3 = Fabricação e 4 = Aviso de Direitos Autorais (Copyright notice).',
-    },
-    {
-      id: 'cp-2-4-3',
-      pergunta: 'Micro-Checkpoint 3: Formatos MARC 21 de Autoridades e Holdings (Caso)',
-      item: 'Em uma biblioteca parlamentar que adota o ecossistema MARC 21, o controle normativo de nomes e suas formas variantes remissivas ("ver") deve ser implementado no formato MARC 21 de Autoridades (blocos 1XX e 4XX), enquanto a localização física das estantes, o número de chamada e os dados de exemplares e fascículos de coleções devem ser estruturados no formato MARC 21 para Dados de Holdings (campo 852 e blocos 853-868).',
-      gabarito: 'C',
-      justificativa: 'Certo! Essa é a separação arquitetural estrita do padrão da Library of Congress: o formato de Autoridade controla cabeçalhos e remissivas (1XX/4XX/5XX), ao passo que o formato de Holdings (informações de fundos) gerencia a localização física, dados patrimoniais e o estado de coleção de recursos (campo 852 e blocos 853-868).',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-2-4-1',
-        periodo: '1880 / 1899',
-        disciplina: 'Classificação e Notação',
-        focoPrincipal: 'Criação da Tabela de Dois Algarismos por Charles Cutter e sua expansão para Três Algarismos por Kate Sanborn.',
-        figuraChave: 'Charles Ammi Cutter e Kate E. Sanborn',
-      },
-      {
-        id: 'tl-2-4-2',
-        periodo: '1965 / 1968',
-        disciplina: 'Automação Bibliográfica',
-        focoPrincipal: 'Desenvolvimento do formato MARC I e II e adoção da estrutura física internacional da norma ISO 2709.',
-        figuraChave: 'Henriette Avram e Library of Congress',
-      },
-      {
-        id: 'tl-2-4-3',
-        periodo: '1995 / 1999',
-        disciplina: 'Metadados na Web',
-        focoPrincipal: 'Conferência de Dublin (Ohio) criando o Dublin Core (15 elementos) e unificação do USMARC e CAN/MARC no MARC 21.',
-        figuraChave: 'Stuart Weibel e DCMI',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-2-4-1',
-        nome: 'Henriette Avram',
-        ano: 1968,
-        obraPrincipal: 'The MARC Pilot Project: Information Systems Office',
-        ideiaChave: 'Cientista da computação da Library of Congress que projetou o formato MARC, permitindo o intercâmbio automatizado global de registros.',
-        chipPegadinha: 'A ISO 2709 rege a estrutura do MARC 21, mas não define os conteúdos catalográficos (que vêm do AACR2/RDA).',
-      },
-      {
-        id: 'aut-2-4-2',
-        nome: 'Heloísa de Almeida Prado',
-        ano: 1955,
-        obraPrincipal: 'Tabela de Notação de Autor (PHA)',
-        ideiaChave: 'Bibliotecária brasileira que desenvolveu a tabela nacional de autor, adaptada à estrutura silábica e à frequência de sobrenomes em língua portuguesa.',
-        chipPegadinha: 'A Tabela PHA não é sistema de classificação temática; é tabela de notação de autor para número de chamada.',
-      },
-      {
-        id: 'aut-2-4-3',
-        nome: 'Stuart Weibel',
-        ano: 1995,
-        obraPrincipal: 'The Dublin Core: A simple content description format',
-        ideiaChave: 'Pesquisador da OCLC que liderou a criação do Dublin Core como padrão universal de metadados para a Web.',
-        chipPegadinha: 'O Dublin Core opera com qualquer sintaxe da Web (HTML meta tags, XML e RDF) e nenhum de seus 15 elementos é obrigatório.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-2-4-1',
-        afirmacao: 'No campo 245 do formato MARC 21, o segundo indicador deve ser preenchido com o número de exemplares que a biblioteca possui da referida obra.',
-        gabarito: 'E',
-        porQue: 'O segundo indicador do campo 245 define a quantidade de caracteres a desprezar na ordenação alfabética em virtude de artigos iniciais (ex.: 2 para "A ", 4 para "The "). O número de exemplares fica nos dados de coleção (Holdings).',
-      },
-      {
-        id: 'peg-2-4-2',
-        afirmacao: 'Em um registro MARC 21 de autoridade, a tag 4XX é utilizada para registrar um termo relacionado que já foi adotado como autorizado pelo catálogo.',
-        gabarito: 'E',
-        porQue: 'A tag 4XX é reservada para a remissiva "Ver" (See from), isto é, variantes NÃO autorizadas. Termos relacionados já autorizados recebem a tag 5XX (remissiva "Ver também").',
-      },
-      {
-        id: 'peg-2-4-3',
-        afirmacao: 'Pela especificação normativa do Dublin Core Simples, o elemento Title é o único de preenchimento obrigatório para a validação do registro.',
-        gabarito: 'E',
-        porQue: 'No Dublin Core Simples, rigorosamente todos os 15 elementos são opcionais e todos são repetíveis.',
-      },
-    ],
+  {
+    "id": "cp-2-4-1",
+    "pergunta": "Micro-Checkpoint 1: Estrutura Física do MARC 21 e Campos 00X",
+    "item": "No formato MARC 21, o Líder é um campo de tamanho fixo com 24 posições de caracteres, e os campos variáveis de controle 00X não admitem o emprego de indicadores nem de códigos de subcampos delimitados por $.",
+    "gabarito": "C",
+    "justificativa": "O líder possui 24 posições e campos 00X não usam indicadores/códigos de subcampo. Isso não significa que todo 00X tenha comprimento fixo: 001, por exemplo, não é o 008 de quarenta posições.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata."
   },
+  {
+    "id": "cp-2-4-2",
+    "pergunta": "Micro-Checkpoint 2: Campo 264 no Padrão RDA",
+    "item": "Na catalogação em formato MARC 21 sob as diretrizes do RDA, o campo 264 utiliza o segundo indicador para definir a função da menção, sendo o indicador 4 reservado para registrar a data e o aviso de direitos autorais (copyright).",
+    "gabarito": "C",
+    "justificativa": "O segundo indicador de 264 diferencia funções; 4 corresponde a copyright notice date. O campo não é um código exclusivo que só possa existir com RDA.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata."
+  },
+  {
+    "id": "cp-2-4-3",
+    "pergunta": "Micro-Checkpoint 3: Formatos MARC 21 de Autoridades e Holdings (Caso)",
+    "item": "No ecossistema MARC 21, o formato de autoridades controla formas autorizadas e variantes; holdings registra informações de posse e localização, com campos como 852 e blocos de enumeração e cronologia.",
+    "gabarito": "C",
+    "justificativa": "São finalidades distintas. Não se deve importar uma regra de tag de um formato para outro nem supor que a biblioteca perde seus dados locais ao compartilhar registros.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata."
+  },
+  {
+    "id": "rt-2-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Num registro MARC em UTF-8, o número de caracteres visíveis basta necessariamente para calcular seu tamanho em bytes.",
+    "gabarito": "E",
+    "justificativa": "Caracteres podem ocupar múltiplos bytes. A estrutura de intercâmbio usa comprimentos em octetos.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata.",
+    "editalRef": "Bloco D - Item 2.7",
+    "habilidade": "aplicar",
+    "versao_correta": "É necessário calcular o tamanho conforme a codificação e a estrutura em bytes."
+  },
+  {
+    "id": "rt-2-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No título simples “The catalogue”, o artigo e o espaço podem compor os quatro caracteres não alfabéticos do segundo indicador de 245.",
+    "gabarito": "C",
+    "justificativa": "A contagem inclui o espaço, não apenas as três letras. Devem ser observadas as demais regras quando houver pontuação/diacríticos.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata.",
+    "editalRef": "Bloco D - Item 2.7",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-2-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "O caráter opcional dos elementos do conjunto Dublin Core impede que um perfil local torne título obrigatório.",
+    "gabarito": "E",
+    "justificativa": "O perfil pode estabelecer requisitos próprios. Conjunto básico e aplicação são níveis diferentes.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata.",
+    "editalRef": "Bloco D - Item 2.7",
+    "habilidade": "aplicar",
+    "versao_correta": "Um perfil pode exigir título e outras condições no uso local."
+  },
+  {
+    "id": "rt-2-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A coordenação da RVBI pelo Senado não significa que cada biblioteca participante deixe de manter informações sobre seus próprios exemplares.",
+    "gabarito": "C",
+    "justificativa": "Cooperação compartilha dados e recursos, preservando informações locais de posse e políticas pertinentes.",
+    "fonte": "Library of Congress, MARC 21 bibliographic/authority/holdings e Understanding MARC; DCMI Metadata Terms; Senado Federal, RVBI; IBICT, histórico Bibliodata.",
+    "editalRef": "Bloco D - Item 2.7",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-2-4-fonte-marc",
+      "nome": "Library of Congress — MARC 21",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Library of Congress — MARC 21",
+      "ideiaChave": "Formatos bibliográfico, autoridades e holdings; estrutura de registro e campos.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-4-fonte-dcmi",
+      "nome": "DCMI — Metadata Terms",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "DCMI — Metadata Terms",
+      "ideiaChave": "Distinguir elementos básicos, termos e perfil de aplicação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-4-fonte-rvbi",
+      "nome": "Senado Federal — RVBI e histórico",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Senado Federal — RVBI e histórico",
+      "ideiaChave": "Coordenação e cooperação da rede.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-2-4-fonte-bibliodata",
+      "nome": "IBICT — histórico da Bibliodata",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IBICT — histórico da Bibliodata",
+      "ideiaChave": "Transferência da administração e operação cooperativa.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-2-4-2",
+      "afirmacao": "No título simples “The catalogue”, o artigo e o espaço podem compor os quatro caracteres não alfabéticos do segundo indicador de 245.",
+      "gabarito": "C",
+      "porQue": "A contagem inclui o espaço, não apenas as três letras. Devem ser observadas as demais regras quando houver pontuação/diacríticos."
+    },
+    {
+      "id": "memoria-rt-2-4-3",
+      "afirmacao": "O caráter opcional dos elementos do conjunto Dublin Core impede que um perfil local torne título obrigatório.",
+      "gabarito": "E",
+      "porQue": "O perfil pode estabelecer requisitos próprios. Conjunto básico e aplicação são níveis diferentes."
+    },
+    {
+      "id": "memoria-rt-2-4-4",
+      "afirmacao": "A coordenação da RVBI pelo Senado não significa que cada biblioteca participante deixe de manter informações sobre seus próprios exemplares.",
+      "gabarito": "C",
+      "porQue": "Cooperação compartilha dados e recursos, preservando informações locais de posse e políticas pertinentes."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-2-4-bloco-1",
+    "titulo": "Notação de Autor e a Composição do Número de Chamada",
+    "objetivos": [
+      "Aplicar número de chamada sem confundir classificação e notação."
+    ],
+    "conteudo": "Nas bibliotecas organizadas de forma sistemática com livre acesso ou acervo fechado, um recurso físico pode receber uma marca de localização que defina com precisão sua posição relativa nas estantes e permita sua rápida recuperação e rearquivamento. Essa marcação denomina-se **Número de Chamada (*Call Number*)** (Mey & Silveira, 2009).\n\n#### A. A Anatomia Canônica do Número de Chamada\nO número de chamada é habitualmente gravado na etiqueta colada na lombada do livro, frequentemente distribuído em linhas, conforme a política local:\n1. **Notação de Classificação:** Notação obtida pelo sistema de classificação adotado pela biblioteca (Classificação Decimal de Dewey - CDD, Classificação Decimal Universal - CDU ou Classificação da Library of Congress - LC). Representa o **assunto** do documento.\n2. **Notação de Autor:** Código alfanumérico que representa o **autor** ou a entrada principal da obra, derivado de tabelas padronizadas (Cutter-Sanborn ou PHA).\n3. **Marca de Obra (*Work Mark*) e/ou Ano/Edição:** \n   * A **marca de obra** é uma letra minúscula representativa do título, utilizada para diferenciar várias obras do mesmo autor com o mesmo assunto.\n   * O **ano de publicação** ou número da **edição** (ex.: `2.ed.`, `2024`) individualiza revisões e tiragens sucessivas.\n4. **Notação de Volume e Exemplar:** Indicação do volume físico (`v.1`, `t.2`) e do número do exemplar possuído pela biblioteca (`ex.1`, `ex.2`, `c.1`).\n\n*Exemplo de Etiqueta de Lombada:*\n```text\n  341.2         <-- Classificação (exemplo de notação a conferir na edição do sistema adotado)\n  M149d         <-- Notação de Autor (exemplo ilustrativo; consultar a tabela antes de usar) + Marca de Obra (d)\n  2.ed. 2024    <-- Edição e Ano\n  v. 1 ex. 2    <-- Volume 1, Exemplar 2\n```\n\n---\n\n#### B. Notação de autor: tabela, edição e política\n\nCutter-Sanborn e PHA são instrumentos de notação para organizar entradas e distinguir recursos, não sistemas de classificação temática. A tabela PHA está associada a Heloísa de Almeida Prado e ao uso de nomes em português. A aplicação exige consultar a tabela e sua edição, respeitar ordenação e resolver colisões segundo política documentada.\n\nNão se deve importar para a Cutter-Sanborn de três algarismos um conjunto de regras de outra tabela e afirmar, por exemplo, que toda inicial S ou toda vogal exige sempre duas letras. Há diferentes tabelas e práticas de marcas de livro. O código deve ser conferido, não reconstruído por analogia. Nomes não encontrados podem exigir adaptação/interpolação segundo o instrumento e a política.\n\nA marca de obra costuma distinguir títulos sob a mesma entrada, frequentemente com inicial significativa do título; ano, edição, volume e exemplar podem completar o número de chamada. Essas decisões não tornam obrigatória uma etiqueta universal de quatro linhas. Biografias podem receber arranjos pelo biografado conforme a política, sem alterar automaticamente o autor do registro bibliográfico.\n\n**Exemplo autoral sem número de tabela inventado:** dois livros da mesma classe e do mesmo autor recebem a mesma base de notação, mas marcas de obra distintas. Dois exemplares da mesma edição podem ser distinguidos pelo número de cópia. Um item digital pode ter outra forma de localização e não precisa de etiqueta física na lombada.\n\n**Aplicação e recuperação:** O mesmo título pode ter duas cópias na estante. O identificador de registro bibliográfico não é necessariamente o patrimônio nem o número de chamada de cada cópia. Classificação aproxima assuntos; notação e marcas organizam entradas. No exemplo de etiqueta, confira tabela e classe antes de usar qualquer código real.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-2-4-bloco-2",
+    "titulo": "A Arquitetura Profunda do Formato MARC 21 (ISO 2709)",
+    "objetivos": [
+      "Interpretar estrutura e campos MARC, incluindo bytes e indicadores."
+    ],
+    "conteudo": "Criado na década de 1960 por **Henriette Avram** na Library of Congress, o formato MARC (*Machine-Readable Cataloging*) baseia-se na norma técnica internacional **ISO 2709** (no Brasil, ABNT NBR 14599) para estruturação física de dados bibliográficos intercambiáveis em fita magnética e rede.\n\n#### A. Líder, diretório e campos: distinguir estrutura e conteúdo\n1. **Líder (*Leader*):** \n   * Exatamente **24 posições fixas** de caracteres (posições 00 a 23).\n   * Fornece parâmetros estruturais do processamento:\n     * `Posições 00-04`: Tamanho total lógico do registro em **octetos/bytes** na estrutura de intercâmbio.\n     * `Posição 05`: Status do registro (`n` = novo, `c` = corrigido, `d` = deletado).\n     * `Posição 06`: Tipo de registro (`a` = material textual/livro, `c` = música notada, `e` = material cartográfico, `m` = arquivo de computador).\n     * `Posição 07`: Nível bibliográfico (`m` = monografia/item avulso, `s` = recurso contínuo/periódico, `a` = parte componente analítica).\n     * `Posição 09`: Esquema de codificação de caracteres (em branco = MARC-8; `a` = UTF-8 Unicode).\n2. **Diretório (*Directory*):**\n   * Tabela gerada automaticamente pelo sistema, imediatamente subsequente ao Líder.\n   * Não possui subcampos nem indicadores. É formado por uma sequência contínua de blocos fixos de **12 caracteres** para cada campo variável:\n     * **3 posições:** Tag do campo (ex.: `245`).\n     * **4 posições:** Comprimento total do campo em **octetos/bytes**, incluindo terminador.\n     * **5 posições:** Posição inicial relativa do campo a partir da área de dados.\n3. **Campos Variáveis de Controle (00X):**\n   * Campos sem indicadores e sem códigos de subcampo delimitados por `$`.\n   * **Campo 001:** Número de controle do registro no sistema local.\n   * **Campo 003:** Identificador da agência do número de controle.\n   * **Campo 005:** Data e hora da última transação (AAAAMMDDhhmmss.f).\n   * **Campo 008 — Elementos de Comprimento Fixo:** Possui exatamente **40 posições de caracteres (00 a 39)** com dados críticos de pesquisa e filtragem:\n     * `00-05`: Data em que o registro foi inserido no catálogo (formato AAMMDD).\n     * `06`: Tipo de data / status de publicação (`s` = data única conhecida; `m` = datas múltiplas; `r` = reimpressão; `c` = recurso contínuo corrente).\n     * `07-10`: Data 1 (ano de publicação principal, ex.: `2024`).\n     * `11-14`: Data 2 (data de término ou ano original da publicação).\n     * `15-17`: Código do local de publicação em 3 letras (ex.: `bl ` para Brasil, `alu` para Alabama/EUA).\n     * `35-37`: Código do idioma do documento em 3 letras (ex.: `por` para português, `eng` para inglês, `spa` para espanhol).\n     * `38`: Código de registro modificado.\n     * `39`: Fonte de catalogação (agência nacional ou cooperativa).\n\n---\n\n#### B. Campos Variáveis de Dados e seus Indicadores\nPossuem duas posições iniciais denominados **indicadores** (posições 0 e 1 de cada campo de dados) e subcampos identificados pelo delimitador de subcampo, representado didaticamente por `$` (não é o byte delimitador real) seguido de letra ou algarismo:\n\n* **Campo 245 (Título e Indicação de Responsabilidade):**\n  * **1º Indicador:** Entrada secundária de título:\n    * `0`: Não gera entrada secundária (quando a obra não tem autor principal no campo 1XX e entra diretamente por título).\n    * `1`: Gera entrada secundária de título (quando há autor pessoal ou entidade no campo 100/110/111).\n  * **2º Indicador:** Quantidade de caracteres a desprezar na ordenação/alfabetação em razão de **artigos iniciais**:\n    * `0`: Nenhum caractere a desprezar.\n    * `2`: Despreza 2 caracteres (ex.: artigo \"A \" ou \"O \").\n    * `3`: Despreza 3 caracteres (ex.: artigo \"As \" ou \"Os \" ou \"Um \").\n    * `4`: Despreza 4 caracteres (ex.: artigo em inglês \"The \").\n  * **Subcampos:** `$a` Título propriamente dito; `$b` Restante do título / subtítulo; `$c` Indicação de responsabilidade.\n\n* **Campo 260 vs. Campo 264 no RDA:**\n  * O campo `260` era a imprenta tradicional do AACR2r (`$a` lugar, `$b` editora, `$c` data).\n  * No RDA, adota-se o **Campo 264**, onde o **2º Indicador** discrimina a função específica da menção:\n    * `0`: Produção (recursos inéditos, manuscritos, obras de arte).\n    * `1`: Publicação (recurso publicado comercialmente).\n    * `2`: Distribuição (distribuidor ou agente comercial).\n    * `3`: Fabricação / Manufatura (impressor, fundição, tipografia).\n    * `4`: Aviso de Direitos Autorais (*Copyright notice*, ex.: `$c ©2024`).\n\n**Aplicação e recuperação:** Em “The catalogue”, o segundo indicador de 245 pode desprezar quatro caracteres incluindo espaço, no cenário simples. Acentos, pontuação e artigo têm regras de contagem; não se limita a contar letras. Em UTF-8, número de caracteres e bytes pode diferir: tamanho de intercâmbio não pode ser calculado ingenuamente por letras visíveis.",
+    "checkpointIds": [
+      "cp-2-4-1",
+      "cp-2-4-2",
+      "rt-2-4-1",
+      "rt-2-4-2"
+    ]
+  },
+  {
+    "id": "sub-2-4-bloco-3",
+    "titulo": "A Família de Formatos MARC 21: Bibliográfico, Autoridades e Holdings (Edital Item 2.7)",
+    "objetivos": [
+      "Separar autoridade, holdings e cooperação."
+    ],
+    "conteudo": "O ecossistema MARC 21 padronizado pela Library of Congress não se limita à catalogação de livros, mas desdobra-se em formatos especializados e integrados:\n\n#### A. MARC 21 para Dados de Autoridade (*Authority Data*)\nO formato de Autoridades estabelece o controle normativo de pontos de acesso para garantir a consistência e a desambiguação dos catálogos:\n* **Finalidade:** Fixar a forma autorizada e oficial de nomes de pessoas, entidades coletivas, eventos, títulos uniformes, termos de assunto e gênero/forma, criando a rede de remissivas.\n* **Bloco 1XX (Cabeçalho Autorizado):**\n  * `100`: Nome Pessoal autorizado (ex.: `100 1# $a Assis, Machado de, $d 1839-1908`).\n  * `110`: Nome Corporativo / Entidade Coletiva (ex.: `110 1# $a Brasil. $b Congresso Nacional. $b Câmara dos Deputados`).\n  * `111`: Nome de Reunião / Conferência (ex.: `111 2# $a Congresso Brasileiro de Biblioteconomia e Documentação`).\n  * `130`: Título Uniforme (ex.: `130 #0 $a Bíblia. $l Português`).\n  * `148`: Termo Cronológico.\n  * `150`: Termo Tópico de Assunto (ex.: `150 ## $a Controle de constitucionalidade`).\n  * `151`: Nome Geográfico (ex.: `151 ## $a Brasília (DF)`).\n  * `155`: Termo de Gênero / Forma (ex.: `155 ## $a Discursos parlamentares`).\n* **Bloco 4XX (Remissivas \"Ver\" / *See From Tracing*):**\n  * Registra **formas variantes, não autorizadas ou sinônimas**, que remetem o usuário para o cabeçalho preferido do bloco 1XX (ex.: `400 1# $a Machado de Assis, Joaquim Maria` remete para o cabeçalho `100 1# $a Assis, Machado de`).\n* **Bloco 5XX (Remissivas \"Ver Também\" / *See Also From Tracing*):**\n  * Conecta o cabeçalho autorizado a **outros cabeçalhos igualmente autorizados** (termos relacionados, termos mais amplos ou nomes anteriores/posteriores de órgãos públicos no caso de cisão ou fusão institucional).\n* **Bloco 6XX (Notas de Fundamentação e Escopo da Autoridade):**\n  * `670`: Fontes Consultadas com Sucesso (*Sources Found*) — cita a obra de referência, certidão de nascimento ou catálogo biográfico em que o nome e datas foram comprovados.\n  * `675`: Fontes Consultadas sem Sucesso (*Sources Not Found*).\n  * `680`: Nota de Escopo (*Public General Note / Scope Note*) — define os limites semânticos da aplicação de um cabeçalho de assunto.\n* **Campo 008 de Autoridades:** 40 posições fixas com códigos essenciais: pos. 09 (tipo de registro), pos. 10 (regras de catalogação adotadas: AACR2, RDA) e pos. 14 (se a autoridade é apropriada para uso como cabeçalho principal/secundário).\n\n#### B. MARC 21 para Dados de Holdings / Fundos (*Holdings Data*)\nO formato de Holdings gerencia a informação sobre a posse física e a localização de itens pertencentes a uma instituição específica:\n* **Finalidade:** Registrar a localização física (biblioteca, edifício, sala, estante), os exemplares disponíveis, as políticas de empréstimo e a série cronológica de fascículos possuídos de um periódico (identificando lacunas no acervo).\n* **Relação com o Registro Bibliográfico:** Conecta-se ao registro bibliográfico correspondente mediante o campo `004` (que armazena o número de controle do registro bibliográfico ao qual o holding pertence).\n* **Campo 852 (Localização / *Location*):**\n  * `$a`: Código da agência mantenedora / instituição (código MARC).\n  * `$b`: Sub-biblioteca, unidade setorial ou coleção (ex.: `$b Biblioteca Pedro Aleixo`).\n  * `$c`: Localização específica na sala / estante (ex.: `$c Obras Raras` ou `$c Reserva Técnica`).\n  * `$h`: Notação de classificação (primeira parte do número de chamada, ex.: `$h 341.2`).\n  * `$i`: Notação de autor e marca de obra (segunda parte, ex.: `$i M149d`).\n  * `$k`: Prefixo do número de chamada (ex.: `$k REF` ou `$k FOL`).\n  * `$t`: Número da cópia ou exemplar (ex.: `$t ex. 1`).\n  * `$p`: Código de barras da peça (*piece barcode*).\n* **Campos 853-855 (Legendas e Padrões / *Captions and Pattern*):**\n  * `853` para fundos básicos, `854` para suplementos, `855` para índices.\n  * Descrevem a regularidade da publicação, designações de volume, número e periodicidade de recursos contínuos.\n* **Campos 863-865 (Enumeração e Cronologia / *Enumeration and Chronology*):**\n  * `863` fundos básicos, `864` suplementos, `865` índices.\n  * Registram os volumes, fascículos e anos específicos que a biblioteca detém (ex.: `$a v. 1-12 $i 2010-2022`).\n* **Campos 866-868 (Fundos Textuais / *Textual Holdings*):**\n  * Declarações em texto livre compreensíveis para o leitor final no OPAC (ex.: `866 ## $a v. 1(1990) - v. 25(2015), com lacuna do v. 14`).\n\n#### C. Controle de Autoridade na Catalogação Cooperativa e Redes Bibliográficas (Alvo E11)\nA catalogação cooperativa (*shared cataloging*) fundamenta-se no princípio de que uma obra deve ser catalogada com excelência uma única vez, sendo seu registro bibliográfico e de autoridade compartilhado com toda a rede de bibliotecas:\n* **Benefícios:** Eliminação de retrabalho, redução drástica de custos operacionais e apoio à consistência semântica e padronização, condicionado à qualidade e governança na busca e recuperação da informação.\n* **O Papel Central do Controle de Autoridades Compartilhado:**\n  * O registro de autoridade funciona como âncora unívoca. Se a Biblioteca da Câmara adota `Brasil. Congresso Nacional. Câmara dos Deputados`, a rede cooperativa inteira adota o mesmo cabeçalho, evitando fragmentações de acervo no catálogo coletivo.\n* **As Três Grandes Redes de Referência para o Concurso da Câmara:**\n  1. **RVBI (Rede Virtual de Bibliotecas):** Coordenada pela Biblioteca do Senado Federal, integra as bibliotecas do STF, STJ, TST, TSE, TCU, AGU e órgãos ministeriais. Compartilha uma base de dados unificada com registros bibliográficos, controle de autoridades e holdings integrados.\n  2. **BIBLIODATA:** Rede pioneira de catalogação cooperativa no Brasil, com história vinculada à FGV e à operação cooperativa Bibliodata/CALCO; o IBICT registra termo de 2009 visando à transferência da administração ao Instituto, não à FBN na década de 1990. Foi o principal vetor de introdução e disseminação do formato MARC e do controle normativo de cabeçalhos de autoridade em território nacional.\n  3. **OCLC WorldCat:** A maior rede bibliográfica global, que articula registros bibliográficos, autoridade via VIAF (*Virtual International Authority File*) e localização de holdings em bibliotecas de mais de 100 países.\n\n**Aplicação e recuperação:** No bibliográfico, 100 é entrada principal pessoal; em autoridades, 100 registra o cabeçalho autorizado. Mesmo número de tag não permite misturar os formatos. Holdings descreve posse/localização e pode apontar ao bibliográfico por 004. Catálogo coletivo compartilha registros, mas cada biblioteca tem seus exemplares e políticas de acesso.",
+    "checkpointIds": [
+      "cp-2-4-3",
+      "rt-2-4-4"
+    ]
+  },
+  {
+    "id": "sub-2-4-bloco-4",
+    "titulo": "O Padrão Dublin Core (DCMI / ISO 15836)",
+    "objetivos": [
+      "Distinguir elemento Dublin Core, perfil e mapeamento."
+    ],
+    "conteudo": "Surgido em 1995 no simpósio de Dublin (Ohio), patrocinado pela OCLC e NCSA, o **Dublin Core Metadata Element Set** foi projetado para viabilizar a descrição de recursos na Web por criadores de conteúdo não bibliotecários e facilitar a interoperabilidade na Web Semântica.\n\n#### A. Os 15 Elementos Básicos Universais (Simple Dublin Core)\nTodos os elementos do Dublin Core Simples compartilham duas características fundamentais:\n* **Todos são opcionais no conjunto básico:** perfis e protocolos podem exigir elementos, cardinalidade e outras condições para um uso específico.\n* **Todos são repetíveis:** Qualquer elemento pode ser invocado múltiplas vezes em um mesmo registro (por exemplo, múltiplos `dc:creator` ou múltiplos `dc:subject`).\n\n| Elemento DCMI | Definição Canônica | Correspondência ilustrativa no MARC (não bijetiva) |\n| :--- | :--- | :--- |\n| **Title** | O nome formal atribuído ao recurso. | Campo 245 `$a` |\n| **Creator** | Entidade primariamente responsável pela criação intelectual do conteúdo. | Campos 100 / 110 / 111 `$a` |\n| **Subject** | O tópico, tema ou palavras-chave que descrevem o conteúdo do recurso. | Campo 650 `$a` (Assunto) |\n| **Description** | Um resumo explicativo, sumário ou descrição textual livre do recurso. | Campo 520 (Resumo) ou 500 (Nota) |\n| **Publisher** | A entidade responsável por disponibilizar ou publicar o recurso. | Campo 260 / 264 `$b` |\n| **Contributor** | Entidade responsável por contribuições secundárias ao recurso. | Campo 700 / 710 `$a` |\n| **Date** | Um ponto ou período de tempo associado a um evento do ciclo de vida. | Campo 260 / 264 `$c` |\n| **Type** | A natureza ou gênero abstrato do conteúdo (ex.: `dataset`, `image`, `text`). | Líder pos. 06 / Campo 655 |\n| **Format** | A manifestação física ou digital (tipo de mídia MIME, ex.: `application/pdf`). | Campo 856 `$q` / Campo 300 |\n| **Identifier** | Referência inequívoca ao recurso em um dado contexto (URI, DOI, ISBN). | Campo 020 (ISBN) / 024 (DOI) |\n| **Source** | Recurso original do qual o presente recurso é derivado. | Campo 786 (Fonte de dados) |\n| **Language** | O idioma ou código linguístico do conteúdo intelectual. | Campo 008 pos. 35-37 / Campo 041 |\n| **Relation** | Uma referência a um recurso correlato ou conectado. | Blocos 76X-78X de ligação |\n| **Coverage** | O escopo espacial (geográfico) ou temporal (cronológico) do conteúdo. | Campo 651 (Geográfico) / 648 (Tempo) |\n| **Rights** | Informações sobre direitos de propriedade intelectual, licenças ou Creative Commons. | Campo 540 (Termos de uso) |\n\n#### B. Dublin Core Qualificado (Qualified Dublin Core)\nO Dublin Core Qualificado refina os 15 elementos básicos sem violar o princípio da compatibilidade descendente (*dumb-down principle*), utilizando:\n1. **Refinadores de Elemento (*Element Refinements*):** Tornam o significado do elemento mais restrito e específico (ex.: propriedades `dcterms:created`, `dcterms:issued`, `dcterms:alternative`; a notação histórica de refinamentos não deve ser confundida com nome XML universal).\n2. **Esquemas de Codificação (*Encoding Schemes*):** Indicam esquemas formais, vocabulários controlados ou regras de sintaxe que disciplinam o valor do dado (ex.: `date` com esquema **W3CDTF** no padrão ISO 8601 `AAAA-MM-DD`; `subject` com esquema **LCSH** ou **VCB**).\n\n**Aplicação e recuperação:** Um perfil de repositório exige título e identificador embora o conjunto básico DC os declare opcionais. Não há contradição: perfil restringe uso. Converter vários campos de autoria para creator pode perder papel e tipo de agente. A tabela de correspondência é orientação, não demonstração de conversão reversível perfeita.",
+    "checkpointIds": [
+      "rt-2-4-3"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "marc",
+    "titulo": "Library of Congress — MARC 21",
+    "localizador": "Formatos bibliográfico, autoridades e holdings; estrutura de registro e campos.",
+    "url": "https://www.loc.gov/marc/"
+  },
+  {
+    "id": "dcmi",
+    "titulo": "DCMI — Metadata Terms",
+    "localizador": "Distinguir elementos básicos, termos e perfil de aplicação.",
+    "url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+  },
+  {
+    "id": "rvbi",
+    "titulo": "Senado Federal — RVBI e histórico",
+    "localizador": "Coordenação e cooperação da rede.",
+    "url": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/a-rvbi"
+  },
+  {
+    "id": "bibliodata",
+    "titulo": "IBICT — histórico da Bibliodata",
+    "localizador": "Transferência da administração e operação cooperativa.",
+    "url": "https://www.gov.br/ibict/pt-br/site-ibict-2025/assuntos/informacao-cientifica/bibliodata/historico"
+  }
+],
 };

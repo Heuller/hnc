@@ -19,419 +19,398 @@ export const submodulo144: ModuloFilho = {
   ],
   titulo: 'Ciência de Dados, Mineração de Dados/Textos, Visualização e Storytelling',
   antesDeLer: [
-    {
-      termo: 'Ciência de Dados e Ciclo de Vida dos Dados',
-      definicao: 'Campo multidisciplinar que engloba coleta, limpeza, exploração, modelagem estatística e comunicação de insights baseados em dados.',
-      exemploBiblioteca: 'Análise da série histórica de 10 anos de empréstimos da biblioteca para prever demanda por novas aquisições.',
-    },
-    {
-      termo: 'Mineração de Texto (Text Mining)',
-      definicao: 'Extração de padrões, tendências e relações relevantes a partir de grandes volumes de texto não estruturado.',
-      exemploBiblioteca: 'Agrupamento temático automático de discursos proferidos no Plenário da Câmara por análise de frequência de tópicos.',
-    },
-    {
-      termo: 'Visualização de Dados e Storytelling',
-      definicao: 'Comunicação de conclusões analíticas complexas por meio de gráficos eficazes (barras, box plots, mapas de calor) e narrativa lógica.',
-      exemploBiblioteca: 'Painel em Power BI demonstrando aos diretores o crescimento no uso do repositório digital BDCam por estado brasileiro.',
-    },
-    {
-      termo: 'Box Plot e Histograma',
-      definicao: 'Gráficos estatísticos: box plot exibe mediana, quartis e outliers; histograma mostra a distribuição de frequência de variáveis contínuas.',
-      exemploBiblioteca: 'Análise da distribuição do tempo de atendimento de solicitações parlamentares com detecção de valores discrepantes (outliers).',
-    },
-  ],
+  {
+    "termo": "Variável e escala",
+    "definicao": "O tipo de dado e sua escala limitam operações e interpretações.",
+    "exemploBiblioteca": "Código numérico de categoria não se torna medida quantitativa por usar algarismos."
+  },
+  {
+    "termo": "TF-IDF",
+    "definicao": "Ponderação que depende da fórmula e do corpus definidos.",
+    "exemploBiblioteca": "Um termo raro pode ser discriminativo, mas também pode ser erro de grafia."
+  }
+],
   descricaoCurta:
-    'Tipologia de dados; estatística descritiva e EDA (Tukey); mineração de dados (metodologia CRISP-DM, tarefas descritivas e preditivas); mineração de textos (pipeline de PLN, tokenização, stopwords, stemming vs lematização, TF-IDF e Lei de Zipf/Luhn); pipeline de ETL/ELT; gramática dos gráficos; ferramentas analíticas corporativas (Power BI, Tableau, Looker Studio) e storytelling com dados.',
-  tempoEstimadoMinutos: 24,
+    "Distinguir formato, tipo de variável e significado de códigos numéricos. Calcular medidas e explicitar o critério usado. Justificar limpeza e distinguir ausência, duplicidade e transformação de escala. Escolher representação e evitar conclusões que o desenho não sustenta. Distinguir Power Query/M, DAX e níveis de cálculo. Distinguir tarefas preditivas e descritivas e reconhecer iteração entre fases. Separar frequência no documento e frequência documental e reconhecer variantes.",
+  tempoEstimadoMinutos: 29,
   autoresChave: [
-    'Edward Tufte (Data-Ink Ratio, 1983)',
-    'Cole Nussbaumer Knaflic (Storytelling with Data, 2015)',
-    'John Tukey (Exploratory Data Analysis, 1977)',
-    'CRISP-DM Consortium (Chapman et al., 2000)',
-    'Gerard Salton (TF-IDF, 1975)',
-    'George Kingsley Zipf (1949)',
-    'Google Cloud / Looker Team',
-    'Microsoft Power BI Team',
-  ],
+  "NIST/SEMATECH e-Handbook — Box Plot",
+  "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+  "scikit-learn — Feature extraction",
+  "Microsoft — DAX overview",
+  "Tableau — Filters and Level of Detail Expressions",
+  "IBM — CRISP-DM Help Overview"
+],
   alertasCebraspe: [
-    'Tipos de Atributos e Variáveis: Qualitativos/Categóricos dividem-se em Nominais (sem hierarquia intrínseca, ex.: partido político, UF) e Ordinais (com ordenação natural, ex.: nível de escolaridade, prioridade de tramitação baixa/média/alta); Quantitativos/Numéricos dividem-se em Discretos (contagens inteiras, ex.: quantidade de votos) e Contínuos (mensurações em escala real contínua, ex.: orçamento público em reais, percentual de tramitação).',
-    'Pipeline de Transformação (ETL vs. ELT): No ETL clássico, os dados são extraídos de fontes operacionais, transformados em um servidor intermediário (limpeza, tipagem e modelagem) e posteriormente carregados no Data Warehouse. No ELT contemporâneo em nuvem (Data Lakehouse), os dados brutos são carregados diretamente no repositório central e a transformação ocorre internamente aproveitando o poder computacional do banco de destino.',
-    'Diferenciação Crítica de Gráficos: Histograma visualiza a distribuição de frequências de uma variável quantitativa contínua agrupada em intervalos de classes (bins), não havendo espaçamento entre as barras contíguas; o Gráfico de Barras/Colunas destina-se à comparação de categorias discretas qualitativas. O Box Plot (diagrama de caixas) evidencia a mediana, os percentis 25 e 75 (intervalo interquartil IQR) e detecta outliers univariados situados além de 1,5 * IQR das hastes.',
-    'Comparativo de Ferramentas de BI (Power BI vs. Tableau vs. Looker Studio): O Cebraspe cobra o reconhecimento das principais plataformas analíticas do mercado. O Power BI (Microsoft) fundamenta-se nas linguagens Power Query (M) e DAX, estruturando-se no Esquema em Estrela; o Tableau (Salesforce) utiliza o motor VizQL e expressões LOD (Level of Detail); e o Google Looker Studio (anteriormente Google Data Studio, renomeado em 2022) destaca-se como ferramenta 100% em nuvem e integrada nativamente ao BigQuery e ao Google Workspace.',
-    'Análise Exploratória de Dados (EDA) e Correlação vs. Causalidade: Formulada por John Tukey (1977), a EDA prioriza gráficos e estatísticas descritivas para descobrir padrões e anomalias sem premissas rígidas. Atenção: forte correlação estatística entre duas variáveis nunca implica, por si só, relação de causalidade determinística (perigo de correlações espúrias).',
-    'Mineração de Dados e Metodologia CRISP-DM: O processo é cíclico e iterativo em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Preparação dos Dados, Modelagem, Avaliação e Implantação. A fase de Preparação dos Dados absorve de 70% a 80% do esforço global do projeto. Tarefas descritivas (agrupamento K-Means, regras de associação Apriori) não possuem variável-alvo rotulada; tarefas preditivas (classificação com árvores/SVM/Naive Bayes, regressão) visam prever um atributo-meta previamente rotulado.',
-    'Text Mining, TF-IDF e Lei de Zipf: No pré-processamento textual, o stemming (ex.: Porter) reduz palavras a radicais por poda heurística rápida que nem sempre gera termos de dicionário; a lematização utiliza morfologia e contexto para obter o lema dicionarizado. A métrica TF-IDF zera o peso de stopwords universais (alto DF, logo IDF nulo). Pela Lei de Zipf e postulados de Luhn, palavras de frequência intermediária concentram a máxima densidade semântica para indexação e busca.',
-    'Storytelling com Dados e Edward Tufte: O princípio do Data-Ink Ratio (taxa de tinta de dados) de Edward Tufte prescreve maximizar a proporção de tinta dedicada estritamente à representação de dados quantitativos, eliminando o "chartjunk" (lixo visual: efeitos 3D, sombras, grades densas e decorações que aumentam a carga cognitiva desnecessariamente). Cole Knaflic enfatiza o uso de atributos pré-atencionais (cor deliberada e contraste) para guiar o olhar da audiência.',
-  ],
+  "Ausência e valor zero têm significados diferentes. A substituição muda distribuição e medidas em geral e precisa de justificativa conforme o mecanismo de ausência e a tarefa.",
+  "O algoritmo encontra uma estrutura conforme representação, métrica e parâmetros. A interpretação jurídica e a validade da categoria requerem avaliação adicional.",
+  "A negação pode alterar radicalmente a proposição. Frequência global não torna um termo semanticamente inútil para toda tarefa. Stopwords devem ser avaliadas no domínio e no objetivo."
+],
   quadroComparativo: {
-    titulo: 'Comparação de Gráficos Estatísticos e suas Aplicações Analíticas',
-    colunas: ['Gráfico', 'Tipo de Variável Indicada', 'Objetivo Analítico Primordial', 'Pegadinha Típica Cebraspe'],
-    linhas: [
-      ['Gráfico de Barras / Colunas', 'Variáveis Categóricas (Nominais ou Ordinais)', 'Comparar magnitudes absolutas ou relativas entre categorias discretas', 'Afirmar que o gráfico de barras é o instrumento adequado para avaliar a densidade de probabilidade de dados contínuos (FALSO: cabe ao Histograma).'],
-      ['Histograma', 'Variáveis Numéricas Contínuas', 'Visualizar a forma da distribuição de frequência, simetria e bimodalidade', 'Confundir com gráfico de colunas; no histograma as barras tocam-se indicando continuidade de classes.'],
-      ['Box Plot (Diagrama de Caixas)', 'Variáveis Numéricas Contínuas segmentadas por grupos', 'Identificar mediana, dispersão interquartil (IQR), assimetria e valores discrepantes (outliers)', 'Dizer que a linha no meio da caixa representa a média aritmética (FALSO: representa estritamente a MEDIANA).'],
-      ['Gráfico de Dispersão (Scatter Plot)', 'Duas Variáveis Numéricas Contínuas (Bivariada)', 'Avaliar correlação, força e direção da associação entre duas variáveis', 'Inferir causalidade determinística imediata a partir de uma forte correlação estatística linear visível.'],
-      ['Gráfico de Linhas', 'Variável Numérica Contínua versus Tempo (Temporal)', 'Acompanhar tendências, sazonalidade e ciclos ao longo de séries cronológicas', 'Utilizar linhas contínuas para conectar categorias nominais sem qualquer relação temporal ou sequencial.'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Ciência de Dados, Tipologias, Métricas e Análise Exploratória (EDA)
-
-#### A. Estrutura e Formato dos Dados
-* **Dados Estruturados:** Dados organizados em esquemas rígidos e relacionais predefinidos, com tabelas bidimensionais de linhas (registros) e colunas (atributos tipados), consultáveis via SQL (ex.: bancos relacionais PostgreSQL e Oracle).
-* **Dados Semiestruturados:** Dados que não possuem um esquema rígido relacional, mas contêm marcadores, tags ou hierarquias internas que delimitam seus elementos constituintes (ex.: arquivos **JSON**, **XML**, **YAML**, cabeçalhos MARC 21).
-* **Dados Não Estruturados:** Dados desprovidos de modelo formal ou estrutura semântica intrínseca, correspondendo a mais de 80% do acervo parlamentar moderno (ex.: arquivos de texto corrido em PDF de proposições, transcrições taquigráficas de discursos, arquivos de áudio e transmissões de vídeo das sessões da Câmara).
-
-#### B. Classificação Estatística de Variáveis e Atributos
-* **Atributos Qualitativos (Categóricos):**
-  * **Nominais:** Categorias sem ordenação natural nem hierarquia implícita. Operações matemáticas limitam-se à igualdade/diferença e contagem de frequência / moda (ex.: UF de naturalidade do parlamentar, partido político, tipo documental).
-  * **Ordinais:** Categorias que guardam uma ordenação hierárquica intrínseca, embora os intervalos entre posições não sejam necessariamente iguais (ex.: nível de instrução, prioridade de tramitação: urgente > prioritária > ordinária, escala Likert de satisfação).
-* **Atributos Quantitativos (Numéricos):**
-  * **Discretos:** Valores inteiros finitos ou enumeráveis resultantes de contagens absolutas (ex.: número de emendas apresentadas, total de deputados votantes).
-  * **Contínuos:** Valores que podem assumir qualquer número real dentro de um intervalo mensurável contínuo (ex.: dotação orçamentária em reais, tempo de duração de um discurso em minutos e segundos).
-
-#### C. Métricas de Estatística Descritiva
-* **Tendência Central:**
-  * **Média Aritmética:** Soma de todos os valores dividida pelo número total de elementos. Extremamente **sensível a valores extremos (outliers)**.
-  * **Mediana:** Ponto central que divide o conjunto de dados ordenados em duas metades com 50% dos dados cada. É uma medida **robusta e resistente a outliers**.
-  * **Moda:** O valor que ocorre com maior frequência na distribuição de dados.
-* **Dispersão e Variabilidade:**
-  * **Variância ($s^2$):** Média dos desvios quadráticos em relação à média.
-  * **Desvio-Padrão ($s$):** Raiz quadrada da variância, expressa na mesma unidade de medida dos dados originais.
-  * **Intervalo Interquartil (IQR):** Diferença entre o terceiro quartil (Q3, percentil 75) e o primeiro quartil (Q1, percentil 25): $\\text{IQR} = Q3 - Q1$.
-
-#### D. Análise Exploratória de Dados (EDA - Exploratory Data Analysis)
-Formulada por **John Tukey** (1977), a Análise Exploratória de Dados preconiza investigar as características fundamentais de um conjunto de dados por meio de gráficos e medidas sumárias antes de aplicar qualquer modelagem formal:
-* **Sumário de Cinco Números de Tukey:** Mínimo, Primeiro Quartil (Q1), Mediana (Q2), Terceiro Quartil (Q3) e Máximo.
-* **Detecção de Valores Discrepantes (Outliers):**
-  * *Regra de Tukey (IQR):* Observações situadas abaixo de $Q1 - 1,5 \\times \\text{IQR}$ ou acima de $Q3 + 1,5 \\times \\text{IQR}$.
-  * *Escore Padrão (Z-Score):* Em distribuições aproximadamente normais, dados com $|Z| > 3$ (afastamento superior a três desvios-padrão da média).
-* **Tratamento de Dados Faltantes (Missing Values):**
-  * *Exclusão Listwise:* Descarte de registros inteiros incompletos (aceitável apenas se a perda for pequena e aleatória - MCAR).
-  * *Imputação:* Substituição de valores ausentes pela mediana (robusta a outliers) ou média da variável, ou por modelos preditivos (K-Nearest Neighbors).
-* **Correlação vs. Causalidade:**
-  * *Coeficiente de Correlação Linear de Pearson ($r$):* Varia entre $-1$ e $+1$, mensurando a força e a direção da associação linear entre duas variáveis contínuas.
-  * *Coeficiente de Postos de Spearman ($\\rho$):* Avalia associações monotônicas entre variáveis ordinais ou contínuas não lineares.
-  * **Advertência de Rigor:** Constatar correlação estatística entre dois fenômenos jamais comprova que um causa o outro; podem existir variáveis ocultas intervenientes (*confounding variables*) ou correlações puramente casuais (espúrias).
-
----
-
-### 2. O Pipeline de Dados: Engenharia de Transformação (ETL vs. ELT)
-
-* **ETL Tradicional (Extract, Transform, Load):**
-  1. *Extract:* Extração dos dados de bancos transacionais operacionais (OLTP).
-  2. *Transform:* Limpeza, conversão de tipos de dados, desduplicação, normalização e agregação realizadas em uma camada de processamento dedicada (Staging Area).
-  3. *Load:* Carga dos dados limpos e prontos diretamente no Data Warehouse (DW) para consultas analíticas (OLAP).
-* **ELT Moderno (Extract, Load, Transform):**
-  * Utilizado em ecossistemas de Big Data e Data Lakes na nuvem. Os dados brutos são extraídos e carregados diretamente no repositório de destino em seu estado cru; a transformação é executada sob demanda aproveitando o poder massivo de processamento distribuído da infraestrutura de destino.
-* **Operações Essenciais de Limpeza e Preparação:**
-  * *Normalização e Padronização:* Reescalonamento para intervalos definidos (ex.: Min-Max Scaling entre 0 e 1, ou Z-Score com média zero e variância unitária).
-  * *Pivoteamento (*Pivot / Unpivot*):* Transposição de linhas para colunas (ou vice-versa) para transformar tabelas largas em tabelas longas e normalizadas.
-
----
-
-### 3. Visualização de Dados e Ferramentas Analíticas Corporativas
-
-#### A. A Gramática dos Gráficos e a Escolha da Visualização Apropriada
-* **Histograma:** Divide dados numéricos contínuos em faixas contíguas (*bins*) e plota a contagem de ocorrências. As barras tocam-se diretamente, denotando a continuidade da variável. Revela simetria, assimetria positiva/negativa e presença de bimodalidade.
-* **Box Plot (Diagrama de Caixas de Tukey):**
-  * A linha central da caixa representa a **Mediana** (Q2).
-  * As bordas inferior e superior da caixa indicam, respectivamente, o **Primeiro Quartil (Q1 - 25%)** e o **Terceiro Quartil (Q3 - 75%)**.
-  * A altura da caixa é a distância interquartil: $\\text{IQR} = Q3 - Q1$.
-  * As hastes (*whiskers*) estendem-se até o menor e maior valor dentro do limite de $1,5 \\times \\text{IQR}$.
-  * Pontos plotados além dos limites das hastes são formalmente classificados como **outliers** (valores discrepantes).
-* **Gráfico de Dispersão (*Scatter Plot*):** Plota pontos de dados ao longo de dois eixos cartesianos ($X$ e $Y$), permitindo identificar correlação linear ou não linear, agrupamentos naturais e dispersão conjunta.
-* **Gráficos de Linhas vs. Barras:** Linhas são reservadas exclusivamente para fenômenos contínuos ou temporais. Barras e colunas devem obrigatoriamente iniciar o eixo quantitativo no valor zero para evitar distorção visual de proporções relativas.
-
-#### B. Ferramentas Corporativas: O Ecossistema Microsoft Power BI
-* **Power Query e Linguagem M:** Módulo responsável pelo processo de ETL. Cada etapa aplicada gera uma fórmula declarativa na Linguagem M, que é reexecutada a cada atualização do conjunto de dados.
-* **DAX (Data Analysis Expressions):** Linguagem de fórmulas analíticas usada para criar:
-  * *Colunas Calculadas:* Avaliadas linha a linha durante a carga de dados, ocupando espaço de memória RAM.
-  * *Medidas Calculadas:* Fórmulas dinâmicas avaliadas em tempo real durante a renderização do relatório, operando sobre o **Contexto de Filtro** vigente na interação do usuário.
-* **Modelagem de Dados e Esquema em Estrela (*Star Schema*):**
-  * O padrão-ouro de modelagem dimensional de BI. Composto por uma ou mais tabelas de fatos centrais ligadas em relacionamentos 1 para muitos ($1:*$) com tabelas de dimensões desnormalizadas circundantes, otimizando o desempenho do motor colunar VertiPaq.
-* **Recurso "Analisar no Excel":** Permite que usuários conectem planilhas convencionais do Microsoft Excel diretamente a um modelo semântico corporativo hospedado no Serviço Power BI, consultando tabelas dinâmicas com segurança e integridade centralizada.
-
-#### C. Ferramentas Analíticas do Mercado: Tableau e Google Looker Studio (antigo Data Studio)
-* **Tableau (Salesforce):**
-  * Baseado na tecnologia **VizQL (Visual Query Language)**, que traduz visualmente ações de arrastar e soltar campos em consultas estruturadas de banco de dados.
-  * Expressões **LOD (Level of Detail)**: permitem cálculos em granularidades distintas da visualização da tela:
-    * \`FIXED\`: calcula o valor em uma dimensão específica, ignorando filtros e granularidade da exibição;
-    * \`INCLUDE\`: calcula o valor em um nível de detalhe mais profundo que o da visualização atual;
-    * \`EXCLUDE\`: calcula o valor em um nível de detalhe menos granular, agrupando dimensões exibidas.
-  * Notável capacidade de exploração visual livre, gráficos avançados (mapas georreferenciados, dispersão multidimensional) e análises estatísticas profundas.
-* **Google Looker Studio (anteriormente Google Data Studio):**
-  * Lançado como Google Data Studio e **rebatizado oficialmente pelo Google em outubro de 2022 para Looker Studio**, integrando a suíte de dados da Google Cloud.
-  * Ferramenta analítica **100% web e nativa na nuvem**, com versão gratuita integrada diretamente à conta Google.
-  * Integração nativa e imediata com as fontes de dados do ecossistema Google (Google BigQuery, Google Sheets, Google Analytics, YouTube Analytics e Google Drive), além de conectores para SQL e bases de dados externas.
-  * Foco em agilidade, compartilhamento colaborativo na Web e dashboards executivos limpos, sem exigir linguagens complexas de modelagem semântica como DAX.
-
-| Dimensão Comparativa | Microsoft Power BI | Tableau (Salesforce) | Google Looker Studio |
-| :--- | :--- | :--- | :--- |
-| **Fabricante / Ecossistema** | Microsoft (Windows, Office 365, Fabric) | Salesforce (Tableau Cloud / Server) | Google Cloud (Google Workspace / GCP) |
-| **Motor de Consulta / Tecnologia** | VertiPaq (colunar em memória) | VizQL (Visual Query Language) | Conectores diretos em nuvem / BigQuery BI Engine |
-| **Linguagem de Cálculo** | DAX (fórmulas analíticas) e M (Power Query) | Cálculos Tableau e Expressões LOD | Campos calculados em sintaxe simplificada |
-| **Ambiente de Criação** | Power BI Desktop (aplicativo local Windows) | Tableau Desktop e Tableau Web Authoring | 100% Web no navegador (sem aplicativo local) |
-| **Curva de Aprendizado** | Média (exige domínio de DAX e modelo estrela) | Alta (grande flexibilidade visual e cálculos LOD) | Baixa / Acessível (criação rápida de relatórios) |
-| **Perfil Típico de Uso** | BI corporativo de larga escala | Análise exploratória científica e visualização complexa | Relatórios operacionais ágeis e dashboards web |
-
----
-
-### 4. Storytelling com Dados e Princípios Perceptuais
-
-#### A. A Filosofia de Edward Tufte (*Data-Ink Ratio*)
-* **Taxa de Tinta de Dados (*Data-Ink Ratio*):**
-  $\\text{Data-Ink Ratio} = \\frac{\\text{Tinta dedicada aos dados}}{\\text{Tinta total utilizada no gráfico}}$
-  Tufte postula que a meta de qualquer representação gráfica de excelência é aproximar essa taxa de 1,0, eliminando impiedosamente qualquer tinta que não transmita dados objetivos.
-* **Eliminação de *Chartjunk* (Lixo Visual):** Remoção de elementos estéticos artificiais que distraem o observador, tais como efeitos 3D falsos em barras ou tortas, fundos coloridos carregados, linhas de grade pesadas e marcadores redundantes.
-
-#### B. Metodologia de Cole Nussbaumer Knaflic (*Storytelling with Data*)
-* **Entendimento do Contexto:** Identificar claramente quem é a audiência (gestores, parlamentares, cidadãos), qual a ação requerida e qual a mensagem nuclear do relatório.
-* **Atributos Pré-Atencionais:** Propriedades visuais processadas pela memória sensorial humana em frações de segundo antes da atenção consciente: **Cor deliberada** (usar cores neutras/cinzas para dados secundários e uma única cor de destaque saturada para o dado focal), tamanho relativo e espessura de traço.
-* **Redução da Carga Cognitiva:** Eliminação de obstáculos perceptuais, alinhamento consistente de textos e inserção de rótulos de dados diretamente sobre as curvas em vez de forçar o leitor a alternar constantemente entre o gráfico e uma legenda distante.
-
----
-
-### 5. Mineração de Dados (Data Mining) Estrutura Padrões Preditivos e Descritivos pelo Ciclo CRISP-DM
-
-#### A. O Processo de Mineração de Dados: O Ciclo de Vida CRISP-DM
-O padrão de fato mais adotado internacionalmente para projetos de mineração de dados é o **CRISP-DM (Cross-Industry Standard Process for Data Mining)**, concebido por um consórcio industrial (Chapman et al., 2000). O modelo é **cíclico, adaptativo e iterativo**, estruturado em seis fases sucessivas:
-1. **Entendimento do Negócio (*Business Understanding*):** Compreensão aprofundada dos objetivos institucionais e restrições do projeto sob a perspectiva organizacional (ex.: identificar padrões de emendas orçamentárias ou evasão de usuários na biblioteca), convertendo essas metas em uma definição formal de problema de mineração de dados.
-2. **Entendimento dos Dados (*Data Understanding*):** Coleta inicial dos dados brutos, exploração preliminar de sua estrutura, identificação de problemas de qualidade (inconsistências, valores ausentes, duplicidades) e geração de primeiros insights exploratórios.
-3. **Preparação dos Dados (*Data Preparation*):** Construção do conjunto de dados final que alimentará as ferramentas de modelagem. Envolve tarefas complexas de limpeza, desduplicação, seleção de atributos (*feature selection*), derivação de novas variáveis (*feature engineering*), transformação de tipos, normalização e integração de múltiplas fontes. **Atenção Cebraspe:** Esta fase consome historicamente cerca de **70% a 80% do tempo e esforço total** de qualquer projeto de mineração de dados.
-4. **Modelagem (*Modeling*):** Seleção e aplicação de diversas técnicas algorítmicas de aprendizado de máquina (árvores de decisão, agrupamento k-means, redes neurais, regras de associação) e ajuste fino de seus hiperparâmetros. É comum retornar à fase de Preparação caso o algoritmo exija formatação específica dos dados (ex.: binarização de variáveis categóricas).
-5. **Avaliação (*Evaluation*):** Verificação rigorosa se os modelos gerados atendem plenamente aos objetivos de negócio fixados na Fase 1. Analisam-se métricas estatísticas de desempenho (curva ROC/AUC, matriz de confusão, precisão, revocação, F1-score) e eventuais vieses ou falhas antes de aprovar a implantação.
-6. **Implantação (*Deployment*):** Operacionalização do modelo no ambiente de produção (ex.: integração a um dashboard executivo do Portal da Câmara, disponibilização de serviço de recomendação de leitura no catálogo da biblioteca ou pipeline automatizado de classificação de discursos).
-
-#### B. Taxonomia de Tarefas de Mineração de Dados
-A mineração divide-se fundamentalmente em duas grandes vertentes analíticas:
-* **Tarefas Descritivas (Aprendizado Não Supervisionado):**
-  * Buscam identificar padrões intrínsecos, correlações, associações ou estruturas ocultas subjacentes aos dados, **sem a presença de uma variável-alvo previamente rotulada**.
-  * *Agrupamento (*Clustering*):* Particiona os registros em grupos (clusters) onde a similaridade interna intra-cluster é maximizada e a similaridade inter-clusters é minimizada (ex.: algoritmo **K-Means**, DBSCAN). Aplicação: segmentar parlamentares por perfil de votação ou usuários da biblioteca por áreas de interesse de pesquisa.
-  * *Regras de Associação:* Descobre relações de coocorrência e dependência entre itens transacionais (ex.: algoritmo **Apriori**). Fundamenta-se em três métricas canônicas:
-    * **Suporte (*Support*):** Frequência relativa em que o conjunto de itens aparece em todas as transações.
-    * **Confiança (*Confidence*):** Probabilidade condicional de o item consequente $Y$ ocorrer dado que o item antecedente $X$ ocorreu: $P(Y|X)$.
-    * **Lift:** Mede a força da regra comparada à independência estatística dos itens: $\\text{Lift} > 1$ indica associação positiva relevante.
-* **Tarefas Preditivas (Aprendizado Supervisionado):**
-  * Buscam modelar a relação entre variáveis preditoras (atributos) e uma **variável-alvo (*target*) previamente rotulada**, visando estimar ou prever o valor desse atributo em novos dados não observados.
-  * *Classificação:* A variável-alvo é **qualitativa/categórica e discreta** (ex.: prever se uma proposição legislativa será aprovada ou rejeitada; classificar um e-mail como spam ou não spam; classificar documentos em classes da CDD/CDU). Algoritmos: Árvores de Decisão (C4.5, CART), Florestas Aleatórias (*Random Forest*), Máquinas de Vetores de Suporte (SVM), *Naive Bayes* e Regressão Logística.
-  * *Regressão:* A variável-alvo é **quantitativa/numérica contínua** (ex.: prever o custo orçamentário futuro de uma emenda parlamentar ou o número de empréstimos que uma obra terá no próximo semestre). Algoritmos: Regressão Linear Simples/Múltipla, Árvores de Regressão e Redes Neurais Artificiais.
-
-### 6. Mineração de Textos (Text Mining) e TF-IDF Operam na Faixa Áurea de Luhn Sob a Lei de Zipf
-
-#### A. Mineração de Textos (*Text Mining*) e Pipeline de Processamento de Linguagem Natural
-Enquanto a mineração de dados opera sobre tabelas estruturadas, o *Text Mining* lida com o desafio de extrair conhecimento estruturado e acionável a partir de **textos em linguagem natural não estruturados** (pareceres, discursos, atas, projetos de lei).
-* **Pipeline Canônico de Pré-Processamento Textual:**
-  1. *Extração e Limpeza do Corpus:* Remoção de tags HTML, marcações XML, caracteres não alfanuméricos e conversão de todo o texto para minúsculas (*case folding*).
-  2. *Tokenização (*Tokenization*):* Segmentação do fluxo textual contínuo em unidades atômicas discretas denominadas **tokens** (geralmente palavras isoladas ou termos compostos/n-gramas).
-  3. *Remoção de Palavras de Parada (*Stopwords Removal*):* Filtragem e descarte de palavras estritamente gramaticais/funcionais de altíssima ocorrência no idioma (artigos, preposições, conjunções, pronomes como "de", "a", "o", "que", "em"). Tais vocábulos não possuem poder semântico discriminatório para caracterizar o assunto do documento.
-  4. *Redução Morfológica do Vocabulário:*
-     * **Stemming (Radicalização):** Processo heurístico computacionalmente rápido que decepa e remove prefixos e sufixos morfológicos da palavra, reduzindo-a a um radical básico (*stem*). **Atenção:** O radical resultante não é necessariamente uma palavra válida no dicionário (ex.: o algoritmo canônico de **Porter, 1980** reduz "biblioteca", "bibliotecário" e "biblioteconomia" para o radical comum \`bibliotec\`).
-     * **Lemmatization (Lematização):** Processo linguístico muito mais sofisticado e profundo que utiliza tabelas morfológicas e análise do contexto sintático/gramatical (*Part-of-Speech Tagging*) para mapear cada palavra flexionada ao seu **lema canônico de dicionário** (ex.: os verbos "foram", "era", "fui" são reduzidos ao lema verbal "ser"; o substantivo plural "leis" é reduzido ao lema no singular "lei").
-
-#### B. Ponderação Term Frequency – Inverse Document Frequency (TF-IDF)
-Desenvolvido por **Gerard Salton** (1975) no âmbito do **Modelo de Espaço Vetorial (*Vector Space Model*)** de Recuperação da Informação, o TF-IDF é a métrica padrão para converter textos em vetores numéricos de pesos semânticos ponderados:
-* **Frequência do Termo ($TF_{t,d}$ - Term Frequency):**
-  Mede a importância local de um termo $t$ dentro de um documento específico $d$:
-  $TF_{t,d} = \\frac{\\text{Contagem de ocorrências do termo } t \\text{ no documento } d}{\\text{Total de termos no documento } d}$
-  Quanto mais vezes o termo é repetido no documento, maior tende a ser sua relevância para o assunto tratado naquele texto.
-* **Frequência Inversa no Documento ($IDF_t$ - Inverse Document Frequency):**
-  Mede a especificidade ou raridade informacional do termo $t$ no conjunto global de documentos (corpus com $N$ documentos):
-  $IDF_t = \\log \\left( \\frac{N}{DF_t} \\right)$
-  Onde $N$ é o total de documentos do corpus e $DF_t$ (*Document Frequency*) é o número de documentos em que o termo $t$ aparece ao menos uma vez.
-  * Termos ubíquos que aparecem em praticamente todos os documentos do acervo (ex.: "Brasil", "artigo", "lei" em uma base legislativa) terão $DF_t \\approx N$, logo $\\frac{N}{DF_t} \\approx 1$ e $IDF_t = \\log(1) = 0$. Ou seja, seu peso global é neutralizado.
-  * Termos raros e altamente específicos (ex.: "desregulamentação", "biotecnologia") aparecem em poucos documentos ($DF_t$ baixo), resultando em um valor de $IDF$ elevado.
-* **Peso Final TF-IDF:**
-  $TF\\text{-}IDF_{t,d} = TF_{t,d} \\times IDF_t$
-  O peso é máximo quando um termo ocorre muitas vezes em um documento restrito (alto TF) e raramente no restante da biblioteca (alto IDF).
-
-#### C. Conexão Epistemológica com a Lei de Zipf e os Pontos de Corte de Luhn
-A fundamentação teórica que legitima o uso do TF-IDF e da remoção de stopwords no *Text Mining* ancora-se na Bibliometria clássica:
-* **A Lei de Zipf (George Kingsley Zipf, 1949):**
-  Demonstra que, em qualquer corpus em linguagem natural, a frequência de ocorrência ($f$) de uma palavra é inversamente proporcional ao seu posto de classificação ($r$) no ranking ordenado de frequências:
-  $f \\times r = C \\quad \\text{ou} \\quad f \\propto \\frac{1}{r}$
-  A palavra mais frequente ocorre aproximadamente o dobro de vezes da segunda mais frequente, o triplo da terceira, e assim sucessivamente.
-* **Os Pontos de Corte de H. P. Luhn (1958):**
-  O pioneiro da indexação automática H. P. Luhn cruzou a curva hiperbólica de Zipf com o valor informacional das palavras, estabelecendo dois limites fundamentais:
-  1. *Ponto de Corte Superior:* Elimina as palavras do topo da distribuição de Zipf. São palavras de altíssima frequência (artigos, preposições, pronomes), porém de **nula carga semântica específica** (as *stopwords*). No TF-IDF, essas palavras recebem $IDF \\approx 0$.
-  2. *Ponto de Corte Inferior:* Elimina as palavras da cauda longa da distribuição de Zipf (*hapax legomena* — palavras que ocorrem apenas uma ou duas vezes em todo o acervo). Apresentam frequência tão ínfima que são estatisticamente desprezíveis ou representam erros tipográficos e ruídos.
-  3. *Zona de Transição Intermediária (Faixa Áurea de Luhn):* Palavras situadas entre o corte superior e o inferior. Possuem frequência média e concentram a **máxima densidade informacional e poder discriminatório semântico**, sendo os alvos nobres selecionados pelos algoritmos de mineração de textos para classificação automática, extração de tópicos e recuperação em bases legislativas.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Sistemas Informacionais e Bancos de Dados (sub-6-5):** Modelagem relacional (MER) e extração de dados.
-* **SQL, Regex e APIs (sub-6-6):** Consultas SQL e filtros de pré-processamento de dados.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Ciência de Dados, a Mineração de Textos (*Text Mining*), a Visualização de Dados e o *Storytelling*** transformam acervos e dados brutos em inteligência acionável:
-1. **O Ciclo KDD (*Knowledge Discovery in Databases* - Fayyad et al., 1996):**
-   - Processo não trivial de identificação de padrões válidos, novos, potencialmente úteis e compreensíveis em grandes volumes de dados.
-   - **As 5 Etapas do KDD:**
-     1. *Seleção:* Amostragem e isolamento dos dados relevantes.
-     2. *Pré-processamento:* Limpeza de ruídos, tratamento de dados ausentes e inconsistentes.
-     3. *Transformação:* Redução de dimensionalidade, normalização e agregação de atributos.
-     4. *Mineração de Dados (Data Mining):* Aplicação de algoritmos para extrair padrões (classificação, regressão, agrupamento/clusterização e associação).
-     5. *Interpretação e Avaliação:* Análise crítica dos padrões descobertos para tomada de decisão.
-2. **Mineração de Textos (*Text Mining*):**
-   - Descoberta de conhecimento em dados textuais não estruturados (discursos parlamentares, pareceres, ementas).
-   - Técnicas: Reconhecimento de Entidades Nomeadas (NER: identifica pessoas, órgãos e locais); Análise de Sentimento; e Modelagem de Tópicos (*Topic Modeling* - ex.: LDA - Latent Dirichlet Allocation).
-3. **Visualização de Dados e Storytelling (Cole Nussbaumer Knaflic):**
-   - Comunicação eficaz de dados por meio de gráficos adequados e narrativa visual envolvente.
-   - **Princípios do Storytelling com Dados:**
-     - Eliminar poluição visual (*clutter*): retirar grades pesadas, bordas 3D e efeitos ornamentais inúteis.
-     - Focar a atenção do público utilizando atributos pré-atencionais (cor destacada em um elemento-chave, contraste e tamanho).
-     - Escolha correta do gráfico: barras/colunas para comparações categóricas; linhas para séries temporais contínuas; dispersão para correlações. **Gráficos de pizza com muitas fatias são desaconselhados!**
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Modelagem de Tópicos nos Discursos em Plenário):** A equipe do CEDI aplica o algoritmo LDA (*Latent Dirichlet Allocation*) sobre 50.000 discursos proferidos no Plenário Ulysses Guimarães ao longo da legislatura. O modelo agrupa automaticamente os discursos em 10 temas emergentes principais (ex.: transição energética, marco temporal, reforma tributária), permitindo à biblioteca mapear a evolução das preocupações parlamentares ao longo do tempo.
-- **Cenário 2 (Storytelling em Painel do Orçamento da União):** Para apresentar a execução das emendas parlamentares aos líderes partidários, o bibliotecário projeta um *dashboard* interativo no Power BI aplicando os princípios de Knaflic: elimina o excesso de linhas de grade, destaca em vermelho apenas as emendas com risco de cancelamento por perda de prazo e utiliza gráfico de barras horizontais ordenadas para visualização instantânea em 5 segundos.
-- **Cenário 3 (Reconhecimento de Entidades Nomeadas - NER na Indexação Automática):** Ao receber o texto integral de uma lei ordinária de 100 páginas, um algoritmo de NER varre o documento e extrai automaticamente todas as menções a ministérios, autarquias e municípios, gerando sugestões prontas de pontos de acesso no formato MARC 21 para o catalogador validar.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Etapa KDD / Tipo de Gráfico | Objetivo Prático | Aplicação Recomendada | Conduta Desaconselhada |
-| :--- | :--- | :--- | :--- |
-| **Pré-processamento** | Limpar ruídos e nulos | Antes da mineração algorítmica | Aplicar algoritmo em dado corrompido |
-| **Data Mining** | Extrair padrões matemáticos | Fase 4 do KDD (o núcleo do processo) | Confundir Data Mining com o KDD inteiro |
-| **Gráfico de Linhas** | Mostrar evolução contínua no tempo | Séries temporais de votações anuais | Usar linha para variáveis categóricas |
-| **Gráfico de Barras** | Comparar grandezas entre categorias | Gastos por comissão parlamentar | Usar 3D com sombras e poluição visual |
-| **Gráfico de Pizza** | Mostrar proporção de um todo simples | Máximo de 2 a 3 fatias bem contrastadas | Usar com dezenas de fatias semelhantes |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Data Mining é Sinônimo do Processo KDD Inteiro:** O Cebraspe afirma que Mineração de Dados (Data Mining) e KDD são termos rigorosamente idênticos. **Gabarito: ERRADO.** O KDD é o processo metodológico completo de 5 etapas; o Data Mining é apenas **uma das etapas (a etapa 4)** do ciclo KDD.
-- **Uso de Gráficos 3D em Storytelling:** Dizer que gráficos tridimensionais (3D) aumentam a precisão da leitura de dados pelo público. **Gabarito: ERRADO.** Em visualização de dados (Knaflic e Tufte), gráficos em 3D distorcem as proporções visuais e são considerados poluição visual grave (*chartjunk*).
-- **Tratamento de Dados Ausentes:** O Cebraspe propõe que na etapa de pré-processamento todos os dados ausentes devem ser obrigatoriamente apagados do banco. **Gabarito: ERRADO.** Dados ausentes podem ser imputados por média, mediana ou modelagem estatística, avaliando-se o impacto no conjunto.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **FAYYAD, Usama; PIATETSKY-SHAPIRO, Gregory; SMYTH, Padhraic.** From data mining to knowledge discovery in databases. *AI Magazine*, v. 17, n. 3, p. 37-54, 1996. (O artigo seminal que definiu as etapas do processo KDD).
-- **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios*. Rio de Janeiro: Alta Books, 2019. (A principal referência em comunicação e design de dados).
-- **PROVOST, Foster; FAWCETT, Tom.** *Data Science para Negócios: o que você precisa saber sobre mineração de dados e pensamento analítico de dados*. Rio de Janeiro: Alta Books, 2016.
-- **TUFTE, Edward R.** *The Visual Display of Quantitative Information*. 2. ed. Cheshire: Graphics Press, 2001. (O clássico pioneiro da teoria da visualização de dados).
-- **MANNING, Christopher D. et al.** *Foundations of Statistical Natural Language Processing*. Cambridge: MIT Press, 1999.
-
-### Pausa de Recuperação Ativa: Tríade CID e Bases Legais da LGPD
-
-> [!TIP]
-> **Pausa de Recuperação Ativa (Active Recall):** Defina a Tríade CID da segurança da informação (Confidencialidade, Integridade e Disponibilidade). Na LGPD (Lei 13.709/2018), cite pelo menos três bases legais para tratamento de dados pessoais além do consentimento do titular.
-`,
-  checkpoints: [
-    {
-      id: 'cp-14-4-1',
-      pergunta: 'Micro-Checkpoint 1: Estatística Descritiva - Box Plot e Outliers',
-      item: 'No diagrama de caixas (Box Plot), a linha horizontal situada no interior do retângulo indica a média aritmética da distribuição, enquanto os pontos isolados além das hastes indicam os valores classificados como outliers com base no intervalo interquartil.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Conforme a gramática gráfica de John Tukey (1977) e Stephen Few (2012), a linha central no interior da caixa do Box Plot representa estritamente a MEDIANA (segundo quartil, Q2), e não a média aritmética.',
-    },
-    {
-      id: 'cp-14-4-2',
-      pergunta: 'Micro-Checkpoint 2: Mineração de Dados - Processo CRISP-DM e Tarefas',
-      item: 'No modelo de processo CRISP-DM, as tarefas descritivas de mineração, a exemplo do agrupamento (clustering) e das regras de associação, destinam-se a prever o comportamento futuro de uma variável-alvo previamente rotulada a partir do treinamento de atributos preditores.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Segundo a metodologia do consórcio CRISP-DM (Chapman et al., 2000) e Tanenbaum (2021), a predição de variável-alvo rotulada é atribuição exclusiva das tarefas PREDITIVAS (classificação e regressão). As tarefas DESCRITIVAS (agrupamento/clustering e regras de associação como Apriori) buscam padrões intrínsecos e estruturas subjacentes aos dados sem qualquer variável-alvo prévia (aprendizado não supervisionado).',
-    },
-    {
-      id: 'cp-14-4-3',
-      pergunta: 'Micro-Checkpoint 3: Text Mining - TF-IDF e Lei de Zipf',
-      item: 'No âmbito da mineração de textos e da recuperação de informações, a métrica TF-IDF penaliza palavras de altíssima frequência no corpus global mediante a aplicação do IDF, convergindo teoricamente com a Lei de Zipf e com os postulados de Luhn, segundo os quais termos de frequência intermediária concentram a máxima capacidade de discriminação semântica.',
-      gabarito: 'C',
-      justificativa:
-        'Certo! Conforme formulado por Gerard Salton (1975), George Kingsley Zipf (1949) e H. P. Luhn (1958), termos onipresentes (stopwords) possuem frequência documental elevada que zera o IDF, enquanto termos de frequência intermediária entre os pontos de corte de Luhn concentram o maior poder discriminante na indexação e recuperação textual.',
-    },
+  "titulo": "Dados: distinguir operação e conclusão",
+  "colunas": [
+    "Operação",
+    "O que descreve",
+    "Não prova"
   ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-14-4-1',
-        periodo: '1949 / 1958',
-        disciplina: 'Bibliometria e Indexação Automática',
-        focoPrincipal: 'Formulação da Lei de Zipf (relação frequência-posto) e dos pontos de corte de frequência de H. P. Luhn',
-        figuraChave: 'George Kingsley Zipf e H. P. Luhn',
-      },
-      {
-        id: 'tl-14-4-2',
-        periodo: '1975 / 1977',
-        disciplina: 'Recuperação da Informação e EDA',
-        focoPrincipal: 'Desenvolvimento do Modelo Vetorial e TF-IDF por Gerard Salton e publicação da Análise Exploratória de Dados por John Tukey',
-        figuraChave: 'Gerard Salton e John Tukey',
-      },
-      {
-        id: 'tl-14-4-3',
-        periodo: '2000 / 2015',
-        disciplina: 'Mineração de Dados e BI Moderno',
-        focoPrincipal: 'Publicação da metodologia CRISP-DM pelo consórcio industrial e lançamento do Microsoft Power BI',
-        figuraChave: 'Consórcio CRISP-DM / Microsoft',
-      },
-      {
-        id: 'tl-14-4-4',
-        periodo: '2016 / 2022',
-        disciplina: 'BI em Nuvem e Storytelling',
-        focoPrincipal: 'Lançamento do Google Data Studio (rebatizado em 2022 como Looker Studio) e obra de Cole Knaflic',
-        figuraChave: 'Google Cloud / Cole Nussbaumer Knaflic',
-      },
+  "linhas": [
+    [
+      "Média",
+      "Centro aritmético",
+      "Valor típico robusto a todo extremo"
     ],
-    autores: [
-      {
-        id: 'aut-14-4-1',
-        nome: 'Edward Tufte',
-        ano: 2001,
-        obraPrincipal: 'The Visual Display of Quantitative Information (2ª Ed.)',
-        ideiaChave: 'Data-Ink Ratio: maximização de tinta dedicada aos dados reais e eliminação de chartjunk.',
-        chipPegadinha: 'Gráficos 3D artificiais constituem lixo visual prejudicial.',
-      },
-      {
-        id: 'aut-14-4-2',
-        nome: 'John Tukey',
-        ano: 1977,
-        obraPrincipal: 'Exploratory Data Analysis (EDA)',
-        ideiaChave: 'Investigação visual e quantitativa dos dados via Box Plot, sumário de cinco números e busca de padrões sem premissas prévias.',
-        chipPegadinha: 'A linha central do Box Plot é a mediana, não a média.',
-      },
-      {
-        id: 'aut-14-4-3',
-        nome: 'Gerard Salton / George Kingsley Zipf',
-        ano: 1975,
-        obraPrincipal: 'A Theory of Indexing / Human Behavior and the Principle of Least Effort (1949)',
-        ideiaChave: 'TF-IDF e Modelo Vetorial de Salton ancorados na Lei de Zipf: termos de frequência intermediária concentram máxima carga semântica.',
-        chipPegadinha: 'Stopwords têm alto TF no documento, mas IDF nulo por estarem em todo o acervo.',
-      },
-      {
-        id: 'aut-14-4-4',
-        nome: 'CRISP-DM Consortium (Chapman et al.)',
-        ano: 2000,
-        obraPrincipal: 'CRISP-DM 1.0: Step-by-step data mining guide',
-        ideiaChave: 'Ciclo de vida de mineração em 6 fases iterativas: a Preparação de Dados consome a maior parcela do esforço (70-80%).',
-        chipPegadinha: 'Descritivo não tem variável-alvo; Preditivo exige variável-alvo.',
-      },
+    [
+      "Box plot",
+      "Resumo por convenção",
+      "Que todo ponto externo é erro"
     ],
-    pegadinhas: [
-      {
-        id: 'peg-14-4-1',
-        afirmacao: 'Em um gráfico do tipo Box Plot, a extensão das hastes superior e inferior corresponde obrigatoriamente aos valores absolutos máximo e mínimo de todo o conjunto de dados amostrado.',
-        gabarito: 'E',
-        porQue: 'As hastes estendem-se até o limite máximo de 1,5 * IQR. Quaisquer observações além dessa fronteira são destacadas individualmente como outliers (valores discrepantes).',
-      },
-      {
-        id: 'peg-14-4-2',
-        afirmacao: 'O algoritmo de stemming garante que todas as palavras reduzidas ao seu radical tornem-se obrigatoriamente vocábulos gramaticalmente corretos e catalogados no dicionário do idioma.',
-        gabarito: 'E',
-        porQue: 'O stemming (ex.: algoritmo de Porter) atua por poda heurística de sufixos e afixos, gerando radicais que muitas vezes não são palavras dicionarizadas. Quem garante lema dicionarizado é a LEMATIZAÇÃO.',
-      },
-      {
-        id: 'peg-14-4-3',
-        afirmacao: 'Nas tarefas de mineração descritiva por regras de associação (algoritmo Apriori), um valor de Lift menor do que 1 indica que a presença do item antecedente aumenta a probabilidade de compra do item consequente.',
-        gabarito: 'E',
-        porQue: 'Lift > 1 indica associação positiva; Lift = 1 indica independência estatística; e Lift < 1 indica associação negativa (a presença de um inibe a presença do outro).',
-      },
+    [
+      "Correlação",
+      "Associação",
+      "Causalidade isoladamente"
     ],
+    [
+      "Agrupamento",
+      "Estrutura por similaridade",
+      "Categoria jurídica validada"
+    ],
+    [
+      "TF-IDF",
+      "Peso conforme corpus e fórmula",
+      "Relevância semântica universal"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### Dados e variáveis: representar antes de calcular\n\nDados **estruturados** têm organização explícita adequada a operações como consultas e agregações; **semiestruturados** podem usar marcadores e hierarquias, como JSON e XML. **Não estruturados**, numa tarefa analítica, não seguem o mesmo esquema de campos. Isso não significa ausência de linguagem, estrutura interna de arquivo ou significado. Não há aqui uma porcentagem verificada do acervo parlamentar em cada formato.\n\nUma variável **nominal** distingue categorias sem ordem, como tipo documental; uma **ordinal** inclui ordem, como graus de prioridade, sem garantir intervalos iguais. Variáveis **quantitativas** expressam contagens ou medidas. Um código 1, 2, 3 atribuído a categorias não se transforma automaticamente em quantidade com média significativa.\n\n**Exemplo:** registrar “alta=3, média=2, baixa=1” não prova que a distância entre alta e média é igual à distância entre média e baixa em termos de risco real. Multiplicar esses códigos exige método e interpretação definidos. O número impresso não cria escala métrica por si.\n\n**Contagem e medida:** número de solicitações é discreto; duração pode ser modelada como medida contínua, embora a coleta seja arredondada. Valores monetários também exigem atenção à unidade e precisão do registro. A classificação estatística descreve a representação e o fenômeno, não apenas o tipo do arquivo no computador.\n\nAntes de calcular, documente cada campo, unidade, valores permitidos, significado de ausências e chave de identificação. A mesma coluna chamada data pode conter publicação, acesso ou entrada no sistema. Somar ou comparar campos sem esclarecer esse significado pode produzir resultado exato de uma pergunta errada.\n\n### Estatística descritiva: centro, dispersão e observações discrepantes\n\nPara os valores **2, 3, 3, 4, 18**, a soma é 30, a média é 6, a mediana é o terceiro valor, 3, e a moda é 3. A presença de 18 desloca a média; a mediana descreve o centro posicional e é menos sensível nesse exemplo. Menos sensível não significa que toda alteração no conjunto seja irrelevante.\n\n**Variância** mede dispersão quadrática; é preciso distinguir fórmula populacional e amostral. **Desvio-padrão** é sua raiz e retorna à unidade da medida. **IQR** é Q3-Q1. Métodos de cálculo de quartis podem variar; um exercício deve fornecer o método ou os quartis quando a diferença de convenção muda a resposta.\n\nNo box plot usual, a linha da caixa representa a mediana e as bordas, Q1 e Q3. Há variantes de hastes: algumas mostram extremos; outras adotam cercas como 1,5 IQR e destacam observações externas. A interpretação depende da convenção indicada no gráfico, conforme exemplifica o NIST.\n\n**Exemplo resolvido:** Q1=4, Q3=8. IQR=4. As cercas de 1,5 IQR são -2 e 14. Um valor 15 é candidato a observação discrepante por esse critério. Isso não o transforma automaticamente em erro: pode ser uma ocorrência real importante. Investigue antes de excluir.\n\n**Correlação** descreve associação. Pearson focaliza associação linear no uso pertinente; Spearman trabalha com postos e associação monotônica. Uma associação pode decorrer de outras variáveis ou seleção. Uso da biblioteca e desempenho estudantil, isoladamente, não demonstram causalidade.\n\n### Preparação e fluxo: ETL, ELT e qualidade\n\n**ETL** organiza extração, transformação e carga no destino considerado. **ELT** coloca a transformação depois da carga nesse destino. São descrições de arquitetura; não significam que todo sistema só terá uma transformação nem que um formato seja automaticamente mais moderno ou correto em qualquer cenário.\n\nNa preparação, verifique unidades, tipos, duplicidades, codificação, chaves e valores ausentes. **Zero** pode ser uma medida válida; **ausente** pode significar que não se coletou, não se aplica ou o valor é desconhecido. Substituir todos os ausentes por zero pode criar viés. Excluir linhas ou imputar média/mediana também tem consequências e precisa de justificativa.\n\n**Padronização/normalização de escala** transforma representações. Em um exemplo min-max com limites observados 10 e 30, o valor 20 vira (20-10)/(30-10)=0,5. Isso não significa que o fenômeno se tornou “meio verdadeiro” nem resolve erro de unidade ou significado. Em avaliação de modelos, parâmetros de preparação devem ser tratados para evitar vazamento de informação do teste.\n\n**Pivot/unpivot** reorganiza tabelas conforme a tarefa. Transformar colunas de meses em linhas com mês e valor pode facilitar séries e agregações, mas a operação não certifica integridade. É preciso verificar chaves e totais depois.\n\n**Caso:** a mesma solicitação aparece em duas bases com identificadores relacionados. Unir dados sem reconciliar o registro pode duplicar a contagem e produzir falsa melhora de produtividade. A decisão sobre duplicidade depende da unidade de análise e da proveniência, não apenas da igualdade de duas palavras.\n\n### Visualização e comunicação: o gráfico responde a qual pergunta?\n\n**Barras** apoiam comparação de categorias; **linhas** evidenciam sequência, frequentemente temporal; **histograma** distribui observações em intervalos; **dispersão** relaciona pares de valores. Nenhuma seleção elimina a necessidade de rótulos, unidades, fonte, período e indicação de incerteza quando pertinente.\n\nEm barras que codificam magnitude por comprimento, o zero é uma referência importante: truncar o eixo pode exagerar diferenças. Outros gráficos podem usar escalas diferentes com justificativa e clareza. Uma recomendação visual deve ser conectada à forma de codificação, não apresentada como proibição universal de toda escala não iniciada em zero.\n\n**Histograma:** a escolha de intervalos muda a aparência. Um gráfico muito agregado pode esconder grupos; um excesso de intervalos pode enfatizar ruído. **Box plot:** compara centro e dispersão, mas não revela toda forma da distribuição. Dois conjuntos podem ter resumos parecidos e padrões distintos.\n\n**Exemplo próprio:** atendimentos passaram de 98 para 100. Um eixo que inicia em 97 pode fazer duas unidades parecerem enorme crescimento. O leitor precisa conhecer denominador, escala e período. Se houve mudança na definição de atendimento, a comparação também precisa ser explicitada.\n\nStorytelling com dados organiza uma mensagem para um público e uma decisão. Orientações de Tufte e Knaflic ajudam a reduzir distrações e direcionar leitura; não exigem apagar todo rótulo, contexto ou elemento que não represente um ponto numérico. A cor deve comunicar sem ser o único canal, e o destaque não deve ocultar resultados que contrariem a narrativa.\n\n### Ferramentas analíticas: transformação, modelo e contexto\n\nNo ecossistema Microsoft, **Power Query/M** descreve operações de obtenção e transformação; **DAX** apoia cálculos sobre modelos. Uma **coluna calculada** e uma **medida** têm contextos e usos distintos conforme o modo de armazenamento e a configuração. Não se deve afirmar que toda coluna de todo modelo é sempre materializada em RAM da mesma forma.\n\n**Exemplo:** uma medida de total de solicitações pode somar valores no subconjunto selecionado por um filtro de mês e unidade. Mudar o filtro altera o contexto. A expressão pode também modificar o contexto, de modo que o resultado não depende apenas da aparência da tabela. Relações entre fatos e dimensões precisam representar corretamente as chaves e cardinalidades.\n\nUm **esquema em estrela** organiza fatos e dimensões para análise; não é um selo de desempenho ótimo universal. Uma relação mal definida pode duplicar resultados ou impedir propagação adequada de filtros. O objetivo é modelar a unidade de análise e as perguntas.\n\nNo Tableau, expressões **FIXED, INCLUDE e EXCLUDE** trabalham níveis de detalhe. **FIXED não ignora todo filtro sem exceção**: filtros de contexto, fonte e extração participam de sua ordem de operações. A conclusão depende da etapa e da expressão. Em ferramentas como Looker Studio, conectores, campos calculados e permissões também precisam ser considerados no contexto de produto/versão.\n\nO estudo deve comparar tarefas, não ranquear produtos por “curva fácil/média/difícil” como se fosse propriedade objetiva de todos os usuários. Criar um painel, consultar um modelo e publicar acesso são operações diferentes que podem exigir permissões e licenças próprias.\n\n### Mineração e CRISP-DM: objetivo, processo e avaliação\n\n**CRISP-DM** organiza entendimento do negócio, entendimento dos dados, preparação, modelagem, avaliação e implantação. As fases se relacionam e permitem retorno. Entender a tarefa precede escolher uma técnica: um projeto pode descobrir que a decisão útil depende de qualidade da coleta, não de um modelo mais complexo.\n\n**Classificação** e **regressão** são tarefas preditivas usuais com alvo no treinamento supervisionado. **Agrupamento** e **associação** podem explorar estruturas e coocorrências sem o mesmo alvo. Um agrupamento não vem automaticamente com rótulos jurídicos corretos; a interpretação exige avaliar o domínio.\n\n**Caso:** um sistema busca priorizar solicitações urgentes. A tarefa pode usar rótulos fornecidos por equipe especializada; é preciso avaliar custos de falsos positivos e negativos. Outro sistema agrupa textos para explorar temas: encontrar grupos não demonstra que eles correspondem às classes oficiais de assunto.\n\nAvaliação precisa separar dados de treino e teste conforme o desenho e evitar vazamento, inclusive entre documentos quase duplicados. Um modelo pode parecer ótimo ao rever a mesma família de exemplos. Implantação demanda observar mudança de dados, monitoramento e critérios de retirada ou atualização.\n\nNão existe neste capítulo uma regra de que preparação consuma obrigatoriamente 70–80% de qualquer projeto. O esforço depende da tarefa e do acervo. A relevância da etapa é demonstrada pelos problemas que resolve, e não por um percentual sem corpus ou método.\n\n### Mineração de textos e TF-IDF: calcular com a fórmula declarada\n\nTexto pode ser convertido em representações para busca ou modelos. **Tokenização** define unidades; **stemming** aplica procedimentos para reduzir formas; **lematização** busca formas de dicionário conforme análise e recursos. O resultado depende da língua e da ferramenta: “foram” pode ter análises diferentes conforme o contexto. Não há garantia de que um radical seja palavra completa.\n\n**TF** descreve ocorrência do termo no documento, com diferentes normalizações. **DF** conta em quantos documentos ele ocorre; não quantas vezes aparece no corpus. Na formulação simples **IDF=log10(N/DF)**, um termo em 10 de 100 documentos tem IDF=1; em todos os 100, IDF=0. O produto TF×IDF combina frequência local e discriminação no conjunto.\n\nEsse cálculo não descreve toda implementação. A documentação scikit-learn apresenta variantes com suavização e constante adicional; um termo presente em todos os documentos pode não receber zero naquela definição. Por isso, o item deve fornecer a fórmula quando pede valor exato.\n\n**Stopwords** são escolhidas conforme tarefa; não são palavras sem significado em qualquer contexto. Remover “não” pode inverter uma proposição jurídica. Termo raro também pode ser nome próprio ou conceito decisivo, e não apenas erro. A lei de Zipf descreve uma regularidade aproximada de frequência/posto em corpora, não igualdade exata para toda palavra de todo texto; a hipótese de seleção por frequência associada a Luhn não é garantia universal de máxima relevância semântica numa faixa.\n\n**Exemplo:** em documentos sobre acesso, um termo comum pode discriminar pouco dentro desse corpus e muito em outro. Os pesos dependem da coleção, do pré-processamento e da consulta. Calcular peso não substitui julgar a relevância para a necessidade de informação.",
+  teoriaDidaticaMarkdown: "### Revisão: representar, calcular e interpretar\n\nFormato não define sozinho significado ou variável. Categorias numéricas não se tornam métricas automaticamente. Média, mediana e moda respondem a perguntas distintas; quartis exigem convenção. Outlier pede investigação, não exclusão automática. Ausência não é zero; limpeza e imputação precisam de critério. ETL/ELT distinguem posição da transformação. Gráfico precisa de escala, unidade, fonte e contexto. Medidas em modelos dependem do contexto e da expressão. CRISP-DM é iterativo; predição e descrição têm objetivos diferentes. TF, DF e IDF não são a mesma frequência; forneça fórmula para cálculo exato. Stopwords e raridade dependem da tarefa, e correlação não demonstra sozinha causalidade.\n\n**Recupere:** calcule média e mediana de 2,3,3,4,18; calcule a cerca superior com Q1=4 e Q3=8; explique o efeito de tirar não de um texto; descreva uma situação em que o filtro muda uma medida sem alterar os registros originais.\n",
+  checkpoints: [
+  {
+    "id": "cp-14-4-1",
+    "pergunta": "Micro-Checkpoint 1: Estatística Descritiva - Box Plot e Outliers",
+    "item": "Num box plot cuja caixa representa Q1 a Q3 e cujas observações além das cercas de 1,5 IQR são destacadas, a linha interna da caixa indica necessariamente a média aritmética.",
+    "gabarito": "E",
+    "justificativa": "Na representação descrita, a linha da caixa indica mediana, não média. A convenção de cercas foi explicitada porque há variantes de hastes. Um ponto destacado é observação a investigar, não prova automática de erro.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot.",
+    "versao_correta": "Na representação descrita, a linha interna da caixa indica a mediana."
   },
+  {
+    "id": "cp-14-4-2",
+    "pergunta": "Micro-Checkpoint 2: Mineração de Dados - Processo CRISP-DM e Tarefas",
+    "item": "No modelo de processo CRISP-DM, as tarefas descritivas de mineração, a exemplo do agrupamento (clustering) e das regras de associação, destinam-se a prever o comportamento futuro de uma variável-alvo previamente rotulada a partir do treinamento de atributos preditores.",
+    "gabarito": "E",
+    "justificativa": "O item atribui objetivo preditivo com alvo rotulado às tarefas descritivas mencionadas. Agrupamento e associação, nesse enquadramento, procuram estruturas e relações. O processo CRISP-DM não exige essa troca de tarefas.",
+    "fonte": "CRISP-DM — distinção de objetivos e tarefas; exemplos de agrupamento e associação.",
+    "versao_correta": "Agrupamento e associação podem explorar padrões sem uma variável-alvo rotulada para a mesma tarefa preditiva."
+  },
+  {
+    "id": "cp-14-4-3",
+    "pergunta": "Micro-Checkpoint 3: Text Mining - TF-IDF e Lei de Zipf",
+    "item": "Na fórmula IDF=log10(N/DF), em que DF é o número de documentos que contêm o termo, o peso IDF é zero quando o termo aparece em todos os N documentos. A conclusão depende dessa fórmula e não se aplica automaticamente a variantes suavizadas.",
+    "gabarito": "C",
+    "justificativa": "Se DF=N, a razão é 1 e log10(1)=0. Variantes que somam constante ou suavizam a razão podem produzir outro valor. O item declara a definição em vez de associar todo termo frequente a uma garantia semântica de inutilidade.",
+    "fonte": "Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn sobre variantes TF-IDF."
+  },
+  {
+    "id": "rt-14-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um PDF de texto corrido pode ter estrutura interna de arquivo e de linguagem, embora seu conteúdo seja tratado como não estruturado para determinada análise tabular.",
+    "gabarito": "C",
+    "justificativa": "Não estruturado é uma classificação relativa à representação e ao uso analítico. Não significa ausência de toda organização, sintaxe ou semântica intrínseca.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Para os valores ordenados 2, 3, 3, 4 e 18, a mediana é 3 e a média é 6.",
+    "gabarito": "C",
+    "justificativa": "A mediana é o terceiro valor; a soma é 30 e o total é 5, então a média é 6. O valor 18 desloca a média sem alterar o centro posicional nessa lista.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Se Q1=4 e Q3=8, o limite superior Q3+1,5 IQR é 14; um valor 15 fica além desse limite no procedimento indicado.",
+    "gabarito": "C",
+    "justificativa": "IQR=8-4=4; 1,5*4=6; 8+6=14. O critério identifica observação a examinar, sem provar automaticamente erro de coleta.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Substituir todos os dados ausentes por zero é uma limpeza neutra que preserva qualquer média.",
+    "gabarito": "E",
+    "justificativa": "Ausência e valor zero têm significados diferentes. A substituição muda distribuição e medidas em geral e precisa de justificativa conforme o mecanismo de ausência e a tarefa.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar",
+    "versao_correta": "A escolha do tratamento de ausências exige justificativa e pode alterar as medidas."
+  },
+  {
+    "id": "rt-14-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No ETL, a transformação antecede a carga no destino considerado; no ELT, ela ocorre depois da carga nesse destino, sem que isso determine por si a qualidade dos dados.",
+    "gabarito": "C",
+    "justificativa": "A distinção é a posição relativa das operações no enquadramento. A ordem não certifica conteúdo limpo, nem obriga que toda transformação de todo sistema siga uma arquitetura única.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um agrupamento por similaridade textual garante que cada grupo corresponde a uma categoria jurídica correta e previamente validada.",
+    "gabarito": "E",
+    "justificativa": "O algoritmo encontra uma estrutura conforme representação, métrica e parâmetros. A interpretação jurídica e a validade da categoria requerem avaliação adicional.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar",
+    "versao_correta": "Os grupos precisam de interpretação e avaliação para uso como categorias jurídicas."
+  },
+  {
+    "id": "rt-14-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No esquema IDF=log10(N/df), com N=100, um termo presente em 10 documentos tem IDF=1, e um presente nos 100 tem IDF=0.",
+    "gabarito": "C",
+    "justificativa": "As razões são 100/10=10 e 100/100=1; log10(10)=1 e log10(1)=0. O cálculo depende da fórmula explicitada e não abrange automaticamente variantes suavizadas.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Remover não de um corpus é sempre inofensivo porque palavras frequentes nunca participam do sentido.",
+    "gabarito": "E",
+    "justificativa": "A negação pode alterar radicalmente a proposição. Frequência global não torna um termo semanticamente inútil para toda tarefa. Stopwords devem ser avaliadas no domínio e no objetivo.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar",
+    "versao_correta": "A remoção de palavras frequentes precisa considerar a tarefa e efeitos como perda de negação."
+  },
+  {
+    "id": "rt-14-4-9",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma medida de total de solicitações num relatório Power BI pode apresentar resultados diferentes conforme os filtros ativos e a expressão definida.",
+    "gabarito": "C",
+    "justificativa": "Medidas são avaliadas no contexto pertinente. Mudar filtros pode alterar o subconjunto sobre o qual o cálculo opera, conforme a expressão e os relacionamentos.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-14-4-10",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A correlação observada entre uso da biblioteca e desempenho dos estudantes demonstra, isoladamente, que o uso causou o desempenho.",
+    "gabarito": "E",
+    "justificativa": "Pode haver confundimento, seleção e outras explicações. A associação não basta para identificar efeito causal sem desenho e pressupostos adicionais.",
+    "fonte": "NIST/SEMATECH e-Handbook, Box Plot; Manning, Raghavan e Schütze, Introduction to Information Retrieval, cap. 6; documentação scikit-learn, Microsoft Power BI e Tableau; CRISP-DM. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Tecnologia da Informação (Item 8: Ciência de Dados, CRISP-DM, Estatística e Power BI)",
+    "habilidade": "aplicar",
+    "versao_correta": "A associação observada exige análise adicional para sustentar uma conclusão causal."
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-14-4-fonte-nist-box",
+      "nome": "NIST/SEMATECH e-Handbook — Box Plot",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "NIST/SEMATECH e-Handbook — Box Plot",
+      "ideiaChave": "Mediana, quartis e variantes de hastes/cercas.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-4-fonte-irbook",
+      "nome": "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+      "ideiaChave": "Capítulo 6: frequência documental, IDF e ponderação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-4-fonte-sklearn",
+      "nome": "scikit-learn — Feature extraction",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "scikit-learn — Feature extraction",
+      "ideiaChave": "Representações e variantes de TF-IDF; observar parâmetros e versão.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-4-fonte-dax",
+      "nome": "Microsoft — DAX overview",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Microsoft — DAX overview",
+      "ideiaChave": "Medidas e contexto de avaliação.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-4-fonte-tableau",
+      "nome": "Tableau — Filters and Level of Detail Expressions",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "Tableau — Filters and Level of Detail Expressions",
+      "ideiaChave": "Ordem de filtros e efeitos em FIXED.",
+      "chipPegadinha": "Fonte da aula"
+    },
+    {
+      "id": "sub-14-4-fonte-crisp",
+      "nome": "IBM — CRISP-DM Help Overview",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "IBM — CRISP-DM Help Overview",
+      "ideiaChave": "Fases, relações e iteração do processo.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-14-4-8",
+      "afirmacao": "Remover não de um corpus é sempre inofensivo porque palavras frequentes nunca participam do sentido.",
+      "gabarito": "E",
+      "porQue": "A negação pode alterar radicalmente a proposição. Frequência global não torna um termo semanticamente inútil para toda tarefa. Stopwords devem ser avaliadas no domínio e no objetivo."
+    },
+    {
+      "id": "memoria-rt-14-4-9",
+      "afirmacao": "Uma medida de total de solicitações num relatório Power BI pode apresentar resultados diferentes conforme os filtros ativos e a expressão definida.",
+      "gabarito": "C",
+      "porQue": "Medidas são avaliadas no contexto pertinente. Mudar filtros pode alterar o subconjunto sobre o qual o cálculo opera, conforme a expressão e os relacionamentos."
+    },
+    {
+      "id": "memoria-rt-14-4-10",
+      "afirmacao": "A correlação observada entre uso da biblioteca e desempenho dos estudantes demonstra, isoladamente, que o uso causou o desempenho.",
+      "gabarito": "E",
+      "porQue": "Pode haver confundimento, seleção e outras explicações. A associação não basta para identificar efeito causal sem desenho e pressupostos adicionais."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-14-4-bloco-1",
+    "titulo": "Dados e variáveis: representar antes de calcular",
+    "objetivos": [
+      "Distinguir formato, tipo de variável e significado de códigos numéricos."
+    ],
+    "conteudo": "Dados **estruturados** têm organização explícita adequada a operações como consultas e agregações; **semiestruturados** podem usar marcadores e hierarquias, como JSON e XML. **Não estruturados**, numa tarefa analítica, não seguem o mesmo esquema de campos. Isso não significa ausência de linguagem, estrutura interna de arquivo ou significado. Não há aqui uma porcentagem verificada do acervo parlamentar em cada formato.\n\nUma variável **nominal** distingue categorias sem ordem, como tipo documental; uma **ordinal** inclui ordem, como graus de prioridade, sem garantir intervalos iguais. Variáveis **quantitativas** expressam contagens ou medidas. Um código 1, 2, 3 atribuído a categorias não se transforma automaticamente em quantidade com média significativa.\n\n**Exemplo:** registrar “alta=3, média=2, baixa=1” não prova que a distância entre alta e média é igual à distância entre média e baixa em termos de risco real. Multiplicar esses códigos exige método e interpretação definidos. O número impresso não cria escala métrica por si.\n\n**Contagem e medida:** número de solicitações é discreto; duração pode ser modelada como medida contínua, embora a coleta seja arredondada. Valores monetários também exigem atenção à unidade e precisão do registro. A classificação estatística descreve a representação e o fenômeno, não apenas o tipo do arquivo no computador.\n\nAntes de calcular, documente cada campo, unidade, valores permitidos, significado de ausências e chave de identificação. A mesma coluna chamada data pode conter publicação, acesso ou entrada no sistema. Somar ou comparar campos sem esclarecer esse significado pode produzir resultado exato de uma pergunta errada.",
+    "checkpointIds": [
+      "rt-14-4-1"
+    ]
+  },
+  {
+    "id": "sub-14-4-bloco-2",
+    "titulo": "Estatística descritiva: centro, dispersão e observações discrepantes",
+    "objetivos": [
+      "Calcular medidas e explicitar o critério usado."
+    ],
+    "conteudo": "Para os valores **2, 3, 3, 4, 18**, a soma é 30, a média é 6, a mediana é o terceiro valor, 3, e a moda é 3. A presença de 18 desloca a média; a mediana descreve o centro posicional e é menos sensível nesse exemplo. Menos sensível não significa que toda alteração no conjunto seja irrelevante.\n\n**Variância** mede dispersão quadrática; é preciso distinguir fórmula populacional e amostral. **Desvio-padrão** é sua raiz e retorna à unidade da medida. **IQR** é Q3-Q1. Métodos de cálculo de quartis podem variar; um exercício deve fornecer o método ou os quartis quando a diferença de convenção muda a resposta.\n\nNo box plot usual, a linha da caixa representa a mediana e as bordas, Q1 e Q3. Há variantes de hastes: algumas mostram extremos; outras adotam cercas como 1,5 IQR e destacam observações externas. A interpretação depende da convenção indicada no gráfico, conforme exemplifica o NIST.\n\n**Exemplo resolvido:** Q1=4, Q3=8. IQR=4. As cercas de 1,5 IQR são -2 e 14. Um valor 15 é candidato a observação discrepante por esse critério. Isso não o transforma automaticamente em erro: pode ser uma ocorrência real importante. Investigue antes de excluir.\n\n**Correlação** descreve associação. Pearson focaliza associação linear no uso pertinente; Spearman trabalha com postos e associação monotônica. Uma associação pode decorrer de outras variáveis ou seleção. Uso da biblioteca e desempenho estudantil, isoladamente, não demonstram causalidade.",
+    "checkpointIds": [
+      "cp-14-4-1",
+      "rt-14-4-2",
+      "rt-14-4-3",
+      "rt-14-4-10"
+    ]
+  },
+  {
+    "id": "sub-14-4-bloco-3",
+    "titulo": "Preparação e fluxo: ETL, ELT e qualidade",
+    "objetivos": [
+      "Justificar limpeza e distinguir ausência, duplicidade e transformação de escala."
+    ],
+    "conteudo": "**ETL** organiza extração, transformação e carga no destino considerado. **ELT** coloca a transformação depois da carga nesse destino. São descrições de arquitetura; não significam que todo sistema só terá uma transformação nem que um formato seja automaticamente mais moderno ou correto em qualquer cenário.\n\nNa preparação, verifique unidades, tipos, duplicidades, codificação, chaves e valores ausentes. **Zero** pode ser uma medida válida; **ausente** pode significar que não se coletou, não se aplica ou o valor é desconhecido. Substituir todos os ausentes por zero pode criar viés. Excluir linhas ou imputar média/mediana também tem consequências e precisa de justificativa.\n\n**Padronização/normalização de escala** transforma representações. Em um exemplo min-max com limites observados 10 e 30, o valor 20 vira (20-10)/(30-10)=0,5. Isso não significa que o fenômeno se tornou “meio verdadeiro” nem resolve erro de unidade ou significado. Em avaliação de modelos, parâmetros de preparação devem ser tratados para evitar vazamento de informação do teste.\n\n**Pivot/unpivot** reorganiza tabelas conforme a tarefa. Transformar colunas de meses em linhas com mês e valor pode facilitar séries e agregações, mas a operação não certifica integridade. É preciso verificar chaves e totais depois.\n\n**Caso:** a mesma solicitação aparece em duas bases com identificadores relacionados. Unir dados sem reconciliar o registro pode duplicar a contagem e produzir falsa melhora de produtividade. A decisão sobre duplicidade depende da unidade de análise e da proveniência, não apenas da igualdade de duas palavras.",
+    "checkpointIds": [
+      "rt-14-4-4",
+      "rt-14-4-5"
+    ]
+  },
+  {
+    "id": "sub-14-4-bloco-4",
+    "titulo": "Visualização e comunicação: o gráfico responde a qual pergunta?",
+    "objetivos": [
+      "Escolher representação e evitar conclusões que o desenho não sustenta."
+    ],
+    "conteudo": "**Barras** apoiam comparação de categorias; **linhas** evidenciam sequência, frequentemente temporal; **histograma** distribui observações em intervalos; **dispersão** relaciona pares de valores. Nenhuma seleção elimina a necessidade de rótulos, unidades, fonte, período e indicação de incerteza quando pertinente.\n\nEm barras que codificam magnitude por comprimento, o zero é uma referência importante: truncar o eixo pode exagerar diferenças. Outros gráficos podem usar escalas diferentes com justificativa e clareza. Uma recomendação visual deve ser conectada à forma de codificação, não apresentada como proibição universal de toda escala não iniciada em zero.\n\n**Histograma:** a escolha de intervalos muda a aparência. Um gráfico muito agregado pode esconder grupos; um excesso de intervalos pode enfatizar ruído. **Box plot:** compara centro e dispersão, mas não revela toda forma da distribuição. Dois conjuntos podem ter resumos parecidos e padrões distintos.\n\n**Exemplo próprio:** atendimentos passaram de 98 para 100. Um eixo que inicia em 97 pode fazer duas unidades parecerem enorme crescimento. O leitor precisa conhecer denominador, escala e período. Se houve mudança na definição de atendimento, a comparação também precisa ser explicitada.\n\nStorytelling com dados organiza uma mensagem para um público e uma decisão. Orientações de Tufte e Knaflic ajudam a reduzir distrações e direcionar leitura; não exigem apagar todo rótulo, contexto ou elemento que não represente um ponto numérico. A cor deve comunicar sem ser o único canal, e o destaque não deve ocultar resultados que contrariem a narrativa.",
+    "checkpointIds": []
+  },
+  {
+    "id": "sub-14-4-bloco-5",
+    "titulo": "Ferramentas analíticas: transformação, modelo e contexto",
+    "objetivos": [
+      "Distinguir Power Query/M, DAX e níveis de cálculo."
+    ],
+    "conteudo": "No ecossistema Microsoft, **Power Query/M** descreve operações de obtenção e transformação; **DAX** apoia cálculos sobre modelos. Uma **coluna calculada** e uma **medida** têm contextos e usos distintos conforme o modo de armazenamento e a configuração. Não se deve afirmar que toda coluna de todo modelo é sempre materializada em RAM da mesma forma.\n\n**Exemplo:** uma medida de total de solicitações pode somar valores no subconjunto selecionado por um filtro de mês e unidade. Mudar o filtro altera o contexto. A expressão pode também modificar o contexto, de modo que o resultado não depende apenas da aparência da tabela. Relações entre fatos e dimensões precisam representar corretamente as chaves e cardinalidades.\n\nUm **esquema em estrela** organiza fatos e dimensões para análise; não é um selo de desempenho ótimo universal. Uma relação mal definida pode duplicar resultados ou impedir propagação adequada de filtros. O objetivo é modelar a unidade de análise e as perguntas.\n\nNo Tableau, expressões **FIXED, INCLUDE e EXCLUDE** trabalham níveis de detalhe. **FIXED não ignora todo filtro sem exceção**: filtros de contexto, fonte e extração participam de sua ordem de operações. A conclusão depende da etapa e da expressão. Em ferramentas como Looker Studio, conectores, campos calculados e permissões também precisam ser considerados no contexto de produto/versão.\n\nO estudo deve comparar tarefas, não ranquear produtos por “curva fácil/média/difícil” como se fosse propriedade objetiva de todos os usuários. Criar um painel, consultar um modelo e publicar acesso são operações diferentes que podem exigir permissões e licenças próprias.",
+    "checkpointIds": [
+      "rt-14-4-9"
+    ]
+  },
+  {
+    "id": "sub-14-4-bloco-6",
+    "titulo": "Mineração e CRISP-DM: objetivo, processo e avaliação",
+    "objetivos": [
+      "Distinguir tarefas preditivas e descritivas e reconhecer iteração entre fases."
+    ],
+    "conteudo": "**CRISP-DM** organiza entendimento do negócio, entendimento dos dados, preparação, modelagem, avaliação e implantação. As fases se relacionam e permitem retorno. Entender a tarefa precede escolher uma técnica: um projeto pode descobrir que a decisão útil depende de qualidade da coleta, não de um modelo mais complexo.\n\n**Classificação** e **regressão** são tarefas preditivas usuais com alvo no treinamento supervisionado. **Agrupamento** e **associação** podem explorar estruturas e coocorrências sem o mesmo alvo. Um agrupamento não vem automaticamente com rótulos jurídicos corretos; a interpretação exige avaliar o domínio.\n\n**Caso:** um sistema busca priorizar solicitações urgentes. A tarefa pode usar rótulos fornecidos por equipe especializada; é preciso avaliar custos de falsos positivos e negativos. Outro sistema agrupa textos para explorar temas: encontrar grupos não demonstra que eles correspondem às classes oficiais de assunto.\n\nAvaliação precisa separar dados de treino e teste conforme o desenho e evitar vazamento, inclusive entre documentos quase duplicados. Um modelo pode parecer ótimo ao rever a mesma família de exemplos. Implantação demanda observar mudança de dados, monitoramento e critérios de retirada ou atualização.\n\nNão existe neste capítulo uma regra de que preparação consuma obrigatoriamente 70–80% de qualquer projeto. O esforço depende da tarefa e do acervo. A relevância da etapa é demonstrada pelos problemas que resolve, e não por um percentual sem corpus ou método.",
+    "checkpointIds": [
+      "cp-14-4-2",
+      "rt-14-4-6"
+    ]
+  },
+  {
+    "id": "sub-14-4-bloco-7",
+    "titulo": "Mineração de textos e TF-IDF: calcular com a fórmula declarada",
+    "objetivos": [
+      "Separar frequência no documento e frequência documental e reconhecer variantes."
+    ],
+    "conteudo": "Texto pode ser convertido em representações para busca ou modelos. **Tokenização** define unidades; **stemming** aplica procedimentos para reduzir formas; **lematização** busca formas de dicionário conforme análise e recursos. O resultado depende da língua e da ferramenta: “foram” pode ter análises diferentes conforme o contexto. Não há garantia de que um radical seja palavra completa.\n\n**TF** descreve ocorrência do termo no documento, com diferentes normalizações. **DF** conta em quantos documentos ele ocorre; não quantas vezes aparece no corpus. Na formulação simples **IDF=log10(N/DF)**, um termo em 10 de 100 documentos tem IDF=1; em todos os 100, IDF=0. O produto TF×IDF combina frequência local e discriminação no conjunto.\n\nEsse cálculo não descreve toda implementação. A documentação scikit-learn apresenta variantes com suavização e constante adicional; um termo presente em todos os documentos pode não receber zero naquela definição. Por isso, o item deve fornecer a fórmula quando pede valor exato.\n\n**Stopwords** são escolhidas conforme tarefa; não são palavras sem significado em qualquer contexto. Remover “não” pode inverter uma proposição jurídica. Termo raro também pode ser nome próprio ou conceito decisivo, e não apenas erro. A lei de Zipf descreve uma regularidade aproximada de frequência/posto em corpora, não igualdade exata para toda palavra de todo texto; a hipótese de seleção por frequência associada a Luhn não é garantia universal de máxima relevância semântica numa faixa.\n\n**Exemplo:** em documentos sobre acesso, um termo comum pode discriminar pouco dentro desse corpus e muito em outro. Os pesos dependem da coleção, do pré-processamento e da consulta. Calcular peso não substitui julgar a relevância para a necessidade de informação.",
+    "checkpointIds": [
+      "cp-14-4-3",
+      "rt-14-4-7",
+      "rt-14-4-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "nist-box",
+    "titulo": "NIST/SEMATECH e-Handbook — Box Plot",
+    "localizador": "Mediana, quartis e variantes de hastes/cercas.",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/boxplot.htm"
+  },
+  {
+    "id": "irbook",
+    "titulo": "Manning, Raghavan e Schütze — Introduction to Information Retrieval",
+    "localizador": "Capítulo 6: frequência documental, IDF e ponderação.",
+    "url": "https://nlp.stanford.edu/IR-book/html/htmledition/inverse-document-frequency-1.html"
+  },
+  {
+    "id": "sklearn",
+    "titulo": "scikit-learn — Feature extraction",
+    "localizador": "Representações e variantes de TF-IDF; observar parâmetros e versão.",
+    "url": "https://scikit-learn.org/stable/modules/feature_extraction.html"
+  },
+  {
+    "id": "dax",
+    "titulo": "Microsoft — DAX overview",
+    "localizador": "Medidas e contexto de avaliação.",
+    "url": "https://learn.microsoft.com/en-us/dax/dax-overview"
+  },
+  {
+    "id": "tableau",
+    "titulo": "Tableau — Filters and Level of Detail Expressions",
+    "localizador": "Ordem de filtros e efeitos em FIXED.",
+    "url": "https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_lod_filters.htm"
+  },
+  {
+    "id": "crisp",
+    "titulo": "IBM — CRISP-DM Help Overview",
+    "localizador": "Fases, relações e iteração do processo.",
+    "url": "https://www.ibm.com/docs/en/spss-modeler/18.6.0?topic=dm-crisp-help-overview"
+  }
+],
 };
 

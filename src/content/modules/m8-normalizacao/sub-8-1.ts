@@ -35,13 +35,15 @@ export const submodulo81: ModuloFilho = {
       exemploBiblioteca: 'BRASIL. Lei nº 14.133, de 1º de abril de 2021. Diário Oficial da União: seção 1, Brasília, DF, ano 159, n. 61-E, p. 1-43, 1 abr. 2021.',
     },
   ],
-  descricaoCurta: 'Norma ABNT NBR 6023:2025 (3ª edição de 21.05.2025), elementos essenciais e complementares, padronização tipográfica do destaque, regras de autoria pessoal e institucional, referências de monografias, partes de coletâneas, artigos de periódicos, legislação e documentos eletrônicos.',
-  tempoEstimadoMinutos: 13,
-  autoresChave: ['Associação Brasileira de Normas Técnicas (ABNT)', 'Comitê Brasileiro de Informação e Documentação (CB-014)', 'Antônio Agenor Briquet de Lemos', 'Maria Luísa Leite Leão'],
+  descricaoCurta: "Selecionar o modelo pelo documento consultado e distinguir elementos essenciais e complementares. Aplicar as regras de até três e de quatro ou mais autores. Escolher a entrada sem confundir órgão subordinado e entidade de denominação própria. Montar modelos com dados fictícios suficientes e identificar a publicação hospedeira. Distinguir data do documento, data de acesso e endereço de disponibilidade. Detectar erros por checklist e explicar a correção.",
+  tempoEstimadoMinutos: 27,
+  autoresChave: [
+  "ABNT NBR 6023:2025 — Referências — Elaboração"
+],
   alertasCebraspe: [
-  "Escolha o modelo pelo documento, distinguindo parte e publicação hospedeira.",
-  "Convém, deve e permite-se têm forças diferentes; confira a regra específica.",
-  "Uma edição histórica da norma deve ser julgada em seu contexto, sem atualização retroativa silenciosa."
+  "Uniformidade é coerência de apresentação, não troca dos dados do documento. O artigo pertence ao periódico identificado, e sua referência precisa preservar essa relação. A identidade do autor não autoriza substituir a fonte.",
+  "Quando não há indicação de autoria ou responsabilidade, a entrada é feita pelo título, conforme o modelo aplicável. Não se deve inventar um nome de autor para preencher o campo.",
+  "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo."
 ],
   quadroComparativo: {
   "titulo": "Referência: perguntas que orientam o modelo",
@@ -192,61 +194,38 @@ export const submodulo81: ModuloFilho = {
   }
 ],
   mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-8-1-1',
-        periodo: '2002',
-        disciplina: 'NBR 6023:2002',
-        focoPrincipal: 'Versão histórica anterior que vigorou por 16 anos',
-        figuraChave: 'ABNT / CB-014',
-      },
-      {
-        id: 'tl-8-1-2',
-        periodo: '2025 (Vigente)',
-        disciplina: 'NBR 6023:2025 (3ª Edição)',
-        focoPrincipal: 'Publicação da 3ª edição da NBR 6023 em 21.05.2025: consolidação de formatos digitais, flexibilização de quatro ou mais autores e alinhamento à margem esquerda',
-        figuraChave: 'Comitê Brasileiro de Documentação (CB-014)',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-8-1-1',
-        nome: 'ABNT / CB-014',
-        ano: 2025,
-        obraPrincipal: 'ABNT NBR 6023:2025: Informação e documentação — Referências — Elaboração (3ª Edição)',
-        ideiaChave: 'Padronização nacional de elementos essenciais e complementares para listas de referências bibliográficas.',
-        chipPegadinha: 'A NBR 6023 regula as referências no final do texto; quem regula as citações no corpo é a NBR 10520.',
-      },
-      {
-        id: 'aut-8-1-2',
-        nome: 'Antonio Agenor Briquet de Lemos',
-        ano: 2000,
-        obraPrincipal: 'Para uma história da normalização bibliográfica no Brasil',
-        ideiaChave: 'Pioneirismo na transposição das normas da ISO (ISO 690) para o sistema normativo brasileiro.',
-        chipPegadinha: 'A NBR 6023 adota a lógica internacional da ISO 690 adaptada à prática bibliotecária brasileira.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-8-1-1',
-        afirmacao: 'Conforme a ABNT NBR 6023, caso uma obra monográfica tenha sido publicada em sua primeira edição, o elemento "1. ed." deve constar compulsoriamente como elemento essencial da referência.',
-        gabarito: 'E',
-        porQue: 'A primeira edição NUNCA é indicada. A menção de edição na NBR 6023 só é registrada a partir da segunda edição (ex.: "2. ed.").',
-      },
-      {
-        id: 'peg-8-1-2',
-        afirmacao: 'Na referência de um artigo extraído de um periódico científico, o título do artigo é o elemento que deve receber destaque em negrito ou itálico.',
-        gabarito: 'E',
-        porQue: 'Em artigos de periódicos, quem recebe o destaque tipográfico é o TÍTULO DA REVISTA/PERIÓDICO, e não o título do artigo.',
-      },
-      {
-        id: 'peg-8-1-3',
-        afirmacao: 'Na compilação de referências bibliográficas conforme a ABNT NBR 6023, o alinhamento do texto deve ser justificado e com recuo de parágrafo de 1,25 cm na primeira linha.',
-        gabarito: 'E',
-        porQue: 'A norma determina alinhamento exclusivo À MARGEM ESQUERDA (sem justificação) e sem recuo de parágrafo, com espaçamento simples entre linhas.',
-      },
-    ],
-  },
+  "timeline": [],
+  "autores": [
+    {
+      "id": "sub-8-1-fonte-nbr6023",
+      "nome": "ABNT NBR 6023:2025 — Referências — Elaboração",
+      "ano": "Referência de consulta",
+      "obraPrincipal": "ABNT NBR 6023:2025 — Referências — Elaboração",
+      "ideiaChave": "Seção 4 (elementos); seção 6 (regras gerais); seção 7 (modelos); 8.1 (responsabilidade), 8.2 (título), transcrição e datas; Anexo A (meses). Exemplar do acervo ABNT do projeto. Exemplos bibliográficos da aula são fictícios e didáticos.",
+      "chipPegadinha": "Fonte da aula"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "memoria-rt-8-1-6",
+      "afirmacao": "Adicionar a data de acesso a um documento online permite omitir seu título, porque a data torna o recurso identificável por si só.",
+      "gabarito": "E",
+      "porQue": "URL e data de acesso complementam os elementos de identificação pertinentes ao tipo documental. Não substituem título, autoria quando identificada e demais dados exigidos pelo modelo."
+    },
+    {
+      "id": "memoria-rt-8-1-7",
+      "afirmacao": "Uma referência de capítulo precisa identificar tanto a parte consultada quanto a obra que a contém.",
+      "gabarito": "C",
+      "porQue": "O leitor precisa localizar a unidade citada e sua publicação hospedeira. O modelo de parte de monografia articula responsabilidade e título da parte, In:, dados da obra e localização da parte, conforme o caso."
+    },
+    {
+      "id": "memoria-rt-8-1-8",
+      "afirmacao": "A opção por um recurso de destaque tipográfico deve ser aplicada de modo coerente ao elemento que recebe destaque nos modelos, sem presumir que o título da parte e o da obra hospedeira tenham a mesma função.",
+      "gabarito": "C",
+      "porQue": "A seção 6.7 exige padronização. O elemento destacado depende do tipo de referência: em artigo, a publicação periódica é diferente do título do artigo. A coerência não é destacar indiscriminadamente todos os títulos."
+    }
+  ]
+},
 
 versaoTeoria: "2026-10-29.1",
 unidadesAprendizagem: [

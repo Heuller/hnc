@@ -30,6 +30,13 @@ describe('Reforma teórica e microcheckpoints por bloco', () => {
     const completas = getRequiredSectionsForSubmodule(sub);
     expect(calculateSubmoduleStatus(sub, completas, respostas).todasSecoesLidas).toBe(true);
   });
+  it('não conclui a aula após responder somente um checkpoint', () => {
+    const completas = getRequiredSectionsForSubmodule(sub);
+    const estado = calculateSubmoduleStatus(sub, completas, {[sub.checkpoints[0].id]: sub.checkpoints[0].gabarito});
+    expect(estado.todasSecoesLidas).toBe(true);
+    expect(estado.status).toBe('em_andamento');
+    expect(estado.checkpointsRespondidosCount).toBe(1);
+  });
   it('insere checkpoints após o bloco pertinente e registra leitura na versão atual', () => {
     render(<AulaEmBlocos submodulo={sub} moduloId="m11" />);
     const unidade = sub.unidadesAprendizagem![0];
