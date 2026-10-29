@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import type { AnaliseItemReverso } from '../../domain/treinoReverso';
 import {
   AlertTriangle,
   ArrowLeftRight,
@@ -28,6 +29,7 @@ export type QuestaoEstudoReverso = Pick<
 export interface PainelEstudoReversoProps {
   questao: QuestaoEstudoReverso;
   resposta?: JulgamentoCebraspe;
+  analise?: AnaliseItemReverso;
   certeza?: GrauCertezaCebraspe;
   /** Pausa de autoexplicação antes da fundamentação (desligue em relatórios de revisão em lote). */
   autoexplicacao?: boolean;
@@ -56,6 +58,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   certeza,
   autoexplicacao = true,
   onReverTeoria,
+  analise,
 }) => {
   const situacao = situacaoResposta(resposta, questao.gabarito);
   const [revelado, setRevelado] = useState(!(autoexplicacao && exigeAutoexplicacao(situacao, certeza)));
@@ -66,6 +69,7 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
   const temGatilho = trechos.some((t) => t.decisivo);
   const contraste = questao.gabarito === 'E' ? questao.versao_correta : questao.versao_errada;
   const subId = questao.submoduloId;
+  const raciocinio = analise?.itemId === questao.id && analise.gabarito === questao.gabarito ? analise : undefined;
 
   if (!revelado) {
     return (
@@ -99,6 +103,16 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
 
   return (
     <section aria-label="Estudo reverso do item" className="space-y-3">
+      {resposta && (
+        <div className="p-4 rounded-xl border border-border bg-surface space-y-2">
+          <h3 className="m-0 text-sm font-bold text-ink">{situacao === 'acerto' ? 'Por que você acertou' : situacao === 'erro' ? 'Por que seu julgamento está incorreto' : 'Como resolver o item em branco'}</h3>
+          <p className="m-0 text-sm text-ink leading-relaxed">
+            {situacao === 'branco'
+              ? `Você deixou em branco. O julgamento fundamentado é ${rotuloGabarito}. Confira a regra abaixo e tente explicar sua aplicação ao enunciado.`
+              : `Você marcou ${resposta === 'C' ? 'CERTO' : 'ERRADO'}; o item está ${rotuloGabarito}. ${situacao === 'acerto' ? 'Seu julgamento coincide com o gabarito. Confira se o motivo que você usou corresponde à fundamentação abaixo.' : 'Seu julgamento diverge do gabarito. Compare a regra que você usou com a fundamentação abaixo e localize a condição que muda a conclusão.'}`}
+          </p>
+        </div>
+      )}
       {calibracao && (
         <div className={`p-3.5 rounded-xl border space-y-1 ${ESTILO_CALIBRACAO[calibracao.tom]}`} role="note">
           <div className="flex items-center gap-1.5 text-xs font-sans font-bold">
@@ -141,6 +155,28 @@ const PainelEstudoReversoConteudo: React.FC<PainelEstudoReversoProps> = ({
         </div>
         <p className="m-0 text-sm font-serif text-ink leading-relaxed">{limparPrefixoGabarito(questao.justificativa)}</p>
       </div>
+
+      {raciocinio && (
+        <div className="p-4 rounded-xl border border-accent/30 bg-accent-soft space-y-3">
+          <h3 className="m-0 text-sm font-bold">Como chegar ao julgamento</h3>
+          <p className="m-0 text-sm"><strong>Regra:</strong> {raciocinio.regra}</p>
+          <ol className="list-decimal pl-5 space-y-2 text-sm">{raciocinio.passos.map(passo => <li key={passo}>{passo}</li>)}</ol>
+          <a className="text-xs underline text-accent foco" href={raciocinio.fonte.url} target="_blank" rel="noopener noreferrer">{raciocinio.fonte.titulo} — {raciocinio.fonte.localizador}</a>
+        </div>
+      )}
+
+      {resposta && (
+        <details className="p-4 rounded-xl border border-border bg-surface text-sm">
+          <summary className="cursor-pointer font-bold foco">{situacao === 'acerto' ? 'Como conferir se aprendi' : 'Como identificar o possível erro'}</summary>
+          <p className="mt-3 text-ink-2">O resultado sozinho não revela como você pensou. Use estas perguntas para conferir seu raciocínio:</p>
+          <ol className="list-decimal pl-5 space-y-2">
+            <li>Sem reler a explicação, qual regra sustenta o gabarito? Se não conseguir explicá-la, retome o assunto na teoria.</li>
+            <li>Qual condição do enunciado permite aplicar essa regra? Confira sujeitos, negações, quantidades, relações e exceções; palavras isoladas não definem o gabarito.</li>
+            <li>Minha regra estava correta, mas interpretei outra condição ou marquei a alternativa contrária? Refaça o julgamento antes de classificar a dificuldade.</li>
+            <li>Em outro dia, tente resolver novamente sem consultar a correção. Reconhecer a explicação agora não garante que conseguirá recuperá-la depois.</li>
+          </ol>
+        </details>
+      )}
 
       {contraste && (
         <div className="p-4 rounded-xl border border-border bg-surface space-y-2">

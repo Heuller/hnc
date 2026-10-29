@@ -1,3 +1,5 @@
+import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
+import { PILOTO_RACIOCINIO } from '../content/estudoReverso/pilotoRaciocinio';
 // @vitest-environment jsdom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
@@ -54,5 +56,43 @@ describe('Estudo reverso: tentativa antes da correção', () => {
     const invalido = JSON.stringify({ ...JSON.parse(backup), itemAttempts: [{ item_id: 'sem-dados' }] });
     expect(useProgressStore.getState().importarProgressoJson(invalido).success).toBe(false);
     expect(useProgressStore.getState().itemAttempts).toHaveLength(1);
+  });
+});
+
+describe('Correção reversa compartilhada pelos simulados', () => {
+  afterEach(cleanup);
+  const questao = { id: 'feedback-teste', item: 'A regra depende da condição X.', gabarito: 'E' as const, justificativa: 'A condição necessária é Y, e não X.', gatilho: 'trecho ausente', submoduloId: '2.1', versao_correta: 'A regra depende da condição Y.' };
+
+  it('explica o julgamento errado sem inventar trecho decisivo ou causa cognitiva', () => {
+    render(<PainelEstudoReverso questao={questao} resposta="C" autoexplicacao={false} />);
+    expect(screen.getByText('Por que seu julgamento está incorreto')).toBeTruthy();
+    expect(screen.getByText(/Você marcou CERTO; o item está ERRADO/)).toBeTruthy();
+    expect(screen.getByText(questao.justificativa)).toBeTruthy();
+    expect(screen.queryByText('Trecho que decide o julgamento')).toBeNull();
+    fireEvent.click(screen.getByText('Como identificar o possível erro'));
+    expect(screen.getByText(/O resultado sozinho não revela como você pensou/)).toBeTruthy();
+    expect(screen.getAllByText(/A regra depende da condição Y/)).toHaveLength(1);
+  });
+
+  it('distingue acerto de domínio e permite voltar ao assunto correspondente', () => {
+    const teoria = vi.fn();
+    render(<PainelEstudoReverso questao={questao} resposta="E" certeza="certeza" autoexplicacao={false} onReverTeoria={teoria} />);
+    expect(screen.getByText('Por que você acertou')).toBeTruthy();
+    expect(screen.getByText(/Confira se o motivo que você usou/)).toBeTruthy();
+    fireEvent.click(screen.getByRole('button', { name: /Rever o assunto na teoria/ }));
+    expect(teoria).toHaveBeenCalledWith('2.1');
+  });
+
+  it('distingue branco de erro e só associa raciocínio editorial ao item e gabarito correspondentes', () => {
+    const analise = PILOTO_RACIOCINIO[0];
+    const { rerender } = render(<PainelEstudoReverso questao={questao} resposta="BRANCO" autoexplicacao={false} analise={analise} />);
+    expect(screen.getByText('Como resolver o item em branco')).toBeTruthy();
+    expect(screen.queryByText('Como chegar ao julgamento')).toBeNull();
+    rerender(<PainelEstudoReverso questao={{ ...questao, id: analise.itemId, gabarito: analise.gabarito }} resposta={analise.gabarito} autoexplicacao={false} analise={analise} />);
+    expect(screen.getByText('Como chegar ao julgamento')).toBeTruthy();
+    for (const passo of analise.passos) expect(screen.getByText(passo)).toBeTruthy();
+    expect(screen.getByRole('link').getAttribute('href')).toBe(analise.fonte.url);
+    rerender(<PainelEstudoReverso questao={{ ...questao, id: analise.itemId, gabarito: analise.gabarito === 'C' ? 'E' : 'C' }} resposta="C" autoexplicacao={false} analise={analise} />);
+    expect(screen.queryByText('Como chegar ao julgamento')).toBeNull();
   });
 });

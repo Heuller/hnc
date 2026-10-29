@@ -7,6 +7,7 @@ import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learn
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
 import { PainelDecisaoPortaoSimulado } from '../components/simulado/PainelDecisaoPortaoSimulado';
 import { Badge } from '../components/common/Badge';
+import { PILOTO_RACIOCINIO } from '../content/estudoReverso/pilotoRaciocinio';
 import { PainelEstudoReverso } from '../components/common/PainelEstudoReverso';
 import { Kbd } from '../components/common/Kbd';
 import { Drawer } from 'vaul';
@@ -1217,42 +1218,16 @@ export const SimuladoPage: React.FC = () => {
                             {q.item}
                           </p>
 
-                          {/* Pegadinha Cebraspe (se houver) */}
-                          {q.armadilhaBanca && (
-                            <div className="mt-3.5 p-3 rounded-lg bg-amber-500/10 border-l-4 border-l-amber-500 border border-border/50 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1 print:border-gray-400">
-                              <div className="flex items-center gap-1.5 font-sans font-bold text-amber-700 dark:text-amber-400 print:text-black text-xs uppercase tracking-wide">
-                                <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                                <span>Padrão de armadilha (autoral)</span>
-                              </div>
-                              <p className="text-ink print:text-black m-0 leading-relaxed font-sans text-xs">
-                                {q.armadilhaBanca}
-                              </p>
-                            </div>
-                          )}
-
-                          {/* Justificativa e Fundamentação Técnica */}
-                          <div className="mt-2.5 p-3 rounded-lg bg-surface-2 print:bg-gray-50 border border-border/80 print:border-gray-300 text-xs font-serif leading-relaxed text-ink print:text-black space-y-1">
-                            <div className="flex items-center gap-1.5 font-sans font-bold text-ink-2 print:text-gray-700 text-xs uppercase tracking-wide">
-                              <BookOpen className="w-3.5 h-3.5 text-accent print:text-black shrink-0" />
-                              <span>Justificativa e Fundamentação Técnica</span>
-                            </div>
-                            <p className="text-ink print:text-black m-0 leading-relaxed font-serif text-xs">
-                              {q.justificativa}
-                            </p>
+                          <div className="mt-3.5">
+                            <PainelEstudoReverso
+                              questao={q}
+                              resposta={respObj?.resposta ?? 'BRANCO'}
+                              certeza={respObj?.certeza}
+                              autoexplicacao={false}
+                              analise={PILOTO_RACIOCINIO.find(a => a.itemId === q.id)}
+                              onReverTeoria={subId => { setSelectedSubmodule(subId); setActiveView('teoria'); }}
+                            />
                           </div>
-
-                          {/* Como ficaria correto no relatório pós-simulado */}
-                          {q.gabarito === 'E' && q.versao_correta && (
-                            <div className="mt-2.5 p-3 rounded-lg bg-surface border border-emerald-500/30 print:border-gray-400 space-y-1">
-                              <div className="flex items-center gap-1.5 font-sans font-bold text-emerald-700 dark:text-emerald-400 print:text-black text-xs uppercase tracking-wide">
-                                <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
-                                <span>Como ficaria correto (Fixação Canônica):</span>
-                              </div>
-                              <p className="text-ink print:text-black m-0 leading-relaxed font-serif text-xs italic">
-                                "{q.versao_correta}"
-                              </p>
-                            </div>
-                          )}
                         </div>
                       );
                     })}
@@ -1591,20 +1566,9 @@ export const SimuladoPage: React.FC = () => {
                 resposta={respostaAtual.resposta}
                 certeza={respostaAtual.certeza}
                 autoexplicacao={false}
+                analise={PILOTO_RACIOCINIO.find(a => a.itemId === currentQuestion.id)}
+                onReverTeoria={subId => { setSelectedSubmodule(subId); setActiveView('teoria'); }}
               />
-
-              {/* Como ficaria correto (Fixação Canônica Cebraspe para itens ERRADOS) */}
-              {currentQuestion.gabarito === 'E' && currentQuestion.versao_correta && (
-                <div className="p-4 rounded-xl bg-surface border border-emerald-500/30 space-y-1.5 shadow-editorial-xs">
-                  <div className="flex items-center gap-1.5 font-sans font-bold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
-                    <CheckCircle2 className="w-4 h-4 shrink-0 text-emerald-600 dark:text-emerald-400" />
-                    <span>Como ficaria correto (Fixação Canônica):</span>
-                  </div>
-                  <p className="text-xs sm:text-sm font-serif text-ink leading-relaxed italic m-0">
-                    "{currentQuestion.versao_correta}"
-                  </p>
-                </div>
-              )}
 
               {/* Fonte Original Auditada (P18 - Proveniência Honesta) */}
               {(() => {

@@ -37,3 +37,11 @@ Os scripts históricos de exportação e verificação de lotes continuam em `sc
 - Carga, retomada e abandono, além do acerto.
 
 Não converter leitura, clique de revelação ou acerto imediato em prova de domínio. Os formatos legados e as previsões existentes possuem limitações documentadas na auditoria e não são homologados por este lote.
+
+## Feedback em cada resposta dos simulados
+
+Nos simulados por módulo, cada resposta revela imediatamente a comparação entre o julgamento do aluno e o gabarito, a justificativa cadastrada, o trecho decisivo quando localizado literalmente, o contraste disponível e um roteiro para investigar a dificuldade. Acerto não é tratado como prova de domínio; branco tem orientação própria. O roteiro distingue desconhecimento da regra, interpretação das condições e possível troca na marcação, sem atribuir uma causa ao aluno automaticamente.
+
+O aluno pode voltar diretamente ao submódulo de teoria. Os 12 itens revisados também exibem regra, três passos e fonte localizada no próprio simulado. Os demais usam sua fundamentação existente; isso não representa revisão editorial integral do banco. O contraste redundante foi removido.
+
+O modo explicitamente identificado como prova real mantém gabarito e comentários ao final. Seu relatório usa o mesmo painel pedagógico por item, sem antecipar respostas durante a prova.
