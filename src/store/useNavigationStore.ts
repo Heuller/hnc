@@ -89,7 +89,7 @@ function getInitialSubmodule(): string {
   }
 }
 
-function getSimuladoIdFromHash(): string | undefined {
+export function getSimuladoIdFromHash(): string | undefined {
   if (typeof window === 'undefined') return undefined;
   const rawHash = window.location.hash.replace(/^#\/?/, '').trim();
   if (rawHash.includes('?')) {
@@ -100,6 +100,22 @@ function getSimuladoIdFromHash(): string | undefined {
   const parts = rawHash.split('/');
   if (parts[0] === 'simulado' && parts[1]) {
     return parts[1];
+  }
+  return undefined;
+}
+
+export function getQuestionIndexFromHash(): number | undefined {
+  if (typeof window === 'undefined') return undefined;
+  const rawHash = window.location.hash.replace(/^#\/?/, '').trim();
+  if (rawHash.includes('?')) {
+    const params = new URLSearchParams(rawHash.split('?')[1]);
+    const q = params.get('q');
+    if (q) {
+      const parsed = parseInt(q, 10);
+      if (!isNaN(parsed) && parsed >= 1) {
+        return parsed - 1; // 0-based
+      }
+    }
   }
   return undefined;
 }

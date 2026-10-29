@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { User, Session } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '../lib/supabase';
+import { setStoredActiveUserId } from '../lib/userScopedStorage';
 
 interface AuthState {
   user: User | null;
@@ -17,6 +18,9 @@ interface AuthState {
 type SignOutListener = () => Promise<void> | void;
 const signOutListeners = new Set<SignOutListener>();
 
+type AuthStateListener = (user: User) => Promise<void> | void;
+const authStateListeners = new Set<AuthStateListener>();
+
 /**
  * Registra ouvintes para o evento de signOut (ex.: reset e reidratação de stores).
  * Evita acoplamento circular ou importação de dependências pesadas no useAuthStore.
@@ -26,6 +30,27 @@ export function registerSignOutListener(fn: SignOutListener): () => void {
   return () => {
     signOutListeners.delete(fn);
   };
+}
+
+/**
+ * Registra ouvintes para o evento de signIn ou restauração de sessão ativa.
+ * Permite reidratar stores e baixar progresso na nuvem de forma desacoplada.
+ */
+export function registerAuthStateListener(fn: AuthStateListener): () => void {
+  authStateListeners.add(fn);
+  return () => {
+    authStateListeners.delete(fn);
+  };
+}
+
+async function notifyAuthStateListeners(user: User): Promise<void> {
+  for (const listener of authStateListeners) {
+    try {
+      await listener(user);
+    } catch (e) {
+      console.warn('[useAuthStore] Erro ao executar authStateListener:', e);
+    }
+  }
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
@@ -46,22 +71,36 @@ export const useAuthStore = create<AuthState>((set) => ({
 
     // Busca sessão atual
     supabase.auth.getSession().then(({ data: { session } }) => {
+      const user = session?.user ?? null;
+      if (user) {
+        setStoredActiveUserId(user.id);
+      }
       set({
         session,
-        user: session?.user ?? null,
+        user,
         loading: false,
       });
+      if (user) {
+        notifyAuthStateListeners(user);
+      }
     });
 
     // Escuta alterações de estado de autenticação
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
+      const user = session?.user ?? null;
+      if (user) {
+        setStoredActiveUserId(user.id);
+      }
       set({
         session,
-        user: session?.user ?? null,
+        user,
         loading: false,
       });
+      if (user) {
+        notifyAuthStateListeners(user);
+      }
     });
 
     return () => {
@@ -70,6 +109,7 @@ export const useAuthStore = create<AuthState>((set) => ({
   },
 
   signOut: async () => {
+    setStoredActiveUserId(null);
     if (isSupabaseConfigured) {
       await supabase.auth.signOut();
     }

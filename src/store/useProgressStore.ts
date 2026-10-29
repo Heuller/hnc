@@ -15,7 +15,8 @@ import {
 } from '../domain/leitner';
 import { getItensCadernoErros } from '../domain/cadernoErros';
 import { calcularPontuacaoCebraspe } from '../domain/scoring/cebraspeScoring';
-import { useAuthStore, registerSignOutListener } from './useAuthStore';
+import { useAuthStore, registerSignOutListener, registerAuthStateListener } from './useAuthStore';
+import { simuladoSessionService } from '../services/simuladoSessionService';
 import { progressSyncService } from '../services/progressSyncService';
 import type { TentativaRegistro } from '../domain/tentativas';
 import { criarTentativaRegistro } from '../domain/tentativas';
@@ -593,9 +594,26 @@ export const useProgressStore = create<ProgressStoreState>()(
       obterSessaoSimulado: (simuladoId: string) => {
         const state = get();
         const sessoes = state.sessoesSimulados || {};
-        if (sessoes[simuladoId]) {
-          return sessoes[simuladoId];
+        let sessaoStore = sessoes[simuladoId];
+
+        // Consulta persistência atômica local dedicada
+        const localSessao = simuladoSessionService.obterSessaoLocal(simuladoId);
+
+        if (sessaoStore && Object.keys(sessaoStore.respostas || {}).length > 0) {
+          if (localSessao && Object.keys(localSessao.respostas || {}).length > Object.keys(sessaoStore.respostas || {}).length) {
+            sessaoStore = simuladoSessionService.mesclarSessoes(sessaoStore, localSessao) || sessaoStore;
+          }
+          return sessaoStore;
         }
+
+        if (localSessao && Object.keys(localSessao.respostas || {}).length > 0) {
+          return localSessao;
+        }
+
+        if (sessaoStore) {
+          return sessaoStore;
+        }
+
         // Fallback para sessaoAtivaSimulado se compatível
         if (state.sessaoAtivaSimulado && state.sessaoAtivaSimulado.emAndamento) {
           const firstKey = Object.keys(state.sessaoAtivaSimulado.respostas || {})[0];
@@ -624,20 +642,40 @@ export const useProgressStore = create<ProgressStoreState>()(
         const state = get();
         const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
         const sessoes = state.sessoesSimulados || {};
-        const sessaoAtual = sessoes[simuladoId] || {
-          simuladoId,
-          respostas: {},
-          currentIndex: 0,
-          emAndamento: true,
-          tempoGastoSegundos: 0,
-          ultimoAcessoTimestamp: Date.now(),
-        };
+        const localSessao = simuladoSessionService.obterSessaoLocal(simuladoId);
+
+        let sessaoAtual = sessoes[simuladoId];
+        if (!sessaoAtual || Object.keys(sessaoAtual.respostas || {}).length === 0) {
+          if (localSessao && Object.keys(localSessao.respostas || {}).length > 0) {
+            sessaoAtual = localSessao;
+          }
+        }
+
+        if (!sessaoAtual) {
+          sessaoAtual = {
+            simuladoId,
+            respostas: {},
+            currentIndex: 0,
+            emAndamento: true,
+            tempoGastoSegundos: 0,
+            ultimoAcessoTimestamp: Date.now(),
+          };
+        }
 
         const novaSessao: SessaoSimuladoState = {
           ...sessaoAtual,
           emAndamento: true,
           ultimoAcessoTimestamp: Date.now(),
         };
+
+        // Salva imediatamente no storage atômico local
+        simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+
+        // Se autenticado, agenda sincronização em nuvem
+        const authUser = useAuthStore.getState().user;
+        if (authUser) {
+          simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
+        }
 
         set({
           ultimoSimuladoAcessadoId: simuladoId,
@@ -715,6 +753,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+          const authUser = useAuthStore.getState().user;
+          if (authUser) {
+            simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
+          }
+
           return {
             ultimoSimuladoAcessadoId: simuladoId,
             sessoesSimulados: {
@@ -750,6 +794,12 @@ export const useProgressStore = create<ProgressStoreState>()(
             ultimoAcessoTimestamp: Date.now(),
           };
 
+          simuladoSessionService.salvarSessaoLocal(simuladoId, novaSessao);
+          const authUser = useAuthStore.getState().user;
+          if (authUser) {
+            simuladoSessionService.salvarSessaoNuvemDebounced(authUser.id, simuladoId, novaSessao);
+          }
+
           return {
             ultimoSimuladoAcessadoId: simuladoId,
             sessoesSimulados: {
@@ -766,6 +816,7 @@ export const useProgressStore = create<ProgressStoreState>()(
       },
 
       salvarTempoSimulado: (simuladoId: string, segundos: number) => {
+        simuladoSessionService.salvarTempoLocal(simuladoId, segundos);
         set((state) => {
           const sessoes = state.sessoesSimulados || {};
           const sessaoAtual = sessoes[simuladoId];
@@ -805,6 +856,8 @@ export const useProgressStore = create<ProgressStoreState>()(
         });
 
         const pontuacao = calcularPontuacaoCebraspe(itensCebraspe);
+
+        simuladoSessionService.limparSessaoLocal(simuladoId);
 
         const resultado: SimuladoFinalizado = {
           id: `simulado-${Date.now()}`,
@@ -898,6 +951,7 @@ export const useProgressStore = create<ProgressStoreState>()(
       reiniciarSimulado: (simuladoIdParam?: string) => {
         const state = get();
         const simuladoId = simuladoIdParam || state.ultimoSimuladoAcessadoId || 'm1-fundamentos';
+        simuladoSessionService.limparSessaoLocal(simuladoId);
         const sessoes = state.sessoesSimulados || {};
         set({
           sessoesSimulados: {
@@ -1057,4 +1111,25 @@ export const useProgressStore = create<ProgressStoreState>()(
 registerSignOutListener(async () => {
   useProgressStore.getState().limparTodoProgresso();
   await useProgressStore.persist?.rehydrate?.();
+});
+
+// Sincronização ao autenticar ou restaurar sessão ativa (F-04 + Resiliência contra F5)
+registerAuthStateListener(async (user) => {
+  try {
+    await useProgressStore.persist?.rehydrate?.();
+    const cloudProgress = await progressSyncService.baixarProgressoNuvem(user.id);
+    if (cloudProgress) {
+      const currentState = useProgressStore.getState();
+      useProgressStore.setState({
+        ...currentState,
+        ...cloudProgress,
+        sessoesSimulados: {
+          ...(cloudProgress.sessoesSimulados || {}),
+          ...(currentState.sessoesSimulados || {}),
+        },
+      });
+    }
+  } catch (err) {
+    console.warn('[useProgressStore] Falha ao sincronizar após auth:', err);
+  }
 });

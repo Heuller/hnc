@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { ALL_SIMULADOS_REGISTRY, getSimuladoById } from '../content/simuladosRegistry';
 import { useProgressStore } from '../store/useProgressStore';
-import { useNavigationStore } from '../store/useNavigationStore';
+import { useNavigationStore, getSimuladoIdFromHash, getQuestionIndexFromHash } from '../store/useNavigationStore';
+import { simuladoSessionService } from '../services/simuladoSessionService';
 import { ALL_COURSE_MODULES } from '../content/registry';
 import { checkSimuladoAccess, type SimuladoAccessControl } from '../domain/learningEngine';
 import { AnswerSheet } from '../components/simulado/AnswerSheet';
@@ -156,10 +157,15 @@ export const SimuladoPage: React.FC = () => {
     'todos' | 'especificos' | 'basicos' | 'especiais'
   >('todos');
 
-  // Seleção de simulado ativo com restauração resiliente de sessão
+  // Seleção de simulado ativo com restauração resiliente de sessão (URL, Atômica Local, Store)
   const initialSimuladoId = () => {
-    if (targetSimuladoId) return targetSimuladoId;
-    if (ultimoSimuladoAcessadoId && (ALL_SIMULADOS_REGISTRY.some((s) => s.id === ultimoSimuladoAcessadoId) || ultimoSimuladoAcessadoId.startsWith('treino-eixo-'))) {
+    const isKnownSimulado = (id: string) => ALL_SIMULADOS_REGISTRY.some(s => s.id === id) || id.startsWith('treino-eixo-');
+    if (targetSimuladoId && isKnownSimulado(targetSimuladoId)) return targetSimuladoId;
+    const fromHash = getSimuladoIdFromHash();
+    if (fromHash && isKnownSimulado(fromHash)) return fromHash;
+    const lastActiveLocal = simuladoSessionService.obterUltimoSimuladoIdAtivo();
+    if (lastActiveLocal && isKnownSimulado(lastActiveLocal)) return lastActiveLocal;
+    if (ultimoSimuladoAcessadoId && isKnownSimulado(ultimoSimuladoAcessadoId)) {
       return ultimoSimuladoAcessadoId;
     }
     return 'm1-fundamentos';
@@ -210,6 +216,48 @@ export const SimuladoPage: React.FC = () => {
     0,
     Math.min((questoesExibidas.length || 1) - 1, sessaoAtual.currentIndex ?? 0)
   );
+
+  // Restaura questão inicial da URL hash apenas no carregamento da página / F5
+  const hasRestoredUrlQuestion = React.useRef(false);
+  useEffect(() => {
+    if (hasRestoredUrlQuestion.current) return;
+    hasRestoredUrlQuestion.current = true;
+    const hashSimuladoId = getSimuladoIdFromHash();
+    const urlQIndex = getQuestionIndexFromHash();
+    if (
+      urlQIndex !== undefined &&
+      urlQIndex >= 0 &&
+      (!hashSimuladoId || hashSimuladoId === selectedSimuladoId)
+    ) {
+      if (urlQIndex !== (sessaoAtual.currentIndex ?? 0)) {
+        mudarQuestaoSimulado(urlQIndex, selectedSimuladoId);
+      }
+    }
+  }, [selectedSimuladoId, mudarQuestaoSimulado, sessaoAtual.currentIndex]);
+
+  // Suporte a navegação por histórico do navegador (Back / Forward)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const handleHashChange = () => {
+      const hashSimuladoId = getSimuladoIdFromHash();
+      const urlQIndex = getQuestionIndexFromHash();
+      const activeId = hashSimuladoId || selectedSimuladoId;
+      if (urlQIndex !== undefined && urlQIndex >= 0) {
+        mudarQuestaoSimulado(urlQIndex, activeId);
+      }
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [selectedSimuladoId, mudarQuestaoSimulado]);
+
+  // Sincroniza URL hash com simulado ativo e índice da questão (resiliência contra reload/F5)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const targetHash = `#simulado?id=${selectedSimuladoId}&q=${currentIndex + 1}`;
+    if (window.location.hash !== targetHash) {
+      window.history.replaceState(null, '', targetHash);
+    }
+  }, [selectedSimuladoId, currentIndex]);
   const respostas = sessaoAtual.respostas ?? {};
   const modoProva = sessaoAtual.modoProva ?? false;
   const setModoProva = (value: boolean) => useProgressStore.getState().definirModoProvaSimulado(selectedSimuladoId, value);
@@ -475,6 +523,10 @@ export const SimuladoPage: React.FC = () => {
                   navigateToSimulado(sim.id);
                   setCatalogoAberto(false);
                   setSimuladoAtivoId(sim.id);
+                  iniciarOuRetomarSimulado(sim.id);
+                  if (typeof window !== 'undefined') {
+                    window.history.replaceState(null, '', `#simulado?id=${sim.id}&q=1`);
+                  }
                 }
               }}
               className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg font-sans text-xs font-semibold transition-all cursor-pointer ${
@@ -1376,7 +1428,7 @@ export const SimuladoPage: React.FC = () => {
             </span>
           </div>
 
-          {/* Placar Cebraspe: C - E */}
+          {/* Placar Cebraspe: C - E e Indicador de Salvamento Ativo */}
           <div className="flex items-center gap-4 text-xs font-mono">
             {!modoProva && <><div className="flex items-center gap-1.5">
               <span className="text-ink-2">Líquida:</span>

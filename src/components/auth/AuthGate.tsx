@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
+import { setStoredActiveUserId } from '../../lib/userScopedStorage';
 import { progressSyncService } from '../../services/progressSyncService';
 import { useProgressStore } from '../../store/useProgressStore';
 import { useAuthStore } from '../../store/useAuthStore';
@@ -68,6 +69,7 @@ export const AuthGate: React.FC = () => {
               ? crypto.randomUUID()
               : `local-${Date.now()}`;
             localStorage.setItem('hnc_local_user_id', localUserId);
+          setStoredActiveUserId(localUserId);
           }
 
           useAuthStore.setState({
@@ -102,6 +104,8 @@ export const AuthGate: React.FC = () => {
 
         if (data.user) {
           setSuccessMsg('Acesso autorizado! Carregando dados...');
+          setStoredActiveUserId(data.user.id);
+          await useProgressStore.persist?.rehydrate?.();
           const cloudProgress = await progressSyncService.baixarProgressoNuvem(data.user.id);
           if (cloudProgress) {
             useProgressStore.setState((state) => ({
