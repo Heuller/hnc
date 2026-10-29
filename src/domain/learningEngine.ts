@@ -60,7 +60,15 @@ export function getRequiredSectionsForSubmodule(submodulo: ModuloFilho): string[
     sections.push('sec-quadro');
   }
   sections.push('sec-teoria', 'sec-checkpoints', 'sec-mnemonicos');
+  // Leitura antiga continua no histórico, mas não conclui uma edição ampliada.
+  for (const unidade of submodulo.unidadesAprendizagem || []) {
+    sections.push(getUnitReadingKey(submodulo, unidade.id));
+  }
   return sections;
+}
+
+export function getUnitReadingKey(submodulo: ModuloFilho, unidadeId: string): string {
+  return `leitura:${submodulo.versaoTeoria || '1'}:${unidadeId}`;
 }
 
 /**

@@ -19,273 +19,145 @@ export const submodulo61: ModuloFilho = {
   ],
   titulo: 'Bibliotecas Digitais vs. Eletrônicas, Arquitetura da Informação e Usabilidade',
   antesDeLer: [
-    {
-      termo: 'Biblioteca Digital vs. Virtual vs. Eletrônica',
-      definicao: 'Eletrônica usa computadores para gestão; Digital possui acervo nato-digital ou digitalizado em rede; Virtual é desprovida de espaço físico.',
-      exemploBiblioteca: 'A Biblioteca Digital da Câmara (BDCam) funcionando como o nó digital do acervo da Biblioteca Pedro Aleixo.',
-    },
-    {
-      termo: 'Arquitetura da Informação (AI)',
-      definicao: 'Arte e ciência de estruturar e organizar ecossistemas de informação para facilitar a usabilidade e a encontrabilidade pelo usuário.',
-      exemploBiblioteca: 'Desenho dos menus de navegação, taxonomia e hierarquia visual da nova interface do portal de pesquisa da Câmara.',
-    },
-    {
-      termo: 'Encontrabilidade (Findability)',
-      definicao: 'Grau de facilidade com que um objeto ou conteúdo pode ser descoberto e localizado em um ambiente informacional.',
-      exemploBiblioteca: 'Melhoria dos filtros por data de proposição e comissão para que o cidadão encontre imediatamente uma lei em vigor.',
-    },
-    {
-      termo: 'Heurísticas de Usabilidade de Nielsen',
-      definicao: 'Dez princípios gerais para design de interação: visibilidade do status, consistência, prevenção de erros e flexibilidade de uso.',
-      exemploBiblioteca: 'Inserção de breadcrumbs (trilhas de navegação) e mensagens de erro claras na página de busca da biblioteca.',
-    },
-  ],
+  {
+    "termo": "Objeto digital e registro",
+    "definicao": "O objeto é o recurso; o registro é sua representação descritiva.",
+    "exemploBiblioteca": "Uma ficha informa autor e localização; o PDF permite ler o relatório."
+  },
+  {
+    "termo": "Critério de classificação",
+    "definicao": "Aspecto usado para distinguir conceitos dentro de uma abordagem identificada.",
+    "exemploBiblioteca": "Distinguir automação de circulação e fornecimento remoto do texto integral."
+  }
+],
   descricaoCurta: 'Diferenciação conceitual entre biblioteca tradicional, eletrônica, digital e virtual, os 4 sistemas da Arquitetura da Informação (Rosenfeld & Morville: organização, navegação, rotulagem e busca), heurísticas de usabilidade de Jakob Nielsen e acessibilidade digital (WCAG e e-MAG).',
   tempoEstimadoMinutos: 18,
   autoresChave: ['Louis Rosenfeld', 'Peter Morville', 'Jakob Nielsen', 'F. W. Lancaster', 'W3C / e-MAG', 'Clifford Lynch'],
   alertasCebraspe: [
-    'Diferenciação das tipologias de biblioteca: Biblioteca Eletrônica (automatiza processos internos de circulação e catálogos com computadores, mas seu acervo primário continua impresso); Biblioteca Digital (armazena e disponibiliza documentos integrais em texto completo em formato digital nativo ou digitalizado, com preservação de longo prazo e metadados estruturados); Biblioteca Virtual (acesso distribuído em rede transparente sem sede física única, uma "biblioteca sem paredes"). A técnica de distrator recorrente consiste em afirmar que não há distinção conceitual entre digital e virtual: ERRADO!',
-    'Os quatro sistemas da Arquitetura da Informação (Rosenfeld e Morville): 1. Sistema de Organização (como a informação é categorizada em esquemas exatos ou ambíguos); 2. Sistema de Navegação (global, local, associativa e suplementar com breadcrumbs); 3. Sistema de Rotulagem (como os botões, links e categorias são nomeados em linguagem coerente); e 4. Sistema de Busca (mecanismos que processam a consulta e ranqueiam resultados).',
-    'Usabilidade e as 10 Heurísticas de Jakob Nielsen: visibilidade do status do sistema, correspondência com o mundo real, controle do usuário e liberdade (botão desfazer), consistência e padrões, prevenção de erros, reconhecimento em vez de memorização, flexibilidade e eficiência de uso (atalhos), design minimalista (data-ink), diagnóstico de erros em linguagem humana e ajuda/documentação.',
-    'Testes de Usabilidade em bibliotecas digitais: o Cebraspe exige saber que os testes empíricos com usuários reais (método comportamental) são insubstituíveis pela mera inspeção heurística de especialistas para diagnosticar falhas cognitivas reais na interface.',
-    'Acessibilidade Digital no Setor Público: aplicação das diretrizes WCAG (Web Content Accessibility Guidelines) do W3C sob os 4 princípios fundamentais (POUR: Perceptível, Operável, Compreensível e Robusto) e as diretrizes do Modelo de Acessibilidade em Governo Eletrônico (e-MAG).',
-  ],
+  "Diferencie acesso ao registro e acesso ao documento; não suponha texto integral porque existe um OPAC.",
+  "Compare funções e o autor indicado. Tipologias de biblioteca não têm terminologia perfeitamente uniforme.",
+  "Acessibilidade e usabilidade exigem análise de tarefas e barreiras; a presença de uma funcionalidade não certifica todos os requisitos."
+],
   quadroComparativo: {
-    titulo: 'Evolução e Contraste das Tipologias de Bibliotecas',
-    colunas: ['Tipo de Biblioteca', 'Forma Predominante do Acervo', 'Acesso e Infraestrutura', 'Mediação e Serviços', 'Pegadinha Cebraspe Mapeada'],
-    linhas: [
-      ['Biblioteca Tradicional', 'Suportes físicos em papel, códices e impressos', 'Presencial, restrito ao prédio físico e horário de funcionamento', 'Mediação direta presencial no balcão e fichas catalográficas em gaveteiros', 'Afirmar que a biblioteca tradicional não pode ter computadores para administração interna.'],
-      ['Biblioteca Eletrônica', 'Acervo físico com apoio de mídias magnéticas e CD-ROMs', 'Catálogos automatizados locais (OPAC) e rotinas internas computadorizadas', 'Automação de rotinas (empréstimo por código de barras e catalogação MARC)', 'Confundir biblioteca eletrônica com biblioteca digital (a eletrônica apenas informatiza a gestão de livros físicos).'],
-      ['Biblioteca Digital', 'Objetos digitais em texto completo (natos digitais ou digitalizados)', 'Acesso remoto via Internet 24/7 com metadados estruturados (Dublin Core/OAI-PMH)', 'Serviços digitais, preservação de longo prazo e interoperabilidade com repositórios', 'Dizer que uma biblioteca digital requer obrigatoriamente uma cópia impressa de segurança em papel (FALSO).'],
-      ['Biblioteca Virtual', 'Disperso e imaterial em rede global de hiperlinks', 'Totalmente transparente na nuvem; não possui paredes nem prédio físico único', 'Acesso distribuído em múltiplos nós, federações e portais colaborativos da Web', 'Afirmar que biblioteca virtual e biblioteca digital são sinônimos perfeitos na doutrina (FALSO).'],
-    ],
-  },
-  teoriaDensaMarkdown: `### 1. Tipologia Evolutiva das Bibliotecas na Era da Informação
-
-A Ciência da Informação e a Biblioteconomia contemporâneas (Lancaster, 1993; Cunha, 2000; Marchiori, 1997) delimitam com rigor epistemológico as categorias evolutivas das bibliotecas:
-
-\`\`\`timeline
-TRAD | 1. Biblioteca Tradicional | Suporte Analógico Exclusivo | Acervo físico em papel, fichas catalográficas manuais e acesso restrito aos limites do prédio físico
----> Informatização de Rotinas
-ELET | 2. Biblioteca Eletrônica / Automatizada | Gestão Informatizada / Acervo Físico | Catálogo em linha (OPAC), controle informatizado de empréstimos, mas acervo primário continua impresso
----> Digitalização e Objetos Natos Digitais
-DIG | 3. Biblioteca Digital | Conteúdo na Íntegra em Formato Binário | Armazenamento e preservação de textos completos e dados digitais estruturados com metadados
----> Desterritorialização e Redes Abertas
-VIRT | 4. Biblioteca Virtual / Sem Paredes | Acesso Distribuído Ubíquo | Existência puramente informacional em rede: sem sede física única, integrando múltiplos acervos globais
-\`\`\`
-
-* **1. Biblioteca Tradicional:**
-  * Fundamentada exclusivamente no acervo físico em suporte papel e fichas catalográficas manuais.
-  * O acesso é circunscrito aos limites arquitetônicos do edifício e aos horários formais de expediente.
-* **2. Biblioteca Eletrônica / Automatizada:**
-  * Utiliza tecnologias de computação para **informatizar as rotinas administrativas e técnicas internas**: controle de circulação, inventário por código de barras e catálogo público em linha (OPAC).
-  * **Ponto Crítico de Prova:** O acervo bibliográfico primário (livros, periódicos, teses) **permanece predominantemente analógico e físico** nas estantes. O computador atua como instrumento de gestão e indexação, não como repositório dos textos completos.
-* **3. Biblioteca Digital:**
-  * Armazena, processa, preserva e provê acesso a **documentos em texto completo em formato digital** (sejam eles documentos digitalizados ou "natos digitais" / *born-digital*).
-  * Possui estrutura formal de repositório (ex.: DSpace), esquemas padronizados de metadados descritivos e de preservação (Dublin Core, METS, PREMIS), atribuição de identificadores persistentes e acervo próprio sob custódia institucional.
-* **4. Biblioteca Virtual / "Biblioteca sem Paredes":**
-  * Conceito pós-custodial que transcende a posse física e as fronteiras institucionais.
-  * Consiste em um portal integrado ou rede em malha que disponibiliza acesso unificado e transparente a coleções heterogêneas e distribuídas geograficamente em servidores globais via protocolos de rede (ex.: Oasisbr, BDTD, Europeana).
-
----
-
-### 2. A Arquitetura da Informação de Louis Rosenfeld e Peter Morville
-
-Em *Information Architecture for the World Wide Web* (conhecido mundialmente como o "livro do urso polar"), **Louis Rosenfeld e Peter Morville** (1998/2006) estruturam a Arquitetura da Informação (AI) digital em **quatro sistemas fundamentais e interdependentes**:
-
-\`\`\`tree
-TITLE: Quatro Sistemas da Arquitetura da Informação (Rosenfeld & Morville)
-- Arquitetura da Informação Digital | Estrutura de organização, navegação, rotulagem e busca
-  - 1. Sistemas de Organização | Como o conteúdo informacional é categorizado e agrupado
-    - Esquemas de Organização Exatos | Sem ambiguidade: alfabético, cronológico e geográfico
-    - Esquemas de Organização Ambíguos | Exigem interpretação: por assunto/tópico, tarefa e público-alvo
-    - Estruturas de Organização | Hierarquia taxonômica, modelo hipertextual e banco de dados relacional
-  - 2. Sistemas de Navegação | Como os usuários se movimentam pelo espaço informacional
-    - Navegação Global | Menus persistentes presentes em todas as páginas da plataforma
-    - Navegação Local | Menus setoriais específicos de uma subseção ou módulo temático
-    - Navegação Contextual | Links em linha (*inline*) inseridos diretamente no corpo textual
-    - Navegação Suplementar | Breadcrumbs (trilhas de migalhas), mapas do site e índices remissivos
-  - 3. Sistemas de Rotulagem | Como as opções e categorias são nomeadas de forma intuitiva
-    - Rótulos Verbais | Termos textuais claros, padronizados e livres de jargões técnicos herméticos
-    - Rótulos Icônicos | Ícones visuais universais acompanhados de texto alternativo descritivo
-  - 4. Sistemas de Busca | Como os usuários formulam consultas para extrair dados específicos
-    - Motor de Busca e Indexação | Algoritmos de busca booleana, vetorial e semântica
-    - Navegação Facetada | Filtros dinâmicos simultâneos por data, autor, formato e assunto
-    - Algoritmos de Ranqueamento | Ordenação de resultados por relevância, pertinência e data
-\`\`\`
-
-#### A. Sistemas de Organização (*Organization Systems*)
-Definem como o conteúdo informacional é categorizado e agrupado:
-* **Esquemas de Organização Exatos:** Não comportam ambiguidade cognitiva. A informação possui uma única chave de localização:
-  * *Alfabético:* Índices de autores, dicionários e vocabulários controlados legislativos.
-  * *Cronológico:* Diários Oficiais, datas de promulgação e históricos de votação.
-  * *Geográfico:* Estados da federação, municípios ou regiões geopolíticas.
-* **Esquemas de Organização Ambíguos / Subjetivos:** Exigem interpretação intelectual, pois o usuário pode não saber exatamente o termo técnico procurado:
-  * *Por Assunto / Tópico:* Classes temáticas (ex.: Direito Tributário, Seguridade Social).
-  * *Por Tarefa:* Guias direcionados a ações específicas (ex.: "Solicitar Ficha Catalográfica", "Consultar Tramitação de PEC").
-  * *Por Audiência / Público-Alvo:* Segmentação de conteúdos para públicos distintos (ex.: "Para o Cidadão", "Para o Parlamentar", "Para a Imprensa").
-
-#### B. Sistemas de Navegação (*Navigation Systems*)
-Garantem que o usuário saiba **onde está**, **de onde veio** e **quais opções de deslocamento possui**:
-* *Navegação Global:* Barras e menus persistentes presentes em todas as páginas do portal (ex.: cabeçalho da Câmara dos Deputados).
-* *Navegação Local:* Menus contextuais específicos de uma subseção ou subsistema do portal.
-* *Navegação Contextual / Associativa:* Hiperlinks embutidos no corpo do texto para remeter a conceitos correlatos.
-* *Navegação Suplementar:* Instrumentos de apoio externo à navegação direta: **breadcrumbs** (trilhas de migalhas de pão: *Início > Biblioteca > Catálogo > Obra*), mapas do site (*sitemaps*) e índices remissivos de A a Z.
-
-#### C. Sistemas de Rotulagem (*Labeling Systems*)
-Representam conceitualmente as opções de navegação e as categorias por meio de termos textuais ou ícones gráficos:
-* Devem primar pela **consistência, clareza e previsibilidade**.
-* O vocabulário deve refletir o modelo mental e a linguagem natural da comunidade de usuários, evitando jargões técnicos fechados da equipe de desenvolvimento ou da Biblioteconomia hermética.
-
-#### D. Sistemas de Busca (*Search Systems*)
-Conjunto de ferramentas algorítmicas e visuais que processam consultas de usuários:
-* Definição da sintaxe aceita (operadores booleanos, truncagem, busca por frases exatas com aspas).
-* Zonas de busca (*search zones*) e exibição de resultados ranqueados por relevância ou data, com navegação por **facetas dinâmicas** (filtragem por ano, formato, autor e comissão temática).
-
----
-
-### 3. Usabilidade e as 10 Heurísticas de Jakob Nielsen
-
-A usabilidade avalia a facilidade, eficácia, eficiência e satisfação com que usuários realizam tarefas em um sistema digital (Nielsen, 1994, *Usability Engineering*):
-
-| Heurística de Nielsen | Diretriz Prática | Aplicação em Bibliotecas Digitais e Portais |
-| :--- | :--- | :--- |
-| **1. Visibilidade do status** | O sistema deve informar continuamente o que está ocorrendo em tempo hábil. | Barras de progresso ao descarregar teses em PDF volumosas ou avisos de "Processando busca...". |
-| **2. Correspondência com o mundo real** | Falar a linguagem do usuário com conceitos e metáforas cotidianos. | Usar termos como "Minha Estante" ou "Histórico de Empréstimos" em vez de "Tabela Relacional 03". |
-| **3. Controle e liberdade** | Oferecer saídas de emergência claras e reversibilidade de ações. | Botões evidentes de "Cancelar", "Limpar Filtros" e "Desfazer Operação". |
-| **4. Consistência e padrões** | Seguir convenções consolidadas da web para não desorientar o usuário. | Ícone de lupa para busca, links sublinhados ou destacados e botões com comportamentos uniformes. |
-| **5. Prevenção de erros** | Projetar a interface para impedir falhas antes que elas aconteçam. | Confirmações para ações destrutivas (ex.: "Excluir reserva?") e máscaras em campos de datas. |
-| **6. Reconhecimento em vez de lembrança** | Minimizar a carga de memória de trabalho do usuário tornando opções visíveis. | Histórico de buscas recentes, sugestões de preenchimento automático (*autocomplete*) e facetas abertas. |
-| **7. Flexibilidade e eficiência** | Fornecer aceleradores para usuários avançados sem atrapalhar novatos. | Atalhos de teclado, busca avançada booleana para consultores e busca simples para o público geral. |
-| **8. Design estético e minimalista** | Eliminar informações desnecessárias ou redundantes (*data-ink ratio*). | Telas de busca despoluídas, sem banners supérfluos que concorram com a atenção do pesquisador. |
-| **9. Auxílio no reconhecimento de erros** | Mensagens de erro claras, em linguagem humana, sugerindo solução imediata. | Em vez de "Erro 404/NullPointer", exibir "Documento não encontrado. Deseja buscar em todo o catálogo?". |
-| **10. Ajuda e documentação** | Prover ajuda contextual, concisa e orientada à resolução de problemas práticos. | Dicas de ajuda contextual flutuantes (*tooltips*) explicando como refinar a pesquisa booleana. |
-
----
-
-### 4. Avaliação de Usabilidade e Acessibilidade Digital (WCAG e e-MAG)
-
-#### A. Métodos de Avaliação de Usabilidade
-* **Inspeção Heurística:** Avaliação analítica conduzida por especialistas em usabilidade que confrontam a interface contra as 10 heurísticas de Nielsen. Rápida e de baixo custo, mas sujeita a vieses dos avaliadores.
-* **Testes de Usabilidade com Usuários Reais:** Método empírico observacional onde usuários representativos executam tarefas típicas monitoradas em laboratório ou remotamente. É o padrão-ouro para detectar atritos cognitivos reais.
-
-#### B. Acessibilidade Digital (WCAG 2.1/2.2, e-MAG e LBI)
-A legislação brasileira (Lei Brasileira de Inclusão da Pessoa com Deficiência - Lei nº 13.146/2015, art. 63) determina a acessibilidade obrigatória em todos os sítios e portais mantidos por órgãos do governo e entidades públicas:
-
-* **1. Os Quatro Princípios Estruturantes da WCAG (W3C - Modelo POUR):**
-  1. *Perceptível (Perceivable):* A informação e os componentes da interface devem ser apresentados aos usuários em formas que eles possam perceber pelos sentidos:
-     * Fornecimento de textos alternativos equivalentes (\`alt\`) para qualquer conteúdo não textual (imagens, gráficos, infográficos e ícones);
-     * Legendas sincronizadas e audiodescrição para conteúdos em vídeo e gravações de sessões legislativas;
-     * Contraste mínimo de cor entre texto e plano de fundo (requisito Nível AA: razão de contraste mínima de **4,5:1** para texto normal e **3:1** para texto grande com 18pt ou 14pt em negrito).
-  2. *Operável (Operable):* Os componentes da interface e a navegação devem ser operáveis:
-     * **Navegação 100% via Teclado:** Todas as funcionalidades do catálogo e do repositório devem ser acessíveis por teclado (tecla \`Tab\`, \`Enter\`, \`Espaço\`, setas), sem prender o usuário em "armadilhas de teclado" (*keyboard traps*);
-     * **Foco Visível:** O elemento com foco de navegação deve ter indicador visual evidente na tela;
-     * **Tempo Suficiente:** Concessão de tempo ajustável para leitura e interação antes de qualquer expiração automática de sessão;
-     * **Sem Convulsões:** Proibição de elementos piscantes com frequência entre 3 Hz e 50 Hz para evitar crises epilépticas fotossensíveis.
-  3. *Compreensível (Understandable):* A informação e a operação da interface devem ser compreensíveis:
-     * Textos redigidos com clareza, declaração explícita do idioma principal da página (\`<html lang="pt-BR">\`);
-     * Previsibilidade: elementos interativos não devem alterar abruptamente o contexto da página apenas por receberem foco;
-     * Assistência à Entrada de Dados: mensagens de erro claras, identificando o campo faltante e orientando a correção imediata.
-  4. *Robusto (Robust):* O conteúdo deve ser suficientemente robusto para ser interpretado de forma confiável por uma ampla variedade de agentes de usuário, incluindo tecnologias assistivas:
-     * Marcação HTML5 semântica e válida (uso correto de \`<header>\`, \`<nav>\`, \`<main>\`, \`<article>\`, \`<footer>\` e atributos ARIA onde necessário);
-     * Compatibilidade garantida com leitores de tela populares (NVDA, JAWS, Orca, VoiceOver) e linhas braille atualizáveis.
-
-* **2. Os Três Níveis de Conformidade da WCAG:**
-  * **Nível A (Básico):** Requisitos mínimos indispensáveis; sua ausência impossibilita totalmente o acesso por pessoas com deficiência.
-  * **Nível AA (Padrão para a Administração Pública):** Nível internacionalmente exigido para sítios governamentais, bibliotecas públicas e serviços digitais de Estado.
-  * **Nível AAA (Avançado / Especializado):** Nível mais rigoroso de acessibilidade, indicado para ambientes especializados (ex.: contraste mínimo de 7:1, audiodescrição gravada estendida).
-
-* **3. O Modelo de Acessibilidade em Governo Eletrônico (e-MAG):**
-  * Padrão oficial normativo instituído no âmbito do Governo Federal brasileiro (Portaria SLTI/MPOG nº 3/2007) para orientar desenvolvedores e conteudistas de órgãos públicos:
-  * Divide-se em 6 eixos práticos: 1. Marcação; 2. Comportamento; 3. Conteúdo / Informação; 4. Apresentação / Design; 5. Multimídia; e 6. Formulários.
-  * **Barra de Acessibilidade Padrão:** Recomenda a presença de atalhos padronizados no cabeçalho das páginas federais:
-    * Atalho 1: Ir para o conteúdo principal (\`Alt + 1\`);
-    * Atalho 2: Ir para o menu de navegação (\`Alt + 2\`);
-    * Atalho 3: Ir para o campo de busca (\`Alt + 3\`);
-    * Botões de alto contraste visual e mapa do sítio.
-
-* **4. A Lei Brasileira de Inclusão da Pessoa com Deficiência (LBI - Lei nº 13.146/2015):**
-  * O **Art. 63** estabelece a **obrigatoriedade cogente de acessibilidade** nos sítios da internet mantidos por empresas com sede ou representação comercial no País ou por órgãos de governo, para uso da pessoa com deficiência, garantindo-se-lhe pleno acesso às informações disponíveis, conforme as melhores práticas e diretrizes adotadas internacionalmente.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Protocolos de Interoperabilidade e SIGB (sub-6-2):** Integração entre bibliotecas digitais, SIGB e discovery services.
-* **Acessibilidade de Produtos Informacionais (sub-8-5):** Diretrizes WCAG 2.2 e eMAG aplicadas a portais de bibliotecas.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-As **Bibliotecas Digitais**, a **Arquitetura da Informação** e a **Usabilidade** formam a tríade da interface dos sistemas de informação modernos:
-1. **Diferenças Conceituais Canônicas (Cunha, 2008):**
-   - **Biblioteca Tradicional:** Coleção predominantemente impressa em espaço físico tangível, processos manuais ou semiautomatizados.
-   - **Biblioteca Eletrônica:** Utiliza sistemas de computadores para automatizar processos internos (catalogação, circulação, empréstimo), mas a coleção principal ainda pode ser física em papel.
-   - **Biblioteca Virtual:** Não possui espaço físico e nem acervo próprio; é uma rede lógica que interliga acervos remotos distribuídos via internet.
-   - **Biblioteca Digital:** Possui acervo nativamente digital ou digitalizado, com tratamento técnico padronizado (metadados), armazenamento digital seguro, preservação a longo prazo e serviços acessíveis online de ponta a ponta.
-2. **Arquitetura da Informação (Rosenfeld, Morville e Arango):**
-   - A arte e a ciência de organizar, estruturar e rotular sistemas de informação digitais para apoiar a usabilidade e a encontrabilidade (*findability*).
-   - **Os 4 Sistemas Fundamentais da AI:**
-     - *Sistema de Organização:* Como a informação é estruturada (hierárquica, cronológica, alfabética, facetada).
-     - *Sistema de Rotulagem:* Como os botões, links e categorias são nomeados (evitar jargões técnicos incompreensíveis ao usuário comum).
-     - *Sistema de Navegação:* Como o usuário se movimenta na interface (global, local, contextual, migalhas de pão / *breadcrumbs*).
-     - *Sistema de Busca:* Mecanismos de busca, filtros, facetas e ordenação de resultados.
-3. **Usabilidade e Heurísticas de Jakob Nielsen (1994):**
-   - Medida da facilidade, eficácia e satisfação com que um usuário opera um sistema.
-   - **10 Heurísticas de Nielsen:** 1. Visibilidade do estado do sistema; 2. Correspondência entre o sistema e o mundo real; 3. Controle e liberdade do usuário (botão desfazer); 4. Consistência e padrões; 5. Prevenção de erros; 6. Reconhecimento em vez de memorização; 7. Flexibilidade e eficiência de uso (atalhos); 8. Design estético e minimalista; 9. Auxílio aos usuários para reconhecer, diagnosticar e recuperar-se de erros; 10. Ajuda e documentação.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (A BDCam como Biblioteca Digital por Excelência):** A Biblioteca Digital da Câmara dos Deputados (BDCam) opera sobre DSpace. Os documentos nascem digitais (ou foram digitalizados com OCR), recebem metadados Dublin Core, possuem URNs e identificadores persistentes (Handle/DOI), e o usuário pesquisa, visualiza e baixa em PDF/A sem precisar ir ao prédio da Câmara. Trata-se de uma **biblioteca digital pura** (Cunha).
-- **Cenário 2 (Arquitetura da Informação no Portal da Câmara):** Ao redesenhar a página de Proposições Legislativas, os bibliotecários aplicam o **Sistema de Navegação por Facetas**: o cidadão filtra por "Ano", "Tipo de Proposição (PL, PEC, MPV)" e "Situação da Tramitação", navegando com o suporte de *breadcrumbs* (migalhas de pão) no topo da página.
-- **Cenário 3 (Heurística de Prevenção de Erros no Formulário de Pesquisa):** O sistema de busca do portal avisa preventivamente quando o usuário digita termos booleanos com sintaxe errada ou caracteres inválidos, impedindo que a busca retorne uma página de erro genérica. Isso aplica diretamente a **Heurística nº 5 de Nielsen (Prevenção de Erros)**.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Biblioteca | Suporte da Coleção | Automação de Processos | Espaço Físico |
-| :--- | :--- | :--- | :--- |
-| **Tradicional** | Físico (papel) | Mínima / Manual | Obrigatório |
-| **Eletrônica** | Misto (físico preponderante) | Alta (softwares de gestão) | Obrigatório |
-| **Digital** | Digital (bits/arquivos com metadados) | Completa no ciclo digital | Pode ou não ter sede física |
-| **Virtual** | Disperso em redes remotas | Baseada em links e hipertextos | Sem espaço físico próprio |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Biblioteca Digital vs. Virtual:** A banca afirma que *"a biblioteca virtual é aquela que possui um acervo próprio digitalizado armazenado em seus próprios servidores locais"*. **Gabarito: ERRADO.** A biblioteca que possui acervo digital próprio com metadados é a **Biblioteca Digital**; a biblioteca virtual é uma metáfora de rede que aponta para acervos alheios.
-- **Heurística de Reconhecimento vs. Memorização:** O Cebraspe troca os termos dizendo que o usuário deve ser estimulado a memorizar comandos complexos. **Gabarito: ERRADO.** A heurística de Nielsen preconiza **reconhecimento em vez de memorização** (elementos visíveis e autoexplicativos).
-- **Arquitetura da Informação Limitada ao Design Visual:** Dizer que AI cuida apenas das cores e estética do site. **Gabarito: ERRADO.** AI cuida da estrutura lógica, taxonomia, rotulagem e navegação.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **CUNHA, Murilo Bastos da.** Das bibliotecas convencionais às digitais: diferenças e convergências. *Perspectivas em Ciência da Informação*, v. 13, n. 1, p. 2-17, 2008. (O artigo mais citado sobre a evolução das tipologias de biblioteca).
-- **ROSENFELD, Louis; MORVILLE, Peter; ARANGO, Jorge.** *Information Architecture: For the Web and Beyond*. 4. ed. Sebastopol: O'Reilly Media, 2015. (A bíblia mundial de Arquitetura da Informação).
-- **NIELSEN, Jakob.** *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994. (A fonte canônica das 10 heurísticas de usabilidade).
-- **ROWLEY, Jennifer.** *A biblioteca eletrônica*. Brasília: Briquet de Lemos, 2002.
-- **KRUG, Steve.** *Não me faça pensar: uma abordagem de bom senso à usabilidade na web*. 2. ed. Rio de Janeiro: Alta Books, 2008.`,
-  checkpoints: [
-    {
-      id: 'cp-6-1-1',
-      pergunta: 'Micro-Checkpoint 1: Os Quatro Sistemas da Arquitetura da Informação',
-      item: 'Segundo Rosenfeld e Morville, a arquitetura da informação em ambientes digitais organiza-se a partir de quatro sistemas estruturantes: sistemas de organização, sistemas de navegação, sistemas de rotulagem e sistemas de busca.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é a tetralogia fundacional da Arquitetura da Informação cobrada com frequência em concursos do Cebraspe.',
-    },
-    {
-      id: 'cp-6-1-2',
-      pergunta: 'Micro-Checkpoint 2: Diferença Conceitual entre Biblioteca Eletrônica e Digital',
-      item: 'A distinção entre biblioteca eletrônica e biblioteca digital reside no fato de que a biblioteca digital tem como foco a provisão de acesso a documentos em texto completo em formato digital, enquanto a biblioteca eletrônica utiliza a computação para automatizar rotinas internas de acervos primordialmente físicos.',
-      gabarito: 'C',
-      justificativa: 'Correto! Essa é a exata distinção conceitual cobrada em provas recentes da banca Cebraspe (FUB, SEE-PE).',
-    },
-    {
-      id: 'cp-6-1-3',
-      pergunta: 'Micro-Checkpoint 3: Acessibilidade Digital no Setor Público (WCAG e LBI)',
-      item: 'A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) estabelece a obrigatoriedade de acessibilidade nos sítios da internet mantidos por órgãos de governo, devendo as bibliotecas digitais públicas observar as diretrizes internacionais da WCAG (W3C), cujos princípios estruturantes são Perceptível, Operável, Compreensível e Robusto (POUR).',
-      gabarito: 'C',
-      justificativa: 'Correto! Conforme o art. 63 da Lei nº 13.146/2015 (LBI), sítios governamentais devem garantir pleno acesso conforme as diretrizes internacionais da WCAG, estruturadas nos quatro princípios fundamentais do acrônimo POUR.',
-    },
+  "titulo": "Funções de um serviço digital",
+  "colunas": [
+    "Componente",
+    "Função",
+    "Não permite concluir sozinho"
   ],
+  "linhas": [
+    [
+      "Catálogo",
+      "Descrever e localizar recursos",
+      "Que todo documento tem texto integral aberto"
+    ],
+    [
+      "Repositório",
+      "Organizar e disponibilizar objetos e metadados conforme política",
+      "Que todo objeto está livre de restrições"
+    ],
+    [
+      "Busca",
+      "Recuperar resultados a partir de consulta",
+      "Que organização e rótulos se tornaram desnecessários"
+    ],
+    [
+      "Avaliação automática",
+      "Detectar verificações programáveis",
+      "Que toda experiência está acessível"
+    ]
+  ]
+},
+  teoriaDensaMarkdown: "### O que torna uma biblioteca digital: coleção, organização e serviço\n\nImagine uma instituição com três ofertas: consulta ao catálogo dos livros impressos, download de relatórios digitalizados e orientação remota para encontrar legislação. Elas usam tecnologia, mas não oferecem exatamente o mesmo objeto ao usuário. **Registro**, **documento** e **serviço** são componentes diferentes. O registro representa e descreve; o documento contém a informação procurada; o serviço organiza o acesso e apoia o uso.\n\nUma biblioteca digital envolve coleções de objetos digitais, descrições, organização e serviços para uma comunidade. O acervo pode conter objetos digitalizados e materiais produzidos originalmente em ambiente digital. Sua utilidade depende de seleção, descrição, busca, acesso e manutenção, e não apenas de arquivos colocados numa pasta pública. A literatura de Cunha e os verbetes de Cunha e Cavalcanti ajudam a perceber essa integração.\n\n**Exemplo resolvido.** Um portal apresenta título, autor e número de chamada de um livro. O leitor consegue descobrir que a biblioteca possui o exemplar, mas precisa obtê-lo fisicamente. Esse acesso ao catálogo não se converte em acesso ao texto integral. Se o registro também possuir um link para uma cópia digital acessível, haverá uma possibilidade adicional que deve ser verificada. Não se pode inferir o arquivo a partir do registro.\n\nO mesmo cuidado vale para metadados e acesso aberto: um registro pode estar visível e o documento depender de autorização ou licença. A existência de serviços digitais também não determina que toda a coleção física desapareceu. Em um item de prova, pergunte qual objeto está disponível, para quem, por qual caminho e sob quais condições.\n\nA preservação é outra dimensão: conseguir abrir um arquivo hoje não garante mantê-lo inteligível ao longo do tempo. O detalhamento sobre OAIS e estratégias está em 6.3; o ponto aqui é não confundir disponibilização imediata com preservação demonstrada.\n\n### Eletrônica, digital, virtual e híbrida: aprender a comparar autores\n\nEsses termos não têm uso perfeitamente uniforme em toda a literatura. Há abordagens que destacam a informatização de rotinas ao falar em **biblioteca eletrônica**; outras ampliam seu alcance para serviços e documentos em rede. No dicionário de Cunha e Cavalcanti, os verbetes mostram relações e remissões entre as expressões. A leitura da fonte é necessária quando uma questão atribui uma definição a um autor.\n\n**Biblioteca digital** enfatiza objetos digitais e serviços associados. **Biblioteca virtual** pode destacar acesso remoto e distribuído, ultrapassando a experiência de uma única instalação. Não se deve transformar “sem paredes” em afirmação literal de que não existem servidores, instituições responsáveis ou infraestrutura física. **Biblioteca híbrida** caracteriza a articulação de recursos e serviços de diferentes suportes. Ela pode ser discutida como transição em certos textos, sem significar uma lei histórica obrigatória para toda biblioteca.\n\n| Eixo de comparação | Pergunta útil |\n|---|---|\n| Suporte | Há impressos, objetos digitais ou ambos? |\n| Automação | Quais rotinas estão informatizadas? |\n| Acesso | O usuário chega ao registro, ao documento, a um serviço ou aos três? |\n| Organização | Metadados e estruturas permitem localizar e interpretar? |\n| Distribuição | Os recursos estão concentrados ou articulados entre instituições? |\n\n**Caso:** uma biblioteca mantém coleção física e oferece repositório e consulta remota. A descrição pode evidenciar seu caráter híbrido e seus serviços digitais simultaneamente. Não há contradição necessária. Já afirmar que o repositório de texto completo é apenas um catálogo de localização física troca a função do componente.\n\nA distinção didática entre automatizar rotinas e oferecer objetos digitais continua útil, desde que seu recorte seja anunciado. Se o enunciado omite autor e contexto e depende de uma distinção controversa para ter resposta, o problema editorial deve ser resolvido antes de usar o item como avaliação. Ambiguidade não é dificuldade de nível alto.\n\n### Arquitetura da informação: quatro sistemas que trabalham juntos\n\nNa abordagem de Rosenfeld e Morville, **organização**, **navegação**, **rotulagem** e **busca** são sistemas centrais da arquitetura da informação. O objetivo é estruturar conteúdo de modo que o usuário consiga encontrar, compreender e utilizar aquilo de que precisa. Arquitetura não é apenas aparência: decisões sobre categorias e nomes afetam a recuperação.\n\n**Organização** estabelece agrupamentos e relações. Um acervo pode ser organizado por assunto, tipo documental, data ou público. Esses critérios atendem a necessidades diferentes. **Rotulagem** escolhe os nomes e sinais que representam os conteúdos e ações: “Publicações” e “Solicitar cópia”, por exemplo. **Navegação** oferece os caminhos e a localização: menu global, links locais, relações entre conteúdos e trilha de navegação. **Busca** recebe uma expressão de necessidade e oferece resultados conforme indexação e mecanismos de consulta.\n\n**Exemplo resolvido.** Um usuário procura pareceres sobre preservação. A categoria “Documentos técnicos” é uma decisão de organização; o texto que nomeia essa categoria pertence à rotulagem; o menu que leva até ela é navegação; consultar termos e filtrar resultados envolve busca. O mesmo elemento visual pode participar de mais de uma decisão de projeto; as categorias analíticas ajudam a explicar funções, não exigem isolamento físico de componentes.\n\nUm portal com busca não dispensa navegação. Pessoas podem não saber o termo adequado e precisar explorar categorias. Tampouco uma classificação cuidadosa garante sucesso se os rótulos forem incompreensíveis. Ao avaliar a interface, analise uma tarefa e o caminho concreto do usuário. “Há muitos botões” não é diagnóstico suficiente de boa ou má arquitetura.\n\n**Contraexemplo.** Adicionar um filtro chamado “Classe X42” a um portal público pode ser tecnicamente consistente com uma classificação interna, mas inútil a quem desconhece essa nomenclatura. A solução envolve rótulo inteligível e contextualização, não apenas velocidade de busca.\n\n### Usabilidade: a tarefa, a pessoa e o contexto\n\nUsabilidade pergunta se uma pessoa consegue realizar sua tarefa com resultados adequados no contexto de uso. Uma interface bonita pode impedir o envio de uma solicitação; uma interface funcional pode impor esforço desnecessário. É preciso observar o objetivo, os recursos disponíveis e as dificuldades encontradas, em vez de classificar toda tela por gosto pessoal.\n\nAs heurísticas de Nielsen incluem: visibilidade do estado; linguagem compatível com a experiência do usuário; controle e possibilidade de sair; consistência; prevenção de erros; reconhecimento em vez de exigência desnecessária de memória; flexibilidade; apresentação focada no essencial; mensagens que permitam recuperar erros; ajuda. São critérios de inspeção, não certificado automático nem substituto de teste com usuários.\n\n**Caso próprio.** Uma solicitação de reprodução demora alguns segundos. Durante a operação, a tela deve permitir entender que o envio está em andamento. Antes de receber confirmação efetiva, não deve afirmar “pedido concluído”. Se houver falha, precisa explicar o estado e permitir nova tentativa sem induzir envio duplicado. A mensagem deve falar da tarefa do usuário, não expor códigos internos como única orientação.\n\nOutro problema surge quando filtros desaparecem ao abrir um resultado e voltar. O usuário precisa reconstruir o caminho e perde a localização. Preservar contexto e informar filtros ativos melhora a tarefa. Isso é diferente de manter dados sensíveis indefinidamente; decisões de persistência também precisam respeitar privacidade e finalidade.\n\nUm teste de uso deve observar tarefas concretas: localizar um documento, identificar a licença, solicitar acesso ou entender por que um resultado está restrito. Medir apenas quantos links existem não demonstra facilidade de uso. Inspeção técnica e observação de pessoas fornecem evidências diferentes e complementares.\n\n### Acessibilidade: perceber, operar, compreender e usar tecnologia assistiva\n\nA W3C organiza os princípios de acessibilidade em **perceptível, operável, compreensível e robusto**. Conteúdo precisa chegar por formas adequadas de percepção; a interação deve ser possível; instruções e comportamento precisam ser entendidos; a implementação deve permitir interpretação por tecnologias e agentes de usuário. Uma pessoa pode enfrentar mais de uma barreira na mesma tarefa.\n\n**Aplicação própria:** um gráfico de crescimento do acervo não será informativo para quem não percebe suas cores se o único código for verde/vermelho. Nomear séries, oferecer dados e descrever a conclusão melhora o acesso. Uma descrição não precisa enumerar pixels: deve transmitir o que é relevante à finalidade da imagem. Imagens meramente decorativas têm tratamento diferente de imagens que carregam informação.\n\nUm menu que só abre com mouse exclui quem opera por teclado. Um campo sem rótulo torna difícil identificar a informação esperada. Uma mensagem de erro longe do formulário pode passar despercebida. Esses exemplos mostram por que tamanho de fonte e contraste são apenas parte da acessibilidade.\n\nO art. 63 da Lei Brasileira de Inclusão trata da acessibilidade de sítios mantidos por empresas com sede ou representação comercial no país e por órgãos de governo, conforme melhores práticas e diretrizes internacionais. Isso não significa que o dispositivo transcreva, por nome, todos os critérios de uma edição específica da WCAG. A lei e o padrão técnico têm papéis distintos. O e-MAG constitui referência do governo eletrônico brasileiro e precisa ser identificado por sua versão, sem ser confundido com uma norma internacional.\n\nAo julgar um item, identifique a barreira e a exigência correspondente. Uma ferramenta automática detecta parte dos problemas, mas não prova sozinha que o texto faz sentido, que o foco está adequado ou que a tarefa é realizável. Testes manuais e uso de tecnologia assistiva complementam a análise.",
+  teoriaDidaticaMarkdown: "### Revisão: biblioteca, informação e experiência de uso\n\n- Registro descreve; documento contém; serviço organiza e apoia o uso. Acesso ao catálogo não implica texto integral.\n- Digital, eletrônica e virtual têm variações autorais. Confira a fonte e o critério. Híbrida pode integrar suportes e serviços sem calendário obrigatório de abandono do impresso.\n- Organização: agrupamentos; rotulagem: nomes; navegação: caminhos; busca: consultas e resultados. Os sistemas se complementam.\n- Usabilidade deve ser observada numa tarefa. Uma confirmação na tela precisa corresponder ao estado real da operação.\n- Acessibilidade trata de barreiras: perceber, operar, compreender e interoperar com tecnologias. Contraste não resolve sozinho teclado, semântica ou alternativas textuais.\n- Lei, diretriz técnica e resultado de teste não são a mesma coisa. Uma ferramenta automática não certifica toda a experiência.\n\n**Explique sem consultar:** um portal pode ser fácil de usar por um grupo e inacessível para outro? Por que uma busca não dispensa categorias e rótulos? Que diferença há entre um registro MARC e o arquivo digital de uma obra?\n",
+  checkpoints: [
+  {
+    "id": "cp-6-1-1",
+    "pergunta": "Micro-Checkpoint 1: Os Quatro Sistemas da Arquitetura da Informação",
+    "item": "Segundo Rosenfeld e Morville, a arquitetura da informação em ambientes digitais organiza-se a partir de quatro sistemas estruturantes: sistemas de organização, sistemas de navegação, sistemas de rotulagem e sistemas de busca.",
+    "gabarito": "C",
+    "justificativa": "A enumeração corresponde aos quatro sistemas tratados na abordagem de Rosenfeld e Morville. Eles são complementares: categorias, rótulos, caminhos e consulta participam da experiência de encontrar informação. Não é uma lista de etapas obrigatoriamente sequenciais.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles."
+  },
+  {
+    "id": "cp-6-1-2",
+    "pergunta": "Micro-Checkpoint 2: Diferença Conceitual entre Biblioteca Eletrônica e Digital",
+    "item": "Na distinção didática que enfatiza automação de rotinas e acesso ao objeto, a biblioteca digital oferece documentos digitais, enquanto biblioteca eletrônica pode designar o uso da computação nas rotinas de uma coleção principalmente física. Essa distinção deve ser contextualizada, pois a terminologia varia entre autores.",
+    "gabarito": "C",
+    "justificativa": "A distinção pode ser usada dentro do recorte anunciado. O próprio item evita apresentá-la como consenso universal. Os verbetes de Cunha e Cavalcanti e a discussão histórica de Cunha demonstram por que se deve conferir o autor e as funções descritas.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles."
+  },
+  {
+    "id": "cp-6-1-3",
+    "pergunta": "Micro-Checkpoint 3: Acessibilidade Digital no Setor Público (WCAG e LBI)",
+    "item": "A Lei Brasileira de Inclusão exige acessibilidade em sítios mantidos por órgãos de governo. Como referência técnica internacional, a WCAG organiza seus princípios em perceptível, operável, compreensível e robusto.",
+    "gabarito": "C",
+    "justificativa": "O item separa a obrigação legal da organização técnica dos princípios. O art. 63 remete a melhores práticas e diretrizes internacionais; a enumeração dos quatro princípios pertence à WCAG. Não se afirma que uma edição específica da WCAG esteja transcrita na lei.",
+    "fonte": "Lei 13.146/2015, art. 63; W3C/WAI, Accessibility Principles."
+  },
+  {
+    "id": "rt-6-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um catálogo que apenas informa em qual estante está o livro oferece, por esse fato isolado, acesso remoto ao texto integral da obra.",
+    "gabarito": "E",
+    "justificativa": "O catálogo oferece representação e localização do item. Acesso ao registro não equivale a acesso ao documento. Um catálogo pode conter links para documentos, mas esse recurso adicional precisa existir e ser examinado; não decorre automaticamente da informatização.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "O catálogo pode informar a localização do livro sem disponibilizar seu texto integral."
+  },
+  {
+    "id": "rt-6-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Uma biblioteca que integra documentos impressos, objetos digitais e serviços de acesso a ambos pode ser descrita como híbrida, sem que isso imponha uma data para eliminação dos impressos.",
+    "gabarito": "C",
+    "justificativa": "O critério é a coexistência e integração de recursos e serviços. Descrever um modelo híbrido como transição em determinada abordagem não prova que toda biblioteca seguirá uma sequência única ou abandonará suportes físicos.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A presença de busca por palavra-chave dispensa a organização das coleções e a rotulagem dos links, porque os quatro sistemas de arquitetura da informação são alternativas excludentes.",
+    "gabarito": "E",
+    "justificativa": "Organização, navegação, rotulagem e busca se articulam. Uma busca útil pode depender de metadados e categorias coerentes, enquanto rótulos permitem interpretar resultados. A existência de um mecanismo não elimina os demais.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar",
+    "versao_correta": "Os sistemas de organização, navegação, rotulagem e busca podem atuar de modo complementar."
+  },
+  {
+    "id": "rt-6-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um botão que apresenta mensagem clara de envio em andamento ajuda o usuário a perceber o estado da operação, mas não comprova, sozinho, que o processo será concluído com sucesso.",
+    "gabarito": "C",
+    "justificativa": "Feedback de estado informa o que ocorre; confirmação de conclusão exige resultado efetivo. O exemplo distingue a heurística de visibilidade do estado de uma garantia operacional que a interface não pode inventar.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Oferecer descrição textual de uma imagem informativa e permitir operação por teclado trata de barreiras diferentes de acesso.",
+    "gabarito": "C",
+    "justificativa": "A alternativa textual atende à percepção do conteúdo não textual; a operação por teclado enfrenta barreiras de interação. A acessibilidade reúne requisitos distintos, e uma solução isolada não cobre todas as necessidades.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-6-1-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Dois autores podem usar biblioteca eletrônica com alcances diferentes; para julgar uma afirmação explicitamente atribuída a um deles, é necessário conferir o recorte desse autor.",
+    "gabarito": "C",
+    "justificativa": "O vocabulário da área tem variações históricas e autorais, documentadas nos verbetes e discussões conceituais. Uma tabela didática ajuda a comparar, mas não deve ser imposta como definição universal contra a fonte expressamente indicada.",
+    "fonte": "Cunha e Cavalcanti (2008), Dicionário de Biblioteconomia e Arquivologia, verbetes de biblioteca; Cunha (1999), Desafios na construção de uma biblioteca digital; Rosenfeld e Morville, Information Architecture; W3C/WAI, Accessibility Principles.",
+    "editalRef": "Bloco E - Item 1.6 a 1.8 e Bloco B - Item 1.6",
+    "habilidade": "aplicar"
+  }
+],
   mnemonicos: {
     timeline: [
       {
@@ -357,4 +229,102 @@ As **Bibliotecas Digitais**, a **Arquitetura da Informação** e a **Usabilidade
       },
     ],
   },
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-6-1-bloco-1",
+    "titulo": "O que torna uma biblioteca digital: coleção, organização e serviço",
+    "objetivos": [
+      "Distinguir objeto digital, registro descritivo e serviço de acesso."
+    ],
+    "conteudo": "Imagine uma instituição com três ofertas: consulta ao catálogo dos livros impressos, download de relatórios digitalizados e orientação remota para encontrar legislação. Elas usam tecnologia, mas não oferecem exatamente o mesmo objeto ao usuário. **Registro**, **documento** e **serviço** são componentes diferentes. O registro representa e descreve; o documento contém a informação procurada; o serviço organiza o acesso e apoia o uso.\n\nUma biblioteca digital envolve coleções de objetos digitais, descrições, organização e serviços para uma comunidade. O acervo pode conter objetos digitalizados e materiais produzidos originalmente em ambiente digital. Sua utilidade depende de seleção, descrição, busca, acesso e manutenção, e não apenas de arquivos colocados numa pasta pública. A literatura de Cunha e os verbetes de Cunha e Cavalcanti ajudam a perceber essa integração.\n\n**Exemplo resolvido.** Um portal apresenta título, autor e número de chamada de um livro. O leitor consegue descobrir que a biblioteca possui o exemplar, mas precisa obtê-lo fisicamente. Esse acesso ao catálogo não se converte em acesso ao texto integral. Se o registro também possuir um link para uma cópia digital acessível, haverá uma possibilidade adicional que deve ser verificada. Não se pode inferir o arquivo a partir do registro.\n\nO mesmo cuidado vale para metadados e acesso aberto: um registro pode estar visível e o documento depender de autorização ou licença. A existência de serviços digitais também não determina que toda a coleção física desapareceu. Em um item de prova, pergunte qual objeto está disponível, para quem, por qual caminho e sob quais condições.\n\nA preservação é outra dimensão: conseguir abrir um arquivo hoje não garante mantê-lo inteligível ao longo do tempo. O detalhamento sobre OAIS e estratégias está em 6.3; o ponto aqui é não confundir disponibilização imediata com preservação demonstrada.",
+    "checkpointIds": [
+      "rt-6-1-1"
+    ]
+  },
+  {
+    "id": "sub-6-1-bloco-2",
+    "titulo": "Eletrônica, digital, virtual e híbrida: aprender a comparar autores",
+    "objetivos": [
+      "Identificar critérios e limites de uma classificação sem impor consenso inexistente."
+    ],
+    "conteudo": "Esses termos não têm uso perfeitamente uniforme em toda a literatura. Há abordagens que destacam a informatização de rotinas ao falar em **biblioteca eletrônica**; outras ampliam seu alcance para serviços e documentos em rede. No dicionário de Cunha e Cavalcanti, os verbetes mostram relações e remissões entre as expressões. A leitura da fonte é necessária quando uma questão atribui uma definição a um autor.\n\n**Biblioteca digital** enfatiza objetos digitais e serviços associados. **Biblioteca virtual** pode destacar acesso remoto e distribuído, ultrapassando a experiência de uma única instalação. Não se deve transformar “sem paredes” em afirmação literal de que não existem servidores, instituições responsáveis ou infraestrutura física. **Biblioteca híbrida** caracteriza a articulação de recursos e serviços de diferentes suportes. Ela pode ser discutida como transição em certos textos, sem significar uma lei histórica obrigatória para toda biblioteca.\n\n| Eixo de comparação | Pergunta útil |\n|---|---|\n| Suporte | Há impressos, objetos digitais ou ambos? |\n| Automação | Quais rotinas estão informatizadas? |\n| Acesso | O usuário chega ao registro, ao documento, a um serviço ou aos três? |\n| Organização | Metadados e estruturas permitem localizar e interpretar? |\n| Distribuição | Os recursos estão concentrados ou articulados entre instituições? |\n\n**Caso:** uma biblioteca mantém coleção física e oferece repositório e consulta remota. A descrição pode evidenciar seu caráter híbrido e seus serviços digitais simultaneamente. Não há contradição necessária. Já afirmar que o repositório de texto completo é apenas um catálogo de localização física troca a função do componente.\n\nA distinção didática entre automatizar rotinas e oferecer objetos digitais continua útil, desde que seu recorte seja anunciado. Se o enunciado omite autor e contexto e depende de uma distinção controversa para ter resposta, o problema editorial deve ser resolvido antes de usar o item como avaliação. Ambiguidade não é dificuldade de nível alto.",
+    "checkpointIds": [
+      "cp-6-1-2",
+      "rt-6-1-2",
+      "rt-6-1-6"
+    ]
+  },
+  {
+    "id": "sub-6-1-bloco-3",
+    "titulo": "Arquitetura da informação: quatro sistemas que trabalham juntos",
+    "objetivos": [
+      "Aplicar organização, navegação, rotulagem e busca a um portal."
+    ],
+    "conteudo": "Na abordagem de Rosenfeld e Morville, **organização**, **navegação**, **rotulagem** e **busca** são sistemas centrais da arquitetura da informação. O objetivo é estruturar conteúdo de modo que o usuário consiga encontrar, compreender e utilizar aquilo de que precisa. Arquitetura não é apenas aparência: decisões sobre categorias e nomes afetam a recuperação.\n\n**Organização** estabelece agrupamentos e relações. Um acervo pode ser organizado por assunto, tipo documental, data ou público. Esses critérios atendem a necessidades diferentes. **Rotulagem** escolhe os nomes e sinais que representam os conteúdos e ações: “Publicações” e “Solicitar cópia”, por exemplo. **Navegação** oferece os caminhos e a localização: menu global, links locais, relações entre conteúdos e trilha de navegação. **Busca** recebe uma expressão de necessidade e oferece resultados conforme indexação e mecanismos de consulta.\n\n**Exemplo resolvido.** Um usuário procura pareceres sobre preservação. A categoria “Documentos técnicos” é uma decisão de organização; o texto que nomeia essa categoria pertence à rotulagem; o menu que leva até ela é navegação; consultar termos e filtrar resultados envolve busca. O mesmo elemento visual pode participar de mais de uma decisão de projeto; as categorias analíticas ajudam a explicar funções, não exigem isolamento físico de componentes.\n\nUm portal com busca não dispensa navegação. Pessoas podem não saber o termo adequado e precisar explorar categorias. Tampouco uma classificação cuidadosa garante sucesso se os rótulos forem incompreensíveis. Ao avaliar a interface, analise uma tarefa e o caminho concreto do usuário. “Há muitos botões” não é diagnóstico suficiente de boa ou má arquitetura.\n\n**Contraexemplo.** Adicionar um filtro chamado “Classe X42” a um portal público pode ser tecnicamente consistente com uma classificação interna, mas inútil a quem desconhece essa nomenclatura. A solução envolve rótulo inteligível e contextualização, não apenas velocidade de busca.",
+    "checkpointIds": [
+      "cp-6-1-1",
+      "rt-6-1-3"
+    ]
+  },
+  {
+    "id": "sub-6-1-bloco-4",
+    "titulo": "Usabilidade: a tarefa, a pessoa e o contexto",
+    "objetivos": [
+      "Avaliar uma interface a partir da tarefa e distinguir orientação de garantia."
+    ],
+    "conteudo": "Usabilidade pergunta se uma pessoa consegue realizar sua tarefa com resultados adequados no contexto de uso. Uma interface bonita pode impedir o envio de uma solicitação; uma interface funcional pode impor esforço desnecessário. É preciso observar o objetivo, os recursos disponíveis e as dificuldades encontradas, em vez de classificar toda tela por gosto pessoal.\n\nAs heurísticas de Nielsen incluem: visibilidade do estado; linguagem compatível com a experiência do usuário; controle e possibilidade de sair; consistência; prevenção de erros; reconhecimento em vez de exigência desnecessária de memória; flexibilidade; apresentação focada no essencial; mensagens que permitam recuperar erros; ajuda. São critérios de inspeção, não certificado automático nem substituto de teste com usuários.\n\n**Caso próprio.** Uma solicitação de reprodução demora alguns segundos. Durante a operação, a tela deve permitir entender que o envio está em andamento. Antes de receber confirmação efetiva, não deve afirmar “pedido concluído”. Se houver falha, precisa explicar o estado e permitir nova tentativa sem induzir envio duplicado. A mensagem deve falar da tarefa do usuário, não expor códigos internos como única orientação.\n\nOutro problema surge quando filtros desaparecem ao abrir um resultado e voltar. O usuário precisa reconstruir o caminho e perde a localização. Preservar contexto e informar filtros ativos melhora a tarefa. Isso é diferente de manter dados sensíveis indefinidamente; decisões de persistência também precisam respeitar privacidade e finalidade.\n\nUm teste de uso deve observar tarefas concretas: localizar um documento, identificar a licença, solicitar acesso ou entender por que um resultado está restrito. Medir apenas quantos links existem não demonstra facilidade de uso. Inspeção técnica e observação de pessoas fornecem evidências diferentes e complementares.",
+    "checkpointIds": [
+      "rt-6-1-4"
+    ]
+  },
+  {
+    "id": "sub-6-1-bloco-5",
+    "titulo": "Acessibilidade: perceber, operar, compreender e usar tecnologia assistiva",
+    "objetivos": [
+      "Identificar barreiras concretas e relacioná-las aos princípios da WCAG."
+    ],
+    "conteudo": "A W3C organiza os princípios de acessibilidade em **perceptível, operável, compreensível e robusto**. Conteúdo precisa chegar por formas adequadas de percepção; a interação deve ser possível; instruções e comportamento precisam ser entendidos; a implementação deve permitir interpretação por tecnologias e agentes de usuário. Uma pessoa pode enfrentar mais de uma barreira na mesma tarefa.\n\n**Aplicação própria:** um gráfico de crescimento do acervo não será informativo para quem não percebe suas cores se o único código for verde/vermelho. Nomear séries, oferecer dados e descrever a conclusão melhora o acesso. Uma descrição não precisa enumerar pixels: deve transmitir o que é relevante à finalidade da imagem. Imagens meramente decorativas têm tratamento diferente de imagens que carregam informação.\n\nUm menu que só abre com mouse exclui quem opera por teclado. Um campo sem rótulo torna difícil identificar a informação esperada. Uma mensagem de erro longe do formulário pode passar despercebida. Esses exemplos mostram por que tamanho de fonte e contraste são apenas parte da acessibilidade.\n\nO art. 63 da Lei Brasileira de Inclusão trata da acessibilidade de sítios mantidos por empresas com sede ou representação comercial no país e por órgãos de governo, conforme melhores práticas e diretrizes internacionais. Isso não significa que o dispositivo transcreva, por nome, todos os critérios de uma edição específica da WCAG. A lei e o padrão técnico têm papéis distintos. O e-MAG constitui referência do governo eletrônico brasileiro e precisa ser identificado por sua versão, sem ser confundido com uma norma internacional.\n\nAo julgar um item, identifique a barreira e a exigência correspondente. Uma ferramenta automática detecta parte dos problemas, mas não prova sozinha que o texto faz sentido, que o foco está adequado ou que a tarefa é realizável. Testes manuais e uso de tecnologia assistiva complementam a análise.",
+    "checkpointIds": [
+      "cp-6-1-3",
+      "rt-6-1-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "cunha-dicionario",
+    "titulo": "Cunha e Cavalcanti (2008) — Dicionário de Biblioteconomia e Arquivologia",
+    "localizador": "Verbetes de biblioteca digital, eletrônica, híbrida e virtual; acervo do projeto, Fundamentos."
+  },
+  {
+    "id": "cunha-digital",
+    "titulo": "Cunha — Desafios na construção de uma biblioteca digital",
+    "localizador": "Discussão conceitual e tecnológica; acervo do projeto, Digital, repositórios e IA."
+  },
+  {
+    "id": "ia",
+    "titulo": "Rosenfeld e Morville — Information Architecture for the World Wide Web",
+    "localizador": "Sistemas de organização, rotulagem, navegação e busca."
+  },
+  {
+    "id": "nielsen",
+    "titulo": "Nielsen — 10 Usability Heuristics",
+    "localizador": "Critérios de inspeção; casos da aula são exemplos próprios.",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+  },
+  {
+    "id": "wai",
+    "titulo": "W3C/WAI — Accessibility Principles",
+    "localizador": "Quatro princípios de acessibilidade.",
+    "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+  },
+  {
+    "id": "lbi",
+    "titulo": "Lei Brasileira de Inclusão",
+    "localizador": "Lei 13.146/2015, art. 63.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+  }
+],
 };

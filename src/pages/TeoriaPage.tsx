@@ -6,6 +6,7 @@ import { AutoresCanonicos } from '../components/content-blocks/AutoresCanonicos'
 import { AlertaCebraspe } from '../components/content-blocks/AlertaCebraspe';
 import { TabelaComparativa } from '../components/content-blocks/TabelaComparativa';
 import { ItemCE } from '../components/common/ItemCE';
+import { AulaEmBlocos } from '../components/teoria/AulaEmBlocos';
 import { ExercicioRenderer } from '../components/exercicios';
 import { ConteudoMarkdown } from '../components/common/ConteudoMarkdown';
 import { MnemonicosTabs } from '../components/content-blocks/MnemonicosTabs';
@@ -580,13 +581,13 @@ export const TeoriaPage: React.FC = () => {
               <div>
                 <span className="font-mono text-xs uppercase tracking-wider text-ink-2 font-semibold">
                   {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-                    ? 'Modo Prático & Didático • Vida Real / Câmara dos Deputados'
-                    : 'Doutrina e Bibliografia Especializada'}
+                    ? 'Síntese para retomar o que você estudou'
+                    : 'Conceitos, exemplos e aplicação'}
                 </span>
                 <h2 className="text-xl sm:text-2xl font-sans font-bold text-ink tracking-normal mt-1">
                   {modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
-                    ? 'Teoria Didática & Aplicação Prática'
-                    : 'Fundamentação Teórica Canônica'}
+                    ? 'Revisão essencial'
+                    : 'Aula completa'}
                 </h2>
               </div>
 
@@ -606,10 +607,10 @@ export const TeoriaPage: React.FC = () => {
                       : 'text-ink-2 hover:text-ink'
                   }`}
                   aria-pressed={modoTeoriaAtivo === 'canonica'}
-                  title="Estudar pela teoria canônica e aprofundada institucional"
+                  title="Ler a explicação completa, com exemplos e microcheckpoints"
                 >
                   <BookOpen className="w-3.5 h-3.5 text-accent shrink-0" />
-                  <span className="whitespace-nowrap">Teoria Canônica</span>
+                  <span className="whitespace-nowrap">Aula completa</span>
                 </button>
 
                 <button
@@ -622,11 +623,11 @@ export const TeoriaPage: React.FC = () => {
                       : 'text-ink-2 hover:text-ink'
                   }`}
                   aria-pressed={modoTeoriaAtivo === 'didatica'}
-                  title="Estudar pelo formato didático com foco na vida real e rotina da Câmara"
+                  title="Revisar as relações principais e voltar à explicação quando necessário"
                 >
                   <Sparkles className="w-3.5 h-3.5 shrink-0" />
                   <span className="whitespace-nowrap">
-                    Modo Prático<span className="hidden sm:inline"> & Vida Real</span>
+                    Revisão essencial
                   </span>
                 </button>
               </div>
@@ -647,14 +648,14 @@ export const TeoriaPage: React.FC = () => {
               </div>
             )}
 
-            <ConteudoMarkdown
+            {modoTeoriaAtivo !== 'didatica' && currentSub.unidadesAprendizagem?.length ? <AulaEmBlocos submodulo={currentSub} moduloId={currentMacro.id} /> : <ConteudoMarkdown
               content={
                 modoTeoriaAtivo === 'didatica' && currentSub.teoriaDidaticaMarkdown
                   ? currentSub.teoriaDidaticaMarkdown
                   : currentSub.teoriaDensaMarkdown
               }
               submoduloId={currentSub.id}
-            />
+            />}
 
             {/* Itens Seccionais de Recuperação Ativa (U4.3: 1 item por seção) */}
             {currentSub.secoes && currentSub.secoes.some((s) => s.itens && s.itens.length > 0) && (
@@ -721,7 +722,7 @@ export const TeoriaPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {currentSub.checkpoints.map((cp, idx) => {
+              {currentSub.checkpoints.filter(cp => modoTeoriaAtivo === 'didatica' || !currentSub.unidadesAprendizagem?.some(unidade => unidade.checkpointIds.includes(cp.id))).map((cp, idx) => {
                 const isRevisaoDirigida = learningState.status === 'em_revisao_dirigida' || (learningState.status as string) === 'em_revisao';
                 return (
                   <ItemCE

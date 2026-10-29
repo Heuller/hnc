@@ -49,11 +49,10 @@ export const submodulo131: ModuloFilho = {
     'Luiz Antônio Marcuschi (Produção Textual, Análise de Gêneros e Compreensão)',
   ],
   alertasCebraspe: [
-    'O Cebraspe diferencia com precisão milimétrica "compreensão" (o que está estritamente dito no texto) e "interpretação" (o que se infere ou depreende com base nas premissas textuais). Qualquer assertiva que traga conhecimento enciclopédico externo ao texto incorre em EXTRAPOLAÇÃO e deve ser julgada ERRADA.',
-    'A técnica de distrator recorrente consiste em inverter os papéis lógicos de causa e consequência. Em períodos com conectivos como "já que", "visto que" ou "porquanto", o Cebraspe afirma no item que a oração subordinada causal é a consequência do fato principal.',
-    'O pronome relativo "cujo" (e flexões) SEMPRE estabelece relação de posse entre dois substantivos e JAMAIS admite artigo posposto ("cujo o" é erro grave). Além disso, ele concorda em gênero e número com o termo subsequente (a coisa possuída), e não com o antecedente (o possuidor).',
-    'Concessão versus Adversidade: A conjunção concessiva ("embora", "conquanto", "ainda que") subordina um fato que poderia impedir a oração principal, mas não impede. O Cebraspe testa se o candidato confunde a oração mais forte do argumento com a concessiva atenuada.',
-  ],
+  "Relacione conclusão e evidência. Uma frase verdadeira fora do texto pode não responder ao comando.",
+  "Não atribua ao autor uma posição que ele apenas cita para criticar.",
+  "Verifique alcance, tempo e condição; a reprodução de palavras do texto não garante a mesma informação."
+],
   quadroComparativo: {
     titulo: 'Matriz Cebraspe dos Operadores Argumentativos e Conectivos de Alta Incidência',
     colunas: ['Relação Semântica', 'Conectivos Canônicos', 'Impacto Argumentativo', 'Armadilha Típica da Banca', 'Regra Mental de Reconhecimento'],
@@ -121,179 +120,87 @@ export const submodulo131: ModuloFilho = {
       conteudo: 'Marcas linguísticas explícitas deixadas pelo autor (pressupostos) versus deduções pragmáticas de contexto (subentendidos) segundo Marcuschi e Koch.',
     },
   ],
-  teoriaDensaMarkdown: `### 1. A Arquitetura da Leitura Crítica: Compreensão versus Interpretação
-
-Nos concursos de alto nível do **Cebraspe** para o Poder Legislativo (Câmara dos Deputados e Senado Federal), as questões de texto exigem rigor técnico e recusa absoluta ao "achismo". A banca opera sob a moderna Linguística Textual (**Ingedore Koch**, *A Coesão Textual*, 2002; **Luiz Antônio Marcuschi**, *Produção Textual, Análise de Gêneros e Compreensão*, 2008), exigindo que o candidato identifique com precisão as marcas linguísticas que autorizam ou refutam cada assertiva.
-
----
-
-#### A. A Linha Divisória: Compreensão vs Interpretação
-
-| Critério de Análise | Compreensão Textual (*Decoding*) | Interpretação Textual (*Inferencing*) |
-|---|---|---|
-| **Comando Típico do Cebraspe** | *"De acordo com o texto..."*, *"O autor afirma expressamente que..."*, *"Segundo o primeiro parágrafo..."* | *"Depreende-se do texto que..."*, *"Infere-se das informações apresentadas que..."*, *"Conclui-se da argumentação que..."* |
-| **Localização da Resposta** | A informação está presente na **superfície textual** (literalmente ou por paráfrase direta). | A informação está nas **entrelinhas legítimas**, como decorrência lógica autorizada pelas premissas do texto. |
-| **Exigência Cognitiva** | Rastreamento léxico e validação de sinônimos/antônimos. | Dedução lógica estrita a partir de pistas textuais comprováveis. |
-| **Limite do Julgamento** | O que o texto realmente diz. | O que o texto autoriza concluir, sem acrescentar dados externos. |
-
----
-
-#### B. As Três Patologias Clássicas de Julgamento no Cebraspe
-
-Quando a banca elabora um item de interpretação cujo gabarito é **ERRADO (E)**, ela quase invariavelmente utiliza uma das seguintes falhas:
-
-1. **Extrapolação:** O item introduz uma afirmação que até pode ser verdadeira no mundo real ou na jurisprudência do candidato, mas **não encontra amparo no texto fornecido**. Lembre-se: no Cebraspe, o texto é o universo fechado da prova.
-2. **Redução:** O texto aborda um fenômeno amplo (ex: *"a transformação digital atinge todos os setores do serviço público"*), e o item afirma que tal fenômeno limita-se a um caso particular (*"a transformação digital restringe-se às secretarias de tecnologia"*).
-3. **Contradição:** O item inverte uma relação de causa e efeito, confunde o posicionamento do autor com a tese de um debatedor citado, ou afirma o oposto do que foi exposto.
-
----
-
-### 2. Coesão Referencial: Rastreamento Anafórico, Elipses e Pronomes Relativos
-
-A coesão textual é o mecanismo gramatical que tece a malha do texto, conectando termos e orações. No padrão Cebraspe, as assertivas de coesão referencial testam a capacidade de rastrear a quem determinado pronome, numeral ou substantivo elíptico se refere.
-
-#### A. A Dinâmica dos Pronomes Demonstrativos (Cunha & Cintra, p. 336)
-
-Na construção do texto formal, os pronomes demonstrativos exercem funções temporais, espaciais e, fundamentalmente, **textuais (endofóricas)**:
-
-* **Este / Esta / Isto (Função Catafórica ou Referente Imediatamente Anterior):**
-  - Anuncia algo que ainda será dito: *"A tese defendida pelo relator é **esta**: a despesa pública deve ser contingenciada."*
-  - Em oposição com outro referente citado, retoma o elemento **mais próximo** (o último citado).
-* **Esse / Essa / Isso (Função Anafórica Canônica):**
-  - Retoma um termo ou ideia que já foi expressa anteriormente: *"A Câmara aprovou o projeto de lei orçamentária. **Essa** decisão assegura os investimentos sociais."*
-* **Aquele / Aquela / Aquilo (Oposição de Extremos):**
-  - Numa correlação com *este*, retoma o elemento **mais distante** (o primeiro citado): *"O Poder Executivo e o Poder Legislativo possuem atribuições distintas: **este** (o Legislativo) fiscaliza e legisla; **aquele** (o Executivo) administra a máquina pública."*
-
----
-
-#### B. O Comportamento Rigoroso do Pronome Relativo "Cujo"
-
-O pronome relativo **cujo** (e suas flexões *cuja, cujos, cujas*) é um dos temas prediletos do Cebraspe em provas para a Câmara dos Deputados:
-
-1. **Relação de Posse Obrigatória:** Liga dois substantivos, indicando que o segundo pertence ao primeiro (*"O deputado **cujo** parecer foi lido..."* $\rightarrow$ o parecer do deputado).
-2. **Proibição Absoluta de Artigo:** É gramaticalmente **proibido** pospor artigo ao pronome (*cujo o*, *cuja a*). A assertiva que sugerir a inserção de artigo após *cujo* deve ser julgada **ERRADA**.
-3. **Regra de Concordância:** O pronome *cujo* concorda em gênero e número com o **termo subsequente** (a coisa possuída), e nunca com o antecedente:
-   - *"A instituição [fem. sing.] **cujos** regulamentos [masc. pl.] foram revistos..."* (concorda com *regulamentos*).
-4. **Preposição Anteposta:** Se o verbo da oração adjetiva exigir preposição, ela deve ser colocada **antes** de *cujo*:
-   - *"O projeto legislativo **a cujos** termos aludimos ontem..."* (quem alude, alude **a**).
-
----
-
-### 3. Coesão Sequencial e a Mecânica dos Operadores Argumentativos
-
-A coesão sequencial diz respeito ao encadeamento linear dos argumentos por meio de conectivos e conjunções. O Cebraspe testa com frequência a **permutabilidade de conectivos** e a preservação do sentido original.
-
-#### A. A Distinção entre Concessão e Adversidade (Bechara, p. 488)
-
-A distinção entre concessão e adversidade é vital na análise textual de pareceres legislativos e debates parlamentares:
-
-* **Oração Coordenada Adversativa (Foco na ideia mais forte):**
-  - Conectivos: *mas, porém, contudo, todavia, entretanto, no entanto*.
-  - Exemplo: *"O projeto de lei continha inovações louváveis, **mas** feria a Lei de Responsabilidade Fiscal."*
-  - **Efeito:** O argumento dominante é o que vem introduzido pela adversativa (a violação fiscal prevalece e o projeto tende a ser rejeitado).
-* **Oração Subordinada Concessiva (Atenuação da ressalva):**
-  - Conectivos: *embora, conquanto, ainda que, malgrado, a despeito de, posto que*.
-  - Exemplo: *"**Embora** ferisse a Lei de Responsabilidade Fiscal, o projeto de lei foi mantido pela comissão temática."*
-  - **Efeito:** A concessão apresenta um obstáculo ineficaz; a ideia da oração principal é que prevalece.
-  - **Alerta Cebraspe:** Substituir uma oração adversativa por concessiva **altera a hierarquia argumentativa do texto**, mesmo que preserve a correção gramatical geral.
-
----
-
-#### B. A Sintaxe do Conectivo "Pois": Explicativo vs Conclusivo
-
-A técnica de distrator recorrente consiste em explorar a dupla personalidade do vocábulo **pois**:
-
-1. **Pois Causal / Explicativo:** Surge no início da oração, antes do verbo. Equivale a *porque*, *já que*, *visto que*:
-   - *"O quórum não foi alcançado, **pois** chovia torrencialmente na capital."*
-2. **Pois Conclusivo:** Surge deslocado para o interior da oração, obrigatoriamente **entre vírgulas e após o verbo**. Equivale a *portanto*, *por conseguinte*:
-   - *"O quórum não foi alcançado; a sessão foi, **pois**, cancelada pelo presidente."*
-
----
-
-### 4. Pressupostos e Subentendidos no Discurso Institucional
-
-No discurso formal, a distinção entre o que está linguisticamente marcado e o que depende do contexto de enunciação é basilar:
-
-* **Pressupostos Textuais:** Ideias introduzidas obrigatoriamente por um elemento linguístico (gatilho). Se negarmos a oração, o pressuposto permanece verdadeiro.
-  - *Advérbios de tempo/mudança:* *"A comissão **ainda** não concluiu os trabalhos"* $\rightarrow$ Pressupõe que a conclusão é esperada e que os trabalhos continuam.
-  - *Verbos de cessação/permanência:* *"O parlamentar **deixou de** integrar o colegiado"* $\rightarrow$ Pressupõe que antes ele integrava o colegiado.
-* **Subentendidos:** Mensagens insinuadas nas entrelinhas, que dependem da inferência do interlocutor e que o autor pode negar sem se contradizer gramaticalmente. O Cebraspe somente aceita subentendidos em itens de interpretação quando o contexto geral da passagem fornece evidências inequívocas de sua validade.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Ortografia, Gêneros Textuais e Morfossintaxe (sub-13-4):** Tipologias e gêneros textuais segundo Marcuschi.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Interpretação Textual, a Coesão e as Relações Semânticas no padrão Cebraspe** operam pela fidelidade estrita à materialidade do texto e aos nexos lógicos:
-1. **Compreensão vs. Interpretação no Cebraspe:**
-   - **Compreensão (Decodificação Factual):** O comando diz: *"Segundo o texto..."*, *"Conforme o autor..."*. A resposta está explícita nas linhas do texto; não extrapolar!
-   - **Interpretação (Inferência Válida):** O comando diz: *"Infere-se do texto que..."*, *"Conclui-se da leitura que..."*. Exige dedução lógica fundada estritamente nas premissas autorizadas pelo texto.
-   - **Os Três Erros Clássicos de Leitura:**
-     - *Extrapolação:* Acrescentar ideias alheias ou julgamentos pessoais que não constam do texto.
-     - *Redução:* Limitar o sentido geral a apenas uma parte isolada do texto.
-     - *Contradição:* Concluir exatamente o oposto do que o autor afirmou.
-2. **Coesão Referencial e Sequencial (Ingedore Koch):**
-   - **Referencial:** Substituições pronominais, elipses, sinônimos e hiperônimos que evitam repetições desnecessárias.
-   - **Sequencial:** Encadeamento temporal e lógico das ideias mediado por conjunções, conectivos e tempos verbais.
-3. **Relações Semânticas Canônicas:**
-   - Causa vs. Consequência; Condição; Concessão (quebra de expectativa sem anular a tese principal); Proporcionalidade; Conformidade.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Interpretação Estrita de Discurso Parlamentar nos Anais):** Ao indexar um discurso polêmico de um parlamentar para os anais da Câmara, o bibliotecário analisa estritamente a **compreensão literal** das palavras proferidas, evitando fazer inferências ideológicas extrapolativas que não tenham sido sustentadas pelo orador.
-- **Cenário 2 (Coesão Referencial por Hiperônimo na Redação de Parecer):** O redator técnico da Câmara escreve: *"O Supremo Tribunal Federal julgou a constitucionalidade da matéria. A **Corte Constitucional** entendeu que o princípio foi violado"*. O termo *Corte Constitucional* funciona como **hiperônimo coesivo anafórico**, mantendo a elegância estilística e a clareza do parecer.
-- **Cenário 3 (Diferenciação entre Causa e Consequência em Nota Técnica):** A Consultoria de Orçamento redige nota técnica: *"Em decorrência da queda de arrecadação fiscal, os investimentos em tecnologia foram suspensos"*. O bibliotecário identifica a relação causal: a queda de arrecadação é a **causa**; a suspensão dos investimentos é a **consequência**.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Tipo de Comando Cebraspe | Natureza da Busca | Regra de Ouro | Perigo Oculto |
-| :--- | :--- | :--- | :--- |
-| **"Depreende-se / Infere-se"** | Interpretação / Dedução lógica | A premissa deve estar no texto | Extrapolar para conhecimento de mundo |
-| **"Segundo o texto / O autor afirma"** | Compreensão / Dado explícito | Buscar a literalidade das linhas | Interpretar além do que foi dito |
-| **Coesão Referencial** | Retoma ou antecipa termos | Pronomes, sinônimos, hiperônimos | Perda do antecedente exato |
-| **Coesão Sequencial** | Articula o fluxo lógico do raciocínio | Conjunções subordinativas e coord. | Trocar causa por consequência |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Extrapolação com Afirmação Factual Verdadeira:** O Cebraspe coloca uma assertiva historicamente verdadeira no mundo real (ex.: *"A Constituição de 1988 consagrou direitos sociais fundamentais"*), mas que **não foi mencionada pelo autor no texto da prova**. Se o comando era *"De acordo com o texto..."*, o **Gabarito é ERRADO**. A verdade no Cebraspe é estritamente intra-textual!
-- **Concessão vs. Causa:** Afirmar que a conjunção *embora* ou a locução *conquanto* introduzem uma relação de causa. **Gabarito: ERRADO.** *Embora* e *conquanto* introduzem orações subordinadas **concessivas** (oposição suave / quebra de expectativa).
-- **Restrição vs. Explicação em Orações Adjetivas:** Dizer que a retirada das vírgulas em uma oração adjetiva explicativa mantém o sentido original. **Gabarito: ERRADO.** Sem vírgulas, a oração torna-se **restritiva**, alterando substancialmente o sentido do texto (passa a restringir um subgrupo!).
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **KOCH, Ingedore Villaça; ELIAS, Vanda Maria.** *Ler e compreender: os sentidos do texto*. 3. ed. São Paulo: Contexto, 2010. (A maior referência em linguística textual nos concursos do Cebraspe).
-- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. rev. e ampl. Rio de Janeiro: Nova Fronteira, 2019. (A autoridade canônica da Academia Brasileira de Letras).
-- **GARCIA, Othon M.** *Comunicação em Prosa Moderna: aprenda a escrever, aprendendo a pensar*. 27. ed. Rio de Janeiro: FGV, 2010.
-- **CUNHA, Celso; CINTRA, Luís F. Lindley.** *Nova Gramática do Português Contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2017.
-- **CEBRASPE.** *Manual de Diretrizes Pedagógicas para Elaboração de Itens de Língua Portuguesa*. Brasília: Cebraspe, 2022.`,
+  teoriaDensaMarkdown: "### Construir a leitura: informação explícita e inferência\n\nCompreender um texto envolve relacionar suas informações, reconhecer a situação comunicativa e construir inferências pertinentes. A separação entre informação explícita e inferida é uma ferramenta de análise; não significa que a leitura literal dispense qualquer conhecimento de língua ou de mundo. O limite da resposta depende do texto e do comando.\n\n**Texto autoral:** “A biblioteca estendeu o atendimento em duas noites por semana. Nos primeiros trinta dias, aumentou a presença de estudantes, mas não houve avaliação da qualidade do auxílio à pesquisa. A equipe propôs manter o projeto por mais um mês antes de decidir sobre sua expansão.”\n\nÉ explícito que o horário foi ampliado em duas noites e que o público estudantil aumentou no período. É sustentado que a decisão definitiva de expansão ainda não foi tomada, pois há proposta de prorrogar o projeto antes de decidir. Não é sustentado que a qualidade piorou ou melhorou: a variável não foi avaliada. Inferir exige ligar premissas, não preencher a lacuna com preferência pessoal.\n\n**Resolução:** “O aumento de presença comprovou melhora do auxílio à pesquisa.” A primeira parte usa dado do texto, mas o predicado atribui conclusão sobre outra variável. O item não se salva por conter palavras verdadeiras do original. Também seria indevido afirmar que o projeto fracassou por não ter avaliação de qualidade: ausência de medição não é demonstração de fracasso.\n\nAo estudar, registre a passagem que decide a resposta e escreva qual foi a relação usada. “Está nas entrelinhas” não é justificativa suficiente. Há inferências de graus diferentes e textos com ironia ou vozes citadas; o exercício deve fornecer contexto bastante para seu julgamento.\n\n### Tese, argumento, exemplo e voz citada\n\nO **tema** é aquilo de que o texto trata. A **tese** é uma posição defendida quando há argumentação. **Argumentos** sustentam essa posição; **exemplos** podem ilustrar ou apoiar, sem se tornarem automaticamente a conclusão principal. Textos informativos podem organizar informação sem defender uma tese controversa no mesmo sentido.\n\n**Texto autoral:** “Alguns gestores afirmam que disponibilizar arquivos basta para democratizar o acesso. Essa visão, porém, ignora barreiras de descrição e de acessibilidade. Um catálogo sem rótulos compreensíveis pode afastar leitores. A política de acesso deve, portanto, integrar infraestrutura e mediação.”\n\nA primeira frase atribui uma visão a alguns gestores. A seguinte a critica. O catálogo é exemplo de barreira, e a conclusão propõe integração. Um item que atribua ao autor a suficiência dos arquivos confunde voz citada com posição assumida. Um item que apresente o catálogo como único tema de todo o texto reduz o alcance do argumento.\n\nA informação introduzida por “portanto” deve ser relacionada às premissas. Isso não garante que todo argumento real seja válido; a prova pode pedir identificar uma posição sem exigir concordar com ela. Reconstruir o argumento e avaliar sua verdade externa são tarefas diferentes.\n\n**Transferência:** altere “alguns gestores afirmam” para “o relatório demonstra”. A mudança altera a fonte e o compromisso discursivo. Preserve atribuições ao reescrever e examine verbos como afirmar, sugerir, negar, supor e comprovar. Eles sinalizam relações e graus de compromisso distintos.\n\n### Coesão referencial: demonstrativos, cujo e elipse\n\n**“A biblioteca digitalizou os relatórios. Essa iniciativa ampliou a consulta remota.”** Essa iniciativa recupera o acontecimento da digitalização. Não é necessário restringir a retomada ao substantivo relatórios. Demonstrativos podem apontar para uma entidade, um conjunto de fatos ou algo que será explicado.\n\nEm correlação explicitamente construída, **este** pode retomar o elemento mais próximo e **aquele** o mais distante: “O catálogo e o repositório têm funções diferentes: este dá acesso aos objetos; aquele descreve e localiza recursos.” Ainda assim, o contexto e os predicados precisam confirmar a referência. Não se deve ensinar proximidade como algoritmo para todo pronome de todo texto.\n\n**Cujo** estabelece relação entre um antecedente e um nome subsequente: “a instituição cujos documentos foram preservados”. A flexão acompanha documentos; não se insere artigo entre cujos e documentos. Se a regência exigir preposição, ela antecede o relativo: “a norma a cujos dispositivos nos referimos”. A preposição não é artigo acrescido depois de cujo.\n\n**Elipse:** “A primeira equipe revisou os títulos; a segunda, os descritores.” O verbo da segunda parte é recuperado do contexto. A vírgula pode assinalar essa omissão. Não invente ação diferente para o segundo grupo sem sinal textual.\n\n**Exemplo resolvido.** “A comissão divulgou o parecer e o relatório; este contém os indicadores.” A leitura correlativa favorece relatório, mas a análise deve confirmar compatibilidade com a continuação e o contexto. Um bom item evita atribuição única quando há duas leituras igualmente plausíveis.\n\n### Coesão sequencial e relações argumentativas\n\nConectivos articulam ideias; sua função precisa ser reconhecida no trecho. **Mas, porém e contudo** podem estabelecer oposição. **Embora, conquanto e ainda que** podem introduzir concessão. **Porque e já que** podem explicar motivo; **portanto e por conseguinte** apresentar conclusão. **Se e caso** introduzem hipóteses em usos condicionais.\n\nCompare “O sistema é rápido, mas exige treinamento” e “Embora o sistema seja rápido, exige treinamento”. É possível preservar os conteúdos principais em uma reorganização, mas é preciso conferir flexão e destaque argumentativo. Não se deve concluir que toda transformação adversativa/concessiva é proibida; tampouco que toda troca local mantém sintaxe e ênfase.\n\n**Pois** apresenta usos diferentes. Em “O atendimento foi suspenso, pois faltou energia”, introduz explicação/motivo. Em “Faltou energia; o atendimento foi, pois, suspenso”, participa da conclusão. A posição e a construção ajudam, mas a análise semântica continua necessária.\n\n**Exemplo resolvido.** “Se o registro estiver completo, poderá ser publicado.” A frase não declara, por si, que todos os registros completos já foram publicados. Condição, possibilidade e realização efetiva são dimensões distintas. Uma assertiva pode usar o mesmo vocabulário e alterar o estatuto do evento.\n\nA aula não atribui percentuais de recorrência à banca. Os exemplos ensinam relações transferíveis. Para cada item, explique quais proposições foram ligadas, por qual relação e com qual alcance, em vez de apenas classificar uma palavra fora da frase.\n\n### Pressuposição, contexto e limites da conclusão\n\n**“A equipe deixou de usar o formulário antigo.”** A construção apresenta cessação de uma prática antes existente. **“A equipe não deixou de usar o formulário antigo”** mantém a referência a uma prática anterior, embora negue sua cessação. Esse teste de negação pode ajudar a analisar pressupostos, sem funcionar como detector infalível de todo caso pragmático.\n\nSubentendidos dependem de contexto e intenção comunicativa. “Está frio aqui” pode funcionar como observação ou pedido indireto para fechar uma janela. Sem o cenário, não se deve impor ao enunciado um pedido inequívoco. A redação de uma questão precisa dar as condições para a inferência solicitada.\n\n**“A equipe ainda não publicou o relatório”** informa ausência de publicação até o momento e pode sinalizar expectativa de publicação. Não permite concluir automaticamente que o trabalho continua sendo executado: ele pode ter sido concluído e aguardar divulgação. Esse é um exemplo de como uma inferência excessiva pode entrar na própria explicação didática.\n\n**Prática:** separe em colunas o fato expresso, o conteúdo de fundo e a hipótese que você acrescentou. Depois procure o elemento que autoriza cada leitura. Quando não houver evidência suficiente, a conclusão não deve ser ensinada como obrigatória.\n\nUm aluno que sabe explicar a diferença entre não medido, não realizado e não esperado terá mais recursos para interpretar novos textos do que quem procura apenas palavras extremas. O estudo por questões deve revelar esse raciocínio no feedback.",
+  teoriaDidaticaMarkdown: "### Revisão: provar a leitura\n\nLocalize informação explícita e formule as premissas de cada inferência. Tema, tese, argumento e exemplo são papéis diferentes; distinga a posição do autor de uma voz citada. Para um referente, teste forma e sentido. Cujo concorda com o nome subsequente e não recebe artigo entre ambos; pode haver preposição antes por regência. Conectivos ligam proposições e precisam ser lidos no contexto. Pressupostos e subentendidos têm comportamentos distintos; nenhum teste isolado resolve todos os casos.\n\n**Recupere:** por que ausência de avaliação não demonstra piora? O que muda entre uma condição para publicar e um fato já publicado? O que “ainda não publicou” permite e não permite concluir sobre a redação?\n",
   checkpoints: [
-    {
-      id: 'chk-13-1-1',
-      pergunta: 'Julgue o item sobre a distinção metodológica entre compreensão e interpretação no Cebraspe:',
-      item: 'Nas questões em que o enunciado do Cebraspe utiliza a expressão "Depreende-se do texto que", é permitido ao candidato validar a assertiva com base em fatos e leis notórias da realidade brasileira, ainda que tais elementos não encontrem respaldo direto ou indireto nas premissas do texto apresentado na prova.',
-      gabarito: 'E',
-      justificativa: 'Trata-se do erro clássico de EXTRAPOLAÇÃO. A expressão "depreende-se" autoriza a realização de inferências lógicas, mas tais inferências devem obrigatoriamente derivar das premissas e evidências textuais fornecidas na prova. O uso de informações extratextuais não mencionadas nem sugeridas torna o item incorreto.',
-    },
-    {
-      id: 'chk-13-1-2',
-      pergunta: 'Julgue o item referente ao emprego dos pronomes relativos segundo Celso Cunha e Lindley Cintra:',
-      item: 'No trecho "A comissão parlamentar, cujos membros defenderam a urgência da votação, encerrou os trabalhos", o pronome "cujos" estabelece relação de posse com "comissão parlamentar", concorda em gênero e número com "membros" e rejeita a anteposição ou posposição de artigo definido.',
-      gabarito: 'C',
-      justificativa: 'Conforme preceitua Celso Cunha & Lindley Cintra (Nova Gramática do Português Contemporâneo, p. 348), o pronome relativo cujo estabelece nexo de posse entre o termo antecedente (comissão) e o subsequente (membros), concordando estritamente com a coisa possuída (membros - masculino plural) e repelindo qualquer artigo ("cujo o" é proibido).',
-    },
-    {
-      id: 'chk-13-1-3',
-      pergunta: 'Julgue a assertiva referente ao valor sintático e semântico dos conectivos oracionais:',
-      item: 'A substituição da conjunção "conquanto" por "embora" no período "Conquanto houvesse divergência regimental, o parecer foi aprovado" preservaria a correção gramatical e os sentidos originais do texto, uma vez que ambas as conjunções possuem valor estritamente concessivo e regem o modo subjuntivo.',
-      gabarito: 'C',
-      justificativa: 'Conforme a lição de Evanildo Bechara (Moderna Gramática Portuguesa, p. 488), tanto "conquanto" quanto "embora" são conjunções subordinativas concessivas canônicas da norma culta, ambas regendo verbo no modo subjuntivo (no caso, "houvesse" - pretérito imperfeito do subjuntivo). A permuta é perfeita e preserva integralmente a sintaxe e a semântica.',
-    },
-  ],
+  {
+    "id": "chk-13-1-1",
+    "pergunta": "Julgue o item sobre a distinção metodológica entre compreensão e interpretação no Cebraspe:",
+    "item": "Nas questões em que o enunciado do Cebraspe utiliza a expressão \"Depreende-se do texto que\", é permitido ao candidato validar a assertiva com base em fatos e leis notórias da realidade brasileira, ainda que tais elementos não encontrem respaldo direto ou indireto nas premissas do texto apresentado na prova.",
+    "gabarito": "E",
+    "justificativa": "Trata-se do erro clássico de EXTRAPOLAÇÃO. A expressão \"depreende-se\" autoriza a realização de inferências lógicas, mas tais inferências devem obrigatoriamente derivar das premissas e evidências textuais fornecidas na prova. O uso de informações extratextuais não mencionadas nem sugeridas torna o item incorreto.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula."
+  },
+  {
+    "id": "chk-13-1-2",
+    "pergunta": "Julgue o item referente ao emprego dos pronomes relativos segundo Celso Cunha e Lindley Cintra:",
+    "item": "Em “A comissão, cujos membros defenderam a urgência, encerrou os trabalhos”, cujos relaciona comissão e membros, concorda com membros e não admite artigo entre o relativo e esse substantivo.",
+    "gabarito": "C",
+    "justificativa": "Cujos estabelece a relação de pertença e acompanha membros em masculino plural. A sequência cujos os membros seria inadequada. Isso não impede preposição antes de cujo quando a regência exigir, como em a cujos dispositivos nos referimos.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula."
+  },
+  {
+    "id": "chk-13-1-3",
+    "pergunta": "Julgue a assertiva referente ao valor sintático e semântico dos conectivos oracionais:",
+    "item": "A substituição da conjunção \"conquanto\" por \"embora\" no período \"Conquanto houvesse divergência regimental, o parecer foi aprovado\" preservaria a correção gramatical e os sentidos originais do texto, uma vez que ambas as conjunções possuem valor estritamente concessivo e regem o modo subjuntivo.",
+    "gabarito": "C",
+    "justificativa": "No período apresentado, conquanto e embora introduzem a concessão e combinam com houvesse. A substituição contextual preserva a relação e a construção; não se estabelece uma equivalência universal para todos os usos da língua.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula."
+  },
+  {
+    "id": "rt-13-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto do horário ampliado, a ausência de avaliação da qualidade comprova que a qualidade do auxílio à pesquisa piorou.",
+    "gabarito": "E",
+    "justificativa": "O texto informa que a variável não foi avaliada. Não medir não demonstra melhora nem piora. A assertiva transforma limite do estudo em resultado negativo.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
+    "habilidade": "aplicar",
+    "versao_correta": "A qualidade do auxílio à pesquisa não foi avaliada no período descrito."
+  },
+  {
+    "id": "rt-13-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto dos arquivos online, a suficiência da simples disponibilização é uma posição citada e criticada, não a conclusão defendida pelo autor.",
+    "gabarito": "C",
+    "justificativa": "A abertura atribui a posição a alguns gestores. Porém introduz a crítica, e a conclusão integra infraestrutura e mediação. Identificar a voz é essencial ao julgamento.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Na expressão “a norma a cujos dispositivos nos referimos”, a preposição antes de cujos pode ser exigida pela regência de referir-se.",
+    "gabarito": "C",
+    "justificativa": "Referir-se a exige a preposição. Cujos continua concordando com dispositivos e não recebe artigo entre o relativo e esse nome. Preposição antes e artigo depois são situações diferentes.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "“O registro poderá ser publicado se estiver completo” informa que todo registro completo já foi publicado.",
+    "gabarito": "E",
+    "justificativa": "A condição e o modal de possibilidade não afirmam realização passada. Já foi publicado acrescenta temporalidade e efetividade ausentes.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
+    "habilidade": "aplicar",
+    "versao_correta": "A frase condiciona uma possibilidade de publicação, sem declarar que ela já ocorreu."
+  },
+  {
+    "id": "rt-13-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A frase “A equipe ainda não publicou o relatório” garante que o relatório continua em redação.",
+    "gabarito": "E",
+    "justificativa": "A falta de publicação é compatível com redação em curso ou com documento concluído que aguarda divulgação. A conclusão sobre redação acrescenta dado não fornecido.",
+    "fonte": "Manual de Redação da Presidência da República (2018), seções 3.4, 11.4–11.10; análise dos textos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Item 1: Compreensão e Tipologias Textuais)",
+    "habilidade": "aplicar",
+    "versao_correta": "A frase informa ausência de publicação até o momento, sem garantir o estágio de redação."
+  }
+],
   mnemonicos: {
     timeline: [
       {
@@ -358,4 +265,74 @@ A **Interpretação Textual, a Coesão e as Relações Semânticas no padrão Ce
       },
     ],
   },
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-13-1-bloco-1",
+    "titulo": "Construir a leitura: informação explícita e inferência",
+    "objetivos": [
+      "Separar o que foi dito, o que se pode concluir e uma hipótese acrescentada."
+    ],
+    "conteudo": "Compreender um texto envolve relacionar suas informações, reconhecer a situação comunicativa e construir inferências pertinentes. A separação entre informação explícita e inferida é uma ferramenta de análise; não significa que a leitura literal dispense qualquer conhecimento de língua ou de mundo. O limite da resposta depende do texto e do comando.\n\n**Texto autoral:** “A biblioteca estendeu o atendimento em duas noites por semana. Nos primeiros trinta dias, aumentou a presença de estudantes, mas não houve avaliação da qualidade do auxílio à pesquisa. A equipe propôs manter o projeto por mais um mês antes de decidir sobre sua expansão.”\n\nÉ explícito que o horário foi ampliado em duas noites e que o público estudantil aumentou no período. É sustentado que a decisão definitiva de expansão ainda não foi tomada, pois há proposta de prorrogar o projeto antes de decidir. Não é sustentado que a qualidade piorou ou melhorou: a variável não foi avaliada. Inferir exige ligar premissas, não preencher a lacuna com preferência pessoal.\n\n**Resolução:** “O aumento de presença comprovou melhora do auxílio à pesquisa.” A primeira parte usa dado do texto, mas o predicado atribui conclusão sobre outra variável. O item não se salva por conter palavras verdadeiras do original. Também seria indevido afirmar que o projeto fracassou por não ter avaliação de qualidade: ausência de medição não é demonstração de fracasso.\n\nAo estudar, registre a passagem que decide a resposta e escreva qual foi a relação usada. “Está nas entrelinhas” não é justificativa suficiente. Há inferências de graus diferentes e textos com ironia ou vozes citadas; o exercício deve fornecer contexto bastante para seu julgamento.",
+    "checkpointIds": [
+      "chk-13-1-1",
+      "rt-13-1-1"
+    ]
+  },
+  {
+    "id": "sub-13-1-bloco-2",
+    "titulo": "Tese, argumento, exemplo e voz citada",
+    "objetivos": [
+      "Reconhecer quem assume cada posição e o papel de um trecho."
+    ],
+    "conteudo": "O **tema** é aquilo de que o texto trata. A **tese** é uma posição defendida quando há argumentação. **Argumentos** sustentam essa posição; **exemplos** podem ilustrar ou apoiar, sem se tornarem automaticamente a conclusão principal. Textos informativos podem organizar informação sem defender uma tese controversa no mesmo sentido.\n\n**Texto autoral:** “Alguns gestores afirmam que disponibilizar arquivos basta para democratizar o acesso. Essa visão, porém, ignora barreiras de descrição e de acessibilidade. Um catálogo sem rótulos compreensíveis pode afastar leitores. A política de acesso deve, portanto, integrar infraestrutura e mediação.”\n\nA primeira frase atribui uma visão a alguns gestores. A seguinte a critica. O catálogo é exemplo de barreira, e a conclusão propõe integração. Um item que atribua ao autor a suficiência dos arquivos confunde voz citada com posição assumida. Um item que apresente o catálogo como único tema de todo o texto reduz o alcance do argumento.\n\nA informação introduzida por “portanto” deve ser relacionada às premissas. Isso não garante que todo argumento real seja válido; a prova pode pedir identificar uma posição sem exigir concordar com ela. Reconstruir o argumento e avaliar sua verdade externa são tarefas diferentes.\n\n**Transferência:** altere “alguns gestores afirmam” para “o relatório demonstra”. A mudança altera a fonte e o compromisso discursivo. Preserve atribuições ao reescrever e examine verbos como afirmar, sugerir, negar, supor e comprovar. Eles sinalizam relações e graus de compromisso distintos.",
+    "checkpointIds": [
+      "rt-13-1-2"
+    ]
+  },
+  {
+    "id": "sub-13-1-bloco-3",
+    "titulo": "Coesão referencial: demonstrativos, cujo e elipse",
+    "objetivos": [
+      "Reconstruir referentes por compatibilidade e preservar relações de pertença."
+    ],
+    "conteudo": "**“A biblioteca digitalizou os relatórios. Essa iniciativa ampliou a consulta remota.”** Essa iniciativa recupera o acontecimento da digitalização. Não é necessário restringir a retomada ao substantivo relatórios. Demonstrativos podem apontar para uma entidade, um conjunto de fatos ou algo que será explicado.\n\nEm correlação explicitamente construída, **este** pode retomar o elemento mais próximo e **aquele** o mais distante: “O catálogo e o repositório têm funções diferentes: este dá acesso aos objetos; aquele descreve e localiza recursos.” Ainda assim, o contexto e os predicados precisam confirmar a referência. Não se deve ensinar proximidade como algoritmo para todo pronome de todo texto.\n\n**Cujo** estabelece relação entre um antecedente e um nome subsequente: “a instituição cujos documentos foram preservados”. A flexão acompanha documentos; não se insere artigo entre cujos e documentos. Se a regência exigir preposição, ela antecede o relativo: “a norma a cujos dispositivos nos referimos”. A preposição não é artigo acrescido depois de cujo.\n\n**Elipse:** “A primeira equipe revisou os títulos; a segunda, os descritores.” O verbo da segunda parte é recuperado do contexto. A vírgula pode assinalar essa omissão. Não invente ação diferente para o segundo grupo sem sinal textual.\n\n**Exemplo resolvido.** “A comissão divulgou o parecer e o relatório; este contém os indicadores.” A leitura correlativa favorece relatório, mas a análise deve confirmar compatibilidade com a continuação e o contexto. Um bom item evita atribuição única quando há duas leituras igualmente plausíveis.",
+    "checkpointIds": [
+      "chk-13-1-2",
+      "rt-13-1-3"
+    ]
+  },
+  {
+    "id": "sub-13-1-bloco-4",
+    "titulo": "Coesão sequencial e relações argumentativas",
+    "objetivos": [
+      "Distinguir oposição, concessão, causa, conclusão e condição."
+    ],
+    "conteudo": "Conectivos articulam ideias; sua função precisa ser reconhecida no trecho. **Mas, porém e contudo** podem estabelecer oposição. **Embora, conquanto e ainda que** podem introduzir concessão. **Porque e já que** podem explicar motivo; **portanto e por conseguinte** apresentar conclusão. **Se e caso** introduzem hipóteses em usos condicionais.\n\nCompare “O sistema é rápido, mas exige treinamento” e “Embora o sistema seja rápido, exige treinamento”. É possível preservar os conteúdos principais em uma reorganização, mas é preciso conferir flexão e destaque argumentativo. Não se deve concluir que toda transformação adversativa/concessiva é proibida; tampouco que toda troca local mantém sintaxe e ênfase.\n\n**Pois** apresenta usos diferentes. Em “O atendimento foi suspenso, pois faltou energia”, introduz explicação/motivo. Em “Faltou energia; o atendimento foi, pois, suspenso”, participa da conclusão. A posição e a construção ajudam, mas a análise semântica continua necessária.\n\n**Exemplo resolvido.** “Se o registro estiver completo, poderá ser publicado.” A frase não declara, por si, que todos os registros completos já foram publicados. Condição, possibilidade e realização efetiva são dimensões distintas. Uma assertiva pode usar o mesmo vocabulário e alterar o estatuto do evento.\n\nA aula não atribui percentuais de recorrência à banca. Os exemplos ensinam relações transferíveis. Para cada item, explique quais proposições foram ligadas, por qual relação e com qual alcance, em vez de apenas classificar uma palavra fora da frase.",
+    "checkpointIds": [
+      "chk-13-1-3",
+      "rt-13-1-4"
+    ]
+  },
+  {
+    "id": "sub-13-1-bloco-5",
+    "titulo": "Pressuposição, contexto e limites da conclusão",
+    "objetivos": [
+      "Reconhecer informação de fundo sem transformar todo implícito em certeza."
+    ],
+    "conteudo": "**“A equipe deixou de usar o formulário antigo.”** A construção apresenta cessação de uma prática antes existente. **“A equipe não deixou de usar o formulário antigo”** mantém a referência a uma prática anterior, embora negue sua cessação. Esse teste de negação pode ajudar a analisar pressupostos, sem funcionar como detector infalível de todo caso pragmático.\n\nSubentendidos dependem de contexto e intenção comunicativa. “Está frio aqui” pode funcionar como observação ou pedido indireto para fechar uma janela. Sem o cenário, não se deve impor ao enunciado um pedido inequívoco. A redação de uma questão precisa dar as condições para a inferência solicitada.\n\n**“A equipe ainda não publicou o relatório”** informa ausência de publicação até o momento e pode sinalizar expectativa de publicação. Não permite concluir automaticamente que o trabalho continua sendo executado: ele pode ter sido concluído e aguardar divulgação. Esse é um exemplo de como uma inferência excessiva pode entrar na própria explicação didática.\n\n**Prática:** separe em colunas o fato expresso, o conteúdo de fundo e a hipótese que você acrescentou. Depois procure o elemento que autoriza cada leitura. Quando não houver evidência suficiente, a conclusão não deve ser ensinada como obrigatória.\n\nUm aluno que sabe explicar a diferença entre não medido, não realizado e não esperado terá mais recursos para interpretar novos textos do que quem procura apenas palavras extremas. O estudo por questões deve revelar esse raciocínio no feedback.",
+    "checkpointIds": [
+      "rt-13-1-5"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "mrpr",
+    "titulo": "Manual de Redação da Presidência da República, 3ª ed. (2018)",
+    "localizador": "Coesão/coerência, ambiguidade, sintaxe, regência e pontuação. Exemplos de aplicação autorais.",
+    "url": "https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf"
+  }
+],
 };

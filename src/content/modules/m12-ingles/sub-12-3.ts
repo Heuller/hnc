@@ -30,13 +30,14 @@ export const submodulo123: ModuloFilho = {
   ],
   descricaoCurta: 'Cadeias de referenciação anafórica e catafórica, o uso exato dos pronomes relativos (who, whom, which, that, whose), a distinção clássica entre "the former" e "the latter", e os itens de remissão pronominal mais cobrados pelo Cebraspe.',
   tempoEstimadoMinutos: 8,
-  autoresChave: ['M.A.K. Halliday (Cohesion in English)', 'Ruqaiya Hasan', 'Gillian Brown (Discourse Analysis)', 'George Yule'],
+  autoresChave: [
+  "British Council — LearnEnglish"
+],
   alertasCebraspe: [
-    'O pronome "which" retomando uma oração inteira: Em estruturas do tipo "... the parliament approved the reform, WHICH surprised the opposition", o Cebraspe afirma que "which" refere-se a "the opposition" ou a "the reform". ITEM ERRADO! O pronome "which" após vírgula refere-se a TODO O FATO expresso na oração anterior (o fato de o parlamento ter aprovado a reforma).',
-    'A dupla "The former" e "The latter": Quando o texto cita dois elementos (ex.: "France and Germany signed the treaty. The former was satisfied, while the latter demanded revisions"), "The former" refere-se ao PRIMEIRO elemento (França), e "The latter" refere-se ao SEGUNDO/ÚLTIMO elemento (Alemanha). O Cebraspe inverte propositalmente as referências.',
-    'O pronome relativo "Whose": Equivale a "cujo(a)(s)" e indica posse. Ele é seguido diretamente de substantivo sem artigo (ex.: "the author whose book was published"). Não existe "whose the" em inglês.',
-    'Uso de "That" vs "Which": "That" não é empregado após vírgulas em orações relativas explicativas (*non-defining relative clauses*). Nesse caso, utiliza-se obrigatoriamente "which" para coisas ou "who" para pessoas.',
-  ],
+  "Determine o referente por compatibilidade sintática e semântica, não apenas por proximidade.",
+  "Which com vírgula pode recuperar nome ou evento: leia o predicado.",
+  "Uma reescrita de relativo exige preservar a relação, inclusive posse e restrição."
+],
   quadroComparativo: {
     titulo: 'Pronomes Relativos e Referenciadores Canônicos no Padrão Cebraspe',
     colunas: ['Elemento Coesivo', 'Natureza do Referente', 'Posição / Função Sintática', 'Exemplo Prático em Contexto'],
@@ -49,167 +50,159 @@ export const submodulo123: ModuloFilho = {
       ['The latter', 'Segundo/último elemento de uma lista de dois', 'Retomada anafórica do termo final', 'Brazil and Chile negotiated; THE LATTER resisted.'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Coesão Referencial: O que Permite ao Texto Ser uma Rede Unificada?
-
-A teoria da coesão textual de **Halliday & Hasan** (1976) demonstra que um texto não é um amontoado de frases soltas, mas um tecido articulado por **laços de dependência semântica**:
-* **Anáfora:** Mecanismo pelo qual um pronome ou expressão recupera o sentido de uma entidade previamente mencionada no texto. É o alvo de **mais de 80% das questões de referência do Cebraspe** (ex.: *"Na linha 14, o pronome 'its' refere-se a..."*).
-* **Catáfora:** Mecanismo pelo qual um pronome antecipa um referente que só será revelado adiante na oração.
-
----
-
-### 2. A Bateria de Pronomes Relativos e Suas Restrições Rígidas
-
-Na prova do Cebraspe, a identificação precisa do referente do pronome relativo define o acerto do item:
-
-#### A. Who vs. Whom (Referência a Pessoas)
-* **Who:** Atua como sujeito do verbo da oração adjetiva.
-  * *Exemplo:* *"The librarian WHO organized the repository received an award."* (Quem organizou? O bibliotecário -> Sujeito).
-* **Whom:** Atua como complemento verbal ou vem regido de preposição.
-  * *Exemplo:* *"The delegate WITH WHOM we discussed the treaty was absent."* (Regido pela preposição *with*).
-
-#### B. Which como Encapsulador Oracional (Pegadinha Predileta da Banca)
-Em inglês, o pronome relativo **which** desempenha dois papéis distintos:
-1. **Retomada de Substantivo:** *"The document WHICH was archived..."* (Refere-se ao substantivo *document*).
-2. **Encapsulamento de Toda a Oração Anterior:** Quando precedido por vírgula no final de uma oração, **which** frequentemente não se refere à última palavra isolada, mas sim a **todo o acontecimento narrado na oração precedente**.
-   * *Exemplo da Prova:* *"The government reduced public spending, WHICH generated severe debate."*
-   * *Pegadinha Cebraspe:* A banca afirmará que "which" refere-se a "public spending". **GABARITO: ERRADO!** O que gerou o debate não foi o gasto em si, mas sim o FATO de o governo ter reduzido o gasto.
-
-#### C. Whose (Ideia de Posse)
-Traduz-se por *cujo, cuja, cujos, cujas*.
-* Liga um possuidor a algo possuído: *"The institution WHOSE archives were digitized..."* (A instituição cujos arquivos foram digitalizados).
-
----
-
-### 3. A Estrutura de Retomada Binária: The Former vs. The Latter
-
-Quando um parágrafo em inglês discute duas entidades e deseja fazer uma análise comparativa sem repetir os nomes, utiliza-se a construção:
-* **The former:** Refere-se à **primeira** das duas mencionadas.
-* **The latter:** Refere-se à **segunda** (a mais recente / a última citada).
-
-*Exemplo Clássico:*
-> *"The Senate and the Chamber of Deputies reviewed the amendment. **The former** approved the text immediately, whereas **the latter** requested further hearings."*
-> * *The former* = O Senado (primeiro citado).
-> * *The latter* = A Câmara dos Deputados (segunda citada).`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-Os **Mecanismos de Coesão Textual e Referenciação Pronominal** sustentam o encadeamento gramatical das ideias em textos formais em inglês:
-1. **Tipos de Referenciação:**
-   - **Anáfora (Referência Anafórica):** O termo refere-se a um elemento já citado anteriormente no texto (é a forma de referenciação mais frequente e mais cobrada pelo Cebraspe).
-   - **Catáfora (Referência Catafórica):** O termo antecipa um elemento que ainda será explicitado adiante na oração.
-   - **Exófora (Referência Exofórica):** O termo aponta para fora do texto, para a situação comunicativa ou contexto extralinguístico.
-2. **Pronomes Relativos Canônicos (*Relative Pronouns*):**
-   - **Who:** Refere-se exclusivamente a **pessoas** (sujeito da oração adjetiva).
-   - **Whom:** Refere-se a pessoas na função de **objeto** (frequentemente precedido de preposição: *to whom, with whom*).
-   - **Which:** Refere-se a **coisas, animais, objetos ou à oração anterior inteira**.
-   - **That:** Pode referir-se a pessoas ou coisas; usado **exclusivamente em orações adjetivas restritivas** (sem vírgulas!). Nunca pode ser precedido de vírgula ou preposição!
-   - **Whose:** Indica **posse** (cujo, cuja, cujos, cujas); liga dois substantivos sem artigo (*the author whose book...*).
-3. **Pronomes Demonstrativos e Coesão Gramatical:**
-   - *This / These:* Proximidade temporal ou espacial; refere-se ao que acabou de ser dito.
-   - *That / Those:* Distância; contraste com elementos anteriores.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Identificação de Referência Anafórica em Tratado Internacional):** No texto do Acordo de Paris, lê-se: *"The participating countries submitted their emission targets. **They** pledged to reduce carbon output by 2030"*. O bibliotecário identifica para o consultor legislativo que o pronome anafórico *They* retoma exclusivamente o sintagma *The participating countries*.
-- **Cenário 2 (Uso Correto de Whose em Resenha Bibliográfica em Inglês):** Ao resenhar um livro de direito constitucional para a Revista da Câmara, o bibliotecário escreve: *"The jurist **whose** theories revolutionized parliamentarism..."*. O pronome *whose* indica posse semântica (as teorias do jurista).
-- **Cenário 3 (A Regra do That sem Vírgula em Relatórios Oficiais):** Ao revisar a versão em inglês de um relatório da CPI, o tradutor remove a vírgula antes de *that*: *"The evidence **that** was presented to the committee"* (oração restritiva essencial para a identificação da prova).
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Pronome Relativo | Refere-se a Quem | Uso com Vírgula? | Precedido de Preposição? |
-| :--- | :--- | :--- | :--- |
-| **Who** | Pessoas (sujeito) | Sim (explicativa) ou Não (restritiva) | Raro no inglês formal |
-| **Whom** | Pessoas (objeto) | Sim ou Não | **SIM** (*To whom, from whom*) |
-| **Which** | Coisas / Animais / Oração | Sim ou Não | **SIM** (*In which, for which*) |
-| **That** | Pessoas ou Coisas | **NUNCA!** (Apenas restritivas) | **NUNCA!** |
-| **Whose** | Posse (de quem / cujo) | Sim ou Não | Sim (*In whose hands*) |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **O Pronome "Which" Retomando a Frase Inteira:** A técnica de distrator recorrente consiste em colocar o pronome *which* precedido de vírgula e perguntar se ele retoma apenas o último substantivo. **Gabarito: ERRADO.** Quando precedido de vírgula após uma oração, *which* frequentemente retoma **toda a ideia da oração anterior**, e não apenas a última palavra!
-- **That após Vírgula ou Preposição:** A banca propõe substituir *which* por *that* em frases com preposição (*The room in which...* $\to$ *in that*). **Gabarito: ERRADO.** O pronome *that* não admite preposição antes de si nem pode ser usado após vírgula em orações explicativas.
-- **Ambiguidade Anafórica:** A banca sugere que o pronome *it* retoma um termo no plural. **Gabarito: ERRADO.** *It* é pronome singular neutro; para entidades no plural usa-se *they/them*.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **HALLIDAY, M. A. K.; HASAN, Ruqaiya.** *Cohesion in English*. London: Longman, 1976. (A teoria canônica de anáfora, catáfora e coesão gramatical).
-- **BIEBER, Douglas et al.** *Longman Grammar of Spoken and Written English*. London: Longman, 1999.
-- **QUIRK, Randolph et al.** *A Comprehensive Grammar of the English Language*. London: Longman, 1985. (A maior enciclopédia gramatical da língua inglesa).
-- **SWALES, John M.** *Genre Analysis: English in academic and research settings*. Cambridge: Cambridge University Press, 1990.
-- **CEBRASPE.** *Análise de Itens de Referenciação Textual em Língua Estrangeira*. Brasília: Cebraspe, 2023.`,
+  teoriaDensaMarkdown: "### Referência textual: procurar o antecedente compatível\n\nUm pronome pode retomar uma entidade, antecipar uma informação ou representar uma situação. **Anáfora** retoma algo anterior; **catáfora** aponta para conteúdo que será explicitado depois. A direção da referência é diferente da posição de sujeito ou objeto: são dimensões que precisam ser analisadas separadamente.\n\n**“The library received a donation. It will be catalogued next week.”** A concordância singular não resolve tudo, pois library e donation são singulares. O predicado will be catalogued torna donation a hipótese compatível no contexto. Escolher sempre o nome mais próximo pode coincidir com a resposta, mas não demonstra entendimento.\n\n**“When she arrived, the curator checked the collection.”** She pode antecipar the curator, se o contexto sustentar essa identidade. Sem contexto suficiente, não atribua referência única apenas para preencher um gabarito. Um exercício bem construído fornece pistas para resolver a relação.\n\n**Procedimento:** liste antecedentes plausíveis; confronte número e construção; substitua o pronome por cada candidato; verifique o sentido no parágrafo. Conhecimento de mundo ajuda a testar plausibilidade, mas não pode apagar uma relação efetivamente estabelecida pelo texto.\n\nPronomes como this e that podem recuperar uma oração inteira. **“The archive lost power. This delayed the work.”** This aponta para o acontecimento anterior. Um item que o reduz apenas ao substantivo power perde a relação de evento. A interpretação precisa explicar o que produziu o atraso.\n\n### Relativos: função interna e informação sobre o referente\n\nCompare **“the researcher who organised the files”** e **“the researcher whom the team consulted”**. No primeiro caso, who ocupa função de sujeito da oração relativa; no segundo, whom corresponde ao complemento. Who também pode aparecer como objeto em usos aceitos, especialmente menos formais; por isso, não ensine que toda ocorrência de who é obrigatoriamente sujeito. Depois de preposição anteposta, a forma whom é pertinente no registro formal para pessoas: *the colleague with whom we worked*.\n\n**Which** pode relacionar-se a coisas, grupos ou situações conforme a construção. **Whose** marca uma relação de posse/pertença com o nome seguinte: *the institution whose collection was digitised*. Seu uso não se limita a possuidores humanos. A concordância do verbo depende da estrutura, não apenas do possuidor.\n\nEm **“The records that were damaged were restored”**, a relativa define quais registros. Em **“The records, which were damaged, were restored”**, a relativa apresenta informação adicional sobre o conjunto referido. Alterar a pontuação pode mudar alcance, ainda que ambas as construções sejam possíveis em seus contextos.\n\nO relativo pode ser omitido em certas orações definidoras quando funciona como objeto: *the book (that) I borrowed*. Não se aplica a mesma omissão ao sujeito em *the book that contains the report*. A pergunta “o pronome é opcional?” depende da função e do tipo de oração, não somente da palavra usada.\n\n**Caso resolvido:** substituir whose por which em *the researcher whose paper was selected* elimina a relação possessiva e não produz automaticamente a mesma estrutura. Reescrever exigiria outra construção, como referência ao artigo do pesquisador, preservando a relação pertinente.\n\n### Which: um nome ou o acontecimento anterior?\n\n**“The committee postponed the vote, which surprised the staff.”** A leitura natural relaciona a surpresa ao adiamento da votação. Não é apenas a comissão ou a palavra vote que, isoladamente, produz a relação. Compare **“The report, which contains new figures, was released.”** Aqui which retoma report, pois é o documento que contém números.\n\nA presença de vírgula não cria um algoritmo segundo o qual which sempre retoma toda oração. Ela pode introduzir informação não definidora sobre um nome, como no segundo exemplo. Examine o antecedente plausível e o predicado da relativa.\n\n**Exemplo resolvido:** *The database was unavailable for two hours, which prevented online searches.* A indisponibilidade do sistema impediu buscas; dizer que which representa apenas two hours reduz indevidamente a relação. O período de tempo participa da descrição do evento, mas não é automaticamente o antecedente selecionado.\n\n**Transferência:** *The library acquired a server, which was installed yesterday.* Nesse contexto, o que foi instalado é o servidor. Trocar a interpretação pelo ato de aquisição não se sustenta. Ambos os exemplos têm vírgula e which; o sentido decide a relação adequada.\n\nAo comentar uma questão, nomeie a entidade ou o evento recuperado e demonstre a compatibilidade com a oração. “Porque está antes” é uma justificativa incompleta. Da mesma forma, não atribua ao CEBRASPE uma regra de referência que dependa apenas de pontuação sem analisar o trecho.\n\n### Former, latter, substituição e elipse em um parágrafo\n\n> The library compared printed manuals and digital guides. The former were easier to consult during a power outage; the latter could be updated more quickly. Both were retained. Some readers preferred the manuals, while others chose the guides. The team did not replace one format with the other.\n\nTexto autoral. **The former** aponta para o primeiro elemento do par: printed manuals. **The latter** aponta para o segundo: digital guides. **Both** recupera os dois. **Others** retoma um grupo de leitores contrastado com some readers; não é um terceiro tipo de documento.\n\nNa última frase, **one format** e **the other** mantêm a relação entre os dois formatos, dentro da negação de substituição. O parágrafo oferece razões para manter ambos. Um item que conclua que a equipe eliminou os impressos não se apoia na cadeia referencial.\n\n**Latter** não é o mesmo que **later**. O primeiro participa da referência ao último de um conjunto/par; o segundo expressa relação temporal ou posição posterior. Uma letra pode mudar o papel no texto, mas a explicação precisa mostrar esse papel em vez de apenas classificar como pegadinha.\n\nA elipse também permite omitir material recuperável: *Some readers preferred printed copies; others, digital ones.* O trecho exige recuperar o verbo e a relação. Traduzir palavra a palavra sem reconstruir a estrutura pode deixar a segunda parte sem interpretação.\n\n**Recuperação:** substitua cada expressão destacada pelo referente explícito e releia o parágrafo. Se a substituição altera número, papel ou lógica, revise sua hipótese. Esse procedimento é aplicável a novos textos, e não apenas ao exemplo memorizado.",
+  teoriaDidaticaMarkdown: "### Revisão: seguir os referentes\n\nAnáfora retoma; catáfora antecipa. A posição do nome mais próximo não basta: teste número, sintaxe e sentido. Who e whom devem ser analisados pela função e pelo registro; whose liga possuidor e nome possuído, inclusive com instituição como antecedente. Which pode retomar nome ou acontecimento conforme a construção; a vírgula não decide sozinha. Former recupera o primeiro termo do par; latter, o segundo. Later tem outro papel. Demonstrativos, substituições e elipses também constroem coesão.\n\n**Recupere:** por que os dois exemplos com which da aula têm referentes diferentes? Reescreva o texto de manuais e guias explicitando former, latter e both. Se surgir uma terceira entidade na sua versão, confira se ela foi realmente introduzida.\n",
   checkpoints: [
-    {
-      id: 'chk-12-3-1',
-      pergunta: 'Julgue o item referente à referenciação pronominal em textos em língua inglesa segundo o Cebraspe:',
-      item: 'Na sentença "The Prime Minister resigned unexpectedly, which caused market instability", o pronome "which" refere-se unicamente ao substantivo "Prime Minister".',
-      gabarito: 'E',
-      justificativa: 'Erro recorrente explorado pelo Cebraspe! O pronome relativo "which" após a vírgula funciona como encapsulador sentencial, referindo-se a todo o fato relatado na oração anterior (a renúncia inesperada do Primeiro-Ministro), e não à pessoa do governante.',
-    },
-    {
-      id: 'chk-12-3-2',
-      pergunta: 'Julgue a assertiva referente ao uso anafórico de "the former" e "the latter":',
-      item: 'Em "The library acquired both printed books and electronic journals; the latter require dedicated digital infrastructure", a expressão "the latter" refere-se a "printed books".',
-      gabarito: 'E',
-      justificativa: 'Inversão da referência. A expressão "the latter" refere-se ao segundo/último termo citado no par ("electronic journals"). O primeiro termo ("printed books") seria retomado por "the former".',
-    },
-    {
-      id: 'chk-12-3-3',
-      pergunta: 'Julgue o item relativo ao pronome relativo possessivo "whose":',
-      item: 'O pronome "whose" na oração "The researcher whose paper was selected" estabelece uma relação de posse entre "The researcher" e "paper", correspondendo ao termo "cujo" em língua portuguesa.',
-      gabarito: 'C',
-      justificativa: 'Correto. O pronome relativo "whose" expressa posse ou pertença entre o antecedente ("the researcher") e o substantivo imediatamente seguinte ("paper"), correspondendo rigorosamente ao pronome relativo "cujo" em português.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tm-12-3-1',
-        periodo: '1976',
-        disciplina: 'Linguística Sistêmico-Funcional',
-        focoPrincipal: 'Taxonomia dos Mecanismos de Coesão Referencial Anafórica e Catafórica',
-        figuraChave: 'M.A.K. Halliday',
-      },
-      {
-        id: 'tm-12-3-2',
-        periodo: '1983',
-        disciplina: 'Análise do Discurso',
-        focoPrincipal: 'Cadeias de Referenciação e Encapsulamento em Textos Reais',
-        figuraChave: 'Gillian Brown & George Yule',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-12-3-1',
-        nome: 'Ruqaiya Hasan',
-        ano: 1976,
-        obraPrincipal: 'Cohesion in English (com M.A.K. Halliday)',
-        ideiaChave: 'A interpretação de um item anafórico é inescapavelmente dependente de seu antecedente.',
-        chipPegadinha: 'Coesão Referencial',
-      },
-      {
-        id: 'aut-12-3-2',
-        nome: 'George Yule',
-        ano: 1983,
-        obraPrincipal: 'Discourse Analysis',
-        ideiaChave: 'O leitor reconstrói os referentes a partir de pistas cognitivas e sintáticas no texto.',
-        chipPegadinha: 'Cadeias de Referência',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-12-3-1',
-        afirmacao: 'O pronome relativo "that" pode ser livremente usado entre vírgulas em orações relativas explicativas em inglês.',
-        gabarito: 'E',
-        porQue: 'Em orações relativas explicativas (com vírgulas), o uso de "that" é vedado na norma-padrão. Utiliza-se obrigatoriamente "which" (para coisas) ou "who" (para pessoas).',
-      },
-      {
-        id: 'peg-12-3-2',
-        afirmacao: 'Na expressão "whose the results", a estrutura gramatical está correta na norma culta da língua inglesa.',
-        gabarito: 'E',
-        porQue: '"Whose" não admite o artigo definido "the" imediatamente após si. A estrutura correta é "whose results".',
-      },
-    ],
+  {
+    "id": "chk-12-3-1",
+    "pergunta": "Julgue o item referente à referenciação pronominal em textos em língua inglesa segundo o Cebraspe:",
+    "item": "Na sentença \"The Prime Minister resigned unexpectedly, which caused market instability\", o pronome \"which\" refere-se unicamente ao substantivo \"Prime Minister\".",
+    "gabarito": "E",
+    "justificativa": "No trecho dado, which relaciona a instabilidade ao acontecimento da renúncia inesperada. Não se refere unicamente à pessoa do primeiro-ministro. Essa análise depende da construção e do sentido; não estabelece que toda vírgula com which produza o mesmo tipo de referência.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
   },
+  {
+    "id": "chk-12-3-2",
+    "pergunta": "Julgue a assertiva referente ao uso anafórico de \"the former\" e \"the latter\":",
+    "item": "Em \"The library acquired both printed books and electronic journals; the latter require dedicated digital infrastructure\", a expressão \"the latter\" refere-se a \"printed books\".",
+    "gabarito": "E",
+    "justificativa": "Inversão da referência. A expressão \"the latter\" refere-se ao segundo/último termo citado no par (\"electronic journals\"). O primeiro termo (\"printed books\") seria retomado por \"the former\".",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+  },
+  {
+    "id": "chk-12-3-3",
+    "pergunta": "Julgue o item relativo ao pronome relativo possessivo \"whose\":",
+    "item": "O pronome \"whose\" na oração \"The researcher whose paper was selected\" estabelece uma relação de posse entre \"The researcher\" e \"paper\", correspondendo ao termo \"cujo\" em língua portuguesa.",
+    "gabarito": "C",
+    "justificativa": "Correto. O pronome relativo \"whose\" expressa posse ou pertença entre o antecedente (\"the researcher\") e o substantivo imediatamente seguinte (\"paper\"), correspondendo rigorosamente ao pronome relativo \"cujo\" em português.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC."
+  },
+  {
+    "id": "rt-12-3-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em “The archive received a donation. It will be catalogued tomorrow”, o contexto favorece donation como referente de It, pois é o objeto recebido que será catalogado.",
+    "gabarito": "C",
+    "justificativa": "Os dois nomes são singulares, mas a ação de catalogar seleciona a doação no contexto apresentado. O teste combina forma e sentido, sem se limitar à proximidade.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-12-3-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Whose em “the institution whose records were preserved” exige que institution designe uma pessoa física.",
+    "gabarito": "E",
+    "justificativa": "Whose pode estabelecer relação de pertença com uma instituição. O exemplo não é invalidado pela natureza não humana do antecedente.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)",
+    "habilidade": "aplicar",
+    "versao_correta": "Whose pode relacionar institution e records, sem exigir possuidor humano."
+  },
+  {
+    "id": "rt-12-3-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em “The report, which contains a map, was published”, a vírgula obriga which a retomar todo o ato de publicação, e não report.",
+    "gabarito": "E",
+    "justificativa": "Report é o antecedente compatível com contains a map. A vírgula não obriga referência a toda oração. É preciso verificar o predicado da relativa.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)",
+    "habilidade": "aplicar",
+    "versao_correta": "Which retoma report nessa construção."
+  },
+  {
+    "id": "rt-12-3-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto de manuais e guias, Both recupera os dois tipos de recurso que foram comparados.",
+    "gabarito": "C",
+    "justificativa": "O par foi estabelecido na primeira frase e retomado pelas expressões former e latter. Both conserva os dois elementos na decisão de retenção.",
+    "fonte": "British Council LearnEnglish: Contrasting ideas; Relative pronouns and relative clauses; Modals: deductions about the present. Textos e exemplos autorais do HNC.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 2: Relações Lógicas e Discursivas)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "aut-12-3-referencia",
+      "nome": "British Council — LearnEnglish",
+      "ano": "Material de consulta",
+      "obraPrincipal": "Recursos de gramática e leitura indicados nas fontes da aula",
+      "ideiaChave": "Conferir a função e a construção no contexto; os exemplos de aplicação são autorais do HNC.",
+      "chipPegadinha": "Evidência e estrutura"
+    }
+  ],
+  "pegadinhas": []
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-12-3-bloco-1",
+    "titulo": "Referência textual: procurar o antecedente compatível",
+    "objetivos": [
+      "Testar número, sentido e função em vez de escolher o nome mais próximo."
+    ],
+    "conteudo": "Um pronome pode retomar uma entidade, antecipar uma informação ou representar uma situação. **Anáfora** retoma algo anterior; **catáfora** aponta para conteúdo que será explicitado depois. A direção da referência é diferente da posição de sujeito ou objeto: são dimensões que precisam ser analisadas separadamente.\n\n**“The library received a donation. It will be catalogued next week.”** A concordância singular não resolve tudo, pois library e donation são singulares. O predicado will be catalogued torna donation a hipótese compatível no contexto. Escolher sempre o nome mais próximo pode coincidir com a resposta, mas não demonstra entendimento.\n\n**“When she arrived, the curator checked the collection.”** She pode antecipar the curator, se o contexto sustentar essa identidade. Sem contexto suficiente, não atribua referência única apenas para preencher um gabarito. Um exercício bem construído fornece pistas para resolver a relação.\n\n**Procedimento:** liste antecedentes plausíveis; confronte número e construção; substitua o pronome por cada candidato; verifique o sentido no parágrafo. Conhecimento de mundo ajuda a testar plausibilidade, mas não pode apagar uma relação efetivamente estabelecida pelo texto.\n\nPronomes como this e that podem recuperar uma oração inteira. **“The archive lost power. This delayed the work.”** This aponta para o acontecimento anterior. Um item que o reduz apenas ao substantivo power perde a relação de evento. A interpretação precisa explicar o que produziu o atraso.",
+    "checkpointIds": [
+      "rt-12-3-1"
+    ]
+  },
+  {
+    "id": "sub-12-3-bloco-2",
+    "titulo": "Relativos: função interna e informação sobre o referente",
+    "objetivos": [
+      "Distinguir who, whom, which e whose em construções explícitas."
+    ],
+    "conteudo": "Compare **“the researcher who organised the files”** e **“the researcher whom the team consulted”**. No primeiro caso, who ocupa função de sujeito da oração relativa; no segundo, whom corresponde ao complemento. Who também pode aparecer como objeto em usos aceitos, especialmente menos formais; por isso, não ensine que toda ocorrência de who é obrigatoriamente sujeito. Depois de preposição anteposta, a forma whom é pertinente no registro formal para pessoas: *the colleague with whom we worked*.\n\n**Which** pode relacionar-se a coisas, grupos ou situações conforme a construção. **Whose** marca uma relação de posse/pertença com o nome seguinte: *the institution whose collection was digitised*. Seu uso não se limita a possuidores humanos. A concordância do verbo depende da estrutura, não apenas do possuidor.\n\nEm **“The records that were damaged were restored”**, a relativa define quais registros. Em **“The records, which were damaged, were restored”**, a relativa apresenta informação adicional sobre o conjunto referido. Alterar a pontuação pode mudar alcance, ainda que ambas as construções sejam possíveis em seus contextos.\n\nO relativo pode ser omitido em certas orações definidoras quando funciona como objeto: *the book (that) I borrowed*. Não se aplica a mesma omissão ao sujeito em *the book that contains the report*. A pergunta “o pronome é opcional?” depende da função e do tipo de oração, não somente da palavra usada.\n\n**Caso resolvido:** substituir whose por which em *the researcher whose paper was selected* elimina a relação possessiva e não produz automaticamente a mesma estrutura. Reescrever exigiria outra construção, como referência ao artigo do pesquisador, preservando a relação pertinente.",
+    "checkpointIds": [
+      "chk-12-3-3",
+      "rt-12-3-2"
+    ]
+  },
+  {
+    "id": "sub-12-3-bloco-3",
+    "titulo": "Which: um nome ou o acontecimento anterior?",
+    "objetivos": [
+      "Confrontar a interpretação do relativo com o predicado seguinte."
+    ],
+    "conteudo": "**“The committee postponed the vote, which surprised the staff.”** A leitura natural relaciona a surpresa ao adiamento da votação. Não é apenas a comissão ou a palavra vote que, isoladamente, produz a relação. Compare **“The report, which contains new figures, was released.”** Aqui which retoma report, pois é o documento que contém números.\n\nA presença de vírgula não cria um algoritmo segundo o qual which sempre retoma toda oração. Ela pode introduzir informação não definidora sobre um nome, como no segundo exemplo. Examine o antecedente plausível e o predicado da relativa.\n\n**Exemplo resolvido:** *The database was unavailable for two hours, which prevented online searches.* A indisponibilidade do sistema impediu buscas; dizer que which representa apenas two hours reduz indevidamente a relação. O período de tempo participa da descrição do evento, mas não é automaticamente o antecedente selecionado.\n\n**Transferência:** *The library acquired a server, which was installed yesterday.* Nesse contexto, o que foi instalado é o servidor. Trocar a interpretação pelo ato de aquisição não se sustenta. Ambos os exemplos têm vírgula e which; o sentido decide a relação adequada.\n\nAo comentar uma questão, nomeie a entidade ou o evento recuperado e demonstre a compatibilidade com a oração. “Porque está antes” é uma justificativa incompleta. Da mesma forma, não atribua ao CEBRASPE uma regra de referência que dependa apenas de pontuação sem analisar o trecho.",
+    "checkpointIds": [
+      "chk-12-3-1",
+      "rt-12-3-3"
+    ]
+  },
+  {
+    "id": "sub-12-3-bloco-4",
+    "titulo": "Former, latter, substituição e elipse em um parágrafo",
+    "objetivos": [
+      "Acompanhar a cadeia referencial e distinguir palavras lexicalmente próximas."
+    ],
+    "conteudo": "> The library compared printed manuals and digital guides. The former were easier to consult during a power outage; the latter could be updated more quickly. Both were retained. Some readers preferred the manuals, while others chose the guides. The team did not replace one format with the other.\n\nTexto autoral. **The former** aponta para o primeiro elemento do par: printed manuals. **The latter** aponta para o segundo: digital guides. **Both** recupera os dois. **Others** retoma um grupo de leitores contrastado com some readers; não é um terceiro tipo de documento.\n\nNa última frase, **one format** e **the other** mantêm a relação entre os dois formatos, dentro da negação de substituição. O parágrafo oferece razões para manter ambos. Um item que conclua que a equipe eliminou os impressos não se apoia na cadeia referencial.\n\n**Latter** não é o mesmo que **later**. O primeiro participa da referência ao último de um conjunto/par; o segundo expressa relação temporal ou posição posterior. Uma letra pode mudar o papel no texto, mas a explicação precisa mostrar esse papel em vez de apenas classificar como pegadinha.\n\nA elipse também permite omitir material recuperável: *Some readers preferred printed copies; others, digital ones.* O trecho exige recuperar o verbo e a relação. Traduzir palavra a palavra sem reconstruir a estrutura pode deixar a segunda parte sem interpretação.\n\n**Recuperação:** substitua cada expressão destacada pelo referente explícito e releia o parágrafo. Se a substituição altera número, papel ou lógica, revise sua hipótese. Esse procedimento é aplicável a novos textos, e não apenas ao exemplo memorizado.",
+    "checkpointIds": [
+      "chk-12-3-2",
+      "rt-12-3-4"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "bc-contraste",
+    "titulo": "British Council — Contrasting ideas",
+    "localizador": "Although, despite e estruturas de contraste.",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/contrasting-ideas-although-despite-others"
+  },
+  {
+    "id": "bc-relativos",
+    "titulo": "British Council — Relative pronouns and relative clauses",
+    "localizador": "Forma e função dos relativos.",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/relative-pronouns-relative-clauses"
+  },
+  {
+    "id": "bc-modais",
+    "titulo": "British Council — Modals: deductions about the present",
+    "localizador": "Possibilidade e dedução conforme evidência e contexto.",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/modals-deductions-about-present"
+  }
+],
 };

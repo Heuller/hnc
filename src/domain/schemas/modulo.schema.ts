@@ -319,6 +319,21 @@ export const SecaoTeoriaSchema = z.object({
   itens: z.array(z.union([ExercicioSchema, CheckpointSchema])).optional(),
 });
 
+export const UnidadeAprendizagemSchema = z.object({
+  id: z.string().min(1),
+  titulo: z.string().min(1),
+  objetivos: z.array(z.string().min(1)).min(1),
+  conteudo: z.string().min(1),
+  checkpointIds: z.array(z.string()).default([]),
+});
+
+export const FonteTeoriaSchema = z.object({
+  id: z.string(),
+  titulo: z.string(),
+  localizador: z.string(),
+  url: z.string().url().optional(),
+});
+
 export const ReferenciaCruzadaSchema = z.object({
   submoduloId: z.string(),
   titulo: z.string(),
@@ -339,7 +354,10 @@ export const ModuloFilhoSchema = z.object({
   teoriaDidaticaMarkdown: z.string().optional(), // Novo modelo teórico: didático, enxuto e focado em exemplos da vida real / Câmara dos Deputados
   secoes: z.array(SecaoTeoriaSchema).optional(),
   antesDeLer: z.array(TermoAntesDeLerSchema).optional(),
-  checkpoints: z.array(CheckpointSchema).min(3).max(8),
+  checkpoints: z.array(CheckpointSchema).min(3),
+  unidadesAprendizagem: z.array(UnidadeAprendizagemSchema).optional(),
+  fontesTeoria: z.array(FonteTeoriaSchema).optional(),
+  versaoTeoria: z.string().optional(),
   mnemonicos: MnemonicosModuloSchema,
   prioridade: z.enum(['alta', 'normal', 'baixa']).default('normal').optional(),
   preRequisitos: z.array(z.string()).optional(), // T6.1: Pré-requisitos pedagógicos (ex: ['sub-1-6'])

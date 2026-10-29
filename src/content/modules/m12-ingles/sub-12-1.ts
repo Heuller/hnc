@@ -12,37 +12,27 @@ export const submodulo121: ModuloFilho = {
           "motivo": "Terminologia contemporânea em inglês de inteligência artificial e RAG."
       }
   ],
-  titulo: 'Modelo Interativo-Compensatório e Leitura Estratégica (Skimming, Scanning & Ideia Central)',
+  titulo: "Leitura estratégica: ideia central, evidência e aplicação em textos",
   antesDeLer: [
-    {
-      termo: 'Skimming e Scanning',
-      definicao: 'Técnicas de leitura rápida: skimming identifica a ideia geral e o tom do texto; scanning localiza informações pontuais específicas (datas, nomes).',
-      exemploBiblioteca: 'Localizar rapidamente a data de publicação de uma diretriz da IFLA em inglês sem ler o manual inteiro.',
-    },
-    {
-      termo: 'Tópico Frasal (Topic Sentence)',
-      definicao: 'Primeira frase ou oração nuclear de um parágrafo que resume sua ideia central e orienta o desenvolvimento do argumento.',
-      exemploBiblioteca: 'Leitura focada dos tópicos frasais de um artigo sobre preservação digital para elaborar resumo executivo para a chefia.',
-    },
-    {
-      termo: 'Gênero Textual Acadêmico em Inglês',
-      definicao: 'Estrutura típica de artigos científicos (IMRAD: Introduction, Methods, Results, and Discussion) com linguagem impessoal.',
-      exemploBiblioteca: 'Identificação das seções de resultados de um artigo da Journal of the Association for Information Science and Technology (JASIST).',
-    },
-    {
-      termo: 'Inferência Contextual',
-      definicao: 'Habilidade de deduzir o significado de vocábulos desconhecidos a partir das pistas sintáticas e do contexto discursivo geral.',
-      exemploBiblioteca: 'Compreender o sentido da expressão \'data curation workflow\' em manual técnico da Library of Congress sem usar dicionário.',
-    },
-  ],
+  {
+    "termo": "Evidência textual",
+    "definicao": "Passagem ou relação inferencial que sustenta a conclusão exigida pela tarefa.",
+    "exemploBiblioteca": "Distinguir o aumento de presença na biblioteca da qualidade do atendimento, não avaliada no relatório."
+  },
+  {
+    "termo": "Estratégia de leitura",
+    "definicao": "Escolha de abordagem conforme o objetivo: panorama, localização ou exame detalhado.",
+    "exemploBiblioteca": "Localizar uma data de solicitação e depois conferir as condições do regulamento."
+  }
+],
   descricaoCurta: 'O modelo psicocognitivo interativo-compensatório de Keith Stanovich, processamento top-down vs bottom-up, leitura rápida com Skimming e Scanning, e técnicas de apreensão da ideia central e do propósito comunicativo do autor no padrão Cebraspe.',
   tempoEstimadoMinutos: 11,
   autoresChave: ['Keith Stanovich (Interactive-Compensatory Model)', 'David Rumelhart (Schema Theory in Reading)', 'Kenneth Goodman (Psycholinguistic Reading Model)', 'Prof. Gabriela Kruger'],
   alertasCebraspe: [
-    'O Cebraspe cobra massivamente a apreensão do objetivo primordial do texto. Assertivas que destacam apenas um detalhe secundário ou um exemplo do 3º parágrafo como "o objetivo principal do autor" são invariavelmente ERRADAS (extrapolação ou redução indevida).',
-    'Palavras restritivas na interpretação em inglês: Termos como "solely", "exclusively", "only", "never" e "entirely" devem acender alerta vermelho máximo. Na imensa maioria dos casos, o texto expressa uma visão mais matizada e a assertiva é ERRADA.',
-    'Nunca traduza palavra por palavra: A prova do Cebraspe é desenhada para testar a compreensão holística de parágrafos e ideias complexas de artigos de geopolítica, direito internacional e tecnologia. A tradução literal palavra por palavra consome tempo e induz ao erro por falsos amigos.',
-  ],
+  "Compare a proposição ao texto: uma verdade externa não basta numa tarefa de compreensão.",
+  "Quantificadores, modais e condições podem mudar a conclusão. Nenhuma palavra isolada determina o gabarito.",
+  "Tema, tese e exemplo têm papéis diferentes. Identifique a progressão do argumento."
+],
   quadroComparativo: {
     titulo: 'Estratégias Cognitivas de Leitura Instrumental em Provas Cebraspe',
     colunas: ['Técnica de Leitura', 'Operação Mental', 'Foco no Texto', 'Quando Utilizar no Cebraspe'],
@@ -52,201 +42,237 @@ export const submodulo121: ModuloFilho = {
       ['Leitura Detalhada', 'Processamento profundo de microestruturas', 'Um parágrafo ou sentença específica referenciada (ex.: linhas 12 a 15)', 'Para julgar itens de inferência sutil, paráfrase ou referenciação pronominal'],
     ],
   },
-  teoriaDensaMarkdown: `### 1. A Ciência da Leitura em Segunda Língua: O Modelo Interativo-Compensatório
-
-Pesquisas seminais em psicolinguística cognitiva (**Keith Stanovich**, 1980; **David Rumelhart**, 1977) revolucionaram o ensino de leitura instrumental ao formular o **Modelo Interativo-Compensatório** (*Interactive-Compensatory Model*):
-
-1. **Processamento Ascendente (Bottom-Up):** Decodificação dos elementos visuais, morfológicos e sintáticos da frase (palavra por palavra).
-2. **Processamento Descendente (Top-Down):** Mobilização dos conhecimentos prévios do leitor (*background knowledge* / *schemata*) sobre o tema, o gênero discursivo e a macroestrutura do texto.
-3. **O Princípio da Compensação:** Quando o candidato encontra uma palavra desconhecida em inglês (déficit *bottom-up*), o cérebro treinado compensa imediatamente utilizando o contexto semântico, os marcadores discursivos e o conhecimento temático (*top-down*).
-
-> **Diretriz de Alta Performance:** Você NÃO precisa conhecer 100% dos vocábulos do texto para gabaritar a prova de inglês do Cebraspe. O segredo reside na compensação estratégica e na identificação da arquitetura argumentativa.
-
----
-
-### 2. A Sequência de Ataque à Prova Cebraspe de Inglês
-
-A abordagem ingênua de ler o texto completo do início ao fim antes de olhar os itens é a principal responsável pela perda de tempo e fadiga mental. O método científico prescreve a **Sequência Invertida**:
-
-#### Passo 1: Leitura Prévia dos Enunciados e Assertivas
-Antes de abrir o texto, leia as 5 ou 10 assertivas da prova. Elas revelam:
-* O assunto exato do texto (ex.: inteligência artificial no setor público, comércio internacional, direitos humanos).
-* As palavras-âncora que servirão de alvo para o *Scanning*.
-* As linhas específicas que serão objeto de cobrança direta.
-
-#### Passo 2: Skimming da Macroestrutura (Leitura Panorâmica)
-Faça uma leitura de 90 segundos observando:
-* O título e o subtítulo (se houver).
-* A fonte original no rodapé (ex.: *The Economist*, *The Guardian*, *Nature*, relatórios da ONU).
-* A primeira sentença de cada parágrafo (*Topic Sentence*), que na tradição retórica anglo-saxã carrega 80% da ideia central do parágrafo.
-
-#### Passo 3: Scanning e Checagem Focada das Assertivas
-Volte ao texto apenas nas regiões exigidas por cada item para verificar a fidelidade da assertiva frente ao texto original.
-
----
-
-### 3. As Três Armadilhas Clássicas de Interpretação do Cebraspe
-
-Ao avaliar assertivas de compreensão global, o Cebraspe opera através de 3 desvios conceituais deliberados:
-
-1. **Extrapolação:** A assertiva introduz uma conclusão plausível no mundo real, mas que NÃO está respaldada por nenhuma frase do texto. Lembre-se: no Cebraspe, julga-se estritamente *o que o texto diz ou permite inferir*, e não o que é verdade no senso comum.
-2. **Redução / Foco Indevido:** A assertiva toma um exemplo ou dado menor mencionado de passagem e afirma que aquele é o tema principal da obra.
-3. **Inversão de Causa e Efeito:** A assertiva inverte quem gerou quem no argumento apresentado pelo autor.
-
----
-
-### 4. Textos Autênticos em Contexto Contemporâneo: Bibliotecas, Dados e IA
-
-O Cebraspe seleciona textos de periódicos internacionais conceituados (*Journal of Documentation*, *The Economist*, *Communications of the ACM*, *IFLA Journal*). A seguir, dois modelos autênticos de leitura com análise pragmática de itens:
-
-#### Texto I: Artificial Intelligence and Retrieval-Augmented Generation in Parliamentary Libraries
-
-> *"Modern legislative libraries are undergoing a profound paradigm shift driven by the integration of Large Language Models and Retrieval-Augmented Generation (RAG) frameworks. Rather than replacing human information professionals, automated retrieval systems rely heavily on structured metadata, controlled vocabularies, and rigorous cataloguing standards to prevent algorithmic hallucinations. Although automated summarization accelerates bill analysis, parliamentary librarians must retain oversight to ensure that legislative briefs reflect neutral, comprehensive, and legally verifiable evidence."*
-
-* **Análise de Item de Inferência (Cebraspe):**
-  * *Assertiva:* *"According to the text, the deployment of generative artificial intelligence in parliamentary libraries eliminates the necessity of human metadata curation and cataloguing."*
-  * *Julgamento:* **ERRADO.** O texto estabelece exatamente o oposto: os sistemas automatizados dependem fortemente (*rely heavily on*) de metadados estruturados, vocabulários controlados e curadoria humana para evitar alucinações algorítmicas (*prevent algorithmic hallucinations*).
-* **Análise de Item de Reescrita Sintática:**
-  * *Assertiva:* *"In the sentence 'Although automated summarization accelerates bill analysis, parliamentary librarians must retain oversight', the conjunction 'Although' could be correctly replaced with 'Even though' without altering the syntactic relationship or the original meaning."*
-  * *Julgamento:* **CERTO.** Ambos os conectivos (*although* e *even though*) pertencem à família do contraste/concessão e introduzem orações subordinadas adverbiais concessivas completas (compostas por sujeito e verbo).
-
-#### Texto II: Open Government Data and Long-Term Digital Preservation
-
-> *"The longevity of open parliamentary data depends not merely on cloud-based storage, but on sustainable digital preservation architectures. Formats such as PDF/A and uncompressed TIFF ensure that historical legislative proceedings remain legible across generations without reliance on proprietary software. Nevertheless, without continuous fixity monitoring via cryptographic hashes, digital repositories remain vulnerable to bit-level deterioration and undetected corruption."*
-
-* **Análise de Item de Compreensão Global:**
-  * *Assertiva:* *"The author implies that relying solely on cloud storage is insufficient to guarantee the long-term accessibility and integrity of parliamentary records."*
-  * *Julgamento:* **CERTO.** O autor afirma categoricamente que a longevidade depende não meramente do armazenamento em nuvem (*depends not merely on cloud-based storage*), mas de arquiteturas sustentáveis e checagem contínua de fixidez.
-* **Análise de Item Gramatical de Conectivo:**
-  * *Assertiva:* *"The transition marker 'Nevertheless' expresses a causal relationship between digital formats and repository vulnerability."*
-  * *Julgamento:* **ERRADO.** *Nevertheless* é um marcador discursivo adversativo/concessivo (equivale a *however*, *nonetheless*, *todavia*), indicando contraste ou quebra de expectativa, e jamais relação de causa e efeito.
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **IA Aplicada à Informação (sub-6-7):** Terminologia contemporânea em inglês de inteligência artificial e RAG.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A leitura instrumental em Língua Inglesa no padrão Cebraspe opera pelo **Modelo Interativo-Compensatório (Stanovich)**, combinando técnicas estratégicas de leitura rápida:
-1. **O Modelo Interativo-Compensatório (Keith Stanovich):**
-   - A leitura eficiente não é puramente *Bottom-up* (decodificação mecânica de letra por letra e palavra por palavra) nem puramente *Top-down* (adivinhação baseada apenas no conhecimento de mundo).
-   - É um processo interativo: quando o leitor tem deficiência em um nível (ex.: não conhece o significado de um termo técnico isolado), ele compensa imediatamente utilizando pistas contextuais, morfológicas e conhecimento prévio do assunto.
-2. **Técnicas Canônicas de Leitura:**
-   - **Skimming (Varredura Panorâmica):** Leitura rápida dos títulos, subtítulos, primeira e última frase dos parágrafos (*topic sentences*) para captar a **ideia central** e o propósito comunicativo geral do texto em menos de 1 minuto.
-   - **Scanning (Busca Pontual Específica):** Movimento ocular em zigue-zague à procura de um dado factual isolado (número, data, nome próprio, sigla, termo técnico) sem ler o texto ao redor.
-3. **Pistas Tipográficas e Estruturais:**
-   - Palavras em negrito, itálico, números, travessões, parênteses e títulos orientam o foco de atenção e revelam a macroestrutura argumentativa.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Scanning em Relatório da OCDE para a Comissão de Finanças):** Um deputado relator precisa saber a alíquota média do IVA praticada nos países da OCDE em 2023. O bibliotecário recebe um relatório em inglês de 200 páginas e aplica o **Scanning**: localiza a tabela com o termo *"Value Added Tax (VAT)"* e a coluna *"Average 2023"*, extraindo o número exato em 30 segundos.
-- **Cenário 2 (Skimming em Artigo da IFLA sobre Preservação Digital):** Ao avaliar um artigo internacional recém-publicado pela *IFLA Journal*, o bibliotecário faz **Skimming** no *Abstract* e na *Conclusion*, identificando em 2 minutos que o texto trata da migração de formatos para PDF/A-4, selecionando-o para a base da RVBI.
-- **Cenário 3 (Modelo Compensatório em Tradução Jurídica):** Lendo um tratado da União Europeia, o analista depara-se com a expressão arcaica *"heretofore"*. Em vez de travar a leitura, aplica o modelo compensatório de Stanovich: a oração trata de atos anteriores à assinatura do acordo, inferindo perfeitamente o sentido de *"até o presente momento"*.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Técnica / Estratégia | Objetivo Primário | Velocidade | Quando Usar no Cebraspe |
-| :--- | :--- | :--- | :--- |
-| **Skimming** | Compreender a ideia geral / tese central | Muito rápida | Itens sobre o objetivo principal do autor |
-| **Scanning** | Localizar dado isolado (número/nome) | Instantânea | Itens sobre datas, porcentagens e fatos pontuais |
-| **Bottom-up** | Decodificação lexical palavra por palavra | Lenta | Itens sobre sinônimos ou regência de preposição |
-| **Top-down** | Uso de conhecimento prévio de mundo | Rápida | Inferências e intenções implícitas do autor |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Generalização Indevida da Ideia Central:** A banca pega um detalhe secundário mencionado em uma única linha do terceiro parágrafo e afirma que aquela é a ideia central (*main idea*) de todo o texto. **Gabarito: ERRADO.** A ideia central deve abranger a tese defendida pelo autor do início ao fim.
-- **Scanning em Questões de Inferência:** Tentar responder a itens de inferência global apenas buscando palavras idênticas com scanning. O Cebraspe usa paráfrases sinônimas para testar se o candidato realmente compreendeu o sentido.
-- **Tradução Palavra por Palavra:** Dizer que a leitura instrumental exige traduzir mentalmente cada palavra para o português antes de responder. **Gabarito: ERRADO.** A leitura instrumental busca a apreensão direta do significado no próprio inglês.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **NATION, I. S. P.** *Teaching ESL/EFL Reading and Writing*. New York: Routledge, 2009. (A principal autoridade em pedagogia e estratégias de leitura em língua inglesa).
-- **NUTTALL, Christine.** *Teaching Reading Skills in a Foreign Language*. Oxford: Macmillan, 2005. (A referência clássica das técnicas de skimming e scanning).
-- **STANOVICH, Keith E.** Toward an interactive-compensatory model of individual differences in the development of reading fluency. *Reading Research Quarterly*, v. 16, n. 1, p. 32-71, 1980.
-- **GRABE, William; STOLLER, Fredricka L.** *Teaching and Researching Reading*. 3. ed. New York: Routledge, 2019.
-- **CEBRASPE.** *Caderno de Provas Comentadas de Língua Inglesa — Concursos Públicos Federais*. Brasília: Cebraspe, 2023.`,
+  teoriaDensaMarkdown: "### Ler para julgar: evidência antes do palpite\n\nUma questão de compreensão relaciona uma afirmação ao texto fornecido. O objetivo não é decidir se a frase parece sensata no mundo, mas se a conclusão solicitada se sustenta no documento. Uma informação pode ser verdadeira fora dele e, ainda assim, não ter apoio para a tarefa proposta. O comando importa: verificar sentido, propósito, referente ou substituição lexical são operações diferentes.\n\nComece identificando **quem faz o quê, em quais condições e com que grau de certeza**. Depois confronte esses elementos com a assertiva. Uma paráfrase pode trocar muitas palavras e preservar a ideia; uma frase quase idêntica pode mudar o sentido com a troca de um modal, de uma quantidade ou da direção de uma relação.\n\nO chamado modelo interativo-compensatório de leitura, associado a Keith Stanovich, articula processos de reconhecimento e conhecimento prévio. Ele ajuda a entender por que contexto e vocabulário interagem; não é uma promessa de que o contexto sempre revelará uma palavra desconhecida. Se o termo decide o gabarito, a hipótese lexical precisa ser confrontada com sintaxe e restante do trecho.\n\nNão existe sequência de prova universalmente superior. Ler os itens antes pode orientar a busca, mas também induzir a procurar apenas o que parece confirmá-los. Ler o texto inicialmente pode ajudar a construir sua estrutura. Experimente as duas estratégias na prática e avalie tempo e erros, sem apresentar preferência pessoal como prescrição científica.\n\n**Roteiro de julgamento:** delimite a proposição do item; localize a passagem pertinente; resolva a relação sintática; compare alcance, tempo e condição; conclua. Se a evidência estiver insuficiente, registre a dúvida e volte ao contexto. A ausência de tradução de uma palavra secundária não impede todo entendimento; ignorar uma palavra decisiva, porém, pode invalidar a resposta.\n\n### Skimming, scanning e leitura detalhada: escolher a ferramenta\n\n**Skimming** é leitura panorâmica para construir uma ideia da organização e do conteúdo. **Scanning** procura informação delimitada, como data, nome ou quantidade. A **leitura detalhada** examina o trecho relevante e suas relações. O British Council distingue essas estratégias pela finalidade; elas podem ser combinadas na mesma tarefa.\n\nSe a pergunta solicita a antecedência de um pedido, nomes, números e marcadores temporais orientam a varredura. Mas localizar “two” não basta: *at least two working days* contém limite mínimo e tipo de dia. Voltar à oração completa evita converter uma busca visual bem-sucedida numa interpretação errada.\n\nPara identificar a ideia central, observe o conjunto: o que se apresenta, que problema ou tese se desenvolve, que exemplos sustentam a argumentação e como ela termina. O tópico frasal pode aparecer em diferentes posições; não há garantia de que a primeira frase contenha a conclusão. Um título também pode ser irônico ou formular uma pergunta, em vez de entregar uma resposta pronta.\n\n| Objetivo | Primeira abordagem | Confirmação |\n|---|---|---|\n| Localizar uma data | Scanning | Examinar a condição e o evento associado |\n| Identificar propósito | Skimming | Confrontar introdução, desenvolvimento e conclusão |\n| Interpretar um pronome | Localizar a ocorrência | Ler a construção e testar antecedentes possíveis |\n| Julgar uma inferência | Delimitar as premissas | Verificar se a conclusão acrescenta hipótese não dada |\n\n**Exemplo:** encontrar uma palavra repetida na assertiva e no texto não prova equivalência. Pode haver negação, contraste ou atribuição daquela posição a um autor criticado pelo texto. A busca localiza; a interpretação decide.\n\n### Texto guiado: resultado, recomendação e limite do estudo\n\n> The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance.\n\nLeia em três movimentos. Primeiro, a biblioteca ampliou o horário durante um piloto de seis semanas. Segundo, a presença aumentou nas terças-feiras, mas não em todos os dias. Terceiro, a equipe recomendou uma decisão proporcional ao dado: manter terça e obter mais informações antes de expandir.\n\nNa frase *Attendance increased on Tuesdays, but...*, **but** contrasta os resultados entre dias. **Therefore** liga o resultado à recomendação da equipe, sem provar qualquer efeito não medido. Na última frase, *did not assess whether* informa um limite do relatório. “Não avaliou se melhorou” é diferente de “avaliou e demonstrou que não melhorou”.\n\n**Resolução comentada.** “The pilot proved that longer hours improved research assistance.” A assertiva toma uma variável não avaliada e a apresenta como resultado comprovado. *Proved* é mais forte que uma hipótese e não corresponde ao conteúdo. Mesmo que seja plausível que mais tempo ajude alguns usuários, o texto não permite essa conclusão.\n\nOutro item poderia afirmar: “The report recommended retaining the Tuesday extension.” Essa proposição preserva a recomendação efetiva. Repare que o texto não autoriza concluir que só haverá atendimento às terças, nem que a biblioteca fechará nos demais dias. A restrição se refere à extensão de horário, não à existência do serviço.\n\nAntes de responder, sublinhe mentalmente a população, o período e a variável. Generalizar um achado local para todos os dias ou trocar público por qualidade do atendimento são mudanças de escopo, não simples sinônimos.\n\n### Texto guiado: ideia central e contraste sem contradição\n\n> Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised.\n\nA primeira frase apresenta potencial de acesso, usando **can**. O desenvolvimento acrescenta condições: arquivos online não asseguram localização e compreensão; metadados, acessibilidade e informações de uso também são necessários. A última frase propõe um caminho incremental para uma instituição pequena.\n\nA ideia central não é “digitalizar não traz benefício”. O autor reconhece benefício potencial e discute condições para realizá-lo. Também não afirma que todas as instituições devem começar com uma coleção pequena: **may** apresenta uma possibilidade para um sujeito definido.\n\n**Paráfrase segura:** “Digitisation alone is not enough to guarantee a useful service.” Ela sintetiza a limitação apoiada pelo desenvolvimento, sem negar o valor de coleções digitais. **Paráfrase inadequada:** “Institutions must wait until every record is digitised.” Ela inverte a proposta da última frase.\n\nPara inferir o sentido de uma palavra, use o entorno: *broaden access* combina verbo com acesso e sugere ampliação; a lista de recursos explica como esse objetivo pode ser perseguido. A hipótese lexical é testada pela relação entre frases. Não trate a semelhança visual com palavra portuguesa como prova, nem a diferença visual como impossibilidade de compreensão.\n\nA progressão do argumento permite distinguir **tema** (coleções digitais), **tese** (disponibilização isolada não basta) e **exemplos/condições** (metadados, interfaces e reúso). Um item pode mencionar um exemplo verdadeiro e errar ao apresentá-lo como a única finalidade do texto.\n\n### Texto de transferência: obrigações, permissões e exceções\n\n> Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection.\n\nAgora a tarefa é diferente: ler um regulamento. O texto determina antecedência do pedido, limita usuários e quantidade e condiciona uma permissão. **Must** impõe submissão antecipada; **at least** marca mínimo; **up to** marca máximo; **may** expressa permissão no contexto. **Only when** condiciona fotografias. A última frase delimita o conjunto ao excluir o acervo de livre acesso.\n\n**Exemplo resolvido:** “Registered researchers can consult six items daily if they request them early.” A antecedência regula a solicitação, mas não elimina o limite de cinco. A assertiva acrescenta uma exceção não prevista. “Researchers may consult no more than five items per day” conserva o limite, desde que respeite o recorte dos usuários e do material em questão.\n\nNão calcule uma data de pedido sem calendário e sem saber quais dias são úteis no contexto. A leitura identifica a regra; um problema de aplicação a datas precisaria fornecer informações suficientes. A competência de prova inclui reconhecer quando uma conclusão depende de premissa não dada.\n\nCompare este regulamento ao primeiro texto: lá, *recommended* relata uma recomendação; aqui, *must* impõe uma obrigação. Não converta sugestão em dever nem dever em possibilidade. A categoria gramatical isolada não resolve tudo: *may* pode expressar possibilidade ou permissão conforme o contexto.\n\nFaça a transferência sem consulta: redija em português uma frase que preserve a condição da fotografia e outra que preserve a exceção do acervo aberto. Depois verifique se você não acrescentou “qualquer”, “sempre” ou outra ampliação ausente.",
+  teoriaDidaticaMarkdown: "### Revisão de leitura estratégica\n\n- **Skimming:** panorama. **Scanning:** localizar dado. **Leitura detalhada:** conferir relações, condições e alcance.\n- Distinga tema, tese e exemplo. A ideia principal não está obrigatoriamente na primeira frase.\n- Faça a prova da evidência: qual trecho sustenta a conclusão? O que foi acrescentado?\n- Preserve sujeito, período, modalidade, quantidade e condição. “Não avaliou se melhorou” não significa “demonstrou que não melhorou”.\n- Uma possibilidade (*can/may*) não é garantia; uma recomendação não é obrigação. Examine o contexto do modal.\n- *At least*: mínimo; *up to*: máximo; *only when*: condição restritiva. As palavras não decidem o gabarito sem comparação com o texto.\n- Tradução e contexto são ferramentas. Não é necessário traduzir tudo; tampouco é seguro ignorar um termo que muda a proposição.\n\n**Recupere:** no piloto, qual variável mudou e qual não foi avaliada? No regulamento, por que antecedência do pedido não elimina o limite diário de itens?\n",
   checkpoints: [
-    {
-      id: 'chk-12-1-1',
-      pergunta: 'Julgue o item sobre técnicas de leitura instrumental em língua inglesa para o padrão Cebraspe:',
-      item: 'A técnica de leitura conhecida como skimming consiste na busca minuciosa por palavras-chave específicas e dados factuais no texto, como datas, valores e porcentagens, sendo indicada para responder a itens pontuais.',
-      gabarito: 'E',
-      justificativa: 'Inversão clássica de conceitos! A busca por dados específicos, números e palavras-chave pontuais é o SCANNING. O SKIMMING, por sua vez, é a leitura panorâmica rápida destinada a apreender a ideia geral, a organização estrutural e o objetivo global do texto.',
-    },
-    {
-      id: 'chk-12-1-2',
-      pergunta: 'Julgue a assertiva referente ao processamento cognitivo segundo o modelo de Keith Stanovich:',
-      item: 'De acordo com o modelo interativo-compensatório, um candidato que desconheça um vocábulo específico no texto em inglês pode compensar essa limitação recorrendo ao contexto global da frase e ao seu conhecimento prévio sobre o tema.',
-      gabarito: 'C',
-      justificativa: 'Perfeito. O modelo interativo-compensatório de Keith Stanovich postula que a compreensão leitora resulta da interação simultânea de processos ascendentes (bottom-up) e descendentes (top-down), permitindo que lacunas lexicais sejam compensadas por pistas contextuais e esquemas conceituais do leitor.',
-    },
-    {
-      id: 'chk-12-1-3',
-      pergunta: 'Julgue o item relativo às armadilhas de extrapolação em interpretação de texto da banca Cebraspe:',
-      item: 'Caso uma assertiva da prova apresente uma informação verdadeira e coerente com a realidade contemporânea, o candidato deve julgá-la como CERTA, mesmo que tal afirmação não encontre respaldo direto ou inferencial no texto-base apresentado.',
-      gabarito: 'E',
-      justificativa: 'Erro gravíssimo de interpretação! No Cebraspe, o julgamento é restrito aos limites textuais e inferenciais do documento fornecido. Afirmar algo verdadeiro no mundo real mas ausente no texto constitui a falácia da EXTRAPOLAÇÃO, e o gabarito oficial é ERRADO.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tm-12-1-1',
-        periodo: '1977',
-        disciplina: 'Psicolinguística',
-        focoPrincipal: 'Teoria dos Esquemas e o Processamento Interativo na Leitura',
-        figuraChave: 'David Rumelhart',
-      },
-      {
-        id: 'tm-12-1-2',
-        periodo: '1980',
-        disciplina: 'Ciência Cognitiva',
-        focoPrincipal: 'O Modelo Interativo-Compensatório de Compreensão Leitora',
-        figuraChave: 'Keith Stanovich',
-      },
-      {
-        id: 'tm-12-1-3',
-        periodo: '1998 - Atual',
-        disciplina: 'Inglês Instrumental para Concursos',
-        focoPrincipal: 'Sistematização de Estratégias Skimming/Scanning para Bancas Federais',
-        figuraChave: 'Prof. Gabriela Kruger',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-12-1-1',
-        nome: 'Keith Stanovich',
-        ano: 1980,
-        obraPrincipal: 'Toward an Interactive-Compensatory Model of Individual Differences in the Development of Reading Fluency',
-        ideiaChave: 'Leitores fluentes alternam e compensam pistas lexicais e contextuais de forma interativa.',
-        chipPegadinha: 'Modelo Interativo-Compensatório',
-      },
-      {
-        id: 'aut-12-1-2',
-        nome: 'David Rumelhart',
-        ano: 1977,
-        obraPrincipal: 'Toward an Interactive Model of Reading',
-        ideiaChave: 'A leitura é um processo de negociação ativa entre os esquemas mentais do leitor e o texto.',
-        chipPegadinha: 'Teoria dos Esquemas',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-12-1-1',
-        afirmacao: 'Se uma assertiva em inglês contiver a expressão "the author primarily aims to", ela está indagando sobre um exemplo do meio do texto.',
-        gabarito: 'E',
-        porQue: '"Primarily aims to" exige a identificação do objetivo macro, a tese central defendida pelo autor, e não um detalhe ilustrativo secundário.',
-      },
-      {
-        id: 'peg-12-1-2',
-        afirmacao: 'O vocábulo "seldom" em uma sentença inglesa introduz uma ideia de frequência constante e rotineira.',
-        gabarito: 'E',
-        porQue: '"Seldom" significa "raramente" / "quase nunca" (sinônimo de rarely). O Cebraspe usa advérbios de frequência negativa para inverter o sentido.',
-      },
-    ],
+  {
+    "id": "chk-12-1-1",
+    "pergunta": "Julgue o item sobre técnicas de leitura instrumental em língua inglesa para o padrão Cebraspe:",
+    "item": "A técnica de leitura conhecida como skimming consiste na busca minuciosa por palavras-chave específicas e dados factuais no texto, como datas, valores e porcentagens, sendo indicada para responder a itens pontuais.",
+    "gabarito": "E",
+    "justificativa": "Inversão clássica de conceitos! A busca por dados específicos, números e palavras-chave pontuais é o SCANNING. O SKIMMING, por sua vez, é a leitura panorâmica rápida destinada a apreender a ideia geral, a organização estrutural e o objetivo global do texto.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "versao_correta": "A busca de dados específicos é scanning; skimming procura uma visão geral."
   },
+  {
+    "id": "chk-12-1-2",
+    "pergunta": "Julgue a assertiva referente ao processamento cognitivo segundo o modelo de Keith Stanovich:",
+    "item": "De acordo com o modelo interativo-compensatório, um candidato que desconheça um vocábulo específico no texto em inglês pode compensar essa limitação recorrendo ao contexto global da frase e ao seu conhecimento prévio sobre o tema.",
+    "gabarito": "C",
+    "justificativa": "O modelo admite interação entre níveis de processamento e uso de contexto e conhecimento prévio. O verbo pode preserva a possibilidade: não afirma que a compensação seja sempre imediata ou suficiente. Uma hipótese sobre palavra desconhecida precisa ser conferida no trecho.",
+    "fonte": "Stanovich (1980), Toward an Interactive-Compensatory Model of Individual Differences in the Development of Reading Fluency."
+  },
+  {
+    "id": "chk-12-1-3",
+    "pergunta": "Julgue o item relativo às armadilhas de extrapolação em interpretação de texto da banca Cebraspe:",
+    "item": "Caso uma assertiva da prova apresente uma informação verdadeira e coerente com a realidade contemporânea, o candidato deve julgá-la como CERTA, mesmo que tal afirmação não encontre respaldo direto ou inferencial no texto-base apresentado.",
+    "gabarito": "E",
+    "justificativa": "Em uma tarefa de compreensão baseada no texto, uma verdade externa não basta para comprovar o item. É preciso apoio explícito ou inferencial pertinente ao comando. A assertiva permite dispensar esse apoio e por isso está errada; não há atribuição de gabarito oficial a este exercício autoral.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "versao_correta": "O julgamento de compreensão deve se apoiar na evidência explícita ou inferencial pertinente ao texto e ao comando."
+  },
+  {
+    "id": "rt-12-1-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto do projeto-piloto, a equipe recomenda ampliar o horário em todos os dias úteis, pois o público aumentou de maneira uniforme.",
+    "gabarito": "E",
+    "justificativa": "O aumento foi observado nas terças-feiras; nos demais dias, a média permaneceu estável. A recomendação foi manter a extensão de terça e coletar mais dados antes de ampliar. O erro combina generalização dos dias e alteração da recomendação.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar",
+    "versao_correta": "A equipe recomendou manter a extensão de terça-feira e coletar mais dados antes de ampliar o programa."
+  },
+  {
+    "id": "rt-12-1-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto do projeto-piloto, o relatório demonstra que o atendimento à pesquisa melhorou como consequência do novo horário.",
+    "gabarito": "E",
+    "justificativa": "A frase final diz que essa qualidade não foi avaliada. Um aumento de presença não demonstra automaticamente melhora do atendimento, e o texto ainda exclui expressamente essa avaliação. A causalidade foi acrescentada pela assertiva.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar",
+    "versao_correta": "O relatório não avaliou se o novo horário melhorou a qualidade do auxílio à pesquisa."
+  },
+  {
+    "id": "rt-12-1-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto sobre coleções digitais, a digitalização e a disponibilização online são apresentadas como insuficientes, por si sós, para garantir localização e compreensão dos documentos.",
+    "gabarito": "C",
+    "justificativa": "A segunda frase nega essa garantia, e a terceira acrescenta metadados, interfaces acessíveis e informações de reúso. A assertiva preserva a limitação sem dizer que digitalizar é inútil.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-12-1-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No texto sobre coleções digitais, however introduz uma ressalva ao benefício mencionado na primeira frase.",
+    "gabarito": "C",
+    "justificativa": "A primeira frase apresenta a possibilidade de ampliar acesso; a seguinte limita a suficiência de disponibilizar arquivos. Há contraste entre potencial benefício e condições para realizá-lo, não negação de todo benefício.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-12-1-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No regulamento de materiais raros, todo pesquisador pode fotografar qualquer item, desde que o pedido seja feito dois dias úteis antes.",
+    "gabarito": "E",
+    "justificativa": "O prazo regula a submissão do pedido; fotografia depende das condições do material e das restrições autorais. A assertiva usa uma condição de acesso como se eliminasse outras condições. Também ignora o limite de usuários registrados.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar",
+    "versao_correta": "A fotografia depende da condição do material e das restrições autorais; o prazo de pedido não dispensa essas condições."
+  },
+  {
+    "id": "rt-12-1-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "No regulamento, a expressão at least two working days indica antecedência mínima de dois dias úteis, sem incluir automaticamente dias não úteis na contagem.",
+    "gabarito": "C",
+    "justificativa": "At least fixa um mínimo; working days restringe o tipo de dia. Traduzir como exatamente dois dias ou como dois dias corridos mudaria a condição.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-12-1-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A presença da palavra only torna uma assertiva de compreensão necessariamente errada, mesmo quando a restrição consta expressamente no texto.",
+    "gabarito": "E",
+    "justificativa": "O gabarito depende da relação com a evidência. No regulamento, only restringe a permissão de fotografar às condições indicadas. Preservar uma restrição textual pode tornar a paráfrase correta.",
+    "fonte": "British Council, How to read the text, seções Skimming, Scanning e Reading for detail; exemplos autorais desta aula.",
+    "editalRef": "Conhecimentos Básicos - Língua Inglesa (Item 1: Compreensão e Vocabulário Técnico Contemporâneo)",
+    "habilidade": "aplicar",
+    "versao_correta": "Uma restrição deve ser comparada ao texto; a palavra only não determina, por si, o julgamento."
+  }
+],
+  mnemonicos: {
+  "timeline": [
+    {
+      "id": "tm-12-1-1",
+      "periodo": "1977",
+      "disciplina": "Psicolinguística",
+      "focoPrincipal": "Teoria dos Esquemas e o Processamento Interativo na Leitura",
+      "figuraChave": "David Rumelhart"
+    },
+    {
+      "id": "tm-12-1-2",
+      "periodo": "1980",
+      "disciplina": "Ciência Cognitiva",
+      "focoPrincipal": "O Modelo Interativo-Compensatório de Compreensão Leitora",
+      "figuraChave": "Keith Stanovich"
+    }
+  ],
+  "autores": [
+    {
+      "id": "aut-12-1-1",
+      "nome": "Keith Stanovich",
+      "ano": 1980,
+      "obraPrincipal": "Toward an Interactive-Compensatory Model of Individual Differences in the Development of Reading Fluency",
+      "ideiaChave": "Leitores fluentes alternam e compensam pistas lexicais e contextuais de forma interativa.",
+      "chipPegadinha": "Modelo Interativo-Compensatório"
+    },
+    {
+      "id": "aut-12-1-2",
+      "nome": "David Rumelhart",
+      "ano": 1977,
+      "obraPrincipal": "Toward an Interactive Model of Reading",
+      "ideiaChave": "A leitura é um processo de negociação ativa entre os esquemas mentais do leitor e o texto.",
+      "chipPegadinha": "Teoria dos Esquemas"
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "peg-12-1-1",
+      "afirmacao": "Se uma assertiva em inglês contiver a expressão \"the author primarily aims to\", ela está indagando sobre um exemplo do meio do texto.",
+      "gabarito": "E",
+      "porQue": "\"Primarily aims to\" exige a identificação do objetivo macro, a tese central defendida pelo autor, e não um detalhe ilustrativo secundário."
+    },
+    {
+      "id": "peg-12-1-2",
+      "afirmacao": "O vocábulo \"seldom\" em uma sentença inglesa introduz uma ideia de frequência constante e rotineira.",
+      "gabarito": "E",
+      "porQue": "\"Seldom\" significa \"raramente\" / \"quase nunca\" (sinônimo de rarely). O Cebraspe usa advérbios de frequência negativa para inverter o sentido."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-12-1-bloco-1",
+    "titulo": "Ler para julgar: evidência antes do palpite",
+    "objetivos": [
+      "Separar informação textual, inferência sustentada e conhecimento externo."
+    ],
+    "conteudo": "Uma questão de compreensão relaciona uma afirmação ao texto fornecido. O objetivo não é decidir se a frase parece sensata no mundo, mas se a conclusão solicitada se sustenta no documento. Uma informação pode ser verdadeira fora dele e, ainda assim, não ter apoio para a tarefa proposta. O comando importa: verificar sentido, propósito, referente ou substituição lexical são operações diferentes.\n\nComece identificando **quem faz o quê, em quais condições e com que grau de certeza**. Depois confronte esses elementos com a assertiva. Uma paráfrase pode trocar muitas palavras e preservar a ideia; uma frase quase idêntica pode mudar o sentido com a troca de um modal, de uma quantidade ou da direção de uma relação.\n\nO chamado modelo interativo-compensatório de leitura, associado a Keith Stanovich, articula processos de reconhecimento e conhecimento prévio. Ele ajuda a entender por que contexto e vocabulário interagem; não é uma promessa de que o contexto sempre revelará uma palavra desconhecida. Se o termo decide o gabarito, a hipótese lexical precisa ser confrontada com sintaxe e restante do trecho.\n\nNão existe sequência de prova universalmente superior. Ler os itens antes pode orientar a busca, mas também induzir a procurar apenas o que parece confirmá-los. Ler o texto inicialmente pode ajudar a construir sua estrutura. Experimente as duas estratégias na prática e avalie tempo e erros, sem apresentar preferência pessoal como prescrição científica.\n\n**Roteiro de julgamento:** delimite a proposição do item; localize a passagem pertinente; resolva a relação sintática; compare alcance, tempo e condição; conclua. Se a evidência estiver insuficiente, registre a dúvida e volte ao contexto. A ausência de tradução de uma palavra secundária não impede todo entendimento; ignorar uma palavra decisiva, porém, pode invalidar a resposta.",
+    "checkpointIds": [
+      "chk-12-1-2",
+      "chk-12-1-3"
+    ]
+  },
+  {
+    "id": "sub-12-1-bloco-2",
+    "titulo": "Skimming, scanning e leitura detalhada: escolher a ferramenta",
+    "objetivos": [
+      "Selecionar a estratégia conforme o objetivo e voltar ao contexto para confirmar."
+    ],
+    "conteudo": "**Skimming** é leitura panorâmica para construir uma ideia da organização e do conteúdo. **Scanning** procura informação delimitada, como data, nome ou quantidade. A **leitura detalhada** examina o trecho relevante e suas relações. O British Council distingue essas estratégias pela finalidade; elas podem ser combinadas na mesma tarefa.\n\nSe a pergunta solicita a antecedência de um pedido, nomes, números e marcadores temporais orientam a varredura. Mas localizar “two” não basta: *at least two working days* contém limite mínimo e tipo de dia. Voltar à oração completa evita converter uma busca visual bem-sucedida numa interpretação errada.\n\nPara identificar a ideia central, observe o conjunto: o que se apresenta, que problema ou tese se desenvolve, que exemplos sustentam a argumentação e como ela termina. O tópico frasal pode aparecer em diferentes posições; não há garantia de que a primeira frase contenha a conclusão. Um título também pode ser irônico ou formular uma pergunta, em vez de entregar uma resposta pronta.\n\n| Objetivo | Primeira abordagem | Confirmação |\n|---|---|---|\n| Localizar uma data | Scanning | Examinar a condição e o evento associado |\n| Identificar propósito | Skimming | Confrontar introdução, desenvolvimento e conclusão |\n| Interpretar um pronome | Localizar a ocorrência | Ler a construção e testar antecedentes possíveis |\n| Julgar uma inferência | Delimitar as premissas | Verificar se a conclusão acrescenta hipótese não dada |\n\n**Exemplo:** encontrar uma palavra repetida na assertiva e no texto não prova equivalência. Pode haver negação, contraste ou atribuição daquela posição a um autor criticado pelo texto. A busca localiza; a interpretação decide.",
+    "checkpointIds": [
+      "chk-12-1-1"
+    ]
+  },
+  {
+    "id": "sub-12-1-bloco-3",
+    "titulo": "Texto guiado: resultado, recomendação e limite do estudo",
+    "objetivos": [
+      "Separar um achado, uma recomendação e uma variável que não foi avaliada."
+    ],
+    "conteudo": "> The parliamentary library extended its opening hours during a six-week pilot. Attendance increased on Tuesdays, but the average number of visitors remained unchanged on other weekdays. Staff therefore recommended keeping the Tuesday extension and collecting more data before expanding the scheme. The report did not assess whether longer hours improved the quality of research assistance.\n\nLeia em três movimentos. Primeiro, a biblioteca ampliou o horário durante um piloto de seis semanas. Segundo, a presença aumentou nas terças-feiras, mas não em todos os dias. Terceiro, a equipe recomendou uma decisão proporcional ao dado: manter terça e obter mais informações antes de expandir.\n\nNa frase *Attendance increased on Tuesdays, but...*, **but** contrasta os resultados entre dias. **Therefore** liga o resultado à recomendação da equipe, sem provar qualquer efeito não medido. Na última frase, *did not assess whether* informa um limite do relatório. “Não avaliou se melhorou” é diferente de “avaliou e demonstrou que não melhorou”.\n\n**Resolução comentada.** “The pilot proved that longer hours improved research assistance.” A assertiva toma uma variável não avaliada e a apresenta como resultado comprovado. *Proved* é mais forte que uma hipótese e não corresponde ao conteúdo. Mesmo que seja plausível que mais tempo ajude alguns usuários, o texto não permite essa conclusão.\n\nOutro item poderia afirmar: “The report recommended retaining the Tuesday extension.” Essa proposição preserva a recomendação efetiva. Repare que o texto não autoriza concluir que só haverá atendimento às terças, nem que a biblioteca fechará nos demais dias. A restrição se refere à extensão de horário, não à existência do serviço.\n\nAntes de responder, sublinhe mentalmente a população, o período e a variável. Generalizar um achado local para todos os dias ou trocar público por qualidade do atendimento são mudanças de escopo, não simples sinônimos.",
+    "checkpointIds": [
+      "rt-12-1-1",
+      "rt-12-1-2"
+    ]
+  },
+  {
+    "id": "sub-12-1-bloco-4",
+    "titulo": "Texto guiado: ideia central e contraste sem contradição",
+    "objetivos": [
+      "Reconhecer uma tese que admite condições e limites."
+    ],
+    "conteudo": "> Digital collections can broaden access to historical records. However, putting scanned files online does not ensure that users will find or understand them. Descriptive metadata, accessible interfaces and clear information about reuse are also needed. A small institution may begin with a limited collection and improve its service through feedback rather than wait until every record has been digitised.\n\nA primeira frase apresenta potencial de acesso, usando **can**. O desenvolvimento acrescenta condições: arquivos online não asseguram localização e compreensão; metadados, acessibilidade e informações de uso também são necessários. A última frase propõe um caminho incremental para uma instituição pequena.\n\nA ideia central não é “digitalizar não traz benefício”. O autor reconhece benefício potencial e discute condições para realizá-lo. Também não afirma que todas as instituições devem começar com uma coleção pequena: **may** apresenta uma possibilidade para um sujeito definido.\n\n**Paráfrase segura:** “Digitisation alone is not enough to guarantee a useful service.” Ela sintetiza a limitação apoiada pelo desenvolvimento, sem negar o valor de coleções digitais. **Paráfrase inadequada:** “Institutions must wait until every record is digitised.” Ela inverte a proposta da última frase.\n\nPara inferir o sentido de uma palavra, use o entorno: *broaden access* combina verbo com acesso e sugere ampliação; a lista de recursos explica como esse objetivo pode ser perseguido. A hipótese lexical é testada pela relação entre frases. Não trate a semelhança visual com palavra portuguesa como prova, nem a diferença visual como impossibilidade de compreensão.\n\nA progressão do argumento permite distinguir **tema** (coleções digitais), **tese** (disponibilização isolada não basta) e **exemplos/condições** (metadados, interfaces e reúso). Um item pode mencionar um exemplo verdadeiro e errar ao apresentá-lo como a única finalidade do texto.",
+    "checkpointIds": [
+      "rt-12-1-3",
+      "rt-12-1-4"
+    ]
+  },
+  {
+    "id": "sub-12-1-bloco-5",
+    "titulo": "Texto de transferência: obrigações, permissões e exceções",
+    "objetivos": [
+      "Aplicar leitura de quantificadores e condições em texto novo."
+    ],
+    "conteudo": "> Beginning on 4 November, requests for rare materials must be submitted at least two working days before the planned visit. Registered researchers may consult up to five items per day. Photography is permitted only when the condition of the material and copyright restrictions allow it. The new procedure does not apply to the open-shelf collection.\n\nAgora a tarefa é diferente: ler um regulamento. O texto determina antecedência do pedido, limita usuários e quantidade e condiciona uma permissão. **Must** impõe submissão antecipada; **at least** marca mínimo; **up to** marca máximo; **may** expressa permissão no contexto. **Only when** condiciona fotografias. A última frase delimita o conjunto ao excluir o acervo de livre acesso.\n\n**Exemplo resolvido:** “Registered researchers can consult six items daily if they request them early.” A antecedência regula a solicitação, mas não elimina o limite de cinco. A assertiva acrescenta uma exceção não prevista. “Researchers may consult no more than five items per day” conserva o limite, desde que respeite o recorte dos usuários e do material em questão.\n\nNão calcule uma data de pedido sem calendário e sem saber quais dias são úteis no contexto. A leitura identifica a regra; um problema de aplicação a datas precisaria fornecer informações suficientes. A competência de prova inclui reconhecer quando uma conclusão depende de premissa não dada.\n\nCompare este regulamento ao primeiro texto: lá, *recommended* relata uma recomendação; aqui, *must* impõe uma obrigação. Não converta sugestão em dever nem dever em possibilidade. A categoria gramatical isolada não resolve tudo: *may* pode expressar possibilidade ou permissão conforme o contexto.\n\nFaça a transferência sem consulta: redija em português uma frase que preserve a condição da fotografia e outra que preserve a exceção do acervo aberto. Depois verifique se você não acrescentou “qualquer”, “sempre” ou outra ampliação ausente.",
+    "checkpointIds": [
+      "rt-12-1-5",
+      "rt-12-1-6",
+      "rt-12-1-7"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "bc-reading",
+    "titulo": "British Council — How to read the text",
+    "localizador": "Skimming; Scanning; Reading for detail. Os três textos de prática são autorais do HNC.",
+    "url": "https://learnenglishteens.britishcouncil.org/exams/reading-exams/how-read-text"
+  },
+  {
+    "id": "stanovich",
+    "titulo": "Stanovich (1980) — modelo interativo-compensatório",
+    "localizador": "Referência do modelo de leitura; não prescreve uma sequência universal de resolução de prova.",
+    "url": "https://doi.org/10.1598/RRQ.16.1.2"
+  }
+],
+titulo_curto: "Leitura e evidência textual",
 };

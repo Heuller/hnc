@@ -1,5 +1,5 @@
 import { PainelEstudoReverso } from './PainelEstudoReverso';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   CheckCircle2,
@@ -45,6 +45,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   onAnswered,
   forcarRetesteAtivo = false,
 }) => {
+  const articleRef = useRef<HTMLElement>(null);
   const {
     obterPrimeiraTentativa,
     obterUltimaTentativa,
@@ -117,6 +118,8 @@ export const ItemCE: React.FC<ItemCEProps> = ({
   // Atalhos de teclado (C, E, B) desativados se focado em campos de texto (WCAG 2.1.4)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Vários microcheckpoints podem coexistir na aula. Só o item com foco responde.
+      if (!articleRef.current?.contains(document.activeElement)) return;
       const activeTag = document.activeElement?.tagName.toLowerCase();
       if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') {
         return;
@@ -162,6 +165,7 @@ export const ItemCE: React.FC<ItemCEProps> = ({
 
   return (
     <article
+      ref={articleRef}
       className="p-4 sm:p-5 rounded-xl border border-border bg-surface shadow-editorial-xs space-y-4 transition-all"
       aria-labelledby={`item-titulo-${item.id}`}
     >

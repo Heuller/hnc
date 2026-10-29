@@ -14,27 +14,22 @@ export const submodulo134: ModuloFilho = {
   ],
   titulo: 'Ortografia Oficial, Tipologia e Gêneros Textuais, Tempos Verbais e Colocação Pronominal',
   antesDeLer: [
-    {
-      termo: 'Manual de Redação da Presidência da República (MRPR)',
-      definicao: 'Documento normativo que padroniza a redação dos atos e comunicações oficiais do Poder Executivo e do serviço público federal.',
-      exemploBiblioteca: 'Redação de memorandos, ofícios e notas técnicas da biblioteca de acordo com os atributos da redação oficial.',
-    },
-    {
-      termo: 'Atributos da Redação Oficial',
-      definicao: 'Clareza, precisão, concisão, impessoalidade, formalidade e padronização, e uso do padrão culto da língua.',
-      exemploBiblioteca: 'Eliminação de jargões desnecessários e adjetivações emocionais em relatórios dirigidos à Mesa Diretora.',
-    },
-    {
-      termo: 'Pronomes de Tratamento no MRPR (3ª Edição)',
-      definicao: 'Simplificação oficial: \'Vossa Excelência\' reservada aos chefes de poder, parlamentares e ministros; \'Vossa Senhoria\' para as demais autoridades e cidadãos.',
-      exemploBiblioteca: 'Endereçamento correto em ofício: \'A Sua Excelência o Senhor Deputado Federal...\'.',
-    },
-    {
-      termo: 'Colocação Pronominal (Próclise, Mesóclise e Ênclise)',
-      definicao: 'Regras de posicionamento do pronome átono: atrativos de próclise (palavras negativas, advérbios, pronomes relativos) e proibição de iniciar frase com pronome.',
-      exemploBiblioteca: 'Emprego mesoclítico em tempos de futuro: \'Apresentar-se-á o novo relatório em plenário\' quando não houver termo atrativo.',
-    },
-  ],
+  {
+    "termo": "Tonicidade",
+    "definicao": "Posição da sílaba tônica, que precisa ser identificada antes da regra de acento.",
+    "exemploBiblioteca": "Distinguir público de legislativo ao justificar suas grafias."
+  },
+  {
+    "termo": "Gênero e tipo",
+    "definicao": "Gênero é forma de comunicação situada; tipo descreve organização linguística.",
+    "exemploBiblioteca": "Um relatório pode reunir narrativa de atividades e argumento por uma decisão."
+  },
+  {
+    "termo": "Construção verbal",
+    "definicao": "A forma do verbo deve ser interpretada junto do contexto, dos participantes e das relações.",
+    "exemploBiblioteca": "Amanhã a equipe apresenta o relatório usa presente com referência futura."
+  }
+],
   descricaoCurta:
     'Acordo Ortográfico (acentuação e hífen), a distinção teórico-empírica entre tipos e gêneros textuais segundo Marcuschi, semântica e correlação dos tempos e modos verbais, e sintaxe rigorosa de colocação pronominal (próclise, mesóclise e ênclise).',
   tempoEstimadoMinutos: 19,
@@ -46,12 +41,10 @@ export const submodulo134: ModuloFilho = {
     'Domingos Paschoal Cegalla (Novíssima Gramática da Língua Portuguesa)',
   ],
   alertasCebraspe: [
-    'Acentuação e o Acordo Ortográfico: Os ditongos abertos "éi" e "ói" em palavras PAROXÍTONAS perderam o acento gráfico (ideia, plateia, heroico, paranoico, jiboia, assembleia). Contudo, em palavras OXÍTONAS e MONOSSÍLABOS TÔNICOS, o acento PERMANECE OBRIGATÓRIO (herói, troféu, pastéis, coronéis, dói, céu). O Cebraspe frequentemente afirma que palavras como "herói" e "ideia" obedecem à mesma regra de acentuação ou que "herói" perdeu o acento gráfico com o Acordo Ortográfico. Assertiva categoricamente ERRADA!',
-    'Tipos Textuais vs. Gêneros Textuais (Luiz Antônio Marcuschi): Tipos textuais constituem constructos teóricos finitos e invariáveis (narração, descrição, dissertação expositiva, dissertação argumentativa e injunção), definidos por propriedades linguísticas intrínsecas (tempos verbais, conectivos, relações lógicas). Gêneros textuais, ao revés, são realizações empíricas infinitas, fluidas, históricas e ancoradas em práticas sociocomunicativas (parecer técnico, ata de sessão legislativa, edital, relatório, memorando, crônica, artigo de opinião). Confundir tipo textual com gênero textual é o erro conceitual clássico que a banca explora!',
-    'Semântica e Aspecto dos Tempos Verbais: O Pretérito Perfeito traduz fato pontual, circunscrito e plenamente concluído no passado ("O relator apresentou o parecer"). O Pretérito Imperfeito expressa ação durativa, habitual, incompleta ou em desenvolvimento no passado ("Enquanto os deputados debatiam..."), funcionando também como recurso de cortesia ou polidez ("Queria solicitar vista dos autos"). O Pretérito Mais-que-perfeito marca um fato passado anterior a outro fato passado ("Quando o presidente chegou, a comissão já iniciara a votação"). Alterações propostas pelo Cebraspe entre esses tempos mudam o aspecto e o sentido original do texto!',
-    'Correlação (Harmonia) Verbal: O Cebraspe propõe reescritas que quebram a articulação lógica entre orações subordinadas e principais. A harmonia verbal impõe correspondências canônicas: "Se o quórum for atingido [futuro do subjuntivo], a sessão será aberta [futuro do presente do indicativo]"; "Se o quórum fosse atingido [pretérito imperfeito do subjuntivo], a sessão seria aberta [futuro do pretérito do indicativo]"; "Caso tivesse havido impugnação [pretérito mais-que-perfeito composto do subjuntivo], o presidente teria suspenso os trabalhos [futuro do pretérito composto do indicativo]". A quebra dessa correspondência acarreta incorreção gramatical.',
-    'Colocação Pronominal e Fatores de Atração: Havendo palavra atrativa (palavras de sentido negativo, advérbios sem vírgula, pronomes relativos, indefinidos e demonstrativos, e conjunções subordinativas), a PRÓCLISE É OBRIGATÓRIA ("Não se admitirão emendas", "Tudo se encaminhou conforme o regimento", "O projeto que se votou ontem", "Embora se alegasse urgência"). Não se admite ênclise na presença de elemento atrativo. Ademais, NUNCA se inicia período com pronome oblíquo átono na norma culta ("Me pareceu oportuno" = ERRADO; "Pareceu-me oportuno" = CERTO) e NUNCA se usa ênclise com particípio ("Tinha expressado-se" = ERRADO; "Tinha-se expressado" ou "Tinha se expressado" = CERTO).',
-  ],
+  "Classifique tonicidade e terminação antes de dizer que duas palavras seguem a mesma regra.",
+  "O gênero não impõe exclusividade de um tipo textual. Observe o segmento e a finalidade.",
+  "Futuro, indicativo e subjuntivo não devem ser tratados como etiquetas universais de certeza ou dúvida."
+],
   quadroComparativo: {
     titulo: 'Quadro Sinótico de Gramática Aplicada: Ortografia, Verbos, Tipologia e Colocação Pronominal',
     colunas: [
@@ -93,331 +86,245 @@ export const submodulo134: ModuloFilho = {
       ],
     ],
   },
-  teoriaDensaMarkdown: `
-# LÍNGUA PORTUGUESA: ORTOGRAFIA, TIPOLOGIA TEXTUAL, VERBOS E COLOCAÇÃO PRONOMINAL
-*Doutrina de Referência: Luiz Antônio Marcuschi, Ingedore Koch, Evanildo Bechara, Celso Cunha & Lindley Cintra e Domingos Paschoal Cegalla.*
-
----
-
-## 1. ORTOGRAFIA OFICIAL E ACENTUAÇÃO GRÁFICA (ACORDO ORTOGRÁFICO)
-
-O Acordo Ortográfico da Língua Portuguesa de 1990 (de vigência definitiva e obrigatória no Brasil a partir de 2016) buscou unificar a grafia nos países lusófonos, simplificando normas e eliminando incongruências históricas da acentuação e do emprego de sinais gráficos.
-
-### 1.1 Regras Gerais de Acentuação Gráfica
-A acentuação gráfica na língua portuguesa apoia-se na posição da sílaba tônica e no timbre das vogais:
-1. **Proparoxítonas (Sílaba tônica na antepenúltima):** TODAS são obrigatoriamente acentuadas (ex: *legislativo*, *quórum*, *público*, *parlâmentares*, *hipótese*, *bélico*).
-2. **Oxítonas (Sílaba tônica na última sílaba):** Acentuam-se as oxítonas terminadas em:
-   - **-A(S), -E(S), -O(S):** *sofá, sofás, café, cafés, cipó, cipós*;
-   - **-EM, -ENS:** *também, porém, armazém, vinténs*;
-   - Formas verbais com pronomes enclíticos terminadas em vogal tônica aberta: *amá-lo, retê-lo, repô-lo*.
-3. **Monossílabos Tônicos:** Acentuam-se os monossílabos tônicos terminados em:
-   - **-A(S), -E(S), -O(S):** *pá, pás, pé, pés, dó, dós, nós, mês*.
-4. **Paroxítonas (Sílaba tônica na penúltima sílaba):** Acentuam-se as paroxítonas com as seguintes terminações mnemônicas (**ROUXINOL / PS / DITONGO**):
-   - **-R, -X, -N, -L:** *caráter, tórax, pólen, hífen, fácil*;
-   - **-I(S), -US:** *júri, júris, vírus, ônus*;
-   - **-UM, -UNS:** *álbum, álbuns, fórum, quóruns*;
-   - **-PS:** *bíceps, fórceps*;
-   - **-Ã(S), -ÃO(S):** *órfã, órfãs, órfão, bênção, órgãos*;
-   - **Ditongos orais (crescentes ou decrescentes), seguidos ou não de S:** *relatório, câmara, secretária, competência, pátria, água, área, série*.
-
-### 1.2 Alterações Cruciais Introduzidas pelo Novo Acordo Ortográfico
-O Cebraspe explora sistematicamente as palavras cuja grafia foi alterada pelo Acordo:
-1. **Fim do Acento nos Ditongos Abertos "ÉI" e "ÓI" em Paroxítonas:**
-   - As palavras paroxítonas que possuem ditongo aberto "éi" ou "ói" NÃO recebem mais acento gráfico: *ideia, plateia, geleia, assembleia, heroico, paranoico, jiboia, epopeia*.
-   - **ATENÇÃO MÁXIMA:** As palavras **OXÍTONAS** e os **MONOSSÍLABOS TÔNICOS** mantêm o acento gráfico nos ditongos abertos: *herói, constrói, troféu, pastéis, coronéis, chapéu, céu, dói, sóis*.
-2. **Fim do Acento no "I" e "U" Tônicos de Paroxítonas Precedidos de Ditongo:**
-   - Palavras paroxítonas com "i" ou "u" tônicos antecedidos de ditongo na mesma palavra não são mais acentuadas: *feiura, baiuca, bocaiuva*.
-   - *Ressalva:* Se a palavra for oxítona e terminar em "i" ou "u" tônico após ditongo, o acento permanece: *Piauí, tuiuiú*.
-3. **Fim do Acento nos Hiatos "OO" e "EEM":**
-   - Formas verbais na 3ª pessoa do plural com hiato "eem" perderam o acento circunflexo: *eles veem, eles leem, eles creem, eles deem*.
-   - Substantivos e formas verbais com "oo" perderam o circunflexo: *voo, enjoo, perdoo, abençoo*.
-4. **Acentos Diferenciais Remanescentes:**
-   - O Acordo extinguiu a maioria dos acentos diferenciais (*pára/para, péla/pela, pólo/polo*), mas PRESERVOU expressamente:
-     - **Pôde** (pretérito perfeito do indicativo) vs. **Pode** (presente do indicativo);
-     - **Pôr** (verbo) vs. **Por** (preposição);
-     - **Têm / Vêm** (3ª pessoa do plural dos verbos ter e vir) vs. **Tem / Vem** (3ª pessoa do singular);
-     - Formas derivadas de ter e vir: oxítonas com acento agudo no singular e circunflexo no plural (*ele contém / eles contêm; ele intervém / eles intervêm; ele mantém / eles mantêm*);
-     - Acento facultativo em **fôrma** (substantivo) para distinguir de **forma** (substantivo/verbo).
-
----
-
-## 2. EMPREGO DO HÍFEN COM PREFIXOS E ELEMENTOS DE COMPOSIÇÃO
-
-A regra geral do hífen sob o Acordo Ortográfico norteia-se pelo princípio da **atração dos opostos e repulsão dos iguais**:
-
-### 2.1 Regra Básica dos Prefixos
-1. **Letras Iguais se Separam com Hífen:** Quando o prefixo termina com a mesma vogal com que se inicia o segundo elemento, usa-se o hífen:
-   - *micro-ondas, anti-inflamatório, contra-ataque, sobre-elevação, auto-observação, arqui-inimigo*.
-2. **Letras Diferentes se Unem sem Hífen:** Quando o prefixo termina com vogal e o segundo elemento principia com vogal diferente, os elementos aglutinam-se:
-   - *autoescola, infraestrutura, contraindicação, semiárido, extraoficial, plurianual, coautor, reescrever*.
-3. **Segundo Elemento com "R" ou "S" (Dobram-se as Consoantes):** Quando o prefixo termina em vogal e o segundo elemento se inicia pelas consoantes "r" ou "s", NÃO há hífen, dobrando-se a consoante ("rr" ou "ss"):
-   - *antirreflexo, antissocial, minissaia, ultrassom, microssistema, biorritmo, contrarregra, semirreta*.
-4. **Segundo Elemento Iniciado por "H":** O hífen é sempre obrigatório diante de palavra iniciada por "h":
-   - *anti-higiênico, super-homem, sobre-humano, contra-habitual, macro-história*.
-
-### 2.2 Prefixos Específicos e Casos Notáveis
-- Prefixos **SUB-** e **SOB-**: exigem hífen diante de palavras iniciadas por "b", "r" e "h" (*sub-base, sub-bloco, sub-região, sub-reitor, sub-humano*); diante de vogal ou outras consoantes, aglutina-se (*subchefe, subdiretor, subdelegado, subitem, suboficial*).
-- Prefixos **EX-** (cessação), **VICE-**, **ALÉM-**, **AQUÉM-**, **RECÉM-**, **SEM-**: SEMPRE exigem hífen (*ex-presidente, vice-líder, além-mar, recém-eleito, sem-terra*).
-- Prefixos **CO-**, **PRO-**, **PRE-**, **RE-** (inacentuados e átonos): tendem a aglutinar-se mesmo diante de letras iguais (*coordenar, cooperação, coabitar, preencher, reeleger, reescrever*).
-
----
-
-## 3. TIPOLOGIA TEXTUAL VS. GÊNEROS TEXTUAIS (LUIZ ANTÔNIO MARCUSCHI E INGEDORE KOCH)
-
-A distinção teórica e aplicada entre **tipos textuais** e **gêneros textuais** fundamenta-se nos trabalhos seminais do linguista brasileiro **Luiz Antônio Marcuschi** (*Gêneros Textuais: Definição e Funcionalidade*) e de **Ingedore Villaça Koch**.
-
-### 3.1 Tipologia Textual (Forma e Estrutura Linguística Intrínseca)
-Os tipos textuais (ou sequências textuais de Jean-Michel Adam) são constructos teóricos conceituais, definidos pela composição estritamente interna de seus elementos linguísticos e gramaticais. São finitos (geralmente agrupados em cinco modalidades básicas):
-1. **Texto Narrativo:** Caracteriza-se pela sucessão cronológica de eventos (progressão temporal dinâmica) em que atuam personagens situados em determinado espaço. Elementos nucleares: verbos de ação predominantes no pretérito perfeito do indicativo, relato fático e encadeamento causa-efeito.
-2. **Texto Descritivo:** Caracteriza-se pela apresentação espacial simultânea de características, propriedades, atributos ou aspectos de um ser, objeto, cena ou paisagem. Elementos nucleares: ausência de progressão temporal sucessiva, predomínio de adjetivos e locuções adjetivas, verbos de ligação ou de estado, e pretérito imperfeito do indicativo.
-3. **Texto Dissertativo-Expositivo:** Caracteriza-se pela apresentação, explicação, ordenação e esclarecimento de dados, ideias, teorias ou conceitos para o leitor, sem o intuito precípuo de persuadir ou converter opiniões. Elementos nucleares: linguagem referencial, clareza lógica, verbos no presente do indicativo com valor de verdade atemporal e marcadores elucidativos (*isto é, por exemplo, em outros termos*).
-4. **Texto Dissertativo-Argumentativo:** Caracteriza-se pela defesa sistemática de uma tese (ponto de vista) fundamentada em argumentos lógicos, evidências empíricas, dados estatísticos e citações de autoridade, visando ao convencimento, à persuasão ou à adesão do interlocutor. Elementos nucleares: presença de modalizadores discursivos (*inegavelmente, é mister, faz-se imperioso*), operadores argumentativos (*além disso, com efeito, não obstante, por conseguinte*) e encadeamento dialético (premissas e conclusão).
-5. **Texto Injuntivo (ou Instrucional):** Caracteriza-se pela orientação, ordenação, prescrição ou instrução sobre como proceder ou executar determinadas ações. Elementos nucleares: verbos no modo imperativo, no infinitivo com sentido de comando ou locuções de obrigatoriedade (*deve-se, cumpre, é vedado*).
-
-### 3.2 Gêneros Textuais (Práticas Sociocomunicativas Empíricas)
-Ao contrário dos tipos textuais, os **gêneros textuais** são fenômenos empíricos, históricos, dinâmicos e essencialmente comunicativos. Surgem a partir das necessidades cotidianas de interação social e institucional da atividade humana.
-- **Natureza Aberta e Infinita:** Os gêneros multiplicam-se infinitamente à medida que a sociedade evolui tecnologicamente e institucionalmente.
-- **Exemplos no Âmbito Parlamentar e Administrativo:**
-  - *Parecer da Comissão de Constituição e Justiça (CCJC)*;
-  - *Ata de Sessão Deliberativa Plenária*;
-  - *Relatório de Auditoria Governamental*;
-  - *Ofício e Memorando Circular*;
-  - *Projeto de Lei Ordinária e Emenda Constitucional*;
-  - *Discurso Parlamentar em Grande Expediente*.
-- **Heterogeneidade Tipológica dos Gêneros:** Um único gênero textual pode agregar múltiplos tipos textuais. Por exemplo, um *Parecer Legislativo* (gênero textual) contém uma seção inicial de **relatório** (predominantemente narrativa e descritiva dos fatos tramitados) e uma seção final de **voto do relator** (predominantemente dissertativa-argumentativa, concluindo pelo acolhimento ou rejeição da matéria).
-
----
-
-## 4. MORFOLOGIA, SEMÂNTICA E CORRELAÇÃO DOS TEMPOS E MODOS VERBAIS
-
-O verbo é o núcleo predicativo da oração, articulando o tempo cronológico (passado, presente, futuro) ao modo discursivo (certeza, hipótese, ordem) e ao aspecto verbal (ação concluída, durativa ou habitual).
-
-### 4.1 Modos Verbais e suas Matizes Semânticas
-- **Modo Indicativo:** Expressa certeza fática, assertividade, objetividade e fatos consumados ou tidos por reais no discurso.
-- **Modo Subjuntivo:** Expressa incerteza, dúvida, eventualidade, possibilidade, desejo, hipótese ou condição de irrealidade.
-- **Modo Imperativo:** Expressa comando, prescrição, exortação, pedido, orientação ou advertência.
-
-### 4.2 Tempos do Indicativo e Aspecto Discursivo
-1. **Presente do Indicativo:** Fato simultâneo ao momento da enunciação (*"O presidente abre a sessão"*), mas também usado como:
-   - *Presente Universal / Atemporal:* Expressão de leis científicas ou máximas doutrinárias (*"A soberania reside no povo"*);
-   - *Presente Histórico:* Narração de fatos passados com vivacidade (*"Em 1988, o constituinte promulga a Carta Cidadã"*);
-   - *Futuro Iminente:* Fato futuro considerado certo (*"Amanhã os relatores apresentam o texto final"*).
-2. **Pretérito Perfeito do Indicativo:** Ação inteiramente concluída em momento anterior à fala, apresentando aspecto **perfectivo** (pontual, acabado): *"A Câmara aprovou o projeto de lei orçamentária"*.
-3. **Pretérito Imperfeito do Indicativo:** Ação contínua, habitual ou repetitiva no passado, apresentando aspecto **imperfectivo** (processo em curso ou não finalizado): *"Os deputados discutiam a matéria quando ocorreu a interrupção"*. Usado também com valor modal de **polidez/atenuação**: *"Queria sugerir uma emenda de redação"*.
-4. **Pretérito Mais-que-perfeito do Indicativo:** Expressa fato passado anterior a outro acontecimento também pretérito: *"Quando a sessão começou, o relator já concluíra o voto"*. Frequentemente substituído na linguagem moderna pela forma composta (*tinha/havia concluído*).
-5. **Futuro do Presente do Indicativo:** Fato certo ou de realização provável em tempo posterior: *"O Congresso Nacional apreciará o veto na próxima terça-feira"*.
-6. **Futuro do Pretérito do Indicativo:** Ação futura condicionada a um fato hipotético no passado, ou atenuador de delicadeza/polidez: *"O plenário rejeitaria a proposta se houvesse quórum suficiente"* / *"Gostaria de solicitar a palavra pela ordem"*.
-
-### 4.3 A Correlação (Harmonia) Verbal em Questões Cebraspe
-A harmonia verbal disciplina a coerência temporal entre a oração principal e a oração subordinada, especialmente em estruturas condicionais, conformativas e concessivas:
-- **Hipótese Provável (Futuro):**
-  - Oração subordinada condicional no **Futuro do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Presente do Indicativo**.
-  - *Exemplo:* "Se o relator **acolher** as emendas, a comissão **aprovará** o texto."
-- **Hipótese Improvável ou Contrafactual (Presente/Passado):**
-  - Oração subordinada condicional no **Pretérito Imperfeito do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Pretérito do Indicativo**.
-  - *Exemplo:* "Se o relator **acolhesse** as emendas, a comissão **aprovaria** o texto."
-- **Hipótese Não Realizada no Passado (Irrealidade Pretérica):**
-  - Oração condicional no **Pretérito Mais-que-perfeito Composto do Subjuntivo** $\rightarrow$ Oração principal no **Futuro do Pretérito Composto do Indicativo**.
-  - *Exemplo:* "Se o relator **tivesse acolhido** as emendas, a comissão **teria aprovado** o texto."
-
----
-
-## 5. SINTAXE DE COLOCAÇÃO PRONOMINAL (PRÓCLISE, MESÓCLISE E ÊNCLISE)
-
-A colocação dos pronomes pessoais oblíquos átonos (*me, te, se, o, a, lhe, nos, vos, os, as, lhes*) subordina-se à eufonia e às regras estritas da sintaxe de regência oracional na norma culta padrão.
-
-### 5.1 As Três Posições Pronominais
-- **Próclise:** O pronome situa-se antes do verbo (*"Não **se** deve aceitar emendas intempestivas"*).
-- **Mesóclise:** O pronome é intercalado no corpo do verbo (*"Apresentar-**se**-á o relatório conclusivo"*).
-- **Ênclise:** O pronome posiciona-se após o verbo (*"Aprovou-**se** a proposta sem ressalvas"*).
-
-### 5.2 Fatores de Atração Proclítica (Próclise Obrigatória)
-A presença de qualquer palavra atrativa anterior ao verbo atrai compulsoriamente o pronome oblíquo átono para antes dele, vedando a ênclise:
-1. **Palavras de Sentido Negativo:** *não, nunca, jamais, ninguém, nada, nenhum, de modo algum*.
-   - *Exemplo:* "Ninguém **o** advertiu sobre o prazo regimental." (Inadmissível: "Ninguém advertiu-o").
-2. **Advérbios e Locuções Adverbiais (sem pausa por vírgula):** *já, sempre, talvez, hoje, bem, aqui*.
-   - *Exemplo:* "Sempre **se** respeitaram as prerrogativas dos parlamentares."
-   - *Ressalva da Vírgula:* Se o advérbio estiver isolado por vírgula, a atração cessa e usa-se a ênclise: *"Ontem, pronunciou-**se** o líder do partido"*.
-3. **Pronomes Relativos:** *que, quem, cujo(a), onde, o qual, como*.
-   - *Exemplo:* "A matéria **que** **se** discutiu ontem obteve votação expressiva."
-4. **Pronomes Indefinidos:** *tudo, alguém, outrem, algo, cada, muitos, poucos*.
-   - *Exemplo:* "Tudo **se** resolveu conforme o regimento."
-5. **Pronomes Demonstrativos:** *isso, aquilo, este, esse, aquele*.
-   - *Exemplo:* "Aquilo **nos** surpreendeu durante a sessão."
-6. **Conjunções Subordinativas (Integrantes e Adverbiais):** *que, se, quando, embora, caso, como, para que, visto que*.
-   - *Exemplo:* "Embora **se** soubesse do resultado, a votação transcorreu normalmente."
-7. **Frases Optativas (Desejo), Interrogativas ou Exclamativas:**
-   - *Exemplo:* "Deus **o** abençoe!" / "Quem **te** autorizou a intervir?"
-8. **Preposição "Em" + Verbo no Gerúndio:**
-   - *Exemplo:* "**Em se tratando** de matéria orçamentária, a CMO é soberana."
-
-### 5.3 Regras Restritivas e Vedações Absolutas na Norma Culta
-1. **Vedação de Iniciar Frase ou Período com Pronome Oblíquo Átono:**
-   - Na modalidade padrão formal, é erro crasso iniciar período com pronome oblíquo: *"Me falaram sobre o relatório"* (ERRADO); o correto é: *"Falaram-me sobre o relatório"*.
-2. **Vedação de Ênclise com Verbos no Futuro do Presente ou do Pretérito:**
-   - Verbos flexionados no futuro do presente ou do pretérito do indicativo REJEITAM a ênclise em qualquer situação (*"Aprovará-se"* ou *"Aprovaria-se"* são formas inexistentes e agramaticais!).
-   - Se houver fator de próclise: **PRÓCLISE** (*"Não se aprovará o texto"*);
-   - Se NÃO houver fator de próclise e o verbo iniciar o período: **MESÓCLISE OBRIGATÓRIA** (*"Aprovar-se-á o texto"*; *"Apresentar-se-ia o voto caso houvesse quórum"*).
-3. **Vedação de Ênclise após Particípio:**
-   - NUNCA se coloca pronome oblíquo átono enclítico a particípio: *"O presidente tinha manifestado-se"* (ERRADO); o correto é: *"O presidente tinha-se manifestado"* ou *"O presidente tinha se manifestado"*.
-
-### 5.4 Colocação Pronominal em Locuções Verbais (Verbo Auxiliar + Verbo Principal)
-- **Verbo Auxiliar + Infinitivo:**
-  - Sem palavra atrativa: o pronome pode ligar-se ao auxiliar (próclise ou ênclise) ou ao infinitivo (ênclise): *"Quero-lhe dizer"*, *"Quero dizer-lhe"*.
-  - Com palavra atrativa: próclise ao auxiliar ou ênclise ao infinitivo: *"Não lhe quero dizer"* ou *"Não quero dizer-lhe"*.
-- **Verbo Auxiliar + Gerúndio:**
-  - Sem palavra atrativa: próclise/ênclise ao auxiliar ou ênclise ao gerúndio: *"Estava-se preparando"*, *"Estava preparando-se"*.
-  - Com palavra atrativa: próclise ao auxiliar ou ênclise ao gerúndio: *"Não se estava preparando"* ou *"Não estava preparando-se"*.
-- **Verbo Auxiliar + Particípio:**
-  - Sem palavra atrativa: próclise ou ênclise ao verbo auxiliar: *"Haviam-me alertado"*, *"Ele havia me alertado"*.
-  - Com palavra atrativa: próclise obrigatória ao verbo auxiliar: *"Não me haviam alertado"*.
-
-
----
-
-### 🔗 Veja Também (Articulação Intermódulos)
-* **Compreensão e Interpretação Textual (sub-13-1):** Classificação de gêneros em correspondências e normas legislativas.
-`,
-  teoriaDidaticaMarkdown: `### ⚡ 1. Visão Direta em 3 Minutos (Resumo Executivo)
-A **Ortografia Oficial, o Acordo Ortográfico, a Colocação Pronominal e o Manual de Redação da Presidência da República (3ª ed. 2018)** regulam a produção textual na administração pública:
-1. **O Novo Acordo Ortográfico (Vigência Obrigatória):**
-   - **Acentuação Gráfica:**
-     - Caiu o acento dos ditongos abertos \`ei\` e \`oi\` nas palavras **paroxítonas** (*ideia, assembleia, heroico, jiboia*). Atenção: nas oxítonas e monossílabos o acento permanece (*herói, papéis, constrói*)!
-     - Caiu o acento circunflexo nos hiatos \`ee\` e \`oo\` (*leem, veem, creem, voo, enjoo*).
-     - Permanece o acento diferencial obrigatório em: \`pôde\` (passado) vs. \`pode\` (presente); e \`pôr\` (verbo) vs. \`por\` (preposição); além de \`tem/têm\` e \`vem/vêm\` (singular/plural).
-   - **Uso do Hífen:**
-     - Letras iguais se separam com hífen (*micro-ondas, anti-inflamatório, sub-bibliotecário*).
-     - Letras diferentes se unem sem hífen (*autoescola, infraestrutura, semicírculo*).
-     - Se o segundo elemento começar com \`r\` ou \`s\`, dobra-se a consoante sem hífen (*antissocial, microrregião, ultrassom*).
-2. **Colocação Pronominal (Próclise, Ênclise e Mesóclise):**
-   - **Próclise Obrigatória (Palavras Atrativas):** Palavras de sentido negativo (*não, nunca, jamais*); advérbios sem vírgula (*aqui se estuda*); pronomes relativos (*o livro que me deste*); pronomes indefinidos (*alguém me disse*); conjunções subordinativas (*embora se saiba*).
-   - **Ênclise Obrigatória:** No início de frases e períodos (*Fizeram-me a consulta*, e NUNCA *Me fizeram a consulta*!); após vírgula ou pausa.
-   - **Mesóclise:** Exclusiva com verbos no Futuro do Presente ou Futuro do Pretérito, desde que não haja palavra atrativa (*Far-se-á a votação* / *Realizar-se-ia a posse*).
-3. **Manual de Redação da Presidência da República (3ª Edição / 2018):**
-   - **Princípios da Redação Oficial:** Clareza, Precisão, Objetividade, Concisão, Coesão/Coerência, Impessoalidade e Formalidade.
-   - **Padronização dos Documentos:** O MRPR unificou Aviso e Memorando sob o formato único de **Ofício**!
-   - **Estrutura do Ofício:** Cabeçalho com brasão $\to$ Identificação do expediente (tipo, número, ano, sigla do órgão) $\to$ Local e data $\to$ Endereçamento $\to$ Assunto (resumo em negrito) $\to$ Texto (introdução, desenvolvimento, conclusão) $\to$ Fecho $\to$ Assinatura.
-   - **Fechos Canônicos para Comunicações Oficiais (Apenas Dois!):**
-     - *Respeitosamente:* Para autoridades superiores (inclusive o Presidente da República).
-     - *Atenciosamente:* Para autoridades de mesma hierarquia ou de hierarquia inferior.
-     - Foram completamente abolidas fórmulas rebuscadas como *"Tenho a honra de"*, *"Digno Magistrado"*, *"MD"* e *"DD"*.
-   - **Pronomes de Tratamento:** O Decreto Federal nº 9.758/2019 estabeleceu que o único pronome de tratamento formal para a comunicação direta com agentes públicos federais é **"Você"** ou **"Senhor / Senhora"**, abolindo o uso obrigatório de *"Vossa Excelência"* nas comunicações administrativas ordinárias internas.
-
----
-
-### 🏛️ 2. Vida Real na Câmara dos Deputados (Casos Concretos)
-- **Cenário 1 (Elaboração de Ofício da Biblioteca Pedro Aleixo ao Senado Federal):** A biblioteca expede expediente formal solicitando o empréstimo de uma coleção de livros raros. O bibliotecário formata no padrão **Ofício do MRPR 2018**: cabeçalho oficial, campo assunto em negrito, parágrafos numerados a partir do segundo e o fecho **"Atenciosamente"** (endereçado a autoridade de mesma hierarquia funcional).
-- **Cenário 2 (Aplicação do Novo Acordo Ortográfico nas Edições Câmara):** Na revisão editorial de uma tese sobre parlamentos, o revisor remove os acentos das palavras *"assembleia"* e *"ideia"* e une sem hífen a palavra *"antirreflexo"* (dobrando a letra r), garantindo 100% de conformidade com o VOLP e o Acordo Ortográfico.
-- **Cenário 3 (Próclise Obrigatória em Parecer Legislativo):** Na redação de uma nota técnica legislativa, o consultor escreve: *"O parlamentar que se ausentou..."*. O bibliotecário constata a correção da **próclise obrigatória** imposta pela presença do pronome relativo *"que"*.
-
----
-
-### ⚖️ 3. Quadro de Contraste Rápido (Anticonfusão)
-| Regra / Norma Oficial | Aplicação Correta | Exemplo Canônico | Erro Típico da Banca |
-| :--- | :--- | :--- | :--- |
-| **Paroxítonas com EI/OI** | Perdem o acento gráfico | *Assembleia, ideia, jiboia* | Acentuar paroxítona (*assembléia*) |
-| **Hífen com Letras Iguais** | Usa hífen | *Anti-inflamatório, micro-ondas* | Escrever junto sem hífen |
-| **Hífen com Letras Diferentes** | Junta sem hífen | *Autoescola, infraestrutura* | Colocar hífen indevido |
-| **Fecho: Respeitosamente** | Exclusivo para **autoridade superior** | Ao Presidente da Câmara | Usar para mesma hierarquia |
-| **Fecho: Atenciosamente** | Para **mesma hierarquia ou inferior** | De Diretor para Diretor | Usar fórmulas arcaicas (*Saudações*) |
-| **Próclise com Pronome Relativo** | Atração obrigatória | *O projeto que se votou* | Colocar ênclise (*que votou-se*) |
-
----
-
-### 🎯 4. Como o Cebraspe Cobra na Prova (Armadilhas e Gatilhos)
-- **Fechos em Documentos Oficiais:** O Cebraspe propõe fechos rebuscados como *"Cordialmente"*, *"Com votos de estima e consideração"* ou *"Saudações Parlamentares"*. **Gabarito: ERRADO.** O Manual de Redação da Presidência da República admite exclusivamente **dois fechos padronizados**: *Respeitosamente* (para autoridades superiores) e *Atenciosamente* (para mesma hierarquia ou inferior).
-- **Início de Frase com Pronome Oblíquo:** A banca afirma que a frase *"Me informaram sobre a votação"* está plenamente correta segundo a norma culta. **Gabarito: ERRADO.** A norma culta veda terminantemente iniciar períodos com pronome oblíquo átono; o correto é a ênclise: *"Informaram-me sobre a votação"*.
-- **Extinção do Memorando no MRPR:** Dizer que o memorando continua sendo a modalidade padrão de comunicação interna entre secretarias. **Gabarito: ERRADO.** A 3ª edição do MRPR (2018) **aboliu formalmente o memorando e o aviso**, unificando toda a correspondência oficial sob a denominação única de **Ofício**.
-
----
-
-### 📚 5. Fundamentação Doutrinária e Referências Bibliográficas
-- **BRASIL. PRESIDÊNCIA DA REPÚBLICA.** *Manual de Redação da Presidência da República*. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (O texto normativo canônico mais cobrado em concursos federais).
-- **ACADEMIA BRASILEIRA DE LETRAS (ABL).** *Vocabulário Ortográfico da Língua Portuguesa (VOLP)*. 5. ed. São Paulo: Global, 2009.
-- **BECHARA, Evanildo.** *Moderna Gramática Portuguesa*. 39. ed. Rio de Janeiro: Nova Fronteira, 2019.
-- **BRASIL.** *Decreto Federal nº 9.758, de 11 de abril de 2019*. Dispõe sobre a forma de tratamento empregada na comunicação oral e escrita com agentes públicos da administração pública federal.
-- **CEAG/CÂMARA DOS DEPUTADOS.** *Manual de Redação Oficial da Câmara dos Deputados*. Brasília: Edições Câmara, 2021.`,
+  teoriaDensaMarkdown: "### Ortografia: grafia, tonicidade e acento são decisões diferentes\n\nOrtografia disciplina a escrita convencional; acentuação gráfica é parte desse sistema. A sílaba tônica existe na pronúncia mesmo quando não recebe sinal gráfico. Para aplicar uma regra, identifique primeiro onde recai a tonicidade e qual é a terminação pertinente. O assunto da palavra não determina sua classificação.\n\n**Proparoxítonas** têm tonicidade na antepenúltima sílaba, como **público, hipótese e lâmpada**, e recebem acento conforme a regra. **Paroxítonas** têm tonicidade na penúltima, como **legislativo e parlamentares**; não devem ser apresentadas como proparoxítonas. “Parlâmentares” é grafia inadequada. **Oxítonas** têm tonicidade na última, como café e também. Monossílabos tônicos têm regras próprias, como pá, mês e nós.\n\nEntre oxítonas, são relevantes terminações a(s), e(s), o(s), em e ens. Entre paroxítonas, examine terminações como r, l, x, n, i(s), us, um/uns, ã(s), ão(s) e os casos previstos de ditongo. Não use a lista sem classificar a palavra: o que explica café não é a mesma combinação de critérios que explica fácil.\n\n**Exemplo resolvido:** caráter recebe acento pela classificação/terminação pertinente; público é proparoxítona; café é oxítona terminada em e. As três são acentuadas, mas não pela mesma justificativa. Um item que peça identidade de regra exige explicar o critério, não apenas constatar o sinal.\n\nA análise de certas terminações admite tratamentos fonológicos diferentes em gramáticas; quando isso importar ao julgamento, delimite a abordagem. Para a grafia oficial de uma palavra duvidosa, consulte a forma registrada, em vez de criar uma regra a partir de uma impressão sonora.\n\n### Acordo Ortográfico: alterações com condições e contrastes\n\nO Acordo Ortográfico promulgado pelo Decreto 6.583/2008 contém regras e ressalvas, não uma eliminação geral de acentos. **Ideia, plateia e heroico** não recebem o antigo acento dos ditongos abertos nas paroxítonas. **Herói, pastéis e céu** preservam a acentuação aplicável a suas classes. A condição acentual precisa acompanhar a explicação.\n\n**Veem, leem, creem e deem** não levam o antigo circunflexo do encontro eem; **voo e enjoo** perderam o sinal em oo. Não confunda com **têm e vêm**, formas de plural que se distinguem de tem e vem. Nos derivados, também se observam oposições como **mantém/mantêm** e **intervém/intervêm**.\n\n**Pôde/pode** distingue formas temporais; **pôr/por** distingue verbo e preposição. A grafia **fôrma** é admitida como diferencial facultativo na condição pertinente. A eliminação de alguns diferenciais não autoriza apagar todos.\n\n**Hiatos:** a análise de i/u tônicos pede considerar sílaba, tonicidade e contexto. Exemplos como feiura contrastam com Piauí. Não aplique “toda sequência de duas vogais recebe acento” nem “o Acordo acabou com todos os hiatos acentuados”. O problema deve fornecer uma palavra e pedir a regra apropriada.\n\n**Procedimento de revisão:** compare a forma atual, identifique a condição e produza um contraexemplo de outra classe. Para ideia, use herói como contraste; para veem, use vêm. Esse método retém a diferença que decide uma questão nova, em vez de apenas decorar uma lista de palavras alteradas.\n\n### Hífen: prefixo e elemento de composição não são um único caso\n\nO hífen depende da formação: prefixação, composição e locução têm tratamentos diferentes. O macete “iguais se separam, diferentes se unem” pode lembrar alguns casos com vogais, mas não substitui as condições e exceções do Acordo.\n\nCompare **micro-ondas** e **anti-inflamatório**, em que há encontro de vogais iguais no limite indicado, com **autoescola** e **infraestrutura**, que têm vogais diferentes. Em **antissocial, antirreflexo e ultrassom**, a junção com r/s produz duplicação da consoante nos casos apresentados. Não se generaliza essa duplicação a prefixos terminados em qualquer consoante.\n\nCom h, examine a formação e as ressalvas: **anti-higiênico** e **super-homem** são exemplos de hífen, mas uma regra “todo h de qualquer formação sempre permanece” ignora casos de supressão e formas lexicalizadas. **Cooperação, reeleger e reescrever** também mostram por que a regra de vogais iguais não cobre todos os prefixos.\n\nFormas como **ex-presidente, vice-diretor e recém-eleito** seguem condições próprias. Não confunda pro-/pre- átonos com elementos tônicos como pré- e pró- em suas formações. A acentuação participa da distinção; omiti-la ao enunciar a regra cria ambiguidade.\n\n**Exemplo resolvido:** para antissocial, identifique anti + social, observe o s inicial e a vogal final do prefixo e aplique a duplicação pertinente. Para micro-ondas, o encontro é o + o. A conclusão decorre de formações diferentes, embora ambas envolvam prefixação.\n\nEm caso de palavra rara ou forma consagrada que pareça escapar ao padrão lembrado, confira o vocabulário ortográfico e o trecho normativo. A consulta deve resolver a dúvida, não ser substituída pela fabricação de uma grafia plausível.\n\n### Gêneros e tipos: prática social e organização linguística\n\nNa distinção trabalhada por Marcuschi, **gêneros** são formas de comunicação situadas em práticas sociais: ata, edital, relatório, parecer, notícia. **Tipos ou sequências textuais** descrevem organizações linguísticas, como narração, descrição, exposição, argumentação e injunção, conforme a classificação adotada. O conjunto de gêneros é aberto e pode mudar com as práticas de comunicação; isso não significa um número infinito empiricamente contado.\n\nUm mesmo relatório pode **narrar** atividades realizadas, **descrever** características de uma coleção e **argumentar** por uma decisão. O gênero continua sendo relatório; a combinação de sequências depende de sua finalidade. Não há correspondência obrigatória de um tipo para cada gênero.\n\n**Texto autoral:** “Durante março, a equipe revisou os registros. O catálogo contém campos de autoria, assunto e localização. Como parte dos registros permanece incompleta, recomenda-se uma nova rodada de revisão.” A primeira frase relata evento; a segunda descreve estrutura; a terceira apresenta justificativa e recomendação. As funções se articulam em um mesmo documento.\n\nUma ordem ou instrução pode aparecer em manual e também em edital. O nome do gênero não dispensa examinar o segmento. Verbos no imperativo são indícios de orientação, mas instruções também podem usar infinitivo ou formas de obrigação. Narração não exige exclusivamente um tempo verbal, nem descrição se reduz à presença de adjetivos.\n\nA questão deve distinguir **predominância** e **exclusividade**. Dizer que uma notícia contém trecho argumentativo não prova que todo seu funcionamento seja de editorial. Reconheça tema, finalidade, circulação, interlocutores e estrutura antes de classificar.\n\n### Tempos e modos verbais: forma, cronologia e aspecto\n\nO nome de um tempo verbal não determina sozinho a data do acontecimento. **“Amanhã a equipe apresenta o relatório”** usa presente para um evento futuro contextualizado. **“Em 1988, promulga-se a Constituição”** pode usar presente histórico. Forma morfológica e localização cronológica devem ser relacionadas, não confundidas.\n\nNo passado, **“revisou”** apresenta um evento de modo perfectivo no contexto; **“revisava”** pode apresentá-lo em curso ou habitual. **“Quando a reunião começou, a equipe já concluíra a revisão”** situa a conclusão antes de outro evento passado. Não transforme aspecto perfeito em sinônimo universal de ação pontual: uma atividade longa também pode ser apresentada como concluída.\n\nO **indicativo** frequentemente apresenta conteúdo como assumido no discurso; o **subjuntivo** participa de hipóteses, desejos e outras relações; o **imperativo** pode orientar, pedir ou ordenar. Não classifique toda frase no indicativo como prova de certeza real nem toda ocorrência de subjuntivo como dúvida subjetiva. A escolha depende da construção e da relação estabelecida.\n\nCompare **“Se revisar, reduzirá”**, **“Se revisasse, reduziria”** e **“Se tivesse revisado, teria reduzido”**. São enquadramentos condicionais diferentes. A reescrita pode mudar uma hipótese projetada para outra contrafactual no contexto. O aluno precisa reconhecer flexão e relação temporal/modal, e não apenas combinar terminações como num algoritmo.\n\n**Exemplo resolvido:** “Gostaria de solicitar o documento” não se refere necessariamente a uma intenção localizada num futuro de um passado real. O futuro do pretérito pode atenuar a solicitação. O uso discursivo deve acompanhar a classificação da forma.\n\n### Colocação pronominal: construção, registro e contexto\n\n**Próclise** coloca o pronome antes do verbo; **ênclise**, depois; **mesóclise**, no interior de formas de futuro em construções pertinentes. A norma-padrão formal ensinada para a prova não esgota todas as variedades de uso do português. Descrever a preferência de registro não exige chamar a fala cotidiana de incapaz de comunicar.\n\n**“Não se publicará o arquivo.”** A palavra negativa é fator de próclise; o futuro não exige trocar a frase por “Não publicar-se-á”. Sem fator que determine próclise, a construção formal de início como **“Publicar-se-á o resultado”** é possível. Não se acrescenta se depois da forma futura inteira para criar “publicará-se”.\n\nRelativos e elementos subordinativos podem favorecer a próclise em construções como “o texto que se publicou” e “quando se concluir a revisão”. A análise é local: a mera existência de uma palavra atrativa em qualquer ponto distante da frase não determina mecanicamente toda colocação. Pausas, estrutura da oração e formas verbais importam.\n\nLocuções exigem atenção ao verbo principal: **“Não se deve divulgar”** e **“Não deve divulgar-se”** ilustram possibilidades na construção com infinitivo. Com particípio, não se prende o pronome diretamente a ele como em “tinha divulgado-se”; é preciso usar posição compatível. O estudo não deve transformar uma opção admissível em única solução sem examinar a estrutura.\n\n**“Em se tratando de preservação”** é uma construção particular com em + gerúndio. Antes de comparar com “tratando-se”, considere o contexto e a expressão completa. O fato de duas sequências aparecerem no uso não prova que sejam substituíveis em qualquer oração.\n\n**Recuperação:** explique por que o não mantém se antes de publicará e por que o particípio pede cuidado diferente do infinitivo. Depois formule uma frase nova no registro formal e confronte a regra pertinente.",
+  teoriaDidaticaMarkdown: "### Revisão: contexto e condição da regra\n\nPúblico é proparoxítona; legislativo e parlamentares são paroxítonas. Acentos iguais podem resultar de regras diferentes. Ideia/plateia contrastam com herói/céu; veem/leem não se confundem com têm/vêm. Pôde/pode e pôr/por conservam distinções. Hífen exige identificar a formação: micro-ondas, autoescola, antissocial, cooperação e reeleger mostram condições diferentes. Gêneros podem combinar sequências narrativas, descritivas, expositivas, argumentativas e injuntivas. Forma verbal e tempo cronológico não são idênticos; observe aspecto e enquadramento. Na colocação pronominal, examine construção e registro: não se publicará; publicar-se-á; não se deve divulgar.\n\n**Recupere:** justifique a diferença entre ideia e herói; explique uma sequência heterogênea dentro de um relatório; compare três construções condicionais e o que muda em cada uma. Por que o futuro não anula o fator de próclise de não?\n",
   checkpoints: [
-    {
-      id: 'cp-13-4-1',
-      pergunta: 'Micro-Checkpoint 1: Ditongos Abertos no Acordo Ortográfico',
-      item: 'Com a vigência do Acordo Ortográfico da Língua Portuguesa, palavras como "ideia", "plateia" e "herói" deixaram de ser grafadas com acento agudo, em razão da regra de simplificação que extinguiu o acento gráfico sobre os ditongos abertos "ei" e "oi".',
-      gabarito: 'E',
-      justificativa:
-        'Errado! O Acordo Ortográfico extinguiu o acento agudo nos ditongos abertos "éi" e "ói" exclusivamente nas palavras PAROXÍTONAS (como "ideia", "plateia", "heroico", "jiboia", "assembleia"). Nas palavras OXÍTONAS e nos MONOSSÍLABOS TÔNICOS terminados nesses ditongos, o acento gráfico PERMANECE OBRIGATÓRIO (como "herói", "troféu", "pastéis", "coronéis", "dói", "céu"). Portanto, "herói" continua sendo obrigatoriamente acentuada.',
-    },
-    {
-      id: 'cp-13-4-2',
-      pergunta: 'Micro-Checkpoint 2: Tipos vs. Gêneros Textuais segundo Luiz Antônio Marcuschi',
-      item: 'Na teoria linguística moderna sistematizada por Luiz Antônio Marcuschi, os tipos textuais constituem constructos teóricos definidos por traços linguísticos intrínsecos e formam um conjunto finito de categorias (como narração e dissertação), ao passo que os gêneros textuais são realizações discursivas empíricas, ilimitadas e fluidas, historicamente vinculadas a práticas sociocomunicativas (como ata, edital e parecer legislativo).',
-      gabarito: 'C',
-      justificativa:
-        'Correto! A assertiva reflete com exatidão a clássica distinção cunhada por Luiz Antônio Marcuschi. Os tipos textuais (ou sequências tipológicas) são categorias teóricas finitas (narração, descrição, dissertação expositiva, dissertação argumentativa e injunção) identificadas pela estrutura interna léxico-gramatical e temporal. Já os gêneros textuais são formas empíricas infinitas de comunicação social, mutáveis no tempo, que cumprem funções pragmáticas específicas nas diversas esferas da atividade humana (por exemplo, ofício, parecer, ata, editorial).',
-    },
-    {
-      id: 'cp-13-4-3',
-      pergunta: 'Micro-Checkpoint 3: Colocação Pronominal e Palavra Atrativa',
-      item: 'No trecho "Não se admitirão emendas fora dos prazos estabelecidos", a alteração da colocação pronominal para "Não admitir-se-ão emendas fora dos prazos estabelecidos" preservaria a correção gramatical do texto, por se tratar de verbo conjugado no futuro do presente do indicativo, tempo verbal que exige prioritariamente a mesóclise.',
-      gabarito: 'E',
-      justificativa:
-        'Errado! Conforme as lições gramaticais canônicas de Evanildo Bechara (2019) e Celso Cunha & Lindley Cintra (2013), a mesóclise com verbos no futuro do presente ou do pretérito só é empregada quando o verbo inicia a oração ou quando NÃO houver palavra atrativa antes dele. No trecho apresentado, a presença da palavra de sentido negativo "Não" constitui fator de atração proclítica MANDATÓRIO e absoluto. Havendo fator de atração, a próclise prevalece sempre sobre a mesóclise ("Não se admitirão"). A estrutura "Não admitir-se-ão" acarreta erro gramatical crasso perante a norma culta padrão.',
-    },
-  ],
-  mnemonicos: {
-    timeline: [
-      {
-        id: 'tl-13-4-1',
-        periodo: '1990 (Acordo Ortográfico)',
-        disciplina: 'Ortografia Oficial',
-        focoPrincipal: 'Assinatura do Acordo Ortográfico unificando as regras nos países de língua portuguesa',
-        figuraChave: 'Academia Brasileira de Letras / ACL',
-      },
-      {
-        id: 'tl-13-4-2',
-        periodo: '2002 (Marcuschi: Gêneros Textuais)',
-        disciplina: 'Linguística Textual',
-        focoPrincipal: 'Publicação de "Gêneros Textuais: Definição e Funcionalidade", consolidando a distinção entre tipos e gêneros',
-        figuraChave: 'Luiz Antônio Marcuschi',
-      },
-      {
-        id: 'tl-13-4-3',
-        periodo: '2016 (Obrigatoriedade no Brasil)',
-        disciplina: 'Ortografia Oficial',
-        focoPrincipal: 'Entrada em vigor em caráter obrigatório e definitivo do Acordo Ortográfico de 1990 no Brasil',
-        figuraChave: 'Decreto nº 6.583/2008 e Decreto nº 7.875/2012',
-      },
-    ],
-    autores: [
-      {
-        id: 'aut-13-4-1',
-        nome: 'Luiz Antônio Marcuschi',
-        ano: 2008,
-        obraPrincipal: 'Da Fala para a Escrita / Produção Textual, Análise de Gêneros e Compreensão',
-        ideiaChave: 'Tipos textuais são finitos e teóricos; gêneros textuais são infinitos, dinâmicos e sociocomunicativos.',
-        chipPegadinha: 'Classificar ata, parecer ou relatório como tipo textual em vez de gênero textual.',
-      },
-      {
-        id: 'aut-13-4-2',
-        nome: 'Evanildo Bechara',
-        ano: 2019,
-        obraPrincipal: 'Moderna Gramática Portuguesa',
-        ideiaChave: 'Sintaxe rigorosa de colocação pronominal com primazia absoluta da próclise diante de fatores de atração.',
-        chipPegadinha: 'Usar mesóclise com verbo no futuro quando houver palavra atrativa anterior.',
-      },
-    ],
-    pegadinhas: [
-      {
-        id: 'peg-13-4-1',
-        afirmacao: 'O Acordo Ortográfico extinguiu o acento gráfico de todas as palavras terminadas no ditongo aberto "ói", como "heroico" e "herói".',
-        gabarito: 'E',
-        porQue: 'Pegadinha manjada do Cebraspe! O acento caiu apenas nas PAROXÍTONAS ("heroico", "jiboia"). Nas OXÍTONAS e monossílabos ("herói", "dói"), o acento permanece obrigatório.',
-      },
-      {
-        id: 'peg-13-4-2',
-        afirmacao: 'Um parecer legislativo emitido pela CCJC é classificado como um tipo textual dissertativo.',
-        gabarito: 'E',
-        porQue: 'Parecer legislativo é GÊNERO TEXTUAL, e não tipo textual. O parecer mobiliza sequências tipológicas dissertativas, mas sua categoria pragmática é gênero.',
-      },
-    ],
+  {
+    "id": "cp-13-4-1",
+    "pergunta": "Micro-Checkpoint 1: Ditongos Abertos no Acordo Ortográfico",
+    "item": "Com a vigência do Acordo Ortográfico da Língua Portuguesa, palavras como \"ideia\", \"plateia\" e \"herói\" deixaram de ser grafadas com acento agudo, em razão da regra de simplificação que extinguiu o acento gráfico sobre os ditongos abertos \"ei\" e \"oi\".",
+    "gabarito": "E",
+    "justificativa": "Errado! O Acordo Ortográfico extinguiu o acento agudo nos ditongos abertos \"éi\" e \"ói\" exclusivamente nas palavras PAROXÍTONAS (como \"ideia\", \"plateia\", \"heroico\", \"jiboia\", \"assembleia\"). Nas palavras OXÍTONAS e nos MONOSSÍLABOS TÔNICOS terminados nesses ditongos, o acento gráfico PERMANECE OBRIGATÓRIO (como \"herói\", \"troféu\", \"pastéis\", \"coronéis\", \"dói\", \"céu\"). Portanto, \"herói\" continua sendo obrigatoriamente acentuada.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "versao_correta": "Ideia e plateia perderam o acento pertinente às paroxítonas; herói mantém sua acentuação como oxítona."
   },
+  {
+    "id": "cp-13-4-2",
+    "pergunta": "Micro-Checkpoint 2: Tipos vs. Gêneros Textuais segundo Luiz Antônio Marcuschi",
+    "item": "Na distinção de Marcuschi, tipos textuais são categorias de organização linguística, enquanto gêneros se vinculam a práticas sociocomunicativas, como ata, edital e parecer. Um gênero pode combinar sequências de tipos diferentes.",
+    "gabarito": "C",
+    "justificativa": "A oposição distingue classificação linguística e forma de ação comunicativa. Um relatório pode narrar, descrever e argumentar. Não se exige afirmar que os gêneros foram contados como um conjunto literalmente infinito, nem atribuir a um só autor a criação de toda teoria textual.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais."
+  },
+  {
+    "id": "cp-13-4-3",
+    "pergunta": "Micro-Checkpoint 3: Colocação Pronominal e Palavra Atrativa",
+    "item": "No trecho \"Não se admitirão emendas fora dos prazos estabelecidos\", a alteração da colocação pronominal para \"Não admitir-se-ão emendas fora dos prazos estabelecidos\" preservaria a correção gramatical do texto, por se tratar de verbo conjugado no futuro do presente do indicativo, tempo verbal que exige prioritariamente a mesóclise.",
+    "gabarito": "E",
+    "justificativa": "Na construção apresentada, não determina a próclise. O fato de o verbo estar no futuro não afasta esse fator e não torna adequada a mesóclise proposta. A explicação depende da oração completa.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "versao_correta": "Não se admitirão emendas fora dos prazos estabelecidos."
+  },
+  {
+    "id": "rt-13-4-1",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Público é proparoxítona; parlamentares e legislativo não pertencem à mesma classe acentual apenas por serem termos do contexto parlamentar.",
+    "gabarito": "C",
+    "justificativa": "Em público, a tonicidade recai na antepenúltima sílaba. Parlamentares e legislativo são paroxítonas. O campo temático não determina a sílaba tônica nem autoriza acrescentar acentos.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-2",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em “As equipes têm acesso” e “A equipe tem acesso”, a diferença de número do sujeito explica o acento diferencial nas formas de ter.",
+    "gabarito": "C",
+    "justificativa": "Tem é singular; têm é plural. A oposição permanece pertinente. Não se deve aplicar a perda de acentos de veem/leem ao par tem/têm.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-3",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A grafia antissocial exemplifica a junção de prefixo terminado em vogal a elemento iniciado por s, com duplicação da consoante nesse caso.",
+    "gabarito": "C",
+    "justificativa": "Anti termina em vogal e social começa por s. A forma antissocial duplica o s, sem que isso crie uma regra universal para toda palavra composta.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-4",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Um relatório pode narrar atividades, descrever um acervo e argumentar por uma decisão, sem deixar de constituir um mesmo gênero textual.",
+    "gabarito": "C",
+    "justificativa": "Gênero se relaciona à prática e função comunicativa; pode reunir sequências de diferentes tipos. Não há correspondência obrigatória de um gênero para um único tipo.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-5",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em “Amanhã a equipe apresenta o relatório”, a forma de presente pode ser usada para um evento situado no futuro pelo contexto.",
+    "gabarito": "C",
+    "justificativa": "O advérbio amanhã e o contexto projetam o evento. Forma morfológica de presente e tempo cronológico não são idênticos em todo uso.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-6",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "“Se a equipe revisasse os dados, reduziria os erros” e “Se a equipe revisar os dados, reduzirá os erros” apresentam necessariamente o mesmo enquadramento da hipótese.",
+    "gabarito": "E",
+    "justificativa": "A primeira construção enquadra a hipótese com imperfeito do subjuntivo e futuro do pretérito; a segunda projeta hipótese futura com futuro do subjuntivo e futuro do presente. A mudança de enquadramento deve ser avaliada no contexto.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar",
+    "versao_correta": "As construções podem apresentar enquadramentos hipotéticos diferentes."
+  },
+  {
+    "id": "rt-13-4-7",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "Em “Não se publicará o arquivo”, a palavra negativa favorece a próclise; o fato de o verbo estar no futuro não exige trocar a frase por “Não publicar-se-á o arquivo”.",
+    "gabarito": "C",
+    "justificativa": "A presença de não é fator de próclise na construção. O futuro não anula essa condição. A mesóclise não deve ser aplicada como regra isolada da oração.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  },
+  {
+    "id": "rt-13-4-8",
+    "pergunta": "Julgue a situação apresentada.",
+    "item": "A expressão “Em se tratando de preservação” apresenta uma construção com em e gerúndio que não se resolve simplesmente aplicando a posição do pronome de um verbo isolado.",
+    "gabarito": "C",
+    "justificativa": "A estrutura em + gerúndio favorece a colocação apresentada. A análise da locução e do contexto antecede a classificação de próclise/ênclise.",
+    "fonte": "Acordo Ortográfico promulgado pelo Decreto 6.583/2008, Anexo I; Manual de Redação da Presidência (2018); Marcuschi, Gêneros textuais: definição e funcionalidade. Exemplos autorais.",
+    "editalRef": "Conhecimentos Básicos - Língua Portuguesa (Itens 3, 4 e 5: Ortografia, Gêneros, Tempos Verbais e Próclise)",
+    "habilidade": "aplicar"
+  }
+],
+  mnemonicos: {
+  "timeline": [],
+  "autores": [
+    {
+      "id": "aut-13-4-1",
+      "nome": "Luiz Antônio Marcuschi",
+      "ano": 2008,
+      "obraPrincipal": "Da Fala para a Escrita / Produção Textual, Análise de Gêneros e Compreensão",
+      "ideiaChave": "Tipos textuais são finitos e teóricos; gêneros textuais são infinitos, dinâmicos e sociocomunicativos.",
+      "chipPegadinha": "Classificar ata, parecer ou relatório como tipo textual em vez de gênero textual."
+    },
+    {
+      "id": "aut-13-4-2",
+      "nome": "Evanildo Bechara",
+      "ano": 2019,
+      "obraPrincipal": "Moderna Gramática Portuguesa",
+      "ideiaChave": "Sintaxe rigorosa de colocação pronominal com primazia absoluta da próclise diante de fatores de atração.",
+      "chipPegadinha": "Usar mesóclise com verbo no futuro quando houver palavra atrativa anterior."
+    }
+  ],
+  "pegadinhas": [
+    {
+      "id": "peg-13-4-1",
+      "afirmacao": "O Acordo Ortográfico extinguiu o acento gráfico de todas as palavras terminadas no ditongo aberto \"ói\", como \"heroico\" e \"herói\".",
+      "gabarito": "E",
+      "porQue": "Pegadinha manjada do Cebraspe! O acento caiu apenas nas PAROXÍTONAS (\"heroico\", \"jiboia\"). Nas OXÍTONAS e monossílabos (\"herói\", \"dói\"), o acento permanece obrigatório."
+    },
+    {
+      "id": "peg-13-4-2",
+      "afirmacao": "Um parecer legislativo emitido pela CCJC é classificado como um tipo textual dissertativo.",
+      "gabarito": "E",
+      "porQue": "Parecer legislativo é GÊNERO TEXTUAL, e não tipo textual. O parecer mobiliza sequências tipológicas dissertativas, mas sua categoria pragmática é gênero."
+    }
+  ]
+},
+
+versaoTeoria: "2026-10-29.1",
+unidadesAprendizagem: [
+  {
+    "id": "sub-13-4-bloco-1",
+    "titulo": "Ortografia: grafia, tonicidade e acento são decisões diferentes",
+    "objetivos": [
+      "Classificar palavras corretamente antes de aplicar regra de acentuação."
+    ],
+    "conteudo": "Ortografia disciplina a escrita convencional; acentuação gráfica é parte desse sistema. A sílaba tônica existe na pronúncia mesmo quando não recebe sinal gráfico. Para aplicar uma regra, identifique primeiro onde recai a tonicidade e qual é a terminação pertinente. O assunto da palavra não determina sua classificação.\n\n**Proparoxítonas** têm tonicidade na antepenúltima sílaba, como **público, hipótese e lâmpada**, e recebem acento conforme a regra. **Paroxítonas** têm tonicidade na penúltima, como **legislativo e parlamentares**; não devem ser apresentadas como proparoxítonas. “Parlâmentares” é grafia inadequada. **Oxítonas** têm tonicidade na última, como café e também. Monossílabos tônicos têm regras próprias, como pá, mês e nós.\n\nEntre oxítonas, são relevantes terminações a(s), e(s), o(s), em e ens. Entre paroxítonas, examine terminações como r, l, x, n, i(s), us, um/uns, ã(s), ão(s) e os casos previstos de ditongo. Não use a lista sem classificar a palavra: o que explica café não é a mesma combinação de critérios que explica fácil.\n\n**Exemplo resolvido:** caráter recebe acento pela classificação/terminação pertinente; público é proparoxítona; café é oxítona terminada em e. As três são acentuadas, mas não pela mesma justificativa. Um item que peça identidade de regra exige explicar o critério, não apenas constatar o sinal.\n\nA análise de certas terminações admite tratamentos fonológicos diferentes em gramáticas; quando isso importar ao julgamento, delimite a abordagem. Para a grafia oficial de uma palavra duvidosa, consulte a forma registrada, em vez de criar uma regra a partir de uma impressão sonora.",
+    "checkpointIds": [
+      "rt-13-4-1"
+    ]
+  },
+  {
+    "id": "sub-13-4-bloco-2",
+    "titulo": "Acordo Ortográfico: alterações com condições e contrastes",
+    "objetivos": [
+      "Distinguir ideias paroxítonas de herói oxítona e preservar acentos diferenciais pertinentes."
+    ],
+    "conteudo": "O Acordo Ortográfico promulgado pelo Decreto 6.583/2008 contém regras e ressalvas, não uma eliminação geral de acentos. **Ideia, plateia e heroico** não recebem o antigo acento dos ditongos abertos nas paroxítonas. **Herói, pastéis e céu** preservam a acentuação aplicável a suas classes. A condição acentual precisa acompanhar a explicação.\n\n**Veem, leem, creem e deem** não levam o antigo circunflexo do encontro eem; **voo e enjoo** perderam o sinal em oo. Não confunda com **têm e vêm**, formas de plural que se distinguem de tem e vem. Nos derivados, também se observam oposições como **mantém/mantêm** e **intervém/intervêm**.\n\n**Pôde/pode** distingue formas temporais; **pôr/por** distingue verbo e preposição. A grafia **fôrma** é admitida como diferencial facultativo na condição pertinente. A eliminação de alguns diferenciais não autoriza apagar todos.\n\n**Hiatos:** a análise de i/u tônicos pede considerar sílaba, tonicidade e contexto. Exemplos como feiura contrastam com Piauí. Não aplique “toda sequência de duas vogais recebe acento” nem “o Acordo acabou com todos os hiatos acentuados”. O problema deve fornecer uma palavra e pedir a regra apropriada.\n\n**Procedimento de revisão:** compare a forma atual, identifique a condição e produza um contraexemplo de outra classe. Para ideia, use herói como contraste; para veem, use vêm. Esse método retém a diferença que decide uma questão nova, em vez de apenas decorar uma lista de palavras alteradas.",
+    "checkpointIds": [
+      "cp-13-4-1",
+      "rt-13-4-2"
+    ]
+  },
+  {
+    "id": "sub-13-4-bloco-3",
+    "titulo": "Hífen: prefixo e elemento de composição não são um único caso",
+    "objetivos": [
+      "Aplicar as condições mais frequentes e reconhecer quando consultar o registro."
+    ],
+    "conteudo": "O hífen depende da formação: prefixação, composição e locução têm tratamentos diferentes. O macete “iguais se separam, diferentes se unem” pode lembrar alguns casos com vogais, mas não substitui as condições e exceções do Acordo.\n\nCompare **micro-ondas** e **anti-inflamatório**, em que há encontro de vogais iguais no limite indicado, com **autoescola** e **infraestrutura**, que têm vogais diferentes. Em **antissocial, antirreflexo e ultrassom**, a junção com r/s produz duplicação da consoante nos casos apresentados. Não se generaliza essa duplicação a prefixos terminados em qualquer consoante.\n\nCom h, examine a formação e as ressalvas: **anti-higiênico** e **super-homem** são exemplos de hífen, mas uma regra “todo h de qualquer formação sempre permanece” ignora casos de supressão e formas lexicalizadas. **Cooperação, reeleger e reescrever** também mostram por que a regra de vogais iguais não cobre todos os prefixos.\n\nFormas como **ex-presidente, vice-diretor e recém-eleito** seguem condições próprias. Não confunda pro-/pre- átonos com elementos tônicos como pré- e pró- em suas formações. A acentuação participa da distinção; omiti-la ao enunciar a regra cria ambiguidade.\n\n**Exemplo resolvido:** para antissocial, identifique anti + social, observe o s inicial e a vogal final do prefixo e aplique a duplicação pertinente. Para micro-ondas, o encontro é o + o. A conclusão decorre de formações diferentes, embora ambas envolvam prefixação.\n\nEm caso de palavra rara ou forma consagrada que pareça escapar ao padrão lembrado, confira o vocabulário ortográfico e o trecho normativo. A consulta deve resolver a dúvida, não ser substituída pela fabricação de uma grafia plausível.",
+    "checkpointIds": [
+      "rt-13-4-3"
+    ]
+  },
+  {
+    "id": "sub-13-4-bloco-4",
+    "titulo": "Gêneros e tipos: prática social e organização linguística",
+    "objetivos": [
+      "Reconhecer a heterogeneidade tipológica num gênero concreto."
+    ],
+    "conteudo": "Na distinção trabalhada por Marcuschi, **gêneros** são formas de comunicação situadas em práticas sociais: ata, edital, relatório, parecer, notícia. **Tipos ou sequências textuais** descrevem organizações linguísticas, como narração, descrição, exposição, argumentação e injunção, conforme a classificação adotada. O conjunto de gêneros é aberto e pode mudar com as práticas de comunicação; isso não significa um número infinito empiricamente contado.\n\nUm mesmo relatório pode **narrar** atividades realizadas, **descrever** características de uma coleção e **argumentar** por uma decisão. O gênero continua sendo relatório; a combinação de sequências depende de sua finalidade. Não há correspondência obrigatória de um tipo para cada gênero.\n\n**Texto autoral:** “Durante março, a equipe revisou os registros. O catálogo contém campos de autoria, assunto e localização. Como parte dos registros permanece incompleta, recomenda-se uma nova rodada de revisão.” A primeira frase relata evento; a segunda descreve estrutura; a terceira apresenta justificativa e recomendação. As funções se articulam em um mesmo documento.\n\nUma ordem ou instrução pode aparecer em manual e também em edital. O nome do gênero não dispensa examinar o segmento. Verbos no imperativo são indícios de orientação, mas instruções também podem usar infinitivo ou formas de obrigação. Narração não exige exclusivamente um tempo verbal, nem descrição se reduz à presença de adjetivos.\n\nA questão deve distinguir **predominância** e **exclusividade**. Dizer que uma notícia contém trecho argumentativo não prova que todo seu funcionamento seja de editorial. Reconheça tema, finalidade, circulação, interlocutores e estrutura antes de classificar.",
+    "checkpointIds": [
+      "cp-13-4-2",
+      "rt-13-4-4"
+    ]
+  },
+  {
+    "id": "sub-13-4-bloco-5",
+    "titulo": "Tempos e modos verbais: forma, cronologia e aspecto",
+    "objetivos": [
+      "Interpretar o uso em contexto e explicar correlações condicionais."
+    ],
+    "conteudo": "O nome de um tempo verbal não determina sozinho a data do acontecimento. **“Amanhã a equipe apresenta o relatório”** usa presente para um evento futuro contextualizado. **“Em 1988, promulga-se a Constituição”** pode usar presente histórico. Forma morfológica e localização cronológica devem ser relacionadas, não confundidas.\n\nNo passado, **“revisou”** apresenta um evento de modo perfectivo no contexto; **“revisava”** pode apresentá-lo em curso ou habitual. **“Quando a reunião começou, a equipe já concluíra a revisão”** situa a conclusão antes de outro evento passado. Não transforme aspecto perfeito em sinônimo universal de ação pontual: uma atividade longa também pode ser apresentada como concluída.\n\nO **indicativo** frequentemente apresenta conteúdo como assumido no discurso; o **subjuntivo** participa de hipóteses, desejos e outras relações; o **imperativo** pode orientar, pedir ou ordenar. Não classifique toda frase no indicativo como prova de certeza real nem toda ocorrência de subjuntivo como dúvida subjetiva. A escolha depende da construção e da relação estabelecida.\n\nCompare **“Se revisar, reduzirá”**, **“Se revisasse, reduziria”** e **“Se tivesse revisado, teria reduzido”**. São enquadramentos condicionais diferentes. A reescrita pode mudar uma hipótese projetada para outra contrafactual no contexto. O aluno precisa reconhecer flexão e relação temporal/modal, e não apenas combinar terminações como num algoritmo.\n\n**Exemplo resolvido:** “Gostaria de solicitar o documento” não se refere necessariamente a uma intenção localizada num futuro de um passado real. O futuro do pretérito pode atenuar a solicitação. O uso discursivo deve acompanhar a classificação da forma.",
+    "checkpointIds": [
+      "rt-13-4-5",
+      "rt-13-4-6"
+    ]
+  },
+  {
+    "id": "sub-13-4-bloco-6",
+    "titulo": "Colocação pronominal: construção, registro e contexto",
+    "objetivos": [
+      "Distinguir próclise, ênclise e mesóclise sem aplicar o futuro isoladamente."
+    ],
+    "conteudo": "**Próclise** coloca o pronome antes do verbo; **ênclise**, depois; **mesóclise**, no interior de formas de futuro em construções pertinentes. A norma-padrão formal ensinada para a prova não esgota todas as variedades de uso do português. Descrever a preferência de registro não exige chamar a fala cotidiana de incapaz de comunicar.\n\n**“Não se publicará o arquivo.”** A palavra negativa é fator de próclise; o futuro não exige trocar a frase por “Não publicar-se-á”. Sem fator que determine próclise, a construção formal de início como **“Publicar-se-á o resultado”** é possível. Não se acrescenta se depois da forma futura inteira para criar “publicará-se”.\n\nRelativos e elementos subordinativos podem favorecer a próclise em construções como “o texto que se publicou” e “quando se concluir a revisão”. A análise é local: a mera existência de uma palavra atrativa em qualquer ponto distante da frase não determina mecanicamente toda colocação. Pausas, estrutura da oração e formas verbais importam.\n\nLocuções exigem atenção ao verbo principal: **“Não se deve divulgar”** e **“Não deve divulgar-se”** ilustram possibilidades na construção com infinitivo. Com particípio, não se prende o pronome diretamente a ele como em “tinha divulgado-se”; é preciso usar posição compatível. O estudo não deve transformar uma opção admissível em única solução sem examinar a estrutura.\n\n**“Em se tratando de preservação”** é uma construção particular com em + gerúndio. Antes de comparar com “tratando-se”, considere o contexto e a expressão completa. O fato de duas sequências aparecerem no uso não prova que sejam substituíveis em qualquer oração.\n\n**Recuperação:** explique por que o não mantém se antes de publicará e por que o particípio pede cuidado diferente do infinitivo. Depois formule uma frase nova no registro formal e confronte a regra pertinente.",
+    "checkpointIds": [
+      "cp-13-4-3",
+      "rt-13-4-7",
+      "rt-13-4-8"
+    ]
+  }
+],
+fontesTeoria: [
+  {
+    "id": "acordo",
+    "titulo": "Acordo Ortográfico — Decreto 6.583/2008",
+    "localizador": "Anexo I: acentuação e hífen; observar as condições e ressalvas de cada base.",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/decreto/d6583.htm"
+  },
+  {
+    "id": "mrpr",
+    "titulo": "Manual de Redação da Presidência, 3ª ed. (2018)",
+    "localizador": "Aspectos gramaticais e aplicação à escrita formal.",
+    "url": "https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf"
+  },
+  {
+    "id": "marcuschi",
+    "titulo": "Marcuschi — Gêneros textuais: definição e funcionalidade",
+    "localizador": "Distinção de tipos e gêneros e heterogeneidade tipológica.",
+    "url": "https://sigconteudo.ufsb.edu.br/arquivos/2023027236fd0b90089186d2fffad860/Art_Marcuschi_Gneros_textuais_definies_funcionalidade.pdf"
+  }
+],
 };
